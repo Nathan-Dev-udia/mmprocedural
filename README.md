@@ -1,8 +1,8 @@
 # Gerador de fichas · M&M 3ª edição
 
-Gera fichas de Mutantes & Malfeitores 3e para vários gêneros de campanha (hoje: **Faroeste** e **Cyberpunk**). O gênero é escolhido no topo da página; cada um tem duas abas:
+Gera fichas de Mutantes & Malfeitores 3e para vários gêneros de campanha (hoje: **Faroeste** e **Cyberpunk**). Cada gênero tem duas abas:
 
-- **Ficha de jogador:** um personagem por vez, a partir dos arquétipos de jogador do gênero. Gasta exatamente 15 PP por NP e exige Motivação e mais uma complicação. O equipamento é comprado com o dinheiro inicial: dólares no faroeste, eurobucks no cyberpunk (preços do Cyberpunk RED). No cyberpunk, o personagem também pode ter implantes, que custam PP e eurobucks.
+- **Ficha de jogador:** um personagem por vez, num passo a passo (Gênero → Nome → Arquétipo → Vantagens → Implantes, só no cyberpunk → Armas e itens → Complicações → Ficha). O último passo resume as escolhas antes de gerar. Feito a partir dos arquétipos de jogador do gênero. Gasta exatamente 15 PP por NP e exige Motivação e mais uma complicação. O equipamento é comprado com o dinheiro inicial: dólares no faroeste, eurobucks no cyberpunk (preços do Cyberpunk RED). No cyberpunk, o personagem também pode ter implantes, que custam PP e eurobucks.
 - **Fichas de NPC:** grupos a partir de fichas-base dos livros e módulos cadastrados em JSON. A ficha sobe até 70–100% dos limites do NP escolhido.
 
 ## Como rodar
@@ -103,8 +103,8 @@ O programa entende os efeitos que mudam habilidades e defesas (Força Aumentada,
 
 Cada cartão tem três formatos:
 
+- **Baixar PDF (ficha editável)** (botão em destaque): preenche a ficha de personagem editável de M&M. O PDF continua editável, e os números seguem as fórmulas do próprio formulário.
 - **Baixar DOCX:** a ficha em Word, com tabelas (habilidades, defesas, ataques, perícias), vantagens, poderes, equipamento, custos, descrição, tática e validação.
-- **Baixar PDF (ficha editável):** preenche a ficha de personagem editável de M&M. O PDF continua editável, e os números seguem as fórmulas do próprio formulário.
 - **Baixar TXT:** o mesmo bloco de texto do botão "Copiar texto".
 
 **Baixar todas as fichas (.zip)** traz `docx/` e `pdf/` com uma ficha por NPC, mais `todas_as_fichas.docx` (uma ficha por página) e `todas_as_fichas.txt`. **Baixar JSON** traz os dados completos do grupo.

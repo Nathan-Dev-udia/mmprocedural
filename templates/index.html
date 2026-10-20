@@ -10,138 +10,189 @@
     </ul>
   </section>
 {% else %}
-  <div class="seletor-genero">
-    <label><span>Gênero</span> <select id="genero"></select></label>
-    <small id="genero-descricao"></small>
-  </div>
-
   <nav class="abas" role="tablist">
     <button type="button" class="aba" role="tab" data-aba="jogador">Ficha de jogador</button>
     <button type="button" class="aba" role="tab" data-aba="npc">Fichas de NPC</button>
   </nav>
 
-  <!-- ===================== Aba: ficha de jogador ===================== -->
+  <!-- ===================== Aba: ficha de jogador (passo a passo) ===================== -->
   <section id="aba-jogador" class="painel-aba" role="tabpanel">
-    <form id="formulario-pj" class="painel formulario">
-      <label>
-        <span>Nome do personagem</span>
-        <input id="pj-nome" type="text" placeholder="Em branco: o gerador sorteia">
-      </label>
-      <label>
-        <span>Jogador</span>
-        <input id="pj-jogador" type="text" placeholder="Opcional">
-      </label>
-      <label>
-        <span>Arquétipo</span>
-        <select id="pj-arquetipo"></select>
-        <small id="pj-conceito"></small>
-      </label>
-      <label>
-        <span>Foco</span>
-        <select id="pj-foco"></select>
-        <small id="pj-foco-descricao"></small>
-      </label>
-      <label>
-        <span>Nível de poder</span>
-        <select id="pj-np"></select>
-        <small>Personagem de jogador gasta exatamente 15 PP por NP.</small>
-      </label>
-      <label id="pj-riqueza-campo">
-        <span>Condição financeira</span>
-        <select id="pj-riqueza"></select>
-        <small id="pj-riqueza-descricao"></small>
-      </label>
+    <form id="formulario-pj" class="painel assistente">
+      <ol class="passos" role="tablist">
+        <li><button type="button" class="passo-aba" role="tab" data-passo="genero">Gênero</button></li>
+        <li><button type="button" class="passo-aba" role="tab" data-passo="identidade">Nome</button></li>
+        <li><button type="button" class="passo-aba" role="tab" data-passo="arquetipo">Arquétipo</button></li>
+        <li><button type="button" class="passo-aba" role="tab" data-passo="vantagens">Vantagens</button></li>
+        <li id="pj-passo-implantes-aba"><button type="button" class="passo-aba" role="tab" data-passo="implantes" id="pj-implantes-aba">Poderes</button></li>
+        <li><button type="button" class="passo-aba" role="tab" data-passo="equipamento">Armas e itens</button></li>
+        <li><button type="button" class="passo-aba" role="tab" data-passo="complicacoes">Complicações</button></li>
+        <li><button type="button" class="passo-aba" role="tab" data-passo="ficha">Ficha</button></li>
+      </ol>
 
-      <fieldset class="escolha-form" id="pj-bloco-vantagens">
-        <legend>Vantagens</legend>
-        <div class="modo-escolha">
-          <label><input type="radio" name="pj-vantagens-modo" value="auto" checked> Sortear de acordo com o arquétipo</label>
-          <label><input type="radio" name="pj-vantagens-modo" value="manual"> Escolher</label>
+      <section class="passo" data-passo="genero" role="tabpanel">
+        <h2 class="titulo-passo">Gênero da campanha</h2>
+        <div class="campos">
+          <label class="campo">
+            <span>Gênero</span>
+            <select id="genero"></select>
+            <small id="genero-descricao"></small>
+          </label>
         </div>
-        <div id="pj-vantagens-lista" class="lista-escolha" hidden>
-          <p id="pj-vantagens-contador" class="contador"></p>
-          <div id="pj-vantagens-grupos"></div>
-        </div>
-      </fieldset>
+        <p class="dica">Trocar o gênero recarrega a página com os arquétipos, equipamentos e preços dele.</p>
+      </section>
 
-      <fieldset class="escolha-form" id="pj-bloco-implantes" hidden>
-        <legend id="pj-implantes-titulo">Poderes</legend>
-        <div class="modo-escolha">
-          <label><input type="radio" name="pj-implantes-modo" value="auto" checked> Sortear de acordo com o arquétipo</label>
-          <label><input type="radio" name="pj-implantes-modo" value="manual"> Escolher</label>
+      <section class="passo" data-passo="identidade" role="tabpanel" hidden>
+        <h2 class="titulo-passo">Nome</h2>
+        <div class="campos">
+          <label class="campo">
+            <span>Nome do personagem</span>
+            <input id="pj-nome" type="text" placeholder="Em branco: o gerador sorteia">
+          </label>
+          <label class="campo">
+            <span>Jogador</span>
+            <input id="pj-jogador" type="text" placeholder="Opcional">
+          </label>
         </div>
-        <div id="pj-implantes-lista" class="lista-escolha" hidden>
-          <p id="pj-implantes-contador" class="contador"></p>
-          <div id="pj-implantes-grupos"></div>
-        </div>
-      </fieldset>
+      </section>
 
-      <fieldset class="escolha-form" id="pj-bloco-equipamento">
-        <legend>Armas e itens</legend>
-        <div class="modo-escolha">
-          <label><input type="radio" name="pj-equipamento-modo" value="auto" checked> Sortear de acordo com o arquétipo</label>
-          <label><input type="radio" name="pj-equipamento-modo" value="manual"> Escolher</label>
+      <section class="passo" data-passo="arquetipo" role="tabpanel" hidden>
+        <h2 class="titulo-passo">Arquétipo</h2>
+        <div class="campos">
+          <label class="campo">
+            <span>Arquétipo</span>
+            <select id="pj-arquetipo"></select>
+            <small id="pj-conceito"></small>
+          </label>
+          <label class="campo">
+            <span>Foco</span>
+            <select id="pj-foco"></select>
+            <small id="pj-foco-descricao"></small>
+          </label>
+          <label class="campo">
+            <span>Nível de poder</span>
+            <select id="pj-np"></select>
+            <small>Personagem de jogador gasta exatamente 15 PP por NP.</small>
+          </label>
+          <label class="campo" id="pj-riqueza-campo">
+            <span>Condição financeira</span>
+            <select id="pj-riqueza"></select>
+            <small id="pj-riqueza-descricao"></small>
+          </label>
         </div>
-        <div id="pj-equipamento-lista" class="lista-escolha" hidden>
-          <p id="pj-equipamento-contador" class="contador"></p>
-          <div id="pj-excesso" class="excesso" hidden>
-            <p class="excesso-titulo">Passou do dinheiro. Como pagar a diferença?</p>
-            <label><input type="radio" name="pj-excesso" value="pontos" checked> <span id="pj-excesso-pontos"></span></label>
-            <label><input type="radio" name="pj-excesso" value="divida"> <span id="pj-excesso-divida"></span></label>
+      </section>
+
+      <section class="passo" data-passo="vantagens" role="tabpanel" hidden>
+        <fieldset class="escolha-form" id="pj-bloco-vantagens">
+          <legend class="titulo-passo">Vantagens</legend>
+          <div class="modo-escolha">
+            <label><input type="radio" name="pj-vantagens-modo" value="auto" checked> Sortear de acordo com o arquétipo</label>
+            <label><input type="radio" name="pj-vantagens-modo" value="manual"> Escolher</label>
           </div>
-          <div id="pj-equipamento-grupos"></div>
-        </div>
-      </fieldset>
+          <div id="pj-vantagens-lista" class="lista-escolha" hidden>
+            <p id="pj-vantagens-contador" class="contador"></p>
+            <div id="pj-vantagens-grupos"></div>
+          </div>
+        </fieldset>
+      </section>
 
-      <fieldset class="complicacoes-form">
-        <legend>Complicações <small>(pelo menos duas, uma delas a Motivação)</small></legend>
-        <div class="linha-complicacao">
-          <select id="pj-motivacao" aria-label="Motivação"></select>
-          <input id="pj-motivacao-detalhe" type="text" placeholder="Detalhe da motivação (opcional)">
-          <span class="rotulo-fixo">Motivação</span>
-        </div>
-        <div id="pj-complicacoes"></div>
-        <div class="botoes">
-          <button type="button" id="pj-adicionar-complicacao" class="botao pequeno">Adicionar complicação</button>
-          <button type="button" id="pj-sortear" class="botao pequeno">Sortear complicações</button>
-        </div>
-      </fieldset>
+      <section class="passo" data-passo="implantes" role="tabpanel" hidden>
+        <fieldset class="escolha-form" id="pj-bloco-implantes">
+          <legend class="titulo-passo" id="pj-implantes-titulo">Poderes</legend>
+          <div class="modo-escolha">
+            <label><input type="radio" name="pj-implantes-modo" value="auto" checked> Sortear de acordo com o arquétipo</label>
+            <label><input type="radio" name="pj-implantes-modo" value="manual"> Escolher</label>
+          </div>
+          <div id="pj-implantes-lista" class="lista-escolha" hidden>
+            <p id="pj-implantes-contador" class="contador"></p>
+            <div id="pj-implantes-grupos"></div>
+          </div>
+        </fieldset>
+      </section>
 
-      <div class="acoes-formulario">
-        <button type="submit" class="botao principal">Gerar ficha</button>
+      <section class="passo" data-passo="equipamento" role="tabpanel" hidden>
+        <fieldset class="escolha-form" id="pj-bloco-equipamento">
+          <legend class="titulo-passo">Armas e itens</legend>
+          <div class="modo-escolha">
+            <label><input type="radio" name="pj-equipamento-modo" value="auto" checked> Sortear de acordo com o arquétipo</label>
+            <label><input type="radio" name="pj-equipamento-modo" value="manual"> Escolher</label>
+          </div>
+          <div id="pj-equipamento-lista" class="lista-escolha" hidden>
+            <p id="pj-equipamento-contador" class="contador"></p>
+            <div id="pj-excesso" class="excesso" hidden>
+              <p class="excesso-titulo">Passou do dinheiro. Como pagar a diferença?</p>
+              <label><input type="radio" name="pj-excesso" value="pontos" checked> <span id="pj-excesso-pontos"></span></label>
+              <label><input type="radio" name="pj-excesso" value="divida"> <span id="pj-excesso-divida"></span></label>
+            </div>
+            <div id="pj-equipamento-grupos"></div>
+          </div>
+        </fieldset>
+      </section>
+
+      <section class="passo" data-passo="complicacoes" role="tabpanel" hidden>
+        <fieldset class="complicacoes-form">
+          <legend class="titulo-passo">Complicações</legend>
+          <p class="dica">Pelo menos duas, uma delas a Motivação.</p>
+          <div class="linha-complicacao">
+            <select id="pj-motivacao" aria-label="Motivação"></select>
+            <input id="pj-motivacao-detalhe" type="text" placeholder="Detalhe da motivação (opcional)">
+            <span class="rotulo-fixo">Motivação</span>
+          </div>
+          <div id="pj-complicacoes"></div>
+          <div class="botoes">
+            <button type="button" id="pj-adicionar-complicacao" class="botao pequeno">Adicionar complicação</button>
+            <button type="button" id="pj-sortear" class="botao pequeno">Sortear complicações</button>
+          </div>
+        </fieldset>
+      </section>
+
+      <section class="passo" data-passo="ficha" role="tabpanel" hidden>
+        <h2 class="titulo-passo">Ficha</h2>
+        <dl id="pj-resumo" class="resumo"></dl>
+        <div class="acoes-formulario">
+          <button type="submit" class="botao principal">Gerar ficha</button>
+        </div>
+
+        <section id="resultado-pj" hidden>
+          <div class="barra-resultado">
+            <p>Sua ficha</p>
+            <div class="botoes">
+              <button type="button" id="pj-outra-versao" class="botao">Gerar outra versão</button>
+            </div>
+          </div>
+          <div id="cartao-pj" class="cartoes cartoes-um"></div>
+        </section>
+      </section>
+
+      <div class="navegacao-passos">
+        <button type="button" id="pj-voltar" class="botao">← Voltar</button>
+        <button type="button" id="pj-proximo" class="botao principal">Próximo →</button>
       </div>
     </form>
-
-    <section id="resultado-pj" hidden>
-      <div class="barra-resultado">
-        <p>Sua ficha</p>
-        <div class="botoes">
-          <button type="button" id="pj-outra-versao" class="botao">Gerar outra versão</button>
-        </div>
-      </div>
-      <div id="cartao-pj" class="cartoes cartoes-um"></div>
-    </section>
   </section>
 
   <!-- ===================== Aba: fichas de NPC ===================== -->
   <section id="aba-npc" class="painel-aba" role="tabpanel" hidden>
     <form id="formulario-npc" class="painel formulario">
-      <label>
+      <label class="campo">
+        <span>Gênero</span>
+        <select id="npc-genero"></select>
+      </label>
+      <label class="campo">
         <span>Arquétipo</span>
         <select id="arquetipo"></select>
         <small id="arquetipo-descricao"></small>
       </label>
-      <label>
+      <label class="campo">
         <span>Nível de poder</span>
         <select id="np"></select>
         <small>A ficha sobe até 70–100% dos limites do NP escolhido.</small>
       </label>
-      <label>
+      <label class="campo">
         <span>Variação</span>
         <select id="estilo"></select>
         <small id="estilo-descricao"></small>
       </label>
-      <label>
+      <label class="campo">
         <span>Quantidade</span>
         <input id="quantidade" type="number" min="1">
         <small id="quantidade-ajuda"></small>

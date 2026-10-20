@@ -188,8 +188,8 @@ function cartao(ficha, { regerar = false, aberto = false } = {}) {
     </details>
 
     <footer>
-      <button type="button" class="botao pequeno destaque" data-acao="docx">Baixar DOCX</button>
-      ${opcoes.pdf_disponivel ? "<button type='button' class='botao pequeno' data-acao='pdf'>Baixar PDF (ficha editável)</button>" : ""}
+      ${opcoes.pdf_disponivel ? "<button type='button' class='botao pequeno destaque' data-acao='pdf'>Baixar PDF (ficha editável)</button>" : ""}
+      <button type="button" class="botao pequeno ${opcoes.pdf_disponivel ? "" : "destaque"}" data-acao="docx">Baixar DOCX</button>
       <button type="button" class="botao pequeno" data-acao="txt">Baixar TXT</button>
       <button type="button" class="botao pequeno" data-acao="copiar">Copiar texto</button>
       ${regerar ? "<button type='button' class='botao pequeno' data-acao='regerar'>Regerar este</button>" : ""}
@@ -552,7 +552,9 @@ function prepararAbaJogador() {
   el("pj-riqueza").value = pj().riqueza.some((r) => r.id === "classe_media") ? "classe_media" : pj().riqueza[0].id;
   el("pj-riqueza-campo").hidden = emPontos();
   el("pj-bloco-implantes").hidden = !temImplantes();
+  el("pj-passo-implantes-aba").hidden = !temImplantes();
   el("pj-implantes-titulo").textContent = pj().rotulo_poderes;
+  el("pj-implantes-aba").textContent = pj().rotulo_poderes;
   el("pj-bloco-equipamento").querySelector("legend").textContent =
     emPontos() ? "Armas e itens (pagos com a vantagem Equipamento)" : "Armas e itens";
   el("pj-motivacao").innerHTML = pj().motivacoes
@@ -608,6 +610,11 @@ function prepararAbaJogador() {
 
   el("formulario-pj").addEventListener("submit", (evento) => {
     evento.preventDefault();
+    // Enter num campo antes do último passo só avança; a ficha sai no passo "Ficha".
+    if (passoAtual !== "ficha") {
+      avancarPasso(1);
+      return;
+    }
     const complicacoes = [{ categoria: "motivacao", nome: el("pj-motivacao").value,
                             detalhe: el("pj-motivacao-detalhe").value }];
     document.querySelectorAll("#pj-complicacoes .linha-complicacao").forEach((linha) => complicacoes.push({
@@ -646,25 +653,111 @@ async function gerarPersonagem(parametros) {
     estado.pj = { parametros, personagem: dados.personagem };
     el("resultado-pj").hidden = false;
     el("cartao-pj").innerHTML = cartao(dados.personagem, { aberto: true });
+    el("resultado-pj").scrollIntoView({ behavior: "smooth", block: "start" });
   } catch (erro) {
     mostrarMensagem(erro.message, true);
   }
 }
 
+// ---------------------------------------------------------------- passo a passo da ficha de jogador
+
+const PASSOS = ["genero", "identidade", "arquetipo", "vantagens", "implantes", "equipamento", "complicacoes", "ficha"];
+const passosAtivos = () => PASSOS.filter((p) => p !== "implantes" || temImplantes());
+let passoAtual = "genero";
+
+function irParaPasso(nome) {
+  const ativos = passosAtivos();
+  if (!ativos.includes(nome)) nome = ativos[0];
+  const indice = ativos.indexOf(nome);
+  passoAtual = nome;
+  document.querySelectorAll("#formulario-pj .passo").forEach((s) => { s.hidden = s.dataset.passo !== nome; });
+  document.querySelectorAll(".passo-aba").forEach((b) => {
+    b.setAttribute("aria-selected", b.dataset.passo === nome);
+    b.classList.toggle("feito", ativos.indexOf(b.dataset.passo) > -1 && ativos.indexOf(b.dataset.passo) < indice);
+  });
+  el("pj-voltar").disabled = indice === 0;
+  el("pj-proximo").hidden = indice === ativos.length - 1;
+  if (nome === "ficha") desenharResumo();
+  const topo = el("formulario-pj").getBoundingClientRect().top;
+  if (topo < 0) el("formulario-pj").scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+function avancarPasso(direcao) {
+  const ativos = passosAtivos();
+  const destino = ativos[ativos.indexOf(passoAtual) + direcao];
+  if (destino) irParaPasso(destino);
+}
+
+function desenharResumo() {
+  const np = Number(el("pj-np").value);
+  const marcados = (nome) => document.querySelectorAll(`input[name="${nome}"]:checked`).length;
+  const escolha = (modoNome, nome, plural) => (modo(modoNome) === "manual"
+    ? `${marcados(nome)} ${plural} à mão` : "sorteados de acordo com o arquétipo");
+  let equipamento = escolha("pj-equipamento-modo", "pj-item", "escolhidos");
+  if (modo("pj-equipamento-modo") === "manual" && !el("pj-excesso").hidden) {
+    equipamento += modo("pj-excesso") === "pontos" ? "; a diferença é paga com pontos" : "; a diferença fica como dívida";
+  }
+  const complicacoes = [el("pj-motivacao").value,
+    ...[...document.querySelectorAll("#pj-complicacoes .pj-complicacao")].map((s) => s.value)];
+  const linhas = [
+    ["genero", "Gênero", opcoes.genero.nome],
+    ["identidade", "Nome", el("pj-nome").value.trim() || "sorteado pelo gerador"],
+    ["identidade", "Jogador", el("pj-jogador").value.trim() || "—"],
+    ["arquetipo", "Arquétipo", `${arquetipoPj().nome} · foco ${focoPj().nome}`],
+    ["arquetipo", "Nível de poder", `NP ${np} (${np * 15} PP)`],
+    !emPontos() && ["arquetipo", "Condição financeira", riquezaPj().nome],
+    ["vantagens", "Vantagens", escolha("pj-vantagens-modo", "pj-vantagem", "escolhidas")],
+    temImplantes() && ["implantes", pj().rotulo_poderes, escolha("pj-implantes-modo", "pj-implante", "escolhidos")],
+    ["equipamento", "Armas e itens", equipamento],
+    ["complicacoes", "Complicações", complicacoes.join(", ")],
+  ].filter(Boolean);
+  const passouDoOrcamento = el("pj-vantagens-contador").classList.contains("aviso") &&
+    (modo("pj-vantagens-modo") === "manual" || modo("pj-equipamento-modo") === "manual" ||
+     (temImplantes() && modo("pj-implantes-modo") === "manual"));
+  el("pj-resumo").innerHTML = linhas.map(([passo, rotulo, valor]) =>
+    `<div><dt>${escapar(rotulo)}</dt><dd>${escapar(valor)}` +
+    ` <button type="button" class="link" data-ir="${passo}">alterar</button></dd></div>`).join("") +
+    (passouDoOrcamento ? `<p class="aviso-texto">${escapar(el("pj-vantagens-contador").textContent)}</p>` : "");
+}
+
+function prepararPassos() {
+  document.querySelectorAll(".passo-aba").forEach((b) => b.addEventListener("click", () => irParaPasso(b.dataset.passo)));
+  el("pj-voltar").addEventListener("click", () => avancarPasso(-1));
+  el("pj-proximo").addEventListener("click", () => avancarPasso(1));
+  el("pj-resumo").addEventListener("click", (evento) => {
+    const botao = evento.target.closest("button[data-ir]");
+    if (botao) irParaPasso(botao.dataset.ir);
+  });
+  // Depois de trocar o gênero (a página recarrega), continua no passo seguinte.
+  let inicial = "genero";
+  try {
+    inicial = sessionStorage.getItem("passo") || inicial;
+    sessionStorage.removeItem("passo");
+  } catch { /* armazenamento indisponível */ }
+  irParaPasso(inicial);
+}
+
 // ---------------------------------------------------------------- início
 
+// O gênero aparece no primeiro passo da ficha de jogador e no formulário de NPC.
 function prepararGenero() {
-  el("genero").innerHTML = opcoesDeSelect(opcoes.generos);
-  el("genero").value = opcoes.genero.id;
   el("genero-descricao").textContent = opcoes.genero.descricao;
-  el("genero").addEventListener("change", () => {
-    window.location.search = `?genero=${encodeURIComponent(el("genero").value)}`;
+  ["genero", "npc-genero"].forEach((id) => {
+    el(id).innerHTML = opcoesDeSelect(opcoes.generos);
+    el(id).value = opcoes.genero.id;
+    el(id).addEventListener("change", () => {
+      if (id === "genero") {
+        try { sessionStorage.setItem("passo", "identidade"); } catch { /* armazenamento indisponível */ }
+      }
+      window.location.search = `?genero=${encodeURIComponent(el(id).value)}`;
+    });
   });
 }
 
 document.addEventListener("DOMContentLoaded", () => {
   prepararGenero();
   prepararAbaJogador();
+  prepararPassos();
   prepararAbaNpc();
   document.querySelectorAll(".aba").forEach((b) => b.addEventListener("click", () => trocarAba(b.dataset.aba)));
   let inicial = "jogador";

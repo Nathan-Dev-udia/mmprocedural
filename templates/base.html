@@ -3,13 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% block titulo %}Gerador de NPCs{% endblock %}</title>
+  <title>{% block titulo %}Gerador de fichas M&amp;M{% endblock %}</title>
+  <link rel="icon" type="image/png" href="{{ url_for('static', filename='img/logo.png') }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bangers&display=swap">
   <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
   <header class="topo">
-    <h1>Gerador de NPCs</h1>
-    <p>Mutantes &amp; Malfeitores 3ª edição · Velho Oeste</p>
+    <img class="logo" src="{{ url_for('static', filename='img/logo.png') }}" alt="M&amp;M">
+    <div>
+      <h1>Gerador de fichas</h1>
+      <p>Mutantes &amp; Malfeitores 3ª edição{% if opcoes %} · {{ opcoes.genero.nome }}{% endif %}</p>
+    </div>
   </header>
   <main class="conteudo">
     {% block conteudo %}{% endblock %}
