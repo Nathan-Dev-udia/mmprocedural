@@ -20,8 +20,9 @@ from nucleo import data_loader, docx_export, formatter, generator, pdf_export, p
 
 app = Flask(__name__)
 
-# Versão mostrada no rodapé. Suba a cada entrega: 1.0 original, 1.1 passo a passo, 1.2 quantidades, 1.3 fantasia.
-VERSAO = "1.3.0"
+# Versão mostrada no rodapé. Suba a cada entrega: 1.0 original, 1.1 passo a passo, 1.2 quantidades, 1.3 fantasia,
+# 1.4 distribuição dos pontos parecida com a dos arquétipos do livro.
+VERSAO = "1.4.0"
 
 
 def _commit_atual():

@@ -58,6 +58,9 @@ def _passo_permitido(ficha, passo, habilidade_maxima, np):
         # –5 é como as fichas guardam uma habilidade ausente ("—" no livro, ex.: o Vigor de um esqueleto):
         # ela não sobe.
         return rules.HABILIDADE_MINIMA < atual < habilidade_maxima
+    if passo["tipo"] == "pericia" and passo.get("teto") is not None:
+        # Perícias fora da especialidade do personagem param num teto baixo (ex.: Atletismo num mago).
+        return ficha.get("pericias", {}).get(passo["nome"], 0) < passo["teto"]
     if passo["tipo"] == "vantagem":
         atual = ficha.get("vantagens", {}).get(passo["nome"], 0)
         base = rules.nome_base(passo["nome"])
@@ -157,39 +160,51 @@ CHANCE_DE_ATINGIR_O_TETO = 0.01
 
 
 def subir(ficha, np, passos, catalogo, rng, objetivo, opcoes_validacao=None,
-          habilidade_maxima=rules.HABILIDADE_MAXIMA_HUMANA, orcamento=None, max_passos=500):
+          habilidade_maxima=rules.HABILIDADE_MAXIMA_HUMANA, orcamento=None, max_passos=500, teto_pericias=None):
     """Aplica passos até `objetivo(ficha, relatorio)` ser verdadeiro ou nenhum passo caber.
 
     `orcamento`: se informado, nenhum passo pode deixar o total de PP acima dele.
+    `teto_pericias`: PP que as perícias podem custar enquanto houver outra coisa para subir. Perícia é o passo
+    mais barato (meio ponto por graduação); sem teto, a sobra do orçamento vai toda para elas.
     Passos que levam algo ao teto do NP ficam para depois (ou passam com 1% de chance).
     """
     relatorio = validator.validar(ficha, np, catalogo, opcoes_validacao)
     for _ in range(max_passos):
         if objetivo(ficha, relatorio):
             break
-        saturacoes = [saturacao(p, relatorio, ficha, np, habilidade_maxima) for p in passos]
-        adiados = []
-        escolhido = None
-        for passo in _ordem_ponderada(passos, rng, saturacoes):
-            if not _passo_permitido(ficha, passo, habilidade_maxima, np):
-                continue
-            nova = aplicar_passo(ficha, passo)
-            novo_relatorio = validator.validar(nova, np, catalogo, opcoes_validacao)
-            if novo_relatorio["problemas"]:
-                continue
-            if orcamento is not None and (novo_relatorio["total_pp"] or 0) > orcamento:
-                continue
-            # Conta qualquer coisa que chegue ao teto com este passo (subir Agilidade, por exemplo,
-            # também sobe Furtividade e Acrobacia).
-            if (_no_teto(novo_relatorio) > _no_teto(relatorio)
-                    and rng.random() >= CHANCE_DE_ATINGIR_O_TETO):
-                adiados.append((nova, novo_relatorio))
-                continue
-            escolhido = (nova, novo_relatorio)
-            break
-        if escolhido is None and adiados:
-            escolhido = adiados[0]   # só sobrou o que vai ao teto
+        escolhido = _escolher_passo(ficha, relatorio, np, passos, catalogo, rng, opcoes_validacao,
+                                    habilidade_maxima, orcamento, teto_pericias)
+        if escolhido is None and teto_pericias is not None:
+            # Só sobraram perícias: o teto cede para o orçamento fechar.
+            escolhido = _escolher_passo(ficha, relatorio, np, passos, catalogo, rng, opcoes_validacao,
+                                        habilidade_maxima, orcamento, None)
         if escolhido is None:
             break   # nenhum passo coube
         ficha, relatorio = escolhido
     return ficha
+
+
+def _escolher_passo(ficha, relatorio, np, passos, catalogo, rng, opcoes_validacao, habilidade_maxima, orcamento,
+                    teto_pericias):
+    """O próximo passo (ficha nova, relatório), ou None se nenhum couber."""
+    if teto_pericias is not None and (relatorio["custos"]["pericias"] or 0) >= teto_pericias:
+        passos = [p for p in passos if p["tipo"] != "pericia"]
+    saturacoes = [saturacao(p, relatorio, ficha, np, habilidade_maxima) for p in passos]
+    adiados = []
+    for passo in _ordem_ponderada(passos, rng, saturacoes):
+        if not _passo_permitido(ficha, passo, habilidade_maxima, np):
+            continue
+        nova = aplicar_passo(ficha, passo)
+        novo_relatorio = validator.validar(nova, np, catalogo, opcoes_validacao)
+        if novo_relatorio["problemas"]:
+            continue
+        if orcamento is not None and (novo_relatorio["total_pp"] or 0) > orcamento:
+            continue
+        # Conta qualquer coisa que chegue ao teto com este passo (subir Agilidade, por exemplo,
+        # também sobe Furtividade e Acrobacia).
+        if (_no_teto(novo_relatorio) > _no_teto(relatorio)
+                and rng.random() >= CHANCE_DE_ATINGIR_O_TETO):
+            adiados.append((nova, novo_relatorio))
+            continue
+        return nova, novo_relatorio
+    return adiados[0] if adiados else None   # só sobrou o que vai ao teto

@@ -270,11 +270,11 @@ def _equipamento_automatico(dados, arquetipo, foco, np, vantagens, rng):
 
     opcionais = rng.sample(arquetipo["itens"]["opcionais"], k=min(len(arquetipo["itens"]["opcionais"]),
                                                                     rng.randint(1, 3)))
-    # Ordem de compra (o dinheiro pode acabar no meio): armas principais e a munição delas, itens básicos,
-    # essenciais (armadura...), itens do foco, a arma secundária com a munição e, por último, os opcionais.
-    secundarias_compradas = [secundaria] if secundaria else []
-    ordem = (lista + municoes(lista) + itens_basicos(dados) + arquetipo["itens"]["essenciais"] + foco.get("itens", [])
-             + secundarias_compradas + municoes(secundarias_compradas) + opcionais)
+    # Ordem de compra (o dinheiro pode acabar no meio): a primeira arma e a munição dela, itens básicos,
+    # essenciais (armadura...), itens do foco, as outras armas com a munição e, por último, os opcionais.
+    primeira, outras = lista[:1], lista[1:] + ([secundaria] if secundaria else [])
+    ordem = (primeira + municoes(primeira) + itens_basicos(dados) + arquetipo["itens"]["essenciais"]
+             + foco.get("itens", []) + outras + municoes(outras) + opcionais)
     sem_repetir = []
     for item in ordem:
         if item not in sem_repetir:
@@ -467,24 +467,47 @@ def _instalar_implantes(dados, ficha, ids, np, opcoes, teto_de_pontos=None, dinh
 # ---------------------------------------------------------------- distribuição dos pontos
 
 def _pericias_das_armas(dados, ficha):
-    """Perícias de ataque dos poderes e das armas que a ficha carrega (na ordem em que entraram).
+    """Perícias de ataque que o personagem treina: as dos poderes, se ele ataca com poderes (um mago treina a
+    magia, não o bordão que carrega); senão, as das armas que ele de fato carrega (não adianta treinar fuzil
+    sem fuzil)."""
+    def pericias(ataques):
+        return list(dict.fromkeys(a["pericia"] for a in ataques if a and a.get("pericia")))
+    dos_poderes = pericias(p.get("ataque") for p in ficha["poderes"].values())
+    return dos_poderes or pericias(dados["equipamentos"][i].get("ataque") for i in ficha["equipamento"])
 
-    Os poderes vêm antes: um mago treina a perícia das magias, não a da adaga que carrega.
-    """
-    ataques = [p.get("ataque") for p in ficha["poderes"].values()]
-    ataques += [dados["equipamentos"][i].get("ataque") for i in ficha["equipamento"]]
-    return list(dict.fromkeys(a["pericia"] for a in ataques if a and a.get("pericia")))
+
+# Parte dos PP (sem contar poderes) que as perícias podem levar. Os arquétipos do livro básico gastam ~20%
+# (de 13% no Guerreiro a 32% no Mestre de Armas); personagens sem superpoderes vivem mais de perícia.
+PARTE_DAS_PERICIAS = 0.30
+
+# Habilidades que recebem a sobra do orçamento, na ordem de preferência (Força por último: só ajuda quem bate).
+HABILIDADES_DE_RESERVA = ["Vig", "Agi", "Pro", "Des", "Lut", "Int", "Pre", "For"]
 
 
-def _passos(dados, arquetipo, foco, vantagens_extras, so_vantagens_escolhidas, vantagens, ficha=None):
+def teto_de_pericia_fora_da_classe(np):
+    """Graduações máximas de uma perícia que não é da especialidade do personagem (ex.: Atletismo num mago)."""
+    return max(2, np // 2)
+
+
+def _passos(dados, arquetipo, foco, vantagens_extras, so_vantagens_escolhidas, vantagens, ficha=None, np=6):
     reserva = dados["configuracoes"].get("pericias_de_reserva", PERICIAS_DE_RESERVA)
+    teto = teto_de_pericia_fora_da_classe(np)
     passos = [escalar.ler_passo(p) for p in foco.get("prioridades", [])]
-    # As armas que o personagem de fato carrega vêm logo depois do foco: não adianta treinar fuzil sem fuzil.
+    # As perícias de ataque vêm logo depois do foco.
     passos += [{"tipo": "pericia", "nome": p} for p in (_pericias_das_armas(dados, ficha) if ficha else [])][:2]
     passos += [escalar.ler_passo(p) for p in arquetipo["prioridades"]]
-    passos += [escalar.ler_passo(p) for p in dados["configuracoes"].get("prioridades_gerais", [])]
+    da_classe = {p["nome"] for p in passos if p["tipo"] == "pericia"}
+
+    def com_teto(passo):
+        if passo["tipo"] == "pericia" and passo["nome"] not in da_classe:
+            return dict(passo, teto=teto)
+        return passo
+
+    passos += [com_teto(escalar.ler_passo(p)) for p in dados["configuracoes"].get("prioridades_gerais", [])]
     passos += [{"tipo": "vantagem", "nome": v} for v in vantagens_extras]
-    passos += [{"tipo": "pericia", "nome": p} for p in reserva]
+    # A sobra vai primeiro para as habilidades (como nos arquétipos do livro), e só depois para perícias.
+    passos += [{"tipo": "habilidade", "nome": h} for h in HABILIDADES_DE_RESERVA]
+    passos += [com_teto({"tipo": "pericia", "nome": p}) for p in reserva]
     if so_vantagens_escolhidas:
         # Com vantagens escolhidas pelo jogador, o gerador só sobe graduações das que ele marcou.
         passos = [p for p in passos if p["tipo"] != "vantagem" or p["nome"] in vantagens]
@@ -632,11 +655,13 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
             f"As escolhas já custam {inicial} PP (vantagens, equipamento e {rotulo.lower()}), mais que o "
             f"orçamento de {orcamento} PP do NP {np}. Tire alguma coisa ou suba o NP.")
 
-    passos = _passos(dados, arquetipo, foco, extras, manual_vantagens, vantagens, ficha)
+    passos = _passos(dados, arquetipo, foco, extras, manual_vantagens, vantagens, ficha, np)
+    sem_poderes = orcamento - (poderes_mod.custo_total(ficha["poderes"]) or 0)
     ficha = escalar.subir(
         ficha, np, passos, dados["equipamentos"], rng,
         objetivo=lambda _f, relatorio: (relatorio["total_pp"] or 0) >= orcamento,
         opcoes_validacao=opcoes, orcamento=orcamento, max_passos=800,
+        teto_pericias=round(sem_poderes * PARTE_DAS_PERICIAS),
     )
     regras = dict(opcoes, orcamento=orcamento)
     relatorio = validator.validar(ficha, np, dados["equipamentos"], regras)

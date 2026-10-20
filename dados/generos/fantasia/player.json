@@ -1,5 +1,5 @@
 {
-  "_fonte": "Classes, subclasses e raças do Livro do Jogador de D&D 5e, convertidas para M&M 3e pelo gerador. Dinheiro inicial em peças de ouro: o aventureiro padrão recebe 120 po (perto da média do ouro inicial das classes no Livro do Jogador); as outras faixas seguem a escada de Riqueza/Benefício do faroeste (Guia do Mestre).",
+  "_fonte": "Classes, subclasses e raças do Livro do Jogador de D&D 5e, convertidas para M&M 3e pelo gerador. Dinheiro inicial em peças de ouro: o aventureiro padrão recebe 150 po (o bastante para o kit inicial das classes no Livro do Jogador, como a cota de malha do guerreiro); as outras faixas seguem a escada de Riqueza/Benefício do faroeste (Guia do Mestre).",
   "riqueza": [
     {
       "id": "trabalhador",
@@ -14,10 +14,10 @@
       "id": "classe_media",
       "nome": "Aventureiro (Riqueza 8)",
       "riqueza": 8,
-      "dinheiro": 120,
+      "dinheiro": 150,
       "beneficio": 0,
       "ajuste_de_pontos": 0,
-      "descricao": "Padrão: o ouro inicial de um aventureiro do Livro do Jogador."
+      "descricao": "Padrão: dá para o kit inicial das classes do Livro do Jogador (o guerreiro já começa de cota de malha)."
     },
     {
       "id": "em_ascensao",
@@ -631,6 +631,7 @@
         "habilidade:Int",
         "pericia:Especialidade: Magia",
         "pericia:Combate à Distância: Magia",
+        "vantagem:Ataque à Distância",
         "habilidade:Des",
         "defesa:Vontade",
         "defesa:Esquiva",
@@ -775,6 +776,7 @@
       "prioridades": [
         "habilidade:Pre",
         "pericia:Combate à Distância: Magia",
+        "vantagem:Ataque à Distância",
         "habilidade:Des",
         "pericia:Persuasão",
         "pericia:Intimidação",
@@ -915,6 +917,7 @@
       "prioridades": [
         "habilidade:Pre",
         "pericia:Combate à Distância: Magia",
+        "vantagem:Ataque à Distância",
         "pericia:Enganação",
         "pericia:Intimidação",
         "defesa:Vontade",
@@ -1048,6 +1051,7 @@
       "prioridades": [
         "habilidade:Pro",
         "pericia:Combate à Distância: Magia",
+        "vantagem:Ataque à Distância",
         "pericia:Especialidade: Religião",
         "defesa:Vontade",
         "pericia:Tratamento",
@@ -1461,6 +1465,7 @@
       "prioridades": [
         "habilidade:Pro",
         "pericia:Combate à Distância: Magia",
+        "vantagem:Ataque à Distância",
         "pericia:Especialidade: Natureza",
         "pericia:Tratamento",
         "defesa:Vontade",

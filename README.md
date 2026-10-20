@@ -99,7 +99,7 @@ Classes, subclasses e raças do Livro do Jogador de D&D 5e, convertidas para M&M
 - **Raças** (`racas` no `player.json`): Humano, Anão, Elfo, Halfling, Draconato, Gnomo, Meio-elfo, Meio-orc e Tiefling. Cada raça tem ajustes de habilidade, vantagens, perícias e poderes raciais, e **tudo custa PP do orçamento** (o humano não tem traços: os pontos ficam livres). O nome sorteado segue a raça (`nomes`). Um gênero sem `racas` não mostra o passo.
 - **Magias** (`powers.json`): 51 magias e dons de classe e 7 traços raciais, todos apontando para o catálogo. As magias de cada tradição (arcana, divina, da natureza, de pacto, bárdica) formam um **Arranjo**; as de ataque usam a perícia única *Combate à Distância: Magia*, como os "Feitiços" do Cultista Arcano do Guia do Mestre.
 - **Equipamento** (`equipment.json`): armas, armaduras e escudos do livro básico de M&M (cap. 7) com o preço do Livro do Jogador em peças de ouro (1 pp = 0,1 po; 1 pc = 0,01 po). Armas que o M&M não tem (espada grande, arco longo, besta pesada...) são a arma mais próxima com +1 de Dano e +1 ponto; a `fonte` diz "adaptado". **Escudos** dão +1/+2/+3 em Esquiva e Aparar (`defesas_ativas`); se o escudo ou a armadura estourar o limite do NP, sai da ficha e o dinheiro volta.
-- **Dinheiro inicial**: Camponês 30 po (+1 PP), Aventureiro 120 po (padrão, perto da média do ouro inicial das classes), Burguês 400 po (1 PP), Mercador próspero 1.600 po (2 PP), Nobre menor 6.000 po (4 PP), Grande nobre 30.000 po (6 PP).
+- **Dinheiro inicial**: Camponês 30 po (+1 PP), Aventureiro 150 po (padrão: dá para o kit inicial das classes, como a cota de malha do guerreiro), Burguês 400 po (1 PP), Mercador próspero 1.600 po (2 PP), Nobre menor 6.000 po (4 PP), Grande nobre 30.000 po (6 PP).
 
 ### Arranjos e magias que acompanham o NP
 
@@ -164,6 +164,15 @@ Vantagens, equipamento e implantes têm dois modos na tela:
 `itens_basicos` (em `configuracoes` do `genero.json`) lista os itens que todo PJ do gênero leva: entram no sorteio e já vêm marcados no modo Escolher. No faroeste, são as rações de viagem; no cyberpunk, a comida já está no custo de vida da condição financeira.
 
 Implantes que passariam de algum limite do NP ficam de fora, e a ficha anota quais e por quê ("Ficou de fora"). Se as escolhas (vantagens + Equipamento + implantes) já passarem do orçamento, o contador fica amarelo e o servidor recusa com uma mensagem clara.
+
+**Como o resto do orçamento é distribuído:** depois das escolhas, o gerador sobe a ficha +1 por vez (perícias do foco e da classe, perícias de ataque, prioridades do arquétipo e do gênero, vantagens opcionais) até gastar o orçamento exato. Para a ficha ficar parecida com os arquétipos do livro básico (que gastam, sem contar poderes, ~48% em habilidades e ~20% em perícias):
+- **Perícias levam no máximo 30%** dos PP sem poderes enquanto houver outra coisa para subir (perícia é o passo mais barato; sem esse teto, a sobra ia toda para elas).
+- **Perícias fora da especialidade** (as das prioridades gerais e de reserva que não estão na classe, como Atletismo num mago) param em metade do NP (mínimo 2).
+- **A sobra vai para as habilidades** (Vigor, Agilidade, Prontidão, Destreza, Luta, Intelecto, Presença e, por último, Força) antes das perícias de reserva.
+- **Quem ataca com poderes treina a perícia do poder**, não a da arma que carrega (o mago treina a magia, não o bordão).
+- **Compra automática:** primeiro a arma principal, depois os itens essenciais (armadura), e só então as outras armas.
+
+`tests/test_distribuicao.py` confere essas faixas nos três gêneros.
 
 **Passar do dinheiro (modo Escolher):** o contador avisa (em amarelo) quanto passou e oferece duas saídas:
 - **Pagar com pontos** (padrão): sobe para a condição financeira mais barata que cobre a compra, comprando Benefício (Riqueza). Esses PP saem do orçamento. A condição nunca desce, e um Trabalhador que sobe perde o PP extra que a Riqueza baixa dava.

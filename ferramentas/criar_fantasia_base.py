@@ -582,7 +582,7 @@ CLASSES = [
     classe("mago", "Mago", "Estudioso da magia arcana, que guarda as fórmulas no grimório.",
            ["Ritualista", "Esforço Extraordinário"],
            ["Memória Eidética", "Bem Informado", "Idiomas", "Artífice", "Mira Aprimorada"],
-           p("habilidade:Int", "pericia:Especialidade: Magia", "pericia:Combate à Distância: Magia", "habilidade:Des",
+           p("habilidade:Int", "pericia:Especialidade: Magia", "pericia:Combate à Distância: Magia", "vantagem:Ataque à Distância", "habilidade:Des",
              "defesa:Vontade", "defesa:Esquiva", "pericia:Investigação", "pericia:Percepção",
              "pericia:Especialidade: História"),
            ["bordao", "adaga"], ["besta_leve", "dardos"], ["grimorio", "bolsa_componentes", "robes"],
@@ -601,7 +601,7 @@ CLASSES = [
     classe("feiticeiro", "Feiticeiro", "Nasceu com magia no sangue e a conjura por instinto.",
            ["Esforço Extraordinário", "Destemido"], ["Atraente", "Fascinar", "Inspirar", "Mira Aprimorada",
                                                      "Tomar a Iniciativa"],
-           p("habilidade:Pre", "pericia:Combate à Distância: Magia", "habilidade:Des", "pericia:Persuasão",
+           p("habilidade:Pre", "pericia:Combate à Distância: Magia", "vantagem:Ataque à Distância", "habilidade:Des", "pericia:Persuasão",
              "pericia:Intimidação", "defesa:Vontade", "defesa:Esquiva", "pericia:Especialidade: Magia"),
            ["adaga", "bordao"], ["dardos", "besta_leve"], ["bolsa_componentes", "robes"], ["mochila", "orbe", "saco_dormir"],
            ["raio_de_fogo"], ARCANAS, ["Reconhecimento", "Adrenalina", "Conhecimento", "Vingança"],
@@ -617,7 +617,7 @@ CLASSES = [
                  [], p("pericia:Combate à Distância: Magia"), implantes=["relampago", "levitacao"])]),
     classe("bruxo", "Bruxo", "Fez um pacto com um ser poderoso em troca de magia.",
            ["Esforço Extraordinário", "Assustar"], ["Atraente", "Fascinar", "Bem Informado", "Contatos", "Ritualista"],
-           p("habilidade:Pre", "pericia:Combate à Distância: Magia", "pericia:Enganação", "pericia:Intimidação",
+           p("habilidade:Pre", "pericia:Combate à Distância: Magia", "vantagem:Ataque à Distância", "pericia:Enganação", "pericia:Intimidação",
              "defesa:Vontade", "habilidade:Des", "defesa:Esquiva", "pericia:Especialidade: Magia", "pericia:Investigação"),
            ["adaga", "bordao"], ["besta_leve"], ["couro", "bolsa_componentes"], ["orbe", "mochila", "grimorio"],
            ["rajada_mistica"], ["enfeiticar_pacto", "medo_pacto", "passo_sombrio", "visao_diabo"],
@@ -634,7 +634,7 @@ CLASSES = [
                  ["Bem Informado"], p("pericia:Investigação", "pericia:Intuição"), implantes=["visao_diabo", "passo_sombrio"])]),
     classe("clerigo", "Clérigo", "Sacerdote guerreiro que canaliza o poder do seu deus.",
            ["Inspirar", "Ritualista"], ["Liderança", "Duro de Matar", "Interpor-se", "Bem Relacionado", "Tolerância Maior"],
-           p("habilidade:Pro", "pericia:Combate à Distância: Magia", "pericia:Especialidade: Religião", "defesa:Vontade",
+           p("habilidade:Pro", "pericia:Combate à Distância: Magia", "vantagem:Ataque à Distância", "pericia:Especialidade: Religião", "defesa:Vontade",
              "pericia:Tratamento", "pericia:Intuição", "habilidade:Vig", "defesa:Fortitude", "pericia:Persuasão",
              "pericia:Combate Corpo-a-Corpo: Maças"),
            ["maca", "martelo_guerra", "maca_estrela"], ["besta_leve", "funda"],
@@ -694,7 +694,7 @@ CLASSES = [
                  [], p("pericia:Furtividade", "pericia:Especialidade: Sobrevivência"), itens=["corda"])]),
     classe("druida", "Druida", "Guardião da natureza, que tira poder das plantas, dos animais e do clima.",
            ["Empatia com Animais", "Ritualista"], ["Rastrear", "Bem Informado", "Tolerância Maior"],
-           p("habilidade:Pro", "pericia:Combate à Distância: Magia", "pericia:Especialidade: Natureza",
+           p("habilidade:Pro", "pericia:Combate à Distância: Magia", "vantagem:Ataque à Distância", "pericia:Especialidade: Natureza",
              "pericia:Tratamento", "defesa:Vontade", "pericia:Percepção", "pericia:Especialidade: Sobrevivência",
              "habilidade:Vig", "defesa:Fortitude"),
            ["bordao", "cimitarra", "foice_curta"], ["funda", "dardos", "lanca"],
@@ -780,15 +780,15 @@ RACAS = [
 
 gravar("player.json", {
     "_fonte": "Classes, subclasses e raças do Livro do Jogador de D&D 5e, convertidas para M&M 3e pelo gerador. "
-              "Dinheiro inicial em peças de ouro: o aventureiro padrão recebe 120 po (perto da média do ouro "
-              "inicial das classes no Livro do Jogador); as outras faixas seguem a escada de Riqueza/Benefício do "
+              "Dinheiro inicial em peças de ouro: o aventureiro padrão recebe 150 po (o bastante para o kit "
+              "inicial das classes no Livro do Jogador, como a cota de malha do guerreiro); as outras faixas seguem a escada de Riqueza/Benefício do "
               "faroeste (Guia do Mestre).",
     "riqueza": [
         {"id": "trabalhador", "nome": "Camponês (Riqueza 4)", "riqueza": 4, "dinheiro": 30, "beneficio": 0,
          "ajuste_de_pontos": 1,
          "descricao": "Sai da aldeia com pouco mais que a roupa do corpo. Riqueza abaixo da média devolve 1 PP."},
-        {"id": "classe_media", "nome": "Aventureiro (Riqueza 8)", "riqueza": 8, "dinheiro": 120, "beneficio": 0,
-         "ajuste_de_pontos": 0, "descricao": "Padrão: o ouro inicial de um aventureiro do Livro do Jogador."},
+        {"id": "classe_media", "nome": "Aventureiro (Riqueza 8)", "riqueza": 8, "dinheiro": 150, "beneficio": 0,
+         "ajuste_de_pontos": 0, "descricao": "Padrão: dá para o kit inicial das classes do Livro do Jogador (o guerreiro já começa de cota de malha)."},
         {"id": "em_ascensao", "nome": "Burguês (Benefício: Riqueza 1)", "riqueza": 12, "dinheiro": 400,
          "beneficio": 1, "ajuste_de_pontos": 0, "descricao": "Custa 1 PP. Família de comerciantes ou artesãos."},
         {"id": "prospero", "nome": "Mercador próspero (Benefício: Riqueza 2)", "riqueza": 16, "dinheiro": 1600,
