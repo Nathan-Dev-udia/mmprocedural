@@ -664,6 +664,377 @@
     "estatistica": "Proteção"
   },
   {
+    "id": "raio_necrotico",
+    "nome": "Raio necrótico",
+    "categoria": "arcana",
+    "catalogo": "magicos__poder_de_malador_4",
+    "descricao": "Um raio esverdeado que apodrece a carne.",
+    "tags": [
+      "combate"
+    ],
+    "arranjo": "Magia arcana",
+    "graduacao_np": 0,
+    "estatistica": "Dano à Distância (necrótico)",
+    "pericia": "Combate à Distância: Magia"
+  },
+  {
+    "id": "toque_vampirico",
+    "nome": "Toque da morte",
+    "categoria": "arcana",
+    "catalogo": "fatais__toque_mortal",
+    "descricao": "O toque gelado do necromante tira a vida do alvo.",
+    "tags": [
+      "combate"
+    ],
+    "arranjo": "Magia arcana",
+    "graduacao_np": -1,
+    "estatistica": "Aflição Cumulativa corpo a corpo (Fortitude; prejudicado, desabilitado, moribundo)",
+    "pericia": "Combate Corpo-a-Corpo: Magia"
+  },
+  {
+    "id": "falar_com_mortos",
+    "nome": "Falar com os mortos",
+    "categoria": "arcana",
+    "catalogo": "fatais__falar_com_os_mortos",
+    "descricao": "Faz um cadáver responder a algumas perguntas.",
+    "tags": [
+      "percepcao"
+    ],
+    "arranjo": "Magia arcana",
+    "estatistica": "Sentidos 4 (pós-cognição, só com mortos)"
+  },
+  {
+    "id": "videncia",
+    "nome": "Vidência",
+    "categoria": "arcana",
+    "catalogo": "magicos__perscrutar_4",
+    "descricao": "Vê e ouve um lugar distante numa bola de cristal ou numa bacia com água.",
+    "tags": [
+      "percepcao"
+    ],
+    "arranjo": "Magia arcana",
+    "graduacao": 2,
+    "estatistica": "Sentido Remoto (visual, auditivo)"
+  },
+  {
+    "id": "visao_verdadeira",
+    "nome": "Visão verdadeira",
+    "categoria": "arcana",
+    "catalogo": "ilusorios__percepcao_verdadeira",
+    "descricao": "Enxerga através de ilusões e disfarces mágicos.",
+    "tags": [
+      "percepcao"
+    ],
+    "arranjo": "Magia arcana",
+    "estatistica": "Sentidos 5 (vê através de ilusões)"
+  },
+  {
+    "id": "pele_de_pedra",
+    "nome": "Pele de pedra",
+    "categoria": "arcana",
+    "catalogo": "terrestres__armadura_rochosa",
+    "descricao": "A pele vira pedra por algumas horas. Fica de fora do arranjo.",
+    "tags": [
+      "defesa"
+    ],
+    "graduacao_np": -4,
+    "estatistica": "Proteção, Impenetrável"
+  },
+  {
+    "id": "raio_sombrio",
+    "nome": "Raio sombrio",
+    "categoria": "arcana",
+    "catalogo": "sombrios__explosao_negra",
+    "descricao": "Uma lança de escuridão gelada.",
+    "tags": [
+      "combate"
+    ],
+    "arranjo": "Magia arcana",
+    "graduacao_np": 0,
+    "estatistica": "Dano à Distância (sombras geladas)",
+    "pericia": "Combate à Distância: Magia"
+  },
+  {
+    "id": "telepatia",
+    "nome": "Telepatia",
+    "categoria": "arcana",
+    "catalogo": "mentais__comunicacao_mental",
+    "descricao": "Fala de mente para mente.",
+    "tags": [
+      "social"
+    ],
+    "arranjo": "Magia arcana",
+    "graduacao": 1,
+    "estatistica": "Comunicação 1 (mental)"
+  },
+  {
+    "id": "ler_mentes",
+    "nome": "Ler mentes",
+    "categoria": "arcana",
+    "catalogo": "mentais__leitura_mental_2",
+    "descricao": "Lê os pensamentos de superfície de quem está perto.",
+    "tags": [
+      "social"
+    ],
+    "arranjo": "Magia arcana",
+    "graduacao_np": -2,
+    "estatistica": "Leitura Mental"
+  },
+  {
+    "id": "golpe_arcano",
+    "nome": "Lâmina arcana",
+    "categoria": "arcana",
+    "catalogo": "magicos__fisgo_de_heshem_3",
+    "descricao": "A lâmina brilha com magia e corta através de armaduras.",
+    "tags": [
+      "combate"
+    ],
+    "arranjo": "Magia arcana",
+    "graduacao_np": -2,
+    "estatistica": "Dano corpo a corpo, Penetrante (força arcana)",
+    "pericia": "Combate Corpo-a-Corpo: Magia"
+  },
+  {
+    "id": "onda_trovejante",
+    "nome": "Ira da tempestade",
+    "categoria": "divina",
+    "catalogo": "climaticos__raio",
+    "descricao": "O deus da tempestade lança trovões pelas mãos do clérigo.",
+    "tags": [
+      "combate"
+    ],
+    "arranjo": "Magia divina",
+    "graduacao_np": 0,
+    "estatistica": "Dano à Distância (trovão e relâmpago)",
+    "pericia": "Combate à Distância: Magia"
+  },
+  {
+    "id": "duplicata_divina",
+    "nome": "Invocar duplicata",
+    "categoria": "divina",
+    "catalogo": "ilusorios__duplicata_ilusoria",
+    "descricao": "Uma cópia ilusória do clérigo engana os inimigos.",
+    "tags": [
+      "utilidade"
+    ],
+    "arranjo": "Magia divina",
+    "estatistica": "Ilusão 2 (visual e auditiva), só uma cópia de si mesmo"
+  },
+  {
+    "id": "toque_sombrio_divino",
+    "nome": "Toque do ceifador",
+    "categoria": "divina",
+    "catalogo": "fatais__toque_mortal",
+    "descricao": "O clérigo da morte suga a vida com um toque.",
+    "tags": [
+      "combate"
+    ],
+    "arranjo": "Magia divina",
+    "graduacao_np": -1,
+    "estatistica": "Aflição Cumulativa corpo a corpo (Fortitude; prejudicado, desabilitado, moribundo)",
+    "pericia": "Combate Corpo-a-Corpo: Magia"
+  },
+  {
+    "id": "medo_divino",
+    "nome": "Presença aterradora",
+    "categoria": "divina",
+    "catalogo": "talentos_poderosos__presenca_assustadora",
+    "descricao": "Os inimigos tremem diante do conquistador.",
+    "tags": [
+      "controle",
+      "area"
+    ],
+    "arranjo": "Magia divina",
+    "graduacao_np": -1,
+    "estatistica": "Aflição, Área Percepção visual (Vontade; prejudicado, desabilitado, paralisado)"
+  },
+  {
+    "id": "chamas_selvagens",
+    "nome": "Chamas selvagens",
+    "categoria": "natureza",
+    "catalogo": "flamejantes__explosao_de_fogo",
+    "descricao": "O fogo que destrói para a floresta renascer.",
+    "tags": [
+      "combate"
+    ],
+    "arranjo": "Magia da natureza",
+    "graduacao_np": 0,
+    "estatistica": "Dano à Distância (fogo)",
+    "pericia": "Combate à Distância: Magia"
+  },
+  {
+    "id": "nuvem_esporos",
+    "nome": "Nuvem de esporos",
+    "categoria": "natureza",
+    "catalogo": "vegetais__nuvem_de_polen",
+    "descricao": "Esporos que sufocam e enfraquecem.",
+    "tags": [
+      "controle",
+      "area"
+    ],
+    "arranjo": "Magia da natureza",
+    "graduacao_np": -1,
+    "estatistica": "Aflição, Área Nuvem (Fortitude; fatigado, exausto, incapacitado)"
+  },
+  {
+    "id": "flecha_estelar",
+    "nome": "Flecha estelar",
+    "categoria": "natureza",
+    "catalogo": "luminosos__feixe_laser",
+    "descricao": "Um raio de luz das estrelas.",
+    "tags": [
+      "combate"
+    ],
+    "arranjo": "Magia da natureza",
+    "graduacao_np": 0,
+    "estatistica": "Dano à Distância (luz estelar)",
+    "pericia": "Combate à Distância: Magia"
+  },
+  {
+    "id": "lamina_pacto",
+    "nome": "Lâmina do pacto",
+    "categoria": "pacto",
+    "catalogo": "magicos__fisgo_de_heshem_3",
+    "descricao": "Uma arma mágica dada pelo patrono, que aparece na mão do bruxo.",
+    "tags": [
+      "combate"
+    ],
+    "arranjo": "Magia de pacto",
+    "graduacao_np": -2,
+    "estatistica": "Dano corpo a corpo, Penetrante (arma do pacto)",
+    "pericia": "Combate Corpo-a-Corpo: Espadas"
+  },
+  {
+    "id": "cura_celestial",
+    "nome": "Luz curativa",
+    "categoria": "pacto",
+    "catalogo": "luminosos__cura_luminosa",
+    "descricao": "O patrono celestial fecha feridas.",
+    "tags": [
+      "cura"
+    ],
+    "arranjo": "Magia de pacto",
+    "graduacao_np": -1,
+    "estatistica": "Cura"
+  },
+  {
+    "id": "medo_bardico",
+    "nome": "Sussurros assustadores",
+    "categoria": "bardica",
+    "catalogo": "talentos_poderosos__presenca_assustadora",
+    "descricao": "Segredos sussurrados que enchem o alvo de pavor.",
+    "tags": [
+      "controle",
+      "area"
+    ],
+    "arranjo": "Magia bárdica",
+    "graduacao_np": -1,
+    "estatistica": "Aflição, Área Percepção visual (Vontade; prejudicado, desabilitado, paralisado)"
+  },
+  {
+    "id": "raio_solar_monge",
+    "nome": "Raio solar",
+    "categoria": "marcial",
+    "catalogo": "luminosos__feixe_laser",
+    "descricao": "O monge concentra o ki num raio de luz.",
+    "tags": [
+      "combate"
+    ],
+    "graduacao_np": -1,
+    "estatistica": "Dano à Distância (luz do ki)",
+    "pericia": "Combate à Distância: Magia"
+  },
+  {
+    "id": "igni",
+    "nome": "Igni",
+    "categoria": "sinais",
+    "catalogo": "flamejantes__explosao_de_fogo",
+    "descricao": "Sinal de fogo: um jato de chamas da palma da mão.",
+    "tags": [
+      "combate"
+    ],
+    "arranjo": "Sinais",
+    "graduacao_np": -2,
+    "estatistica": "Dano à Distância (jato de fogo)",
+    "pericia": "Combate à Distância: Sinais"
+  },
+  {
+    "id": "aard",
+    "nome": "Aard",
+    "categoria": "sinais",
+    "catalogo": "climaticos__rajada_ventosa",
+    "descricao": "Sinal telecinético: uma onda de força que derruba e empurra.",
+    "tags": [
+      "controle"
+    ],
+    "arranjo": "Sinais",
+    "graduacao_np": -1,
+    "estatistica": "Mover Objetos, Área Cone, Limitado a empurrar (onda de força)"
+  },
+  {
+    "id": "axii",
+    "nome": "Axii",
+    "categoria": "sinais",
+    "catalogo": "luminosos__strobo_hipinotico",
+    "descricao": "Sinal de influência: confunde a mente e acalma feras.",
+    "tags": [
+      "controle",
+      "social"
+    ],
+    "arranjo": "Sinais",
+    "graduacao_np": -1,
+    "estatistica": "Aflição à Percepção (Vontade; em transe, compelido), grau limitado",
+    "pericia": "Combate à Distância: Sinais"
+  },
+  {
+    "id": "yrden",
+    "nome": "Yrden",
+    "categoria": "sinais",
+    "catalogo": "elementais__encaixotar",
+    "descricao": "Sinal de armadilha: um círculo mágico que prende criaturas e espectros.",
+    "tags": [
+      "controle"
+    ],
+    "arranjo": "Sinais",
+    "graduacao_np": -2,
+    "estatistica": "Aflição à Distância (Esquiva; impedido e vulnerável, indefeso e imóvel), círculo no chão",
+    "pericia": "Combate à Distância: Sinais"
+  },
+  {
+    "id": "quen",
+    "nome": "Quen",
+    "categoria": "sinais",
+    "catalogo": "magicos__escudo_mistico",
+    "descricao": "Sinal de proteção: um escudo de energia ao redor do corpo. Fica de fora do arranjo.",
+    "tags": [
+      "defesa"
+    ],
+    "graduacao_np": -3,
+    "estatistica": "Proteção, Sustentado (escudo de energia)"
+  },
+  {
+    "id": "olhos_de_gato",
+    "nome": "Olhos de gato",
+    "categoria": "mutacao",
+    "catalogo": "sombrios__visao_no_escuro",
+    "descricao": "Mutação: pupilas verticais que enxergam no escuro.",
+    "tags": [
+      "percepcao"
+    ],
+    "estatistica": "Sentidos 2 (visão no escuro)"
+  },
+  {
+    "id": "metabolismo_mutante",
+    "nome": "Metabolismo mutante",
+    "categoria": "mutacao",
+    "catalogo": "talentos_poderosos__imunidade_adquirida",
+    "descricao": "Mutação: resiste a venenos, doenças e às toxinas dos próprios elixires.",
+    "tags": [
+      "defesa"
+    ],
+    "estatistica": "Imunidade 2 (doenças e venenos), Limitada a meio efeito"
+  },
+  {
     "id": "visao_escuro",
     "nome": "Visão no escuro",
     "categoria": "racial",

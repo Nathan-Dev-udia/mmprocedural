@@ -192,6 +192,22 @@
     "fonte": "Livro básico de M&M, cap. 7 (espada com +1 de Dano); preço do Livro do Jogador (D&D 5e), cap. 5"
   },
   {
+    "id": "espada_prata",
+    "nome": "Espada de prata",
+    "categoria": "Arma branca",
+    "custo": 4,
+    "preco": 60,
+    "notas": "Fere monstros vulneráveis à prata",
+    "ataque": {
+      "tipo": "corpo",
+      "efeito": 3,
+      "critico": 19,
+      "pericia": "Combate Corpo-a-Corpo: Espadas",
+      "soma_forca": true
+    },
+    "fonte": "Livro básico de M&M, cap. 7 (espada; preço estimado); preço do Livro do Jogador (D&D 5e), cap. 5"
+  },
+  {
     "id": "machado_batalha",
     "nome": "Machado de batalha",
     "categoria": "Arma branca",
@@ -669,6 +685,15 @@
     "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5"
   },
   {
+    "id": "giz_runico",
+    "nome": "Giz e tintas rúnicas",
+    "categoria": "Itens de conjurador",
+    "custo": 1,
+    "preco": 5,
+    "descricao": "Para desenhar as runas que o mago rúnico precisa.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço estimado; preço do Livro do Jogador (D&D 5e), cap. 5"
+  },
+  {
     "id": "agua_benta",
     "nome": "Água benta (frasco)",
     "categoria": "Itens de conjurador",
@@ -842,11 +867,29 @@
   {
     "id": "pocao_cura",
     "nome": "Poção de cura",
-    "categoria": "Equipamento de aventura",
+    "categoria": "Poções",
     "custo": 1,
     "preco": 50,
     "descricao": "Recupera um grau de dano (teste de recuperação imediato).",
     "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5"
+  },
+  {
+    "id": "elixires",
+    "nome": "Elixires de bruxo (dose)",
+    "categoria": "Poções",
+    "custo": 1,
+    "preco": 10,
+    "descricao": "Andorinha, Trovão, Gato...: o efeito é narrado pelo mestre. Tóxicos para quem não passou pelas mutações.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço estimado; preço do Livro do Jogador (D&D 5e), cap. 5"
+  },
+  {
+    "id": "oleo_laminas",
+    "nome": "Óleo para lâminas (contra monstros)",
+    "categoria": "Poções",
+    "custo": 1,
+    "preco": 5,
+    "descricao": "Passado na espada antes de enfrentar uma espécie de monstro.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço estimado; preço do Livro do Jogador (D&D 5e), cap. 5"
   },
   {
     "id": "racoes",

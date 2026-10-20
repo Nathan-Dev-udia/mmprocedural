@@ -3,7 +3,7 @@
 Gera fichas de Mutantes & Malfeitores 3e para vários gêneros de campanha (hoje: **Faroeste**, **Cyberpunk** e **Fantasia medieval**). Cada gênero tem duas abas:
 
 - **Ficha de jogador:** um personagem por vez, num passo a passo (Gênero → Nome → Raça, só na fantasia → Arquétipo ou Classe → Vantagens → Implantes ou Magias, nos gêneros com poderes → Armas e itens → Complicações → Ficha). O último passo resume as escolhas antes de gerar. Feito a partir dos arquétipos de jogador do gênero. Gasta exatamente 15 PP por NP e exige Motivação e mais uma complicação. O equipamento é comprado com o dinheiro inicial: dólares no faroeste, eurobucks no cyberpunk (preços do Cyberpunk RED), peças de ouro na fantasia (preços do Livro do Jogador de D&D 5e). No cyberpunk, o personagem também pode ter implantes, que custam PP e eurobucks; na fantasia, magias e dons de classe e traços raciais.
-- **Fichas de NPC:** grupos a partir de fichas-base dos livros e módulos cadastrados em JSON. A ficha sobe até 70–100% dos limites do NP escolhido.
+- **Fichas de NPC:** grupos a partir de fichas-base dos livros e módulos cadastrados em JSON. Escolha o arquétipo e, se quiser, o **tipo** (ex.: Dragão → branco, azul, negro…), ou deixe o gerador sortear. A ficha sobe até 70–100% dos limites do NP escolhido.
 
 ## Como rodar
 
@@ -95,7 +95,9 @@ Sem poderes. Equipamento em dólares, com as condições financeiras do Guia do 
 
 Classes, subclasses e raças do Livro do Jogador de D&D 5e, convertidas para M&M 3e. Tudo é gerado por `ferramentas/criar_fantasia_base.py` (rode de novo depois de mudar a tabela lá; ele recria os arquivos, exceto `archetypes.json` e `modules.json`).
 
-- **Jogador** (`player.json`): as 12 classes (Guerreiro, Bárbaro, Ladino, Mago, Feiticeiro, Bruxo, Clérigo, Paladino, Patrulheiro, Druida, Monge, Bardo), cada uma com 3 subclasses como focos (ex.: Mago → Evocação, Ilusão, Abjuração).
+- **Jogador** (`player.json`): as 12 classes (Guerreiro, Bárbaro, Ladino, Mago, Feiticeiro, Bruxo, Clérigo, Paladino, Patrulheiro, Druida, Monge, Bardo), com 69 subclasses como focos: estilos de luta (Cavaleiro, Arqueiro de elite, Gladiador, Espadachim…), escolas de magia (Evocação, Ilusão, Abjuração, Necromancia, Adivinhação, Encantamento, Transmutação, **Mago rúnico**, Lâmina cantante), linhagens, pactos (incluindo o **Caçador de monstros**, um bruxo no estilo de The Witcher), domínios, juramentos, círculos, caminhos e colégios.
+- **Subclasse que troca a classe** (`substitui` no foco): o foco pode substituir campos inteiros da classe (`conceito`, `vantagens_essenciais`, `vantagens_opcionais`, `prioridades`, `armas`, `itens`, `implantes`, `sugestoes`). O Caçador de monstros não fez pacto: troca as magias de pacto pelos Sinais (Igni, Aard, Axii, Yrden, Quen) e pelas mutações, as perícias por Saber de bruxo e Alquimia, e leva espada de prata e de aço.
+- **Falhas de subclasse** (`falhas` no foco): barateiam um arranjo inteiro, como a Ativação do livro básico (cap. 6). O Mago rúnico só conjura desenhando as runas (Ativação, ação padrão: –2 PP no arranjo de Magia arcana); a falha aparece na ficha e entra no contador da tela. Só vale se o personagem tiver alguma magia daquele arranjo.
 - **Raças** (`racas` no `player.json`): Humano, Anão, Elfo, Halfling, Draconato, Gnomo, Meio-elfo, Meio-orc e Tiefling. Cada raça tem ajustes de habilidade, vantagens, perícias e poderes raciais, e **tudo custa PP do orçamento** (o humano não tem traços: os pontos ficam livres). O nome sorteado segue a raça (`nomes`). Um gênero sem `racas` não mostra o passo.
 - **Magias** (`powers.json`): 51 magias e dons de classe e 7 traços raciais, todos apontando para o catálogo. As magias de cada tradição (arcana, divina, da natureza, de pacto, bárdica) formam um **Arranjo**; as de ataque usam a perícia única *Combate à Distância: Magia*, como os "Feitiços" do Cultista Arcano do Guia do Mestre.
 - **Equipamento** (`equipment.json`): armas, armaduras e escudos do livro básico de M&M (cap. 7) com o preço do Livro do Jogador em peças de ouro (1 pp = 0,1 po; 1 pc = 0,01 po). Armas que o M&M não tem (espada grande, arco longo, besta pesada...) são a arma mais próxima com +1 de Dano e +1 ponto; a `fonte` diz "adaptado". **Escudos** dão +1/+2/+3 em Esquiva e Aparar (`defesas_ativas`); se o escudo ou a armadura estourar o limite do NP, sai da ficha e o dinheiro volta.
@@ -183,6 +185,9 @@ Condições financeiras do faroeste: Trabalhador ($75, +1 PP), Classe média ($2
 **Teto do NP:** perícias, ataques e defesas podem chegar ao máximo do NP, mas é raro. A chance de escolher algo cai muito conforme ele se aproxima do teto, e o passo que o leva exatamente ao teto só é aceito com 1% de chance, ou quando não sobra outra opção.
 
 ## Como o gerador decide (NPCs)
+
+**Tipo:** os módulos com `papel` "principal" ou "ambos" de um arquétipo aparecem no campo Tipo da tela (só os que aceitam o NP escolhido). Com um tipo escolhido, todos os NPCs do grupo têm esse módulo principal; o extra, a ficha e o nome continuam variando. Sem tipo, vale o sorteio de sempre.
+
 
 1. **Ficha-base:** cada arquétipo tem faixas de NP com fichas reais dos livros. O gerador usa a de maior NP que cabe no NP escolhido. NPs abaixo da menor faixa não aparecem.
 2. **Módulos candidatos:** os do arquétipo cujo `requisitos.np_min`/`np_max` aceitam o NP.

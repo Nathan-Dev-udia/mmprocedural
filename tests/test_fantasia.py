@@ -203,3 +203,23 @@ def test_habilidade_ausente_nao_sobe(fantasia):
         for arquetipo in ("esqueleto", "zumbi"):
             grupo = generator.gerar_grupo(fantasia, arquetipo, 6, "aleatorio", 2, random.Random(semente))
             assert all(n["ficha"]["habilidades"]["Vig"] == rules.HABILIDADE_MINIMA for n in grupo["npcs"])
+
+
+# ---------------------------------------------------------------- tipo de NPC (módulo principal escolhido)
+
+def test_tipo_escolhido_vira_o_principal_de_todos(fantasia):
+    grupo = generator.gerar_grupo(fantasia, "dragao", 10, "aleatorio", 4, random.Random(1), tipo="dragao_relampago")
+    assert len(grupo["npcs"]) == 4
+    assert all(n["modulos"][0]["id"] == "dragao_relampago" for n in grupo["npcs"])
+    assert not any("repetem" in a for a in grupo["avisos"])
+
+
+def test_tipo_que_nao_existe_no_np(fantasia):
+    with pytest.raises(generator.GeneratorError, match="tipo"):
+        generator.gerar_grupo(fantasia, "lobo", 3, "aleatorio", 2, random.Random(1), tipo="dragao_relampago")
+
+
+def test_tipos_listam_so_os_principais(fantasia):
+    tipos = {m["id"] for m in generator.tipos_do_arquetipo(fantasia, "dragao", 10)}
+    assert "dragao_relampago" in tipos
+    assert all(fantasia["modulos"][t].get("papel", "ambos") != "extra" for t in tipos)

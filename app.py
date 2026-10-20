@@ -21,8 +21,8 @@ from nucleo import data_loader, docx_export, formatter, generator, pdf_export, p
 app = Flask(__name__)
 
 # Versão mostrada no rodapé. Suba a cada entrega: 1.0 original, 1.1 passo a passo, 1.2 quantidades, 1.3 fantasia,
-# 1.4 distribuição dos pontos parecida com a dos arquétipos do livro.
-VERSAO = "1.4.0"
+# 1.4 distribuição dos pontos parecida com a dos arquétipos do livro, 1.5 subclasses e tipo de NPC.
+VERSAO = "1.5.0"
 
 
 def _commit_atual():
@@ -66,7 +66,7 @@ def opcoes_da_interface(DADOS):
         "generos": [{"id": g, "nome": d["genero"]["nome"], "descricao": d["genero"]["descricao"]}
                     for g, d in DADOS_POR_GENERO.items()],
         "arquetipos": [{"id": a["id"], "nome": a["nome"], "descricao": a["descricao"],
-                        "nps": generator.nps_disponiveis(DADOS, a)}
+                        "nps": generator.nps_disponiveis(DADOS, a), "tipos": _tipos_para_a_tela(DADOS, a)}
                        for a in DADOS["arquetipos"].values()],
         "estilos": [{"id": e["id"], "nome": e["nome"], "descricao": e["descricao"]}
                     for e in DADOS["estilos"].values()],
@@ -77,7 +77,10 @@ def opcoes_da_interface(DADOS):
             "arquetipos": [{"id": a["id"], "nome": a["nome"], "conceito": a["conceito"],
                             "focos": [{"id": f["id"], "nome": f["nome"], "descricao": f["descricao"],
                                        "vantagens": f.get("vantagens", []), "armas": f.get("armas", []),
-                                       "itens": f.get("itens", []), "implantes": f.get("implantes", [])}
+                                       "itens": f.get("itens", []), "implantes": f.get("implantes", []),
+                                       "implantes_da_escolha": player.implantes_da_escolha(a, f),
+                                       "substitui": f.get("substitui", {}),
+                                       "falhas": f.get("falhas", [])}
                                       for f in a["focos"]],
                             "sugestoes": a["sugestoes"],
                             "vantagens_essenciais": a["vantagens_essenciais"],
@@ -118,6 +121,16 @@ def opcoes_da_interface(DADOS):
             "complicacoes": DADOS["complicacoes"]["complicacoes"],
         },
     }
+
+
+def _tipos_para_a_tela(DADOS, arquetipo):
+    """Tipos (módulos principais) do arquétipo de NPC, com os NPs em que cada um pode aparecer."""
+    tipos = {}
+    for np in generator.nps_disponiveis(DADOS, arquetipo):
+        for mod in generator.tipos_do_arquetipo(DADOS, arquetipo["id"], np):
+            tipos.setdefault(mod["id"], {"id": mod["id"], "nome": mod["nome"], "descricao": mod["descricao"],
+                                         "nps": []})["nps"].append(np)
+    return list(tipos.values())
 
 
 def _poder_no_np(DADOS, implante_id, np):
@@ -161,6 +174,11 @@ def _parametros(corpo):
         raise generator.GeneratorError("Informe arquétipo, NP e estilo válidos.")
 
 
+def _tipo(corpo):
+    """Tipo de NPC escolhido na tela (módulo principal); vazio = sortear."""
+    return str(corpo.get("tipo") or "") or None
+
+
 def _rng(corpo):
     semente = corpo.get("semente")
     return random.Random(semente) if semente not in (None, "") else random.Random()
@@ -190,7 +208,7 @@ def gerar():
         quantidade = int(corpo.get("quantidade", 1))
     except (TypeError, ValueError):
         raise generator.GeneratorError("A quantidade precisa ser um número.")
-    resultado = generator.gerar_grupo(DADOS, arquetipo, np, estilo, quantidade, _rng(corpo))
+    resultado = generator.gerar_grupo(DADOS, arquetipo, np, estilo, quantidade, _rng(corpo), tipo=_tipo(corpo))
     resultado["npcs"] = [_preparar(npc) for npc in resultado["npcs"]]
     return jsonify(resultado)
 
@@ -204,7 +222,7 @@ def regerar():
     usadas = {frozenset(c) for c in corpo.get("combinacoes", [])}
     nomes = set(corpo.get("nomes", []))
     npc, motivo = generator.gerar_npc(DADOS, arquetipo, np, estilo, _rng(corpo),
-                                      combinacoes_usadas=usadas, nomes_usados=nomes)
+                                      combinacoes_usadas=usadas, nomes_usados=nomes, tipo=_tipo(corpo))
     if npc is None:
         return jsonify({"erro": motivo}), 422
     return jsonify({"npc": _preparar(npc)})

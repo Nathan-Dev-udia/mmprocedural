@@ -37,7 +37,7 @@ PERICIAS_DE_RESERVA = ["Percepção", "Atletismo", "Intuição", "Furtividade", 
                        "Enganação", "Intimidação", "Investigação", "Especialidade: Cavalgar"]
 
 # Itens que o jogador pode levar em mais de uma unidade (cada unidade é o pacote do catálogo).
-CATEGORIAS_COM_QUANTIDADE = {"Comida", "Munição", "Bebida"}
+CATEGORIAS_COM_QUANTIDADE = {"Comida", "Munição", "Bebida", "Poções"}
 QUANTIDADE_MAXIMA = 99
 
 
@@ -419,12 +419,47 @@ def _tirar_itens_acima_do_np(dados, ficha, np, opcoes):
         fora.append(dados["equipamentos"][culpado]["nome"])
 
 
+# Campos do arquétipo que um foco pode trocar inteiros com "substitui".
+CAMPOS_SUBSTITUIVEIS = {"conceito", "vantagens_essenciais", "vantagens_opcionais", "prioridades", "armas", "itens",
+                        "implantes", "sugestoes"}
+
+
+def arquetipo_com_foco(arquetipo, foco):
+    """O arquétipo com os campos que o foco substitui.
+
+    Ex.: o bruxo caçador de monstros (estilo The Witcher) não fez pacto. Ele troca as prioridades, as vantagens,
+    as armas, os itens e as magias de pacto da classe pelos dele (Sinais, mutações, espada de prata).
+    """
+    return {**arquetipo, **foco.get("substitui", {})}
+
+
+def implantes_da_escolha(arquetipo, foco):
+    """(essenciais, opcionais) de implantes/magias para o arquétipo com esse foco: os do arquétipo (ou os que o
+    foco põe no lugar) mais os do foco."""
+    da_classe = arquetipo_com_foco(arquetipo, foco).get("implantes", {})
+    essenciais = da_classe.get("essenciais", []) + foco.get("implantes", [])
+    opcionais = da_classe.get("opcionais", []) + foco.get("implantes_opcionais", [])
+    essenciais = list(dict.fromkeys(essenciais))
+    return essenciais, [i for i in dict.fromkeys(opcionais) if i not in essenciais]
+
+
 def _implantes_automaticos(arquetipo, foco, rng):
-    implantes = arquetipo.get("implantes", {})
-    lista = list(implantes.get("essenciais", [])) + list(foco.get("implantes", []))
-    opcionais = [i for i in implantes.get("opcionais", []) if i not in lista]
-    lista += rng.sample(opcionais, k=min(len(opcionais), rng.randint(0, 2)))
-    return list(dict.fromkeys(lista))
+    lista, opcionais = implantes_da_escolha(arquetipo, foco)
+    return lista + rng.sample(opcionais, k=min(len(opcionais), rng.randint(0, 2)))
+
+
+def _aplicar_falhas_do_foco(ficha, foco):
+    """Falhas do foco que barateiam um arranjo inteiro (livro básico, cap. 6: Ativação custa –1 ou –2 PP fixos).
+
+    Ex.: o mago rúnico só conjura desenhando runas (Ativação, ação padrão: –2 PP). A falha só vale se o
+    personagem tiver alguma magia daquele arranjo.
+    """
+    for falha in foco.get("falhas", []):
+        if any(p.get("arranjo") == falha["arranjo"] for p in ficha["poderes"].values()):
+            ficha["poderes"][f"falha_{falha['id']}"] = {
+                "nome": f"{falha['nome']} (falha do arranjo {falha['arranjo']}: {falha['custo']} PP)",
+                "nome_curto": falha["nome"], "descricao": falha.get("descricao", ""),
+                "custo_informado": falha["custo"], "ajustes": {}, "falha": True}
 
 
 def _instalar_implantes(dados, ficha, ids, np, opcoes, teto_de_pontos=None, dinheiro=None):
@@ -535,6 +570,7 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
     foco = next((f for f in arquetipo["focos"] if f["id"] == foco_id), None)
     if foco is None:
         raise GeneratorError(f"O foco '{foco_id}' não existe para {arquetipo['nome']}.")
+    arquetipo = arquetipo_com_foco(arquetipo, foco)
     riqueza = next((r for r in dados["jogador"]["riqueza"] if r["id"] == riqueza_id), None)
     if riqueza is None and em_pontos:
         riqueza = dados["jogador"]["riqueza"][0]
@@ -645,6 +681,7 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
             sorteados = _implantes_automaticos(arquetipo, foco, rng)
             instalados, implantes_fora, compras_de_implantes = _instalar_implantes(
                 dados, ficha, sorteados, np, opcoes, teto_de_pontos=max(4, orcamento * 35 // 100), dinheiro=caixa)
+    _aplicar_falhas_do_foco(ficha, foco)
     if compras_de_implantes:
         compras = compras + compras_de_implantes
         troco = round(troco - sum(c["preco"] for c in compras_de_implantes), 2)

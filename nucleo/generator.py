@@ -162,10 +162,20 @@ def _escolher(rng, opcoes, estilo):
     return rng.choices(opcoes, weights=[_peso(m, estilo) for m in opcoes], k=1)[0]
 
 
-def sortear_combinacao(rng, candidatos, estilo, max_extras, principais_evitar=frozenset()):
-    """Escolhe o módulo principal e, talvez, um extra compatível. Devolve uma lista de módulos."""
+def tipos_do_arquetipo(dados, arquetipo_id, np):
+    """Módulos que podem ser o principal (o "tipo" do NPC, ex.: Dragão azul) nesse NP."""
+    return [m for m in modulos_candidatos(dados, arquetipo_id, np) if m.get("papel", "ambos") in ("principal", "ambos")]
+
+
+def sortear_combinacao(rng, candidatos, estilo, max_extras, principais_evitar=frozenset(), tipo=None):
+    """Escolhe o módulo principal e, talvez, um extra compatível. Devolve uma lista de módulos.
+
+    tipo: id do módulo principal escolhido pelo usuário; só o extra é sorteado.
+    """
     principais = [m for m in candidatos if m.get("papel", "ambos") in ("principal", "ambos")]
-    if estilo["modo"] == "tematico":
+    if tipo:
+        principais = [m for m in principais if m["id"] == tipo]
+    elif estilo["modo"] == "tematico":
         principais = [m for m in principais if "tematico" in m["estilos"]]
         ineditos = [m for m in principais if m["id"] not in principais_evitar]
         principais = ineditos or principais
@@ -216,10 +226,19 @@ def _conferir_parametros(dados, arquetipo_id, np, estilo_id):
     return arquetipo, estilo, faixa_para_np(arquetipo, np)
 
 
+def _conferir_tipo(dados, arquetipo, np, tipo):
+    if tipo and tipo not in {m["id"] for m in tipos_do_arquetipo(dados, arquetipo["id"], np)}:
+        raise GeneratorError(f"O tipo '{tipo}' não existe para {arquetipo['nome']} no NP {np}.")
+
+
 def gerar_npc(dados, arquetipo_id, np, estilo_id, rng,
-              combinacoes_usadas=None, principais_usados=None, nomes_usados=None):
-    """Gera um NPC. Devolve (npc, None) ou (None, motivo) se nenhuma combinação servir."""
+              combinacoes_usadas=None, principais_usados=None, nomes_usados=None, tipo=None):
+    """Gera um NPC. Devolve (npc, None) ou (None, motivo) se nenhuma combinação servir.
+
+    tipo: id do módulo principal (o "tipo" escolhido na tela); sem tipo, o gerador sorteia.
+    """
     arquetipo, estilo, faixa = _conferir_parametros(dados, arquetipo_id, np, estilo_id)
+    _conferir_tipo(dados, arquetipo, np, tipo)
     combinacoes_usadas = combinacoes_usadas if combinacoes_usadas is not None else set()
     principais_usados = principais_usados if principais_usados is not None else set()
     nomes_usados = nomes_usados if nomes_usados is not None else set()
@@ -239,7 +258,7 @@ def gerar_npc(dados, arquetipo_id, np, estilo_id, rng,
         # na segunda, aceita repetição para não travar quando as opções inéditas não servem.
         primeira_metade = tentativa < tentativas // 2
         evitar = principais_usados if primeira_metade else frozenset()
-        modulos = sortear_combinacao(rng, candidatos, estilo, config["modulos_extras_maximos"], evitar)
+        modulos = sortear_combinacao(rng, candidatos, estilo, config["modulos_extras_maximos"], evitar, tipo)
         if not modulos:
             return None, f"O estilo {estilo['nome']} não tem módulos para {arquetipo['nome']} no NP {np}."
         chave = frozenset(m["id"] for m in modulos)
@@ -293,9 +312,13 @@ def gerar_npc(dados, arquetipo_id, np, estilo_id, rng,
                   f"Motivos mais comuns: {mais_comuns}.")
 
 
-def gerar_grupo(dados, arquetipo_id, np, estilo_id, quantidade, rng=None):
-    """Gera vários NPCs, evitando repetir combinações de módulos enquanto houver alternativas."""
-    _conferir_parametros(dados, arquetipo_id, np, estilo_id)
+def gerar_grupo(dados, arquetipo_id, np, estilo_id, quantidade, rng=None, tipo=None):
+    """Gera vários NPCs, evitando repetir combinações de módulos enquanto houver alternativas.
+
+    tipo: todos do mesmo tipo (módulo principal), variando só o extra, a ficha e o nome.
+    """
+    arquetipo, _, _ = _conferir_parametros(dados, arquetipo_id, np, estilo_id)
+    _conferir_tipo(dados, arquetipo, np, tipo)
     maximo = dados["configuracoes"]["quantidade_maxima"]
     if not 1 <= quantidade <= maximo:
         raise GeneratorError(f"A quantidade deve ficar entre 1 e {maximo}.")
@@ -304,7 +327,7 @@ def gerar_grupo(dados, arquetipo_id, np, estilo_id, quantidade, rng=None):
     npcs, avisos = [], []
     usadas, principais, nomes = set(), set(), set()
     for _ in range(quantidade):
-        npc, motivo = gerar_npc(dados, arquetipo_id, np, estilo_id, rng, usadas, principais, nomes)
+        npc, motivo = gerar_npc(dados, arquetipo_id, np, estilo_id, rng, usadas, principais, nomes, tipo)
         if npc is None:
             avisos.append(motivo)
             break
@@ -313,7 +336,7 @@ def gerar_grupo(dados, arquetipo_id, np, estilo_id, quantidade, rng=None):
     if len(npcs) < quantidade:
         avisos.append(f"Foram gerados {len(npcs)} de {quantidade} NPCs.")
     repetidos = sum(1 for npc in npcs if npc["repetida"])
-    if repetidos:
+    if repetidos and not tipo:   # com um tipo escolhido, repetir o principal é o esperado
         avisos.append(f"{repetidos} NPC(s) repetem a combinação de módulos de outro: não há variações "
                       "suficientes para este arquétipo, NP e estilo.")
     return {"npcs": npcs, "avisos": avisos}

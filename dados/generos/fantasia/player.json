@@ -340,6 +340,62 @@
             "armadura_arcana",
             "raio_de_fogo"
           ]
+        },
+        {
+          "id": "cavaleiro",
+          "nome": "Cavaleiro",
+          "descricao": "Luta montado, de lança em riste.",
+          "vantagens": [
+            "Ação em Movimento"
+          ],
+          "prioridades": [
+            "pericia:Especialidade: Cavalgar",
+            "pericia:Combate Corpo-a-Corpo: Lanças"
+          ],
+          "armas": [
+            "lanca_montaria"
+          ],
+          "itens": [
+            "cavalo_montaria",
+            "sela"
+          ],
+          "implantes": []
+        },
+        {
+          "id": "arqueiro",
+          "nome": "Arqueiro de elite",
+          "descricao": "Derruba o inimigo antes que ele chegue perto.",
+          "vantagens": [
+            "Mira Aprimorada",
+            "Ataque à Distância"
+          ],
+          "prioridades": [
+            "habilidade:Des",
+            "pericia:Combate à Distância: Arcos"
+          ],
+          "armas": [
+            "arco_longo"
+          ],
+          "itens": [],
+          "implantes": []
+        },
+        {
+          "id": "gladiador",
+          "nome": "Gladiador",
+          "descricao": "Luta para a plateia: provoca, finta e termina com estilo.",
+          "vantagens": [
+            "Zombar",
+            "Ataque Imprudente"
+          ],
+          "prioridades": [
+            "pericia:Intimidação",
+            "pericia:Acrobacia"
+          ],
+          "armas": [
+            "espada_curta"
+          ],
+          "itens": [],
+          "implantes": []
         }
       ]
     },
@@ -469,6 +525,36 @@
           "prioridades": [
             "pericia:Especialidade: Sobrevivência",
             "defesa:Fortitude"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": []
+        },
+        {
+          "id": "guardiao_ancestral",
+          "nome": "Guardião ancestral",
+          "descricao": "Os espíritos dos antepassados protegem os aliados.",
+          "vantagens": [
+            "Interpor-se"
+          ],
+          "prioridades": [
+            "defesa:Vontade",
+            "pericia:Intuição"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": []
+        },
+        {
+          "id": "coracao_fera",
+          "nome": "Coração de fera",
+          "descricao": "Na fúria, luta com a força e a ferocidade de um animal.",
+          "vantagens": [
+            "Agarrar Aprimorado"
+          ],
+          "prioridades": [
+            "habilidade:For",
+            "pericia:Atletismo"
           ],
           "armas": [],
           "itens": [],
@@ -609,6 +695,47 @@
             "maos_magicas",
             "imagem_silenciosa"
           ]
+        },
+        {
+          "id": "espadachim",
+          "nome": "Espadachim",
+          "descricao": "Duelista elegante que vence com fintas e charme.",
+          "vantagens": [
+            "Zombar",
+            "Ataque Defensivo"
+          ],
+          "prioridades": [
+            "pericia:Acrobacia",
+            "pericia:Persuasão",
+            "pericia:Combate Corpo-a-Corpo: Espadas"
+          ],
+          "armas": [
+            "rapieira"
+          ],
+          "itens": [
+            "roupas_finas"
+          ],
+          "implantes": []
+        },
+        {
+          "id": "mestre_intriga",
+          "nome": "Mestre da intriga",
+          "descricao": "Espião e manipulador das cortes.",
+          "vantagens": [
+            "Contatos",
+            "Bem Relacionado"
+          ],
+          "prioridades": [
+            "pericia:Enganação",
+            "pericia:Persuasão",
+            "pericia:Intuição"
+          ],
+          "armas": [],
+          "itens": [
+            "kit_disfarce",
+            "roupas_finas"
+          ],
+          "implantes": []
         }
       ]
     },
@@ -755,6 +882,121 @@
             "passo_nebuloso",
             "teia"
           ]
+        },
+        {
+          "id": "necromancia",
+          "nome": "Escola de Necromancia",
+          "descricao": "Estuda a morte e conversa com quem já se foi.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Especialidade: Religião"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "raio_necrotico",
+            "toque_vampirico",
+            "falar_com_mortos"
+          ]
+        },
+        {
+          "id": "adivinhacao",
+          "nome": "Escola de Adivinhação",
+          "descricao": "Vê longe, vê o futuro e vê através de mentiras.",
+          "vantagens": [
+            "Avaliação"
+          ],
+          "prioridades": [
+            "pericia:Percepção",
+            "pericia:Intuição"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "videncia",
+            "visao_verdadeira"
+          ]
+        },
+        {
+          "id": "encantamento",
+          "nome": "Escola de Encantamento",
+          "descricao": "Dobra a vontade dos outros com palavras e magia.",
+          "vantagens": [
+            "Fascinar"
+          ],
+          "prioridades": [
+            "habilidade:Pre",
+            "pericia:Persuasão"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "enfeiticar_pessoa",
+            "sono"
+          ]
+        },
+        {
+          "id": "transmutacao",
+          "nome": "Escola de Transmutação",
+          "descricao": "Muda a matéria: pedra na pele, chumbo que flutua.",
+          "vantagens": [],
+          "prioridades": [
+            "habilidade:Vig",
+            "pericia:Especialidade: Alquimia"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "pele_de_pedra",
+            "levitacao"
+          ]
+        },
+        {
+          "id": "runico",
+          "nome": "Mago rúnico",
+          "descricao": "As magias só funcionam quando ele desenha as runas (Ativação: ação padrão, –2 PP no arranjo). Mais lento para conjurar, mas sobra ponto para o resto.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Especialidade: Runas",
+            "pericia:Prestidigitação"
+          ],
+          "armas": [],
+          "itens": [
+            "giz_runico"
+          ],
+          "implantes": [
+            "armadura_arcana",
+            "teia"
+          ],
+          "falhas": [
+            {
+              "id": "runas",
+              "nome": "Magias rúnicas",
+              "arranjo": "Magia arcana",
+              "custo": -2,
+              "descricao": "Só conjura desenhando as runas no ar, no chão ou na pele: Ativação (ação padrão)."
+            }
+          ]
+        },
+        {
+          "id": "lamina_cantante",
+          "nome": "Lâmina cantante",
+          "descricao": "Dança com a espada e a magia ao mesmo tempo.",
+          "vantagens": [
+            "Finta Ágil"
+          ],
+          "prioridades": [
+            "habilidade:Agi",
+            "pericia:Acrobacia",
+            "pericia:Combate Corpo-a-Corpo: Magia"
+          ],
+          "armas": [
+            "rapieira"
+          ],
+          "itens": [],
+          "implantes": [
+            "golpe_arcano"
+          ]
         }
       ]
     },
@@ -896,6 +1138,36 @@
             "relampago",
             "levitacao"
           ]
+        },
+        {
+          "id": "sombrio",
+          "nome": "Linhagem sombria",
+          "descricao": "Nasceu das sombras: conjura escuridão e enxerga nela.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Furtividade"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "raio_sombrio",
+            "visao_diabo"
+          ]
+        },
+        {
+          "id": "mente_aberrante",
+          "nome": "Mente aberrante",
+          "descricao": "Uma mente tocada por algo de fora do mundo.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Intuição"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "telepatia",
+            "ler_mentes"
+          ]
         }
       ]
     },
@@ -1029,6 +1301,141 @@
           "implantes": [
             "visao_diabo",
             "passo_sombrio"
+          ]
+        },
+        {
+          "id": "cacador_monstros",
+          "nome": "Caçador de monstros",
+          "descricao": "No estilo dos bruxos de The Witcher: passou pelas mutações, carrega uma espada de aço para homens e uma de prata para monstros, usa Sinais simples e conhece as criaturas que caça. Não fez pacto: troca as magias de pacto da classe pelos Sinais.",
+          "vantagens": [],
+          "prioridades": [],
+          "armas": [],
+          "itens": [],
+          "implantes": [],
+          "substitui": {
+            "conceito": "Caçador de monstros mutante, treinado desde criança para matar o que assombra o mundo.",
+            "vantagens_essenciais": [
+              "Inimigo Favorito",
+              "Rastrear",
+              "Ataque Defensivo"
+            ],
+            "vantagens_opcionais": [
+              "Esquiva Fabulosa",
+              "Destemido",
+              "Duro de Matar",
+              "Iniciativa Aprimorada",
+              "Finta Ágil",
+              "Tolerância Maior"
+            ],
+            "prioridades": [
+              "habilidade:Lut",
+              "pericia:Combate Corpo-a-Corpo: Espadas",
+              "pericia:Especialidade: Saber de bruxo",
+              "habilidade:Agi",
+              "defesa:Aparar",
+              "pericia:Especialidade: Alquimia",
+              "pericia:Percepção",
+              "habilidade:Vig",
+              "pericia:Combate à Distância: Sinais",
+              "pericia:Atletismo",
+              "defesa:Esquiva",
+              "pericia:Especialidade: Sobrevivência",
+              "pericia:Intimidação"
+            ],
+            "armas": {
+              "principais": [
+                "espada_prata"
+              ],
+              "secundarias": [
+                "besta_mao",
+                "adaga"
+              ]
+            },
+            "itens": {
+              "essenciais": [
+                "espada_longa",
+                "couro_batido",
+                "elixires",
+                "oleo_laminas"
+              ],
+              "opcionais": [
+                "cavalo_montaria",
+                "sela",
+                "kit_herbalismo",
+                "corda",
+                "saco_dormir"
+              ]
+            },
+            "implantes": {
+              "essenciais": [
+                "igni",
+                "olhos_de_gato",
+                "metabolismo_mutante"
+              ],
+              "opcionais": [
+                "aard",
+                "axii",
+                "yrden",
+                "quen"
+              ]
+            },
+            "sugestoes": {
+              "motivacoes": [
+                "Cobiça",
+                "Responsabilidade",
+                "Fazer o Bem",
+                "Vingança"
+              ],
+              "complicacoes": [
+                {
+                  "nome": "Preconceito",
+                  "detalhe": "Nas aldeias, todos têm medo do mutante."
+                },
+                {
+                  "nome": "Honra",
+                  "detalhe": "Segue o código: não mata quem não é monstro."
+                },
+                {
+                  "nome": "Relacionamento",
+                  "detalhe": "Uma criança de sangue nobre que ele jurou proteger."
+                },
+                {
+                  "nome": "Inimigo",
+                  "detalhe": "Caçadores de bruxas querem vê-lo na fogueira."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "lamina",
+          "nome": "Pacto da lâmina",
+          "descricao": "O patrono deu uma arma mágica que aparece na mão do bruxo.",
+          "vantagens": [
+            "Ataque Poderoso"
+          ],
+          "prioridades": [
+            "habilidade:Lut",
+            "pericia:Combate Corpo-a-Corpo: Espadas"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "lamina_pacto"
+          ]
+        },
+        {
+          "id": "celestial",
+          "nome": "Pacto com o Celestial",
+          "descricao": "Um ser de luz empresta poder de cura.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Tratamento"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "cura_celestial"
           ]
         }
       ]
@@ -1168,6 +1575,66 @@
           "implantes": [
             "luz_divina",
             "palavra_sagrada"
+          ]
+        },
+        {
+          "id": "tempestade",
+          "nome": "Domínio da Tempestade",
+          "descricao": "Serve ao deus dos trovões e do mar.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Combate à Distância: Magia"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "onda_trovejante"
+          ]
+        },
+        {
+          "id": "trapaca",
+          "nome": "Domínio da Trapaça",
+          "descricao": "Serve a um deus das mentiras e dos ladrões.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Enganação",
+            "pericia:Furtividade"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "duplicata_divina"
+          ]
+        },
+        {
+          "id": "morte",
+          "nome": "Domínio da Morte",
+          "descricao": "Serve ao deus que leva as almas.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Intimidação"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "toque_sombrio_divino"
+          ]
+        },
+        {
+          "id": "conhecimento",
+          "nome": "Domínio do Conhecimento",
+          "descricao": "Guarda os segredos da biblioteca do templo.",
+          "vantagens": [
+            "Bem Informado"
+          ],
+          "prioridades": [
+            "pericia:Investigação",
+            "pericia:Especialidade: História"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "augurio"
           ]
         }
       ]
@@ -1310,6 +1777,39 @@
           "implantes": [
             "destruicao_divina"
           ]
+        },
+        {
+          "id": "coroa",
+          "nome": "Juramento da Coroa",
+          "descricao": "Serve ao rei e à lei.",
+          "vantagens": [
+            "Liderança"
+          ],
+          "prioridades": [
+            "pericia:Persuasão",
+            "defesa:Fortitude"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "escudo_da_fe"
+          ]
+        },
+        {
+          "id": "conquista",
+          "nome": "Juramento de Conquista",
+          "descricao": "Governa pelo medo e pela força.",
+          "vantagens": [
+            "Assustar"
+          ],
+          "prioridades": [
+            "pericia:Intimidação"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "medo_divino"
+          ]
         }
       ]
     },
@@ -1446,6 +1946,38 @@
             "corda"
           ],
           "implantes": []
+        },
+        {
+          "id": "perseguidor",
+          "nome": "Perseguidor sombrio",
+          "descricao": "Caça nas trevas, onde os outros não enxergam.",
+          "vantagens": [
+            "Tomar a Iniciativa"
+          ],
+          "prioridades": [
+            "pericia:Furtividade",
+            "pericia:Percepção"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "olhos_de_gato"
+          ]
+        },
+        {
+          "id": "andarilho_feerico",
+          "nome": "Andarilho feérico",
+          "descricao": "Tocado pelas fadas: encanta e some num piscar de olhos.",
+          "vantagens": [],
+          "prioridades": [
+            "habilidade:Pre",
+            "pericia:Persuasão"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "passo_nebuloso"
+          ]
         }
       ]
     },
@@ -1580,6 +2112,49 @@
           "implantes": [
             "falar_com_animais"
           ]
+        },
+        {
+          "id": "fogo",
+          "nome": "Círculo do Fogo selvagem",
+          "descricao": "O fogo que destrói para a floresta renascer.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Combate à Distância: Magia"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "chamas_selvagens"
+          ]
+        },
+        {
+          "id": "esporos",
+          "nome": "Círculo dos Esporos",
+          "descricao": "Fungos e decomposição: a natureza que apodrece.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Especialidade: Natureza"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "nuvem_esporos"
+          ]
+        },
+        {
+          "id": "estrelas",
+          "nome": "Círculo das Estrelas",
+          "descricao": "Lê o futuro nas constelações e lança luz estelar.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Percepção"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "flecha_estelar",
+            "augurio"
+          ]
         }
       ]
     },
@@ -1710,6 +2285,38 @@
           "itens": [],
           "implantes": [
             "raio_de_fogo"
+          ]
+        },
+        {
+          "id": "bebado",
+          "nome": "Caminho do Mestre Bêbado",
+          "descricao": "Cambaleia, confunde e acerta quando ninguém espera.",
+          "vantagens": [
+            "Finta Ágil",
+            "Esquiva Fabulosa"
+          ],
+          "prioridades": [
+            "pericia:Acrobacia",
+            "pericia:Enganação"
+          ],
+          "armas": [],
+          "itens": [
+            "vinho"
+          ],
+          "implantes": []
+        },
+        {
+          "id": "alma_solar",
+          "nome": "Caminho da Alma Solar",
+          "descricao": "Concentra o ki em raios de luz.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Combate à Distância: Magia"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "raio_solar_monge"
           ]
         }
       ]
@@ -1846,6 +2453,40 @@
           "itens": [],
           "implantes": [
             "encantar_plateia"
+          ]
+        },
+        {
+          "id": "espadas",
+          "nome": "Colégio das Espadas",
+          "descricao": "Artista de lâminas: malabarismo e combate como espetáculo.",
+          "vantagens": [
+            "Finta Ágil"
+          ],
+          "prioridades": [
+            "pericia:Acrobacia",
+            "pericia:Combate Corpo-a-Corpo: Espadas"
+          ],
+          "armas": [
+            "cimitarra"
+          ],
+          "itens": [],
+          "implantes": []
+        },
+        {
+          "id": "sussurros",
+          "nome": "Colégio dos Sussurros",
+          "descricao": "Espião que usa o medo e os segredos alheios.",
+          "vantagens": [
+            "Contatos"
+          ],
+          "prioridades": [
+            "pericia:Enganação",
+            "pericia:Intimidação"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "medo_bardico"
           ]
         }
       ]

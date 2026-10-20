@@ -166,7 +166,8 @@ def _conferir_jogador(bruto, vantagens_validas, equipamentos, erros, poderes_do_
                 erros.append(f"{rotulo}: complicação sugerida '{complicacao.get('nome')}' não existe em complications.json.")
         implantes = arq.get("implantes", {})
         for implante in (implantes.get("essenciais", []) + implantes.get("opcionais", [])
-                         + [i for foco in arq["focos"] for i in foco.get("implantes", [])]):
+                         + [i for foco in arq["focos"]
+                            for i in foco.get("implantes", []) + foco.get("implantes_opcionais", [])]):
             if implante not in (poderes_do_genero or {}):
                 erros.append(f"{rotulo}: implante/poder desconhecido '{implante}' (não está em powers.json).")
         if not arq["focos"]:
@@ -184,6 +185,28 @@ def _conferir_jogador(bruto, vantagens_validas, equipamentos, erros, poderes_do_
                 if rules.nome_base(vantagem) not in vantagens_validas:
                     erros.append(f"{rotulo_foco}: vantagem desconhecida '{vantagem}'.")
             _conferir_passos(rotulo_foco, foco.get("prioridades", []), vantagens_validas, erros)
+            substitui = foco.get("substitui", {})
+            for campo in substitui:
+                if campo not in ("conceito", "vantagens_essenciais", "vantagens_opcionais", "prioridades", "armas",
+                                 "itens", "implantes", "sugestoes"):
+                    erros.append(f"{rotulo_foco}: 'substitui' não aceita o campo '{campo}'.")
+            for vantagem in substitui.get("vantagens_essenciais", []) + substitui.get("vantagens_opcionais", []):
+                if rules.nome_base(vantagem) not in vantagens_validas:
+                    erros.append(f"{rotulo_foco}: vantagem desconhecida '{vantagem}'.")
+            _conferir_passos(rotulo_foco, substitui.get("prioridades", []), vantagens_validas, erros)
+            itens_trocados = (substitui.get("armas", {}).get("principais", []) + substitui.get("armas", {}).get("secundarias", [])
+                              + substitui.get("itens", {}).get("essenciais", []) + substitui.get("itens", {}).get("opcionais", []))
+            for item in itens_trocados:
+                if item not in equipamentos or not equipamentos[item].get("categoria"):
+                    erros.append(f"{rotulo_foco}: item desconhecido ou sem categoria '{item}'.")
+            implantes_trocados = substitui.get("implantes", {})
+            for implante in implantes_trocados.get("essenciais", []) + implantes_trocados.get("opcionais", []):
+                if implante not in (poderes_do_genero or {}):
+                    erros.append(f"{rotulo_foco}: implante/poder desconhecido '{implante}'.")
+            for falha in foco.get("falhas", []):
+                faltando = [c for c in ("id", "nome", "arranjo", "custo") if c not in falha]
+                if faltando or not isinstance(falha.get("custo"), int) or falha["custo"] >= 0:
+                    erros.append(f"{rotulo_foco}: falha precisa de id, nome, arranjo e custo negativo ({falha}).")
             for item in foco.get("armas", []) + foco.get("itens", []):
                 if item not in equipamentos or not equipamentos[item].get("categoria"):
                     erros.append(f"{rotulo_foco}: item desconhecido ou sem categoria '{item}'.")

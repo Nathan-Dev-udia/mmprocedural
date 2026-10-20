@@ -224,15 +224,32 @@ function prepararAbaNpc() {
   el("quantidade").value = opcoes.quantidade_padrao;
   el("quantidade-ajuda").textContent = `De 1 a ${opcoes.quantidade_maxima}.`;
 
+  const arquetipoNpc = () => opcoes.arquetipos.find((a) => a.id === el("arquetipo").value);
+  // Tipo = módulo principal (ex.: Dragão azul). A lista depende do NP; mantém a escolha se ela ainda existir.
+  const atualizarTipos = () => {
+    const anterior = el("tipo").value;
+    const np = Number(el("np").value);
+    const tipos = arquetipoNpc().tipos.filter((t) => t.nps.includes(np));
+    el("tipo").innerHTML = `<option value="">Sortear (qualquer tipo)</option>` + opcoesDeSelect(tipos);
+    if (tipos.some((t) => t.id === anterior)) el("tipo").value = anterior;
+    atualizarDescricaoDoTipo();
+  };
+  const atualizarDescricaoDoTipo = () => {
+    const tipo = arquetipoNpc().tipos.find((t) => t.id === el("tipo").value);
+    el("tipo-descricao").textContent = tipo ? tipo.descricao : "Cada NPC do grupo sai com um tipo diferente.";
+  };
   const atualizarNps = () => {
-    const arquetipo = opcoes.arquetipos.find((a) => a.id === el("arquetipo").value);
+    const arquetipo = arquetipoNpc();
     el("np").innerHTML = arquetipo.nps.map((np) => `<option value="${np}">NP ${np}</option>`).join("");
     el("arquetipo-descricao").textContent = arquetipo.descricao;
+    atualizarTipos();
   };
   const atualizarEstilo = () => {
     el("estilo-descricao").textContent = opcoes.estilos.find((e) => e.id === el("estilo").value).descricao;
   };
   el("arquetipo").addEventListener("change", atualizarNps);
+  el("np").addEventListener("change", atualizarTipos);
+  el("tipo").addEventListener("change", atualizarDescricaoDoTipo);
   el("estilo").addEventListener("change", atualizarEstilo);
   atualizarNps();
   atualizarEstilo();
@@ -241,6 +258,7 @@ function prepararAbaNpc() {
     evento.preventDefault();
     gerarNpcs({
       arquetipo: el("arquetipo").value,
+      tipo: el("tipo").value,
       np: Number(el("np").value),
       estilo: el("estilo").value,
       quantidade: Number(el("quantidade").value),
@@ -297,7 +315,8 @@ function desenharNpcs() {
   el("resultado-npc").hidden = false;
   const arquetipo = opcoes.arquetipos.find((a) => a.id === p.arquetipo);
   const estilo = opcoes.estilos.find((e) => e.id === p.estilo);
-  el("resumo").textContent = `${npcs.length} × ${arquetipo.nome} · NP ${p.np} · ${estilo.nome}`;
+  const tipo = arquetipo.tipos.find((t) => t.id === p.tipo);
+  el("resumo").textContent = `${npcs.length} × ${arquetipo.nome}${tipo ? ` (${tipo.nome})` : ""} · NP ${p.np} · ${estilo.nome}`;
   el("avisos").innerHTML = avisos.map((a) => `<li>${escapar(a)}</li>`).join("");
   el("cartoes").innerHTML = npcs.map((n) => cartao(n, { regerar: true })).join("");
 }
@@ -305,7 +324,9 @@ function desenharNpcs() {
 // ---------------------------------------------------------------- aba Jogador
 
 const pj = () => opcoes.jogador;
-const arquetipoPj = () => pj().arquetipos.find((a) => a.id === el("pj-arquetipo").value);
+const arquetipoBase = () => pj().arquetipos.find((a) => a.id === el("pj-arquetipo").value);
+// O foco pode substituir campos da classe (ex.: o bruxo caçador de monstros troca as magias de pacto pelos Sinais).
+const arquetipoPj = () => ({ ...arquetipoBase(), ...(focoPj().substitui || {}) });
 
 function linhaDeComplicacao(nome = "", detalhe = "") {
   const sugeridas = new Set(arquetipoPj().sugestoes.complicacoes.map((c) => c.nome));
@@ -349,7 +370,7 @@ function sugestoesDoArquetipo() {
 
 // --- escolha de vantagens e de armas/itens (modo "Escolher")
 
-const focoPj = () => arquetipoPj().focos.find((f) => f.id === el("pj-foco").value) || arquetipoPj().focos[0];
+const focoPj = () => arquetipoBase().focos.find((f) => f.id === el("pj-foco").value) || arquetipoBase().focos[0];
 const riquezaPj = () => pj().riqueza.find((r) => r.id === el("pj-riqueza").value) || pj().riqueza[0];
 // Gêneros como o cyberpunk pagam o equipamento com a vantagem Equipamento (5 pontos por graduação).
 const emPontos = () => pj().equipamento_modo === "pontos";
@@ -446,6 +467,8 @@ function totalDosImplantes() {
     else (arranjos[i.arranjo] ||= []).push(custo);
   });
   Object.values(arranjos).forEach((custos) => { total += Math.max(...custos) + custos.length - 1; });
+  // Falhas do foco (ex.: magias rúnicas) barateiam o arranjo inteiro.
+  (focoPj().falhas || []).forEach((falha) => { if (arranjos[falha.arranjo]) total += falha.custo; });
   return total;
 }
 
@@ -463,8 +486,8 @@ function desenharImplantes(manterMarcados = false) {
   const a = arquetipoPj();
   const f = focoPj();
   const porId = Object.fromEntries(pj().implantes.map((i) => [i.id, i]));
-  const essenciais = [...new Set([...a.implantes.essenciais, ...f.implantes])];
-  const opcionais = a.implantes.opcionais.filter((id) => !essenciais.includes(id));
+  // Mesma regra do servidor (o foco pode trocar as magias da classe pelas dele).
+  const [essenciais, opcionais] = f.implantes_da_escolha;
   const marcadosAntes = new Set([...document.querySelectorAll('input[name="pj-implante"]:checked')].map((c) => c.value));
   const linha = (id, marcado) => {
     const i = porId[id];

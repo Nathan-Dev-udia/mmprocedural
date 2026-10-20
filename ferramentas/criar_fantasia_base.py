@@ -111,6 +111,8 @@ gravar("equipment.json", [
     arma("rapieira", "Rapieira", BR, 4, 25, "corpo", 3, ESP, critico=19, forca=True, adaptado="espada"),
     arma("espada_grande", "Espada grande", BR, 5, 50, "corpo", 4, ESP, critico=19, forca=True,
          notas="Duas mãos", adaptado="espada com +1 de Dano"),
+    arma("espada_prata", "Espada de prata", BR, 4, 60, "corpo", 3, ESP, critico=19, forca=True,
+         notas="Fere monstros vulneráveis à prata", adaptado="espada; preço estimado"),
     arma("machado_batalha", "Machado de batalha", BR, 3, 10, "corpo", 3, MAC, forca=True,
          adaptado="machado de batalha"),
     arma("machado_grande", "Machado grande", BR, 4, 30, "corpo", 4, MAC, forca=True, notas="Duas mãos",
@@ -178,6 +180,8 @@ gravar("equipment.json", [
     item("foco_druidico", "Foco druídico (ramo de visco)", "Itens de conjurador", 1, "Foco de druidas e patrulheiros."),
     item("varinha", "Varinha arcana", "Itens de conjurador", 10, "Foco arcano."),
     item("orbe", "Orbe de cristal", "Itens de conjurador", 20, "Foco arcano."),
+    item("giz_runico", "Giz e tintas rúnicas", "Itens de conjurador", 5,
+         "Para desenhar as runas que o mago rúnico precisa.", fonte_=fonte(GERAL + "; preço estimado")),
     item("agua_benta", "Água benta (frasco)", "Itens de conjurador", 25, "Fere mortos-vivos e demônios."),
     # Ferramentas e kits
     item("ferramentas_ladrao", "Ferramentas de ladrão", "Ferramentas", 25,
@@ -201,8 +205,13 @@ gravar("equipment.json", [
     item("tenda", "Tenda (duas pessoas)", "Equipamento de aventura", 2, "Abrigo de viagem."),
     item("algemas", "Algemas", "Equipamento de aventura", 2, "Prende prisioneiros."),
     item("manto", "Manto", "Equipamento de aventura", 1, "Protege do frio e da chuva."),
-    item("pocao_cura", "Poção de cura", "Equipamento de aventura", 50,
+    item("pocao_cura", "Poção de cura", "Poções", 50,
          "Recupera um grau de dano (teste de recuperação imediato)."),
+    item("elixires", "Elixires de bruxo (dose)", "Poções", 10,
+         "Andorinha, Trovão, Gato...: o efeito é narrado pelo mestre. Tóxicos para quem não passou pelas mutações.",
+         fonte_=fonte(GERAL + "; preço estimado")),
+    item("oleo_laminas", "Óleo para lâminas (contra monstros)", "Poções", 5,
+         "Passado na espada antes de enfrentar uma espécie de monstro.", fonte_=fonte(GERAL + "; preço estimado")),
     # Comida e bebida
     item("racoes", "Rações de viagem (5 dias)", "Comida", 2.5, "Carne seca, pão duro e frutas secas."),
     item("vinho", "Vinho comum (jarra)", "Bebida", 0.2, "Para a estrada ou para a taverna."),
@@ -235,7 +244,9 @@ def magia(id_, nome, categoria, catalogo, descricao, arranjo=None, graduacao=Non
 
 ARCANA, DIVINA, NATUREZA = "Magia arcana", "Magia divina", "Magia da natureza"
 PACTO, BARDICA = "Magia de pacto", "Magia bárdica"
+SINAIS = "Sinais"
 FEITICO = "Combate à Distância: Magia"
+SINAL = "Combate à Distância: Sinais"
 
 gravar("powers.json", [
     # ---- magia arcana (mago, feiticeiro)
@@ -404,6 +415,99 @@ gravar("powers.json", [
     magia("escamas_draconicas", "Escamas dracônicas", "arcana", "animais__pele_protetora",
           "O sangue de dragão do feiticeiro aparece na pele. Fica de fora do arranjo.", graduacao_np=-3,
           estatistica="Proteção", tags=["defesa"]),
+    # ---- magias das subclasses extras
+    magia("raio_necrotico", "Raio necrótico", "arcana", "magicos__poder_de_malador_4",
+          "Um raio esverdeado que apodrece a carne.", ARCANA, graduacao_np=0,
+          estatistica="Dano à Distância (necrótico)", pericia=FEITICO, tags=["combate"]),
+    magia("toque_vampirico", "Toque da morte", "arcana", "fatais__toque_mortal",
+          "O toque gelado do necromante tira a vida do alvo.", ARCANA, graduacao_np=-1,
+          estatistica="Aflição Cumulativa corpo a corpo (Fortitude; prejudicado, desabilitado, moribundo)",
+          pericia="Combate Corpo-a-Corpo: Magia", tags=["combate"]),
+    magia("falar_com_mortos", "Falar com os mortos", "arcana", "fatais__falar_com_os_mortos",
+          "Faz um cadáver responder a algumas perguntas.", ARCANA,
+          estatistica="Sentidos 4 (pós-cognição, só com mortos)", tags=["percepcao"]),
+    magia("videncia", "Vidência", "arcana", "magicos__perscrutar_4",
+          "Vê e ouve um lugar distante numa bola de cristal ou numa bacia com água.", ARCANA, graduacao=2,
+          estatistica="Sentido Remoto (visual, auditivo)", tags=["percepcao"]),
+    magia("visao_verdadeira", "Visão verdadeira", "arcana", "ilusorios__percepcao_verdadeira",
+          "Enxerga através de ilusões e disfarces mágicos.", ARCANA,
+          estatistica="Sentidos 5 (vê através de ilusões)", tags=["percepcao"]),
+    magia("pele_de_pedra", "Pele de pedra", "arcana", "terrestres__armadura_rochosa",
+          "A pele vira pedra por algumas horas. Fica de fora do arranjo.", graduacao_np=-4,
+          estatistica="Proteção, Impenetrável", tags=["defesa"]),
+    magia("raio_sombrio", "Raio sombrio", "arcana", "sombrios__explosao_negra",
+          "Uma lança de escuridão gelada.", ARCANA, graduacao_np=0,
+          estatistica="Dano à Distância (sombras geladas)", pericia=FEITICO, tags=["combate"]),
+    magia("telepatia", "Telepatia", "arcana", "mentais__comunicacao_mental",
+          "Fala de mente para mente.", ARCANA, graduacao=1, estatistica="Comunicação 1 (mental)",
+          tags=["social"]),
+    magia("ler_mentes", "Ler mentes", "arcana", "mentais__leitura_mental_2",
+          "Lê os pensamentos de superfície de quem está perto.", ARCANA, graduacao_np=-2,
+          estatistica="Leitura Mental", tags=["social"]),
+    magia("golpe_arcano", "Lâmina arcana", "arcana", "magicos__fisgo_de_heshem_3",
+          "A lâmina brilha com magia e corta através de armaduras.", ARCANA, graduacao_np=-2,
+          estatistica="Dano corpo a corpo, Penetrante (força arcana)", pericia="Combate Corpo-a-Corpo: Magia",
+          tags=["combate"]),
+    magia("onda_trovejante", "Ira da tempestade", "divina", "climaticos__raio",
+          "O deus da tempestade lança trovões pelas mãos do clérigo.", DIVINA, graduacao_np=0,
+          estatistica="Dano à Distância (trovão e relâmpago)", pericia=FEITICO, tags=["combate"]),
+    magia("duplicata_divina", "Invocar duplicata", "divina", "ilusorios__duplicata_ilusoria",
+          "Uma cópia ilusória do clérigo engana os inimigos.", DIVINA,
+          estatistica="Ilusão 2 (visual e auditiva), só uma cópia de si mesmo", tags=["utilidade"]),
+    magia("toque_sombrio_divino", "Toque do ceifador", "divina", "fatais__toque_mortal",
+          "O clérigo da morte suga a vida com um toque.", DIVINA, graduacao_np=-1,
+          estatistica="Aflição Cumulativa corpo a corpo (Fortitude; prejudicado, desabilitado, moribundo)",
+          pericia="Combate Corpo-a-Corpo: Magia", tags=["combate"]),
+    magia("medo_divino", "Presença aterradora", "divina", "talentos_poderosos__presenca_assustadora",
+          "Os inimigos tremem diante do conquistador.", DIVINA, graduacao_np=-1,
+          estatistica="Aflição, Área Percepção visual (Vontade; prejudicado, desabilitado, paralisado)",
+          tags=["controle", "area"]),
+    magia("chamas_selvagens", "Chamas selvagens", "natureza", "flamejantes__explosao_de_fogo",
+          "O fogo que destrói para a floresta renascer.", NATUREZA, graduacao_np=0,
+          estatistica="Dano à Distância (fogo)", pericia=FEITICO, tags=["combate"]),
+    magia("nuvem_esporos", "Nuvem de esporos", "natureza", "vegetais__nuvem_de_polen",
+          "Esporos que sufocam e enfraquecem.", NATUREZA, graduacao_np=-1,
+          estatistica="Aflição, Área Nuvem (Fortitude; fatigado, exausto, incapacitado)", tags=["controle", "area"]),
+    magia("flecha_estelar", "Flecha estelar", "natureza", "luminosos__feixe_laser",
+          "Um raio de luz das estrelas.", NATUREZA, graduacao_np=0,
+          estatistica="Dano à Distância (luz estelar)", pericia=FEITICO, tags=["combate"]),
+    magia("lamina_pacto", "Lâmina do pacto", "pacto", "magicos__fisgo_de_heshem_3",
+          "Uma arma mágica dada pelo patrono, que aparece na mão do bruxo.", PACTO, graduacao_np=-2,
+          estatistica="Dano corpo a corpo, Penetrante (arma do pacto)", pericia="Combate Corpo-a-Corpo: Espadas",
+          tags=["combate"]),
+    magia("cura_celestial", "Luz curativa", "pacto", "luminosos__cura_luminosa",
+          "O patrono celestial fecha feridas.", PACTO, graduacao_np=-1, estatistica="Cura", tags=["cura"]),
+    magia("medo_bardico", "Sussurros assustadores", "bardica", "talentos_poderosos__presenca_assustadora",
+          "Segredos sussurrados que enchem o alvo de pavor.", BARDICA, graduacao_np=-1,
+          estatistica="Aflição, Área Percepção visual (Vontade; prejudicado, desabilitado, paralisado)",
+          tags=["controle", "area"]),
+    magia("raio_solar_monge", "Raio solar", "marcial", "luminosos__feixe_laser",
+          "O monge concentra o ki num raio de luz.", graduacao_np=-1,
+          estatistica="Dano à Distância (luz do ki)", pericia=FEITICO, tags=["combate"]),
+    # ---- Sinais e mutações do caçador de monstros (bruxo no estilo The Witcher)
+    magia("igni", "Igni", "sinais", "flamejantes__explosao_de_fogo",
+          "Sinal de fogo: um jato de chamas da palma da mão.", SINAIS, graduacao_np=-2,
+          estatistica="Dano à Distância (jato de fogo)", pericia=SINAL, tags=["combate"]),
+    magia("aard", "Aard", "sinais", "climaticos__rajada_ventosa",
+          "Sinal telecinético: uma onda de força que derruba e empurra.", SINAIS, graduacao_np=-1,
+          estatistica="Mover Objetos, Área Cone, Limitado a empurrar (onda de força)", tags=["controle"]),
+    magia("axii", "Axii", "sinais", "luminosos__strobo_hipinotico",
+          "Sinal de influência: confunde a mente e acalma feras.", SINAIS, graduacao_np=-1,
+          estatistica="Aflição à Percepção (Vontade; em transe, compelido), grau limitado", pericia=SINAL,
+          tags=["controle", "social"]),
+    magia("yrden", "Yrden", "sinais", "elementais__encaixotar",
+          "Sinal de armadilha: um círculo mágico que prende criaturas e espectros.", SINAIS, graduacao_np=-2,
+          estatistica="Aflição à Distância (Esquiva; impedido e vulnerável, indefeso e imóvel), círculo no chão",
+          pericia=SINAL, tags=["controle"]),
+    magia("quen", "Quen", "sinais", "magicos__escudo_mistico",
+          "Sinal de proteção: um escudo de energia ao redor do corpo. Fica de fora do arranjo.", graduacao_np=-3,
+          estatistica="Proteção, Sustentado (escudo de energia)", tags=["defesa"]),
+    magia("olhos_de_gato", "Olhos de gato", "mutacao", "sombrios__visao_no_escuro",
+          "Mutação: pupilas verticais que enxergam no escuro.", estatistica="Sentidos 2 (visão no escuro)",
+          tags=["percepcao"]),
+    magia("metabolismo_mutante", "Metabolismo mutante", "mutacao", "talentos_poderosos__imunidade_adquirida",
+          "Mutação: resiste a venenos, doenças e às toxinas dos próprios elixires.",
+          estatistica="Imunidade 2 (doenças e venenos), Limitada a meio efeito", tags=["defesa"]),
     # ---- traços raciais (não aparecem na lista de magias; vêm com a raça)
     magia("visao_escuro", "Visão no escuro", "racial", "sombrios__visao_no_escuro",
           "Enxerga no escuro como se fosse penumbra.", estatistica="Sentidos 2 (visão no escuro)", so_racial=True),
@@ -494,9 +598,17 @@ gravar("complications.json", {
 })
 # ---------------------------------------------------------------- player.json: classes, subclasses e raças
 
-def foco(id_, nome, descricao, vantagens=(), prioridades=(), armas=(), itens=(), implantes=()):
-    return {"id": id_, "nome": nome, "descricao": descricao, "vantagens": list(vantagens),
-            "prioridades": list(prioridades), "armas": list(armas), "itens": list(itens), "implantes": list(implantes)}
+def foco(id_, nome, descricao, vantagens=(), prioridades=(), armas=(), itens=(), implantes=(), implantes_opcionais=(),
+         substitui=None, falhas=()):
+    dados = {"id": id_, "nome": nome, "descricao": descricao, "vantagens": list(vantagens),
+             "prioridades": list(prioridades), "armas": list(armas), "itens": list(itens), "implantes": list(implantes)}
+    if implantes_opcionais:
+        dados["implantes_opcionais"] = list(implantes_opcionais)
+    if substitui:
+        dados["substitui"] = substitui   # campos da classe que o foco troca inteiros
+    if falhas:
+        dados["falhas"] = list(falhas)
+    return dados
 
 
 def classe(id_, nome, conceito, essenciais, opcionais, prioridades, principais, secundarias, itens_ess, itens_opc,
@@ -751,6 +863,139 @@ CLASSES = [
             foco("glamour", "Colégio do Glamour", "Encanta qualquer plateia com magia feérica.",
                  [], p("pericia:Persuasão"), implantes=["encantar_plateia"])]),
 ]
+
+
+# Subclasses extras: estilos de luta, escolas de magia, linhagens, pactos, domínios, juramentos e caminhos.
+RUNAS = {"id": "runas", "nome": "Magias rúnicas", "arranjo": ARCANA, "custo": -2,
+         "descricao": "Só conjura desenhando as runas no ar, no chão ou na pele: Ativação (ação padrão)."}
+EXTRAS = {
+    "guerreiro": [
+        foco("cavaleiro", "Cavaleiro", "Luta montado, de lança em riste.", ["Ação em Movimento"],
+             p("pericia:Especialidade: Cavalgar", "pericia:Combate Corpo-a-Corpo: Lanças"), ["lanca_montaria"],
+             ["cavalo_montaria", "sela"]),
+        foco("arqueiro", "Arqueiro de elite", "Derruba o inimigo antes que ele chegue perto.",
+             ["Mira Aprimorada", "Ataque à Distância"], p("habilidade:Des", "pericia:Combate à Distância: Arcos"),
+             ["arco_longo"]),
+        foco("gladiador", "Gladiador", "Luta para a plateia: provoca, finta e termina com estilo.",
+             ["Zombar", "Ataque Imprudente"], p("pericia:Intimidação", "pericia:Acrobacia"), ["espada_curta"]),
+    ],
+    "barbaro": [
+        foco("guardiao_ancestral", "Guardião ancestral", "Os espíritos dos antepassados protegem os aliados.",
+             ["Interpor-se"], p("defesa:Vontade", "pericia:Intuição")),
+        foco("coracao_fera", "Coração de fera", "Na fúria, luta com a força e a ferocidade de um animal.",
+             ["Agarrar Aprimorado"], p("habilidade:For", "pericia:Atletismo")),
+    ],
+    "ladino": [
+        foco("espadachim", "Espadachim", "Duelista elegante que vence com fintas e charme.",
+             ["Zombar", "Ataque Defensivo"],
+             p("pericia:Acrobacia", "pericia:Persuasão", "pericia:Combate Corpo-a-Corpo: Espadas"), ["rapieira"],
+             ["roupas_finas"]),
+        foco("mestre_intriga", "Mestre da intriga", "Espião e manipulador das cortes.", ["Contatos", "Bem Relacionado"],
+             p("pericia:Enganação", "pericia:Persuasão", "pericia:Intuição"), itens=["kit_disfarce", "roupas_finas"]),
+    ],
+    "mago": [
+        foco("necromancia", "Escola de Necromancia", "Estuda a morte e conversa com quem já se foi.",
+             [], p("pericia:Especialidade: Religião"),
+             implantes=["raio_necrotico", "toque_vampirico", "falar_com_mortos"]),
+        foco("adivinhacao", "Escola de Adivinhação", "Vê longe, vê o futuro e vê através de mentiras.",
+             ["Avaliação"], p("pericia:Percepção", "pericia:Intuição"), implantes=["videncia", "visao_verdadeira"]),
+        foco("encantamento", "Escola de Encantamento", "Dobra a vontade dos outros com palavras e magia.",
+             ["Fascinar"], p("habilidade:Pre", "pericia:Persuasão"), implantes=["enfeiticar_pessoa", "sono"]),
+        foco("transmutacao", "Escola de Transmutação", "Muda a matéria: pedra na pele, chumbo que flutua.",
+             [], p("habilidade:Vig", "pericia:Especialidade: Alquimia"), implantes=["pele_de_pedra", "levitacao"]),
+        foco("runico", "Mago rúnico",
+             "As magias só funcionam quando ele desenha as runas (Ativação: ação padrão, –2 PP no arranjo). "
+             "Mais lento para conjurar, mas sobra ponto para o resto.",
+             [], p("pericia:Especialidade: Runas", "pericia:Prestidigitação"), itens=["giz_runico"],
+             implantes=["armadura_arcana", "teia"], falhas=[RUNAS]),
+        foco("lamina_cantante", "Lâmina cantante", "Dança com a espada e a magia ao mesmo tempo.", ["Finta Ágil"],
+             p("habilidade:Agi", "pericia:Acrobacia", "pericia:Combate Corpo-a-Corpo: Magia"), ["rapieira"],
+             implantes=["golpe_arcano"]),
+    ],
+    "feiticeiro": [
+        foco("sombrio", "Linhagem sombria", "Nasceu das sombras: conjura escuridão e enxerga nela.",
+             [], p("pericia:Furtividade"), implantes=["raio_sombrio", "visao_diabo"]),
+        foco("mente_aberrante", "Mente aberrante", "Uma mente tocada por algo de fora do mundo.",
+             [], p("pericia:Intuição"), implantes=["telepatia", "ler_mentes"]),
+    ],
+    "bruxo": [
+        foco("cacador_monstros", "Caçador de monstros",
+             "No estilo dos bruxos de The Witcher: passou pelas mutações, carrega uma espada de aço para homens e "
+             "uma de prata para monstros, usa Sinais simples e conhece as criaturas que caça. Não fez pacto: "
+             "troca as magias de pacto da classe pelos Sinais.",
+             substitui={
+                 "conceito": "Caçador de monstros mutante, treinado desde criança para matar o que assombra o mundo.",
+                 "vantagens_essenciais": ["Inimigo Favorito", "Rastrear", "Ataque Defensivo"],
+                 "vantagens_opcionais": ["Esquiva Fabulosa", "Destemido", "Duro de Matar", "Iniciativa Aprimorada",
+                                         "Finta Ágil", "Tolerância Maior"],
+                 "prioridades": p("habilidade:Lut", "pericia:Combate Corpo-a-Corpo: Espadas",
+                                  "pericia:Especialidade: Saber de bruxo", "habilidade:Agi", "defesa:Aparar",
+                                  "pericia:Especialidade: Alquimia", "pericia:Percepção", "habilidade:Vig",
+                                  "pericia:Combate à Distância: Sinais", "pericia:Atletismo", "defesa:Esquiva",
+                                  "pericia:Especialidade: Sobrevivência", "pericia:Intimidação"),
+                 "armas": {"principais": ["espada_prata"], "secundarias": ["besta_mao", "adaga"]},
+                 "itens": {"essenciais": ["espada_longa", "couro_batido", "elixires", "oleo_laminas"],
+                           "opcionais": ["cavalo_montaria", "sela", "kit_herbalismo", "corda", "saco_dormir"]},
+                 "implantes": {"essenciais": ["igni", "olhos_de_gato", "metabolismo_mutante"],
+                               "opcionais": ["aard", "axii", "yrden", "quen"]},
+                 "sugestoes": {"motivacoes": ["Cobiça", "Responsabilidade", "Fazer o Bem", "Vingança"],
+                               "complicacoes": [
+                                   {"nome": "Preconceito", "detalhe": "Nas aldeias, todos têm medo do mutante."},
+                                   {"nome": "Honra", "detalhe": "Segue o código: não mata quem não é monstro."},
+                                   {"nome": "Relacionamento", "detalhe": "Uma criança de sangue nobre que ele jurou proteger."},
+                                   {"nome": "Inimigo", "detalhe": "Caçadores de bruxas querem vê-lo na fogueira."}]},
+             }),
+        foco("lamina", "Pacto da lâmina", "O patrono deu uma arma mágica que aparece na mão do bruxo.",
+             ["Ataque Poderoso"], p("habilidade:Lut", "pericia:Combate Corpo-a-Corpo: Espadas"),
+             implantes=["lamina_pacto"]),
+        foco("celestial", "Pacto com o Celestial", "Um ser de luz empresta poder de cura.", [],
+             p("pericia:Tratamento"), implantes=["cura_celestial"]),
+    ],
+    "clerigo": [
+        foco("tempestade", "Domínio da Tempestade", "Serve ao deus dos trovões e do mar.", [],
+             p("pericia:Combate à Distância: Magia"), implantes=["onda_trovejante"]),
+        foco("trapaca", "Domínio da Trapaça", "Serve a um deus das mentiras e dos ladrões.", [],
+             p("pericia:Enganação", "pericia:Furtividade"), implantes=["duplicata_divina"]),
+        foco("morte", "Domínio da Morte", "Serve ao deus que leva as almas.", [],
+             p("pericia:Intimidação"), implantes=["toque_sombrio_divino"]),
+        foco("conhecimento", "Domínio do Conhecimento", "Guarda os segredos da biblioteca do templo.",
+             ["Bem Informado"], p("pericia:Investigação", "pericia:Especialidade: História"), implantes=["augurio"]),
+    ],
+    "paladino": [
+        foco("coroa", "Juramento da Coroa", "Serve ao rei e à lei.", ["Liderança"],
+             p("pericia:Persuasão", "defesa:Fortitude"), implantes=["escudo_da_fe"]),
+        foco("conquista", "Juramento de Conquista", "Governa pelo medo e pela força.", ["Assustar"],
+             p("pericia:Intimidação"), implantes=["medo_divino"]),
+    ],
+    "patrulheiro": [
+        foco("perseguidor", "Perseguidor sombrio", "Caça nas trevas, onde os outros não enxergam.",
+             ["Tomar a Iniciativa"], p("pericia:Furtividade", "pericia:Percepção"), implantes=["olhos_de_gato"]),
+        foco("andarilho_feerico", "Andarilho feérico", "Tocado pelas fadas: encanta e some num piscar de olhos.",
+             [], p("habilidade:Pre", "pericia:Persuasão"), implantes=["passo_nebuloso"]),
+    ],
+    "druida": [
+        foco("fogo", "Círculo do Fogo selvagem", "O fogo que destrói para a floresta renascer.", [],
+             p("pericia:Combate à Distância: Magia"), implantes=["chamas_selvagens"]),
+        foco("esporos", "Círculo dos Esporos", "Fungos e decomposição: a natureza que apodrece.", [],
+             p("pericia:Especialidade: Natureza"), implantes=["nuvem_esporos"]),
+        foco("estrelas", "Círculo das Estrelas", "Lê o futuro nas constelações e lança luz estelar.", [],
+             p("pericia:Percepção"), implantes=["flecha_estelar", "augurio"]),
+    ],
+    "monge": [
+        foco("bebado", "Caminho do Mestre Bêbado", "Cambaleia, confunde e acerta quando ninguém espera.",
+             ["Finta Ágil", "Esquiva Fabulosa"], p("pericia:Acrobacia", "pericia:Enganação"), itens=["vinho"]),
+        foco("alma_solar", "Caminho da Alma Solar", "Concentra o ki em raios de luz.", [],
+             p("pericia:Combate à Distância: Magia"), implantes=["raio_solar_monge"]),
+    ],
+    "bardo": [
+        foco("espadas", "Colégio das Espadas", "Artista de lâminas: malabarismo e combate como espetáculo.",
+             ["Finta Ágil"], p("pericia:Acrobacia", "pericia:Combate Corpo-a-Corpo: Espadas"), ["cimitarra"]),
+        foco("sussurros", "Colégio dos Sussurros", "Espião que usa o medo e os segredos alheios.", ["Contatos"],
+             p("pericia:Enganação", "pericia:Intimidação"), implantes=["medo_bardico"]),
+    ],
+}
+for _classe in CLASSES:
+    _classe["focos"] += EXTRAS.get(_classe["id"], [])
 
 
 def raca(id_, nome, descricao, nomes="humano", habilidades=None, vantagens=None, pericias=None, poderes=()):
