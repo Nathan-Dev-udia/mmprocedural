@@ -559,6 +559,11 @@ gravar("names.json", {
     "animal": {
         "nomes": ["Presa", "Sombra", "Uivo", "Garra", "Cinza", "Trovão", "Brasa", "Neve", "Rasga", "Pata-Larga"],
         "sobrenomes": ["da Matilha", "da Floresta", "da Montanha", "das Cavernas"]},
+    "goblin": {
+        "nomes": ["Snik", "Grubb", "Zizzik", "Nakk", "Ruzga", "Pixa", "Krub", "Fizzig", "Gubbo", "Skritch", "Yark",
+                  "Bozz", "Tikka", "Grax", "Nubb", "Zogg", "Murk", "Rikka", "Drub", "Squee"],
+        "sobrenomes": ["Dente-Torto", "Orelha-Rasgada", "Nariz-de-Batata", "Rói-Corda", "Pé-de-Lama", "Olho-Furado",
+                       "Unha-Suja", "Sopa-Fria", "Mão-Leve", "Rabo-de-Rato"]},
 })
 
 gravar("complications.json", {

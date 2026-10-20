@@ -1844,5 +1844,533 @@
         }
       }
     ]
+  },
+  {
+    "id": "goblin",
+    "nome": "Goblin",
+    "nomes": "goblin",
+    "capanga": true,
+    "np_maximo": 8,
+    "descricao": "Goblinoide miúdo, covarde e esperto. Ataca em bando, de emboscada, e foge quando a luta vira; conhece cada toca, armadilha e atalho do território da tribo.",
+    "prioridades": [
+      "pericia:Combate à Distância: Arcos",
+      "pericia:Furtividade",
+      "defesa:Esquiva",
+      "pericia:Combate Corpo-a-Corpo: Espadas",
+      "habilidade:Agi",
+      "defesa:Aparar",
+      "pericia:Percepção",
+      "defesa:Fortitude",
+      "pericia:Tecnologia",
+      "habilidade:Des",
+      "defesa:Vontade"
+    ],
+    "faixas": [
+      {
+        "np": 2,
+        "nome": "Goblin saqueador",
+        "fonte": "Guia do Mestre de Jogo, p. 252 (Criminoso), adaptado a goblin",
+        "status_dados": "ilustrativo",
+        "observacao": "Estrutura do Criminoso do livro com traços de goblin: Encolhimento 4 e visão no escuro. Para caber no NP 2 com o bônus de tamanho, Agilidade caiu para 1 e as defesas compradas ficaram só em Fortitude. As perícias urbanas viraram Sobrevivência, Enganação e Tecnologia (armadilhas). Equipamento de goblin de D&D: armadura de couro, espada curta (no lugar da cimitarra) e arco curto (Equipamento 3). A Força registrada já inclui o Encolhimento 4 (-1 For, +2 Esquiva e Aparar), aplicado como ajuste do poder. O Encolhimento também dá +4 em Furtividade e -2 em Intimidação, que o gerador não soma (o cartão mostra os valores sem esses modificadores).",
+        "ficha": {
+          "habilidades": {
+            "For": 1,
+            "Vig": 0,
+            "Agi": 1,
+            "Des": 1,
+            "Lut": 1,
+            "Int": 0,
+            "Pro": 0,
+            "Pre": -1
+          },
+          "defesas_compradas": {
+            "Fortitude": 2
+          },
+          "pericias": {
+            "Atletismo": 2,
+            "Enganação": 2,
+            "Especialidade: Sobrevivência": 4,
+            "Furtividade": 6,
+            "Percepção": 4,
+            "Tecnologia": 2
+          },
+          "vantagens": {
+            "Equipamento": 3
+          },
+          "poderes": {
+            "encolhimento": {
+              "nome": "Encolhimento 4 (Permanente, Inato)",
+              "custo_informado": 9,
+              "ajustes": {
+                "For": -1,
+                "Esquiva": 2,
+                "Aparar": 2
+              },
+              "nome_curto": "Encolhimento 4"
+            },
+            "visao_escuro": {
+              "do_genero": "visao_escuro"
+            }
+          },
+          "equipamento": [
+            "couro",
+            "espada_curta",
+            "arco_curto",
+            "flechas"
+          ],
+          "ataque_desarmado": true
+        }
+      },
+      {
+        "np": 3,
+        "nome": "Goblin guerreiro",
+        "fonte": "Guia do Mestre de Jogo, p. 251 (Bandido), adaptado a goblin",
+        "status_dados": "ilustrativo",
+        "observacao": "Habilidades do Bandido do livro com For e Vig 1 ponto menores (goblin é miúdo), mais Encolhimento 4 e visão no escuro. A pistola virou arco curto e entrou a espada curta; Veículos e Manha viraram Furtividade, Percepção e Tecnologia (armadilhas). A Força registrada já inclui o Encolhimento 4 (-1 For, +2 Esquiva e Aparar), aplicado como ajuste do poder. O Encolhimento também dá +4 em Furtividade e -2 em Intimidação, que o gerador não soma (o cartão mostra os valores sem esses modificadores).",
+        "ficha": {
+          "habilidades": {
+            "For": 2,
+            "Vig": 1,
+            "Agi": 1,
+            "Des": 1,
+            "Lut": 2,
+            "Int": 0,
+            "Pro": 0,
+            "Pre": -1
+          },
+          "defesas_compradas": {
+            "Esquiva": 1,
+            "Fortitude": 2,
+            "Vontade": 1
+          },
+          "pericias": {
+            "Atletismo": 4,
+            "Combate à Distância: Arcos": 2,
+            "Especialidade: Sobrevivência": 4,
+            "Furtividade": 6,
+            "Intimidação": 2,
+            "Percepção": 4,
+            "Tecnologia": 2
+          },
+          "vantagens": {
+            "Equipamento": 3
+          },
+          "poderes": {
+            "encolhimento": {
+              "nome": "Encolhimento 4 (Permanente, Inato)",
+              "custo_informado": 9,
+              "ajustes": {
+                "For": -1,
+                "Esquiva": 2,
+                "Aparar": 2
+              },
+              "nome_curto": "Encolhimento 4"
+            },
+            "visao_escuro": {
+              "do_genero": "visao_escuro"
+            }
+          },
+          "equipamento": [
+            "couro",
+            "espada_curta",
+            "arco_curto",
+            "flechas"
+          ],
+          "ataque_desarmado": true
+        }
+      },
+      {
+        "np": 4,
+        "nome": "Goblin veterano",
+        "fonte": "Guia do Mestre de Jogo, p. 253 (Guarda-Costas), adaptado a goblin",
+        "status_dados": "ilustrativo",
+        "observacao": "Base no Guarda-Costas do livro, com Luta e Prontidão menores e Agilidade e Destreza maiores (goblin luta de longe e foge), mais Encolhimento 4 e visão no escuro. A pistola virou arco curto, o soco-inglês virou espada curta e a armadura é de couro batido. Proteção pessoal virou Sobrevivência e Tecnologia (armadilhas); Estrangular e Interpor-se deram lugar a Iniciativa Aprimorada. A Força registrada já inclui o Encolhimento 4 (-1 For, +2 Esquiva e Aparar), aplicado como ajuste do poder. O Encolhimento também dá +4 em Furtividade e -2 em Intimidação, que o gerador não soma (o cartão mostra os valores sem esses modificadores).",
+        "ficha": {
+          "habilidades": {
+            "For": 3,
+            "Vig": 2,
+            "Agi": 2,
+            "Des": 2,
+            "Lut": 2,
+            "Int": 0,
+            "Pro": 1,
+            "Pre": 0
+          },
+          "defesas_compradas": {
+            "Fortitude": 2,
+            "Vontade": 2
+          },
+          "pericias": {
+            "Atletismo": 2,
+            "Combate Corpo-a-Corpo: Espadas": 1,
+            "Combate à Distância: Arcos": 3,
+            "Especialidade: Sobrevivência": 4,
+            "Furtividade": 6,
+            "Intimidação": 2,
+            "Percepção": 6,
+            "Tecnologia": 4
+          },
+          "vantagens": {
+            "Equipamento": 3,
+            "Iniciativa Aprimorada": 1,
+            "Saque Rápido": 1
+          },
+          "poderes": {
+            "encolhimento": {
+              "nome": "Encolhimento 4 (Permanente, Inato)",
+              "custo_informado": 9,
+              "ajustes": {
+                "For": -1,
+                "Esquiva": 2,
+                "Aparar": 2
+              },
+              "nome_curto": "Encolhimento 4"
+            },
+            "visao_escuro": {
+              "do_genero": "visao_escuro"
+            }
+          },
+          "equipamento": [
+            "couro_batido",
+            "espada_curta",
+            "arco_curto",
+            "flechas"
+          ],
+          "ataque_desarmado": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "hobgoblin",
+    "nome": "Hobgoblin",
+    "nomes": "monstro",
+    "capanga": true,
+    "np_maximo": 10,
+    "descricao": "Goblinoide de porte humano, disciplinado e frio. Marcha em formação, obedece à hierarquia da legião e trata a guerra como ofício; despreza os goblins, mas sabe usá-los como bucha de canhão.",
+    "prioridades": [
+      "pericia:Combate à Distância: Arcos",
+      "pericia:Combate Corpo-a-Corpo: Espadas",
+      "defesa:Esquiva",
+      "defesa:Aparar",
+      "defesa:Vontade",
+      "defesa:Fortitude",
+      "pericia:Percepção",
+      "pericia:Especialidade: Vida militar",
+      "habilidade:Lut",
+      "pericia:Intimidação"
+    ],
+    "faixas": [
+      {
+        "np": 4,
+        "nome": "Hobgoblin recruta",
+        "fonte": "Guia do Mestre de Jogo, p. 248 (Soldado, Novato), adaptado a hobgoblin",
+        "status_dados": "ilustrativo",
+        "observacao": "Mesma ficha do arquétipo Soldado do reino (custos por seção do livro), com duas mudanças: a besta leve virou arco longo (mesmo custo; Combate à Distância: Bestas virou Arcos) e entrou visão no escuro (Sentidos 2, +2 PP). Hobgoblins de D&D usam cota de malha e escudo, mas o escudo estoura os limites dessas fichas; ficou a meia-armadura do soldado.",
+        "ficha": {
+          "habilidades": {
+            "For": 1,
+            "Vig": 1,
+            "Agi": 1,
+            "Des": 1,
+            "Lut": 3,
+            "Int": 0,
+            "Pro": 0,
+            "Pre": 0
+          },
+          "defesas_compradas": {
+            "Esquiva": 2,
+            "Fortitude": 2,
+            "Vontade": 2
+          },
+          "pericias": {
+            "Atletismo": 2,
+            "Especialidade: Vida militar": 2,
+            "Percepção": 2,
+            "Combate à Distância: Arcos": 2
+          },
+          "vantagens": {
+            "Equipamento": 6
+          },
+          "equipamento": [
+            "meia_armadura",
+            "arco_longo",
+            "espada_longa",
+            "lanca",
+            "flechas"
+          ],
+          "ataque_desarmado": true,
+          "poderes": {
+            "visao_escuro": {
+              "do_genero": "visao_escuro"
+            }
+          }
+        }
+      },
+      {
+        "np": 5,
+        "nome": "Hobgoblin soldado",
+        "fonte": "Guia do Mestre de Jogo, p. 248 (Soldado), adaptado a hobgoblin",
+        "status_dados": "ilustrativo",
+        "observacao": "Mesma ficha do arquétipo Soldado do reino (custos por seção do livro), com duas mudanças: a besta leve virou arco longo (mesmo custo; Combate à Distância: Bestas virou Arcos) e entrou visão no escuro (Sentidos 2, +2 PP). Hobgoblins de D&D usam cota de malha e escudo, mas o escudo estoura os limites dessas fichas; ficou a meia-armadura do soldado.",
+        "ficha": {
+          "habilidades": {
+            "For": 1,
+            "Vig": 1,
+            "Agi": 1,
+            "Des": 1,
+            "Lut": 3,
+            "Int": 0,
+            "Pro": 0,
+            "Pre": 0
+          },
+          "defesas_compradas": {
+            "Esquiva": 4,
+            "Aparar": 2,
+            "Fortitude": 4,
+            "Vontade": 5
+          },
+          "pericias": {
+            "Atletismo": 4,
+            "Combate Corpo-a-Corpo: Espadas": 2,
+            "Especialidade: Vida militar": 4,
+            "Intimidação": 2,
+            "Percepção": 4,
+            "Combate à Distância: Arcos": 4
+          },
+          "vantagens": {
+            "Equipamento": 6
+          },
+          "equipamento": [
+            "meia_armadura",
+            "arco_longo",
+            "espada_longa",
+            "lanca",
+            "flechas"
+          ],
+          "ataque_desarmado": true,
+          "poderes": {
+            "visao_escuro": {
+              "do_genero": "visao_escuro"
+            }
+          }
+        }
+      },
+      {
+        "np": 6,
+        "nome": "Hobgoblin veterano",
+        "fonte": "Guia do Mestre de Jogo, p. 249 (Soldado, Veterano), adaptado a hobgoblin",
+        "status_dados": "ilustrativo",
+        "observacao": "Mesma ficha do arquétipo Soldado do reino (custos por seção do livro), com duas mudanças: a besta leve virou arco longo (mesmo custo; Combate à Distância: Bestas virou Arcos) e entrou visão no escuro (Sentidos 2, +2 PP). Hobgoblins de D&D usam cota de malha e escudo, mas o escudo estoura os limites dessas fichas; ficou a meia-armadura do soldado.",
+        "ficha": {
+          "habilidades": {
+            "For": 2,
+            "Vig": 1,
+            "Agi": 1,
+            "Des": 1,
+            "Lut": 4,
+            "Int": 0,
+            "Pro": 0,
+            "Pre": 0
+          },
+          "defesas_compradas": {
+            "Esquiva": 6,
+            "Aparar": 3,
+            "Fortitude": 5,
+            "Vontade": 5
+          },
+          "pericias": {
+            "Atletismo": 4,
+            "Combate Corpo-a-Corpo: Espadas": 3,
+            "Especialidade: Vida militar": 7,
+            "Intimidação": 4,
+            "Percepção": 6,
+            "Combate à Distância: Arcos": 6
+          },
+          "vantagens": {
+            "Equipamento": 6,
+            "Iniciativa Aprimorada": 1
+          },
+          "equipamento": [
+            "meia_armadura",
+            "arco_longo",
+            "espada_longa",
+            "lanca",
+            "flechas"
+          ],
+          "ataque_desarmado": true,
+          "poderes": {
+            "visao_escuro": {
+              "do_genero": "visao_escuro"
+            }
+          }
+        }
+      },
+      {
+        "np": 7,
+        "nome": "Hobgoblin de elite",
+        "fonte": "Guia do Mestre de Jogo, p. 249 (Soldado, Elite), adaptado a hobgoblin",
+        "status_dados": "ilustrativo",
+        "observacao": "Mesma ficha do arquétipo Soldado do reino (custos por seção do livro), com duas mudanças: a besta leve virou arco longo (mesmo custo; Combate à Distância: Bestas virou Arcos) e entrou visão no escuro (Sentidos 2, +2 PP). Hobgoblins de D&D usam cota de malha e escudo, mas o escudo estoura os limites dessas fichas; ficou a meia-armadura do soldado. Como no Cavaleiro do soldado, as graduações de Espadas ficaram em 3 para caber no NP 7.",
+        "ficha": {
+          "habilidades": {
+            "For": 3,
+            "Vig": 1,
+            "Agi": 1,
+            "Des": 1,
+            "Lut": 5,
+            "Int": 0,
+            "Pro": 0,
+            "Pre": 0
+          },
+          "defesas_compradas": {
+            "Esquiva": 8,
+            "Aparar": 4,
+            "Fortitude": 5,
+            "Vontade": 6
+          },
+          "pericias": {
+            "Atletismo": 5,
+            "Combate Corpo-a-Corpo: Espadas": 3,
+            "Especialidade: Vida militar": 8,
+            "Intimidação": 4,
+            "Percepção": 6,
+            "Combate à Distância: Arcos": 8
+          },
+          "vantagens": {
+            "Equipamento": 6,
+            "Iniciativa Aprimorada": 1
+          },
+          "equipamento": [
+            "meia_armadura",
+            "arco_longo",
+            "espada_longa",
+            "lanca",
+            "flechas"
+          ],
+          "ataque_desarmado": true,
+          "poderes": {
+            "visao_escuro": {
+              "do_genero": "visao_escuro"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "bugbear",
+    "nome": "Bugbear",
+    "nomes": "monstro",
+    "capanga": true,
+    "np_maximo": 8,
+    "descricao": "Goblinoide grande e peludo, de braços compridos, o maior da família. Apesar do tamanho, anda sem fazer barulho e prefere cair de surpresa sobre a vítima; luta por saque e por diversão.",
+    "prioridades": [
+      "pericia:Combate Corpo-a-Corpo: Maças",
+      "pericia:Furtividade",
+      "defesa:Aparar",
+      "defesa:Esquiva",
+      "pericia:Intimidação",
+      "defesa:Fortitude",
+      "pericia:Combate à Distância: Arremesso",
+      "pericia:Percepção",
+      "habilidade:Lut",
+      "defesa:Vontade"
+    ],
+    "faixas": [
+      {
+        "np": 3,
+        "nome": "Bugbear brigão",
+        "fonte": "Guia do Mestre de Jogo, p. 251 (Brigão), adaptado a bugbear",
+        "status_dados": "ilustrativo",
+        "observacao": "Base no Brigão do livro (26 PP), com Luta 2 no lugar de 3, armadura de couro e visão no escuro. A pistola virou azagaias (arremesso, Dano 1 + Força) e Armas de Fogo virou Arremesso; as graduações que sobraram foram para Furtividade e Percepção, porque bugbears são emboscadores. No NP 3 a maça-estrela não cabe com Força 3, por isso ele luta com os punhos (+3, Dano 3).",
+        "ficha": {
+          "habilidades": {
+            "For": 3,
+            "Vig": 3,
+            "Agi": 0,
+            "Des": 0,
+            "Lut": 2,
+            "Int": -1,
+            "Pro": -1,
+            "Pre": 0
+          },
+          "defesas_compradas": {
+            "Esquiva": 2,
+            "Fortitude": 2,
+            "Vontade": 2
+          },
+          "pericias": {
+            "Combate Corpo-a-Corpo: Briga": 1,
+            "Combate à Distância: Arremesso": 2,
+            "Furtividade": 4,
+            "Intimidação": 5,
+            "Percepção": 2
+          },
+          "vantagens": {
+            "Equipamento": 1
+          },
+          "poderes": {
+            "visao_escuro": {
+              "do_genero": "visao_escuro"
+            }
+          },
+          "equipamento": [
+            "couro",
+            "azagaia"
+          ],
+          "ataque_desarmado": true
+        }
+      },
+      {
+        "np": 4,
+        "nome": "Bugbear caçador",
+        "fonte": "Guia do Mestre de Jogo, p. 253 (Guarda-Costas), adaptado a bugbear",
+        "status_dados": "ilustrativo",
+        "observacao": "Base no Guarda-Costas do livro, trocando Luta por Vigor (bugbear é mais duro e menos técnico) e com visão no escuro. Equipamento de bugbear de D&D: gibão de peles, maça-estrela (+2, Dano 6) e azagaias. Proteção pessoal virou Sobrevivência e Furtividade; ficaram Estrangular e entrou Ataque Poderoso.",
+        "ficha": {
+          "habilidades": {
+            "For": 3,
+            "Vig": 3,
+            "Agi": 1,
+            "Des": 1,
+            "Lut": 2,
+            "Int": 0,
+            "Pro": 1,
+            "Pre": 0
+          },
+          "defesas_compradas": {
+            "Esquiva": 2,
+            "Aparar": 1,
+            "Fortitude": 1,
+            "Vontade": 2
+          },
+          "pericias": {
+            "Atletismo": 4,
+            "Combate à Distância: Arremesso": 3,
+            "Especialidade: Sobrevivência": 4,
+            "Furtividade": 6,
+            "Intimidação": 6,
+            "Percepção": 4
+          },
+          "vantagens": {
+            "Equipamento": 2,
+            "Estrangular": 1,
+            "Ataque Poderoso": 1
+          },
+          "poderes": {
+            "visao_escuro": {
+              "do_genero": "visao_escuro"
+            }
+          },
+          "equipamento": [
+            "gibao_peles",
+            "maca_estrela",
+            "azagaia"
+          ],
+          "ataque_desarmado": true
+        }
+      }
+    ]
   }
 ]

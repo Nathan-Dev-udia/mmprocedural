@@ -1863,5 +1863,1368 @@
     },
     "status_dados": "ilustrativo",
     "fonte": "Criado para o gênero fantasia"
+  },
+  {
+    "id": "goblin_arqueiro",
+    "nome": "Goblin arqueiro",
+    "epiteto": "o Arqueiro",
+    "descricao": "Atirador da tribo: passa o dia num galho alto ou num telhado, de arco curto na mão.",
+    "tatica": "Atira de cima e de longe, escolhe quem está sem armadura e troca de esconderijo a cada disparo.",
+    "tags": [
+      "combate",
+      "distancia"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "goblin"
+    ],
+    "papel": "principal",
+    "adiciona": {
+      "vantagens": {
+        "Mira Aprimorada": 1,
+        "Ataque Preciso (à distância; cobertura)": 1
+      },
+      "pericias": {
+        "Percepção": 2,
+        "Furtividade": 2
+      }
+    },
+    "prioridades": [
+      "pericia:Combate à Distância: Arcos",
+      "habilidade:Des",
+      "pericia:Percepção",
+      "pericia:Furtividade"
+    ],
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia, a partir dos goblinoides clássicos de D&D 5e; números ilustrativos. Não sobe o ataque com arco, que a ficha-base já deixa no limite do NP."
+  },
+  {
+    "id": "goblin_xama",
+    "nome": "Xamã goblin",
+    "epiteto": "o Xamã",
+    "descricao": "Curandeiro e feiticeiro da tribo, coberto de amuletos de osso; fala com os espíritos da caverna.",
+    "tatica": "Fica atrás dos guerreiros, cura quem cai e lança chamas em quem chega perto do fogo da tribo.",
+    "tags": [
+      "magia",
+      "distancia",
+      "cura"
+    ],
+    "estilos": [
+      "combate",
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "goblin"
+    ],
+    "papel": "principal",
+    "adiciona": {
+      "habilidades": {
+        "Pro": 1
+      },
+      "pericias": {
+        "Especialidade: Magia": 4,
+        "Intuição": 2
+      },
+      "poderes": {
+        "raio_de_fogo": {
+          "catalogo": "magicos__raio_mistico_5",
+          "graduacao": 3,
+          "nome": "Raio de fogo",
+          "estatistica": "Dano à Distância (fogo)",
+          "pericia": "Combate à Distância: Magia",
+          "arranjo": "magias_xama"
+        },
+        "curar": {
+          "catalogo": "luminosos__cura_luminosa",
+          "graduacao": 3,
+          "nome": "Curar ferimentos",
+          "estatistica": "Cura (cânticos e ervas)",
+          "arranjo": "magias_xama"
+        }
+      },
+      "equipamento": [
+        "bordao",
+        "simbolo_sagrado"
+      ]
+    },
+    "prioridades": [
+      "pericia:Combate à Distância: Magia",
+      "pericia:Especialidade: Magia",
+      "habilidade:Pro",
+      "defesa:Vontade"
+    ],
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia, a partir dos goblinoides clássicos de D&D 5e; números ilustrativos. Raio de fogo e cura em arranjo; Dano 3 para caber desde o NP 2."
+  },
+  {
+    "id": "goblin_chefe",
+    "nome": "Chefe goblin",
+    "epiteto": "o Chefe",
+    "descricao": "O maior e mais malvado do bando; manda nos outros a gritos e chutes.",
+    "tatica": "Fica no meio dos capangas e empurra um deles para a frente do golpe que vinha na sua direção.",
+    "tags": [
+      "lideranca",
+      "social",
+      "combate"
+    ],
+    "estilos": [
+      "combate",
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "goblin"
+    ],
+    "papel": "principal",
+    "adiciona": {
+      "habilidades": {
+        "Pre": 2,
+        "Pro": 1
+      },
+      "vantagens": {
+        "Liderança": 1,
+        "Redirecionar": 1,
+        "Trabalho em Equipe": 1
+      },
+      "pericias": {
+        "Intimidação": 4,
+        "Enganação": 2,
+        "Persuasão": 2
+      }
+    },
+    "prioridades": [
+      "pericia:Intimidação",
+      "pericia:Combate Corpo-a-Corpo: Espadas",
+      "defesa:Aparar",
+      "defesa:Vontade"
+    ],
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia, a partir dos goblinoides clássicos de D&D 5e; números ilustrativos. Redirecionar representa o truque do chefe goblin de D&D de desviar o ataque para um subordinado."
+  },
+  {
+    "id": "goblin_montador_lobo",
+    "nome": "Montador de lobo",
+    "epiteto": "o Montador",
+    "descricao": "Cavalga um lobo de pelagem suja, tão mal-humorado quanto ele.",
+    "tatica": "Ataca em investidas rápidas com a lança e some no mato antes do troco.",
+    "tags": [
+      "montaria",
+      "combate",
+      "mobilidade"
+    ],
+    "estilos": [
+      "combate",
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "goblin"
+    ],
+    "papel": "principal",
+    "substitui": {
+      "equipamento": {
+        "espada_curta": "lanca"
+      }
+    },
+    "adiciona": {
+      "pericias": {
+        "Especialidade: Cavalgar": 4,
+        "Tratamento": 2
+      },
+      "vantagens": {
+        "Ação em Movimento": 1,
+        "Parceiro (lobo de montaria)": 5
+      }
+    },
+    "prioridades": [
+      "pericia:Combate Corpo-a-Corpo: Lanças",
+      "pericia:Especialidade: Cavalgar",
+      "defesa:Esquiva"
+    ],
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia, a partir dos goblinoides clássicos de D&D 5e; números ilustrativos. O lobo é a vantagem Parceiro 5 (25 PP, o bastante para o Lobo do Guia do Mestre, 23 PP); a espada curta virou lança."
+  },
+  {
+    "id": "goblin_quebra_gelo",
+    "nome": "Goblin quebra-gelo",
+    "epiteto": "o Quebra-Gelo",
+    "descricao": "Goblin da neve, bruto e barulhento, que resolve tudo a pancadas com uma clava de osso congelado.",
+    "tatica": "Vai na frente como boi de piranha e derruba pontes de gelo e estalactites, mesmo sobre os aliados.",
+    "tags": [
+      "combate",
+      "corpo_a_corpo",
+      "frio"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "goblin"
+    ],
+    "papel": "principal",
+    "substitui": {
+      "equipamento": {
+        "espada_curta": "maca"
+      }
+    },
+    "adiciona": {
+      "habilidades": {
+        "Int": -2
+      },
+      "defesas_compradas": {
+        "Fortitude": 1
+      },
+      "vantagens": {
+        "Ataque Poderoso": 1,
+        "Quebrar Aprimorado": 1
+      },
+      "pericias": {
+        "Atletismo": 2,
+        "Intimidação": 2
+      },
+      "poderes": {
+        "imune_frio": {
+          "nome": "Imunidade 1 (frio intenso)",
+          "custo_informado": 1,
+          "ajustes": {},
+          "nome_curto": "Imunidade 1"
+        }
+      }
+    },
+    "prioridades": [
+      "pericia:Combate Corpo-a-Corpo: Maças",
+      "defesa:Fortitude",
+      "pericia:Atletismo"
+    ],
+    "status_dados": "ilustrativo",
+    "fonte": "Goblestiário (D&D 5e), p. 56 do PDF (Goblin Quebra-Gelo), convertido para M&M pelo gerador. Conceito e habilidades especiais convertidos em efeitos de M&M; os números de D&D (PV, CA, ND) não foram transpostos. A imunidade a dano de frio virou Imunidade ao frio do ambiente e o Colapso Gelado virou Quebrar Aprimorado."
+  },
+  {
+    "id": "goblin_feiticeiro_mar",
+    "nome": "Goblin feiticeiro do mar",
+    "epiteto": "o Feiticeiro do Mar",
+    "descricao": "Conjurador das tribos aquáticas, de cajado trançado com coral e espinho de arraia; os olhos têm uma película prateada.",
+    "tatica": "Sai da névoa da maré, congela quem rema e põe para dormir quem tenta subir a bordo.",
+    "tags": [
+      "magia",
+      "distancia",
+      "aquatico"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "goblin"
+    ],
+    "papel": "principal",
+    "adiciona": {
+      "habilidades": {
+        "Int": 1
+      },
+      "pericias": {
+        "Especialidade: Magia": 4
+      },
+      "poderes": {
+        "natacao": {
+          "nome": "Natação 2 (nadadeiras entre os dedos)",
+          "custo_informado": 2,
+          "ajustes": {},
+          "nome_curto": "Natação 2"
+        },
+        "respirar_agua": {
+          "nome": "Imunidade 1 (afogamento: respira debaixo d'água)",
+          "custo_informado": 1,
+          "ajustes": {},
+          "nome_curto": "Imunidade 1"
+        },
+        "raio_de_gelo": {
+          "catalogo": "congelantes__rajada_de_gelo",
+          "graduacao": 3,
+          "nome": "Raio de gelo",
+          "estatistica": "Dano à Distância (frio)",
+          "pericia": "Combate à Distância: Magia",
+          "arranjo": "magias_do_mar"
+        },
+        "sono": {
+          "catalogo": "magicos__feitico_de_sonambulo_2",
+          "graduacao": 2,
+          "nome": "Sono",
+          "estatistica": "Aflição Cumulativa, Área Nuvem (Vontade; tonto, atordoado, adormecido)",
+          "arranjo": "magias_do_mar"
+        }
+      },
+      "equipamento": [
+        "bordao"
+      ]
+    },
+    "prioridades": [
+      "pericia:Combate à Distância: Magia",
+      "pericia:Especialidade: Magia",
+      "defesa:Vontade"
+    ],
+    "status_dados": "ilustrativo",
+    "fonte": "Goblestiário (D&D 5e), p. 61 do PDF (Goblin Feiticeiro do Mar), convertido para M&M pelo gerador. Conceito e habilidades especiais convertidos em efeitos de M&M; os números de D&D (PV, CA, ND) não foram transpostos. Raio de gelo e sono em arranjo; Sono 2 para caber desde o NP 2."
+  },
+  {
+    "id": "goblin_submerso",
+    "nome": "Goblin submerso",
+    "epiteto": "o Submerso",
+    "descricao": "Vive quase todo o tempo debaixo d'água e solta um muco incolor que paralisa quem nada perto.",
+    "tatica": "Prepara armadilhas sob a superfície, espera a vítima entrar na água e a arrasta para o fundo.",
+    "tags": [
+      "emboscada",
+      "aquatico",
+      "controle"
+    ],
+    "estilos": [
+      "combate",
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "goblin"
+    ],
+    "papel": "principal",
+    "requisitos": {
+      "np_min": 3
+    },
+    "adiciona": {
+      "vantagens": {
+        "Ambiente Favorito (debaixo d'água)": 1
+      },
+      "pericias": {
+        "Furtividade": 2,
+        "Tecnologia": 2
+      },
+      "poderes": {
+        "natacao": {
+          "nome": "Natação 3",
+          "custo_informado": 3,
+          "ajustes": {},
+          "nome_curto": "Natação 3"
+        },
+        "respirar_agua": {
+          "nome": "Imunidade 1 (afogamento: respira debaixo d'água)",
+          "custo_informado": 1,
+          "ajustes": {},
+          "nome_curto": "Imunidade 1"
+        },
+        "muco": {
+          "nome": "Muco paralisante 3 (Aflição, Área Explosão; resistida por Fortitude; impedido, imóvel, paralisado)",
+          "custo_informado": 6,
+          "ajustes": {},
+          "nome_curto": "Muco paralisante 3",
+          "ataque": {
+            "tipo": "area",
+            "efeito": 3,
+            "efeito_nome": "Aflição",
+            "resistido_por": "Fortitude"
+          }
+        }
+      }
+    },
+    "prioridades": [
+      "pericia:Furtividade",
+      "defesa:Fortitude",
+      "pericia:Tecnologia"
+    ],
+    "status_dados": "ilustrativo",
+    "fonte": "Goblestiário (D&D 5e), p. 67 do PDF (Goblin Submerso), convertido para M&M pelo gerador. Conceito e habilidades especiais convertidos em efeitos de M&M; os números de D&D (PV, CA, ND) não foram transpostos. O muco é uma Aflição em área (2 PP por graduação); com efeito 3, só a partir do NP 3."
+  },
+  {
+    "id": "goblin_bombardeiro",
+    "nome": "Goblin bombardeiro",
+    "epiteto": "o Bombardeiro",
+    "descricao": "Pirata fascinado por fogo, carregado de bombas de pavio e garrafas de faíscas.",
+    "tatica": "Arremessa bombas no maior grupo de inimigos, mesmo que os aliados estejam no meio.",
+    "tags": [
+      "combate",
+      "area",
+      "fogo"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "goblin"
+    ],
+    "papel": "principal",
+    "requisitos": {
+      "np_min": 3
+    },
+    "adiciona": {
+      "pericias": {
+        "Especialidade: Alquimia": 4
+      },
+      "poderes": {
+        "bomba": {
+          "nome": "Bomba de pavio 3 (Dano à Distância, Área Explosão; fogo)",
+          "custo_informado": 9,
+          "ajustes": {},
+          "nome_curto": "Bomba de pavio 3",
+          "ataque": {
+            "tipo": "area",
+            "efeito": 3,
+            "efeito_nome": "Dano"
+          },
+          "arranjo": "bombas"
+        },
+        "coquetel": {
+          "nome": "Coquetel de faíscas 3 (Aflição, Área Cone; resistida por Fortitude; visão prejudicada, visão desabilitada, cego)",
+          "custo_informado": 6,
+          "ajustes": {},
+          "nome_curto": "Coquetel de faíscas 3",
+          "ataque": {
+            "tipo": "area",
+            "efeito": 3,
+            "efeito_nome": "Aflição",
+            "resistido_por": "Fortitude"
+          },
+          "arranjo": "bombas"
+        }
+      }
+    },
+    "prioridades": [
+      "pericia:Especialidade: Alquimia",
+      "defesa:Esquiva",
+      "pericia:Furtividade"
+    ],
+    "status_dados": "ilustrativo",
+    "fonte": "Goblestiário (D&D 5e), p. 74 do PDF (Goblin Bombardeiro), convertido para M&M pelo gerador. Conceito e habilidades especiais convertidos em efeitos de M&M; os números de D&D (PV, CA, ND) não foram transpostos. As bombas são poderes (3 PP por graduação: Dano, Área, À Distância) porque o catálogo de equipamento não tem granadas; efeito 3, só a partir do NP 3."
+  },
+  {
+    "id": "goblin_bardo",
+    "nome": "Goblin bardo",
+    "epiteto": "o Bardo",
+    "descricao": "Bufão da tripulação pirata, de roupas berrantes; canta, zomba e acalma motins.",
+    "tatica": "Insulta o inimigo mais perigoso e anima os companheiros com versos desafinados.",
+    "tags": [
+      "social",
+      "magia",
+      "apoio"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "goblin"
+    ],
+    "papel": "principal",
+    "adiciona": {
+      "habilidades": {
+        "Pre": 3
+      },
+      "vantagens": {
+        "Inspirar": 1,
+        "Zombar": 1
+      },
+      "pericias": {
+        "Enganação": 4,
+        "Persuasão": 2,
+        "Especialidade: Atuação": 4
+      },
+      "poderes": {
+        "zombaria": {
+          "nome": "Zombaria cruel 2 (Dano à Percepção, resistido por Vontade; insultos mágicos)",
+          "custo_informado": 6,
+          "ajustes": {},
+          "nome_curto": "Zombaria cruel 2",
+          "ataque": {
+            "tipo": "percepcao",
+            "efeito": 2,
+            "efeito_nome": "Dano",
+            "resistido_por": "Vontade"
+          }
+        }
+      },
+      "equipamento": [
+        "alaude"
+      ]
+    },
+    "prioridades": [
+      "pericia:Enganação",
+      "pericia:Persuasão",
+      "habilidade:Pre",
+      "defesa:Vontade"
+    ],
+    "status_dados": "ilustrativo",
+    "fonte": "Goblestiário (D&D 5e), p. 76 do PDF (Goblin Bardo), convertido para M&M pelo gerador. Conceito e habilidades especiais convertidos em efeitos de M&M; os números de D&D (PV, CA, ND) não foram transpostos. Zombaria Viciosa virou Dano à Percepção resistido por Vontade (3 PP por graduação) e Mote de Inspiração virou a vantagem Inspirar."
+  },
+  {
+    "id": "goblin_ratos",
+    "nome": "Goblin dos ratos",
+    "epiteto": "o Rateiro",
+    "descricao": "Coberto de trapos e tatuagens circulares que brilham quando ele chama seus ratos.",
+    "tatica": "Manda os ratos roerem cordas e soltarem prisioneiros e, na briga, cobre os inimigos com uma nuvem de mordidas.",
+    "tags": [
+      "animais",
+      "sabotagem",
+      "area"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "goblin"
+    ],
+    "papel": "principal",
+    "adiciona": {
+      "habilidades": {
+        "Pro": 1
+      },
+      "pericias": {
+        "Tratamento": 4,
+        "Prestidigitação": 2,
+        "Furtividade": 2
+      },
+      "poderes": {
+        "nuvem_ratos": {
+          "nome": "Nuvem de ratos 2 (Dano, Área Explosão; mordidas)",
+          "custo_informado": 4,
+          "ajustes": {},
+          "nome_curto": "Nuvem de ratos 2",
+          "ataque": {
+            "tipo": "area",
+            "efeito": 2,
+            "efeito_nome": "Dano"
+          }
+        },
+        "falar_ratos": {
+          "nome": "Compreender 1 (animais, Limitado a ratos)",
+          "custo_informado": 1,
+          "ajustes": {},
+          "nome_curto": "Falar com ratos"
+        },
+        "imune_veneno": {
+          "nome": "Imunidade 1 (veneno)",
+          "custo_informado": 1,
+          "ajustes": {},
+          "nome_curto": "Imunidade 1"
+        }
+      }
+    },
+    "prioridades": [
+      "pericia:Tratamento",
+      "pericia:Furtividade",
+      "pericia:Prestidigitação"
+    ],
+    "status_dados": "ilustrativo",
+    "fonte": "Goblestiário (D&D 5e), p. 85 do PDF (Goblin dos Ratos Sabotadores), convertido para M&M pelo gerador. Conceito e habilidades especiais convertidos em efeitos de M&M; os números de D&D (PV, CA, ND) não foram transpostos. O controle dos ratos virou Compreender animais (só ratos) e a Nuvem de Ratos, Dano em área."
+  },
+  {
+    "id": "goblin_domador",
+    "nome": "Goblin domador",
+    "epiteto": "o Domador",
+    "descricao": "Goblin esguio do subterrâneo, de orelhas em concha, sempre ao lado do seu verme de cauda luminosa.",
+    "tatica": "Some por túneis estreitos e reaparece atrás do grupo enquanto o verme ataca pela frente.",
+    "tags": [
+      "animais",
+      "subterraneo",
+      "furtividade"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "goblin"
+    ],
+    "papel": "principal",
+    "adiciona": {
+      "habilidades": {
+        "Pro": 1
+      },
+      "vantagens": {
+        "Parceiro (verme subterrâneo)": 5,
+        "Esconder-se à Plena Vista": 1
+      },
+      "pericias": {
+        "Tratamento": 6,
+        "Percepção": 2,
+        "Furtividade": 2
+      },
+      "poderes": {
+        "ecolocalizacao": {
+          "nome": "Sentidos 2 (audição acurada: ecolocalização)",
+          "custo_informado": 2,
+          "ajustes": {},
+          "nome_curto": "Ecolocalização"
+        },
+        "escavacao": {
+          "catalogo": "terrestres__tunelamento",
+          "graduacao": 1,
+          "nome": "Escavação",
+          "estatistica": "Escavação (túneis estreitos)"
+        }
+      }
+    },
+    "prioridades": [
+      "pericia:Tratamento",
+      "pericia:Furtividade",
+      "pericia:Percepção"
+    ],
+    "status_dados": "ilustrativo",
+    "fonte": "Goblestiário (D&D 5e), p. 90 do PDF (Goblin Domador; Verme Subterrâneo na p. 91), convertido para M&M pelo gerador. Conceito e habilidades especiais convertidos em efeitos de M&M; os números de D&D (PV, CA, ND) não foram transpostos. O verme é a vantagem Parceiro 5 (25 PP); Sumir nos Túneis virou Esconder-se à Plena Vista."
+  },
+  {
+    "id": "goblin_toxico",
+    "nome": "Goblin tóxico",
+    "epiteto": "o Tóxico",
+    "descricao": "Goblin vulcânico que come carvão e solta gases venenosos pelos poros.",
+    "tatica": "Entra no meio do grupo e enche o lugar de gás; em bando, os venenos se somam.",
+    "tags": [
+      "veneno",
+      "area",
+      "resistencia"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "goblin"
+    ],
+    "papel": "principal",
+    "requisitos": {
+      "np_min": 4
+    },
+    "adiciona": {
+      "defesas_compradas": {
+        "Fortitude": 1
+      },
+      "vantagens": {
+        "Duro de Matar": 1
+      },
+      "poderes": {
+        "gas": {
+          "nome": "Gás corrosivo 4 (Dano, Área Nuvem, resistido por Fortitude; veneno)",
+          "custo_informado": 8,
+          "ajustes": {},
+          "nome_curto": "Gás corrosivo 4",
+          "ataque": {
+            "tipo": "area",
+            "efeito": 4,
+            "efeito_nome": "Dano",
+            "resistido_por": "Fortitude"
+          }
+        },
+        "imune_veneno": {
+          "nome": "Imunidade 1 (veneno)",
+          "custo_informado": 1,
+          "ajustes": {},
+          "nome_curto": "Imunidade 1"
+        },
+        "regeneracao": {
+          "nome": "Regeneração 2 (Limitada a ambientes com fumaça, fogo ou carvão aceso)",
+          "custo_informado": 1,
+          "ajustes": {},
+          "nome_curto": "Regeneração 2"
+        }
+      }
+    },
+    "prioridades": [
+      "defesa:Fortitude",
+      "defesa:Esquiva",
+      "habilidade:Vig"
+    ],
+    "status_dados": "ilustrativo",
+    "fonte": "Goblestiário (D&D 5e), p. 99 do PDF (Goblin Tóxico), convertido para M&M pelo gerador. Conceito e habilidades especiais convertidos em efeitos de M&M; os números de D&D (PV, CA, ND) não foram transpostos. O livro o trata como ameaça maior (ND 5), por isso só a partir do NP 4; gás com efeito 4."
+  },
+  {
+    "id": "goblin_areia",
+    "nome": "Goblin de areia",
+    "epiteto": "o das Dunas",
+    "descricao": "Goblin do deserto que move a areia como se fosse fio de marionete.",
+    "tatica": "Enterra-se na duna, cega o alvo com uma rajada de areia e ataca quando ele esfrega os olhos.",
+    "tags": [
+      "magia",
+      "controle",
+      "furtividade"
+    ],
+    "estilos": [
+      "combate",
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "goblin"
+    ],
+    "papel": "principal",
+    "adiciona": {
+      "vantagens": {
+        "Ambiente Favorito (deserto)": 1,
+        "Esconder-se à Plena Vista": 1
+      },
+      "pericias": {
+        "Especialidade: Magia": 2,
+        "Furtividade": 2
+      },
+      "poderes": {
+        "rajada_areia": {
+          "nome": "Rajada de areia 3 (Aflição à Distância, resistida por Fortitude; visão prejudicada, visão desabilitada, cego)",
+          "custo_informado": 6,
+          "ajustes": {},
+          "nome_curto": "Rajada de areia 3",
+          "ataque": {
+            "tipo": "distancia",
+            "efeito": 3,
+            "efeito_nome": "Aflição",
+            "resistido_por": "Fortitude",
+            "critico": 20,
+            "pericia": "Combate à Distância: Magia",
+            "soma_forca": false
+          }
+        }
+      }
+    },
+    "prioridades": [
+      "pericia:Combate à Distância: Magia",
+      "pericia:Furtividade",
+      "defesa:Esquiva"
+    ],
+    "status_dados": "ilustrativo",
+    "fonte": "Goblestiário (D&D 5e), p. 113 do PDF (Goblin de Areia), convertido para M&M pelo gerador. Conceito e habilidades especiais convertidos em efeitos de M&M; os números de D&D (PV, CA, ND) não foram transpostos. Mestre das Dunas virou Ambiente Favorito e Esconder-se à Plena Vista."
+  },
+  {
+    "id": "goblin_eletrico",
+    "nome": "Goblin elétrico",
+    "epiteto": "o Faiscante",
+    "descricao": "Goblin das terras altas do deserto que acumula eletricidade no corpo e funde areia em tocas de vidro.",
+    "tatica": "Encosta no inimigo com um choque e, quando o cerco aperta, solta um estalo em linha reta.",
+    "tags": [
+      "combate",
+      "eletricidade",
+      "area"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "goblin"
+    ],
+    "papel": "principal",
+    "adiciona": {
+      "pericias": {
+        "Acrobacia": 4,
+        "Furtividade": 2
+      },
+      "poderes": {
+        "estalo": {
+          "nome": "Estalo relampejante 2 (Dano, Área Linha; elétrico)",
+          "custo_informado": 4,
+          "ajustes": {},
+          "nome_curto": "Estalo relampejante 2",
+          "ataque": {
+            "tipo": "area",
+            "efeito": 2,
+            "efeito_nome": "Dano"
+          },
+          "arranjo": "eletricidade"
+        },
+        "toque": {
+          "nome": "Toque estático 3 (Dano corpo a corpo; elétrico)",
+          "custo_informado": 3,
+          "ajustes": {},
+          "nome_curto": "Toque estático 3",
+          "ataque": {
+            "tipo": "corpo",
+            "efeito": 3,
+            "efeito_nome": "Dano",
+            "critico": 20,
+            "pericia": "Combate Corpo-a-Corpo: Toque",
+            "soma_forca": false
+          },
+          "arranjo": "eletricidade"
+        }
+      }
+    },
+    "prioridades": [
+      "pericia:Combate Corpo-a-Corpo: Toque",
+      "pericia:Acrobacia",
+      "defesa:Esquiva"
+    ],
+    "status_dados": "ilustrativo",
+    "fonte": "Goblestiário (D&D 5e), p. 115 do PDF (Goblin Elétrico), convertido para M&M pelo gerador. Conceito e habilidades especiais convertidos em efeitos de M&M; os números de D&D (PV, CA, ND) não foram transpostos. Toque e estalo em arranjo; efeitos baixos para caber desde o NP 2."
+  },
+  {
+    "id": "goblin_ventanias",
+    "nome": "Goblin das ventanias",
+    "epiteto": "o Ventania",
+    "descricao": "Goblin do deserto que flutua preso a um balão de hélio e não faz barulho ao andar.",
+    "tatica": "Paira acima do combate, empurra os inimigos com rajadas de vento e desce para cortar quem caiu.",
+    "tags": [
+      "mobilidade",
+      "voo",
+      "furtividade"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "goblin"
+    ],
+    "papel": "principal",
+    "adiciona": {
+      "vantagens": {
+        "Ação em Movimento": 1
+      },
+      "pericias": {
+        "Furtividade": 4,
+        "Acrobacia": 4
+      },
+      "poderes": {
+        "balao": {
+          "nome": "Voo 1 (balão de hélio amarrado à cintura)",
+          "custo_informado": 2,
+          "ajustes": {},
+          "nome_curto": "Voo 1"
+        },
+        "rajada": {
+          "catalogo": "climaticos__rajada_ventosa",
+          "graduacao": 2,
+          "nome": "Rajada de vento",
+          "estatistica": "Mover Objetos, Área Cone, Perto, Limitado a empurrar para longe"
+        }
+      }
+    },
+    "prioridades": [
+      "pericia:Furtividade",
+      "pericia:Acrobacia",
+      "defesa:Esquiva"
+    ],
+    "status_dados": "ilustrativo",
+    "fonte": "Goblestiário (D&D 5e), p. 116 do PDF (Goblin das Ventanias), convertido para M&M pelo gerador. Conceito e habilidades especiais convertidos em efeitos de M&M; os números de D&D (PV, CA, ND) não foram transpostos. Passo Silencioso virou Ação em Movimento e Furtividade."
+  },
+  {
+    "id": "rei_do_deserto",
+    "nome": "Rei do Deserto",
+    "epiteto": "o Rei do Deserto",
+    "descricao": "Sub-general dos goblins de areia, coberto por uma couraça de cristais; com um gesto ergue muralhas de duna.",
+    "tatica": "Abre com uma tempestade de areia, cerca os inimigos com muralhas e some sob a areia para atacar de outro lado.",
+    "tags": [
+      "lideranca",
+      "magia",
+      "area"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "goblin"
+    ],
+    "papel": "principal",
+    "requisitos": {
+      "np_min": 6
+    },
+    "adiciona": {
+      "habilidades": {
+        "For": 2,
+        "Pro": 2,
+        "Pre": 3
+      },
+      "vantagens": {
+        "Liderança": 1,
+        "Ambiente Favorito (deserto)": 1
+      },
+      "pericias": {
+        "Intimidação": 6,
+        "Especialidade: Magia": 4
+      },
+      "poderes": {
+        "tempestade": {
+          "nome": "Tempestade de areia 6 (Dano, Área Cone, resistido por Fortitude; areia)",
+          "custo_informado": 12,
+          "ajustes": {},
+          "nome_curto": "Tempestade de areia 6",
+          "ataque": {
+            "tipo": "area",
+            "efeito": 6,
+            "efeito_nome": "Dano",
+            "resistido_por": "Fortitude"
+          },
+          "arranjo": "areia"
+        },
+        "muralha": {
+          "nome": "Muralha de dunas: Criar 6 (muralhas de areia)",
+          "custo_informado": 12,
+          "ajustes": {},
+          "nome_curto": "Muralha de dunas",
+          "arranjo": "areia"
+        },
+        "couraca": {
+          "nome": "Proteção 4 (couraça de cristais de areia)",
+          "custo_informado": 4,
+          "ajustes": {
+            "Proteção": 4
+          },
+          "nome_curto": "Proteção 4"
+        },
+        "enterrar": {
+          "catalogo": "terrestres__tunelamento",
+          "graduacao": 2,
+          "nome": "Enterrar-se",
+          "estatistica": "Escavação (só em areia)"
+        }
+      }
+    },
+    "prioridades": [
+      "pericia:Intimidação",
+      "pericia:Combate Corpo-a-Corpo: Espadas",
+      "defesa:Vontade",
+      "defesa:Aparar"
+    ],
+    "status_dados": "ilustrativo",
+    "fonte": "Goblestiário (D&D 5e), p. 118 do PDF (Rei do Deserto), convertido para M&M pelo gerador. Conceito e habilidades especiais convertidos em efeitos de M&M; os números de D&D (PV, CA, ND) não foram transpostos. Chefe de ND 10 em D&D: só a partir do NP 6."
+  },
+  {
+    "id": "trovao_verde",
+    "nome": "Trovão Verde",
+    "epiteto": "o Trovão Verde",
+    "descricao": "Sub-general dos goblins elétricos, mago que achou uma armadura ancestral e agora dispara relâmpagos.",
+    "tatica": "Varre a linha inimiga com um raio e, se o cercarem, solta uma explosão que paralisa quem está perto.",
+    "tags": [
+      "lideranca",
+      "magia",
+      "eletricidade"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "goblin"
+    ],
+    "papel": "principal",
+    "requisitos": {
+      "np_min": 6
+    },
+    "substitui": {
+      "equipamento": {
+        "espada_curta": "lanca"
+      }
+    },
+    "adiciona": {
+      "habilidades": {
+        "Int": 3,
+        "Des": 1
+      },
+      "vantagens": {
+        "Liderança": 1
+      },
+      "pericias": {
+        "Especialidade: Magia": 6,
+        "Intimidação": 4
+      },
+      "poderes": {
+        "raio": {
+          "nome": "Raio arcanjo 6 (Dano, Área Linha; elétrico)",
+          "custo_informado": 12,
+          "ajustes": {},
+          "nome_curto": "Raio arcanjo 6",
+          "ataque": {
+            "tipo": "area",
+            "efeito": 6,
+            "efeito_nome": "Dano"
+          },
+          "arranjo": "tempestade"
+        },
+        "explosao": {
+          "nome": "Explosão estática 6 (Aflição, Área Explosão, resistida por Fortitude; tonto, atordoado, paralisado)",
+          "custo_informado": 12,
+          "ajustes": {},
+          "nome_curto": "Explosão estática 6",
+          "ataque": {
+            "tipo": "area",
+            "efeito": 6,
+            "efeito_nome": "Aflição",
+            "resistido_por": "Fortitude"
+          },
+          "arranjo": "tempestade"
+        },
+        "armadura": {
+          "nome": "Proteção 4 (armadura arcana)",
+          "custo_informado": 4,
+          "ajustes": {
+            "Proteção": 4
+          },
+          "nome_curto": "Proteção 4"
+        }
+      }
+    },
+    "prioridades": [
+      "pericia:Especialidade: Magia",
+      "pericia:Combate Corpo-a-Corpo: Lanças",
+      "defesa:Esquiva",
+      "defesa:Vontade"
+    ],
+    "status_dados": "ilustrativo",
+    "fonte": "Goblestiário (D&D 5e), p. 121 do PDF (Trovão Verde), convertido para M&M pelo gerador. Conceito e habilidades especiais convertidos em efeitos de M&M; os números de D&D (PV, CA, ND) não foram transpostos. Chefe de ND 10 em D&D: só a partir do NP 6. O tridente virou lança."
+  },
+  {
+    "id": "terror_silencioso",
+    "nome": "Terror Silencioso",
+    "epiteto": "a Terror Silenciosa",
+    "descricao": "Sub-general dos goblins das ventanias, maga do ar de capa de penas e seda que voa sem fazer som.",
+    "tatica": "Corta o grupo com rajadas de vento e desce sobre o mais fraco para sugar o ar dos pulmões dele.",
+    "tags": [
+      "lideranca",
+      "magia",
+      "voo"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "goblin"
+    ],
+    "papel": "principal",
+    "requisitos": {
+      "np_min": 6
+    },
+    "substitui": {
+      "equipamento": {
+        "espada_curta": "adaga"
+      }
+    },
+    "adiciona": {
+      "habilidades": {
+        "Agi": 2,
+        "Pro": 2,
+        "Pre": 3
+      },
+      "vantagens": {
+        "Esconder-se à Plena Vista": 1,
+        "Ação em Movimento": 1
+      },
+      "pericias": {
+        "Furtividade": 6,
+        "Acrobacia": 4,
+        "Intimidação": 4
+      },
+      "poderes": {
+        "voo": {
+          "nome": "Voo 4 (capa de penas e seda)",
+          "custo_informado": 8,
+          "ajustes": {},
+          "nome_curto": "Voo 4"
+        },
+        "rajada": {
+          "nome": "Rajada cortante 6 (Dano, Área Cone; vento cortante)",
+          "custo_informado": 12,
+          "ajustes": {},
+          "nome_curto": "Rajada cortante 6",
+          "ataque": {
+            "tipo": "area",
+            "efeito": 6,
+            "efeito_nome": "Dano"
+          },
+          "arranjo": "vento"
+        },
+        "beijo": {
+          "nome": "Beijo da morte 6 (Aflição corpo a corpo, resistida por Fortitude; tonto, atordoado, incapacitado; sufocamento)",
+          "custo_informado": 6,
+          "ajustes": {},
+          "nome_curto": "Beijo da morte 6",
+          "ataque": {
+            "tipo": "corpo",
+            "efeito": 6,
+            "efeito_nome": "Aflição",
+            "resistido_por": "Fortitude",
+            "critico": 20,
+            "pericia": "Combate Corpo-a-Corpo: Beijo da morte",
+            "soma_forca": false
+          },
+          "arranjo": "vento"
+        }
+      }
+    },
+    "prioridades": [
+      "pericia:Furtividade",
+      "defesa:Esquiva",
+      "pericia:Combate Corpo-a-Corpo: Beijo da morte",
+      "pericia:Acrobacia"
+    ],
+    "status_dados": "ilustrativo",
+    "fonte": "Goblestiário (D&D 5e), p. 123 do PDF (Terror Silencioso), convertido para M&M pelo gerador. Conceito e habilidades especiais convertidos em efeitos de M&M; os números de D&D (PV, CA, ND) não foram transpostos. Chefe de ND 10 em D&D: só a partir do NP 6. A espada curta virou a adaga encantada."
+  },
+  {
+    "id": "hobgoblin_capitao",
+    "nome": "Capitão hobgoblin",
+    "epiteto": "o Capitão",
+    "descricao": "Oficial da legião, de capa com o brasão da tribo; conhece manuais de guerra de cor.",
+    "tatica": "Organiza a formação, manda os goblins na frente e concentra os arcos no inimigo que se destacar.",
+    "tags": [
+      "lideranca",
+      "tatica",
+      "social"
+    ],
+    "estilos": [
+      "combate",
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "hobgoblin"
+    ],
+    "papel": "principal",
+    "requisitos": {
+      "np_min": 5
+    },
+    "adiciona": {
+      "habilidades": {
+        "Int": 1,
+        "Pre": 2
+      },
+      "vantagens": {
+        "Liderança": 1,
+        "Trabalho em Equipe": 1
+      },
+      "pericias": {
+        "Intimidação": 4,
+        "Persuasão": 2,
+        "Especialidade: Táticas": 4
+      }
+    },
+    "prioridades": [
+      "pericia:Especialidade: Táticas",
+      "pericia:Intimidação",
+      "pericia:Combate Corpo-a-Corpo: Espadas",
+      "defesa:Vontade"
+    ],
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia, a partir dos goblinoides clássicos de D&D 5e; números ilustrativos."
+  },
+  {
+    "id": "hobgoblin_conjurador",
+    "nome": "Conjurador de guerra hobgoblin",
+    "epiteto": "o Devastador",
+    "descricao": "Mago de batalha da legião, treinado para uma única tarefa: abrir buracos na linha inimiga.",
+    "tatica": "Fica atrás das lanças e lança bolas de fogo onde o inimigo se agrupa.",
+    "tags": [
+      "magia",
+      "area",
+      "distancia"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "hobgoblin"
+    ],
+    "papel": "principal",
+    "adiciona": {
+      "habilidades": {
+        "Int": 2
+      },
+      "pericias": {
+        "Especialidade: Magia": 4
+      },
+      "poderes": {
+        "bola_de_fogo": {
+          "nome": "Bola de fogo 4 (Dano à Distância, Área Explosão; fogo)",
+          "custo_informado": 12,
+          "ajustes": {},
+          "nome_curto": "Bola de fogo 4",
+          "ataque": {
+            "tipo": "area",
+            "efeito": 4,
+            "efeito_nome": "Dano"
+          },
+          "arranjo": "magias_guerra"
+        },
+        "raio_de_fogo": {
+          "catalogo": "magicos__raio_mistico_5",
+          "graduacao": 4,
+          "nome": "Raio de fogo",
+          "estatistica": "Dano à Distância (fogo)",
+          "pericia": "Combate à Distância: Magia",
+          "arranjo": "magias_guerra"
+        }
+      }
+    },
+    "prioridades": [
+      "pericia:Combate à Distância: Magia",
+      "pericia:Especialidade: Magia",
+      "defesa:Vontade"
+    ],
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia, a partir dos goblinoides clássicos de D&D 5e; números ilustrativos. Bola de fogo (3 PP por graduação) e raio de fogo em arranjo; efeito 4, que cabe desde o NP 4."
+  },
+  {
+    "id": "hobgoblin_porta_estandarte",
+    "nome": "Hobgoblin porta-estandarte",
+    "epiteto": "o Porta-Estandarte",
+    "descricao": "Carrega o estandarte da legião e o defende com a vida; enquanto ele estiver de pé, a tropa não recua.",
+    "tatica": "Fica no centro da formação, grita as ordens do capitão e reergue o moral de quem hesita.",
+    "tags": [
+      "lideranca",
+      "apoio",
+      "social"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "hobgoblin"
+    ],
+    "papel": "principal",
+    "adiciona": {
+      "habilidades": {
+        "Pre": 1
+      },
+      "vantagens": {
+        "Inspirar": 1,
+        "Trabalho em Equipe": 1
+      },
+      "pericias": {
+        "Persuasão": 2,
+        "Intimidação": 2,
+        "Especialidade: Vida militar": 2
+      }
+    },
+    "prioridades": [
+      "pericia:Persuasão",
+      "pericia:Intimidação",
+      "defesa:Vontade",
+      "defesa:Aparar"
+    ],
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia, a partir dos goblinoides clássicos de D&D 5e; números ilustrativos."
+  },
+  {
+    "id": "bugbear_esmagador",
+    "nome": "Bugbear esmagador",
+    "epiteto": "o Esmagador",
+    "descricao": "Bugbear de braços compridíssimos que gosta de agarrar a vítima e bater com ela no chão.",
+    "tatica": "Derruba o adversário, prende-o com o peso do corpo e só solta quando ele para de se mexer.",
+    "tags": [
+      "combate",
+      "agarrar",
+      "corpo_a_corpo"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "bugbear"
+    ],
+    "papel": "principal",
+    "adiciona": {
+      "vantagens": {
+        "Agarrar Aprimorado": 1,
+        "Derrubar Aprimorado": 1
+      },
+      "pericias": {
+        "Atletismo": 4
+      }
+    },
+    "prioridades": [
+      "pericia:Atletismo",
+      "pericia:Combate Corpo-a-Corpo: Briga",
+      "defesa:Fortitude"
+    ],
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia, a partir dos goblinoides clássicos de D&D 5e; números ilustrativos."
+  },
+  {
+    "id": "bugbear_emboscador",
+    "nome": "Bugbear emboscador",
+    "epiteto": "o Emboscador",
+    "descricao": "Espera horas imóvel na sombra, e só se percebe o bugbear quando a maça já está descendo.",
+    "tatica": "Ataca primeiro, de surpresa, o alvo mais isolado e o arrasta para o escuro.",
+    "tags": [
+      "furtividade",
+      "emboscada",
+      "combate"
+    ],
+    "estilos": [
+      "combate",
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "bugbear"
+    ],
+    "papel": "principal",
+    "adiciona": {
+      "vantagens": {
+        "Iniciativa Aprimorada": 1,
+        "Esconder-se à Plena Vista": 1
+      },
+      "pericias": {
+        "Furtividade": 4,
+        "Percepção": 2
+      }
+    },
+    "prioridades": [
+      "pericia:Furtividade",
+      "pericia:Combate Corpo-a-Corpo: Maças",
+      "pericia:Percepção"
+    ],
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia, a partir dos goblinoides clássicos de D&D 5e; números ilustrativos."
+  },
+  {
+    "id": "bugbear_chefe",
+    "nome": "Chefe bugbear",
+    "epiteto": "o Chefe",
+    "descricao": "O maior bugbear do bando, de cota de malha saqueada; governa pela força e pelo medo.",
+    "tatica": "Entra na briga pessoalmente, quebra o primeiro que o desafiar e manda os outros cercarem o resto.",
+    "tags": [
+      "lideranca",
+      "combate",
+      "intimidacao"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "bugbear"
+    ],
+    "papel": "principal",
+    "requisitos": {
+      "np_min": 5
+    },
+    "substitui": {
+      "equipamento": {
+        "gibao_peles": "cota_malha"
+      }
+    },
+    "adiciona": {
+      "habilidades": {
+        "For": 1,
+        "Vig": 1
+      },
+      "vantagens": {
+        "Liderança": 1
+      },
+      "pericias": {
+        "Intimidação": 4
+      }
+    },
+    "prioridades": [
+      "pericia:Intimidação",
+      "pericia:Combate Corpo-a-Corpo: Maças",
+      "defesa:Aparar"
+    ],
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia, a partir dos goblinoides clássicos de D&D 5e; números ilustrativos. Só a partir do NP 5, onde cabem a Força e a cota de malha."
   }
 ]
