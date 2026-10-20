@@ -8,6 +8,7 @@ import io
 import os
 import random
 import re
+import subprocess
 import threading
 import unicodedata
 import webbrowser
@@ -18,6 +19,29 @@ from flask import Flask, jsonify, render_template, request, send_file
 from nucleo import data_loader, docx_export, formatter, generator, pdf_export, player, validator
 
 app = Flask(__name__)
+
+# Versão mostrada no rodapé. Suba a cada entrega: 1.0 original, 1.1 passo a passo, 1.2 quantidades, 1.3 fantasia.
+VERSAO = "1.3.0"
+
+
+def _commit_atual():
+    """Commit em execução: o Render informa em RENDER_GIT_COMMIT; rodando local, pergunta ao git."""
+    commit = os.environ.get("RENDER_GIT_COMMIT", "")
+    if not commit:
+        try:
+            commit = subprocess.run(["git", "rev-parse", "HEAD"], capture_output=True, text=True, timeout=2,
+                                    cwd=os.path.dirname(os.path.abspath(__file__))).stdout.strip()
+        except (OSError, subprocess.SubprocessError):
+            commit = ""
+    return commit[:7]
+
+
+COMMIT = _commit_atual()
+
+
+@app.context_processor
+def versao_do_programa():
+    return {"versao": VERSAO, "commit": COMMIT}
 
 MIME_DOCX = "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
 

@@ -432,6 +432,8 @@ details summary { cursor: pointer; font-weight: 600; color: var(--destaque); }
 .botao.destaque:hover { background: var(--destaque-hover); border-color: var(--destaque-hover); }
 
 .mensagem { text-align: center; min-height: 1.5em; }
+
+.rodape { text-align: center; padding: 8px 16px 24px; font-size: 0.8rem; color: var(--tinta-suave); }
 .mensagem.erro { color: var(--erro); }
 
 .erro-dados { border-color: var(--erro); }
