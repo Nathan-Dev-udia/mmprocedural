@@ -5,6 +5,7 @@
   "perfis_de_poder": [],
   "configuracoes": {
     "rotulo_poderes": "Traços naturais",
-    "equipamento": "dinheiro"
+    "equipamento": "dinheiro",
+    "itens_basicos": ["racoes"]
   }
 }

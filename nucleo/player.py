@@ -35,6 +35,10 @@ VANTAGENS_FORA_DO_PJ = {"Equipamento", "Capanga", "Parceiro", "Benefício"}
 PERICIAS_DE_RESERVA = ["Percepção", "Atletismo", "Intuição", "Furtividade", "Acrobacia", "Persuasão",
                        "Enganação", "Intimidação", "Investigação", "Especialidade: Cavalgar"]
 
+# Itens que o jogador pode levar em mais de uma unidade (cada unidade é o pacote do catálogo).
+CATEGORIAS_COM_QUANTIDADE = {"Comida", "Munição", "Bebida"}
+QUANTIDADE_MAXIMA = 99
+
 
 def _arquetipo(dados, arquetipo_id):
     arquetipo = dados["jogador"]["arquetipos"].get(arquetipo_id)
@@ -46,6 +50,35 @@ def _arquetipo(dados, arquetipo_id):
 def catalogo_do_jogador(dados):
     """Itens que um PJ pode comprar: tudo que tem categoria no catálogo."""
     return [item for item in dados["equipamentos"].values() if item.get("categoria")]
+
+
+def tem_quantidade(item):
+    return item.get("categoria") in CATEGORIAS_COM_QUANTIDADE
+
+
+def itens_basicos(dados):
+    """Itens que todo PJ do gênero leva (comida, no faroeste): entram no sorteio e vêm marcados na escolha."""
+    return list(dados["configuracoes"].get("itens_basicos", []))
+
+
+def _conferir_quantidades(dados, ids, quantidades):
+    """Quantidades pedidas pelo jogador, só para os itens que aceitam mais de uma unidade."""
+    if not isinstance(quantidades, dict):
+        raise GeneratorError("As quantidades dos itens precisam vir como um dicionário.")
+    conferidas = {}
+    for item_id in ids:
+        if item_id not in quantidades or not tem_quantidade(dados["equipamentos"][item_id]):
+            continue
+        try:
+            quantidade = int(quantidades[item_id])
+        except (TypeError, ValueError):
+            raise GeneratorError(f"Quantidade inválida para '{dados['equipamentos'][item_id]['nome']}'.")
+        if not 1 <= quantidade <= QUANTIDADE_MAXIMA:
+            raise GeneratorError(f"A quantidade de '{dados['equipamentos'][item_id]['nome']}' "
+                                 f"deve ficar entre 1 e {QUANTIDADE_MAXIMA}.")
+        if quantidade > 1:
+            conferidas[item_id] = quantidade
+    return conferidas
 
 
 def vantagens_do_jogador(dados):
@@ -176,7 +209,7 @@ def _equipamento_automatico(dados, arquetipo, foco, np, vantagens, rng):
             municoes.append(municao)
     opcionais = rng.sample(arquetipo["itens"]["opcionais"], k=min(len(arquetipo["itens"]["opcionais"]),
                                                                     rng.randint(1, 3)))
-    ordem = (lista + municoes + arquetipo["itens"]["essenciais"] + foco.get("itens", [])
+    ordem = (lista + municoes + itens_basicos(dados) + arquetipo["itens"]["essenciais"] + foco.get("itens", [])
              + ([secundaria] if secundaria else []) + opcionais)
     sem_repetir = []
     for item in ordem:
@@ -185,24 +218,32 @@ def _equipamento_automatico(dados, arquetipo, foco, np, vantagens, rng):
     return sem_repetir
 
 
-def _comprar(dados, itens, dinheiro, obrigatorio=False):
+def _preco_total(dados, item_id, quantidades):
+    preco = dados["equipamentos"][item_id].get("preco")
+    return None if preco is None else round(preco * quantidades.get(item_id, 1), 2)
+
+
+def _comprar(dados, itens, dinheiro, obrigatorio=False, quantidades=None):
     """Compra os itens na ordem da lista. Itens sem preço entram como 'a combinar'.
 
     obrigatorio=True (escolha do jogador): se o dinheiro não der, é erro em vez de pular o item.
+    quantidades: {id: n} para itens comprados em mais de uma unidade (o preço da compra é o total).
     """
+    quantidades = quantidades or {}
     compras, restante, sem_dinheiro = [], dinheiro, []
     for item_id in itens:
         item = dados["equipamentos"][item_id]
-        preco = item.get("preco")
+        preco = _preco_total(dados, item_id, quantidades)
+        quantidade = quantidades.get(item_id, 1)
         if preco is None:
-            compras.append({"id": item_id, "nome": item["nome"], "preco": None})
+            compras.append({"id": item_id, "nome": item["nome"], "preco": None, "quantidade": quantidade})
         elif preco <= restante + 1e-9:
-            compras.append({"id": item_id, "nome": item["nome"], "preco": preco})
+            compras.append({"id": item_id, "nome": item["nome"], "preco": preco, "quantidade": quantidade})
             restante -= preco
         else:
             sem_dinheiro.append(item["nome"])
     if obrigatorio and sem_dinheiro:
-        total = sum(dados["equipamentos"][i].get("preco") or 0 for i in itens)
+        total = sum(_preco_total(dados, i, quantidades) or 0 for i in itens)
         raise GeneratorError(f"Os itens escolhidos custam {formatter.dolares(total, moeda(dados))}, mas o personagem "
                              f"só tem {formatter.dolares(dinheiro, moeda(dados))}.")
     return compras, round(restante, 2), sem_dinheiro
@@ -242,7 +283,8 @@ def _tirar_armas_acima_do_np(dados, ficha, compras, troco, np):
 
 def _sincronizar_equipamento(dados, ficha):
     """Graduação da vantagem Equipamento que cobre os itens da ficha (5 pontos por graduação)."""
-    usados = sum(dados["equipamentos"][i].get("custo") or 0 for i in ficha["equipamento"])
+    quantidades = ficha.get("quantidades", {})
+    usados = sum((dados["equipamentos"][i].get("custo") or 0) * quantidades.get(i, 1) for i in ficha["equipamento"])
     graduacao = math.ceil(usados / rules.PONTOS_DE_EQUIPAMENTO_POR_GRADUACAO)
     if graduacao:
         ficha["vantagens"][rules.VANTAGEM_EQUIPAMENTO] = graduacao
@@ -382,14 +424,15 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
 
     # Equipamento escolhido: confere os itens e, se passar do dinheiro, decide como pagar.
     manual_equipamento = equipamento.get("modo") == "manual"
-    riqueza_escolhida, divida = riqueza, 0
+    riqueza_escolhida, divida, quantidades = riqueza, 0, {}
     if manual_equipamento:
         ids = [str(i) for i in equipamento.get("ids", [])]
         desconhecidos = [i for i in ids if i not in dados["equipamentos"]
                          or not dados["equipamentos"][i].get("categoria")]
         if desconhecidos:
             raise GeneratorError(f"Itens desconhecidos: {', '.join(desconhecidos)}.")
-        total = round(sum(dados["equipamentos"][i].get("preco") or 0 for i in ids), 2)
+        quantidades = _conferir_quantidades(dados, ids, equipamento.get("quantidades") or {})
+        total = round(sum(_preco_total(dados, i, quantidades) or 0 for i in ids), 2)
         if implantes_pedidos.get("modo") == "manual" and tem_implantes:
             total += sum(preco_do_implante(dados, i) for i in implantes_pedidos.get("ids", [])
                          if i in dados["poderes_do_genero"])
@@ -420,6 +463,7 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
         "pericias": {},
         "vantagens": vantagens,
         "equipamento": [],
+        "quantidades": quantidades,
         "ataque_desarmado": True,
         "poderes": {},
         "fontes": [],
@@ -446,7 +490,8 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
         }
     else:
         if manual_equipamento:
-            compras, troco, sem_dinheiro = _comprar(dados, ids, riqueza["dinheiro"] + divida, obrigatorio=True)
+            compras, troco, sem_dinheiro = _comprar(dados, ids, riqueza["dinheiro"] + divida, obrigatorio=True,
+                                                    quantidades=quantidades)
         else:
             lista = _equipamento_automatico(dados, arquetipo, foco, np, vantagens, rng)
             compras, troco, sem_dinheiro = _comprar(dados, lista, riqueza["dinheiro"])

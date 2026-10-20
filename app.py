@@ -61,6 +61,8 @@ def opcoes_da_interface(DADOS):
                             "implantes": a.get("implantes", {"essenciais": [], "opcionais": []})}
                            for a in DADOS["jogador"]["arquetipos"].values()],
             "catalogo": [_item_para_a_tela(i) for i in player.catalogo_do_jogador(DADOS)],
+            "itens_basicos": player.itens_basicos(DADOS),
+            "quantidade_maxima": player.QUANTIDADE_MAXIMA,
             # "dinheiro": itens pagos em dólares; "pontos": itens pagos com a vantagem Equipamento.
             "equipamento_modo": config.get("equipamento", "dinheiro"),
             "moeda": config.get("moeda", "$"),
@@ -103,7 +105,7 @@ def _item_para_a_tela(item):
             "custo": item.get("custo"), "preco_estimado": bool(item.get("preco_estimado")),
             "categoria_de_preco": item.get("categoria_de_preco", ""),
             "resumo": resumo, "notas": item.get("notas", ""), "descricao": item.get("descricao", ""),
-            "municao": item.get("municao")}
+            "municao": item.get("municao"), "quantidade": player.tem_quantidade(item)}
 
 
 def _preparar(npc):

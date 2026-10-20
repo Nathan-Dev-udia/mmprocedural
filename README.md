@@ -138,8 +138,10 @@ Vantagens, equipamento e implantes têm dois modos na tela:
 | | Sortear de acordo com o arquétipo | Escolher |
 |----|----|----|
 | **Vantagens** | Essenciais do arquétipo e do foco, mais 0 a 2 opcionais do arquétipo. | O jogador marca as vantagens (as do arquétipo já vêm marcadas). O gerador só sobe graduações das marcadas. |
-| **Armas e itens** | 1 arma principal (ou a do foco), talvez 1 secundária, a munição certa de cada arma de fogo, os itens essenciais e 1 a 3 opcionais. Armas que não cabem no NP nem entram no sorteio. (Num gênero com equipamento em pontos, no máximo ~1/6 do orçamento vai para Equipamento.) | O jogador marca o que quer, com as sugestões do arquétipo no topo e um contador de dinheiro (dólares ou eurobucks; pontos de equipamento nos gêneros em pontos). Arma que não cabe no NP fica de fora. |
+| **Armas e itens** | 1 arma principal (ou a do foco), talvez 1 secundária, a munição certa de cada arma de fogo, os itens básicos do gênero (comida, no faroeste), os itens essenciais e 1 a 3 opcionais. Armas que não cabem no NP nem entram no sorteio. (Num gênero com equipamento em pontos, no máximo ~1/6 do orçamento vai para Equipamento.) | O jogador marca o que quer, com as sugestões do arquétipo no topo e um contador de dinheiro (dólares ou eurobucks; pontos de equipamento nos gêneros em pontos). Arma que não cabe no NP fica de fora. Comida, munição e bebida têm um campo de quantidade (1 a 99 pacotes; o preço é multiplicado e a ficha mostra "×3"). |
 | **Implantes** (cyberpunk) | Essenciais do arquétipo e do foco, mais 0 a 2 opcionais, até ~35% do orçamento em PP e só o que o dinheiro que sobrou dos itens paga. | O jogador marca os implantes, cada um com o custo em PP e em eurobucks; o preço entra no contador de dinheiro. |
+
+`itens_basicos` (em `configuracoes` do `genero.json`) lista os itens que todo PJ do gênero leva: entram no sorteio e já vêm marcados no modo Escolher. No faroeste, são as rações de viagem; no cyberpunk, a comida já está no custo de vida da condição financeira.
 
 Implantes que passariam de algum limite do NP ficam de fora, e a ficha anota quais e por quê ("Ficou de fora"). Se as escolhas (vantagens + Equipamento + implantes) já passarem do orçamento, o contador fica amarelo e o servidor recusa com uma mensagem clara.
 

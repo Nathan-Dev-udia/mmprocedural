@@ -38,6 +38,11 @@ def _ajustes_de_poder(ficha):
     return total
 
 
+def _com_quantidade(nome, quantidade):
+    """'Rações de viagem (5 dias)', 3 -> 'Rações de viagem (5 dias) ×3'."""
+    return f"{nome} ×{quantidade}" if quantidade > 1 else nome
+
+
 def calcular(ficha, catalogo_equipamento):
     """Calcula os valores finais da ficha (o que vai impresso no cartão)."""
     ajustes = _ajustes_de_poder(ficha)
@@ -108,7 +113,8 @@ def calcular(ficha, catalogo_equipamento):
                         "cd_resistencia": base_da_cd + dano, "critico": atq.get("critico", 20)})
 
     pontos_equipamento = {
-        "usados": sum(item["custo"] for item in itens if item.get("custo") is not None),
+        "usados": sum(item["custo"] * ficha.get("quantidades", {}).get(i, 1)
+                      for item, i in zip(itens, ficha.get("equipamento", [])) if item.get("custo") is not None),
         "disponiveis": rules.PONTOS_DE_EQUIPAMENTO_POR_GRADUACAO * vantagens.get(rules.VANTAGEM_EQUIPAMENTO, 0),
         "itens_sem_custo": [item["nome"] for item in itens if item.get("custo") is None],
     }
@@ -120,7 +126,8 @@ def calcular(ficha, catalogo_equipamento):
         "pericias": pericias_totais,
         "ataques": ataques,
         "pontos_equipamento": pontos_equipamento,
-        "itens": [item["nome"] for item in itens],
+        "itens": [_com_quantidade(item["nome"], ficha.get("quantidades", {}).get(i, 1))
+                  for item, i in zip(itens, ficha.get("equipamento", []))],
         "protecao": protecao,
         "protecao_de_poder": protecao_de_poder,
         # Resistência sem as proteções limitadas (ex.: contra golpes, quando o colete só para balas).

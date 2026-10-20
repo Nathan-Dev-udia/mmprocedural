@@ -218,6 +218,13 @@
   </section>
 
   <p id="mensagem" class="mensagem" role="status"></p>
+
+  <div id="carregando" class="carregando" role="status" aria-live="polite" hidden>
+    <div class="carregando-caixa">
+      <span class="spinner" aria-hidden="true"></span>
+      <p id="carregando-texto">Preparando o arquivo…</p>
+    </div>
+  </div>
 {% endif %}
 {% endblock %}
 

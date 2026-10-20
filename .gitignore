@@ -1,1 +1,39 @@
+# Material de consulta (livros e planilhas): grande e com direitos autorais
 referencias/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Ambientes virtuais e variáveis locais
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Testes e cobertura
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Flask
+instance/
+
+# Editores e IDEs
+.vscode/
+.idea/
+*.swp
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs e arquivos temporários
+*.log
+*.tmp

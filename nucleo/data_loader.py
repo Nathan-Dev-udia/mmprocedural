@@ -265,6 +265,10 @@ def carregar_genero(genero_id, pasta=PASTA_DADOS):
         if item.get("municao") and item["municao"] not in [e.get("id") for e in bruto["equipment"]]:
             erros.append(f"equipment.json ({item['id']}): munição desconhecida '{item['municao']}'.")
 
+    for item_id in configuracoes.get("itens_basicos", []):
+        if item_id not in equipamentos:
+            erros.append(f"genero.json: item básico desconhecido '{item_id}'.")
+
     estilos = _indexar(bruto["styles"], "styles.json", ["id", "nome", "descricao", "modo"], erros)
     for estilo in estilos.values():
         if estilo["modo"] not in MODOS_DE_ESTILO:

@@ -79,7 +79,18 @@ function nomeDeArquivo(texto) {
     .replace(/[^a-z0-9]+/g, "_").replace(/^_+|_+$/g, "") || "ficha";
 }
 
-async function baixarDoServidor(url, corpo, nomePadrao) {
+// Tela de "carregando" por cima da página enquanto o servidor monta o arquivo.
+function mostrarCarregando(texto) {
+  el("carregando-texto").textContent = texto;
+  el("carregando").hidden = false;
+}
+
+function esconderCarregando() {
+  el("carregando").hidden = true;
+}
+
+async function baixarDoServidor(url, corpo, nomePadrao, textoCarregando = "Preparando o arquivo…") {
+  mostrarCarregando(textoCarregando);
   try {
     const resposta = await fetch(url, {
       method: "POST",
@@ -93,6 +104,8 @@ async function baixarDoServidor(url, corpo, nomePadrao) {
     salvarArquivo(await resposta.blob(), nomePadrao);
   } catch (erro) {
     mostrarMensagem(erro.message, true);
+  } finally {
+    esconderCarregando();
   }
 }
 
@@ -107,8 +120,8 @@ async function copiar(texto) {
 
 function acaoDeArquivo(acao, ficha) {
   const base = nomeDeArquivo(ficha.nome);
-  if (acao === "docx") baixarDoServidor("/api/ficha.docx", { npc: ficha }, `${base}.docx`);
-  if (acao === "pdf") baixarDoServidor("/api/ficha.pdf", { npc: ficha }, `${base}.pdf`);
+  if (acao === "docx") baixarDoServidor("/api/ficha.docx", { npc: ficha }, `${base}.docx`, "Preparando a ficha em DOCX…");
+  if (acao === "pdf") baixarDoServidor("/api/ficha.pdf", { npc: ficha }, `${base}.pdf`, "Preparando a ficha em PDF…");
   if (acao === "txt") salvarArquivo(new Blob([ficha.texto], { type: "text/plain;charset=utf-8" }), `${base}.txt`);
   if (acao === "copiar") copiar(ficha.texto);
 }
@@ -232,7 +245,7 @@ function prepararAbaNpc() {
   el("copiar-todos").addEventListener("click", () =>
     copiar(estado.npc.npcs.map((n) => n.texto).join("\n\n---\n\n")));
   el("baixar-todos").addEventListener("click", () =>
-    baixarDoServidor("/api/fichas.zip", { npcs: estado.npc.npcs }, "fichas_npcs.zip"));
+    baixarDoServidor("/api/fichas.zip", { npcs: estado.npc.npcs }, "fichas_npcs.zip", "Juntando todas as fichas…"));
   el("baixar-json").addEventListener("click", () => {
     const p = estado.npc.parametros;
     salvarArquivo(new Blob([JSON.stringify({ parametros: p, npcs: estado.npc.npcs }, null, 2)],
@@ -445,15 +458,21 @@ function desenharEquipamento() {
   const f = focoPj();
   const porId = Object.fromEntries(pj().catalogo.map((i) => [i.id, i]));
   const principal = f.armas[0] || a.armas.principais[0];
-  const sugeridos = [...new Set([...f.armas, ...a.armas.principais, ...a.armas.secundarias,
+  const sugeridos = [...new Set([...f.armas, ...a.armas.principais, ...a.armas.secundarias, ...pj().itens_basicos,
                                  ...a.itens.essenciais, ...f.itens, ...a.itens.opcionais])];
-  const marcar = new Set([principal, porId[principal]?.municao, ...a.itens.essenciais, ...f.itens].filter(Boolean));
+  const marcar = new Set([principal, porId[principal]?.municao, ...pj().itens_basicos,
+                          ...a.itens.essenciais, ...f.itens].filter(Boolean));
   const linha = (id) => {
     const i = porId[id];
-    const preco = emPontos() ? `${i.custo} ponto${i.custo === 1 ? "" : "s"}`
-      : i.preco == null ? "a combinar" : dolares(i.preco) + (i.preco_estimado ? " (estimado)" : "");
+    const cada = i.quantidade ? " cada" : "";
+    const preco = emPontos() ? `${i.custo} ponto${i.custo === 1 ? "" : "s"}${cada}`
+      : i.preco == null ? "a combinar" : dolares(i.preco) + cada + (i.preco_estimado ? " (estimado)" : "");
     const detalhe = [i.resumo, i.notas, preco].filter(Boolean).join(" · ");
-    return caixa("pj-item", id, marcar.has(id), i.nome, detalhe, i.descricao || "");
+    const opcao = caixa("pj-item", id, marcar.has(id), i.nome, detalhe, i.descricao || "");
+    if (!i.quantidade) return opcao;
+    return `<div class="opcao-com-quantidade">${opcao}
+      <label class="quantidade"><span>Qtd.</span><input type="number" data-quantidade="${escapar(id)}"
+        min="1" max="${pj().quantidade_maxima}" value="1" aria-label="Quantidade de ${escapar(i.nome)}"></label></div>`;
   };
   const porCategoria = {};
   pj().catalogo.filter((i) => !sugeridos.includes(i.id))
@@ -466,10 +485,17 @@ function desenharEquipamento() {
 
 const custoEmPontos = (r) => r.beneficio - r.ajuste_de_pontos;
 
+// Quantidade escolhida de um item (comida, munição, bebida); os outros itens valem sempre 1.
+function quantidadeDe(id) {
+  const campo = document.querySelector(`input[data-quantidade="${CSS.escape(id)}"]`);
+  const valor = Math.floor(Number(campo?.value));
+  return valor >= 1 ? Math.min(valor, pj().quantidade_maxima) : 1;
+}
+
 function totalDosItens() {
   const porId = Object.fromEntries(pj().catalogo.map((i) => [i.id, i]));
   return [...document.querySelectorAll('input[name="pj-item"]:checked')]
-    .reduce((soma, c) => soma + ((emPontos() ? porId[c.value].custo : porId[c.value].preco) || 0), 0)
+    .reduce((soma, c) => soma + ((emPontos() ? porId[c.value].custo : porId[c.value].preco) || 0) * quantidadeDe(c.value), 0)
     + (emPontos() ? 0 : dinheiroDosImplantes());
 }
 
@@ -592,6 +618,14 @@ function prepararAbaJogador() {
   el("pj-implantes-grupos").addEventListener("change", atualizarContadorDeEquipamento);
   el("pj-vantagens-grupos").addEventListener("change", atualizarContadorDeVantagens);
   el("pj-equipamento-grupos").addEventListener("change", atualizarContadorDeEquipamento);
+  // Mexer na quantidade já marca o item.
+  el("pj-equipamento-grupos").addEventListener("input", (evento) => {
+    const id = evento.target.dataset.quantidade;
+    if (id === undefined) return;
+    const item = document.querySelector(`input[name="pj-item"][value="${CSS.escape(id)}"]`);
+    if (item) item.checked = true;
+    atualizarContadorDeEquipamento();
+  });
   document.querySelectorAll('input[name="pj-excesso"]').forEach((r) => r.addEventListener("change", atualizarContadorDeVantagens));
   atualizarArquetipo();
   atualizarRiqueza();
@@ -634,7 +668,10 @@ function prepararAbaJogador() {
       vantagens: modo("pj-vantagens-modo") === "manual"
         ? { modo: "manual", nomes: marcados("pj-vantagem") } : { modo: "auto" },
       equipamento: modo("pj-equipamento-modo") === "manual"
-        ? { modo: "manual", ids: marcados("pj-item"), excesso: modo("pj-excesso") } : { modo: "auto" },
+        ? { modo: "manual", ids: marcados("pj-item"), excesso: modo("pj-excesso"),
+            quantidades: Object.fromEntries(marcados("pj-item").filter((id) => quantidadeDe(id) > 1)
+              .map((id) => [id, quantidadeDe(id)])) }
+        : { modo: "auto" },
       implantes: modo("pj-implantes-modo") === "manual"
         ? { modo: "manual", ids: marcados("pj-implante") } : { modo: "auto" },
     });

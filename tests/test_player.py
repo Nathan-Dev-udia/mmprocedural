@@ -72,7 +72,7 @@ def test_equipamento_automatico_e_coerente_com_o_arquetipo(dados):
     for arquetipo in ARQUETIPOS_PJ:
         arq = dados["jogador"]["arquetipos"][arquetipo]
         permitidos = set(arq["armas"]["principais"] + arq["armas"]["secundarias"]
-                         + arq["itens"]["essenciais"] + arq["itens"]["opcionais"])
+                         + arq["itens"]["essenciais"] + arq["itens"]["opcionais"] + player.itens_basicos(dados))
         for foco in arq["focos"]:
             permitidos |= set(foco["armas"] + foco["itens"])
         for semente in range(8):
@@ -259,3 +259,41 @@ def test_npc_acompanha_o_np_pedido(dados, arquetipo):
     alto = generator.gerar_grupo(dados, arquetipo, nps[-1], "aleatorio", 3, random.Random(1))["npcs"]
     baixo = generator.gerar_grupo(dados, arquetipo, nps[0], "aleatorio", 3, random.Random(1))["npcs"]
     assert min(n["validacao"]["total_pp"] for n in alto) > max(n["validacao"]["total_pp"] for n in baixo)
+
+
+# ---------------------------------------------------------------- comida e quantidades
+
+def test_comida_entra_no_sorteio(dados):
+    for arquetipo in ARQUETIPOS_PJ:
+        for semente in range(3):
+            pj = gerar(dados, arquetipo, semente=semente)
+            assert "racoes" in pj["ficha"]["equipamento"], arquetipo
+
+
+def test_quantidade_multiplica_o_preco_e_aparece_na_ficha(dados):
+    pj = gerar(dados, equipamento={"modo": "manual", "ids": ["racoes", "municao_pistola", "cavalo"],
+                                   "quantidades": {"racoes": 4, "municao_pistola": 3}})
+    assert pj["dinheiro"]["gasto"] == 2.5 * 4 + 3 * 3 + 150
+    assert pj["ficha"]["quantidades"] == {"racoes": 4, "municao_pistola": 3}
+    itens = app.formatter.exibicao(pj)["equipamento"]
+    assert "Rações de viagem (5 dias) ×4" in itens
+    assert "Cavalo" in itens
+
+
+def test_quantidade_so_vale_para_comida_municao_e_bebida(dados):
+    pj = gerar(dados, equipamento={"modo": "manual", "ids": ["cavalo"], "quantidades": {"cavalo": 5}})
+    assert pj["dinheiro"]["gasto"] == 150
+    assert pj["ficha"]["quantidades"] == {}
+
+
+@pytest.mark.parametrize("quantidade", [0, 100, "muitas"])
+def test_quantidade_invalida(dados, quantidade):
+    with pytest.raises(generator.GeneratorError, match="[Qq]uantidade"):
+        gerar(dados, equipamento={"modo": "manual", "ids": ["racoes"], "quantidades": {"racoes": quantidade}})
+
+
+def test_quantidade_conta_para_passar_do_dinheiro(dados):
+    # 30 rações = $75: passa dos $250 da classe média junto com o cavalo e a sela.
+    pj = gerar(dados, equipamento={"modo": "manual", "ids": ["racoes", "cavalo", "sela"],
+                                   "quantidades": {"racoes": 30}, "excesso": "divida"})
+    assert pj["dinheiro"]["divida"] == 75 + 150 + 25 - 250
