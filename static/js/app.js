@@ -144,7 +144,7 @@ function cartao(ficha, { regerar = false, aberto = false } = {}) {
     ...v.avisos.map((a) => `<li class="aviso">${escapar(a)}</li>`),
   ].join("");
   const subtitulo = ehJogador
-    ? `${escapar(ficha.arquetipo.nome)} · personagem de jogador · NP ${ficha.np_pretendido}` +
+    ? `${ficha.raca ? `${escapar(ficha.raca.nome)} · ` : ""}${escapar(ficha.arquetipo.nome)} · personagem de jogador · NP ${ficha.np_pretendido}` +
       (ficha.jogador ? ` · jogador: ${escapar(ficha.jogador)}` : "")
     : `${escapar(ficha.arquetipo.nome)} · ficha-base ${escapar(ficha.faixa.nome)} · NP pretendido ` +
       `${ficha.np_pretendido} <span class="discreto">(estimado: ${v.np_efetivo})</span>`;
@@ -213,6 +213,11 @@ function cartao(ficha, { regerar = false, aberto = false } = {}) {
 // ---------------------------------------------------------------- aba NPC
 
 function prepararAbaNpc() {
+  if (!opcoes.arquetipos.length) {
+    el("formulario-npc").insertAdjacentHTML("afterend", "<p class='dica'>Este gênero ainda não tem NPCs cadastrados.</p>");
+    el("formulario-npc").querySelectorAll("label:not(:first-child), .acoes-formulario").forEach((e) => { e.hidden = true; });
+    return;
+  }
   el("arquetipo").innerHTML = opcoesDeSelect(opcoes.arquetipos);
   el("estilo").innerHTML = opcoesDeSelect(opcoes.estilos);
   el("quantidade").max = opcoes.quantidade_maxima;
@@ -349,12 +354,20 @@ const riquezaPj = () => pj().riqueza.find((r) => r.id === el("pj-riqueza").value
 // Gêneros como o cyberpunk pagam o equipamento com a vantagem Equipamento (5 pontos por graduação).
 const emPontos = () => pj().equipamento_modo === "pontos";
 const temImplantes = () => pj().implantes.length > 0;
+const temRacas = () => pj().racas.length > 0;
+const racaPj = () => pj().racas.find((r) => r.id === el("pj-raca").value) || pj().racas[0];
+const npPj = () => Number(el("pj-np").value);
+const custoDaRaca = () => (temRacas() ? racaPj().custo_por_np[npPj()] || 0 : 0);
+// Magias que acompanham o NP mudam de graduação e de custo com ele.
+const implanteNoNp = (i) => i.por_np[npPj()] || { custo: i.custo, estatistica: i.estatistica };
 const graduacoesDeEquipamento = (pontos) => Math.ceil(pontos / 5);
 const modo = (nome) => document.querySelector(`input[name="${nome}"]:checked`).value;
 const baseDaVantagem = (nome) => nome.split(" (")[0];
 const dolares = (v) => {
   const numero = v.toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 }).replace(",00", "");
-  return pj().moeda === "eb" ? `${numero}eb` : `${pj().moeda}${numero}`;
+  // $1.234,50 (faroeste), 2.550eb (cyberpunk), 15 po (fantasia): moeda com letras vai depois.
+  if (pj().moeda === "eb") return `${numero}eb`;
+  return /^[a-z]/i.test(pj().moeda) ? `${numero} ${pj().moeda}` : `${pj().moeda}${numero}`;
 };
 const precoDoImplante = (i) => (pj().implantes_em_dinheiro ? i.preco || 0 : 0);
 
@@ -380,8 +393,8 @@ function desenharVantagens() {
   pj().vantagens.filter((v) => !usadas.has(v.nome))
     .forEach((v) => (porTipo[v.tipo] ||= []).push(item(v.nome, false)));
   el("pj-vantagens-grupos").innerHTML =
-    grupo(`Essenciais do ${a.nome} e do foco ${f.nome}`, doArquetipo.map((n) => item(n, true)).join("")) +
-    grupo("Opcionais do arquétipo", a.vantagens_opcionais.filter((n) => !doArquetipo.includes(n))
+    grupo(`Essenciais: ${a.nome} · ${f.nome}`, doArquetipo.map((n) => item(n, true)).join("")) +
+    grupo(`Opcionais: ${a.nome}`, a.vantagens_opcionais.filter((n) => !doArquetipo.includes(n))
       .map((n) => item(n, false)).join("")) +
     Object.entries(porTipo).map(([tipo, itens]) => grupo(`Outras de ${tipo.toLowerCase()}`, itens.join(""), false)).join("");
   atualizarContadorDeVantagens();
@@ -397,6 +410,10 @@ function atualizarContadorDeVantagens() {
     (extra ? ` (${extra} para pagar os itens)` : "") : "";
   const partes = [`${marcadas} PP em vantagens${riqueza}`];
   let gasto = marcadas + pontosDeRiqueza;
+  if (custoDaRaca()) {
+    partes.push(`${custoDaRaca()} PP em traços de ${racaPj().nome.toLowerCase()}`);
+    gasto += custoDaRaca();
+  }
   if (emPontos() && modo("pj-equipamento-modo") === "manual") {
     const equipamento = graduacoesDeEquipamento(totalDosItens());
     partes.push(`${equipamento} PP em Equipamento`);
@@ -417,10 +434,19 @@ function atualizarContadorDeVantagens() {
 
 // --- implantes / poderes do gênero
 
+// Mesma regra do servidor: num arranjo, a magia mais cara paga o custo cheio e cada outra custa 1 PP.
 function totalDosImplantes() {
   const porId = Object.fromEntries(pj().implantes.map((i) => [i.id, i]));
-  return [...document.querySelectorAll('input[name="pj-implante"]:checked')]
-    .reduce((soma, c) => soma + porId[c.value].custo, 0);
+  const arranjos = {};
+  let total = 0;
+  document.querySelectorAll('input[name="pj-implante"]:checked').forEach((c) => {
+    const i = porId[c.value];
+    const custo = implanteNoNp(i).custo;
+    if (!i.arranjo) total += custo;
+    else (arranjos[i.arranjo] ||= []).push(custo);
+  });
+  Object.values(arranjos).forEach((custos) => { total += Math.max(...custos) + custos.length - 1; });
+  return total;
 }
 
 function atualizarContadorDeImplantes(orcamento, gasto) {
@@ -431,24 +457,29 @@ function atualizarContadorDeImplantes(orcamento, gasto) {
   contador.classList.toggle("aviso", gasto > orcamento);
 }
 
-function desenharImplantes() {
+// manterMarcados: redesenha (ex.: ao trocar o NP, que muda custos e graduações) sem perder a escolha.
+function desenharImplantes(manterMarcados = false) {
   if (!temImplantes()) return;
   const a = arquetipoPj();
   const f = focoPj();
   const porId = Object.fromEntries(pj().implantes.map((i) => [i.id, i]));
   const essenciais = [...new Set([...a.implantes.essenciais, ...f.implantes])];
   const opcionais = a.implantes.opcionais.filter((id) => !essenciais.includes(id));
+  const marcadosAntes = new Set([...document.querySelectorAll('input[name="pj-implante"]:checked')].map((c) => c.value));
   const linha = (id, marcado) => {
     const i = porId[id];
+    const noNp = implanteNoNp(i);
     const preco = precoDoImplante(i) ? ` · ${dolares(i.preco)}${i.preco_estimado ? " (estimado)" : ""}` : "";
-    return caixa("pj-implante", id, marcado, `${i.nome} (${i.custo} PP${preco})`, i.descricao, i.estatistica);
+    const arranjo = i.arranjo ? ` · ${i.arranjo}: 1 PP se não for a mais cara` : "";
+    return caixa("pj-implante", id, manterMarcados ? marcadosAntes.has(id) : marcado,
+      `${i.nome} (${noNp.custo} PP${preco})`, [i.descricao, noNp.estatistica + arranjo].join(" "), noNp.estatistica);
   };
   const porCategoria = {};
   pj().implantes.filter((i) => !essenciais.includes(i.id) && !opcionais.includes(i.id))
     .forEach((i) => (porCategoria[i.categoria || "outros"] ||= []).push(linha(i.id, false)));
   el("pj-implantes-grupos").innerHTML =
-    grupo(`Essenciais do ${a.nome} e do foco ${f.nome}`, essenciais.map((id) => linha(id, true)).join("")) +
-    grupo("Opcionais do arquétipo", opcionais.map((id) => linha(id, false)).join("")) +
+    grupo(`Essenciais: ${a.nome} · ${f.nome}`, essenciais.map((id) => linha(id, true)).join("")) +
+    grupo(`Opcionais: ${a.nome}`, opcionais.map((id) => linha(id, false)).join("")) +
     Object.entries(porCategoria).map(([cat, itens]) => grupo(`Outros: ${cat}`, itens.join(""), false)).join("");
   atualizarContadorDeVantagens();
 }
@@ -585,6 +616,21 @@ function prepararAbaJogador() {
     emPontos() ? "Armas e itens (pagos com a vantagem Equipamento)" : "Armas e itens";
   el("pj-motivacao").innerHTML = pj().motivacoes
     .map((m) => `<option value="${escapar(m.nome)}" title="${escapar(m.exemplo)}">${escapar(m.nome)}</option>`).join("");
+  // Na fantasia, arquétipo e foco viram classe e subclasse.
+  document.querySelectorAll("[data-rotulo-arquetipo]").forEach((e) => { e.textContent = pj().rotulo_arquetipo; });
+  document.querySelectorAll("[data-rotulo-foco]").forEach((e) => { e.textContent = pj().rotulo_foco; });
+  el("pj-passo-raca-aba").hidden = !temRacas();
+  if (temRacas()) el("pj-raca").innerHTML = opcoesDeSelect(pj().racas);
+
+  const atualizarRaca = () => {
+    if (!temRacas()) return;
+    const r = racaPj();
+    el("pj-raca-descricao").textContent = r.descricao;
+    el("pj-raca-tracos").innerHTML = r.tracos.map((t) => `<li>${escapar(t)}</li>`).join("");
+    el("pj-raca-custo").textContent = `Custo no NP ${npPj()}: ${custoDaRaca()} PP.`;
+    atualizarContadorDeVantagens();
+  };
+  el("pj-raca").addEventListener("change", atualizarRaca);
 
   const atualizarFoco = () => {
     el("pj-foco-descricao").textContent = focoPj().descricao;
@@ -607,7 +653,12 @@ function prepararAbaJogador() {
   el("pj-arquetipo").addEventListener("change", atualizarArquetipo);
   el("pj-foco").addEventListener("change", atualizarFoco);
   el("pj-riqueza").addEventListener("change", atualizarRiqueza);
-  el("pj-np").addEventListener("change", atualizarContadorDeVantagens);
+  // O NP muda o custo da raça e a graduação das magias que o acompanham.
+  el("pj-np").addEventListener("change", () => {
+    atualizarRaca();
+    desenharImplantes(true);
+    atualizarContadorDeEquipamento();
+  });
   document.querySelectorAll('input[name="pj-vantagens-modo"], input[name="pj-equipamento-modo"], input[name="pj-implantes-modo"]')
     .forEach((r) => r.addEventListener("change", () => {
       el("pj-vantagens-lista").hidden = modo("pj-vantagens-modo") !== "manual";
@@ -629,6 +680,7 @@ function prepararAbaJogador() {
   document.querySelectorAll('input[name="pj-excesso"]').forEach((r) => r.addEventListener("change", atualizarContadorDeVantagens));
   atualizarArquetipo();
   atualizarRiqueza();
+  atualizarRaca();
   atualizarListasDeEscolha();
 
   el("pj-adicionar-complicacao").addEventListener("click", () =>
@@ -661,6 +713,7 @@ function prepararAbaJogador() {
       nome: el("pj-nome").value,
       jogador: el("pj-jogador").value,
       arquetipo: el("pj-arquetipo").value,
+      raca: temRacas() ? el("pj-raca").value : "",
       np: Number(el("pj-np").value),
       foco: el("pj-foco").value,
       riqueza: el("pj-riqueza").value,
@@ -698,8 +751,8 @@ async function gerarPersonagem(parametros) {
 
 // ---------------------------------------------------------------- passo a passo da ficha de jogador
 
-const PASSOS = ["genero", "identidade", "arquetipo", "vantagens", "implantes", "equipamento", "complicacoes", "ficha"];
-const passosAtivos = () => PASSOS.filter((p) => p !== "implantes" || temImplantes());
+const PASSOS = ["genero", "identidade", "raca", "arquetipo", "vantagens", "implantes", "equipamento", "complicacoes", "ficha"];
+const passosAtivos = () => PASSOS.filter((p) => (p !== "implantes" || temImplantes()) && (p !== "raca" || temRacas()));
 let passoAtual = "genero";
 
 function irParaPasso(nome) {
@@ -729,7 +782,8 @@ function desenharResumo() {
   const np = Number(el("pj-np").value);
   const marcados = (nome) => document.querySelectorAll(`input[name="${nome}"]:checked`).length;
   const escolha = (modoNome, nome, plural) => (modo(modoNome) === "manual"
-    ? `${marcados(nome)} ${plural} à mão` : "sorteados de acordo com o arquétipo");
+    ? `${marcados(nome)} ${plural} à mão`
+    : `${plural.endsWith("as") ? "sorteadas" : "sorteados"} de acordo com: ${arquetipoPj().nome}`);
   let equipamento = escolha("pj-equipamento-modo", "pj-item", "escolhidos");
   if (modo("pj-equipamento-modo") === "manual" && !el("pj-excesso").hidden) {
     equipamento += modo("pj-excesso") === "pontos" ? "; a diferença é paga com pontos" : "; a diferença fica como dívida";
@@ -740,7 +794,8 @@ function desenharResumo() {
     ["genero", "Gênero", opcoes.genero.nome],
     ["identidade", "Nome", el("pj-nome").value.trim() || "sorteado pelo gerador"],
     ["identidade", "Jogador", el("pj-jogador").value.trim() || "—"],
-    ["arquetipo", "Arquétipo", `${arquetipoPj().nome} · foco ${focoPj().nome}`],
+    temRacas() && ["raca", "Raça", `${racaPj().nome} (${custoDaRaca()} PP)`],
+    ["arquetipo", pj().rotulo_arquetipo, `${arquetipoPj().nome} · ${pj().rotulo_foco.toLowerCase()} ${focoPj().nome}`],
     ["arquetipo", "Nível de poder", `NP ${np} (${np * 15} PP)`],
     !emPontos() && ["arquetipo", "Condição financeira", riquezaPj().nome],
     ["vantagens", "Vantagens", escolha("pj-vantagens-modo", "pj-vantagem", "escolhidas")],

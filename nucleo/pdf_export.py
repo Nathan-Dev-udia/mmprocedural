@@ -18,6 +18,7 @@ from pypdf import PdfReader, PdfWriter
 from pypdf.generic import NameObject, TextStringObject
 
 from . import formatter
+from . import poderes as poderes_mod
 from . import rules
 
 # Campos do modelo que funcionam como rótulos e não devem ser apagados.
@@ -151,7 +152,9 @@ def valores_dos_campos(npc, relatorio):
 
     # Poderes (traços naturais de animais, implantes, feitiços...), com o rótulo do gênero
     rotulo = npc.get("rotulo_poderes", "Poderes")
-    tracos = [f"{rotulo}: {p.get('nome_curto', p['nome'])}" for p in ficha.get("poderes", {}).values()]
+    sufixo = {"principal": " (arranjo)", "alternativo": " (alternativo, 1 PP)"}
+    tracos = [f"{rotulo}: {p.get('nome_curto', p['nome'])}{sufixo.get(papel, '')}"
+              for _, p, papel in poderes_mod.em_ordem_de_exibicao(ficha.get("poderes", {}))]
     _preencher_linhas(campos, "Poderes e Dispositivos {n}", tracos, LINHAS["poderes"])
 
     # Notas & Condições (página 1): regras de jogo do NPC

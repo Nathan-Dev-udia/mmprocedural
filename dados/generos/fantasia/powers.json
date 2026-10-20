@@ -1,0 +1,741 @@
+[
+  {
+    "id": "raio_de_fogo",
+    "nome": "Raio de fogo",
+    "categoria": "arcana",
+    "catalogo": "magicos__raio_mistico_5",
+    "descricao": "Um raio de chamas lançado da ponta dos dedos.",
+    "tags": [
+      "combate"
+    ],
+    "arranjo": "Magia arcana",
+    "graduacao_np": 0,
+    "estatistica": "Dano à Distância (fogo)",
+    "pericia": "Combate à Distância: Magia"
+  },
+  {
+    "id": "misseis_magicos",
+    "nome": "Mísseis mágicos",
+    "categoria": "arcana",
+    "catalogo": "luminosos__pulso_laser_2",
+    "descricao": "Dardos de força mágica que procuram o alvo.",
+    "tags": [
+      "combate"
+    ],
+    "arranjo": "Magia arcana",
+    "graduacao_np": -2,
+    "estatistica": "Dano à Distância, Multiataque (força)",
+    "pericia": "Combate à Distância: Magia"
+  },
+  {
+    "id": "raio_gelido",
+    "nome": "Raio gélido",
+    "categoria": "arcana",
+    "catalogo": "congelantes__rajada_de_gelo",
+    "descricao": "Um feixe azulado de frio que congela o alvo.",
+    "tags": [
+      "combate"
+    ],
+    "arranjo": "Magia arcana",
+    "graduacao_np": 0,
+    "estatistica": "Dano à Distância (frio)",
+    "pericia": "Combate à Distância: Magia"
+  },
+  {
+    "id": "relampago",
+    "nome": "Relâmpago",
+    "categoria": "arcana",
+    "catalogo": "climaticos__raio",
+    "descricao": "Um raio elétrico que estala entre as mãos e o alvo.",
+    "tags": [
+      "combate"
+    ],
+    "arranjo": "Magia arcana",
+    "graduacao_np": 0,
+    "estatistica": "Dano à Distância (elétrico)",
+    "pericia": "Combate à Distância: Magia"
+  },
+  {
+    "id": "bola_de_fogo",
+    "nome": "Bola de fogo",
+    "categoria": "arcana",
+    "catalogo": "climaticos__tempestade_de_granizo",
+    "descricao": "Uma conta de fogo que explode no ponto escolhido.",
+    "tags": [
+      "combate",
+      "area"
+    ],
+    "arranjo": "Magia arcana",
+    "graduacao_np": -1,
+    "estatistica": "Dano à Distância, Área Explosão (fogo)"
+  },
+  {
+    "id": "sono",
+    "nome": "Sono",
+    "categoria": "arcana",
+    "catalogo": "magicos__feitico_de_sonambulo_2",
+    "descricao": "Uma nuvem de sonolência mágica que derruba os inimigos.",
+    "tags": [
+      "controle",
+      "area"
+    ],
+    "arranjo": "Magia arcana",
+    "graduacao_np": -1,
+    "estatistica": "Aflição Cumulativa, Área Nuvem (Vontade; tonto, atordoado, adormecido)"
+  },
+  {
+    "id": "teia",
+    "nome": "Teia",
+    "categoria": "arcana",
+    "catalogo": "animais__teia",
+    "descricao": "Fios grudentos que prendem quem estiver no caminho.",
+    "tags": [
+      "controle"
+    ],
+    "arranjo": "Magia arcana",
+    "graduacao_np": -1,
+    "estatistica": "Aflição Cumulativa à Distância (Esquiva; impedido e vulnerável, indefeso e imóvel)",
+    "pericia": "Combate à Distância: Magia"
+  },
+  {
+    "id": "enfeiticar_pessoa",
+    "nome": "Enfeitiçar pessoa",
+    "categoria": "arcana",
+    "catalogo": "mentais__controle_mental",
+    "descricao": "Faz o alvo ver você como um amigo e obedecer.",
+    "tags": [
+      "controle",
+      "social"
+    ],
+    "arranjo": "Magia arcana",
+    "graduacao_np": -1,
+    "estatistica": "Aflição Cumulativa à Percepção (Vontade; tonto, compelido, controlado)",
+    "pericia": "Combate à Distância: Magia"
+  },
+  {
+    "id": "imagem_silenciosa",
+    "nome": "Imagem silenciosa",
+    "categoria": "arcana",
+    "catalogo": "magicos__fantasmas_de_phoros_2",
+    "descricao": "Cria uma imagem ilusória convincente.",
+    "tags": [
+      "utilidade"
+    ],
+    "arranjo": "Magia arcana",
+    "graduacao": 4,
+    "estatistica": "Ilusão (visual)"
+  },
+  {
+    "id": "levitacao",
+    "nome": "Levitação",
+    "categoria": "arcana",
+    "catalogo": "magicos__levitacao_2",
+    "descricao": "Flutua no ar, subindo e descendo à vontade.",
+    "tags": [
+      "movimento"
+    ],
+    "arranjo": "Magia arcana",
+    "graduacao": 2,
+    "estatistica": "Voo"
+  },
+  {
+    "id": "passo_nebuloso",
+    "nome": "Passo nebuloso",
+    "categoria": "arcana",
+    "catalogo": "magicos__passagem_mistica_3",
+    "descricao": "Some numa névoa prateada e reaparece adiante.",
+    "tags": [
+      "movimento"
+    ],
+    "arranjo": "Magia arcana",
+    "graduacao": 2,
+    "estatistica": "Teleporte"
+  },
+  {
+    "id": "maos_magicas",
+    "nome": "Mãos mágicas",
+    "categoria": "arcana",
+    "catalogo": "magicos__mao_de_heshem_5",
+    "descricao": "Uma mão espectral que move objetos à distância.",
+    "tags": [
+      "utilidade"
+    ],
+    "arranjo": "Magia arcana",
+    "graduacao": 2,
+    "estatistica": "Mover Objetos"
+  },
+  {
+    "id": "armadura_arcana",
+    "nome": "Armadura arcana",
+    "categoria": "arcana",
+    "catalogo": "magicos__escudo_mistico",
+    "descricao": "Uma camada invisível de força protege o corpo. Fica de fora do arranjo: dura enquanto o mago conjura outras magias.",
+    "tags": [
+      "defesa"
+    ],
+    "graduacao_np": -3,
+    "estatistica": "Proteção, Sustentado"
+  },
+  {
+    "id": "rajada_mistica",
+    "nome": "Rajada mística",
+    "categoria": "pacto",
+    "catalogo": "magicos__poder_de_malador_4",
+    "descricao": "Um raio de energia crepitante dado pelo patrono.",
+    "tags": [
+      "combate"
+    ],
+    "arranjo": "Magia de pacto",
+    "graduacao_np": 0,
+    "estatistica": "Dano à Distância (força mística)",
+    "pericia": "Combate à Distância: Magia"
+  },
+  {
+    "id": "enfeiticar_pacto",
+    "nome": "Encanto do patrono",
+    "categoria": "pacto",
+    "catalogo": "mentais__controle_mental",
+    "descricao": "O olhar do bruxo prende a vontade do alvo.",
+    "tags": [
+      "controle",
+      "social"
+    ],
+    "arranjo": "Magia de pacto",
+    "graduacao_np": -1,
+    "estatistica": "Aflição Cumulativa à Percepção (Vontade; tonto, compelido, controlado)",
+    "pericia": "Combate à Distância: Magia"
+  },
+  {
+    "id": "medo_pacto",
+    "nome": "Medo",
+    "categoria": "pacto",
+    "catalogo": "talentos_poderosos__presenca_assustadora",
+    "descricao": "Uma onda de pavor sobrenatural.",
+    "tags": [
+      "controle",
+      "area"
+    ],
+    "arranjo": "Magia de pacto",
+    "graduacao_np": -1,
+    "estatistica": "Aflição, Área Percepção visual (Vontade; prejudicado, desabilitado, paralisado)"
+  },
+  {
+    "id": "passo_sombrio",
+    "nome": "Passo sombrio",
+    "categoria": "pacto",
+    "catalogo": "magicos__caminho_tortuoso_de_karkradas",
+    "descricao": "Entra numa sombra e sai de outra.",
+    "tags": [
+      "movimento"
+    ],
+    "arranjo": "Magia de pacto",
+    "graduacao": 2,
+    "estatistica": "Teleporte, Acurado (sombras)"
+  },
+  {
+    "id": "visao_diabo",
+    "nome": "Visão do diabo",
+    "categoria": "pacto",
+    "catalogo": "sombrios__visao_no_escuro",
+    "descricao": "Enxerga na escuridão, até na mágica.",
+    "tags": [
+      "percepcao"
+    ],
+    "estatistica": "Sentidos 2 (visão no escuro)"
+  },
+  {
+    "id": "zombaria_cruel",
+    "nome": "Zombaria cruel",
+    "categoria": "bardica",
+    "catalogo": "mentais__rajada_mental",
+    "descricao": "Um insulto carregado de magia que machuca a mente.",
+    "tags": [
+      "combate"
+    ],
+    "arranjo": "Magia bárdica",
+    "graduacao_np": -2,
+    "estatistica": "Dano à Percepção, resistido por Vontade",
+    "pericia": "Combate à Distância: Magia"
+  },
+  {
+    "id": "palavra_de_cura",
+    "nome": "Palavra de cura",
+    "categoria": "bardica",
+    "catalogo": "luminosos__cura_luminosa",
+    "descricao": "Um verso que fecha feridas.",
+    "tags": [
+      "cura"
+    ],
+    "arranjo": "Magia bárdica",
+    "graduacao_np": -1,
+    "estatistica": "Cura"
+  },
+  {
+    "id": "sono_bardico",
+    "nome": "Canção de ninar",
+    "categoria": "bardica",
+    "catalogo": "magicos__feitico_de_sonambulo_2",
+    "descricao": "Uma melodia que faz os ouvintes cochilarem.",
+    "tags": [
+      "controle",
+      "area"
+    ],
+    "arranjo": "Magia bárdica",
+    "graduacao_np": -1,
+    "estatistica": "Aflição Cumulativa, Área Nuvem (Vontade; tonto, atordoado, adormecido)"
+  },
+  {
+    "id": "encantar_plateia",
+    "nome": "Encantar plateia",
+    "categoria": "bardica",
+    "catalogo": "mentais__controle_mental",
+    "descricao": "Prende a atenção de quem escuta.",
+    "tags": [
+      "controle",
+      "social"
+    ],
+    "arranjo": "Magia bárdica",
+    "graduacao_np": -1,
+    "estatistica": "Aflição Cumulativa à Percepção (Vontade; tonto, compelido, controlado)",
+    "pericia": "Combate à Distância: Magia"
+  },
+  {
+    "id": "ilusao_bardica",
+    "nome": "Truque de ilusão",
+    "categoria": "bardica",
+    "catalogo": "magicos__fantasmas_de_phoros_2",
+    "descricao": "Imagens e sons ilusórios para distrair.",
+    "tags": [
+      "utilidade"
+    ],
+    "arranjo": "Magia bárdica",
+    "graduacao": 3,
+    "estatistica": "Ilusão (visual)"
+  },
+  {
+    "id": "chama_sagrada",
+    "nome": "Chama sagrada",
+    "categoria": "divina",
+    "catalogo": "magicos__sois_brilhantes_de_sirrion_4",
+    "descricao": "Uma chama radiante desce sobre o alvo.",
+    "tags": [
+      "combate"
+    ],
+    "arranjo": "Magia divina",
+    "graduacao_np": 0,
+    "estatistica": "Dano à Distância (radiante)",
+    "pericia": "Combate à Distância: Magia"
+  },
+  {
+    "id": "curar_ferimentos",
+    "nome": "Curar ferimentos",
+    "categoria": "divina",
+    "catalogo": "luminosos__cura_luminosa",
+    "descricao": "O toque do sacerdote fecha feridas.",
+    "tags": [
+      "cura"
+    ],
+    "arranjo": "Magia divina",
+    "graduacao_np": -1,
+    "estatistica": "Cura"
+  },
+  {
+    "id": "palavra_sagrada",
+    "nome": "Palavra sagrada",
+    "categoria": "divina",
+    "catalogo": "magicos__sinal_de_modrossus_3",
+    "descricao": "Uma palavra divina que atordoa os inimigos ao redor.",
+    "tags": [
+      "controle",
+      "area"
+    ],
+    "arranjo": "Magia divina",
+    "graduacao_np": -1,
+    "estatistica": "Aflição, Área Explosão (Vontade; tonto e impedido, atordoado e imóvel, incapacitado)"
+  },
+  {
+    "id": "expulsar_mortos_vivos",
+    "nome": "Expulsar mortos-vivos",
+    "categoria": "divina",
+    "catalogo": "fatais__comandar_os_mortos",
+    "descricao": "Apresenta o símbolo sagrado e os mortos-vivos recuam.",
+    "tags": [
+      "controle",
+      "area"
+    ],
+    "arranjo": "Magia divina",
+    "graduacao_np": -1,
+    "estatistica": "Aflição, Área Percepção auditiva (Vontade; tonto, compelido, controlado), só mortos-vivos"
+  },
+  {
+    "id": "restauracao",
+    "nome": "Restauração menor",
+    "categoria": "divina",
+    "catalogo": "vitais__cura",
+    "descricao": "Cura doenças e venenos.",
+    "tags": [
+      "cura"
+    ],
+    "arranjo": "Magia divina",
+    "graduacao": 4,
+    "estatistica": "Cura, Limitado a doenças e venenos"
+  },
+  {
+    "id": "luz_divina",
+    "nome": "Luz do dia",
+    "categoria": "divina",
+    "catalogo": "magicos__iluminacao_de_abbridon_3",
+    "descricao": "Uma luz sagrada que espanta a escuridão.",
+    "tags": [
+      "utilidade"
+    ],
+    "arranjo": "Magia divina",
+    "graduacao": 1,
+    "estatistica": "Ambiente (luz do dia)"
+  },
+  {
+    "id": "augurio",
+    "nome": "Augúrio",
+    "categoria": "divina",
+    "catalogo": "magicos__auspicioso_augurio_de_ahgrazu",
+    "descricao": "Os deuses mostram um vislumbre do que vem.",
+    "tags": [
+      "percepcao"
+    ],
+    "estatistica": "Segunda Chance, Sentidos 4 (precognição, limitada)"
+  },
+  {
+    "id": "escudo_da_fe",
+    "nome": "Escudo da fé",
+    "categoria": "divina",
+    "catalogo": "magicos__escudo_brilhante",
+    "descricao": "Um brilho sagrado envolve o devoto. Fica de fora do arranjo.",
+    "tags": [
+      "defesa"
+    ],
+    "graduacao_np": -3,
+    "estatistica": "Proteção, Sustentado"
+  },
+  {
+    "id": "destruicao_divina",
+    "nome": "Destruição divina",
+    "categoria": "divina",
+    "catalogo": "fatais__soulfire",
+    "descricao": "A arma do paladino brilha com poder sagrado.",
+    "tags": [
+      "combate"
+    ],
+    "arranjo": "Magia divina",
+    "graduacao_np": -2,
+    "estatistica": "Dano corpo a corpo (radiante), resistido por Vontade",
+    "pericia": "Combate Corpo-a-Corpo: Destruição divina"
+  },
+  {
+    "id": "cura_pelas_maos",
+    "nome": "Cura pelas mãos",
+    "categoria": "divina",
+    "catalogo": "luminosos__cura_luminosa",
+    "descricao": "Uma reserva de cura que o paladino passa pelo toque.",
+    "tags": [
+      "cura"
+    ],
+    "arranjo": "Magia divina",
+    "graduacao_np": -2,
+    "estatistica": "Cura"
+  },
+  {
+    "id": "aura_de_coragem",
+    "nome": "Aura de coragem",
+    "categoria": "divina",
+    "catalogo": "mentais__escudo_mental",
+    "descricao": "A fé do paladino protege a mente contra o medo. Fica de fora do arranjo.",
+    "tags": [
+      "defesa"
+    ],
+    "graduacao_np": -3,
+    "estatistica": "Vontade Aumentada, Limitada a efeitos mentais"
+  },
+  {
+    "id": "chamar_relampago",
+    "nome": "Chamar relâmpago",
+    "categoria": "natureza",
+    "catalogo": "climaticos__raio",
+    "descricao": "Um raio desce das nuvens sobre o inimigo.",
+    "tags": [
+      "combate"
+    ],
+    "arranjo": "Magia da natureza",
+    "graduacao_np": 0,
+    "estatistica": "Dano à Distância (elétrico)",
+    "pericia": "Combate à Distância: Magia"
+  },
+  {
+    "id": "chicote_espinhos",
+    "nome": "Chicote de espinhos",
+    "categoria": "natureza",
+    "catalogo": "vegetais__arremesso_de_espinhos",
+    "descricao": "Espinhos disparados de um galho vivo.",
+    "tags": [
+      "combate"
+    ],
+    "arranjo": "Magia da natureza",
+    "graduacao_np": -2,
+    "estatistica": "Dano à Distância, Multiataque (perfurante)",
+    "pericia": "Combate à Distância: Magia"
+  },
+  {
+    "id": "constricao",
+    "nome": "Constrição",
+    "categoria": "natureza",
+    "catalogo": "vegetais__rede_de_vinhas",
+    "descricao": "Raízes e vinhas brotam do chão e agarram os inimigos.",
+    "tags": [
+      "controle",
+      "area"
+    ],
+    "arranjo": "Magia da natureza",
+    "graduacao_np": -1,
+    "estatistica": "Aflição à Distância, Área Explosão (Esquiva; impedido e vulnerável, indefeso e imóvel)"
+  },
+  {
+    "id": "curar_natureza",
+    "nome": "Bálsamo da natureza",
+    "categoria": "natureza",
+    "catalogo": "luminosos__cura_luminosa",
+    "descricao": "Ervas e seiva fecham feridas.",
+    "tags": [
+      "cura"
+    ],
+    "arranjo": "Magia da natureza",
+    "graduacao_np": -1,
+    "estatistica": "Cura"
+  },
+  {
+    "id": "falar_com_animais",
+    "nome": "Falar com animais",
+    "categoria": "natureza",
+    "catalogo": "animais__falar_com_animais",
+    "descricao": "Entende e é entendido pelos animais.",
+    "tags": [
+      "social"
+    ],
+    "estatistica": "Compreender 2 (animais)"
+  },
+  {
+    "id": "passo_sem_rastro",
+    "nome": "Passo sem rastro",
+    "categoria": "natureza",
+    "catalogo": "vegetais__passeio_pela_floresta",
+    "descricao": "Atravessa a mata sem deixar pegadas.",
+    "tags": [
+      "movimento"
+    ],
+    "estatistica": "Movimento 2 (sem rastros), em áreas com vegetação"
+  },
+  {
+    "id": "pele_de_casca",
+    "nome": "Pele de casca",
+    "categoria": "natureza",
+    "catalogo": "animais__pele_protetora",
+    "descricao": "A pele endurece como casca de árvore. Fica de fora do arranjo.",
+    "tags": [
+      "defesa"
+    ],
+    "graduacao_np": -3,
+    "estatistica": "Proteção"
+  },
+  {
+    "id": "forma_selvagem",
+    "nome": "Forma selvagem",
+    "categoria": "natureza",
+    "catalogo": "animais__forma_animal",
+    "descricao": "Assume a forma de um animal que já viu.",
+    "tags": [
+      "utilidade"
+    ],
+    "estatistica": "Morfar 2 (formas animais), Metamorfo"
+  },
+  {
+    "id": "companheiro_animal",
+    "nome": "Companheiro animal",
+    "categoria": "natureza",
+    "catalogo": "animais__companheiro_animal",
+    "descricao": "Um animal leal que luta ao lado do patrulheiro.",
+    "tags": [
+      "combate"
+    ],
+    "graduacao": 2,
+    "estatistica": "Invocar Companheiro Animal, Heroico"
+  },
+  {
+    "id": "retomar_folego",
+    "nome": "Retomar o fôlego",
+    "categoria": "marcial",
+    "catalogo": "marciais__segundo_folego",
+    "descricao": "Um último fôlego quando o combate aperta.",
+    "tags": [
+      "cura"
+    ],
+    "graduacao": 2,
+    "estatistica": "Cura, Engatilhado (dois graus de dano), Limitado a si mesmo"
+  },
+  {
+    "id": "furia",
+    "nome": "Fúria",
+    "categoria": "marcial",
+    "catalogo": "marciais__furia_berserker",
+    "descricao": "A fúria do bárbaro: mais força e nenhum medo, mas menos cuidado na defesa.",
+    "tags": [
+      "combate"
+    ],
+    "graduacao_np": -3,
+    "estatistica": "Destemido, Força Aumentada, Sustentada (–1 nas defesas ativas)"
+  },
+  {
+    "id": "golpe_atordoante",
+    "nome": "Golpe atordoante",
+    "categoria": "marcial",
+    "catalogo": "talentos_poderosos__ponto_de_pressao",
+    "descricao": "Um golpe preciso num ponto vital que deixa o alvo tonto.",
+    "tags": [
+      "combate"
+    ],
+    "graduacao_np": -1,
+    "estatistica": "Aflição corpo a corpo (Fortitude; tonto, atordoado, incapacitado)",
+    "pericia": "Combate Corpo-a-Corpo: Briga"
+  },
+  {
+    "id": "artes_marciais",
+    "nome": "Artes marciais",
+    "categoria": "marcial",
+    "catalogo": "talentos_poderosos__forca_impressionante",
+    "descricao": "Socos e chutes treinados que batem como armas.",
+    "tags": [
+      "combate"
+    ],
+    "graduacao_np": -3,
+    "estatistica": "Dano baseado em Força (golpes de artes marciais)",
+    "pericia": "Combate Corpo-a-Corpo: Briga"
+  },
+  {
+    "id": "integridade_corporal",
+    "nome": "Integridade corporal",
+    "categoria": "marcial",
+    "catalogo": "marciais__balanco_de_chi",
+    "descricao": "O monge usa o ki para curar o próprio corpo.",
+    "tags": [
+      "cura"
+    ],
+    "graduacao": 2,
+    "estatistica": "Cura (ki)"
+  },
+  {
+    "id": "queda_lenta",
+    "nome": "Queda lenta",
+    "categoria": "marcial",
+    "catalogo": "marciais__queda_de_gato",
+    "descricao": "Cai de pé e sem se machucar.",
+    "tags": [
+      "movimento"
+    ],
+    "estatistica": "De Pé, Movimento 1 (queda segura)"
+  },
+  {
+    "id": "corrida_parede",
+    "nome": "Passo do vento",
+    "categoria": "marcial",
+    "catalogo": "marciais__corrida_pela_parede",
+    "descricao": "Corre pelas paredes por alguns passos.",
+    "tags": [
+      "movimento"
+    ],
+    "estatistica": "Movimento 2 (escalar paredes), só em movimento"
+  },
+  {
+    "id": "escamas_draconicas",
+    "nome": "Escamas dracônicas",
+    "categoria": "arcana",
+    "catalogo": "animais__pele_protetora",
+    "descricao": "O sangue de dragão do feiticeiro aparece na pele. Fica de fora do arranjo.",
+    "tags": [
+      "defesa"
+    ],
+    "graduacao_np": -3,
+    "estatistica": "Proteção"
+  },
+  {
+    "id": "visao_escuro",
+    "nome": "Visão no escuro",
+    "categoria": "racial",
+    "catalogo": "sombrios__visao_no_escuro",
+    "descricao": "Enxerga no escuro como se fosse penumbra.",
+    "tags": [],
+    "estatistica": "Sentidos 2 (visão no escuro)",
+    "so_racial": true
+  },
+  {
+    "id": "resiliencia_ana",
+    "nome": "Resiliência anã",
+    "categoria": "racial",
+    "catalogo": "talentos_poderosos__imunidade_adquirida",
+    "descricao": "Resiste a venenos e doenças.",
+    "tags": [],
+    "estatistica": "Imunidade 2 (doenças e venenos), Limitada a meio efeito",
+    "so_racial": true
+  },
+  {
+    "id": "ancestralidade_feerica",
+    "nome": "Ancestralidade feérica",
+    "categoria": "racial",
+    "catalogo": "mentais__escudo_mental",
+    "descricao": "Magia de encantamento tem dificuldade com sua mente.",
+    "tags": [],
+    "graduacao": 2,
+    "estatistica": "Vontade Aumentada 2, Limitada a efeitos mentais",
+    "so_racial": true
+  },
+  {
+    "id": "sentidos_agucados",
+    "nome": "Sentidos aguçados",
+    "categoria": "racial",
+    "catalogo": "talentos_poderosos__olho_de_aguia",
+    "descricao": "Vê longe e com detalhes.",
+    "tags": [],
+    "estatistica": "Sentidos 1 (visão estendida)",
+    "so_racial": true
+  },
+  {
+    "id": "esperteza_gnomica",
+    "nome": "Esperteza gnômica",
+    "categoria": "racial",
+    "catalogo": "mentais__escudo_mental",
+    "descricao": "A mente rápida dos gnomos resiste à magia.",
+    "tags": [],
+    "graduacao": 2,
+    "estatistica": "Vontade Aumentada 2, Limitada a efeitos mentais",
+    "so_racial": true
+  },
+  {
+    "id": "sopro_draconico",
+    "nome": "Sopro dracônico",
+    "categoria": "racial",
+    "catalogo": "flamejantes__baforada_de_fogo",
+    "descricao": "Sopra fogo como os ancestrais dragões.",
+    "tags": [],
+    "graduacao_np": -2,
+    "estatistica": "Dano, Área Cone (fogo)",
+    "so_racial": true
+  },
+  {
+    "id": "legado_infernal",
+    "nome": "Legado infernal",
+    "categoria": "racial",
+    "catalogo": "magicos__chamas_dos_phoros",
+    "descricao": "Chamas infernais herdadas de um ancestral demoníaco.",
+    "tags": [],
+    "graduacao": 2,
+    "estatistica": "Dano à Distância (fogo infernal)",
+    "pericia": "Combate à Distância: Magia",
+    "so_racial": true
+  }
+]

@@ -54,7 +54,10 @@ TETOS_DE_VANTAGEM = {
 
 def _passo_permitido(ficha, passo, habilidade_maxima, np):
     if passo["tipo"] == "habilidade":
-        return ficha["habilidades"].get(passo["nome"], 0) < habilidade_maxima
+        atual = ficha["habilidades"].get(passo["nome"], 0)
+        # –5 é como as fichas guardam uma habilidade ausente ("—" no livro, ex.: o Vigor de um esqueleto):
+        # ela não sobe.
+        return rules.HABILIDADE_MINIMA < atual < habilidade_maxima
     if passo["tipo"] == "vantagem":
         atual = ficha.get("vantagens", {}).get(passo["nome"], 0)
         base = rules.nome_base(passo["nome"])

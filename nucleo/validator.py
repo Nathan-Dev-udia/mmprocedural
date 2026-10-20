@@ -18,6 +18,7 @@ Formato da ficha (dicionário):
 
 import math
 
+from . import poderes as poderes_mod
 from . import rules
 
 STATUS = {
@@ -58,6 +59,10 @@ def calcular(ficha, catalogo_equipamento):
                            + ajustes.get(defesa, 0))
 
     itens = [catalogo_equipamento[i] for i in ficha.get("equipamento", [])]
+    # Livro básico, cap. 7: escudos dão bônus às defesas ativas (Esquiva e Aparar); vale o maior escudo.
+    escudo = max([item.get("defesas_ativas", 0) for item in itens], default=0)
+    defesas["Esquiva"] += escudo
+    defesas["Aparar"] += escudo
     # Livro básico, cap. 7: bônus de armadura não se somam a outros bônus de Proteção; vale o maior.
     # Coletes à prova de balas são Proteção Limitada a ataques balísticos ("Res 6/2" no livro):
     # contam contra tiros, mas não contra golpes corpo a corpo.
@@ -146,13 +151,10 @@ def calcular_custos(ficha):
     }
     origem = {secao: "calculado" for secao in custos}
 
-    poderes = ficha.get("poderes", {}).values()
+    poderes = ficha.get("poderes", {})
     if poderes:
-        if any(p.get("custo_informado") is None for p in poderes):
-            custos["poderes"], origem["poderes"] = None, "pendente"
-        else:
-            custos["poderes"] = sum(p["custo_informado"] for p in poderes)
-            origem["poderes"] = "informado"
+        custos["poderes"] = poderes_mod.custo_total(poderes)
+        origem["poderes"] = "pendente" if custos["poderes"] is None else "informado"
 
     total = None if None in custos.values() else sum(custos.values())
     return custos, origem, total

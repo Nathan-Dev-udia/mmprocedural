@@ -1,8 +1,8 @@
 # Gerador de fichas · M&M 3ª edição
 
-Gera fichas de Mutantes & Malfeitores 3e para vários gêneros de campanha (hoje: **Faroeste** e **Cyberpunk**). Cada gênero tem duas abas:
+Gera fichas de Mutantes & Malfeitores 3e para vários gêneros de campanha (hoje: **Faroeste**, **Cyberpunk** e **Fantasia medieval**). Cada gênero tem duas abas:
 
-- **Ficha de jogador:** um personagem por vez, num passo a passo (Gênero → Nome → Arquétipo → Vantagens → Implantes, só no cyberpunk → Armas e itens → Complicações → Ficha). O último passo resume as escolhas antes de gerar. Feito a partir dos arquétipos de jogador do gênero. Gasta exatamente 15 PP por NP e exige Motivação e mais uma complicação. O equipamento é comprado com o dinheiro inicial: dólares no faroeste, eurobucks no cyberpunk (preços do Cyberpunk RED). No cyberpunk, o personagem também pode ter implantes, que custam PP e eurobucks.
+- **Ficha de jogador:** um personagem por vez, num passo a passo (Gênero → Nome → Raça, só na fantasia → Arquétipo ou Classe → Vantagens → Implantes ou Magias, nos gêneros com poderes → Armas e itens → Complicações → Ficha). O último passo resume as escolhas antes de gerar. Feito a partir dos arquétipos de jogador do gênero. Gasta exatamente 15 PP por NP e exige Motivação e mais uma complicação. O equipamento é comprado com o dinheiro inicial: dólares no faroeste, eurobucks no cyberpunk (preços do Cyberpunk RED), peças de ouro na fantasia (preços do Livro do Jogador de D&D 5e). No cyberpunk, o personagem também pode ter implantes, que custam PP e eurobucks; na fantasia, magias e dons de classe e traços raciais.
 - **Fichas de NPC:** grupos a partir de fichas-base dos livros e módulos cadastrados em JSON. A ficha sobe até 70–100% dos limites do NP escolhido.
 
 ## Como rodar
@@ -36,7 +36,7 @@ python -m pytest
 | `nucleo/pdf_export.py`, `nucleo/docx_export.py` | Ficha editável em PDF e fichas em Word. |
 | `dados/comum/` | O que vale para todos os gêneros: `settings.json`, `styles.json`, `vantagens.json`, a ficha editável e o catálogo de poderes. |
 | `dados/generos/<id>/` | Um gênero: `genero.json`, `archetypes.json`, `modules.json`, `equipment.json`, `names.json`, `player.json`, `complications.json` e, se tiver, `powers.json`. |
-| `ferramentas/` | Scripts de apoio: extração do Perfis de Poder e criação da base do cyberpunk. |
+| `ferramentas/` | Scripts de apoio: extração do Perfis de Poder e criação da base do cyberpunk e da fantasia. |
 | `templates/`, `static/` | A página (HTML, CSS e JavaScript). |
 | `tests/` | Testes com sementes fixas. |
 
@@ -65,7 +65,10 @@ Cada pasta em `dados/generos/` com um `genero.json` vira uma opção na página:
 - `configuracoes` sobrescreve `dados/comum/settings.json` só para esse gênero:
   - `rotulo_poderes`: o nome da seção de poderes na ficha ("Traços naturais", "Implantes"...).
   - `equipamento`: `dinheiro` (compra com o dinheiro inicial, regra de equipamento gratuito do Guia do Mestre) ou `pontos` (vantagem Equipamento, 5 pontos por graduação, livro básico cap. 7).
-  - `moeda`: `$` (padrão) ou `eb`.
+  - `moeda`: `$` (padrão), `eb` ou `po`. Moeda com letras vai depois do número ("2.550eb", "15 po").
+  - `rotulo_arquetipo` e `rotulo_foco`: como a tela chama arquétipo e foco ("Classe" e "Subclasse" na fantasia).
+  - `np_padrao_jogador`: o NP que a tela sugere (a fantasia começa no NP 5; dá para escolher do 2 ao 10).
+  - `itens_basicos`: itens que todo PJ leva (comida, no faroeste e na fantasia).
   - `implantes_em_dinheiro`: os implantes custam também o preço do cyberware, além dos PP.
   - `prioridades_gerais` e `pericias_de_reserva`: o que o gerador sobe quando as prioridades do arquétipo acabam.
 
@@ -87,6 +90,23 @@ Sem poderes. Equipamento em dólares, com as condições financeiras do Guia do 
 - **Equipamento** (`equipment.json`): estatísticas de M&M (livro básico, cap. 7) com o preço do RED (`preco`, `categoria_de_preco`, `fonte_preco`). Itens sem equivalente no RED (armas de energia, metralhadora, explosivo plástico, GPS...) têm o preço típico da categoria e `preco_estimado: true`; a tela marca "(estimado)". Os coletes à prova de balas valem só contra ataques balísticos (veja abaixo). NPCs continuam pagando o equipamento com a vantagem Equipamento, como as fichas do livro.
 - **Implantes** (`powers.json`): 21 poderes do Perfis de Poder com nome de implante. Custam os PP do livro (por isso as fichas com implantes ficam com status "Custos calculados") **e** o preço do cyberware equivalente no RED (ex.: Reflexos turbinados = Link Neural + Sandevistan = 1.000eb). O cyberware entra no contador de dinheiro; se passar, vale a mesma regra do faroeste (subir a Riqueza com PP ou ficar devendo, de preferência a um ripperdoc).
 - Os preços são aplicados por `ferramentas/precos_cyberpunk_red.py`; edite a tabela lá e rode de novo.
+
+### Fantasia medieval
+
+Classes, subclasses e raças do Livro do Jogador de D&D 5e, convertidas para M&M 3e. Tudo é gerado por `ferramentas/criar_fantasia_base.py` (rode de novo depois de mudar a tabela lá; ele recria os arquivos, exceto `archetypes.json` e `modules.json`).
+
+- **Jogador** (`player.json`): as 12 classes (Guerreiro, Bárbaro, Ladino, Mago, Feiticeiro, Bruxo, Clérigo, Paladino, Patrulheiro, Druida, Monge, Bardo), cada uma com 3 subclasses como focos (ex.: Mago → Evocação, Ilusão, Abjuração).
+- **Raças** (`racas` no `player.json`): Humano, Anão, Elfo, Halfling, Draconato, Gnomo, Meio-elfo, Meio-orc e Tiefling. Cada raça tem ajustes de habilidade, vantagens, perícias e poderes raciais, e **tudo custa PP do orçamento** (o humano não tem traços: os pontos ficam livres). O nome sorteado segue a raça (`nomes`). Um gênero sem `racas` não mostra o passo.
+- **Magias** (`powers.json`): 51 magias e dons de classe e 7 traços raciais, todos apontando para o catálogo. As magias de cada tradição (arcana, divina, da natureza, de pacto, bárdica) formam um **Arranjo**; as de ataque usam a perícia única *Combate à Distância: Magia*, como os "Feitiços" do Cultista Arcano do Guia do Mestre.
+- **Equipamento** (`equipment.json`): armas, armaduras e escudos do livro básico de M&M (cap. 7) com o preço do Livro do Jogador em peças de ouro (1 pp = 0,1 po; 1 pc = 0,01 po). Armas que o M&M não tem (espada grande, arco longo, besta pesada...) são a arma mais próxima com +1 de Dano e +1 ponto; a `fonte` diz "adaptado". **Escudos** dão +1/+2/+3 em Esquiva e Aparar (`defesas_ativas`); se o escudo ou a armadura estourar o limite do NP, sai da ficha e o dinheiro volta.
+- **Dinheiro inicial**: Camponês 30 po (+1 PP), Aventureiro 120 po (padrão, perto da média do ouro inicial das classes), Burguês 400 po (1 PP), Mercador próspero 1.600 po (2 PP), Nobre menor 6.000 po (4 PP), Grande nobre 30.000 po (6 PP).
+
+### Arranjos e magias que acompanham o NP
+
+- **Arranjo** (livro básico, cap. 6, Efeitos Alternativos): poderes com o mesmo `"arranjo"` são usados um de cada vez. O mais caro é o efeito principal e paga o custo cheio; cada outro custa 1 PP. A ficha mostra "Arranjo Magia arcana: efeito principal" e "efeito alternativo (1 PP)", e o contador da tela faz a mesma conta. Fichas escritas à mão também podem usar `"arranjo"` (é assim que o Cultista Arcano fecha os 15 PP de poderes do livro).
+- **`graduacao_np`**: a graduação do poder é o NP do personagem mais esse ajuste (mínimo 1). O Raio de fogo (`0`) é Dano 5 no NP 5 e Dano 8 no NP 8; a Armadura arcana (`-3`) é Proteção 2 no NP 5. Custo e graduação mudam na tela quando o NP muda.
+- **`estatistica`** reescreve a linha do catálogo com o descritor do gênero ("Dano à Distância, Multiataque (força)" no lugar de "(Laser)"), e **`pericia`** troca a perícia do ataque.
+- **`so_racial`**: o poder só vem com a raça; não aparece na lista de magias.
 
 ## Catálogo de poderes
 
@@ -235,7 +255,8 @@ Itens com `custo` em pontos de equipamento (e `preco` em dólares, nos gêneros 
 
 ## O que ainda não existe
 
-- Gênero medieval/fantasia (com o Livro de Magia e o Supernatural Handbook).
+- Magias do *Livro da Magia* (2ª edição: precisa passar pelo conversor para a 3e) e do *Supernatural Handbook*. Hoje a fantasia usa só magias do Perfis de Poder.
+- Arranjos dinâmicos (2 PP por efeito alternativo) e efeitos Variável, Invocar e Transformar nas buscas automáticas.
 - Mechas e veículos do Mecha & Mangá.
 - Edição de arquétipos e módulos pela interface.
 - Biblioteca de fichas salvas e imagens.

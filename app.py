@@ -68,11 +68,20 @@ def opcoes_da_interface(DADOS):
             "moeda": config.get("moeda", "$"),
             "implantes_em_dinheiro": player.implantes_em_dinheiro(DADOS),
             "rotulo_poderes": config.get("rotulo_poderes", "Poderes"),
+            "rotulo_arquetipo": config.get("rotulo_arquetipo", "Arquétipo"),
+            "rotulo_foco": config.get("rotulo_foco", "Foco"),
             "implantes": [{"id": i["id"], "nome": i["nome"], "descricao": i.get("descricao", ""),
                            "categoria": i.get("categoria", ""), "custo": i["poder"]["custo_informado"],
+                           # Poderes que acompanham o NP mudam de graduação e de custo com ele.
+                           "por_np": {np: _poder_no_np(DADOS, i["id"], np) for np in config["nps_jogador"]},
+                           "arranjo": i.get("arranjo"),
                            "preco": i.get("preco"), "preco_estimado": bool(i.get("preco_estimado")),
                            "estatistica": i["poder"]["nome"]}
                           for i in player.implantes_do_jogador(DADOS)],
+            "racas": [{"id": r["id"], "nome": r["nome"], "descricao": r["descricao"],
+                       "tracos": player.tracos_da_raca(DADOS, r),
+                       "custo_por_np": {np: player.custo_da_raca(DADOS, r, np) for np in config["nps_jogador"]}}
+                      for r in player.racas(DADOS)],
             "vantagens": [{"nome": v["nome"], "tipo": v["tipo"], "efeito": v["efeito"], "faroeste": v["faroeste"]}
                           for v in player.vantagens_do_jogador(DADOS)],
             "nps": config["nps_jogador"],
@@ -84,6 +93,11 @@ def opcoes_da_interface(DADOS):
             "complicacoes": DADOS["complicacoes"]["complicacoes"],
         },
     }
+
+
+def _poder_no_np(DADOS, implante_id, np):
+    poder = player.poder_do_genero(DADOS, implante_id, np)
+    return {"custo": poder["custo_informado"], "estatistica": poder["nome"]}
 
 
 def _item_para_a_tela(item):
@@ -185,7 +199,7 @@ def gerar_jogador():
         DADOS, arquetipo, np, foco, riqueza, corpo.get("complicacoes", []),
         nome=str(corpo.get("nome", "")).strip() or None, jogador=str(corpo.get("jogador", "")).strip(),
         rng=_rng(corpo), equipamento=corpo.get("equipamento"), vantagens=corpo.get("vantagens"),
-        implantes=corpo.get("implantes"))
+        implantes=corpo.get("implantes"), raca=str(corpo.get("raca") or "") or None)
     return jsonify({"personagem": _preparar(personagem)})
 
 

@@ -21,7 +21,8 @@
       <ol class="passos" role="tablist">
         <li><button type="button" class="passo-aba" role="tab" data-passo="genero">Gênero</button></li>
         <li><button type="button" class="passo-aba" role="tab" data-passo="identidade">Nome</button></li>
-        <li><button type="button" class="passo-aba" role="tab" data-passo="arquetipo">Arquétipo</button></li>
+        <li id="pj-passo-raca-aba"><button type="button" class="passo-aba" role="tab" data-passo="raca">Raça</button></li>
+        <li><button type="button" class="passo-aba" role="tab" data-passo="arquetipo" data-rotulo-arquetipo>Arquétipo</button></li>
         <li><button type="button" class="passo-aba" role="tab" data-passo="vantagens">Vantagens</button></li>
         <li id="pj-passo-implantes-aba"><button type="button" class="passo-aba" role="tab" data-passo="implantes" id="pj-implantes-aba">Poderes</button></li>
         <li><button type="button" class="passo-aba" role="tab" data-passo="equipamento">Armas e itens</button></li>
@@ -55,16 +56,33 @@
         </div>
       </section>
 
-      <section class="passo" data-passo="arquetipo" role="tabpanel" hidden>
-        <h2 class="titulo-passo">Arquétipo</h2>
+      <section class="passo" data-passo="raca" role="tabpanel" hidden>
+        <h2 class="titulo-passo">Raça</h2>
         <div class="campos">
           <label class="campo">
-            <span>Arquétipo</span>
+            <span>Raça</span>
+            <select id="pj-raca"></select>
+            <small id="pj-raca-descricao"></small>
+          </label>
+          <div class="campo">
+            <span>Traços raciais</span>
+            <ul id="pj-raca-tracos" class="tracos"></ul>
+            <small id="pj-raca-custo"></small>
+          </div>
+        </div>
+        <p class="dica">Os traços raciais custam pontos do orçamento, como qualquer outra característica.</p>
+      </section>
+
+      <section class="passo" data-passo="arquetipo" role="tabpanel" hidden>
+        <h2 class="titulo-passo" data-rotulo-arquetipo>Arquétipo</h2>
+        <div class="campos">
+          <label class="campo">
+            <span data-rotulo-arquetipo>Arquétipo</span>
             <select id="pj-arquetipo"></select>
             <small id="pj-conceito"></small>
           </label>
           <label class="campo">
-            <span>Foco</span>
+            <span data-rotulo-foco>Foco</span>
             <select id="pj-foco"></select>
             <small id="pj-foco-descricao"></small>
           </label>

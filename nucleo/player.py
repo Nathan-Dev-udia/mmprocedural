@@ -21,6 +21,7 @@ import random
 
 from . import escalar
 from . import formatter
+from . import poderes as poderes_mod
 from . import rules
 from . import validator
 from .generator import GeneratorError
@@ -114,7 +115,70 @@ def preco_do_implante(dados, implante_id):
 
 def implantes_do_jogador(dados):
     """Poderes do gênero (implantes no cyberpunk) que um PJ pode escolher."""
-    return list(dados.get("poderes_do_genero", {}).values())
+    return [i for i in dados.get("poderes_do_genero", {}).values() if not i.get("so_racial")]
+
+
+# ---------------------------------------------------------------- raças (gêneros com "racas" no player.json)
+
+def racas(dados):
+    return list(dados["jogador"].get("racas", {}).values())
+
+
+def _raca(dados, raca_id):
+    """A raça pedida; sem pedido, a primeira da lista. None em gêneros sem raças."""
+    todas = dados["jogador"].get("racas", {})
+    if not todas:
+        return None
+    if not raca_id:
+        return next(iter(todas.values()))
+    if raca_id not in todas:
+        raise GeneratorError(f"Raça '{raca_id}' não existe.")
+    return todas[raca_id]
+
+
+def _aplicar_raca(dados, ficha, raca, np):
+    """Põe na ficha os traços da raça: ajustes de habilidade, vantagens, perícias e poderes raciais."""
+    for habilidade, valor in raca.get("habilidades", {}).items():
+        ficha["habilidades"][habilidade] += valor
+    for nome, graduacao in raca.get("vantagens", {}).items():
+        ficha["vantagens"][nome] = max(ficha["vantagens"].get(nome, 0), graduacao)
+    for nome, graduacao in raca.get("pericias", {}).items():
+        ficha["pericias"][nome] = ficha["pericias"].get(nome, 0) + graduacao
+    for poder_id in raca.get("poderes", []):
+        ficha["poderes"][poder_id] = poder_do_genero(dados, poder_id, np)
+
+
+def custo_da_raca(dados, raca, np):
+    """PP que os traços da raça custam no NP pedido."""
+    ficha = {"habilidades": {h: 0 for h in rules.HABILIDADES}, "vantagens": {}, "pericias": {}, "poderes": {}}
+    _aplicar_raca(dados, ficha, raca, np)
+    _, _, total = validator.calcular_custos(ficha)
+    return total
+
+
+def tracos_da_raca(dados, raca):
+    """Lista legível dos traços da raça, para a tela."""
+    nomes = {"For": "Força", "Vig": "Vigor", "Agi": "Agilidade", "Des": "Destreza", "Lut": "Luta",
+             "Int": "Intelecto", "Pro": "Prontidão", "Pre": "Presença"}
+    tracos = [f"{nomes[h]} {v:+d}" for h, v in raca.get("habilidades", {}).items()]
+    tracos += [nome if grad == 1 else f"{nome} {grad}" for nome, grad in raca.get("vantagens", {}).items()]
+    tracos += [f"{nome} {grad}" for nome, grad in raca.get("pericias", {}).items()]
+    tracos += [f"{dados['poderes_do_genero'][p]['nome']}: {dados['poderes_do_genero'][p].get('descricao', '')}"
+               for p in raca.get("poderes", [])]
+    return tracos
+
+
+def poder_do_genero(dados, implante_id, np):
+    """O poder pronto para a ficha; os que têm "graduacao_np" são refeitos na graduação do NP pedido."""
+    item = dados["poderes_do_genero"][implante_id]
+    if "graduacao_np" in item:
+        entrada = dict(item, graduacao=poderes_mod.graduacao_no_np(item, np))
+        poder = poderes_mod.resolver(entrada, dados["poderes"])
+    else:
+        poder = copy.deepcopy(item["poder"])
+    poder["nome_curto"] = item["nome"]
+    poder["descricao"] = item.get("descricao", "")
+    return poder
 
 
 # ---------------------------------------------------------------- complicações
@@ -201,16 +265,16 @@ def _equipamento_automatico(dados, arquetipo, foco, np, vantagens, rng):
     secundarias = [i for i in arquetipo["armas"]["secundarias"]
                    if i not in lista and _cabe_no_np(catalogo[i], np, vantagens)]
     secundaria = rng.choice(secundarias) if secundarias and rng.random() < 0.6 else None
-    armas = lista + ([secundaria] if secundaria else [])
-    municoes = []
-    for arma in armas:
-        municao = catalogo[arma].get("municao")
-        if municao and municao not in municoes:
-            municoes.append(municao)
+    def municoes(armas):
+        return list(dict.fromkeys(catalogo[a]["municao"] for a in armas if catalogo[a].get("municao")))
+
     opcionais = rng.sample(arquetipo["itens"]["opcionais"], k=min(len(arquetipo["itens"]["opcionais"]),
                                                                     rng.randint(1, 3)))
-    ordem = (lista + municoes + itens_basicos(dados) + arquetipo["itens"]["essenciais"] + foco.get("itens", [])
-             + ([secundaria] if secundaria else []) + opcionais)
+    # Ordem de compra (o dinheiro pode acabar no meio): armas principais e a munição delas, itens básicos,
+    # essenciais (armadura...), itens do foco, a arma secundária com a munição e, por último, os opcionais.
+    secundarias_compradas = [secundaria] if secundaria else []
+    ordem = (lista + municoes(lista) + itens_basicos(dados) + arquetipo["itens"]["essenciais"] + foco.get("itens", [])
+             + secundarias_compradas + municoes(secundarias_compradas) + opcionais)
     sem_repetir = []
     for item in ordem:
         if item not in sem_repetir:
@@ -249,6 +313,17 @@ def _comprar(dados, itens, dinheiro, obrigatorio=False, quantidades=None):
     return compras, round(restante, 2), sem_dinheiro
 
 
+def _devolver_municao_sem_arma(dados, compras, troco):
+    """No sorteio, devolve a munição cuja arma não coube no dinheiro."""
+    catalogo = dados["equipamentos"]
+    usadas = {catalogo[c["id"]].get("municao") for c in compras}
+    municoes = {catalogo[i].get("municao") for i in catalogo} - {None}
+    sobra = [c for c in compras if c["id"] in municoes and c["id"] not in usadas]
+    for compra in sobra:
+        troco = round(troco + (compra["preco"] or 0), 2)
+    return [c for c in compras if c not in sobra], troco
+
+
 def custo_em_pontos(riqueza):
     """Quanto uma condição financeira custa em PP (Benefício comprado menos o ponto devolvido pela Riqueza baixa)."""
     return riqueza["beneficio"] - riqueza["ajuste_de_pontos"]
@@ -266,13 +341,33 @@ def riqueza_que_paga(dados, atual, total):
     return min(opcoes, key=lambda r: (custo_em_pontos(r), r["dinheiro"]))
 
 
+# Limites que uma armadura ou um escudo podem estourar.
+LIMITES_DE_DEFESA = {"Esquiva + Resistência", "Aparar + Resistência"}
+
+
+def _protecao_culpada(dados, ids, estourados):
+    """Se uma defesa passou do NP, o escudo (ou, sem escudo, a armadura) que mais contribui para isso."""
+    if not LIMITES_DE_DEFESA & {c["nome"] for c in estourados}:
+        return None
+    def peso(item_id):
+        item = dados["equipamentos"][item_id]
+        return (item.get("defesas_ativas", 0) > 0, item.get("defesas_ativas", 0) + item.get("protecao", 0))
+    candidatos = [i for i in ids if dados["equipamentos"][i].get("defesas_ativas") or dados["equipamentos"][i].get("protecao")]
+    return max(candidatos, key=peso, default=None)
+
+
 def _tirar_armas_acima_do_np(dados, ficha, compras, troco, np):
-    """Remove (e devolve o dinheiro de) armas que já passam do limite do NP só com as vantagens iniciais."""
+    """Remove (e devolve o dinheiro de) armas que já passam do limite do NP só com as vantagens iniciais,
+    e escudos ou armaduras que estouram as defesas."""
     fora_do_np = []
     while True:
         relatorio = validator.validar(ficha, np, dados["equipamentos"], OPCOES_DE_VALIDACAO)
-        nomes_com_problema = {c["nome"].split(":")[0] for c in relatorio["limites"] if not c["ok"]}
+        estourados = [c for c in relatorio["limites"] if not c["ok"]]
+        nomes_com_problema = {c["nome"].split(":")[0] for c in estourados}
         culpada = next((c for c in compras if c["nome"] in nomes_com_problema), None)
+        if culpada is None:
+            protecao = _protecao_culpada(dados, [c["id"] for c in compras], estourados)
+            culpada = next((c for c in compras if c["id"] == protecao), None)
         if culpada is None:
             return compras, troco, fora_do_np
         compras = [c for c in compras if c is not culpada]
@@ -317,6 +412,8 @@ def _tirar_itens_acima_do_np(dados, ficha, np, opcoes):
         nomes = {c["nome"].split(":")[0] for c in estourados}
         culpado = next((i for i in ficha["equipamento"] if dados["equipamentos"][i]["nome"] in nomes), None)
         if culpado is None:
+            culpado = _protecao_culpada(dados, ficha["equipamento"], estourados)
+        if culpado is None:
             return fora
         ficha["equipamento"].remove(culpado)
         fora.append(dados["equipamentos"][culpado]["nome"])
@@ -341,23 +438,25 @@ def _instalar_implantes(dados, ficha, ids, np, opcoes, teto_de_pontos=None, dinh
     gasto, restante = 0, dinheiro
     for implante_id in ids:
         item = dados["poderes_do_genero"][implante_id]
-        poder = copy.deepcopy(item["poder"])
-        poder["nome_curto"] = item["nome"]
-        poder["descricao"] = item.get("descricao", "")
+        poder = poder_do_genero(dados, implante_id, np)
         preco = preco_do_implante(dados, implante_id)
-        if teto_de_pontos is not None and gasto + poder["custo_informado"] > teto_de_pontos:
-            continue
         if restante is not None and preco > restante + 1e-9:
             if teto_de_pontos is None:
                 fora.append(f"{item['nome']} (custa {formatter.dolares(preco, moeda(dados))}; não coube no dinheiro)")
             continue
+        # Custo marginal: num arranjo, um efeito alternativo custa só 1 PP.
+        antes = poderes_mod.custo_total(ficha["poderes"]) or 0
         ficha["poderes"][implante_id] = poder
+        custo = (poderes_mod.custo_total(ficha["poderes"]) or 0) - antes
+        if teto_de_pontos is not None and gasto + custo > teto_de_pontos:
+            del ficha["poderes"][implante_id]
+            continue
         estourados, _ = _limites_estourados(dados, ficha, np, opcoes)
         if estourados:
             del ficha["poderes"][implante_id]
             fora.append(f"{item['nome']} ({estourados[0]['nome']} passaria de {estourados[0]['maximo']})")
             continue
-        gasto += poder["custo_informado"]
+        gasto += custo
         instalados.append(implante_id)
         if preco:
             compras.append({"id": implante_id, "nome": item["nome"], "preco": preco, "implante": True})
@@ -368,9 +467,12 @@ def _instalar_implantes(dados, ficha, ids, np, opcoes, teto_de_pontos=None, dinh
 # ---------------------------------------------------------------- distribuição dos pontos
 
 def _pericias_das_armas(dados, ficha):
-    """Perícias de ataque das armas e dos poderes que a ficha carrega (na ordem em que entraram)."""
-    ataques = [dados["equipamentos"][i].get("ataque") for i in ficha["equipamento"]]
-    ataques += [p.get("ataque") for p in ficha["poderes"].values()]
+    """Perícias de ataque dos poderes e das armas que a ficha carrega (na ordem em que entraram).
+
+    Os poderes vêm antes: um mago treina a perícia das magias, não a da adaga que carrega.
+    """
+    ataques = [p.get("ataque") for p in ficha["poderes"].values()]
+    ataques += [dados["equipamentos"][i].get("ataque") for i in ficha["equipamento"]]
     return list(dict.fromkeys(a["pericia"] for a in ataques if a and a.get("pericia")))
 
 
@@ -390,7 +492,8 @@ def _passos(dados, arquetipo, foco, vantagens_extras, so_vantagens_escolhidas, v
 
 
 def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
-                     nome=None, jogador="", rng=None, equipamento=None, vantagens=None, implantes=None):
+                     nome=None, jogador="", rng=None, equipamento=None, vantagens=None, implantes=None,
+                     raca=None):
     """Gera uma ficha de PJ.
 
     equipamento: {"modo": "auto"} (padrão) ou {"modo": "manual", "ids": [...], "excesso": "pontos" | "divida"}.
@@ -399,6 +502,7 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
                  anotada. Com equipamento em pontos, os itens viram graduações da vantagem Equipamento.
     vantagens:   {"modo": "auto"} (padrão) ou {"modo": "manual", "nomes": [...]}.
     implantes:   {"modo": "auto"} (padrão) ou {"modo": "manual", "ids": [...]} (só em gêneros com powers.json).
+    raca:        id da raça (só em gêneros com "racas" no player.json; sem pedido, vale a primeira).
     """
     arquetipo = _arquetipo(dados, arquetipo_id)
     config = dados["configuracoes"]
@@ -420,7 +524,8 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
     rng = rng or random.Random()
     opcoes = opcoes_de_validacao(dados)
     rotulo = config.get("rotulo_poderes", "Poderes")
-    tem_implantes = bool(dados.get("poderes_do_genero"))
+    tem_implantes = bool(implantes_do_jogador(dados))
+    raca = _raca(dados, raca)
 
     # Equipamento escolhido: confere os itens e, se passar do dinheiro, decide como pagar.
     manual_equipamento = equipamento.get("modo") == "manual"
@@ -468,6 +573,8 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
         "poderes": {},
         "fontes": [],
     }
+    if raca:
+        _aplicar_raca(dados, ficha, raca, np)
 
     # Equipamento
     compras, troco, sem_dinheiro, fora_do_np, pontos_de_equipamento = [], 0, [], [], None
@@ -495,6 +602,7 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
         else:
             lista = _equipamento_automatico(dados, arquetipo, foco, np, vantagens, rng)
             compras, troco, sem_dinheiro = _comprar(dados, lista, riqueza["dinheiro"])
+            compras, troco = _devolver_municao_sem_arma(dados, compras, troco)
         ficha["equipamento"] = [c["id"] for c in compras]
         compras, troco, fora_do_np = _tirar_armas_acima_do_np(dados, ficha, compras, troco, np)
 
@@ -534,7 +642,7 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
     relatorio = validator.validar(ficha, np, dados["equipamentos"], regras)
 
     if not nome:
-        lista_de_nomes = dados["nomes"]["humano"]
+        lista_de_nomes = dados["nomes"].get((raca or {}).get("nomes", "humano"), dados["nomes"]["humano"])
         nome = f"{rng.choice(lista_de_nomes['nomes'])} {rng.choice(lista_de_nomes['sobrenomes'])}"
 
     if em_pontos:
@@ -557,6 +665,8 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
                   + "). " + observacao_do_equipamento
                   + f"Armas e itens: {'escolhidos pelo jogador' if manual_equipamento else 'sorteados pelo arquétipo'}. "
                   + f"Vantagens: {'escolhidas pelo jogador' if manual_vantagens else 'sorteadas pelo arquétipo'}.")
+    if raca:
+        observacao += f" Raça: {raca['nome']}."
     escolhas = {"equipamento": "manual" if manual_equipamento else "auto",
                 "vantagens": "manual" if manual_vantagens else "auto"}
     if tem_implantes:
@@ -570,6 +680,7 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
         "nome": nome,
         "jogador": jogador,
         "arquetipo": {"id": arquetipo["id"], "nome": arquetipo["nome"]},
+        "raca": {"id": raca["id"], "nome": raca["nome"]} if raca else None,
         "capanga": False,
         "np_pretendido": np,
         "faixa": {"np": np, "nome": arquetipo["nome"],

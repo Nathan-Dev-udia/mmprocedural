@@ -187,7 +187,15 @@ def _conferir_jogador(bruto, vantagens_validas, equipamentos, erros, poderes_do_
             for item in foco.get("armas", []) + foco.get("itens", []):
                 if item not in equipamentos or not equipamentos[item].get("categoria"):
                     erros.append(f"{rotulo_foco}: item desconhecido ou sem categoria '{item}'.")
-    return {"riqueza": jogador.get("riqueza", []), "arquetipos": arquetipos}
+    racas = _indexar(jogador.get("racas", []), "player.json (racas)", ["id", "nome", "descricao"], erros)
+    for raca in racas.values():
+        rotulo = f"player.json (raça {raca['id']})"
+        _conferir_tracos(rotulo, {"habilidades": raca.get("habilidades", {}), "pericias": raca.get("pericias", {}),
+                                  "vantagens": raca.get("vantagens", {})}, vantagens_validas, equipamentos, erros)
+        for poder in raca.get("poderes", []):
+            if poder not in (poderes_do_genero or {}):
+                erros.append(f"{rotulo}: poder racial desconhecido '{poder}' (não está em powers.json).")
+    return {"riqueza": jogador.get("riqueza", []), "arquetipos": arquetipos, "racas": racas}
 
 
 def generos_disponiveis(pasta=PASTA_DADOS):
@@ -243,9 +251,13 @@ def carregar_genero(genero_id, pasta=PASTA_DADOS):
     if (pasta_genero / "powers.json").is_file():
         lista = _ler_json(pasta_genero, "powers.json", erros) or []
         poderes_do_genero = _indexar(lista, "powers.json", ["id", "nome", "descricao", "catalogo"], erros)
+        np_de_referencia = configuracoes.get("np_padrao_jogador", 6)
         for item in poderes_do_genero.values():
             try:
-                item["poder"] = poderes_mod.resolver(item, catalogo_de_poderes)
+                # Poderes que acompanham o NP ficam resolvidos no NP padrão; o gerador refaz no NP pedido.
+                entrada = (dict(item, graduacao=poderes_mod.graduacao_no_np(item, np_de_referencia))
+                           if "graduacao_np" in item else item)
+                item["poder"] = poderes_mod.resolver(entrada, catalogo_de_poderes)
             except poderes_mod.PoderInvalido as erro:
                 erros.append(f"powers.json ({item['id']}): {erro}")
 

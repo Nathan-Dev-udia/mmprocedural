@@ -1,0 +1,1849 @@
+{
+  "_fonte": "Classes, subclasses e raças do Livro do Jogador de D&D 5e, convertidas para M&M 3e pelo gerador. Dinheiro inicial em peças de ouro: o aventureiro padrão recebe 120 po (perto da média do ouro inicial das classes no Livro do Jogador); as outras faixas seguem a escada de Riqueza/Benefício do faroeste (Guia do Mestre).",
+  "riqueza": [
+    {
+      "id": "trabalhador",
+      "nome": "Camponês (Riqueza 4)",
+      "riqueza": 4,
+      "dinheiro": 30,
+      "beneficio": 0,
+      "ajuste_de_pontos": 1,
+      "descricao": "Sai da aldeia com pouco mais que a roupa do corpo. Riqueza abaixo da média devolve 1 PP."
+    },
+    {
+      "id": "classe_media",
+      "nome": "Aventureiro (Riqueza 8)",
+      "riqueza": 8,
+      "dinheiro": 120,
+      "beneficio": 0,
+      "ajuste_de_pontos": 0,
+      "descricao": "Padrão: o ouro inicial de um aventureiro do Livro do Jogador."
+    },
+    {
+      "id": "em_ascensao",
+      "nome": "Burguês (Benefício: Riqueza 1)",
+      "riqueza": 12,
+      "dinheiro": 400,
+      "beneficio": 1,
+      "ajuste_de_pontos": 0,
+      "descricao": "Custa 1 PP. Família de comerciantes ou artesãos."
+    },
+    {
+      "id": "prospero",
+      "nome": "Mercador próspero (Benefício: Riqueza 2)",
+      "riqueza": 16,
+      "dinheiro": 1600,
+      "beneficio": 2,
+      "ajuste_de_pontos": 0,
+      "descricao": "Custa 2 PP. Dá para comprar uma armadura de placas."
+    },
+    {
+      "id": "rico",
+      "nome": "Nobre menor (Benefício: Riqueza 4)",
+      "riqueza": 24,
+      "dinheiro": 6000,
+      "beneficio": 4,
+      "ajuste_de_pontos": 0,
+      "descricao": "Custa 4 PP. Filho de um barão, com terras e servos."
+    },
+    {
+      "id": "muito_rico",
+      "nome": "Grande nobre (Benefício: Riqueza 6)",
+      "riqueza": 32,
+      "dinheiro": 30000,
+      "beneficio": 6,
+      "ajuste_de_pontos": 0,
+      "descricao": "Custa 6 PP. Herdeiro de um ducado."
+    }
+  ],
+  "racas": [
+    {
+      "id": "humano",
+      "nome": "Humano",
+      "descricao": "Versáteis e ambiciosos. Sem traços raciais: todos os pontos ficam livres para a classe.",
+      "nomes": "humano",
+      "habilidades": {},
+      "vantagens": {},
+      "pericias": {},
+      "poderes": []
+    },
+    {
+      "id": "anao",
+      "nome": "Anão",
+      "descricao": "Robustos e teimosos, filhos das montanhas.",
+      "nomes": "anao",
+      "habilidades": {
+        "Vig": 1
+      },
+      "vantagens": {},
+      "pericias": {},
+      "poderes": [
+        "visao_escuro",
+        "resiliencia_ana"
+      ]
+    },
+    {
+      "id": "elfo",
+      "nome": "Elfo",
+      "descricao": "Graciosos e de vida longa, com sentidos afiados e sangue feérico.",
+      "nomes": "elfo",
+      "habilidades": {
+        "Agi": 1
+      },
+      "vantagens": {},
+      "pericias": {
+        "Percepção": 2
+      },
+      "poderes": [
+        "visao_escuro",
+        "ancestralidade_feerica",
+        "sentidos_agucados"
+      ]
+    },
+    {
+      "id": "halfling",
+      "nome": "Halfling",
+      "descricao": "Pequenos, discretos e sortudos.",
+      "nomes": "halfling",
+      "habilidades": {
+        "Agi": 1
+      },
+      "vantagens": {
+        "Sorte": 1
+      },
+      "pericias": {
+        "Furtividade": 2
+      },
+      "poderes": []
+    },
+    {
+      "id": "draconato",
+      "nome": "Draconato",
+      "descricao": "Descendentes de dragões, orgulhosos e com um sopro de fogo.",
+      "nomes": "humano",
+      "habilidades": {
+        "For": 1,
+        "Pre": 1
+      },
+      "vantagens": {},
+      "pericias": {},
+      "poderes": [
+        "sopro_draconico"
+      ]
+    },
+    {
+      "id": "gnomo",
+      "nome": "Gnomo",
+      "descricao": "Pequenos, curiosos e inventivos.",
+      "nomes": "halfling",
+      "habilidades": {
+        "Int": 1
+      },
+      "vantagens": {},
+      "pericias": {},
+      "poderes": [
+        "visao_escuro",
+        "esperteza_gnomica"
+      ]
+    },
+    {
+      "id": "meio_elfo",
+      "nome": "Meio-elfo",
+      "descricao": "Entre dois mundos, à vontade em ambos.",
+      "nomes": "elfo",
+      "habilidades": {
+        "Pre": 1
+      },
+      "vantagens": {},
+      "pericias": {
+        "Persuasão": 2
+      },
+      "poderes": [
+        "visao_escuro",
+        "ancestralidade_feerica"
+      ]
+    },
+    {
+      "id": "meio_orc",
+      "nome": "Meio-orc",
+      "descricao": "Fortes e difíceis de derrubar.",
+      "nomes": "monstro",
+      "habilidades": {
+        "For": 1
+      },
+      "vantagens": {
+        "Duro de Matar": 1
+      },
+      "pericias": {
+        "Intimidação": 2
+      },
+      "poderes": [
+        "visao_escuro"
+      ]
+    },
+    {
+      "id": "tiefling",
+      "nome": "Tiefling",
+      "descricao": "Têm sangue infernal: chifres, cauda e chamas na ponta dos dedos.",
+      "nomes": "humano",
+      "habilidades": {
+        "Pre": 1
+      },
+      "vantagens": {},
+      "pericias": {},
+      "poderes": [
+        "visao_escuro",
+        "legado_infernal"
+      ]
+    }
+  ],
+  "arquetipos": [
+    {
+      "id": "guerreiro",
+      "nome": "Guerreiro",
+      "conceito": "Mestre das armas e da armadura, treinado para a linha de frente.",
+      "vantagens_essenciais": [
+        "Ataque Poderoso",
+        "Iniciativa Aprimorada",
+        "Rolamento Defensivo"
+      ],
+      "vantagens_opcionais": [
+        "Ataque Defensivo",
+        "Duro de Matar",
+        "Interpor-se",
+        "Derrubar Aprimorado",
+        "Liderança",
+        "Quebrar Arma"
+      ],
+      "prioridades": [
+        "habilidade:Lut",
+        "pericia:Combate Corpo-a-Corpo: Espadas",
+        "habilidade:Vig",
+        "habilidade:For",
+        "defesa:Aparar",
+        "pericia:Atletismo",
+        "pericia:Intimidação",
+        "defesa:Fortitude",
+        "pericia:Percepção"
+      ],
+      "armas": {
+        "principais": [
+          "espada_longa",
+          "machado_batalha",
+          "martelo_guerra",
+          "espada_grande"
+        ],
+        "secundarias": [
+          "arco_longo",
+          "besta_leve",
+          "adaga",
+          "lanca"
+        ]
+      },
+      "itens": {
+        "essenciais": [
+          "cota_malha",
+          "escudo",
+          "mochila"
+        ],
+        "opcionais": [
+          "saco_dormir",
+          "corda",
+          "tochas",
+          "cantil",
+          "kit_primeiros_socorros"
+        ]
+      },
+      "implantes": {
+        "essenciais": [
+          "retomar_folego"
+        ],
+        "opcionais": []
+      },
+      "sugestoes": {
+        "motivacoes": [
+          "Reconhecimento",
+          "Cobiça",
+          "Responsabilidade",
+          "Adrenalina"
+        ],
+        "complicacoes": [
+          {
+            "nome": "Honra",
+            "detalhe": "Nunca ataca um inimigo desarmado nem foge de um desafio."
+          },
+          {
+            "nome": "Rivalidade",
+            "detalhe": "Um antigo companheiro de armas quer provar que é melhor."
+          },
+          {
+            "nome": "Responsabilidade",
+            "detalhe": "Serve a um senhor que nem sempre manda fazer o certo."
+          },
+          {
+            "nome": "Inimigo",
+            "detalhe": "O mercenário que ele derrotou num torneio quer revanche."
+          }
+        ]
+      },
+      "focos": [
+        {
+          "id": "campeao",
+          "nome": "Campeão",
+          "descricao": "Força bruta e golpes certeiros: cada acerto pode ser o último.",
+          "vantagens": [
+            "Crítico Aprimorado (espada grande)"
+          ],
+          "prioridades": [
+            "habilidade:For",
+            "pericia:Atletismo"
+          ],
+          "armas": [
+            "espada_grande"
+          ],
+          "itens": [],
+          "implantes": []
+        },
+        {
+          "id": "mestre_batalha",
+          "nome": "Mestre de batalha",
+          "descricao": "Usa manobras para derrubar e desarmar os inimigos.",
+          "vantagens": [
+            "Derrubar Aprimorado",
+            "Desarmar Aprimorado"
+          ],
+          "prioridades": [
+            "pericia:Intuição"
+          ],
+          "armas": [
+            "espada_longa"
+          ],
+          "itens": [],
+          "implantes": []
+        },
+        {
+          "id": "cavaleiro_arcano",
+          "nome": "Cavaleiro arcano",
+          "descricao": "Combina a espada com um pouco de magia arcana.",
+          "vantagens": [],
+          "prioridades": [
+            "habilidade:Int",
+            "pericia:Especialidade: Magia"
+          ],
+          "armas": [
+            "espada_longa"
+          ],
+          "itens": [
+            "grimorio"
+          ],
+          "implantes": [
+            "armadura_arcana",
+            "raio_de_fogo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "barbaro",
+      "nome": "Bárbaro",
+      "conceito": "Guerreiro selvagem que luta movido pela fúria.",
+      "vantagens_essenciais": [
+        "Ataque Poderoso",
+        "Destemido",
+        "Duro de Matar"
+      ],
+      "vantagens_opcionais": [
+        "Ataque Imprudente",
+        "Agarrar Aprimorado",
+        "Assustar",
+        "Tolerância Maior",
+        "Quebrar Aprimorado"
+      ],
+      "prioridades": [
+        "habilidade:For",
+        "habilidade:Vig",
+        "pericia:Combate Corpo-a-Corpo: Machados",
+        "habilidade:Lut",
+        "defesa:Fortitude",
+        "pericia:Atletismo",
+        "pericia:Intimidação",
+        "pericia:Percepção",
+        "pericia:Especialidade: Sobrevivência"
+      ],
+      "armas": {
+        "principais": [
+          "machado_grande",
+          "espada_grande",
+          "malho",
+          "machado_batalha"
+        ],
+        "secundarias": [
+          "machadinha",
+          "azagaia",
+          "lanca"
+        ]
+      },
+      "itens": {
+        "essenciais": [
+          "gibao_peles",
+          "mochila"
+        ],
+        "opcionais": [
+          "saco_dormir",
+          "cantil",
+          "corda",
+          "tochas",
+          "cerveja"
+        ]
+      },
+      "implantes": {
+        "essenciais": [
+          "furia"
+        ],
+        "opcionais": []
+      },
+      "sugestoes": {
+        "motivacoes": [
+          "Adrenalina",
+          "Vingança",
+          "Responsabilidade",
+          "Reconhecimento"
+        ],
+        "complicacoes": [
+          {
+            "nome": "Irritação",
+            "detalhe": "Perde a cabeça quando é desafiado."
+          },
+          {
+            "nome": "Preconceito",
+            "detalhe": "Nas cidades, todos o tratam como um selvagem."
+          },
+          {
+            "nome": "Inimigo",
+            "detalhe": "Os escravistas que levaram sua tribo sabem que ele os caça."
+          },
+          {
+            "nome": "Vício",
+            "detalhe": "Não recusa uma bebida nem uma briga de taverna."
+          }
+        ]
+      },
+      "focos": [
+        {
+          "id": "furioso",
+          "nome": "Caminho do furioso",
+          "descricao": "Entra numa fúria tão grande que esquece a dor.",
+          "vantagens": [
+            "Ataque Imprudente"
+          ],
+          "prioridades": [
+            "habilidade:For"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": []
+        },
+        {
+          "id": "totemico",
+          "nome": "Guerreiro totêmico",
+          "descricao": "Um espírito animal guia sua fúria.",
+          "vantagens": [
+            "Empatia com Animais"
+          ],
+          "prioridades": [
+            "pericia:Percepção"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "falar_com_animais"
+          ]
+        },
+        {
+          "id": "montanhes",
+          "nome": "Selvagem das montanhas",
+          "descricao": "Cresceu no frio e na neve, longe de qualquer cidade.",
+          "vantagens": [
+            "Tolerância Maior"
+          ],
+          "prioridades": [
+            "pericia:Especialidade: Sobrevivência",
+            "defesa:Fortitude"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": []
+        }
+      ]
+    },
+    {
+      "id": "ladino",
+      "nome": "Ladino",
+      "conceito": "Especialista em furtividade, armadilhas e golpes pelas costas.",
+      "vantagens_essenciais": [
+        "Finta Ágil",
+        "Evasão",
+        "Ferramentas Aprimoradas"
+      ],
+      "vantagens_opcionais": [
+        "Esconder-se à Plena Vista",
+        "Ataque Acurado",
+        "Tontear",
+        "Ação em Movimento",
+        "Contatos",
+        "Sorte de Principiante"
+      ],
+      "prioridades": [
+        "habilidade:Agi",
+        "pericia:Furtividade",
+        "pericia:Prestidigitação",
+        "habilidade:Des",
+        "pericia:Enganação",
+        "defesa:Esquiva",
+        "pericia:Percepção",
+        "pericia:Acrobacia",
+        "pericia:Combate Corpo-a-Corpo: Espadas",
+        "pericia:Investigação"
+      ],
+      "armas": {
+        "principais": [
+          "rapieira",
+          "espada_curta"
+        ],
+        "secundarias": [
+          "besta_mao",
+          "arco_curto",
+          "adaga",
+          "dardos"
+        ]
+      },
+      "itens": {
+        "essenciais": [
+          "couro",
+          "ferramentas_ladrao",
+          "mochila"
+        ],
+        "opcionais": [
+          "corda",
+          "kit_disfarce",
+          "tochas",
+          "pe_de_cabra",
+          "roupas_finas"
+        ]
+      },
+      "implantes": {
+        "essenciais": [],
+        "opcionais": []
+      },
+      "sugestoes": {
+        "motivacoes": [
+          "Cobiça",
+          "Adrenalina",
+          "Reconhecimento",
+          "Vingança"
+        ],
+        "complicacoes": [
+          {
+            "nome": "Reputação",
+            "detalhe": "Procurado em duas cidades por roubo."
+          },
+          {
+            "nome": "Inimigo",
+            "detalhe": "A guilda de ladrões quer de volta o que ele levou."
+          },
+          {
+            "nome": "Vício",
+            "detalhe": "Não resiste a um bolso cheio."
+          },
+          {
+            "nome": "Segredo",
+            "detalhe": "Ninguém sabe que ele é filho de um nobre."
+          }
+        ]
+      },
+      "focos": [
+        {
+          "id": "ladrao",
+          "nome": "Ladrão",
+          "descricao": "Entra e sai de qualquer lugar com o que veio buscar.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Prestidigitação",
+            "pericia:Atletismo"
+          ],
+          "armas": [],
+          "itens": [
+            "pe_de_cabra"
+          ],
+          "implantes": []
+        },
+        {
+          "id": "assassino",
+          "nome": "Assassino",
+          "descricao": "Ataca primeiro e some antes de alguém perceber.",
+          "vantagens": [
+            "Tomar a Iniciativa"
+          ],
+          "prioridades": [
+            "pericia:Furtividade",
+            "pericia:Enganação"
+          ],
+          "armas": [],
+          "itens": [
+            "kit_disfarce"
+          ],
+          "implantes": []
+        },
+        {
+          "id": "trapaceiro_arcano",
+          "nome": "Trapaceiro arcano",
+          "descricao": "Usa truques de magia para roubar e enganar.",
+          "vantagens": [],
+          "prioridades": [
+            "habilidade:Int",
+            "pericia:Especialidade: Magia"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "maos_magicas",
+            "imagem_silenciosa"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mago",
+      "nome": "Mago",
+      "conceito": "Estudioso da magia arcana, que guarda as fórmulas no grimório.",
+      "vantagens_essenciais": [
+        "Ritualista",
+        "Esforço Extraordinário"
+      ],
+      "vantagens_opcionais": [
+        "Memória Eidética",
+        "Bem Informado",
+        "Idiomas",
+        "Artífice",
+        "Mira Aprimorada"
+      ],
+      "prioridades": [
+        "habilidade:Int",
+        "pericia:Especialidade: Magia",
+        "pericia:Combate à Distância: Magia",
+        "habilidade:Des",
+        "defesa:Vontade",
+        "defesa:Esquiva",
+        "pericia:Investigação",
+        "pericia:Percepção",
+        "pericia:Especialidade: História"
+      ],
+      "armas": {
+        "principais": [
+          "bordao",
+          "adaga"
+        ],
+        "secundarias": [
+          "besta_leve",
+          "dardos"
+        ]
+      },
+      "itens": {
+        "essenciais": [
+          "grimorio",
+          "bolsa_componentes",
+          "robes"
+        ],
+        "opcionais": [
+          "mochila",
+          "tochas",
+          "saco_dormir",
+          "varinha",
+          "orbe"
+        ]
+      },
+      "implantes": {
+        "essenciais": [
+          "raio_de_fogo",
+          "armadura_arcana"
+        ],
+        "opcionais": [
+          "misseis_magicos",
+          "raio_gelido",
+          "relampago",
+          "bola_de_fogo",
+          "sono",
+          "teia",
+          "enfeiticar_pessoa",
+          "imagem_silenciosa",
+          "levitacao",
+          "passo_nebuloso",
+          "maos_magicas",
+          "armadura_arcana"
+        ]
+      },
+      "sugestoes": {
+        "motivacoes": [
+          "Conhecimento",
+          "Reconhecimento",
+          "Cobiça",
+          "Fazer o Bem"
+        ],
+        "complicacoes": [
+          {
+            "nome": "Perda de Poder",
+            "detalhe": "Sem o grimório, não prepara as magias."
+          },
+          {
+            "nome": "Obsessão",
+            "detalhe": "Procura um tomo perdido de magia antiga."
+          },
+          {
+            "nome": "Rivalidade",
+            "detalhe": "Um colega da academia quer superá-lo."
+          },
+          {
+            "nome": "Fobia",
+            "detalhe": "Tem pavor de demônios desde que invocou um por engano."
+          }
+        ]
+      },
+      "focos": [
+        {
+          "id": "evocacao",
+          "nome": "Escola de Evocação",
+          "descricao": "Fogo, gelo e relâmpagos: magia para destruir.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Combate à Distância: Magia"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "bola_de_fogo",
+            "relampago"
+          ]
+        },
+        {
+          "id": "ilusao",
+          "nome": "Escola de Ilusão",
+          "descricao": "Engana os sentidos e as mentes.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Enganação"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "imagem_silenciosa",
+            "enfeiticar_pessoa"
+          ]
+        },
+        {
+          "id": "abjuracao",
+          "nome": "Escola de Abjuração",
+          "descricao": "Protege, bloqueia e escapa.",
+          "vantagens": [],
+          "prioridades": [
+            "defesa:Vontade",
+            "defesa:Esquiva"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "passo_nebuloso",
+            "teia"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "feiticeiro",
+      "nome": "Feiticeiro",
+      "conceito": "Nasceu com magia no sangue e a conjura por instinto.",
+      "vantagens_essenciais": [
+        "Esforço Extraordinário",
+        "Destemido"
+      ],
+      "vantagens_opcionais": [
+        "Atraente",
+        "Fascinar",
+        "Inspirar",
+        "Mira Aprimorada",
+        "Tomar a Iniciativa"
+      ],
+      "prioridades": [
+        "habilidade:Pre",
+        "pericia:Combate à Distância: Magia",
+        "habilidade:Des",
+        "pericia:Persuasão",
+        "pericia:Intimidação",
+        "defesa:Vontade",
+        "defesa:Esquiva",
+        "pericia:Especialidade: Magia"
+      ],
+      "armas": {
+        "principais": [
+          "adaga",
+          "bordao"
+        ],
+        "secundarias": [
+          "dardos",
+          "besta_leve"
+        ]
+      },
+      "itens": {
+        "essenciais": [
+          "bolsa_componentes",
+          "robes"
+        ],
+        "opcionais": [
+          "mochila",
+          "orbe",
+          "saco_dormir"
+        ]
+      },
+      "implantes": {
+        "essenciais": [
+          "raio_de_fogo"
+        ],
+        "opcionais": [
+          "misseis_magicos",
+          "raio_gelido",
+          "relampago",
+          "bola_de_fogo",
+          "sono",
+          "teia",
+          "enfeiticar_pessoa",
+          "imagem_silenciosa",
+          "levitacao",
+          "passo_nebuloso",
+          "maos_magicas",
+          "armadura_arcana"
+        ]
+      },
+      "sugestoes": {
+        "motivacoes": [
+          "Reconhecimento",
+          "Adrenalina",
+          "Conhecimento",
+          "Vingança"
+        ],
+        "complicacoes": [
+          {
+            "nome": "Segredo",
+            "detalhe": "Ninguém pode saber de onde vem sua magia."
+          },
+          {
+            "nome": "Inimigo",
+            "detalhe": "Caçadores de bruxas estão no seu encalço."
+          },
+          {
+            "nome": "Irritação",
+            "detalhe": "Quando perde a calma, a magia escapa sozinha."
+          },
+          {
+            "nome": "Preconceito",
+            "detalhe": "O povo da aldeia acha que ele é amaldiçoado."
+          }
+        ]
+      },
+      "focos": [
+        {
+          "id": "draconico",
+          "nome": "Linhagem dracônica",
+          "descricao": "Um dragão ancestral deu a ele escamas e fogo.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Intimidação"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "escamas_draconicas",
+            "bola_de_fogo"
+          ]
+        },
+        {
+          "id": "selvagem",
+          "nome": "Magia selvagem",
+          "descricao": "A magia sai do controle, para o bem ou para o mal.",
+          "vantagens": [
+            "Sorte"
+          ],
+          "prioridades": [
+            "pericia:Acrobacia"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "passo_nebuloso"
+          ]
+        },
+        {
+          "id": "tempestade",
+          "nome": "Alma da tempestade",
+          "descricao": "Raios e ventos respondem ao seu humor.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Combate à Distância: Magia"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "relampago",
+            "levitacao"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bruxo",
+      "nome": "Bruxo",
+      "conceito": "Fez um pacto com um ser poderoso em troca de magia.",
+      "vantagens_essenciais": [
+        "Esforço Extraordinário",
+        "Assustar"
+      ],
+      "vantagens_opcionais": [
+        "Atraente",
+        "Fascinar",
+        "Bem Informado",
+        "Contatos",
+        "Ritualista"
+      ],
+      "prioridades": [
+        "habilidade:Pre",
+        "pericia:Combate à Distância: Magia",
+        "pericia:Enganação",
+        "pericia:Intimidação",
+        "defesa:Vontade",
+        "habilidade:Des",
+        "defesa:Esquiva",
+        "pericia:Especialidade: Magia",
+        "pericia:Investigação"
+      ],
+      "armas": {
+        "principais": [
+          "adaga",
+          "bordao"
+        ],
+        "secundarias": [
+          "besta_leve"
+        ]
+      },
+      "itens": {
+        "essenciais": [
+          "couro",
+          "bolsa_componentes"
+        ],
+        "opcionais": [
+          "orbe",
+          "mochila",
+          "grimorio"
+        ]
+      },
+      "implantes": {
+        "essenciais": [
+          "rajada_mistica"
+        ],
+        "opcionais": [
+          "enfeiticar_pacto",
+          "medo_pacto",
+          "passo_sombrio",
+          "visao_diabo"
+        ]
+      },
+      "sugestoes": {
+        "motivacoes": [
+          "Cobiça",
+          "Conhecimento",
+          "Vingança",
+          "Reconhecimento"
+        ],
+        "complicacoes": [
+          {
+            "nome": "Segredo",
+            "detalhe": "Ninguém pode descobrir o pacto."
+          },
+          {
+            "nome": "Responsabilidade",
+            "detalhe": "O patrono cobra favores na pior hora."
+          },
+          {
+            "nome": "Inimigo",
+            "detalhe": "Um paladino jurou destruir quem lida com demônios."
+          },
+          {
+            "nome": "Obsessão",
+            "detalhe": "Quer quebrar o pacto sem perder a magia."
+          }
+        ]
+      },
+      "focos": [
+        {
+          "id": "corruptor",
+          "nome": "Pacto com o Corruptor",
+          "descricao": "Um demônio deu a ele fogo e medo.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Intimidação"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "medo_pacto"
+          ]
+        },
+        {
+          "id": "arquifada",
+          "nome": "Pacto com a Arquifada",
+          "descricao": "Uma senhora das fadas empresta seu encanto.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Persuasão",
+            "pericia:Enganação"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "enfeiticar_pacto"
+          ]
+        },
+        {
+          "id": "grande_antigo",
+          "nome": "Pacto com o Grande Antigo",
+          "descricao": "Uma entidade de além das estrelas sussurra segredos.",
+          "vantagens": [
+            "Bem Informado"
+          ],
+          "prioridades": [
+            "pericia:Investigação",
+            "pericia:Intuição"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "visao_diabo",
+            "passo_sombrio"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clerigo",
+      "nome": "Clérigo",
+      "conceito": "Sacerdote guerreiro que canaliza o poder do seu deus.",
+      "vantagens_essenciais": [
+        "Inspirar",
+        "Ritualista"
+      ],
+      "vantagens_opcionais": [
+        "Liderança",
+        "Duro de Matar",
+        "Interpor-se",
+        "Bem Relacionado",
+        "Tolerância Maior"
+      ],
+      "prioridades": [
+        "habilidade:Pro",
+        "pericia:Combate à Distância: Magia",
+        "pericia:Especialidade: Religião",
+        "defesa:Vontade",
+        "pericia:Tratamento",
+        "pericia:Intuição",
+        "habilidade:Vig",
+        "defesa:Fortitude",
+        "pericia:Persuasão",
+        "pericia:Combate Corpo-a-Corpo: Maças"
+      ],
+      "armas": {
+        "principais": [
+          "maca",
+          "martelo_guerra",
+          "maca_estrela"
+        ],
+        "secundarias": [
+          "besta_leve",
+          "funda"
+        ]
+      },
+      "itens": {
+        "essenciais": [
+          "cota_malha",
+          "escudo",
+          "simbolo_sagrado"
+        ],
+        "opcionais": [
+          "mochila",
+          "agua_benta",
+          "kit_primeiros_socorros",
+          "tochas"
+        ]
+      },
+      "implantes": {
+        "essenciais": [
+          "chama_sagrada",
+          "curar_ferimentos"
+        ],
+        "opcionais": [
+          "palavra_sagrada",
+          "expulsar_mortos_vivos",
+          "restauracao",
+          "luz_divina",
+          "augurio",
+          "escudo_da_fe"
+        ]
+      },
+      "sugestoes": {
+        "motivacoes": [
+          "Fé",
+          "Fazer o Bem",
+          "Responsabilidade",
+          "Justiça"
+        ],
+        "complicacoes": [
+          {
+            "nome": "Responsabilidade",
+            "detalhe": "Deve obediência ao templo e ao sumo sacerdote."
+          },
+          {
+            "nome": "Honra",
+            "detalhe": "Nunca nega ajuda a quem pede em nome do seu deus."
+          },
+          {
+            "nome": "Ódio",
+            "detalhe": "Odeia mortos-vivos e quem os ergue."
+          },
+          {
+            "nome": "Inimigo",
+            "detalhe": "Um culto rival quer seu templo em ruínas."
+          }
+        ]
+      },
+      "focos": [
+        {
+          "id": "vida",
+          "nome": "Domínio da Vida",
+          "descricao": "Curandeiro acima de tudo.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Tratamento"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "restauracao"
+          ]
+        },
+        {
+          "id": "guerra",
+          "nome": "Domínio da Guerra",
+          "descricao": "Sacerdote de um deus da batalha, na linha de frente.",
+          "vantagens": [
+            "Ataque Poderoso"
+          ],
+          "prioridades": [
+            "habilidade:Lut",
+            "pericia:Combate Corpo-a-Corpo: Maças"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": []
+        },
+        {
+          "id": "luz",
+          "nome": "Domínio da Luz",
+          "descricao": "Leva a luz divina para os lugares mais escuros.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Percepção"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "luz_divina",
+            "palavra_sagrada"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paladino",
+      "nome": "Paladino",
+      "conceito": "Cavaleiro sagrado ligado a um juramento.",
+      "vantagens_essenciais": [
+        "Destemido",
+        "Interpor-se"
+      ],
+      "vantagens_opcionais": [
+        "Ataque Poderoso",
+        "Liderança",
+        "Inspirar",
+        "Duro de Matar",
+        "Rolamento Defensivo"
+      ],
+      "prioridades": [
+        "habilidade:Lut",
+        "habilidade:For",
+        "pericia:Combate Corpo-a-Corpo: Espadas",
+        "habilidade:Pre",
+        "defesa:Vontade",
+        "defesa:Aparar",
+        "pericia:Persuasão",
+        "pericia:Intimidação",
+        "pericia:Especialidade: Religião",
+        "pericia:Especialidade: Cavalgar"
+      ],
+      "armas": {
+        "principais": [
+          "espada_longa",
+          "martelo_guerra",
+          "maca_estrela",
+          "espada_grande"
+        ],
+        "secundarias": [
+          "lanca",
+          "azagaia",
+          "lanca_montaria"
+        ]
+      },
+      "itens": {
+        "essenciais": [
+          "cota_malha",
+          "escudo",
+          "simbolo_sagrado"
+        ],
+        "opcionais": [
+          "cavalo_montaria",
+          "sela",
+          "mochila",
+          "agua_benta"
+        ]
+      },
+      "implantes": {
+        "essenciais": [
+          "cura_pelas_maos",
+          "aura_de_coragem"
+        ],
+        "opcionais": [
+          "destruicao_divina",
+          "escudo_da_fe",
+          "luz_divina",
+          "curar_ferimentos"
+        ]
+      },
+      "sugestoes": {
+        "motivacoes": [
+          "Justiça",
+          "Fazer o Bem",
+          "Fé",
+          "Responsabilidade"
+        ],
+        "complicacoes": [
+          {
+            "nome": "Honra",
+            "detalhe": "Nunca mente e nunca quebra o juramento."
+          },
+          {
+            "nome": "Responsabilidade",
+            "detalhe": "Responde à ordem de cavalaria que o sagrou."
+          },
+          {
+            "nome": "Inimigo",
+            "detalhe": "Um cavaleiro caído quer arrastá-lo junto."
+          },
+          {
+            "nome": "Fama",
+            "detalhe": "Os camponeses o chamam para resolver qualquer problema."
+          }
+        ]
+      },
+      "focos": [
+        {
+          "id": "devocao",
+          "nome": "Juramento de Devoção",
+          "descricao": "O cavaleiro sagrado das histórias: honesto, corajoso e justo.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Persuasão"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "destruicao_divina"
+          ]
+        },
+        {
+          "id": "ancioes",
+          "nome": "Juramento dos Anciões",
+          "descricao": "Protege a luz e a vida contra as trevas.",
+          "vantagens": [
+            "Tolerância Maior"
+          ],
+          "prioridades": [
+            "defesa:Vontade"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "escudo_da_fe"
+          ]
+        },
+        {
+          "id": "vinganca",
+          "nome": "Juramento de Vingança",
+          "descricao": "Caça os grandes malfeitores até o fim.",
+          "vantagens": [
+            "Inimigo Favorito"
+          ],
+          "prioridades": [
+            "pericia:Investigação",
+            "pericia:Intimidação"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "destruicao_divina"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "patrulheiro",
+      "nome": "Patrulheiro",
+      "conceito": "Caçador e batedor das terras selvagens.",
+      "vantagens_essenciais": [
+        "Rastrear",
+        "Inimigo Favorito"
+      ],
+      "vantagens_opcionais": [
+        "Mira Aprimorada",
+        "Ataque à Distância",
+        "Empatia com Animais",
+        "Saque Rápido",
+        "Iniciativa Aprimorada"
+      ],
+      "prioridades": [
+        "habilidade:Des",
+        "pericia:Combate à Distância: Arcos",
+        "pericia:Percepção",
+        "pericia:Furtividade",
+        "pericia:Especialidade: Sobrevivência",
+        "habilidade:Pro",
+        "defesa:Esquiva",
+        "pericia:Atletismo",
+        "habilidade:Agi"
+      ],
+      "armas": {
+        "principais": [
+          "arco_longo",
+          "arco_curto"
+        ],
+        "secundarias": [
+          "espada_curta",
+          "cimitarra",
+          "machadinha"
+        ]
+      },
+      "itens": {
+        "essenciais": [
+          "couro_batido",
+          "mochila",
+          "saco_dormir"
+        ],
+        "opcionais": [
+          "corda",
+          "cantil",
+          "tenda",
+          "kit_herbalismo",
+          "cavalo_montaria"
+        ]
+      },
+      "implantes": {
+        "essenciais": [
+          "passo_sem_rastro"
+        ],
+        "opcionais": [
+          "falar_com_animais",
+          "curar_natureza",
+          "constricao",
+          "chicote_espinhos"
+        ]
+      },
+      "sugestoes": {
+        "motivacoes": [
+          "Responsabilidade",
+          "Vingança",
+          "Fazer o Bem",
+          "Adrenalina"
+        ],
+        "complicacoes": [
+          {
+            "nome": "Ódio",
+            "detalhe": "Odeia os orcs que destruíram sua aldeia."
+          },
+          {
+            "nome": "Responsabilidade",
+            "detalhe": "Protege uma floresta e todos que vivem nela."
+          },
+          {
+            "nome": "Peculiaridade",
+            "detalhe": "Fica desconfortável dentro de cidades."
+          },
+          {
+            "nome": "Inimigo",
+            "detalhe": "Uma tribo de goblins conhece seu rosto."
+          }
+        ]
+      },
+      "focos": [
+        {
+          "id": "cacador",
+          "nome": "Caçador",
+          "descricao": "Especialista em derrubar monstros.",
+          "vantagens": [
+            "Ataque à Distância"
+          ],
+          "prioridades": [
+            "pericia:Combate à Distância: Arcos"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": []
+        },
+        {
+          "id": "mestre_feras",
+          "nome": "Mestre das feras",
+          "descricao": "Luta ao lado de um animal companheiro.",
+          "vantagens": [
+            "Empatia com Animais"
+          ],
+          "prioridades": [
+            "pericia:Tratamento"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "companheiro_animal"
+          ]
+        },
+        {
+          "id": "batedor",
+          "nome": "Batedor da fronteira",
+          "descricao": "Vai na frente, abrindo caminho e espionando.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Furtividade",
+            "pericia:Especialidade: Sobrevivência"
+          ],
+          "armas": [],
+          "itens": [
+            "corda"
+          ],
+          "implantes": []
+        }
+      ]
+    },
+    {
+      "id": "druida",
+      "nome": "Druida",
+      "conceito": "Guardião da natureza, que tira poder das plantas, dos animais e do clima.",
+      "vantagens_essenciais": [
+        "Empatia com Animais",
+        "Ritualista"
+      ],
+      "vantagens_opcionais": [
+        "Rastrear",
+        "Bem Informado",
+        "Tolerância Maior"
+      ],
+      "prioridades": [
+        "habilidade:Pro",
+        "pericia:Combate à Distância: Magia",
+        "pericia:Especialidade: Natureza",
+        "pericia:Tratamento",
+        "defesa:Vontade",
+        "pericia:Percepção",
+        "pericia:Especialidade: Sobrevivência",
+        "habilidade:Vig",
+        "defesa:Fortitude"
+      ],
+      "armas": {
+        "principais": [
+          "bordao",
+          "cimitarra",
+          "foice_curta"
+        ],
+        "secundarias": [
+          "funda",
+          "dardos",
+          "lanca"
+        ]
+      },
+      "itens": {
+        "essenciais": [
+          "couro",
+          "foco_druidico",
+          "kit_herbalismo"
+        ],
+        "opcionais": [
+          "mochila",
+          "saco_dormir",
+          "cantil"
+        ]
+      },
+      "implantes": {
+        "essenciais": [
+          "chamar_relampago",
+          "curar_natureza"
+        ],
+        "opcionais": [
+          "constricao",
+          "chicote_espinhos",
+          "falar_com_animais",
+          "pele_de_casca",
+          "passo_sem_rastro",
+          "forma_selvagem"
+        ]
+      },
+      "sugestoes": {
+        "motivacoes": [
+          "Responsabilidade",
+          "Fazer o Bem",
+          "Fé",
+          "Vingança"
+        ],
+        "complicacoes": [
+          {
+            "nome": "Responsabilidade",
+            "detalhe": "Protege um bosque sagrado."
+          },
+          {
+            "nome": "Preconceito",
+            "detalhe": "Na cidade, o chamam de bruxo."
+          },
+          {
+            "nome": "Honra",
+            "detalhe": "Nunca usa armadura nem escudo de metal."
+          },
+          {
+            "nome": "Ódio",
+            "detalhe": "Odeia quem derruba florestas por lucro."
+          }
+        ]
+      },
+      "focos": [
+        {
+          "id": "terra",
+          "nome": "Círculo da Terra",
+          "descricao": "Tira poder da terra e das plantas.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Especialidade: Natureza"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "constricao"
+          ]
+        },
+        {
+          "id": "lua",
+          "nome": "Círculo da Lua",
+          "descricao": "Vira fera e luta como uma.",
+          "vantagens": [],
+          "prioridades": [
+            "habilidade:Vig"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "forma_selvagem"
+          ]
+        },
+        {
+          "id": "pastor",
+          "nome": "Círculo do Pastor",
+          "descricao": "Fala com os animais e os chama para ajudar.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Tratamento"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "falar_com_animais"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "monge",
+      "nome": "Monge",
+      "conceito": "Artista marcial que domina o próprio corpo com o ki.",
+      "vantagens_essenciais": [
+        "Evasão",
+        "Iniciativa Aprimorada"
+      ],
+      "vantagens_opcionais": [
+        "Agarrar Aprimorado",
+        "Derrubar Aprimorado",
+        "Esquiva Fabulosa",
+        "Defesa Aprimorada",
+        "Ação em Movimento",
+        "Luta no Chão"
+      ],
+      "prioridades": [
+        "habilidade:Agi",
+        "habilidade:Lut",
+        "pericia:Combate Corpo-a-Corpo: Briga",
+        "defesa:Esquiva",
+        "defesa:Aparar",
+        "pericia:Acrobacia",
+        "pericia:Intuição",
+        "pericia:Atletismo",
+        "pericia:Furtividade",
+        "defesa:Vontade"
+      ],
+      "armas": {
+        "principais": [
+          "bordao",
+          "lanca",
+          "espada_curta"
+        ],
+        "secundarias": [
+          "dardos"
+        ]
+      },
+      "itens": {
+        "essenciais": [
+          "roupas_viajante",
+          "mochila"
+        ],
+        "opcionais": [
+          "saco_dormir",
+          "cantil",
+          "flauta"
+        ]
+      },
+      "implantes": {
+        "essenciais": [
+          "artes_marciais",
+          "golpe_atordoante"
+        ],
+        "opcionais": [
+          "integridade_corporal",
+          "queda_lenta",
+          "corrida_parede"
+        ]
+      },
+      "sugestoes": {
+        "motivacoes": [
+          "Conhecimento",
+          "Fazer o Bem",
+          "Responsabilidade",
+          "Fé"
+        ],
+        "complicacoes": [
+          {
+            "nome": "Honra",
+            "detalhe": "Nunca usa armas de corte nem armadura."
+          },
+          {
+            "nome": "Responsabilidade",
+            "detalhe": "Deve obediência ao mosteiro."
+          },
+          {
+            "nome": "Rivalidade",
+            "detalhe": "Um monge de outro mosteiro quer provar seu estilo."
+          },
+          {
+            "nome": "Peculiaridade",
+            "detalhe": "Medita antes de qualquer luta."
+          }
+        ]
+      },
+      "focos": [
+        {
+          "id": "mao_aberta",
+          "nome": "Caminho da Mão Aberta",
+          "descricao": "Derruba e empurra com as mãos nuas.",
+          "vantagens": [
+            "Derrubar Aprimorado"
+          ],
+          "prioridades": [
+            "pericia:Combate Corpo-a-Corpo: Briga"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": []
+        },
+        {
+          "id": "sombra",
+          "nome": "Caminho da Sombra",
+          "descricao": "Ninja que usa o ki para se esconder e atacar.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Furtividade"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "passo_sombrio"
+          ]
+        },
+        {
+          "id": "elementos",
+          "nome": "Caminho dos Quatro Elementos",
+          "descricao": "Molda fogo e vento com o ki.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Combate à Distância: Magia"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "raio_de_fogo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bardo",
+      "nome": "Bardo",
+      "conceito": "Músico e contador de histórias cuja magia vem da música.",
+      "vantagens_essenciais": [
+        "Inspirar",
+        "Fascinar"
+      ],
+      "vantagens_opcionais": [
+        "Atraente",
+        "Zombar",
+        "Contatos",
+        "Faz Tudo",
+        "Bem Informado",
+        "Sorte de Principiante"
+      ],
+      "prioridades": [
+        "habilidade:Pre",
+        "pericia:Especialidade: Música",
+        "pericia:Persuasão",
+        "pericia:Enganação",
+        "pericia:Combate à Distância: Magia",
+        "pericia:Intuição",
+        "habilidade:Des",
+        "defesa:Esquiva",
+        "defesa:Vontade",
+        "pericia:Acrobacia"
+      ],
+      "armas": {
+        "principais": [
+          "rapieira",
+          "espada_curta"
+        ],
+        "secundarias": [
+          "besta_mao",
+          "arco_curto",
+          "adaga"
+        ]
+      },
+      "itens": {
+        "essenciais": [
+          "couro",
+          "alaude"
+        ],
+        "opcionais": [
+          "flauta",
+          "roupas_finas",
+          "kit_disfarce",
+          "mochila",
+          "vinho"
+        ]
+      },
+      "implantes": {
+        "essenciais": [
+          "zombaria_cruel",
+          "palavra_de_cura"
+        ],
+        "opcionais": [
+          "sono_bardico",
+          "encantar_plateia",
+          "ilusao_bardica"
+        ]
+      },
+      "sugestoes": {
+        "motivacoes": [
+          "Reconhecimento",
+          "Adrenalina",
+          "Conhecimento",
+          "Cobiça"
+        ],
+        "complicacoes": [
+          {
+            "nome": "Fama",
+            "detalhe": "Todo mundo conhece suas canções, inclusive quem ele satirizou."
+          },
+          {
+            "nome": "Vício",
+            "detalhe": "Não resiste a um jogo de cartas ou a um romance."
+          },
+          {
+            "nome": "Inimigo",
+            "detalhe": "Um nobre que ele ridicularizou quer vingança."
+          },
+          {
+            "nome": "Peculiaridade",
+            "detalhe": "Narra as próprias aventuras em voz alta."
+          }
+        ]
+      },
+      "focos": [
+        {
+          "id": "conhecimento",
+          "nome": "Colégio do Conhecimento",
+          "descricao": "Sabe um pouco de tudo e muito de histórias antigas.",
+          "vantagens": [
+            "Bem Informado"
+          ],
+          "prioridades": [
+            "pericia:Investigação",
+            "pericia:Especialidade: História"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": []
+        },
+        {
+          "id": "bravura",
+          "nome": "Colégio da Bravura",
+          "descricao": "Canta no meio da batalha, de espada na mão.",
+          "vantagens": [
+            "Ataque Defensivo"
+          ],
+          "prioridades": [
+            "habilidade:Lut",
+            "pericia:Combate Corpo-a-Corpo: Espadas"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": []
+        },
+        {
+          "id": "glamour",
+          "nome": "Colégio do Glamour",
+          "descricao": "Encanta qualquer plateia com magia feérica.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Persuasão"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "encantar_plateia"
+          ]
+        }
+      ]
+    }
+  ]
+}

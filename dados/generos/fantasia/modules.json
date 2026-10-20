@@ -1,0 +1,1867 @@
+[
+  {
+    "id": "anao",
+    "nome": "Anão",
+    "epiteto": "o Anão",
+    "descricao": "Anão das montanhas: atarracado, teimoso e difícil de envenenar.",
+    "tatica": "Enxerga no escuro das minas e aguenta o que derrubaria um humano.",
+    "tags": [
+      "raca",
+      "resistencia"
+    ],
+    "estilos": [
+      "utilidade"
+    ],
+    "arquetipos": [
+      "bandido",
+      "guarda",
+      "soldado",
+      "cultista",
+      "assassino"
+    ],
+    "papel": "extra",
+    "adiciona": {
+      "poderes": {
+        "visao_escuro": {
+          "do_genero": "visao_escuro"
+        },
+        "resiliencia_ana": {
+          "do_genero": "resiliencia_ana"
+        }
+      },
+      "pericias": {
+        "Especialidade: Cantaria": 2
+      }
+    },
+    "incompativel_com": [
+      "elfo",
+      "meio_orc"
+    ],
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia; poderes raciais de powers.json"
+  },
+  {
+    "id": "elfo",
+    "nome": "Elfo",
+    "epiteto": "o Elfo",
+    "descricao": "Elfo de orelhas pontudas e sentidos aguçados, que já viu gerações de humanos passarem.",
+    "tatica": "Percebe a emboscada antes dos outros e resiste a encantamentos.",
+    "tags": [
+      "raca",
+      "percepcao"
+    ],
+    "estilos": [
+      "utilidade"
+    ],
+    "arquetipos": [
+      "bandido",
+      "guarda",
+      "soldado",
+      "cultista",
+      "assassino"
+    ],
+    "papel": "extra",
+    "adiciona": {
+      "poderes": {
+        "visao_escuro": {
+          "do_genero": "visao_escuro"
+        },
+        "ancestralidade_feerica": {
+          "do_genero": "ancestralidade_feerica"
+        }
+      },
+      "pericias": {
+        "Percepção": 2
+      }
+    },
+    "incompativel_com": [
+      "anao",
+      "meio_orc"
+    ],
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia; poderes raciais de powers.json"
+  },
+  {
+    "id": "meio_orc",
+    "nome": "Meio-orc",
+    "epiteto": "o Meio-orc",
+    "descricao": "Meio-orc de presas salientes, criado entre desconfianças dos dois lados.",
+    "tatica": "Intimida antes de bater e só cai depois de muita pancada.",
+    "tags": [
+      "raca",
+      "intimidacao"
+    ],
+    "estilos": [
+      "combate"
+    ],
+    "arquetipos": [
+      "bandido",
+      "guarda",
+      "soldado",
+      "cultista",
+      "assassino"
+    ],
+    "papel": "extra",
+    "adiciona": {
+      "poderes": {
+        "visao_escuro": {
+          "do_genero": "visao_escuro"
+        }
+      },
+      "pericias": {
+        "Intimidação": 2
+      },
+      "vantagens": {
+        "Duro de Matar": 1
+      }
+    },
+    "incompativel_com": [
+      "anao",
+      "elfo",
+      "veterano_marcado"
+    ],
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia; visão no escuro de powers.json"
+  },
+  {
+    "id": "arqueiro",
+    "nome": "Arqueiro",
+    "epiteto": "o Arqueiro",
+    "descricao": "Treinou anos no arco longo e acerta um coelho a cem passos.",
+    "tatica": "Fica atrás da linha, em lugar alto, e escolhe os alvos sem armadura.",
+    "tags": [
+      "combate",
+      "distancia"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "bandido",
+      "guarda",
+      "soldado"
+    ],
+    "papel": "ambos",
+    "requisitos": {
+      "np_min": 3
+    },
+    "adiciona": {
+      "pericias": {
+        "Combate à Distância: Arcos": 1
+      },
+      "vantagens": {
+        "Equipamento": 2
+      },
+      "equipamento": [
+        "arco_longo",
+        "flechas"
+      ]
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia. O arco longo (Dano 4) só cabe a partir do NP 3."
+  },
+  {
+    "id": "berserker",
+    "nome": "Berserker",
+    "epiteto": "o Berserker",
+    "descricao": "Entra em fúria quando sente cheiro de sangue e esquece a dor e o medo.",
+    "tatica": "Larga a formação e corre para cima do inimigo mais forte, gritando.",
+    "tags": [
+      "combate",
+      "corpo_a_corpo"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "bandido",
+      "guarda",
+      "soldado"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "poderes": {
+        "furia": {
+          "do_genero": "furia"
+        }
+      },
+      "pericias": {
+        "Intimidação": 2
+      }
+    },
+    "incompativel_com": [
+      "escudeiro"
+    ],
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia; Fúria de powers.json"
+  },
+  {
+    "id": "veterano_marcado",
+    "nome": "Veterano marcado",
+    "epiteto": "o Marcado",
+    "descricao": "Coberto de cicatrizes de batalhas antigas. Já devia ter morrido umas três vezes.",
+    "tatica": "Aguenta o golpe, levanta e continua lutando, sem pressa.",
+    "tags": [
+      "combate",
+      "resistencia"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "bandido",
+      "guarda",
+      "soldado",
+      "cultista",
+      "assassino"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "vantagens": {
+        "Duro de Matar": 1,
+        "Tolerância Maior": 1
+      },
+      "pericias": {
+        "Intimidação": 1
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia"
+  },
+  {
+    "id": "rastreador",
+    "nome": "Rastreador",
+    "epiteto": "o Rastreador",
+    "descricao": "Lê pegadas na lama e galhos quebrados como quem lê um livro.",
+    "tatica": "Vai na frente do grupo, segue o rastro da presa e prepara a emboscada.",
+    "tags": [
+      "rastreio",
+      "percepcao",
+      "natureza"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "bandido",
+      "guarda",
+      "soldado",
+      "assassino"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "vantagens": {
+        "Rastrear": 1
+      },
+      "pericias": {
+        "Especialidade: Sobrevivência": 4,
+        "Percepção": 2
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia"
+  },
+  {
+    "id": "lider",
+    "nome": "Líder",
+    "epiteto": "o Líder",
+    "descricao": "Os outros obedecem a ele, por respeito ou por medo.",
+    "tatica": "Dá ordens de longe, manda os subordinados primeiro e foge se o plano der errado.",
+    "tags": [
+      "lideranca",
+      "social"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "bandido",
+      "guarda",
+      "soldado",
+      "cultista"
+    ],
+    "papel": "principal",
+    "adiciona": {
+      "vantagens": {
+        "Liderança": 1
+      },
+      "pericias": {
+        "Persuasão": 2,
+        "Intimidação": 2
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia"
+  },
+  {
+    "id": "envenenador",
+    "nome": "Envenenador",
+    "epiteto": "o Envenenador",
+    "descricao": "Unta as lâminas com extratos de plantas que ninguém deveria conhecer.",
+    "tatica": "Busca um corte rápido e espera o veneno fazer o resto.",
+    "tags": [
+      "combate",
+      "veneno"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "bandido",
+      "cultista",
+      "assassino"
+    ],
+    "papel": "ambos",
+    "requisitos": {
+      "np_min": 3
+    },
+    "adiciona": {
+      "poderes": {
+        "veneno": {
+          "nome": "Veneno na lâmina 3 (Aflição corpo a corpo, resistida por Fortitude; tonto, atordoado, incapacitado)",
+          "custo_informado": 3,
+          "ajustes": {},
+          "nome_curto": "Veneno na lâmina 3",
+          "ataque": {
+            "tipo": "corpo",
+            "efeito": 3,
+            "efeito_nome": "Aflição",
+            "critico": 20,
+            "pericia": "Combate Corpo-a-Corpo: Adagas",
+            "soma_forca": false,
+            "resistido_por": "Fortitude"
+          }
+        }
+      },
+      "pericias": {
+        "Especialidade: Venenos": 2
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia. A Aflição 3 só cabe a partir do NP 3."
+  },
+  {
+    "id": "ladrao",
+    "nome": "Ladrão",
+    "epiteto": "o Ladrão",
+    "descricao": "Abre fechaduras, corta bolsas e some na multidão do mercado.",
+    "tatica": "Evita a luta; se for pego, larga tudo e corre pelos telhados.",
+    "tags": [
+      "furtividade",
+      "roubo"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "bandido",
+      "assassino",
+      "cultista"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Prestidigitação": 4,
+        "Tecnologia": 2
+      },
+      "vantagens": {
+        "Equipamento": 1
+      },
+      "equipamento": [
+        "ferramentas_ladrao"
+      ]
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia"
+  },
+  {
+    "id": "infiltrado",
+    "nome": "Infiltrado",
+    "epiteto": "o Infiltrado",
+    "descricao": "Circula entre nobres e mercadores com roupas finas e um nome falso.",
+    "tatica": "Mente, escuta atrás das portas e entrega os segredos a quem paga.",
+    "tags": [
+      "social",
+      "enganacao"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "bandido",
+      "cultista",
+      "assassino"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Enganação": 2,
+        "Especialidade: Etiqueta": 2
+      },
+      "vantagens": {
+        "Equipamento": 1
+      },
+      "equipamento": [
+        "roupas_finas"
+      ]
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia"
+  },
+  {
+    "id": "aprendiz_feiticaria",
+    "nome": "Aprendiz de feitiçaria",
+    "epiteto": "o Feiticeiro",
+    "descricao": "Aprendeu, de um grimório roubado, a disparar setas de energia arcana.",
+    "tatica": "Fica atrás dos companheiros e dispara setas mágicas em quem se aproxima.",
+    "tags": [
+      "magia",
+      "distancia"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "bandido",
+      "cultista"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "poderes": {
+        "seta_arcana": {
+          "nome": "Seta arcana 2 (Dano à Distância; força arcana)",
+          "custo_informado": 4,
+          "ajustes": {},
+          "nome_curto": "Seta arcana 2",
+          "ataque": {
+            "tipo": "distancia",
+            "efeito": 2,
+            "efeito_nome": "Dano",
+            "critico": 20,
+            "pericia": "Combate à Distância: Magia",
+            "soma_forca": false
+          }
+        }
+      },
+      "pericias": {
+        "Especialidade: Magia": 2
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia. Seta arcana com Dano 2 para caber desde o NP 1."
+  },
+  {
+    "id": "lamina_sombria",
+    "nome": "Lâmina na sombra",
+    "epiteto": "a Sombra",
+    "descricao": "Mata em silêncio, de perto, e escolhe pontos onde a armadura não protege.",
+    "tatica": "Espera o alvo ficar sozinho e ataca pelas costas.",
+    "tags": [
+      "furtividade",
+      "corpo_a_corpo"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "assassino"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "vantagens": {
+        "Crítico Aprimorado (adaga)": 1,
+        "Esconder-se à Plena Vista": 1
+      },
+      "pericias": {
+        "Furtividade": 2
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia"
+  },
+  {
+    "id": "sacerdote_sombrio",
+    "nome": "Sacerdote sombrio",
+    "epiteto": "o Sacerdote",
+    "descricao": "Conduz os rituais e fecha as feridas dos fiéis com uma prece ao deus do culto.",
+    "tatica": "Fica no fundo do salão, cura quem cai e incita os outros a lutar.",
+    "tags": [
+      "magia",
+      "cura"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "cultista"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "poderes": {
+        "cura": {
+          "nome": "Cura 2 (prece sombria)",
+          "custo_informado": 4,
+          "ajustes": {},
+          "nome_curto": "Cura 2"
+        }
+      },
+      "pericias": {
+        "Tratamento": 2
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia"
+  },
+  {
+    "id": "fanatico",
+    "nome": "Fanático",
+    "epiteto": "o Fanático",
+    "descricao": "Acredita de verdade. Morreria pelo culto, e espera que você morra antes.",
+    "tatica": "Ataca sem pensar na própria segurança, entoando hinos.",
+    "tags": [
+      "combate",
+      "fanatismo"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "cultista"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "vantagens": {
+        "Destemido": 1,
+        "Ataque Imprudente": 1
+      },
+      "pericias": {
+        "Intimidação": 2
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia"
+  },
+  {
+    "id": "escudeiro",
+    "nome": "Escudeiro",
+    "epiteto": "o Escudeiro",
+    "descricao": "Troca o peso da meia-armadura por uma cota de malha e um broquel bem usado.",
+    "tatica": "Fecha a parede de escudos e protege o companheiro do lado.",
+    "tags": [
+      "combate",
+      "defesa"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "soldado"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "equipamento": [
+        "broquel"
+      ],
+      "vantagens": {
+        "Interpor-se": 1
+      }
+    },
+    "substitui": {
+      "equipamento": {
+        "meia_armadura": "cota_malha"
+      }
+    },
+    "incompativel_com": [
+      "berserker"
+    ],
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia. Com a cota (Proteção 3) e o broquel (+1), Esquiva e Aparar + Resistência ficam iguais ao da ficha-base."
+  },
+  {
+    "id": "montado",
+    "nome": "Cavaleiro montado",
+    "epiteto": "o Montado",
+    "descricao": "Luta do alto da sela, com lança de montaria e escudo de armas.",
+    "tatica": "Carrega contra a linha inimiga e recua para preparar outra investida.",
+    "tags": [
+      "montaria",
+      "combate"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "soldado"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Especialidade: Cavalgar": 4
+      },
+      "vantagens": {
+        "Ação em Movimento": 1
+      },
+      "equipamento": [
+        "lanca_montaria"
+      ]
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia"
+  },
+  {
+    "id": "lobo_alfa",
+    "nome": "Alfa da matilha",
+    "epiteto": "o Alfa",
+    "descricao": "Maior e mais velho, guia a matilha e decide quando atacar.",
+    "tatica": "Uiva para coordenar o cerco e ataca junto com os outros.",
+    "tags": [
+      "lideranca",
+      "combate"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "lobo"
+    ],
+    "papel": "principal",
+    "adiciona": {
+      "vantagens": {
+        "Trabalho em Equipe": 1
+      },
+      "pericias": {
+        "Intimidação": 4
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia"
+  },
+  {
+    "id": "lobo_sombrio",
+    "nome": "Lobo das sombras",
+    "epiteto": "o Sombrio",
+    "descricao": "Pelagem escura, passos sem som; só se vê o brilho dos olhos na mata.",
+    "tatica": "Segue a presa de longe e ataca quando ela para de olhar para trás.",
+    "tags": [
+      "furtividade",
+      "natureza"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "lobo"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Furtividade": 2,
+        "Percepção": 2
+      },
+      "vantagens": {
+        "Ambiente Favorito (floresta)": 1
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia"
+  },
+  {
+    "id": "lobo_faminto",
+    "nome": "Lobo faminto",
+    "epiteto": "o Faminto",
+    "descricao": "O inverno foi longo e a fome deixou o lobo sem medo nenhum.",
+    "tatica": "Ataca sem cautela e não larga a presa.",
+    "tags": [
+      "combate"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "lobo"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "vantagens": {
+        "Ataque Imprudente": 1,
+        "Agarrar Aprimorado": 1
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia"
+  },
+  {
+    "id": "lobo_atroz",
+    "nome": "Lobo atroz",
+    "epiteto": "o Atroz",
+    "descricao": "Lobo do tamanho de um pônei, com presas que partem escudos.",
+    "tatica": "Derruba a vítima com o peso do corpo e morde onde dá.",
+    "tags": [
+      "combate",
+      "corpo_a_corpo"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "lobo"
+    ],
+    "papel": "ambos",
+    "requisitos": {
+      "np_min": 5
+    },
+    "adiciona": {
+      "habilidades": {
+        "For": 2,
+        "Vig": 2
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia. +2 For e Vig só cabem a partir do NP 5."
+  },
+  {
+    "id": "urso_polar",
+    "nome": "Urso polar",
+    "epiteto": "o Branco",
+    "descricao": "Urso branco das terras geladas, ainda maior e mais forte que o pardo.",
+    "tatica": "Caça no gelo e na neve, onde quase nada o incomoda.",
+    "tags": [
+      "natureza",
+      "frio"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "urso"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "habilidades": {
+        "For": 1
+      },
+      "vantagens": {
+        "Ambiente Favorito (frio)": 1
+      }
+    },
+    "incompativel_com": [
+      "urso_cavernas"
+    ],
+    "status_dados": "validado",
+    "fonte": "Guia do Mestre de Jogo, p. 229: ursos polares têm +1 For e Adaptação Ambiental (Frio), aqui como Ambiente Favorito (frio)."
+  },
+  {
+    "id": "urso_enfurecido",
+    "nome": "Urso enfurecido",
+    "epiteto": "o Furioso",
+    "descricao": "Ferido ou protegendo os filhotes, não recua diante de nada.",
+    "tatica": "Ruge, se ergue nas patas traseiras e investe sem cuidado.",
+    "tags": [
+      "combate"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "urso"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "vantagens": {
+        "Ataque Imprudente": 1,
+        "Destemido": 1
+      },
+      "pericias": {
+        "Intimidação": 4
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia"
+  },
+  {
+    "id": "urso_pescador",
+    "nome": "Urso do rio",
+    "epiteto": "o Pescador",
+    "descricao": "Vive na beira dos rios, onde pesca salmão com as patas.",
+    "tatica": "Prefere fugir a lutar, mas sabe nadar e escalar melhor que qualquer caçador.",
+    "tags": [
+      "natureza",
+      "atletismo"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "urso"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Atletismo": 2,
+        "Percepção": 2,
+        "Furtividade": 2
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia"
+  },
+  {
+    "id": "urso_cavernas",
+    "nome": "Urso das cavernas",
+    "epiteto": "o Ancestral",
+    "descricao": "Fera pré-histórica que sobreviveu em cavernas profundas, maior que qualquer urso comum.",
+    "tatica": "Domina o território e esmaga o que encontrar.",
+    "tags": [
+      "combate"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "urso"
+    ],
+    "papel": "ambos",
+    "requisitos": {
+      "np_min": 8
+    },
+    "adiciona": {
+      "habilidades": {
+        "For": 2,
+        "Vig": 2
+      }
+    },
+    "incompativel_com": [
+      "urso_polar"
+    ],
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia. +2 For e Vig só cabem a partir do NP 8."
+  },
+  {
+    "id": "cavalo_carga",
+    "nome": "Cavalo de tração",
+    "epiteto": "cavalo de tração",
+    "descricao": "Mais pesado e forte, feito para puxar carroça e arado.",
+    "tatica": "Não foge do barulho, mas também não corre muito.",
+    "tags": [
+      "carga"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "cavalo"
+    ],
+    "papel": "ambos",
+    "requisitos": {
+      "np_min": 4
+    },
+    "adiciona": {
+      "habilidades": {
+        "For": 1
+      }
+    },
+    "incompativel_com": [
+      "corcel"
+    ],
+    "status_dados": "validado",
+    "fonte": "Guia do Mestre de Jogo, p. 223: cavalos de carga têm +1 For. O coice fica com Dano 5, que só cabe a partir do NP 4."
+  },
+  {
+    "id": "cavalo_guerra",
+    "nome": "Cavalo de guerra",
+    "epiteto": "cavalo de guerra",
+    "descricao": "Treinado para a batalha. Não se assusta com aço nem com gritos.",
+    "tatica": "Avança contra o inimigo e escoiceia quem chegar perto.",
+    "tags": [
+      "combate"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "cavalo"
+    ],
+    "papel": "ambos",
+    "requisitos": {
+      "np_min": 4
+    },
+    "adiciona": {
+      "pericias": {
+        "Combate Corpo-a-Corpo: Coice": 2
+      },
+      "vantagens": {
+        "Destemido": 1
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "O Guia do Mestre (p. 223) diz que cavalos de guerra têm mais Luta ou Combate Corpo-a-Corpo, sem dar o valor; as graduações são ilustrativas e só cabem a partir do NP 4."
+  },
+  {
+    "id": "corcel",
+    "nome": "Corcel veloz",
+    "epiteto": "corcel veloz",
+    "descricao": "Leve e nervoso, sai na frente em qualquer arrancada.",
+    "tatica": "Ótimo para mensageiros, fugas e perseguições.",
+    "tags": [
+      "velocidade"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "cavalo"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Atletismo": 2
+      },
+      "vantagens": {
+        "Iniciativa Aprimorada": 1
+      }
+    },
+    "incompativel_com": [
+      "cavalo_carga"
+    ],
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia"
+  },
+  {
+    "id": "montaria_resistente",
+    "nome": "Montaria de viagem",
+    "epiteto": "montaria de viagem",
+    "descricao": "Acostumado a semanas de estrada, chuva e pasto ruim.",
+    "tatica": "Fareja perigo antes do cavaleiro e aguenta longas jornadas.",
+    "tags": [
+      "resistencia",
+      "percepcao"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "cavalo"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Percepção": 2
+      },
+      "vantagens": {
+        "Tolerância Maior": 1
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia"
+  },
+  {
+    "id": "esqueleto_arqueiro",
+    "nome": "Esqueleto arqueiro",
+    "epiteto": "o Arqueiro",
+    "descricao": "Os dedos ossudos ainda lembram como puxar a corda de um arco.",
+    "tatica": "Atira das ameias e das criptas enquanto os outros mortos avançam.",
+    "tags": [
+      "combate",
+      "distancia"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "esqueleto"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "vantagens": {
+        "Equipamento": 2
+      },
+      "equipamento": [
+        "arco_curto",
+        "flechas"
+      ]
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia"
+  },
+  {
+    "id": "esqueleto_escudo",
+    "nome": "Esqueleto com escudo",
+    "epiteto": "o Guardião",
+    "descricao": "Ainda segura o broquel enferrujado da última guerra.",
+    "tatica": "Forma uma barreira na porta da cripta e não sai dali.",
+    "tags": [
+      "combate",
+      "defesa"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "esqueleto"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "vantagens": {
+        "Equipamento": 1
+      },
+      "equipamento": [
+        "broquel"
+      ]
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia"
+  },
+  {
+    "id": "esqueleto_sentinela",
+    "nome": "Sentinela da cripta",
+    "epiteto": "a Sentinela",
+    "descricao": "Montou guarda por séculos e sente qualquer intruso que pise na tumba.",
+    "tatica": "Dá o alarme com um estalo de ossos e ataca quem tocar no tesouro.",
+    "tags": [
+      "percepcao",
+      "guarda"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "esqueleto"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Percepção": 4
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia"
+  },
+  {
+    "id": "zumbi_putrefato",
+    "nome": "Zumbi putrefato",
+    "epiteto": "o Putrefato",
+    "descricao": "Inchado e podre, solta uma nuvem de gases que embrulha o estômago.",
+    "tatica": "Arrasta-se para o meio do grupo e deixa o fedor fazer o trabalho.",
+    "tags": [
+      "combate",
+      "area"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "zumbi"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "poderes": {
+        "nuvem_podre": {
+          "nome": "Nuvem pútrida 2 (Aflição em Área Explosão, resistida por Fortitude; tonto, atordoado)",
+          "custo_informado": 4,
+          "ajustes": {},
+          "nome_curto": "Nuvem pútrida 2",
+          "ataque": {
+            "tipo": "area",
+            "efeito": 2,
+            "efeito_nome": "Aflição",
+            "critico": 20,
+            "resistido_por": "Fortitude"
+          }
+        }
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia. Aflição 2 para caber no NP 2."
+  },
+  {
+    "id": "zumbi_agarrador",
+    "nome": "Zumbi agarrador",
+    "epiteto": "o Agarrador",
+    "descricao": "Agarra com força de defunto e não solta mais.",
+    "tatica": "Prende a vítima no chão para os outros zumbis chegarem.",
+    "tags": [
+      "combate",
+      "agarrar"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "zumbi"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "vantagens": {
+        "Agarrar Aprimorado": 1,
+        "Imobilizar Aprimorado": 1
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia"
+  },
+  {
+    "id": "zumbi_devorador",
+    "nome": "Zumbi devorador",
+    "epiteto": "o Devorador",
+    "descricao": "Sente o cheiro de carne viva a quilômetros e só pensa em comer.",
+    "tatica": "Investe sem cuidado nenhum contra quem estiver sangrando.",
+    "tags": [
+      "combate"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "zumbi"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "vantagens": {
+        "Ataque Imprudente": 1
+      },
+      "pericias": {
+        "Percepção": 2
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "O Guia do Mestre (p. 255) sugere zumbis comedores de carne sem mudança de regras; a vantagem e a perícia são ilustrativas."
+  },
+  {
+    "id": "zumbi_brutamontes",
+    "nome": "Zumbi brutamontes",
+    "epiteto": "o Brutamontes",
+    "descricao": "Foi ferreiro ou estivador em vida, e a força ficou.",
+    "tatica": "Derruba portas e escudos com os punhos.",
+    "tags": [
+      "combate",
+      "corpo_a_corpo"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "zumbi"
+    ],
+    "papel": "ambos",
+    "requisitos": {
+      "np_min": 4
+    },
+    "adiciona": {
+      "habilidades": {
+        "For": 2
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia. +2 For só cabe a partir do NP 4."
+  },
+  {
+    "id": "chamas_infernais",
+    "nome": "Chamas infernais",
+    "epiteto": "o Flamejante",
+    "descricao": "Arremessa bolas de fogo infernal que cheiram a enxofre.",
+    "tatica": "Ataca de longe com fogo antes de chegar às garras.",
+    "tags": [
+      "combate",
+      "distancia",
+      "fogo"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "demonio"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "poderes": {
+        "fogo_infernal": {
+          "nome": "Fogo infernal 4 (Dano à Distância; fogo)",
+          "custo_informado": 8,
+          "ajustes": {},
+          "nome_curto": "Fogo infernal 4",
+          "ataque": {
+            "tipo": "distancia",
+            "efeito": 4,
+            "efeito_nome": "Dano",
+            "critico": 20,
+            "pericia": "Combate à Distância: Fogo infernal",
+            "soma_forca": false
+          }
+        }
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia. O Guia do Mestre (p. 232) diz que muitos demônios lançam fogo infernal, sem dar números."
+  },
+  {
+    "id": "senhor_mentiras",
+    "nome": "Senhor das mentiras",
+    "epiteto": "o Mentiroso",
+    "descricao": "Fala manso, oferece pactos e conhece o desejo secreto de cada um.",
+    "tatica": "Prefere corromper a matar: negocia, engana e semeia discórdia no grupo.",
+    "tags": [
+      "social",
+      "enganacao"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "demonio"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Enganação": 4,
+        "Persuasão": 2,
+        "Intuição": 2
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia"
+  },
+  {
+    "id": "arauto_medo",
+    "nome": "Arauto do medo",
+    "epiteto": "o Arauto",
+    "descricao": "Basta olhar para ele para sentir o sangue gelar.",
+    "tatica": "Ruge e ameaça para fazer os mais fracos fugirem.",
+    "tags": [
+      "intimidacao",
+      "medo"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "demonio"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "vantagens": {
+        "Assustar": 1
+      },
+      "pericias": {
+        "Intimidação": 4
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia"
+  },
+  {
+    "id": "asas_morcego",
+    "nome": "Asas de morcego",
+    "epiteto": "o Alado",
+    "descricao": "Grandes asas de couro saem das costas e o levam para o alto.",
+    "tatica": "Voa sobre o campo de batalha e mergulha sobre quem estiver isolado.",
+    "tags": [
+      "voo",
+      "mobilidade"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "demonio"
+    ],
+    "papel": "ambos",
+    "requisitos": {
+      "np_min": 6
+    },
+    "adiciona": {
+      "poderes": {
+        "voo": {
+          "nome": "Voo 2 (Asas)",
+          "custo_informado": 2,
+          "ajustes": {}
+        }
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia. O Guia do Mestre (p. 232) diz que a maioria dos demônios tem asas de morcego; só a partir do NP 6, porque o diabrete já voa."
+  },
+  {
+    "id": "po_do_sono",
+    "nome": "Pó do sono",
+    "epiteto": "a Sonolenta",
+    "descricao": "Sopra um pó brilhante que faz qualquer um bocejar e cair no sono.",
+    "tatica": "Faz os guardas dormirem e foge com o que der para carregar.",
+    "tags": [
+      "magia",
+      "controle"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "fada"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "poderes": {
+        "po_do_sono": {
+          "nome": "Pó do sono 4 (Aflição à Distância, resistida por Fortitude; tonto, atordoado, adormecido)",
+          "custo_informado": 8,
+          "ajustes": {},
+          "nome_curto": "Pó do sono 4",
+          "ataque": {
+            "tipo": "distancia",
+            "efeito": 4,
+            "efeito_nome": "Aflição",
+            "critico": 20,
+            "pericia": "Combate à Distância: Pó de fada",
+            "soma_forca": false,
+            "resistido_por": "Fortitude"
+          }
+        }
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia"
+  },
+  {
+    "id": "ladra_bugigangas",
+    "nome": "Ladra de bugigangas",
+    "epiteto": "a Ladra",
+    "descricao": "Não resiste a nada que brilhe: botões, moedas, anéis, fivelas.",
+    "tatica": "Some com o objeto e deixa uma risadinha no ar.",
+    "tags": [
+      "furtividade",
+      "roubo"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "fada"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Prestidigitação": 4,
+        "Furtividade": 2
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia"
+  },
+  {
+    "id": "fada_bosque",
+    "nome": "Guardiã do bosque",
+    "epiteto": "a Guardiã",
+    "descricao": "Cuida de uma clareira, de um riacho ou de uma árvore anciã, e não gosta de visitas.",
+    "tatica": "Pede ajuda aos animais e engana quem tenta entrar.",
+    "tags": [
+      "natureza",
+      "animais"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "fada"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "vantagens": {
+        "Empatia com Animais": 1
+      },
+      "pericias": {
+        "Especialidade: Natureza": 2,
+        "Percepção": 2
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia"
+  },
+  {
+    "id": "asas_libelula",
+    "nome": "Asas de libélula",
+    "epiteto": "a Alada",
+    "descricao": "Asas transparentes que zumbem quando ela fica nervosa.",
+    "tatica": "Voa em zigue-zague e nunca fica ao alcance de uma espada.",
+    "tags": [
+      "voo",
+      "mobilidade"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "fada"
+    ],
+    "papel": "ambos",
+    "requisitos": {
+      "np_max": 4
+    },
+    "adiciona": {
+      "poderes": {
+        "voo": {
+          "nome": "Voo 2 (Asas)",
+          "custo_informado": 2,
+          "ajustes": {}
+        }
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia. Só no NP 4, porque a fada trapaceira já voa."
+  },
+  {
+    "id": "gargula_constructo",
+    "nome": "Gárgula esculpida",
+    "epiteto": "a Esculpida",
+    "descricao": "Estátua de verdade, animada por magia: não respira, não come e não sente veneno.",
+    "tatica": "Fica imóvel até alguém cruzar a linha que ela guarda.",
+    "tags": [
+      "constructo",
+      "resistencia"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "gargula"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "habilidades": {
+        "Vig": -9
+      }
+    },
+    "substitui": {
+      "poderes": {
+        "imunidade": {
+          "nome": "Imunidade 30 (efeitos de Fortitude)",
+          "custo_informado": 30,
+          "ajustes": {
+            "Resistência": 5,
+            "Fortitude": 5
+          },
+          "nome_curto": "Imunidade 30"
+        },
+        "protecao": {
+          "nome": "Proteção 6 (Impenetrável 2; corpo de pedra)",
+          "custo_informado": 8,
+          "ajustes": {
+            "Proteção": 6
+          },
+          "nome_curto": "Proteção 6"
+        }
+      }
+    },
+    "status_dados": "validado",
+    "fonte": "Guia do Mestre de Jogo, p. 238: gárgulas que são construtos não têm Vigor, têm Imunidade a efeitos de Fortitude e Proteção 6. Vigor ausente registrado como -5; a imunidade devolve +5 à Resistência e à Fortitude, como nos mortos-vivos."
+  },
+  {
+    "id": "gargula_emboscadora",
+    "nome": "Gárgula emboscadora",
+    "epiteto": "a Emboscadora",
+    "descricao": "Passa por estátua comum até o momento de saltar do telhado.",
+    "tatica": "Ataca de surpresa, de cima, e volta para o alto.",
+    "tags": [
+      "furtividade",
+      "emboscada"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "gargula"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "vantagens": {
+        "Esconder-se à Plena Vista": 1
+      },
+      "pericias": {
+        "Furtividade": 2
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia"
+  },
+  {
+    "id": "gargula_sentinela",
+    "nome": "Sentinela da catedral",
+    "epiteto": "a Sentinela",
+    "descricao": "Vigia a cidade do alto da torre e nada lhe escapa.",
+    "tatica": "Dá o alarme com um grito de pedra e chama as outras.",
+    "tags": [
+      "percepcao",
+      "guarda"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "gargula"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Percepção": 4,
+        "Intuição": 2
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia"
+  },
+  {
+    "id": "arvore_ancia",
+    "nome": "Árvore anciã",
+    "epiteto": "a Anciã",
+    "descricao": "Um carvalho de mil anos, com tronco largo como uma torre.",
+    "tatica": "Avança devagar e esmaga tudo pelo caminho.",
+    "tags": [
+      "combate",
+      "resistencia"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "arvore_animada"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "habilidades": {
+        "For": 2,
+        "Vig": 2
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia"
+  },
+  {
+    "id": "salgueiro_estrangulador",
+    "nome": "Salgueiro estrangulador",
+    "epiteto": "o Estrangulador",
+    "descricao": "Galhos finos e flexíveis que se enrolam no pescoço de quem passa.",
+    "tatica": "Agarra, prende e aperta até a vítima parar de se mexer.",
+    "tags": [
+      "combate",
+      "agarrar"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "arvore_animada"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "vantagens": {
+        "Imobilizar Aprimorado": 1,
+        "Estrangular": 1
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia"
+  },
+  {
+    "id": "arvore_espinhosa",
+    "nome": "Árvore espinhosa",
+    "epiteto": "a Espinhosa",
+    "descricao": "Coberta de espinhos do tamanho de adagas, que dispara como flechas.",
+    "tatica": "Mantém os invasores longe com saraivadas de espinhos.",
+    "tags": [
+      "combate",
+      "distancia"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "arvore_animada"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "poderes": {
+        "espinhos": {
+          "nome": "Espinhos 4 (Dano à Distância; perfurante)",
+          "custo_informado": 8,
+          "ajustes": {},
+          "nome_curto": "Espinhos 4",
+          "ataque": {
+            "tipo": "distancia",
+            "efeito": 4,
+            "efeito_nome": "Dano",
+            "critico": 20,
+            "pericia": "Combate à Distância: Espinhos",
+            "soma_forca": false
+          }
+        }
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia"
+  },
+  {
+    "id": "arvore_guardia",
+    "nome": "Sentinela do bosque",
+    "epiteto": "a Sentinela",
+    "descricao": "Árvore desperta por um druida para vigiar uma clareira sagrada.",
+    "tatica": "Fica imóvel, sente cada passo nas raízes e ataca quem fere a mata.",
+    "tags": [
+      "percepcao",
+      "natureza"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "arvore_animada"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Percepção": 6
+      },
+      "vantagens": {
+        "Esconder-se à Plena Vista": 1
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia"
+  },
+  {
+    "id": "dragao_gelo",
+    "nome": "Dragão branco",
+    "epiteto": "o Branco",
+    "descricao": "Vive nos picos gelados e sopra uma rajada de frio que congela até o sangue.",
+    "tatica": "Ataca de cima, sopra o gelo e se esconde nas nevascas.",
+    "tags": [
+      "frio",
+      "combate"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "dragao"
+    ],
+    "papel": "ambos",
+    "substitui": {
+      "poderes": {
+        "sopro": {
+          "nome": "Sopro gélido 12 (Dano à Distância; frio)",
+          "custo_informado": 24,
+          "ajustes": {},
+          "nome_curto": "Sopro gélido 12",
+          "ataque": {
+            "tipo": "distancia",
+            "efeito": 12,
+            "efeito_nome": "Dano",
+            "critico": 20,
+            "pericia": "Combate à Distância: Sopro",
+            "soma_forca": false
+          }
+        }
+      }
+    },
+    "incompativel_com": [
+      "dragao_relampago",
+      "dragao_acido"
+    ],
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia. O Guia do Mestre (p. 237) sugere trocar o descritor do sopro; o custo é o mesmo."
+  },
+  {
+    "id": "dragao_relampago",
+    "nome": "Dragão azul",
+    "epiteto": "o Azul",
+    "descricao": "Senhor dos desertos, cospe relâmpagos que estalam no ar.",
+    "tatica": "Sobrevoa a areia, ataca com o raio e mergulha nas dunas.",
+    "tags": [
+      "eletricidade",
+      "combate"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "dragao"
+    ],
+    "papel": "ambos",
+    "substitui": {
+      "poderes": {
+        "sopro": {
+          "nome": "Sopro de relâmpago 12 (Dano à Distância; eletricidade)",
+          "custo_informado": 24,
+          "ajustes": {},
+          "nome_curto": "Sopro de relâmpago 12",
+          "ataque": {
+            "tipo": "distancia",
+            "efeito": 12,
+            "efeito_nome": "Dano",
+            "critico": 20,
+            "pericia": "Combate à Distância: Sopro",
+            "soma_forca": false
+          }
+        }
+      }
+    },
+    "incompativel_com": [
+      "dragao_gelo",
+      "dragao_acido"
+    ],
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia. O Guia do Mestre (p. 237) sugere trocar o descritor do sopro; o custo é o mesmo."
+  },
+  {
+    "id": "dragao_acido",
+    "nome": "Dragão negro",
+    "epiteto": "o Negro",
+    "descricao": "Mora nos pântanos e cospe um jato de ácido que corrói aço e carne.",
+    "tatica": "Fica submerso no lodo e ataca quem se aproxima da margem.",
+    "tags": [
+      "acido",
+      "combate"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "dragao"
+    ],
+    "papel": "ambos",
+    "substitui": {
+      "poderes": {
+        "sopro": {
+          "nome": "Sopro ácido 12 (Dano à Distância; ácido)",
+          "custo_informado": 24,
+          "ajustes": {},
+          "nome_curto": "Sopro ácido 12",
+          "ataque": {
+            "tipo": "distancia",
+            "efeito": 12,
+            "efeito_nome": "Dano",
+            "critico": 20,
+            "pericia": "Combate à Distância: Sopro",
+            "soma_forca": false
+          }
+        }
+      }
+    },
+    "incompativel_com": [
+      "dragao_gelo",
+      "dragao_relampago"
+    ],
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia. O Guia do Mestre (p. 237) sugere trocar o descritor do sopro; o custo é o mesmo."
+  },
+  {
+    "id": "dragao_feiticeiro",
+    "nome": "Dragão sábio",
+    "epiteto": "o Sábio",
+    "descricao": "Antigo, astuto e versado em magia. Fala dezenas de línguas e adora enigmas.",
+    "tatica": "Conversa antes de lutar, descobre o que os heróis querem e usa isso contra eles.",
+    "tags": [
+      "magia",
+      "social"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "dragao"
+    ],
+    "papel": "principal",
+    "adiciona": {
+      "habilidades": {
+        "Int": 4,
+        "Pre": 3
+      },
+      "vantagens": {
+        "Ritualista": 1
+      },
+      "pericias": {
+        "Especialidade: Magia": 6,
+        "Intuição": 4,
+        "Persuasão": 4,
+        "Enganação": 4
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "O Guia do Mestre (p. 237) sugere, para dragões inteligentes, habilidades mentais maiores, perícias de interação, Intuição, Especialidade: Magia e Ritualista; os valores são ilustrativos."
+  },
+  {
+    "id": "dragao_guardiao",
+    "nome": "Guardião do tesouro",
+    "epiteto": "o Avarento",
+    "descricao": "Conhece cada moeda da pilha onde dorme e sente quando falta uma.",
+    "tatica": "Acorda com o menor ruído e persegue o ladrão até o fim do mundo.",
+    "tags": [
+      "percepcao",
+      "intimidacao"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "dragao"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Percepção": 4,
+        "Intimidação": 6
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o gênero fantasia"
+  }
+]

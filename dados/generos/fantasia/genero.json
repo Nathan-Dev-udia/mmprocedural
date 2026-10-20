@@ -1,0 +1,70 @@
+{
+  "id": "fantasia",
+  "nome": "Fantasia medieval",
+  "descricao": "Espadas e magia: aventureiros, masmorras, dragões e reinos em guerra. Classes e raças inspiradas em D&D 5e.",
+  "perfis_de_poder": [
+    "Mágicos",
+    "Vitais",
+    "Flamejantes",
+    "Congelantes",
+    "Elementais",
+    "Sombrios",
+    "Luminosos",
+    "Animais",
+    "Vegetais",
+    "Ilusórios",
+    "Mentais",
+    "Marciais",
+    "Fatais",
+    "Terrestres",
+    "Climáticos",
+    "Talentos Poderosos",
+    "De Teleporte"
+  ],
+  "configuracoes": {
+    "rotulo_poderes": "Magias e dons",
+    "rotulo_arquetipo": "Classe",
+    "rotulo_foco": "Subclasse",
+    "equipamento": "dinheiro",
+    "moeda": "po",
+    "np_padrao_jogador": 5,
+    "nps_disponiveis": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "itens_basicos": [
+      "racoes"
+    ],
+    "prioridades_gerais": [
+      "defesa:Esquiva",
+      "defesa:Aparar",
+      "defesa:Fortitude",
+      "defesa:Vontade",
+      "pericia:Percepção",
+      "pericia:Atletismo",
+      "pericia:Intuição",
+      "vantagem:Rolamento Defensivo",
+      "habilidade:Vig"
+    ],
+    "pericias_de_reserva": [
+      "Percepção",
+      "Atletismo",
+      "Intuição",
+      "Furtividade",
+      "Acrobacia",
+      "Persuasão",
+      "Enganação",
+      "Intimidação",
+      "Investigação",
+      "Especialidade: Sobrevivência"
+    ]
+  }
+}

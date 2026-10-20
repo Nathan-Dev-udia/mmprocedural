@@ -1,0 +1,1848 @@
+[
+  {
+    "id": "bandido",
+    "nome": "Bandido de estrada",
+    "nomes": "humano",
+    "capanga": true,
+    "np_maximo": 8,
+    "descricao": "Salteador de estrada, ladrão de vilarejo ou chefe de quadrilha. Ataca caravanas, cobra pedágio onde não devia e some na mata quando a guarda aparece.",
+    "prioridades": [
+      "pericia:Combate à Distância: Bestas",
+      "defesa:Esquiva",
+      "pericia:Furtividade",
+      "habilidade:Des",
+      "defesa:Fortitude",
+      "pericia:Intimidação",
+      "pericia:Combate Corpo-a-Corpo: Adagas",
+      "defesa:Aparar",
+      "pericia:Atletismo",
+      "defesa:Vontade",
+      "habilidade:Agi"
+    ],
+    "faixas": [
+      {
+        "np": 2,
+        "nome": "Salteador",
+        "fonte": "Guia do Mestre de Jogo, p. 252 (Criminoso), adaptado à fantasia",
+        "status_dados": "validado",
+        "observacao": "Mesmos custos por seção do livro (37 PP). Jaqueta de couro virou armadura de couro, a faca virou adaga e a pistola leve virou besta leve (Dano 3). Veículos virou Especialidade: Cavalgar, Atualidades virou Geografia local e a especialidade livre virou Sobrevivência; o celular saiu.",
+        "ficha": {
+          "habilidades": {
+            "For": 1,
+            "Vig": 0,
+            "Agi": 2,
+            "Des": 1,
+            "Lut": 1,
+            "Int": 1,
+            "Pro": 0,
+            "Pre": 1
+          },
+          "defesas_compradas": {
+            "Esquiva": 1,
+            "Aparar": 2,
+            "Fortitude": 2
+          },
+          "pericias": {
+            "Atletismo": 4,
+            "Especialidade: Sobrevivência": 4,
+            "Especialidade: Geografia local": 2,
+            "Especialidade: Manha": 4,
+            "Furtividade": 6,
+            "Percepção": 4,
+            "Tecnologia": 4,
+            "Especialidade: Cavalgar": 4
+          },
+          "vantagens": {
+            "Equipamento": 2
+          },
+          "equipamento": [
+            "couro",
+            "adaga",
+            "besta_leve"
+          ],
+          "ataque_desarmado": true
+        }
+      },
+      {
+        "np": 3,
+        "nome": "Bandido",
+        "fonte": "Guia do Mestre de Jogo, p. 251 (Bandido), adaptado à fantasia",
+        "status_dados": "validado",
+        "observacao": "Mesmos custos por seção do livro (32 PP). Jaqueta de couro virou armadura de couro, a pistola leve virou besta leve e entrou uma adaga no lugar do celular. Veículos virou Especialidade: Cavalgar, Atualidades virou Geografia local e a especialidade livre virou Sobrevivência.",
+        "ficha": {
+          "habilidades": {
+            "For": 2,
+            "Vig": 2,
+            "Agi": 1,
+            "Des": 1,
+            "Lut": 2,
+            "Int": 0,
+            "Pro": 0,
+            "Pre": -1
+          },
+          "defesas_compradas": {
+            "Esquiva": 1,
+            "Fortitude": 2
+          },
+          "pericias": {
+            "Atletismo": 4,
+            "Especialidade: Sobrevivência": 4,
+            "Especialidade: Criminal": 2,
+            "Especialidade: Manha": 4,
+            "Especialidade: Geografia local": 2,
+            "Intimidação": 4,
+            "Furtividade": 2,
+            "Especialidade: Cavalgar": 4
+          },
+          "vantagens": {
+            "Equipamento": 2
+          },
+          "equipamento": [
+            "couro",
+            "besta_leve",
+            "adaga"
+          ],
+          "ataque_desarmado": true
+        }
+      },
+      {
+        "np": 4,
+        "nome": "Chefe de quadrilha",
+        "fonte": "Guia do Mestre de Jogo, p. 252 (Chefe), adaptado à fantasia",
+        "status_dados": "validado",
+        "observacao": "Mesmos custos por seção do livro (60 PP). O colete à prova de balas (+4 só contra tiros) virou cota de malha (Resistência 4 contra tudo), a pistola pesada virou besta pesada (Dano 4) e entrou uma adaga no lugar do celular. Atualidade virou Política local; Benefício 5 representa riqueza e status no submundo.",
+        "ficha": {
+          "habilidades": {
+            "For": 0,
+            "Vig": 1,
+            "Agi": 1,
+            "Des": 0,
+            "Lut": 2,
+            "Int": 3,
+            "Pro": 2,
+            "Pre": 4
+          },
+          "defesas_compradas": {
+            "Esquiva": 2,
+            "Aparar": 1,
+            "Fortitude": 2,
+            "Vontade": 3
+          },
+          "pericias": {
+            "Combate à Distância: Bestas": 4,
+            "Especialidade: Criminal": 8,
+            "Especialidade: Manha": 6,
+            "Especialidade: Política local": 2,
+            "Intimidação": 6,
+            "Percepção": 2,
+            "Persuasão": 4
+          },
+          "vantagens": {
+            "Bem Informado": 1,
+            "Benefício (riqueza e status no submundo)": 5,
+            "Bem Relacionado": 1,
+            "Equipamento": 3
+          },
+          "equipamento": [
+            "cota_malha",
+            "besta_pesada",
+            "adaga"
+          ],
+          "ataque_desarmado": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "guarda",
+    "nome": "Guarda da cidade",
+    "nomes": "humano",
+    "capanga": true,
+    "np_maximo": 8,
+    "descricao": "Vigia de muralha, guarda de taverna ou guarda-costas de um mercador rico. Ganha pouco, conhece as ruas e prefere resolver no porrete.",
+    "prioridades": [
+      "pericia:Percepção",
+      "defesa:Esquiva",
+      "defesa:Aparar",
+      "pericia:Combate à Distância: Bestas",
+      "pericia:Intimidação",
+      "defesa:Fortitude",
+      "defesa:Vontade",
+      "pericia:Intuição",
+      "habilidade:Lut"
+    ],
+    "faixas": [
+      {
+        "np": 3,
+        "nome": "Vigia",
+        "fonte": "Guia do Mestre de Jogo, p. 253 (Durão), adaptado à fantasia",
+        "status_dados": "validado",
+        "observacao": "Mesmos custos por seção do livro (24 PP). A pistola virou besta leve e entrou um porrete. As 2 graduações de Combate Corpo-a-Corpo: Desarmado foram divididas entre Porretes e Briga, para o porrete (+3, Dano 3) caber no NP 3.",
+        "ficha": {
+          "habilidades": {
+            "For": 1,
+            "Vig": 0,
+            "Agi": 0,
+            "Des": 0,
+            "Lut": 2,
+            "Int": -1,
+            "Pro": 0,
+            "Pre": 0
+          },
+          "defesas_compradas": {
+            "Esquiva": 4,
+            "Aparar": 2,
+            "Fortitude": 4,
+            "Vontade": 2
+          },
+          "pericias": {
+            "Combate Corpo-a-Corpo: Porretes": 1,
+            "Combate Corpo-a-Corpo: Briga": 1,
+            "Combate à Distância: Bestas": 3,
+            "Intimidação": 3,
+            "Percepção": 4
+          },
+          "vantagens": {
+            "Equipamento": 2
+          },
+          "equipamento": [
+            "besta_leve",
+            "porrete"
+          ],
+          "ataque_desarmado": true
+        }
+      },
+      {
+        "np": 4,
+        "nome": "Guarda-costas",
+        "fonte": "Guia do Mestre de Jogo, p. 253 (Guarda-Costas), adaptado à fantasia",
+        "status_dados": "validado",
+        "observacao": "Mesmos custos por seção do livro (55 PP). A pistola virou besta leve; o soco-inglês e o spray de pimenta deram lugar a uma adaga (Dano 1 + Força, como o soco-inglês). Especialidade: Guarda-Costas virou Proteção pessoal e Enforcar é a vantagem Estrangular.",
+        "ficha": {
+          "habilidades": {
+            "For": 3,
+            "Vig": 2,
+            "Agi": 1,
+            "Des": 1,
+            "Lut": 4,
+            "Int": 0,
+            "Pro": 2,
+            "Pre": 1
+          },
+          "defesas_compradas": {
+            "Esquiva": 5,
+            "Aparar": 2,
+            "Fortitude": 3,
+            "Vontade": 1
+          },
+          "pericias": {
+            "Atletismo": 2,
+            "Especialidade: Proteção pessoal": 6,
+            "Intimidação": 4,
+            "Percepção": 6,
+            "Combate à Distância: Bestas": 4
+          },
+          "vantagens": {
+            "Estrangular": 1,
+            "Equipamento": 2,
+            "Interpor-se": 1,
+            "Saque Rápido": 1
+          },
+          "equipamento": [
+            "algemas",
+            "besta_leve",
+            "adaga"
+          ],
+          "ataque_desarmado": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "soldado",
+    "nome": "Soldado do reino",
+    "nomes": "humano",
+    "capanga": true,
+    "np_maximo": 10,
+    "descricao": "Infantaria de um senhor feudal: besta nas costas, espada na cintura e lança na mão. Luta em formação e obedece ao sargento.",
+    "prioridades": [
+      "pericia:Combate à Distância: Bestas",
+      "pericia:Combate Corpo-a-Corpo: Espadas",
+      "defesa:Esquiva",
+      "defesa:Aparar",
+      "defesa:Fortitude",
+      "defesa:Vontade",
+      "pericia:Percepção",
+      "pericia:Atletismo",
+      "habilidade:Lut",
+      "pericia:Intimidação"
+    ],
+    "faixas": [
+      {
+        "np": 4,
+        "nome": "Recruta",
+        "fonte": "Guia do Mestre de Jogo, p. 248 (Soldado, Novato), adaptado à fantasia",
+        "status_dados": "validado",
+        "observacao": "Mesmos custos por seção do livro (30 PP). A armadura corporal virou meia-armadura (Proteção 4), o rifle de assalto virou besta leve e a pistola pesada virou espada longa; entrou uma lança com os pontos de Equipamento que sobraram. Especialidade: Soldado virou Vida militar.",
+        "ficha": {
+          "habilidades": {
+            "For": 1,
+            "Vig": 1,
+            "Agi": 1,
+            "Des": 1,
+            "Lut": 3,
+            "Int": 0,
+            "Pro": 0,
+            "Pre": 0
+          },
+          "defesas_compradas": {
+            "Esquiva": 2,
+            "Fortitude": 2,
+            "Vontade": 2
+          },
+          "pericias": {
+            "Atletismo": 2,
+            "Especialidade: Vida militar": 2,
+            "Percepção": 2,
+            "Combate à Distância: Bestas": 2
+          },
+          "vantagens": {
+            "Equipamento": 6
+          },
+          "equipamento": [
+            "meia_armadura",
+            "besta_leve",
+            "espada_longa",
+            "lanca"
+          ],
+          "ataque_desarmado": true
+        }
+      },
+      {
+        "np": 5,
+        "nome": "Soldado",
+        "fonte": "Guia do Mestre de Jogo, p. 248 (Soldado), adaptado à fantasia",
+        "status_dados": "validado",
+        "observacao": "Mesmos custos por seção do livro (45 PP). Equipamento como no Recruta. Combate Corpo-a-Corpo: Desarmado virou Espadas e Armas virou Bestas.",
+        "ficha": {
+          "habilidades": {
+            "For": 1,
+            "Vig": 1,
+            "Agi": 1,
+            "Des": 1,
+            "Lut": 3,
+            "Int": 0,
+            "Pro": 0,
+            "Pre": 0
+          },
+          "defesas_compradas": {
+            "Esquiva": 4,
+            "Aparar": 2,
+            "Fortitude": 4,
+            "Vontade": 5
+          },
+          "pericias": {
+            "Atletismo": 4,
+            "Combate Corpo-a-Corpo: Espadas": 2,
+            "Especialidade: Vida militar": 4,
+            "Intimidação": 2,
+            "Percepção": 4,
+            "Combate à Distância: Bestas": 4
+          },
+          "vantagens": {
+            "Equipamento": 6
+          },
+          "equipamento": [
+            "meia_armadura",
+            "besta_leve",
+            "espada_longa",
+            "lanca"
+          ],
+          "ataque_desarmado": true
+        }
+      },
+      {
+        "np": 6,
+        "nome": "Veterano",
+        "fonte": "Guia do Mestre de Jogo, p. 249 (Soldado, Veterano), adaptado à fantasia",
+        "status_dados": "validado",
+        "observacao": "Mesmos custos por seção do livro (59 PP). Equipamento como no Recruta. Combate Corpo-a-Corpo: Desarmado virou Espadas (espada longa +7, Dano 5) e Armas virou Bestas.",
+        "ficha": {
+          "habilidades": {
+            "For": 2,
+            "Vig": 1,
+            "Agi": 1,
+            "Des": 1,
+            "Lut": 4,
+            "Int": 0,
+            "Pro": 0,
+            "Pre": 0
+          },
+          "defesas_compradas": {
+            "Esquiva": 6,
+            "Aparar": 3,
+            "Fortitude": 5,
+            "Vontade": 5
+          },
+          "pericias": {
+            "Atletismo": 4,
+            "Combate Corpo-a-Corpo: Espadas": 3,
+            "Especialidade: Vida militar": 7,
+            "Intimidação": 4,
+            "Percepção": 6,
+            "Combate à Distância: Bestas": 6
+          },
+          "vantagens": {
+            "Equipamento": 6,
+            "Iniciativa Aprimorada": 1
+          },
+          "equipamento": [
+            "meia_armadura",
+            "besta_leve",
+            "espada_longa",
+            "lanca"
+          ],
+          "ataque_desarmado": true
+        }
+      },
+      {
+        "np": 7,
+        "nome": "Cavaleiro",
+        "fonte": "Guia do Mestre de Jogo, p. 249 (Soldado, Elite), adaptado à fantasia",
+        "status_dados": "validado",
+        "observacao": "Mesmos custos por seção do livro (69 PP). Equipamento como no Recruta. O livro dá Combate Corpo-a-Corpo: Desarmado 4 (+9, Dano 3); com a espada longa (Dano 6) isso passaria do limite do NP 7, então ficaram 3 graduações em Espadas (+8, Dano 6) e a quarta foi para Atletismo.",
+        "ficha": {
+          "habilidades": {
+            "For": 3,
+            "Vig": 1,
+            "Agi": 1,
+            "Des": 1,
+            "Lut": 5,
+            "Int": 0,
+            "Pro": 0,
+            "Pre": 0
+          },
+          "defesas_compradas": {
+            "Esquiva": 8,
+            "Aparar": 4,
+            "Fortitude": 5,
+            "Vontade": 6
+          },
+          "pericias": {
+            "Atletismo": 5,
+            "Combate Corpo-a-Corpo: Espadas": 3,
+            "Especialidade: Vida militar": 8,
+            "Intimidação": 4,
+            "Percepção": 6,
+            "Combate à Distância: Bestas": 8
+          },
+          "vantagens": {
+            "Equipamento": 6,
+            "Iniciativa Aprimorada": 1
+          },
+          "equipamento": [
+            "meia_armadura",
+            "besta_leve",
+            "espada_longa",
+            "lanca"
+          ],
+          "ataque_desarmado": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "cultista",
+    "nome": "Cultista",
+    "nomes": "humano",
+    "capanga": true,
+    "np_maximo": 10,
+    "descricao": "Devoto de um culto proibido, que se reúne em criptas e porões para servir a um deus esquecido ou a um demônio com promessas demais.",
+    "prioridades": [
+      "pericia:Enganação",
+      "pericia:Persuasão",
+      "pericia:Especialidade: Conhecimentos do Culto",
+      "defesa:Vontade",
+      "defesa:Esquiva",
+      "pericia:Combate Corpo-a-Corpo: Adagas",
+      "pericia:Intuição",
+      "defesa:Aparar",
+      "defesa:Fortitude",
+      "habilidade:Pre"
+    ],
+    "faixas": [
+      {
+        "np": 1,
+        "nome": "Acólito",
+        "fonte": "Guia do Mestre de Jogo, p. 231 (Cultista, Acólito)",
+        "status_dados": "validado",
+        "observacao": "Ficha do livro (12 PP). Conectado é a vantagem Bem Relacionado.",
+        "ficha": {
+          "habilidades": {
+            "For": 0,
+            "Vig": 0,
+            "Agi": 0,
+            "Des": 0,
+            "Lut": 0,
+            "Int": 0,
+            "Pro": 0,
+            "Pre": 0
+          },
+          "defesas_compradas": {
+            "Esquiva": 1,
+            "Aparar": 1,
+            "Fortitude": 2
+          },
+          "pericias": {
+            "Combate Corpo-a-Corpo: Adagas": 1,
+            "Enganação": 4,
+            "Intuição": 3,
+            "Persuasão": 4
+          },
+          "vantagens": {
+            "Bem Relacionado": 1,
+            "Equipamento": 1
+          },
+          "equipamento": [
+            "adaga"
+          ],
+          "ataque_desarmado": true
+        }
+      },
+      {
+        "np": 2,
+        "nome": "Iniciado",
+        "fonte": "Guia do Mestre de Jogo, p. 231 (Cultista, Iniciado), adaptado à fantasia",
+        "status_dados": "validado",
+        "observacao": "Mesmos custos por seção do livro (25 PP). A pistola virou besta leve (Dano 3) e Combate à Distância: Armas virou Bestas. Conectado é a vantagem Bem Relacionado.",
+        "ficha": {
+          "habilidades": {
+            "For": 1,
+            "Vig": 1,
+            "Agi": 0,
+            "Des": 0,
+            "Lut": 0,
+            "Int": 0,
+            "Pro": 0,
+            "Pre": 1
+          },
+          "defesas_compradas": {
+            "Esquiva": 2,
+            "Aparar": 2,
+            "Fortitude": 2,
+            "Vontade": 1
+          },
+          "pericias": {
+            "Combate Corpo-a-Corpo: Adagas": 1,
+            "Combate à Distância: Bestas": 1,
+            "Enganação": 4,
+            "Especialidade: Conhecimentos do Culto": 4,
+            "Intuição": 4,
+            "Persuasão": 4
+          },
+          "vantagens": {
+            "Bem Relacionado": 1,
+            "Equipamento": 2
+          },
+          "equipamento": [
+            "adaga",
+            "besta_leve"
+          ],
+          "ataque_desarmado": true
+        }
+      },
+      {
+        "np": 3,
+        "nome": "Adepto",
+        "fonte": "Guia do Mestre de Jogo, p. 231 (Cultista, Adepto), adaptado à fantasia",
+        "status_dados": "validado",
+        "observacao": "Mesmos custos por seção do livro (38 PP). A pistola virou besta leve e Combate à Distância: Armas virou Bestas. Conectado é a vantagem Bem Relacionado.",
+        "ficha": {
+          "habilidades": {
+            "For": 1,
+            "Vig": 1,
+            "Agi": 1,
+            "Des": 0,
+            "Lut": 1,
+            "Int": 0,
+            "Pro": 0,
+            "Pre": 1
+          },
+          "defesas_compradas": {
+            "Esquiva": 3,
+            "Aparar": 3,
+            "Fortitude": 3,
+            "Vontade": 2
+          },
+          "pericias": {
+            "Combate Corpo-a-Corpo: Adagas": 2,
+            "Combate à Distância: Bestas": 3,
+            "Enganação": 6,
+            "Especialidade: Conhecimentos do Culto": 6,
+            "Intuição": 5,
+            "Persuasão": 6
+          },
+          "vantagens": {
+            "Bem Relacionado": 1,
+            "Equipamento": 2
+          },
+          "equipamento": [
+            "adaga",
+            "besta_leve"
+          ],
+          "ataque_desarmado": true
+        }
+      },
+      {
+        "np": 4,
+        "nome": "Mestre do culto",
+        "fonte": "Guia do Mestre de Jogo, p. 231 (Cultista, Mestre), adaptado à fantasia",
+        "status_dados": "validado",
+        "observacao": "Mesmos custos por seção do livro (59 PP). A pistola virou besta leve e Combate à Distância: Armas virou Bestas. Conectado é a vantagem Bem Relacionado; Ritualista usa Conhecimentos do Culto no lugar de Magia, como o livro sugere.",
+        "ficha": {
+          "habilidades": {
+            "For": 2,
+            "Vig": 2,
+            "Agi": 1,
+            "Des": 1,
+            "Lut": 1,
+            "Int": 2,
+            "Pro": 0,
+            "Pre": 2
+          },
+          "defesas_compradas": {
+            "Esquiva": 5,
+            "Aparar": 5,
+            "Fortitude": 2,
+            "Vontade": 4
+          },
+          "pericias": {
+            "Combate Corpo-a-Corpo: Adagas": 3,
+            "Combate à Distância: Bestas": 3,
+            "Enganação": 6,
+            "Especialidade: Conhecimentos do Culto": 8,
+            "Intuição": 6,
+            "Persuasão": 6
+          },
+          "vantagens": {
+            "Bem Relacionado": 1,
+            "Equipamento": 2,
+            "Saque Rápido": 1,
+            "Ritualista": 1
+          },
+          "equipamento": [
+            "adaga",
+            "besta_leve"
+          ],
+          "ataque_desarmado": true
+        }
+      },
+      {
+        "np": 6,
+        "nome": "Feiticeiro do culto",
+        "fonte": "Guia do Mestre de Jogo, p. 232 (Cultista, Arcano)",
+        "status_dados": "validado",
+        "observacao": "Ficha do livro (88 PP); a faca virou adaga. O Arranjo de Magia Negra tem quatro efeitos de 12 PP: o primeiro paga o custo cheio e cada alternativo custa 1 PP (15 PP, como no livro).",
+        "ficha": {
+          "habilidades": {
+            "For": 2,
+            "Vig": 4,
+            "Agi": 2,
+            "Des": 2,
+            "Lut": 2,
+            "Int": 4,
+            "Pro": 1,
+            "Pre": 2
+          },
+          "defesas_compradas": {
+            "Esquiva": 6,
+            "Aparar": 5,
+            "Vontade": 5
+          },
+          "pericias": {
+            "Combate Corpo-a-Corpo: Adagas": 4,
+            "Combate à Distância: Feitiços": 4,
+            "Enganação": 6,
+            "Especialidade: Conhecimentos do Culto": 6,
+            "Especialidade: Magia": 6,
+            "Tratamento": 2
+          },
+          "vantagens": {
+            "Artífice": 1,
+            "Equipamento": 1,
+            "Esforço Extraordinário": 1,
+            "Ritualista": 1,
+            "Transe": 1
+          },
+          "poderes": {
+            "sombras_geladas": {
+              "nome": "Sombras geladas 6 (Dano à Distância; frio sombrio)",
+              "custo_informado": 12,
+              "ajustes": {},
+              "nome_curto": "Sombras geladas 6",
+              "ataque": {
+                "tipo": "distancia",
+                "efeito": 6,
+                "efeito_nome": "Dano",
+                "critico": 20,
+                "pericia": "Combate à Distância: Feitiços",
+                "soma_forca": false
+              },
+              "arranjo": "Magia negra"
+            },
+            "medo_paralisante": {
+              "nome": "Medo paralisante 6 (Aflição à Distância, resistida por Vontade; impedido, imóvel, paralisado)",
+              "custo_informado": 12,
+              "ajustes": {},
+              "nome_curto": "Medo paralisante 6",
+              "ataque": {
+                "tipo": "distancia",
+                "efeito": 6,
+                "efeito_nome": "Aflição",
+                "critico": 20,
+                "pericia": "Combate à Distância: Feitiços",
+                "soma_forca": false,
+                "resistido_por": "Vontade"
+              },
+              "arranjo": "Magia negra"
+            },
+            "passo_das_trevas": {
+              "nome": "Passo das trevas (Teleporte 3, Estendido, Aumento de Massa 3)",
+              "custo_informado": 12,
+              "ajustes": {},
+              "nome_curto": "Passo das trevas",
+              "arranjo": "Magia negra"
+            },
+            "gavinhas_da_escuridao": {
+              "nome": "Gavinhas da escuridão (Mover Objetos 6)",
+              "custo_informado": 12,
+              "ajustes": {},
+              "nome_curto": "Gavinhas da escuridão 6",
+              "arranjo": "Magia negra"
+            }
+          },
+          "equipamento": [
+            "adaga"
+          ],
+          "ataque_desarmado": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "assassino",
+    "nome": "Assassino de aluguel",
+    "nomes": "humano",
+    "capanga": false,
+    "np_maximo": 10,
+    "descricao": "Matador profissional contratado por guildas, nobres e herdeiros impacientes. Prefere uma flecha de longe a uma luta justa.",
+    "prioridades": [
+      "pericia:Combate à Distância: Arcos",
+      "pericia:Furtividade",
+      "defesa:Esquiva",
+      "pericia:Percepção",
+      "pericia:Enganação",
+      "defesa:Aparar",
+      "defesa:Vontade",
+      "defesa:Fortitude",
+      "habilidade:Des",
+      "pericia:Combate Corpo-a-Corpo: Espadas"
+    ],
+    "faixas": [
+      {
+        "np": 6,
+        "nome": "Assassino de aluguel",
+        "fonte": "Guia do Mestre de Jogo, p. 250 (Assassino de Aluguel), adaptado à fantasia",
+        "status_dados": "validado",
+        "observacao": "Mesmos custos por seção do livro (74 PP). O rifle de precisão virou arco longo (+7, Dano 4) e o garrote virou uma corda; entrou uma rapieira. Combate à Distância: Armas virou Arcos. O livro imprime o rifle com Dano 7, que passaria do limite do NP 6 com o bônus +7.",
+        "ficha": {
+          "habilidades": {
+            "For": 2,
+            "Vig": 2,
+            "Agi": 2,
+            "Des": 4,
+            "Lut": 5,
+            "Int": 1,
+            "Pro": 1,
+            "Pre": 1
+          },
+          "defesas_compradas": {
+            "Esquiva": 7,
+            "Aparar": 4,
+            "Fortitude": 3,
+            "Vontade": 6
+          },
+          "pericias": {
+            "Combate à Distância: Arcos": 3,
+            "Enganação": 6,
+            "Especialidade: Criminal": 6,
+            "Furtividade": 8,
+            "Percepção": 5
+          },
+          "vantagens": {
+            "Mira Aprimorada": 1,
+            "Equipamento": 3
+          },
+          "equipamento": [
+            "arco_longo",
+            "rapieira",
+            "adaga",
+            "corda"
+          ],
+          "ataque_desarmado": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "esqueleto",
+    "nome": "Esqueleto",
+    "nomes": "monstro",
+    "capanga": true,
+    "np_maximo": 6,
+    "descricao": "Ossos de um guerreiro antigo erguidos por necromancia. Não sente dor, não cansa e não teme nada.",
+    "prioridades": [
+      "defesa:Esquiva",
+      "defesa:Aparar",
+      "pericia:Combate Corpo-a-Corpo: Briga",
+      "habilidade:Lut",
+      "habilidade:Agi",
+      "pericia:Percepção"
+    ],
+    "faixas": [
+      {
+        "np": 2,
+        "nome": "Esqueleto",
+        "fonte": "Guia do Mestre de Jogo, p. 255 (Esqueleto)",
+        "status_dados": "validado",
+        "observacao": "Ficha do livro (24 PP). Habilidades ausentes no livro (—) foram registradas como -5, que custa o mesmo (-10 PP cada). A imunidade devolve +5 à Fortitude e à Resistência, para que a Resistência seja só a da Proteção 2 e a Fortitude (imune) apareça como 0. Vontade aparece com a Prontidão (-1); no livro ela é ausente.",
+        "ficha": {
+          "habilidades": {
+            "For": 2,
+            "Vig": -5,
+            "Agi": 1,
+            "Des": 0,
+            "Lut": 1,
+            "Int": -5,
+            "Pro": -1,
+            "Pre": -5
+          },
+          "defesas_compradas": {},
+          "pericias": {},
+          "vantagens": {
+            "Iniciativa Aprimorada": 1
+          },
+          "poderes": {
+            "imunidade": {
+              "nome": "Imunidade 45 (efeitos de Fortitude, frio, meio dano de corte e perfuração)",
+              "custo_informado": 45,
+              "ajustes": {
+                "Resistência": 5,
+                "Fortitude": 5
+              },
+              "nome_curto": "Imunidade 45"
+            },
+            "protecao": {
+              "nome": "Proteção 2 (ossos duros)",
+              "custo_informado": 2,
+              "ajustes": {
+                "Proteção": 2
+              },
+              "nome_curto": "Proteção 2"
+            }
+          },
+          "equipamento": [],
+          "ataque_desarmado": true
+        }
+      },
+      {
+        "np": 3,
+        "nome": "Esqueleto guerreiro",
+        "fonte": "Guia do Mestre de Jogo, p. 255 (Esqueleto), com armas e armadura",
+        "status_dados": "ilustrativo",
+        "observacao": "O livro diz que esqueletos de guerreiros antigos podem usar armas e armaduras, com +2 em dano e Resistência e +1 NP. Aqui isso virou machadinha (Dano 2) e meia-armadura (Proteção 4 no lugar da Proteção 2), pagas com Equipamento 2 (26 PP). Habilidades ausentes no livro (—) foram registradas como -5, que custa o mesmo (-10 PP cada).",
+        "ficha": {
+          "habilidades": {
+            "For": 2,
+            "Vig": -5,
+            "Agi": 1,
+            "Des": 0,
+            "Lut": 1,
+            "Int": -5,
+            "Pro": -1,
+            "Pre": -5
+          },
+          "defesas_compradas": {},
+          "pericias": {},
+          "vantagens": {
+            "Iniciativa Aprimorada": 1,
+            "Equipamento": 2
+          },
+          "poderes": {
+            "imunidade": {
+              "nome": "Imunidade 45 (efeitos de Fortitude, frio, meio dano de corte e perfuração)",
+              "custo_informado": 45,
+              "ajustes": {
+                "Resistência": 5,
+                "Fortitude": 5
+              },
+              "nome_curto": "Imunidade 45"
+            },
+            "protecao": {
+              "nome": "Proteção 2 (ossos duros)",
+              "custo_informado": 2,
+              "ajustes": {
+                "Proteção": 2
+              },
+              "nome_curto": "Proteção 2"
+            }
+          },
+          "equipamento": [
+            "machadinha",
+            "meia_armadura"
+          ],
+          "ataque_desarmado": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "zumbi",
+    "nome": "Zumbi",
+    "nomes": "monstro",
+    "capanga": true,
+    "np_maximo": 6,
+    "descricao": "Cadáver reerguido por magia negra. Lento e burro, mas não para até ser despedaçado, e quase sempre aparece em bando.",
+    "prioridades": [
+      "defesa:Aparar",
+      "defesa:Esquiva",
+      "pericia:Combate Corpo-a-Corpo: Briga",
+      "habilidade:For",
+      "habilidade:Lut",
+      "pericia:Percepção"
+    ],
+    "faixas": [
+      {
+        "np": 2,
+        "nome": "Zumbi",
+        "fonte": "Guia do Mestre de Jogo, p. 255 (Zumbi)",
+        "status_dados": "validado",
+        "observacao": "Ficha do livro (4 PP). Habilidades ausentes no livro (—) foram registradas como -5, que custa o mesmo (-10 PP cada). A imunidade devolve +5 à Fortitude e à Resistência, para que a Resistência seja só a da Proteção 3 e a Fortitude (imune) apareça como 0. Vontade aparece com a Prontidão (-1); no livro ela é ausente.",
+        "ficha": {
+          "habilidades": {
+            "For": 2,
+            "Vig": -5,
+            "Agi": -1,
+            "Des": -1,
+            "Lut": 1,
+            "Int": -5,
+            "Pro": -1,
+            "Pre": -5
+          },
+          "defesas_compradas": {
+            "Esquiva": 1
+          },
+          "pericias": {},
+          "vantagens": {},
+          "poderes": {
+            "imunidade": {
+              "nome": "Imunidade 30 (efeitos de Fortitude)",
+              "custo_informado": 30,
+              "ajustes": {
+                "Resistência": 5,
+                "Fortitude": 5
+              },
+              "nome_curto": "Imunidade 30"
+            },
+            "protecao": {
+              "nome": "Proteção 3 (carne morta)",
+              "custo_informado": 3,
+              "ajustes": {
+                "Proteção": 3
+              },
+              "nome_curto": "Proteção 3"
+            }
+          },
+          "equipamento": [],
+          "ataque_desarmado": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "lobo",
+    "nome": "Lobo",
+    "nomes": "animal",
+    "capanga": true,
+    "np_maximo": 6,
+    "descricao": "Caçador das florestas do norte. Anda em matilha, cerca a presa e derruba quem fica para trás.",
+    "prioridades": [
+      "pericia:Combate Corpo-a-Corpo: Mordida",
+      "defesa:Esquiva",
+      "defesa:Aparar",
+      "pericia:Percepção",
+      "pericia:Furtividade",
+      "defesa:Fortitude",
+      "habilidade:Lut",
+      "defesa:Vontade"
+    ],
+    "faixas": [
+      {
+        "np": 3,
+        "nome": "Lobo",
+        "fonte": "Guia do Mestre de Jogo, p. 227 (Lobo)",
+        "status_dados": "validado",
+        "observacao": "Ficha do livro (23 PP). A mordida é o ataque desarmado do livro (+3, Dano 2).",
+        "ficha": {
+          "habilidades": {
+            "For": 2,
+            "Vig": 2,
+            "Agi": 2,
+            "Des": 0,
+            "Lut": 3,
+            "Int": -4,
+            "Pro": 2,
+            "Pre": -2
+          },
+          "defesas_compradas": {
+            "Esquiva": 2,
+            "Aparar": 1,
+            "Fortitude": 2
+          },
+          "pericias": {
+            "Percepção": 4,
+            "Furtividade": 4
+          },
+          "vantagens": {
+            "Derrubar Aprimorado": 1
+          },
+          "poderes": {
+            "sentidos": {
+              "nome": "Sentidos 3 (faro aguçado, visão na penumbra, rastreio)",
+              "custo_informado": 3,
+              "ajustes": {},
+              "nome_curto": "Sentidos 3"
+            }
+          },
+          "equipamento": [],
+          "ataque_desarmado": false,
+          "ataques_naturais": [
+            {
+              "nome": "Mordida",
+              "tipo": "corpo",
+              "efeito": 0,
+              "soma_forca": true,
+              "pericia": "Combate Corpo-a-Corpo: Mordida",
+              "critico": 20
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "urso",
+    "nome": "Urso",
+    "nomes": "animal",
+    "capanga": false,
+    "np_maximo": 8,
+    "descricao": "Fera de quase quatro metros quando se levanta. Defende o território e a cria com garras do tamanho de adagas.",
+    "prioridades": [
+      "defesa:Esquiva",
+      "defesa:Aparar",
+      "pericia:Combate Corpo-a-Corpo: Garras",
+      "defesa:Fortitude",
+      "pericia:Percepção",
+      "defesa:Vontade",
+      "pericia:Atletismo",
+      "pericia:Intimidação"
+    ],
+    "faixas": [
+      {
+        "np": 6,
+        "nome": "Urso",
+        "fonte": "Guia do Mestre de Jogo, p. 229 (Urso)",
+        "status_dados": "validado",
+        "observacao": "Ficha do livro (36 PP). Como no cavalo do Oeste, a Força e o Vigor do livro já incluem o Crescimento 4 (+4 For e Vig, -2 Esquiva e Aparar), registrado como ajuste do poder.",
+        "ficha": {
+          "habilidades": {
+            "For": 4,
+            "Vig": 0,
+            "Agi": 1,
+            "Des": 0,
+            "Lut": 3,
+            "Int": -4,
+            "Pro": 1,
+            "Pre": -2
+          },
+          "defesas_compradas": {
+            "Esquiva": 5,
+            "Aparar": 4,
+            "Fortitude": 2,
+            "Vontade": 2
+          },
+          "pericias": {
+            "Atletismo": 4,
+            "Percepção": 4
+          },
+          "vantagens": {},
+          "poderes": {
+            "crescimento": {
+              "nome": "Crescimento 4 (Permanente, Inato)",
+              "custo_informado": 9,
+              "ajustes": {
+                "For": 4,
+                "Vig": 4,
+                "Esquiva": -2,
+                "Aparar": -2
+              }
+            },
+            "protecao": {
+              "nome": "Proteção 2 (couro grosso)",
+              "custo_informado": 2,
+              "ajustes": {
+                "Proteção": 2
+              },
+              "nome_curto": "Proteção 2"
+            },
+            "sentidos": {
+              "nome": "Sentidos 2 (visão na penumbra, faro acurado)",
+              "custo_informado": 2,
+              "ajustes": {},
+              "nome_curto": "Sentidos 2"
+            }
+          },
+          "equipamento": [],
+          "ataque_desarmado": false,
+          "ataques_naturais": [
+            {
+              "nome": "Garras",
+              "tipo": "corpo",
+              "efeito": 0,
+              "soma_forca": true,
+              "pericia": "Combate Corpo-a-Corpo: Garras",
+              "critico": 20
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "cavalo",
+    "nome": "Cavalo",
+    "nomes": "animal",
+    "capanga": false,
+    "np_maximo": 5,
+    "descricao": "Montaria de viajantes, mensageiros e cavaleiros. Representa a maioria dos cavalos do reino.",
+    "prioridades": [
+      "defesa:Esquiva",
+      "defesa:Aparar",
+      "defesa:Fortitude",
+      "pericia:Percepção",
+      "pericia:Combate Corpo-a-Corpo: Coice",
+      "defesa:Vontade",
+      "pericia:Atletismo"
+    ],
+    "faixas": [
+      {
+        "np": 3,
+        "nome": "Cavalo",
+        "fonte": "Guia do Mestre de Jogo, p. 223 (Cavalo)",
+        "status_dados": "validado",
+        "observacao": "Mesma ficha do cavalo do Oeste. O guia informa 15 pontos em poderes; Velocidade e Sentidos custam 1 ponto por graduação, então o Crescimento ficou com os 9 pontos restantes.",
+        "ficha": {
+          "habilidades": {
+            "For": 0,
+            "Vig": 0,
+            "Agi": 1,
+            "Des": -4,
+            "Lut": 2,
+            "Int": -4,
+            "Pro": 1,
+            "Pre": -3
+          },
+          "defesas_compradas": {
+            "Esquiva": 3,
+            "Aparar": 2,
+            "Fortitude": 1
+          },
+          "pericias": {
+            "Percepção": 4
+          },
+          "vantagens": {},
+          "poderes": {
+            "crescimento": {
+              "nome": "Crescimento 4 (Permanente, Inato)",
+              "custo_informado": 9,
+              "ajustes": {
+                "For": 4,
+                "Vig": 4,
+                "Esquiva": -2,
+                "Aparar": -2
+              }
+            },
+            "sentidos": {
+              "nome": "Sentidos 2 (visão estendida, visão na penumbra)",
+              "custo_informado": 2,
+              "ajustes": {}
+            },
+            "velocidade": {
+              "nome": "Velocidade 4 (60 km/h)",
+              "custo_informado": 4,
+              "ajustes": {}
+            }
+          },
+          "equipamento": [],
+          "ataque_desarmado": false,
+          "ataques_naturais": [
+            {
+              "nome": "Coice e mordida",
+              "tipo": "corpo",
+              "efeito": 0,
+              "soma_forca": true,
+              "pericia": "Combate Corpo-a-Corpo: Coice",
+              "critico": 20
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "demonio",
+    "nome": "Demônio",
+    "nomes": "monstro",
+    "capanga": true,
+    "np_maximo": 10,
+    "habilidade_maxima": 10,
+    "descricao": "Criatura dos planos infernais, invocada por feiticeiros como espiã, soldado ou arma de cerco viva. Cheira a enxofre e odeia tudo o que vive.",
+    "prioridades": [
+      "pericia:Combate Corpo-a-Corpo: Garras",
+      "defesa:Esquiva",
+      "defesa:Aparar",
+      "pericia:Intimidação",
+      "defesa:Vontade",
+      "defesa:Fortitude",
+      "pericia:Percepção",
+      "habilidade:Lut",
+      "pericia:Enganação"
+    ],
+    "faixas": [
+      {
+        "np": 4,
+        "nome": "Diabrete",
+        "fonte": "Guia do Mestre de Jogo, p. 233 (Demônio, Diabrete)",
+        "status_dados": "validado",
+        "observacao": "Ficha do livro (72 PP). A Força do livro (1) já inclui o Encolhimento 4 (-1 For, +2 Esquiva e Aparar), registrado como ajuste do poder sobre For 2. O Encolhimento também dá +4 em Furtividade, que a ficha não soma (o cartão mostra +5; no livro, +9).",
+        "ficha": {
+          "habilidades": {
+            "For": 2,
+            "Vig": 2,
+            "Agi": 1,
+            "Des": 1,
+            "Lut": 3,
+            "Int": 0,
+            "Pro": 1,
+            "Pre": 0
+          },
+          "defesas_compradas": {
+            "Esquiva": 2,
+            "Fortitude": 3,
+            "Vontade": 2
+          },
+          "pericias": {
+            "Combate Corpo-a-Corpo: Garras": 2,
+            "Enganação": 4,
+            "Especialidade: Magia": 4,
+            "Intuição": 4,
+            "Percepção": 4,
+            "Furtividade": 4
+          },
+          "vantagens": {
+            "Rolamento Defensivo": 1
+          },
+          "poderes": {
+            "garras": {
+              "nome": "Garras (Dano 2 baseado em Força)",
+              "custo_informado": 2,
+              "ajustes": {},
+              "nome_curto": "Garras 2"
+            },
+            "voo": {
+              "nome": "Voo 2 (Asas)",
+              "custo_informado": 2,
+              "ajustes": {}
+            },
+            "imunidade": {
+              "nome": "Imunidade 18 (ácido, fogo, frio, doenças, envelhecimento, veneno)",
+              "custo_informado": 18,
+              "ajustes": {},
+              "nome_curto": "Imunidade 18"
+            },
+            "sentidos": {
+              "nome": "Sentidos 2 (visão no escuro)",
+              "custo_informado": 2,
+              "ajustes": {}
+            },
+            "encolhimento": {
+              "nome": "Encolhimento 4 (Permanente, Inato)",
+              "custo_informado": 9,
+              "ajustes": {
+                "For": -1,
+                "Esquiva": 2,
+                "Aparar": 2
+              }
+            }
+          },
+          "equipamento": [],
+          "ataque_desarmado": false,
+          "ataques_naturais": [
+            {
+              "nome": "Garras",
+              "tipo": "corpo",
+              "efeito": 2,
+              "soma_forca": true,
+              "pericia": "Combate Corpo-a-Corpo: Garras",
+              "critico": 20
+            }
+          ]
+        }
+      },
+      {
+        "np": 6,
+        "nome": "Demônio guerreiro",
+        "fonte": "Guia do Mestre de Jogo, p. 234 (Demônio, Guerreiro)",
+        "status_dados": "validado",
+        "observacao": "Ficha do livro (71 PP).",
+        "ficha": {
+          "habilidades": {
+            "For": 6,
+            "Vig": 5,
+            "Agi": 1,
+            "Des": 0,
+            "Lut": 5,
+            "Int": -1,
+            "Pro": 1,
+            "Pre": 0
+          },
+          "defesas_compradas": {
+            "Esquiva": 4,
+            "Fortitude": 2,
+            "Vontade": 4
+          },
+          "pericias": {
+            "Intimidação": 4,
+            "Percepção": 4
+          },
+          "vantagens": {},
+          "poderes": {
+            "garras": {
+              "nome": "Garras (Dano 1 baseado em Força)",
+              "custo_informado": 1,
+              "ajustes": {},
+              "nome_curto": "Garras 1"
+            },
+            "imunidade": {
+              "nome": "Imunidade 18 (ácido, fogo, frio, doenças, envelhecimento, veneno)",
+              "custo_informado": 18,
+              "ajustes": {},
+              "nome_curto": "Imunidade 18"
+            },
+            "protecao": {
+              "nome": "Proteção 2 (couro escamoso)",
+              "custo_informado": 2,
+              "ajustes": {
+                "Proteção": 2
+              },
+              "nome_curto": "Proteção 2"
+            },
+            "sentidos": {
+              "nome": "Sentidos 2 (visão no escuro)",
+              "custo_informado": 2,
+              "ajustes": {}
+            }
+          },
+          "equipamento": [],
+          "ataque_desarmado": false,
+          "ataques_naturais": [
+            {
+              "nome": "Garras",
+              "tipo": "corpo",
+              "efeito": 1,
+              "soma_forca": true,
+              "pericia": "Combate Corpo-a-Corpo: Garras",
+              "critico": 20
+            }
+          ]
+        }
+      },
+      {
+        "np": 8,
+        "nome": "Demônio brutamontes",
+        "fonte": "Guia do Mestre de Jogo, p. 232 (Demônio, Bruto)",
+        "status_dados": "validado",
+        "observacao": "Ficha do livro (100 PP). A Fortitude é imune no livro; aqui aparece com o Vigor (5). O ataque desarmado do livro virou garras (+6, Dano 10).",
+        "ficha": {
+          "habilidades": {
+            "For": 10,
+            "Vig": 5,
+            "Agi": 0,
+            "Des": 0,
+            "Lut": 6,
+            "Int": -1,
+            "Pro": -1,
+            "Pre": -1
+          },
+          "defesas_compradas": {
+            "Esquiva": 6,
+            "Vontade": 7
+          },
+          "pericias": {
+            "Intimidação": 8
+          },
+          "vantagens": {
+            "Agarrar Aprimorado": 1,
+            "Ataque Poderoso": 1,
+            "Duro de Matar": 1
+          },
+          "poderes": {
+            "imunidade": {
+              "nome": "Imunidade 32 (acertos críticos, efeitos de Fortitude)",
+              "custo_informado": 32,
+              "ajustes": {},
+              "nome_curto": "Imunidade 32"
+            },
+            "salto": {
+              "nome": "Salto 2",
+              "custo_informado": 2,
+              "ajustes": {}
+            },
+            "protecao": {
+              "nome": "Proteção 5 (Impenetrável)",
+              "custo_informado": 10,
+              "ajustes": {
+                "Proteção": 5
+              },
+              "nome_curto": "Proteção 5"
+            }
+          },
+          "equipamento": [],
+          "ataque_desarmado": false,
+          "ataques_naturais": [
+            {
+              "nome": "Garras",
+              "tipo": "corpo",
+              "efeito": 0,
+              "soma_forca": true,
+              "pericia": "Combate Corpo-a-Corpo: Garras",
+              "critico": 20
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "fada",
+    "nome": "Fada",
+    "nomes": "elfo",
+    "capanga": false,
+    "np_maximo": 8,
+    "descricao": "Criaturinha caprichosa dos bosques encantados. Não costuma ser má, mas adora uma emoção forte, e raramente percebe quando a brincadeira passou do ponto.",
+    "prioridades": [
+      "defesa:Esquiva",
+      "pericia:Enganação",
+      "pericia:Furtividade",
+      "defesa:Vontade",
+      "pericia:Intimidação",
+      "pericia:Acrobacia",
+      "defesa:Aparar",
+      "habilidade:Agi",
+      "pericia:Percepção"
+    ],
+    "faixas": [
+      {
+        "np": 4,
+        "nome": "Fada azaradora",
+        "fonte": "Guia do Mestre de Jogo, p. 237 (Fada, Azaradora)",
+        "status_dados": "validado",
+        "observacao": "Ficha do livro com um ajuste: o livro dá Sorte 4, mas Sorte não pode passar da metade do NP (2 no NP 4); as 2 graduações restantes viraram Tontear e Zombar (54 PP, como no livro). A Força do livro (-1) inclui o Encolhimento 4 (-1 For, +2 Esquiva e Aparar). O Encolhimento também dá +4 em Furtividade e -2 em Intimidação, que a ficha não aplica. Ofício virou Tecelagem.",
+        "ficha": {
+          "habilidades": {
+            "For": 0,
+            "Vig": 3,
+            "Agi": 3,
+            "Des": 1,
+            "Lut": 2,
+            "Int": 0,
+            "Pro": 3,
+            "Pre": 0
+          },
+          "defesas_compradas": {
+            "Aparar": 1
+          },
+          "pericias": {
+            "Especialidade: Tecelagem": 4,
+            "Furtividade": 2,
+            "Intimidação": 10
+          },
+          "vantagens": {
+            "Assustar": 1,
+            "Esconder-se à Plena Vista": 1,
+            "Redirecionar": 1,
+            "Sorte": 2,
+            "Tontear": 1,
+            "Zombar": 1
+          },
+          "poderes": {
+            "controle_de_sorte": {
+              "nome": "Controle de Sorte 2 (forçar nova rolagem, negar sorte)",
+              "custo_informado": 6,
+              "ajustes": {},
+              "nome_curto": "Controle de Sorte 2"
+            },
+            "encolhimento": {
+              "nome": "Encolhimento 4",
+              "custo_informado": 8,
+              "ajustes": {
+                "For": -1,
+                "Esquiva": 2,
+                "Aparar": 2
+              }
+            }
+          },
+          "equipamento": [],
+          "ataque_desarmado": true
+        }
+      },
+      {
+        "np": 5,
+        "nome": "Fada trapaceira",
+        "fonte": "Guia do Mestre de Jogo, p. 237 (Fada, Trapaceira)",
+        "status_dados": "validado",
+        "observacao": "O livro soma 87 PP, mas os próprios números dão 86: as habilidades custam 16 PP (o livro diz 18) e as defesas impressas pedem 10 graduações (o livro diz 9). A Força do livro (-2) inclui o Encolhimento 8 (-2 For, +4 Esquiva e Aparar); o bônus de +8 em Furtividade do Encolhimento não é aplicado pela ficha.",
+        "ficha": {
+          "habilidades": {
+            "For": 0,
+            "Vig": 0,
+            "Agi": 5,
+            "Des": 1,
+            "Lut": 0,
+            "Int": 0,
+            "Pro": 2,
+            "Pre": 0
+          },
+          "defesas_compradas": {
+            "Esquiva": 1,
+            "Aparar": 2,
+            "Fortitude": 3,
+            "Vontade": 4
+          },
+          "pericias": {
+            "Acrobacia": 2,
+            "Enganação": 8,
+            "Especialidade: Natureza": 4
+          },
+          "vantagens": {
+            "Iniciativa Aprimorada": 1,
+            "Armação": 1,
+            "Zombar": 1
+          },
+          "poderes": {
+            "aura": {
+              "nome": "Característica 1 (aura brilhante)",
+              "custo_informado": 1,
+              "ajustes": {},
+              "nome_curto": "Aura brilhante"
+            },
+            "voo": {
+              "nome": "Voo 4 (60 km/h)",
+              "custo_informado": 8,
+              "ajustes": {}
+            },
+            "ilusao": {
+              "nome": "Ilusão 5 (todos os sentidos)",
+              "custo_informado": 25,
+              "ajustes": {},
+              "nome_curto": "Ilusão 5"
+            },
+            "encolhimento": {
+              "nome": "Encolhimento 8",
+              "custo_informado": 16,
+              "ajustes": {
+                "For": -2,
+                "Esquiva": 4,
+                "Aparar": 4
+              }
+            }
+          },
+          "equipamento": [],
+          "ataque_desarmado": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "gargula",
+    "nome": "Gárgula",
+    "nomes": "monstro",
+    "capanga": true,
+    "np_maximo": 8,
+    "descricao": "Criatura de pele de pedra que passa o dia imóvel nos telhados de catedrais e castelos e caça à noite.",
+    "prioridades": [
+      "pericia:Combate Corpo-a-Corpo: Garras",
+      "defesa:Esquiva",
+      "defesa:Aparar",
+      "pericia:Percepção",
+      "pericia:Furtividade",
+      "defesa:Vontade",
+      "defesa:Fortitude",
+      "habilidade:Lut"
+    ],
+    "faixas": [
+      {
+        "np": 5,
+        "nome": "Gárgula",
+        "fonte": "Guia do Mestre de Jogo, p. 238 (Gárgula)",
+        "status_dados": "validado",
+        "observacao": "Ficha do livro (42 PP). As garras são o ataque do livro (+4, Dano 2).",
+        "ficha": {
+          "habilidades": {
+            "For": 2,
+            "Vig": 4,
+            "Agi": 1,
+            "Des": 0,
+            "Lut": 4,
+            "Int": -2,
+            "Pro": 0,
+            "Pre": -2
+          },
+          "defesas_compradas": {
+            "Esquiva": 2,
+            "Fortitude": 2,
+            "Vontade": 4
+          },
+          "pericias": {
+            "Furtividade": 4,
+            "Percepção": 4
+          },
+          "vantagens": {},
+          "poderes": {
+            "imunidade": {
+              "nome": "Imunidade 10 (suporte vital)",
+              "custo_informado": 10,
+              "ajustes": {},
+              "nome_curto": "Imunidade 10"
+            },
+            "protecao": {
+              "nome": "Proteção 2 (Impenetrável; pele de pedra)",
+              "custo_informado": 4,
+              "ajustes": {
+                "Proteção": 2
+              },
+              "nome_curto": "Proteção 2"
+            },
+            "voo": {
+              "nome": "Voo 2 (Asas)",
+              "custo_informado": 2,
+              "ajustes": {}
+            }
+          },
+          "equipamento": [],
+          "ataque_desarmado": false,
+          "ataques_naturais": [
+            {
+              "nome": "Garras",
+              "tipo": "corpo",
+              "efeito": 0,
+              "soma_forca": true,
+              "pericia": "Combate Corpo-a-Corpo: Garras",
+              "critico": 20
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "arvore_animada",
+    "nome": "Árvore animada",
+    "nomes": "monstro",
+    "capanga": true,
+    "np_maximo": 10,
+    "descricao": "Árvore adulta que arranca as raízes do chão para defender o bosque, a mando de um druida ou de um espírito antigo.",
+    "prioridades": [
+      "defesa:Aparar",
+      "pericia:Combate Corpo-a-Corpo: Galhos",
+      "defesa:Esquiva",
+      "pericia:Percepção",
+      "defesa:Vontade",
+      "habilidade:Lut"
+    ],
+    "faixas": [
+      {
+        "np": 8,
+        "nome": "Árvore animada",
+        "fonte": "Guia do Mestre de Jogo, p. 236 (Árvore Animada)",
+        "status_dados": "validado",
+        "observacao": "O livro lista Agarrar Aprimorado mas soma 0 em vantagens (17 PP); a vantagem foi mantida (18 PP). A Força e o Vigor do livro (8) já incluem o Crescimento 8 (+8 For e Vig, -4 Esquiva e Aparar). Habilidades ausentes no livro (—) foram registradas como -5, que custa o mesmo (-10 PP cada).",
+        "ficha": {
+          "habilidades": {
+            "For": 0,
+            "Vig": 0,
+            "Agi": -2,
+            "Des": 0,
+            "Lut": 4,
+            "Int": -5,
+            "Pro": 0,
+            "Pre": -5
+          },
+          "defesas_compradas": {
+            "Esquiva": 6,
+            "Aparar": 4
+          },
+          "pericias": {},
+          "vantagens": {
+            "Agarrar Aprimorado": 1
+          },
+          "poderes": {
+            "membros": {
+              "nome": "Membros Extras 4 (galhos)",
+              "custo_informado": 4,
+              "ajustes": {}
+            },
+            "crescimento": {
+              "nome": "Crescimento 8 (Permanente, Inato)",
+              "custo_informado": 17,
+              "ajustes": {
+                "For": 8,
+                "Vig": 8,
+                "Esquiva": -4,
+                "Aparar": -4
+              }
+            },
+            "imunidade": {
+              "nome": "Imunidade 2 (sufocamento)",
+              "custo_informado": 2,
+              "ajustes": {}
+            }
+          },
+          "equipamento": [],
+          "ataque_desarmado": false,
+          "ataques_naturais": [
+            {
+              "nome": "Galhos",
+              "tipo": "corpo",
+              "efeito": 0,
+              "soma_forca": true,
+              "pericia": "Combate Corpo-a-Corpo: Galhos",
+              "critico": 20
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "dragao",
+    "nome": "Dragão",
+    "nomes": "monstro",
+    "capanga": false,
+    "np_maximo": 10,
+    "descricao": "Réptil alado do tamanho de uma casa, coberto de escamas e com um sopro que derrete armaduras. Dorme sobre o tesouro de reinos inteiros.",
+    "prioridades": [
+      "defesa:Esquiva",
+      "defesa:Aparar",
+      "pericia:Combate à Distância: Sopro",
+      "pericia:Combate Corpo-a-Corpo: Mordida",
+      "pericia:Percepção",
+      "defesa:Vontade",
+      "pericia:Intimidação",
+      "habilidade:Lut"
+    ],
+    "faixas": [
+      {
+        "np": 9,
+        "nome": "Dragão",
+        "fonte": "Guia do Mestre de Jogo, p. 237 (Dragão)",
+        "status_dados": "validado",
+        "observacao": "Ficha do livro (88 PP). A Força e o Vigor do livro (12) já incluem o Crescimento 12 (+12 For e Vig, -6 Esquiva e Aparar). Combate à Distância: Sopro de Fogo virou só Sopro, para servir a outros sopros. Como o NP 9 não está na lista de NPs do gerador, o dragão aparece a partir do NP 10.",
+        "ficha": {
+          "habilidades": {
+            "For": 0,
+            "Vig": 0,
+            "Agi": 0,
+            "Des": 0,
+            "Lut": 6,
+            "Int": -2,
+            "Pro": 1,
+            "Pre": -1
+          },
+          "defesas_compradas": {
+            "Esquiva": 9,
+            "Aparar": 3,
+            "Vontade": 5
+          },
+          "pericias": {
+            "Percepção": 4,
+            "Combate à Distância: Sopro": 6
+          },
+          "vantagens": {},
+          "poderes": {
+            "sopro": {
+              "nome": "Sopro de fogo 12 (Dano à Distância; fogo)",
+              "custo_informado": 24,
+              "ajustes": {},
+              "nome_curto": "Sopro de fogo 12",
+              "ataque": {
+                "tipo": "distancia",
+                "efeito": 12,
+                "efeito_nome": "Dano",
+                "critico": 20,
+                "pericia": "Combate à Distância: Sopro",
+                "soma_forca": false
+              }
+            },
+            "voo": {
+              "nome": "Voo 6 (250 km/h; Asas)",
+              "custo_informado": 6,
+              "ajustes": {},
+              "nome_curto": "Voo 6"
+            },
+            "crescimento": {
+              "nome": "Crescimento 12 (Permanente, Inato)",
+              "custo_informado": 25,
+              "ajustes": {
+                "For": 12,
+                "Vig": 12,
+                "Esquiva": -6,
+                "Aparar": -6
+              }
+            },
+            "protecao": {
+              "nome": "Proteção 3 (escamas)",
+              "custo_informado": 3,
+              "ajustes": {
+                "Proteção": 3
+              },
+              "nome_curto": "Proteção 3"
+            }
+          },
+          "equipamento": [],
+          "ataque_desarmado": false,
+          "ataques_naturais": [
+            {
+              "nome": "Mordida e garras",
+              "tipo": "corpo",
+              "efeito": 0,
+              "soma_forca": true,
+              "pericia": "Combate Corpo-a-Corpo: Mordida",
+              "critico": 20
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

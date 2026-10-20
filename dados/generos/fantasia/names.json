@@ -1,0 +1,171 @@
+{
+  "humano": {
+    "nomes": [
+      "Aldric",
+      "Brenna",
+      "Cedric",
+      "Daria",
+      "Edmund",
+      "Freya",
+      "Gareth",
+      "Helena",
+      "Ivo",
+      "Jocelyn",
+      "Kael",
+      "Lyra",
+      "Marcus",
+      "Nadia",
+      "Osric",
+      "Petra",
+      "Roland",
+      "Selene",
+      "Tobias",
+      "Ursula",
+      "Viktor",
+      "Wren",
+      "Isolde",
+      "Bran"
+    ],
+    "sobrenomes": [
+      "de Valdoria",
+      "Martelo-Firme",
+      "do Vale Verde",
+      "Corvo-Negro",
+      "de Altamira",
+      "Ferreira",
+      "Lobo-Cinzento",
+      "da Ponte",
+      "Cervo-Branco",
+      "Pedra-Alta",
+      "do Norte",
+      "Mão-de-Prata"
+    ],
+    "apelidos": [
+      "o Ousado",
+      "a Raposa",
+      "o Justo",
+      "a Sombra",
+      "o Ferreiro",
+      "a Lâmina",
+      "o Errante",
+      "o Velho",
+      "a Corajosa",
+      "o Silencioso"
+    ]
+  },
+  "anao": {
+    "nomes": [
+      "Thorin",
+      "Dagna",
+      "Balin",
+      "Helga",
+      "Gimrik",
+      "Brunhilda",
+      "Durgan",
+      "Vistra",
+      "Rurik",
+      "Eldeth",
+      "Bruenor",
+      "Kathra"
+    ],
+    "sobrenomes": [
+      "Barba-de-Ferro",
+      "Martelo-de-Pedra",
+      "Forjafogo",
+      "Quebra-Rochas",
+      "Escudo-de-Bronze",
+      "Machado-Rubro",
+      "Punho-de-Granito"
+    ]
+  },
+  "elfo": {
+    "nomes": [
+      "Aelar",
+      "Lia",
+      "Thamior",
+      "Naivara",
+      "Erevan",
+      "Sariel",
+      "Galinndan",
+      "Keyleth",
+      "Ivellios",
+      "Shava",
+      "Soveliss",
+      "Enna"
+    ],
+    "sobrenomes": [
+      "Folha-de-Prata",
+      "Brisa-da-Lua",
+      "Estrela-Cadente",
+      "Galho-Alto",
+      "Orvalho-Claro",
+      "Canto-do-Rio"
+    ]
+  },
+  "halfling": {
+    "nomes": [
+      "Milo",
+      "Rosie",
+      "Perrin",
+      "Lidda",
+      "Corrin",
+      "Seraphina",
+      "Wellby",
+      "Callie",
+      "Roscoe",
+      "Merla"
+    ],
+    "sobrenomes": [
+      "Pé-Leve",
+      "Bom-Barril",
+      "Morro-Verde",
+      "Folha-de-Chá",
+      "Toca-Funda",
+      "Mão-Ligeira"
+    ]
+  },
+  "monstro": {
+    "nomes": [
+      "Grishnak",
+      "Vorgath",
+      "Skarr",
+      "Mordrek",
+      "Ulgra",
+      "Zarkhul",
+      "Bhaal",
+      "Kragg",
+      "Nyx",
+      "Azgor",
+      "Malgrim",
+      "Thraxx"
+    ],
+    "sobrenomes": [
+      "o Devorador",
+      "o Cruel",
+      "Presa-Negra",
+      "Olho-de-Brasa",
+      "o Antigo",
+      "Garra-Rubra"
+    ]
+  },
+  "animal": {
+    "nomes": [
+      "Presa",
+      "Sombra",
+      "Uivo",
+      "Garra",
+      "Cinza",
+      "Trovão",
+      "Brasa",
+      "Neve",
+      "Rasga",
+      "Pata-Larga"
+    ],
+    "sobrenomes": [
+      "da Matilha",
+      "da Floresta",
+      "da Montanha",
+      "das Cavernas"
+    ]
+  }
+}

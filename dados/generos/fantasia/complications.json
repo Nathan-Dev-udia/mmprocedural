@@ -1,0 +1,119 @@
+{
+  "_fonte": "Livro básico, cap. 2 (complicações), com exemplos de fantasia medieval",
+  "motivacoes": [
+    {
+      "nome": "Cobiça",
+      "exemplo": "Ouro, joias e o tesouro do dragão."
+    },
+    {
+      "nome": "Justiça",
+      "exemplo": "Livrar o reino do tirano que o oprime."
+    },
+    {
+      "nome": "Vingança",
+      "exemplo": "Os orcs que queimaram sua aldeia vão pagar."
+    },
+    {
+      "nome": "Adrenalina",
+      "exemplo": "A próxima masmorra, o próximo monstro."
+    },
+    {
+      "nome": "Reconhecimento",
+      "exemplo": "Ter seu nome cantado pelos bardos."
+    },
+    {
+      "nome": "Responsabilidade",
+      "exemplo": "A aldeia, a ordem ou o clã que depende de você."
+    },
+    {
+      "nome": "Fazer o Bem",
+      "exemplo": "Proteger os fracos, como manda o juramento."
+    },
+    {
+      "nome": "Fé",
+      "exemplo": "Levar a palavra do seu deus até os confins do mundo."
+    },
+    {
+      "nome": "Conhecimento",
+      "exemplo": "Descobrir os segredos da magia antiga."
+    },
+    {
+      "nome": "Patriotismo",
+      "exemplo": "Lealdade à coroa e ao reino."
+    }
+  ],
+  "complicacoes": [
+    {
+      "nome": "Inimigo",
+      "exemplo": "Um necromante jurou trazer você de volta como servo."
+    },
+    {
+      "nome": "Responsabilidade",
+      "exemplo": "Um juramento a uma ordem de cavalaria ou a um templo."
+    },
+    {
+      "nome": "Vício",
+      "exemplo": "Jogo de dados, vinho ou a emoção do roubo."
+    },
+    {
+      "nome": "Segredo",
+      "exemplo": "Um pacto com um demônio que ninguém pode descobrir."
+    },
+    {
+      "nome": "Perda de Poder",
+      "exemplo": "Sem o grimório ou o símbolo sagrado, a magia some."
+    },
+    {
+      "nome": "Reputação",
+      "exemplo": "Conhecido como ladrão em todas as cidades do reino."
+    },
+    {
+      "nome": "Rivalidade",
+      "exemplo": "Outro aventureiro que disputa as mesmas recompensas."
+    },
+    {
+      "nome": "Relacionamento",
+      "exemplo": "Um irmão capturado pelos homens do barão."
+    },
+    {
+      "nome": "Honra",
+      "exemplo": "Nunca foge de um duelo nem quebra a palavra dada."
+    },
+    {
+      "nome": "Obsessão",
+      "exemplo": "Encontrar a cidade perdida dos antigos."
+    },
+    {
+      "nome": "Ódio",
+      "exemplo": "Odeia mortos-vivos e quem os ergue."
+    },
+    {
+      "nome": "Fobia",
+      "exemplo": "Pavor de lugares fechados, como masmorras."
+    },
+    {
+      "nome": "Irritação",
+      "exemplo": "Perde a cabeça quando duvidam da sua coragem."
+    },
+    {
+      "nome": "Peculiaridade",
+      "exemplo": "Conversa com a própria espada."
+    },
+    {
+      "nome": "Deficiência",
+      "exemplo": "Perdeu um olho para um basilisco."
+    },
+    {
+      "nome": "Preconceito",
+      "exemplo": "Ninguém confia num meio-orc ou num tiefling."
+    },
+    {
+      "nome": "Fama",
+      "exemplo": "Todos conhecem o matador do troll da ponte."
+    },
+    {
+      "nome": "Maldição",
+      "exemplo": "Uma bruxa amaldiçoou sua família até a sétima geração."
+    }
+  ]
+}

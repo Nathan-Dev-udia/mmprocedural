@@ -3,6 +3,7 @@
 Nada aqui calcula regra: tudo vem do relatório do validador.
 """
 
+from . import poderes as poderes_mod
 from . import rules
 
 NOMES_DE_HABILIDADE = {"For": "FOR", "Vig": "VIG", "Agi": "AGI", "Des": "DES",
@@ -57,6 +58,15 @@ def texto_ataque(ataque):
     return f"{ataque['nome']} {_sinal(ataque['bonus'])} ({efeito} {ataque['dano']}{alcance}{multi}{critico}{cd})"
 
 
+def texto_do_poder(poder, papel=None):
+    """Nome do poder, com a posição no arranjo quando ele faz parte de um."""
+    if papel == "principal":
+        return f"{poder['nome']} — Arranjo {poder['arranjo']}: efeito principal"
+    if papel == "alternativo":
+        return f"{poder['nome']} — Arranjo {poder['arranjo']}: efeito alternativo (1 PP)"
+    return poder["nome"]
+
+
 def exibicao(npc):
     """Campos já formatados que a página mostra no cartão."""
     rel = npc["validacao"]
@@ -68,7 +78,7 @@ def exibicao(npc):
                 for nome, p in sorted(val["pericias"].items())]
     vantagens = [nome if grad == 1 and nome != rules.VANTAGEM_EQUIPAMENTO else f"{nome} {grad}"
                  for nome, grad in sorted(ficha.get("vantagens", {}).items())]
-    poderes = [p["nome"] for p in ficha.get("poderes", {}).values()]
+    poderes = [texto_do_poder(p, papel) for _, p, papel in poderes_mod.em_ordem_de_exibicao(ficha.get("poderes", {}))]
     d = val["defesas"]
     resistencia = str(d["Resistência"])
     if val.get("resistencia_plena", d["Resistência"]) != d["Resistência"]:
@@ -132,9 +142,11 @@ def texto_complicacao(complicacao):
 
 
 def dolares(valor, moeda="$"):
-    """$1.234,50 (faroeste) ou 2.550eb (cyberpunk: o símbolo vai depois)."""
+    """$1.234,50 (faroeste), 2.550eb (cyberpunk) ou 15 po (fantasia): moeda com letras vai depois."""
     numero = f"{valor:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".").replace(",00", "")
-    return numero + moeda if moeda == "eb" else moeda + numero
+    if moeda == "eb":
+        return numero + moeda
+    return f"{numero} {moeda}" if moeda[:1].isalpha() else moeda + numero
 
 
 def texto_dinheiro(dinheiro):
@@ -165,7 +177,8 @@ def texto(npc):
     rel = npc["validacao"]
     modulos = ", ".join(f"{m['nome']} ({m['papel']})" for m in npc["modulos"])
     if npc.get("tipo") == "jogador":
-        cabecalho = [f"{npc['arquetipo']['nome']} · personagem de jogador · NP {npc['np_pretendido']}",
+        raca = f"{npc['raca']['nome']} · " if npc.get("raca") else ""
+        cabecalho = [f"{raca}{npc['arquetipo']['nome']} · personagem de jogador · NP {npc['np_pretendido']}",
                      "Foco: " + ", ".join(m["nome"] for m in npc["modulos"])]
     else:
         cabecalho = [f"{npc['arquetipo']['nome']} · ficha-base {npc['faixa']['nome']} · NP pretendido "

@@ -208,6 +208,8 @@ body {
 .campo { display: flex; flex-direction: column; gap: 4px; }
 .campo > span { font-weight: 600; }
 .campo small { color: var(--tinta-suave); font-size: 0.85rem; }
+.tracos { margin: 0; padding-left: 18px; font-size: 0.9rem; }
+.tracos:empty::before { content: "Nenhum."; color: var(--tinta-suave); margin-left: -18px; }
 
 .formulario {
   display: grid;
