@@ -434,6 +434,11 @@ details summary { cursor: pointer; font-weight: 600; color: var(--destaque); }
 .mensagem { text-align: center; min-height: 1.5em; }
 
 .rodape { text-align: center; padding: 8px 16px 24px; font-size: 0.8rem; color: var(--tinta-suave); }
+.rodape a { color: var(--destaque); }
+.rodape-livros { margin: 0 0 6px; }
+.livros-do-genero { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 12px; }
+.livros-do-genero span { font-weight: 600; }
+a.botao { text-decoration: none; display: inline-block; }
 .mensagem.erro { color: var(--erro); }
 
 .erro-dados { border-color: var(--erro); }

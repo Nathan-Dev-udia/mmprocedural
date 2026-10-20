@@ -66,6 +66,28 @@ function mostrarMensagem(texto, ehErro = false) {
   if (texto) setTimeout(() => { if (m.textContent === texto) m.textContent = ""; }, 5000);
 }
 
+// Livros do Jogador e do Mestre: o servidor monta o .docx na hora (alguns segundos), com a tela de carregando.
+async function baixarLivro(link) {
+  mostrarCarregando("Montando o livro…");
+  try {
+    const resposta = await fetch(link.href);
+    if (!resposta.ok) throw new Error("Não consegui montar o livro.");
+    const nome = (resposta.headers.get("Content-Disposition") || "").match(/filename="?([^";]+)"?/);
+    salvarArquivo(await resposta.blob(), nome ? nome[1] : "livro.docx");
+  } catch (erro) {
+    mostrarMensagem(erro.message, true);
+  } finally {
+    esconderCarregando();
+  }
+}
+
+document.addEventListener("click", (evento) => {
+  const link = evento.target.closest("a[data-livro]");
+  if (!link) return;
+  evento.preventDefault();
+  baixarLivro(link);
+});
+
 function salvarArquivo(blob, nome) {
   const link = document.createElement("a");
   link.href = URL.createObjectURL(blob);
@@ -362,9 +384,12 @@ function preencherComplicacoes(lista) {
 
 function sugestoesDoArquetipo() {
   const s = arquetipoPj().sugestoes;
+  // As fixas (ex.: o bruxo mutante odiado pela aparência) vêm sempre; as outras completam até duas.
+  const fixas = s.complicacoes.filter((c) => c.fixa);
+  const livres = s.complicacoes.filter((c) => !c.fixa).slice(0, Math.max(0, 2 - fixas.length));
   preencherComplicacoes([
     { categoria: "motivacao", nome: s.motivacoes[0], detalhe: "" },
-    ...s.complicacoes.slice(0, 2).map((c) => ({ categoria: "complicacao", ...c })),
+    ...[...fixas, ...livres].map((c) => ({ categoria: "complicacao", nome: c.nome, detalhe: c.detalhe })),
   ]);
 }
 
@@ -655,18 +680,18 @@ function prepararAbaJogador() {
   };
   el("pj-raca").addEventListener("change", atualizarRaca);
 
+  // O foco pode trocar o conceito e as sugestões de complicação da classe (ex.: o bruxo caçador de monstros).
   const atualizarFoco = () => {
     el("pj-foco-descricao").textContent = focoPj().descricao;
+    el("pj-conceito").textContent = arquetipoPj().conceito;
     desenharVantagens();
     desenharEquipamento();
     desenharImplantes();
+    sugestoesDoArquetipo();
   };
   const atualizarArquetipo = () => {
-    const a = arquetipoPj();
-    el("pj-conceito").textContent = a.conceito;
-    el("pj-foco").innerHTML = opcoesDeSelect(a.focos);
+    el("pj-foco").innerHTML = opcoesDeSelect(arquetipoBase().focos);
     atualizarFoco();
-    sugestoesDoArquetipo();
   };
   const atualizarRiqueza = () => {
     el("pj-riqueza-descricao").textContent = riquezaPj().descricao;
@@ -710,7 +735,8 @@ function prepararAbaJogador() {
     el("pj-complicacoes").appendChild(linhaDeComplicacao(pj().complicacoes[0].nome)));
   el("pj-sortear").addEventListener("click", async () => {
     try {
-      const dados = await chamar("/api/jogador/complicacoes", { arquetipo: el("pj-arquetipo").value });
+      const dados = await chamar("/api/jogador/complicacoes", { arquetipo: el("pj-arquetipo").value,
+                                                                foco: el("pj-foco").value });
       preencherComplicacoes(dados.complicacoes);
     } catch (erro) {
       mostrarMensagem(erro.message, true);

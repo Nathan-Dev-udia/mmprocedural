@@ -1315,36 +1315,50 @@
           "substitui": {
             "conceito": "Caçador de monstros mutante, treinado desde criança para matar o que assombra o mundo.",
             "vantagens_essenciais": [
-              "Inimigo Favorito",
+              "Ritualista",
+              "Artífice",
               "Rastrear",
-              "Ataque Defensivo"
+              "Saque Rápido",
+              "Destemido"
             ],
             "vantagens_opcionais": [
-              "Esquiva Fabulosa",
-              "Destemido",
-              "Duro de Matar",
+              "Ataque Poderoso",
+              "Ataque Acurado",
               "Iniciativa Aprimorada",
-              "Finta Ágil",
-              "Tolerância Maior"
+              "Rolamento Defensivo",
+              "Inimigo Favorito",
+              "Esquiva Fabulosa"
             ],
             "prioridades": [
               "habilidade:Lut",
               "pericia:Combate Corpo-a-Corpo: Espadas",
-              "pericia:Especialidade: Saber de bruxo",
-              "habilidade:Agi",
-              "defesa:Aparar",
-              "pericia:Especialidade: Alquimia",
-              "pericia:Percepção",
+              "pericia:Especialidade: Bruxo",
               "habilidade:Vig",
+              "habilidade:Agi",
+              "defesa:Vontade",
+              "defesa:Fortitude",
+              "habilidade:For",
+              "defesa:Aparar",
+              "pericia:Percepção",
               "pericia:Combate à Distância: Sinais",
+              "habilidade:Pro",
+              "pericia:Furtividade",
               "pericia:Atletismo",
               "defesa:Esquiva",
-              "pericia:Especialidade: Sobrevivência",
               "pericia:Intimidação"
+            ],
+            "habilidades_de_reserva": [
+              "Vig",
+              "Agi",
+              "For",
+              "Pro",
+              "Lut",
+              "Des",
+              "Int"
             ],
             "armas": {
               "principais": [
-                "espada_prata"
+                "kit_bruxo"
               ],
               "secundarias": [
                 "besta_mao",
@@ -1352,16 +1366,10 @@
               ]
             },
             "itens": {
-              "essenciais": [
-                "espada_longa",
-                "couro_batido",
-                "elixires",
-                "oleo_laminas"
-              ],
+              "essenciais": [],
               "opcionais": [
                 "cavalo_montaria",
                 "sela",
-                "kit_herbalismo",
                 "corda",
                 "saco_dormir"
               ]
@@ -1369,14 +1377,14 @@
             "implantes": {
               "essenciais": [
                 "igni",
-                "olhos_de_gato",
+                "quen",
+                "aard",
+                "axii",
+                "sentidos_de_bruxo",
                 "metabolismo_mutante"
               ],
               "opcionais": [
-                "aard",
-                "axii",
-                "yrden",
-                "quen"
+                "yrden"
               ]
             },
             "sugestoes": {
@@ -1389,11 +1397,16 @@
               "complicacoes": [
                 {
                   "nome": "Preconceito",
-                  "detalhe": "Nas aldeias, todos têm medo do mutante."
+                  "fixa": true,
+                  "detalhe": "Mutante odiado e temido: os olhos de gato, a pele pálida e o estigma dos bruxos fazem o povo, os guardas e os nobres desconfiarem dele."
                 },
                 {
                   "nome": "Honra",
-                  "detalhe": "Segue o código: não mata quem não é monstro."
+                  "detalhe": "O código do bruxo: não mata inocentes nem criaturas injustiçadas, cobra pelas caçadas e foge da política."
+                },
+                {
+                  "nome": "Peculiaridade",
+                  "detalhe": "Toxicidade alquímica: depois dos elixires, veias pretas no rosto e ninguém quer conversa."
                 },
                 {
                   "nome": "Relacionamento",

@@ -1767,7 +1767,7 @@
         "nome": "Dragão",
         "fonte": "Guia do Mestre de Jogo, p. 237 (Dragão)",
         "status_dados": "validado",
-        "observacao": "Ficha do livro (88 PP). A Força e o Vigor do livro (12) já incluem o Crescimento 12 (+12 For e Vig, -6 Esquiva e Aparar). Combate à Distância: Sopro de Fogo virou só Sopro, para servir a outros sopros. Como o NP 9 não está na lista de NPs do gerador, o dragão aparece a partir do NP 10.",
+        "observacao": "Ficha do livro (88 PP). A Força e o Vigor do livro (12) já incluem o Crescimento 12 (+12 For e Vig, -6 Esquiva e Aparar). Combate à Distância: Sopro de Fogo virou só Sopro, para servir a outros sopros. Na fantasia, o dragão aparece a partir do NP 9.",
         "ficha": {
           "habilidades": {
             "For": 0,

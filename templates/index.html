@@ -40,6 +40,15 @@
           </label>
         </div>
         <p class="dica">Trocar o gênero recarrega a página com os arquétipos, equipamentos e preços dele.</p>
+        {% set deste_genero = livros | selectattr("genero", "equalto", opcoes.genero.id) | list %}
+        {% if deste_genero %}
+        <div class="livros-do-genero">
+          <span>Livros deste gênero:</span>
+          {% for tipo in deste_genero[0].tipos %}
+          <a class="botao pequeno destaque" data-livro href="{{ url_for('baixar_livro', genero_id=opcoes.genero.id, tipo=tipo) }}">Baixar {{ nomes_dos_livros[tipo] }} (.docx)</a>
+          {% endfor %}
+        </div>
+        {% endif %}
       </section>
 
       <section class="passo" data-passo="identidade" role="tabpanel" hidden>

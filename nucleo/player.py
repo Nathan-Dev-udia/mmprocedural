@@ -183,13 +183,22 @@ def poder_do_genero(dados, implante_id, np):
 
 # ---------------------------------------------------------------- complicações
 
-def sortear_complicacoes(dados, arquetipo_id, rng):
-    """Uma motivação e duas complicações coerentes com o arquétipo (às vezes uma surpresa da lista geral)."""
+def sortear_complicacoes(dados, arquetipo_id, rng, foco_id=None):
+    """Uma motivação e duas complicações coerentes com o arquétipo (às vezes uma surpresa da lista geral).
+
+    Complicações sugeridas com "fixa" sempre entram (ex.: o bruxo caçador de monstros é um mutante odiado
+    pela aparência). Com foco_id, valem as sugestões que o foco põe no lugar das da classe.
+    """
     arquetipo = _arquetipo(dados, arquetipo_id)
+    foco = next((f for f in arquetipo["focos"] if f["id"] == foco_id), None)
+    if foco:
+        arquetipo = arquetipo_com_foco(arquetipo, foco)
     sugestoes = arquetipo["sugestoes"]
     escolhidas = [{"categoria": "motivacao", "nome": rng.choice(sugestoes["motivacoes"]), "detalhe": ""}]
-    outras = rng.sample(sugestoes["complicacoes"], k=min(2, len(sugestoes["complicacoes"])))
-    if rng.random() < 0.3:
+    fixas = [c for c in sugestoes["complicacoes"] if c.get("fixa")]
+    livres = [c for c in sugestoes["complicacoes"] if not c.get("fixa")]
+    outras = fixas + rng.sample(livres, k=max(0, min(2 - len(fixas), len(livres))))
+    if rng.random() < 0.3 and len(outras) > len(fixas):
         surpresa = rng.choice(dados["complicacoes"]["complicacoes"])
         if surpresa["nome"] not in {c["nome"] for c in outras}:
             outras[-1] = {"nome": surpresa["nome"], "detalhe": surpresa["exemplo"]}
@@ -259,7 +268,7 @@ def _equipamento_automatico(dados, arquetipo, foco, np, vantagens, rng):
         lista.append(rng.choice(armas_do_foco))
     # Se o foco já deu uma arma do mesmo tipo (ex.: um rifle de precisão), não compra outra principal igual.
     pericias_do_foco = {catalogo[i].get("ataque", {}).get("pericia") for i in lista}
-    cabe = [i for i in cabe if catalogo[i]["ataque"]["pericia"] not in pericias_do_foco]
+    cabe = [i for i in cabe if catalogo[i].get("ataque", {}).get("pericia") not in pericias_do_foco]
     if cabe:
         lista.append(rng.choice(cabe))
     secundarias = [i for i in arquetipo["armas"]["secundarias"]
@@ -313,6 +322,24 @@ def _comprar(dados, itens, dinheiro, obrigatorio=False, quantidades=None):
     return compras, round(restante, 2), sem_dinheiro
 
 
+def conteudo_do_kit(item):
+    """[(id, quantidade)] dos itens dentro de um kit. Cada entrada é um id ou {"id": ..., "quantidade": n}."""
+    return [(e, 1) if isinstance(e, str) else (e["id"], e.get("quantidade", 1)) for e in item.get("kit", [])]
+
+
+def _abrir_kits(dados, ids, quantidades):
+    """Lista do equipamento com o conteúdo de cada kit logo depois dele (o kit fica na lista, para aparecer na
+    ficha; ele não tem estatística, quem ataca e protege são os itens de dentro)."""
+    saida = []
+    for item_id in ids:
+        saida.append(item_id)
+        for dentro, quantidade in conteudo_do_kit(dados["equipamentos"][item_id]):
+            saida.append(dentro)
+            if quantidade > 1:
+                quantidades[dentro] = quantidades.get(dentro, 0) + quantidade
+    return saida
+
+
 def _devolver_municao_sem_arma(dados, compras, troco):
     """No sorteio, devolve a munição cuja arma não coube no dinheiro."""
     catalogo = dados["equipamentos"]
@@ -347,7 +374,7 @@ LIMITES_DE_DEFESA = {"Esquiva + Resistência", "Aparar + Resistência"}
 
 def _protecao_culpada(dados, ids, estourados):
     """Se uma defesa passou do NP, o escudo (ou, sem escudo, a armadura) que mais contribui para isso."""
-    if not LIMITES_DE_DEFESA & {c["nome"] for c in estourados}:
+    if not any(c["nome"].startswith(limite) for c in estourados for limite in LIMITES_DE_DEFESA):
         return None
     def peso(item_id):
         item = dados["equipamentos"][item_id]
@@ -364,16 +391,16 @@ def _tirar_armas_acima_do_np(dados, ficha, compras, troco, np):
         relatorio = validator.validar(ficha, np, dados["equipamentos"], OPCOES_DE_VALIDACAO)
         estourados = [c for c in relatorio["limites"] if not c["ok"]]
         nomes_com_problema = {c["nome"].split(":")[0] for c in estourados}
-        culpada = next((c for c in compras if c["nome"] in nomes_com_problema), None)
-        if culpada is None:
-            protecao = _protecao_culpada(dados, [c["id"] for c in compras], estourados)
-            culpada = next((c for c in compras if c["id"] == protecao), None)
-        if culpada is None:
+        culpado = next((i for i in ficha["equipamento"] if dados["equipamentos"][i]["nome"] in nomes_com_problema),
+                       None) or _protecao_culpada(dados, ficha["equipamento"], estourados)
+        if culpado is None:
             return compras, troco, fora_do_np
-        compras = [c for c in compras if c is not culpada]
-        ficha["equipamento"].remove(culpada["id"])
-        troco = round(troco + (culpada["preco"] or 0), 2)
-        fora_do_np.append(culpada["nome"])
+        ficha["equipamento"].remove(culpado)
+        compra = next((c for c in compras if c["id"] == culpado), None)
+        if compra is not None:
+            compras = [c for c in compras if c is not compra]
+            troco = round(troco + (compra["preco"] or 0), 2)
+        fora_do_np.append(dados["equipamentos"][culpado]["nome"])
 
 
 def _sincronizar_equipamento(dados, ficha):
@@ -421,7 +448,7 @@ def _tirar_itens_acima_do_np(dados, ficha, np, opcoes):
 
 # Campos do arquétipo que um foco pode trocar inteiros com "substitui".
 CAMPOS_SUBSTITUIVEIS = {"conceito", "vantagens_essenciais", "vantagens_opcionais", "prioridades", "armas", "itens",
-                        "implantes", "sugestoes"}
+                        "implantes", "sugestoes", "habilidades_de_reserva"}
 
 
 def arquetipo_com_foco(arquetipo, foco):
@@ -541,7 +568,9 @@ def _passos(dados, arquetipo, foco, vantagens_extras, so_vantagens_escolhidas, v
     passos += [com_teto(escalar.ler_passo(p)) for p in dados["configuracoes"].get("prioridades_gerais", [])]
     passos += [{"tipo": "vantagem", "nome": v} for v in vantagens_extras]
     # A sobra vai primeiro para as habilidades (como nos arquétipos do livro), e só depois para perícias.
-    passos += [{"tipo": "habilidade", "nome": h} for h in HABILIDADES_DE_RESERVA]
+    # O arquétipo pode trocar a lista (ex.: o bruxo caçador de monstros não põe sobra em Presença).
+    passos += [{"tipo": "habilidade", "nome": h}
+               for h in arquetipo.get("habilidades_de_reserva", HABILIDADES_DE_RESERVA)]
     passos += [com_teto({"tipo": "pericia", "nome": p}) for p in reserva]
     if so_vantagens_escolhidas:
         # Com vantagens escolhidas pelo jogador, o gerador só sobe graduações das que ele marcou.
@@ -644,7 +673,7 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
             # Sorteado: no máximo ~1/6 do orçamento vai para a vantagem Equipamento.
             lista = _equipamento_automatico(dados, arquetipo, foco, np, vantagens, rng)
             lista = _cortar_equipamento(dados, lista, max(1, orcamento // 6))
-        ficha["equipamento"] = list(lista)
+        ficha["equipamento"] = _abrir_kits(dados, lista, ficha["quantidades"])
         fora_do_np = _tirar_itens_acima_do_np(dados, ficha, np, opcoes)
         usados, graduacao = _sincronizar_equipamento(dados, ficha)
         pontos_de_equipamento = {
@@ -662,7 +691,7 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
             lista = _equipamento_automatico(dados, arquetipo, foco, np, vantagens, rng)
             compras, troco, sem_dinheiro = _comprar(dados, lista, riqueza["dinheiro"])
             compras, troco = _devolver_municao_sem_arma(dados, compras, troco)
-        ficha["equipamento"] = [c["id"] for c in compras]
+        ficha["equipamento"] = _abrir_kits(dados, [c["id"] for c in compras], ficha["quantidades"])
         compras, troco, fora_do_np = _tirar_armas_acima_do_np(dados, ficha, compras, troco, np)
 
     # Implantes / poderes do gênero (no cyberpunk, pagos também com o dinheiro que sobrou dos itens)

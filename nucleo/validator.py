@@ -30,10 +30,23 @@ STATUS = {
 }
 
 
-def _ajustes_de_poder(ficha):
-    """Soma os ajustes que poderes fazem em habilidades e defesas."""
+def _ajustes_de_poder(ficha, ativo=None):
+    """Soma os ajustes que poderes fazem em habilidades e defesas.
+
+    Num arranjo só um efeito funciona por vez (livro básico, cap. 6): vale o principal, ou `ativo` (o id de um
+    efeito alternativo) no lugar do principal do arranjo dele. Ex.: o Quen (escudo) é alternativo do Igni, então a
+    Proteção dele não entra na ficha de sempre, só na conferência "com Quen ativo".
+    """
+    poderes = ficha.get("poderes", {})
+    papeis = poderes_mod.papeis_no_arranjo(poderes)
+    arranjo_do_ativo = poderes[ativo].get("arranjo") if ativo in poderes else None
     total = {}
-    for poder in ficha.get("poderes", {}).values():
+    for poder_id, poder in poderes.items():
+        papel = papeis.get(poder_id)
+        if papel == "alternativo" and poder_id != ativo:
+            continue
+        if papel == "principal" and arranjo_do_ativo == poder.get("arranjo"):
+            continue
         for chave, valor in poder.get("ajustes", {}).items():
             total[chave] = total.get(chave, 0) + valor
     return total
@@ -44,9 +57,12 @@ def _com_quantidade(nome, quantidade):
     return f"{nome} ×{quantidade}" if quantidade > 1 else nome
 
 
-def calcular(ficha, catalogo_equipamento):
-    """Calcula os valores finais da ficha (o que vai impresso no cartão)."""
-    ajustes = _ajustes_de_poder(ficha)
+def calcular(ficha, catalogo_equipamento, ativo=None):
+    """Calcula os valores finais da ficha (o que vai impresso no cartão).
+
+    ativo: id de um efeito alternativo de arranjo para calcular a ficha com ele ligado.
+    """
+    ajustes = _ajustes_de_poder(ficha, ativo)
     vantagens = ficha.get("vantagens", {})
     pericias = ficha.get("pericias", {})
 
@@ -160,6 +176,42 @@ def calcular_custos(ficha):
     return custos, origem, total
 
 
+def _checar_defesas(valores, np, sufixo="", extras=None):
+    """Somas de defesa contra os tetos do NP. extras: bônus que só valem numa situação (ex.: +2 de Vontade contra
+    efeitos mentais), somados às defesas desta conferência."""
+    teto = rules.limites_do_np(np)
+    d = dict(valores["defesas"])
+    resistencia_plena = valores["resistencia_plena"]
+    for defesa, bonus in (extras or {}).items():
+        d[defesa] = d.get(defesa, 0) + bonus
+        if defesa == "Resistência":
+            resistencia_plena += bonus
+    pares = [("Esquiva + Resistência", d["Esquiva"] + d["Resistência"], teto["esquiva_mais_resistencia"]),
+             # Aparar protege contra golpes; usa a Resistência sem proteções limitadas a balísticos.
+             ("Aparar + Resistência", d["Aparar"] + resistencia_plena, teto["aparar_mais_resistencia"]),
+             ("Fortitude + Vontade", d["Fortitude"] + d["Vontade"], teto["fortitude_mais_vontade"])]
+    return [{"nome": nome + sufixo, "valor": valor, "maximo": maximo, "ok": valor <= maximo}
+            for nome, valor, maximo in pares
+            if not extras or any(defesa in nome for defesa in extras)]
+
+
+def _checar_situacoes(ficha, catalogo_equipamento, np, valores):
+    """Conferências extras de defesa: cada efeito alternativo de arranjo que muda defesas, ligado; e os bônus
+    limitados ("ajustes_limitados", ex.: Vontade contra efeitos mentais), somados."""
+    checagens = []
+    poderes = ficha.get("poderes", {})
+    for poder_id, papel in poderes_mod.papeis_no_arranjo(poderes).items():
+        if papel == "alternativo" and poderes[poder_id].get("ajustes"):
+            com_ele = calcular(ficha, catalogo_equipamento, ativo=poder_id)
+            nome = poderes[poder_id].get("nome_curto", poderes[poder_id]["nome"])
+            checagens += _checar_defesas(com_ele, np, f" (com {nome} ativo)")
+    for poder in poderes.values():
+        if poder.get("ajustes_limitados"):
+            nome = poder.get("nome_curto", poder["nome"])
+            checagens += _checar_defesas(valores, np, f" ({nome})", poder["ajustes_limitados"])
+    return checagens
+
+
 def _checar_limites(valores, np):
     """Compara os valores calculados com os tetos do NP."""
     teto = rules.limites_do_np(np)
@@ -176,11 +228,7 @@ def _checar_limites(valores, np):
         else:
             checar(f"{atq['nome']}: ataque + dano", atq["bonus"] + atq["dano"], teto["ataque_mais_efeito"])
 
-    d = valores["defesas"]
-    checar("Esquiva + Resistência", d["Esquiva"] + d["Resistência"], teto["esquiva_mais_resistencia"])
-    # Aparar protege contra golpes; usa a Resistência sem proteções limitadas a balísticos.
-    checar("Aparar + Resistência", d["Aparar"] + valores["resistencia_plena"], teto["aparar_mais_resistencia"])
-    checar("Fortitude + Vontade", d["Fortitude"] + d["Vontade"], teto["fortitude_mais_vontade"])
+    checagens += _checar_defesas(valores, np)
 
     for nome, pericia in valores["pericias"].items():
         checar(f"Perícia {nome}", pericia["total"], teto["pericia"])
@@ -213,7 +261,7 @@ def validar(ficha, np, catalogo_equipamento, opcoes=None):
     opcoes = opcoes or {}
     valores = calcular(ficha, catalogo_equipamento)
     custos, origem, total = calcular_custos(ficha)
-    limites = _checar_limites(valores, np)
+    limites = _checar_limites(valores, np) + _checar_situacoes(ficha, catalogo_equipamento, np, valores)
 
     problemas = [f"{c['nome']} = {c['valor']} passa do limite de {c['maximo']} no NP {np}."
                  for c in limites if not c["ok"]]

@@ -15,6 +15,7 @@ de cada vez. O mais caro é o efeito principal e paga o custo cheio; cada outro 
 """
 
 import math
+import re
 
 # Efeitos que somam graduações a uma habilidade ou defesa (Característica Aumentada e afins).
 AJUSTES_POR_EFEITO = {
@@ -50,6 +51,12 @@ def custo(item, graduacao, por_graduacao=None):
     c = dict(item["custo"])
     if por_graduacao is not None:
         c["por_graduacao"] = por_graduacao
+    if c.get("fixo") is None:
+        # O extrator guardou só a parte por graduação de custos como "3 pontos por graduação + 2 pontos";
+        # a parte fixa (os extras e falhas de custo fixo do livro) está no texto.
+        fixo = re.search(r"\+\s*(\d+)\s*pontos?\b", c.get("texto") or "")
+        if fixo:
+            c["fixo"] = int(fixo.group(1))
     if c.get("por_graduacao") is None and c.get("fixo") is None:
         raise PoderInvalido(f"{item['nome']}: o livro não traz um custo simples ({c.get('texto')}).")
     total = (c.get("fixo") or 0) + (c.get("por_graduacao") or 0) * (graduacao or 0)
@@ -143,6 +150,11 @@ def resolver(entrada, catalogo):
     }
     if entrada.get("arranjo"):
         poder["arranjo"] = entrada["arranjo"]
+    if entrada.get("ajustes_limitados"):
+        # Bônus que só valem numa situação (ex.: Vontade contra efeitos mentais): não entram na ficha de sempre,
+        # mas o validador confere os limites do NP com eles.
+        poder["ajustes_limitados"] = {defesa: graduacao if valor == "graduacao" else valor
+                                      for defesa, valor in entrada["ajustes_limitados"].items()}
     base = efeito.get("efeito_base")
     if base in AJUSTES_POR_EFEITO and graduacao:
         poder["ajustes"][AJUSTES_POR_EFEITO[base]] = graduacao

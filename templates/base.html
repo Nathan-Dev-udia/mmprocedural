@@ -21,7 +21,16 @@
   <main class="conteudo">
     {% block conteudo %}{% endblock %}
   </main>
-  <footer class="rodape">Versão {{ versao }}{% if commit %} · <span title="Commit em execução">{{ commit }}</span>{% endif %}</footer>
+  <footer class="rodape">
+    {% if livros %}
+    <p class="rodape-livros">Livros:
+      {% for livro in livros %}{% for tipo in livro.tipos %}
+      <a data-livro href="{{ url_for('baixar_livro', genero_id=livro.genero, tipo=tipo) }}">{{ nomes_dos_livros[tipo] | replace("Livro do ", "") }} ({{ livro.nome }})</a>{% if not loop.last %} · {% endif %}
+      {% endfor %}{% if not loop.last %} · {% endif %}{% endfor %}
+    </p>
+    {% endif %}
+    Versão {{ versao }}{% if commit %} · <span title="Commit em execução">{{ commit }}</span>{% endif %}
+  </footer>
   {% block scripts %}{% endblock %}
 </body>
 </html>

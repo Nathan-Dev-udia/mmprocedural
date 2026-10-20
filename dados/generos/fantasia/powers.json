@@ -453,7 +453,10 @@
       "defesa"
     ],
     "graduacao_np": -3,
-    "estatistica": "Vontade Aumentada, Limitada a efeitos mentais"
+    "estatistica": "Vontade Aumentada, Limitada a efeitos mentais",
+    "ajustes_limitados": {
+      "Vontade": "graduacao"
+    }
   },
   {
     "id": "chamar_relampago",
@@ -948,28 +951,29 @@
     "id": "igni",
     "nome": "Igni",
     "categoria": "sinais",
-    "catalogo": "flamejantes__explosao_de_fogo",
-    "descricao": "Sinal de fogo: um jato de chamas da palma da mão.",
+    "catalogo": "flamejantes__baforada_de_fogo",
+    "descricao": "Sinal de fogo: um cone de chamas arcanas que sai da palma da mão.",
     "tags": [
-      "combate"
+      "combate",
+      "area"
     ],
     "arranjo": "Sinais",
-    "graduacao_np": -2,
-    "estatistica": "Dano à Distância (jato de fogo)",
-    "pericia": "Combate à Distância: Sinais"
+    "graduacao_np": 0,
+    "estatistica": "Dano, Área Cone (chama arcana)"
   },
   {
     "id": "aard",
     "nome": "Aard",
     "categoria": "sinais",
-    "catalogo": "climaticos__rajada_ventosa",
-    "descricao": "Sinal telecinético: uma onda de força que derruba e empurra.",
+    "catalogo": "marciais__grito_de_kiai",
+    "descricao": "Sinal telecinético: uma onda de força em cone que derruba e desarma.",
     "tags": [
-      "controle"
+      "controle",
+      "area"
     ],
     "arranjo": "Sinais",
     "graduacao_np": -1,
-    "estatistica": "Mover Objetos, Área Cone, Limitado a empurrar (onda de força)"
+    "estatistica": "Aflição, Área Cone (Esquiva, superada por Fortitude; impedido e vulnerável, indefeso e caído)"
   },
   {
     "id": "axii",
@@ -983,7 +987,7 @@
     ],
     "arranjo": "Sinais",
     "graduacao_np": -1,
-    "estatistica": "Aflição à Percepção (Vontade; em transe, compelido), grau limitado",
+    "estatistica": "Aflição à Distância (Vontade; tonto, compelido, controlado), Sutil",
     "pericia": "Combate à Distância: Sinais"
   },
   {
@@ -1005,12 +1009,25 @@
     "nome": "Quen",
     "categoria": "sinais",
     "catalogo": "magicos__escudo_mistico",
-    "descricao": "Sinal de proteção: um escudo de energia ao redor do corpo. Fica de fora do arranjo.",
+    "descricao": "Sinal de proteção: um escudo cinético ao redor do corpo.",
     "tags": [
       "defesa"
     ],
-    "graduacao_np": -3,
-    "estatistica": "Proteção, Sustentado (escudo de energia)"
+    "arranjo": "Sinais",
+    "graduacao_np": -2,
+    "estatistica": "Proteção, Sustentado (escudo cinético)"
+  },
+  {
+    "id": "sentidos_de_bruxo",
+    "nome": "Sentidos de bruxo",
+    "categoria": "mutacao",
+    "catalogo": "animais__sentidos_animais",
+    "descricao": "Mutação: pupilas de gato, faro de cão de caça e o arrepio que denuncia a magia por perto.",
+    "tags": [
+      "percepcao"
+    ],
+    "graduacao": 5,
+    "estatistica": "Sentidos 5 (visão no escuro, faro aguçado, rastrear pelo faro, percepção da magia)"
   },
   {
     "id": "olhos_de_gato",
@@ -1063,7 +1080,10 @@
     "tags": [],
     "graduacao": 2,
     "estatistica": "Vontade Aumentada 2, Limitada a efeitos mentais",
-    "so_racial": true
+    "so_racial": true,
+    "ajustes_limitados": {
+      "Vontade": "graduacao"
+    }
   },
   {
     "id": "sentidos_agucados",
@@ -1084,7 +1104,10 @@
     "tags": [],
     "graduacao": 2,
     "estatistica": "Vontade Aumentada 2, Limitada a efeitos mentais",
-    "so_racial": true
+    "so_racial": true,
+    "ajustes_limitados": {
+      "Vontade": "graduacao"
+    }
   },
   {
     "id": "sopro_draconico",

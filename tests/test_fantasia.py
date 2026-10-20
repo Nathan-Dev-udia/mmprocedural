@@ -223,3 +223,44 @@ def test_tipos_listam_so_os_principais(fantasia):
     tipos = {m["id"] for m in generator.tipos_do_arquetipo(fantasia, "dragao", 10)}
     assert "dragao_relampago" in tipos
     assert all(fantasia["modulos"][t].get("papel", "ambos") != "extra" for t in tipos)
+
+
+# ---------------------------------------------------------------- caçador de monstros (referencias/dd/The witcher.docx)
+
+def test_cacador_de_monstros_segue_a_ficha_de_referencia(fantasia):
+    pj = gerar_pj(fantasia, "bruxo", 7, "cacador_monstros")
+    poderes = pj["ficha"]["poderes"]
+    papeis = poderes_mod_papeis(poderes)
+    assert papeis["igni"] == "principal" and poderes["igni"]["graduacao"] == 7
+    assert {papeis[s] for s in ("quen", "aard", "axii")} == {"alternativo"}
+    assert "rajada_mistica" not in poderes   # não fez pacto
+    assert "Especialidade: Bruxo" in pj["ficha"]["pericias"]
+    assert {"Ritualista", "Artífice", "Rastrear"} <= set(pj["ficha"]["vantagens"])
+
+
+def poderes_mod_papeis(poderes_da_ficha):
+    return poderes.papeis_no_arranjo(poderes_da_ficha)
+
+
+def test_complicacao_fixa_sempre_sorteada(fantasia):
+    for semente in range(10):
+        sorteadas = player.sortear_complicacoes(fantasia, "bruxo", random.Random(semente), foco_id="cacador_monstros")
+        assert any(c["nome"] == "Preconceito" and "odiado" in c["detalhe"] for c in sorteadas)
+
+
+def test_kit_de_bruxo_traz_os_itens_com_estatistica(fantasia):
+    pj = gerar_pj(fantasia, "bruxo", 5, "cacador_monstros")
+    equipamento = pj["ficha"]["equipamento"]
+    assert {"kit_bruxo", "espada_prata", "espada_longa", "couro_batido"} <= set(equipamento)
+    assert pj["ficha"]["quantidades"]["elixires"] == 3
+    compras = {c["id"]: c["preco"] for c in pj["dinheiro"]["compras"]}
+    assert compras["kit_bruxo"] == 120 and "espada_prata" not in compras   # paga o pacote, não as peças
+    ataques = {a["nome"] for a in pj["validacao"]["valores"]["ataques"]}
+    assert {"Espada de prata", "Espada longa"} <= ataques
+    assert pj["validacao"]["valores"]["protecao"] == 2
+
+
+def test_kit_escolhido_a_mao(fantasia):
+    pj = gerar_pj(fantasia, "bruxo", 5, "cacador_monstros", equipamento={"modo": "manual", "ids": ["kit_bruxo"]})
+    assert pj["dinheiro"]["gasto"] == 120
+    assert "espada_prata" in pj["ficha"]["equipamento"]

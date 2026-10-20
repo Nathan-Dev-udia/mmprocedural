@@ -296,7 +296,8 @@
       }
     },
     "status_dados": "ilustrativo",
-    "fonte": "Criado para o gênero fantasia"
+    "fonte": "Criado para o gênero fantasia",
+    "chefe": true
   },
   {
     "id": "envenenador",
@@ -2003,7 +2004,8 @@
       "defesa:Vontade"
     ],
     "status_dados": "ilustrativo",
-    "fonte": "Criado para o gênero fantasia, a partir dos goblinoides clássicos de D&D 5e; números ilustrativos. Redirecionar representa o truque do chefe goblin de D&D de desviar o ataque para um subordinado."
+    "fonte": "Criado para o gênero fantasia, a partir dos goblinoides clássicos de D&D 5e; números ilustrativos. Redirecionar representa o truque do chefe goblin de D&D de desviar o ataque para um subordinado.",
+    "chefe": true
   },
   {
     "id": "goblin_montador_lobo",
@@ -2786,7 +2788,8 @@
       "defesa:Aparar"
     ],
     "status_dados": "ilustrativo",
-    "fonte": "Goblestiário (D&D 5e), p. 118 do PDF (Rei do Deserto), convertido para M&M pelo gerador. Conceito e habilidades especiais convertidos em efeitos de M&M; os números de D&D (PV, CA, ND) não foram transpostos. Chefe de ND 10 em D&D: só a partir do NP 6."
+    "fonte": "Goblestiário (D&D 5e), p. 118 do PDF (Rei do Deserto), convertido para M&M pelo gerador. Conceito e habilidades especiais convertidos em efeitos de M&M; os números de D&D (PV, CA, ND) não foram transpostos. Chefe de ND 10 em D&D: só a partir do NP 6.",
+    "chefe": true
   },
   {
     "id": "trovao_verde",
@@ -2870,7 +2873,8 @@
       "defesa:Vontade"
     ],
     "status_dados": "ilustrativo",
-    "fonte": "Goblestiário (D&D 5e), p. 121 do PDF (Trovão Verde), convertido para M&M pelo gerador. Conceito e habilidades especiais convertidos em efeitos de M&M; os números de D&D (PV, CA, ND) não foram transpostos. Chefe de ND 10 em D&D: só a partir do NP 6. O tridente virou lança."
+    "fonte": "Goblestiário (D&D 5e), p. 121 do PDF (Trovão Verde), convertido para M&M pelo gerador. Conceito e habilidades especiais convertidos em efeitos de M&M; os números de D&D (PV, CA, ND) não foram transpostos. Chefe de ND 10 em D&D: só a partir do NP 6. O tridente virou lança.",
+    "chefe": true
   },
   {
     "id": "terror_silencioso",
@@ -2958,7 +2962,8 @@
       "pericia:Acrobacia"
     ],
     "status_dados": "ilustrativo",
-    "fonte": "Goblestiário (D&D 5e), p. 123 do PDF (Terror Silencioso), convertido para M&M pelo gerador. Conceito e habilidades especiais convertidos em efeitos de M&M; os números de D&D (PV, CA, ND) não foram transpostos. Chefe de ND 10 em D&D: só a partir do NP 6. A espada curta virou a adaga encantada."
+    "fonte": "Goblestiário (D&D 5e), p. 123 do PDF (Terror Silencioso), convertido para M&M pelo gerador. Conceito e habilidades especiais convertidos em efeitos de M&M; os números de D&D (PV, CA, ND) não foram transpostos. Chefe de ND 10 em D&D: só a partir do NP 6. A espada curta virou a adaga encantada.",
+    "chefe": true
   },
   {
     "id": "hobgoblin_capitao",
@@ -3005,7 +3010,8 @@
       "defesa:Vontade"
     ],
     "status_dados": "ilustrativo",
-    "fonte": "Criado para o gênero fantasia, a partir dos goblinoides clássicos de D&D 5e; números ilustrativos."
+    "fonte": "Criado para o gênero fantasia, a partir dos goblinoides clássicos de D&D 5e; números ilustrativos.",
+    "chefe": true
   },
   {
     "id": "hobgoblin_conjurador",
@@ -3225,6 +3231,7 @@
       "defesa:Aparar"
     ],
     "status_dados": "ilustrativo",
-    "fonte": "Criado para o gênero fantasia, a partir dos goblinoides clássicos de D&D 5e; números ilustrativos. Só a partir do NP 5, onde cabem a Força e a cota de malha."
+    "fonte": "Criado para o gênero fantasia, a partir dos goblinoides clássicos de D&D 5e; números ilustrativos. Só a partir do NP 5, onde cabem a Força e a cota de malha.",
+    "chefe": true
   }
 ]

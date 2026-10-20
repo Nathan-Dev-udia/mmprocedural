@@ -196,7 +196,7 @@
     "nome": "Espada de prata",
     "categoria": "Arma branca",
     "custo": 4,
-    "preco": 60,
+    "preco": 115,
     "notas": "Fere monstros vulneráveis à prata",
     "ataque": {
       "tipo": "corpo",
@@ -205,7 +205,7 @@
       "pericia": "Combate Corpo-a-Corpo: Espadas",
       "soma_forca": true
     },
-    "fonte": "Livro básico de M&M, cap. 7 (espada; preço estimado); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7 (espada; preço: espada longa (15 po) + prateamento (100 po), regra de armas prateadas do Livro do Jogador); preço do Livro do Jogador (D&D 5e), cap. 5"
   },
   {
     "id": "machado_batalha",
@@ -556,7 +556,7 @@
     "categoria": "Armadura",
     "custo": 3,
     "preco": 400,
-    "descricao": "Proteção 3, sem atrapalhar a Furtividade.",
+    "descricao": "Proteção 3, leve e fácil de vestir.",
     "fonte": "Livro básico de M&M, cap. 7 (cota de malha); preço do Livro do Jogador (D&D 5e), cap. 5",
     "protecao": 3
   },
@@ -878,9 +878,9 @@
     "nome": "Elixires de bruxo (dose)",
     "categoria": "Poções",
     "custo": 1,
-    "preco": 10,
+    "preco": 50,
     "descricao": "Andorinha, Trovão, Gato...: o efeito é narrado pelo mestre. Tóxicos para quem não passou pelas mutações.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço estimado; preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); item de The Witcher; preço da poção de cura e do antídoto do Livro do Jogador (50 po)"
   },
   {
     "id": "oleo_laminas",
@@ -889,7 +889,31 @@
     "custo": 1,
     "preco": 5,
     "descricao": "Passado na espada antes de enfrentar uma espécie de monstro.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço estimado; preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); item de The Witcher, sem equivalente no Livro do Jogador; preço estimado"
+  },
+  {
+    "id": "kit_bruxo",
+    "nome": "Kit de bruxo",
+    "categoria": "Kits",
+    "custo": 0,
+    "preco": 120,
+    "descricao": "O que o bruxo leva da escola: espada de prata, espada de aço, armadura de couro (+2), 3 doses de elixir, 2 óleos para lâminas, kit de herbalismo e bolsa de componentes. Os itens avulsos somariam 365 po; o kit sai com desconto da escola.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); pacote do gerador para o bruxo caçador de monstros",
+    "kit": [
+      "espada_prata",
+      "espada_longa",
+      "couro_batido",
+      {
+        "id": "elixires",
+        "quantidade": 3
+      },
+      {
+        "id": "oleo_laminas",
+        "quantidade": 2
+      },
+      "kit_herbalismo",
+      "bolsa_componentes"
+    ]
   },
   {
     "id": "racoes",

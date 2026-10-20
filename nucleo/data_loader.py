@@ -188,12 +188,15 @@ def _conferir_jogador(bruto, vantagens_validas, equipamentos, erros, poderes_do_
             substitui = foco.get("substitui", {})
             for campo in substitui:
                 if campo not in ("conceito", "vantagens_essenciais", "vantagens_opcionais", "prioridades", "armas",
-                                 "itens", "implantes", "sugestoes"):
+                                 "itens", "implantes", "sugestoes", "habilidades_de_reserva"):
                     erros.append(f"{rotulo_foco}: 'substitui' não aceita o campo '{campo}'.")
             for vantagem in substitui.get("vantagens_essenciais", []) + substitui.get("vantagens_opcionais", []):
                 if rules.nome_base(vantagem) not in vantagens_validas:
                     erros.append(f"{rotulo_foco}: vantagem desconhecida '{vantagem}'.")
             _conferir_passos(rotulo_foco, substitui.get("prioridades", []), vantagens_validas, erros)
+            for habilidade in substitui.get("habilidades_de_reserva", []):
+                if habilidade not in rules.HABILIDADES:
+                    erros.append(f"{rotulo_foco}: habilidade de reserva desconhecida '{habilidade}'.")
             itens_trocados = (substitui.get("armas", {}).get("principais", []) + substitui.get("armas", {}).get("secundarias", [])
                               + substitui.get("itens", {}).get("essenciais", []) + substitui.get("itens", {}).get("opcionais", []))
             for item in itens_trocados:
@@ -299,6 +302,12 @@ def carregar_genero(genero_id, pasta=PASTA_DADOS):
             _conferir_ataque(f"equipment.json ({item['id']})", item["ataque"], erros)
         if item.get("municao") and item["municao"] not in [e.get("id") for e in bruto["equipment"]]:
             erros.append(f"equipment.json ({item['id']}): munição desconhecida '{item['municao']}'.")
+
+    for item in equipamentos.values():
+        for entrada in item.get("kit", []):
+            dentro = entrada if isinstance(entrada, str) else entrada.get("id")
+            if dentro not in equipamentos or equipamentos[dentro].get("kit"):
+                erros.append(f"equipment.json ({item['id']}): o kit contém um item desconhecido ou outro kit '{dentro}'.")
 
     for item_id in configuracoes.get("itens_basicos", []):
         if item_id not in equipamentos:

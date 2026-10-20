@@ -16,13 +16,13 @@ import zipfile
 
 from flask import Flask, jsonify, render_template, request, send_file
 
-from nucleo import data_loader, docx_export, formatter, generator, pdf_export, player, validator
+from nucleo import data_loader, docx_export, formatter, generator, livros, pdf_export, player, validator
 
 app = Flask(__name__)
 
 # Versão mostrada no rodapé. Suba a cada entrega: 1.0 original, 1.1 passo a passo, 1.2 quantidades, 1.3 fantasia,
-# 1.4 distribuição dos pontos parecida com a dos arquétipos do livro, 1.5 subclasses e tipo de NPC.
-VERSAO = "1.5.0"
+# 1.4 distribuição dos pontos parecida com a dos arquétipos do livro, 1.5 subclasses e tipo de NPC, 1.6 goblinoides e caçador de monstros, 1.7 livros do faroeste e da fantasia.
+VERSAO = "1.7.0"
 
 
 def _commit_atual():
@@ -42,7 +42,11 @@ COMMIT = _commit_atual()
 
 @app.context_processor
 def versao_do_programa():
-    return {"versao": VERSAO, "commit": COMMIT}
+    # Livros (do Jogador e do Mestre) de cada gênero, para os botões de download e o rodapé.
+    todos_os_livros = [{"genero": g, "nome": d["genero"]["nome"], "tipos": livros.livros_disponiveis(g)}
+                       for g, d in DADOS_POR_GENERO.items()]
+    return {"versao": VERSAO, "commit": COMMIT, "livros": [l for l in todos_os_livros if l["tipos"]],
+            "nomes_dos_livros": livros.TIPOS}
 
 MIME_DOCX = "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
 
@@ -138,6 +142,14 @@ def _poder_no_np(DADOS, implante_id, np):
     return {"custo": poder["custo_informado"], "estatistica": poder["nome"]}
 
 
+def _nome_no_kit(item_id, quantidade):
+    for dados in DADOS_POR_GENERO.values():
+        if item_id in dados["equipamentos"]:
+            nome = dados["equipamentos"][item_id]["nome"]
+            return f"{nome} ×{quantidade}" if quantidade > 1 else nome
+    return item_id
+
+
 def _item_para_a_tela(item):
     """Resumo de um item do catálogo para a lista de compras da ficha de jogador."""
     ataque = item.get("ataque")
@@ -153,6 +165,9 @@ def _item_para_a_tela(item):
             resumo = f"{item['classe']} · {resumo}"
     elif item.get("protecao"):
         resumo = f"+{item['protecao']} Resistência"
+    elif item.get("kit"):
+        nomes = [_nome_no_kit(item_id, quantidade) for item_id, quantidade in player.conteudo_do_kit(item)]
+        resumo = "Contém: " + ", ".join(nomes)
     return {"id": item["id"], "nome": item["nome"], "categoria": item["categoria"], "preco": item.get("preco"),
             "custo": item.get("custo"), "preco_estimado": bool(item.get("preco_estimado")),
             "categoria_de_preco": item.get("categoria_de_preco", ""),
@@ -250,7 +265,8 @@ def gerar_jogador():
 def sortear_complicacoes():
     corpo = request.get_json(silent=True) or {}
     DADOS = _dados(corpo.get("genero"))
-    return jsonify({"complicacoes": player.sortear_complicacoes(DADOS, str(corpo.get("arquetipo", "")), _rng(corpo))})
+    return jsonify({"complicacoes": player.sortear_complicacoes(DADOS, str(corpo.get("arquetipo", "")), _rng(corpo),
+                                                                foco_id=str(corpo.get("foco") or "") or None)})
 
 
 def _nome_de_arquivo(texto):
@@ -285,6 +301,23 @@ def _npc_do_pedido():
     if not npc:
         raise generator.GeneratorError("Nenhuma ficha enviada.")
     return npc
+
+
+# Livros já montados: {(gênero, tipo, data do texto): bytes}. Montar um livro leva alguns segundos.
+_LIVROS_PRONTOS = {}
+
+
+@app.get("/livros/<genero_id>/<tipo>.docx")
+def baixar_livro(genero_id, tipo):
+    DADOS = _dados(genero_id)
+    caminho = livros.caminho_do_texto(genero_id, tipo)
+    if tipo not in livros.TIPOS or not caminho.is_file():
+        return jsonify({"erro": "Livro não encontrado."}), 404
+    chave = (genero_id, tipo, caminho.stat().st_mtime)
+    if chave not in _LIVROS_PRONTOS:
+        _LIVROS_PRONTOS[chave] = livros.gerar_livro(DADOS, tipo, VERSAO)
+    return send_file(io.BytesIO(_LIVROS_PRONTOS[chave]), mimetype=MIME_DOCX, as_attachment=True,
+                     download_name=f"{_nome_de_arquivo(livros.TIPOS[tipo])}_{genero_id}.docx")
 
 
 @app.post("/api/ficha.pdf")
