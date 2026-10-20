@@ -1,0 +1,10 @@
+{
+  "id": "faroeste",
+  "nome": "Faroeste",
+  "descricao": "Velho Oeste realista: pistoleiros, xerifes, vaqueiros e bandidos. Sem poderes.",
+  "perfis_de_poder": [],
+  "configuracoes": {
+    "rotulo_poderes": "Traços naturais",
+    "equipamento": "dinheiro"
+  }
+}

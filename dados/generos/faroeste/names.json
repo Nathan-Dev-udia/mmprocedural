@@ -1,0 +1,16 @@
+{
+  "humano": {
+    "nomes": ["Silas", "Jebediah", "Ezekiel", "Cole", "Wyatt", "Amos", "Caleb", "Eli", "Hank", "Luke",
+              "Morgan", "Virgil", "Clay", "Boone", "Josiah", "Abner", "Rufus", "Earl", "Tobias", "Jed",
+              "Annie", "Clara", "Ruth", "Mae", "Josephine", "Hattie", "Lottie", "Della", "Opal", "Nell"],
+    "sobrenomes": ["Hargrove", "McCready", "Dunn", "Pike", "Slade", "Whitlock", "Crane", "Barlow",
+                   "Grimes", "Tate", "Mercer", "Royce", "Holt", "Larkin", "Voss", "Quill", "Sutter",
+                   "Fenwick", "Gage", "Rourke"],
+    "apelidos": ["Dente de Ouro", "Mão Torta", "Caolho", "Poeira", "Cascavel", "Velho", "Ruivo",
+                 "Coiote", "Gatilho", "Corvo", "Sorriso", "Pólvora"]
+  },
+  "cavalo": {
+    "nomes": ["Relâmpago", "Poeira", "Trovão", "Canela", "Fumaça", "Estrela", "Bala", "Pimenta",
+              "Sombra", "Ventania", "Tição", "Malhado", "Ouro Velho", "Cometa", "Brasa", "Cigano"]
+  }
+}

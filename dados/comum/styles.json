@@ -1,0 +1,32 @@
+[
+  {
+    "id": "aleatorio",
+    "nome": "Aleatório",
+    "descricao": "Qualquer módulo compatível, todos com a mesma chance.",
+    "modo": "uniforme",
+    "chance_extra": 0.5
+  },
+  {
+    "id": "combate",
+    "nome": "Especialista em combate",
+    "descricao": "Prioriza módulos de ataque, defesa e manobras.",
+    "modo": "preferencia",
+    "peso_preferido": 6,
+    "chance_extra": 0.6
+  },
+  {
+    "id": "utilidade",
+    "nome": "Especialista em utilidade",
+    "descricao": "Prioriza furtividade, percepção, rastreio, montaria e interação social.",
+    "modo": "preferencia",
+    "peso_preferido": 6,
+    "chance_extra": 0.6
+  },
+  {
+    "id": "tematico",
+    "nome": "Variações temáticas",
+    "descricao": "Cada NPC recebe uma única identidade marcante, sem repetir enquanto houver opções.",
+    "modo": "tematico",
+    "chance_extra": 0
+  }
+]

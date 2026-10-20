@@ -1,0 +1,178 @@
+{% extends "base.html" %}
+
+{% block conteudo %}
+{% if erros %}
+  <section class="painel erro-dados">
+    <h2>Os arquivos de dados têm problemas</h2>
+    <p>Corrija os itens abaixo na pasta <code>data/</code> e reinicie o programa.</p>
+    <ul>
+      {% for erro in erros %}<li>{{ erro }}</li>{% endfor %}
+    </ul>
+  </section>
+{% else %}
+  <div class="seletor-genero">
+    <label><span>Gênero</span> <select id="genero"></select></label>
+    <small id="genero-descricao"></small>
+  </div>
+
+  <nav class="abas" role="tablist">
+    <button type="button" class="aba" role="tab" data-aba="jogador">Ficha de jogador</button>
+    <button type="button" class="aba" role="tab" data-aba="npc">Fichas de NPC</button>
+  </nav>
+
+  <!-- ===================== Aba: ficha de jogador ===================== -->
+  <section id="aba-jogador" class="painel-aba" role="tabpanel">
+    <form id="formulario-pj" class="painel formulario">
+      <label>
+        <span>Nome do personagem</span>
+        <input id="pj-nome" type="text" placeholder="Em branco: o gerador sorteia">
+      </label>
+      <label>
+        <span>Jogador</span>
+        <input id="pj-jogador" type="text" placeholder="Opcional">
+      </label>
+      <label>
+        <span>Arquétipo</span>
+        <select id="pj-arquetipo"></select>
+        <small id="pj-conceito"></small>
+      </label>
+      <label>
+        <span>Foco</span>
+        <select id="pj-foco"></select>
+        <small id="pj-foco-descricao"></small>
+      </label>
+      <label>
+        <span>Nível de poder</span>
+        <select id="pj-np"></select>
+        <small>Personagem de jogador gasta exatamente 15 PP por NP.</small>
+      </label>
+      <label id="pj-riqueza-campo">
+        <span>Condição financeira</span>
+        <select id="pj-riqueza"></select>
+        <small id="pj-riqueza-descricao"></small>
+      </label>
+
+      <fieldset class="escolha-form" id="pj-bloco-vantagens">
+        <legend>Vantagens</legend>
+        <div class="modo-escolha">
+          <label><input type="radio" name="pj-vantagens-modo" value="auto" checked> Sortear de acordo com o arquétipo</label>
+          <label><input type="radio" name="pj-vantagens-modo" value="manual"> Escolher</label>
+        </div>
+        <div id="pj-vantagens-lista" class="lista-escolha" hidden>
+          <p id="pj-vantagens-contador" class="contador"></p>
+          <div id="pj-vantagens-grupos"></div>
+        </div>
+      </fieldset>
+
+      <fieldset class="escolha-form" id="pj-bloco-implantes" hidden>
+        <legend id="pj-implantes-titulo">Poderes</legend>
+        <div class="modo-escolha">
+          <label><input type="radio" name="pj-implantes-modo" value="auto" checked> Sortear de acordo com o arquétipo</label>
+          <label><input type="radio" name="pj-implantes-modo" value="manual"> Escolher</label>
+        </div>
+        <div id="pj-implantes-lista" class="lista-escolha" hidden>
+          <p id="pj-implantes-contador" class="contador"></p>
+          <div id="pj-implantes-grupos"></div>
+        </div>
+      </fieldset>
+
+      <fieldset class="escolha-form" id="pj-bloco-equipamento">
+        <legend>Armas e itens</legend>
+        <div class="modo-escolha">
+          <label><input type="radio" name="pj-equipamento-modo" value="auto" checked> Sortear de acordo com o arquétipo</label>
+          <label><input type="radio" name="pj-equipamento-modo" value="manual"> Escolher</label>
+        </div>
+        <div id="pj-equipamento-lista" class="lista-escolha" hidden>
+          <p id="pj-equipamento-contador" class="contador"></p>
+          <div id="pj-excesso" class="excesso" hidden>
+            <p class="excesso-titulo">Passou do dinheiro. Como pagar a diferença?</p>
+            <label><input type="radio" name="pj-excesso" value="pontos" checked> <span id="pj-excesso-pontos"></span></label>
+            <label><input type="radio" name="pj-excesso" value="divida"> <span id="pj-excesso-divida"></span></label>
+          </div>
+          <div id="pj-equipamento-grupos"></div>
+        </div>
+      </fieldset>
+
+      <fieldset class="complicacoes-form">
+        <legend>Complicações <small>(pelo menos duas, uma delas a Motivação)</small></legend>
+        <div class="linha-complicacao">
+          <select id="pj-motivacao" aria-label="Motivação"></select>
+          <input id="pj-motivacao-detalhe" type="text" placeholder="Detalhe da motivação (opcional)">
+          <span class="rotulo-fixo">Motivação</span>
+        </div>
+        <div id="pj-complicacoes"></div>
+        <div class="botoes">
+          <button type="button" id="pj-adicionar-complicacao" class="botao pequeno">Adicionar complicação</button>
+          <button type="button" id="pj-sortear" class="botao pequeno">Sortear complicações</button>
+        </div>
+      </fieldset>
+
+      <div class="acoes-formulario">
+        <button type="submit" class="botao principal">Gerar ficha</button>
+      </div>
+    </form>
+
+    <section id="resultado-pj" hidden>
+      <div class="barra-resultado">
+        <p>Sua ficha</p>
+        <div class="botoes">
+          <button type="button" id="pj-outra-versao" class="botao">Gerar outra versão</button>
+        </div>
+      </div>
+      <div id="cartao-pj" class="cartoes cartoes-um"></div>
+    </section>
+  </section>
+
+  <!-- ===================== Aba: fichas de NPC ===================== -->
+  <section id="aba-npc" class="painel-aba" role="tabpanel" hidden>
+    <form id="formulario-npc" class="painel formulario">
+      <label>
+        <span>Arquétipo</span>
+        <select id="arquetipo"></select>
+        <small id="arquetipo-descricao"></small>
+      </label>
+      <label>
+        <span>Nível de poder</span>
+        <select id="np"></select>
+        <small>A ficha sobe até 70–100% dos limites do NP escolhido.</small>
+      </label>
+      <label>
+        <span>Variação</span>
+        <select id="estilo"></select>
+        <small id="estilo-descricao"></small>
+      </label>
+      <label>
+        <span>Quantidade</span>
+        <input id="quantidade" type="number" min="1">
+        <small id="quantidade-ajuda"></small>
+      </label>
+      <div class="acoes-formulario">
+        <button type="submit" class="botao principal">Gerar NPCs</button>
+      </div>
+    </form>
+
+    <section id="resultado-npc" hidden>
+      <div class="barra-resultado">
+        <p id="resumo"></p>
+        <div class="botoes">
+          <button type="button" id="gerar-de-novo" class="botao">Gerar de novo</button>
+          <button type="button" id="baixar-todos" class="botao">Baixar todas as fichas (.zip)</button>
+          <button type="button" id="copiar-todos" class="botao">Copiar todos (texto)</button>
+          <button type="button" id="baixar-json" class="botao">Baixar JSON</button>
+        </div>
+      </div>
+      <ul id="avisos" class="avisos"></ul>
+      <div id="cartoes" class="cartoes"></div>
+    </section>
+  </section>
+
+  <p id="mensagem" class="mensagem" role="status"></p>
+{% endif %}
+{% endblock %}
+
+{% block scripts %}
+{% if opcoes %}
+  <script>window.OPCOES = {{ opcoes | tojson }};</script>
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+{% endif %}
+{% endblock %}

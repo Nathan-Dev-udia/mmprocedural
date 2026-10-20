@@ -1,0 +1,947 @@
+[
+  {
+    "id": "pistola_apoio",
+    "nome": "Pistola média",
+    "categoria": "Arma de fogo",
+    "custo": 4,
+    "preco": 50,
+    "notas": "Fácil de esconder",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 2,
+      "critico": 20,
+      "pericia": "Combate à Distância: Pistolas"
+    },
+    "fonte": "Livro básico, cap. 7",
+    "categoria_de_preco": "Oneroso",
+    "fonte_preco": "Cyberpunk RED, tabelas de armas (p. 92–95): Pistola Média",
+    "municao": "municao_pistola"
+  },
+  {
+    "id": "pistola_leve",
+    "nome": "Pistola pesada",
+    "categoria": "Arma de fogo",
+    "custo": 6,
+    "preco": 100,
+    "notas": "",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 3,
+      "critico": 20,
+      "pericia": "Combate à Distância: Pistolas"
+    },
+    "fonte": "Livro básico, cap. 7",
+    "categoria_de_preco": "Premium",
+    "fonte_preco": "Cyberpunk RED, tabelas de armas (p. 92–95): Pistola Pesada",
+    "municao": "municao_pistola"
+  },
+  {
+    "id": "pistola_pesada",
+    "nome": "Pistola muito pesada",
+    "categoria": "Arma de fogo",
+    "custo": 8,
+    "preco": 100,
+    "notas": "",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 4,
+      "critico": 20,
+      "pericia": "Combate à Distância: Pistolas"
+    },
+    "fonte": "Livro básico, cap. 7",
+    "categoria_de_preco": "Premium",
+    "fonte_preco": "Cyberpunk RED, tabelas de armas (p. 92–95): Pistola Muito Pesada",
+    "municao": "municao_pistola"
+  },
+  {
+    "id": "submetralhadora",
+    "nome": "SMG pesada",
+    "categoria": "Arma de fogo",
+    "custo": 12,
+    "preco": 100,
+    "notas": "",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 4,
+      "critico": 20,
+      "pericia": "Combate à Distância: Submetralhadoras",
+      "multiataque": true
+    },
+    "fonte": "Livro básico, cap. 7",
+    "categoria_de_preco": "Premium",
+    "fonte_preco": "Cyberpunk RED, tabelas de armas (p. 92–95): SMG Pesada",
+    "municao": "municao_pistola"
+  },
+  {
+    "id": "fuzil_assalto",
+    "nome": "Fuzil de assalto",
+    "categoria": "Arma de fogo",
+    "custo": 15,
+    "preco": 500,
+    "notas": "",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 5,
+      "critico": 20,
+      "pericia": "Combate à Distância: Fuzis",
+      "multiataque": true
+    },
+    "fonte": "Livro básico, cap. 7",
+    "categoria_de_preco": "Caro",
+    "fonte_preco": "Cyberpunk RED, tabelas de armas (p. 92–95): Rifle de Assalto",
+    "municao": "municao_rifle"
+  },
+  {
+    "id": "fuzil_precisao",
+    "nome": "Fuzil de precisão",
+    "categoria": "Arma de fogo",
+    "custo": 11,
+    "preco": 500,
+    "notas": "Com mira telescópica",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 5,
+      "critico": 19,
+      "pericia": "Combate à Distância: Fuzis"
+    },
+    "fonte": "Livro básico, cap. 7",
+    "categoria_de_preco": "Caro",
+    "fonte_preco": "Cyberpunk RED, tabelas de armas (p. 92–95): Rifle Sniper",
+    "municao": "municao_rifle"
+  },
+  {
+    "id": "escopeta",
+    "nome": "Escopeta",
+    "categoria": "Arma de fogo",
+    "custo": 10,
+    "preco": 500,
+    "notas": "Chumbo: +2 no ataque, Dano máximo 3 contra Proteção",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 5,
+      "critico": 20,
+      "pericia": "Combate à Distância: Escopetas"
+    },
+    "fonte": "Livro básico, cap. 7",
+    "categoria_de_preco": "Caro",
+    "fonte_preco": "Cyberpunk RED, tabelas de armas (p. 92–95): Espingarda",
+    "municao": "municao_espingarda"
+  },
+  {
+    "id": "pistola_energia",
+    "nome": "Pistola de energia",
+    "categoria": "Arma de energia",
+    "custo": 10,
+    "preco": 1000,
+    "notas": "",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 5,
+      "critico": 20,
+      "pericia": "Combate à Distância: Armas de energia"
+    },
+    "fonte": "Livro básico, cap. 7",
+    "categoria_de_preco": "Muito Caro",
+    "fonte_preco": "Sem equivalente no Cyberpunk RED: preço típico da categoria Muito Caro, estimado pelo gerador",
+    "preco_estimado": true
+  },
+  {
+    "id": "fuzil_energia",
+    "nome": "Fuzil de energia",
+    "categoria": "Arma de energia",
+    "custo": 16,
+    "preco": 5000,
+    "notas": "",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 8,
+      "critico": 20,
+      "pericia": "Combate à Distância: Armas de energia"
+    },
+    "fonte": "Livro básico, cap. 7",
+    "categoria_de_preco": "Luxuoso",
+    "fonte_preco": "Sem equivalente no Cyberpunk RED: preço típico da categoria Luxuoso, estimado pelo gerador",
+    "preco_estimado": true
+  },
+  {
+    "id": "pistola_taser",
+    "nome": "Pistola taser",
+    "categoria": "Arma de energia",
+    "custo": 10,
+    "preco": 100,
+    "notas": "Tonto, atordoado, incapacitado",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 5,
+      "critico": 20,
+      "pericia": "Combate à Distância: Pistolas",
+      "efeito_nome": "Aflição",
+      "resistido_por": "Fortitude"
+    },
+    "fonte": "Livro básico, cap. 7",
+    "categoria_de_preco": "Premium",
+    "fonte_preco": "Cyberpunk RED, tabelas de armas (p. 92–95): Pistola Atordoante (exótica)"
+  },
+  {
+    "id": "metralhadora",
+    "nome": "Metralhadora",
+    "categoria": "Arma pesada",
+    "custo": 18,
+    "preco": 1000,
+    "notas": "",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 6,
+      "critico": 20,
+      "pericia": "Combate à Distância: Armas pesadas",
+      "multiataque": true
+    },
+    "fonte": "Livro básico, cap. 7",
+    "categoria_de_preco": "Muito Caro",
+    "fonte_preco": "Sem equivalente no Cyberpunk RED: preço típico da categoria Muito Caro, estimado pelo gerador",
+    "preco_estimado": true,
+    "municao": "municao_rifle"
+  },
+  {
+    "id": "lanca_granadas",
+    "nome": "Lança-granadas",
+    "categoria": "Arma pesada",
+    "custo": 15,
+    "preco": 500,
+    "notas": "Granadas de fragmentação",
+    "ataque": {
+      "tipo": "area",
+      "efeito": 5,
+      "critico": 20
+    },
+    "fonte": "Livro básico, cap. 7",
+    "categoria_de_preco": "Caro",
+    "fonte_preco": "Cyberpunk RED, tabelas de armas (p. 92–95): Lança-Granadas"
+  },
+  {
+    "id": "granada_fragmentacao",
+    "nome": "Granada de fragmentação",
+    "categoria": "Explosivo",
+    "custo": 15,
+    "preco": 100,
+    "notas": "",
+    "ataque": {
+      "tipo": "area",
+      "efeito": 5,
+      "critico": 20
+    },
+    "fonte": "Livro básico, cap. 7",
+    "categoria_de_preco": "Premium",
+    "fonte_preco": "Cyberpunk RED, munição (p. 94 e 345–347): granada anti-blindagem"
+  },
+  {
+    "id": "granada_atordoante",
+    "nome": "Granada atordoante (flash-bang)",
+    "categoria": "Explosivo",
+    "custo": 16,
+    "preco": 100,
+    "notas": "Cega e ensurdece",
+    "ataque": {
+      "tipo": "area",
+      "efeito": 4,
+      "critico": 20,
+      "efeito_nome": "Pasmar",
+      "resistido_por": "Fortitude"
+    },
+    "fonte": "Livro básico, cap. 7",
+    "categoria_de_preco": "Premium",
+    "fonte_preco": "Cyberpunk RED, munição (p. 94 e 345–347): granada flashbang"
+  },
+  {
+    "id": "explosivo_plastico",
+    "nome": "Explosivo plástico (0,5 kg)",
+    "categoria": "Explosivo",
+    "custo": 30,
+    "preco": 500,
+    "notas": "",
+    "ataque": {
+      "tipo": "area",
+      "efeito": 10,
+      "critico": 20
+    },
+    "fonte": "Livro básico, cap. 7",
+    "categoria_de_preco": "Caro",
+    "fonte_preco": "Sem equivalente no Cyberpunk RED: preço típico da categoria Caro, estimado pelo gerador",
+    "preco_estimado": true
+  },
+  {
+    "id": "faca",
+    "nome": "Faca",
+    "categoria": "Arma branca",
+    "custo": 2,
+    "preco": 50,
+    "notas": "",
+    "ataque": {
+      "tipo": "corpo",
+      "efeito": 1,
+      "critico": 19,
+      "pericia": "Combate Corpo-a-Corpo: Facas",
+      "soma_forca": true
+    },
+    "fonte": "Livro básico, cap. 7",
+    "categoria_de_preco": "Oneroso",
+    "fonte_preco": "Cyberpunk RED, tabelas de armas (p. 92–95): Arma Branca Leve"
+  },
+  {
+    "id": "laminas_retrateis",
+    "nome": "Lâminas retráteis (implante)",
+    "categoria": "Arma branca",
+    "custo": 3,
+    "preco": 500,
+    "notas": "Escondidas no antebraço (Sutil)",
+    "ataque": {
+      "tipo": "corpo",
+      "efeito": 1,
+      "critico": 19,
+      "pericia": "Combate Corpo-a-Corpo: Facas",
+      "soma_forca": true
+    },
+    "fonte": "Livro básico: faca (Dano 1, crítico 19–20, 2 pontos) + Sutil (1 ponto)",
+    "categoria_de_preco": "Caro",
+    "fonte_preco": "Cyberpunk RED, cyberware (p. 111–116): Estripadores/Wolvers"
+  },
+  {
+    "id": "katana",
+    "nome": "Katana",
+    "categoria": "Arma branca",
+    "custo": 4,
+    "preco": 100,
+    "notas": "",
+    "ataque": {
+      "tipo": "corpo",
+      "efeito": 3,
+      "critico": 19,
+      "pericia": "Combate Corpo-a-Corpo: Lâminas",
+      "soma_forca": true
+    },
+    "fonte": "Livro básico, cap. 7 (espada)",
+    "categoria_de_preco": "Premium",
+    "fonte_preco": "Cyberpunk RED, tabelas de armas (p. 92–95): Arma Branca Pesada"
+  },
+  {
+    "id": "tonfa",
+    "nome": "Tonfa",
+    "categoria": "Arma branca",
+    "custo": 2,
+    "preco": 50,
+    "notas": "",
+    "ataque": {
+      "tipo": "corpo",
+      "efeito": 2,
+      "critico": 20,
+      "pericia": "Combate Corpo-a-Corpo: Porretes",
+      "soma_forca": true
+    },
+    "fonte": "Livro básico, cap. 7 (porrete)",
+    "categoria_de_preco": "Oneroso",
+    "fonte_preco": "Cyberpunk RED, tabelas de armas (p. 92–95): Arma Branca Média"
+  },
+  {
+    "id": "soqueira",
+    "nome": "Soqueira",
+    "categoria": "Arma branca",
+    "custo": 1,
+    "preco": 50,
+    "notas": "",
+    "ataque": {
+      "tipo": "corpo",
+      "efeito": 1,
+      "critico": 20,
+      "pericia": "Combate Corpo-a-Corpo: Briga",
+      "soma_forca": true
+    },
+    "fonte": "Livro básico, cap. 7",
+    "categoria_de_preco": "Oneroso",
+    "fonte_preco": "Cyberpunk RED, tabelas de armas (p. 92–95): Arma Branca Leve"
+  },
+  {
+    "id": "bastao_choque",
+    "nome": "Bastão de choque",
+    "categoria": "Arma branca",
+    "custo": 5,
+    "preco": 100,
+    "notas": "Tonto, atordoado, incapacitado",
+    "ataque": {
+      "tipo": "corpo",
+      "efeito": 5,
+      "critico": 20,
+      "pericia": "Combate Corpo-a-Corpo: Porretes",
+      "efeito_nome": "Aflição",
+      "resistido_por": "Fortitude"
+    },
+    "fonte": "Livro básico, cap. 7 (taser de contato)",
+    "categoria_de_preco": "Premium",
+    "fonte_preco": "Cyberpunk RED, tabelas de armas (p. 92–95): Bastão Atordoante (exótica)"
+  },
+  {
+    "id": "jaqueta_couro",
+    "nome": "Jaqueta de couro",
+    "categoria": "Armadura",
+    "custo": 1,
+    "preco": 40,
+    "descricao": "Proteção 1.",
+    "fonte": "Livro básico, cap. 7",
+    "protecao": 1,
+    "categoria_de_preco": "Quotidiano",
+    "fonte_preco": "Cyberpunk RED, tabela de armaduras (p. 97): Couro (SP4), corpo e cabeça (20eb cada)"
+  },
+  {
+    "id": "colete_oculto",
+    "nome": "Roupa de Kevlar",
+    "categoria": "Armadura",
+    "custo": 2,
+    "preco": 100,
+    "descricao": "Proteção 2 contra ataques balísticos; invisível sob a roupa (Sutil).",
+    "fonte": "Livro básico, cap. 7",
+    "protecao": 2,
+    "limitada_a": "balísticos",
+    "categoria_de_preco": "Premium",
+    "fonte_preco": "Cyberpunk RED, tabela de armaduras (p. 97): Kevlar® (SP7), corpo e cabeça (50eb cada)"
+  },
+  {
+    "id": "colete_balistico",
+    "nome": "Blindagem leve (corpo e cabeça)",
+    "categoria": "Armadura",
+    "custo": 2,
+    "preco": 200,
+    "descricao": "Proteção 4 contra ataques balísticos.",
+    "fonte": "Livro básico, cap. 7",
+    "protecao": 4,
+    "limitada_a": "balísticos",
+    "categoria_de_preco": "Premium",
+    "fonte_preco": "Cyberpunk RED, tabela de armaduras (p. 97): Blindagem Leve (SP11), corpo e cabeça (100eb cada)"
+  },
+  {
+    "id": "armadura_tatica",
+    "nome": "Armadura militar",
+    "categoria": "Armadura",
+    "custo": 2,
+    "preco": 200,
+    "descricao": "Proteção 3 contra ataques balísticos.",
+    "fonte": "Livro básico p. 210 (armadura do Soldado, +3) como Proteção Limitada: 3 graduações a meio ponto = 2 pontos",
+    "protecao": 3,
+    "limitada_a": "balísticos",
+    "categoria_de_preco": "Premium",
+    "fonte_preco": "Sem equivalente no Cyberpunk RED: preço típico da categoria Premium, estimado pelo gerador",
+    "preco_estimado": true
+  },
+  {
+    "id": "celular",
+    "nome": "Celular descartável",
+    "categoria": "Eletrônicos",
+    "custo": 1,
+    "preco": 50,
+    "descricao": "Telefone com bateria de um dia.",
+    "fonte": "Livro básico, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto)",
+    "categoria_de_preco": "Oneroso",
+    "fonte_preco": "Cyberpunk RED, tabela de equipamentos (p. 100–101): Celular Descartável"
+  },
+  {
+    "id": "smartphone",
+    "nome": "Agente (smartphone com IA)",
+    "categoria": "Eletrônicos",
+    "custo": 2,
+    "preco": 100,
+    "descricao": "Celular com as capacidades de um computador portátil.",
+    "fonte": "Livro básico, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto)",
+    "categoria_de_preco": "Premium",
+    "fonte_preco": "Cyberpunk RED, tabela de equipamentos (p. 100–101): Agente"
+  },
+  {
+    "id": "comunicador",
+    "nome": "Rádio comunicador",
+    "categoria": "Eletrônicos",
+    "custo": 1,
+    "preco": 100,
+    "descricao": "Rádio do tamanho de um botão, cerca de 1 km.",
+    "fonte": "Livro básico, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto)",
+    "categoria_de_preco": "Premium",
+    "fonte_preco": "Cyberpunk RED, tabela de equipamentos (p. 100–101): Rádio Comunicador"
+  },
+  {
+    "id": "computador",
+    "nome": "Cyberdeck",
+    "categoria": "Eletrônicos",
+    "custo": 1,
+    "preco": 500,
+    "descricao": "Computador para usar Tecnologia e invadir sistemas.",
+    "fonte": "Livro básico, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto)",
+    "categoria_de_preco": "Caro",
+    "fonte_preco": "Cyberpunk RED, tabela de equipamentos (p. 100–101): Cyberdeck"
+  },
+  {
+    "id": "gravador",
+    "nome": "Gravador de áudio",
+    "categoria": "Eletrônicos",
+    "custo": 1,
+    "preco": 100,
+    "descricao": "Até oito horas de gravação.",
+    "fonte": "Livro básico, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto)",
+    "categoria_de_preco": "Premium",
+    "fonte_preco": "Cyberpunk RED, tabela de equipamentos (p. 100–101): Gravador de Áudio"
+  },
+  {
+    "id": "camera",
+    "nome": "Câmera de vídeo",
+    "categoria": "Eletrônicos",
+    "custo": 1,
+    "preco": 100,
+    "descricao": "Câmera fotográfica digital.",
+    "fonte": "Livro básico, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto)",
+    "categoria_de_preco": "Premium",
+    "fonte_preco": "Cyberpunk RED, tabela de equipamentos (p. 100–101): Câmera de Vídeo"
+  },
+  {
+    "id": "binoculos",
+    "nome": "Binóculos",
+    "categoria": "Vigilância",
+    "custo": 1,
+    "preco": 50,
+    "descricao": "+5 em Percepção visual à distância.",
+    "fonte": "Livro básico, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto)",
+    "categoria_de_preco": "Oneroso",
+    "fonte_preco": "Cyberpunk RED, tabela de equipamentos (p. 100–101): Binóculos"
+  },
+  {
+    "id": "oculos_visao_noturna",
+    "nome": "Óculos de visão noturna",
+    "categoria": "Vigilância",
+    "custo": 1,
+    "preco": 1000,
+    "descricao": "Visão no escuro, com –2 em Percepção.",
+    "fonte": "Livro básico, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto)",
+    "categoria_de_preco": "Muito Caro",
+    "fonte_preco": "Cyberpunk RED, tabela de equipamentos (p. 100–101): Óculos Inteligentes (500eb) + opção de cyberolho Luz Baixa/Infravermelho/UV (500eb)"
+  },
+  {
+    "id": "microfone_parabolico",
+    "nome": "Microfone parabólico",
+    "categoria": "Vigilância",
+    "custo": 1,
+    "preco": 500,
+    "descricao": "+5 em Percepção para ouvir à distância.",
+    "fonte": "Livro básico, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto)",
+    "categoria_de_preco": "Caro",
+    "fonte_preco": "Sem equivalente no Cyberpunk RED: preço típico da categoria Caro, estimado pelo gerador",
+    "preco_estimado": true
+  },
+  {
+    "id": "rastreador",
+    "nome": "Localizador",
+    "categoria": "Vigilância",
+    "custo": 1,
+    "preco": 500,
+    "descricao": "Transmissor de cerca de 3 km; plantar exige ataque ou Prestidigitação.",
+    "fonte": "Livro básico, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto)",
+    "categoria_de_preco": "Caro",
+    "fonte_preco": "Cyberpunk RED, tabela de equipamentos (p. 100–101): Localizador"
+  },
+  {
+    "id": "gazua_automatica",
+    "nome": "Ferramenta de arrombamento",
+    "categoria": "Equipamento geral",
+    "custo": 1,
+    "preco": 20,
+    "descricao": "Abre trancas mecânicas comuns como teste de rotina.",
+    "fonte": "Livro básico, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto)",
+    "categoria_de_preco": "Quotidiano",
+    "fonte_preco": "Cyberpunk RED, tabela de equipamentos (p. 100–101): Ferramenta de Arrombamento"
+  },
+  {
+    "id": "algemas",
+    "nome": "Algemas",
+    "categoria": "Equipamento geral",
+    "custo": 1,
+    "preco": 50,
+    "descricao": "Resistência 9; escapar exige Prestidigitação CD 20.",
+    "fonte": "Livro básico, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto)",
+    "categoria_de_preco": "Oneroso",
+    "fonte_preco": "Cyberpunk RED, tabela de equipamentos (p. 100–101): Algemas"
+  },
+  {
+    "id": "mascara_gas",
+    "nome": "Máscara de gás",
+    "categoria": "Equipamento geral",
+    "custo": 1,
+    "preco": 20,
+    "descricao": "Imunidade a gases irritantes por 12 horas.",
+    "fonte": "Livro básico, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto)",
+    "categoria_de_preco": "Quotidiano",
+    "fonte_preco": "Cyberpunk RED, tabela de equipamentos (p. 100–101): Máscara de Gás"
+  },
+  {
+    "id": "multiferramenta",
+    "nome": "Techtool (multiferramenta)",
+    "categoria": "Equipamento geral",
+    "custo": 1,
+    "preco": 100,
+    "descricao": "Reduz para –2 a penalidade de perícias sem a ferramenta certa.",
+    "fonte": "Livro básico, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto)",
+    "categoria_de_preco": "Premium",
+    "fonte_preco": "Cyberpunk RED, tabela de equipamentos (p. 100–101): Techtool"
+  },
+  {
+    "id": "kit_medico",
+    "nome": "Bolsa Medtech",
+    "categoria": "Equipamento geral",
+    "custo": 1,
+    "preco": 100,
+    "descricao": "Ferramentas para usar Tratamento sem a penalidade de –5.",
+    "fonte": "Livro básico, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto)",
+    "categoria_de_preco": "Premium",
+    "fonte_preco": "Cyberpunk RED, tabela de equipamentos (p. 100–101): Bolsa Medtech"
+  },
+  {
+    "id": "lanterna",
+    "nome": "Lanterna",
+    "categoria": "Equipamento geral",
+    "custo": 1,
+    "preco": 20,
+    "descricao": "Anula a penalidade de escuridão num cone de 9 m.",
+    "fonte": "Livro básico, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto)",
+    "categoria_de_preco": "Quotidiano",
+    "fonte_preco": "Cyberpunk RED, tabela de equipamentos (p. 100–101): Lanterna"
+  },
+  {
+    "id": "gps",
+    "nome": "GPS",
+    "categoria": "Equipamento geral",
+    "custo": 1,
+    "preco": 50,
+    "descricao": "+5 em testes de navegação.",
+    "fonte": "Livro básico, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto)",
+    "categoria_de_preco": "Oneroso",
+    "fonte_preco": "Sem equivalente no Cyberpunk RED: preço típico da categoria Oneroso, estimado pelo gerador",
+    "preco_estimado": true
+  },
+  {
+    "id": "arco",
+    "nome": "Arco ou besta",
+    "categoria": "Arma de disparo",
+    "custo": 6,
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 3,
+      "critico": 20,
+      "pericia": "Combate à Distância: Arcos"
+    },
+    "fonte": "Livro básico, cap. 7 (arco)",
+    "preco": 100,
+    "categoria_de_preco": "Premium",
+    "fonte_preco": "Cyberpunk RED, tabelas de armas (p. 92–95): Arco & Besta"
+  },
+  {
+    "id": "traje_corporal",
+    "nome": "Traje corporal (bodyweight)",
+    "categoria": "Armadura",
+    "custo": 3,
+    "protecao": 3,
+    "notas": "Discreto; guarda o cyberdeck",
+    "fonte": "Proteção 3 contra qualquer ataque (sem limitação)",
+    "preco": 1000,
+    "categoria_de_preco": "Muito Caro",
+    "fonte_preco": "Cyberpunk RED, tabela de armaduras (p. 97): Traje Corporal (SP11)"
+  },
+  {
+    "id": "escudo_balistico",
+    "nome": "Escudo balístico",
+    "categoria": "Armadura",
+    "custo": 2,
+    "notas": "+2 em Esquiva e Aparar enquanto empunhado (bônus de cobertura; não entra no cálculo da ficha)",
+    "fonte": "Livro básico, cap. 7 (escudo médio: +2 em Esquiva e Aparar)",
+    "preco": 100,
+    "categoria_de_preco": "Premium",
+    "fonte_preco": "Cyberpunk RED, tabela de armaduras (p. 97): Escudo Balístico"
+  },
+  {
+    "id": "municao_pistola",
+    "nome": "Munição de pistola/SMG (50 tiros)",
+    "categoria": "Munição",
+    "custo": 0,
+    "fonte": "Item comum; custo em pontos de equipamento pelo livro básico, cap. 7",
+    "preco": 50,
+    "categoria_de_preco": "Oneroso",
+    "fonte_preco": "Cyberpunk RED, munição (p. 94 e 345–347): munição básica, 10eb por 10"
+  },
+  {
+    "id": "municao_rifle",
+    "nome": "Munição de rifle (50 tiros)",
+    "categoria": "Munição",
+    "custo": 0,
+    "fonte": "Item comum; custo em pontos de equipamento pelo livro básico, cap. 7",
+    "preco": 50,
+    "categoria_de_preco": "Oneroso",
+    "fonte_preco": "Cyberpunk RED, munição (p. 94 e 345–347): munição básica, 10eb por 10"
+  },
+  {
+    "id": "municao_espingarda",
+    "nome": "Cartuchos de espingarda (50)",
+    "categoria": "Munição",
+    "custo": 0,
+    "fonte": "Item comum; custo em pontos de equipamento pelo livro básico, cap. 7",
+    "preco": 50,
+    "categoria_de_preco": "Oneroso",
+    "fonte_preco": "Cyberpunk RED, munição (p. 94 e 345–347): munição básica, 10eb por 10"
+  },
+  {
+    "id": "granada_fumaca",
+    "nome": "Granada de fumaça",
+    "categoria": "Explosivo",
+    "custo": 1,
+    "notas": "Nuvem de fumaça de 10 m: camuflagem visual na área",
+    "fonte": "Item comum; custo em pontos de equipamento pelo livro básico, cap. 7",
+    "preco": 50,
+    "categoria_de_preco": "Oneroso",
+    "fonte_preco": "Cyberpunk RED, munição (p. 94 e 345–347): fumaça"
+  },
+  {
+    "id": "granada_gas",
+    "nome": "Granada de gás lacrimogêneo",
+    "categoria": "Explosivo",
+    "custo": 1,
+    "notas": "Quem respira sem proteção fica tonto (combine o efeito com o mestre)",
+    "fonte": "Item comum; custo em pontos de equipamento pelo livro básico, cap. 7",
+    "preco": 50,
+    "categoria_de_preco": "Oneroso",
+    "fonte_preco": "Cyberpunk RED, munição (p. 94 e 345–347): gás lacrimogêneo"
+  },
+  {
+    "id": "granada_emp",
+    "nome": "Granada EMP",
+    "categoria": "Explosivo",
+    "custo": 1,
+    "notas": "Desliga eletrônicos e implantes por 1 minuto (combine com o mestre)",
+    "fonte": "Item comum; custo em pontos de equipamento pelo livro básico, cap. 7",
+    "preco": 500,
+    "categoria_de_preco": "Caro",
+    "fonte_preco": "Cyberpunk RED, munição (p. 94 e 345–347): EMP"
+  },
+  {
+    "id": "computador_portatil",
+    "nome": "Computador portátil",
+    "categoria": "Eletrônicos",
+    "custo": 1,
+    "descricao": "+2 em Investigação para pesquisas.",
+    "fonte": "Item comum; custo em pontos de equipamento pelo livro básico, cap. 7",
+    "preco": 50,
+    "categoria_de_preco": "Oneroso",
+    "fonte_preco": "Cyberpunk RED, tabela de equipamentos (p. 100–101): Computador"
+  },
+  {
+    "id": "oculos_virtuais",
+    "nome": "Óculos virtuais",
+    "categoria": "Eletrônicos",
+    "custo": 1,
+    "descricao": "Mostra o ciberespaço sobre o mundo real.",
+    "fonte": "Item comum; custo em pontos de equipamento pelo livro básico, cap. 7",
+    "preco": 100,
+    "categoria_de_preco": "Premium",
+    "fonte_preco": "Cyberpunk RED, tabela de equipamentos (p. 100–101): Óculos Virtuais"
+  },
+  {
+    "id": "codificador",
+    "nome": "Codificador/decodificador",
+    "categoria": "Eletrônicos",
+    "custo": 1,
+    "descricao": "Protege as comunicações.",
+    "fonte": "Item comum; custo em pontos de equipamento pelo livro básico, cap. 7",
+    "preco": 500,
+    "categoria_de_preco": "Caro",
+    "fonte_preco": "Cyberpunk RED, tabela de equipamentos (p. 100–101): Codificador/Decodificador"
+  },
+  {
+    "id": "detector_escutas",
+    "nome": "Detector de escutas",
+    "categoria": "Vigilância",
+    "custo": 1,
+    "descricao": "+5 para achar grampos e escutas.",
+    "fonte": "Item comum; custo em pontos de equipamento pelo livro básico, cap. 7",
+    "preco": 500,
+    "categoria_de_preco": "Caro",
+    "fonte_preco": "Cyberpunk RED, tabela de equipamentos (p. 100–101): Detector de Escutas"
+  },
+  {
+    "id": "radio_scanner",
+    "nome": "Rádio scanner / tocador de música",
+    "categoria": "Eletrônicos",
+    "custo": 1,
+    "fonte": "Item comum; custo em pontos de equipamento pelo livro básico, cap. 7",
+    "preco": 50,
+    "categoria_de_preco": "Oneroso",
+    "fonte_preco": "Cyberpunk RED, tabela de equipamentos (p. 100–101): Radio Scanner/Music Player"
+  },
+  {
+    "id": "techscanner",
+    "nome": "Techscanner",
+    "categoria": "Equipamento geral",
+    "custo": 1,
+    "descricao": "+2 em Tecnologia para diagnosticar defeitos.",
+    "fonte": "Item comum; custo em pontos de equipamento pelo livro básico, cap. 7",
+    "preco": 1000,
+    "categoria_de_preco": "Muito Caro",
+    "fonte_preco": "Cyberpunk RED, tabela de equipamentos (p. 100–101): Techscanner"
+  },
+  {
+    "id": "bolsa_tech",
+    "nome": "Bolsa Tech",
+    "categoria": "Equipamento geral",
+    "custo": 1,
+    "descricao": "Ferramentas para consertar coisas (evita a penalidade de trabalhar sem ferramentas).",
+    "fonte": "Item comum; custo em pontos de equipamento pelo livro básico, cap. 7",
+    "preco": 500,
+    "categoria_de_preco": "Caro",
+    "fonte_preco": "Cyberpunk RED, tabela de equipamentos (p. 100–101): Bolsa Tech"
+  },
+  {
+    "id": "scanner_medico",
+    "nome": "Escâner médico",
+    "categoria": "Equipamento geral",
+    "custo": 1,
+    "descricao": "+2 em Tratamento para diagnóstico.",
+    "fonte": "Item comum; custo em pontos de equipamento pelo livro básico, cap. 7",
+    "preco": 1000,
+    "categoria_de_preco": "Muito Caro",
+    "fonte_preco": "Cyberpunk RED, tabela de equipamentos (p. 100–101): Escâner Médico"
+  },
+  {
+    "id": "airhypo",
+    "nome": "Airhypo",
+    "categoria": "Equipamento geral",
+    "custo": 1,
+    "descricao": "Injeção sem agulha: aplica remédio ou droga com um toque.",
+    "fonte": "Item comum; custo em pontos de equipamento pelo livro básico, cap. 7",
+    "preco": 50,
+    "categoria_de_preco": "Oneroso",
+    "fonte_preco": "Cyberpunk RED, tabela de equipamentos (p. 100–101): Airhypo"
+  },
+  {
+    "id": "arma_gancho",
+    "nome": "Arma de gancho",
+    "categoria": "Equipamento geral",
+    "custo": 1,
+    "descricao": "Dispara um gancho com 30 m de cabo.",
+    "fonte": "Item comum; custo em pontos de equipamento pelo livro básico, cap. 7",
+    "preco": 100,
+    "categoria_de_preco": "Premium",
+    "fonte_preco": "Cyberpunk RED, tabela de equipamentos (p. 100–101): Arma de Gancho"
+  },
+  {
+    "id": "corda",
+    "nome": "Corda (60 m)",
+    "categoria": "Equipamento geral",
+    "custo": 1,
+    "fonte": "Item comum; custo em pontos de equipamento pelo livro básico, cap. 7",
+    "preco": 20,
+    "categoria_de_preco": "Quotidiano",
+    "fonte_preco": "Cyberpunk RED, tabela de equipamentos (p. 100–101): Corda"
+  },
+  {
+    "id": "fita_adesiva",
+    "nome": "Fita adesiva",
+    "categoria": "Equipamento geral",
+    "custo": 0,
+    "fonte": "Item comum; custo em pontos de equipamento pelo livro básico, cap. 7",
+    "preco": 20,
+    "categoria_de_preco": "Quotidiano",
+    "fonte_preco": "Cyberpunk RED, tabela de equipamentos (p. 100–101): Fita Adesiva"
+  },
+  {
+    "id": "sinalizador",
+    "nome": "Sinalizadores (6)",
+    "categoria": "Equipamento geral",
+    "custo": 0,
+    "fonte": "Item comum; custo em pontos de equipamento pelo livro básico, cap. 7",
+    "preco": 60,
+    "categoria_de_preco": "Oneroso",
+    "fonte_preco": "Cyberpunk RED, tabela de equipamentos (p. 100–101): Sinalizador (10eb cada)"
+  },
+  {
+    "id": "equipamento_camping",
+    "nome": "Barraca e equipamento de camping",
+    "categoria": "Equipamento geral",
+    "custo": 1,
+    "fonte": "Item comum; custo em pontos de equipamento pelo livro básico, cap. 7",
+    "preco": 50,
+    "categoria_de_preco": "Oneroso",
+    "fonte_preco": "Cyberpunk RED, tabela de equipamentos (p. 100–101): Tenda e Equipamentos de Camping"
+  },
+  {
+    "id": "cama_inflavel",
+    "nome": "Cama inflável e saco de dormir",
+    "categoria": "Equipamento geral",
+    "custo": 0,
+    "fonte": "Item comum; custo em pontos de equipamento pelo livro básico, cap. 7",
+    "preco": 20,
+    "categoria_de_preco": "Quotidiano",
+    "fonte_preco": "Cyberpunk RED, tabela de equipamentos (p. 100–101): Cama Inflável & Saco de Dormir"
+  },
+  {
+    "id": "guitarra",
+    "nome": "Guitarra elétrica (ou outro instrumento)",
+    "categoria": "Equipamento geral",
+    "custo": 1,
+    "descricao": "Instrumento de qualidade: +2 em Especialidade: Música.",
+    "fonte": "Item comum; custo em pontos de equipamento pelo livro básico, cap. 7",
+    "preco": 500,
+    "categoria_de_preco": "Caro",
+    "fonte_preco": "Cyberpunk RED, tabela de equipamentos (p. 100–101): Guitarra Elétrica/Outro Instrumento"
+  },
+  {
+    "id": "amplificador",
+    "nome": "Amplificador de bolso",
+    "categoria": "Equipamento geral",
+    "custo": 0,
+    "fonte": "Item comum; custo em pontos de equipamento pelo livro básico, cap. 7",
+    "preco": 50,
+    "categoria_de_preco": "Oneroso",
+    "fonte_preco": "Cyberpunk RED, tabela de equipamentos (p. 100–101): Amplificador de Bolso"
+  },
+  {
+    "id": "smg",
+    "nome": "SMG",
+    "categoria": "Arma de fogo",
+    "custo": 9,
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 3,
+      "critico": 20,
+      "pericia": "Combate à Distância: Submetralhadoras",
+      "multiataque": true
+    },
+    "notas": "Multiataque",
+    "municao": "municao_pistola",
+    "fonte": "Dano 3 à distância com Multiataque (submetralhadora do livro básico, cap. 7, um grau abaixo)",
+    "preco": 100,
+    "categoria_de_preco": "Premium",
+    "fonte_preco": "Cyberpunk RED, tabelas de armas (p. 92–95): SMG"
+  },
+  {
+    "id": "armadura_flak",
+    "nome": "Armadura flak (corpo e cabeça)",
+    "categoria": "Armadura",
+    "custo": 3,
+    "protecao": 5,
+    "limitada_a": "balísticos",
+    "descricao": "Proteção 5 contra ataques balísticos. Pesada: no RED dá –4 em REF, DEX e MOVE (regra opcional no guia do mestre, seção 5.8).",
+    "fonte": "Proteção Limitada a balísticos: 5 graduações a meio ponto = 3 pontos",
+    "preco": 1000,
+    "categoria_de_preco": "Muito Caro",
+    "fonte_preco": "Cyberpunk RED, tabela de armaduras (p. 97): Flak (SP15), corpo e cabeça (500eb cada)"
+  },
+  {
+    "id": "moto_do_cla",
+    "nome": "Moto estradeira do clã (emprestada)",
+    "categoria": "Veículo",
+    "custo": 10,
+    "descricao": "Motocicleta: tamanho Médio, Força 1, Velocidade 6, Defesa 10, Resistência 8. Emprestada pela família; não é do personagem.",
+    "fonte": "Livro básico, cap. 7 (veículos: motocicleta, 10 pontos)",
+    "preco": 0,
+    "categoria_de_preco": "Emprestado",
+    "fonte_preco": "Cyberpunk RED, Habilidade de Papel Moto do Nômade (p. 165): a família empresta o veículo. Comprada, uma moto estradeira custa 20.000eb (p. 190)"
+  }
+]

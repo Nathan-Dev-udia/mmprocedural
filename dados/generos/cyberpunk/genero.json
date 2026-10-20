@@ -1,0 +1,44 @@
+{
+  "id": "cyberpunk",
+  "nome": "Cyberpunk",
+  "descricao": "Futuro próximo: megacorporações, gangues de rua, netrunners e corpos cheios de implantes.",
+  "perfis_de_poder": [
+    "Blindados",
+    "Tecnológicos",
+    "Sensoriais",
+    "Elétricos",
+    "Velozes",
+    "Fortes"
+  ],
+  "configuracoes": {
+    "rotulo_poderes": "Implantes",
+    "equipamento": "dinheiro",
+    "prioridades_gerais": [
+      "defesa:Esquiva",
+      "defesa:Aparar",
+      "defesa:Fortitude",
+      "defesa:Vontade",
+      "pericia:Percepção",
+      "pericia:Atletismo",
+      "pericia:Intuição",
+      "pericia:Veículos",
+      "vantagem:Rolamento Defensivo",
+      "habilidade:Vig"
+    ],
+    "pericias_de_reserva": [
+      "Percepção",
+      "Atletismo",
+      "Intuição",
+      "Furtividade",
+      "Acrobacia",
+      "Persuasão",
+      "Enganação",
+      "Intimidação",
+      "Investigação",
+      "Tecnologia",
+      "Veículos"
+    ],
+    "moeda": "eb",
+    "implantes_em_dinheiro": true
+  }
+}

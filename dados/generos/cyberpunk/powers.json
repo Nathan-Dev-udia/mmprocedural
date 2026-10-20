@@ -1,0 +1,304 @@
+[
+  {
+    "id": "blindagem_subdermica",
+    "nome": "Blindagem subdérmica",
+    "categoria": "defensivo",
+    "catalogo": "blindados__armadura",
+    "descricao": "Placas finas sob a pele. Proteção 2.",
+    "tags": [
+      "defesa"
+    ],
+    "graduacao": 2,
+    "preco": 500,
+    "categoria_de_preco": "Caro",
+    "fonte_preco": "Cyberpunk RED, cyberware (p. 111–116): Malha Subdérmica"
+  },
+  {
+    "id": "placas_dermicas",
+    "nome": "Placas dérmicas",
+    "categoria": "defensivo",
+    "catalogo": "blindados__armadura",
+    "descricao": "Placas visíveis de liga metálica. Proteção 4.",
+    "tags": [
+      "defesa"
+    ],
+    "graduacao": 4,
+    "preco": 1000,
+    "categoria_de_preco": "Muito Caro",
+    "fonte_preco": "Cyberpunk RED, cyberware (p. 111–116): Armadura Subdérmica"
+  },
+  {
+    "id": "braco_cibernetico",
+    "nome": "Braço cibernético",
+    "categoria": "utilitario",
+    "catalogo": "blindados__servo_motores",
+    "descricao": "Servo-motores no lugar dos músculos. +2 Força.",
+    "tags": [
+      "forca",
+      "combate"
+    ],
+    "graduacao": 2,
+    "preco": 500,
+    "categoria_de_preco": "Caro",
+    "fonte_preco": "Cyberpunk RED, cyberware (p. 111–116): Cyberbraço"
+  },
+  {
+    "id": "olhos_ciberneticos",
+    "nome": "Olhos cibernéticos",
+    "categoria": "utilitario",
+    "catalogo": "blindados__sensores",
+    "descricao": "Zoom, visão noturna e infravermelho (3 graduações de Sentidos).",
+    "tags": [
+      "percepcao"
+    ],
+    "graduacao": 3,
+    "preco": 1200,
+    "categoria_de_preco": "Muito Caro",
+    "fonte_preco": "Cyberpunk RED, cyberware (p. 111–116): 2 Cyberolhos (100eb cada) + Luz Baixa/Infravermelho/UV (500eb por olho)"
+  },
+  {
+    "id": "audicao_amplificada",
+    "nome": "Audição amplificada",
+    "categoria": "utilitario",
+    "catalogo": "sensoriais__sonar_6",
+    "descricao": "Ouvidos sintéticos: audição acurada e ultra-audição.",
+    "tags": [
+      "percepcao"
+    ],
+    "preco": 600,
+    "categoria_de_preco": "Caro",
+    "fonte_preco": "Cyberpunk RED, cyberware (p. 111–116): Conjunto de Cyberáudio (500eb) + Audição Amplificada (100eb)"
+  },
+  {
+    "id": "radar_subcutaneo",
+    "nome": "Radar subcutâneo",
+    "categoria": "utilitario",
+    "catalogo": "sensoriais__radio_5",
+    "descricao": "Percebe tudo ao redor, inclusive pelas costas.",
+    "tags": [
+      "percepcao"
+    ],
+    "preco": 1000,
+    "categoria_de_preco": "Muito Caro",
+    "fonte_preco": "Cyberpunk RED, cyberware (p. 111–116): Radar/Sonar Implantado"
+  },
+  {
+    "id": "scanner_raio_x",
+    "nome": "Scanner de raio X",
+    "categoria": "utilitario",
+    "catalogo": "sensoriais__visao_de_raio_x_7",
+    "descricao": "Vê através de paredes e roupas.",
+    "tags": [
+      "percepcao"
+    ],
+    "preco": 1000,
+    "categoria_de_preco": "Muito Caro",
+    "fonte_preco": "Sem equivalente no Cyberpunk RED: preço típico da categoria Muito Caro, estimado pelo gerador",
+    "preco_estimado": true
+  },
+  {
+    "id": "alerta_de_combate",
+    "nome": "Alerta de combate",
+    "categoria": "defensivo",
+    "catalogo": "sensoriais__sentido_de_perigo",
+    "descricao": "Software que avisa de ameaças antes de você perceber.",
+    "tags": [
+      "percepcao",
+      "defesa"
+    ],
+    "preco": 500,
+    "categoria_de_preco": "Caro",
+    "fonte_preco": "Sem equivalente no Cyberpunk RED: preço típico da categoria Caro, estimado pelo gerador",
+    "preco_estimado": true
+  },
+  {
+    "id": "interface_neural",
+    "nome": "Interface neural",
+    "categoria": "utilitario",
+    "catalogo": "tecnologicos__interface",
+    "descricao": "Conecta o cérebro direto às máquinas: entende e conversa com qualquer sistema.",
+    "tags": [
+      "tecnologia"
+    ],
+    "preco": 1000,
+    "categoria_de_preco": "Muito Caro",
+    "fonte_preco": "Cyberpunk RED, cyberware (p. 111–116): Link Neural (500eb) + Plugs de Interface (500eb)"
+  },
+  {
+    "id": "radio_implantado",
+    "nome": "Rádio implantado",
+    "categoria": "utilitario",
+    "catalogo": "blindados__sistema_de_comunicacao",
+    "descricao": "Comunicação por rádio direto do crânio.",
+    "tags": [
+      "tecnologia"
+    ],
+    "graduacao": 1,
+    "preco": 600,
+    "categoria_de_preco": "Caro",
+    "fonte_preco": "Cyberpunk RED, cyberware (p. 111–116): Conjunto de Cyberáudio (500eb) + Rádio Comunicador (100eb)"
+  },
+  {
+    "id": "acesso_a_cameras",
+    "nome": "Acesso a câmeras",
+    "categoria": "utilitario",
+    "catalogo": "tecnologicos__rede_de_sensores",
+    "descricao": "Vê e ouve pelas câmeras e microfones da rede (4 graduações).",
+    "tags": [
+      "tecnologia",
+      "percepcao"
+    ],
+    "graduacao": 4,
+    "preco": 1000,
+    "categoria_de_preco": "Muito Caro",
+    "fonte_preco": "Sem equivalente no Cyberpunk RED: preço típico da categoria Muito Caro, estimado pelo gerador",
+    "preco_estimado": true
+  },
+  {
+    "id": "reflexos_turbinados",
+    "nome": "Reflexos turbinados",
+    "categoria": "defensivo",
+    "catalogo": "velozes__defesa_rapida",
+    "descricao": "Nervos sintéticos: +2 de Esquiva e de Aparar.",
+    "tags": [
+      "defesa",
+      "combate"
+    ],
+    "graduacao": 2,
+    "custo_por_graduacao": 2,
+    "_custo": "Defesa Rápida: 2 PP por graduação quando aumenta Esquiva e Aparar juntas (Perfis de Poder).",
+    "preco": 1000,
+    "categoria_de_preco": "Muito Caro",
+    "fonte_preco": "Cyberpunk RED, cyberware (p. 111–116): Link Neural (500eb) + Sandevistan (500eb)"
+  },
+  {
+    "id": "nanorreparo",
+    "nome": "Nanorreparo",
+    "categoria": "defensivo",
+    "catalogo": "velozes__cura_acelerada",
+    "descricao": "Nanorrobôs que fecham ferimentos (Regeneração 2).",
+    "tags": [
+      "defesa"
+    ],
+    "graduacao": 2,
+    "preco": 500,
+    "categoria_de_preco": "Caro",
+    "fonte_preco": "Cyberpunk RED, cyberware (p. 111–116): Anticorpos Reforçados"
+  },
+  {
+    "id": "pernas_hidraulicas",
+    "nome": "Pernas hidráulicas",
+    "categoria": "movimento",
+    "catalogo": "blindados__pernas_hidraulicas",
+    "descricao": "Pistões nas pernas para saltos enormes (Salto 2).",
+    "tags": [
+      "movimento"
+    ],
+    "graduacao": 2,
+    "preco": 1200,
+    "categoria_de_preco": "Muito Caro",
+    "fonte_preco": "Cyberpunk RED, cyberware (p. 111–116): 2 Cyberpernas (100eb cada) + Salto Aprimorado (500eb por perna)"
+  },
+  {
+    "id": "firewall_cortical",
+    "nome": "Firewall cortical",
+    "categoria": "defensivo",
+    "catalogo": "blindados__escudo_mental",
+    "descricao": "Protege a mente de invasões: +2 de Vontade contra efeitos mentais.",
+    "tags": [
+      "defesa",
+      "tecnologia"
+    ],
+    "graduacao": 2,
+    "preco": 500,
+    "categoria_de_preco": "Caro",
+    "fonte_preco": "Sem equivalente no Cyberpunk RED: preço típico da categoria Caro, estimado pelo gerador",
+    "preco_estimado": true
+  },
+  {
+    "id": "filtros_sinteticos",
+    "nome": "Pulmões e filtros sintéticos",
+    "categoria": "defensivo",
+    "catalogo": "blindados__sistema_de_suporte_vital",
+    "descricao": "Respira em qualquer ambiente e resiste a toxinas (Imunidade 10).",
+    "tags": [
+      "defesa"
+    ],
+    "preco": 1200,
+    "categoria_de_preco": "Muito Caro",
+    "fonte_preco": "Cyberpunk RED, cyberware (p. 111–116): Filtros Nasais (100eb) + Suprimento de Oxigênio (1.000eb) + Aglutinador de Toxina (100eb)"
+  },
+  {
+    "id": "camuflagem_optica",
+    "nome": "Camuflagem óptica",
+    "categoria": "defensivo",
+    "catalogo": "sensoriais__invisibilidade",
+    "descricao": "Revestimento que dobra a luz: invisível à visão normal.",
+    "tags": [
+      "furtividade"
+    ],
+    "preco": 5000,
+    "categoria_de_preco": "Luxuoso",
+    "fonte_preco": "Sem equivalente no Cyberpunk RED: preço típico da categoria Luxuoso, estimado pelo gerador",
+    "preco_estimado": true
+  },
+  {
+    "id": "braco_canhao",
+    "nome": "Braço-canhão",
+    "categoria": "ofensivo",
+    "catalogo": "blindados__canhoes",
+    "descricao": "Canhão que sai do antebraço (Dano 5 à distância).",
+    "tags": [
+      "combate"
+    ],
+    "graduacao": 5,
+    "preco": 1000,
+    "categoria_de_preco": "Muito Caro",
+    "fonte_preco": "Cyberpunk RED, cyberware (p. 111–116): Cyberbraço (500eb) + Arma a Distância Embutida (500eb)"
+  },
+  {
+    "id": "metralhadora_embutida",
+    "nome": "Metralhadora embutida",
+    "categoria": "ofensivo",
+    "catalogo": "blindados__metralhadora",
+    "descricao": "Metralhadora no ombro (Dano 4 à distância, Multiataque).",
+    "tags": [
+      "combate"
+    ],
+    "graduacao": 4,
+    "preco": 1000,
+    "categoria_de_preco": "Muito Caro",
+    "fonte_preco": "Cyberpunk RED, cyberware (p. 111–116): Cyberbraço (500eb) + Arma a Distância Embutida (500eb)"
+  },
+  {
+    "id": "taser_implantado",
+    "nome": "Taser implantado",
+    "categoria": "ofensivo",
+    "catalogo": "eletricos__teaser",
+    "descricao": "Dardos elétricos disparados do pulso (Aflição 5: tonto, atordoado, incapacitado).",
+    "tags": [
+      "combate",
+      "controle"
+    ],
+    "graduacao": 5,
+    "preco": 1000,
+    "categoria_de_preco": "Muito Caro",
+    "fonte_preco": "Cyberpunk RED, cyberware (p. 111–116): Cyberbraço (500eb) + Arma a Distância Embutida (500eb)"
+  },
+  {
+    "id": "pulso_eletromagnetico",
+    "nome": "Pulso eletromagnético",
+    "categoria": "ofensivo",
+    "catalogo": "eletricos__pem",
+    "descricao": "Descarga que frita eletrônicos ao redor (Enfraquecer 4 em área, só objetos).",
+    "tags": [
+      "tecnologia",
+      "combate"
+    ],
+    "graduacao": 4,
+    "preco": 1000,
+    "categoria_de_preco": "Muito Caro",
+    "fonte_preco": "Sem equivalente no Cyberpunk RED: preço típico da categoria Muito Caro, estimado pelo gerador",
+    "preco_estimado": true
+  }
+]

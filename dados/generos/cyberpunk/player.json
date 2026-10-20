@@ -1,0 +1,333 @@
+{
+  "_fonte": "Os 10 Papéis do Cyberpunk RED (cap. 'Papéis'), com o kit inicial de armas, armaduras e equipamento de cada um (p. 98 e 103) como itens essenciais. Dinheiro inicial em eurobucks: a classe média recebe os 2.550eb do método Pacote Completo (p. 104); as outras faixas seguem a mesma escada de Riqueza/Benefício do faroeste (Guia do Mestre). Vantagens, focos e prioridades são do gerador.",
+  "riqueza": [
+    {"id": "trabalhador", "nome": "Hotel-cápsula (Riqueza 4)", "riqueza": 4, "dinheiro": 800, "beneficio": 0,
+     "ajuste_de_pontos": 1,
+     "descricao": "Vive num hotel-cápsula, comendo kibble (600eb por mês). Pode não dar para o kit inteiro do papel. Riqueza abaixo da média devolve 1 PP."},
+    {"id": "classe_media", "nome": "Contêiner (Riqueza 8)", "riqueza": 8, "dinheiro": 2550, "beneficio": 0,
+     "ajuste_de_pontos": 0, "descricao": "Padrão: os 2.550eb do Pacote Completo do Cyberpunk RED. Vive num contêiner de carga, comendo kibble (1.100eb por mês)."},
+    {"id": "em_ascensao", "nome": "Quitinete (Benefício: Riqueza 1)", "riqueza": 12, "dinheiro": 7500, "beneficio": 1,
+     "ajuste_de_pontos": 0, "descricao": "Custa 1 PP. Quitinete e prepak bom (2.100eb por mês)."},
+    {"id": "prospero", "nome": "Apartamento (Benefício: Riqueza 2)", "riqueza": 16, "dinheiro": 25000, "beneficio": 2,
+     "ajuste_de_pontos": 0, "descricao": "Custa 2 PP. Apartamento de dois quartos e prepak bom (3.100eb por mês). O RED avisa: itens Luxuosos na criação podem desequilibrar o jogo."},
+    {"id": "rico", "nome": "Conapt de luxo (Benefício: Riqueza 4)", "riqueza": 24, "dinheiro": 100000, "beneficio": 4,
+     "ajuste_de_pontos": 0, "descricao": "Custa 4 PP. Conapt de luxo e comida fresca (9.000eb por mês)."},
+    {"id": "muito_rico", "nome": "Cobertura (Benefício: Riqueza 6)", "riqueza": 32, "dinheiro": 500000,
+     "beneficio": 6, "ajuste_de_pontos": 0, "descricao": "Custa 6 PP. Cobertura de luxo e comida fresca (16.500eb por mês)."}
+  ],
+  "arquetipos": [
+    {
+      "id": "rockerboy",
+      "nome": "Rockerboy",
+      "conceito": "Músico rebelde que usa a fama e a voz contra as corporações.",
+      "vantagens_essenciais": ["Fascinar", "Inspirar", "Atraente"],
+      "vantagens_opcionais": ["Liderança", "Contatos", "Zombar", "Destemido"],
+      "prioridades": ["habilidade:Pre", "pericia:Persuasão", "pericia:Especialidade: Música", "pericia:Intimidação",
+                      "pericia:Intuição", "defesa:Vontade", "habilidade:Agi", "defesa:Esquiva", "pericia:Atletismo"],
+      "armas": {"principais": ["pistola_pesada", "pistola_leve"], "secundarias": ["faca", "soqueira"]},
+      "itens": {"essenciais": ["colete_balistico", "smartphone", "guitarra"],
+                "opcionais": ["amplificador", "camera", "radio_scanner", "detector_escutas", "computador_portatil"]},
+      "implantes": {"essenciais": [], "opcionais": ["audicao_amplificada", "radio_implantado", "olhos_ciberneticos"]},
+      "sugestoes": {
+        "motivacoes": ["Reconhecimento", "Justiça", "Fazer o Bem", "Aceitação"],
+        "complicacoes": [
+          {"nome": "Fama", "detalhe": "Todo mundo reconhece a cara dele, inclusive quem não deveria."},
+          {"nome": "Inimigo", "detalhe": "Uma gravadora corporativa quer o contrato de volta, a qualquer preço."},
+          {"nome": "Vício", "detalhe": "Não sobe no palco sem uma dose."},
+          {"nome": "Rivalidade", "detalhe": "Outra banda disputa o mesmo público e as mesmas casas."}
+        ]
+      },
+      "focos": [
+        {"id": "estrela", "nome": "Estrela do rock", "descricao": "Lota casas de show; a multidão faz o que ele pede.",
+         "vantagens": [], "prioridades": ["pericia:Especialidade: Música", "habilidade:Pre"], "armas": [], "itens": ["amplificador"]},
+        {"id": "agitador", "nome": "Agitador", "descricao": "Usa a música para incendiar protestos.",
+         "vantagens": ["Liderança"], "prioridades": ["pericia:Persuasão", "pericia:Intimidação"], "armas": [], "itens": []},
+        {"id": "musico_de_rua", "nome": "Músico de rua", "descricao": "Toca nas esquinas e sabe tudo que acontece nelas.",
+         "vantagens": [], "prioridades": ["pericia:Enganação", "pericia:Furtividade", "pericia:Intuição"], "armas": [], "itens": []}
+      ]
+    },
+    {
+      "id": "solo",
+      "nome": "Solo",
+      "conceito": "Mercenário de aluguel, cheio de cromo e com o dedo sempre no gatilho.",
+      "vantagens_essenciais": ["Ataque à Distância", "Iniciativa Aprimorada", "Mira Aprimorada", "Saque Rápido"],
+      "vantagens_opcionais": ["Rolamento Defensivo", "Duro de Matar", "Ataque Poderoso", "Ação em Movimento", "Destemido"],
+      "prioridades": ["habilidade:Des", "defesa:Esquiva", "habilidade:Vig", "habilidade:Agi", "pericia:Percepção",
+                      "pericia:Atletismo", "vantagem:Iniciativa Aprimorada", "defesa:Fortitude", "pericia:Intimidação"],
+      "armas": {"principais": ["fuzil_assalto", "pistola_pesada", "submetralhadora", "escopeta"],
+                "secundarias": ["katana", "pistola_pesada", "faca", "granada_fragmentacao"]},
+      "itens": {"essenciais": ["colete_balistico", "smartphone"],
+                "opcionais": ["oculos_visao_noturna", "kit_medico", "lanterna", "escudo_balistico", "granada_atordoante"]},
+      "implantes": {"essenciais": ["reflexos_turbinados"],
+                    "opcionais": ["blindagem_subdermica", "olhos_ciberneticos", "alerta_de_combate", "radio_implantado", "nanorreparo"]},
+      "sugestoes": {
+        "motivacoes": ["Cobiça", "Adrenalina", "Vingança", "Reconhecimento"],
+        "complicacoes": [
+          {"nome": "Inimigo", "detalhe": "Uma corporação quer cobrar o serviço que ele largou pela metade."},
+          {"nome": "Vício", "detalhe": "Toma estimulantes de combate para aguentar o ritmo."},
+          {"nome": "Honra", "detalhe": "Cumpre o contrato até o fim, mesmo quando não deveria."},
+          {"nome": "Reputação", "detalhe": "É conhecido nas ruas como alguém que não deixa testemunhas."}
+        ]
+      },
+      "focos": [
+        {"id": "pistoleiro", "nome": "Pistoleiro urbano", "descricao": "Duas pistolas e reflexos de cobra.",
+         "vantagens": ["Tomar a Iniciativa"], "prioridades": ["pericia:Acrobacia"],
+         "armas": ["pistola_pesada", "pistola_energia"], "itens": []},
+        {"id": "atirador_de_elite", "nome": "Atirador de elite", "descricao": "Um telhado, um fuzil e paciência.",
+         "vantagens": [], "prioridades": ["pericia:Furtividade", "pericia:Percepção"],
+         "armas": ["fuzil_precisao"], "itens": ["binoculos"], "implantes": ["olhos_ciberneticos"]},
+        {"id": "samurai_de_rua", "nome": "Samurai de rua", "descricao": "Prefere o aço da lâmina ao chumbo.",
+         "vantagens": ["Ataque Corpo-a-Corpo"], "prioridades": ["habilidade:Lut", "defesa:Aparar"],
+         "armas": ["katana", "laminas_retrateis"], "itens": [], "implantes": ["reflexos_turbinados"]}
+      ]
+    },
+    {
+      "id": "netrunner",
+      "nome": "Netrunner",
+      "conceito": "Hacker que invade a rede com a mente ligada direto na máquina.",
+      "vantagens_essenciais": ["Inventor", "Bem Informado", "Ferramentas Aprimoradas"],
+      "vantagens_opcionais": ["Memória Eidética", "Contatos", "Maestria em Perícia", "Esconder-se à Plena Vista"],
+      "prioridades": ["habilidade:Int", "pericia:Tecnologia", "pericia:Investigação", "habilidade:Pro",
+                      "pericia:Percepção", "defesa:Vontade", "defesa:Esquiva", "habilidade:Agi", "pericia:Furtividade"],
+      "armas": {"principais": ["pistola_pesada", "pistola_leve", "pistola_taser"], "secundarias": ["faca"]},
+      "itens": {"essenciais": ["colete_balistico", "smartphone", "computador", "oculos_virtuais"],
+                "opcionais": ["traje_corporal", "gravador", "camera", "rastreador", "codificador"]},
+      "implantes": {"essenciais": ["interface_neural"],
+                    "opcionais": ["firewall_cortical", "acesso_a_cameras", "radio_implantado"]},
+      "sugestoes": {
+        "motivacoes": ["Reconhecimento", "Cobiça", "Justiça", "Adrenalina"],
+        "complicacoes": [
+          {"nome": "Inimigo", "detalhe": "Uma IA de segurança gravou a assinatura neural dele."},
+          {"nome": "Obsessão", "detalhe": "Precisa descobrir o que há atrás do servidor proibido."},
+          {"nome": "Segredo", "detalhe": "Roubou dados que valem a vida de muita gente."},
+          {"nome": "Peculiaridade", "detalhe": "Passa mais tempo na rede que no mundo; esquece de comer."}
+        ]
+      },
+      "focos": [
+        {"id": "invasor", "nome": "Invasor de sistemas", "descricao": "Entra em qualquer servidor corporativo.",
+         "vantagens": [], "prioridades": ["pericia:Tecnologia", "habilidade:Int"], "armas": [], "itens": [],
+         "implantes": ["firewall_cortical"]},
+        {"id": "olho_da_rede", "nome": "Olho da rede", "descricao": "Vê a cidade inteira pelas câmeras.",
+         "vantagens": [], "prioridades": ["pericia:Tecnologia", "pericia:Investigação", "pericia:Percepção"], "armas": [],
+         "itens": ["rastreador"], "implantes": ["acesso_a_cameras"]},
+        {"id": "golpista_digital", "nome": "Golpista digital", "descricao": "Falsifica identidades e engana pessoas e máquinas.",
+         "vantagens": ["Armação"], "prioridades": ["pericia:Enganação", "pericia:Intuição"], "armas": [], "itens": ["gravador"]}
+      ]
+    },
+    {
+      "id": "techie",
+      "nome": "Tech",
+      "conceito": "Conserta, monta e improvisa qualquer coisa com sucata e fita adesiva.",
+      "vantagens_essenciais": ["Inventor", "Ferramentas Aprimoradas"],
+      "vantagens_opcionais": ["Faz Tudo", "Arma Improvisada", "Maestria em Perícia", "Memória Eidética"],
+      "prioridades": ["habilidade:Int", "pericia:Tecnologia", "pericia:Especialidade: Eletrônica", "habilidade:Des",
+                      "pericia:Percepção", "pericia:Veículos", "defesa:Esquiva", "habilidade:Vig", "defesa:Fortitude"],
+      "armas": {"principais": ["escopeta", "fuzil_assalto"], "secundarias": ["tonfa", "bastao_choque", "pistola_leve"]},
+      "itens": {"essenciais": ["colete_balistico", "smartphone", "bolsa_tech", "mascara_gas"],
+                "opcionais": ["celular", "fita_adesiva", "lanterna", "sinalizador", "granada_atordoante", "techscanner",
+                              "multiferramenta"]},
+      "implantes": {"essenciais": ["braco_cibernetico"], "opcionais": ["olhos_ciberneticos", "interface_neural", "radio_implantado"]},
+      "sugestoes": {
+        "motivacoes": ["Reconhecimento", "Responsabilidade", "Cobiça"],
+        "complicacoes": [
+          {"nome": "Responsabilidade", "detalhe": "Mantém a oficina do bairro, e todo mundo depende dela."},
+          {"nome": "Obsessão", "detalhe": "Não resiste a abrir uma máquina que nunca viu."},
+          {"nome": "Relacionamento", "detalhe": "Deve a vida ao velho mecânico que o ensinou."}
+        ]
+      },
+      "focos": [
+        {"id": "mecanico", "nome": "Mecânico", "descricao": "Motor, carro, moto ou drone: ele põe para rodar.",
+         "vantagens": [], "prioridades": ["pericia:Veículos", "pericia:Especialidade: Mecânica"], "armas": [], "itens": ["multiferramenta"]},
+        {"id": "armeiro", "nome": "Armeiro", "descricao": "Modifica armas para fazer mais estrago.",
+         "vantagens": [], "prioridades": ["pericia:Especialidade: Armas"], "armas": ["escopeta", "lanca_granadas"], "itens": []},
+        {"id": "demolidor", "nome": "Demolidor", "descricao": "Abre portas, paredes e cofres do jeito barulhento.",
+         "vantagens": [], "prioridades": ["pericia:Especialidade: Explosivos"], "armas": ["granada_fragmentacao"], "itens": []}
+      ]
+    },
+    {
+      "id": "medtech",
+      "nome": "Medtech",
+      "conceito": "Costura tiros e instala implantes num porão, sem licença e sem perguntas.",
+      "vantagens_essenciais": ["Ferramentas Aprimoradas", "Maestria em Perícia"],
+      "vantagens_opcionais": ["Inventor", "Memória Eidética", "Interpor-se", "Duro de Matar", "Contatos"],
+      "prioridades": ["habilidade:Int", "pericia:Tratamento", "pericia:Especialidade: Cibernética", "pericia:Tecnologia",
+                      "habilidade:Pro", "pericia:Intuição", "defesa:Vontade", "defesa:Esquiva", "habilidade:Des"],
+      "armas": {"principais": ["escopeta", "fuzil_assalto"], "secundarias": ["pistola_leve", "faca"]},
+      "itens": {"essenciais": ["colete_balistico", "smartphone", "kit_medico", "airhypo"],
+                "opcionais": ["lanterna", "algemas", "granada_fumaca", "escudo_balistico", "scanner_medico", "mascara_gas"]},
+      "implantes": {"essenciais": [], "opcionais": ["olhos_ciberneticos", "filtros_sinteticos", "nanorreparo", "radio_implantado"]},
+      "sugestoes": {
+        "motivacoes": ["Fazer o Bem", "Responsabilidade", "Cobiça"],
+        "complicacoes": [
+          {"nome": "Responsabilidade", "detalhe": "Atende de graça os moradores do bairro."},
+          {"nome": "Segredo", "detalhe": "Perdeu a licença médica depois de um erro que matou alguém."},
+          {"nome": "Honra", "detalhe": "Nunca deixa um paciente morrer, mesmo que seja inimigo."}
+        ]
+      },
+      "focos": [
+        {"id": "cirurgiao", "nome": "Cirurgião de implantes (ripperdoc)", "descricao": "Instala e conserta cromo.",
+         "vantagens": [], "prioridades": ["pericia:Especialidade: Cibernética", "pericia:Tecnologia"], "armas": [],
+         "itens": ["scanner_medico"]},
+        {"id": "socorrista", "nome": "Socorrista de combate (Trauma Team)", "descricao": "Vai até o meio do tiroteio buscar o ferido.",
+         "vantagens": ["Interpor-se"], "prioridades": ["pericia:Tratamento", "defesa:Esquiva", "pericia:Atletismo"],
+         "armas": [], "itens": ["escudo_balistico"]},
+        {"id": "quimico", "nome": "Químico", "descricao": "Cura, envenena ou faz dormir, conforme o freguês.",
+         "vantagens": [], "prioridades": ["pericia:Especialidade: Química", "pericia:Enganação"], "armas": [], "itens": ["mascara_gas"]}
+      ]
+    },
+    {
+      "id": "media",
+      "nome": "Media",
+      "conceito": "Jornalista que expõe a verdade que as corporações escondem.",
+      "vantagens_essenciais": ["Bem Informado", "Contatos", "Memória Eidética"],
+      "vantagens_opcionais": ["Tontear", "Atraente", "Rastrear", "Esconder-se à Plena Vista"],
+      "prioridades": ["habilidade:Pro", "pericia:Investigação", "pericia:Persuasão", "pericia:Intuição", "pericia:Percepção",
+                      "habilidade:Pre", "pericia:Enganação", "defesa:Vontade", "defesa:Esquiva", "pericia:Furtividade"],
+      "armas": {"principais": ["pistola_leve", "pistola_pesada"], "secundarias": ["faca", "pistola_taser"]},
+      "itens": {"essenciais": ["colete_balistico", "smartphone", "gravador", "camera"],
+                "opcionais": ["binoculos", "celular", "arma_gancho", "lanterna", "computador_portatil", "radio_scanner", "codificador"]},
+      "implantes": {"essenciais": [], "opcionais": ["olhos_ciberneticos", "audicao_amplificada", "radio_implantado"]},
+      "sugestoes": {
+        "motivacoes": ["Justiça", "Reconhecimento", "Fazer o Bem"],
+        "complicacoes": [
+          {"nome": "Inimigo", "detalhe": "A corporação que ele expôs no último furo quer ele calado."},
+          {"nome": "Obsessão", "detalhe": "Não larga uma história até chegar ao fundo."},
+          {"nome": "Responsabilidade", "detalhe": "Protege uma fonte que arriscou tudo para falar."},
+          {"nome": "Fama", "detalhe": "Seu rosto aparece em todos os feeds; esconder-se é difícil."}
+        ]
+      },
+      "focos": [
+        {"id": "reporter", "nome": "Repórter investigativo", "descricao": "Segue o dinheiro até a sala do conselho.",
+         "vantagens": [], "prioridades": ["pericia:Investigação", "pericia:Intuição"], "armas": [], "itens": ["computador_portatil"]},
+        {"id": "celebridade", "nome": "Celebridade dos feeds", "descricao": "Milhões assistem; ninguém ousa tocar nele ao vivo.",
+         "vantagens": ["Atraente"], "prioridades": ["habilidade:Pre", "pericia:Persuasão"], "armas": [], "itens": []},
+        {"id": "paparazzi", "nome": "Paparazzi", "descricao": "Entra onde não deve e sai com a foto.",
+         "vantagens": [], "prioridades": ["pericia:Furtividade", "pericia:Percepção", "pericia:Acrobacia"], "armas": [],
+         "itens": ["binoculos", "arma_gancho"]}
+      ]
+    },
+    {
+      "id": "exec",
+      "nome": "Exec",
+      "conceito": "Executivo corporativo que sobe na hierarquia sem sujar as mãos (quase nunca).",
+      "vantagens_essenciais": ["Bem Relacionado", "Liderança", "Contatos"],
+      "vantagens_opcionais": ["Fascinar", "Atraente", "Avaliação", "Trabalho em Equipe"],
+      "prioridades": ["habilidade:Pre", "pericia:Persuasão", "pericia:Enganação", "pericia:Intuição",
+                      "pericia:Especialidade: Negócios", "defesa:Vontade", "habilidade:Pro", "pericia:Investigação",
+                      "defesa:Esquiva"],
+      "armas": {"principais": ["pistola_pesada", "pistola_leve"], "secundarias": ["faca"]},
+      "itens": {"essenciais": ["colete_balistico", "comunicador", "codificador"],
+                "opcionais": ["smartphone", "computador_portatil", "detector_escutas", "traje_corporal"]},
+      "implantes": {"essenciais": [], "opcionais": ["interface_neural", "firewall_cortical", "radio_implantado", "olhos_ciberneticos"]},
+      "sugestoes": {
+        "motivacoes": ["Cobiça", "Reconhecimento", "Responsabilidade"],
+        "complicacoes": [
+          {"nome": "Rivalidade", "detalhe": "Outro executivo quer a mesma promoção, e não joga limpo."},
+          {"nome": "Responsabilidade", "detalhe": "Deve lealdade à corporação, mesmo quando ela manda fazer o pior."},
+          {"nome": "Segredo", "detalhe": "Ajuda a equipe de rua escondido dos chefes."},
+          {"nome": "Inimigo", "detalhe": "Uma corporação concorrente marcou ele para extração."}
+        ]
+      },
+      "focos": [
+        {"id": "negociador", "nome": "Negociador corporativo", "descricao": "Fecha contratos e compra silêncios.",
+         "vantagens": [], "prioridades": ["pericia:Persuasão", "pericia:Especialidade: Negócios"], "armas": [], "itens": []},
+        {"id": "aquisicoes", "nome": "Aquisições", "descricao": "Consegue o que a corporação quer, de quem não quer vender.",
+         "vantagens": [], "prioridades": ["pericia:Intimidação", "pericia:Investigação"], "armas": [], "itens": ["detector_escutas"]},
+        {"id": "chefe_de_equipe", "nome": "Chefe de equipe", "descricao": "Comanda um time de especialistas e sabe usá-lo.",
+         "vantagens": ["Trabalho em Equipe"], "prioridades": ["pericia:Intuição", "defesa:Vontade"], "armas": [], "itens": []}
+      ]
+    },
+    {
+      "id": "lawman",
+      "nome": "Policial (Lawman)",
+      "conceito": "Policial, xerife ou segurança que tenta manter alguma ordem no caos.",
+      "vantagens_essenciais": ["Trabalho em Equipe", "Ataque à Distância", "Bem Relacionado"],
+      "vantagens_opcionais": ["Interpor-se", "Rastrear", "Tomar a Iniciativa", "Duro de Matar"],
+      "prioridades": ["habilidade:Des", "pericia:Percepção", "pericia:Investigação", "pericia:Intimidação", "defesa:Esquiva",
+                      "habilidade:Vig", "pericia:Intuição", "pericia:Veículos", "defesa:Fortitude"],
+      "armas": {"principais": ["escopeta", "fuzil_assalto"], "secundarias": ["pistola_leve", "tonfa"]},
+      "itens": {"essenciais": ["colete_balistico", "smartphone", "algemas", "comunicador", "lanterna"],
+                "opcionais": ["granada_fumaca", "escudo_balistico", "sinalizador", "binoculos", "granada_gas"]},
+      "implantes": {"essenciais": [], "opcionais": ["olhos_ciberneticos", "radio_implantado", "taser_implantado", "reflexos_turbinados"]},
+      "sugestoes": {
+        "motivacoes": ["Justiça", "Responsabilidade", "Patriotismo"],
+        "complicacoes": [
+          {"nome": "Honra", "detalhe": "Não aceita propina, o que o deixa sem amigos na delegacia."},
+          {"nome": "Inimigo", "detalhe": "Prendeu o irmão de um chefe de gangue."},
+          {"nome": "Responsabilidade", "detalhe": "O distrito dele não tem mais ninguém."},
+          {"nome": "Reputação", "detalhe": "Nas ruas, todo policial é tratado como capacho de corporação."}
+        ]
+      },
+      "focos": [
+        {"id": "patrulheiro", "nome": "Patrulheiro", "descricao": "Conhece cada beco do distrito, de carro ou a pé.",
+         "vantagens": [], "prioridades": ["pericia:Veículos", "pericia:Percepção"], "armas": [], "itens": []},
+        {"id": "detetive", "nome": "Detetive", "descricao": "Resolve o crime que a corporação mandou esquecer.",
+         "vantagens": [], "prioridades": ["pericia:Investigação", "pericia:Intuição"], "armas": [], "itens": ["computador_portatil"]},
+        {"id": "choque", "nome": "Tropa de choque (C-SWAT)", "descricao": "Entra primeiro, atrás do escudo.",
+         "vantagens": ["Interpor-se"], "prioridades": ["defesa:Aparar", "pericia:Intimidação"], "armas": [],
+         "itens": ["escudo_balistico", "granada_gas"]}
+      ]
+    },
+    {
+      "id": "fixer",
+      "nome": "Fixer",
+      "conceito": "Arruma serviço, compra, vende e conhece todo mundo que importa.",
+      "vantagens_essenciais": ["Contatos", "Bem Relacionado", "Bem Informado"],
+      "vantagens_opcionais": ["Atraente", "Fascinar", "Avaliação", "Liderança", "Tontear"],
+      "prioridades": ["habilidade:Pre", "pericia:Persuasão", "pericia:Enganação", "pericia:Intuição", "habilidade:Pro",
+                      "defesa:Vontade", "pericia:Percepção", "habilidade:Des", "defesa:Esquiva"],
+      "armas": {"principais": ["pistola_leve", "pistola_pesada"], "secundarias": ["faca", "soqueira"]},
+      "itens": {"essenciais": ["colete_balistico", "smartphone", "detector_escutas", "computador_portatil"],
+                "opcionais": ["celular", "gravador", "rastreador", "codificador"]},
+      "implantes": {"essenciais": [], "opcionais": ["radio_implantado", "olhos_ciberneticos", "firewall_cortical", "alerta_de_combate"]},
+      "sugestoes": {
+        "motivacoes": ["Cobiça", "Reconhecimento", "Responsabilidade"],
+        "complicacoes": [
+          {"nome": "Inimigo", "detalhe": "Um sindicato acha que ele passou a perna num negócio."},
+          {"nome": "Relacionamento", "detalhe": "Protege a família que mora num bairro perigoso."},
+          {"nome": "Reputação", "detalhe": "Dizem que vende qualquer um pelo preço certo."}
+        ]
+      },
+      "focos": [
+        {"id": "negociante", "nome": "Negociante", "descricao": "Fecha negócio com qualquer um.",
+         "vantagens": [], "prioridades": ["pericia:Persuasão", "pericia:Intuição"], "armas": [], "itens": []},
+        {"id": "informante", "nome": "Informante", "descricao": "Sabe de tudo antes de todo mundo.",
+         "vantagens": [], "prioridades": ["pericia:Investigação", "pericia:Percepção"], "armas": [], "itens": ["microfone_parabolico"]},
+        {"id": "chefao", "nome": "Chefe de bando", "descricao": "Manda num grupo pequeno, mas leal.",
+         "vantagens": ["Liderança"], "prioridades": ["pericia:Intimidação", "habilidade:Pre"], "armas": ["pistola_pesada"], "itens": []}
+      ]
+    },
+    {
+      "id": "nomade",
+      "nome": "Nômade",
+      "conceito": "Vive na estrada, entre as cidades, com o clã e os veículos.",
+      "vantagens_essenciais": ["Ação em Movimento", "Ataque à Distância", "Rastrear"],
+      "vantagens_opcionais": ["Ambiente Favorito (estrada)", "Duro de Matar", "Trabalho em Equipe", "Destemido"],
+      "prioridades": ["pericia:Veículos", "habilidade:Des", "habilidade:Vig", "pericia:Percepção", "defesa:Esquiva",
+                      "defesa:Fortitude", "pericia:Atletismo", "pericia:Especialidade: Sobrevivência"],
+      "armas": {"principais": ["pistola_leve", "pistola_pesada", "escopeta"], "secundarias": ["katana", "faca", "tonfa"]},
+      "itens": {"essenciais": ["colete_balistico", "smartphone", "mascara_gas", "comunicador", "multiferramenta", "moto_do_cla"],
+                "opcionais": ["fita_adesiva", "lanterna", "arma_gancho", "cama_inflavel", "kit_medico", "corda",
+                              "equipamento_camping", "binoculos"]},
+      "implantes": {"essenciais": [], "opcionais": ["olhos_ciberneticos", "filtros_sinteticos", "pernas_hidraulicas", "radio_implantado"]},
+      "sugestoes": {
+        "motivacoes": ["Responsabilidade", "Aceitação", "Vingança"],
+        "complicacoes": [
+          {"nome": "Responsabilidade", "detalhe": "O clã depende dele para atravessar as terras devastadas."},
+          {"nome": "Preconceito", "detalhe": "Os moradores da cidade tratam nômades como bandidos."},
+          {"nome": "Rivalidade", "detalhe": "Um clã rival disputa as mesmas rotas."}
+        ]
+      },
+      "focos": [
+        {"id": "piloto", "nome": "Piloto", "descricao": "Ninguém dirige melhor nas estradas destruídas.",
+         "vantagens": [], "prioridades": ["pericia:Veículos", "pericia:Percepção"], "armas": [], "itens": []},
+        {"id": "batedor", "nome": "Batedor", "descricao": "Vai na frente, vê o perigo e volta para avisar.",
+         "vantagens": [], "prioridades": ["pericia:Furtividade", "pericia:Percepção", "pericia:Especialidade: Sobrevivência"],
+         "armas": ["fuzil_precisao"], "itens": ["binoculos"]},
+        {"id": "guerreiro_do_cla", "nome": "Guerreiro do clã", "descricao": "Defende a caravana de saqueadores.",
+         "vantagens": ["Interpor-se"], "prioridades": ["habilidade:Lut", "defesa:Aparar", "pericia:Intimidação"],
+         "armas": ["escopeta"], "itens": []}
+      ]
+    }
+  ]
+}

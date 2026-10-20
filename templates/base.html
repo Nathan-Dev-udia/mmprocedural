@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block titulo %}Gerador de NPCs{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <header class="topo">
+    <h1>Gerador de NPCs</h1>
+    <p>Mutantes &amp; Malfeitores 3ª edição · Velho Oeste</p>
+  </header>
+  <main class="conteudo">
+    {% block conteudo %}{% endblock %}
+  </main>
+  {% block scripts %}{% endblock %}
+</body>
+</html>

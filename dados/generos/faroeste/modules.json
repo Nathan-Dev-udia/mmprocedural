@@ -1,0 +1,1354 @@
+[
+  {
+    "id": "pistoleiro",
+    "nome": "Pistoleiro",
+    "epiteto": "o Pistoleiro",
+    "descricao": "Vive do revólver e confia mais no gatilho do que nos companheiros.",
+    "tatica": "Mantém distância, procura cobertura e mira antes de atirar.",
+    "tags": [
+      "combate",
+      "distancia"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "capanga"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Combate à Distância: Pistolas": 2
+      },
+      "vantagens": {
+        "Saque Rápido": 1,
+        "Mira Aprimorada": 1
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o protótipo"
+  },
+  {
+    "id": "explosivista",
+    "nome": "Explosivista",
+    "epiteto": "o Explosivista",
+    "descricao": "Cheira a pólvora e tem os dedos queimados de tanto acender pavio.",
+    "tatica": "Fica para trás e usa dinamite para fechar passagens e espalhar os inimigos.",
+    "tags": [
+      "combate",
+      "explosivos",
+      "terreno"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "capanga"
+    ],
+    "papel": "ambos",
+    "requisitos": {
+      "np_min": 5
+    },
+    "adiciona": {
+      "pericias": {
+        "Especialidade: Demolições": 2
+      },
+      "vantagens": {
+        "Equipamento": 2
+      },
+      "equipamento": [
+        "dinamite"
+      ]
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o protótipo. A dinamite (Dano 5 em área) só cabe a partir do NP 5."
+  },
+  {
+    "id": "emboscador",
+    "nome": "Emboscador",
+    "epiteto": "o Emboscador",
+    "descricao": "Ninguém o vê chegar, e ninguém o vê ir embora.",
+    "tatica": "Espera escondido, ataca primeiro e foge se o primeiro tiro não resolver.",
+    "tags": [
+      "furtividade",
+      "emboscada"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "capanga"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Furtividade": 4,
+        "Percepção": 2
+      },
+      "vantagens": {
+        "Esconder-se à Plena Vista": 1
+      }
+    },
+    "incompativel_com": [
+      "bruto"
+    ],
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o protótipo"
+  },
+  {
+    "id": "bruto",
+    "nome": "Bruto",
+    "epiteto": "o Bruto",
+    "descricao": "Grande, barulhento e com as mãos do tamanho de uma pá.",
+    "tatica": "Parte para cima, agarra quem estiver mais perto e derruba no chão.",
+    "tags": [
+      "combate",
+      "corpo_a_corpo"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "capanga"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Atletismo": 2,
+        "Intimidação": 2
+      },
+      "vantagens": {
+        "Agarrar Aprimorado": 1,
+        "Derrubar Aprimorado": 1,
+        "Ataque Poderoso": 1
+      }
+    },
+    "incompativel_com": [
+      "emboscador"
+    ],
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o protótipo"
+  },
+  {
+    "id": "batedor",
+    "nome": "Batedor",
+    "epiteto": "o Batedor",
+    "descricao": "Conhece as trilhas e lê rastros como quem lê jornal. Trocou a vida na cidade pela trilha.",
+    "tatica": "Vai na frente do bando, avisa sobre perigos e atira de longe com o rifle.",
+    "tags": [
+      "percepcao",
+      "rastreio",
+      "distancia"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "capanga"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Percepção": 4,
+        "Especialidade: Sobrevivência": 4,
+        "Especialidade: Cavalgar": 2
+      },
+      "vantagens": {
+        "Rastrear": 1
+      }
+    },
+    "substitui": {
+      "equipamento": {
+        "revolver_leve": "rifle"
+      }
+    },
+    "remove": {
+      "pericias": [
+        "Especialidade: Manha"
+      ]
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o protótipo"
+  },
+  {
+    "id": "atirador",
+    "nome": "Atirador",
+    "epiteto": "o Atirador",
+    "descricao": "Prefere resolver as coisas de cima do telhado, com o rifle apoiado.",
+    "tatica": "Procura um ponto alto e cobre os colegas de longe.",
+    "tags": [
+      "combate",
+      "distancia"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "policial"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Percepção": 2
+      },
+      "vantagens": {
+        "Mira Aprimorada": 1,
+        "Ataque Preciso (à distância, cobertura)": 1,
+        "Equipamento": 1
+      },
+      "equipamento": [
+        "rifle"
+      ]
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o protótipo"
+  },
+  {
+    "id": "brigao",
+    "nome": "Braço da lei",
+    "epiteto": "o Braço da Lei",
+    "descricao": "Acha que bêbado se resolve no braço, e normalmente tem razão.",
+    "tatica": "Avança, imobiliza e algema. Só saca a arma se o outro sacar primeiro.",
+    "tags": [
+      "combate",
+      "corpo_a_corpo"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "policial"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Combate Corpo-a-Corpo: Briga": 1
+      },
+      "vantagens": {
+        "Agarrar Aprimorado": 1,
+        "Imobilizar Aprimorado": 1,
+        "Derrubar Aprimorado": 1
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o protótipo"
+  },
+  {
+    "id": "detetive",
+    "nome": "Detetive",
+    "epiteto": "o Detetive",
+    "descricao": "Investigador da Pinkerton ou delegado curioso demais para o próprio bem.",
+    "tatica": "Evita o tiroteio; observa, pergunta e junta as peças.",
+    "tags": [
+      "investigacao",
+      "social"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "policial"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Investigação": 4,
+        "Intuição": 2,
+        "Persuasão": 4,
+        "Enganação": 2
+      },
+      "vantagens": {
+        "Contatos": 1,
+        "Bem Informado": 1
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "O livro básico sugere mais Investigação e perícias sociais para detetives; os números são do protótipo."
+  },
+  {
+    "id": "xerife",
+    "nome": "Xerife",
+    "epiteto": "o Xerife",
+    "descricao": "Eleito pelo condado. Conhece todo mundo, e todo mundo sabe quem ele é.",
+    "tatica": "Comanda os ajudantes e segura a porta com a escopeta.",
+    "tags": [
+      "lideranca",
+      "social"
+    ],
+    "estilos": [
+      "tematico"
+    ],
+    "arquetipos": [
+      "policial"
+    ],
+    "papel": "principal",
+    "adiciona": {
+      "pericias": {
+        "Intimidação": 2,
+        "Persuasão": 2
+      },
+      "vantagens": {
+        "Liderança": 1,
+        "Bem Relacionado": 1,
+        "Benefício (Status: xerife)": 1,
+        "Equipamento": 2
+      },
+      "equipamento": [
+        "escopeta"
+      ]
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o protótipo"
+  },
+  {
+    "id": "patrulheiro",
+    "nome": "Patrulheiro",
+    "epiteto": "o Patrulheiro",
+    "descricao": "Passa mais tempo na sela do que na delegacia.",
+    "tatica": "Persegue a cavalo, corta caminho e segue o rastro até o esconderijo.",
+    "tags": [
+      "montaria",
+      "rastreio"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "policial"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Especialidade: Cavalgar": 4,
+        "Especialidade: Sobrevivência": 2,
+        "Percepção": 2
+      },
+      "vantagens": {
+        "Rastrear": 1,
+        "Ambiente Favorito (deserto)": 1
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o protótipo"
+  },
+  {
+    "id": "cavalo_carga",
+    "nome": "Cavalo de carga",
+    "epiteto": "cavalo de carga",
+    "descricao": "Mais pesado e mais forte, feito para puxar carroça e carregar peso.",
+    "tatica": "Não foge do barulho, mas também não corre muito.",
+    "tags": [
+      "carga"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "cavalo"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "habilidades": {
+        "For": 1
+      }
+    },
+    "incompativel_com": [
+      "corcel"
+    ],
+    "status_dados": "validado",
+    "fonte": "Guia do Mestre de Jogo, p. 223: cavalos de carga têm +1 For. O coice fica com Dano 5, que só cabe a partir do NP 4."
+  },
+  {
+    "id": "cavalo_guerra",
+    "nome": "Cavalo de guerra",
+    "epiteto": "cavalo de guerra",
+    "descricao": "Treinado na cavalaria. Não se assusta com tiros e sabe lutar.",
+    "tatica": "Avança contra o inimigo e escoiceia quem chegar perto.",
+    "tags": [
+      "combate"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "cavalo"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Combate Corpo-a-Corpo: Coice": 2
+      },
+      "vantagens": {
+        "Destemido": 1
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "O Guia do Mestre diz que cavalos de guerra têm mais Luta ou Combate Corpo-a-Corpo, sem dar o valor; as graduações são do protótipo."
+  },
+  {
+    "id": "mustangue",
+    "nome": "Mustangue",
+    "epiteto": "mustangue",
+    "descricao": "Cavalo selvagem domado à força. Arisco, resistente e desconfiado.",
+    "tatica": "Fareja perigo antes do cavaleiro e aguenta dias de trilha.",
+    "tags": [
+      "resistencia",
+      "percepcao"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "cavalo"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Percepção": 2
+      },
+      "vantagens": {
+        "Tolerância Maior": 1,
+        "Ambiente Favorito (planícies)": 1
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o protótipo"
+  },
+  {
+    "id": "corcel",
+    "nome": "Corcel ágil",
+    "epiteto": "corcel ágil",
+    "descricao": "Leve e nervoso, sai na frente em qualquer arrancada.",
+    "tatica": "Ótimo para fugas e perseguições curtas.",
+    "tags": [
+      "velocidade"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "cavalo"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Atletismo": 2
+      },
+      "vantagens": {
+        "Iniciativa Aprimorada": 1
+      }
+    },
+    "incompativel_com": [
+      "cavalo_carga"
+    ],
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o protótipo"
+  },
+  {
+    "id": "ladrao",
+    "nome": "Ladrão",
+    "epiteto": "o Ladrão",
+    "descricao": "Bate carteiras no meio da multidão e abre fechaduras com um grampo.",
+    "tatica": "Some antes da briga começar; se for pego, larga tudo e corre.",
+    "tags": [
+      "furtividade",
+      "roubo"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "capanga"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Prestidigitação": 4,
+        "Furtividade": 2,
+        "Tecnologia": 2
+      },
+      "equipamento": [
+        "gazuas"
+      ]
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o protótipo"
+  },
+  {
+    "id": "arrombador",
+    "nome": "Arrombador",
+    "epiteto": "o Arrombador",
+    "descricao": "Abre cofres, desarma armadilhas e sabe cortar o pavio certo da dinamite.",
+    "tatica": "Fica atrás do grupo até chegar a hora do cofre ou da porta trancada.",
+    "tags": [
+      "tecnologia",
+      "explosivos",
+      "roubo"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "capanga"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Tecnologia": 4,
+        "Especialidade: Demolições": 4
+      },
+      "vantagens": {
+        "Ferramentas Aprimoradas": 1
+      },
+      "equipamento": [
+        "kit_ferramentas"
+      ]
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o protótipo"
+  },
+  {
+    "id": "cirurgiao",
+    "nome": "Cirurgião",
+    "epiteto": "o Cirurgião",
+    "descricao": "Já tirou mais balas do que muito pistoleiro disparou.",
+    "tatica": "Fica longe do tiroteio e corre para os feridos assim que pode.",
+    "tags": [
+      "cura"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "medico"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Tratamento": 2,
+        "Especialidade: Medicina": 2
+      },
+      "vantagens": {
+        "Ferramentas Aprimoradas": 1
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o protótipo"
+  },
+  {
+    "id": "medico_combate",
+    "nome": "Médico de combate",
+    "epiteto": "o Médico de Combate",
+    "descricao": "Aprendeu medicina na Guerra Civil, entre uma trincheira e outra. Atira bem e costura melhor ainda.",
+    "tatica": "Dá cobertura com o revólver e arrasta os feridos para trás da linha.",
+    "tags": [
+      "cura",
+      "combate",
+      "distancia"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "medico"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Combate à Distância: Pistolas": 2,
+        "Tratamento": 1
+      },
+      "defesas_compradas": {
+        "Esquiva": 2
+      },
+      "vantagens": {
+        "Saque Rápido": 1,
+        "Equipamento": 1
+      }
+    },
+    "substitui": {
+      "equipamento": {
+        "derringer": "revolver_leve"
+      }
+    },
+    "requisitos": {
+      "np_min": 3
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o protótipo"
+  },
+  {
+    "id": "boticario",
+    "nome": "Boticário",
+    "epiteto": "o Boticário",
+    "descricao": "Prepara remédios, tônicos e, quando é preciso, venenos.",
+    "tatica": "Prefere resolver as coisas antes do combate, com um frasco no lugar certo.",
+    "tags": [
+      "quimica",
+      "cura"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "medico"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Especialidade: Química": 4,
+        "Tecnologia": 2
+      },
+      "vantagens": {
+        "Bem Informado": 1
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o protótipo"
+  },
+  {
+    "id": "charlatao",
+    "nome": "Charlatão",
+    "epiteto": "o Charlatão",
+    "descricao": "Vende o Tônico Milagroso do Dr. Fulano de cidade em cidade.",
+    "tatica": "Conversa até o último segundo e foge na carroça se a coisa apertar.",
+    "tags": [
+      "social",
+      "enganacao"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "medico"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Enganação": 4,
+        "Persuasão": 4
+      },
+      "vantagens": {
+        "Fascinar": 1
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o protótipo"
+  },
+  {
+    "id": "agrimensor",
+    "nome": "Agrimensor",
+    "epiteto": "o Agrimensor",
+    "descricao": "Mede terras para a ferrovia e para os barões do gado.",
+    "tatica": "Evita confusão; sabe de cor onde fica cada atalho do mapa.",
+    "tags": [
+      "percepcao",
+      "mapas"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "geologo"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Especialidade: Agrimensura": 4,
+        "Percepção": 4
+      },
+      "vantagens": {
+        "Memória Eidética": 1
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o protótipo"
+  },
+  {
+    "id": "prospector",
+    "nome": "Prospector",
+    "epiteto": "o Prospector",
+    "descricao": "Passou anos no deserto procurando o veio certo.",
+    "tatica": "Conhece o terreno e foge por caminhos que ninguém mais conhece.",
+    "tags": [
+      "sobrevivencia",
+      "montaria"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "geologo"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Especialidade: Sobrevivência": 4,
+        "Especialidade: Cavalgar": 4
+      },
+      "vantagens": {
+        "Tolerância Maior": 1
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o protótipo"
+  },
+  {
+    "id": "ensaiador",
+    "nome": "Ensaiador",
+    "epiteto": "o Ensaiador",
+    "descricao": "Analisa o minério e descobre quando alguém salgou a mina.",
+    "tatica": "Observa, anota e denuncia a fraude no momento certo.",
+    "tags": [
+      "investigacao",
+      "quimica"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "geologo"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Especialidade: Química": 4,
+        "Investigação": 4
+      },
+      "vantagens": {
+        "Bem Informado": 1
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o protótipo"
+  },
+  {
+    "id": "explorador_armado",
+    "nome": "Explorador armado",
+    "epiteto": "o Explorador",
+    "descricao": "Já cruzou território perigoso o bastante para não sair sem rifle.",
+    "tatica": "Atira de longe e recua para terreno alto.",
+    "tags": [
+      "combate",
+      "distancia"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "geologo"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Combate à Distância: Rifles": 1
+      },
+      "defesas_compradas": {
+        "Esquiva": 1
+      },
+      "vantagens": {
+        "Equipamento": 1
+      }
+    },
+    "substitui": {
+      "equipamento": {
+        "derringer": "rifle"
+      }
+    },
+    "requisitos": {
+      "np_min": 3
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o protótipo"
+  },
+  {
+    "id": "jogador_poquer",
+    "nome": "Jogador de pôquer",
+    "epiteto": "o Jogador",
+    "descricao": "Nunca perde uma mão, ou nunca deixa ninguém ver.",
+    "tatica": "Lê o adversário na mesa e sabe a hora de levantar e ir embora.",
+    "tags": [
+      "jogatina",
+      "social"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "falastrao"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Prestidigitação": 2,
+        "Intuição": 4
+      },
+      "vantagens": {
+        "Sorte": 1,
+        "Avaliação": 1
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o protótipo"
+  },
+  {
+    "id": "vigarista",
+    "nome": "Vigarista",
+    "epiteto": "o Vigarista",
+    "descricao": "Vende terreno na lua e ações de mina que não existe.",
+    "tatica": "Nunca briga: convence alguém a brigar por ele.",
+    "tags": [
+      "enganacao",
+      "social"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "falastrao"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Enganação": 2,
+        "Persuasão": 2
+      },
+      "vantagens": {
+        "Atraente": 1,
+        "Fascinar": 1
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o protótipo"
+  },
+  {
+    "id": "pistoleiro_mesa",
+    "nome": "Pistoleiro de mesa",
+    "epiteto": "o Ás na Manga",
+    "descricao": "A derringer na manga já resolveu mais discussões do que as cartas.",
+    "tatica": "Saca primeiro, debaixo da mesa, e só depois pergunta quem estava roubando.",
+    "tags": [
+      "combate",
+      "distancia"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "falastrao"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Combate à Distância: Pistolas": 2
+      },
+      "vantagens": {
+        "Saque Rápido": 1
+      }
+    },
+    "requisitos": {
+      "np_min": 3
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o protótipo"
+  },
+  {
+    "id": "mascate",
+    "nome": "Mascate",
+    "epiteto": "o Mascate",
+    "descricao": "Vende de tudo, de botões a rifles, e conhece todo mundo no caminho.",
+    "tatica": "Negocia até com quem aponta uma arma para ele.",
+    "tags": [
+      "comercio",
+      "social"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "falastrao"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Especialidade: Comércio": 4,
+        "Persuasão": 2
+      },
+      "vantagens": {
+        "Bem Relacionado": 1
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o protótipo"
+  },
+  {
+    "id": "pregador",
+    "nome": "Pregador",
+    "epiteto": "o Pregador",
+    "descricao": "Sua voz enche a igreja e cala o saloon.",
+    "tatica": "Junta a cidade contra os bandidos com um sermão.",
+    "tags": [
+      "social",
+      "lideranca"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "padre"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Persuasão": 2
+      },
+      "vantagens": {
+        "Inspirar": 1,
+        "Liderança": 1
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o protótipo"
+  },
+  {
+    "id": "reverendo_armado",
+    "nome": "Reverendo armado",
+    "epiteto": "o Reverendo",
+    "descricao": "Oferece a outra face uma vez. Na segunda, oferece a escopeta.",
+    "tatica": "Protege a igreja e os fiéis atirando da porta.",
+    "tags": [
+      "combate",
+      "distancia"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "padre"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Combate à Distância: Escopetas": 1
+      },
+      "defesas_compradas": {
+        "Esquiva": 1
+      },
+      "vantagens": {
+        "Equipamento": 2
+      },
+      "equipamento": [
+        "escopeta"
+      ]
+    },
+    "requisitos": {
+      "np_min": 3
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o protótipo"
+  },
+  {
+    "id": "capelao",
+    "nome": "Capelão",
+    "epiteto": "o Capelão",
+    "descricao": "Cuida dos feridos e dá a extrema-unção aos que não têm mais jeito.",
+    "tatica": "Corre para os feridos no meio do tiroteio, protegido pela batina (ou não).",
+    "tags": [
+      "cura"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "padre"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Tratamento": 4
+      },
+      "vantagens": {
+        "Equipamento": 1
+      },
+      "equipamento": [
+        "maleta_medica"
+      ]
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o protótipo"
+  },
+  {
+    "id": "confessor",
+    "nome": "Confessor",
+    "epiteto": "o Confessor",
+    "descricao": "Ouviu cada segredo da cidade, e lembra de todos.",
+    "tatica": "Sabe quem mente antes de a pessoa abrir a boca.",
+    "tags": [
+      "investigacao",
+      "social"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "padre"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Intuição": 2,
+        "Investigação": 2
+      },
+      "vantagens": {
+        "Bem Informado": 1
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o protótipo"
+  },
+  {
+    "id": "carpinteiro",
+    "nome": "Carpinteiro de mina",
+    "epiteto": "o Escorador",
+    "descricao": "Monta as escoras que seguram a montanha em cima da cabeça de todo mundo.",
+    "tatica": "Conserta, constrói e improvisa barricadas.",
+    "tags": [
+      "oficio",
+      "tecnologia"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "minerador"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Especialidade: Carpintaria": 4,
+        "Tecnologia": 2
+      },
+      "vantagens": {
+        "Ferramentas Aprimoradas": 1
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o protótipo"
+  },
+  {
+    "id": "atirador_nato",
+    "nome": "Atirador nato",
+    "epiteto": "o Olho de Águia",
+    "descricao": "Nunca treinou, mas acerta uma lata a trinta passos.",
+    "tatica": "Encontra cobertura entre as pedras e atira com calma.",
+    "tags": [
+      "combate",
+      "distancia"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "minerador"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Combate à Distância: Pistolas": 2
+      },
+      "vantagens": {
+        "Mira Aprimorada": 1,
+        "Saque Rápido": 1
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o protótipo"
+  },
+  {
+    "id": "fortao",
+    "nome": "Fortão",
+    "epiteto": "o Fortão",
+    "descricao": "Carrega sozinho o que dois homens não levantam.",
+    "tatica": "Avança, agarra e arremessa quem estiver na frente.",
+    "tags": [
+      "combate",
+      "corpo_a_corpo",
+      "resistencia"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "minerador"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Atletismo": 4
+      },
+      "defesas_compradas": {
+        "Fortitude": 2
+      },
+      "vantagens": {
+        "Agarrar Aprimorado": 1,
+        "Ataque Poderoso": 1,
+        "Tolerância Maior": 1
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o protótipo"
+  },
+  {
+    "id": "dinamitador",
+    "nome": "Dinamitador",
+    "epiteto": "o Dinamitador",
+    "descricao": "Abre túneis com dinamite e tem três dedos a menos.",
+    "tatica": "Joga uma banana de dinamite e se joga no chão.",
+    "tags": [
+      "combate",
+      "explosivos"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "minerador"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Especialidade: Demolições": 4
+      },
+      "vantagens": {
+        "Equipamento": 3
+      },
+      "equipamento": [
+        "dinamite"
+      ]
+    },
+    "requisitos": {
+      "np_min": 5
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o protótipo"
+  },
+  {
+    "id": "garimpeiro",
+    "nome": "Garimpeiro",
+    "epiteto": "o Garimpeiro",
+    "descricao": "Reconhece ouro de tolo de longe e não larga a bateia.",
+    "tatica": "Desconfiado; vigia o acampamento e percebe gente chegando.",
+    "tags": [
+      "percepcao",
+      "sobrevivencia"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "minerador"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Percepção": 4,
+        "Especialidade: Sobrevivência": 4,
+        "Especialidade: Geologia": 2
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o protótipo"
+  },
+  {
+    "id": "domador",
+    "nome": "Domador",
+    "epiteto": "o Domador",
+    "descricao": "Monta em cavalo que ninguém mais monta.",
+    "tatica": "Luta montado e foge a galope.",
+    "tags": [
+      "montaria",
+      "animais"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "vaqueiro"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Especialidade: Cavalgar": 2
+      },
+      "vantagens": {
+        "Empatia com Animais": 1
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o protótipo"
+  },
+  {
+    "id": "lacador",
+    "nome": "Laçador",
+    "epiteto": "o Laçador",
+    "descricao": "Laça um bezerro em disparada, ou um bandido fugindo.",
+    "tatica": "Prende o alvo com o laço e deixa o resto para os companheiros.",
+    "tags": [
+      "combate",
+      "controle"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "vaqueiro"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Combate à Distância: Laço": 2
+      },
+      "vantagens": {
+        "Imobilizar Aprimorado": 1
+      }
+    },
+    "requisitos": {
+      "np_min": 4
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o protótipo"
+  },
+  {
+    "id": "condutor",
+    "nome": "Condutor de boiada",
+    "epiteto": "o Condutor",
+    "descricao": "Já levou mil cabeças do Texas ao Kansas.",
+    "tatica": "Lê o terreno, prevê o estouro da boiada e vigia a noite.",
+    "tags": [
+      "sobrevivencia",
+      "rastreio"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "vaqueiro"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Especialidade: Sobrevivência": 2,
+        "Percepção": 2
+      },
+      "vantagens": {
+        "Rastrear": 1,
+        "Tolerância Maior": 1
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o protótipo"
+  },
+  {
+    "id": "pistoleiro_rancho",
+    "nome": "Pistoleiro do rancho",
+    "epiteto": "o Pistoleiro",
+    "descricao": "Defende o rancho dos ladrões de gado com o revólver na cintura.",
+    "tatica": "Atira de cima do cavalo e protege a boiada.",
+    "tags": [
+      "combate",
+      "distancia"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "vaqueiro"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Combate à Distância: Pistolas": 2
+      },
+      "vantagens": {
+        "Saque Rápido": 1,
+        "Equipamento": 1
+      },
+      "equipamento": [
+        "revolver_leve"
+      ]
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o protótipo"
+  },
+  {
+    "id": "peao_brigao",
+    "nome": "Peão brigão",
+    "epiteto": "o Brigão",
+    "descricao": "Resolve tudo no braço, de preferência no saloon.",
+    "tatica": "Parte para cima no soco e derruba quem estiver no caminho.",
+    "tags": [
+      "combate",
+      "corpo_a_corpo"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "vaqueiro"
+    ],
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Combate Corpo-a-Corpo: Briga": 2,
+        "Atletismo": 2
+      },
+      "vantagens": {
+        "Ataque Poderoso": 1,
+        "Derrubar Aprimorado": 1
+      }
+    },
+    "status_dados": "ilustrativo",
+    "fonte": "Criado para o protótipo"
+  }
+]

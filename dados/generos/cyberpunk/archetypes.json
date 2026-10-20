@@ -1,0 +1,219 @@
+[
+  {
+    "id": "gangue",
+    "nome": "Gangue de rua",
+    "nomes": "humano",
+    "capanga": true,
+    "np_maximo": 10,
+    "descricao": "Membro de gangue dos andares de baixo: cromado barato, lealdade ao bando e nada a perder.",
+    "prioridades": ["pericia:Combate à Distância: Pistolas", "defesa:Esquiva", "habilidade:Des", "pericia:Intimidação",
+                    "defesa:Fortitude", "pericia:Atletismo", "defesa:Aparar", "habilidade:Agi", "defesa:Vontade"],
+    "faixas": [
+      {
+        "np": 3,
+        "nome": "Gangueiro",
+        "fonte": "Livro básico, p. 211 (Bandido)",
+        "status_dados": "validado",
+        "observacao": "Ficha do livro sem mudanças. O livro chama de NP 2, mas o ataque desarmado (+3, Dano 3) pede NP 3; com Luta 3 o Aparar calculado é 3 (o livro imprime 2).",
+        "ficha": {
+          "habilidades": {"For": 3, "Vig": 2, "Agi": 1, "Des": 1, "Lut": 3, "Int": 0, "Pro": 0, "Pre": -1},
+          "defesas_compradas": {"Esquiva": 1, "Fortitude": 2},
+          "pericias": {"Atletismo": 4, "Especialidade: Manha": 2, "Intimidação": 4, "Furtividade": 2, "Veículos": 2},
+          "vantagens": {"Equipamento": 2},
+          "equipamento": ["jaqueta_couro", "pistola_leve"],
+          "ataque_desarmado": true
+        }
+      },
+      {
+        "np": 5,
+        "nome": "Líder de gangue",
+        "fonte": "Livro básico, p. 211 (Líder de Gangue)",
+        "status_dados": "validado",
+        "observacao": "Ficha do livro; a tonfa usa o porrete do livro (Dano 2 + Força).",
+        "ficha": {
+          "habilidades": {"For": 3, "Vig": 3, "Agi": 2, "Des": 2, "Lut": 5, "Int": 0, "Pro": 1, "Pre": 2},
+          "defesas_compradas": {"Esquiva": 3, "Fortitude": 2, "Vontade": 1},
+          "pericias": {"Atletismo": 4, "Especialidade: Manha": 6, "Furtividade": 4, "Intimidação": 8, "Percepção": 4,
+                       "Veículos": 4},
+          "vantagens": {"Equipamento": 3},
+          "equipamento": ["celular", "jaqueta_couro", "pistola_pesada", "tonfa"],
+          "ataque_desarmado": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "seguranca",
+    "nome": "Segurança corporativa",
+    "nomes": "humano",
+    "capanga": false,
+    "np_maximo": 10,
+    "descricao": "Guarda de uniforme da megacorporação. Protege o prédio, o executivo e o patrimônio, nessa ordem.",
+    "prioridades": ["pericia:Combate à Distância: Pistolas", "pericia:Percepção", "defesa:Esquiva", "defesa:Aparar",
+                    "pericia:Intuição", "defesa:Fortitude", "defesa:Vontade", "habilidade:Pro", "habilidade:Des"],
+    "faixas": [
+      {
+        "np": 4,
+        "nome": "Guarda corporativo",
+        "fonte": "Livro básico, p. 210 (Policial)",
+        "status_dados": "validado",
+        "observacao": "Ficha do livro sem mudanças. O colete só protege contra tiros (Resistência 6 contra balas, 2 contra golpes, como o '6/2' do livro).",
+        "ficha": {
+          "habilidades": {"For": 2, "Vig": 2, "Agi": 1, "Des": 1, "Lut": 3, "Int": 0, "Pro": 1, "Pre": 1},
+          "defesas_compradas": {"Esquiva": 1, "Aparar": 1, "Fortitude": 2, "Vontade": 1},
+          "pericias": {"Atletismo": 4, "Combate à Distância: Pistolas": 4, "Especialidade: Manha": 4, "Intuição": 4,
+                       "Intimidação": 2, "Investigação": 2, "Percepção": 4, "Tratamento": 2, "Veículos": 4},
+          "vantagens": {"Equipamento": 3},
+          "equipamento": ["algemas", "celular", "colete_balistico", "pistola_leve", "tonfa"],
+          "ataque_desarmado": true
+        }
+      },
+      {
+        "np": 5,
+        "nome": "Tropa de choque corporativa",
+        "fonte": "Livro básico, p. 210 (Policial de Elite)",
+        "status_dados": "validado",
+        "observacao": "Ficha do livro; a veste tática (+4) é o colete à prova de balas.",
+        "ficha": {
+          "habilidades": {"For": 2, "Vig": 2, "Agi": 2, "Des": 2, "Lut": 4, "Int": 0, "Pro": 1, "Pre": 1},
+          "defesas_compradas": {"Esquiva": 2, "Fortitude": 4, "Vontade": 2},
+          "pericias": {"Atletismo": 6, "Combate à Distância: Submetralhadoras": 4, "Especialidade: Tática": 6,
+                       "Furtividade": 6, "Intimidação": 4, "Percepção": 6, "Tratamento": 4},
+          "vantagens": {"Ataque Corpo-a-Corpo": 2, "Equipamento": 4},
+          "equipamento": ["algemas", "celular", "submetralhadora", "tonfa", "colete_balistico"],
+          "ataque_desarmado": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "mercenario",
+    "nome": "Mercenário",
+    "nomes": "humano",
+    "capanga": true,
+    "np_maximo": 10,
+    "descricao": "Soldado de aluguel, ex-militar ou ex-forças especiais corporativas. Vai onde o contrato mandar.",
+    "prioridades": ["pericia:Combate à Distância: Fuzis", "defesa:Esquiva", "habilidade:Des", "defesa:Fortitude",
+                    "pericia:Percepção", "pericia:Atletismo", "defesa:Aparar", "defesa:Vontade", "habilidade:Vig"],
+    "faixas": [
+      {
+        "np": 5,
+        "nome": "Soldado",
+        "fonte": "Livro básico, p. 210 (Soldado)",
+        "status_dados": "validado",
+        "observacao": "Ficha do livro. O livro soma Defesas 8 (total 45), mas as defesas impressas custam 10 (total 47). Os 17 pontos livres de equipamento viraram uma granada de fragmentação.",
+        "ficha": {
+          "habilidades": {"For": 1, "Vig": 2, "Agi": 1, "Des": 1, "Lut": 3, "Int": 0, "Pro": 0, "Pre": 0},
+          "defesas_compradas": {"Esquiva": 4, "Aparar": 2, "Fortitude": 3, "Vontade": 1},
+          "pericias": {"Atletismo": 4, "Especialidade: Soldado": 4, "Especialidade: Tática": 4, "Intimidação": 2,
+                       "Percepção": 4, "Veículos": 2},
+          "vantagens": {"Ataque à Distância": 4, "Equipamento": 7},
+          "equipamento": ["armadura_tatica", "fuzil_assalto", "granada_fragmentacao"],
+          "ataque_desarmado": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "netrunner",
+    "nome": "Netrunner",
+    "nomes": "humano",
+    "capanga": false,
+    "np_maximo": 10,
+    "descricao": "Hacker que mergulha na rede de olhos fechados. Fora dela, é só um corpo magro diante de um teclado.",
+    "prioridades": ["pericia:Tecnologia", "pericia:Especialidade: Computação", "defesa:Vontade", "defesa:Esquiva",
+                    "habilidade:Int", "pericia:Percepção", "pericia:Investigação", "defesa:Fortitude"],
+    "faixas": [
+      {
+        "np": 2,
+        "nome": "Hacker",
+        "fonte": "Livro básico, p. 210 (Cientista), adaptado",
+        "status_dados": "validado",
+        "observacao": "Mesmo custo por seção do Cientista (24 PP). Ciência virou Especialidade: Computação; o celular virou cyberdeck e smartphone. O livro lista NP 1; a Vontade 4 leva a NP 2.",
+        "ficha": {
+          "habilidades": {"For": 0, "Vig": 0, "Agi": 0, "Des": 1, "Lut": 0, "Int": 4, "Pro": 1, "Pre": 0},
+          "defesas_compradas": {"Vontade": 3},
+          "pericias": {"Tecnologia": 6, "Especialidade: Computação": 6, "Especialidade: Cultura Pop": 4},
+          "vantagens": {"Equipamento": 1},
+          "equipamento": ["computador", "smartphone"],
+          "ataque_desarmado": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "fixer",
+    "nome": "Fixer",
+    "nomes": "humano",
+    "capanga": false,
+    "np_maximo": 10,
+    "descricao": "Intermediário do submundo: arruma o trabalho, o equipamento e as pessoas, e fica com uma parte.",
+    "prioridades": ["pericia:Especialidade: Manha", "pericia:Persuasão", "pericia:Enganação", "pericia:Intuição",
+                    "defesa:Vontade", "defesa:Esquiva", "habilidade:Pre", "pericia:Percepção"],
+    "faixas": [
+      {
+        "np": 2,
+        "nome": "Informante",
+        "fonte": "Livro básico, p. 211 (Informante)",
+        "status_dados": "validado",
+        "observacao": "Ficha do livro sem mudanças.",
+        "ficha": {
+          "habilidades": {"For": 0, "Vig": 0, "Agi": 1, "Des": 1, "Lut": 1, "Int": 1, "Pro": 1, "Pre": 1},
+          "defesas_compradas": {"Esquiva": 2, "Aparar": 2, "Fortitude": 1},
+          "pericias": {"Enganação": 4, "Especialidade: Manha": 6, "Especialidade: Atualidades": 4, "Furtividade": 2,
+                       "Percepção": 4},
+          "vantagens": {"Contatos": 1, "Equipamento": 2},
+          "equipamento": ["celular", "faca", "jaqueta_couro", "pistola_leve"],
+          "ataque_desarmado": true
+        }
+      },
+      {
+        "np": 4,
+        "nome": "Chefão do submundo",
+        "fonte": "Livro básico, p. 211 (Senhor do Crime)",
+        "status_dados": "validado",
+        "observacao": "Ficha do livro sem mudanças.",
+        "ficha": {
+          "habilidades": {"For": 0, "Vig": 1, "Agi": 1, "Des": 0, "Lut": 2, "Int": 3, "Pro": 2, "Pre": 4},
+          "defesas_compradas": {"Esquiva": 3, "Aparar": 1, "Fortitude": 2, "Vontade": 3},
+          "pericias": {"Combate à Distância: Pistolas": 4, "Especialidade: Atualidades": 4, "Especialidade: Manha": 8,
+                       "Intimidação": 6, "Percepção": 4, "Persuasão": 4},
+          "vantagens": {"Bem Informado": 1, "Bem Relacionado": 1,
+                        "Benefício (Riqueza: milionário; Status: chefão do submundo)": 5, "Equipamento": 3},
+          "equipamento": ["colete_oculto", "pistola_pesada", "smartphone"],
+          "ataque_desarmado": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "agente",
+    "nome": "Agente corporativo",
+    "nomes": "humano",
+    "capanga": false,
+    "np_maximo": 10,
+    "descricao": "Terno impecável, sorriso educado e autorização para fazer o que for preciso pela empresa.",
+    "prioridades": ["pericia:Investigação", "pericia:Combate à Distância: Pistolas", "pericia:Percepção",
+                    "defesa:Esquiva", "pericia:Persuasão", "defesa:Vontade", "habilidade:Int", "defesa:Aparar"],
+    "faixas": [
+      {
+        "np": 4,
+        "nome": "Agente",
+        "fonte": "Livro básico, p. 210 (Agente do Governo)",
+        "status_dados": "validado",
+        "observacao": "Ficha do livro sem mudanças; o governo virou a corporação.",
+        "ficha": {
+          "habilidades": {"For": 1, "Vig": 2, "Agi": 1, "Des": 1, "Lut": 3, "Int": 2, "Pro": 2, "Pre": 2},
+          "defesas_compradas": {"Esquiva": 4, "Aparar": 2, "Fortitude": 1, "Vontade": 1},
+          "pericias": {"Atletismo": 4, "Combate à Distância: Pistolas": 4, "Enganação": 2,
+                       "Especialidade: Atualidades": 2, "Especialidade: Direito": 2, "Especialidade: Psicologia": 2,
+                       "Especialidade: Manha": 2, "Intimidação": 4, "Investigação": 6, "Percepção": 4, "Persuasão": 4,
+                       "Tecnologia": 2, "Veículos": 4},
+          "vantagens": {"Equipamento": 2, "Rolamento Defensivo": 1},
+          "equipamento": ["algemas", "pistola_leve", "smartphone"],
+          "ataque_desarmado": true
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,1686 @@
+[
+  {
+    "id": "revolver_leve",
+    "nome": "Revólver leve (Colt Navy)",
+    "custo": 6,
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 3,
+      "pericia": "Combate à Distância: Pistolas",
+      "critico": 20
+    },
+    "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico)",
+    "preco": 10,
+    "categoria": "Arma de fogo",
+    "tipo": "Revólver de ação simples",
+    "classe": "Pistola leve",
+    "peso": "1,5",
+    "tiros": 6,
+    "municao": "municao_pistola_leve",
+    "notas": ""
+  },
+  {
+    "id": "revolver_pesado",
+    "nome": "Revólver pesado (Colt Peacemaker)",
+    "custo": 8,
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 4,
+      "pericia": "Combate à Distância: Pistolas",
+      "critico": 20
+    },
+    "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico)",
+    "preco": 15,
+    "categoria": "Arma de fogo",
+    "tipo": "Revólver de ação dupla",
+    "classe": "Pistola pesada",
+    "peso": "2",
+    "tiros": 6,
+    "municao": "municao_pistola",
+    "notas": ""
+  },
+  {
+    "id": "derringer",
+    "nome": "Derringer",
+    "custo": 4,
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 2,
+      "pericia": "Combate à Distância: Pistolas",
+      "critico": 20
+    },
+    "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico)",
+    "preco": 8,
+    "categoria": "Arma de fogo",
+    "tipo": "Derringer",
+    "classe": "Pistola de apoio",
+    "peso": "0,25",
+    "tiros": 2,
+    "municao": "municao_pistola",
+    "notas": ""
+  },
+  {
+    "id": "rifle",
+    "nome": "Rifle (Winchester '73)",
+    "custo": 8,
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 4,
+      "pericia": "Combate à Distância: Rifles",
+      "critico": 20
+    },
+    "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico)",
+    "preco": 25,
+    "categoria": "Arma de fogo",
+    "tipo": "Rifle",
+    "classe": "Rifle",
+    "peso": "3,5",
+    "tiros": 15,
+    "municao": "municao_rifle",
+    "notas": ""
+  },
+  {
+    "id": "escopeta",
+    "nome": "Escopeta de cano duplo",
+    "custo": 10,
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 5,
+      "pericia": "Combate à Distância: Escopetas",
+      "critico": 20
+    },
+    "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico)",
+    "preco": 35,
+    "categoria": "Arma de fogo",
+    "tipo": "Escopeta",
+    "classe": "Escopeta",
+    "peso": "4",
+    "tiros": 2,
+    "municao": "cartuchos",
+    "notas": "Chumbo: +2 no ataque, Dano máximo 3 contra armadura"
+  },
+  {
+    "id": "faca",
+    "nome": "Faca",
+    "custo": 2,
+    "ataque": {
+      "tipo": "corpo",
+      "efeito": 1,
+      "soma_forca": true,
+      "pericia": "Combate Corpo-a-Corpo: Facas",
+      "critico": 19
+    },
+    "fonte": "Livro básico, cap. 7 (armas brancas), conversão do guia de faroeste",
+    "preco": 2,
+    "categoria": "Arma branca",
+    "notas": ""
+  },
+  {
+    "id": "cassetete",
+    "nome": "Cassetete",
+    "custo": 2,
+    "ataque": {
+      "tipo": "corpo",
+      "efeito": 2,
+      "soma_forca": true,
+      "pericia": "Combate Corpo-a-Corpo: Porretes",
+      "critico": 20
+    },
+    "fonte": "Livro básico, cap. 7 (armas brancas), conversão do guia de faroeste",
+    "preco": 1,
+    "categoria": "Arma branca",
+    "notas": ""
+  },
+  {
+    "id": "dinamite",
+    "nome": "Dinamite (1 banana)",
+    "custo": 15,
+    "ataque": {
+      "tipo": "area",
+      "efeito": 5
+    },
+    "fonte": "Livro básico, cap. 7 (dinamite: Dano 5, Área de Explosão)",
+    "preco": 3,
+    "categoria": "Explosivos",
+    "descricao": "Bastão de dinamite; precisa de estopim ou detonador.",
+    "peso": "0,5"
+  },
+  {
+    "id": "casaco_couro",
+    "nome": "Casaco de couro grosso",
+    "custo": 1,
+    "protecao": 1,
+    "fonte": "Livro básico, cap. 7 (armadura de couro, Proteção 1)",
+    "preco": 10,
+    "categoria": "Roupas",
+    "descricao": "Casaco longo e pesado, protege da chuva e do vento.",
+    "peso": "2"
+  },
+  {
+    "id": "algemas",
+    "nome": "Algemas",
+    "custo": 1,
+    "fonte": "Livro básico, cap. 7 (algemas)",
+    "preco": 3.5,
+    "categoria": "Equipamento geral",
+    "descricao": "Par de algemas de ferro para prender prisioneiros.",
+    "peso": "1,5"
+  },
+  {
+    "id": "maleta_medica",
+    "nome": "Maleta médica",
+    "custo": 1,
+    "fonte": "Livro básico, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); Tratamento sem ferramentas sofre –5",
+    "preco": null,
+    "categoria": "Equipamento geral"
+  },
+  {
+    "id": "gazuas",
+    "nome": "Gazuas",
+    "custo": 1,
+    "fonte": "Livro básico, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto)",
+    "preco": 50,
+    "categoria": "Equipamento geral",
+    "descricao": "Conjunto de ganchos e ferramentas para abrir fechaduras.",
+    "peso": "0,5"
+  },
+  {
+    "id": "kit_ferramentas",
+    "nome": "Kit de ferramentas",
+    "custo": 1,
+    "fonte": "Livro básico, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto)",
+    "preco": null,
+    "categoria": "Equipamento geral"
+  },
+  {
+    "id": "ferramentas_mineracao",
+    "nome": "Picareta, pá e escoras",
+    "custo": 1,
+    "fonte": "Livro básico, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto)",
+    "preco": 3.5,
+    "categoria": "Equipamento geral"
+  },
+  {
+    "id": "kit_geologo",
+    "nome": "Martelo de geólogo, lupa e reagentes",
+    "custo": 1,
+    "fonte": "Livro básico, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto)",
+    "preco": null,
+    "categoria": "Equipamento geral"
+  },
+  {
+    "id": "laco",
+    "nome": "Laço",
+    "custo": 6,
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 3,
+      "efeito_nome": "Armadilha",
+      "resistido_por": "Esquiva",
+      "pericia": "Combate à Distância: Laço",
+      "critico": 20
+    },
+    "fonte": "Livro básico, cap. 7 (boleadeira: Armadilha 3 à distância, 6 pontos), usado para o laço",
+    "preco": 4,
+    "categoria": "Arma de arremesso"
+  },
+  {
+    "id": "baioneta",
+    "nome": "Baioneta",
+    "custo": 3,
+    "preco": 3,
+    "ataque": {
+      "tipo": "corpo",
+      "efeito": 3,
+      "soma_forca": true,
+      "pericia": "Combate Corpo-a-Corpo: Baioneta",
+      "critico": 20
+    },
+    "fonte": "Livro básico, cap. 7 (armas brancas), conversão do guia de faroeste",
+    "categoria": "Arma branca",
+    "notas": "Presa ao rifle"
+  },
+  {
+    "id": "coldre_rapido",
+    "nome": "Coldre de saque rápido",
+    "custo": null,
+    "preco": 11,
+    "fonte": "Preço da tabela de itens do guia de faroeste",
+    "categoria": "Acessórios de armas",
+    "descricao": "Coldre feito para sacar a arma com mais rapidez.",
+    "peso": "0,5"
+  },
+  {
+    "id": "cinto_armas",
+    "nome": "Cinto de armas",
+    "custo": null,
+    "preco": 2,
+    "fonte": "Preço da tabela de itens do guia de faroeste",
+    "categoria": "Acessórios de armas",
+    "descricao": "Cinto reforçado para prender coldres e munição.",
+    "peso": "0,5"
+  },
+  {
+    "id": "municao_pistola",
+    "nome": "Munição de pistola .40–.50 (50 balas)",
+    "custo": null,
+    "preco": 3,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)",
+    "categoria": "Munição",
+    "peso": "2,5"
+  },
+  {
+    "id": "municao_rifle",
+    "nome": "Munição de rifle .38–.52 (50 balas)",
+    "custo": null,
+    "preco": 4,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)",
+    "categoria": "Munição",
+    "peso": "3"
+  },
+  {
+    "id": "cartuchos",
+    "nome": "Cartuchos de escopeta (20)",
+    "custo": null,
+    "preco": 2,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)",
+    "categoria": "Munição",
+    "peso": "1"
+  },
+  {
+    "id": "cavalo",
+    "nome": "Cavalo",
+    "custo": null,
+    "preco": 150,
+    "fonte": "Preço da tabela de itens do guia de faroeste",
+    "categoria": "Transporte",
+    "descricao": "Cavalo de montaria ou de tração.",
+    "peso": null
+  },
+  {
+    "id": "sela",
+    "nome": "Sela",
+    "custo": null,
+    "preco": 25,
+    "fonte": "Preço da tabela de itens do guia de faroeste",
+    "categoria": "Transporte",
+    "descricao": "Sela para montar cavalos ou mulas.",
+    "peso": "15"
+  },
+  {
+    "id": "cantil",
+    "nome": "Cantil",
+    "custo": null,
+    "preco": 1,
+    "fonte": "Preço da tabela de itens do guia de faroeste",
+    "categoria": "Equipamento geral",
+    "descricao": "Recipiente para carregar água.",
+    "peso": "2,5 (cheio)/1 (vazio)"
+  },
+  {
+    "id": "saco_dormir",
+    "nome": "Saco de dormir",
+    "custo": null,
+    "preco": 4,
+    "fonte": "Preço da tabela de itens do guia de faroeste",
+    "categoria": "Equipamento geral",
+    "descricao": "Saco de dormir para acampamentos.",
+    "peso": "5"
+  },
+  {
+    "id": "racoes",
+    "nome": "Rações de viagem (5 dias)",
+    "custo": null,
+    "preco": 2.5,
+    "fonte": "Preço da tabela de itens do guia de faroeste",
+    "categoria": "Comida"
+  },
+  {
+    "id": "baralho",
+    "nome": "Baralho",
+    "custo": null,
+    "preco": 0.25,
+    "fonte": "Preço da tabela de itens do guia de faroeste",
+    "categoria": "Equipamento geral",
+    "descricao": "Baralho comum para jogos de cartas.",
+    "peso": null
+  },
+  {
+    "id": "terno",
+    "nome": "Terno caro",
+    "custo": null,
+    "preco": 15,
+    "fonte": "Preço da tabela de itens do guia de faroeste",
+    "categoria": "Roupas",
+    "descricao": "Traje fino para ocasiões formais.",
+    "peso": "3"
+  },
+  {
+    "id": "estrela",
+    "nome": "Estrela de xerife",
+    "custo": null,
+    "preco": null,
+    "fonte": "Entregue pelo condado",
+    "categoria": "Equipamento geral"
+  },
+  {
+    "id": "municao_pistola_leve",
+    "nome": "Munição de pistola .22–.38 (50 balas)",
+    "categoria": "Munição",
+    "preco": 2,
+    "peso": "1,5",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "municao_rifle_pesada",
+    "nome": "Munição de rifle .56 ou maior (50 balas)",
+    "categoria": "Munição",
+    "preco": 5,
+    "peso": "4",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "polvora_tiro",
+    "nome": "Pólvora e balas para carga pela boca (20 tiros)",
+    "categoria": "Munição",
+    "preco": 1,
+    "peso": "2",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "capsulas",
+    "nome": "Cápsulas de percussão (60)",
+    "categoria": "Munição",
+    "preco": 0.5,
+    "peso": "0,5",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "flechas",
+    "nome": "Flechas (20)",
+    "categoria": "Munição",
+    "preco": 2,
+    "peso": "0,5",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "sharps_55_57",
+    "nome": "Sharps '55 (.57)",
+    "categoria": "Arma de fogo",
+    "tipo": "Carabina",
+    "classe": "Rifle",
+    "custo": 8,
+    "preco": 18,
+    "peso": "4",
+    "tiros": 1,
+    "municao": "polvora_tiro",
+    "notas": "Recarga lenta (ação padrão)",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 4,
+      "pericia": "Combate à Distância: Rifles",
+      "critico": 20
+    },
+    "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico)"
+  },
+  {
+    "id": "spencer_56",
+    "nome": "Spencer (.56)",
+    "categoria": "Arma de fogo",
+    "tipo": "Carabina",
+    "classe": "Rifle",
+    "custo": 8,
+    "preco": 15,
+    "peso": "4",
+    "tiros": 7,
+    "municao": "municao_rifle_pesada",
+    "notas": "",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 4,
+      "pericia": "Combate à Distância: Rifles",
+      "critico": 20
+    },
+    "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico)"
+  },
+  {
+    "id": "carabina_lemat_42",
+    "nome": "Carabina LeMat (.42)",
+    "categoria": "Arma de fogo",
+    "tipo": "Carabina",
+    "classe": "Rifle",
+    "custo": 8,
+    "preco": 35,
+    "peso": "4,5",
+    "tiros": 9,
+    "municao": "municao_rifle",
+    "notas": "Segundo cano de escopeta (1 tiro)",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 4,
+      "pericia": "Combate à Distância: Rifles",
+      "critico": 20
+    },
+    "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico)"
+  },
+  {
+    "id": "modelo_ingles_1840_36",
+    "nome": "Modelo Inglês 1840 (.36)",
+    "categoria": "Arma de fogo",
+    "tipo": "Derringer",
+    "classe": "Pistola de apoio",
+    "custo": 4,
+    "preco": 5,
+    "peso": "0,5",
+    "tiros": 8,
+    "municao": "polvora_tiro",
+    "notas": "Recarga lenta (ação padrão)",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 2,
+      "pericia": "Combate à Distância: Pistolas",
+      "critico": 20
+    },
+    "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico)"
+  },
+  {
+    "id": "rupertus_pepperbox_22",
+    "nome": "Rupertus Pepperbox (.22)",
+    "categoria": "Arma de fogo",
+    "tipo": "Derringer",
+    "classe": "Pistola de apoio",
+    "custo": 4,
+    "preco": 6,
+    "peso": "0,5",
+    "tiros": 8,
+    "municao": "municao_pistola_leve",
+    "notas": "",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 2,
+      "pericia": "Combate à Distância: Pistolas",
+      "critico": 20
+    },
+    "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico)"
+  },
+  {
+    "id": "pistola_adaga_wesson_41",
+    "nome": "Pistola-Adaga Wesson (.41)",
+    "categoria": "Arma de fogo",
+    "tipo": "Derringer",
+    "classe": "Pistola de apoio",
+    "custo": 4,
+    "preco": 6,
+    "peso": "0,5",
+    "tiros": 2,
+    "municao": "municao_pistola",
+    "notas": "Lâmina embutida",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 2,
+      "pericia": "Combate à Distância: Pistolas",
+      "critico": 20
+    },
+    "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico)"
+  },
+  {
+    "id": "colt_army_44",
+    "nome": "Colt Army (.44)",
+    "categoria": "Arma de fogo",
+    "tipo": "Revólver de ação simples",
+    "classe": "Pistola pesada",
+    "custo": 8,
+    "preco": 12,
+    "peso": "1",
+    "tiros": 6,
+    "municao": "municao_pistola",
+    "notas": "",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 4,
+      "pericia": "Combate à Distância: Pistolas",
+      "critico": 20
+    },
+    "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico)"
+  },
+  {
+    "id": "colt_buntline_especial_45",
+    "nome": "Colt Buntline Especial (.45)",
+    "categoria": "Arma de fogo",
+    "tipo": "Revólver de ação simples",
+    "classe": "Pistola pesada",
+    "custo": 8,
+    "preco": 500,
+    "peso": "1,5",
+    "tiros": 6,
+    "municao": "municao_pistola",
+    "notas": "Cano longo",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 4,
+      "pericia": "Combate à Distância: Pistolas",
+      "critico": 20
+    },
+    "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico)"
+  },
+  {
+    "id": "colt_dragon_44",
+    "nome": "Colt Dragon (.44)",
+    "categoria": "Arma de fogo",
+    "tipo": "Revólver de ação simples",
+    "classe": "Pistola pesada",
+    "custo": 8,
+    "preco": 11,
+    "peso": "2",
+    "tiros": 6,
+    "municao": "municao_pistola",
+    "notas": "",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 4,
+      "pericia": "Combate à Distância: Pistolas",
+      "critico": 20
+    },
+    "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico)"
+  },
+  {
+    "id": "pistola_lemat_grapeshot_40",
+    "nome": "Pistola LeMat Grapeshot (.40)",
+    "categoria": "Arma de fogo",
+    "tipo": "Revólver de ação simples",
+    "classe": "Pistola leve",
+    "custo": 6,
+    "preco": 25,
+    "peso": "2",
+    "tiros": 9,
+    "municao": "municao_pistola",
+    "notas": "Segundo cano de escopeta (1 tiro)",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 3,
+      "pericia": "Combate à Distância: Pistolas",
+      "critico": 20
+    },
+    "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico)"
+  },
+  {
+    "id": "colt_frontier_32_20",
+    "nome": "Colt Frontier (.32-20)",
+    "categoria": "Arma de fogo",
+    "tipo": "Revólver de ação dupla",
+    "classe": "Pistola leve",
+    "custo": 6,
+    "preco": 8,
+    "peso": "2",
+    "tiros": 6,
+    "municao": "municao_pistola_leve",
+    "notas": "",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 3,
+      "pericia": "Combate à Distância: Pistolas",
+      "critico": 20
+    },
+    "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico)"
+  },
+  {
+    "id": "colt_lightning_38",
+    "nome": "Colt Lightning (.38)",
+    "categoria": "Arma de fogo",
+    "tipo": "Revólver de ação dupla",
+    "classe": "Pistola leve",
+    "custo": 6,
+    "preco": 13,
+    "peso": "2",
+    "tiros": 6,
+    "municao": "municao_pistola_leve",
+    "notas": "",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 3,
+      "pericia": "Combate à Distância: Pistolas",
+      "critico": 20
+    },
+    "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico)"
+  },
+  {
+    "id": "colt_thunderer_41",
+    "nome": "Colt Thunderer (.41)",
+    "categoria": "Arma de fogo",
+    "tipo": "Revólver de ação dupla",
+    "classe": "Pistola leve",
+    "custo": 6,
+    "preco": 14,
+    "peso": "2",
+    "tiros": 6,
+    "municao": "municao_pistola",
+    "notas": "",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 3,
+      "pericia": "Combate à Distância: Pistolas",
+      "critico": 20
+    },
+    "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico)"
+  },
+  {
+    "id": "revolver_starr_44",
+    "nome": "Revólver Starr (.44)",
+    "categoria": "Arma de fogo",
+    "tipo": "Revólver de ação dupla",
+    "classe": "Pistola pesada",
+    "custo": 8,
+    "preco": 9,
+    "peso": "2",
+    "tiros": 6,
+    "municao": "polvora_tiro",
+    "notas": "Recarga lenta (ação padrão)",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 4,
+      "pericia": "Combate à Distância: Pistolas",
+      "critico": 20
+    },
+    "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico)"
+  },
+  {
+    "id": "ballard_72_56",
+    "nome": "Ballard '72 (.56)",
+    "categoria": "Arma de fogo",
+    "tipo": "Rifle",
+    "classe": "Rifle",
+    "custo": 8,
+    "preco": 24,
+    "peso": "5,5",
+    "tiros": 1,
+    "municao": "polvora_tiro",
+    "notas": "Recarga lenta (ação padrão)",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 4,
+      "pericia": "Combate à Distância: Rifles",
+      "critico": 20
+    },
+    "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico)"
+  },
+  {
+    "id": "bullard_express_50",
+    "nome": "Bullard Express (.50)",
+    "categoria": "Arma de fogo",
+    "tipo": "Rifle",
+    "classe": "Rifle de alto poder",
+    "custo": 10,
+    "preco": 30,
+    "peso": "5,5",
+    "tiros": 11,
+    "municao": "municao_rifle",
+    "notas": "",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 5,
+      "pericia": "Combate à Distância: Rifles",
+      "critico": 20
+    },
+    "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico)"
+  },
+  {
+    "id": "modelo_colt_paterson_36_69",
+    "nome": "Modelo Colt-Paterson '36 (.69)",
+    "categoria": "Arma de fogo",
+    "tipo": "Rifle",
+    "classe": "Rifle de alto poder",
+    "custo": 10,
+    "preco": 25,
+    "peso": "6",
+    "tiros": 4,
+    "municao": "polvora_tiro",
+    "notas": "Recarga lenta (ação padrão)",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 5,
+      "pericia": "Combate à Distância: Rifles",
+      "critico": 20
+    },
+    "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico)"
+  },
+  {
+    "id": "rifle_colt_de_tambor_56",
+    "nome": "Rifle Colt de Tambor (.56)",
+    "categoria": "Arma de fogo",
+    "tipo": "Rifle",
+    "classe": "Rifle",
+    "custo": 8,
+    "preco": 24,
+    "peso": "5,5",
+    "tiros": 5,
+    "municao": "polvora_tiro",
+    "notas": "Recarga lenta (ação padrão)",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 4,
+      "pericia": "Combate à Distância: Rifles",
+      "critico": 20
+    },
+    "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico)"
+  },
+  {
+    "id": "mosquete_enfield_58",
+    "nome": "Mosquete Enfield (.58)",
+    "categoria": "Arma de fogo",
+    "tipo": "Rifle",
+    "classe": "Rifle",
+    "custo": 8,
+    "preco": 25,
+    "peso": "4,5",
+    "tiros": 1,
+    "municao": "polvora_tiro",
+    "notas": "Recarga lenta (ação padrão)",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 4,
+      "pericia": "Combate à Distância: Rifles",
+      "critico": 20
+    },
+    "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico)"
+  },
+  {
+    "id": "evans_modelo_antigo_esportivo_44",
+    "nome": "Evans Modelo Antigo Esportivo (.44)",
+    "categoria": "Arma de fogo",
+    "tipo": "Rifle",
+    "classe": "Rifle",
+    "custo": 8,
+    "preco": 30,
+    "peso": "6",
+    "tiros": 34,
+    "municao": "municao_rifle",
+    "notas": "",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 4,
+      "pericia": "Combate à Distância: Rifles",
+      "critico": 20
+    },
+    "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico)"
+  },
+  {
+    "id": "sharp_s_big_50_50",
+    "nome": "Sharps Big 50 (.50)",
+    "categoria": "Arma de fogo",
+    "tipo": "Rifle",
+    "classe": "Rifle de alto poder",
+    "custo": 10,
+    "preco": 20,
+    "peso": "5",
+    "tiros": 1,
+    "municao": "municao_rifle",
+    "notas": "",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 5,
+      "pericia": "Combate à Distância: Rifles",
+      "critico": 20
+    },
+    "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico)"
+  },
+  {
+    "id": "springfield_58",
+    "nome": "Springfield (.58)",
+    "categoria": "Arma de fogo",
+    "tipo": "Rifle",
+    "classe": "Rifle de alto poder",
+    "custo": 10,
+    "preco": 8,
+    "peso": "4,5",
+    "tiros": 1,
+    "municao": "polvora_tiro",
+    "notas": "Recarga lenta (ação padrão)",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 5,
+      "pericia": "Combate à Distância: Rifles",
+      "critico": 20
+    },
+    "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico)"
+  },
+  {
+    "id": "winchester_76_45",
+    "nome": "Winchester '76 (.45)",
+    "categoria": "Arma de fogo",
+    "tipo": "Rifle",
+    "classe": "Rifle",
+    "custo": 8,
+    "preco": 40,
+    "peso": "3,5",
+    "tiros": 15,
+    "municao": "municao_rifle",
+    "notas": "",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 4,
+      "pericia": "Combate à Distância: Rifles",
+      "critico": 20
+    },
+    "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico)"
+  },
+  {
+    "id": "escopeta_revolver_colt_espingarda",
+    "nome": "Escopeta-revólver Colt",
+    "categoria": "Arma de fogo",
+    "tipo": "Escopeta",
+    "classe": "Escopeta",
+    "custo": 10,
+    "preco": 45,
+    "peso": "5",
+    "tiros": 5,
+    "municao": "cartuchos",
+    "notas": "Chumbo: +2 no ataque, Dano máximo 3 contra armadura",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 5,
+      "pericia": "Combate à Distância: Escopetas",
+      "critico": 20
+    },
+    "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico)"
+  },
+  {
+    "id": "escopeta_cano_curto_serrado",
+    "nome": "Escopeta de cano serrado",
+    "categoria": "Arma de fogo",
+    "tipo": "Escopeta",
+    "classe": "Escopeta",
+    "custo": 10,
+    "preco": 35,
+    "peso": "2,5",
+    "tiros": 2,
+    "municao": "cartuchos",
+    "notas": "Chumbo: +2 no ataque, Dano máximo 3 contra armadura",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 5,
+      "pericia": "Combate à Distância: Escopetas",
+      "critico": 20
+    },
+    "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico)"
+  },
+  {
+    "id": "escopeta_cano_simples",
+    "nome": "Escopeta de cano simples",
+    "categoria": "Arma de fogo",
+    "tipo": "Escopeta",
+    "classe": "Escopeta",
+    "custo": 10,
+    "preco": 25,
+    "peso": "3",
+    "tiros": 1,
+    "municao": "cartuchos",
+    "notas": "Chumbo: +2 no ataque, Dano máximo 3 contra armadura",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 5,
+      "pericia": "Combate à Distância: Escopetas",
+      "critico": 20
+    },
+    "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico)"
+  },
+  {
+    "id": "escopeta_winchester_de_acao_por_alavanca",
+    "nome": "Escopeta Winchester de alavanca",
+    "categoria": "Arma de fogo",
+    "tipo": "Escopeta",
+    "classe": "Escopeta",
+    "custo": 10,
+    "preco": 35,
+    "peso": "4",
+    "tiros": 4,
+    "municao": "cartuchos",
+    "notas": "Chumbo: +2 no ataque, Dano máximo 3 contra armadura",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 5,
+      "pericia": "Combate à Distância: Escopetas",
+      "critico": 20
+    },
+    "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico)"
+  },
+  {
+    "id": "soqueira",
+    "nome": "Soqueira",
+    "categoria": "Arma branca",
+    "custo": 1,
+    "preco": 1,
+    "notas": "",
+    "ataque": {
+      "tipo": "corpo",
+      "efeito": 1,
+      "soma_forca": true,
+      "pericia": "Combate Corpo-a-Corpo: Briga",
+      "critico": 20
+    },
+    "fonte": "Livro básico, cap. 7 (armas brancas), conversão do guia de faroeste"
+  },
+  {
+    "id": "porrete_guerra",
+    "nome": "Porrete de guerra",
+    "categoria": "Arma branca",
+    "custo": 2,
+    "preco": 3,
+    "notas": "",
+    "ataque": {
+      "tipo": "corpo",
+      "efeito": 2,
+      "soma_forca": true,
+      "pericia": "Combate Corpo-a-Corpo: Porretes",
+      "critico": 20
+    },
+    "fonte": "Livro básico, cap. 7 (armas brancas), conversão do guia de faroeste"
+  },
+  {
+    "id": "porrete_laminas",
+    "nome": "Porrete de guerra com lâminas",
+    "categoria": "Arma branca",
+    "custo": 3,
+    "preco": 8,
+    "notas": "Exige as duas mãos",
+    "ataque": {
+      "tipo": "corpo",
+      "efeito": 3,
+      "soma_forca": true,
+      "pericia": "Combate Corpo-a-Corpo: Porretes",
+      "critico": 20
+    },
+    "fonte": "Livro básico, cap. 7 (armas brancas), conversão do guia de faroeste"
+  },
+  {
+    "id": "faca_bowie",
+    "nome": "Faca Bowie",
+    "categoria": "Arma branca",
+    "custo": 3,
+    "preco": 4,
+    "notas": "",
+    "ataque": {
+      "tipo": "corpo",
+      "efeito": 2,
+      "soma_forca": true,
+      "pericia": "Combate Corpo-a-Corpo: Facas",
+      "critico": 19
+    },
+    "fonte": "Livro básico, cap. 7 (armas brancas), conversão do guia de faroeste"
+  },
+  {
+    "id": "rapieira",
+    "nome": "Rapieira",
+    "categoria": "Arma branca",
+    "custo": 3,
+    "preco": 10,
+    "notas": "",
+    "ataque": {
+      "tipo": "corpo",
+      "efeito": 2,
+      "soma_forca": true,
+      "pericia": "Combate Corpo-a-Corpo: Lâminas",
+      "critico": 19
+    },
+    "fonte": "Livro básico, cap. 7 (armas brancas), conversão do guia de faroeste"
+  },
+  {
+    "id": "sabre",
+    "nome": "Sabre",
+    "categoria": "Arma branca",
+    "custo": 4,
+    "preco": 15,
+    "notas": "",
+    "ataque": {
+      "tipo": "corpo",
+      "efeito": 3,
+      "soma_forca": true,
+      "pericia": "Combate Corpo-a-Corpo: Lâminas",
+      "critico": 19
+    },
+    "fonte": "Livro básico, cap. 7 (armas brancas), conversão do guia de faroeste"
+  },
+  {
+    "id": "tomahawk",
+    "nome": "Tomahawk",
+    "categoria": "Arma branca",
+    "custo": 3,
+    "preco": 3,
+    "notas": "Pode ser arremessado",
+    "ataque": {
+      "tipo": "corpo",
+      "efeito": 3,
+      "soma_forca": true,
+      "pericia": "Combate Corpo-a-Corpo: Machados",
+      "critico": 20
+    },
+    "fonte": "Livro básico, cap. 7 (armas brancas), conversão do guia de faroeste"
+  },
+  {
+    "id": "arco",
+    "nome": "Arco",
+    "categoria": "Arma de arremesso",
+    "custo": 6,
+    "preco": 3,
+    "municao": "flechas",
+    "notas": "",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 3,
+      "pericia": "Combate à Distância: Arcos",
+      "critico": 20
+    },
+    "fonte": "Livro básico, cap. 7 (arco)"
+  },
+  {
+    "id": "boleadeira",
+    "nome": "Boleadeira",
+    "categoria": "Arma de arremesso",
+    "custo": 6,
+    "preco": 3,
+    "notas": "",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 3,
+      "efeito_nome": "Armadilha",
+      "resistido_por": "Esquiva",
+      "pericia": "Combate à Distância: Arremesso",
+      "critico": 20
+    },
+    "fonte": "Livro básico, cap. 7 (boleadeira)"
+  },
+  {
+    "id": "botas",
+    "categoria": "Roupas",
+    "preco": 8,
+    "descricao": "Calçado alto e resistente, próprio para cavalgar e longas caminhadas.",
+    "peso": "2",
+    "nome": "Botas",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "calcas_saia",
+    "categoria": "Roupas",
+    "preco": 2,
+    "descricao": "Peça comum de vestuário para o dia a dia.",
+    "peso": "1",
+    "nome": "Calças/saia",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "camisa",
+    "categoria": "Roupas",
+    "preco": 1,
+    "descricao": "Camisa simples de uso diário.",
+    "peso": "0,5",
+    "nome": "Camisa",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "casaco_de_inverno",
+    "categoria": "Roupas",
+    "preco": 15,
+    "descricao": "Casaco grosso para climas frios.",
+    "peso": "1,5",
+    "nome": "Casaco de inverno",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "ceroulas",
+    "categoria": "Roupas",
+    "preco": 2,
+    "descricao": "Roupa de baixo comprida, usada sob as roupas no frio.",
+    "peso": "1",
+    "nome": "Ceroulas",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "meias_de_seda",
+    "categoria": "Roupas",
+    "preco": 1,
+    "descricao": "Meias finas, de uso mais refinado.",
+    "peso": null,
+    "nome": "Meias de seda",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "perneiras",
+    "categoria": "Roupas",
+    "preco": 4,
+    "descricao": "Proteção de couro para as pernas, usada ao cavalgar e em meio a mato fechado.",
+    "peso": "3",
+    "nome": "Perneiras",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "sapatos",
+    "categoria": "Roupas",
+    "preco": 2,
+    "descricao": "Calçado comum, mais leve e barato que as botas.",
+    "peso": "0,5",
+    "nome": "Sapatos",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "vestido",
+    "categoria": "Roupas",
+    "preco": 3,
+    "descricao": "Vestido simples de uso comum.",
+    "peso": "0,5",
+    "nome": "Vestido",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "dinamite_por_caixote_com_24_bastoes_cada",
+    "categoria": "Explosivos",
+    "preco": 65,
+    "descricao": "Caixote com 24 bastões de dinamite, mais barato que comprar por unidade.",
+    "peso": "15",
+    "nome": "Dinamite (por caixote com 24 bastões cada)",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "estopim",
+    "categoria": "Explosivos",
+    "preco": 1,
+    "descricao": "Pavio de queima usado para acender explosivos.",
+    "peso": null,
+    "nome": "Estopim",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "nitroglicerina_por_frasco",
+    "categoria": "Explosivos",
+    "preco": 2.5,
+    "descricao": "Frasco de explosivo líquido, instável e perigoso de manusear.",
+    "peso": "0,5",
+    "nome": "Nitroglicerina (por frasco)",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "pavio_por_30_cm",
+    "categoria": "Explosivos",
+    "preco": 0.05,
+    "descricao": "Pavio de queima lenta para acionar cargas explosivas. Peso: 0,5 a cada 1,5 m.",
+    "peso": "0,5/1,5m",
+    "nome": "Pavio (por 30 cm)",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "bacon_por_12_quilo",
+    "categoria": "Comida",
+    "preco": 0.15,
+    "descricao": "Carne de porco curada, ração comum de viagem.",
+    "peso": "0,5",
+    "nome": "Bacon (½ quilo)",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "cafe_por_12_quilo",
+    "categoria": "Comida",
+    "preco": 0.25,
+    "descricao": "Grãos de café para preparar na fogueira.",
+    "peso": "0,5",
+    "nome": "Café (½ quilo)",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "arame_farpado_por_metro",
+    "categoria": "Equipamento geral",
+    "preco": 0.05,
+    "descricao": "Arame com espinhos, usado em cercas. Peso: 2,5 a cada 1,5 m.",
+    "peso": "2,5/1,5m",
+    "nome": "Arame farpado (por metro)",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "broca",
+    "categoria": "Equipamento geral",
+    "preco": 2,
+    "descricao": "Ferramenta para furar madeira ou rocha.",
+    "peso": "1",
+    "nome": "Broca",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "cachimbo",
+    "categoria": "Equipamento geral",
+    "preco": 2,
+    "descricao": "Cachimbo para fumar tabaco.",
+    "peso": "0,3",
+    "nome": "Cachimbo",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "camera",
+    "categoria": "Equipamento geral",
+    "preco": 3,
+    "descricao": "Câmera fotográfica de época; usa placas fotográficas.",
+    "peso": "2,5",
+    "nome": "Câmera",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "cigarro",
+    "categoria": "Equipamento geral",
+    "preco": 0.05,
+    "descricao": "Um cigarro.",
+    "peso": null,
+    "nome": "Cigarro",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "corda_por_1_5m",
+    "categoria": "Equipamento geral",
+    "preco": 5,
+    "descricao": "Corda resistente para escalar, amarrar ou prender.",
+    "peso": "4",
+    "nome": "Corda (por 1,5m)",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "embolo_detonador",
+    "categoria": "Equipamento geral",
+    "preco": 10,
+    "descricao": "Aparelho de acionamento manual para detonar explosivos à distância, com fio detonador.",
+    "peso": "5",
+    "nome": "Êmbolo detonador",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "fio_detonador_por_1_5m",
+    "categoria": "Equipamento geral",
+    "preco": 2.5,
+    "descricao": "Fio que liga o êmbolo detonador à carga explosiva.",
+    "peso": "0,5",
+    "nome": "Fio detonador (por 1,5m)",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "fosforos_caixa_com_100",
+    "categoria": "Equipamento geral",
+    "preco": 0.5,
+    "descricao": "Caixa com cem palitos de fósforo.",
+    "peso": "0,25",
+    "nome": "Fósforos (caixa com 100)",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "frigideira_de_ferro",
+    "categoria": "Equipamento geral",
+    "preco": 0.5,
+    "descricao": "Frigideira pesada para cozinhar no acampamento.",
+    "peso": "2,5",
+    "nome": "Frigideira de ferro",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "fumo_de_mascar_lata",
+    "categoria": "Equipamento geral",
+    "preco": 0.5,
+    "descricao": "Lata de tabaco para mascar.",
+    "peso": "0,5",
+    "nome": "Fumo de mascar (lata)",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "gaita",
+    "categoria": "Equipamento geral",
+    "preco": 0.5,
+    "descricao": "Pequeno instrumento musical de sopro.",
+    "peso": null,
+    "nome": "Gaita",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "lanterna",
+    "categoria": "Equipamento geral",
+    "preco": 2.5,
+    "descricao": "Lanterna a óleo; precisa de óleo para lanterna.",
+    "peso": "2",
+    "nome": "Lanterna",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "lima",
+    "categoria": "Equipamento geral",
+    "preco": 0.25,
+    "descricao": "Ferramenta para desbastar e alisar metal ou madeira.",
+    "peso": "0,5",
+    "nome": "Lima",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "machadinha",
+    "categoria": "Equipamento geral",
+    "preco": 1,
+    "descricao": "Machado pequeno de uma mão, para uso geral.",
+    "peso": "1,75",
+    "nome": "Machadinha",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "marmita",
+    "categoria": "Equipamento geral",
+    "preco": 2,
+    "descricao": "Panela com tampa para cozinhar e transportar comida.",
+    "peso": "1,5",
+    "nome": "Marmita",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "machado_de_lenha",
+    "categoria": "Equipamento geral",
+    "preco": 2,
+    "descricao": "Machado maior, próprio para cortar madeira.",
+    "peso": "2,5",
+    "nome": "Machado de lenha",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "martelo",
+    "categoria": "Equipamento geral",
+    "preco": 0.5,
+    "descricao": "Martelo comum de carpintaria.",
+    "peso": "1",
+    "nome": "Martelo",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "mochila",
+    "categoria": "Equipamento geral",
+    "preco": 2,
+    "descricao": "Mochila de lona ou couro para carregar equipamento.",
+    "peso": "1,5",
+    "nome": "Mochila",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "oculos",
+    "categoria": "Equipamento geral",
+    "preco": 5,
+    "descricao": "Óculos de lentes para correção de visão ou proteção dos olhos.",
+    "peso": null,
+    "nome": "Óculos",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "oleo_para_lanterna_por_galao",
+    "categoria": "Equipamento geral",
+    "preco": 0.1,
+    "descricao": "Combustível para lanternas.",
+    "peso": "3",
+    "nome": "Óleo para lanterna (por galão)",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "pa",
+    "categoria": "Equipamento geral",
+    "preco": 1.5,
+    "descricao": "Pá para escavar.",
+    "peso": "2,5",
+    "nome": "Pá",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "picareta",
+    "categoria": "Equipamento geral",
+    "preco": 2,
+    "descricao": "Ferramenta de mineração e escavação.",
+    "peso": "6",
+    "nome": "Picareta",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "placa_fotografica",
+    "categoria": "Equipamento geral",
+    "preco": 1,
+    "descricao": "Placa usada para registrar uma imagem na câmera.",
+    "peso": "0,25",
+    "nome": "Placa fotográfica",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "relogio_comum",
+    "categoria": "Equipamento geral",
+    "preco": 2.5,
+    "descricao": "Relógio de bolso comum.",
+    "peso": "0,25",
+    "nome": "Relógio comum",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "relogio_de_ouro",
+    "categoria": "Equipamento geral",
+    "preco": 10,
+    "descricao": "Relógio de bolso de ouro, sinal de riqueza.",
+    "peso": "0,25",
+    "nome": "Relógio de ouro",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "tabaco_bolsa",
+    "categoria": "Equipamento geral",
+    "preco": 0.5,
+    "descricao": "Bolsa de tabaco para cachimbo ou cigarros.",
+    "peso": "0,5",
+    "nome": "Tabaco (bolsa)",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "violao",
+    "categoria": "Equipamento geral",
+    "preco": 8,
+    "descricao": "Instrumento musical de cordas.",
+    "peso": "3",
+    "nome": "Violão",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "cartucheira_de_espingarda",
+    "categoria": "Acessórios de armas",
+    "preco": 0.25,
+    "descricao": "Faixa ou bolsa para levar cartuchos de espingarda à mão.",
+    "peso": null,
+    "nome": "Cartucheira de espingarda",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "cilindro_de_recarga_rapida",
+    "categoria": "Acessórios de armas",
+    "preco": 3,
+    "descricao": "Cilindro extra de revólver, já carregado, para troca rápida.",
+    "peso": "0,5",
+    "nome": "Cilindro de recarga rápida",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "coldre",
+    "categoria": "Acessórios de armas",
+    "preco": 3,
+    "descricao": "Coldre comum para pistola ou revólver.",
+    "peso": "0,5",
+    "nome": "Coldre",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "coldre_de_rifle",
+    "categoria": "Acessórios de armas",
+    "preco": 3,
+    "descricao": "Estojo preso à sela ou às costas para carregar um rifle.",
+    "peso": "0,25",
+    "nome": "Coldre de rifle",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "coco",
+    "categoria": "Chapéus",
+    "preco": 1.5,
+    "descricao": "Chapéu-coco, de copa redonda e rígida.",
+    "peso": null,
+    "nome": "Chapéu-coco",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "fedora",
+    "categoria": "Chapéus",
+    "preco": 3,
+    "descricao": "Chapéu de feltro com aba média e vinco na copa.",
+    "peso": null,
+    "nome": "Chapéu fedora",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "gorro",
+    "categoria": "Chapéus",
+    "preco": 2,
+    "descricao": "Gorro simples de pano.",
+    "peso": null,
+    "nome": "Gorro",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "sombreiro",
+    "categoria": "Chapéus",
+    "preco": 3.5,
+    "descricao": "Chapéu de abas largas, protege do sol.",
+    "peso": null,
+    "nome": "Sombreiro",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "stetson",
+    "categoria": "Chapéus",
+    "preco": 5,
+    "descricao": "Chapéu de aba larga típico do faroeste.",
+    "peso": null,
+    "nome": "Chapéu Stetson",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "coisa_barata_garrafa",
+    "categoria": "Bebida",
+    "preco": 2,
+    "descricao": "Garrafa de bebida forte de baixa qualidade.",
+    "peso": "2",
+    "nome": "Coisa barata (garrafa)",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "coisa_de_boa_qualidade_garrafa",
+    "categoria": "Bebida",
+    "preco": 5,
+    "descricao": "Garrafa de bebida forte de boa qualidade.",
+    "peso": "2",
+    "nome": "Coisa de boa qualidade (garrafa)",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "alforjes",
+    "categoria": "Transporte",
+    "preco": 5,
+    "descricao": "Bolsas duplas penduradas na sela ou no animal, para carga.",
+    "peso": "2,5",
+    "nome": "Alforjes",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "buckboard",
+    "categoria": "Transporte",
+    "preco": 75,
+    "descricao": "Carroça leve e aberta, puxada por cavalos.",
+    "peso": null,
+    "nome": "Buckboard",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "carrocao_conestoga",
+    "categoria": "Transporte",
+    "preco": 200,
+    "descricao": "Grande carroça coberta, própria para longas viagens com carga.",
+    "peso": null,
+    "nome": "Carroção Conestoga",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "carruagem_cabriole",
+    "categoria": "Transporte",
+    "preco": 200,
+    "descricao": "Carruagem leve de passeio, puxada por cavalo.",
+    "peso": null,
+    "nome": "Carruagem/Cabriolé",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  },
+  {
+    "id": "mula",
+    "categoria": "Transporte",
+    "preco": 50,
+    "descricao": "Animal de carga, mais resistente e barato que o cavalo.",
+    "peso": null,
+    "nome": "Mula",
+    "custo": null,
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+  }
+]

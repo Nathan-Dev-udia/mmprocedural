@@ -1,0 +1,111 @@
+{
+  "_fonte": "Livro básico, cap. 2 (complicações), com exemplos de cyberpunk",
+  "motivacoes": [
+    {
+      "nome": "Cobiça",
+      "exemplo": "Créditos, implantes melhores, um apartamento acima da poluição."
+    },
+    {
+      "nome": "Justiça",
+      "exemplo": "Derrubar a corporação que destruiu sua vida."
+    },
+    {
+      "nome": "Vingança",
+      "exemplo": "Acertar as contas com quem o deixou para morrer num beco."
+    },
+    {
+      "nome": "Adrenalina",
+      "exemplo": "A emoção do próximo trabalho perigoso."
+    },
+    {
+      "nome": "Reconhecimento",
+      "exemplo": "Virar lenda nas ruas e nos fóruns da rede."
+    },
+    {
+      "nome": "Responsabilidade",
+      "exemplo": "A família, a gangue ou o bairro que depende de você."
+    },
+    {
+      "nome": "Fazer o Bem",
+      "exemplo": "Proteger quem a cidade esqueceu."
+    },
+    {
+      "nome": "Aceitação",
+      "exemplo": "Provar que ainda é humano, apesar de tanto metal."
+    },
+    {
+      "nome": "Patriotismo",
+      "exemplo": "Lealdade à corporação, à nação ou ao clã."
+    }
+  ],
+  "complicacoes": [
+    {
+      "nome": "Inimigo",
+      "exemplo": "Uma corporação quer você morto ou de volta ao laboratório."
+    },
+    {
+      "nome": "Responsabilidade",
+      "exemplo": "Uma dívida enorme com o médico que instalou seus implantes."
+    },
+    {
+      "nome": "Vício",
+      "exemplo": "Drogas de combate, realidade virtual, adrenalina."
+    },
+    {
+      "nome": "Segredo",
+      "exemplo": "Seu corpo é propriedade de uma corporação, e você fugiu com ele."
+    },
+    {
+      "nome": "Perda de Poder",
+      "exemplo": "Implantes que falham com pulsos eletromagnéticos ou sem manutenção."
+    },
+    {
+      "nome": "Reputação",
+      "exemplo": "Conhecido por trair contratantes."
+    },
+    {
+      "nome": "Rivalidade",
+      "exemplo": "Outro netrunner ou mercenário que quer superá-lo."
+    },
+    {
+      "nome": "Relacionamento",
+      "exemplo": "Um irmão mais novo metido com uma gangue."
+    },
+    {
+      "nome": "Honra",
+      "exemplo": "Nunca abandona um parceiro nem quebra um contrato."
+    },
+    {
+      "nome": "Obsessão",
+      "exemplo": "Encontrar a IA que apagou suas memórias."
+    },
+    {
+      "nome": "Ódio",
+      "exemplo": "Odeia executivos de corporação."
+    },
+    {
+      "nome": "Fobia",
+      "exemplo": "Pânico de perder a conexão com a rede."
+    },
+    {
+      "nome": "Irritação",
+      "exemplo": "Perde a cabeça quando chamam você de máquina."
+    },
+    {
+      "nome": "Peculiaridade",
+      "exemplo": "Grava tudo o que vê; nunca desliga os olhos cibernéticos."
+    },
+    {
+      "nome": "Deficiência",
+      "exemplo": "Um implante rejeitado deixou uma mão sem sensibilidade."
+    },
+    {
+      "nome": "Preconceito",
+      "exemplo": "Pessoas sem implantes desconfiam de ciborgues como você."
+    },
+    {
+      "nome": "Fama",
+      "exemplo": "Seu rosto está em todos os noticiários depois do último trabalho."
+    }
+  ]
+}

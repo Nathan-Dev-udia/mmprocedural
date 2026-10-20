@@ -1,0 +1,33 @@
+{
+  "_fonte": "Livro do Jogador, seção 9 (adaptado do livro básico, cap. 2)",
+  "motivacoes": [
+    {"nome": "Justiça", "exemplo": "Ver os inocentes protegidos e os culpados punidos, com ou sem a lei."},
+    {"nome": "Vingança", "exemplo": "Justiça levada ao extremo: acertar as contas com quem lhe fez mal."},
+    {"nome": "Fazer o Bem", "exemplo": "Fazer a coisa certa porque é a coisa certa."},
+    {"nome": "Responsabilidade", "exemplo": "O distintivo, a família, a cidade que depende de você."},
+    {"nome": "Cobiça", "exemplo": "Ouro, recompensas, terras."},
+    {"nome": "Reconhecimento", "exemplo": "Ter o nome nos jornais e nas canções."},
+    {"nome": "Adrenalina", "exemplo": "A emoção do duelo e do perigo."},
+    {"nome": "Aceitação", "exemplo": "Ser aceito por uma sociedade que o rejeita."},
+    {"nome": "Patriotismo", "exemplo": "Servir à União, à bandeira ou à sua nação."}
+  ],
+  "complicacoes": [
+    {"nome": "Honra", "exemplo": "O código do pistoleiro: nunca atirar pelas costas, sempre aceitar um duelo."},
+    {"nome": "Inimigo", "exemplo": "O bando que matou sua família; o caçador de recompensas no seu encalço."},
+    {"nome": "Procurado", "exemplo": "Seu rosto está num cartaz. Caçadores e xerifes podem aparecer a qualquer hora."},
+    {"nome": "Reputação", "exemplo": "Fama de assassino, de traidor ou de covarde."},
+    {"nome": "Vício", "exemplo": "Bebida, jogo, láudano."},
+    {"nome": "Relacionamento", "exemplo": "A esposa no rancho, o irmão mais novo que se mete em encrenca."},
+    {"nome": "Responsabilidade", "exemplo": "O distintivo, a fazenda, a dívida com o banco."},
+    {"nome": "Segredo", "exemplo": "Um passado que você esconde, talvez com outro nome."},
+    {"nome": "Rivalidade", "exemplo": "O outro pistoleiro que você precisa superar."},
+    {"nome": "Fobia", "exemplo": "Medo de cobras, de altura, de fogo."},
+    {"nome": "Irritação", "exemplo": "Algo que tira você do sério; quando acontece, você parte para cima."},
+    {"nome": "Ódio", "exemplo": "Um ódio irracional que passa por cima do bom senso."},
+    {"nome": "Obsessão", "exemplo": "Uma pessoa, um tesouro, uma mina perdida."},
+    {"nome": "Deficiência", "exemplo": "Um olho cego, uma perna manca."},
+    {"nome": "Preconceito", "exemplo": "Sua origem ou passado fazem os outros desconfiarem de você."},
+    {"nome": "Peculiaridade", "exemplo": "Um hábito marcante: sempre deixar uma moeda no corpo do inimigo."},
+    {"nome": "Fama", "exemplo": "Todo mundo sabe quem você é, e alguns querem testar se você é tão rápido assim."}
+  ]
+}

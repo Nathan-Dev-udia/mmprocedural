@@ -1,0 +1,1008 @@
+{
+  "_fonte": "Arquétipos do Livro do Jogador (seção 12). As vantagens essenciais e opcionais vêm de lá; os focos e as prioridades de distribuição são do gerador.",
+  "riqueza": [
+    {
+      "id": "trabalhador",
+      "nome": "Trabalhador (Riqueza 4)",
+      "riqueza": 4,
+      "dinheiro": 75,
+      "beneficio": 0,
+      "ajuste_de_pontos": 1,
+      "descricao": "Riqueza abaixo da média devolve 1 PP (Guia do Mestre)."
+    },
+    {
+      "id": "classe_media",
+      "nome": "Classe média (Riqueza 8)",
+      "riqueza": 8,
+      "dinheiro": 250,
+      "beneficio": 0,
+      "ajuste_de_pontos": 0,
+      "descricao": "Padrão."
+    },
+    {
+      "id": "em_ascensao",
+      "nome": "Em ascensão (Benefício: Riqueza 1)",
+      "riqueza": 12,
+      "dinheiro": 750,
+      "beneficio": 1,
+      "ajuste_de_pontos": 0,
+      "descricao": "Custa 1 PP."
+    },
+    {
+      "id": "prospero",
+      "nome": "Próspero (Benefício: Riqueza 2)",
+      "riqueza": 16,
+      "dinheiro": 2500,
+      "beneficio": 2,
+      "ajuste_de_pontos": 0,
+      "descricao": "Custa 2 PP."
+    },
+    {
+      "id": "rico",
+      "nome": "Rico (Benefício: Riqueza 4)",
+      "riqueza": 24,
+      "dinheiro": 10000,
+      "beneficio": 4,
+      "ajuste_de_pontos": 0,
+      "descricao": "Custa 4 PP. Riqueza 21 a 30 na tabela do guia."
+    },
+    {
+      "id": "muito_rico",
+      "nome": "Muito rico (Benefício: Riqueza 6)",
+      "riqueza": 32,
+      "dinheiro": 50000,
+      "beneficio": 6,
+      "ajuste_de_pontos": 0,
+      "descricao": "Custa 6 PP. Riqueza 31 ou mais na tabela do guia."
+    }
+  ],
+  "arquetipos": [
+    {
+      "id": "pistoleiro",
+      "nome": "Pistoleiro",
+      "conceito": "O mestre do saque rápido e do duelo ao meio-dia.",
+      "vantagens_essenciais": [
+        "Saque Rápido",
+        "Ataque à Distância",
+        "Mira Aprimorada",
+        "Iniciativa Aprimorada",
+        "Ataque Preciso (à distância, cobertura)",
+        "Crítico Aprimorado (revólveres)"
+      ],
+      "vantagens_opcionais": [
+        "Tomar a Iniciativa",
+        "Avaliação",
+        "Zombar",
+        "Benefício (Ambidestria)"
+      ],
+      "prioridades": [
+        "habilidade:Des",
+        "pericia:Combate à Distância: Pistolas",
+        "defesa:Esquiva",
+        "habilidade:Agi",
+        "pericia:Percepção",
+        "vantagem:Iniciativa Aprimorada",
+        "pericia:Intimidação",
+        "habilidade:Vig",
+        "defesa:Vontade",
+        "vantagem:Ataque à Distância",
+        "habilidade:Pro"
+      ],
+      "sugestoes": {
+        "motivacoes": [
+          "Justiça",
+          "Vingança",
+          "Reconhecimento",
+          "Adrenalina"
+        ],
+        "complicacoes": [
+          {
+            "nome": "Honra",
+            "detalhe": "Nunca atira pelas costas nem num homem desarmado."
+          },
+          {
+            "nome": "Fama",
+            "detalhe": "Todo garoto com um revólver quer testar sua velocidade."
+          },
+          {
+            "nome": "Rivalidade",
+            "detalhe": "Há outro pistoleiro que diz ser mais rápido."
+          }
+        ]
+      },
+      "focos": [
+        {
+          "id": "duelista",
+          "nome": "Duelista",
+          "descricao": "Vive para o duelo ao meio-dia: saca primeiro e não erra.",
+          "vantagens": [
+            "Tomar a Iniciativa"
+          ],
+          "prioridades": [
+            "vantagem:Iniciativa Aprimorada",
+            "pericia:Intimidação",
+            "pericia:Intuição"
+          ],
+          "armas": [],
+          "itens": [
+            "cilindro_de_recarga_rapida"
+          ]
+        },
+        {
+          "id": "atirador_longe",
+          "nome": "Atirador de longe",
+          "descricao": "Prefere o rifle e um telhado alto.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Combate à Distância: Rifles",
+            "pericia:Percepção",
+            "pericia:Furtividade"
+          ],
+          "armas": [
+            "rifle",
+            "winchester_76_45",
+            "spencer_56"
+          ],
+          "itens": [
+            "coldre_de_rifle"
+          ]
+        },
+        {
+          "id": "sorrateiro",
+          "nome": "Pistoleiro sorrateiro",
+          "descricao": "Ataca de onde ninguém espera.",
+          "vantagens": [
+            "Esconder-se à Plena Vista"
+          ],
+          "prioridades": [
+            "pericia:Furtividade",
+            "pericia:Enganação",
+            "pericia:Acrobacia"
+          ],
+          "armas": [
+            "faca_bowie"
+          ],
+          "itens": []
+        }
+      ],
+      "armas": {
+        "principais": [
+          "revolver_pesado",
+          "colt_army_44",
+          "colt_dragon_44",
+          "colt_thunderer_41",
+          "revolver_starr_44"
+        ],
+        "secundarias": [
+          "derringer",
+          "faca",
+          "faca_bowie",
+          "revolver_leve"
+        ]
+      },
+      "itens": {
+        "essenciais": [
+          "coldre_rapido",
+          "cinto_armas",
+          "cavalo",
+          "sela"
+        ],
+        "opcionais": [
+          "stetson",
+          "botas",
+          "cantil",
+          "saco_dormir",
+          "cilindro_de_recarga_rapida",
+          "perneiras",
+          "tabaco_bolsa"
+        ]
+      }
+    },
+    {
+      "id": "cacador",
+      "nome": "Caçador de Recompensas",
+      "conceito": "O rastreador implacável que entrega o fora-da-lei \"vivo ou morto\".",
+      "vantagens_essenciais": [
+        "Rastrear",
+        "Inimigo Favorito (fora-da-lei)",
+        "Bem Informado",
+        "Mira Aprimorada",
+        "Ataque à Distância"
+      ],
+      "vantagens_opcionais": [
+        "Empatia com Animais",
+        "Ambiente Favorito (deserto)",
+        "Imobilizar Aprimorado",
+        "Tolerância Maior",
+        "Contatos"
+      ],
+      "prioridades": [
+        "pericia:Percepção",
+        "pericia:Combate à Distância: Rifles",
+        "habilidade:Pro",
+        "habilidade:Des",
+        "pericia:Investigação",
+        "pericia:Especialidade: Sobrevivência",
+        "defesa:Esquiva",
+        "habilidade:Vig",
+        "habilidade:Int",
+        "pericia:Especialidade: Cavalgar",
+        "defesa:Vontade"
+      ],
+      "sugestoes": {
+        "motivacoes": [
+          "Cobiça",
+          "Justiça",
+          "Vingança"
+        ],
+        "complicacoes": [
+          {
+            "nome": "Inimigo",
+            "detalhe": "Um bando quer vingar o líder que você entregou."
+          },
+          {
+            "nome": "Obsessão",
+            "detalhe": "O único fugitivo que escapou de você."
+          },
+          {
+            "nome": "Reputação",
+            "detalhe": "Para muitos, você é só um matador pago."
+          }
+        ]
+      },
+      "focos": [
+        {
+          "id": "rastreador",
+          "nome": "Rastreador",
+          "descricao": "Segue qualquer pista por qualquer terreno.",
+          "vantagens": [
+            "Ambiente Favorito (deserto)"
+          ],
+          "prioridades": [
+            "pericia:Especialidade: Sobrevivência",
+            "pericia:Percepção",
+            "pericia:Especialidade: Cavalgar"
+          ],
+          "armas": [],
+          "itens": [
+            "saco_dormir"
+          ]
+        },
+        {
+          "id": "emboscador",
+          "nome": "Emboscador",
+          "descricao": "Espera o alvo no lugar certo, com o rifle pronto.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Furtividade",
+            "pericia:Combate à Distância: Rifles",
+            "vantagem:Ataque à Distância"
+          ],
+          "armas": [
+            "sharp_s_big_50_50"
+          ],
+          "itens": []
+        },
+        {
+          "id": "investigador",
+          "nome": "Investigador",
+          "descricao": "Encontra o fugitivo pelas perguntas certas.",
+          "vantagens": [
+            "Contatos"
+          ],
+          "prioridades": [
+            "pericia:Investigação",
+            "pericia:Intuição",
+            "pericia:Persuasão"
+          ],
+          "armas": [],
+          "itens": [
+            "algemas"
+          ]
+        }
+      ],
+      "armas": {
+        "principais": [
+          "rifle",
+          "winchester_76_45",
+          "spencer_56",
+          "sharp_s_big_50_50",
+          "bullard_express_50"
+        ],
+        "secundarias": [
+          "revolver_leve",
+          "colt_army_44",
+          "faca_bowie",
+          "laco"
+        ]
+      },
+      "itens": {
+        "essenciais": [
+          "cavalo",
+          "sela",
+          "cantil",
+          "racoes",
+          "coldre_de_rifle"
+        ],
+        "opcionais": [
+          "corda_por_1_5m",
+          "saco_dormir",
+          "lanterna",
+          "algemas",
+          "alforjes",
+          "mula",
+          "stetson",
+          "perneiras"
+        ]
+      }
+    },
+    {
+      "id": "xerife",
+      "nome": "Xerife",
+      "conceito": "A autoridade da cidade, respeitado ou temido.",
+      "vantagens_essenciais": [
+        "Benefício (Status: homem da lei)",
+        "Duro de Matar",
+        "Interpor-se",
+        "Liderança",
+        "Assustar"
+      ],
+      "vantagens_opcionais": [
+        "Inspirar",
+        "Bem Relacionado",
+        "Ataque Corpo-a-Corpo",
+        "Avaliação"
+      ],
+      "prioridades": [
+        "habilidade:Pre",
+        "pericia:Intimidação",
+        "habilidade:Lut",
+        "habilidade:For",
+        "pericia:Combate à Distância: Escopetas",
+        "pericia:Persuasão",
+        "habilidade:Vig",
+        "defesa:Aparar",
+        "pericia:Combate Corpo-a-Corpo: Briga",
+        "defesa:Vontade",
+        "pericia:Intuição",
+        "habilidade:Des"
+      ],
+      "sugestoes": {
+        "motivacoes": [
+          "Responsabilidade",
+          "Justiça",
+          "Fazer o Bem"
+        ],
+        "complicacoes": [
+          {
+            "nome": "Responsabilidade",
+            "detalhe": "A cidade inteira depende de você."
+          },
+          {
+            "nome": "Relacionamento",
+            "detalhe": "A família que mora em cima da delegacia."
+          },
+          {
+            "nome": "Inimigo",
+            "detalhe": "O irmão do bandido que você enforcou."
+          }
+        ]
+      },
+      "focos": [
+        {
+          "id": "pacificador",
+          "nome": "Pacificador",
+          "descricao": "Resolve no papo antes de resolver na bala.",
+          "vantagens": [
+            "Bem Relacionado"
+          ],
+          "prioridades": [
+            "pericia:Persuasão",
+            "pericia:Intuição",
+            "habilidade:Pre"
+          ],
+          "armas": [],
+          "itens": [
+            "relogio_comum"
+          ]
+        },
+        {
+          "id": "linha_dura",
+          "nome": "Linha-dura",
+          "descricao": "Bandido na cidade dele sai algemado ou no caixão.",
+          "vantagens": [
+            "Ataque Corpo-a-Corpo"
+          ],
+          "prioridades": [
+            "pericia:Combate Corpo-a-Corpo: Briga",
+            "habilidade:For",
+            "vantagem:Ataque Corpo-a-Corpo",
+            "pericia:Combate à Distância: Escopetas"
+          ],
+          "armas": [
+            "cassetete",
+            "soqueira"
+          ],
+          "itens": []
+        },
+        {
+          "id": "investigador",
+          "nome": "Investigador",
+          "descricao": "Descobre o culpado antes de sair atirando.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Investigação",
+            "pericia:Percepção",
+            "pericia:Intuição"
+          ],
+          "armas": [],
+          "itens": [
+            "lanterna"
+          ]
+        }
+      ],
+      "armas": {
+        "principais": [
+          "escopeta",
+          "escopeta_cano_curto_serrado",
+          "escopeta_winchester_de_acao_por_alavanca",
+          "escopeta_revolver_colt_espingarda"
+        ],
+        "secundarias": [
+          "revolver_leve",
+          "revolver_pesado",
+          "colt_frontier_32_20",
+          "cassetete"
+        ]
+      },
+      "itens": {
+        "essenciais": [
+          "estrela",
+          "algemas",
+          "cavalo",
+          "sela"
+        ],
+        "opcionais": [
+          "lanterna",
+          "stetson",
+          "botas",
+          "relogio_comum",
+          "coldre",
+          "cartucheira_de_espingarda"
+        ]
+      }
+    },
+    {
+      "id": "fora_da_lei",
+      "nome": "Fora-da-Lei",
+      "conceito": "O veterano dos assaltos a banco e a diligências, mestre em táticas sujas.",
+      "vantagens_essenciais": [
+        "Saque Rápido",
+        "Finta Ágil",
+        "Ataque Imprudente",
+        "Zombar",
+        "Esconder-se à Plena Vista",
+        "Evasão"
+      ],
+      "vantagens_opcionais": [
+        "Contatos",
+        "Tomar a Iniciativa",
+        "Esquiva Fabulosa"
+      ],
+      "prioridades": [
+        "habilidade:Agi",
+        "pericia:Combate à Distância: Pistolas",
+        "habilidade:Des",
+        "pericia:Furtividade",
+        "pericia:Enganação",
+        "pericia:Especialidade: Manha",
+        "pericia:Especialidade: Cavalgar",
+        "defesa:Esquiva",
+        "habilidade:Pre",
+        "habilidade:Vig",
+        "defesa:Vontade"
+      ],
+      "sugestoes": {
+        "motivacoes": [
+          "Cobiça",
+          "Adrenalina",
+          "Vingança"
+        ],
+        "complicacoes": [
+          {
+            "nome": "Procurado",
+            "detalhe": "Cartaz de \"procurado\" em três condados."
+          },
+          {
+            "nome": "Inimigo",
+            "detalhe": "O antigo bando, que você traiu."
+          },
+          {
+            "nome": "Segredo",
+            "detalhe": "Vive com um nome que não é o seu."
+          }
+        ]
+      },
+      "focos": [
+        {
+          "id": "assaltante_trem",
+          "nome": "Assaltante de trem",
+          "descricao": "Sabe quanto de dinamite abre um cofre.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Especialidade: Demolições",
+            "pericia:Tecnologia",
+            "pericia:Atletismo"
+          ],
+          "armas": [
+            "dinamite"
+          ],
+          "itens": [
+            "estopim"
+          ]
+        },
+        {
+          "id": "ladrao_cavalos",
+          "nome": "Ladrão de cavalos",
+          "descricao": "Nenhum cavalo fica parado quando ele passa.",
+          "vantagens": [
+            "Empatia com Animais"
+          ],
+          "prioridades": [
+            "pericia:Especialidade: Cavalgar",
+            "pericia:Furtividade",
+            "pericia:Percepção"
+          ],
+          "armas": [
+            "laco"
+          ],
+          "itens": [
+            "corda_por_1_5m"
+          ]
+        },
+        {
+          "id": "pistoleiro_foragido",
+          "nome": "Pistoleiro foragido",
+          "descricao": "Atira primeiro e foge depois.",
+          "vantagens": [
+            "Tomar a Iniciativa"
+          ],
+          "prioridades": [
+            "pericia:Combate à Distância: Pistolas",
+            "habilidade:Des",
+            "vantagem:Ataque à Distância"
+          ],
+          "armas": [
+            "revolver_pesado"
+          ],
+          "itens": []
+        }
+      ],
+      "armas": {
+        "principais": [
+          "revolver_leve",
+          "colt_army_44",
+          "colt_dragon_44",
+          "revolver_starr_44",
+          "colt_lightning_38"
+        ],
+        "secundarias": [
+          "faca_bowie",
+          "derringer",
+          "revolver_leve",
+          "spencer_56"
+        ]
+      },
+      "itens": {
+        "essenciais": [
+          "cavalo",
+          "sela",
+          "coldre"
+        ],
+        "opcionais": [
+          "sombreiro",
+          "corda_por_1_5m",
+          "alforjes",
+          "gazuas",
+          "cantil",
+          "saco_dormir",
+          "coisa_barata_garrafa"
+        ]
+      }
+    },
+    {
+      "id": "jogador",
+      "nome": "Jogador de Pôquer",
+      "conceito": "Elegância, blefe e truques de mão; resolve tudo na lábia ou com um tiro discreto.",
+      "vantagens_essenciais": [
+        "Atraente",
+        "Sorte",
+        "Zombar",
+        "Contatos",
+        "Avaliação"
+      ],
+      "vantagens_opcionais": [
+        "Bem Relacionado",
+        "Fascinar",
+        "Finta Ágil",
+        "Segunda Chance"
+      ],
+      "prioridades": [
+        "habilidade:Pre",
+        "pericia:Enganação",
+        "pericia:Especialidade: Jogatina",
+        "habilidade:Pro",
+        "pericia:Intuição",
+        "pericia:Persuasão",
+        "pericia:Prestidigitação",
+        "habilidade:Des",
+        "defesa:Vontade",
+        "defesa:Esquiva",
+        "vantagem:Sorte"
+      ],
+      "sugestoes": {
+        "motivacoes": [
+          "Cobiça",
+          "Adrenalina",
+          "Reconhecimento"
+        ],
+        "complicacoes": [
+          {
+            "nome": "Vício",
+            "detalhe": "Não resiste a uma mesa de pôquer."
+          },
+          {
+            "nome": "Inimigo",
+            "detalhe": "O fazendeiro que perdeu o rancho para você numa mão."
+          },
+          {
+            "nome": "Peculiaridade",
+            "detalhe": "Sempre beija o ás de espadas antes de apostar."
+          }
+        ]
+      },
+      "focos": [
+        {
+          "id": "trapaceiro",
+          "nome": "Trapaceiro",
+          "descricao": "Tem cartas em todas as mangas.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Prestidigitação",
+            "pericia:Enganação",
+            "pericia:Especialidade: Jogatina"
+          ],
+          "armas": [],
+          "itens": [
+            "baralho"
+          ]
+        },
+        {
+          "id": "cavalheiro",
+          "nome": "Cavalheiro sulista",
+          "descricao": "Educado, charmoso e bem relacionado.",
+          "vantagens": [
+            "Bem Relacionado"
+          ],
+          "prioridades": [
+            "pericia:Persuasão",
+            "pericia:Intuição",
+            "pericia:Especialidade: Etiqueta"
+          ],
+          "armas": [],
+          "itens": [
+            "relogio_de_ouro",
+            "fedora"
+          ]
+        },
+        {
+          "id": "as_na_manga",
+          "nome": "Ás na manga",
+          "descricao": "A derringer resolve o que as cartas não resolvem.",
+          "vantagens": [
+            "Saque Rápido"
+          ],
+          "prioridades": [
+            "pericia:Combate à Distância: Pistolas",
+            "habilidade:Des",
+            "defesa:Esquiva"
+          ],
+          "armas": [
+            "derringer"
+          ],
+          "itens": []
+        }
+      ],
+      "armas": {
+        "principais": [
+          "derringer",
+          "rupertus_pepperbox_22",
+          "pistola_adaga_wesson_41",
+          "colt_lightning_38"
+        ],
+        "secundarias": [
+          "faca",
+          "revolver_leve"
+        ]
+      },
+      "itens": {
+        "essenciais": [
+          "terno",
+          "baralho"
+        ],
+        "opcionais": [
+          "relogio_de_ouro",
+          "cachimbo",
+          "coco",
+          "fedora",
+          "coisa_de_boa_qualidade_garrafa",
+          "tabaco_bolsa",
+          "meias_de_seda"
+        ]
+      }
+    },
+    {
+      "id": "medico",
+      "nome": "Médico de Fronteira",
+      "conceito": "O homem de ciência num mundo chucro, que costura os buracos de bala do grupo.",
+      "vantagens_essenciais": [
+        "Trabalho em Equipe",
+        "Ferramentas Aprimoradas",
+        "Inspirar",
+        "Bem Informado"
+      ],
+      "vantagens_opcionais": [
+        "Faz Tudo",
+        "Duro de Matar",
+        "Bem Relacionado",
+        "Liderança",
+        "Destemido"
+      ],
+      "prioridades": [
+        "habilidade:Int",
+        "pericia:Tratamento",
+        "pericia:Especialidade: Medicina",
+        "habilidade:Pro",
+        "pericia:Investigação",
+        "pericia:Percepção",
+        "defesa:Vontade",
+        "defesa:Esquiva",
+        "pericia:Intuição",
+        "habilidade:Des"
+      ],
+      "sugestoes": {
+        "motivacoes": [
+          "Fazer o Bem",
+          "Responsabilidade",
+          "Aceitação"
+        ],
+        "complicacoes": [
+          {
+            "nome": "Responsabilidade",
+            "detalhe": "Ninguém mais na região sabe operar."
+          },
+          {
+            "nome": "Vício",
+            "detalhe": "Láudano, para esquecer a guerra."
+          },
+          {
+            "nome": "Segredo",
+            "detalhe": "Perdeu a licença no Leste por um erro que custou uma vida."
+          }
+        ]
+      },
+      "focos": [
+        {
+          "id": "cirurgiao",
+          "nome": "Cirurgião",
+          "descricao": "Mãos firmes, mesmo sob fogo.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Tratamento",
+            "pericia:Especialidade: Medicina",
+            "habilidade:Int"
+          ],
+          "armas": [],
+          "itens": [
+            "lanterna"
+          ]
+        },
+        {
+          "id": "medico_combate",
+          "nome": "Médico de combate",
+          "descricao": "Atira bem e costura melhor ainda.",
+          "vantagens": [
+            "Duro de Matar"
+          ],
+          "prioridades": [
+            "pericia:Combate à Distância: Pistolas",
+            "habilidade:Des",
+            "defesa:Esquiva",
+            "pericia:Tratamento"
+          ],
+          "armas": [
+            "revolver_pesado"
+          ],
+          "itens": []
+        },
+        {
+          "id": "legista",
+          "nome": "Legista",
+          "descricao": "Descobre como a pessoa morreu, e quem a matou.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Investigação",
+            "pericia:Especialidade: Química",
+            "pericia:Percepção"
+          ],
+          "armas": [],
+          "itens": [
+            "camera"
+          ]
+        }
+      ],
+      "armas": {
+        "principais": [
+          "revolver_leve",
+          "colt_lightning_38",
+          "colt_frontier_32_20"
+        ],
+        "secundarias": [
+          "derringer",
+          "faca"
+        ]
+      },
+      "itens": {
+        "essenciais": [
+          "maleta_medica",
+          "cavalo",
+          "sela"
+        ],
+        "opcionais": [
+          "oculos",
+          "lanterna",
+          "buckboard",
+          "alforjes",
+          "relogio_comum",
+          "coisa_de_boa_qualidade_garrafa"
+        ]
+      }
+    },
+    {
+      "id": "veterano",
+      "nome": "Veterano de Guerra",
+      "conceito": "Ex-soldado calejado pela Guerra Civil, que aguenta muita dor.",
+      "vantagens_essenciais": [
+        "Duro de Matar",
+        "Rolamento Defensivo",
+        "Ataque Poderoso",
+        "Agarrar Aprimorado",
+        "Ação em Movimento"
+      ],
+      "vantagens_opcionais": [
+        "Destemido",
+        "Tolerância Maior",
+        "De Pé",
+        "Trabalho em Equipe",
+        "Ataque Corpo-a-Corpo"
+      ],
+      "prioridades": [
+        "habilidade:Vig",
+        "habilidade:For",
+        "pericia:Combate à Distância: Rifles",
+        "habilidade:Lut",
+        "pericia:Atletismo",
+        "pericia:Especialidade: Tática Militar",
+        "vantagem:Rolamento Defensivo",
+        "defesa:Aparar",
+        "pericia:Combate Corpo-a-Corpo: Baioneta",
+        "defesa:Vontade",
+        "habilidade:Des"
+      ],
+      "sugestoes": {
+        "motivacoes": [
+          "Patriotismo",
+          "Responsabilidade",
+          "Aceitação"
+        ],
+        "complicacoes": [
+          {
+            "nome": "Fobia",
+            "detalhe": "O som de canhões ainda o paralisa."
+          },
+          {
+            "nome": "Ódio",
+            "detalhe": "Não suporta quem lutou do outro lado."
+          },
+          {
+            "nome": "Deficiência",
+            "detalhe": "Um estilhaço ainda está na perna."
+          }
+        ]
+      },
+      "focos": [
+        {
+          "id": "atirador_elite",
+          "nome": "Atirador de elite",
+          "descricao": "Derrubava oficiais a quinhentos metros.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Combate à Distância: Rifles",
+            "habilidade:Des",
+            "pericia:Percepção"
+          ],
+          "armas": [
+            "sharp_s_big_50_50"
+          ],
+          "itens": []
+        },
+        {
+          "id": "infantaria",
+          "nome": "Infantaria",
+          "descricao": "Lutou de baioneta calada nas trincheiras.",
+          "vantagens": [
+            "Ataque Corpo-a-Corpo"
+          ],
+          "prioridades": [
+            "pericia:Combate Corpo-a-Corpo: Baioneta",
+            "habilidade:Lut",
+            "vantagem:Ataque Corpo-a-Corpo"
+          ],
+          "armas": [
+            "baioneta"
+          ],
+          "itens": []
+        },
+        {
+          "id": "oficial",
+          "nome": "Oficial",
+          "descricao": "Comandou homens e ainda sabe dar ordens.",
+          "vantagens": [
+            "Liderança"
+          ],
+          "prioridades": [
+            "pericia:Especialidade: Tática Militar",
+            "pericia:Persuasão",
+            "pericia:Intimidação"
+          ],
+          "armas": [
+            "sabre"
+          ],
+          "itens": []
+        }
+      ],
+      "armas": {
+        "principais": [
+          "springfield_58",
+          "mosquete_enfield_58",
+          "rifle",
+          "sharps_55_57",
+          "spencer_56"
+        ],
+        "secundarias": [
+          "baioneta",
+          "sabre",
+          "revolver_pesado",
+          "faca_bowie"
+        ]
+      },
+      "itens": {
+        "essenciais": [
+          "casaco_couro",
+          "cavalo",
+          "sela",
+          "cantil"
+        ],
+        "opcionais": [
+          "saco_dormir",
+          "racoes",
+          "mochila",
+          "botas",
+          "perneiras",
+          "frigideira_de_ferro"
+        ]
+      }
+    }
+  ],
+  "_equipamento": "Cada arquétipo tem armas principais e secundárias e itens essenciais e opcionais. No modo automático, o gerador sorteia 1 arma principal, talvez 1 secundária, a arma do foco (se houver), a munição de cada arma de fogo, os itens essenciais e alguns opcionais, dentro do dinheiro."
+}

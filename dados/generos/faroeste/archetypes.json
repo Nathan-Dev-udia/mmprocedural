@@ -1,0 +1,644 @@
+[
+  {
+    "id": "capanga",
+    "nome": "Capanga do Velho Oeste",
+    "nomes": "humano",
+    "capanga": true,
+    "np_maximo": 8,
+    "descricao": "Pistoleiro de aluguel, ladrão de cavalos ou músculo de um bando. Trabalha por dinheiro e foge quando a coisa aperta.",
+    "faixas": [
+      {
+        "np": 3,
+        "nome": "Bandido",
+        "fonte": "Livro básico, p. 211 (Bandido), adaptado ao Oeste",
+        "status_dados": "validado",
+        "observacao": "O livro chama esta ficha de NP 2, mas o ataque desarmado (+3, Dano 3) só cabe no NP 3. O livro imprime Aparar 2; com Luta 3 o valor calculado é 3. Veículos virou Especialidade: Cavalgar, com o mesmo custo.",
+        "ficha": {
+          "habilidades": {
+            "For": 3,
+            "Vig": 2,
+            "Agi": 1,
+            "Des": 1,
+            "Lut": 3,
+            "Int": 0,
+            "Pro": 0,
+            "Pre": -1
+          },
+          "defesas_compradas": {
+            "Esquiva": 1,
+            "Fortitude": 2
+          },
+          "pericias": {
+            "Atletismo": 4,
+            "Especialidade: Cavalgar": 2,
+            "Especialidade: Manha": 2,
+            "Furtividade": 2,
+            "Intimidação": 4
+          },
+          "vantagens": {
+            "Equipamento": 2
+          },
+          "equipamento": [
+            "revolver_leve",
+            "casaco_couro"
+          ],
+          "ataque_desarmado": true
+        }
+      },
+      {
+        "np": 4,
+        "nome": "Capanga veterano",
+        "fonte": "Livro básico, p. 211 (Guerrilheiro), adaptado ao Oeste",
+        "status_dados": "validado",
+        "observacao": "Veículos virou Especialidade: Manha e a especialidade livre virou Cavalgar. Duas graduações de Combate à Distância foram para Percepção, para deixar espaço aos módulos. Os totais por seção continuam os do livro.",
+        "ficha": {
+          "habilidades": {
+            "For": 1,
+            "Vig": 1,
+            "Agi": 1,
+            "Des": 1,
+            "Lut": 1,
+            "Int": 1,
+            "Pro": 1,
+            "Pre": 1
+          },
+          "defesas_compradas": {
+            "Esquiva": 3,
+            "Aparar": 3,
+            "Fortitude": 3,
+            "Vontade": 1
+          },
+          "pericias": {
+            "Combate à Distância: Pistolas": 2,
+            "Combate Corpo-a-Corpo: Briga": 4,
+            "Enganação": 4,
+            "Especialidade: Cavalgar": 3,
+            "Especialidade: Demolições": 6,
+            "Especialidade: Manha": 4,
+            "Intimidação": 3,
+            "Percepção": 2,
+            "Tecnologia": 4
+          },
+          "vantagens": {
+            "Equipamento": 3
+          },
+          "equipamento": [
+            "revolver_leve",
+            "faca",
+            "casaco_couro"
+          ],
+          "ataque_desarmado": true
+        }
+      }
+    ],
+    "prioridades": [
+      "pericia:Combate à Distância: Pistolas",
+      "defesa:Esquiva",
+      "habilidade:Des",
+      "defesa:Fortitude",
+      "pericia:Intimidação",
+      "pericia:Atletismo",
+      "defesa:Aparar",
+      "defesa:Vontade",
+      "habilidade:Agi"
+    ]
+  },
+  {
+    "id": "policial",
+    "nome": "Homem da Lei",
+    "nomes": "humano",
+    "capanga": false,
+    "np_maximo": 8,
+    "descricao": "Delegado, xerife ou Ranger. Tem um distintivo no peito e, quase sempre, alguém querendo arrancá-lo.",
+    "faixas": [
+      {
+        "np": 4,
+        "nome": "Delegado",
+        "fonte": "Livro básico, p. 210 (Policial), adaptado ao Oeste",
+        "status_dados": "validado",
+        "observacao": "Sem colete à prova de balas (Resistência 2), revólver no lugar da pistola, cassetete no lugar da tonfa e Especialidade: Cavalgar no lugar de Veículos.",
+        "ficha": {
+          "habilidades": {
+            "For": 2,
+            "Vig": 2,
+            "Agi": 1,
+            "Des": 1,
+            "Lut": 3,
+            "Int": 0,
+            "Pro": 1,
+            "Pre": 1
+          },
+          "defesas_compradas": {
+            "Esquiva": 1,
+            "Aparar": 1,
+            "Fortitude": 2,
+            "Vontade": 1
+          },
+          "pericias": {
+            "Atletismo": 4,
+            "Combate à Distância: Pistolas": 4,
+            "Especialidade: Cavalgar": 4,
+            "Especialidade: Manha": 4,
+            "Intimidação": 2,
+            "Intuição": 4,
+            "Investigação": 2,
+            "Percepção": 4,
+            "Tratamento": 2
+          },
+          "vantagens": {
+            "Equipamento": 3
+          },
+          "equipamento": [
+            "algemas",
+            "revolver_leve",
+            "cassetete"
+          ],
+          "ataque_desarmado": true
+        }
+      },
+      {
+        "np": 5,
+        "nome": "Ranger",
+        "fonte": "Livro básico, p. 210 (Policial de Elite), adaptado ao Oeste",
+        "status_dados": "validado",
+        "observacao": "Sem veste tática (Resistência 2), rifle no lugar da submetralhadora e duas graduações de Furtividade trocadas por Especialidade: Cavalgar.",
+        "ficha": {
+          "habilidades": {
+            "For": 2,
+            "Vig": 2,
+            "Agi": 2,
+            "Des": 2,
+            "Lut": 4,
+            "Int": 0,
+            "Pro": 1,
+            "Pre": 1
+          },
+          "defesas_compradas": {
+            "Esquiva": 2,
+            "Fortitude": 4,
+            "Vontade": 2
+          },
+          "pericias": {
+            "Atletismo": 6,
+            "Combate à Distância: Rifles": 4,
+            "Especialidade: Cavalgar": 2,
+            "Especialidade: Tática": 6,
+            "Furtividade": 4,
+            "Intimidação": 4,
+            "Percepção": 6,
+            "Tratamento": 4
+          },
+          "vantagens": {
+            "Ataque Corpo-a-Corpo": 2,
+            "Equipamento": 4
+          },
+          "equipamento": [
+            "algemas",
+            "rifle",
+            "revolver_pesado"
+          ],
+          "ataque_desarmado": true
+        }
+      }
+    ],
+    "prioridades": [
+      "pericia:Combate à Distância: Pistolas",
+      "pericia:Percepção",
+      "defesa:Esquiva",
+      "defesa:Aparar",
+      "pericia:Intuição",
+      "defesa:Fortitude",
+      "defesa:Vontade",
+      "habilidade:Pro",
+      "pericia:Investigação"
+    ]
+  },
+  {
+    "id": "cavalo",
+    "nome": "Cavalo",
+    "nomes": "cavalo",
+    "capanga": false,
+    "np_maximo": 5,
+    "descricao": "Montaria. Representa a maioria dos cavalos do Oeste.",
+    "faixas": [
+      {
+        "np": 3,
+        "nome": "Cavalo",
+        "fonte": "Guia do Mestre de Jogo, p. 223 (Cavalo)",
+        "status_dados": "validado",
+        "observacao": "O guia informa 15 pontos em poderes no total. Velocidade e Sentidos custam 1 ponto por graduação no livro básico, então o Crescimento foi registrado com os 9 pontos restantes.",
+        "ficha": {
+          "habilidades": {
+            "For": 0,
+            "Vig": 0,
+            "Agi": 1,
+            "Des": -4,
+            "Lut": 2,
+            "Int": -4,
+            "Pro": 1,
+            "Pre": -3
+          },
+          "defesas_compradas": {
+            "Esquiva": 3,
+            "Aparar": 2,
+            "Fortitude": 1
+          },
+          "pericias": {
+            "Percepção": 4
+          },
+          "vantagens": {},
+          "poderes": {
+            "crescimento": {
+              "nome": "Crescimento 4 (Permanente, Inato)",
+              "custo_informado": 9,
+              "ajustes": {
+                "For": 4,
+                "Vig": 4,
+                "Esquiva": -2,
+                "Aparar": -2
+              }
+            },
+            "sentidos": {
+              "nome": "Sentidos 2 (Visão Estendida, Visão na Penumbra)",
+              "custo_informado": 2,
+              "ajustes": {}
+            },
+            "velocidade": {
+              "nome": "Velocidade 4 (60 km/h)",
+              "custo_informado": 4,
+              "ajustes": {}
+            }
+          },
+          "equipamento": [],
+          "ataque_desarmado": false,
+          "ataques_naturais": [
+            {
+              "nome": "Coice e mordida",
+              "tipo": "corpo",
+              "efeito": 0,
+              "soma_forca": true,
+              "pericia": "Combate Corpo-a-Corpo: Coice",
+              "critico": 20
+            }
+          ]
+        }
+      }
+    ],
+    "prioridades": [
+      "defesa:Esquiva",
+      "defesa:Aparar",
+      "defesa:Fortitude",
+      "pericia:Percepção",
+      "pericia:Combate Corpo-a-Corpo: Coice",
+      "defesa:Vontade",
+      "pericia:Atletismo"
+    ]
+  },
+  {
+    "id": "medico",
+    "nome": "Médico de Fronteira",
+    "nomes": "humano",
+    "capanga": false,
+    "np_maximo": 8,
+    "descricao": "Costura buracos de bala, arranca dentes e às vezes cobra em galinhas.",
+    "faixas": [
+      {
+        "np": 2,
+        "nome": "Médico",
+        "fonte": "Livro básico, p. 210 (Cientista), adaptado ao Oeste",
+        "status_dados": "validado",
+        "observacao": "Mesmo custo por seção do Cientista (24 PP). Ciência e Tecnologia viraram Tratamento e Medicina, Cultura Pop virou Química, e o celular deu lugar à maleta médica e a uma derringer. O livro lista NP 1; a Vontade 4 leva a NP 2.",
+        "ficha": {
+          "habilidades": {
+            "For": 0,
+            "Vig": 0,
+            "Agi": 0,
+            "Des": 1,
+            "Lut": 0,
+            "Int": 4,
+            "Pro": 1,
+            "Pre": 0
+          },
+          "defesas_compradas": {
+            "Vontade": 3
+          },
+          "pericias": {
+            "Tratamento": 6,
+            "Especialidade: Medicina": 6,
+            "Especialidade: Química": 4
+          },
+          "vantagens": {
+            "Equipamento": 1
+          },
+          "equipamento": [
+            "maleta_medica",
+            "derringer"
+          ],
+          "ataque_desarmado": true
+        }
+      }
+    ],
+    "prioridades": [
+      "pericia:Tratamento",
+      "pericia:Especialidade: Medicina",
+      "defesa:Vontade",
+      "defesa:Esquiva",
+      "habilidade:Int",
+      "pericia:Percepção",
+      "pericia:Intuição",
+      "defesa:Fortitude"
+    ]
+  },
+  {
+    "id": "geologo",
+    "nome": "Geólogo",
+    "nomes": "humano",
+    "capanga": false,
+    "np_maximo": 8,
+    "descricao": "Homem da ciência que veio do Leste avaliar jazidas. Sabe quanto vale uma montanha.",
+    "faixas": [
+      {
+        "np": 2,
+        "nome": "Geólogo",
+        "fonte": "Livro básico, p. 210 (Cientista), adaptado ao Oeste",
+        "status_dados": "validado",
+        "observacao": "Mesmo custo por seção do Cientista (24 PP). Ciência virou Geologia, Cultura Pop virou Mineração. O livro lista NP 1; a Vontade 4 leva a NP 2.",
+        "ficha": {
+          "habilidades": {
+            "For": 0,
+            "Vig": 0,
+            "Agi": 0,
+            "Des": 1,
+            "Lut": 0,
+            "Int": 4,
+            "Pro": 1,
+            "Pre": 0
+          },
+          "defesas_compradas": {
+            "Vontade": 3
+          },
+          "pericias": {
+            "Especialidade: Geologia": 6,
+            "Tecnologia": 6,
+            "Especialidade: Mineração": 4
+          },
+          "vantagens": {
+            "Equipamento": 1
+          },
+          "equipamento": [
+            "kit_geologo",
+            "derringer"
+          ],
+          "ataque_desarmado": true
+        }
+      }
+    ],
+    "prioridades": [
+      "pericia:Especialidade: Geologia",
+      "pericia:Especialidade: Mineração",
+      "pericia:Tecnologia",
+      "defesa:Esquiva",
+      "defesa:Vontade",
+      "pericia:Percepção",
+      "defesa:Fortitude",
+      "habilidade:Int"
+    ]
+  },
+  {
+    "id": "falastrao",
+    "nome": "Falastrão",
+    "nomes": "humano",
+    "capanga": false,
+    "np_maximo": 8,
+    "descricao": "Vive de cartas, conversa e favores. Sempre sabe de alguma coisa que você quer saber.",
+    "faixas": [
+      {
+        "np": 2,
+        "nome": "Falastrão",
+        "fonte": "Livro básico, p. 211 (Informante), adaptado ao Oeste",
+        "status_dados": "validado",
+        "observacao": "Mesmo custo por seção do Informante (30 PP). Manha virou Jogatina, Atualidades virou Persuasão e Furtividade virou Prestidigitação. Sem jaqueta de couro (Resistência 0).",
+        "ficha": {
+          "habilidades": {
+            "For": 0,
+            "Vig": 0,
+            "Agi": 1,
+            "Des": 1,
+            "Lut": 1,
+            "Int": 1,
+            "Pro": 1,
+            "Pre": 1
+          },
+          "defesas_compradas": {
+            "Esquiva": 2,
+            "Aparar": 2,
+            "Fortitude": 1
+          },
+          "pericias": {
+            "Enganação": 4,
+            "Especialidade: Jogatina": 6,
+            "Persuasão": 4,
+            "Prestidigitação": 2,
+            "Percepção": 4
+          },
+          "vantagens": {
+            "Contatos": 1,
+            "Equipamento": 2
+          },
+          "equipamento": [
+            "derringer",
+            "faca"
+          ],
+          "ataque_desarmado": true
+        }
+      }
+    ],
+    "prioridades": [
+      "pericia:Enganação",
+      "pericia:Especialidade: Jogatina",
+      "pericia:Persuasão",
+      "habilidade:Pre",
+      "defesa:Esquiva",
+      "pericia:Intuição",
+      "defesa:Vontade",
+      "pericia:Prestidigitação"
+    ]
+  },
+  {
+    "id": "padre",
+    "nome": "Padre",
+    "nomes": "humano",
+    "capanga": false,
+    "np_maximo": 8,
+    "descricao": "Pastor, padre ou pregador itinerante. Conhece os pecados de toda a cidade.",
+    "faixas": [
+      {
+        "np": 2,
+        "nome": "Padre",
+        "fonte": "Livro básico, p. 210 (Repórter), adaptado ao Oeste",
+        "status_dados": "validado",
+        "observacao": "Mesmo custo por seção do Repórter (30 PP). O livro imprime Esquiva 2 e Vontade 4, mas soma só 2 pontos em defesas; mantive o total impresso (Vontade +2). As perícias viraram Religião, Persuasão, Intuição e Tratamento, e o equipamento virou a vantagem Destemido. O livro lista NP 1; a Vontade 4 leva a NP 2.",
+        "ficha": {
+          "habilidades": {
+            "For": 0,
+            "Vig": 0,
+            "Agi": 0,
+            "Des": 0,
+            "Lut": 0,
+            "Int": 2,
+            "Pro": 2,
+            "Pre": 1
+          },
+          "defesas_compradas": {
+            "Vontade": 2
+          },
+          "pericias": {
+            "Persuasão": 6,
+            "Intuição": 6,
+            "Especialidade: Religião": 6,
+            "Investigação": 4,
+            "Percepção": 4,
+            "Tratamento": 4,
+            "Enganação": 2
+          },
+          "vantagens": {
+            "Contatos": 1,
+            "Destemido": 1
+          },
+          "equipamento": [],
+          "ataque_desarmado": true
+        }
+      }
+    ],
+    "prioridades": [
+      "pericia:Persuasão",
+      "pericia:Intuição",
+      "pericia:Especialidade: Religião",
+      "defesa:Vontade",
+      "habilidade:Pre",
+      "pericia:Tratamento",
+      "defesa:Esquiva",
+      "defesa:Fortitude"
+    ]
+  },
+  {
+    "id": "minerador",
+    "nome": "Minerador",
+    "nomes": "humano",
+    "capanga": false,
+    "np_maximo": 8,
+    "descricao": "Passa o dia no escuro, quebrando pedra. Tem braço forte e pouca paciência.",
+    "faixas": [
+      {
+        "np": 3,
+        "nome": "Minerador",
+        "fonte": "Livro básico, p. 211 (Bandido), adaptado ao Oeste",
+        "status_dados": "validado",
+        "observacao": "Mesmo custo por seção do Bandido (30 PP). As perícias viraram Mineração, Carpintaria e Percepção. Como no Capanga, o ataque desarmado (+3, Dano 3) pede NP 3.",
+        "ficha": {
+          "habilidades": {
+            "For": 3,
+            "Vig": 2,
+            "Agi": 1,
+            "Des": 1,
+            "Lut": 3,
+            "Int": 0,
+            "Pro": 0,
+            "Pre": -1
+          },
+          "defesas_compradas": {
+            "Esquiva": 1,
+            "Fortitude": 2
+          },
+          "pericias": {
+            "Atletismo": 4,
+            "Especialidade: Mineração": 4,
+            "Especialidade: Carpintaria": 2,
+            "Intimidação": 2,
+            "Percepção": 2
+          },
+          "vantagens": {
+            "Equipamento": 2
+          },
+          "equipamento": [
+            "ferramentas_mineracao",
+            "casaco_couro",
+            "revolver_leve"
+          ],
+          "ataque_desarmado": true
+        }
+      }
+    ],
+    "prioridades": [
+      "pericia:Atletismo",
+      "defesa:Fortitude",
+      "habilidade:For",
+      "pericia:Especialidade: Mineração",
+      "defesa:Esquiva",
+      "pericia:Combate Corpo-a-Corpo: Briga",
+      "defesa:Vontade",
+      "defesa:Aparar"
+    ]
+  },
+  {
+    "id": "vaqueiro",
+    "nome": "Vaqueiro",
+    "nomes": "humano",
+    "capanga": false,
+    "np_maximo": 8,
+    "descricao": "Toca boiada por semanas na trilha. Dorme no chão e confia mais no cavalo que nas pessoas.",
+    "faixas": [
+      {
+        "np": 3,
+        "nome": "Vaqueiro",
+        "fonte": "Livro básico, p. 211 (Criminoso), adaptado ao Oeste",
+        "status_dados": "validado",
+        "observacao": "Mesmo custo por seção do Criminoso (30 PP). As perícias viraram Cavalgar, Sobrevivência, Gado e Laço. O laço (Armadilha 3) com +3 de ataque pede NP 3.",
+        "ficha": {
+          "habilidades": {
+            "For": 0,
+            "Vig": 0,
+            "Agi": 2,
+            "Des": 1,
+            "Lut": 1,
+            "Int": 1,
+            "Pro": 1,
+            "Pre": 0
+          },
+          "defesas_compradas": {
+            "Esquiva": 1,
+            "Aparar": 1,
+            "Fortitude": 1
+          },
+          "pericias": {
+            "Atletismo": 4,
+            "Especialidade: Cavalgar": 8,
+            "Especialidade: Sobrevivência": 4,
+            "Percepção": 4,
+            "Especialidade: Gado": 4,
+            "Combate à Distância: Laço": 2
+          },
+          "vantagens": {
+            "Equipamento": 2
+          },
+          "equipamento": [
+            "laco",
+            "casaco_couro",
+            "faca"
+          ],
+          "ataque_desarmado": true
+        }
+      }
+    ],
+    "prioridades": [
+      "pericia:Especialidade: Cavalgar",
+      "pericia:Combate à Distância: Laço",
+      "defesa:Esquiva",
+      "pericia:Percepção",
+      "habilidade:Agi",
+      "defesa:Fortitude",
+      "pericia:Especialidade: Sobrevivência",
+      "defesa:Vontade"
+    ]
+  }
+]

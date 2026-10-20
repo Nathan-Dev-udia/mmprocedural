@@ -1,0 +1,449 @@
+{
+  "_fonte": "Planilha vantagens.xlsx (livro básico M&M 3e)",
+  "vantagens": [
+    {
+      "nome": "Ação em Movimento",
+      "tipo": "Combate",
+      "efeito": "Mova-se tanto antes quanto depois de sua ação padrão.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Agarrar Aprimorado",
+      "tipo": "Combate",
+      "efeito": "Faça ataques de agarrar com apenas uma mão.",
+      "faroeste": "Opcional"
+    },
+    {
+      "nome": "Agarrar Preciso",
+      "tipo": "Combate",
+      "efeito": "Substitui Des por For em ataques para agarrar.",
+      "faroeste": "Opcional"
+    },
+    {
+      "nome": "Agarrar Rápido",
+      "tipo": "Combate",
+      "efeito": "Quando acerta um ataque desarmado, pode fazer um teste de agarrar como ação livre.",
+      "faroeste": "Opcional"
+    },
+    {
+      "nome": "Ambiente Favorito",
+      "tipo": "Combate",
+      "efeito": "Bônus de circunstância (+2) no ataque ou na defesa em determinado ambiente.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Arma Improvisada",
+      "tipo": "Combate",
+      "efeito": "Use a perícia Combate Desarmado com armas improvisadas, com bônus de dano de +1.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Armação",
+      "tipo": "Combate",
+      "efeito": "Transfira o benefício de uma perícia de interação para um aliado.",
+      "faroeste": "Opcional"
+    },
+    {
+      "nome": "Ataque à Distância",
+      "tipo": "Combate",
+      "efeito": "Bônus de +1 em testes de ataque à distância por graduação.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Ataque Acurado",
+      "tipo": "Combate",
+      "efeito": "Troque a CD do efeito por um bônus de ataque.",
+      "faroeste": "Opcional"
+    },
+    {
+      "nome": "Ataque Corpo-a-Corpo",
+      "tipo": "Combate",
+      "efeito": "Bônus de +1 em testes de ataque corpo-a-corpo por graduação.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Ataque Defensivo",
+      "tipo": "Combate",
+      "efeito": "Troque um bônus de ataque por um bônus de defesa ativa.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Ataque Dominó",
+      "tipo": "Combate",
+      "efeito": "Ganhe um ataque extra quando incapacitar um capanga.",
+      "faroeste": "Opcional"
+    },
+    {
+      "nome": "Ataque Imprudente",
+      "tipo": "Combate",
+      "efeito": "Troque defesa ativa por um bônus de ataque.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Ataque Poderoso",
+      "tipo": "Combate",
+      "efeito": "Troque bônus de ataque por bônus de efeito.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Ataque Preciso",
+      "tipo": "Combate",
+      "efeito": "Ignore penalidades em testes de ataque devido a cobertura ou camuflagem.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Crítico Aprimorado",
+      "tipo": "Combate",
+      "efeito": "+1 na ameaça de crítico com um ataque específico por graduação.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Defesa Aprimorada",
+      "tipo": "Combate",
+      "efeito": "Bônus de +2 em uma defesa ativa quando você usa a ação defender-se.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Derrubar Aprimorado",
+      "tipo": "Combate",
+      "efeito": "Sem penalidade para usar a ação derrubar.",
+      "faroeste": "Opcional"
+    },
+    {
+      "nome": "Desarmar Aprimorado",
+      "tipo": "Combate",
+      "efeito": "Sem penalidade para usar a ação desarmar.",
+      "faroeste": "Opcional"
+    },
+    {
+      "nome": "Esquiva Fabulosa",
+      "tipo": "Combate",
+      "efeito": "Você não fica vulnerável quando surpreso ou desatento.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Estrangular",
+      "tipo": "Combate",
+      "efeito": "Sufoca um oponente que você tenha agarrado.",
+      "faroeste": "Opcional"
+    },
+    {
+      "nome": "Evasão",
+      "tipo": "Combate",
+      "efeito": "Bônus de circunstância para evitar ataques de área.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Imobilizar Aprimorado",
+      "tipo": "Combate",
+      "efeito": "Penalidade de circunstância de –5 para escapar de você.",
+      "faroeste": "Opcional"
+    },
+    {
+      "nome": "Iniciativa Aprimorada",
+      "tipo": "Combate",
+      "efeito": "Bônus de +4 por graduação em testes de iniciativa.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Luta no Chão",
+      "tipo": "Combate",
+      "efeito": "Sem penalidade por lutar caído.",
+      "faroeste": "Opcional"
+    },
+    {
+      "nome": "Maestria em Arremesso",
+      "tipo": "Combate",
+      "efeito": "Bônus de dano de +1 com armas arremessadas por graduação.",
+      "faroeste": "Opcional"
+    },
+    {
+      "nome": "Mira Aprimorada",
+      "tipo": "Combate",
+      "efeito": "Dobra os bônus de circunstância por mirar.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Prender Arma",
+      "tipo": "Combate",
+      "efeito": "Tentativa livre de desarme quando você se defende.",
+      "faroeste": "Opcional"
+    },
+    {
+      "nome": "Quebrar Aprimorado",
+      "tipo": "Combate",
+      "efeito": "Sem penalidade para usar a ação quebrar.",
+      "faroeste": "Opcional"
+    },
+    {
+      "nome": "Quebrar Arma",
+      "tipo": "Combate",
+      "efeito": "Tentativa livre de quebrar quando você se defende.",
+      "faroeste": "Opcional"
+    },
+    {
+      "nome": "Redirecionar",
+      "tipo": "Combate",
+      "efeito": "Use Enganação para redirecionar um ataque que falhe para outro alvo.",
+      "faroeste": "Opcional"
+    },
+    {
+      "nome": "Rolamento Defensivo",
+      "tipo": "Combate",
+      "efeito": "Bônus de defesa ativa de +1 em Resistência por graduação.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Saque Rápido",
+      "tipo": "Combate",
+      "efeito": "Saque uma arma como uma ação livre.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Artífice",
+      "tipo": "Perícia",
+      "efeito": "Use Especialidade: Magia para criar dispositivos mágicos temporários.",
+      "faroeste": "Não combina"
+    },
+    {
+      "nome": "Assustar",
+      "tipo": "Perícia",
+      "efeito": "Use Intimidação para fintar em combate.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Atraente",
+      "tipo": "Perícia",
+      "efeito": "Bônus de circunstância em perícias de interação baseado em sua aparência.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Bem Informado",
+      "tipo": "Perícia",
+      "efeito": "Teste imediato de Investigação ou Percepção para saber alguma coisa.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Bem Relacionado",
+      "tipo": "Perícia",
+      "efeito": "Chame ajuda ou consiga favores com um teste de Persuasão.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Contatos",
+      "tipo": "Perícia",
+      "efeito": "Faça um teste inicial de Investigação em um minuto.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Empatia com Animais",
+      "tipo": "Perícia",
+      "efeito": "Use perícias de interação com animais.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Esconder-se à Plena Vista",
+      "tipo": "Perícia",
+      "efeito": "Esconda-se quando observado sem precisar de uma distração.",
+      "faroeste": "Opcional"
+    },
+    {
+      "nome": "Fascinar",
+      "tipo": "Perícia",
+      "efeito": "Use uma perícia de interação para prender a atenção dos outros.",
+      "faroeste": "Opcional"
+    },
+    {
+      "nome": "Faz Tudo",
+      "tipo": "Perícia",
+      "efeito": "Use qualquer perícia sem treinamento.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Ferramentas Aprimoradas",
+      "tipo": "Perícia",
+      "efeito": "Sem penalidade por usar perícias sem as ferramentas apropriadas.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Finta Ágil",
+      "tipo": "Perícia",
+      "efeito": "Finte usando a perícia Acrobacia ou sua velocidade.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Idiomas",
+      "tipo": "Perícia",
+      "efeito": "Fale e compreenda idiomas adicionais.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Inimigo Favorito",
+      "tipo": "Perícia",
+      "efeito": "Bônus de circunstância em testes contra um tipo de oponente.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Inventor",
+      "tipo": "Perícia",
+      "efeito": "Use Tecnologia para criar dispositivos temporários.",
+      "faroeste": "Opcional"
+    },
+    {
+      "nome": "Maestria em Perícia",
+      "tipo": "Perícia",
+      "efeito": "Realize testes de rotina com uma perícia sob quaisquer circunstâncias.",
+      "faroeste": "Opcional"
+    },
+    {
+      "nome": "Rastrear",
+      "tipo": "Perícia",
+      "efeito": "Use Percepção para seguir rastros.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Ritualista",
+      "tipo": "Perícia",
+      "efeito": "Use Especialidade: Magia para criar e realizar rituais.",
+      "faroeste": "Não combina"
+    },
+    {
+      "nome": "Tontear",
+      "tipo": "Perícia",
+      "efeito": "Use Enganação ou Intimidação para deixar um oponente tonto.",
+      "faroeste": "Opcional"
+    },
+    {
+      "nome": "Zombar",
+      "tipo": "Perícia",
+      "efeito": "Use Enganação para desmoralizar em combate.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Esforço Supremo",
+      "tipo": "Sorte",
+      "efeito": "Gaste um ponto heróico para ganhar um 20 efetivo em um teste específico.",
+      "faroeste": "Opcional"
+    },
+    {
+      "nome": "Inspirar",
+      "tipo": "Sorte",
+      "efeito": "Gaste um ponto heróico para conceder a seus aliados um bônus de circunstância de +1 por graduação.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Liderança",
+      "tipo": "Sorte",
+      "efeito": "Gaste um ponto heróico para remover uma condição de um aliado.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Sorte de Principiante",
+      "tipo": "Sorte",
+      "efeito": "Gaste um ponto heróico para ganhar 5 graduações temporárias em uma perícia.",
+      "faroeste": "Opcional"
+    },
+    {
+      "nome": "Sorte",
+      "tipo": "Sorte",
+      "efeito": "Rerole uma rolagem uma vez por graduação.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Tomar a Iniciativa",
+      "tipo": "Sorte",
+      "efeito": "Gaste um ponto heróico para agir primeiro na ordem de iniciativa.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Avaliação",
+      "tipo": "Geral",
+      "efeito": "Use Intuição para descobrir as habilidades de combate do oponente.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Benefício",
+      "tipo": "Geral",
+      "efeito": "Ganhe uma gratificação ou benefício adicional.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Capanga",
+      "tipo": "Geral",
+      "efeito": "Ganhe um seguidor ou capanga com (15 x graduação) pontos de poder.",
+      "faroeste": "Opcional"
+    },
+    {
+      "nome": "De Pé",
+      "tipo": "Geral",
+      "efeito": "Passe de caído para em pé como uma ação livre.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Destemido",
+      "tipo": "Geral",
+      "efeito": "Imune a efeitos de medo.",
+      "faroeste": "Opcional"
+    },
+    {
+      "nome": "Duro de Matar",
+      "tipo": "Geral",
+      "efeito": "Estabilize automaticamente quando moribundo.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Equipamento",
+      "tipo": "Geral",
+      "efeito": "5 pontos de equipamento por graduação.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Esforço Extraordinário",
+      "tipo": "Geral",
+      "efeito": "Ganhe dois benefícios quando usando esforço extra.",
+      "faroeste": "Opcional"
+    },
+    {
+      "nome": "Interpor-se",
+      "tipo": "Geral",
+      "efeito": "Sofra um ataque mirado contra um aliado.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Memória Eidética",
+      "tipo": "Geral",
+      "efeito": "Você se lembra de tudo, bônus de circunstância de +5 para se lembrar das coisas.",
+      "faroeste": "Opcional"
+    },
+    {
+      "nome": "Parceiro",
+      "tipo": "Geral",
+      "efeito": "Ganhe um parceiro com (5 x graduação) pontos de poder.",
+      "faroeste": "Opcional"
+    },
+    {
+      "nome": "Segunda Chance",
+      "tipo": "Geral",
+      "efeito": "Rerole um teste falho contra uma ameaça uma vez.",
+      "faroeste": "Opcional"
+    },
+    {
+      "nome": "Tolerância Maior",
+      "tipo": "Geral",
+      "efeito": "+5 em testes envolvendo tolerância.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Trabalho em Equipe",
+      "tipo": "Geral",
+      "efeito": "+5 de bônus para ajudar em testes de equipe.",
+      "faroeste": "Recomendada"
+    },
+    {
+      "nome": "Transe",
+      "tipo": "Geral",
+      "efeito": "Entre em um transe parecido com a morte que diminui as funções vitais.",
+      "faroeste": "Não combina"
+    }
+  ]
+}

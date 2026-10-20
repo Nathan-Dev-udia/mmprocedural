@@ -1,0 +1,46 @@
+{
+  "nps_disponiveis": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    10
+  ],
+  "quantidade_padrao": 4,
+  "quantidade_maxima": 12,
+  "tentativas_maximas": 60,
+  "modulos_extras_maximos": 1,
+  "porta": 5000,
+  "ficha_pdf": "ficha_editavel.pdf",
+  "escala_npc": {
+    "minimo": 0.7,
+    "maximo": 1.0
+  },
+  "prioridades_gerais": [
+    "defesa:Esquiva",
+    "defesa:Aparar",
+    "defesa:Fortitude",
+    "defesa:Vontade",
+    "pericia:Percepção",
+    "pericia:Atletismo",
+    "pericia:Intuição",
+    "pericia:Especialidade: Cavalgar",
+    "vantagem:Rolamento Defensivo",
+    "habilidade:Vig"
+  ],
+  "nps_jogador": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "np_padrao_jogador": 6
+}
