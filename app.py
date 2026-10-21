@@ -289,7 +289,7 @@ def _pdf_do_npc(npc):
     DADOS = _dados(npc.get("genero"))
     if DADOS["ficha_pdf"] is None:
         raise generator.GeneratorError("O modelo de ficha em PDF não foi encontrado na pasta data/.")
-    return pdf_export.gerar_pdf(DADOS["ficha_pdf"], npc, _relatorio(npc))
+    return pdf_export.gerar_pdf(DADOS["ficha_pdf"], npc, _relatorio(npc), DADOS["genero"]["nome"])
 
 
 def _docx_dos_npcs(npcs):

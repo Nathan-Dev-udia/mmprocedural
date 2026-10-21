@@ -18,7 +18,9 @@ CASOS = [("capanga", 3), ("capanga", 5), ("policial", 5), ("cavalo", 4)]
 def gerar_pdf(dados, arquetipo, np, semente=1):
     npc, _ = generator.gerar_npc(dados, arquetipo, np, "aleatorio", random.Random(semente))
     relatorio = validator.validar(npc["ficha"], np, dados["equipamentos"])
-    campos = PdfReader(io.BytesIO(pdf_export.gerar_pdf(dados["ficha_pdf"], npc, relatorio))).get_fields()
+    campos = PdfReader(io.BytesIO(pdf_export.gerar_pdf(
+        dados["ficha_pdf"], npc, relatorio, dados["genero"]["nome"]
+    ))).get_fields()
     return npc, relatorio, {nome: campo.get("/V") for nome, campo in campos.items()}
 
 
@@ -72,7 +74,9 @@ def test_cavalgar_usa_agilidade_na_ficha(dados):
 def test_formula_do_combate_a_distancia_corrigida(dados):
     npc, _ = generator.gerar_npc(dados, "capanga", 3, "aleatorio", random.Random(1))
     relatorio = validator.validar(npc["ficha"], 3, dados["equipamentos"])
-    leitor = PdfReader(io.BytesIO(pdf_export.gerar_pdf(dados["ficha_pdf"], npc, relatorio)))
+    leitor = PdfReader(io.BytesIO(pdf_export.gerar_pdf(
+        dados["ficha_pdf"], npc, relatorio, dados["genero"]["nome"]
+    )))
     for pagina in leitor.pages:
         for anotacao in pagina.get("/Annots", []):
             anotacao = anotacao.get_object()
@@ -98,6 +102,24 @@ def test_rotas_de_download(dados):
     nomes = zipfile.ZipFile(io.BytesIO(resposta.data)).namelist()
     assert len([n for n in nomes if n.endswith(".pdf")]) == 3
     assert "todas_as_fichas.txt" in nomes
+
+
+def test_serie_da_ficha_reflete_o_genero():
+    dados_fantasia = app.DADOS_POR_GENERO["fantasia"]
+    arquetipo_id = next(iter(dados_fantasia["arquetipos"]))
+    arquetipo = dados_fantasia["arquetipos"][arquetipo_id]
+    np = generator.nps_disponiveis(dados_fantasia, arquetipo)[0]
+    npc, motivo = generator.gerar_npc(
+        dados_fantasia, arquetipo_id, np, "aleatorio", random.Random(1)
+    )
+    assert npc is not None, motivo
+    relatorio = validator.validar(npc["ficha"], np, dados_fantasia["equipamentos"])
+
+    resposta = app.app.test_client().post("/api/ficha.pdf", json={"npc": npc})
+    assert resposta.status_code == 200
+    campos = PdfReader(io.BytesIO(resposta.data)).get_fields()
+
+    assert campos["Series"].get("/V") == "Fantasia medieval em Mutantes & Malfeitores"
 
 
 def test_download_sem_ficha_da_erro_controlado():

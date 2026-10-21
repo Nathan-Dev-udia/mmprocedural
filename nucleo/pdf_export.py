@@ -55,7 +55,7 @@ def _sinal(valor):
     return f"{valor:+d}"
 
 
-def valores_dos_campos(npc, relatorio):
+def valores_dos_campos(npc, relatorio, genero_nome):
     """Monta o dicionário {nome do campo: valor} para um NPC já validado."""
     ficha = npc["ficha"]
     val = relatorio["valores"]
@@ -68,7 +68,7 @@ def valores_dos_campos(npc, relatorio):
     campos["Jogador"] = npc.get("jogador", "")
     campos["Grupo Afiliado"] = npc["faixa"]["nome"]
     campos["Nível de Poder"] = str(npc["np_pretendido"])
-    campos["Series"] = "Faroeste em Mutantes & Malfeitores"
+    campos["Series"] = f"{genero_nome} em Mutantes & Malfeitores"
     for secao, campo in (("habilidades", "Habilidades"), ("poderes", "Poderes"), ("vantagens", "Vantagens"),
                          ("pericias", "Perícias"), ("defesas", "Defesas")):
         valor = custos.get(secao, 0)
@@ -199,7 +199,7 @@ def _corrigir_formula_do_combate_a_distancia(writer):
             acao[NameObject("/JS")] = TextStringObject(texto.replace('"CaD 2"', '"CaDPer 2"'))
 
 
-def gerar_pdf(caminho_modelo, npc, relatorio):
+def gerar_pdf(caminho_modelo, npc, relatorio, genero_nome):
     """Devolve os bytes de um PDF preenchido com o NPC."""
     leitor = PdfReader(caminho_modelo)
     writer = PdfWriter(clone_from=leitor)
@@ -208,7 +208,7 @@ def gerar_pdf(caminho_modelo, npc, relatorio):
     for nome, campo in (leitor.get_fields() or {}).items():
         if campo.get("/FT") == "/Tx" and nome not in CAMPOS_ROTULO:
             valores[nome] = ""
-    valores.update(valores_dos_campos(npc, relatorio))
+    valores.update(valores_dos_campos(npc, relatorio, genero_nome))
     marcadores = {"Secreta": "/Off", "Pública": "/Off"}
 
     writer.update_page_form_field_values(None, valores, auto_regenerate=False)

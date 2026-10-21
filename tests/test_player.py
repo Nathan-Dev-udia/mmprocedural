@@ -241,7 +241,9 @@ def test_pdf_do_jogador_tem_complicacoes_e_jogador(dados):
 
     from nucleo import pdf_export
     pj = gerar(dados, jogador="Nathan")
-    campos = PdfReader(io.BytesIO(pdf_export.gerar_pdf(dados["ficha_pdf"], pj, pj["validacao"]))).get_fields()
+    campos = PdfReader(io.BytesIO(pdf_export.gerar_pdf(
+        dados["ficha_pdf"], pj, pj["validacao"], dados["genero"]["nome"]
+    ))).get_fields()
     assert campos["Jogador"].get("/V") == "Nathan"
     assert "Justiça" in campos["Complicações 1"].get("/V")
 
