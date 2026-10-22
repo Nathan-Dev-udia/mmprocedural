@@ -19,15 +19,15 @@ from flask import Flask, jsonify, render_template, request, send_file
 from nucleo import data_loader, docx_export, formatter, generator, livros, pdf_export, player, validator
 
 app = Flask(__name__)
-PASTA_REFERENCIAS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "referencias")
+PASTA_LIVROS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "dados", "livros")
 PLANILHAS_POR_GENERO = {
     "faroeste": {
-        "armas": os.path.join(PASTA_REFERENCIAS, "armas.xlsx"),
-        "itens": os.path.join(PASTA_REFERENCIAS, "itens.xlsx"),
+        "armas": os.path.join(PASTA_LIVROS, "faroeste", "armas.xlsx"),
+        "itens": os.path.join(PASTA_LIVROS, "faroeste", "itens.xlsx"),
     },
     "fantasia": {
-        "armas": os.path.join(PASTA_REFERENCIAS, "fantasia", "armas.xlsx"),
-        "itens": os.path.join(PASTA_REFERENCIAS, "fantasia", "itens.xlsx"),
+        "armas": os.path.join(PASTA_LIVROS, "fantasia", "armas.xlsx"),
+        "itens": os.path.join(PASTA_LIVROS, "fantasia", "itens.xlsx"),
     },
 }
 NOMES_DAS_PLANILHAS = {"armas": "Armas", "itens": "Itens"}
