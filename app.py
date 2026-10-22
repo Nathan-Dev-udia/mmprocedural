@@ -19,6 +19,18 @@ from flask import Flask, jsonify, render_template, request, send_file
 from nucleo import data_loader, docx_export, formatter, generator, livros, pdf_export, player, validator
 
 app = Flask(__name__)
+PASTA_REFERENCIAS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "referencias")
+PLANILHAS_POR_GENERO = {
+    "faroeste": {
+        "armas": os.path.join(PASTA_REFERENCIAS, "armas.xlsx"),
+        "itens": os.path.join(PASTA_REFERENCIAS, "itens.xlsx"),
+    },
+    "fantasia": {
+        "armas": os.path.join(PASTA_REFERENCIAS, "fantasia", "armas.xlsx"),
+        "itens": os.path.join(PASTA_REFERENCIAS, "fantasia", "itens.xlsx"),
+    },
+}
+NOMES_DAS_PLANILHAS = {"armas": "Armas", "itens": "Itens"}
 
 # Versão mostrada no rodapé. Suba a cada entrega: 1.0 original, 1.1 passo a passo, 1.2 quantidades, 1.3 fantasia,
 # 1.4 distribuição dos pontos parecida com a dos arquétipos do livro, 1.5 subclasses e tipo de NPC, 1.6 goblinoides e caçador de monstros, 1.7 livros do faroeste e da fantasia.
@@ -45,10 +57,17 @@ def versao_do_programa():
     # Livros (do Jogador e do Mestre) de cada gênero, para os botões de download e o rodapé.
     todos_os_livros = [{"genero": g, "nome": d["genero"]["nome"], "tipos": livros.livros_disponiveis(g)}
                        for g, d in DADOS_POR_GENERO.items()]
+    todas_as_planilhas = [
+        {"genero": genero_id, "nome": DADOS_POR_GENERO[genero_id]["genero"]["nome"],
+         "tipos": [tipo for tipo, caminho in tipos.items() if os.path.isfile(caminho)]}
+        for genero_id, tipos in PLANILHAS_POR_GENERO.items() if genero_id in DADOS_POR_GENERO
+    ]
     return {"versao": VERSAO, "commit": COMMIT, "livros": [l for l in todos_os_livros if l["tipos"]],
-            "nomes_dos_livros": livros.TIPOS}
+            "nomes_dos_livros": livros.TIPOS, "planilhas": [p for p in todas_as_planilhas if p["tipos"]],
+            "nomes_das_planilhas": NOMES_DAS_PLANILHAS}
 
 MIME_DOCX = "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+MIME_XLSX = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
 
 DADOS_POR_GENERO, ERROS_POR_GENERO = data_loader.carregar_todos()
 GENERO_PADRAO = "faroeste" if "faroeste" in DADOS_POR_GENERO else next(iter(DADOS_POR_GENERO), None)
@@ -318,6 +337,15 @@ def baixar_livro(genero_id, tipo):
         _LIVROS_PRONTOS[chave] = livros.gerar_livro(DADOS, tipo, VERSAO)
     return send_file(io.BytesIO(_LIVROS_PRONTOS[chave]), mimetype=MIME_DOCX, as_attachment=True,
                      download_name=f"{_nome_de_arquivo(livros.TIPOS[tipo])}_{genero_id}.docx")
+
+
+@app.get("/planilhas/<genero_id>/<tipo>.xlsx")
+def baixar_planilha(genero_id, tipo):
+    caminho = PLANILHAS_POR_GENERO.get(genero_id, {}).get(tipo)
+    if tipo not in NOMES_DAS_PLANILHAS or not caminho or not os.path.isfile(caminho):
+        return jsonify({"erro": "Planilha não encontrada."}), 404
+    return send_file(caminho, mimetype=MIME_XLSX, as_attachment=True,
+                     download_name=f"{tipo}_{genero_id}.xlsx")
 
 
 @app.post("/api/ficha.pdf")

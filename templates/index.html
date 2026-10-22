@@ -49,6 +49,15 @@
           {% endfor %}
         </div>
         {% endif %}
+        {% set planilhas_deste_genero = planilhas | selectattr("genero", "equalto", opcoes.genero.id) | list %}
+        {% if planilhas_deste_genero %}
+        <div class="livros-do-genero">
+          <span>Planilhas deste gênero:</span>
+          {% for tipo in planilhas_deste_genero[0].tipos %}
+          <a class="botao pequeno destaque" href="{{ url_for('baixar_planilha', genero_id=opcoes.genero.id, tipo=tipo) }}">Baixar {{ nomes_das_planilhas[tipo] }} (.xlsx)</a>
+          {% endfor %}
+        </div>
+        {% endif %}
       </section>
 
       <section class="passo" data-passo="identidade" role="tabpanel" hidden>

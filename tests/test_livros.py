@@ -49,10 +49,60 @@ def test_livros_disponiveis_e_download():
     assert cliente.get("/livros/faroeste/inexistente.docx").status_code == 404
 
 
+@pytest.mark.parametrize("genero", ["faroeste", "fantasia"])
+@pytest.mark.parametrize("tipo", ["armas", "itens"])
+def test_planilhas_de_equipamento_sao_baixaveis(genero, tipo):
+    resposta = app.app.test_client().get(f"/planilhas/{genero}/{tipo}.xlsx")
+
+    assert resposta.status_code == 200
+    assert resposta.mimetype == app.MIME_XLSX
+    assert resposta.headers["Content-Disposition"].endswith(f"{tipo}_{genero}.xlsx")
+    assert resposta.data.startswith(b"PK")
+
+
+def test_pagina_mostra_planilhas_do_genero_selecionado():
+    cliente = app.app.test_client()
+
+    faroeste = cliente.get("/?genero=faroeste").get_data(as_text=True)
+    fantasia = cliente.get("/?genero=fantasia").get_data(as_text=True)
+
+    assert "/planilhas/faroeste/armas.xlsx" in faroeste
+    assert "/planilhas/faroeste/itens.xlsx" in faroeste
+    assert "/planilhas/fantasia/armas.xlsx" in fantasia
+    assert "/planilhas/fantasia/itens.xlsx" in fantasia
+
+
+def test_planilha_nao_disponivel_retorna_404():
+    resposta = app.app.test_client().get("/planilhas/cyberpunk/armas.xlsx")
+
+    assert resposta.status_code == 404
+
+
 def test_faroeste_e_fantasia_tem_os_dois_livros():
     assert livros.livros_disponiveis("fantasia") == ["jogador", "mestre"]
     assert livros.livros_disponiveis("faroeste") == ["jogador", "mestre"]
     assert livros.livros_disponiveis("cyberpunk") == ["jogador", "mestre"]
+
+
+def test_tabelas_de_equipamento_fantasia_incluem_precos_e_equivalentes():
+    dados = data_loader.carregar_genero("fantasia")
+    apendice = livros.apendice(dados, "mestre")
+
+    assert "### Armas" in apendice and "### Itens" in apendice
+    assert "| Arma | Preço | Equivalente no Manual dos Mecanismos |" in apendice
+    assert "| Item | Preço | Equivalente no Manual dos Mecanismos |" in apendice
+    assert "| Adaga | 2 po | Faca |" in apendice
+    assert "| Espada de prata | 115 po | Espada (prateada; usa a estatística de espada) |" in apendice
+    assert "| Armadura de couro | 10 po | Armadura de couro (Proteção 1) |" in apendice
+    assert "| Armadura de placas | 1500 po | Armadura completa (Proteção 6) |" in apendice
+    assert "| Escudo de torre | 30 po | Escudo grande (+3 em Esquiva e Aparar) |" in apendice
+    assert "| Sela de montaria | 10 po | Característica de equipamento (1 graduação, 1 ponto) |" in apendice
+    for item in livros.player.catalogo_do_jogador(dados):
+        assert f"| {item['nome']} |" in apendice
+
+    documento = _texto(livros.gerar_livro(dados, "mestre"))
+    assert "Equivalente no Manual dos Mecanismos" in documento
+    assert "Espada (prateada; usa a estatística de espada)" in documento
 
 
 def test_chefe_goblinoide_nao_e_capanga():

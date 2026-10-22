@@ -179,6 +179,56 @@ def _preco(dados, valor):
     return "a combinar" if valor is None else formatter.dolares(valor, player.moeda(dados))
 
 
+def _preco_fantasia(valor):
+    if valor is None:
+        return "a combinar"
+    centavos = round(valor * 100)
+    if centavos % 100 == 0:
+        return f"{centavos // 100} po"
+    if centavos % 10 == 0:
+        return f"{centavos // 10} pp"
+    return f"{centavos} pc"
+
+
+def _equivalente_no_manual(item):
+    categoria = item.get("categoria")
+    item_id = item.get("id")
+    if categoria == "Armadura":
+        equivalencias = {
+            "acolchoada": "Cota de malha (Proteção 3; aproximação)",
+            "couro": "Armadura de couro (Proteção 1)",
+            "couro_batido": "Armadura de couro +1 de Proteção (adaptação)",
+            "gibao_peles": "Sem equivalente direto; conversão de gênero",
+            "camisao_malha": "Cota de malha (Proteção 3)",
+            "brunea": "Cota de malha/escamas (Proteção 3; aproximação)",
+            "peitoral": "Cota de malha reforçada (Proteção 4; adaptação)",
+            "cota_malha": "Armadura de cota de malha (Proteção 3)",
+            "meia_armadura": "Armadura de placas (Proteção 5)",
+            "cota_talas": "Cota de talas (Proteção 3)",
+            "placas": "Armadura completa (Proteção 6)",
+        }
+        return equivalencias.get(item_id, "Armadura; equivalência de gênero")
+    if categoria == "Escudo":
+        return {
+            1: "Escudo pequeno (+1 em Esquiva e Aparar)",
+            2: "Escudo médio (+2 em Esquiva e Aparar)",
+            3: "Escudo grande (+3 em Esquiva e Aparar)",
+        }.get(item.get("defesas_ativas"), "Escudo; equivalência de gênero")
+    if categoria == "Montaria" and item_id in {"ponei", "cavalo_montaria", "cavalo_guerra"}:
+        return "Montaria tratada como NPC, não como equipamento"
+    if item.get("kit"):
+        return "Pacote de equipamento; os itens internos mantêm suas estatísticas"
+    if item_id == "espada_prata":
+        return "Espada (prateada; usa a estatística de espada)"
+    fonte = item.get("fonte", "")
+    inicio = fonte.find("cap. 7 (")
+    if inicio >= 0:
+        fim = fonte.find(")", inicio)
+        if fim > inicio:
+            return fonte[inicio + len("cap. 7 ("):fim].capitalize()
+    return "Característica de equipamento (1 graduação, 1 ponto)"
+
+
 def _secao_arquetipos(dados):
     config = dados["configuracoes"]
     rotulo, rotulo_foco = config.get("rotulo_arquetipo", "Arquétipo"), config.get("rotulo_foco", "Foco")
@@ -252,8 +302,28 @@ def _secao_poderes(dados):
 
 
 def _secao_equipamento(dados):
+    catalogo = player.catalogo_do_jogador(dados)
+    if dados["genero"]["id"] == "fantasia":
+        armas = [item for item in catalogo
+                 if item.get("categoria") in ("Arma branca", "Arma à distância")]
+        itens = [item for item in catalogo if item not in armas]
+        md = ["## Equipamento\n",
+              "Os preços estão em peças de ouro, prata ou cobre (10 pp = 1 po; 10 pc = 1 pp). "
+              "A equivalência indica o item mais próximo "
+              "do *Manual dos Mecanismos Lite*; quando não há um modelo próprio, o equipamento comum usa "
+              "uma Característica de 1 graduação (1 ponto).\n",
+              "### Armas\n"]
+        linhas_armas = [[item["nome"], _preco_fantasia(item.get("preco")), _equivalente_no_manual(item)]
+                        for item in armas]
+        md.append(_tabela_md(["Arma", "Preço", "Equivalente no Manual dos Mecanismos"], linhas_armas))
+        md.append("\n### Itens\n")
+        linhas_itens = [[item["nome"], _preco_fantasia(item.get("preco")), _equivalente_no_manual(item)]
+                        for item in itens]
+        md.append(_tabela_md(["Item", "Preço", "Equivalente no Manual dos Mecanismos"], linhas_itens))
+        return "\n".join(md)
+
     por_categoria = {}
-    for item in player.catalogo_do_jogador(dados):
+    for item in catalogo:
         por_categoria.setdefault(item["categoria"], []).append(item)
     md = ["## Equipamento\n"]
     if dados["configuracoes"].get("itens_basicos"):

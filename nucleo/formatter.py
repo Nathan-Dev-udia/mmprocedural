@@ -73,6 +73,31 @@ def texto_do_poder(poder, papel=None):
     return poder["nome"]
 
 
+def detalhe_protecao(val):
+    """Explica como a Proteção de equipamento afeta a Resistência."""
+    fontes = val.get("fontes_de_protecao", [])
+    protecao = val.get("protecao", 0)
+    if not fontes or not protecao:
+        return ""
+    nomes = ", ".join(fontes)
+    protecao_de_poder = val.get("protecao_de_poder", 0)
+    if protecao >= protecao_de_poder:
+        return f"Proteção +{protecao} de {nomes}"
+    return (f"{nomes}: Proteção +{protecao} (não cumulativa; "
+            f"prevalece Proteção +{protecao_de_poder} do poder)")
+
+
+def texto_da_resistencia(val):
+    d = val["defesas"]
+    resistencia = str(d["Resistência"])
+    detalhe = detalhe_protecao(val)
+    if detalhe:
+        resistencia += f" (inclui {detalhe})"
+    if val.get("resistencia_plena", d["Resistência"]) != d["Resistência"]:
+        resistencia += f"/{val['resistencia_plena']} (a primeira só contra ataques {', '.join(val['protecao_limitada_a'])})"
+    return resistencia
+
+
 def exibicao(npc):
     """Campos já formatados que a página mostra no cartão."""
     rel = npc["validacao"]
@@ -86,9 +111,7 @@ def exibicao(npc):
                  for nome, grad in sorted(ficha.get("vantagens", {}).items())]
     poderes = [texto_do_poder(p, papel) for _, p, papel in poderes_mod.em_ordem_de_exibicao(ficha.get("poderes", {}))]
     d = val["defesas"]
-    resistencia = str(d["Resistência"])
-    if val.get("resistencia_plena", d["Resistência"]) != d["Resistência"]:
-        resistencia += f"/{val['resistencia_plena']} (a primeira só contra ataques {', '.join(val['protecao_limitada_a'])})"
+    resistencia = texto_da_resistencia(val)
     defesas = (f"Esquiva {d['Esquiva']}, Aparar {d['Aparar']}, Fortitude {d['Fortitude']}, "
                f"Resistência {resistencia}, Vontade {d['Vontade']}")
     ataques = [texto_ataque(a) for a in ataques_exibidos(val["ataques"])]

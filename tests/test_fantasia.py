@@ -280,6 +280,13 @@ def test_kit_de_bruxo_traz_os_itens_com_estatistica(fantasia):
     assert pj["validacao"]["valores"]["protecao"] == 2
 
 
+def test_ficha_explica_protecao_da_armadura_na_resistencia(fantasia):
+    pj = gerar_pj(fantasia, "bruxo", 5, "cacador_monstros")
+    exibicao = formatter.exibicao(pj)
+    assert "Resistência" in exibicao["defesas"]
+    assert "Proteção +2 de Couro batido" in exibicao["defesas"]
+
+
 def test_kit_escolhido_a_mao(fantasia):
     pj = gerar_pj(fantasia, "bruxo", 5, "cacador_monstros", equipamento={"modo": "manual", "ids": ["kit_bruxo"]})
     assert pj["dinheiro"]["gasto"] == 120

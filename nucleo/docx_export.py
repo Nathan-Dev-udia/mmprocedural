@@ -105,7 +105,7 @@ def _adicionar_npc(doc, npc, relatorio):
     _titulo_de_secao(doc, "Defesas")
     d = val["defesas"]
     _tabela(doc, ["Esquiva", "Aparar", "Fortitude", "Resistência", "Vontade", "Iniciativa"],
-            [[d["Esquiva"], d["Aparar"], d["Fortitude"], d["Resistência"], d["Vontade"],
+            [[d["Esquiva"], d["Aparar"], d["Fortitude"], formatter.texto_da_resistencia(val), d["Vontade"],
               _sinal(val["iniciativa"])]], larguras_centralizadas=True)
 
     # Ataques

@@ -84,6 +84,10 @@ def calcular(ficha, catalogo_equipamento, ativo=None):
     # contam contra tiros, mas não contra golpes corpo a corpo.
     protecao = max([item.get("protecao", 0) for item in itens], default=0)
     protecao_plena = max([item.get("protecao", 0) for item in itens if not item.get("limitada_a")], default=0)
+    fontes_de_protecao = [
+        item["nome"] for item in itens
+        if item.get("protecao") == protecao and protecao > 0
+    ]
     protecao_de_poder = ajustes.get("Proteção", 0)
     base_de_resistencia = (hab["Vig"] + vantagens.get(rules.VANTAGEM_RESISTENCIA, 0)
                            + ajustes.get("Resistência", 0))
@@ -150,6 +154,7 @@ def calcular(ficha, catalogo_equipamento, ativo=None):
         "itens": [_com_quantidade(item["nome"], ficha.get("quantidades", {}).get(i, 1))
                   for item, i in zip(itens, ficha.get("equipamento", []))],
         "protecao": protecao,
+        "fontes_de_protecao": fontes_de_protecao,
         "protecao_de_poder": protecao_de_poder,
         # Resistência sem as proteções limitadas (ex.: contra golpes, quando o colete só para balas).
         "resistencia_plena": resistencia_plena,

@@ -147,6 +147,10 @@ def test_pdf_do_bruxo_inclui_graduacoes_e_efeitos_das_magias():
     assert "indefeso e caído" in linhas
     assert "Arranjo Sinais: efeito principal" in linhas
     assert "efeito alternativo (1 PP)" in linhas
+    assert "Armadura: Proteção +2 de Couro batido; já incluída na Resistência." in str(
+        campos["Notas & Condições"].get("/V")
+    )
+    assert str(campos["Mod de Armadura"].get("/V")) == "2"
     assert "Desarmado" not in ataques
     assert "Igni" in ataques
     assert any(ataque["nome"] == "Desarmado" for ataque in bruxo["validacao"]["valores"]["ataques"])
