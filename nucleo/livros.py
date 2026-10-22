@@ -73,9 +73,11 @@ def _tabela(doc, linhas):
     colunas = len(cabecalho)
     tabela = doc.add_table(rows=1 + len(corpo), cols=colunas)
     tabela.style = "Table Grid"
+    # As células numa lista só: tabela.cell(i, j) refaz a tabela inteira a cada chamada e deixava o livro lento.
+    celulas = tabela._cells
     for i, linha in enumerate([cabecalho] + corpo):
         for j in range(colunas):
-            celula = tabela.cell(i, j)
+            celula = celulas[i * colunas + j]
             celula.text = ""
             if i == 0:
                 # Cabeçalho em azul-claro, como os campos da ficha editável.

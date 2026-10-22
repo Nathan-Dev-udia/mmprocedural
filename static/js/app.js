@@ -71,7 +71,10 @@ async function baixarLivro(link) {
   mostrarCarregando("Montando o livro…");
   try {
     const resposta = await fetch(link.href);
-    if (!resposta.ok) throw new Error("Não consegui montar o livro.");
+    if (!resposta.ok) {
+      const dados = await resposta.json().catch(() => ({}));
+      throw new Error(`Não consegui montar o livro (${dados.erro || `erro ${resposta.status}`}).`);
+    }
     const nome = (resposta.headers.get("Content-Disposition") || "").match(/filename="?([^";]+)"?/);
     salvarArquivo(await resposta.blob(), nome ? nome[1] : "livro.docx");
   } catch (erro) {

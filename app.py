@@ -33,8 +33,9 @@ PLANILHAS_POR_GENERO = {
 NOMES_DAS_PLANILHAS = {"armas": "Armas", "itens": "Itens"}
 
 # Versão mostrada no rodapé. Suba a cada entrega: 1.0 original, 1.1 passo a passo, 1.2 quantidades, 1.3 fantasia,
-# 1.4 distribuição dos pontos parecida com a dos arquétipos do livro, 1.5 subclasses e tipo de NPC, 1.6 goblinoides e caçador de monstros, 1.7 livros do faroeste e da fantasia.
-VERSAO = "1.7.0"
+# 1.4 distribuição dos pontos parecida com a dos arquétipos do livro, 1.5 subclasses e tipo de NPC, 1.6 goblinoides e caçador de monstros, 1.7 livros do faroeste e da fantasia,
+# 1.8 planilhas de armas e itens, magias na ficha e livros montados mais rápido.
+VERSAO = "1.8.0"
 
 
 def _commit_atual():
