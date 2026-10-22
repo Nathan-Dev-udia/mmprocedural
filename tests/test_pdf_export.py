@@ -139,6 +139,7 @@ def test_pdf_do_bruxo_inclui_graduacoes_e_efeitos_das_magias():
         str(campos[f"Poderes e Dispositivos {n}"].get("/V") or "")
         for n in range(1, pdf_export.LINHAS["poderes"] + 1)
     )
+    ataques = "\n".join(str(campos[f"Ataque {n}"].get("/V") or "") for n in range(1, 5))
 
     assert "Igni 7" in linhas
     assert "Aard 6" in linhas
@@ -146,6 +147,9 @@ def test_pdf_do_bruxo_inclui_graduacoes_e_efeitos_das_magias():
     assert "indefeso e caído" in linhas
     assert "Arranjo Sinais: efeito principal" in linhas
     assert "efeito alternativo (1 PP)" in linhas
+    assert "Desarmado" not in ataques
+    assert "Igni" in ataques
+    assert any(ataque["nome"] == "Desarmado" for ataque in bruxo["validacao"]["valores"]["ataques"])
     for pagina in leitor.pages:
         for referencia in pagina.get("/Annots", []):
             anotacao = referencia.get_object()

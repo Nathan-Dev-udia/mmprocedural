@@ -111,7 +111,7 @@ def _adicionar_npc(doc, npc, relatorio):
     # Ataques
     _titulo_de_secao(doc, "Ataques")
     linhas = []
-    for ataque in val["ataques"]:
+    for ataque in formatter.ataques_exibidos(val["ataques"]):
         bonus = "—" if ataque["bonus"] is None else _sinal(ataque["bonus"])
         linhas.append([formatter.nome_curto(ataque["nome"]), bonus, ataque["dano"],
                        formatter.detalhes_do_ataque(ataque)])

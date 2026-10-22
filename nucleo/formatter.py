@@ -58,6 +58,12 @@ def texto_ataque(ataque):
     return f"{ataque['nome']} {_sinal(ataque['bonus'])} ({efeito} {ataque['dano']}{alcance}{multi}{critico}{cd})"
 
 
+def ataques_exibidos(ataques):
+    """Oculta o ataque desarmado redundante quando há outras opções de ataque."""
+    outros = [ataque for ataque in ataques if ataque["nome"] != "Desarmado"]
+    return outros or ataques
+
+
 def texto_do_poder(poder, papel=None):
     """Nome do poder, com a posição no arranjo quando ele faz parte de um."""
     if papel == "principal":
@@ -85,7 +91,7 @@ def exibicao(npc):
         resistencia += f"/{val['resistencia_plena']} (a primeira só contra ataques {', '.join(val['protecao_limitada_a'])})"
     defesas = (f"Esquiva {d['Esquiva']}, Aparar {d['Aparar']}, Fortitude {d['Fortitude']}, "
                f"Resistência {resistencia}, Vontade {d['Vontade']}")
-    ataques = [texto_ataque(a) for a in val["ataques"]]
+    ataques = [texto_ataque(a) for a in ataques_exibidos(val["ataques"])]
 
     partes = []
     for secao, valor in rel["custos"].items():

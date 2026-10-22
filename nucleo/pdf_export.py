@@ -96,7 +96,7 @@ def valores_dos_campos(npc, relatorio, genero_nome):
     campos["Resistência"] = str(val["defesas"]["Resistência"])
 
     # Ataques
-    ataques = val["ataques"]
+    ataques = formatter.ataques_exibidos(val["ataques"])
     for n, ataque in enumerate(ataques[:LINHAS["ataques"]], start=1):
         bonus = "" if ataque["bonus"] is None else f" {_sinal(ataque['bonus'])}"
         campos[f"Ataque {n}"] = f"{formatter.nome_curto(ataque['nome'])}{bonus}"
