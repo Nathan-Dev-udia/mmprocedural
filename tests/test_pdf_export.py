@@ -8,9 +8,7 @@ import pytest
 from pypdf import PdfReader
 
 import app
-from nucleo import generator
-from nucleo import pdf_export
-from nucleo import validator
+from nucleo import formatter, generator, pdf_export, player, validator
 
 CASOS = [("capanga", 3), ("capanga", 5), ("policial", 5), ("cavalo", 4)]
 
@@ -120,6 +118,60 @@ def test_serie_da_ficha_reflete_o_genero():
     campos = PdfReader(io.BytesIO(resposta.data)).get_fields()
 
     assert campos["Series"].get("/V") == "Fantasia medieval em Mutantes & Malfeitores"
+
+
+def test_pdf_do_bruxo_inclui_graduacoes_e_efeitos_das_magias():
+    dados = app.DADOS_POR_GENERO["fantasia"]
+    complicacoes = [
+        {"categoria": "motivacao", "nome": "Fé", "detalhe": ""},
+        {"categoria": "complicacao", "nome": "Honra", "detalhe": ""},
+    ]
+    bruxo = player.gerar_personagem(
+        dados, "bruxo", 7, "cacador_monstros", "classe_media", complicacoes,
+        nome="Osric da Ponte", rng=random.Random(1),
+    )
+    pdf = pdf_export.gerar_pdf(
+        dados["ficha_pdf"], bruxo, bruxo["validacao"], dados["genero"]["nome"]
+    )
+    leitor = PdfReader(io.BytesIO(pdf))
+    campos = leitor.get_fields()
+    linhas = "\n".join(
+        str(campos[f"Poderes e Dispositivos {n}"].get("/V") or "")
+        for n in range(1, pdf_export.LINHAS["poderes"] + 1)
+    )
+
+    assert "Igni 7" in linhas
+    assert "Aard 6" in linhas
+    assert "Aflição" in linhas
+    assert "indefeso e caído" in linhas
+    assert "Arranjo Sinais: efeito principal" in linhas
+    assert "efeito alternativo (1 PP)" in linhas
+    for pagina in leitor.pages:
+        for referencia in pagina.get("/Annots", []):
+            anotacao = referencia.get_object()
+            if str(anotacao.get("/T", "")).startswith("Poderes e Dispositivos "):
+                assert anotacao["/DA"] == "/Comi 0 Tf 0 g"
+
+
+def test_pdf_mostra_o_saldo_de_dinheiro_em_notas_e_condicoes(dados):
+    foco = dados["jogador"]["arquetipos"]["pistoleiro"]["focos"][0]["id"]
+    pj = player.gerar_personagem(
+        dados, "pistoleiro", 6, foco, "classe_media",
+        [{"categoria": "motivacao", "nome": "Justiça", "detalhe": ""},
+         {"categoria": "complicacao", "nome": "Honra", "detalhe": ""}],
+        rng=random.Random(1),
+    )
+    campos = PdfReader(io.BytesIO(pdf_export.gerar_pdf(
+        dados["ficha_pdf"], pj, pj["validacao"], dados["genero"]["nome"]
+    ))).get_fields()
+    notas = campos["Notas & Condições"].get("/V")
+
+    assert "Dinheiro:" in notas
+    assert "iniciais" in notas
+    assert "gastos" in notas
+    assert f"sobram {formatter.dolares(pj['dinheiro']['restante'])}." in notas
+    assert all("Dinheiro:" not in str(campos[f"Equipamento {n}"].get("/V") or "")
+               for n in range(1, pdf_export.LINHAS["equipamento"] + 1))
 
 
 def test_download_sem_ficha_da_erro_controlado():

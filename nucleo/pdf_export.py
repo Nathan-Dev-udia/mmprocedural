@@ -140,9 +140,7 @@ def valores_dos_campos(npc, relatorio, genero_nome):
     # Equipamento
     pe = val["pontos_equipamento"]
     equipamento = list(val["itens"])
-    if npc.get("dinheiro"):
-        equipamento.append(f"Dinheiro: sobram {formatter.dolares(npc['dinheiro']['restante'], npc['dinheiro'].get('moeda', '$'))}")
-    elif pe["disponiveis"]:
+    if not npc.get("dinheiro") and pe["disponiveis"]:
         equipamento.append(f"({pe['usados']} de {pe['disponiveis']} pontos de equipamento)")
     _preencher_linhas(campos, "Equipamento {n}", equipamento, LINHAS["equipamento"])
 
@@ -150,11 +148,13 @@ def valores_dos_campos(npc, relatorio, genero_nome):
     _preencher_linhas(campos, "Complicações {n}",
                       [formatter.texto_complicacao(c) for c in npc.get("complicacoes", [])], LINHAS["complicacoes"])
 
-    # Poderes (traços naturais de animais, implantes, feitiços...), com o rótulo do gênero
+    # Poderes (traços naturais de animais, implantes, feitiços...), com efeitos e posição nos arranjos.
     rotulo = npc.get("rotulo_poderes", "Poderes")
-    sufixo = {"principal": " (arranjo)", "alternativo": " (alternativo, 1 PP)"}
-    tracos = [f"{rotulo}: {p.get('nome_curto', p['nome'])}{sufixo.get(papel, '')}"
-              for _, p, papel in poderes_mod.em_ordem_de_exibicao(ficha.get("poderes", {}))]
+    tracos = []
+    for _, poder, papel in poderes_mod.em_ordem_de_exibicao(ficha.get("poderes", {})):
+        texto = f"{rotulo}: {formatter.texto_do_poder(poder, papel)}"
+        tracos.extend(textwrap.wrap(texto, width=62, subsequent_indent="  ", break_long_words=False,
+                                    break_on_hyphens=False))
     _preencher_linhas(campos, "Poderes e Dispositivos {n}", tracos, LINHAS["poderes"])
 
     # Notas & Condições (página 1): regras de jogo do NPC
@@ -162,6 +162,15 @@ def valores_dos_campos(npc, relatorio, genero_nome):
     if npc["capanga"]:
         condicoes.append("Capanga: não faz críticos contra quem não é capanga; qualquer falha num "
                          "salvamento aplica o pior resultado.")
+    if npc.get("dinheiro"):
+        dinheiro = npc["dinheiro"]
+        moeda = dinheiro.get("moeda", "$")
+        resumo = (f"Dinheiro: {formatter.dolares(dinheiro['inicial'], moeda)} iniciais; "
+                  f"{formatter.dolares(dinheiro['gasto'], moeda)} gastos; sobram "
+                  f"{formatter.dolares(dinheiro['restante'], moeda)}.")
+        if dinheiro.get("divida"):
+            resumo += f" Dívida: {formatter.dolares(dinheiro['divida'], moeda)}."
+        condicoes.append(resumo)
     condicoes.append(f"Tática: {npc['tatica']}")
     condicoes += notas_extras
     campos["Notas & Condições"] = "\n".join(condicoes)
@@ -213,9 +222,19 @@ def gerar_pdf(caminho_modelo, npc, relatorio, genero_nome):
 
     writer.update_page_form_field_values(None, valores, auto_regenerate=False)
     writer.update_page_form_field_values(None, marcadores, auto_regenerate=False)
+    _ajustar_fonte_dos_poderes(writer)
     writer.set_need_appearances_writer(True)
     _corrigir_formula_do_combate_a_distancia(writer)
 
     saida = io.BytesIO()
     writer.write(saida)
     return saida.getvalue()
+
+
+def _ajustar_fonte_dos_poderes(writer):
+    """Deixa o leitor ajustar o tamanho da fonte para caber em cada linha do PDF."""
+    for pagina in writer.pages:
+        for anotacao_ref in pagina.get("/Annots", []):
+            anotacao = anotacao_ref.get_object()
+            if str(anotacao.get("/T", "")).startswith("Poderes e Dispositivos "):
+                anotacao[NameObject("/DA")] = TextStringObject("/Comi 0 Tf 0 g")
