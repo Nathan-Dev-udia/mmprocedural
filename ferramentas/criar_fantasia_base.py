@@ -53,6 +53,7 @@ gravar("genero.json", {
 
 M = "Livro básico de M&M, cap. 7"
 PHB = "preço do Livro do Jogador (D&D 5e), cap. 5"
+LITE = "Manual dos Mecanismos Lite, armaduras"
 GERAL = M + ": itens de equipamento geral são uma Característica de 1 graduação (1 ponto)"
 
 
@@ -114,6 +115,13 @@ gravar("equipment.json", [
     arma("espada_prata", "Espada de prata", BR, 4, 115, "corpo", 3, ESP, critico=19, forca=True,
          notas="Fere monstros vulneráveis à prata",
          adaptado="espada; preço: espada longa (15 po) + prateamento (100 po), regra de armas prateadas do Livro do Jogador"),
+    # Lâminas da escola da Víbora, que troca as espadas do bruxo por um par de adagas longas.
+    arma("adaga_longa", "Adaga longa", BR, 3, 10, "corpo", 2, ADA, critico=19, forca=True,
+         notas="Comprida quase como uma espada curta, leve como uma adaga",
+         adaptado="faca com +1 de Dano; preço da espada curta"),
+    arma("adaga_longa_prata", "Adaga longa de prata", BR, 3, 110, "corpo", 2, ADA, critico=19, forca=True,
+         notas="Fere monstros vulneráveis à prata",
+         adaptado="faca com +1 de Dano; preço: espada curta (10 po) + prateamento (100 po)"),
     arma("machado_batalha", "Machado de batalha", BR, 3, 10, "corpo", 3, MAC, forca=True,
          adaptado="machado de batalha"),
     arma("machado_grande", "Machado grande", BR, 4, 30, "corpo", 4, MAC, forca=True, notas="Duas mãos",
@@ -149,25 +157,30 @@ gravar("equipment.json", [
     item("virotes", "Virotes (20)", "Munição", 1, "Para bestas.", custo=0),
     item("balas_de_funda", "Balas de funda (20)", "Munição", 0.04, "Para fundas.", custo=0),
     # Armaduras (Proteção) e escudos (defesas ativas)
-    item("acolchoada", "Armadura acolchoada", "Armadura", 5, "Proteção 1.", protecao=1, fonte_=fonte(M, "couro")),
-    item("couro", "Armadura de couro", "Armadura", 10, "Proteção 1.", protecao=1, fonte_=fonte(M, "couro")),
+    # Proteção pela escada do Manual dos Mecanismos Lite (armaduras arcaicas: couro 1, couro cravejado 2, cota de
+    # malha ou escamas 3, cota com peitoral 4, placas 5, armadura completa 6). Onde o manual não fala da peça, ela fica
+    # entre os vizinhos do D&D, sem que uma armadura mais cara do mesmo tipo proteja menos que outra mais barata.
+    item("acolchoada", "Armadura acolchoada", "Armadura", 5, "Proteção 1.", protecao=1,
+         fonte_=fonte(LITE, "tecido acolchoado, como o couro; as \"acolchoadas\" do manual são armaduras de samurai")),
+    item("couro", "Armadura de couro", "Armadura", 10, "Proteção 1.", protecao=1, fonte_=fonte(LITE, "couro")),
     item("couro_batido", "Couro batido", "Armadura", 45, "Proteção 2.", custo=2, protecao=2,
-         fonte_=fonte(M, "entre couro e cota de malha")),
+         fonte_=fonte(LITE, "couro cravejado")),
     item("gibao_peles", "Gibão de peles", "Armadura", 10, "Proteção 2.", custo=2, protecao=2,
-         fonte_=fonte(M, "entre couro e cota de malha")),
+         fonte_=fonte(LITE, "como o couro cravejado")),
     item("camisao_malha", "Camisão de malha", "Armadura", 30, "Proteção 2.", custo=2, protecao=2,
-         fonte_=fonte(M, "cota de malha sem mangas: –1 de Proteção")),
-    item("brunea", "Brunea", "Armadura", 50, "Proteção 3.", custo=3, protecao=3, fonte_=fonte(M, "cota de malha")),
-    item("peitoral", "Peitoral", "Armadura", 400, "Proteção 3, leve e fácil de vestir.", custo=3, protecao=3,
-         fonte_=fonte(M, "cota de malha")),
+         fonte_=fonte(LITE, "cota de malha sem mangas: –1 de Proteção")),
+    item("brunea", "Brunea", "Armadura", 50, "Proteção 3.", custo=3, protecao=3,
+         fonte_=fonte(LITE, "armadura de escamas")),
     item("cota_malha", "Cota de malha", "Armadura", 75, "Proteção 3.", custo=3, protecao=3,
-         fonte_=fonte(M, "cota de malha")),
-    item("meia_armadura", "Meia-armadura", "Armadura", 750, "Proteção 4.", custo=4, protecao=4,
-         fonte_=fonte(M, "entre cota de malha e placas")),
-    item("cota_talas", "Cota de talas", "Armadura", 200, "Proteção 5.", custo=5, protecao=5,
-         fonte_=fonte(M, "entre cota de malha e placas")),
+         fonte_=fonte(LITE, "cota de malha")),
+    item("peitoral", "Peitoral", "Armadura", 400, "Proteção 4.", custo=4, protecao=4,
+         fonte_=fonte(LITE, "peitoral completo de metal")),
+    item("cota_talas", "Cota de talas", "Armadura", 200, "Proteção 4.", custo=4, protecao=4,
+         fonte_=fonte(LITE, "talas de metal sobre couro e malha, como a cota com peitoral; acima da cota de malha")),
+    item("meia_armadura", "Meia-armadura", "Armadura", 750, "Proteção 5.", custo=5, protecao=5,
+         fonte_=fonte(LITE, "armadura de placas: placas afiveladas sobre a malha")),
     item("placas", "Armadura de placas", "Armadura", 1500, "Proteção 6.", custo=6, protecao=6,
-         fonte_=fonte(M, "placas")),
+         fonte_=fonte(LITE, "armadura completa articulada")),
     item("broquel", "Broquel", "Escudo", 5, "+1 em Esquiva e Aparar.", custo=2, defesas_ativas=1,
          fonte_=fonte(M, "escudo pequeno")),
     item("escudo", "Escudo", "Escudo", 10, "+2 em Esquiva e Aparar.", custo=4, defesas_ativas=2,
@@ -220,6 +233,18 @@ gravar("equipment.json", [
          "o kit sai com desconto da escola.", custo=0,
          fonte_=GERAL + "; pacote do gerador para o bruxo caçador de monstros",
          kit=["espada_prata", "espada_longa", "couro_batido", {"id": "elixires", "quantidade": 3},
+              {"id": "oleo_laminas", "quantidade": 2}, "kit_herbalismo", "bolsa_componentes"]),
+    item("kit_bruxo_vibora", "Kit de bruxo da Víbora", "Kits", 120,
+         "O kit do bruxo com um par de adagas longas (uma de prata, uma de aço) no lugar das espadas e um kit de "
+         "disfarce para chegar perto do alvo. Os itens avulsos somariam 380 po; o kit sai com desconto da escola.",
+         custo=0, fonte_=GERAL + "; pacote do gerador para o bruxo da escola da Víbora",
+         kit=["adaga_longa_prata", "adaga_longa", "couro_batido", {"id": "elixires", "quantidade": 3},
+              {"id": "oleo_laminas", "quantidade": 2}, "kit_herbalismo", "bolsa_componentes", "kit_disfarce"]),
+    item("kit_bruxo_urso", "Kit de bruxo do Urso", "Kits", 150,
+         "O kit do bruxo com cota de malha (+3) no lugar do couro batido. Os itens avulsos somariam 395 po; "
+         "o kit sai com desconto da escola.",
+         custo=0, fonte_=GERAL + "; pacote do gerador para o bruxo da escola do Urso",
+         kit=["espada_prata", "espada_longa", "cota_malha", {"id": "elixires", "quantidade": 3},
               {"id": "oleo_laminas", "quantidade": 2}, "kit_herbalismo", "bolsa_componentes"]),
     # Comida e bebida
     item("racoes", "Rações de viagem (5 dias)", "Comida", 2.5, "Carne seca, pão duro e frutas secas."),
@@ -504,7 +529,8 @@ gravar("powers.json", [
           tags=["controle", "area"]),
     magia("axii", "Axii", "sinais", "luminosos__strobo_hipinotico",
           "Sinal de influência: confunde a mente e acalma feras.", SINAIS, graduacao_np=-1,
-          estatistica="Aflição à Distância (Vontade; tonto, compelido, controlado), Sutil", pericia=SINAL,
+          estatistica="Aflição com Distância de Percepção (Resistido e Superado por Vontade; em Transe, Compelido), "
+                      "Grau Limitado, Depende de Visão", pericia=SINAL,
           tags=["controle", "social"]),
     magia("yrden", "Yrden", "sinais", "elementais__encaixotar",
           "Sinal de armadilha: um círculo mágico que prende criaturas e espectros.", SINAIS, graduacao_np=-2,
@@ -621,7 +647,7 @@ gravar("complications.json", {
 # ---------------------------------------------------------------- player.json: classes, subclasses e raças
 
 def foco(id_, nome, descricao, vantagens=(), prioridades=(), armas=(), itens=(), implantes=(), implantes_opcionais=(),
-         substitui=None, falhas=()):
+         substitui=None, falhas=(), variantes=(), rotulo_variante=None):
     dados = {"id": id_, "nome": nome, "descricao": descricao, "vantagens": list(vantagens),
              "prioridades": list(prioridades), "armas": list(armas), "itens": list(itens), "implantes": list(implantes)}
     if implantes_opcionais:
@@ -630,6 +656,23 @@ def foco(id_, nome, descricao, vantagens=(), prioridades=(), armas=(), itens=(),
         dados["substitui"] = substitui   # campos da classe que o foco troca inteiros
     if falhas:
         dados["falhas"] = list(falhas)
+    if variantes:
+        dados["rotulo_variante"] = rotulo_variante or "Variante"
+        dados["variantes"] = list(variantes)   # aplicadas por cima do foco (ex.: as escolas do bruxo)
+    return dados
+
+
+def variante(id_, nome, descricao, vantagens=(), prioridades=(), armas=(), itens=(), implantes=(), substitui=None,
+             complicacoes=()):
+    dados = {"id": id_, "nome": nome, "descricao": descricao}
+    for campo, valor in (("vantagens", vantagens), ("prioridades", prioridades), ("armas", armas), ("itens", itens),
+                         ("implantes", implantes)):
+        if valor:
+            dados[campo] = list(valor)
+    if substitui:
+        dados["substitui"] = substitui
+    if complicacoes:
+        dados["complicacoes"] = [{"nome": n, "detalhe": d} for n, d in complicacoes]
     return dados
 
 
@@ -647,6 +690,67 @@ def classe(id_, nome, conceito, essenciais, opcionais, prioridades, principais, 
 
 def p(*textos):
     return list(textos)
+
+
+PRIORIDADES_DO_BRUXO = p("habilidade:Lut", "pericia:Combate Corpo-a-Corpo: Espadas", "pericia:Especialidade: Bruxo",
+                         "habilidade:Vig", "habilidade:Agi", "defesa:Vontade", "defesa:Fortitude", "habilidade:For",
+                         "defesa:Aparar", "pericia:Percepção", "pericia:Combate à Distância: Sinais", "habilidade:Pro",
+                         "pericia:Furtividade", "pericia:Atletismo", "defesa:Esquiva", "pericia:Intimidação")
+
+# Escolas dos bruxos de The Witcher, escolhidas depois da subclasse Caçador de monstros. Lince e Garça quase não
+# aparecem nos jogos e livros: o estilo delas é uma leitura do gerador.
+ESCOLAS_DE_BRUXO = [
+    variante("lobo", "Escola do Lobo",
+             "Equilibrada: espada, Sinais e saber sobre monstros na mesma medida. É o bruxo clássico."),
+    variante("gato", "Escola do Gato",
+             "Rápidos e traiçoeiros: confiam na agilidade, na esquiva e em atacar das sombras.",
+             vantagens=["Finta Ágil"],
+             prioridades=p("habilidade:Agi", "pericia:Combate Corpo-a-Corpo: Espadas", "defesa:Esquiva",
+                           "pericia:Furtividade", "pericia:Acrobacia"),
+             complicacoes=[("Reputação", "Medalhão de gato: todos acham que é um assassino de aluguel sem código.")]),
+    variante("grifo", "Escola do Grifo",
+             "Estudiosos e cavalheirescos: os Sinais são mais fortes que os de qualquer outra escola.",
+             prioridades=p("pericia:Combate à Distância: Sinais", "pericia:Especialidade: Bruxo", "habilidade:Des",
+                           "defesa:Vontade"),
+             implantes=["yrden"],
+             complicacoes=[("Honra", "O código do Grifo: protege os fracos, cumpre a palavra e nunca abandona "
+                                     "um contrato.")]),
+    variante("vibora", "Escola da Víbora",
+             "Caçam pessoas, não monstros: investigam, se infiltram e matam com venenos e um par de adagas longas "
+             "no lugar das espadas. Muitos servem a reis como assassinos.",
+             vantagens=["Esconder-se à Plena Vista"],
+             prioridades=p("pericia:Combate Corpo-a-Corpo: Adagas", "pericia:Investigação", "pericia:Furtividade",
+                           "pericia:Intimidação", "pericia:Enganação"),
+             substitui={"prioridades": [x.replace("Espadas", "Adagas") for x in PRIORIDADES_DO_BRUXO],
+                        "armas": {"principais": ["kit_bruxo_vibora"], "secundarias": ["besta_mao", "dardos"]}},
+             complicacoes=[("Segredo", "Já matou um rei a mando de outro; se descobrirem, a cabeça dele vale ouro."),
+                           ("Responsabilidade", "Serve a um senhor que paga bem e não aceita recusas.")]),
+    variante("urso", "Escola do Urso",
+             "Brutos e solitários: armadura pesada, golpes fortes e resistência para aguentar o que mataria outro "
+             "bruxo.",
+             vantagens=["Ataque Poderoso", "Duro de Matar"],
+             prioridades=p("habilidade:For", "habilidade:Vig", "defesa:Fortitude"),
+             substitui={"armas": {"principais": ["kit_bruxo_urso"], "secundarias": ["machado_batalha", "adaga"]}},
+             complicacoes=[("Irritação", "Perde a cabeça fácil e resolve tudo no braço.")]),
+    variante("manticora", "Escola da Manticora",
+             "Alquimistas: vivem de elixires e óleos e conhecem as ervas melhor que qualquer herbalista.",
+             vantagens=["Inventor"],
+             prioridades=p("pericia:Especialidade: Bruxo", "habilidade:Int", "pericia:Tratamento"),
+             itens=["elixires", "pocao_cura"],
+             complicacoes=[("Vício", "Toma elixires demais, até quando não precisa.")]),
+    variante("lince", "Escola do Lince",
+             "Atiradores: preferem acertar o monstro de longe, com a besta e olhos de caçador, antes de puxar "
+             "a espada.",
+             vantagens=["Mira Aprimorada"],
+             prioridades=p("pericia:Combate à Distância: Bestas", "habilidade:Des", "pericia:Percepção"),
+             armas=["besta_leve"]),
+    variante("garca", "Escola da Garça",
+             "Do litoral e dos rios: nadam, escalam e lutam em barcos melhor que ninguém e caçam afogadores e "
+             "sereias como rotina. Gostam de lanças.",
+             vantagens=["Ambiente Favorito (aquático)"],
+             prioridades=p("pericia:Atletismo", "habilidade:Agi", "pericia:Acrobacia"),
+             armas=["lanca"]),
+]
 
 
 ARCANAS = ["misseis_magicos", "raio_gelido", "relampago", "bola_de_fogo", "sono", "teia", "enfeiticar_pessoa",
@@ -951,11 +1055,7 @@ EXTRAS = {
                  "vantagens_essenciais": ["Ritualista", "Artífice", "Rastrear", "Saque Rápido", "Destemido"],
                  "vantagens_opcionais": ["Ataque Poderoso", "Ataque Acurado", "Iniciativa Aprimorada",
                                          "Rolamento Defensivo", "Inimigo Favorito", "Esquiva Fabulosa"],
-                 "prioridades": p("habilidade:Lut", "pericia:Combate Corpo-a-Corpo: Espadas",
-                                  "pericia:Especialidade: Bruxo", "habilidade:Vig", "habilidade:Agi", "defesa:Vontade",
-                                  "defesa:Fortitude", "habilidade:For", "defesa:Aparar", "pericia:Percepção",
-                                  "pericia:Combate à Distância: Sinais", "habilidade:Pro", "pericia:Furtividade",
-                                  "pericia:Atletismo", "defesa:Esquiva", "pericia:Intimidação"),
+                 "prioridades": PRIORIDADES_DO_BRUXO,
                  # Sobra do orçamento sem Presença: o bruxo é frio e estranho (Presença –1 na ficha de referência).
                  "habilidades_de_reserva": ["Vig", "Agi", "For", "Pro", "Lut", "Des", "Int"],
                  # O kit traz as espadas, a armadura e os elixires; as armas soltas são extras.
@@ -976,7 +1076,8 @@ EXTRAS = {
                                                                          "veias pretas no rosto e ninguém quer conversa."},
                                    {"nome": "Relacionamento", "detalhe": "Uma criança de sangue nobre que ele jurou proteger."},
                                    {"nome": "Inimigo", "detalhe": "Caçadores de bruxas querem vê-lo na fogueira."}]},
-             }),
+             },
+             rotulo_variante="Escola", variantes=ESCOLAS_DE_BRUXO),
         foco("lamina", "Pacto da lâmina", "O patrono deu uma arma mágica que aparece na mão do bruxo.",
              ["Ataque Poderoso"], p("habilidade:Lut", "pericia:Combate Corpo-a-Corpo: Espadas"),
              implantes=["lamina_pacto"]),

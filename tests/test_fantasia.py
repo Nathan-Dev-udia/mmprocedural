@@ -192,16 +192,16 @@ def test_fichas_base_batem_com_o_livro(fantasia, arquetipo, faixa, total):
 
 def test_protecao_das_armaduras_reflete_as_equivalencias_do_catalogo(fantasia):
     protecoes = {
-        "acolchoada": 3,
+        "acolchoada": 1,
         "couro": 1,
         "couro_batido": 2,
         "gibao_peles": 2,
-        "camisao_malha": 3,
+        "camisao_malha": 2,
         "brunea": 3,
         "peitoral": 4,
         "cota_malha": 3,
         "meia_armadura": 5,
-        "cota_talas": 3,
+        "cota_talas": 4,
         "placas": 6,
     }
     for item_id, protecao in protecoes.items():
@@ -248,7 +248,7 @@ def test_tipos_listam_so_os_principais(fantasia):
 # ---------------------------------------------------------------- caçador de monstros (referencias/dd/The witcher.docx)
 
 def test_cacador_de_monstros_segue_a_ficha_de_referencia(fantasia):
-    pj = gerar_pj(fantasia, "bruxo", 7, "cacador_monstros")
+    pj = gerar_pj(fantasia, "bruxo", 7, "cacador_monstros", variante="lobo")
     poderes = pj["ficha"]["poderes"]
     papeis = poderes_mod_papeis(poderes)
     assert papeis["igni"] == "principal" and poderes["igni"]["graduacao"] == 7
@@ -269,7 +269,7 @@ def test_complicacao_fixa_sempre_sorteada(fantasia):
 
 
 def test_kit_de_bruxo_traz_os_itens_com_estatistica(fantasia):
-    pj = gerar_pj(fantasia, "bruxo", 5, "cacador_monstros")
+    pj = gerar_pj(fantasia, "bruxo", 5, "cacador_monstros", variante="lobo")
     equipamento = pj["ficha"]["equipamento"]
     assert {"kit_bruxo", "espada_prata", "espada_longa", "couro_batido"} <= set(equipamento)
     assert pj["ficha"]["quantidades"]["elixires"] == 3
@@ -281,13 +281,74 @@ def test_kit_de_bruxo_traz_os_itens_com_estatistica(fantasia):
 
 
 def test_ficha_explica_protecao_da_armadura_na_resistencia(fantasia):
-    pj = gerar_pj(fantasia, "bruxo", 5, "cacador_monstros")
+    pj = gerar_pj(fantasia, "bruxo", 5, "cacador_monstros", variante="lobo")
     exibicao = formatter.exibicao(pj)
     assert "Resistência" in exibicao["defesas"]
     assert "Proteção +2 de Couro batido" in exibicao["defesas"]
 
 
 def test_kit_escolhido_a_mao(fantasia):
-    pj = gerar_pj(fantasia, "bruxo", 5, "cacador_monstros", equipamento={"modo": "manual", "ids": ["kit_bruxo"]})
+    pj = gerar_pj(fantasia, "bruxo", 5, "cacador_monstros", variante="lobo",
+                  equipamento={"modo": "manual", "ids": ["kit_bruxo"]})
     assert pj["dinheiro"]["gasto"] == 120
     assert "espada_prata" in pj["ficha"]["equipamento"]
+
+
+# ---------------------------------------------------------------- escolas do caçador de monstros
+
+ESCOLAS = ["lobo", "gato", "grifo", "vibora", "urso", "manticora", "lince", "garca"]
+
+
+@pytest.mark.parametrize("np", [3, 5, 8])
+@pytest.mark.parametrize("escola", ESCOLAS)
+def test_todas_as_escolas_fecham_o_orcamento(fantasia, np, escola):
+    pj = gerar_pj(fantasia, "bruxo", np, "cacador_monstros", variante=escola)
+    assert pj["validacao"]["problemas"] == []
+    assert pj["validacao"]["total_pp"] == rules.orcamento_de_jogador(np)
+    assert pj["estilo"]["nome"].startswith("Caçador de monstros · Escola")
+
+
+def test_vibora_troca_as_espadas_por_adagas(fantasia):
+    pj = gerar_pj(fantasia, "bruxo", 6, "cacador_monstros", variante="vibora")
+    equipamento = set(pj["ficha"]["equipamento"])
+    assert {"kit_bruxo_vibora", "adaga_longa_prata", "adaga_longa"} <= equipamento
+    assert not equipamento & {"espada_prata", "espada_longa"}
+    assert "Combate Corpo-a-Corpo: Adagas" in pj["ficha"]["pericias"]
+    assert "Combate Corpo-a-Corpo: Espadas" not in pj["ficha"]["pericias"]
+    assert {"Investigação", "Furtividade"} <= set(pj["ficha"]["pericias"])
+
+
+def test_urso_usa_cota_de_malha_e_grifo_ganha_yrden(fantasia):
+    urso = gerar_pj(fantasia, "bruxo", 6, "cacador_monstros", variante="urso")
+    assert "cota_malha" in urso["ficha"]["equipamento"] and "Ataque Poderoso" in urso["ficha"]["vantagens"]
+    grifo = gerar_pj(fantasia, "bruxo", 6, "cacador_monstros", variante="grifo")
+    assert "yrden" in grifo["ficha"]["poderes"]
+
+
+def test_lince_treina_a_besta(fantasia):
+    pj = gerar_pj(fantasia, "bruxo", 6, "cacador_monstros", variante="lince")
+    assert "besta_leve" in pj["ficha"]["equipamento"]
+    assert "Combate à Distância: Bestas" in pj["ficha"]["pericias"]
+
+
+def test_escola_sorteada_quando_nao_escolhida(fantasia):
+    nomes = {gerar_pj(fantasia, "bruxo", 5, "cacador_monstros", semente=s)["estilo"]["nome"] for s in range(12)}
+    assert len(nomes) > 1 and all("Escola" in n for n in nomes)
+
+
+def test_escola_que_nao_existe(fantasia):
+    with pytest.raises(generator.GeneratorError):
+        gerar_pj(fantasia, "bruxo", 5, "cacador_monstros", variante="escola_do_pato")
+
+
+def test_complicacao_da_escola_entra_no_sorteio(fantasia):
+    for semente in range(10):
+        sorteadas = player.sortear_complicacoes(fantasia, "bruxo", random.Random(semente),
+                                                foco_id="cacador_monstros", variante_id="gato")
+        nomes = [c["nome"] for c in sorteadas]
+        assert "Preconceito" in nomes and "Reputação" in nomes
+
+
+def test_subclasses_sem_escola_continuam_iguais(fantasia):
+    pj = gerar_pj(fantasia, "bruxo", 5, "lamina", variante="lobo")   # variante ignorada sem escolas
+    assert pj["estilo"]["nome"] == "Pacto da lâmina"

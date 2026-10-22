@@ -183,20 +183,26 @@ def poder_do_genero(dados, implante_id, np):
 
 # ---------------------------------------------------------------- complicações
 
-def sortear_complicacoes(dados, arquetipo_id, rng, foco_id=None):
+def sortear_complicacoes(dados, arquetipo_id, rng, foco_id=None, variante_id=None):
     """Uma motivação e duas complicações coerentes com o arquétipo (às vezes uma surpresa da lista geral).
 
     Complicações sugeridas com "fixa" sempre entram (ex.: o bruxo caçador de monstros é um mutante odiado
-    pela aparência). Com foco_id, valem as sugestões que o foco põe no lugar das da classe.
+    pela aparência). Com foco_id, valem as sugestões que o foco (e a variante dele, se pedida) põe no lugar
+    das da classe.
     """
     arquetipo = _arquetipo(dados, arquetipo_id)
     foco = next((f for f in arquetipo["focos"] if f["id"] == foco_id), None)
     if foco:
+        if variante_id:
+            foco = escolher_variante(arquetipo, foco, variante_id, rng)
         arquetipo = arquetipo_com_foco(arquetipo, foco)
     sugestoes = arquetipo["sugestoes"]
     escolhidas = [{"categoria": "motivacao", "nome": rng.choice(sugestoes["motivacoes"]), "detalhe": ""}]
     fixas = [c for c in sugestoes["complicacoes"] if c.get("fixa")]
-    livres = [c for c in sugestoes["complicacoes"] if not c.get("fixa")]
+    # Uma complicação da variante (ex.: a fama de assassino da escola do Gato) entra antes das sorteadas.
+    da_variante = [c for c in sugestoes["complicacoes"] if c.get("da_variante")][:max(0, 2 - len(fixas))][:1]
+    livres = [c for c in sugestoes["complicacoes"] if not c.get("fixa") and c not in da_variante]
+    fixas = fixas + da_variante
     outras = fixas + rng.sample(livres, k=max(0, min(2 - len(fixas), len(livres))))
     if rng.random() < 0.3 and len(outras) > len(fixas):
         surpresa = rng.choice(dados["complicacoes"]["complicacoes"])
@@ -460,6 +466,46 @@ def arquetipo_com_foco(arquetipo, foco):
     return {**arquetipo, **foco.get("substitui", {})}
 
 
+# Listas do foco a que a variante acrescenta itens (os dela vêm antes).
+CAMPOS_DA_VARIANTE = ("vantagens", "prioridades", "armas", "itens", "implantes", "implantes_opcionais")
+
+
+def foco_com_variante(arquetipo, foco, variante):
+    """O foco com uma das variantes dele aplicada por cima.
+
+    Ex.: as escolas do bruxo caçador de monstros (Lobo, Gato, Víbora...). A variante põe as prioridades, as
+    vantagens e os itens dela na frente dos do foco, troca campos da classe com "substitui" (como o foco faz) e
+    pode trazer complicações sugeridas, que entram antes das outras.
+    """
+    resultado = {**foco, "nome": f"{foco['nome']} · {variante['nome']}",
+                 "descricao": f"{foco['descricao']} {variante['descricao']}",
+                 "variante": {"id": variante["id"], "nome": variante["nome"]}}
+    for campo in CAMPOS_DA_VARIANTE:
+        resultado[campo] = list(dict.fromkeys(variante.get(campo, []) + foco.get(campo, [])))
+    substitui = {**foco.get("substitui", {}), **variante.get("substitui", {})}
+    if variante.get("complicacoes"):
+        sugestoes = substitui.get("sugestoes", arquetipo["sugestoes"])
+        novas = {c["nome"] for c in variante["complicacoes"]}
+        substitui["sugestoes"] = {**sugestoes, "complicacoes": [{**c, "da_variante": True} for c in variante["complicacoes"]]
+                                  + [c for c in sugestoes["complicacoes"] if c["nome"] not in novas]}
+    resultado["substitui"] = substitui
+    resultado.pop("variantes", None)
+    return resultado
+
+
+def escolher_variante(arquetipo, foco, variante_id, rng):
+    """O foco com a variante pedida; sem pedido, uma sorteada. Focos sem variantes voltam como estão."""
+    variantes = foco.get("variantes", [])
+    if not variantes:
+        return foco
+    if not variante_id:
+        return foco_com_variante(arquetipo, foco, rng.choice(variantes))
+    variante = next((v for v in variantes if v["id"] == variante_id), None)
+    if variante is None:
+        raise GeneratorError(f"A opção '{variante_id}' não existe para {foco['nome']}.")
+    return foco_com_variante(arquetipo, foco, variante)
+
+
 def implantes_da_escolha(arquetipo, foco):
     """(essenciais, opcionais) de implantes/magias para o arquétipo com esse foco: os do arquétipo (ou os que o
     foco põe no lugar) mais os do foco."""
@@ -580,7 +626,7 @@ def _passos(dados, arquetipo, foco, vantagens_extras, so_vantagens_escolhidas, v
 
 def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
                      nome=None, jogador="", rng=None, equipamento=None, vantagens=None, implantes=None,
-                     raca=None):
+                     raca=None, variante=None):
     """Gera uma ficha de PJ.
 
     equipamento: {"modo": "auto"} (padrão) ou {"modo": "manual", "ids": [...], "excesso": "pontos" | "divida"}.
@@ -590,6 +636,7 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
     vantagens:   {"modo": "auto"} (padrão) ou {"modo": "manual", "nomes": [...]}.
     implantes:   {"modo": "auto"} (padrão) ou {"modo": "manual", "ids": [...]} (só em gêneros com powers.json).
     raca:        id da raça (só em gêneros com "racas" no player.json; sem pedido, vale a primeira).
+    variante:    id da variante do foco (ex.: a escola do bruxo); sem pedido, uma sorteada.
     """
     arquetipo = _arquetipo(dados, arquetipo_id)
     config = dados["configuracoes"]
@@ -599,6 +646,8 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
     foco = next((f for f in arquetipo["focos"] if f["id"] == foco_id), None)
     if foco is None:
         raise GeneratorError(f"O foco '{foco_id}' não existe para {arquetipo['nome']}.")
+    rng = rng or random.Random()
+    foco = escolher_variante(arquetipo, foco, variante, rng)
     arquetipo = arquetipo_com_foco(arquetipo, foco)
     riqueza = next((r for r in dados["jogador"]["riqueza"] if r["id"] == riqueza_id), None)
     if riqueza is None and em_pontos:
@@ -609,7 +658,6 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
     equipamento = equipamento or {"modo": "auto"}
     vantagens_pedidas = vantagens or {"modo": "auto"}
     implantes_pedidos = implantes or {"modo": "auto"}
-    rng = rng or random.Random()
     opcoes = opcoes_de_validacao(dados)
     rotulo = config.get("rotulo_poderes", "Poderes")
     tem_implantes = bool(implantes_do_jogador(dados))

@@ -133,6 +133,42 @@ def _conferir_passos(rotulo, passos, vantagens_validas, erros):
             erros.append(f"{rotulo}: prioridade com vantagem desconhecida '{nome}'.")
 
 
+def _conferir_foco(rotulo_foco, foco, vantagens_validas, equipamentos, poderes_do_genero, erros):
+    """Vantagens, prioridades, trocas da classe, falhas e itens de um foco (ou de uma variante dele)."""
+    for vantagem in foco.get("vantagens", []):
+        if rules.nome_base(vantagem) not in vantagens_validas:
+            erros.append(f"{rotulo_foco}: vantagem desconhecida '{vantagem}'.")
+    _conferir_passos(rotulo_foco, foco.get("prioridades", []), vantagens_validas, erros)
+    substitui = foco.get("substitui", {})
+    for campo in substitui:
+        if campo not in ("conceito", "vantagens_essenciais", "vantagens_opcionais", "prioridades", "armas",
+                         "itens", "implantes", "sugestoes", "habilidades_de_reserva"):
+            erros.append(f"{rotulo_foco}: 'substitui' não aceita o campo '{campo}'.")
+    for vantagem in substitui.get("vantagens_essenciais", []) + substitui.get("vantagens_opcionais", []):
+        if rules.nome_base(vantagem) not in vantagens_validas:
+            erros.append(f"{rotulo_foco}: vantagem desconhecida '{vantagem}'.")
+    _conferir_passos(rotulo_foco, substitui.get("prioridades", []), vantagens_validas, erros)
+    for habilidade in substitui.get("habilidades_de_reserva", []):
+        if habilidade not in rules.HABILIDADES:
+            erros.append(f"{rotulo_foco}: habilidade de reserva desconhecida '{habilidade}'.")
+    itens_trocados = (substitui.get("armas", {}).get("principais", []) + substitui.get("armas", {}).get("secundarias", [])
+                      + substitui.get("itens", {}).get("essenciais", []) + substitui.get("itens", {}).get("opcionais", []))
+    for item in itens_trocados:
+        if item not in equipamentos or not equipamentos[item].get("categoria"):
+            erros.append(f"{rotulo_foco}: item desconhecido ou sem categoria '{item}'.")
+    implantes_trocados = substitui.get("implantes", {})
+    for implante in implantes_trocados.get("essenciais", []) + implantes_trocados.get("opcionais", []):
+        if implante not in (poderes_do_genero or {}):
+            erros.append(f"{rotulo_foco}: implante/poder desconhecido '{implante}'.")
+    for falha in foco.get("falhas", []):
+        faltando = [c for c in ("id", "nome", "arranjo", "custo") if c not in falha]
+        if faltando or not isinstance(falha.get("custo"), int) or falha["custo"] >= 0:
+            erros.append(f"{rotulo_foco}: falha precisa de id, nome, arranjo e custo negativo ({falha}).")
+    for item in foco.get("armas", []) + foco.get("itens", []):
+        if item not in equipamentos or not equipamentos[item].get("categoria"):
+            erros.append(f"{rotulo_foco}: item desconhecido ou sem categoria '{item}'.")
+
+
 def _conferir_jogador(bruto, vantagens_validas, equipamentos, erros, poderes_do_genero=None):
     """Confere player.json e complications.json; devolve os arquétipos de jogador indexados."""
     jogador = bruto["player"]
@@ -166,8 +202,8 @@ def _conferir_jogador(bruto, vantagens_validas, equipamentos, erros, poderes_do_
                 erros.append(f"{rotulo}: complicação sugerida '{complicacao.get('nome')}' não existe em complications.json.")
         implantes = arq.get("implantes", {})
         for implante in (implantes.get("essenciais", []) + implantes.get("opcionais", [])
-                         + [i for foco in arq["focos"]
-                            for i in foco.get("implantes", []) + foco.get("implantes_opcionais", [])]):
+                         + [i for foco in arq["focos"] for opcao in [foco] + foco.get("variantes", [])
+                            for i in opcao.get("implantes", []) + opcao.get("implantes_opcionais", [])]):
             if implante not in (poderes_do_genero or {}):
                 erros.append(f"{rotulo}: implante/poder desconhecido '{implante}' (não está em powers.json).")
         if not arq["focos"]:
@@ -181,38 +217,21 @@ def _conferir_jogador(bruto, vantagens_validas, equipamentos, erros, poderes_do_
             if foco.get("id") in focos_vistos:
                 erros.append(f"{rotulo_foco}: id de foco repetido.")
             focos_vistos.add(foco.get("id"))
-            for vantagem in foco.get("vantagens", []):
-                if rules.nome_base(vantagem) not in vantagens_validas:
-                    erros.append(f"{rotulo_foco}: vantagem desconhecida '{vantagem}'.")
-            _conferir_passos(rotulo_foco, foco.get("prioridades", []), vantagens_validas, erros)
-            substitui = foco.get("substitui", {})
-            for campo in substitui:
-                if campo not in ("conceito", "vantagens_essenciais", "vantagens_opcionais", "prioridades", "armas",
-                                 "itens", "implantes", "sugestoes", "habilidades_de_reserva"):
-                    erros.append(f"{rotulo_foco}: 'substitui' não aceita o campo '{campo}'.")
-            for vantagem in substitui.get("vantagens_essenciais", []) + substitui.get("vantagens_opcionais", []):
-                if rules.nome_base(vantagem) not in vantagens_validas:
-                    erros.append(f"{rotulo_foco}: vantagem desconhecida '{vantagem}'.")
-            _conferir_passos(rotulo_foco, substitui.get("prioridades", []), vantagens_validas, erros)
-            for habilidade in substitui.get("habilidades_de_reserva", []):
-                if habilidade not in rules.HABILIDADES:
-                    erros.append(f"{rotulo_foco}: habilidade de reserva desconhecida '{habilidade}'.")
-            itens_trocados = (substitui.get("armas", {}).get("principais", []) + substitui.get("armas", {}).get("secundarias", [])
-                              + substitui.get("itens", {}).get("essenciais", []) + substitui.get("itens", {}).get("opcionais", []))
-            for item in itens_trocados:
-                if item not in equipamentos or not equipamentos[item].get("categoria"):
-                    erros.append(f"{rotulo_foco}: item desconhecido ou sem categoria '{item}'.")
-            implantes_trocados = substitui.get("implantes", {})
-            for implante in implantes_trocados.get("essenciais", []) + implantes_trocados.get("opcionais", []):
-                if implante not in (poderes_do_genero or {}):
-                    erros.append(f"{rotulo_foco}: implante/poder desconhecido '{implante}'.")
-            for falha in foco.get("falhas", []):
-                faltando = [c for c in ("id", "nome", "arranjo", "custo") if c not in falha]
-                if faltando or not isinstance(falha.get("custo"), int) or falha["custo"] >= 0:
-                    erros.append(f"{rotulo_foco}: falha precisa de id, nome, arranjo e custo negativo ({falha}).")
-            for item in foco.get("armas", []) + foco.get("itens", []):
-                if item not in equipamentos or not equipamentos[item].get("categoria"):
-                    erros.append(f"{rotulo_foco}: item desconhecido ou sem categoria '{item}'.")
+            _conferir_foco(rotulo_foco, foco, vantagens_validas, equipamentos, poderes_do_genero, erros)
+            variantes_vistas = set()
+            for variante in foco.get("variantes", []):
+                rotulo_variante = f"{rotulo_foco}, variante {variante.get('id')}"
+                for campo in ("id", "nome", "descricao"):
+                    if campo not in variante:
+                        erros.append(f"{rotulo_variante}: falta o campo '{campo}'.")
+                if variante.get("id") in variantes_vistas:
+                    erros.append(f"{rotulo_variante}: id de variante repetido.")
+                variantes_vistas.add(variante.get("id"))
+                _conferir_foco(rotulo_variante, variante, vantagens_validas, equipamentos, poderes_do_genero, erros)
+                for complicacao in variante.get("complicacoes", []):
+                    if complicacao.get("nome") not in nomes_de_complicacao:
+                        erros.append(f"{rotulo_variante}: complicação sugerida '{complicacao.get('nome')}' "
+                                     "não existe em complications.json.")
     racas = _indexar(jogador.get("racas", []), "player.json (racas)", ["id", "nome", "descricao"], erros)
     for raca in racas.values():
         rotulo = f"player.json (raça {raca['id']})"

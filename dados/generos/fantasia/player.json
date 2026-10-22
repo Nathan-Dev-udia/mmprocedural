@@ -1418,7 +1418,196 @@
                 }
               ]
             }
-          }
+          },
+          "rotulo_variante": "Escola",
+          "variantes": [
+            {
+              "id": "lobo",
+              "nome": "Escola do Lobo",
+              "descricao": "Equilibrada: espada, Sinais e saber sobre monstros na mesma medida. É o bruxo clássico."
+            },
+            {
+              "id": "gato",
+              "nome": "Escola do Gato",
+              "descricao": "Rápidos e traiçoeiros: confiam na agilidade, na esquiva e em atacar das sombras.",
+              "vantagens": [
+                "Finta Ágil"
+              ],
+              "prioridades": [
+                "habilidade:Agi",
+                "pericia:Combate Corpo-a-Corpo: Espadas",
+                "defesa:Esquiva",
+                "pericia:Furtividade",
+                "pericia:Acrobacia"
+              ],
+              "complicacoes": [
+                {
+                  "nome": "Reputação",
+                  "detalhe": "Medalhão de gato: todos acham que é um assassino de aluguel sem código."
+                }
+              ]
+            },
+            {
+              "id": "grifo",
+              "nome": "Escola do Grifo",
+              "descricao": "Estudiosos e cavalheirescos: os Sinais são mais fortes que os de qualquer outra escola.",
+              "prioridades": [
+                "pericia:Combate à Distância: Sinais",
+                "pericia:Especialidade: Bruxo",
+                "habilidade:Des",
+                "defesa:Vontade"
+              ],
+              "implantes": [
+                "yrden"
+              ],
+              "complicacoes": [
+                {
+                  "nome": "Honra",
+                  "detalhe": "O código do Grifo: protege os fracos, cumpre a palavra e nunca abandona um contrato."
+                }
+              ]
+            },
+            {
+              "id": "vibora",
+              "nome": "Escola da Víbora",
+              "descricao": "Caçam pessoas, não monstros: investigam, se infiltram e matam com venenos e um par de adagas longas no lugar das espadas. Muitos servem a reis como assassinos.",
+              "vantagens": [
+                "Esconder-se à Plena Vista"
+              ],
+              "prioridades": [
+                "pericia:Combate Corpo-a-Corpo: Adagas",
+                "pericia:Investigação",
+                "pericia:Furtividade",
+                "pericia:Intimidação",
+                "pericia:Enganação"
+              ],
+              "substitui": {
+                "prioridades": [
+                  "habilidade:Lut",
+                  "pericia:Combate Corpo-a-Corpo: Adagas",
+                  "pericia:Especialidade: Bruxo",
+                  "habilidade:Vig",
+                  "habilidade:Agi",
+                  "defesa:Vontade",
+                  "defesa:Fortitude",
+                  "habilidade:For",
+                  "defesa:Aparar",
+                  "pericia:Percepção",
+                  "pericia:Combate à Distância: Sinais",
+                  "habilidade:Pro",
+                  "pericia:Furtividade",
+                  "pericia:Atletismo",
+                  "defesa:Esquiva",
+                  "pericia:Intimidação"
+                ],
+                "armas": {
+                  "principais": [
+                    "kit_bruxo_vibora"
+                  ],
+                  "secundarias": [
+                    "besta_mao",
+                    "dardos"
+                  ]
+                }
+              },
+              "complicacoes": [
+                {
+                  "nome": "Segredo",
+                  "detalhe": "Já matou um rei a mando de outro; se descobrirem, a cabeça dele vale ouro."
+                },
+                {
+                  "nome": "Responsabilidade",
+                  "detalhe": "Serve a um senhor que paga bem e não aceita recusas."
+                }
+              ]
+            },
+            {
+              "id": "urso",
+              "nome": "Escola do Urso",
+              "descricao": "Brutos e solitários: armadura pesada, golpes fortes e resistência para aguentar o que mataria outro bruxo.",
+              "vantagens": [
+                "Ataque Poderoso",
+                "Duro de Matar"
+              ],
+              "prioridades": [
+                "habilidade:For",
+                "habilidade:Vig",
+                "defesa:Fortitude"
+              ],
+              "substitui": {
+                "armas": {
+                  "principais": [
+                    "kit_bruxo_urso"
+                  ],
+                  "secundarias": [
+                    "machado_batalha",
+                    "adaga"
+                  ]
+                }
+              },
+              "complicacoes": [
+                {
+                  "nome": "Irritação",
+                  "detalhe": "Perde a cabeça fácil e resolve tudo no braço."
+                }
+              ]
+            },
+            {
+              "id": "manticora",
+              "nome": "Escola da Manticora",
+              "descricao": "Alquimistas: vivem de elixires e óleos e conhecem as ervas melhor que qualquer herbalista.",
+              "vantagens": [
+                "Inventor"
+              ],
+              "prioridades": [
+                "pericia:Especialidade: Bruxo",
+                "habilidade:Int",
+                "pericia:Tratamento"
+              ],
+              "itens": [
+                "elixires",
+                "pocao_cura"
+              ],
+              "complicacoes": [
+                {
+                  "nome": "Vício",
+                  "detalhe": "Toma elixires demais, até quando não precisa."
+                }
+              ]
+            },
+            {
+              "id": "lince",
+              "nome": "Escola do Lince",
+              "descricao": "Atiradores: preferem acertar o monstro de longe, com a besta e olhos de caçador, antes de puxar a espada.",
+              "vantagens": [
+                "Mira Aprimorada"
+              ],
+              "prioridades": [
+                "pericia:Combate à Distância: Bestas",
+                "habilidade:Des",
+                "pericia:Percepção"
+              ],
+              "armas": [
+                "besta_leve"
+              ]
+            },
+            {
+              "id": "garca",
+              "nome": "Escola da Garça",
+              "descricao": "Do litoral e dos rios: nadam, escalam e lutam em barcos melhor que ninguém e caçam afogadores e sereias como rotina. Gostam de lanças.",
+              "vantagens": [
+                "Ambiente Favorito (aquático)"
+              ],
+              "prioridades": [
+                "pericia:Atletismo",
+                "habilidade:Agi",
+                "pericia:Acrobacia"
+              ],
+              "armas": [
+                "lanca"
+              ]
+            }
+          ]
         },
         {
           "id": "lamina",

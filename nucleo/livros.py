@@ -265,6 +265,18 @@ def _secao_arquetipos(dados):
             for falha in foco.get("falhas", []):
                 extras.append(f"falha: {falha['nome']} ({falha['custo']} PP no arranjo {falha['arranjo']})")
             linhas.append([foco["nome"], foco["descricao"], "; ".join(extras) or "—"])
+            # Variantes do foco (ex.: as escolas do bruxo), cada uma na linha logo abaixo.
+            for variante in foco.get("variantes", []):
+                extras = []
+                if variante.get("vantagens"):
+                    extras.append("vantagens: " + ", ".join(variante["vantagens"]))
+                if variante.get("implantes"):
+                    extras.append(rotulo_poderes.lower() + ": "
+                                  + _nomes(dados, variante["implantes"], "poderes_do_genero"))
+                armas = variante.get("substitui", {}).get("armas", {}).get("principais", [])
+                if variante.get("armas") or variante.get("itens") or armas:
+                    extras.append("itens: " + _nomes(dados, armas + variante.get("armas", []) + variante.get("itens", [])))
+                linhas.append([f"{foco['nome']}: {variante['nome']}", variante["descricao"], "; ".join(extras) or "—"])
         md.append(_tabela_md([rotulo_foco, "Descrição", "O que acrescenta"], linhas))
     return "\n".join(md)
 

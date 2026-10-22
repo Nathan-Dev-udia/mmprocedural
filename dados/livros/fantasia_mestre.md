@@ -879,14 +879,14 @@ No M&M, armadura e escudo fazem coisas diferentes:
 
 | Tipo de armadura | Itens do gerador (Proteção · preço) |
 |----|----|
-| **Leve** | Acolchoada (3 · 5 po), Couro (1 · 10 po), Couro batido (2 · 45 po) |
-| **Média** | Gibão de peles (2 · 10 po), Camisão de malha (3 · 30 po), Brunea (3 · 50 po), Peitoral (4 · 400 po) |
-| **Pesada** | Cota de malha (3 · 75 po), Meia-armadura (5 · 750 po), Cota de talas (3 · 200 po), Placas (6 · 1.500 po) |
+| **Leve** | Acolchoada (1 · 5 po), Couro (1 · 10 po), Couro batido (2 · 45 po) |
+| **Média** | Gibão de peles (2 · 10 po), Camisão de malha (2 · 30 po), Brunea (3 · 50 po), Peitoral (4 · 400 po) |
+| **Pesada** | Cota de malha (3 · 75 po), Cota de talas (4 · 200 po), Meia-armadura (5 · 750 po), Placas (6 · 1.500 po) |
 | **Escudos** | Broquel (+1 · 5 po), Escudo (+2 · 10 po), Escudo de torre (+3 · 30 po, preço estimado) |
 
 **Desvantagens de armadura [Casa].** O gerador não aplica penalidades automáticas de armadura; por padrão, ignore as desvantagens históricas. Se a mesa quiser representá-las, trate-as como complicações ou falhas situacionais acordadas com o mestre, não como uma penalidade fixa geral.
 
-Os preços são conversões econômicas do gênero e não determinam a Proteção. As graduações seguem as equivalências do Manual dos Mecanismos Lite adotadas para o catálogo: meia-armadura representa Proteção 5, e Armadura de placas, Proteção 6, para a versão completa articulada.
+Os preços são conversões econômicas do gênero e não determinam a Proteção. As graduações seguem a escada do Manual dos Mecanismos Lite: couro 1, couro cravejado (couro batido) 2, cota de malha ou escamas (brunea) 3, cota com peitoral de metal 4, placas afiveladas sobre a malha (meia-armadura) 5 e armadura completa articulada (Armadura de placas) 6. As peças que o manual não cita ficam entre as vizinhas, sem que uma armadura mais cara do mesmo tipo proteja menos que outra mais barata: a acolchoada é tecido e protege como o couro (as "acolchoadas" do manual são armaduras de samurai), o camisão de malha é uma cota sem mangas (–1) e a cota de talas fica acima da cota de malha.
 
 ### 9.8 Combate montado [Casa]
 

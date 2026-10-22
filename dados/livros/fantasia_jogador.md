@@ -545,6 +545,23 @@ No NP 5, o Igni (Dano 5 em cone) custa 10 PP; Quen, Aard e Axii somam 3 PP; o ar
 - **Presença baixa:** o gerador não gasta a sobra do orçamento em Presença. Caçadores não são famosos pelo charme.
 - **Complicação fixa:** todo caçador de monstros é um **mutante odiado e temido** (Preconceito): olhos de gato, pele pálida e o estigma dos bruxos fazem o povo, os guardas e os nobres desconfiarem dele. Essa complicação sempre entra na ficha, inclusive quando você sorteia as complicações.
 
+#### As escolas
+
+Depois da subclasse, você escolhe a **escola** onde o caçador foi treinado (ou deixa o gerador sortear). A escola muda o que vem primeiro na ficha, acrescenta uma ou duas vantagens e, em algumas, troca o equipamento. A escola também traz uma complicação sugerida, que entra antes das outras quando você sorteia.
+
+| Escola | Estilo | O que muda |
+|----|----|----|
+| **Lobo** | O bruxo clássico: espada, Sinais e saber na mesma medida. | Nada: é o caçador descrito acima. |
+| **Gato** | Rápido e traiçoeiro: agilidade, esquiva e ataques das sombras. | Finta Ágil; Agilidade, Esquiva, Furtividade e Acrobacia primeiro. Fama de assassino de aluguel (Reputação). |
+| **Grifo** | Estudioso e cavalheiresco, com os Sinais mais fortes. | Yrden vira essencial; Combate à Distância: Sinais e Especialidade: Bruxo primeiro. Código de honra (Honra). |
+| **Víbora** | Caça pessoas, não monstros: investiga, se infiltra e mata. | Esconder-se à Plena Vista; **Kit de bruxo da Víbora** (120 po), com um par de adagas longas (uma de prata) no lugar das espadas e um kit de disfarce; Investigação, Furtividade, Intimidação e Enganação primeiro. Um passado de assassino (Segredo). |
+| **Urso** | Bruto e solitário, de armadura pesada. | Ataque Poderoso e Duro de Matar; **Kit de bruxo do Urso** (150 po), com cota de malha (Proteção 3) no lugar do couro batido; Força, Vigor e Fortitude primeiro. Pavio curto (Irritação). |
+| **Manticora** | Alquimista: elixires, óleos e ervas. | Inventor; mais elixires e uma poção de cura; Especialidade: Bruxo, Intelecto e Tratamento primeiro. Toma elixires demais (Vício). |
+| **Lince** | Atirador, que prefere acertar o monstro de longe. | Mira Aprimorada; besta leve; Combate à Distância: Bestas, Destreza e Percepção primeiro. |
+| **Garça** | Do litoral e dos rios, à vontade na água. | Ambiente Favorito (aquático); lança; Atletismo, Agilidade e Acrobacia primeiro. |
+
+Lince e Garça quase não aparecem nos jogos e nos livros de *The Witcher*: o estilo delas é uma leitura deste livro.
+
 A ficha de referência que inspirou a subclasse é a de **Gaelen de Venger**, um caçador de NP 7: Igni de Dano 7, Especialidade: Bruxo +12, Vontade 8 e Resistência 7. Ela mostra até onde um caçador chega quando o NP sobe.
 
 > **Em D&D você teria** um guerreiro com alguns truques mágicos, ou um patrulheiro com inimigo favorito. **Aqui**, o caçador é tudo isso numa ficha só: luta bem, conhece o monstro antes de vê-lo e usa os Sinais para abrir a guarda. O preço é a falta de amigos.
@@ -938,16 +955,16 @@ Armaduras dão **Proteção**, que soma à Resistência. Elas não deixam você 
 
 | Armadura | Proteção | Preço |
 |----|----|----|
-| Acolchoada | 3 | 5 po |
+| Acolchoada | 1 | 5 po |
 | Couro | 1 | 10 po |
 | Gibão de peles | 2 | 10 po |
+| Camisão de malha | 2 | 30 po |
 | Couro batido | 2 | 45 po |
-| Camisão de malha | 3 | 30 po |
 | Brunea | 3 | 50 po |
 | Cota de malha | 3 | 75 po |
+| Cota de talas | 4 | 200 po |
 | Peitoral | 4 | 400 po |
 | Meia-armadura | 5 | 750 po |
-| Cota de talas | 3 | 200 po |
 | Armadura de placas | 6 | 1.500 po |
 
 Lembre: Proteções não se somam. Quem veste cota de malha não ganha nada com Armadura arcana 2 nem com Pele de casca; vale só a maior. O Rolamento Defensivo soma.

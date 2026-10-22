@@ -34,8 +34,8 @@ NOMES_DAS_PLANILHAS = {"armas": "Armas", "itens": "Itens"}
 
 # Versão mostrada no rodapé. Suba a cada entrega: 1.0 original, 1.1 passo a passo, 1.2 quantidades, 1.3 fantasia,
 # 1.4 distribuição dos pontos parecida com a dos arquétipos do livro, 1.5 subclasses e tipo de NPC, 1.6 goblinoides e caçador de monstros, 1.7 livros do faroeste e da fantasia,
-# 1.8 planilhas de armas e itens, magias na ficha e livros montados mais rápido.
-VERSAO = "1.8.0"
+# 1.8 planilhas de armas e itens, magias na ficha e livros montados mais rápido, 1.9 escolas do bruxo caçador de monstros.
+VERSAO = "1.9.0"
 
 
 def _commit_atual():
@@ -82,6 +82,14 @@ def _dados(genero_id=None):
     return DADOS_POR_GENERO[genero_id]
 
 
+def _foco_para_a_tela(arquetipo, foco):
+    return {"id": foco["id"], "nome": foco["nome"], "descricao": foco["descricao"],
+            "vantagens": foco.get("vantagens", []), "armas": foco.get("armas", []),
+            "itens": foco.get("itens", []), "implantes": foco.get("implantes", []),
+            "implantes_da_escolha": player.implantes_da_escolha(arquetipo, foco),
+            "substitui": foco.get("substitui", {}), "falhas": foco.get("falhas", [])}
+
+
 def opcoes_da_interface(DADOS):
     """O que a página precisa para montar os campos do formulário de um gênero."""
     config = DADOS["configuracoes"]
@@ -99,12 +107,12 @@ def opcoes_da_interface(DADOS):
         "pdf_disponivel": DADOS["ficha_pdf"] is not None,
         "jogador": {
             "arquetipos": [{"id": a["id"], "nome": a["nome"], "conceito": a["conceito"],
-                            "focos": [{"id": f["id"], "nome": f["nome"], "descricao": f["descricao"],
-                                       "vantagens": f.get("vantagens", []), "armas": f.get("armas", []),
-                                       "itens": f.get("itens", []), "implantes": f.get("implantes", []),
-                                       "implantes_da_escolha": player.implantes_da_escolha(a, f),
-                                       "substitui": f.get("substitui", {}),
-                                       "falhas": f.get("falhas", [])}
+                            "focos": [{**_foco_para_a_tela(a, f), "rotulo_variante": f.get("rotulo_variante", "Variante"),
+                                       # Variantes (ex.: as escolas do bruxo) já aplicadas sobre o foco.
+                                       "variantes": [{**_foco_para_a_tela(a, player.foco_com_variante(a, f, v)),
+                                                      "id": v["id"], "nome_curto": v["nome"],
+                                                      "descricao_curta": v["descricao"]}
+                                                     for v in f.get("variantes", [])]}
                                       for f in a["focos"]],
                             "sugestoes": a["sugestoes"],
                             "vantagens_essenciais": a["vantagens_essenciais"],
@@ -277,7 +285,8 @@ def gerar_jogador():
         DADOS, arquetipo, np, foco, riqueza, corpo.get("complicacoes", []),
         nome=str(corpo.get("nome", "")).strip() or None, jogador=str(corpo.get("jogador", "")).strip(),
         rng=_rng(corpo), equipamento=corpo.get("equipamento"), vantagens=corpo.get("vantagens"),
-        implantes=corpo.get("implantes"), raca=str(corpo.get("raca") or "") or None)
+        implantes=corpo.get("implantes"), raca=str(corpo.get("raca") or "") or None,
+        variante=str(corpo.get("variante") or "") or None)
     return jsonify({"personagem": _preparar(personagem)})
 
 
@@ -286,7 +295,8 @@ def sortear_complicacoes():
     corpo = request.get_json(silent=True) or {}
     DADOS = _dados(corpo.get("genero"))
     return jsonify({"complicacoes": player.sortear_complicacoes(DADOS, str(corpo.get("arquetipo", "")), _rng(corpo),
-                                                                foco_id=str(corpo.get("foco") or "") or None)})
+                                                                foco_id=str(corpo.get("foco") or "") or None,
+                                                                variante_id=str(corpo.get("variante") or "") or None)})
 
 
 def _nome_de_arquivo(texto):

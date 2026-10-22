@@ -398,7 +398,10 @@ function sugestoesDoArquetipo() {
 
 // --- escolha de vantagens e de armas/itens (modo "Escolher")
 
-const focoPj = () => arquetipoBase().focos.find((f) => f.id === el("pj-foco").value) || arquetipoBase().focos[0];
+const focoBasePj = () => arquetipoBase().focos.find((f) => f.id === el("pj-foco").value) || arquetipoBase().focos[0];
+// Com uma variante escolhida (ex.: a escola do bruxo), vale o foco com ela aplicada, que vem pronto do servidor.
+// Em "Sortear", as listas mostram o foco puro e o servidor sorteia a variante.
+const focoPj = () => focoBasePj().variantes.find((v) => v.id === el("pj-variante").value) || focoBasePj();
 const riquezaPj = () => pj().riqueza.find((r) => r.id === el("pj-riqueza").value) || pj().riqueza[0];
 // Gêneros como o cyberpunk pagam o equipamento com a vantagem Equipamento (5 pontos por graduação).
 const emPontos = () => pj().equipamento_modo === "pontos";
@@ -684,13 +687,23 @@ function prepararAbaJogador() {
   el("pj-raca").addEventListener("change", atualizarRaca);
 
   // O foco pode trocar o conceito e as sugestões de complicação da classe (ex.: o bruxo caçador de monstros).
-  const atualizarFoco = () => {
-    el("pj-foco-descricao").textContent = focoPj().descricao;
+  const atualizarVariante = () => {
+    const v = focoBasePj().variantes.find((x) => x.id === el("pj-variante").value);
+    el("pj-variante-descricao").textContent = v ? v.descricao_curta : "O gerador sorteia uma.";
     el("pj-conceito").textContent = arquetipoPj().conceito;
     desenharVantagens();
     desenharEquipamento();
     desenharImplantes();
     sugestoesDoArquetipo();
+  };
+  const atualizarFoco = () => {
+    const f = focoBasePj();
+    el("pj-variante-campo").hidden = f.variantes.length === 0;
+    el("pj-variante-rotulo").textContent = f.rotulo_variante;
+    el("pj-variante").innerHTML = '<option value="">Sortear</option>' +
+      opcoesDeSelect(f.variantes, (v) => v.nome_curto);
+    el("pj-foco-descricao").textContent = f.descricao;
+    atualizarVariante();
   };
   const atualizarArquetipo = () => {
     el("pj-foco").innerHTML = opcoesDeSelect(arquetipoBase().focos);
@@ -703,6 +716,7 @@ function prepararAbaJogador() {
   };
   el("pj-arquetipo").addEventListener("change", atualizarArquetipo);
   el("pj-foco").addEventListener("change", atualizarFoco);
+  el("pj-variante").addEventListener("change", atualizarVariante);
   el("pj-riqueza").addEventListener("change", atualizarRiqueza);
   // O NP muda o custo da raça e a graduação das magias que o acompanham.
   el("pj-np").addEventListener("change", () => {
@@ -739,7 +753,8 @@ function prepararAbaJogador() {
   el("pj-sortear").addEventListener("click", async () => {
     try {
       const dados = await chamar("/api/jogador/complicacoes", { arquetipo: el("pj-arquetipo").value,
-                                                                foco: el("pj-foco").value });
+                                                                foco: el("pj-foco").value,
+                                                                variante: el("pj-variante").value });
       preencherComplicacoes(dados.complicacoes);
     } catch (erro) {
       mostrarMensagem(erro.message, true);
@@ -768,6 +783,7 @@ function prepararAbaJogador() {
       raca: temRacas() ? el("pj-raca").value : "",
       np: Number(el("pj-np").value),
       foco: el("pj-foco").value,
+      variante: el("pj-variante").value,
       riqueza: el("pj-riqueza").value,
       complicacoes,
       vantagens: modo("pj-vantagens-modo") === "manual"
@@ -847,7 +863,8 @@ function desenharResumo() {
     ["identidade", "Nome", el("pj-nome").value.trim() || "sorteado pelo gerador"],
     ["identidade", "Jogador", el("pj-jogador").value.trim() || "—"],
     temRacas() && ["raca", "Raça", `${racaPj().nome} (${custoDaRaca()} PP)`],
-    ["arquetipo", pj().rotulo_arquetipo, `${arquetipoPj().nome} · ${pj().rotulo_foco.toLowerCase()} ${focoPj().nome}`],
+    ["arquetipo", pj().rotulo_arquetipo, `${arquetipoPj().nome} · ${pj().rotulo_foco.toLowerCase()} ${focoPj().nome}` +
+      (focoBasePj().variantes.length && !el("pj-variante").value ? ` · ${focoBasePj().rotulo_variante.toLowerCase()} sorteada` : "")],
     ["arquetipo", "Nível de poder", `NP ${np} (${np * 15} PP)`],
     !emPontos() && ["arquetipo", "Condição financeira", riquezaPj().nome],
     ["vantagens", "Vantagens", escolha("pj-vantagens-modo", "pj-vantagem", "escolhidas")],

@@ -208,6 +208,38 @@
     "fonte": "Livro básico de M&M, cap. 7 (espada; preço: espada longa (15 po) + prateamento (100 po), regra de armas prateadas do Livro do Jogador); preço do Livro do Jogador (D&D 5e), cap. 5"
   },
   {
+    "id": "adaga_longa",
+    "nome": "Adaga longa",
+    "categoria": "Arma branca",
+    "custo": 3,
+    "preco": 10,
+    "notas": "Comprida quase como uma espada curta, leve como uma adaga",
+    "ataque": {
+      "tipo": "corpo",
+      "efeito": 2,
+      "critico": 19,
+      "pericia": "Combate Corpo-a-Corpo: Adagas",
+      "soma_forca": true
+    },
+    "fonte": "Livro básico de M&M, cap. 7 (faca com +1 de Dano; preço da espada curta); preço do Livro do Jogador (D&D 5e), cap. 5"
+  },
+  {
+    "id": "adaga_longa_prata",
+    "nome": "Adaga longa de prata",
+    "categoria": "Arma branca",
+    "custo": 3,
+    "preco": 110,
+    "notas": "Fere monstros vulneráveis à prata",
+    "ataque": {
+      "tipo": "corpo",
+      "efeito": 2,
+      "critico": 19,
+      "pericia": "Combate Corpo-a-Corpo: Adagas",
+      "soma_forca": true
+    },
+    "fonte": "Livro básico de M&M, cap. 7 (faca com +1 de Dano; preço: espada curta (10 po) + prateamento (100 po)); preço do Livro do Jogador (D&D 5e), cap. 5"
+  },
+  {
     "id": "machado_batalha",
     "nome": "Machado de batalha",
     "categoria": "Arma branca",
@@ -494,11 +526,11 @@
     "id": "acolchoada",
     "nome": "Armadura acolchoada",
     "categoria": "Armadura",
-    "custo": 3,
+    "custo": 1,
     "preco": 5,
-    "descricao": "Prote??o 3.",
-    "fonte": "Prote??o conforme equival?ncia do Manual dos Mecanismos Lite; pre?o convertido para o g?nero fantasia.",
-    "protecao": 3
+    "descricao": "Proteção 1.",
+    "fonte": "Manual dos Mecanismos Lite, armaduras (tecido acolchoado, como o couro; as \"acolchoadas\" do manual são armaduras de samurai); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "protecao": 1
   },
   {
     "id": "couro",
@@ -506,8 +538,8 @@
     "categoria": "Armadura",
     "custo": 1,
     "preco": 10,
-    "descricao": "Prote??o 1.",
-    "fonte": "Prote??o conforme equival?ncia do Manual dos Mecanismos Lite; pre?o convertido para o g?nero fantasia.",
+    "descricao": "Proteção 1.",
+    "fonte": "Manual dos Mecanismos Lite, armaduras (couro); preço do Livro do Jogador (D&D 5e), cap. 5",
     "protecao": 1
   },
   {
@@ -516,8 +548,8 @@
     "categoria": "Armadura",
     "custo": 2,
     "preco": 45,
-    "descricao": "Prote??o 2.",
-    "fonte": "Prote??o conforme equival?ncia do Manual dos Mecanismos Lite; pre?o convertido para o g?nero fantasia.",
+    "descricao": "Proteção 2.",
+    "fonte": "Manual dos Mecanismos Lite, armaduras (couro cravejado); preço do Livro do Jogador (D&D 5e), cap. 5",
     "protecao": 2
   },
   {
@@ -526,19 +558,19 @@
     "categoria": "Armadura",
     "custo": 2,
     "preco": 10,
-    "descricao": "Prote??o 2.",
-    "fonte": "Prote??o conforme equival?ncia de g?nero; pre?o convertido para o g?nero fantasia.",
+    "descricao": "Proteção 2.",
+    "fonte": "Manual dos Mecanismos Lite, armaduras (como o couro cravejado); preço do Livro do Jogador (D&D 5e), cap. 5",
     "protecao": 2
   },
   {
     "id": "camisao_malha",
     "nome": "Camisão de malha",
     "categoria": "Armadura",
-    "custo": 3,
+    "custo": 2,
     "preco": 30,
-    "descricao": "Prote??o 3.",
-    "fonte": "Prote??o conforme equival?ncia do Manual dos Mecanismos Lite; pre?o convertido para o g?nero fantasia.",
-    "protecao": 3
+    "descricao": "Proteção 2.",
+    "fonte": "Manual dos Mecanismos Lite, armaduras (cota de malha sem mangas: –1 de Proteção); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "protecao": 2
   },
   {
     "id": "brunea",
@@ -546,8 +578,18 @@
     "categoria": "Armadura",
     "custo": 3,
     "preco": 50,
-    "descricao": "Prote??o 3.",
-    "fonte": "Prote??o conforme equival?ncia do Manual dos Mecanismos Lite; pre?o convertido para o g?nero fantasia.",
+    "descricao": "Proteção 3.",
+    "fonte": "Manual dos Mecanismos Lite, armaduras (armadura de escamas); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "protecao": 3
+  },
+  {
+    "id": "cota_malha",
+    "nome": "Cota de malha",
+    "categoria": "Armadura",
+    "custo": 3,
+    "preco": 75,
+    "descricao": "Proteção 3.",
+    "fonte": "Manual dos Mecanismos Lite, armaduras (cota de malha); preço do Livro do Jogador (D&D 5e), cap. 5",
     "protecao": 3
   },
   {
@@ -556,19 +598,19 @@
     "categoria": "Armadura",
     "custo": 4,
     "preco": 400,
-    "descricao": "Prote??o 4.",
-    "fonte": "Prote??o conforme equival?ncia do Manual dos Mecanismos Lite; pre?o convertido para o g?nero fantasia.",
+    "descricao": "Proteção 4.",
+    "fonte": "Manual dos Mecanismos Lite, armaduras (peitoral completo de metal); preço do Livro do Jogador (D&D 5e), cap. 5",
     "protecao": 4
   },
   {
-    "id": "cota_malha",
-    "nome": "Cota de malha",
+    "id": "cota_talas",
+    "nome": "Cota de talas",
     "categoria": "Armadura",
-    "custo": 3,
-    "preco": 75,
-    "descricao": "Prote??o 3.",
-    "fonte": "Prote??o conforme equival?ncia do Manual dos Mecanismos Lite; pre?o convertido para o g?nero fantasia.",
-    "protecao": 3
+    "custo": 4,
+    "preco": 200,
+    "descricao": "Proteção 4.",
+    "fonte": "Manual dos Mecanismos Lite, armaduras (talas de metal sobre couro e malha, como a cota com peitoral; acima da cota de malha); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "protecao": 4
   },
   {
     "id": "meia_armadura",
@@ -576,19 +618,9 @@
     "categoria": "Armadura",
     "custo": 5,
     "preco": 750,
-    "descricao": "Prote??o 5.",
-    "fonte": "Prote??o conforme equival?ncia do Manual dos Mecanismos Lite; pre?o convertido para o g?nero fantasia.",
+    "descricao": "Proteção 5.",
+    "fonte": "Manual dos Mecanismos Lite, armaduras (armadura de placas: placas afiveladas sobre a malha); preço do Livro do Jogador (D&D 5e), cap. 5",
     "protecao": 5
-  },
-  {
-    "id": "cota_talas",
-    "nome": "Cota de talas",
-    "categoria": "Armadura",
-    "custo": 3,
-    "preco": 200,
-    "descricao": "Prote??o 3.",
-    "fonte": "Prote??o conforme equival?ncia do Manual dos Mecanismos Lite; pre?o convertido para o g?nero fantasia.",
-    "protecao": 3
   },
   {
     "id": "placas",
@@ -596,8 +628,8 @@
     "categoria": "Armadura",
     "custo": 6,
     "preco": 1500,
-    "descricao": "Prote??o 6.",
-    "fonte": "Prote??o de armadura completa articulada conforme equival?ncia do Manual dos Mecanismos Lite; pre?o convertido para o g?nero fantasia.",
+    "descricao": "Proteção 6.",
+    "fonte": "Manual dos Mecanismos Lite, armaduras (armadura completa articulada); preço do Livro do Jogador (D&D 5e), cap. 5",
     "protecao": 6
   },
   {
@@ -903,6 +935,55 @@
       "espada_prata",
       "espada_longa",
       "couro_batido",
+      {
+        "id": "elixires",
+        "quantidade": 3
+      },
+      {
+        "id": "oleo_laminas",
+        "quantidade": 2
+      },
+      "kit_herbalismo",
+      "bolsa_componentes"
+    ]
+  },
+  {
+    "id": "kit_bruxo_vibora",
+    "nome": "Kit de bruxo da Víbora",
+    "categoria": "Kits",
+    "custo": 0,
+    "preco": 120,
+    "descricao": "O kit do bruxo com um par de adagas longas (uma de prata, uma de aço) no lugar das espadas e um kit de disfarce para chegar perto do alvo. Os itens avulsos somariam 380 po; o kit sai com desconto da escola.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); pacote do gerador para o bruxo da escola da Víbora",
+    "kit": [
+      "adaga_longa_prata",
+      "adaga_longa",
+      "couro_batido",
+      {
+        "id": "elixires",
+        "quantidade": 3
+      },
+      {
+        "id": "oleo_laminas",
+        "quantidade": 2
+      },
+      "kit_herbalismo",
+      "bolsa_componentes",
+      "kit_disfarce"
+    ]
+  },
+  {
+    "id": "kit_bruxo_urso",
+    "nome": "Kit de bruxo do Urso",
+    "categoria": "Kits",
+    "custo": 0,
+    "preco": 150,
+    "descricao": "O kit do bruxo com cota de malha (+3) no lugar do couro batido. Os itens avulsos somariam 395 po; o kit sai com desconto da escola.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); pacote do gerador para o bruxo da escola do Urso",
+    "kit": [
+      "espada_prata",
+      "espada_longa",
+      "cota_malha",
       {
         "id": "elixires",
         "quantidade": 3
