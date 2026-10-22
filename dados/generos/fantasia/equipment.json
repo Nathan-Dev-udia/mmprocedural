@@ -494,11 +494,11 @@
     "id": "acolchoada",
     "nome": "Armadura acolchoada",
     "categoria": "Armadura",
-    "custo": 1,
+    "custo": 3,
     "preco": 5,
-    "descricao": "Proteção 1.",
-    "fonte": "Livro básico de M&M, cap. 7 (couro); preço do Livro do Jogador (D&D 5e), cap. 5",
-    "protecao": 1
+    "descricao": "Prote??o 3.",
+    "fonte": "Prote??o conforme equival?ncia do Manual dos Mecanismos Lite; pre?o convertido para o g?nero fantasia.",
+    "protecao": 3
   },
   {
     "id": "couro",
@@ -506,8 +506,8 @@
     "categoria": "Armadura",
     "custo": 1,
     "preco": 10,
-    "descricao": "Proteção 1.",
-    "fonte": "Livro básico de M&M, cap. 7 (couro); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "descricao": "Prote??o 1.",
+    "fonte": "Prote??o conforme equival?ncia do Manual dos Mecanismos Lite; pre?o convertido para o g?nero fantasia.",
     "protecao": 1
   },
   {
@@ -516,8 +516,8 @@
     "categoria": "Armadura",
     "custo": 2,
     "preco": 45,
-    "descricao": "Proteção 2.",
-    "fonte": "Livro básico de M&M, cap. 7 (entre couro e cota de malha); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "descricao": "Prote??o 2.",
+    "fonte": "Prote??o conforme equival?ncia do Manual dos Mecanismos Lite; pre?o convertido para o g?nero fantasia.",
     "protecao": 2
   },
   {
@@ -526,19 +526,19 @@
     "categoria": "Armadura",
     "custo": 2,
     "preco": 10,
-    "descricao": "Proteção 2.",
-    "fonte": "Livro básico de M&M, cap. 7 (entre couro e cota de malha); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "descricao": "Prote??o 2.",
+    "fonte": "Prote??o conforme equival?ncia de g?nero; pre?o convertido para o g?nero fantasia.",
     "protecao": 2
   },
   {
     "id": "camisao_malha",
     "nome": "Camisão de malha",
     "categoria": "Armadura",
-    "custo": 2,
+    "custo": 3,
     "preco": 30,
-    "descricao": "Proteção 2.",
-    "fonte": "Livro básico de M&M, cap. 7 (cota de malha sem mangas: –1 de Proteção); preço do Livro do Jogador (D&D 5e), cap. 5",
-    "protecao": 2
+    "descricao": "Prote??o 3.",
+    "fonte": "Prote??o conforme equival?ncia do Manual dos Mecanismos Lite; pre?o convertido para o g?nero fantasia.",
+    "protecao": 3
   },
   {
     "id": "brunea",
@@ -546,19 +546,19 @@
     "categoria": "Armadura",
     "custo": 3,
     "preco": 50,
-    "descricao": "Proteção 3.",
-    "fonte": "Livro básico de M&M, cap. 7 (cota de malha); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "descricao": "Prote??o 3.",
+    "fonte": "Prote??o conforme equival?ncia do Manual dos Mecanismos Lite; pre?o convertido para o g?nero fantasia.",
     "protecao": 3
   },
   {
     "id": "peitoral",
     "nome": "Peitoral",
     "categoria": "Armadura",
-    "custo": 3,
+    "custo": 4,
     "preco": 400,
-    "descricao": "Proteção 3, leve e fácil de vestir.",
-    "fonte": "Livro básico de M&M, cap. 7 (cota de malha); preço do Livro do Jogador (D&D 5e), cap. 5",
-    "protecao": 3
+    "descricao": "Prote??o 4.",
+    "fonte": "Prote??o conforme equival?ncia do Manual dos Mecanismos Lite; pre?o convertido para o g?nero fantasia.",
+    "protecao": 4
   },
   {
     "id": "cota_malha",
@@ -566,29 +566,29 @@
     "categoria": "Armadura",
     "custo": 3,
     "preco": 75,
-    "descricao": "Proteção 3.",
-    "fonte": "Livro básico de M&M, cap. 7 (cota de malha); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "descricao": "Prote??o 3.",
+    "fonte": "Prote??o conforme equival?ncia do Manual dos Mecanismos Lite; pre?o convertido para o g?nero fantasia.",
     "protecao": 3
   },
   {
     "id": "meia_armadura",
     "nome": "Meia-armadura",
     "categoria": "Armadura",
-    "custo": 4,
+    "custo": 5,
     "preco": 750,
-    "descricao": "Proteção 4.",
-    "fonte": "Livro básico de M&M, cap. 7 (entre cota de malha e placas); preço do Livro do Jogador (D&D 5e), cap. 5",
-    "protecao": 4
+    "descricao": "Prote??o 5.",
+    "fonte": "Prote??o conforme equival?ncia do Manual dos Mecanismos Lite; pre?o convertido para o g?nero fantasia.",
+    "protecao": 5
   },
   {
     "id": "cota_talas",
     "nome": "Cota de talas",
     "categoria": "Armadura",
-    "custo": 5,
+    "custo": 3,
     "preco": 200,
-    "descricao": "Proteção 5.",
-    "fonte": "Livro básico de M&M, cap. 7 (entre cota de malha e placas); preço do Livro do Jogador (D&D 5e), cap. 5",
-    "protecao": 5
+    "descricao": "Prote??o 3.",
+    "fonte": "Prote??o conforme equival?ncia do Manual dos Mecanismos Lite; pre?o convertido para o g?nero fantasia.",
+    "protecao": 3
   },
   {
     "id": "placas",
@@ -596,8 +596,8 @@
     "categoria": "Armadura",
     "custo": 6,
     "preco": 1500,
-    "descricao": "Proteção 6.",
-    "fonte": "Livro básico de M&M, cap. 7 (placas); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "descricao": "Prote??o 6.",
+    "fonte": "Prote??o de armadura completa articulada conforme equival?ncia do Manual dos Mecanismos Lite; pre?o convertido para o g?nero fantasia.",
     "protecao": 6
   },
   {

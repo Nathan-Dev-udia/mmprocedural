@@ -103,7 +103,7 @@ O jogo converte graduações em medidas reais. A tabela dobra a cada graduação
 | 14 | 500 t | 1 dia | 120 km |
 
 - **Quanto você ergue:** veja a coluna de massa na sua graduação de Força. Força 2 ergue 120 kg; um Braço cibernético (+2 Força) leva isso a 500 kg.
-- **Quanto tempo leva um trajeto:** graduação de tempo = graduação de distância – graduação de velocidade. Atravessar 15 km da cidade (distância 11) de moto (velocidade 5) leva cerca de 8 minutos (tempo 6), se o trânsito deixar.
+- **Quanto tempo leva um trajeto:** graduação de tempo = graduação de distância – graduação de velocidade. Atravessar 15 km da cidade (distância 11) na moto do clã do gerador (velocidade 6) leva cerca de 4 minutos (tempo 5), se o trânsito deixar.
 
 ---
 
@@ -404,7 +404,7 @@ Baixar uma habilidade abaixo de 0 devolve 2 PP por graduação (mínimo –5).
 Nenhum valor da ficha pode passar destes limites:
 
 - **Perícia:** habilidade + perícia + vantagens ≤ NP + 10.
-- **Ataque + efeito:** bônus de ataque + Dano (ou outro efeito) da arma ou do implante ≤ 2 × NP.
+- **Ataque + efeito:** bônus de ataque + Dano (ou outro efeito) da arma ou do implante ≤ 2 × NP. **Exceção:** ataques em área e efeitos de percepção são limitados a NP, sem somar bônus de ataque.
 - **Esquiva + Resistência** ≤ 2 × NP.
 - **Aparar + Resistência** ≤ 2 × NP.
 - **Fortitude + Vontade** ≤ 2 × NP.
@@ -546,7 +546,7 @@ Algumas que combinam com o gênero:
 | **Perda de Poder** | Seus implantes falham com pulso eletromagnético ou sem manutenção. |
 | **Preconceito** | Quem não tem implantes desconfia de ciborgues como você. |
 
-A lista completa de motivações e complicações, com exemplos, está no **Apêndice**. Converse com o mestre para dar um detalhe concreto a cada uma: "Inimigo" sozinho não diz nada; "a Arasaka quer o braço que eu roubei" diz tudo.
+A lista completa de motivações e complicações, com exemplos, está no apêndice de catálogo acrescentado automaticamente ao DOCX. Use complicações cadastradas e combine com o mestre um detalhe concreto para cada uma.
 
 ---
 
@@ -711,7 +711,7 @@ Se o que você quer comprar (itens mais implantes) custa mais do que tem, há do
 
 ### 12.1 Armas à distância
 
-Alguns exemplos (a lista completa, com todas as armas, está no **Apêndice**):
+Alguns exemplos (a lista de armas está no apêndice de catálogo acrescentado automaticamente ao DOCX):
 
 | Arma | Efeito | Crítico | Alcance curto / médio / longo | Preço |
 |----|----|----|----|----|
@@ -771,15 +771,15 @@ Alguns itens que aparecem em quase todo kit. Em geral, um item de equipamento d�
 | **Bolsa Medtech** | Ferramentas para Tratamento sem a penalidade de –5. | 100eb |
 | **Bolsa Tech** | Ferramentas para consertar e fabricar sem a penalidade. | 500eb |
 | **Techtool** (multiferramenta) | Ferramenta improvisada: –2 em vez de –5. | 100eb |
-| **Máscara de gás** | Protege contra gases e smog. | 20eb |
-| **Rádio comunicador** | Fala com o grupo a distância. | 100eb |
-| **Algemas** | Para quem você quer vivo. | 50eb |
+| **Máscara de gás** | Imunidade a gases irritantes por 12 horas. | 20eb |
+| **Rádio comunicador** | Rádio do tamanho de um botão, cerca de 1 km. | 100eb |
+| **Algemas** | Resistência 9; escapar exige Prestidigitação CD 20. | 50eb |
 
-A lista completa, com todos os itens e preços, está no **Apêndice**.
+A lista completa, com todos os itens e preços, está no apêndice de catálogo acrescentado automaticamente ao DOCX.
 
 ### 12.5 Veículos
 
-Veículos são caros: uma moto custa cerca de 20.000eb e um carro, 30.000eb. Na criação, só as condições financeiras mais altas pagam um. Os outros caminhos são a vantagem **Equipamento** (uma moto custa 10 pontos de equipamento, ou seja, Equipamento 2), um veículo emprestado ou um veículo conseguido na história. O **Nômade** já começa com a **moto do clã**, emprestada pela família, por 0eb (e o clã pode querer a moto de volta).
+No gerador cyberpunk, equipamento de PJ é pago em dinheiro e só a moto do clã emprestada está cadastrada. Comprar um veículo ou pagá-lo com a vantagem Equipamento precisa ser combinado fora do gerador, a menos que o catálogo seja ampliado. O **Nômade** já começa com a **moto do clã**, emprestada pela família, por 0eb (e o clã pode querer a moto de volta).
 
 ---
 
@@ -804,7 +804,7 @@ Alguns exemplos:
 | **Alerta de combate** | Sentido de perigo: avisa de ameaças antes de você notar | 1 | 500eb |
 | **Braço-canhão** | Dano 5 à distância, saindo do antebraço | 10 | 1.000eb |
 
-Todos os implantes, com efeito, PP e preço, estão no **Apêndice**.
+Todos os implantes, com efeito, PP e preço, estão no apêndice de catálogo acrescentado automaticamente ao DOCX.
 
 ### 13.2 Por que pagar PP se um fuzil custa só dinheiro?
 
@@ -914,7 +914,7 @@ Os dez Papéis são modelos para começar rápido. Cada um tem habilidades-chave
 - **Fixer:** consegue o trabalho, a mercadoria e o contato certo.
 - **Nômade:** o melhor motorista, o melhor batedor e uma família inteira na retaguarda.
 
-As vantagens, os itens e os implantes de cada Papel e de cada foco estão no **Apêndice**.
+O apêndice de catálogo acrescentado automaticamente ao DOCX reúne itens e implantes; as vantagens de cada Papel e foco são descritas nesta seção.
 
 ---
 
@@ -928,14 +928,14 @@ O site do projeto tem um montador de fichas **passo a passo** que aplica todas a
 2. **Nome:** escreva o nome do personagem (e o seu, se quiser). Em branco, o gerador sorteia um.
 3. **Arquétipo:** escolha o **Papel**, o **foco**, o **nível de poder** (de 2 a 10; o padrão é 6) e a **condição financeira**. A ficha gasta exatamente 15 PP por NP (+1 no Hotel-cápsula).
 4. **Vantagens:** *Sortear de acordo com o arquétipo* (as essenciais do Papel e do foco, mais algumas opcionais) ou *Escolher* (você marca; as do Papel já vêm marcadas, e um contador mostra quantos PP sobram).
-5. **Implantes:** *Sortear* (os essenciais do Papel e do foco, mais alguns opcionais, sem passar de cerca de um terço dos pontos nem do dinheiro que sobrar) ou *Escolher* (cada implante mostra o custo em PP e em eurobucks; o preço entra no contador de dinheiro).
-6. **Armas e itens:** *Sortear* (uma arma principal, talvez uma secundária, a munição certa, os itens essenciais do Papel e alguns opcionais) ou *Escolher* (você marca o que quer, com as sugestões do Papel no topo; munição tem campo de quantidade). Se passar do dinheiro, o contador fica amarelo e oferece as duas saídas da seção 11.3: **pagar com pontos** ou **ficar devendo**.
+5. **Implantes:** *Sortear* tenta instalar os essenciais do Papel e do foco e até dois opcionais, sujeito aos limites de PP e ao dinheiro restante; algum implante pode ficar de fora. O teto automático é 35% do orçamento de PP, com mínimo de 4 PP. *Escolher* permite selecionar implantes e ver seus custos em PP e eurobucks.
+6. **Armas e itens:** *Sortear* tenta comprar uma arma principal, talvez uma secundária, a munição e itens do Papel conforme a prioridade e o dinheiro disponível; o que não couber é omitido, sem criar dívida. *Escolher* permite selecionar itens e quantidades. Se a compra manual exceder o dinheiro, escolha pagar com uma condição financeira mais alta ou registrar dívida.
 7. **Complicações:** escolha a Motivação e pelo menos mais uma complicação, com um detalhe se quiser. O botão *Sortear complicações* sugere algumas que combinam com o Papel.
 8. **Ficha:** confira o resumo, clique em **Gerar ficha** e, se não gostar, em **Gerar outra versão**.
 
 ### 16.2 Como o gerador distribui o resto
 
-Depois das suas escolhas, o gerador sobe a ficha um ponto por vez, seguindo as prioridades do Papel e do foco (as perícias do foco, as perícias das armas que você carrega, as habilidades-chave), até gastar o orçamento exato. Ele nunca passa de um limite do NP. Arma ou implante que estouraria um limite fica de fora, e a ficha anota o motivo ("Ficou de fora").
+Depois das suas escolhas, o gerador sobe a ficha um ponto por vez, seguindo as prioridades do Papel e do foco, até gastar o orçamento exato. Ele respeita os limites de NP e limita Iniciativa Aprimorada a, no máximo, `max(1, NP ÷ 3, arredondado para baixo)` graduações como regra de distribuição automática. Arma ou implante que estouraria um limite fica de fora, e a ficha anota o motivo ("Ficou de fora").
 
 ### 16.3 Lendo a ficha gerada
 

@@ -310,7 +310,7 @@
             "Equipamento": 6
           },
           "equipamento": [
-            "meia_armadura",
+            "cota_malha",
             "besta_leve",
             "espada_longa",
             "lanca"
@@ -353,7 +353,7 @@
             "Equipamento": 6
           },
           "equipamento": [
-            "meia_armadura",
+            "cota_malha",
             "besta_leve",
             "espada_longa",
             "lanca"
@@ -397,7 +397,7 @@
             "Iniciativa Aprimorada": 1
           },
           "equipamento": [
-            "meia_armadura",
+            "cota_malha",
             "besta_leve",
             "espada_longa",
             "lanca"
@@ -441,7 +441,7 @@
             "Iniciativa Aprimorada": 1
           },
           "equipamento": [
-            "meia_armadura",
+            "cota_malha",
             "besta_leve",
             "espada_longa",
             "lanca"
@@ -2093,7 +2093,7 @@
             "Equipamento": 6
           },
           "equipamento": [
-            "meia_armadura",
+            "cota_malha",
             "arco_longo",
             "espada_longa",
             "lanca",
@@ -2142,7 +2142,7 @@
             "Equipamento": 6
           },
           "equipamento": [
-            "meia_armadura",
+            "cota_malha",
             "arco_longo",
             "espada_longa",
             "lanca",
@@ -2192,7 +2192,7 @@
             "Iniciativa Aprimorada": 1
           },
           "equipamento": [
-            "meia_armadura",
+            "cota_malha",
             "arco_longo",
             "espada_longa",
             "lanca",
@@ -2242,7 +2242,7 @@
             "Iniciativa Aprimorada": 1
           },
           "equipamento": [
-            "meia_armadura",
+            "cota_malha",
             "arco_longo",
             "espada_longa",
             "lanca",

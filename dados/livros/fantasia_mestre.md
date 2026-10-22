@@ -381,7 +381,7 @@ Na fantasia, as complicações são o lugar natural para muita coisa que no D&D 
 - **Honra:** o código do cavaleiro ou do caçador de monstros.
 - **Segredo:** o pacto com um demônio; o sangue infernal escondido.
 - **Inimigo** e **Rivalidade:** o necromante que jurou vingança; o colega de academia.
-- **Preconceito:** o meio-orc na cidade dos homens; o caçador de monstros mutante (complicação fixa no gerador).
+- **Preconceito:** o meio-orc na cidade dos homens; o caçador de monstros mutante (complicação fixa no fluxo de sorteio do site).
 
 Uma complicação marcada como **fixa** no gerador entra sempre na ficha, inclusive no botão Sortear. A lista completa de motivações e complicações com exemplos de fantasia está no Apêndice.
 
@@ -448,7 +448,7 @@ Há focos que não existem no Livro do Jogador e foram criados para o gerador (G
 
 1. **Subclasse que troca a classe** (`substitui`): o foco pode trocar campos inteiros da classe: conceito, vantagens essenciais e opcionais, prioridades, armas, itens, magias, sugestões de complicações e até as habilidades que recebem a sobra do orçamento. O **Caçador de monstros** usa isso: é um "bruxo" que nunca fez pacto (capítulo 8).
 2. **Falhas de subclasse** (`falhas`): o foco pode baratear um arranjo inteiro com uma falha do livro básico. O **Mago rúnico** só conjura desenhando runas: Ativação (ação padrão), –2 PP no arranjo *Magia arcana* (seção 7.7).
-3. **Complicação fixa** (`"fixa": true`): uma complicação que sempre entra. O caçador de monstros é sempre um mutante odiado e temido (Preconceito).
+3. **Complicação fixa** (`"fixa": true`): uma complicação que entra automaticamente no fluxo de sorteio de complicações do site. Na geração direta pela API, o Caçador de monstros só recebe Preconceito se essa complicação vier na lista enviada.
 
 ### 5.4 Ajustando classes na mesa
 
@@ -523,7 +523,7 @@ O livro básico (cap. 6, modificador **Efeito Alternativo**) permite agrupar efe
 
 No gerador, as magias de cada tradição formam um arranjo com o nome da tradição: *Magia arcana*, *Magia divina*, *Magia da natureza*, *Magia de pacto*, *Magia bárdica* e *Sinais*. A ficha mostra "Arranjo Magia arcana: efeito principal" e "efeito alternativo (1 PP)".
 
-**Exemplo:** um mago elfo de Evocação, no NP 5, sai do gerador com Bola de fogo 4 (12 PP, efeito principal), Raio de fogo 5 (1 PP), Relâmpago 5 (1 PP) e Armadura arcana 2 (2 PP, fora do arranjo): 16 PP em magia. Os traços raciais do elfo somam mais 5 PP de poderes, e a ficha mostra 21 PP em "Magias e dons".
+**Exemplo:** um mago elfo de Evocação, no NP 5, sai do gerador com Bola de fogo 4 (14 PP, efeito principal), Raio de fogo 5 (1 PP), Relâmpago 5 (1 PP) e Armadura arcana 2 (2 PP, fora do arranjo): 18 PP em magia. Os traços raciais do elfo somam mais 5 PP de poderes, e a ficha mostra 23 PP em "Magias e dons".
 
 **Defesas ficam fora do arranjo.** *Armadura arcana*, *Escudo da fé*, *Pele de casca*, *Escamas dracônicas*, *Pele de pedra* e *Aura de coragem* não estão em arranjo nenhum, de propósito: elas continuam valendo enquanto o personagem conjura outras magias. Pagam o custo cheio por isso. A exceção é o **Quen** do caçador de monstros, que está no arranjo dos Sinais (seção 8.3).
 
@@ -644,10 +644,10 @@ A tabela mostra como as magias mais conhecidas do Livro do Jogador ficaram no ge
 | Raio de gelo | Raio gélido | Dano à Distância (frio) | NP | Dano 5 · 10 PP |
 | Mísseis mágicos | Mísseis mágicos | Dano à Distância, Multiataque (força) | NP – 2 | Dano 3 · 9 PP |
 | Relâmpago | Relâmpago | Dano à Distância (elétrico), num alvo | NP | Dano 5 · 10 PP |
-| Bola de fogo | Bola de fogo | Dano à Distância, Área Explosão (fogo) | NP – 1 | Dano 4 · 12 PP |
+| Bola de fogo | Bola de fogo | Dano à Distância, Área Explosão (fogo) | NP – 1 | Dano 4 · 14 PP |
 | Sono | Sono | Aflição Cumulativa, Área Nuvem (Vontade; tonto, atordoado, adormecido) | NP – 1 | 4 · 12 PP |
 | Teia | Teia | Aflição Cumulativa à Distância (Esquiva; impedido e vulnerável, indefeso e imóvel) | NP – 1 | 4 · 12 PP |
-| Enfeitiçar pessoa | Enfeitiçar pessoa | Aflição Cumulativa à Percepção (Vontade; tonto, compelido, controlado) | NP – 1 | 4 · 16 PP |
+| Enfeitiçar pessoa | Enfeitiçar pessoa | Aflição Cumulativa à Percepção (Vontade; tonto, compelido, controlado) | NP – 1 | 4 · 17 PP |
 | Imagem silenciosa | Imagem silenciosa | Ilusão (visual) | 4 | 8 PP |
 | Passo nebuloso | Passo nebuloso | Teleporte | 2 | 4 PP |
 | Mãos mágicas | Mãos mágicas | Mover Objetos | 2 | 4 PP |
@@ -658,7 +658,7 @@ A tabela mostra como as magias mais conhecidas do Livro do Jogador ficaram no ge
 | Palavra curativa | Palavra de cura | Cura | NP – 1 | 4 · 8 PP |
 | Chama sagrada | Chama sagrada | Dano à Distância (radiante) | NP | Dano 5 · 10 PP |
 | Rajada mística | Rajada mística | Dano à Distância (força mística) | NP | Dano 5 · 10 PP |
-| Zombaria cruel | Zombaria cruel | Dano à Percepção, resistido por Vontade | NP – 2 | Dano 3 · 12 PP |
+| Zombaria cruel | Zombaria cruel | Dano à Percepção, resistido por Vontade | NP – 2 | Dano 3 · 13 PP |
 | Destruição divina | Destruição divina | Dano corpo a corpo (radiante), resistido por Vontade | NP – 2 | Dano 3 · 6 PP |
 | Vidência | Vidência | Sentido Remoto (visual, auditivo) | 2 | 8 PP |
 | Visão da verdade | Visão verdadeira | Sentidos 5 (vê através de ilusões) | — | 10 PP |
@@ -700,7 +700,7 @@ O foco usa `substitui` e troca quase tudo da classe:
 - **Prioridades:** Luta, Combate Corpo-a-Corpo: Espadas, Especialidade: Bruxo, Vigor, Agilidade, Vontade, Fortitude...
 - **Habilidades de reserva:** a sobra do orçamento vai para Vigor, Agilidade, Força, Prontidão, Luta, Destreza e Intelecto, **nunca para Presença** (o bruxo é frio e estranho).
 - **Equipamento:** o **Kit de bruxo** como arma principal; besta de mão ou adaga como secundária; cavalo, sela, corda e saco de dormir como opcionais.
-- **Complicações sugeridas:** Preconceito (**fixa**), Honra (o código do bruxo), Peculiaridade (toxicidade alquímica), Relacionamento, Inimigo.
+- **Complicações sugeridas:** Preconceito (**fixa no sorteio do site; a geração direta pela API não a inclui automaticamente**), Honra (o código do bruxo), Peculiaridade (toxicidade alquímica), Relacionamento, Inimigo.
 
 ### 8.3 Sinais e mutações
 
@@ -709,7 +709,7 @@ O foco usa `substitui` e troca quase tudo da classe:
 | **Igni** | Dano, Área Cone (chama arcana). Efeito principal do arranjo *Sinais*. | NP | Dano 7 · Esquiva CD 17 · 14 PP |
 | **Quen** | Proteção, Sustentado (escudo cinético). Alternativo. | NP – 2 | Proteção 5 · 1 PP |
 | **Aard** | Aflição, Área Cone (Esquiva, superada por Fortitude; impedido e vulnerável, depois indefeso e caído). Alternativo. | NP – 1 | 6 · CD 16 · 1 PP |
-| **Axii** | Aflição à Distância (Vontade; tonto, compelido, controlado), Sutil. Alternativo. | NP – 1 | 6 · CD 16 · 1 PP |
+| **Axii** | Aflição com Distância de Percepção (Resistida e Superada por Vontade; em Transe, Compelido), Grau Limitado, Depende de Visão. Alternativo. | NP – 1 | 6 · CD 16 · 1 PP |
 | **Yrden** (opcional) | Aflição à Distância (Esquiva; impedido e vulnerável, depois indefeso e imóvel), um círculo no chão. Alternativo. | NP – 2 | 5 · CD 15 · 1 PP |
 | **Sentidos de bruxo** | Sentidos 5: visão no escuro, faro aguçado, rastrear pelo faro e percepção da magia. Mutação. | 5 | 5 PP |
 | **Metabolismo mutante** | Imunidade 2 (doenças e venenos), limitada a metade do efeito. Mutação. | 2 | 1 PP |
@@ -736,10 +736,7 @@ Uma perícia única que reúne **magia dos Sinais, alquimia, ervas e saber sobre
 
 O **Kit de bruxo** custa **120 po** e traz espada de prata, espada de aço (espada longa), couro batido (Proteção 2), 3 doses de elixir, 2 óleos para lâminas, kit de herbalismo e bolsa de componentes. Avulsos, os itens somariam **365 po**; o kit é um "preço de escola". Se um item do kit estourar o NP, ele sai da ficha sem reembolso.
 
-O gerador dá preço aos elixires (50 po, o preço da poção de cura do Livro do Jogador) e aos óleos (5 po, estimado), mas não dá a eles um efeito de regra. Sugestão [Casa]:
-
-- **Elixir (ação padrão para beber, dura uma cena):** escolha um efeito ao preparar: Cura 5 (um teste de Cura na hora), +2 em Fortitude, +2 em Vontade, ou visão no escuro completa. A partir do segundo elixir no mesmo dia, Fortitude CD 10 + 2 por elixir; com falha, fica fatigado (toxicidade).
-- **Óleo para lâminas (ação de movimento para aplicar, dura uma cena):** contra um tipo de criatura (mortos-vivos, ínferos, feras, espectros), +2 no Dano da lâmina. Respeite o limite de ataque + efeito do NP.
+Elixires e óleos têm preço, mas não têm efeitos mecânicos cadastrados. Seu uso, efeito, duração e eventual toxicidade ficam a critério do mestre. Qualquer efeito aplicado é uma regra da mesa, não uma regra do gerador.
 
 ### 8.6 Rodando contratos de caça [Casa]
 
@@ -882,14 +879,14 @@ No M&M, armadura e escudo fazem coisas diferentes:
 
 | Tipo de armadura | Itens do gerador (Proteção · preço) |
 |----|----|
-| **Leve** | Acolchoada (1 · 5 po), Couro (1 · 10 po), Couro batido (2 · 45 po) |
-| **Média** | Gibão de peles (2 · 10 po), Camisão de malha (2 · 30 po), Brunea (3 · 50 po), Peitoral (3 · 400 po) |
-| **Pesada** | Cota de malha (3 · 75 po), Meia-armadura (4 · 750 po), Cota de talas (5 · 200 po), Placas (6 · 1.500 po) |
+| **Leve** | Acolchoada (3 · 5 po), Couro (1 · 10 po), Couro batido (2 · 45 po) |
+| **Média** | Gibão de peles (2 · 10 po), Camisão de malha (3 · 30 po), Brunea (3 · 50 po), Peitoral (4 · 400 po) |
+| **Pesada** | Cota de malha (3 · 75 po), Meia-armadura (5 · 750 po), Cota de talas (3 · 200 po), Placas (6 · 1.500 po) |
 | **Escudos** | Broquel (+1 · 5 po), Escudo (+2 · 10 po), Escudo de torre (+3 · 30 po, preço estimado) |
 
-**Armadura pesada e furtividade [Casa].** O gerador não aplica penalidades de armadura. Se a mesa quiser o efeito do D&D, dê –2 de circunstância em Furtividade a quem usa cota de malha, meia-armadura, cota de talas ou placas, e –2 em Acrobacia e Atletismo (natação) com placas.
+**Desvantagens de armadura [Casa].** O gerador não aplica penalidades automáticas de armadura; por padrão, ignore as desvantagens históricas. Se a mesa quiser representá-las, trate-as como complicações ou falhas situacionais acordadas com o mestre, não como uma penalidade fixa geral.
 
-**Peitoral e meia-armadura** custam mais que a cota de malha e dão a mesma Proteção ou pouco mais: o preço é o do Livro do Jogador, onde elas deixam somar a Destreza à CA. No M&M, a vantagem delas é narrativa (mais leves, mais discretas). Se quiser, aplique a penalidade de Furtividade só às armaduras pesadas.
+Os preços são conversões econômicas do gênero e não determinam a Proteção. As graduações seguem as equivalências do Manual dos Mecanismos Lite adotadas para o catálogo: meia-armadura representa Proteção 5, e Armadura de placas, Proteção 6, para a versão completa articulada.
 
 ### 9.8 Combate montado [Casa]
 
@@ -977,7 +974,7 @@ Tratamento é baseada em Intelecto, só pode ser usada treinada e **exige ferram
 - **Magias de cura** usam o efeito Cura (seção 7.9): d20 + graduação contra CD 10, uma condição por grau de sucesso.
 - **Retomar o fôlego** do guerreiro é uma Cura 2 só em si mesmo, que dispara sozinha quando ele sofre dois graus de dano.
 - **Integridade corporal** do monge é Cura 2 por ki.
-- **Poção de cura [Casa]:** o gerador vende a poção a 50 po (preço do Livro do Jogador), sem efeito de regra. Sugestão: beber é uma ação padrão e equivale a um teste de Cura com graduação igual ao NP da campanha menos 1 (4 no NP 5). Bebida por um moribundo inconsciente, só com ajuda de outro.
+- **Poção de cura:** custa 50 po e recupera um grau de dano por meio de um teste de recuperação imediato, conforme a descrição do item no catálogo. O gerador não implementa uma ação de beber ou um teste de Cura.
 
 ### 10.7 Morte e ressurreição [Casa]
 
@@ -1230,7 +1227,7 @@ Alguns tipos só aparecem a partir de certo NP (o Lobo atroz no NP 5, os chefes 
 
 **NPCs não têm orçamento.** Como no livro básico, o custo em PP de um NPC é só informativo. Um chefe bugbear de NP 7 pode sair com 95 PP enquanto um PJ do mesmo NP tem 105: o que importa são os limites do NP, não o total.
 
-> **Fique de olho nas perícias.** Perícias são baratas e o teto é NP + 10, então o gerador às vezes sobe muito uma perícia de NPC (um bugbear com Furtividade +16 no NP 7). Está dentro das regras; se não combinar com a cena, reduza na hora.
+> **Fique de olho nas perícias.** Perícias são baratas e o teto é NP + 10, então o gerador às vezes sobe muito uma perícia de NPC (um bugbear com Furtividade +16 no NP 7). Está dentro das regras, mas pode não combinar com o conceito ou a cena; ajuste-a quando necessário.
 
 ### 13.4 Status de uma ficha
 

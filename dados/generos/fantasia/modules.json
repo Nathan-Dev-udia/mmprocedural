@@ -2336,7 +2336,7 @@
       "poderes": {
         "zombaria": {
           "nome": "Zombaria cruel 2 (Dano à Percepção, resistido por Vontade; insultos mágicos)",
-          "custo_informado": 6,
+          "custo_informado": 9,
           "ajustes": {},
           "nome_curto": "Zombaria cruel 2",
           "ataque": {
@@ -2358,7 +2358,7 @@
       "defesa:Vontade"
     ],
     "status_dados": "ilustrativo",
-    "fonte": "Goblestiário (D&D 5e), p. 76 do PDF (Goblin Bardo), convertido para M&M pelo gerador. Conceito e habilidades especiais convertidos em efeitos de M&M; os números de D&D (PV, CA, ND) não foram transpostos. Zombaria Viciosa virou Dano à Percepção resistido por Vontade (3 PP por graduação) e Mote de Inspiração virou a vantagem Inspirar."
+    "fonte": "Goblesti?rio (D&D 5e), p. 76 do PDF (Goblin Bardo), convertido para M&M pelo gerador. Conceito e habilidades especiais convertidos em efeitos de M&M; os n?meros de D&D (PV, CA, ND) n?o foram transpostos. Zombaria Viciosa virou Dano ? Percep??o resistido por Vontade; o custo de Zombaria cruel segue o perfil atual do cat?logo. Mote de Inspira??o virou a vantagem Inspirar."
   },
   {
     "id": "goblin_ratos",

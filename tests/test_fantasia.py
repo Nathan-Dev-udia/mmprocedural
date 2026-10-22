@@ -190,6 +190,26 @@ def test_fichas_base_batem_com_o_livro(fantasia, arquetipo, faixa, total):
     assert rel["problemas"] == []
 
 
+def test_protecao_das_armaduras_reflete_as_equivalencias_do_catalogo(fantasia):
+    protecoes = {
+        "acolchoada": 3,
+        "couro": 1,
+        "couro_batido": 2,
+        "gibao_peles": 2,
+        "camisao_malha": 3,
+        "brunea": 3,
+        "peitoral": 4,
+        "cota_malha": 3,
+        "meia_armadura": 5,
+        "cota_talas": 3,
+        "placas": 6,
+    }
+    for item_id, protecao in protecoes.items():
+        armadura = fantasia["equipamentos"][item_id]
+        assert armadura["protecao"] == protecao
+        assert armadura["custo"] == protecao
+
+
 def test_npcs_de_todos_os_arquetipos_e_nps(fantasia):
     for arquetipo in fantasia["arquetipos"].values():
         for np in generator.nps_disponiveis(fantasia, arquetipo):

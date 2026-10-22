@@ -536,7 +536,7 @@ O Caçador de monstros é a subclasse do bruxo inspirada nos bruxos da série *T
 | **Igni** | Cone de chamas: Dano em área. | NP | Efeito principal |
 | **Quen** | Escudo cinético: Proteção sustentada. | NP – 2 | Alternativo (1 PP) |
 | **Aard** | Onda de força em cone: o alvo resiste com Esquiva e depois Fortitude; fica impedido e vulnerável, ou caído e indefeso. | NP – 1 | Alternativo (1 PP) |
-| **Axii** | Encantamento sutil à distância contra a Vontade: tonto, compelido, controlado. | NP – 1 | Alternativo (1 PP) |
+| **Axii** | Aflição com Distância de Percepção, resistida e superada por Vontade; deixa o alvo em transe, aberto à sugestão e compelido. Grau Limitado e Dependente de Visão. | NP – 1 | Alternativo (1 PP) |
 | **Yrden** | Círculo mágico no chão que prende quem entra. Opcional. | NP – 2 | Alternativo (1 PP) |
 
 No NP 5, o Igni (Dano 5 em cone) custa 10 PP; Quen, Aard e Axii somam 3 PP; o arranjo inteiro sai por 13 PP (14 com Yrden).
@@ -563,7 +563,7 @@ O custo depende do efeito e dos extras. Alguns exemplos no NP 5:
 |----|----|----|----|
 | Raio de fogo | Dano à Distância (2 PP por graduação) | 5 | 10 PP |
 | Mísseis mágicos | Dano à Distância, Multiataque (3 PP por graduação) | 3 | 9 PP |
-| Bola de fogo | Dano à Distância, Área Explosão (3 PP por graduação) | 4 | 12 PP |
+| Bola de fogo | Dano à Distância, Área Explosão (3 PP por graduação + 2 PP fixos) | 4 | 14 PP |
 | Sono | Aflição Cumulativa, Área Nuvem (3 PP por graduação) | 4 | 12 PP |
 | Curar ferimentos | Cura (2 PP por graduação) | 4 | 8 PP |
 | Passo nebuloso | Teleporte | 2 | 4 PP |
@@ -577,7 +577,7 @@ Esta é a maior diferença para D&D. Aqui:
 
 - **Não existem espaços de magia, magias preparadas por dia nem descanso longo para recuperar magia.** Uma magia que você tem, você usa sempre que quiser, uma vez por ação.
 - **O que limita a magia é o custo em PP e os limites do NP.** Uma Bola de fogo do NP 5 tem Dano 4, e vai continuar tendo enquanto o NP não subir.
-- **Não há "níveis de magia".** A Bola de fogo não é uma magia de 3º nível que o mago desbloqueia: ela custa 12 PP no NP 5, e quem tem os pontos pode comprá-la desde o começo.
+- **Não há "níveis de magia".** A Bola de fogo não é uma magia de 3º nível que o mago desbloqueia: ela custa 14 PP no NP 5, e quem tem os pontos pode comprá-la desde o começo.
 - **Truques não existem como categoria:** todas as magias são "à vontade". O Raio de fogo é o ataque básico do mago, como a espada é a do guerreiro.
 - **Ritual:** a vantagem **Ritualista** (do mago, do clérigo, do druida e do caçador de monstros) deixa você usar Especialidade: Magia para fazer rituais longos, como um círculo de proteção ou uma invocação. É a coisa mais parecida com a conjuração ritual de D&D.
 
@@ -642,14 +642,14 @@ Um mago da Escola de Evocação tem o Raio de fogo e a Armadura arcana da classe
 
 | Magia | Custo sozinha | No arranjo |
 |----|----|----|
-| Bola de fogo 4 (área, explosão) | 12 PP | **12 PP** (efeito principal, a mais cara) |
+| Bola de fogo 4 (área, explosão) | 14 PP | **14 PP** (efeito principal, a mais cara) |
 | Raio de fogo 5 | 10 PP | **1 PP** (alternativo) |
 | Relâmpago 5 | 10 PP | **1 PP** (alternativo) |
-| **Arranjo Magia arcana** | 32 PP | **14 PP** |
+| **Arranjo Magia arcana** | 34 PP | **16 PP** |
 | Armadura arcana 2 (fora do arranjo) | 2 PP | **2 PP** |
-| **Total de magias** | | **16 PP** |
+| **Total de magias** | | **18 PP** |
 
-São 16 PP de 75, um pouco mais de um quinto do orçamento. No NP 8, o mesmo conjunto custaria 21 + 1 + 1 = 23 PP de arranjo, mais 5 PP de Armadura arcana (Proteção 5).
+São 18 PP de 75, um pouco menos de um quarto do orçamento. No NP 8, o mesmo conjunto custaria 23 + 1 + 1 = 25 PP de arranjo, mais 5 PP de Armadura arcana (Proteção 5), totalizando 30 PP.
 
 **Em jogo:** o mago abre o combate com a Bola de fogo no meio dos goblins (Esquiva CD 14 para sofrer só metade; Resistência CD 19). No turno seguinte, troca para o Raio de fogo (ação livre) e mira no chefe: ataque contra a Esquiva + 10; se acertar, Resistência CD 20. A Armadura arcana continua ligada o tempo todo, porque está fora do arranjo.
 
@@ -663,7 +663,7 @@ O Mago rúnico só conjura **desenhando runas** no ar, no chão ou na própria p
 
 > **Exemplo no NP 5:** Teia 4 (12 PP, efeito principal) + Raio de fogo 5 (1 PP) = 13 PP; com a falha, 11 PP. Somando a Armadura arcana 2, que fica fora do arranjo e não sofre a falha, as magias saem por 13 PP. Os 2 PP economizados viram, por exemplo, duas graduações de Rolamento Defensivo.
 
-Na prática, o mago rúnico passa o primeiro turno do combate riscando o chão. Quem chega antes disso o pega sem magia, e é por isso que ele costuma ter boa Prestidigitação e um giz sempre à mão.
+Na prática, o mago rúnico pode passar o primeiro turno do combate riscando o chão. As prioridades do foco podem favorecer Especialidade: Runas e Prestidigitação sem garantir uma boa perícia de ataque mágico; se isso não servir ao conceito, priorize Combate à Distância: Magia manualmente.
 
 **Montando magias à mão:** escolha as magias da classe e da subclasse (custos no **Apêndice**), ponha as da mesma tradição no arranjo, deixe de fora as que precisam funcionar ao mesmo tempo e confira os limites (ataque + Dano ≤ 2 × NP; área e percepção ≤ NP).
 
@@ -865,7 +865,7 @@ Cada classe sugere complicações que combinam com ela: o mago pode ter **Perda 
 
 ### 13.3 Complicações fixas [Casa]
 
-Algumas subclasses trazem uma complicação que **sempre entra**, porque faz parte do conceito. A do **Caçador de monstros** é **Preconceito: mutante odiado e temido**. Ela aparece na ficha mesmo quando você sorteia as complicações, e ainda conta para o mínimo de duas. Junto com a Motivação, ela já fecha o mínimo; outras sugestões do caçador são o **código de honra** dos bruxos, a **toxicidade dos elixires** (Peculiaridade) e os **caçadores de bruxas** (Inimigo).
+No fluxo de sorteio de complicações do site, Preconceito: mutante odiado e temido entra como complicação fixa do Caçador de monstros e conta para o mínimo. Uma geração direta pela API não acrescenta essa complicação automaticamente: ela precisa estar na lista de complicações enviada. Outras sugestões do caçador são o código de honra dos bruxos, a toxicidade dos elixires (Peculiaridade) e os caçadores de bruxas (Inimigo).
 
 ---
 
@@ -938,16 +938,16 @@ Armaduras dão **Proteção**, que soma à Resistência. Elas não deixam você 
 
 | Armadura | Proteção | Preço |
 |----|----|----|
-| Acolchoada | 1 | 5 po |
+| Acolchoada | 3 | 5 po |
 | Couro | 1 | 10 po |
 | Gibão de peles | 2 | 10 po |
 | Couro batido | 2 | 45 po |
-| Camisão de malha | 2 | 30 po |
+| Camisão de malha | 3 | 30 po |
 | Brunea | 3 | 50 po |
 | Cota de malha | 3 | 75 po |
-| Peitoral | 3 | 400 po |
-| Meia-armadura | 4 | 750 po |
-| Cota de talas | 5 | 200 po |
+| Peitoral | 4 | 400 po |
+| Meia-armadura | 5 | 750 po |
+| Cota de talas | 3 | 200 po |
 | Armadura de placas | 6 | 1.500 po |
 
 Lembre: Proteções não se somam. Quem veste cota de malha não ganha nada com Armadura arcana 2 nem com Pele de casca; vale só a maior. O Rolamento Defensivo soma.
@@ -1040,7 +1040,7 @@ São 11 graduações × 2 PP = **22 PP**. A Agilidade 1 é o +1 élfico.
 
 **Iniciativa:** Agi 1 = **+1**.
 
-### 16.4 Perícias (13 PP)
+### 16.4 Perícias (11 PP)
 
 | Perícia | Graduações | Total |
 |----|----|----|
@@ -1054,10 +1054,10 @@ São 11 graduações × 2 PP = **22 PP**. A Agilidade 1 é o +1 élfico.
 | Intimidação | 1 | +3 |
 | Intuição | 2 | +3 |
 | Investigação | 1 | +5 |
-| Percepção | 6 (2 da raça) | +7 |
+| Percepção | 2 (2 da raça) | +3 |
 | Persuasão | 1 | +3 |
 
-São 25 graduações ÷ 2 = 12,5, arredondado para **13 PP**. Quem monta à mão pode aproveitar a meia graduação que sobrou e pôr mais 1 graduação em qualquer perícia, sem custo extra.
+São 21 graduações ÷ 2 = 10,5, arredondado para **11 PP**. Quem monta à mão pode aproveitar a meia graduação que sobrou e pôr mais 1 graduação em qualquer perícia, sem custo extra.
 
 ### 16.5 Vantagens (8 PP)
 
@@ -1065,19 +1065,19 @@ Artífice, Bem Informado, Esforço Extraordinário, Idiomas, Memória Eidética,
 
 São 8 graduações = **8 PP**.
 
-### 16.6 Magias e dons (21 PP)
+### 16.6 Magias e dons (23 PP)
 
 | Magia ou dom | Efeito | Custo |
 |----|----|----|
 | Visão no escuro (raça) | Sentidos 2 | 2 PP |
 | Ancestralidade feérica (raça) | Vontade +2, só contra efeitos mentais | 2 PP |
 | Sentidos aguçados (raça) | Sentidos 1 (visão estendida) | 1 PP |
-| **Arranjo Magia arcana:** Bola de fogo 4 | Dano à Distância, Área Explosão (fogo): efeito principal | 12 PP |
+| **Arranjo Magia arcana:** Bola de fogo 4 | Dano à Distância, Área Explosão (fogo): efeito principal | 14 PP |
 | Raio de fogo 5 | Dano à Distância (fogo): alternativo | 1 PP |
 | Relâmpago 5 | Dano à Distância (elétrico): alternativo | 1 PP |
 | Armadura arcana 2 (fora do arranjo) | Proteção 2, Sustentado | 2 PP |
 
-5 PP de dons raciais + 14 PP de arranjo + 2 PP de Armadura arcana = **21 PP**.
+5 PP de dons raciais + 16 PP de arranjo + 2 PP de Armadura arcana = **23 PP**.
 
 ### 16.7 Ataques
 
@@ -1106,7 +1106,7 @@ O bônus do Raio de fogo é Destreza 2 + Combate à Distância: Magia 2 = +4. Mi
 | Fortitude + Vontade | 3 + 3 (3 + 5 contra efeitos mentais) | 6 (8) ✔ |
 | Maior perícia (máximo 15) | Percepção +7 | ✔ |
 
-**Total: 22 + 11 + 13 + 8 + 21 = 75 PP.** ✔
+**Total: 22 + 11 + 11 + 8 + 23 = 75 PP.** ✔
 
 Repare que Sariel tem folga em quase todos os limites. O ponto fraco é a Resistência 3: um golpe de machado de orc (Dano 5 ou 6) é perigoso. Os próximos PP podem ir para Vigor ou Rolamento Defensivo.
 

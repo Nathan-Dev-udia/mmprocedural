@@ -52,8 +52,7 @@ def test_livros_disponiveis_e_download():
 def test_faroeste_e_fantasia_tem_os_dois_livros():
     assert livros.livros_disponiveis("fantasia") == ["jogador", "mestre"]
     assert livros.livros_disponiveis("faroeste") == ["jogador", "mestre"]
-    # Os do cyberpunk estão em dados/livros/rascunhos até serem revisados.
-    assert livros.livros_disponiveis("cyberpunk") == []
+    assert livros.livros_disponiveis("cyberpunk") == ["jogador", "mestre"]
 
 
 def test_chefe_goblinoide_nao_e_capanga():

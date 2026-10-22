@@ -111,7 +111,7 @@ Uma rodada dura cerca de 6 segundos. Em seu turno, cada personagem tem:
 - **Ações livres** à vontade (falar, largar um objeto, jogar-se no chão).
 - **Reações**, quando algo as dispara, mesmo fora do seu turno.
 
-**Iniciativa:** d20 + Agilidade + Iniciativa Aprimorada. Empate: maior Esquiva, depois Agilidade, depois Prontidão. Capangas rolam uma vez para o grupo todo.
+**Iniciativa:** d20 + Agilidade + 4 por graduação de Iniciativa Aprimorada. Empate: maior Esquiva, depois Agilidade, depois Prontidão. Capangas rolam uma vez para o grupo todo.
 
 **Surpresa:** quem foi pego desprevenido fica atordoado e vulnerável na rodada de surpresa. Os demais têm apenas uma ação padrão (ou de movimento) nessa rodada.
 
@@ -203,7 +203,7 @@ Reduzir uma habilidade abaixo de 0 devolve 2 pontos por graduação (mínimo –
 ### 3.3 Limites do nível de poder
 
 - **Perícias:** habilidade + perícia + vantagens ≤ NP + 10.
-- **Ataque e efeito:** bônus de ataque + graduação do efeito (por exemplo, o Dano da arma) ≤ 2 × NP.
+- **Ataque e efeito:** bônus de ataque + graduação do efeito (por exemplo, o Dano da arma) ≤ 2 × NP. **Exceção:** ataques em área e efeitos de percepção são limitados a NP, sem somar bônus de ataque.
 - **Esquiva + Resistência** ≤ 2 × NP.
 - **Aparar + Resistência** ≤ 2 × NP.
 - **Fortitude + Vontade** ≤ 2 × NP.
@@ -276,10 +276,10 @@ Complicações que combinam com o cyberpunk (as mesmas do gerador):
 - **Vício:** drogas de combate (seção 10.10), braindance, adrenalina.
 - **Segredo:** seu corpo é propriedade de uma corporação, e você fugiu com ele.
 - **Perda de Poder:** implantes que falham com pulso eletromagnético ou sem manutenção.
-- **Reputação**, **Fama** e **Procurado:** seção 14 e seção 17.
+- **Reputação** e **Fama:** seção 14. Para um personagem procurado, use **Inimigo** ou **Reputação** como complicação cadastrada; “Procurado” é um detalhe narrativo, não uma opção separada do gerador.
 - **Preconceito:** pessoas sem implantes desconfiam de ciborgues como você.
-- **Cyberpsicose:** seção 8.
-- **Lesão duradoura:** seção 7.4.
+- **Cyberpsicose:** é um estado da trilha de Humanidade, não uma complicação selecionável.
+- **Lesão persistente:** registre-a como **Deficiência** ou outra complicação cadastrada apropriada.
 
 ### 3.9 Avanço
 
@@ -287,7 +287,7 @@ Ao fim de cada aventura, cada personagem ganha **1 ponto de poder** (2 se o desa
 
 ### 3.10 Equipamento: duas formas de pagar
 
-- **Padrão [Básico]:** a vantagem **Equipamento** dá **5 pontos de equipamento por graduação**. Armas, veículos e itens custam pontos (veja a seção 10).
+- **Modo por pontos [Básico]:** a vantagem **Equipamento** dá **5 pontos de equipamento por graduação**. Armas, veículos e itens custam pontos. No modo cyberpunk usado para personagens de jogador, equipamento comum custa eurobucks, não PP.
 - **Equipamento gratuito [Guia do Mestre]:** equipamento comum não custa pontos de poder, apenas dinheiro. O personagem tem o que pode pagar com os eurobucks da seção 12 e o que o mestre permitir. Itens únicos e excepcionais continuam custando pontos. Propriedades também continuam custando pontos (seção 13).
 
 > **Recomendação [Casa]:** use o equipamento gratuito para os personagens de jogador. O RED gira em torno de dinheiro: aluguel no dia 1º, munição, o ripperdoc e o Fixer. As tabelas de preço deste guia ficam com função real no jogo. É o que o gerador faz. Os PNJs continuam pagando o equipamento com a vantagem Equipamento, como as fichas do livro básico.
@@ -412,7 +412,7 @@ No RED, cada Papel tem uma **Habilidade de Papel** única. O M&M não tem esse t
 - **Armas:** pistola muito pesada ou pesada; faca.
 - **Itens essenciais:** blindagem leve, rádio comunicador, codificador/decodificador.
 - **Implantes sugeridos:** Interface neural, Firewall cortical, Rádio implantado, Olhos cibernéticos.
-- **Moradia:** começa num conapt corporativo, de graça (seção 12.2).
+- **Moradia:** Exec pode receber conapt corporativo como benefício narrativo por decisão do mestre; o gerador não o concede automaticamente.
 
 ### O Policial (*Lawman*)
 
@@ -776,12 +776,12 @@ Um plano da Trauma Team no M&M é a vantagem **Benefício** (um ponto) ou um gas
 - **Implante Nanorreparo [Básico]:** Regeneração 2 recupera condições sozinho, sem descanso (livro básico, efeito Regeneração).
 - **Speedheal e outras drogas médicas:** use o efeito Cura com a falha Cansativo, ou permita um teste de Recuperar-se extra por dia.
 
-### 7.5 Ferimentos duradouros como complicações [Básico]
+### 7.5 Lesões persistentes [Casa]
 
 O livro básico já trata ferimentos sérios como complicações. No Futuro Sombrio isso tem uma saída que o faroeste não tinha: **trocar a parte perdida por metal**.
 
 - A condição de jogo se recupera no tempo normal, mas a **lesão narrativa permanece** até ser tratada ou substituída por um implante.
-- Sempre que a lesão atrapalhar numa cena futura, o jogador ganha **1 ponto heroico**.
+- Quando uma lesão persistente funcionar como complicação, registre-a como **Deficiência** ou outra complicação cadastrada apropriada; quando ela atrapalhar em jogo, conceda 1 ponto heroico.
 - Um braço perdido vira um Braço cibernético (seção 11); um olho perdido, um Cyberolho. O preço é o do RED, e a substituição testa a Humanidade (seção 8).
 
 ### 7.6 Resumo de bolso
@@ -809,10 +809,9 @@ No RED, cada implante custa **Humanidade**, e quem perde demais vira um **cyberp
 | 0 | **Humano** | Nenhum. |
 | 1 | **Distante** | –2 em Intuição e Persuasão. As pessoas sentem algo frio no olhar. |
 | 2 | **Frio** | –5 em Intuição e Persuasão. Ganha uma complicação de **Peculiaridade** ou **Irritação** ligada ao cromo. |
-| 3 | **Instável** | Igual a Frio. Em situações de tensão (início de um combate, uma provocação, ver um aliado cair), teste de Vontade CD 15; com falha, fica **compelido** a atacar a ameaça mais próxima até o fim da cena. Ganha a complicação **Cyberpsicose**. |
+| 3 | **Instável** | Igual a Frio. Em situações de tensão (início de um combate, uma provocação, ver um aliado cair), teste de Vontade CD 15; com falha, fica **compelido** a atacar a ameaça mais próxima até o fim da cena. Este estado não cria uma complicação selecionável; se seus efeitos funcionarem como complicação, registre-os com uma complicação cadastrada apropriada. |
 | 4 | **Cyberpsicose** | O personagem perdeu a si mesmo. Vira PNJ, a menos que o grupo o contenha e pague a terapia extrema. A Max-Tac (seção 17) é chamada. |
 
-A complicação Cyberpsicose dá **1 ponto heroico** sempre que atrapalha, como qualquer complicação.
 
 ### 8.2 Quando testar
 
@@ -963,8 +962,8 @@ No RED, todo item cai numa de **oito categorias de preço** (p. 385). O preço �
 | Inteligente | 500eb a cada 10 | Balas e flechas, com smartgun | Pode refazer um ataque errado contra o mesmo alvo no turno seguinte. |
 | Granada de fragmentação | 100eb cada | Mão ou lança-granadas | Dano 5, Área de Explosão. |
 | Granada atordoante (*flashbang*) | 100eb cada | Mão ou lança-granadas | Pasmar 4 em área (Fortitude): cega e ensurdece. |
-| Granada de fumaça | 50eb cada | Mão ou lança-granadas | Nuvem de 10 m: camuflagem total. |
-| Granada de gás lacrimogêneo | 50eb cada | Mão ou lança-granadas | Aflição 4 em área (Fortitude): prejudicado, tonto. Máscara de gás protege. |
+| Granada de fumaça | 50eb cada | Mão ou lança-granadas | Nuvem de fumaça de 10 m: camuflagem visual na área. |
+| Granada de gás lacrimogêneo | 50eb cada | Mão ou lança-granadas | Quem respira sem proteção fica tonto; combine o efeito com o mestre. |
 | Granada EMP | 500eb cada | Mão ou lança-granadas | Cada alvo faz Tecnologia CD 20 ou o mestre desliga 2 implantes ou aparelhos por 1 minuto. |
 
 > No RED, a granada é comprada como "munição" do tipo dela (fragmentação = anti-blindagem). O gerador chama de "granada de fragmentação" a anti-blindagem do RED, ao mesmo preço.
@@ -1023,15 +1022,15 @@ Os itens do kit dos Papéis estão no gerador. Os demais têm só o preço do RE
 
 | Item | Preço | No M&M |
 |----|----|----|
-| Binóculos | 50eb | Visão estendida: –1 na penalidade de distância da Percepção. |
+| Binóculos | 50eb | +5 em Percepção visual à distância. |
 | Óculos inteligentes | 500eb | Duas vagas para opções de cyberolho. Com a opção Luz baixa/Infravermelho/UV (+500eb) viram os "óculos de visão noturna" do gerador (1.000eb). |
-| Gravador de áudio | 100eb | Grava 24 horas num chip. |
-| Câmera de vídeo | 100eb | Grava 12 horas de áudio e vídeo. |
+| Gravador de áudio | 100eb | Até oito horas de gravação. |
+| Câmera de vídeo | 100eb | Câmera fotográfica digital. |
 | Detector de escutas | 500eb | Apita a 2 m de uma escuta: +5 para achar grampos. |
 | Detector de radar | 500eb | Apita a menos de 100 m de um radar ativo. |
-| Localizador | 500eb | Segue um rastreador a até 1,6 km (vem com um; rastreador extra 50eb). |
-| Ferramenta de arrombamento | 20eb | Abre fechaduras mecânicas sem a penalidade de –5. |
-| Algemas | 50eb | Quebrar exige For 5 (BODY acima de 10 no RED). |
+| Localizador | 500eb | Transmissor de cerca de 3 km; plantar exige ataque ou Prestidigitação. |
+| Ferramenta de arrombamento | 20eb | Abre trancas mecânicas comuns como teste de rotina. |
+| Algemas | 50eb | Resistência 9; escapar exige Prestidigitação CD 20. |
 
 **Ferramentas e medicina**
 
@@ -1053,10 +1052,10 @@ Os itens do kit dos Papéis estão no gerador. Os demais têm só o preço do RE
 
 | Item | Preço | No M&M |
 |----|----|----|
-| Máscara antismog / de gás | 20eb | Imunidade a smog e gases enquanto usada. |
+| Máscara antismog / de gás | 20eb | Imunidade a gases irritantes por 12 horas. |
 | Protetores auriculares automáticos | 1.000eb | Imune a efeitos de som alto (flashbang conta só como visual). |
 | Roupa antirradiação | 1.000eb | Imunidade a radiação enquanto usada. |
-| Lanterna | 20eb | Feixe de 100 m, 10 horas por carga. |
+| Lanterna | 20eb | Anula a penalidade de escuridão num cone de 9 m. |
 | Bastão de luz | 10eb | Ilumina 4 m por 10 horas. |
 | Sinalizador | 10eb | Ilumina 100 m por 1 hora. |
 | Tinta fluorescente | 20eb | Brilha no escuro. |
@@ -1089,7 +1088,7 @@ No RED, o personagem do Pacote Completo recebe **800eb só para roupas e fashion
 
 | Veículo do RED | Preço | Velocidade no RED | Graduação de velocidade no M&M | Ficha do livro básico |
 |----|----|----|----|----|
-| Moto estradeira | 20.000eb | 161 km/h | 5 | Motocicleta |
+| Moto estradeira (conversão do veículo do RED) | 20.000eb | 161 km/h | 5 | Motocicleta |
 | Superbike | 100.000eb | 483 km/h | 7 | Motocicleta, com +2 de velocidade |
 | Carro compacto | 30.000eb | 161 km/h | 5 | Carro |
 | Carro esportivo | 50.000eb | 322 km/h | 6 | Carro esportivo |
@@ -1186,7 +1185,7 @@ Cada personagem tem uma graduação de Riqueza, que mede o poder de compra (rend
 - **Só os 2.550eb vêm do RED:** é o dinheiro do método **Pacote Completo** (p. 104), que paga armas, armadura, equipamento **e** cyberware. As outras faixas seguem a mesma escada do faroeste (cerca de ×3 a cada degrau), e o gerador usa esses valores.
 - **Na prática [Casa]:** o dinheiro inicial é o que o personagem tem para gastar na criação, nos preços das seções 10 e 11. Depois, o dinheiro sobe e desce com trabalhos, bicos, roubos e o aluguel.
 - **Primeiro mês de graça [RED]:** o personagem começa com o primeiro mês de moradia e comida pago. O aluguel vence no dia 1º do mês seguinte.
-- **Exec [RED]:** mora de graça num conapt corporativo e começa com o estilo de vida "prepak bom" pago; manter esse estilo custa 600eb por mês.
+- **Exec [regra da casa]:** o mestre pode conceder conapt corporativo e prepak bom como benefício narrativo; o gerador não os concede automaticamente.
 - **Não se junta dinheiro inicial [RED, p. 95]:** cada personagem gasta o próprio.
 
 > **Por que as faixas têm nome de moradia:** no RED, "Rato de Rua" e "Edgerunner" são **métodos de criação**, não níveis de riqueza (o Rato de Rua recebe um kit pronto mais 500eb, o que vale mais ou menos o mesmo que os 2.550eb do Pacote Completo). Para não confundir, as faixas do gerador levam o nome da moradia típica. Na faixa Hotel-cápsula (800eb, +1 PP), o personagem pode não conseguir comprar o kit inteiro do papel (o do Solo passa de 1.000eb) e terá de ficar devendo ou começar com menos.
@@ -1516,11 +1515,12 @@ A máscara antismog, o implante Pulmões e filtros sintéticos e a vantagem **To
 | A pé, caminhando | 0 | 4 km/h |
 | A pé, correndo | 1 | 8 km/h |
 | Metrô ou ônibus (com paradas) [Casa] | 3 | 30 km/h |
-| Carro compacto, moto estradeira | 5 | 120 a 160 km/h |
+| Carro compacto, moto estradeira (conversão do RED) | 5 | 120 a 160 km/h |
+| Moto estradeira do clã (perfil do gerador) | 6 | conforme a ficha do veículo |
 | Carro esportivo, AV-4 | 6 | 250 a 320 km/h |
 | Superbike, supercarro | 7 | cerca de 480 km/h |
 
-**Exemplo:** o grupo precisa atravessar a cidade, 15 km (distância 11), de moto (velocidade 5): 11 – 5 = 6, cerca de **8 minutos** sem trânsito. No trânsito de Night City, o mestre pode somar +2 graduações de tempo.
+**Exemplo:** o grupo precisa atravessar a cidade, 15 km (distância 11), na moto do clã do gerador (velocidade 6): 11 – 6 = 5, cerca de **4 minutos** sem trânsito. No trânsito de Night City, o mestre pode somar +2 graduações de tempo.
 
 ### 16.2 Veículos em jogo [Básico + RED]
 
@@ -1530,12 +1530,7 @@ A máscara antismog, o implante Pulmões e filtros sintéticos e a vantagem **To
 
 ### 16.3 Pagar o veículo [Casa]
 
-Um carro custa 30.000eb, doze vezes o dinheiro inicial padrão. Três caminhos:
-
-- **Emprestado:** o caminho do **Nômade**. No RED, a família empresta o veículo; no gerador, a moto do clã entra no kit por 0eb. O clã pode pedir o veículo de volta (uma boa complicação de Responsabilidade).
-- **Vantagem Equipamento:** o veículo custa os pontos de equipamento da ficha do livro básico (motocicleta: 10 pontos, Equipamento 2).
-- **Riqueza alta:** a partir da faixa Apartamento (25.000eb), o personagem pode comprar uma moto.
-- **Na história:** veículos roubados, emprestados pelo Fixer ou herdados.
+No gerador cyberpunk, equipamento de PJ é pago em dinheiro e só a moto do clã emprestada está cadastrada. Comprar um veículo ou pagá-lo com a vantagem Equipamento precisa ser combinado fora do gerador, a menos que o catálogo seja ampliado.
 
 ---
 
@@ -1561,7 +1556,7 @@ Um carro custa 30.000eb, doze vezes o dinheiro inicial padrão. Três caminhos:
 
 ### 17.3 Encaixe no M&M
 
-- **Personagem procurado:** complicação **Procurado** (ou **Inimigo**, se for uma corporação). Quando a lei ou a corporação aparece no pior momento, o jogador ganha **1 ponto heroico**.
+- **Personagem procurado:** use **Inimigo** ou **Reputação** como complicação cadastrada; “Procurado” é um detalhe narrativo, não uma opção separada do gerador. Quando a lei ou a corporação aparece no pior momento, o jogador ganha **1 ponto heroico**.
 - **Recompensas:** o RED não tem tabela de cartazes; quem paga é o contratante. Use os valores de trabalho da seção 12.4: um alvo fácil vale 500eb por pessoa do grupo; um perigoso, 2.000eb. Um cyberpsicopata vivo vale o pagamento de trabalho perigoso.
 
 ---
