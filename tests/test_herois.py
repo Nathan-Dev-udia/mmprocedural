@@ -1,9 +1,5 @@
 """Heróis conhecidos: catálogo de fichas prontas da Marvel e da DC, só para consulta e download."""
 
-import io
-import json
-import zipfile
-
 import app
 from nucleo import data_loader, herois
 
@@ -41,21 +37,17 @@ def test_ficha_da_marvel_traz_as_notas_de_conversao():
 
 def test_ids_invalidos_nao_saem_da_pasta():
     assert herois.ficha("../../app") is None
-    assert herois.caminho("marvel/../../app") is None
+    assert herois.ficha("marvel/../../app") is None
 
 
-def test_pagina_e_downloads():
+def test_pagina_e_consulta():
     cliente = app.app.test_client()
     pagina = cliente.get("/?genero=herois").get_data(as_text=True)
     assert "Heróis conhecidos" in pagina and "Marvel (116)" in pagina and "DC (536)" in pagina
     assert '"herois"' in cliente.get("/?genero=fantasia").get_data(as_text=True)   # na escolha de gênero
 
-    resposta = cliente.get("/herois/dc/volume1/batman.json")
-    assert resposta.status_code == 200 and json.loads(resposta.data)["nome"] == "Batman"
-    assert resposta.headers["Content-Disposition"].endswith("dc_batman.json")
-
-    pacote = zipfile.ZipFile(io.BytesIO(cliente.get("/herois/todas/marvel.zip").data))
-    assert len(pacote.namelist()) == 116 and "archangel.json" in pacote.namelist()
-
+    assert len(cliente.get("/api/herois").get_json()["herois"]) == 652
+    ficha = cliente.get("/api/herois/dc/volume1/batman").get_json()["ficha"]
+    assert ficha["nome"] == "Batman" and ficha["np"] == 12
     assert cliente.get("/api/herois/marvel/nao_existe").status_code == 404
-    assert cliente.get("/herois/todas/image.zip").status_code == 404
+    assert cliente.get("/api/herois/../app.py").status_code == 404

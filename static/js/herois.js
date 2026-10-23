@@ -47,8 +47,6 @@ function desenharLista() {
     ? `${lista.length} de ${todos.filter((h) => h.editora === editora()).length} personagens da ${nomeDaEditora}`
     : `${lista.length} personagens da ${nomeDaEditora}`;
   el("editora-descricao").textContent = DESCRICAO_DA_EDITORA[editora()] || "";
-  el("baixar-editora").href = `/herois/todas/${editora()}.zip`;
-  el("baixar-editora").textContent = `Baixar todas da ${nomeDaEditora} (.zip)`;
   const aberta = location.hash.slice(1);
   el("lista-herois").innerHTML = lista.length
     ? lista.map((h) => `<li><button type="button" class="item-heroi" data-id="${escapar(h.id)}"
@@ -75,7 +73,6 @@ function desenharFicha(f) {
     ${secoes}
     <footer>
       <p class="discreto">Fonte: ${escapar(f.fonte)}</p>
-      <a class="botao destaque" href="/herois/${f.id.split("/").map(encodeURIComponent).join("/")}.json">Baixar ficha (.json)</a>
     </footer>`;
   el("ficha-heroi").hidden = false;
 }

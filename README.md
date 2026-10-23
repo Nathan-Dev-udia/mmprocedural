@@ -137,12 +137,12 @@ Ao lado dos livros ficam as planilhas (.xlsx) do gênero. As da fantasia (**Arma
 
 ## Heróis conhecidos
 
-O gênero **Heróis conhecidos** (`dados/generos/herois/`) é um **catálogo**, não tem gerador: o `genero.json` tem `"tipo": "catalogo"`, então `data_loader.generos_disponiveis()` o deixa de fora e `catalogos_disponiveis()` o lista. Ele aparece na escolha de gênero e abre a página `templates/herois.html`, com a aba **Heróis conhecidos**: escolha Marvel ou DC, busque por nome, nome em português ou poder (sem diferença de acentos), veja a ficha e baixe o `.json` (ou todas as fichas da editora num `.zip`).
+O gênero **Heróis conhecidos** (`dados/generos/herois/`) é um **catálogo** só para consulta, sem gerador nem download: o `genero.json` tem `"tipo": "catalogo"`, então `data_loader.generos_disponiveis()` o deixa de fora e `catalogos_disponiveis()` o lista. Ele aparece na escolha de gênero e abre a página `templates/herois.html`, com a aba **Heróis conhecidos**: escolha Marvel ou DC, busque por nome, nome em português ou poder (sem diferença de acentos) e veja a ficha na tela.
 
 - `marvel/`: 116 perfis do *Marvel Files* (M&M 2ª edição) convertidos para a 3ª edição, com notas de conversão (veja o `README.md` da pasta).
 - `dc/volume1/` e `dc/volume2/`: 536 fichas publicadas em *DC Adventures: Heroes and Villains* (3ª edição), com o texto original em inglês; geradas por `ferramentas/extrair_fichas_dc.py`.
-- `nucleo/herois.py` põe os dois formatos num formato comum para a tela; os arquivos são baixados como estão. Os PDFs de origem ficam em `referencias/marvel/` e `referencias/dc/`, fora do git.
-- Rotas: `/api/herois` (lista), `/api/herois/<id>` (ficha), `/herois/<id>.json` (download) e `/herois/todas/<editora>.zip`.
+- `nucleo/herois.py` põe os dois formatos num formato comum para a tela. Os PDFs de origem ficam em `referencias/marvel/` e `referencias/dc/`, fora do git.
+- Rotas: `/api/herois` (lista) e `/api/herois/<id>` (ficha).
 
 ## Peso, massa e Velocidade
 

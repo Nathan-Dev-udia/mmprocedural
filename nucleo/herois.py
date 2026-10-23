@@ -3,13 +3,14 @@
 As fichas chegam em dois formatos: as da Marvel são conversões da 2ª para a 3ª edição, já em campos separados
 (habilidades, defesas, poderes com a construção em 3e, notas de conversão); as da DC foram extraídas dos livros DC
 Adventures e guardam o texto publicado, em inglês. Este módulo põe as duas num formato comum para a tela (resumo para a
-lista e seções para a ficha) sem mexer nos arquivos, que são baixados como estão.
+lista e seções para a ficha) sem mexer nos arquivos.
 """
 
 import json
 import re
 from functools import lru_cache
 from pathlib import Path
+
 
 PASTA = Path(__file__).parent.parent / "dados" / "generos" / "herois"
 
@@ -82,12 +83,6 @@ def _catalogo():
 def lista():
     """Resumos de todas as fichas (para a lista e a busca da tela)."""
     return [resumo for _, resumo in _catalogo().values()]
-
-
-def caminho(ficha_id):
-    """Arquivo de uma ficha pelo id ("marvel/archangel", "dc/volume1/batman"); None se não existir."""
-    entrada = _catalogo().get(ficha_id)
-    return entrada[0] if entrada else None
 
 
 def _texto_de(valor):

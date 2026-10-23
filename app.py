@@ -42,7 +42,7 @@ def planilhas_disponiveis(genero_id):
 # 1.4 distribuição dos pontos parecida com a dos arquétipos do livro, 1.5 subclasses e tipo de NPC, 1.6 goblinoides e caçador de monstros, 1.7 livros do faroeste e da fantasia,
 # 1.8 planilhas de armas e itens, magias na ficha e livros montados mais rápido, 1.9 escolas do bruxo caçador de monstros,
 # 1.10 catálogo da fantasia ampliado com peso, massa e Velocidade, planilhas de armas, itens e poderes geradas dos
-# dados e Tabela de Medidas, 1.11 heróis conhecidos (fichas prontas da Marvel e da DC para buscar e baixar).
+# dados e Tabela de Medidas, 1.11 heróis conhecidos (fichas prontas da Marvel e da DC para buscar e consultar).
 VERSAO = "1.11.0"
 
 
@@ -389,30 +389,6 @@ def ficha_de_heroi(ficha_id):
     if ficha is None:
         return jsonify({"erro": "Ficha não encontrada."}), 404
     return jsonify({"ficha": ficha})
-
-
-@app.get("/herois/<path:ficha_id>.json")
-def baixar_ficha_de_heroi(ficha_id):
-    caminho = herois.caminho(ficha_id)
-    if caminho is None:
-        return jsonify({"erro": "Ficha não encontrada."}), 404
-    return send_file(caminho, mimetype="application/json", as_attachment=True,
-                     download_name=f"{ficha_id.split('/')[0]}_{caminho.stem}.json")
-
-
-@app.get("/herois/todas/<editora>.zip")
-def baixar_fichas_da_editora(editora):
-    if editora not in herois.EDITORAS:
-        return jsonify({"erro": "Editora não encontrada."}), 404
-    pacote = io.BytesIO()
-    with zipfile.ZipFile(pacote, "w", zipfile.ZIP_DEFLATED) as arquivo_zip:
-        for resumo in herois.lista():
-            if resumo["editora"] == editora:
-                caminho = herois.caminho(resumo["id"])
-                arquivo_zip.write(caminho, resumo["id"].split("/", 1)[1] + ".json")
-    pacote.seek(0)
-    return send_file(pacote, mimetype="application/zip", as_attachment=True,
-                     download_name=f"fichas_{editora}.zip")
 
 
 @app.get("/planilhas/<genero_id>/<tipo>.xlsx")
