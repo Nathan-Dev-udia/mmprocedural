@@ -80,10 +80,10 @@
   "custos_3e": {
     "habilidades": 42,
     "defesas": 37,
-    "pericias": 63,
+    "pericias": 31.5,
     "vantagens": 14,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 156,
+    "subtotal_conhecido": 124.5,
     "poderes_pendentes": true,
     "total": null
   },
@@ -94,6 +94,7 @@
     "Nenhuma Motivação ou complicação não publicada foi acrescentada.",
     "Idiomas adicionais descritos na fonte foram convertidos em Languages 1, usando a progressão da vantagem 3e.",
     "Vantagens sem equivalente direto foram removidas conforme o guia; não foram recriadas como poderes: Elusive Target; Sneak Attack.",
-    "Subtotal 3e conhecido: 42 PP em habilidades, 63 em perícias, 37 em defesas, 14 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto."
+    "Subtotal 3e conhecido: 42 PP em habilidades, 63 em perícias, 37 em defesas, 14 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
+    "Correção de custo: as perícias somam 63 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 63 para 31.5 PP (subtotal e totais ajustados em -31.5)."
   ]
 }

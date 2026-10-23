@@ -21,3 +21,15 @@ Ao adaptar uma ficha como personagem jogador, registrar as complicacoes explicit
 Este conjunto cobre 116 perfis, um por pagina, das paginas 2 a 117 do PDF de personagens; a pagina 1 nao contem perfil. Todos os perfis identificados no livro foram convertidos e nao restam perfis pendentes. Os 116 arquivos JSON foram validados quanto a sintaxe e cobertura das paginas.
 
 Os custos totais em PP de 3e permanecem pendentes quando poderes ou modificadores nao puderam ser determinados com seguranca; esses casos estao marcados nas fichas e nao foram estimados. O NP publicado e os PP convertidos sao informacoes distintas: personagens podem ultrapassar o orcamento padrao de criacao de 15 PP por NP.
+
+## Revisão de qualidade
+
+`python ferramentas/auditar_herois.py --editora marvel` confere custos, limites de NP e campos faltantes. Correções
+já feitas: o custo de perícias de 28 fichas estava igual ao número de graduações (o correto é 1 PP a cada 2) e foi
+corrigido, com nota em `notas_conversao`; no Icarus, duas perícias Perform estavam somadas em uma (24 graduações) e
+foram separadas. Chamber e Sentinel têm valores `null` de propósito (o livro imprime travessão). Ficam em aberto:
+`giant_man` e `hulk` (o custo de habilidades ignora o reembolso das habilidades negativas; confirmar a regra), as
+10 fichas sem `custos_3e` e os poderes ainda pendentes de conversão (97 fichas).
+
+A extração do livro está completa (116 perfis, páginas 2 a 117, sem personagem faltando). O que resta é fechar a conversão
+dos poderes. **Antes de continuar, leia `PREPARACAO_CONVERSAO_PODERES.md`.**

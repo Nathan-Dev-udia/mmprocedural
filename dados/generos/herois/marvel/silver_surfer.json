@@ -106,10 +106,10 @@
   "custos_3e": {
     "habilidades": 112,
     "defesas": 65,
-    "pericias": 75,
+    "pericias": 37.5,
     "vantagens": 4,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 256,
+    "subtotal_conhecido": 218.5,
     "poderes_pendentes": true,
     "total": null
   },
@@ -119,6 +119,7 @@
     "Poderes preservam os descritores, ranks, modificadores e custos 2e impressos; o guia orienta o efeito 3e equivalente. Custos 3e ficam nulos quando a construção exata ou os modificadores não permitem cálculo seguro.",
     "Nenhuma Motivação ou complicação não publicada foi acrescentada.",
     "A fonte informa 122 PP na categoria Powers, mas os custos individuais listados somam 144 PP (Cosmic Energy Control 40, Device 33, Immunity 19, Protection 22, Super Senses 22, Super Strength 8). A discrepância de 22 PP foi preservada sem correção.",
-    "Subtotal 3e conhecido: 112 PP em habilidades, 75 em perícias, 65 em defesas, 4 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto."
+    "Subtotal 3e conhecido: 112 PP em habilidades, 75 em perícias, 65 em defesas, 4 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
+    "Correção de custo: as perícias somam 75 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 75 para 37.5 PP (subtotal e totais ajustados em -37.5)."
   ]
 }

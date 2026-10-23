@@ -128,10 +128,10 @@
   "custos_3e": {
     "habilidades": 54,
     "defesas": 39,
-    "pericias": 47,
+    "pericias": 23.5,
     "vantagens": 3,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 143,
+    "subtotal_conhecido": 119.5,
     "poderes_pendentes": true,
     "total": null
   },
@@ -143,6 +143,7 @@
     "Habilidades 2e sem perícia 3e direta foram omitidas, conforme o guia: Concentration.",
     "Dodge Focus 5 foi convertido em ranks de Esquiva: base 9 + 5 = 14; valor final 10.",
     "Defesas reduzidas por limite de NP 12: Esquiva 14→10 e Aparar 9→9; cada defesa ativa + Resistência 14 ≤ 24.",
-    "Subtotal 3e conhecido: 54 PP em habilidades, 47 em perícias, 39 em defesas, 3 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto."
+    "Subtotal 3e conhecido: 54 PP em habilidades, 47 em perícias, 39 em defesas, 3 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
+    "Correção de custo: as perícias somam 47 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 47 para 23.5 PP (subtotal e totais ajustados em -23.5)."
   ]
 }

@@ -91,10 +91,10 @@
   "custos_3e": {
     "habilidades": 36,
     "defesas": 30,
-    "pericias": 49,
+    "pericias": 24.5,
     "vantagens": 23,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 138,
+    "subtotal_conhecido": 113.5,
     "poderes_pendentes": true,
     "total": null
   },
@@ -105,6 +105,7 @@
     "Nenhuma Motivação ou complicação não publicada foi acrescentada.",
     "A fonte informa 47 PP na categoria Powers, mas os custos individuais listados somam 48 PP (Element Control 43, Super Senses 5). A diferença de 1 PP foi preservada sem correção.",
     "Idiomas adicionais descritos na fonte foram convertidos em Languages 2, usando a progressão da vantagem 3e.",
-    "Subtotal 3e conhecido: 36 PP em habilidades, 49 em perícias, 30 em defesas, 23 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto."
+    "Subtotal 3e conhecido: 36 PP em habilidades, 49 em perícias, 30 em defesas, 23 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
+    "Correção de custo: as perícias somam 49 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 49 para 24.5 PP (subtotal e totais ajustados em -24.5)."
   ]
 }

@@ -106,10 +106,10 @@
   "custos_3e": {
     "habilidades": 74,
     "defesas": 57,
-    "pericias": 56,
+    "pericias": 28,
     "vantagens": 38,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 225,
+    "subtotal_conhecido": 197,
     "poderes_pendentes": true,
     "total": null
   },
@@ -121,6 +121,7 @@
     "Vantagens sem equivalente direto foram removidas conforme o guia; não foram recriadas como poderes: Elusive Target; Ranged Pin; Sneak Attack; Stunning Attack.",
     "Dodge Focus 4 foi convertido em ranks de Esquiva: base 14 + 4 = 18; valor final 16.",
     "Defesas reduzidas por limite de NP 12: Esquiva 18→16 e Aparar 14→14; cada defesa ativa + Resistência 8 ≤ 24.",
-    "Subtotal 3e conhecido: 74 PP em habilidades, 56 em perícias, 57 em defesas, 38 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto."
+    "Subtotal 3e conhecido: 74 PP em habilidades, 56 em perícias, 57 em defesas, 38 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
+    "Correção de custo: as perícias somam 56 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 56 para 28 PP (subtotal e totais ajustados em -28)."
   ]
 }

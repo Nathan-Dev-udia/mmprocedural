@@ -213,6 +213,11 @@ def _corrigir_formula_do_combate_a_distancia(writer):
 
 def gerar_pdf(caminho_modelo, npc, relatorio, genero_nome):
     """Devolve os bytes de um PDF preenchido com o NPC."""
+    return preencher_modelo(caminho_modelo, valores_dos_campos(npc, relatorio, genero_nome))
+
+
+def preencher_modelo(caminho_modelo, campos):
+    """Limpa o modelo e preenche os campos dados; devolve os bytes do PDF."""
     leitor = PdfReader(caminho_modelo)
     writer = PdfWriter(clone_from=leitor)
 
@@ -220,7 +225,7 @@ def gerar_pdf(caminho_modelo, npc, relatorio, genero_nome):
     for nome, campo in (leitor.get_fields() or {}).items():
         if campo.get("/FT") == "/Tx" and nome not in CAMPOS_ROTULO:
             valores[nome] = ""
-    valores.update(valores_dos_campos(npc, relatorio, genero_nome))
+    valores.update(campos)
     marcadores = {"Secreta": "/Off", "Pública": "/Off"}
 
     writer.update_page_form_field_values(None, valores, auto_regenerate=False)

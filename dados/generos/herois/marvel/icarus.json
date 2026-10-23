@@ -32,7 +32,8 @@
     "pericias": {
       "Enganação": 8,
       "Persuasão": 8,
-      "Especialidade: Performance": 24,
+      "Especialidade: Performance (Canto)": 12,
+      "Especialidade: Performance (Instrumentos de Cordas)": 12,
       "Percepção": 8,
       "Intuição": 8,
       "Furtividade": 8
@@ -98,6 +99,7 @@
   },
   "notas_conversao": [
     "Favored Environment (Airborne) virou Feature: vantagem em ambiente aéreo; Sneak Attack não tem equivalente direto e foi omitida conforme o guia.",
-    "A fonte traz ataque +6 (+9 no ar) e dano desarmado +4; o bônus aéreo é circunstancial e não foi tratado como bônus permanente."
+    "A fonte traz ataque +6 (+9 no ar) e dano desarmado +4; o bônus aéreo é circunstancial e não foi tratado como bônus permanente.",
+    "Correção: Perform [Singing] 12 e Perform [Stringed Instruments] 12 são duas perícias distintas na fonte e estavam somadas em uma única Especialidade: Performance 24, acima do limite de 19 graduações do NP 9; agora aparecem separadas, com 12 graduações cada (mesmo custo: 64 graduações no total)."
   ]
 }

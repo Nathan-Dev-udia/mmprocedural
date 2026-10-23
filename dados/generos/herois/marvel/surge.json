@@ -95,10 +95,10 @@
   "custos_3e": {
     "habilidades": 58,
     "defesas": 43,
-    "pericias": 45,
+    "pericias": 22.5,
     "vantagens": 12,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 158,
+    "subtotal_conhecido": 135.5,
     "poderes_pendentes": true,
     "total": null
   },
@@ -111,6 +111,7 @@
     "Attack Specialization foi convertida em duas graduações de Combate apropriado por graduação da vantagem, conforme o guia.",
     "Dodge Focus 10 foi convertido em ranks de Esquiva: base 15 + 10 = 25; valor final 15.",
     "Defesas reduzidas por limite de NP 10: Esquiva 25→15 e Aparar 15→15; cada defesa ativa + Resistência 5 ≤ 20.",
-    "Subtotal 3e conhecido: 58 PP em habilidades, 45 em perícias, 43 em defesas, 12 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto."
+    "Subtotal 3e conhecido: 58 PP em habilidades, 45 em perícias, 43 em defesas, 12 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
+    "Correção de custo: as perícias somam 45 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 45 para 22.5 PP (subtotal e totais ajustados em -22.5)."
   ]
 }

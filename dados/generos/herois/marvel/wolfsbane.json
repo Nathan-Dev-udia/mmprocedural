@@ -234,10 +234,10 @@
   "custos_3e": {
     "habilidades": 66,
     "defesas": 47,
-    "pericias": 86,
+    "pericias": 43,
     "vantagens": 17,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 216,
+    "subtotal_conhecido": 173,
     "poderes_pendentes": true,
     "total": null
   },
@@ -251,6 +251,7 @@
     "Wolfsbane tem uma segunda ficha publicada para a forma lupina na mesma página; ambas foram preservadas sob este perfil, sem criar um perfil separado.",
     "A categoria Powers da forma principal totaliza 34 PP e a da forma lupina, 36 PP; cada soma coincide com os custos individuais impressos para sua forma.",
     "A forma lupina também lista Equipment 2, mas não apresenta itens de equipamento próprios no bloco alternativo; por isso, nenhum item foi atribuído a ela.",
-    "Subtotal 3e conhecido: 66 PP em habilidades, 86 em perícias, 47 em defesas, 17 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto."
+    "Subtotal 3e conhecido: 66 PP em habilidades, 86 em perícias, 47 em defesas, 17 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
+    "Correção de custo: as perícias somam 86 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 86 para 43 PP (subtotal e totais ajustados em -43)."
   ]
 }

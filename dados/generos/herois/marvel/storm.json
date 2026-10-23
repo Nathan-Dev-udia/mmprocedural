@@ -88,10 +88,10 @@
   "custos_3e": {
     "habilidades": 48,
     "defesas": 33,
-    "pericias": 81,
+    "pericias": 40.5,
     "vantagens": 20,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 182,
+    "subtotal_conhecido": 141.5,
     "poderes_pendentes": true,
     "total": null
   },
@@ -102,6 +102,7 @@
     "Nenhuma Motivação ou complicação não publicada foi acrescentada.",
     "Habilidades 2e sem perícia 3e direta foram omitidas, conforme o guia: Concentration.",
     "Idiomas adicionais descritos na fonte foram convertidos em Languages 2, usando a progressão da vantagem 3e.",
-    "Subtotal 3e conhecido: 48 PP em habilidades, 81 em perícias, 33 em defesas, 20 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto."
+    "Subtotal 3e conhecido: 48 PP em habilidades, 81 em perícias, 33 em defesas, 20 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
+    "Correção de custo: as perícias somam 81 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 81 para 40.5 PP (subtotal e totais ajustados em -40.5)."
   ]
 }

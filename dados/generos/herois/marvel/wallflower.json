@@ -72,10 +72,10 @@
   "custos_3e": {
     "habilidades": 28,
     "defesas": 36,
-    "pericias": 32,
+    "pericias": 16,
     "vantagens": 6,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 102,
+    "subtotal_conhecido": 86,
     "poderes_pendentes": true,
     "total": null
   },
@@ -87,6 +87,7 @@
     "Habilidades 2e sem perícia 3e direta foram omitidas, conforme o guia: Concentration.",
     "Vantagens sem equivalente direto foram removidas conforme o guia; não foram recriadas como poderes: Sneak Attack.",
     "A linha COMBAT não separa os efeitos de ataque em um formato legível; o ataque geral e o dano básico de Força foram mantidos como referência.",
-    "Subtotal 3e conhecido: 28 PP em habilidades, 32 em perícias, 36 em defesas, 6 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto."
+    "Subtotal 3e conhecido: 28 PP em habilidades, 32 em perícias, 36 em defesas, 6 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
+    "Correção de custo: as perícias somam 32 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 32 para 16 PP (subtotal e totais ajustados em -16)."
   ]
 }

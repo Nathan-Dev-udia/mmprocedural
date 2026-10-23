@@ -90,10 +90,10 @@
   "custos_3e": {
     "habilidades": 32,
     "defesas": 39,
-    "pericias": 33,
+    "pericias": 16.5,
     "vantagens": 15,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 119,
+    "subtotal_conhecido": 102.5,
     "poderes_pendentes": true,
     "total": null
   },
@@ -103,6 +103,7 @@
     "Poderes preservam os descritores, ranks, modificadores e custos 2e impressos; o guia orienta o efeito 3e equivalente. Custos 3e ficam nulos quando a construção exata ou os modificadores não permitem cálculo seguro.",
     "Nenhuma Motivação ou complicação não publicada foi acrescentada.",
     "A fonte informa 51 PP na categoria Powers, mas os custos individuais listados somam 55 PP (Blast 44, Flight 8, Super Senses 3). A diferença de 4 PP foi preservada sem correção.",
-    "Subtotal 3e conhecido: 32 PP em habilidades, 33 em perícias, 39 em defesas, 15 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto."
+    "Subtotal 3e conhecido: 32 PP em habilidades, 33 em perícias, 39 em defesas, 15 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
+    "Correção de custo: as perícias somam 33 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 33 para 16.5 PP (subtotal e totais ajustados em -16.5)."
   ]
 }

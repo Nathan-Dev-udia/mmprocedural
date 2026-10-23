@@ -18,8 +18,8 @@ from pathlib import Path
 
 from flask import Flask, jsonify, render_template, request, send_file
 
-from nucleo import (data_loader, docx_export, formatter, generator, herois, livros, medidas, pdf_export, planilhas,
-                    player, validator)
+from nucleo import (data_loader, docx_export, formatter, generator, herois, herois_pdf, livros, medidas, pdf_export,
+                    planilhas, player, validator)
 
 app = Flask(__name__)
 PASTA_LIVROS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "dados", "livros")
@@ -389,6 +389,16 @@ def ficha_de_heroi(ficha_id):
     if ficha is None:
         return jsonify({"erro": "Ficha não encontrada."}), 404
     return jsonify({"ficha": ficha})
+
+
+@app.get("/herois/<path:ficha_id>.pdf")
+def baixar_pdf_de_heroi(ficha_id):
+    modelo = Path(__file__).parent / "dados" / "comum" / "ficha_editavel.pdf"
+    conteudo = herois_pdf.gerar_pdf(modelo, ficha_id) if modelo.is_file() else None
+    if conteudo is None:
+        return jsonify({"erro": "Ficha não encontrada."}), 404
+    return send_file(io.BytesIO(conteudo), mimetype="application/pdf", as_attachment=True,
+                     download_name=f"{ficha_id.rsplit('/', 1)[-1]}.pdf")
 
 
 @app.get("/planilhas/<genero_id>/<tipo>.xlsx")

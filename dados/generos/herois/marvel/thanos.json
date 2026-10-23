@@ -124,10 +124,10 @@
   "custos_3e": {
     "habilidades": 156,
     "defesas": 91,
-    "pericias": 76,
+    "pericias": 38,
     "vantagens": 10,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 333,
+    "subtotal_conhecido": 295,
     "poderes_pendentes": true,
     "total": null
   },
@@ -142,6 +142,7 @@
     "Defesas reduzidas por limite de NP 19: Esquiva 20→15 e Aparar 15→15; cada defesa ativa + Resistência 23 ≤ 38.",
     "Fortitude ajustada de 20 para 18 para respeitar Fortitude + Vontade ≤ 38.",
     "Unarmed: efeito ajustado de 22 para 18 para cumprir Ataque + efeito ≤ 38.",
-    "Subtotal 3e conhecido: 156 PP em habilidades, 76 em perícias, 91 em defesas, 10 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto."
+    "Subtotal 3e conhecido: 156 PP em habilidades, 76 em perícias, 91 em defesas, 10 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
+    "Correção de custo: as perícias somam 76 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 76 para 38 PP (subtotal e totais ajustados em -38)."
   ]
 }

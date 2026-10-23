@@ -125,10 +125,10 @@
   "custos_3e": {
     "habilidades": 94,
     "defesas": 44,
-    "pericias": 74,
+    "pericias": 37,
     "vantagens": 8,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 220,
+    "subtotal_conhecido": 183,
     "poderes_pendentes": true,
     "total": null
   },
@@ -142,6 +142,7 @@
     "Dodge Focus 9 foi convertido em ranks de Esquiva: base 15 + 9 = 24; valor final 14.",
     "Defesas reduzidas por limite de NP 10: Esquiva 24→14 e Aparar 14→14; cada defesa ativa + Resistência 6 ≤ 20.",
     "Unarmed: efeito ajustado de 8 para 4 para cumprir Ataque + efeito ≤ 20.",
-    "Subtotal 3e conhecido: 94 PP em habilidades, 74 em perícias, 44 em defesas, 8 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto."
+    "Subtotal 3e conhecido: 94 PP em habilidades, 74 em perícias, 44 em defesas, 8 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
+    "Correção de custo: as perícias somam 74 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 74 para 37 PP (subtotal e totais ajustados em -37)."
   ]
 }

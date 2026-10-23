@@ -96,10 +96,10 @@
   "custos_3e": {
     "habilidades": 96,
     "defesas": 60,
-    "pericias": 68,
+    "pericias": 34,
     "vantagens": 6,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 230,
+    "subtotal_conhecido": 196,
     "poderes_pendentes": true,
     "total": null
   },
@@ -111,6 +111,7 @@
     "Vantagens sem equivalente direto foram removidas conforme o guia; não foram recriadas como poderes: Fearsome Presence (6) [DC 16; 30ft.].",
     "Dodge Focus 6 foi convertido em ranks de Esquiva: base 11 + 6 = 17; valor final 11.",
     "Defesas reduzidas por limite de NP 13: Esquiva 17→11 e Aparar 11→11; cada defesa ativa + Resistência 15 ≤ 26.",
-    "Subtotal 3e conhecido: 96 PP em habilidades, 68 em perícias, 60 em defesas, 6 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto."
+    "Subtotal 3e conhecido: 96 PP em habilidades, 68 em perícias, 60 em defesas, 6 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
+    "Correção de custo: as perícias somam 68 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 68 para 34 PP (subtotal e totais ajustados em -34)."
   ]
 }

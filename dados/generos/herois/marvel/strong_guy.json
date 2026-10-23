@@ -109,10 +109,10 @@
   "custos_3e": {
     "habilidades": 68,
     "defesas": 39,
-    "pericias": 55,
+    "pericias": 27.5,
     "vantagens": 11,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 173,
+    "subtotal_conhecido": 145.5,
     "poderes_pendentes": true,
     "total": null
   },
@@ -123,6 +123,7 @@
     "Nenhuma Motivação ou complicação não publicada foi acrescentada.",
     "A fonte atribui 1 rank(s) de Equipment (5 EP), mas os itens listados somam 2 EP; valores preservados sem correção.",
     "Vantagens sem equivalente direto foram removidas conforme o guia; não foram recriadas como poderes: Elusive Target.",
-    "Subtotal 3e conhecido: 68 PP em habilidades, 55 em perícias, 39 em defesas, 11 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto."
+    "Subtotal 3e conhecido: 68 PP em habilidades, 55 em perícias, 39 em defesas, 11 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
+    "Correção de custo: as perícias somam 55 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 55 para 27.5 PP (subtotal e totais ajustados em -27.5)."
   ]
 }

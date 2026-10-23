@@ -102,10 +102,10 @@
   "custos_3e": {
     "habilidades": 82,
     "defesas": 47,
-    "pericias": 65,
+    "pericias": 32.5,
     "vantagens": 15,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 209,
+    "subtotal_conhecido": 176.5,
     "poderes_pendentes": true,
     "total": null
   },
@@ -117,6 +117,7 @@
     "A fonte informa 56 PP na categoria Powers, mas os custos individuais listados somam 69 PP (Enhanced Strength 20, Enhanced Constitution 30, Impervious Toughness 13, Super Strength 6). A diferença de 13 PP foi preservada sem correção.",
     "A fonte atribui 1 rank(s) de Equipment (5 EP), mas os itens listados somam 3 EP; valores preservados sem correção.",
     "Fortitude ajustada de 15 para 12 para respeitar Fortitude + Vontade ≤ 20.",
-    "Subtotal 3e conhecido: 82 PP em habilidades, 65 em perícias, 47 em defesas, 15 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto."
+    "Subtotal 3e conhecido: 82 PP em habilidades, 65 em perícias, 47 em defesas, 15 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
+    "Correção de custo: as perícias somam 65 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 65 para 32.5 PP (subtotal e totais ajustados em -32.5)."
   ]
 }

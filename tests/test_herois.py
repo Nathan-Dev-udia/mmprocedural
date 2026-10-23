@@ -51,3 +51,40 @@ def test_pagina_e_consulta():
     assert ficha["nome"] == "Batman" and ficha["np"] == 12
     assert cliente.get("/api/herois/marvel/nao_existe").status_code == 404
     assert cliente.get("/api/herois/../app.py").status_code == 404
+
+
+def test_pdf_preenche_ficha_da_marvel_e_da_dc():
+    from nucleo import herois_pdf
+    beast = herois_pdf.campos_do_heroi("marvel/beast")
+    assert beast["Herói"] == "Beast" and beast["Força"] == "6" and beast["Esquiva"] == "9"
+    assert beast["AcrobPer"] == "12" and beast["Total"] == "183"
+    adam = herois_pdf.campos_do_heroi("dc/volume1/adam_strange")
+    assert adam["Luta"] == "3" and adam["Iniciativa"] == "+6" and adam["Resistência"] == "6"
+    assert adam["AcrobTotal"] == "10" and adam["AcrobPer"] == "4"
+    assert adam["Ataque 1"] == "Ray Guns +13" and adam["Dano 1"] == "7" and adam["Total"] == "150"
+    assert herois_pdf.campos_do_heroi("dc/nao/existe") is None
+
+
+def test_pdf_de_todas_as_fichas_e_gerado():
+    from nucleo import herois_pdf
+    for h in herois.lista():
+        assert herois_pdf.campos_do_heroi(h["id"])["Herói"], h["id"]
+
+
+def test_rota_do_pdf_do_heroi():
+    resposta = app.app.test_client().get("/herois/marvel/beast.pdf")
+    assert resposta.status_code == 200 and resposta.data.startswith(b"%PDF")
+    assert app.app.test_client().get("/herois/dc/x/y.pdf").status_code == 404
+
+
+def test_pdf_ajustes_da_conferencia():
+    from nucleo import herois_pdf
+    iron = herois_pdf.campos_do_heroi("marvel/iron_fist")
+    assert iron["Habilidades"] == "70" and iron["Iniciativa"] == "+12"
+    assert "≤" not in herois_pdf._compativel_com_a_fonte(iron["Notas & Condições"])
+    comet = herois_pdf.campos_do_heroi("dc/volume1/captain_comet")
+    assert comet["Ataque 1"] == "Unarmed +11"
+    block = herois_pdf.campos_do_heroi("dc/volume1/blockbuster_roland_desmond")
+    assert block["Descrição 1"] == "Corpo a corpo, crítico 16-20" and block["Complicações 1"] == "for His Own Good"
+    dwarf = herois_pdf.campos_do_heroi("dc/volume2/dwarfstar")
+    assert dwarf["Ataque 2"] == "Throwing Knife +10" and dwarf["Descrição 2"] == "À distância, crítico 19-20"

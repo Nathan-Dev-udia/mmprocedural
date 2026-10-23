@@ -14,3 +14,13 @@ Rascunho do que ficou para depois (atualizado na versão 1.7.0).
 
 ## Outros
 - Biblioteca de fichas salvas, edição de arquétipos pela interface e mechas, como já estava no README.
+
+## Heróis conhecidos (Marvel e DC)
+- **DC:** a extração dos PDFs tem falhas (101 fichas sem defesa ou habilidade essencial, 207 com divergências de custo ou
+  perícia). Diagnóstico, linha de base e regras da reextração em `dados/generos/herois/dc/PREPARACAO_REEXTRACAO.md`.
+- **Marvel:** a extração do livro está completa (116 perfis, nenhum faltando). Falta fechar a conversão dos poderes
+  (97 fichas pendentes, 105 sem total de PP); instruções em `dados/generos/herois/marvel/PREPARACAO_CONVERSAO_PODERES.md`.
+  Confirmar a regra de reembolso de habilidade negativa (Giant Man, Hulk).
+- **Nomes em inglês:** vantagens, efeitos e especializações ficam em inglês nas fichas e nos PDFs; falta um glossário
+  inglês→português.
+- Ferramenta: `python ferramentas/auditar_herois.py` mede a qualidade das 652 fichas sem alterar nada.

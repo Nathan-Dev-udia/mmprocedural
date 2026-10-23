@@ -108,10 +108,10 @@
   "custos_3e": {
     "habilidades": 66,
     "defesas": 42,
-    "pericias": 79,
+    "pericias": 39.5,
     "vantagens": 19,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 206,
+    "subtotal_conhecido": 166.5,
     "poderes_pendentes": true,
     "total": null
   },
@@ -126,6 +126,7 @@
     "Dodge Focus 5 foi convertido em ranks de Esquiva: base 11 + 5 = 16; valor final 11.",
     "Defesas reduzidas por limite de NP 10: Esquiva 16→11 e Aparar 11→11; cada defesa ativa + Resistência 9 ≤ 20.",
     "Channeled Katana: efeito ajustado de 8 para 7 para cumprir Ataque + efeito ≤ 20.",
-    "Subtotal 3e conhecido: 66 PP em habilidades, 79 em perícias, 42 em defesas, 19 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto."
+    "Subtotal 3e conhecido: 66 PP em habilidades, 79 em perícias, 42 em defesas, 19 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
+    "Correção de custo: as perícias somam 79 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 79 para 39.5 PP (subtotal e totais ajustados em -39.5)."
   ]
 }

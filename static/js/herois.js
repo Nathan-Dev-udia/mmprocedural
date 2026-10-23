@@ -72,6 +72,7 @@ function desenharFicha(f) {
     <dl class="habilidades-heroi">${habilidades}</dl>
     ${secoes}
     <footer>
+      <a class="botao" href="/herois/${f.id.split("/").map(encodeURIComponent).join("/")}.pdf" download>Baixar ficha em PDF</a>
       <p class="discreto">Fonte: ${escapar(f.fonte)}</p>
     </footer>`;
   el("ficha-heroi").hidden = false;

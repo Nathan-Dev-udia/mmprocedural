@@ -78,10 +78,10 @@
   "custos_3e": {
     "habilidades": 28,
     "defesas": 26,
-    "pericias": 82,
+    "pericias": 41,
     "vantagens": 12,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 148,
+    "subtotal_conhecido": 107,
     "poderes_pendentes": true,
     "total": null
   },
@@ -91,6 +91,7 @@
     "Poderes preservam os descritores, ranks, modificadores e custos 2e impressos; o guia orienta o efeito 3e equivalente. Custos 3e ficam nulos quando a construção exata ou os modificadores não permitem cálculo seguro.",
     "Nenhuma Motivação ou complicação não publicada foi acrescentada.",
     "Vantagens sem equivalente direto foram removidas conforme o guia; não foram recriadas como poderes: Sneak Attack.",
-    "Subtotal 3e conhecido: 28 PP em habilidades, 82 em perícias, 26 em defesas, 12 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto."
+    "Subtotal 3e conhecido: 28 PP em habilidades, 82 em perícias, 26 em defesas, 12 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
+    "Correção de custo: as perícias somam 82 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 82 para 41 PP (subtotal e totais ajustados em -41)."
   ]
 }
