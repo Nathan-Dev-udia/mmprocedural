@@ -1,0 +1,30 @@
+{
+  "nome": "Dawnstar",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 186,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 153
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "4",
+      "AGL": "5",
+      "DEX": "5",
+      "FGT": "9",
+      "INT": "2",
+      "AWE": "6",
+      "PRE": "3"
+    },
+    "poderes": "Flight: Flight 15 (64,000 MPH), Limited to rank 9 (1000 MPH) unless in outer space; Movement 3 (Space Travel 3); Wings • 15 points Space Adaptation: Immunity 10 (Life Support) • 10 points Super-Tracking: Senses 8 (Accurate, Acute, Direction Sense, Distance Sense, Extended, Tracking 2) • 8 points Wing Strike: Strength-based Damage 2 • 2 points",
+    "equipamento": "Flight Ring: Communication 5 (subspace radio, Anywhere, Limited to Distress Signal –3 points); Flight 7 (250 MPH), Removable (–3 points) • 16 points Telepathic Plug: Comprehend 3 (Languages); Mental Communication 1 (Close Range), Removable (–1 point) • 7 points Transsuit: Immunity 9 (Life Support, except for starvation and thirst), Removable (–2 point) • 7 points",
+    "vantagens": "Agile Feint, Attractive 1, Benefit 1 (Legion membership), Close Attack 7, Defensive Roll 3, Equipment 6, Evasion, Favored Environment (Aerial), Favored Environment (Outer Space), Grappling Finesse, Great Endurance, Improved Defense, Improved Initiative, Languages (Starhavenite), Move-by Action, Set-up, Teamwork, Tracking, Uncanny Dodge",
+    "pericias": "Acrobatics 8 (+13), Athletics 2 (+3), Deception 5 (+8), Intimidate 4 (+7), Insight 6 (+12), Investigate 6 (+8), Expertise: Guide 8 (+10), Perception 12 (+18), Persuasion 5 (+8), Stealth 6 (+11), Vehicles 2 (+7)",
+    "ataques": "Initiative +9 Wing Strike +16 Close, Damage 4 Unarmed +16 Close, Damage 2",
+    "defesas": "Dodge 13 Fortitude 8 Parry 11 Toughness 7/4* Will 8 *Without Defensive Roll bonus.",
+    "pontos_poder": "Abilities 72 Skills 32 Powers 34 Defenses 16 Advantages 32 ToTal 186",
+    "complicacoes": "Relationship: Dawnstar has a rocky love-hate relationship with Wildfire (See Vol. II ). Reputation: Dawnstar often comes across as stuck-up or aloof."
+  }
+}

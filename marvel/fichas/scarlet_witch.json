@@ -1,0 +1,101 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Scarlet Witch",
+  "nome_pt": "Scarlet Witch",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 150,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 85
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 4,
+      "Int": 3,
+      "Pro": 0,
+      "Pre": 4
+    },
+    "defesas": {
+      "Esquiva": 13,
+      "Aparar": 13,
+      "Fortitude": 8,
+      "Resistencia": 7,
+      "Vontade": 8
+    },
+    "pericias": {
+      "Enganação": 8,
+      "Especialidade: Artistic": 8,
+      "Persuasão": 10,
+      "Investigação": 9,
+      "Especialidade: Arcane Lore": 14,
+      "Percepção": 10,
+      "Intuição": 10,
+      "Furtividade": 10
+    },
+    "vantagens": [
+      "Attractive",
+      "Contacts",
+      "Defensive Roll 5",
+      "Luck 4",
+      "Improved Initiative",
+      "Ritualist",
+      "Teamwork",
+      "Ultimate Effort (Concentration checks)"
+    ],
+    "poderes": [
+      {
+        "nome": "Blast 12",
+        "construcao_3e": "Array: Blast 12, Penetrating; flaw: Wanda is Nuts; Alternate Effects: Animate Objects, Luck Control, Fire Control, Water Control, Plant Control, Earth Control, Air Control.",
+        "custo_2e_pp": 31,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Hex Bolts",
+        "bonus": 8,
+        "dano": 12
+      },
+      {
+        "nome": "Unarmed",
+        "bonus": 4,
+        "dano": 2
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 20,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 16,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 38,
+    "defesas": 49,
+    "pericias": 39.5,
+    "vantagens": 15,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 141.5,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Attack Specialization (Hex Bolts) 2 foi representado no ataque à distância, sem duplicar bônus; este perfil não lista Dodge Focus.",
+    "A fonte imprime STR/DEX/CON/INT/WIS/CHA +2/+2/+2/+3/+0/+4; Toughness +7/+2, Fortitude +8, Reflex +8, Will +8; Attack +4 (+8 w/ Hex Bolts); Defense 23; Initiative +6.",
+    "Perícias da fonte: Bluff +12 (Attractive +16), Craft (Artistic) +11, Concentration +12, Diplomacy +14, Gather Information +12, Knowledge (Arcane Lore) +17, Notice +10, Sense Motive +10, Stealth +10. Concentration foi omitida por não ter equivalente direto.",
+    "Esquiva/Aparar 13 com Resistência 7 = 20, limite PL 10. Hex Bolts attack +8, efeito 12 = 20.",
+    "A falha textual “Wanda is Nuts” foi mantida como descritor da fonte, sem converter em complicação não especificada.",
+    "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +2/+2/+2/+3/+0/+4. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
+    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
+  ]
+}

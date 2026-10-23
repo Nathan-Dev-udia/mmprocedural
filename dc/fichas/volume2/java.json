@@ -1,0 +1,28 @@
+{
+  "nome": "Java",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 6,
+  "pontos_poder_publicados": 67,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 53
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "5",
+      "STA": "4",
+      "AGL": "0",
+      "DEX": "0",
+      "FGT": "5",
+      "INT": "-1",
+      "AWE": "1",
+      "PRE": "0"
+    },
+    "poderes": "t ough S kin and d ense Bone (Protection 2)",
+    "vantagens": "All-out Attack, Chokehold, Close Attack 2, Diehard, Great Endurance, Power Attack, Startle",
+    "pericias": "Acrobatics 6 (+6), Athletics 6 (+11), Deception 2 (+2), Expertise: Sapphire Stagg 6 (+5), Intimidation 6 (+6), Stealth 4 (+4)",
+    "ataques": "Initiative +0, Unarmed +7 (Damage 5)",
+    "defesas": "Dodge 6, Parry 6, Fortitude 10, Toughness 6, Will 2",
+    "pontos_poder": "Abilities 28 + Powers 2 + Advantages 8 + Skills 15 + Defenses 14 = 67"
+  }
+}

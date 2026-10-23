@@ -1,0 +1,28 @@
+{
+  "nome": "Mister Mind",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 60
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "-5",
+      "STA": "0",
+      "AGL": "0",
+      "DEX": "-4",
+      "FGT": "-5",
+      "INT": "10",
+      "AWE": "8",
+      "PRE": "3"
+    },
+    "poderes": "t Mind Reading 12, Subtle • 25 points elepa thy: t elepa thic Control: Affliction 12 (Resisted by Will; Dazed, Compelled, Controlled), Concentration, Contagious, Progressive, Instant Recovery; Insidious, Subtle • 50 points t iny: Shrinking 20, Permanent, Innate • 21 points",
+    "vantagens": "Evasion 2, Trance (spins cocoon)",
+    "pericias": "Deception 10 (+13), Expertise: Psychology 4 (+14), Insight 4 (+12), Perception 2 (+10), Stealth 0 (+20)*, Technology 12 (+22)",
+    "ataques": "i nitia tive +0 Telepathic Control Affliction, Will DC 22",
+    "defesas": "d odge 10* f or titude 4 Parry 10* t oughness 0 W ill 16 *Includes size modifiers. W S Po er Point a bilities 24 S kills 16 Powers 96 d efenses 17 a dv antages 3 ToTal 156",
+    "complicacoes": "Worm: Mister Mind is a tiny worm in his normal state. Motivation—Conqueror: Mister Mind is driven to conquer worlds and destroy his enemies."
+  }
+}

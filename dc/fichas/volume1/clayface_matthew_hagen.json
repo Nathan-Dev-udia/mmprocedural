@@ -1,0 +1,29 @@
+{
+  "nome": "Clayface (Matthew Hagen)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 152,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 123
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "8/5",
+      "STA": "8",
+      "AGL": "4",
+      "DEX": "2",
+      "FGT": "0/4",
+      "INT": "3",
+      "AWE": "2",
+      "PRE": "3"
+    },
+    "poderes": "Clay Body: Array (13 points) • 13 points • Hard Clay Form: Strength-based Damge 4; Enhanced Fighting -4; Enhanced Strength 3; Protection 7; Impervious Toughness 4 • 13 points • Flowing Clay Form: Elongation 1 (15 feet); Insubstantial 1 (Liquid); Strength-based Damage 3; Movement 1 (Slithering • 1 point Inhuman: Immunity 8 (Critical Hits, Disease, Heat, Poison, Radiation, Suffocation) • 8 points Reassembly: Healing 5, Limited to Self; Regeneration 1, Persistent • 7 points Shapechange: Feature 1 (Voice Mimic); Morph 4 (Anything), Quirk: Using Clay Body power ends Shapechange (-1 point) • 20 points",
+    "vantagens": "Accurate Attack, All-out Attack, Chokehold, Fast Grab, Favored Environment (Muddy Conditions), Improved Grab, Improved Hold, Power Attack",
+    "pericias": "Athletics 4 (+12/+9*), Close Combat: Unarmed 9 (+13), Deception 7 (+10), Expertise: Geography 6 (+8), Expertise: History 6 (+8), Stealth 4 (+8)",
+    "ataques": "Initiative +4 Unarmed +13* Close, Damage 8, Elongation 15 feet* Unarmed +9 Close, Damage 12",
+    "defesas": "Dodge 6 Fortitude 15 Parry 6 Toughness 15/8* Will 5 *In Flowing Clay Form.",
+    "pontos_poder": "Abilities 60 Skills 8 Powers 49 Defenses 17 Advantages 8 ToTal 152",
+    "complicacoes": "Power Loss: Hagen must bathe in a radioactive pool once every 48 hours or he loses his powers. ALLIES Clayface’s associates include the Joker, Brainiac, Killer Moth, Two-Face, and Gentleman Ghost. ENEMIES Batman, Robin, Batgirl, and Superman have all fought and defeated Hagen."
+  }
+}

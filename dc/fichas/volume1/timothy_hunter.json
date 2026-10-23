@@ -1,0 +1,28 @@
+{
+  "nome": "Timothy Hunter",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 8,
+  "pontos_poder_publicados": 86,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 271
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "0",
+      "STA": "1",
+      "AGL": "1",
+      "DEX": "2",
+      "FGT": "1",
+      "INT": "3",
+      "AWE": "3",
+      "PRE": "2"
+    },
+    "vantagens": "Benefit 6 (Destiny), Defensive Roll 1, Extraordinary Effort, Ritualist, Sidekick 2 (Yo-Yo, owl familiar), Ultimate Effort (Expertise: Magic)",
+    "pericias": "Athletics 4 (+4), Close Combat: Unarmed 3 (+4), Deception 3 (+5), Expertise: Magic 8 (+11), Insight 6 (+9), Perception 6 (+9), Persuasion 4 (+6), Sleight of Hand 3 (+5), Stealth 3 (+4),",
+    "ataques": "Initiative +1 Unarmed +4 Close, Damage 0 senting unconscious uses of magic, or his ability to make normally “impossible” feats of magic work. • Tim can use extra effort to perform power stunts based on his Will rank as if it were a rank in the Magic power (see dC Adventures , page 105). This is in addition to the normal extra effort required to perform the stunt itself, so it requires Tim’s extraordinary effort capability, and may cost him some of his “free” uses or some hero points to pull off (which is why he doesn’t do it often). • Lastly, Tim’s destiny is widely known in the magical world, and may earn him certain perks in the form of deference or respect from magical beings and practi - tioners. On occasions when it causes him problems, it invokes his Trouble With Destiny complication. HUNTRESS HUNTRESS Helena Bertinelli is the daughter of Franco Bertinelli, a pow - erful Gotham City Mafia don. At age eight, she witnessed her parents gunned down by a hitman hired by a rival Mafioso, and was sent to live in Sicily with the Asaro family. As it turned out, the Asaros were a family of assassins, and her cousin Sal schooled her in hand-to-hand combat and other martial tech - niques that she would employ later in life as the Huntress. Helena hunted down Steven Mandragora (the Mafioso who had ordered the hit on her family), and in the process dis - covered that her biological father was a man named Santo Cassamento, a mobster whose family operated under the Mandragoras. He had passed along the order for the hit from Mandragora to the actual killer. While hunting down the hitman who had murdered her par - ents, Huntress saw Batman take on a Mafia crew and noted",
+    "defesas": "Dodge 9 Fortitude 6 Parry 9 Toughness 2/1* Will 10 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 26 Skills 20 Powers 0 Defenses 28 Advantages 12 ToTal 86",
+    "complicacoes": "Enemies: Tim has many enemies in the mystical world who would like to see him either dead or under their influence. Relationship: Tim’s first love, his girlfriend Molly, is a strong influence and presence in his life. Trouble With Destiny: His potent destiny sometimes puts Tim in difficult places to give him the experiences he needs. ALLIES Tim has a few allies in the mystical community, notably “The Trenchcoat Brigade” of John Constantine, the Phantom Stranger, Dr. Occult, and Mister E (although Mister E can be as much a threat as an ally). He’s also friends with Zatanna, who has helped and defended him in the past. ENEMIES A lot of the factions of the Shadow World are out to get Tim, pretty much all of the ones not specifically trying to help him, in fact. This includes demons, faeries, gods, and sorcerers of various stripes, to name a few. the fear that he engendered in them. She designed her Hunt - ress persona in part based on this principle, and embarked on a career of vigilantism directed at organized crime. Huntress donned the uniform of Batgirl when Gotham City was separated from the rest of the country by a massive earthquake. She discovered the criminals reacted to her much more fearfully as Batgirl than when she was the Hunt - ress, and she continued to use the Batgirl persona until she lost a battle with Two-Face, and Batman rescinded the privi - lege. She managed to regain his respect, however, when she stood up to the Joker and survived his brutal attack. After this incident, Batman nominated Huntress for mem - bership in the Justice League, hoping that the other heroes would help her temper her violent nature. This apparently worked for a time, but then Huntress attempted to kill the super-villain Prometheus. Batman stopped her and kicked her out of the Justice League. Following this, Huntress responded to an invitation from Oracle to fill a vacancy in the Birds of Prey, and has retained membership in that group ever since."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "nome": "Robot Drone",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 6,
+  "pontos_poder_publicados": 46,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 218
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "-5",
+      "STA": "—",
+      "AGL": "4",
+      "DEX": "-2",
+      "FGT": "0",
+      "INT": "—",
+      "AWE": "0",
+      "PRE": "—"
+    },
+    "poderes": "Stinger Blasts (electricity; Ranged Damage 6); Shrinking 8 (Permanent, Innate); Flight 5 (60 MPH; Wings); Immunity 40 (Fortitude Effects, Mental Effects)",
+    "ataques": "Initiative +4, Stinger Blasts +6 (Ranged Damage 6), Unarmed +8 (Damage –5)",
+    "defesas": "Dodge 12, Parry 9, Fortitude Immune, Toughness 0, Will Immune",
+    "pontos_poder": "Abilities –26 + Powers 71 + Advantages 0 + Skills 0 + Defenses 1 = 46"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "nome": "Streaky, The Super-Cat",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 185,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 293
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "10",
+      "STA": "10",
+      "AGL": "5",
+      "DEX": "0",
+      "FGT": "4",
+      "INT": "-3",
+      "AWE": "2",
+      "PRE": "1"
+    },
+    "poderes": "Cat (Movement 1 (Safe Fall); Shrinking 6, Innate, Normal Strength, Permanent); f ligh t (Flight 15 (64,000 MPH)), ae : f ast (Speed 16 (64,000 MPH*), Quickness 6, Stacks with Superspeed); i n vulnerability (Impervious Toughness 10; Immunity 10 (Life Support)); Super-Claws (Strength-based Damage 2); Super-Senses (Senses 15 (Acute and Extended Hearing, Extended Vision 3, Infravision, Microscopic Vision 4, Ultra-Hearing, Vision Penetrates Concealment (except lead))); Super-Speed (Quickness 8); Super-Strength (Enhanced Strength 3, Limited to Lifting (lifting Str 13; 200 tons))",
+    "vantagens": "Defensive Attack, Defensive Roll 2, Favored Foe (Mice), Improved Initiative",
+    "pericias": "Acrobatics 5 (+10), Athletics 7 (+17), Close Combat: Super-Claws 4 (+8), Perception 6 (+8), Purr-suasion 5 (+6), Stealth 2 (+13*)",
+    "ataques": "Initiative +9, Super-Claws+8 (Close, Damage 12), Unarmed +4 (Close, Damage 10)",
+    "defesas": "Dodge 10*, Parry 10*, Fortitude 10, Toughness 12/10**, Will 4 *Includes Shrinking modifiers. **Without Defensive Roll.",
+    "pontos_poder": "Abilities 58 + Powers 100 + Advantages 5 + Skills 15 + Defenses 7 = 185"
+  }
+}

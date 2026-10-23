@@ -1,0 +1,28 @@
+{
+  "nome": "H.I.V.E. Queen Bee",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 129,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 266
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "13",
+      "STA": "—",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "7",
+      "INT": "—",
+      "AWE": "0",
+      "PRE": "—"
+    },
+    "poderes": "Giant Robot Growth 8 (Permanent, Innate); Construct Immunity 40 (Fortitude Effects, Mental Effects); Armored Shell Protection 7, Impervious 5, Big Sting Ranged Burst Area Damage 10, Sensors Senses 5 (Darkvision, Infravison, Radius (All Visual))",
+    "vantagens": "All-out Attack, Fast Grab, Improved Aim, Improved Grab, Improved Hold, Improved Smash",
+    "pericias": "Intimidation 4 (+8), Perception 6 (+6)",
+    "ataques": "Initiative +2, Unarmed +7 (Close, Damage 13), Big Sting +8 (Ranged Damage 6, Burst Area)",
+    "defesas": "Dodge 0, Parry 5, Fortitude Immune, Toughness 15, Will Immune",
+    "pontos_poder": "Abilities 2 + Powers 112 + Advantages 6 + Skills 5 + Defenses 4 = 129"
+  }
+}

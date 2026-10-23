@@ -1,0 +1,121 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Sunspot",
+  "nome_pt": "Sunspot",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 165,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 99
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 10,
+      "Vig": 3,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 10,
+      "Int": 2,
+      "Pro": 1,
+      "Pre": 3
+    },
+    "defesas": {
+      "Esquiva": 13,
+      "Aparar": 13,
+      "Fortitude": 4,
+      "Resistencia": 7,
+      "Vontade": 5
+    },
+    "pericias": {
+      "Enganação": 8,
+      "Persuasão": 12,
+      "Investigação": 9,
+      "Especialidade: Negócios": 10,
+      "Percepção": 6,
+      "Especialidade: Administração de Empresas": 3,
+      "Intuição": 8,
+      "Combate a Distância: Blast": 7
+    },
+    "vantagens": [
+      "All-Out attack",
+      "Benefit [Wealth x3] 3",
+      "Connected",
+      "Equipment",
+      "Endurance",
+      "Power Attack",
+      "Languages 3"
+    ],
+    "poderes": [
+      {
+        "nome": "Blast [Concussive]",
+        "construcao_3e": "Efeito 3e correspondente ao descritor (rank 2e 10); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Blast [Concussive] 10 (Dynamic; Alternate Powers: Heat Blast, Light Blast, Flight - Dynamic; 25pp) Componentes/efeitos alternativos mapeados: Blast → Damage à distância; Flight → Flight.; custo 2e impresso 25 PP.",
+        "custo_2e_pp": 25,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Enhanced Strength",
+        "construcao_3e": "Enhanced Trait: Força (rank 2e 14); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Enhanced Strength 14 (14pp); custo 2e impresso 14 PP.",
+        "custo_2e_pp": 14,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Super Strength",
+        "construcao_3e": "Power-Lifting / Enhanced Strength (rank 2e 3); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Strength 3 (6pp); custo 2e impresso 6 PP.",
+        "custo_2e_pp": 6,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Strike",
+        "construcao_3e": "Damage (rank 2e 8); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Strike 8 (Extra: Aura [+1]; 16pp); custo 2e impresso 16 PP.",
+        "custo_2e_pp": 16,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Uniform (+4 Toughness Save; Subtle; 5ep)"
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "dano": 10
+      },
+      {
+        "nome": "Rajada",
+        "bonus": 10,
+        "dano": 10
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 20,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 9,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 70,
+    "defesas": 42,
+    "pericias": 63,
+    "vantagens": 11,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 186,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
+    "Perícias foram convertidas subtraindo do bônus total impresso o atributo 3e correspondente. Conhecimentos, Ofícios e Profissões foram mantidos como Especialidades; Condução/Pilotagem como Veículos; Sobrevivência como Especialidade: Sobrevivência; Computadores como Tecnologia.",
+    "Poderes preservam os descritores, ranks, modificadores e custos 2e impressos; o guia orienta o efeito 3e equivalente. Custos 3e ficam nulos quando a construção exata ou os modificadores não permitem cálculo seguro.",
+    "Nenhuma Motivação ou complicação não publicada foi acrescentada.",
+    "Idiomas adicionais descritos na fonte foram convertidos em Languages 3, usando a progressão da vantagem 3e.",
+    "Dodge Focus 5 foi convertido em ranks de Esquiva: base 13 + 5 = 18; valor final 13.",
+    "Defesas reduzidas por limite de NP 10: Esquiva 18→13 e Aparar 13→13; cada defesa ativa + Resistência 7 ≤ 20.",
+    "Subtotal 3e conhecido: 70 PP em habilidades, 63 em perícias, 42 em defesas, 11 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto."
+  ]
+}

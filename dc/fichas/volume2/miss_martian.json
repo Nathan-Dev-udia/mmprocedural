@@ -1,0 +1,27 @@
+{
+  "nome": "Miss Martian",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": 264,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 56
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "14",
+      "STA": "9",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "8",
+      "INT": "1",
+      "AWE": "1",
+      "PRE": "1"
+    },
+    "poderes": "f Flight 13 (16,000 MPH) • 26 points ligh t: • Space f ligh t: Movement 1 (Space Travel 1) • 1 point Martian d ur ability: Immunity 10 (Life Support); Impervious Protection 3 • 16 points Martian Morphology: Array (20-point), Dynamic • i n tangibility: Insubstantial 4, Dynamic • 21 points • d ensity: Protection 2, Impervious Toughness 14, Sustained, Dynamic • 2 points • i n visibility: Visual Concealment 4, Dynamic • 2 points • Shapeshifting: Morph 4 (Any Form), Dynamic • 2 points Martian Senses: Super-Senses 7 (Extended Vision 2, Mental Awareness, Vision Penetrates Concealment) • 7 points Martian Strength: Power-lifting 4 (Lifting Str 18; 6,000 tons) • 4 points Martian Vision: Ranged Damage 10 (force) • 20 points t elepa thy: Mental Communication 4, Mind Reading 9 • 34 points a V ant G d a e S Close Attack 2, Great Endurance, Power Attack",
+    "pericias": "Deception 4 (+5), Insight 8 (+9), Intimidation 6 (+7), Perception 8 (+9), Persuasion 5 (+6), Ranged Combat: Martian Vision 8 (+10), Stealth 7 (+9), Technology 4 (+5), Vehicles 4 (+6)",
+    "ataques": "i nitia tive +2 Martian Vision +10 Ranged, Damage 10 Unarmed +10 Close, Damage 14",
+    "defesas": "d odge 10 f or titude 12 Parry 10 t oughness 14/12* W ill 12 *Without Density",
+    "pontos_poder": "a bilities 76 S kills 25 Powers 135 d efenses 24 a dv antages 4 ToTal 264"
+  }
+}

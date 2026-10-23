@@ -1,0 +1,103 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Iron Man",
+  "nome_pt": "Homem de Ferro",
+  "nivel_poder": 12,
+  "pontos_poder_origem": 200,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 44
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 14,
+      "Vig": 2,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 10,
+      "Int": 6,
+      "Pro": 3,
+      "Pre": 3
+    },
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 10,
+      "Fortitude": 6,
+      "Resistencia": 14,
+      "Vontade": 8
+    },
+    "pericias": {
+      "Enganação": 12,
+      "Especialidade: Mecânica": 16,
+      "Persuasão": 12,
+      "Especialidade: Negócios": 12,
+      "Especialidade: Tecnologia": 12,
+      "Especialidade: Industrialista": 9,
+      "Intuição": 8,
+      "Combate a Distância: Repulsor Blast": 8,
+      "Combate a Distância: Line Area Blast": 8
+    },
+    "vantagens": [
+      "Accurate Attack",
+      "Assessment",
+      "Attractive",
+      "Benefit: Wealth 3",
+      "Inventor",
+      "Power Attack",
+      "Teamwork"
+    ],
+    "poderes": [
+      {
+        "nome": "Iron Man Armor",
+        "construcao_3e": "Device Removable: Protection 12 (Impervious), Enhanced Strength 24, Blast 14 (Split Attack; Alternate Effect: Line Area Blast 9), Immunity 9 (Life Support), Flight 8, Senses 4 (Extended Sight, Distance Sense, Danger Sense, Infravision), Super-Strength 1. 88 PP na fonte.",
+        "custo_2e_pp": 88,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "dano": 14
+      },
+      {
+        "nome": "Repulsor Blast",
+        "bonus": 10,
+        "dano": 14
+      },
+      {
+        "nome": "Line Area Blast",
+        "bonus": 10,
+        "dano": 9
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 24,
+      "esquiva_mais_resistencia": 24,
+      "aparar_mais_resistencia": 24,
+      "fortitude_mais_vontade": 14,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 84,
+    "defesas": 34,
+    "pericias": 49,
+    "vantagens": 9,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 176,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Dodge Focus 6 foi convertido em Dodge ranks; Dodge foi limitado a 10 para cumprir o par com Toughness 14 (NP 12).",
+    "O Attack 10 + Blast 14 é legal no limite de NP 12; Blast em área rank 9 foi mantido como efeito alternativo.",
+    "A fonte trata todo o conjunto como Device 22, mas registra o custo do conjunto como 88 PP; ambos foram preservados.",
+    "Dodge foi ajustada de 16 para 10 para cumprir Dodge + Toughness ≤ 24 (NP 12)."
+  ]
+}

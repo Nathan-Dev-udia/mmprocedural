@@ -1,0 +1,28 @@
+{
+  "nome": "Zatanna",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 279
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "0",
+      "STA": "2",
+      "AGL": "2",
+      "DEX": "4",
+      "FGT": "2",
+      "INT": "3",
+      "AWE": "4",
+      "PRE": "4"
+    },
+    "poderes": "Magic: Array (28 points) • e nogeb Cigam!: Nullify 14 (All Magic Effects) • 28 points • e b W on d nuob!: R anged Affliction 14 (Resisted by Dodge; Hindered and Vulnerable, Defenseless and Immobilized) • 1 point • Cigam e k irts!: Ranged Damage 14 (magic) • 1 point • o tserp e gnahc o !: Ranged Affliction 9 (Resisted by Fortitude; Dazed, Stunned, Transformed), Cumulative • 1 point • r aeppa!: Create 9, Continuous, Subtle • 1 point • t c etorp!: Perception Ranged Deflect 14 • 1 point • Won t egr of: Affliction 9 (Resisted by Will; Dazed, Stunned, Transformed—subject forgets), Insidious, Progressive • 1 point • t r opsnart e m!: Teleport 14 (60 miles) • 1 point Mystic Senses: Senses 4 (Detect Magic, Ranged, Acute, Analytical) • 4 points a V ant G d a e S Artificer, Attractive, Connected, Defensive Attack, Extraordinary Effort, Fascinate (Expertise: Performance), Luck, Ritualist, Teamwork",
+    "pericias": "Deception 8 (+12), Expertise: Magic 12 (+15), Expertise (PRE): Performance 8 (+12), Insight 8 (+12), Perception 6 (+10), Persuasion 6 (+10), Ranged Combat: Magic 4 (+8), Sleight of Hand 10 (+14), Treatment 4 (+7)",
+    "ataques": "i nitia tive +2 Magic +8 Ranged, Damage 14 plus others Unarmed +2 Close, Damage 0",
+    "defesas": "d odge 12 f or titude 7 Parry 8 t oughness 2 W ill 13 Po er Point W S a bilities 42 S kills 33 Powers 39 d efenses 30",
+    "vantagens": "9 ToTal 153",
+    "complicacoes": "e nemies: Zatanna has various mystical foes who consider her a thr eat. Guilt: Zatanna feels guilt over the death of her father, Zatara, who sacrificed himself to save her. Power Loss: Zatanna needs to speak aloud (and backwards) to cast her spells."
+  }
+}

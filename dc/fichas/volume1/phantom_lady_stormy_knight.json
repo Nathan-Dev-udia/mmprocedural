@@ -1,0 +1,29 @@
+{
+  "nome": "Phantom Lady (Stormy Knight)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 184,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 217
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "4",
+      "AGL": "3",
+      "DEX": "3",
+      "FGT": "3",
+      "INT": "4",
+      "AWE": "3",
+      "PRE": "4"
+    },
+    "poderes": "of the Black Condor. The Mayan spider goddess Tocotl granted him the abilities he sought, empowering him with the very spirits of the land and air. She also charged Trujillo with joining Uncle Sam’s efforts to end Gonzo the Mechanical Bastard’s threat to America. Uncle Sam foresaw Trujillo becoming the new Black Condor, and led the Freedom Fighters into the Southwestern desert in search of him. A team of metahumans working for S.H.A.D.E. intercepted them first, and were on the verge of apprehend - ing Sam and his compatriots when Trujillo appeared on the scene. Almost single-handedly, Trujillo defeated the S.H.A.D.E. operatives and forced them to retreat. Trujillo’s power and courage quickly made him a cornerstone of the new team, and he became a close confidant of the similarly mystically empowered Uncle Sam. Even after other members left the team to get their lives in order, he remains",
+    "vantagens": "Attractive 2, Defensive Attack, Defensive Roll 2, Evasion, Fascinate (Deception), Grabbing Finesse, Improved Grab, Improved Hold, Improved Trip, Redirect",
+    "pericias": "Close Combat: Unarmed 8 (+11), Deception 8 (+12), Expertise: Science 5 (+9), Expertise: Popular Culture 6 (+10), Insight 4 (+7), Ranged Combat: Black-Light Bands 7 (+10), Stealth 8 (+11), Technology 4 (+8)",
+    "ataques": "Initiative +3, Black-Light Bands +10 (Ranged Damage 10, Penetrating 10), Unarmed +11 (Damage 3)",
+    "defesas": "Dodge 12, Parry 12, Fortitude 8, Toughness 6/4, Will 8",
+    "pontos_poder": "Abilities 54 + Powers 66 + Advantages 12+ Skills 25 + Defenses 27 = 184",
+    "complicacoes": "Recognition: Stormy’s stated goal is to prove to herself she’s more worthy than other socialites, but her actions indicate it’s more important for the world to acknowledge it. Addiction: Stormy currently has her alcoholism under control, but the demands of her life as a famous movie actress/super hero remain a constant threat to push her off the wagon. keep his power in check until, at Father Time’s behest, he was equipped to serve the organization as the new Human Bomb. Of the various metahumans working for S.H.A.D.E., Andy had the most qualms about its aims and means, and eventu - ally deserted it to join Uncle Sam in forming a new Freedom Fighters. In time, his teammates lost their trepidations about his volatile abilities, and his awesome powers were a major asset in defeating Gonzo the Mechanical Bastard and its cor - rupt allies in S.H.A.D.E. Later incidents threatened Andy’s new hard-won friendships with his teammates. While both were under the influence of invading alien insects, Jenna Raleigh forced Andy to mate with her, something for which he has yet to forgive her. Andre Twist in turn harbored a grudge against Andy for the incident because of his feelings for Jenna, but the two have since rec - onciled. With the Freedom Fighters in abeyance, Andy pon - ders his future in the team’s “Heartland” sanctuary. ROY LINCOLN The original Human Bomb’s abilities were similar to Franklin’s, but with a top-rank Damage 9. Lincoln also did not have the Accident complication."
+  }
+}

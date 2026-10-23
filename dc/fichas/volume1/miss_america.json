@@ -1,0 +1,29 @@
+{
+  "nome": "Miss America",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": 223,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 219
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "5",
+      "STA": "7",
+      "AGL": "3",
+      "DEX": "2",
+      "FGT": "3",
+      "INT": "3",
+      "AWE": "3",
+      "PRE": "3"
+    },
+    "poderes": "were fading, lead - ing to her retirement and subsequent marriage to Admiral Derek Trevor. The couple adopted a daughter, Hippolyta, who later became the second costumed heroine known as Fury. In truth, Joan hid her powers and true age to live a quiet family life, until recently when her husband’s death and the appear - ance of an evil imposter finally brought the real Miss America back. Now more powerful than ever, Miss America remains a",
+    "vantagens": "Accurate Attack, Attractive, Defensive Attack, Fast Grab, Improved Disarm, Improved Hold, Improved Trip, Leadership",
+    "pericias": "Close Combat: Unarmed 5 (+8), Deception 7 (+10), Expertise: Chemistry 8 (+11), Expertise: Journalist 2 (+5), Insight 7 (+10), Persuasion 7 (+10)",
+    "ataques": "Initiative +3, Elemental Transmutation (Perception Range Affliction 12, others), Unarmed +8 (Damage 5)",
+    "defesas": "Dodge 15, Parry 15, Fortitude 12, Toughness 7, Will 12",
+    "pontos_poder": "Abilities 58 + Powers 101 + Advantages 8 + Skills 18 + Defenses 38 = 223",
+    "complicacoes": "Doing Good: Joan believes in fighting for what’s right, sometimes to the exclusion of all other considerations. Patriotism: As her code name indicates, Joan is a proud citizen of the United States."
+  }
+}

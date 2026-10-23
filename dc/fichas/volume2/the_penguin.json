@@ -1,0 +1,29 @@
+{
+  "nome": "The Penguin",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 161,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 103
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "0",
+      "STA": "3",
+      "AGL": "2",
+      "DEX": "4",
+      "FGT": "6",
+      "INT": "5",
+      "AWE": "5",
+      "PRE": "4"
+    },
+    "poderes": "t Easily Removable (-6 points) • 23 points rick Umbr ellas: Mini-Helicopter: Flight 4 (30 MPH) • 8 points Weapons: Array (18 points) • Spinning Blades: Multiattack Damage 9 • 18 points • f lamethr ower: Cone Area Damage 6, Secondary Effect • 1 point • k nockout Gas: Cloud Area Affliction 9 (Resisted by Fortitude; Fatigued, Exhausted, Incapacitated) • 1 point • Machine Gun: Ranged Multiattack Damage 6 • 1 point",
+    "vantagens": "Animal Empathy, Benefit 4 (Multi-millionaire), Benefit 2 (Status: Criminal mastermind), Close Attack 2, Connected, Contacts, Defensive Roll 3, Ranged Attack 4, Well-informed",
+    "pericias": "Close Combat: Trick Umbrella 4 (+10), Expertise: Business 12 (+17), Expertise: Criminal 14 (+19), Expertise: Ornitholo - gy 10 (+15), Insight 4 (+9), Investigation 6 (+11), Persuasion 8 (+12), Ranged Combat: Trick Umbrella 6 (+10), Technol- ogy 8 (+13), Vehicles 10 (+14) nections to further his personal empire. If something results in the the Penguin achieving more respect, more money, or both then he will find a way to be involved.",
+    "ataques": "i nitia tive +2 Flamethrower — Cone Area, Damage 6, Secondary Effect Knockout Gas — Cloud Area, Affliction 9, Resisted by Fortitude Machine Gun +14 Ranged, Multiattack Damage 6 Spinning Blades +12 Close, Multiattack Damage 9 Unarmed +8 Close, Damage 0",
+    "defesas": "d odge 8 f or titude 8 Parry 12 t oughness 6/3* W ill 8 *Without Defensive Roll.",
+    "pontos_poder": "a bilities 58 S kills 41 Powers 23 d efenses 20 a dv antages 19 ToTal 161",
+    "complicacoes": "o bsession: The Penguin is obsessed with birds. ademark: The Penguin’s crimes usually have a bird-related t r theme. The Gamemaster should make liberal use of complications ( DC Adventures Hero’s Handbook, page 27) in scenarios involv- ing the Penguin, from the elements of the Felonious Fowl’s latest scheme (deathtraps, red herrings, and so forth) to a cunning use of his thugs or another distraction to cover his escape when his plan goes sour. aLLI e S The Penguin possesses deep ties to the Gotham mob, and an audit of his business practices revealed connections to Lex Luthor’s empire as well. He was once a member of both the Injustice League and Suicide Squad, but now prefers a more lucrative solo career. His recent allies include the Riddler and Mad Hatter, and he has allied himself with several of Gotham’s other key criminal players when it has been profitable to do so, including Catwoman, the Joker, Scarecrow and Two-Face. Batman occasionally uses Cobblepot as a source of informa- tion: the Penguin is more than happy to sell information to Batman provided the price is right, though the Penguin has a habit of neglecting to mention key elements that might give the Dark Knight too much help. He employs three “hench- birds” in the Iceberg Lounge—Jay, Raven and Lark—beautiful women who serve as hostesses and information-gatherers. e ne MI e S The Penguin’s criminal activities put him in conflict with other criminals and Gotham’s law enforcement, especially Batman and Robin. He has actively fought Two-Face, Killer Croc, Black Mask, the Joker, Mr. Freeze, and the Great White Shark for control over various parts of Gotham City, though usually in a proxy gang war between underlings."
+  }
+}

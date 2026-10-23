@@ -1,0 +1,29 @@
+{
+  "nome": "Murmur",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 142,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 74
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "3",
+      "AGL": "5",
+      "DEX": "5",
+      "FGT": "9",
+      "INT": "4",
+      "AWE": "4",
+      "PRE": "-2"
+    },
+    "poderes": "a bnormal B ody Chemistry: Immunity 2 (Disease, Poison) • 2 points i PM ent eQU Assortment of 10 knives",
+    "vantagens": "Agile Feint, All-out Attack, Defensive Roll 4, Equipment 4, Evasion 2, Fearless, Hide in Plain Sight, Improved Critical 3 (Knives), Improved Disarm, Improved Initiative, Power Attack, Precise Attack 4 (Close and Ranged; Cover and Concealment), Prone Fighting, Quick Draw",
+    "pericias": "Acrobatics 8 (+13), Athletics 8 (+10), Close Combat: Knife 6 (+15), Expertise: Surgeon 10 (+14), Perception 6 (+10), Ranged Combat: Throw 10 (+15), Sleight of Hand 4 (+9), Stealth 8 (+13), Treatment 10 (+14)",
+    "ataques": "i nitia tive +9 Knife +15 Close, Damage 3, Crit. 16-20 Thrown Knife +15 Ranged, Damage 3, Crit. 16-20",
+    "defesas": "d odge 11 f or titude 9 Parry 11 t oughness 7/3* W ill 9 *Without Defensive Roll",
+    "pontos_poder": "a bilities 60 S kills 35 Powers 2 d efenses 19 antages 26 a dv ToTal 142",
+    "complicacoes": "Mute: Murmur cut out his own tongue for fear of incriminating himself. k iller: Murmur kills in a futile attempt to silence the Serial voices inside his head."
+  }
+}

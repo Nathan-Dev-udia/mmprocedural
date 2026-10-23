@@ -1,0 +1,27 @@
+{
+  "nome": "Leslie “Rocky” Davis",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 124,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 114
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "5",
+      "STA": "5",
+      "AGL": "4",
+      "DEX": "2",
+      "FGT": "6",
+      "INT": "1",
+      "AWE": "2",
+      "PRE": "3"
+    },
+    "vantagens": "All-out Attack, Close Attack 2, Defensive Attack, Defensive Roll 3, Diehard, Equipment 4, Extraordinary Effort, Fast Grab, Improved Critical 3 (Unarmed), Interpose, Power Attack, Skill Mastery (Athletics), Teamwork",
+    "pericias": "Acrobatics 5 (+9), Athletics 10 (+15), Close Combat: Unarmed 5 (+11), Expertise: Religion 3 (+4), Insight 6 (+8), Intimidation 6 (+9), Perception 5 (+7), Treatment 6 (+7), Vehicles 6 (+8)",
+    "ataques": "Initiative +2, Unarmed +13 (Close Damage 5, Critical 17-20)",
+    "defesas": "Dodge 10, Parry 10, Fortitude 12, Toughness 8/5, Will 6",
+    "pontos_poder": "Abilities 56 + Powers 0 + Advantages 21 + Skills 26 + Defenses 21 = 124"
+  }
+}

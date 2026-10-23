@@ -1,0 +1,109 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Mystique",
+  "nome_pt": "Mística",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 180,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 61
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 4,
+      "Des": 4,
+      "Lut": 14,
+      "Int": 3,
+      "Pro": 1,
+      "Pre": 7
+    },
+    "defesas": {
+      "Esquiva": 14,
+      "Aparar": 14,
+      "Fortitude": 7,
+      "Resistencia": 6,
+      "Vontade": 7
+    },
+    "pericias": {
+      "Acrobacia": 8,
+      "Enganação": 12,
+      "Tecnologia": 8,
+      "Veículos": 4,
+      "Prestidigitação": 8,
+      "Percepção": 8,
+      "Intuição": 8,
+      "Furtividade": 13,
+      "Combate a Distância: Pistolas": 10
+    },
+    "vantagens": [
+      "Accurate Attack",
+      "Defensive Attack",
+      "Defensive Roll 4",
+      "Equipment 3",
+      "Improved Disarm",
+      "Improved Initiative 2",
+      "Improved Trip",
+      "Inspire 2",
+      "Instant Up",
+      "Luck",
+      "Power Attack",
+      "Precise Shot 2",
+      "Seize Initiative",
+      "Skill Mastery: Deception, Prestidigitation, Disguise, Furtividade",
+      "Uncanny Dodge"
+    ],
+    "poderes": [
+      {
+        "nome": "Morph",
+        "construcao_3e": "Morph 10.",
+        "custo_2e_pp": 30,
+        "custo_3e_pp": 10
+      }
+    ],
+    "equipamento": [
+      "Twin Pistols (+4 Damage; Autofire; 12 EP)",
+      "3 EP extras"
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Pistolas",
+        "bonus": 14,
+        "dano": 4
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 14,
+        "dano": 2
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 18,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 14,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 74,
+    "defesas": 42,
+    "pericias": 40,
+    "vantagens": 26,
+    "poderes_conhecidos": 10,
+    "subtotal_conhecido": 192,
+    "poderes_pendentes": false,
+    "total": null
+  },
+  "notas_conversao": [
+    "Dodge Focus 6 foi convertido em Dodge ranks e limitado a 14 com Toughness 6 para NP 10.",
+    "Skill Mastery: Disguise foi mantida na vantagem embora a fonte não apresente bônus de Disguise; não foi criada graduação de perícia.",
+    "Elusive Target, Ranged Pin, Sneak Attack e Stunning Attack não têm equivalente direto e foram omitidas/registradas nesta nota.",
+    "Dodge foi ajustada de 20 para 14 para cumprir Dodge + Toughness ≤ 20 (NP 10)."
+  ]
+}

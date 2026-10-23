@@ -1,0 +1,29 @@
+{
+  "nome": "Warp",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 191,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 95
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "4",
+      "AGL": "5",
+      "DEX": "5",
+      "FGT": "2",
+      "INT": "2",
+      "AWE": "2",
+      "PRE": "2"
+    },
+    "poderes": "to create portals across a target, effectively cutting through the subject by displacing the mat - ter on either side of the portal to another point in space.",
+    "vantagens": "Benefit 2 (Independently Wealthy), Connected, Defensive Roll 2, Languages (English, French is native), Skill Mastery (Stealth)",
+    "pericias": "Acrobatics 1 (+6), Athletics 2 (+5), Close Combat: Unarmed 3 (+5), Deception 5 (+7), Expertise: Criminal 5 (+7), Expertise: Streetwise 1 (+3), Perception 4 (+6), Persuasion 2 (+4), Sleight of Hand 3 (+8), Stealth 8 (+13)",
+    "ataques": "Initiative +5, Unarmed +5 (Close, Damage 3), Warp Split—(Perception, Damage 10, Penetrating 10)",
+    "defesas": "Dodge 12, Parry 6, Fortitude 6, Toughness 6/4*, Will 6 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 50 + Powers 100 + Advantages 7 + Skills 17 + Defenses 17 = 191",
+    "complicacoes": "The High Life: Warp enjoys living an expensive, jet-set lifestyle, and will not settle for anything but the best. This make him somewhat predictable in his tastes and personal habits.."
+  }
+}

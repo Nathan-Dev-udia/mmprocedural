@@ -1,0 +1,29 @@
+{
+  "nome": "Tigress",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 168,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 283
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "4",
+      "STA": "4",
+      "AGL": "5",
+      "DEX": "5",
+      "FGT": "12",
+      "INT": "2",
+      "AWE": "3",
+      "PRE": "2"
+    },
+    "poderes": "Senses 5 (Accurate Hearing, Acute Smell, Low-light Vision, Tracking); Speed 3 (16 MPH)",
+    "equipamento": "Bolos (Snare 3), Crossbow (Ranged Damage 3), Knives (Strength-based Damage 1, Improved Critical)",
+    "vantagens": "Accurate Attack, Agile Feint, Assessment, Chokehold, Close Attack 2, Defensive Roll 2, Equipment 3, Evasion, Great Endurance, Hide in Plain Sight, Improved Initiative, Improvised Weapons, Instant Up, Precise Attack, Quick Draw, Redirect, Set-up, Seize Initiative, Throwing Mastery, Tracking, Uncanny Dodge",
+    "pericias": "Acrobatics 9 (+14), Athletics 10 (+14), Deception 6 (+8), Insight 8 (+11), Intimidation 6 (+8), Investigation 8 (+10), Perception 10 (+13), Persuasion 4 (+6), Ranged Combat: Crossbow 7 (+12), Stealth 12 (+17), Vehicles 4 (+9)",
+    "ataques": "Initiative +9, Crossbow +12 (Damage 3), Knives +14 (Damage 6, Crit. 19-20), Unarmed +14 (Damage 4)",
+    "defesas": "Dodge 14, Parry 14, Fortitude 8, Toughness 6/4, Will 8",
+    "pontos_poder": "Abilities 74 + Powers 8 + Advantages 25 + Skills 41 + Defenses 20 = 168"
+  }
+}

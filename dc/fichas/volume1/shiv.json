@@ -1,0 +1,29 @@
+{
+  "nome": "Shiv",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 141,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 282
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "5",
+      "STA": "5",
+      "AGL": "6",
+      "DEX": "6",
+      "FGT": "8",
+      "INT": "2",
+      "AWE": "1",
+      "PRE": "1"
+    },
+    "poderes": "Cybernetic Augmentations (Enhanced Agility 3, Enhanced Dexterity 3, Enhanced Fighting 4, Enhanced Stamina 4, Enhanced Strength 5, Leap 1, Protection 3, Speed 3 (16 MPH)); Internal Weapons Systems (Array (12 points), Flamethrower (Cone Area Damage 6), AE: Retractable Blades (Strength-based Damage 3), AE: Submachine Gun (Multiattack Ranged Damage 4))",
+    "vantagens": "Accurate Attack, Agile Feint, All-out Attack, Close Attack 4, Defensive Attack, Improved Initiative, Power Attack, Taunt",
+    "pericias": "Acrobatics 6 (+12), Athletics 6 (+11), Deception 4 (+5), Insight 5 (+6), Intimidation 5 (+6), Perception 6 (+7), Ranged Combat: Guns 6 (+12), Stealth 6 (+11), Technology 2 (+3)",
+    "ataques": "Initiative +10, Flamethrower (Cone Area Damage 6), Retractable Blades +12 (Damage 8), Submachine Gun +12 (Multiattack, Damage 4), Unarmed +12 (Damage 5)",
+    "defesas": "Dodge 12, Parry 12, Fortitude 8, Toughness 8, Will 6",
+    "pontos_poder": "Abilities 30 + Powers 59 + Advantages 11 + Skills 23 + Defenses 18 = 141",
+    "complicacoes": "Daddy Issues: Shiv has a warped devotion to making her father proud despite what he has done to her"
+  }
+}

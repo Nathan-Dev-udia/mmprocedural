@@ -1,0 +1,29 @@
+{
+  "nome": "Rex The Wonder Dog",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 8,
+  "pontos_poder_publicados": 139,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 294
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "3",
+      "AGL": "5",
+      "DEX": "0",
+      "FGT": "5",
+      "INT": "2",
+      "AWE": "5",
+      "PRE": "2"
+    },
+    "poderes": "Bite (Strength-based Damage 2); d og (Senses 4 (Acute Smell, Low-light Vision, Tracking, Ultra-hearing); Shrinking 1, Innate, Normal Strength, Permanent; Speed 3 (16 MPH)); Wonder d og (Comprehend 2 (Animals; Speak To, Understand); Feature 1 (Wonder Dog*); Immunity 2 (Aging, Disease))",
+    "vantagens": "All-out Attack, Animal Empathy, Beginner’s Luck, Connected, Defensive Roll 3, Evasion, Fearless, Great Endurance, Improved Trip, Improvised Tools, Instant Up, Jack- of-all-trades, Languages 4, Luck 2, Startle",
+    "pericias": "Acrobatics 2 (+7), Athletics 9 (+12), Close Combat: Bite 4 (+9), Deception 2 (+4), Expertise: Animal Handling 5 (+7), Expertise: History 4 (+6), Expertise: Military 6 (+8), Expertise: Magic 3 (+5), Insight 4 (+9), Intimidation 5 (+7), Investigation 4 (+6), Perception 7 (+12), Persuasion 3 (+5), Stealth 2 (+7**)",
+    "ataques": "Initiative +5, Bite +9 (Close, Damage 5), Unarmed +5 (Close, Damage 3)",
+    "defesas": "Dodge 10**, Parry 10**, Fortitude 8, Toughness 6/3***, Will 8 *Rex’s Wonder Dog Feature lets him attempt tasks most dogs just can’t like horse riding, driving, bull-fighting, and so on. GMs may apply penalties for exceptionally unlikely tasks. **Includes Shrinking modifiers. ***Without Defensive Roll.",
+    "pontos_poder": "Abilities 50 + Powers 20 + Advantages 21 + Skills 30 + Defenses 18 = 139",
+    "complicacoes": "d og: Rex is a dog and that imposes rather obvious limitations. However, he’s a genius dog that can talk, so these limitations don’t come up much. His Feature (Wonder Dog) lets him attempt tasks he has no business trying as a canine, such as riding a horse or driving a car."
+  }
+}

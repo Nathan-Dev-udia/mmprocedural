@@ -1,0 +1,30 @@
+{
+  "nome": "Manhunter (Paul Kirk)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": 177,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 41
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "4",
+      "AGL": "6",
+      "DEX": "5",
+      "FGT": "10",
+      "INT": "1",
+      "AWE": "4",
+      "PRE": "4"
+    },
+    "poderes": "Healing n anobots: Regeneration 3 • 3 points",
+    "equipamento": "Mauser: Ranged Damage 4 • 8 points s hurik en: Ranged Multiattack Damage 3 • 3 points k atar ( l ong Dagger): Strength-based Damage 2 • 2 points",
+    "vantagens": "Accurate Attack, Assessment, Chokehold, Close Attack 4, Defensive Attack, Defensive Roll 4, Equipment 3, Great Endurance, Improved Initiative, Instant Up, Power Attack, Precise Attack (Ranged; Concealment), Ranged Attack 8, Takedown, Throwing Mastery 2, Tracking",
+    "pericias": "to work hunting criminals after he was recruited by the extraterres- trial androids known as the Manhunters. The world believes Paul Kirk died on a hunting expedition in 1946 but, in reality, his story was just beginning. Kirk’s “corpse” was seized by a conspiracy of super-criminals known as “the Council” who began building an army of assassins cloned from his genetic blueprint. Several decades later, when the army was nearly complete, Kirk himself was revived and sub- jected to intensive brainwashing and martial-arts training so he could serve as its commander. But the Council’s brainwashing never completely broke Kirk’s will. He rebelled against his superiors on his very first mission and joined forces with Interpol agent Christine St. Clair and his martial-arts instructor Asano Nitobe to bring down the Council. In the end, Kirk apparently gave his life to destroy the secret society once and for all, though a new incarnation of the Council soon arose to plague the Justice Society.",
+    "ataques": "i nitia tive +10 Unarmed +14 Damage 3 Katar +19 Close, Strength-based Damage 5 Mauser +18 Ranged, Damage 4 Shuriken +18 Ranged, Multiattack Damage 3",
+    "defesas": "Dodge 14 f or titude 9 p arr y 14 Toughness 8/4* w ill 9 * Without Defensive Roll.",
+    "pontos_poder": "Abilities 74 s k ills 46 p o wers 3 Defenses 22 Advantages 32 ToTal 177",
+    "complicacoes": "e nemy: The Council Q uirk: Man without a past."
+  }
+}

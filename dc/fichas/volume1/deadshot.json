@@ -1,0 +1,30 @@
+{
+  "nome": "Deadshot",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 165,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 156
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "4",
+      "AGL": "3",
+      "DEX": "5",
+      "FGT": "4",
+      "INT": "2",
+      "AWE": "3",
+      "PRE": "1"
+    },
+    "poderes": "Armored Costume: Protection 3; Feature 1 (Conceals vital signs from normal senses); Removable (–1 point) • 3 points Eyescope Mask: Senses 3 (Extended Sight, Infravision, Low-Light Vision) 3; Feature 1 (Conceals vital signs from normal senses); Removable (–1 point) • 3 points Master Marksman: Enhanced Advantage (Ranged Attack 8), Extended Range, Innate, Ricochet 3 • 13 points Wrist Loader: Array (18 points), Removable (–4 points) • 14 points • Silenced Magnums: Ranged Damage 5, Multiattack, Penetrating 2, Subtle • 18 points • Mini-Rocket: Ranged Damage 7, Burst Area (4 ranks only), Unreliable (5 Uses) • 1 point • Kill Shot: Ranged Damage 5, Homing, Incurable, Penetrating 5 • 1 point",
+    "equipamento": "Sniper Rifle: Ranged Damage 5, Improved Critical • 11 points Knife: Damage 1, Improved Critical • 2 points Arsenal: 22 points worth of assorted weapons.",
+    "vantagens": "Accurate Attack, All-out Attack, Close Attack 3, Defensive Roll 2, Diehard, Equipment 7, Fearless, Improved Aim, Improved Critical (Wrist Loader), Improved Disarm, Improved Initiative, Inventor, Luck, Move-by Action, Power Attack, Precise Attack, Quick Draw, Ranged Attack 6 , Takedown, Throwing Mastery 2",
+    "pericias": "Acrobatics 8 (+11), Expertise: Mercenary 8 (+10), Intimidation 9 (+10), Perception 11 (+14), Ranged Combat: Wrist Loader 2 (+7), Stealth 9 (+12), Technology 7 (+9)",
+    "ataques": "Initiative +7 Unarmed +7 Close, Damage 3 Knife +7 Close, Damage 4, Crit. 19-20 Knife (thrown) +11 Ranged, Damage 6, Crit. 19-20 Mini-Rocket +13 Ranged, Damage 7; Burst Area Damage 4 Silenced Magnums +13 Ranged, Multiattack Damage 5, Penetrating 2, Crit. 19-20 Sniper Rifle +11 Ranged, Damage 5",
+    "defesas": "Dodge 12 Fortitude 8 Parry 10 Toughness 9/7* Will 8 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 50 Skills 27 Powers 35 Defenses 24 Advantages 29 ToTal 165",
+    "complicacoes": "Death Wish: Deadshot must take any chance to die in a spectacular fashion. Mercenary Honor: Deadshot will always finish a job he has been paid to do. Wanted: Amanda Waller is keen on bringing him back to the Suicide Squad."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "nome": "Crimson Avenger (Unknown)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 174,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 143
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "3",
+      "AGL": "3",
+      "DEX": "3",
+      "FGT": "2",
+      "INT": "2",
+      "AWE": "3",
+      "PRE": "2"
+    },
+    "poderes": "Avenging Pistols: Perception Range Damage 9, Alternate Resistance (Fortitude) • 36 points Intangible: Insubstantial 4, Reaction, Subtle 2 (Looks completely normal), Still Affected by Magic • 23 points Teleport: Teleport 9 (2 miles), Limited (Teleport to victim’s grave and target only) • 9 points Immortality: Immortality 6 (One Day) Linked with Relive death and Manifest Skill • 12 points Manifest Skill: Variable 1 (Mimic Skill, 5 points) Linked with Immortality and Relive Death, Free Action, Limited to a single skill from current victim (may switch",
+    "pericias": "each round) • 8 points Relive Death: Senses 4 (Postcognition) Linked with Immortality and Manifest Skill, Limited to victim’s death only • 2 points",
+    "vantagens": "Improved Initiative, Power Attack, Seize Initiative SKILLS Close Combat: Unarmed 12 (+14), Expertise: Law 8 (+10), Investigation 6 (+8), Perception 6 (+9), Persuasion 6 (+8), Stealth 6 (+9)",
+    "ataques": "Initiative +7 Pistols — Perception, Damage 9 Unarmed +14 Close, Damage 1",
+    "defesas": "Dodge 7 Fortitude 9 Parry 7 Toughness 3 Will 9",
+    "pontos_poder": "Abilities 38 Skills 22 Powers 90 Defenses 21 Advantages 3 ToTal 174",
+    "complicacoes": "Motivation: The Crimson Avenger is driven by justice and a desire to fulfill her role as avenger of the wronged. Obsession: The Crimson Avenger would like to remove the curse she operates under and which gives her powers."
+  }
+}

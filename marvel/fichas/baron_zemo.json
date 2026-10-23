@@ -1,0 +1,110 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Baron Zemo",
+  "nome_pt": "Barão Zemo",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 165,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 6
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 4,
+      "Vig": 4,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 10,
+      "Int": 5,
+      "Pro": 3,
+      "Pre": 3
+    },
+    "defesas": {
+      "Esquiva": 13,
+      "Aparar": 10,
+      "Fortitude": 8,
+      "Resistencia": 7,
+      "Vontade": 8
+    },
+    "pericias": {
+      "Enganacao": 12,
+      "Especialidade: Quimica": 12,
+      "Especialidade: Mecanica": 8,
+      "Persuasao": 8,
+      "Prestidigitacao": 12,
+      "Veículos": 4,
+      "Intimidacao": 4,
+      "Especialidade: Tecnologia": 12,
+      "Percepcao": 8,
+      "Intuicao": 12,
+      "Furtividade": 8,
+      "Combate a Distancia: Adhesive X Blaster": 7
+    },
+    "vantagens": [
+      "Accurate Attack",
+      "Close Attack 3",
+      "Benefit (Status, Wealth) 2",
+      "Connected",
+      "Contacts",
+      "Defensive Attack",
+      "Equipment 6",
+      "Improved Defense",
+      "Improved Disarm",
+      "Improved Initiative 2",
+      "Inspire 4",
+      "Inventor",
+      "Languages 3 (English, Italian, Russian, French; native German)",
+      "Luck",
+      "Minion 5 (10 Soldiers)",
+      "Power Attack",
+      "Uncanny Dodge (Hearing)",
+      "Well-informed"
+    ],
+    "poderes": [
+      {
+        "nome": "Adhesive X Blaster",
+        "construcao_3e": "Device removivel: Snare 10 (Affliction; Ranged), com as condicoes de imobilizacao do efeito.",
+        "custo_2e_pp": 12
+      }
+    ],
+    "equipamento": [
+      "Sword (+3 Damage; 19-20 Crit; Mighty; 5 EP)",
+      "Uniform (+3 Toughness; 3 EP)",
+      "Comm-Link (1 EP)",
+      "Heavy Pistol (+4 Damage; 8 EP)",
+      "Zemo Estate (Headquarters Huge; Toughness 10; comunicacoes, garagem, celas, enfermaria, laboratorio, biblioteca, alojamento, seguranca e oficina; 13 EP)"
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Espada",
+        "bonus": 13,
+        "dano": 7
+      },
+      {
+        "nome": "Adhesive X Blaster",
+        "bonus": 10,
+        "dano": 10
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 20,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 17,
+      "fortitude_mais_vontade": 16,
+      "legal": true
+    }
+  },
+  "notas_conversao": [
+    "Attack Focus (Melee) 3 foi convertido em Close Attack 3: Fighting 10 + Close Attack 3 = +13. Com Strength 4 e dano +3 da espada, o limite de ataque + dano e 20.",
+    "Dodge Focus 10 foi convertido em Esquiva, mas limitado a 13 para que Esquiva + Resistencia nao ultrapasse 20; Aparar foi reduzido a 10 para que Aparar + Fighting tambem fique em 20.",
+    "Os bonus totais de pericia foram convertidos subtraindo a habilidade 3e correspondente. Craft e Knowledge foram agrupadas em Especialidade; Drive virou Veiculos.",
+    "Languages (English, Italian, Russian, French; Base: German) foi convertido em Idiomas 3, escolhendo a graduacao mais proxima para cinco idiomas no total.",
+    "Master Plan foi convertido em Inspire, que ja consta na ficha; Sneak Attack foi omitida por nao ter equivalencia direta segura e por poder exceder o limite de NP. Improved Block virou Improved Defense.",
+    "O Blaster foi convertido em Snare; os 12 PP impressos sao custo 2e e nao foram reutilizados como custo 3e.",
+    "A fonte nao lista complicacoes; nenhuma motivacao foi inferida."
+  ]
+}

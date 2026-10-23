@@ -1,0 +1,30 @@
+{
+  "nome": "Gizmo",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 139,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 200
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "1",
+      "AGL": "2",
+      "DEX": "3",
+      "FGT": "1",
+      "INT": "6",
+      "AWE": "3",
+      "PRE": "2"
+    },
+    "poderes": "Dwarf ( Shrinking 4, Permanent, Innate); Force Field ( Protection 8, Removable (-2 points)); Goggles Senses 1 (Infravision), Removable); Jet Pack Enhanced Advantage 1 (Move-by Action), Flight 6 (120 MPH), Removable (-3 points)); Pocket Laser ( Ranged Damage 10, Penetrating 4, Easily Removable (-10 points))",
+    "equipamento": "15 points of appropriate equipment",
+    "vantagens": "Eidetic Memory, Equipment 3, Evasion, Favored Environment (Flying), Improvised Tools, Inventor, Jack-of-all- trades, Move-by Action , Skill Mastery (Technology), Ultimate Effort (Technology)",
+    "pericias": "Close Combat: Inventions 4 (+7), Deception 5 (+7), Expertise: Electronics 8 (+14), Ranged Combat: Pocket Laser 6 (+9), Stealth 3 (+9), Technology 8 (+14)",
+    "ataques": "Initiative +2, Pocket Laser +12 (Ranged, Damage 10, Penetrating 4), Inventions +10 (Varies)",
+    "defesas": "Dodge 13, Parry 13, Fortitude 8, Toughness 9, Will 8",
+    "pontos_poder": "Abilities 40 + Powers 40 + Advantages 11 + Skills 17 + Defenses 31 = 139",
+    "complicacoes": "Greedy: Gizmo is motivated by money, pure and simple."
+  }
+}

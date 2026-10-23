@@ -1,0 +1,29 @@
+{
+  "nome": "Plastique",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 1119,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 111
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "2",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "2",
+      "INT": "2",
+      "AWE": "1",
+      "PRE": "2"
+    },
+    "poderes": "e xplosive i mmunit y: Immunity 1 (Own powers) • 1 point o bjec t e xplosion: Burst Area Damage 11, Quirk (must touch an object, –2 points) • 20 points",
+    "equipamento": "Plastique has 15 points to spend on equipment.",
+    "vantagens": "Attractive, Defensive Roll 4, Equipment 3, Improvised Tools, Languages (English, Native: French), Move-by Action, Prone Fighting, Second Chance (Expertise: Demolitions checks), Taunt",
+    "pericias": "Athletics 5 (+7), Close Combat: Unarmed 7 (+9), Deception 8 (+10), Expertise: Demolitions 12 (+14), Expertise: Terrorism 10 (+12), Intimidation 6 (+8), Perception 5 (+6), Sleight of Hand 6 (+8), Stealth 6 (+8), Technology 7 (+9)",
+    "ataques": "i nitia tive +2 Unarmed +9 Close, Damage 1 Object Explosion — Close, Burst Area Damage 11",
+    "defesas": "d odge 7 f or titude 7 Parry 7 t oughness 6/2* W ill 6 *Without Defensive Roll.",
+    "pontos_poder": "a bilities 28 S kills 36 Powers 21 d efenses 20 a dv antages 14 t otal 1119 C o MPL i C tion S a Motivation— i deolo gue: Plastique is a terrorist motivated by political ideals rather than profit or power. Vengeful: Plastique’s other primary motivation is evening the score with anyone who has gotten in her way."
+  }
+}

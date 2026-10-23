@@ -1,0 +1,27 @@
+{
+  "nome": "Lord Satanus",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 14,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 27
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "11",
+      "STA": "9",
+      "AGL": "4",
+      "DEX": "4",
+      "FGT": "9",
+      "INT": "9",
+      "AWE": "9",
+      "PRE": "6"
+    },
+    "poderes": "d emonic Heritage: Comprehend Languages 3; Immunity 30 (F ortitude Effects); Movement 2 (Dimensional Movement 2 (Hell and Occult Dimensions)); Protection 3; Regeneration 5; Senses 4 (Magic Awareness (Analytical, Extended 2)) • 52 points d emonic Magic: Array (65 points) • t r ansmogrification: Transform 13, Anything into Anything • 65 points • d emonic d eception: Illusion 11 (All Senses) • 1 point • “Granting Wishes” 1: Create 14, Continuous, Innate, Precise, Subtle • 1 point • “Granting Wishes” 2: Ranged Affliction 15 (Resisted by Will; Dazed, Stunned, Transformed) • 1 point d emonic Mask: Morph 3 (humanoids and animals) • 15 points Hellfire t riden t: Array (54 points), Removable (–11 points) • Hellfire Blast: Ranged Damage 12, Alternate Resistance (Fortitude), Continuous on 6 ranks • 54 points • Hellish t riden t t ines: Strength-based Damage 3, Penetrating on Damage 14; Accurate • 1 point a V ant G d a e S Benefit 3 (Status: Demon Lord), Fascinate (Deception), Improved Defense, Ritualist, Seize Initiative, Skill Mastery (Deception), Taunt",
+    "pericias": "Deception 18 (+24), Expertise: Hell 8 (+17), Expertise: Magic 6 (+15), Insight 9 (+18), Intimidation 9 (+15), Perception 6 (+15), Persuasion 8 (+14), Ranged Combat: Hellfire Trident 8 (+12)",
+    "ataques": "i nitia tive +4 Hellfire Blast +12 Ranged, Damage 12 Resisted by Fortitude Hellfire Trident +11 Close, Damage 14 Unarmed +9 Close, Damage 11 efen S e d d odge 12 f or titude Immune Parry 12 t oughness 12 W ill 14 Po er Point W S a bilities 122 S kills 36 Powers 179 d efenses 19",
+    "vantagens": "9 ToTal 365",
+    "complicacoes": "d emonic n ature: Satanus is a spawn of Hell and is recognizable t o properly attuned mystical senses as such. My d earest e nemy: Satanus’ most constant enemy is his sister and erstwhile ally Blaze, who normally operates against him from the shadows."
+  }
+}

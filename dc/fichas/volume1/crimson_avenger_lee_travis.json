@@ -1,0 +1,30 @@
+{
+  "nome": "Crimson Avenger (Lee Travis)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 7,
+  "pontos_poder_publicados": 107,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 142
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "2",
+      "AGL": "2",
+      "DEX": "3",
+      "FGT": "4",
+      "INT": "1",
+      "AWE": "2",
+      "PRE": "2"
+    },
+    "poderes": "Gunplay: Array (2 points) • Training: Enhanced Skill 2 (Ranged Combat: Guns +4) • 2 points • Independent Aim: May fire two guns of Damage 4 or less at once (Feature 1) • 1 point",
+    "equipamento": "Twin Colt .45 Automatics: Ranged Damage 4 • 16 points VEHICLE : ROLLS ROYCE • 12 POINTS Size: Huge, Str 8, Spd 5, Def 8, Tou 12 Features: Cloaking Device (Hearing)",
+    "vantagens": "Benefit 1 (Well-off ), Connected, Defensive Attack, Defensive Roll 4, Equipment 6, Evasion, Improved Defense, Improved Initiative, Improvised Weapon 2, Languages 2 (Spanish, Tibetan), Power Attack, Quick Draw, Sidekick 5 (Wing How), Startle, Takedown, Uncanny Dodge",
+    "pericias": "Acrobatics 3 (+5), Athletics 3 (+5), Close Combat: Unarmed 7 (+11), Deception 3 (+5), Insight 4 (+6), Intimidation 6 (+8), Investigation 4 (+5), Perception 3 (+5), Persuasion 3 (+5), Ranged Combat: Guns 3 (+6/+10*), Stealth 5 (+8) *With Training effect",
+    "ataques": "Initiative +6 Automatic Pistol +10 Ranged, Damage 4 Pistol Whip +11 Close, Damage 3 (Improvised Weapon) Unarmed +11 Close, Damage 2",
+    "defesas": "Dodge 8 Fortitude 5 Parry 8 Toughness 6/2** Will 5 **Without Defensive Roll.",
+    "pontos_poder": "Abilities 36 Skills 22 Powers 5 Defenses 16 Advantages 30 ToTal 107",
+    "complicacoes": "Justice: The Crimson Avenger is motivated by a desire to see justice served. ALLIES The Crimson Avenger counts a number of “Golden Age” super heroes as allies, including the Sandman (to whom he gave his gas gun) and the All-Star Squadron."
+  }
+}

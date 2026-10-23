@@ -1,0 +1,29 @@
+{
+  "nome": "Atrocitus",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 13,
+  "pontos_poder_publicados": 215,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 35
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "10",
+      "STA": "6",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "6",
+      "INT": "1",
+      "AWE": "2",
+      "PRE": "4"
+    },
+    "poderes": "Power Ring • 87 points AI and Database: Feature 2 (AI and Database), Senses 1 (Communication link to Central Power Battery) • 3 points Flight: Flight 14 (32,000 MPH), Movement 4 (Environmental Adaption (Zero-G), Space Travel 3) • 36 points Force Field: Protection 10, Impervious; Immunity 10 (Life Support) • 30 points Heartless: Feature (Heart or equivalent vital organs are no longer essential to survival), Regeneration 1 • 2 points Red Light of Rage: Array (32 points) • Burning Blood: Damage 10, Reach 2, Sustained Duration (extinguished by a cessation of rage or the Blue Light of Hope) • 32 points • Fires of Rage: Ranged Damage 16 • 1 point • Lifting: Create 16 • 1 point Power of Rage: Senses 3 (Acute Detect Rage); Feature 3 (Lanterns other than Blue lose ring power more quickly than normal defending against the Red Light) • 6 points Universal Translator: Comprehend Languages 4 • 8 points Claws: Strength-based Damage 3 • 3 points",
+    "vantagens": "All-out Attack, Close Attack 3, Leadership, Power Attack, Ritualist",
+    "pericias": "Athletics 4 (+14), Close Combat: Burning Blood 4 (+10), Close Combat: Claws 2 (+8), Deception 3 (+5), Expertise: Magic 7 (+8), Intimidation 6 (+10), Ranged Combat: Power Ring 8 (+10)",
+    "ataques": "Initiative +2 Burning Blood +13 Close, Sustained Damage 10, Reach 2 Claws +11 Close, Damage 13 Power Ring +10 Ranged, Damage 16 Unarmed +9 Close Damage 10",
+    "defesas": "Dodge 10 Fortitude 16 Parry 10 Toughness 16 Will 10",
+    "pontos_poder": "Abilities 66 Skills 12 Powers 75 Defenses 30 Advantages 7 ToTal 215",
+    "complicacoes": "Power Loss: Atrocitus’ ring exhausts its power with time and use. It needs to be recharged using a Red Lantern battery. Servant of Rage: Like all Red Lanterns, Atrocitus cannot remove his ring without risking death. Unlike his fellow Red Lanterns, Atrocitus seems immune to the ring’s tendency to inspire mindless rage in its bearer. The light of a Blue Lantern ring can help counteract these effects, not that Atrocitus seems to care. Weakness: Red Lantern Corps power rings depend on the ability of the wielders to feel rage. The maximum rank of the ring’s effects is equal to the user’s Fortitude Rank to reflect the being’s capacity for raw fury. Calming thoughts and hopeful feelings, such as those inspired by the Blue Lanterns, can cause the ring to fail."
+  }
+}

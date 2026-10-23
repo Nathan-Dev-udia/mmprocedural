@@ -1,0 +1,29 @@
+{
+  "nome": "Cyclone",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 122,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 299
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "-1",
+      "STA": "1",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "2",
+      "INT": "5",
+      "AWE": "1",
+      "PRE": "1"
+    },
+    "poderes": "Air Control (Array (18 points): Cone Area Move Object 9 (Close Range), AE: Air Blast (Cone Area Damage 9), AE: Air Cushion (Burst Area Safe Fall, Affects Others), AE: Tornado Burst ( Area Move Object 9, Close Range)); Cyclone “Shield” (Enhanced Defenses (Dodge 13, Parry 13), Noticeable); Flight 5 (60 MPH; Affects Others)",
+    "vantagens": "Defensive Roll, Luck 2, Minion 2 (Frankie, pet monkey)",
+    "pericias": "Acrobatics 4 (+6), Deception 4 (+5), Expertise: Wizard of Oz 6 (+11), Insight 4 (+5), Perception 4 (+5), Persuasion 4 (+5), Technology 4 (+9)",
+    "ataques": "Initiative +2, Air Blast—(Cone Area Damage 9), Unarmed +2 (Damage -1)",
+    "defesas": "Dodge 16, Parry 16, Fortitude 5, Toughness 2 /1, Will 5",
+    "pontos_poder": "Abilities 26 + Powers 66 + Advantages 5 + Skills 15 + Defenses 10 = 122",
+    "complicacoes": "Motormouth: Maxine talks constantly, often saying things she shouldn’t. She is also ignored by others because she never stops talking. Naive: Maxine is young and inexperienced, so she’s easily duped and misled."
+  }
+}

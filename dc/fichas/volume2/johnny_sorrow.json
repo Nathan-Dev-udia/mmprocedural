@@ -1,0 +1,26 @@
+{
+  "nome": "Johnny Sorrow",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 14,
+  "pontos_poder_publicados": 223,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 189
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "6",
+      "AGL": "2",
+      "DEX": "6",
+      "FGT": "2",
+      "INT": "1",
+      "AWE": "4",
+      "PRE": "5"
+    },
+    "poderes": "Bend e nergy: Immunity 20 (Energy effects) • 20 points G olden Mask: Array (56 points) • Sorrow’s f ac e: Cone Area Sustained Damage 14, Alternate Resistance (Will), Sense-dependent (Sight), Limited—Only against living beings who can perceive Sorrow’s face • 56 points • Ghostly f orm: Insubstantial 4, Continuous; Teleportation 10 (4 miles) • 1 point Levitation: Flight 4 (30 MPH), Levitation • 4 points Summon Mask: Feature • 1 point Undying: Immortality 10 • 20 points a V ant G d a e S Defensive Roll 5, Diehard, Evasion, Fascinate (Deception), Fearless, Improved Initiative, Leadership, Ranged Attack 5, Seize Initiative, Taunt, Uncanny Dodge, Well-informed",
+    "pericias": "Close Combat: Unarmed 10 (+12), Deception 10 (+15), Expertise: Silent Film Star 10 (+11), Insight 10 (+14), Intimidation 10 (+15), Persuasion 10 (+15) ffen S e o i nitia tive +6 Revealed Face — Perception Ranged, Sustained Damage 14, Resisted by Will (DC 24), Sense- dependent (Sight) Unarmed +12 Close, Damage 1 efen S e d d odge 8 f or titude 7 Parry 8 t oughness 11/6* W ill 8 *Without Defensive Roll.",
+    "pontos_poder": "a bilities 54 S kills 30 Powers 102 d efenses 17 a dv ToTal 223",
+    "complicacoes": "ing of t ears: Johnny Sorrow is beholden to and the willing servant of a major demon that is trapped in another dimension. Most of Johnny Sorrow’s schemes involve bringing the King of Tears to Earth. wn ac Can’t See o f e: If Johnny Sorrow sees his own face he will be temporarily paralyzed and powerless."
+  }
+}

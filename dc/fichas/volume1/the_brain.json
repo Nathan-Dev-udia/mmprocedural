@@ -1,0 +1,29 @@
+{
+  "nome": "The Brain",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 111,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 90
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "—",
+      "STA": "—",
+      "AGL": "–",
+      "DEX": "–",
+      "FGT": "–",
+      "INT": "10",
+      "AWE": "5",
+      "PRE": "12"
+    },
+    "poderes": ": Housing ( Feature 1 (Normal Senses; see Complications), Immunity 40 (Fortitude Effects, Life Support), Protection 15, Removable (–11 points)) Mental Shielding (Impervious Will 10)",
+    "vantagens": "Assessment, Daze (Deception), Eidetic Memory, Fascinate (Persuasion), Inventor, Jack-of-all-trades, Languages (French), Leadership, Set-up, Skill Mastery (Persuasion), Ultimate Effort (Persuasion), Well-informed",
+    "pericias": "Deception 6 (+18), Expertise: Brainwashing 4 (+14), Expertise: Criminal 2 (+12), Expertise: Current Events 1 (+11), Expertise: History 2 (+12), Expertise: Psychology 4 (+14), Expertise: Science 4 (+14), Insight 6 (+11), Persuasion 4 (+16), Technology 3 (+13), Treatment 2 (+12)",
+    "ataques": "Initiative –2",
+    "defesas": "Dodge –2, Parry –5, Fortitude Immune, Toughness 15, Will 10",
+    "pontos_poder": "Abilities 12 + Powers 55 + Advantages 12 + Skills 19 + Defenses 13 = 111",
+    "complicacoes": "Bodysnatcher: Not satisfied to remain little more than a brain in a jar, the Brain is constantly pursuing every possible avenue, no matter how unlikely or risky, to acquire a new body for himself. This has led him to seek out everything from robotic chassis his brain can be interred in to clones that can likewise house his intellect. Brain in a Jar: The Brain requires his cybernetic housing to survive and provide rudimentary sensory input. Even within the housing, the Brain suffers from reduced mobility, as his housing’s ability to move and maneuver are extremely limited, and he is unable to directly manipulate his environment. The housing is roughly 3 ft. 4 in. tall and weighs about 195 lbs. Forbidden Love: The Brain and Monsieur Mallah are involved in a romantic relationship that can, at best, be described as extraordinarily unorthodox given former’s disembodied circumstances and Mallah being a mutated gorilla."
+  }
+}

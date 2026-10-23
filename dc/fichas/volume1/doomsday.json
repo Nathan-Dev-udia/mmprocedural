@@ -1,0 +1,29 @@
+{
+  "nome": "Doomsday",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 16,
+  "pontos_poder_publicados": 239,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 178
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "20",
+      "STA": "20",
+      "AGL": "1",
+      "DEX": "1",
+      "FGT": "10",
+      "INT": "-2",
+      "AWE": "0",
+      "PRE": "0"
+    },
+    "poderes": "Adaptive: Immunity 20 (Any effect that previously killed him, see description) • 20 points Bone Spurs: Strength-based Damage 2 • 2 points Healing Factor: Immortality 6, Regeneration 18 • 30 points Invulnerability: Immunity 10 (Life Support), Impervious Toughness 20 • 30 points Leaping: Leaping 10 (4 miles) • 10 points Super-Strength: Enhanced Strength 4, Limited to Lifting (Lifting Str 24, 400,000 tons) • 4 points",
+    "vantagens": "All-out Attack, Diehard, Fast Grab, Fearless, Great Endurance, Improved Critical (Bone Spurs), Improved Initiative, Improved Hold, Power Attack, Takedown",
+    "pericias": "Athletics 6 (+26), Intimidation 12 (+12), Perception 4 (+4), Ranged Combat: Throwing 6 (+7)",
+    "ataques": "Initiative +5 Bone Spurs +10 Close, Damage 22, Crit. 19-20 Unarmed +10 Close, Damage 20",
+    "defesas": "Dodge 10 Fortitude 20 Parry 10 Toughness 20 Will 12",
+    "pontos_poder": "Abilities 100 Skills 12 Powers 96 Defenses 21 Advantages 10 ToTal 239",
+    "complicacoes": "Hatred: Doomsday hates all things Kryptonian and can sense Kryptonian life-forms due to the nature of its origins."
+  }
+}

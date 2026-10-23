@@ -1,0 +1,130 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Hulk",
+  "nome_pt": "Hulk",
+  "nivel_poder": 15,
+  "pontos_poder_origem": 225,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 38
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 15,
+      "Vig": 15,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 4,
+      "Int": -1,
+      "Pro": 2,
+      "Pre": -1
+    },
+    "defesas": {
+      "Esquiva": 15,
+      "Aparar": 15,
+      "Fortitude": 15,
+      "Resistencia": 15,
+      "Vontade": 7
+    },
+    "pericias": {
+      "Especialidade: Animais": 8,
+      "Intimidação": 20,
+      "Percepção": 8,
+      "Especialidade: Sobrevivência": 11,
+      "Combate à Distância: Ataques gerais": 2
+    },
+    "vantagens": [
+      "Animal Empathy",
+      "All-out Attack",
+      "Close Attack 6 (Melee)",
+      "Die Hard",
+      "Fearless",
+      "Improved Critical (Unarmed)",
+      "Improved Grab",
+      "Power Attack"
+    ],
+    "poderes": [
+      {
+        "nome": "Boost",
+        "construcao_3e": "Enhanced Trait (Protection, Regeneration, Power-Lifting) 15, Fades, Limited to self; Slow Fade 2.",
+        "custo_2e_pp": 32,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Growth",
+        "construcao_3e": "Growth 3 (Enhanced Strength 6, Enhanced Stamina 3).",
+        "custo_2e_pp": 9,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Immunity",
+        "construcao_3e": "Immunity 14 (Heat, Life Support).",
+        "custo_2e_pp": 14,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Impervious Toughness",
+        "construcao_3e": "Protection 12, Impervious.",
+        "custo_2e_pp": 12,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Leaping",
+        "construcao_3e": "Leaping 8.",
+        "custo_2e_pp": 8,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Super Senses",
+        "construcao_3e": "Senses 6 (Extended 4, Birthplace Awareness, Spirit Awareness).",
+        "custo_2e_pp": 6,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Super Strength",
+        "construcao_3e": "Power-Lifting 5 (Ground Strike, Thunderclap).",
+        "custo_2e_pp": 12,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [],
+    "complicacoes": [
+      "Transformação involuntária (em Bruce Banner; ocorrência comum; intensidade maior; 4 PP).",
+      "Identidade normal (Bruce Banner; ocorrência comum; intensidade maior; 4 PP).",
+      "Power Drawback (Boost disponível apenas em fúria; 1 PP)."
+    ],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "dano": 15
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 25,
+      "esquiva_mais_resistencia": 30,
+      "aparar_mais_resistencia": 30,
+      "fortitude_mais_vontade": 22,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 80,
+    "defesas": 29,
+    "pericias": 24.5,
+    "vantagens": null,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 133.5,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Attack Focus (Melee) 6 foi convertido em Close Attack 6; ataque corpo a corpo +10 e dano +15 somam 25, dentro do limite 30 de NP 15. Fearsome Presence e Rage não têm equivalentes diretos; Rage não foi reconstruída sem custo confirmado. Drawbacks foram convertidos em complicações sem acrescentar motivação.",
+    "Defesas ajustadas para Esquiva 15 e Aparar 15, respeitando os limites de NP 15 com Resistência 15.",
+    "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias e apenas os custos de poderes confirmados; não inclui vantagens nem custos incertos."
+  ]
+}

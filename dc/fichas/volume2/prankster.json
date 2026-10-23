@@ -1,0 +1,28 @@
+{
+  "nome": "Prankster",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 138,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 116
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "3",
+      "AGL": "2",
+      "DEX": "3",
+      "FGT": "2",
+      "INT": "5",
+      "AWE": "4",
+      "PRE": "4"
+    },
+    "poderes": "Joy Buzzer: Damage 8 (electricity), Removable (-2 points) • 6 points Laughing Gun: Ranged Affliction 12 (Resisted by Fortitude; Dazed, Stunned, Incapacitated), Easily Removable (-10 points) • 14 points",
+    "equipamento": "Prankster usually has up 60 points’ worth of comedic (and dangerous) inventions at his disposal. a V ant G d a e S All-out Attack, Contacts, Defensive Roll 2, Equipment 12, Fascinate (Expertise: Comedy), Improved Trip, Inventor, Luck, Set-up, Skill Mastery (Expertise: Comedy), Taunt",
+    "pericias": "Acrobatics 3 (+5), Close Combat: Joy Buzzer 5 (+7), Deception 8 (+12), Expertise: Comedy 9 (+14), Ranged Combat: Laughing Gun 7 (+10), Sleight of Hand 6 (+9), Stealth 6 (+8), Technology 6 (+11)",
+    "ataques": "i nitia tive +2 Laughing Gun +10 Ranged, Affliction 12, Resisted by Fortitude Joy Buzzer +7 Close, Damage 8",
+    "defesas": "d odge 9 f or titude 5 Parry 9 t oughness 5/3* W ill 10 *Without Defensive Roll.",
+    "pontos_poder": "a bilities 48 S kills 25 Powers 20 d efenses 22 a dv antages 23 ToTal 138"
+  }
+}

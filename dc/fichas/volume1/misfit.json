@@ -1,0 +1,30 @@
+{
+  "nome": "Misfit",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 203,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 54
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "8",
+      "STA": "3",
+      "AGL": "3",
+      "DEX": "3",
+      "FGT": "3",
+      "INT": "2",
+      "AWE": "3",
+      "PRE": "2"
+    },
+    "poderes": "Bouncing ( Teleportation 20 (4,000 miles; Accurate, Change Direction, Changed Velocity, Easy, Extended, Turn About, Limited: Can’t Teleport Other Organic Matter); Healing 6 (Source: Must Teleport First); Concealment 10 (Limited: Machine Only))",
+    "equipamento": "Batarang: Ranged Strength Damage 8, Batline: Movement 1 (Swinging)",
+    "vantagens": "Defensive Attack, Defensive Roll 3, Equipment 2, Evasion, Interpose, Move-by Action, Power Attack,, Seize Initiative",
+    "pericias": "Acrobatics 5 (+8), Athletics 5 (+13), Close Combat: Unarmed 7 (+10), Ranged Combat: Batarang 7 (+10)",
+    "ataques": "Initiative +3, Batarang +10 (Ranged Damage 8), Unarmed +10 (Damage 8)",
+    "defesas": "Dodge 12, Parry 12, Fortitude 9, Toughness 6/3, Will 9",
+    "pontos_poder": "Abilities 54 + Powers 96 + Advantages 11 + Skills 12 + Defenses 30 = 203",
+    "complicacoes": "Responsibilities: To Oracle and the Birds of Prey. Rivalry: With Black Alice."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "nome": "Obsidian",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 175,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 84
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "8",
+      "STA": "8",
+      "AGL": "6",
+      "DEX": "2",
+      "FGT": "6",
+      "INT": "1",
+      "AWE": "3",
+      "PRE": "1"
+    },
+    "poderes": "Shadow f orm: Concealment 4 (all Visual, Limited to Darkness and Shadows); Elongation 2 (30 feet); Enhanced Abilities 16 (Agility 4, Stamina 6, Strength 6); Enhanced Defense 14 (Dodge 6, Parry 6); Enhanced Advantages 4 (Fast Grab, Hide in Plain Sight, Instant Up, Move-by Action); Feature 1 (Quick Change); Flight 4 (30 MPH); Immunity 10 (Life Support); Insubstantial 4; Movement 2 (Slithering, Wall-Crawling 2); Senses 2 (Darkvision)• 101 points",
+    "vantagens": "Close Attack 4, Fast Grab, Hide in Plain Sight, Instant Up , Luck, Move-by Action",
+    "pericias": "Acrobatics 4 (+6), Athletics 4 (+6), Deception 6 (+7), Insight 6 (+9), Investigation 3 (+4), Perception 5 (+8), Sleight of Hand 4 (+6), Stealth 9 (+11), Technology 3 (+4), Treatment 3 (+4), Vehicles 5 (+7) ffen S e o i nitia tive +6 Unarmed+10 Close, Damage 8",
+    "defesas": "d odge 12 f or titude 10 Parry 12 t oughness 8 W ill 6",
+    "pontos_poder": "a bilities 38 S kills 26 Powers 101 d efenses 5 a dv antages 5 ToTal 175",
+    "complicacoes": "d ark Connection: Obsidian gains his powers through a c onnection to the Shadowlands, an inherently corrupting influence. nstabilit Legacy of i y: Obsidian inherited a predisposition to mental illness from his mother, a vulnerability exacerbated by his abusive adoptive father. Sexuality: Obsidian is gay, and this might cause him difficulty in situations where prejudice is an issue. aLLI e S His father Alan Scott (the first Green Lantern), his sister, Jade, and his teammates in the JSA are all strong allies. Thanks to his past connections, he can also call on a variety of other he- roes. e ne MI e S Due to his strong self-identification with the JSA, their ene - mies are his, with Ian Karkull (presuming his survival) and Kid Karnevil representing his personal enemies."
+  }
+}

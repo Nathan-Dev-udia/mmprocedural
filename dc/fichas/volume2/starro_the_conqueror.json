@@ -1,0 +1,29 @@
+{
+  "nome": "Starro The Conqueror",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 15,
+  "pontos_poder_publicados": 552,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 204
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "14",
+      "STA": "14",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "10",
+      "INT": "10",
+      "AWE": "10",
+      "PRE": "4"
+    },
+    "poderes": "d omination: Perception Ranged Affliction 15 (Resisted by W ill; Dazed, Stunned, Controlled), Progressive, Reaction (when Starrophyte grabs target) Linked to Mind Reading 15 (Limited—Controlled victims only) • 120 points e nergy a bsorption: Immunity 20 (Energy Damage); Ranged Damage 16, Accurate 4, Fades • 40 points Giant a lien S tarfish: Extra Limbs 3 (5 manipulator limbs); Growth 8, Innate, Permanent • 20 points i n vulnerability: Immortality 1; Immunity 10 (Life Support); Impervious Toughness 10; Protection 2; Regeneration 5 • 29 points Star- f ligh t: Flight 10 (2,000 MPH); Movement 2 (Space Travel 2) • 24 points Starrophyte i vasion: Summon 6, Horde, Mental Link, Multiple n Minions 10 (1,024 PL6 minions); Remote Sensing 25 (Visual), Simultaneous, Medium: Starrophytes • 189 points",
+    "vantagens": "Fast Grab, Improved Grab , Improved Hold, Inspire 5, Leadership, Seize Initiative",
+    "pericias": "Expertise: Science 8 (+18), Intimidation 4 (+12), Perception 2 (+12)",
+    "ataques": "i nitia tive +2 Energy Absorption +10 Ranged, Damage 16, Fades Unarmed +10 Close, Damage 14",
+    "defesas": "d odge 6 f or titude 14 Parry 6 t oughness 16 W ill 16",
+    "pontos_poder": "a bilities 100 S kills 7 Powers 422 d efenses 14 a dv antages 9 ToTal 552",
+    "complicacoes": "o bsession: Order and control. Power Loss: The chemical quicklime automatically counters Starro’s Domination power. Vulnerability: Starro is vulnerable to cold attacks. Starro’s Invulnerability does not apply, and both Starro and his starrophytes suffer an additional degree of effect from cold effects (including a first degree even with a successful resistance check). r eal n ame: Starro o ccupation: c onqueror b ase: Mobile"
+  }
+}

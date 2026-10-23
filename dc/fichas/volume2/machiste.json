@@ -1,0 +1,28 @@
+{
+  "nome": "Machiste",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 133,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 261
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "4",
+      "AGL": "4",
+      "DEX": "2",
+      "FGT": "9",
+      "INT": "1",
+      "AWE": "2",
+      "PRE": "3"
+    },
+    "poderes": "Mace Hand (Strength-Based Damage 4, Feature (+2 to Smash checks))",
+    "vantagens": "All-out Attack, Benefit 3 (King of Kiro), Defensive Roll 3, Improved Grab, Improved Smash, Inspire, Leadership, Move-by Action, Power Attack, Prone-Fighting, Ranged Attack 3, Set-up, Startle, Takedown, Teamwork, Tracking, Weapon Break",
+    "pericias": "Acrobatics 1 (+5) , Athletics 10 (+13), Close Combat: Mace Hand 2 (+11), Expertise: Survival 6 (+7) Expertise: Skartaris 9 (+10), Expertise: Tactics 4 (+5), Insight 5 (+7), Intimidation 9 (+12), Perception 6 (+8), Persuasion 2 (+5), Stealth 3 (+7)",
+    "ataques": "Initiative +4, Mace Hand +11 (Damage 7), Unarmed +9 (Damage 3)",
+    "defesas": "Dodge 10, Parry 11, Fortitude 10, Toughness 7/3*, Will 8 *Without Defensive Roll",
+    "pontos_poder": "Abilities 56 + Powers 5 + Advantages 23 + Skills 29 + Defenses 20 = 133"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Captain America",
+  "nome_pt": "Captain America",
+  "nivel_poder": 12,
+  "pontos_poder_origem": 200,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 16
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 7,
+      "Vig": 7,
+      "Agi": 7,
+      "Des": 7,
+      "Lut": 14,
+      "Int": 3,
+      "Pro": 3,
+      "Pre": 6
+    },
+    "defesas": {
+      "Esquiva": 14,
+      "Aparar": 14,
+      "Fortitude": 12,
+      "Resistencia": 10,
+      "Vontade": 12
+    },
+    "pericias": {
+      "Acrobacia": 4,
+      "Atletismo": 8,
+      "Persuasão": 8,
+      "Veículos": 4,
+      "Intimidação": 8,
+      "Especialidade: Táticas": 16,
+      "Percepção": 12,
+      "Intuição": 12,
+      "Especialidade: Sobrevivência": 8,
+      "Furtividade": 8,
+      "Combate à Distância: Ataques gerais": 7
+    },
+    "vantagens": [
+      "All-out Attack",
+      "Assessment",
+      "Benefit (Security Clearance)",
+      "Defensive Attack",
+      "Ranged Attack 2",
+      "Equipment 1",
+      "Fearless",
+      "Improved Defense 2",
+      "Improved Critical (Shield) 2",
+      "Improved Trip",
+      "Improved Disarm 2",
+      "Inspire 5",
+      "Leadership",
+      "Luck 2",
+      "Power Attack",
+      "Precise Attack (Ranged, Cover) 2",
+      "Startle",
+      "Takedown",
+      "Teamwork 2",
+      "Ultimate Effort (Ultimate Toughness Resistance)",
+      "Uncanny Dodge (Hearing)"
+    ],
+    "poderes": [
+      {
+        "nome": "Star-Spangled Shield",
+        "construcao_3e": "Device (Removable): Damage 3 (Strength-based, Mighty, Ranged 6, Penetrating); Deflect 8 (all ranged), Alternate Effect: Enhanced Dodge and Parry (Shield).",
+        "custo_2e_pp": 18,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Cota de malha (+3 Resistência; 3 EP)",
+      "Com-link (1 EP)",
+      "Binóculos (1 EP)"
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 14,
+        "dano": 7
+      },
+      {
+        "nome": "Star-Spangled Shield",
+        "bonus": 14,
+        "dano": 10
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 24,
+      "esquiva_mais_resistencia": 24,
+      "aparar_mais_resistencia": 24,
+      "fortitude_mais_vontade": 24,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 108,
+    "defesas": 21,
+    "pericias": 47.5,
+    "vantagens": null,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 176.5,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Dodge Focus 2 foi convertido em Esquiva e ajustado para cumprir os limites defensivos de NP 12. Elusive Target foi removida; a cobertura circunstancial pode representar o efeito. Weapon Break foi omitida por não ter equivalente explícito no guia. A fonte lista 5 EP e Equipment sem graduação; Equipment 1 representa essa dotação.",
+    "Defesas ajustadas para Esquiva 14 e Aparar 14, respeitando os limites de NP 12 com Resistência 10.",
+    "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias e apenas os custos de poderes confirmados; não inclui vantagens nem custos incertos."
+  ]
+}

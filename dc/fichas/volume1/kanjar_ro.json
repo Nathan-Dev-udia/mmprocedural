@@ -1,0 +1,29 @@
+{
+  "nome": "Kanjar Ro",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 167,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 301
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "4",
+      "STA": "5",
+      "AGL": "2",
+      "DEX": "4",
+      "FGT": "5",
+      "INT": "5",
+      "AWE": "5",
+      "PRE": "8"
+    },
+    "poderes": "Gamma Gong: Perception Area (Hearing) Affliction 10 (Resisted by Will; Impaired, Immobile, Paralyzed). Limited: Portable versions of the Gong have a maximum of Affliction 5, Easily Removable (-8 points) • 12 points Energi-Rod: Array (36 points), Easily Removable (–16 points) • Disintegration Ray: Ranged Damage 12, Penetrating 12 • 36 points • Gravity Ray: Move Object 12, Damaging • 1 point • Mental Ray: Communication 5 (Mental) • 1 point",
+    "vantagens": "Assessment, Defensive Roll 5, Inventor, Leadership, Seize Initiative, Startle, Taunt",
+    "pericias": "Close Combat: Unarmed 5 (+10), Deception 5 (+13), Intimidation 8 (+16), Perception 6 (+11), Ranged Combat: Energi-Rod 6 (+10), Technology 8 (+13)",
+    "ataques": "Initiative +2 Unarmed +10 Close, Damage 4 Energi-Rod +10 Range, Damage 12, Penetrating 12 or Move Object 12",
+    "defesas": "Dodge 12 Fortitude 9 Parry 12 Toughness 10/5* Will 11 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 76 Skills 19 Powers 34 Defenses 27 Advantages 11 ToTal 167",
+    "complicacoes": "Conqueror: Whether he rules a city, a planet, or an empire, Kanjar Ro always seeks more power. Negotiated Power: Kanjar Ro prefers gambits and manipulation to engaging in battle, and has gone to great lengths to deceive his way to power."
+  }
+}

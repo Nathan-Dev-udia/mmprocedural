@@ -1,0 +1,124 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Adam-X",
+  "nome_pt": "Adam-X",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 150,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 3
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 5,
+      "Vig": 5,
+      "Agi": 5,
+      "Des": 5,
+      "Lut": 6,
+      "Int": 0,
+      "Pro": 0,
+      "Pre": 1
+    },
+    "defesas": {
+      "Esquiva": 12,
+      "Aparar": 12,
+      "Fortitude": 6,
+      "Resistencia": 8,
+      "Vontade": 6
+    },
+    "pericias": {
+      "Acrobacia": 8,
+      "Atletismo": 8,
+      "Enganacao": 12,
+      "Especialidade: Civica": 4,
+      "Intimidacao": 10,
+      "Intuicao": 8,
+      "Percepcao": 8,
+      "Persuasao": 6,
+      "Furtividade": 8,
+      "Combate Corpo-a-Corpo: Laminas": 6
+    },
+    "vantagens": [
+      "Accurate Attack",
+      "Agile Feint",
+      "All-out Attack",
+      "Assessment",
+      "Chokehold",
+      "Defensive Attack",
+      "Defensive Roll",
+      "Equipment 5",
+      "Evasion 2",
+      "Fast Grab",
+      "Fearless",
+      "Grabbing Finesse",
+      "Great Endurance",
+      "Hide in Plain Sight",
+      "Improved Aim",
+      "Improved Critical (Knife Strike) 4",
+      "Improved Critical (Luger Pistol) 4",
+      "Improved Critical (Shield Strike) 4",
+      "Improved Critical (Unarmed) 4",
+      "Improved Defense",
+      "Improved Disarm",
+      "Improved Grab",
+      "Improved Hold",
+      "Improved Initiative",
+      "Improved Smash",
+      "Improved Trip",
+      "Instant Up",
+      "Jack-of-all-trades",
+      "Move-by Action",
+      "Power Attack",
+      "Precise Attack (Close, Cover)",
+      "Precise Attack (Ranged, Cover)",
+      "Prone Fighting",
+      "Quick Draw",
+      "Ranged Attack 4",
+      "Takedown",
+      "Tracking",
+      "Uncanny Dodge",
+      "Well-informed"
+    ],
+    "poderes": [
+      {
+        "nome": "Mental Blast",
+        "construcao_3e": "Damage 10, resistido por Fortitude, duracao Concentration, limitado a alvos que ja estejam feridos.",
+        "custo_2e_pp": 40
+      }
+    ],
+    "equipamento": [
+      "Twin Blades (+3 dano; Auto-Fire; Mighty; Improved Critical; 8 EP)",
+      "Body Armor (+3 Protection; Strike 2 com Aura; 7 EP)"
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Laminas duplas",
+        "bonus": 12,
+        "dano": 8
+      },
+      {
+        "nome": "Mental Blast",
+        "bonus": 5,
+        "dano": 10
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 20,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 12,
+      "legal": true
+    }
+  },
+  "notas_conversao": [
+    "As habilidades foram convertidas dos modificadores 2e; Dexterity 5 e Defense 22 geram Agility 5, enquanto o ataque corpo a corpo +6 e o bonus de Defesa +12 geram Fighting 6.",
+    "As graduacoes de pericia foram obtidas subtraindo a habilidade 3e apropriada do bonus total entre parenteses. Concentration nao existe como pericia em 3e e nao foi mantida como graduacao.",
+    "Attack Specialization (Blades) 3 foi convertida em Close Combat: Blades. Os seis ranks resultantes dao ataque +12; com dano baseado em Strength 5 mais o bonus +3 das laminas, o total fica no limite de NP 10.",
+    "Dodge Focus 6 foi convertido em Esquiva, mas removido para cumprir o limite: Esquiva 18 + Resistencia 8 excederia 20. Esquiva final 12 preserva a resistencia 8.",
+    "Equipment e custos dos itens foram mantidos como impressos; pontos de equipamento e PP 3e precisam de recalc."
+  ]
+}

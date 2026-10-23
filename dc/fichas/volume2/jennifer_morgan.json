@@ -1,0 +1,29 @@
+{
+  "nome": "Jennifer Morgan",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 140,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 260
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "0",
+      "STA": "2",
+      "AGL": "3",
+      "DEX": "3",
+      "FGT": "4",
+      "INT": "3",
+      "AWE": "4",
+      "PRE": "3"
+    },
+    "poderes": "Mystical Senses (Sense 4 (Detect Magic, Ranged, Acute, Analytical)); Levitation (Flight 2 (8 MPH, Concentration); Sorcery (Array (22 points), Magic Blast (Ranged Damage 10, Affects Insubstantial (full effect), Dynamic), ae : Mystic Shield (Deflect 12, Impervious Protection 5, Sustained, Dynamic), ae : Clairvoyance (Remote Sensing 11 (Sight)), ae : d isp el Magic (Nullify Magical Effects 10, Broad, Precise), ae : Cure (Healing 7, Restorative, Stabilize), ae : i llusion- Casting (Illusion 7 (Visual and Auditory))",
+    "vantagens": "Artificer, Attractive, Benefit 2 (Supreme Sorceress of Skartaris), Defensive Attack, Extraordinary Effort, Languages 3, Ritualist. Trance",
+    "pericias": "Athletics 4 (+4), Deception 4 (+7), Expertise: History 5 (+8), Expertise: Magic 7 (+10), Expertise: Skartaris 7 (+10), Insight 6 (+10), Perception 4 (+8), Persuasion 4 (+7), Ranged Combat: Magic 5 (+8), Technology 2 (+5), Treatment 4 (+7)",
+    "ataques": "Initiative +3, Magic Blast +8 (Damage 10 plus others)",
+    "defesas": "Dodge 10, Parry 8, Fortitude 5, Toughness 2, Will 12",
+    "pontos_poder": "Abilities 44 + Powers 37 + Advantages 11 + Skills 26 + Defenses 22 = 140",
+    "complicacoes": "r elationships: Warlord (father), Joshua (half- brother) and various allies and friends. Sorceress: Must be able to gesture and speak to use her powers effectively."
+  }
+}

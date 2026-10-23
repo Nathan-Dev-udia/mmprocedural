@@ -1,0 +1,29 @@
+{
+  "nome": "David Cain",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 181,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 12
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "3",
+      "AGL": "5",
+      "DEX": "6",
+      "FGT": "14",
+      "INT": "4",
+      "AWE": "2",
+      "PRE": "4"
+    },
+    "poderes": "n er ve Strike Affliction 6 (Resisted by Fortitude; Dazed, Immobile, Paralyzed), Spine Snap Strength-Based Damage 1",
+    "equipamento": "Binoculars, Flash-bang Grenade (Burst Area Dazzle 4), Heavy Pistol (Ranged Damage 4), Knife (Damage 1, piercing), Night-vision Goggles, Silenced Sniper Rifle (Ranged Damage 5, Critical 19-20, Subtle)",
+    "vantagens": "Chokehold, Defensive Roll 5, Diehard, Equipment 8, Fast Grab, Fearless, Grabbing Finesse, Great Endurance, Hide in Plain Sight, Improved Aim, Power Attack, Precise Attack (Ranged; Cover), Prone Fighting, Range Attack 4, Seize Initiative, Startle, Uncanny Dodge, Weapon Bind",
+    "pericias": "Acrobatics 6 (+11), Athletics 9 (+12), Deception 7 (+11), Expertise: Combat Instruction 10 (+14), Insight 10 (+12), Intimidation 14 (+18), Perception 10 (+12), Stealth 5 (+10), Technology 5 (+9), Vehicles 2 (+8)",
+    "ataques": "Initiative +5, Flash-bang Grenade +10 (Burst Area Dazzle 4), Heavy Pistol +10 (Ranged Damage 4), Nerve Strike +14 (Affliction 6), Silenced Sniper Rifle +10 (Ranged Damage 5, Critical 19-20, Subtle), Spine Snap +14 (Damage 4)",
+    "defesas": "Dodge 9, Parry 14, Fortitude 12, Toughness 8/3*, Will 10 * Without Defensive Roll.",
+    "pontos_poder": "Abilities 82 + Powers 7+ Advantages 32 + Skills 39 + Defenses 21 = 181"
+  }
+}

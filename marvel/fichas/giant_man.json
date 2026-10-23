@@ -1,0 +1,114 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Giant Man",
+  "nome_pt": "Giant Man",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 150,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 33
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 13,
+      "Vig": 7,
+      "Agi": 0,
+      "Des": 0,
+      "Lut": -2,
+      "Int": 5,
+      "Pro": -1,
+      "Pre": 1
+    },
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 10,
+      "Fortitude": 12,
+      "Resistencia": 10,
+      "Vontade": 5
+    },
+    "pericias": {
+      "Enganação": 4,
+      "Tecnologia": 12,
+      "Especialidade: Química": 12,
+      "Especialidade: Eletrônica": 12,
+      "Especialidade: Mecânica": 12,
+      "Intimidação": 12,
+      "Investigação": 10,
+      "Especialidade: Ciências da Vida": 8,
+      "Especialidade: Ciências Físicas": 12,
+      "Especialidade: Tecnologia": 12,
+      "Percepção": 6,
+      "Especialidade: Bioquímica": 4,
+      "Especialidade: Equitação": 1,
+      "Intuição": 6
+    },
+    "vantagens": [
+      "All-out Attack",
+      "Close Attack 5 (Melee)",
+      "Equipment 1",
+      "Improved Grab",
+      "Improved Hold",
+      "Inventor",
+      "Power Attack",
+      "Startle"
+    ],
+    "poderes": [
+      {
+        "nome": "Helmet",
+        "construcao_3e": "Device (Removable): Affliction 10 (Animal Control), Limited to insects.",
+        "custo_2e_pp": 8,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Growth",
+        "construcao_3e": "Growth 12 (Linked to Enhanced Strength 24 and Enhanced Stamina 12); Alternate Effect: Shrinking 16 (Normal Strength).",
+        "custo_2e_pp": 38,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Super Strength",
+        "construcao_3e": "Enhanced Strength 3, Linked to Growth; Ground Strike.",
+        "custo_2e_pp": 7,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Uniforme (+3 Resistência; 3 EP)",
+      "Com-link (1 EP)"
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 3,
+        "dano": 13
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 16,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 17,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 52,
+    "defesas": 33,
+    "pericias": 61.5,
+    "vantagens": null,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 146.5,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Ataque corpo a corpo +3 foi convertido em Fighting -2 mais Close Attack 5, com +13 de dano. Dodge Focus 3 foi convertido em Esquiva; Esquiva/Aparar foram limitadas para cumprir NP 10. Notice e Sense Motive têm bônus totais +5, que resultam em 6 graduações quando se subtrai Awareness -1.",
+    "Defesas ajustadas para Esquiva 10 e Aparar 10, respeitando os limites de NP 10 com Resistência 10.",
+    "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias e apenas os custos de poderes confirmados; não inclui vantagens nem custos incertos."
+  ]
+}

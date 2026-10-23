@@ -1,0 +1,30 @@
+{
+  "nome": "Sensor Girl",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 290,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 19
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "2",
+      "AGL": "4",
+      "DEX": "4",
+      "FGT": "3",
+      "INT": "4",
+      "AWE": "7",
+      "PRE": "8"
+    },
+    "poderes": "i llusions (Illusion 10 (All Sense Types, Area 5); Super- Senses (Sense 59 (Accurate and Extended Hearing Type 3, All Senses Counters Concealment 25 (All Concealment Effects), All Senses Counters Illusion 10, Extended Vision 3, Infravision, Microscopic Vision 4, Vision Penetrates Concealment, Postcognition (Unreliable), Radius Vision 2, Ultra-Hearing, Ultra-Vision))",
+    "equipamento": "Flight Ring (Communication 5 (subspace radio, Anywhere, Limited to Distress Signal –3), Flight 7 (250 MPH); Telepathic Ear Plug ( Comprehend 3 (Languages), Mental Communication 1 (Close Range)); Transsuit (Immunity 9 (Life Support, except for starvation and thirst))",
+    "vantagens": "Accurate Attack, Benefit 6 (Queen of Orando, Legion Membership), Close Attack 2, Connected, Defensive Attack, Defensive Roll 6, Equipment 8, Improved Disarm, Improved Grab, Improved Hold, Improved Trip",
+    "pericias": "Close Combat: Unarmed 2 (+5), Expertise: Magic 8 (+12), Expertise: Orando 5 (+9), Insight 5 (+12), Intimidation 4 (+12), Perception 8 (+15)",
+    "ataques": "Initiative +4, Unarmed +7 (Close, Damage 1)",
+    "defesas": "Dodge 10, Parry 6, Fortitude 6, Toughness 8/2*, Will 14 * Without Defensive Roll.",
+    "pontos_poder": "Abilities 66 + Powers 159 + Advantages 29 + Skills 16 + Defenses 20 = 290",
+    "complicacoes": "r esponsibility: As royalty, Sensor Girl sees it as her responsibility to help others. Later, she helps as penance for taking Nemesis Kid’s life. r elationship: Sensor Girl was married to Karate Kid (see Vol. 1 ) for a time."
+  }
+}

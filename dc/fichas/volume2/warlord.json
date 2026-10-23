@@ -1,0 +1,27 @@
+{
+  "nome": "Warlord",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 260
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "4",
+      "AGL": "4",
+      "DEX": "4",
+      "FGT": "9",
+      "INT": "1",
+      "AWE": "2",
+      "PRE": "5"
+    },
+    "poderes": "Past Lives: Feature 1 (Reincarnation of other famous warriors)",
+    "equipamento": ".44 Ranged Damage 4, Improved Critical • 9 points a ut omag: Sword: Strength-Based Damage 4, Improved Critical • 5 points",
+    "vantagens": "Accurate Attack, All-out Attack, Benefit 4 (Warlord of Skartaris), Connected, Defensive Attack, Defensive Roll 2, Equipment 3, Improved Aim, Improved Disarm, Improved Initiative, Inspire, Languages (Skartaran), Leadership, Power Attack, Precise Attack (Close; Concealment), Quick Draw, Ranged Attack 2, Takedown, Weapon Bind",
+    "pericias": "Acrobatics 2 (+6), Athletics 9 (+12), Close Combat: Sword 3 (+12), Deception 3 (+8), Expertise: Military 10 (+11), Expertise: Skartaris 9 (+10), Expertise: Survival 6 (+7), Insight 6 (+8), Intimidation 7 (+12), Perception 6 (+8), Persuasion 7 (+12), Ranged Combat: Guns 6 (+12), Stealth 2 (+6), Vehicles 8 (+12)",
+    "ataques": "i nitia tive +8 .44 Automag +12 Range, Damage 4, Critical 19-20 Sword +11 Close, Damage 7, Critical 19-20 efen S e d d odge 12 f or titude 9 Parry 12 t oughness 6/4* W ill 9 *Without Defensive Roll accompanied by the warrior-king Machiste, Russian-born Mariah, and the catlike Shakira."
+  }
+}

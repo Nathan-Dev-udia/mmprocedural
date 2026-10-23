@@ -1,0 +1,27 @@
+{
+  "nome": "Trident",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 244
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "3",
+      "AGL": "2",
+      "DEX": "4",
+      "FGT": "4",
+      "INT": "2",
+      "AWE": "3",
+      "PRE": "2"
+    },
+    "poderes": "t Array (25 points), Removable (–10 points) riden t: • e nergy Blast: Ranged Damage 12, Variable Descriptor 1 (Fire, Cold, or Force) • 25 points • i c e Sheath: (Ranged Cumulative Affliction 8 (Resisted by Dodge; Hindered and Vulnerable, Defenseless and Immobile), Extra Condition, Limited Degree) • 1 points • i mage d isplac ement: Concealment 2 (Visual) • 1 points d a e S a V ant G Defensive Attack, Defensive Roll 4, Move-by Action, Power Attack",
+    "pericias": "Athletics 4 (+7), Close Combat: Unarmed 4 (+8), Deception 5 (+7), Perception 4 (+7), Ranged Combat: Trident 4 (+8), Stealth 5 (+7), Technology 2 (+4) ffen S e o i nitia tive +2 Trident Blast +8 Ranged, Damage 12 Unarmed +8 Close, Damage 3",
+    "defesas": "d odge 8 f or titude 7 Parry 8 t oughness 7/3* W ill 7 *Without Defensive Roll. Po er Point W S a bilities 46 S kills 14 Powers 17 d efenses 18",
+    "vantagens": "7 t otal 102",
+    "complicacoes": "e nemy: The Teen Titans."
+  }
+}

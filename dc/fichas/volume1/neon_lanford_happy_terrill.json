@@ -1,0 +1,29 @@
+{
+  "nome": "Neon (Lanford “Happy” Terrill)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 166,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 219
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "4",
+      "STA": "10",
+      "AGL": "5",
+      "DEX": "5",
+      "FGT": "4",
+      "INT": "4",
+      "AWE": "4",
+      "PRE": "3"
+    },
+    "poderes": "border the limits of what DC Adventures can reasonably depict and she may be consid - ered a PLX character. NEON (LANFORD “HAPPY” TERRILL) In 1940, scientist Dr. Dayzl duped New York Star reporter Lan - ford “Happy” Terrill into a high-altitude balloon flight. Light - ning seemingly struck Terrill, but in truth a “genetic bomb” of Dayzl’s design had detonated. Dayzl theorized Happy’s offspring would be a hybrid of human being and pure light, able to communicate with a light entity he believed would someday threaten Earth. In the meantime, Happy gained the ability to fly and project energy, with which he became the costumed hero the Ray. Throughout World War II, the Ray was a core member of Uncle Sam’s Freedom Fighters, remaining active until 1954. Soon after, Happy struggled to care for two sons born with uncontrollable light powers exceeding his own. This led to his first wife’s death, his first son, Joshua’s, imprisonment in sus - pended animation, and his second son, Ray, being raised by Happy’s brother. Happy’s long estrangement from Ray’s life complicates their relationship to this day.",
+    "vantagens": "Evasion 2, Extraordinary Effort, Move-by Action",
+    "pericias": "Close Combat: Unarmed 4 (+9), Expertise: Journalist 3 (+7), Ranged Combat: Neonic Energy 5 (+10)",
+    "ataques": "Initiative +5, Neonic Blasts +10 (Ranged Damage 10, others), Unarmed +9 (Damage 4)",
+    "defesas": "Dodge 10, Parry 10, Fortitude 12, Toughness 10, Will 8",
+    "pontos_poder": "Abilities 78 + Powers 61 + Advantages 4 + Skills 6 + Defenses 17 = 166",
+    "complicacoes": "Doing Good: Despite his protesting he’s too old to be a super hero, Happy ultimately does the right thing. Relationship: Happy’s over-protectiveness of his son, Ray, sometimes drives him to extreme and bizarre ends. The situation between the two is sometimes tense as a result."
+  }
+}

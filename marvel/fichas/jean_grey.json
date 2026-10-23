@@ -1,0 +1,105 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Jean Grey",
+  "nome_pt": "Jean Grey",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 150,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 45
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 1,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 6,
+      "Int": 2,
+      "Pro": 4,
+      "Pre": 2
+    },
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 6,
+      "Fortitude": 3,
+      "Resistencia": 5,
+      "Vontade": 3
+    },
+    "pericias": {
+      "Tecnologia": 8,
+      "Persuasão": 7,
+      "Percepção": 10,
+      "Veículos": 6,
+      "Especialidade: Professora": 10,
+      "Especialidade: Modelo": 10,
+      "Intuição": 8,
+      "Combate a Distância: Telekinetic Blast": 7,
+      "Combate Corpo-a-Corpo: Desarmado": 2
+    },
+    "vantagens": [
+      "All-out Attack",
+      "Attractive",
+      "Equipment",
+      "Improved Defense",
+      "Improved Initiative",
+      "Inspire 2",
+      "Interpose",
+      "Luck",
+      "Seize Initiative",
+      "Set-Up",
+      "Teamwork",
+      "Ultimate Effort: Will Save"
+    ],
+    "poderes": [
+      {
+        "nome": "Telepathy Array",
+        "construcao_3e": "Telepathy 10 dinâmico (Free Action); Efeitos Alternativos: Force Field 14 (Impervious, Shapeable Area), ESP (Audio, Visual, Telepathy), Mental Blast, Mind Control, Telekinesis (Damaging), Blast 12 (Move Action, Concentration, Indirect), Astral Form 10 (Dimensional), Mind Shield. 57 PP na fonte.",
+        "custo_2e_pp": 57,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Uniforme (+3 Toughness; Subtle; 4 EP)",
+      "Comm-Link (1 EP)"
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Telekinetic Blast",
+        "bonus": 8,
+        "dano": 12
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "dano": 0
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 20,
+      "esquiva_mais_resistencia": 15,
+      "aparar_mais_resistencia": 11,
+      "fortitude_mais_vontade": 6,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 36,
+    "defesas": 22,
+    "pericias": 34,
+    "vantagens": 13,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 105,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Concentration 12 (+16) não tem perícia equivalente independente em 3e e foi omitida.",
+    "Attack +8 com Blast 12 respeita o limite de NP 10. Toughness +5/+2 foi preservado pelo maior valor impresso; o uniforme não foi somado novamente.",
+    "Second Chance (Concentration Checks) foi omitida porque Concentration não tem perícia ou teste independente equivalente na 3e."
+  ]
+}

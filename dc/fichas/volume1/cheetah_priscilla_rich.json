@@ -1,0 +1,29 @@
+{
+  "nome": "Cheetah (Priscilla Rich)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 201,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 116
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "2",
+      "AGL": "4",
+      "DEX": "4",
+      "FGT": "6",
+      "INT": "0",
+      "AWE": "2",
+      "PRE": "3"
+    },
+    "poderes": "Claws: Strength-based Damage 4, Penetrating 6 • 10 points Heightened Senses: Senses 6 (Darkvision, Low-Light Vision, Scent, Track, Ultra-Hearing) • 6 points Human Guise: Morph 1 • 5 points Super-Speed: Enhanced Advantage (Improved Initiative 5), Quickness 5, Speed 8 (500 MPH) • 18 points Tail: Extra Limbs 1 • 1 point",
+    "vantagens": "Agile Feint, All-out Attack, Defensive Roll 3, Improved Critical (Claws), Improved Initiative 5, Improved Trip, Instant Up, Languages 3, Power Attack, Prone Fighting, Uncanny Dodge",
+    "pericias": "Acrobatics 8 (+15), Athletics 8 (+15), Close Combat: Claws 5 (+13), Deception 7 (+10), Expertise: Archeology 8 (+11), Insight 4 (+9), Intimidation 8 (+11), Perception 8 (+13), Stealth 8 (+15)",
+    "ataques": "Initiative +27 Claws +13 Close, Damage 11, Penetrating 6, Crit. 19-20",
+    "defesas": "Dodge 15 Fortitude 11 Parry 15 Toughness 9/6* Will 13 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 86 Skills 33 Powers 40 Defenses 28 Advantages 14 ToTal 201",
+    "complicacoes": "Bloodlust: The Cheetah is a fierce and bloodthirsty foe, sometimes losing herself to her animal instincts. Obsession: The Cheetah is obsessed with obtaining items of historical and cultural value and with revenge against Wonder Woman."
+  }
+}

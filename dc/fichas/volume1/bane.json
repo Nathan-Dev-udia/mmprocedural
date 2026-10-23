@@ -1,0 +1,29 @@
+{
+  "nome": "Bane",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 13,
+  "pontos_poder_publicados": 185,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 39
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "7/5",
+      "STA": "7/5",
+      "AGL": "7",
+      "DEX": "7",
+      "FGT": "12",
+      "INT": "8",
+      "AWE": "6",
+      "PRE": "8"
+    },
+    "poderes": "Venom: Enhanced Strength 2; Enhanced Stamina 2; Healing 6, Limited to Self; Protection 1; Activation (standard action, -2 points), Removable (-3 points) • 11 points",
+    "vantagens": "Accurate Attack, All-out Attack, Assessment, Defensive Roll 3, Eidetic Memory, Improved Critical (Unarmed), Improved Hold, Languages 4 (Latin, Persian, Spanish, Urdu, and four others), Leadership, Power Attack, Startle, Taunt",
+    "pericias": "Acrobatics 6 (+13), Athletics 7 (+14/+12*), Close Combat: Unarmed 7 (+19), Deception 4 (+12), Expertise: Philosophy 2 (+10), Expertise: Sociology 2 (+10), Expertise: Theology 2 (+10), Insight 8 (+14), Intimidation 4 (+12), Perception 6 (+12), Persuasion 6 (+14)",
+    "ataques": "Initiative +5 Unarmed +19 Close, Damage 5*, Crit. 19-20 Unarmed +19 Close, Damage 7, Crit. 19-20",
+    "defesas": "Dodge 15 Fortitude 13/11* Parry 15 Toughness 11/8*/5** Will 10 *Without Venom **Without Defensive Roll or Venom.",
+    "pontos_poder": "Abilities 104 Skills 27 Powers 11 Defenses 26 Advantages 17 ToTal 185",
+    "complicacoes": "Venom Addiction: Although Bane has kicked the habit, Venom is highly addictive and he may go back to using the drug for its strength or healing effects as he has in the past. Withdrawal symptoms begin occurring 12 hours after the last use. Stats to the left of the slash (/) represent Bane’s abilities while using Venom."
+  }
+}

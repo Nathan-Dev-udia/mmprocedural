@@ -1,0 +1,28 @@
+{
+  "nome": "Mano",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": 126,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 198
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "4",
+      "AGL": "2",
+      "DEX": "3",
+      "FGT": "3",
+      "INT": "0",
+      "AWE": "2",
+      "PRE": "2"
+    },
+    "poderes": "Containment Suit (Immunity 11: Life Support, Own Powers; Protection 6, Removable, –3 points); Disintegration Disk (Damage 15, Penetrating 15, Link to Weaken Toughness 15)",
+    "pericias": "Athletics 3 (+5), Close Combat: Unarmed 6 (+9), Intimidation 4 (+6), Technology 3 (+3)",
+    "ataques": "Initiative +2, Disintegrating Touch +9 (Close, Damage 15, Penetrating, Weaken Toughness 15), Unarmed +9 (Close, Damage 2)",
+    "defesas": "Dodge 9, Parry 10, Fortitude 8, Toughness 10, Will 7",
+    "pontos_poder": "Abilities 36 + Powers 59 + Advantages 0 + Skills 8 + Defenses 23 = 126",
+    "complicacoes": "Toxic Atmosphere : Mano breathes a poison atmosphere and suffocates in an Earth-normal atmosphere without his containment suit."
+  }
+}

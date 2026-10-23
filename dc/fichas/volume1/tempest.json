@@ -1,0 +1,28 @@
+{
+  "nome": "Tempest",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 160,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 24
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "9",
+      "STA": "8",
+      "AGL": "3",
+      "DEX": "3",
+      "FGT": "7",
+      "INT": "2",
+      "AWE": "4",
+      "PRE": "2"
+    },
+    "poderes": "Aquatic (see Aquaman ); Magic 11 (common spells include Dimensional Travel 2 (Mystic Dimensions), Move Object 11, and Ranged Damage 11); Swimming 9 (250 MPH)",
+    "vantagens": "Accurate Attack, Animal Empathy, Defensive Attack, Defensive Roll, Favored Environment (Aquatic)",
+    "pericias": "Acrobatics 3 (+6), Athletics 4 (+13), Close Combat: Unarmed 2 (+9), Expertise: Magic 8 (+10), Insight 6 (+10), Intimidation 4 (+6), Perception 4 (+8), Ranged Combat: Magic 6 (+9), Stealth 3 (+6)",
+    "ataques": "Initiative +3, Magic Blast +9 (Damage 11), Unarmed +9 (Damage 9)",
+    "defesas": "Dodge 11, Parry 11, Fortitude 9, Toughness 9, Will 11",
+    "pontos_poder": "Abilities 76 + Powers 39 + Advantages 5 + Skills 20 + Defenses 20 = 160"
+  }
+}

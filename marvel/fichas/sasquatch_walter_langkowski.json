@@ -1,0 +1,132 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Sasquatch (Walter Langkowski)",
+  "nome_pt": "Sasquatch (Walter Langkowski)",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 150,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 83
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 12,
+      "Vig": 12,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 8,
+      "Int": 3,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 8,
+      "Fortitude": 12,
+      "Resistencia": 12,
+      "Vontade": 4
+    },
+    "pericias": {
+      "Acrobacia": 8,
+      "Enganação": 8,
+      "Atletismo": 2,
+      "Persuasão": 8,
+      "Intimidação": 12,
+      "Investigação": 11,
+      "Especialidade: Physical Sciences": 12,
+      "Especialidade: Life Sciences": 8,
+      "Tratamento": 11,
+      "Percepção": 8,
+      "Especialidade: Scientist": 7,
+      "Especialidade: Pro Football Player": 7,
+      "Intuição": 6,
+      "Especialidade: Sobrevivência": 7
+    },
+    "vantagens": [
+      "Chokehold",
+      "Connected",
+      "Fast Grab",
+      "Improved Initiative",
+      "Power Attack",
+      "Startle",
+      "Languages 1"
+    ],
+    "poderes": [
+      {
+        "nome": "Enhanced Strength 8",
+        "construcao_3e": "Enhanced Trait: Strength 8.",
+        "custo_2e_pp": 8,
+        "custo_3e_pp": 16
+      },
+      {
+        "nome": "Enhanced Dexterity 4",
+        "construcao_3e": "Enhanced Trait: Dexterity 4.",
+        "custo_2e_pp": 4,
+        "custo_3e_pp": 8
+      },
+      {
+        "nome": "Enhanced Constitution 14",
+        "construcao_3e": "Enhanced Trait: Stamina 14.",
+        "custo_2e_pp": 14,
+        "custo_3e_pp": 28
+      },
+      {
+        "nome": "Growth 6",
+        "construcao_3e": "Continuous, Permanent, Innate; source specifies +12 Strength and +6 Constitution.",
+        "custo_2e_pp": 19,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Leaping 3",
+        "construcao_3e": "Leaping 3.",
+        "custo_2e_pp": 3,
+        "custo_3e_pp": 3
+      },
+      {
+        "nome": "Super-Strength 5",
+        "construcao_3e": "Power-Lifting 5.",
+        "custo_2e_pp": 10,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [],
+    "complicacoes": [
+      "Identidade normal: Walter Langkowski (4 PP na fonte)."
+    ],
+    "ataques": [
+      {
+        "nome": "Unarmed",
+        "bonus": 8,
+        "dano": 12
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 20,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 16,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 90,
+    "defesas": 44,
+    "pericias": 57.5,
+    "vantagens": 7,
+    "poderes_conhecidos": 55,
+    "subtotal_conhecido": 253.5,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Attack Focus (Melee) 5 foi ajustado ao bônus de ataque para não exceder o limite; Dodge Focus 4 foi convertido em graduações de Esquiva. Nenhuma outra vantagem ficou sem correspondência.",
+    "A fonte imprime STR/DEX/CON/INT/WIS/CHA +12/+3/+12/+3/+2/+2; Toughness +12, Fortitude +12, Reflex +6, Will +4; Attack +3 (+8 Melee); Defense 18; Initiative +7.",
+    "A fonte separa este perfil de Sasquatch (Heather Hudson), página anterior; ambos são perfis reais e mantidos como arquivos distintos.",
+    "Normal Identity convertida em complicação. Attack Focus/Dodge Focus e Defesa 18 foram reduzidos para obedecer PL 10; Esquiva/Aparar 8 com Resistência 12.",
+    "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +12/+3/+12/+3/+2/+2. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
+    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
+  ]
+}

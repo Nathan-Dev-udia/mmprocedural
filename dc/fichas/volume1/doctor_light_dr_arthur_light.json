@@ -1,0 +1,29 @@
+{
+  "nome": "Doctor Light (Dr. Arthur Light)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 146,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 171
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "0",
+      "STA": "2",
+      "AGL": "2",
+      "DEX": "3",
+      "FGT": "0",
+      "INT": "4",
+      "AWE": "3",
+      "PRE": "2"
+    },
+    "poderes": "Light Manipulation: Dynamic Array (37 points) • Light Constructs: Create 12, Moveable, Subtle, Dynamic • 38 points • Bursting Flash: Burst Area Affliction 11 (Resisted by Dodge; Vision Impaired, Vision Disabled, Vision Debilitated), Concentration, Move Action, Dynamic • 2 points • Hard Light Blast: Ranged Damage 12, Multiattack, Ricochet, Dynamic • 2 points • Holograms: Visual Illusion 12, Independent, Dynamic • 2 points • Invisibility: Visual Concealment 4 (All), Limited to Light- Dependent Vision, Dynamic • 2 points • Lighting: Environment 12 (light, 2 points per rank), Selective, Dynamic • 2 points • Repulse Photons: Burst Area 4 Ranged Visual Concealment 4 (All), Attack, Dynamic • 2 points Flight: Flight 5 (60 MPH) • 10 points Solid Light Field: Protection 10, Sustained • 10 points",
+    "vantagens": "Connected, Defensive Attack, Inventor, Redirect, Skill Mastery (Expertise: Science)",
+    "pericias": "Deception 4 (+6), Expertise: Optics 5 (+9), Expertise: Science 4 (+8), Intimidation 1 (+3), Persuasion 4 (+6), Ranged Combat: Leech Light 4 (+7), Ranged Combat: Light Manipulation 7 (+10), Technology 5 (+9)",
+    "ataques": "Initiative +2 Bursting Flash — Burst Area, Affliction 11, Resisted by Dodge Hard Light Blast +10 Ranged, Damage 12 Unarmed +0 Close, Damage 0",
+    "defesas": "Dodge 9 Fortitude 6 Parry 7 Toughness 12 Will 7",
+    "pontos_poder": "Abilities 32 Skills 17 Powers 70 Defenses 22 Advantages 5 ToTal 146",
+    "complicacoes": "Bully: Doctor Light receives gratification from the humiliation and suffering of others, especially women and those who are not consenting to his will. Light-Dependence: Doctor Light’s powers require ambient light, suffering a Weakness effect in reduced light exposure. The Gamemaster determines the effect’s rank, as suits lighting levels. The powers don’t work at all in total darkness. Something to Prove: Doctor Light can be driven into a rage if sufficiently mocked, belittled, or if his immense self-doubt is otherwise enflamed."
+  }
+}

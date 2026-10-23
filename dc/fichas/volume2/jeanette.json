@@ -1,0 +1,29 @@
+{
+  "nome": "Jeanette",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 193,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 163
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "9",
+      "STA": "9",
+      "AGL": "4",
+      "DEX": "2",
+      "FGT": "5",
+      "INT": "2",
+      "AWE": "2",
+      "PRE": "4"
+    },
+    "poderes": "as an assassin. He encountered the Atom (Ryan Choi) and afterward spent a lot of his time trying to kill him. He eventually managed to do just that by hiring Deathstroke and his mercenary Titans to carry out the attack. Dwarfstar eventually joined the Secret Six where he served for a very short time before Amanda Waller, who disliked his past crimes and attitude, let Giganta know it was Dwarfstar who was responsible for her boyfriend, Ryan Choi’s, death. Dwarfstar survived the beating, but not before telling Gigan- ta it was Deathstroke who actually killed Choi. Jeanette Jeanette, also known as “the Last Victim” was a survivor of the murderous reign of Countess Elizabeth Bathory. A Hungarian noblewoman, Jeannette eventually escaped and married. Unfortunately, her husband betrayed her and she fell victim to a botched execution. As she was suffering under each clumsy swing of the headsman’s axe, the vengeful spirit of a banshee entered Jeanette. This saved her life and rendered her functionally immortal, but changed her forever. For cen- turies Jeannette wandered. She lived a life of luxury punctu- ated by terror and suffering. As such, she is familiar with both the finer things of life and the world’s worst prisons and tor - ture chambers. Jeannette joined the Secret Six because of her longtime friendship with Scandal Savage and her attraction to Dead-",
+    "vantagens": "All-out Attack, Attractive, Benefit 2 (Independently Wealthy), Fascinate (Persuasion), Improved Initiative , Languages 4 (Hungarian, Russian, Chinese, English, and four others), Taunt",
+    "pericias": "Close Combat: Unarmed 6 (+11), Deception 7 (+11), Expertise: Criminal 4 (+6), Expertise: History 5 (+7), Expertise: Politics 3 (+5), Insight 4 (+6), Intimidation 4 (+8), Perception 3 (+5), Persuasion 5 (+9), Ranged Combat: Throwing 4 (+6), Stealth 3 (+7)",
+    "ataques": "Initiative +8, Death Cry — (Close, Cumulative Concentration Burst Area Affliction 10), Unarmed +11 (Close, Damage 9)",
+    "defesas": "Dodge 10, Parry 11, Fortitude 11, Toughness 9, Will 8",
+    "pontos_poder": "Abilities 74 + Powers 65 + Advantages 10 + Skills 24 + Defenses 20 = 193",
+    "complicacoes": "t Last Victim: Jeannette is sometimes plagued by flashbacks of previous moments in her life, traumatic and otherwise. She is also very world-weary and fatalistic. r omance: Jeannette is romantically involved with Deadshot, both for his deadly skills and resemblance to an old lover."
+  }
+}

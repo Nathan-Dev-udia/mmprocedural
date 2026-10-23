@@ -1,0 +1,105 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Mach IV",
+  "nome_pt": "Mach IV",
+  "nivel_poder": 9,
+  "pontos_poder_origem": 150,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 51
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 8,
+      "Vig": 1,
+      "Agi": 5,
+      "Des": 5,
+      "Lut": 5,
+      "Int": 3,
+      "Pro": 1,
+      "Pre": 0
+    },
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 5,
+      "Fortitude": 3,
+      "Resistencia": 10,
+      "Vontade": 3
+    },
+    "pericias": {
+      "Enganação": 4,
+      "Especialidade: Mecânica": 12,
+      "Tecnologia": 8,
+      "Intimidação": 10,
+      "Especialidade: Tecnologia": 10,
+      "Percepção": 8,
+      "Veículos": 8,
+      "Intuição": 8,
+      "Furtividade": 8,
+      "Combate Corpo-a-Corpo: Desarmado": 1,
+      "Combate a Distância: Blast 9 explosivo": 4,
+      "Combate a Distância: Blast 6 autofire": 7
+    },
+    "vantagens": [
+      "Close Attack 4",
+      "Evasion",
+      "Feature: Favored Environment (Airborne)",
+      "Improved Initiative 2",
+      "Inventor",
+      "Move-By Action",
+      "Teamwork"
+    ],
+    "poderes": [
+      {
+        "nome": "Mach IV Armor",
+        "construcao_3e": "Device Removable: Enhanced Strength 14, Enhanced Dexterity 8, Flight 8, Blast 9 (Explosion; Alternate Effect: Blast 6 (Autofire, Accurate 3)), Protection 10 (Impervious 5), Immunity 9 (Life Support). 72 PP na fonte.",
+        "custo_2e_pp": 72,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "dano": 8
+      },
+      {
+        "nome": "Blast 9 explosivo",
+        "bonus": 9,
+        "dano": 9
+      },
+      {
+        "nome": "Blast 6 autofire",
+        "bonus": 12,
+        "dano": 6
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 18,
+      "esquiva_mais_resistencia": 18,
+      "aparar_mais_resistencia": 15,
+      "fortitude_mais_vontade": 6,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 56,
+    "defesas": 19,
+    "pericias": 44,
+    "vantagens": 11,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 130,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Attack Focus (Melee) 4 convertido em Close Attack 4. Favored Environment (Airborne) convertido em Feature.",
+    "A fonte registra ataque +12 com blaster. Com efeito Blast 9, seria acima do limite Ataque + Efeito 18 de NP 9; esse ataque foi reduzido a +9 para a versão Blast 9. O Blast 6 alternativo permanece +12.",
+    "Toughness 10 e Defense 15 (rank 5) são legais no limite NP 9."
+  ]
+}

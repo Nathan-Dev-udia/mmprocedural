@@ -1,0 +1,30 @@
+{
+  "nome": "Detective Chimp",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 135,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 175
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "4",
+      "STA": "3",
+      "AGL": "4",
+      "DEX": "2",
+      "FGT": "5",
+      "INT": "5",
+      "AWE": "3",
+      "PRE": "1"
+    },
+    "poderes": "d r ank f r om the f oun tain (Comprehend 6 (Animals 2 (Speak To, Understand), Languages 5 (Read, Speak To, Understand, Understood)); Immunity 2 (Age, Disease)); Chimpanzee (Extra Limbs 1 (prehensile feet; Innate), Shrinking 4 (Innate, Permanent))",
+    "equipamento": "Durable whiskey flask, smartphone, deerstalker hat",
+    "vantagens": "Defensive Roll 2, Equipment, Jack-of-all-trades, Skill Mastery 3 (Insight, Investigation, Perception), Well-informed",
+    "pericias": "Acrobatics 6 (+10) , Athletics 6 (+10), Deception 10 (+11), Expertise: Magic 3 (+8), Expertise: Current Events 6 (+11), Insight 10 (+13), Intimidation 0 (-1*), Investigation 10 (+15), Perception 9 (+12), Persuasion 4 (+5), Stealth 0 (+8*)",
+    "ataques": "Initiative +4, Unarmed +5 (Close, Damage 4)",
+    "defesas": "Dodge 8*, Parry 8*, Fortitude 6, Toughness 5/3**, Will 11 *Includes Shrinking modifiers. **Without Defensive Roll. Abilities 56+ Powers 25 + Advantages 8 + Skills 32 +",
+    "pontos_poder": "Defenses 14 = 135",
+    "complicacoes": "Physical Limitation: Detective Chimp, like all chimpanzees, can’t swim. Bad Habits: Bobo smokes and drinks, both to excess, and gets cranky when he goes too long without nicotine or alcohol."
+  }
+}

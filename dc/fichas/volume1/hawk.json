@@ -1,0 +1,29 @@
+{
+  "nome": "Hawk",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 150,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 251
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "8",
+      "STA": "8",
+      "AGL": "4",
+      "DEX": "2",
+      "FGT": "5",
+      "INT": "0",
+      "AWE": "1",
+      "PRE": "4"
+    },
+    "poderes": "Hawk Form: Magic, 66 points, Activation (Move Action, –1 point) • 65 points Avatar of War: Enhanced Advantage 5 (Great Endurance, Improved Critical 2 (Talons), Improved Initiative, Improved Smash); Enhanced Agility 2; Enhanced Awareness -2; Enhanced Presence 3; Enhanced Skill 5 (Perception +10); Enhanced Stamina 5; Enhanced Strength 5; Feature 1 (costume is Innate) • 37 points Resilience: Impervious Protection 4; Regeneration 5 • 13 points Hawk Dive: Leaping 5 (250 feet); Speed 3 (16 MPH) • 8 points Talons: Strength-based Damage 4, Penetrating 4 • 8 points",
+    "vantagens": "All-out Attack, Diehard, Fearless, Great Endurance, Improved Critical 2 (Talons), Improved Initiative , Improved Smash , Power Attack, Startle, Takedown",
+    "pericias": "Athletics 10 (+18), Intimidation 11 (+15), Stealth 8 (+12), Close Combat: Talons 3 (+8), Expertise: Tactics 14 (+14), Insight 4 (+5), Perception 10 (+11) , Ranged Combat: Throwing 4 (+6)",
+    "ataques": "Initiative +8 Talons +8 Close, Damage 12",
+    "defesas": "Dodge 6 Fortitude 12 Parry 8 Toughness 12 Will 6",
+    "pontos_poder": "Abilities 38 Skills 27 Powers 65 Defenses 14 Advantages 6 ToTal 150",
+    "complicacoes": "Locked Form: When Hawk has a -5 or greater penalty to Toughness checks against damage or is suffering a harmful condition, he cannot transform back into Hank Hall. Imbalance: If Hawk spends too much time away from Dove, he starts losing Will defense and goes slowly insane with fury. Rage: Hawk can lose himself in combat. A natural result of 1 or 20 on an attack sends him on a rage, losing his active defenses until his next turn."
+  }
+}

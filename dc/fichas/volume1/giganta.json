@@ -1,0 +1,29 @@
+{
+  "nome": "Giganta",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": 153,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 228
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "16/4",
+      "STA": "16/4",
+      "AGL": "4",
+      "DEX": "2",
+      "FGT": "2",
+      "INT": "5",
+      "AWE": "2",
+      "PRE": "3"
+    },
+    "poderes": "Giant Form: 54 points, Activation (Move action, –1 point) • 53 points Size Increase: Growth 12 (Magic) Linked to Growth 4, Limited: Ranks do not add to Damage and Toughness; Enhanced Stamina 12, Linked: 1 Rank per rank of Size Increase; Impervious Toughness 8 • 48 points Trained Defenses: Enhanced Defense 12 (Dodge 6, Parry 6), Limited to only offset Growth modifiers • 6 points Protective Suit: Impervious Toughness 2; Immunity 2 (Heat, Cold) • 4 points",
+    "vantagens": "Accurate Attack, Chokehold, Fast Grab, Improved Grab, Improved Hold, Improvised Weapon, Startle, Takedown",
+    "pericias": "Athletics 2 (+22/+6*), Close Combat: Unarmed 6 (+8), Expertise: Science 14 (+19), Expertise: Teaching 4 (+9), Intimidation 5 (+14/+8*), Technology 7 (+12), Treatment 10 (+15)",
+    "ataques": "Initiative +4 Unarmed +8 Close, Damage 16/4*",
+    "defesas": "Dodge 5 Fortitude 16/4* Parry 7 Toughness 16/4* Will 8 *Without Growth.",
+    "pontos_poder": "Abilities 52 Skills 24 Powers 57 Defenses 12 Advantages 8 ToTal 153",
+    "complicacoes": "Torn Loyalties: While still a villain, Dr. Zeul is trying to get a normal life and a normal relationship."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "nome": "Blue Lantern Brother/Sister",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 14,
+  "pontos_poder_publicados": 173,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 80
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "2",
+      "AGL": "1",
+      "DEX": "2",
+      "FGT": "3",
+      "INT": "1",
+      "AWE": "6",
+      "PRE": "6"
+    },
+    "poderes": ": Power Ring* ( Feature: The Power of Hope (see sidebar); Force Manipulation: 40-point Array; AE: Revitalize: Healing 20; AE: Hope Burns Bright: Nullify 20 (Orange, Red, or Yellow power ring effects); Limited to when a Green Lantern is within Perception range) * Functions as a Green Lantern power ring except as noted here.",
+    "vantagens": "Defensive Attack, Fearless, Inspire, Move-by Action",
+    "pericias": "Insight 4 (+10), Perception 4 (+10), Persuasion 4 (+10), Ranged Combat: Power Ring 10 (+12)",
+    "ataques": "Initiative +1, Force Blast +12 (Ranged Damage 14)",
+    "defesas": "Dodge 6, Parry 6, Fortitude 6, Toughness 14/2, Will 14",
+    "pontos_poder": "Abilities 44 + Powers 94 + Advantages 4 + Skills 11 + Defenses 20 = 173"
+  }
+}

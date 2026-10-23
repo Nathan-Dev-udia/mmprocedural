@@ -1,0 +1,29 @@
+{
+  "nome": "Duploid",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 105,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 73
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "7",
+      "STA": "6",
+      "AGL": "3",
+      "DEX": "4",
+      "FGT": "5",
+      "INT": "4",
+      "AWE": "2",
+      "PRE": "1"
+    },
+    "poderes": "e nergy a bsorption (Protection 6, Impervious 12, Limited to Energy)",
+    "equipamento": "Heavy pistol (Ranged Damage 4)",
+    "vantagens": "Equipment 2, Teamwork",
+    "pericias": "Close Combat: Unarmed 4 (+9), Deception 4 (+5), Expertise: Physics 6 (+10), Ranged Combat: Pistol 4 (+8), Technology 6 (+10), Vehicles 4 (+8)",
+    "ataques": "Initiative +3, Heavy pistol +8 (Ranged, Damage 4), Unarmed +9 (Close, Damage 7)",
+    "defesas": "Dodge 8, Parry 8, Fortitude 10, Toughness 6/12*, Will 5 *Limited to Energy.",
+    "pontos_poder": "Abilities 64 + Powers 9 + Advantages 3 + Skills 14 + Defenses 15 = 105"
+  }
+}

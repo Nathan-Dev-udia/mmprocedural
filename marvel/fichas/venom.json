@@ -1,0 +1,163 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Venom",
+  "nome_pt": "Venom",
+  "nivel_poder": 11,
+  "pontos_poder_origem": 165,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 108
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 12,
+      "Vig": 3,
+      "Agi": 12,
+      "Des": 10,
+      "Lut": 10,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 0
+    },
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 10,
+      "Fortitude": 8,
+      "Resistencia": 12,
+      "Vontade": 5
+    },
+    "pericias": {
+      "Acrobacia": 0,
+      "Enganação": 6,
+      "Atletismo": 5,
+      "Tecnologia": 3,
+      "Investigação": 9,
+      "Intimidação": 8,
+      "Percepção": 8,
+      "Especialidade: Reporter": 7,
+      "Furtividade": 6,
+      "Combate Corpo-a-Corpo: Desarmado": 2,
+      "Combate Corpo-a-Corpo: Webbing": 2
+    },
+    "vantagens": [
+      "All Out Attack",
+      "Improved Pin",
+      "Power Attack",
+      "Startle"
+    ],
+    "poderes": [
+      {
+        "nome": "Enhanced Strength",
+        "construcao_3e": "Enhanced Trait: Força (rank 2e 15); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Enhanced Strength 15 (15pp); custo 2e impresso 15 PP.",
+        "custo_2e_pp": 15,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Enhanced Dexterity",
+        "construcao_3e": "Enhanced Trait: Destreza (rank 2e 16); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Enhanced Dexterity 16 (16pp); custo 2e impresso 16 PP.",
+        "custo_2e_pp": 16,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Snare",
+        "construcao_3e": "Affliction (conforme graus e extras) (rank 2e 12); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Snare 12 (Power Feats: Tether, Split Attack; Alternate Power: Create Object; Extra: Engulf [+0]; 27pp) Componentes/efeitos alternativos mapeados: Create Object → Create.; custo 2e impresso 27 PP.",
+        "custo_2e_pp": 27,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Super Movement",
+        "construcao_3e": "Movement (rank 2e 3); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Movement 3 (Wall crawling [2], Swinging; 6pp); custo 2e impresso 6 PP.",
+        "custo_2e_pp": 6,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Super Senses",
+        "construcao_3e": "Sentidos (rank 2e 1); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Senses 1 (Danger Sense; 1pp); custo 2e impresso 1 PP.",
+        "custo_2e_pp": 1,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Super Strength",
+        "construcao_3e": "Power-Lifting / Enhanced Strength (rank 2e 2); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Strength 2 (4pp); custo 2e impresso 4 PP.",
+        "custo_2e_pp": 4,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Speed",
+        "construcao_3e": "Speed (rank 2e 4); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Speed 4 (Flaw: Limited- Only Swinging[-1]; 2pp); custo 2e impresso 2 PP.",
+        "custo_2e_pp": 2,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Leaping",
+        "construcao_3e": "Leaping 2; custo 3e incerto devido à diferença de progressão entre edições.",
+        "custo_2e_pp": 2,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Morph [Any Humanoid]",
+        "construcao_3e": "Morph (Any Humanoid), rank 2e 6; rank/custo 3e dependem da equivalência exata da forma.",
+        "custo_2e_pp": 6,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Immunity",
+        "construcao_3e": "Immunity (rank 2e 1); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Immunity 1 (Spiderman’s Danger Sense; 1pp); custo 2e impresso 1 PP.",
+        "custo_2e_pp": 1,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Protection",
+        "construcao_3e": "Protection (rank 2e 9); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Protection 9 (9pp); custo 2e impresso 9 PP.",
+        "custo_2e_pp": 9,
+        "custo_3e_pp": 9
+      }
+    ],
+    "equipamento": [],
+    "complicacoes": [
+      "Vulnerabilidade indicada na fonte: Vulnerable [Fire] [Common Occurrence, Major Intensity; 4pp]",
+      "Fraqueza indicada na fonte: Weakness [Sonics] [Uncommon Occurrence, Major Intensity 8pp]",
+      "Perda de poder indicada na fonte: Power Loss [All Powers] [Major Intensity, Uncommon Occurrence; 3pp]"
+    ],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 12,
+        "dano": 10
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 22,
+      "esquiva_mais_resistencia": 22,
+      "aparar_mais_resistencia": 22,
+      "fortitude_mais_vontade": 13,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 100,
+    "defesas": 45,
+    "pericias": 56,
+    "vantagens": 4,
+    "poderes_conhecidos": 9,
+    "subtotal_conhecido": 214,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
+    "Perícias foram convertidas subtraindo do bônus total impresso o atributo 3e correspondente. Conhecimentos, Ofícios e Profissões foram mantidos como Especialidades; Condução/Pilotagem como Veículos; Sobrevivência como Especialidade: Sobrevivência; Computadores como Tecnologia.",
+    "Poderes preservam os descritores, ranks, modificadores e custos 2e impressos; o guia orienta o efeito 3e equivalente. Custos 3e ficam nulos quando a construção exata ou os modificadores não permitem cálculo seguro.",
+    "Nenhuma Motivação ou complicação não publicada foi acrescentada.",
+    "A fonte informa 91 PP na categoria Powers, mas os custos individuais listados somam 89 PP. A diferença de 2 PP foi preservada sem correção.",
+    "Vantagens sem equivalente direto foram removidas conforme o guia; não foram recriadas como poderes: Fearsome Presence (6) [DC 16; 30ft.].",
+    "Attack Specialization foi convertida em duas graduações de Combate apropriado por graduação da vantagem, conforme o guia.",
+    "Dodge Focus 10 foi convertido em ranks de Esquiva: base 12 + 10 = 22; valor final 10.",
+    "Defesas reduzidas por limite de NP 11: Esquiva 22→10 e Aparar 12→10; cada defesa ativa + Resistência 12 ≤ 22.",
+    "Unarmed: efeito ajustado de 12 para 10 para cumprir Ataque + efeito ≤ 22.",
+    "Subtotal 3e conhecido: 100 PP em habilidades, 56 em perícias, 45 em defesas, 4 em vantagens e 9 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto."
+  ]
+}

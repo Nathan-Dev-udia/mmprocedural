@@ -1,0 +1,29 @@
+{
+  "nome": "Copperhead",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 150,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 129
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "4",
+      "STA": "4",
+      "AGL": "6",
+      "DEX": "6",
+      "FGT": "6",
+      "INT": "1",
+      "AWE": "2",
+      "PRE": "2"
+    },
+    "poderes": "Copperhead Suit: Removable (-8 points) • 31 points Bulletproof: Protection 6 • 6 points Crushing Tail: Strength-based Damage 3; Elongation 1 (15 feet) • 4 points Slippery: Movement (Slithering) • 2 points Snakebite: Affliction 10 (Resisted by Fortitude; Impaired, Immobile, Paralyzed) • 10 points Snakelike: Enhanced Traits 17 (Evasion 2, Fast Grab, Hide in Plain Sight, Improved Critical 3 (Tail) , Improved Disarm, Improved Grab, Improved Hold, Improved Smash, Improved Trip, Instant Up, Move-by Action, Power Attack, Weapon Bind, Weapon Break) • 17 points",
+    "vantagens": "Agile Feint, Chokehold, Connected, Evasion 2, Fast Grab, Grabbing Finesse, Hide in Plain Sight, Improved Critical 3 (Tail) , Improved Defense, Improved Disarm, Improved Grab, Improved Hold, Improved Initiative, Improved Smash, Improved Trip, Instant Up, Move-by Action, Power Attack, Prone Fighting, Startle, Uncanny Dodge, Weapon Bind, Weapon Break",
+    "pericias": "Acrobatics 10 (+16), Athletics 8 (+11), Close Combat: Tail 7 (+13), Close Combat: Unarmed 8 (+14), Insight 4 (+6), Intimidation 6 (+8), Perception 5 (+7), Stealth 8 (+14)",
+    "ataques": "Initiative +10 Tail +13 Close, Damage 7 Unarmed +14 Close, Damage 4",
+    "defesas": "Dodge 12 Fortitude 8 Parry 10 Toughness 10 Will 8",
+    "pontos_poder": "Abilities 62 Skills 28 Powers 31 Defenses 20 Advantages 9 ToTal 150",
+    "complicacoes": "Motivation: Copperhead seeks revenge against anyone who’s crossed him in the past."
+  }
+}

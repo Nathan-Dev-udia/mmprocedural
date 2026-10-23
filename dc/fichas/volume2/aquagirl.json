@@ -1,0 +1,29 @@
+{
+  "nome": "Aquagirl",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 8,
+  "pontos_poder_publicados": 115,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 230
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "5",
+      "STA": "6",
+      "AGL": "4",
+      "DEX": "3",
+      "FGT": "5",
+      "INT": "2",
+      "AWE": "3",
+      "PRE": "1"
+    },
+    "poderes": "a qua tic (Immunity 3 (Cold, Drowning, Pressure), Movement 1 (Environmental Adaptation – Aquatic), Senses 1 (Low-light Vision)); Swimming 8 (120 MPH); t elepa thy (Comprehend 2 (Animals; Speak To, Understand), Mental Communication 2, Awareness Check Required) e Atlantean Trident (Strength-based Damage 3, quipmen t: Reach)",
+    "vantagens": "Animal Empathy, Attractive, Close Attack 3, Defensive Roll 2, Equipment, Evasion, Favored Environment (Aquatic), Languages (Spanish)",
+    "pericias": "Acrobatics 4 (+8), Athletics 3 (+8), Insight 3 (+6), Investigation 2 (+4), Perception 2 (+5)",
+    "ataques": "Initiative +4, Atlantean Trident +8 (Close, Damage 8, Reach), Unarmed +8 (Close, Damage 5)",
+    "defesas": "Dodge 10, Parry 8, Fortitude 8, Toughness 8/6*, Will 6 * Without Defensive Roll.",
+    "pontos_poder": "Abilities 58 + Powers 25 + Advantages 11 + Skills 7 + Defenses 14 = 115",
+    "complicacoes": "f lir tations: Aquagirl’s presence has been causing problems for Blue Beetle, whose girlfriend (Traci Thirteen) has declined Titans’ membership and thus isn’t always around, and between Superboy and Wonder Girl. Lorena has thus far kept her multiple flirtations relatively subtle, though she has been getting bolder of late, a situ- ation that could lead to problems within the team. Pro - tector: Lorena is highly motivated to use her powers to protect others. She willingly puts herself at risk to defend innocents or those she cares about."
+  }
+}

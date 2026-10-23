@@ -1,0 +1,30 @@
+{
+  "nome": "Doll Man (Lester Colt)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 168,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 216
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "-3",
+      "STA": "4",
+      "AGL": "3",
+      "DEX": "3",
+      "FGT": "6",
+      "INT": "4",
+      "AWE": "5",
+      "PRE": "3"
+    },
+    "poderes": "Shrinking 12 (6 inches; Permanent); Combat Rocket Pack (Flight 5 (60 MPH), Removable)",
+    "equipamento": "Miniaturized Arsenal (select 35 equipment points worth of Projectile Weapons, Heavy Weapons, and/or Grenades and Explosives)",
+    "vantagens": "Agile Feint, All-out Attack, Chokehold, Close Attack 6, Defensive Roll, Equipment 7, Great Endurance, Improved Critical 2 (Guns), Improved Defense, Improved Disarm, Improved Grab, Improved Initiative, Improved Trip, Leadership, Power Attack, Ranged Attack 4, Redirect, Tracking",
+    "pericias": "Acrobatics 3 (+6), Athletics 3 (+0), Expertise: Politics 7 (+11), Expertise: Science 7 (+11), Expertise: Soldier 9 (+13), Intimidation 0 (-3), Perception 9 (+14), Ranged Combat: Guns 6 (+9), Stealth 3 (+18), Vehicles 7 (+10)",
+    "ataques": "Initiative +7, Ranged Attacks +13 (Damage by Weapon Type), Unarmed +12 (Damage -4 or by Weapon Type)",
+    "defesas": "Dodge 15, Parry 15, Fortitude 10, Toughness 5/4, Will 10",
+    "pontos_poder": "Abilities 56 + Powers 32 + Advantages 33 + Skills 27 + Defenses 20 = 168",
+    "complicacoes": "Patriotism: Colt is the consummate soldier, ready to follow any order and even die in order to protect America. Relationship: Colt truly loves Emma Glenn, and her safety (and their baby’s) remains his constant concern."
+  }
+}

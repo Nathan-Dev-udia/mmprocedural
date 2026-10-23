@@ -1,0 +1,28 @@
+{
+  "nome": "Bombshell",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 231
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "9",
+      "STA": "8",
+      "AGL": "2",
+      "DEX": "3",
+      "FGT": "4",
+      "INT": "0",
+      "AWE": "1",
+      "PRE": "0"
+    },
+    "poderes": "d ilust el Shell (Enhanced Stamina 6, Enhanced Strength 8, Immunity 10 (Life Support), Impervious Toughness 12, Protection 4, Activation (Move, -1 point)); Quantum Channeling (Flight 11 (4,000 MPH), Immunity 20 (Energy Effects, Distracting, Limited to Half-Effect, Sustained), Senses 3 (Detect Energy Spectra (Acute, Radius))); Quantum Manipulation Array (24 points): Quantum Blast (Ranged Damage 12), ae : Control Machines (Ranged Affliction 11 (Resisted by Dodge; Dazed, Compelled, Controlled; Concentration, Limited to Technological Devices), ae : Quantum Burst (Burst Area Damage 11), ae : Quantum Conversion (Deflect Energy 10 (Reflect, Redirection, Close Range, Energy Only)), ae : Quantum d isr uption (Burst Area Affliction 11 (Resisted by Will; Dazed, Stunned; Concentration, Limited Degree)))",
+    "vantagens": "Diehard, Move-By Action, Ranged Attack 4, Taunt",
+    "pericias": "Athletics 4 (+13), Close Combat: Unarmed 4 (+8), Deception 8 (+8), Intimidation 6 (+6), Ranged Combat: Quantum Blast 3 (+10), Stealth 1 (+3), Vehicles 1 (+4)",
+    "ataques": "Initiative +2, Quantum Blast +10 (Ranged, Damage 12), Quantum Burst — (Burst Area, Damage 11), Quantum Disruption — (Burst Area, Affliction 12), Unarmed +8 (Close, Damage 9)",
+    "defesas": "Dodge 6, Parry 9, Fortitude 10, Toughness 12, Will 6 t otals Abilities 26 + Powers 113 + Advantages 7 + Skills 14 + Defenses 16 = 176",
+    "complicacoes": "Bad a ttitude: Bombshell looks down on just about everyone and only grudgingly offers her respect, making her difficult to get along with and unreliable when it comes to team tactics. This causes constant friction with the other Teen Titans. Crack the Shell: Extreme heat followed by extreme cold attacks can weaken her Dilustel shell, making it easy to crack if damaged. Under such conditions, temporarily remove her Impervious Toughness and Protection powers. Any attacks resulting in two degrees of failure on her damage resistance check mean the shell is cracked, whereas three degrees of failure shatters the shell temporarily. Power Loss: Bombshell’s Dilustel shell is not permanent, and so she loses its benefits and her access to the Quantum Field if the Dilustel is not activated or is somehow negated or dispersed. The shell will also disappear for a time if shattered (see her “Crack the Shell” complication). She has Str 1 and Sta 2 without the shell."
+  }
+}

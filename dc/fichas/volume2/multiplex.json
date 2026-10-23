@@ -1,0 +1,27 @@
+{
+  "nome": "Multiplex",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 73
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "7",
+      "STA": "6",
+      "AGL": "3",
+      "DEX": "4",
+      "FGT": "5",
+      "INT": "4",
+      "AWE": "2",
+      "PRE": "1"
+    },
+    "poderes": "Bio- f ission: Summon Duploids 7 (105 points), Active, Horde, Mental Link, Multiple Minions 4 (16 minions) • 85 points e nergy a bsorption: Impervious Protection 6, Limited to Energy; Impervious Toughness 6, Limited to Energy • 9 points",
+    "equipamento": "Weapon: Usually a heavy pistol (Ranged Damage 4) • 8 points",
+    "vantagens": "Equipment 2, Teamwork",
+    "pericias": "Close Combat: Unarmed 4 (+9), Deception 4 (+5), Expertise: Physics 6 (+10), Ranged Combat: Guns 4 (+8), Technology 6 (+10), Vehicles 4 (+8)",
+    "ataques": "i nitia tive +3 Heavy pistol +8 Ranged, Damage 4 Unarmed +9 Close, Damage 7 efen S e d d odge 8 f or titude 10 Parry 8 t oughness 6/12* W ill 5 *Limited to Energy."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "nome": "Ultraman",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 15,
+  "pontos_poder_publicados": 291,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 139
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "19",
+      "STA": "14",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "8",
+      "INT": "2",
+      "AWE": "2",
+      "PRE": "4"
+    },
+    "poderes": "Flight ( Array (30 points), Ultra-Flight (Flight 15 (64,000 MPH)), AE: Space Flight (Movement 1 (Space Travel)), AE: Ultra- Speed (Speed 15 (64,000 MPH))); Heat Vision (Ranged Damage 15); Invulnerability (Protection 4, Impervious Toughness 18; Immunity 5 (Cold, Heat, Pressure, Radiation, Vacuum)); Super- Senses ( Senses 15 (Acute and Extended Hearing, Extended Vision 3, Infravision, Microscopic Vision 4, Ultra-Hearing, Vision Penetrates Concealment (except lead))); Super-Speed (Quickness 8); Super-Strength: (Enhanced Strength 4, Limited to Lifting (Lifting Str 23; 200,000 tons)) HQ: UL TRAMAN’S FLYING FORTRESS • 25 POINTS Size: Huge Tou 20 Features: Communications, Computer, Death Traps, Feature: Brainiac’s Alien Database*, Hanger, Holding Cells, Infirmary, Isolated (Orbital), Laboratory, Library, Living Space, Personnel (Brainiac Drone Androids), Power System, Security System *Ultraman (and the other CSA members) can consult Brainiac on questions about alien worlds, interstellar space, and extraterrestrial organisms. The extent of Brainiac’s knowledge is up to the Gamemaster.",
+    "vantagens": "Benefit 5 (CSA member), Connected, Equipment 5, Extraordinary Effort, Inspire, Leadership, Power Attack, Seize Initiative, Ultimate Effort (Toughness)",
+    "pericias": "Close Combat: Unarmed 3 (+11), Expertise: Astronaut 4 (+6), Streetwise 8 (+10), Science 8 (+10), Intimidation 8 (+12), Ranged Combat: Heat Vision 8 (+10), Perception 5 (+8), Technology 8 (+10), Vehicles 4 (+6)",
+    "ataques": "Initiative +2, Unarmed +11 (Close, Damage 19), Heat Vision +10 (Ranged, Damage 15)",
+    "defesas": "Dodge 10, Parry 10, Fortitude 15, Toughness 18, Will 15",
+    "pontos_poder": "Abilities 106 + Powers 116 + Advantages 17 + Skills 28 + Defenses 24 = 291",
+    "complicacoes": "Power Loss: Ultraman loses his powers without regular exposure to anti-kryptonite. He keeps pellets of the substance in the compartments of his costume to prevent his strength from waning. Relationships: Ultraman has a love/hate marriage with Superwoman (who loathes him) and a rivalry with Owlman. Secret: The antimatter Clark Kent has committed personally shameful acts which he fears coming to light; Ultraman tolerates Owlman on the Crime Syndicate Team because of threatened internet exposure. Vulnerability: Ultraman is as vulnerable to magic as anyone else. His Toughness is not Impervious against magical attack."
+  }
+}

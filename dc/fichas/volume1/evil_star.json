@@ -1,0 +1,29 @@
+{
+  "nome": "Evil Star",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 13,
+  "pontos_poder_publicados": 319,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 196
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "6",
+      "AGL": "2",
+      "DEX": "4",
+      "FGT": "4",
+      "INT": "8",
+      "AWE": "5",
+      "PRE": "5"
+    },
+    "poderes": "The Star-Band: 249 points, Removable (–50 points) • 199 points Ageless: Immunity 3 (Aging, Starvation, Thirst); Enhanced Stamina 4 • 11 points Flight: Flight 13 (16,000 MPH); Movement 4 (Environmental Adaptation: Zero-G, Space Travel 3) • 34 points Force Field: Impervious Protection 10; Immunity 10 (Life Support) • 30 points Starlings: Summon 13 (195 points), Controlled, Feature 1 (Can give two commands to Starlings as a move action), Horde, Multiple Minions 3 (5 minions), Sacrifice • 132 points Starlight Manipulation: Array (32 points) • Starforce Blast: Ranged Damage 16 • 32 points • Force Constructs: Create 16 • 1 point • Lifting: Move Object 16 • 1 point Universal Translator: Comprehend Languages 4 • 8 points",
+    "vantagens": "Inspire 2, Inventor, Precise Attack (Ranged; Concealment), Set-up",
+    "pericias": "Deception 7 (+13), Expertise: Science 14 (+22), Intimidation 10 (+15), Investigation 8 (+16), Ranged Combat: Star-Band 6 (+10), Technology 15 (+23)",
+    "ataques": "Initiative +2 Unarmed +4 Close, Damage 2 Star-Band +10 Range, Damage 16 or other effects",
+    "defesas": "Dodge 8 Fortitude 15 Parry 7 Toughness 16 Will 8",
+    "pontos_poder": "Abilities 64 Skills 30 Powers 199 Defenses 21 Advantages 5 ToTal 319",
+    "complicacoes": "Star-Band Corruption: The Star-Band erodes Evil Star’s principles and sanity. He is vulnerable to remorse and guilt when faced directly with his past atrocities. Starlight: Being isolated from starlight reduces every power in the Star-Band by one rank per full day of isolation."
+  }
+}

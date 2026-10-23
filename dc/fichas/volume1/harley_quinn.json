@@ -1,0 +1,30 @@
+{
+  "nome": "Harley Quinn",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 150,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 250
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "3",
+      "AGL": "6",
+      "DEX": "5",
+      "FGT": "8",
+      "INT": "7",
+      "AWE": "2",
+      "PRE": "4"
+    },
+    "poderes": "Poison Ivy Immunity: Immunity 3 (Disease, Poison, Poison Ivy’s Touch) • 3 points",
+    "equipamento": "Boxing-Glove Gun: Ranged Affliction 4 (Resisted by Dodge; Dazed, Stunned, Incapacitated) • 8 points Two-Handed Mallet: Strength-based Damage 4, Reach 1 • 5 points Light Pistol: Ranged Damage 3 • 6 points",
+    "vantagens": "Agile Feint, Attractive, Benefit 1 (Well-off ), Close Attack 2, Daze (Deception), Defensive Roll 4, Equipment 3, Evasion, Grabbing Finesse, Improved Disarm, Improved Initiative, Improvised Weapon, Luck 4",
+    "pericias": "Acrobatics 12 (+18), Athletics 7 (+9), Close Combat: Two-Handed Mallet 4 (+12), Close Combat: Unarmed 5 (+13), Deception 6 (+10), Expertise: Psychology 8 (+11), Perception 2 (+4), Ranged Combat: Guns 10 (+15) her natural strength and speed. Harley’s training in the field of psychoanalysis is still relevant, though her license to prac - tice has been revoked.",
+    "ataques": "Initiative +10 Boxing-Glove Gun +15 Ranged, Affliction 4, Resisted by Dodge Light Pistol +15 Ranged, Damage 3 Two-Handed Mallet +14 Close, Damage 6 Unarmed +15 Close, Damage 2",
+    "defesas": "Dodge 14 Fortitude 8 Parry 14 Toughness 6/3* Will 7 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 74 Skills 27 Powers 3 Defenses 24 Advantages 22 ToTal 150",
+    "complicacoes": "Obsession: Harley threw away a very successful career as psychiatrist to follow the man of her dreams—unfortunately, that man was the Joker. Her love–hate relationship with the Joker motivates many of her actions. Recognition: Harley wants people to respect and acknowledge her, even if she has to beat them into doing so. Hedonism: If it feels good to Harley, then it must be good, even if everyone else thinks it’s bad. ENEMIES While every criminal in Gotham must count the Batman as an enemy, Harley Quinn has occasionally helped the Caped Crusader, even assisting him in bringing the Joker to justice. Batman wants concrete evidence that she has dropped the criminal personae and still considers her on the side of the bad guys. At the moment, any enemy of Poison Ivy or Cat - woman is an enemy of Harley as well."
+  }
+}

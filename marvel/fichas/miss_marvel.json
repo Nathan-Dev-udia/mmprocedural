@@ -1,0 +1,117 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Miss Marvel",
+  "nome_pt": "Miss Marvel",
+  "nivel_poder": 11,
+  "pontos_poder_origem": 180,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 57
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 12,
+      "Vig": 12,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 6,
+      "Int": 2,
+      "Pro": 2,
+      "Pre": 3
+    },
+    "defesas": {
+      "Esquiva": 12,
+      "Aparar": 10,
+      "Fortitude": 15,
+      "Resistencia": 10,
+      "Vontade": 5
+    },
+    "pericias": {
+      "Enganação": 8,
+      "Tecnologia": 8,
+      "Investigação": 9,
+      "Percepção": 8,
+      "Intuição": 8,
+      "Furtividade": 8,
+      "Combate Corpo-a-Corpo: Desarmado": 4
+    },
+    "vantagens": [
+      "All-out Attack",
+      "Attractive 2",
+      "Luck",
+      "Power Attack"
+    ],
+    "poderes": [
+      {
+        "nome": "Absorption",
+        "construcao_3e": "Absorption 8 (Energy), Boost Blast; 32 PP na fonte.",
+        "custo_2e_pp": 32,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Enhanced Strength",
+        "construcao_3e": "Enhanced Strength 22.",
+        "custo_2e_pp": 22,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Enhanced Constitution",
+        "construcao_3e": "Enhanced Constitution 22.",
+        "custo_2e_pp": 22,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Flight",
+        "construcao_3e": "Flight 4.",
+        "custo_2e_pp": 8,
+        "custo_3e_pp": 8
+      },
+      {
+        "nome": "Immunity",
+        "construcao_3e": "Immunity 9 (Life Support).",
+        "custo_2e_pp": 9,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Super-Strength",
+        "construcao_3e": "Super-Strength 3.",
+        "custo_2e_pp": 6,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "dano": 12
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 22,
+      "esquiva_mais_resistencia": 22,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 20,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 78,
+    "defesas": 42,
+    "pericias": 27,
+    "vantagens": 5,
+    "poderes_conhecidos": 8,
+    "subtotal_conhecido": 160,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Attack Specialization (Unarmed) 2 convertido em Close Combat: Desarmado 4. Dodge Focus 4 foi convertido em Dodge ranks; o valor foi limitado a 12 para respeitar NP 11 com Toughness 10.",
+    "A fonte lista Mimic-like strength boosts junto a Absorption; os valores foram preservados sem recalcular os efeitos.",
+    "Dodge foi ajustada de 14 para 12 para cumprir Dodge + Toughness ≤ 22 (NP 11)."
+  ]
+}

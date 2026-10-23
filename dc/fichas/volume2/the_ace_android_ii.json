@@ -1,0 +1,28 @@
+{
+  "nome": "The Ace Android Ii",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 13,
+  "pontos_poder_publicados": 186,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 151
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "14",
+      "STA": "—",
+      "AGL": "4",
+      "DEX": "4",
+      "FGT": "8",
+      "INT": "—",
+      "AWE": "0",
+      "PRE": "—"
+    },
+    "poderes": "a ndr oid Body (Enhanced Strength 4 (Limited to Lifting; lifting Str 18, 6,000 tons), Feature 1 (Turn Self Yellow), Immunity 30 (Fortitude effects), Protection 14), f lame a ura (Damage 8, Reaction), f lame Blasts (Ranged Damage 13, Accurate 2), n ullify 11 (Gravity effects, Concentration)), f lying Ca rd (Flight 6 (120 MPH), Platform)",
+    "vantagens": "Close Attack 4, Ranged Attack 5, Teamwork",
+    "pericias": "Perception 4 (+4)",
+    "ataques": "Initiative +4, Flame Blasts +13 (Ranged, Damage 13), Unarmed +12 (Close, Damage 14)",
+    "defesas": "Dodge 10, Parry 10, Fortitude Immune, Toughness 14, Will Immune",
+    "pontos_poder": "Abilities 30 + Powers 137 + Advantages 10 + Skills 1 + Defenses 8 = 186"
+  }
+}

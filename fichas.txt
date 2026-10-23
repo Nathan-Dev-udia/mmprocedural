@@ -1,0 +1,216 @@
+Captain America (Steve Rogers) (PL13)
+1768641-capav2001_cov_col-1.jpg
+Strength 4, Stamina 5, Agility 7, Dexterity 7, Fighting 14, Intellect 4, Awareness 7, Presence 7
+
+Advantages
+Agile Feint, All-out Attack, Assessment, Attractive, Benefit, Security Clearance 5: Head of USA Parahuman Security, Benefit, Status 5: Head of all Metahuman Operations, Defensive Attack, Diehard, Eidetic Memory, Equipment 3, Evasion 2, Extraordinary Effort, Fascinate (Persuasion), Fearless, Grabbing Finesse, Great Endurance, Improved Aim, Improved Critical 2: Shield Bash: Strength-based Damage 3, Improved Critical 2: Shield Throw: Strength-based Damage 3, Improved Critical 2: Unarmed, Improved Critical: Shield Bash: Strength-based Damage 3, Improved Critical: Shield Throw: Strength-based Damage 3, Improved Defense, Improved Disarm, Improved Initiative 2, Improved Trip, Inspire 5, Instant Up, Interpose, Jack-of-all-trades, Languages 3, Leadership, Move-by Action, Power Attack, Precise Attack (All) 4, Quick Draw, Ranged Attack 7, Redirect, Seize Initiative, Skill Mastery: Acrobatics, Skill Mastery: Athletics, Skill Mastery: Expertise: Tactics, Takedown, Teamwork, Ultimate Effort: Parry/Dodge, Uncanny Dodge
+
+Skills
+Acrobatics 12 (+19), Athletics 14 (+18), Close Combat: Grab 5 (+19), Close Combat: Shield Bash 5 (+19), Close Combat: Unarmed 6 (+20), Deception 2 (+9), Expertise: Artist 10 (+14), Expertise: Military 6 (+10), Expertise: Tactics 14 (+18), Insight 8 (+15), Intimidation 4 (+11), Investigation 2 (+6), Perception 8 (+15), Persuasion 8 (+15), Ranged Combat: Shield Throw 7 (+14), Stealth 8 (+15), Treatment 2 (+6), Vehicles 6 (+13)
+
+Powers
+Super Soldier Serum
+Peak Human Agility: Movement 2 (Safe Fall, Swinging, Advantages: Agile Feint, Evasion 2, Skill Mastery, Skill Mastery, Uncanny Dodge; Limited: Need Handholds)
+Peak Human Jumping: Leaping 1 (Leap 15 feet at 4 miles/hour)
+Peak Human Mental Process: Quickness 4 (Perform routine tasks in -4 time ranks, Advantages: Assessment, Eidetic Memory, Jack-of-all-trades, Seize Initiative, Skill Mastery; Limited to One Type: Mental)
+Peak Human Metabolism: Immunity 8 (Aging, Disease, Enviromental Conditions (All), Poison, Advantages: Diehard, Great Endurance; Limited - Half Effect)
+Peak Human Speed: Speed 4 (Speed: 30 miles/hour, 500 feet/round, Advantages: Improved Initiative 2, Quick Draw)
+Peak Human Strength: Power-lifting 1 (+1 STR for lifting; Distracting)
+Special Equipment
+Captain America's Shield (Easily Removable (indestructible))
+Shield Defense: Enhanced Trait 9 (Traits: Dodge +3 (+17), Parry +3 (+17), Advantages: Improved Defense, Interpose, Ultimate Effort: Parry/Dodge; Sustained)
+Shield Effects (Array)
+Shield Bash: Strength-based Damage 3 (DC 22, Advantages: Improved Critical; Multiattack, Penetrating 7)
+Shield Deflect: Deflect 17 (Sustained; Diminished Range 3)
+Shield Throw: Strength-based Damage 3 (DC 22, Advantages: Improved Critical; Feature: Returns, Increased Range: ranged, Multiattack, Penetrating 7, Ricochet 3: 3 bounces; Diminished Range)
+Duralumin Kevlar Chain Mail Armor (Removable)
+Fire Retardant: Immunity 6 (Damage Effect: Fire, Environmental Condition: Heat; Limited - Half Effect)
+Protection: Protection 4 (+4 Toughness)
+Equipment
+Commlink, Motorcycle
+
+Offense
+Initiative +15
+Grab, +19 (DC Spec 17)
+Shield Bash: Strength-based Damage 3, +19 (DC 22)
+Shield Throw: Strength-based Damage 3, +19 (DC 22)
+Throw, +12 (DC 19)
+Unarmed, +20 (DC 19)
+Complications
+Enemy: Captain America has made many major enemies: Red Skull, Baron Zemo, and many others
+Honor
+Motivation: Doing Good
+Motivation: Patriotism
+Motivation: Responsibility
+Relationship: Sharon Carter (Girlfriend), Bucky, Falcon (partners)
+
+Languages
+English, German, Greek, Japanese, Russian
+
+Defense
+Dodge 17/14, Parry 17/14, Fortitude 10, Toughness 9, Will 16
+
+Power Points
+Abilities 110 + Powers 51 + Advantages 53 + Skills 64 (127 ranks) + Defenses 21 = 299
+
+Conversion Notes:
+I made him PL13 to show that he is the equal of Batman in terms of combat skills but his shield, allows him a higher defensive value. Also, it has been established that Cap can go toe to toe with guys of much higher PL like Thor, Hulk, Iron Man and others because of his shield. The way i have always seen it, Cap was always better physically than Batman but Bat was always way smarter, though Cap is no dumbo.
+I made Cap as the benchmark for many superheroes in the Marvel Universe. In terms of abilities and combat skills, he sets the bar. With his stats, i basically made most of them at 7, which is the established peak human in Mutants & Masterminds.
+Though technically not super powers, his extreme abilities are beyond the average human. Also, i made them not innate as it has been established that his abilities can be shut down through some special circumstances
+
+
+Commander Steve Rogers - PL 13
+4334-new_steve_rogers_design_2010_02.jpg
+Strength 4, Stamina 5, Agility 7, Dexterity 7, Fighting 14, Intellect 4, Awareness 7, Presence 7
+
+Advantages
+Agile Feint, All-out Attack, Assessment, Attractive, Benefit, Security Clearance 5: Head of USA Parahuman Security, Benefit, Status 5: Head of all Metahuman Operations, Defensive Attack, Diehard, Eidetic Memory, Equipment 3, Evasion 2, Extraordinary Effort, Fascinate (Persuasion), Fearless, Grabbing Finesse, Great Endurance, Improved Aim, Improved Critical 2: Shield Bash: Strength-based Damage 3, Improved Critical 2: Shield Throw: Strength-based Damage 3, Improved Critical 2: Unarmed, Improved Critical: Shield Bash: Strength-based Damage 3, Improved Critical: Shield Throw: Strength-based Damage 3, Improved Defense, Improved Disarm, Improved Initiative 2, Improved Trip, Inspire 5, Instant Up, Interpose, Jack-of-all-trades, Languages 3, Leadership, Move-by Action, Power Attack, Precise Attack (All) 4, Quick Draw, Ranged Attack 7, Redirect, Seize Initiative, Skill Mastery: Acrobatics, Skill Mastery: Athletics, Skill Mastery: Expertise: Tactics, Takedown, Teamwork, Ultimate Effort: Parry/Dodge, Uncanny Dodge
+
+Skills
+Acrobatics 12 (+19), Athletics 14 (+18), Close Combat: Grab 5 (+19), Close Combat: Shield Bash 4 (+18), Close Combat: Unarmed 6 (+20), Deception 2 (+9), Expertise: Artist 10 (+14), Expertise: Military 10 (+14), Expertise: Tactics 14 (+18), Insight 10 (+17), Intimidation 8 (+15), Investigation 2 (+6), Perception 10 (+17), Persuasion 8 (+15), Ranged Combat: Shield Throw 4 (+11), Stealth 8 (+15), Treatment 2 (+6), Vehicles 8 (+15)
+
+Powers
+Super Soldier Serum
+Peak Human Agility: Movement 2 (Safe Fall, Swinging, Advantages: Agile Feint, Evasion 2, Skill Mastery, Skill Mastery, Uncanny Dodge; Limited: Need Handholds)
+Peak Human Mental Process: Quickness 4 (Perform routine tasks in -4 time ranks, Advantages: Assessment, Eidetic Memory, Jack-of-all-trades, Seize Initiative, Skill Mastery; Limited to One Type: Mental)
+Peak Human Metabolism: Immunity 8 (Aging, Disease, Enviromental Conditions (All), Poison, Advantages: Diehard, Great Endurance; Limited - Half Effect)
+Peak Human Speed: Speed 4 (Speed: 30 miles/hour, 500 feet/round, Advantages: Improved Initiative 2, Quick Draw)
+
+Special Equipment
+Photon Shield (Device, Easily Removable)**
+Photon Shield
+
+Shield Bash: Strength-based Damage 3 (DC 23; Penetrating 3, Multiattack)
+Shield Throw: Strength-based Damage 3 (DC 23; Increased Range (ranged), Homing (1 extra attempt), Ricochet 3 (3 bounces), Feature (Returns), Multiattack, Penetrating 3)
+Photon Shield Defense: Enhanced Trait 4 (Traits: Dodge +2 (+16), Parry +2 (+16))
+
+Duralumin Kevlar Chain Mail Armor (Removable)
+Fire Retardant: Immunity 6 (Damage Effect: Fire, Environmental Condition: Heat; Limited - Half Effect)
+Protection: Protection 4 (+4 Toughness)
+
+Equipment
+Commlink, Motorcycle
+
+Offense
+Initiative +15
+Grab, +19 (DC Spec 17)
+Shield Bash: Strength-based Damage 3, +18 (DC 22)
+Shield Throw: Strength-based Damage 3, +18 (DC 22)
+Throw, +14 (DC 19)
+Unarmed, +20 (DC 19)
+
+Complications
+Enemy: Captain America has made many major enemies: Red Skull, Baron Zemo, and many others
+Honor
+Motivation: Doing Good
+Motivation: Patriotism
+Motivation: Responsibility
+Relationship: Sharon Carter (Girlfriend), Bucky, Falcon (partners)
+
+Languages
+English, German, Greek, Japanese, Russian
+
+Defense
+Dodge 17/14, Parry 17/14, Fortitude 10, Toughness 9, Will 16
+
+Power Points
+Abilities 110 + Powers 49 + Advantages 55 + Skills 69 (137 ranks) + Defenses 21 = 304
+
+Equipment
+Binoculars, Cell Phone (Smartphone), Commlink, Heavy Pistol, Motorcycle, Night Vision Goggles
+
+Offense
+Initiative +15
+Grab, +20 (DC 20)
+Heavy Pistol, +12 (DC 19)
+Shield Bash: Strength-based Damage 3, +18 (DC 23)
+Shield Throw: Strength-based Damage 3, +17 (DC 23)
+Throw, +12 (DC 20)
+Unarmed, +20 (DC 20)
+
+Complications
+Enemy: Captain America has made many major enemies: Red Skull, Baron Zemo, and many others
+Honor
+Motivation: Doing Good
+Motivation: Patriotism
+Motivation: Responsibility
+Relationship: Sharon Carter (Girlfriend), Bucky, Falcon (partners)
+
+Languages
+English, German, Greek, Japanese, Russian
+
+Defense
+Dodge 16/14, Parry 16/14, Fortitude 10, Toughness 10/9, Will 14
+
+Power Points
+Abilities 112 + Powers 37 + Advantages 58 + Skills 71 (141 ranks) + Defenses 19 = 297
+
+Character Notes:
+This is the current stats for Steve Rogers as the head of all parahuman activities for the government
+As was recently discovered, his super soldier serum effects are not technically innate anymore because they can actually be taken away through a unique process.
+
+------------------------
+
+Captain America (James "Bucky Barnes" Buchanon)
+Captain-America-is-Back2.jpg
+Captain America (James Buchanon) - PL 12
+Strength 6, Stamina 4, Agility 7, Dexterity 7, Fighting 12, Intellect 6, Awareness 5, Presence 2
+
+Advantages
+Accurate Attack, Agile Feint, All-out Attack, Assessment, Chokehold, Defensive Attack, Defensive Roll, Diehard, Equipment 5, Evasion 2, Fast Grab, Fearless, Grabbing Finesse, Great Endurance, Hide in Plain Sight, Improved Aim, Improved Critical 4 (Knife Strike: Strength-based Damage 1), Improved Critical 4 (Luger Pistol: Blast 5), Improved Critical 4 (Shield Strike: Strength-based Damage 3), Improved Critical 4 (Unarmed), Improved Defense, Improved Disarm, Improved Grab, Improved Hold, Improved Initiative, Improved Smash, Improved Trip, Instant Up, Jack-of-all-trades, Move-by Action, Power Attack, Precise Attack (Close, Cover), Precise Attack (Ranged, Cover), Prone Fighting, Quick Draw, Ranged Attack 4, Takedown, Tracking, Uncanny Dodge, Well-informed
+
+Skills
+Acrobatics 8 (+15), Athletics 9 (+15), Close Combat (Knife) 3 (+15), Close Combat (Shield Strike: Strength-based Damage 3) 3 (+15), Close Combat (Unarm) 6 (+18), Deception 14 (+16), Expertise (Espionage) 9 (+15), Expertise (Military) 9 (+15), Insight 8 (+13), Intimidation 8 (+10), Investigation 6 (+12), Perception 10 (+15), Persuasion 8 (+10), Ranged Combat (Luger Pistol: Blast 5) 2 (+9), Ranged Combat (Shield Throw: Strength-based Damage 3) 4 (+11), Ranged Combat (Throw) 4 (+11), Sleight of Hand 6 (+13), Stealth 10 (+17), Technology 6 (+12), Treatment 4 (+10), Vehicles 6 (+13)
+
+Powers
+Armored Uniform (Removable)
+
+Protection: Protection 4 (+4 Toughness)
+Bionic Arm
+
+Electrical Discharge: Blast 10 (DC 25; Diminished Range 2)
+EMP Generator: Burst Area Nullify 11 (Alternate; Counters: Electronics, DC 21; Burst Area (30 feet radius sphere))
+Enhanced Ability: Enhanced Strength 4 (Alternate; +4 STR; Feature (Can detach and control Bionic Arm); Limited (Left Arm Only))
+Sensory Array: Concealment 2 (Other Sense Type: Electronic Detection; Affects Others)
+Captain America's Adamantium-VIbranium Shield (Easily Removable (indestructible))
+
+Defensive Shield Block: Immunity 80 (Toughness Effects; Limited - Half Effect, Custom (Must Be in Full Defense))
+Shield Attacks (Easily Removable (indestructible))
+Shield Strike: Strength-based Damage 3 (DC 24; Penetrating 3, Multiattack)
+Shield Throw: Strength-based Damage 3 (DC 24; Increased Range (ranged), Ricochet 3 (3 bounces), Feature (Returning), Penetrating 3)
+Shield Defenses: Enhanced Trait 6 (Traits: Dodge +3 (+15), Parry +3 (+15))
+Knife Strike: Strength-based Damage 1 (Easily Removable, DC 22; Multiattack, Penetrating)
+Luger Pistol: Blast 5 (Easily Removable, DC 20; Accurate (+2), Multiattack)
+
+Equipment
+Custom Combat Knife [Knife Strike: Strength-based Damage 1, Easily Removable, DC 22; Multiattack, Penetrating], Custom Luger Pistol [Luger Pistol: Blast 5, Easily Removable, DC 20; Accurate (+2), Multiattack], Motorcycle
+
+Offense
+Initiative +11
+
+Electrical Discharge: Blast 10, +11 (DC 25)
+EMP Generator: Burst Area Nullify 11 (DC Will 21)
+Grab, +18 (DC 21)
+Knife Strike: Strength-based Damage 1, +15 (DC 22)
+Luger Pistol: Blast 5, +15 (DC 20)
+Shield Strike: Strength-based Damage 3, +15 (DC 24)
+Shield Throw: Strength-based Damage 3, +15 (DC 24)
+Throw, +15 (DC 21)
+Unarmed, +18 (DC 21)
+Complications
+Enemy
+Motivation: Doing Good
+Motivation: Patriotism
+Secret
+Languages
+Native Language
+
+Defense
+Dodge 15/12, Parry 15/12, Fortitude 8, Toughness 9/8, Will 9
+
+Power Points
+Abilities 90 + Powers 56 + Advantages 60 + Skills 72 (143 ranks) + Defenses 13 = 291
+
+Character Notes
+
+---------

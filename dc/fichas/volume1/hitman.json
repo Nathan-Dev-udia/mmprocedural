@@ -1,0 +1,25 @@
+{
+  "nome": "Hitman",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 264
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "3",
+      "AGL": "4",
+      "DEX": "4",
+      "FGT": "4",
+      "INT": "2",
+      "AWE": "2",
+      "PRE": "1"
+    },
+    "poderes": "Talented Killer: Array (2 points) • Accuracy: Enhanced Skill 2 (Ranged Combat: Guns +4) • 2 points • Two for One: May fire two guns of Damage 4 or less at once (Feature 1) • 1 point Telepathy: Mind Reading 8, Concentration, Limited to surface and personal thoughts • 4 points X-Ray Vision: Senses 4 (Vision Penetrates Concealment), Concentration • 2 points",
+    "equipamento": "Sniper Rifle: Ranged Damage 5, Crit. 19-20, Suppressor (Subtle), Targeting Scope (Improved Aim) • 13 points Twin Heavy Pistols: Ranged Damage 4 • 16 points Fragmentation Grenade: Ranged Burst Area Damage 5 • 15 points Knife: Damage 1, Crit. 19-20 • 2 points 4 other points of equipment.",
+    "vantagens": "Benefit 1 (Ambidexterity), Connected, Defensive Roll 4, Equipment 10, Improved Critical (Guns), Power Attack, Quick Draw, Ranged"
+  }
+}

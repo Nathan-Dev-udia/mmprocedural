@@ -1,0 +1,30 @@
+{
+  "nome": "Cosmic Boy",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 157,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 131
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "2",
+      "AGL": "4",
+      "DEX": "3",
+      "FGT": "3",
+      "INT": "3",
+      "AWE": "2",
+      "PRE": "5"
+    },
+    "poderes": "Electromagnetic Awareness : Senses 2 (Ranged Detect Electromagnetic Fields) • 2 points Magnetic Aura: Protection 8, Sustained • 8 points Magnetic Flight: Flight 8 (500 MPH) • 16 points Magnetic Manipulation: Array (24 points) • Projectile Attack: Ranged Attack 12 • 24 points • Magnetic Construct: Create 11, Innate, Precise • 1 point • Magnetism: Move Object 12, Precise, Limited to Metal • 1 point",
+    "equipamento": "Flight Ring: Communication 5 (subspace radio, Anywhere, Limited to Distress Signal –3 points); Flight 7 (250 MPH), Removable (–3 points) • 16 points Telepathic Plug: Comprehend 3 (Languages); Mental Communication 1 (Close Range), Removable (–1 point) • 7 points Transsuit: Immunity 9 (Life Support, except for starvation and thirst), Removable (–2 point) • 7 points",
+    "vantagens": "Agile Feint, Assessment, Benefit 1 (Legion membership), Equipment 6, Improved Initiative, Inspire, Interpose, Leadership, Power Attack, Set Up, Teamwork",
+    "pericias": "Acrobatics 4 (+8), Athletics 4 (+6), Close Combat: Unarmed 5 (+8), Expertise: History 5 (+8), Insight 4 (+8), Perception 7 (+9), Persuasion 8 (+13), Ranged Combat: Projectile Attack 5 (+8)",
+    "ataques": "Initiative +5 Projectile Attack +8 Ranged, Damage 12 Unarmed +8 Close, Damage 2",
+    "defesas": "Dodge 10 Fortitude 8 Parry 6 Toughness 10 Will 8",
+    "pontos_poder": "Abilities 48 Skills 21 Powers 52 Defenses 21 Advantages 16 ToTal 157",
+    "complicacoes": "Motivation: Cosmic Boy is motivated to do good simply because it’s the right thing to do. Obsession: Cosmic Boy’s dedication to the Legion goes beyond mere commitment. He is a stalwart member and often makes personal sacrifices for the betterment of the team."
+  }
+}

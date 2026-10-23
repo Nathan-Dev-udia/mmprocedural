@@ -1,0 +1,27 @@
+{
+  "nome": "Ocean Master",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 165,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 85
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "4",
+      "AGL": "2",
+      "DEX": "3",
+      "FGT": "5",
+      "INT": "3",
+      "AWE": "3",
+      "PRE": "2"
+    },
+    "poderes": "a Immunity 3 (Cold, Heat, Pressure); Movement 1 rmor : (Environmental Adaptation: Aquatic); Impervious Protection 6; Swimming 8 (120 MPH); Removable (-5 point) • 20 points Helmet: Immunity 1(Drowning); Senses 1 (Low-Light Vision); Removable (-0) • 2 points Magical t riden t: Array (30 points) • Mystic Bolt: Ranged Damage 10, Penetrating 10• 30 points • t elepa thy: Mental Communication 4, Mind Reading 7• 1 point • Mystic f lames: Ranged Damage 10, Secondary Effect • 1 point t riden t a ttack : Strength-Based Damage 4, Reach 1 (5 feet) • 5 points Note: Ocean Master’s Trident does not possess the Removable Flaw. See Trident Link Complication. a V ant G d a e S Artificer, Improved Initiative, Language (Atlantean), Ritualist, Weapon Bind",
+    "pericias": "Athletics 3 (+6), Close Combat: Swords 2 (+7), Close Combat: Trident 7 (+12), Deception 5 (+7), Expertise: Atlantean Lore 4 (+7), Expertise: Magic 4 (+7), Expertise: Streetwise 2 (+5), Insight 4 (+7), Perception 4 (+7), Ranged Combat: Trident 7 (+10), Technology 5 (+8), Vehicles 5 (+8)",
+    "ataques": "i nitia tive +6 Mystic Blast +10 Range, Damage 10 or other effects Trident +12 Close, Damage 7 efen S e d d odge 10 f or titude 9 Parry 10 t oughness 10 W ill 10",
+    "pontos_poder": "a bilities 50 S kills 26 Powers 59 d efenses 25 a dv antages 5 ToTal 165",
+    "complicacoes": "r iv alry: and is obsessed with conquering his kingdom and proving that he is better than the King of Atlantis. t riden t Link: Ocean Master’s trident greatly increases and focuses his power, but being separated from it causes him incredible pain. Every round he is separated from his trident, he must save against the following Effect: Affliction 8 (impaired, disabled, incapacitated), Cumulative. Ocean Master possesses some magical powers even without the trident, but the pain of being separated from it makes it effectively impossible for him to properly cast spells and work enchantments (apply penalties from Affliction)."
+  }
+}

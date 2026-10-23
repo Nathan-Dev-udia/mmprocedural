@@ -1,0 +1,107 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Storm",
+  "nome_pt": "Storm",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 150,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 96
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 2,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 7,
+      "Int": 2,
+      "Pro": 3,
+      "Pre": 3
+    },
+    "defesas": {
+      "Esquiva": 7,
+      "Aparar": 7,
+      "Fortitude": 3,
+      "Resistencia": 7,
+      "Vontade": 9
+    },
+    "pericias": {
+      "Enganação": 6,
+      "Tecnologia": 8,
+      "Especialidade: Cultura das Ruas": 8,
+      "Especialidade: Táticas": 8,
+      "Percepção": 8,
+      "Veículos": 8,
+      "Intuição": 8,
+      "Prestidigitação": 8,
+      "Furtividade": 8,
+      "Especialidade: Sobrevivência": 5,
+      "Combate Corpo-a-Corpo: Unarmed": 1,
+      "Combate a Distância: Lightning Bolt": 5
+    },
+    "vantagens": [
+      "Attractive",
+      "Benefit [Status]",
+      "Defensive Roll 5",
+      "Feature: Environmental Adaptation [Storms]",
+      "Favred Environment [Airborn] 6",
+      "Inspire 3",
+      "Teamwork",
+      "Languages 2"
+    ],
+    "poderes": [
+      {
+        "nome": "Weather Control",
+        "construcao_3e": "Environment (array, conforme descritores) (rank 2e 11); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Weather Control 11 (Distraction [Precipitation] –Dynamic: Extras: Area (Cloud) [+1]; Power Feat: Indirect; Alternate Powers: Cold Control – Dynamic, Hamper Movement – Dynamic, Air Control – Dynamic, Blast [Lightning] Line– Dynamic, Dazzle [Visual & Auditory] –Dynamic, Fatigue – Dynamic, Flight- Dynamic; 48pp) Componentes/efeitos alternativos mapeados: Air Control → Move Object com descritor de ar; aplicação depende do uso descrito; Blast → Damage à distância; Cold Control → Environment (frio); Dazzle → Affliction/Dazzle conforme o sentido-alvo; Fatigue → Affliction resistida por Fortitude; Flight → Flight.; custo 2e impresso 48 PP.",
+        "custo_2e_pp": 48,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [],
+    "complicacoes": [
+      "Efeitos perceptíveis do poder, com a ocorrência e intensidade especificadas na fonte: Noticeable (Weather Control; Uncommon Occurrence, Minor Intensity; 1pp)"
+    ],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "dano": 1
+      },
+      {
+        "nome": "Raio",
+        "bonus": 8,
+        "dano": 10
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 18,
+      "esquiva_mais_resistencia": 14,
+      "aparar_mais_resistencia": 14,
+      "fortitude_mais_vontade": 12,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 48,
+    "defesas": 33,
+    "pericias": 81,
+    "vantagens": 20,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 182,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
+    "Perícias foram convertidas subtraindo do bônus total impresso o atributo 3e correspondente. Conhecimentos, Ofícios e Profissões foram mantidos como Especialidades; Condução/Pilotagem como Veículos; Sobrevivência como Especialidade: Sobrevivência; Computadores como Tecnologia.",
+    "Poderes preservam os descritores, ranks, modificadores e custos 2e impressos; o guia orienta o efeito 3e equivalente. Custos 3e ficam nulos quando a construção exata ou os modificadores não permitem cálculo seguro.",
+    "Nenhuma Motivação ou complicação não publicada foi acrescentada.",
+    "Habilidades 2e sem perícia 3e direta foram omitidas, conforme o guia: Concentration.",
+    "Idiomas adicionais descritos na fonte foram convertidos em Languages 2, usando a progressão da vantagem 3e.",
+    "Subtotal 3e conhecido: 48 PP em habilidades, 81 em perícias, 33 em defesas, 20 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto."
+  ]
+}

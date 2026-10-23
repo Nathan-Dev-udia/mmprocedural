@@ -1,0 +1,28 @@
+{
+  "nome": "The Question (Renee Montoya)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 124
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "3",
+      "AGL": "5",
+      "DEX": "4",
+      "FGT": "9",
+      "INT": "2",
+      "AWE": "3",
+      "PRE": "2"
+    },
+    "vantagens": "24 ToTal 152",
+    "pericias": "45",
+    "ataques": "i nitia tive +9 Unarmed +16 Close, Damage 2 Pistol +11 Ranged, Damage 4",
+    "defesas": "d odge 13 f or titude 8 Parry 13 t oughness 5/3* W ill 9 *Without Defensive Roll Po er Point W S a bilities 60",
+    "poderes": "0 d efenses 23",
+    "complicacoes": "ddic tion: r elationships: Renee still has strong feelings for her ex-girlfriend Kate Kane (See Batwoman, Vol. 1 ). She had a very close relationship with the first Question and is slowly becoming friends with Aristotle “Tot” Rodor. Who a m i ?: Like her predecessor, she seeks to come to grips with who she has been, who she is now, and who she wants to become."
+  }
+}

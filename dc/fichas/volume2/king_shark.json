@@ -1,0 +1,29 @@
+{
+  "nome": "King Shark",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 136,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 164
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "10",
+      "STA": "10",
+      "AGL": "4",
+      "DEX": "0",
+      "FGT": "8",
+      "INT": "0",
+      "AWE": "2",
+      "PRE": "4"
+    },
+    "poderes": "a qua tic (Immunity 3 (Cold, Drowning, Pressure), Movement 1 (Environmental Adaptation (Aquatic), Senses 2 (Low-light Vision, Tracking (Olfactory)); Claws and t eeth (Strength-based Damage 4, Penetrating 6, Improved Critical); r egeneration (Regeneration 2); Sharkskin (Protection 4); Swimming (Swimming 7 (60 MPH))",
+    "vantagens": "All-out Attack, Benefit 2 (Cipher 2), Diehard, Fearless, Great Endurance, Takedown 2",
+    "pericias": "Athletics 4 (+14), Intimidation 6 (+10), Perception 4 (+6)",
+    "ataques": "Initiative +4, Claws and Teeth +8 (Close, Damage 14, Penetrating 6, Crit. 19-20)",
+    "defesas": "Dodge 8, Parry 8, Fortitude 14, Toughness 14, Will 6",
+    "pontos_poder": "Abilities 76 + Powers 33 + Advantages 8 + Skills 7 + Defenses 12 = 136",
+    "complicacoes": "a p ex Predator: King Shark is a powerful and vicious mercenary not for money or fame, but because it’s in his nature to hunt and kill. Bloodlust: King Shark often loses control of himself in combat and attacks blindly, without regard for his own safety or thinking about tactics. f a ther’s Son: King Shark is the son of the Shark God known as the King of All Sharks and is sometimes used as a pawn by his father. King Shark does as his father commands, but it’s unknown if it’s by choice or due to the Shark God’s influence."
+  }
+}

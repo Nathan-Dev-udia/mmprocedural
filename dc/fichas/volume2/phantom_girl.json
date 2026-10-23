@@ -1,0 +1,30 @@
+{
+  "nome": "Phantom Girl",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 141,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 18
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "2",
+      "AGL": "4",
+      "DEX": "4",
+      "FGT": "3",
+      "INT": "2",
+      "AWE": "2",
+      "PRE": "2"
+    },
+    "poderes": "Phantom f ligh t (Flight 4 (Limited to When Insubstantial)); Phantom Form (Insubstantial 4 (Precise, Reaction, Subtle 2); Phantom Hand (Affliction 12 (Resisted by Fortitude; Dazed, Stunned, Incapacitated); Phantom Sight (Senses 5 (Accurate, Acute, Ranged Detect (Phantom Zone Prisoners), Dimensional, Unreliable))",
+    "equipamento": "Flight Ring (Communication 5 (subspace radio, Anywhere, Limited to Distress Signal –3), Flight 7 (250 MPH); Telepathic Ear Plug ( Comprehend 3 (Languages), Mental Communication 1 (Close Range)); Transsuit (Immunity 9 (Life Support, except for starvation and thirst))",
+    "vantagens": "Accurate Attack, Benefit (Legion Membership), Defensive Attack, Defensive Roll 4, Improved Disarm, Equipment 8, Improved Grab, Improved Hold, Improved Trip, Power Attack",
+    "pericias": "Close Combat: Unarmed 5 (+8), Expertise: Bgtzl 5 (+7), Expertise: Comics 8 (+10), Expert: History 4 (+6), Stealth 8 (+12), Vehicles 2 (+6)",
+    "ataques": "Initiative +4, Phantom Hand +8 (Close, Affliction 12), Unarmed +8 (Close, Damage 1)",
+    "defesas": "Dodge 9, Parry 8, Fortitude 6, Toughness 6/2*, Will 6 * Without Defensive Roll.",
+    "pontos_poder": "Abilities 40 + Powers 47 + Advantages 20 + Skills 16 + Defenses 18 = 141",
+    "complicacoes": "r esponsibility: Phantom Girl believes it’s her duty to use her powers to help others. r elationship: Phantom Girl and Ultra-Boy have been dating for a long time and are very close."
+  }
+}

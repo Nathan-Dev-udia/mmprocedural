@@ -1,0 +1,143 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Spider-Man (Miguel O'Hara)",
+  "nome_pt": "Spider-Man (Miguel O'Hara)",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 165,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 95
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 6,
+      "Vig": 1,
+      "Agi": 10,
+      "Des": 10,
+      "Lut": 11,
+      "Int": 4,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "defesas": {
+      "Esquiva": 14,
+      "Aparar": 14,
+      "Fortitude": 4,
+      "Resistencia": 6,
+      "Vontade": 4
+    },
+    "pericias": {
+      "Acrobacia": 8,
+      "Enganação": 8,
+      "Atletismo": 5,
+      "Especialidade: Química": 11,
+      "Especialidade: Mecânica": 9,
+      "Tecnologia": 9,
+      "Persuasão": 8,
+      "Especialidade: Ciências da Vida": 8,
+      "Especialidade: Tecnologia": 8,
+      "Especialidade: Pesquisa Científica": 6,
+      "Intuição": 8,
+      "Furtividade": 8
+    },
+    "vantagens": [
+      "Agile Feint",
+      "All-Out Attack",
+      "Benefit [Security Clearance]",
+      "Defensive Roll 2",
+      "Equipment",
+      "Evasion",
+      "Power Attack",
+      "Uncanny Dodge [Sight]"
+    ],
+    "poderes": [
+      {
+        "nome": "Enhanced Strength",
+        "construcao_3e": "Enhanced Trait: Força (rank 2e 10); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Enhanced Strength 10 (10pp); custo 2e impresso 10 PP.",
+        "custo_2e_pp": 10,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Enhanced Dexterity",
+        "construcao_3e": "Enhanced Trait: Destreza (rank 2e 20); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Enhanced Dexterity 20 (20pp); custo 2e impresso 20 PP.",
+        "custo_2e_pp": 20,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Leaping",
+        "construcao_3e": "Leaping (rank 2e 3); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Leaping 3 (3pp); custo 2e impresso 3 PP.",
+        "custo_2e_pp": 3,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Snare",
+        "construcao_3e": "Affliction (conforme graus e extras) (rank 2e 9); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Snare 9 (Power Feat: Tether; 19pp); custo 2e impresso 19 PP.",
+        "custo_2e_pp": 19,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Speed",
+        "construcao_3e": "Speed (rank 2e 4); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Speed 4 (Flaw: Limited to Swinging [-1]; 2pp); custo 2e impresso 2 PP.",
+        "custo_2e_pp": 2,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Super Movement",
+        "construcao_3e": "Movement (rank 2e 3); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Movement 3 (Swinging, Wall Crawling (2); Alternate Powers: Improved Critical (2) Mighty Strike 3; 7pp) Componentes/efeitos alternativos mapeados: Strike → Damage.; custo 2e impresso 7 PP.",
+        "custo_2e_pp": 7,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Super Senses",
+        "construcao_3e": "Sentidos (rank 2e 2); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Senses 2 (Extended Vision, Low Light Vision; 2pp); custo 2e impresso 2 PP.",
+        "custo_2e_pp": 2,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Day of the Dead Costume – Protection 3, Super Movement (Slow fall); 5ep"
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 11,
+        "dano": 6
+      },
+      {
+        "nome": "Garras",
+        "bonus": 11,
+        "dano": 9
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 20,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 8,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 92,
+    "defesas": 42,
+    "pericias": 96,
+    "vantagens": 9,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 239,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
+    "Perícias foram convertidas subtraindo do bônus total impresso o atributo 3e correspondente. Conhecimentos, Ofícios e Profissões foram mantidos como Especialidades; Condução/Pilotagem como Veículos; Sobrevivência como Especialidade: Sobrevivência; Computadores como Tecnologia.",
+    "Poderes preservam os descritores, ranks, modificadores e custos 2e impressos; o guia orienta o efeito 3e equivalente. Custos 3e ficam nulos quando a construção exata ou os modificadores não permitem cálculo seguro.",
+    "Nenhuma Motivação ou complicação não publicada foi acrescentada.",
+    "Dodge Focus 9 foi convertido em ranks de Esquiva: base 14 + 9 = 23; valor final 14.",
+    "Defesas reduzidas por limite de NP 10: Esquiva 23→14 e Aparar 14→14; cada defesa ativa + Resistência 6 ≤ 20.",
+    "Subtotal 3e conhecido: 92 PP em habilidades, 96 em perícias, 42 em defesas, 9 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto."
+  ]
+}

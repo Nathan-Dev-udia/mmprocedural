@@ -1,0 +1,28 @@
+{
+  "nome": "Shrapnel",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 179
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "7",
+      "STA": "7",
+      "AGL": "5",
+      "DEX": "5",
+      "FGT": "4",
+      "INT": "0",
+      "AWE": "1",
+      "PRE": "0"
+    },
+    "poderes": "Body Spikes: Reaction Damage 6, Penetrating 5 (slashing, when attacked in melee) • 29 points Composite o r ganism: Immunity 13 (Critical Hits, Life Support, Sleep); Impervious Protection 6; Enhanced Strength 3, Limited to Lifting (lifting Str 10; 25 tons) • 28 points f r agmentation: Array (43 points) • f r agmentation Blast: Ranged Multiattack Damage 11 (slashing), Homing, Improved Critical 2, Penetrating 5 • 43 points • Body e xplosion: Area Burst 2 (60 feet) Damage 11 (slashing), Penetrating 7 • 1 point • d isp erse f orm: Insubstantial 1 (Metal Fragments) • 1 point Jagged e dge: Strength-based Damage 5, Penetrating 5 • 10 points",
+    "vantagens": "Daze (Intimidation), Diehard, Evasion, Great Endurance, Improved Critical 2 (Jagged Edge), Improved Smash",
+    "pericias": "Athletics 3 (+10), Close Combat: Jagged Edge 4 (+8), Deception 8 (+8), Expertise: Hitman 5 (+5), Intimidation 8 (+8), Perception 5 (+6), Ranged Combat: Fragmentation Blast 4 (+11)",
+    "ataques": "i nitia tive +5 Body Explosion — Close, Burst Area 2 (60 feet) Damage 11, Penetrating 7 Fragmentation Blast +11 Ranged, Multiattack Damage 11, Homing, Penetrating 5, Crit. 18-20 Jagged Edge +8 Close, Damage 12, Penetrating 4, Crit. 18-20",
+    "defesas": "d odge 7 f or titude 11 Parry 9 t oughness 13 W ill 5 Po er Point W S a bilities 58 S kills 20 Powers 112 d efenses 15 a dv antages 6 ToTal 211",
+    "complicacoes": "Living Metal: Shrapnel’s components feed on blood; he must regularly kill others in order to feed himself. o bsession: Shrapnel is fully intent on making a name for himself and will do anything to increase his reputation."
+  }
+}

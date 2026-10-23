@@ -1,0 +1,110 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Doctor Octopus",
+  "nome_pt": "Doctor Octopus",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 150,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 25
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 8,
+      "Vig": 2,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 9,
+      "Int": 5,
+      "Pro": 1,
+      "Pre": 1
+    },
+    "defesas": {
+      "Esquiva": 13,
+      "Aparar": 13,
+      "Fortitude": 5,
+      "Resistencia": 7,
+      "Vontade": 5
+    },
+    "pericias": {
+      "Enganação": 12,
+      "Atletismo": 6,
+      "Tecnologia": 10,
+      "Especialidade: Mecânica": 12,
+      "Especialidade: Eletrônica": 12,
+      "Especialidade: Química": 12,
+      "Investigação": 4,
+      "Intimidação": 12,
+      "Especialidade: Tecnologia": 12,
+      "Percepção": 8,
+      "Especialidade: Física Nuclear": 4,
+      "Intuição": 8,
+      "Combate à Distância: Ataques gerais": 8
+    },
+    "vantagens": [
+      "Benefit (Ambidextrous)",
+      "Close Attack 3",
+      "Chokehold",
+      "Defensive Roll 2",
+      "Eidetic Memory",
+      "Equipment 1",
+      "Improved Initiative",
+      "Improved Hold",
+      "Inventor",
+      "Inspire 1 (Master Plan convertido)",
+      "Power Attack",
+      "Startle"
+    ],
+    "poderes": [
+      {
+        "nome": "Harness",
+        "construcao_3e": "Device (Removable): Extra Limbs 3, Enhanced Strength 18, Elongation 3 (Continuous, Permanent), Quickness 2 (Limited to physical actions), Power-Lifting 3, Speed 4, Movement (Wall-crawling), Senses 1 (Radius sight).",
+        "custo_2e_pp": 32,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Casaco pesado (+3 Resistência; Subtle; 4 EP)",
+      "Óculos Flash (1 EP)"
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 9,
+        "dano": 8
+      },
+      {
+        "nome": "Braços mecânicos",
+        "bonus": 12,
+        "dano": 8
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 20,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 10,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 56,
+    "defesas": 23,
+    "pericias": 60.0,
+    "vantagens": null,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 139.0,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Attack Focus (Melee) 3 foi convertido em Close Attack 3. Toughness +7/+5 foi interpretado como +5 base e Defensive Roll 2; Esquiva e Aparar foram limitadas para respeitar NP 10 com Resistência ativa +5. Master Plan foi convertida em Inspire 1.",
+    "Defesas ajustadas para Esquiva 13 e Aparar 13, respeitando os limites de NP 10 com Resistência 7.",
+    "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias e apenas os custos de poderes confirmados; não inclui vantagens nem custos incertos."
+  ]
+}

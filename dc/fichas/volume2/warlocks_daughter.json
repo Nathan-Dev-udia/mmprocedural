@@ -1,0 +1,29 @@
+{
+  "nome": "Warlock’S Daughter",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 8,
+  "pontos_poder_publicados": 120,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 175
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "0",
+      "STA": "2",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "4",
+      "INT": "2",
+      "AWE": "4",
+      "PRE": "2"
+    },
+    "poderes": "a str al Projection (Remote Sensing 11 (8 miles; Visual, Auditory, Mental), Body is defenseless, Subtle 2, ae : Levitation (Flight 4 (30 MPH)) and Mystic Shield (Protection 8, Impervious, bilities Sustained ) ; Mystic a (Array (18 points), Mystic Blast (Ranged Damage 9), ae : Mage Hand (Move Object 8, Precise)); Mystic Senses (Senses 2 (Magical Awareness, Radius))",
+    "vantagens": "Ritualist",
+    "pericias": "Deception 5 (+7), Expertise: Magic 6 (+8), Insight 4 (+8), Perception 4 (+8), Persuasion 4 (+6), Ranged Combat: Mystic Abilities 5 (+7)",
+    "ataques": "Initiative +2, Mystic Blast +7 (Ranged, Damage 9), Unarmed +4 (Close, Damage 0)",
+    "defesas": "Dodge 6, Parry 4, Fortitude 6, Toughness 10/2*, Will 8 *Without Mystic Shield.",
+    "pontos_poder": "Abilities 36 + Powers 57 + Advantages 1 + Skills 14+ Defenses 12 = 120",
+    "complicacoes": "a entice: Warlock’s Daughter has been apprentice to a couple of powerful mystics, both of whom hold significant power over her path to the future. Where she ends up is still a mystery. Supernatural Being: Murdered then resurrected at the cost of her father’s life, Warlock’s Daughter is still coping with what she’s become."
+  }
+}

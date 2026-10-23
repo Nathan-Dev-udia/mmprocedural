@@ -1,0 +1,30 @@
+{
+  "nome": "Lightning Lad",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 169,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 22
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "3",
+      "AGL": "3",
+      "DEX": "4",
+      "FGT": "3",
+      "INT": "1",
+      "AWE": "0",
+      "PRE": "2"
+    },
+    "poderes": "Lightning Blasts: Array ( 24 points) • Lightning Blast: Damage 12 (Ranged) • 24 points • Ball Lightning: Ranged Burst Area Damage 8 • 1 point • Chain Lightning: Ranged Damage 10 (Split 4) • 1 point • Lightning Punch: Strength-based Damage 12 • 1 point • Lightning Storm: Burst Area Damage 10 • 1 point Lightning i mmunit y: Immunity (Electrical Effects) •10 points Lightning Shield: Damage 8 (Reaction) • 32 points",
+    "equipamento": "f ligh t r ing: Communication 5 (subspace radio, Anywhere, Limited to Distress Signal –3); Flight 7 (250 MPH) • 19 points t elepa thic e ar Plug: Comprehend 3 (Languages), Mental Communication 1 (Close Range) • 10 points t r anssuit: Immunity 9 (Life Support, except for starvation and thirst) • 9 points",
+    "vantagens": "Benefit (Legion Membership), Defensive Attack, Defensive Roll 5, Equipment 8, Inventor, Power Attack, Precise Attack (Ranged, Cover), Taunt,",
+    "pericias": "Close Combat: Unarmed 3 (+6), Deception 4 (+6), Expertise: Geography 8 (+9), Expertise: Winath 5 (+6), Intimidate 5 (+7), Ranged Combat: Lightning Blasts Array 4 (+8), Technology 2 (+3), Treatment, 3 (+4) Vehicles 4 (+8)",
+    "ataques": "i nitia tive +3 Ball Lightning +8 Ranged, Burst Area Damage 8 Chain Lightning +8 Ranged, Damage 10, Split 4 Lightning Blast +8 Ranged, Damage 12 Lightning Punch +6 Close, Damage 14 Lightning Storm +8 Close, Burst Area Damage 10 Unarmed +6 Close, Damage 2",
+    "defesas": "d odge 12 f or titude 6 Parry 10 t oughness 8/3* W ill 5 * Without Defensive Roll",
+    "pontos_poder": "a bilities 36 S kills 19 Powers 70 d efenses 25 a dv antages 19 ToTal 169",
+    "complicacoes": "i mpulsiv e: Garth can be very impulsive, leaping into situations before thinking them through clearly, often landing himself and his team-mates in hot water. r omance: Garth is married to Saturn Girl, and though he loves her deeply, he often clashes with her opinions regarding authority. He especially dislikes how Saturn Girl will often side with Cosmic Boy on decisions."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "nome": "Typical Morrow Android",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 105,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 224
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "9",
+      "STA": "—",
+      "AGL": "4",
+      "DEX": "4",
+      "FGT": "4",
+      "INT": "—",
+      "AWE": "0",
+      "PRE": "—"
+    },
+    "poderes": "a rmor (Protection 10), f utur energy Gun (Array (51 points), Easily Removable (–16 points): d ain f energy r utur (Ranged Transform 9 (Sentient beings into a near-death state), Accurate 3, Continuous, Reversible), ae : Paralyzing Bubbles (Ranged Affliction 9 (Resisted by Fortitude; Dazed, Hindered and Impaired, Defenseless, Immobile and Stunned), Accurate 3, Extra Condition 2, Multiattack, Reversible, Limited Degree), ae : omic-Cloud y (Ranged Transform 9 (Matter into vapor), a t r a Accurate 3, Reversible)); i y 30 (Fortitude Effects) mmunit antages: Improved Aim a dv",
+    "pericias": "Close Combat: Unarmed 7 (+11), Ranged Combat: Energy Weapons 3 (+7) ense: Initiative +4, Futurenergy Gun +13 (Ranged, Affliction o ff 9), Unarmed +11 (Close, Damage 9) efense: Dodge 12, Parry 12, Fortitude Immune, Toughness d 10, Will Immune Abilities 12 + Powers 71 + Advantages 1 + Skills 5 +",
+    "pontos_poder": "Defenses 16 = 105"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Icarus",
+  "nome_pt": "Ícaro",
+  "nivel_poder": 9,
+  "pontos_poder_origem": 135,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 40
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 4,
+      "Vig": 2,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 6,
+      "Int": 0,
+      "Pro": 0,
+      "Pre": 3
+    },
+    "defesas": {
+      "Esquiva": 7,
+      "Aparar": 6,
+      "Fortitude": 2,
+      "Resistencia": 7,
+      "Vontade": 2
+    },
+    "pericias": {
+      "Enganação": 8,
+      "Persuasão": 8,
+      "Especialidade: Performance": 24,
+      "Percepção": 8,
+      "Intuição": 8,
+      "Furtividade": 8
+    },
+    "vantagens": [
+      "Attractive",
+      "Defensive Roll",
+      "Equipment",
+      "Improved Initiative",
+      "Move-By Action",
+      "Feature: Favored Environment (Airborne)",
+      "Power Attack",
+      "Teamwork 3"
+    ],
+    "poderes": [
+      {
+        "nome": "Flight",
+        "construcao_3e": "Flight 4.",
+        "custo_2e_pp": 8,
+        "custo_3e_pp": 8
+      },
+      {
+        "nome": "Illusion / Dazzle",
+        "construcao_3e": "Illusion 10 (Auditiva), com Efeito Alternativo: Dazzle 9 (Auditiva, Distracting). Limitação: somente sons que já ouviu.",
+        "custo_2e_pp": 10,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Regeneration",
+        "construcao_3e": "Regeneration 28; recuperação: teste 8; bruised 2, unconscious 3, injured 1, staggered 6, disabled 6; Resurrection 2.",
+        "custo_2e_pp": 28,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Uniforme dos New X-Men (+4 Toughness; Comm-Link; 5 EP)"
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 6,
+        "dano": 4
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 10,
+      "esquiva_mais_resistencia": 14,
+      "aparar_mais_resistencia": 13,
+      "fortitude_mais_vontade": 4,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 34,
+    "defesas": 17,
+    "pericias": 32,
+    "vantagens": 10,
+    "poderes_conhecidos": 8,
+    "subtotal_conhecido": 101,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Favored Environment (Airborne) virou Feature: vantagem em ambiente aéreo; Sneak Attack não tem equivalente direto e foi omitida conforme o guia.",
+    "A fonte traz ataque +6 (+9 no ar) e dano desarmado +4; o bônus aéreo é circunstancial e não foi tratado como bônus permanente."
+  ]
+}

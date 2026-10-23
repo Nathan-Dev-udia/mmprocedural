@@ -1,0 +1,29 @@
+{
+  "nome": "Rip Hunter",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 8,
+  "pontos_poder_publicados": 152,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 83
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "3",
+      "AGL": "3",
+      "DEX": "2",
+      "FGT": "3",
+      "INT": "6",
+      "AWE": "4",
+      "PRE": "2"
+    },
+    "equipamento": "Blaster pistol; Short sword TIMESPHERE: VEHICLE ( Size: Huge Str 8 Speed 1 (Flight) Def 8 Tou 12; Time Engines: Movement 5 (Full Time Travel, Dimension Travel to Alternate Timelines), Chronal Shield: Immunity 10 (Life Support), Crosstime Database: Enhanced Skill 10 (Expertise: History +10); Linked: Feature 1 (Database Updates Based on Shifting Timelines), Alarm, Hidden Compartments, Navigation)",
+    "vantagens": "Assessment, Benefit 6 (Cipher), Benefit 5 (Billionaire), Connected, Contacts, Defensive Roll 5, Eidetic Memory, Equipment 10, Fearless, Inventor, Languages 4, Redirect, Seize Initiative, Set-up, Uncanny Dodge, Well-informed",
+    "pericias": "Acrobatics 5 (+8), Athletics 5 (+8), Close Combat: Unarmed 10 (+13), Close Combat: Blades 8 (+11), Expertise: History 12 (+18), Investigation 5 (+11), Perception 6 (+10), Persuasion 10 (+12), Ranged Combat: Handguns 9 (+11), Technology 8 (+14), Vehicles 6 (+8)",
+    "ataques": "Initiative +3, Blaster pistol +11 (Ranged Damage 5), Sword +11 (Damage 5, Crit. 19-20)",
+    "defesas": "Dodge 8, Parry 8, Fortitude 6, Toughness 8/3, Will 10",
+    "pontos_poder": "Abilities 50 + Powers 0+ Advantages 41 + Skills 42 + Defenses 19 = 152",
+    "complicacoes": "Time Master: Rip Hunter follows in his ancestors’ footsteps as a guardian of time. He attempts to fix anomalies, prevent paradoxes, and keep evil time travel - ers from altering time and causing irreparable harm to the time stream."
+  }
+}

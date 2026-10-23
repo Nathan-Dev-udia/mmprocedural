@@ -1,0 +1,29 @@
+{
+  "nome": "Robin",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 8,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 145
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "1",
+      "AGL": "5",
+      "DEX": "5",
+      "FGT": "8",
+      "INT": "5",
+      "AWE": "4",
+      "PRE": "3"
+    },
+    "equipamento": "Binoculars: Extended Vision 1 • 1 point Costume: Protection 1 • 1 point Grapnel Gun: Super-Movement 1 (Swinging) • 2 points Mini- t r acers: Feature 1 • 1 point Utility Belt: Array (12 points) • f lash B ombs: Ranged Burst Area Affliction 4 (Resisted by Fortitude; Visually Impaired, Visually Disabled, Visually Unaware) • 12 points • Batarangs: Ranged Strength-based Damage 1 • 1 point • Bo Staff: Strength-based Damage 2, Reach 1 • 1 point • Bolos: Ranged Affliction 4 (Resisted by Dodge; Hindered and Vulnerable, Defenseless and Immobile), Extra Condition, Limited Degree • 1 point • Sleep Gas Pellets: Ranged Cloud Area Affliction 4 (Resisted by Fortitude; Fatigued, Exhausted, Asleep) • 1 point • Smoke Bombs: Cloud Area Visual Concealment Attack 4 • 1 point • as Pellets: Ranged Cloud Area Affliction 3 (Resisted t ear G by Fortitude; Dazed and Visually Impaired, Stunned and Visually Disabled, Incapacitated), Extra Condition • 1 point Ve H i CL e: Motor C y CL e • 11 POI n TS Size: Medium Str: 1 Spd: 6 d ef: 10 t ou: 8 f ea tures: Navigation System",
+    "vantagens": "Beginner’s Luck, Close Attack 4, Defensive Attack, Defensive Roll 3, Equipment 7, Evasion, Hide in Plain Sight, Improved Initiative, Improvised Tools, Instant Up, Languages 3, Move-by Action, Power Attack, Precise Attack (Close, Concealment), Quick Draw, Redirect, Set-Up, Takedown, Teamwork, Tracking, Uncanny Dodge",
+    "pericias": "Acrobatics 8 (+13), Athletics 8 (+10), Close Combat: Unarmed 1 (+9), Deception 8 (+11), Expertise: Criminology 8 (+13), Expertise: Streetwise 6 (+11), Insight 8 (+12), Intimidation 6 (+9), Investigation 10 (+15), Perception 8 (+12), Persuasion 6 (+9), Ranged Combat: Throwing 7 (+12), Sleight of Hand 6 (+11), Stealth 8 (+13), Technology 6 (+11), Treatment 4 (+9), Vehicles 6 (+11)",
+    "ataques": "i nitia tive +9 Bo Staff +12 Close, Damage 4 Batarang +12 Ranged, Damage 3 Unarmed +13 Close, Damage 2",
+    "defesas": "d odge 11 f or titude 7 Parry 11 t oughness 5/2* W ill 9 *Without Defensive Roll. Po er Point W S a bilities 66 S kills 57",
+    "poderes": "0 d efenses 20 a dv antages 34 ToTal 177",
+    "complicacoes": "r elationships: Robin has had some romantic entanglements, but none ha ve lasted. r esponsibility: To Batman and Gotham City. Secret den i tity: Timothy Wayne, Bruce Wayne’s adopted son."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "nome": "Deadman",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 201,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 154
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "3",
+      "AGL": "6",
+      "DEX": "5",
+      "FGT": "2",
+      "INT": "1",
+      "AWE": "6",
+      "PRE": "4"
+    },
+    "poderes": "Possession: Affliction 10 (Resisted by Will; Dazed, Compelled, Controlled), Affects Corporeal 10, Concentration, Cumulative, Insidious, Instant Recovery, Subtle 2, Limited to creatures with Int -3 or higher, Limited—Cannot access target’s thoughts or memories • 18 points Spectral Form: Insubstantial 4 (Not versus Magic), Continuous, Innate, Permanent; Concealment 10, Continuous, Permanent; Flight 4 (30 MPH); Immunity 30 (Fortitude Effects); Senses 4 (Vision Counters Invisibility, Auditory Counters Spiritual Concealment), Dimensional, Limited to Spirits/Astral Entities • 83 points",
+    "vantagens": "Connected, Defensive Roll 5, Luck 3, Skill Mastery 2 (Acrobatics, Athletics), Power Attack",
+    "pericias": "Acrobatics 6 (+12), Athletics 6 (+8), Close Combat: Unarmed 6 (+8), Close Combat: Possession 8 (+10), Expertise: Magic 2 (+3), Expertise: Supernatural 4 (+5), Investigation 4 (+5), Perception 4 (+10), Persuasion 2 (+6) was defeated by Deadman with Batman’s aid and that of the ghostly hero’s brother, Cleveland. Among his other adventures, including being transformed into a youthful version of himself by Klarion the Witch Boy, Deadman has served as a spirit guide for the deceased en - tering the Land of the Just Dead. In this capacity, Deadman assisted the Spectre, Swamp Thing, Phantom Stranger, and Etrigan in rescuing Abigail Arcane’s spirit from Hell. Deadman teamed up with the Phantom Stranger and Swamp Thing yet again to prevent a “primordial shadow” from destroying Heaven, further proving to this hero that his duties were not restricted to the realm of man alone. Deadman found himself fighting supremely powerful super - natural forces once more when he joined a number of other mystical heroes in taking on Asmodel who sought to conquer Heaven. Asmodel used power stolen from the Spectre to freeze Hell, thereby expunging its demons into the world of man. Defeating the demons required the group to infiltrate Hell, restart its fires (thus saving the Earth), and free the Spec - tre. This would not be the last cosmically significant adven - ture Deadman would find himself caught up in. During the Blackest Night, Deadman was warned by the dead regarding what was to come because of his role as Rama Kushna’s agent. As the Black Lanterns began to ap - pear, animating the long and freshly dead (including their own victims) in their wake, Deadman found himself in the rather unique position of encountering his own revived corpse. He attempted to possess his body in order to free of it from its black power ring, but was unable to do so (to his painful surprise). Rather than succumb to despair, Dead - man rose to the challenge and continued to try setting things right by joining forces with other heroes opposing the Black Lanterns.",
+    "ataques": "Initiative +6 Possession +10 Close, Affliction 10 Unarmed +X* Close, Damage X* *Depends on Fgt and Str of body possessed.",
+    "defesas": "Dodge 10 Fortitude Immune Parry 5 Toughness 8/3** Will 8 **Without Defensive Roll.",
+    "pontos_poder": "Abilities 58 Skills 21 Powers 101 Defenses 9 Advantages 12 ToTal 201",
+    "complicacoes": "Spiritual Responsibilities: As a spirit in service to Rama Kushna, Deadman is frequently called upon to perform “other- worldly” duties, such as guiding other spirits to their final rest and defending the living against supernatural evils. As the fight raged, Deadman was forced to return to Nanda Parbat to repel a Black Lantern assault. Full knowing that doing so risked his own (final) destruction, Deadman be - gan possessing the invaders so as to cause his ring-wearing hosts to destroy themselves. Aided by the Phantom Stranger, Deadman resisted the Black Lanterns’ control and finally man - aged to possess his own corpse. Doing so expelled the black power ring from his body, allowing him to take his body back to Nanda Parbat where it could be kept safe. Brought back to life following the Blackest Night, Deadman now finds himself in possession of a white power ring that, among other abilities he hasn’t yet quite mastered, allows him to resurrect the dead (in some cases). Even as he strug - gles with what his own resurrection means, he finds himself suffering under a new set of responsibilities: uncovering the white power ring’s purpose and what its existence means to the universe at large. PERSONALITY Perhaps because he’s been so long denied tactile sensation, Deadman is highly sensitive to the emotions of others, making him very empathetic when exposed to suffering, tragedy, and loss. He also possesses a great sense of responsibility (even if it is sometimes reluctant) with regards to others’ welfare, hoping one day his good deeds shall earn him a final peace. POWERS & ABILITIES Deadman is an intangible spirit, detectable only to those with the ability to sense the paranormal or otherwise com - mune with the dead. He is also able to enter a sentient, living subject’s body and possess it, gaining control of its physical functions. Because Deadman is unable to access his host’s memories or mind, a possessed subject has no recollection of the occurrence once Deadman leaves."
+  }
+}

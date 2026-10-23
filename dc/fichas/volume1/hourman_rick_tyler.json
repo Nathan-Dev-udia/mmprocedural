@@ -1,0 +1,28 @@
+{
+  "nome": "Hourman (Rick Tyler)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 135,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 268
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "9/3",
+      "STA": "9/3",
+      "AGL": "9/3",
+      "DEX": "3",
+      "FGT": "3",
+      "INT": "2",
+      "AWE": "2",
+      "PRE": "4"
+    },
+    "poderes": "Flash Forward Hourglass: Senses 4 (Precognition), Limited (only 1 hour into the future), Removable, Uncontrolled • 1 point Timepoint: Movement 1 (Dimension Travel: Timepoint) • 2 point Miraclo Injection: Activation (Move Action, –1 point) • 46 points Enhanced Performance: Enhanced Advantages 3 (Extraordinary Effort, Great Endurance, Ultimate Skill (Athletics)) • 3 points Jump to the Rooftops: Leaping 2; Speed 3 (16 MPH) • 5 points Miraclo Strength: Enhanced Strength 6 • 12 points Miraclo Stamina: Enhanced Stamina 6 • 12 points Miraclo Agility: Enhanced Agility 6, Enhanced Defenses 3 (Parry 3) • 15 points",
+    "vantagens": "All-out Attack, Benefit 3 (Millionaire), Chokehold, Extraordinary Effort , Great Endurance , Power Attack, Seize Initiative, Ultimate Skill (Athletics) SKILLS** Acrobatics 8 (+17/+11*), Athletics 10 (+19/+13*), Close Combat: Unarmed 6 (+9), Insight 6 (+8), Intimidation 5 (+9), Investigation 4 (+6), Perception 7 (+9), Stealth 4 (+13/+7*)",
+    "ataques": "Initiative +9/+3 Unarmed +9 Close, Damage 9/3*",
+    "defesas": "Dodge 9/3* Fortitude 10/4* Parry 9/6* Toughness 9/3* Will 6 * Without Miraclo Injection.",
+    "pontos_poder": "Abilities 46 Skills 25 Powers 49 Defenses 8 Advantages 7 ToTal 135",
+    "complicacoes": "Addicted to Thrill: Though the version of Miraclo Rick Tyler now uses isn’t addictive, Tyler is almost uncontrollably drawn to the adrenaline rush of adventuring. When crime-fighting isn’t enough, he chases excitement through extreme sports. Hour of Power: Once Hourman takes a Miraclo injection, his powers last exactly an hour, and no more. In addition, he can’t take another injection for a full day. Travel to Timepoint is also limited to one hour. Power Couple: Rick Tyler fell in love and married another legacy hero—Jesse Chambers, the daughter of Johnny Quick and Liberty Belle. Together they joined the Justice Society and mentor other young heroes."
+  }
+}

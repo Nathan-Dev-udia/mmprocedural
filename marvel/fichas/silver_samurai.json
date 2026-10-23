@@ -1,0 +1,131 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Silver Samurai",
+  "nome_pt": "Silver Samurai",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 150,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 90
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 8,
+      "Vig": 3,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 11,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "defesas": {
+      "Esquiva": 11,
+      "Aparar": 11,
+      "Fortitude": 7,
+      "Resistencia": 9,
+      "Vontade": 4
+    },
+    "pericias": {
+      "Enganação": 8,
+      "Persuasão": 8,
+      "Investigação": 12,
+      "Intimidação": 12,
+      "Especialidade: Táticas": 8,
+      "Especialidade: Cultura das Ruas": 8,
+      "Percepção": 8,
+      "Intuição": 12,
+      "Combate Corpo-a-Corpo: Swords": 2,
+      "Combate Corpo-a-Corpo: Unarmed": 1
+    },
+    "vantagens": [
+      "Accurate Attack",
+      "Contacts",
+      "Connected",
+      "Defensive Attack",
+      "Daze [Intimidate]",
+      "Equipment 3",
+      "Improved Defense",
+      "Improved Initiative 2",
+      "Improved Sunder",
+      "Improved Trip",
+      "Instant Up",
+      "Power Attack",
+      "Quickdraw",
+      "Startle",
+      "Uncanny Dodge [Hearing]",
+      "Languages 1"
+    ],
+    "poderes": [
+      {
+        "nome": "Enhanced Strength",
+        "construcao_3e": "Enhanced Trait: Força (rank 2e 10); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Enhanced Strength 10 (10pp); custo 2e impresso 10 PP.",
+        "custo_2e_pp": 10,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Strike",
+        "construcao_3e": "Damage (rank 2e 8); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Strike 8 (Extras: Penetrating [+1], Auto- Fire [+1]; Flaw: Requires a Sword [-1]; Alternate Powers: Corrosion; Power Feats: Improved Critical (4); 21pp) Componentes/efeitos alternativos mapeados: Corrosion → Weaken Toughness ligado a Damage.; custo 2e impresso 21 PP.",
+        "custo_2e_pp": 21,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Super Strength",
+        "construcao_3e": "Power-Lifting / Enhanced Strength (rank 2e 3); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Strength 3 (6pp); custo 2e impresso 6 PP.",
+        "custo_2e_pp": 6,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Katana [+3 Damage; 19-20 Crit; Mighty; 5ep]",
+      "Silver Samurai Armor [+6 Toughness; 6ep]",
+      "Shuriken [+1 Damage; Auto-Fire; 3ep]"
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 12,
+        "dano": 8
+      },
+      {
+        "nome": "Katana Canalizada",
+        "bonus": 13,
+        "dano": 7
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 20,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 11,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 66,
+    "defesas": 42,
+    "pericias": 79,
+    "vantagens": 19,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 206,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
+    "Perícias foram convertidas subtraindo do bônus total impresso o atributo 3e correspondente. Conhecimentos, Ofícios e Profissões foram mantidos como Especialidades; Condução/Pilotagem como Veículos; Sobrevivência como Especialidade: Sobrevivência; Computadores como Tecnologia.",
+    "Poderes preservam os descritores, ranks, modificadores e custos 2e impressos; o guia orienta o efeito 3e equivalente. Custos 3e ficam nulos quando a construção exata ou os modificadores não permitem cálculo seguro.",
+    "Nenhuma Motivação ou complicação não publicada foi acrescentada.",
+    "A fonte atribui 3 rank(s) de Equipment (15 EP), mas os itens listados somam 14 EP; valores preservados sem correção.",
+    "Idiomas adicionais descritos na fonte foram convertidos em Languages 1, usando a progressão da vantagem 3e.",
+    "Attack Specialization foi convertida em duas graduações de Combate apropriado por graduação da vantagem, conforme o guia.",
+    "Dodge Focus 5 foi convertido em ranks de Esquiva: base 11 + 5 = 16; valor final 11.",
+    "Defesas reduzidas por limite de NP 10: Esquiva 16→11 e Aparar 11→11; cada defesa ativa + Resistência 9 ≤ 20.",
+    "Channeled Katana: efeito ajustado de 8 para 7 para cumprir Ataque + efeito ≤ 20.",
+    "Subtotal 3e conhecido: 66 PP em habilidades, 79 em perícias, 42 em defesas, 19 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto."
+  ]
+}

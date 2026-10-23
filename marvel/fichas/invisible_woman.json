@@ -1,0 +1,107 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Invisible Woman",
+  "nome_pt": "Mulher Invisível",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 180,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 42
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 0,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 7,
+      "Int": 2,
+      "Pro": 3,
+      "Pre": 2
+    },
+    "defesas": {
+      "Esquiva": 7,
+      "Aparar": 7,
+      "Fortitude": 5,
+      "Resistencia": 13,
+      "Vontade": 7
+    },
+    "pericias": {
+      "Enganação": 8,
+      "Tecnologia": 6,
+      "Persuasão": 8,
+      "Especialidade: Ciências da Vida": 6,
+      "Especialidade: Ciências Físicas": 6,
+      "Especialidade: Tecnologia": 6,
+      "Percepção": 8,
+      "Intuição": 8,
+      "Furtividade": 8,
+      "Combate a Distância: Force Field Blast": 8,
+      "Combate Corpo-a-Corpo: Desarmado": 3
+    },
+    "vantagens": [
+      "Attractive",
+      "Defensive Attack",
+      "Equipment",
+      "Improved Defense",
+      "Inspire 2",
+      "Power Attack",
+      "Redirect",
+      "Teamwork 2"
+    ],
+    "poderes": [
+      {
+        "nome": "Force Field",
+        "construcao_3e": "Force Field 13 dinâmico, Shapeable Area e Impervious; Efeitos Alternativos: Blast, Create 19 (Movable, Progression 4, Stationary, Subtle, Tether) e Shield.",
+        "custo_2e_pp": 73,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Invisibility",
+        "construcao_3e": "Invisibility (Sight), Affects Others, Progression 2.",
+        "custo_2e_pp": 10,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Uniforme (Second Chance contra ataques elétricos, GPS Receiver, PDA; 3 EP)"
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Force Field Blast",
+        "bonus": 10,
+        "dano": 10
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "dano": 1
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 20,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 12,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 38,
+    "defesas": 26,
+    "pericias": 38,
+    "vantagens": 10,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 112,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Improved Block 2 foi representado por uma única vantagem Improved Defense, já que o perfil também possui Improved Defense 2; o benefício não foi duplicado. Concentration 8 (+11) não tem perícia equivalente independente em 3e e foi omitida.",
+    "A Toughness +13 é o valor impresso, incluindo as proteções já descritas; não somei novamente uniforme ou campo de força."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "nome": "Judomaster (Sonia Sato)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 171,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 299
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "2",
+      "AGL": "5",
+      "DEX": "5",
+      "FGT": "7",
+      "INT": "1",
+      "AWE": "2",
+      "PRE": "1"
+    },
+    "poderes": "Aversion Field (Immunity 110 (Toughness Effects, Fortitude Effects, Subtle 2, Limited to targeted attacks only))",
+    "vantagens": "Assessment, Defensive Attack, Defensive Roll 2, Fast Grab, Grabbing Finesse, Improved Defense, Improved Disarm, Improved Grab, Improved Hold, Improved Initiative, Improved Trip, Languages (English, Japanese native), Power Attack, Prone Fighting, Redirect, Takedown, Weapon Bind",
+    "pericias": "Acrobatics 7 (+12), Athletics 5 (+7), Close Combat: Judo 9 (+16), Deception 5 (+6), Expertise: Martial Arts 7 (+8), Insight 6 (+8), Perception 6 (+8), Persuasion 4 (+5), Stealth 5 (+10), Treatment 2 (+3)",
+    "ataques": "Initiative +9, Judo Attack +16 (Damage 2)",
+    "defesas": "Dodge 10, Parry 10, Fortitude 7, Toughness 4/2, Will 7",
+    "pontos_poder": "Abilities 50 + Powers 57 + Advantages 18 + Skills 28 + Defenses 18 = 171"
+  }
+}

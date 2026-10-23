@@ -1,0 +1,30 @@
+{
+  "nome": "Catwoman",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 179,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 111
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "3",
+      "AGL": "6",
+      "DEX": "6",
+      "FGT": "8",
+      "INT": "3",
+      "AWE": "4",
+      "PRE": "4"
+    },
+    "poderes": "Affinity for Cats: Feature 1 (Cats accept Catwoman as one of their own) • 1 point",
+    "equipamento": "Cat’s Claws: Strength-based Damage 2 • 2 points Cat o’ Nine-Tails: Strength-based Damage 2, Improved Grab, Improved Trip, Reach 2 • 6 points Climbing Gear: Movement 1 (Wall-crawling) • 2 points Vehicle: Motorcycle • 10 points Medium; Str 1, Speed 6, Def 10, Tou 8",
+    "vantagens": "Attractive, Close Attack 2, Connected, Contacts, Defensive Attack, Defensive Roll 3, Equipment 4, Evasion, Hide in Plain Sight, Improved Initiative, Improvised Tools, Instant Up, Move-by Attack, Precise Attack (Close; Cover), Quick Draw, Ranged Attack 3, Seize Initiative, Skill Mastery (Sleight of Hand), Takedown, Uncanny Dodge",
+    "pericias": "Acrobatics 8 (+14), Athletics 10 (+12), Deception 10 (+14), Close Combat: Bullwhip 4 (+12), Close Combat: Unarmed 3 (+11), Expertise: Burglar 10 (+13), Insight 8 (+12), Intimidation 4 (+8), Investigation 5 (+8), Perception 8 (+12), Persuasion 10 (+14), Stealth 8 (+14), Sleight of Hand 8 (+14), Technology 4 (+7), Vehicles 4 (+10)",
+    "ataques": "Initiative +10 Claws +13 Close, Damage 4 Bullwhip +14 Close (Reach 2), Damage 4 Unarmed +13 Close, Damage 2",
+    "defesas": "Dodge 14 Fortitude 8 Parry 14 Toughness 6/3* Will 11 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 72 Skills 52 Powers 1 Defenses 26 Advantages 28 ToTal 179",
+    "complicacoes": "Obsession: Selina has a difficult time resisting a thrilling challenge, especially if it involves cats or pretty, shiny baubles. Relationship: Catwoman has strong feelings for Batman that can distract from her other goals. and duct-tape to bind and gag targets before she robs them, for example, and usually has a set of lockpicks on her person. While she prefers a more maneuverable motorcycle (better for the tight alleys of parts of Gotham) she has been known to drive various cars as well, often stolen."
+  }
+}

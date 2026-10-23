@@ -1,0 +1,27 @@
+{
+  "nome": "Sabbac",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 14,
+  "pontos_poder_publicados": 191,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 154
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "18",
+      "STA": "16",
+      "AGL": "0",
+      "DEX": "0",
+      "FGT": "6",
+      "INT": "0",
+      "AWE": "1",
+      "PRE": "1"
+    },
+    "poderes": "of six demons: Satan, Aym, Belial, Beelzebub, Asmodeus and Creteis, transforming Tim into the demonic Sabbac!",
+    "pericias": "Close Combat: Unarmed 4 (+10), Expertise: Magic 2 (+2), Intimidation 4 (+5), Perception 4 (+5)",
+    "ataques": "i nitia tive +0 Hellfire +10 Ranged, Damage 14 Unarmed +10 Close, Damage 18 efen S e d d odge 9 f or titude 16 Parry 9 t oughness 19 W ill 12",
+    "pontos_poder": "a bilities 84 S kills 7 Powers 75 d efenses 23 a dv antages 2 ToTal 191",
+    "complicacoes": "d emonic Pact: Sabbac owes his powers to six demons, who can choose t o withdraw those powers. ansformation: Returns to his mortal identity upon saying t r his name. Karnes is Str , Sta , and Ftg 1. I S h M ae L g regor Tim Karnes is not the only one to wield the powers of Sabbac; New York-based Russian mob boss Ishmael Gregor stole Sabbac’s demonic powers and identity for himself, confronting the Outsiders and Captain Marvel, Jr. as well as absorbing the power of the Seven Deadly Enemies of Man to become even stronger. Gregor’s traits are similar to those given for Karnes, though he later acquires Growth, allowing him to assume a gigantic demon form as well. Gregor also has Expertise: Criminal 8 and Expertise: Magic 6."
+  }
+}

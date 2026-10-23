@@ -1,0 +1,28 @@
+{
+  "nome": "Bestowed",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 185,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 312
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "4",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "2",
+      "INT": "2",
+      "AWE": "3",
+      "PRE": "4"
+    },
+    "poderes": "Burning Venom ( Damage 5 (Cone Area, Secondary Effect)); The Truth of Blood (Senses 1 (Detect: Truth (Mental))), Join the Faith (Mind Control 5 (Reduced Range: Close)); Swarm of Serpents ( Summon 3 (45 points; Horde, Multiple Minions 4 (16 minions)))",
+    "vantagens": "All-out Attack, Animal Empathy, Artificer, Assessment, Chokehold, Daze (Deception), Defensive Roll 4, Fascinate (Deception), Fearless, Great Endurance, Hide in Plain Sight, Improved Initiative, Precise Attack (Close, Concealment), Ritualist, Skill Mastery (Expertise: Magic)",
+    "pericias": "Close Combat: Unarmed 8 (+10), Deception 6 (+10), Expertise: Magic 9 (+11), Insight 10 (+13), Intimidation 5 (+9), Perception 7 (+10), Persuasion 7 (+11), Sleight of Hand 6 (+8), Stealth 10 (+12)",
+    "ataques": "Initiative +6, Unarmed +10 (Close, Damage 2), Burning Venom—(Cone Area Damage 5, Contagious)",
+    "defesas": "Dodge 10, Parry 10, Fortitude 9, Toughness 8/4, Will 9",
+    "pontos_poder": "Abilities 42 + Powers 64 + Advantages 18 + Skills 34 + Defenses 27 = 185"
+  }
+}

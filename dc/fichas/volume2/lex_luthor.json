@@ -1,0 +1,28 @@
+{
+  "nome": "Lex Luthor",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 14,
+  "pontos_poder_publicados": 151,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 29
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "2",
+      "AGL": "2",
+      "DEX": "3",
+      "FGT": "3",
+      "INT": "11",
+      "AWE": "3",
+      "PRE": "4"
+    },
+    "vantagens": "Benefit 5 (Billionaire), Connected, Defensive Attack, Defensive Roll 2, Eidetic Memory, Inspire 2, Improvised Tools, Inventor, Languages 2, Leadership, Seize Initiative, Set-Up, Skill Mastery (Expertise: Science, Technology), Ultimate Effort (Technology), Well-informed",
+    "pericias": "Deception 8 (+12), Expertise: Business 7 (+18), Expertise: Science 13 (+24), Insight 7 (+10), Intimidation 4 (+8), Investigation 7 (+18), Perception 6 (+9), Persuasion 6 (+10), Ranged Combat: Guns 4 (+7), Technology 13 (+24), Vehicles 5 (+8)",
+    "ataques": "i nitia tive +2 Pistol +7 Ranged, Damage 3 Unarmed +3 Close, Damage 2",
+    "defesas": "d odge 10 f or titude 6 Parry 8 t oughness 4/2* W ill 14 *Without Defensive Roll.",
+    "pontos_poder": "a bilities 60 S kills 40 Powers 0** d efenses 28 a dv antages 23 ToTal 151",
+    "complicacoes": "in his rr ogance: own abilities, but he needs recognition for his achievements. e nemy: Superman Greed: Luthor has always been driven by a desire to have everything he wants, no matter what he has to do to get it. o bsession: Luthor is obsessed with humbling and destroying Superman."
+  }
+}

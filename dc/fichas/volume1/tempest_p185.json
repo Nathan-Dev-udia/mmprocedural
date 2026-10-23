@@ -1,0 +1,29 @@
+{
+  "nome": "Tempest",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 126,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 185
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "5",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "6",
+      "INT": "2",
+      "AWE": "2",
+      "PRE": "0"
+    },
+    "pericias": "Athletics 6 (+8), Close Combat: Unarmed 2 (+8), Deception 4 (+4), Expertise: Medicine 6 (+8), Expertise: Military 2 (+4), Expertise: Streetwise 4 (+6), Persuasion 4 (+4), Ranged Combat: Blast 4 (+10) , Stealth 4 (+8), Treatment 8 (+10)",
+    "poderes": "Defensive Blasts ( Protection 8, Check Required 5 (Ranged Combat: Blast, DC 15), Limited to only vs. Ranged attacks); Power Bursts (Array (21 points), Power Blast (Ranged Damage 10, Variable Descriptor (Heat, Kinetic, Radiation)), AE: Aimed Shot (Deflect 10), AE: Vortex (Move Object 10)); Propulsion (Flight 6 (120 MPH))",
+    "vantagens": "Benefit 1 (False ID), Improved Aim, Improved Defense, Move-by Action, Power Attack, Precise Attack (Ranged; Cover)",
+    "ataques": "Initiative +4, Power Blast +10 (Ranged, Damage 10), Unarmed +8 (Damage 2)",
+    "defesas": "Dodge 7, Parry 12, Fortitude 10, Toughness 5-13*, Will 6 *Depends on Defensive Blasts check.",
+    "pontos_poder": "Abilities 42 + Powers 36 + Advantages 6 + Skills 22 + Defenses 20 = 126",
+    "complicacoes": "Nemesis: Tempest has a personal archenemy in Reactron, his brutal ex-army sergeant. Relationship: Tempest is deeply in love with teammate Negative Woman. Secret: Joshua Clay is a deserter from the U.S. Army living under a false identity. quited romance with Valentina Vostok, AKA Negative Wom - an. Later, it was revealed the sergeant’s own mutant powers were activated by Joshua’s blast, and he became Reactron, a foe of the Doom Patrol. Joshua never cared for superheroics, and left the Doom Patrol at the earliest opportunity. He assumed a false identity as Dr. Jonathon Carmichael (having obtained a medical license). He was again pressured into becoming Tempest by Cliff Steele, but his career was brief. He stayed on with the Doom Patrol as medical support despite giving up costumed exploits, sharing a few of the team’s oddest adventures. Niles Caulder murdered Joshua while the Chief was in a psychotic state. But he has already returned on two occasions, the most recent as a Black Lantern."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "nome": "Morgaine Le Fey",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 13,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 72
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "2",
+      "AGL": "1",
+      "DEX": "1",
+      "FGT": "3",
+      "INT": "7",
+      "AWE": "7",
+      "PRE": "5"
+    },
+    "poderes": "130 d efenses 25 a dv antages 9 ToTal 256",
+    "vantagens": "Artificer, Languages 4 (Numerous dead and arcane languages), Ritualist, Seize Initiative, Skill Mastery (Expertise: Magic), Taunt",
+    "pericias": "Deception 10 (+15), Expertise: History 9 (+16), Expertise: Magic 13 (+20), Insight 11 (+18), Intimidation 8 (+13), Perception 8 (+15), Persuasion 6 (+11), Ranged Combat: Spells 11 (+12)",
+    "ataques": "i nitia tive +1 Ranged Spells +12 Ranged, Damage 14 Linked to Weaken Toughness 14, or varies Unarmed+3 Close, Damage 1",
+    "defesas": "d odge 12 f or titude 8 Parry 12 t oughness 14 W ill 18 Po er Point W S a bilities 54 S kills 38",
+    "complicacoes": "o bsession: None of Morgaine’s protections based on her armor equate to actual eternal youth, and she ages (cosmetically) over time though through her armor she remains physically vigorous. She hates true immortals and plots to steal their immortality; she also steals youth from various unfortunate mortals through ritual magic. o v erconfidence: Morgaine has a dangerous level of contempt for her enemies, causing her to underestimate them again and again. e ne MI e S Etrigan and Merlin above all others, but in recent years she has added Wonder Woman and Batman to a long list."
+  }
+}

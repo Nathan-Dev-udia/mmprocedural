@@ -1,0 +1,29 @@
+{
+  "nome": "The Spectre",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 18,
+  "pontos_poder_publicados": 610,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 191
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "16",
+      "STA": "20",
+      "AGL": "8",
+      "DEX": "8",
+      "FGT": "10",
+      "INT": "9",
+      "AWE": "20",
+      "PRE": "16"
+    },
+    "poderes": "d Senses 42 (Analytical on all Sight and ivine P erception: Awareness effects, Awareness 3 (Cosmic, Divine, Magical; Extended 5 on all Awareness effects), Counters All Concealment on Sight and Hearing, Counters Illusion on Sight and Hearing, Analytical Detect Guilt, Postcognition (Limited to the commission of crimes, sins, etc.), Tracking) • 40 points o ther worldly Being: Comprehend 11 (Animals (Speak To, Understand), Languages (Read, Speak, Understand, Understood), Objects, Plants, Spirits (Communicate, Medium)); Immortality 16, Limited—Not if killed with magic; Morph 4 (Any Form), Continuous; Movement 6 (Dimensional Travel 3, Space Travel 3) • 74 points eality Manipulation: Array (135 points) r • Microcosm: Illusion 15 (All senses), Area 3, Selective; Dynamic • 135 points • Conjure from a : Continuous Perception Ranged t hin ir Create 18, Innate, Precise, Dynamic • 2 point • Cruelly i onic Justice: Cumulative Perception Ranged r Affliction 18 (Resisted by Will; Dazed, Stunned, Transformed), Precise, Subtle, Variable Descriptor 2 (Magical), Dynamic • 2 points • apable Punishment: Perception Ranged Damage 18, i nesc Variable Descriptor 2 (Magical), Dynamic • 2 point • where t Hide: Remote Sensing 25 (All Visual and n o o Auditory), Simultaneous, Dimensional 3, Subtle, Dynamic • 2 point • eality i a i Will i e: Perception Ranged Continuous r s s t t o B Transform 16 (Anything to Anything, 25 tons), Dynamic • 2 point • World Walking: Teleport 20 (4,000 miles), Accurate, Attack (plus self ), Easy, Extended (1 million miles), Increased Mass 20 (25,000 tons), Subtle 2 (World subtly shifts around a passenger before they realize it), Dynamic • 2 point Spectre: Concealment 10 (Limited to non-magical senses); Impervious Toughness 20; Immunity 110 (all Toughness and Fortitude effects; Limited to non-magical effects, Limited to half-strength on Toughness effects); Insubstantial 4 (Continuous; Precise, Subtle 2) • 95 points h o S t S For Jim Corrigan and Crispus Allen, use the Supporting Cast archetype for Police Officer with small modifica- tion—Corrigan has Pre 2, Intimidation 6 (+8) and Will 4; i nt 2, a we 2, and Investigation 6 (+8). Allen has",
+    "vantagens": "Benefit 6 (Status: Wrath of God Incarnate), Daze (Intimidation), Extraordinary Effort, Fascinate (Intimidation), Fearless, Seize Initiative, Skill Mastery (Intimidation)",
+    "pericias": "Expertise: Heaven and The Presence 16 (+25), Expertise: Supernatural World 16 (+25), Intimidation 12 (+28)",
+    "ataques": "i nitia tive +8 Unarmed +10 Close, Damage 16 Reality Manipulation — Perception Ranged, Damage 18 or other effects",
+    "defesas": "d odge 12 f or titude Immune Parry 12 t oughness 20 W ill 20",
+    "pontos_poder": "a bilities 214 S kills 22 Powers 356 d efenses 6 a dv antages 12 ToTal 610",
+    "complicacoes": "of the Lord’s Will: role it plays and cannot set aside its duty regardless of what its hosts may want or need. A primal entity, it has little personal direction apart from its mandate and answers unswervingly to its “boss” known as The Presence. Wrath is More a Word: The Spectre is not actually an t han instrument of justice, but rather of a divine and decidedly Old Testament vengeance—compassion and forgiveness play little part in its actions. p un IS hed f or hIS f a IL ure S During the times when the Spectre has been “demoted, ” such as the period following his successive failures to defeat the Anti-Monitor and the Great Evil Beast, he operates at PL 12, with the following modifications: i a we 12, and Pre 8. nt 8, drop abilities to Str 10, Sta 12, Halve the ranks on his array powers, drop the Space and Time Travel effects altogether, and pull in the rest of his numbers until they meet his adjusted caps."
+  }
+}

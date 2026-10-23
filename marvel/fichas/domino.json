@@ -1,0 +1,126 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Domino",
+  "nome_pt": "Domino",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 165,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 26
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 4,
+      "Des": 4,
+      "Lut": 14,
+      "Int": 1,
+      "Pro": 1,
+      "Pre": 1
+    },
+    "defesas": {
+      "Esquiva": 14,
+      "Aparar": 14,
+      "Fortitude": 6,
+      "Resistencia": 6,
+      "Vontade": 6
+    },
+    "pericias": {
+      "Acrobacia": 12,
+      "Enganação": 8,
+      "Atletismo": 8,
+      "Tecnologia": 8,
+      "Veículos": 4,
+      "Investigação": 8,
+      "Percepção": 12,
+      "Intuição": 8,
+      "Prestidigitação": 8,
+      "Furtividade": 12,
+      "Especialidade: Sobrevivência": 8,
+      "Combate à Distância: Ataques gerais": 10
+    },
+    "vantagens": [
+      "Agile Feint",
+      "All-out Attack",
+      "Defensive Attack",
+      "Equipment 6",
+      "Improved Initiative 2",
+      "Improved Trip",
+      "Instant Up",
+      "Power Attack",
+      "Precise Attack (Ranged, Cover) 2",
+      "Skill Mastery (Acrobatics, Technology, Insight, Stealth)",
+      "Takedown",
+      "Uncanny Dodge (Hearing)"
+    ],
+    "poderes": [
+      {
+        "nome": "Probability Control",
+        "construcao_3e": "Luck Control 8.",
+        "custo_2e_pp": 32,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Colete tático (+4 Resistência; 4 EP)",
+      "Óculos de visão noturna (1 EP)",
+      "Outros equipamentos (5 EP)",
+      "Arsenal: granada flash-bang (Dazzle 4, Área Explosão), rifle de precisão (+5 dano; Improved Range 2; Improved Critical), duas pistolas 9mm (+3 dano; Autofire), pistola pesada (+4 dano), faca (+1 dano; crítico 19–20; Thrown; Mighty); 20 EP"
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 14,
+        "dano": 2
+      },
+      {
+        "nome": "Rifle de precisão",
+        "bonus": 14,
+        "dano": 5
+      },
+      {
+        "nome": "Pistolas 9mm",
+        "bonus": 14,
+        "dano": 3
+      },
+      {
+        "nome": "Pistola pesada",
+        "bonus": 14,
+        "dano": 4
+      },
+      {
+        "nome": "Faca",
+        "bonus": 14,
+        "dano": 3
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 19,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 12,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 58,
+    "defesas": 19,
+    "pericias": 53.0,
+    "vantagens": null,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 130.0,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Dodge Focus 8 foi convertido em Esquiva; Esquiva e Aparar foram reduzidas para 14 para cumprir NP 10. A fonte lista equipamento adicional de 5 EP e arsenal de 20 EP; ambos foram mantidos sem reconciliação. Elusive Target e Sneak Attack foram removidas.",
+    "Defesas ajustadas para Esquiva 14 e Aparar 14, respeitando os limites de NP 10 com Resistência 6.",
+    "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias e apenas os custos de poderes confirmados; não inclui vantagens nem custos incertos."
+  ]
+}

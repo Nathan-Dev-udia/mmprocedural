@@ -1,0 +1,30 @@
+{
+  "nome": "Batgirl (Barbara Gordon)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 175,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 44
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "3",
+      "AGL": "4",
+      "DEX": "5",
+      "FGT": "9",
+      "INT": "4",
+      "AWE": "4",
+      "PRE": "3"
+    },
+    "poderes": "Cowl Sensors: Senses 2 (Infravision, Tracking), Removable (-0 points) • 2 points",
+    "equipamento": "Flashlight: Feature 1 (Illumination) • 1 point Grapnel Gun: Super-Movement 1 (Swinging) • 2 points Mini-Tracers: Feature 1 (Tracking) • 1 point Rebreather: Immunity 2 (Suffocation), Limited • 1 point Utility Belt: Array (12 points) • Tear Gas Pellets: Ranged Cloud Area Affliction 3 (Resisted by Fortitude; Dazed and Vision Impaired, Stunned and Vision Disabled, Incapacitated) • 12 points • Batarangs: Strength-based Ranged Damage 2 • 1 point • Bolos: Ranged Affliction 4 (Resisted by Dodge; Hindered and Vulnerable, Defenseless and Immobile) • 1 point • Cutting Torch: Damage 1 Linked to Weaken Object’s Toughness 1 • 1 point • Explosive Batarangs: Ranged Burst Area Damage 4 • 1 point • Flash Bombs: Ranged Burst Area Affliction 3 (Resisted by Fortitude; Vision Impaired, Vision Disabled, Vision Unaware) • 1 point • Sleep Gas Pellets: Ranged Cloud Area Affliction 4 (Resisted by Fortitude; Fatigued, Exhausted, Asleep) • 1 point • Smoke Bombs: Cloud Area Visual Concealment Attack 4 • 1 point VEHICLE: MOTORCYCLE • 11 POINTS Size: Medium Str 1 Spd 6 Def 10 Tou 8 Features: Navigation System",
+    "vantagens": "Accurate Attack, Agile Feint, Beginner’s Luck, Close Attack 2, Contacts, Defensive Attack, Defensive Roll 2, Eidetic Memory, Equipment 7, Evasion 2, Hide in Plain Sight, Improved Defense, Improved Disarm, Improved Initiative, Improved Trip, Instant Up, Jack-of-all-trades, Ranged Attack 3, Redirect, Set-up, Well-informed",
+    "pericias": "Acrobatics 8 (+12), Athletics 8 (+11), Close Combat: Unarmed 4 (+13), Deception 5 (+8), Expertise: Law Enforcement 6 (+10), Expertise: Research 10 (+14), Insight 5 (+9), Investigation 8 (+12), Perception 7 (+11), Persuasion 5 (+8), Ranged Combat: Batarang 5 (+10), Stealth 7 (+12), Technology 6 (+10), Vehicles 10 (+15)",
+    "ataques": "Initiative +8 Batarang +13 Ranged, Damage 5 Unarmed +15 Close, Damage 3",
+    "defesas": "Dodge 14 Fortitude 8 Parry 14 Toughness 4/2* Will 8 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 70 Skills 47 Powers 2 Defenses 24 Advantages 32 ToTal 175",
+    "complicacoes": "Family: Babs is dedicated to her father, Commissioner Jim Gordon, and also her extended family in the super-hero community, namely the Batman family and the Birds of Prey."
+  }
+}

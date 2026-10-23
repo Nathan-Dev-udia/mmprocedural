@@ -1,0 +1,28 @@
+{
+  "nome": "Ultra Boy",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 250
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2/17",
+      "STA": "2",
+      "AGL": "3",
+      "DEX": "3",
+      "FGT": "7",
+      "INT": "2",
+      "AWE": "4",
+      "PRE": "4"
+    },
+    "poderes": "43 d efenses 19",
+    "equipamento": "f ligh t r ing: Communication 5 (subspace radio, Anywhere, Limited to Distress Signal (–3)), Flight 7 (250 MPH) • 19 points t elepa thic Plug: Comprehend 3 (Languages), Mental Communication 1 (Close Range) • 10 points t r anssuit: Immunity 9 (Life Support, except for Starvation and Thirst) • 9 points d a e S a V ant G All-out Attack, Attractive, Equipment 8, Power Attack, Ranged Attack 2, Taunt",
+    "pericias": "Deception 10 (+14), Expertise: Streetwise 10 (+12), Investigation 4 (+6), Perception 4 (+8), Ranged Combat: Flash Vision 4 (+9), Stealth 4 (+7), Technology 6 (+8), Treatment 2 (+6), Vehicles 8 (+11)",
+    "ataques": "i nitia tive +2 Flash Vision +9 Ranged, Damage 14 Unarmed +7 Close, Damage 17",
+    "defesas": "d odge 8 f or titude 11 Parry 8 t oughness 14/2* W ill 8 *Without Invulnerability. Po er Point W S a bilities 54 S kills 26",
+    "vantagens": "14 ToTal 156 Co MPL i C tion S a Motivation – d oing Good: Jo came from a crime-ridden societ y and wants to do good with his powers. r elationship: Ultra Boy is in love with Tinya Wazzo, the Legion’s Phantom Girl."
+  }
+}

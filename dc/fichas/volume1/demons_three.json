@@ -1,0 +1,29 @@
+{
+  "nome": "Demons Three",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 13,
+  "pontos_poder_publicados": 285,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 162
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "11",
+      "STA": "13",
+      "AGL": "6",
+      "DEX": "6",
+      "FGT": "6",
+      "INT": "10",
+      "AWE": "10",
+      "PRE": "4"
+    },
+    "poderes": "Brothers-in-Shadow: Enhanced Advantages 3 (Inspire, Set-up, Teamwork), Limited to using with the other two brothers • 2 point Demonic Entities: Comprehend Languages 3, Immunity 30 (Fortitude Effects), Protection 3, Regeneration 5, Senses 5 (Magic Awareness (Analytical, Extended 2)) • 49 points Demonic Magic: Array (45 points) • Magic Blast: Ranged Damage 15, Alternate Save: Fortitude • 45 points • Conjuration: Create 14, Continuous, Innate, Precise, Subtle • 1 point • Glamours: Illusion 10 (All Senses), Resistable • 1 point • Major Curse: Ranged Affliction 15 (Resisted by Will; Dazed, Stunned, Transformed) • 1 point • Transmogrification: Transform 9, Anything into Anything • 1 point • Willforce: Perception Range Move Object 11, Damaging • 1 point",
+    "vantagens": "Artificer, Benefit 1 (Legendary Demons), Close Attack 2, Eidetic Memory, Fascinate (Deception), Fearless, Ritualist, Taunt",
+    "pericias": "Deception 12 (+16), Expertise: Magic 13 (+23), Insight 10 (+20), Intimidation 8 (+12), Perception 10 (+20), Persuasion 9 (+13), Ranged Combat: Magic Array 4 (+10)",
+    "ataques": "Initiative + 6 Magic Blast + 10 Ranged, Damage 15, Resisted by Fortitude Major Curse +10 Ranged, Effect 15, Resisted by Will Unarmed +8 Close, Damage 11",
+    "defesas": "Dodge 8 Fortitude 13 Parry 10 Toughness 16 Will 13",
+    "pontos_poder": "Abilities 132 Skills 33 Powers 102 Defenses 9 Advantages 9 ToTal 285",
+    "complicacoes": "Bindable: As demonic entities, Abnegazar, Rath, and Ghast can be summoned and bound through the proper (and extraordinarily powerful) rituals. Exiled: The brothers are exiled to the pits of Hell and can only manifest on Earth through ritual magic others use on their totem foci (the Bell, Wheel, and Jar), or through intercession of other high-ranking supernatural entities."
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Northstar",
+  "nome_pt": "Estrela do Norte",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 150,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 64
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 4,
+      "Vig": 4,
+      "Agi": 2,
+      "Des": 4,
+      "Lut": 2,
+      "Int": 2,
+      "Pro": 1,
+      "Pre": 2
+    },
+    "defesas": {
+      "Esquiva": 12,
+      "Aparar": 2,
+      "Fortitude": 3,
+      "Resistencia": 8,
+      "Vontade": 3
+    },
+    "pericias": {
+      "Acrobacia": 15,
+      "Enganação": 8,
+      "Especialidade: Criação": 8,
+      "Persuasão": 8,
+      "Especialidade: Cultura Pop": 10,
+      "Intuição": 8,
+      "Furtividade": 10,
+      "Combate Corpo-a-Corpo: Desarmado": 10
+    },
+    "vantagens": [
+      "Agile Feint",
+      "Attractive",
+      "Feature: adaptação ambiental a altas velocidades",
+      "Improved Initiative 5",
+      "Move-By Action",
+      "Teamwork 3"
+    ],
+    "poderes": [
+      {
+        "nome": "Dazzle",
+        "construcao_3e": "Dazzle 8 (Visual). 16 PP na fonte.",
+        "custo_2e_pp": 16,
+        "custo_3e_pp": 16
+      },
+      {
+        "nome": "Flight",
+        "construcao_3e": "Flight 12, Linked to Protection.",
+        "custo_2e_pp": 24,
+        "custo_3e_pp": 24
+      },
+      {
+        "nome": "Protection",
+        "construcao_3e": "Protection 4, Linked to Flight.",
+        "custo_2e_pp": 4,
+        "custo_3e_pp": 4
+      }
+    ],
+    "equipamento": [],
+    "complicacoes": [
+      "Perda de Poder: todos os poderes deixam de funcionar quando Northstar está em contato com Aurora (3 PP na fonte)."
+    ],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 12,
+        "dano": 4
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 16,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 10,
+      "fortitude_mais_vontade": 6,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 42,
+    "defesas": 20,
+    "pericias": 39,
+    "vantagens": 12,
+    "poderes_conhecidos": 44,
+    "subtotal_conhecido": 157,
+    "poderes_pendentes": false,
+    "total": null
+  },
+  "notas_conversao": [
+    "A fonte apresenta Defense 12 e Dodge Focus 10, valores em tensão com Reflex +10. Dodge Focus foi convertido: Dodge 20 antes do ajuste; o valor final 12 cumpre Dodge + Toughness 20 (NP 10). Aparar permanece 2.",
+    "A fonte apresenta duas entradas contraditórias de Sense Motive: 8 (+9) e 6 (+7). Foi mantida a entrada de maior total (+9; 8 ranks); a segunda está documentada aqui e não foi somada.",
+    "A fonte liga Flight e Protection entre si; ambos os valores foram mantidos.",
+    "Dodge foi ajustada de 20 para 12 para cumprir Dodge + Toughness ≤ 20 (NP 10)."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "nome": "Blackbriar Thorn",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 13,
+  "pontos_poder_publicados": 214,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 282
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2/14",
+      "STA": "8/20",
+      "AGL": "1",
+      "DEX": "1",
+      "FGT": "6",
+      "INT": "4",
+      "AWE": "5",
+      "PRE": "3"
+    },
+    "poderes": "Druidic Magic (Array (36 points), Environment 5 (Extreme Cold, Extreme Heat, Impeded Movement (2 Ranks), Visibility, Variable Descriptors: Weather), AE: Growth 12 , AE: Move Object 11 (Damaging, Variable Descriptor: Natural Materials like Air, Earth, and Water), AE: Ranged Damage 15 (Indirect 4, Variable Descriptor: Nature Attacks like Lightning, Earthen Spikes, etc.)); Immortality 16 ; Immunity 30 (Fortitude Effects); Protection 6 (Limited—Loses one rank per two ranks of Growth in use); Senses 2 (Magical Awareness, Radius)",
+    "vantagens": "Artificer, Diehard, Fearless, Languages 2 (English, Latin), Ritualist, Seize Initiative, Tracking",
+    "pericias": "Close Combat: Unarmed 4 (+10), Deception 6 (+9), Expertise: Magic 10 (+14), Insight 8 (+13), Intimidation 6 (+9/+15*), Perception 8 (+13), Persuasion 6 (+9), Ranged Combat: Druidic Magic 9 (+10), Stealth 5 (+6)",
+    "ataques": "Initiative +1, Damaging Move Object +10 (Damage 11), Ranged Damage +10 (Damage 15)",
+    "defesas": "Dodge 11/5*, Parry 12/6*, Fortitude —, Toughness 14/20*, Will 14 *With Growth.",
+    "pontos_poder": "Abilities 60 + Powers 86 + Advantages 8 + Skills 31 + Defenses 29 = 214",
+    "complicacoes": "Fish Out of Water: Thorn is a stranger to modern ways and ideas. Weakness : Blackbriar Thorn is living wood and as such is vulnerable to defoliants and fire—treat each as a serious advantage to the damage rating of any such attack (+5)."
+  }
+}

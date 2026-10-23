@@ -1,0 +1,30 @@
+{
+  "nome": "Element Lad",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 171,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 190
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "4",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "3",
+      "INT": "4",
+      "AWE": "5",
+      "PRE": "1"
+    },
+    "poderes": "Transmutation: Perception Range Transform 10 (Anything to Anything), Continuous, Resistible (Toughness) • 70 points",
+    "equipamento": "Flight Ring: Communication 5 (subspace radio, Anywhere, Limited to Distress Signal (-3)); Flight 7 (250 MPH); Removable (-3 points) • 16 points Telepathic Plug: Comprehend 3 (Languages), Mental Communication 1 (Close Range), Removable (-1 point) • 7 points Transsuit: Immunity 9 (Life Support, except for starvation and thirst), Removable (–2 point) • 7 points",
+    "vantagens": "Assessment, Benefit 1 (Legion membership), Defensive Roll 2, Equipment 6, Inspire, Leadership",
+    "pericias": "Close Combat: Unarmed 6 (+9), Expertise: Chemistry 8 (+12), Expertise: Science 6 (+10), Insight 6 (+11)",
+    "ataques": "Initiative +2 Transmutation Perception, Transform 10 Unarmed +9 Close, Damage 2",
+    "defesas": "Dodge 12 Fortitude 9 Parry 12 Toughness 6/4* Will 11 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 46 Skills 13 Powers 70 Defenses 30 Advantages 12 ToTal 171",
+    "complicacoes": "Doing Good: The core tenet of Jan’s philosophy is helping others, regardless of self. Honor: Out of his concern for others, Jan uses his potentially lethal powers judiciously, even when such restraint puts him at a disadvantage. ALLIES Jan’s closest associates have always been his Legion team - mates, who view him as one of the group’s bedrock members. Outside the Legion, his friendship with Science Police officer Shvaughn Erin seems destined to blossom into love. ENEMIES Though Jan once spared his life, Roxxas the Butcher still plots against him, fearing retaliation for the Trommite genocide."
+  }
+}

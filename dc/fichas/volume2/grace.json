@@ -1,0 +1,29 @@
+{
+  "nome": "Grace",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 136,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 96
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "14",
+      "STA": "12",
+      "AGL": "2",
+      "DEX": "3",
+      "FGT": "6",
+      "INT": "0",
+      "AWE": "2",
+      "PRE": "1"
+    },
+    "poderes": ": a maz on/Bana Skin: Impervious Toughness 12; Bana Healing : Regeneration 3",
+    "vantagens": "Accurate Attack, All-out Attack, Defensive Attack, Improved Critical 3 (Unarmed), Improved Disarm, Improved Grab, Improved Hold, Improved Initiative, Improved Smash, Improved Trip, Instant Up, Power Attack, Startle, Takedown",
+    "pericias": "Athletics 3 (+17), Deception 8 (+9), Intimidation 12 (+13), Ranged Combat: Throw 3 (+6)",
+    "ataques": "Initiative +6, Unarmed +6 (Close, Damage 14, Crit. 17-20), Thrown Object +6 (Ranged, Damage 14)",
+    "defesas": "Dodge 8, Parry 8, Fortitude 12, Toughness 12, Will 6",
+    "pontos_poder": "Abilities 80 + Powers 15 + Advantages 16 + Skills 13 + Defenses 12 = 136",
+    "complicacoes": "Love : Grace loves Thunder so devotedly that she allows her to join Outsider missions against Batman’s wishes. Bloodlust : Grace has a tendency to use excessive force."
+  }
+}

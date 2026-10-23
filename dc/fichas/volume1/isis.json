@@ -1,0 +1,29 @@
+{
+  "nome": "Isis",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 13,
+  "pontos_poder_publicados": 280,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 284
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "16",
+      "STA": "13",
+      "AGL": "3",
+      "DEX": "3",
+      "FGT": "6",
+      "INT": "1",
+      "AWE": "8",
+      "PRE": "5"
+    },
+    "poderes": "Elemental Control: Array (20 points), Dynamic • Freezing Cold: Environment 10 (Cold, Extreme) • 21 point s • Extreme Heat: Environment 10 (Heat, Extreme) • 2 points • Hindered Movement: Environment 10 (Impede Movement, -2 per rank) • 2 points • Decreased Visibility: Environment 10 (Visibility, -8,000 miles) • 2 points Superhuman Speed: Array (26 points) • Flight 13 (16,000 MPH) • 26 point s • Quickness 13, Speed 13 (16,000 MPH) • 1 point Superhuman Durability: Impervious Toughness 13 • 13 points Superhuman Wisdom: Enhanced Awareness 5, Enhanced Advantages 4 (Assessment, Beginner’s Luck, Eidetic Memory, Jack-of-all-trades) • 14 points Super Senses: Senses 5 (Extended Vision, Penetrating Concealment) • 5 points Telekinesis: Move Object 16 • 32 points Healing Touch: Healing 10 • 20 points",
+    "vantagens": "Agile Feint, Assessment, Attractive, Beginner’s Luck, Eidetic Memory, Improved Initiative , Inspire, Jack-of-all-trades, Move-by Action, Power Attack",
+    "pericias": "Acrobatics 4 (+7), Athletics 5 (+21), Close Combat: Unarmed 4 (+10), Intimidation 5 (+10), Perception 5 (+13), Persuasion 5 (+10)",
+    "ataques": "Initiative +7 Unarmed +10 Close, Damage 16",
+    "defesas": "Dodge 13 Fortitude 13 Parry 13 Toughness 13 Will 13",
+    "pontos_poder": "Abilities 100 Skills 14 Powers 138 Defenses 22 Advantages 6 ToTal 280",
+    "complicacoes": "Power Loss: Isis reverts to her mortal form of Adrianna Tomaz when she says “Oh Mighty Isis!” Heart of the Family: Isis is the guiding spirit of the Black Marvel family, and her strong influence has driven them toward both righteousness and tragedy."
+  }
+}

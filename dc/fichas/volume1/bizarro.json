@@ -1,0 +1,29 @@
+{
+  "nome": "Bizarro",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 15,
+  "pontos_poder_publicados": 259,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 55
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "19",
+      "STA": "14",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "8",
+      "INT": "-2",
+      "AWE": "-2",
+      "PRE": "1"
+    },
+    "poderes": "Arctic Vision: Ranged Damage 15 (cold) • 30 points Falling: Array (30 points) • Down, Down, and Here!: Flight 15 (64,000 MPH) • 30 points • Earth Flight: Movement 1 (Space Travel) • 1 point • Slower than Speeding Bullet!: Speed 15 (64,000 MPH) • 1 point Flame Breath: Cone Area Damage 12 (fire)t • 24 points Super-Senselessness: Senses 15 (Acute and Extended Hearing, Extended Vision 3, Infravision, Microscopic Vision 4, Ultra- Hearing, Vision Penetrates Concealment (only lead)) • 13 points Super-Slow: Quickness 8 • 8 points Super-Weakness: Enhanced Strength 4, Limited to Lifting (lifting Str 23; 200,000 tons) • 4 points Vulnerability: Protection 4; Impervious Toughness 18; Immunity 5 (Cold, Heat, Pressure, Radiation, Vacuum) • 27 points",
+    "vantagens": "Power Attack, Ultimate Effort (Toughness checks)",
+    "pericias": "Close Combat: Unarmed 3 (+11), Expertise: Bizarro World 15 (+13), Ranged Combat: Arctic Vision 8 (+10)",
+    "ataques": "Initiative +2 Arctic Vision +10 Ranged, Damage 15 Unarmed +11 Close, Damage 19",
+    "defesas": "Dodge 10 Fortitude 15 Parry 10 Toughness 18 Will 9",
+    "pontos_poder": "Abilities 84 Skills 13 Powers 138 Defenses 22 Advantages 2 ToTal 259",
+    "complicacoes": "Acceptance: Everything he does, no matter how inexplicable, stems from a heartfelt desire to find his place in the (Bizarro) world. Quirk: As best he can, he strives to uphold the Bizarro Code: “Us do opposite of all Earthly things! Us hate beauty ! Us love ugliness ! Is big crime to make anything perfect on Bizarro World!” Weakness: Blue kryptonite weakens Bizarro in the same manner the green variety hurts Superman. See the Blue Kryptonite sidebar. Relationship: Despite their fittingly odd marriage, Bizarro Lois Lane is the most important person in his life."
+  }
+}

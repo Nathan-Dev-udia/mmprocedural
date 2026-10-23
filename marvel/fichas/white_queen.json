@@ -1,0 +1,114 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "White Queen",
+  "nome_pt": "White Queen",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 165,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 112
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 6,
+      "Int": 4,
+      "Pro": 1,
+      "Pre": 3
+    },
+    "defesas": {
+      "Esquiva": 6,
+      "Aparar": 6,
+      "Fortitude": 5,
+      "Resistencia": 2,
+      "Vontade": 3
+    },
+    "pericias": {
+      "Enganação": 6,
+      "Persuasão": 6,
+      "Veículos": 4,
+      "Investigação": 11,
+      "Intimidação": 12,
+      "Especialidade: Negócios": 12,
+      "Percepção": 8,
+      "Especialidade: Direção Executiva": 9,
+      "Especialidade: Ensino": 5,
+      "Intuição": 12,
+      "Combate Corpo-a-Corpo: Unarmed": 4,
+      "Combate a Distância: Small Pistol": 8,
+      "Combate a Distância: Mental Blast": 8
+    },
+    "vantagens": [
+      "Attractive 2",
+      "Benefit [Wealth 3] 3",
+      "Equipment 7",
+      "Leadership",
+      "Second Chance [Bluff]"
+    ],
+    "poderes": [
+      {
+        "nome": "Telepathy",
+        "construcao_3e": "Mind Reading + Mental Communication (rank 2e 10); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Telepathy 10 (Dynamic; Extras: Free Action [+2], Comprehend (2); Power Feat: Subtle; Alternate Powers: ESP [Telepathy] – Dynamic, Mental Blast 10 – Dynamic, Mind Shield – Dynamic, Astral Form 11 [Dimensional] – Dynamic, Emotion Control 10 – Dynamic, Free Action Phantasm Illusion [All Senses] 10 – Dynamic, Alternate Form [Solid] 11; 57pp) Componentes/efeitos alternativos mapeados: Blast → Damage à distância; Emotion Control → Affliction resistida por Vontade; Mind Shield → Enhanced Will/Impervious ou Immunity conforme descritores.; custo 2e impresso 57 PP.",
+        "custo_2e_pp": 57,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Small Pistol [+2 Damage; 4ep]",
+      "Limo [Strength: 35; Speed: 5; Defense: 8; Toughness: 9; Size: Huge; 8ep]",
+      "Mansion [Size: Large; Toughness: 10; Features: Living Space; 4ep]",
+      "Private Jet [Strength: 40; Speed: 7; Defense: 6; Toughness 11: Size: Gargantuan; 17ep]",
+      "The Outfit [Fascinate – Bluff; 1ep]",
+      "Cell Phone [1ep]"
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "dano": 2
+      },
+      {
+        "nome": "Pistola Pequena",
+        "bonus": 10,
+        "dano": 2
+      },
+      {
+        "nome": "Mental Blast",
+        "bonus": 10,
+        "dano": 10
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 20,
+      "esquiva_mais_resistencia": 8,
+      "aparar_mais_resistencia": 8,
+      "fortitude_mais_vontade": 8,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 44,
+    "defesas": 22,
+    "pericias": 105,
+    "vantagens": 14,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 185,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
+    "Perícias foram convertidas subtraindo do bônus total impresso o atributo 3e correspondente. Conhecimentos, Ofícios e Profissões foram mantidos como Especialidades; Condução/Pilotagem como Veículos; Sobrevivência como Especialidade: Sobrevivência; Computadores como Tecnologia.",
+    "Poderes preservam os descritores, ranks, modificadores e custos 2e impressos; o guia orienta o efeito 3e equivalente. Custos 3e ficam nulos quando a construção exata ou os modificadores não permitem cálculo seguro.",
+    "Nenhuma Motivação ou complicação não publicada foi acrescentada.",
+    "Habilidades 2e sem perícia 3e direta foram omitidas, conforme o guia: Concentration.",
+    "Subtotal 3e conhecido: 44 PP em habilidades, 105 em perícias, 22 em defesas, 14 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto."
+  ]
+}

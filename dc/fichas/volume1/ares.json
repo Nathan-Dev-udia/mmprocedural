@@ -1,0 +1,30 @@
+{
+  "nome": "Ares",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 16,
+  "pontos_poder_publicados": 420,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 25
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "16",
+      "STA": "16",
+      "AGL": "5",
+      "DEX": "5",
+      "FGT": "16",
+      "INT": "6",
+      "AWE": "10",
+      "PRE": "6"
+    },
+    "poderes": "Arsenal of Areopagus: Penetrating 16 on Strength damage (Precise, Reach) • 18 points Body of a God: Enhanced Strength 4 (Lifting only, Lifting Str 20; 25,000 tons), Immortality 16 (Limited to Non-magical Damage), Immunity 30 (Fortitude Effects), Morph 4 (Anything) • 62 points Divine Armor: Impervious on Toughness 16 • 16 points Godly Magic: Array (35 points) • Divine Flames: Ranged Damage 16, Indirect 3 • 35 points • Divine Gifts: Create 11, Continuous, Innate, Precise, • 1 point • Divine Images: Illusion 7, All Senses • 1 point • Divine Inspiration: Perception Area Affliction 16 (Resisted by Will; Dazed, Compelled, Controlled), Limited to Negative Emotions Only • 1 point • Divine Will: Transform 7, Anything into Anything • 1 point Mind of a God : Comprehend Languages 3, Immunity 10 (Mental Effects, Limited to Half Effect), Senses 12 (Divine Awareness (Mental, Extended 3), True Sight (Vision Counters Concealment, Vision Penetrates Concealment, Vision Counters Illusion)) • 23 points",
+    "equipamento": "HEADQUARTERS: AREOPAGUS • 19 POINTS Size: Awesome Tou: 14 Features:",
+    "defesas": "Dodge 16 Fortitude 18 Parry 16 Toughness 16 Will 14",
+    "vantagens": "Accurate Attack, All-out Attack, Assessment, Benefit 5 (Status and resources of Olympian god of war), Chokehold, Daze (Intimidate), Defensive Attack, Equipment 4, Fascinate (Deception), Fearless, Improved Defense, Improved Critical 4 (Archaic Ranged Weapons), Improved Critical 4 (Guns), Improved Critical 4 (Melee Weapons), Improved Critical 4 (Unarmed), Improved Disarm, Power Attack, Precise Attack (Close, Concealment), Ritualist, Weapon Bind, Weapon Break",
+    "pericias": "Athletics 4 (+20), Deception 12 (+18), Expertise: Magic 6 (+12), Expertise: Olympus 12 (+18), Expertise: Warfare 20 (+26), Insight 6 (+16), Intimidation 14 (+20), Perception 6 (+16), Persuasion 6 (+14), Stealth 4 (+9)",
+    "ataques": "Initiative +5 Melee Weapons +16 Close, Damage 16, Crit. 16-20 Ranged Weapons +16 Ranged, Damage varies, Crit. 16-20 Unarmed +16 Close, Damage 16, Crit. 16-20",
+    "pontos_poder": "Abilities 160 Skills 45 Powers 158 Defenses 17 Advantages 40 ToTal 420",
+    "complicacoes": "Godly Nature: Ares is a slave to his nature, even when it is obviously not in his best interest. Trail of Blood : Ares has had millennia to make powerful enemies, of which he has many ."
+  }
+}

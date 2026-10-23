@@ -1,0 +1,30 @@
+{
+  "nome": "Blood Eagle",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 203,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 141
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "6",
+      "STA": "6",
+      "AGL": "4",
+      "DEX": "3",
+      "FGT": "10",
+      "INT": "3",
+      "AWE": "4",
+      "PRE": "2"
+    },
+    "poderes": "Avian Empathy: Communication 1 (Auditory), Area, Limited to Avians; Feature 1 (Birds accept him as one of their own); Nth Metal Wing Harness: Removable (-5 points), Indestructible; Enhanced Strength 2, plus Enhanced Strength 2, Limited to lifting and carrying (Lifting Str 8; 6 tons); Flight 7 (250 MPH), Wings; Immunity 3 (Cold, Heat, Pressure); Protection 3; Regeneration 10; Senses 1 (Extended Vision); Reincarnation: Immortality 1, Reincarnation (May re-distribute power points)",
+    "equipamento": "Spear (Strength-based Damage 3 (Piercing), Improved Critical)",
+    "vantagens": "All-out Attack, Assessment, Beginner’s Luck, Benefit 5 (CSA member), Connected, Defensive Roll, Equipment 3, Favored Environment (Aerial), Improved Critical (Mace), Improved Disarm, Improved Initiative, Improved Smash, Inventor, Jack-of- all-trades, Languages 3 (Ancient Egyptian, German, Japanese), Leadership, Move-by Action, Power Attack, Quick Draw, Ranged Attack 10, Startle, Takedown 2, Uncanny Dodge",
+    "pericias": "Acrobatics 6 (+10), Athletics 2 (+8), Close Combat: Archaic Melee Weapons 3 (+13), Close Combat: Unarmed 4 (+14), Deception 6 (+8), Expertise: History 8 (+11), Expertise: Law Enforcement 4 (+7), Expertise: Tactics 6 (+9), Insight 6 (+10), Intimidation 6 (+8), Investigation 5 (+8), Perception 8 (+12), Stealth 4 (+8), Technology 6 (+9), Vehicles 4 (+7)",
+    "ataques": "Initiative +8, Spear +13 (Close, Damage 9, Crit. 19-20), Unarmed +14 (Close, Damage 6)",
+    "defesas": "Dodge 12, Parry 12, Fortitude 12, Toughness 10/9*, Will 10 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 72 + Powers 33 + Advantages 41 + Skills 39 + Defenses 18 = 203",
+    "complicacoes": "Power Loss: All powers except for flight (and reincarnation feature) are lost if whatever Blood Eagle uses as an equivalent of Hawkman’s Nth metal is taken from him. Temper: Blood Eagle has a vicious temperament."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "nome": "H.I.V.E. Trooper",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 7,
+  "pontos_poder_publicados": 83,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 266
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "2",
+      "AGL": "1",
+      "DEX": "2",
+      "FGT": "3",
+      "INT": "2",
+      "AWE": "1",
+      "PRE": "1"
+    },
+    "poderes": "Flight Pack (Flight 5 (60 MPH), Removable); Battle Armor (Protection 5, Removable); Stinger Rifle (Easily Removable, Ranged Damage 6 Linked Ranged Contagious Affliction 6 (resisted by Fortitude; Dazed, Disabled, Incapacitated (electrical), AE: Rifle Strike (Damage 3))",
+    "equipamento": "H.I.V.E. Communicator",
+    "vantagens": "Equipment",
+    "pericias": "Close Combat: Rifle Strike 5 (+8), Intimidation 5 (+6), Ranged Combat: Stinger Rifle 6 (+8)",
+    "ataques": "Initiative +1, Rifle Strike +8 (Close, Damage 5), Stinger Rifle +8 (Ranged, Damage 6, Affliction 6, Resisted by Fortitude; Contagious)",
+    "defesas": "Dodge 7, Parry 7, Fortitude 5, Toughness 7, Will 3",
+    "pontos_poder": "Abilities 28 + Powers 31 + Advantages 1 + Skills 8 + Defenses 15 = 83"
+  }
+}

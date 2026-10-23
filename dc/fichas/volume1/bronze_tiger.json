@@ -1,0 +1,27 @@
+{
+  "nome": "Bronze Tiger",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 186,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 87
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "4",
+      "STA": "4",
+      "AGL": "7",
+      "DEX": "7",
+      "FGT": "14",
+      "INT": "5",
+      "AWE": "6",
+      "PRE": "5"
+    },
+    "vantagens": "Agile Feint, Assessment, Chokehold, Close Attack 4, Daze (Intimidation), Defensive Attack, Defensive Roll 4, Evasion, Fast Grab, Grabbing Finesse, Improved Disarm, Improved Grab, Improved Initiative, Improved Trip, Instant Up, Move-by Action, Power Attack, Redirect, Seize Initiative, Set-up, Takedown, Trance, Tracking, Uncanny Dodge, Weapon Bind",
+    "pericias": "Acrobatics 10 (+17), Athletics 8 (+12), Deception 6 (+11), Expertise: Criminology 6 (+11), Expertise: Streetwise 4 (+9), Insight 4 (+10), Intimidation 6 (+11), Investigation 4 (+9), Perception 8 (+14), Stealth 10 (+17), Treatment 4 (+9)",
+    "ataques": "Initiative +11 Unarmed +18 Close Range, Damage 4",
+    "defesas": "Dodge 14 Fortitude 9 Parry 14 Toughness 8/4* Will 10 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 104 Skills 35 Powers 0 Defenses 16 Advantages 31 ToTal 186"
+  }
+}

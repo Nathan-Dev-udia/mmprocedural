@@ -1,0 +1,30 @@
+{
+  "nome": "Scandal Savage",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 169,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 165
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "5",
+      "AGL": "5",
+      "DEX": "5",
+      "FGT": "9",
+      "INT": "4",
+      "AWE": "2",
+      "PRE": "4"
+    },
+    "poderes": "Savage Heir (Immortality 5, Immunity 1 (Aging), Regeneration 2)",
+    "equipamento": "Laminas Pesar (Strength-based Damage 3, Improved Critical)",
+    "vantagens": "Attractive, Benefit 3 (Millionaire), Close Attack, Connected, Defensive Roll 3, Equipment, Improved Critical ( Laminas Pesar ), Languages 4, Leadership, Move-by Action, Precise Attack (Close; Concealment), Takedown, Weapon Bind, Weapon Break, Well-informed",
+    "pericias": "Acrobatics 5 (+10), Athletics 5 (+8), Close Combat: Laminas Pesar 4 (+13), Deception 6 (+10), Expertise: Business 8 (+12), Expertise: Criminal 4 (+8), Expertise: History 4 (+8), Expertise: Tactics 6 (+10), Insight 5 (+7), Intimidation 3 (+7), Investigation 3 (+7), Perception 6 (+8), Persuasion 4 (+8), Stealth 6 (+11), Technology 2 (+6), Vehicles 5 (+10)",
+    "ataques": "Initiative +5, Laminas Pesar +14 (Close, Damage 6, Crit. 18-20), Unarmed +10 (Close, Damage 3)",
+    "defesas": "Dodge 12, Parry 12, Fortitude 10, Toughness 8/5*, Will 9 *Without Defensive Roll",
+    "pontos_poder": "Abilities 74 + Powers 13 + Advantages 22 + Skills 38 + Defenses 22 = 169",
+    "complicacoes": "d addy i ssues: Scandal’s father, Vandal Savage is determined to make her do as he wishes. d epression: Since Knockout’s death, Scandal has been prone to bouts of drinking and depression."
+  }
+}

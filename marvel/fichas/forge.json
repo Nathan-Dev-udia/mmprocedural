@@ -1,0 +1,112 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Forge",
+  "nome_pt": "Forge",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 135,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 30
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 10,
+      "Int": 2,
+      "Pro": 3,
+      "Pre": 1
+    },
+    "defesas": {
+      "Esquiva": 12,
+      "Aparar": 12,
+      "Fortitude": 6,
+      "Resistencia": 8,
+      "Vontade": 6
+    },
+    "pericias": {
+      "Enganação": 8,
+      "Tecnologia": 8,
+      "Persuasão": 7,
+      "Investigação": 6,
+      "Intimidação": 8,
+      "Especialidade: Conhecimento Arcano": 11,
+      "Percepção": 8,
+      "Intuição": 8,
+      "Combate à Distância: Rifle Blaster": 10
+    },
+    "vantagens": [
+      "Accurate Attack",
+      "All-out Attack",
+      "Equipment 5",
+      "Improved Aim",
+      "Inventor",
+      "Luck 3",
+      "Power Attack",
+      "Ritualist",
+      "Ultimate Effort (Ultimate Craft Check)",
+      "Ultimate Effort (Ultimate Technology Check)"
+    ],
+    "poderes": [
+      {
+        "nome": "Enhanced Intelligence",
+        "construcao_3e": "Enhanced Trait (Intellect 26), Limited to Craft and Expertise (Technology) checks.",
+        "custo_2e_pp": 13,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Protection",
+        "construcao_3e": "Protection 3.",
+        "custo_2e_pp": 3,
+        "custo_3e_pp": 3
+      }
+    ],
+    "equipamento": [
+      "Rifle blaster com mira avançada (+8 dano; Accurate; 18 EP)",
+      "Uniforme (+3 Resistência; 3 EP)",
+      "Ferramentas de obra-prima (1 EP)",
+      "3 EP adicionais"
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "dano": 2
+      },
+      {
+        "nome": "Rifle blaster",
+        "bonus": 12,
+        "dano": 8
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 20,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 12,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 48,
+    "defesas": 19,
+    "pericias": 37.0,
+    "vantagens": null,
+    "poderes_conhecidos": 3,
+    "subtotal_conhecido": 107.0,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Dodge Focus 5 foi convertido em Esquiva e limitado para cumprir NP 10. A fonte registra Craft (Mechanical/Electrical) e Knowledge (Technology) em +30 com Enhanced Intelligence 26 limitado a essas perícias; os ranks impressos (15) foram preservados no poder, sem somar novamente o bônus aumentado. Os custos 3e desse poder dependem da divisão entre perícias e Enhanced Trait.",
+    "Defesas ajustadas para Esquiva 12 e Aparar 12, respeitando os limites de NP 10 com Resistência 8.",
+    "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias e apenas os custos de poderes confirmados; não inclui vantagens nem custos incertos."
+  ]
+}

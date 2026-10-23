@@ -1,0 +1,115 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Juggernaut",
+  "nome_pt": "Fanático",
+  "nivel_poder": 14,
+  "pontos_poder_origem": 210,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 47
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 17,
+      "Vig": 6,
+      "Agi": 0,
+      "Des": 0,
+      "Lut": 2,
+      "Int": -1,
+      "Pro": -1,
+      "Pre": -1
+    },
+    "defesas": {
+      "Esquiva": 18,
+      "Aparar": 10,
+      "Fortitude": 14,
+      "Resistencia": 6,
+      "Vontade": 0
+    },
+    "pericias": {
+      "Intimidação": 16,
+      "Percepção": 8,
+      "Intuição": 8
+    },
+    "vantagens": [
+      "All-out Attack",
+      "Close Attack 9",
+      "Move-By Action",
+      "Fearless",
+      "Power Attack",
+      "Startle"
+    ],
+    "poderes": [
+      {
+        "nome": "Enhanced Strength",
+        "construcao_3e": "Enhanced Strength 22.",
+        "custo_2e_pp": 22,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Super-Strength",
+        "construcao_3e": "Super-Strength 3 (Ground Strike).",
+        "custo_2e_pp": 7,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Growth",
+        "construcao_3e": "Growth 4 (Large; +8 Strength, +4 Constitution; Innate, Permanent).",
+        "custo_2e_pp": 9,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Immunity",
+        "construcao_3e": "Immunity 89 (todos os danos físicos e energéticos letais e não letais; Life Support).",
+        "custo_2e_pp": 89,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Helmet",
+        "construcao_3e": "Device Removable: Immunity 10 (efeitos mentais).",
+        "custo_2e_pp": 8,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Immovable",
+        "construcao_3e": "Immovable 7 (Unstoppable).",
+        "custo_2e_pp": 14,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Desarmado / corpo a corpo",
+        "bonus": 11,
+        "dano": 17
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 28,
+      "esquiva_mais_resistencia": 24,
+      "aparar_mais_resistencia": 16,
+      "fortitude_mais_vontade": 14,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 44,
+    "defesas": 42,
+    "pericias": 16,
+    "vantagens": 14,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 116,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Attack Focus (Melee) 9 convertido em Close Attack 9. Fast Overrun substituído por Move-by Action. Improved Overrun não tem equivalente e foi omitida.",
+    "A fonte tem base STR +17 e Enhanced Strength 22, além de Growth; dano desarmado +17 impresso foi mantido. Seu ataque +11 e dano 17 atingem o limite de NP 14.",
+    "Dodge Focus 8 foi convertido em Dodge ranks: Dodge 18, Parry 10; ambos respeitam NP 14."
+  ]
+}

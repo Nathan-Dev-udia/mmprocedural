@@ -1,0 +1,27 @@
+{
+  "nome": "Stargirl",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 198
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "8",
+      "STA": "8",
+      "AGL": "8",
+      "DEX": "4",
+      "FGT": "4",
+      "INT": "2",
+      "AWE": "4",
+      "PRE": "2"
+    },
+    "poderes": "Cosmic Converter Belt: Removable (-15 points) • 62 points e nhanced a bilities: Enhanced Agility 4; Enhanced Stamina 5; Enhanced Strength 6 • 32 points S hooting Star: Ranged Affliction 10 (Resisted by Fortitude; Dazed, Stunned, Incapacitated) Linked to Nullify Electronics 10, Simultaneous; Accurate 3 • 39 points f or ce f ield: Sustained Protection 4 • 4 points Cosmic r od: Easily Removable (-16 points) • 24 points f ligh t: Flight 8 (500 MPH) • 16 points S tar Blast: Ranged Damage 12 • 24 points",
+    "vantagens": "Agile Feint, Defensive Attack, Improved Trip, Instant Up, Power Attack",
+    "pericias": "Acrobatics 4 (+12), Athletics 8 (+12), Close Combat: Unarmed 6 (+10), Insight 4 (+8), Perception 4 (+8), Ranged Combat: Star Blast 6 (+10)",
+    "ataques": "i nitia tive +8 Solar Blast +10 Ranged, Damage 12 Unarmed +10 Close, Damage 8",
+    "defesas": "d odge 10 f or titude 8 Parry 8 t oughness 12/8* W ill 8 *Without Force Field. pable of unleashing deadly force. Stargirl is fearless and will- ingly takes on opponents that are clearly stronger than she. p ower S and a b ILI t I e S Stargirl has no native powers other than trained skill in the martial arts. Her Cosmic Converter Belt offers her protection and the ability to disrupt electronics and nervous systems; her Cosmic Rod enables her to fly and can emit potent blasts of energy."
+  }
+}

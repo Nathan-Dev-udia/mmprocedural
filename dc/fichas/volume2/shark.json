@@ -1,0 +1,28 @@
+{
+  "nome": "Shark",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": 218,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 177
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "10",
+      "STA": "6",
+      "AGL": "5",
+      "DEX": "4",
+      "FGT": "7",
+      "INT": "6",
+      "AWE": "6",
+      "PRE": "1"
+    },
+    "poderes": "a Immunity 3 (Cold, High Pressure, Drowning); qua tic: Movement 1 (Environmental Adaptation: Aquatic); Protection 8; Senses 2 (Low-Light Vision, Acute Olfactory); Swimming 10 (500 MPH) • 25 points Claws and t eeth: Strength-based Damage 2 • 2 points d evour Minds: Perception Range Weaken Awareness 12 (Resisted by Will) • 36 points i nstill f ear : Perception Range Affliction 12 (Resisted by Will; Dazed, Compelled, Controlled), Limited to Fear • 24 points",
+    "vantagens": "All-out Attack, Close Attack 5, Evasion, Favored Environment (Aquatic), Improved Critical 2 (Claws and Teeth), Move-by Action, Power Attack",
+    "pericias": "Athletics 6 (+16), Intimidation 12 (+13), Perception 4 (+10) ffen S e o i nitia tive +5 Claws and Teeth +12 Close, Damage 12, Crit. 18-20 Devour Minds — Perception Range, Weaken Awareness 12, Resisted by Will (DC 22) Instill Fear — Perception Range, Affliction 12, Resisted by Will (DC 22)",
+    "defesas": "d odge 8 f or titude 12 Parry 10 t oughness 14 W ill 12",
+    "pontos_poder": "a bilities 90 S kills 11 Powers 87 d efenses 18 a dv antages 12 t otal 218",
+    "complicacoes": "Unstable: Shark is an unstable genetic mutation. He is often transformed back to an ordinary tiger shark, and each time he is re-mutated his mind and powers change. man strength. His exposure to radioactive waste makes his genetic structure unstable; at times he has displayed vast mental powers and the ability to instill fear in others and devour their minds. aLLI e S Shark was a member of the Weaponers of Qward and the Se- cret Society of Super-Villains."
+  }
+}

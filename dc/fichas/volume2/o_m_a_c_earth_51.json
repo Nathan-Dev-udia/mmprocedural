@@ -1,0 +1,29 @@
+{
+  "nome": "O.M.A.C. (Earth-51)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": 168,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 88
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "10",
+      "STA": "9",
+      "AGL": "6",
+      "DEX": "3",
+      "FGT": "9",
+      "INT": "1",
+      "AWE": "1",
+      "PRE": "2"
+    },
+    "poderes": "e y e in the Sky (Senses 1 (Communication Link to Brother Eye)); Unstoppable (Protection 6, Impervious); Lightning r eflexes (Quickness 4 (Physical tasks only)); Healed by the e y e (Healing 5, Persistent, Quirk—Requires contact with Brother Eye)",
+    "vantagens": "All-out Attack, Diehard, Evasion, Extraordinary Effort, Fast Grab, Great Endurance, Improved Grab, Improved Hold, Improved Initiative, Improved Smash, Improvised Weapon, Instant Up, Interpose, Move-by Action, Power Attack, Takedown, Ultimate Effort (Athletics)",
+    "pericias": "Acrobatics 12 (+18), Athletics 12 (+22), Close Combat: Unarmed 5 (+14), Perception 8 (+9), Ranged Combat: Guns 10 (+13), Technology 7 (+8)",
+    "ataques": "Initiative +10, Unarmed +14 (Close, Damage 10)",
+    "defesas": "Dodge 9, Parry 9, Fortitude 18, Toughness 15, Will 6",
+    "pontos_poder": "Abilities 82 + Powers 25 + Advantages 17 + Skills 27 + Defenses 17 = 168",
+    "complicacoes": "d oing Good: O.M.A.C. fights for what is right. Serve the e y e: O.M.A.C. is connected to Brother Eye and is sent on missions by it."
+  }
+}

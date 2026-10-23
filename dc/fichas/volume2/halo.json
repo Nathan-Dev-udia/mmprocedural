@@ -1,0 +1,29 @@
+{
+  "nome": "Halo",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 150,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 96
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "0",
+      "STA": "2",
+      "AGL": "5",
+      "DEX": "4",
+      "FGT": "2",
+      "INT": "1",
+      "AWE": "4",
+      "PRE": "3"
+    },
+    "poderes": "a ur akle Merge Immortality 10 (Requires a recently dead body); f ligh t 8 (500 MPH); Protective a ur a Sustained Protection 5; Quick Change Feature 1; r ainb ow Hues a rr ay*: r ed (Heat Beam) Ranged Damage 10, ae : o r ange ( f or ce Beam) Ranged Damage 10, ae : y ello w (Brilliant Light) Ranged Affliction 10 (Visual; Resisted by Dodge; Cumulative), ae : Green (Stasis Beam) Ranged Affliction 10 (Resisted by Fortitude; Hindered, Immobile, Paralyzed), ae : Blue ( d ist ortion) Concealment 5 (All Visual and Auditory), ae : Blue ( d ist ortion) Illusion 6 (Visual and Auditory), ae : i ndigo ( t r actor Beam) Perception Range Move Object 10 , Limited— Toward and Away Only) *Halo can counter other effects with an appropriate hue.",
+    "vantagens": "Agile Feint, Defensive Roll 3, Evasion 2, Increased Initiative",
+    "pericias": "Acrobatics 8 (+13), Insight 8 (+12), Perception 6 (+10), Persuasion 8 (+13), Ranged Combat: Rainbow hues 6 (+10)",
+    "ataques": "Initiative +9, Unarmed +2 (Close, Damage 0), Rainbow Hues +10 (Ranged, Damage 10 plus others)",
+    "defesas": "Dodge 10, Parry 6, Fortitude 8, Toughness 10/7*, Will 8 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 42 + Powers 68 + Advantages 7 + Skills 14 + Defenses 19 = 150",
+    "complicacoes": "Color n ega tion: Anything that would negate a particular hue will also prevent Halo from using the power associated with it. Violet Hue : The current Halo can be dominated by the personality of Violent Harper. When this happens, Halo is evil and is controlled by the Gamemaster."
+  }
+}

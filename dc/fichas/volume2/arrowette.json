@@ -1,0 +1,29 @@
+{
+  "nome": "Arrowette",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 102,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 277
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "3",
+      "AGL": "4",
+      "DEX": "4",
+      "FGT": "8",
+      "INT": "1",
+      "AWE": "1",
+      "PRE": "1"
+    },
+    "equipamento": "Bow and a rr ows (Array (10 points), Standard a rr ow (Ranged Damage 5), ae : Cable a rr ow (Movement 1 (Swinging)), ae : f lar e a rr ow (Ranged Affliction 5 (Resisted by Fortitude; Vision Impaired, Vision Disabled, Vision Unaware)) , ae : k nockout Gas a rr ow (Burst Area Ranged Affliction 3 (Resisted by Fortitude; Fatigued, Exhausted, Asleep)), ae : n et a rr ow (Ranged Affliction 5 (Resisted by Dodge; Hindered and Vulnerable, Defenseless and Immobilized)), ae : Stun a rr ow (Ranged Affliction 5 (Resisted by Fortitude; Dazed, Stunned, Incapacitated)))",
+    "vantagens": "Accurate Attack, All-out Attack, Benefit (Well-off ), Defensive Roll 2, Equipment 3, Improved Aim, Improved Critical (Bow), Improved Disarm, Improved Initiative, Move-by Action, Precise Attack 2 (Ranged; Cover and Concealment), Ranged Attack 3, Quick Draw",
+    "pericias": "Acrobatics 4 (+8), Athletics 6 (+7), Close Combat: Unarmed 2 (+10), Deception 6 (+7), Insight 4 (+5), Investigation 4 (+5), Perception 4 (+5), Ranged Combat: Bow 5 (+13), Stealth 5 (+9)",
+    "ataques": "Initiative +8, Bow +13 (Ranged, Damage 5 or varies, Crit. 19-20), Unarmed +6 (Close, Damage 1)",
+    "defesas": "Dodge 11, Parry 9, Fortitude 6, Toughness 5/3*, Will 7 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 46 + Powers 0 + Advantages 19 + Skills 20+ Defenses 17 = 102",
+    "complicacoes": "r elationship: Cissie has a difficult relationship with her mother, an overbearing stage-mom who was the first Arrowette."
+  }
+}

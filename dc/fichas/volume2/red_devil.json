@@ -1,0 +1,28 @@
+{
+  "nome": "Red Devil",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 134
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "7",
+      "STA": "7",
+      "AGL": "8",
+      "DEX": "1",
+      "FGT": "9",
+      "INT": "3",
+      "AWE": "1",
+      "PRE": "3"
+    },
+    "poderes": "d emonic f orm: Enhanced Agility 6; Enhanced Fighting 4; Enhanced Presence 2; Enhanced Stamina 6; Enhanced Strength 6; Extra Limbs 1 (Tail); Flight 3 (Gliding, Wings); Immunity 1 (Heat); Regeneration 3 • 55 points f ir e Breath: Damage 9, Inaccurate 2, Reach 2 (10 feet) • 9 points f ir e “Portal”: Teleport 16 (250 miles) • 32 points r ed-Hot Skin: Reaction Damage 3 • 12 points",
+    "vantagens": "Close Attack 4, Evasion, Great Endurance, Improved Grab , Improved Initiative, Inventor",
+    "pericias": "Acrobatics 4 (+12), Athletics 4 (+11), Expertise: Superheroes (especially Blue Devil) 8 (+11), Insight 4 (+5), Perception 4 (+5), Persuasion 4 (+7), Technology 8 (+11)",
+    "ataques": "i nitia tive +12 Unarmed +13 Close, Damage 7 Fire Breath +9 Close, Damage 9, Reach 10 feet",
+    "defesas": "d odge 12 f or titude 9 Parry 10 t oughness 7 W ill 6 Po er Point W S a bilities 30 S kills 18 Powers 108 d efenses 12 a dv antages 8 ToTal 175",
+    "complicacoes": "and can’t pp earance: change back to a normal appearance. i nf ernal o v erlap: Despite the fact that he is a metahuman and not born of infernal origins, Red Devil suffers many of the same weaknesses as actual demons. He can be damaged simply by proximity to holy ground and religious artifacts. i nsecurities: Eddie suffers from raging insecurities regarding his value as a hero (and a person) that stem from abandonment issues with Blue Devil and Eddie’s Aunt Marla. attitude, Eddie is highly intelligent and technically gifted, par- ticularly in electronics and engineering. aLLI e S His allies include Blue Devil, Zachary Zatara, The Doom Patrol and the rest of the Titans."
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Sasquatch (Heather Hudson)",
+  "nome_pt": "Sasquatch (Heather Hudson)",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 150,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 82
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 12,
+      "Vig": 12,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 8,
+      "Int": 2,
+      "Pro": 1,
+      "Pre": 3
+    },
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 8,
+      "Fortitude": 12,
+      "Resistencia": 12,
+      "Vontade": 5
+    },
+    "pericias": {
+      "Enganação": 8,
+      "Atletismo": 2,
+      "Especialidade: Mechanical": 12,
+      "Intimidação": 12,
+      "Especialidade: Arcane Lore": 8,
+      "Especialidade: Tactics": 12,
+      "Especialidade: Technology": 8,
+      "Percepção": 8,
+      "Intuição": 7,
+      "Especialidade: Sobrevivência": 7
+    },
+    "vantagens": [
+      "All-out Attack",
+      "Chokehold",
+      "Connected",
+      "Improved Critical (Unarmed) 3",
+      "Fast Grab",
+      "Improved Initiative",
+      "Improved Hold",
+      "Power Attack",
+      "Startle",
+      "Teamwork 2",
+      "Languages 1"
+    ],
+    "poderes": [
+      {
+        "nome": "Enhanced Strength 12",
+        "construcao_3e": "Enhanced Trait: Strength 12.",
+        "custo_2e_pp": 12,
+        "custo_3e_pp": 24
+      },
+      {
+        "nome": "Enhanced Dexterity 4",
+        "construcao_3e": "Enhanced Trait: Dexterity 4.",
+        "custo_2e_pp": 4,
+        "custo_3e_pp": 8
+      },
+      {
+        "nome": "Enhanced Constitution 18",
+        "construcao_3e": "Enhanced Trait: Stamina 18.",
+        "custo_2e_pp": 18,
+        "custo_3e_pp": 36
+      },
+      {
+        "nome": "Growth 6",
+        "construcao_3e": "Continuous, Permanent, Innate; source specifies +12 Strength and +6 Constitution.",
+        "custo_2e_pp": 19,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Leaping 3",
+        "construcao_3e": "Leaping 3.",
+        "custo_2e_pp": 3,
+        "custo_3e_pp": 3
+      },
+      {
+        "nome": "Super-Strength 5",
+        "construcao_3e": "Power-Lifting 5.",
+        "custo_2e_pp": 10,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [],
+    "complicacoes": [
+      "Identidade normal: Heather Hudson (4 PP na fonte)."
+    ],
+    "ataques": [
+      {
+        "nome": "Unarmed",
+        "bonus": 8,
+        "dano": 12
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 20,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 17,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 88,
+    "defesas": 45,
+    "pericias": 42.0,
+    "vantagens": 14,
+    "poderes_conhecidos": 71,
+    "subtotal_conhecido": 260.0,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Nenhuma outra vantagem foi removida; este perfil não lista Dodge Focus.",
+    "A fonte imprime STR/DEX/CON/INT/WIS/CHA +12/+3/+12/+2/+1/+3; Toughness +12, Fortitude +12, Reflex +6, Will +4; Attack +3 (+8 Melee); Defense 18; Initiative +7.",
+    "O drawback Normal Identity foi convertido em complicação preservando a identidade Heather Hudson. Defesa 18 + Resistência 12 excede PL 10; Esquiva/Aparar reduzidas a 8.",
+    "Fonte lista bônus de dano desarmado +12 e ataque corpo a corpo +8; juntos respeitam Ataque + efeito 20.",
+    "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +12/+3/+12/+2/+1/+3. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
+    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
+  ]
+}

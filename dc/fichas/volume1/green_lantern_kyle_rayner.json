@@ -1,0 +1,29 @@
+{
+  "nome": "Green Lantern (Kyle Rayner)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 14,
+  "pontos_poder_publicados": 214,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 241
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "1",
+      "AGL": "2",
+      "DEX": "4",
+      "FGT": "4",
+      "INT": "2",
+      "AWE": "3",
+      "PRE": "3"
+    },
+    "poderes": "of flight and of survival in the vacuum of space.",
+    "vantagens": "Benefit 1 (Honor Guard), Teamwork, Ultimate Effort (Will)",
+    "pericias": "Athletics 4 (+6), Close Combat: Unarmed 3 (+7), Deception 3 (+6), Expertise: Art 9 (+11), Insight 8 (+11), Investigation 4 (+6), Perception 5 (+8), Persuasion 4 (+7), Ranged Combat: Power Ring 6 (+10), Technology 2 (+4)",
+    "ataques": "Initiative +2 Power Ring +10 Ranged, Damage 18 Unarmed +7 Close, Damage 2",
+    "defesas": "Dodge 12 Fortitude 10 Parry 9 Toughness 13/1* Will 18 *Without Power Ring Protection.",
+    "pontos_poder": "Abilities 42 Skills 24 Powers 106 Defenses 39 Advantages 3 ToTal 214",
+    "complicacoes": "Fear Given Form: Several times during his career, Rayner’s own fears and darker impulses have taken on physical and deadly form. Power Loss: The power ring needs periodic recharging and issues a warning as its power runs low. Weakness: Green Lantern power rings depend on the willpower of the wearer; the maximum rank of the ring’s effects is equal to the wearer’s Will rank, and moments of self-doubt or hesitation can cause the ring to fail."
+  }
+}

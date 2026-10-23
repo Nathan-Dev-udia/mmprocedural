@@ -1,0 +1,105 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Iron Fist",
+  "nome_pt": "Punho de Ferro",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 150,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 43
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 4,
+      "Vig": 4,
+      "Agi": 4,
+      "Des": 4,
+      "Lut": 14,
+      "Int": 0,
+      "Pro": 5,
+      "Pre": 0
+    },
+    "defesas": {
+      "Esquiva": 15,
+      "Aparar": 15,
+      "Fortitude": 9,
+      "Resistencia": 5,
+      "Vontade": 11
+    },
+    "pericias": {
+      "Acrobacia": 12,
+      "Enganação": 8,
+      "Prestidigitação": 10,
+      "Intimidação": 12,
+      "Especialidade: Conhecimento Arcano": 8,
+      "Percepção": 12,
+      "Intuição": 12,
+      "Furtividade": 12
+    },
+    "vantagens": [
+      "Accurate Attack",
+      "Agile Feint",
+      "Defensive Attack",
+      "Defensive Roll",
+      "Improved Defense",
+      "Improved Critical: Iron Fist 3",
+      "Improved Disarm",
+      "Fast Grab",
+      "Improved Initiative 2",
+      "Improved Hold",
+      "Improved Trip",
+      "Luck",
+      "Power Attack",
+      "Takedown",
+      "Uncanny Dodge"
+    ],
+    "poderes": [
+      {
+        "nome": "Strike / Boost / Super-Senses / Healing / Telepathy",
+        "construcao_3e": "Strike 2 (Penetrating 6, Side Effect: Fatigued, Mighty); Alternate Effects: Boost Strength 4, Boost Dexterity, Senses, Healing (1-minute action), Telepathy 6 (Close). 10 PP na fonte.",
+        "custo_2e_pp": 10,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Punho de Ferro",
+        "bonus": 14,
+        "dano": 6
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 14,
+        "dano": 4
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 20,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 20,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 70,
+    "defesas": 50,
+    "pericias": 43,
+    "vantagens": 18,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 181,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Acrobatic Bluff virou Agile Feint; Improved Grapple virou Fast Grab; Improved Pin virou Improved Hold; Takedown Attack virou Takedown. Stunning Attack não tem equivalente direto e foi omitida. Concentration 12 (+17) não tem perícia 3e independente.",
+    "Dodge Focus 8 foi convertido em Dodge ranks; Dodge 15 + Toughness 5 respeita NP 10.",
+    "O poder Strike da fonte é rank 2, mas os danos impressos dos ataques são preservados como bônus de dano; a construção e seus custos em 3e permanecem pendentes.",
+    "Dodge foi ajustada de 23 para 15 para cumprir Dodge + Toughness ≤ 20 (NP 10)."
+  ]
+}

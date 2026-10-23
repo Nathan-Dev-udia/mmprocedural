@@ -1,0 +1,29 @@
+{
+  "nome": "Did Not Last. Miya Gave Tsunami",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 154,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 275
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "8",
+      "STA": "8",
+      "AGL": "4",
+      "DEX": "3",
+      "FGT": "4",
+      "INT": "2",
+      "AWE": "2",
+      "PRE": "1"
+    },
+    "poderes": "aquatic (Immunity 4 (Aging, Cold, Drowning, High assists Aquaman when emergencies arise.Pressure), Movement 1 (Environmental Adaptation– Aquatic), (+12), Close Combat: Swimming 9 (250 MPH)); Water Control (Perception Range igation 4 (+6), Damaging Shapeable Area Move Object 10 (Limited to Water)) ssbow Pistol 7",
+    "vantagens": "Favored Environment (Aquatic), Languages 1 9 (+13), Technology 4 (Japanese)",
+    "pericias": "Close Combat: Unarmed 8 (+12), Sleight of Hand 5 (+8), +11 (Ranged, Damage Stealth 5 (+9) mage 4)",
+    "ataques": "Initiative +4, Water Control (Damage 10), Unarmed Toughness 8/5*, Will 8 +12 (Damage 8)",
+    "defesas": "Dodge 10, Parry 12, Fortitude 12, Toughness 8, Will 8 tages 19 + Skills 37 +",
+    "pontos_poder": "Abilities 64 + Powers 55 + Advantages 2 + Skills 9 + Defenses 24 = 154",
+    "complicacoes": "doing Good: Miya is not afraid to do what’s super- right, even if it means standing alone. identity: Miya kept her tionship: After true identity secret during WWII. Prejudice: As a Japanese- aster) American during WWII, Miya faced that era’s prejudices. d relationship: Miya was married to Neptune Perkins, and has nemy a metahuman daughter, Debbie (Deep Blue). Heroes & VHeroes & VIIllallaIIns, Vol. 2ns, Vol. 2"
+  }
+}

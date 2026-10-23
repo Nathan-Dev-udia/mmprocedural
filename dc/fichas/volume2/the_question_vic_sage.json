@@ -1,0 +1,28 @@
+{
+  "nome": "The Question (Vic Sage)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 123
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "4",
+      "AGL": "5",
+      "DEX": "3",
+      "FGT": "10",
+      "INT": "3",
+      "AWE": "5",
+      "PRE": "3"
+    },
+    "vantagens": "Accurate Attack, Agile Feint, All-out Attack, Assessment, Close Attack 2, Contacts, Daze (Intimidation), Defensive Attack, Defensive Roll 2, Diehard, Evasion, Improved Critical (Unarmed), Improved Defense, Improved Disarm, Improved Initiative, Improved Trip, Improvised Weapon, Instant Up, Power Attack, Precise Attack (Close; Concealment), Redirect, Skill Mastery (Insight), Takedown, Taunt, Trance, Weapon Bind, Well-informed",
+    "pericias": "Acrobatics 8 (+13), Athletics 8 (+11), Close Combat: Unarmed 5 (+15), Deception 8 (+11), Expertise: Journalism 7 (+10), Expertise: Philosophy 9 (+12), Expertise: Streetwise 9 (+12), Insight 11 (+16), Intimidation 9 (+12), Investigation 9 (+12), Perception 10 (+15), Persuasion 4 (+7), Sleight of Hand 3 (+6), Stealth 6 (+11), Treatment 3 (+6), Vehicles 5 (+8)",
+    "ataques": "i nitia tive +9 Unarmed +17 Close, Damage 3, Crit. 19-20",
+    "defesas": "d odge 13 f or titude 9 Parry 14 t oughness 6/4* W ill 11 *Without Defensive Roll. Po er Point W S a bilities 72 S kills 57",
+    "poderes": "0 d efenses 23 a dv ToTal 181 antages 29",
+    "complicacoes": "i den tity: Becoming: Most of the Question’s life has been a search for truth and meaning. He often gets himself into dangerous situations out of a desire to discover the truth behind a mystery, someone’s true nature, or even something about himself."
+  }
+}

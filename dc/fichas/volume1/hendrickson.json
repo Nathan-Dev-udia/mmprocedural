@@ -1,0 +1,29 @@
+{
+  "nome": "Hendrickson",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 8,
+  "pontos_poder_publicados": 126,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 69
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "4",
+      "STA": "4",
+      "AGL": "3",
+      "DEX": "3",
+      "FGT": "5",
+      "INT": "4",
+      "AWE": "4",
+      "PRE": "1"
+    },
+    "equipamento": "Grumman XF5F-1 “Skyrocket, ” Heavy Pistol; choose 2 EP’s of additional gear",
+    "vantagens": "All-out Attack, Defensive Attack, Defensive Roll 2, Equipment 16, Fearless, Improved Defense, Languages, Power Attack, Ranged Attack 6, Takedown Attack, Teamwork",
+    "pericias": "Athletics 5 (+9), Close Combat: Unarmed 3 (+8), Insight 7 (+11), Perception 6 (+10), Ranged Combat: Heavy Weapons 5 (+8), Vehicles 8 (+11)",
+    "ataques": "Initiative +3, Heavy Pistol +9 (Damage 4), Unarmed +8 (Damage 4)",
+    "defesas": "Dodge 9, Parry 10, Fortitude 7, Toughness 6/4, Will 11",
+    "pontos_poder": "Abilities 56 + Powers 0 + Advantages 32 + Skills 17 + Defenses 21 = 126",
+    "complicacoes": "Responsibility: Hendrickson regards fighting for human freedom as the highest duty. Enemy: See the Blackhawk Squadron’s group Enemies list."
+  }
+}

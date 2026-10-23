@@ -1,0 +1,28 @@
+{
+  "nome": "Toyman Robot",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 132,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 240
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "12",
+      "STA": "—",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "6",
+      "INT": "—",
+      "AWE": "2",
+      "PRE": "—"
+    },
+    "poderes": "a r tificial (Immunity 30 (Fortitude Effects)), r einforced Chassis (Protection 13, Impervious 10 ranks), f ligh t 2, Mouth Cannon (Ranged Damage 11, Multiattack), Likeness (Morph 1)",
+    "vantagens": "Fast Grab, Improved Grab, Improved Hold, Move-by Action",
+    "pericias": "Deception 6 (+6), Ranged Combat: Mouth Cannon 8 (+11)",
+    "ataques": "Initiative +2, Unarmed +7 (Damage 12), Mouth Cannon +11 (Damage 11)",
+    "defesas": "Dodge +8, Parry +8, Fortitude Immune, Toughness +14, Will Immune",
+    "pontos_poder": "Abilities 20 + Powers 95 + Advantages 4 + Skills 7 + Defenses 6 = 132"
+  }
+}

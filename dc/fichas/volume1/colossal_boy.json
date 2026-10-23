@@ -1,0 +1,30 @@
+{
+  "nome": "Colossal Boy",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 112,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 125
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "14/2",
+      "STA": "14/2",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "4",
+      "INT": "1",
+      "AWE": "3",
+      "PRE": "2"
+    },
+    "poderes": "Colossal Size: Growth 12 Linked to Enhanced Advantage 7 (Daze (Intimidation), Fast Grab, Improved Grab, Interpose, Startle, Takedown 2) • 31 points Colossal Endurance: Protection 2 Linked 1 Rank of Protection to each 6 ranks of Growth • 1 point",
+    "equipamento": "Flight Ring: Communication 5 (subspace radio, Anywhere, Limited to Distress Signal (-3)); Flight 7 (250 MPH); Removable (-3 points) • 16 points Telepathic Plug: Comprehend 3 (Languages), Mental Communication 1 (Close Range), Removable (-1 point) • 7 points Transsuit: Immunity 9 (Life Support, except for starvation and thirst), Removable (–2 point) • 7 points",
+    "vantagens": "Accurate Attack, Benefit 1 (Legion membership), Daze (Intimidation), Equipment 6, Fast Grab, Improved Grab, Interpose, Startle, Takedown 2 ble of changing his size quickly and with little or no disorien - tation, making it possible for him to employ this size-change as a combat tactic.",
+    "pericias": "Athletics 5 (19/+7*), Close Combat: Unarmed 2 (+6), Deception 2 (+4), Expertise: Law Enforcement 5 (+6), Insight 6 (+9), Intimidation 0 (+8/+2*), Investigation 5 (+6), Perception 5 (+8), Persuasion 3 (+7), Technology 5 (+6)",
+    "ataques": "Initiative +2 Grown Unarmed +6 Close, Damage 14 Unarmed +6 Close, Damage 2*",
+    "defesas": "Dodge 4/10* Fortitude 14/2* Parry 4/10* Toughness 16/2* Will 6 *Without Growth.",
+    "pontos_poder": "Abilities 36 Skills 19 Powers 32 Defenses 17 Advantages 8 ToTal 112",
+    "complicacoes": "Loyalty: Colossal Boy is protective of those he loves, be they family or teammates, and this loyalty can be used against him."
+  }
+}

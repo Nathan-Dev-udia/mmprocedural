@@ -1,0 +1,29 @@
+{
+  "nome": "Huntress",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 172,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 272
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "3",
+      "AGL": "6",
+      "DEX": "5",
+      "FGT": "9",
+      "INT": "3",
+      "AWE": "4",
+      "PRE": "4"
+    },
+    "equipamento": "Crossbow: Ranged Damage 3, Improved Critical • 7 points Knife: Strength-based Damage 1, Improved Critical • 2 points Staff: Strength-based Damage 1, Reach 1 • 2 points Twin Pistols: Ranged Damage 4 • 16 points VEHICLE: MOTORCYCLE • 11 POINTS Medium, Str 1, Spd 6, Def 10, Tou 8; Navigation System",
+    "vantagens": "All-out Attack, Close Attack 4, Defensive Attack, Defensive Roll 2, Equipment 8, Grabbing Finesse, Hide in Plain Sight, Improved Aim, Improved Critical (Unarmed), Improved Initiative, Improved Trip, Improvised Weapon, Instant Up, Languages 1, Precise Attack 2 (Ranged; Cover & Concealment), Quick Draw, Ranged Attack 4",
+    "pericias": "Acrobatics 8 (+14), Athletics 9 (+12), Close Combat: Unarmed 2 (+11), Close Combat: Knives 1 (+10), Close Combat: Staff 1 (+10), Deception 5 (+9), Expertise: Teaching 5 (+8), Insight 5 (+9), Intimidation 6 (+10), Investigation 7 (+10), Perception 6 (+10), Persuasion 4 (+8), Ranged Combat: Crossbow 6 (+11), Ranged Combat: Pistols 5 (+10), Sleight of Hand 5 (+10), Stealth 12 (+18), Vehicles 5 (+10)",
+    "ataques": "Initiative +10 Staff +14 Close, Damage 4, Reach 1 Unarmed +15 Close, Damage 3, Crit. 19-20 Knife +14 Close, Damage 4, Crit. 19-20 Pistols +14 Ranged, Damage 4 Crossbow +15 Ranged, Damage 3, Crit. 19-20",
+    "defesas": "Dodge 13 Fortitude 8 Parry 13 Toughness 5/3* Will 8",
+    "pontos_poder": "Abilities 74 Skills 46 Powers 0 Defenses 20 Advantages 32 ToTal 172",
+    "complicacoes": "Vengeance: “Blood calls out for blood” has been the Huntress’ mantra since the beginning of her career, and this attitude has cost her much, including her membership in the Justice League. Relationships: Huntress is close friends with Oracle and Black Canary, and Helena Bertinelli is a dedicated teacher. She has found, however, that her nocturnal double-life as Huntress makes keeping a teaching job difficult."
+  }
+}

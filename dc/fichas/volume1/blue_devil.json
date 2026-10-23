@@ -1,0 +1,29 @@
+{
+  "nome": "Blue Devil",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 165,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 78
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "11",
+      "STA": "10",
+      "AGL": "3",
+      "DEX": "3",
+      "FGT": "7",
+      "INT": "2",
+      "AWE": "2",
+      "PRE": "3"
+    },
+    "poderes": "Devilish Immunities: Immunity 3 (Aging, Drowning, and Heat) • 3 points Devilish Resilience: Protection 3 • 3 points Regeneration: Regeneration 5 • 5 points Super Leap: Leaping 3 • 3 points Super Senses: Senses 4 (Darkvision, Extended Vision, Extended Hearing) • 4 points Super-Strength: Enhanced Strength 4, Limited to Lifting (lifting Str 15; 800 tons) • 4 points Trident of Lucifer: Array (5 points), Easily Removable (–1 point), Indestructible • Locate Demons: Senses 5 (Accurate, Ranged Detect Demons, Extended) • 5 points • Trident Thrust: Strength-based Damage 2, Penetrating 3 • 1 point • Banish Demon: Movement 1 (Dimension Travel (Hell)), 1 Extra Rank, Attack (Resisted by Will (DC 12)), Ranged, Limited to banishing demons • 1 point",
+    "vantagens": "All-out Attack, Diehard, Fearless, Great Endurance, Inventor, Improved Defense, Improved Initiative, Power Attack, Ritualist, Takedown",
+    "pericias": "Acrobatics 8 (+11), Athletics 1 (+12), Close Combat: Unarmed 2 (+9), Deception 6 (+9), Expertise: Acting 5 (+7), Expertise: Magic 6 (+8), Expertise: Special Effects 6 (+8), Insight 2 (+4), Intimidation 11 (+13), Perception 6 (+8), Persuasion 2 (+5), Stealth 5 (+8), Technology 6 (+8)",
+    "ataques": "Initiative +7 Lucifer’s Trident +7 Close, Damage 13, Penetrating 3 Unarmed +9 Close, Damage 11",
+    "defesas": "Dodge 7 Fortitude 12 Parry 7 Toughness 13 Will 8",
+    "pontos_poder": "Abilities 82 Skills 33 Powers 28 Defenses 12 Advantages 10 ToTal 165",
+    "complicacoes": "Enemy: Neron Motivation: Fame & Thrills Prejudice: When meeting people who don’t know him, Blue Devil’s demonic appearance can get him into trouble and make it difficult to appear as one of the “good guys. ” Vulnerability: Blue Devil cannot set foot on consecrated ground without bursting into flame, and contact with holy water burns his flesh (treat either as an ongoing Damage 10 effect for each round contact is maintained). Weakness: Holy weapons ignore Blue Devil’s ranks in Protection. Note: This stat block represents the current supernatural version of Blue Devil. See the “Blue Devil (Original Version)” stat block for the older human-fused-to-a-devil-costume version."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "nome": "Roulette",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 190,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 149
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "1",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "6",
+      "INT": "4",
+      "AWE": "5",
+      "PRE": "5"
+    },
+    "poderes": "Memories of d estiny Senses 4 (Precognition), Distracting, Unc ontrolled • 2 points Stolen Gear: Array (27 points), Easily Removable (–10 points) • Gorgon’s Head: Cumulative Perception Area Affliction 9 (Resisted by Fortitude; Dazed, Immobile; Transformed (Stone)) • 27 points • f ir ebug’s Gauntlets: Cone Area Damage 9 (Fire) • 1 point • Harpi’s Claws: Strength-based Damage 2, Penetrating 2 • 1 point • r am ’s i n terface: Comprehend Machines • 1 point i PM ent eQU H q : tH e House • 23 POI n TS Size: Large t ou: 14 f ea tures: Combat Simulator, Communications, Computer, Concealed 3 (DC 30),",
+    "defesas": "d odge 12 f or titude 6 Parry 10 t oughness 6/1* W ill 12 *Without Defensive Roll.",
+    "vantagens": "Assessment, Attractive, Beginner’s Luck, Benefit 2 (Cipher), Benefit 4 (Multi-millionaire), Close Attack 7, Connected, Daze (Deception), Defensive Roll 5, Equipment 5, Evasion, Inspire 3, Languages 2, Leadership, Luck 3, Minion 9, Redirect, Set-up, Well-informed",
+    "pericias": "Deception 10 (+15), Expertise: Streetwise 9 (+13), Insight 8 (+13), Intimidation 5 (+10), Perception 7 (+12), Persuasion 11 (+16), Sleight of Hand 9 (+11), Stealth 11 (+13), Technology 10 (+14) ffen S e o i nitia tive +2 Firebug’s Gauntlets — Close, Cone Area Damage 9 Gorgon’s Head — Ranged, Cumulative Perception Area Affliction 9 (Dodge DC 19) Harpi’s Claws +13 Close, Damage 3, Penetrating 2 Unarmed +13 Close, Damage 1",
+    "pontos_poder": "a bilities 52 S kills 40 Powers 22 d efenses 26 a dv antages 50 ToTal 190"
+  }
+}

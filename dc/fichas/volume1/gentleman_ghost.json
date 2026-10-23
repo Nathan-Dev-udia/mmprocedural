@@ -1,0 +1,29 @@
+{
+  "nome": "Gentleman Ghost",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 194,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 226
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "-1",
+      "STA": "6",
+      "AGL": "2",
+      "DEX": "3",
+      "FGT": "2",
+      "INT": "2",
+      "AWE": "2",
+      "PRE": "6"
+    },
+    "poderes": "Cursed Spirit: Concealment 10 (Total); Immunity 12 (Aging, Life Support, Sleep), Immortality 2 • 36 points Spectral Flintlocks: Ranged Damage 9 • 18 points Spirit Walk: Array (15 points) • Ghost: Insubstantial 3: Energy (Spectral Energy); Limited: Attacks by characters with royal blood deal full damage) • 15 points • Travel the Spirit Planes: Teleport 5 (900 feet), Accurate • 1 point Touch of Death: Affliction 10 (Resisted by Will; Dazed, Disabled, Incapacitated) • 10 points",
+    "vantagens": "Daze (Intimidation), Fearless, Improved Initiative 2, Startle, Uncanny Dodge",
+    "pericias": "Close Combat: Unarmed 10 (+12), Close Combat: Simple Weapons 10 (+12), Deception 4 (+10), Intimidation 8 (+14), Ranged Combat: Spectral Flintlocks 10 (+13), Stealth 8 (+10)",
+    "ataques": "Initiative +10 Spectral Flintlocks +13 Ranged, Damage 9 Touch of Death +12 Close, Affliction 10, Resisted by Will",
+    "defesas": "Dodge 16 Fortitude 9 Parry 16 Toughness 6 Will 10",
+    "pontos_poder": "Abilities 44 Skills 25 Powers 80 Defenses 39 Advantages 6 ToTal 194",
+    "complicacoes": "Cultured: Even as a highwayman and criminal, Gentleman Ghost always tries to maintain an air of culture and propriety— but is also quick to anger when he fails to receive the respect he believes he deserves. Cursed: The Gentleman Ghost is unable to pass on to the next plane of existence until the one who killed him passes first, along with a magically unquenchable greed that drives him to crime."
+  }
+}

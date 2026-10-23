@@ -1,0 +1,122 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Longshot",
+  "nome_pt": "Longshot",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 150,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 49
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 1,
+      "Agi": 10,
+      "Des": 10,
+      "Lut": 5,
+      "Int": 2,
+      "Pro": 3,
+      "Pre": 5
+    },
+    "defesas": {
+      "Esquiva": 15,
+      "Aparar": 15,
+      "Fortitude": 3,
+      "Resistencia": 5,
+      "Vontade": 6
+    },
+    "pericias": {
+      "Acrobacia": 12,
+      "Enganação": 4,
+      "Atletismo": 8,
+      "Prestidigitação": 8,
+      "Especialidade: Táticas": 8,
+      "Intuição": 8,
+      "Furtividade": 8,
+      "Especialidade: Sobrevivência": 5
+    },
+    "vantagens": [
+      "Accurate Attack",
+      "Agile Feint",
+      "Attractive",
+      "Defensive Attack",
+      "Defensive Roll 3",
+      "Equipment",
+      "Evasion",
+      "Improved Initiative 2",
+      "Luck 5",
+      "Precise Attack (Ranged, Cover) 2",
+      "Quick Draw",
+      "Throwing Mastery 6",
+      "Uncanny Dodge",
+      "Ranged Attack 3"
+    ],
+    "poderes": [
+      {
+        "nome": "Leaping",
+        "construcao_3e": "Leaping 2.",
+        "custo_2e_pp": 2,
+        "custo_3e_pp": 2
+      },
+      {
+        "nome": "Luck Control",
+        "construcao_3e": "Luck Control 3 (Area, Selective). 15 PP na fonte.",
+        "custo_2e_pp": 15,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Super-Senses",
+        "construcao_3e": "Senses 4 (Postcognition, Touch Range).",
+        "custo_2e_pp": 2,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Facas de arremesso (+1 Damage; 19–20 Crit; Autofire; 4 EP)",
+      "Jaqueta de couro (+1 Toughness; 1 EP)"
+    ],
+    "complicacoes": [
+      "Perda de Poder: Luck Control não funciona quando Longshot acredita que os motivos são malignos/egoístas; ocorrência incomum, intensidade menor (1 PP na fonte)."
+    ],
+    "ataques": [
+      {
+        "nome": "Facas arremessadas",
+        "bonus": 13,
+        "dano": 7
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 5,
+        "dano": 1
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 20,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 9,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 74,
+    "defesas": 39,
+    "pericias": 31,
+    "vantagens": 29,
+    "poderes_conhecidos": 2,
+    "subtotal_conhecido": 175,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Dodge Focus 10 foi convertido em Dodge ranks; o valor anterior ao limite excede NP 10 e foi ajustado para Dodge 15 com Toughness 5.",
+    "Elusive Target e Ranged Pin não têm equivalentes diretos; Sneak Attack não tem equivalente e foram omitidas. Acrobatic Bluff virou Agile Feint.",
+    "O valor +5/+2 de Toughness foi preservado pelo maior número impresso; Defensive Roll não foi somado novamente.",
+    "Dodge foi ajustada de 25 para 15 para cumprir Dodge + Toughness ≤ 20 (NP 10).",
+    "Ranged Attack foi reduzido de 8 para 3 ranks para preservar o bônus publicado de Facas arremessadas e respeitar o limite de NP."
+  ]
+}

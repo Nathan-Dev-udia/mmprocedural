@@ -1,0 +1,118 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Sandman",
+  "nome_pt": "Sandman",
+  "nivel_poder": 9,
+  "pontos_poder_origem": 135,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 81
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 10,
+      "Vig": 2,
+      "Agi": 0,
+      "Des": 0,
+      "Lut": 9,
+      "Int": 0,
+      "Pro": 1,
+      "Pre": 1
+    },
+    "defesas": {
+      "Esquiva": 6,
+      "Aparar": 6,
+      "Fortitude": 6,
+      "Resistencia": 12,
+      "Vontade": 6
+    },
+    "pericias": {
+      "Intimidação": 12,
+      "Especialidade: Streetwise": 8,
+      "Especialidade: Tactics": 6,
+      "Percepção": 9,
+      "Especialidade: Mercenary": 8,
+      "Intuição": 7,
+      "Furtividade": 8
+    },
+    "vantagens": [
+      "All-out Attack",
+      "Chokehold",
+      "Improved Defense",
+      "Fast Grab",
+      "Improved Grab",
+      "Improved Hold",
+      "Power Attack",
+      "Startle",
+      "Teamwork 2",
+      "Languages 1"
+    ],
+    "poderes": [
+      {
+        "nome": "Alternate Form (Particulate) 4",
+        "construcao_3e": "Elongation 4, Immunity 8 (Life Support except suffocation), Insubstantial 1, Slithering; Linked to Enhanced Strength, Protection, and Power-Lifting.",
+        "custo_2e_pp": 20,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Enhanced Strength 14",
+        "construcao_3e": "Enhanced Trait: Strength 14; Linked to Alternate Form.",
+        "custo_2e_pp": 14,
+        "custo_3e_pp": 28
+      },
+      {
+        "nome": "Protection 10",
+        "construcao_3e": "Protection 10; Linked to Alternate Form.",
+        "custo_2e_pp": 10,
+        "custo_3e_pp": 10
+      },
+      {
+        "nome": "Super-Strength 3",
+        "construcao_3e": "Power-Lifting 3; Linked to Alternate Form.",
+        "custo_2e_pp": 6,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [],
+    "complicacoes": [
+      "Fraqueza à água: ocorrência incomum, intensidade maior (3 PP na fonte).",
+      "Vulnerabilidade: vento causa dano com CD +25%; ocorrência incomum, intensidade menor (1 PP na fonte).",
+      "Vulnerabilidade: calor paralisa com CD +1; ocorrência incomum, intensidade menor (1 PP na fonte)."
+    ],
+    "ataques": [
+      {
+        "nome": "Unarmed",
+        "bonus": 8,
+        "dano": 10
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 18,
+      "esquiva_mais_resistencia": 18,
+      "aparar_mais_resistencia": 18,
+      "fortitude_mais_vontade": 12,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 46,
+    "defesas": 36,
+    "pericias": 29.0,
+    "vantagens": 11,
+    "poderes_conhecidos": 38,
+    "subtotal_conhecido": 160.0,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Dodge Focus 2 foi convertido em Esquiva; Improved Block foi removido; Improved Grapple virou Improved Grab e Improved Pin, Improved Hold.",
+    "A fonte imprime STR/DEX/CON/INT/WIS/CHA +10/+0/+2/+0/+1/+1; Toughness +12, Fortitude +6, Reflex +7, Will +6; Attack +9; Defense 16; Initiative +0.",
+    "Os três Drawbacks foram convertidos em complicações com gatilhos e intensidade descritos. Dodge/Parry reduzidas a 6 para o limite PL 9 com Resistência 12; ataque corpo a corpo foi reduzido de +9 a +8 para respeitar + dano 10 = PL 9.",
+    "O texto-fonte imprime Alternate Form Particulate 4; a construção não foi recalculada.",
+    "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +10/+0/+2/+0/+1/+1. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
+    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "nome": "Bouncing Boy",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 92,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 16
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "3",
+      "AGL": "0",
+      "DEX": "0",
+      "FGT": "1",
+      "INT": "1",
+      "AWE": "1",
+      "PRE": "0"
+    },
+    "poderes": "i nfla ted r ubber Ball f orm (Sustained; Enhanced Advantage 7 (Defensive Roll 5, Improved Initiative, Move-by Action), Enhanced Skill 10 (Acrobatics +20), Leaping 5 (250ft.), Movement 1 (Safe Fall), Protection 6 (Limited to Physical Attacks Only); r ebound Slam (Array (Limited to Only Usable with Move-by Action), Strength-based Damage 10, AE: Strength-based Burst Area Damage 5)) t: Flight Ring (Communication 5 (subspace radio, e quipmen Anywhere, Limited to Distress Signal –3), Flight 7 (250 MPH); Telepathic Ear Plug ( Comprehend 3 (Languages), Mental Communication 1 (Close Range)); Transsuit (Immunity 9 (Life Support, except for starvation and thirst)) antages: Beginner’s Luck,",
+    "pericias": "Acrobatics 10 (+20), Close Combat: Ricochet Slam Array 8 (+9), Expert: Earth 5 (+6), Expert: Instruction 8 (+9), Perception 4 (+5), Persuasion 5 (+5), Vehicles 4 (+4) ense: Initiative +4, Ricochet Slam +9 (Close, Damage 11) o ff efense: Dodge 6, Parry 6, Fortitude 3, Toughness 14, Will 4 d Abilities 14 + Powers 32 + Advantages 15 + Skills 17 +",
+    "pontos_poder": "Defenses 14 = 92",
+    "complicacoes": "r esponsibility: Bouncing Boy recognizes that his powers can do some good and helps out however he can. r elationship: Bouncing Boy is deeply devoted to his wife, Duplicate Damsel.",
+    "vantagens": "Benefit (Legion Membership), a dv Defensive Attack, Defensive Roll 5, Equipment 8, Improved Initiative, Inspire 2, Interpose, Move-by Action , Power Attack"
+  }
+}

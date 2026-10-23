@@ -1,0 +1,106 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Chamber",
+  "nome_pt": "Chamber",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 150,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 18
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": null,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 4,
+      "Int": 2,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "defesas": {
+      "Esquiva": 14,
+      "Aparar": 14,
+      "Fortitude": null,
+      "Resistencia": 6,
+      "Vontade": 7
+    },
+    "pericias": {
+      "Enganação": 8,
+      "Atletismo": 4,
+      "Intimidação": 12,
+      "Percepção": 8,
+      "Intuição": 8,
+      "Furtividade": 8,
+      "Combate Corpo a Corpo: Desarmado": 4,
+      "Combate à Distância: Ataques gerais": 3
+    },
+    "vantagens": [
+      "Startle",
+      "Teamwork"
+    ],
+    "poderes": [
+      {
+        "nome": "Blast",
+        "construcao_3e": "Damage 10 (Shapeable Area, Concentration, Incurable).",
+        "custo_2e_pp": 41,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Immunity",
+        "construcao_3e": "Immunity 30 (Fortitude effects).",
+        "custo_2e_pp": 30,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Telepathy / Communication",
+        "construcao_3e": "Mind Reading 4; Alternate Effect: Mental Communication 8.",
+        "custo_2e_pp": 9,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [],
+    "complicacoes": [
+      "Deficiência (mudo; ocorrência incomum; intensidade menor; 1 PP)."
+    ],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "dano": 1
+      },
+      {
+        "nome": "Blast psíquico",
+        "bonus": 4,
+        "dano": 10
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 14,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": null,
+      "legal": false
+    }
+  },
+  "custos_3e": {
+    "habilidades": 26,
+    "defesas": 28,
+    "pericias": 27.5,
+    "vantagens": null,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 81.5,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "A fonte imprime travessões para Constituição e Fortitude; ambos os valores são indisponíveis e permanecem null. Portanto, Fortitude + Vontade não pode ser validado e legal fica false até que a defesa ausente seja determinada. Dodge Focus 8 foi convertido em Esquiva, reduzida para respeitar o limite de NP 10. Attack Specialization (Unarmed) 2 equivale a 4 graduações de Combate Corpo a Corpo: Desarmado. Fearsome Presence foi removida, sem inventar um poder substituto.",
+    "Defesas ajustadas para Esquiva 14 e Aparar 14, respeitando os limites de NP 10 com Resistência 6.",
+    "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias e apenas os custos de poderes confirmados; não inclui vantagens nem custos incertos."
+  ]
+}

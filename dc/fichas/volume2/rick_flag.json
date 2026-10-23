@@ -1,0 +1,28 @@
+{
+  "nome": "Rick Flag",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 153,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 211
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "3",
+      "AGL": "2",
+      "DEX": "4",
+      "FGT": "6",
+      "INT": "1",
+      "AWE": "4",
+      "PRE": "2"
+    },
+    "equipamento": "Assault Rifle (Ranged Multiattack Damage 5), Heavy Pistol (Ranged Damage 4), Knife (Damage 1, Improved Critical), Fragmentation Grenade (Burst Area Damage 5), Bulletproof vest (Protection 4, limited to Ballistic, Subtle), Squad Detonator, Binoculars",
+    "vantagens": "All-out Attack, Assessment, Close Attack 2, Connected, Defensive Roll 2, Diehard, Equipment 9, Fearless, Great Endurance, Improved Aim, Improved Initiative, Inspire 2, Leadership, Power Attack, Quick Draw, Ranged Attack 5, Seize Initiative, Uncanny Dodge",
+    "pericias": "Acrobatics 6 (+8), Athletics 8 (+11), Close Combat: Unarmed 4 (+10), Deception 10 (+12), Expertise: Soldier 11 (+12), Expertise: Tradecraft 9 (+10), Insight 8 (+12), Intimidation 10 (+12), Perception 6 (+10), Ranged Combat: Guns 4 (+12), Sleight of Hand 5 (+9), Stealth 7 (+9), Vehicles 8 (+12)",
+    "ataques": "Initiative +6, Assault Rifle +12 (Ranged, Multiattack Damage 5), Heavy Pistol +12 (Ranged, Damage 4), Unarmed +12 (Close, Damage 3)",
+    "defesas": "Dodge 11, Parry 11, Fortitude 8, Toughness 9/7*, Will 8 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 50 + Powers 0 + Advantages 32 + Skills 48 + Defenses 23 = 153"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "nome": "Shadow Thief",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 165,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 176
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "3",
+      "AGL": "5",
+      "DEX": "5",
+      "FGT": "5",
+      "INT": "2",
+      "AWE": "2",
+      "PRE": "1"
+    },
+    "pericias": "Acrobatics 8 (+13), Athletics 8 (+10), Deception 8 (+9), Expertise: Thief 10 (+12), Insight 6 (+8), Perception 6 (+8), Sleight of Hand 10 (+15), Stealth 10 (+15), Technology 4 (+6) ffen S e o i nitia tive +9 Unarmed+11 Close, Damage 5 efen S e d d odge 11 f or titude 7 Parry 11 t oughness 6/3* W ill 7 *Without Defensive Roll.",
+    "poderes": "Shadow f orm: Affects Corporeal on Strength 2; Concealment 4 (All Visual, Limited to Darkness and Shadows); Strength- based Damage 3, Affects Corporeal; Enhanced Defenses 8 (Dodge 4, Parry 4); Enhanced Advantages 3 (Hide in Plain Sight, Instant Up, Move-by Action, Skill Mastery 2 (Sleight of Hand, Stealth)); Immunity 10 (Life Support); Insubstantial 4 (Shadow Form); Movement 3 (Slithering, Wall-crawling 2); Removable, -12 pts • 49 points a V ant G d a e S Accurate Attack, Agile Feint, Chokehold, Close Attack 6, Defensive Roll 3, Evasion, Grabbing Finesse, Hide in Plain Sight, Improved Hold, Improved Initiative, Improved Trip, Instant Up, Move-by Action, Skill Mastery 2 (Sleight of Hand, Stealth)",
+    "pontos_poder": "a bilities 50 S kills 35 Powers 49 d efenses 13 a dv antages 18 ToTal 165",
+    "complicacoes": "d elusional: Sands’ long-term exposure to the energies of the Dimensiomet er has affected his mind and weakened his grasp on reality, to the extent that he sometimes engages in long conversations with the inanimate Dimensiometer itself. temporary power boosts from patrons like Neron and Star - breaker. aLLI e S Sands really doesn’t play well with others and only has allies, such as the Injustice League, when absolutely necessary for his plans or bank account. Powerful patrons like Starbreaker, whose offers appeal to his greed or ambition, are another matter entirely. e ne MI e S Hawkman and Hawkwoman are the most prominent, but his involvement in the death of Firestorm and humiliation at Manhunter’s (Kate Spencer) hands has probably added her and the resurrected Firestorm to the list."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "nome": "Superboy",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": 211,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 214
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "15",
+      "STA": "10",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "4",
+      "INT": "1",
+      "AWE": "2",
+      "PRE": "2"
+    },
+    "poderes": "f Array (26 points) ligh t: • Flight 13 (16,000 MPH) • 26 points • Speed 13 (16,000 MPH) • 1 point Heat Vision: Ranged Damage 12 • 24 points i n vulnerability: Protection 5, Impervious Toughness 12; Immunity 5 (Cold, Heat, Pressure, Radiation, Vacuum) • 22 points Super-Senses: Senses 7 (Acute and Extended Hearing, Extended Vision 3, Infravision, Ultra-hearing) • 7 points Super-Speed: Quickness 6 • 6 points Super-Strength: Enhanced Strength 3, Limited to Lifting (Lifting Str18; 6,000 tons) • 3 points t ac tile t elek inesis: Array (15 points), Alternate Effects of Strength Damage, Feature 1: Can exert Strength without moving • 1 point • Transform 5 (assembled into disassembled), d isassemble: Continuous • 1 point • Shield o Protection 15, Affects Others • 1 point thers: • Shockwave: Burst Area Affliction 12, Extra Condition, Limited Degree (Resisted by Fortitude; Dazed and Vulnerable, Stunned and Defenseless), Limited (Superboy and targets must be touching the ground) • 1 point",
+    "vantagens": "All-out Attack, Extraordinary Effort, Move-by Action, Second Chance (Resist mind control), Taunt clude his heat vision and portions of his strength, speed and invulnerability. Superboy’s powers are still maturing along with the rest of him. His Extraordinary Effort advantage reflects a knack for developing impressive power stunts in times of stress, as well as coming through at the last minute to snatch victory from the jaws of defeat. Among other things, Superboy has displayed the potential for ranged telekinesis, freezing super- breath, and the power to adapt his telekinetic field to shield himself from magic, among other effects.",
+    "pericias": "Close Combat: Unarmed 5 (+9), Deception 4 (+6), Insight 4 (+6), Perception 6 (+8), Ranged Combat: Heat Vision 7 (+9)",
+    "ataques": "i nitia tive +2 Unarmed +9 Close, Damage 15 Heat Vision +9 Ranged, Damage 12",
+    "defesas": "d odge 9 f or titude 13 Parry 9 t oughness 15 W ill 11",
+    "pontos_poder": "a bilities 76 S kills 13 Powers 93 d efenses 24 a dv antages 5 ToTal 211"
+  }
+}

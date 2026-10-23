@@ -1,0 +1,132 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Nightcrawler",
+  "nome_pt": "Noturno",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 150,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 62
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 10,
+      "Des": 8,
+      "Lut": 8,
+      "Int": 1,
+      "Pro": 3,
+      "Pre": 2
+    },
+    "defesas": {
+      "Esquiva": 14,
+      "Aparar": 14,
+      "Fortitude": 4,
+      "Resistencia": 6,
+      "Vontade": 10
+    },
+    "pericias": {
+      "Acrobacia": 9,
+      "Atletismo": 8,
+      "Persuasão": 4,
+      "Prestidigitação": 4,
+      "Especialidade: Teologia e Filosofia": 8,
+      "Percepção": 10,
+      "Especialidade: Sacerdote": 9,
+      "Intuição": 10,
+      "Combate Corpo-a-Corpo: Espadas": 4
+    },
+    "vantagens": [
+      "Accurate Attack",
+      "Agile Feint",
+      "Benefit: Ambidextrous",
+      "Defensive Attack",
+      "Defensive Roll 4",
+      "Equipment 2",
+      "Hide in Plain Sight",
+      "Improved Critical: Sword",
+      "Set-Up",
+      "Skill Mastery: Acrobacia, Atletismo, Prestidigitação, Expertise",
+      "Languages 2",
+      "Teamwork 3",
+      "Uncanny Dodge"
+    ],
+    "poderes": [
+      {
+        "nome": "Extra Limbs",
+        "construcao_3e": "Extra Limbs 1 (Innate).",
+        "custo_2e_pp": 2,
+        "custo_3e_pp": 2
+      },
+      {
+        "nome": "Concealment",
+        "construcao_3e": "Concealment 2 (Sight), Limited to shadows.",
+        "custo_2e_pp": 2,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Super-Senses",
+        "construcao_3e": "Senses 1 (Distance Sense).",
+        "custo_2e_pp": 1,
+        "custo_3e_pp": 1
+      },
+      {
+        "nome": "Movement",
+        "construcao_3e": "Movement 2 (Wall-Crawling).",
+        "custo_2e_pp": 4,
+        "custo_3e_pp": 4
+      },
+      {
+        "nome": "Teleport",
+        "construcao_3e": "Teleport 10 (Change Direction, Change Velocity, Progression 2, Turnabout), Short-Range.",
+        "custo_2e_pp": 15,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Espadas (+3 Damage; 19–20 Crit; Autofire; 8 EP)"
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Espadas",
+        "bonus": 12,
+        "dano": 5
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "dano": 2
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 17,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 14,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 72,
+    "defesas": 42,
+    "pericias": 33,
+    "vantagens": 23,
+    "poderes_conhecidos": 7,
+    "subtotal_conhecido": 177,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Attack Specialization (Sword) 2 convertido em Close Combat: Espadas 4; Ambidexterity virou Benefit (Ambidextrous).",
+    "Languages (German, Latin) convertido em Languages 2. Improved Throw não é listado; Improved Trip já consta como equivalente.",
+    "Dodge Focus 6 foi convertido em Dodge ranks e limitado a 14 com Toughness 6 para NP 10.",
+    "Elusive Target foi omitida: não possui equivalente direto na 3e.",
+    "Sneak Attack 2 foi omitida: não possui equivalente direto na 3e.",
+    "Dodge foi ajustada de 20 para 14 para cumprir Dodge + Toughness ≤ 20 (NP 10)."
+  ]
+}

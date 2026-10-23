@@ -1,0 +1,27 @@
+{
+  "nome": "Alfred Pennyworth",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 5,
+  "pontos_poder_publicados": 62,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 47
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "0",
+      "STA": "1",
+      "AGL": "0",
+      "DEX": "1",
+      "FGT": "3",
+      "INT": "3",
+      "AWE": "3",
+      "PRE": "2"
+    },
+    "vantagens": "Connected, Improvised Tools, Languages 2",
+    "pericias": "Close Combat: Unarmed 2 (+5), Deception 5 (+7), Expertise: Butler 6 (+9), Insight 6 (+8), Investigation 3 (+5), Perception 4 (+7), Persuasion 4 (+7), Ranged Combat: Guns 4 (+5), Sleight of Hand 3 (+4), Stealth 4 (+4), Treatment 5 (+8)",
+    "ataques": "Initiative +0, Shotgun +5 (Damage 5) Unarmed +5 (Damage 0)",
+    "defesas": "Dodge 3, Parry 3, Fortitude 4, Toughness 1, Will 6",
+    "pontos_poder": "Abilities 26 + Advantages 4 + Skills 23 + Defenses 9 = 62"
+  }
+}

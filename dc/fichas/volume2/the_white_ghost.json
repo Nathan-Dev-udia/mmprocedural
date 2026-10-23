@@ -1,0 +1,29 @@
+{
+  "nome": "The White Ghost",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 166,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 14
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "5",
+      "AGL": "4",
+      "DEX": "3",
+      "FGT": "10",
+      "INT": "2",
+      "AWE": "4",
+      "PRE": "4"
+    },
+    "poderes": "f a tal Strike (Strength-based Damage 2)",
+    "equipamento": "d emon’s f ang k uk ri (Improved Critical 3, Removable)",
+    "vantagens": "Agile Feint, Assessment, Benefit (Cipher), Close Attack 5, Daze (Intimidation), Defensive Attack, Defensive Roll 5, Equipment 1, Extraordinary Effort, Evasion, Fascinate (Intimidation), Fearless, Leadership, Move-by Action, Power Attack, Takedown, Trance, Uncanny Dodge",
+    "pericias": "Acrobatics 12 (+16), Athletics 10 (+13), Close Combat: Demon’s Fang Kukri) 4 (+14), Close Combat: Fatal Strike 2 (+12), Close Combat: Unarmed 4 (+14) , Deception 10 (+14), Expertise: Poisons 9 (+11), Insight 9 (+13), Intimidation 14 (+18), Perception 6 (+10), Sleight of Hand 12 (+15), Stealth 8 (+12)",
+    "ataques": "Initiative +4, Demon’s Fang +19 (Damage 3, Crit 17-20), Fatal Strike +17 (Damage 5), Unarmed +19 (Damage 3)",
+    "defesas": "Dodge 10, Parry 10, Fortitude 8, Toughness 10/5*, Will 12 * Without Defensive Roll.",
+    "pontos_poder": "Abilities 70 + Powers 2 + Advantages 27 + Skills 50 + Defenses 17 = 166"
+  }
+}

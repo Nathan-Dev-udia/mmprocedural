@@ -1,0 +1,28 @@
+{
+  "nome": "Mariah",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 8,
+  "pontos_poder_publicados": 127,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 261
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "2",
+      "AGL": "5",
+      "DEX": "4",
+      "FGT": "8",
+      "INT": "3",
+      "AWE": "3",
+      "PRE": "2"
+    },
+    "equipamento": "Saber: Strength-Based Damage 3, Improved Critical 2",
+    "vantagens": "Attractive, Accurate Attack, Defensive Attack, Defensive Roll 3, Equipment 1, Improved Aim, Improved Defense, Languages 3, Ranged Attack 3, Taunt, Teamwork, Weapon Bind",
+    "pericias": "Acrobatics 4 (+9) , Athletics 6 (+8), Close Combat: Swords 3 (+11), Deception 5 (+8), Expertise: Archeology 6 (+9), Expertise: Survival 4 (+7) Expertise: Skartaris 6 (+9), Insight 5 (+8), Intimidation 4 (+6), Perception 6 (+9), Persuasion 5 (+7), Stealth 5 (+9), Treatment 2 (+5), Vehicles 2 (+6)",
+    "ataques": "Initiative +5, Saber +11 (Damage 5, Critical 18-20), Unarmed +8 (Damage 2)",
+    "defesas": "Dodge 11, Parry 11, Fortitude 6, Toughness 5/2*, Will 9 *Without Defensive Roll",
+    "pontos_poder": "Abilities 58 + Powers 0 + Advantages 18 + Skills 32 + Defenses 19 = 127"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "nome": "Aqualad",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 135,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 24
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "9",
+      "STA": "7",
+      "AGL": "2",
+      "DEX": "3",
+      "FGT": "4",
+      "INT": "1",
+      "AWE": "2",
+      "PRE": "0"
+    },
+    "poderes": "Aquatic (Immunity 3 (Cold, Pressure, Drowning); Dimensional Key (Feature 1 (Dimensional Key); Burst Area 5 (500 feet) Movement 1 (Dimensional Travel—Xebel), Affects Others, Limited to at the Bermuda Triangle (-2)); Xebelian Powers: (Array (21 points), Electrical Blast (Ranged Damage 10, Accurate), AE: Control Water (Damaging Move Object 7 (3 tons)), AE: Shape Water (Create 7, Movable); AE: Water Bearers (Strength-based Damage 1, Penetrating 4, Reach 4, Split); Swimming (Swimming 10 (500 MPH))",
+    "vantagens": "Close Attack 4, Defensive Roll 1, Ranged Attack",
+    "pericias": "Athletics 4 (+13), Perception 6 (+8), Ranged Combat: Xebelian Powers 2 (+5)",
+    "ataques": "Initiative +2, Water Bearers +8 (Close, Damage 10, Penetrating 4, Reach 4, Split), Electrical Blast +8 (Ranged, Damage 10), Unarmed +8 (Close, Damage 9)",
+    "defesas": "Dodge 10, Parry 10, Fortitude 8, Toughness 8/7*, Will 8 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 56 + Powers 45 + Advantages 6 + Skills 6 + Defenses 22 = 135",
+    "complicacoes": "Enemy: Black Manta has sworn revenge on Aqualad and the Xebelians certainly have plans for him. Motivation—Responsibility: Aqualad didn’t ask for his powers, but he’s accepted his fate. The Key: Aqualad is a living key, capable of opening or closing the Bermuda Triangle’s portal to the extradimensional Xebel."
+  }
+}

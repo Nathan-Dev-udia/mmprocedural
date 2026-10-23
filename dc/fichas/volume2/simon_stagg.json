@@ -1,0 +1,27 @@
+{
+  "nome": "Simon Stagg",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 4,
+  "pontos_poder_publicados": 57,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 53
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "1",
+      "AGL": "0",
+      "DEX": "0",
+      "FGT": "2",
+      "INT": "3",
+      "AWE": "2",
+      "PRE": "3"
+    },
+    "vantagens": "Benefit 4 (Multi-millionaire), Connected, Skill Mastery (Expertise: Business), Well-informed",
+    "pericias": "Deception 11 (+14), Expertise: Business 7 (+10), Insight 6 (+8), Intimidation 4 (+7), Perception 4 (+6), Persuasion 6 (+9)",
+    "ataques": "Initiative +0, Unarmed +2 (Damage 1)",
+    "defesas": "Dodge 2, Parry 2, Fortitude 3, Toughness 1, Will 5",
+    "pontos_poder": "Abilities 24 + Powers 0 + Advantages 7 + Skills 19 + Defenses 7 = 57"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "nome": "Queen Ii",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 138,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 152
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "4",
+      "AGL": "3",
+      "DEX": "3",
+      "FGT": "3",
+      "INT": "1",
+      "AWE": "1",
+      "PRE": "3"
+    },
+    "poderes": "Blaster Pistol (Ranged Damage 9, Easily Removable (-8 points)); r az or-Spade Launcher (Ranged Multiattack Damage 5, Removable (–3 points)); f lying C ard (Flight 6 (120 MPH), Platform)",
+    "vantagens": "Accurate Attack, Agile Feint, Defensive Attack, Defensive Roll 2, Evasion, Fascinate (Deception), Improved Disarm, Improved Grab, Improved Hold, Improved Trip, Ranged Attack 7, Teamwork",
+    "pericias": "Acrobatics 3 (+6), Athletics 3 (+6), Close Combat: Unarmed 8 (+11), Deception 7 (+10), Expertise: Acting 9 (+10), Ranged Combat: Razor-Spade Launcher 5 (+8)",
+    "ataques": "Initiative +3, Blaster Pistol +10 (Ranged, Damage 9), Razor-Spade Launcher +15 (Ranged, Multiattack Damage 5), Unarmed +11 (Close, Damage 3)",
+    "defesas": "Dodge 13, Parry 13, Fortitude 8, Toughness 6/4*, Will 8 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 42 + Powers 28 + Advantages 19 + Skills 18 + Defenses 31 = 138",
+    "complicacoes": "Greed: Befitting a woman dressed as a ddic playing card, Taylor looks to get rich quick. a tion: Taylor is f ame: an alcoholic. Taylor is well-known from her former stage stardom and subsequent fall. q ueen II “Queen of Broadway” Mona Taylor had abdicated her throne in favor of booze, and joined the Royal Flush Gang out of a desperate lack of alternatives."
+  }
+}

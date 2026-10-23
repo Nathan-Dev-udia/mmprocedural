@@ -1,0 +1,28 @@
+{
+  "nome": "Vigilante",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 257
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "3",
+      "AGL": "2",
+      "DEX": "3",
+      "FGT": "3",
+      "INT": "1",
+      "AWE": "1",
+      "PRE": "2"
+    },
+    "equipamento": "Body a rmor : Protection 5 • 5 points Starlight Goggles: Senses 1 (Night vision) • 1 point a rsenal: Array (15 points) • Submachine Gun: Ranged Multiattack Damage 4 • 1 point • Sniper r ifle: Ranged Damage 5 • 1 point • f r agmentation Grenade: Burst Area Damage 5 • 15 points • f lash-bang G renade: Burst Area Dazzle 4• 1 point • k nife: Strike 1, piercing • 1 point 5 points worth of miscellaneous equipment a V ant G d a e S Accurate Attack, Assessment, Equipment 6, Evasion, Extraordinary Effort, Improved Aim, Improvised Weapon, Precise Attack (Ranged, Concealment), Prone Fighting, Quick Draw, Startle, Takedown, Tracking",
+    "pericias": "Acrobatics 6 (+8), Athletics 8 (+10), Close Combat: Unarmed 10 (+13), Deception 7 (+9), Insight 9 (+10), Intimidation 9 (+11), Investigation 7 (+8), Perception 8 (+9), Ranged Combat: Guns 9 (+12), Stealth 11 (+13), Vehicles 6 (+9)",
+    "ataques": "i nitia tive +2 Sniper Rifle +12 Ranged Damage 5 Submachine Gun +12 Ranged Multiattack Damage 4 Fragmentation Grenade +12 Burst Area Damage 5",
+    "defesas": "d odge 7 f or titude 12 Parry 10 t oughness 9/3* W ill 6 *Without Body Armor. Po er Point W S a bilities 34 S kills 45",
+    "poderes": "0 d efenses 26",
+    "vantagens": "17 ToTal 122 Co MPL i C tion S a Judge, Jury and e xecutioner: The Vigilante is an agent of harsh justice, prepared to use deadly force to bring it about. Suicide Mission: The deaths caused by the Vigilante tend to weigh heavily. often tangled with the Electrocutioner, and Dorian Chase has crossed paths a number of times with the Titans."
+  }
+}

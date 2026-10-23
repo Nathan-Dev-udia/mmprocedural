@@ -1,0 +1,29 @@
+{
+  "nome": "Ten Ii",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 148,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 153
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "4",
+      "STA": "5",
+      "AGL": "4",
+      "DEX": "4",
+      "FGT": "4",
+      "INT": "1",
+      "AWE": "2",
+      "PRE": "1"
+    },
+    "defesas": "Dodge 13, Parry 13, Fortitude 9, Toughness 5, Will 9",
+    "poderes": "Blaster Pistol (Ranged Damage 9, Easily Removable (–8 points)); e xploding Playing Cards (Ranged Burst Area Damage 7, Removable (–4 points)); f lying C ard (Flight 6 (120 MPH), Platform)",
+    "vantagens": "Agile Feint, Defensive Attack, Evasion, Improved Critical (Unarmed), Improved Initiative, Improved Smash, Improved Trip, Instant Up, Power Attack, Teamwork",
+    "pericias": "Acrobatics 6 (+10), Athletics 6 (+10), Close Combat: Unarmed 9 (+13), Perception 4 (+6), Ranged Combat: Blaster Pistol 7 (+11), Sleight of Hand 7 (+11), Stealth 7 (+11), Vehicles 6 (+10)",
+    "ataques": "Initiative +8, Blaster Pistol +11 (Ranged, Damage 9), Unarmed +13 (Close, Damage 4, Crit. 19-20)",
+    "pontos_poder": "Abilities 50 + Powers 33 + Advantages 10 + Skills 26 + Defenses 29 = 148",
+    "complicacoes": "Greed: Befitting a woman dressed as a playing card, Wayland looks to get rich quick. t er: Wayland is as emp ill-humored as her teammates. both Tens carried Stellaration Energy devices. The original Ten also had Technology 7 skill. tahumans, and the catastrophe in Blüdhaven provided Father Time with more test subjects. Father Time began using brutal tactics to contain the mutated population of Blüdhaven, and was eventually stopped by the Teen Titans. The research performed by S.H.A.D.E. allowed them to cre - ate a modern incarnation of the World War II-era superhu- man team known as the Freedom Fighters. The new group was loyal to Father Time, who used them protect the interests of S.H.A.D.E. and the U.S. government—until the rebirth of Uncle Sam. Uncle Sam is the physical incarnation of the national spirit of the United States. During World War II the original Freedom Fighters were led by Uncle Sam and his uncompromising sense of justice. Appalled by the new Freedom Fighters’ use of brutality to accomplish their goals, Uncle Sam set out to win over the hearts and minds of the modern team. Over the course of his struggle to gain the loyalty of the Free- dom Fighters, Uncle Sam unmasked a pawn of Father Time who had replaced Senator Henry Knight. In the guise of Sena- tor Knight, Gonzo the Mechanical Bastard won the presiden- cy of the United States. Uncle Sam and the Freedom Fighters exposed Gonzo the Mechanical Bastard and wrested control of S.H.A.D.E. from Father Time. The new president appointed the Freedom Fighters as the directors of S.H.A.D.E. and re - turned the organization to prominence. Heroes & V Heroes & V I I lla lla I I ns, Vol. 2 ns, Vol. 2"
+  }
+}

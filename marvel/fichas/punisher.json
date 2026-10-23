@@ -1,0 +1,113 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Punisher",
+  "nome_pt": "Punisher",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 150,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 73
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 3,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 14,
+      "Int": 1,
+      "Pro": 0,
+      "Pre": 0
+    },
+    "defesas": {
+      "Esquiva": 14,
+      "Aparar": 14,
+      "Fortitude": 9,
+      "Resistencia": 6,
+      "Vontade": 8
+    },
+    "pericias": {
+      "Enganação": 4,
+      "Atletismo": 8,
+      "Especialidade: Mechanical": 4,
+      "Veículos": 7,
+      "Investigação": 7,
+      "Intimidação": 12,
+      "Especialidade: Tactics": 8,
+      "Percepção": 10,
+      "Intuição": 10,
+      "Furtividade": 7,
+      "Especialidade: Sobrevivência": 9
+    },
+    "vantagens": [
+      "Accurate Attack",
+      "All-out Attack",
+      "Assessment",
+      "Chokehold",
+      "Equipment 11",
+      "Improved Disarm 2",
+      "Improved Initiative",
+      "Fast Grab",
+      "Improved Trip",
+      "Inspire",
+      "Power Attack",
+      "Precise Attack (Ranged, Cover)",
+      "Well-informed"
+    ],
+    "poderes": [],
+    "equipamento": [
+      "55 EP, usually spent as listed: van (Strength 35, Speed 5, Defense 8, Toughness 9; 8 EP); Colt .45s (+4 Damage; 8 EP); assault rifle with grenade launcher (+5 Damage, Autofire, AP; explosive ammunition; 17 EP); shotgun (+5/+6 Damage; 11 EP); knife (+1 Damage, 19–20 critical, Mighty, thrown; 4 EP); body armor (+3 Toughness; 3 EP); 4 EP for suppressors, camouflage, night vision goggles, laser sights, and targeting scopes."
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Colt .45 / shotgun",
+        "bonus": 14,
+        "dano": 6
+      },
+      {
+        "nome": "Assault rifle",
+        "bonus": 14,
+        "dano": 5
+      },
+      {
+        "nome": "Knife",
+        "bonus": 14,
+        "dano": 4
+      },
+      {
+        "nome": "Unarmed",
+        "bonus": 14,
+        "dano": 3
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 20,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 17,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 54,
+    "defesas": 51,
+    "pericias": 43.0,
+    "vantagens": 24,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 172.0,
+    "poderes_pendentes": false,
+    "total": null
+  },
+  "notas_conversao": [
+    "Fearsome Presence não é vantagem direta; Elusive Target não tem equivalente direto; Improved Throw foi absorvido pela manobra trip, cujo benefício já é padrão em 3e.",
+    "A fonte imprime STR/DEX/CON/INT/WIS/CHA +3/+2/+3/+1/+0/+0; Toughness +6, Fortitude +9, Reflex +9, Will +8; Attack +14; Defense 24; Initiative +6.",
+    "A fonte declara 55 EP e discrimina os itens e custos indicados; nenhum custo foi corrigido. Elusive Target e Fearsome Presence 4 não têm equivalente direto; Master Plan foi removido; Improved Throw foi absorvido pela manobra trip, sem duplicar vantagem.",
+    "Defesas foram ajustadas para Esquiva/Aparar 14 com Resistência 6; ataques e danos listados permanecem dentro de PL 10.",
+    "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +3/+3/+3/+1/+0/+0. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
+    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
+  ]
+}

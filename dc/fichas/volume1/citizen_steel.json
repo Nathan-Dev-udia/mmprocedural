@@ -1,0 +1,29 @@
+{
+  "nome": "Citizen Steel",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 133,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 299
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "16",
+      "STA": "16",
+      "AGL": "0",
+      "DEX": "0",
+      "FGT": "6",
+      "INT": "1",
+      "AWE": "1",
+      "PRE": "2"
+    },
+    "poderes": "Enhanced Strength 2 (Limited to lifting, lifting Str 18 (6,000 tons)); Features 5 (Increased Mass from Rank 2 to Rank 7 (3 tons)); Impervious Toughness 16",
+    "vantagens": "Accurate Attack, Diehard, Extraordinary Effort, Interpose, Power Attack, Teamwork",
+    "pericias": "Athletics 5 (+21), Insight 3 (+4), Intimidation 6 (+8), Perception 4 (+5)",
+    "ataques": "Initiative +0, Unarmed +6 (Damage 16)",
+    "defesas": "Dodge 6, Parry 6, Fortitude 16, Toughness 16, Will 6",
+    "pontos_poder": "Abilities 84 + Powers 23 + Advantages 6 + Skills 9 + Defenses 11 = 133",
+    "complicacoes": "Uncontrolled Power: Without his suit, Heywood’s strength is Uncontrolled"
+  }
+}

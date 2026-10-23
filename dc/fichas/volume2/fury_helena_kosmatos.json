@@ -1,0 +1,29 @@
+{
+  "nome": "Fury (Helena Kosmatos)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 128,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 273
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "10",
+      "STA": "8",
+      "AGL": "5",
+      "DEX": "3",
+      "FGT": "5",
+      "INT": "2",
+      "AWE": "1",
+      "PRE": "3"
+    },
+    "poderes": "until he reached adulthood, Arn first employed his wondrous abili- ties saving the young hero Dyna-Mite. At Dyna-Mite’s urging, Arn sought membership in the All-Star Squadron, but instead wound up battling Axis agents as part of a group of fellow probationary members known as the Young All-Stars. In the Young All-Star’s last recorded exploit, Arn followed a trail of clues to his father Hugo Danner, but clashed with his father over his plans for violent conquest. Though the conflict caused Danner’s death, Arn won full Squadron membership Heroes & V Heroes & V I I lla lla I I ns, Vol. 2 ns, Vol. 2 Heroes & VIllaIns, Vol. 2 178.76.175.224",
+    "vantagens": "All-out Attack, Interpose, Language 1 (English), Weapon Break",
+    "pericias": "Close Combat: Unarmed 5 (+10), Deception 7 (+10), Insight 6 (+7), Intimidation 7 (+10), Persuasion 7 (+10)",
+    "ataques": "Initiative +5, Unarmed +10 (Close, Damage 10)",
+    "defesas": "Dodge 10, Parry 10, Fortitude 11, Toughness 10, Will 9",
+    "pontos_poder": "Abilities 12 + Powers 75 + Advantages 4 + Skills 16 + Defenses 21 = 128",
+    "complicacoes": "Justice: Helena wants to avenge wrongs, t emp often ignoring other considerations. er: Befitting her codename, Fury is capable of homicidal rages. As the “Blood Avenger, ” she is especially keen on slaying men. Quirk: Helena has suffered from bouts of mental instability in the postwar era. Secret: Helena kept her identity secret during the war r to protect her surviving relatives in America. elationship: Helena had a wartime romance (and a brief marriage) with Iron Munro, and lost a second husband to murder. 272 272"
+  }
+}

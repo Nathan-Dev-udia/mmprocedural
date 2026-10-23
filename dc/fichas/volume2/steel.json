@@ -1,0 +1,28 @@
+{
+  "nome": "Steel",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 207
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "11",
+      "STA": "3",
+      "AGL": "1",
+      "DEX": "2",
+      "FGT": "7",
+      "INT": "10",
+      "AWE": "4",
+      "PRE": "3"
+    },
+    "poderes": "100 d efenses 29",
+    "equipamento": "H q : i ronworks • 15 POI n TS Size: Huge t ou: 14 f ea tures: Communications, Computer, Fire Prevention System, Holding Cells, Living Space, Power System, Security System, Workshop",
+    "vantagens": "12 ToTal 227 Co MPL i C tion S a r esponsibility: Steel feels personally responsible for any of his in ventions, and will do what it takes to stop them from being used inappropriately. Stepping i n: Steel first stepped up to the plate when Superman was killed by Doomsday, and continues to step up despite his personal health or well-being. Returning to active duty, Steel soon learned that Luthor was able to negate any power granted by the Everyman Project. He shared his discovery with the Teen Titans and they began inves- tigating the project, learning that the Everyman powers were only temporary. By this time, Natasha had come to her uncle with her own suspicions. Working as a double agent, Natasha was captured by Luthor. Steel led the Titans on an open assault of LexCorp. Luther, who had gained powers similar to Super- man by using the Everyman Project process, attacked John Henry but Natasha used an electromagnetic pulse from Steel’s Kinetic Hammer to negate Lex’s powers and incarcerate him.",
+    "pericias": "Expertise: Weapon Systems 10 (+20), Intimidation 6 (+9), Perception 3 (+7), Ranged Combat: Hammer 8 (+10), Technology 10 (+20), Vehicles 3 (+5)",
+    "ataques": "i nitia tive +1 Kinetic Hammer +10 Close, Damage 14 Kinetic Hammer +10 Ranged, Damage 14 Unarmed +10 Close, Damage 11",
+    "defesas": "d odge 10 f or titude 12 Parry 10 t oughness 14/10* W ill 12 *Against energy attacks. Po er Point W S a bilities 66 S kills 20"
+  }
+}

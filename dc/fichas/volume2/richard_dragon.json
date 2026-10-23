@@ -1,0 +1,27 @@
+{
+  "nome": "Richard Dragon",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 185,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 123
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "3",
+      "AGL": "5",
+      "DEX": "4",
+      "FGT": "14",
+      "INT": "2",
+      "AWE": "6",
+      "PRE": "3"
+    },
+    "vantagens": "Accurate Attack, Agile Feint, All-out Attack, Assessment, Close Attack 3, Defensive Attack, Defensive Roll 4, Evasion, Improve Critical 2 (Unarmed), Improved Defense, Improved Disarm, Improved Grab, Improved Hold, Improved Initiative, Improved Smash, Improved Trip, Inspire, Instant Up, Move-by Action, Power Attack, Precise Attack 2 (Close; Cover and Concealment), Prone Fighting, Redirect, Skill Mastery (Expertise: Teaching), Takedown, Teamwork, Trance, Uncanny Dodge, Weapon Bind",
+    "pericias": "Acrobatics 8 (+13), Athletics 9 (+12), Close Combat: Unarmed 2 (+16), Deception 4 (+7), Expertise: Philosophy 10 (+12), Expertise: Streetwise 4 (+6), Expertise: Teaching 16 (+18), Insight 10 (+16), Intimidation 4 (+7), Perception 6 (+12), Persuasion 4 (+7), Ranged Combat: Throwing 7 (+11), Stealth 5 (+10), Treatment 5 (+7)",
+    "ataques": "Initiative +9, Unarmed +19 (Close Damage 3, Crit. 18-20)",
+    "defesas": "Dodge 15, Parry 15, Fortitude 8, Toughness 7/3*, Will 12 *without Defensive Roll",
+    "pontos_poder": "Abilities 80 + Powers 0 + Advantages 36 + Skills 47 + Defenses 22 = 185"
+  }
+}

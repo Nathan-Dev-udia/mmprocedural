@@ -1,0 +1,29 @@
+{
+  "nome": "Lightning",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 122,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 297
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "0",
+      "STA": "2",
+      "AGL": "1",
+      "DEX": "1",
+      "FGT": "3",
+      "INT": "1",
+      "AWE": "1",
+      "PRE": "1"
+    },
+    "poderes": "Lightning Form (Activation (Move Action -1 point): Electrical Control (Array (25 points), Blast 11 (Accurate 3), AE: Nullify Electronics 7 (Accurate 3, Effortless, Simultaneous), AE: Stun * Ranged Affliction 11, Accurate 3 (Resisted by Fortitude; Dazed, Stunned, Incapacitated))); Energy Aura 6 ; Enhanced Dodge 4 ; Flight 6 (120MPH); Force Field 7",
+    "vantagens": "Defensive Attack, Taunt",
+    "pericias": "Acrobatics 4 (+5), Athletics 4 (+4), Deception 5 (+6), Insight 5 (+6), Perception 3 (+4), Persuasion 3 (+4)",
+    "ataques": "Initiative +1, Blast +7 (Damage 11), Stun +7 (Affliction 11, Resisted by Fortitude)",
+    "defesas": "Dodge 9, Parry 5, Fortitude 6, Toughness 9, Will 6",
+    "pontos_poder": "Abilities 20 + Powers 73 + Advantages 2 + Skills 12 + Defenses 15 = 122",
+    "complicacoes": "Uncontrolled Powers: Pierce has difficulty controlling her abilities and must work at not shorting out delicate electronics around her. Power Loss: Jennifer has no powers when she’s not in her Lightning form."
+  }
+}

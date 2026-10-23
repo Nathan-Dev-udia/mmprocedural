@@ -1,0 +1,26 @@
+{
+  "nome": "Technocrat",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 179,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 98
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "8",
+      "STA": "6",
+      "AGL": "5",
+      "DEX": "3",
+      "FGT": "2",
+      "INT": "8",
+      "AWE": "4",
+      "PRE": "3"
+    },
+    "poderes": "Battlesuit (Removable, -17 points), a rmor Systems (Protection 3, Force Field 3, Enhanced Strength 6, Enhanced Stamina 4, Enhanced Agility 3, Flight 8 (500 MPH)); e nergy Bolt ( Ranged Damage 10*); Sensors (Senses 6 (Infravision, Low-light vision, Microscopic Vision, Radio, Tracking, Ultravision)); Life Support (Immunity 10 (Life Support)) * Barron is constantly in the process of updating and improving his battlesuit. Points allotted to Energy Bolt or other powers may instead be filled with varying weaponry or gadgets as the mood suits him. antages: Assessment, Connected, Eidetic Memory, a dv Evasion, Improvised Tools, Inventor, Power Attack, Tracking",
+    "pericias": "Acrobatics 3 (+8), Athletics 4 (+12), Close Combat: Unarmed 10 (+12), Deception 6 (+9), Expertise: Business 6 (+14), Expertise: Science 6 (+14), Insight 6 (+10), Perception 4 (+8), Persuasion 8 (+11), Ranged Combat: Battlesuit Weapons 7 (+10), Technology 6 (+14), Vehicles 8 (+11) ense: Initiative +5, Unarmed +12 (Close, Damage 8), Energy o ff Bolt +10 (Ranged, Damage 10) efense: Dodge 8, Parry 6, Fortitude 10, Toughness 12, Will 8 d Abilities 52 + Powers 67 + Advantages 8 + Skills 37 +",
+    "pontos_poder": "Defenses 15 = 179",
+    "complicacoes": "Justice: Technocrat has a strong commitment to justice. Love: Because Halo currently occupies his wife’s body, Technocrat’s has transferred his love for his wife to Halo. She doesn’t feel the same way, which continues to cause awkward situations."
+  }
+}

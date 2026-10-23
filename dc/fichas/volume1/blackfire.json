@@ -1,0 +1,30 @@
+{
+  "nome": "Blackfire",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 182,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 66
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "10",
+      "STA": "5",
+      "AGL": "4",
+      "DEX": "3",
+      "FGT": "10",
+      "INT": "2",
+      "AWE": "2",
+      "PRE": "4"
+    },
+    "poderes": "Language Absorption: Comprehend Languages 2 (Speak Any One Language, Understand and Read Multiple Languages), Limited (Requires Physical Contact) • 2 points Invulnerability: Impervious Protection 5 • 10 points Solar Sustenance: Immunity (Starvation and Thirst), Limited (Requires UV Radiation) • 1 point Star Bolts: Ranged Damage 14 • 28 points Super-Strength: Enhanced Strength 2, Limited to Lifting (Lifting Str 12; 100 tons) • 2 points",
+    "equipamento": "Vehicle: Grav Platform • 24 points Medium; Str 0, Speed 7, Def 10, Tou 5",
+    "vantagens": "Benefit 5 (Queen of New Tamaran), Defensive Attack, Defensive Roll 2, Equipment 5, Improved Critical (Okaaran weapons), Improved Smash, Instant Up, Leadership, Power Attack, Startle",
+    "pericias": "Close Combat: Unarmed 2 (+12), Deception 5 (+9), Expertise: Military 10 (+12), Expertise: Politics 10 (+12), Intimidation 8 (+12), Persuasion 5 (+9), Ranged Combat: Starbolts 5 (+8), Stealth 5 (+9), Vehicles 2 (+5)",
+    "ataques": "Initiative +8 Starbolts +8 Ranged, Damage 14 Unarmed +12 Close, Damage 10",
+    "defesas": "Dodge 10 Fortitude 9 Parry 10 Toughness 12/10* Will 6 *Without Defensive Roll",
+    "pontos_poder": "Abilities 80 Skills 26 Powers 43 Defenses 14 Advantages 19 ToTal 182",
+    "complicacoes": "Hatred: Blackfire has an irrational hatred for her sister, Starfire. Obsession: Blackfire is obsessed with ruling her people, so much so that she was willing to be their conqueror. Prejudice: Blackfire cannot fly under her own power; this is considered a disability by Tamaranians and causes some discrimination."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "nome": "H.I.V.E. Master",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 165,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 265
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "2",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "1",
+      "INT": "6",
+      "AWE": "5",
+      "PRE": "7"
+    },
+    "poderes": "H.I.V.E. Breakthroughs (Array (24 points), Removable (-5 points), Nullifier (Nullify 8, Broad (metahuman powers), Increased Duration (Concentration), AE: Blaster (Ranged Damage 9, Penetrating 6), AE: Stealth Cloak (Concealment 6 (all visual and hearing)); H.I.V.E. Armor (Protection 6, Subtle, Removable)",
+    "equipamento": "H.I.V.E. Communicator",
+    "vantagens": "Benefit 5 (Knowledge of alien science, Cipher 4), Connected, Daze, Defensive Roll 3, Eidetic Memory, Equipment, Hide in Plain Sight, Inventor, Languages 4, Leadership, Seize Initiative, Startle, Taunt",
+    "pericias": "Expertise: Science 10 (+16), Insight 7 (+12), Intimidation 8 (+15), Perception 7 (+12), Persuasion 9 (+16), Ranged Combat: H.I.V.E. Breakthroughs 10 (+12), Stealth 8 (+10), Technology 10 (+16), Vehicles 7 (+9)",
+    "ataques": "Initiative +2, Blaster +12 (Ranged, Damage 9, Penetrating 6), Nullifer +12 (Ranged, Nullify 8)",
+    "defesas": "Dodge 10, Parry 8, Fortitude 7, Toughness 11/8, Will 11",
+    "pontos_poder": "Abilities 52 + Powers 27 + Advantages 22 + Skills 38 + Defenses 26 = 165"
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Magneto",
+  "nome_pt": "Magneto",
+  "nivel_poder": 14,
+  "pontos_poder_origem": 210,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 52
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 0,
+      "Agi": 0,
+      "Des": 0,
+      "Lut": 4,
+      "Int": 5,
+      "Pro": 4,
+      "Pre": 6
+    },
+    "defesas": {
+      "Esquiva": 12,
+      "Aparar": 12,
+      "Fortitude": 3,
+      "Resistencia": 4,
+      "Vontade": 12
+    },
+    "pericias": {
+      "Enganação": 8,
+      "Tecnologia": 8,
+      "Especialidade: Química": 12,
+      "Especialidade: Eletrônica": 12,
+      "Especialidade: Mecânica": 12,
+      "Persuasão": 12,
+      "Investigação": 13,
+      "Intimidação": 8,
+      "Especialidade: Civismo": 8,
+      "Especialidade: Ciências da Terra": 6,
+      "Especialidade: Ciências da Vida": 12,
+      "Especialidade: Táticas": 8,
+      "Especialidade: Tecnologia": 12,
+      "Intuição": 12,
+      "Combate a Distância: Magnetic Attacks": 12
+    },
+    "vantagens": [
+      "Assessment",
+      "Benefit: Alternate Identities 1, Status 1, Wealth 3",
+      "Connected",
+      "Contacts",
+      "Equipment 6",
+      "Fascinate: Persuasion",
+      "Improved Initiative",
+      "Inspire 5",
+      "Inventor",
+      "Leadership",
+      "Startle",
+      "Well-Informed",
+      "Skill Mastery: Persuasion, Expertise (Life Sciences), Expertise (Tactics)"
+    ],
+    "poderes": [
+      {
+        "nome": "Helmet",
+        "construcao_3e": "Device Removable: Immunity 10 (efeitos mentais).",
+        "custo_2e_pp": 8,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Magnetic Control",
+        "construcao_3e": "Magnetic Control 16 dinâmico, baseado em Move Object limitado a metais ferrosos; Efeitos Alternativos: Blast 16, Force Field 16 (Impervious), Flight, Deflect (projéteis lentos; Move Action), Nullify (eletrônicos; Concentration), Telekinesis; Improved Disarm 4. 44 PP na fonte.",
+        "custo_2e_pp": 44,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Super-Senses",
+        "construcao_3e": "Senses 5 (Metal Awareness, Extended 4).",
+        "custo_2e_pp": 5,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Telepathy",
+        "construcao_3e": "Telepathy 3.",
+        "custo_2e_pp": 6,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Uniforme (+4 Toughness; Quick Change; 5 EP)",
+      "Asteroid M (Colossal; Toughness 20; Combat Simulator, Communications, Computer, Defense System, Fire Prevention, Gym, Hangar, Holding Cell, Infirmary, Isolated, Laboratory, Living Space, Power System, Security System, Teleport (Affects Others); 23 EP)"
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Ataques magnéticos",
+        "bonus": 12,
+        "dano": 16
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 4,
+        "dano": 0
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 28,
+      "esquiva_mais_resistencia": 16,
+      "aparar_mais_resistencia": 16,
+      "fortitude_mais_vontade": 15,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 38,
+    "defesas": 39,
+    "pericias": 78,
+    "vantagens": 28,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 183,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Attack Specialization (Magnetic Attacks) 4 convertido em 8 ranks de Ranged Combat; o bônus restante foi obtido do ataque impresso +12. O dano 16 respeita NP 14.",
+    "Master Plan não aparece entre as vantagens convertidas e não foi duplicado porque a ficha já tem Inspire 5. Concentration 10 (+14) não é perícia 3e independente e foi omitida.",
+    "O texto fonte traz custo total de 210 PP, mas a linha final parece omitir a sigla PP; valores de equipamentos preservados como impressos.",
+    "Concentration foi removida de Skill Mastery por não ter perícia independente na 3e."
+  ]
+}

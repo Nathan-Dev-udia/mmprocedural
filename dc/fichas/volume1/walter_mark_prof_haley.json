@@ -1,0 +1,27 @@
+{
+  "nome": "Walter Mark “Prof” Haley",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 135,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 114
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "3",
+      "AGL": "3",
+      "DEX": "3",
+      "FGT": "2",
+      "INT": "7",
+      "AWE": "6",
+      "PRE": "2"
+    },
+    "vantagens": "Accurate Attack, Assessment, Defensive Roll 4, Diehard, Eidetic Memory, Equipment 6, Favored Environment (Underwater), Improved Initiative, Inspire, Inventor, Languages 4, Set-up, Teamwork, Well-informed",
+    "pericias": "Athletics 7 (+10), Close Combat: Unarmed 6 (+8), Expertise: Diving 4 (+11), Expertise: Oceanography 6 (+13), Expertise: Science 3 (+10), Insight 4 (+10), Investigation 5 (+12), Perception 5 (+11), Technology 6 (+13), Vehicles 8 (+11)",
+    "ataques": "Initiative +7, Unarmed +8 (Close, Damage 3)",
+    "defesas": "Dodge 11, Parry 10, Fortitude 8, Toughness 7/3, Will 10",
+    "pontos_poder": "Abilities 58 + Powers 0 + Advantages 25 + Skills 27 + Defenses 25 = 135"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "nome": "Frankenstein",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": 191,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 170
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "10",
+      "STA": "12",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "8",
+      "INT": "3",
+      "AWE": "4",
+      "PRE": "2"
+    },
+    "poderes": "i n vulnerability (Immunity 5 (Electrical damage), Impervious Toughness 10, Protection 4, Regeneration 5); Sword of Michael (Strength-based Damage 4, Improved Critical, Indestructible, Easily Removable (-2 points)); Unliving (Immunity 30 (Fortitude effects))",
+    "equipamento": "Steam-Gun (Ranged Damage 5)",
+    "vantagens": "Close Attack 2, Daze (Intimidation), Equipment 2, Fearless, Quick Draw, Startle",
+    "pericias": "Expertise: Arcane Lore 8 (+11), Expertise: Handle Animal 6 (+9), Expertise: Literature 6 (+9), Intimidation 12 (+14), Investigation 8 (+11), Ranged Combat: Guns 10 (+12), Vehicles 8 (+10)",
+    "ataques": "Initiative +2, Steam-Gun +12 (Ranged, Damage 5), Sword +10 (Close, Damage 14, Crit. 19-20), Unarmed +10 (Close, Damage 10)",
+    "defesas": "Dodge 8, Parry 8, Fortitude Immune, Toughness 16, Will 8",
+    "pontos_poder": "Abilities 86 + Powers 58 + Advantages 8 + Skills 29 + Defenses 10 = 191",
+    "complicacoes": "r epulsive: Frankenstein is ugly and off-putting and his appearance always inspires fear and revulsion in others. Vulnerability: Magic like that of Klarion the Witch Boy’s witch-brand benefits from an additional level of success against Frankenstein."
+  }
+}

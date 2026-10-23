@@ -1,0 +1,29 @@
+{
+  "nome": "Amazo",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 15,
+  "pontos_poder_publicados": 688,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 17
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "19",
+      "STA": "---",
+      "AGL": "10",
+      "DEX": "8",
+      "FGT": "11",
+      "INT": "8",
+      "AWE": "7",
+      "PRE": "7"
+    },
+    "poderes": "Absorbo Cells: Variable Effect 20 (All Abilities, Powers, and Skills), Continuous, Limited to only those traits a target possesses, Limited to targets in near vicinity • 120 points Android Body: Immunity 40 (Fortitude Effects, Mental Effects) • 40 points Aquatic: Movement 1 (Environmental Adaption: Aquatic); Senses 1 (Low-Light Vision) • 3 points Flight: Array (30 points) Flight: Flight 15 (64,000 MPH) • 30 points • Running: Speed 20 (2,000,000 MPH) • 1 point • Space Flight: Movement 1 (Space Travel) • 1 point • Swimming: Swimming 10 (500 MPH) • 1 point Vision Blasts: Array (30 points) • Heat Vision: Ranged Damage 15 • 30 points • Martian Vision: Ranged Damage 11 (force) • 1 point Marine Telepathy: Array (57 points) • Summon Marine Life 8 (120 points), Horde, Mental Link, Multiple Minions 2 (4 minions), Variable General Type (Marine Life), Limited to in or near water • 57 points • Summon Marine Life 4 (60 points), Horde, Mental Link, Multiple Minions 7 (128 minions), Variable General Type (Marine Life), Limited to in or near water • 1 point • Comprehend Animals 2, Mental Communication 4, Limited to Marine Life • 1 point Martian Morphology: Dynamic Array (21 points) • Intangibility: Insubstantial 4, Dynamic • 21 points • Invisibility: Visual Concealment 4, Dynamic • 2 points • Shapeshifting: Morph (Any Form) 4, Dynamic • 2 point Run On Water: Movement 1 (Water Walking), Limited to While Moving • 1 point Run Up Walls: Movement 2 (Wall-crawling 2), Limited to While Moving • 2 points Super-Senses: Senses 16 (Acute and Extended Hearing, Extended Vision 3, Infravision, Mental Awareness, Microscopic Vision 4, Ultra-Hearing, Vision Penetrates Concealment) • 16 points Super-Speed: Enhanced Defenses 12 (Dodge and Parry), Enhanced Advantages 18 (Agile Feint, Evasion 2, Improved Initiative 10, Interpose, Instant Up, Move-by Action, Seize Initiative, Takedown), Quickness 20, Speed 20 (2,000,000) • 77 points Telepathy: Mental Communication 5, Mind Reading 11 • 42 points",
+    "vantagens": "Agile Feint, Assessment, Diehard, Eidetic Memory, Evasion 2, Favored Foe (Active Members of the JLA), Fearless, Improved Initiative 10, Interpose, Instant Up, Languages 8, Move-by Action, Power Attack, Seize Initiative, Takedown",
+    "pericias": "Acrobatics 8 (+18), Athletics 6 (+25), Deception 8 (+15), Expertise: Criminology 13 (+21), Expertise: Journalism and Politics 6 (+14), Expertise: Streetwise 13 (+21), Expertise: Survival 4 (+12), Insight 10 (+17), Intimidation 15 (+22), Investigation 15 (+23), Perception 13 (+20), Persuasion 5 (+12), Ranged Combat: Bow 8 (+16), Stealth 13 (+23), Sleight of Hand 8 (+16), Technology 8 (+16), Treatment 5 (+13), Vehicles 8 (+16)",
+    "ataques": "Initiative +50 Heat Vision +8 Ranged, Damage 15 Martian Vision +8 Ranged, Damage 11 Unarmed +11 Close Damage 19",
+    "defesas": "Dodge 12 Fortitude Immune Parry 12 Toughness 18 Will 10",
+    "pontos_poder": "Abilities 130 Skills 89 Powers 449 Defenses 6 Advantages 14 ToTal 688",
+    "complicacoes": "Hatred: Amazo’s sole objective is the destruction of the Justice League of America. Obsessed: Amazo continually upgrades and improves himself."
+  }
+}

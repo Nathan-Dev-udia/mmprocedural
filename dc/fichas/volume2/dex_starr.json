@@ -1,0 +1,26 @@
+{
+  "nome": "Dex-Starr",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 174,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 137
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "–",
+      "STA": "2",
+      "AGL": "2",
+      "DEX": "0",
+      "FGT": "5",
+      "INT": "0",
+      "AWE": "1",
+      "PRE": "0"
+    },
+    "poderes": "Shrinking 8 (Permanent, Innate); Power r ing (115 point device, Removable (–23 points), ai and d atabase (Feature 2 (AI and Database), Senses 1 (Communication link to Central Power Battery)), f ligh t (Flight 14 (32,000 MPH), Movement 4 (Environmental Adaption (Zero-G), Space Travel 3)), f or ce f ield (Protection 10, Impervious; Immunity 10 (Life Support)), Heartless (Feature (Heart of equivalent vital organs are no longer essential to survival), Regeneration 1), r ed Light of r age (Array (28 points) Lifting (Create 14), ae : f ir es of r age (Ranged Damage 14), ae : Burning Blood (Damage 8, Reach 2, Sustained (extinguished by a cessation of rage or the Blue Light of Hope), Power of r age (Senses 3 (Acute Detect Rage), Feature 3 (Lanterns other than Blue lose ring power more quickly than normal defending against the Red Light), Universal t r anslator (Comprehend Languages 4)) antages: All-out Attack, Power Attack a dv",
+    "pericias": "Acrobatics 7 (+9), Close Combat: Burning Blood 8 (+13), Intimidation 10 (+6*), Perception 5 (+6), Ranged Combat: Power Ring 8 (+8) ense: Initiative +2, Burning Blood +13 (Close, Damage 8, o ff Sustained), Fires of Rage +8 (Ranged, Damage 14) efense: Dodge 10*, Parry 10*, Fortitude 8, Toughness 12, Will d 14 *Includes size modifiers. Abilities 20 + Powers 109 + Advantages 2 + Skills 19 +",
+    "pontos_poder": "Defenses 24 = Total 174",
+    "complicacoes": "age: Dex-Starr is motived by pure rage. Cat: Dex-Starr is an Earth feline, with all its associated drawbacks."
+  }
+}

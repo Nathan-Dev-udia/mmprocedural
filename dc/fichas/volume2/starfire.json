@@ -1,0 +1,29 @@
+{
+  "nome": "Starfire",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 190,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 197
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "10",
+      "STA": "10",
+      "AGL": "5",
+      "DEX": "5",
+      "FGT": "10",
+      "INT": "1",
+      "AWE": "3",
+      "PRE": "3"
+    },
+    "poderes": "Language a ssimila tion: Comprehend Languages 2 (Speak and Understand all languages), Quirk (Requires Physical Contact to “Learn”) • 3 points Solar Conversion: Flight 10 (2,000 MPH) • 20 points Solar Sustenance: Immunity 10 (Life Support), Limited (Requires sunlight); Regeneration 2, Source (Sunlight) • 6 points Star Bolts: Ranged Damage 12 • 24 points",
+    "vantagens": "Agile Feint, All-out Attack, Attractive 2, Improved Initiative, Leadership, Move-by Action, Power Attack, Teamwork",
+    "pericias": "Acrobatics 5 (+10), Close Combat: Unarmed 2 (+12), Expertise: Modeling 7 (+8), Intimidation 8 (+11), Perception 4 (+7), Persuasion 5 (+8), Ranged Combat: Starbolts 5 (+10) into concentrated energy blasts known as starbolts. Starfire was also trained in combat by the Warlords of Okaara, skills she later honed in sparring sessions with her Titans team- mate, Donna Troy.",
+    "ataques": "i nitia tive +9 Starbolts +10 Ranged, Damage 12 Unarmed +12 Close, Damage 10",
+    "defesas": "d odge 12 f or titude 12 Parry 12 t oughness 10 W ill 8",
+    "pontos_poder": "a bilities 94 S kills 18 Powers 53 d efenses 16 a dv antages 9 ToTal 190",
+    "complicacoes": "e nemy: Starfire’s sister, Blackfire, harbors a deep resentment t oward and lifelong hatred for her. Power Loss: During any prolonged period without exposure to sunlight, Starfire loses her Flight and Starbolts powers r elationship: Starfire has an on-again, off-again romance with Dick Grayson. t emp er: Starfire has a very short fuse. e ne MI e S Starfire has battled many enemies as a member of the Teen Titans, most notably Brother Blood, Deathstroke, and Trigon. Her sister, Blackfire, remains Starfire’s greatest personal en- emy."
+  }
+}

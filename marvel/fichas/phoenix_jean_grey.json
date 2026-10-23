@@ -1,0 +1,137 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Phoenix (Jean Grey)",
+  "nome_pt": "Phoenix (Jean Grey)",
+  "nivel_poder": 17,
+  "pontos_poder_origem": 300,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 66
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 1,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 12,
+      "Int": 2,
+      "Pro": 4,
+      "Pre": 2
+    },
+    "defesas": {
+      "Esquiva": 20,
+      "Aparar": 20,
+      "Fortitude": 10,
+      "Resistencia": 4,
+      "Vontade": 10
+    },
+    "pericias": {
+      "Tecnologia": 8,
+      "Persuasão": 4,
+      "Percepção": 10,
+      "Veículos": 6,
+      "Especialidade: Teacher": 10,
+      "Especialidade: Model": 10,
+      "Intuição": 8
+    },
+    "vantagens": [
+      "All-out Attack",
+      "Assessment",
+      "Attractive 2",
+      "Equipment",
+      "Improved Defense 2",
+      "Improved Initiative 2",
+      "Inspire 2",
+      "Interpose",
+      "Luck",
+      "Second Chance (Concentration checks)",
+      "Seize Initiative",
+      "Set-Up",
+      "Teamwork",
+      "Ultimate Effort (Will saves)"
+    ],
+    "poderes": [
+      {
+        "nome": "Element Control (Fire) 18",
+        "construcao_3e": "Array; Dynamic: Blast, Strike (Aura), Flight, Space Travel, Energy Absorption 18 (Healing; Limited to heat), Dimensional Movement, Temporal Movement.",
+        "custo_2e_pp": 49,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Immunity 14",
+        "construcao_3e": "Life Support; fire descriptor.",
+        "custo_2e_pp": 14,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Regeneration 9",
+        "construcao_3e": "Recovery Bonus 8; Resurrection 1.",
+        "custo_2e_pp": 9,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Telepathy 17",
+        "construcao_3e": "Dynamic array: Force Field (Impervious, Shapeable Area), ESP (Audio, Visual, Telepathy), Mental Blast, Mind Control, Telekinesis (Damaging), Blast 12 (Move Action, Concentration, Indirect), Astral Form 10 (Dimensional), Mind Shield, Life Control, Boost, Transform.",
+        "custo_2e_pp": 93,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Gestalt 10",
+        "construcao_3e": "Summon/gestalt form as printed; source does not specify the 3e construction.",
+        "custo_2e_pp": 10,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Uniform (+3 Toughness; Subtle; 4 EP).",
+      "Comm-Link (1 EP)."
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Unarmed",
+        "bonus": 12,
+        "dano": 1
+      },
+      {
+        "nome": "Fire Blast (array effect)",
+        "bonus": 12,
+        "dano": 18
+      },
+      {
+        "nome": "Mental Blast (array effect)",
+        "bonus": 12,
+        "dano": 10
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 30,
+      "esquiva_mais_resistencia": 24,
+      "aparar_mais_resistencia": 24,
+      "fortitude_mais_vontade": 20,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 48,
+    "defesas": 64,
+    "pericias": 28.0,
+    "vantagens": 18,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 158.0,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Equipment, Second Chance e Ultimate Effort foram mantidos como vantagens 3e correspondentes. Concentration não tem perícia equivalente direta no guia e aparece apenas na nota sobre a fonte.",
+    "A fonte imprime STR/DEX/CON/INT/WIS/CHA +1/+1/+1/+2/+4/+2; Toughness/Fortitude/Reflex/Will +4/+10/+10/+10; Attack +12; Defense 20; Initiative +9.",
+    "Perícias da fonte: Computers +10, Concentration +16, Diplomacy +6 (com Attractive +14), Notice +14, Pilot +7, Profession (Teacher/Model) +12 cada, Sense Motive +12. Concentration foi omitida por não ter equivalente direto no guia; as demais foram convertidas.",
+    "A ficha não declara uma especialização de ataque. Ataques de Blast dinâmico permanecem abaixo do limite Ataque + efeito 34 de PL 17.",
+    "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +1/+1/+1/+2/+4/+2. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
+    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
+  ]
+}

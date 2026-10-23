@@ -1,0 +1,29 @@
+{
+  "nome": "S.T.R.I.P.E",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 148,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 198
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "10",
+      "STA": "7",
+      "AGL": "2",
+      "DEX": "3",
+      "FGT": "4",
+      "INT": "5",
+      "AWE": "1",
+      "PRE": "1"
+    },
+    "poderes": "Battlesuit (Removable (-17 points), a rmor (I mpervious Toughness 10, Protection 5); Computer Guidance (Enhanced Advantages 7 (Improved Aim, Improved Disarm, Improved Grab, Improved Hold, Improved Initiative, Improved Smash, Improved Trip); e nhanced Strength 3 ; Jets (Flight 8 (500 MPH)); Large (Growth 4 (Permanent, Innate)); Searchlight (Environment 3 (Light, 120 feet); Self- r epair Systems (Regeneration 2); Sensors (Senses 2 (Communication Link to Stargirl, Radio); Weapon Systems (Array (20 points), Snare (Ranged Cumulative Affliction 10 (Resisted by Dodge; Hindered and Vulnerable, Defenseless and Immobile), Extra Condition, Limited Degree), ae : f lying f ist (Ranged Damage 10, Limited -2 (2 Fists (Standard action to reconnect), Loses ability use hand(s))), ae : r ocket (Ranged Burst Area Damage 9, Unreliable (2 Rockets), ae : t aser (R anged Affliction 10 (Resisted by Fortitude; Dazed, Stunned, Incapacitated))))",
+    "vantagens": "Improved Aim, Improved Disarm, Improved Grab, Improved Hold, Improved Initiative , Improved Smash, Improved Trip , Interpose, Inventor, Ultimate effort (Technology checks)",
+    "pericias": "Close Combat: Unarmed 4 (+8), Intimidation 7 (+10), Perception 6 (+7), Ranged Combat: Weapon Systems 5 (+8), Technology 9 (+14), Vehicles 7 (+10)",
+    "ataques": "Initiative +6, Unarmed +8 (Close, Damage 10), Flying Fist +8 (Ranged, Damage 10), Rocket +8 (Ranged, Burst Area Damage 9)",
+    "defesas": "Dodge 6, Parry 6, Fortitude 8, Toughness 12, Will 6",
+    "pontos_poder": "Abilities 44 + Powers 66 + Advantages 3 + Skills 19 + Defenses 16 = 148",
+    "complicacoes": "o v erprotective: S.T.R.I.P .E. has a fatherly concern for Stargirl and would sacrifice himself to protect her."
+  }
+}

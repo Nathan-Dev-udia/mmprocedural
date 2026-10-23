@@ -1,0 +1,108 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Siryn",
+  "nome_pt": "Siryn",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 135,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 92
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 1,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 5,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 10,
+      "Fortitude": 5,
+      "Resistencia": 6,
+      "Vontade": 8
+    },
+    "pericias": {
+      "Enganação": 4,
+      "Persuasão": 4,
+      "Investigação": 9,
+      "Percepção": 8,
+      "Intuição": 8
+    },
+    "vantagens": [
+      "Attractive 2",
+      "Contacts",
+      "Connected",
+      "Defensive Roll 2",
+      "Endurance",
+      "Equipment",
+      "Favored Environment [Airborne] 4",
+      "Move By Action",
+      "Teamwork 2"
+    ],
+    "poderes": [
+      {
+        "nome": "Blast",
+        "construcao_3e": "Damage à distância (rank 2e 10); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Blast 10 (Extra: Concentration Duration [+1], Cone Area [+1]; Alternate Powers: Concentration Cone Area Dazzle [Auditory], Automatic Free Action Deflect [Slow Projectiles], Emotion Control [Love] Ineffective vs. Mutants; 44pp) Componentes/efeitos alternativos mapeados: Dazzle → Affliction/Dazzle conforme o sentido-alvo; Deflect → Deflect; Affects Others/Ranged quando indicado; Emotion Control → Affliction resistida por Vontade.; custo 2e impresso 44 PP.",
+        "custo_2e_pp": 44,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Flight",
+        "construcao_3e": "Flight (rank 2e 4); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Flight 4 (8pp); custo 2e impresso 8 PP.",
+        "custo_2e_pp": 8,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Super Senses",
+        "construcao_3e": "Sentidos (rank 2e 3); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Senses 3 (Extended (3) Hearing; 3pp); custo 2e impresso 3 PP.",
+        "custo_2e_pp": 3,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Uniform [+3 Toughness Save; Subtle; 4ep]",
+      "Cell Phone [1ep]"
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 5,
+        "dano": 1
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 6,
+      "esquiva_mais_resistencia": 16,
+      "aparar_mais_resistencia": 16,
+      "fortitude_mais_vontade": 13,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 32,
+    "defesas": 39,
+    "pericias": 33,
+    "vantagens": 15,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 119,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
+    "Perícias foram convertidas subtraindo do bônus total impresso o atributo 3e correspondente. Conhecimentos, Ofícios e Profissões foram mantidos como Especialidades; Condução/Pilotagem como Veículos; Sobrevivência como Especialidade: Sobrevivência; Computadores como Tecnologia.",
+    "Poderes preservam os descritores, ranks, modificadores e custos 2e impressos; o guia orienta o efeito 3e equivalente. Custos 3e ficam nulos quando a construção exata ou os modificadores não permitem cálculo seguro.",
+    "Nenhuma Motivação ou complicação não publicada foi acrescentada.",
+    "A fonte informa 51 PP na categoria Powers, mas os custos individuais listados somam 55 PP (Blast 44, Flight 8, Super Senses 3). A diferença de 4 PP foi preservada sem correção.",
+    "Subtotal 3e conhecido: 32 PP em habilidades, 33 em perícias, 39 em defesas, 15 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto."
+  ]
+}

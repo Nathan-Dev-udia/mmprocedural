@@ -1,0 +1,27 @@
+{
+  "nome": "Solomon Grundy",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 14,
+  "pontos_poder_publicados": 158,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 187
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "18",
+      "STA": "20",
+      "AGL": "0",
+      "DEX": "0",
+      "FGT": "6",
+      "INT": "-2",
+      "AWE": "0",
+      "PRE": "0"
+    },
+    "poderes": "i Impervious Toughness 8 • 8 points mp enetrable Hide: Soulless: Immunity 5 (Control effects) • 5 points Unliving: Immunity 30 (Fortitude) • 30 points d a e S a V ant G All-out Attack, Close Attack 4, Fearless, Improved Hold, Power Attack",
+    "pericias": "Intimidation 8 (+8)",
+    "ataques": "i nitia tive +0 Unarmed +10 Close, Damage 18 efen S e d d odge 8 f or titude Immune Parry 8 t oughness 20 W ill 9",
+    "pontos_poder": "a bilities 84 S kills 4 d Powers 43 efenses 19 a dv ToTal 158",
+    "complicacoes": "f ur y: Grundy is given to uncontrollable bouts of temper and rage. Gullible: Grundy is often fooled into helping out a new “friend. ”"
+  }
+}

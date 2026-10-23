@@ -1,0 +1,27 @@
+{
+  "nome": "Etta Candy",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 5,
+  "pontos_poder_publicados": 64,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 270
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "2",
+      "AGL": "0",
+      "DEX": "2",
+      "FGT": "4",
+      "INT": "2",
+      "AWE": "1",
+      "PRE": "1"
+    },
+    "vantagens": "Benefit (military rank)",
+    "pericias": "Athletics 5 (+6), Close Combat: Unarmed 2 (+6), Deception 3 (+4), Expertise: Military 6 (+8), Insight 6 (+7), Investigation 4 (+6), Perception 4 (+5), Ranged Combat: Guns 6 (+6), Stealth 4 (+4), Treatment 2 (+4), Vehicles 2 (+4)",
+    "ataques": "Initiative +0, Pistol +6 (Damage 3), Unarmed +6 (Damage 1)",
+    "defesas": "Dodge 6, Parry 6, Fortitude 4, Toughness 2, Will 6",
+    "pontos_poder": "Abilities 26 + Powers 0 + Advantages 1 + Skills 22 + Defenses 15 = Total 64"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "nome": "The Ultra-Humanite",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 13,
+  "pontos_poder_publicados": 247,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 251
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "10",
+      "STA": "8",
+      "AGL": "4",
+      "DEX": "2",
+      "FGT": "5",
+      "INT": "7",
+      "AWE": "7",
+      "PRE": "5"
+    },
+    "poderes": "Gorilla’s Body: Feature 1 (Insulating Fur), Growth 4 (Innate, Permanent), Protection 3 • 13 points Mental Powers: Array (48 points) • t elek inesis: Move Object 12, Damaging, Perception Range • 48 points • Psychic Blast: Damage 9, Alternate Resistance (Will), Burst Area, Perception Range • 1 point • t elepa thy: Communication 4 (Mental), Concentration, Remote Sensing 18 (Audial & Visual), Concentration • 1 point",
+    "vantagens": "Benefit 2 (Wealth), Diehard, Evasion, Improvised Tools, Inventor, Leadership",
+    "pericias": "Acrobatics 8 (+12), Athletics 8 (+18), Close Combat: Unarmed 8 (+13), Deception 9 (+14), Expertise: Criminal 14 (+21), Expertise: Science 15 (+22), Insight 9 (+16), Intimidation 9 (+14), Perception 13 (+20), Persuasion 9 (+14), Technology 15 (+22), Treatment 13 (+20) ffen S e o i nitia tive +4 Psychic Blast, Area Perception, Damage 9 Unarmed +13 Close, Damage 10",
+    "defesas": "d odge 13 f or titude 12 Parry 13 t oughness 11 W ill 14",
+    "pontos_poder": "a bilities 80 S kills 65 Powers 63 d efenses 32 a dv antages 7 ToTal 247",
+    "complicacoes": "o bsession: The Ultra Humanite craves power at any cost, even his own humanity. d isabilit y: Originally limited by a weak and sickly body, the Humanite’s psionic energies gradually degrade the substitute bodies his brain occupies, forcing him to periodically find replacements. Power Loss: It takes time for a new body to adapt to the Humanite’s mental powers, and he cannot use them for a time after his brain is transplanted. t he g o L den a ge uL tra- h u M an I te In his original body, the Ultra-Humanite had Fighting, Agility, Strength & Stamina scores of –2, had no Skills based on them, no Powers, and no Evasion Advantage."
+  }
+}

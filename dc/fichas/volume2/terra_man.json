@@ -1,0 +1,28 @@
+{
+  "nome": "Terra-Man",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 236
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "4",
+      "AGL": "4",
+      "DEX": "5",
+      "FGT": "4",
+      "INT": "2",
+      "AWE": "2",
+      "PRE": "2"
+    },
+    "poderes": "Six Shooters: Array (26 points), Easily Removable (-14 points) • Standard Bullets: Ranged Damage 13, Penetrating 4 • 30 points • e xploding Bullets: Burst Area Ranged Damage 10 • 1 point • d azzle Bullets: Ranged Affliction 13 (Resisted by Fortitude; Vision Impaired, Vision Disabled, Vision Unaware) • 1 point • Psi-Bullets: Ranged Damage 10, Resisted By Will • 1 point f lying Harness: Flight 6 (120 MPH), Removable (-2 points) • 10 points Lariat: Affliction 12 (Resisted by Dodge; Hindered and Vulnerable, Defenseless and Immobile), Extra Condition, Limited Degree, Reach 8 (40 feet), Linked to Move Object 2 (200 lbs.), Close Range, Reach 8 (40 feet) Easily Removable (-12 points) • 18 points",
+    "vantagens": "Accurate Attack, Animal Empathy, Defensive Attack, Defensive Roll 4, Improved Aim, Improved Critical 2 (Six Shooters), Improved Initiative 1, Power Attack, Precise Attack 2 (Ranged, Cover and Concealment), Quick Draw, Ranged Attack 6",
+    "pericias": "Acrobatics 6 (+10), Athletics 8 (+10), Close Combat: Unarmed 4 (+8), Deception 6 (+8), Insight 4 (+6), Intimidation 4 (+6), Perception 4 (+6), Stealth 3 (+7), Treatment 3 (+5)",
+    "ataques": "i nitia tive +8 Standard Bullet +11 Ranged, Damage 13, Penetrating 4, Crit. 18-20 Exploding Bullet — Ranged, Burst Area Damage 12 Psi- Bullet +11 Ranged, Damage 10, Resisted by Will, Crit. 18-20 Unarmed +8 Close, Damage 2",
+    "defesas": "d odge 12 f or titude 8 Parry 9 t oughness 8/4* W ill 8 *Without Defensive Roll. Po er Point W S a bilities 50 S kills 21 Powers 47 d efenses 23 a dv antages 21 totAl 162",
+    "complicacoes": "Code of the West: Manning follows his own twisted version of the gunfighters’ code of the Old West; he’ll never shoot an unarmed man, he’ll defend the honor of women, and he abides by his own version of all the other honorable behaviors made famous in movies."
+  }
+}

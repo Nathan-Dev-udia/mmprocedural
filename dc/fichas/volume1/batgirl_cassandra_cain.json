@@ -1,0 +1,29 @@
+{
+  "nome": "Batgirl (Cassandra Cain)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 150,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 42
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "4",
+      "AGL": "5",
+      "DEX": "5",
+      "FGT": "10",
+      "INT": "1",
+      "AWE": "4",
+      "PRE": "1"
+    },
+    "equipamento": "Flashlight: Feature 1 (Illumination) • 1 point Grapnel Gun: Super-Movement 1 (Swinging) • 2 points Plasti-Cuffs: Feature 1 (Restraint) • 1 point Mini-Tracers: Feature 1 (Tracking) • 1 point Utility Belt: Array (12 points) • Tear Gas Pellets: Ranged Cloud Area Affliction 3 (Resisted by Fortitude; Dazed and Vision Impaired, Stunned and Vision Disabled, Incapacitated) • 12 points • Batarangs: Strength-based Ranged Damage 2 • 1 point • Bolos: Ranged Affliction 4 (Resisted by Dodge; Hindered and Vulnerable, Defenseless and Immobile) • 1 point • Cutting Torch: Damage 1 Linked to Weaken Object’s Toughness 1 • 1 point • Explosive Batarangs: Ranged Burst Area Damage 4 • 1 point • Flash Bombs: Ranged Burst Area Affliction 3 (Resisted by Fortitude; Vision Impaired, Vision Disabled, Vision Unaware) • 1 point • Sleep Gas Pellets: Ranged Cloud Area Affliction 4 (Resisted by Fortitude; Fatigued, Exhausted, Asleep) • 1 point • Smoke Bombs: Cloud Area Visual Concealment Attack 4 • 1 point VEHICLE: MOTORCYCLE • 11 POINTS Size: Medium Str 1 Spd 6 Def 10 Tou 8 Features: Navigation System",
+    "vantagens": "Agile Feint, Assessment, Benefit 1 (Cipher), Close Attack 3, Defensive Attack, Defensive Roll, Equipment 7, Grabbing Finesse, Great Endurance, Hide in Plain Sight, Improved Critical (Unarmed), Improved Initiative, Improved Trip, Instant Up, Power Attack, Ranged Combat 3, Skill Mastery (Insight), Uncanny Dodge",
+    "pericias": "Acrobatics 7 (+12), Athletics 7 (+9), Close Combat: Unarmed 5 (+15), Insight 8 (+12), Intimidation 4 (+5), Investigation 6 (+7), Perception 7 (+11), Ranged Combat: Batarang 5 (+10), Sleight of Hand 4 (+9), Stealth 7 (+12), Vehicles 4 (+9)",
+    "ataques": "Initiative +9 Unarmed +18 Close, Damage 2, Crit. 19-20 Batarang +13 Ranged, Damage 4",
+    "defesas": "Dodge 15 Fortitude 10 Parry 15 Toughness 5/4* Will 10 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 64 Skills 31 Powers 0 Defenses 27 Advantages 28 ToTal 150",
+    "complicacoes": "Fear of Abandonment: Cassandra’s brutal upbringing has left her with a serious fear of abandonment, and a vulnerability to mental manipulation."
+  }
+}

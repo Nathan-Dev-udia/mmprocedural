@@ -1,0 +1,28 @@
+{
+  "nome": "Shining Knight (Sir Justin)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 150,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 178
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "4",
+      "STA": "4",
+      "AGL": "5",
+      "DEX": "4",
+      "FGT": "7",
+      "INT": "2",
+      "AWE": "3",
+      "PRE": "3"
+    },
+    "poderes": "e nchanted a rmor : Immunity 2 (Cold, Heat); Impervious Protection 5, Removable (-2 points) • 10 points total e nchanted Sword: Strength-based Damage 3, Penetrating 3, Easily Removable (-2 points) • 4 points",
+    "vantagens": "All-out Attack, Equipment, Improved Critical (Sword), Improved Smash, Interpose, Power Attack, Sidekick 12, Takedown, Weapon Break",
+    "pericias": "to fight crime in the twentieth century as the Shining Knight. Merlin often called Justin back to the sixth century to defend the realm of Camelot.",
+    "ataques": "i nitia tive +5 Enchanted Sword +13 Close, Damage 7, Penetrating 3 Unarmed +11 Close, Damage 4",
+    "defesas": "d odge 11 f or titude 9 Parry 11 t oughness 9 W ill 9",
+    "pontos_poder": "a bilities 64 S kills 29 Powers 14 d efenses 21 antages 22 a dv ToTal 150"
+  }
+}

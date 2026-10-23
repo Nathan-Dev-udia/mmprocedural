@@ -1,0 +1,28 @@
+{
+  "nome": "Ra’S Al Ghul",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 14,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 127
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "4",
+      "STA": "5",
+      "AGL": "3",
+      "DEX": "4",
+      "FGT": "14",
+      "INT": "9",
+      "AWE": "5",
+      "PRE": "7"
+    },
+    "equipamento": "Sword (Strength-based Damage 3, Improved Critical) • 4 points",
+    "vantagens": "44 ToTal 225 Co MPL i C tion S a a Ra’s believes he knows what is best for everyone rr ogance: and the world, and that he alone has the will to do what must be done to save it. Legacy: Ra’s is obsessed with his own mortality and the legacy he must leave to a worthy successor.",
+    "pericias": "55",
+    "ataques": "i nitia tive +7 Sword +20 Close, Damage 7, Crit. 18-20 Unarmed +18 Close, Damage 4",
+    "defesas": "d odge 12 f or titude 11 Parry 14 t oughness 8/5* W ill 14 *Without Defensive Roll. W S Po er Point a bilities 102",
+    "poderes": "0 d efenses 24"
+  }
+}

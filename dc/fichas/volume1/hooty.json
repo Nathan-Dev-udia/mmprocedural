@@ -1,0 +1,28 @@
+{
+  "nome": "Hooty",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 4,
+  "pontos_poder_publicados": 49,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 173
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "-2",
+      "STA": "0",
+      "AGL": "4",
+      "DEX": "2",
+      "FGT": "2",
+      "INT": "-1",
+      "AWE": "2",
+      "PRE": "0"
+    },
+    "poderes": "Strength-based Damage 1 ; Flight 4 (30 MPH; Innate, Subtle, Wings); Senses 3 (Darkvision, Extended Vision; Innate); Shrinking 6 (Permanent, Innate)",
+    "vantagens": "Evasion, Fast Grab, Improved Initiative, Move-by Attack",
+    "pericias": "Stealth 2 (+12)",
+    "ataques": "Initiative +8, Unarmed +8 (Close, Damage -1)",
+    "defesas": "Dodge 12, Parry 10, Fortitude 1, Toughness 0, Will 2",
+    "pontos_poder": "Abilities 16 + Powers 17 + Advantages 4 + Skills 1 + Defenses 11 = 49"
+  }
+}

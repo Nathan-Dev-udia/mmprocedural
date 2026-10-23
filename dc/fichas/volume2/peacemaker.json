@@ -1,0 +1,29 @@
+{
+  "nome": "Peacemaker",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 101
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "4",
+      "STA": "3",
+      "AGL": "3",
+      "DEX": "8",
+      "FGT": "8",
+      "INT": "3",
+      "AWE": "2",
+      "PRE": "1"
+    },
+    "poderes": "36 d efenses 59 a dv antages 51 ToTal 212",
+    "equipamento": "a rsenal: Array (15 points) • a ssault r ifle: Ranged Multiattack Damage 5 • 15 points • Combat k nife: Strength-based Damage 2, Improved Critical • 1 point • f r agmentation Grenades: Ranged Burst Area Damage 5 • 1 point • Heavy Pistol: Ranged Damage 4 • 1 point • Submachine Gun: Ranged Multiattack Damage 4 • 1 point • Sword: Strength-based Damage 3, Improved Critical • 1 point H q : p ea C e M aker Ca V ern • 14 POI n TS Size: Large t ou: 12 f ea tures: Communications, Computer, Concealed,",
+    "defesas": "System, Garage, Gym, Hanger, Power System, Workshop. Ve H i CL e S : a rray (86 P oint S ) p ea C e M aker Jet • 86 POI n TS Size: Huge Str: 10 Speed: 10 (Flight) d ef: 6 t ou: 10 f ea tures: Missiles (Ranged Burst Area 4 (250 feet) Damage 10), AE: Machine Gun (Ranged Multiattack Damage 6) p ea C e M aker He L i C opter • 1 POI n T Size: Huge Str: 8 Speed: 7 d ef: 6 t ou: 9 Motor C y CL e • 1 POI n T Size: Medium Str: 1 Speed: 6 d ef: 10 t ou: 8",
+    "vantagens": "All-out Attack, Benefit 3 (Millionaire), Close Attack 5, Equipment 21, Improved Initiative, Languages 3 (German, French, Italian, Spanish, English Native), Power Attack, Precise Attack (Ranged; Cover), Ranged Attack 7, Quick Draw, Startle, Takedown, Throwing Mastery",
+    "pericias": "Acrobatics 6 (+9), Athletics 4 (+8), Close Combat: Unarmed 2 (+10), Expertise: Tactics 4 (+7), Intimidation 8 (+9), Investigation 4 (+7), Perception 6 (+8), Persuasion 6 (+7), Stealth 8 (+11), Technology 10 (+13), Treatment 4 (+7), Vehicles 2 (+10)",
+    "ataques": "i nitia tive +7 Assault Rifle +15 Ranged, Multiattack Damage 5 Fragmentation Grenade — Ranged, Burst Area Damage 5 Heavy Pistol +15 Ranged, Damage 4 Submachine Gun +15 Ranged, Multiattack Damage 4 Sword +13 Close, Damage 7, Crit. 19-20 Unarmed +15 Close, Damage 4 efen S e d d odge 13 f or titude 11 Parry 13 t oughness 7 W ill 8 Po er Point W S a bilities 64 S kills 32",
+    "complicacoes": "Motivation: Doing the right thing. o bsession: Keeping the peace, no matter what the cost. Quirk: Sees his dead father and deceased victims of terrorism egging him on. Secret den i tity: Christopher Smith."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "nome": "Johnny Quick",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": 209,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 136
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "3",
+      "AGL": "4",
+      "DEX": "3",
+      "FGT": "4",
+      "INT": "4",
+      "AWE": "1",
+      "PRE": "2"
+    },
+    "poderes": "Costume Ring (Feature 1 (stores compressed costume)); Frictionless Aura (Immunity 1 (Friction Heat)); Run On Water (Movement 1 (Water Walking), Limited to While Moving); Run Up Walls (Movement 2 (Wall-crawling 2), Limited to While Moving; Super-Speed Enhanced Defenses 12 (Dodge and Parry), Enhanced",
+    "vantagens": "(Agile Feint, Close Attack 4, Defensive Roll 5, Evasion 2, Improved Initiative 10, Interpose, Instant Up, Move-by Action, Seize Initiative, Takedown), Quickness 20, Speed 20 (2,000,000 MPH)); Super- Speed Stunts ( Array (20 points), Air Control (Cone Area Move Object 10, Close Range), AE: Air Cushion (Burst Area Safe Fall, Affects Others), AE: Vacuum (Burst Area Cumulative Affliction 5 (Resisted by Fortitude; Dazed, Stunned, Incapacitated), Concentration), AE: Vibration (Insubstantial 4), AE: Whirlwind (Burst Area Move Object 10, Close Range)) Advantages: Agile Feint, Benefit 5 (CSA member), Close Attack 4, Defensive Roll 5 , Evasion 2 , Improved Initiative 10, Interpose, Instant Up, Move-by Action, Seize Initiative, Takedown, Teamwork, Ultimate Effort (Super-Speed checks)",
+    "pericias": "Acrobatics 4 (+8), Athletics 6 (+7), Deception 4 (+6), Close Combat: Unarmed 2 (+6), Expertise: Criminal 8 (+12), Deception 8 (+12), Investigation 8 (+12), Perception 4 (+7), Technology 8 (+12)",
+    "ataques": "Initiative +44, Unarmed +10 (Close, Damage 1), Whirlwind—(Burst Area, Grab, Dodge DC20)",
+    "defesas": "Dodge 16, Parry 16, Fortitude 9, Toughness 8/3*, Will 7 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 44 + Powers 120 + Advantages 7 + Skills 26 + Defenses 12 = 209",
+    "complicacoes": "Weakness: Extra effort involving his super-speed threatens to draw Johnny Quick into alternate dimensions (he once was pulled into a desolate future timeline). Power Loss: Johnny Quick’s super-speed powers are dependent on taking regular doses of his speed-juice drug. Missing a dose makes him so sluggish Johnny Quick suffers -5 penalties to Intellect and Agility checks. Quirk: Johnny Quick is rash and foolhardy; he must succeed on Awareness Checks to avoid racing headfirst into dangerous situations. powers. The rivalry involves his illicit affair with Ultraman’s wife, Superwoman. Supremely confident, Owlman greatly enjoys new challenges. Owlman is dedicated to bringing ruin to his father and Go - tham City police loyal to the commissioner. The only time he loses his cool is when reminded of his family’s tragedy. POWERS & ABILITIES Like his counterpart Batman, Thomas Jr. spent years train - ing his mind and body to the peak of human development, then crafted the costumed identity of Owlman to strike fear in the hearts of Gotham’s police and honest citizenry. Unlike the Batman, Owlman uses performance enhancing drugs to"
+  }
+}

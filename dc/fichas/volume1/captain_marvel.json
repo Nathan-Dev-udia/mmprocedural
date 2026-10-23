@@ -1,0 +1,29 @@
+{
+  "nome": "Captain Marvel",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 15,
+  "pontos_poder_publicados": 230,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 105
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "19",
+      "STA": "15",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "6",
+      "INT": "2",
+      "AWE": "10",
+      "PRE": "3"
+    },
+    "poderes": "Wisdom of Solomon: Enhanced Advantages 4 (Assessment, Beginner’s Luck, Eidetic Memory, Jack-of-all-trades), Enhanced Awareness 7 • 18 points Strength of Hercules: Enhanced Strength 4, Limited to Lifting (Lifting Str 23; 200,000 tons) • 4 points Stamina of Atlas: Protection 4, Impervious Toughness 19; Immunity 10 (Life Support) • 33 points Courage of Achilles: Enhanced Fighting 4, Enhanced Will 5, Impervious Will 10 • 23 points Speed of Mercury: Array (30 points) • Flight 15 (64,000 MPH) • 30 points • Dimensional Travel 1 (Rock of Eternity) • 1 point • Quickness 15, Speed 15 (64,000 MPH) • 1 point",
+    "vantagens": "Assessment, Beginner’s Luck, Eidetic Memory, Great Endurance, Interpose, Jack-of-all-trades, Move-by Action",
+    "pericias": "Close Combat: Unarmed 5 (+11), Expertise: Radio Host 6 (+9), Insight 2 (+12), Perception 3 (+13)",
+    "ataques": "Initiative +2 Unarmed +11 Close, Damage 19",
+    "defesas": "Dodge 11 Fortitude 15 Parry 10 Toughness 19 Will 15",
+    "pontos_poder": "Abilities 96 Skills 8 Powers 110 Defenses 13 Advantages 3 ToTal 230",
+    "complicacoes": "Nemesis: Dr. Thaddeus Sivana (see Doctor Sivana ). Power Loss: No powers as Billy Batson. Captain Marvel can lose his powers if tricked into saying his magic word. Secret Identity: Billy Batson. In his normal identity, Billy has Str 0, Sta 1, Ftg 2, and Awe 3 with corresponding adjustments to his skill ranks and defenses. Y oung: Captain Marvel is really just a kid at heart, and sometimes makes foolish or impulsive choices."
+  }
+}

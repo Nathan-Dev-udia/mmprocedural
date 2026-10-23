@@ -1,0 +1,29 @@
+{
+  "nome": "Firestorm",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 203,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 206
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "8",
+      "STA": "8",
+      "AGL": "4",
+      "DEX": "4",
+      "FGT": "2",
+      "INT": "1",
+      "AWE": "2",
+      "PRE": "2"
+    },
+    "poderes": "Absorption: Burst Area Nullify 11 (Electromagnetic Energy) Linked to Burst Area Nullify 11 (Kinetic Energy), Distracting, Tiring • 22 points Flight 8 (500 MPH) • 16 points Heightened Senses: Senses 9 (Extended Vision 3, Infravision, Microscopic Vision 4, Ultravision) • 9 points Nuclear Control: Array (42 points) • Atomic Rearrangement: Ranged Transform 8 (Anything to Anything), Increased Duration (Continuous), Skill Check Required 10 (Expertise: Science DC20) , Half-Value Side Effect: Automatic when attempted on organic matter: Affliction 12 (Resisted by Fortitude; Dazed, Stunned, Incapacitated) and Damage 12 • 42 points • Nuclear Bolt: Ranged Damage 12 • 1 point • Intangible Insubstantial 4 (Incorporeal), Reaction • 1 point Quick Change: Feature 1 • 1 point Stein’s Presence*: Enhanced Skill 14 (Expertise: Science +14) • 7 points *Only when Stein is part of Firestorm",
+    "vantagens": "Defensive Roll 2, Evasion, Improved Initiative, Move-by Action, Power Attack, Ultimate Effort (Expertise: Science)",
+    "pericias": "Acrobatics 4 (+8), Athletics 4 (+12), Close Combat: Unarmed 12 (+14), Deception 4 (+6), Expertise: Science 5 (+6/+20*), Insight 4 (+6), Perception 5 (+7), Ranged Combat: Nuclear Control 6 (+10) *Only if Stein is part of the Firestorm matrix",
+    "ataques": "Initiative +8 Atomic Ranged, Transform 8, Continuous, Skill Rearrangement +10 Check Required Nuclear bolt +10 Ranged, Damage 12 Unarmed +14 Close, Damage 8",
+    "defesas": "Dodge 12 Fortitude 10 Parry 10 Toughness 10/8** Will 8 **Without Defensive Roll.",
+    "pontos_poder": "Abilities 62 Skills 22 Powers 88 Defenses 24 Advantages 7 ToTal 203",
+    "complicacoes": "Identity: Firestorm’s identities are secret from the public. Motivation: Doing Good: Firestorm and those that join together to make him are good people interested in helping however they can. Power Loss: The two beings who merge to create Firestorm have no powers when they separate into their normal forms."
+  }
+}

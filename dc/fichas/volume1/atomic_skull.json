@@ -1,0 +1,30 @@
+{
+  "nome": "Atomic Skull",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 165,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 34
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "12",
+      "STA": "8",
+      "AGL": "6",
+      "DEX": "2",
+      "FGT": "4",
+      "INT": "1",
+      "AWE": "1",
+      "PRE": "2"
+    },
+    "poderes": "Atomic Blast: Ranged Damage 11 • 22 points Superhuman Reflexes: Enhanced Advantage 1 (Improved Initiative); Enhanced Agility 5 • 11 points Superhuman Resilience: Enhanced Stamina 6; Enhanced Strength 10; Impervious Toughness 8; Protection 4 • 44 points",
+    "equipamento": "VEHICLE: MOTORCYCLE • 10 POINTS Size: Medium Str 1 Speed 6 Def 10 Tou 8",
+    "vantagens": "Chokehold, Close Attack 6, Equipment 2, Improved Hold, Improved Initiative , Power Attack, Startle",
+    "pericias": "Acrobatics 4 (+10), Athletics 4 (+16), Expertise: Film History 6 (+7), Expertise: Movie Serials 8 (+9), Intimidation 6 (+8), Perception 8 (+9), Ranged Combat: Blast 8 (+10), Vehicles 10 (+12)",
+    "ataques": "Initiative +10 Atomic Blast +10 Ranged, Damage 11 Unarmed +10 Close, Damage 12",
+    "defesas": "Dodge 10 Fortitude 10 Parry 10 Toughness 12 Will 8",
+    "pontos_poder": "Abilities 30 Skills 27 Powers 77 Defenses 19 Advantages 12 ToTal 165",
+    "complicacoes": "Delusional Psychotic: Joe believes that he is playing the part of the hero in his delusional recreation of his favorite Depression-era movie serial. Macabre Appearance : The Atomic Skull’s skull shows visibly and burns endlessly."
+  }
+}

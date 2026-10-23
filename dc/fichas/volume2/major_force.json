@@ -1,0 +1,28 @@
+{
+  "nome": "Major Force",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 14,
+  "pontos_poder_publicados": 230,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 38
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "17",
+      "STA": "12",
+      "AGL": "2",
+      "DEX": "1",
+      "FGT": "8",
+      "INT": "0",
+      "AWE": "1",
+      "PRE": "0"
+    },
+    "poderes": "d Immunity 10 (Life Support); Immortality 1; ilust el Covering: Impervious Toughness 14; Protection 2 • 28 points Quantum Channeling : Power-lifting 5 (Lifting Str 22; 100,000 tons), Flight 12 (8,000 MPH), Leaping 9, Regeneration 1 (Persistent) • 40 points Quantum Manipulation: Array (32 points) • d ark Matter Blast: Ranged Damage 14, Accurate 2, Split 2 • 32 points • d ark Matter Constructs: Create 7 (Continuous, Movable, Precise) • 1 point • Quantum Blast: Ranged Damage 17 (Diminished Range, Inaccurate) • 1 point • Quantum Burst: Burst Area 2 (60 feet) Damage 10 • 1 point • Quantum d ain: Weaken All Electromagnetic Energy r Powers 6, Broad (all EM Energy), Concentration, Progressive • 1 point",
+    "vantagens": "All-out Attack, Benefit (Security Clearance), Power Attack, Ranged Attack 9",
+    "pericias": "Athletics 5 (+22), Close Combat: Unarmed 3 (+11), Deception 2 (+2), Expertise: Military Science 3 (+3), Intimidation 8 (+8), Investigation 2 (+2), Perception 3 (+4), Persuasion 4 (+4)",
+    "ataques": "i nitia tive +2 Dark Matter Blast +14 Ranged, Damage 14 Quantum Blast +8 Ranged, Damage 17 Unarmed +11 Close, Damage 17",
+    "defesas": "d odge 8 f or titude 14 Parry 10 t oughness 14 W ill 8",
+    "pontos_poder": "a bilities 82 S kills 15 Powers 104 d efenses 17 a dv antages 12 ToTal 230"
+  }
+}

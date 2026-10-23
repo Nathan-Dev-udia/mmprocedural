@@ -1,0 +1,28 @@
+{
+  "nome": "Blue Devil (Original Version)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 150,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 79
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "10",
+      "STA": "8",
+      "AGL": "3",
+      "DEX": "3",
+      "FGT": "7",
+      "INT": "2",
+      "AWE": "1",
+      "PRE": "2"
+    },
+    "poderes": "Gills (Immunity 1 (Drowning)), Organic Body Armor (Protection 4, Regeneration 5), Powered Exoskeleton (Enhanced Strength 4, Limited to Lifting (Lifting Str 14; 400 tons)), Trident (Flight 5 (60 MPH), Strength-based Damage 3, Easily Removable), Radio and Visual/Auditory Amplifiers (Senses 3 (Extended Vision and Hearing, Radio))",
+    "vantagens": "All-out Attack, Evasion, Instant Up, Inventor, Improved Defense, Power Attack, Startle, Takedown",
+    "pericias": "Acrobatics 8 (+11), Athletics 1 (+11), Close Combat: Unarmed 3 (+10), Deception 6 (+8), Expertise: Acting 5 (+7), Expertise: Special Effects 6 (+8), Insight 4 (+5), Intimidation 9 (+11), Perception 6 (+7), Persuasion 2 (+4), Stealth 6 (+9), Technology 6 (+8)",
+    "ataques": "Initiative +7, Trident +7 (Damage 13), Unarmed +10 (Damage 10)",
+    "defesas": "Dodge 7, Parry 8, Fortitude 12, Toughness 12, Will 7",
+    "pontos_poder": "Abilities 72 + Powers 24 + Advantages 8 + Skills 31 + Defenses 15 = 150"
+  }
+}

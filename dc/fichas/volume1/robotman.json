@@ -1,0 +1,30 @@
+{
+  "nome": "Robotman",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 174,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 184
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "10",
+      "STA": "—",
+      "AGL": "3",
+      "DEX": "2",
+      "FGT": "6",
+      "INT": "1",
+      "AWE": "1",
+      "PRE": "4"
+    },
+    "poderes": "Armored Robotic Body (Strength-based Damage 2; Immunity 32 (Critical Hits, Fortitude Effects) ; Protection 13, Impervious 8) Artificial Senses (Senses 7 (Direction Sense, Extended Sight, Extended Hearing, Low-Light Vision, Infravision, Radio, Time Sense)); Disembodied Brain ( Immortality 1 (As long as his brain survives, Robotman can be repaired)); Hydraulic Legs (Leaping 4; Movement 1 (Safe Fall), Speed 4 (30 MPH)); Magnetized Boots (Movement 2 (Wall-crawling 2), Limited to surfaces with metal in/on them); Blaster ( Ranged Damage 10)",
+    "equipamento": "5 points of appropriate equipment.",
+    "vantagens": "Diehard, Equipment, Fearless, Improved Hold, Interpose, Teamwork",
+    "pericias": "Athletics 4 (+14), Close Combat: Unarmed 4 (+10), Intimidation 4 (+8), Persuasion 2 (+7), Ranged Combat: Weapons System 8 (+10), Vehicles 4 (+9), Technology 4 (+5)",
+    "ataques": "Initiative +5, Unarmed +10 (Close, Damage 12), Blaster +10 (Ranged, Damage 10)",
+    "defesas": "Dodge 6, Parry 9, Fortitude Immune, Toughness 13, Will 8",
+    "pontos_poder": "Abilities 54 + Powers 86 + Advantages 6 + Skills 15 + Defenses 13 = 174",
+    "complicacoes": "Relationships: Cliff Steele is devoted to the well-being of his teammates. Weakness: Robotman has a human brain, which is dependent on his bionic body’s life support systems. He cannot exist indefinitely without oxygen or nourishment, despite his Immunity to Fortitude effects, as his robot body’s reserves are not infinite."
+  }
+}

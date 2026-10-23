@@ -1,0 +1,28 @@
+{
+  "nome": "Persuader",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": 152,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 198
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "8",
+      "STA": "8",
+      "AGL": "5",
+      "DEX": "4",
+      "FGT": "7",
+      "INT": "0",
+      "AWE": "3",
+      "PRE": "2"
+    },
+    "poderes": "Atomic Axe (Easily Removable, –6 points; Feature: Mentally Linked to Persuader); Atomic Strike (Damage 14, Penetrating 14, Affects Insubstantial 2, Dimensional 3, Reach, Variable Descriptor 2 (Quantum); AE: Cut Anything (Damage 14 Linked Weaken Toughness 14, Affects Objects Only, Reach), AE: Cut Rift (Dimensional Travel 3, Portal); Armor (Impervious Protection 2, Removable, –1 point)",
+    "vantagens": "Accurate Attack, Close Attack 3, Connected, Fearless, Improved Initiative, Power Attack",
+    "pericias": "Acrobatics 3 (+8), Athletics 4 (+12), Deception 2 (+4), Expertise: Mercenary 8 (+8), Expertise: Streetwise 8 (+8), Intimidation 9 (+11), Stealth 2 (+7)",
+    "ataques": "Initiative +9, Atomic Axe +10 (Damage 14), Unarmed +10 (Damage 8)",
+    "defesas": "Dodge 8, Parry 14, Fortitude 12, Toughness 10, Will 6",
+    "pontos_poder": "Abilities 74 + Powers 35 + Advantages 8 + Skills 18 + Defenses 17 = 152"
+  }
+}

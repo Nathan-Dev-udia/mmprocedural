@@ -1,0 +1,27 @@
+{
+  "nome": "Dr. Leslie Thompkins",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 5,
+  "pontos_poder_publicados": 34,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 48
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "–",
+      "STA": "0",
+      "AGL": "0",
+      "DEX": "2",
+      "FGT": "0",
+      "INT": "2",
+      "AWE": "2",
+      "PRE": "1"
+    },
+    "pericias": "without tools. Second, as Bruce Wayne, Batman has access to consid - erable wealth and mundane resources, covered by his Benefit advantage and not listed. He doesn’t have to worry about getting an ordinary car, plane, vacation home, or common item of electronics, for example, so long as Bruce’s credit card is on the job. Next, he can use power stunts (see DC ADventures , page 20) in conjunction with his Utility Belt Array or other equipment to jury-rig or “happen to have” a particular useful item. Like any other power stunt, this piece of equipment is generally good for one scene in the adven - ture, but the GM is encouraged to be flexible when it comes to Batman’s gear. Finally, Batman has the Inventor advantage and suffi - cient ranks in Technology that he can routinely come up with inventions worth 15 points, more if he’s willing to make the skill check. This typically allows him the oppor - tunity to prepare equipment that he knows he will need in advance, from a special fire-retardant suit to an anti - dote for a foe’s deadly toxin. newfound purpose. For years, he trained Kate for her role as a masked vigilante, and now she fights crime as Batwoman.",
+    "ataques": "Initiative +0, Unarmed +0 (Damage –1)",
+    "defesas": "Dodge 2, Parry 1, Fortitude 2, Toughness 0, Will 4",
+    "pontos_poder": "Abilities 12 + Skills 15 + Defenses 7 = 34",
+    "equipamento": "character in the DC Universe. Even ignoring some of his more outré gadgets, it’s safe to say Bats has all the best toys. The items listed under Equipment for him are merely the most commonly- used. Fortunately, in DC ADventures game terms, Batman has plenty of options for breaking out the odd or unusual piece of equipment. First, assume Batman has various minor items of equip - ment useful for using his different skills, but not listed among his game traits. For example, his Utility Belt may be assumed to include things like lockpicks, an evidence kit, and other necessary tools for his Investigation and Tech - nology skills. These simply overcome the circumstance penalties normally applied for using those"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Beast",
+  "nome_pt": "Fera",
+  "nivel_poder": 9,
+  "pontos_poder_origem": 150,
+  "pontos_poder_3e": 183,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 7
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 6,
+      "Vig": 6,
+      "Agi": 6,
+      "Des": 6,
+      "Lut": 9,
+      "Int": 6,
+      "Pro": 4,
+      "Pre": 2
+    },
+    "habilidades_base": {
+      "For": 3,
+      "Vig": 3,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 9,
+      "Int": 6,
+      "Pro": 4,
+      "Pre": 2
+    },
+    "defesas": {
+      "Esquiva": 9,
+      "Aparar": 9,
+      "Fortitude": 8,
+      "Resistencia": 9,
+      "Vontade": 7
+    },
+    "pericias": {
+      "Acrobacia": 12,
+      "Atletismo": 8,
+      "Tecnologia": 8,
+      "Especialidade: Mecanica": 12,
+      "Especialidade: Eletrica": 12,
+      "Especialidade: Quimica": 12,
+      "Persuasao": 12,
+      "Investigacao": 10,
+      "Especialidade: Ciencias da Vida": 12,
+      "Especialidade: Ciencias Fisicas": 12,
+      "Especialidade: Tecnologia": 12,
+      "Tratamento": 10,
+      "Percepcao": 8,
+      "Intuicao": 4
+    },
+    "vantagens": [
+      "Agile Feint",
+      "Benefit (Ambidextrous)",
+      "Chokehold",
+      "Eidetic Memory",
+      "Equipment",
+      "Improved Grab",
+      "Improved Hold",
+      "Inventor",
+      "Luck",
+      "Power Attack",
+      "Teamwork"
+    ],
+    "poderes": [
+      {
+        "nome": "Enhanced Strength",
+        "construcao_3e": "Enhanced Trait: Strength 3 (para elevar o valor base, derivado de STR 16, ao valor final STR 22).",
+        "custo_2e_pp": 6,
+        "custo_3e_pp": 6
+      },
+      {
+        "nome": "Enhanced Dexterity",
+        "construcao_3e": "Enhanced Trait: Agility 4 e Dexterity 4 (derivados das diferencas entre os valores base e finais da fonte).",
+        "custo_2e_pp": 8,
+        "custo_3e_pp": 16
+      },
+      {
+        "nome": "Enhanced Constitution",
+        "construcao_3e": "Enhanced Trait: Stamina 3 (para elevar o valor base, derivado de CON 16, ao valor final CON 22).",
+        "custo_2e_pp": 6,
+        "custo_3e_pp": 6
+      },
+      {
+        "nome": "Super Senses",
+        "construcao_3e": "Senses 2: Acute Smell.",
+        "custo_2e_pp": 2,
+        "custo_3e_pp": 2
+      }
+    ],
+    "equipamento": [
+      "Uniform (+3 Toughness; Subtle; 4 EP)",
+      "Glasses (0 EP)"
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 9,
+        "dano": 6
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 15,
+      "esquiva_mais_resistencia": 18,
+      "aparar_mais_resistencia": 18,
+      "fortitude_mais_vontade": 15,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades_base": 62,
+    "poderes": 30,
+    "defesas": 8,
+    "pericias": 72,
+    "vantagens": 11,
+    "total": 183
+  },
+  "notas_conversao": [
+    "Acrobatic Bluff virou Agile Feint; Ambidexterity virou Benefit (Ambidextrous); Improved Pin virou Improved Hold. Sneak Attack nao tem equivalencia direta segura e foi omitida.",
+    "Dodge Focus 4 foi convertido em Esquiva, mas os quatro ranks adicionais foram removidos: Esquiva 13 + Resistencia 9 excederia o limite de defesa 18.",
+    "Investigate e Search foram unificadas em Investigation usando o maior bonus 2e (+16); Treatment veio de Medicine. Craft e Knowledge viraram Especialidades. Computers virou Tecnologia 8 (bonus +14 menos Intellect 6), enquanto Knowledge (Technology) permanece Especialidade: Tecnologia 12: sao pericias distintas.",
+    "habilidades_base registra os valores sem os poderes; habilidades registra os valores efetivos. Enhanced Trait soma Strength +3, Stamina +3, Agility +4 e Dexterity +4 (28 PP); Senses custa 2 PP.",
+    "A fonte nao traz uma equivalencia direta para Improved Escape; o recurso nao foi convertido em vantagem nova. Sneak Attack tambem foi omitida.",
+    "Os custos 3e somam 183 PP (62 habilidades base + 30 poderes + 8 defesas + 72 pericias + 11 vantagens). O total ultrapassa os 135 PP padrao de NP 9; nao reduzi os tracos para caber no orcamento inicial."
+  ]
+}

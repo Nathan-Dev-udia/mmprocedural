@@ -1,0 +1,27 @@
+{
+  "nome": "Poison Ivy",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 113
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "3",
+      "AGL": "3",
+      "DEX": "2",
+      "FGT": "5",
+      "INT": "4",
+      "AWE": "3",
+      "PRE": "5"
+    },
+    "poderes": "67 d efenses 28",
+    "vantagens": "6 ToTal 182 Co MPL i C tion S a e nvironmentalist: Poison Ivy’s mission is to protect plant life and pur ify Gotham. Vanity: Poison Ivy is obsessed with having power over others, particularly Batman, who is one of the few to have been able to reject her. lips—toxic to the touch. Her poisons can kill, paralyze, or act as mind-altering chemical agents as she sees fit and based on the requirements of the situation. She is an extremely in- telligent woman and gifted scientist who has been observed controlling plants, and may possess an undefined mystic link to the plant world.",
+    "pericias": "Acrobatics 6 (+9), Athletics 6 (+7), Close Combat: Poison Touch 4 (+9), Deception 10 (+15), Expertise: Botany 10 (+14), Persuasion 12 (+17), Stealth 6 (+9), Treatment 4 (+8)",
+    "ataques": "i nitia tive +3 Entanglement Close, Burst Area Affliction 11, Resisted by Dodge Poison Touch +9 Close, Affliction 13 or Weaken 13 Unarmed +5 Close, Damage 1",
+    "defesas": "d odge 11 f or titude 10 Parry 11 t oughness 6/3* W ill 10 *Without Defensive Roll. Po er Point W S a bilities 52 S kills 29"
+  }
+}

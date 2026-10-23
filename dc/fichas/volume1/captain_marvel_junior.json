@@ -1,0 +1,29 @@
+{
+  "nome": "Captain Marvel Junior",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 14,
+  "pontos_poder_publicados": 217,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 107
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "17",
+      "STA": "14",
+      "AGL": "2",
+      "DEX": "3",
+      "FGT": "6",
+      "INT": "2",
+      "AWE": "9",
+      "PRE": "3"
+    },
+    "poderes": "Courage of Achilles (Enhanced Fighting 4, Enhanced Will 5, Impervious Will 10); Speed of Mercury (30-point Array: Flight 15 (64,000 MPH), AE: Dimensional Travel 1 (Rock of Eternity), AE: Quickness 15, Speed 15 (64,000 MPH)); Stamina of Atlas (Protection 4, Impervious Toughness 19; Immunity 10 (Life Support)); Strength of Hercules (Enhanced Strength 4, Limited to Lifting (Lifting Str 21)); Wisdom of Solomon (Enhanced Awareness 7, Enhanced Advantages 4 (Assessment, Beginner’s Luck, Eidetic Memory, Jack-of-all-trades))",
+    "vantagens": "Assessment, Beginner’s Luck, Eidetic Memory, Jack- of-all-trades",
+    "pericias": "Athletics 4 (+21), Close Combat: Unarmed 5 (+11), Perception 1 (+11)",
+    "ataques": "Initiative +2, Unarmed +11 (Close, Damage 17)",
+    "defesas": "Dodge 10, Parry 10, Fortitude 14, Toughness 18, Will 14",
+    "complicacoes": "The same as Captain Marvel. Freddy Freeman’s normal form is Str 1, Sta 1, Agl 0, Fgt 2, Awe 2, and has the additional complication of being lame and having to walk with a crutch. Junior also has Captain Nazi and Sabbac as Enemy complications.",
+    "pontos_poder": "Abilities 90 + Powers 110 + Advantages 0 + Skills 5 + Defenses 12 = 217"
+  }
+}

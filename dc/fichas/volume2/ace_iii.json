@@ -1,0 +1,29 @@
+{
+  "nome": "Ace Iii",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 95,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 151
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "10",
+      "STA": "6",
+      "AGL": "4",
+      "DEX": "2",
+      "FGT": "6",
+      "INT": "0",
+      "AWE": "1",
+      "PRE": "1"
+    },
+    "poderes": "e xoskeleton (Enhanced Agility 1, Enhanced Stamina 5, Enhanced Strength 5, Enhanced Strength 3 (Limited to Lifting; lifting Str 13, 200 tons), Removable (–5 points)), f lying Ca rd (Flight 6 (120 MPH), Platform)",
+    "vantagens": "Teamwork",
+    "pericias": "Close Combat: Unarmed 4 (+10), Perception 4 (+5), Sleight of Hand 5 (+7), Stealth 5 (+9)",
+    "ataques": "Initiative +4, Unarmed +10 (Close, Damage 10)",
+    "defesas": "Dodge 8, Parry 8, Fortitude 10, Toughness 10, Will 8",
+    "pontos_poder": "Abilities 46 + Powers 26 + Advantages 1 + Skills 9 + Defenses 13 = 95",
+    "complicacoes": "Greed: Befitting a man dressed as a playing card, Clay looks to get rich quick. Secret: Clay hopes his term with the Gang remains largely unrecognized. 150 150"
+  }
+}

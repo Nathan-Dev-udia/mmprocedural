@@ -1,0 +1,29 @@
+{
+  "nome": "Vanguard",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 7,
+  "pontos_poder_publicados": 95,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 170
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "6",
+      "STA": "6",
+      "AGL": "2",
+      "DEX": "0",
+      "FGT": "6",
+      "INT": "0",
+      "AWE": "2",
+      "PRE": "-2"
+    },
+    "poderes": "e y e Beams (Ranged Damage 8, Accurate 3); f lying Horse (Flight 13 (16,000 MPH), Wings; Growth 4, Innate, Permanent; Speed 4 (30 MPH); Senses 5 (Acute and Tracking Olfactory, Darkvision, Extended Auditory))",
+    "vantagens": "Favored Environment (Aeriel), Interpose",
+    "pericias": "Perception 4 (+6)",
+    "ataques": "Initiative +2, Eye Beams +6 (Ranged, Damage 8), Unarmed +6 (Close, Damage 6)",
+    "defesas": "Dodge 8, Parry 8, Fortitude 8, Toughness 6, Will 5",
+    "pontos_poder": "Abilities 24 + Powers 50 + Advantages 2 + Skills 2 + Defenses 17 = 95",
+    "complicacoes": "Horse: Vanguard is a flying, talking horse, but still has all physical and social limitations of a normal horse. evoted: Vanguard is devoted to Ystina and will do everything d possible to defend and protect her."
+  }
+}

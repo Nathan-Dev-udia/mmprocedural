@@ -1,0 +1,28 @@
+{
+  "nome": "Jimmy Olsen",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 2,
+  "pontos_poder_publicados": 38,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 220
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "0",
+      "STA": "1",
+      "AGL": "0",
+      "DEX": "1",
+      "FGT": "1",
+      "INT": "2",
+      "AWE": "2",
+      "PRE": "2"
+    },
+    "equipamento": "Signal watch (Feature 1 (Ultrasonic signal))",
+    "vantagens": "Contacts, Equipment, Luck",
+    "pericias": "Expertise: Photography 9 (+11), Insight 4 (+6), Investigation 2 (+4), Perception 4 (+6), Stealth 2 (+2), Technology 1 (+3)",
+    "ataques": "Initiative +0, Attack +1 (Close, Damage 0)",
+    "defesas": "Dodge 3, Parry 3, Fortitude 2, Toughness 1, Will 2",
+    "pontos_poder": "Abilities 18 + Powers 0 + Advantages 3 + Skills 11 + Defenses 6 = Total 38"
+  }
+}

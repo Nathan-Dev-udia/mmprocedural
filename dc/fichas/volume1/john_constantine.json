@@ -1,0 +1,30 @@
+{
+  "nome": "John Constantine",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 8,
+  "pontos_poder_publicados": 160,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 128
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "1",
+      "AGL": "1",
+      "DEX": "3",
+      "FGT": "1",
+      "INT": "8",
+      "AWE": "7",
+      "PRE": "6"
+    },
+    "poderes": "Demon-Tainted Blood: Immunity 1 (Disease); Regeneration 1, Persistent, Fades • 2 points Unwanted: Immortality 5 • 10 points",
+    "equipamento": "5 points of various equipment depending on his needs.",
+    "vantagens": "Beginner’s Luck, Benefit 3 (In/Famous Occultist), Connected, Defensive Roll 2, Equipment, Fascinate 3 (Deception, Intimidation, Persuasion), Favored Foe 4 (Demons, Devils, Magicians, Undead), Luck 3, Redirect, Ritualist, Second Chance 2 (Opposed Insight Checks, Fear Effects), Seize Initiative, Set-up, Skill Mastery 3 (Deception, Expertise: Magic, Expertise: Occult), Taunt, Ultimate Effort 2 (Deception, Intimidation), Well-informed",
+    "pericias": "Athletics 2 (+3), Close Combat: Unarmed 1 (+2), Deception 8 (+14), Expertise: Magic 10 (+18), Expertise: Music 2 (+10), Expertise: Occult 10 (+18), Expertise: Theology 8 (+15), Insight 10 (+17), Intimidation 2 (+8), Investigation 4 (+12), Languages 3, Perception 10 (+17), Persuasion 4 (+10), Sleight of Hand 10 (+13), Stealth 4 (+5)",
+    "ataques": "Initiative +1 Unarmed +2 Close, Damage 1",
+    "defesas": "Dodge 3 Fortitude 2 Parry 3 Toughness 3/1* Will 14 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 56 Skills 49 Powers 12 Defenses 12 Advantages 31 ToTal 160",
+    "complicacoes": "Haunted: Constantine is haunted by the silent shades of his former companions and friends, who reproach him for his mistakes and add to his melancholy. Riding the Synchronicity Highway: John Constantine has a supernatural ability to always be at the crux of great events as they unfold whether he wants to or not."
+  }
+}

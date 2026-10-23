@@ -1,0 +1,29 @@
+{
+  "nome": "André Blanc-Dumont",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 8,
+  "pontos_poder_publicados": 133,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 68
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "4",
+      "STA": "4",
+      "AGL": "3",
+      "DEX": "3",
+      "FGT": "5",
+      "INT": "3",
+      "AWE": "3",
+      "PRE": "4"
+    },
+    "equipamento": "Grumman XF5F-1 “Skyrocket, ” Heavy Pistol; choose 2 EP’s of additional gear",
+    "vantagens": "All-out Attack, Attractive, Defensive Attack, Defensive Roll 2, Equipment 16, Improved Defense, Languages 4, Power Attack, Takedown Attack, Teamwork",
+    "pericias": "Athletics 5 (+9), Close Combat: Unarmed 4 (+9), Perception 7 (+10), Ranged Combat: Heavy Weapons 5 (+8), Ranged Combat: Firearms 6 (+9), Sleight of Hand 7 (+10), Stealth 7 (+10), Technology 4 (+7), Vehicles 7 (+10)",
+    "ataques": "Initiative +3, Heavy Pistol +9 (Damage 4), Unarmed +9 (Damage 4)",
+    "defesas": "Dodge 9, Parry 10, Fortitude 7, Toughness 6/4, Will 9",
+    "pontos_poder": "Abilities 58 + Powers 0 + Advantages 29 + Skills 26 + Defenses 20 = 133",
+    "complicacoes": "Justice: André is committed to avenging the wrongs of tyranny and oppression worldwide. Enemy: See the Blackhawk Squadron’s group Enemies list."
+  }
+}

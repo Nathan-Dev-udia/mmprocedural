@@ -1,0 +1,29 @@
+{
+  "nome": "Atom Smasher",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 126,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 33
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "15/5",
+      "STA": "15/5",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "5",
+      "INT": "1",
+      "AWE": "1",
+      "PRE": "2"
+    },
+    "poderes": "Atomic Expansion: Growth 10 Linked to Enhanced Impervious Toughness 5, Stacks with Tough • 25 points Tough: Impervious Toughness 5 • 5 points",
+    "vantagens": "All-out Attack, Daze (Intimidation), Fast Grab, Improved Grab, Interpose, Languages (Kahndaqi), Power Attack, Startle",
+    "pericias": "Athletics 5 (+10), Deception 2 (+4), Expertise: Vehicle Repair 10 (+11), Insight 4 (+5), Intimidation 6 (+12/+8*), Perception 5, (+6), Persuasion 4 (+6), Ranged Combat: Throwing 3 (+5), Technology 4 (+5), Vehicles 7 (+9)",
+    "ataques": "Initiative +2 Unarmed +5 Close, Damage 15/5* Throwing +5 Range varies, Damage varies",
+    "defesas": "Dodge 5/10* Fortitude 15/5* Parry 5/10* Toughness 15/5* Will 5 *Without Growth",
+    "pontos_poder": "Abilities 46 Skills 25 Powers 30 Defenses 17 Advantages 8 ToTal 126",
+    "complicacoes": "Checkered Past: Atom Smasher has skirted a number of gray areas during his relatively short career. Responsibility : Albert tries to honor his godfather’s memory and reputation. PERSONALITY Earnest and brave, Al is also headstrong and prone to lapses in judgment when his temper comes into play. POWERS & ABILITIES Atom Smasher can increase his size and corresponding strength, mass, and durability. Over time, his size control has increased at the apparent loss of his ability to alter his density. ALLIES Atom Smasher has been a member of the Justice Society of America and is one of the few heroes on good terms with Black Adam. ENEMIES Al has no personal enemies of note, sharing instead in his team’s many adversaries."
+  }
+}

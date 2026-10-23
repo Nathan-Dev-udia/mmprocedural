@@ -1,0 +1,29 @@
+{
+  "nome": "Black Hand",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 134,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 61
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "0",
+      "STA": "1",
+      "AGL": "1",
+      "DEX": "2",
+      "FGT": "2",
+      "INT": "4",
+      "AWE": "3",
+      "PRE": "2"
+    },
+    "poderes": "Power Siphon: Removable (–12 points) • 52 points Force Field: Protection 12, Impervious; Immunity 10 (Life Support) • 34 points Force Manipulation: Array (28 points) • Force Blast: Ranged Damage 14 • 28 points • Force Constructs: Create 14 • 1 point • Lifting: Move Object 14 • 1 point",
+    "vantagens": "Diehard",
+    "pericias": "Close Combat: Unarmed 4 (+6), Deception 4 (+6), Expertise: Death 8 (+12), Insight 4 (+7), Intimidation 6 (+8), Perception 4 (+7), Ranged Combat: Power Siphon 6 (+8), Technology 4 (+8), Treatment 2 (+6)",
+    "ataques": "Initiative +1 Force Blast +8 Ranged, Damage 14",
+    "defesas": "Dodge 8 Fortitude 7 Parry 8 Toughness 13/0 Will 14 *Without Force Field",
+    "pontos_poder": "Abilities 30 Skills 21 Powers 52 Defenses 30 Advantages 1 ToTal 134",
+    "complicacoes": "Arrogant: Black Hand has a very high opinion of himself and his abilities, and loves to gloat given the opportunity."
+  }
+}

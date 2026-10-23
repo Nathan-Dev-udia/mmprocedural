@@ -1,0 +1,29 @@
+{
+  "nome": "Vigilante (Greg Saunders)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 8,
+  "pontos_poder_publicados": 139,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 256
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "3",
+      "AGL": "3",
+      "DEX": "4",
+      "FGT": "4",
+      "INT": "1",
+      "AWE": "2",
+      "PRE": "2"
+    },
+    "equipamento": "Six-Shooters: Ranged Multiattack Damage 3 • 9 points Lasso: Ranged Cumulative Affliction 6 (Resisted by Dodge; Hindered and Vulnerable, Defenseless and Immobile), Extra Condition, Limited Degree) • 18 points Ve H i CL e: Motor C y CL e • 10 POI n TS Size: Medium Str: 1 Speed: 6 d ef: 10 t ou: 8",
+    "vantagens": "Attractive, Diehard, Equipment 8, Extraordinary Effort, Fast Grab, Improved Aim, Improved Disarm, Inspire, Luck, Quick Draw, Ranged Attack 5, Takedown, Tracking, Weapon Bind",
+    "pericias": "Acrobatics 6 (+9), Athletics 10 (+13), Close Combat: Unarmed 9 (+13), Expertise: Cowboy 8 (+9), Expertise: Performing 7 (+9), Insight 10 (+12), Investigation 7 (+8), Perception 8 (+10), Persuasion 9 (+11), Ranged Combat: Guns 6 (+10), Vehicles 6 (+10) vI g IL ante Though he had a high rate of successful convictions, New York district attorney Adrian Chase saw many criminals es- cape justice on technicalities. Satisfied that justice was being done in most cases, Chase continued as a successful D.A. until a crime boss Chase sent to prison reached out from behind bars to kill Chase’s family. Now convinced that the justice sys- tem was fatally flawed, Chase used a costume and an arsenal of weaponry to become the Vigilante, bringing fatal justice to those who broke the law. Yet the Vigilante’s bloodshed wore on Chase, and when he accidentally killed a police officer his guilt led him to commit suicide. Soon thereafter, when Gotham City police detective Pat Trayce needed a way to operate outside the law, she tracked down one of Adrian Chase’s information and weapons suppli- ers, and used one of Chase’s old costumes to become the new Vigilante. For a time she trained alongside Deathstroke, until differences in their methods led her to strike out on her own. Years later a new Vigilante surfaced, Adrian Chase’s brother Dorian. After years working for the mobs and spending time in prison, Dorian knew organized crime from the inside and decided it must be destroyed.",
+    "ataques": "i nitia tive +4 Dual Pistols +15 Ranged Multiattack Damage 3 Lasso +9 Ranged, Cumulative Affliction 6, Resisted by Dodge (DC 16) Unarmed +13 Close, Damage 3",
+    "defesas": "d odge 10 f or titude 9 Parry 13 t oughness 3 W ill 7",
+    "pontos_poder": "a bilities 44 S kills 43 Powers 0 d efenses 27 antages 25 a dv ToTal 139",
+    "complicacoes": "o ld W ays: century ideals living in the twenty-first. He frames every conflict as good versus evil, then firmly places himself among the white hats—and not only because he wears a white hat of his own. Cowboy in the City: From New York and Hollywood to Warpath, Arizona, Vigilante has always found himself living in big cities, but his heart is out on the range."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "nome": "The Ray",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 183,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 133
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "4",
+      "AGL": "3",
+      "DEX": "3",
+      "FGT": "3",
+      "INT": "3",
+      "AWE": "3",
+      "PRE": "1"
+    },
+    "poderes": "e nergy f orm: Enhanced Advantage 6 (Agile Feint, Defensive Roll 2, Evasion 2, Improved Initiative); Enhanced Skill 3 (Acrobatics 6); Feature 1 (Quick Change); Immunity 11 (Aging, Life Support); Senses 8 (Communication Link (Mental, with Happy Terrill); Detect Electromagnetic Radiation (Visual Sense), Accurate, Acute, Analytical, Ranged; Direction Sense); Activation (Move Action, -1 point) • 28 points Solar r adia tion Control: Dynamic Array (40 points), Activation (Move Action, –1 point) • e nergy a ur a: Damage 10, Reaction, Dynamic • 41 points • i n a Blaz e of Power: Flight 19 (1,000,000 MPH), Dynamic • 2 points • Light r a ys: Ranged Cone Area Damage 10, Penetrating 5, Dynamic • 2 points • Solid-Light Constructs: Create 10, Movable, Dynamic • 2 points • e nergy a bsorption: Close Range Nullify Heat & Light Effects 10, Broad, Effortless, Perception Area (Detect- Dependent), Simultaneous, Reduced Range, Dynamic • 2 points • Blinding Light: Ranged Cumulative Perception Area (Visual) Affliction 10 (Resisted by Fortitude; Impaired, Disabled, Unaware), Limited to Visual Senses, Dynamic • 2 points • Bend Light: Concealment 4 (All Visual Senses), Attack (Resisted by Dodge), Dynamic • 2 points • i n visibility: Concealment 4 (All Visual Senses), Dynamic • 2 points • Light Projection: Environment 10 (Bright Light, Eliminates Concealment), Dynamic • 2 points • r e- e nergize: Healing 10, Limited to Self, Dynamic • 2 points • Lightspeed: Movement 1 (Space Travel 1) • 1 point",
+    "vantagens": "Agile Feint , Defensive Roll 2 , Evasion 2 , Extraordinary Effort, Improved Initiative his inexperience in dealing with people, a weakness resulting from his isolated childhood.",
+    "pericias": "Acrobatics 6 (+9), Close Combat: Unarmed 3 (+6), Deception 4 (+5), Expertise: Business 2 (+5), Expertise: Computers 6 (+9), Intimidation 4 (+5), Persuasion 4 (+5), Ranged Combat: Solar Radiation 7 (+10)",
+    "ataques": "i nitia tive +7 Light Rays — Ranged, Cone Area Damage 10 Unarmed +6 Close, Damage 3",
+    "defesas": "d odge 12 f or titude 9 Parry 12 t oughness 6/4* W ill 11 *Without Defensive Roll.",
+    "pontos_poder": "a bilities 46 S kills 15 Powers 88 d efenses 33 a dv antages 1 ToTal 183"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "nome": "Weather Wizard",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 148,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 263
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "0",
+      "STA": "2",
+      "AGL": "3",
+      "DEX": "3",
+      "FGT": "3",
+      "INT": "3",
+      "AWE": "2",
+      "PRE": "1"
+    },
+    "poderes": "Cloud r iding: Flight 5 (60 MPH) • 10 points Weather Control: 30-point Array • a ir C ontrol: Burst Area Move Object 10, Dynamic • 31 points • e xtreme Weather: Environment 10 (Intense Cold, Impede Movement, Visibility), Dynamic • 2 points • f o g: Visual Concealment Attack, Cloud Area 5 (250 ft. radius), Dynamic • 2 points • Glacier: Create Ice 10, Continuous, Dynamic • 2 points • Lightning: Ranged Damage 14, Dynamic, Indirect 2 • 2 points • t ornado: Burst Area Ranged Damage 10, Dynamic • 2 points Weather-Proof: Immunity 10 (Weather Effects) • 10 points",
+    "vantagens": "Accurate Attack, Defensive Roll 4, Favored Environment (Extreme Weather), Inventor, Teamwork",
+    "pericias": "Expertise: Criminal 4 (+7), Expertise: Meteorology 11 (+14), Ranged Combat: Lightning Bolt 3 (+6), Sleight of Hand 4 (+7), Technology 10 (+13), Vehicles 4 (+7) ffen S e o i nitia tive +1 Lightning Bolt +6 Ranged, Damage 14 Tornado Ranged Burst Area, Damage 10",
+    "defesas": "d odge 12 f or titude 6 Parry 9 t oughness 6/2* W ill 10 *Without Defensive Roll.",
+    "pontos_poder": "a bilities 34 S kills 18 Powers 61 d efenses 27 a dv antages 8 ToTal 148",
+    "complicacoes": "Guilt: Mardon feels guilt about the death of his brother Clyde. Quirk: Even though he no longer needs to use his wand, Weather Wizard still chooses to use it as a focus for his powers. the original Rogues who tangled with Barry Allen, and when Allen apparently died, Mardon pondered retiring from his life of crime. However, the Rogues were drawn back together ev- ery time a new speedster took up the mantle of the Flash. p er S ona LI ty Weather Wizard is about as unpredictable as, well, the weath- er. Mark delights in using his powers for destruction regard- less of the collateral damage to others, but he is burdened by a sense of guilt over his brother’s death. Likewise, despite having enough savvy to apply his brother’s weather technol- ogy, he unnecessarily limits his powers and his crimes, appar- ently incapable of visualizing destruction on a global scale."
+  }
+}

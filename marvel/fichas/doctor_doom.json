@@ -1,0 +1,132 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Doctor Doom",
+  "nome_pt": "Doctor Doom",
+  "nivel_poder": 15,
+  "pontos_poder_origem": 330,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 24
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 13,
+      "Vig": 1,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 13,
+      "Int": 9,
+      "Pro": 3,
+      "Pre": 5
+    },
+    "defesas": {
+      "Esquiva": 14,
+      "Aparar": 14,
+      "Fortitude": 7,
+      "Resistencia": 16,
+      "Vontade": 10
+    },
+    "pericias": {
+      "Enganação": 8,
+      "Especialidade: Química": 8,
+      "Especialidade: Eletrônica": 10,
+      "Especialidade: Mecânica": 12,
+      "Persuasão": 8,
+      "Tecnologia": 10,
+      "Intimidação": 12,
+      "Especialidade: Conhecimento Arcano": 10,
+      "Especialidade: Direito Cívico": 8,
+      "Especialidade: Ciências da Terra": 12,
+      "Especialidade: Ciências da Vida": 12,
+      "Especialidade: Ciências Físicas": 12,
+      "Especialidade: Tecnologia": 10,
+      "Percepção": 4,
+      "Intuição": 12,
+      "Combate à Distância: Ataques gerais": 12
+    },
+    "vantagens": [
+      "Benefit (Status, Diplomatic Immunity, Wealth 4) 6",
+      "Equipment 6",
+      "Fearless",
+      "Inventor",
+      "Inspire 1 (Master Plan convertido)",
+      "Minion 22",
+      "Ritualist",
+      "Startle",
+      "Ultimate Effort (Ultimate Master Plan)"
+    ],
+    "poderes": [
+      {
+        "nome": "Battle Suit",
+        "construcao_3e": "Device (Removable): Enhanced Strength 13; Damage 10 (Aura, Triggered by touch); Protection 15 (Impervious 9); Blast 15; Flight 5; Force Field 2 (Impervious, Area, Concentration); Senses 3 (Ultra-Hearing, Communication Link, Infravision).",
+        "custo_2e_pp": 84,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Magic",
+        "construcao_3e": "Magic 12 (Mystic Bindings; Alternate Effects: Mystic Blast and Dimensional Movement).",
+        "custo_2e_pp": 26,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Possession",
+        "construcao_3e": "Affliction 10 (Mind Control-style possession, Sight-dependent) linked to Insubstantial.",
+        "custo_2e_pp": 30,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Broomhandle Mauser (+4 dano; 8 EP)",
+      "Castelo Von Doom (Gargantuan; Resistência 30; Communications, Computer, Defense System, Fire Prevention System, Garage, Holding Cells, Infirmary, Laboratory, Library, Living Space, Power System, Security System, Workshop; 22 EP)"
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 13,
+        "dano": 8
+      },
+      {
+        "nome": "Force Blast",
+        "bonus": 13,
+        "dano": 15
+      },
+      {
+        "nome": "Mystical Blast",
+        "bonus": 13,
+        "dano": 12
+      },
+      {
+        "nome": "Broomhandle Mauser",
+        "bonus": 13,
+        "dano": 4
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 28,
+      "esquiva_mais_resistencia": 30,
+      "aparar_mais_resistencia": 30,
+      "fortitude_mais_vontade": 17,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 92,
+    "defesas": 27,
+    "pericias": 80.0,
+    "vantagens": null,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 199.0,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Attack +13 e ataques de Blast foram preservados; as defesas Esquiva/Aparar foram reduzidas a 14 para respeitar NP 15 com Resistência 16. Master Plan foi substituída por Inspire 1 conforme o guia; Fearsome Presence e Sneak Attack foram removidas. Diplomatic Immunity/riqueza e 22 Minions foram mantidos como vantagens, com os descritores publicados.",
+    "Defesas ajustadas para Esquiva 14 e Aparar 14, respeitando os limites de NP 15 com Resistência 16.",
+    "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias e apenas os custos de poderes confirmados; não inclui vantagens nem custos incertos."
+  ]
+}

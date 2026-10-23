@@ -1,0 +1,80 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Mary Jane Watson",
+  "nome_pt": "Mary Jane Watson",
+  "nivel_poder": 4,
+  "pontos_poder_origem": 50,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 54
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 1,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 2,
+      "Int": 1,
+      "Pro": 1,
+      "Pre": 4
+    },
+    "defesas": {
+      "Esquiva": 3,
+      "Aparar": 3,
+      "Fortitude": 4,
+      "Resistencia": 1,
+      "Vontade": 3
+    },
+    "pericias": {
+      "Enganação": 1,
+      "Acrobacia": 8,
+      "Persuasão": 1,
+      "Especialidade: Modelo": 9,
+      "Especialidade: Atriz": 9,
+      "Percepção": 6,
+      "Intuição": 6
+    },
+    "vantagens": [
+      "Attractive 2",
+      "Daze: Bluff",
+      "Inspire 2",
+      "Leadership",
+      "Luck"
+    ],
+    "poderes": [],
+    "equipamento": [],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 2,
+        "dano": 0
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 2,
+      "esquiva_mais_resistencia": 4,
+      "aparar_mais_resistencia": 4,
+      "fortitude_mais_vontade": 7,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 22,
+    "defesas": 13,
+    "pericias": 20,
+    "vantagens": 7,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 62,
+    "poderes_pendentes": false,
+    "total": null
+  },
+  "notas_conversao": [
+    "Perfil publicado sem poderes, equipamentos ou Drawbacks. Nenhuma Motivação ou complicação foi inventada.",
+    "Dodge/Parry 3 e Toughness 1 estão dentro de NP 4."
+  ]
+}

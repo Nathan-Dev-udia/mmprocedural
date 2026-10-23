@@ -1,0 +1,29 @@
+{
+  "nome": "Lady Shiva",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 14,
+  "pontos_poder_publicados": 225,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 10
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "4",
+      "AGL": "7",
+      "DEX": "7",
+      "FGT": "16",
+      "INT": "4",
+      "AWE": "8",
+      "PRE": "5"
+    },
+    "poderes": "Body r eading: Enhanced Advantage 1 (Uncanny Dodge), Enhanc ed Defenses 8 (Dodge 4 and Parry 4), Resistible by Will; Senses 1 (Danger Sense) • 6 points Leopard Blow: Strength-based Damage 3, Enhanced Advantage 3 (Improved Critical 3) • 6 points",
+    "vantagens": "Agile Feint, Assessment, Close Attack 4, Daze (Intimidation), Defensive Attack, Defensive Roll 4, Evasion, Favored Foe (Martial Arts Masters), Grabbing Finesse, Great Endurance, Improved Critical 3 (Leopard Blow) , Improved Critical (Unarmed, adds to Leopard Blow), Improved Defense, Improved Initiative, Improved Trip, Languages 3 (Cantonese, Japanese, Mandarin, Vietnamese), Power Attack, Precise Attack (Close; Concealment), Ranged Attack 7, Ritualist, Skill Mastery (Insight), Startle, Takedown 2, Trance, Uncanny Dodge",
+    "pericias": "Acrobatics 8 (+15), Athletics 11 (+14), Close Combat: Unarmed 2 (+18), Expertise: Magic 4 (+8), Expertise: Streetwise 10 (+14), Insight 16 (+24), Intimidation 11 (+16), Investigation 6 (+10), Perception 10 (+18), Stealth 8 (+15), Treatment 6 (+10)",
+    "ataques": "i nitia tive +11 Leopard Blow +22 Close, Damage 6, Crit. 16-20 Unarmed +22 Close, Damage 3, Crit. 19-20",
+    "defesas": "d odge 16/20* f or titude 10 Parry 16/20* t oughness 8/4** W ill 14 *Includes Enhanced Defenses 4, Resistible by Will. **Without Defensive Roll.",
+    "pontos_poder": "a bilities 108 S kills 46 Powers 12 d efenses 21 a dv antages 38 ToTal 225",
+    "complicacoes": "o bsession: Lady Shiva is driven to perfect her martial-arts skills. elationship: Shiva has some level of maternal feelings for her r daughter, Cassandra Cain. sufficiently to overcome the defense bonuses provided by her Body Reading power. At the Gamemaster’s discretion, a Deception check might substitute for Will, and feints (either via Deception or advantages and other skills) affect Lady Shiva’s Body Reading bonuses the same as her normal Dodge and Parry ranks, although it is difficult to feint against her due to her considerable Insight rank and Skill Mastery. Her Ritual advantage and (relatively minor) knowledge of Asian magic allow Lady Shiva to provide occasional surprises; as a non-player character, the GM can use Shiva’s abilities to work unusual and mysterious powers into the story to main- tain her aura of menace and keep the players from thinking they know all of Lady Shiva’s secrets. aLLI e S The League of Assassins often calls upon Lady Shiva’s ser - vices, and she has been an occasional member of that orga- nization over the years. She will also take interest in certain young fighters and unexpectedly lend them her aid, having formed brief, uneasy alliances with the Birds of Prey and Black Canary in particular, the Question, Tim Drake, and Cassandra Cain. Lady Shiva also shares a special bond with former com- panions Richard Dragon and Ben Turner, showing them the respect given only to near-equals. e ne MI e S Lady Shiva’s work for the League of Assassins often brings her into conflict with various heroes, particularly the Batman and his allies. Her independent nature prevents Shiva from remaining with the League for any extended period, and she periodically must fend off League members sent to punish her for going independent."
+  }
+}

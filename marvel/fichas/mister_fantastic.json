@@ -1,0 +1,98 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Mister Fantastic",
+  "nome_pt": "Senhor Fantástico",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 180,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 58
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 0,
+      "Agi": 0,
+      "Des": 0,
+      "Lut": 6,
+      "Int": 10,
+      "Pro": 5,
+      "Pre": 3
+    },
+    "defesas": {
+      "Esquiva": 6,
+      "Aparar": 6,
+      "Fortitude": 2,
+      "Resistencia": 14,
+      "Vontade": 7
+    },
+    "pericias": {
+      "Tecnologia": 13,
+      "Especialidade: Química": 12,
+      "Especialidade: Eletrônica": 12,
+      "Especialidade: Mecânica": 12,
+      "Especialidade: Estrutural": 12,
+      "Prestidigitação": 16,
+      "Especialidade: Ciências da Terra": 10,
+      "Especialidade: Ciências da Vida": 10,
+      "Especialidade: Ciências Físicas": 10,
+      "Especialidade: Tecnologia": 10,
+      "Percepção": 4,
+      "Intuição": 4,
+      "Combate Corpo-a-Corpo: Desarmado": 4
+    },
+    "vantagens": [
+      "Equipment 4",
+      "Inventor",
+      "Leadership",
+      "Inspire",
+      "Skill Mastery: Prestidigitação, Expertise (Tecnologia), Expertise (Ciências Físicas), Expertise (Ciências da Vida)",
+      "Ultimate Effort: Will Save"
+    ],
+    "poderes": [
+      {
+        "nome": "Elastic Alternate Form",
+        "construcao_3e": "Alternate Form 13 (Elongation 11, Strike 10, Protection 14 Impervious, Growth 4 Continuous and Permanent). 65 PP na fonte.",
+        "custo_2e_pp": 65,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Uniforme (Second Chance contra ataques elétricos, GPS Receiver, PDA; 3 EP)",
+      "Sky Scrapper (Large; Toughness 10; Communications, Computer, Defense System, Fire Prevention, Gym, Hangar, Infirmary, Laboratory, Library, Living Space, Power System, Security System, Workshop; 16 EP)"
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "dano": 10
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 20,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 9,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 48,
+    "defesas": 21,
+    "pericias": 65,
+    "vantagens": 12,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 146,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "A fonte informa 3 Drawback PP na linha de total, mas não apresenta seção ou descrição de Drawbacks; a informação permanece sem especificação e não foi convertida em complicação.",
+    "Toughness 14 e Defense 16 (rank 6) totalizam exatamente NP 10; o traje não foi somado novamente.",
+    "Master Plan foi convertido em Inspire 1 conforme a orientação do guia."
+  ]
+}

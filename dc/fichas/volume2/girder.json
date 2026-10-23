@@ -1,0 +1,27 @@
+{
+  "nome": "Girder",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 112,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 147
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "11",
+      "STA": "11",
+      "AGL": "1",
+      "DEX": "1",
+      "FGT": "6",
+      "INT": "0",
+      "AWE": "1",
+      "PRE": "1"
+    },
+    "poderes": "Metal Body (Growth 4 (Permanent), Impervious Toughness 10, Immunity 10 (Life Support))",
+    "vantagens": "All-out Attack, Diehard, Improved Grab, Weapon Break",
+    "pericias": "Expertise: Steelworker 7 (+7), Intimidation 8 (+11), Stealth 0 (-3*) ense: Initiative +1, Unarmed +9 (Close, Damage 11) o ff efense: Dodge 7, Parry 9, Fortitude 15, Toughness 11, Will 5 d *Includes Growth modifiers. Abilities 48 + Powers 28 + Advantages 7 + Skills 8 +",
+    "pontos_poder": "Defenses 21 = 112",
+    "complicacoes": "Mercenary: Girder is a villain for hire. Weakness: Unless he is simultaneously bathed in strong magnetic fields, exposure to air causes Girder to rust. His Agility and Dexterity decline by a point an hour under normal conditions until he is completely immobile. Rain and other corrosive agents exacerbate the decay, causing his statistics to decline even more rapidly. d y: Girder’s body is gradually isabilit corroding away, causing him tremendous agony. Quirk: Tony doesn’t understand the concept of boundaries when it comes to women, and takes indecent liberties even with women like Magenta, who are quite capable of obliterating him. 146 146"
+  }
+}

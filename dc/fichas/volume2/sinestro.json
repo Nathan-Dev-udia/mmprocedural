@@ -1,0 +1,27 @@
+{
+  "nome": "Sinestro",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 14,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 183
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "2",
+      "AGL": "2",
+      "DEX": "3",
+      "FGT": "5",
+      "INT": "1",
+      "AWE": "3",
+      "PRE": "3"
+    },
+    "poderes": "104 d efenses 37",
+    "vantagens": "4 ToTal 216 Co MPL i C tion S a e nemy: Green Lantern Corps. o bsession: Sinestro is obsessed with enforcing his particular idea of order in the cosmos. Power Loss: The power ring needs periodic recharging and issues a warning when its power runs low. traits: he commands the loyalty of thousands of followers, each with a yellow power ring as potentially powerful as his own, along with their Manhunter “power batteries. ” See the individual entries for the Sinestro Corps and the Manhunt- ers in this volume for additional details. The Gamemaster should feel free to provide Sinestro with the backing of his Corps and allies if the scenario requires, although he is not the type of leader to hide behind his troops. Sinestro has been known to strike out on his own, his arrogance mak - ing him incapable of admitting an inability to handle any challenge.",
+    "pericias": "Athletics 4 (+6), Close Combat: Unarmed 3 (+8), Deception 7 (+10), Expertise: Law Enforcement 8 (+9), Insight 8 (+11), Intimidation 8 (+11), Investigation 4 (+5), Perception 4 (+7), Persuasion 4 (+7), Ranged Combat: Power Ring 8 (+11)",
+    "ataques": "i nitia tive +2 Power Ring +11 Ranged, Damage 17 Unarmed +8 Close, Damage 2",
+    "defesas": "d odge 12 f or titude 10 Parry 10 t oughness 14/2* W ill 17 *Without Power Ring Protection Po er Point W S a bilities 42 S kills 29"
+  }
+}

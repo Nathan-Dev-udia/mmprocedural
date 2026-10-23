@@ -1,0 +1,29 @@
+{
+  "nome": "Houngan",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 119,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 92
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "4",
+      "AGL": "3",
+      "DEX": "4",
+      "FGT": "1",
+      "INT": "2",
+      "AWE": "3",
+      "PRE": "4"
+    },
+    "poderes": "Voodoo Doll (Dynamic Array (21 points), Easily Removable (-12 points), Inflict Harm ( Perception Ranged Weaken Stamina 10, (Resisted by Will) Limited to Sampled Subjects, Subtle, Dynamic) AE: Blind (Perception Ranged Affliction 9 (Resisted by Will; Vision Impaired, Vision Disabled, Transformed (Blind)), Concentration, Dynamic, Limited to Sampled Subjects, Limited to Visual, Reversible, Subtle) AE: Deafen (Perception Ranged Affliction 9 (Resisted by Will; Auditory Hindered, Auditory Disabled, Transformed (Deaf )), Concentration, Dynamic, Limited to Auditory, Limited to Sampled Subjects, Reversible, Subtle) AE: Inflict Pain (Affliction 10 (Resisted by Will; Impaired, Stunned, Incapacitated), Dynamic, Limited to Sampled Subjects, Subtle) AE: Work Voodoo (Senses 18 (Accurate, Extended 10, Penetrates Concealment, Radius, Ranged Mental), Dynamic, Limited to Sampled Subjects))",
+    "vantagens": "Artificer, Defensive Roll 4, Inventor, Languages 2 (French, Haitian Creole), Ritualist, Skill Mastery (Expertise: Voodoo), Teamwork, Ultimate Effort (Expertise: Voodoo)",
+    "pericias": "Close Combat: Unarmed 4 (+5), Deception 4 (+8), Expertise: Computers 6 (+8), Expertise: Voodoo 10 (+12), Insight 5 (+8), Perception 5 (+8), Persuasion 4 (+8), Technology 8 (+10)",
+    "ataques": "Initiative +3, Unarmed +4 (Close, Damage 2), Voodoo Doll—(Perception Range, Affliction 9 or Weaken 10)",
+    "defesas": "Dodge 10, Parry 8, Fortitude 8, Toughness 8/4*, Will 9 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 42 + Powers 18 + Advantages 12 + Skills 23 + Defenses 24 = 119",
+    "complicacoes": "Bionic Voodoo: Houngan is an expert in a very specialized form of magic, allowing him to use his Voodoo Expertise in place of Magic while employing his Artificer or Ritualist advantages. However, he does so at half his normal skill ranks unless he adds a computerized element to the ritual or artifact, also requiring successful Technology checks against the design and construction DCs."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "nome": "The Riddler",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 162,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 144
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "2",
+      "AGL": "4",
+      "DEX": "4",
+      "FGT": "7",
+      "INT": "7",
+      "AWE": "7",
+      "PRE": "3"
+    },
+    "equipamento": "Light Pistol: Ranged Damage 3 • 6 points Sword Cane: Strength-based Damage 3, Improved Critical • 4 points",
+    "vantagens": "Close Attack 9, Defensive Roll 4, Eidetic Memory, Equipment 2, Evasion, Improved Initiative, Taunt, Well-informed",
+    "pericias": "Acrobatics 4 (+8), Athletics 8 (+9), Deception 13 (+16), Expertise: Puzzles & Riddles 13 (+20), Insight 8 (+15), Investigation 10 (+17), Perception 6 (+13), Ranged Combat: Guns 12 (+16), Sleight of Hand 8 (+12), Stealth 5 (+9), Technology 3 (+10), Treatment 3 (+10), Vehicles 3 (+7)",
+    "ataques": "i nitia tive +8 Unarmed +16 Close, Damage 1 Sword-Cane +16 Close, Damage 4, Crit. 19-20",
+    "defesas": "d odge 13 f or titude 8 Parry 13 t oughness 6/2* W ill 10 *Without Defensive Roll.",
+    "pontos_poder": "a bilities 70 S kills 48 Powers 0 d efenses 24 a dv antages 20 ToTal 162"
+  }
+}

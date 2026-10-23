@@ -1,0 +1,29 @@
+{
+  "nome": "Dove",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 175,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 252
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "7",
+      "AGL": "8",
+      "DEX": "2",
+      "FGT": "3",
+      "INT": "3",
+      "AWE": "8",
+      "PRE": "3"
+    },
+    "poderes": "Dove Form: Magic, 67 points, Activation (Move Action, –1 point) • 66 points Avatar of Peace: Enhanced Advantage 6 (Agile Feint, Diehard, Improved Trip, Instant Up, Move-by Action, Uncanny Dodge), Enhanced Agility 6; Enhanced Stamina 5; Enhanced Strength 2; Feature 1 (costume is Innate) • 33 points Hyperawareness: Enhanced Awareness 4; Senses 9 (Accurate Mental 4, Danger Sense (Mental), Extended (Presence Awareness), Magic Awareness (Mental), Presence Awareness (Mental), Tracking (Magic Awareness)) • 17 point Resilience: Regeneration 5; Immunity (Black Lantern possession) 1 • 6 points Dove Wings: Flight 3 (16 MPH) • 6 points White Light of Creation: Burst Area Affliction 10 (White emotional spectrum; Resisted by Dodge; Visual Impaired, Visual Disabled, Visual Unaware), Limited to only in magical dimensions • 5 points",
+    "vantagens": "Agile Feint, Assessment, Benefit 1 (Well-off ), Defensive Attack, Diehard, Evasion, Improved Defense, Improved Initiative 2, Improved Trip, Inspire, Instant Up, Leadership, Move-by Action, Redirect, Set-up, Second Chance (Dodge resistance checks), Skill Mastery (Insight), Skill Mastery (Perception), Teamwork, Uncanny Dodge",
+    "pericias": "Acrobatics 8 (+16), Close Combat: Unarmed 14 (+17), Deception 7 (+10), Insight 12 (+20), Perception 12 (+20), Persuasion 15 (+18), Stealth 6 (+14)",
+    "ataques": "Initiative +16 Unarmed +17 Close, Damage 3",
+    "defesas": "Dodge 13 Fortitude 9 Parry 13 Toughness 7 Will 8",
+    "pontos_poder": "Abilities 40 Skills 37 Powers 66 Defenses 17 Advantages 15 ToTal 175",
+    "complicacoes": "Locked Form: While Dove has a -5 penalty to Toughness checks against damage or suffering a harmful condition, she cannot transform back into Dawn Granger. Pacifism: Dove will always try to resolve things without entering combat."
+  }
+}

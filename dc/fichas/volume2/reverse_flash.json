@@ -1,0 +1,26 @@
+{
+  "nome": "Reverse-Flash",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 142
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "3",
+      "AGL": "4",
+      "DEX": "3",
+      "FGT": "4",
+      "INT": "3",
+      "AWE": "3",
+      "PRE": "2"
+    },
+    "poderes": "f ric tionless a ur a: Immunity 1 (Friction Heat) • 1 point r un o n W ater: Movement 1 (Water Walking), Limited to While Moving • 1 point r un Up Walls: Movement 2 (Wall-crawling 2), Limited to While Moving • 2 points Super-Speed: Enhanced Defenses 24 (Dodge 12, Parry 12), Enhanced",
+    "vantagens": "(Agile Feint, Close Attack 4, Defensive Roll 5, Evasion 2, Improved Initiative 10, Instant Up, Move-by Action, Seize Initiative, Takedown), Quickness 20, Speed 20 (2,000,000 MPH) • 90 points Super-Speed Stunts: Array (20 points) • a ir C ontrol: Close Range Cone Area Move Object 10 • 20 points • a ir C ushion: Burst Area Movement 1 (Safe Fall), Affects Others • 1 point • Vacuum: Burst Area Cumulative Affliction 5 (Resisted by Fortitude; Dazed, Stunned, Incapacitated), Concentration • 1 point • Vibration: Insubstantial 4 • 1 point • Whirlwind: Close Range Burst Area Move Object 10 • 1 point a d V ant a G e S Agile Feint, Close Attack 4, Defensive Roll 5, Evasion 2, Improved Initiative 10, Instant Up, Move-by Action, Seize Initiative, Takedown",
+    "pericias": "Acrobatics 4 (+8), Athletics 6 (+7), Close Combat: Unarmed 2 (+6), Deception 6 (+8), Expertise: History 8 (+11), Insight 6 (+9), Perception 4 (+7), Technology 10 (+13)",
+    "ataques": "i nitia tive +44 Unarmed +10 Close, Damage 1 Whirlwind Burst Area, Grapple, Dodge DC 20 sually, making them power stunts (and therefore challenges for the heroes he has faced) rather than regular powers."
+  }
+}

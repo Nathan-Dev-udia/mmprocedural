@@ -1,0 +1,29 @@
+{
+  "nome": "Captain Boomerang (Owen Mercer)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 131,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 101
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "3",
+      "AGL": "6",
+      "DEX": "7",
+      "FGT": "3",
+      "INT": "1",
+      "AWE": "3",
+      "PRE": "3"
+    },
+    "poderes": "Boomerangs: Array (16 points) • Acid Boomerang: Ranged Damage 5 (acid), Secondary Effect, Indirect • 16 points • BOOMerang: Ranged Burst Area Damage 5, Indirect • 1 point • Razorang: Ranged Damage 3, Accurate, Improved Critical, Indirect, Penetrating 3 • 1 point • Weighted Boomerang: Strength-based Ranged Damage 3, Indirect • 1 point Rapid Throwing: Enhanced",
+    "vantagens": "(Throwing Mastery 4, Unreliable; Improved Initiative 4, Limited to Thrown Attacks, Unreliable); Variable 1 (Throwing Speed), Free Action, Limited to Adding Multiattack to Thrown Attacks, Unreliable • 10 points Speed Burst: Speed 8, Unreliable • 4 points ADVANTAGES Benefit 1 (Security Clearance), Connected, Defensive Roll 4, Evasive, Improved Critical (Boomerang), Inventor, Precise Attack 2 (Ranged; Cover, Concealment), Quick Draw, Ranged Attack",
+    "pericias": "Acrobatics 1 (+7), Athletics 2 (+5), Close Combat: Unarmed 2 (+5), Deception 1 (+4), Expertise: Streetwise 2 (+3), Insight 2 (+5), Perception 2 (+5), Persuasion 3 (+6), Ranged Combat: Boomerangs 2 (+9), Sleight of Hand 1 (+8), Stealth 2 (+8), Technology 2 (+3)",
+    "ataques": "Initiative +6 (see his Rapid Throwing power) Boomerang +10 Ranged, Damage 6 plus others, Crit. 19-20 Rapid Boomerang +10 Ranged, Damage 10 plus others, Crit. 19-20 Unarmed +5 Close, Damage 3",
+    "defesas": "Dodge 11 Fortitude 6 Parry 8 Toughness 7/3* Will 6 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 58 Skills 11 Powers 33 Defenses 16 Advantages 13 ToTal 131",
+    "complicacoes": "Criminal Stigma: Due to his parentage and because he was once a Rogue, most other super heroes (and the public at large) do not yet fully trust the new Captain Boomerang. It seems the only heroes that find themselves at ease around Mercer are those that also skirt society’s fringes, such as the Outsiders."
+  }
+}

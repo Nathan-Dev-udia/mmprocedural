@@ -1,0 +1,151 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Ghost Rider",
+  "nome_pt": "Ghost Rider",
+  "nivel_poder": 12,
+  "pontos_poder_origem": 210,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 32
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 12,
+      "Vig": 12,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 8,
+      "Int": 0,
+      "Pro": 1,
+      "Pre": 3
+    },
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 10,
+      "Fortitude": 14,
+      "Resistencia": 14,
+      "Vontade": 10
+    },
+    "pericias": {
+      "Especialidade: Mecânica": 4,
+      "Veículos": 16,
+      "Intimidação": 12,
+      "Especialidade: Conhecimento Arcano": 8,
+      "Percepção": 8,
+      "Especialidade: Acrobacias de Motocicleta": 11,
+      "Especialidade: Dublê de Motocicleta": 5,
+      "Intuição": 8,
+      "Combate à Distância: Ataques gerais": 5
+    },
+    "vantagens": [
+      "All-out Attack",
+      "Close Attack 2 (Melee)",
+      "Chokehold",
+      "Equipment 1",
+      "Move-by Action",
+      "Power Attack",
+      "Skill Mastery (Vehicles, Intimidation, Expertise, Insight)",
+      "Startle",
+      "Weapon Bind"
+    ],
+    "poderes": [
+      {
+        "nome": "Enhanced Strength",
+        "construcao_3e": "Enhanced Trait (Strength 22).",
+        "custo_2e_pp": 22,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Enhanced Constitution",
+        "construcao_3e": "Enhanced Trait (Stamina 18).",
+        "custo_2e_pp": 18,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Hell Bike",
+        "construcao_3e": "Device (Removable, vehicle): Dimensional Movement, Movement (Wall-running, Water-running), Damage 6 (Hellfire Aura).",
+        "custo_2e_pp": 21,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Hell's Chain",
+        "construcao_3e": "Device (Removable): Damage 2 (Strength-based, Mighty), Extended Reach; Alternate Effects: Snare 4 and Ranged Damage 1 (Autofire).",
+        "custo_2e_pp": 6,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Hellfire Control",
+        "construcao_3e": "Ranged Damage array 10, Affects Insubstantial.",
+        "custo_2e_pp": 21,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Immunity",
+        "construcao_3e": "Immunity 9 (Life Support).",
+        "custo_2e_pp": 9,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Emotion Control",
+        "construcao_3e": "Affliction 12 (Despair; One Emotion; Sense-dependent: sight).",
+        "custo_2e_pp": 6,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Super Senses",
+        "construcao_3e": "Senses 5 (Extended 4, Detect Evil).",
+        "custo_2e_pp": 5,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Jaqueta de couro com correntes (+2 Resistência; 2 EP)"
+    ],
+    "complicacoes": [
+      "Identidade normal (Johnny Blaze; ocorrência comum; intensidade maior; 4 PP)."
+    ],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "dano": 12
+      },
+      {
+        "nome": "Corrente",
+        "bonus": 10,
+        "dano": 14
+      },
+      {
+        "nome": "Hellfire Blast",
+        "bonus": 8,
+        "dano": 10
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 24,
+      "esquiva_mais_resistencia": 24,
+      "aparar_mais_resistencia": 24,
+      "fortitude_mais_vontade": 24,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 84,
+    "defesas": 20,
+    "pericias": 38.5,
+    "vantagens": null,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 142.5,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Attack Focus (Melee) 2 foi convertido em Close Attack 2. Fast Overrun/Improved Overrun foram removidas; Move-by Action foi mantida como substituição. Fearsome Presence e Stunning Attack foram removidas sem inventar poderes. O Drawback Normal Identity foi convertido em complicação.",
+    "Defesas ajustadas para Esquiva 10 e Aparar 10, respeitando os limites de NP 12 com Resistência 14.",
+    "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias e apenas os custos de poderes confirmados; não inclui vantagens nem custos incertos."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "nome": "Kobra",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 312
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "3",
+      "AGL": "3",
+      "DEX": "2",
+      "FGT": "8",
+      "INT": "6",
+      "AWE": "5",
+      "PRE": "7"
+    },
+    "poderes": "Ceremonial Armor: Protection 3, Removable (-1 point) • 2 points Serpent-fang Swordstaff: Strength-based Damage 3, Penetrating 3, Reach, Easily Removable (-2 points) • 5 points Immortal: Immunity 1 (Aging) • 1 point",
+    "vantagens": "Artificer, Connected, Contacts, Daze (Deception), Defensive Attack, Diehard, Equipment*, Fascinate (Deception), Fearless, Hide in Plain Sight, Improved Initiative 2, Inspire, Languages 4, Leadership, Ritualist, Seize Initiative, Startle, Taunt, Ultimate Effort 2 (Deception, Stealth), Well-informed *Kobra has extensive wealth and resources. He has as many points of",
+    "equipamento": "and minions as needed for his plot.",
+    "pericias": "Close Combat: Swordstaff 6 (+14), Deception 13 (+20), Expertise: Magic 8 (+14), Expertise: Tactics 10 (+16), Insight 10 (+15), Intimidation 7 (+14), Perception 8 (+15), Persuasion 12 (+19), Sleight of Hand 8 (+10), Stealth 12 (+15), Technology 4 (+10)",
+    "ataques": "Initiative +11 Serpent-fang Swordstaff +14 Damage 6, Penetrating 3, Reach 1",
+    "defesas": "Dodge 14 Fortitude 9 Parry 14 Toughness 6 Will 11",
+    "pontos_poder": "Abilities 74 Skills 49 Powers 8 Defenses 29 Advantages 25 Tottal 185 tahumans. Only quick and decisive actions by Checkmate and the Justice Society prevented Jason Burr from bringing about the Kali Yuga, but the new Kobra still succeeded in building a new Cult of Kobra that used deceit and the power of blood magic to achieve their goals. Using stolen teleportation technology, Kobra travels the world, gathering the desperate and downtrodden into his cult. Made of isolated cells, armed with dark magic and their faith, and each known only to Kobra, the cult awaits his or - ders, faithful that the end times are coming and that they will help bring them about. KOBRA Jason Burr is the heart, soul, and mind of the cult of Kobra— the only one who truly knows its reach and capabilities. When he isn’t executing one of his deadly strategies, he is constant - ly working to bring more people to the faith and enlightening them to its dark power, helping the shadowy reach of Kobra grow ever longer. HEROES & VILLAINS, VOL. I HEROES & VILLAINS, VOL. I HEROES & VILLAINS, VOL. I HEROES & VILLAINS, VOL. 1 Andre Nutter (order #3020437)"
+  }
+}

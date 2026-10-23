@@ -1,0 +1,27 @@
+{
+  "nome": "Sinestro Corpsman",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": 168,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 185
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "2",
+      "AGL": "0",
+      "DEX": "2",
+      "FGT": "3",
+      "INT": "0",
+      "AWE": "1",
+      "PRE": "2"
+    },
+    "poderes": "y ello w Power r ing (as given in the Sinestro entry, but with a 30-point Force Manipulation Array)",
+    "pericias": "Athletics 4 (+5), Close Combat: Unarmed 3 (+7), Deception 4 (+6), Insight 8 (+9), Intimidation 6 (+8), Perception 4 (+6), Ranged Combat: Power Ring 7 (+9)",
+    "ataques": "Initiative +0, Ring Blast +9 (Ranged, Damage 15)",
+    "defesas": "Dodge 10, Parry 10, Fortitude 9, Toughness 14/2, Will 15",
+    "pontos_poder": "Abilities 11 + Powers 101 + Advantages 0 + Skills 18 + Defenses 38 = Total 168"
+  }
+}

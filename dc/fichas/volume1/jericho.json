@@ -1,0 +1,29 @@
+{
+  "nome": "Jericho",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 166,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 288
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "2",
+      "AGL": "2",
+      "DEX": "3",
+      "FGT": "3",
+      "INT": "4",
+      "AWE": "4",
+      "PRE": "2"
+    },
+    "poderes": "Possession: Affliction 12 (Resisted by Will; Dazed, Compelled, Controlled), Sustained, Cumulative, Instant Recovery, Reach 6, Subtle, Sense-Dependent (Must make eye contact), Linked to: Concealment 10, Continuous, Linked to: Immunity 2 (Suffocation), Linked to: Insubstantial 4, Concentration, Linked to: Mind Reading 8, Cumulative, Effortless, Reduced Range 2 (Close), Limited to Controlled Target • 62 points",
+    "vantagens": "Assessment, Defensive Roll 3, Eidetic Memory, Languages 1 (American Sign Language), Teamwork",
+    "pericias": "Athletics 2 (+5), Close Combat: Unarmed 7 (+10), Insight 6 (+10), Perception 6 (+10), Ranged Combat: Guns 7 (+10)",
+    "ataques": "Initiative +2 Unarmed +10 Close, Damage 1 Possession +9 Close, Affliction 12, Reach 6, Resisted by Will (DC 22)",
+    "defesas": "Dodge 8 Fortitude 8 Parry 8 Toughness 5/2* Will 12",
+    "pontos_poder": "Abilities 46 Skills 14 Powers 74 Defenses 25 Advantages 7 ToTal 166t",
+    "complicacoes": "Minds in One Body: Years of “body-hopping” has left Jericho’s mind easily overruled by stronger, evil, and dangerous mental patterns that were never fully purged from his mind. A History of Violence: Jericho’s father is Deathstroke the Terminator, a man who tried singlehandedly to kill the Teen Titans. Scars: Joseph Wilson was abducted as a small boy and his throat was slashed, rendering him mute. ALLIES Jericho worked longest and most closely with the Teen Titans, forging friendships with the core group. He worked mostly with Raven, who he felt was hurting in ways the rest of the team did not understand. Many of the Teen Titans of that time may still consider him a friend though he has repeatedly tried to kill them. His current ally is his father, Slade Wilson, Death - stroke the Terminator. ENEMIES The Teen Titans and the Justice League both consider Jericho a dangerous villain."
+  }
+}

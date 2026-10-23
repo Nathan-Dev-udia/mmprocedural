@@ -1,0 +1,29 @@
+{
+  "nome": "Red Robin",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 138
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "2",
+      "AGL": "5",
+      "DEX": "5",
+      "FGT": "8",
+      "INT": "5",
+      "AWE": "4",
+      "PRE": "3"
+    },
+    "equipamento": "a Protection 2, Senses 1 (Darkvision) • 4 points rmor ed Cowl: Grapnel: Movement 1 (Swinging) • 2 points Utility Belt: Array (12 points) • f lashbang G renades: Ranged Burst Area Affliction 4 (Resisted by Fortitude; Visual and Auditory Impaired, Visual and Auditory Disabled, Visual and Auditory Unaware) • 12 points • Bo Staff: Strength-based Damage 2, Reach 1 • 1 point • Smoke Bombs: Cloud Area Visual (All) Concealment Attack 4 • 1 point • t hr owing d iscs: Ranged Strength-based Multiattack Damage 1, Ricochet 2 • 1 point 8 additional points of equipment as needed Ve H i CL e: r ed B ird Cy CL e • 11 POI n TS Size: Medium Str: 1 Speed: 6 d ef: 0 t ou: 8 f ea tures: Navigation System a V ant G d a e S All-out Attack, Benefit 4 (Wealth), Close Attack 6, Connected, Contacts, Defensive Roll 2, Equipment 8, Evasion, Extraordinary Effort, Hide in Plain Sight, Improved Critical (Bo Staff ), Improved Initiative, Improvised Tools, Instant Up, Interpose, Languages 4, Move-by Action, Power Attack, Quick Draw, Set-up, Takedown, Teamwork, Tracking, Uncanny Dodge",
+    "pericias": "Acrobatics 8 (+13), Athletics 8 (+10), Close Combat: Unarmed 2 (+10), Deception 9 (+12), Expertise: Criminology 8 (+13), Expertise: Computers 10 (+15), Expertise: Streetwise 9 (+14), Insight 10 (+14), Intimidation 8 (+11), Investigation 11 (+16), Perception 11 (+15), Persuasion 7 (+10), Ranged Combat: Throwing Discs 9 (+14), Sleight of Hand 7 (+12), Stealth 10 (+15), Technology 8 (+13), Treatment 5 (+10), Vehicles 8 (+13)",
+    "ataques": "i nitia tive +9 Bo Staff +14 Close, Damage 4, Reach 1, Crit. 19-20 Throwing Discs +14 Ranged, Multiattack Damage 3, Ricochet 2 Unarmed +16 Close, Damage 2",
+    "defesas": "d odge 12 f or titude 8 Parry 12 t oughness 6/2* W ill 10 *Without Armored Cowl and Defensive Roll. W S Po er Point a bilities 68 S kills 74",
+    "poderes": "0 d efenses 23",
+    "vantagens": "43 ToTal 208",
+    "complicacoes": "H ero r emade: Red Robin struggles to carry on the ideals of Batman while becoming a hero in his own right. “Crippled”: To protect his secret identity from reporter Vicki Vale, Tim Wayne pretends to need leg braces and two canes, which appears to make it impossible for him to be Red Robin."
+  }
+}

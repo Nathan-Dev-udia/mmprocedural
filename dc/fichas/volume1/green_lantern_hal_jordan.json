@@ -1,0 +1,29 @@
+{
+  "nome": "Green Lantern (Hal Jordan)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 14,
+  "pontos_poder_publicados": 222,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 238
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "2",
+      "AGL": "2",
+      "DEX": "3",
+      "FGT": "5",
+      "INT": "1",
+      "AWE": "3",
+      "PRE": "3"
+    },
+    "poderes": "Power Ring: 132 points, Removable (–26 points) • 106 points AI and Database: Features 2 • 2 points Communication: Senses 1 (Communication Link to Central Power Battery) • 1 point Flight: Flight 14 (32,000 MPH), Movement 4 (Environmental Adaptation: Zero-G, Space Travel 3) • 36 points Force Field: Protection 12, Impervious; Immunity 10 (Life Support) • 34 points Force Manipulation: Array (36 points) • Force Blast: Ranged Damage 18, Dynamic • 37 points • Force Bubble: Affects Others, Burst Area, and Ranged on Immunity 10 (Life Support), Dynamic • 2 points • Force Constructs: Create 18, Dynamic • 2 points • Lifting: Move Object 18, Dynamic • 2 points • Mobile Constructs: Create 12, Movable, Dynamic • 2 points Scanning Beam: Senses 6 (Analytical Auditory, Chemical, and Visual) • 6 points Universal Translator: Comprehend Languages 4 • 8 points",
+    "vantagens": "Fearless, Teamwork, Ultimate Effort (Will)",
+    "pericias": "Athletics 4 (+6), Close Combat: Unarmed 3 (+8), Deception 4 (+7), Expertise: Law Enforcement 8 (+9), Expertise: Military 8 (+9), Insight 8 (+11), Investigation 4 (+5), Perception 4 (+7), Persuasion 4 (+7), Ranged Combat: Power Ring 7 (+10), Vehicles 12 (+15)",
+    "ataques": "Initiative +2 Power Ring +10 Ranged, Damage 18 Unarmed +8 Close, Damage 2",
+    "defesas": "Dodge 12 Fortitude 10 Parry 10 Toughness 14/2* Will 18 *Without Power Ring Protection.",
+    "pontos_poder": "Abilities 42 Skills 33 Powers 106 Defenses 38 Advantages 3 ToTal 222",
+    "complicacoes": "Power Loss: The power ring needs periodic recharging and issues a warning as its power runs low. Reputation: Hal Jordan is a maverick in nearly all aspects of his life and known for having issues with authority. Responsibility: Hal takes his responsibilities as a ring-slinger very seriously. He also feels responsible for the terrible acts of Parallax while the fear entity controlled him. Weakness: Green Lantern power rings depend on the willpower of the wearer; the maximum rank of the ring’s effects is equal to the wearer’s Will rank, and moments of self-doubt or hesitation can cause the ring to fail."
+  }
+}

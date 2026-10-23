@@ -1,0 +1,30 @@
+{
+  "nome": "Deathstroke The Terminator",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 13,
+  "pontos_poder_publicados": 299,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 158
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "7",
+      "STA": "7",
+      "AGL": "9",
+      "DEX": "8",
+      "FGT": "15",
+      "INT": "4",
+      "AWE": "6",
+      "PRE": "5"
+    },
+    "poderes": "Body Armor: Impervious Protection 4; Senses 1 (Communication Link); Removable (-2 points) • 7 points Enhanced Brain Capacity: Enhanced",
+    "vantagens": "(Eidetic Memory); Enhanced Intelligence 1; Quickness 2, Limited to Mental • 3 points Enhanced Senses: Enhanced Advantages (Uncanny Dodge); Enhanced Awareness 1; Senses 8 (Acute Sense of Smell, Danger Sense, Darkvision, Extended Rapid Hearing, Extended Rapid Vision) • 11 points Healing Factor: Immunity 2 (Aging, Poison); Regeneration 8 • 10 points Heightened Reflexes: Enhanced Advantages (Evasion 2, Seize Initiative) • 3 points Heightened Speed: Enhanced Advantages (Improved Initiative 2); Quickness 1; Speed 3 (16 MPH) • 6 points Power Staff: Array (20 points), Easily Removable (–8 points) • Stunning Blast: Ranged Affliction 10 (Resisted by Fortitude; Daze, Stunned, Incapacitated) • 20 points • Energy Blast: Ranged Damage 10 • 1 point • Lethal Strike: Strength-based Damage 3 • 1 point • Stunning Strike: Affliction 10 (Daze, Stunned, Incapacitated) • 1 point Promethium Sword: Strength-based Damage 3, Improved Critical, Penetrating 5, Easily Removable (–4 points), Indestructible • 5 points Super-Strength: Enhanced Strength 1, Limited to Lifting (Lifting Str 8; 6 tons) • 1 points",
+    "equipamento": "Communication Device: Feature 1 (Auditory Communication) • 1 point Mini-Tracers: Feature 1 (Tracking) • 1 point Rebreather: Immunity 2 (Suffocation), Limited • 1 point Arsenal: 16-Point Array • Flash-Bang Grenades: Burst Area Dazzle, 4 Dodge DC 14 • 16 points • Assault Rifle: Ranged Multiattack Damage 5 • 1 point • Combat Knife: Strength-based Damage 2, Improved Critical • 1 point • Fragmentation Grenades: Ranged Burst Area Damage 5 • 1 point • Heavy Pistol: Ranged Damage 4 • 1 point • Sleep Gas Grenades: Cloud Area Sleep 4 • 1 point • Smoke Grenades: Cloud Area Concealment Attack 4 • 1 point • Sniper Rifle & Targeting Scope: Ranged Damage 5, Improved Aim, Improved Critical • 1 point • Shotgun: Ranged Damage 5, Accurate, Limited to 3 Damage against targets with Protection • 1 point • Tear Gas Grenades: Ranged Cloud Area Affliction 4 ((Resisted by Fortitude; Dazed and Vision Impaired, Stunned and Vision Disabled, Incapacitated)) • 1 point ADVANTAGES Accurate Attack, Assessment, Chokehold, Close Attack, Connected, Contacts, Defensive Attack, Eidetic Memory , Equipment 6, Evasion 2 , Fearless, Great Endurance, Improved Aim, Improved Critical (Sword), Improved Critical (Guns), Improved Defense, Improved Disarm, Improved Grab, Improved Hold, Improved Initiative 2 , Improved Trip, Instant Up, Jack-of-all-trades, Languages 3, Luck, Move-by Action, Power Attack, Precise Attack (Ranged; Cover), Prone Fighting, Quick Draw, Ranged Attack 8, Redirect, Seize Initiative , Takedown, Throwing Mastery, Uncanny Dodge , Well-informed",
+    "pericias": "Acrobatics 8 (+17), Athletics 10 (+17), Close Combat: Unarmed 2 (+17), Deception 10 (+15), Expertise: Streetwise 6 (+10), Expertise: Tactics 11 (+15), Insight 6 (+12), Intimidate 10 (+15), Investigate 8 (+12), Perception 10 (+16), Persuasion 4 (+9), Ranged Combat: Guns 3 (+11), Ranged Combat: Throwing 1 (+9), Sleight of Hand 3 (+11), Stealth 10 (+18), Technology 6 (+10), Vehicles 2 (+10)",
+    "ataques": "Initiative +13 Assault Rifle +19 Ranged, Damage 5 Knife (thrown) +17 Ranged, Damage 9 Power Staff Blast +16 Ranged, Damage 10 or Affliction 10 Power Staff Strike +16 Close, Damage 10 or Affliction 10 Promethium Sword +16 Close, Damage 10, Penetrating 5 Shotgun +19 Ranged, Damage 5 Sniper Rifle +19 Ranged, Damage 5 Unarmed +18 Close, Damage 8",
+    "defesas": "Dodge 15 Fortitude 14 Parry 15 Toughness 11 Will 12",
+    "pontos_poder": "Abilities 118 Skills 55 Powers 61 Defenses 19 Advantages 46 ToTal 299",
+    "complicacoes": "Enemy: Deathstroke has personal vendettas against both Green Arrow and Nightwing (see Vol. II ). Motivation: Being the best there is at what he does. Relationship: Deathstroke has had a series of tumultuous romances, first with his wife Adeline, then later with Terra (see Vol. II ), and former police officer Pat Trayce, the second Vigilante (see Vol. II ). Relationship: Rose Wilson, the new Ravager (see Vol. II ), and her brother Joseph, the Titan known as Jericho, are Slade’s two surviving children. They are all that remains of Slade’s broken family. Though he tries to manipulate them, Slade cares for his children in his own twisted, obsessive way. They may yet prove to be Slade’s greatest weakness. Temporary Insanity: While Deathstroke can regenerate from even the most mortal of wounds, recovering from the Dying condition renders him insane and animalistic for a short period of time."
+  }
+}

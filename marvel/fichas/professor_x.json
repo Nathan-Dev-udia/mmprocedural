@@ -1,0 +1,122 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Professor X",
+  "nome_pt": "Professor X",
+  "nivel_poder": 17,
+  "pontos_poder_origem": 150,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 70
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 0,
+      "Agi": -1,
+      "Des": -1,
+      "Lut": 0,
+      "Int": 6,
+      "Pro": 6,
+      "Pre": 5
+    },
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 10,
+      "Fortitude": 0,
+      "Resistencia": 0,
+      "Vontade": 8
+    },
+    "pericias": {
+      "Persuasão": 12,
+      "Investigação": 11,
+      "Especialidade: Civics": 10,
+      "Especialidade: Behavioral Sciences": 10,
+      "Especialidade: Current Events": 8,
+      "Especialidade: Earth Sciences": 6,
+      "Especialidade: Life Sciences": 6,
+      "Especialidade: Theology & Philosophy": 10,
+      "Percepção": 8,
+      "Especialidade: Teacher": 5,
+      "Intuição": 12
+    },
+    "vantagens": [
+      "Assessment",
+      "Connected",
+      "Contacts",
+      "Eidetic Memory",
+      "Equipment 13",
+      "Inspire",
+      "Set-Up",
+      "Well-informed",
+      "Languages 1"
+    ],
+    "poderes": [
+      {
+        "nome": "ESP 7",
+        "construcao_3e": "Remote Sensing 7 (audio and visual).",
+        "custo_2e_pp": 14,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Telepathy 17",
+        "construcao_3e": "Dynamic array: Astral Form 8 (Dimensional), Mind Control 17, Mental Blast 10.",
+        "custo_2e_pp": 41,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Mind Shield 16",
+        "construcao_3e": "Enhanced Will Defense and/or Impervious Will; exact 3e construction/cost uncertain.",
+        "custo_2e_pp": 16,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Xavier’s School (Large; Toughness 15; listed features; Boost ESP 2; Super-Senses 1, Detect Mutants; source cost 21 EP).",
+      "X-Jet (Strength 65; Speed 8; Defense 2; Toughness 13; Colossal; Concealment 2 [auditory and radar]; Space Travel 4; Chaff/Dazzle 5; source cost 44 EP)."
+    ],
+    "complicacoes": [
+      "Paraplegia: ocorrência comum, intensidade maior (4 PP na fonte)."
+    ],
+    "ataques": [
+      {
+        "nome": "Unarmed",
+        "bonus": 0,
+        "dano": 0
+      },
+      {
+        "nome": "Mental Blast",
+        "bonus": 0,
+        "dano": 10
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 10,
+      "esquiva_mais_resistencia": 10,
+      "aparar_mais_resistencia": 10,
+      "fortitude_mais_vontade": 8,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 30,
+    "defesas": 28,
+    "pericias": 49.0,
+    "vantagens": 21,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 128.0,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Master Plan virou Inspire 1 conforme o guia. Concentration não tem perícia equivalente direta e foi mantida apenas no registro da fonte.",
+    "A fonte imprime STR/DEX/CON/INT/WIS/CHA +0/−1/+0/+6/+6/+5; Toughness 0, Fortitude 0, Reflex −1, Will +8; Attack +0; Defense 10; Initiative −1.",
+    "Perícias da fonte: Concentration +21, Diplomacy +17, Gather Information +17, Knowledge (Civics) +16, Behavioral Sciences +16, Current Events +14, Earth Sciences +12, Life Sciences +12, Theology & Philosophy +16, Notice +14, Profession (Teacher) +11, Sense Motive +18; Languages (Latin, Arabic; base English). Concentration foi omitida por não ter equivalente direto.",
+    "A fonte registra Drawback Paraplegic (Common, Major; 4 PP). Convertido em complicação sem alteração do fato. Não foi adicionada Motivação.",
+    "Equipment discrepancies are not recalculated: Xavier’s School 21 EP and X-Jet 44 EP are preserved as printed.",
+    "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +0/-1/+0/+6/+6/+5. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
+    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
+  ]
+}

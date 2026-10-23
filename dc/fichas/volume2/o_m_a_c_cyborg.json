@@ -1,0 +1,26 @@
+{
+  "nome": "O.M.A.C. Cyborg",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 151,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 87
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "9",
+      "STA": "11",
+      "AGL": "1",
+      "DEX": "1",
+      "FGT": "9",
+      "INT": "2",
+      "AWE": "2",
+      "PRE": "0"
+    },
+    "poderes": "keyed to their opponents’ weaknesses. Even if they are lower power level than an oppo- nent, keep in mind O.M.A.C.s almost always operate in large groups capable of overwhelming most opposition. In spite of their considerable powers, within each O.M.A.C. is an otherwise ordinary human being, unwittingly transformed and under the influence of outside programming and the Brother Eye artificial intelligence. This may give heroic oppo - nents pause, unwilling to use potentially lethal force against innocent people (and earning the characters hero points for the complication and their restraint). Heroes & V Heroes & V I I lla lla I I ns, Vol. 2 ns, Vol. 2 Heroes & VIllaIns, Vol. 2 178.76.175.224",
+    "vantagens": "Assessment, Eidetic Memory, Fearless, Ranged Attack 8, Teamwork",
+    "pericias": "Expertise: Metahumans 16 (+18), Insight 12 (+14) ense: Initiative +1, Unarmed +9 (Close, Damage 9), Various o ff Powers +9 (Ranged, Damage Varies) efense: Dodge 10, Parry 10, Fortitude Immune, Toughness d 11, Will 11 Abilities 70 + Powers 45* + Advantages 11 + Skills 6 +",
+    "pontos_poder": "Defenses 19 = Total 151"
+  }
+}

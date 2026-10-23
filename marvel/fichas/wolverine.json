@@ -1,0 +1,136 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Wolverine",
+  "nome_pt": "Wolverine",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 165,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 116
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 4,
+      "Vig": 6,
+      "Agi": 3,
+      "Des": 2,
+      "Lut": 10,
+      "Int": 0,
+      "Pro": 3,
+      "Pre": -1
+    },
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 10,
+      "Fortitude": 13,
+      "Resistencia": 10,
+      "Vontade": 7
+    },
+    "pericias": {
+      "Atletismo": 12,
+      "Veículos": 9,
+      "Intimidação": 14,
+      "Percepção": 12,
+      "Intuição": 8,
+      "Furtividade": 12,
+      "Especialidade: Sobrevivência": 17
+    },
+    "vantagens": [
+      "All-Out Attack",
+      "Close Attack 8",
+      "Improved Defense",
+      "Improved Critical [Claws] 3",
+      "Improved Initiative",
+      "Luck",
+      "Power Attack",
+      "Skill Mastery 4 [Climb, Intimidate, Stealth, Survival]",
+      "Startle",
+      "Takedown 2",
+      "Ultimate Effort [Ultimate Toughness Save]",
+      "Weapon Break"
+    ],
+    "poderes": [
+      {
+        "nome": "Immunity",
+        "construcao_3e": "Immunity (rank 2e 2); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Immunity 2 (Aging, Poison; 2pp); custo 2e impresso 2 PP.",
+        "custo_2e_pp": 2,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Protection",
+        "construcao_3e": "Protection (rank 2e 4); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Protection 4 (Power Feat: Innate; 5pp); custo 2e impresso 5 PP.",
+        "custo_2e_pp": 5,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Strike",
+        "construcao_3e": "Damage (rank 2e 4); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Strike 4 (Power feats: Mighty, Quick Draw; Extra: Penetrating [+1] 8; Alternate Power: Strike 4 (Quickdraw, Mighty; Extra: Auto-Fire [+1]; 14pp); custo 2e impresso 14 PP.",
+        "custo_2e_pp": 14,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Super Senses",
+        "construcao_3e": "Sentidos (rank 2e 5); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Senses 5 (Scent [Extended, Accurate], Tracking; 5pp); custo 2e impresso 5 PP.",
+        "custo_2e_pp": 5,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Super Strength",
+        "construcao_3e": "Power-Lifting / Enhanced Strength (rank 2e 1); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Strength 1 (2pp); custo 2e impresso 2 PP.",
+        "custo_2e_pp": 2,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Regeneration",
+        "construcao_3e": "Regeneration (Resurrection → Immortality) (rank 2e 29); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Regeneration 29 (Recovery Rate: 17; Bruised 3, Unconscious 3, Injured 4, Staggered 4, Disabled 6; Ability Damage: 5, Resurrection 4; Power Feat: Regrowth; 30pp); custo 2e impresso 30 PP.",
+        "custo_2e_pp": 30,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [],
+    "complicacoes": [
+      "Berserker: ocorrência e intensidade exatamente como especificadas na fonte.",
+      "Vulnerabilidade indicada na fonte: Vulnerable [Magnetic Powers; Uncommon Occurrence; Major Intensity; 3pp]"
+    ],
+    "ataques": [
+      {
+        "nome": "Garras",
+        "bonus": 18,
+        "dano": 2
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 20,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 20,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 54,
+    "defesas": 50,
+    "pericias": 84,
+    "vantagens": 22,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 210,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
+    "Perícias foram convertidas subtraindo do bônus total impresso o atributo 3e correspondente. Conhecimentos, Ofícios e Profissões foram mantidos como Especialidades; Condução/Pilotagem como Veículos; Sobrevivência como Especialidade: Sobrevivência; Computadores como Tecnologia.",
+    "Poderes preservam os descritores, ranks, modificadores e custos 2e impressos; o guia orienta o efeito 3e equivalente. Custos 3e ficam nulos quando a construção exata ou os modificadores não permitem cálculo seguro.",
+    "Nenhuma Motivação ou complicação não publicada foi acrescentada.",
+    "A fonte informa 59 PP na categoria Powers, mas os custos individuais listados somam 58 PP. A diferença de 1 PP foi preservada sem correção.",
+    "Vantagens sem equivalente direto foram removidas conforme o guia; não foram recriadas como poderes: Fearsome Presence (5) [25 ft. DC 15]; Rage (2) [+4 Str, +2 Fort and Will Saves, -2 Defense; 10 Rounds].",
+    "Attack Focus foi convertido em graduações de Close Attack/Ranged Attack, conforme o tipo impresso.",
+    "Dodge Focus 6 foi convertido em ranks de Esquiva: base 10 + 6 = 16; valor final 10.",
+    "Defesas reduzidas por limite de NP 10: Esquiva 16→10 e Aparar 10→10; cada defesa ativa + Resistência 10 ≤ 20.",
+    "Claws: efeito ajustado de 8 para 2 para cumprir Ataque + efeito ≤ 20.",
+    "Subtotal 3e conhecido: 54 PP em habilidades, 84 em perícias, 50 em defesas, 22 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto."
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "nome": "The Mist (Unknown)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 169,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 58
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "-1",
+      "STA": "0",
+      "AGL": "0",
+      "DEX": "2",
+      "FGT": "1",
+      "INT": "6",
+      "AWE": "3",
+      "PRE": "4"
+    },
+    "poderes": "Living Mist: Insubstantial 4, Continuous, Reaction, Precise, Limited—Not through airtight or solid objects; Flight 4 (30 MPH), Continuous, Subtle 2 • 39 points",
+    "equipamento": "Light Pistol: Ranged Damage 3 • 6 points",
+    "vantagens": "Assessment, Benefit 4 (Multi-millionaire), Connected, Defensive Roll 6, Equipment 2, Evasion, Hide in Plain Sight, Inventor, Leadership, Power Attack, Redirect, Set-up, Skill Mastery (Stealth), Taunt, Uncanny Dodge",
+    "pericias": "Deception 10 (+14), Expertise: Chemistry 14 (+20), Expertise: Explosives 7 (+13), Expertise: Poisons 8 (+14), Intimidation 12 (+16), Perception 6 (+10), Ranged Combat: Guns 12 (+14), Sleight of Hand 9 (+11), Stealth 15 (+15), Technology 8 (+14)",
+    "ataques": "i nitia tive +0 Light Pistol +14 Ranged Damage 3",
+    "defesas": "d odge 7 f or titude 6 Parry 2 t oughness 6/0* W ill 14 *Without Defensive Roll.",
+    "pontos_poder": "a bilities 30 S kills 51 Powers 39 d efenses 25 a dv antages 24 ToTal 169",
+    "complicacoes": "riv en by Madness: remained as powerful as ever but slowly began to lose his mental faculties. A deal with the demon Neron restored his mind, but he remained driven by a burning need for vengeance against the heroes who defeated him in the past—particularly Starman. The first Mist trained his son to follow in his f amily Business: footsteps, and eventually also advised his daughter after she turned to villainy."
+  }
+}

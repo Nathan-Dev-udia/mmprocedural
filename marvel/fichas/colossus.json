@@ -1,0 +1,89 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Colossus",
+  "nome_pt": "Colossus",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 150,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 19
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 12,
+      "Vig": 3,
+      "Agi": 0,
+      "Des": 0,
+      "Lut": 8,
+      "Int": 2,
+      "Pro": 4,
+      "Pre": 2
+    },
+    "defesas": {
+      "Esquiva": 6,
+      "Aparar": 6,
+      "Fortitude": 12,
+      "Resistencia": 14,
+      "Vontade": 8
+    },
+    "pericias": {
+      "Especialidade: Artes Visuais": 15,
+      "Atletismo": 0,
+      "Percepção": 8,
+      "Intuição": 8,
+      "Combate à Distância: Ataques gerais": 8
+    },
+    "vantagens": [
+      "Accurate Attack",
+      "All-out Attack",
+      "Defensive Attack",
+      "Improved Defense 2",
+      "Power Attack",
+      "Teamwork 2",
+      "Languages 1"
+    ],
+    "poderes": [
+      {
+        "nome": "Alternate Form (Solid)",
+        "construcao_3e": "Alternate Form (Solid): Growth 10 (Enhanced Strength 20; Does Not Modify Size, Speed, or Skills), Protection 5 (Impervious), Immovable 3, Power-Lifting 3 (Ground Strike), Immunity 9 (Life Support), Protection 6 (Impervious 8).",
+        "custo_2e_pp": 55,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "dano": 12
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 20,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 20,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 62,
+    "defesas": 19,
+    "pericias": 19.5,
+    "vantagens": null,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 100.5,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "A fonte imprime Defesa 16 e Resistência 14; ambas foram reduzidas a 6 para respeitar os limites defensivos de NP 10. A forma sólida mantém os descritores originais. Atletismo 0: o bônus de Climb (+10) é menor que Força 12, logo não gera graduações positivas. Weapon Break e Stunning Attack foram removidas; o guia permite Affliction para Stunning Attack, mas nenhum custo foi presumido. Idioma inglês, além do russo-base, convertido em Languages 1.",
+    "Defesas ajustadas para Esquiva 6 e Aparar 6, respeitando os limites de NP 10 com Resistência 14.",
+    "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias e apenas os custos de poderes confirmados; não inclui vantagens nem custos incertos."
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Shocker",
+  "nome_pt": "Shocker",
+  "nivel_poder": 8,
+  "pontos_poder_origem": 120,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 89
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 8,
+      "Int": 2,
+      "Pro": 3,
+      "Pre": 1
+    },
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 8,
+      "Fortitude": 6,
+      "Resistencia": 8,
+      "Vontade": 6
+    },
+    "pericias": {
+      "Enganação": 8,
+      "Especialidade: Mechanical": 12,
+      "Especialidade: Electrical": 12,
+      "Tecnologia": 6,
+      "Investigação": 11,
+      "Intimidação": 6,
+      "Especialidade: Technology": 6,
+      "Percepção": 10,
+      "Intuição": 8,
+      "Furtividade": 8
+    },
+    "vantagens": [
+      "All-out Attack",
+      "Connected",
+      "Contacts",
+      "Defensive Attack",
+      "Improved Defense",
+      "Power Attack",
+      "Takedown",
+      "Well-informed"
+    ],
+    "poderes": [
+      {
+        "nome": "Shocker Suit",
+        "construcao_3e": "Removable Device: Protection 6, Immunity 5 (Entrapment), Vibration Control 8.",
+        "custo_2e_pp": 24,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Vibration Control",
+        "bonus": 8,
+        "dano": 8
+      },
+      {
+        "nome": "Unarmed",
+        "bonus": 8,
+        "dano": 2
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 16,
+      "esquiva_mais_resistencia": 16,
+      "aparar_mais_resistencia": 16,
+      "fortitude_mais_vontade": 12,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 40,
+    "defesas": 36,
+    "pericias": 43.5,
+    "vantagens": 8,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 127.5,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Improved Block virou Improved Defense conforme o guia; Elusive Target não tem equivalente direto; o perfil não lista Dodge Focus.",
+    "A fonte imprime STR/DEX/CON/INT/WIS/CHA +2/+1/+2/+2/+3/+1; Toughness +8, Fortitude +6, Reflex +6, Will +6; Attack +8 [Unarmed +2, Blast +8]; Defense 18; Initiative +1.",
+    "Defense 18 + Resistência 8 excede PL 8; Esquiva/Aparar reduzidas a 8 (8 + 8 = 16). Vibration Control 8 e ataque +8 atingem o limite 16.",
+    "A fonte apresenta a Shocker Suit como Device 6 e construção de 24 PP; ambos os dados são preservados sem recalcular o custo do dispositivo.",
+    "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +2/+1/+2/+2/+3/+1. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
+    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
+  ]
+}

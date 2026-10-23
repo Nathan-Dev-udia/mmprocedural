@@ -1,0 +1,27 @@
+{
+  "nome": "Uncle Sam",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 13,
+  "pontos_poder_publicados": 228,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 252
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "13",
+      "STA": "13",
+      "AGL": "5",
+      "DEX": "4",
+      "FGT": "5",
+      "INT": "1",
+      "AWE": "3",
+      "PRE": "5"
+    },
+    "poderes": "n ational Greatness: Elongation 3 • 3 points f r om the Heartland: Movement 1 (Dimensional Travel 1, “The Heartland”) • 2 points Strength of a n ation: Enhanced Strength 2, Limited to Lifting • 2 points n ation: Senses 10 (Detect National Threats, o ne with the Extended 7, Radius, Ranged), Remote Sensing 20 (Audial & Visual), Subtle 2, Limited to Perceiving Locations Inside the USA • 52 points n w Birth of f eedom: Immortality 1, Limited to a National a e r Time of Crisis • 2 points rinciples: Immunity 1 (aging) • 1 point t imeless P d a e S a V ant G All-out Attack, Diehard, Extraordinary Effort, Fascinate (Persuasion), Improved Initiative, Inspire 4, Leadership, Seize Initiative, Skill Mastery (Persuasion), Ultimate Skill (Persuasion), Well-informed",
+    "pericias": "Close Combat: Unarmed 8 (+13), Expertise: US History 12 (+13), Insight 12 (+15), Perception 12 (+15), Persuasion 12 (+17)",
+    "ataques": "i nitia tive +9 Unarmed +13 Close, Damage 13",
+    "defesas": "d odge 13 f or titude 14 Parry 13 t oughness 13 W ill 12",
+    "pontos_poder": "a bilities 98 S kills 28 Powers 62 d efenses 26 a dv antages 14 ToTal 228"
+  }
+}

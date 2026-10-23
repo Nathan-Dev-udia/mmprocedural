@@ -1,0 +1,30 @@
+{
+  "nome": "Shrinking Violet",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 121,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 20
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "-1/2",
+      "STA": "2",
+      "AGL": "4",
+      "DEX": "4",
+      "FGT": "5",
+      "INT": "3",
+      "AWE": "2",
+      "PRE": "1"
+    },
+    "poderes": "Shrinking 20 (Atomic), Growth Punch (Damage 5, Strength-Based, Quirk—Damage based on size rank difference between Shrinking Violet and her opponent, Quirk—Leaves Violet at same height as opponent)",
+    "equipamento": "Flight Ring (Communication 5 (subspace radio, Anywhere, Limited to Distress Signal –3), Flight 7 (250 MPH); Telepathic Ear Plug ( Comprehend 3 (Languages), Mental Communication 1 (Close Range)); Transsuit (Immunity 9 (Life Support, except for starvation and thirst))",
+    "vantagens": "Assessment, Benefit 1 (Legion Membership), Close Attack 3, Defensive Attack, Equipment 8, Improved Critical (Unarmed), Improved Initiative, Improved Smash, Improved Trip, Instant Up, Power Attack",
+    "pericias": "Acrobatics 5 (+9), Close Combat: Unarmed 2 (+7), Deception 5 (+6), Expertise: Imsk 5 (+8), Stealth 4 (+20/+8*), Vehicles 3 (+7)",
+    "ataques": "Initiative +8, Unarmed +10 (Close, Damage -1/2*, Crit. 19-20), Growth Punch +10 (Close, Damage 7, Crit. 19-20)",
+    "defesas": "Dodge 16/10*, Parry 16/10*, Fortitude 4, Toughness 2, Will 8 * Without 12 ranks of Shrinking.",
+    "pontos_poder": "Abilities 46 + Powers 24 + Advantages 20 + Skills 12 + Defenses 19 = 121",
+    "complicacoes": "r esponsibility: Shrinking Violet believes she should use her abilities to help others. r elationship: Shrinking Violet has had close relationships with Duplicate Boy, Sun Boy, and Lightning Lass, and a strong dislike of Chameleon Girl. Survivor: Since her abduction, Shrinking Violet has become much more forceful and able to protect herself."
+  }
+}

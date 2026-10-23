@@ -1,0 +1,28 @@
+{
+  "nome": "Prudence",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 7,
+  "pontos_poder_publicados": 101,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 13
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "2",
+      "AGL": "3",
+      "DEX": "3",
+      "FGT": "5",
+      "INT": "1",
+      "AWE": "3",
+      "PRE": "1"
+    },
+    "vantagens": "All-out Attack, Chokehold, Connected, Diehard, Equipment 7, Improved Initiative, Improvised Weapon, Seize Initiative",
+    "pericias": "Acrobatics 5 (+8), Athletics 8 (+10), Close Combat: Unarmed 5 (+10), Close Combat: Knife 4 (+9), Deception 6 (+7), Intimidation 8 (+9), Perception 4 (+7), Ranged Combat: Guns 7 (+10), Stealth 6 (+9), Vehicles 4 (+7)",
+    "ataques": "Initiative +7, Dual Submachine Guns +10 (Ranged Multiattack Damage 4), Holdout Pistol +10 (Ranged Damage 2), Knife +9 (Damage 1, Critical 19-20), Unarmed +10 (Damage 3)",
+    "defesas": "Dodge 8, Parry 8, Fortitude 8, Toughness 6/2*, Will 6 * Without Kevlar Vest.",
+    "pontos_poder": "Abilities 42 + Powers 0 + Advantages 14 + Skills 28 + Defenses 17 = 101",
+    "equipamento": "Dual Submachine Guns (Ranged Multiattack Damage 4), Holdout Pistol (Ranged Damage 2), Knife (Damage 1, piercing, Critical 19-20), Kevlar Vest (Protection 4, Limited to Ballistic, Subtle)"
+  }
+}

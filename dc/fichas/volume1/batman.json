@@ -1,0 +1,29 @@
+{
+  "nome": "Batman",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": 283,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 45
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "4",
+      "STA": "4",
+      "AGL": "7",
+      "DEX": "7",
+      "FGT": "14",
+      "INT": "8",
+      "AWE": "7",
+      "PRE": "7"
+    },
+    "equipamento": "Flashlight: Feature 1 (Illumination) • 1 point Grapnel Gun: Super-Movement 1 (Swinging) • 2 points Mini-Tracers: Feature 1 (Tracking) • 1 point Rebreather: Immunity 2 (Suffocation), Limited • 1 point Utility Belt: Array (12 points) • Bolos: Ranged Affliction 4 (Resisted by Dodge; Hindered and Vulnerable, Defenseless and Immobile) • 12 points • Batarangs: Strength-based Ranged Damage 2 • 1 point • Cutting Torch: Damage 1 (heat) Linked to Weaken Object’s Toughness 1 • 1 point • Explosive Batarangs: Ranged Burst Area Damage 4 • 1 point • Flash Bombs: Ranged Burst Area Affliction 3 (Resisted by Fortitude; Vision Impaired, Vision Disabled, Vision Unaware) • 1 point • Sleep Gas Pellets: Ranged Cloud Area Affliction 4 (Resisted by Fortitude; Fatigued, Exhausted, Asleep) • 1 point • Smoke Bombs: Cloud Area Visual Concealment Attack 4 • 1 point • Tear Gas Pellets: Ranged Cloud Area Affliction 3 (Resisted by Fortitude; Dazed and Vision Impaired, Stunned and Vision Disabled, Incapacitated) • 1 point HEADQUARTERS: THE BATCAVE • 20 POINTS Size: Huge Tou 10 Features: Communications, Computer, Concealed,",
+    "defesas": "Dodge 14 Fortitude 9 Parry 14 Toughness 8/4* Will 13 * Without Defensive Roll.",
+    "pontos_poder": "Abilities 116 Skills 76 Powers 0 Defenses 19 Advantages 72 ToTal 283",
+    "vantagens": "Assessment, Benefit 5 (Billionaire), Close Attack 6, Connected, Contacts, Daze (Intimidation), Defensive Attack, Defensive Roll 4, Equipment 19, Evasion, Hide in Plain Sight, Improved Initiative, Improvised Tools, Instant Up, Inventor, Jack-of-all- trades, Languages 4, Move-by Action, Power Attack, Precise Attack (Ranged; Cover), Quick Draw, Ranged Attack 7, Redirect, Seize Initiative, Set-up, Skill Mastery (Intimidation), Skill Mastery (Investigation), Startle, Takedown, Trance, Tracking, Uncanny Dodge, Well-informed",
+    "pericias": "Acrobatics 8 (+15), Athletics 11 (+15), Deception 8 (+15), Expertise: Criminology 13 (+21), Expertise: Streetwise 13 (+21), Insight 10 (+17), Intimidation 15 (+22), Investigation 14 (+22), Perception 13 (+20), Persuasion 5 (+12), Stealth 13 (+20), Sleight of Hand 8 (+15), Technology 8 (+15), Treatment 5 (+12), Vehicles 8 (+15)",
+    "ataques": "Initiative +11 Batarang +14 Ranged, Damage 6 Unarmed +20 Close, Damage 4",
+    "complicacoes": "Flashbacks: Batman is sometimes stunned by traumatic flashbacks to the night his parents were murdered, especially in connection to Crime Alley, where the killings took place. Nemesis: Batman has a number of recurring foes, but the Joker is the most dangerous of all. Obsession: Crime fighting. Relationships: Although he may appear to be a loner, Batman has a number of important people in his life, including Nightwing, Robin, Oracle, Alfred Pennyworth (the faithful Wayne family butler) and Police Commissioner James Gordon. Responsibility: Batman considers Gotham his city, and his responsibility. Secret Identity: Bruce Wayne."
+  }
+}

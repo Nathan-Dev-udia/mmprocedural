@@ -1,0 +1,29 @@
+{
+  "nome": "Ice",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 135,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 273
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "5",
+      "AGL": "4",
+      "DEX": "2",
+      "FGT": "2",
+      "INT": "2",
+      "AWE": "3",
+      "PRE": "2"
+    },
+    "poderes": "Cold Immunity: Immunity 10 (Cold Effects) • 10 points Ice Slide: Platform Flight 5 (60 MPH) • 5 points Ice Production: Array (27 points) • Create Ice: Create 9, Continuous • 27 points • Ice Blast: Ranged Damage 9 • 1 point • Ice Snare: Ranged Cumulative Affliction 9 (Resisted by Dodge; Hindered and Vulnerable, Defenseless and Immobile), Extra Condition, Limited Degree • 1 point • Icy Surface: Cone Area Affliction 9 (Resisted by Dodge; Hindered and Vulnerable), Extra Condition, Limited Degree 2 • 1 point",
+    "vantagens": "Accurate Attack, Attractive, Defensive Roll 3, Extraordinary Effort, Languages 1 (English, Norwegian native), Luck 2, Move-by Action, Teamwork",
+    "pericias": "Acrobatics 6 (+10), Close Combat: Unarmed 4 (+6), Expertise: Magic 4 (+6), Perceptions 5 (+8), Ranged Combat: Ice Production 7 (+9)",
+    "ataques": "Initiative +4 Ice Blast +9 Ranged, Damage 9 Ice Snare +9 Ranged, Affliction 9, Resisted by Dodge Unarmed +6 Close, Damage 2",
+    "defesas": "Dodge 10 Fortitude 9 Parry 10 Toughness 8/5* Will 9 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 42 Skills 13 Powers 45 Defenses 24 Advantages 11 ToTal 135",
+    "complicacoes": "Relationship: Ice has an on again-off again relationship with Guy Gardner. Motivation—Doing Good: Ice is a genuinely good person and uses her powers to make the world a better place. POWERS & ABILITIES Tora is proficient in hand-to-hand combatant, and can proj - ect various forms of ice and snow from her hands. She is able to encase opponents in ice, and create platforms of ice upon which she can skate."
+  }
+}

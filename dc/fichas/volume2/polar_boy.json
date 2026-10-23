@@ -1,0 +1,30 @@
+{
+  "nome": "Polar Boy",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 130,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 18
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "4",
+      "AGL": "2",
+      "DEX": "3",
+      "FGT": "3",
+      "INT": "2",
+      "AWE": "2",
+      "PRE": "1"
+    },
+    "poderes": "f lame i mmunit y (Immunity 11 (Heat, Fire Attacks (Limited to Half Effect)); i c e Production (Create Ice (Create 11, Continuous), ae : i c e Blast (Ranged Damage 11), ae : i c e Snare (Ranged Cumulative Affliction 11 (Resisted by Dodge; Hindered and Vulnerable, Defenseless and Immobilized), Extra Condition, Limited Degree), ae : i c y Surface (Cone Area Affliction 9 (Resisted by Dodge; Hindered and Vulnerable), Extra Condition, Limited Degree 2)); i c e Slide (Platform Flight 5)",
+    "equipamento": "Flight Ring (Communication 5 (subspace radio, Anywhere, Limited to Distress Signal –3), Flight 7 (250 MPH); Telepathic Ear Plug ( Comprehend 3 (Languages), Mental Communication 1 (Close Range)); Transsuit (Immunity 9 (Life Support, except for starvation and thirst))",
+    "vantagens": "Beginner’s Luck, Benefit (Legion Membership), Defensive Roll 3, Equipment 8, Leadership, Teamwork",
+    "pericias": "Expertise: Tharr 5 (+7), Perception 4 (+6), Persuasion 5 (+6), Ranged Combat (Ice Production Array) 6 (+9), Vehicles 4 (+7)",
+    "ataques": "Initiative +2, Ice Blast +9 (Ranged, Damage 11), Unarmed +3 (Close, Damage 2)",
+    "defesas": "Dodge 10, Parry 8, Fortitude 6, Toughness 7/4*, Will 5 * Without Defensive Roll.",
+    "pontos_poder": "Abilities 38 + Powers 47 + Advantages 15 + Skills 12 + Defenses 18 = 130",
+    "complicacoes": "r ecognition: Polar Boy isn’t a show off, but he wants to be regarded as competent and riv skilled and works hard to achieve that. d en: Polar Boy is determined and tenacious. He never gives up once he sets his mind to something... which can also make him seem stubborn."
+  }
+}

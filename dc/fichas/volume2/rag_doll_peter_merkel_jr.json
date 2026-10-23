@@ -1,0 +1,29 @@
+{
+  "nome": "Rag Doll (Peter Merkel, Jr.)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 141,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 164
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "4",
+      "AGL": "8",
+      "DEX": "8",
+      "FGT": "6",
+      "INT": "0",
+      "AWE": "1",
+      "PRE": "0"
+    },
+    "poderes": "t riple -Jointed (Enhanced Advantages 3 (Second Chance (Escape Checks), Skill Mastery (Sleight of Hand), Ultimate Effort (Contortion checks), Ultimate Effort (Escape Checks)); Enhanced Strength 4, Limited: Attacks against Grabbed Foes Only; Enhanced Skill 4 (Sleight of Hand +8, Limited to Contorting and Escaping Checks); Immunity 20 (Blunt Force Trauma), Limited to Half Effect)",
+    "vantagens": "Agile Feint, All-out Attack, Benefit (Ambidexterity), Chokehold, Close Attack 3, Defensive Attack, Defensive Roll 2, Evasion, Fast Grab, Grabbing Finesse, Improved Defense, Improved Hold, Improvised Weapon, Second Chance (Escape Checks), Set-up, Skill Mastery (Sleight of Hand) , Teamwork, Uncanny Dodge, Ultimate Effort (Contortion checks), Ultimate Effort (Escape checks)",
+    "pericias": "Acrobatics 10 (+18), Athletics 10 (+12), Close Combat: Grab ( d ex ) 1 (+9), D eception 4 (+4), Expertise: Criminal 4 (+4), Intimidation 4 (+4), Perception 6 (+7), Sleight of Hand 2 (+10), Stealth 5 (+13), Technology 2 (+2), Treatment 2 (+2)",
+    "ataques": "Initiative +8, Unarmed +9 (Close, Damage 2), Grab +12 (Close, Damage 6)",
+    "defesas": "Dodge 12, Parry 12, Fortitude 8, Toughness 6/4*, Will 6 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 58 + Powers 20 + Advantages 19 + Skills 25 + Defenses 19= 141",
+    "complicacoes": "Power Loss: Rag Doll must keep his skin lubricated with special chemicals to avoid it drying out and developing painful cracks, which make it impossible for him to use his powers without causing himself injury. f r eak: Rag Doll is deeply disturbed and profoundly insane. He is covered in scars and physically twisted from numerous surgeries."
+  }
+}

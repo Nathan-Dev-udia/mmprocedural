@@ -1,0 +1,92 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Elixir",
+  "nome_pt": "Elixir",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 135,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 29
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 4,
+      "Int": 2,
+      "Pro": 3,
+      "Pre": 1
+    },
+    "defesas": {
+      "Esquiva": 14,
+      "Aparar": 14,
+      "Fortitude": 10,
+      "Resistencia": 6,
+      "Vontade": 6
+    },
+    "pericias": {
+      "Enganação": 9,
+      "Atletismo": 6,
+      "Persuasão": 5,
+      "Percepção": 6,
+      "Intuição": 6,
+      "Furtividade": 4,
+      "Combate Corpo a Corpo: Toque": 6,
+      "Combate à Distância: Ataques gerais": 2
+    },
+    "vantagens": [
+      "Great Endurance 2",
+      "Equipment 1",
+      "Die Hard",
+      "Improved Defense 2",
+      "Teamwork 3",
+      "Ultimate Effort (Ultimate Toughness Resistance)",
+      "Ultimate Effort (Ultimate Power Check)"
+    ],
+    "poderes": [
+      {
+        "nome": "Healing",
+        "construcao_3e": "Healing 10 (Persistent, Regrowth, Total, Standard Action).",
+        "custo_2e_pp": 42,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Toque curativo",
+        "bonus": 10,
+        "dano": 0
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 10,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 16,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 36,
+    "defesas": 33,
+    "pericias": 22.0,
+    "vantagens": null,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 91.0,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "A fonte não imprime Toughness de modo legível; a linha indica +6 seguido de Fortitude +10, Reflex +5 e Will +6, então Resistência 6 foi usada. Dodge Focus 6 e Defesa 24 foram limitados para respeitar NP 10. Attack Specialization (Touch) 3 foi representada por Close Attack 3; a fonte não detalha ataque separado para Healing.",
+    "Defesas ajustadas para Esquiva 14 e Aparar 14, respeitando os limites de NP 10 com Resistência 6.",
+    "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias e apenas os custos de poderes confirmados; não inclui vantagens nem custos incertos."
+  ]
+}

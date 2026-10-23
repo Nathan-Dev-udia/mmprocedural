@@ -1,0 +1,29 @@
+{
+  "nome": "Gold",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 206,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 49
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "7",
+      "STA": "—",
+      "AGL": "5",
+      "DEX": "5",
+      "FGT": "9",
+      "INT": "5",
+      "AWE": "3",
+      "PRE": "2"
+    },
+    "poderes": "r obot Body (Immunity 40 (Fortitude effects, Mental effects); Protection 8, Impervious), Shapeshifting (Elongation 8; Morph 4 (any form), Quirk: Limited to Same Color; Variable 2 (physical traits, 10 power points, plus changing existing physical trait allocations)",
+    "vantagens": "Leadership, Power Attack",
+    "pericias": "Close Combat: Unarmed 4 (+13), Investigation 3 (+8), Technology 7 (+12), Vehicles 6 (+11)",
+    "ataques": "Initiative +5, Unarmed +13 (Close, Damage 7)",
+    "defesas": "Dodge 12, Parry 12, Fortitude Immune, Toughness 8, Will 8",
+    "pontos_poder": "Abilities 82 + Powers 97 + Advantages 2 + Skills 10 + Defenses 15 = 206",
+    "complicacoes": "d oing Good: All of the Metal Men are driven to make the world a better place. e al: gotistic Gold comes off as full of himself."
+  }
+}

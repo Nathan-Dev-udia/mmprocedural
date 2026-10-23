@@ -1,0 +1,25 @@
+{
+  "nome": "Brother Blood Ix",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 89
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "3",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "8",
+      "INT": "1",
+      "AWE": "2",
+      "PRE": "10"
+    },
+    "poderes": "Drain Blood: Grab-Based Weaken Strength 12 Linked to Grab- based Weaken Stamina 12 • 12 points Hypnosis: Perception Ranged Affliction 12 (Resisted by Will; Dazed, Compelled, Controlled), Cumulative, Sense- Dependent (Sight) • 36 points Prayer Shawl: Enhanced Advantage 1 (Diehard), Protection 10 (Impervious 5), Immunity 2 (Aging, Limited to Half Effect; Raven’s Soul-Self powers), Removable (-4 points) • 14 points Vampire Strength: Enhanced Strength 16, Fades, Reaction (Triggered By Drinking Blood), Limited to amount of Strength of target • 16 points",
+    "vantagens": "Benefit 5 (head of the Church of Blood), Diehard, Improved Grab, Improved Hold, Improved Initiative, Inspire, Minion 2, Ritualist, Startle",
+    "pericias": "Acrobatics 4 (+2), Close Combat: Vampire Bite 2 (+10), Intimidate 8 (+18), Expertise: Magic and Theology 8 (+9)"
+  }
+}

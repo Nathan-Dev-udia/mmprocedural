@@ -1,0 +1,29 @@
+{
+  "nome": "Congo Bill",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 8,
+  "pontos_poder_publicados": 111,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 126
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "3",
+      "AGL": "2",
+      "DEX": "4",
+      "FGT": "3",
+      "INT": "3",
+      "AWE": "3",
+      "PRE": "3"
+    },
+    "poderes": "Ruby Ring: ( Feature 1 (Able to swap minds with Congorilla as standard action))",
+    "equipamento": "Hunting Rifle (Ranged Damage 5, Critical 19-20), Binoculars",
+    "vantagens": "Benefit 3 (Millionaire), Defensive Roll, 5, Equipment 2, Fearless, Great Endurance, Hide in Plain Sight, Improved Initiative, Languages 3, Precise Attack (Ranged; Concealment), Tracking, Uncanny Dodge",
+    "pericias": "Acrobatics 3 (+5), Athletics 8 (+10), Close Combat: Unarmed 5 (+8), Expertise: Africa 6 (+9), Expertise: Hunting 7 (+10), Perception 6 (+9), Ranged Combat: Guns 7 (+11), Vehicles 6 (+10)",
+    "ataques": "Initiative +8, Hunting Rifle +11 (Ranged, Damage 5, Critical 19-20), Unarmed +8 (Close, Damage 2)",
+    "defesas": "Dodge 8, Parry 7, Fortitude 8, Toughness 8/3, Will 8",
+    "pontos_poder": "Abilities 46 + Powers 1 + Advantages 20 + Skills 24 + Defenses 20 = 111"
+  }
+}

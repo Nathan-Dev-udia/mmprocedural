@@ -1,0 +1,128 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Strong Guy",
+  "nome_pt": "Strong Guy",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 135,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 97
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 10,
+      "Vig": 10,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 7,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "defesas": {
+      "Esquiva": 7,
+      "Aparar": 7,
+      "Fortitude": 10,
+      "Resistencia": 10,
+      "Vontade": 5
+    },
+    "pericias": {
+      "Enganação": 6,
+      "Atletismo": 0,
+      "Intimidação": 8,
+      "Especialidade: Cultura Pop": 8,
+      "Percepção": 10,
+      "Especialidade: Segurança Pessoal": 9,
+      "Especialidade: Comédia Stand-up": 5,
+      "Intuição": 8,
+      "Combate Corpo-a-Corpo: Unarmed": 1
+    },
+    "vantagens": [
+      "All-Out Attack",
+      "Defensive Attack",
+      "Equipment",
+      "Improved Defense 2",
+      "Improved Defense",
+      "Interpose",
+      "Power Attack",
+      "Taunt",
+      "Takedown",
+      "Teamwork"
+    ],
+    "poderes": [
+      {
+        "nome": "Absorption [Physical]",
+        "construcao_3e": "Efeito 3e correspondente ao descritor (rank 2e 3); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Absorption [Physical] 3 (Boost: Other Powers; Power Feat: Slow Fade; 13pp) Componentes/efeitos alternativos mapeados: Absorption → Energy Absorption (poder-modelo); Boost → Enhanced Trait com Fades.; custo 2e impresso 13 PP.",
+        "custo_2e_pp": 13,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Enhanced Strength",
+        "construcao_3e": "Enhanced Trait: Força (rank 2e 10); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Enhanced Strength 10 (10pp); custo 2e impresso 10 PP.",
+        "custo_2e_pp": 10,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Enhanced Constitution",
+        "construcao_3e": "Enhanced Trait: Vigor (rank 2e 14); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Enhanced Constitution 14 (14pp); custo 2e impresso 14 PP.",
+        "custo_2e_pp": 14,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Growth",
+        "construcao_3e": "Growth (rank 2e 4); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Growth 4 (+8 Strength, +4 Constitution; 12pp); custo 2e impresso 12 PP.",
+        "custo_2e_pp": 12,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Super Strength",
+        "construcao_3e": "Power-Lifting / Enhanced Strength (rank 2e 3); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Strength 3 (6pp); custo 2e impresso 6 PP.",
+        "custo_2e_pp": 6,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Goggles [1ep]",
+      "Cell Phone [1ep]"
+    ],
+    "complicacoes": [
+      "Deficiência indicada na fonte: Disability [Nearsighted without Goggles; -4 to Ranged Attacks; 1pp] bilities 16 + Skills 14 (76 ranks) + Feats 12 + Powers 55 + Combat 34 + Saves 5 – Drawbacks 1 = 135 PP PL 10 STRONG GUY"
+    ],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "dano": 10
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 18,
+      "esquiva_mais_resistencia": 17,
+      "aparar_mais_resistencia": 17,
+      "fortitude_mais_vontade": 15,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 68,
+    "defesas": 39,
+    "pericias": 55,
+    "vantagens": 11,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 173,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
+    "Perícias foram convertidas subtraindo do bônus total impresso o atributo 3e correspondente. Conhecimentos, Ofícios e Profissões foram mantidos como Especialidades; Condução/Pilotagem como Veículos; Sobrevivência como Especialidade: Sobrevivência; Computadores como Tecnologia.",
+    "Poderes preservam os descritores, ranks, modificadores e custos 2e impressos; o guia orienta o efeito 3e equivalente. Custos 3e ficam nulos quando a construção exata ou os modificadores não permitem cálculo seguro.",
+    "Nenhuma Motivação ou complicação não publicada foi acrescentada.",
+    "A fonte atribui 1 rank(s) de Equipment (5 EP), mas os itens listados somam 2 EP; valores preservados sem correção.",
+    "Vantagens sem equivalente direto foram removidas conforme o guia; não foram recriadas como poderes: Elusive Target.",
+    "Subtotal 3e conhecido: 68 PP em habilidades, 55 em perícias, 39 em defesas, 11 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto."
+  ]
+}

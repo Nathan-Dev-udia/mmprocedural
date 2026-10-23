@@ -1,0 +1,30 @@
+{
+  "nome": "Monsieur Mallah",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 8,
+  "pontos_poder_publicados": 126,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 91
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "7",
+      "STA": "6",
+      "AGL": "4",
+      "DEX": "3",
+      "FGT": "5",
+      "INT": "4",
+      "AWE": "2",
+      "PRE": "1"
+    },
+    "poderes": "Mobility (Movement 5 (Sure-Footed 2, Safe Fall, Swinging, Wall-crawling)); Hand-Like Feet ( Feature 1 (Can use feet like hands))",
+    "equipamento": "Heavy Pistol (Ranged Damage 4), Machine Gun (Ranged Damage 6, Multiattack) , an additional 4 points of equipment that changes depending on the mission.",
+    "vantagens": "Accurate Attack, Agile Feint, Defensive Roll 3, Equipment 6, Jack-of-all-trades, Improved Grab, Improvised Tools, Languages (English, French is native), Power Attack",
+    "pericias": "Acrobatics 4 (+8), Athletics 3 (+10), Close Combat: Unarmed 4 (+9), Deception 2 (+3), Expertise: Current Events 3 (+7), Expertise: Guns 2 (+6), Expertise: Military 2 (+6), Expertise: Science 2 (+6), Intimidation 7 (+8), Perception 5 (+7), Persuasion 2 (+3), Ranged Combat: Guns 7 (+10), Technology 1 (+5), Treatment 2 (+6)",
+    "ataques": "Initiative +4, Unarmed +9 (Close, Damage 7), Heavy Pistol +10 (Ranged, Damage 4), Machine Gun +10 (Ranged, Multiattack Damage 6)",
+    "defesas": "Dodge 7, Parry 7, Fortitude 8, Toughness 9/6*, Will 8 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 64 + Powers 11 + Advantages 16 + Skills 22 + Defenses 13 = 126",
+    "complicacoes": "Forbidden Love: The Brain and Monsieur Mallah are involved in a romantic relationship that can, at best, be described as extraordinarily unorthodox given the former’s disembodied circumstances and Mallah being a mutated gorilla."
+  }
+}

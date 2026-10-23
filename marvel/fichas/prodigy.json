@@ -1,0 +1,110 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Prodigy",
+  "nome_pt": "Prodigy",
+  "nivel_poder": 8,
+  "pontos_poder_origem": 120,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 69
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 8,
+      "Int": 0,
+      "Pro": 1,
+      "Pre": 1
+    },
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 8,
+      "Fortitude": 4,
+      "Resistencia": 8,
+      "Vontade": 9
+    },
+    "pericias": {
+      "Enganação": 8,
+      "Especialidade: Mechanical": 11,
+      "Tecnologia": 11,
+      "Especialidade: Physical Sciences": 11,
+      "Especialidade: Life Sciences": 11,
+      "Especialidade: Technology": 11,
+      "Intuição": 8
+    },
+    "vantagens": [
+      "Defensive Roll 2",
+      "Eidetic Memory",
+      "Equipment 3",
+      "Inspire",
+      "Inventor",
+      "Jack-of-all-trades",
+      "Luck",
+      "Set-Up",
+      "Teamwork 3"
+    ],
+    "poderes": [
+      {
+        "nome": "Enhanced Intelligence 14",
+        "construcao_3e": "Enhanced Trait: Intellect 14.",
+        "custo_2e_pp": 14,
+        "custo_3e_pp": 28
+      },
+      {
+        "nome": "Mimic (Skills and Feats) 8",
+        "construcao_3e": "Perception Range; Limited to skills and feats; Resisted; ends if target moves more than 30 feet away.",
+        "custo_2e_pp": 24,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Quickness 2",
+        "construcao_3e": "Mental Quickness; Limited.",
+        "custo_2e_pp": 1,
+        "custo_3e_pp": 1
+      }
+    ],
+    "equipamento": [
+      "New X-Men uniform (+4 Toughness; Comm-Link; 5 EP).",
+      "10 additional EP."
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Unarmed",
+        "bonus": 8,
+        "dano": 2
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 10,
+      "esquiva_mais_resistencia": 16,
+      "aparar_mais_resistencia": 16,
+      "fortitude_mais_vontade": 13,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 32,
+    "defesas": 37,
+    "pericias": 35.5,
+    "vantagens": 14,
+    "poderes_conhecidos": 29,
+    "subtotal_conhecido": 147.5,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Dodge Focus 7 foi convertido em Esquiva e reduzido ao máximo legal de 8 para NP 8; Master Plan virou Inspire 1 conforme o guia; Sneak Attack 3 não tem equivalente direto.",
+    "A fonte imprime STR/DEX/CON/INT/WIS/CHA +2/+1/+2/+0/+1/+1; Toughness +8/+6, Fortitude +4, Reflex +4, Will +9; Attack +8; Defense 18; Initiative +1.",
+    "Perícias da fonte: Bluff +9, Concentration +9, Craft (Mechanical) +11, Disable Device +11, Knowledge (Physical Sciences/Life Sciences/Technology) +11 cada, Sense Motive +9. Concentration foi omitida por não ter equivalente direto.",
+    "Dodge Focus 7 e Defesa 18 não cabem com Resistência 8 em PL 8; Esquiva/Aparar foram reduzidas ao máximo permitido, 8 (8 + 8 = 16). Ataque +8 e dano 2 permanecem abaixo do limite 16. Master Plan e Sneak Attack 3 não têm equivalente.",
+    "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +2/+1/+2/+0/+1/+1. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
+    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
+  ]
+}

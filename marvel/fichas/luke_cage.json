@@ -1,0 +1,112 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Luke Cage",
+  "nome_pt": "Luke Cage",
+  "nivel_poder": 9,
+  "pontos_poder_origem": 135,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 50
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 10,
+      "Vig": 10,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 8,
+      "Int": 0,
+      "Pro": 0,
+      "Pre": 1
+    },
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 8,
+      "Fortitude": 14,
+      "Resistencia": 10,
+      "Vontade": 3
+    },
+    "pericias": {
+      "Enganação": 6,
+      "Atletismo": 5,
+      "Especialidade: Mecânica": 6,
+      "Veículos": 6,
+      "Intimidação": 14,
+      "Especialidade: Vida nas Ruas": 10,
+      "Percepção": 6,
+      "Intuição": 8,
+      "Furtividade": 6
+    },
+    "vantagens": [
+      "Accurate Attack",
+      "All-out Attack",
+      "Chokehold",
+      "Defensive Attack",
+      "Improved Defense",
+      "Improved Critical: Unarmed 2",
+      "Luck",
+      "Power Attack",
+      "Startle"
+    ],
+    "poderes": [
+      {
+        "nome": "Density",
+        "construcao_3e": "Density 1 (+2 Strength; Continuous, Permanent). 3 PP na fonte.",
+        "custo_2e_pp": 3,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Immunity",
+        "construcao_3e": "Immunity 3 (calor, frio e pressão).",
+        "custo_2e_pp": 3,
+        "custo_3e_pp": 3
+      },
+      {
+        "nome": "Impervious Toughness",
+        "construcao_3e": "Impervious Toughness 6.",
+        "custo_2e_pp": 6,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Super-Strength",
+        "construcao_3e": "Super-Strength 4.",
+        "custo_2e_pp": 8,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "dano": 10
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 18,
+      "esquiva_mais_resistencia": 18,
+      "aparar_mais_resistencia": 18,
+      "fortitude_mais_vontade": 17,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 66,
+    "defesas": 33,
+    "pericias": 34,
+    "vantagens": 10,
+    "poderes_conhecidos": 3,
+    "subtotal_conhecido": 146,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Climb virou Atletismo; Drive virou Veículos. Improved Block 2 foi representado por uma única vantagem Improved Defense. Stunning Attack não tem equivalente direto e foi omitida.",
+    "Toughness +10 e Defense 18 (rank 8) resultam em Defesa 18/18, dentro do limite NP 9.",
+    "Weapon Break foi omitida: não possui equivalente direto na 3e."
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Wind Dancer",
+  "nome_pt": "Wind Dancer",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 135,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 113
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 1,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 6,
+      "Int": 2,
+      "Pro": 1,
+      "Pre": 3
+    },
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 6,
+      "Fortitude": 3,
+      "Resistencia": 8,
+      "Vontade": 3
+    },
+    "pericias": {
+      "Enganação": 4,
+      "Tecnologia": 6,
+      "Investigação": 9,
+      "Especialidade: Cultura Pop": 8,
+      "Percepção": 8,
+      "Intuição": 8,
+      "Combate a Distância: Wind Blast": 6
+    },
+    "vantagens": [
+      "Accurate Attack",
+      "Attractive 2",
+      "Defensive Roll 3",
+      "Equipment",
+      "Favored Environment [Airborne] 8",
+      "Improved Initiative 2",
+      "Luck",
+      "Move By Action",
+      "Teamwork 2",
+      "Languages 2"
+    ],
+    "poderes": [
+      {
+        "nome": "Element Control [Air]",
+        "construcao_3e": "Element Control (Air) 12, Dynamic, Cone Area; Alternate Effects: Trip (Knockback, Cone Area), Flight, Blast (Autofire), todos Dynamic. A construção 3e segue o modelo Element Control do guia; custo incerto.",
+        "custo_2e_pp": 43,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Super Senses",
+        "construcao_3e": "Senses: Extended Hearing 5; fonte 5 PP.",
+        "custo_2e_pp": 5,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "New X-Men Uniform [+4 Toughness; Comm-Link; 5ep]"
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 6,
+        "dano": 1
+      },
+      {
+        "nome": "Rajada de Vento",
+        "bonus": 8,
+        "dano": 12
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 20,
+      "esquiva_mais_resistencia": 18,
+      "aparar_mais_resistencia": 14,
+      "fortitude_mais_vontade": 6,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 36,
+    "defesas": 30,
+    "pericias": 49,
+    "vantagens": 23,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 138,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
+    "Perícias foram convertidas subtraindo do bônus total impresso o atributo 3e correspondente. Conhecimentos, Ofícios e Profissões foram mantidos como Especialidades; Condução/Pilotagem como Veículos; Sobrevivência como Especialidade: Sobrevivência; Computadores como Tecnologia.",
+    "Poderes preservam os descritores, ranks, modificadores e custos 2e impressos; o guia orienta o efeito 3e equivalente. Custos 3e ficam nulos quando a construção exata ou os modificadores não permitem cálculo seguro.",
+    "Nenhuma Motivação ou complicação não publicada foi acrescentada.",
+    "A fonte informa 47 PP na categoria Powers, mas os custos individuais listados somam 48 PP (Element Control 43, Super Senses 5). A diferença de 1 PP foi preservada sem correção.",
+    "Idiomas adicionais descritos na fonte foram convertidos em Languages 2, usando a progressão da vantagem 3e.",
+    "Subtotal 3e conhecido: 36 PP em habilidades, 49 em perícias, 30 em defesas, 23 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto."
+  ]
+}

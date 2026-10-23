@@ -1,0 +1,29 @@
+{
+  "nome": "Gemini",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 8,
+  "pontos_poder_publicados": 179,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 93
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "4",
+      "AGL": "6",
+      "DEX": "4",
+      "FGT": "6",
+      "INT": "1",
+      "AWE": "2",
+      "PRE": "5"
+    },
+    "poderes": "Elasticity (Elongation 4 (120 feet); Enhanced Advantages 4 (Chokehold, Fast Grab, Improved Grab, Improved Hold); Strength-based Damage 3); Mimicry (Feature 1 (Vocal Mimic)); Shapechanger (Morph 3 (Humanoids)); Shapeshifting (Variable 8 (Assumed Forms), Move Action, Limited to Living Creatures)",
+    "vantagens": "Chokehold, Defensive Roll 2, Fast Grab, Improved Grab, Improved Hold, Languages (French)",
+    "pericias": "Close Combat: Unarmed 4 (+10), Deception 3 (+8), Insight 2 (+4), Intimidation 3 (+8), Perception 6 (+8), Persuasion 4 (+9), Sleight of Hand 2 (+6), Stealth 6 (+12)",
+    "ataques": "Initiative +6, Unarmed +10 (Close, Damage 6 or Grab)",
+    "defesas": "Dodge 10, Parry 10, Fortitude 8, Toughness 6/4*, Will 7 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 62 + Powers 82 + Advantages 3 + Skills 15 + Defenses 17 = 179",
+    "complicacoes": "Psychotic: Gemini holds no value on human life and kills with a detached ease that makes her unreliable and unpredictable. Thirst for Revenge: Gemini is the vicious killer she is today because of her heated rage and desire to avenge her mother’s death at the hands of Beast Boy, regardless of the accidental circumstances that led to the tragedy."
+  }
+}

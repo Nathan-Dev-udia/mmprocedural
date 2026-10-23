@@ -1,0 +1,28 @@
+{
+  "nome": "Mathilda “Ma” Hunkel",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 4,
+  "pontos_poder_publicados": 49,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 297
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "1",
+      "AGL": "0",
+      "DEX": "1",
+      "FGT": "3",
+      "INT": "1",
+      "AWE": "2",
+      "PRE": "2"
+    },
+    "vantagens": "All-out Attack, Connected, Improvised Weapons",
+    "pericias": "Close Combat: Unarmed 4 (+7), Deception 3 (+5), Expertise: Cooking 7 (+8), Insight 5 (+7), Intimidation 3 (+5), Perception 5 (+7), Persuasion 5 (+7)",
+    "ataques": "Initiative +0, Unarmed +7 (Damage 1)",
+    "defesas": "Dodge 3, Parry 3, Fortitude 2, Toughness 1, Will 6",
+    "pontos_poder": "Abilities 22 + Powers 0 + Advantages 3 + Skills 16 + Defenses 8 = 49",
+    "complicacoes": "Age: Ma Hunkel is senior citizen. Family Responsibilities: Hunkel has only recently rejoined her large and rambunctious family."
+  }
+}

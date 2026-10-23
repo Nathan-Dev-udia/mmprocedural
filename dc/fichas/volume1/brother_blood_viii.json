@@ -1,0 +1,28 @@
+{
+  "nome": "Brother Blood Viii",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": 209,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 89
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "3",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "5",
+      "INT": "3",
+      "AWE": "1",
+      "PRE": "12"
+    },
+    "poderes": "Energy Gauntlets (Ranged Damage 12 (plasma), Removable (-5 points)); Hypnosis (Perception Ranged, Cumulative Affliction 12, Resisted by Will, Sense-Dependent (Sight); Prayer Shawl (Enhanced Advantage (Diehard), Protection 10 (Impervious 5), Immunity 2 (Aging, Limited to Half Effect; Raven’s Soul-Self powers), Removable (-3 points)); Strength of the Faithful (Enhanced Strength 7, Limited by number of worshipers; Enhanced Stamina 6, Limited by number of worshippers)",
+    "vantagens": "Benefit 5 (head of the Church of Blood), Connections, Diehard , Inspire, Languages 1 (English, Zandian native), Leadership, Minion 2, Startle",
+    "pericias": "Close Combat: Unarmed 2 (+7), Deception 10 (+22), Intimidate 8 (+20), Expertise: Theology 8 (+11), Expertise: Zandia 8 (+11), Persuasion 8 (+20), Ranged Combat: Energy Gauntlets 10 (+12)",
+    "ataques": "Initiative +2, Energy Gauntlets +12 (Ranged Damage 12), Unarmed +7 (Close, Damage 3)",
+    "defesas": "Dodge 11, Parry 8, Fortitude 6, Toughness 13, Will 10",
+    "pontos_poder": "Abilities 62 + Powers 84 + Advantages 12 + Skills 27 + Defenses 24 = 209"
+  }
+}

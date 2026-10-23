@@ -1,0 +1,29 @@
+{
+  "nome": "Scarecrow",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 150,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 161
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "2",
+      "AGL": "4",
+      "DEX": "1",
+      "FGT": "6",
+      "INT": "4",
+      "AWE": "3",
+      "PRE": "4"
+    },
+    "poderes": "e motionless: Immunity 5 (Emotion effects) • 5 points f ear G as: Cumulative Progressive Cloud Area Affliction 10 (Resisted by Will; Dazed and Vulnerable, Stunned and Defenseless, Paralyzed and Unaware), Extra Condition, Easily Removable (-24 points) • 36 points",
+    "equipamento": "Scythe: Strength-based Damage 3, Improved Critical, Reach • 5 points",
+    "vantagens": "All-out Attack, Defensive Roll 4, Equipment, Fascinate (Intimidation), Skill Mastery (Expertise: Psychology), Startle",
+    "pericias": "Close Combat: Scythe 4 (+10), Expertise: Chemistry 12 (+16), Expertise: Psychology 12 (+16), Insight 12 (+15), Intimidation 10 (+14), Technology 4 (+8)",
+    "ataques": "i nitia tive +4 Fear Gas Close, Cloud Area, Affliction 10, Resisted by Will Scythe +10 Close, Damage 4, Crit.19-20, Reach",
+    "defesas": "d odge 8 f or titude 6 Parry 12 t oughness 6/2* W ill 12 *Without Defensive Roll.",
+    "pontos_poder": "a bilities 50 S kills 27 Powers 41 d efenses 23 a dv antages 9 ToTal 150"
+  }
+}

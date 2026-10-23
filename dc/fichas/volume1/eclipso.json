@@ -1,0 +1,29 @@
+{
+  "nome": "Eclipso",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 13,
+  "pontos_poder_publicados": 408,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 189
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "13",
+      "STA": "12",
+      "AGL": "5",
+      "DEX": "8",
+      "FGT": "8",
+      "INT": "5",
+      "AWE": "8",
+      "PRE": "7"
+    },
+    "poderes": "Dark Translocation: Array (16 points) • Flight: Flight 8 (500 MPH) • 16 points • Speed: Speed 8 (500MPH) • 1 point • Teleport: Teleport 8 (1 mile) • 1 point Eternal Spirit: Immortality 1 (Returns inside the crystal) • 2 points Darkness Awareness: Remote Sensing 32 (Mental), Conduit (Shards of the Heart of Darkness), Limited (Emotion Awareness only), Reduced Range (Close, target must touch the shard); Senses 1 (Emotion Awareness) • 9 points The Heart of Darkness: Easily Removable (-68 points) Laser Beam: Ranged Damage 13 • 26 points Eclipse Soul: Perception Range Affliction 13 (Resisted by Will; Dazed, Compelled, Controlled), Limited (target cannot be “pure” of heart and must touch a shard of the Heart of Darkness), Quirk (“eclipsed” pigmentation, -1 point) • 25 points Shadow Objects: Create Object 8, Continuous, Precise • 25 points Shadow Beings: Summon 8 (120 points), Controlled, Horde, Multiple Minions 4 (16 minions) • 96 points Possess Host: Perception Affliction 13 (Resisted by Will; Dazed, Compelled, Controlled), Limited (Target must have a shard of the Heart of Darkness in his possession); Insubstantial 4 (Incorporeal), Limited (Must be in close to host); Concealment 8 (All Senses except Mental and Magic), Limited (Must be close to host) • 50 points Strength of Darkness: Enhanced Stamina 12; Enhanced Strength 13; Impervious Toughness 12; Immunity 11 (Aging, Life Support), Protection 4 • 81 points",
+    "vantagens": "Assessment, Close Attack 2, Fascinate (Persuasion), Improved Initiative, Fearless, Power Attack shards. Anyone in possession or contact with one of these cursed fragments can be claimed as a host for the eternal spirit, or have their darkest nature take over to serve him. If a potential host is not aggressive or vengeful enough, Eclipso instead manifests as a double of his victim, embodying what - ever darkness he can find. Possessed hosts and dominated thralls take upon an “eclipsed” appearance, with half of their faced blackened or shrouded in darkness. Eclipso incarnate is nigh-invulnerable and has superhuman strength, speed and resistance, as well as the ability to fly. He can fire beams of light by looking through a shard of the Heart of Darkness with the host’s “un- eclipsed” eye, or project solid darkness through the shad - owed eye in order to create black constructs.",
+    "pericias": "Close Combat: Unarmed 3 (+11), Deception 14 (+21), Expertise: Magic 13 (+18), Expertise: Universal History 10 (+15), Insight 11 (+19), Intimidation 7 (+14), Persuasion 16 (+23), Ranged Combat: Laser Beam 5 (+13), Stealth 5 (+10)",
+    "ataques": "Initiative +9 Unarmed +13 Close, Damage 13 Eclipse Soul — Close, Affliction 13 Laser Beam +13 Range, Damage 13",
+    "defesas": "Dodge 10 Fortitude 13 Parry 10 Toughness 16 Will 13",
+    "pontos_poder": "Abilities 82 Skills 42 Powers 264 Defenses 13 Advantages 7 ToTal 408",
+    "complicacoes": "Dark Soul: While Eclipso is manifested in his host or as a double, exposure to sunlight or an exorcism power either renders him dormant or banishes him altogether. Spirit Being: As an embodiment of power, Eclipso cannot exist in physical reality without a host. Spirit of Revenge: Eclipso is compelled to fulfill his hosts’ power fantasies and personal revenge before he can set his own plans into action. SHARDS OF THE HEART OF DARKNESS These crystals are the source of Eclipso’s power. Depending on the story, there may be from just one to one thousand of these lurking in the shadows. Eclipso’s possession and corruption powers are listed more as a dramatic effect should he try to possess one of the PCs during an adventure. Normally, the accursed gem is a plot device and it should affect NPCs automatically. When the heroes get to confront Eclipso, he should already be inside a host or manifesting as a double, espe - cially a person known to the heroes. If a player allows his hero to be Eclipso’s new host for the adventure, or be an Eclipsed puppet of the evil entity, he should earn hero points as part of a Complication regarding the hero’s own dark side coming into action."
+  }
+}

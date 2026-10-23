@@ -1,0 +1,29 @@
+{
+  "nome": "Blue Beetle (Jaime Reyes)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 150,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 77
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "6",
+      "STA": "4",
+      "AGL": "4",
+      "DEX": "3",
+      "FGT": "4",
+      "INT": "1",
+      "AWE": "2",
+      "PRE": "1"
+    },
+    "poderes": "Beetle Wings: Flight 5 (60 MPH) • 10 points Carapace: Protection 8 • 8 points Reach Infiltrator: Array (16 points) • Khaji Da: Senses 8 (Analytical (Normal Hearing), Analytical (Normal Sight), Counters Illusion, Counters Concealment (Invisibility), Danger Sense, Darkvision, Radio, Radius (Normal Sight), Tracking), Enhanced Advantage: Assessment, Enhanced Skill 3 (Insight +3) • 16 points • Dimension Shift: Dimension Travel (Bleed) • 1 point • Dimension Step: Concealment (total), Unreliable (may cause Blue Beetle to skip forward in time up to +8 ranks of time he intended to stay concealed) • 1 point • Energy Pattern Disruption: Effect Nullify 10 (Energy Effects), Randomize • 1 point • Rocket Booster: Flight 5, Stacks with Beetle Wings (2,000 MPH) • 1 point • Sealed Systems: Immunity 10 (Life Support) • 1 point Reach Weaponry: Array (16 points) • Energy Cannon: Ranged Damage 8 • 16 points • Arm Blades: Strength-based Damage 3 • 1 point • Shield: Protection 4, Impervious Toughness 12, Distracting • 1 point Strength of the Scarab: Enhanced Strength 4; Enhanced Stamina 2; Enhanced Agility 2; Enhanced Dexterity 2; Enhanced Fighting 3 • 26 points Subdermal Scarab: Feature 1 (Scarab AI and Database), Feature 1 (Quick Change to armor) • 2 points",
+    "vantagens": "Extraordinary Effort, Language (Spanish), Power Attack",
+    "pericias": "Close Combat: Arm Blades 7 (+11), Close Combat: Unarmed 6 (+10), Expertise: Tactics 3 (+4), Insight 6 (+8) , Perception 7 (+9), Ranged Combat: Energy Cannons 9 (+12)",
+    "ataques": "Initiative +3 Energy Cannons +12 Ranged, Damage 8 Arm Blades +11 Close, Damage 9",
+    "defesas": "Dodge 8/4* Fortitude 12 Parry 8/4* Toughness 12/16* Will 8 *With Shield.",
+    "pontos_poder": "Abilities 24 Skills 16 Powers 85 Defenses 22 Advantages 3 ToTal 150",
+    "complicacoes": "Family and Friends: Jaime Reyes has shared the secret of his super hero career with not just his family, but also a circle of friends, all of whom help and support him in his adventures. Hybrid Hero: The Blue Beetle was born when Jaime Reyes merged into a unique symbiotic relationship with the scarab named “Khaji Da. ” Together they are still figuring out the exact nature and extent of their abilities. When the scarab isn’t active Jaime doesn’t have any powers. Lone Star: Blue Beetle is not only a new hero, he is a hero in a Texas city that has not previously had many super heroes."
+  }
+}

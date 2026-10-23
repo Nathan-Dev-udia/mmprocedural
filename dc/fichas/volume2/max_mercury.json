@@ -1,0 +1,25 @@
+{
+  "nome": "Max Mercury",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": 197,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 47
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "3",
+      "AGL": "3",
+      "DEX": "3",
+      "FGT": "4",
+      "INT": "3",
+      "AWE": "2",
+      "PRE": "1"
+    },
+    "poderes": "Molecular Control: Insubstantial 4 • 20 points Speed- f or ce a ur a: Immunity 1 (Friction Heat) • 1 point Super-Speed: Enhanced Defenses 18 (Dodge and Parry 9); Enhanced Advantages 24 (Agile Feint, Close Attack 4, Defensive Roll 4, Evasion 2, Improved Initiative 8, Interpose, Instant Up, Move-by Action, Seize Initiative, Takedown); Feature 1 (Quick Change); Movement 3 (Wall-crawling 2, Water Walking), Limited to While Moving; Quickness 15; Speed 15 (64,000 MPH) • 73 points d a e S a V ant G Agile Feint , Benefit 1 (Cipher), Close Attack 4 , Defensive Roll 4, Evasion 2 , Improved Initiative 8 , Interpose , Instant Up , Languages 3 (Cantonese, Japanese, Mandarin, Russian), Move-by Action , Seize Initiative , Takedown",
+    "pericias": "Acrobatics 6 (+9), Athletics 6 (+8), Close Combat: Unarmed 2 (+10), Deception 5 (+6), Expertise: American Indian Culture & History 9 (+12), Expertise: Chemistry 4 (+7), Expertise: The Speed Force 9 (+12), Insight 5 (+7), Intimidation 4 (+5), Perception 5 (+7), Persuasion 5 (+6), Stealth 4 (+7) ffen S e o i nitia tive +35 Unarmed +10 Close, Damage 2 efen S e d d odge 16 f or titude 10 Parry 16 t oughness 7/3* W ill 10 * Without Defensive Roll.",
+    "pontos_poder": "a bilities 42 S kills 32 Powers 97 d efenses 22 a dv antages 4 ToTal 197"
+  }
+}

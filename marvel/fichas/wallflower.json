@@ -1,0 +1,92 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Wallflower",
+  "nome_pt": "Wallflower",
+  "nivel_poder": 8,
+  "pontos_poder_origem": 120,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 111
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 0,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 10,
+      "Int": 1,
+      "Pro": 1,
+      "Pre": 0
+    },
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 10,
+      "Fortitude": 3,
+      "Resistencia": 6,
+      "Vontade": 7
+    },
+    "pericias": {
+      "Enganação": 4,
+      "Persuasão": 4,
+      "Especialidade: Cultura Pop": 8,
+      "Percepção": 8,
+      "Intuição": 8
+    },
+    "vantagens": [
+      "Attractive",
+      "Defensive Attack",
+      "Defensive Roll 2",
+      "Teamwork 2"
+    ],
+    "poderes": [
+      {
+        "nome": "Emotion Control",
+        "construcao_3e": "Affliction (Resistido por Vontade) (rank 2e 8); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Emotion Control 8 (Extra: Action - Free Action [+2], Continuous Duration [+1], Cloud Area [+1]; Flaws: Sense Dependent [Olfactory] [-1]; Power Feats: Subtle, Reversible; Alternate Power: Emotion Control 8 (Selective [+1], Continuous Duration [+1], Cloud Area [+1]; Flaws: Sense Dependent [Olfactory] [-1]; Power Feats: Subtle, Reversible); 43pp); custo 2e impresso 43 PP.",
+        "custo_2e_pp": 43,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "New X-Men Uniform [+4 Toughness; Comm-Link; 5ep]"
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Ataque impresso",
+        "bonus": 10,
+        "dano": 0
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 10,
+      "esquiva_mais_resistencia": 16,
+      "aparar_mais_resistencia": 16,
+      "fortitude_mais_vontade": 10,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 28,
+    "defesas": 36,
+    "pericias": 32,
+    "vantagens": 6,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 102,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
+    "Perícias foram convertidas subtraindo do bônus total impresso o atributo 3e correspondente. Conhecimentos, Ofícios e Profissões foram mantidos como Especialidades; Condução/Pilotagem como Veículos; Sobrevivência como Especialidade: Sobrevivência; Computadores como Tecnologia.",
+    "Poderes preservam os descritores, ranks, modificadores e custos 2e impressos; o guia orienta o efeito 3e equivalente. Custos 3e ficam nulos quando a construção exata ou os modificadores não permitem cálculo seguro.",
+    "Nenhuma Motivação ou complicação não publicada foi acrescentada.",
+    "Habilidades 2e sem perícia 3e direta foram omitidas, conforme o guia: Concentration.",
+    "Vantagens sem equivalente direto foram removidas conforme o guia; não foram recriadas como poderes: Sneak Attack.",
+    "A linha COMBAT não separa os efeitos de ataque em um formato legível; o ataque geral e o dano básico de Força foram mantidos como referência.",
+    "Subtotal 3e conhecido: 28 PP em habilidades, 32 em perícias, 36 em defesas, 6 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto."
+  ]
+}

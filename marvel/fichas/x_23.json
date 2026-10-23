@@ -1,0 +1,122 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "X-23",
+  "nome_pt": "X-23",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 135,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 117
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 5,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 11,
+      "Int": 1,
+      "Pro": 0,
+      "Pre": 2
+    },
+    "defesas": {
+      "Esquiva": 11,
+      "Aparar": 11,
+      "Fortitude": 10,
+      "Resistencia": 9,
+      "Vontade": 5
+    },
+    "pericias": {
+      "Acrobacia": 8,
+      "Enganação": 8,
+      "Atletismo": 12,
+      "Intimidação": 8,
+      "Intuição": 8,
+      "Furtividade": 8,
+      "Especialidade: Sobrevivência": 7
+    },
+    "vantagens": [
+      "All-Out Attack",
+      "Close Attack",
+      "Improved Initiative",
+      "Power Attack",
+      "Takedown",
+      "Uncanny Dodge [Hearing]"
+    ],
+    "poderes": [
+      {
+        "nome": "Immunity",
+        "construcao_3e": "Immunity (rank 2e 1); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Immunity 1 (Aging; 1pp); custo 2e impresso 1 PP.",
+        "custo_2e_pp": 1,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Protection",
+        "construcao_3e": "Protection (rank 2e 4); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Protection 4 (Power Feat: Innate; 5pp); custo 2e impresso 5 PP.",
+        "custo_2e_pp": 5,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Strike",
+        "construcao_3e": "Damage (rank 2e 4); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Strike 4 (Power feats: Mighty, Quick Draw; Extra: Penetrating [+1] 6; Alternate Power: Strike 4 (Quickdraw, Mighty; Extra: Auto-Fire [+1]); 13pp); custo 2e impresso 13 PP.",
+        "custo_2e_pp": 13,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Super Senses",
+        "construcao_3e": "Sentidos (rank 2e 5); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Senses 5 (Scent [Extended, Accurate], Tracking; 5pp); custo 2e impresso 5 PP.",
+        "custo_2e_pp": 5,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Regeneration",
+        "construcao_3e": "Regeneration (Resurrection → Immortality) (rank 2e 29); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Regeneration 29 (Recovery Rate: 17; Bruised 3, Unconscious 3, Injured 4, Staggered 4, Disabled 6; Ability Damage: 5, Resurrection 4; Power Feat: Regrowth; 30pp); custo 2e impresso 30 PP.",
+        "custo_2e_pp": 30,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [],
+    "complicacoes": [
+      "Berserker: ocorrência e intensidade exatamente como especificadas na fonte.",
+      "Vulnerabilidade indicada na fonte: Vulnerable [Magnetic Powers; Uncommon Occurrence; Major Intensity; 3pp]"
+    ],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 12,
+        "dano": 6
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 18,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 15,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 54,
+    "defesas": 46,
+    "pericias": 59,
+    "vantagens": 6,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 165,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
+    "Perícias foram convertidas subtraindo do bônus total impresso o atributo 3e correspondente. Conhecimentos, Ofícios e Profissões foram mantidos como Especialidades; Condução/Pilotagem como Veículos; Sobrevivência como Especialidade: Sobrevivência; Computadores como Tecnologia.",
+    "Poderes preservam os descritores, ranks, modificadores e custos 2e impressos; o guia orienta o efeito 3e equivalente. Custos 3e ficam nulos quando a construção exata ou os modificadores não permitem cálculo seguro.",
+    "Nenhuma Motivação ou complicação não publicada foi acrescentada.",
+    "Vantagens sem equivalente direto foram removidas conforme o guia; não foram recriadas como poderes: Rage.",
+    "Attack Focus foi convertido em graduações de Close Attack/Ranged Attack, conforme o tipo impresso.",
+    "Dodge Focus 8 foi convertido em ranks de Esquiva: base 11 + 8 = 19; valor final 11.",
+    "Defesas reduzidas por limite de NP 10: Esquiva 19→11 e Aparar 11→11; cada defesa ativa + Resistência 9 ≤ 20.",
+    "Subtotal 3e conhecido: 54 PP em habilidades, 59 em perícias, 46 em defesas, 6 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto."
+  ]
+}

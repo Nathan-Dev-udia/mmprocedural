@@ -1,0 +1,29 @@
+{
+  "nome": "Neptune Perkins",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 8,
+  "pontos_poder_publicados": 106,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 274
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "6",
+      "STA": "7",
+      "AGL": "4",
+      "DEX": "3",
+      "FGT": "4",
+      "INT": "2",
+      "AWE": "2",
+      "PRE": "2"
+    },
+    "poderes": "Comprehend 2 (Animals, Limited to Cetaceans), Immunity 1 (Aging), Movement 1 (Environmental Adaptation— Water)",
+    "vantagens": "Animal Empathy, Evasion, Favored Environment (Aquatic), Great Endurance, Skill Mastery (Athletics), Ultimate Effect (Athletics checks)",
+    "pericias": "Acrobatics 5 (+9), Athletics 5 (+11), Close Combat: Unarmed 6 (+10), Expertise: Marine Biology 7 (+9), Expertise: Writer 3 (+5), Persuasion 5 (+7), Vehicles 7 (+10)",
+    "ataques": "Initiative +4, Unarmed +10 (Damage 6)",
+    "defesas": "Dodge 9, Parry 9, Fortitude 8, Toughness 7, Will 8",
+    "pontos_poder": "Abilities 60 + Powers 4 + Advantages 6 + Skills 19 + Defenses 17 = 106",
+    "complicacoes": "d oing Good: Though being a mystery man was not what he planned for his life, Perkins served as a Squadron member from a overriding sense of what’s right. Weakness: Because of a lethal shortage of sodium in his body, Perkins can survive out of salt water for only a few minutes. His special Sea Suit extends this period to 24 hours. During the Infinite Crisis, Perkins returned to costumed ac - tion, protecting the city of Sub Diego. During the battle, Per - kins died a hero at the hands of the Shark and King Shark of the Secret Society of Super-Villains. t he tI gre SS ( p au L a b ook S ) Teenager Paula Brooks became smitten with famed big-game hunter Paul Kirk, and rigorously trained herself to be his equal in order to win his affections. Deducing that Kirk was secretly the costumed mystery man Manhunter II, Paula designed the costumed identity of the second Tigress and sought to join him as part of the All-Star Squadron. The Squadron was un- impressed by a love-crazed teenager, and Tigress wound up joining the Squadron’s other probationary members on the Young All-Stars."
+  }
+}

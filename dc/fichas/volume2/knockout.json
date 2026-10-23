@@ -1,0 +1,26 @@
+{
+  "nome": "Knockout",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": 148,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 165
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "15",
+      "STA": "15",
+      "AGL": "3",
+      "DEX": "3",
+      "FGT": "9",
+      "INT": "0",
+      "AWE": "1",
+      "PRE": "2"
+    },
+    "poderes": "ealer (Regeneration 3); Strong (Enhanced f ast H Strength 4, Limited to Lifting (lifting Str 19; 12,000 tons)); (Immunity 2 (Aging, Disease), Impervious Toughness 8) t ough antages: All-out Attack, Attractive, Fast Grab, Improved a dv Initiative, Power Attack, Takedown",
+    "pericias": "Acrobatics 4 (+7), Expertise ( Pre ): Dancer 6 (+8), Insight 4 (+5), Intimidation 6 (+8), Perception 4 (+5), Ranged Combat: Throwing 6 (+9) ense: Initiative +7, Unarmed +9 (Close, Damage 15), o ff Throwing +9 (Ranged, Damage 15) efense: Dodge 9, Parry 9, Fortitude 15, Toughness 15, Will 9 d Abilities 96 + Powers 17 + Advantages 6 + Skills 15 +",
+    "pontos_poder": "Defenses 14 = 148",
+    "complicacoes": "Competitive: Knockout likes to win . She lives for the fierce competition of battle. f tatious: Knockout is a lir notorious flirt, often mixing it with her fighting. Power Loss: At least some of Knockout’s tremendous Strength seems to come from her confidence. Occasions when she has been dispirited have weakened her considerably. Heroes & V Heroes & V I I lla lla I I ns, Vol. 2 ns, Vol. 2"
+  }
+}

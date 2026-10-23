@@ -1,0 +1,29 @@
+{
+  "nome": "Blockbuster (Mark Desmond)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 92,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 72
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "12",
+      "STA": "10",
+      "AGL": "1",
+      "DEX": "-1",
+      "FGT": "5",
+      "INT": "-2",
+      "AWE": "-1",
+      "PRE": "1"
+    },
+    "poderes": "Thick Hide (Impervious Toughness 8, Protection 4)",
+    "vantagens": "Close Attack 5, Fast Grab, Power Attack, Startle",
+    "pericias": "Intimidation 8 (+9), Perception 4 (+3)",
+    "ataques": "Initiative +1, Unarmed +10 (Damage 12)",
+    "defesas": "Dodge 8, Parry 8, Fortitude 12, Toughness 14, Will 3",
+    "pontos_poder": "Abilities 50 + Powers 12 + Advantages 8 + Skills 6 + Defenses 16 = 92",
+    "complicacoes": "Temper: It doesn’t take much to set Mark off into a viiolent rage."
+  }
+}

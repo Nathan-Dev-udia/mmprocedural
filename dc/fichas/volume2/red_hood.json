@@ -1,0 +1,29 @@
+{
+  "nome": "Red Hood",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 175,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 135
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "4",
+      "AGL": "6",
+      "DEX": "5",
+      "FGT": "8",
+      "INT": "2",
+      "AWE": "2",
+      "PRE": "5"
+    },
+    "poderes": "r ed Hood Protection 1; Immunity 5 (Sensory Affliction eff ects); Senses 2 (Infravision, Radio), Removable (-2 points) • 6 points r ed r igh t Hand : Strength-based Damage 1, Penetrating 3, Removable (-1 point) • 3 points",
+    "equipamento": "Crimson Pistols : Ranged Multiattack Damage 5 • 15 points Video Camera: Feature 2 (Can both record and broadcast) • 2 points 10 additional points of equipment as needed",
+    "vantagens": "All-out Attack, Close Attack 8, Defensive Roll 2, Diehard, Equipment 6, Evasion, Improved Critical (Crimson Pistols), Improved Initiative, Move-by Action, Power Attack, Takedown",
+    "pericias": "Acrobatics 8 (+14), Athletics 8 (+10), Close Combat: Unarmed 1 (+9), Deception 12 (+17), Expertise: Streetwise 8 (+10), Intimidation 14 (+19), Perception 8 (+10), Persuasion 13 (+18), Ranged Combat: Crimson Pistols 9 (+14), Stealth 6 (+12), Vehicles 5 (+10)",
+    "ataques": "i nitia tive +10 Crimson Pistols +14 Ranged Multiattack Damage 5, Critical 19-20 Red Right Hand +16 Close, Damage 4, Penetrating 3 Unarmed +17 Damage 3",
+    "defesas": "d odge 13 f or titude 13 Parry 13 t oughness 7/5* W ill 7 *Without Defensive Roll.",
+    "pontos_poder": "a bilities 70 S kills 46 Powers 9 d efenses 26 a dv antages 24 ToTal 175"
+  }
+}

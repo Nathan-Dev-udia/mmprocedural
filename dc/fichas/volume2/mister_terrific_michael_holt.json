@@ -1,0 +1,25 @@
+{
+  "nome": "Mister Terrific (Michael Holt)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 65
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "3",
+      "AGL": "5",
+      "DEX": "5",
+      "FGT": "10",
+      "INT": "7",
+      "AWE": "4",
+      "PRE": "2"
+    },
+    "poderes": "t Concealment 10 (All Senses), Limited to Machines; -M ask: Feature (Quick Change); Remote Sensing 8 (Visual and Auditory), Medium (location of T-Spheres); Senses 1 (Communication Link—T-Spheres); Removable (-6 points) • 22 points",
+    "vantagens": "Assessment, Defensive Roll 3, Improved Initiative, Improvised Tools, Inventor, Jack-of-all-trades, Languages 5, Minions 20 (4 T-Spheres), Power Attack, Ranged Attack 5",
+    "pericias": "Acrobatics 8 (+13), Athletics 10 (+13), Close Combat: Unarmed 5 (+15), Expertise: Streetwise 5 (+12), Insight 6 (+10), Investigation 4 (+11), Perception 4 (+8), Stealth 6 (+11), Technology 12 (+19), Treatment 4 (+11), Vehicles 4 (+9)"
+  }
+}

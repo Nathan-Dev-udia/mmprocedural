@@ -1,0 +1,29 @@
+{
+  "nome": "Black Adam",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 16,
+  "pontos_poder_publicados": 237,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 56
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "19",
+      "STA": "16",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "10",
+      "INT": "1",
+      "AWE": "10",
+      "PRE": "3"
+    },
+    "poderes": "Stamina of Shu: Protection 2, Impervious Toughness 18; Immunity 10 (Life Support) • 30 points Swiftness of Heru: Array (30 points) • Flight 15 (64,000 MPH) • 30 points • Dimensional Travel 1 (Rock of Eternity) • 1 point • Quickness 15, Speed 15 (64,000 MPH) • 1 point Strength of Amon: Enhanced Strength 4, Limited to Lifting (lifting Str 23; 200,000 tons) • 4 points Wisdom of Zehuti: Enhanced Awareness 7, Enhanced Advantages 4 (Assessment, Beginner’s Luck, Eidetic Memory, Jack-of-all-trades) • 18 points Courage of Mehen: Enhanced Will 5, Impervious Will 10 • 15 points",
+    "vantagens": "Assessment, Beginner’s Luck, Eidetic Memory, Great Endurance, Improved Initiative, Jack-of-all-trades, Move-by Action",
+    "pericias": "Close Combat: Unarmed 3 (+13), Expertise: Tactics 9 (+10), Insight 2 (+12), Intimidation 8 (+11), Perception 2 (+12)",
+    "ataques": "Initiative +6 Unarmed +13 Close, Damage 19",
+    "defesas": "Dodge 11 Fortitude 16 Parry 11 Toughness 18 Will 16",
+    "pontos_poder": "Abilities 112 Skills 12 Powers 99 Defenses 11 Advantages 3 ToTal 237",
+    "complicacoes": "Power Loss: Black Adam loses his powers and reverts to his mortal form when he speaks the magic word “Shazam. ” His Strength, Stamina, and Awareness become 3. Relationship: With his wife, Isis (Adrianna Tomaz) and brother- in-law, Osiris (Amon Tomaz). Temper: Black Adam is infamous for his towering rages."
+  }
+}

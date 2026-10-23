@@ -1,0 +1,29 @@
+{
+  "nome": "Two-Face",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 248
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "3",
+      "AGL": "2",
+      "DEX": "3",
+      "FGT": "6",
+      "INT": "5",
+      "AWE": "5",
+      "PRE": "4"
+    },
+    "equipamento": "Submachine gun: Ranged Multi-Attack Damage 4 • 12 points Heavy Pistol: Ranged Damage 4• 8 points",
+    "vantagens": "All-out Attack, Defensive Roll 3, Equipment 4, Improved Initiative 1, Inspire 2, Leadership, Startle, Taunt, Well-informed",
+    "pericias": "Acrobatics 2 (+5), Athletics 6 (+8), Close Combat (Unarmed) 3 (+9), Deception 12 (+16), Expertise: Law 9 (+14), Insight 8 (+13), Intimidation 10 (+14), Investigation 4 (+9), Perception 8 (+13), Persuasion 4 (+8), Ranged Combat: Firearms 8 (+11), Sleight of Hand 4 (+7), Stealth 6 (+9), Technology 2 (+7), Vehicles 5 (+8)",
+    "ataques": "i nitia tive +7 Tommy Gun +11 Ranged Multi-Attack Damage 4 Pistol +11 Ranged Damage 4 Unarmed +9 Close Damage 2",
+    "defesas": "d odge 12 f or titude 8 Parry 12 t oughness 6/3* W ill 12 *Without Defensive Roll Po er Point W S a bilities 60 S kills 46",
+    "poderes": "0 d efenses 28 a dv antages 16 ToTal 150",
+    "complicacoes": "d isfigur ement: Two-Face is so badly disfigured it’s difficult to imagine him ever reentering mainstream society. e nemy: Batman. wo-face is obsessed with the number two and o bsession: T most of his crimes revolve around that theme. r andom C hance: Two-Face resolves all key decisions with a flip of his two-headed coin: the scarred side evil, the clean side good. The GM can flip a coin (or roll the die: 1–10 evil, 11–20 good) to see what Two-Face will do in a given situation. It requires a DC 30 Will check for Two-Face to ignore the coin’s decision. Christening himself Two-Face, Dent quickly became one of the most fearsome gangsters in Gotham City. He routinely crosses swords with Batman, who still struggles to find some way to help his old friend."
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Mimic (Exiles)",
+  "nome_pt": "Mímico (Exiles)",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 215,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 56
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 9,
+      "Vig": 1,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 10,
+      "Int": 1,
+      "Pro": 3,
+      "Pre": 3
+    },
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 10,
+      "Fortitude": 7,
+      "Resistencia": 10,
+      "Vontade": 9
+    },
+    "pericias": {
+      "Enganação": 8,
+      "Tecnologia": 9,
+      "Persuasão": 8,
+      "Veículos": 8,
+      "Especialidade: Táticas": 8,
+      "Percepção": 8,
+      "Intuição": 12,
+      "Furtividade": 8,
+      "Combate a Distância: Blast de Cyclops": 9
+    },
+    "vantagens": [
+      "Assessment",
+      "Attractive",
+      "Benefit: Status",
+      "Inspire 3",
+      "Leadership"
+    ],
+    "poderes": [
+      {
+        "nome": "Mimic",
+        "construcao_3e": "Mimic (All Powers) X, Continuous, Extra Subjects 2, Perception Range, Stacking; Limited to mutant powers, Tainted, Limited to rank 8; 7X PP na fonte.",
+        "custo_2e_pp": null,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Colossus",
+        "construcao_3e": "Alternate Form: Density 8 (+16 Strength, +8 Impervious Protection, Immovable 2, Super-Strength 2, Ground Strike); Immunity 8 (Life Support except disease). 33 PP na fonte.",
+        "custo_2e_pp": 33,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Wolverine",
+        "construcao_3e": "Strike 4 (Mighty, Quick Draw, Penetrating); Senses 5 (Scent, Extended, Accurate, Tracking); Regeneration 8. 23 PP na fonte.",
+        "custo_2e_pp": 23,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Cyclops",
+        "construcao_3e": "Blast 8 (Penetrating, Concentration; Alternate Effect: Deflect All Ranged, Move Action); Immunity 1 (poderes de Havok). 34 PP na fonte.",
+        "custo_2e_pp": 34,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Northstar",
+        "construcao_3e": "Flight 8; Force Field 8 (Linked to Flight). 24 PP na fonte.",
+        "custo_2e_pp": 24,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Deadpool",
+        "construcao_3e": "Regeneration 8. 8 PP na fonte.",
+        "custo_2e_pp": 8,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [],
+    "complicacoes": [
+      "Limitações de Mimic: somente Continuous após passar muito tempo com o alvo; só funciona a até 30 pés (2 PP na fonte)."
+    ],
+    "ataques": [
+      {
+        "nome": "Garras de Wolverine",
+        "bonus": 10,
+        "dano": 4
+      },
+      {
+        "nome": "Blast de Cyclops",
+        "bonus": 10,
+        "dano": 8
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "dano": 9
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 19,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 16,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 58,
+    "defesas": 36,
+    "pericias": 39,
+    "vantagens": 7,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 140,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "A fonte apresenta os poderes copiados de vários personagens separadamente; custos dos pacotes derivados mantidos como impressos.",
+    "O custo de Mimic está impresso como 7X PP e não pode ser totalizado sem conhecer o rank X; o PP final da fonte é 215.",
+    "Sneak Attack não tem equivalente direto e foi omitida; aparece conservada na descrição das vantagens da fonte.",
+    "Dodge foi ajustada de 14 para 10 para cumprir Dodge + Toughness ≤ 20 (NP 10)."
+  ]
+}

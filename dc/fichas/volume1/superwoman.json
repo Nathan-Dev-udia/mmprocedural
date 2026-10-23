@@ -1,0 +1,29 @@
+{
+  "nome": "Superwoman",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 15,
+  "pontos_poder_publicados": 311,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 139
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "16",
+      "STA": "14",
+      "AGL": "10",
+      "DEX": "8",
+      "FGT": "14",
+      "INT": "2",
+      "AWE": "4",
+      "PRE": "6"
+    },
+    "poderes": "Gaze of Hyperion ( Ranged Damage 14); Magic Lasso (Move Object 16 Linked to Ranged Affliction 16 (Resisted by Will; Compelled), Limited to Acting Out Hidden Desires (One Degree, no other effects), Easily Removable (–24 points)); Quick Change ( Feature 1 (Change into Superwoman as a free action)); Speed of Metis (Flight 11 (4,000 MPH)); Strength of Atlas (Enhanced Strength 6, Limited to Lifting (lifting Str 22; 100,000 tons))",
+    "vantagens": "Attractive 2, Benefit 5 (CSA member), Connected, Languages 2, Ranged Attack 4, Teamwork",
+    "pericias": "Acrobatics 6 (+16), Athletics 4 (+20), Deception 6 (+12), Expertise: Mythology 4 (+6), Journalism 4 (+6), Streetwise 4 (+6), Insight 6 (+10), Intimidation 6 (+12), Investigation 6 (+8), Perception 8 (+12), Persuasion 4 (+10), Ranged Combat: Gaze 2 (+10), Ranged Combat: Lasso 2 (+10)",
+    "ataques": "Initiative +8, Unarmed +14 (Close, Damage 16), Gaze +14 (Ranged, Damage 14), Lasso +14 (Ranged, Move Object 16)",
+    "defesas": "Dodge 16, Parry 16, Fortitude 14, Toughness 14, Will 16",
+    "pontos_poder": "Abilities 148 + Powers 97 + Advantages 15 + Skills 31 + Defenses 20 = 311",
+    "complicacoes": "Relationships: Superwoman maintains a passionate but erratic romance with Owlman and a dysfunctional marriage to Ultraman. Secret Identity: Lois Lane. Quirk : Thrill seeker who will “try anything once. ”"
+  }
+}

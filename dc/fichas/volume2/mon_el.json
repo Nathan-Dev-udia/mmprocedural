@@ -1,0 +1,28 @@
+{
+  "nome": "Mon-El",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 13,
+  "pontos_poder_publicados": 255,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 17
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "18",
+      "STA": "13",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "8",
+      "INT": "4",
+      "AWE": "3",
+      "PRE": "3"
+    },
+    "poderes": "similar to Superman’s as a result of exposure to Earth’s yellow sun, Lar was discovered by Clark Kent. Mistaking him for a fellow Kryp- tonian and thus a possible relative, Clark named him Mon-El until his real name could be discovered. Following an acci- dental exposure to lead, a substance that is fatal to Daxam- ites, Lar’s memories returned. Aware that his friend was dying from the toxic substance, Clark sent Lar to the Phantom Zone in a bid to save his life. Several years later, Mon-El was released from the Phantom Zone by Superman and provided with a lead serum that had been secretly left in the past by Legion of Super-Heroes members. Mon-El served as a super hero in the twenty-first century for some time, and even helped humanity colonize the worlds that would eventually become members of the United Planets in accordance with instructions left for him by the Legion of the Super-Heroes. Eventually Mon-El became immune to the effectiveness of the lead serum and had to return to the Phantom Zone, where he lived on in the time - less limbo. Centuries later a new serum was created for Mon-El by Brai- niac 5 (see Vol. 1 ), and he was freed from the Phantom Zone to join the Legion of Super-Heroes. Recognized as one of the three most powerful members of the Legion, he even served two terms as team leader. Lar fell in love with Shadow Lass (Tasmia Mallor) and the pair married, but had a rocky relation- ship despite their love for each other. Their marriage ended tragically when Mon-El died during the Magic Wars. He was resurrected by the Time Trapper to be used as a replacement for the villain’s own waning body, but Mon-El killed him and returned to serve with the Legion.",
+    "equipamento": "Flight Ring (Communication 5 (subspace radio, Anywhere, Limited to Distress Signal –3), Flight 7 (250 MPH); Telepathic Ear Plug ( Comprehend 3 (Languages), Mental Communication 1 (Close Range)); Transsuit (Immunity 9 (Life Support, except for starvation and thirst))",
+    "vantagens": "Benefit (Legion Membership), Equipment 8, Extraordinary Effort, Inventor, Power Attack, Seize Initiative, Ultimate Effort (Toughness checks).",
+    "pericias": "Expertise: Daxam 5 (+9), Expertise: Medicine 8 (+12), Expertise: Phantom Zone 5 (+9), Expertise: Science 5 (+9), Ranged Combat 8 (+10), Technology 5 (+9), Treatment 8 (+12) ense: Initiative +2, Heat Vision +10 (Ranged Damage 13), o ff Unarmed +8 (Close, Damage 18) efense: Dodge 9, Parry 8, Fortitude 14, Toughness 17, Will 12 d Abilities 106 + Powers 96 + Advantages 14 + Skills 22 +",
+    "pontos_poder": "Defenses 17 = 255",
+    "complicacoes": "d oing Good: Mon-El is driven to do the right thing and help however he can. r elationship: Mon-El and Shadow Lass care deeply for one another. Weakness: Mon-El (periodically) suffers from a weakness to lead which is identical to Superman’s weakness to Green Kryptonite. (See the k ryptonite sidebar on page 218.)"
+  }
+}

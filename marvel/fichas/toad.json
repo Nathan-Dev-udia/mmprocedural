@@ -1,0 +1,128 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Toad",
+  "nome_pt": "Toad",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 165,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 106
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 6,
+      "Vig": 3,
+      "Agi": 7,
+      "Des": 7,
+      "Lut": 12,
+      "Int": 3,
+      "Pro": 0,
+      "Pre": 2
+    },
+    "defesas": {
+      "Esquiva": 14,
+      "Aparar": 14,
+      "Fortitude": 3,
+      "Resistencia": 6,
+      "Vontade": 5
+    },
+    "pericias": {
+      "Acrobacia": 12,
+      "Enganação": 12,
+      "Atletismo": 12,
+      "Tecnologia": 8,
+      "Especialidade: Mecânica": 4,
+      "Especialidade: Química": 4,
+      "Persuasão": 8,
+      "Especialidade: Táticas": 8,
+      "Percepção": 8,
+      "Intuição": 12,
+      "Furtividade": 12,
+      "Especialidade: Sobrevivência": 5,
+      "Combate Corpo-a-Corpo: Desarmado": 6,
+      "Combate Corpo-a-Corpo: Spittle": 6
+    },
+    "vantagens": [
+      "Agile Feint",
+      "All-Out Attack",
+      "Defensive Roll 3",
+      "Evasion",
+      "Improved Initiative 2",
+      "Improved Grapple",
+      "Improved Trip",
+      "Inventor",
+      "Grappling Finesse",
+      "Skill Mastery 4 [Acrobatics, Diplomacy, Sense Motive, Stealth]",
+      "Taunt",
+      "Teamwork 3",
+      "Uncanny Dodge [Hearing]"
+    ],
+    "poderes": [
+      {
+        "nome": "Additional Limb",
+        "construcao_3e": "Extra Limb (rank 2e 1); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Additional Limb 1 (1pp); custo 2e impresso 1 PP.",
+        "custo_2e_pp": 1,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Elongation",
+        "construcao_3e": "Efeito 3e correspondente ao descritor (rank 2e 2); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Elongation 2 (Flaws: Limited – Tongue [-1]; 1pp); custo 2e impresso 1 PP.",
+        "custo_2e_pp": 1,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Leaping",
+        "construcao_3e": "Leaping (rank 2e 3); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Leaping 3 (3pp); custo 2e impresso 3 PP.",
+        "custo_2e_pp": 3,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Paralyze",
+        "construcao_3e": "Affliction (paralisado como terceiro grau) (rank 2e 8); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Paralyze 8 (Extra: Alternate Save: Fortitude [+0], Ranged [+1]; 24pp); custo 2e impresso 24 PP.",
+        "custo_2e_pp": 24,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 18,
+        "dano": 2
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 20,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 8,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 80,
+    "defesas": 42,
+    "pericias": 117,
+    "vantagens": 18,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 257,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
+    "Perícias foram convertidas subtraindo do bônus total impresso o atributo 3e correspondente. Conhecimentos, Ofícios e Profissões foram mantidos como Especialidades; Condução/Pilotagem como Veículos; Sobrevivência como Especialidade: Sobrevivência; Computadores como Tecnologia.",
+    "Poderes preservam os descritores, ranks, modificadores e custos 2e impressos; o guia orienta o efeito 3e equivalente. Custos 3e ficam nulos quando a construção exata ou os modificadores não permitem cálculo seguro.",
+    "Nenhuma Motivação ou complicação não publicada foi acrescentada.",
+    "Vantagens sem equivalente direto foram removidas conforme o guia; não foram recriadas como poderes: Elusive Target; Sneak Attack.",
+    "Attack Specialization foi convertida em duas graduações de Combate apropriado por graduação da vantagem, conforme o guia.",
+    "Dodge Focus 10 foi convertido em ranks de Esquiva: base 14 + 10 = 24; valor final 14.",
+    "Defesas reduzidas por limite de NP 10: Esquiva 24→14 e Aparar 14→14; cada defesa ativa + Resistência 6 ≤ 20.",
+    "Unarmed: efeito ajustado de 6 para 2 para cumprir Ataque + efeito ≤ 20.",
+    "Subtotal 3e conhecido: 80 PP em habilidades, 117 em perícias, 42 em defesas, 18 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto."
+  ]
+}

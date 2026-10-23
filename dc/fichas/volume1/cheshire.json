@@ -1,0 +1,29 @@
+{
+  "nome": "Cheshire",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": 194,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 118
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "4",
+      "STA": "3",
+      "AGL": "7",
+      "DEX": "5",
+      "FGT": "12",
+      "INT": "2",
+      "AWE": "3",
+      "PRE": "3"
+    },
+    "poderes": "Razor Sharp Artificial Nails: Strength-based Damage 2, Penetrating 2 • 4 points Poison: Array (24 points), Limited (Full Action to Change Powers), Triggered (Opponent Damaged by Artificial Nails, -1 point) • Fatal Poison: Weaken Stamina 12 (Resisted by Fortitude), Progressive • 23 points • Disabling Poison: Weaken Dexterity 12 (Resisted by Fortitude), Progressive • 1 point • Sleep Poison: Affliction 12 (Resisted by Fortitude; Dazed, Stunned, Asleep) Progressive • 1 point",
+    "vantagens": "Accurate Attack, Agile Feint, All-out Attack, Assessment, Close Attack 4, Defensive Attack, Defensive Roll 4, Evasion, Improved Critical 2 (Artificial Nails), Improved Defense, Improved Disarm, Improved Grab, Improved Initiative, Improved Smash, Improved Trip, Instant Up, Languages 2 (English, French, Vietnamese native), Move-by Action, Power Attack, Precise Attack (Close; Concealment), Prone Fighting, Redirect, Seize Initiative, Skill Mastery 2 (Acrobatics, Athletics), Takedown, Uncanny Dodge, Weapon Break",
+    "pericias": "Acrobatics 10 (+17), Athletics 10 (+14), Close Combat: Artificial Nails 2 (+14), Deception 8 (+11), Expertise: Poisons 12 (+14), Sleight of Hand 8 (+13), Stealth 8 (+15)",
+    "ataques": "Initiative +11 Artificial Nails +18 Close, Damage 6, Crit. 18-20 Unarmed +16 Close, Damage 4",
+    "defesas": "Dodge 15 Fortitude 6 Parry 17 Toughness 7/3* Will 10 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 78 Skills 29 Powers 29 Defenses 23 Advantages 35 ToTal 194",
+    "complicacoes": "Responsibility: To her son by Catman. Vengeful: Cheshire rarely lets a perceived slight go unpunished. her former teammates and stabbed the Mad Hatter with a poisoned dagger. She later traded an antidote for the poison in exchange for her safety."
+  }
+}

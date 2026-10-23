@@ -1,0 +1,29 @@
+{
+  "nome": "Hourman (Matthew Tyler)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 150,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 269
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "8",
+      "STA": "8",
+      "AGL": "3",
+      "DEX": "2",
+      "FGT": "4",
+      "INT": "4",
+      "AWE": "-1",
+      "PRE": "1"
+    },
+    "poderes": "Miraclo Speed: Array (12 points) • Tachyon Rider: Flight 6 (120 MPH) • 12 points • Personal Timeline Compression: Quickness 12 • 1 point Time Vision: Array (16 points) • Accelerated Aging: Perception Range Damage 4, Penetrating 4 (Resisted by Dodge) • 16 points • Chronal Stasis: Perception Range Affliction 5 (Resisted by Will; Dazed, Stunned, Incapacitated), Reversible • 1 point • Temporal Reversion: Senses 8 (Postcognition, Precognition) • 1 point TIMESHIP: VEHICLE• 25 POINTS Size: Gargantuan Str 12 Speed 4 (Flight) Def 6 Tou 14 Features: Timeship can be summoned across time by Hourman, Time Engines: Movement 5 (full time travel, dimension travel to alternate timelines and temporal pocket universes)",
+    "vantagens": "All-out Attack, Assessment, Beginner’s Luck, Eidetic Memory, Equipment 5, Evasion, Power Attack, Sidekick 15",
+    "pericias": "Close Combat: Unarmed 8 (+12), Technology 6 (+10)",
+    "ataques": "Initiative +3 Unarmed +12 Close, Damage 8 Accelerated Aging — Perception Range, Damage 5, Penetrating 5, Resisted by Dodge Chronal Stasis — Perception Range, Affliction 6 (Resisted by Will), Reversible",
+    "defesas": "Dodge 10 Fortitude 12 Parry 12 Toughness 8 Will 8",
+    "pontos_poder": "Abilities 58 Skills 7 Powers 31 Defenses 28 Advantages 26 ToTal 150",
+    "complicacoes": "Naive: Despite all his power, Hourman is uncertain how to truly be a hero and live up to his heritage. Though his fellow heroes and his friends help him as best they can, Hourman sometimes turns to the wrong people for advice. Amazo: Since stealing part of Hourman’s time powers, the android Amazo is behind many of Hourman’s problems."
+  }
+}

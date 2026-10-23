@@ -1,0 +1,27 @@
+{
+  "nome": "Sapphire Stagg",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 2,
+  "pontos_poder_publicados": 25,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 53
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "-1",
+      "STA": "1",
+      "AGL": "1",
+      "DEX": "1",
+      "FGT": "0",
+      "INT": "3",
+      "AWE": "1",
+      "PRE": "1"
+    },
+    "vantagens": "Attractive, Benefit 3 (Millionaire), Luck 1",
+    "pericias": "Athletics 2 (+1), Expertise: Jet-Setter 6 (+6), Persuasion 4 (+5)",
+    "ataques": "Initiative +1, Unarmed +0 (Damage -1)",
+    "defesas": "Dodge 3, Parry 2, Fortitude 1, Toughness 1, Will 3",
+    "pontos_poder": "Abilities 8 + Powers 0 + Advantages 5 + Skills 6 + Defenses 6 = 25"
+  }
+}

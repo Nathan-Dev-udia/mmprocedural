@@ -1,0 +1,27 @@
+{
+  "nome": "Prometheus",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 14,
+  "pontos_poder_publicados": 312,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 119
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "3",
+      "AGL": "5",
+      "DEX": "5",
+      "FGT": "9",
+      "INT": "6",
+      "AWE": "5",
+      "PRE": "4"
+    },
+    "poderes": "Cosmic Array (29 points), Easily Removable (–12 points) k e y: • 18 points total • Movement 1 (Dimensional—Ghost Zone), Additional Ranks 13 (Limited to increase DC), Attack (Resisted by Dodge), Perception Ranged, Limited to Close Distance • 29 points • Movement 1 (Dimensional—Ghost Zone), Affects Others • 1 point Gauntlets: Array, Removable (–2 points) • 9 points total • Bullets: Ranged Damage 5 • 10 points • n eur o- t o xin d arts: Ranged Affliction 5 (Resisted by Fortitude; Dazed, Stunned, Incapacitated) • 1 point Helmet: Removable (–10 points) • 40 points total n eur al d ownload: Variable 2 (10 points), Limited to Enhanced",
+    "pericias": "Acrobatics 8 (+13), Athletics 10 (+13), Deception 12 (+16), Expertise: Superheroes 12 (+18), Expertise: Underworld 12 (+18), Insight 11 (+16), Intimidation 10 (+14), Investigation 12 (+18), Perception 10 (+15), Persuasion 7 (+11), Sleight of Hand 8 (+13), Stealth 10 (+15), Technology 10 (+16), Vehicles 8 (+13)",
+    "ataques": "i nitia tive +9 Cosmic Key — Dodge DC 24, Movement (Dimensional— Ghost Zone) Gauntlets +11 Ranged, Damage 5 or Affliction 5 (Resisted by Fortitude) Nightstick +14 Close, Damage 9 Unarmed +14 Close, Damage 3",
+    "defesas": "d odge 12 f or titude 10 Parry 12 t oughness 10/8* W ill 16 *Without Defensive Roll.",
+    "pontos_poder": "a bilities 80 S kills 70 Powers 92 d efenses 28 a dv antages 42 ToTal 312"
+  }
+}

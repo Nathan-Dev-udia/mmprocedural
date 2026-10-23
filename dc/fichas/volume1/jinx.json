@@ -1,0 +1,28 @@
+{
+  "nome": "Jinx",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 143,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 200
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "4",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "2",
+      "INT": "4",
+      "AWE": "4",
+      "PRE": "5"
+    },
+    "poderes": "Elemental Magic ( Array (24 points), Earthquake ( Burst Area Damage 8 Linked to Burst Area Affliction 8 (Resisted by Dodge; Vulnerable, Defenseless), Limited Degree; both effects are Selective, Limited—Jinx and targets must be in contact with the ground), AE: Green Flamestorm ( Ranged Burst Area Affliction 8 (Resisted by Fortitude; Vulnerable, Disabled, Incapacitated), Concentration, Cumulative, Instant Recovery, Limited: Jinx Must be in Contact with Earth), AE: Gust of Wind ( Cone Area Move Object 5, Close Range, Limited Direction: Straight Away), AE: Mystic Bolt ( Ranged Damage 12, Limited: Jinx Must be in Contact with Earth)); Mystic Shield ( Protection 4, Sustained)",
+    "vantagens": "Accurate Attack, Attractive, Daze (Deception), Fascinate (Deception), Languages 3, Luck 3, Ritualist, Skill Mastery (Expertise: Magic)",
+    "pericias": "Deception 8 (+12), Expertise: Magic 8 (+12), Perception 5 (+9), Persuasion 5 (+10), Ranged Attack: Mystic Bolt 8 (+10), Stealth 6 (+8)",
+    "ataques": "Initiative +2, Mystic Bolt +10 (Ranged, Damage 12), Earthquake—(Close, Damage 8, Affliction 8 Resisted by Dodge; both Burst Area 2 or other effects)",
+    "defesas": "Dodge 14, Parry 12, Fortitude 6, Toughness 8, Will 12",
+    "pontos_poder": "Abilities 48 + Powers 36 + Advantages 12 + Skills 20 + Defenses 32 = 143"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "nome": "Blood Cultist",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 6,
+  "pontos_poder_publicados": 27,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 89
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "2",
+      "AGL": "1",
+      "DEX": "1",
+      "FGT": "3",
+      "INT": "0",
+      "AWE": "0",
+      "PRE": "0"
+    },
+    "equipamento": "Ceremonial Dagger (Damage 2, Improved Critical), Light Pistol (Ranged Damage 3)",
+    "vantagens": "Equipment 2, Teamwork",
+    "pericias": "Close Combat: Ceremonial Dagger 6 (+9), Ranged Combat: Light Pisto) 8 (+9), etc.",
+    "ataques": "Initiative +1, Ceremonial Dagger +9 (Damage 3, Crit. 19-20), Light Pistol +9 (Damage 3)",
+    "defesas": "Dodge 2, Parry 4, Fortitude 1, Toughness 2, Will 1",
+    "pontos_poder": "Abilities 16 + Powers 0 + Advantages 3 + Skills 7 + Defenses 3 = 27"
+  }
+}

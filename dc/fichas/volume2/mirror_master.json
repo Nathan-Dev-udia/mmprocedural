@@ -1,0 +1,29 @@
+{
+  "nome": "Mirror Master",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 201,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 54
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "3",
+      "AGL": "2",
+      "DEX": "4",
+      "FGT": "3",
+      "INT": "1",
+      "AWE": "2",
+      "PRE": "0"
+    },
+    "poderes": "a Protection 3, Subtle, Removable (-1 point) rmor ed Costume: • 3 points Holo-Mirrors: Variable 10 (mirror or reflection-based effects, 50 points), Removable (-14 points) • 56 points Mirror Gun: Ranged Damage 12 (laser), Accurate, Easily Removable (-10 points) • 15 points Mirror t r avel: Array (42 points), Easily Removable (-16 points) • 26 points • Mirror Portal: Portal Teleport 8 (1 mile), Accurate, Easy, Extended (250 miles), Medium—Reflective surfaces • 42 points • Personal Mirror Portal: Teleport 8 (1 mile), Accurate, Easy, Extended (250 miles), Medium—Reflective surfaces • 1 point",
+    "vantagens": "Close Attack 2, Connected, Defensive Attack, Defensive Roll 2, Evasion, Improved Aim, Improved Initiative, Inventor, Precise Attack 2 (Close and Ranged; Cover), Ranged Attack 2, Redirect, Uncanny Dodge",
+    "pericias": "Close Combat: Holo-Mirror 5 (+8), Deception 5 (+5), Expertise: Underworld 6 (+7), Insight 6 (+8), Perception 7 (+9), Persuasion 6 (+6), Ranged Combat: Holo-Mirror 4 (+8), Ranged Combat: Mirror Gun 2 (+6), Technology 9 (+10)",
+    "ataques": "i nitia tive +6 Unarmed +7 Close, Damage 2 Holo-Mirror +10 Close or Ranged, Varies up to 10 Mirror Gun +8 Ranged, Damage 12",
+    "defesas": "d odge 10 f or titude 8 Parry 10 t oughness 8/6* W ill 8 *Without Defensive Roll.",
+    "pontos_poder": "a bilities 34 S kills 25 Powers 100 d efenses 26 a dv antages 16 ToTal 201",
+    "complicacoes": "a ddic tion ( e v an McCulloch): Evan McCulloch is addicted to cocaine, though Captain Cold is “helping” him kick the habit (by kicking him for being an idiot). n o o C v Women, n hildren ( e an McCulloch) : Like the other Rogues, Mirror Master refuses to harm innocent women and children. While this mostly manifests as reluctance in the case of female and teenage super heroes, he did once protected fallen heroines from being sexually assaulted by Doctor Light. t ies v Past ( e an McCulloch): McCulloch has assumed some responsibility for the orphanage where he grew up and donates part of his criminal earnings to its support. Petty Pride (Sam Scudder): While ingenious and visionary, the first Mirror Master was still a petty criminal hampered by short-term goals and narcissistic pride."
+  }
+}

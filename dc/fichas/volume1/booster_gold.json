@@ -1,0 +1,30 @@
+{
+  "nome": "Booster Gold",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 150,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 83
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "10",
+      "STA": "3",
+      "AGL": "3",
+      "DEX": "2",
+      "FGT": "4",
+      "INT": "1",
+      "AWE": "2",
+      "PRE": "3"
+    },
+    "poderes": "Booster Gold Suit: 62 points, Removable (–12 points) • 50 points Augmented Abilities: Enhanced Fortitude 5; Enhanced Strength 7 • 19 points Energy Blasters: Ranged Damage 8 • 16 points • Time Circuits: Movement 3 (Full Time Travel), Quirk: Connected to Rip Hunter’s",
+    "equipamento": "• 1 point Force Field: Immunity 10 (Life Support) Linked to Protection 8, Sustained • 18 points Goggles: Senses 8 (Communication Link to Skeets, Extended Hearing 2, Extended Vision 2, Infravision, Low-Light Vision, Radio) • 8 points Flight Ring: Flight 7 (250 MPH), Removable (-3 point) • 11 points",
+    "vantagens": "All-out Attack, Attractive, Improved Initiative, Luck, Minion 10 (Skeets), Power Attack",
+    "pericias": "Athletics 6 (+8), Close Combat: Unarmed 6 (+10), Perception 5 (+7), Persuasion 7 (+10), Ranged Combat: Energy Blasters 10 (+12)",
+    "ataques": "Initiative +6 Unarmed +10 Close, Damage 10 Energy Blasters +12 Ranged, Damage 8",
+    "defesas": "Dodge 9 Fortitude 8 Parry 9 Toughness 11 Will 6",
+    "pontos_poder": "Abilities 42 Skills 17 Powers 61 Defenses 15 Advantages 15 ToTal 150",
+    "complicacoes": "Secret Hero: Though most people think Booster is a fool, he has undertaken a serious new quest as a defender of the timestream, maintaining his foolish reputation as a cover. Skeets: Though he is from the future, Booster knows little about history and is often dependent upon the knowledge and advice of his robotic partner Skeets."
+  }
+}

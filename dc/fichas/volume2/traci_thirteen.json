@@ -1,0 +1,27 @@
+{
+  "nome": "Traci Thirteen",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 152,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 242
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "0",
+      "STA": "3",
+      "AGL": "3",
+      "DEX": "2",
+      "FGT": "2",
+      "INT": "2",
+      "AWE": "4",
+      "PRE": "3"
+    },
+    "poderes": "Mystic Ranged Damage 6• 12 points f ir e: Magic: Array (35 points), Activation (–1 points) • Gateway of Citrina: Teleport 7, Extended, Portal • 35 points • n ommo ’s t r ansformation: Transform 6 (anything into anything, 50 lbs.) • 1 point • Magic f ail: Broad Burst Area Nullify Magic 8, Concentration • 1 point • Phasma Phasmatis: Impervious Protection 8, Concentration • 1 point • d eimos’ Claw: Damage 9, Penetrating, Tiring • 1 point • t hr ough the Seven Veils: Senses 5 (Dimensional Sight and Hearing into Magical Dimensions, Magical Awareness, Vision Counters Illusion) • 1 point a V ant G d a e S Artificer, Contacts, Evasion, Fearless, Improved Initiative, Luck, Power Attack, Ritualist, Ultimate Effort (Expertise: Magic)",
+    "pericias": "Athletics 6 (+6), Close Combat: Homi Magi 7 (+9), Deception 5 (+8), Expertise: Magic 10 (+12), Insight 6 (+10), Intimidation 2 (+5), Investigation 9 (+11), Perception 8 (+12), Ranged Combat : Mystic Fire 9 (+11), Sleight of Hand 7 (+9)",
+    "ataques": "i nitia tive +7 Mystic Fire +11 Ranged Damage 5 Deimos’ Claw +9 Penetrating Strike 9, Tiring",
+    "defesas": "d odge 7 f or titude 6 Parry 6 t oughness 11/3* W ill 12 *Without Phasma Phasmatis.",
+    "pontos_poder": "a bilities 38 S kills 35 Powers 51 d efenses 19 a dv antages 9 ToTal 152"
+  }
+}

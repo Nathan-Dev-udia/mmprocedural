@@ -1,0 +1,29 @@
+{
+  "nome": "The Barracuda",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 236,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 140
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "10",
+      "STA": "8",
+      "AGL": "4",
+      "DEX": "2",
+      "FGT": "11",
+      "INT": "2",
+      "AWE": "3",
+      "PRE": "3"
+    },
+    "poderes": "Aquatic ( Immunity 3 (Cold, Drowning, Pressure), Movement 1 (Environmental Adaptation: Aquatic), Senses 1 (Low-Light Vision)); Marine Telepathy (Array (57 points), Summon Marine Life 8 ((120 points), Horde, Mental Link, Multiple Minions 2 (4 minions), Variable General Type (Marine Life), Limited to in or near water, AE: Summon Marine Life 4 (60 points), Horde, Mental Link, Multiple Minions 4 (16 minions), Variable General Type (Marine Life), Limited to in or near water, AE: Comprehend Animals 2, Mental Communication 4, Limited to Marine Life); Swimming ( Swimming 10 (500 MPH))",
+    "vantagens": "All-out Attack, Animal Empathy, Benefit 3 (Warlord of Atlantis), Blind-Fight, Defensive Roll 3, Equipment 10 (Atlantean technology), Favored Environment (Aquatic), Improved Initiative, Language 1, Minions 12 (250 PL 4 Atlantean Warriors), Power Attack",
+    "pericias": "Acrobatics 4 (+8), Athletics 4 (+14), Expertise: Atlantean Lore 7 (+9), Insight 6 (+9), Intimidation 6 (+9), Perception 5 (+8), Stealth 4 (+8), Technology 4 (+6), Vehicles 4 (+6)",
+    "ataques": "Initiative +8, Unarmed +11 (Damage 10)",
+    "defesas": "Dodge 11, Parry 11, Fortitude 11, Toughness 11/8, Will 11",
+    "pontos_poder": "Abilities 86 + Powers 75 + Advantages 35 + Skills 22 + Defenses 18 = 236",
+    "complicacoes": "Obsession: Barracuda is bent on conquering the surface world. Temper: Barracuda is known for a fierce, warrior temper when tested. Weakness: Barracuda dehydrates when away from water for an extended time, becoming impaired, disabled, and finally incapacitated before his condition becomes dying. Immersion in water immediately removes all accumulated conditions. surface world. Though much remains unknown about Barra - cuda, the CSA consider the Atlantean a formidable threat. He has led Atlantis’ warrior armies against land-based civilization several times over. His relationship with the Crime Syndicate is currently adversarial, as he took advantage of a CSA defeat to again launch an attack. Barracuda is less human in appear - ance than Aquaman, he has fish-like traits, including gills and scaly blue skin. He wears battle armor and wields advanced Atlantean weaponry. His minions are similarly equipped."
+  }
+}

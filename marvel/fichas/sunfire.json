@@ -1,0 +1,134 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Sunfire",
+  "nome_pt": "Sunfire",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 150,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 98
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 10,
+      "Int": 2,
+      "Pro": 1,
+      "Pre": 0
+    },
+    "defesas": {
+      "Esquiva": 12,
+      "Aparar": 12,
+      "Fortitude": 10,
+      "Resistencia": 8,
+      "Vontade": 6
+    },
+    "pericias": {
+      "Enganação": 8,
+      "Persuasão": 9,
+      "Intimidação": 12,
+      "Especialidade: Táticas": 9,
+      "Percepção": 9,
+      "Intuição": 12,
+      "Combate a Distância: Blast": 9
+    },
+    "vantagens": [
+      "Accurate Attack",
+      "Defensive Attack",
+      "Defensive Roll 2",
+      "Daze [Intimidate]",
+      "Equipment",
+      "Improved Defense",
+      "Improved Initiative 2",
+      "Improved Sunder",
+      "Improved Trip",
+      "Instant Up",
+      "Move By-Action",
+      "Power Attack",
+      "Quickdraw",
+      "Startle",
+      "Uncanny Dodge [Hearing]",
+      "Languages 1"
+    ],
+    "poderes": [
+      {
+        "nome": "Flight",
+        "construcao_3e": "Flight (rank 2e 6); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Flight 6 (12pp); custo 2e impresso 12 PP.",
+        "custo_2e_pp": 12,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Immunity",
+        "construcao_3e": "Immunity (rank 2e 5); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Immunity 5 (Radiation; 5pp); custo 2e impresso 5 PP.",
+        "custo_2e_pp": 5,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Strike",
+        "construcao_3e": "Damage (rank 2e 10); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Strike 10 (Dynamic; Extra: Aura [+1]; Alternate Power: Blast –Dynamic; 23pp) Componentes/efeitos alternativos mapeados: Blast → Damage à distância.; custo 2e impresso 23 PP.",
+        "custo_2e_pp": 23,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Super Senses",
+        "construcao_3e": "Sentidos (rank 2e 1); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Senses 1 (Infravision; 1pp); custo 2e impresso 1 PP.",
+        "custo_2e_pp": 1,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Uniform [+4 Toughness; Subtle; 5ep]"
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "dano": 2
+      },
+      {
+        "nome": "Aura Ígnea",
+        "bonus": 10,
+        "dano": 10
+      },
+      {
+        "nome": "Rajada",
+        "bonus": 10,
+        "dano": 10
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 20,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 16,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 38,
+    "defesas": 48,
+    "pericias": 68,
+    "vantagens": 18,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 172,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
+    "Perícias foram convertidas subtraindo do bônus total impresso o atributo 3e correspondente. Conhecimentos, Ofícios e Profissões foram mantidos como Especialidades; Condução/Pilotagem como Veículos; Sobrevivência como Especialidade: Sobrevivência; Computadores como Tecnologia.",
+    "Poderes preservam os descritores, ranks, modificadores e custos 2e impressos; o guia orienta o efeito 3e equivalente. Custos 3e ficam nulos quando a construção exata ou os modificadores não permitem cálculo seguro.",
+    "Nenhuma Motivação ou complicação não publicada foi acrescentada.",
+    "Idiomas adicionais descritos na fonte foram convertidos em Languages 1, usando a progressão da vantagem 3e.",
+    "Dodge Focus 5 foi convertido em ranks de Esquiva: base 12 + 5 = 17; valor final 12.",
+    "Defesas reduzidas por limite de NP 10: Esquiva 17→12 e Aparar 12→12; cada defesa ativa + Resistência 8 ≤ 20.",
+    "Subtotal 3e conhecido: 38 PP em habilidades, 68 em perícias, 48 em defesas, 18 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto."
+  ]
+}

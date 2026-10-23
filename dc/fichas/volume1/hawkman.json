@@ -1,0 +1,30 @@
+{
+  "nome": "Hawkman",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 197,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 256
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "6",
+      "STA": "6",
+      "AGL": "4",
+      "DEX": "3",
+      "FGT": "10",
+      "INT": "3",
+      "AWE": "4",
+      "PRE": "2"
+    },
+    "poderes": "Avian Empathy: Communication 1 (Auditory), Area, Limited to Avians; Feature 1 (Birds accept him as one of their own) • 5 points Nth Metal Wing Harness: Removable (-5 points), Indestructible; Enhanced Strength 2, plus Enhanced Strength 2, Limited to lifting and carrying (Lifting Str 8; 6 tons); Flight 7 (250 MPH), Wings; Immunity 3 (Cold, Heat, Pressure); Protection 3; Regeneration 10; Senses 1 (Extended Vision) • 25 points Reincarnation: Immortality 1, Reincarnation (May re-distribute power points) • 3 points",
+    "equipamento": "Archaic Weapons Arsenal: Array (5 points) • Net: Affliction 5 (Resisted by Dodge; Hindered & Impaired, Immobile & Defenseless), Limited Degree, Extra Condition • 5 points • Cestus: Strength-based Damage 1 (Bludgeoning) • 1 point • Mace: Strength-based Damage 3 (Bludgeoning) • 1 point • Katar: Strength-based Damage 3 (Piercing), Improved Critical • 1 point • Knife: Strength-based Damage 1 (Piercing), Improved Critical • 1 point • Spear: Strength-based Damage 3 (Piercing), Improved Critical • 1 point Medium Shield: Enhanced Defense 4 (Dodge 2, Parry 2) • 4 points",
+    "vantagens": "All-out Attack, Assessment, Beginner’s Luck, Defensive Roll, Equipment 3, Favored Environment (Aerial), Improved Critical (Mace), Improved Disarm, Improved Initiative, Improved Smash, Inventor, Jack-of-all-trades, Languages 3 (Ancient Egyptian, German, Japanese, Thanagarian), Leadership, Move-by Action, Power Attack, Quick Draw, Ranged Attack 10, Startle, Takedown 2, Uncanny Dodge",
+    "pericias": "Acrobatics 6 (+10), Athletics 2 (+8), Close Combat: Archaic Melee Weapons 3 (+13), Close Combat: Unarmed 4 (+14), Deception 6 (+8), Expertise: History 8 (+11), Expertise: Law Enforcement 4 (+7), Expertise: Tactics 6 (+9), Insight 6 (+10), Intimidation 6 (+8), Investigation 5 (+8), Perception 8 (+12), Stealth 4 (+8), Technology 6 (+9), Vehicles 4 (+7)",
+    "ataques": "Initiative +8 Knife +13 Close, Damage 7, Crit. 19-20 Mace/Katar/Spear +13 Close, Damage 9, Crit. 19-20 Net +13 Close, Affliction 5, Resisted by Dodge Unarmed +14 Close, Damage 6",
+    "defesas": "Dodge 12/10* Fortitude 12 Parry 12/10* Toughness 10/9** Will 10 *Without shield. **Without Defensive Roll.",
+    "pontos_poder": "Abilities 72 Skills 39 Powers 33 Defenses 18 Advantages 35 ToTal 197",
+    "complicacoes": "Identity: Hawkman’s multiple incarnations can occasionally complicate his life and confuse his allies. He may run into other versions of himself or run afoul of Thangarian spies seeking to clandestinely remove him from action so they might themselves pose as Hawkman. Relationship: Most of Hawkman’s incarnations have had an ongoing romantic relationship with either Hawkgirl or Hawkwoman."
+  }
+}

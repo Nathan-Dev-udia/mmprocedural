@@ -1,0 +1,29 @@
+{
+  "nome": "Oracle",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 159,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 89
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "2",
+      "AGL": "0",
+      "DEX": "2",
+      "FGT": "4",
+      "INT": "8",
+      "AWE": "8",
+      "PRE": "3"
+    },
+    "equipamento": "e Strength-based Damage 2 • 2 points scrima S ticks: Stun Gun: Affliction 5 (Resisted by Fortitude; Dazed Stunned, Incapacitated) • 5 points Headquarters: C L o C ktower • 17 POI n TS Size: Med t ou: 14 f ea tures: Combat Simulator, Communications, Computer, Concealed, Gym, Library, Living Space, Power System, Security System 4 (DC 35)",
+    "vantagens": "Assessment, Benefit 5 (Cipher 4, Security Clearance), Close Attack 4, Connected, Contacts, Defensive Roll 3, Eidetic Memory, Equipment 6, Improved Defense, Improved Disarm, Jack-of-all-trades, Languages 4, Prone Fighting, Redirect, Set-up, Well-informed",
+    "pericias": "Acrobatics 9 (+9), Close Combat: Escrima Sticks 8 (+12), Close Combat: Unarmed 6 (+10), Deception 10 (+13), Expertise: Computers 12 (+20), Insight 7 (+15), Investigation 12 (+20), Perception 10 (+18), Persuasion 13 (+16), Technology 12 (+20)",
+    "ataques": "i nitia tive +0 Escrima Sticks +16 Close, Damage 3 Unarmed +14 Damage 1",
+    "defesas": "d odge 6 f or titude 7 Parry 12 t oughness 5/2* W ill 13 *Without Defensive Roll.",
+    "pontos_poder": "a bilities 56 S kills 47 Powers 0 d efenses 24 a dv antages 32 ToTal 159",
+    "complicacoes": "from Behind the Scenes: Though she rarely takes an active role on the battlefield like she did when she was Batgirl, Oracle is determined to put an end to crime and evil wherever her extensive information network finds it and wherever she can reach it through her expansive network of agents. Paralyzed: Though her technological and physical prowess (not to mention her skills from her years as Batgirl) makes her fully capable of taking care of herself, Oracle is confined to a wheelchair. p er S ona LI ty Because Oracle is usually the smartest person in the room, and she’s always the best informed, she likes to be in control of a situation, or at least forming the strategy pursued by her allies."
+  }
+}

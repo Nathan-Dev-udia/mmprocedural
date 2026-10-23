@@ -1,0 +1,139 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Omega Red",
+  "nome_pt": "Omega Red",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 165,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 65
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 5,
+      "Vig": 5,
+      "Agi": 4,
+      "Des": 4,
+      "Lut": 10,
+      "Int": 1,
+      "Pro": 0,
+      "Pre": 0
+    },
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 8,
+      "Fortitude": 11,
+      "Resistencia": 12,
+      "Vontade": 5
+    },
+    "pericias": {
+      "Enganação": 8,
+      "Atletismo": 12,
+      "Investigação": 11,
+      "Intimidação": 12,
+      "Especialidade: Mobster": 7,
+      "Percepção": 9,
+      "Intuição": 8,
+      "Furtividade": 8,
+      "Especialidade: Sobrevivência": 5
+    },
+    "vantagens": [
+      "Benefit (Ambidextrous)",
+      "Chokehold",
+      "Contacts",
+      "Fearless",
+      "Fast Grab",
+      "Improved Grab",
+      "Improved Hold",
+      "Improved Trip",
+      "Improved Initiative",
+      "Minion 5 (10 Thugs)",
+      "Grabbing Finesse",
+      "Power Attack",
+      "Startle",
+      "Languages 1"
+    ],
+    "poderes": [
+      {
+        "nome": "Boost (Regeneration) 16",
+        "construcao_3e": "Enhanced Trait (Regeneration), Personal Only; Triggered by a successful Drain attack; source calls this Boost.",
+        "custo_2e_pp": 9,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Carbonadium Armor",
+        "construcao_3e": "Removable Device: Protection 7, Impervious; Comm-Link.",
+        "custo_2e_pp": 12,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Immunity 1",
+        "construcao_3e": "Immunity to own power.",
+        "custo_2e_pp": 1,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Strike 5",
+        "construcao_3e": "Damage 5, Mighty, Extended Range 4, Improved Critical.",
+        "custo_2e_pp": 10,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Super-Strength 3",
+        "construcao_3e": "Limited to tentacles.",
+        "custo_2e_pp": 3,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Transfer (Strength and Constitution) 8",
+        "construcao_3e": "Transfer, Aura; cannot lower the Aura.",
+        "custo_2e_pp": 24,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Carbonadium Armor (Device; Comm-Link listed within the 12 PP device)."
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Tentacles",
+        "bonus": 10,
+        "dano": 10
+      },
+      {
+        "nome": "Unarmed",
+        "bonus": 10,
+        "dano": 5
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 20,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 16,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 58,
+    "defesas": 44,
+    "pericias": 40.0,
+    "vantagens": 18,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 160.0,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Dodge Focus 4 foi convertido em graduações de Esquiva e reduzido para respeitar o NP 10; Attack Focus (Melee) 6 foi ajustado para não ultrapassar o limite de ataque. Improved Grapple virou Grabbing Finesse; Improved Pin, Improved Hold; Improved Throw, Improved Trip.",
+    "A fonte imprime STR/DEX/CON/INT/WIS/CHA +5/+4/+5/+1/+0/+0; Toughness/Fortitude/Reflex/Will +12/+11/+6/+5; Attack +4 (+10 Melee), Defense 18, Initiative +8.",
+    "Dodge Focus 4 e a Defesa 18 original excedem o limite de PL 10 com Resistência 12; Esquiva e Aparar foram reduzidos a 8 cada (8 + 12 = 20). Ataques foram ajustados para respeitar Ataque + efeito ≤ 20.",
+    "A fonte imprime 25 ft. de alcance dos tentáculos. Drawbacks: nenhum.",
+    "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +5/+4/+5/+1/+0/+0. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
+    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
+  ]
+}

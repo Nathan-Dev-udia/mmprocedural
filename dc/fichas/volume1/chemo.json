@@ -1,0 +1,29 @@
+{
+  "nome": "Chemo",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 13,
+  "pontos_poder_publicados": 193,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 117
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "18",
+      "STA": "12",
+      "AGL": "0",
+      "DEX": "-1",
+      "FGT": "4",
+      "INT": "-3",
+      "AWE": "0",
+      "PRE": "0"
+    },
+    "poderes": "Armored Shell: Protection 8, Impervious Toughness 10 • 18 points Chemical Absorption: Energy Absorption 8 (Chemical Attacks, Adds to Growth) • 8 points Construct: Immunity 30 (Fortitude Effects) • 30 points Giant-Sized: Growth 8, Permanent, Innate • 17 points Living Chemical Dump: Immunity 2 (Chemical Effects) • 2 points Rampaging Monster: Immunity 10 (Control Effects, Interaction Skills), Limited to Half Effect • 5 points Self-Repairing: Regeneration 10, Source: Chemicals • 5 points Toxic Chemicals: Array (51 points) • Toxic Cloud: Cloud Area Affliction 10 (Dazed, Disabled, Incapacitated), Cumulative, Linked to Cloud Area Damage 10, Incurable • 51 points • Caustic Spray: Ranged Damage 10, Incurable, Linked to Weaken Toughness 10, Affects Objects, Ranged • 1 point • Toxic Blast: Ranged Damage 18, Incurable • 1 point",
+    "vantagens": "All-out Attack, Diehard, Fearless, Power Attack, Ultimate Effort (Toughness)",
+    "pericias": "Close Combat: Unarmed 4 (+8), Intimidation 8 (+8), Ranged Combat: Toxic Powers 8 (+8)",
+    "ataques": "Initiative +0 Unarmed +8 Close, Damage 18 Caustic Spray — Range, Cloud Area Damage 10 Linked to Cloud Area Weaken 10 Toxic Blast +8 Range, Damage 18",
+    "defesas": "Dodge 4 Fortitude Immune Parry 4 Toughness 20 Will 8",
+    "pontos_poder": "Abilities 28 Skills 10 Powers 130 Defenses 20 Advantages 5 ToTal 193",
+    "complicacoes": "Tool of Destruction: Chemo is often used by other villains, particularly for causing mass devastation. ALLIES Chemo does not have allies, per se. However, he has been used as a pawn by various villains, such as the Joker or Gorilla Grodd. He was also used by Amanda Waller on one occa - sion. ENEMIES Chemo has fought the Metal Men and Superman many times. Chemo is also responsible for the deaths of the first"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "nome": "Libra",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 194,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 280
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "4",
+      "AGL": "1",
+      "DEX": "1",
+      "FGT": "1",
+      "INT": "5",
+      "AWE": "4",
+      "PRE": "4"
+    },
+    "poderes": "Energy Transmortifier (Affliction 11 (Resisted by Dodge; Impaired, Disabled, Transformed), Burst Area, Perception Range, Progressive, Selective, Easily Removable (–26 points)); Variable 11 ((Stolen Abilities & Powers), Easily Removable (–30 points))",
+    "vantagens": "Inventor, Leadership",
+    "pericias": "Deception 9 (+13), Expertise: Science 11 (+16), Technology 14 (+19)",
+    "ataques": "Initiative +1, Unarmed +1 (Close, Damage 3), Energy Transmortifier—(Perception Range, Perception Area Progressive Affliction 11, Resisted by Dodge)",
+    "defesas": "Dodge 16, Parry 16, Fortitude 7, Toughness 4, Will 13",
+    "pontos_poder": "Abilities 46 + Powers 87 + Advantages 2 + Skills 17 + Defenses 42 = 194",
+    "complicacoes": "Obsession: Ballantine seeks to bring “balance” to the universe, as his damaged psyche defines the concept. Secret: Both of Libra’s grand criminal schemes involved duping a group of super-villains into serving his own ends."
+  }
+}

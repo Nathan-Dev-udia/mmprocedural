@@ -1,0 +1,125 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Gambit",
+  "nome_pt": "Gambit",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 150,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 31
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 4,
+      "Des": 4,
+      "Lut": 8,
+      "Int": 1,
+      "Pro": 0,
+      "Pre": 5
+    },
+    "defesas": {
+      "Esquiva": 13,
+      "Aparar": 13,
+      "Fortitude": 3,
+      "Resistencia": 7,
+      "Vontade": 8
+    },
+    "pericias": {
+      "Acrobacia": 8,
+      "Enganação": 7,
+      "Atletismo": 4,
+      "Tecnologia": 11,
+      "Prestidigitação": 12,
+      "Investigação": 7,
+      "Especialidade: Rua": 12,
+      "Percepção": 8,
+      "Intuição": 8,
+      "Furtividade": 12,
+      "Combate Corpo a Corpo: Bastão": 6,
+      "Combate à Distância: Cartas Cinéticas": 10
+    },
+    "vantagens": [
+      "Accurate Attack",
+      "Attractive 2",
+      "Contacts",
+      "Defensive Attack",
+      "Defensive Roll 2",
+      "Equipment 2",
+      "Evasion 2",
+      "Fascinate (Deception)",
+      "Improved Disarm",
+      "Improved Initiative 2",
+      "Luck",
+      "Power Attack",
+      "Skill Mastery (Deception, Technology, Sleight of Hand, Stealth)",
+      "Ultimate Effort (Ultimate Bluff Check)",
+      "Uncanny Dodge (Hearing)",
+      "Languages 1"
+    ],
+    "poderes": [
+      {
+        "nome": "Blast (kinetic cards)",
+        "construcao_3e": "Damage 10 (Explosion Area, Split Attack 3); Alternate Effect: Damage 6 (Multiattack, Accurate 3); Requires Medium.",
+        "custo_2e_pp": 24,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Bastão (+2 dano; alcance 3 m; 4 EP)",
+      "Cartas de baralho (1 EP)",
+      "Gazuas de obra-prima (1 EP)",
+      "Uniforme (Protection 3; Subtle; 4 EP)"
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "dano": 2
+      },
+      {
+        "nome": "Bastão",
+        "bonus": 14,
+        "dano": 4
+      },
+      {
+        "nome": "Cartas cinéticas",
+        "bonus": 14,
+        "dano": 6
+      },
+      {
+        "nome": "Blast cinético",
+        "bonus": 8,
+        "dano": 10
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 20,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 11,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 52,
+    "defesas": 23,
+    "pericias": 52.5,
+    "vantagens": null,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 127.5,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Attack Specialization (Staff) 3 foi convertida em 6 graduações de Combate Corpo a Corpo: Bastão. Dodge Focus 10 foi limitado para respeitar NP 10 com Resistência ativa 7. Elusive Target e Sneak Attack foram removidas. Languages 1 representa inglês além do francês-base.",
+    "Defesas ajustadas para Esquiva 13 e Aparar 13, respeitando os limites de NP 10 com Resistência 7.",
+    "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias e apenas os custos de poderes confirmados; não inclui vantagens nem custos incertos."
+  ]
+}

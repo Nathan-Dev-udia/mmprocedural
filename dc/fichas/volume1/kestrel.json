@@ -1,0 +1,29 @@
+{
+  "nome": "Kestrel",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 191,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 304
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "9",
+      "STA": "9",
+      "AGL": "6",
+      "DEX": "2",
+      "FGT": "4",
+      "INT": "1",
+      "AWE": "2",
+      "PRE": "6"
+    },
+    "poderes": "Chaos Body: Impervious Protection 5 • 10 points Host Disguise: Morph 1 (Appears as original host) • 5 points Kestrel Talons: Array (20 points) • Talons: Strength-based Damage 3, Affects Insubstantial 2, Dimensional 3, Penetrating 12 • 20 points • Shredding Swipe: Affliction 15 (Resisted by Fortitude; Impaired Toughness and Vulnerable, Disabled Toughness and Defenseless), Affects Insubstantial 2, Dimensional 3, Extra Condition, Limited Degree • 1 point Kestrel Wings: Array (12 points) • Rend Space: Burst Area Movement 3 (Dimension Travel 3, travel is voluntary), Affects Others • 12 points • Hunter Speed: Speed 4 (30 MPH); Leaping 6 • 1 point Reform: Immortality 1, Limited: Reforms in the dimension of Chaos; Regeneration 10 • 11 points Track Hawk: Senses 13 (Detect Hawk 2 (Mental) , Extended 10 (Detect Hawk) , Tracking (Hawk)) • 13 points",
+    "vantagens": "All-out Attack, Fearless, Improved Critical (Talons), Instant Up, Power Attack, Startle",
+    "pericias": "Athletics 5 (+14), Close Combat: Shredding Swipe 3 (+7), Close Combat: Talons 6 (+10), Deception 8 (+14), Expertise: Chaos 10 (+11), Intimidation 10 (+16)",
+    "ataques": "Initiative +6 Talons +10 Close, Damage 12 Crit. 19-20 Shredding Swipe +7 Close, Affliction 15, Resisted by Fortitude",
+    "defesas": "Dodge 8 Fortitude 11 Parry 8 Toughness 14 Will 7",
+    "pontos_poder": "Abilities 78 Skills 21 Powers 73 Defenses 13 Advantages 6 ToTal 191",
+    "complicacoes": "Living Spell: Kestrel is not a real creature but a spell, and requires a willing host to exist on Earth, who is most often promised power. Kestrel cannot stay on Earth outside a host, and has been defeated in the past when forced to leave its host. Obsession: Kestrel’s existence revolves around Hawk and Dove and it hunts them down whenever on Earth. Kestrel always tries to attack Dove first, and once she’s dead attempts to persuade Hawk to join the Lords of Chaos."
+  }
+}

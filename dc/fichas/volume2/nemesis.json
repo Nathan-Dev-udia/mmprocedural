@@ -1,0 +1,28 @@
+{
+  "nome": "Nemesis",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 8,
+  "pontos_poder_publicados": 140,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 77
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "4",
+      "AGL": "4",
+      "DEX": "4",
+      "FGT": "8",
+      "INT": "4",
+      "AWE": "4",
+      "PRE": "4"
+    },
+    "equipamento": "d issolving M asks: Morph 2, Limited—Facial Features Only, Unreliable (5 uses) • 6 points Pistol: Ranged Damage 3 • 6 points",
+    "vantagens": "Defensive Attack, Defensive Roll 2, Equipment 3, Evasion, Improved Initiative, Improvised Tools, Improved Trip, Improvised Weapon, Prone Fighting, Well-informed",
+    "pericias": "Acrobatics 2 (+6), Athletics 8 (+11), Close Combat: Unarmed 5 (+13), Deception 12 (+16), Expertise: Intelligence Operations 8 (+12), Insight 6 (+10), Investigation 6 (+10), Perception 8 (+12), Persuasion 6 (+10), Ranged Combat: Guns 9 (+13), Technology 4 (+8), Treatment 2 (+6), Vehicles 6 (+10)",
+    "ataques": "i nitia tive +8 Pistol +13 Ranged, Damage 3 Unarmed +13 Close, Damage 3",
+    "defesas": "d odge 10 f or titude 8 Parry 10 t oughness 6/4* W ill 8 *Without Defensive Roll.",
+    "pontos_poder": "a bilities 70 S kills 41 Powers 0 d efenses 16 a dv antages 13 ToTal 140"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "nome": "Damien Darhk",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 159,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 266
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "3",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "3",
+      "INT": "4",
+      "AWE": "4",
+      "PRE": "5"
+    },
+    "poderes": "Power of the Blood (Immortality 5); Backup Blaster (Ranged Damage 5, Penetrating 5, Removable)",
+    "equipamento": "Smartphone",
+    "vantagens": "Attractive, Benefit 6 (Alternate Identity 2, Multi- millionaire), Connected, Equipment, Fascinate, Fearless, Improved Initiative 2, Leadership, Quick Draw, Taunt, Well- informed",
+    "pericias": "Deception 10 (+15), Expertise: Finance 8 (+12), Insight 9 (+13), Perception 8 (+12), Persuasion 12 (+17), Ranged Combat: Blaster 13 (+15), Sleight of Hand 8 (+10), Stealth 10 (+12)",
+    "ataques": "Initiative +10, Backup Blaster +15 (Ranged Damage 5, Penetrating 5)",
+    "defesas": "Dodge 12, Parry 12, Fortitude 8, Toughness 3, Will 8",
+    "pontos_poder": "Abilities 50 + Powers 25 + Advantages 17 + Skills 39 + Defenses 28 = 159"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "nome": "Catman",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 190,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 109
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "4",
+      "STA": "4",
+      "AGL": "6",
+      "DEX": "4",
+      "FGT": "11",
+      "INT": "1",
+      "AWE": "4",
+      "PRE": "4"
+    },
+    "poderes": "Affinity for Cats: Feature 1 (Cats accept Catman as one of their own) • 1 point",
+    "equipamento": "Catarang: Ranged Strength-based Damage 2 • 8 points (Note: Catman rarely uses this weapon these days) Cat Claw Grapple: Movement 1 (Swinging) • 2 points Fighting Claws: Strength-based Damage 2 • 2 points Knives: Strength-based Damage 1, Improved Critical • 2 points",
+    "vantagens": "All-out Attack, Animal Empathy, Defensive Attack, Close Attack 3, Defensive Roll 4, Equipment 3, Evasion, Improved Initiative, Instant Up, Power Attack, Precise Attack (Close, Concealment), Quick Draw, Ranged Attack 4, Seize Initiative, Skill Mastery (Expertise: Hunter), Skill Mastery (Perception), Startle, Takedown, Tracking, Ultimate Effort (Tracking), Weapon Bind",
+    "pericias": "Acrobatics 7 (+13), Athletics 10 (+13), Close Combat: Short Blades 2 (+13), Deception 5 (+9), Expertise: Animal Trainer 10 (+11), Expertise: Criminal 8 (+9), Expertise: Hunter 14 (+15), Insight 5 (+9), Intimidation 10 (+14), Perception 12 (+16), Persuasion 4 (+8), Ranged Combat: Throwing 4 (+12), Sleight of Hand 6 (+10), Stealth 10 (+16), Technology 5 (+6), Treatment 3 (+6), Vehicles 5 (+9) to resort to killing, theft, and other criminal acts to achieve even well-intentioned goals keep him from being super hero material. He has a weakness for strong, dangerous women on both sides of the law.",
+    "ataques": "Initiative +10 Catarang +12 Ranged, Damage 6 Fighting Claws +16 Close, Damage 6 Knives +16 Close, Damage 5, Crit. 19-20 Unarmed +14 Close, Damage 4",
+    "defesas": "Dodge 14 Fortitude 9 Parry 14 Toughness 8/4* Will 10 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 76 Skills 60 Powers 1 Defenses 22 Advantages 31 ToTal 190",
+    "complicacoes": "Conflicted: Catman is often torn between extremes such as hero or villain, leader or follower, loner or team player. Delusion: (past) Catman thought his special costume protected him from harm. Obsession: In the past, Catman was obsessed with cat-themed places, objects and people, including the villainess Catwoman. He has abandoned this Obsession but feels a connection to big cats, their predatory ways, and hunting that at times borders on extreme. Relationships: Catman has a son, Thomas, Jr. with the villainess Cheshire. He is unlikely friends with his fellow Secret Sixer Deadshot. He and the Huntress share a mutual attraction. of his fellow founding members: Scandal Savage, Ragdoll, and Deadshot. In fact, Deadshot and Catman have become friends despite Blake’s discovery it was the marksman who killed his pride. ENEMIES Catman has mostly buried the hatchet with his old foes, such as Batman. However, he has more than made up for this by running afoul nearly every member of the super-villain com - munity they encounter. From the Society to Vandal Savage, Catman and his fellow Secret Sixers have managed to collect a powerful cadre of enemies."
+  }
+}

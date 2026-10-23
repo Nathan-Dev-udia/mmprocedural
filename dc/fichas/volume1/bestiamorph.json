@@ -1,0 +1,28 @@
+{
+  "nome": "Bestiamorph",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 4,
+  "pontos_poder_publicados": 45,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 122
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "3",
+      "AGL": "0",
+      "DEX": "0",
+      "FGT": "3",
+      "INT": "–",
+      "AWE": "2",
+      "PRE": "0"
+    },
+    "poderes": "See description plus Senses 3 (Acute Smell, Darkvision)",
+    "vantagens": "All-out Attack, Tracking",
+    "pericias": "Athletics 5 (+8), Close Combat: Unarmed 2 (+5), Intimidation 5 (+5), Perception 4 (+6), Stealth 4 (+4)",
+    "ataques": "Initiative +0, Unarmed +5 (Damage 3)",
+    "defesas": "Dodge 5, Parry 5, Fortitude 5, Toughness 3, Will 3",
+    "pontos_poder": "Abilities 20 + Powers 3 + Advantages 2 + Skills 10 + Defenses 10 = 45"
+  }
+}

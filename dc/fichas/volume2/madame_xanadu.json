@@ -1,0 +1,30 @@
+{
+  "nome": "Madame Xanadu",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 187,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 33
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "0",
+      "STA": "2",
+      "AGL": "1",
+      "DEX": "2",
+      "FGT": "4",
+      "INT": "5",
+      "AWE": "5",
+      "PRE": "4"
+    },
+    "poderes": "Bargain with d eath: Immortality 20 (Insidious, Subtle 2), I mmunity 3 (Age, Disease, Poison) • 46 points Seer: Senses 17 (Detect Magic (Ranged, Acute, Analyze), Mystic Awareness, Postcognition (Ranged, Acute, Analytical, Extended 4), Precognition (Ranged, Acute, Analytical)) • 23 points",
+    "equipamento": "a Strength-based Damage 1, Improved Critical thame (k nife): • 2 points H q : “Hokus & p okus oC C u L t Curiosities” • 7 POI n TS Size: Small t ou: 8 f ea tures: Library, Living Space, Secret, Security System (wards and bindings), Self-Repairing, Workshop",
+    "vantagens": "Artificer, Attractive, Equipment 2, Languages 4 (Various dead and occult languages), Ritualist, Well-informed",
+    "pericias": "Close Combat: Knife 4 (+8), Deception 8 (+12), Expertise: History 8 (+13), Expertise: Magic 15 (+20), Insight 10 (+15), Perception 8 (+13), Persuasion 9 (+13), Sleight of Hand 8 (+10), Stealth 8 (+9)",
+    "ataques": "i nitia tive +1 Knife +8 Close, Damage 1, Crit. 19-20",
+    "defesas": "d odge 8 f or titude 6 Parry 7 t oughness 2 W ill 14",
+    "pontos_poder": "a bilities 46 S kills 39 Powers 69 d efenses 23 a dv antages 10 ToTal 187",
+    "complicacoes": "Cursed: Xanadu’s eyes were burned out by the Spectre: no attempt to repair or regrow them has been able to overcome the Spectre’s power. An assistant must read her cards in order for her to use her magical senses. ot d ependency: Aside from Mystic Awareness, Madame t ar Xanadu’s Sense powers require her to use her Tarot cards. t emp er : Madame Xanadu is quick to anger against anyone she feels has slighted her or acted against her, especially men."
+  }
+}

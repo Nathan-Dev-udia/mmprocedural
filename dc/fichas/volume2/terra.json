@@ -1,0 +1,27 @@
+{
+  "nome": "Terra",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 234
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "0",
+      "STA": "2",
+      "AGL": "3",
+      "DEX": "3",
+      "FGT": "2",
+      "INT": "1",
+      "AWE": "1",
+      "PRE": "4"
+    },
+    "poderes": "f lying r ocks: Flight 6 (120 MPH), Subtle, Platform (chunk of rock) • 7 points Geokinesis: Dynamic Array (28 points) • Shift e arth: Create 13 (Rock/Earth), Continuous, Extended Range, Innate, Limited: Needs ground or rock • 29 points • Catapult Strike: Ranged Damage 14, Limited: Needs ground or rock, Linked to Ranged Affliction 14 (Resisted by Dodge; Dazed and Vulnerable, Immobile and Prone), Extra Condition, Instant Recovery, Limited Degree; Dynamic • 2 points • d rill t hr ough: Ranged Burrowing 9, Affects Others • 2 points • Jagged e arth: Environment 4 (250 foot radius, create uneven ground conditions; Impede Movement 2), Selective • 2 points • Sinkhole: Ranged Affliction 14 (Resisted by Dodge; Hindered, Immobile, Paralyzed), Continuous, Cumulative, Limited to targets on the ground, Resistible (Fortitude) • 2 points • Stone Barrage: Ranged Damage 14, Multiattack, Limited: Needs ground or rock • 2 points • t r emors: Area Burst 2 (60 feet) Affliction 12 (Resisted by Dodge; Hindered and Vulnerable, Defenseless and Prone), Extra Condition, Concentration, Instant Recovery, Limited Degree, Limited to targets on the ground • 2 points • Undermine: Area Burst 2 (60 feet) Weaken Toughness 12, Affects Only Objects, Limited to targets on the ground • 2 points r ock Shields: Dynamic Array (12 points) • Stone",
+    "defesas": "Impervious Protection 12, Sustained, Limited: Needs ground or rock; Dynamic • 13 points • r ocky f or tress: Perception Deflect 12, Limited: Needs ground or rock, Dynamic • 2 points",
+    "vantagens": "All-out Attack, Evasion, Great Endurance, Improved Defense, Instant Up, Languages (Markovian, English), Power Attack, Skill Mastery (Deception checks), Taunt",
+    "pericias": "Deception 12 (+16), Insight 8 (+9), Investigation 5 (+6), Perception 4 (+5), Persuasion 8 (+12), Ranged Combat: Geokinesis Ranged Powers 7 (+10), Stealth 6 (+9) ffen S e o i nitia tive +3 Geokinesis +10 Ranged, Damage 14 or others Unarmed +2 Close, Damage 0 d efen S e d odge 8 f or titude 7 Parry 6 t oughness 14/2* W ill 6 *Without Stone Defense. W S Po er Point a bilities 32 S kills 25 Powers 65 d efenses 19 a dv ToTal 150 antages 9",
+    "complicacoes": "Unbalanced: Behind her rough but likeable personality, Tara is amoral and a borderline sociopath; while she can control herself in order to complete her objectives, she can fly into destructive rages. Her Geokinesis increases exponentially while in this state, but she can’t control it as finely. i mmor al Loyalty: Tara is Deathstroke’s lover, despite the large age difference between them (and her being underage as well). She is only loyal to him, and his manipulations always succeed with her. Markovian Bastard: Tara is the unrecognized daughter of the King of Markovia and half-sister to Geo-Force, the legitimate (if abdicating) heir. She is very resentful of being exiled along with her mother."
+  }
+}

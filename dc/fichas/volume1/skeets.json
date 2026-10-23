@@ -1,0 +1,28 @@
+{
+  "nome": "Skeets",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 150,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 83
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "0",
+      "STA": "—",
+      "AGL": "3",
+      "DEX": "0",
+      "FGT": "0",
+      "INT": "5",
+      "AWE": "2",
+      "PRE": "2"
+    },
+    "poderes": "Armored Shell ( Protection 6); Built-In Tools ( Feature); Construct ( Immunity 30 (Fortitude Effects)); Energy Blast (Ranged Damage 8); Grav Field (Flight 7 (250 MPH), Continuous); Historical Database (Senses 4 (Precognition; Unreliable)); Small Size (Shrinking 4, Continuous, Innate, Normal Strength, Permanent)",
+    "vantagens": "Assessment, Contacts, Evasion, Fearless, Move-by Action, Tracking, Well-informed",
+    "pericias": "Expertise: History 8 (+13), Insight 5 (+7), Investigation 3 (+8), Perception 8 (+10), Ranged Combat: Energy Blast 8 (+8), Stealth 3 (+10), Technology 7 (+12)",
+    "ataques": "Initiative +3, Energy Blast +12 (Ranged, Damage 8)",
+    "defesas": "Dodge 12, Parry 4, Fortitude Immune, Toughness 6, Will 8",
+    "pontos_poder": "Abilities 34 + Powers 77 + Advantages 7 + Skills 21 + Defenses 11 = 150"
+  }
+}

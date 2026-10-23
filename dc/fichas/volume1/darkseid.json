@@ -1,0 +1,29 @@
+{
+  "nome": "Darkseid",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 16,
+  "pontos_poder_publicados": 283,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 149
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "18",
+      "STA": "19",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "12",
+      "INT": "8",
+      "AWE": "5",
+      "PRE": "7"
+    },
+    "poderes": "Immortal: Immunity 11 (Aging, Life Support), Impervious Toughness 10 • 21 points Omega Effect: Array (56 points) • Destruction: Damage 20, Dimensional 3, Homing 12, Reversible • 56 points • Pain: Ranged Affliction 20 (Resisted by Fortitude; Dazed, Stunned), Concentration, Dimensional 3, Homing 12, Reversible, Limited to Two Degrees • 1 point • Transportation: Teleport Attack 20 (4,000 miles), Dimensional 3, Homing 12, Reversible • 1 point",
+    "vantagens": "Benefit 10 (Lord of Apokolips), Fearless, Power Attack, Takedown",
+    "pericias": "Close Combat: Unarmed 2 (+14), Deception 8 (+15), Insight 8 (+13), Intimidation 14 (+21), Perception 4 (+9), Ranged Combat: Omega Effect 10 (+12), Technology 4 (+12), Vehicles 4 (+6)",
+    "ataques": "Initiative +2 Omega Effect +12 Ranged, Damage 20 plus others Unarmed +14 Close, Damage 18",
+    "defesas": "Dodge 12 Fortitude 19 Parry 12 Toughness 19 Will 13",
+    "pontos_poder": "Abilities 146 Skills 27 Powers 79 Defenses 18 Advantages 13 ToTal 283",
+    "complicacoes": "Arrogance: Darkseid is supremely arrogant and confident in his position as a god. Obsession: With discovering the Anti-Life Equation and extinguishing free will throughout the cosmos."
+  }
+}

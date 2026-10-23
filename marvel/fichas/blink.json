@@ -1,0 +1,90 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Blink",
+  "nome_pt": "Blink",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 165,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 11
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 6,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 3
+    },
+    "defesas": {
+      "Esquiva": 13,
+      "Aparar": 10,
+      "Fortitude": 5,
+      "Resistencia": 7,
+      "Vontade": 6
+    },
+    "pericias": {
+      "Acrobacia": 12,
+      "Enganacao": 8,
+      "Persuasao": 6,
+      "Prestidigitacao": 12,
+      "Especialidade: Taticas": 8,
+      "Percepcao": 8,
+      "Investigacao": 8,
+      "Intuicao": 8,
+      "Furtividade": 12,
+      "Especialidade: Sobrevivencia": 10,
+      "Combate Corpo-a-Corpo: Desarmado": 4,
+      "Combate a Distancia: Armas arremessadas": 7
+    },
+    "vantagens": [
+      "Attractive",
+      "Defensive Roll 5",
+      "Dodge Focus convertido em Esquiva (removido por limite de NP)",
+      "Evasion",
+      "Inspire 2",
+      "Improved Initiative 2",
+      "Uncanny Dodge (Hearing)"
+    ],
+    "poderes": [
+      {
+        "nome": "Teleport",
+        "construcao_3e": "Teleport 10, Accurate e Portal; Alternate Effects: Teleport Attack (Ranged) 10, Damage 10 (Autofire) e Deflect (all ranged) 10 (Reflection, Free Action).",
+        "custo_2e_pp": 53
+      }
+    ],
+    "equipamento": [],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "dano": 2
+      },
+      {
+        "nome": "Arma arremessada / Disintegration",
+        "bonus": 10,
+        "dano": 10
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 20,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 17,
+      "fortitude_mais_vontade": 11,
+      "legal": true
+    }
+  },
+  "notas_conversao": [
+    "Attack Specialization (Thrown) 2 e (Unarmed) 2 foram convertidas em ranks de Ranged Combat e Close Combat. Os bonus foram ajustados a partir do ataque +10 impresso para cada especialidade.",
+    "Dodge Focus 7 foi convertido em Esquiva, mas os ranks excedentes foram removidos para cumprir Esquiva + Resistencia 20; Aparar foi reduzido para 10 para respeitar o limite com Fighting 6.",
+    "Defensive Roll 5 consta na ficha como vantagem, mas a Resistencia 7 representa o valor final impresso; conferir a interacao entre a defesa comprada e o estado vulneravel ao recalcular PP.",
+    "A fonte agrupa Teleport, Teleport Attack, Disintegration e Deflect em um Array. Os Alternate Effects foram mantidos, mas seus custos foram deixados para recalc 3e."
+  ]
+}

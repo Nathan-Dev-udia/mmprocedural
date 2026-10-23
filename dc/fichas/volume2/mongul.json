@@ -1,0 +1,28 @@
+{
+  "nome": "Mongul",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 13,
+  "pontos_poder_publicados": 239,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 69
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "14",
+      "STA": "14",
+      "AGL": "4",
+      "DEX": "4",
+      "FGT": "12",
+      "INT": "4",
+      "AWE": "4",
+      "PRE": "8"
+    },
+    "poderes": "d Ranged Damage 16, Accurate 3 • 35 points isin tegration Beam: Gigantic Leaps : Leaping 7 (900 feet) • 7 points i mpr egnable Skin : Impervious Toughness 14 • 14 points Massive Build : Enhanced Strength 6, Only for lifting (lifting Str 20; 25,000 tons) • 6 points r ugged Constitution : Immunity 5 (Cold, Heat, Pressure, Radiation, Vacuum) • 5 points",
+    "vantagens": "All-out Attack, Chokehold, Improved Grab, Improved Hold, Languages 2 (English, Arkadyte, Interlac), Power Attack, Redirect, Startle",
+    "pericias": "Athletics 4 (+18), Expertise: Warlord 8 (+12), Intimidation 6 (+14), Perception 4 (+8), Ranged Combat 6 (+10), Technology 6 (+10), Vehicles 5 (+9) ffen S e o i nitia tive +4 Disintegration Bean +10 Ranged, Damage 16 Unarmed +12 Close, Damage 14",
+    "defesas": "d odge 10 f or titude 14 Parry 12 t oughness 14 W ill 12",
+    "pontos_poder": "a bilities 128 S kills 20 Powers 67 d efenses 14 a dv antages 10 ToTal 239",
+    "complicacoes": "Power: Mongul is driven by his power-hunger. e ne MI e S Mongul’s enemies are legion, from Superman and the Justice League to the entire Green Lantern Corps, the Sinestro Corps, and the inhabitants of the planet Daxam (which Mongul at - tempted to conquer)."
+  }
+}

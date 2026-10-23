@@ -1,0 +1,135 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Moon Knight",
+  "nome_pt": "Cavaleiro da Lua",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 150,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 59
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 3,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 12,
+      "Int": 2,
+      "Pro": 0,
+      "Pre": 0
+    },
+    "defesas": {
+      "Esquiva": 12,
+      "Aparar": 12,
+      "Fortitude": 7,
+      "Resistencia": 8,
+      "Vontade": 5
+    },
+    "pericias": {
+      "Acrobacia": 10,
+      "Enganação": 12,
+      "Atletismo": 8,
+      "Persuasão": 10,
+      "Veículos": 8,
+      "Prestidigitação": 8,
+      "Intimidação": 12,
+      "Especialidade: Vida nas Ruas": 8,
+      "Tratamento": 2,
+      "Percepção": 12,
+      "Especialidade: Mercenário": 2,
+      "Especialidade: Motorista de Táxi": 2,
+      "Investigação": 4,
+      "Intuição": 8,
+      "Furtividade": 12,
+      "Combate a Distância: Boomerang": 9,
+      "Combate a Distância: Throwing Irons": 9
+    },
+    "vantagens": [
+      "All-out Attack",
+      "Benefit: Alternate Identities 2, Wealth 2",
+      "Defensive Attack",
+      "Defensive Roll 2",
+      "Equipment 3",
+      "Improved Disarm",
+      "Improved Initiative",
+      "Improved Trip",
+      "Jack of All Trades",
+      "Luck 2",
+      "Power Attack",
+      "Takedown",
+      "Uncanny Dodge",
+      "Languages 2"
+    ],
+    "poderes": [
+      {
+        "nome": "Boost",
+        "construcao_3e": "Enhanced Trait 6 (physical abilities), Fades (Slow Fade 6), Limited (personal), Limited (only while moon is at least gibbous). 12 PP na fonte.",
+        "custo_2e_pp": 12,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Regeneration",
+        "construcao_3e": "Regeneration 7 (Recovery Bonus 6; Immortality/Resurrection 1). 7 PP na fonte.",
+        "custo_2e_pp": 7,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Uniforme (+3 Toughness; 3 EP)",
+      "Braceletes (Improved Defense; 1 EP)",
+      "Grappling Hook (Movement: Swinging; 2 EP)",
+      "Arsenal 9 EP: Boomerang (+2 Damage, Mighty, Ricochet; 6 EP), Kopesh (+3 Damage, Mighty, Improved Critical; 5 EP), Throwing Irons (+1 Damage, Autofire, Mighty; 4 EP), Brass Knuckles (+1 Damage, Mighty; 2 EP)"
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Boomerang",
+        "bonus": 12,
+        "dano": 5
+      },
+      {
+        "nome": "Throwing Irons",
+        "bonus": 12,
+        "dano": 4
+      },
+      {
+        "nome": "Kopesh",
+        "bonus": 12,
+        "dano": 5
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 12,
+        "dano": 4
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 17,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 12,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 52,
+    "defesas": 36,
+    "pericias": 68,
+    "vantagens": 22,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 178,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Dodge Focus 4 foi convertido em Dodge ranks e limitado a 12 com Toughness 8, dentro de NP 10. Defensive Roll 2 não foi somado novamente.",
+    "Sneak Attack e Stunning Attack foram omitidas conforme o guia; Languages (Hebrew, Egyptian; base English) virou Languages 2.",
+    "O custo impresso do Arsenal é 9 EP, mas os itens listados somam 17 EP; discrepância preservada sem correção.",
+    "Elusive Target foi omitida: não possui equivalente direto na 3e.",
+    "Dodge foi ajustada de 16 para 12 para cumprir Dodge + Toughness ≤ 20 (NP 10)."
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Nocturne",
+  "nome_pt": "Nocturna",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 135,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 63
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 1,
+      "Agi": 10,
+      "Des": 10,
+      "Lut": 10,
+      "Int": 1,
+      "Pro": 1,
+      "Pre": 3
+    },
+    "defesas": {
+      "Esquiva": 14,
+      "Aparar": 14,
+      "Fortitude": 5,
+      "Resistencia": 6,
+      "Vontade": 5
+    },
+    "pericias": {
+      "Acrobacia": 10,
+      "Enganação": 8,
+      "Atletismo": 5,
+      "Especialidade: Conhecimento Arcano": 9,
+      "Intuição": 8,
+      "Furtividade": 8,
+      "Combate Corpo-a-Corpo: Desarmado": 2,
+      "Combate a Distância: Hex Bolts": 2
+    },
+    "vantagens": [
+      "Agile Feint",
+      "Defensive Roll 5",
+      "Hide in Plain Sight",
+      "Teamwork 3",
+      "Uncanny Dodge"
+    ],
+    "poderes": [
+      {
+        "nome": "Extra Limbs",
+        "construcao_3e": "Extra Limbs 1.",
+        "custo_2e_pp": 1,
+        "custo_3e_pp": 1
+      },
+      {
+        "nome": "Hellfire Control",
+        "construcao_3e": "Hellfire Control 8 baseado em Damage; Efeito Alternativo: Possession (Close). 17 PP na fonte.",
+        "custo_2e_pp": 17,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Movement",
+        "construcao_3e": "Movement 2 (Wall-Crawling).",
+        "custo_2e_pp": 4,
+        "custo_3e_pp": 4
+      }
+    ],
+    "equipamento": [],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Hex Bolt",
+        "bonus": 12,
+        "dano": 8
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 12,
+        "dano": 1
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 20,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 10,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 74,
+    "defesas": 38,
+    "pericias": 26,
+    "vantagens": 11,
+    "poderes_conhecidos": 5,
+    "subtotal_conhecido": 154,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Attack Specialization (Unarmed) e (Hex Bolts) sem graduação impressa convertidas em 2 ranks de Combat skill cada; o ataque do feitiço +12 com efeito 8 respeita NP 10.",
+    "Dodge Focus 6 foi convertido em Dodge ranks e limitado a 14 com Toughness 6; Acrobatic Bluff virou Agile Feint.",
+    "A fonte usa singular Additional Limb; convertido em Extra Limbs 1.",
+    "Dodge foi ajustada de 20 para 14 para cumprir Dodge + Toughness ≤ 20 (NP 10)."
+  ]
+}

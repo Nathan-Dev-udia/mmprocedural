@@ -1,0 +1,94 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Mercury",
+  "nome_pt": "Mercúrio",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 135,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 55
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 0,
+      "Agi": 4,
+      "Des": 4,
+      "Lut": 7,
+      "Int": 1,
+      "Pro": 0,
+      "Pre": 2
+    },
+    "defesas": {
+      "Esquiva": 15,
+      "Aparar": 15,
+      "Fortitude": 0,
+      "Resistencia": 5,
+      "Vontade": 3
+    },
+    "pericias": {
+      "Acrobacia": 12,
+      "Atletismo": 6,
+      "Tecnologia": 7,
+      "Percepção": 8,
+      "Intuição": 6,
+      "Furtividade": 10
+    },
+    "vantagens": [
+      "Agile Feint",
+      "Close Attack 3",
+      "Attractive",
+      "Defensive Attack",
+      "Equipment",
+      "Evasion",
+      "Improved Initiative 2",
+      "Teamwork",
+      "Uncanny Dodge"
+    ],
+    "poderes": [
+      {
+        "nome": "Liquid Alternate Form",
+        "construcao_3e": "Alternate Form 12 (Liquid): Movement 2 (Slithering), Immunity 30 (efeitos de Fortitude), Insubstantial 1, Suffocate 10, Elongation 1; Permanent. 48 PP na fonte.",
+        "custo_2e_pp": 48,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Uniforme dos Hellions (+4 Toughness; Comm-Link; 5 EP)"
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "dano": 1
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 11,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 3,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 38,
+    "defesas": 33,
+    "pericias": 25,
+    "vantagens": 12,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 108,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "A defesa de Fortitude aparece como travessão na fonte; foi tratada como 0 (não impressa), sem assumir valor adicional. O modificador de Constituição é 0.",
+    "Dodge Focus 12 foi convertido em Dodge ranks; o resultado foi reduzido a 15 para cumprir o limite de NP 10 com Toughness 5.",
+    "Attack Focus (Melee) 3 convertido em Close Attack 3; Acrobatic Bluff virou Agile Feint.",
+    "Dodge foi ajustada de 27 para 15 para cumprir Dodge + Toughness ≤ 20 (NP 10)."
+  ]
+}

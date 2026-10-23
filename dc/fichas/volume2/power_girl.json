@@ -1,0 +1,29 @@
+{
+  "nome": "Power Girl",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 13,
+  "pontos_poder_publicados": 262,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 115
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "17",
+      "STA": "13",
+      "AGL": "3",
+      "DEX": "2",
+      "FGT": "6",
+      "INT": "2",
+      "AWE": "2",
+      "PRE": "2"
+    },
+    "poderes": "f Array (30 points) ligh t: • Flight 15 (64,000 MPH) • 30 points • Speed 15 (64,000 MPH) • 1 point • Movement 1 (Space Travel 1) • 1 point Heat Vision: Ranged Damage 15 (heat) • 30 points i n vulnerability: Protection 4; Impervious Toughness 17; Immunity 5 (Cold, Heat, Pressure, Radiation, Vacuum) • 26 points Super-Senses: Senses 15 (Acute and Extended Hearing, Extended Vision 3, Infravision, Microscopic Vision 4, Ultra- Hearing, Vision Penetrates Concealment (except lead)) • 15 points Super-Speed: Quickness 8 • 8 points Super-Strength: Enhanced Strength 4, Limited to Lifting (Lifting Str 21; 50,000 tons) • 4 points",
+    "vantagens": "Attractive, Close Attack 3, Connected, Fascinate 2 (Deception and Persuasion), Interpose, Power Attack,",
+    "pericias": "Athletics 2 (+19), Deception 4 (+6), Expertise: Business 6 (+8), Insight 6 (+8), Intimidation 6 (+8), Perception 6 (+8), Persuasion 4 (+6), Ranged Combat: Heat Vision 7 (+9), Technology 7 (+9) through solid objects) and powerful heat vision able to heat up, ignite, or melt objects. She is similarly vulnerable to the same things as other Kryptonians, including different variet - ies of kryptonite, magic, and the loss of the solar energy that provides her powers. Power Girl’s powers have developed during her time on Earth, going from being able to leap great distances to truly able to fly, for example. In her secret identity as Karen Starr, Power Girl is both a ca- pable businesswoman and a skilled computer programmer and technician, something many—seeing only her aggres- sive public persona—do not know about her.",
+    "ataques": "i nitia tive +3 Heat Vision +9 Ranged, Damage 15 Unarmed +9 Close, Damage 17",
+    "defesas": "d odge 9 f or titude 16 Parry 9 t oughness 17 W ill 10",
+    "pontos_poder": "a bilities 94 S kills 24 Powers 115 d efenses 20 a dv antages 9 ToTal 262",
+    "complicacoes": "d emeaning Perception: Power Girl is not afraid to flaunt her f emale attributes, which sometimes causes unwanted distraction and allows others to make ill-informed judgments of her character. Power Loss: Power Girl loses her powers and her Str and Sta are reduced to 1 and 2 respectively under a red sun, like that of Krypton, and other effects that drain or interfere with the energies of the yellow sun can deprive her of her powers. Secret i den tity: Karen Starr Stranger in a Strange Land: Power Girl is the last survivor of her home planet and of her universe. She truly has no one else from either home, only counterparts of those with whom she was once connected. er: Power Girl is notorious for her temper. t emp Vulnerability: Power Girl is vulnerable to magic. Her Toughness is not Impervious against magical attacks. Weakness: Kryptonite (see sidebar). As the survivor of an alternate Earth’s Krypton, standard (New Earth) kryptonite doesn’t affect Power Girl, only the remnants of her original universe’s kryptonite."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "nome": "Fatality",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 13,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 195
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "7",
+      "STA": "4",
+      "AGL": "5",
+      "DEX": "4",
+      "FGT": "10",
+      "INT": "0",
+      "AWE": "2",
+      "PRE": "2"
+    },
+    "poderes": "Power r ing (as Star Sapphire’s, but with Force Field (Impervious Protection 8; Immunity 10 (Life Support)) and a 28-point Array with each effect reduced by 1 rank; see Star Sapphire )",
+    "vantagens": "All-out Attack, Attractive, Evasion, Improved Initiative, Improvised Weapon, Power Attack, Quick Draw, Tracking",
+    "pericias": "Acrobatics 6 (+11), Athletics 6 (+13), Close Combat: Unarmed 4 (+14), Deception 4 (+6), Insight 4 (+6), Intimidation 4 (+6), Perception 6 (+8), Ranged Combat: Power Ring 8 (+12), Stealth 6 (+11), Vehicles 4 (+8)",
+    "ataques": "Initiative +9, Power Ring +12 (Ranged, Damage 14), Unarmed +14 (Close, Damage 7)",
+    "defesas": "Dodge 14, Parry 14, Fortitude 13, Toughness 12, Will 13 t otal:s Abilities 68 + Powers 92 + Advantages 8 + Skills 26 + Defenses 33 = Total 227"
+  }
+}

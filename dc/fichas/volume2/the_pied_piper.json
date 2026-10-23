@@ -1,0 +1,29 @@
+{
+  "nome": "The Pied Piper",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 164,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 108
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "2",
+      "AGL": "2",
+      "DEX": "3",
+      "FGT": "2",
+      "INT": "3",
+      "AWE": "3",
+      "PRE": "3"
+    },
+    "poderes": "Super-Sonic f lut e: Array (30 points) • Hypnotic Music: Perception Area (Auditory) Affliction 10 (Resisted by Will; Dazed, Compelled, Controlled), Concentration • 30 points • Sonic Blast: Perception Range Damage 10 • 1 point • Sound Waves: Cone Area Move Object 10 • 1 point • Vibratory a ur a: Ranged Affliction 10 (Resisted by Will; Dazed, Hindered & Impaired, Defenseless, Immobile & Stunned), Extra Condition 2, Limited Degree • 1 point • Ventriloquism: Communication 3 (Auditory), Subtle • 1 point • r a t-Catching: Summon 3, Controlled, Horde, Multiple Minions 3 (Eight PL3 rats) • 1 point",
+    "vantagens": "Benefit 2 (Independently Wealthy), Defensive Roll 3, Fascinate (Expertise: Wind Instruments), Improvised Tools, Inventor, Quick Draw, Skill Mastery 2 (Expertise: Sonology, Expertise: Wind Instruments), Well-informed",
+    "pericias": "Close Combat: Unarmed 3 (+5), Deception 4 (+7), Expertise: Music Composition 8 (+11), Expertise: Science 5 (+8), Expertise: Sonology 10 (+13), Expertise: Streetwise 4 (+7), Expertise: Wind Instruments 8 (+11), Insight 5 (+8), Perception 5 (+8), Persuasion 5 (+8), Ranged Combat: Sonic Weapons 7 (+10), Sleight of Hand 5 (+8), Stealth 6 (+8), Technology 5 (+8)",
+    "ataques": "i nitia tive +2 Sonic Blast +10 Perception, Damage 10 Unarmed +5 Close, Damage 2",
+    "defesas": "d odge 13 f or titude 8 Parry 13 t oughness 5/2* W ill 12 *Without Defensive Roll.",
+    "pontos_poder": "a bilities 40 S kills 40 Powers 35 d efenses 37 a dv antages 12 ToTal 164",
+    "complicacoes": "Justice: Formerly motivated by the search for thrills, Hartley is now, foremost, an advocate for the poor. Prejudice: Hartley is openly gay and a former super-villain, and both earn him lingering disapproval. c hang I ng hIS t une Hartley only recently added r a t-Catching to his reper - toire, and as a Rogue employed some alternate instru- ments (all Easily Removable): • The Ultra-Pipe summoned extradimensional, entangling “Speed Demons”: Ranged Affliction 10 (Resisted by Will; Dazed, Hindered & Impaired, Defenseless, Immobile & Stunned), Extra Condi- tions, Limited Degree. • The Psychic-Pipe induced amnesia and rendered the Flash mentally incapable of using super-speed (Ranged Transform 10). • The Sonic Boomatron disintegrated people into sound waves (Ranged Transform 10)."
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Taskmaster",
+  "nome_pt": "Taskmaster",
+  "nivel_poder": 12,
+  "pontos_poder_origem": 180,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 102
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 5,
+      "Vig": 5,
+      "Agi": 5,
+      "Des": 5,
+      "Lut": 12,
+      "Int": 2,
+      "Pro": 1,
+      "Pre": 2
+    },
+    "defesas": {
+      "Esquiva": 16,
+      "Aparar": 14,
+      "Fortitude": 10,
+      "Resistencia": 8,
+      "Vontade": 9
+    },
+    "pericias": {
+      "Enganação": 4,
+      "Atletismo": 8,
+      "Veículos": 4,
+      "Intimidação": 8,
+      "Percepção": 8,
+      "Intuição": 16,
+      "Furtividade": 8
+    },
+    "vantagens": [
+      "Accurate Attack",
+      "All-Out Attack",
+      "Ambidexterity",
+      "Assessment",
+      "Beginner’s Luck",
+      "Chokehold",
+      "Defensive Attack",
+      "Eidetic Memory",
+      "Equipment 7",
+      "Evasion",
+      "Jack of All Trades",
+      "Improved Aim",
+      "Improved Defense",
+      "Improved Disarm",
+      "Improved Grab",
+      "Improved Grapple",
+      "Improved Initiative",
+      "Improved Pin",
+      "Improved Sunder",
+      "Improved Trip",
+      "Instant Up",
+      "Power Attack",
+      "Precise Shot",
+      "Prone Fighting",
+      "Quick Draw",
+      "Redirect",
+      "Set-Up",
+      "Seize Initiative",
+      "Takedown",
+      "Throwing Mastery",
+      "Uncanny Dodge",
+      "Ultimate Effort (Ultimate Aim)"
+    ],
+    "poderes": [
+      {
+        "nome": "Nemesis",
+        "construcao_3e": "Variable (efeitos apropriados ao adversário) (rank 2e 2); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Nemesis 2 (Flaw: Limited - Only Able to Buy Skills and Feats [-1]; 14pp); custo 2e impresso 14 PP.",
+        "custo_2e_pp": 14,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Van [Str 35; Speed 5; Defense 8; Toughness 9; 8ep]",
+      "Medium Metal Shield [+2 Dodge Bonus to Defense, +2 on Block checks vs. “Slow” projectiles; 4ep]",
+      "Undercover Vest [+3 Toughness; Subtle; 4ep]",
+      "Webshooters [Super Movement (Swinging); 2ep]",
+      "Sword [+3 Damage; Mighty; 19-20 crit; 5ep] Arsenal [Twin 9mm [+3 Damage; Autofire], Bow [+3 Damage; Mighty], Billy Clubs [+2 Damage; Mighty; Throw], Knife [+1 Damage; 19-20; Thrown]; 12ep]"
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 12,
+        "dano": 5
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 17,
+      "esquiva_mais_resistencia": 24,
+      "aparar_mais_resistencia": 22,
+      "fortitude_mais_vontade": 19,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 74,
+    "defesas": 57,
+    "pericias": 56,
+    "vantagens": 38,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 225,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
+    "Perícias foram convertidas subtraindo do bônus total impresso o atributo 3e correspondente. Conhecimentos, Ofícios e Profissões foram mantidos como Especialidades; Condução/Pilotagem como Veículos; Sobrevivência como Especialidade: Sobrevivência; Computadores como Tecnologia.",
+    "Poderes preservam os descritores, ranks, modificadores e custos 2e impressos; o guia orienta o efeito 3e equivalente. Custos 3e ficam nulos quando a construção exata ou os modificadores não permitem cálculo seguro.",
+    "Nenhuma Motivação ou complicação não publicada foi acrescentada.",
+    "Vantagens sem equivalente direto foram removidas conforme o guia; não foram recriadas como poderes: Elusive Target; Ranged Pin; Sneak Attack; Stunning Attack.",
+    "Dodge Focus 4 foi convertido em ranks de Esquiva: base 14 + 4 = 18; valor final 16.",
+    "Defesas reduzidas por limite de NP 12: Esquiva 18→16 e Aparar 14→14; cada defesa ativa + Resistência 8 ≤ 24.",
+    "Subtotal 3e conhecido: 74 PP em habilidades, 56 em perícias, 57 em defesas, 38 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "nome": "Plasmus",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 173,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 94
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "10",
+      "STA": "7",
+      "AGL": "3",
+      "DEX": "3",
+      "FGT": "3",
+      "INT": "1",
+      "AWE": "2",
+      "PRE": "2"
+    },
+    "poderes": "Burning Glob ( Ranged Damage 6, Activation (Move Action -1 point), Incurable, Penetrating 6, Secondary Effect); Cellular Control ( Array (4 points), Plasmic State (Insubstantial 2, Concentration, Side-Effect (Always, –6 Stamina)), AE: Density ( Protection 8, Impervious, Concentration, Side-Effect (Always, –3 Agility and Parry)); Degrading Touch ( Weaken Toughness 9, Affects Objects, Incurable, Permanent, Quirk (Detectable: Radiation Emitting, -1 point), Reaction); Inhuman ( Immunity 8 (Critical Hits, Disease, Heat, Poison, Radiation, Suffocation)); Plasmic Reassembly ( Immortality 2, Limited: Cannot recover if pieces kept separate)",
+    "vantagens": "Diehard, Close Attack 5, Improved Grab, Languages (English, German is native), Power Attack",
+    "pericias": "Expertise: Miner 5 (+6), Intimidation 6 (+8), Ranged Combat: Burning Glob 5 (+8)",
+    "ataques": "Initiative +3, Unarmed +8 (Close, Damage 10 and Reaction Weaken 9), Burning Glob +8 (Ranged, Damage 6, Penetrating 6)",
+    "defesas": "Dodge 3/6*, Parry 3/6*, Fortitude 12, Toughness 15/7*, Will 6 *Without Density.",
+    "pontos_poder": "Abilities 62 + Powers 79 + Advantages 9 + Skills 8 + Defenses 15 = 173",
+    "complicacoes": "Protoplasm Form: Plasmus’ body is comprised of unstable protoplasm, causing it to uncontrollably fluctuate between a state of increased density and semi-intangibility unless Plasmus concentrates on retaining one state or the other."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "nome": "Eradicator",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 14,
+  "pontos_poder_publicados": 285,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 195
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "19",
+      "STA": "14",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "8",
+      "INT": "5",
+      "AWE": "3",
+      "PRE": "2"
+    },
+    "poderes": "Energy Blast: Ranged Damage 16, Variable Descriptor (any energy) • 34 points Flight: Array (30 points) • Flight: Flight 15 (64,000 MPH) • 30 points • Space Flight: Movement 1 (Space Travel) • 1 point • Speed: Speed 15 (64,000 MPH) • 1 point Invulnerability: Protection 4; Impervious Toughness 18; Immunity 5 (Cold, Heat, Pressure, Radiation, Vacuum) • 27 points Super-Senses: Senses 15 (Acute and Extended Hearing, Detect 2 (extradimensional beings, mental), Detect 2 (extradimensional gateways, mental), Extended Vision 3, Infravision, Microscopic Vision 4, Ultra-Hearing, Vision Penetrates Concealment (except lead)) • 19 points Super-Speed: Quickness 12, Limited to mental tasks 4 • 10 points Super-Strength: Enhanced Strength 4, Limited to Lifting (Lifting Str 23: 200,000 tons) • 4 points",
+    "vantagens": "Diehard, Eidetic Memory, Extraordinary Effort, Languages (Kryptonian, English native), Power Attack, Seize Initiative, Ultimate Effort (Toughness)",
+    "pericias": "Close Combat : Unarmed 1 (+9), Expertise: Krypton 12 (+17), Expertise: Scientist 7 (+12), Ranged Combat: Energy Blasts 8 (+10), Perception 8 (+11), Technology 8 (+13) gram fused the ashes of the Fortress into a colossal Krypto - nian warsuit, Connor allowed himself to be absorbed into the structure and merged with the original program. Suffering from a multiple personality disorder, the Eradicator program struggled with Connor’s humanity for control of the warsuit. Connor finally gained the upper hand and blasted off into space, vowing never to return to Earth again. During its travels through the void, Connor’s consciousness was subsumed into the primary program. Now insane, the Eradicator returned to Earth, bent on convincing Earth’s pop - ulace to repent their sins. Superman realized that the only way to help Connor was to somehow separate his personality from the Eradicator pro - gram. Unable to find a way to achieve his goals, Superman immobilized the Eradicator in an absolute zero staging area in John Henry Irons’ Steelworks. Freed from this prison by super-villains , the Eradicator was “jokerized” and went on a lunatic rampage until faced by Su - perman and Krypto. The shock of discovering Krypto’s extrad - imensional origin was enough to re-establish the Eradicator’s original cultural preservation programming. To prevent Eradi - cator from killing Krypto, Superman placed the Eradicator in suspended animation. Eradicator has since reached balance with itself, and adopt - ed a new humanoid form, one that wears robes resembling those of the Science Guild on Krypton, and aims to assist hu - manity.",
+    "ataques": "Initiative +2 Energy Blast +10 Ranged, Damage 16 Unarmed +9 Close, Damage 19",
+    "defesas": "Dodge 10 Fortitude 15 Parry 10 Toughness 18 Will 12",
+    "pontos_poder": "Abilities 110 Skills 22 Powers 126 Defenses 20 Advantages 7 ToTal 285",
+    "complicacoes": "Obsessed: Eradicator is obsessed with preserving the culture and knowledge of the planet Krypton, no matter how little of it remains. Power Loss: Eradicator loses his powers under a red sun. Other effects draining or interfering with the energies of the yellow sun can deprive him of his Energy Blast, Flight, Super-Senses, Super-Speed, and Super-Strength. Vulnerability: Eradicator is as vulnerable to magic as anyone else. His Toughness is not Impervious against magical attacks. Weakness: Eradicator has a weakness to kryptonite, the radioactive remains of the planet Krypton. Kryptonite comes in a number of forms. Green kryptonite is by far the most common. Its radiation saps his Strength, Flight, Super-Senses, Super-Speed, and Super-Strength, leaving him impaired, disabled, and eventually debilitated in terms of Strength and power effects. Long-term exposure (usually a matter of minutes, less for a large enough amount) imposes the dying condition and may lead to death. PERSONALITY The Eradicator is a cold and dispassionate being, most often ruled by logic and his directive of preserving Kryptonian cul - ture and heritage. At times, David Connor’s personality has become dominant, giving the Eradicator a more human-like and emotional countenance. POWERS & ABILITIES The Eradicator possesses all the powers and abilities of a Kryptonian exposed to yellow sun radiation. In addition, he is able to manipulate energy to produce various types of blasts, possesses a vast computer intellect, and is able to detect in - terdimensional beings and gateways. ALLIES The Eradicator has been allied with the Outsiders on occa - sion, and is considered part of Superman’s extended family. ENEMIES The Eradicator has at times directly opposed Superman."
+  }
+}

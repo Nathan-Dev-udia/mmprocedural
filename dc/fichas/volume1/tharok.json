@@ -1,0 +1,29 @@
+{
+  "nome": "Tharok",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": 199,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 198
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "8/2",
+      "STA": "10",
+      "AGL": "2",
+      "DEX": "3",
+      "FGT": "5",
+      "INT": "13",
+      "AWE": "8",
+      "PRE": "2"
+    },
+    "poderes": "Cybernetic Half (Enhanced Strength 6, Limited to Left Side; Enhanced Stamina 8; Impervious Toughness 8); Cybernetic Mind (Comprehend 2: Languages, Machines; Enhanced Intellect 11; Enhanced Awareness 6; Immunity 10: Mental Effects), Weapons (Array, 22 points, Blaster (Ranged Damage 8, Penetrating 4, Accurate 2), AE: Stunner (Ranged Affliction 6: Resisted by Fortitude, Impaired, Stunned, Incapacitated, Cumulative, Accurate 2))",
+    "vantagens": "Connected, Eidetic Memory, Fascinate 2 (Deception, Persuasion), Improvised Tools, Inventor, Jack-of- all-trades, Leadership, Ranged Attack 3, Seize Initiative, Well- informed",
+    "pericias": "Deception 5 (+7), Expertise: Criminal 6 (+19), Expertise: Science 4 (+17), Expertise: Streetwise 4 (+17), Insight 3 (+11), Intimidation 8 (+10), Perception 2 (+10), Persuasion 8 (+10), Stealth 4 (+6), Technology 4 (+17), Vehicles 6 (+9)",
+    "ataques": "Initiative +2, Blaster +10 (Ranged Damage 8), Unarmed +5 (Damage 8)",
+    "defesas": "Dodge 10, Parry 9, Fortitude 10, Toughness 10, Will 14",
+    "pontos_poder": "Abilities 40 + Powers 101 + Advantages 13 + Skills 27 + Defenses 18 = 199",
+    "complicacoes": "Half-Man (Tharok is half cybernetic, so effects that work on machines can affect him as well)"
+  }
+}

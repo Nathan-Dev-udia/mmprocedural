@@ -1,0 +1,29 @@
+{
+  "nome": "The Mist (Nash)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 211,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 57
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "2",
+      "AGL": "3",
+      "DEX": "3",
+      "FGT": "5",
+      "INT": "2",
+      "AWE": "1",
+      "PRE": "2"
+    },
+    "poderes": "Living Mist: Insubstantial 4, Continuous, Reaction, Precise, Limited—Not through airtight or solid objects; Flight 4 (30 MPH), Continuous, Subtle 2; Cloud Area Weaken Abilities 6 (Resisted by Fortitude), Progressive, Broad (Strength, Stamina, Agility, and Dexterity), Simultaneous • 81 points",
+    "equipamento": "Submachine Gun: Ranged Multiattack Damage 4 • 12 points k nife: Strength-based Damage 1, Improved Critical • 1 point Leather Jacket: Protection 1 • 1 point",
+    "vantagens": "Benefit 3 (Millionaire), Defensive Attack, Defensive Roll 4, Equipment 9, Evasion, Extraordinary Effort, Improved Aim, Instant Up, Power Attack, Seize Initiative",
+    "pericias": "Acrobatics 9 (+11), Athletics 8 (+10), Close Combat: Knives 12 (+13), Close Combat: Unarmed 12 (+13), Deception 9 (+11), Expertise: Tactics 8 (+10), Intimidation 8 (+10), Perception 5 (+6), Ranged Combat: Guns 10 (+13), Stealth 9 (+11)",
+    "ataques": "i nitia tive +2 Knife +13 Close, Damage 2, Crit. 19-20 Living Mist — Close, Cloud Area Weaken Abilities 6, Resisted by Fortitude Submachine Gun +13 Ranged, Multiattack Damage 4 Unarmed +13 Close, Damage 1",
+    "defesas": "d odge 12 f or titude 8 Parry 10 t oughness 7/2* W ill 9 *Without Defensive Roll.",
+    "pontos_poder": "a bilities 38 S kills 41 Powers 81 d efenses 28 a dv antages 23 ToTal 211"
+  }
+}

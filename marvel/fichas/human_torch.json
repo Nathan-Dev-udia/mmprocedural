@@ -1,0 +1,122 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Human Torch",
+  "nome_pt": "Human Torch",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 150,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 39
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 6,
+      "Int": 1,
+      "Pro": 0,
+      "Pre": 3
+    },
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 10,
+      "Fortitude": 3,
+      "Resistencia": 10,
+      "Vontade": 3
+    },
+    "pericias": {
+      "Enganação": 8,
+      "Veículos": 8,
+      "Especialidade: Cultura Pop": 4,
+      "Percepção": 4,
+      "Intuição": 4,
+      "Combate à Distância: Ataques gerais": 3
+    },
+    "vantagens": [
+      "Accurate Attack",
+      "Attractive",
+      "Equipment 1",
+      "Favored Environment (Airborne) 4",
+      "Improved Initiative 2",
+      "Move-by Action",
+      "Precise Attack (Ranged, Cover)",
+      "Taunt",
+      "Teamwork 2"
+    ],
+    "poderes": [
+      {
+        "nome": "Blast",
+        "construcao_3e": "Damage 12.",
+        "custo_2e_pp": 24,
+        "custo_3e_pp": 12
+      },
+      {
+        "nome": "Flight",
+        "construcao_3e": "Flight 6.",
+        "custo_2e_pp": 12,
+        "custo_3e_pp": 12
+      },
+      {
+        "nome": "Protection",
+        "construcao_3e": "Protection 8.",
+        "custo_2e_pp": 8,
+        "custo_3e_pp": 8
+      },
+      {
+        "nome": "Strike",
+        "construcao_3e": "Damage 10 (Selective, Shapeable Aura).",
+        "custo_2e_pp": 21,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Uniforme (Second Chance: testes de resistência contra eletricidade; GPS Receiver; PDA; 3 EP)"
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 6,
+        "dano": 2
+      },
+      {
+        "nome": "Fire Punch",
+        "bonus": 8,
+        "dano": 10
+      },
+      {
+        "nome": "Nova Blast",
+        "bonus": 8,
+        "dano": 12
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 20,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 6,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 40,
+    "defesas": 15,
+    "pericias": 15.5,
+    "vantagens": null,
+    "poderes_conhecidos": 32,
+    "subtotal_conhecido": 102.5,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "A fonte imprime Defesa 18 (20 voando) e Ataque +6 (+8 voando); a condição de voo foi preservada como Esquiva 20 antes do limite. Ataques +8 em voo com Fire Punch/Nova Blast permanecem dentro de NP 10 (máximo 20).",
+    "Defesas ajustadas para Esquiva 10 e Aparar 10, respeitando os limites de NP 10 com Resistência 10.",
+    "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias e apenas os custos de poderes confirmados; não inclui vantagens nem custos incertos."
+  ]
+}

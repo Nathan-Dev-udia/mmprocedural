@@ -1,0 +1,29 @@
+{
+  "nome": "Batwoman",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 207,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 49
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "3",
+      "AGL": "6",
+      "DEX": "5",
+      "FGT": "11",
+      "INT": "3",
+      "AWE": "4",
+      "PRE": "3"
+    },
+    "equipamento": "Body Armor: Protection 1 • 1 point Flashlight: Feature 1 (Illumination) • 1 point Gauntlets: Strength-based Damage 1; Enhanced Skill 4 (Athletics +4, Limited to Climbing checks) • 2 points Grapple: Movement 1 (Swinging) • 2 points Mini-Tracers: Feature 1 (Tracking) • 1 point Night-Vision Lens: Senses 1 (Low-Light Vision) • 1 point Utility Belt: Array (12 points) • Tear Gas Pellets: Ranged Cloud Area Affliction 3 (Resisted by Fortitude; Dazed and Vision Impaired, Stunned and Vision Disabled, Incapacitated) • 12 points • Batarangs: Ranged Damage 2, Strength-based • 1 point • Explosives: Ranged Burst Area Damage 4 • 1 point • Flash-Bangs: Cloud Area Dazzle 4 (Visual) • 1 point • Sleep Gas Pellets: Ranged Cloud Area Affliction 4 (Resisted by Fortitude; Fatigued, Exhausted, Asleep) • 1 point • Smoke Bombs: Cloud Area Visual Concealment Attack 4 • 1 point BUNKER: BUNKER UNDER HOME • 15 POINTS Size: Medium Tou 10 Features: Communications, Computer, Concealed,",
+    "defesas": "Dodge 13 Fortitude 8 Parry 13 Toughness 7/4* Will 12 *Without Defensive Roll.",
+    "vantagens": "Assessment, Accurate Attack, Attractive, Benefit 4 (Multi- millionaire) , Close Attack 4, Connected, Defensive Attack, Defensive Roll 3, Equipment 10, Evasion, Grabbing Finesse, Hide in Plain Sight, Improvised Tools, Instant Up, Languages 3, Move-by Action, Precise Attack (Close; Concealment), Quick Draw, Ranged Attack 3, Redirect, Seize Initiative, Takedown, Tracking, Uncanny Dodge, Well-informed",
+    "pericias": "Acrobatics 9 (+15), Athletics 10 (+13), Close Combat: Unarmed 1 (+12), Deception 8 (+11), Expertise: Military 10 (+13), Expertise: Streetwise 5 (+8), Insight 8 (+12), Intimidation 6 (+9), Investigation 9 (+12), Perception 10 (+14), Persuasion 8 (+11), Ranged Combat: Throwing 6 (+11), Sleight of Hand 5 (+10), Stealth 10 (+16), Technology 6 (+9), Treatment 6 (+9), Vehicles 9 (+14)",
+    "ataques": "Initiative +6 Batarangs +14 Ranged, Damage 5 Unarmed +16 Close, Damage 4 (3 without Gauntlets)",
+    "pontos_poder": "Abilities 76 Skills 63 Powers 0 Defenses 22 Advantages 46 ToTal 207",
+    "complicacoes": "Enemy: Alice Liddel; the Religion of Crime. Flashbacks: Batwoman sometimes has traumatic flashbacks to tragic events of her past, such as the kidnapping and murder of her mother and sister. Relationships: Her father Jacob, her cousin Bette “Flamebird” Kane, her stepmother Catherine, and her former lover and friend Renee Montoya, aka the Question (see Vol. II ). Secret Identity: Kate Kane, wealthy heiress and socialite."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "nome": "Toyman",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 166,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 240
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "-1",
+      "STA": "0",
+      "AGL": "1",
+      "DEX": "5",
+      "FGT": "0",
+      "INT": "6",
+      "AWE": "3",
+      "PRE": "1"
+    },
+    "poderes": "Bubblegum Gun: Ranged Affliction 8 (Resisted by Dodge, Overcome by Strength; Hindered, Immobile), Accurate, Progressive, Limited Degree, Easily Removable (-8 points) • 16 points Pogo Stick: Leaping 3; Enhanced Dodge 3; Easily Removable (-2 points) • 4 points t o ymaker: Variable 10 (deadly toys, 50 points), Limited to Summon and Easily Removable effects, Unreliable (5 uses before returning to his workshop) • 50 points",
+    "equipamento": "H q : s e C ret w orks H op • 10 POI n TS Size: Medium t ou: 10 f ea tures: Computer, Concealed 2, Deathtraps, Garage, Living Space, Workshop",
+    "vantagens": "Defensive Roll 3, Equipment 2, Evasion, Improvised Tools, Inventor, Redirect, Set-Up 3, Skill Mastery (Expertise: Engineering), Skill Mastery (Technology)",
+    "pericias": "Deception 5 (+6), Expertise: Science 11 (+17), Expertise: Engineering 11 (+17), Insight 4 (+7), Intimidation 8 (+9), Investigation 5 (+13), Perception 4 (+7), Sleight of Hand 7 (+13), Stealth 5 (+6), Technology 11 (+17), Vehicles 5 (+10)",
+    "ataques": "i nitia tive +1 Bubblegum Gun +9 Ranged, Affliction 8 Unarmed +0 Close, Damage -1",
+    "defesas": "d odge 9/6** f or titude 4 Parry 2 t oughness 3/0* W ill 9 *Without Defensive Roll. ** Without Pogo Stick",
+    "pontos_poder": "a bilities 30 S kills 38 Powers 70 d efenses 14 a dv antages 14 ToTal 166"
+  }
+}

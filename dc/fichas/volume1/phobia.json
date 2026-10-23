@@ -1,0 +1,29 @@
+{
+  "nome": "Phobia",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": 146,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 94
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "2",
+      "AGL": "3",
+      "DEX": "3",
+      "FGT": "2",
+      "INT": "3",
+      "AWE": "3",
+      "PRE": "2"
+    },
+    "poderes": "Detect Fear (Mind Reading 8, Subtle 2, Limited to Fear); Project Fear (Perception Affliction 12 (Resisted by Will; Impaired, Compelled, Controlled (Flee)), Concentration, AE: Paralyzing Fear (Affliction 12 (Resisted by Will; Impaired, Stunned, Incapacitated), Concentration))",
+    "vantagens": "Attractive, Benefit 1 (Aristocrat), Benefit 2 (Independently Wealthy), Defensive Roll 3, Skill Mastery (Intimidate), Ultimate Effort (Intimidate)",
+    "pericias": "Close Combat: Unarmed 3 (+5), Deception 3 (+5), Expertise: Aristocracy 4 (+7), Expertise: Art 4 (+7), Expertise: Current Events 4 (+7), Intimidation 8 (+10), Persuasion 4 (+6)",
+    "ataques": "Initiative +3, Unarmed +5 (Close, Damage 1), Project Fear—(Perception, Affliction 12)",
+    "defesas": "Dodge 10, Parry 10, Fortitude 5, Toughness 5/2*, Will 10 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 38 + Powers 59 + Advantages 9 + Skills 15 + Defenses 25 = 146",
+    "complicacoes": "Aristocrat: As a member of British aristocracy, Angela is very much a blue-blooded snob, often to the point of being boorish and making it difficult for even her teammates to tolerate her, much less like her. Fear: Phobia harbors a deep-seated fear of ending up alone. Loss of Control: Phobia’s powers have been known to escape her control when her mind is not focused upon them, causing others to relive their greatest fears if Phobia so much as accidentally bumps into them. This is a rare occasion, however. Misandry: Although she doesn’t let it rule her behavior, Phobia has been known to harbor and express anti- male notions born out of her childhood relationship with her father. Sadistic Thrill Seeker: Phobia became a criminal for the adrenaline rush that comes with risk and from terrifying others, as she has no need of the money."
+  }
+}

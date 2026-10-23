@@ -1,0 +1,29 @@
+{
+  "nome": "Kid Flash",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 207,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 307
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "3",
+      "AGL": "4",
+      "DEX": "3",
+      "FGT": "3",
+      "INT": "2",
+      "AWE": "3",
+      "PRE": "2"
+    },
+    "poderes": "Frictionless Aura: Immunity 1 (Friction Effects) • 1 point Run On Water: Movement 1 (Water Walking), Limited to While Moving • 1 point Run Up Walls: Movement 2 (Wall-crawling 2), Limited to While Moving • 2 points Super-Speed: Enhanced Defense 23 (Dodge 11, Parry 12), Enhanced Advantage 25 (Agile Feint, Beginner’s Luck, Close Attack 4, Defensive Roll 2, Evasion 2, Improved Initiative 10, Interpose, Instant Up, Move-by Action, Seize Initiative, Takedown), Quickness 20, Speed 20 (2,000,000 MPH) • 88 points Speed Stunts: Array (21 points) • Air Control: Cone Area Move Object 7 • 21 points • Air Cushion: Movement 1 (Safe Fall), Burst Area, Affects Others • 1 point • Speed Strike : Strength-based Damage 5, Multiattack 6 • 1 point • Vacuum: Burst Area Affliction 7 (Resisted by Fortitude; Dazed, Stunned, Incapacitated), Concentration • 1 point • Vibrate Through Walls: Insubstantial 4 • 1 point",
+    "vantagens": "Agile Feint, Beginner’s Luck , Close Attack 4 , Defensive Roll 2 , Eidetic Memory, Evasion 2 , Improved Initiative 10 , Interpose, Instant Up, Move-by Action , Seize Initiative , Takedown , Uncanny Dodge attacked by the evil speedster Zoom and the Flash’s Rogues. The attacks culminated in a particularly savage assault by the Rogues that left Bart Allen dead. Bart’s death released the pow - er of the Speed Force, allowing the return of Wally West. West returned to the role of the Flash and the Justice League, where he encountered the Legion of Super-Heroes on a mission from their future to the present whose mission was to save Bart Allen. Revived in the future by the Legion, Allen was reborn young - er, now once again Kid Flash. He also discovered the true rea - son the Legion rescued him: to help defeat Superboy-Prime once and for all. After the battle, Kid Flash returned to his home, his friends, and family in the present.",
+    "pericias": "Acrobatics 8 (+12), Athletics 7 (+8), Close Combat: Unarmed 6 (+9), Insight 4 (+7), Perception 8 (+11)",
+    "ataques": "Initiative +44 Unarmed +13 Close, Damage 6, Multiattack",
+    "defesas": "Dodge 15 Fortitude 9 Parry 15 Toughness 5/3* Will 5 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 42 Skills 17 Powers 116 Defenses 30 Advantages 2 ToTal 207",
+    "complicacoes": "Flash Family: Kid Flash is part of an extended family of super- speedsters, a legacy that brings both allies and enemies. Out of Time: Bart Allen was born in the 30th century and raised inside a virtual reality environment. Although he has had time to acclimate to living in the reality of the present day, the speedster still sometimes misses a step. incredible speeds. In combat, he can use his speed to rain a flurry of blows on his foes, or suck the air away from an area to knock them out. He can also create air vortexes by mov - ing at super speed that can move heavy objects or catch falling allies. ALLIES Kid Flash has met and been trained by every speedster hero of the present day, from Max Mercury and Jesse Quick to all the heroes who have worn the Flash costume. His adventures have also taken him through time, back to his birthplace in the 30th century, where he ran alongside his cousin XS and the Legion of Super-Heroes. His best friends are Robin, Super - boy, Wonder Girl, and the other Teen Titans. ENEMIES Kid Flash shares the enemies of his allies, from the foes of the Teen Titans like Brother Blood and Trigon the Terrible to Deathstroke. Superboy-Prime has a particular dislike for Kid Flash. Kid Flash has also chased the super-speed enemies of the Flash family, from Zoom and the Black Flash to Inertia and Savitar, and battled the Rogues—who once very nearly suc - ceeded in killing him."
+  }
+}

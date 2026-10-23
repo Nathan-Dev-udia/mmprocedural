@@ -1,0 +1,97 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Blob",
+  "nome_pt": "Blob",
+  "nivel_poder": 9,
+  "pontos_poder_origem": 135,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 12
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 11,
+      "Vig": 2,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 4,
+      "Int": -1,
+      "Pro": -1,
+      "Pre": -2
+    },
+    "defesas": {
+      "Esquiva": 6,
+      "Aparar": 4,
+      "Fortitude": 10,
+      "Resistencia": 12,
+      "Vontade": 0
+    },
+    "pericias": {
+      "Enganacao": 14,
+      "Intimidacao": 14,
+      "Percepcao": 8,
+      "Intuicao": 8
+    },
+    "vantagens": [
+      "All-out Attack",
+      "Chokehold",
+      "Daze (Intimidation)",
+      "Improved Defense",
+      "Improved Grab",
+      "Improved Initiative",
+      "Improved Hold",
+      "Power Attack",
+      "Taunt",
+      "Teamwork",
+      "Ultimate Effort (Ultimate Toughness)"
+    ],
+    "poderes": [
+      {
+        "nome": "Density",
+        "construcao_3e": "Growth 9 (Limited to mass/strength benefits; Protection 4 Impervious; Immovability), mantendo os efeitos listados na fonte.",
+        "custo_2e_pp": 24
+      },
+      {
+        "nome": "Immovable",
+        "construcao_3e": "Enhanced Trait: bonus para resistir a efeitos de movimento/trip, limitado conforme o guia.",
+        "custo_2e_pp": 7
+      },
+      {
+        "nome": "Protection",
+        "construcao_3e": "Protection 6, Impervious (reduzida de 8 para respeitar o limite defensivo de NP 9).",
+        "custo_2e_pp": 16
+      },
+      {
+        "nome": "Super Strength",
+        "construcao_3e": "Power-Lifting 5.",
+        "custo_2e_pp": 25
+      }
+    ],
+    "equipamento": [],
+    "complicacoes": [
+      "Weak Point; traducao funcional da complicacao/defeito listada na fonte."
+    ],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 7,
+        "dano": 11
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 18,
+      "esquiva_mais_resistencia": 18,
+      "aparar_mais_resistencia": 16,
+      "fortitude_mais_vontade": 10,
+      "legal": true
+    }
+  },
+  "notas_conversao": [
+    "Defense 14 fornece defesa ativa base 4; Reflex 6 determina Esquiva 6. Protection foi reduzida de 8 para 6 para que Esquiva + Resistencia nao exceda 18.",
+    "A ficha tem poderes de Strength redundantes (Density e Super Strength). O Strength ofensivo foi limitado a 11; o +18 Strength de Density em 2e nao pode ser aplicado junto ao ataque +7 dentro do NP 9. Protection foi reduzida para 6.",
+    "A fonte nao fornece um tipo ou descricao para Weak Point; o texto foi mantido sem inventar uma vulnerabilidade especifica."
+  ]
+}

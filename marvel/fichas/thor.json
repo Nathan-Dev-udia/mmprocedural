@@ -1,0 +1,116 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Thor",
+  "nome_pt": "Thor",
+  "nivel_poder": 13,
+  "pontos_poder_origem": 195,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 105
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 13,
+      "Vig": 15,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 10,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 3
+    },
+    "defesas": {
+      "Esquiva": 11,
+      "Aparar": 11,
+      "Fortitude": 15,
+      "Resistencia": 15,
+      "Vontade": 8
+    },
+    "pericias": {
+      "Investigação": 10,
+      "Intimidação": 16,
+      "Especialidade: Ciências da Vida": 4,
+      "Especialidade: Conhecimento Arcano": 12,
+      "Tratamento": 9,
+      "Especialidade: Doctor": 9,
+      "Combate a Distância: Mystic Blast": 8
+    },
+    "vantagens": [
+      "All-Out Attack",
+      "Benefit [Status]",
+      "Fearless",
+      "Improved Critical [Mjolnir]",
+      "Power Attack",
+      "Startle"
+    ],
+    "poderes": [
+      {
+        "nome": "Super Strength",
+        "construcao_3e": "Power-Lifting / Enhanced Strength (rank 2e 5); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Strength 5 (Power Feat: Ground Strike; 11pp) Componentes/efeitos alternativos mapeados: Strike → Damage.; custo 2e impresso 11 PP.",
+        "custo_2e_pp": 11,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Immunity",
+        "construcao_3e": "Immunity: Disease and Suffocation in Vacuum; custo 3e depende da seleção exata de imunidades.",
+        "custo_2e_pp": 2,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Device (Mjolnir)",
+        "construcao_3e": "Removable (Mjolnir), com Strike 3 (Mighty, Thrown 3), Weather Control 16 (Precipitation e alternativos Dynamic), Flight 11 (Space Travel e Dimensional Movement como alternativos), Restricted: Those Worthy. A fonte atribui 42 PP; construção e custo 3e incertos.",
+        "custo_2e_pp": 42,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "dano": 13
+      },
+      {
+        "nome": "Mjolnir",
+        "bonus": 10,
+        "dano": 16
+      },
+      {
+        "nome": "Rajada Mística",
+        "bonus": 10,
+        "dano": 16
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 26,
+      "esquiva_mais_resistencia": 26,
+      "aparar_mais_resistencia": 26,
+      "fortitude_mais_vontade": 23,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 96,
+    "defesas": 60,
+    "pericias": 68,
+    "vantagens": 6,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 230,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
+    "Perícias foram convertidas subtraindo do bônus total impresso o atributo 3e correspondente. Conhecimentos, Ofícios e Profissões foram mantidos como Especialidades; Condução/Pilotagem como Veículos; Sobrevivência como Especialidade: Sobrevivência; Computadores como Tecnologia.",
+    "Poderes preservam os descritores, ranks, modificadores e custos 2e impressos; o guia orienta o efeito 3e equivalente. Custos 3e ficam nulos quando a construção exata ou os modificadores não permitem cálculo seguro.",
+    "Nenhuma Motivação ou complicação não publicada foi acrescentada.",
+    "Vantagens sem equivalente direto foram removidas conforme o guia; não foram recriadas como poderes: Fearsome Presence (6) [DC 16; 30ft.].",
+    "Dodge Focus 6 foi convertido em ranks de Esquiva: base 11 + 6 = 17; valor final 11.",
+    "Defesas reduzidas por limite de NP 13: Esquiva 17→11 e Aparar 11→11; cada defesa ativa + Resistência 15 ≤ 26.",
+    "Subtotal 3e conhecido: 96 PP em habilidades, 68 em perícias, 60 em defesas, 6 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto."
+  ]
+}

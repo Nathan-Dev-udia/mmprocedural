@@ -1,0 +1,29 @@
+{
+  "nome": "Air Wave",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 167,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 15
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "4",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "2",
+      "INT": "0",
+      "AWE": "1",
+      "PRE": "1"
+    },
+    "poderes": "Energy Form: Damage 7 (Reaction); Flight 19 (1,000,000 MPH); Immunity 10 (Life Support); Insubstantial 3 (Electromagnetic Energy Form); Activation (Move Action) • 90 points EMR Reception: Senses 1 (radio) • 1 point",
+    "vantagens": "Attractive, Beginner’s Luck, Close Attack, Defensive Roll, Evasion 2, Move-by Action",
+    "pericias": "Close Combat: Energy Form 8 (+10)",
+    "ataques": "Initiative +2 Energy Form +11 Close, Damage 7 Unarmed +3 Close, Damage 3",
+    "defesas": "Dodge 13 Fortitude 7 Parry 13 Toughness 5/4* Will 11 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 30 Skills 4 Powers 91 Defenses 35 Advantages 7 ToTal 167",
+    "complicacoes": "Responsibility: Throughout his life, Hal strove to emulate the heroism of his father, the original Air Wave. Weakness: Hal was sensitive to electromagnetic radiation emissions, like sunspot activity and broadcast communications. At sufficient levels, they rendered him impaired, disabled, powerless, or in danger of dying."
+  }
+}

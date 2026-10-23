@@ -1,0 +1,29 @@
+{
+  "nome": "Maxwell Lord",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 14,
+  "pontos_poder_publicados": 194,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 26
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "2",
+      "AGL": "1",
+      "DEX": "2",
+      "FGT": "2",
+      "INT": "4",
+      "AWE": "3",
+      "PRE": "4"
+    },
+    "poderes": "Mental Conditioning: Perception Sustained Weaken Will 8 (Mental, Resisted by Will), Incurable, Insidious, Subtle 2, Limited—Only effects targets up 10’ away, Limited—Will weakened only against Push effects • 28 points t he P ush: Array (62 points) • Push Mind: Perception Concentration Affliction 12 (psychic, mental suggestions or hallucinations; Resisted by Will; Entranced, Compelled, Controlled), Insidious, Progressive, Subtle 2, Quirk—If Maxwell Lord takes damage from the side-effect, he gets a bloody nose, Side-Effect— Maxwell Lord must resist a Damage effect, DC 15 + Push Mind ranks used • 62 points • Mass Push: Perception Area (Auditory) Sustained Affliction 10 (Resisted by Will; Entranced, Compelled, Controlled), Insidious, Progressive, Subtle 2, Distracting, Quirk—If Maxwell Lord takes damage from the side-effect, he gets a bloody nose, Side-Effect—Maxwell Lord must resist a Damage effect, DC 15 + Push Mind ranks used, Tiring • 1 point • Mental a Perception Affliction 14 (psychic, mental ssault: suggestions; Resisted by Will, Vulnerable, Compelled), Insidious, Subtle 2, Instant Recovery, Limited Degree • 1 point",
+    "equipamento": "Light Pistol with Suppressor: Ranged Damage 3, Subtle • 7 points Bulletproof Vest: Protection 4, Subtle, Limited (Ballistic) • 3 points",
+    "vantagens": "Assessment, Benefit 1 (Independently Wealthy), Connected, Contacts, Daze (Deception), Defensive Roll 2, Equipment 2, Fascinate (Deception), Redirect, Seize Initiative, Skill Mastery (Insight, Deception, Expertise: Tactician, Persuasion), Taunt, Well-informed Wonder Woman used her lasso to extract from Lord the only way to free Superman from the “push, ” and the solution was simply to kill him. She snapped his neck without hesitation. Maxwell Lord later returned as one of many heroes and vil- lains brought back to life during the Blackest Night. The first thing he did was push the entire world into forgetting he existed, and he is now free to work on his plans in absolute obscurity.",
+    "pericias": "Deception 14 (+18), Expertise: Business 8 (+12), Expertise: Tactician 7 (+11), Insight 10 (+13), Persuasion 12 (+16), Ranged Combat: Pistols 5 (+7)",
+    "ataques": "i nitia tive +1 Unarmed +2 Close, Damage 1 Pistol +7 Ranged, Damage 3 Mental Assault — Ranged, Affliction 14 Mass Push — Close, Perception Area Affliction 10 Push Mind — Ranged, Affliction 12 Mental Conditioning — Perception, Weaken Will 8, Limited to 10 feet",
+    "defesas": "d odge 6 f or titude 5 Parry 5 t oughness 8/6* W ill 10 *Without Defensive Roll.",
+    "pontos_poder": "a bilities 38 S kills 28 Powers 92 d efenses 18 a dv antages 18 ToTal 194"
+  }
+}

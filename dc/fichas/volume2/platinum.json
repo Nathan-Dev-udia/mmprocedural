@@ -1,0 +1,27 @@
+{
+  "nome": "Platinum",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 217,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 49
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "6",
+      "STA": "—",
+      "AGL": "5",
+      "DEX": "5",
+      "FGT": "6",
+      "INT": "3",
+      "AWE": "1",
+      "PRE": "5"
+    },
+    "poderes": "r obot Body (Immunity 57 (Fortitude effects, Chemical effects, Mental effects, Electrical damage, Cold, Heat); Protection 10, Impervious), Shapeshifting (Elongation 8; Morph 4 (any form), Quirk: Limited to Same Color; Variable 2 (physical traits, 10 power points, plus changing existing physical trait allocations)",
+    "vantagens": "Attractive, Set-Up, Teamwork",
+    "pericias": "Close Combat: Unarmed 4 (+10), Persuasion 8 (+13), Treatment 6 (+9) ense: Initiative +5, Unarmed +10 (Close, Damage 6) o ff efense: Dodge 10, Parry 10, Fortitude Immune, Toughness d 10, Will 6 Abilities 72 + Powers 118 + Advantages 4 + Skills 9 +",
+    "pontos_poder": "Defenses 14 = 217",
+    "complicacoes": "d oing Good: All of the Metal Men are driven to make the world a better place. elationship: r Tina is in love with Magnus and pines for him often."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "nome": "H.I.V.E. Recruit",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 5,
+  "pontos_poder_publicados": 72,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 266
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "0",
+      "STA": "2",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "2",
+      "INT": "3",
+      "AWE": "2",
+      "PRE": "1"
+    },
+    "poderes": "H.I.V.E. Weapons: ( Array (10 points), Easily Removable (-4 points), Stinger (Strike 5 Linked to Affliction 5 (Resisted by Fortitude; Dazed, Disabled, Incapacitated (electrical), AE: Blaster (Ranged Damage 5)); H.I.V.E. Uniform (Protection 3, Subtle)",
+    "equipamento": "H.I.V.E. Communicator",
+    "vantagens": "Benefit (various), Connected, Equipment",
+    "pericias": "Close Combat: Stinger 3 (+5), Deception 5 (+6), Expertise: Various Sciences 7 (+10), Perception 3 (+5), Ranged Combat: Blaster 3 (+5), Stealth 4 (+6), Technology 7 (+10), Vehicles 4 (+6)",
+    "ataques": "Initiative +2, H.I.V.E. Blaster +5 (Ranged, Damage 5), Stinger +5 (Strike 5 and Affliction 5, Resisted by Fortitude)",
+    "defesas": "Dodge 5, Parry 5, Fortitude 5, Toughness 5, Will 5",
+    "pontos_poder": "Abilities 28 + Powers 11 + Advantages 3 + Skills 18 + Defenses 12= 72"
+  }
+}

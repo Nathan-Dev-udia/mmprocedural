@@ -1,0 +1,104 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Quicksilver",
+  "nome_pt": "Quicksilver",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 150,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 75
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 4,
+      "Des": 4,
+      "Lut": 12,
+      "Int": 1,
+      "Pro": 1,
+      "Pre": 0
+    },
+    "defesas": {
+      "Esquiva": 15,
+      "Aparar": 15,
+      "Fortitude": 4,
+      "Resistencia": 5,
+      "Vontade": 4
+    },
+    "pericias": {
+      "Acrobacia": 12,
+      "Enganação": 10,
+      "Especialidade: Tactics": 10,
+      "Intuição": 12
+    },
+    "vantagens": [
+      "Agile Feint",
+      "Defensive Attack",
+      "Equipment",
+      "Evasion",
+      "Move-by Action",
+      "Taunt",
+      "Teamwork 3"
+    ],
+    "poderes": [
+      {
+        "nome": "Immunity 5",
+        "construcao_3e": "Immunity to fatigue.",
+        "custo_2e_pp": 5,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Super-Speed 8",
+        "construcao_3e": "Rapid Attack, Wall Run, Water Run, Rapid Fire; Dynamic Strike and Invisibility.",
+        "custo_2e_pp": 47,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Uniform (+3 Toughness; Subtle; 4 EP).",
+      "Comm-Link (1 EP)."
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Unarmed / Strike",
+        "bonus": 12,
+        "dano": 8
+      },
+      {
+        "nome": "Rapid Fire",
+        "bonus": 12,
+        "dano": 8
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 20,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 8,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 52,
+    "defesas": 43,
+    "pericias": 22.0,
+    "vantagens": 9,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 126.0,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Dodge Focus 12 foi convertido em graduações de Esquiva e reduzido a 15 para NP 10; Sneak Attack não tem equivalente direto.",
+    "A fonte imprime STR/DEX/CON/INT/WIS/CHA +2/+4/+2/+1/+1/+0; Toughness +5, Fortitude +4, Reflex +12, Will +4; Attack +12 [Rapid Fire +8]; Defense 25; Initiative +36.",
+    "Dodge Focus 12 e Defense 25 excedem o limite PL 10 com Toughness 5; Esquiva/Aparar reduzidas ao máximo legal 15 (15 + 5 = 20). Attack +12 and Damage 8 equal the cap 20.",
+    "The source does not provide a separate attack modifier for every Super-Speed array effect; listed attacks use the printed attack bonus.",
+    "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +2/+4/+2/+1/+1/+0. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
+    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
+  ]
+}

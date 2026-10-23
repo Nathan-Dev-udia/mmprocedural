@@ -1,0 +1,29 @@
+{
+  "nome": "Captain Cold",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 124,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 102
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "3",
+      "AGL": "3",
+      "DEX": "3",
+      "FGT": "3",
+      "INT": "3",
+      "AWE": "2",
+      "PRE": "3"
+    },
+    "poderes": "Cold-Guns: Array (21 points), Easily Removable (-10 points) • Chilling Cold: Burst Area Weaken 7 (Resisted by Fortitude, Broad: Super-Speed powers) • 21 points • Freezing Blast: Ranged Damage 7 • 1 point • Ice Block: umulative Affliction 7 (Resisted by Dodge; Hindered and Vulnerable, Defenseless and Immobile), Extra Condition, Limited to Two Degrees • 1 point • Icy Surface: Cone Area Affliction 10 (Resisted by Dodge; Hindered and Vulnerable), Extra Condition, Limited Degree 2 • 1 point • Ice Shapes: Create 7 • 1 point Cold Suit: Immunity 1 (Cold); Protection 4, Removable (-1 point) • 4 points",
+    "vantagens": "Accurate Attack, Defensive Roll 3, Improved Aim, Leadership, Move-by Action, Precise Attack 2 (Ranged; Cover and Concealment), Quick Draw, Taunt",
+    "pericias": "Athletics 4 (+6), Close Combat: Unarmed 5 (+8), Deception 8 (+11), Expertise: Cryogenics 10 (+13), Intimidation 7 (+10), Perception 6 (+8), Persuasion 8 (+11), Ranged Combat: Cold-Guns 10 (+13),",
+    "ataques": "Initiative +3 Cold-Guns +13 Ranged, Damage 7 (and others) Unarmed +8 Close, Damage 2",
+    "defesas": "Dodge 10 Fortitude 8 Parry 8 Toughness 7 Will 6",
+    "pontos_poder": "Abilities 44 Skills 29 Powers 19 Defenses 21 Advantages 11 ToTal 124",
+    "complicacoes": "Enemy: The Flash."
+  }
+}

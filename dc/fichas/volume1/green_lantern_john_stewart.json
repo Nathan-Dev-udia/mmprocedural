@@ -1,0 +1,29 @@
+{
+  "nome": "Green Lantern (John Stewart)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 13,
+  "pontos_poder_publicados": 215,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 244
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "3",
+      "AGL": "2",
+      "DEX": "4",
+      "FGT": "5",
+      "INT": "3",
+      "AWE": "2",
+      "PRE": "2"
+    },
+    "poderes": "Green Lantern Power Ring: 126 points, Removable (–25 points) • 101 points AI and Database: Features 2 (see description) • 2 points Communication: Senses 1 (Communication Link to Central Power Battery) • 1 point Flight: Flight 14 (32,000 MPH), Movement 4 (Environmental Adaptation: Zero-G, Space Travel 3) • 36 points Force Field: Impervious Protection 12; Immunity 10 (Life Support) • 34 points Force Manipulation: Array(30 points) • Force Blast: Ranged Damage 15, Dynamic • 31 points • Force Bubble: Affects Others, Burst Area, and Ranged on Immunity 10 (Life Support), Dynamic • 2 points • Force Constructs: Create 14, Increased Mass, Precise, Dynamic • 2 points • Lifting: Move Object 15, Dynamic • 2 points • Mobile Constructs: Create 12, Movable, Dynamic • 2 points Scanning Beam: Senses 6 (Analytical Auditory, Chemical, and Visual) • 6 points Universal Translator: Comprehend Languages 4 • 8 points",
+    "vantagens": "Extraordinary Effort, Fearless, Improved Aim, Teamwork",
+    "pericias": "Athletics 6 (+8), Close Combat: Unarmed 4 (+9), Expertise: Architecture & Engineering 12 (+15), Expertise: Academics 5 (+8), Expertise: Military 8 (+11), Insight 5 (+8), Intimidation 5 (+7), Ranged Combat: Power Ring 7 (+11), Technology 8 (+11)",
+    "ataques": "Initiative +2 Unarmed +9 Close, Damage 2 Power Ring +11 Range, Damage 15",
+    "defesas": "Dodge 9 Fortitude 11 Parry 11 Toughness 15/3* Will 15 *Without Power Ring Protection.",
+    "pontos_poder": "Abilities 46 Skills 30 Powers 101 Defenses 34 Advantages 4 ToTal 215",
+    "complicacoes": "Self-Doubt: John is prone to second-guess himself after his role in the destruction of Xanshi. Power Loss: The power ring needs periodic recharging and issues a warning as its power runs low. Weakness: Green Lantern power rings depend on the willpower of the wearer; the maximum rank of the ring’s effects is equal to the wearer’s Will rank, and moments of self-doubt or hesitation can cause the ring to fail."
+  }
+}

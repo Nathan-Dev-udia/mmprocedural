@@ -1,0 +1,27 @@
+{
+  "nome": "Ubu",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 8,
+  "pontos_poder_publicados": 93,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 128
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "5",
+      "STA": "5",
+      "AGL": "1",
+      "DEX": "2",
+      "FGT": "9",
+      "INT": "0",
+      "AWE": "1",
+      "PRE": "1"
+    },
+    "vantagens": "All-out Attack, Chokehold, Defensive Roll 2, Fast Grab, Great Endurance, Improved Grab, Improved Hold, Improvised Weapon, Interpose, Power Attack, Takedown",
+    "pericias": "Athletics 4 (+9), Close Combat: Unarmed 2 (+11), Insight 4 (+5), Intimidation 6 (+7), Perception 4 (+5), Ranged Combat: Throwing 6 (+8), Treatment 2 (+2), Vehicles 4 (+6)",
+    "ataques": "Initiative +1, Unarmed +11 (Close Damage 5)",
+    "defesas": "Dodge 8, Parry 9, Fortitude 10, Toughness 7/5*, Will 6 *without Defensive Roll",
+    "pontos_poder": "Abilities 48 + Powers 0 + Advantages 12 + Skills 16 + Defenses 17 = Total 93"
+  }
+}

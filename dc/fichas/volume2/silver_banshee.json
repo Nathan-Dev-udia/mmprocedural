@@ -1,0 +1,26 @@
+{
+  "nome": "Silver Banshee",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 180
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "6",
+      "STA": "10",
+      "AGL": "4",
+      "DEX": "2",
+      "FGT": "4",
+      "INT": "2",
+      "AWE": "3",
+      "PRE": "3"
+    },
+    "poderes": "and free her - self of her curse by gathering a series of mystical artifacts— though not always in that order. While pursuing her plans the Silver Banshee often finds herself opposing various heroes, including Superman and Supergirl.",
+    "pericias": "Close Combat: Unarmed 5 (+9), Deception 4 (+7), Expertise: Magic 2 (+4), Insight 4 (+7), Intimidation 6 (+9), Ranged Combat: Supernatural Sonic Powers 9 (+11)",
+    "ataques": "i nitia tive +8 Banshee Wail +11 Ranged, Damage 11, Affliction 11 (Fortitude DC 21), possibly Weaken Stamina 11 Unarmed +10 Close, Damage 6, Crit. 19-20 efen S e d d odge 12 f or titude Immune Parry 10 t oughness 10 W ill 10 Po er Point W S a bilities 68 S kills 15 Powers 196 d efenses 21",
+    "vantagens": "5 ToTal 305 Co MPL i C tion S a Cursed: The Silver Banshee has returned to “life” a number of times, each time in service to a greater power or to whom she’s beholden. Her life is not her own. d eadly: Silver Banshee freely uses her deadly abilities on anyone in her way."
+  }
+}

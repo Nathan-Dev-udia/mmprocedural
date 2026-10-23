@@ -1,0 +1,30 @@
+{
+  "nome": "Captain Comet",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 271,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 103
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "11",
+      "STA": "8",
+      "AGL": "5",
+      "DEX": "5",
+      "FGT": "7",
+      "INT": "8",
+      "AWE": "8",
+      "PRE": "2"
+    },
+    "poderes": "Stun Pistol: Ranged Damage 8, Easily Removable (-6 points) • 10 points Evolved Physiology: Impervious Toughness 6, Immunity 1 (Aging) • 7 points Evolved Mental Functions: Dynamic Array (55 points) • Mind over Matter: Move Object 9, Damaging, Dynamic, Burst Area, Perception Range, Precise, Selective • 55 points • Vibro-Sense: Burst Area Mind Reading 8, Cumulative, Dynamic, Effortless, Selective, Feedback • 2 points • Clairvoyance: Remote Sensing 8 (All Senses), Dynamic • 2 points • Mind Control: Affliction 8 (Resisted by Will; Dazed, Compelled, Controlled), Cumulative, Dynamic, Burst Area, Perception Range, Reversible, Selective • 2 points • Fast Study: Quickness 4, Dynamic • 2 points • Telepathy: Communication 2 (mental), Area, Dynamic, Selective • 2 points • Telekinetic Boost: Enhanced Strength 9, Dynamic, Limited to Lifting • 2 points • Telekinetic Flight: Flight 18 (500,000 MPH), Dynamic • 2 points • Telekinetic Aura: Protection 4, Impervious, Sustained, Only Against Physical Attacks; Immunity 10 (Life Support), Sustained; Dynamic • 2 points",
+    "equipamento": "VEHICLE: THE COMETEER • 40 POINTS Size: Huge Str 10 Speed 14 Def 8 Tou 11 Features: Movement 3 (Space Travel)",
+    "vantagens": "All-out Attack, Assessment, Defensive Attack, Eidetic Memory, Equipment 8, Extraordinary Effort, Fearless, Improved Critical: Unarmed 4, Improved Initiative, Improvised Tools, Inventor, Jack-of-all-trades, Power Attack, Takedown",
+    "pericias": "Athletics 10 (+21), Close Combat: Unarmed 4 (+11), Expertise: Science 9 (+17), Insight 9 (+17), Investigation 9 (+17), Perception 9 (+17), Ranged Combat: Energy Weapons 7 (+12), Technology 9 (+17), Vehicles 8 (+13)",
+    "ataques": "Initiative +9 Mind over Matter — Perception, Move Object 9, Damaging Unarmed +11 Close, Damage 11",
+    "defesas": "Dodge 10 Fortitude 11 Parry 10 Toughness 12/8* Will 11 *Without Telekinetic Aura.",
+    "pontos_poder": "Abilities 108 Skills 37 Powers 88 Defenses 14 Advantages 24 ToTal 271",
+    "complicacoes": "Responsibility: Blake has a keen awareness of his great gifts and the obligations that accompany them. Acceptance: Literally a man before his time, the senseless evil more primitive humans perpetrate against each other leaves Blake feeling isolated and alone. While he does return to Earth when needed, he spent a great deal of time in space, searching for something better than man where he can feel at home."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "nome": "Nightmaster",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 135,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 175
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "3",
+      "AGL": "3",
+      "DEX": "2",
+      "FGT": "5",
+      "INT": "2",
+      "AWE": "2",
+      "PRE": "2"
+    },
+    "poderes": "Sword of n igh t (Enhanced Advantages 8 (Accurate Attack, Defensive Attack, Improved Disarm, Improved Initiative, Power Attack, Quick Draw, Takedown, Weapon Bind); Enhanced Defenses 4 (Parry 4); Enhanced Skill 3 (Close Combat: Sword of Night +6); Feature 1 (Can talk to spirit of last wielder); Immunity 2 (Age, Own attacks); Perception Ranged Affliction 9 (Resisted by Will; Dazed, Compelled, Controlled; Limited to Forcing a Target to Tell the Truth); Strength-Based Damage 3, Penetrating 6; Senses 1 (Danger Sense); Removable, -9 pts) e Chainmail armor (Protection 3) quipmen t: Headquarters: oBL i V ion Bar • 12 POI n TS Size: Medium t ou: 12 f ea tures: Dimensional Portal, Library, Living Space, Personnel, Power System, Sealed, Secret, Self- repairing",
+    "vantagens": "Accurate Attack, Defensive Attack , Equipment 3 (Oblivion Bar and chainmail), Improved Disarm, Improved Initiative, Interpose, Leadership, Power Attack, Quick Draw, Takedown, Weapon Bind",
+    "pericias": "Acrobatics 5 (+8), Athletics 5 (+8), Close Combat: Sword of n ight 6 (+11) , Deception 6 (+8), Expertise: Musician 8 (+10), Insight 6 (+8), Intimidation 6 (+8), Perception 6 (+8), Persuasion 6 (+8), Stealth 4 (+7)",
+    "ataques": "Initiative +7, Sword of Night +11 (Close, Damage 6, Penetrating 6), Unarmed +5 (Close, Damage 3)",
+    "defesas": "Dodge 12, Parry 12, Fortitude 9, Toughness 6, Will 9",
+    "pontos_poder": "Abilities 44 + Powers 37 + Advantages 5 + Skills 26 + Defenses 23 = 135",
+    "complicacoes": "d oing Good: Nightmaster is a good, decent man and fights to make the world (any world) a better place. r elationship: Nightmaster still has strong ties to the land of Myrra and is sometimes called away to help defend it."
+  }
+}

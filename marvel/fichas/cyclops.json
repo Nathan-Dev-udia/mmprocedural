@@ -1,0 +1,114 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Cyclops",
+  "nome_pt": "Cyclops",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 165,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 20
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 8,
+      "Int": 2,
+      "Pro": 3,
+      "Pre": 4
+    },
+    "defesas": {
+      "Esquiva": 13,
+      "Aparar": 13,
+      "Fortitude": 8,
+      "Resistencia": 7,
+      "Vontade": 8
+    },
+    "pericias": {
+      "Veículos": 8,
+      "Investigação": 4,
+      "Especialidade: Táticas": 10,
+      "Percepção": 8,
+      "Intuição": 10,
+      "Furtividade": 4,
+      "Combate à Distância: Ataques gerais": 6
+    },
+    "vantagens": [
+      "All-out Attack",
+      "Assessment",
+      "Equipment 1",
+      "Defensive Roll 2",
+      "Inspire 4",
+      "Luck",
+      "Leadership",
+      "Power Attack",
+      "Teamwork 2",
+      "Ultimate Effort (Ultimate Will Resistance)"
+    ],
+    "poderes": [
+      {
+        "nome": "Optic Blast / Deflect",
+        "construcao_3e": "Blast 12 (Penetrating, Concentration, Uncontrolled); Alternate Effects: Deflect (all ranged, Move Action) and Blast 10 (Concentration, Line Area, Uncontrolled).",
+        "custo_2e_pp": 38,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Immunity",
+        "construcao_3e": "Immunity 1 (Havok's powers).",
+        "custo_2e_pp": 1,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Visor",
+        "construcao_3e": "Device (Removable): removes Uncontrolled from Blast; Accurate Attack, Improved Aim, Precise Shot 2, Ultimate Effort (Ultimate Aim).",
+        "custo_2e_pp": 12,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Uniforme (Protection 3; Subtle; 4 EP)",
+      "Com-link (1 EP)"
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "dano": 2
+      },
+      {
+        "nome": "Optic Blast",
+        "bonus": 8,
+        "dano": 12
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 20,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 16,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 50,
+    "defesas": 27,
+    "pericias": 25.0,
+    "vantagens": null,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 102.0,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "O valor de Toughness foi extraído como “+/+5”; +5 é o único valor legível e Defensive Roll 2 pode elevar a Resistência ativa a +7. Esquiva e Aparar foram limitadas a 13 para respeitar NP 10 com Resistência ativa 7. O ataque +8 e dano +12 do Optic Blast foram preservados (total 20).",
+    "Defesas ajustadas para Esquiva 13 e Aparar 13, respeitando os limites de NP 10 com Resistência 7.",
+    "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias e apenas os custos de poderes confirmados; não inclui vantagens nem custos incertos."
+  ]
+}

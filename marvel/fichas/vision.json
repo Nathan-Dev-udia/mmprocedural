@@ -1,0 +1,148 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Vision",
+  "nome_pt": "Vision",
+  "nivel_poder": 12,
+  "pontos_poder_origem": 210,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 109
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 14,
+      "Vig": 0,
+      "Agi": 0,
+      "Des": 0,
+      "Lut": 9,
+      "Int": 6,
+      "Pro": 0,
+      "Pre": -2
+    },
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 9,
+      "Fortitude": 0,
+      "Resistencia": 14,
+      "Vontade": 6
+    },
+    "pericias": {
+      "Tecnologia": 16,
+      "Especialidade: Tecnologia": 12,
+      "Intuição": 8,
+      "Combate Corpo-a-Corpo: Unarmed": 1,
+      "Combate a Distância: Solar Blast": 10
+    },
+    "vantagens": [
+      "Accurate Attack",
+      "Eidetic Memory",
+      "Power Attack"
+    ],
+    "poderes": [
+      {
+        "nome": "Blast",
+        "construcao_3e": "Damage à distância 12 (Flaw: Distracting); custo 3e incerto.",
+        "custo_2e_pp": 12,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Data-Link",
+        "construcao_3e": "Communication (Radio), conforme o guia para Datalink; fonte rank 5.",
+        "custo_2e_pp": 5,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Density",
+        "construcao_3e": "Growth (Does Not Modify Size, Speed, or Skills) (rank 2e 12); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Density 12 (Impervious Protection 6, Immovable 4, Super Strength 4; Flaws: No Strength [-1]; Alternate Power: Insubstantial 4; 25pp) Componentes/efeitos alternativos mapeados: Protection → Protection; Super Strength → Power-Lifting/Enhanced Strength.; custo 2e impresso 25 PP.",
+        "custo_2e_pp": 25,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Immunity",
+        "construcao_3e": "Immunity (rank 2e 30); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Immunity 30 (All Fortitude Effects; 30pp); custo 2e impresso 30 PP.",
+        "custo_2e_pp": 30,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Impervious Toughness",
+        "construcao_3e": "Protection with Impervious (rank 2e 7); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Impervious Toughness 7 (7pp); custo 2e impresso 7 PP.",
+        "custo_2e_pp": 7,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Flight",
+        "construcao_3e": "Flight 8 (Limited: only effective using Decreased Density); custo 3e incerto.",
+        "custo_2e_pp": 8,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Mental Shield",
+        "construcao_3e": "Enhanced Will/Impervious (conforme o descritor Mental Shield no guia); fonte rank 10.",
+        "custo_2e_pp": 10,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Quickness",
+        "construcao_3e": "Quickness (rank 2e 6); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Quickness 6 (Flaws: Limited – Mental Quickness [-1]; 3pp); custo 2e impresso 3 PP.",
+        "custo_2e_pp": 3,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Regeneration",
+        "construcao_3e": "Regeneration (Resurrection → Immortality) (rank 2e 9); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Regeneration 9 (Recovery Check 9; Power Feat: Regrowth; 10pp); custo 2e impresso 10 PP.",
+        "custo_2e_pp": 10,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Super Strength",
+        "construcao_3e": "Power-Lifting / Enhanced Strength (rank 2e 4); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Strength 4 (8pp); custo 2e impresso 8 PP.",
+        "custo_2e_pp": 8,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "dano": 14
+      },
+      {
+        "nome": "Rajada Solar",
+        "bonus": 10,
+        "dano": 12
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 24,
+      "esquiva_mais_resistencia": 24,
+      "aparar_mais_resistencia": 23,
+      "fortitude_mais_vontade": 6,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 54,
+    "defesas": 39,
+    "pericias": 47,
+    "vantagens": 3,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 143,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
+    "Perícias foram convertidas subtraindo do bônus total impresso o atributo 3e correspondente. Conhecimentos, Ofícios e Profissões foram mantidos como Especialidades; Condução/Pilotagem como Veículos; Sobrevivência como Especialidade: Sobrevivência; Computadores como Tecnologia.",
+    "Poderes preservam os descritores, ranks, modificadores e custos 2e impressos; o guia orienta o efeito 3e equivalente. Custos 3e ficam nulos quando a construção exata ou os modificadores não permitem cálculo seguro.",
+    "Nenhuma Motivação ou complicação não publicada foi acrescentada.",
+    "Habilidades 2e sem perícia 3e direta foram omitidas, conforme o guia: Concentration.",
+    "Dodge Focus 5 foi convertido em ranks de Esquiva: base 9 + 5 = 14; valor final 10.",
+    "Defesas reduzidas por limite de NP 12: Esquiva 14→10 e Aparar 9→9; cada defesa ativa + Resistência 14 ≤ 24.",
+    "Subtotal 3e conhecido: 54 PP em habilidades, 47 em perícias, 39 em defesas, 3 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto."
+  ]
+}

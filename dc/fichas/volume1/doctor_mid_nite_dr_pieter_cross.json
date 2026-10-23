@@ -1,0 +1,29 @@
+{
+  "nome": "Doctor Mid-Nite (Dr. Pieter Cross)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 153,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 172
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "3",
+      "AGL": "3",
+      "DEX": "4",
+      "FGT": "3",
+      "INT": "4",
+      "AWE": "3",
+      "PRE": "3"
+    },
+    "poderes": "Blindsight: Senses 4 (Darkvision, Infravision, Ultravision), Innate • 5 points Blackout Bombs: Visual Concealment 2 (Normal Sight), Cloud Area 2 (30 feet), Attack, Contracted Range 2, Quirk: Can be blown away by strong winds, etc. even while being sustained (-1 point), Removable (-2 points) • 7 points Goggles: Feature 1 (Compensate for blindness), Removable • 1 point Medical Gauntlets: Array (12 points), Removable (–3 points) • Surgical Laser: Ranged Damage 5, Accurate, Precise • 12 points • Anesthetic Spray: Cumulative Affliction 5 (Resisted by Fortitude; Fatigued, Exhausted, Asleep), Reach 2 • 1 point • Pharmaceutical Injector: Enhanced Skill 8 (Treatment +8) • 1 point Night-Fighting: Enhanced Skill 8 (Deception +8), Limited: Only for use with Redirect, Limited: Only in Concealment • 1 point",
+    "vantagens": "Contacts, Defensive Attack, Defensive Roll 5, Evasion, Improved Disarm, Favored Environment (Darkness), Leadership, Precise Attack (Close; Concealment), Redirect, Set-up, Ultimate Effort (Treatment), Uncanny Dodge",
+    "pericias": "Athletics 5 (+7), Close Combat: Unarmed 11 (+14), Deception 3 (+6/+14*), Insight 7 (+10), Investigation 5 (+9), Perception 8 (+11) Ranged Combat: Medical Gauntlet 7 (+11), Stealth 8 (+11), Technology 8 (+12), Treatment 14 (+18) *In Concealment.",
+    "ataques": "Initiative +3 Unarmed +14 Close, Damage 2 Surgical Laser +13 Ranged, Damage 5 Anesthetic Spray +13 Close, Reach 2, Cumulative Affliction 5, Resisted by Fortitude",
+    "defesas": "Dodge 10 Fortitude 8 Parry 10 Toughness 8/3** Will 8 **Without Defensive Roll.",
+    "pontos_poder": "Abilities 50 Skills 38 Powers 25 Defenses 24 Advantages 16 ToTal 153",
+    "complicacoes": "Blind: Without his goggles, Doctor Mid-Nite is completely blind, except in pitch blackness. Portsmouth Medical Clinic: Doctor Mid-Nite runs a community clinic with assistants who help him in his adventures. But the staff and the clients of the clinic have also become targets for his enemies."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "nome": "Gypsy",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 8,
+  "pontos_poder_publicados": 147,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 247
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "3",
+      "AGL": "3",
+      "DEX": "2",
+      "FGT": "4",
+      "INT": "2",
+      "AWE": "2",
+      "PRE": "3"
+    },
+    "poderes": "Chameleon: Concealment 4 (All Visual), Limited to sentient beings • 4 points Illusion Casting: Illusion 7 (All Senses), Selective, Resistible • 35 points • Astral Form: Remote Sensing 15 (120 miles; Visual, Hearing), Feedback, Subtle (DC 35) • 1 point • Group Chameleon: Burst Area Affects Others Selective Concealment 4 (All Visual), Limited to sentient beings • 1 point • Illusory Disguise: Burst Area Affects Others Selective Morph 2 (Similar Form), Resistible • 1 point Undeveloped Potential: Senses 4 (Precognition), Uncontrolled • 2 points",
+    "vantagens": "Defensive Roll 3, Evasion 2, Improved Trip, Luck 3, Move-by Action, Power Attack, Redirect, Trance, Ultimate Effort (Stealth)",
+    "pericias": "Acrobatics 4 (+7), Athletics 3 (+5), Close Combat: Unarmed 4 (+8), Expertise: Streetwise 9 (+11), Insight 3 (+5), Perception 6 (+8), Stealth 9 (+12)",
+    "ataques": "Initiative +3 Unarmed +8 Close, Damage 2",
+    "defesas": "Dodge 8 Fortitude 6 Parry 8 Toughness 6/3* Will 8 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 42 Skills 19 Powers 44 Defenses 18 Advantages 14 ToTal 147"
+  }
+}

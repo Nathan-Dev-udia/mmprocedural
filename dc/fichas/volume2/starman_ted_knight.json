@@ -1,0 +1,28 @@
+{
+  "nome": "Starman (Ted Knight)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": 173,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 199
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "3",
+      "AGL": "2",
+      "DEX": "3",
+      "FGT": "3",
+      "INT": "7",
+      "AWE": "2",
+      "PRE": "2"
+    },
+    "poderes": "Cosmic r od: Removable (–13 points) • 54 points e nergy Shield: Sustained Protection 10, Affect Others • 20 points S hooting Star: Flight 7 (250 MPH) • 14 points S tellar e nergy Control: Array (28 points) • Stellar Blast: Ranged Damage 14, Dynamic • 29 points • Gravity Manipulation: Move Object 14 (400 tons), Dynamic • 2 points • Starlight: Environment 4 (Bright Light, 250 feet), Dynamic • 2 points",
+    "vantagens": "Accurate Attack, Benefit 2 (Independently Wealthy), Extraordinary Effort, Improved Defense, Inspire 2, Inventor, Leadership, Move-by Action, Power Attack, Precise Attack (Ranged, Cover), Well-informed",
+    "pericias": "Acrobatics 3 (+5), Athletics 6 (+8), Close Combat: Unarmed 7 (+10), Expertise: Physics 10 (+17), Insight 7 (+9), Perception 8 (+10), Ranged Combat: Gravity Rod 7 (+10), Technology 10 (+17) ffen S e o i nitia tive +2 Stellar Blast +10 Ranged, Damage 14 Unarmed +10 Close, Damage 2",
+    "defesas": "d odge 10 f or titude 8 Parry 10 t oughness 13/3* W ill 11 *Without Energy Shield.",
+    "pontos_poder": "a bilities 48 S kills 29 Powers 54 d efenses 29 a dv ToTal 173",
+    "complicacoes": "Guiding Star: Ted Knight’s strong moral compass allows him to lead by example—not just the citizens of Opal City, but his fellow heroes and those who follow him as Starman. Guilt: The guilt Ted Knight felt over his part in inventing the atomic bomb led to him spending part of the 1950s in a sanitarium. Ever since, the possible repercussions of his inventions and actions weigh heavily on him, sometimes leading him to do nothing at all. aLLI e S Starman’s greatest allies have always been his friends in the Justice Society and the All-Star Squadron, but he was par - ticularly close to his cousin, the first Phantom Lady, and Black Canary, with whom he had a brief affair. Years later he worked closely with his sons when they carried on the legacy of Star- man, as well as other heroes who protected Opal City."
+  }
+}

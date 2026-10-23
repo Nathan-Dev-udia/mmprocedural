@@ -1,0 +1,29 @@
+{
+  "nome": "Tattooed Man",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 143,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 225
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "3",
+      "AGL": "1",
+      "DEX": "2",
+      "FGT": "6",
+      "INT": "0",
+      "AWE": "1",
+      "PRE": "1"
+    },
+    "poderes": "a nima ted t a ttoos: Summon 6 (Four 90-point minions), Active, Broad Type (His tattoos), Controlled, Mental Link, Multiple Minions 2 • 61 points",
+    "vantagens": "Defensive Roll 4, Extraordinary Effort, Seize Initiative",
+    "pericias": "Athletics 4 (+7), Close Combat: Unarmed 3 (+9), Expertise: Military 8 (+8), Insight 4 (+5), Perception 4 (+5), Ranged Combat: Guns 6 (+8), Stealth 4 (+5), Treatment 2 (+2), Vehicles 3 (+5)",
+    "ataques": "i nitia tive +1 Unarmed +9 Close, Damage 3",
+    "defesas": "d odge 8 f or titude 9 Parry 8 t oughness 7/3* W ill 9 *Without Defensive Roll.",
+    "pontos_poder": "a bilities 34 S kills 19 Powers 61 d efenses 23 a dv antages 6 ToTal 143",
+    "complicacoes": "e nemy: Mark has fought his brother Levon, who goes by “Sync” and has mind- control powers. aw: Despite his best efforts to be a hero, Tattooed o utside the L Man ends up working outside the law against the authorities. r elationships: Tattooed Man has a family to care for; his wife Michelle, daughter Laurel, and sister-in-law Regina."
+  }
+}

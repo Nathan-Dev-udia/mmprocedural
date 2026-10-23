@@ -1,0 +1,28 @@
+{
+  "nome": "Starman (Jack Knight)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 152,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 200
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "3",
+      "AGL": "3",
+      "DEX": "2",
+      "FGT": "4",
+      "INT": "1",
+      "AWE": "2",
+      "PRE": "2"
+    },
+    "poderes": "Cosmic r od: Removable (–13 points) • 54 points e nergy Shield: Sustained Protection 10, Affect Others • 20 points C osmic r od f ligh t: Flight 7 (250 MPH) • 14 points S tellar e nergy Control: Array (28 points) • Stellar Blast: Ranged Damage 14, Dynamic • 29 points • Gravity Manipulation: Move Object 14 (400 tons), Dynamic • 2 points • Starlight: Environment 4 (Bright Light, 250 feet), Dynamic • 2 points",
+    "vantagens": "Agile Feint, All-out Attack, Extraordinary Effort, Power Attack, Seize Initiative",
+    "pericias": "Acrobatics 7 (+10), Athletics 7 (+8), Close Combat: Unarmed 6 (+10), Expertise: Ephemera 12 (+13), Insight 8 (+10), Investigation 7 (+8), Perception 8 (+10), Ranged Combat: Gravity Rod 6 (+8), Sleight of Hand 6 (+8), Stealth 2 (+5)",
+    "ataques": "i nitia tive +3 Stellar Blast +8 Ranged, Damage 14 Unarmed +10 Close, Damage 1",
+    "defesas": "d odge 9 f or titude 8 Parry 9 t oughness 13/3* W ill 8 *Without Energy Shield.",
+    "pontos_poder": "a bilities 36 S kills 35 Powers 54 d efenses 22 a dv antages 5 ToTal 152"
+  }
+}

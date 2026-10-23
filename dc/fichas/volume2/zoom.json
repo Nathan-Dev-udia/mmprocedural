@@ -1,0 +1,29 @@
+{
+  "nome": "Zoom",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": 196,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 142
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "2",
+      "AGL": "3",
+      "DEX": "2",
+      "FGT": "4",
+      "INT": "4",
+      "AWE": "2",
+      "PRE": "1"
+    },
+    "poderes": "The same as Reverse-Flash, except for having Quickness 21 and lacking the Frictionless Aura and Vibration power. Zoom’s powers have the temporal descriptor rather than being connected to the Speed Force.",
+    "vantagens": "Assessment; otherwise the same as Reverse-Flash.",
+    "pericias": "Athletics 6 (+7), Close Combat: Unarmed 2 (+6), Deception 4 (+5), Expertise: Criminology 8 (+12), Expertise: Psychology 6 (+10), Insight 8 (+10), Intimidation 4 (+5), Investigation 6 (+10), Perception 4 (+6)",
+    "ataques": "Initiative +43, Attack +10 (Close, Damage 1)",
+    "defesas": "Dodge 16, Parry 16, Fortitude 8, Toughness 7/2, Will 11",
+    "pontos_poder": "Abilities 38 + Powers 117+ Advantages 1 + Skills 24 + Defenses 16 = Total 196",
+    "complicacoes": "o bsession: The Flash."
+  }
+}

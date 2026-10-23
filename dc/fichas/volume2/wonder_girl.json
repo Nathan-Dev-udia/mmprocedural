@@ -1,0 +1,27 @@
+{
+  "nome": "Wonder Girl",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 267
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "14",
+      "STA": "10",
+      "AGL": "8",
+      "DEX": "4",
+      "FGT": "7",
+      "INT": "1",
+      "AWE": "2",
+      "PRE": "3"
+    },
+    "poderes": "45 d efenses 21",
+    "vantagens": "8 ToTal 189 Co MPL i C tion S a r elationship: Romantic relationship with Superboy. esponsibility: Feels responsible for taking charge. r",
+    "pericias": "17",
+    "ataques": "i nitia tive +8 Magic Lasso +12 Ranged, +12 Grab Unarmed +10 Close, Damage 14",
+    "defesas": "d odge 12 f or titude 12 Parry 12 t oughness 12/10* W ill 12 *Without Defensive Roll. W S Po er Point a bilities 98"
+  }
+}

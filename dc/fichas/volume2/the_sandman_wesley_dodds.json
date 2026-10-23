@@ -1,0 +1,29 @@
+{
+  "nome": "The Sandman (Wesley Dodds)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 8,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 158
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "3",
+      "AGL": "2",
+      "DEX": "4",
+      "FGT": "4",
+      "INT": "4",
+      "AWE": "4",
+      "PRE": "2"
+    },
+    "poderes": "28 d efenses 21",
+    "equipamento": "Gas Mask: Enhanced Skill 1 (Intimidation +2), Immunity 1 (Breathe normally in airborne toxins and irritants) • 2 points d ust er: Protection 1 • 1 point Ve H i CL e: 1938 pL y M out H Coupe • 10 POI n TS Size: Large Str: 5 Speed: 6 d ef: 8 t ou: 8 f ea tures: Caltrops",
+    "vantagens": "26 ToTal 171",
+    "pericias": "46",
+    "ataques": "i nitia tive +6 Sleep-Gas Gun +8 Close, Cloud Area Affliction 8, Resisted by Fortitude (DC 18), Reach 4 Unarmed +12 Close, Damage 2, Crit. 19-20",
+    "defesas": "d odge 9 f or titude 7 Parry 9 t oughness 7/3** W ill 9 **Without Defensive Roll. Po er Point W S a bilities 50",
+    "complicacoes": "Justice: Wesley’s nightmares compel him to punish evildoers. r elationship: Wesley loves Dian Belmont deeply, and holds Sandy and Humphries in great esteem. r eputation: Prior to joining the JSA, the Sandman was mistrusted by the public and wanted by the police. Secret: The Sandman keeps his true identity hidden. Quirk: The Sandman leaves an origami sculpture containing a poem as his “calling card. ”"
+  }
+}

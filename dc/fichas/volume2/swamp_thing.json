@@ -1,0 +1,26 @@
+{
+  "nome": "Swamp Thing",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 15,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 222
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "9",
+      "STA": "15",
+      "AGL": "0",
+      "DEX": "0",
+      "FGT": "2",
+      "INT": "4",
+      "AWE": "7",
+      "PRE": "5"
+    },
+    "poderes": "155 d efenses 22",
+    "defesas": "d odge 8 f or titude 15 Parry 8 t oughness 15 W ill 15 W S Po er Point a bilities 84",
+    "pericias": "15",
+    "vantagens": "3 ToTal 279 a Co MPL i C tion S e A mystic elemental, Swamp Thing has a lemen tal: responsibility to the Green. Plant: Swamp Thing is made up of plants and is affected by anything that affects plants. r elationship: Swamp Thing has a wife (Abby) and a daughter (Téfe)."
+  }
+}

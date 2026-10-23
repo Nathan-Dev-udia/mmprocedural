@@ -1,0 +1,28 @@
+{
+  "nome": "Abby Holland",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 4,
+  "pontos_poder_publicados": 63,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 223
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "0",
+      "STA": "2",
+      "AGL": "1",
+      "DEX": "1",
+      "FGT": "1",
+      "INT": "3",
+      "AWE": "5",
+      "PRE": "4"
+    },
+    "poderes": "e mpathy (Senses 2 (Detect Emotions, Ranged)); t elek inesis (Move Object 1, Unreliable); t elepa thy (Mind Reading 1)",
+    "vantagens": "Animal Empathy, Attractive, Plant Empathy*",
+    "pericias": "Athletics 3 (+3), Close Combat: Unarmed 2 (+3), Insight 8 (+13), Perception 5 (+10), Persuasion 4 (+8), Treatment 2 (+5)",
+    "ataques": "Initiative +1, Unarmed +3 (Close, Damage 0)",
+    "defesas": "Dodge 5, Parry 5, Fortitude 3, Toughness 2, Will 5",
+    "pontos_poder": "Abilities 34 + Powers 5 + Advantages 3 + Skills 12 + Defenses 9 = Total 63"
+  }
+}

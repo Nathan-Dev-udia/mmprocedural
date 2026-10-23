@@ -1,0 +1,29 @@
+{
+  "nome": "Cyborg Superman",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 15,
+  "pontos_poder_publicados": 393,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 146
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "19",
+      "STA": "14",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "8",
+      "INT": "7",
+      "AWE": "2",
+      "PRE": "4"
+    },
+    "poderes": "Cyberpathy : Array (38 points) • Cyberpathy: Perception ranged Communication (Mental) 9, Limited to Machines, Comprehend 2 (Machines) • 38 points • Machine Animation: Summon 8 (120 points), Mental Link, Ranged, Broad Variable Type (Machines), Limited to animating machines within range • 1 point Electronic Consciousness: Immortality 20, Limited to having an electronic device to transmit consciousness into • 20 points Flight: Array (30 points) Flight: Flight 15 (64,000 MPH) • 30 points • Space Flight: Movement 1 (Space Travel) • 1 point • Speed: Speed 15 (64,000 MPH) • 1 point Heat Vision: Ranged Damage 15 • 30 points Invulnerability: Protection 2, Impervious Toughness 16, Immunity 7 (Cold, Heat, Pressure, Radiation, Suffocation (All), Vacuum) • 25 points Super-Senses: Senses 15 (Acute and Extended Hearing, Extended Vision 3, Infravision, Microscopic Vision4, Ultra- Hearing, Vision Penetrates Concealment (except lead)) • 15 points Super-Speed: Quickness 8 • 8 points Super-Strength: Enhanced Strength 4, Limited to Lifting (Lifting Str 23; 200,000 tons) • 4 points Technomorph: Array (39 points) • Arm Blaster: Ranged Damage 19, Variable Descriptor (Electromagnetic) • 39 points • Arm Snare: Cumulative Affliction 15 (Hindered and Vulnerable, Defenseless and Immobile) Extra Condition, Resisted by Dodge, Limited Degree • 1 point • Claws: Penetrating 19 on Strength damage • 1 point Hank was later discovered, by Hal Jordan, at the Source Wall. In their confrontation, Hank was torn apart by Hal’s represen - tations of the Coast City victims, and Hank’s consciousness was absorbed into the Godwave. Surviving as part of the Godwave, Hank created a world made up of his memories. Superman encountered this world and Hank used those memories to torment the Kryptonian, but once again he was defeated. Unbeknownst to Superman, Hank had downloaded his consciousness into the Man of Steel’s containment suit and returned with him to Earth where he created a new body and posed as an art teacher with the intention of starting a new life. Despite this, Hank’s hatred for Superman caused him to reveal his true identity, and his new body was destroyed in the inevitable conflict. Having returned once again and in alliance with the Toyman, Hank devised a device to destroy Superman by dispersing the Kryptonian’s energy across the galaxy, making it impossible for him to reform. The device malfunctioned, causing Super - man to split into two personas, Superman Red and Superman Blue, with the former eventually defeating him. Returning to space, Hank discovered the homeworld of the android Manhunters. Gathering together deceased Green Lanterns, he used their rings and Kryptonian technology to upgrade the Manhunters into Highlords. Hal Jordon and Ari - sia combined the power of their rings with a Highlord and",
+    "vantagens": "Benefit 10 (Grandmaster of the Highlords), Power Attack, Seize Initiative, Ultimate Effort (Toughness)",
+    "pericias": "Close Combat: Unarmed 3 (+11), Deception 8 (+12), Ranged Combat: Technomorphed Weapons 8 (+11), Perception 9 (+11), Technology 9 (+16)",
+    "ataques": "Initiative +2 Blaster +11 Ranged, Damage 19 Unarmed +11 Close, Damage 19",
+    "defesas": "Dodge 14 Fortitude 15 Parry 14 Toughness 16 Will 14",
+    "pontos_poder": "Abilities 116 Skills 19 Powers 214 Defenses 31 Advantages 13 ToTal 393",
+    "complicacoes": "Cyborg: Cyborg Superman’s body is largely mechanical, and cannot heal normally. Obsession: Cyborg Superman is driven by his hatred to destroy Superman. Power Loss: Because of his Kryptonian biological parts, Cyborg Superman loses his powers under a red sun. Other effects draining or interfering with the energies of the yellow sun can also deprive him of his powers. The powers affected this way are Flight, Super-Senses, Super-Speed, and Super-Strength. Weakness: Cyborg Superman suffers from a weakness to kryptonite due to his Kryptonian DNA, the radioactive remains of the planet Krypton. Kryptonite comes in a number of forms. Green kryptonite is by far the most common. Its radiation saps his Strength, Flight, Super-Senses, Super-Speed, and Super- Strength, leaving him impaired, disabled, and eventually debilitated in terms of Strength and power effects. Long-term exposure (usually a matter of minutes, less for a large enough amount) imposes the dying condition and may lead to death. destroyed Hanks organic components along with most of the Manhunters’ homeworld. The cyborg’s remains were then im - prisoned on Oa. Freed by the Sinestro Corps, Hank was made a herald of the Anti-Monitor with the understanding that he would be re - warded for his services with his greatest desire—a final death. Wielding ten Qwardian power rings, Hank led his Highlords to Earth and battled Superman again. This time, Hank would have defeated Superman if Power Girl and Supergirl had not come to the Man of Steel’s aid. In the final encounter with the Anti-Monitor, Hank was finally killed. Unfortunately, the Highlords, lost without their leader, retrieved a fraction of Hank’s remains and funneled a massive amount of energy into it, returning Cyborg Superman to life."
+  }
+}

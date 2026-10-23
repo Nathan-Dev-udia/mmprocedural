@@ -1,0 +1,124 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Silver Surfer",
+  "nome_pt": "Silver Surfer",
+  "nivel_poder": 15,
+  "pontos_poder_origem": 285,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 91
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 15,
+      "Vig": 8,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 13,
+      "Int": 3,
+      "Pro": 8,
+      "Pre": 5
+    },
+    "defesas": {
+      "Esquiva": 15,
+      "Aparar": 15,
+      "Fortitude": 10,
+      "Resistencia": 15,
+      "Vontade": 10
+    },
+    "pericias": {
+      "Persuasão": 12,
+      "Especialidade: Ciências Espaciais": 12,
+      "Percepção": 12,
+      "Veículos": 16,
+      "Intuição": 12,
+      "Combate a Distância: Cosmic Blast": 11
+    },
+    "vantagens": [
+      "Accurate Attack",
+      "Attractive",
+      "Luck",
+      "Power Attack"
+    ],
+    "poderes": [
+      {
+        "nome": "Cosmic Energy Control",
+        "construcao_3e": "Damage à distância (array) (rank 2e 17); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Cosmic Energy Control 17 (Power Feats: Improved Range, Selective; Alternate Powers: Boost, Create Object, Healing, Transform; 40pp) Componentes/efeitos alternativos mapeados: Boost → Enhanced Trait com Fades; Create Object → Create; Healing → Healing; Transform → Transform; para seres vivos, Affliction com condição Transformed.; custo 2e impresso 40 PP.",
+        "custo_2e_pp": 40,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Device",
+        "construcao_3e": "Removable (prancha voadora; inclui os traços e poderes listados); rank e modificadores 3e exatos requerem revisão: Device 11 [Board – Strength: 45; Speed: Flight 10; Toughness: 15; Size: Medium; Features: Remote Control, Restricted; Powers: Space Flight 15; 33pp].",
+        "custo_2e_pp": 33,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Immunity",
+        "construcao_3e": "Immunity 19 (Life Support, Heat, Cold); conversão e custo 3e dependem da seleção exata de imunidades.",
+        "custo_2e_pp": 19,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Protection",
+        "construcao_3e": "Protection (rank 2e 7); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Protection 7 (Extra: Impervious [+1] 15; 22pp); custo 2e impresso 22 PP.",
+        "custo_2e_pp": 22,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Super Senses",
+        "construcao_3e": "Sentidos (rank 2e 22); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Senses 22 (Extended (10) Cosmic Energy Awareness, Extended (10) Life Awareness; 22pp); custo 2e impresso 22 PP.",
+        "custo_2e_pp": 22,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Super Strength",
+        "construcao_3e": "Power-Lifting / Enhanced Strength (rank 2e 4); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Strength 4 (8pp); custo 2e impresso 8 PP.",
+        "custo_2e_pp": 8,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 13,
+        "dano": 15
+      },
+      {
+        "nome": "Rajada Cósmica",
+        "bonus": 13,
+        "dano": 17
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 30,
+      "esquiva_mais_resistencia": 30,
+      "aparar_mais_resistencia": 30,
+      "fortitude_mais_vontade": 20,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 112,
+    "defesas": 65,
+    "pericias": 75,
+    "vantagens": 4,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 256,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
+    "Perícias foram convertidas subtraindo do bônus total impresso o atributo 3e correspondente. Conhecimentos, Ofícios e Profissões foram mantidos como Especialidades; Condução/Pilotagem como Veículos; Sobrevivência como Especialidade: Sobrevivência; Computadores como Tecnologia.",
+    "Poderes preservam os descritores, ranks, modificadores e custos 2e impressos; o guia orienta o efeito 3e equivalente. Custos 3e ficam nulos quando a construção exata ou os modificadores não permitem cálculo seguro.",
+    "Nenhuma Motivação ou complicação não publicada foi acrescentada.",
+    "A fonte informa 122 PP na categoria Powers, mas os custos individuais listados somam 144 PP (Cosmic Energy Control 40, Device 33, Immunity 19, Protection 22, Super Senses 22, Super Strength 8). A discrepância de 22 PP foi preservada sem correção.",
+    "Subtotal 3e conhecido: 112 PP em habilidades, 75 em perícias, 65 em defesas, 4 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto."
+  ]
+}

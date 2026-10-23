@@ -1,0 +1,27 @@
+{
+  "nome": "Sun Boy",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 177,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 212
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "2",
+      "AGL": "3",
+      "DEX": "2",
+      "FGT": "3",
+      "INT": "3",
+      "AWE": "1",
+      "PRE": "3"
+    },
+    "poderes": "f lame i mmunit y: Immunity 10 (Fire and Heat Effects) • 10 points Solar a ur a: Reaction Damage 10 • 40 points Solar f ir e: Array (24 points) • Solar f ir e Blast: Ranged Damage 12 • 24 points • f lame a bsorption: Nullify Fire Effects 6, Simultaneous, Sustained • 1 point • f lame a bsorption Burst: Close Burst Area Nullify Fire Effects 6, Simultaneous, Sustained • 1 point • n o va Burst: Burst Area Damage 12 • 1 point • Solar f lash: Burst Area Cumulative Affliction 6 (Resisted by Fortitude; Visually Impaired, Visually Disabled, Visually Unaware) • 1 point",
+    "equipamento": "f ligh t r ing: Communication 5 (subspace radio, Anywhere, Limited to Distress Signal –3); Flight 7 (250 MPH) • 19 points t elepa thic e ar Plug: Comprehend 3 (Languages), Mental Communication 1 (Close Range) • 10 points t r anssuit: Immunity 9 (Life Support, except for starvation and thirst) • 9 points d a e S a V ant G Attractive, Benefit (Legion Membership), Connected, Defensive Attack, Defensive Roll 5, Equipment 6, Power Attack",
+    "pericias": "Close Combat: Unarmed 5 (+8), Expertise: Earth 5 (+8), Perception 4 (+5), Persuasion 6 (+9), Ranged Combat: Solar Fire Array 6 (+8), Technology 4 (+7) ffen S e o i nitia tive +3 Solar Fire Blast +8 Ranged, Damage 12 Unarmed +8 Close, Damage 2",
+    "defesas": "d odge 13 f or titude 8 t oughness 7/2* Parry 8 W ill 8 *Without Defensive Roll.",
+    "pontos_poder": "a bilities 38 S kills 15 Powers 78 d efenses 28 a dv antages 18 ToTal 177"
+  }
+}

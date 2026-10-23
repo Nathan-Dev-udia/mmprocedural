@@ -1,0 +1,29 @@
+{
+  "nome": "Timber Wolf",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": 219,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 238
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "12",
+      "STA": "10",
+      "AGL": "10",
+      "DEX": "8",
+      "FGT": "12",
+      "INT": "2",
+      "AWE": "8",
+      "PRE": "4"
+    },
+    "poderes": "as the result of one of his father’s experiments. On his father’s death, Brin was misled into believing that he was an android. Taking the name Lone Wolf, Brin performed a number of he - roic deeds and was approached by the Legion for member - ship, but he declined. Aided by Light Lass (Ayla Ranzz), Brin was cured of his delusional belief, and after a period of recov- ery he entered the Legion Academy as one of its first trainees. After a successful mission infiltrating the Legion of Super-Vil- lians, Brin adopted the name Timber Wolf and was inducted as a full member of the Legion of Super-Heroes.",
+    "equipamento": "f ligh t r ing: Communication 5 (subspace radio, Anywhere, Limited to Distress Signal –3); Flight 7 (250 MPH); • 19 points t elepa thic e ar Plug: Comprehend 3 (Languages), Mental Communication 1 (Close Range) • 10 points t r anssuit: Immunity 9 (Life Support, except for starvation and thirst) • 9 points",
+    "vantagens": "Accurate Attack, Agile Feint, Benefit 1 (Legion Membership), Defensive Roll 2, Equipment 8, Evasion, Fearless, Improved Critical (Claws), Improved Initiative 2 , Instant Up, Power Attack, Precise Attack (Close, Cover), Startle, Takedown, Uncanny Dodge",
+    "pericias": "Acrobatics 8 (+18), Athletics 6 (+18), Expertise (Jungles) 9 (+14), Expertise (Zoon) 5 (+8), Intimidation 10 (+14), Insight 4 (+12), Perception 8 (+16), Stealth 10 (+20), Vehicles 2 (+10)",
+    "ataques": "i nitia tive +18 Claws +12 Close, Damage 12, Penetrating 6 Unarmed +12 Close, Damage 12",
+    "defesas": "d odge 12 f or titude 14 Parry 12 t oughness 12/10* W ill 10 *without Defensive Roll",
+    "pontos_poder": "a bilities 132 S kills 31 Powers 26 d efenses 8 a dv antages 22 ToTal 219"
+  }
+}

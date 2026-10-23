@@ -1,0 +1,29 @@
+{
+  "nome": "Green Lantern (Alan Scott)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 14,
+  "pontos_poder_publicados": 200,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 242
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "2",
+      "AGL": "1",
+      "DEX": "2",
+      "FGT": "8",
+      "INT": "2",
+      "AWE": "2",
+      "PRE": "2"
+    },
+    "poderes": "Power Ring: 121 points, Removable (–24 points) • 97 points Ageless: Immunity 1 (Aging) • 1 point Flight: Flight 14 (32,000 MPH), Movement 4 (Environmental Adaptation: Zero-G, Space Travel 3) • 36 points Force Field: Protection 12, Impervious; Immunity 10 (Life Support) • 34 points The Green Flame: Array (36 points) Energy Blast: Ranged Damage 18, Dynamic • 37 points • Energy Constructs: Create 18, Dynamic • 2 points • Fourth-Dimensional Shift: Insubstantial 4 (vulnerable to wood) • 1 point • Lifting: Move Object 18, Dynamic • 2 points • Mobile Constructs: Create 12, Movable, Dynamic • 2 points Scanning: Senses 6 (Ranged Analytical Detect Energy and Magic) • 6 points",
+    "vantagens": "Contacts, Diehard, Extraordinary Effort",
+    "pericias": "Athletics 4 (+6), Expertise: Business 6 (+8), Expertise: Engineering 8 (+10), Insight 7 (+9), Perception 5 (+7), Ranged Combat: Green Flame 8 (+10), Technology 4 (+6)",
+    "ataques": "Initiative +1 Green Flame +10 Ranged, Damage 18 Unarmed +8 Close, Damage 2",
+    "defesas": "Dodge 11 Fortitude 10 Parry 11 Toughness 14/2* Will 18 *Without Force Field Protection.",
+    "pontos_poder": "Abilities 42 Skills 21 Powers 97 Defenses 37 Advantages 3 ToTal 200",
+    "complicacoes": "Incarnation of the Flame: Alan Scott is no longer entirely mortal, being the vessel for the Starheart. This can cause mystical concerns for him that do not threaten ordinary people. Relationships: Alan is protective of his children, Jennie-Lynn (Jade) and Todd (Obsidian) and his wife Molly. Vulnerability: The Green Flame cannot affect wood, so Alan is vulnerable to wooden weapons (which ignore his Protection) and cannot directly manipulate wooden objects."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "nome": "Chronos (Walker Gabriel)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 137,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 120
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "2",
+      "AGL": "4",
+      "DEX": "3",
+      "FGT": "2",
+      "INT": "4",
+      "AWE": "3",
+      "PRE": "4"
+    },
+    "poderes": "Chronal Displacement Suit (Array (10 points) Time Travel (Movement 3 (Full Time Travel), Movement 2 (Alternate Timelines)), AE: Temporal Displacement Field ( Quickness 10), AE: Tesseract Storage (Feature 4 (Can store up to 2,000 lbs of items and summon them to hand at will)))",
+    "equipamento": "Headquarters: Chronopolis (Awesome; Tou 14; Concealed 4, Dimensional Portal, Isolated, Laboratory, Library, Living Space, Personnel, Power System, Security System, Self- Repairing, Temporal Limbo, Workshop)",
+    "vantagens": "Assessment, Beginner’s Luck, Connected, Daze (Deception), Defensive Roll 6, Equipment 5, Evasion, Improved Initiative 2, Improvised Tools, Seize Initiative, Taunt, Well-informed",
+    "pericias": "Close Combat: Unarmed 4 (+6), Deception 12 (+16), Expertise: History 5 (+9), Expertise: Physics 6 (+11), Insight 5 (+8), Persuasion 6 (+10), Sleight of Hand 8 (+11), Technology 6 (+10)",
+    "ataques": "Initiative +12, Unarmed +6 (Close, Damage 2)",
+    "defesas": "Dodge 12, Parry 12, Fortitude 8, Toughness 8/2, Will 8",
+    "pontos_poder": "Abilities 48 + Powers 12 + Advantages 22 + Skills 26 + Defenses 29 = 137"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "nome": "Psycho-Pirate",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": 121,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 120
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "0",
+      "STA": "3",
+      "AGL": "1",
+      "DEX": "1",
+      "FGT": "3",
+      "INT": "1",
+      "AWE": "1",
+      "PRE": "3"
+    },
+    "poderes": "Medusa Mask: Progressive Sight-Dependent Weaken Will 12 (Resisted by Will, Limited to Resistance checks against the Linked Affliction Only) with Linked Cumulative Sight- Dependant Affliction 12 Resisted by Will (Dazed, Compelled, Controlled), Limited to Emotions; Removable (-12 points) • 48 points Multiversal Vision: Feature 1 (Hayden remembers the Pre -Crisis multiverse and can see multiversal iterations of select beings and places) • 1 point",
+    "vantagens": "Daze (Deception), Defensive Roll 4, Luck 3, Seize Initiative, Taunt",
+    "pericias": "Deception 7 (+10), Expertise: Psychology 4 (+5), Insight 7 (+8), Perception 4 (+5), Persuasion 4 (+7) ffen S e o i nitia tive +1 Unarmed +3 Close, Damage 0 Medusa Mask — Perception, Weaken Will and Affliction, both Resisted by Will, DC 22",
+    "defesas": "d odge 11 f or titude 5 Parry 7 t oughness 7/3* W ill 8 *Without Defensive Roll.",
+    "pontos_poder": "a bilities 26 S kills 13 Powers 49 d efenses 23 a dv antages 10 ToTal 121",
+    "complicacoes": "ddic ted: r eality-Challenged: Psycho-Pirate is a “refugee” from an alternate reality that no longer exists and sometimes encounters difficulties because the multiverse doesn’t know exactly what to do with him. Mu L t I ver S a L a no M a L y At one point, Hayden temporarily could summon pre- Crisis versions of anyone back into existence. Mechani- cally, this is handled as a plot device trait rather than an enumerated power."
+  }
+}

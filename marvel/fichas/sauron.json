@@ -1,0 +1,152 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Sauron",
+  "nome_pt": "Sauron",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 165,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 84
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 6,
+      "Vig": 6,
+      "Agi": 5,
+      "Des": 5,
+      "Lut": 6,
+      "Int": 2,
+      "Pro": 1,
+      "Pre": 1
+    },
+    "defesas": {
+      "Esquiva": 12,
+      "Aparar": 12,
+      "Fortitude": 9,
+      "Resistencia": 8,
+      "Vontade": 5
+    },
+    "pericias": {
+      "Enganação": 4,
+      "Tecnologia": 4,
+      "Veículos": 2,
+      "Intimidação": 12,
+      "Especialidade: Behavioral Sciences": 8,
+      "Tratamento": 7,
+      "Percepção": 8,
+      "Intuição": 12,
+      "Furtividade": 8,
+      "Especialidade: Sobrevivência": 7
+    },
+    "vantagens": [
+      "Favored Environment (Airborne) 12",
+      "Move-by Action",
+      "Startle"
+    ],
+    "poderes": [
+      {
+        "nome": "Blast 10",
+        "construcao_3e": "Cone Area, Full Action.",
+        "custo_2e_pp": 20,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Drain (Stamina) 8",
+        "construcao_3e": "Weaken Stamina 8.",
+        "custo_2e_pp": 8,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Enhanced Strength 8",
+        "construcao_3e": "Enhanced Trait: Strength 8.",
+        "custo_2e_pp": 8,
+        "custo_3e_pp": 16
+      },
+      {
+        "nome": "Enhanced Dexterity 8",
+        "construcao_3e": "Enhanced Trait: Dexterity 8.",
+        "custo_2e_pp": 8,
+        "custo_3e_pp": 16
+      },
+      {
+        "nome": "Enhanced Constitution 8",
+        "construcao_3e": "Enhanced Trait: Stamina 8.",
+        "custo_2e_pp": 8,
+        "custo_3e_pp": 16
+      },
+      {
+        "nome": "Flight 4",
+        "construcao_3e": "Flight 4.",
+        "custo_2e_pp": 8,
+        "custo_3e_pp": 8
+      },
+      {
+        "nome": "Mind Control 8",
+        "construcao_3e": "Mind Control 8, Sense-Dependent (sight).",
+        "custo_2e_pp": 8,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Protection 3",
+        "construcao_3e": "Protection 3.",
+        "custo_2e_pp": 3,
+        "custo_3e_pp": 3
+      },
+      {
+        "nome": "Strike 2",
+        "construcao_3e": "Damage 2, Mighty, Improved Critical 2.",
+        "custo_2e_pp": 5,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [],
+    "complicacoes": [
+      "Transformação involuntária: Karl Lykos (3 PP na fonte)."
+    ],
+    "ataques": [
+      {
+        "nome": "Fire Breath",
+        "bonus": 10,
+        "dano": 10
+      },
+      {
+        "nome": "Claws",
+        "bonus": 8,
+        "dano": 8
+      },
+      {
+        "nome": "Blast (cone)",
+        "bonus": 8,
+        "dano": 10
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 20,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 14,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 64,
+    "defesas": 46,
+    "pericias": 36.0,
+    "vantagens": 14,
+    "poderes_conhecidos": 59,
+    "subtotal_conhecido": 219.0,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Fearsome Presence não é vantagem direta; foi registrada nas notas sem inventar custo de Affliction. Esquiva/Aparar foram reduzidas para respeitar o NP.",
+    "A fonte imprime STR/DEX/CON/INT/WIS/CHA +6/+5/+6/+2/+1/+1; Toughness +8, Fortitude +9, Reflex +9, Will +5; Attack +6 (+12 w/ Flying); Defense 16 (22 w/ Flying); Initiative +5.",
+    "A anotação de ataque de Sauron inclui bônus de defesa 22 durante voo; foi preservada como fato da fonte. Esquiva/Aparar 12 com Resistência 8 ficam no limite PL 10.",
+    "Involuntary Transformation foi convertida em complicação preservando Karl Lykos.",
+    "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +6/+5/+6/+2/+1/+1. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
+    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
+  ]
+}

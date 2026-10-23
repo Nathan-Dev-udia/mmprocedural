@@ -1,0 +1,28 @@
+{
+  "nome": "Mister Terrific (Terry Sloane)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 145,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 65
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "3",
+      "AGL": "5",
+      "DEX": "5",
+      "FGT": "11",
+      "INT": "6",
+      "AWE": "4",
+      "PRE": "2"
+    },
+    "vantagens": "Assessment, Defensive Roll 3, Eidetic Memory, Improved Initiative, Improvised Tools, Languages 4, Power Attack, Ranged Attack 5",
+    "pericias": "Acrobatics 8 (+13), Athletics 10 (+13), Close Combat: Unarmed 4 (+15), Insight 8 (+12), Investigation 10 (+16), Perception 4 (+8), Stealth 6 (+11), Technology 8 (+14), Vehicles 4 (+9)",
+    "ataques": "Initiative +9, Unarmed +15 (Damage 3)",
+    "defesas": "Dodge 12, Parry 12, Fortitude 8, Toughness 6/3*, Will 10 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 78 + Powers 0 + Advantages 17 + Skills 31 + Defenses 19 = 145",
+    "complicacoes": "t hrills: Mister Terrific helps others in order to give himself a sense of excitement and fulfillment. o bsession— f air Pla y: Mister Terrific is dedicated to the concept of “fair play” for all."
+  }
+}

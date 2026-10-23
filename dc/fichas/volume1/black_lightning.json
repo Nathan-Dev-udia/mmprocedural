@@ -1,0 +1,29 @@
+{
+  "nome": "Black Lightning",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 174,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 63
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "4",
+      "AGL": "4",
+      "DEX": "6",
+      "FGT": "5",
+      "INT": "4",
+      "AWE": "3",
+      "PRE": "5"
+    },
+    "poderes": "Electrokinesis: Array (24 points) • Lightning Bolt: Damage 12, Dynamic • 25 points • Ground Charge: Burst Area Affliction 11 (Resisted by Fortitude; Dazed, Stunned, Incapacitated) , Dynamic • 2 points • Ride the Lightning: Flight 4 (30 MPH), Concentration, Dynamic • 2 points • Short Circuit: Affliction 12 (Resisted by Dodge; Impaired, Disabled, Incapacitated), Limited: Only effects electrical devices, robots, and cybernetics), Dynamic • 2 points • Static Shield: Protection 7, Aftfects Others, Sustained, Increased Range (Close), Distracting, Dynamic • 2 points • Stun Shock: Ranged Affliction 9 (Resisted by Fortitude; Dazed, Stunned, Incapacitated), Dynamic • 2 points",
+    "vantagens": "Agile Feint, All-out Attack, Connected, Defensive Roll 4, Extraordinary Effort, Improved Critical 2 (Lightning Bolts), Improved Initiative, Power Attack, Ranged Attack 4",
+    "pericias": "Acrobatics 5 (+9), Athletics 10 (+13), Close Combat: Short Circuit 5 (+10), Close Combat: Unarmed 5 (+10), Expertise: Education 12 (+16), Expertise: Politics 6 (+10), Insight 5 (+8), Intimidation 3 (+8), Investigation 3 (+7), Perception 5 (+8), Ranged Combat: Stun Shock 3 (+9)",
+    "ataques": "Initiative +8 Lightning Bolts +10 Ranged, Damage 12, Crit. 18-20 Ground Charge — Burst Area, Affliction 11, Resisted by Fortitude Stun Shock +13 Ranged, Affliction 9, Resisted by Fortitude Short Circuit +10 Close, Affliction 12 (electrical; electrical devices, robots, and cybernetics only) Unarmed +10 Close, Damage 3",
+    "defesas": "Dodge 14 Fortitude 8 Parry 10 Toughness 8/4* Will 8 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 68 Skills 31 Powers 35 Defenses 24 Advantages 16 ToTal 174",
+    "complicacoes": "Social Responsibility: Black Lightning is as interested in helping society by running a food drive or teaching a civics class at an inner-city high school as he is helping society by defeating super-villains. In addition to being a super hero, he has also been a high school principal and the U.S. Secretary of Education."
+  }
+}

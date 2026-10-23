@@ -1,0 +1,26 @@
+{
+  "nome": "Jonathan Kent",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 2,
+  "pontos_poder_publicados": 33,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 221
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "0",
+      "STA": "1",
+      "AGL": "0",
+      "DEX": "1",
+      "FGT": "2",
+      "INT": "1",
+      "AWE": "2",
+      "PRE": "2"
+    },
+    "pericias": "Expertise: Farming 8 (+9), Insight 4 (+6), Perception 4 (+6), Persuasion 4 (+6)",
+    "ataques": "Initiative +0, Attack +2 (Close, Damage 0)",
+    "defesas": "Dodge 2, Parry 3, Fortitude 2, Toughness 1, Will 2",
+    "pontos_poder": "Abilities 18 + Powers 0 + Advantages 0 + Skills 10 + Defenses 5 = Total 33"
+  }
+}

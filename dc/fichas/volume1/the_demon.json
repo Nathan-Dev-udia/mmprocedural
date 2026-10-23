@@ -1,0 +1,26 @@
+{
+  "nome": "The Demon",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 161
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "10",
+      "STA": "10",
+      "AGL": "4",
+      "DEX": "3",
+      "FGT": "10",
+      "INT": "3",
+      "AWE": "2",
+      "PRE": "4"
+    },
+    "poderes": "Ageless: Immunity 1 (Aging) • 1 point Demonic Prowess: Enhanced",
+    "vantagens": "(Improved Initiative); Enhanced Strength 4, Limited to Lifting (Lifting Str 14; 400 tons); Leaping 3; Quickness 1; Speed 1 • 10 points Demonic Regeneration: Immortality 10; Regeneration 10 • 30 points Demonic Resilience: Immunity 1 (Pain); Impervious Protection 4 • 9 points Demonic Senses: Senses 4 (Darkvision, Extended Hearing, Extended Vision) • 4 points Heartless: Immunity 1 (Attacks that affect the heart) • 1 point Magic: Array (30 points) • Hellfire Projection: Cone Area Damage (Hellfire) 12, Secondary Effect on 6 ranks • 30 points • Matter Control: Transform 6 (anything into anything) • 1 point • Telekinesis: Move Object 12 • 1 point Mystic Claws/Fangs: Strength-based Damage 2, Penetrating 6 • 8 points Precognition: Senses 4 (Precognition) • 4 points Telepathy: Communication (Mental) 1 • 4 points ADVANTAGES All-out Attack, Close Attack 2, Fearless, Great Endurance, Improved Initiative , Languages 3, Power Attack, Ranged Attack 9, Ritualist, Takedown",
+    "pericias": "Athletics 2 (+12), Deception 10 (+14) Expertise: Magic 12 (+15), Expertise: Religion 8 (+11), Insight 6 (+8), Intimidation 12 (+16), Perception 10 (+12), Persuasion 8 (+12), Stealth 6 (+10)",
+    "ataques": "Initiative +8 Claws & Fangs +12 Close, Damage 12, Penetrating 6 Hellfire — Close, Cone Area Damage 12, Secondary Effect on 6 ranks Slam +12 Close, Damage 10 Magic Spells +12 Varies JASON BLOOD Bound to the demon Etrigan for centuries, Jason Blood works tirelessly to limit the damage caused the Demon. Despite all his magical power, he’s only a man and must often summon the Demon to ensure his own survival. LUCIFER’S TRIDENT Though typically seen in the hands of Blue Devil, Etrigan has on several occasions gained possession of this powerful item. Trident of Lucifer: Array (5 points), Easily Removable (–1 point), Indestructible • Locate Demons: Senses 5 (Accurate, Ranged Detect Demons, Extended) • • Trident Thrust: Strength-based Damage 2, Penetrating 3 • 1 point • Banish Demon: Movement 1 (Dimension Travel (Hell)), 1 Extra Rank, Attack (Resisted by Will (DC 12)), Ranged, Limited to banishing demons • 1 point 160 160 Andre Nutter (order #3020437)"
+  }
+}

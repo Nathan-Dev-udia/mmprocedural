@@ -1,0 +1,29 @@
+{
+  "nome": "Green Arrow (Oliver Queen)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 146,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 233
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "2",
+      "AGL": "4",
+      "DEX": "4",
+      "FGT": "4",
+      "INT": "1",
+      "AWE": "2",
+      "PRE": "3"
+    },
+    "equipamento": "Bow and Arrows: Array (10 points) • Standard Arrow: Ranged Damage 5 • 10 points • Cable Arrow: Movement (Swinging) • 1 point • Flare Arrow: Ranged Affliction 5 (Resisted by Fortitude; Vision Impaired, Vision Disabled, Vision Unaware) • 1 point • Knockout Gas Arrow: Ranged Burst Area Affliction 3 (Resisted by Fortitude; Fatigued, Exhausted, Asleep) • 1 point • Net Arrow: Ranged Affliction 3 (Resisted by Dodge; Hindered and Vulnerable, Defenseless and Immobile) • 1 point • Stun Arrow: Ranged Affliction 3 (Resisted by Fortitude; Dazed, Stunned, Incapacitated) • 1 point",
+    "vantagens": "Accurate Attack, All-out Attack, Benefit 3 (wealthy), Defensive Roll 4, Equipment 3, Improved Aim, Improved Critical (Bow), Improved Disarm, Improved Initiative, Move-by Action, Power Attack, Precise Attack 2 (Ranged, Cover and Concealment), Ranged Attack 3, Quick Draw, Skill Mastery (Ranged Combat: Bow), Takedown, Taunt, Ultimate Effort (Aim), Uncanny Dodge",
+    "pericias": "Acrobatics 4 (+8), Athletics 8 (+10), Close Combat: Unarmed 4 (+8), Deception 8 (+11), Expertise: Journalism 6 (+7), Expertise: Politics 6 (+7), Expertise: Survival 4 (+5), Insight 6 (+8), Intimidation 4 (+7), Investigation 6 (+7), Perception 6 (+8), Ranged Combat: Bow 8 (+12), Stealth 8 (+12), Vehicles 6 (+10) with verbal aim and arrows just as precise. He fiercely (and loudly) defends people and causes he believes in and has a real sympathy for the downtrodden and often-ignored mem - bers of society.",
+    "ataques": "Initiative +8 Bow +15 Ranged, Damage 5 plus others, Crit. 19-20 Unarmed +8 Close, Damage 2",
+    "defesas": "Dodge 14 Fortitude 7 Parry 12 Toughness 6/2* Will 10 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 44 Skills 42 Powers 0 Defenses 31 Advantages 29 ToTal 146",
+    "complicacoes": "Beliefs: Green Arrow is an outspoken liberal, willing to defend his beliefs with action as well as words, which gets him into trouble (and no small number of arguments). Relationships: Married to Black Canary, father of Connor Hawke, mentor of Mia Dearden (Speedy), former mentor of Roy Harper (Red Arrow). Temper: Ollie can have a short fuse, particularly when it comes to social and political causes he believes in. A number of Green Arrow’s more common trick arrows are listed as part of his standard equipment (and therefore usable any time), but the Emerald Archer’s quiver is also an excellent opportunity for power stunts; pulling out just the right trick arrow for the job, much like he does in the comics. Because Green Arrow’s quiver is equipment, the Gamemaster may require the expenditure of a hero point to perform power stunts for it, rather than simply using extra effort. (See the Gadgets & Gear chapter of the DC A Dventures Hero’s Hand - book for additional information.) Note that while Green Arrow’s weapons have a relatively low rank, being based on just 10 power points of effect, his con - siderable skill with a bow and his Power Attack advantage allows him to augment that rank by taking the appropriate penalty to his attack check, particularly against opponents he knows that he can hit easily. ALLIES Green Arrow was one of the first members invited to join the newly formed Justice League of America and served as a reg - ular member of the team. There he met Black Canary (Dinah Laurel Lance) and the two of them began a long-standing ro - mantic relationship and were eventually married. Ollie has also mentored other heroes, including his ward Roy Harper and Mia Dearden, who both used the identity of “Speedy. ” ENEMIES Green Arrow’s enemies have included other archers like the assassins Shado and Merlyn and more mercenary criminals like Count Vertigo."
+  }
+}

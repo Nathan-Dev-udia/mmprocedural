@@ -1,0 +1,29 @@
+{
+  "nome": "Professor Amos Fortune (Ace I)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 148,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 151
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "1",
+      "AGL": "0",
+      "DEX": "1",
+      "FGT": "0",
+      "INT": "4",
+      "AWE": "4",
+      "PRE": "3"
+    },
+    "poderes": "Stellaration e nergy d evice (Ranged Cumulative Affliction 10 (Resisted by Will; Dazed, Compelled, Controlled), Easily Removable (–12 points)), Stimoluck d evice (Luck Control 4, Burst Area, Selective, Enhanced Advantage 13 (Beginner’s Luck, Inspire 5, Leadership, Luck 5, Seize Initiative), Enhanced Defenses 20 (Dodge & Parry 10); Easily Removable (–20 points), Quirk (Only Affects Humans))",
+    "vantagens": "Benefit 2 (Independently Wealthy), Beginner’s Luck , Defensive Roll 2, Inspire 5 , Inventor, Leadership , Luck 5 , Quick Draw, Seize Initiative , Teamwork",
+    "pericias": "Close Combat: Unarmed 3 (+3), Deception 7 (+10), Expertise: Criminal 7 (+11), Expertise: Gambling 9 (+13), Expertise: Luck 6 (+10), Expertise: Science 7 (+11), Insight 7 (+11), Perception 9 (+10), Persuasion 7 (+10), Ranged Combat: Stellaration Energy Device 9 (+10), Technology 9 (+13)",
+    "ataques": "Initiative +0, Stellaration Energy Device +10 (Ranged, Cumulative Affliction 10), Unarmed +3 (Close, Damage 1)",
+    "defesas": "Dodge 17, Parry 17, Fortitude 6, Toughness 3/1*, Will 10 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 28 + Powers 50 + Advantages 7 + Skills 38 + Defenses 25 = 148",
+    "complicacoes": "Greed: Like any gambler, Fortune always looks to take home a bigger pot."
+  }
+}

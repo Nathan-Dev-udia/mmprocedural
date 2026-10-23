@@ -1,0 +1,97 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Wither",
+  "nome_pt": "Wither",
+  "nivel_poder": 9,
+  "pontos_poder_origem": 135,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 114
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 8,
+      "Int": 1,
+      "Pro": 0,
+      "Pre": 0
+    },
+    "defesas": {
+      "Esquiva": 11,
+      "Aparar": 11,
+      "Fortitude": 7,
+      "Resistencia": 6,
+      "Vontade": 3
+    },
+    "pericias": {
+      "Enganação": 8,
+      "Atletismo": 8,
+      "Veículos": 8,
+      "Intimidação": 12,
+      "Percepção": 8,
+      "Intuição": 6,
+      "Furtividade": 6
+    },
+    "vantagens": [
+      "All-Out Attack",
+      "Defensive Attack",
+      "Equipment",
+      "Improved Defense",
+      "Improved Grab",
+      "Improved Pin",
+      "Power Attack",
+      "Startle",
+      "Teamwork 3"
+    ],
+    "poderes": [
+      {
+        "nome": "Drain [Constitution]",
+        "construcao_3e": "Efeito 3e correspondente ao descritor (rank 2e 10); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Drain [Constitution] 10 (Extras: Duration – Concentration [+1], Vampiric [+1], Aura [+1] 9; Flaws: Uncontrolled [-1]; Alternate Power: Corrosion 10 (Extras: Duration –Concentration [+1]; Flaws: Only Effects Organic Material [-1]); 41pp) Componentes/efeitos alternativos mapeados: Corrosion → Weaken Toughness ligado a Damage; Drain → Weaken.; custo 2e impresso 41 PP.",
+        "custo_2e_pp": 41,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Hellion Uniform [+4 Toughness; Comm-Link; 5ep]"
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "dano": 2
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 10,
+      "esquiva_mais_resistencia": 17,
+      "aparar_mais_resistencia": 17,
+      "fortitude_mais_vontade": 10,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 30,
+    "defesas": 38,
+    "pericias": 56,
+    "vantagens": 11,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 135,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
+    "Perícias foram convertidas subtraindo do bônus total impresso o atributo 3e correspondente. Conhecimentos, Ofícios e Profissões foram mantidos como Especialidades; Condução/Pilotagem como Veículos; Sobrevivência como Especialidade: Sobrevivência; Computadores como Tecnologia.",
+    "Poderes preservam os descritores, ranks, modificadores e custos 2e impressos; o guia orienta o efeito 3e equivalente. Custos 3e ficam nulos quando a construção exata ou os modificadores não permitem cálculo seguro.",
+    "Nenhuma Motivação ou complicação não publicada foi acrescentada.",
+    "Vantagens sem equivalente direto foram removidas conforme o guia; não foram recriadas como poderes: Elusive Target; Fearsome Presence (4) [DC 13; 15 ft.]; Rage (3) [+8 Strength, +4 Fortitude & Will Saves].",
+    "Subtotal 3e conhecido: 30 PP em habilidades, 56 em perícias, 38 em defesas, 11 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto."
+  ]
+}

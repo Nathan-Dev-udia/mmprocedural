@@ -1,0 +1,29 @@
+{
+  "nome": "Congorilla",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 183,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 126
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "7",
+      "STA": "7",
+      "AGL": "5",
+      "DEX": "3",
+      "FGT": "6",
+      "INT": "3",
+      "AWE": "3",
+      "PRE": "4"
+    },
+    "poderes": "Golden Gorilla: Feature 1 (Can use feet like hands); Movement 5 (Sure-Footed 2, Safe Fall, Swinging, Wall- crawling); Regeneration 10 • 21 points Scent Tracking: Senses 10 (Accurate Olfactory, Analytical Olfactory, Extended Olfactory, Low-Light Vision, Postcognition (Limited to Olfactory), Tracking) • 10 points",
+    "vantagens": "All-out Attack, Animal Empathy, Benefit 4 (Ambidexterity, Millionaire), Chokehold, Close Combat 7, Defensive Roll 6, Diehard, Fast Grab, Great Endurance, Improved Critical 2 (Unarmed), Improved Grab, Improved Hold, Improved Smash, Improved Trip, Move-by Action, Power Attack, Prone Fighting, Tracking, Uncanny Dodge",
+    "pericias": "Acrobatics 7 (+12), Athletics 11 (+18), Close Combat: Unarmed 7 (+13), Expertise: Africa 6 (+9), Expertise: Hunting 7 (+10), Intimidation 8 (+12), Perception 6 (+9), Ranged Combat: Guns 7 (+10), Vehicles 6 (+9)",
+    "ataques": "Initiative +5 Unarmed +13 Close, Damage 7, Crit. 18-20",
+    "defesas": "Dodge 7 Fortitude 13 Parry 7 Toughness 13/7* Will 7 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 76 Skills 29 Powers 31 Defenses 13 Advantages 34 ToTal 183",
+    "complicacoes": "African Protector: Congorilla takes his role as protector of the African lands he and his gorilla tribe call home very seriously, but he is also a mentor and partner to other African heroes, lending them the benefit of his century of experience. Severed Bond: The body of Congo Bill was killed with the mind of the Congorilla inside it. There may be unforeseen side effects to Congo Bill’s mind remaining inside the Golden Gorilla’s body for an extended period."
+  }
+}

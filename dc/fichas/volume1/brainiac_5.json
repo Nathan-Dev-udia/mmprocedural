@@ -1,0 +1,30 @@
+{
+  "nome": "Brainiac 5",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 196,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 86
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "1",
+      "AGL": "2",
+      "DEX": "3",
+      "FGT": "4",
+      "INT": "13",
+      "AWE": "6",
+      "PRE": "3"
+    },
+    "poderes": "Force Field Belt: Immunity 10 (Life Support); Protection 11, Impervious, Affects Others, Continuous, Removable (-11 points) • 43 points Twelfth Level Intellect: Comprehend 3 (Speak and Read Languages); Quickness 10, Limited to Mental Tasks • 11 points",
+    "equipamento": "Flight Ring: Communication 5 (Subspace Radio, Anywhere, Limited to Distress Signal, –3 points), Flight 7 (250 MPH) • 16 points Mini-Computo: Feature 3 (Computer, Video Recorder, Audio Recorder); Comprehend 1 (Machines)• 5 points Telepathic Earplug: Comprehend 3 (Languages), Mental Communication 1 (Close Range)• 7 points",
+    "vantagens": "Assessment, Beginner’s Luck, Benefit 1 (Legion membership), Defensive Attack, Eidetic Memory, Equipment 6, Improved Initiative, Improvised Tools, Inventor, Jack-of-all-trades, Set-up, Skill Mastery 2 (Expertise: Science, Technology), Taunt, Ultimate Effort 2 (Expertise: Science, Technology), Well-informed",
+    "pericias": "Athletics 3 (+4), Close Combat: Unarmed 6 (+10), Deception 5 (+11), Expertise: Known Space 5 (+18), Expertise: Medicine 5 (+18), Expertise: Science 7 (+20), Insight 5 (+11), Investigation 5 (+18), Perception 8 (+14), Technology 7 (+20), Treatment 5 (+18), Vehicles 7 (+10)",
+    "ataques": "Initiative +6 Unarmed +10 Close, Damage 1",
+    "defesas": "Dodge 8 Fortitude 6 Parry 8 Toughness 12 Will 11",
+    "pontos_poder": "Abilities 66 Skills 34 Powers 54 Defenses 20 Advantages 22 ToTal 196",
+    "complicacoes": "Arrogance: Brainiac 5 is condescending towards and often dismissive of people of lesser intellect. Guilt by Association: Brainiac 5 seeks to redeem the name of Brainiac and atone for the actions of the villains to bear the name. Instability: Brainiac 5 is prone to bouts of temporary insanity and mental breakdowns. These can occur due to extreme stress or from outside influence."
+  }
+}

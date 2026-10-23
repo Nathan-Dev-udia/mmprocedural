@@ -1,0 +1,104 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Hellion",
+  "nome_pt": "Hellion",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 135,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 37
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 8,
+      "Int": 1,
+      "Pro": 1,
+      "Pre": 2
+    },
+    "defesas": {
+      "Esquiva": 14,
+      "Aparar": 14,
+      "Fortitude": 6,
+      "Resistencia": 6,
+      "Vontade": 6
+    },
+    "pericias": {
+      "Acrobacia": 8,
+      "Enganação": 12,
+      "Atletismo": 6,
+      "Especialidade: Táticas": 10,
+      "Intuição": 8,
+      "Furtividade": 8,
+      "Combate Corpo a Corpo: Desarmado": 2,
+      "Combate à Distância: Ataques gerais": 7
+    },
+    "vantagens": [
+      "All-out Attack",
+      "Defensive Attack",
+      "Equipment 1",
+      "Improved Defense",
+      "Improved Critical (Unarmed)",
+      "Improved Initiative 2",
+      "Improved Trip",
+      "Inspire",
+      "Instant Up",
+      "Move-by Action",
+      "Power Attack",
+      "Teamwork"
+    ],
+    "poderes": [
+      {
+        "nome": "Telekinesis",
+        "construcao_3e": "Move Object 12 (Dynamic, Damaging); Alternate Effects: Flight and Force Field (Impervious).",
+        "custo_2e_pp": 41,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Uniforme dos Hellions (+4 Resistência; com-link; 5 EP)"
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "dano": 3
+      },
+      {
+        "nome": "Telekinesis",
+        "bonus": 8,
+        "dano": 12
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 20,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 12,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 36,
+    "defesas": 28,
+    "pericias": 30.5,
+    "vantagens": null,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 94.5,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Attack Specialization (Unarmed) 1 foi convertida em 2 graduações de Combate Corpo a Corpo: Desarmado. Sneak Attack e Ranged Pin foram removidas conforme o guia.",
+    "Defesas ajustadas para Esquiva 14 e Aparar 14, respeitando os limites de NP 10 com Resistência 6.",
+    "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias e apenas os custos de poderes confirmados; não inclui vantagens nem custos incertos."
+  ]
+}

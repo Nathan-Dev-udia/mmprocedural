@@ -1,0 +1,30 @@
+{
+  "nome": "Dream Girl",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 182,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 186
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "5",
+      "AGL": "4",
+      "DEX": "3",
+      "FGT": "7",
+      "INT": "7",
+      "AWE": "8",
+      "PRE": "6"
+    },
+    "poderes": "Precognition: Senses 5 (Danger Sense, Precognition) • 5 points",
+    "equipamento": "Flight Ring: Communication 5 (subspace radio, Anywhere, Limited to Distress Signal –3 points); Flight 7 (250 MPH), Removable (–3 points) • 16 points Telepathic Plug: Comprehend 3 (Languages); Mental Communication 1 (Close Range), Removable (–1 point) • 7 points Transsuit: Immunity 9 (Life Support, except for starvation and thirst), Removable (–2 point) • 7 points",
+    "vantagens": "All-out Attack, Assessment, Attractive, Benefit 1 (Legion membership), Defensive Attack, Defensive Roll 3, Equipment 6, Evasion, Interpose, Leadership, Move-by Action, Power Attack, Redirect, Set-up, Teamwork, Trance, Uncanny Dodge",
+    "pericias": "Athletics 4 (+6), Close Combat: Unarmed 8 (+13), Deception 10 (+16), Expertise: Biology 12 (+19), Expertise: Science 12 (+19), Expertise: Medicine 8 (+15), Expertise: Tactics 10 (+17), Insight 8 (+16), Investigation 4 (+11), Perception 4 (+12), Persuasion 10 (+16), Technology 10 (+17), Treatment 6 (+13)",
+    "ataques": "Initiative +4 Unarmed +15 Close Range, Damage 2",
+    "defesas": "Dodge 10 Fortitude 8 Parry 10 Toughness 8/5* Will 12 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 84 Skills 53 Powers 5 Defenses 16 Advantages 24 ToTal 182",
+    "complicacoes": "Relationship: Dream Girl and Star Boy have been a couple for years. The care for and protect each other. Motivation—Responsibility: Dream Girl uses her powers to help others because she feels she’s been given those powers for a reason. ALLIES As a member of the Legion, Nura can call on most members for help. She is also on good terms with the Science Police and many Naltorian scientists. ENEMIES Nura’s enemies include any that threaten the United Planets or the Legion, including the Dominators, the Fatal Five and many others."
+  }
+}

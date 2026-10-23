@@ -1,0 +1,30 @@
+{
+  "nome": "Starman (David Knight)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 124,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 202
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "2",
+      "AGL": "2",
+      "DEX": "3",
+      "FGT": "3",
+      "INT": "1",
+      "AWE": "1",
+      "PRE": "1"
+    },
+    "poderes": "Cosmic r od (Array (20 points), Removable (-5 points), Star Beam (Ranged Damage 10, Dynamic), ae : Star Blast (Ranged Cone Area Damage 6, Dynamic), ae : Starshine (Ranged Affliction 10 (Resisted by Fortitude; Visually Impaired, Visually Disabled, Visually Unaware), Dynamic); Star Cape (Removable (-4 points), Flight 7 (250 MPH); Sustained Protection 8)",
+    "equipamento": "Starship ( Size: Huge, Str: 8, t ou: 9 d ef: 8; f ea tures: Flight 8 (500 MPH), Gravity Beam (Move Object 8, Continuous), Communications, Infirmary, Remote Control)",
+    "vantagens": "Defensive Attack, Equipment 10, Improved Disarm, Luck, Move-by Action",
+    "pericias": "Acrobatics 6 (+8), Athletics 6 (+8), Close Combat: Unarmed 5 (+8), Perception 8 (+9), Ranged Combat: Cosmic Rod 5 (+8), Vehicles 5 (+8)",
+    "ataques": "Initiative +6, Star Beam +8 (Ranged, Damage 10), Unarmed +8 (Close, Damage 2)",
+    "defesas": "Dodge 8, Parry 8, Fortitude 8, Toughness 10, Will 8",
+    "pontos_poder": "Abilities 30 + Powers 38 + Advantages 14 + Skills 18 + Defenses 24 = 124",
+    "complicacoes": "r esponsibility: David becomes Starman because he believes it’s his destiny and responsiblity. d oomed: David was apparently born to die, something he is aware of during his time as the Starman of the 1950s."
+  }
+}

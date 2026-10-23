@@ -1,0 +1,28 @@
+{
+  "nome": "Shimmer",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 152,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 201
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "4",
+      "AGL": "2",
+      "DEX": "1",
+      "FGT": "2",
+      "INT": "1",
+      "AWE": "1",
+      "PRE": "2"
+    },
+    "poderes": "Transmutate Object ( Transform 11 (Anything to Anything), Continuous, Quirk: Instant Recover after Minutes (-1 point), AE: Acid Touch ( Damage 12, Penetrating 6, Secondary Effect), AE: Transmutate Being ( Cumulative Affliction 12 (Resisted by Dodge then Fortitude; Dazed, Immobile, Incapacitated), Continuous, Quirk: Instant Recovery after Minutes (-1 point))) Advantages; All-out Attack, Defensive Roll 5, Fast Grab, Improved Grab, Seize Initiative, Taunt",
+    "pericias": "Acrobatics 8 (+10), Athletics 4 (+5), Close Combat: Touch 8 (+10), Deception 7 (+9), Intimidation 8 (+10), Persuasion 7 (+9)",
+    "ataques": "Initiative +2, Acid Touch +10 (Close, Damage 12, Penetrating 6, Resisted by Dodge then Fortitude, Secondary Effect), Transmutate +10 (Close, Cumulative Affliction 12)",
+    "defesas": "Dodge 10, Parry 10, Fortitude 8, Toughness 9/4*, Will 8 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 28 + Powers 67 + Advantages 9 + Skills 21 + Defenses 27 = 152",
+    "complicacoes": "Broken: Shimmer’s personality and outlook have clearly changed since she was brought back from her shattered state. How much she’s changed and what it may mean for her future is unknown."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "nome": "Superman",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 15,
+  "pontos_poder_publicados": 289,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 218
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "19",
+      "STA": "14",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "8",
+      "INT": "2",
+      "AWE": "2",
+      "PRE": "4"
+    },
+    "poderes": "f Array (30 points) ligh t: • Flight 15 (64,000 MPH) • 30 points • Quickness 7, Stacks with Super-Speed; Speed 15 (64,000 MPH) • 1 point • Movement 1 (Space Travel 1) • 1 point Heat Vision: Ranged Damage 15 • 30 points i n vulnerability: Protection 4; Impervious Toughness 18; Immunity 5 (Cold, Heat, Pressure, Radiation, Vacuum) • 27 points Super-Breath: Alternate Effects of Strength Damage (19 points) • Cone Area Affliction 9 (Resisted by Fortitude; Hindered, Immobile, Paralyzed) • 1 point • Cone Area Move Object 9, Close Range, Limited to Pushing and Pulling • 1 point Super-Senses: Senses 15 (Acute and Extended Hearing, Extended Vision 3, Infravision, Microscopic Vision 4, Ultra- Hearing, Vision Penetrates Concealment (except lead)) • 15 points Super-Speed: Quickness 8 • 8 points Super-Strength: Enhanced Strength 4, Limited to Lifting (Lifting Str23; 200,000 tons) • 4 points",
+    "equipamento": "H q : f ortress of s o L itude • 25 POI n TS Size: Huge t ou: 20 f ea tures: Communications, Computer, Concealed 3 (+20 DC),",
+    "defesas": "d odge 10 f or titude 15 Parry 10 t oughness 18 W ill 15",
+    "vantagens": "Connected, Equipment 5, Extraordinary Effort, Inspire 3, Languages (Kryptonian), Leadership, Power Attack, Seize Initiative, Ultimate Effort (Toughness checks) see and hear over great distances, peer through solid objects with his X-ray vision, see in the infrared spectrum and down to the microscopic, and hear in the ultrasonic bandwidth. Superman can project a beam of heat from his eyes—his “heat vision. ” At the lowest levels, his eyes seem to glow red as the object he is looking at heats up. At higher levels, the heat beams are actually visible. His super breath is a powerful blast of compressed air, also capable of supercooling objects, instantly forming ice from moisture in the air. The Man of Steel has used various other powers on occasion. These are usually temporary abilities acquired by circum- stance or power stunts of his existing abilities. The Game - master should handle these as regular power stunts (see DC Adventures, page 21).",
+    "pericias": "Close Combat: Unarmed 3 (+11), Expertise: Farming 4 (+6), Expertise: Krypton 8 (+10), Expertise: Journalism 10 (+12), Perception 8 (+10), Persuasion 8 (+12), Ranged Combat: Heat Vision 8 (+10), Technology 3 (+5)",
+    "ataques": "i nitia tive +2 Heat Vision +10 Ranged, Damage 15 Unarmed +11 Close, Damage 19",
+    "pontos_poder": "a bilities 106 S kills 26 Powers 118 d efenses 24 a dv antages 15 ToTal 289"
+  }
+}

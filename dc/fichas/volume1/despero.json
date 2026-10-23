@@ -1,0 +1,29 @@
+{
+  "nome": "Despero",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 14,
+  "pontos_poder_publicados": 322,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 164
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "18",
+      "STA": "18",
+      "AGL": "6",
+      "DEX": "6",
+      "FGT": "8",
+      "INT": "7",
+      "AWE": "10",
+      "PRE": "6"
+    },
+    "poderes": "Flame of Py’tar: Enhanced Strength 5, Limited To Lifting (Lifting Strength 23; 100,000 tons); Immortality 5; Immunity 10 (Life Support); Impervious Toughness 18; Quickness 10; Regeneration 10 • 73 points Flight: Flight 13 (16,000 MPH) • 26 points Mental Powers: Array (40 points) • Illusion: Illusion 8 (All Senses), Resistible, Selective • 40 points • Mental Blast: Perception Ranged Damage 10, Resisted by Will • 1 point • Mind Control: Perception Ranged, Cumulative Affliction 10 (Resisted by Will; Dazed, Compelled, Controlled) • 1 point. • Mind Reading: Mind Reading 14 • 1 point • Mental Communication: Communication 4 (Worldwide, Mental), Area, Selective • 1 point",
+    "vantagens": "All-out Attack, Diehard, Power Attack, Seize Initiative, Ultimate Effort 2 (Toughness, Will)",
+    "pericias": "Close Combat: Unarmed 2 (+10), Intimidation 8 (+14), Technology 8 (+15)",
+    "ataques": "Initiative +6 Unarmed +10 Close, Damage 18",
+    "defesas": "Dodge 10 Fortitude 18 Parry 10 Toughness 18 Will 10",
+    "pontos_poder": "Abilities 158 Skills 9 Powers 143 Defenses 6 Advantages 6 ToTal 322",
+    "complicacoes": "Conqueror: Despero is obsessed with proving his strength through conquest. Enemy: Despero’s attempts to conquer Earth have been thwarted several times by the Justice League, and he is particularly obsessed with destroying them. ALLIES Though there is none he considers an equal, Despero has al - lied himself with villains ranging from Johnny Sorrow to the time-travelling Time Stealers when he needs them to accom - plish his goals. When Starro once challenged Despero’s place as the supreme interstellar conqueror, he joined the forces led by Brainiac 2 (Vril Dox), until Starro had been utterly defeated. ENEMIES Any who stand between Despero and his goal are his en - emies, doubly so for those who have stood in his way and bested him in the past, including the Justice League."
+  }
+}

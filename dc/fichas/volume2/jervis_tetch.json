@@ -1,0 +1,29 @@
+{
+  "nome": "Jervis Tetch",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 143,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 31
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "1",
+      "AGL": "2",
+      "DEX": "4",
+      "FGT": "3",
+      "INT": "6",
+      "AWE": "3",
+      "PRE": "2"
+    },
+    "poderes": "Mind Control Chips: Affliction 10 (Resisted by Will; Dazed, Compelled, Controlled), Insidious, Sustained; Communication 2 (Radio), Limited—Only to receive orders from the Mind Control Hat • 27 points Mind Control Hat: Area Communication 2 (Radio), Limited— Only to Mind Control Chips, Removable (-2 points) • 6 points",
+    "equipamento": "Heavy Pistol: Ranged Damage 4 • 8 points",
+    "vantagens": "Daze (Deception), Defensive Roll 3, Equipment 2, Inventor, Set-up, Taunt",
+    "pericias": "Deception 8 (+10), Expertise: Alice in Wonderland 12 (+18), Expertise: Neurology 10 (+16), Ranged Combat: Pistol 4 (+8), Sleight of Hand 8 (+12), Stealth 4 (+6), Technology 10 (+16), Treatment 4 (+10)",
+    "ataques": "i nitia tive +2 Heavy Pistol +8 Ranged, Damage 4 Mind Control — Close, Affliction 10, Triggered",
+    "defesas": "d odge 12 f or titude 6 Parry 8 t oughness 4/1* W ill 10 *Without Defensive Roll.",
+    "pontos_poder": "a bilities 44 S kills 30 Powers 33 d efenses 27 a dv antages 9 ToTal 143"
+  }
+}

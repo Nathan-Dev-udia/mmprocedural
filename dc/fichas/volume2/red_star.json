@@ -1,0 +1,28 @@
+{
+  "nome": "Red Star",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 225,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 139
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "10",
+      "STA": "10",
+      "AGL": "6",
+      "DEX": "5",
+      "FGT": "7",
+      "INT": "4",
+      "AWE": "3",
+      "PRE": "3"
+    },
+    "poderes": "e nhanced e ndurance: Impervious Toughness 8, Protection 2 • 10 points e nhanced Speed: Speed 6 (120 MPH), Quickness 3, Enhanced Advantage 3 (Improved Initiative 3) • 12 points r ed Star Blast: Ranged Damage 12 • 24 points r ed Star f orm: Alternate Form-Energy (Move Action); Flight 8 (500 MPH), Insubstantial 3, Immunity 10 (Solar Energy) • 40 points Super-Lifting: Enhanced Strength 4, Limited to Lifting (Lifting Str 14; 400 tons) • 4 points",
+    "vantagens": "Benefit (Diplomatic Immunity), Great Endurance, Move-by Action, Precise Attack (Ranged, Cover), Redirect, Set-up, Teamwork",
+    "pericias": "Athletics 6 (+16), Close Combat: Unarmed 5 (+12), Intimidation 4 (+7), Perception 6 (+9), Persuasion 6 (+9), Ranged Combat: Red Star Blasts 5 (+10), Technology 4 (+8), Vehicles 4 (+9) ffen S e o i nitia tive +18 Red Star Blasts +10 Ranged, Damage 12 Unarmed +12 Close, Damage 10",
+    "defesas": "d odge 8 f or titude 12 Parry 10 t oughness 12 W ill 8",
+    "pontos_poder": "a bilities 96 S kills 20 Powers 90 d efenses 12 a dv antages 7 t otal 225",
+    "complicacoes": "y to the Motherland: of Russia. He feels a great responsibility to her people and the government. Though he is a staunch socialist, Leonid supports the current capitalist system. p ower S & a b ILI t I e S Leonid was granted vast superhuman strength, speed and endurance. Over time he developed other powers, including the ability to transform into a form of red solar radiation. aLLI e S Red Star was a long-time member of the Teen Titans. e ne MI e S Red Star has fought many foes of the Teen Titans."
+  }
+}

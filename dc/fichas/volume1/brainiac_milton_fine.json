@@ -1,0 +1,28 @@
+{
+  "nome": "Brainiac (Milton Fine)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 13,
+  "pontos_poder_publicados": 205,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 85
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "3",
+      "AGL": "2",
+      "DEX": "3",
+      "FGT": "3",
+      "INT": "11",
+      "AWE": "4",
+      "PRE": "4"
+    },
+    "poderes": "Cyber-Web (Comprehend Machines 2); Psychokinetic Force Field (Protection 12, Impervious 10); Psychokinesis (Move Object 13, Perception Ranged); Telepathy (Mind Reading 13; AE: Damage 6, Perception Ranged, Resisted by Will; AE: Illusion 8 (All Senses), Resistible; AE: Mental Communication 5)",
+    "vantagens": "Assessment, Eidetic Memory, Inventor",
+    "pericias": "Deception 6 (+10), Insight 4 (+8), Intimidation 4 (+8), Perception 2 (+6), Technology 4 (+15), Vehicles 4 (+7)",
+    "ataques": "Initiative +2, Mental Blast (Damage, DC 21 Will), Unarmed +3 (Damage 2)",
+    "defesas": "Dodge 11, Parry 8, Fortitude 10, Toughness 15, Will 15",
+    "pontos_poder": "Abilities 64 + Powers 94 + Advantages 3 + Skills 12 + Defenses 32 = 205"
+  }
+}

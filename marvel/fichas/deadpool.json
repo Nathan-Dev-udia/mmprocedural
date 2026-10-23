@@ -1,0 +1,133 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Deadpool",
+  "nome_pt": "Deadpool",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 165,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 23
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 3,
+      "Agi": 4,
+      "Des": 4,
+      "Lut": 13,
+      "Int": 1,
+      "Pro": 0,
+      "Pre": 3
+    },
+    "defesas": {
+      "Esquiva": 13,
+      "Aparar": 13,
+      "Fortitude": 6,
+      "Resistencia": 7,
+      "Vontade": 6
+    },
+    "pericias": {
+      "Acrobacia": 8,
+      "Enganação": 12,
+      "Atletismo": 4,
+      "Investigação": 8,
+      "Percepção": 8,
+      "Intuição": 8,
+      "Furtividade": 12,
+      "Especialidade: Sobrevivência": 3,
+      "Combate à Distância: Ataques gerais": 9
+    },
+    "vantagens": [
+      "Accurate Attack",
+      "All-out Attack",
+      "Contacts",
+      "Defensive Attack",
+      "Equipment 1",
+      "Evasion",
+      "Improved Initiative 2",
+      "Improved Smash",
+      "Improved Trip",
+      "Power Attack",
+      "Precise Attack (Ranged, Cover) 2",
+      "Quick Draw",
+      "Seize Initiative",
+      "Instant Up",
+      "Taunt",
+      "Takedown",
+      "Uncanny Dodge (Hearing)"
+    ],
+    "poderes": [
+      {
+        "nome": "Regeneration",
+        "construcao_3e": "Regeneration 29; source recovery schedule: Bruised 3, Unconscious 3, Injured 4, Staggered 4, Disabled 6; Ability Damage 5; Resurrection 4; Regrowth. The exact 3e rank/Immortality construction remains unpriced.",
+        "custo_2e_pp": 30,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Teleporter",
+        "construcao_3e": "Device (Removable): Teleport 5, Short Range.",
+        "custo_2e_pp": 3,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Espada (+3 dano; Mighty; crítico 19–20; 5 EP)",
+      "Uniforme (+3 Resistência; 3 EP)",
+      "Arsenal: granadas de fragmentação (Blast 5, Área Explosão; 15 EP), submetralhadora (+4 dano; Autofire), pistola pesada (+4 dano; total de arsenal impresso: 17 EP)"
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 13,
+        "dano": 3
+      },
+      {
+        "nome": "Espada",
+        "bonus": 13,
+        "dano": 6
+      },
+      {
+        "nome": "Submetralhadora",
+        "bonus": 13,
+        "dano": 4
+      },
+      {
+        "nome": "Pistola pesada",
+        "bonus": 13,
+        "dano": 4
+      },
+      {
+        "nome": "Granada de fragmentação",
+        "bonus": 13,
+        "dano": 5
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 19,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 12,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 62,
+    "defesas": 18,
+    "pericias": 36.0,
+    "vantagens": null,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 116.0,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Toughness +7/+5 foi impresso com Defensive Roll; o valor alto +7 foi mantido como Resistência para a checagem. Dodge Focus 6 foi limitado e Aparar reduzido para respeitar NP 10. Elusive Target e Sneak Attack foram removidas. Os custos de espada e arsenal foram preservados como impressos, apesar de a lista do arsenal não detalhar todos os custos individuais.",
+    "Defesas ajustadas para Esquiva 13 e Aparar 13, respeitando os limites de NP 10 com Resistência 7.",
+    "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias e apenas os custos de poderes confirmados; não inclui vantagens nem custos incertos."
+  ]
+}

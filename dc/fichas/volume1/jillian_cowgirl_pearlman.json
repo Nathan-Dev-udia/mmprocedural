@@ -1,0 +1,27 @@
+{
+  "nome": "Jillian “Cowgirl” Pearlman",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 5,
+  "pontos_poder_publicados": 55,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 239
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "1",
+      "AGL": "1",
+      "DEX": "2",
+      "FGT": "4",
+      "INT": "1",
+      "AWE": "1",
+      "PRE": "1"
+    },
+    "vantagens": "Defensive Roll 2, Great Endurance",
+    "pericias": "Athletics 4 (+5), Close Combat: Unarmed 2 (+6), Insight 4 (+5), Perception 4 (+5), Ranged Combat: Guns 4 (+6), Stealth 4 (+5), Technology 2 (+3), Treatment 2 (+3), Vehicles 8 (+10)",
+    "ataques": "Initiative +1, Unarmed +6 (Damage 1)",
+    "defesas": "Dodge 4, Parry 4, Fortitude 4, Toughness 3/1, Will 6",
+    "pontos_poder": "Abilities 24 + Powers 0 + Advantages 3 + Skills 17 + Defenses 11 = 55"
+  }
+}

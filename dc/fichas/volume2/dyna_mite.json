@@ -1,0 +1,29 @@
+{
+  "nome": "Dyna-Mite",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 7,
+  "pontos_poder_publicados": 85,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 272
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "4",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "2",
+      "INT": "1",
+      "AWE": "1",
+      "PRE": "1"
+    },
+    "poderes": "d yna- r ings (Cone Area Damage 7, Removable (–2 points))",
+    "vantagens": "All-out Attack, Connected, Defensive Roll, Defensive Attack, Great Endurance, Improved Critical (Unarmed), Power Attack, Takedown",
+    "pericias": "Athletics 4 (+7), Close Combat: Unarmed 9 (+11), Expertise: Chemistry 4 (+5), Stealth 5 (+7)",
+    "ataques": "Initiative +2, Dyna-Rings (Close, Cone Area Damage 7), Unarmed +11 (Close, Damage 3, Crit. 19-20)",
+    "defesas": "Dodge 9, Parry 9, Fortitude 7, Toughness 5/4*, Will 7 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 32 + Powers 11 + Advantages 8 + Skills 11 + Defenses 23 = 85",
+    "complicacoes": "d oing Good: Dan strives to honor his mentor TNT’s heroic example. i den tity: Dyna-Mite keeps his identity secret to protect his family. Power Loss: The two Dyna-Rings have to touch in order to trigger their power."
+  }
+}

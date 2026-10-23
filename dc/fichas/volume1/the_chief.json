@@ -1,0 +1,28 @@
+{
+  "nome": "The Chief",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 135,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 180
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "0",
+      "STA": "0",
+      "AGL": "2",
+      "DEX": "4",
+      "FGT": "4",
+      "INT": "10",
+      "AWE": "5",
+      "PRE": "5"
+    },
+    "vantagens": "Benefit 4 (Multi-millionaire), Equipment 10, Fascinate (Deception), Inventor, Languages 2, Leadership, Ranged Attack 4, Seize Initiative, Set-up, Skill Mastery (Deception), Skill Mastery (Persuasion), Skill Mastery (Technology), Taunt, Ultimate Effort (Technology), Well-informed",
+    "pericias": "Deception 8 (+13), Expertise: Medicine 5 (+15), Expertise: Science 10 (+20), Insight 5 (+10), Investigation 5 (+15), Persuasion 8 (+13), Technology 10 (+20), Treatment 5 (+15), Vehicles 4 (+8)",
+    "ataques": "Initiative +0, Unarmed +8 (Close, Damage 0 or by weapon), Ranged +8 (Ranged, Damage by weapon)",
+    "defesas": "Dodge 2, Parry 6, Fortitude 5, Toughness 0, Will 10",
+    "pontos_poder": "Abilities 60 + Powers 0 + Advantages 31 + Skills 30 + Defenses 12 = 135",
+    "complicacoes": "Disability: The Chief lost the use of his legs years ago, due to nervous system damage. He is confined to a wheelchair . Nemesis: Niles Caulder has several sworn enemies, including the Brain and General Immortus. Reputation: The Chief has garnered a reputation as duplicitous and mentally unstable. Other heroes (even his allies) are suspicious of his actions."
+  }
+}

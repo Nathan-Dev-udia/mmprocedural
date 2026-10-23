@@ -1,0 +1,28 @@
+{
+  "nome": "Raven",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 211,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 131
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "0",
+      "STA": "1",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "2",
+      "INT": "3",
+      "AWE": "5",
+      "PRE": "3"
+    },
+    "poderes": "e mpathy: Magic Array (25 points) • r ead e motions: Mind Reading 15, Subtle 2, Limited to Emotions; Senses 8 (mental; Extended Accurate Emotion Awareness, Acute Mental Senses, Tracking (emotion awareness), Magic Awareness) • 25 points • e ase Pain: Healing 22 (psychic), Persistent, Restorative (magic effects), Stabilize, Side-Effect 2 (suffer Affliction 10 (excruciating pain, Resisted by Will; Dazed and Dodge Impaired)) • 1 points • e motion Manipulation: Ranged Affliction 12 (psychic; Resisted by Will; Entranced, Compelled, Controlled), Progressive, Limited (only instills emotions); Side-Effect (Affliction 10 (nausea; resisted by Fortitude; Dazed and Attack Impaired)) • 1 point • t Pain and or: Ranged Affliction 12 (psychic; i nflic t err Resisted by Will; Attack Impaired and Dazed, Dodge Disabled and Stunned), Extra Condition, Limited Degree • 1 point • umb e motions: Ranged Affliction 12 (psychic; Resisted n by Will; Entranced and Insight Impaired), Extra Condition, Linked, Limited Degree 2 Linked to Nullify Mental Effects 12, Simultaneous (all emotion effects), Limited (emotion effects) • 1 point • Personal d eamscape: Ranged Illusion 10 (psychic, r All Senses), Insidious, Precise, Limited to One Subject, Reduced Range, Resistible (Will) • 1 point t: Flight 3 (16 MPH) • 6 points f ligh Soul Self: Magic Array (47 points) • al Projection: Remote Sensing 23 (astral travel; All a str Senses), Feedback, Dimensional 2 (Magic Dimensions), Limited—Physical body is Incapacitated, Limited—Cannot use Empathy array, Noticeable (Raven-shaped Shadow) • 47 points • Mass Soul Jump: Area Burst 2 (60 feet) Teleport 7 (magic; 120 miles), Accurate, Change Velocity, Extended, Selective, Limited to Extended • 1 point • hift: Area Burst 2 (60 feet) Movement 2 d imensional S (magic; Dimensional 2 (Magical Dimensions)), Additional Ranks 8 (Limited to increase DC), Selective • 1 point • ven Wings: Area Burst 2 (60 feet) Flight 3 (16 MPH), o n r a Affects Others • 1 point • vensoul Shield: Ranged Enhanced Defenses 15 (Dodge r a 7, Parry 8), Affects Others • 1 point • Soul Jump: Teleport 8 (magic; 1 mile), Accurate, Change Direction, Change Velocity, Portal, Turnabout • 1 point Soul Self i arnate: Insubstantial 3 (psychic energy), nc Activation (Move action); Feature (appear as a giant, raven- like shadow); Enhanced Advantages 2 (Daze (Intimidation), Move-by Action) • 17 points d a e S a V ant G Accurate Attack, Daze (Intimidation), Defensive Roll 4, Fascinate (Intimidation), Improved Trip, Leadership, Move-by Action , Ritualist, Startle, Trance, Uncanny Dodge",
+    "pericias": "Close Combat: Unarmed 6 (+8), Deception 5 (+8), Expertise: Magic 6 (+9), Expertise: Theology 6 (+9), Insight 12 (+17), Intimidation 11 (+14), Perception 5 (+10), Persuasion 9 (+12), Ranged Combat: Empathy 6 (+8)",
+    "ataques": "i nitia tive +2 Unarmed +8 Close, Damage 0 Empathy powers +8 Ranged, Effect varies 12 Personal Dreamscape +8 Ranged, Illusion 10",
+    "defesas": "d odge 8/15** f or titude 8 Parry 7/15** t oughness 5/1* W ill 12 *Without Defensive Roll. **If able to use Ravensoul Shield",
+    "pontos_poder": "a bilities 36 S kills 33 Powers 105 d efenses 25 a dv antages 12 ToTal 211",
+    "complicacoes": "Power Loss: Raven’s Soul Self can be damaged or even captured by an opponent using the right magic or amount of power. In this case, she cannot use Soul Self Incarnate or the powers in the Soul Self array. She languishes and may die if forcibly separated from her Soul Self for too long. Power xus: Because of her heritage and the knowledge n e she has gained over the years, Raven is the target of many supernatural forces who wish to use her for their own dark purposes. Powerful e mpath: Raven’s self-control sometimes slips and she becomes overwhelmed by ambient emotions, suffers pain from very strong feelings around her, or she unwittingly uses Emotion Manipulation and Numb Emotions on others. She always regrets these lapses. Because she denied herself any feelings until she was free from her father’s influence, she is still confused by her own emotions and may misinterpret what she and others around her feel. Uncontrolled Precognition: When Raven tries to use her Trance or Ritualist advantages, or when she’s just trying to sleep, she can receive precognitive flashes outside her control that knock her out and abort her attempt to use her powers and/or prevent any recovery from resting. t rigon ’s f irstb orn: Raven’s dark nature occasionally threatens to dominate her personality. When giving in to her darker emotions or when overpowered by demonic influence, she becomes the infernal embodiment of Pride and it’s up to her closest friends to bring her back. r aven’ S Sou L Se L f While impressive, in terms of mechanics the raven-like manifestation of Raven’s Soul Self is merely a visual, narrative effect. The Soul Self array groups the more physical of Raven’s powers, and its jet-black manifes- tation appears when she uses them, covering each power’s area, and flying toward their target. While she can assume the shadow-raven’s likeness with the Soul Self Incarnate power, she retains the use of all her powers in either shape."
+  }
+}

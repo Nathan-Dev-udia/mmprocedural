@@ -1,0 +1,29 @@
+{
+  "nome": "Manhunter (Kirk Depaul)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 40
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "3",
+      "AGL": "4",
+      "DEX": "4",
+      "FGT": "8",
+      "INT": "1",
+      "AWE": "3",
+      "PRE": "5"
+    },
+    "poderes": "Healing n anobots: Regeneration 3 • 3 points",
+    "equipamento": "Mauser: Ranged Damage 4 • 8 points s hurik en: Ranged Multiattack Damage 3 • 3 points k atar ( l ong Dagger): Strength-based Damage 2 • 2 points",
+    "vantagens": "Accurate Attack, Assessment, Chokehold, Close Attack 2, Defensive Attack, Defensive Roll 3, Equipment 3, Great Endurance, Improved Initiative, Instant Up, Power Attack, Precise Attack (Ranged; Concealment), Ranged Attack 7, Takedown, Throwing Mastery 2, Tracking",
+    "pericias": "Acrobatics 5 (+9), Athletics 3 (+6), Close Combat: Katar 3 (+11), Deception 6 (+11), Expertise: Tracking 5 (+6), Insight 4 (+7), Intimidation 3 (+8), Perception 5 (+8), Persuasion 3 (+8), Sleight of Hand 2 (+6), Stealth 5 (+9), Treatment 3 (+4), Vehicles 2 (+6)",
+    "ataques": "i nitia tive +8 Unarmed +10 Close, Damage 3 Katar +13 Close, Strength-based Damage 5 Mauser +11 Ranged, Damage 4 Shuriken +11 Ranged, Multiattack Damage 3",
+    "defesas": "Dodge 11 f or titude 8 p arr y 11 Toughness 6/3* w ill 8 * Without Defensive Roll. p s ower p oin T Abilities 62 s k ills 25 p o wers 3 Defenses 20 Advantages 28 ToTal 138",
+    "complicacoes": "Honor: Manhunter has a strong sense of honor. He’s not sure where it came from, but its existence makes him unlike the other Paul Kirk clones. Greed: Manhunter is in the hero business to make money … as long as that goal doesn’t conflict with his sense of honor."
+  }
+}

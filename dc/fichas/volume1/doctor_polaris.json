@@ -1,0 +1,29 @@
+{
+  "nome": "Doctor Polaris",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": 182,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 174
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "0",
+      "AGL": "3",
+      "DEX": "3",
+      "FGT": "2",
+      "INT": "5",
+      "AWE": "4",
+      "PRE": "3"
+    },
+    "poderes": "Absorb EM Energy: Enhanced Magnetic Force-Field 3, Fades (recharges when exposed to source or attack with electromagnetic descriptor); Enhanced Regeneration 10, Fades (recharges when exposed to source or attack with electromagnetic descriptor), Sustained • 8 points Flight: Flight 5 (60 MPH) • 10 points Magnetic Control: Array (31 points) • Neuro-Electrical Shutdown: Ranged Affliction 12 (Resisted by Fortitude; Dazed, Stunned, Incapacitated) Linked to Ranged Affliction (Resisted by Fortitude; Vulnerable) 12, Limited Degree 2, Accurate • 31 points • EM Blast: Ranged Damage 12, Variable Descriptor (Electromagnetic, Electrical, Laser), Accurate • 1 point • EM Pulse: Burst Area Nullify 7, Affects Objects (Only), Broad (Electronics), Simultaneous • 1 point • Magnetize: Affliction 14 (Resisted by Fortitude; Hindered, Immobile) Burst Area 3 (120 feet), Limited to targets made of or carrying metal, Limited Degree • 1 point • Metal Manipulation: Move Object 14, Damaging, Limited to Metallic/Conductive Objects • 1 point • Molecular Acceleration: Environment Control 14 (Extreme Heat) • 1 point Magnetic Force-Field: Impervious Protection 9, Sustained • 18 points Magnetic Sense: Senses 9 (Ranged and Accurate Detect Electromagnetics, Ranged and Accurate Detect Metal, Direction Sense) • 9 points Composite Suit: Protection 3, Removable (-1 point) • 2 points",
+    "vantagens": "Accurate Attack, Inventor, Redirect, Skill Mastery (Technology), Startle",
+    "pericias": "Deception 8 (+11), Expertise: Science 8 (+13), Expertise: Physician 8 (+13), Ranged Combat: Magnetic Control 7 (+10), Insight 5 (+9), Intimidation 8 (+11), Perception 8 (+12), Technology 10 (+15), Treatment 8 (+13)",
+    "ataques": "Initiative +3 Unarmed +2 Close, Damage 1 EM Blast +12 Ranged, Damage 12 Magnetize or Metal Ranged, Damage 14 or Manipulation +10 other effects Neuro-Electrical Shutdown +12 Ranged, Affliction 12, Resisted by Fortitude",
+    "defesas": "Dodge 7 Fortitude 7 Parry 6 Toughness 15/12* Will 7 *Without Enhanced Magnetic Force-Field.",
+    "pontos_poder": "Abilities 42 Skills 35 Powers 83 Defenses 18 Advantages 4 ToTal 182",
+    "complicacoes": "Eroding Sanity: His magnetic powers slowly sap Neal Emerson’s Awareness and Will. He is also susceptible to telepathy powers. Magnetic: Doctor Polaris is basically a living magnet, and as such he functions like one, losing his “charge” when exposed to extreme heat, recharging with kinetic energy, susceptible to magnetic fields, etc. Split Personality: Doctor Polaris is a second personality within Neal Emerson. Both personalities wrestle for control."
+  }
+}

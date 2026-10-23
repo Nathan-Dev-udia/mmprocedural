@@ -1,0 +1,29 @@
+{
+  "nome": "Big Barda",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 13,
+  "pontos_poder_publicados": 219,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 52
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "15",
+      "STA": "15",
+      "AGL": "8",
+      "DEX": "8",
+      "FGT": "11",
+      "INT": "2",
+      "AWE": "4",
+      "PRE": "6"
+    },
+    "poderes": "Aero Disks: Flight 6 (120 MPH), Platform, Removable (-1 point) • 5 points Apokoliptian Armor: Enhanced Strength 5, Enhanced Stamina 5, Removable (-4 points) • 16 points Immortal: Immunity 11 (Aging, Life Support), Impervious Toughness 8 • 19 points Mega Rod: Array (20 points), Easily Removable (-10 points) • Concussive Blast: Ranged Damage 10 • 20 points • Flight: Flight 5 (60 MPH) • 1 point • Mega Mace: Penetrating 10 on Strength damage • 1 point • Teleport: Teleportation 5 (900 feet) • 1 point • Transwarp Drive: Movement 3 (Space Travel) • 1 point Mother Box: Feature 2 (Intelligence); Healing 8; Movement 3 (Space Travel); Removable (-5 points) • 20 points Strength of Apokolips: Enhanced Strength 4, Limited to Lifting (lifting Str 19; 12,000 tons) • 4 points",
+    "vantagens": "Accurate Attack, All-out Attack, Assessment, Great Endurance, Improved Initiative, Interpose, Leadership",
+    "pericias": "Athletics 4 (+19), Expertise: Tactics 5 (+7), Insight 2 (+6), Intimidation 4 (+10), Perception 4 (+8), Ranged Combat: Mega Rod 3 (+11)",
+    "ataques": "Initiative +12 Unarmed +11 Close, Damage 15 Mega Rod +11 Close, Damage 15, Penetrating 10 Mega Rod +11 Ranged, Damage 10",
+    "defesas": "Dodge 10 Fortitude 11 Parry 11 Toughness 15 Will 9",
+    "pontos_poder": "Abilities 118 Skills 11 Powers 77 Defenses 6 Advantages 7 ToTal 219",
+    "complicacoes": "Love: Big Barda’s love for Scott Free means she will always be more concerned with his safety than her own. Enemies: When she left Apokolips, Big Barda was marked a traitor by Granny Goodness, the Female Furies, and even Darkseid himself (see Darkseid )."
+  }
+}

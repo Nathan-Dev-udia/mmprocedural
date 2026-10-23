@@ -1,0 +1,28 @@
+{
+  "nome": "Amanda Waller",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 160,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 211
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "2",
+      "AGL": "0",
+      "DEX": "2",
+      "FGT": "4",
+      "INT": "5",
+      "AWE": "5",
+      "PRE": "6"
+    },
+    "equipamento": "Squad Detonator, Heavy Pistol (Ranged Damage 4)",
+    "vantagens": "All-out Attack, Assessment, Benefit 4 (Diplomatic Immunity, Security Clearance 3), Connected, Contacts, Defensive Roll 4, Diehard, Eidetic Memory, Equipment 6, Extraordinary Effort, Fearless, Great Endurance, Improved Defense, Inspire 2, Leadership, Quick Draw, Redirect, Seize Initiative, Set-up, Skill Mastery (Intimidation), Startle, Takedown, Taunt, Teamwork, Well-informed",
+    "pericias": "Close Combat: Unarmed 6 (+10), Deception 10 (+16), Expertise: Bureaucratics 9 (+14), Expertise: Tradecraft 9 (+14), Insight 10 (+15), Intimidation 10 (+16), Investigation 7 (+12), Perception 7 (+12), Persuasion 8 (+14), Ranged Combat: Guns 10 (+12), Sleight of Hand 8 (+10), Stealth 9 (+9), Technology 5 (+10)",
+    "ataques": "Initiative +0, Heavy Pistol +12 (Ranged, Damage 4), Unarmed +10 (Close, Damage 1)",
+    "defesas": "Dodge 10, Parry 12, Fortitude 8, Toughness 6/2*, Will 12 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 50 + Powers 0 + Advantages 33 + Skills 54 + Defenses 23 = 160"
+  }
+}

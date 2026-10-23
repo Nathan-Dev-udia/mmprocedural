@@ -1,0 +1,29 @@
+{
+  "nome": "Mento",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 159,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 182
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "0",
+      "STA": "0",
+      "AGL": "1",
+      "DEX": "2",
+      "FGT": "2",
+      "INT": "4",
+      "AWE": "6",
+      "PRE": "4"
+    },
+    "poderes": "Mental Awareness (Senses 2 (Mental Sense, Radius)); Mento Helmet (75 points, Removable (-15 points); Clairvoyance (Remote Sensing 6 (1,800 feet; Visual, Hearing), Subtle (Only detectable by Mental Sense)); Mind Over Matter ( Array (20 points), Intangibility (Insubstantial 4 (Intangible)), AE: Telekinetic Blast (Ranged Damage 10), AE: Telekinesis (Move Object 8, Accurate 4)); Telekinetic Field (Protection 12, Sustained); Telepathic Powers (Array (20 points), Mind Reading (Mind Reading 10), AE: Mental Communication Communication 3 (Statewide, Mental), Area, Selective, AE: Mind Control Perception Range Affliction 5 (Resisted by Will; Dazed, Compelled, Controlled), Cumulative,) AE: Mental Blast (Perception Range Damage 5, Resisted by Will)))",
+    "vantagens": "Benefit 5 (Billionaire), Inventor, Seize Initiative, Ultimate Effort (Will checks)",
+    "pericias": "Deception 6 (+10), Expertise: Business 8 (+12), Expertise: Engineering 8 (+12), Expertise: Science 6 (+10), Perception 4 (+10), Persuasion 6 (+10), Ranged Attack: Mental Blast 8 (+10)",
+    "ataques": "Initiative +1, Unarmed +2 (Close, Damage 0), Mental Blast—(Ranged, Damage 5, Resisted by Will), Telekinetic Blast +10 (Ranged, Damage 10)",
+    "defesas": "Dodge 8, Parry 8, Fortitude 6, Toughness 12, Will 14",
+    "pontos_poder": "Abilities 38 + Powers 63 + Advantages 8 + Skills 23 + Defenses 27 = 159",
+    "complicacoes": "Secret: Mento uses his mind-influencing powers on allies and friends without their knowledge, including his wife Elasti-Woman NEGATIVE MAN Larry Trainor was a test pilot whose experimental aircraft malfunctioned after passing through a strange energy field. He was saved from death when a “negative spirit” emerged from his body and stopped the airplane from sinking into the ocean. Besides gaining this strange superpower, Larry became radioactive, his body resembling a glowing skele - ton. Contacted by Niles Caulder, Larry was given lead-treat - ed bandages which contained his radioactivity. The Chief inducted him into the Doom Patrol, and Larry took on the codename Negative Man. Negative Man was thought slain in Madame Rouge’s explo - sion, but the energy-being lived on and proved to be an in - dependent creature (perhaps extraterrestrial). It temporarily took up residence in Valentina Vostok, who became Negative Woman. Later, Larry turned up alive (though comatose) and the negative entity returned to Trainor’s body once its origi - nal host fully recovered. Later, the energy being, Larry, and one Dr. Eleanor Poole became a gestalt known as Rebis. The Rebis entity was last seen exploring a parallel Earth."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "nome": "Jemm, Son Of Saturn",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 230,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 279
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "12",
+      "STA": "8",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "6",
+      "INT": "1",
+      "AWE": "2",
+      "PRE": "0"
+    },
+    "poderes": "Mark of Jargon ( Array (38 points), Empathy (Perception Range Cumulative Affliction 10 (Resisted by Will; Dazed, Compelled, Controlled); Mind Reading 8, Limited to Emotions), AE: Psychokinetic Discharge (Ranged Damage 10 (force)); Saturnian Durability (“Immunity 11 (Aging, Life Support); Impervious Protection 2; Regeneration 10, Persistent); Saturnian Strength (Enhanced Strength 4, Limited to Lifting (Lifting Str 16; 1,600 tons)); Son of Jargon (Flight 11 (4,000 MPH), AE: Movement 1 (Space Travel 1))",
+    "vantagens": "Power Attack, Tracking",
+    "pericias": "Close Combat: Unarmed 4 (+10), Expertise: Saturn 7 (+8), Insight 8 (+10), Intimidation 8 (+8), Perception 7 (+9), Persuasion 8 (+8), Ranged Combat: Mark of Jargon 10 (+12), Technology 5 (+6), Vehicles 9 (+11)",
+    "ataques": "Initiative +2, Unarmed +10 (Close, Damage 12), Psychokinetic Discharge +12 (Ranged, Damage 10), Empathy— (Perception Range, Affliction 10, Cumulative)",
+    "defesas": "Dodge 12, Parry 12, Fortitude 10, Toughness 10, Will 12",
+    "pontos_poder": "Abilities 66 + Powers 101 + Advantages 2 + Skills 33 + Defenses 28 = 230",
+    "complicacoes": "Acceptance: Since his father’s murder, Jemm’s life has been a (mostly) futile quest for a home. Power Loss: Loss of powers and reduction of Str and Sta to 2 when exposed to fire. Relationship: A lost soul like Jemm treasures his friends like no one else."
+  }
+}

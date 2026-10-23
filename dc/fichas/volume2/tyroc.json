@@ -1,0 +1,30 @@
+{
+  "nome": "Tyroc",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 123,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 21
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "3",
+      "AGL": "3",
+      "DEX": "4",
+      "FGT": "2",
+      "INT": "1",
+      "AWE": "3",
+      "PRE": "3"
+    },
+    "poderes": "f ligh t 5 (60 MPH); r eality Warping Scream (Array) k inetic y ell (Ranged Damage 12), ae : e xplosive y ell (Ranged Burst Area Damage 8), ae : f or ce f ield y ell (Sustained Protection 10), ae : f or ce Manipulation y ell (Create 10, Subtle 2), ae : Plant Manipulation y ell (Ranged Cumulative Affliction 8 (Resisted by Dodge; Vulnerable and Hindered, Defenseless and Immobilized), Extra Condition, Limited Degree, Limited—Requires Plants), ae : Pyrokinetic y ell (Energy Control (Fire) 10, Indirect 3, Quirk— Cannot cause knockback), ae : t elek inetic y ell (Move Object 12), ae : t elep ortation y ell (Teleport 6, Easy, Extended), ae : Vertigo y ell (Ranged Cumulative Affliction 8 (Resisted by Fortitude; Impaired, Disabled, Incapacitated)), ae : Weather Manipulation y ell (Environment 6 (Impede Movement 2, Visibility 2), ae : Wind Manipulation (Elemental Control (Air) 12))",
+    "equipamento": "Flight Ring (Communication 5 (subspace radio, Anywhere, Limited to Distress Signal –3), Flight 7 (250 MPH); Telepathic Ear Plug ( Comprehend 3 (Languages), Mental Communication 1 (Close Range)); Transsuit (Immunity 9 (Life Support, except for starvation and thirst))",
+    "vantagens": "All-out Attack, Benefit 4 (Champion of Marzal, Legion Membership), Defensive Attack, Equipment 8, Power Attack",
+    "pericias": "Close Combat: Unarmed 3 (+5), Expertise: Marzal 4 (+5), Intimidation 3 (+6), Perception 2 (+5), Ranged Combat: Reality Altering Array 4 (+8)",
+    "ataques": "Initiative +3, Blast Yell +8 (Ranged, Damage 12), Unarmed +5 (Close, Damage 2)",
+    "defesas": "Dodge 7, Parry 7, Fortitude 6, Toughness 3, Will 5",
+    "pontos_poder": "Abilities 42 + Powers 44 + Advantages 15 + Skills 8 + Defenses 14 = 123",
+    "complicacoes": "a rr ogant: Tyroc is very self-assured and can be difficult to get along with. Motivation— r esponsibility : Tyroc recognizes that his powers come with a duty to help others... especially the people of Marzal. Power Loss: All of Tyroc’s powers emanate from his ability to scream. Anything that prevents that effectively makes him powerless."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "nome": "Shadow Lass",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 139,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 19
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "2",
+      "AGL": "4",
+      "DEX": "5",
+      "FGT": "3",
+      "INT": "3",
+      "AWE": "5",
+      "PRE": "2"
+    },
+    "poderes": "Shadow Casting (Array), Shadow Bubble (Concealment 4 (All Visual Sense, Burst Area, Ranged)) Linked to Protection 10 (Ranged, Burst Area, Limited to Heat and Radiation Attacks Only), ae : Shadow f ield (Concealment 4 (All Visual Senses, Shapeable Area, Ranged) Linked to Protection 10 (Ranged, Shapeable Area, Limited to Heat and Radiation Attacks Only), ae : Blind (Resisted by Dodge; Cumulative Ranged Affliction 10, (Visually Impaired, Visually Disabled, Visually Unaware, Concentration))); Darkvision (Senses 2)",
+    "equipamento": "Flight Ring (Communication 5 (subspace radio, Anywhere, Limited to Distress Signal –3), Flight 7 (250 MPH); Telepathic Ear Plug ( Comprehend 3 (Languages), Mental Communication 1 (Close Range)); Transsuit (Immunity 9 (Life Support, except for starvation and thirst))",
+    "vantagens": "Benefit 4 (Champion of Talok VIII, Legion Membership), Defensive Attack, Defensive Roll 2, Equipment 8, Improved Critical (Unarmed), Improved Smash, Improved Trip, Instant Up, Power Attack",
+    "pericias": "Close Combat: Unarmed 3 (+6), Expertise: Talok VIII 5 (+8), Insight 4 (+9), Ranged Combat: Shadow Casting Array 5 (+10), Stealth 3 (+7)",
+    "ataques": "Initiative +4, Blind +10 (Ranged, Affliction 10), Unarmed +6 (Close, Damage 1, Crit. 19-20)",
+    "defesas": "Dodge 6, Parry 8, Fortitude 5, Toughness 4/2*, Will 10 * Without Defensive Roll.",
+    "pontos_poder": "Abilities 50 + Powers 44 + Advantages 20 + Skills 10 + Defenses 15 = 139",
+    "complicacoes": "r esponsibility: Shadow Lass was given her powers to act as protector and champion of her people. r elationship: Shadow Lass and Mon-El care deeply for one another."
+  }
+}

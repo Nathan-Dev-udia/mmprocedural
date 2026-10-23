@@ -1,0 +1,27 @@
+{
+  "nome": "Magog",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 13,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 35
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "11",
+      "STA": "6",
+      "AGL": "3",
+      "DEX": "3",
+      "FGT": "10",
+      "INT": "1",
+      "AWE": "2",
+      "PRE": "4"
+    },
+    "poderes": "Cybernetic a rm: Deflect 14, Close Range, Limited to Energy Attacks; Enhanced Strength 2, Limited to his left arm, Limited to Lifting (lifting Str 15 in left arm; 800 tons) • 6 points e nhanced d ur ability: Protection 6, Impervious 4 • 10 points e nhanced Vision: Senses 6 (Darkvision, Extended Rapid Vision, Infravision, Low-light Vision) • 6 points Golden Staff of Magog: Enhanced",
+    "vantagens": "(Accurate Attack, Ranged Attack 3), Limited to Plasma Blast; Enhanced Advantages (Improved Critical 2 (Plasma Blast)) Easily Removable (–2 points), Indestructible; Strength-Based Damage 2, Improved Critical • 5 points Plasma Generation: Ranged Damage 14, Penetrating 6, Split 3, Limited to rank 7 without Golden Staff • 23 points Super-Strength: Enhanced Strength 2, Limited to Lifting (lifting Str 13; 200 tons) • 2 points a V ant G d a e S Accurate Attack (Plasma Blast) , All-out Attack, Close Attack 3, Fearless, Improved Aim, Improved Critical 2 (Plasma Blast) , Inspire 2, Leadership, Move-by Action, Power Attack, Quick Draw, Ranged Attack 6, Ranged Attack 3 (Plasma Blast) , Startle, Takedown, Uncanny Dodge",
+    "pericias": "Athletics 4 (+15), Deception 4 (+8), Expertise: Tactics 8 (+9), Insight 4 (+6), Intimidation 7 (+11), Perception 6 (+8), Persuasion 4 (+8), Stealth 4 (+7), Technology 6 (+7), Vehicles 5 (+8)",
+    "ataques": "i nitia tive +3 Plasma Blast +12 Range, Damage 14, Crit. 18-20 Armor Piercing Staff +13 Close, Damage 13, Crit. 19-20 Unarmed +13 Close, Damage 11 efen S e d d odge 13 f or titude 14 Parry 14 t oughness 12 W ill 10 Po er Point W S a bilities 80 S kills 26 Powers 52 d efenses 30 a dv antages 21 ToTal 209",
+    "complicacoes": "his enhanced isabilit y: senses compensate for this loss, but as David Reid he has no depth perception (-4 to actions which require depth perception). e nemy: Flashpoint Power Loss: As David Reid, Magog appears as a normal human, badly scarred and lacking most of his powers. Power Loss: Since his left arm was destroyed and replaced by a cybernetic arm, Magog cannot channel his plasma into energy blasts without his golden staff."
+  }
+}

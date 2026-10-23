@@ -1,0 +1,28 @@
+{
+  "nome": "Shade",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 173
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "8",
+      "AGL": "3",
+      "DEX": "3",
+      "FGT": "4",
+      "INT": "4",
+      "AWE": "4",
+      "PRE": "4"
+    },
+    "poderes": "141 d efenses 24 a dv antages 12 ToTal 261",
+    "vantagens": "Accurate Attack, Benefit 3 (Millionaire), Defensive Attack, Diehard, Fearless, Great Endurance, Improved Disarm, Languages 3 (French, German, Italian, Latin)",
+    "pericias": "Close Attack: Fencing 4 (+8), Deception 6 (+10), Expertise: Art 6 (+10), Expertise: Literature 6 (+10), Insight 7 (+11), Intimidation 6 (+10), Perception 6 (+10), Persuasion 6 (+10), Ranged Combat: Shadow Control 7 (+10), Stealth 6 (+9)",
+    "ataques": "i nitia tive +3 Shadow Attacks+10 Ranged, Multiattack Damage 12, Indirect Unarmed+4 Close, Damage 2",
+    "defesas": "d odge 11 f or titude 10 Parry 10 t oughness 8 W ill 12 Po er Point W S a bilities 54 S kills 30",
+    "complicacoes": "motional a ttachmen t: Swift is very attached to Opal City and goes to great lengths to keep it safe. Mental Control : From WWII until recently, the Shade was mystically merged with a second person, Simon Culp, who would exert great mental influence when the Shade tired or otherwise dropped his guard. He was not aware of Culp’s presence or his actions. r eputation: The Shade fought on the wrong side of the law for a long time. Most heroes and law enforcement agents, particularly older ones, have a difficult time trusting him."
+  }
+}

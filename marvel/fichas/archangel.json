@@ -1,0 +1,102 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Archangel",
+  "nome_pt": "Arcanjo",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 145,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 4
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 6,
+      "Vig": 3,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 10,
+      "Int": 2,
+      "Pro": 1,
+      "Pre": 5
+    },
+    "defesas": {
+      "Esquiva": 14,
+      "Aparar": 10,
+      "Fortitude": 5,
+      "Resistencia": 6,
+      "Vontade": 5
+    },
+    "pericias": {
+      "Enganacao": 10,
+      "Persuasao": 10,
+      "Especialidade: Reunir Informacoes": 11,
+      "Especialidade: Civica": 12,
+      "Percepcao": 13,
+      "Veículos": 7,
+      "Intuicao": 8,
+      "Furtividade": 7
+    },
+    "vantagens": [
+      "Attractive",
+      "Benefit (Wealth x3, Status) 4",
+      "Connected",
+      "Contacts",
+      "Defensive Roll",
+      "Equipment",
+      "Favored Environment (Airborne)",
+      "Great Endurance",
+      "Improved Initiative 2",
+      "Move-by Action",
+      "Skill Mastery (Bluff, Diplomacy, Gather Information, Pilot)"
+    ],
+    "poderes": [
+      {
+        "nome": "Flight",
+        "construcao_3e": "Flight 4.",
+        "custo_2e_pp": 8
+      },
+      {
+        "nome": "Super Senses",
+        "construcao_3e": "Senses 5: Extended Vision 5.",
+        "custo_2e_pp": 5
+      }
+    ],
+    "equipamento": [
+      "Uniform (+3 Toughness; Subtle; 4 EP)",
+      "Comm-Link (1 EP)"
+    ],
+    "complicacoes": [
+      "Vulnerabilidade a vibracoes refletidas; ocorrencia incomum, intensidade moderada."
+    ],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 12,
+        "dano": 6
+      },
+      {
+        "nome": "Desarmado em voo",
+        "bonus": 12,
+        "dano": 6
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 18,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 16,
+      "fortitude_mais_vontade": 10,
+      "legal": true
+    }
+  },
+  "notas_conversao": [
+    "O perfil impresso identifica o personagem como PL 10, embora o total de pontos e os valores de ataque/defesa sugiram PL 10; esse nivel foi preservado.",
+    "Dodge Focus 4 foi convertido em Esquiva; foi reduzido para 14 porque Esquiva 16 + Resistencia 6 excederia o limite de PL 10. Aparar 12 foi reduzido para 10, pois Aparar 12 + Fighting 10 excederia 20.",
+    "Favored Environment (Airborne) foi mantida com o bonus de ataque +2 mostrado na fonte; o ataque nao supera o limite de NP.",
+    "Sneak Attack nao possui equivalencia direta; nao foi transformada em dano adicional sem custo. Environmental Adaptation (High Altitudes) foi tratada como Feature situacional e nao altera a ficha base.",
+    "Skill Mastery foi mantida para as pericias listadas. Os bonus totais foram convertidos subtraindo a habilidade 3e correspondente; Pilot e Stealth resultam em 7 ranks cada.",
+    "A soma dos componentes impressos (40 + 20 + 26 + 13 + 36 + 14) resulta em 149 PP, mas o total da fonte informa 145. Os dois valores foram mantidos distintos; 145 e apenas o total original publicado."
+  ]
+}

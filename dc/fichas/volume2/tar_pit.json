@@ -1,0 +1,29 @@
+{
+  "nome": "Tar Pit",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 178,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 148
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "8",
+      "STA": "10",
+      "AGL": "0",
+      "DEX": "2",
+      "FGT": "5",
+      "INT": "0",
+      "AWE": "1",
+      "PRE": "1"
+    },
+    "poderes": "Burning t ouch (Reaction Damage 3, Permanent), Growth 4 (Permanent), i mmunit y 10 (Life Support), Liquid t ar f orm (Insubstantial 1 (Permanent), Protection 2), n o xious f umes (Cumulative Burst Area Reaction Affliction 4 (Resisted by Fortitude; Dazed, Stunned, Incapacitated), Permanent), Suffocating Globs (Ranged Progressive Affliction 6 (Resisted by Dodge/Fortitude; Dazed, Stunned, Incapacitated))",
+    "vantagens": "Chokehold, Close Attack 6, Diehard, Fast Grab, Improved Grab, Improved Hold, Weapon Bind",
+    "pericias": "Expertise: Criminal 4 (+4), Ranged Combat: Suffocation 10 (+12)",
+    "ataques": "Initiative +0, Suffocation +12 (Ranged, Progressive Affliction 6), Unarmed +11 (Close, Damage 8)",
+    "defesas": "Dodge 6, Parry 8, Fortitude 15, Toughness 12, Will 5",
+    "pontos_poder": "Abilities 38 + Powers 99 + Advantages 12 + Skills 7 + Defenses 22 = 178",
+    "complicacoes": "Weakness: Citric acid causes Tar Pit’s form to dissolve, though he is capable of reforming himself."
+  }
+}

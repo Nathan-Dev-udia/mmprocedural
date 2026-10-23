@@ -1,0 +1,29 @@
+{
+  "nome": "Aztek",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 165,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 37
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "5",
+      "AGL": "4",
+      "DEX": "4",
+      "FGT": "5",
+      "INT": "4",
+      "AWE": "3",
+      "PRE": "3"
+    },
+    "poderes": "4-D Gauntlets: Array (24 points) • Plasma Blasts: Ranged Damage 12 • 24 points • Netcaster: Affliction 12 (Resisted by Dodge; Hindered and Vulnerable, Defenseless and Immobile), Extra Condition, Ranged, Limited Degree • 1 point Costume of the Champion: Array (15 points) • Wing Units: Flight 7 (250 MPH), Dynamic• 15 points • Density Control: Protection 7 Linked to Feature 3 (Increased Mass, 1,600 lbs.), Dynamic • 2 points • Super-Strength: Enhanced Strength 5, Dynamic • 2 points • Invisibility: Visual Concealment 4 , Dynamic • 2 points Helmet of Quetzalcoatl: Array (9 points) • Heightened Senses: Senses 9 (Extended Hearing 2, Infravision, Radio, Tracking, Vision Penetrates Concealment 4) • 9 points • Experience of Champions Past: Enhanced Advantage 5 (Close Combat 5) • 1 point • Metahuman Database: Enhanced Advantage (Assessment), Enhanced Skill 6 (Insight +12) • 1 point • Vibrational Transformation: Feature 1 (Can change into costume and gauntlets as a free action) • 1 point",
+    "vantagens": "Accurate Attack, Benefit 2 (Patron: Q Foundation), Fearless, Improved Disarm, Precise Attack (Ranged; Cover), Ultimate Resistance (Will)",
+    "pericias": "Acrobatics 4 (+8), Athletics 5 (+8), Close Combat: Unarmed 4 (+9), Expertise: Combat Strategy 4 (+8), Insight 4 (+19/+7*), Investigation 1 (+5), Perception 5 (+8), Ranged Combat: 4-D Gauntlets 6 (+10), Treatment 7 (+11) *Without Metahuman Database",
+    "ataques": "Initiative +4 Unarmed +14 Close, Damage 8 Plasma Blasts +10 Ranged, Damage 12 Netcaster +10 Ranged, Affliction 12, Resisted by Dodge",
+    "defesas": "Dodge 10 Fortitude 7 Parry 10 Toughness 12/5** Will 9 **Without Density Control",
+    "pontos_poder": "Abilities 62 Skills 20 Powers 58 Defenses 20 Advantages 7 ToTal 165",
+    "complicacoes": "Responsibility: Aztek has trained since childhood with the Q Foundation to be the champion of the Aztec god Quetzalcoatl and battle evil in the world. Naive: Though a stalwart hero, Aztek has lived most of his life in the isolation of the Q Foundation’s South American enclave and is often uncomfortable interacting with the larger world. Power Loss: Aztek needs to use the Helmet of Quetzalcoatl to summon his 4-D Gauntlets and Costume of the Champion. He still has access to their powers if he loses the helmet after summoning them, however. the Lizard King, and the Q Foundation itself, when it was revealed that the ancient and benevolent society is actually funded by Lex Luthor."
+  }
+}

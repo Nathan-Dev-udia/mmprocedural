@@ -1,0 +1,28 @@
+{
+  "nome": "Silver Swan",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 181
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "4",
+      "AGL": "4",
+      "DEX": "4",
+      "FGT": "1",
+      "INT": "3",
+      "AWE": "2",
+      "PRE": "3"
+    },
+    "poderes": "a vian t elepa thy: Array (49 points) • Helping Song : Summon Avian Life 4 (60 points), Horde, Mental Link, Multiple Minions 4 (16 minions), Variable General Type (Avian Life) • 49 points • Bird Song : Communication 4 (Mental), Limited to Avian Life; Comprehend Animals 2 • 1 point Humming Bird: Sustained Impervious Protection 10 • 20 points Swan Song: Array (28 points) • Sonic Blast: Ranged, Damage 14 • 28 points • Sound Wave: Cone Area Damage 11 • 1 point • Swan Screech: Burst Area Cumulative Affliction 11 (Resisted by Fortitude; Auditory Impaired, Auditory Disabled, Auditory Unaware), Limited to a single sense • 1 point Winged f t: Flight 8 (500 MPH), Wings • 8 points ligh",
+    "vantagens": "Evasion, Favored Environment (Aerial), Instant Up, Move-by Action",
+    "pericias": "Acrobatics 4 (+8), Athletics 4 (+6), Insight 4 (+6), Perception 6 (+8), Persuasion 6 (+9), Ranged Combat: Swan Song 4 (+8)",
+    "ataques": "i nitia tive +4 Sonic Blast +8/+10* Ranged, Damage 14 Sound Wave — Close, Cone Area Damage 11 Swan’s Screech — Close, Burst Area Affliction 11, Resisted by Fortitude (DC 21) *With Favored Environment (Aerial).",
+    "defesas": "d odge 8 f or titude 8 Parry 8 t oughness 14 W ill 6 Po er Point W S a bilities 46 S kills 14 Powers 108 d efenses 19 a dv antages 4 t otal 191",
+    "complicacoes": "Self Hatred: Vanessa blames herself for everything bad that has happened to her friends and family."
+  }
+}

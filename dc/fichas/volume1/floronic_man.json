@@ -1,0 +1,29 @@
+{
+  "nome": "Floronic Man",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": 185,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 212
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "4",
+      "STA": "5",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "4",
+      "INT": "4",
+      "AWE": "2",
+      "PRE": "2"
+    },
+    "poderes": "Chlorokinesis: Array (36 points), Quirk: Plants must be nearby (-1 point) • 39 points • Grabbing Tendrils: Ranged Burst Area Affliction 12 (Resisted by Dodge; Hindered, Immobile, Paralyzed) • 36 points • Duplication: Summon Duplicate 11 (165 points), Controlled, Mental Link 3 • 1 point • Plant Servants: Summon 4 (60 points), Controlled, Horde, Multiple Minions 2 (4 minions), Mental Link • 1 point • Squeezing Tendrils: Perception Range Damage 12 • 1 point • Venomous Toxin Cloud: Ranged Cloud Area Affliction 12 (Resisted by Fortitude; Fatigued, Exhausted, Incapacitated) • 1 point Plant Body: Elongation 2 (30 feet); Immortality 5; Immunity 3 (Starvation and Thirst, Suffocation, all half effect), Protection 7, Regeneration 5 • 26 points Thorny: Strength-based Damage 6; Damage 2, Reaction • 14 points Communicate with Plants: Comprehend (Plants 2 and Plant Spirits 1) • 6 points Plant Sense: Senses 3 (Plant Awareness, Acute, Radius) • 3 points",
+    "vantagens": "Diehard, Great Endurance, Improved Initiative",
+    "pericias": "Close Combat: Unarmed 8 (+12), Expertise: Botanist 10 (+14), Insight 3 (+5), Perception 5 (+7), Stealth 8 (+10)",
+    "ataques": "Initiative +6 Grabbing Tendrils — Ranged, Burst Area Affliction 12, Resisted by Dodge Squeezing Tendrils — Perception Range, Damage 12 Thorny +12 Close, Damage 10 Venomous Cloud — Ranged, Cloud Area Affliction 12, Resisted by Fortitude",
+    "defesas": "Dodge 10 Fortitude 12 Parry 10 Toughness 12 Will 8",
+    "pontos_poder": "Abilities 50 Skills 17 Powers 88 Defenses 27 Advantages 3 ToTal 185",
+    "complicacoes": "Motivation: For better or worse, the Floronic Man considers himself the defender of plant life and is willing to go to extremes to show humans the error of their ways. Prejudice: The Floronic Man is a human/plant hybrid and looks strangely horrific."
+  }
+}

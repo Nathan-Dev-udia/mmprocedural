@@ -1,0 +1,30 @@
+{
+  "nome": "Owlman",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": 285,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 137
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "4",
+      "STA": "4",
+      "AGL": "5",
+      "DEX": "7",
+      "FGT": "14",
+      "INT": "8",
+      "AWE": "10",
+      "PRE": "7"
+    },
+    "poderes": "Enhanced Intellect 2 ; Enhanced Awareness 4 ; Glider Cape (Safe Fall, Removable (-1 point)); Armored Costume (Protection 4, Removable (-1 point)); Goggles ( Darkvision, Removable (-1 point)); Hand Claws ( Strength- based Damage 4, Removable (-1 point))",
+    "equipamento": "Flashlight: Feature 1 (Illumination); Grapnel Gun: Movement 1 (Swinging); Mini-Tracers: Feature 1 (Tracking); Rebreather: Immunity 2 (Suffocation), Limited; Utility Belt: Array (12 points), Bolos: Ranged Affliction 4 (Resisted by Dodge; Hindered and Vulnerable, Defenseless and Immobilized), AE: Crescent Blades: Strength-based Ranged Damage 2, AE: Cutting Torch: Damage 1 Linked to Weaken Object’s Toughness 1, AE: Explosive Owl Boomerangs: Ranged Burst Area Damage 4, AE: Flash Bombs: Ranged Burst Area Affliction 3 (Resisted by Fortitude; Vision Impaired, Vision Disabled, Vision Unaware), AE: Sleep Gas Pellets: Ranged Cloud Area Affliction 4 (Resisted by Fortitude; Fatigued, Exhausted, Asleep), AE: Smoke Bombs: Cloud Area Visual Concealment Attack 4, AE: Tear Gas Pellets: Ranged Cloud Area Affliction 3 (Resisted by Fortitude; Dazed and Vision Impaired, Stunned and Vision Disabled, Incapacitated) HQ: THE OWL ’S ROOST • 20 POINTS Size: Huge Tou 10 Features: Communications, Computer, Concealed,",
+    "defesas": "Dodge 12, Parry 14, Fortitude 9, Toughness 10/8*, Will 13 *Without Defensive Roll.",
+    "vantagens": "Assessment, Benefit 5 (CSA member), Close Attack 2, Connected, Contacts, Daze (Intimidation), Defensive Attack, Defensive Roll 2, Equipment 19, Evasion, Hide in Plain Sight, Improved Initiative, Improvised Tools, Instant Up, Inventor, Jack-of-all-trades, Languages 4, Move-by Action, Power Attack, Precise Attack (Ranged; Concealment), Quick Draw, Ranged Attack 7, Redirect, Seize Initiative, Set-up, Skill Mastery (Intimidation), Skill Mastery (Investigation), Startle, Takedown, Trance, Tracking, Uncanny Dodge, Well-informed",
+    "pericias": "Acrobatics 9 (+14), Athletics 10 (+14), Close Combat: Unarmed 4 (+18), Deception 8 (+15), Expertise: Criminology 13 (+21), Streetwise 14 (+22), Insight 10 (+19), Intimidation 15 (+22), Investigation 14 (+22), Perception 13 (+22), Persuasion 5 (+12), Stealth 13 (+20), Sleight of Hand 8 (+15), Technology 7 (+15), Treatment 5 (+12), Vehicles 8 (+15)",
+    "ataques": "Initiative +11, Unarmed +20 (Close, Damage 4), Hand Claws +16 (Close, Damage 8), Crescent Blades +14 (Ranged, Damage 6)",
+    "pontos_poder": "Abilities 106 + Powers 20 + Advantages 66 + Skills 78 + Defenses 15 = 285",
+    "complicacoes": "Flashbacks: Owlman is sometimes stunned by traumatic flashbacks to the night his mother and brother were murdered, especially in connection to Crime Alley, where the killings took place. Nemesis: Police Commissioner Thomas Wayne, Sr. Obsession: Bringing down his father and the honest police officers of Gotham City. Power Loss : Owlman loses his enhanced mental abilities without access to his intellect-boosting drugs. Relationships: Owlman has dysfunctional relationships which are nonetheless important to him, including a rivalry with Ultraman, an illicit romance with Superwoman, and a mentor relationship with his occasional sidekick, Mouser. aware of this alteration in history, but accepted their replace - ment member. That Power Ring was a A former “slave marine” who won his freedom through his military prowess. He served as a mercenary soldier in “Malcolm’s Legions” be - fore encountering the same Harrolds as the first Power Ring, who lied and told the soldier he was the ring’s designated “substitute wearer” when Har - rolds was unavailable. This Power Ring is a counterpart to Green Lantern Jon Stewart, though he is bald and sports facial hair. He exhibits a resentful, defiant attitude toward Owlman and Ultraman, is indifferent to Superwoman’s charms, and disdains Johnny Quick. Now, there’s a new Power Ring, an alternate universe version of Hal Jordan, though his name is unknown. His ascension to the role of Power Ring seems to have been accepted by the other members of the Crime Syndicate and he’s very skilled at commanding the powers of the ring."
+  }
+}

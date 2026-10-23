@@ -1,0 +1,30 @@
+{
+  "nome": "Black Canary (Dinah Laurel Lance)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 186,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 60
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "3",
+      "AGL": "5",
+      "DEX": "3",
+      "FGT": "11",
+      "INT": "2",
+      "AWE": "3",
+      "PRE": "3"
+    },
+    "poderes": "Canary Cry: Array (30 points) • Burst Area Affliction 10 (Hearing Impaired, Hearing Disabled, Hearing Debilitated), Cumulative, Concentration • 30 points • Cone Area Damage 4, Concentration Linked to Cone Area Affliction 4 (Hearing Impaired, Hearing Disabled, Hearing Debilitated), Cumulative, Concentration • 1 point • Burst Area Affliction 10 (Dazed, Stunned, Incapacitated), Cumulative, Concentration • 1 point • Burst Area Damage 10, Concentration • 1 point • Cone Area Damage 10, Concentration • 1 point",
+    "equipamento": "VEHICLE: MOTORCYCLE • 10 POINTS Size: Medium Str 1 Spd 6 Def 10 Tou 8",
+    "vantagens": "Agile Feint, All-out Attack, Daze (Intimidation), Defensive Attack, Defensive Roll 3, Equipment 2, Evasion, Grabbing Finesse, Improved Defense, Improved Disarm, Improved Grab, Improved Initiative, Improved Hold, Improved Trip, Leadership, Move-by Action, Power Attack, Precise Attack (Close; Concealment), Ranged Attack 3, Redirect, Seize Initiative, Takedown, Weapon Bind",
+    "pericias": "Acrobatics 6 (+11), Athletics 8 (+10), Close Combat: Unarmed 5 (+16), Deception 6 (+9), Insight 5 (+8), Intimidation 6 (+9), Investigation 6 (+8), Perception 8 (+11), Persuasion 4 (+7), Stealth 7 (+12), Treatment 3 (+5), Vehicles 8 (+11)",
+    "ataques": "Initiative +9 Unarmed +16 Close, Damage 2 Canary Cry Area, Affliction 10 or Damage 10",
+    "defesas": "Dodge 12 Fortitude 9 Parry 14 Toughness 6/3* Will 11 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 64 Skills 36 Powers 34 Defenses 24 Advantages 28 ToTal 186",
+    "complicacoes": "Computer Illiterate: Dinah does not work well with computers, and they don’t much like her, either. Power Loss: Injuries to her throat or effects rendering her mute rob Black Canary of her canary cry. Relationship: Married to Green Arrow (Oliver Queen)."
+  }
+}

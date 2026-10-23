@@ -1,0 +1,29 @@
+{
+  "nome": "Teekl",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 8,
+  "pontos_poder_publicados": 95,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 171
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "5",
+      "STA": "5/0",
+      "AGL": "6",
+      "DEX": "4",
+      "FGT": "6",
+      "INT": "0",
+      "AWE": "1",
+      "PRE": "1"
+    },
+    "poderes": "Cat-like Senses (Senses 5 (Acute and Tracking Olfactory, Darkvision, Extended Hearing)); t r ansformation (Array (24 points) Quirk—One form must always be active (-0 points), Humanoid f orm (Strength-based Damage 3, Enhanced Stamina 5, Enhanced Strength 5, Enhanced Trait (Improved Critical (Strength-based Damage)), ae : Catlike f orm (Enhanc ed Defense 6 (Dodge 1, Parry 1, Fortitude 4), Shrinking 8, Continuous)",
+    "vantagens": "Close Attack 2, Defensive Roll 4, Improved Initiative, Startle",
+    "pericias": "Acrobatics 2 (+8), Intimidation 7 (+8/+4*), Perception 3 (+4), Stealth 2 (+8/+16*)",
+    "ataques": "Initiative +10, Unarmed +8 (Close, Damage 8, Crit. 19-20/Damage -2)",
+    "defesas": "Dodge 7/12*, Parry 7/12*, Fortitude 7/6*, Toughness 9/4*, Will 5 *Numbers before the slash are in Humanoid Form, those after the slash are in Catlike Form. Abilities 36 + Powers 36 + Advantages 8 + Skills 7 +",
+    "pontos_poder": "Defenses 8 = 95",
+    "complicacoes": "Cat: Teekl is an exceptional cat-like creature, but still basically a cat with the same physical limitations. : Teekl is loyal to Klarion the Witch Boy. f amiliar"
+  }
+}

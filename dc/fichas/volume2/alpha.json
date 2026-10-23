@@ -1,0 +1,29 @@
+{
+  "nome": "Alpha",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 151,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 11
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "3",
+      "AGL": "4",
+      "DEX": "3",
+      "FGT": "8",
+      "INT": "2",
+      "AWE": "1",
+      "PRE": "2"
+    },
+    "poderes": "a ssassin ’s Strike Strength-based Damage 4, Penetrating 4; t rigger M an Multiattack on handguns with a Damage of 4 or less",
+    "equipamento": "d ual d esert e agles Ranged Damage 4",
+    "vantagens": "Accurate Attack, All-out Attack, Assessment, Benefit 8 (Alternate Identity 4, Cipher 4), Close Attack 4, Defensive Roll 2, Equipment 4, Evasion, Great Endurance, Improved Aim, Improved Critical 3 (Assassin’s Strike), Improved Disarm, Improved Initiative, Improved Trip, Instant Up, Move-by Action, Precise Attack (Ranged; Cover), Quick Draw, Ranged Attack 4",
+    "pericias": "Acrobatics 10 (+14), Athletics 6 (+8), Deception 8 (+10), Insight 5 (+6), Intimidation 8 (+10), Perception 7 (+8), Ranged Combat: Dual Desert Eagles 4 (+7)",
+    "ataques": "Initiative +8, Assassin’s Strike +12 (Damage 6, Penetrating, Critical 17-20), Dual Desert Eagles +11 (Ranged Multiattack Damage 4)",
+    "defesas": "Dodge 12, Parry 13, Fortitude 8, Toughness 5/3*, Will 10 * Without Defensive Roll.",
+    "pontos_poder": "Abilities 50 + Powers 12 + Advantages 38 + Skills 24 + Defenses 27 = 151"
+  }
+}

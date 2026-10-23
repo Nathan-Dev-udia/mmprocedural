@@ -1,0 +1,29 @@
+{
+  "nome": "Killer Croc",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 147,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 308
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "10",
+      "STA": "8",
+      "AGL": "4",
+      "DEX": "1",
+      "FGT": "6",
+      "INT": "-1",
+      "AWE": "0",
+      "PRE": "3"
+    },
+    "poderes": "Aquatic: Immunity 3 (Disease, Suffocation: Limited: Must Hold Breath); Movement 2 (Environmental Adaptation 2: Aquatic, Sewers); Swimming 4 (8 MPH) • 10 points Epidermolytic Hyperkeratosis: Feature 2 (Density; Weighs 800 lbs.); Impervious Protection 8 • 18 points Reptilian: Leaping 3; Regeneration 5; Senses 3 (Acute Accurate Olfactory) • 11 points Teeth and Claws: Strength-based Damage 3 • 3 points",
+    "vantagens": "All-out Attack, Chokehold, Diehard, Fast Grab, Fearless, Great Endurance, Improved Hold, Power Attack, Startle, Takedown 2",
+    "pericias": "Athletics 8 (+18), Close Combat: Unarmed 3 (+9), Intimidation 9 (+12), Perception 8 (+8), Stealth 4 (+8)",
+    "ataques": "Initiative +4 Unarmed +9 Close, Damage 13",
+    "defesas": "Dodge 6 Fortitude 16 Parry 6 Toughness 16 Will 6",
+    "pontos_poder": "Abilities 62 Skills 16 Powers 42 Defenses 16 Advantages 11 ToTal 147",
+    "complicacoes": "Prejudice: Killer Croc is deformed in such a way that he appears to be a human alligator or crocodile. He is instantly recognizable and people’s reactions to him tend to be extreme. Disability: Croc is slowly devolving into a less human, more lizard-like form. If this continues at the current rate he’ll be an unintelligent beast driven only by instinct before too long. ALLIES During Croc’s time in Arkham Asylum, he established relation - ships with inmates including Poison Ivy and Mad Hatter. He works with Two-Face and for a time was Swamp Thing’s pupil. ENEMIES Killer Croc’s primary enemy is Batman. Croc often comes into conflict with Gotham’s other super heroes, including Batgirl, Robin, and Nightwing."
+  }
+}

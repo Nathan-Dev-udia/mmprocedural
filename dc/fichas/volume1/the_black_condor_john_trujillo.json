@@ -1,0 +1,29 @@
+{
+  "nome": "The Black Condor (John Trujillo)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 174,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 218
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "8",
+      "STA": "8",
+      "AGL": "4",
+      "DEX": "2",
+      "FGT": "4",
+      "INT": "3",
+      "AWE": "4",
+      "PRE": "4"
+    },
+    "poderes": "Aerokinesis (Move Object 10, Cone Area, Perception Range, Dynamic, AE (Dynamic): Flight 8 (500 MPH))",
+    "vantagens": "All-out Attack, Assessment, Daze (Intimidation), Defensive: Attack, Evasion, Fearless, Improved Defense, Move-by Action, Power Attack, Startle, Takedown 2, Tracking",
+    "pericias": "Acrobatics 3 (+7), Athletics 3 (+11), Close Combat: Unarmed 8 (+12), Expertise: Magic 5 (+8), Insight 6 (+10), Intimidation 6 (+10), Perception 6 (+10), Stealth 3 (+7)",
+    "ataques": "Initiative +4, Aerokinesis (Perception Range Cone Area Move Object 10), Unarmed +12 (Damage 8)",
+    "defesas": "Dodge 12, Parry 12, Fortitude 10, Toughness 8, Will 10",
+    "pontos_poder": "Abilities 74 + Powers 43 + Advantages 13 + Skills 20 + Defenses 24 = 174",
+    "complicacoes": "Responsibility: Tocotl bestowed John Trujillo with the power of the Black Condor to be guardian protector of all creation, a role he takes with the utmost seriousness. Quirk: Trujillo is unaccustomed to dealing with other people, and is often at a loss in social situations where threats are not required."
+  }
+}

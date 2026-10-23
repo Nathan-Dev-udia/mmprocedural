@@ -1,0 +1,30 @@
+{
+  "nome": "Firebrand (Andre Twist)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 156,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 215
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "4",
+      "STA": "5",
+      "AGL": "4",
+      "DEX": "4",
+      "FGT": "7",
+      "INT": "2",
+      "AWE": "2",
+      "PRE": "4"
+    },
+    "poderes": "in the process. With his newfound py - rokinetic abilities and righteous anger at S.H.A.D.E. ’s heavy- handedness in dealing with the Blüdhaven disaster, Andre became the new Firebrand. Andre publically denounced S.H.A.D.E. in the media and co - vertly defied its authority, which he regarded as illegitimate. His words eventually shamed the Titans into investigating S.H.A.D.E. ’s activities in Blüdhaven, uncovering Father Time’s attempts to mold its mutated residents into a metahuman army. Before he could help put a stop to Time’s machinations,",
+    "equipamento": "Staves (Strength-based Damage 2, Reach)",
+    "vantagens": "Accurate Attack, Attractive, Close Attack, Defensive Attack, Defensive Roll 2, Equipment 1, Evasion, Fascinate (Persuasion), Great Endurance, Improved Defense, Improved Disarm, Improved Hold, Power Attack, Well-informed",
+    "pericias": "Acrobatics 6 (+10), Athletics 6 (+10), Close Combat: Staves 4 (+11), Expertise: Current Events 4 (+6), Expertise: Politics 4 (+6), Intimidation 6 (+10), Perception 4 (+6), Persuasion 6 (+10), Ranged Combat: Flame Blast 6 (+10), Sleight of Hand 5 (+9), Stealth 5 (+9)",
+    "ataques": "Initiative +4, Flame Blast +10 (Damage 10), Staves +12 (Damage 6), Unarmed +8 (Damage 4)",
+    "defesas": "Dodge 12, Parry 12, Fortitude 8, Toughness 7/5, Will 8",
+    "pontos_poder": "Abilities 64 + Powers 27 + Advantages 15 + Skills 28 + Defenses 22 = 156",
+    "complicacoes": "Justice: Andre is an ardent liberal, driven by his concern for social justice and distrust of powerful right-wing cabals. Temper: Befitting his code name, Andre sometimes acts angrily before he thinks, once his liberal sensibilities are offended. Quirk: Pretty faces mean trouble for Firebrand. After a brief, ego-bruising infatuation with the beautiful but unstable Stormy Knight, Andre fell hard for Jenna Raleigh, leading to unresolved feelings between them and some misplaced bitterness (later resolved) towards Andy Franklin."
+  }
+}

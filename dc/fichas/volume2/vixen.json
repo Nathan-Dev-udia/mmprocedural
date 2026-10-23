@@ -1,0 +1,28 @@
+{
+  "nome": "Vixen",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 136,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 258
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "2",
+      "AGL": "3",
+      "DEX": "2",
+      "FGT": "4",
+      "INT": "1",
+      "AWE": "2",
+      "PRE": "4"
+    },
+    "poderes": "t Variable 5 (25-points, animal traits), Free Action an tu t ot em: • 45 points Common a nimal t r aits: • Cheetah: Damage 3 (claws, Penetrating 3, Strength-Based), Speed 6 • Hawk: Flight 4 • e lephan t: Growth 8, No Change in Size (+0) • Mule: Damage 2 (kick, Strength-Based), Enhanced Will 4 (stubbornness) • Monkey: Enhanced Agility 5, Movement 1 (Safe Fall, Limited to near a surface)",
+    "vantagens": "All-out Attack, Attractive, Defensive Roll 3, Improved Initiative, Languages, Move-by Action",
+    "pericias": "Acrobatics 4 (+7), Athletics 4 (+5), Close Combat: Unarmed 4 (+8), Deception 4 (+8), Expertise: Modeling 8 (+9/+12*), Insight 4 (+6), Perception 6 (+8), Persuasion 4 (+8), Stealth 4 (+7) *Presence-based a mule. Vixen sometimes calls out the name of an animal as she mimics it, and a ghostly silhouette of the animal often appears around her. Vixen’s base traits are often be - low her power level, since she fre - quently augments them with her pow- ers. For additional animal traits, see the endix of this volume. a pp",
+    "ataques": "i nitia tive +7 Unarmed +8 Close, Damage 1 (or more)",
+    "defesas": "d odge 9 f or titude 8 Parry 4 t oughness 5/2* W ill 9 *Without Defensive Roll bonus",
+    "pontos_poder": "a bilities 38 S kills 22 Powers 45 d efenses 23 a dv antages 8 ToTal 136"
+  }
+}

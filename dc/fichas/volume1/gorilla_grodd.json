@@ -1,0 +1,29 @@
+{
+  "nome": "Gorilla Grodd",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": 209,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 230
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "9",
+      "STA": "6",
+      "AGL": "4",
+      "DEX": "4",
+      "FGT": "6",
+      "INT": "8",
+      "AWE": "5",
+      "PRE": "3"
+    },
+    "poderes": "Ape Senses: Senses 2 (Low-Light Vision, Acute Smell) • 2 points Force of Mind: Perception Range Move Object 5, Subtle 2 • 17 points Prehensile Feet: Feature 1 (May use feet as hands) • 1 point Telepathy: Array (25 points) • Mind Reading 12: Subtle • 25 points • Mind Control: Perception Range Affliction 8 (Resisted by Will; Dazed, Compelled, Controlled), Subtle • 1 point • Thought Projection: Area Mental Communication 5 • 1 point",
+    "vantagens": "All-out Attack, Benefit 1 (Ambidexterity), Defensive Roll 3, Fast Grab, Inventor",
+    "pericias": "Acrobatics 8 (+12), Athletics 6 (+15), Deception 8 (+11), Close Combat: Unarmed 7 (+13), Expertise: Gorilla City 8 (+16), Insight 6 (+11), Intimidation 8 (+11), Perception 5 (+10), Stealth 4 (+8), Technology 8 (+16), Vehicles 4 (+8)",
+    "ataques": "Initiative +4 Unarmed +13 Close, Damage 9 Mind Control — Perception Range, Affliction 8, Resisted by Will",
+    "defesas": "Dodge 13 Fortitude 11 Parry 13 Toughness 9/6* Will 13 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 90 Skills 36 Powers 47 Defenses 29 Advantages 7 ToTal 209",
+    "complicacoes": "Hatred: Grodd has sworn revenge against Gorilla City and the Flash for past slights. Obsession: With extending his influence over the world. Prejudice: Grodd considers simians far superior to “primitive” humans. ENEMIES Grodd’s two greatest enemies are Solovar and the Flash (Barry Allen). He will go to any length to remove them as obstacles to his plans. He also reserves a particular venge - ful streak for Gorilla City for his treatment over the years. In cooperation with other villains, Grodd has come up against diverse heroes, including most of the members of the Jus - tice League."
+  }
+}

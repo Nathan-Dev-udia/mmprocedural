@@ -1,0 +1,29 @@
+{
+  "nome": "Bolt",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 165,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 81
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "3",
+      "AGL": "4",
+      "DEX": "5",
+      "FGT": "6",
+      "INT": "8",
+      "AWE": "3",
+      "PRE": "3"
+    },
+    "pericias": "Acrobatics 6 (+10), Athletics 7 (+10), Close Combat: Unarmed 4 (+10), Expertise: Science 4 (+12), Perception 6 (+9), Ranged Combat: Bolt 5 (+10), Technology 8 (+16)",
+    "poderes": "Bolt Suit: Removable (-10 points) • 42 points Armored Suit: Protection 6 • 6 points Bolt: Ranged Damage 12 • 24 points • Electrocute: Damage 12, Penetrating 12 • 1 point Flight: Flight 4 (30 MPH) • 8 points Teleport: Teleportation 6 (1,800 feet), Change Direction • 13 points",
+    "vantagens": "Accurate Attack, Agile Feint, Assessment, Benefit 1 (Well-off ), Evasion 2, Improved Aim, Improved Critical 2 (Bolt), Improved Critical 2 (Electrocute), Improved Initiative, Precise Attack 2 (Ranged, Cover and Concealment)",
+    "ataques": "Initiative +8 Bolt +10 Ranged, Damage 12, Crit. 18-20 Electrocute +10 Close, Damage 12, Crit. 18-20",
+    "defesas": "Dodge 13 Fortitude 6 Parry 10 Toughness 9 Will 6",
+    "pontos_poder": "Abilities 70 Skills 20 Powers 42 Defenses 19 Advantages 14 ToTal 165",
+    "complicacoes": "Assassin: Killing is a job, and killing for money is the ultimate job. There is no life that you can’t put a price on. Code of Honor: Bolt is loyal if he feels he’s being treated fairly by his employer, even in the face of jail time. However, if he feels his employer is lying to him or otherwise mistreating him, he’ll teleport out in the middle of a job and the employer may become his new target! Greed: Bolt works for money, lots of money. If you pay, he’ll play, but if the money dries up he takes off. the Killer Elite, and has been a member of both the Secret So - ciety of Super-Villains and the Injustice League. He would not consider any members of these groups to be allies."
+  }
+}

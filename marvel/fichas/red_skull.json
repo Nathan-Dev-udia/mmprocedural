@@ -1,0 +1,123 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Red Skull",
+  "nome_pt": "Red Skull",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 190,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 76
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 7,
+      "Vig": 7,
+      "Agi": 7,
+      "Des": 7,
+      "Lut": 13,
+      "Int": 4,
+      "Pro": 3,
+      "Pre": 4
+    },
+    "defesas": {
+      "Esquiva": 13,
+      "Aparar": 13,
+      "Fortitude": 9,
+      "Resistencia": 7,
+      "Vontade": 8
+    },
+    "pericias": {
+      "Enganação": 8,
+      "Especialidade: Mechanical": 12,
+      "Especialidade: Chemical": 12,
+      "Persuasão": 8,
+      "Veículos": 8,
+      "Intimidação": 15,
+      "Especialidade: Tactics": 8,
+      "Especialidade: Technology": 14,
+      "Especialidade: Mercenary": 4,
+      "Percepção": 8,
+      "Intuição": 10,
+      "Furtividade": 8
+    },
+    "vantagens": [
+      "All-out Attack",
+      "Chokehold",
+      "Equipment 6",
+      "Fascinate (Intimidation)",
+      "Favored Foe (Freedom Lovers) 3",
+      "Improved Trip",
+      "Inspire",
+      "Inventor",
+      "Minion 9",
+      "Power Attack",
+      "Sneak Attack 2",
+      "Startle",
+      "Languages 1"
+    ],
+    "poderes": [
+      {
+        "nome": "Death Dust",
+        "construcao_3e": "Device (Removable): Weaken Stamina 10, Cloud Area.",
+        "custo_2e_pp": 12,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Immunity 1",
+        "construcao_3e": "Immunity to Death’s Head Toxin.",
+        "custo_2e_pp": 1,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Arsenal (SMG +4 Damage, Autofire; 12 EP; pistol +3 Damage, 6 EP; source states 13 EP total).",
+      "Underground lair (Huge; Toughness 15; listed features; 17 EP)."
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Unarmed",
+        "bonus": 13,
+        "dano": 7
+      },
+      {
+        "nome": "Submachine gun",
+        "bonus": 13,
+        "dano": 4
+      },
+      {
+        "nome": "Death Dust (area)",
+        "bonus": 10,
+        "dano": 10
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 20,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 17,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 104,
+    "defesas": 50,
+    "pericias": 57.5,
+    "vantagens": 29,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 240.5,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Dodge Focus 10 foi convertido em Esquiva e reduzido a 13 para caber no NP; Improved Throw virou Improved Trip; Master Plan virou Inspire conforme o guia; Fearsome Presence e Sneak Attack não têm equivalentes diretos.",
+    "A fonte imprime STR/DEX/CON/INT/WIS/CHA +7/+7/+7/+4/+3/+4; Toughness +7, Fortitude +9, Reflex +9, Will +8; Attack +13; Defense 23; Initiative +7. Os valores físicos de STR/DEX/CON são extraordinariamente altos para um perfil NP 10 e foram preservados como publicados.",
+    "A fonte declara arsenal de 13 EP, mas os custos discriminados (12 + 6) somam 18 EP; ambos os valores foram preservados. Defense 23 e Dodge Focus 10 excedem limites defensivos de NP 10; Esquiva/Aparar foram reduzidas a 13.",
+    "Attack +13 com dano desarmado 7 fica exatamente em NP 10. Death Dust foi mantida como Weaken Stamina 10; seu ataque foi reduzido de +13 para +10 para respeitar Ataque + efeito 20, sem afirmar que a construção 3e esteja final.",
+    "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +7/+7/+7/+4/+3/+4. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
+    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
+  ]
+}

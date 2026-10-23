@@ -1,0 +1,29 @@
+{
+  "nome": "Man-Bat",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 136,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 39
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "6",
+      "STA": "6",
+      "AGL": "7",
+      "DEX": "4",
+      "FGT": "10",
+      "INT": "4",
+      "AWE": "3",
+      "PRE": "1"
+    },
+    "poderes": "Bat Wings: Flight 5 (60 MPH), Wings • 5 points Claws: Strength-based Damage 1 • 1 point e cholo cation: Senses 3 (Accurate and Extended Hearing) • 3 points",
+    "vantagens": "Close Attack, Defensive Roll 2, Favored Environment (Nighttime), Improved Critical (Claws), Improved Initiative, Move-by Action, Startle",
+    "pericias": "Acrobatics 8 (+15), Athletics 8 (+14), Expertise: Zoology 8 (+12), Intimidation 8 (+9), Perception 10 (+13), Stealth 8 (+15)",
+    "ataques": "i nitia tive +11 Claws +11 Close, Damage 7, Crit. 19-20 Unarmed +11 Close, Damage 6",
+    "defesas": "d odge 10 f or titude 10 Parry 10 t oughness 8/6* W ill 8 *Without Defensive Roll.",
+    "pontos_poder": "a bilities 82 S kills 25 Powers 9 d efenses 12 a dv antages 8 ToTal 136",
+    "complicacoes": "ormal i den tity: If the bat-gland serum wears off or is countered by an antidote, Man-Bat reverts to Kirk Langstrom, who has STR 0, STA 0, AGI 1, DEX 1, FGT 1, and none of Man-Bat’s powers, advantages or skills except for Expertise. Sensitivity to Light and Sound: Man-Bat’s heightened senses are susceptible to loud noises and bright light. the less human and more brutal he becomes. Dr. Langstrom is not a typical villain; he loves his wife and child and it is only under the transformative power of the serum that he becomes the violent Man-Bat, often believing (erroneously) that his loved ones are dead and a real or imagined enemy must pay."
+  }
+}

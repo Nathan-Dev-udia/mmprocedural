@@ -1,0 +1,30 @@
+{
+  "nome": "Katana",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 173,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 303
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "3",
+      "AGL": "5",
+      "DEX": "5",
+      "FGT": "8",
+      "INT": "1",
+      "AWE": "5",
+      "PRE": "3"
+    },
+    "poderes": "Soultaker Sword: Enhanced Parry 3; Feature 1 (Souls In Sword); Strength-based Damage 3, Penetrating 3; Easily Removable (-4 points) • 6 points",
+    "equipamento": "20 points of martial arts weapons and gear.",
+    "vantagens": "Accurate Attack, Defensive Attack, Defensive Roll 2, Equipment 4, Improved Critical 2 (Shuriken), Improved Critical 4 (Sword), Improved Critical 2 (Unarmed), Improved Disarm, Improved Grab, Improved Hold, Improved Initiative, Improved Smash, Improved Trip, Instant Up, Language (English; Japanese native), Prone Fighting, Power Attack, Precise Attack 4 (Ranged, Close; Cover and Concealment), Quick Draw, Startle, Takedown 2, Taunt",
+    "pericias": "Acrobatics 10 (+15), Athletics 10 (+13), Close Combat: Martial Art Weapons 6 (+14), Close Combat: Unarmed 9 (+17), Insight 6 (+11), Intimidation 8 (+11), Perception 10 (+15), Persuasion 6 (+9), Ranged Combat: Martial Art Weapons 12 (+17), Stealth 13 (+18)",
+    "ataques": "Initiative +9 Shuriken +17 Ranged, Damage 3, Crit. 18-20 Sword +14 Close, Damage 6, Penetrating 3, Crit. 16-20 Unarmed +17 Close, Damage 3, Crit. 18-20",
+    "defesas": "Dodge 12 Fortitude 8 Parry 15/12* Toughness 5/3** Will 10 *Without Soultaker. **Without Defensive Roll.",
+    "pontos_poder": "Abilities 66 Skills 45 Powers 6 Defenses 21 Advantages 35 ToTal 173",
+    "complicacoes": "Justice: Katana believes the world should be a just place and she does what she can to make it that way. Honor: Katana has a strong sense of honor and won’t unfairly take advantage when in a position of power."
+  }
+}

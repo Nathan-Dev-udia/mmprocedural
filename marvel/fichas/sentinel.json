@@ -1,0 +1,114 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Sentinel",
+  "nome_pt": "Sentinel",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 130,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 86
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 15,
+      "Vig": null,
+      "Agi": 0,
+      "Des": 0,
+      "Lut": 2,
+      "Int": null,
+      "Pro": 2,
+      "Pre": null
+    },
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 8,
+      "Fortitude": null,
+      "Resistencia": 12,
+      "Vontade": null
+    },
+    "pericias": {
+      "Percepção": 8
+    },
+    "vantagens": [],
+    "poderes": [
+      {
+        "nome": "Growth 16",
+        "construcao_3e": "Growth 16, Continuous, Permanent, Innate; no Constitution bonus.",
+        "custo_2e_pp": 33,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Blast 10",
+        "construcao_3e": "Blast 10, Line Area; Alternate Effects: Ranged Cone Area Paralyze 10, Explosive Area Snare 10, Search Light.",
+        "custo_2e_pp": 33,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Immunity 30",
+        "construcao_3e": "Immunity to Fortitude effects.",
+        "custo_2e_pp": 30,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Flight 4",
+        "construcao_3e": "Flight 4.",
+        "custo_2e_pp": 8,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Super-Senses 3",
+        "construcao_3e": "Extended 2, Mutant Awareness.",
+        "custo_2e_pp": 3,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Protection 12",
+        "construcao_3e": "Protection 12, Impervious, Ablative.",
+        "custo_2e_pp": 12,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Unarmed",
+        "bonus": 2,
+        "dano": 10
+      },
+      {
+        "nome": "Blast",
+        "bonus": 2,
+        "dano": 10
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 12,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 0,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 38,
+    "defesas": 28,
+    "pericias": 4.0,
+    "vantagens": 0,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 70.0,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Nenhuma vantagem foi removida.",
+    "A fonte imprime STR +15; DEX +0; CON/INT/CHA ausentes; WIS +2. Toughness +12, Fortitude and Will absent, Reflex +3; Attack +2 [Unarmed +10, Blast +8]; Defense 10; Initiative +0.",
+    "Valores ausentes foram mantidos como null/sem defesa comprada, não tratados como 0 ranks de atributo. Attack +2 com efeito 10 é legal; Esquiva/Aparar 8 + Resistência 12 = 20.",
+    "A ficha apresenta Abilities −26 no total e Immunity 30 contra efeitos de Fortitude; nenhum atributo ou defesa ausente foi inventado.",
+    "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +15/+0/—/—/+2/—. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
+    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
+  ]
+}

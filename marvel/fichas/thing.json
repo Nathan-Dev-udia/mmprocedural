@@ -1,0 +1,122 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Thing",
+  "nome_pt": "Thing",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 155,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 104
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 12,
+      "Vig": 13,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 7,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "defesas": {
+      "Esquiva": 7,
+      "Aparar": 7,
+      "Fortitude": 12,
+      "Resistencia": 13,
+      "Vontade": 8
+    },
+    "pericias": {
+      "Enganação": 8,
+      "Especialidade: Mecânica": 4,
+      "Intimidação": 12,
+      "Percepção": 8,
+      "Veículos": 12,
+      "Intuição": 12,
+      "Furtividade": 8,
+      "Combate Corpo-a-Corpo: Unarmed": 1
+    },
+    "vantagens": [
+      "All-Out Attack",
+      "Benefit [Wealth]",
+      "Chokehold",
+      "Defensive Attack",
+      "Daze [Intimidate]",
+      "Fascinate [Intimidate]",
+      "Equipment",
+      "Improved Defense 2",
+      "Improved Initiative",
+      "Luck 2",
+      "Power Attack",
+      "Startle",
+      "Takedown"
+    ],
+    "poderes": [
+      {
+        "nome": "Enhanced Strength",
+        "construcao_3e": "Enhanced Trait: Força (rank 2e 20); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Enhanced Strength 20 (20pp); custo 2e impresso 20 PP.",
+        "custo_2e_pp": 20,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Enhanced Constitution",
+        "construcao_3e": "Enhanced Trait: Vigor (rank 2e 20); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Enhanced Constitution 20 (30pp); custo 2e impresso 30 PP.",
+        "custo_2e_pp": 30,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Impervious Toughness",
+        "construcao_3e": "Protection with Impervious (rank 2e 13); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Impervious Toughness 13 (13pp); custo 2e impresso 13 PP.",
+        "custo_2e_pp": 13,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Super Strength",
+        "construcao_3e": "Power-Lifting / Enhanced Strength (rank 2e 3); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Strength 3 (6pp); custo 2e impresso 6 PP.",
+        "custo_2e_pp": 6,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Uniform [Second Chance (Saves vs. Electrical Attacks), GPS Receiver, PDA; 3ep]"
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "dano": 12
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 20,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 20,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 82,
+    "defesas": 47,
+    "pericias": 65,
+    "vantagens": 15,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 209,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
+    "Perícias foram convertidas subtraindo do bônus total impresso o atributo 3e correspondente. Conhecimentos, Ofícios e Profissões foram mantidos como Especialidades; Condução/Pilotagem como Veículos; Sobrevivência como Especialidade: Sobrevivência; Computadores como Tecnologia.",
+    "Poderes preservam os descritores, ranks, modificadores e custos 2e impressos; o guia orienta o efeito 3e equivalente. Custos 3e ficam nulos quando a construção exata ou os modificadores não permitem cálculo seguro.",
+    "Nenhuma Motivação ou complicação não publicada foi acrescentada.",
+    "A fonte informa 56 PP na categoria Powers, mas os custos individuais listados somam 69 PP (Enhanced Strength 20, Enhanced Constitution 30, Impervious Toughness 13, Super Strength 6). A diferença de 13 PP foi preservada sem correção.",
+    "A fonte atribui 1 rank(s) de Equipment (5 EP), mas os itens listados somam 3 EP; valores preservados sem correção.",
+    "Fortitude ajustada de 15 para 12 para respeitar Fortitude + Vontade ≤ 20.",
+    "Subtotal 3e conhecido: 82 PP em habilidades, 65 em perícias, 47 em defesas, 15 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto."
+  ]
+}

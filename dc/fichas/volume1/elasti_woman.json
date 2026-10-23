@@ -1,0 +1,30 @@
+{
+  "nome": "Elasti-Woman",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 143,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 181
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "12/0",
+      "STA": "19/7",
+      "AGL": "4",
+      "DEX": "4",
+      "FGT": "4",
+      "INT": "1",
+      "AWE": "2",
+      "PRE": "3"
+    },
+    "poderes": "and conceal their true nature, he created the Mento helmet. It magnified his mental prowess to super-heroic levels, allow - ing him to become a costumed crime-fighter. As Mento, he met and romanced Rita Farr, on whom he had a crush. After becoming an unofficial member of the Doom Patrol, he and Elasti-Girl married and adopted the orphaned Beast Boy. They seemed to be a loving, if unusual, family. Dayton became unhinged after the apparent death of his wife. He improved his Mento",
+    "vantagens": "Accurate Attack, Attractive, Diehard, Improved Grab, Improved Hold, Teamwork",
+    "pericias": "Athletics 4 (+16/+4*), Close Combat: Unarmed 6 (+10), Expertise: Acting 4 (+5), Intimidation 0 (+9/+3*), Persuasion 6 (+9)",
+    "ataques": "Initiative +4, Unarmed +10 (Close, Damage 12/0*)",
+    "defesas": "Dodge 1/7*, Parry 1/7*, Fortitude 7/10, Toughness 19/7*, Will 3 *Without typical levels of Growth.",
+    "pontos_poder": "Abilities 50 + Powers 70 + Advantages 6 + Skills 10 + Defenses 7 = 143",
+    "complicacoes": "Involuntary Powers: Elasti-Woman’s size- changing abilities are sometimes out of control when she is emotionally unstable. Relationships: Rita Farr is deeply committed to her fellow Doom Patrol members, her adopted son Beast Boy, and (while together) her husband, Mento. Weakness: Due to her malleable brain, Elasti-Woman suffers a -5 penalty to checks against Deception and Persuasion attempts, and against Mind Control attacks.",
+    "equipamento": "and sought ven - geance against Madame Rouge and Zahl, but was thwarted"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "nome": "Shining Knight (Ystina)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 150,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 170
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "5",
+      "STA": "5",
+      "AGL": "4",
+      "DEX": "3",
+      "FGT": "10",
+      "INT": "2",
+      "AWE": "3",
+      "PRE": "2"
+    },
+    "poderes": "Caliburn (Senses 1 (Mystical Awareness); Strength- based Damage 3, Penetrating 8; Easily Removable (-4 points)); Hardiness (Immunity 2 (Aging, Disease), Limited to Half Effect)",
+    "equipamento": "Chainmail (Protection 3), Medium Shield (+2 active defenses)",
+    "vantagens": "All-out Attack, Equipment 2, Improved Initiative, Improved Smash, Interpose, Luck 2, Power Attack, Sidekick 19, Takedown, Weapon Break",
+    "pericias": "Athletics 7 (+12), Close Combat: Sword 2 (+12), Expertise: History 8 (+10), Expertise (Agl): Riding 10 (+14), Insight 6 (+9), Intimidation 10 (+12), Perception 6 (+9)",
+    "ataques": "Initiative +9, Caliburn +12 (Close, Damage 8, Penetrating 8), Unarmed +10 (Close, Damage 5)",
+    "defesas": "Dodge 12/10*, Parry 12/10*, Fortitude 10, Toughness 8, Will 10 *Without Medium Shield.",
+    "pontos_poder": "Abilities 68 + Powers 9 + Advantages 30 + Skills 25 + Defenses 18 = 150",
+    "complicacoes": "of the r ealm: Ystina aspires to be as good a knight as Sir Galahad and strives to uphold the ideals imelost: T of Camelot. t he Shining Knight is lost in time and may never be able to return home."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "nome": "Black Canary (Dinah Drake Lance)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 136,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 58
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "2",
+      "AGL": "4",
+      "DEX": "3",
+      "FGT": "10",
+      "INT": "3",
+      "AWE": "3",
+      "PRE": "4"
+    },
+    "equipamento": "VEHICLE: MOTORCYCLE • 10 POINTS Size: Medium Str 1 Spd 6 Def 10 Tou 8",
+    "vantagens": "Agile Feint, Attractive, Choke Hold, Defensive Roll 4, Equipment 2, Evasion, Fascinate (Persuasion), Improved Disarm, Improved Hold, Improved Initiative, Power Attack, Set-up, Takedown, Teamwork, Well-informed",
+    "pericias": "Acrobatics 6 (+10), Athletics 6 (+8), Close Combat: Unarmed 6 (+16), Deception 5 (+9), Insight 5 (+8), Intimidation 4 (+8), Investigation 9 (+13), Perception 6 (+9), Persuasion 8 (+12), Stealth 6 (+10), Vehicles 7 (+10)",
+    "ataques": "Initiative +8 Unarmed +16 Close, Damage 2",
+    "defesas": "Dodge 12 Fortitude 9 Parry 10 Toughness 6/2* Will 9 * Without Defensive Roll",
+    "pontos_poder": "Abilities 62 Advantages 19 Defenses 21 Powers 0 Skills 34 ToTal 136",
+    "complicacoes": "Doing Good: Black Canary’s detective father instilled her with a strong sense of right and wrong, along with a need to protect the innocent and bring justice to the guilty. Relationships: Black Canary is married to private investigator Larry Lance and is mother to Dinah Laurel Lance, the second Black Canary. Among her many friends in the Justice Society, she was especially close to Ted Knight, the first Starman, and the two once momentarily considered having an affair."
+  }
+}

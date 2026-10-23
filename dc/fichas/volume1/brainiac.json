@@ -1,0 +1,26 @@
+{
+  "nome": "Brainiac",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 13,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 85
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "13",
+      "STA": "11",
+      "AGL": "2",
+      "DEX": "3",
+      "FGT": "4",
+      "INT": "15",
+      "AWE": "3",
+      "PRE": "3"
+    },
+    "poderes": "Android Body: Immunity 30 (Fortitude), Protection 5, Impervious Toughness 8 • 43 points Computer Mind: Communication 5 (Radio), Comprehend 4 (Languages, Machines), Quickness 10 (Limited to Mental Tasks) • 33 points",
+    "equipamento": "VEHICLE: BIO-SHELL • 219 POINTS Size: Awesome Str 20 Speed 14 Def –2, Tou 20 Features: Extra Limbs 8, Impervious Toughness 20, Missile Battery (Ranged Damage 16, Burst Area 12), Remote Control, Shrink Ray (Ranged Shrinking Attack 20), Space Travel 3, Transporter (Teleport 15, Extended)",
+    "vantagens": "Accurate Attack, Assessment, Chokehold, Diehard, Eidetic Memory, Equipment 43, Fearless, Improved Initiative, Inventor, Well-informed",
+    "pericias": "Close Combat: Bio-Shell 2 (+6), Close Combat: Unarmed 7 (+11), Expertise: History 8 (+23), Expertise: Known Space 8 (+23), Insight 8 (+11), Intimidation 8 (+11), Investigation 6 (+18), Perception 8 (+11), Ranged Combat: Bio-Shell Weapons 6 (+9), Technology 8 (+23), Vehicles 11 (+14) Man of Steel dearly; the defeated villain launched a missile at the Kent Farm out of spite, destroying it and giving Jonathan Kent a fatal heart attack. BRAINIAC (MILTON FINE) Brainiac’s nanite probes originally inhabited and possessed Milton Fine, a carnival mentalist, greatly enhancing his latent psionic abilities, but also convincing him that he was a dis - embodied alien scientist, exiled from his world and possess - ing the body of an earthman. As Brainiac, Fine initially relied heavily on his enhanced mental powers. Eventually, he used recombinant DNA and cybernetic en - hancement to transform himself into a green-skinned, physi - cally powerful figure more like the original Brainiac. A cyber- web implant also gave him the ability to directly interface with computers, enhancing the access the nanite probes had to the outside world. PROBES & MINIONS Brainiac has demonstrated considerable capabilities in terms of manufacturing and using various nanotech “probes, ” remote devices intended to explore and study other worlds in preparation for their master’s arrival. In fact, the super-crim inal called “Brainiac” on Earth for some years was, in fact, one such probe, programmed with a version of his conscious ness. It is likely Brainiac has or can create other probes, different artificial bodies, and similar constructs, if he wishes to do so. The GM should feel free to assign Brainiac robot minions as best suits the adventure, and his ability to download his mind and later build himself a new body can provide the villain with a last-minute escape or an explanation for a miracu lous return from destruction. 84 84 Andre Nutter (order #3020437)"
+  }
+}

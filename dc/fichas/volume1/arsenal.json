@@ -1,0 +1,29 @@
+{
+  "nome": "Arsenal",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 150,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 27
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "2",
+      "AGL": "5",
+      "DEX": "5",
+      "FGT": "6",
+      "INT": "1",
+      "AWE": "2",
+      "PRE": "2"
+    },
+    "equipamento": "Arsenal: Array (6 points) • Throwing Knives: Ranged Damage 2, Multiattack • 6 points • Short Sword: Strength-based Damage 2, Penetrating 2 • 1 point • Batons: Strength-based Damage 2, Split • 1 point",
+    "vantagens": "Accurate Attack, Attractive, Chokehold, Close Attack 5, Connected, Defensive Roll 3, Equipment 2, Evasion, Improved Aim, Improved Critical (Arsenal) 2, Improved Initiative, Improvised Weapon 2, Power Attack, Precise Attack 3 (Close; Cover and Concealment. Ranged; Cover), Quick Draw, Ranged Attack 5, Throwing Mastery 2",
+    "pericias": "Acrobatics 3 (+8), Athletics 9 (+11), Close Combat: Arsenal 5 (+11), Deception 7 (+9), Insight 6 (+8), Intimidation 5 (+7), Investigation 7 (+8), Perception 8 (+10), Persuasion 7 (+9), Ranged Combat: Arsenal 6 (+11), Ranged Combat: Bows 5 (+10), Vehicles 4 (+9)",
+    "ataques": "Initiative +9 Batons +16 Close, Damage 4, Split, Crit. 18-20 Short Sword +16 Close, Damage 4, Penetrating 2, Crit. 18-20 Throwing Knives +16 Ranged Damage 2, Multiattack, Crit. 18-20 Unarmed +11 Close, Damage 2",
+    "defesas": "Dodge 15 Fortitude 8 Parry 15 Toughness 5/2* Will 8 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 50 Skills 36 Powers 0 Defenses 31 Advantages 33 ToTal 150",
+    "complicacoes": "Bereaved: Arsenal recently lost his daughter Lian in the destruction of Star City, an event that left him an angry, broken man, riding the line between hero and villain. Junkie: When he was younger, Arsenal was addicted to heroin. While he beat his addiction and was clean for many years, the loss of his daughter has driven him back to drugs and caused him to have severe hallucinations."
+  }
+}

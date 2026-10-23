@@ -1,0 +1,29 @@
+{
+  "nome": "Abra Kadabra",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 174,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 11
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "4",
+      "AGL": "1",
+      "DEX": "3",
+      "FGT": "2",
+      "INT": "4",
+      "AWE": "4",
+      "PRE": "2"
+    },
+    "poderes": "Technological Magic: Array (56 points) • Mind over Matter: Move Object 11, Damaging, Perception Area, Perception Range, Precise • 56 points • Disappearing Act: Teleport 11, Accurate, Easy, Extended, Increased Mass • 1 point • Hypno-Ray: Affliction 11 (Resisted by Will; Dazed, Compelled, Controlled), Cone Area, Cumulative, Perception Range, Reversible • 1 point • Nanotechnological Transformation: Affliction 11 (Resisted by Fortitude; Hindered, Immobile, Transformed), Perception Range, Progressive, Reversible • 1 point • Nanotechnological Transmutation: Transform 8 (solids into other solids), Continuous, Perception Range • 1 point • Teleport Ray: Teleport 11, Attack (Resisted by Dodge), Extended, Increased Mass, Perception Range • 1 point",
+    "vantagens": "Daze (Deception), Defensive Roll 3, Fascinate (Deception), Improvised Tools, Inventor",
+    "pericias": "Deception 6 (+8), Expertise: Science 15 (+19), Expertise: Stage Magic 10 (+14), Intimidation 6 (+8), Persuasion 6 (+8), Sleight of Hand 6 (+9), Stealth 6 (+7), Technology 7 (+11)",
+    "ataques": "Initiative +1 Technological Magic — Perception, Move Object 11, others Unarmed +2 Close, Damage 2",
+    "defesas": "Dodge 10 Fortitude 9 Parry 12 Toughness 7/4* Will 11 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 44 Skills 31 Powers 61 Defenses 31 Advantages 7 ToTal 174",
+    "complicacoes": "Power Loss: Kadabra derives his powers from sub-dermal implants acquired in his native future era. Authorities with sufficient know-how (like Iron Heights wardens) can remove them, leaving Kadabra without powers. Recognition: Kadabra sometimes acts out of greed or revenge, but the common element in all of his schemes is his insane, ruthless craving for applause and attention. His actions are often showy, even when subtlety is needed."
+  }
+}

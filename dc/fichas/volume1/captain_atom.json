@@ -1,0 +1,29 @@
+{
+  "nome": "Captain Atom",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 14,
+  "pontos_poder_publicados": 251,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 98
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "15",
+      "STA": "12",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "8",
+      "INT": "1",
+      "AWE": "2",
+      "PRE": "2"
+    },
+    "poderes": "Dilustel Covering: Immunity 10 (Life Support), Impervious Toughness 15, Protection 3 • 28 points Quantum Channeling : Enhanced Strength 5 (Lifting only, Lifting Str 20; 25,000 tons), Flight 13 (16,000 MPH), Immunity 40 (Energy Effects, Distracting, Limited to Half Effect, Sustained), Senses 3 (Detect Energy Spectra (Acute, Radius)) • 48 points Quantum Manipulation: Array (36 points) • Quantum Blast: Ranged Damage 18 • 36 points • Quantum Burst: Burst Area Damage 14 • 1 point • Quantum Conversion: Deflect 13, Reflect, Redirect, Close, Energy Only) • 1 point • Quantum Drain: Weaken All Electromagnetic Energy Powers 7 (Affects Others, Broad (all EM Energy), Progressive, Simultaneous) • 1 point",
+    "vantagens": "Diehard, Extraordinary Effort, Leadership, Power Attack, Seize Initiative",
+    "pericias": "Athletics 4 (+19), Close Combat: Unarmed 2 (+10), Deception 4 (+6), Expertise: Military Science 6 (+7), Insight 6 (+8), Intimidation 6 (+8), Perception 6 (+8), Ranged Combat: Quantum Blast 8 (+10), Technology 2 (+3), Vehicles 2 (+4)",
+    "ataques": "Initiative +2 Quantum Blast + 10 Ranged, Damage 18 Unarmed +10 Close, Damage 15",
+    "defesas": "Dodge 10 Fortitude 14 Parry 10 Toughness 15 Will 10",
+    "pontos_poder": "Abilities 88 Skills 23 Powers 115 Defenses 20 Advantages 5 ToTal 251",
+    "complicacoes": "Forced Time Travel: When Captain Atom pushes his ability to absorb energy past its normal limits, the accumulated energy “overwash” propels him through time. The exact amount of time traveled is up to the needs of the plot, but a rule of thumb is to take the rank of the triggering effect and compare it to the Time column of the basic rank chart – this is how much time is jumped past. Fish Out of Water: Nathaniel missed a lot of history and there are gaps in what should be his basic store of common/general knowledge."
+  }
+}

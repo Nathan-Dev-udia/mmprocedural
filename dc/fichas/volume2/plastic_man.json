@@ -1,0 +1,28 @@
+{
+  "nome": "Plastic Man",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 110
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "5",
+      "AGL": "5",
+      "DEX": "5",
+      "FGT": "5",
+      "INT": "0",
+      "AWE": "2",
+      "PRE": "2"
+    },
+    "poderes": "100 d efenses 20",
+    "vantagens": "9 ToTal 207",
+    "pericias": "26",
+    "ataques": "i nitia tive +5 Unarmed +11 Close, Damage 2 (+14 grab check)",
+    "defesas": "d odge 11 f or titude Immune Parry 11 t oughness 11 W ill 10 W S Po er Point a bilities 52",
+    "complicacoes": "r eputation: Plastic Man has a (well-deserved) reputation for not tak ing anything seriously. Secret: Very few know about Plastic Man’s criminal past. Weakness: Extremes of temperature can cause Plastic Man to melt or freeze solid (and even shatter!). Luke later created a costume of his own and took the code - name Offspring, working with the Teen Titans and other young heroes. Offspring has malleability similar to his father, but to an even greater extent, since he can also vary his color- ation and not just his topography, allowing Offspring to truly appear to be whatever he transforms into. He often uses the Variable effect of his Shapeshifting for Growth or Enhanced Traits reflecting greater size, density, or innately stronger forms (such as turning into a charging rhino)"
+  }
+}

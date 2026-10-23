@@ -1,0 +1,147 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Spider-Man",
+  "nome_pt": "Spider-Man",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 150,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 94
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 8,
+      "Vig": 0,
+      "Agi": 14,
+      "Des": 10,
+      "Lut": 10,
+      "Int": 4,
+      "Pro": 1,
+      "Pre": 0
+    },
+    "defesas": {
+      "Esquiva": 14,
+      "Aparar": 14,
+      "Fortitude": 5,
+      "Resistencia": 6,
+      "Vontade": 5
+    },
+    "pericias": {
+      "Acrobacia": 4,
+      "Enganação": 12,
+      "Atletismo": 5,
+      "Especialidade: Mecânica": 6,
+      "Especialidade: Química": 6,
+      "Tecnologia": 2,
+      "Especialidade: Ciências Físicas": 6,
+      "Especialidade: Tecnologia": 8,
+      "Percepção": 8,
+      "Especialidade: Fotografia": 1,
+      "Intuição": 8,
+      "Combate Corpo-a-Corpo: Corpo-a-Corpo": 6,
+      "Combate a Distância: Web Shooters": 2
+    },
+    "vantagens": [
+      "All-Out Attack",
+      "Agile Feint",
+      "Defensive Attack",
+      "Defensive Roll",
+      "Equipment 2",
+      "Taunt",
+      "Takedown"
+    ],
+    "poderes": [
+      {
+        "nome": "Enhanced Dexterity",
+        "construcao_3e": "Enhanced Trait: Destreza (rank 2e 28); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Enhanced Dexterity 28 (28pp); custo 2e impresso 28 PP.",
+        "custo_2e_pp": 28,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Enhanced Strength",
+        "construcao_3e": "Enhanced Trait: Força (rank 2e 16); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Enhanced Strength 16 (16pp); custo 2e impresso 16 PP.",
+        "custo_2e_pp": 16,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Super Movement",
+        "construcao_3e": "Movement (rank 2e 2); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Movement 2 (Wall Crawling [2]; 4pp); custo 2e impresso 4 PP.",
+        "custo_2e_pp": 4,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Super Senses",
+        "construcao_3e": "Sentidos (rank 2e 1); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Senses 1 (Danger Sense; 1pp); custo 2e impresso 1 PP.",
+        "custo_2e_pp": 1,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Super Strength",
+        "construcao_3e": "Power-Lifting / Enhanced Strength (rank 2e 3); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Strength 3 (6pp); custo 2e impresso 6 PP.",
+        "custo_2e_pp": 6,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Leaping",
+        "construcao_3e": "Leaping (rank 2e 2); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Leaping 2 (2pp); custo 2e impresso 2 PP.",
+        "custo_2e_pp": 2,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Device",
+        "construcao_3e": "Removable (dispositivo com os efeitos listados) (rank 2e 6); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Device 6 [Web Shooters – Snare 10 (Power Feats: Tether, Split Attack, Accurate (2); Alternate Powers: Create Object, Dazzle [Sight]), Super Movement 1 (Swinging), Speed 4 (Flaw: Limited- Only to Swinging [-1]); 18pp] Componentes/efeitos alternativos mapeados: Create Object → Create; Dazzle → Affliction/Dazzle conforme o sentido-alvo; Snare → Affliction conforme os graus e extras da fonte; Speed → Speed; Super Movement → Movement.; custo 2e impresso 18 PP.",
+        "custo_2e_pp": 18,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Costume [+5 Toughness; Subtle; 6ep]",
+      "Apartment [1ep]",
+      "Mini Tracer [1ep]",
+      "GPS Reciever [1ep]",
+      "Camera [1ep]"
+    ],
+    "complicacoes": [
+      "Recursos financeiros reduzidos (Drawback Less Wealth, conforme a fonte)."
+    ],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 16,
+        "dano": 4
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 20,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 10,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 94,
+    "defesas": 44,
+    "pericias": 74,
+    "vantagens": 8,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 220,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
+    "Perícias foram convertidas subtraindo do bônus total impresso o atributo 3e correspondente. Conhecimentos, Ofícios e Profissões foram mantidos como Especialidades; Condução/Pilotagem como Veículos; Sobrevivência como Especialidade: Sobrevivência; Computadores como Tecnologia.",
+    "Poderes preservam os descritores, ranks, modificadores e custos 2e impressos; o guia orienta o efeito 3e equivalente. Custos 3e ficam nulos quando a construção exata ou os modificadores não permitem cálculo seguro.",
+    "Nenhuma Motivação ou complicação não publicada foi acrescentada.",
+    "Vantagens sem equivalente direto foram removidas conforme o guia; não foram recriadas como poderes: Sneak Attack.",
+    "Attack Specialization foi convertida em duas graduações de Combate apropriado por graduação da vantagem, conforme o guia.",
+    "Dodge Focus 9 foi convertido em ranks de Esquiva: base 15 + 9 = 24; valor final 14.",
+    "Defesas reduzidas por limite de NP 10: Esquiva 24→14 e Aparar 14→14; cada defesa ativa + Resistência 6 ≤ 20.",
+    "Unarmed: efeito ajustado de 8 para 4 para cumprir Ataque + efeito ≤ 20.",
+    "Subtotal 3e conhecido: 94 PP em habilidades, 74 em perícias, 44 em defesas, 8 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto."
+  ]
+}

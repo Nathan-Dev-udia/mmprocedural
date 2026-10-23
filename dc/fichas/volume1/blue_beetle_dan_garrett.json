@@ -1,0 +1,29 @@
+{
+  "nome": "Blue Beetle (Dan Garrett)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": 166,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 74
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "9",
+      "STA": "9",
+      "AGL": "5",
+      "DEX": "5",
+      "FGT": "10",
+      "INT": "4",
+      "AWE": "2",
+      "PRE": "3"
+    },
+    "poderes": "Chainmail: Protection 4 • 4 points Kaji Dha!: Feature 1 (Change into costume as a free action) • 1 point Lightning Blast: Ranged Damage 10 • 20 points Soar Like a Beetle : Flight 6 (120 MPH) • 12 points Strength of the Scarab: Enhanced Strength 7; Enhanced Stamina 6; Enhanced Agility 3; Enhanced Dexterity 4; Enhanced Fighting 8 • 56 points",
+    "vantagens": "Fast Grab, Interpose, Languages 2, Power Attack, Takedown, Ultimate Effort (Athletics)",
+    "pericias": "Athletics 3 (+12), Close Combat: Unarmed 5 (+15), Expertise: Archaeology 4 (+8), Perception 6 (+8), Ranged Combat: Lightning Blast 7 (+12), Vehicles 3 (+6)",
+    "ataques": "Initiative +3 Unarmed +15 Close, Damage 9 Lightning Blast +12 Ranged, Damage 10",
+    "defesas": "Dodge 10 Fortitude 12 Parry 11 Toughness 13 Will 7",
+    "pontos_poder": "Abilities 38 Skills 14 Powers 93 Defenses 14 Advantages 7 ToTal 166",
+    "complicacoes": "Sacred Charge: Dan Garrett is charged by an ancient power with eradicating evil from the Earth as Blue Beetle. Seclusion: Garrett takes his mission as the Blue Beetle so seriously that he has virtually abandoned his former life. ed his own costume and equipment to become the new Blue Beetle. For a time Blue Beetle fought crime in Chicago while run - ning his research company Kord Omniversal, until he joined a new incarnation of the Justice League. There he met Booster Gold, and between titanic battles with villains like Despero and Starbreaker the duo found time for misadventures that included founding a Justice League-themed casino on the Pacific island of Kooeykooeykooey. But his time with the League also involved more serious challenges: for a time, Blue Beetle fell under the mental domination of the Queen Bee, and while trying to prevent Doomsday from reaching Metropolis, Kord was beaten so badly that he was in a coma for several months. Yet the Blue Beetle stuck by the friends and teammates he made as part of the Justice League, even when businessman Maxwell Lord formed a new and somewhat low-rent team he called the “Super Buddies. ” He also helped other teams of heroes, such as the Birds of Prey, providing technical and fi - nancial assistance. When money began disappearing from Kord Omniversal, Blue Beetle tracked an increasingly worrying series of clues to a castle in the Swiss Alps, where he discovered that the inter - national espionage organization Checkmate had been taken over by Maxwell Lord, who planned to use Checkmate and his powers of mental domination in his bid for power. To keep his secret, Lord killed Kord. Along with other heroes of the Blue Beetle legacy, Booster Gold travelled through time to save the life of Ted Kord. Though they were successful, saving the Blue Beetle created an apocalyptic alternate timeline. To save the world and re - store history, Ted Kord returned to the time of his demise and accepted his fate."
+  }
+}

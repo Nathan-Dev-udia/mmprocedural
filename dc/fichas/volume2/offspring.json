@@ -1,0 +1,29 @@
+{
+  "nome": "Offspring",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 181,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 110
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "4",
+      "AGL": "4",
+      "DEX": "4",
+      "FGT": "4",
+      "INT": "0",
+      "AWE": "2",
+      "PRE": "1"
+    },
+    "poderes": "e lastic B ody (Immunity 32 (Fortitude effects, Mind Reading), Impervious Protection 6), Shapeshifting (Elongation 9, Morph 4 (any shape), Variable 4 (physical traits, 20 power points))",
+    "vantagens": "All-out Attack, Benefit (Ambidexterity), Defensive Attack, Grabbing Finesse, Taunt",
+    "pericias": "Close Combat: Unarmed 4 (+8), Deception 8 (+9), Insight 4 (+6), Perception 4 (+6), Ranged Combat: Throwing 4 (+8), Stealth 4 (+8)",
+    "ataques": "Initiative +4, Unarmed +8 (Close, Damage 2)",
+    "defesas": "Dodge 10, Parry 10, Fortitude Immune, Toughness 10, Will 9",
+    "pontos_poder": "A bilities 42 + Powers 101 + Advantages 5 + Skills 14 + Defenses 17 = Total 181",
+    "complicacoes": "t hrills: Offspring enjoys using his powers, especially to help others. Weakness: Like his father, extremes of temperature can cause Offspring to melt or freeze solid (and even shatter)."
+  }
+}

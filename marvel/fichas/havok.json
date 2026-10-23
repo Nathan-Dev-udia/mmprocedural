@@ -1,0 +1,115 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Havok",
+  "nome_pt": "Havok",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 150,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 35
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 8,
+      "Int": 1,
+      "Pro": 1,
+      "Pre": 2
+    },
+    "defesas": {
+      "Esquiva": 13,
+      "Aparar": 13,
+      "Fortitude": 8,
+      "Resistencia": 7,
+      "Vontade": 6
+    },
+    "pericias": {
+      "Enganação": 8,
+      "Persuasão": 8,
+      "Veículos": 4,
+      "Especialidade: Ciências da Terra": 8,
+      "Especialidade: Ciências Físicas": 7,
+      "Especialidade: Táticas": 7,
+      "Percepção": 8,
+      "Intuição": 4,
+      "Combate à Distância: Ataques gerais": 6
+    },
+    "vantagens": [
+      "Accurate Attack",
+      "All-out Attack",
+      "Attractive",
+      "Defensive Roll 2",
+      "Die Hard",
+      "Inspire 3",
+      "Improved Aim",
+      "Improved Initiative",
+      "Power Attack",
+      "Precise Attack (Ranged, Cover) 2",
+      "Teamwork 2",
+      "Ultimate Effort (Ultimate Aim)"
+    ],
+    "poderes": [
+      {
+        "nome": "Cosmic Energy Control",
+        "construcao_3e": "Ranged Damage 12 (Penetrating, Uncontrolled); Alternate Effects: Uncontrolled Disintegration 8 and Uncontrolled Explosion Area Damage 10 (centered on self).",
+        "custo_2e_pp": 26,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Containment Suit",
+        "construcao_3e": "Device (Removable): removes Uncontrolled from the energy powers; Protection 3.",
+        "custo_2e_pp": 12,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Immunity",
+        "construcao_3e": "Immunity 1 (Cyclops' powers).",
+        "custo_2e_pp": 1,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "dano": 2
+      },
+      {
+        "nome": "Cosmic Energy Blast",
+        "bonus": 8,
+        "dano": 12
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 20,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 14,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 40,
+    "defesas": 27,
+    "pericias": 30.0,
+    "vantagens": null,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 97.0,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Toughness +7/+6 foi preservada como Resistência ativa 7 (base +6) com Defensive Roll 2; Esquiva/Aparar foram limitadas para respeitar NP 10. Os poderes incontrolados e o traje que remove essa falha foram preservados conforme a fonte.",
+    "Defesas ajustadas para Esquiva 13 e Aparar 13, respeitando os limites de NP 10 com Resistência 7.",
+    "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias e apenas os custos de poderes confirmados; não inclui vantagens nem custos incertos."
+  ]
+}

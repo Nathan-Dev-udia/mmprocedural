@@ -1,0 +1,29 @@
+{
+  "nome": "Aquaman",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": 218,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 21
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "10",
+      "STA": "8",
+      "AGL": "4",
+      "DEX": "2",
+      "FGT": "11",
+      "INT": "2",
+      "AWE": "3",
+      "PRE": "3"
+    },
+    "poderes": "to become protector of the Seven Seas and friend to the sur - face world. Aquaman was a founding member of the Justice League of America, making him one of the most famous he - roes in the world.",
+    "vantagens": "All-out Attack, Animal Empathy, Benefit 3 (King of Atlantis), Defensive Roll 3, Favored Environment (Aquatic), Improved Initiative, Languages (Atlantean), Power Attack, Precise Attack (Close; Concealment)",
+    "pericias": "Acrobatics 4 (+8), Athletics 4 (+14), Close Combat: Unarmed 2 (+13), Expertise: Atlantean Lore 7 (+9), Insight 6 (+9), Intimidation 6 (+9), Perception 5 (+8), Ranged Combat: Throwing 6 (+8), Stealth 4 (+8), Technology 3 (+5), Vehicles 3 (+5)",
+    "ataques": "Initiative +8 Unarmed +13 Close, Damage 10",
+    "defesas": "Dodge 11 Fortitude 11 Parry 11 Toughness 11/8* Will 11 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 86 Skills 25 Powers 75 Defenses 19 Advantages 13 ToTal 218",
+    "complicacoes": "Relationships: Aquaman has a wife, Mera, ties with his former ward, Tempest, and his friends in Atlantis. Responsibility: As King of Atlantis, Aquaman must attend to the needs of his people and his duty to the Seven Seas, which can occasionally come into conflict with his responsibilities to the JLA. Temper: Aquaman is known for his fierce temper. Weakness: Aquaman dehydrates when away from water for an extended period of time, becoming impaired, disabled, and finally incapacitated before his condition becomes life threatening. Immersion in water immediately removes all accumulated conditions."
+  }
+}

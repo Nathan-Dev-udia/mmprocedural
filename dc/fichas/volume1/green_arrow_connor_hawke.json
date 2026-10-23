@@ -1,0 +1,30 @@
+{
+  "nome": "Green Arrow (Connor Hawke)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 138,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 231
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "2",
+      "AGL": "5",
+      "DEX": "3",
+      "FGT": "9",
+      "INT": "1",
+      "AWE": "3",
+      "PRE": "2"
+    },
+    "poderes": "but also caused him to suffer amnesia. Since then Connor has regained his memory and confronted his father about abandoning him as a child and Queen’s kill - ing of the villain Prometheus.",
+    "equipamento": "Bow and Arrows: Ranged Damage 5 • 10 points",
+    "vantagens": "Agile Feint, All-out Attack, Attractive, Defensive Attack, Defensive Roll 3, Equipment 2, Favored Foe (Martial Artists), Improved Defense, Improved Grab, Improved Initiative, Improved Trip, Languages 2, Move-by Action, Power Attack, Precise Attack (Close; Concealment), Quick Draw, Ranged Attack 3, Set-up, Takedown, Trance, Uncanny Dodge",
+    "pericias": "Acrobatics 7 (+12), Athletics 7 (+10), Close Combat: Unarmed 5 (+14), Expertise: Theology & Philosophy 5 (+6), Insight 6 (+9), Intimidation 4 (+7), Investigation 3 (+4), Perception 7 (+10), Ranged Combat: Archery 7 (+10), Ranged Combat: Throwing 5 (+8), Stealth 3 (+8), Treatment 3 (+4), Vehicles 2 (+5)",
+    "ataques": "Initiative +9 Bow +13 Range, Damage 5 Unarmed +14 Close, Damage 3",
+    "defesas": "Dodge 13 Fortitude 7 Parry 13 Toughness 5/2* Will 9 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 56 Skills 32 Powers 0 Defenses 23 Advantages 27 ToTal 138",
+    "complicacoes": "Uncertainty: Green Arrow often isn’t sure he wants to be a super hero like his father. He’s even less sure he wants to take over as Green Arrow, despite his time filling that role. He knows he wants to help others but he is often unsure that wearing a costume and slinging a bow is the best way to do this. Wayward Son: For a time Green Arrow lost his memories, his skills as an archer, and gained regenerative powers. To reflect this period replace his Ranged Attack Advantage and Skills with the Power Healing Factor: Regeneration 5, Immunity 5 (Pain). He has since regained his memories but has grown somewhat disillusioned with his father, whom he sees as neglectful and irresponsible. It is unknown if he still has his powers. PERSONALITY Green Arrow is a gentle, kindhearted soul. He angers slowly, though acts of terror and blatant evil test his temper. He is of - ten oblivious to his physical attractiveness and inexperienced in many worldly endeavors. This makes him often seem naïve despite his good instincts and perceptive nature."
+  }
+}

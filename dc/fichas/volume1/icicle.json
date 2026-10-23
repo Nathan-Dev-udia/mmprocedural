@@ -1,0 +1,28 @@
+{
+  "nome": "Icicle",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 126,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 282
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "4",
+      "AGL": "3",
+      "DEX": "4",
+      "FGT": "4",
+      "INT": "0",
+      "AWE": "0",
+      "PRE": "2"
+    },
+    "poderes": "Ice Powers (Array (25 points), Ice Constructs (Create 8 (Continuous, Innate; AE: Environment 6 (1,800 feet; Extreme Cold, Impede Movement -2 ranks)), AE: Ice Bonds (Snare 7, Accurate 3), AE: Ice Spears (Ranged Damage 11, Accurate); Flight 3 (16 MPH, Platform); Immunity (Cold) ; Protection 4",
+    "vantagens": "Close Attack 2, Defensive Roll 2, Favored Environment (Ice/Cold), Power Attack, Taunt",
+    "pericias": "Deception 6 (+8), Insight 4 (+4), Intimidation 4 (+6), Perception 4 (+4), Ranged Combat: Ice Powers 6 (+9), Stealth 2 (+4), Technology 4 (+4)",
+    "ataques": "Initiative +3, Ice Spears +11 (Damage 11), Ice Bonds +15 (Snare 7), Unarmed +6 (Damage 2)",
+    "defesas": "Dodge 12, Parry 12, Fortitude 10, Toughness 10/8, Will 7",
+    "pontos_poder": "Abilities 38 + Powers 36 + Advantages 7 + Skills 15 + Defenses 30 = 126"
+  }
+}

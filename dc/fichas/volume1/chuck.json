@@ -1,0 +1,29 @@
+{
+  "nome": "Chuck",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 8,
+  "pontos_poder_publicados": 124,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 68
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "4",
+      "STA": "4",
+      "AGL": "3",
+      "DEX": "3",
+      "FGT": "5",
+      "INT": "3",
+      "AWE": "3",
+      "PRE": "2"
+    },
+    "equipamento": "Grumman XF5F-1 “Skyrocket, ” Heavy Pistol; choose 2 EP’s of additional gear",
+    "vantagens": "All-out Attack, Defensive Attack, Defensive Roll 2, Equipment 16, Improved Defense, Improvised Tools, Power Attack, Takedown Attack, Teamwork",
+    "pericias": "Athletics 5 (+9), Close Combat: Unarmed 4 (+9), Expertise: Cowboy 6 (+9), Expertise: Electronics 7 (+10), Perception 4 (+7), Ranged Combat: Heavy Weapons 5 (+8), Ranged Combat: Firearms 6 (+9), Technology 5 (+8), Vehicles 8 (+11)",
+    "ataques": "Initiative +3, Heavy Pistol +9 (Damage 4), Unarmed +9 (Damage 4)",
+    "defesas": "Dodge 9, Parry 10, Fortitude 7, Toughness 6/4, Will 9",
+    "pontos_poder": "Abilities 54 + Powers 0 + Advantages 25 + Skills 25 + Defenses 20 = 124",
+    "complicacoes": "Responsibility: Chuck regards fighting for human freedom as the highest duty. Enemy: See the Blackhawk Squadron’s group Enemies list."
+  }
+}

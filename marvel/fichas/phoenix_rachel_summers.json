@@ -1,0 +1,112 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Phoenix (Rachel Summers)",
+  "nome_pt": "Phoenix (Rachel Summers)",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 150,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 67
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 1,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 8,
+      "Int": 2,
+      "Pro": 3,
+      "Pre": 2
+    },
+    "defesas": {
+      "Esquiva": 12,
+      "Aparar": 12,
+      "Fortitude": 3,
+      "Resistencia": 8,
+      "Vontade": 10
+    },
+    "pericias": {
+      "Enganação": 4,
+      "Intimidação": 12,
+      "Percepção": 8,
+      "Intuição": 8,
+      "Especialidade: Sobrevivência": 9
+    },
+    "vantagens": [
+      "All-out Attack",
+      "Attractive 2",
+      "Defensive Roll 3",
+      "Equipment",
+      "Luck",
+      "Move-by Action",
+      "Teamwork",
+      "Tracking",
+      "Ultimate Effort (Will saves)"
+    ],
+    "poderes": [
+      {
+        "nome": "Element Control (Fire) 12",
+        "construcao_3e": "Dynamic array: Strike (Aura), Energy Absorption 12 (Boost: Protection; Limited to heat), Flight.",
+        "custo_2e_pp": 31,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Telepathy 10",
+        "construcao_3e": "Dynamic array: Mental Blast, Telekinesis (Perception Range), Blast 10 (Move Action, Concentration, Indirect), Astral Form 10 (Dimensional), Mind Shield.",
+        "custo_2e_pp": 29,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Uniform (+3 Toughness; Subtle; 4 EP).",
+      "Leather jacket (1 EP)."
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Unarmed",
+        "bonus": 8,
+        "dano": 1
+      },
+      {
+        "nome": "Telekinetic Blast",
+        "bonus": 10,
+        "dano": 10
+      },
+      {
+        "nome": "Fire Blast (array effect)",
+        "bonus": 8,
+        "dano": 12
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 20,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 13,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 38,
+    "defesas": 45,
+    "pericias": 20.5,
+    "vantagens": 12,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 115.5,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Attack Specialization (Telekinetic Blast) foi representado no ataque, sem duplicar bônus; Dodge Focus 2 foi convertido e reduzido para o limite defensivo do NP. Fearsome Presence 2 e Rage não têm vantagem equivalente direta; veja as notas.",
+    "A fonte imprime STR/DEX/CON/INT/WIS/CHA +1/+1/+1/+2/+3/+2; Toughness +8/+5, Fortitude +3, Reflex +3, Will +10; Attack +8 (+10 w/ Blast); Defense 20; Initiative +1.",
+    "Perícias da fonte: Bluff +6 (Attractive +14), Concentration +15, Intimidate +14, Notice +11, Sense Motive +11, Survival +11. Concentration foi omitida por não ter equivalente direto no guia.",
+    "Dodge Focus 2 e Defesa 20 mais Resistência 8 excedem PL 10; Esquiva/Aparar foram limitadas a 12 (12 + 8 = 20). Blast 10 com ataque +10 fica exatamente no limite 20. Fearsome Presence não foi convertida em poder; Rage foi removida conforme o guia. Nenhuma complicação foi inferida.",
+    "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +1/+1/+1/+2/+3/+2. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
+    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "nome": "Beast Boy",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 150,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 51
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "8",
+      "AGL": "4",
+      "DEX": "2",
+      "FGT": "3",
+      "INT": "2",
+      "AWE": "2",
+      "PRE": "3"
+    },
+    "poderes": "Shapeshift: Variable (Animal Forms) 9, Move Action, Limited to Animals, Quirk (Always Green) • 62 points",
+    "vantagens": "Taunt, Teamwork",
+    "pericias": "Deception 6 (+9), Insight 6 (+9), Persuasion 6 (+8)",
+    "ataques": "Initiative +4 Unarmed +3* Close, Damage 3* *Varies based on Shapeshifting.",
+    "defesas": "Dodge 10 Fortitude 12 Parry 10 Toughness 8 Will 8",
+    "pontos_poder": "Abilities 54 Skills 9 Powers 62 Defenses 23 Advantages 2 ToTal 150",
+    "complicacoes": "Thrills: Gar inherited his parents’ love of excitement and adventure, seeking thrills in super heroics just as they did in their scientific endeavors. Relationship: Gar has lived most of his life as an outsider, and is especially close to past and present teammates who share that condition, namely Robotman and Cyborg. He also has a knack for complicated romantic entanglements, falling for the traitorous Terra then the demonically influenced Raven."
+  }
+}

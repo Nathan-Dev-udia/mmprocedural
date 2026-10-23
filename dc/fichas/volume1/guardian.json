@@ -1,0 +1,30 @@
+{
+  "nome": "Guardian",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 160,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 245
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "4",
+      "STA": "3",
+      "AGL": "5",
+      "DEX": "4",
+      "FGT": "9",
+      "INT": "2",
+      "AWE": "3",
+      "PRE": "2"
+    },
+    "poderes": "Athletic Prowess: Leaping 1, Movement 4 (Safe Fall, Sure- Footed 2, Swinging), Speed 3 (16 MPH) • 12 points Genetic Acceleration: Regeneration 5 • 5 points Golden Shield: Impervious Protection 6, Check Required (Acrobatics DC11), Removable (-2 points) • 9 points",
+    "equipamento": "HEADQUARTERS: PROJECT CADMUS • 50 POINTS Awesome; Tou 18; Combat Simulator, Communications, Computer, Concealed 3 (DC 30),",
+    "defesas": "System, Garage, Gym, Hangar, Holding Cells, Infirmary, Laboratory, Library, Living Space, Personnel, Power System, Security System 3 (DC 30), Workshop",
+    "vantagens": "Agile Feint, All-out Attack, Equipment 10, Evasion, Fast Grab, Great Endurance, Improved Critical 2 (Unarmed), Improved Defense, Improved Disarm, Improved Initiative, Improved Trip, Improvised Weapon, Interpose, Leadership, Move-by Action, Power Attack, Prone Fighting, Uncanny Dodge, Weapon Break",
+    "pericias": "Acrobatics 7 (+12), Athletics 6 (+10), Close Combat: Unarmed 5 (+14), Insight 5 (+8), Investigation 4 (+6), Perception 4 (+7), Persuasion 3 (+5), Ranged Combat: Guns 5 (+9), Thrown Weapons 4 (+8), Stealth 3 (+8), Vehicles 4 (+8)",
+    "ataques": "Initiative +9 Unarmed +14 Close, Damage 4, Crit. 18-20 DEFENSE Dodge 9 Fortitude 9 Parry 9 Toughness 9/3* Will 9 *Without Golden Shield.",
+    "pontos_poder": "Abilities 64 Skills 25 Powers 26 Defenses 16 Advantages 29 ToTal 160",
+    "complicacoes": "Cloned: Though the outside world believes that there has been only one Guardian for decades, occasional memory gaps and behavior quirks hint at the truth: whenever the Guardian falls in battle, Project Cadmus grows another clone of Jim Harper and instills him with the memories of his predecessor. Newsboy Legion: Both at Project Cadmus and in the streets of Metropolis, the footsteps of the Guardian are often dogged by the Newsboy Legion, a group of street kids who became researchers at Cadmus when they got older—and cloned a new, young group of Newsboys to be their sons and tag along after the newly-cloned Guardian!"
+  }
+}

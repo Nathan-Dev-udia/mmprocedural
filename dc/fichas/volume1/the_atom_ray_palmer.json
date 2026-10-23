@@ -1,0 +1,29 @@
+{
+  "nome": "The Atom (Ray Palmer)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 196,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 31
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "2",
+      "AGL": "3",
+      "DEX": "3",
+      "FGT": "3",
+      "INT": "9",
+      "AWE": "5",
+      "PRE": "2"
+    },
+    "poderes": "& Abilities). **Without Defensive Roll.",
+    "vantagens": "All-out Attack, Defensive Roll 2, Hide in Plain Sight, Improved Initiative, Improved Trip, Improvised Weapon 3, Inventor",
+    "pericias": "Acrobatics 6 (+9), Close Combat: Swords 5 (+8), Close Combat: Unarmed 6 (+9), Expertise: Science 11 (+20), Investigation 3 (+12), Perception 5 (+10), Technology 6 (+15), Treatment 2 (+11) THE ATOM (RYAN CHOI) Ryan Choi grew up loving science. As a child he sent a fan let - ter to Ray Palmer, the diminutive Atom, beginning a life-long correspondence. Choi studied physics in college, and special - ized in nanotechnology. When Ray Palmer disappeared, Choi left his home in Hong Kong and moved to Ivy Town. Ryan took up Palmer’s teaching load at Ivy University and moved into his office. There he discovered several clues left by the missing sci - entist, which led him to Palmer’s size-changing belt. Choi used the belt and began adventuring as the new Atom. In his early adventures, Choi fought a sub-atomic menace known as the Waiting and their enemy M’nagalah. The Wait - ing employed a psychopathic size-changer named Dwarfstar to attack Choi. Dwarfstar was trapped in a sub-atomic dimen - sion when Choi stole his size-altering belt. With the help of Donna Troy, Jason Todd, and a Monitor nick - named Bob, Choi traveled the newly restored multiverse in search of Ray Palmer. Ryan Choi eventually found Ray Palmer and brought him back to Earth. On their return to Ivy Town, the Atoms fought off an attempt by Chronos to destroy it. This happy reunion was short-lived. Returning home after an adventure, Choi was assassinated by Deathstroke, who had been hired by Dwarfstar.",
+    "ataques": "Initiative +7 Unarmed +9 Close, Damage 2 Improvised Weapon +9 Close, Damage 4 White Dwarf Punch +9 Close, Damage 10",
+    "defesas": "Dodge 14/7* Fortitude 5 Parry 14/7* Toughness 4/2** Will 9 *Without typical Shrinking bonus (see",
+    "pontos_poder": "Abilities 58 Skills 22 Powers 81 Defenses 25 Advantages 10 ToTal 196",
+    "complicacoes": "Curiosity: The Atom’s drive toward a scientific understanding of the universe has been the cornerstone of his success, both as a super hero and a scientist. Compassion: Despite great loss and betrayal in his past, the Atom remains empathetic to both those who have known similar pain and those who cause it. Scientific Advisor: The Atom enjoys sharing his knowledge and his joy of scientific discovery with his fellow heroes, and with younger heroes in particular. PERSONALITY Ryan Choi is a scientist whose perpetual curiosity and desire to learn serves him well as a super hero. Choi is also a physics professor and prone to pontification on any scientific matter. POWERS & ABILITIES Ryan can use his bio-belt to precisely control his size and weight, ranging from normal size down to the sub-atomic. Ryan uses these powers to travel to microscopic worlds and traverse long distances via phone transmissions. Like Ray Palmer, Choi usually shrinks to a height of six inches (Shrinking 14) and has a +7 bonus to his active defenses. As he gets smaller, he becomes even harder to hit with any - thing other than Perception Ranged or Area effects (which is a good thing, as he suffers proportionately greater damage from direct attacks). Attackers can make use of the accurate attack maneuver ( Hero’s Handbook, Chapter 8 ) to get a better chance of hitting a foe like the Atom, with the Accurate Attack advantage making the maneuver even more effective."
+  }
+}

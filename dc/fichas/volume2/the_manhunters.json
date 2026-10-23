@@ -1,0 +1,29 @@
+{
+  "nome": "The Manhunters",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 209,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 44
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "9",
+      "STA": "—",
+      "AGL": "4",
+      "DEX": "5",
+      "FGT": "6",
+      "INT": "2",
+      "AWE": "1",
+      "PRE": "1"
+    },
+    "poderes": "a rmor (Protection 11, Impervious 6), e nergy Baton (Array, Easily Removable, Blast (Ranged Damage 12), ae : Stun Blast (Ranged Cumulative Affliction 8 (Resisted by Fortitude; Dazed, Stunned, Incapacitated))); f ligh t (Flight 11 (4,000 MPH), ae : Movement 4 (Environmental Adaptation: Zero-G, Space Travel 3)), r obot Body (Immunity 40, (Fortitude Effects, Mental Effects)), Super-Senses (Senses 4 (Darkvision, Radio, Ultra- Hearing)), Universal t r anslator (Comprehend 3 (read, speak, understand all languages))",
+    "vantagens": "Assessment, Eidetic Memory, Favored Foe (Green Lanterns), Teamwork, Tracking",
+    "pericias": "Close Combat: Unarmed 4 (+10), Deception 8 (+9), Expertise: Law Enforcement 6 (+8), Insight 7 (+8), Investigation 4 (+5), Perception 4 (+5), Ranged Combat: Energy Baton 3 (+8)",
+    "ataques": "Initiative +4, Energy Baton +8 (Ranged, Damage 12 or Ranged, Affliction 8), Unarmed +10 (Close, Damage 9)",
+    "defesas": "Dodge 10, Parry 10, Fortitude Immune, Toughness 10, Will 8",
+    "pontos_poder": "Abilities 66 + Powers 103 + Advantages 5 + Skills 18 + Defenses 17 = 209",
+    "complicacoes": "Self- d estruct: Manhunters contain a deadly, nuclear-level self-destruct device to be employed as a defense against capture. Using this ability destroys the Manhunter utterly. Burst Area 8 Damage 15, Triggered (timer)."
+  }
+}

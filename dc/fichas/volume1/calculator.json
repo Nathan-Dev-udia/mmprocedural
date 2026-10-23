@@ -1,0 +1,30 @@
+{
+  "nome": "Calculator",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 135,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 96
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "2",
+      "AGL": "0",
+      "DEX": "1",
+      "FGT": "1",
+      "INT": "7",
+      "AWE": "6",
+      "PRE": "1"
+    },
+    "poderes": "on himself. Later, Calculator became aware of the Oracle and her posi - tion as an information broker to super heroes. He adopted a similar role to hers, providing information to anyone who could meet his price. Calculator joined with the Joker and other villains as part of the Silicon Syndicate, and eventually supplanted the Joker as the leader of this organization.",
+    "equipamento": "HEADQUARTERS: CALCULATOR’S BASE • 27 POINTS Size: Medium Tou 10, Features: Communications, Computer, Concealed 2 (DC 25),",
+    "defesas": "System (Ranged Damage 5 Multiattack), Living Space, Power System, Secret, Workshop",
+    "vantagens": "Assessment, Benefit 4 (Multi-millionaire), Connected, Contacts, Defensive Roll 3, Eidetic Memory, Equipment 6, Favored Foe (Any combatant who has previously defeated him), Improved Aim, Jack-of-all-trades, Languages 4, Leadership, Luck 2, Seize Initiative, Skill Mastery (Investigation), Well-informed",
+    "pericias": "Close Combat: Unarmed 6 (+7), Deception 8 (+9), Expertise: Business 7 (+14), Expertise: Criminal 10 (+17), Expertise: Current Events 8 (+15), Insight 7 (+13), Investigation 8 (+15), Perception 6 (+12), Persuasion 6 (+7), Ranged Attack 7 (+8), Technology 7 (+14)",
+    "ataques": "Initiative +0 Unarmed +7 Close, Damage 1 DEFENSE Dodge 9 Fortitude 7 Parry 9 Toughness 5/2* Will 11 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 38 Skills 40 Powers 0 Defenses 27 Advantages 30 ToTal 135",
+    "complicacoes": "OCD: Calculator’s obsessive-compulsive disorder compels him to discover way to defeat heroes. Motivation—Greed: Calculator is motivated by money and charges for his services. and, more importantly, a vast information network spanning the globe. ALLIES Calculator has an extensive network of contacts and infor - mants in the underworld, and has worked alongside Lex Lu - thor and his Society. Other cohorts in crime include Doctor Psycho, Doctor Light, Captain Boomerang and Deathstroke. Calculator is also a member of the Silicon Syndicate."
+  }
+}

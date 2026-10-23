@@ -1,0 +1,28 @@
+{
+  "nome": "Starrophytes",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 6,
+  "pontos_poder_publicados": 61,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 205
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "0",
+      "STA": "4",
+      "AGL": "4",
+      "DEX": "6",
+      "FGT": "1",
+      "INT": "0",
+      "AWE": "1",
+      "PRE": "0"
+    },
+    "poderes": "t iny a lien Starfish (Extra Limbs 3; Shrinking 8, Innate, Permanent)",
+    "vantagens": "Grabbing Finesse, Improved Grab , Improved Hold, Teamwork",
+    "pericias": "Close Combat: Grab 4 (+10)",
+    "ataques": "Initiative +4, Grab +9 (Close, Damage 0)",
+    "defesas": "Dodge 8, Parry 5, Fortitude 4, Toughness 4, Will 1",
+    "pontos_poder": "Abilities 36 + Powers 20 + Advantages 3 + Skills 2 + Defenses 0 = 61"
+  }
+}

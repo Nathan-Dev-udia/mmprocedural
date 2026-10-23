@@ -1,0 +1,26 @@
+{
+  "nome": "Drone Bee Swarms",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 6,
+  "pontos_poder_publicados": 47,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 121
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "—",
+      "STA": "0",
+      "AGL": "4",
+      "DEX": "-2",
+      "FGT": "0",
+      "INT": "—",
+      "AWE": "0",
+      "PRE": "—"
+    },
+    "poderes": "Burst Area Damage 6 (Stings); Flight 5 (60 MPH; Wings); Immunity 30 (Fortitude Effects); Impervious Protection 5; Insubstantial 2 (Swarm; Permanent, Innate)",
+    "ataques": "Initiative +4, Stings — (Burst Area Damage 6)",
+    "defesas": "Dodge 4, Parry 0, Fortitude Immune, Toughness 5, Will Immune",
+    "pontos_poder": "A bilities –26 + Powers 73 + Advantages 0 + Skills 0 + Defenses 0 = 47"
+  }
+}

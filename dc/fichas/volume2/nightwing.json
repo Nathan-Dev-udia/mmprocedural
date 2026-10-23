@@ -1,0 +1,29 @@
+{
+  "nome": "Nightwing",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 212,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 83
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "3",
+      "AGL": "6",
+      "DEX": "4",
+      "FGT": "10",
+      "INT": "3",
+      "AWE": "4",
+      "PRE": "4"
+    },
+    "equipamento": "f Feature 1 (Illumination) • 1 point lashligh t: Grapnel Gun: Super-Movement 1 (Swinging) • 2 points Mini- t r acers: Feature 1 • 1 point r ebreather: Immunity 2 (Suffocation), Limited • 1 point Weapons: Array (8 points) • t aser : Ranged Affliction 4 (Resisted by Fortitude; Dazed, Stunned, Incapacitated) • 8 points • Escrima Sticks: Strength-based Damage 3 • 1 point • t hr owing d isks: Strength-based Ranged Damage 2 • 1 point Ve H i CL e: Motor C y CL e • 11 POI n TS Size: Medium Str: 1 Spd: 6 d ef: 10 t ou: 8 f ea tures: Navigation System",
+    "vantagens": "Close Attack 4, Connected, Contacts, Defensive Attack, Defensive Roll 3, Equipment 6, Evasion, Hide in Plain Sight, Improved Initiative, Improvised Tools, Jack-of-all-trades, Languages 4, Leadership, Move-by Action, Power Attack, Precise Attack (Ranged, Concealment), Quick Draw, Ranged Attack 5, Redirect, Seize Initiative, Set-Up, Skill Mastery (Acrobatics), Skill Mastery (Investigation), Takedown, Tracking, Uncanny Dodge, Well-informed",
+    "pericias": "Acrobatics 12 (+18), Athletics 10 (+13), Close Combat: Unarmed 1 (+15), Deception 8 (+12), Expertise: Criminology 10 (+13), Expertise: Streetwise 10 (+13), Insight 10 (+14), Intimidation 8 (+12), Investigation 12 (+15), Perception 10 (+14), Persuasion 6 (+10), Ranged Combat: Throwing 5 (+14), Sleight of Hand 8 (+12), Stealth 10 (+16), Technology 8 (+11), Treatment 6 (+9), Vehicles 8 (+12) Weapons Array. See Batman and r obin for some examples of other equipmen t he might use. Similarly, he has used a “Nightbird” car rather than a motorcycle on occasion. At the least, Nightwing (and similar equipment-carrying he - roes) can spend hero points to have and use alternate items e quipmen t section of equipment as power stunts. See the of the Gadgets & Gear chapter of DC Adventures , particularly pages 147–148, for details.",
+    "ataques": "i nitia tive +10 Escrima Sticks +14 Close, Damage 6 Throwing Disks +14 Ranged, Damage 5 Unarmed +15 Close, Damage 3",
+    "defesas": "d odge 14 f or titude 8 Parry 12 t oughness 6/3* W ill 12 *Without Defensive Roll.",
+    "pontos_poder": "a bilities 74 S kills 71 Powers 0 d efenses 23 antages 44 a dv ToTal 212",
+    "complicacoes": "e nemy: Blockbuster, crime lord of Blüdhaven. elationships: Nightwing has various past romantic r relationships, but difficulty in maintaining a current one. r iv alry: Nightwing lives in Batman’s shadow and feels the need to prove himself as capable as his mentor. Secret i den tity: Richard Grayson, officer of the Blüdhaven Police Department. aLLI e S Having grown up in the super hero community, Dick Grayson knows virtually everyone. He worked with (and led) the Teen Titans for some time, and has since worked with many mem- bers of the Justice League. Nightwing’s closest allies are from his time in Gotham City, including Oracle (Barbara Gordon), and he can rely on his former mentor Batman and the boy who replaced him as Robin. e ne MI e S Along with Batman’s various foes he faced as Robin, Nigh- twing has racked up his own rogues gallery, including the crime-boss Blockbuster and the mercenary Deathstroke the Terminator."
+  }
+}

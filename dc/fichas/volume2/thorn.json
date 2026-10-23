@@ -1,0 +1,27 @@
+{
+  "nome": "Thorn",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 237
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "2",
+      "AGL": "4",
+      "DEX": "3",
+      "FGT": "8",
+      "INT": "2",
+      "AWE": "2",
+      "PRE": "4"
+    },
+    "poderes": "t Array (18 points), Removable (–2 points) horn W eapons: • Concussion t horn: R anged Multi-Attack Damage 6 • 18 points • Smoke t horn: Cloud A rea 2 Visual Concealment Attack 4 • 1 point • Magnesium t horn: Ranged Burst Area Affliction 9 (Resisted by Fortitude; Vision Impaired, Vision Disabled, Vision Unaware) • 1 point Barbed Whip: Strength-Based Damage 4, Fast Grab, Improved Disarm, Improved Grab, Improved Trip, Reach 2 • 10 points",
+    "vantagens": "Accurate Attack, Defensive Roll 3, Equipment 2, Improved Initiative, Luck, Startle, Takedown, Taunt",
+    "pericias": "Acrobatics 6 (+10), Athletics 9 (+11), Deception 7 (+11), Insight 8 (+10), Intimidation 7 (+11), Perception 6 (+8), Ranged Combat: Thorn Weapons 9 (+12), Stealth 6 (+10), Treatment 4 (+6)",
+    "ataques": "i nitia tive +8 Concussion Thorn +12 Ranged Damage 6, Multi-Attack Whip +12 Close Damage 4, Fast Grab Unarmed +8 Close Damage 2",
+    "defesas": "d odge 10 f or titude 7 Parry 11 t oughness 5/2* W ill 9 *Without Defensive Roll Po er Point W S a bilities 54 S kills 33 Powers 16 d efenses 21 a dv antages 11 ToTal 135 Co MPL i C tion S a i Extreme trauma or mental stress causes Thorn den tity: to revert to her Rose persona: As Rose, her Fighting is 1, her Presence is 0, and she has no skills or advantages."
+  }
+}

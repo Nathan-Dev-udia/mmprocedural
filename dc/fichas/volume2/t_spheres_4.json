@@ -1,0 +1,27 @@
+{
+  "nome": "T-Spheres (4)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 75,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 65
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "-4",
+      "STA": "—",
+      "AGL": "0",
+      "DEX": "0",
+      "FGT": "0",
+      "INT": "—",
+      "AWE": "0",
+      "PRE": "—"
+    },
+    "poderes": "Concealment 10, Limited to Machines; Flight 6 (120 MPH); Feature (Database); Immunity 30 (Fortitude effects); Protection 8; Senses 4 (Communication Link—Mister Terrific, Infravision, Radio, Tracking); Shrinking 12, Permanent, Innate; Weapons Systems (12-point Array: Knockout Gas: Cloud Area Affliction 6 (Resisted by Fortitude; Fatigued, Exhausted, Asleep); AE: Dazzle: Ranged Affliction 6 (Resisted by Fortitude; Vision Impaired, Vision Disabled, Vision Unaware); AE: Smoke Gas: Cloud Area Visual Concealment Attack 4; AE: Laser Grid: Shapeable Area Sustained Damage 4, Only as Team Attack; AE: Holographic Projection: Visual and Auditory Illusion 4)",
+    "pericias": "Ranged Combat: Dazzle 12 (+12), Stealth 0 (+12)",
+    "ataques": "Initiative +0, Dazzle +12 (Affliction 6, Resisted by Fortitude), Knockout Gas — (Cloud Area Affliction 6, Resisted by Fortitude), Laser Grid — (Shapeable Area Damage 4)",
+    "defesas": "Dodge 11, Parry 8, Fortitude Immune, Toughness 8, Will Immune",
+    "pontos_poder": "Abilities -32 + Powers 94 + Advantages 0 + Skills 6 + Defenses 7 = 75"
+  }
+}

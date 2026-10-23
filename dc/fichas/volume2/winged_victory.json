@@ -1,0 +1,28 @@
+{
+  "nome": "Winged Victory",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 6,
+  "pontos_poder_publicados": 53,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 178
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "6",
+      "STA": "6",
+      "AGL": "2",
+      "DEX": "0",
+      "FGT": "6",
+      "INT": "-2",
+      "AWE": "2",
+      "PRE": "-2"
+    },
+    "poderes": "Winged Horse (Flight 7 (250 MPH), Wings; Growth 4, Permanent, Innate; Protection 2; Speed 4 (30 MPH))",
+    "vantagens": "Interpose",
+    "pericias": "Perception 4 (+6)",
+    "ataques": "Initiative +2, Unarmed +6 (Close, Damage 6)",
+    "defesas": "Dodge 4, Parry 4, Fortitude 8, Toughness 8, Will 4",
+    "pontos_poder": "Abilities 20 + Powers 22 + Advantages 1 + Skills 2 + Defenses 8 = 53"
+  }
+}

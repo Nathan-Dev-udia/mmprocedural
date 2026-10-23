@@ -1,0 +1,29 @@
+{
+  "nome": "Batgirl (Stephanie Brown)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 8,
+  "pontos_poder_publicados": 136,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 42
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "2",
+      "AGL": "4",
+      "DEX": "4",
+      "FGT": "8",
+      "INT": "1",
+      "AWE": "3",
+      "PRE": "3"
+    },
+    "equipamento": "Bo Staff: Strength-based Damage 2, Reach • 3 points Armored Costume: Protection 2 • 2 points Flashlight: Feature 1 (Illumination) • 1 point Grapnel Gun: Super-Movement 1 (Swinging) • 2 points Mini-Tracers: Feature 1 (Tracking) • 1 point Plasti-Cuffs: Feature 1 (Restraint) • 1 point Wireless Relay: Communication 3, Limited to Oracle • 6 points Utility Belt: Array (12 points) • Tear Gas Pellets: Ranged Cloud Area Affliction 3 (Resisted by Fortitude; Dazed and Vision Impaired, Stunned and Vision Disabled, Incapacitated) • 12 points • Batarangs: Strength-based Ranged Damage 2 • 1 point • Bolos: Ranged Affliction 4 (Resisted by Dodge; Hindered and Vulnerable, Defenseless and Immobile) • 1 point • Cutting Torch: Damage 1 Linked to Weaken Object’s Toughness 1 • 1 point • Explosive Batarangs: Ranged Burst Area Damage 4 • 1 point • Flash Bombs: Ranged Burst Area Affliction 3 (Resisted by Fortitude; Vision Impaired, Vision Disabled, Vision Unaware) • 1 point • Sleep Gas Pellets: Ranged Cloud Area Affliction 4 (Resisted by Fortitude; Fatigued, Exhausted, Asleep) • 1 point • Smoke Bombs: Cloud Area Visual Concealment Attack 4 • 1 point",
+    "vantagens": "Agile Feint, Close Attack 5, Defensive Attack, Defensive Roll, Equipment 7, Grabbing Finesse, Hide in Plain Sight, Improved Initiative, Improved Trip, Move-by Action, Power Attack, Quick Draw, Set-up, Weapon Bind, Weapon Break",
+    "pericias": "Acrobatics 8 (+12), Athletics 6 (+7), Deception 6 (+9), Insight 4 (+7), Intimidation 5 (+8), Investigation 7 (+8), Perception 5 (+8), Persuasion 6 (+9), Ranged Combat: Throwing 7 (+11), Sleight of Hand 6 (+10), Stealth 8 (+12), Treatment 4 (+5), Vehicles 4 (+8)",
+    "ataques": "Initiative +8 Bo Staff +13 Close, Damage 3, Reach Batarang +11 Ranged, Damage 3 Unarmed +13 Close, Damage 1",
+    "defesas": "Dodge 11 Fortitude 8 Parry 11 Toughness 5/4* Will 8 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 52 Skills 38 Powers 0 Defenses 21 Advantages 25 ToTal 136",
+    "complicacoes": "Inexperienced: Stephanie is still finding her place as a member of the Batman family, and has not fully integrated herself with the team. Her on-again, off-again romance with Tim Drake is also a source of conflict."
+  }
+}

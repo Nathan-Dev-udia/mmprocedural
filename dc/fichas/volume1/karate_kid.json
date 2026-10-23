@@ -1,0 +1,30 @@
+{
+  "nome": "Karate Kid",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": 192,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 302
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "4",
+      "STA": "4",
+      "AGL": "7",
+      "DEX": "6",
+      "FGT": "13",
+      "INT": "2",
+      "AWE": "3",
+      "PRE": "2"
+    },
+    "poderes": "Martial Strike: Penetrating Strength 4 • 4 points",
+    "equipamento": "Flight Ring: Communication 5 (subspace radio, Anywhere, Limited to Distress Signal –3 points); Flight 7 (250 MPH), Removable (–3 points) • 16 points Telepathic Plug: Comprehend 3 (Languages); Mental Communication 1 (Close Range), Removable (–1 point) • 7 points Transsuit: Immunity 9 (Life Support, except for starvation and thirst), Removable (–2 point) • 7 points",
+    "vantagens": "Agile Feint, All-out Attack, Assessment, Benefit 1 (Legion membership), Chokehold, Close Attack, Defensive Attack, Defensive Roll 2, Diehard, Equipment 6, Evasion, Fast Grab, Fearless, Great Endurance, Improved Aim, Improved Critical 2 (Unarmed), Improved Defense, Improved Disarm, Improved Grab, Improved Hold, Improved Initiative, Improved Smash, Improved Trip, Move-by Action, Power Attack, Prone Fighting, Redirect, Set-up, Skill Mastery (Acrobatics), Takedown 2, Teamwork, Ultimate Effort (Assessment checks), Uncanny Dodge, Weapon Bind, Weapon Break",
+    "pericias": "Acrobatics 10 (+17), Athletics 12 (+16), Close Combat: Unarmed 6 (+20), Expertise: Fighting Styles 12 (+15), Insight 12 (+15), Perception 8 (+11), Stealth 6 (+13), Treatment 10 (+13)",
+    "ataques": "Initiative +9 Martial Strike +20 Close, Damage 4, Penetrating 4, Crit. 18-20",
+    "defesas": "Dodge 14 Fortitude 10 Parry 16 Toughness 6/4* Will 12 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 82 Skills 38 Powers 4 Defenses 25 Advantages 43 ToTal 192",
+    "complicacoes": "Overconfidence: Val will charge any enemy in battle, regardless of their apparent level of power. ALLIES Val has the support and friendship of all other Legionnaires. In one timeline, he fell in love and married Princess Projectra, while in another he was attracted to Shadow Lass. ENEMIES Val shares enemies with the rest of the Legion."
+  }
+}

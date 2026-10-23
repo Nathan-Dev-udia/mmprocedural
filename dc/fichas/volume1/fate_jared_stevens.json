@@ -1,0 +1,29 @@
+{
+  "nome": "Fate (Jared Stevens)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 167
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "7",
+      "STA": "7",
+      "AGL": "4",
+      "DEX": "4",
+      "FGT": "7",
+      "INT": "2",
+      "AWE": "2",
+      "PRE": "2"
+    },
+    "poderes": "Enhanced Stamina 5 ; Enhanced Strength 5 ; Immunity 10 (Magic Effects); Protection 3 ; Regeneration 7 ; True Sight (Senses 8: Analytical Vision, Vision Counters All Concealment, Vision Counters Illusion) Weapons (Array (15 points), Removable (-3 points), Ankh Daggers ( Perception Range Damage 5), AE: Longblade (Strength-based Damage 3, Penetrating 10))",
+    "vantagens": "Close Attack 3, Great Endurance, Improved Critical 2 (Blades), Jack-of-all-trades, Ritualist, Seize Initiative, Uncanny Dodge, Weapon Bind",
+    "pericias": "Acrobatics 4 (+8), Athletics 4 (+11), Deception 6 (+8), Expertise: Relic Hunter 8 (+10), Expertise: Magic 6 (+8), Insight 8 (+10), Intimidation 6 (+8), Investigation 6 (+8), Perception 6 (+8), Sleight of Hand 6 (+10), Stealth 4 (+8)",
+    "ataques": "Initiative +4, Unarmed +10 (Damage 7), Ankh Daggers (Damage 5), Longblade +10 (Damage 10, Crit. 18-20)",
+    "defesas": "Dodge 10, Parry 10, Fortitude 9, Toughness 10, Will 11",
+    "pontos_poder": "Abilities 50 + Powers 61 + Advantages 11 + Skills 32 + Defenses 20 = 174t",
+    "complicacoes": "Enemies: Stevens inherited many enemies due to his role as an agent of balance and his possession of the Fate artifacts. Persistent Damage: Stevens was injured during his early adventures and only the healing properties channeled through the Cloak of Destiny (Doctor Fate’s cape)— transformed into the wraps around his arm—keeps his injuries from progressing and killing him). after Kingdom’s agents killed Kent and Inza Nelson. A reluc - tant hero at best, Stevens chose to modify the raiments of Fate for his own use, melting the helmet and amulets down and reforging them as bladed weapons, while internalizing several of their powers. Stevens had a short and troubled tenure in his role as an agent of balance between Order and Chaos. He was murdered by Mordru during the Dark Lord’s quest to steal the artifacts and prevent the rebirth of Doctor Fate in the form of Hector Hall."
+  }
+}

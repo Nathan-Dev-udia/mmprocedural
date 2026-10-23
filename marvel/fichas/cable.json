@@ -1,0 +1,142 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Cable",
+  "nome_pt": "Cable",
+  "nivel_poder": 12,
+  "pontos_poder_origem": 195,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 14
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 4,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 12,
+      "Int": 2,
+      "Pro": 2,
+      "Pre": 3
+    },
+    "defesas": {
+      "Esquiva": 12,
+      "Aparar": 12,
+      "Fortitude": 10,
+      "Resistencia": 12,
+      "Vontade": 10
+    },
+    "pericias": {
+      "Enganacao": 8,
+      "Atletismo": 9,
+      "Tecnologia": 9,
+      "Veículos": 4,
+      "Investigacao": 9,
+      "Intimidacao": 12,
+      "Especialidade: Táticas": 12,
+      "Tratamento": 8,
+      "Percepcao": 12,
+      "Intuicao": 12,
+      "Furtividade": 8,
+      "Especialidade: Sobrevivência": 12,
+      "Combate Corpo-a-Corpo: Psimtar": 3,
+      "Combate Corpo-a-Corpo: Desarmado": 3,
+      "Combate a Distancia: Blaster Rifle": 13
+    },
+    "vantagens": [
+      "Accurate Attack",
+      "All-out Attack",
+      "Defensive Attack",
+      "Defensive Roll",
+      "Evasion",
+      "Fearless",
+      "Improved Disarm",
+      "Improved Initiative",
+      "Inspire 2",
+      "Instant Up",
+      "Power Attack",
+      "Set-Up",
+      "Startle",
+      "Takedown",
+      "Teamwork",
+      "Well-informed",
+      "Languages 1",
+      "Equipment 8"
+    ],
+    "poderes": [
+      {
+        "nome": "Psimtar",
+        "construcao_3e": "Device Removivel: Damage 6, Strength-based, Penetrating 6, Extended Reach 1, Improved Critical 3 e Affects Insubstantial. Efeito Alternativo: Affliction 6 (Resisted by Will; Dazed, Stunned, Incapacitated), Extended Reach 1, Improved Critical 3, Affects Insubstantial e Limited a alvos com poderes mentais.",
+        "custo_2e_pp": 12,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Protection",
+        "construcao_3e": "Protection 3.",
+        "custo_2e_pp": 3,
+        "custo_3e_pp": 3
+      },
+      {
+        "nome": "Telekinesis / Telepathy",
+        "construcao_3e": "Array Dinamico: Move Object 8 (Telekinesis); Efeito Alternativo Telepathy 8, construida com Mind Reading e Mental Communication.",
+        "custo_2e_pp": 20,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Body Armor (+4 Toughness; 4 EP)",
+      "Comm-Link (1 EP)",
+      "Arsenal (33 EP): Plastic Explosives (+10 Damage; Explosion Area; 30 EP), Blaster Rifle with Laser Sight (+8 Damage; Autofire; Attack Focus; 25 EP), Twin Hand Guns (+3 Damage; Autofire; 9 EP), Tear Gas (Dazzle 4 + Nauseate Explosion 4; 18 EP)"
+    ],
+    "complicacoes": [
+      "Techno-Organic Virus: se Cable for levado a inconsciencia ao usar Esforco Extra em Telekinesis, ele morre."
+    ],
+    "ataques": [
+      {
+        "nome": "Psimtar",
+        "bonus": 15,
+        "dano": 9
+      },
+      {
+        "nome": "Blaster Rifle",
+        "bonus": 16,
+        "dano": 8
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 15,
+        "dano": 3
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 24,
+      "esquiva_mais_resistencia": 24,
+      "aparar_mais_resistencia": 24,
+      "fortitude_mais_vontade": 20,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 64,
+    "defesas": 23,
+    "pericias": 67,
+    "vantagens": 26,
+    "poderes_conhecidos": 3,
+    "subtotal_conhecido": 183,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Os modificadores de Forca, Constituicao, Destreza, Inteligencia, Sabedoria e Carisma foram usados conforme o guia. Agilidade foi limitada pelo menor valor entre Destreza e Defesa; Luta foi limitada pelo menor valor entre Ataque corpo a corpo e Defesa.",
+    "Dodge Focus 6 foi convertido em Esquiva, mas os ranks extras foram removidos: Esquiva 12 + Resistencia 12 ja atinge o limite defensivo de NP 12. Os valores de ataque +15 e +16 com o rifle e os danos do Psimtar e do rifle foram mantidos; ambos atingem o limite Ataque + efeito 24.",
+    "As graduacoes de pericias foram obtidas subtraindo a habilidade correspondente dos bonus totais impressos. Climb e Swim foram combinadas em Atletismo; Gather Information e Search em Investigacao; Survival virou Especialidade. Concentration nao tem uma pericia equivalente independente em 3e e nao foi adicionada.",
+    "Languages 1 representa Modern English, alem do idioma-base Future English. Improved Block foi omitida por nao ter equivalente direto; Elusive Target foi omitida e pode ser adjudicada como cobertura circunstancial. Sneak Attack nao tem vantagem equivalente: o guia sugere, se desejado pelo Mestre, Damage limitado a alvos vulneraveis ou indefesos, mas o custo nao foi presumido.",
+    "O Drawback Techno-Organic Virus foi convertido em Complicacao usando somente a condicao descrita na fonte. Nenhuma Motivacao foi inferida para este personagem publicado.",
+    "A fonte registra Toughness +12/+11, Protection 3, Defensive Roll e armadura +4. Resistencia 12 foi mantida como valor final publicado e conferida contra os limites de NP; nao somei os valores defensivos novamente.",
+    "O perfil lista Arsenal como 33 EP, embora os custos impressos dos quatro itens somem 82 EP. Os valores foram preservados como publicados, sem corrigir a discrepancia.",
+    "Os custos confirmados antes de Psimtar e Telekinesis/Telepathy somam 183 PP: 64 habilidades, 23 defesas, 67 pericias, 26 vantagens e Protection 3. O total final de PP 3e permanece pendente porque os custos desses poderes e modificadores nao foram calculados por completo."
+  ]
+}

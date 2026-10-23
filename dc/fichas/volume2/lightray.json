@@ -1,0 +1,29 @@
+{
+  "nome": "Lightray",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": 244,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 80
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "6",
+      "STA": "7",
+      "AGL": "5",
+      "DEX": "5",
+      "FGT": "6",
+      "INT": "6",
+      "AWE": "6",
+      "PRE": "5"
+    },
+    "poderes": "i mmunit y 10 (Aging, Cold, Heat, Pressure, Radiation, Vacuum, Disease, Poison, Suffocation (All)); Solar e nergy Control: Array (48 points): f ligh t 24 (32,000,000 MPH, Dynamic), ae : Solar e nergy Beam (Ranged Damage 12, Dynamic), ae : Solar Light Beam (Ranged Affliction 12 (Resisted by Fortitude; Visually Impaired, Visually Disabled, Visually Unaware), Cumulative, Dynamic), ae : Holograms (Illusion 10 (Visual), Area 2 (30 feet), Dynamic), ae : Miniature Sun (Environment 12 (Bright Light), Dynamic), ae : Movement 1 (Space Travel 1, Dynamic); Mother Box (Removable (–5 points): Boom Tube (Space Travel 3); i n telligence (Feature 2); r estoration (Healing 8)",
+    "vantagens": "Agile Feint, Defensive Roll 3, Diehard, Evasion 2, Ranged Attack 7",
+    "pericias": "Acrobatics 10 (+15), Close Combat: Unarmed 6 (+12), Expertise: Science 8 (+14), Technology 12 (+18), Vehicles 8 (+13)",
+    "ataques": "Initiative +5, Solar Energy Beam +12 (Ranged, Damage 12), Solar Light Ray +12 (Ranged, Affliction 12), Unarmed +12 (Close, Damage 6)",
+    "defesas": "Dodge 14, Parry 14, Fortitude 11, Toughness 10/7*, Will 13 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 92 + Powers 88 + Advantages 14 + Skills 22 + Defenses 28 = 244",
+    "complicacoes": "d oing Good: Lightray’s overriding kindheartedness leads him to always do right by others. Weakness: The mysterious substance Radion is potentially lethal to Lightray, as to the other New Gods."
+  }
+}

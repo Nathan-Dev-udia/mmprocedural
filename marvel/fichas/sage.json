@@ -1,0 +1,123 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Sage",
+  "nome_pt": "Sage",
+  "nivel_poder": 8,
+  "pontos_poder_origem": 150,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 80
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 0,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 10,
+      "Int": 6,
+      "Pro": 3,
+      "Pre": 2
+    },
+    "defesas": {
+      "Esquiva": 11,
+      "Aparar": 11,
+      "Fortitude": 5,
+      "Resistencia": 5,
+      "Vontade": 3
+    },
+    "pericias": {
+      "Enganação": 12,
+      "Tecnologia": 15,
+      "Especialidade: Electrical": 8,
+      "Veículos": 8,
+      "Investigação": 8,
+      "Especialidade: Technology": 8,
+      "Percepção": 8,
+      "Intuição": 12,
+      "Furtividade": 8
+    },
+    "vantagens": [
+      "Accurate Attack",
+      "Attractive 2",
+      "Defensive Attack",
+      "Defensive Roll 2",
+      "Equipment 5",
+      "Eidetic Memory",
+      "Grabbing Finesse",
+      "Improved Disarm 2",
+      "Fast Grab",
+      "Improved Hold",
+      "Improved Trip",
+      "Set-Up",
+      "Sneak Attack",
+      "Languages 1"
+    ],
+    "poderes": [
+      {
+        "nome": "Boost (All Powers at Once) 5",
+        "construcao_3e": "Enhanced Trait, Limited to mutant powers, Others Only.",
+        "custo_2e_pp": 10,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Quickness 10",
+        "construcao_3e": "Mental Quickness; Limited.",
+        "custo_2e_pp": 5,
+        "custo_3e_pp": 5
+      },
+      {
+        "nome": "Telepathy 7",
+        "construcao_3e": "Mind Reading; Alternate Effects: Datalink and Mind Shield 14.",
+        "custo_2e_pp": 18,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Cyber glasses (Assessment, Comm-Link, Camera, Laptop, GPS; 5 EP).",
+      "Assault rifle (+5 Damage; Autofire; Improved Range; source prints 16 PP).",
+      "Uniform (+3 Toughness; Subtle; 4 EP)."
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Assault rifle",
+        "bonus": 10,
+        "dano": 5
+      },
+      {
+        "nome": "Unarmed",
+        "bonus": 10,
+        "dano": 0
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 15,
+      "esquiva_mais_resistencia": 16,
+      "aparar_mais_resistencia": 16,
+      "fortitude_mais_vontade": 8,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 50,
+    "defesas": 35,
+    "pericias": 43.5,
+    "vantagens": 21,
+    "poderes_conhecidos": 5,
+    "subtotal_conhecido": 154.5,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Dodge Focus 4 foi convertido em Esquiva e reduzido a 11. Grappling Finesse e Improved Grab/Pin/Trip foram representados por Grabbing Finesse, Fast Grab, Improved Hold e Improved Trip. Master Plan e Sneak Attack não têm equivalentes diretos; Stunning Attack não foi incluído porque o custo de Affliction é incerto.",
+    "A fonte imprime STR/DEX/CON/INT/WIS/CHA +0/+2/+0/+6/+3/+2; Toughness +5/+3, Fortitude +5, Reflex +7, Will +3; Attack +10; Defense 21; Initiative +2.",
+    "Dodge Focus 4 e Defense 21 excedem PL 8 com Resistência 5; Esquiva/Aparar reduzidas a 11 (11 + 5 = 16). O rifle de assalto aparece como 16 PP na fonte, embora esteja listado sob Equipment.",
+    "O perfil lista Computers e Knowledge [Technology] separadamente; foram preservados como Tecnologia e Especialidade: Technology. Bônus totais na fonte: Computers +21 e Knowledge +14. Master Plan virou Inspire; Improved Tools não tem equivalente direto no guia e não foi incluído.",
+    "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +0/+2/+0/+6/+3/+2. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
+    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Shadowcat",
+  "nome_pt": "Shadowcat",
+  "nivel_poder": 8,
+  "pontos_poder_origem": 150,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 87
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 0,
+      "Agi": 4,
+      "Des": 4,
+      "Lut": 10,
+      "Int": 4,
+      "Pro": 1,
+      "Pre": 2
+    },
+    "defesas": {
+      "Esquiva": 12,
+      "Aparar": 12,
+      "Fortitude": 4,
+      "Resistencia": 4,
+      "Vontade": 4
+    },
+    "pericias": {
+      "Acrobacia": 8,
+      "Enganação": 4,
+      "Tecnologia": 12,
+      "Especialidade: Electrical": 8,
+      "Percepção": 6,
+      "Intuição": 6,
+      "Furtividade": 12
+    },
+    "vantagens": [
+      "Accurate Attack",
+      "Attractive 2",
+      "Defensive Attack",
+      "Defensive Roll 2",
+      "Equipment 2",
+      "Improved Defense",
+      "Improved Disarm",
+      "Improved Initiative 2",
+      "Minion 4",
+      "Power Attack",
+      "Skill Mastery (Deception, Technology, Disable Device, Stealth) 4",
+      "Sneak Attack 2",
+      "Taunt",
+      "Teamwork 3"
+    ],
+    "poderes": [
+      {
+        "nome": "Insubstantial 4",
+        "construcao_3e": "Insubstantial 4, Linked to Corrosion and Air Walk.",
+        "custo_2e_pp": 20,
+        "custo_3e_pp": 20
+      },
+      {
+        "nome": "Corrosion 6",
+        "construcao_3e": "Weaken Toughness linked to Damage; Aura, Affects Corporeal; Limited to electronics.",
+        "custo_2e_pp": 18,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Super-Movement 2",
+        "construcao_3e": "Air Walk 2, Linked to Insubstantial.",
+        "custo_2e_pp": 4,
+        "custo_3e_pp": 4
+      }
+    ],
+    "equipamento": [
+      "Uniform (+2 Toughness; Subtle; 3 EP).",
+      "Ninja-To (+3 Damage; Mighty; Improved Critical; 5 EP).",
+      "Multi-tool (1 EP).",
+      "Laptop (1 EP)."
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Ninja-To",
+        "bonus": 10,
+        "dano": 3
+      },
+      {
+        "nome": "Unarmed",
+        "bonus": 7,
+        "dano": 0
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 13,
+      "esquiva_mais_resistencia": 16,
+      "aparar_mais_resistencia": 16,
+      "fortitude_mais_vontade": 8,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 50,
+    "defesas": 36,
+    "pericias": 28.0,
+    "vantagens": 27,
+    "poderes_conhecidos": 24,
+    "subtotal_conhecido": 165.0,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Attack Focus (Melee) 3 foi ajustado para não ultrapassar o limite; Dodge Focus 6 foi convertido e reduzido a 12; Improved Block virou Improved Defense; Sneak Attack não tem equivalente; Minion 4 foi mantido como quatro graduações.",
+    "A fonte imprime STR/DEX/CON/INT/WIS/CHA +0/+4/+0/+0/+1/+2; Toughness +4/+2, Fortitude +4, Reflex +7, Will +4; Attack +7 (+10 Melee); Defense 22; Initiative +12.",
+    "Com Resistência 4, Esquiva/Aparar 12 = 16, limite PL 8. Attack +10 com Ninja-To damage +3 permanece abaixo de 16.",
+    "O original marca Bluff, Computers, Disable Device e Stealth com asterisco; Skill Mastery se aplica a essas perícias.",
+    "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +0/+4/+0/+4/+1/+2. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
+    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
+  ]
+}

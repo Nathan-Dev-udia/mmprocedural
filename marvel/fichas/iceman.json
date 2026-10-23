@@ -1,0 +1,111 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Iceman",
+  "nome_pt": "Homem de Gelo",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 150,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 41
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 6,
+      "Int": 0,
+      "Pro": 0,
+      "Pre": 2
+    },
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 8,
+      "Fortitude": 4,
+      "Resistencia": 12,
+      "Vontade": 4
+    },
+    "pericias": {
+      "Enganação": 14,
+      "Especialidade: Cultura Pop": 6,
+      "Percepção": 8,
+      "Intuição": 8,
+      "Combate a Distância: Ice Blast": 6,
+      "Combate Corpo-a-Corpo: Desarmado": 2
+    },
+    "vantagens": [
+      "All-out Attack",
+      "Improved Defense",
+      "Improved Initiative",
+      "Move-By Action",
+      "Power Attack",
+      "Taunt",
+      "Teamwork 3"
+    ],
+    "poderes": [
+      {
+        "nome": "Cold Control",
+        "construcao_3e": "Cold Control 12 como array dinâmico: Blast, Environment (Hamper Movement), Obscure (visual) e Snare; 31 PP na fonte.",
+        "custo_2e_pp": 31,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Create Object",
+        "construcao_3e": "Create 10 dinâmico; Efeito Alternativo: Movement (Air Walking). 23 PP na fonte.",
+        "custo_2e_pp": 23,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Immunity",
+        "construcao_3e": "Immunity 5 (frio).",
+        "custo_2e_pp": 5,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Protection",
+        "construcao_3e": "Protection 10.",
+        "custo_2e_pp": 10,
+        "custo_3e_pp": 10
+      }
+    ],
+    "equipamento": [],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Ice Blast",
+        "bonus": 8,
+        "dano": 12
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "dano": 2
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 20,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 8,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 32,
+    "defesas": 24,
+    "pericias": 22,
+    "vantagens": 9,
+    "poderes_conhecidos": 10,
+    "subtotal_conhecido": 97,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Improved Block 2 virou Improved Defense (a vantagem de 3e não acumula nesses dois ranks). Improved Overrun e Weapon Break não têm equivalente direto e foram omitidas.",
+    "A fonte descreve Ice Blast como ataque +8 e efeito 12; a combinação fica no limite Ataque + Efeito de NP 10."
+  ]
+}

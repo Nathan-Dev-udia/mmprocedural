@@ -1,0 +1,29 @@
+{
+  "nome": "Orange Lantern Construct",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 180,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 91
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "8",
+      "STA": "—",
+      "AGL": "10",
+      "DEX": "0",
+      "FGT": "8",
+      "INT": "0",
+      "AWE": "0",
+      "PRE": "0"
+    },
+    "poderes": ": Construct (Immunity 60: Fortitude and Will effects, Protection 11); o r ange Hunger (Nullify Yellow and Green Energy Manipulation and Magic 14)",
+    "ataques": "Initiative +0, Ring Blast +12 (Damage 16), Unarmed +2 (Damage 1)",
+    "defesas": "Dodge 10, Parry 8, Fortitude 12, Toughness 14, Will 16",
+    "pontos_poder": "A bilities 14 + Powers 101 + Advantages 0 + Skills 23 + Defenses 42 = Total 180",
+    "vantagens": "Minions (see M ine ! )",
+    "pericias": "Deception 6 (+6), Expertise: Possessions 10 (+10), Insight 6 (+6), Ranged Combat: Power Ring 10 (+12), Sleight of Hand 10 (+12), Stealth 4 (+4)",
+    "complicacoes": "Greed: Larfleeze is the personification of greed. o ut cast: Larfleeze’s manner and appearance are alien and his time in seclusion has made him difficult to relate to. Weakness: The Orange Lantern power ring depends on the willpower of the wearer and moments of self-doubt or hesitation can cause the ring to fail. MI ne ! As with many characters able to field a vast number of minions, Larfleeze’s power to, in effect, create an entire Lantern Corps is not reflected in his Powers listing. The wielder of the orange light has the ability to steal the identities of others; an orange light-construct in the victim’s image arises from the corpse, under the lantern- wielder’s control, with a range of the traits listed for the Orange Lantern Construct archetype. Some constructs are different sizes (with appropriate ranks of Growth or Shrinking) but most share the same traits. The Orange Lanterns are constructs of Larfleeze’s power and will, and require some effort on his part to exist. They are essentially a sustained duration Summon effect, and fade if Agent Orange is unable to focus on them. Anyone attempting to take the orange lantern from Larfleeze risks falling victim to the light of avarice and the power of the Ophidian, the Entity of the lantern. Overcoming the tremendous desire to have and control the lantern requires at least a DC 30 Will resistance check. The blue light of hope can temporarily overpower the orange light of avarice, serving to Nullify it. Heroes & V Heroes & V I I lla lla I I ns, Vol. 2 ns, Vol. 2"
+  }
+}

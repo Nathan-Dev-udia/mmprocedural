@@ -1,0 +1,29 @@
+{
+  "nome": "Manhunter (Kate Spencer)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 135,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 42
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "4",
+      "STA": "2",
+      "AGL": "2",
+      "DEX": "3",
+      "FGT": "5",
+      "INT": "2",
+      "AWE": "1",
+      "PRE": "2"
+    },
+    "poderes": "Clawed Gauntlets : Penetrating 4 on Strength Damage; Movement 1 (Safe Fall, Limited—Must be near a surface) (Removable, -1 point) • 4 points Darkstar Uniform: Enhanced Strength 2; Protection 5 (Removable, -2 points) • 7 points Manhunter Mask: Immunity 10 (Mental effects), Senses 2 (Darkvision) (Removable, -2 points) • 10 points p o wer s taff : Ranged Damage 5; Leaping 7 (Easily Removable, -6 points) • 11 points A D n TAG es v A",
+    "pericias": "Acrobatics 6 (+8), Athletics 6 (+10), Close Combat: Clawed Gauntlet/Unarmed 9 (+14), Expertise: Law 6 (+8), Insight 7 (+8), Intimidation, 4 (+6), Investigation 6 (+8), Perception 7 (+8), Ranged Combat: Power Staff 10 (+13), Stealth 6 (+8)",
+    "ataques": "i nitia tive +6 Power Staff +13 Ranged Damage 5 Clawed Gauntlets +14 Close, Damage 4, Penetrating 4 Unarmed +14 Close, Damage 4",
+    "defesas": "Dodge 10 f or titude 8 p arr y 10 Toughness 8/7* w ill 6 *W ithout Defensive Roll.",
+    "pontos_poder": "Abilities 38 s k ills 34 p o wers 32 Defenses 24 Advantages 6 ToTal 135",
+    "complicacoes": "Driven by Justice: As a lawyer, Kate Spencer is bound by the complications of the legal system, but as Manhunter she can do whatever it takes to ensure that the wronged get justice and villains are punished—even if it means using lethal force. s ingle Mother: Spencer is a single mother to her son Ramsey, and often struggles to balance her careers as a lawyer and Manhunter while protecting her son from the demands and dangers of both roles.",
+    "vantagens": "Benefit (Independently Wealthy), Contacts, Defensive Roll, Improved Initiative, Improved Smash, Power Attack"
+  }
+}

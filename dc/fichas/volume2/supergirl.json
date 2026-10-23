@@ -1,0 +1,28 @@
+{
+  "nome": "Supergirl",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 216
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "15",
+      "STA": "10",
+      "AGL": "3",
+      "DEX": "2",
+      "FGT": "4",
+      "INT": "2",
+      "AWE": "2",
+      "PRE": "3"
+    },
+    "poderes": "104 d efenses 25",
+    "pericias": "21",
+    "ataques": "i nitia tive +3 Heat Vision +10 Ranged, Damage 12 Unarmed +9 Close, Damage 15 powers, even in situations where restraint might be more ap- propriate. This can create additional",
+    "complicacoes": "for Kara, playing into her Responsibility complication when she real- izes what she has done. Supergirl’s player is encouraged to look for these opportunities, while the Gamemaster should award hero points when Supergirl’s inexperience or lack of control adds a complication to the overall story.",
+    "defesas": "d odge 10 f or titude 12 Parry 10 t oughness 14 W ill 12 W S Po er Point a bilities 82",
+    "vantagens": "3 ToTal 235 a Co MPL i C tion S Power Loss: Supergirl loses her powers and her Str and Sta are reduced to 1 under a red sun, like that of Krypton. esponsibility: Supergirl feels a strong sense of responsibility r to use her powers for the benefit of all. Secret i den tity: Linda Lang Vulnerability: Supergirl is vulnerable to magic. Her Toughness is not Impervious against magical attacks. Supergirl has the same Kryptonian vulnerabilities as her cous- in: she loses her powers under the light of a red sun (or when otherwise cut off from solar energy for a long period) and be- comes weak when exposed to Kryptonite."
+  }
+}

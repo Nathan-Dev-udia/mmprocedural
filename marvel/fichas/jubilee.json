@@ -1,0 +1,114 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Jubilee",
+  "nome_pt": "Jubileu",
+  "nivel_poder": 7,
+  "pontos_poder_origem": 105,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 46
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 0,
+      "Agi": 4,
+      "Des": 4,
+      "Lut": 7,
+      "Int": 2,
+      "Pro": 0,
+      "Pre": 3
+    },
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 10,
+      "Fortitude": 2,
+      "Resistencia": 4,
+      "Vontade": 2
+    },
+    "pericias": {
+      "Acrobacia": 12,
+      "Enganação": 8,
+      "Atletismo": 4,
+      "Tecnologia": 3,
+      "Persuasão": 6,
+      "Especialidade: Vida nas Ruas": 8,
+      "Especialidade: Cultura Pop": 4,
+      "Intuição": 6,
+      "Prestidigitação": 4,
+      "Furtividade": 12,
+      "Especialidade: Sobrevivência": 6,
+      "Combate a Distância: Fireworks": 3
+    },
+    "vantagens": [
+      "Agile Feint",
+      "Attractive",
+      "All-out Attack",
+      "Defensive Roll 3",
+      "Equipment",
+      "Hide in Plain Sight",
+      "Improved Initiative",
+      "Luck 2",
+      "Power Attack",
+      "Teamwork",
+      "Languages 1"
+    ],
+    "poderes": [
+      {
+        "nome": "Blast / Dazzle",
+        "construcao_3e": "Blast 7; Efeito Alternativo: Dazzle (Visual). 15 PP na fonte.",
+        "custo_2e_pp": 15,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Immunity",
+        "construcao_3e": "Immunity 1 (próprios poderes).",
+        "custo_2e_pp": 1,
+        "custo_3e_pp": 1
+      }
+    ],
+    "equipamento": [
+      "Jaqueta (+1 Toughness; 1 EP)",
+      "Celular (1 EP)"
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Fireworks",
+        "bonus": 7,
+        "dano": 7
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 7,
+        "dano": 0
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 14,
+      "esquiva_mais_resistencia": 14,
+      "aparar_mais_resistencia": 14,
+      "fortitude_mais_vontade": 4,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 40,
+    "defesas": 24,
+    "pericias": 38,
+    "vantagens": 14,
+    "poderes_conhecidos": 1,
+    "subtotal_conhecido": 117,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Dodge Focus 4 é convertido a partir de Defense 20: rank 10; foi reduzido a Dodge 10 para cumprir Dodge + Toughness 14 (NP 7). Parry 10 mantém o limite.",
+    "Hide in Plain Sight mantida; Sneak Attack 2 não tem equivalente direto e foi omitida.",
+    "Languages (English; base Chinese) convertido em Languages 1.",
+    "Dodge foi ajustada de 14 para 10 para cumprir Dodge + Toughness ≤ 14 (NP 7)."
+  ]
+}

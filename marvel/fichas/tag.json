@@ -1,0 +1,99 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Tag",
+  "nome_pt": "Tag",
+  "nivel_poder": 8,
+  "pontos_poder_origem": 120,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 101
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 3,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 9,
+      "Int": 0,
+      "Pro": 1,
+      "Pre": 1
+    },
+    "defesas": {
+      "Esquiva": 9,
+      "Aparar": 9,
+      "Fortitude": 7,
+      "Resistencia": 7,
+      "Vontade": 5
+    },
+    "pericias": {
+      "Enganação": 13,
+      "Atletismo": 8,
+      "Intimidação": 8,
+      "Especialidade: Ciências Comportamentais": 10,
+      "Percepção": 8,
+      "Intuição": 8,
+      "Furtividade": 8
+    },
+    "vantagens": [
+      "All-Out Attack",
+      "Defensive Attack",
+      "Equipment",
+      "Improved Initiative 2",
+      "Inspire 2",
+      "Power Attack",
+      "Set Up",
+      "Takedown",
+      "Teamwork 3",
+      "Languages 1"
+    ],
+    "poderes": [
+      {
+        "nome": "Mind Control",
+        "construcao_3e": "Mind Control (rank 2e 8); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Mind Control 8 (Extra: Burst Area [+1]; Flaw: One Command – Run Away From Target; Power Feat: Indirect; Alternate Power: Mind Control 8 (Extra: Burst Area [+1]; Flaw: One Command – Run Toward Target; Power Feat: Indirect); 18pp); custo 2e impresso 18 PP.",
+        "custo_2e_pp": 18,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Hellions Uniform [+4 Toughness; Comm-Link; 5ep]"
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 9,
+        "dano": 3
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 12,
+      "esquiva_mais_resistencia": 16,
+      "aparar_mais_resistencia": 16,
+      "fortitude_mais_vontade": 12,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 42,
+    "defesas": 37,
+    "pericias": 63,
+    "vantagens": 14,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 156,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
+    "Perícias foram convertidas subtraindo do bônus total impresso o atributo 3e correspondente. Conhecimentos, Ofícios e Profissões foram mantidos como Especialidades; Condução/Pilotagem como Veículos; Sobrevivência como Especialidade: Sobrevivência; Computadores como Tecnologia.",
+    "Poderes preservam os descritores, ranks, modificadores e custos 2e impressos; o guia orienta o efeito 3e equivalente. Custos 3e ficam nulos quando a construção exata ou os modificadores não permitem cálculo seguro.",
+    "Nenhuma Motivação ou complicação não publicada foi acrescentada.",
+    "Idiomas adicionais descritos na fonte foram convertidos em Languages 1, usando a progressão da vantagem 3e.",
+    "Vantagens sem equivalente direto foram removidas conforme o guia; não foram recriadas como poderes: Elusive Target; Sneak Attack.",
+    "Subtotal 3e conhecido: 42 PP em habilidades, 63 em perícias, 37 em defesas, 14 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto."
+  ]
+}

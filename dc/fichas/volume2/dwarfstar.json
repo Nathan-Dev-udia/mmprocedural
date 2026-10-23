@@ -1,0 +1,30 @@
+{
+  "nome": "Dwarfstar",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 150,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 163
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "2",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "5",
+      "INT": "1",
+      "AWE": "2",
+      "PRE": "2"
+    },
+    "poderes": "Size and Mass Control (Shrinking 20, Atomic, Continuous, Normal Strength; Enhanced Advantage (Hide in Plain Sight, Limited to when Shrunk), Removable (-16 points)); White d w arf Costume (Feature 1 (Can change into his costume as a free action); White d w arf Strike (Strength- based Damage 8, Activation (Move Action), Limited: Must start the turn shrunk and end it full size)",
+    "equipamento": "Knives (Strength-based Damage 1, Improved Critical), throwing knives (Strength-based Ranged Damage 1, Improved Critical)",
+    "vantagens": "Close Attack 2, Equipment, Favored Environment (Ambush), Hide in Plain Sight, Improved Critical (Knife), Seize Initiative, Takedown",
+    "pericias": "Acrobatics 4 (+6), Athletics 3 (+5), Close Combat: Knife 4 (+9), Deception 6 (+8), Intimidation 6 (+8), Perception 3 (+5), Ranged Combat: Throwing 8 (+10), Sleight of Hand 6 (+8), Stealth 4 (+6/+20*)",
+    "ataques": "Initiative +2, Knife +11 (Close, Damage 3, Crit. 18-20), Throwing Knife +10 (Ranged, Damage 3, Crit. 19-20), Unarmed +7 (Close, Damage 2)",
+    "defesas": "Dodge 13*, Parry 13*, Fortitude 6, Toughness 5/2**, Will 5 *With 14 ranks of Shrinking. **Without Defensive Roll.",
+    "pontos_poder": "Abilities 36 + Powers 70 + Advantages 10 + Skills 22 + Defenses 12 = 150",
+    "complicacoes": "t hir lls: Dwarfstar is a sociopathic killer. Quirk—Signature: When Dwarfstar kills someone (and possibly when he performs any crime), he leaves a poem behind."
+  }
+}

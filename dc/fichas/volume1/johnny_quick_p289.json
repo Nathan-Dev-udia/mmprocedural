@@ -1,0 +1,29 @@
+{
+  "nome": "Johnny Quick",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 186,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 289
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "3",
+      "AGL": "4",
+      "DEX": "3",
+      "FGT": "4",
+      "INT": "3",
+      "AWE": "4",
+      "PRE": "3"
+    },
+    "poderes": "”3X2 (9YZ) 4A”: Activation (Move Action, -1 point) Fast Reactions: Enhanced Advantages 20 (Agile Feint, Defensive Roll 2, Evasion 2, Improved Initiative 8, Interpose, Instant Up, Move-by Action, Seize Initiative, Takedown), Quickness 8 • 26 points High-Speed Dodge: Enhanced Defenses 22 (Dodge 11, Parry 11) • 22 points Frictionless Aura: Immunity 1 (Friction Heat) • 1 point Run On Water: Movement 1 (Water Walking), Limited to While Moving • 1 point Run Up Walls: Movement 2 (Wall-crawling 2), Limited to While Moving • 2 points Super-Speed: Array (18 points) • Speed 18 (500,000 MPH) • 18 points • Flight 9 (1,000 MPH) • 1 point Super-Speed Stunts: Array (20 points) • Air Control: Cone Area Move Object 10, Close Range • 20 points • Air Cushion: Burst Area Safe Fall, Affects Others • 1 point • Vacuum: Burst Area Cumulative Affliction 5 (Resisted by Fortitude; Dazed, Stunned, Incapacitated), Concentration • 1 point • Vibration: Insubstantial 4 • 1 point • Whirlwind: Burst Area Move Object 10, Close Range • 1 point",
+    "vantagens": "Agile Feint , Connected, Contacts, Defensive Roll 5 , Evasion 2 , Interpose , Instant Up, Move-by Action , Seize Initiative , Takedown , Teamwork, Well-informed",
+    "pericias": "Acrobatics 6 (+10), Athletics 4 (+5), Close Combat: Unarmed 6 (+10), Expertise: Business 6 (+9), Expertise: Journalism 10 (+13), Insight 4 (+8), Investigation 10 (+13), Perception 4 (+8), Persuasion 6 (+9)",
+    "ataques": "Initiative +36 Unarmed +10 Close Range, Damage 1",
+    "defesas": "Dodge 15 Fortitude 8 Parry 15 Toughness 5/3* Will 8 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 50 Skills 28 Powers 95 Defenses 9 Advantages 4 ToTal 186",
+    "complicacoes": "Relationships: His sidekick and cameraman “Tubby” Watts, his girlfriend (and later wife) Libby Lawrence (Liberty Belle) and his daughter, Jesse Chambers (Jesse Quick/Liberty Belle). Speed Force: His connection to the Speed Force can cause complications when using extra effort with his powers. Too Quick: Johnny can be too fast for his own good sometimes, acting before he thinks."
+  }
+}

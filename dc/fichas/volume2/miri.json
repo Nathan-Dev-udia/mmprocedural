@@ -1,0 +1,28 @@
+{
+  "nome": "Miri",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": 180,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 195
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "0",
+      "STA": "1",
+      "AGL": "2",
+      "DEX": "1",
+      "FGT": "2",
+      "INT": "1",
+      "AWE": "4",
+      "PRE": "2"
+    },
+    "poderes": "Power r ing (identical to Star Sapphire’s 30-point Array; see Star Sapphire )",
+    "vantagens": "Attractive, Ultimate Effort (Will checks)",
+    "pericias": "Acrobatics 4 (+6), Close Combat: Unarmed 2 (+4), Insight 8 (+12), Perception 6 (+10), Persuasion 8 (+10), Ranged Combat: Power Ring 8 (+9)",
+    "ataques": "Initiative +2, Power Ring +9 (Ranged, Damage 15), Unarmed +4 (Close, Damage 0)",
+    "defesas": "Dodge 11, Parry 9, Fortitude 9, Toughness 13, Will 15",
+    "pontos_poder": "Abilities 26 + Powers 100 + Advantages 2 + Skills 18 + Defenses 34 = Total 180"
+  }
+}

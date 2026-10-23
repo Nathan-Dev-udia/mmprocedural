@@ -1,0 +1,29 @@
+{
+  "nome": "Bulleteer",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 135,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 170
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "10",
+      "STA": "10",
+      "AGL": "4",
+      "DEX": "0",
+      "FGT": "4",
+      "INT": "2",
+      "AWE": "2",
+      "PRE": "4"
+    },
+    "poderes": "f ligh t (Flight 8 (500 MPH)); Smartskin (Immunity 7 (Cold, Heat, Self-inflicted Slam damage); Protection 2; Impervious Toughness 12)",
+    "vantagens": "All-out Attack, Attractive, Interpose, Ultimate Effort (Toughness checks)",
+    "pericias": "Close Combat: Unarmed 4 (+8), Expertise: Psychology 6 (+8), Perception 4 (+6), Persuasion 8 (+12), Treatment 4 (+6)",
+    "ataques": "Initiative +4, Unarmed +8 (Close, Damage 10)",
+    "defesas": "Dodge 6, Parry 6, Fortitude 10, Toughness 12, Will 7",
+    "pontos_poder": "Abilities 72 + Powers 37 + Advantages 4 + Skills 13 + Defenses 9 = 135",
+    "complicacoes": "r esponsibility: Bulleteer initially viewed her powers as a curse, but when she saved some people from a burning building she was inspired by them to continue using her powers to help others."
+  }
+}

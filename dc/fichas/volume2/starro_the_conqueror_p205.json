@@ -1,0 +1,28 @@
+{
+  "nome": "Starro The Conqueror",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 15,
+  "pontos_poder_publicados": 223,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 205
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "16",
+      "STA": "15",
+      "AGL": "3",
+      "DEX": "3",
+      "FGT": "12",
+      "INT": "7",
+      "AWE": "4",
+      "PRE": "9"
+    },
+    "poderes": "a xe (Strength-based Damage 4, Penetrating 10, Removable); t ough (Impervious Toughness 10; Protection 2)",
+    "vantagens": "Accurate Attack, Chokehold, Diehard, Extraordinary Effort, Great Endurance, Improved Critical (Axe), Improved Grab, Improved Hold, Improved Initiative 2, Improved Smash, Power Attack, Seize Initiative, Startle, Takedown, Weapon Break",
+    "pericias": "Acrobatics 9 (+12), Athletics 9 (+25), Insight 10 (+14), Intimidation 8 (+17), Perception 10 (+14)",
+    "ataques": "Initiative +11, Axe +15 (Close, Damage +15, Penetrating 10, Crit. 19-20), Unarmed +15 (Close, Damage 15)",
+    "defesas": "Dodge 15, Parry 15, Fortitude 15, Toughness 17, Will 15",
+    "pontos_poder": "Abilities 138 + Powers 23 + Advantages 19 + Skills 23 + Defenses 20 = 223"
+  }
+}

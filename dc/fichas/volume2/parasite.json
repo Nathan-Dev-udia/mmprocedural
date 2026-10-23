@@ -1,0 +1,28 @@
+{
+  "nome": "Parasite",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 13,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 100
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "8",
+      "STA": "6",
+      "AGL": "1",
+      "DEX": "1",
+      "FGT": "8",
+      "INT": "5",
+      "AWE": "2",
+      "PRE": "1"
+    },
+    "poderes": "160 d efenses 19 antages 1 a dv ToTal 246",
+    "vantagens": "Improved Hold",
+    "pericias": "10",
+    "ataques": "i nitia tive +1 Life Drain +8 Close, Weaken 18 Power Drain +8 Close, Affliction 18 Unarmed +8 Close, Damage 8",
+    "defesas": "d odge 8 f or titude 12 Parry 8 t oughness 6 W ill 8 W S Po er Point a bilities 56",
+    "complicacoes": "Hunger: Parasite needs to feed on the life energy of others in order to survive. Weakness: When Parasite duplicates a subject’s powers, he also acquires his weaknesses. aLLI e S Parasite generally works alone but is often recruited by gov - ernment agencies for his energy-draining powers or by mas- terminds hoping to use him against Superman. The Parasite rarely passes up the opportunity to feed on his favorite target. e ne MI e S Parasite becomes proportionately powerful based on his op- ponent, so it’s no surprise that Parasite is considered one of Superman’s most dangerous enemies."
+  }
+}

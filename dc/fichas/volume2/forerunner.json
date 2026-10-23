@@ -1,0 +1,29 @@
+{
+  "nome": "Forerunner",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 14,
+  "pontos_poder_publicados": 229,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 68
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "14",
+      "STA": "12",
+      "AGL": "7",
+      "DEX": "7",
+      "FGT": "11",
+      "INT": "1",
+      "AWE": "4",
+      "PRE": "2"
+    },
+    "poderes": "Clawed Gloves (Strength-based Damage 1, Penetrating 8); e ngineered Physiology (Immunity 10 (Life Support), Impervious Toughness 12); i n visibility (Visual Concealment 4, Concentration); Super-Speed (Enhanced Defenses 6 (Dodge 6), Enhanced",
+    "vantagens": "(Agile Feint, Evasion, Improved Initiative, Instant Up, Move-by Action, Takedown), Speed 8 (500 MPH)); t elepa thy (Mental Communication 4, Mind Reading 2); t hr owing Spikes (Strength-based Ranged Damage 1, Improved Critical, Penetrating 8) a dv antages: Accurate Attack, Agile Feint , Close Attack 2, Diehard, Evasion , Extraordinary Effort, Improved Initiative , Instant Up , Move-By Action , Precise Attack (Ranged; Cover), Ranged Attack 6, Takedown , Tracking",
+    "pericias": "Acrobatics 4 (+11), Insight 2 (+6), Perception 4 (+8), Stealth 2 (+9)",
+    "ataques": "Initiative +11, Thrown Spikes +13 (Ranged, Damage 15, Penetrating 8), Clawed Gloves +13 (Close, Damage 15, Penetrating 8)",
+    "defesas": "Dodge 16, Parry 14, Fortitude 14, Toughness 12, Will 8",
+    "pontos_poder": "Abilities 116 + Powers 82 + Advantages 13 + Skills 6 + Defenses 12 = 229",
+    "complicacoes": "Genetic f ailsaf e: Their creators have encoded all Forerunner DNA with a safety feature that prevents the warriors from being able to directly attack any Monitor. a Warrior Born: Viza Aziv was engineered and raised to be a warrior and finds normal social interaction difficult, making her somewhat gullible and unable to grasp behavioral nuances. She also tends to revert to her warrior code and traditions when dealing with others."
+  }
+}

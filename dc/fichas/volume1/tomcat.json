@@ -1,0 +1,29 @@
+{
+  "nome": "Tomcat",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 127,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 299
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "5",
+      "STA": "6",
+      "AGL": "6",
+      "DEX": "6",
+      "FGT": "6",
+      "INT": "1",
+      "AWE": "3",
+      "PRE": "3"
+    },
+    "poderes": "Claws (Strength-based Damage 2); Enhanced Skills 28 (Acrobatics 8, Athletics 8, Close Combat: Natural Weapons 5, Perception 7); Enhanced Advantages 7 (Evasion, Great Endurance, Improved Critical 2 (Claws), Improved Initiative, Instant Up, Startle); Leaping 1 (15 feet); Regeneration 5 ; Senses 2 (Lowlight Vision, Tracking); Speed 4 (30 MPH)",
+    "vantagens": "Evasion, Great Endurance, Improved Critical 2 (Claws), Improved Initiative, Instant Up, Startle",
+    "pericias": "Acrobatics 8 (+14), Athletics 8 (+13), Close Combat: Natural Weapons 5 (+11), Insight 4 (+7), Perception 7 (+10)",
+    "ataques": "Initiative +10, Claws +11 (Damage 7, Crit. 18-20), Unarmed +6 (Damage 5)",
+    "defesas": "Dodge 12, Parry 12, Fortitude 10, Toughness 6, Will 5",
+    "pontos_poder": "Abilities 72 + Powers 35 + Advantages 0 + Skills 2 + Defenses 18 = 127",
+    "complicacoes": "Chip On His Shoulder : Bronson resents his powers and the world in general for forcing him into the life of a metahuman."
+  }
+}

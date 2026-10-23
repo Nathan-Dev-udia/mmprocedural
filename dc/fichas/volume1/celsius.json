@@ -1,0 +1,29 @@
+{
+  "nome": "Celsius",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 165,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 184
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "3",
+      "AGL": "5",
+      "DEX": "5",
+      "FGT": "5",
+      "INT": "3",
+      "AWE": "1",
+      "PRE": "3"
+    },
+    "poderes": "Cold/Heat Resistance ( Immunity 20 (Cold Effects, Heat Effects), Limited to Half Effect); Immortality ( Immunity 1 (Aging)) ; Thermal Control ( Array (23 points), Cold/Heat Blast ( Ranged Damage 11, Variable Descriptor (Heat, Cold)), AE: Extreme Temperature Field (Ranged Weaken 11 (Toughness), Affects Only Objects), AE: Ice Generation (Create Object 11))",
+    "vantagens": "Benefit 2 (Independently Wealthy), Defensive Roll 3, Improved Critical (Unarmed), Improved Defense, Instant Up, Language 2 (Chinese, Russian, Hindi, English), Power Attack, Prone Fighting, Ritualist, Trance",
+    "pericias": "Acrobatics 3 (+8), Close Combat: Unarmed 10 (+15), Deception 3 (+6), Expertise: Magic 3 (+6), Expertise: Science 4 (+7), Investigation 2 (+3), Ranged Combat: Cold/Heat Blast 6 (+11), Persuasion 3 (+6), Stealth 4 (+9), Technology 4 (+7)",
+    "ataques": "Initiative +5, Cold/Heat Blast +11 (Damage 11), Unarmed +15 (Damage 1, Crit. 19-20)",
+    "defesas": "Dodge 15, Parry 15, Fortitude 8, Toughness 6/3, Will 8",
+    "pontos_poder": "Abilities 52 + Powers 46 + Advantages 14 + Skills 21 + Defenses 32 = 165",
+    "complicacoes": "Nemesis: Arani’s arch-enemy is her psychotic father, the mythological villain Kalki (and to a lesser extent, General Immortus). Obsession : Celsius is fanatical in her desire to restore the Chief and then prove her prior relationship with him."
+  }
+}

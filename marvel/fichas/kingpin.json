@@ -1,0 +1,104 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Kingpin",
+  "nome_pt": "Rei do Crime",
+  "nivel_poder": 8,
+  "pontos_poder_origem": 150,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 48
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 7,
+      "Vig": 7,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 7,
+      "Int": 3,
+      "Pro": 3,
+      "Pre": 3
+    },
+    "defesas": {
+      "Esquiva": 7,
+      "Aparar": 7,
+      "Fortitude": 9,
+      "Resistencia": 9,
+      "Vontade": 7
+    },
+    "pericias": {
+      "Enganação": 12,
+      "Persuasão": 12,
+      "Investigação": 12,
+      "Intimidação": 12,
+      "Especialidade: Negócios": 10,
+      "Especialidade: Civismo": 10,
+      "Especialidade: Atualidades": 8,
+      "Percepção": 8,
+      "Intuição": 8,
+      "Combate Corpo-a-Corpo: Bengala": 1,
+      "Combate Corpo-a-Corpo: Desarmado": 1
+    },
+    "vantagens": [
+      "Accurate Attack",
+      "Benefit: Wealth 3",
+      "Connected",
+      "Contacts",
+      "Defensive Attack",
+      "Equipment 7",
+      "Inspire",
+      "Fast Grab",
+      "Improved Hold",
+      "Improved Trip",
+      "Minion 16",
+      "Skill Mastery: Deception, Persuasion, Investigation, Intimidation",
+      "Takedown"
+    ],
+    "poderes": [],
+    "equipamento": [
+      "Bengala (+1 Damage; Mighty; 2 EP)",
+      "Colete discreto (+2 Toughness; 4 EP)",
+      "Alfinete de gravata (Fatigue 6; 12 EP)",
+      "Arranha-céu (Large; Toughness 15; Communications, Computer, Defense System, Fire Prevention, Gym, Hangar, Infirmary, Laboratory, Library, Living Space, Power System, Security System, Workshop; 17 EP)"
+    ],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Bengala",
+        "bonus": 8,
+        "dano": 8
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "dano": 7
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 16,
+      "esquiva_mais_resistencia": 16,
+      "aparar_mais_resistencia": 16,
+      "fortitude_mais_vontade": 16,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 68,
+    "defesas": 30,
+    "pericias": 47,
+    "vantagens": 39,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 184,
+    "poderes_pendentes": false,
+    "total": null
+  },
+  "notas_conversao": [
+    "Master Plan foi convertido em Inspire 1; Improved Pin virou Improved Hold e Improved Grapple virou Fast Grab.",
+    "Defense 17 dá Dodge/Parry 7. Toughness 9 + Dodge/Parry 7 é 16, mas Fortitude 9 + Will 9 ultrapassa o limite 16 de NP 8; Vontade foi ajustada para 7.",
+    "A fonte não lista poderes; os itens especiais permanecem em equipamento, sem convertê-los em poderes separados.",
+    "Vontade foi ajustada de 9 para 7 para cumprir Fortitude + Vontade ≤ 16 (NP 8)."
+  ]
+}

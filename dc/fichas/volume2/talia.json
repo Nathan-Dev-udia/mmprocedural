@@ -1,0 +1,29 @@
+{
+  "nome": "Talia",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 8,
+  "pontos_poder_publicados": 160,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 128
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "3",
+      "AGL": "4",
+      "DEX": "4",
+      "FGT": "10",
+      "INT": "5",
+      "AWE": "2",
+      "PRE": "4"
+    },
+    "equipamento": "Light Pistol (Ranged Damage 3), 9 points of other equipment",
+    "vantagens": "Accurate Attack, Assessment, Attractive, Benefit 5 (The Demon’s Daughter), Connected, Contacts, Defensive Attack, Defensive Roll 3, Equipment 3, Improved Defense, Improved Initiative, Inspire, Precise Attack (Ranged; Cover), Quick Draw, Ranged Attack 4, Takedown, Well-informed",
+    "pericias": "Acrobatics 8 (+12), Athletics 8 (+10), Close Combat: Unarmed 2 (+12), Deception 8 (+12), Expertise: Criminal 8 (+13), Insight 6 (+8), Intimidation 6 (+10), Investigation 8 (+13), Perception 8 (+10), Persuasion 6 (+10), Ranged Combat: Guns 4 (+8), Sleight of Hand 4 (+8), Stealth 6 (+10), Technology 4 (+9), Treatment 4 (+9), Vehicles 4 (+8)",
+    "ataques": "Initiative +8, Pistol +12 (Ranged, Damage 3), Unarmed +12 (Close, Damage 2)",
+    "defesas": "Dodge 10, Parry 10, Fortitude 7, Toughness 6/3*, Will 9 *Without Defensive Roll",
+    "pontos_poder": "Abilities 68 + Powers 0 + Advantages 28 + Skills 47 + Defenses 17 = Total 160",
+    "complicacoes": "Conflicted Loyalties: Talia is in love with Batman, but loyal to her father."
+  }
+}

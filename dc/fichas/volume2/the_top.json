@@ -1,0 +1,29 @@
+{
+  "nome": "The Top",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 158,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 148
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "2",
+      "AGL": "3",
+      "DEX": "2",
+      "FGT": "4",
+      "INT": "2",
+      "AWE": "3",
+      "PRE": "2"
+    },
+    "poderes": "Concealed t ops (Array (32 points), Removable (–8 points): Streamer t op (R anged Affliction 8 (Resisted by Dodge; Hindered and Vulnerable, Defenseless and Immobile), Cloud Area, Cumulative, Extra Condition, Limited Degree); ae : Blacklight t op (Concealment 4 (All Visual), Attack, Cone Area); ae : Blinding t op (Affliction 10 (Resisted by Fortitude; Visually Impaired, Visually Disabled, Visually Unaware), Cumulative, Perception Area (Visual)); ae : Bola t ops (Ranged Affliction 10 (Resisted by Dodge; Hindered and Vulnerable, Defenseless and Immobile), Cumulative, Extra Condition, Limited Degree); ae : e lec tro- t op (Ranged Damage 10, Resisted by Fortitude); ae : f lamethr ower t op (Ranged Damage 10, Cloud Area); ae : Gas t op (Ranged Affliction 8 (Resisted by Fortitude; Dazed, Stunned, Incapacitated) Cloud Area 2 (30 feet), Cumulative); ae : Glue t op (Ranged Affliction 6 (Resisted by Dodge; Hindered and Vulnerable, Defenseless and Immobile), Burst Area, Cumulative, Extra Condition, Sustained Duration, Limited Degree); ae : Grenade t op (Ranged Damage 10, Burst Area); ae : Soundwave t op (Ranged Damage 10, Sustained Duration); ae : t ornado t op (Move Object 10, Cone Area, Sustained Duration, Limited Direction (repulsion)); i mmor tality 6 (Recently dead or brain-dead body nearby); Spinning (Enhanced Advantage 11 (Defensive Roll 4, Fascinate (Deception), Improved Initiative 6), Enhanced Defenses 20 (Dodge 10, Parry 10), Enhanced Intellect 3, Senses 1 (Radius Vision), Limited: Must Remain Immobile While Spinning))",
+    "vantagens": "Agile Feint, Defensive Roll 4 , Evasion, Fascinate (Deception) , Improved Initiative 6 , Improvised Tools, Inventor",
+    "pericias": "Acrobatics 6 (+9), Athletics 4 (+6), Close Combat: Unarmed 4 (+8), Deception 4 (+6), Expertise: Criminal 4 (+6), Expertise: Science 6 (+8), Expertise: Tops 8 (+10), Intimidation 4 (+6), Persuasion 3 (+5), Ranged Combat: Tops 8 (+10), Sleight of Hand 4 (+6), Stealth 4 (+7), Technology 7 (+9)",
+    "ataques": "Initiative +27, Concealed Tops +10 (Ranged Damage 10, various), Unarmed +8 (Close, Damage 2)",
+    "defesas": "Dodge 14/4, Parry 14/4, Fortitude 9, Toughness 6/2*, Will 11 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 40 + Powers 65 + Advantages 4 + Skills 33 + Defenses 16 = 158",
+    "complicacoes": "Greed: Money made the Top go ’round. r elationship: Dillon’s girlfriend was Lisa (the Golden Glider) Snart. Recently, Dillon returned in possession of vice-presidential candidate Thomas O’Neill, but was exposed by the third Flash. Flash III later enlisted Zatanna to re-balance Dillon’s mind, prompting the Top to restore the Rogues to their vil- lainous selves. Before his plan came to full fruition, the Top was killed by a vengeful Captain Cold."
+  }
+}

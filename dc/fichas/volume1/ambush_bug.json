@@ -1,0 +1,30 @@
+{
+  "nome": "Ambush Bug",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 165,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 19
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "0",
+      "STA": "0",
+      "AGL": "1",
+      "DEX": "0",
+      "FGT": "-1",
+      "INT": "1",
+      "AWE": "3",
+      "PRE": "5"
+    },
+    "poderes": "But Under the Green Suit I Bruise Like a Peach!: Protection 10, Subtle • 11 points Deputy Continuity Cop: Senses 1 (Continuity Awareness) • 1 point POP!: Teleportation 19 (2,000 Miles), Accurate, Change Direction, Change Velocity • 59 points • And Y ou’re Coming With Me!: Teleport 13 (30 miles), Accurate, Change Direction, Change Velocity, Affects Others, Attack (Parry), Quirk--Must teleport with target of attack, Increased Mass 6 (3,200 lbs.) • 1 point Popping Over to Earth-C: Movement 3 (Dimension Travel) • 6 points That’s Not in My Contract : Luck Control 1 (Negate use of Luck or GM-imposed complication) • 3 points",
+    "equipamento": "50 feet of silk rope, Copy of DC A Dventures H ero’s H AnDbook , Turkey club sandwich",
+    "vantagens": "Benefit 4 (Cipher), Evasion, Improved Initiative 2, Improvised Weapon 2, Luck 5, Redirect, Seize Initiative, Sidekick 1 (Cheeks), Taunt, Well-informed",
+    "pericias": "Acrobatics 6 (+7), Close Combat: Unarmed 1 (+0), Deception 8 (+13), Expertise: DC Comics 17 (+18), Insight 5 (+8), Investigation 4 (+5), Perception 11 (+13), Persuasion 8 (+13)",
+    "ataques": "Initiative +9 Cheeks +0 Close, Damage 1 (Improvised Weapon)",
+    "defesas": "Dodge 8 Fortitude 3 Parry 6 Toughness 10 Will 4",
+    "pontos_poder": "Abilities 18 Skills 30 Powers 81 Defenses 17 Advantages 19 ToTal 165",
+    "complicacoes": "In a Game: Bad enough that I’ve had to deal with agents and comic editors determining my fate. Now I have to trust what happens to dice? Out of Milk: Not much of a complication, you say? You try getting down to the corner bodega to pick up a pint at your next game session without the Fearsome Five or the Legion of Super-Pets tearing the place up."
+  }
+}

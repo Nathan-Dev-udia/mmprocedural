@@ -1,0 +1,29 @@
+{
+  "nome": "The Key",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 275,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 305
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "3",
+      "AGL": "8",
+      "DEX": "3",
+      "FGT": "4",
+      "INT": "10",
+      "AWE": "4",
+      "PRE": "5"
+    },
+    "poderes": "Key Blaster: Ranged Damage 10, Easily Removable (-8 points) • 12 points Psycho-Virus: Ranged Affliction 10 (Resisted by Will; Dazed, Compelled, Immobilized), Linked: Illusion 7 (All Senses), Independent, Limited to One subject, Reduced Range (Ranged) • 48 points Psychochemical Effects: Enhanced Advantage 1 (Assessment), Enhanced Intelligence 4, Enhanced Skill 40 (Deception +10, Perception +10, Sleight of Hand +10, Stealth +10) • 29 points Accelerated Acuity: Quickness 14, Limited to Mental Tasks • 14 points Eleven Senses: Senses 30 (Analytical (Hearing, Visual, Tactile), Awareness (Dimensional, Mental, Temporal), Counters Concealment (All), Counters Illusion (Hearing, Visual), Danger Sense, Darkvision, Microscopic Vision 3, Penetrates Concealment (Visual), Radius (Visual), Time Sense, Ultra- Hearing) • 30 points",
+    "vantagens": "Agile Feint, Assessment, Defensive Attack, Evasion, Fearless, Improved Initiative, Jack-of-All Trades, Luck 4, Precise Attack 4 (Close, Ranged; Cover and Concealment), Redirect, Uncanny Dodge",
+    "pericias": "Acrobatics 4 (+12), Close Combat: Unarmed 7 (+11), Deception 10 (+14) , Insight 7 (+11), Perception 11 (+21 ), Ranged Combat: Key Blaster 9 (+12), Sleight of Hand 18 (+21) , Stealth 12 (+20)",
+    "ataques": "Initiative +12 Unarmed +11 Close, Damage 3 Key Blaster +12 Ranged, Damage 10",
+    "defesas": "Dodge 18 Fortitude 10 Parry 16 Toughness 3 Will 10",
+    "pontos_poder": "Abilities 72 Skills 19 Powers 133 Defenses 35 Advantages 16 ToTal 275",
+    "complicacoes": "Unlocked: Meditation and psychochemicals of the Key’s own design have unlocked the incredible potential of his brain— but his power isn’t always controllable, and he is sometimes overwhelmed when his mind opens to the thoughts of everyone for incredible distances."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "nome": "Harbinger",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 243,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 248
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "0",
+      "STA": "3",
+      "AGL": "3",
+      "DEX": "4",
+      "FGT": "2",
+      "INT": "3",
+      "AWE": "8",
+      "PRE": "3"
+    },
+    "poderes": "but (like the original Monitor) can still be cut down by the betrayal of a trusted ally if the story calls for it.",
+    "vantagens": "Assessment, Defensive Roll 3, Eidetic Memory, Languages 3, Teamwork, Well-informed",
+    "pericias": "Athletics 2 (+3), Expertise: History 12 (+15), Expertise: Multiverse 12 (+15), Insight 4 (+12), Investigation 5 (+8), Perception 5 (+13), Persuasion 4 (+7), Ranged Combat: Energy Blast 6 (+10), Technology 8 (+11), Treatment 4 (+7)",
+    "ataques": "Initiative +3 Energy Blast +10 Ranged, Damage 10 Unarmed +2 Close, Damage 0",
+    "defesas": "Dodge 14 Fortitude 8 Parry 10 Toughness 6/3* Will 10 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 52 Skills 31 Powers 124 Defenses 26 Advantages 10 ToTal 243",
+    "complicacoes": "Relationship: Harbinger was fiercely devoted to the Monitor. She was good friends with Supergirl. zons. POWERS & ABILITIES Harbinger is able to fly, project energy blasts, and self-dupli - cate. She also possesses vast knowledge of the multiverse. She augments this with use of the Universe Orb (see sidebar). ALLIES Harbinger was devoted to the first Monitor. Later she transferred this love and caring to the Amazons of Themyscira. Shortly be - fore her death, she became close friends with Supergirl. ENEMIES Harbinger opposed the Anti-Monitor and all his plans and agents."
+  }
+}

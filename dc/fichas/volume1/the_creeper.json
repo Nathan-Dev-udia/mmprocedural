@@ -1,0 +1,29 @@
+{
+  "nome": "The Creeper",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 174,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 133
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "7",
+      "STA": "7",
+      "AGL": "7",
+      "DEX": "5",
+      "FGT": "7",
+      "INT": "2",
+      "AWE": "2",
+      "PRE": "4"
+    },
+    "poderes": "Cellular Regeneration: Regeneration 10 • 10 points Creep: Leaping 5, Movement 6 (Safe Fall, Sure-Footed 2, Swinging, Wall-crawling 2) • 17 point Nanocell Transformation Feature 1 (Transform instantly from Ryder to the Creeper) • 1 point Terrifying Laughter: Perception Area (Auditory) Affliction 7 (Resisted by Will; Impaired, Immobile, Paralyzed), Selective • 21 points",
+    "vantagens": "Agile Feint, Defensive Roll 2, Improved Initiative, Improved Trip, Move-by Action, Startle, Taunt",
+    "pericias": "Acrobatics 6 (+13), Athletics 3 (+10), Close Combat: Unarmed 4 (+11), Deception 5 (+9), Intimidation 6 (+10), Investigation 5 (+7), Perception 7 (+9), Sleight of Hand 4 (+9), Stealth 4 (+11)",
+    "ataques": "Initiative +11 Unarmed +11 Close, Damage 7 Terrifying Laughter— Perception Area, Affliction 7, Resisted by Will, Selective",
+    "defesas": "Dodge 11 Fortitude 7 Parry 11 Toughness 7 Will 7",
+    "pontos_poder": "Abilities 82 Skills 22 Powers 49 Defenses 13 Advantages 8 ToTal 174",
+    "complicacoes": "Split Personality: The Creeper and Jack Ryder are two minds sharing the same body, but are often at odds with one another: the Creeper complains that Ryder holds him back, while Ryder is concerned that the Creeper might be driving him insane. Hunted: To distract those coming close to discovering the connection between Jack Ryder and the Creeper, Jack Ryder announced on his television show not only that he disapproved of vigilantes, but also offered a million dollar reward to whoever brings the Creeper to justice."
+  }
+}

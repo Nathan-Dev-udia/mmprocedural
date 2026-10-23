@@ -1,0 +1,29 @@
+{
+  "nome": "Saturn Girl",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 181,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 160
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "0",
+      "STA": "1",
+      "AGL": "3",
+      "DEX": "2",
+      "FGT": "3",
+      "INT": "5",
+      "AWE": "5",
+      "PRE": "5"
+    },
+    "poderes": "Mental d efenses: Impervious Will 10 • 10 points M ental Senses: Senses 7 (Detect Minds, Ranged, Acute, Extended 3; Mental Awareness) • 7 points t elek inesis: Perception Ranged Move Object 1, Subtle • 4 points t elepa thy: Array (38 points) • Mind r eading: Mental Communication 4, Mind Reading 11 • 38 points • Mind Blast: Perception Ranged Affliction 11 (Resisted by Will; Dazed, Stunned, Incapacitated), Subtle • 1 point",
+    "equipamento": "f ligh t r ing: Communication 5 (subspace radio, Anywhere, Limited to Distress Signal –3); Flight 7 (250 MPH) • 19 points t elepa thic Plug: Comprehend 3 (Languages; Speak, Understand, Understood), Mental Communication 1 (100 feet) • 10 points t r anssuit: Immunity 9 (Life Support, except for starvation and thirst) • 9 points",
+    "vantagens": "Benefit 1 (Legion membership), Defensive Roll 4, Equipment 8, Teamwork, Trance, Ultimate Effort (Will checks)",
+    "pericias": "Acrobatics 6 (+9), Athletics 4 (+4), Close Combat: Unarmed 6 (+9), Insight 12 (+17), Intimidation 4 (+9), Investigation 4 (+9), Perception 8 (+13), Persuasion 4 (+9), Vehicles 2 (+4)",
+    "ataques": "i nitia tive +3 Mind Blast — Perception, Affliction 11, Resisted by Will (DC 21) Unarmed +9 Close, Damage 0",
+    "defesas": "d odge 11 f or titude 7 Parry 11 t oughness 5/1* W ill 15 *Without Defensive Roll.",
+    "pontos_poder": "a bilities 48 S kills 25 Powers 60 d efenses 32 a dv antages 16 ToTal 181"
+  }
+}

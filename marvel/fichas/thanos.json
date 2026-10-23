@@ -1,0 +1,147 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Thanos",
+  "nome_pt": "Thanos",
+  "nivel_poder": 19,
+  "pontos_poder_origem": 330,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 103
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 22,
+      "Vig": 20,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 15,
+      "Int": 10,
+      "Pro": 4,
+      "Pre": 3
+    },
+    "defesas": {
+      "Esquiva": 15,
+      "Aparar": 15,
+      "Fortitude": 18,
+      "Resistencia": 23,
+      "Vontade": 20
+    },
+    "pericias": {
+      "Enganação": 8,
+      "Persuasão": 8,
+      "Intimidação": 12,
+      "Especialidade: Conhecimento Arcano": 12,
+      "Especialidade: Tecnologia": 12,
+      "Percepção": 8,
+      "Intuição": 8,
+      "Combate a Distância: Cosmic Blast": 8
+    },
+    "vantagens": [
+      "Close Attack 5",
+      "Fascinate [Intimidate]",
+      "Fearless",
+      "Inspire",
+      "Inventor",
+      "Jack of All Trades"
+    ],
+    "poderes": [
+      {
+        "nome": "Cosmic Energy Control",
+        "construcao_3e": "Damage à distância (array) (rank 2e 12); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Cosmic Energy Control 12 (Extras: Penetrating [+1]; Alternate Powers: Teleport; 37pp) Componentes/efeitos alternativos mapeados: Teleport → Teleport.; custo 2e impresso 37 PP.",
+        "custo_2e_pp": 37,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Immunity",
+        "construcao_3e": "Immunity (rank 2e 10); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Immunity 10 (Life Support, and Age; 10pp); custo 2e impresso 10 PP.",
+        "custo_2e_pp": 10,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Impervious Toughness",
+        "construcao_3e": "Protection with Impervious (rank 2e 10); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Impervious Toughness 10 (10pp); custo 2e impresso 10 PP.",
+        "custo_2e_pp": 10,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Protection",
+        "construcao_3e": "Protection (rank 2e 3); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Protection 3 (Extras: Impervious [+1]; 6pp); custo 2e impresso 6 PP.",
+        "custo_2e_pp": 6,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Regeneration",
+        "construcao_3e": "Regeneration (Resurrection → Immortality) (rank 2e 10); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Regeneration 10 (Resurrection 10; 10pp); custo 2e impresso 10 PP.",
+        "custo_2e_pp": 10,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Super Movement",
+        "construcao_3e": "Movement (rank 2e 3); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Movement 3 (Dimensional Travel [3); 6pp); custo 2e impresso 6 PP.",
+        "custo_2e_pp": 6,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Super Senses",
+        "construcao_3e": "Sentidos (rank 2e 6); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Senses 6 (Extended [5] Detect cosmic Energy; 6pp); custo 2e impresso 6 PP.",
+        "custo_2e_pp": 6,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Super Strength",
+        "construcao_3e": "Power-Lifting / Enhanced Strength (rank 2e 13); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Strength 13 (26pp); custo 2e impresso 26 PP.",
+        "custo_2e_pp": 26,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [],
+    "complicacoes": [
+      "Perda de poder indicada na fonte: Power Loss [Regeneration; If Death can be convinced to revoke immortality; Uncommon Occurrence, Minor Intensity; 1pp]"
+    ],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 20,
+        "dano": 18
+      },
+      {
+        "nome": "Rajada Cósmica",
+        "bonus": 10,
+        "dano": 12
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 38,
+      "esquiva_mais_resistencia": 38,
+      "aparar_mais_resistencia": 38,
+      "fortitude_mais_vontade": 38,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 156,
+    "defesas": 91,
+    "pericias": 76,
+    "vantagens": 10,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 333,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
+    "Perícias foram convertidas subtraindo do bônus total impresso o atributo 3e correspondente. Conhecimentos, Ofícios e Profissões foram mantidos como Especialidades; Condução/Pilotagem como Veículos; Sobrevivência como Especialidade: Sobrevivência; Computadores como Tecnologia.",
+    "Poderes preservam os descritores, ranks, modificadores e custos 2e impressos; o guia orienta o efeito 3e equivalente. Custos 3e ficam nulos quando a construção exata ou os modificadores não permitem cálculo seguro.",
+    "Nenhuma Motivação ou complicação não publicada foi acrescentada.",
+    "Vantagens sem equivalente direto foram removidas conforme o guia; não foram recriadas como poderes: Fearsome Presence (8.); Sneak Attack.",
+    "Attack Focus foi convertido em graduações de Close Attack/Ranged Attack, conforme o tipo impresso.",
+    "Dodge Focus 5 foi convertido em ranks de Esquiva: base 15 + 5 = 20; valor final 15.",
+    "Defesas reduzidas por limite de NP 19: Esquiva 20→15 e Aparar 15→15; cada defesa ativa + Resistência 23 ≤ 38.",
+    "Fortitude ajustada de 20 para 18 para respeitar Fortitude + Vontade ≤ 38.",
+    "Unarmed: efeito ajustado de 22 para 18 para cumprir Ataque + efeito ≤ 38.",
+    "Subtotal 3e conhecido: 156 PP em habilidades, 76 em perícias, 91 em defesas, 10 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto."
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Cannonball",
+  "nome_pt": "Cannonball",
+  "nivel_poder": 10,
+  "pontos_poder_origem": 150,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 15
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 10,
+      "Int": 2,
+      "Pro": 4,
+      "Pre": 3
+    },
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 8,
+      "Fortitude": 4,
+      "Resistencia": 12,
+      "Vontade": 10
+    },
+    "pericias": {
+      "Persuasão": 8,
+      "Investigação": 5,
+      "Especialidade: Animais": 9,
+      "Especialidade: Ciências da Terra": 8,
+      "Percepção": 8,
+      "Especialidade: Minerador": 6,
+      "Intuição": 8,
+      "Furtividade": 4,
+      "Especialidade: Sobrevivência": 10,
+      "Combate à Distância: Ataques gerais": 8
+    },
+    "vantagens": [
+      "All-out Attack",
+      "Defensive Attack",
+      "Die Hard",
+      "Favored Environment (Airborne) 4",
+      "Improved Initiative 2",
+      "Improved Trip",
+      "Inspire 2",
+      "Leadership",
+      "Luck",
+      "Move-by Action",
+      "Power Attack",
+      "Teamwork 2"
+    ],
+    "poderes": [
+      {
+        "nome": "Flight / Strike",
+        "construcao_3e": "Flight 12 (Dynamic; Alternate Effect: Strength-based Damage with Penetrating; rank not legible in the source).",
+        "custo_2e_pp": 27,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Force Field",
+        "construcao_3e": "Protection 10, Impervious 12, Limited to while in flight.",
+        "custo_2e_pp": 12,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [],
+    "complicacoes": [],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "dano": 2
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 12,
+      "esquiva_mais_resistencia": 20,
+      "aparar_mais_resistencia": 20,
+      "fortitude_mais_vontade": 14,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 54,
+    "defesas": 14,
+    "pericias": 37.0,
+    "vantagens": null,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 105.0,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Fast Overrun e Improved Overrun foram removidas (a manobra não existe na 3e); Move-by Action foi mantida como substituição. A fonte não declara motivação ou outra complicação.",
+    "Defesas ajustadas para Esquiva 8 e Aparar 8, respeitando os limites de NP 10 com Resistência 12.",
+    "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias e apenas os custos de poderes confirmados; não inclui vantagens nem custos incertos."
+  ]
+}

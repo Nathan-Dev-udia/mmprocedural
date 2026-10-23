@@ -1,0 +1,29 @@
+{
+  "nome": "Psimon",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 180,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 200
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "3",
+      "AGL": "1",
+      "DEX": "2",
+      "FGT": "1",
+      "INT": "7",
+      "AWE": "4",
+      "PRE": "7"
+    },
+    "poderes": "Telepath ( Array (44 points), Mental Domination ( Perception Range Cumulative Affliction 11 (Resisted by Will; Dazed, Compelled, Controlled)), AE: Illusory Disguise ( Burst Area Affects Others Selective Morph 3 (Humanoids), Resistible), AE: Mental Probe ( Mind Reading 11, Cumulative), AE: Mental Projection ( Illusion 11 (Visual, Hearing), Resistible, Selective)); Telekinetic (Array (24 points), Telekinetic Blast ( Perception Range Damage 8), AE: Telekinetic Toss ( Perception Range Move Object 8 (6 tons)); Telekinetic Shield (Protection 5, Sustained)",
+    "vantagens": "Daze (Intimidation), Leadership, Redirect, Seize Initiative, Set-up, Taunt",
+    "pericias": "Deception 8 (+15), Expertise: Physics 4 (+11), Insight 8 (+12), Intimidation 8 (+15), Perception 4 (+8)",
+    "ataques": "Initiative +1, Telekinetic Blast—(Perception Range, Damage 12), Telepath—(Perception Range, Affliction 11, Resisted by Will, or other effects)",
+    "defesas": "Dodge 10, Parry 8, Fortitude 6, Toughness 8, Will 14",
+    "pontos_poder": "Abilities 52 + Powers 77 + Advantages 6 + Skills 16 + Defenses 29 = 180",
+    "complicacoes": "Destroyer: The demon Trigon the Terrible (See Vol. II ) is responsible for Psimon’s existence and he tasked Psimon with the destruction of the Earth. Psimon is still trying to meet that goal. Egotist: Psimon is out for himself. He works with his team as long as they prove useful, but he’s more than willing to abandon them (or worse) if it will help his cause."
+  }
+}

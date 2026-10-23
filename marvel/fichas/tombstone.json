@@ -1,0 +1,113 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Tombstone",
+  "nome_pt": "Tombstone",
+  "nivel_poder": 9,
+  "pontos_poder_origem": 120,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 107
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 9,
+      "Vig": 9,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 9,
+      "Int": 0,
+      "Pro": 1,
+      "Pre": 2
+    },
+    "defesas": {
+      "Esquiva": 9,
+      "Aparar": 9,
+      "Fortitude": 10,
+      "Resistencia": 9,
+      "Vontade": 6
+    },
+    "pericias": {
+      "Enganação": 8,
+      "Investigação": 14,
+      "Intimidação": 14,
+      "Especialidade: Cultura das Ruas": 8,
+      "Percepção": 8,
+      "Intuição": 6,
+      "Furtividade": 8,
+      "Combate a Distância: Pistol": 8
+    },
+    "vantagens": [
+      "All-Out Attack",
+      "Contacts",
+      "Defensive Attack",
+      "Daze [Intimidate]",
+      "Equipment 2",
+      "Improved Defense",
+      "Power Attack",
+      "Startle",
+      "Takedown",
+      "Ultimate Effort (Ultimate Intimidate Check)"
+    ],
+    "poderes": [
+      {
+        "nome": "Enhanced Strength",
+        "construcao_3e": "Enhanced Trait: Força (rank 2e 12); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Enhanced Strength 12 (12pp); custo 2e impresso 12 PP.",
+        "custo_2e_pp": 12,
+        "custo_3e_pp": null
+      },
+      {
+        "nome": "Enhanced Constitution",
+        "construcao_3e": "Enhanced Trait: Vigor (rank 2e 12); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Enhanced Constitution 12 (12pp); custo 2e impresso 12 PP.",
+        "custo_2e_pp": 12,
+        "custo_3e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Heavy Pistol (+4 Damage; 8ep)"
+    ],
+    "complicacoes": [
+      "Fraqueza indicada na fonte: Weakness [Sunlight; Common Occurrence, Minor Intensity; 2pp)"
+    ],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 9,
+        "dano": 9
+      },
+      {
+        "nome": "Pistola",
+        "bonus": 9,
+        "dano": 5
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 18,
+      "esquiva_mais_resistencia": 18,
+      "aparar_mais_resistencia": 18,
+      "fortitude_mais_vontade": 16,
+      "legal": true
+    }
+  },
+  "custos_3e": {
+    "habilidades": 64,
+    "defesas": 43,
+    "pericias": 74,
+    "vantagens": 11,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 192,
+    "poderes_pendentes": true,
+    "total": null
+  },
+  "notas_conversao": [
+    "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
+    "Perícias foram convertidas subtraindo do bônus total impresso o atributo 3e correspondente. Conhecimentos, Ofícios e Profissões foram mantidos como Especialidades; Condução/Pilotagem como Veículos; Sobrevivência como Especialidade: Sobrevivência; Computadores como Tecnologia.",
+    "Poderes preservam os descritores, ranks, modificadores e custos 2e impressos; o guia orienta o efeito 3e equivalente. Custos 3e ficam nulos quando a construção exata ou os modificadores não permitem cálculo seguro.",
+    "Nenhuma Motivação ou complicação não publicada foi acrescentada.",
+    "A fonte atribui 2 rank(s) de Equipment (10 EP), mas os itens listados somam 8 EP; valores preservados sem correção.",
+    "Vantagens sem equivalente direto foram removidas conforme o guia; não foram recriadas como poderes: Elusive Target; Fearsome Presence.",
+    "Subtotal 3e conhecido: 64 PP em habilidades, 74 em perícias, 43 em defesas, 11 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "nome": "Nightshade",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 81
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "2",
+      "AGL": "3",
+      "DEX": "3",
+      "FGT": "4",
+      "INT": "1",
+      "AWE": "2",
+      "PRE": "2"
+    },
+    "poderes": "d arksight: Senses 2 (Darkvision); Feature 1 (can see through her o wn shadow effects) • 3 points f ligh t: Flight 1 (4 MPH) • 2 points Shadow f orm: Insubstantial 2 (two-dimensional shadow), Activation (Move action) • 9 points Umbrakinesis: Magic Array (36 points) • Shadow Warp: Teleport 7, Accurate, Easy, Extended (120 miles), Portal, Limited to Extended • 36 points • Black t endrils: Damage 14 (solid shadow), Penetrating 5, Reach 5, Split 2, Unreliable, Side Effect (Become Uncontrolled), Affects Only Objects (4 ranks only, -4 points) • 1 point • d imensional P ortal: Movement 2 (Dimensional Travel 2, Mystical Dimensions), Affects Others, Reach 2 (10 feet); Feature (Access to The Oblivion Bar and the Land of Nightshades) • 1 point • Shadow Bolts: Ranged Burst Area Damage 10 • 1 point • Shadow Constructs: Create 10 (solid shadows), Impervious, Movable, Stationary, Concentration, Distracting • 1 point • Shadow f Ranged Area Burst 4 (250 feet) ields: Concealment Attack 4 (All Visual Senses; Resisted by Dodge), Selective • 1 point • Shadow Homunculi: Summon 10 (animated shadows, 150 points), Active, Multiple Minions 2 (4 minions), Concentration, Distracting • 1 point",
+    "vantagens": "Assessment, Contacts, Close Attack 2, Defensive Attack, Defensive Roll 4, Improved Defense, Improved Initiative, Improved Trip, Move-by Action, Power Attack, Prone Fighting",
+    "pericias": "Acrobatics 5 (+8), Close Combat: Unarmed 4 (+8), Deception 6 (+8), Expertise: Espionage 5 (+6), Expertise: Mystic Dimensions 7 (+8), Insight 4 (+6), Intimidation 6 (+8), Investigation 6 (+7), Perception 6 (+8), Persuasion 4 (+6), Ranged Combat: Umbrakinesis 7 (+10), Stealth 10 (+13), Treatment 4 (+5)",
+    "ataques": "i nitia tive +7 Unarmed +10 Close, Damage 1 Shadow Tendril +6 Close, Reach 5 (25 feet), Damage 10 (14 against objects) Shadow Bolts — Ranged, Burst Area, Damage 10 Shadow Fields — Ranged, Burst 4 (250 feet), Concealment",
+    "defesas": "d odge 10 f or titude 8 Parry 10 t oughness 6/2* W ill 10 *Without Defensive Roll Po er Point W S a bilities 36 S kills 37"
+  }
+}

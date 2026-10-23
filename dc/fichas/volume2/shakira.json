@@ -1,0 +1,28 @@
+{
+  "nome": "Shakira",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 8,
+  "pontos_poder_publicados": 157,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 261
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "2",
+      "AGL": "7",
+      "DEX": "4",
+      "FGT": "7",
+      "INT": "0",
+      "AWE": "1",
+      "PRE": "1"
+    },
+    "poderes": "Claws (Strength-Based Damage 2); f eline f orm (Morph 1 (Black Cat), Continuous; Linked Shrinking 6, Continuous); f eline G race (Enhanced Advantages 4 (Agile Feint, Evasion, Skill Mastery (Acrobatics), Skill Mastery (Athletics), Uncanny Dodge), Movement 2 (Safe Fall, Sure-Footed); Leaping 1; Speed 1 (4 MPH)); f eline S enses (Senses 2 (Low-Light Vision, Acute Smell))",
+    "vantagens": "Agile Feint, All-out Attack, Attractive, Defensive Attack, Defensive Roll 2, Evasion , Hide in Plain Sight, Improved Critical (Claws) , Improved Defense, Improved Initiative, Luck 2, Move-by Action, Ranged Attack 1, Skill Mastery (Acrobatics), Skill Mastery (Athletics) , Tracking, Uncanny Dodge",
+    "pericias": "Acrobatics 7 (+14), Athletics 5 (+8), Close Combat: Claws 4 (+11), Close Combat: Swords 1 (+8), Deception 7 (+8), Expertise: Skartaris 5 (+6), Insight 4 (+5), Intimidation 5 (+6), Perception 8 (+9), Persuasion 7 (+8), Sleight of Hand 4 (+8), Stealth 7 (+14)",
+    "ataques": "Initiative +11, Claws +11 (Damage 5, Critical 19-20)",
+    "defesas": "Dodge 12, Parry 12, Fortitude 7, Toughness 4/2*, Will 8 *Without Defensive Roll",
+    "pontos_poder": "Abilities 50 + Powers 39 + Advantages 14 + Skills 32 + Defenses 22 = 157"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "nome": "Zachary Zatara",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 8,
+  "pontos_poder_publicados": 110,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 233
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "0",
+      "STA": "2",
+      "AGL": "2",
+      "DEX": "3",
+      "FGT": "0",
+      "INT": "2",
+      "AWE": "4",
+      "PRE": "2"
+    },
+    "poderes": "Magic a rr ay (24 points): d inb Mih! (Ranged Cumulative Affliction 8 (Resisted by Dodge; Hindered and Vulnerable, Defenseless and Immobile), Extra Condition, Limited Degree), ae : Cigam e k irts! (Ranged Damage 9 (Magic)), ae : e nogeb! (Nullify 9 (Broad: All Magic Effects)), ae : o tserp e gnahc o ! (Ranged Transform 4 (Anything)), ae : r aeppa! (Create 7 (Continuous, Subtle)), ae : Seutats, k c atta! (Ranged Summon 4 (Horde, Multiple Minions (Two 60-point minions), Medium (Statues))), Mystic Senses (Senses 4 (Detect Magic, Ranged, Acute, Analytical))",
+    "vantagens": "Attractive, Extraordinary Effort, Fascinate (Expertise: Performance), Ritualist, Sidekick 2 (Bunny) *, Taunt, Uncanny Dodge",
+    "pericias": "Deception 6 (+8), Expertise: Magic 6 (+8), Expertise (PRE): Performance 6 (+8), Insight 3 (+7), Perception 2 (+6), Ranged Combat: Magic 4 (+7), Sleight of Hand 9 (+12)",
+    "ataques": "Initiative +2, Magic +7 (Ranged, Damage 10 plus others), Unarmed +0 (Close, Damage 0)",
+    "defesas": "Dodge 10, Parry 4, Fortitude 5, Toughness 1, Will 11",
+    "pontos_poder": "Abilities 30 + Powers 33 + Advantages 7 + Skills 18 + Defenses 22 = 110",
+    "complicacoes": "Brat: Zatara has an incredibly high opinion of himself, and rarely views anyone else as an equal, an opinion he is happy to express in plain language. Living t hings , n ot S o Good: Zatara is not yet very proficient with magic involving naturally animate subjects, such as living things. When casting magic to affect such subjects consider his Magic Array to have both the Expertise: Magic Check Required and Unreliable flaws. Power Loss: Zatara needs to speak aloud (and backwards) to cast his spells. Women and Magic d on’t Mix: Zatara’s magic can be influenced by his emotional attachment to others, especially women. Strong feeling of this type effectively impose the Unreliable flaw upon his Magic Array when in the presence of the subject of his affection."
+  }
+}

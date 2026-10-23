@@ -1,0 +1,28 @@
+{
+  "nome": "The Wizard",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": 190,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 283
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "0",
+      "STA": "2",
+      "AGL": "1",
+      "DEX": "2",
+      "FGT": "5",
+      "INT": "4",
+      "AWE": "4",
+      "PRE": "4"
+    },
+    "poderes": "Astral Projection (Remote Sensing 10 (visual, auditory, mental), physical body is defenseless, Subtle 2); Immunity 2 (Aging, Disease); Magical Powers (Array (48 points), Mind Control 12 , AE: Illusion 12 (All Senses); Mystic Senses (Magical Awareness, Radius)",
+    "vantagens": "Daze (Deception), Fascinate, Languages 3 (several Asian and dead languages), Luck 2, Ritualist, Taunt",
+    "pericias": "Deception 10 (+14), Expertise: Magic 8 (+12), Insight 8 (+12), Perception 8 (+12), Persuasion 6 (+10), Sleight of Hand 8 (+10), Stealth 4 (+5)",
+    "ataques": "Initiative +1, Illusion—(Perception Range, Illusion 12), Mind Control—(Perception Range, Mind Control 12), Unarmed +5 (Damage 0)",
+    "defesas": "Dodge 9, Parry 9, Fortitude 6, Toughness 2, Will 14",
+    "pontos_poder": "Abilities 44 + Powers 85 + Advantages 9 + Skills 26 + Defenses 26 = 190"
+  }
+}

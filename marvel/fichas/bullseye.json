@@ -1,0 +1,101 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Bullseye",
+  "nome_pt": "Mercenário",
+  "nivel_poder": 9,
+  "pontos_poder_origem": 135,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 13
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 3,
+      "Agi": 4,
+      "Des": 4,
+      "Lut": 8,
+      "Int": 1,
+      "Pro": 0,
+      "Pre": 2
+    },
+    "defesas": {
+      "Esquiva": 12,
+      "Aparar": 10,
+      "Fortitude": 8,
+      "Resistencia": 6,
+      "Vontade": 4
+    },
+    "pericias": {
+      "Enganacao": 12,
+      "Atletismo": 8,
+      "Tecnologia": 8,
+      "Veículos": 10,
+      "Intimidacao": 10,
+      "Percepcao": 12,
+      "Especialidade: Mercenario": 4,
+      "Intuicao": 10,
+      "Prestidigitacao": 12,
+      "Furtividade": 12,
+      "Combate a Distancia: Armas arremessadas": 4
+    },
+    "vantagens": [
+      "Accurate Attack",
+      "Assessment",
+      "Ranged Attack 3",
+      "Defensive Attack",
+      "Daze (Bluff)",
+      "Improved Aim",
+      "Improved Critical (Thrown) 5",
+      "Improved Initiative 2",
+      "Power Attack",
+      "Precise Attack (Ranged, Cover) 2",
+      "Quick Draw",
+      "Skill Mastery (Deception, Perception, Insight, Stealth)",
+      "Taunt",
+      "Throwing Mastery 7"
+    ],
+    "poderes": [
+      {
+        "nome": "Protection",
+        "construcao_3e": "Protection 3, Innate.",
+        "custo_2e_pp": 4
+      }
+    ],
+    "equipamento": [
+      "Shuriken (+1 Damage; Autofire; 3 EP)"
+    ],
+    "complicacoes": [
+      "Vulnerabilidade a poderes magneticos; ocorrencia incomum, intensidade maior.",
+      "Weak Point; tipo nao especificado na fonte."
+    ],
+    "ataques": [
+      {
+        "nome": "Armas arremessadas",
+        "bonus": 11,
+        "dano": 7
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "dano": 2
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 18,
+      "esquiva_mais_resistencia": 18,
+      "aparar_mais_resistencia": 16,
+      "fortitude_mais_vontade": 12,
+      "legal": true
+    }
+  },
+  "notas_conversao": [
+    "Attack Focus (Ranged) 3 foi convertido em Ranged Attack 3; com Dexterity 4 e Ranged Combat 4, preserva o ataque +11. Dodge Focus 3 foi removido para respeitar os limites defensivos do NP 9.",
+    "Disable Device virou Tecnologia; Profession (Mercenary) virou Especialidade. Ranged Pin nao tem vantagem equivalente; Elusive Target pode ser representada por cobertura circunstancial.",
+    "Throwing Mastery 7 e o dano +7 de armas arremessadas foram mantidos como referencia da fonte; o ataque + dano resultante e 18.",
+    "Bullseye e um nome usualmente associado a outro personagem Marvel; o perfil do PDF e nomeado apenas 'BULLSEYE', sem identidade civil. Por isso o JSON mantem o nome original."
+  ]
+}

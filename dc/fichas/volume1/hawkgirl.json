@@ -1,0 +1,30 @@
+{
+  "nome": "Hawkgirl",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 182,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 254
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "5",
+      "STA": "6",
+      "AGL": "6",
+      "DEX": "6",
+      "FGT": "9",
+      "INT": "4",
+      "AWE": "4",
+      "PRE": "3"
+    },
+    "poderes": "Nth Metal Wing Harness: Removable (-5 points), Indestructible; Enhanced Strength 2, plus Enhanced Strength 2, Limited to lifting and carrying (Lifting Str 7; 3 tons); Flight 7 (250 MPH), Wings; Immunity 3 (Cold, Heat, Pressure); Protection 3; Regeneration 10; Senses 1 (Extended Vision) • 25 points Enhanced Healing: Regeneration 1 • 1 point Hover: Flight 1, Levitation • 1 point Reincarnation: Immortality 1, Reincarnation (May re-distribute power points) • 3 points",
+    "equipamento": "Archaic Weapons Arsenal: Array (4 points) • Spear: Strength-based Damage 3 (Piercing), Improved Critical • 4 points • Claws: Strength-based Damage 2 (Slashing) • 1 point • Mace: Strength-based Damage 3 (Bludgeoning) • 1 point • Sword: Strength-based Damage 3 (Slashing), Improved Critical • 1 point • Warhammer: Strength-based Damage 3 (Bludgeoning) • 1 point Medium Shield: Enhanced Defense 4 (Dodge 2, Parry 2) • 4 points",
+    "vantagens": "Agile Feint, All-out Attack, Beginner’s Luck, Defensive Roll, Equipment 3, Evasion, Favored Environment (Aerial), Improved Critical (Claws), Improved Critical (Mace), Improved Initiative, Instant Up, Jack-of-all-trades, Languages 2 (Ancient Egyptian, German), Move-by Action, Power Attack, Takedown 2, Teamwork, Uncanny Dodge her winged harness, and used this newfound talent to fake her death and escape to safety. Returning home to Earth, Kendra reunited with the Justice Society and had a brief romantic tryst with Red Arrow (see Vol. II ). Hawkman sought her affections, but Kendra became unnerved and confused by their past lives together which he remembered but she did not. When the Blackest Night fell, Kendra and Hawkman were am - bushed by Black Lanterns. Kendra was impaled and professed her love for Hawkman with her dying breath. After she and Hawkman were butchered, Black Hand raised them as Black Lanterns themselves. The pair were among the heroes to be restored to life at the death of Nekron (see Vol. II ) and the subsequent dawning of the Brightest Day. In her current incarnation, Hawkgirl has gained full access to the memories of her myriad past lives. She continues to act as a partner to Hawkman and professes the love for him which she has felt through many lifetimes.",
+    "pericias": "Acrobatics 6 (+12), Close Combat: Archaic Melee Weapons 5 (+14), Close Combat: Unarmed 6 (+15), Deception 4 (+7) Expertise: History 4 (+8), Expertise: Pop Culture 4 (+8), Expertise: Streetwise 6 (+10), Expertise: Tactics 2 (+6), Insight 4 (+8), Intimidation 8 (+11), Investigation 4 (+8), Perception 6 (+10), Stealth 5 (+11)",
+    "ataques": "Initiative +10 Claws +15 Close, Damage 7 Mace, Sword, Spear, Warhammer +14 Close, Damage 8 Unarmed +15 Close, Damage 5",
+    "defesas": "Dodge 12/10* Fortitude 10 Parry 12/10* Toughness 10/9** Will 11 *Without shield. **Without Defensive Roll.",
+    "pontos_poder": "Abilities 82 Skills 32 Powers 30 Defenses 16 Advantages 22 ToTal 182",
+    "complicacoes": "Identity: Hawkgirl’s multiple incarnations sometimes come back to haunt her, whether it is the appearance of a reincarnated form from another life, becoming overwhelmed with sudden memories from a past life, or becoming confused about her true identity. Relationship: All of Hawkgirl’s incarnations have had some form of romantic relationship with their corresponding version of Hawkman. for Hawkman, who serves as her anchor amid a dizzying array of past lives. POWERS & ABILITIES Hawkgirl’s Nth metal harness provides her with protection, fast healing, enhanced strength, keen vision and shields her from extreme temperatures. Recently Hawkgirl discovered her prolonged exposure to Nth metal has given her limited heal - ing and hovering abilities even when she is not wearing her winged harness. The properties of the Nth metal combined with the power of her love for Hawkman tie Hawkgirl’s soul to the mortal world, causing her to be repeatedly reincarnated. ALLIES Hawkgirl has worked closely with the Justice League and Jus - tice Society. More than anything, she has always been Hawk - man’s loyal partner and more often than not, his lover."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "nome": "Lucius Fox",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 5,
+  "pontos_poder_publicados": 38,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 47
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "0",
+      "STA": "0",
+      "AGL": "0",
+      "DEX": "0",
+      "FGT": "0",
+      "INT": "4",
+      "AWE": "2",
+      "PRE": "2"
+    },
+    "vantagens": "Benefit 3 (CEO of Wayne Enterprises)",
+    "pericias": "Expertise: Business 6 (+10), Insight 4 (+6), Perception 3 (+5), Persuasion 5 (+7), Technology 2 (+6)",
+    "ataques": "Initiative +0, Unarmed +0 (Damage 0)",
+    "defesas": "Dodge 2, Parry 2, Fortitude 2, Toughness 0, Will 5",
+    "pontos_poder": "Abilities 16 + Advantages 3 + Skills 10 + Defenses 9 = 38"
+  }
+}

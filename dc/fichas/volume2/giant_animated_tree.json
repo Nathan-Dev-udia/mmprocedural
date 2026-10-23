@@ -1,0 +1,29 @@
+{
+  "nome": "Giant Animated Tree",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 150,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 113
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "16",
+      "STA": "16",
+      "AGL": "–",
+      "DEX": "–",
+      "FGT": "0",
+      "INT": "–",
+      "AWE": "0",
+      "PRE": "0"
+    },
+    "poderes": "Branches (Elongation 2, Extra Limbs 12), f lail (Burst A rea Strength Damage 12, Selective, Grab-Based), Giant (Growth 16, Permanent, Innate), Plant (Immunity 60 (Fortitude effects, Will effects)), t ough B ark (Impervious Toughness 4)",
+    "vantagens": "All-out Attack, Power Attack, Improved Grab, Improved Hold, Improved Smash",
+    "pericias": "Close Combat: Unarmed 6 (+6)",
+    "ataques": "Initiative –2, Unarmed +6 (Close, Damage 16)",
+    "defesas": "Dodge 4, Parry 6, Fortitude Immune, Toughness 16, Will Immune",
+    "pontos_poder": "A bilities –7 + Powers 113 + Advantages 5 + Skills 3 + Defenses 26 = Total 150",
+    "complicacoes": "Plant: Affected by things with harm and affect plants. e: Truly titanic trees (old-growth redwoods, etc.) may have n ot up to Growth 20, with appropriately adjusted traits. 112 112"
+  }
+}

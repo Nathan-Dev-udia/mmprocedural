@@ -1,0 +1,27 @@
+{
+  "nome": "Thunder",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 150,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 99
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "12/1",
+      "STA": "2",
+      "AGL": "8/4",
+      "DEX": "3",
+      "FGT": "4",
+      "INT": "3",
+      "AWE": "2",
+      "PRE": "0"
+    },
+    "poderes": "a lt ernate f orm— d ensity Control (Activation― Move Action), d ense Body (Growth 11, Density; Impervious Toughness 11; Enhanced Advantages 7 (Improved Grab, Improved Hold, Improved Smash, Improved Trip, Interpose, Power Attack, Weapon Break); t hunderst omp (Burst Area Damage 10 Linked to Burst Area Affliction 10 (Resisted by Dodge; Hindered, Prone), Instant Recovery, Limited Degree); Unslowed (Enhanced Defenses 10 (Dodge 5, Parry 5), Linked to Growth (Density), Only to negate modifiers; ae : Light Body Enhanced Agility 4)",
+    "vantagens": "Diehard Improved Grab, Improved Hold, Improved Smash, Improved Trip, Interpose, Language 2 (French, Spanish, Native: English), Power Attack, Weapon Break",
+    "pericias": "Acrobatics 4 (+12/+8**), Athletics 4 (+5/+16*), Close Combat: Unarmed 4 (+8), Expertise: Doctor 6 (+9), Insight 8 (+10), Perception 6 (+8), Technology 4 (+7), Treatment 8 (+11) ense: Initiative +4/+8**, Unarmed +8 (Close, Damage 12), o ff Thrown +3 (Ranged, Damage 12) efense: Dodge 8, Parry 8, Fortitude 12, Toughness 12, Will 8 d *With Dense Body. **With Light Body. Abilities 36 + Powers 75 + Advantages 3 + Skills 22 +",
+    "pontos_poder": "Defenses 14 = 150",
+    "complicacoes": "Love: Thunder loves Grace and tries to protect her. Second Best: Thunder has a hard time dealing with Batman’s decision to remove her from the Outsiders and continues to join Grace on missions in an unofficial capacity."
+  }
+}

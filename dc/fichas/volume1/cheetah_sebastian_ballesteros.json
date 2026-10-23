@@ -1,0 +1,28 @@
+{
+  "nome": "Cheetah (Sebastian Ballésteros)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": 185,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 116
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "8",
+      "STA": "6",
+      "AGL": "6",
+      "DEX": "4",
+      "FGT": "8",
+      "INT": "2",
+      "AWE": "4",
+      "PRE": "4"
+    },
+    "poderes": "Claws: (Strength-based Damage 4, Penetrating 6); Heightened Senses (Senses 6: Darkvision, Low-Light Vision, Scent, Track, Ultra-Hearing); Speed (Enhanced Advantage: Improved Initiative 3, Quickness 3, Speed 2 (8 MPH)); Tail (Extra Limbs 1)",
+    "vantagens": "Agile Feint, All-out Attack, Benefit 3 (Wealth), Defensive Roll 3, Improved Critical (Claws), Improved Initiative 3, Improved Trip, Instant Up, Languages 2, Power Attack, Prone Fighting, Uncanny Dodge",
+    "pericias": "Acrobatics 8 (+14), Athletics 8 (+16), Close Combat: Claws 4 (+12), Deception 4 (+8), Expertise: Business 8 (+10), Insight 4 (+8), Intimidation 6 (+10), Perception 6 (+10), Persuasion 8 (+12), Stealth 6 (+12)",
+    "ataques": "Initiative +18, Claws +12 (Damage 12, Penetrating 6)",
+    "defesas": "Dodge 15, Parry 15, Fortitude 12, Toughness 9/6, Will 11",
+    "pontos_poder": "Abilities 84 + Powers 25 + Advantages 16 + Skills 31 + Defenses 29 = 185"
+  }
+}

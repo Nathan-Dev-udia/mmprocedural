@@ -1,0 +1,30 @@
+{
+  "nome": "Blue Beetle (Ted Kord)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 179,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 75
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "3",
+      "STA": "3",
+      "AGL": "6",
+      "DEX": "6",
+      "FGT": "8",
+      "INT": "7",
+      "AWE": "4",
+      "PRE": "2"
+    },
+    "poderes": "BB Gun: Array (16 points), Easily Removable (–6 points) • Blinding Strobe Close Cone Area Dazzle 8 (Resisted by Fortitude; Impaired Sight, Disabled Sight, Unaware) • 16 points • • Air Burst: Cone Area Move Object 3, Contracted Range 3, Instant Duration, Limited Direction: Straight Away • 1 point • • Air Hammer: Ranged Damage 8 • 1 point",
+    "equipamento": "THE BUG: VEHICLE • 63 POINTS Size: Huge Str 8 Speed 8 (Flight) Def 8 Tou 9 Features: Alarm 3 (DC 30), Navigation System, Remote Control; Swimming 6 (30 MPH); Immunity 10 (Life Support); Ranged Damage 10; Feature 1 (Skywire allows pilot to move between flying Bug and ground), Enhanced Skill 12 (Investigate +6, Ranged Combat: Heavy Weapons +6) Other Equipment: Blue Beetle has 5 points to spend on other equipment.",
+    "vantagens": "Agile Feint, Benefit 3 (Millionaire), Contacts, Defensive Roll 4, Equipment 14, Evasion, Improved Initiative, Instant Up, Inventor, Luck 3, Move-by Action, Power Attack, Redirect, Uncanny Dodge, Weapon Bind",
+    "pericias": "Acrobatics 6 (+12), Athletics 6 (+9), Close Combat: Unarmed 4 (+12), Deception 5 (+7), Expertise: Science 6 (+13), Investigation 8 (+15/+21*), Perception 6 (+10), Persuasion 3 (+5), Ranged Combat: BB Gun 8 (+12), Ranged Combat: Heavy Weapons 6 (+12)* , Technology 10 (+17), Vehicles 6 (+12) *While in the Bug.",
+    "ataques": "Initiative +8 Unarmed +12 Close, Damage 3 Blinding Strobe — Close, Cone Area Dazzle 8 Air Hammer +14 Ranged, Damage 8",
+    "defesas": "Dodge 14 Fortitude 7 Parry 12 Toughness 7/3** Will 8 **Without Defensive Roll.",
+    "pontos_poder": "Abilities 78 Skills 34 Powers 12 Defenses 20 Advantages 35 ToTal 179",
+    "complicacoes": "Blue and Gold: Blue Beetle is best friends with Booster Gold, and their shared misadventures and sense of humor are notorious. Legacy: After he was injured saving Ted Kord’s life, the dying wish of the first Blue Beetle (Dan Garrett) was that Kord carry on and continue his battle against evil. Kord’s adventuring as the Blue Beetle is a never-ending effort to live up to the name and wishes of his predecessor."
+  }
+}

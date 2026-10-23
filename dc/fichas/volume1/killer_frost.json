@@ -1,0 +1,29 @@
+{
+  "nome": "Killer Frost",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 152,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 309
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "2",
+      "AGL": "4",
+      "DEX": "4",
+      "FGT": "3",
+      "INT": "4",
+      "AWE": "4",
+      "PRE": "3"
+    },
+    "poderes": "Cryokinesis Stunts: Array (24 points) • Cold Control: Ranged Damage 12 • 24 points • Ice Snare: Ranged Affliction 8 (Resisted by Dodge; Hindered, Immobile, Incapacitated), Cumulative • 1 point • Ice Creations: Create 7, Permanent, Innate • 1 point Freezing Cold: Environment Control 5 (900 feet; Extreme Cold, Impede Movement 1, Visibility) • 20 points Ice Shell: Protection 8 • 8 points Temperature Control: Immunity 2 (Heat, Cold) • 2 points",
+    "vantagens": "Accurate Attack, All-out Attack, Attractive, Power Attack",
+    "pericias": "Close Combat: Unarmed 2 (+5), Deception 5 (+8), Expertise: Physics 8 (+12), Insight 4 (+8), Perception 6 (+10), Ranged Combat: Cryokinesis Stunts 6 (+10), Technology 7 (+11)",
+    "ataques": "Initiative +4 Cold Control +10 Ranged, Damage 12 Ice Snare +10 Ranged, Affliction 8, Cumulative Unarmed +5 Close, Damage 1",
+    "defesas": "Dodge 10 Fortitude 8 Parry 8 Toughness 10 Will 10",
+    "pontos_poder": "Abilities 50 Skills 19 Powers 56 Defenses 23 Advantages 4 ToTal 152",
+    "complicacoes": "Enemy: Killer Frost has a long-running enmity with Firestorm; where one is, the other is sure to arrive. Hatred: Killer Frost is consumed by a pathological hatred of men. Weakness: Killer Frost is dependent on sources of heat to keep herself from freezing solid, stunned and immobile. PERSONALITY Her perceived mistreatment at the hands of men left Crystal Frost a cold, bitter woman. Louise Lincoln, the second Killer Frost, does not share Crystal’s hated of men, but emulates her idol’s coldly murderous attitude."
+  }
+}

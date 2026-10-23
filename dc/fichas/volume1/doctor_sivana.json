@@ -1,0 +1,29 @@
+{
+  "nome": "Doctor Sivana",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": 115,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 176
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "-1",
+      "STA": "1",
+      "AGL": "0",
+      "DEX": "2",
+      "FGT": "2",
+      "INT": "10",
+      "AWE": "3",
+      "PRE": "4"
+    },
+    "equipamento": "50 points of equipment as appropriate, typically headquarters and vehicles.",
+    "vantagens": "Benefit 4 (Multi-millionaire), Equipment 10, Improvised Tools, Inventor, Jack-of-all-trades, Leadership, Redirect, Set-up, Skill Mastery (Technology), Well-informed",
+    "pericias": "Deception 9 (+13), Expertise: Business 6 (+16), Expertise: Science 12 (+22), Insight 6 (+9), Intimidation 10 (+14), Investigation 3 (+13), Perception 5 (+8), Persuasion 3 (+7), Technology 12 (+22), Treatment 2 (+12)",
+    "ataques": "Initiative + 0 Unarmed +2 Close, Damage -1",
+    "defesas": "Dodge 4 Fortitude 3 Parry 4 Toughness 1 Will 12",
+    "pontos_poder": "Abilities 42 Skills 34 Powers 0 Defenses 17 Advantages 22 ToTal 115",
+    "complicacoes": "Big Red Cheese!: Captain Marvel is the bane of Sivana’s existence, driving him to irrational extremes in order to do the hero harm. Insecurities : Sivana is a seething mass of paranoid insecurities that sees rivals and obstacles everywhere, even when none actually exist. Success means nothing to him unless it has a cost to someone else."
+  }
+}

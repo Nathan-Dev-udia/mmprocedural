@@ -1,0 +1,29 @@
+{
+  "nome": "I.Q",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 144,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 278
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "0",
+      "STA": "3",
+      "AGL": "3",
+      "DEX": "3",
+      "FGT": "2",
+      "INT": "9",
+      "AWE": "4",
+      "PRE": "1"
+    },
+    "poderes": "Air Cycle (Flight 8 (500 MPH), Subtle, Platform, Wings, Removable (-1 points)); Aeroshoes (Flight 5 (60 MPH), Removable (-2 points)); Light-Deflector Pinwheel (Array (6 points), Easily Removable (–2 points), Jigsaw Effect (Concealment 4 (All Visual Senses), Resistible, Burst Area, Partial), AE: Invisibility (Concealment 4 (All Visual Senses), Resistible, Burst Area, Side Effect (base effect, always occurs)); Lifting Rod ( Array (20 points), Easily Removable (–8 points), Lifting Ray (Move Object 10), AE: Heat Bolt (Ranged Damage 10), AE: Intercept Projectiles (Deflect 15, Reflect, Limited to Physical Attacks))",
+    "vantagens": "Defensive Roll 3, Improvised Tools, Inventor, Jack-of-all-trades, Minion 6 (3 30-point Minions)",
+    "pericias": "Close Combat: Unarmed 4 (+6), Expertise: Criminal 8 (+17), Ranged Combat: Lifting Rod 9 (+12), Sleight of Hand 6 (+9), Stealth 6 (+9), Technology 10 (+19), Vehicles 6 (+9)",
+    "ataques": "Initiative +2, Unarmed +6 (Close, Damage 0), Lifting Rod +12 (Ranged, Damage 10)",
+    "defesas": "Dodge 14, Parry 14, Fortitude 7, Toughness 6/3*, Will 12 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 50 + Powers 23 + Advantages 12 + Skills 24 + Defenses 35 = 144",
+    "complicacoes": "Greed: No matter how great his intelligence, I.Q. ’s ambitions never grow beyond “get rich quick. ” Power Loss: I.Q. ’s genius is relative to the amount of sunlight he’s been exposed to, and a lack of it can return him to his former dullard state."
+  }
+}

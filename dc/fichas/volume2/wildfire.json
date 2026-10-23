@@ -1,0 +1,28 @@
+{
+  "nome": "Wildfire",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 186,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 266
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "13",
+      "STA": "12",
+      "AGL": "6",
+      "DEX": "2",
+      "FGT": "6",
+      "INT": "1",
+      "AWE": "2",
+      "PRE": "0"
+    },
+    "complicacoes": "), Enhanced Strength 17 (4 ranks Limited to lifting (3,000 tons)), Protection 2 (Impervious 6), Flight 14 (32,000 MPH), Immunity 10 (Life Support), Movement 3 (Space Travel) • 102 points",
+    "equipamento": "f ligh t r ing: Communication 5 (subspace radio, Anywhere, Limited to Distress Signal –3); Flight 7 (250 MPH) • 19 points t elepa thic e ar Plug: Comprehend 3 (Languages), Mental Communication 1 (Close Range) • 10 points t r anssuit: Immunity 10 (Life Support, Quirk: not for starvation and thirst) • 9 points d a e S a V ant G All-out Attack, Benefit (Legion Membership), Diehard, Equipment 6, Extraordinary Effort, Move-by Action, Power Attack, Seize Initiative, Taunt e ne MI e S Wildfire has no enemy specific to him but, like all Legion- naires, must contend with the villains that the Legion as a whole has accrued over their existence.",
+    "pericias": "Deception 2 (+2), Expertise (Earth) 5 (+6) Expertise (Instruction) 4 (+5), Perception 4 (+6), Ranged Combat (Damage) 5 (+7)",
+    "ataques": "i nitia tive +6 Negative Energy Blast +7 Ranged, Damage 13 Unarmed +6 Close, Damage 13",
+    "defesas": "d odge 8 f or titude 14 Parry 8 t oughness 12 W ill 6",
+    "pontos_poder": "a bilities 48 S kills 10 Powers 102 d efenses 10 a dv antages 16 ToTal 186"
+  }
+}

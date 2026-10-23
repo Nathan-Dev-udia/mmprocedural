@@ -1,0 +1,29 @@
+{
+  "nome": "Lead",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 179,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 49
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "12",
+      "STA": "—",
+      "AGL": "0",
+      "DEX": "0",
+      "FGT": "6",
+      "INT": "0",
+      "AWE": "0",
+      "PRE": "1"
+    },
+    "poderes": "r obot Body (Immunity 45 (Fortitude effects, Mental effects, Radiation damage); Protection 14, Impervious), Shapeshifting (Elongation 8; Morph 4 (any form), Quirk: Limited to Same Color; Variable 2 (physical traits, 10 power points, plus changing existing physical trait allocations)",
+    "vantagens": "Interpose",
+    "pericias": "Close Combat: Unarmed 2 (+8), Vehicles 8 (+8)",
+    "ataques": "Initiative +0, Unarmed +8 (Close, Damage 12)",
+    "defesas": "Dodge 6, Parry 6, Fortitude Immune, Toughness 14, Will 5 Abilities 48 + Powers 114 + Advantages 1 + Skills 5 +",
+    "pontos_poder": "Defenses 11 = 179",
+    "complicacoes": "d oing Good: All of the Metal Men are driven to make the world a better place. Slow: Lead isn’t very bright and often makes careless mistakes."
+  }
+}

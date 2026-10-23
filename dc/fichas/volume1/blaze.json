@@ -1,0 +1,29 @@
+{
+  "nome": "Blaze",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 14,
+  "pontos_poder_publicados": 329,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol1.pdf",
+    "pagina_pdf": 70
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "9",
+      "STA": "9",
+      "AGL": "7",
+      "DEX": "7",
+      "FGT": "7",
+      "INT": "9",
+      "AWE": "9",
+      "PRE": "5"
+    },
+    "poderes": "Demonic Heritage: Comprehend Languages 3 (Speak, Understand, and Understood), Immunity 30 (Fortitude Effects), Protection 7, Movement 2 (Dimensional Travel 2 (Hell and Occult Dimensions)), Regeneration 5, Senses 5 (Magic Awareness (Analytical, Extended 2)) • 57 points Demonic Magic: Array (60 points) • Call Servants: Summon 10, Heroic, Broad Variable Type (Demons and Infernal Creatures) • 60 point • Demonic Deception: Illusion 12 (All Senses) • 1 point • “Granting Wishes” 1: Create 14, Continuous, Innate, Precise, Subtle • 1 point • “Granting Wishes” 2: Ranged Affliction 18 (Resisted by Will; Dazed, Stunned, Transformed) • 1 point • Punishing Flames: Perception Range Damage 14, Alternate Resistance (Fortitude), Distracting • 1 point • Transmogrification: Transform 12, Anything into Anything • 1 point Demonic Mask: Morph 3 (humanoids and animals) • 15 points",
+    "vantagens": "Benefit 6 (Queen of Hell), Fascinate (Deception), Improved Initiative, Ranged Attack 3, Seize Initiative, Ritualist, Skill Mastery (Deception), Taunt",
+    "pericias": "Deception 19 (+24), Expertise: Hell 9 (+18), Expertise: Magic 6 (+15), Insight 9 (+18), Intimidation 8 (+13), Perception 6 (+15), Persuasion 9 (+14)",
+    "ataques": "Initiative +11 Affliction +10 Ranged, Varies Punishing Flames — Perception, Damage 14, Resisted by Fortitude Unarmed +7 Close, Damage +9",
+    "defesas": "Dodge 12 Fortitude 12 Parry 12 Toughness 16 Will 16",
+    "pontos_poder": "Abilities 124 Skills 33 Powers 137 Defenses 20 Advantages 15 ToTal 329",
+    "complicacoes": "Demonic Nature: Blaze is one of the spawn of Hell and is recognizable as such with the proper mystic senses. Uneasy Sits the Crown: Blaze’s position in Hell is always threatened. The only things that change are whether the threat is open or hidden and who happens to be behind it at any given time."
+  }
+}

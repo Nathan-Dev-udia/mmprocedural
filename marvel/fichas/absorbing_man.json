@@ -1,0 +1,110 @@
+{
+  "edicao_origem": "Mutants & Masterminds 2e",
+  "edicao_destino": "Mutants & Masterminds 3e",
+  "nome": "Absorbing Man",
+  "nome_pt": "Homem Absorvente",
+  "nivel_poder": 14,
+  "pontos_poder_origem": 210,
+  "pontos_poder_3e": null,
+  "status_conversao": "convertida_com_ajustes_de_np",
+  "fonte": {
+    "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
+    "pagina": 2
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 17,
+      "Vig": 3,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 10,
+      "Int": -1,
+      "Pro": 0,
+      "Pre": -1
+    },
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 10,
+      "Fortitude": 18,
+      "Resistencia": 17,
+      "Vontade": 5
+    },
+    "pericias": {
+      "Atletismo": 0,
+      "Enganacao": 8,
+      "Especialidade: Criminal": 8,
+      "Intimidacao": 17,
+      "Intuicao": 4,
+      "Percepcao": 8,
+      "Furtividade": 8,
+      "Combate Corpo-a-Corpo: Bola e corrente": 1,
+      "Combate Corpo-a-Corpo: Desarmado": 1
+    },
+    "vantagens": [
+      "All-out Attack",
+      "Daze (Intimidation)",
+      "Diehard",
+      "Improved Critical (Ball and Chain) 2",
+      "Improved Grab",
+      "Improved Hold",
+      "Power Attack"
+    ],
+    "poderes": [
+      {
+        "nome": "Object Mimicry",
+        "construcao_3e": "Mimic/Variable, limitado a copiar propriedades de objetos tocados; inclui os efeitos de Density, Protection, Immovability e Super-Strength descritos na fonte.",
+        "custo_2e_pp": 72
+      },
+      {
+        "nome": "Ball and Chain",
+        "construcao_3e": "Device removivel: Damage baseado em Strength, com Extended Reach e efeito Mighty.",
+        "custo_2e_pp": 3
+      },
+      {
+        "nome": "Regeneration",
+        "construcao_3e": "Regeneration 7; o efeito Resurrection foi convertido separadamente em Immortality 1.",
+        "custo_2e_pp": 7
+      },
+      {
+        "nome": "Stunning Attack",
+        "construcao_3e": "Affliction de alcance corpo a corpo, resistida por Fortitude, com Dazed, Stunned e Incapacitated como graus; efeito opcional a precificar em 3e.",
+        "custo_2e_pp": null
+      }
+    ],
+    "equipamento": [
+      "Ball and Chain (Device; facilmente removivel)"
+    ],
+    "complicacoes": [
+      "Transformacao involuntaria ao tocar objetos; ocorrencia incomum, intensidade maior.",
+      "Transformacao unidirecional; ocorrencia muito comum, intensidade menor.",
+      "Vulnerabilidade a transformacao forcada; ocorrencia incomum, intensidade maior."
+    ],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 11,
+        "dano": 17
+      },
+      {
+        "nome": "Bola e corrente",
+        "bonus": 11,
+        "dano": 17
+      }
+    ],
+    "validacao_np": {
+      "ataque_mais_dano_maximo": 28,
+      "esquiva_mais_resistencia": 27,
+      "aparar_mais_resistencia": 27,
+      "fortitude_mais_vontade": 23,
+      "legal": true
+    }
+  },
+  "notas_conversao": [
+    "A fonte mostra Strength 45/19 (+17), que foi convertido diretamente em Strength 17. O ataque +11 somado ao dano 17 fica exatamente no limite de NP 14 (28); os ranks de Close Combat foram convertidos para manter o bonus de ataque impresso.",
+    "A pericia Climb foi convertida em Athletics: o bonus total impresso (+17) menos Strength 17 resulta em 0 graduacoes. As demais pericias foram convertidas do bonus total subtraindo a habilidade 3e correspondente.",
+    "O bonus de Toughness +17 da fonte foi mantido como Resistencia 17; esquiva 10 + resistencia 17 = 27, dentro do limite de defesa 28.",
+    "Fearsome Presence foi representada por Intimidation e Daze; Stunning Attack foi convertido em Affliction, cujo custo nao foi calculado. Weapon Bind nao tem equivalencia direta e precisa de adjudicacao do Mestre.",
+    "A conversao do poder Object Mimicry segue a indicacao do guia para Mimic limitado a propriedades de objetos; o custo em PP 3e nao foi recalculado.",
+    "A soma dos componentes impressos na ficha-fonte nao coincide com o total publicado (210 PP); os custos detalhados dos poderes listados tambem nao explicam todo o subtotal impresso. O total original foi preservado como referencia, sem tentar corrigir a fonte."
+  ]
+}
