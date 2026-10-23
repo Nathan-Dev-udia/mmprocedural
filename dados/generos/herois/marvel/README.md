@@ -1,6 +1,6 @@
 # Fichas Marvel — conversao de M&M 2e para 3e
 
-As fichas individuais em `fichas/` partem dos perfis do PDF `mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf` e seguem as orientacoes de `conversor 2e para a 3e.pdf`.
+As fichas individuais desta pasta partem dos perfis do PDF `mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf` e seguem as orientacoes de `conversor 2e para a 3e.pdf` (os dois PDFs ficam em `referencias/marvel/`, fora do git; o campo `fonte.arquivo` das fichas ainda aponta para o lugar antigo).
 
 ## Como ler os arquivos
 

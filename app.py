@@ -5,6 +5,7 @@ A página abre sozinha no navegador.
 """
 
 import io
+import json
 import os
 import random
 import re
@@ -13,11 +14,12 @@ import threading
 import unicodedata
 import webbrowser
 import zipfile
+from pathlib import Path
 
 from flask import Flask, jsonify, render_template, request, send_file
 
-from nucleo import (data_loader, docx_export, formatter, generator, livros, medidas, pdf_export, planilhas, player,
-                    validator)
+from nucleo import (data_loader, docx_export, formatter, generator, herois, livros, medidas, pdf_export, planilhas,
+                    player, validator)
 
 app = Flask(__name__)
 PASTA_LIVROS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "dados", "livros")
@@ -40,8 +42,8 @@ def planilhas_disponiveis(genero_id):
 # 1.4 distribuição dos pontos parecida com a dos arquétipos do livro, 1.5 subclasses e tipo de NPC, 1.6 goblinoides e caçador de monstros, 1.7 livros do faroeste e da fantasia,
 # 1.8 planilhas de armas e itens, magias na ficha e livros montados mais rápido, 1.9 escolas do bruxo caçador de monstros,
 # 1.10 catálogo da fantasia ampliado com peso, massa e Velocidade, planilhas de armas, itens e poderes geradas dos
-# dados e Tabela de Medidas.
-VERSAO = "1.10.0"
+# dados e Tabela de Medidas, 1.11 heróis conhecidos (fichas prontas da Marvel e da DC para buscar e baixar).
+VERSAO = "1.11.0"
 
 
 def _commit_atual():
@@ -75,6 +77,15 @@ MIME_XLSX = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
 
 DADOS_POR_GENERO, ERROS_POR_GENERO = data_loader.carregar_todos()
 GENERO_PADRAO = "faroeste" if "faroeste" in DADOS_POR_GENERO else next(iter(DADOS_POR_GENERO), None)
+# Gêneros que são só catálogos de fichas prontas (os heróis conhecidos): aparecem na escolha de gênero, sem gerador.
+CATALOGOS = {g: json.loads((Path(data_loader.PASTA_DADOS) / "generos" / g / "genero.json").read_text(encoding="utf-8"))
+             for g in data_loader.catalogos_disponiveis()}
+
+
+def _lista_de_generos():
+    return ([{"id": g, "nome": d["genero"]["nome"], "descricao": d["genero"]["descricao"]}
+             for g, d in DADOS_POR_GENERO.items()]
+            + [{"id": g, "nome": c["nome"], "descricao": c["descricao"]} for g, c in CATALOGOS.items()])
 
 
 def _dados(genero_id=None):
@@ -98,8 +109,7 @@ def opcoes_da_interface(DADOS):
     config = DADOS["configuracoes"]
     return {
         "genero": DADOS["genero"],
-        "generos": [{"id": g, "nome": d["genero"]["nome"], "descricao": d["genero"]["descricao"]}
-                    for g, d in DADOS_POR_GENERO.items()],
+        "generos": _lista_de_generos(),
         "arquetipos": [{"id": a["id"], "nome": a["nome"], "descricao": a["descricao"],
                         "nps": generator.nps_disponiveis(DADOS, a), "tipos": _tipos_para_a_tela(DADOS, a)}
                        for a in DADOS["arquetipos"].values()],
@@ -247,6 +257,11 @@ def erro_de_geracao(erro):
 def pagina_inicial():
     genero_id = request.args.get("genero") or GENERO_PADRAO
     erros = [m for mensagens in ERROS_POR_GENERO.values() for m in mensagens]
+    if genero_id in CATALOGOS and not erros:
+        contagem = {e: sum(1 for h in herois.lista() if h["editora"] == e) for e in herois.EDITORAS}
+        return render_template("herois.html", opcoes={"genero": CATALOGOS[genero_id], "generos": _lista_de_generos(),
+                                                      "editoras": [{"id": e, "nome": n, "quantidade": contagem[e]}
+                                                                   for e, n in herois.EDITORAS.items()]})
     if genero_id not in DADOS_POR_GENERO:
         return render_template("index.html", opcoes=None,
                                erros=erros or [f"Gênero '{genero_id}' não encontrado."]), 500
@@ -359,6 +374,45 @@ def baixar_livro(genero_id, tipo):
         _LIVROS_PRONTOS[chave] = livros.gerar_livro(DADOS, tipo, VERSAO)
     return send_file(io.BytesIO(_LIVROS_PRONTOS[chave]), mimetype=MIME_DOCX, as_attachment=True,
                      download_name=f"{_nome_de_arquivo(livros.TIPOS[tipo])}_{genero_id}.docx")
+
+
+# ---------------------------------------------------------------- heróis conhecidos (fichas prontas)
+
+@app.get("/api/herois")
+def lista_de_herois():
+    return jsonify({"herois": herois.lista()})
+
+
+@app.get("/api/herois/<path:ficha_id>")
+def ficha_de_heroi(ficha_id):
+    ficha = herois.ficha(ficha_id)
+    if ficha is None:
+        return jsonify({"erro": "Ficha não encontrada."}), 404
+    return jsonify({"ficha": ficha})
+
+
+@app.get("/herois/<path:ficha_id>.json")
+def baixar_ficha_de_heroi(ficha_id):
+    caminho = herois.caminho(ficha_id)
+    if caminho is None:
+        return jsonify({"erro": "Ficha não encontrada."}), 404
+    return send_file(caminho, mimetype="application/json", as_attachment=True,
+                     download_name=f"{ficha_id.split('/')[0]}_{caminho.stem}.json")
+
+
+@app.get("/herois/todas/<editora>.zip")
+def baixar_fichas_da_editora(editora):
+    if editora not in herois.EDITORAS:
+        return jsonify({"erro": "Editora não encontrada."}), 404
+    pacote = io.BytesIO()
+    with zipfile.ZipFile(pacote, "w", zipfile.ZIP_DEFLATED) as arquivo_zip:
+        for resumo in herois.lista():
+            if resumo["editora"] == editora:
+                caminho = herois.caminho(resumo["id"])
+                arquivo_zip.write(caminho, resumo["id"].split("/", 1)[1] + ".json")
+    pacote.seek(0)
+    return send_file(pacote, mimetype="application/zip", as_attachment=True,
+                     download_name=f"fichas_{editora}.zip")
 
 
 @app.get("/planilhas/<genero_id>/<tipo>.xlsx")

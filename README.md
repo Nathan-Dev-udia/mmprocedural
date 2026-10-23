@@ -135,6 +135,15 @@ Cada gênero tem um **Livro do Jogador** e um **Livro do Mestre** para baixar em
 
 Ao lado dos livros ficam as planilhas (.xlsx) do gênero. As da fantasia (**Armas**, **Itens** e **Poderes**) são montadas na hora a partir dos JSON por `nucleo/planilhas.py`, como o apêndice dos livros: a de poderes traz todas as magias, dons, Sinais, mutações e traços raciais, com estatística, arranjo, quem usa (classe, subclasse, escola ou raça) e o custo em cada NP. As do faroeste foram feitas à mão e ficam em `dados/livros/faroeste/`; para um gênero passar a ter planilhas geradas, basta incluí-lo em `planilhas.GERADAS`.
 
+## Heróis conhecidos
+
+O gênero **Heróis conhecidos** (`dados/generos/herois/`) é um **catálogo**, não tem gerador: o `genero.json` tem `"tipo": "catalogo"`, então `data_loader.generos_disponiveis()` o deixa de fora e `catalogos_disponiveis()` o lista. Ele aparece na escolha de gênero e abre a página `templates/herois.html`, com a aba **Heróis conhecidos**: escolha Marvel ou DC, busque por nome, nome em português ou poder (sem diferença de acentos), veja a ficha e baixe o `.json` (ou todas as fichas da editora num `.zip`).
+
+- `marvel/`: 116 perfis do *Marvel Files* (M&M 2ª edição) convertidos para a 3ª edição, com notas de conversão (veja o `README.md` da pasta).
+- `dc/volume1/` e `dc/volume2/`: 536 fichas publicadas em *DC Adventures: Heroes and Villains* (3ª edição), com o texto original em inglês; geradas por `ferramentas/extrair_fichas_dc.py`.
+- `nucleo/herois.py` põe os dois formatos num formato comum para a tela; os arquivos são baixados como estão. Os PDFs de origem ficam em `referencias/marvel/` e `referencias/dc/`, fora do git.
+- Rotas: `/api/herois` (lista), `/api/herois/<id>` (ficha), `/herois/<id>.json` (download) e `/herois/todas/<editora>.zip`.
+
 ## Peso, massa e Velocidade
 
 `dados/comum/medidas.json` é a **Tabela de Medidas** do livro básico (graduações –5 a 30 de massa, tempo, distância e volume); `nucleo/medidas.py` converte peso em graduação de massa (a menor graduação que alcança o valor; abaixo de –5, cada graduação divide a anterior pela metade) e Velocidade em km/h (Distância = Tempo + Velocidade, com uma hora = tempo 9). Na fantasia, cada item tem `peso` em kg, do Livro do Jogador (D&D 5e); `0` é o que o livro não pesa ("desprezível", sem graduação) e `peso_estimado` marca os que não estão no livro. Kits pesam a soma do conteúdo. Montarias têm `velocidade` (Guia do Mestre: Cavalo 4, Animal de rebanho 3) e `carga` em kg; veículos têm `peso` e `velocidade`. Os pesos ficam em `PESOS` no `ferramentas/criar_fantasia_base.py`, que avisa se algum item ficar sem peso.

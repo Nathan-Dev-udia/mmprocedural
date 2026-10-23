@@ -1,7 +1,7 @@
 # DC Adventures — fichas em JSON
 
-Os arquivos em `fichas/volume1/` e `fichas/volume2/` foram extraídos dos livros
-`DC Adventures: Heroes and Villains, Vol. I` e `Vol. II`. Os dois livros usam
+Os arquivos em `volume1/` e `volume2/` foram extraídos dos livros
+`DC Adventures: Heroes and Villains, Vol. I` e `Vol. II` (os PDFs ficam em `referencias/dc/`, fora do git). Os dois livros usam
 Mutants & Masterminds 3ª edição; portanto, estas fichas preservam os dados
 publicados e **não são conversões de edição**.
 

@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block titulo %}Heróis conhecidos · Gerador de fichas M&amp;M{% endblock %}
+
+{% block conteudo %}
+  <nav class="abas" role="tablist">
+    <button type="button" class="aba" role="tab" aria-selected="true">Heróis conhecidos</button>
+  </nav>
+
+  <section class="painel-aba" role="tabpanel">
+    <div class="painel formulario">
+      <div class="campos">
+        <label class="campo">
+          <span>Gênero</span>
+          <select id="genero"></select>
+          <small>{{ opcoes.genero.descricao }}</small>
+        </label>
+        <div class="campo">
+          <span>Editora</span>
+          <div class="modo-escolha" role="radiogroup" aria-label="Editora">
+            {% for editora in opcoes.editoras %}
+            <label><input type="radio" name="editora" value="{{ editora.id }}" {% if loop.first %}checked{% endif %}>
+              {{ editora.nome }} ({{ editora.quantidade }})</label>
+            {% endfor %}
+          </div>
+          <small id="editora-descricao"></small>
+        </div>
+        <label class="campo">
+          <span>Buscar</span>
+          <input id="busca-heroi" type="search" placeholder="Nome, nome em português ou poder" autocomplete="off">
+          <small>Ex.: "Batman", "Arcanjo", "Flight".</small>
+        </label>
+      </div>
+    </div>
+
+    <div class="herois">
+      <div class="painel lista-de-herois">
+        <div class="barra-resultado">
+          <p id="contagem-herois">Carregando…</p>
+          <a id="baixar-editora" class="botao pequeno" href="#">Baixar todas (.zip)</a>
+        </div>
+        <ul id="lista-herois" class="lista-herois"></ul>
+      </div>
+      <article id="ficha-heroi" class="cartao ficha-heroi" hidden></article>
+    </div>
+  </section>
+
+  <p id="mensagem" class="mensagem" role="status"></p>
+{% endblock %}
+
+{% block scripts %}
+  <script>window.OPCOES = {{ opcoes | tojson }};</script>
+  <script src="{{ url_for('static', filename='js/herois.js') }}"></script>
+{% endblock %}

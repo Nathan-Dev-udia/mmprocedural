@@ -450,3 +450,59 @@ a.botao { text-decoration: none; display: inline-block; }
   .topo h1 { font-size: 1.8rem; }
   .passo-aba { font-size: 0.85rem; }
 }
+
+/* ---------------------------------------------------------------- Heróis conhecidos */
+.herois {
+  display: grid;
+  grid-template-columns: minmax(260px, 340px) 1fr;
+  gap: 16px;
+  align-items: start;
+  margin-top: 16px;
+}
+.lista-de-herois .barra-resultado { margin-top: 0; }
+.lista-herois {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 70vh;
+  overflow-y: auto;
+  display: grid;
+  gap: 4px;
+}
+.lista-herois .vazio { color: var(--tinta-suave); padding: 8px; }
+.item-heroi {
+  font: inherit;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  background: var(--campo);
+  color: var(--tinta);
+  border: 1px solid var(--borda);
+  border-radius: 8px;
+  padding: 6px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 2px 6px;
+}
+.item-heroi small { margin-left: auto; color: var(--tinta-suave); }
+.item-heroi:hover { border-color: var(--borda-forte); }
+.item-heroi[aria-current="true"] { background: var(--campo-forte); border-color: var(--destaque); }
+.ficha-heroi { position: sticky; top: 16px; }
+.ficha-heroi footer { margin-top: 8px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; }
+.habilidades-heroi {
+  display: grid;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+  gap: 4px;
+  margin: 0;
+  text-align: center;
+}
+.habilidades-heroi div { background: var(--campo); border: 1px solid var(--borda); border-radius: 6px; padding: 4px 0; }
+.habilidades-heroi dt { font-size: 0.75rem; color: var(--tinta-suave); font-weight: 600; }
+.habilidades-heroi dd { margin: 0; font-weight: 700; }
+@media (max-width: 800px) {
+  .herois { grid-template-columns: 1fr; }
+  .lista-herois { max-height: 45vh; }
+  .ficha-heroi { position: static; }
+  .habilidades-heroi { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}

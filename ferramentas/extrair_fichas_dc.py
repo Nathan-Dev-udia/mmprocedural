@@ -10,10 +10,10 @@ from pypdf import PdfReader
 
 ROOT = Path(__file__).resolve().parent.parent
 SOURCE = {
-    "volume1": ROOT / "dc" / "dc adventures heroes and villains vol1.pdf",
-    "volume2": ROOT / "dc" / "dc adventures heroes and villains vol 2.pdf",
+    "volume1": ROOT / "referencias" / "dc" / "dc adventures heroes and villains vol1.pdf",
+    "volume2": ROOT / "referencias" / "dc" / "dc adventures heroes and villains vol 2.pdf",
 }
-OUTPUT = ROOT / "dc" / "fichas"
+OUTPUT = ROOT / "dados" / "generos" / "herois" / "dc"
 ABILITIES = ("STR", "STA", "AGL", "DEX", "FGT", "INT", "AWE", "PRE")
 SECTIONS = (
     ("poderes", "Powers"),

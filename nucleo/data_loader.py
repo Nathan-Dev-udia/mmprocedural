@@ -243,10 +243,28 @@ def _conferir_jogador(bruto, vantagens_validas, equipamentos, erros, poderes_do_
     return {"riqueza": jogador.get("riqueza", []), "arquetipos": arquetipos, "racas": racas}
 
 
-def generos_disponiveis(pasta=PASTA_DADOS):
-    """IDs dos gêneros: cada subpasta de dados/generos que tem um genero.json."""
+def _generos_com_tipo(pasta, catalogo):
     raiz = Path(pasta) / "generos"
-    return sorted(p.name for p in raiz.iterdir() if (p / "genero.json").is_file()) if raiz.is_dir() else []
+    if not raiz.is_dir():
+        return []
+    ids = []
+    for p in sorted(raiz.iterdir()):
+        arquivo = p / "genero.json"
+        if arquivo.is_file():
+            e_catalogo = json.loads(arquivo.read_text(encoding="utf-8")).get("tipo") == "catalogo"
+            if e_catalogo == catalogo:
+                ids.append(p.name)
+    return ids
+
+
+def generos_disponiveis(pasta=PASTA_DADOS):
+    """IDs dos gêneros com gerador: cada subpasta de dados/generos que tem um genero.json (menos os catálogos)."""
+    return _generos_com_tipo(pasta, catalogo=False)
+
+
+def catalogos_disponiveis(pasta=PASTA_DADOS):
+    """Gêneros que são só catálogos de fichas prontas ("tipo": "catalogo" no genero.json), como os heróis."""
+    return _generos_com_tipo(pasta, catalogo=True)
 
 
 def carregar_todos(pasta=PASTA_DADOS):
