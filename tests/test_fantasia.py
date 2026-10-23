@@ -352,3 +352,37 @@ def test_complicacao_da_escola_entra_no_sorteio(fantasia):
 def test_subclasses_sem_escola_continuam_iguais(fantasia):
     pj = gerar_pj(fantasia, "bruxo", 5, "lamina", variante="lobo")   # variante ignorada sem escolas
     assert pj["estilo"]["nome"] == "Pacto da lâmina"
+
+
+# ---------------------------------------------------------------- armas pelo guia de gadgets
+
+@pytest.mark.parametrize("arma,custo", [("adaga", 2), ("espada_longa", 3), ("machado_batalha", 5),
+                                        ("martelo_guerra", 4), ("maca", 3), ("bordao", 3), ("chicote", 5),
+                                        ("arco_longo", 6), ("besta_leve", 6), ("funda", 2), ("rede", 3)])
+def test_custo_das_armas_bate_com_o_guia_de_gadgets(fantasia, arma, custo):
+    assert fantasia["equipamentos"][arma]["custo"] == custo
+
+
+def test_armas_tem_descritor_e_critico_da_perigosa(fantasia):
+    for item in fantasia["equipamentos"].values():
+        ataque = item.get("ataque")
+        if not ataque:
+            continue
+        assert ataque.get("descritor"), item["id"]
+        perigosa = sum(int(q.partition(" ")[2] or 1) for q in ataque.get("qualidades", []) if q.startswith("Perigosa"))
+        assert ataque["critico"] == 20 - perigosa, item["id"]
+        for qualidade in ataque.get("qualidades", []):
+            assert qualidade.split(" ")[0] in rules.QUALIDADES_DE_ARMA, (item["id"], qualidade)
+
+
+@pytest.mark.parametrize("arma,dano", [("adaga", 1), ("espada_curta", 2), ("espada_longa", 3), ("espada_grande", 4),
+                                       ("machado_grande", 4), ("arco_curto", 2), ("besta_pesada", 4)])
+def test_dano_segue_o_dado_do_dnd(fantasia, arma, dano):
+    assert fantasia["equipamentos"][arma]["ataque"]["efeito"] == dano
+
+
+def test_ficha_mostra_tipo_de_dano_e_qualidades(fantasia):
+    pj = gerar_pj(fantasia, "guerreiro", 6, equipamento={"modo": "manual", "ids": ["machado_batalha"]})
+    machado = next(a for a in pj["validacao"]["valores"]["ataques"] if a["nome"] == "Machado de batalha")
+    texto = formatter.texto_ataque(machado)
+    assert "corte" in texto and "Perigosa, Quebrar" in texto and "crítico 19–20" in texto

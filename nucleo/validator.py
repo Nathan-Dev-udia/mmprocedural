@@ -135,7 +135,9 @@ def calcular(ficha, catalogo_equipamento, ativo=None):
                         "multiataque": bool(atq.get("multiataque")),
                         "pericia": atq.get("pericia"), "soma_forca": bool(atq.get("soma_forca")),
                         "efeito_nome": efeito, "resistido_por": atq.get("resistido_por", "Resistência"),
-                        "cd_resistencia": base_da_cd + dano, "critico": atq.get("critico", 20)})
+                        "cd_resistencia": base_da_cd + dano, "critico": atq.get("critico", 20),
+                        # Tipo de dano e qualidades das armas arcaicas (guia de gadgets): só para exibir.
+                        "descritor": atq.get("descritor", ""), "qualidades": atq.get("qualidades", [])})
 
     pontos_equipamento = {
         "usados": sum(item["custo"] * ficha.get("quantidades", {}).get(i, 1)

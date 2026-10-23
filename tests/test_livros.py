@@ -6,7 +6,7 @@ import docx
 import pytest
 
 import app
-from nucleo import data_loader, livros
+from nucleo import data_loader, livros, planilhas, player
 
 
 def _texto(conteudo):
@@ -70,6 +70,41 @@ def test_pagina_mostra_planilhas_do_genero_selecionado():
     assert "/planilhas/faroeste/itens.xlsx" in faroeste
     assert "/planilhas/fantasia/armas.xlsx" in fantasia
     assert "/planilhas/fantasia/itens.xlsx" in fantasia
+    assert "/planilhas/fantasia/poderes.xlsx" in fantasia
+    assert "/planilhas/faroeste/poderes.xlsx" not in faroeste
+
+
+def _linhas(conteudo, folha):
+    import openpyxl
+    return list(openpyxl.load_workbook(io.BytesIO(conteudo))[folha].iter_rows(min_row=2, values_only=True))
+
+
+def test_planilhas_da_fantasia_saem_dos_dados():
+    dados = data_loader.carregar_genero("fantasia")
+    cliente = app.app.test_client()
+    resposta = cliente.get("/planilhas/fantasia/poderes.xlsx")
+    assert resposta.status_code == 200 and resposta.headers["Content-Disposition"].endswith("poderes_fantasia.xlsx")
+
+    poderes = {linha[1]: linha for linha in _linhas(resposta.data, "Poderes")}
+    assert len(poderes) == len(dados["poderes_do_genero"])
+    igni = poderes["Igni"]
+    assert igni[8 + dados["configuracoes"]["nps_jogador"].index(5)] == player.poder_do_genero(dados, "igni", 5)["custo_informado"]
+    assert "Escola do Grifo" in poderes["Yrden"][7]
+    assert "Raça: Anão" in poderes["Visão no escuro"][7]
+
+    itens = {linha[1] for linha in _linhas(cliente.get("/planilhas/fantasia/itens.xlsx").data, "Itens")}
+    armas = cliente.get("/planilhas/fantasia/armas.xlsx").data
+    nomes_das_armas = {linha[0] for folha in ("Armas brancas", "Armas à distância", "Munição")
+                       for linha in _linhas(armas, folha)}
+    assert itens | nomes_das_armas == {i["nome"] for i in player.catalogo_do_jogador(dados)}
+    acolchoada = next(l for l in _linhas(cliente.get("/planilhas/fantasia/itens.xlsx").data, "Itens")
+                      if l[1] == "Armadura acolchoada")
+    assert acolchoada[3] == "4 kg" and acolchoada[4] == -3
+    assert acolchoada[6] == f"Proteção {dados['equipamentos']['acolchoada']['protecao']}"
+
+
+def test_preco_em_moedas():
+    assert [planilhas.preco_em_moedas(v) for v in (1500, 5, 0.5, 0.04, 2.5, None)] ==         ["1.500 po", "5 po", "5 pp", "4 pc", "25 pp", "a combinar"]
 
 
 def test_planilha_nao_disponivel_retorna_404():
@@ -89,20 +124,22 @@ def test_tabelas_de_equipamento_fantasia_incluem_precos_e_equivalentes():
     apendice = livros.apendice(dados, "mestre")
 
     assert "### Armas" in apendice and "### Itens" in apendice
-    assert "| Arma | Preço | Equivalente no Manual dos Mecanismos |" in apendice
-    assert "| Item | Preço | Equivalente no Manual dos Mecanismos |" in apendice
-    assert "| Adaga | 2 po | Faca |" in apendice
-    assert "| Espada de prata | 115 po | Espada (prateada; usa a estatística de espada) |" in apendice
-    assert "| Armadura de couro | 10 po | Armadura de couro (Proteção 1) |" in apendice
-    assert "| Armadura de placas | 1500 po | Armadura completa (Proteção 6) |" in apendice
-    assert "| Escudo de torre | 30 po | Escudo grande (+3 em Esquiva e Aparar) |" in apendice
-    assert "| Sela de montaria | 10 po | Característica de equipamento (1 graduação, 1 ponto) |" in apendice
+    assert "| Arma | Efeito | Tipo de dano | Preço | Peso |" in apendice
+    assert "### Qualidades das armas" in apendice and "| Perigosa |" in apendice
+    assert "| Item | Preço | Peso / Velocidade | Equivalente no Manual dos Mecanismos |" in apendice
+    assert ("| Adaga | Dano 1 + For; crítico 19–20; Perigosa; Leve; pode ser arremessada | perfuração | 2 po | "
+            "500 g (massa -6) |") in apendice
+    assert "| Espada de prata | Dano 3 + For; Versátil; fere monstros vulneráveis à prata | corte, prata |" in apendice
+    assert "| Armadura de couro | 10 po | 5 kg (massa -2) | Couro (Proteção 1) |" in apendice
+    assert "| Armadura de placas | 1500 po | 32,5 kg (massa 1) | Armadura completa articulada (Proteção 6) |" in apendice
+    assert "| Escudo de torre | 30 po | 7,5 kg (massa -2, estimado) | Escudo grande (+3 em Esquiva e Aparar) |" in apendice
+    assert "| Sela de montaria | 10 po | 12,5 kg (massa -1) | Característica de equipamento (1 graduação, 1 ponto) |" in apendice
     for item in livros.player.catalogo_do_jogador(dados):
         assert f"| {item['nome']} |" in apendice
 
     documento = _texto(livros.gerar_livro(dados, "mestre"))
     assert "Equivalente no Manual dos Mecanismos" in documento
-    assert "Espada (prateada; usa a estatística de espada)" in documento
+    assert "Gadget Guide: Archaic Weapons" in documento
 
 
 def test_chefe_goblinoide_nao_e_capanga():

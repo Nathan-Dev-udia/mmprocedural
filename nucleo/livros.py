@@ -16,7 +16,9 @@ from docx.oxml.ns import qn
 from docx.shared import Pt, RGBColor
 
 from . import formatter
+from . import medidas
 from . import player
+from . import rules
 
 PASTA_LIVROS = Path(__file__).parent.parent / "dados" / "livros"
 TIPOS = {"jogador": "Livro do Jogador", "mestre": "Livro do Mestre"}
@@ -160,6 +162,8 @@ def _resumo_do_item(dados, item):
             partes.append(f"{efeito} {ataque['efeito']}{forca}{alcance}")
         if ataque.get("critico", 20) < 20:
             partes.append(f"crítico {ataque['critico']}–20")
+        if ataque.get("qualidades"):
+            partes.append(", ".join(ataque["qualidades"]))
     if item.get("protecao"):
         partes.append(f"Proteção {item['protecao']}" + (f" (só {item['limitada_a']})" if item.get("limitada_a") else ""))
     if item.get("defesas_ativas"):
@@ -192,24 +196,26 @@ def _preco_fantasia(valor):
     return f"{centavos} pc"
 
 
+def _entre_parenteses(fonte):
+    """O que vem entre parênteses no começo da fonte: "Manual dos Mecanismos Lite, armaduras (couro); preço..."."""
+    inicio = fonte.find("(")
+    if inicio < 0 or ";" in fonte[:inicio]:
+        return ""
+    profundidade = 0
+    for fim in range(inicio, len(fonte)):
+        profundidade += {"(": 1, ")": -1}.get(fonte[fim], 0)
+        if profundidade == 0:
+            return fonte[inicio + 1:fim]
+    return ""
+
+
 def _equivalente_no_manual(item):
     categoria = item.get("categoria")
     item_id = item.get("id")
     if categoria == "Armadura":
-        equivalencias = {
-            "acolchoada": "Cota de malha (Proteção 3; aproximação)",
-            "couro": "Armadura de couro (Proteção 1)",
-            "couro_batido": "Armadura de couro +1 de Proteção (adaptação)",
-            "gibao_peles": "Sem equivalente direto; conversão de gênero",
-            "camisao_malha": "Cota de malha (Proteção 3)",
-            "brunea": "Cota de malha/escamas (Proteção 3; aproximação)",
-            "peitoral": "Cota de malha reforçada (Proteção 4; adaptação)",
-            "cota_malha": "Armadura de cota de malha (Proteção 3)",
-            "meia_armadura": "Armadura de placas (Proteção 5)",
-            "cota_talas": "Cota de talas (Proteção 3)",
-            "placas": "Armadura completa (Proteção 6)",
-        }
-        return equivalencias.get(item_id, "Armadura; equivalência de gênero")
+        modelo = _entre_parenteses(item.get("fonte", ""))
+        return f"{modelo[:1].upper()}{modelo[1:]} (Proteção {item['protecao']})" if modelo else \
+            f"Proteção {item['protecao']}"
     if categoria == "Escudo":
         return {
             1: "Escudo pequeno (+1 em Esquiva e Aparar)",
@@ -315,6 +321,30 @@ def _secao_poderes(dados):
     return texto + _tabela_md(cabecalho, linhas)
 
 
+def _peso_e_velocidade(dados, item):
+    """"1,5 kg (massa –4)", "desprezível" ou, numa montaria, "Velocidade 4 (60 km/h), carga 220 kg"."""
+    if item.get("carga"):
+        return (f"Velocidade {item['velocidade']} ({medidas.km_por_hora(item['velocidade']):g} km/h), "
+                f"carga {item['carga']} kg")
+    kg = player.peso_do_item(dados, item)
+    texto = formatter.peso(kg)
+    if kg:
+        texto += f" (massa {medidas.graduacao_de_massa(kg)}{', estimado' if item.get('peso_estimado') else ''})"
+    if item.get("velocidade") is not None:
+        texto += f"; Velocidade {item['velocidade']} ({medidas.km_por_hora(item['velocidade']):g} km/h)"
+    return texto
+
+
+def _secao_medidas():
+    linhas = [[str(g), m["massa"], m["tempo"], m["distancia"], m["volume"]]
+              for g, m in medidas.tabela().items() if g <= 20]
+    return ("## Tabela de Medidas\n\nDo livro básico de M&M. Um valor pertence à menor graduação que o "
+            "alcança: uma espada de 1,5 kg tem massa –4 (2 kg). Abaixo de –5, cada graduação divide a anterior pela "
+            "metade (–6 = 500 g, –7 = 250 g). **Distância = Tempo + Velocidade:** em uma hora (tempo 9), um cavalo "
+            "com Velocidade 4 anda 60 km. **Arremesso = Força – Massa:** com Força 3, uma cota de malha de 27,5 kg "
+            "(massa 0) voa 60 m.\n\n" + _tabela_md(["Graduação", "Massa", "Tempo", "Distância", "Volume"], linhas))
+
+
 def _secao_equipamento(dados):
     catalogo = player.catalogo_do_jogador(dados)
     if dados["genero"]["id"] == "fantasia":
@@ -325,15 +355,25 @@ def _secao_equipamento(dados):
               "Os preços estão em peças de ouro, prata ou cobre (10 pp = 1 po; 10 pc = 1 pp). "
               "A equivalência indica o item mais próximo "
               "do *Manual dos Mecanismos Lite*; quando não há um modelo próprio, o equipamento comum usa "
-              "uma Característica de 1 graduação (1 ponto).\n",
+              "uma Característica de 1 graduação (1 ponto). O peso vem do Livro do Jogador (D&D 5e), com a "
+              "graduação de massa da Tabela de Medidas (no fim deste apêndice); \"desprezível\" é o que o livro "
+              "nem pesa.\n",
               "### Armas\n"]
-        linhas_armas = [[item["nome"], _preco_fantasia(item.get("preco")), _equivalente_no_manual(item)]
-                        for item in armas]
-        md.append(_tabela_md(["Arma", "Preço", "Equivalente no Manual dos Mecanismos"], linhas_armas))
+        md.append("As armas seguem o *Gadget Guide: Archaic Weapons*: o Dano vem do dado do Livro do Jogador "
+                  "(d4 → 1, d6 → 2, d8 → 3, d10, d12 ou 2d6 → 4), o tipo de dano vira descritor e cada família de "
+                  "arma tem as suas qualidades (veja **Qualidades das armas**, logo abaixo).\n")
+        linhas_armas = [[item["nome"], _resumo_do_item(dados, item), item["ataque"].get("descritor", "—"),
+                         _preco_fantasia(item.get("preco")), _peso_e_velocidade(dados, item)] for item in armas]
+        md.append(_tabela_md(["Arma", "Efeito", "Tipo de dano", "Preço", "Peso"], linhas_armas))
+        md.append("\n### Qualidades das armas\n")
+        md.append(_tabela_md(["Qualidade", "O que faz"],
+                             [[nome, texto] for nome, texto in rules.QUALIDADES_DE_ARMA.items()]))
         md.append("\n### Itens\n")
-        linhas_itens = [[item["nome"], _preco_fantasia(item.get("preco")), _equivalente_no_manual(item)]
-                        for item in itens]
-        md.append(_tabela_md(["Item", "Preço", "Equivalente no Manual dos Mecanismos"], linhas_itens))
+        linhas_itens = [[item["nome"], _preco_fantasia(item.get("preco")), _peso_e_velocidade(dados, item),
+                         _equivalente_no_manual(item)] for item in itens]
+        md.append(_tabela_md(["Item", "Preço", "Peso / Velocidade", "Equivalente no Manual dos Mecanismos"],
+                             linhas_itens))
+        md.append("\n" + _secao_medidas())
         return "\n".join(md)
 
     por_categoria = {}

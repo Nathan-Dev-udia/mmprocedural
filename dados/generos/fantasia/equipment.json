@@ -11,41 +11,53 @@
       "efeito": 1,
       "critico": 19,
       "pericia": "Combate Corpo-a-Corpo: Adagas",
+      "descritor": "perfuração",
+      "qualidades": [
+        "Perigosa"
+      ],
       "soma_forca": true
     },
-    "fonte": "Livro básico de M&M, cap. 7 (faca); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Gadget Guide: Archaic Weapons (adaga); Dano 1: 1d4 perfurante no Livro do Jogador (D&D 5e); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0.5
   },
   {
     "id": "porrete",
     "nome": "Porrete",
     "categoria": "Arma branca",
-    "custo": 2,
+    "custo": 1,
     "preco": 0.1,
-    "notas": "",
+    "notas": "Leve",
     "ataque": {
       "tipo": "corpo",
-      "efeito": 2,
+      "efeito": 1,
       "critico": 20,
       "pericia": "Combate Corpo-a-Corpo: Porretes",
+      "descritor": "esmagamento",
       "soma_forca": true
     },
-    "fonte": "Livro básico de M&M, cap. 7 (porrete); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Gadget Guide: Archaic Weapons (porrete); Dano 1: 1d4 concussão no Livro do Jogador (D&D 5e); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 1
   },
   {
     "id": "bordao",
     "nome": "Bordão (cajado)",
     "categoria": "Arma branca",
-    "custo": 2,
+    "custo": 3,
     "preco": 0.2,
-    "notas": "Também serve de foco arcano",
+    "notas": "Versátil; também serve de foco arcano",
     "ataque": {
       "tipo": "corpo",
       "efeito": 2,
       "critico": 20,
       "pericia": "Combate Corpo-a-Corpo: Porretes",
+      "descritor": "esmagamento",
+      "qualidades": [
+        "Dupla"
+      ],
       "soma_forca": true
     },
-    "fonte": "Livro básico de M&M, cap. 7 (porrete); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Gadget Guide: Archaic Weapons (bastão); Dano 2: 1d6 concussão no Livro do Jogador (D&D 5e); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 2
   },
   {
     "id": "maca",
@@ -56,44 +68,60 @@
     "notas": "",
     "ataque": {
       "tipo": "corpo",
-      "efeito": 3,
-      "critico": 20,
+      "efeito": 2,
+      "critico": 19,
       "pericia": "Combate Corpo-a-Corpo: Maças",
+      "descritor": "esmagamento",
+      "qualidades": [
+        "Perigosa"
+      ],
       "soma_forca": true
     },
-    "fonte": "Livro básico de M&M, cap. 7 (martelo de guerra); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Gadget Guide: Archaic Weapons (maça); Dano 2: 1d6 concussão no Livro do Jogador (D&D 5e); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 2
   },
   {
     "id": "machadinha",
     "nome": "Machadinha",
     "categoria": "Arma branca",
-    "custo": 2,
+    "custo": 4,
     "preco": 5,
-    "notas": "Pode ser arremessada",
+    "notas": "Leve; pode ser arremessada",
     "ataque": {
       "tipo": "corpo",
       "efeito": 2,
-      "critico": 20,
+      "critico": 19,
       "pericia": "Combate Corpo-a-Corpo: Machados",
+      "descritor": "corte",
+      "qualidades": [
+        "Perigosa",
+        "Quebrar"
+      ],
       "soma_forca": true
     },
-    "fonte": "Livro básico de M&M, cap. 7 (porrete com corte); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Gadget Guide: Archaic Weapons (machado); Dano 2: 1d6 cortante no Livro do Jogador (D&D 5e); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 1
   },
   {
     "id": "lanca",
     "nome": "Lança",
     "categoria": "Arma branca",
-    "custo": 4,
+    "custo": 3,
     "preco": 1,
-    "notas": "Pode ser arremessada",
+    "notas": "Versátil; pode ser arremessada",
     "ataque": {
       "tipo": "corpo",
-      "efeito": 3,
+      "efeito": 2,
       "critico": 19,
       "pericia": "Combate Corpo-a-Corpo: Lanças",
+      "descritor": "perfuração",
+      "qualidades": [
+        "Perigosa"
+      ],
       "soma_forca": true
     },
-    "fonte": "Livro básico de M&M, cap. 7 (lança); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Gadget Guide: Archaic Weapons (lança, sem Alcance: no D&D a lança não tem alcance); Dano 2: 1d6 perfurante no Livro do Jogador (D&D 5e); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 1.5
   },
   {
     "id": "foice_curta",
@@ -101,63 +129,119 @@
     "categoria": "Arma branca",
     "custo": 2,
     "preco": 1,
-    "notas": "",
+    "notas": "Leve",
     "ataque": {
       "tipo": "corpo",
-      "efeito": 2,
-      "critico": 20,
+      "efeito": 1,
+      "critico": 19,
       "pericia": "Combate Corpo-a-Corpo: Foices",
+      "descritor": "corte",
+      "qualidades": [
+        "Perigosa"
+      ],
       "soma_forca": true
     },
-    "fonte": "Livro básico de M&M, cap. 7 (porrete com corte); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Gadget Guide: Archaic Weapons (lâmina curta); Dano 1: 1d4 cortante no Livro do Jogador (D&D 5e); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 1
+  },
+  {
+    "id": "martelo_leve",
+    "nome": "Martelo leve",
+    "categoria": "Arma branca",
+    "custo": 2,
+    "preco": 2,
+    "notas": "Leve; pode ser arremessado",
+    "ataque": {
+      "tipo": "corpo",
+      "efeito": 1,
+      "critico": 20,
+      "pericia": "Combate Corpo-a-Corpo: Maças",
+      "descritor": "esmagamento",
+      "qualidades": [
+        "Esmagar"
+      ],
+      "soma_forca": true
+    },
+    "fonte": "Gadget Guide: Archaic Weapons (martelo); Dano 1: 1d4 concussão no Livro do Jogador (D&D 5e); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 1
+  },
+  {
+    "id": "clava_grande",
+    "nome": "Clava grande",
+    "categoria": "Arma branca",
+    "custo": 3,
+    "preco": 0.2,
+    "notas": "Duas mãos, pesada",
+    "ataque": {
+      "tipo": "corpo",
+      "efeito": 3,
+      "critico": 20,
+      "pericia": "Combate Corpo-a-Corpo: Porretes",
+      "descritor": "esmagamento",
+      "soma_forca": true
+    },
+    "fonte": "Gadget Guide: Archaic Weapons (porrete); Dano 3: 1d8 concussão no Livro do Jogador (D&D 5e); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 5
   },
   {
     "id": "espada_curta",
     "nome": "Espada curta",
     "categoria": "Arma branca",
-    "custo": 4,
+    "custo": 3,
     "preco": 10,
-    "notas": "",
+    "notas": "Leve",
     "ataque": {
       "tipo": "corpo",
-      "efeito": 3,
+      "efeito": 2,
       "critico": 19,
       "pericia": "Combate Corpo-a-Corpo: Espadas",
+      "descritor": "perfuração",
+      "qualidades": [
+        "Perigosa"
+      ],
       "soma_forca": true
     },
-    "fonte": "Livro básico de M&M, cap. 7 (espada); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Gadget Guide: Archaic Weapons (espada de estocada); Dano 2: 1d6 perfurante no Livro do Jogador (D&D 5e); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 1
   },
   {
     "id": "espada_longa",
     "nome": "Espada longa",
     "categoria": "Arma branca",
-    "custo": 4,
+    "custo": 3,
     "preco": 15,
-    "notas": "",
+    "notas": "Versátil",
     "ataque": {
       "tipo": "corpo",
       "efeito": 3,
-      "critico": 19,
+      "critico": 20,
       "pericia": "Combate Corpo-a-Corpo: Espadas",
+      "descritor": "corte",
       "soma_forca": true
     },
-    "fonte": "Livro básico de M&M, cap. 7 (espada); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Gadget Guide: Archaic Weapons (espada); Dano 3: 1d8 cortante no Livro do Jogador (D&D 5e); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 1.5
   },
   {
     "id": "cimitarra",
     "nome": "Cimitarra",
     "categoria": "Arma branca",
-    "custo": 4,
+    "custo": 3,
     "preco": 25,
-    "notas": "",
+    "notas": "Leve",
     "ataque": {
       "tipo": "corpo",
-      "efeito": 3,
+      "efeito": 2,
       "critico": 19,
       "pericia": "Combate Corpo-a-Corpo: Espadas",
+      "descritor": "corte",
+      "qualidades": [
+        "Perigosa"
+      ],
       "soma_forca": true
     },
-    "fonte": "Livro básico de M&M, cap. 7 (espada); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Gadget Guide: Archaic Weapons (espada curva); Dano 2: 1d6 cortante no Livro do Jogador (D&D 5e); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 1.5
   },
   {
     "id": "rapieira",
@@ -171,41 +255,50 @@
       "efeito": 3,
       "critico": 19,
       "pericia": "Combate Corpo-a-Corpo: Espadas",
+      "descritor": "perfuração",
+      "qualidades": [
+        "Perigosa"
+      ],
       "soma_forca": true
     },
-    "fonte": "Livro básico de M&M, cap. 7 (espada); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Gadget Guide: Archaic Weapons (espada de estocada); Dano 3: 1d8 perfurante no Livro do Jogador (D&D 5e); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 1
   },
   {
     "id": "espada_grande",
     "nome": "Espada grande",
     "categoria": "Arma branca",
-    "custo": 5,
+    "custo": 4,
     "preco": 50,
-    "notas": "Duas mãos",
+    "notas": "Duas mãos, pesada",
     "ataque": {
       "tipo": "corpo",
       "efeito": 4,
-      "critico": 19,
+      "critico": 20,
       "pericia": "Combate Corpo-a-Corpo: Espadas",
+      "descritor": "corte",
       "soma_forca": true
     },
-    "fonte": "Livro básico de M&M, cap. 7 (espada com +1 de Dano); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Gadget Guide: Archaic Weapons (espada); Dano 4: 2d6 cortante no Livro do Jogador (D&D 5e); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 3
   },
   {
     "id": "espada_prata",
     "nome": "Espada de prata",
     "categoria": "Arma branca",
-    "custo": 4,
+    "custo": 3,
     "preco": 115,
-    "notas": "Fere monstros vulneráveis à prata",
+    "notas": "Versátil; fere monstros vulneráveis à prata",
     "ataque": {
       "tipo": "corpo",
       "efeito": 3,
-      "critico": 19,
+      "critico": 20,
       "pericia": "Combate Corpo-a-Corpo: Espadas",
+      "descritor": "corte, prata",
       "soma_forca": true
     },
-    "fonte": "Livro básico de M&M, cap. 7 (espada; preço: espada longa (15 po) + prateamento (100 po), regra de armas prateadas do Livro do Jogador); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Gadget Guide: Archaic Weapons (espada; preço: espada longa (15 po) + prateamento (100 po), regra de armas prateadas do Livro do Jogador); Dano 3: 1d8 cortante no Livro do Jogador (D&D 5e); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 1.5
   },
   {
     "id": "adaga_longa",
@@ -219,9 +312,15 @@
       "efeito": 2,
       "critico": 19,
       "pericia": "Combate Corpo-a-Corpo: Adagas",
+      "descritor": "perfuração",
+      "qualidades": [
+        "Perigosa"
+      ],
       "soma_forca": true
     },
-    "fonte": "Livro básico de M&M, cap. 7 (faca com +1 de Dano; preço da espada curta); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Gadget Guide: Archaic Weapons (adaga, com o Dano da espada curta; preço da espada curta); Dano 2: sem equivalente no Livro do Jogador; preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 1,
+    "peso_estimado": true
   },
   {
     "id": "adaga_longa_prata",
@@ -235,201 +334,369 @@
       "efeito": 2,
       "critico": 19,
       "pericia": "Combate Corpo-a-Corpo: Adagas",
+      "descritor": "perfuração, prata",
+      "qualidades": [
+        "Perigosa"
+      ],
       "soma_forca": true
     },
-    "fonte": "Livro básico de M&M, cap. 7 (faca com +1 de Dano; preço: espada curta (10 po) + prateamento (100 po)); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Gadget Guide: Archaic Weapons (adaga, com o Dano da espada curta; preço: espada curta (10 po) + prateamento (100 po)); Dano 2: sem equivalente no Livro do Jogador; preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 1,
+    "peso_estimado": true
   },
   {
     "id": "machado_batalha",
     "nome": "Machado de batalha",
     "categoria": "Arma branca",
-    "custo": 3,
+    "custo": 5,
     "preco": 10,
-    "notas": "",
+    "notas": "Versátil",
     "ataque": {
       "tipo": "corpo",
       "efeito": 3,
-      "critico": 20,
+      "critico": 19,
       "pericia": "Combate Corpo-a-Corpo: Machados",
+      "descritor": "corte",
+      "qualidades": [
+        "Perigosa",
+        "Quebrar"
+      ],
       "soma_forca": true
     },
-    "fonte": "Livro básico de M&M, cap. 7 (machado de batalha); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Gadget Guide: Archaic Weapons (machado); Dano 3: 1d8 cortante no Livro do Jogador (D&D 5e); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 2
   },
   {
     "id": "machado_grande",
     "nome": "Machado grande",
     "categoria": "Arma branca",
-    "custo": 4,
+    "custo": 6,
     "preco": 30,
-    "notas": "Duas mãos",
+    "notas": "Duas mãos, pesada",
     "ataque": {
       "tipo": "corpo",
       "efeito": 4,
-      "critico": 20,
+      "critico": 19,
       "pericia": "Combate Corpo-a-Corpo: Machados",
+      "descritor": "corte",
+      "qualidades": [
+        "Perigosa",
+        "Quebrar"
+      ],
       "soma_forca": true
     },
-    "fonte": "Livro básico de M&M, cap. 7 (machado de batalha com +1 de Dano); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Gadget Guide: Archaic Weapons (machado); Dano 4: 1d12 cortante no Livro do Jogador (D&D 5e); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 3.5
   },
   {
     "id": "martelo_guerra",
     "nome": "Martelo de guerra",
     "categoria": "Arma branca",
-    "custo": 3,
+    "custo": 4,
     "preco": 15,
-    "notas": "",
+    "notas": "Versátil",
     "ataque": {
       "tipo": "corpo",
       "efeito": 3,
       "critico": 20,
       "pericia": "Combate Corpo-a-Corpo: Maças",
+      "descritor": "esmagamento",
+      "qualidades": [
+        "Esmagar"
+      ],
       "soma_forca": true
     },
-    "fonte": "Livro básico de M&M, cap. 7 (martelo de guerra); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Gadget Guide: Archaic Weapons (martelo); Dano 3: 1d8 concussão no Livro do Jogador (D&D 5e); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 1
   },
   {
     "id": "maca_estrela",
     "nome": "Maça estrela",
     "categoria": "Arma branca",
-    "custo": 3,
+    "custo": 4,
     "preco": 15,
     "notas": "",
     "ataque": {
       "tipo": "corpo",
       "efeito": 3,
-      "critico": 20,
+      "critico": 19,
       "pericia": "Combate Corpo-a-Corpo: Maças",
+      "descritor": "perfuração",
+      "qualidades": [
+        "Perigosa"
+      ],
       "soma_forca": true
     },
-    "fonte": "Livro básico de M&M, cap. 7 (martelo de guerra); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Gadget Guide: Archaic Weapons (maça); Dano 3: 1d8 perfurante no Livro do Jogador (D&D 5e); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 2
   },
   {
     "id": "mangual",
     "nome": "Mangual",
     "categoria": "Arma branca",
-    "custo": 3,
+    "custo": 5,
     "preco": 10,
     "notas": "",
     "ataque": {
       "tipo": "corpo",
       "efeito": 3,
-      "critico": 20,
+      "critico": 19,
       "pericia": "Combate Corpo-a-Corpo: Maças",
+      "descritor": "esmagamento",
+      "qualidades": [
+        "Perigosa",
+        "Desarmar"
+      ],
       "soma_forca": true
     },
-    "fonte": "Livro básico de M&M, cap. 7 (martelo de guerra); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Gadget Guide: Archaic Weapons (mangual, sem Alcance: no D&D o mangual não tem alcance); Dano 3: 1d8 concussão no Livro do Jogador (D&D 5e); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 1
   },
   {
     "id": "malho",
     "nome": "Malho",
     "categoria": "Arma branca",
-    "custo": 4,
+    "custo": 5,
     "preco": 10,
-    "notas": "Duas mãos",
+    "notas": "Duas mãos, pesada",
     "ataque": {
       "tipo": "corpo",
       "efeito": 4,
       "critico": 20,
       "pericia": "Combate Corpo-a-Corpo: Maças",
+      "descritor": "esmagamento",
+      "qualidades": [
+        "Esmagar"
+      ],
       "soma_forca": true
     },
-    "fonte": "Livro básico de M&M, cap. 7 (martelo de guerra com +1 de Dano); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Gadget Guide: Archaic Weapons (martelo); Dano 4: 2d6 concussão no Livro do Jogador (D&D 5e); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 5
+  },
+  {
+    "id": "picareta_guerra",
+    "nome": "Picareta de guerra",
+    "categoria": "Arma branca",
+    "custo": 4,
+    "preco": 5,
+    "notas": "",
+    "ataque": {
+      "tipo": "corpo",
+      "efeito": 3,
+      "critico": 19,
+      "pericia": "Combate Corpo-a-Corpo: Maças",
+      "descritor": "perfuração",
+      "qualidades": [
+        "Perigosa"
+      ],
+      "soma_forca": true
+    },
+    "fonte": "Gadget Guide: Archaic Weapons (martelo com bico); Dano 3: 1d8 perfurante no Livro do Jogador (D&D 5e); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 1
   },
   {
     "id": "alabarda",
     "nome": "Alabarda",
     "categoria": "Arma branca",
-    "custo": 5,
+    "custo": 7,
     "preco": 20,
-    "notas": "Duas mãos, alcance",
+    "notas": "Duas mãos, pesada, alcance de 3 m",
+    "ataque": {
+      "tipo": "corpo",
+      "efeito": 4,
+      "critico": 20,
+      "pericia": "Combate Corpo-a-Corpo: Lanças",
+      "descritor": "corte",
+      "qualidades": [
+        "Alcance 2",
+        "Derrubar"
+      ],
+      "soma_forca": true
+    },
+    "fonte": "Gadget Guide: Archaic Weapons (arma de haste); Dano 4: 1d10 cortante no Livro do Jogador (D&D 5e); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 3
+  },
+  {
+    "id": "glaive",
+    "nome": "Glaive",
+    "categoria": "Arma branca",
+    "custo": 7,
+    "preco": 20,
+    "notas": "Duas mãos, pesada, alcance de 3 m",
+    "ataque": {
+      "tipo": "corpo",
+      "efeito": 4,
+      "critico": 20,
+      "pericia": "Combate Corpo-a-Corpo: Lanças",
+      "descritor": "corte",
+      "qualidades": [
+        "Alcance 2",
+        "Derrubar"
+      ],
+      "soma_forca": true
+    },
+    "fonte": "Gadget Guide: Archaic Weapons (arma de haste); Dano 4: 1d10 cortante no Livro do Jogador (D&D 5e); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 3
+  },
+  {
+    "id": "pique",
+    "nome": "Pique",
+    "categoria": "Arma branca",
+    "custo": 7,
+    "preco": 5,
+    "notas": "Duas mãos, pesada, alcance de 3 m",
     "ataque": {
       "tipo": "corpo",
       "efeito": 4,
       "critico": 19,
       "pericia": "Combate Corpo-a-Corpo: Lanças",
+      "descritor": "perfuração",
+      "qualidades": [
+        "Alcance 2",
+        "Perigosa"
+      ],
       "soma_forca": true
     },
-    "fonte": "Livro básico de M&M, cap. 7 (lança com +1 de Dano); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Gadget Guide: Archaic Weapons (arma de haste); Dano 4: 1d10 perfurante no Livro do Jogador (D&D 5e); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 4
   },
   {
     "id": "lanca_montaria",
     "nome": "Lança de montaria",
     "categoria": "Arma branca",
-    "custo": 5,
+    "custo": 6,
     "preco": 10,
-    "notas": "Usada montado",
+    "notas": "Alcance de 3 m; –2 para atacar um alvo colado; a pé, exige as duas mãos",
     "ataque": {
       "tipo": "corpo",
       "efeito": 4,
-      "critico": 19,
+      "critico": 20,
       "pericia": "Combate Corpo-a-Corpo: Lanças",
+      "descritor": "perfuração",
+      "qualidades": [
+        "Alcance 2"
+      ],
       "soma_forca": true
     },
-    "fonte": "Livro básico de M&M, cap. 7 (lança com +1 de Dano); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Gadget Guide: Archaic Weapons (arma de haste); Dano 4: 1d12 perfurante no Livro do Jogador (D&D 5e); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 3
+  },
+  {
+    "id": "tridente",
+    "nome": "Tridente",
+    "categoria": "Arma branca",
+    "custo": 4,
+    "preco": 5,
+    "notas": "Versátil; pode ser arremessado",
+    "ataque": {
+      "tipo": "corpo",
+      "efeito": 2,
+      "critico": 19,
+      "pericia": "Combate Corpo-a-Corpo: Lanças",
+      "descritor": "perfuração",
+      "qualidades": [
+        "Perigosa",
+        "Desarmar"
+      ],
+      "soma_forca": true
+    },
+    "fonte": "Gadget Guide: Archaic Weapons (tridente, sem Alcance: no D&D o tridente não tem alcance); Dano 2: 1d6 perfurante no Livro do Jogador (D&D 5e); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 2
+  },
+  {
+    "id": "chicote",
+    "nome": "Chicote",
+    "categoria": "Arma branca",
+    "custo": 5,
+    "preco": 2,
+    "notas": "Alcance de 3 m",
+    "ataque": {
+      "tipo": "corpo",
+      "efeito": 1,
+      "critico": 20,
+      "pericia": "Combate Corpo-a-Corpo: Chicotes",
+      "descritor": "corte",
+      "qualidades": [
+        "Alcance 2",
+        "Desarmar",
+        "Agarrar"
+      ],
+      "soma_forca": true
+    },
+    "fonte": "Gadget Guide: Archaic Weapons (chicote); Dano 1: 1d4 cortante no Livro do Jogador (D&D 5e); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 1.5
   },
   {
     "id": "arco_curto",
     "nome": "Arco curto",
     "categoria": "Arma à distância",
-    "custo": 6,
+    "custo": 4,
     "preco": 25,
-    "notas": "",
+    "notas": "Duas mãos",
     "ataque": {
       "tipo": "distancia",
-      "efeito": 3,
+      "efeito": 2,
       "critico": 20,
-      "pericia": "Combate à Distância: Arcos"
+      "pericia": "Combate à Distância: Arcos",
+      "descritor": "perfuração"
     },
-    "fonte": "Livro básico de M&M, cap. 7 (arco); preço do Livro do Jogador (D&D 5e), cap. 5",
-    "municao": "flechas"
+    "fonte": "Gadget Guide: Archaic Weapons (arco); Dano 2: 1d6 perfurante no Livro do Jogador (D&D 5e); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "municao": "flechas",
+    "peso": 1
   },
   {
     "id": "arco_longo",
     "nome": "Arco longo",
     "categoria": "Arma à distância",
-    "custo": 7,
+    "custo": 6,
     "preco": 50,
-    "notas": "Duas mãos",
+    "notas": "Duas mãos, pesada",
     "ataque": {
       "tipo": "distancia",
-      "efeito": 4,
+      "efeito": 3,
       "critico": 20,
-      "pericia": "Combate à Distância: Arcos"
+      "pericia": "Combate à Distância: Arcos",
+      "descritor": "perfuração"
     },
-    "fonte": "Livro básico de M&M, cap. 7 (arco com +1 de Dano); preço do Livro do Jogador (D&D 5e), cap. 5",
-    "municao": "flechas"
+    "fonte": "Gadget Guide: Archaic Weapons (arco); Dano 3: 1d8 perfurante no Livro do Jogador (D&D 5e); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "municao": "flechas",
+    "peso": 1
   },
   {
     "id": "besta_leve",
     "nome": "Besta leve",
     "categoria": "Arma à distância",
-    "custo": 7,
+    "custo": 6,
     "preco": 25,
-    "notas": "Recarga",
+    "notas": "Duas mãos, recarga",
     "ataque": {
       "tipo": "distancia",
       "efeito": 3,
-      "critico": 19,
-      "pericia": "Combate à Distância: Bestas"
+      "critico": 20,
+      "pericia": "Combate à Distância: Bestas",
+      "descritor": "perfuração"
     },
-    "fonte": "Livro básico de M&M, cap. 7 (besta); preço do Livro do Jogador (D&D 5e), cap. 5",
-    "municao": "virotes"
+    "fonte": "Gadget Guide: Archaic Weapons (besta); Dano 3: 1d8 perfurante no Livro do Jogador (D&D 5e); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "municao": "virotes",
+    "peso": 2.5
   },
   {
     "id": "besta_mao",
     "nome": "Besta de mão",
     "categoria": "Arma à distância",
-    "custo": 6,
+    "custo": 4,
     "preco": 75,
     "notas": "Leve, recarga",
     "ataque": {
       "tipo": "distancia",
       "efeito": 2,
-      "critico": 19,
-      "pericia": "Combate à Distância: Bestas"
+      "critico": 20,
+      "pericia": "Combate à Distância: Bestas",
+      "descritor": "perfuração"
     },
-    "fonte": "Livro básico de M&M, cap. 7 (besta com –1 de Dano); preço do Livro do Jogador (D&D 5e), cap. 5",
-    "municao": "virotes"
+    "fonte": "Gadget Guide: Archaic Weapons (besta); Dano 2: 1d6 perfurante no Livro do Jogador (D&D 5e); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "municao": "virotes",
+    "peso": 1.5
   },
   {
     "id": "besta_pesada",
@@ -437,15 +704,17 @@
     "categoria": "Arma à distância",
     "custo": 8,
     "preco": 50,
-    "notas": "Duas mãos, recarga",
+    "notas": "Duas mãos, pesada, recarga",
     "ataque": {
       "tipo": "distancia",
       "efeito": 4,
-      "critico": 19,
-      "pericia": "Combate à Distância: Bestas"
+      "critico": 20,
+      "pericia": "Combate à Distância: Bestas",
+      "descritor": "perfuração"
     },
-    "fonte": "Livro básico de M&M, cap. 7 (besta com +1 de Dano); preço do Livro do Jogador (D&D 5e), cap. 5",
-    "municao": "virotes"
+    "fonte": "Gadget Guide: Archaic Weapons (besta); Dano 4: 1d10 perfurante no Livro do Jogador (D&D 5e); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "municao": "virotes",
+    "peso": 4.5
   },
   {
     "id": "funda",
@@ -458,10 +727,12 @@
       "tipo": "distancia",
       "efeito": 1,
       "critico": 20,
-      "pericia": "Combate à Distância: Arremesso"
+      "pericia": "Combate à Distância: Arremesso",
+      "descritor": "esmagamento"
     },
-    "fonte": "Livro básico de M&M, cap. 7 (bumerangue); preço do Livro do Jogador (D&D 5e), cap. 5",
-    "municao": "balas_de_funda"
+    "fonte": "Gadget Guide: Archaic Weapons (funda); Dano 1: 1d4 concussão no Livro do Jogador (D&D 5e); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "municao": "balas_de_funda",
+    "peso": 0
   },
   {
     "id": "azagaia",
@@ -469,15 +740,17 @@
     "categoria": "Arma à distância",
     "custo": 2,
     "preco": 2,
-    "notas": "Arremessadas",
+    "notas": "Arremessadas; somam a Força",
     "ataque": {
       "tipo": "distancia",
-      "efeito": 1,
+      "efeito": 2,
       "critico": 20,
       "pericia": "Combate à Distância: Arremesso",
+      "descritor": "perfuração",
       "soma_forca": true
     },
-    "fonte": "Livro básico de M&M, cap. 7 (bumerangue, soma a Força como arma arremessada); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Gadget Guide: Archaic Weapons (azagaia; com 4 usos, Não Confiável no lugar do custo à distância); Dano 2: 1d6 perfurante no Livro do Jogador (D&D 5e); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 4
   },
   {
     "id": "dardos",
@@ -485,15 +758,91 @@
     "categoria": "Arma à distância",
     "custo": 2,
     "preco": 0.5,
-    "notas": "Arremessados",
+    "notas": "Arremessados; somam a Força",
     "ataque": {
       "tipo": "distancia",
       "efeito": 1,
       "critico": 20,
       "pericia": "Combate à Distância: Arremesso",
+      "descritor": "perfuração",
       "soma_forca": true
     },
-    "fonte": "Livro básico de M&M, cap. 7 (bumerangue, soma a Força como arma arremessada); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Gadget Guide: Archaic Weapons (azagaia); Dano 1: 1d4 perfurante no Livro do Jogador (D&D 5e); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 1
+  },
+  {
+    "id": "zarabatana",
+    "nome": "Zarabatana",
+    "categoria": "Arma à distância",
+    "custo": 2,
+    "preco": 10,
+    "notas": "Recarga; silenciosa, boa para veneno",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 1,
+      "critico": 20,
+      "pericia": "Combate à Distância: Zarabatanas",
+      "descritor": "perfuração"
+    },
+    "fonte": "Gadget Guide: Archaic Weapons (funda); Dano 1: 1 perfurante no Livro do Jogador (D&D 5e); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "municao": "agulhas",
+    "peso": 0.5
+  },
+  {
+    "id": "rede",
+    "nome": "Rede",
+    "categoria": "Arma à distância",
+    "custo": 3,
+    "preco": 1,
+    "notas": "Arremessada; sem dano: prende o alvo, que depois escapa com Força ou Acrobacia",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 2,
+      "critico": 20,
+      "pericia": "Combate à Distância: Arremesso",
+      "descritor": "—",
+      "qualidades": [
+        "Enredar"
+      ],
+      "efeito_nome": "Agarrar",
+      "resistido_por": "Esquiva"
+    },
+    "fonte": "Gadget Guide: Archaic Weapons (rede: Agarrar 2, Enredar); Dano 2: especial no Livro do Jogador (D&D 5e); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 1.5
+  },
+  {
+    "id": "frasco_acido",
+    "nome": "Frasco de ácido",
+    "categoria": "Arma à distância",
+    "custo": 4,
+    "preco": 25,
+    "notas": "Arremessado; uso único",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 4,
+      "critico": 20,
+      "pericia": "Combate à Distância: Arremesso",
+      "descritor": "ácido"
+    },
+    "fonte": "Gadget Guide: Archaic Weapons (arma de uso único: Não Confiável); Dano 4: 2d6 ácido no Livro do Jogador (D&D 5e); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0.5
+  },
+  {
+    "id": "fogo_alquimico",
+    "nome": "Fogo alquímico (frasco)",
+    "categoria": "Arma à distância",
+    "custo": 1,
+    "preco": 50,
+    "notas": "Arremessado; uso único; o alvo segue queimando até gastar uma ação para apagar",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 1,
+      "critico": 20,
+      "pericia": "Combate à Distância: Arremesso",
+      "descritor": "fogo"
+    },
+    "fonte": "Gadget Guide: Archaic Weapons (arma de uso único: Não Confiável); Dano 1: 1d4 fogo no Livro do Jogador (D&D 5e); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0.5
   },
   {
     "id": "flechas",
@@ -502,7 +851,8 @@
     "custo": 0,
     "preco": 1,
     "descricao": "Para arcos.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0.5
   },
   {
     "id": "virotes",
@@ -511,7 +861,8 @@
     "custo": 0,
     "preco": 1,
     "descricao": "Para bestas.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0.75
   },
   {
     "id": "balas_de_funda",
@@ -520,7 +871,18 @@
     "custo": 0,
     "preco": 0.04,
     "descricao": "Para fundas.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0.75
+  },
+  {
+    "id": "agulhas",
+    "nome": "Agulhas de zarabatana (50)",
+    "categoria": "Munição",
+    "custo": 0,
+    "preco": 1,
+    "descricao": "Para zarabatanas.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0.5
   },
   {
     "id": "acolchoada",
@@ -530,7 +892,8 @@
     "preco": 5,
     "descricao": "Proteção 1.",
     "fonte": "Manual dos Mecanismos Lite, armaduras (tecido acolchoado, como o couro; as \"acolchoadas\" do manual são armaduras de samurai); preço do Livro do Jogador (D&D 5e), cap. 5",
-    "protecao": 1
+    "protecao": 1,
+    "peso": 4
   },
   {
     "id": "couro",
@@ -540,7 +903,8 @@
     "preco": 10,
     "descricao": "Proteção 1.",
     "fonte": "Manual dos Mecanismos Lite, armaduras (couro); preço do Livro do Jogador (D&D 5e), cap. 5",
-    "protecao": 1
+    "protecao": 1,
+    "peso": 5
   },
   {
     "id": "couro_batido",
@@ -550,7 +914,8 @@
     "preco": 45,
     "descricao": "Proteção 2.",
     "fonte": "Manual dos Mecanismos Lite, armaduras (couro cravejado); preço do Livro do Jogador (D&D 5e), cap. 5",
-    "protecao": 2
+    "protecao": 2,
+    "peso": 6.5
   },
   {
     "id": "gibao_peles",
@@ -560,7 +925,8 @@
     "preco": 10,
     "descricao": "Proteção 2.",
     "fonte": "Manual dos Mecanismos Lite, armaduras (como o couro cravejado); preço do Livro do Jogador (D&D 5e), cap. 5",
-    "protecao": 2
+    "protecao": 2,
+    "peso": 6
   },
   {
     "id": "camisao_malha",
@@ -570,7 +936,8 @@
     "preco": 30,
     "descricao": "Proteção 2.",
     "fonte": "Manual dos Mecanismos Lite, armaduras (cota de malha sem mangas: –1 de Proteção); preço do Livro do Jogador (D&D 5e), cap. 5",
-    "protecao": 2
+    "protecao": 2,
+    "peso": 10
   },
   {
     "id": "brunea",
@@ -580,7 +947,8 @@
     "preco": 50,
     "descricao": "Proteção 3.",
     "fonte": "Manual dos Mecanismos Lite, armaduras (armadura de escamas); preço do Livro do Jogador (D&D 5e), cap. 5",
-    "protecao": 3
+    "protecao": 3,
+    "peso": 22.5
   },
   {
     "id": "cota_malha",
@@ -590,7 +958,8 @@
     "preco": 75,
     "descricao": "Proteção 3.",
     "fonte": "Manual dos Mecanismos Lite, armaduras (cota de malha); preço do Livro do Jogador (D&D 5e), cap. 5",
-    "protecao": 3
+    "protecao": 3,
+    "peso": 27.5
   },
   {
     "id": "peitoral",
@@ -600,7 +969,8 @@
     "preco": 400,
     "descricao": "Proteção 4.",
     "fonte": "Manual dos Mecanismos Lite, armaduras (peitoral completo de metal); preço do Livro do Jogador (D&D 5e), cap. 5",
-    "protecao": 4
+    "protecao": 4,
+    "peso": 10
   },
   {
     "id": "cota_talas",
@@ -610,7 +980,8 @@
     "preco": 200,
     "descricao": "Proteção 4.",
     "fonte": "Manual dos Mecanismos Lite, armaduras (talas de metal sobre couro e malha, como a cota com peitoral; acima da cota de malha); preço do Livro do Jogador (D&D 5e), cap. 5",
-    "protecao": 4
+    "protecao": 4,
+    "peso": 30
   },
   {
     "id": "meia_armadura",
@@ -620,7 +991,8 @@
     "preco": 750,
     "descricao": "Proteção 5.",
     "fonte": "Manual dos Mecanismos Lite, armaduras (armadura de placas: placas afiveladas sobre a malha); preço do Livro do Jogador (D&D 5e), cap. 5",
-    "protecao": 5
+    "protecao": 5,
+    "peso": 20
   },
   {
     "id": "placas",
@@ -630,7 +1002,8 @@
     "preco": 1500,
     "descricao": "Proteção 6.",
     "fonte": "Manual dos Mecanismos Lite, armaduras (armadura completa articulada); preço do Livro do Jogador (D&D 5e), cap. 5",
-    "protecao": 6
+    "protecao": 6,
+    "peso": 32.5
   },
   {
     "id": "broquel",
@@ -640,7 +1013,9 @@
     "preco": 5,
     "descricao": "+1 em Esquiva e Aparar.",
     "fonte": "Livro básico de M&M, cap. 7 (escudo pequeno); preço do Livro do Jogador (D&D 5e), cap. 5",
-    "defesas_ativas": 1
+    "defesas_ativas": 1,
+    "peso": 1.5,
+    "peso_estimado": true
   },
   {
     "id": "escudo",
@@ -650,7 +1025,8 @@
     "preco": 10,
     "descricao": "+2 em Esquiva e Aparar.",
     "fonte": "Livro básico de M&M, cap. 7 (escudo médio); preço do Livro do Jogador (D&D 5e), cap. 5",
-    "defesas_ativas": 2
+    "defesas_ativas": 2,
+    "peso": 3
   },
   {
     "id": "escudo_torre",
@@ -660,7 +1036,9 @@
     "preco": 30,
     "descricao": "+3 em Esquiva e Aparar; pesado.",
     "fonte": "Livro básico de M&M, cap. 7 (escudo grande; preço estimado); preço do Livro do Jogador (D&D 5e), cap. 5",
-    "defesas_ativas": 3
+    "defesas_ativas": 3,
+    "peso": 7.5,
+    "peso_estimado": true
   },
   {
     "id": "grimorio",
@@ -669,7 +1047,8 @@
     "custo": 1,
     "preco": 50,
     "descricao": "O livro de magias do mago.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 1.5
   },
   {
     "id": "bolsa_componentes",
@@ -678,7 +1057,8 @@
     "custo": 1,
     "preco": 25,
     "descricao": "Ingredientes para conjurar.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 1
   },
   {
     "id": "simbolo_sagrado",
@@ -687,7 +1067,8 @@
     "custo": 1,
     "preco": 5,
     "descricao": "Foco de clérigos e paladinos.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0.5
   },
   {
     "id": "foco_druidico",
@@ -696,7 +1077,8 @@
     "custo": 1,
     "preco": 1,
     "descricao": "Foco de druidas e patrulheiros.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0
   },
   {
     "id": "varinha",
@@ -705,7 +1087,8 @@
     "custo": 1,
     "preco": 10,
     "descricao": "Foco arcano.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0.5
   },
   {
     "id": "orbe",
@@ -714,7 +1097,8 @@
     "custo": 1,
     "preco": 20,
     "descricao": "Foco arcano.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 1.5
   },
   {
     "id": "giz_runico",
@@ -723,7 +1107,9 @@
     "custo": 1,
     "preco": 5,
     "descricao": "Para desenhar as runas que o mago rúnico precisa.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço estimado; preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço estimado; preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0.25,
+    "peso_estimado": true
   },
   {
     "id": "agua_benta",
@@ -732,7 +1118,8 @@
     "custo": 1,
     "preco": 25,
     "descricao": "Fere mortos-vivos e demônios.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0.5
   },
   {
     "id": "ferramentas_ladrao",
@@ -741,7 +1128,8 @@
     "custo": 1,
     "preco": 25,
     "descricao": "Abre fechaduras e desarma armadilhas sem a penalidade de –5.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0.5
   },
   {
     "id": "kit_disfarce",
@@ -750,7 +1138,8 @@
     "custo": 1,
     "preco": 25,
     "descricao": "Maquiagem e roupas para Enganação.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 1.5
   },
   {
     "id": "kit_herbalismo",
@@ -759,7 +1148,8 @@
     "custo": 1,
     "preco": 5,
     "descricao": "Prepara remédios e antídotos.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 1.5
   },
   {
     "id": "kit_primeiros_socorros",
@@ -768,7 +1158,8 @@
     "custo": 1,
     "preco": 5,
     "descricao": "Usa Tratamento sem a penalidade de –5.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 1.5
   },
   {
     "id": "kit_escalada",
@@ -777,7 +1168,8 @@
     "custo": 1,
     "preco": 25,
     "descricao": "+2 em Atletismo para escalar.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 6
   },
   {
     "id": "alaude",
@@ -786,7 +1178,8 @@
     "custo": 1,
     "preco": 35,
     "descricao": "Instrumento de bardo.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 1
   },
   {
     "id": "flauta",
@@ -795,7 +1188,8 @@
     "custo": 1,
     "preco": 2,
     "descricao": "Instrumento de bardo.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0.5
   },
   {
     "id": "luneta",
@@ -804,7 +1198,168 @@
     "custo": 1,
     "preco": 1000,
     "descricao": "+5 em Percepção visual à distância.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0.5
+  },
+  {
+    "id": "suprimentos_alquimista",
+    "nome": "Suprimentos de alquimista",
+    "categoria": "Ferramentas",
+    "custo": 1,
+    "preco": 50,
+    "descricao": "Prepara ácido, fogo alquímico e antitoxina (Especialidade: Alquimia sem a penalidade de –5).",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 4
+  },
+  {
+    "id": "kit_envenenador",
+    "nome": "Kit de envenenador",
+    "categoria": "Ferramentas",
+    "custo": 1,
+    "preco": 50,
+    "descricao": "Prepara e aplica venenos sem se envenenar.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 1
+  },
+  {
+    "id": "kit_falsificacao",
+    "nome": "Kit de falsificação",
+    "categoria": "Ferramentas",
+    "custo": 1,
+    "preco": 15,
+    "descricao": "Papéis, tintas e selos para falsificar documentos (Enganação sem a penalidade de –5).",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 2.5
+  },
+  {
+    "id": "ferramentas_ferreiro",
+    "nome": "Ferramentas de ferreiro",
+    "categoria": "Ferramentas",
+    "custo": 1,
+    "preco": 20,
+    "descricao": "Conserta armas e armaduras e forja peças de metal (Tecnologia sem a penalidade de –5).",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 4
+  },
+  {
+    "id": "ferramentas_carpinteiro",
+    "nome": "Ferramentas de carpinteiro",
+    "categoria": "Ferramentas",
+    "custo": 1,
+    "preco": 8,
+    "descricao": "Constrói e conserta portas, carroças e barricadas (Tecnologia sem a penalidade de –5).",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 3
+  },
+  {
+    "id": "ferramentas_cartografo",
+    "nome": "Ferramentas de cartógrafo",
+    "categoria": "Ferramentas",
+    "custo": 1,
+    "preco": 15,
+    "descricao": "Desenha mapas precisos.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 3
+  },
+  {
+    "id": "ferramentas_joalheiro",
+    "nome": "Ferramentas de joalheiro",
+    "categoria": "Ferramentas",
+    "custo": 1,
+    "preco": 25,
+    "descricao": "Avalia e lapida gemas.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 1
+  },
+  {
+    "id": "ferramentas_navegador",
+    "nome": "Ferramentas de navegador",
+    "categoria": "Ferramentas",
+    "custo": 1,
+    "preco": 25,
+    "descricao": "Sextante, bússola e cartas para se orientar no mar.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 1
+  },
+  {
+    "id": "utensilios_cozinheiro",
+    "nome": "Utensílios de cozinheiro",
+    "categoria": "Ferramentas",
+    "custo": 1,
+    "preco": 1,
+    "descricao": "Panela, facas e temperos: refeição quente no acampamento.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 4
+  },
+  {
+    "id": "dados",
+    "nome": "Jogo de dados",
+    "categoria": "Ferramentas",
+    "custo": 1,
+    "preco": 0.1,
+    "descricao": "Para apostar na taverna.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0
+  },
+  {
+    "id": "baralho",
+    "nome": "Baralho",
+    "categoria": "Ferramentas",
+    "custo": 1,
+    "preco": 0.5,
+    "descricao": "Para apostar (e trapacear) na taverna.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0
+  },
+  {
+    "id": "lira",
+    "nome": "Lira",
+    "categoria": "Ferramentas",
+    "custo": 1,
+    "preco": 30,
+    "descricao": "Instrumento de bardo.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 1
+  },
+  {
+    "id": "viola",
+    "nome": "Viola",
+    "categoria": "Ferramentas",
+    "custo": 1,
+    "preco": 30,
+    "descricao": "Instrumento de bardo.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 3
+  },
+  {
+    "id": "tambor",
+    "nome": "Tambor",
+    "categoria": "Ferramentas",
+    "custo": 1,
+    "preco": 6,
+    "descricao": "Instrumento de bardo; marca o passo da tropa.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 1.5
+  },
+  {
+    "id": "trompa",
+    "nome": "Trompa",
+    "categoria": "Ferramentas",
+    "custo": 1,
+    "preco": 3,
+    "descricao": "Instrumento de bardo; o toque de caça ou de guerra.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 1
+  },
+  {
+    "id": "gaita_foles",
+    "nome": "Gaita de foles",
+    "categoria": "Ferramentas",
+    "custo": 1,
+    "preco": 30,
+    "descricao": "Instrumento de bardo; ouvida a quilômetros.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 3
   },
   {
     "id": "mochila",
@@ -813,7 +1368,8 @@
     "custo": 1,
     "preco": 2,
     "descricao": "Carrega o resto do equipamento.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 2.5
   },
   {
     "id": "saco_dormir",
@@ -822,7 +1378,8 @@
     "custo": 1,
     "preco": 1,
     "descricao": "Para dormir ao relento.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 3.5
   },
   {
     "id": "corda",
@@ -831,7 +1388,8 @@
     "custo": 1,
     "preco": 1,
     "descricao": "Para escalar e amarrar.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 5
   },
   {
     "id": "tochas",
@@ -840,7 +1398,8 @@
     "custo": 1,
     "preco": 0.1,
     "descricao": "Iluminam 6 m por uma hora cada.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 5
   },
   {
     "id": "lanterna_coberta",
@@ -849,7 +1408,8 @@
     "custo": 1,
     "preco": 5,
     "descricao": "Ilumina 9 m; não apaga com vento.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 1
   },
   {
     "id": "cantil",
@@ -858,7 +1418,8 @@
     "custo": 1,
     "preco": 0.2,
     "descricao": "Água para um dia.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 2.5
   },
   {
     "id": "pe_de_cabra",
@@ -867,7 +1428,8 @@
     "custo": 1,
     "preco": 2,
     "descricao": "+2 em Força para forçar portas.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 2.5
   },
   {
     "id": "tenda",
@@ -876,7 +1438,8 @@
     "custo": 1,
     "preco": 2,
     "descricao": "Abrigo de viagem.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 10
   },
   {
     "id": "algemas",
@@ -885,7 +1448,8 @@
     "custo": 1,
     "preco": 2,
     "descricao": "Prende prisioneiros.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 2
   },
   {
     "id": "manto",
@@ -894,7 +1458,418 @@
     "custo": 1,
     "preco": 1,
     "descricao": "Protege do frio e da chuva.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 2
+  },
+  {
+    "id": "aljava",
+    "nome": "Aljava",
+    "categoria": "Equipamento de aventura",
+    "custo": 1,
+    "preco": 1,
+    "descricao": "Carrega 20 flechas.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0.5
+  },
+  {
+    "id": "ampulheta",
+    "nome": "Ampulheta",
+    "categoria": "Equipamento de aventura",
+    "custo": 1,
+    "preco": 25,
+    "descricao": "Marca a passagem do tempo.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0.5
+  },
+  {
+    "id": "apito",
+    "nome": "Apito de sinalização",
+    "categoria": "Equipamento de aventura",
+    "custo": 1,
+    "preco": 0.05,
+    "descricao": "Ouvido a centenas de metros.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0
+  },
+  {
+    "id": "ariete",
+    "nome": "Aríete portátil",
+    "categoria": "Equipamento de aventura",
+    "custo": 1,
+    "preco": 4,
+    "descricao": "+2 em Força para arrombar portas.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 17.5
+  },
+  {
+    "id": "balanca",
+    "nome": "Balança de mercador",
+    "categoria": "Equipamento de aventura",
+    "custo": 1,
+    "preco": 5,
+    "descricao": "Pesa moedas e mercadorias.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 1.5
+  },
+  {
+    "id": "barril",
+    "nome": "Barril",
+    "categoria": "Equipamento de aventura",
+    "custo": 1,
+    "preco": 2,
+    "descricao": "Guarda 150 litros de líquido.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 35
+  },
+  {
+    "id": "bau",
+    "nome": "Baú",
+    "categoria": "Equipamento de aventura",
+    "custo": 1,
+    "preco": 5,
+    "descricao": "Guarda o tesouro; tranca com cadeado.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 12.5
+  },
+  {
+    "id": "bolsa_cinto",
+    "nome": "Bolsa de cinto",
+    "categoria": "Equipamento de aventura",
+    "custo": 1,
+    "preco": 0.5,
+    "descricao": "Para moedas e miudezas.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0.5
+  },
+  {
+    "id": "cadeado",
+    "nome": "Cadeado",
+    "categoria": "Equipamento de aventura",
+    "custo": 1,
+    "preco": 10,
+    "descricao": "Abri-lo sem a chave pede ferramentas de ladrão e um teste de Tecnologia (CD 15).",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0.5
+  },
+  {
+    "id": "cobertor",
+    "nome": "Cobertor",
+    "categoria": "Equipamento de aventura",
+    "custo": 1,
+    "preco": 0.5,
+    "descricao": "Para as noites frias.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 1.5
+  },
+  {
+    "id": "corda_seda",
+    "nome": "Corda de seda (15 m)",
+    "categoria": "Equipamento de aventura",
+    "custo": 1,
+    "preco": 10,
+    "descricao": "Mais leve e forte que a de cânhamo.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 2.5
+  },
+  {
+    "id": "corrente",
+    "nome": "Corrente (3 m)",
+    "categoria": "Equipamento de aventura",
+    "custo": 1,
+    "preco": 5,
+    "descricao": "Rompê-la pede Força (CD 20).",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 5
+  },
+  {
+    "id": "espelho",
+    "nome": "Espelho de aço",
+    "categoria": "Equipamento de aventura",
+    "custo": 1,
+    "preco": 5,
+    "descricao": "Espia em volta das esquinas e mostra a medusa sem precisar encará-la.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0.25
+  },
+  {
+    "id": "esferas",
+    "nome": "Esferas de metal (bolsa com 1.000)",
+    "categoria": "Equipamento de aventura",
+    "custo": 1,
+    "preco": 1,
+    "descricao": "Espalhadas no chão: quem passa correndo resiste com Acrobacia (CD 10) ou cai.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 1
+  },
+  {
+    "id": "estrepes",
+    "nome": "Estrepes (saco com 20)",
+    "categoria": "Equipamento de aventura",
+    "custo": 1,
+    "preco": 1,
+    "descricao": "Espalhados no chão: quem passa sem cuidado resiste com Esquiva (CD 10) ou fica impedido.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 1
+  },
+  {
+    "id": "estojo_mapas",
+    "nome": "Estojo para mapas",
+    "categoria": "Equipamento de aventura",
+    "custo": 1,
+    "preco": 1,
+    "descricao": "Protege mapas e pergaminhos da chuva.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0.5
+  },
+  {
+    "id": "frasco",
+    "nome": "Frasco de vidro",
+    "categoria": "Equipamento de aventura",
+    "custo": 1,
+    "preco": 1,
+    "descricao": "Para poções, ácido e amostras.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0
+  },
+  {
+    "id": "gancho",
+    "nome": "Gancho de escalada",
+    "categoria": "Equipamento de aventura",
+    "custo": 1,
+    "preco": 2,
+    "descricao": "Preso à corda, +2 em Atletismo para escalar muros.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 2
+  },
+  {
+    "id": "giz",
+    "nome": "Giz (peça)",
+    "categoria": "Equipamento de aventura",
+    "custo": 1,
+    "preco": 0.01,
+    "descricao": "Marca o caminho na masmorra.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0
+  },
+  {
+    "id": "lamparina",
+    "nome": "Lamparina",
+    "categoria": "Equipamento de aventura",
+    "custo": 1,
+    "preco": 0.5,
+    "descricao": "Ilumina 4,5 m por 6 horas com um frasco de óleo.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0.5
+  },
+  {
+    "id": "lanterna_furta_fogo",
+    "nome": "Lanterna furta-fogo",
+    "categoria": "Equipamento de aventura",
+    "custo": 1,
+    "preco": 10,
+    "descricao": "Facho de luz de 18 m que se fecha num instante.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 1
+  },
+  {
+    "id": "livro",
+    "nome": "Livro",
+    "categoria": "Equipamento de aventura",
+    "custo": 1,
+    "preco": 25,
+    "descricao": "Um tratado, uma crônica ou um diário em branco.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 2.5
+  },
+  {
+    "id": "lupa",
+    "nome": "Lupa",
+    "categoria": "Equipamento de aventura",
+    "custo": 1,
+    "preco": 100,
+    "descricao": "+2 em Investigação para examinar de perto; acende fogo com a luz do sol.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0
+  },
+  {
+    "id": "martelo",
+    "nome": "Martelo",
+    "categoria": "Equipamento de aventura",
+    "custo": 1,
+    "preco": 1,
+    "descricao": "Para pregos e pitões.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 1.5
+  },
+  {
+    "id": "oleo",
+    "nome": "Óleo (frasco)",
+    "categoria": "Equipamento de aventura",
+    "custo": 1,
+    "preco": 0.1,
+    "descricao": "Combustível de lamparina; derramado e aceso, queima o chão por alguns turnos.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0.5
+  },
+  {
+    "id": "pa",
+    "nome": "Pá",
+    "categoria": "Equipamento de aventura",
+    "custo": 1,
+    "preco": 2,
+    "descricao": "Cava buracos, covas e trincheiras.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 2.5
+  },
+  {
+    "id": "papel",
+    "nome": "Papel (folha)",
+    "categoria": "Equipamento de aventura",
+    "custo": 1,
+    "preco": 0.2,
+    "descricao": "Para cartas e mapas.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0
+  },
+  {
+    "id": "pederneira",
+    "nome": "Estojo de pederneira",
+    "categoria": "Equipamento de aventura",
+    "custo": 1,
+    "preco": 0.5,
+    "descricao": "Acende uma fogueira em um minuto.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0.5
+  },
+  {
+    "id": "pena_escrever",
+    "nome": "Pena de escrever",
+    "categoria": "Equipamento de aventura",
+    "custo": 1,
+    "preco": 0.02,
+    "descricao": "Para escrever com tinta.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0
+  },
+  {
+    "id": "pergaminho",
+    "nome": "Pergaminho (folha)",
+    "categoria": "Equipamento de aventura",
+    "custo": 1,
+    "preco": 0.1,
+    "descricao": "Mais resistente que o papel.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0
+  },
+  {
+    "id": "picareta",
+    "nome": "Picareta de minerador",
+    "categoria": "Equipamento de aventura",
+    "custo": 1,
+    "preco": 2,
+    "descricao": "Cava pedra e terra.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 5
+  },
+  {
+    "id": "pitoes",
+    "nome": "Pitões de ferro (10)",
+    "categoria": "Equipamento de aventura",
+    "custo": 1,
+    "preco": 0.5,
+    "descricao": "Cravados na rocha, ancoram a corda.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0
+  },
+  {
+    "id": "sabao",
+    "nome": "Sabão",
+    "categoria": "Equipamento de aventura",
+    "custo": 1,
+    "preco": 0.02,
+    "descricao": "Para lavar a lama da estrada.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0
+  },
+  {
+    "id": "saco",
+    "nome": "Saco",
+    "categoria": "Equipamento de aventura",
+    "custo": 1,
+    "preco": 0.01,
+    "descricao": "Carrega até 15 kg.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0.25
+  },
+  {
+    "id": "sinete",
+    "nome": "Anel de sinete",
+    "categoria": "Equipamento de aventura",
+    "custo": 1,
+    "preco": 5,
+    "descricao": "Lacra cartas com o brasão da família.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0
+  },
+  {
+    "id": "sino",
+    "nome": "Sino",
+    "categoria": "Equipamento de aventura",
+    "custo": 1,
+    "preco": 1,
+    "descricao": "Alarme simples para o acampamento.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0
+  },
+  {
+    "id": "tinta",
+    "nome": "Tinta (frasco)",
+    "categoria": "Equipamento de aventura",
+    "custo": 1,
+    "preco": 10,
+    "descricao": "Dá para escrever um livro inteiro.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0
+  },
+  {
+    "id": "vara",
+    "nome": "Vara de 3 m",
+    "categoria": "Equipamento de aventura",
+    "custo": 1,
+    "preco": 0.05,
+    "descricao": "Cutuca o chão à procura de armadilhas.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 3.5
+  },
+  {
+    "id": "velas",
+    "nome": "Velas (10)",
+    "categoria": "Equipamento de aventura",
+    "custo": 1,
+    "preco": 0.1,
+    "descricao": "Iluminam 1,5 m por uma hora cada.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0
+  },
+  {
+    "id": "kit_refeicao",
+    "nome": "Kit de refeição",
+    "categoria": "Equipamento de aventura",
+    "custo": 1,
+    "preco": 0.2,
+    "descricao": "Prato, caneca e talheres de lata.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0.5
+  },
+  {
+    "id": "armadilha_caca",
+    "nome": "Armadilha de caça",
+    "categoria": "Equipamento de aventura",
+    "custo": 1,
+    "preco": 5,
+    "descricao": "Mandíbulas de ferro escondidas no chão: quem pisa resiste com Esquiva (CD 13) ou fica imóvel até abri-la com Força (CD 13).",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 12.5
   },
   {
     "id": "pocao_cura",
@@ -903,7 +1878,39 @@
     "custo": 1,
     "preco": 50,
     "descricao": "Recupera um grau de dano (teste de recuperação imediato).",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0.25
+  },
+  {
+    "id": "antitoxina",
+    "nome": "Antitoxina (frasco)",
+    "categoria": "Poções",
+    "custo": 1,
+    "preco": 50,
+    "descricao": "+5 nos testes de Fortitude contra veneno por uma hora.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0
+  },
+  {
+    "id": "veneno",
+    "nome": "Veneno básico (frasco)",
+    "categoria": "Poções",
+    "custo": 1,
+    "preco": 100,
+    "descricao": "Passado numa lâmina, dardo ou agulha: no próximo acerto, o alvo também resiste com Fortitude (CD 12) ou fica tonto até o fim da cena.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0
+  },
+  {
+    "id": "bomba_bruxo",
+    "nome": "Bomba de bruxo",
+    "categoria": "Poções",
+    "custo": 1,
+    "preco": 50,
+    "descricao": "Arremessada, explode num raio de 3 m: quem estiver nele resiste com Fortitude (CD 14) ou fica tonto; Samum cega, Estrela dançante queima e Gás do dragão envenena (combine o efeito com o mestre).",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); item de The Witcher, sem equivalente no Livro do Jogador; preço do fogo alquímico",
+    "peso": 0.5,
+    "peso_estimado": true
   },
   {
     "id": "elixires",
@@ -912,7 +1919,9 @@
     "custo": 1,
     "preco": 50,
     "descricao": "Andorinha, Trovão, Gato...: o efeito é narrado pelo mestre. Tóxicos para quem não passou pelas mutações.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); item de The Witcher; preço da poção de cura e do antídoto do Livro do Jogador (50 po)"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); item de The Witcher; preço da poção de cura e do antídoto do Livro do Jogador (50 po)",
+    "peso": 0.25,
+    "peso_estimado": true
   },
   {
     "id": "oleo_laminas",
@@ -921,7 +1930,9 @@
     "custo": 1,
     "preco": 5,
     "descricao": "Passado na espada antes de enfrentar uma espécie de monstro.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); item de The Witcher, sem equivalente no Livro do Jogador; preço estimado"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); item de The Witcher, sem equivalente no Livro do Jogador; preço estimado",
+    "peso": 0.5,
+    "peso_estimado": true
   },
   {
     "id": "kit_bruxo",
@@ -997,13 +2008,76 @@
     ]
   },
   {
+    "id": "kit_explorador",
+    "nome": "Pacote de explorador",
+    "categoria": "Kits",
+    "custo": 0,
+    "preco": 10,
+    "descricao": "Mochila, saco de dormir, kit de refeição, estojo de pederneira, 10 tochas, 10 dias de rações, cantil e corda de cânhamo.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); pacote do Livro do Jogador (D&D 5e), cap. 5",
+    "kit": [
+      "mochila",
+      "saco_dormir",
+      "kit_refeicao",
+      "pederneira",
+      "tochas",
+      {
+        "id": "racoes",
+        "quantidade": 2
+      },
+      "cantil",
+      "corda"
+    ]
+  },
+  {
+    "id": "kit_masmorra",
+    "nome": "Pacote de masmorra",
+    "categoria": "Kits",
+    "custo": 0,
+    "preco": 12,
+    "descricao": "Mochila, pé de cabra, martelo, 10 pitões, 10 tochas, estojo de pederneira, 10 dias de rações, cantil e corda de cânhamo.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); pacote do Livro do Jogador (D&D 5e), cap. 5",
+    "kit": [
+      "mochila",
+      "pe_de_cabra",
+      "martelo",
+      "pitoes",
+      "tochas",
+      "pederneira",
+      {
+        "id": "racoes",
+        "quantidade": 2
+      },
+      "cantil",
+      "corda"
+    ]
+  },
+  {
+    "id": "kit_estudioso",
+    "nome": "Pacote de estudioso",
+    "categoria": "Kits",
+    "custo": 0,
+    "preco": 40,
+    "descricao": "Mochila, livro, tinta, pena de escrever, 10 folhas de pergaminho e uma bolsa de cinto.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); pacote do Livro do Jogador (D&D 5e), cap. 5",
+    "kit": [
+      "mochila",
+      "livro",
+      "tinta",
+      "pena_escrever",
+      "pergaminho",
+      "bolsa_cinto"
+    ]
+  },
+  {
     "id": "racoes",
     "nome": "Rações de viagem (5 dias)",
     "categoria": "Comida",
     "custo": 1,
     "preco": 2.5,
     "descricao": "Carne seca, pão duro e frutas secas.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 5
   },
   {
     "id": "vinho",
@@ -1012,7 +2086,9 @@
     "custo": 1,
     "preco": 0.2,
     "descricao": "Para a estrada ou para a taverna.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 2,
+    "peso_estimado": true
   },
   {
     "id": "cerveja",
@@ -1021,7 +2097,73 @@
     "custo": 1,
     "preco": 0.4,
     "descricao": "Alegra o acampamento.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 4,
+    "peso_estimado": true
+  },
+  {
+    "id": "pao",
+    "nome": "Pão (pedaço)",
+    "categoria": "Comida",
+    "custo": 1,
+    "preco": 0.02,
+    "descricao": "Pão de centeio do dia.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0.25,
+    "peso_estimado": true
+  },
+  {
+    "id": "queijo",
+    "nome": "Queijo (pedaço)",
+    "categoria": "Comida",
+    "custo": 1,
+    "preco": 0.1,
+    "descricao": "Dura semanas na mochila.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0.25,
+    "peso_estimado": true
+  },
+  {
+    "id": "carne",
+    "nome": "Carne (pedaço)",
+    "categoria": "Comida",
+    "custo": 1,
+    "preco": 0.3,
+    "descricao": "Assada na hora ou salgada para a viagem.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0.5,
+    "peso_estimado": true
+  },
+  {
+    "id": "refeicao",
+    "nome": "Refeição na taverna",
+    "categoria": "Comida",
+    "custo": 1,
+    "preco": 0.3,
+    "descricao": "Ensopado, pão e uma caneca.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0
+  },
+  {
+    "id": "cerveja_caneca",
+    "nome": "Cerveja (caneca)",
+    "categoria": "Bebida",
+    "custo": 1,
+    "preco": 0.04,
+    "descricao": "Na taverna.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 0
+  },
+  {
+    "id": "vinho_fino",
+    "nome": "Vinho fino (garrafa)",
+    "categoria": "Bebida",
+    "custo": 1,
+    "preco": 10,
+    "descricao": "Para impressionar um nobre.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 1,
+    "peso_estimado": true
   },
   {
     "id": "ponei",
@@ -1030,7 +2172,10 @@
     "custo": null,
     "preco": 30,
     "descricao": "Montaria de halflings e anões.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "velocidade": 3,
+    "carga": 115,
+    "fonte_velocidade": "Guia do Mestre, Cavalo e Animal de rebanho; carga do Livro do Jogador"
   },
   {
     "id": "cavalo_montaria",
@@ -1039,7 +2184,10 @@
     "custo": null,
     "preco": 75,
     "descricao": "Montaria comum.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "velocidade": 4,
+    "carga": 220,
+    "fonte_velocidade": "Guia do Mestre, Cavalo e Animal de rebanho; carga do Livro do Jogador"
   },
   {
     "id": "cavalo_guerra",
@@ -1048,7 +2196,10 @@
     "custo": null,
     "preco": 400,
     "descricao": "Treinado para o combate.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "velocidade": 4,
+    "carga": 270,
+    "fonte_velocidade": "Guia do Mestre, Cavalo e Animal de rebanho; carga do Livro do Jogador"
   },
   {
     "id": "sela",
@@ -1057,7 +2208,102 @@
     "custo": null,
     "preco": 10,
     "descricao": "Para viajar a cavalo.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 12.5
+  },
+  {
+    "id": "burro",
+    "nome": "Burro ou mula",
+    "categoria": "Montaria",
+    "custo": null,
+    "preco": 8,
+    "descricao": "Carrega a bagagem sem reclamar (muito).",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "velocidade": 3,
+    "carga": 210,
+    "fonte_velocidade": "Guia do Mestre, Cavalo e Animal de rebanho; carga do Livro do Jogador"
+  },
+  {
+    "id": "cavalo_tracao",
+    "nome": "Cavalo de tração",
+    "categoria": "Montaria",
+    "custo": null,
+    "preco": 50,
+    "descricao": "Puxa carroças e arados.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "velocidade": 3,
+    "carga": 270,
+    "fonte_velocidade": "Guia do Mestre, Cavalo e Animal de rebanho; carga do Livro do Jogador"
+  },
+  {
+    "id": "camelo",
+    "nome": "Camelo",
+    "categoria": "Montaria",
+    "custo": null,
+    "preco": 50,
+    "descricao": "Atravessa o deserto dias sem beber.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "velocidade": 3,
+    "carga": 240,
+    "fonte_velocidade": "Guia do Mestre, Cavalo e Animal de rebanho; carga do Livro do Jogador"
+  },
+  {
+    "id": "mastim",
+    "nome": "Mastim",
+    "categoria": "Montaria",
+    "custo": null,
+    "preco": 25,
+    "descricao": "Cão de guarda e de caça.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "velocidade": 3,
+    "carga": 100,
+    "fonte_velocidade": "Guia do Mestre, Cavalo e Animal de rebanho; carga do Livro do Jogador"
+  },
+  {
+    "id": "alforjes",
+    "nome": "Alforjes",
+    "categoria": "Montaria",
+    "custo": null,
+    "preco": 4,
+    "descricao": "Bolsas presas à sela.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 4
+  },
+  {
+    "id": "carroca",
+    "nome": "Carroça",
+    "categoria": "Veículos",
+    "custo": null,
+    "preco": 35,
+    "descricao": "Puxada por um cavalo ou burro; leva a carga do grupo.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 100,
+    "velocidade": 1,
+    "fonte_velocidade": "estimada: o passo do animal que puxa ou de quem rema"
+  },
+  {
+    "id": "carruagem",
+    "nome": "Carruagem",
+    "categoria": "Veículos",
+    "custo": null,
+    "preco": 100,
+    "descricao": "Para viajar com conforto (e chamar atenção).",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 300,
+    "velocidade": 2,
+    "fonte_velocidade": "estimada: o passo do animal que puxa ou de quem rema"
+  },
+  {
+    "id": "barco_remo",
+    "nome": "Barco a remo",
+    "categoria": "Veículos",
+    "custo": null,
+    "preco": 50,
+    "descricao": "Leva quatro pessoas por rios e lagos.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 45,
+    "velocidade": -1,
+    "fonte_velocidade": "estimada: o passo do animal que puxa ou de quem rema"
   },
   {
     "id": "roupas_viajante",
@@ -1066,7 +2312,8 @@
     "custo": 1,
     "preco": 2,
     "descricao": "Resistentes, para a estrada.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 2
   },
   {
     "id": "roupas_finas",
@@ -1075,7 +2322,8 @@
     "custo": 1,
     "preco": 15,
     "descricao": "Para a corte e os salões.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 3
   },
   {
     "id": "robes",
@@ -1084,6 +2332,27 @@
     "custo": 1,
     "preco": 1,
     "descricao": "Típicos de magos e sacerdotes.",
-    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5"
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 2
+  },
+  {
+    "id": "roupas_comuns",
+    "nome": "Roupas comuns",
+    "categoria": "Roupas",
+    "custo": 1,
+    "preco": 0.5,
+    "descricao": "As de qualquer camponês.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 1.5
+  },
+  {
+    "id": "traje_artista",
+    "nome": "Traje de artista",
+    "categoria": "Roupas",
+    "custo": 1,
+    "preco": 5,
+    "descricao": "Cores berrantes para o palco.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "peso": 2
   }
 ]

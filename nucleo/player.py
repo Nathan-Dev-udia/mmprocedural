@@ -333,6 +333,17 @@ def conteudo_do_kit(item):
     return [(e, 1) if isinstance(e, str) else (e["id"], e.get("quantidade", 1)) for e in item.get("kit", [])]
 
 
+def peso_do_item(dados, item):
+    """Peso em kg (0: desprezível); um kit pesa a soma do que leva. None para o que não tem peso de item, como uma
+    montaria, ou nos gêneros que não pesam o equipamento."""
+    if item.get("kit"):
+        pesos = [(peso_do_item(dados, dados["equipamentos"][i]), q) for i, q in conteudo_do_kit(item)]
+        return None if all(p is None for p, _ in pesos) else round(sum((p or 0) * q for p, q in pesos), 2)
+    # Só o peso numérico (kg) conta; o faroeste ainda guarda textos da planilha antiga, como "2,5 (cheio)/1 (vazio)".
+    peso = item.get("peso")
+    return peso if isinstance(peso, (int, float)) and not isinstance(peso, bool) else None
+
+
 def _abrir_kits(dados, ids, quantidades):
     """Lista do equipamento com o conteúdo de cada kit logo depois dele (o kit fica na lista, para aparecer na
     ficha; ele não tem estatística, quem ataca e protege são os itens de dentro)."""

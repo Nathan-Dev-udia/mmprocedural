@@ -61,19 +61,44 @@ def fonte(base, adaptado=""):
     return f"{base} ({adaptado}); {PHB}" if adaptado else f"{base}; {PHB}"
 
 
-def arma(id_, nome, cat, custo, preco, tipo, efeito, pericia=None, critico=20, forca=False, municao=None,
-         notas="", adaptado="", efeito_nome=None, resistido=None):
-    ataque = {"tipo": tipo, "efeito": efeito, "critico": critico}
-    if pericia:
-        ataque["pericia"] = pericia
+GUIA = "Gadget Guide: Archaic Weapons"
+
+
+def custo_da_arma(efeito, tipo, qualidades, nao_confiavel=False):
+    """PP pelo guia: 1 por graduação de Dano (+1 por graduação à distância, salvo se Não Confiável, com 5 usos ou
+    menos), mais as qualidades (Alcance e Perigosa por graduação; as outras, 1 ponto cada)."""
+    por_graduacao = 2 if tipo == "distancia" and not nao_confiavel else 1
+    extras = 0
+    for qualidade in qualidades:
+        nome, _, graduacao = qualidade.partition(" ")
+        extras += int(graduacao) if graduacao.isdigit() else 1
+    return efeito * por_graduacao + extras
+
+
+def arma(id_, nome, cat, preco, dado, efeito, pericia, descritor, qualidades=(), tipo="corpo", forca=True,
+         municao=None, notas="", familia="", efeito_nome=None, resistido=None, nao_confiavel=False, custo=None):
+    """Arma pelo guia de gadgets, com o que ela faz tirado do Livro do Jogador (D&D 5e).
+
+    O Dano segue o dado do D&D (d4 → 1, d6 → 2, d8 → 3, d10, d12 ou 2d6 → 4), como a tabela do próprio guia; o
+    descritor é o tipo de dano; as qualidades são as da família da arma no guia, só onde o D&D concorda (Alcance só
+    nas armas de alcance do D&D). Perigosa amplia o crítico em 1 por graduação.
+    """
+    qualidades = list(qualidades)
+    perigosa = sum(int(q.partition(" ")[2] or 1) for q in qualidades if q.startswith("Perigosa"))
+    ataque = {"tipo": tipo, "efeito": efeito, "critico": 20 - perigosa, "pericia": pericia, "descritor": descritor}
+    if qualidades:
+        ataque["qualidades"] = qualidades
     if forca:
         ataque["soma_forca"] = True
     if efeito_nome:
         ataque["efeito_nome"] = efeito_nome
     if resistido:
         ataque["resistido_por"] = resistido
+    if custo is None:
+        custo = custo_da_arma(efeito, tipo, qualidades, nao_confiavel)
+    origem = f"{dado} no Livro do Jogador (D&D 5e)" if dado else "sem equivalente no Livro do Jogador"
     dados = {"id": id_, "nome": nome, "categoria": cat, "custo": custo, "preco": preco, "notas": notas,
-             "ataque": ataque, "fonte": fonte(M, adaptado)}
+             "ataque": ataque, "fonte": f"{GUIA} ({familia}); Dano {efeito}: {origem}; {PHB}"}
     if municao:
         dados["municao"] = municao
     return dados
@@ -91,71 +116,185 @@ LAN, ADA, POR = "Combate Corpo-a-Corpo: Lanças", "Combate Corpo-a-Corpo: Adagas
 ARC, BES, ARR = "Combate à Distância: Arcos", "Combate à Distância: Bestas", "Combate à Distância: Arremesso"
 BR = "Arma branca"
 
-gravar("equipment.json", [
-    # Armas simples
-    arma("adaga", "Adaga", BR, 2, 2, "corpo", 1, ADA, critico=19, forca=True,
-         notas="Leve; pode ser arremessada", adaptado="faca"),
-    arma("porrete", "Porrete", BR, 2, 0.1, "corpo", 2, POR, forca=True, adaptado="porrete"),
-    arma("bordao", "Bordão (cajado)", BR, 2, 0.2, "corpo", 2, POR, forca=True, notas="Também serve de foco arcano",
-         adaptado="porrete"),
-    arma("maca", "Maça", BR, 3, 5, "corpo", 3, MAZ, forca=True, adaptado="martelo de guerra"),
-    arma("machadinha", "Machadinha", BR, 2, 5, "corpo", 2, MAC, forca=True, notas="Pode ser arremessada",
-         adaptado="porrete com corte"),
-    arma("lanca", "Lança", BR, 4, 1, "corpo", 3, LAN, critico=19, forca=True, notas="Pode ser arremessada",
-         adaptado="lança"),
-    arma("foice_curta", "Foice curta", BR, 2, 1, "corpo", 2, "Combate Corpo-a-Corpo: Foices", forca=True,
-         adaptado="porrete com corte"),
-    # Armas marciais
-    arma("espada_curta", "Espada curta", BR, 4, 10, "corpo", 3, ESP, critico=19, forca=True, adaptado="espada"),
-    arma("espada_longa", "Espada longa", BR, 4, 15, "corpo", 3, ESP, critico=19, forca=True, adaptado="espada"),
-    arma("cimitarra", "Cimitarra", BR, 4, 25, "corpo", 3, ESP, critico=19, forca=True, adaptado="espada"),
-    arma("rapieira", "Rapieira", BR, 4, 25, "corpo", 3, ESP, critico=19, forca=True, adaptado="espada"),
-    arma("espada_grande", "Espada grande", BR, 5, 50, "corpo", 4, ESP, critico=19, forca=True,
-         notas="Duas mãos", adaptado="espada com +1 de Dano"),
-    arma("espada_prata", "Espada de prata", BR, 4, 115, "corpo", 3, ESP, critico=19, forca=True,
-         notas="Fere monstros vulneráveis à prata",
-         adaptado="espada; preço: espada longa (15 po) + prateamento (100 po), regra de armas prateadas do Livro do Jogador"),
+# Peso em kg, do Livro do Jogador (D&D 5e), cap. 5; 0 é o que o livro marca com "–" (uma folha, um apito) e não
+# chega a ter graduação de massa. Os pesos com "*" no comentário não estão no livro e foram estimados.
+PESOS = {
+    # Armas
+    "adaga": 0.5, "porrete": 1, "bordao": 2, "maca": 2, "machadinha": 1, "lanca": 1.5, "foice_curta": 1,
+    "martelo_leve": 1, "clava_grande": 5, "espada_curta": 1, "espada_longa": 1.5, "cimitarra": 1.5, "rapieira": 1,
+    "espada_grande": 3, "espada_prata": 1.5, "adaga_longa": 1, "adaga_longa_prata": 1,   # * como a espada curta
+    "machado_batalha": 2, "machado_grande": 3.5, "martelo_guerra": 1, "maca_estrela": 2, "mangual": 1, "malho": 5,
+    "alabarda": 3, "lanca_montaria": 3, "glaive": 3, "pique": 4, "tridente": 2, "picareta_guerra": 1, "chicote": 1.5,
+    "arco_curto": 1, "arco_longo": 1, "besta_leve": 2.5, "besta_mao": 1.5, "besta_pesada": 4.5, "funda": 0,
+    "azagaia": 4, "dardos": 1, "zarabatana": 0.5, "rede": 1.5, "frasco_acido": 0.5, "fogo_alquimico": 0.5,
+    "flechas": 0.5, "virotes": 0.75, "balas_de_funda": 0.75, "agulhas": 0.5,
+    # Armaduras e escudos
+    "acolchoada": 4, "couro": 5, "couro_batido": 6.5, "gibao_peles": 6, "camisao_malha": 10, "brunea": 22.5,
+    "cota_malha": 27.5, "peitoral": 10, "cota_talas": 30, "meia_armadura": 20, "placas": 32.5,
+    "broquel": 1.5, "escudo": 3, "escudo_torre": 7.5,   # * broquel e escudo de torre
+    # Itens de conjurador
+    "grimorio": 1.5, "bolsa_componentes": 1, "simbolo_sagrado": 0.5, "foco_druidico": 0, "varinha": 0.5, "orbe": 1.5,
+    "giz_runico": 0.25, "agua_benta": 0.5,   # * giz rúnico
+    # Ferramentas
+    "ferramentas_ladrao": 0.5, "kit_disfarce": 1.5, "kit_herbalismo": 1.5, "kit_primeiros_socorros": 1.5,
+    "kit_escalada": 6, "alaude": 1, "flauta": 0.5, "luneta": 0.5, "suprimentos_alquimista": 4, "kit_envenenador": 1,
+    "kit_falsificacao": 2.5, "ferramentas_ferreiro": 4, "ferramentas_carpinteiro": 3, "ferramentas_cartografo": 3,
+    "ferramentas_joalheiro": 1, "ferramentas_navegador": 1, "utensilios_cozinheiro": 4, "dados": 0, "baralho": 0,
+    "lira": 1, "viola": 3, "tambor": 1.5, "trompa": 1, "gaita_foles": 3,
+    # Equipamento de aventura
+    "mochila": 2.5, "saco_dormir": 3.5, "corda": 5, "tochas": 5, "lanterna_coberta": 1, "cantil": 2.5,
+    "pe_de_cabra": 2.5, "tenda": 10, "algemas": 2, "manto": 2, "aljava": 0.5, "ampulheta": 0.5, "apito": 0,
+    "ariete": 17.5, "balanca": 1.5, "barril": 35, "bau": 12.5, "bolsa_cinto": 0.5, "cadeado": 0.5, "cobertor": 1.5,
+    "corda_seda": 2.5, "corrente": 5, "espelho": 0.25, "esferas": 1, "estrepes": 1, "estojo_mapas": 0.5, "frasco": 0,
+    "gancho": 2, "giz": 0, "lamparina": 0.5, "lanterna_furta_fogo": 1, "livro": 2.5, "lupa": 0, "martelo": 1.5,
+    "oleo": 0.5, "pa": 2.5, "papel": 0, "pederneira": 0.5, "pena_escrever": 0, "pergaminho": 0, "picareta": 5,
+    "pitoes": 0, "sabao": 0, "saco": 0.25, "sinete": 0, "sino": 0, "tinta": 0, "vara": 3.5, "velas": 0,
+    "kit_refeicao": 0.5, "armadilha_caca": 12.5,
+    # Poções e alquimia (* bomba, elixires e óleos de bruxo, como os frascos do livro)
+    "pocao_cura": 0.25, "antitoxina": 0, "veneno": 0, "bomba_bruxo": 0.5, "elixires": 0.25, "oleo_laminas": 0.5,
+    # Comida e bebida (* o livro não pesa pão, queijo, carne nem bebidas)
+    "racoes": 5, "vinho": 2, "cerveja": 4, "pao": 0.25, "queijo": 0.25, "carne": 0.5, "refeicao": 0,
+    "cerveja_caneca": 0, "vinho_fino": 1,
+    # Arreios e veículos (os animais não têm peso de item: veja MONTARIAS)
+    "sela": 12.5, "alforjes": 4, "carroca": 100, "carruagem": 300, "barco_remo": 45,
+    # Roupas
+    "roupas_viajante": 2, "roupas_finas": 3, "robes": 2, "roupas_comuns": 1.5, "traje_artista": 2,
+}
+PESO_ESTIMADO = {"adaga_longa", "adaga_longa_prata", "broquel", "escudo_torre", "giz_runico", "bomba_bruxo",
+                 "elixires", "oleo_laminas", "vinho", "cerveja", "pao", "queijo", "carne", "vinho_fino"}
+
+# Velocidade das montarias pelo Guia do Mestre (Cavalo: Velocidade 4; Animal de rebanho: Velocidade 3), na ordem do
+# deslocamento do Livro do Jogador (18 m: cavalos de montaria e de guerra; 12 a 15 m: os outros). Carga em kg, do
+# Livro do Jogador. Os veículos andam no passo de quem os puxa ou rema (barco a remo: 2 km/h no Livro do Jogador).
+MONTARIAS = {
+    "cavalo_montaria": (4, 220), "cavalo_guerra": (4, 270), "cavalo_tracao": (3, 270), "ponei": (3, 115),
+    "burro": (3, 210), "camelo": (3, 240), "mastim": (3, 100),
+}
+VEICULOS = {"carroca": 1, "carruagem": 2, "barco_remo": -1}
+
+
+def com_pesos(itens):
+    """Põe peso (kg), Velocidade e carga nos itens; kits pesam a soma do que levam (calculada nas planilhas)."""
+    for item in itens:
+        if item["id"] in MONTARIAS:
+            item["velocidade"], item["carga"] = MONTARIAS[item["id"]]
+            item["fonte_velocidade"] = "Guia do Mestre, Cavalo e Animal de rebanho; carga do Livro do Jogador"
+        elif item.get("kit"):
+            continue
+        else:
+            assert item["id"] in PESOS, f"falta o peso de {item['id']}"
+            item["peso"] = PESOS[item["id"]]
+            if item["id"] in PESO_ESTIMADO:
+                item["peso_estimado"] = True
+        if item["id"] in VEICULOS:
+            item["velocidade"] = VEICULOS[item["id"]]
+            item["fonte_velocidade"] = "estimada: o passo do animal que puxa ou de quem rema"
+    return itens
+
+
+gravar("equipment.json", com_pesos([
+    # Armas simples (corpo a corpo)
+    arma("adaga", "Adaga", BR, 2, "1d4 perfurante", 1, ADA, "perfuração", ["Perigosa"],
+         notas="Leve; pode ser arremessada", familia="adaga"),
+    arma("porrete", "Porrete", BR, 0.1, "1d4 concussão", 1, POR, "esmagamento", notas="Leve", familia="porrete"),
+    arma("bordao", "Bordão (cajado)", BR, 0.2, "1d6 concussão", 2, POR, "esmagamento", ["Dupla"],
+         notas="Versátil; também serve de foco arcano", familia="bastão"),
+    arma("maca", "Maça", BR, 5, "1d6 concussão", 2, MAZ, "esmagamento", ["Perigosa"], familia="maça"),
+    arma("machadinha", "Machadinha", BR, 5, "1d6 cortante", 2, MAC, "corte", ["Perigosa", "Quebrar"],
+         notas="Leve; pode ser arremessada", familia="machado"),
+    arma("lanca", "Lança", BR, 1, "1d6 perfurante", 2, LAN, "perfuração", ["Perigosa"],
+         notas="Versátil; pode ser arremessada", familia="lança, sem Alcance: no D&D a lança não tem alcance"),
+    arma("foice_curta", "Foice curta", BR, 1, "1d4 cortante", 1, "Combate Corpo-a-Corpo: Foices", "corte",
+         ["Perigosa"], notas="Leve", familia="lâmina curta"),
+    arma("martelo_leve", "Martelo leve", BR, 2, "1d4 concussão", 1, MAZ, "esmagamento", ["Esmagar"],
+         notas="Leve; pode ser arremessado", familia="martelo"),
+    arma("clava_grande", "Clava grande", BR, 0.2, "1d8 concussão", 3, POR, "esmagamento",
+         notas="Duas mãos, pesada", familia="porrete"),
+    # Armas marciais (corpo a corpo)
+    arma("espada_curta", "Espada curta", BR, 10, "1d6 perfurante", 2, ESP, "perfuração", ["Perigosa"],
+         notas="Leve", familia="espada de estocada"),
+    arma("espada_longa", "Espada longa", BR, 15, "1d8 cortante", 3, ESP, "corte", notas="Versátil",
+         familia="espada"),
+    arma("cimitarra", "Cimitarra", BR, 25, "1d6 cortante", 2, ESP, "corte", ["Perigosa"], notas="Leve",
+         familia="espada curva"),
+    arma("rapieira", "Rapieira", BR, 25, "1d8 perfurante", 3, ESP, "perfuração", ["Perigosa"],
+         familia="espada de estocada"),
+    arma("espada_grande", "Espada grande", BR, 50, "2d6 cortante", 4, ESP, "corte", notas="Duas mãos, pesada",
+         familia="espada"),
+    arma("espada_prata", "Espada de prata", BR, 115, "1d8 cortante", 3, ESP, "corte, prata",
+         notas="Versátil; fere monstros vulneráveis à prata",
+         familia="espada; preço: espada longa (15 po) + prateamento (100 po), regra de armas prateadas do Livro do "
+                 "Jogador"),
     # Lâminas da escola da Víbora, que troca as espadas do bruxo por um par de adagas longas.
-    arma("adaga_longa", "Adaga longa", BR, 3, 10, "corpo", 2, ADA, critico=19, forca=True,
+    arma("adaga_longa", "Adaga longa", BR, 10, "", 2, ADA, "perfuração", ["Perigosa"],
          notas="Comprida quase como uma espada curta, leve como uma adaga",
-         adaptado="faca com +1 de Dano; preço da espada curta"),
-    arma("adaga_longa_prata", "Adaga longa de prata", BR, 3, 110, "corpo", 2, ADA, critico=19, forca=True,
+         familia="adaga, com o Dano da espada curta; preço da espada curta"),
+    arma("adaga_longa_prata", "Adaga longa de prata", BR, 110, "", 2, ADA, "perfuração, prata", ["Perigosa"],
          notas="Fere monstros vulneráveis à prata",
-         adaptado="faca com +1 de Dano; preço: espada curta (10 po) + prateamento (100 po)"),
-    arma("machado_batalha", "Machado de batalha", BR, 3, 10, "corpo", 3, MAC, forca=True,
-         adaptado="machado de batalha"),
-    arma("machado_grande", "Machado grande", BR, 4, 30, "corpo", 4, MAC, forca=True, notas="Duas mãos",
-         adaptado="machado de batalha com +1 de Dano"),
-    arma("martelo_guerra", "Martelo de guerra", BR, 3, 15, "corpo", 3, MAZ, forca=True, adaptado="martelo de guerra"),
-    arma("maca_estrela", "Maça estrela", BR, 3, 15, "corpo", 3, MAZ, forca=True, adaptado="martelo de guerra"),
-    arma("mangual", "Mangual", BR, 3, 10, "corpo", 3, MAZ, forca=True, adaptado="martelo de guerra"),
-    arma("malho", "Malho", BR, 4, 10, "corpo", 4, MAZ, forca=True, notas="Duas mãos",
-         adaptado="martelo de guerra com +1 de Dano"),
-    arma("alabarda", "Alabarda", BR, 5, 20, "corpo", 4, LAN, critico=19, forca=True, notas="Duas mãos, alcance",
-         adaptado="lança com +1 de Dano"),
-    arma("lanca_montaria", "Lança de montaria", BR, 5, 10, "corpo", 4, LAN, critico=19, forca=True,
-         notas="Usada montado", adaptado="lança com +1 de Dano"),
+         familia="adaga, com o Dano da espada curta; preço: espada curta (10 po) + prateamento (100 po)"),
+    arma("machado_batalha", "Machado de batalha", BR, 10, "1d8 cortante", 3, MAC, "corte", ["Perigosa", "Quebrar"],
+         notas="Versátil", familia="machado"),
+    arma("machado_grande", "Machado grande", BR, 30, "1d12 cortante", 4, MAC, "corte", ["Perigosa", "Quebrar"],
+         notas="Duas mãos, pesada", familia="machado"),
+    arma("martelo_guerra", "Martelo de guerra", BR, 15, "1d8 concussão", 3, MAZ, "esmagamento", ["Esmagar"],
+         notas="Versátil", familia="martelo"),
+    arma("maca_estrela", "Maça estrela", BR, 15, "1d8 perfurante", 3, MAZ, "perfuração", ["Perigosa"],
+         familia="maça"),
+    arma("mangual", "Mangual", BR, 10, "1d8 concussão", 3, MAZ, "esmagamento", ["Perigosa", "Desarmar"],
+         familia="mangual, sem Alcance: no D&D o mangual não tem alcance"),
+    arma("malho", "Malho", BR, 10, "2d6 concussão", 4, MAZ, "esmagamento", ["Esmagar"], notas="Duas mãos, pesada",
+         familia="martelo"),
+    arma("picareta_guerra", "Picareta de guerra", BR, 5, "1d8 perfurante", 3, MAZ, "perfuração", ["Perigosa"],
+         familia="martelo com bico"),
+    arma("alabarda", "Alabarda", BR, 20, "1d10 cortante", 4, LAN, "corte", ["Alcance 2", "Derrubar"],
+         notas="Duas mãos, pesada, alcance de 3 m", familia="arma de haste"),
+    arma("glaive", "Glaive", BR, 20, "1d10 cortante", 4, LAN, "corte", ["Alcance 2", "Derrubar"],
+         notas="Duas mãos, pesada, alcance de 3 m", familia="arma de haste"),
+    arma("pique", "Pique", BR, 5, "1d10 perfurante", 4, LAN, "perfuração", ["Alcance 2", "Perigosa"],
+         notas="Duas mãos, pesada, alcance de 3 m", familia="arma de haste"),
+    arma("lanca_montaria", "Lança de montaria", BR, 10, "1d12 perfurante", 4, LAN, "perfuração", ["Alcance 2"],
+         notas="Alcance de 3 m; –2 para atacar um alvo colado; a pé, exige as duas mãos", familia="arma de haste"),
+    arma("tridente", "Tridente", BR, 5, "1d6 perfurante", 2, LAN, "perfuração", ["Perigosa", "Desarmar"],
+         notas="Versátil; pode ser arremessado", familia="tridente, sem Alcance: no D&D o tridente não tem alcance"),
+    arma("chicote", "Chicote", BR, 2, "1d4 cortante", 1, "Combate Corpo-a-Corpo: Chicotes", "corte",
+         ["Alcance 2", "Desarmar", "Agarrar"], notas="Alcance de 3 m", familia="chicote"),
     # Armas à distância
-    arma("arco_curto", "Arco curto", "Arma à distância", 6, 25, "distancia", 3, ARC, municao="flechas",
-         adaptado="arco"),
-    arma("arco_longo", "Arco longo", "Arma à distância", 7, 50, "distancia", 4, ARC, municao="flechas",
-         notas="Duas mãos", adaptado="arco com +1 de Dano"),
-    arma("besta_leve", "Besta leve", "Arma à distância", 7, 25, "distancia", 3, BES, critico=19,
-         municao="virotes", notas="Recarga", adaptado="besta"),
-    arma("besta_mao", "Besta de mão", "Arma à distância", 6, 75, "distancia", 2, BES, critico=19,
-         municao="virotes", notas="Leve, recarga", adaptado="besta com –1 de Dano"),
-    arma("besta_pesada", "Besta pesada", "Arma à distância", 8, 50, "distancia", 4, BES, critico=19,
-         municao="virotes", notas="Duas mãos, recarga", adaptado="besta com +1 de Dano"),
-    arma("funda", "Funda", "Arma à distância", 2, 0.1, "distancia", 1, ARR, municao="balas_de_funda",
-         adaptado="bumerangue"),
-    arma("azagaia", "Azagaias (4)", "Arma à distância", 2, 2, "distancia", 1, ARR, forca=True,
-         notas="Arremessadas", adaptado="bumerangue, soma a Força como arma arremessada"),
-    arma("dardos", "Dardos (10)", "Arma à distância", 2, 0.5, "distancia", 1, ARR, forca=True,
-         notas="Arremessados", adaptado="bumerangue, soma a Força como arma arremessada"),
+    arma("arco_curto", "Arco curto", "Arma à distância", 25, "1d6 perfurante", 2, ARC, "perfuração",
+         tipo="distancia", forca=False, municao="flechas", notas="Duas mãos", familia="arco"),
+    arma("arco_longo", "Arco longo", "Arma à distância", 50, "1d8 perfurante", 3, ARC, "perfuração",
+         tipo="distancia", forca=False, municao="flechas", notas="Duas mãos, pesada", familia="arco"),
+    arma("besta_leve", "Besta leve", "Arma à distância", 25, "1d8 perfurante", 3, BES, "perfuração",
+         tipo="distancia", forca=False, municao="virotes", notas="Duas mãos, recarga", familia="besta"),
+    arma("besta_mao", "Besta de mão", "Arma à distância", 75, "1d6 perfurante", 2, BES, "perfuração",
+         tipo="distancia", forca=False, municao="virotes", notas="Leve, recarga", familia="besta"),
+    arma("besta_pesada", "Besta pesada", "Arma à distância", 50, "1d10 perfurante", 4, BES, "perfuração",
+         tipo="distancia", forca=False, municao="virotes", notas="Duas mãos, pesada, recarga", familia="besta"),
+    arma("funda", "Funda", "Arma à distância", 0.1, "1d4 concussão", 1, ARR, "esmagamento", tipo="distancia",
+         forca=False, municao="balas_de_funda", familia="funda"),
+    arma("azagaia", "Azagaias (4)", "Arma à distância", 2, "1d6 perfurante", 2, ARR, "perfuração",
+         tipo="distancia", nao_confiavel=True, notas="Arremessadas; somam a Força",
+         familia="azagaia; com 4 usos, Não Confiável no lugar do custo à distância"),
+    arma("dardos", "Dardos (10)", "Arma à distância", 0.5, "1d4 perfurante", 1, ARR, "perfuração",
+         tipo="distancia", notas="Arremessados; somam a Força", familia="azagaia"),
+    arma("zarabatana", "Zarabatana", "Arma à distância", 10, "1 perfurante", 1, "Combate à Distância: Zarabatanas",
+         "perfuração", tipo="distancia", forca=False, municao="agulhas", notas="Recarga; silenciosa, boa para veneno",
+         familia="funda"),
+    arma("rede", "Rede", "Arma à distância", 1, "especial", 2, ARR, "—", ["Enredar"], tipo="distancia",
+         forca=False, efeito_nome="Agarrar", resistido="Esquiva", custo=3,
+         notas="Arremessada; sem dano: prende o alvo, que depois escapa com Força ou Acrobacia",
+         familia="rede: Agarrar 2, Enredar"),
+    arma("frasco_acido", "Frasco de ácido", "Arma à distância", 25, "2d6 ácido", 4, ARR, "ácido",
+         tipo="distancia", forca=False, nao_confiavel=True, notas="Arremessado; uso único",
+         familia="arma de uso único: Não Confiável"),
+    arma("fogo_alquimico", "Fogo alquímico (frasco)", "Arma à distância", 50, "1d4 fogo", 1, ARR, "fogo",
+         tipo="distancia", forca=False, nao_confiavel=True,
+         notas="Arremessado; uso único; o alvo segue queimando até gastar uma ação para apagar",
+         familia="arma de uso único: Não Confiável"),
     # Munição
     item("flechas", "Flechas (20)", "Munição", 1, "Para arcos.", custo=0),
     item("virotes", "Virotes (20)", "Munição", 1, "Para bestas.", custo=0),
     item("balas_de_funda", "Balas de funda (20)", "Munição", 0.04, "Para fundas.", custo=0),
+    item("agulhas", "Agulhas de zarabatana (50)", "Munição", 1, "Para zarabatanas.", custo=0),
     # Armaduras (Proteção) e escudos (defesas ativas)
     # Proteção pela escada do Manual dos Mecanismos Lite (armaduras arcaicas: couro 1, couro cravejado 2, cota de
     # malha ou escamas 3, cota com peitoral 4, placas 5, armadura completa 6). Onde o manual não fala da peça, ela fica
@@ -208,6 +347,28 @@ gravar("equipment.json", [
     item("alaude", "Alaúde", "Ferramentas", 35, "Instrumento de bardo."),
     item("flauta", "Flauta", "Ferramentas", 2, "Instrumento de bardo."),
     item("luneta", "Luneta", "Ferramentas", 1000, "+5 em Percepção visual à distância."),
+    item("suprimentos_alquimista", "Suprimentos de alquimista", "Ferramentas", 50,
+         "Prepara ácido, fogo alquímico e antitoxina (Especialidade: Alquimia sem a penalidade de –5)."),
+    item("kit_envenenador", "Kit de envenenador", "Ferramentas", 50, "Prepara e aplica venenos sem se envenenar."),
+    item("kit_falsificacao", "Kit de falsificação", "Ferramentas", 15,
+         "Papéis, tintas e selos para falsificar documentos (Enganação sem a penalidade de –5)."),
+    item("ferramentas_ferreiro", "Ferramentas de ferreiro", "Ferramentas", 20,
+         "Conserta armas e armaduras e forja peças de metal (Tecnologia sem a penalidade de –5)."),
+    item("ferramentas_carpinteiro", "Ferramentas de carpinteiro", "Ferramentas", 8,
+         "Constrói e conserta portas, carroças e barricadas (Tecnologia sem a penalidade de –5)."),
+    item("ferramentas_cartografo", "Ferramentas de cartógrafo", "Ferramentas", 15, "Desenha mapas precisos."),
+    item("ferramentas_joalheiro", "Ferramentas de joalheiro", "Ferramentas", 25, "Avalia e lapida gemas."),
+    item("ferramentas_navegador", "Ferramentas de navegador", "Ferramentas", 25,
+         "Sextante, bússola e cartas para se orientar no mar."),
+    item("utensilios_cozinheiro", "Utensílios de cozinheiro", "Ferramentas", 1,
+         "Panela, facas e temperos: refeição quente no acampamento."),
+    item("dados", "Jogo de dados", "Ferramentas", 0.1, "Para apostar na taverna."),
+    item("baralho", "Baralho", "Ferramentas", 0.5, "Para apostar (e trapacear) na taverna."),
+    item("lira", "Lira", "Ferramentas", 30, "Instrumento de bardo."),
+    item("viola", "Viola", "Ferramentas", 30, "Instrumento de bardo."),
+    item("tambor", "Tambor", "Ferramentas", 6, "Instrumento de bardo; marca o passo da tropa."),
+    item("trompa", "Trompa", "Ferramentas", 3, "Instrumento de bardo; o toque de caça ou de guerra."),
+    item("gaita_foles", "Gaita de foles", "Ferramentas", 30, "Instrumento de bardo; ouvida a quilômetros."),
     # Equipamento de aventura
     item("mochila", "Mochila", "Equipamento de aventura", 2, "Carrega o resto do equipamento."),
     item("saco_dormir", "Saco de dormir", "Equipamento de aventura", 1, "Para dormir ao relento."),
@@ -219,8 +380,67 @@ gravar("equipment.json", [
     item("tenda", "Tenda (duas pessoas)", "Equipamento de aventura", 2, "Abrigo de viagem."),
     item("algemas", "Algemas", "Equipamento de aventura", 2, "Prende prisioneiros."),
     item("manto", "Manto", "Equipamento de aventura", 1, "Protege do frio e da chuva."),
+    item("aljava", "Aljava", "Equipamento de aventura", 1, "Carrega 20 flechas."),
+    item("ampulheta", "Ampulheta", "Equipamento de aventura", 25, "Marca a passagem do tempo."),
+    item("apito", "Apito de sinalização", "Equipamento de aventura", 0.05, "Ouvido a centenas de metros."),
+    item("ariete", "Aríete portátil", "Equipamento de aventura", 4, "+2 em Força para arrombar portas."),
+    item("balanca", "Balança de mercador", "Equipamento de aventura", 5, "Pesa moedas e mercadorias."),
+    item("barril", "Barril", "Equipamento de aventura", 2, "Guarda 150 litros de líquido."),
+    item("bau", "Baú", "Equipamento de aventura", 5, "Guarda o tesouro; tranca com cadeado."),
+    item("bolsa_cinto", "Bolsa de cinto", "Equipamento de aventura", 0.5, "Para moedas e miudezas."),
+    item("cadeado", "Cadeado", "Equipamento de aventura", 10,
+         "Abri-lo sem a chave pede ferramentas de ladrão e um teste de Tecnologia (CD 15)."),
+    item("cobertor", "Cobertor", "Equipamento de aventura", 0.5, "Para as noites frias."),
+    item("corda_seda", "Corda de seda (15 m)", "Equipamento de aventura", 10, "Mais leve e forte que a de cânhamo."),
+    item("corrente", "Corrente (3 m)", "Equipamento de aventura", 5, "Rompê-la pede Força (CD 20)."),
+    item("espelho", "Espelho de aço", "Equipamento de aventura", 5,
+         "Espia em volta das esquinas e mostra a medusa sem precisar encará-la."),
+    item("esferas", "Esferas de metal (bolsa com 1.000)", "Equipamento de aventura", 1,
+         "Espalhadas no chão: quem passa correndo resiste com Acrobacia (CD 10) ou cai."),
+    item("estrepes", "Estrepes (saco com 20)", "Equipamento de aventura", 1,
+         "Espalhados no chão: quem passa sem cuidado resiste com Esquiva (CD 10) ou fica impedido."),
+    item("estojo_mapas", "Estojo para mapas", "Equipamento de aventura", 1, "Protege mapas e pergaminhos da chuva."),
+    item("frasco", "Frasco de vidro", "Equipamento de aventura", 1, "Para poções, ácido e amostras."),
+    item("gancho", "Gancho de escalada", "Equipamento de aventura", 2,
+         "Preso à corda, +2 em Atletismo para escalar muros."),
+    item("giz", "Giz (peça)", "Equipamento de aventura", 0.01, "Marca o caminho na masmorra."),
+    item("lamparina", "Lamparina", "Equipamento de aventura", 0.5, "Ilumina 4,5 m por 6 horas com um frasco de óleo."),
+    item("lanterna_furta_fogo", "Lanterna furta-fogo", "Equipamento de aventura", 10,
+         "Facho de luz de 18 m que se fecha num instante."),
+    item("livro", "Livro", "Equipamento de aventura", 25, "Um tratado, uma crônica ou um diário em branco."),
+    item("lupa", "Lupa", "Equipamento de aventura", 100,
+         "+2 em Investigação para examinar de perto; acende fogo com a luz do sol."),
+    item("martelo", "Martelo", "Equipamento de aventura", 1, "Para pregos e pitões."),
+    item("oleo", "Óleo (frasco)", "Equipamento de aventura", 0.1,
+         "Combustível de lamparina; derramado e aceso, queima o chão por alguns turnos."),
+    item("pa", "Pá", "Equipamento de aventura", 2, "Cava buracos, covas e trincheiras."),
+    item("papel", "Papel (folha)", "Equipamento de aventura", 0.2, "Para cartas e mapas."),
+    item("pederneira", "Estojo de pederneira", "Equipamento de aventura", 0.5, "Acende uma fogueira em um minuto."),
+    item("pena_escrever", "Pena de escrever", "Equipamento de aventura", 0.02, "Para escrever com tinta."),
+    item("pergaminho", "Pergaminho (folha)", "Equipamento de aventura", 0.1, "Mais resistente que o papel."),
+    item("picareta", "Picareta de minerador", "Equipamento de aventura", 2, "Cava pedra e terra."),
+    item("pitoes", "Pitões de ferro (10)", "Equipamento de aventura", 0.5, "Cravados na rocha, ancoram a corda."),
+    item("sabao", "Sabão", "Equipamento de aventura", 0.02, "Para lavar a lama da estrada."),
+    item("saco", "Saco", "Equipamento de aventura", 0.01, "Carrega até 15 kg."),
+    item("sinete", "Anel de sinete", "Equipamento de aventura", 5, "Lacra cartas com o brasão da família."),
+    item("sino", "Sino", "Equipamento de aventura", 1, "Alarme simples para o acampamento."),
+    item("tinta", "Tinta (frasco)", "Equipamento de aventura", 10, "Dá para escrever um livro inteiro."),
+    item("vara", "Vara de 3 m", "Equipamento de aventura", 0.05, "Cutuca o chão à procura de armadilhas."),
+    item("velas", "Velas (10)", "Equipamento de aventura", 0.1, "Iluminam 1,5 m por uma hora cada."),
+    item("kit_refeicao", "Kit de refeição", "Equipamento de aventura", 0.2, "Prato, caneca e talheres de lata."),
+    item("armadilha_caca", "Armadilha de caça", "Equipamento de aventura", 5,
+         "Mandíbulas de ferro escondidas no chão: quem pisa resiste com Esquiva (CD 13) ou fica imóvel até "
+         "abri-la com Força (CD 13)."),
     item("pocao_cura", "Poção de cura", "Poções", 50,
          "Recupera um grau de dano (teste de recuperação imediato)."),
+    item("antitoxina", "Antitoxina (frasco)", "Poções", 50, "+5 nos testes de Fortitude contra veneno por uma hora."),
+    item("veneno", "Veneno básico (frasco)", "Poções", 100,
+         "Passado numa lâmina, dardo ou agulha: no próximo acerto, o alvo também resiste com Fortitude (CD 12) "
+         "ou fica tonto até o fim da cena."),
+    item("bomba_bruxo", "Bomba de bruxo", "Poções", 50,
+         "Arremessada, explode num raio de 3 m: quem estiver nele resiste com Fortitude (CD 14) ou fica tonto; "
+         "Samum cega, Estrela dançante queima e Gás do dragão envenena (combine o efeito com o mestre).",
+         fonte_=GERAL + "; item de The Witcher, sem equivalente no Livro do Jogador; preço do fogo alquímico"),
     item("elixires", "Elixires de bruxo (dose)", "Poções", 50,
          "Andorinha, Trovão, Gato...: o efeito é narrado pelo mestre. Tóxicos para quem não passou pelas mutações.",
          fonte_=GERAL + "; item de The Witcher; preço da poção de cura e do antídoto do Livro do Jogador (50 po)"),
@@ -246,20 +466,50 @@ gravar("equipment.json", [
          custo=0, fonte_=GERAL + "; pacote do gerador para o bruxo da escola do Urso",
          kit=["espada_prata", "espada_longa", "cota_malha", {"id": "elixires", "quantidade": 3},
               {"id": "oleo_laminas", "quantidade": 2}, "kit_herbalismo", "bolsa_componentes"]),
+    item("kit_explorador", "Pacote de explorador", "Kits", 10,
+         "Mochila, saco de dormir, kit de refeição, estojo de pederneira, 10 tochas, 10 dias de rações, cantil e "
+         "corda de cânhamo.", custo=0, fonte_=GERAL + "; pacote do Livro do Jogador (D&D 5e), cap. 5",
+         kit=["mochila", "saco_dormir", "kit_refeicao", "pederneira", "tochas", {"id": "racoes", "quantidade": 2},
+              "cantil", "corda"]),
+    item("kit_masmorra", "Pacote de masmorra", "Kits", 12,
+         "Mochila, pé de cabra, martelo, 10 pitões, 10 tochas, estojo de pederneira, 10 dias de rações, cantil e "
+         "corda de cânhamo.", custo=0, fonte_=GERAL + "; pacote do Livro do Jogador (D&D 5e), cap. 5",
+         kit=["mochila", "pe_de_cabra", "martelo", "pitoes", "tochas", "pederneira",
+              {"id": "racoes", "quantidade": 2}, "cantil", "corda"]),
+    item("kit_estudioso", "Pacote de estudioso", "Kits", 40,
+         "Mochila, livro, tinta, pena de escrever, 10 folhas de pergaminho e uma bolsa de cinto.", custo=0,
+         fonte_=GERAL + "; pacote do Livro do Jogador (D&D 5e), cap. 5",
+         kit=["mochila", "livro", "tinta", "pena_escrever", "pergaminho", "bolsa_cinto"]),
     # Comida e bebida
     item("racoes", "Rações de viagem (5 dias)", "Comida", 2.5, "Carne seca, pão duro e frutas secas."),
     item("vinho", "Vinho comum (jarra)", "Bebida", 0.2, "Para a estrada ou para a taverna."),
     item("cerveja", "Cerveja (barril pequeno)", "Bebida", 0.4, "Alegra o acampamento."),
+    item("pao", "Pão (pedaço)", "Comida", 0.02, "Pão de centeio do dia."),
+    item("queijo", "Queijo (pedaço)", "Comida", 0.1, "Dura semanas na mochila."),
+    item("carne", "Carne (pedaço)", "Comida", 0.3, "Assada na hora ou salgada para a viagem."),
+    item("refeicao", "Refeição na taverna", "Comida", 0.3, "Ensopado, pão e uma caneca."),
+    item("cerveja_caneca", "Cerveja (caneca)", "Bebida", 0.04, "Na taverna."),
+    item("vinho_fino", "Vinho fino (garrafa)", "Bebida", 10, "Para impressionar um nobre."),
     # Montarias
     item("ponei", "Pônei", "Montaria", 30, "Montaria de halflings e anões.", custo=None),
     item("cavalo_montaria", "Cavalo de montaria", "Montaria", 75, "Montaria comum.", custo=None),
     item("cavalo_guerra", "Cavalo de guerra", "Montaria", 400, "Treinado para o combate.", custo=None),
     item("sela", "Sela de montaria", "Montaria", 10, "Para viajar a cavalo.", custo=None),
+    item("burro", "Burro ou mula", "Montaria", 8, "Carrega a bagagem sem reclamar (muito).", custo=None),
+    item("cavalo_tracao", "Cavalo de tração", "Montaria", 50, "Puxa carroças e arados.", custo=None),
+    item("camelo", "Camelo", "Montaria", 50, "Atravessa o deserto dias sem beber.", custo=None),
+    item("mastim", "Mastim", "Montaria", 25, "Cão de guarda e de caça.", custo=None),
+    item("alforjes", "Alforjes", "Montaria", 4, "Bolsas presas à sela.", custo=None),
+    item("carroca", "Carroça", "Veículos", 35, "Puxada por um cavalo ou burro; leva a carga do grupo.", custo=None),
+    item("carruagem", "Carruagem", "Veículos", 100, "Para viajar com conforto (e chamar atenção).", custo=None),
+    item("barco_remo", "Barco a remo", "Veículos", 50, "Leva quatro pessoas por rios e lagos.", custo=None),
     # Roupas
     item("roupas_viajante", "Roupas de viajante", "Roupas", 2, "Resistentes, para a estrada."),
     item("roupas_finas", "Roupas finas", "Roupas", 15, "Para a corte e os salões."),
     item("robes", "Robes", "Roupas", 1, "Típicos de magos e sacerdotes."),
-])
+    item("roupas_comuns", "Roupas comuns", "Roupas", 0.5, "As de qualquer camponês."),
+    item("traje_artista", "Traje de artista", "Roupas", 5, "Cores berrantes para o palco."),
+]))
 
 
 def magia(id_, nome, categoria, catalogo, descricao, arranjo=None, graduacao=None, graduacao_np=None,

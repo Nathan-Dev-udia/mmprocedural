@@ -157,7 +157,7 @@ Quem é pego desprevenido (normalmente por falhar num teste de Percepção contr
 - **um efeito a mais**, como deixar o orc atordoado com um golpe na cabeça (o mestre aprova);
 - **um efeito alternativo**, como desarmar ou derrubar junto com o dano.
 
-Várias armas, como espadas e adagas, já têm crítico em **19–20**. A vantagem Crítico Aprimorado aumenta a margem em 1 por graduação (até 4), mas só o 20 garante o acerto.
+As armas com a qualidade **Perigosa** (adagas, machados, maças, lanças, rapieira, cimitarra, espada curta) já têm crítico em **19–20**. A vantagem Crítico Aprimorado aumenta a margem em 1 por graduação (até 4), mas só o 20 garante o acerto.
 
 ### 3.4 Alcance
 
@@ -539,7 +539,7 @@ O Caçador de monstros é a subclasse do bruxo inspirada nos bruxos da série *T
 | **Axii** | Aflição com Distância de Percepção, resistida e superada por Vontade; deixa o alvo em transe, aberto à sugestão e compelido. Grau Limitado e Dependente de Visão. | NP – 1 | Alternativo (1 PP) |
 | **Yrden** | Círculo mágico no chão que prende quem entra. Opcional. | NP – 2 | Alternativo (1 PP) |
 
-No NP 5, o Igni (Dano 5 em cone) custa 10 PP; Quen, Aard e Axii somam 3 PP; o arranjo inteiro sai por 13 PP (14 com Yrden).
+No NP 5, o Igni (Dano 5 em cone) custa 11 PP; Quen, Aard e Axii somam 3 PP; o arranjo inteiro sai por 14 PP (15 com Yrden). A **planilha de poderes** do site traz o custo de cada Sinal em todos os NPs.
 
 - **Equipamento:** o **Kit de bruxo** (120 po): espada de prata para monstros, espada de aço (espada longa) para homens, armadura de couro batido (Proteção 2), 3 doses de elixir, 2 óleos para lâminas, kit de herbalismo e bolsa de componentes. Comprados um a um, sairiam por 365 po; o kit vem com o desconto da escola.
 - **Presença baixa:** o gerador não gasta a sobra do orçamento em Presença. Caçadores não são famosos pelo charme.
@@ -924,30 +924,39 @@ No modo Escolher do site, um contador mostra quanto você gastou. Se passar do d
 
 ### 14.4 Armas
 
-Armas brancas e arremessadas **somam a sua Força ao dano**. Arcos e bestas não. Alguns exemplos (preços do Livro do Jogador de D&D):
+Armas brancas e arremessadas **somam a sua Força ao dano**. Arcos e bestas não. As armas seguem o *Gadget Guide: Archaic Weapons* de M&M, com o que cada uma faz tirado do Livro do Jogador de D&D:
 
-| Arma | Dano | Crítico | Preço | Notas |
-|----|----|----|----|----|
-| Adaga | 1 + For | 19–20 | 2 po | Leve; pode ser arremessada. |
-| Bordão (cajado) | 2 + For | 20 | 2 pp | A arma do mago. |
-| Maça | 3 + For | 20 | 5 po | A arma do clérigo. |
-| Espada curta | 3 + For | 19–20 | 10 po | |
-| Espada longa | 3 + For | 19–20 | 15 po | |
-| Rapieira | 3 + For | 19–20 | 25 po | |
-| Machado de batalha | 3 + For | 20 | 10 po | |
-| Lança | 3 + For | 19–20 | 1 po | Pode ser arremessada. |
-| Espada grande | 4 + For | 19–20 | 50 po | Duas mãos. **Adaptada.** |
-| Machado grande | 4 + For | 20 | 30 po | Duas mãos. **Adaptada.** |
-| Arco curto | 3 | 20 | 25 po | Usa flechas. |
-| Arco longo | 4 | 20 | 50 po | Duas mãos. **Adaptada.** |
-| Besta leve | 3 | 19–20 | 25 po | Usa virotes. |
-| Besta pesada | 4 | 19–20 | 50 po | **Adaptada.** |
+- **Dano pelo dado do D&D:** d4 → Dano 1, d6 → 2, d8 → 3, d10, d12 ou 2d6 → 4. É a mesma escala da tabela do guia.
+- **Tipo de dano vira descritor:** cortante → corte, perfurante → perfuração, concussão → esmagamento. Ele importa contra criaturas vulneráveis ou resistentes a um tipo (esqueletos e esmagamento, por exemplo).
+- **Qualidades por família**, do guia, só onde o D&D concorda: machados têm **Perigosa** e **Quebrar**; martelos, **Esmagar**; maças e lanças, **Perigosa**; armas de haste, **Alcance 2** (3 m, como no D&D) e **Derrubar**; o chicote, **Alcance 2**, **Desarmar** e **Agarrar**.
 
-**Armas adaptadas [Casa]:** o livro básico de M&M não tem espada grande, arco longo, besta pesada, alabarda ou malho. Elas usam a arma mais próxima do livro com **+1 de Dano** (e +1 ponto de custo). A besta de mão é o caminho inverso: uma besta com –1 de Dano.
+Alguns exemplos (preços do Livro do Jogador de D&D):
+
+| Arma | Dano | Crítico | Qualidades | Tipo | Preço |
+|----|----|----|----|----|----|
+| Adaga | 1 + For | 19–20 | Perigosa | perfuração | 2 po |
+| Bordão (cajado) | 2 + For | 20 | Dupla | esmagamento | 2 pp |
+| Maça | 2 + For | 19–20 | Perigosa | esmagamento | 5 po |
+| Espada curta | 2 + For | 19–20 | Perigosa | perfuração | 10 po |
+| Espada longa | 3 + For | 20 | — | corte | 15 po |
+| Rapieira | 3 + For | 19–20 | Perigosa | perfuração | 25 po |
+| Machado de batalha | 3 + For | 19–20 | Perigosa, Quebrar | corte | 10 po |
+| Martelo de guerra | 3 + For | 20 | Esmagar | esmagamento | 15 po |
+| Lança | 2 + For | 19–20 | Perigosa | perfuração | 1 po |
+| Alabarda | 4 + For | 20 | Alcance 2, Derrubar | corte | 20 po |
+| Espada grande | 4 + For | 20 | — | corte | 50 po |
+| Arco curto | 2 | 20 | — | perfuração | 25 po |
+| Arco longo | 3 | 20 | — | perfuração | 50 po |
+| Besta leve | 3 | 20 | — | perfuração | 25 po |
+| Besta pesada | 4 | 20 | — | perfuração | 50 po |
+
+A seção **Qualidades das armas** do Apêndice explica cada qualidade. **Versátil** (espada longa, machado de batalha, martelo de guerra, lança) fica como nota: com as duas mãos, o mestre pode dar +1 de Dano como façanha.
 
 Uma diferença importante para D&D: aqui a arma pesada não é sempre melhor. Os limites do NP somam ataque e Dano; um bárbaro de Força 3 com espada grande (Dano 7) só pode ter ataque +3 no NP 5. Às vezes a espada longa e um ataque mais alto rendem mais.
 
 A **Espada de prata** (115 po: espada longa mais 100 po de prateamento) fere monstros vulneráveis à prata.
+
+Também há armas menos comuns: **chicote** (Dano 1, Alcance 2, Desarmar e Agarrar), **rede** (Agarrar 2 à distância com Enredar: prende o alvo sem causar dano), **zarabatana** (Dano 1, silenciosa, usa agulhas), **tridente**, **glaive**, **pique** e frascos de **ácido** e **fogo alquímico** para arremessar. A **planilha de armas** do site lista todas, com perícia, efeito, crítico, custo e preço.
 
 ### 14.5 Armaduras
 
@@ -988,20 +997,26 @@ Alguns exemplos (o **Apêndice** traz a lista completa com preços):
 - **Grimório** (50 po), **Bolsa de componentes** (25 po), **Varinha arcana** (10 po), **Orbe de cristal** (20 po), **Símbolo sagrado** (5 po), **Foco druídico** (1 po), **Giz e tintas rúnicas** (5 po).
 - **Ferramentas de ladrão** (25 po), **Kit de herbalismo** (5 po), **Kit de primeiros-socorros** (5 po), **Alaúde** (35 po).
 - **Mochila** (2 po), **Saco de dormir** (1 po), **Corda de cânhamo, 15 m** (1 po), **Tochas, 10** (1 pp), **Tenda** (2 po).
-- **Poção de cura** (50 po). **Água benta** (25 po).
-- **Montarias:** pônei (30 po), cavalo de montaria (75 po), cavalo de guerra (400 po), sela (10 po).
+- **Lupa** (100 po, +2 em Investigação), **Aríete portátil** (4 po, +2 em Força para arrombar), **Gancho de escalada** (2 po), **Lanterna furta-fogo** (10 po), **Estrepes** e **esferas de metal** (1 po cada), **Cadeado** (10 po), **Espelho de aço** (5 po).
+- **Poção de cura** (50 po), **Antitoxina** (50 po, +5 em Fortitude contra veneno por uma hora), **Veneno básico** (100 po), **Bomba de bruxo** (50 po). **Água benta** (25 po).
+- **Ferramentas de ofício:** suprimentos de alquimista, kits de envenenador e de falsificação, ferramentas de ferreiro, carpinteiro, cartógrafo, joalheiro e navegador, jogos e instrumentos.
+- **Montarias e veículos:** pônei (30 po), burro (8 po), cavalo de montaria (75 po), cavalo de guerra (400 po), sela (10 po), alforjes (4 po), carroça (35 po), barco a remo (50 po).
+
+A **planilha de itens** do site traz o catálogo inteiro do gerador, com preço, efeito e o conteúdo de cada kit.
 
 ### 14.8 Rações, munição e quantidades [Casa]
 
 - **Rações de viagem** (5 dias, 2,5 po) são **item básico**: todo personagem leva pelo menos um pacote. No modo Escolher, elas já vêm marcadas.
-- **Munição:** flechas (20, 1 po), virotes (20, 1 po), balas de funda (20, 4 pc). Quem compra arco ou besta leva a munição certa.
-- **Quantidades:** comida, munição e bebida têm um campo de quantidade (1 a 99 pacotes). O preço é multiplicado e a ficha mostra "×3". Para uma travessia de 15 dias no deserto, compre 3 pacotes de rações.
+- **Munição:** flechas (20, 1 po), virotes (20, 1 po), balas de funda (20, 4 pc), agulhas de zarabatana (50, 1 po). Quem compra arco, besta, funda ou zarabatana leva a munição certa.
+- **Quantidades:** comida, munição, bebida e poções têm um campo de quantidade (1 a 99 pacotes). O preço é multiplicado e a ficha mostra "×3". Para uma travessia de 15 dias no deserto, compre 3 pacotes de rações.
 
 ### 14.9 Kits [Casa]
 
 Um **kit** é um pacote com preço próprio, mais barato que os itens separados. Na ficha entram o kit e cada item de dentro, com as estatísticas de cada um: as espadas atacam e a armadura protege.
 
-O **Kit de bruxo** (120 po) é o exemplo atual: espada de prata, espada longa de aço, couro batido (Proteção 2), 3 doses de elixir, 2 óleos para lâminas, kit de herbalismo e bolsa de componentes. Avulsos, custariam 365 po. Se um item de dentro do kit estourar o NP, ele sai da ficha sem reembolso.
+O **Kit de bruxo** (120 po) é o exemplo mais completo: espada de prata, espada longa de aço, couro batido (Proteção 2), 3 doses de elixir, 2 óleos para lâminas, kit de herbalismo e bolsa de componentes. Avulsos, custariam 365 po. As escolas da Víbora e do Urso têm kits próprios (veja a seção 8.3). Se um item de dentro do kit estourar o NP, ele sai da ficha sem reembolso.
+
+Os pacotes do Livro do Jogador também viraram kits: **Pacote de explorador** (10 po: mochila, saco de dormir, kit de refeição, pederneira, tochas, 10 dias de rações, cantil e corda), **Pacote de masmorra** (12 po: troca o saco de dormir e o kit de refeição por pé de cabra, martelo e pitões) e **Pacote de estudioso** (40 po: livro, tinta, pena e pergaminho).
 
 ---
 

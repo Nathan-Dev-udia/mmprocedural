@@ -37,10 +37,19 @@ def detalhes_do_ataque(ataque):
     resistencia = f"{'Resist.' if resistido == 'Resistência' else resistido} CD {ataque['cd_resistencia']}"
     if ataque.get("efeito_nome", "Dano") != "Dano":
         critico = f"{ataque['efeito_nome']} {ataque['dano']}, {critico}"
+    extras = _descritor_e_qualidades(ataque)
     if ataque["tipo"] == "distancia":
         d = ataque["dano"]
-        return f"{_metros(d * 7.5)}/{_metros(d * 15)}/{_metros(d * 30)} m, {critico}, {resistencia}"
-    return f"Corpo a corpo, {critico}, {resistencia}"
+        return f"{_metros(d * 7.5)}/{_metros(d * 15)}/{_metros(d * 30)} m, {critico}, {resistencia}{extras}"
+    return f"Corpo a corpo, {critico}, {resistencia}{extras}"
+
+
+def _descritor_e_qualidades(ataque):
+    """'; corte; Perigosa, Quebrar' para as armas que têm tipo de dano e qualidades (guia de gadgets)."""
+    partes = [ataque["descritor"]] if ataque.get("descritor") and ataque["descritor"] != "—" else []
+    if ataque.get("qualidades"):
+        partes.append(", ".join(ataque["qualidades"]))
+    return "".join(f"; {p}" for p in partes)
 
 
 def texto_ataque(ataque):
@@ -55,7 +64,10 @@ def texto_ataque(ataque):
     efeito = ataque.get("efeito_nome", "Dano")
     cd = "" if efeito == "Dano" else f", {ataque['resistido_por']} CD {ataque['cd_resistencia']}"
     multi = ", Multiataque" if ataque.get("multiataque") else ""
-    return f"{ataque['nome']} {_sinal(ataque['bonus'])} ({efeito} {ataque['dano']}{alcance}{multi}{critico}{cd})"
+    descritor = f" {ataque['descritor']}" if ataque.get("descritor") and ataque["descritor"] != "—" else ""
+    qualidades = "".join(f", {q}" for q in ataque.get("qualidades", []))
+    return (f"{ataque['nome']} {_sinal(ataque['bonus'])} "
+            f"({efeito} {ataque['dano']}{descritor}{alcance}{multi}{critico}{qualidades}{cd})")
 
 
 def ataques_exibidos(ataques):
@@ -168,6 +180,16 @@ def texto_complicacao(complicacao):
     rotulo = "Motivação" if complicacao["categoria"] == "motivacao" else complicacao["nome"]
     nome = f"{rotulo} ({complicacao['nome']})" if complicacao["categoria"] == "motivacao" else rotulo
     return f"{nome}: {complicacao['detalhe']}" if complicacao.get("detalhe") else nome
+
+
+def peso(kg, estimado=False):
+    """1,5 kg, 500 g ou "desprezível" (o que o livro nem pesa); "—" para o que não tem peso."""
+    if kg is None:
+        return "—"
+    if kg == 0:
+        return "desprezível"
+    texto = (f"{kg * 1000:g} g" if kg < 1 else f"{kg:g} kg").replace(".", ",")
+    return texto + (" (estimado)" if estimado else "")
 
 
 def dolares(valor, moeda="$"):

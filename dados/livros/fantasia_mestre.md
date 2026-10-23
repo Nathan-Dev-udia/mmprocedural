@@ -757,7 +757,7 @@ O caçador de monstros dá um formato de aventura pronto: o contrato.
 > **Ataque = d20 + bônus de ataque contra a classe de defesa do alvo** (Aparar + 10 corpo a corpo; Esquiva + 10 à distância)
 
 - **20 natural:** acerto automático e ameaça de crítico. Se o total também superar a defesa, é **crítico**: escolha +5 na CD do efeito, um efeito adicional (uma Aflição por um golpe na cabeça) ou um efeito alternativo. Contra capangas, o crítico pula o salvamento e aplica o pior resultado.
-- **Ameaça ampliada:** armas com crítico 19–20 (espadas, adagas, lanças, bestas) e a vantagem Crítico Aprimorado ampliam a faixa.
+- **Ameaça ampliada:** armas com a qualidade Perigosa (crítico 19–20: adagas, machados, maças, lanças, rapieira, cimitarra, espada curta) e a vantagem Crítico Aprimorado ampliam a faixa.
 - **1 natural:** erro automático.
 
 Quem é atingido faz um **salvamento de Resistência contra CD 15 + graduação do Dano**:
@@ -892,7 +892,7 @@ Os preços são conversões econômicas do gênero e não determinam a Proteçã
 
 - **Montar** usa **Especialidade: Cavalgar** (com Agilidade). Ficar na sela depois de um golpe forte ou de um salto: CD 10 a 20.
 - **A montaria é um personagem:** use o arquétipo **Cavalo** do bestiário (NP 3) ou o tipo **Cavalo de guerra** (a partir do NP 4). Ela age na sua iniciativa e obedece com uma ação de movimento (Comandar).
-- **Carga montada:** use a manobra Encontrão com a velocidade da montaria, ou a **lança de montaria** (Dano 4, crítico 19–20, 10 po), que o foco Cavaleiro do guerreiro já traz.
+- **Carga montada:** use a manobra Encontrão com a velocidade da montaria, ou a **lança de montaria** (Dano 4, Alcance 2, 10 po), que o foco Cavaleiro do guerreiro já traz.
 - **Atacar de cima:** quem luta montado contra alvos a pé ganha +2 de circunstância corpo a corpo, a critério do mestre.
 
 ### 9.9 Fraquezas, prata e resistências [Básico + Casa]
@@ -993,17 +993,21 @@ O efeito Cura tem um extra, **Ressurreição**, que traz de volta quem morreu h�
 
 ### 11.2 Como o gerador converteu o equipamento [Casa + D&D]
 
-Cada item tem **as estatísticas do livro básico de M&M** (cap. 7: armas arcaicas, armaduras e escudos) e **o preço do Livro do Jogador** em peças de ouro (1 pp = 0,1 po; 1 pc = 0,01 po).
+As **armas** seguem o *Gadget Guide: Archaic Weapons* de M&M, e o que cada uma faz vem do Livro do Jogador; as **armaduras e escudos**, o livro básico e o *Manual dos Mecanismos Lite*; o **preço** e o **peso**, o Livro do Jogador, em peças de ouro (1 pp = 0,1 po; 1 pc = 0,01 po).
 
-- **Armas que o M&M tem:** espada (Dano 3, crítico 19–20), machado de batalha (Dano 3), martelo de guerra (Dano 3), lança (Dano 3), arco (Dano 3), besta (Dano 3, crítico 19–20), faca (Dano 1, crítico 19–20).
-- **Armas que o M&M não tem** (espada grande, machado grande, malho, alabarda, lança de montaria, arco longo, besta pesada): são a arma mais próxima com **+1 de Dano e +1 ponto de custo**. A fonte do item diz "adaptado".
-- **A besta de mão** é a besta com –1 de Dano.
-- **Itens gerais** (mochila, corda, grimório, símbolo sagrado, ferramentas) são uma Característica de 1 graduação (1 ponto), como manda o livro.
-- **Munição** (flechas, virotes, balas de funda) é comprada junto com a arma de disparo.
+- **Dano pelo dado do D&D:** d4 → 1, d6 → 2, d8 → 3, d10, d12 ou 2d6 → 4. A tabela do guia segue quase a mesma escala (adaga 1, espada 3, machado 3, martelo 3, maça 2, lança 2).
+- **Tipo de dano do D&D vira descritor:** corte, perfuração ou esmagamento (e prata, ácido, fogo). Ele não fura armadura: só decide contra quem a arma é melhor ou pior (vulnerabilidades e imunidades, seção 9.9).
+- **Qualidades por família, do guia:** adagas, maças e lanças são **Perigosas** (crítico 19–20); machados, **Perigosos** e **Quebrar**; martelos, **Esmagar**; o mangual, **Perigoso** e **Desarmar**; o tridente, **Perigoso** e **Desarmar**; armas de haste, **Alcance 2** e **Derrubar** (o pique troca Derrubar por Perigosa); o chicote, **Alcance 2**, **Desarmar** e **Agarrar**; o bordão, **Dupla**. Quando o guia e o D&D discordam, vale o D&D para o que a arma faz: lança, tridente e mangual não têm Alcance porque no D&D não têm.
+- **Espadas:** o guia dá crítico 20 à espada; espada curta, cimitarra e rapieira são lâminas leves ou de estocada e ganham Perigosa.
+- **Custo em PP** pelo guia (1 por graduação de Dano, 2 à distância, mais as qualidades). Na fantasia as armas são pagas em ouro, então o custo só aparece nas planilhas e no modo de equipamento por pontos.
+- **Itens gerais** (mochila, corda, grimório, símbolo sagrado, ferramentas) são uma Característica de 1 graduação (1 ponto), como manda o livro básico.
+- **Munição** (flechas, virotes, balas de funda, agulhas) é comprada junto com a arma de disparo.
 
-Exemplos: adaga (Dano 1, 19–20, 2 po); espada longa (Dano 3, 19–20, 15 po); espada grande (Dano 4, 19–20, 50 po); machado de batalha (Dano 3, 10 po); arco curto (Dano 3, 25 po); arco longo (Dano 4, 50 po); besta pesada (Dano 4, 19–20, 50 po). A tabela completa está no Apêndice.
+A tabela completa, com qualidades e tipo de dano, está no Apêndice e na planilha de armas do site.
 
-> **Por que não há "1d8 vs 1d10".** No D&D, a diferença entre uma espada longa e um machado grande é meio ponto de dano médio. No M&M, a graduação de Dano é limitada pelo NP; o que distingue as armas é o crítico (19–20 nas lâminas de ponta), as duas mãos e a perícia que o personagem treinou.
+> **Por que não há "1d8 vs 1d10".** No D&D, a diferença entre uma espada longa e um machado grande é meio ponto de dano médio. No M&M, a Força soma ao dano e o limite do NP corta ataque mais Dano, então uma graduação a mais na arma quase nunca chega à mesa. O que distingue as armas são as qualidades do guia: crítico, alcance, derrubar, desarmar, quebrar.
+
+> **Penetrante.** O extra Penetrante do livro básico só fura **Resistência Impenetrável** (golens, criaturas de pedra, a magia Pele de pedra); a Proteção de uma armadura comum não é Impenetrável. Por isso nenhuma arma comum é Penetrante. Uma arma especial (um estoque anão, uma picareta encantada) pode ganhar **Penetrante** igual ao Dano dela, por 1 ponto por graduação.
 
 ### 11.3 Kits [Casa]
 
@@ -1013,7 +1017,7 @@ Use kits para representar o "pacote de aventureiro" do Livro do Jogador ou o equ
 
 ### 11.4 Armas de prata [D&D + Casa]
 
-O Livro do Jogador cobra **100 po** para pratear uma arma. O gerador segue a regra: a **espada de prata** é a espada longa (15 po) mais 100 po de prateamento, **115 po**, com as mesmas estatísticas (Dano 3, crítico 19–20). A prata não aumenta o dano: ela **passa pelas imunidades** de licantropos, alguns demônios e criaturas feéricas (seção 9.9).
+O Livro do Jogador cobra **100 po** para pratear uma arma. O gerador segue a regra: a **espada de prata** é a espada longa (15 po) mais 100 po de prateamento, **115 po**, com as mesmas estatísticas (Dano 3, crítico 20) e o descritor **prata**. A prata não aumenta o dano: ela **passa pelas imunidades** de licantropos, alguns demônios e criaturas feéricas (seção 9.9).
 
 Para pratear outra arma, some 100 po ao preço dela. Munição prateada [Casa]: 10 po por 10 flechas ou virotes.
 
@@ -1375,7 +1379,7 @@ Para um grupo de **quatro PJs de NP N**:
 
 **Os inimigos (encontro difícil):** um chefe de NP 7 (N + 2) e oito capangas de NP 3 (N – 2; um pouco mais fortes que o N – 4 do Guia, porque o bando é de goblins).
 
-- **Bhaal, o Cruel**: arquétipo Bugbear, NP 7, tipo **Chefe bugbear**. Ficha gerada: For 4, Vig 7; maça-estrela +7 (Dano 7), azagaias +8 (Dano 5 à distância); Esquiva 4, Aparar 4, Fortitude 11, Resistência 10 (Vigor 7 + cota de malha 3), Vontade 3; Furtividade +16, Intimidação +16; Liderança e Estrangular. Por ser do tipo Chefe bugbear, não é capanga.
+- **Bhaal, o Cruel**: arquétipo Bugbear, NP 7, tipo **Chefe bugbear**. Ficha gerada: For 4, Vig 7; maça-estrela +7 (Dano 7), azagaias +8 (Dano 6 à distância); Esquiva 4, Aparar 4, Fortitude 11, Resistência 10 (Vigor 7 + cota de malha 3), Vontade 3; Furtividade +16, Intimidação +16; Liderança e Estrangular. Por ser do tipo Chefe bugbear, não é capanga.
 - **Oito goblins**: arquétipo Goblin, NP 3, estilo Variações temáticas, oito NPCs. Saem com tipos diferentes (arqueiro, bardo, de areia, quebra-gelo...). Ficha típica: arco curto +3 (Dano 3), espada curta +2 (Dano 4); Esquiva 4, Aparar 4, Resistência 2, Vontade 1; Furtividade +7. O bardo tem *Zombaria cruel* 2 (Vontade CD 17); o de areia, *Rajada de areia* 3 (Aflição, Fortitude CD 13).
 
 **A cena.** A trilha estreita desce entre paredes de pedra. Os goblins esperam nas saliências, 15 m acima (cobertura parcial, –2 para quem atira neles de baixo); Bhaal espera atrás de uma pedra na curva.
@@ -1503,7 +1507,7 @@ Depois, ponha o id da magia em `magias_ess`/`magias_opc` da classe ou na lista d
 
 ### 15.4 Equipamento e kits (no script)
 
-- **Arma:** `arma(...)` com custo em pontos, preço em po, tipo (`corpo` ou `distancia`), efeito, perícia, crítico, se soma Força e a munição.
+- **Arma:** `arma(...)` com preço em po, o dado do D&D, o Dano, a perícia, o descritor (tipo de dano), as qualidades do guia, o tipo (`corpo` ou `distancia`), se soma Força e a munição. O crítico sai da Perigosa e o custo em PP é calculado pelo guia.
 - **Item:** `item(...)` com categoria, preço e descrição; armaduras levam `protecao`, escudos levam `defesas_ativas`.
 - **Kit:** um item com `"kit"`: uma lista de ids ou de `{"id": ..., "quantidade": n}`, e um preço próprio.
 - **Preço estimado:** quando o item não existe no Livro do Jogador, diga isso na fonte.

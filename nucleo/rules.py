@@ -62,6 +62,23 @@ VANTAGEM_ATAQUE = {"corpo": "Ataque Corpo-a-Corpo", "distancia": "Ataque à Dist
 # Habilidade usada no teste de ataque de cada tipo.
 HABILIDADE_DE_ATAQUE = {"corpo": "Lut", "distancia": "Des"}
 
+# Qualidades de arma do Gadget Guide: Archaic Weapons (Alcance e Perigosa custam 1 ponto por graduação; as
+# outras, 1 ponto). Só a Perigosa muda a conta da ficha (o crítico); as outras valem na mesa.
+QUALIDADES_DE_ARMA = {
+    "Perigosa": "Amplia a margem de crítico em 1 por graduação (19–20 com uma graduação).",
+    "Alcance": "Ataca alvos mais longe: 1,5 m por graduação (Alcance 2 = 3 m, como as armas de haste do D&D).",
+    "Quebrar": "Como a vantagem Quebrar Arma: ao se defender de um ataque armado com sucesso, pode atacar a arma "
+               "do atacante como reação.",
+    "Esmagar": "Sem penalidade no teste de ataque para quebrar um objeto que outro personagem segura.",
+    "Desarmar": "Tenta desarmar sem a penalidade de circunstância.",
+    "Derrubar": "Como Derrubar Aprimorado: sem penalidade para derrubar, sem contra-ataque, e você escolhe se o alvo "
+                "se defende com Acrobacia ou Atletismo.",
+    "Agarrar": "Como Agarrar Rápido: depois de acertar, tenta agarrar o alvo como ação livre, usando o Dano da arma "
+               "como Força.",
+    "Enredar": "Quem está agarrado pela arma sofre –2 nos testes para escapar.",
+    "Dupla": "Arma de duas pontas: pode dividir o dano entre dois alvos.",
+}
+
 # Pontos de poder iniciais de um personagem de jogador: 15 por NP (tabela "Pontos de Poder Iniciais").
 PONTOS_POR_NP = 15
 

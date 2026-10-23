@@ -16,26 +16,32 @@ import zipfile
 
 from flask import Flask, jsonify, render_template, request, send_file
 
-from nucleo import data_loader, docx_export, formatter, generator, livros, pdf_export, player, validator
+from nucleo import (data_loader, docx_export, formatter, generator, livros, medidas, pdf_export, planilhas, player,
+                    validator)
 
 app = Flask(__name__)
 PASTA_LIVROS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "dados", "livros")
+# Planilhas feitas à mão; as dos gêneros em planilhas.GERADAS saem dos dados na hora.
 PLANILHAS_POR_GENERO = {
     "faroeste": {
         "armas": os.path.join(PASTA_LIVROS, "faroeste", "armas.xlsx"),
         "itens": os.path.join(PASTA_LIVROS, "faroeste", "itens.xlsx"),
     },
-    "fantasia": {
-        "armas": os.path.join(PASTA_LIVROS, "fantasia", "armas.xlsx"),
-        "itens": os.path.join(PASTA_LIVROS, "fantasia", "itens.xlsx"),
-    },
 }
-NOMES_DAS_PLANILHAS = {"armas": "Armas", "itens": "Itens"}
+NOMES_DAS_PLANILHAS = {"armas": "Armas", "itens": "Itens", "poderes": "Poderes"}
+
+
+def planilhas_disponiveis(genero_id):
+    if genero_id in planilhas.GERADAS:
+        return list(planilhas.GERADAS[genero_id])
+    return [tipo for tipo, caminho in PLANILHAS_POR_GENERO.get(genero_id, {}).items() if os.path.isfile(caminho)]
 
 # Versão mostrada no rodapé. Suba a cada entrega: 1.0 original, 1.1 passo a passo, 1.2 quantidades, 1.3 fantasia,
 # 1.4 distribuição dos pontos parecida com a dos arquétipos do livro, 1.5 subclasses e tipo de NPC, 1.6 goblinoides e caçador de monstros, 1.7 livros do faroeste e da fantasia,
-# 1.8 planilhas de armas e itens, magias na ficha e livros montados mais rápido, 1.9 escolas do bruxo caçador de monstros.
-VERSAO = "1.9.0"
+# 1.8 planilhas de armas e itens, magias na ficha e livros montados mais rápido, 1.9 escolas do bruxo caçador de monstros,
+# 1.10 catálogo da fantasia ampliado com peso, massa e Velocidade, planilhas de armas, itens e poderes geradas dos
+# dados e Tabela de Medidas.
+VERSAO = "1.10.0"
 
 
 def _commit_atual():
@@ -58,11 +64,8 @@ def versao_do_programa():
     # Livros (do Jogador e do Mestre) de cada gênero, para os botões de download e o rodapé.
     todos_os_livros = [{"genero": g, "nome": d["genero"]["nome"], "tipos": livros.livros_disponiveis(g)}
                        for g, d in DADOS_POR_GENERO.items()]
-    todas_as_planilhas = [
-        {"genero": genero_id, "nome": DADOS_POR_GENERO[genero_id]["genero"]["nome"],
-         "tipos": [tipo for tipo, caminho in tipos.items() if os.path.isfile(caminho)]}
-        for genero_id, tipos in PLANILHAS_POR_GENERO.items() if genero_id in DADOS_POR_GENERO
-    ]
+    todas_as_planilhas = [{"genero": g, "nome": d["genero"]["nome"], "tipos": planilhas_disponiveis(g)}
+                          for g, d in DADOS_POR_GENERO.items()]
     return {"versao": VERSAO, "commit": COMMIT, "livros": [l for l in todos_os_livros if l["tipos"]],
             "nomes_dos_livros": livros.TIPOS, "planilhas": [p for p in todas_as_planilhas if p["tipos"]],
             "nomes_das_planilhas": NOMES_DAS_PLANILHAS}
@@ -120,7 +123,7 @@ def opcoes_da_interface(DADOS):
                             "armas": a["armas"], "itens": a["itens"],
                             "implantes": a.get("implantes", {"essenciais": [], "opcionais": []})}
                            for a in DADOS["jogador"]["arquetipos"].values()],
-            "catalogo": [_item_para_a_tela(i) for i in player.catalogo_do_jogador(DADOS)],
+            "catalogo": [_item_para_a_tela(DADOS, i) for i in player.catalogo_do_jogador(DADOS)],
             "itens_basicos": player.itens_basicos(DADOS),
             "quantidade_maxima": player.QUANTIDADE_MAXIMA,
             # "dinheiro": itens pagos em dólares; "pontos": itens pagos com a vantagem Equipamento.
@@ -178,7 +181,7 @@ def _nome_no_kit(item_id, quantidade):
     return item_id
 
 
-def _item_para_a_tela(item):
+def _item_para_a_tela(DADOS, item):
     """Resumo de um item do catálogo para a lista de compras da ficha de jogador."""
     ataque = item.get("ataque")
     resumo = ""
@@ -196,6 +199,14 @@ def _item_para_a_tela(item):
     elif item.get("kit"):
         nomes = [_nome_no_kit(item_id, quantidade) for item_id, quantidade in player.conteudo_do_kit(item)]
         resumo = "Contém: " + ", ".join(nomes)
+    if item.get("velocidade") is not None:
+        resumo = f"Velocidade {item['velocidade']} ({medidas.km_por_hora(item['velocidade']):g} km/h)"
+    kg = player.peso_do_item(DADOS, item)
+    if kg:
+        # Peso e graduação de massa (Tabela de Medidas), nos gêneros que pesam o equipamento.
+        estimado = ", estimado" if item.get("peso_estimado") else ""
+        massa = f"{formatter.peso(kg)} (massa {medidas.graduacao_de_massa(kg)}{estimado})"
+        resumo = f"{resumo} · {massa}" if resumo else massa
     return {"id": item["id"], "nome": item["nome"], "categoria": item["categoria"], "preco": item.get("preco"),
             "custo": item.get("custo"), "preco_estimado": bool(item.get("preco_estimado")),
             "categoria_de_preco": item.get("categoria_de_preco", ""),
@@ -352,11 +363,14 @@ def baixar_livro(genero_id, tipo):
 
 @app.get("/planilhas/<genero_id>/<tipo>.xlsx")
 def baixar_planilha(genero_id, tipo):
-    caminho = PLANILHAS_POR_GENERO.get(genero_id, {}).get(tipo)
-    if tipo not in NOMES_DAS_PLANILHAS or not caminho or not os.path.isfile(caminho):
+    if tipo not in NOMES_DAS_PLANILHAS or tipo not in planilhas_disponiveis(genero_id):
         return jsonify({"erro": "Planilha não encontrada."}), 404
-    return send_file(caminho, mimetype=MIME_XLSX, as_attachment=True,
-                     download_name=f"{tipo}_{genero_id}.xlsx")
+    nome = f"{tipo}_{genero_id}.xlsx"
+    if genero_id in planilhas.GERADAS:
+        conteudo = planilhas.gerar(_dados(genero_id), tipo)
+        return send_file(io.BytesIO(conteudo), mimetype=MIME_XLSX, as_attachment=True, download_name=nome)
+    return send_file(PLANILHAS_POR_GENERO[genero_id][tipo], mimetype=MIME_XLSX, as_attachment=True,
+                     download_name=nome)
 
 
 @app.post("/api/ficha.pdf")
