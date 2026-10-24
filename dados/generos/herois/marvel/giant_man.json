@@ -77,7 +77,7 @@
     ],
     "equipamento": [
       "Uniforme (+3 Resistência; 3 EP)",
-      "Com-link (1 EP)"
+      "comunicador (1 EP)"
     ],
     "complicacoes": [],
     "ataques": [
@@ -99,9 +99,9 @@
     "habilidades": 52,
     "defesas": 33,
     "pericias": 61.5,
-    "vantagens": null,
+    "vantagens": 12,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 146.5,
+    "subtotal_conhecido": 158.5,
     "poderes_pendentes": true,
     "total": null
   },
@@ -109,6 +109,6 @@
     "Ataque corpo a corpo +3 foi convertido em Fighting -2 mais Close Attack 5, com +13 de dano. Dodge Focus 3 foi convertido em Esquiva; Esquiva/Aparar foram limitadas para cumprir NP 10. Notice e Sense Motive têm bônus totais +5, que resultam em 6 graduações quando se subtrai Awareness -1.",
     "Defesas ajustadas para Esquiva 10 e Aparar 10, respeitando os limites de NP 10 com Resistência 10.",
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
-    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias e apenas os custos de poderes confirmados; não inclui vantagens nem custos incertos."
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
   ]
 }

@@ -5,7 +5,7 @@
   "nome_pt": "Red Skull",
   "nivel_poder": 10,
   "pontos_poder_origem": 190,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 220.5,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -31,17 +31,17 @@
     },
     "pericias": {
       "Enganação": 8,
-      "Especialidade: Mechanical": 12,
-      "Especialidade: Chemical": 12,
       "Persuasão": 8,
       "Veículos": 8,
       "Intimidação": 15,
-      "Especialidade: Tactics": 8,
-      "Especialidade: Technology": 14,
-      "Especialidade: Mercenary": 4,
       "Percepção": 8,
       "Intuição": 10,
-      "Furtividade": 8
+      "Furtividade": 8,
+      "Especialidade: Mecânica": 12,
+      "Especialidade: Química": 12,
+      "Especialidade: Tática": 8,
+      "Especialidade: Tecnologia": 14,
+      "Especialidade: Mercenário": 4
     },
     "vantagens": [
       "All-out Attack",
@@ -63,28 +63,28 @@
         "nome": "Death Dust",
         "construcao_3e": "Device (Removable): Weaken Stamina 10, Cloud Area.",
         "custo_2e_pp": 12,
-        "custo_3e_pp": null
+        "custo_3e_pp": 16
       },
       {
         "nome": "Immunity 1",
         "construcao_3e": "Immunity to Death’s Head Toxin.",
         "custo_2e_pp": 1,
-        "custo_3e_pp": null
+        "custo_3e_pp": 1
       }
     ],
     "equipamento": [
-      "Arsenal (SMG +4 Damage, Autofire; 12 EP; pistol +3 Damage, 6 EP; source states 13 EP total).",
-      "Underground lair (Huge; Toughness 15; listed features; 17 EP)."
+      "Arsenal (SMG +4 Damage, Autofire; 12 EP; pistol +3 Damage, 6 EP; a fonte informa 13 EP total).",
+      "Underground lair (Huge; Toughness 15; recursos listados; 17 EP)."
     ],
     "complicacoes": [],
     "ataques": [
       {
-        "nome": "Unarmed",
+        "nome": "Desarmado",
         "bonus": 13,
         "dano": 7
       },
       {
-        "nome": "Submachine gun",
+        "nome": "Submetralhadora",
         "bonus": 13,
         "dano": 4
       },
@@ -104,13 +104,11 @@
   },
   "custos_3e": {
     "habilidades": 104,
-    "defesas": 50,
+    "poderes": 17,
+    "defesas": 13,
     "pericias": 57.5,
     "vantagens": 29,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 240.5,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 220.5
   },
   "notas_conversao": [
     "Dodge Focus 10 foi convertido em Esquiva e reduzido a 13 para caber no NP; Improved Throw virou Improved Trip; Master Plan virou Inspire conforme o guia; Fearsome Presence e Sneak Attack não têm equivalentes diretos.",

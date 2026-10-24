@@ -86,16 +86,16 @@
   },
   "custos_3e": {
     "habilidades": 84,
-    "defesas": 34,
-    "pericias": 49,
+    "defesas": 17,
+    "pericias": 48.5,
     "vantagens": 9,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 176,
+    "subtotal_conhecido": 158.5,
     "poderes_pendentes": true,
     "total": null
   },
   "notas_conversao": [
-    "Dodge Focus 6 foi convertido em Dodge ranks; Dodge foi limitado a 10 para cumprir o par com Toughness 14 (NP 12).",
+    "Dodge Focus 6 foi convertido em graduações de Dodge; Dodge foi limitado a 10 para cumprir o par com Toughness 14 (NP 12).",
     "O Attack 10 + Blast 14 é legal no limite de NP 12; Blast em área rank 9 foi mantido como efeito alternativo.",
     "A fonte trata todo o conjunto como Device 22, mas registra o custo do conjunto como 88 PP; ambos foram preservados.",
     "Dodge foi ajustada de 16 para 10 para cumprir Dodge + Toughness ≤ 24 (NP 12)."

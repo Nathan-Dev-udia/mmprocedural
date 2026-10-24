@@ -53,7 +53,7 @@
     "poderes": [
       {
         "nome": "Optic Blast / Deflect",
-        "construcao_3e": "Blast 12 (Penetrating, Concentration, Uncontrolled); Alternate Effects: Deflect (all ranged, Move Action) and Blast 10 (Concentration, Line Area, Uncontrolled).",
+        "construcao_3e": "Blast 12 (Penetrating, Concentration, Uncontrolled); Alternate Effects: Deflect (todos os ataques à distância, ação de movimento) and Blast 10 (Concentration, Line Area, Uncontrolled).",
         "custo_2e_pp": 38,
         "custo_3e_pp": null
       },
@@ -61,11 +61,11 @@
         "nome": "Immunity",
         "construcao_3e": "Immunity 1 (Havok's powers).",
         "custo_2e_pp": 1,
-        "custo_3e_pp": null
+        "custo_3e_pp": 1
       },
       {
         "nome": "Visor",
-        "construcao_3e": "Device (Removable): removes Uncontrolled from Blast; Accurate Attack, Improved Aim, Precise Shot 2, Ultimate Effort (Ultimate Aim).",
+        "construcao_3e": "Device (removível): removes Uncontrolled from Blast; Accurate Attack, Improved Aim, Precise Shot 2, Ultimate Effort (Ultimate Aim).",
         "custo_2e_pp": 12,
         "custo_3e_pp": null
       }
@@ -98,10 +98,10 @@
   "custos_3e": {
     "habilidades": 50,
     "defesas": 27,
-    "pericias": 25.0,
-    "vantagens": null,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 102.0,
+    "pericias": 25,
+    "vantagens": 15,
+    "poderes_conhecidos": 1,
+    "subtotal_conhecido": 118,
     "poderes_pendentes": true,
     "total": null
   },
@@ -109,6 +109,6 @@
     "O valor de Toughness foi extraído como “+/+5”; +5 é o único valor legível e Defensive Roll 2 pode elevar a Resistência ativa a +7. Esquiva e Aparar foram limitadas a 13 para respeitar NP 10 com Resistência ativa 7. O ataque +8 e dano +12 do Optic Blast foram preservados (total 20).",
     "Defesas ajustadas para Esquiva 13 e Aparar 13, respeitando os limites de NP 10 com Resistência 7.",
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
-    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias e apenas os custos de poderes confirmados; não inclui vantagens nem custos incertos."
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
   ]
 }

@@ -51,13 +51,13 @@
     "poderes": [
       {
         "nome": "Emotion Control",
-        "construcao_3e": "Affliction (Perception Range, Resisted by Will; conditions based on emotion), Alternate Effect: Ranged Mental Blast 8 (Requires a bow).",
+        "construcao_3e": "Affliction (Perception Range, Resisted by Will; condições baseadas em emoções), Alternate Effect: Ranged Mental Blast 8 (requer um arco).",
         "custo_2e_pp": 21,
         "custo_3e_pp": null
       },
       {
         "nome": "Illusion",
-        "construcao_3e": "Illusion 10, Limited to objects of fear and desire; Linked to Emotion Control.",
+        "construcao_3e": "Illusion 10, Limited a objetos de medo e desejo; Linked to Emotion Control.",
         "custo_2e_pp": 20,
         "custo_3e_pp": null
       },
@@ -65,7 +65,7 @@
         "nome": "Comprehend Animals",
         "construcao_3e": "Comprehend Animals 2.",
         "custo_2e_pp": 4,
-        "custo_3e_pp": null
+        "custo_3e_pp": 4
       }
     ],
     "equipamento": [
@@ -100,9 +100,9 @@
     "habilidades": 48,
     "defesas": 29,
     "pericias": 30.5,
-    "vantagens": null,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 107.5,
+    "vantagens": 14,
+    "poderes_conhecidos": 4,
+    "subtotal_conhecido": 125.5,
     "poderes_pendentes": true,
     "total": null
   },
@@ -110,6 +110,6 @@
     "Dodge Focus 7 foi convertido em Esquiva, reduzida para cumprir NP 10. A fonte mostra Toughness +7/+5 com Defensive Roll 2; foi usado o maior valor publicado para verificar o limite. Elusive Target foi omitida por não ter equivalente direto.",
     "Defesas ajustadas para Esquiva 13 e Aparar 13, respeitando os limites de NP 10 com Resistência 7.",
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
-    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias e apenas os custos de poderes confirmados; não inclui vantagens nem custos incertos."
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
   ]
 }

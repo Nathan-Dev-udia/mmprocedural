@@ -55,17 +55,17 @@
     "poderes": [
       {
         "nome": "Energy Absorption",
-        "construcao_3e": "Energy Absorption 10 com Boost para Blast, conforme a ficha-fonte. A versao exata em efeitos, modificadores, gatilho e custo 3e requer confirmacao; a proposta Immunity + Enhanced Trait com Reaction/Fades nao foi tratada como regra confirmada.",
+        "construcao_3e": "Energy Absorption 10 com Boost para Blast, conforme a ficha-fonte. A versão exata em efeitos, modificadores, gatilho e custo 3e requer confirmação; a proposta Immunity + Enhanced Trait com Reaction/Fades não foi tratada como regra confirmada.",
         "custo_2e_pp": 40,
         "custo_3e_pp": null
       }
     ],
     "equipamento": [
-      "Twin Heavy Pistols (+4 Damage; Auto-fire; 12 EP)",
-      "Undercover Vest (+3 Toughness; Subtle; 4 EP)",
-      "Cell Phone (1 EP)",
-      "Shades (0 EP)",
-      "Leather Jacket (+1 Toughness; 1 EP)"
+      "Duas pistolas pesadas (+4 Damage; Auto-fire; 12 EP)",
+      "Colete disfarçado (+3 Toughness; Subtle; 4 EP)",
+      "Celular (1 EP)",
+      "Óculos escuros (0 EP)",
+      "Jaqueta de couro (+1 Toughness; 1 EP)"
     ],
     "complicacoes": [],
     "ataques": [
@@ -93,15 +93,16 @@
     "defesas": 20,
     "pericias": 46,
     "vantagens": 12,
-    "subtotal_sem_poderes": 122,
-    "poderes": null,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 122,
+    "poderes_pendentes": true,
     "total": null
   },
   "notas_conversao": [
-    "Dodge Focus 4 foi convertido em Esquiva; tres ranks foram mantidos e um removido para limitar Esquiva + Resistencia a 20.",
-    "Disable Device foi incorporada em Tecnologia; Search e Notice foram reunidas em Investigacao e Percepcao, respectivamente. Survival foi mantida como Especialidade.",
-    "Os custos confirmados sem o poder somam 122 PP. A proposta do NotebookLM para Absorption (Immunity 10 + Enhanced Trait com Reaction/Fades) nao foi confirmada no texto de referencia. Os 153 PP estimados e a reducao sugerida de pericias ficam, portanto, como hipotese, nao como total validado.",
-    "Elusive Target nao tem vantagem equivalente em 3e; a situacao pode conceder cobertura conforme o guia. Quickdraw foi normalizada para Quick Draw.",
-    "A fonte nao lista complicacoes; nenhuma motivacao foi inferida."
+    "Dodge Focus 4 foi convertido em Esquiva; três graduações foram mantidas e uma removida para limitar Esquiva + Resistência a 20.",
+    "Disable Device foi incorporada em Tecnologia; Search e Notice foram reunidas em Investigação e Percepcao, respectivamente. Survival foi mantida como Especialidade.",
+    "Os custos confirmados sem o poder somam 122 PP. A proposta do NotebookLM para Absorption (Immunity 10 + Enhanced Trait com Reaction/Fades) não foi confirmada no texto de referencia. Os 153 PP estimados e a redução sugerida de perícias ficam, portanto, como hipótese, não como total validado.",
+    "Elusive Target não tem vantagem equivalente em 3e; a situação pode conceder cobertura conforme o guia. Quickdraw foi normalizada para Quick Draw.",
+    "A fonte não lista complicações; nenhuma motivacao foi inferida."
   ]
 }

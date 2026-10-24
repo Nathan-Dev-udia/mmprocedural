@@ -58,17 +58,17 @@
         "nome": "ESP 2",
         "construcao_3e": "Remote Sensing 2, visual.",
         "custo_2e_pp": 4,
-        "custo_3e_pp": null
+        "custo_3e_pp": 2
       },
       {
         "nome": "Mental Blast 6",
-        "construcao_3e": "Damage/Affliction with Mental Weapon flaw.",
+        "construcao_3e": "Damage/Affliction com a falha Mental Weapon.",
         "custo_2e_pp": 12,
         "custo_3e_pp": null
       },
       {
         "nome": "Telepathy 4",
-        "construcao_3e": "Mind Reading and Mental Communication.",
+        "construcao_3e": "Mind Reading e Mental Communication.",
         "custo_2e_pp": 8,
         "custo_3e_pp": null
       },
@@ -80,12 +80,12 @@
       }
     ],
     "equipamento": [
-      "Sword (+3 Damage; 19–20 critical; Mighty; 5 EP)."
+      "Espada (+3 Damage; 19–20 critical; Mighty; 5 EP)."
     ],
     "complicacoes": [],
     "ataques": [
       {
-        "nome": "Sword",
+        "nome": "Espada",
         "bonus": 12,
         "dano": 5
       },
@@ -95,7 +95,7 @@
         "dano": 6
       },
       {
-        "nome": "Unarmed",
+        "nome": "Desarmado",
         "bonus": 8,
         "dano": 2
       }
@@ -110,11 +110,11 @@
   },
   "custos_3e": {
     "habilidades": 64,
-    "defesas": 45,
+    "defesas": 18,
     "pericias": 30.5,
     "vantagens": 16,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 155.5,
+    "poderes_conhecidos": 2,
+    "subtotal_conhecido": 130.5,
     "poderes_pendentes": true,
     "total": null
   },

@@ -5,7 +5,7 @@
   "nome_pt": "Arcanjo",
   "nivel_poder": 10,
   "pontos_poder_origem": 145,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 150,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -56,20 +56,22 @@
       {
         "nome": "Flight",
         "construcao_3e": "Flight 4.",
-        "custo_2e_pp": 8
+        "custo_2e_pp": 8,
+        "custo_3e_pp": 8
       },
       {
         "nome": "Super Senses",
         "construcao_3e": "Senses 5: Extended Vision 5.",
-        "custo_2e_pp": 5
+        "custo_2e_pp": 5,
+        "custo_3e_pp": 5
       }
     ],
     "equipamento": [
-      "Uniform (+3 Toughness; Subtle; 4 EP)",
-      "Comm-Link (1 EP)"
+      "Uniforme (+3 Toughness; Subtle; 4 EP)",
+      "Comunicador (1 EP)"
     ],
     "complicacoes": [
-      "Vulnerabilidade a vibracoes refletidas; ocorrencia incomum, intensidade moderada."
+      "Vulnerabilidade a vibrações refletidas; ocorrência incomum, intensidade moderada."
     ],
     "ataques": [
       {
@@ -89,14 +91,33 @@
       "aparar_mais_resistencia": 16,
       "fortitude_mais_vontade": 10,
       "legal": true
+    },
+    "habilidades_base": {
+      "For": 6,
+      "Vig": 3,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 10,
+      "Int": 2,
+      "Pro": 1,
+      "Pre": 5
     }
   },
   "notas_conversao": [
     "O perfil impresso identifica o personagem como PL 10, embora o total de pontos e os valores de ataque/defesa sugiram PL 10; esse nivel foi preservado.",
-    "Dodge Focus 4 foi convertido em Esquiva; foi reduzido para 14 porque Esquiva 16 + Resistencia 6 excederia o limite de PL 10. Aparar 12 foi reduzido para 10, pois Aparar 12 + Fighting 10 excederia 20.",
-    "Favored Environment (Airborne) foi mantida com o bonus de ataque +2 mostrado na fonte; o ataque nao supera o limite de NP.",
-    "Sneak Attack nao possui equivalencia direta; nao foi transformada em dano adicional sem custo. Environmental Adaptation (High Altitudes) foi tratada como Feature situacional e nao altera a ficha base.",
-    "Skill Mastery foi mantida para as pericias listadas. Os bonus totais foram convertidos subtraindo a habilidade 3e correspondente; Pilot e Stealth resultam em 7 ranks cada.",
-    "A soma dos componentes impressos (40 + 20 + 26 + 13 + 36 + 14) resulta em 149 PP, mas o total da fonte informa 145. Os dois valores foram mantidos distintos; 145 e apenas o total original publicado."
-  ]
+    "Dodge Focus 4 foi convertido em Esquiva; foi reduzido para 14 porque Esquiva 16 + Resistência 6 excederia o limite de PL 10. Aparar 12 foi reduzido para 10, pois Aparar 12 + Fighting 10 excederia 20.",
+    "Favored Environment (Airborne) foi mantida com o bônus de ataque +2 mostrado na fonte; o ataque não supera o limite de NP.",
+    "Sneak Attack não possui equivalência direta; não foi transformada em dano adicional sem custo. Environmental Adaptation (High Altitudes) foi tratada como Feature situacional e não altera a ficha base.",
+    "Skill Mastery foi mantida para as perícias listadas. Os bônus totais foram convertidos subtraindo a habilidade 3e correspondente; Pilot e Stealth resultam em 7 graduações cada.",
+    "A soma dos componentes impressos (40 + 20 + 26 + 13 + 36 + 14) resulta em 149 PP, mas o total da fonte informa 145. Os dois valores foram mantidos distintos; 145 é apenas o total original publicado.",
+    "Os custos 3e somam 150 PP (66 habilidades base + 13 poderes + 17 defesas + 39 perícias + 15 vantagens)."
+  ],
+  "custos_3e": {
+    "habilidades_base": 66,
+    "poderes": 13,
+    "defesas": 17,
+    "pericias": 39,
+    "vantagens": 15,
+    "total": 150
+  }
 }

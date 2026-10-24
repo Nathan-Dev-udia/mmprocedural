@@ -57,7 +57,7 @@
     "poderes": [
       {
         "nome": "Cosmic Energy Control",
-        "construcao_3e": "Ranged Damage 12 (Penetrating, Uncontrolled); Alternate Effects: Uncontrolled Disintegration 8 and Uncontrolled Explosion Area Damage 10 (centered on self).",
+        "construcao_3e": "Ranged Damage 12 (Penetrating, Uncontrolled); Alternate Effects: Uncontrolled Disintegration 8 and Uncontrolled Explosion Area Damage 10 (centrado em si mesmo).",
         "custo_2e_pp": 26,
         "custo_3e_pp": null
       },
@@ -71,7 +71,7 @@
         "nome": "Immunity",
         "construcao_3e": "Immunity 1 (Cyclops' powers).",
         "custo_2e_pp": 1,
-        "custo_3e_pp": null
+        "custo_3e_pp": 1
       }
     ],
     "equipamento": [],
@@ -99,10 +99,10 @@
   "custos_3e": {
     "habilidades": 40,
     "defesas": 27,
-    "pericias": 30.0,
-    "vantagens": null,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 97.0,
+    "pericias": 30,
+    "vantagens": 17,
+    "poderes_conhecidos": 1,
+    "subtotal_conhecido": 115,
     "poderes_pendentes": true,
     "total": null
   },
@@ -110,6 +110,6 @@
     "Toughness +7/+6 foi preservada como Resistência ativa 7 (base +6) com Defensive Roll 2; Esquiva/Aparar foram limitadas para respeitar NP 10. Os poderes incontrolados e o traje que remove essa falha foram preservados conforme a fonte.",
     "Defesas ajustadas para Esquiva 13 e Aparar 13, respeitando os limites de NP 10 com Resistência 7.",
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
-    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias e apenas os custos de poderes confirmados; não inclui vantagens nem custos incertos."
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
   ]
 }

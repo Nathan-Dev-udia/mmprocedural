@@ -7,15 +7,10 @@ Aviso para quem (pessoa ou IA) for continuar o trabalho nas fichas da Marvel.
 - **A extração está completa.** O livro é um só: `referencias/marvel/mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf`
   (117 páginas). A página 1 não tem ficha; as páginas 2 a 117 têm um perfil cada, e há 116 JSONs, um por página
   (`fonte.pagina`), sem repetição e sem página com dois perfis. **Não há personagem faltando.** Não procure outros livros.
-- **O que falta é fechar a conversão da 2ª para a 3ª edição**, principalmente dos poderes:
-  - 97 fichas têm `custos_3e.poderes_pendentes: true`. Nelas, cada poder tem `construcao_3e` em texto, mas sem
-    `custo_3e_pp` (só `custo_2e_pp`), então o total de PP não fecha.
-  - Só `beast` tem `pontos_poder_3e` preenchido (183 PP). Ele é o **modelo de ficha completa**: leia-o primeiro.
-  - 10 fichas (`absorbing_man`, `adam-x`, `archangel`, `avalanche`, `baron_zemo`, `black_cat`, `black_panther`, `blink`,
-    `blob`, `bullseye`) foram feitas numa primeira passada e **não têm o bloco `custos_3e`**.
-  - `bishop` usa uma variante do bloco (`subtotal_sem_poderes`, `poderes: null`).
-  - `kingpin`, `mary_jane_watson` e `punisher` não têm poderes e têm todos os custos conhecidos: o `total` já pode ser
-    fechado (soma de habilidades + defesas + perícias + vantagens). `elektra` ainda tem `vantagens: null`.
+- **O que falta é fechar a conversão da 2ª para a 3ª edição**, principalmente dos poderes complexos (arrays, dispositivos, formas alternativas e efeitos com modificadores sem equivalência direta):
+  - Todas as 116 fichas já possuem o bloco `custos_3e` padronizado (incluindo as 10 fichas de `absorbing_man` a `bullseye` e `bishop`), com `habilidades`/`habilidades_base`, `defesas` (1 PP por graduação comprada), `pericias` (1 PP a cada 2 graduações) e `vantagens` preenchidos.
+  - **17 fichas** já estão com `pontos_poder_3e` e `custos_3e.total` totalmente fechados (`archangel`, `beast`, `bullseye`, `captain_britain`, `elektra`, `jubilee`, `kingpin`, `luke_cage`, `mary_jane_watson`, `mystique`, `northstar`, `puck`, `punisher`, `red_skull`, `thing`, `tombstone`, `wolfsbane`). `beast` é o **modelo original de ficha completa**: leia-o primeiro.
+  - **99 fichas** têm `custos_3e.poderes_pendentes: true`. Nelas, poderes de equivalência direta já têm `custo_3e_pp` preenchido e somado em `poderes_conhecidos`, mas ao menos um poder depende de julgamento de design (`custo_3e_pp: null`), então o total de PP permanece `null`.
 - Fichas com valor `null` **de propósito**: `chamber` e `sentinel` (o livro imprime travessão; são construtos sem
   Constituição). Não preencha com 0.
 

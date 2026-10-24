@@ -33,10 +33,10 @@
       "Acrobacia": 8,
       "Enganação": 4,
       "Tecnologia": 12,
-      "Especialidade: Electrical": 8,
       "Percepção": 6,
       "Intuição": 6,
-      "Furtividade": 12
+      "Furtividade": 12,
+      "Especialidade: Eletrônica": 8
     },
     "vantagens": [
       "Accurate Attack",
@@ -57,13 +57,13 @@
     "poderes": [
       {
         "nome": "Insubstantial 4",
-        "construcao_3e": "Insubstantial 4, Linked to Corrosion and Air Walk.",
+        "construcao_3e": "Insubstantial 4, Linked to Corrosion e Air Walk.",
         "custo_2e_pp": 20,
         "custo_3e_pp": 20
       },
       {
         "nome": "Corrosion 6",
-        "construcao_3e": "Weaken Toughness linked to Damage; Aura, Affects Corporeal; Limited to electronics.",
+        "construcao_3e": "Weaken Toughness linked to Damage; Aura, Affects Corporeal; Limited a equipamentos eletrônicos.",
         "custo_2e_pp": 18,
         "custo_3e_pp": null
       },
@@ -75,10 +75,10 @@
       }
     ],
     "equipamento": [
-      "Uniform (+2 Toughness; Subtle; 3 EP).",
+      "Uniforme (+2 Toughness; Subtle; 3 EP).",
       "Ninja-To (+3 Damage; Mighty; Improved Critical; 5 EP).",
-      "Multi-tool (1 EP).",
-      "Laptop (1 EP)."
+      "Ferramenta multiuso (1 EP).",
+      "Notebook (1 EP)."
     ],
     "complicacoes": [],
     "ataques": [
@@ -88,7 +88,7 @@
         "dano": 3
       },
       {
-        "nome": "Unarmed",
+        "nome": "Desarmado",
         "bonus": 7,
         "dano": 0
       }
@@ -103,11 +103,11 @@
   },
   "custos_3e": {
     "habilidades": 50,
-    "defesas": 36,
-    "pericias": 28.0,
+    "defesas": 17,
+    "pericias": 28,
     "vantagens": 27,
     "poderes_conhecidos": 24,
-    "subtotal_conhecido": 165.0,
+    "subtotal_conhecido": 146,
     "poderes_pendentes": true,
     "total": null
   },

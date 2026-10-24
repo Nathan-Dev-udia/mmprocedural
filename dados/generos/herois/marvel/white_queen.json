@@ -40,8 +40,8 @@
       "Especialidade: Direção Executiva": 9,
       "Especialidade: Ensino": 5,
       "Intuição": 12,
-      "Combate Corpo-a-Corpo: Unarmed": 4,
-      "Combate a Distância: Small Pistol": 8,
+      "Combate Corpo-a-Corpo: Desarmado": 4,
+      "Combate a Distância: Pistola Pequena": 8,
       "Combate a Distância: Mental Blast": 8
     },
     "vantagens": [
@@ -95,11 +95,11 @@
   },
   "custos_3e": {
     "habilidades": 44,
-    "defesas": 22,
+    "defesas": 9,
     "pericias": 52.5,
     "vantagens": 14,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 132.5,
+    "subtotal_conhecido": 119.5,
     "poderes_pendentes": true,
     "total": null
   },

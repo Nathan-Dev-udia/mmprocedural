@@ -89,11 +89,11 @@
   },
   "custos_3e": {
     "habilidades": 56,
-    "defesas": 19,
+    "defesas": 7,
     "pericias": 44,
     "vantagens": 11,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 130,
+    "subtotal_conhecido": 118,
     "poderes_pendentes": true,
     "total": null
   },

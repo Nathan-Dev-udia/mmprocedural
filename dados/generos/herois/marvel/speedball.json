@@ -35,7 +35,7 @@
       "Percepção": 10,
       "Intuição": 6,
       "Furtividade": 10,
-      "Combate Corpo-a-Corpo: Unarmed": 2
+      "Combate Corpo-a-Corpo: Desarmado": 2
     },
     "vantagens": [
       "All-Out Attack",
@@ -52,9 +52,9 @@
       },
       {
         "nome": "Leaping",
-        "construcao_3e": "Leaping (rank 2e 2); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Leaping 2 (2 pp); custo 2e impresso 2 PP.",
+        "construcao_3e": "Leaping 2.",
         "custo_2e_pp": 2,
-        "custo_3e_pp": null
+        "custo_3e_pp": 2
       }
     ],
     "equipamento": [],
@@ -76,11 +76,11 @@
   },
   "custos_3e": {
     "habilidades": 34,
-    "defesas": 29,
+    "defesas": 9,
     "pericias": 21,
     "vantagens": 4,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 88,
+    "poderes_conhecidos": 2,
+    "subtotal_conhecido": 70,
     "poderes_pendentes": true,
     "total": null
   },

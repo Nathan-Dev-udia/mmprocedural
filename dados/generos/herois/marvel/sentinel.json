@@ -42,7 +42,7 @@
       },
       {
         "nome": "Blast 10",
-        "construcao_3e": "Blast 10, Line Area; Alternate Effects: Ranged Cone Area Paralyze 10, Explosive Area Snare 10, Search Light.",
+        "construcao_3e": "Blast 10, Line Area; Alternate Effects: Ranged Cone Area Paralyze 10, Explosive Area Snare 10, holofote.",
         "custo_2e_pp": 33,
         "custo_3e_pp": null
       },
@@ -50,19 +50,19 @@
         "nome": "Immunity 30",
         "construcao_3e": "Immunity to Fortitude effects.",
         "custo_2e_pp": 30,
-        "custo_3e_pp": null
+        "custo_3e_pp": 30
       },
       {
         "nome": "Flight 4",
         "construcao_3e": "Flight 4.",
         "custo_2e_pp": 8,
-        "custo_3e_pp": null
+        "custo_3e_pp": 8
       },
       {
         "nome": "Super-Senses 3",
         "construcao_3e": "Extended 2, Mutant Awareness.",
         "custo_2e_pp": 3,
-        "custo_3e_pp": null
+        "custo_3e_pp": 3
       },
       {
         "nome": "Protection 12",
@@ -75,7 +75,7 @@
     "complicacoes": [],
     "ataques": [
       {
-        "nome": "Unarmed",
+        "nome": "Desarmado",
         "bonus": 2,
         "dano": 10
       },
@@ -95,11 +95,11 @@
   },
   "custos_3e": {
     "habilidades": 38,
-    "defesas": 28,
-    "pericias": 4.0,
+    "defesas": 14,
+    "pericias": 4,
     "vantagens": 0,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 70.0,
+    "poderes_conhecidos": 41,
+    "subtotal_conhecido": 97,
     "poderes_pendentes": true,
     "total": null
   },

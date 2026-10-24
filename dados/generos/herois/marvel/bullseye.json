@@ -5,7 +5,7 @@
   "nome_pt": "Mercenário",
   "nivel_poder": 9,
   "pontos_poder_origem": 135,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 150,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -62,15 +62,16 @@
       {
         "nome": "Protection",
         "construcao_3e": "Protection 3, Innate.",
-        "custo_2e_pp": 4
+        "custo_2e_pp": 4,
+        "custo_3e_pp": 4
       }
     ],
     "equipamento": [
       "Shuriken (+1 Damage; Autofire; 3 EP)"
     ],
     "complicacoes": [
-      "Vulnerabilidade a poderes magneticos; ocorrencia incomum, intensidade maior.",
-      "Weak Point; tipo nao especificado na fonte."
+      "Vulnerabilidade a poderes magneticos; ocorrência incomum, intensidade maior.",
+      "Weak Point; tipo não especificado na fonte."
     ],
     "ataques": [
       {
@@ -90,12 +91,31 @@
       "aparar_mais_resistencia": 16,
       "fortitude_mais_vontade": 12,
       "legal": true
+    },
+    "habilidades_base": {
+      "For": 2,
+      "Vig": 3,
+      "Agi": 4,
+      "Des": 4,
+      "Lut": 8,
+      "Int": 1,
+      "Pro": 0,
+      "Pre": 2
     }
   },
   "notas_conversao": [
     "Attack Focus (Ranged) 3 foi convertido em Ranged Attack 3; com Dexterity 4 e Ranged Combat 4, preserva o ataque +11. Dodge Focus 3 foi removido para respeitar os limites defensivos do NP 9.",
-    "Disable Device virou Tecnologia; Profession (Mercenary) virou Especialidade. Ranged Pin nao tem vantagem equivalente; Elusive Target pode ser representada por cobertura circunstancial.",
+    "Disable Device virou Tecnologia; Profession (Mercenary) virou Especialidade. Ranged Pin não tem vantagem equivalente; Elusive Target pode ser representada por cobertura circunstancial.",
     "Throwing Mastery 7 e o dano +7 de armas arremessadas foram mantidos como referencia da fonte; o ataque + dano resultante e 18.",
-    "Bullseye e um nome usualmente associado a outro personagem Marvel; o perfil do PDF e nomeado apenas 'BULLSEYE', sem identidade civil. Por isso o JSON mantem o nome original."
-  ]
+    "Bullseye é um nome usualmente associado a outro personagem Marvel; o perfil do PDF e nomeado apenas 'BULLSEYE', sem identidade civil. Por isso o JSON mantém o nome original.",
+    "Os custos 3e somam 150 PP (48 habilidades base + 4 poderes + 19 defesas + 51 perícias + 28 vantagens)."
+  ],
+  "custos_3e": {
+    "habilidades_base": 48,
+    "poderes": 4,
+    "defesas": 19,
+    "pericias": 51,
+    "vantagens": 28,
+    "total": 150
+  }
 }

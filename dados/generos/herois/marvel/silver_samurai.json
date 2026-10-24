@@ -38,8 +38,8 @@
       "Especialidade: Cultura das Ruas": 8,
       "Percepção": 8,
       "Intuição": 12,
-      "Combate Corpo-a-Corpo: Swords": 2,
-      "Combate Corpo-a-Corpo: Unarmed": 1
+      "Combate Corpo-a-Corpo: Espadas": 2,
+      "Combate Corpo-a-Corpo: Desarmado": 1
     },
     "vantagens": [
       "Accurate Attack",
@@ -62,9 +62,9 @@
     "poderes": [
       {
         "nome": "Enhanced Strength",
-        "construcao_3e": "Enhanced Trait: Força (rank 2e 10); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Enhanced Strength 10 (10pp); custo 2e impresso 10 PP.",
+        "construcao_3e": "Enhanced Trait: Strength 5 (para elevar o valor base 3 ao valor final 8).",
         "custo_2e_pp": 10,
-        "custo_3e_pp": null
+        "custo_3e_pp": 10
       },
       {
         "nome": "Strike",
@@ -74,9 +74,9 @@
       },
       {
         "nome": "Super Strength",
-        "construcao_3e": "Power-Lifting / Enhanced Strength (rank 2e 3); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Strength 3 (6pp); custo 2e impresso 6 PP.",
+        "construcao_3e": "Power-Lifting 3.",
         "custo_2e_pp": 6,
-        "custo_3e_pp": null
+        "custo_3e_pp": 3
       }
     ],
     "equipamento": [
@@ -103,15 +103,25 @@
       "aparar_mais_resistencia": 20,
       "fortitude_mais_vontade": 11,
       "legal": true
+    },
+    "habilidades_base": {
+      "For": 3,
+      "Vig": 3,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 11,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 2
     }
   },
   "custos_3e": {
-    "habilidades": 66,
-    "defesas": 42,
+    "habilidades_base": 56,
+    "defesas": 14,
     "pericias": 39.5,
     "vantagens": 19,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 166.5,
+    "poderes_conhecidos": 13,
+    "subtotal_conhecido": 141.5,
     "poderes_pendentes": true,
     "total": null
   },

@@ -77,7 +77,7 @@
       },
       {
         "nome": "Enhanced Dexterity",
-        "construcao_3e": "Enhanced Trait: Agility 4 e Dexterity 4 (derivados das diferencas entre os valores base e finais da fonte).",
+        "construcao_3e": "Enhanced Trait: Agility 4 e Dexterity 4 (derivados das diferenças entre os valores base e finais da fonte).",
         "custo_2e_pp": 8,
         "custo_3e_pp": 16
       },
@@ -95,8 +95,8 @@
       }
     ],
     "equipamento": [
-      "Uniform (+3 Toughness; Subtle; 4 EP)",
-      "Glasses (0 EP)"
+      "Uniforme (+3 Toughness; Subtle; 4 EP)",
+      "Óculos (0 EP)"
     ],
     "complicacoes": [],
     "ataques": [
@@ -123,11 +123,11 @@
     "total": 183
   },
   "notas_conversao": [
-    "Acrobatic Bluff virou Agile Feint; Ambidexterity virou Benefit (Ambidextrous); Improved Pin virou Improved Hold. Sneak Attack nao tem equivalencia direta segura e foi omitida.",
-    "Dodge Focus 4 foi convertido em Esquiva, mas os quatro ranks adicionais foram removidos: Esquiva 13 + Resistencia 9 excederia o limite de defesa 18.",
-    "Investigate e Search foram unificadas em Investigation usando o maior bonus 2e (+16); Treatment veio de Medicine. Craft e Knowledge viraram Especialidades. Computers virou Tecnologia 8 (bonus +14 menos Intellect 6), enquanto Knowledge (Technology) permanece Especialidade: Tecnologia 12: sao pericias distintas.",
+    "Acrobatic Bluff virou Agile Feint; Ambidexterity virou Benefit (Ambidextrous); Improved Pin virou Improved Hold. Sneak Attack não tem equivalência direta segura e foi omitida.",
+    "Dodge Focus 4 foi convertido em Esquiva, mas as quatro graduações adicionais foram removidas: Esquiva 13 + Resistência 9 excederia o limite de defesa 18.",
+    "Investigate e Search foram unificadas em Investigation usando o maior bônus 2e (+16); Treatment veio de Medicine. Craft e Knowledge viraram Especialidades. Computers virou Tecnologia 8 (bônus +14 menos Intellect 6), enquanto Knowledge (Technology) permanece Especialidade: Tecnologia 12: são perícias distintas.",
     "habilidades_base registra os valores sem os poderes; habilidades registra os valores efetivos. Enhanced Trait soma Strength +3, Stamina +3, Agility +4 e Dexterity +4 (28 PP); Senses custa 2 PP.",
-    "A fonte nao traz uma equivalencia direta para Improved Escape; o recurso nao foi convertido em vantagem nova. Sneak Attack tambem foi omitida.",
-    "Os custos 3e somam 183 PP (62 habilidades base + 30 poderes + 8 defesas + 72 pericias + 11 vantagens). O total ultrapassa os 135 PP padrao de NP 9; nao reduzi os tracos para caber no orcamento inicial."
+    "A fonte não traz uma equivalência direta para Improved Escape; o recurso não foi convertido em vantagem nova. Sneak Attack também foi omitida.",
+    "Os custos 3e somam 183 PP (62 habilidades base + 30 poderes + 8 defesas + 72 perícias + 11 vantagens). O total ultrapassa os 135 PP padrao de NP 9; não reduzi os tracos para caber no orcamento inicial."
   ]
 }

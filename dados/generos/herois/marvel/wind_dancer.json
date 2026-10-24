@@ -61,7 +61,7 @@
         "nome": "Super Senses",
         "construcao_3e": "Senses: Extended Hearing 5; fonte 5 PP.",
         "custo_2e_pp": 5,
-        "custo_3e_pp": null
+        "custo_3e_pp": 5
       }
     ],
     "equipamento": [
@@ -90,11 +90,11 @@
   },
   "custos_3e": {
     "habilidades": 36,
-    "defesas": 30,
+    "defesas": 12,
     "pericias": 24.5,
     "vantagens": 23,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 113.5,
+    "poderes_conhecidos": 5,
+    "subtotal_conhecido": 100.5,
     "poderes_pendentes": true,
     "total": null
   },

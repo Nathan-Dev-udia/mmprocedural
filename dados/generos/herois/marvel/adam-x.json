@@ -85,13 +85,14 @@
     "poderes": [
       {
         "nome": "Mental Blast",
-        "construcao_3e": "Damage 10, resistido por Fortitude, duracao Concentration, limitado a alvos que ja estejam feridos.",
-        "custo_2e_pp": 40
+        "construcao_3e": "Damage 10, resistido por Fortitude, duração Concentration, limitado a alvos que já estejam feridos.",
+        "custo_2e_pp": 40,
+        "custo_3e_pp": null
       }
     ],
     "equipamento": [
-      "Twin Blades (+3 dano; Auto-Fire; Mighty; Improved Critical; 8 EP)",
-      "Body Armor (+3 Protection; Strike 2 com Aura; 7 EP)"
+      "Lâminas gêmeas (+3 dano; Auto-Fire; Mighty; Improved Critical; 8 EP)",
+      "Armadura corporal (+3 Protection; Strike 2 com Aura; 7 EP)"
     ],
     "complicacoes": [],
     "ataques": [
@@ -115,10 +116,20 @@
     }
   },
   "notas_conversao": [
-    "As habilidades foram convertidas dos modificadores 2e; Dexterity 5 e Defense 22 geram Agility 5, enquanto o ataque corpo a corpo +6 e o bonus de Defesa +12 geram Fighting 6.",
-    "As graduacoes de pericia foram obtidas subtraindo a habilidade 3e apropriada do bonus total entre parenteses. Concentration nao existe como pericia em 3e e nao foi mantida como graduacao.",
-    "Attack Specialization (Blades) 3 foi convertida em Close Combat: Blades. Os seis ranks resultantes dao ataque +12; com dano baseado em Strength 5 mais o bonus +3 das laminas, o total fica no limite de NP 10.",
-    "Dodge Focus 6 foi convertido em Esquiva, mas removido para cumprir o limite: Esquiva 18 + Resistencia 8 excederia 20. Esquiva final 12 preserva a resistencia 8.",
-    "Equipment e custos dos itens foram mantidos como impressos; pontos de equipamento e PP 3e precisam de recalc."
-  ]
+    "As habilidades foram convertidas dos modificadores 2e; Dexterity 5 e Defense 22 geram Agility 5, enquanto o ataque corpo a corpo +6 e o bônus de Defesa +12 geram Fighting 6.",
+    "As graduações de perícia foram obtidas subtraindo a habilidade 3e apropriada do bônus total entre parenteses. Concentration não existe como perícia em 3e e não foi mantida como graduação.",
+    "Attack Specialization (Blades) 3 foi convertida em Close Combat: Blades. As seis graduações resultantes dão ataque +12; com dano baseado em Strength 5 mais o bônus +3 das laminas, o total fica no limite de NP 10.",
+    "Dodge Focus 6 foi convertido em Esquiva, mas removido para cumprir o limite: Esquiva 18 + Resistência 8 excederia 20. Esquiva final 12 preserva a resistência 8.",
+    "Equipment e custos dos itens foram mantidos como impressos; pontos de equipamento e PP 3e precisam de recálculo."
+  ],
+  "custos_3e": {
+    "habilidades": 54,
+    "defesas": 20,
+    "pericias": 39,
+    "vantagens": 59,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 172,
+    "poderes_pendentes": true,
+    "total": null
+  }
 }

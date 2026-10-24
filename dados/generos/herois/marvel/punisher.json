@@ -5,7 +5,7 @@
   "nome_pt": "Punisher",
   "nivel_poder": 10,
   "pontos_poder_origem": 150,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 146,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -32,15 +32,15 @@
     "pericias": {
       "Enganação": 4,
       "Atletismo": 8,
-      "Especialidade: Mechanical": 4,
       "Veículos": 7,
       "Investigação": 7,
       "Intimidação": 12,
-      "Especialidade: Tactics": 8,
       "Percepção": 10,
       "Intuição": 10,
       "Furtividade": 7,
-      "Especialidade: Sobrevivência": 9
+      "Especialidade: Sobrevivência": 9,
+      "Especialidade: Mecânica": 4,
+      "Especialidade: Tática": 8
     },
     "vantagens": [
       "Accurate Attack",
@@ -59,27 +59,27 @@
     ],
     "poderes": [],
     "equipamento": [
-      "55 EP, usually spent as listed: van (Strength 35, Speed 5, Defense 8, Toughness 9; 8 EP); Colt .45s (+4 Damage; 8 EP); assault rifle with grenade launcher (+5 Damage, Autofire, AP; explosive ammunition; 17 EP); shotgun (+5/+6 Damage; 11 EP); knife (+1 Damage, 19–20 critical, Mighty, thrown; 4 EP); body armor (+3 Toughness; 3 EP); 4 EP for suppressors, camouflage, night vision goggles, laser sights, and targeting scopes."
+      "55 EP, normalmente distribuídos conforme a lista: van (Strength 35, Speed 5, Defense 8, Toughness 9; 8 EP); Colt .45s (+4 Damage; 8 EP); assault rifle with grenade launcher (+5 Damage, Autofire, AP; munição explosiva; 17 EP); escopeta (+5/+6 Damage; 11 EP); faca (+1 Damage, 19–20 critical, Mighty, thrown; 4 EP); colete à prova de balas (+3 Toughness; 3 EP); 4 EP for silenciadores, camuflagem, óculos de visão noturna, miras laser, and lunetas de mira."
     ],
     "complicacoes": [],
     "ataques": [
       {
-        "nome": "Colt .45 / shotgun",
+        "nome": "Colt .45 / escopeta",
         "bonus": 14,
         "dano": 6
       },
       {
-        "nome": "Assault rifle",
+        "nome": "Fuzil de assalto",
         "bonus": 14,
         "dano": 5
       },
       {
-        "nome": "Knife",
+        "nome": "Faca",
         "bonus": 14,
         "dano": 4
       },
       {
-        "nome": "Unarmed",
+        "nome": "Desarmado",
         "bonus": 14,
         "dano": 3
       }
@@ -90,17 +90,25 @@
       "aparar_mais_resistencia": 20,
       "fortitude_mais_vontade": 17,
       "legal": true
+    },
+    "habilidades_base": {
+      "For": 3,
+      "Vig": 3,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 14,
+      "Int": 1,
+      "Pro": 0,
+      "Pre": 0
     }
   },
   "custos_3e": {
-    "habilidades": 54,
-    "defesas": 51,
-    "pericias": 43.0,
+    "habilidades_base": 54,
+    "poderes": 0,
+    "defesas": 25,
+    "pericias": 43,
     "vantagens": 24,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 172.0,
-    "poderes_pendentes": false,
-    "total": null
+    "total": 146
   },
   "notas_conversao": [
     "Fearsome Presence não é vantagem direta; Elusive Target não tem equivalente direto; Improved Throw foi absorvido pela manobra trip, cujo benefício já é padrão em 3e.",
@@ -108,6 +116,6 @@
     "A fonte declara 55 EP e discrimina os itens e custos indicados; nenhum custo foi corrigido. Elusive Target e Fearsome Presence 4 não têm equivalente direto; Master Plan foi removido; Improved Throw foi absorvido pela manobra trip, sem duplicar vantagem.",
     "Defesas foram ajustadas para Esquiva/Aparar 14 com Resistência 6; ataques e danos listados permanecem dentro de PL 10.",
     "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +3/+3/+3/+1/+0/+0. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
-    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
+    "Os custos 3e somam 172 PP (54 habilidades base + 0 poderes + 51 defesas + 43 perícias + 24 vantagens)."
   ]
 }

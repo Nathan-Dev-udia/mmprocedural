@@ -51,9 +51,9 @@
     "poderes": [
       {
         "nome": "Blast",
-        "construcao_3e": "Damage 12.",
+        "construcao_3e": "Ranged Damage 12.",
         "custo_2e_pp": 24,
-        "custo_3e_pp": 12
+        "custo_3e_pp": 24
       },
       {
         "nome": "Flight",
@@ -75,7 +75,7 @@
       }
     ],
     "equipamento": [
-      "Uniforme (Second Chance: testes de resistência contra eletricidade; GPS Receiver; PDA; 3 EP)"
+      "Uniforme (Second Chance: testes de resistência contra eletricidade; receptor GPS; PDA; 3 EP)"
     ],
     "complicacoes": [],
     "ataques": [
@@ -107,9 +107,9 @@
     "habilidades": 40,
     "defesas": 15,
     "pericias": 15.5,
-    "vantagens": null,
-    "poderes_conhecidos": 32,
-    "subtotal_conhecido": 102.5,
+    "vantagens": 14,
+    "poderes_conhecidos": 44,
+    "subtotal_conhecido": 128.5,
     "poderes_pendentes": true,
     "total": null
   },
@@ -117,6 +117,6 @@
     "A fonte imprime Defesa 18 (20 voando) e Ataque +6 (+8 voando); a condição de voo foi preservada como Esquiva 20 antes do limite. Ataques +8 em voo com Fire Punch/Nova Blast permanecem dentro de NP 10 (máximo 20).",
     "Defesas ajustadas para Esquiva 10 e Aparar 10, respeitando os limites de NP 10 com Resistência 10.",
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
-    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias e apenas os custos de poderes confirmados; não inclui vantagens nem custos incertos."
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
   ]
 }

@@ -56,39 +56,39 @@
     "poderes": [
       {
         "nome": "Enhanced Dexterity",
-        "construcao_3e": "Enhanced Trait: Destreza (rank 2e 28); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Enhanced Dexterity 28 (28pp); custo 2e impresso 28 PP.",
+        "construcao_3e": "Enhanced Trait: Agility 14 e Dexterity 10 (para elevar os valores base 0 aos valores finais 14 e 10).",
         "custo_2e_pp": 28,
-        "custo_3e_pp": null
+        "custo_3e_pp": 48
       },
       {
         "nome": "Enhanced Strength",
-        "construcao_3e": "Enhanced Trait: Força (rank 2e 16); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Enhanced Strength 16 (16pp); custo 2e impresso 16 PP.",
+        "construcao_3e": "Enhanced Trait: Strength 8 (para elevar o valor base 0 ao valor final 8).",
         "custo_2e_pp": 16,
-        "custo_3e_pp": null
+        "custo_3e_pp": 16
       },
       {
         "nome": "Super Movement",
-        "construcao_3e": "Movement (rank 2e 2); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Movement 2 (Wall Crawling [2]; 4pp); custo 2e impresso 4 PP.",
+        "construcao_3e": "Movement 2 (Wall-Crawling 2).",
         "custo_2e_pp": 4,
-        "custo_3e_pp": null
+        "custo_3e_pp": 4
       },
       {
         "nome": "Super Senses",
-        "construcao_3e": "Sentidos (rank 2e 1); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Senses 1 (Danger Sense; 1pp); custo 2e impresso 1 PP.",
+        "construcao_3e": "Senses 1 (Danger Sense).",
         "custo_2e_pp": 1,
-        "custo_3e_pp": null
+        "custo_3e_pp": 1
       },
       {
         "nome": "Super Strength",
-        "construcao_3e": "Power-Lifting / Enhanced Strength (rank 2e 3); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Strength 3 (6pp); custo 2e impresso 6 PP.",
+        "construcao_3e": "Power-Lifting 3.",
         "custo_2e_pp": 6,
-        "custo_3e_pp": null
+        "custo_3e_pp": 3
       },
       {
         "nome": "Leaping",
-        "construcao_3e": "Leaping (rank 2e 2); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Leaping 2 (2pp); custo 2e impresso 2 PP.",
+        "construcao_3e": "Leaping 2.",
         "custo_2e_pp": 2,
-        "custo_3e_pp": null
+        "custo_3e_pp": 2
       },
       {
         "nome": "Device",
@@ -120,15 +120,25 @@
       "aparar_mais_resistencia": 20,
       "fortitude_mais_vontade": 10,
       "legal": true
+    },
+    "habilidades_base": {
+      "For": 0,
+      "Vig": 0,
+      "Agi": 0,
+      "Des": 0,
+      "Lut": 10,
+      "Int": 4,
+      "Pro": 1,
+      "Pre": 0
     }
   },
   "custos_3e": {
-    "habilidades": 94,
-    "defesas": 44,
+    "habilidades_base": 30,
+    "defesas": 13,
     "pericias": 37,
     "vantagens": 8,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 183,
+    "poderes_conhecidos": 74,
+    "subtotal_conhecido": 162,
     "poderes_pendentes": true,
     "total": null
   },

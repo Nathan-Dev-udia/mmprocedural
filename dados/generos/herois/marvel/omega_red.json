@@ -34,11 +34,11 @@
       "Atletismo": 12,
       "Investigação": 11,
       "Intimidação": 12,
-      "Especialidade: Mobster": 7,
       "Percepção": 9,
       "Intuição": 8,
       "Furtividade": 8,
-      "Especialidade: Sobrevivência": 5
+      "Especialidade: Sobrevivência": 5,
+      "Especialidade: Criminoso": 7
     },
     "vantagens": [
       "Benefit (Ambidextrous)",
@@ -59,7 +59,7 @@
     "poderes": [
       {
         "nome": "Boost (Regeneration) 16",
-        "construcao_3e": "Enhanced Trait (Regeneration), Personal Only; Triggered by a successful Drain attack; source calls this Boost.",
+        "construcao_3e": "Enhanced Trait (Regeneration), Personal Only; Triggered por um ataque Drain bem-sucedido; a fonte chama isso de Boost.",
         "custo_2e_pp": 9,
         "custo_3e_pp": null
       },
@@ -71,9 +71,9 @@
       },
       {
         "nome": "Immunity 1",
-        "construcao_3e": "Immunity to own power.",
+        "construcao_3e": "Immunity ao próprio poder.",
         "custo_2e_pp": 1,
-        "custo_3e_pp": null
+        "custo_3e_pp": 1
       },
       {
         "nome": "Strike 5",
@@ -89,23 +89,23 @@
       },
       {
         "nome": "Transfer (Strength and Constitution) 8",
-        "construcao_3e": "Transfer, Aura; cannot lower the Aura.",
+        "construcao_3e": "Transfer, Aura; não pode reduzir a Aura.",
         "custo_2e_pp": 24,
         "custo_3e_pp": null
       }
     ],
     "equipamento": [
-      "Carbonadium Armor (Device; Comm-Link listed within the 12 PP device)."
+      "Armadura de carbonádio (Device; Comm-Link incluído no dispositivo de 12 PP)."
     ],
     "complicacoes": [],
     "ataques": [
       {
-        "nome": "Tentacles",
+        "nome": "Tentáculos",
         "bonus": 10,
         "dano": 10
       },
       {
-        "nome": "Unarmed",
+        "nome": "Desarmado",
         "bonus": 10,
         "dano": 5
       }
@@ -120,11 +120,11 @@
   },
   "custos_3e": {
     "habilidades": 58,
-    "defesas": 44,
-    "pericias": 40.0,
+    "defesas": 15,
+    "pericias": 40,
     "vantagens": 18,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 160.0,
+    "poderes_conhecidos": 1,
+    "subtotal_conhecido": 132,
     "poderes_pendentes": true,
     "total": null
   },

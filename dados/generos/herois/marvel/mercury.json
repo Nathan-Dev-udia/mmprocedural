@@ -57,7 +57,7 @@
       }
     ],
     "equipamento": [
-      "Uniforme dos Hellions (+4 Toughness; Comm-Link; 5 EP)"
+      "Uniforme dos Hellions (+4 Toughness; Comunicador; 5 EP)"
     ],
     "complicacoes": [],
     "ataques": [
@@ -77,17 +77,17 @@
   },
   "custos_3e": {
     "habilidades": 38,
-    "defesas": 33,
-    "pericias": 25,
+    "defesas": 22,
+    "pericias": 24.5,
     "vantagens": 12,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 108,
+    "subtotal_conhecido": 96.5,
     "poderes_pendentes": true,
     "total": null
   },
   "notas_conversao": [
     "A defesa de Fortitude aparece como travessão na fonte; foi tratada como 0 (não impressa), sem assumir valor adicional. O modificador de Constituição é 0.",
-    "Dodge Focus 12 foi convertido em Dodge ranks; o resultado foi reduzido a 15 para cumprir o limite de NP 10 com Toughness 5.",
+    "Dodge Focus 12 foi convertido em graduações de Dodge; o resultado foi reduzido a 15 para cumprir o limite de NP 10 com Toughness 5.",
     "Attack Focus (Melee) 3 convertido em Close Attack 3; Acrobatic Bluff virou Agile Feint.",
     "Dodge foi ajustada de 27 para 15 para cumprir Dodge + Toughness ≤ 20 (NP 10)."
   ]

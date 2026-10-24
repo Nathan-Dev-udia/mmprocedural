@@ -5,7 +5,7 @@
   "nome_pt": "Mística",
   "nivel_poder": 10,
   "pontos_poder_origem": 180,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 170.5,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -66,7 +66,7 @@
       }
     ],
     "equipamento": [
-      "Twin Pistols (+4 Damage; Autofire; 12 EP)",
+      "Duas pistolas (+4 Damage; Autofire; 12 EP)",
       "3 EP extras"
     ],
     "complicacoes": [],
@@ -88,22 +88,31 @@
       "aparar_mais_resistencia": 20,
       "fortitude_mais_vontade": 14,
       "legal": true
+    },
+    "habilidades_base": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 4,
+      "Des": 4,
+      "Lut": 14,
+      "Int": 3,
+      "Pro": 1,
+      "Pre": 7
     }
   },
   "custos_3e": {
-    "habilidades": 74,
-    "defesas": 42,
-    "pericias": 40,
+    "habilidades_base": 74,
+    "poderes": 10,
+    "defesas": 21,
+    "pericias": 39.5,
     "vantagens": 26,
-    "poderes_conhecidos": 10,
-    "subtotal_conhecido": 192,
-    "poderes_pendentes": false,
-    "total": null
+    "total": 170.5
   },
   "notas_conversao": [
     "Dodge Focus 6 foi convertido em Dodge ranks e limitado a 14 com Toughness 6 para NP 10.",
     "Skill Mastery: Disguise foi mantida na vantagem embora a fonte não apresente bônus de Disguise; não foi criada graduação de perícia.",
     "Elusive Target, Ranged Pin, Sneak Attack e Stunning Attack não têm equivalente direto e foram omitidas/registradas nesta nota.",
-    "Dodge foi ajustada de 20 para 14 para cumprir Dodge + Toughness ≤ 20 (NP 10)."
+    "Dodge foi ajustada de 20 para 14 para cumprir Dodge + Toughness ≤ 20 (NP 10).",
+    "Os custos 3e somam 191.5 PP (74 habilidades base + 10 poderes + 42 defesas + 39.5 perícias + 26 vantagens)."
   ]
 }

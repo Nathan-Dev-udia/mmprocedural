@@ -63,7 +63,7 @@
         "nome": "Immunity",
         "construcao_3e": "Immunity 5 (frio).",
         "custo_2e_pp": 5,
-        "custo_3e_pp": null
+        "custo_3e_pp": 5
       },
       {
         "nome": "Protection",
@@ -96,11 +96,11 @@
   },
   "custos_3e": {
     "habilidades": 32,
-    "defesas": 24,
+    "defesas": 14,
     "pericias": 22,
     "vantagens": 9,
-    "poderes_conhecidos": 10,
-    "subtotal_conhecido": 97,
+    "poderes_conhecidos": 15,
+    "subtotal_conhecido": 92,
     "poderes_pendentes": true,
     "total": null
   },

@@ -55,7 +55,7 @@
     "poderes": [
       {
         "nome": "Enhanced Intelligence",
-        "construcao_3e": "Enhanced Trait (Intellect 26), Limited to Craft and Expertise (Technology) checks.",
+        "construcao_3e": "Enhanced Trait (Intellect 26), Limited a Craft and Expertise (Technology) checks.",
         "custo_2e_pp": 13,
         "custo_3e_pp": null
       },
@@ -96,17 +96,17 @@
   "custos_3e": {
     "habilidades": 48,
     "defesas": 19,
-    "pericias": 37.0,
-    "vantagens": null,
+    "pericias": 37,
+    "vantagens": 16,
     "poderes_conhecidos": 3,
-    "subtotal_conhecido": 107.0,
+    "subtotal_conhecido": 123,
     "poderes_pendentes": true,
     "total": null
   },
   "notas_conversao": [
-    "Dodge Focus 5 foi convertido em Esquiva e limitado para cumprir NP 10. A fonte registra Craft (Mechanical/Electrical) e Knowledge (Technology) em +30 com Enhanced Intelligence 26 limitado a essas perícias; os ranks impressos (15) foram preservados no poder, sem somar novamente o bônus aumentado. Os custos 3e desse poder dependem da divisão entre perícias e Enhanced Trait.",
+    "Dodge Focus 5 foi convertido em Esquiva e limitado para cumprir NP 10. A fonte registra Craft (Mechanical/Electrical) e Knowledge (Technology) em +30 com Enhanced Intelligence 26 limitado a essas perícias; as graduações impressas (15) foram preservadas no poder, sem somar novamente o bônus aumentado. Os custos 3e desse poder dependem da divisão entre perícias e Enhanced Trait.",
     "Defesas ajustadas para Esquiva 12 e Aparar 12, respeitando os limites de NP 10 com Resistência 8.",
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
-    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias e apenas os custos de poderes confirmados; não inclui vantagens nem custos incertos."
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
   ]
 }

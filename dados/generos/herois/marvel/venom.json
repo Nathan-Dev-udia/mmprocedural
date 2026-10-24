@@ -37,7 +37,7 @@
       "Investigação": 9,
       "Intimidação": 8,
       "Percepção": 8,
-      "Especialidade: Reporter": 7,
+      "Especialidade: Repórter": 7,
       "Furtividade": 6,
       "Combate Corpo-a-Corpo: Desarmado": 2,
       "Combate Corpo-a-Corpo: Webbing": 2
@@ -57,15 +57,15 @@
       },
       {
         "nome": "Enhanced Dexterity",
-        "construcao_3e": "Enhanced Trait: Destreza (rank 2e 16); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Enhanced Dexterity 16 (16pp); custo 2e impresso 16 PP.",
+        "construcao_3e": "Enhanced Trait: Agility 8 e Dexterity 8 (para elevar os valores base 4 e 2 aos valores finais 12 e 10).",
         "custo_2e_pp": 16,
-        "custo_3e_pp": null
+        "custo_3e_pp": 32
       },
       {
         "nome": "Snare",
-        "construcao_3e": "Affliction (conforme graus e extras) (rank 2e 12); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Snare 12 (Power Feats: Tether, Split Attack; Alternate Power: Create Object; Extra: Engulf [+0]; 27pp) Componentes/efeitos alternativos mapeados: Create Object → Create.; custo 2e impresso 27 PP.",
+        "construcao_3e": "Protection 9.",
         "custo_2e_pp": 27,
-        "custo_3e_pp": null
+        "custo_3e_pp": 9
       },
       {
         "nome": "Super Movement",
@@ -75,33 +75,33 @@
       },
       {
         "nome": "Super Senses",
-        "construcao_3e": "Sentidos (rank 2e 1); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Senses 1 (Danger Sense; 1pp); custo 2e impresso 1 PP.",
+        "construcao_3e": "Movement 3 (Wall-Crawling 2, Swinging).",
         "custo_2e_pp": 1,
-        "custo_3e_pp": null
+        "custo_3e_pp": 6
       },
       {
         "nome": "Super Strength",
-        "construcao_3e": "Power-Lifting / Enhanced Strength (rank 2e 2); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Strength 2 (4pp); custo 2e impresso 4 PP.",
+        "construcao_3e": "Senses 1 (Danger Sense).",
         "custo_2e_pp": 4,
-        "custo_3e_pp": null
+        "custo_3e_pp": 1
       },
       {
         "nome": "Speed",
-        "construcao_3e": "Speed (rank 2e 4); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Speed 4 (Flaw: Limited- Only Swinging[-1]; 2pp); custo 2e impresso 2 PP.",
+        "construcao_3e": "Power-Lifting 2.",
         "custo_2e_pp": 2,
-        "custo_3e_pp": null
+        "custo_3e_pp": 2
       },
       {
         "nome": "Leaping",
-        "construcao_3e": "Leaping 2; custo 3e incerto devido à diferença de progressão entre edições.",
+        "construcao_3e": "Speed 4 (Limited to Swinging).",
         "custo_2e_pp": 2,
-        "custo_3e_pp": null
+        "custo_3e_pp": 2
       },
       {
         "nome": "Morph [Any Humanoid]",
-        "construcao_3e": "Morph (Any Humanoid), rank 2e 6; rank/custo 3e dependem da equivalência exata da forma.",
+        "construcao_3e": "Leaping 2.",
         "custo_2e_pp": 6,
-        "custo_3e_pp": null
+        "custo_3e_pp": 2
       },
       {
         "nome": "Immunity",
@@ -111,9 +111,9 @@
       },
       {
         "nome": "Protection",
-        "construcao_3e": "Protection (rank 2e 9); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Protection 9 (9pp); custo 2e impresso 9 PP.",
+        "construcao_3e": "Immunity 1 (Spider-Man's Danger Sense).",
         "custo_2e_pp": 9,
-        "custo_3e_pp": 9
+        "custo_3e_pp": 1
       }
     ],
     "equipamento": [],
@@ -135,15 +135,25 @@
       "aparar_mais_resistencia": 22,
       "fortitude_mais_vontade": 13,
       "legal": true
+    },
+    "habilidades_base": {
+      "For": 12,
+      "Vig": 3,
+      "Agi": 4,
+      "Des": 2,
+      "Lut": 10,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 0
     }
   },
   "custos_3e": {
-    "habilidades": 100,
-    "defesas": 45,
+    "habilidades_base": 68,
+    "defesas": 8,
     "pericias": 28,
     "vantagens": 4,
-    "poderes_conhecidos": 9,
-    "subtotal_conhecido": 186,
+    "poderes_conhecidos": 55,
+    "subtotal_conhecido": 163,
     "poderes_pendentes": true,
     "total": null
   },

@@ -31,12 +31,12 @@
     },
     "pericias": {
       "Intimidação": 12,
-      "Especialidade: Streetwise": 8,
-      "Especialidade: Tactics": 6,
       "Percepção": 9,
-      "Especialidade: Mercenary": 8,
       "Intuição": 7,
-      "Furtividade": 8
+      "Furtividade": 8,
+      "Especialidade: Vivência nas Ruas": 8,
+      "Especialidade: Tática": 6,
+      "Especialidade: Mercenário": 8
     },
     "vantagens": [
       "All-out Attack",
@@ -53,15 +53,15 @@
     "poderes": [
       {
         "nome": "Alternate Form (Particulate) 4",
-        "construcao_3e": "Elongation 4, Immunity 8 (Life Support except suffocation), Insubstantial 1, Slithering; Linked to Enhanced Strength, Protection, and Power-Lifting.",
+        "construcao_3e": "Elongation 4, Immunity 8 (Life Support, exceto sufocamento), Insubstantial 1, Slithering; Linked to Enhanced Strength, Protection e Power-Lifting.",
         "custo_2e_pp": 20,
         "custo_3e_pp": null
       },
       {
         "nome": "Enhanced Strength 14",
-        "construcao_3e": "Enhanced Trait: Strength 14; Linked to Alternate Form.",
+        "construcao_3e": "Enhanced Trait: Strength 7 (para elevar o valor base 3 ao valor final 10); Linked to Alternate Form.",
         "custo_2e_pp": 14,
-        "custo_3e_pp": 28
+        "custo_3e_pp": 14
       },
       {
         "nome": "Protection 10",
@@ -73,7 +73,7 @@
         "nome": "Super-Strength 3",
         "construcao_3e": "Power-Lifting 3; Linked to Alternate Form.",
         "custo_2e_pp": 6,
-        "custo_3e_pp": null
+        "custo_3e_pp": 3
       }
     ],
     "equipamento": [],
@@ -84,7 +84,7 @@
     ],
     "ataques": [
       {
-        "nome": "Unarmed",
+        "nome": "Desarmado",
         "bonus": 8,
         "dano": 10
       }
@@ -95,15 +95,25 @@
       "aparar_mais_resistencia": 18,
       "fortitude_mais_vontade": 12,
       "legal": true
+    },
+    "habilidades_base": {
+      "For": 3,
+      "Vig": 2,
+      "Agi": 0,
+      "Des": 0,
+      "Lut": 9,
+      "Int": 0,
+      "Pro": 1,
+      "Pre": 1
     }
   },
   "custos_3e": {
-    "habilidades": 46,
-    "defesas": 36,
-    "pericias": 29.0,
+    "habilidades_base": 32,
+    "defesas": 15,
+    "pericias": 29,
     "vantagens": 11,
-    "poderes_conhecidos": 38,
-    "subtotal_conhecido": 160.0,
+    "poderes_conhecidos": 27,
+    "subtotal_conhecido": 114,
     "poderes_pendentes": true,
     "total": null
   },

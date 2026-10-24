@@ -34,9 +34,9 @@
       "Persuasão": 4,
       "Percepção": 10,
       "Veículos": 6,
-      "Especialidade: Teacher": 10,
-      "Especialidade: Model": 10,
-      "Intuição": 8
+      "Intuição": 8,
+      "Especialidade: Professor": 10,
+      "Especialidade: Modelo": 10
     },
     "vantagens": [
       "All-out Attack",
@@ -57,13 +57,13 @@
     "poderes": [
       {
         "nome": "Element Control (Fire) 18",
-        "construcao_3e": "Array; Dynamic: Blast, Strike (Aura), Flight, Space Travel, Energy Absorption 18 (Healing; Limited to heat), Dimensional Movement, Temporal Movement.",
+        "construcao_3e": "Array; Dynamic: Blast, Strike (Aura), Flight, Space Travel, Energy Absorption 18 (Healing; Limited a calor), Dimensional Movement, Temporal Movement.",
         "custo_2e_pp": 49,
         "custo_3e_pp": null
       },
       {
         "nome": "Immunity 14",
-        "construcao_3e": "Life Support; fire descriptor.",
+        "construcao_3e": "Life Support; descritor de fogo.",
         "custo_2e_pp": 14,
         "custo_3e_pp": null
       },
@@ -81,19 +81,19 @@
       },
       {
         "nome": "Gestalt 10",
-        "construcao_3e": "Summon/gestalt form as printed; source does not specify the 3e construction.",
+        "construcao_3e": "Summon/gestalt form conforme impresso; a fonte não especifica a construção em 3e.",
         "custo_2e_pp": 10,
         "custo_3e_pp": null
       }
     ],
     "equipamento": [
-      "Uniform (+3 Toughness; Subtle; 4 EP).",
+      "Uniforme (+3 Toughness; Subtle; 4 EP).",
       "Comm-Link (1 EP)."
     ],
     "complicacoes": [],
     "ataques": [
       {
-        "nome": "Unarmed",
+        "nome": "Desarmado",
         "bonus": 12,
         "dano": 1
       },
@@ -118,11 +118,11 @@
   },
   "custos_3e": {
     "habilidades": 48,
-    "defesas": 64,
-    "pericias": 28.0,
+    "defesas": 42,
+    "pericias": 28,
     "vantagens": 18,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 158.0,
+    "subtotal_conhecido": 136,
     "poderes_pendentes": true,
     "total": null
   },

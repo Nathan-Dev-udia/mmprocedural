@@ -88,17 +88,17 @@
   },
   "custos_3e": {
     "habilidades": 70,
-    "defesas": 50,
+    "defesas": 23,
     "pericias": 43,
     "vantagens": 18,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 181,
+    "subtotal_conhecido": 154,
     "poderes_pendentes": true,
     "total": null
   },
   "notas_conversao": [
     "Acrobatic Bluff virou Agile Feint; Improved Grapple virou Fast Grab; Improved Pin virou Improved Hold; Takedown Attack virou Takedown. Stunning Attack não tem equivalente direto e foi omitida. Concentration 12 (+17) não tem perícia 3e independente.",
-    "Dodge Focus 8 foi convertido em Dodge ranks; Dodge 15 + Toughness 5 respeita NP 10.",
+    "Dodge Focus 8 foi convertido em graduações de Dodge; Dodge 15 + Toughness 5 respeita NP 10.",
     "O poder Strike da fonte é rank 2, mas os danos impressos dos ataques são preservados como bônus de dano; a construção e seus custos em 3e permanecem pendentes.",
     "Dodge foi ajustada de 23 para 15 para cumprir Dodge + Toughness ≤ 20 (NP 10)."
   ]

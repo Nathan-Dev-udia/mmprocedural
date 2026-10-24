@@ -38,7 +38,7 @@
       "Especialidade: Segurança Pessoal": 9,
       "Especialidade: Comédia Stand-up": 5,
       "Intuição": 8,
-      "Combate Corpo-a-Corpo: Unarmed": 1
+      "Combate Corpo-a-Corpo: Desarmado": 1
     },
     "vantagens": [
       "All-Out Attack",
@@ -61,15 +61,15 @@
       },
       {
         "nome": "Enhanced Strength",
-        "construcao_3e": "Enhanced Trait: Força (rank 2e 10); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Enhanced Strength 10 (10pp); custo 2e impresso 10 PP.",
+        "construcao_3e": "Enhanced Trait: Strength 5.",
         "custo_2e_pp": 10,
-        "custo_3e_pp": null
+        "custo_3e_pp": 10
       },
       {
         "nome": "Enhanced Constitution",
-        "construcao_3e": "Enhanced Trait: Vigor (rank 2e 14); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Enhanced Constitution 14 (14pp); custo 2e impresso 14 PP.",
+        "construcao_3e": "Enhanced Trait: Stamina 7.",
         "custo_2e_pp": 14,
-        "custo_3e_pp": null
+        "custo_3e_pp": 14
       },
       {
         "nome": "Growth",
@@ -79,9 +79,9 @@
       },
       {
         "nome": "Super Strength",
-        "construcao_3e": "Power-Lifting / Enhanced Strength (rank 2e 3); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Strength 3 (6pp); custo 2e impresso 6 PP.",
+        "construcao_3e": "Power-Lifting 3.",
         "custo_2e_pp": 6,
-        "custo_3e_pp": null
+        "custo_3e_pp": 3
       }
     ],
     "equipamento": [
@@ -89,7 +89,7 @@
       "Cell Phone [1ep]"
     ],
     "complicacoes": [
-      "Deficiência indicada na fonte: Disability [Nearsighted without Goggles; -4 to Ranged Attacks; 1pp] bilities 16 + Skills 14 (76 ranks) + Feats 12 + Powers 55 + Combat 34 + Saves 5 – Drawbacks 1 = 135 PP PL 10 STRONG GUY"
+      "Deficiência indicada na fonte: Disability [Miopia sem óculos; -4 em Ranged Attacks; 1pp]."
     ],
     "ataques": [
       {
@@ -104,15 +104,25 @@
       "aparar_mais_resistencia": 17,
       "fortitude_mais_vontade": 15,
       "legal": true
+    },
+    "habilidades_base": {
+      "For": 1,
+      "Vig": 1,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 7,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 2
     }
   },
   "custos_3e": {
-    "habilidades": 68,
-    "defesas": 39,
+    "habilidades_base": 32,
+    "defesas": 9,
     "pericias": 27.5,
     "vantagens": 11,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 145.5,
+    "poderes_conhecidos": 27,
+    "subtotal_conhecido": 106.5,
     "poderes_pendentes": true,
     "total": null
   },

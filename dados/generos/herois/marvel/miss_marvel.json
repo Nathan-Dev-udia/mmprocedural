@@ -53,15 +53,15 @@
       },
       {
         "nome": "Enhanced Strength",
-        "construcao_3e": "Enhanced Strength 22.",
+        "construcao_3e": "Enhanced Trait: Strength 11 (para elevar o valor base 1 ao valor final 12).",
         "custo_2e_pp": 22,
-        "custo_3e_pp": null
+        "custo_3e_pp": 22
       },
       {
         "nome": "Enhanced Constitution",
-        "construcao_3e": "Enhanced Constitution 22.",
+        "construcao_3e": "Enhanced Trait: Stamina 11 (para elevar o valor base 1 ao valor final 12).",
         "custo_2e_pp": 22,
-        "custo_3e_pp": null
+        "custo_3e_pp": 22
       },
       {
         "nome": "Flight",
@@ -77,9 +77,9 @@
       },
       {
         "nome": "Super-Strength",
-        "construcao_3e": "Super-Strength 3.",
+        "construcao_3e": "Power-Lifting 3.",
         "custo_2e_pp": 6,
-        "custo_3e_pp": null
+        "custo_3e_pp": 3
       }
     ],
     "equipamento": [],
@@ -97,20 +97,30 @@
       "aparar_mais_resistencia": 20,
       "fortitude_mais_vontade": 20,
       "legal": true
+    },
+    "habilidades_base": {
+      "For": 1,
+      "Vig": 1,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 6,
+      "Int": 2,
+      "Pro": 2,
+      "Pre": 3
     }
   },
   "custos_3e": {
-    "habilidades": 78,
-    "defesas": 42,
-    "pericias": 27,
+    "habilidades_base": 34,
+    "defesas": 21,
+    "pericias": 26.5,
     "vantagens": 5,
-    "poderes_conhecidos": 8,
-    "subtotal_conhecido": 160,
+    "poderes_conhecidos": 55,
+    "subtotal_conhecido": 141.5,
     "poderes_pendentes": true,
     "total": null
   },
   "notas_conversao": [
-    "Attack Specialization (Unarmed) 2 convertido em Close Combat: Desarmado 4. Dodge Focus 4 foi convertido em Dodge ranks; o valor foi limitado a 12 para respeitar NP 11 com Toughness 10.",
+    "Attack Specialization (Unarmed) 2 convertido em Close Combat: Desarmado 4. Dodge Focus 4 foi convertido em graduações de Dodge; o valor foi limitado a 12 para respeitar NP 11 com Toughness 10.",
     "A fonte lista Mimic-like strength boosts junto a Absorption; os valores foram preservados sem recalcular os efeitos.",
     "Dodge foi ajustada de 14 para 12 para cumprir Dodge + Toughness ≤ 22 (NP 11)."
   ]

@@ -55,15 +55,15 @@
     "poderes": [
       {
         "nome": "Immunity",
-        "construcao_3e": "Immunity (rank 2e 2); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Immunity 2 (Aging, Poison; 2pp); custo 2e impresso 2 PP.",
+        "construcao_3e": "Immunity 2 (Aging, Poison).",
         "custo_2e_pp": 2,
-        "custo_3e_pp": null
+        "custo_3e_pp": 2
       },
       {
         "nome": "Protection",
-        "construcao_3e": "Protection (rank 2e 4); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Protection 4 (Power Feat: Innate; 5pp); custo 2e impresso 5 PP.",
+        "construcao_3e": "Protection 4, Innate.",
         "custo_2e_pp": 5,
-        "custo_3e_pp": null
+        "custo_3e_pp": 5
       },
       {
         "nome": "Strike",
@@ -73,15 +73,15 @@
       },
       {
         "nome": "Super Senses",
-        "construcao_3e": "Sentidos (rank 2e 5); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Senses 5 (Scent [Extended, Accurate], Tracking; 5pp); custo 2e impresso 5 PP.",
+        "construcao_3e": "Senses 5 (Scent [Extended, Accurate], Tracking).",
         "custo_2e_pp": 5,
-        "custo_3e_pp": null
+        "custo_3e_pp": 5
       },
       {
         "nome": "Super Strength",
-        "construcao_3e": "Power-Lifting / Enhanced Strength (rank 2e 1); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Strength 1 (2pp); custo 2e impresso 2 PP.",
+        "construcao_3e": "Power-Lifting 1.",
         "custo_2e_pp": 2,
-        "custo_3e_pp": null
+        "custo_3e_pp": 1
       },
       {
         "nome": "Regeneration",
@@ -112,11 +112,11 @@
   },
   "custos_3e": {
     "habilidades": 54,
-    "defesas": 50,
+    "defesas": 18,
     "pericias": 42,
     "vantagens": 22,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 168,
+    "poderes_conhecidos": 13,
+    "subtotal_conhecido": 149,
     "poderes_pendentes": true,
     "total": null
   },

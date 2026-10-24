@@ -51,28 +51,32 @@
     "poderes": [
       {
         "nome": "Density",
-        "construcao_3e": "Growth 9 (Limited to mass/strength benefits; Protection 4 Impervious; Immovability), mantendo os efeitos listados na fonte.",
-        "custo_2e_pp": 24
+        "construcao_3e": "Growth 9 (Limited a mass/strength benefits; Protection 4 Impervious; Immovability), mantendo os efeitos listados na fonte.",
+        "custo_2e_pp": 24,
+        "custo_3e_pp": null
       },
       {
         "nome": "Immovable",
-        "construcao_3e": "Enhanced Trait: bonus para resistir a efeitos de movimento/trip, limitado conforme o guia.",
-        "custo_2e_pp": 7
+        "construcao_3e": "Enhanced Trait: bônus para resistir a efeitos de movimento/trip, limitado conforme o guia.",
+        "custo_2e_pp": 7,
+        "custo_3e_pp": null
       },
       {
         "nome": "Protection",
         "construcao_3e": "Protection 6, Impervious (reduzida de 8 para respeitar o limite defensivo de NP 9).",
-        "custo_2e_pp": 16
+        "custo_2e_pp": 16,
+        "custo_3e_pp": 12
       },
       {
         "nome": "Super Strength",
         "construcao_3e": "Power-Lifting 5.",
-        "custo_2e_pp": 25
+        "custo_2e_pp": 25,
+        "custo_3e_pp": 5
       }
     ],
     "equipamento": [],
     "complicacoes": [
-      "Weak Point; traducao funcional da complicacao/defeito listada na fonte."
+      "Weak Point; tradução funcional da complicação/defeito listada na fonte."
     ],
     "ataques": [
       {
@@ -90,8 +94,18 @@
     }
   },
   "notas_conversao": [
-    "Defense 14 fornece defesa ativa base 4; Reflex 6 determina Esquiva 6. Protection foi reduzida de 8 para 6 para que Esquiva + Resistencia nao exceda 18.",
-    "A ficha tem poderes de Strength redundantes (Density e Super Strength). O Strength ofensivo foi limitado a 11; o +18 Strength de Density em 2e nao pode ser aplicado junto ao ataque +7 dentro do NP 9. Protection foi reduzida para 6.",
-    "A fonte nao fornece um tipo ou descricao para Weak Point; o texto foi mantido sem inventar uma vulnerabilidade especifica."
-  ]
+    "Defense 14 fornece defesa ativa base 4; Reflex 6 determina Esquiva 6. Protection foi reduzida de 8 para 6 para que Esquiva + Resistência não exceda 18.",
+    "A ficha tem poderes de Strength redundantes (Density e Super Strength). O Strength ofensivo foi limitado a 11; o +18 Strength de Density em 2e não pode ser aplicado junto ao ataque +7 dentro do NP 9. Protection foi reduzida para 6.",
+    "A fonte não fornece um tipo ou descrição para Weak Point; o texto foi mantido sem inventar uma vulnerabilidade especifica."
+  ],
+  "custos_3e": {
+    "habilidades": 34,
+    "defesas": 13,
+    "pericias": 22,
+    "vantagens": 11,
+    "poderes_conhecidos": 17,
+    "subtotal_conhecido": 97,
+    "poderes_pendentes": true,
+    "total": null
+  }
 }

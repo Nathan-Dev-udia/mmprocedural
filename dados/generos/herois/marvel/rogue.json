@@ -50,15 +50,15 @@
       },
       {
         "nome": "Mimic (All Powers at Once) 10",
-        "construcao_3e": "Mimic, Linked to Drain, Uncontrolled.",
+        "construcao_3e": "Enhanced Trait: Strength 10 (para elevar o valor base 2 ao valor final 12).",
         "custo_2e_pp": 30,
-        "custo_3e_pp": null
+        "custo_3e_pp": 20
       },
       {
         "nome": "Enhanced Strength 20",
-        "construcao_3e": "Enhanced Trait: Strength 20.",
+        "construcao_3e": "Enhanced Trait: Stamina 11 (para elevar o valor base 1 ao valor final 12).",
         "custo_2e_pp": 20,
-        "custo_3e_pp": 40
+        "custo_3e_pp": 22
       },
       {
         "nome": "Enhanced Constitution 22",
@@ -76,7 +76,7 @@
         "nome": "Super-Strength 3",
         "construcao_3e": "Power-Lifting 3.",
         "custo_2e_pp": 6,
-        "custo_3e_pp": null
+        "custo_3e_pp": 3
       }
     ],
     "equipamento": [],
@@ -86,7 +86,7 @@
     ],
     "ataques": [
       {
-        "nome": "Unarmed",
+        "nome": "Desarmado",
         "bonus": 8,
         "dano": 12
       }
@@ -97,22 +97,32 @@
       "aparar_mais_resistencia": 20,
       "fortitude_mais_vontade": 17,
       "legal": true
+    },
+    "habilidades_base": {
+      "For": 2,
+      "Vig": 1,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 8,
+      "Int": 0,
+      "Pro": 2,
+      "Pre": 3
     }
   },
   "custos_3e": {
-    "habilidades": 82,
-    "defesas": 45,
-    "pericias": 10.0,
+    "habilidades_base": 40,
+    "defesas": 9,
+    "pericias": 10,
     "vantagens": 6,
-    "poderes_conhecidos": 94,
-    "subtotal_conhecido": 237.0,
+    "poderes_conhecidos": 99,
+    "subtotal_conhecido": 164,
     "poderes_pendentes": true,
     "total": null
   },
   "notas_conversao": [
     "Dodge Focus 2 foi convertido em graduações de Esquiva. Força e Vigor da fonte são muito altos para NP 10, mas foram preservados; nenhuma outra vantagem foi removida.",
     "A fonte imprime STR/DEX/CON/INT/WIS/CHA +12/+2/+12/+0/+2/+3; Toughness +12, Fortitude +12, Reflex +2, Will +5; Attack +8; Defense 18; Initiative +2.",
-    "Os Drawbacks Full Power (Drain) and Full Power (Mimic), cada um 3 PP, foram convertidos em complicações separadas mantendo ocorrência e intensidade. Não foi criada Motivação.",
+    "Os Drawbacks Full Power (Drain) e Full Power (Mimic), cada um 3 PP, foram convertidos em complicações separadas mantendo ocorrência e intensidade. Não foi criada Motivação.",
     "Resistência 12 limita Esquiva/Aparar a 8 para PL 10. Ataque +8 e dano +12 igualam o limite 20.",
     "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +12/+2/+12/+0/+2/+3. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
     "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."

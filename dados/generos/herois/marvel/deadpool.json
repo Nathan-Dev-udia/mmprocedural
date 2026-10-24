@@ -62,13 +62,13 @@
     "poderes": [
       {
         "nome": "Regeneration",
-        "construcao_3e": "Regeneration 29; source recovery schedule: Bruised 3, Unconscious 3, Injured 4, Staggered 4, Disabled 6; Ability Damage 5; Resurrection 4; Regrowth. The exact 3e rank/Immortality construction remains unpriced.",
+        "construcao_3e": "Regeneration 29; progressão de recuperação indicada na fonte: Bruised 3, Unconscious 3, Injured 4, Staggered 4, Disabled 6; Ability Damage 5; Resurrection 4; Regrowth. A graduação exata da construção em 3e/Immortality continua sem custo definido.",
         "custo_2e_pp": 30,
         "custo_3e_pp": null
       },
       {
         "nome": "Teleporter",
-        "construcao_3e": "Device (Removable): Teleport 5, Short Range.",
+        "construcao_3e": "Device (removível): Teleport 5, Short Range.",
         "custo_2e_pp": 3,
         "custo_3e_pp": null
       }
@@ -117,10 +117,10 @@
   "custos_3e": {
     "habilidades": 62,
     "defesas": 18,
-    "pericias": 36.0,
-    "vantagens": null,
+    "pericias": 36,
+    "vantagens": 19,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 116.0,
+    "subtotal_conhecido": 135,
     "poderes_pendentes": true,
     "total": null
   },
@@ -128,6 +128,6 @@
     "Toughness +7/+5 foi impresso com Defensive Roll; o valor alto +7 foi mantido como Resistência para a checagem. Dodge Focus 6 foi limitado e Aparar reduzido para respeitar NP 10. Elusive Target e Sneak Attack foram removidas. Os custos de espada e arsenal foram preservados como impressos, apesar de a lista do arsenal não detalhar todos os custos individuais.",
     "Defesas ajustadas para Esquiva 13 e Aparar 13, respeitando os limites de NP 10 com Resistência 7.",
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
-    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias e apenas os custos de poderes confirmados; não inclui vantagens nem custos incertos."
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
   ]
 }

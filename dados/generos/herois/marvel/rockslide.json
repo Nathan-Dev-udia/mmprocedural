@@ -56,7 +56,7 @@
       },
       {
         "nome": "Anatomical Separation 3",
-        "construcao_3e": "Summon-like separated body parts; no control over separated limbs; Linked to Blast.",
+        "construcao_3e": "Summon-like separated body parts; sem controle sobre os membros separados; Linked to Blast.",
         "custo_2e_pp": 3,
         "custo_3e_pp": null
       },
@@ -76,7 +76,7 @@
         "dano": 8
       },
       {
-        "nome": "Unarmed",
+        "nome": "Desarmado",
         "bonus": 8,
         "dano": 12
       }
@@ -91,11 +91,11 @@
   },
   "custos_3e": {
     "habilidades": 46,
-    "defesas": 36,
-    "pericias": 22.0,
+    "defesas": 14,
+    "pericias": 22,
     "vantagens": 10,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 114.0,
+    "subtotal_conhecido": 92,
     "poderes_pendentes": true,
     "total": null
   },

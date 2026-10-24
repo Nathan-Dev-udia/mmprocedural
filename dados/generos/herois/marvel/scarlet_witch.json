@@ -31,13 +31,13 @@
     },
     "pericias": {
       "Enganação": 8,
-      "Especialidade: Artistic": 8,
       "Persuasão": 10,
       "Investigação": 9,
-      "Especialidade: Arcane Lore": 14,
       "Percepção": 10,
       "Intuição": 10,
-      "Furtividade": 10
+      "Furtividade": 10,
+      "Especialidade: Artes": 8,
+      "Especialidade: Conhecimento Arcano": 14
     },
     "vantagens": [
       "Attractive",
@@ -52,7 +52,7 @@
     "poderes": [
       {
         "nome": "Blast 12",
-        "construcao_3e": "Array: Blast 12, Penetrating; flaw: Wanda is Nuts; Alternate Effects: Animate Objects, Luck Control, Fire Control, Water Control, Plant Control, Earth Control, Air Control.",
+        "construcao_3e": "Array: Blast 12, Penetrating; falha: Wanda é maluca; Alternate Effects: Animate Objects, Luck Control, Fire Control, Water Control, Plant Control, Earth Control, Air Control.",
         "custo_2e_pp": 31,
         "custo_3e_pp": null
       }
@@ -66,7 +66,7 @@
         "dano": 12
       },
       {
-        "nome": "Unarmed",
+        "nome": "Desarmado",
         "bonus": 4,
         "dano": 2
       }
@@ -81,11 +81,11 @@
   },
   "custos_3e": {
     "habilidades": 38,
-    "defesas": 49,
+    "defesas": 34,
     "pericias": 39.5,
     "vantagens": 15,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 141.5,
+    "subtotal_conhecido": 126.5,
     "poderes_pendentes": true,
     "total": null
   },

@@ -5,7 +5,7 @@
   "nome_pt": "Jubileu",
   "nivel_poder": 7,
   "pontos_poder_origem": 105,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 121,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -61,7 +61,7 @@
         "nome": "Blast / Dazzle",
         "construcao_3e": "Blast 7; Efeito Alternativo: Dazzle (Visual). 15 PP na fonte.",
         "custo_2e_pp": 15,
-        "custo_3e_pp": null
+        "custo_3e_pp": 15
       },
       {
         "nome": "Immunity",
@@ -97,18 +97,16 @@
   },
   "custos_3e": {
     "habilidades": 40,
-    "defesas": 24,
+    "poderes": 16,
+    "defesas": 13,
     "pericias": 38,
     "vantagens": 14,
-    "poderes_conhecidos": 1,
-    "subtotal_conhecido": 117,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 121
   },
   "notas_conversao": [
     "Dodge Focus 4 é convertido a partir de Defense 20: rank 10; foi reduzido a Dodge 10 para cumprir Dodge + Toughness 14 (NP 7). Parry 10 mantém o limite.",
     "Hide in Plain Sight mantida; Sneak Attack 2 não tem equivalente direto e foi omitida.",
-    "Languages (English; base Chinese) convertido em Languages 1.",
+    "Languages (English; chinês como idioma-base) convertido em Languages 1.",
     "Dodge foi ajustada de 14 para 10 para cumprir Dodge + Toughness ≤ 14 (NP 7)."
   ]
 }

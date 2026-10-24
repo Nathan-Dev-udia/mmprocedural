@@ -31,12 +31,12 @@
     },
     "pericias": {
       "Enganação": 8,
-      "Especialidade: Mechanical": 11,
       "Tecnologia": 11,
-      "Especialidade: Physical Sciences": 11,
-      "Especialidade: Life Sciences": 11,
-      "Especialidade: Technology": 11,
-      "Intuição": 8
+      "Intuição": 8,
+      "Especialidade: Mecânica": 11,
+      "Especialidade: Ciências Físicas": 11,
+      "Especialidade: Ciências da Vida": 11,
+      "Especialidade: Tecnologia": 11
     },
     "vantagens": [
       "Defensive Roll 2",
@@ -58,7 +58,7 @@
       },
       {
         "nome": "Mimic (Skills and Feats) 8",
-        "construcao_3e": "Perception Range; Limited to skills and feats; Resisted; ends if target moves more than 30 feet away.",
+        "construcao_3e": "Perception Range; Limited a perícias e vantagens; Resisted; termina se o alvo se afastar mais de 30 pés.",
         "custo_2e_pp": 24,
         "custo_3e_pp": null
       },
@@ -70,13 +70,13 @@
       }
     ],
     "equipamento": [
-      "New X-Men uniform (+4 Toughness; Comm-Link; 5 EP).",
-      "10 additional EP."
+      "Uniforme dos Novos X-Men (+4 Toughness; Comm-Link; 5 EP).",
+      "10 EP adicionais."
     ],
     "complicacoes": [],
     "ataques": [
       {
-        "nome": "Unarmed",
+        "nome": "Desarmado",
         "bonus": 8,
         "dano": 2
       }
@@ -91,11 +91,11 @@
   },
   "custos_3e": {
     "habilidades": 32,
-    "defesas": 37,
+    "defesas": 17,
     "pericias": 35.5,
     "vantagens": 14,
     "poderes_conhecidos": 29,
-    "subtotal_conhecido": 147.5,
+    "subtotal_conhecido": 127.5,
     "poderes_pendentes": true,
     "total": null
   },

@@ -32,8 +32,8 @@
     "pericias": {
       "Acrobacia": 12,
       "Enganação": 10,
-      "Especialidade: Tactics": 10,
-      "Intuição": 12
+      "Intuição": 12,
+      "Especialidade: Tática": 10
     },
     "vantagens": [
       "Agile Feint",
@@ -49,17 +49,17 @@
         "nome": "Immunity 5",
         "construcao_3e": "Immunity to fatigue.",
         "custo_2e_pp": 5,
-        "custo_3e_pp": null
+        "custo_3e_pp": 5
       },
       {
         "nome": "Super-Speed 8",
-        "construcao_3e": "Rapid Attack, Wall Run, Water Run, Rapid Fire; Dynamic Strike and Invisibility.",
+        "construcao_3e": "Rapid Attack, Wall Run, Water Run, Rapid Fire; Dynamic Strike e Invisibility.",
         "custo_2e_pp": 47,
         "custo_3e_pp": null
       }
     ],
     "equipamento": [
-      "Uniform (+3 Toughness; Subtle; 4 EP).",
+      "Uniforme (+3 Toughness; Subtle; 4 EP).",
       "Comm-Link (1 EP)."
     ],
     "complicacoes": [],
@@ -85,19 +85,19 @@
   },
   "custos_3e": {
     "habilidades": 52,
-    "defesas": 43,
-    "pericias": 22.0,
+    "defesas": 19,
+    "pericias": 22,
     "vantagens": 9,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 126.0,
+    "poderes_conhecidos": 5,
+    "subtotal_conhecido": 107,
     "poderes_pendentes": true,
     "total": null
   },
   "notas_conversao": [
     "Dodge Focus 12 foi convertido em graduações de Esquiva e reduzido a 15 para NP 10; Sneak Attack não tem equivalente direto.",
     "A fonte imprime STR/DEX/CON/INT/WIS/CHA +2/+4/+2/+1/+1/+0; Toughness +5, Fortitude +4, Reflex +12, Will +4; Attack +12 [Rapid Fire +8]; Defense 25; Initiative +36.",
-    "Dodge Focus 12 e Defense 25 excedem o limite PL 10 com Toughness 5; Esquiva/Aparar reduzidas ao máximo legal 15 (15 + 5 = 20). Attack +12 and Damage 8 equal the cap 20.",
-    "The source does not provide a separate attack modifier for every Super-Speed array effect; listed attacks use the printed attack bonus.",
+    "Dodge Focus 12 e Defense 25 excedem o limite PL 10 com Toughness 5; Esquiva/Aparar reduzidas ao máximo legal 15 (15 + 5 = 20). Ataque +12 e Damage 8 atingem o limite 20.",
+    "A fonte não informa um modificador de ataque separado para cada efeito do array Super-Speed; os ataques listados usam o bônus de ataque impresso.",
     "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +2/+4/+2/+1/+1/+0. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
     "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
   ]

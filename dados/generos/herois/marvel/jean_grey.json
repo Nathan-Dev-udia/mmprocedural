@@ -64,7 +64,7 @@
     ],
     "equipamento": [
       "Uniforme (+3 Toughness; Subtle; 4 EP)",
-      "Comm-Link (1 EP)"
+      "Comunicador (1 EP)"
     ],
     "complicacoes": [],
     "ataques": [
@@ -89,11 +89,11 @@
   },
   "custos_3e": {
     "habilidades": 36,
-    "defesas": 22,
+    "defesas": 11,
     "pericias": 34,
     "vantagens": 13,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 105,
+    "subtotal_conhecido": 94,
     "poderes_pendentes": true,
     "total": null
   },

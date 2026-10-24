@@ -57,17 +57,17 @@
         "nome": "Immunity 1",
         "construcao_3e": "Immunity to aging.",
         "custo_2e_pp": 1,
-        "custo_3e_pp": null
+        "custo_3e_pp": 1
       },
       {
         "nome": "Protection 4",
         "construcao_3e": "Protection 4, Innate.",
         "custo_2e_pp": 5,
-        "custo_3e_pp": null
+        "custo_3e_pp": 5
       },
       {
         "nome": "Mental Shield 5",
-        "construcao_3e": "Enhanced Will Defense / mental protection; exact cost uncertain.",
+        "construcao_3e": "Enhanced Will Defense / mental protection; custo exato incerto.",
         "custo_2e_pp": 5,
         "custo_3e_pp": null
       },
@@ -81,11 +81,11 @@
         "nome": "Super-Senses 7",
         "construcao_3e": "Scent (Extended, Accurate), Tracking, Dark Vision.",
         "custo_2e_pp": 7,
-        "custo_3e_pp": null
+        "custo_3e_pp": 7
       },
       {
         "nome": "Regeneration 29",
-        "construcao_3e": "Recovery Rate 17, listed recovery milestones, Ability Damage 5, Resurrection 4, Regrowth.",
+        "construcao_3e": "Recovery Rate 17, marcos de recuperação listados, Ability Damage 5, Resurrection 4, Regrowth.",
         "custo_2e_pp": 30,
         "custo_3e_pp": null
       }
@@ -96,12 +96,12 @@
     ],
     "ataques": [
       {
-        "nome": "Claws",
+        "nome": "Garras",
         "bonus": 10,
         "dano": 10
       },
       {
-        "nome": "Unarmed",
+        "nome": "Desarmado",
         "bonus": 10,
         "dano": 6
       }
@@ -116,11 +116,11 @@
   },
   "custos_3e": {
     "habilidades": 64,
-    "defesas": 49,
+    "defesas": 15,
     "pericias": 53.5,
     "vantagens": 11,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 177.5,
+    "poderes_conhecidos": 13,
+    "subtotal_conhecido": 156.5,
     "poderes_pendentes": true,
     "total": null
   },

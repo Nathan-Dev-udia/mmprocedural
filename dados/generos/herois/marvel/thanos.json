@@ -62,44 +62,44 @@
       },
       {
         "nome": "Impervious Toughness",
-        "construcao_3e": "Protection with Impervious (rank 2e 10); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Impervious Toughness 10 (10pp); custo 2e impresso 10 PP.",
+        "construcao_3e": "Impervious Toughness 10.",
         "custo_2e_pp": 10,
-        "custo_3e_pp": null
+        "custo_3e_pp": 10
       },
       {
         "nome": "Protection",
-        "construcao_3e": "Protection (rank 2e 3); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Protection 3 (Extras: Impervious [+1]; 6pp); custo 2e impresso 6 PP.",
+        "construcao_3e": "Protection 3, Impervious.",
         "custo_2e_pp": 6,
-        "custo_3e_pp": null
+        "custo_3e_pp": 6
       },
       {
         "nome": "Regeneration",
-        "construcao_3e": "Regeneration (Resurrection → Immortality) (rank 2e 10); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Regeneration 10 (Resurrection 10; 10pp); custo 2e impresso 10 PP.",
+        "construcao_3e": "Immortality 10.",
         "custo_2e_pp": 10,
-        "custo_3e_pp": null
+        "custo_3e_pp": 20
       },
       {
         "nome": "Super Movement",
-        "construcao_3e": "Movement (rank 2e 3); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Movement 3 (Dimensional Travel [3); 6pp); custo 2e impresso 6 PP.",
+        "construcao_3e": "Movement 3 (Dimensional Travel 3).",
         "custo_2e_pp": 6,
-        "custo_3e_pp": null
+        "custo_3e_pp": 6
       },
       {
         "nome": "Super Senses",
-        "construcao_3e": "Sentidos (rank 2e 6); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Senses 6 (Extended [5] Detect cosmic Energy; 6pp); custo 2e impresso 6 PP.",
+        "construcao_3e": "Senses 6 (Detect Cosmic Energy, Extended 5).",
         "custo_2e_pp": 6,
-        "custo_3e_pp": null
+        "custo_3e_pp": 6
       },
       {
         "nome": "Super Strength",
-        "construcao_3e": "Power-Lifting / Enhanced Strength (rank 2e 13); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Strength 13 (26pp); custo 2e impresso 26 PP.",
+        "construcao_3e": "Power-Lifting 13.",
         "custo_2e_pp": 26,
-        "custo_3e_pp": null
+        "custo_3e_pp": 13
       }
     ],
     "equipamento": [],
     "complicacoes": [
-      "Perda de poder indicada na fonte: Power Loss [Regeneration; If Death can be convinced to revoke immortality; Uncommon Occurrence, Minor Intensity; 1pp]"
+      "Perda de poder indicada na fonte: Power Loss [Regeneration; Se Death puder ser convencida a revogar a imortalidade; Uncommon Occurrence, Minor Intensity; 1pp]"
     ],
     "ataques": [
       {
@@ -123,11 +123,11 @@
   },
   "custos_3e": {
     "habilidades": 156,
-    "defesas": 91,
+    "defesas": 29,
     "pericias": 38,
     "vantagens": 10,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 295,
+    "poderes_conhecidos": 61,
+    "subtotal_conhecido": 294,
     "poderes_pendentes": true,
     "total": null
   },

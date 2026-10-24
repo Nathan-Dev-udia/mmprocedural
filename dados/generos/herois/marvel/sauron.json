@@ -34,12 +34,12 @@
       "Tecnologia": 4,
       "Veículos": 2,
       "Intimidação": 12,
-      "Especialidade: Behavioral Sciences": 8,
       "Tratamento": 7,
       "Percepção": 8,
       "Intuição": 12,
       "Furtividade": 8,
-      "Especialidade: Sobrevivência": 7
+      "Especialidade: Sobrevivência": 7,
+      "Especialidade: Ciências do Comportamento": 8
     },
     "vantagens": [
       "Favored Environment (Airborne) 12",
@@ -57,25 +57,25 @@
         "nome": "Drain (Stamina) 8",
         "construcao_3e": "Weaken Stamina 8.",
         "custo_2e_pp": 8,
-        "custo_3e_pp": null
+        "custo_3e_pp": 8
       },
       {
         "nome": "Enhanced Strength 8",
-        "construcao_3e": "Enhanced Trait: Strength 8.",
+        "construcao_3e": "Enhanced Trait: Strength 4 (para elevar o valor base 2 ao valor final 6).",
         "custo_2e_pp": 8,
-        "custo_3e_pp": 16
+        "custo_3e_pp": 8
       },
       {
         "nome": "Enhanced Dexterity 8",
-        "construcao_3e": "Enhanced Trait: Dexterity 8.",
+        "construcao_3e": "Enhanced Trait: Agility 4 e Dexterity 4 (para elevar os valores base 1 ao valor final 5).",
         "custo_2e_pp": 8,
         "custo_3e_pp": 16
       },
       {
         "nome": "Enhanced Constitution 8",
-        "construcao_3e": "Enhanced Trait: Stamina 8.",
+        "construcao_3e": "Enhanced Trait: Stamina 4 (para elevar o valor base 2 ao valor final 6).",
         "custo_2e_pp": 8,
-        "custo_3e_pp": 16
+        "custo_3e_pp": 8
       },
       {
         "nome": "Flight 4",
@@ -99,7 +99,7 @@
         "nome": "Strike 2",
         "construcao_3e": "Damage 2, Mighty, Improved Critical 2.",
         "custo_2e_pp": 5,
-        "custo_3e_pp": null
+        "custo_3e_pp": 4
       }
     ],
     "equipamento": [],
@@ -108,12 +108,12 @@
     ],
     "ataques": [
       {
-        "nome": "Fire Breath",
+        "nome": "Sopro de fogo",
         "bonus": 10,
         "dano": 10
       },
       {
-        "nome": "Claws",
+        "nome": "Garras",
         "bonus": 8,
         "dano": 8
       },
@@ -129,15 +129,25 @@
       "aparar_mais_resistencia": 20,
       "fortitude_mais_vontade": 14,
       "legal": true
+    },
+    "habilidades_base": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 6,
+      "Int": 2,
+      "Pro": 1,
+      "Pre": 1
     }
   },
   "custos_3e": {
-    "habilidades": 64,
-    "defesas": 46,
-    "pericias": 36.0,
+    "habilidades_base": 32,
+    "defesas": 20,
+    "pericias": 36,
     "vantagens": 14,
-    "poderes_conhecidos": 59,
-    "subtotal_conhecido": 219.0,
+    "poderes_conhecidos": 55,
+    "subtotal_conhecido": 157,
     "poderes_pendentes": true,
     "total": null
   },

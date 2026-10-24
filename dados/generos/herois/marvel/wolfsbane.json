@@ -5,7 +5,7 @@
   "nome_pt": "Wolfsbane",
   "nivel_poder": 10,
   "pontos_poder_origem": 150,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 161,
   "status_conversao": "convertida",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -56,45 +56,45 @@
     "poderes": [
       {
         "nome": "Enhanced Strength",
-        "construcao_3e": "Enhanced Trait: Força (rank 2e 8); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Enhanced Strength 8 (8pp); custo 2e impresso 8 PP.",
+        "construcao_3e": "Enhanced Trait: Strength 4 (para elevar o valor base 1 ao valor final 5).",
         "custo_2e_pp": 8,
-        "custo_3e_pp": null
+        "custo_3e_pp": 8
       },
       {
         "nome": "Enhanced Dexterity",
-        "construcao_3e": "Enhanced Trait: Destreza (rank 2e 4); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Enhanced Dexterity 4 (4pp); custo 2e impresso 4 PP.",
+        "construcao_3e": "Enhanced Trait: Agility 2 e Dexterity 2 (para elevar os valores base 2 ao valor final 4).",
         "custo_2e_pp": 4,
-        "custo_3e_pp": null
+        "custo_3e_pp": 8
       },
       {
         "nome": "Enhanced Constitution",
-        "construcao_3e": "Enhanced Trait: Vigor (rank 2e 8); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Enhanced Constitution 8 (8pp); custo 2e impresso 8 PP.",
+        "construcao_3e": "Enhanced Trait: Stamina 4 (para elevar o valor base 1 ao valor final 5).",
         "custo_2e_pp": 8,
-        "custo_3e_pp": null
+        "custo_3e_pp": 8
       },
       {
         "nome": "Morph",
-        "construcao_3e": "Morph (rank 2e 1); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Morph 1 (Power Feat: Metamorph [Wolf Form]; 2pp); custo 2e impresso 2 PP. A forma lupina também possui os modificadores e traços listados em ficha.formas_alternativas; a fonte traz um bloco completo para essa forma.",
+        "construcao_3e": "Morph 1 (Metamorph: forma lupina descrita em ficha.formas_alternativas).",
         "custo_2e_pp": 2,
-        "custo_3e_pp": null
+        "custo_3e_pp": 6
       },
       {
         "nome": "Speed",
-        "construcao_3e": "Speed (rank 2e 2); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Speed 2 (2pp); custo 2e impresso 2 PP.",
+        "construcao_3e": "Speed 2.",
         "custo_2e_pp": 2,
-        "custo_3e_pp": null
+        "custo_3e_pp": 2
       },
       {
         "nome": "Strike",
-        "construcao_3e": "Damage (rank 2e 2); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Strike 2 (Power Feats: Mighty, Improved Critical (3); 6pp); custo 2e impresso 6 PP.",
+        "construcao_3e": "Damage 2 (Strength-based, Improved Critical 3).",
         "custo_2e_pp": 6,
-        "custo_3e_pp": null
+        "custo_3e_pp": 5
       },
       {
         "nome": "Super Senses",
-        "construcao_3e": "Sentidos (rank 2e 4); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Senses 4 (Scent, Extended Low Light Vision, Tracking; 4pp); custo 2e impresso 4 PP.",
+        "construcao_3e": "Senses 4 (Acute Scent, Extended Vision, Low-Light Vision, Tracking).",
         "custo_2e_pp": 4,
-        "custo_3e_pp": null
+        "custo_3e_pp": 4
       }
     ],
     "equipamento": [
@@ -229,17 +229,25 @@
           "legal": true
         }
       }
-    ]
+    ],
+    "habilidades_base": {
+      "For": 1,
+      "Vig": 1,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 10,
+      "Int": 1,
+      "Pro": 3,
+      "Pre": 1
+    }
   },
   "custos_3e": {
-    "habilidades": 66,
-    "defesas": 47,
+    "habilidades_base": 42,
+    "poderes": 41,
+    "defesas": 18,
     "pericias": 43,
     "vantagens": 17,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 173,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 161
   },
   "notas_conversao": [
     "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
@@ -251,7 +259,7 @@
     "Wolfsbane tem uma segunda ficha publicada para a forma lupina na mesma página; ambas foram preservadas sob este perfil, sem criar um perfil separado.",
     "A categoria Powers da forma principal totaliza 34 PP e a da forma lupina, 36 PP; cada soma coincide com os custos individuais impressos para sua forma.",
     "A forma lupina também lista Equipment 2, mas não apresenta itens de equipamento próprios no bloco alternativo; por isso, nenhum item foi atribuído a ela.",
-    "Subtotal 3e conhecido: 66 PP em habilidades, 86 em perícias, 47 em defesas, 17 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
+    "habilidades_base registra For 1, Vig 1, Agi 2 e Des 2 (sem os aumentos dos poderes). Os custos 3e somam 190 PP (42 habilidades base + 41 poderes + 47 defesas + 43 perícias + 17 vantagens).",
     "Correção de custo: as perícias somam 86 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 86 para 43 PP (subtotal e totais ajustados em -43)."
   ]
 }

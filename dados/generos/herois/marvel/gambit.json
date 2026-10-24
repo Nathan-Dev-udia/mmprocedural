@@ -64,7 +64,7 @@
     "poderes": [
       {
         "nome": "Blast (kinetic cards)",
-        "construcao_3e": "Damage 10 (Explosion Area, Split Attack 3); Alternate Effect: Damage 6 (Multiattack, Accurate 3); Requires Medium.",
+        "construcao_3e": "Damage 10 (Explosion Area, Split Attack 3); Alternate Effect: Damage 6 (Multiattack, Accurate 3); Requer Medium.",
         "custo_2e_pp": 24,
         "custo_3e_pp": null
       }
@@ -110,9 +110,9 @@
     "habilidades": 52,
     "defesas": 23,
     "pericias": 52.5,
-    "vantagens": null,
+    "vantagens": 21,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 127.5,
+    "subtotal_conhecido": 148.5,
     "poderes_pendentes": true,
     "total": null
   },
@@ -120,6 +120,6 @@
     "Attack Specialization (Staff) 3 foi convertida em 6 graduações de Combate Corpo a Corpo: Bastão. Dodge Focus 10 foi limitado para respeitar NP 10 com Resistência ativa 7. Elusive Target e Sneak Attack foram removidas. Languages 1 representa inglês além do francês-base.",
     "Defesas ajustadas para Esquiva 13 e Aparar 13, respeitando os limites de NP 10 com Resistência 7.",
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
-    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias e apenas os custos de poderes confirmados; não inclui vantagens nem custos incertos."
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
   ]
 }

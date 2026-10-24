@@ -32,13 +32,13 @@
     "pericias": {
       "Enganação": 12,
       "Tecnologia": 15,
-      "Especialidade: Electrical": 8,
       "Veículos": 8,
       "Investigação": 8,
-      "Especialidade: Technology": 8,
       "Percepção": 8,
       "Intuição": 12,
-      "Furtividade": 8
+      "Furtividade": 8,
+      "Especialidade: Eletrônica": 8,
+      "Especialidade: Tecnologia": 8
     },
     "vantagens": [
       "Accurate Attack",
@@ -59,7 +59,7 @@
     "poderes": [
       {
         "nome": "Boost (All Powers at Once) 5",
-        "construcao_3e": "Enhanced Trait, Limited to mutant powers, Others Only.",
+        "construcao_3e": "Enhanced Trait, Limited a poderes mutantes, Others Only.",
         "custo_2e_pp": 10,
         "custo_3e_pp": null
       },
@@ -77,19 +77,19 @@
       }
     ],
     "equipamento": [
-      "Cyber glasses (Assessment, Comm-Link, Camera, Laptop, GPS; 5 EP).",
-      "Assault rifle (+5 Damage; Autofire; Improved Range; source prints 16 PP).",
-      "Uniform (+3 Toughness; Subtle; 4 EP)."
+      "Óculos cibernéticos (Assessment, Comm-Link, Camera, Notebook, GPS; 5 EP).",
+      "Fuzil de assalto (+5 Damage; Autofire; Improved Range; a fonte imprime 16 PP).",
+      "Uniforme (+3 Toughness; Subtle; 4 EP)."
     ],
     "complicacoes": [],
     "ataques": [
       {
-        "nome": "Assault rifle",
+        "nome": "Fuzil de assalto",
         "bonus": 10,
         "dano": 5
       },
       {
-        "nome": "Unarmed",
+        "nome": "Desarmado",
         "bonus": 10,
         "dano": 0
       }
@@ -104,11 +104,11 @@
   },
   "custos_3e": {
     "habilidades": 50,
-    "defesas": 35,
+    "defesas": 15,
     "pericias": 43.5,
     "vantagens": 21,
     "poderes_conhecidos": 5,
-    "subtotal_conhecido": 154.5,
+    "subtotal_conhecido": 134.5,
     "poderes_pendentes": true,
     "total": null
   },

@@ -61,7 +61,7 @@
     "poderes": [
       {
         "nome": "Duplication",
-        "construcao_3e": "Duplication 11 (Continuous, Uncontrolled, Absorption Healing, Progression 6, Mental Link, Triggered by physical force). 31 PP na fonte.",
+        "construcao_3e": "Duplication 11 (Continuous, Uncontrolled, Absorption Healing, Progression 6, Mental Link, Triggered por força física). 31 PP na fonte.",
         "custo_2e_pp": 31,
         "custo_3e_pp": null
       },
@@ -75,7 +75,7 @@
     "equipamento": [
       "Pistola (+3 Damage; 6 EP)",
       "Celular (1 EP)",
-      "Laptop (1 EP)",
+      "Notebook (1 EP)",
       "Apartamento (2 EP)"
     ],
     "complicacoes": [],
@@ -101,11 +101,11 @@
   },
   "custos_3e": {
     "habilidades": 48,
-    "defesas": 34,
+    "defesas": 18,
     "pericias": 54,
     "vantagens": 16,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 152,
+    "subtotal_conhecido": 136,
     "poderes_pendentes": true,
     "total": null
   },

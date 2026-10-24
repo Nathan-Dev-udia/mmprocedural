@@ -57,15 +57,15 @@
       },
       {
         "nome": "Enhanced Strength",
-        "construcao_3e": "Enhanced Trait: Força (rank 2e 14); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Enhanced Strength 14 (14pp); custo 2e impresso 14 PP.",
+        "construcao_3e": "Enhanced Trait: Strength 7 (para elevar o valor base 3 ao valor final 10).",
         "custo_2e_pp": 14,
-        "custo_3e_pp": null
+        "custo_3e_pp": 14
       },
       {
         "nome": "Super Strength",
-        "construcao_3e": "Power-Lifting / Enhanced Strength (rank 2e 3); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Strength 3 (6pp); custo 2e impresso 6 PP.",
+        "construcao_3e": "Power-Lifting 3.",
         "custo_2e_pp": 6,
-        "custo_3e_pp": null
+        "custo_3e_pp": 3
       },
       {
         "nome": "Strike",
@@ -96,15 +96,25 @@
       "aparar_mais_resistencia": 20,
       "fortitude_mais_vontade": 9,
       "legal": true
+    },
+    "habilidades_base": {
+      "For": 3,
+      "Vig": 3,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 10,
+      "Int": 2,
+      "Pro": 1,
+      "Pre": 3
     }
   },
   "custos_3e": {
-    "habilidades": 70,
-    "defesas": 42,
+    "habilidades_base": 56,
+    "defesas": 18,
     "pericias": 31.5,
     "vantagens": 11,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 154.5,
+    "poderes_conhecidos": 17,
+    "subtotal_conhecido": 133.5,
     "poderes_pendentes": true,
     "total": null
   },

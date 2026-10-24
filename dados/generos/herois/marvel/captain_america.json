@@ -68,7 +68,7 @@
     "poderes": [
       {
         "nome": "Star-Spangled Shield",
-        "construcao_3e": "Device (Removable): Damage 3 (Strength-based, Mighty, Ranged 6, Penetrating); Deflect 8 (all ranged), Alternate Effect: Enhanced Dodge and Parry (Shield).",
+        "construcao_3e": "Device (removível): Damage 3 (Strength-based, Mighty, Ranged 6, Penetrating); Deflect 8 (todos os ataques à distância), Alternate Effect: Enhanced Dodge and Parry (Shield).",
         "custo_2e_pp": 18,
         "custo_3e_pp": null
       }
@@ -103,9 +103,9 @@
     "habilidades": 108,
     "defesas": 21,
     "pericias": 47.5,
-    "vantagens": null,
+    "vantagens": 32,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 176.5,
+    "subtotal_conhecido": 208.5,
     "poderes_pendentes": true,
     "total": null
   },
@@ -113,6 +113,6 @@
     "Dodge Focus 2 foi convertido em Esquiva e ajustado para cumprir os limites defensivos de NP 12. Elusive Target foi removida; a cobertura circunstancial pode representar o efeito. Weapon Break foi omitida por não ter equivalente explícito no guia. A fonte lista 5 EP e Equipment sem graduação; Equipment 1 representa essa dotação.",
     "Defesas ajustadas para Esquiva 14 e Aparar 14, respeitando os limites de NP 12 com Resistência 10.",
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
-    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias e apenas os custos de poderes confirmados; não inclui vantagens nem custos incertos."
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
   ]
 }

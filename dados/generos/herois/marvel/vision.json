@@ -33,7 +33,7 @@
       "Tecnologia": 16,
       "Especialidade: Tecnologia": 12,
       "Intuição": 8,
-      "Combate Corpo-a-Corpo: Unarmed": 1,
+      "Combate Corpo-a-Corpo: Desarmado": 1,
       "Combate a Distância: Solar Blast": 10
     },
     "vantagens": [
@@ -62,21 +62,21 @@
       },
       {
         "nome": "Immunity",
-        "construcao_3e": "Immunity (rank 2e 30); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Immunity 30 (All Fortitude Effects; 30pp); custo 2e impresso 30 PP.",
+        "construcao_3e": "Immunity 30 (Fortitude Effects).",
         "custo_2e_pp": 30,
-        "custo_3e_pp": null
+        "custo_3e_pp": 30
       },
       {
         "nome": "Impervious Toughness",
-        "construcao_3e": "Protection with Impervious (rank 2e 7); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Impervious Toughness 7 (7pp); custo 2e impresso 7 PP.",
+        "construcao_3e": "Impervious Toughness 7.",
         "custo_2e_pp": 7,
-        "custo_3e_pp": null
+        "custo_3e_pp": 7
       },
       {
         "nome": "Flight",
-        "construcao_3e": "Flight 8 (Limited: only effective using Decreased Density); custo 3e incerto.",
+        "construcao_3e": "Flight 8 (Limited: only while using Decreased Density).",
         "custo_2e_pp": 8,
-        "custo_3e_pp": null
+        "custo_3e_pp": 8
       },
       {
         "nome": "Mental Shield",
@@ -86,9 +86,9 @@
       },
       {
         "nome": "Quickness",
-        "construcao_3e": "Quickness (rank 2e 6); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Quickness 6 (Flaws: Limited – Mental Quickness [-1]; 3pp); custo 2e impresso 3 PP.",
+        "construcao_3e": "Quickness 6 (Limited to One Type: Mental).",
         "custo_2e_pp": 3,
-        "custo_3e_pp": null
+        "custo_3e_pp": 3
       },
       {
         "nome": "Regeneration",
@@ -98,9 +98,9 @@
       },
       {
         "nome": "Super Strength",
-        "construcao_3e": "Power-Lifting / Enhanced Strength (rank 2e 4); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Strength 4 (8pp); custo 2e impresso 8 PP.",
+        "construcao_3e": "Power-Lifting 4.",
         "custo_2e_pp": 8,
-        "custo_3e_pp": null
+        "custo_3e_pp": 4
       }
     ],
     "equipamento": [],
@@ -127,11 +127,11 @@
   },
   "custos_3e": {
     "habilidades": 54,
-    "defesas": 39,
+    "defesas": 16,
     "pericias": 23.5,
     "vantagens": 3,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 119.5,
+    "poderes_conhecidos": 52,
+    "subtotal_conhecido": 148.5,
     "poderes_pendentes": true,
     "total": null
   },

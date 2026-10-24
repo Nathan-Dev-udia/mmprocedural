@@ -56,15 +56,15 @@
       },
       {
         "nome": "Flight",
-        "construcao_3e": "Flight (rank 2e 4); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Flight 4 (8pp); custo 2e impresso 8 PP.",
+        "construcao_3e": "Flight 4.",
         "custo_2e_pp": 8,
-        "custo_3e_pp": null
+        "custo_3e_pp": 8
       },
       {
         "nome": "Super Senses",
-        "construcao_3e": "Sentidos (rank 2e 3); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Senses 3 (Extended (3) Hearing; 3pp); custo 2e impresso 3 PP.",
+        "construcao_3e": "Senses 3 (Extended Hearing 3).",
         "custo_2e_pp": 3,
-        "custo_3e_pp": null
+        "custo_3e_pp": 3
       }
     ],
     "equipamento": [
@@ -89,11 +89,11 @@
   },
   "custos_3e": {
     "habilidades": 32,
-    "defesas": 39,
+    "defesas": 23,
     "pericias": 16.5,
     "vantagens": 15,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 102.5,
+    "poderes_conhecidos": 11,
+    "subtotal_conhecido": 97.5,
     "poderes_pendentes": true,
     "total": null
   },

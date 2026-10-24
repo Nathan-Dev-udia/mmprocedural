@@ -72,7 +72,7 @@
         "nome": "Super-Senses",
         "construcao_3e": "Senses 4 (Postcognition, Touch Range).",
         "custo_2e_pp": 2,
-        "custo_3e_pp": null
+        "custo_3e_pp": 4
       }
     ],
     "equipamento": [
@@ -104,16 +104,16 @@
   },
   "custos_3e": {
     "habilidades": 74,
-    "defesas": 39,
-    "pericias": 31,
+    "defesas": 20,
+    "pericias": 30.5,
     "vantagens": 29,
-    "poderes_conhecidos": 2,
-    "subtotal_conhecido": 175,
+    "poderes_conhecidos": 6,
+    "subtotal_conhecido": 159.5,
     "poderes_pendentes": true,
     "total": null
   },
   "notas_conversao": [
-    "Dodge Focus 10 foi convertido em Dodge ranks; o valor anterior ao limite excede NP 10 e foi ajustado para Dodge 15 com Toughness 5.",
+    "Dodge Focus 10 foi convertido em graduações de Dodge; o valor anterior ao limite excede NP 10 e foi ajustado para Dodge 15 com Toughness 5.",
     "Elusive Target e Ranged Pin não têm equivalentes diretos; Sneak Attack não tem equivalente e foram omitidas. Acrobatic Bluff virou Agile Feint.",
     "O valor +5/+2 de Toughness foi preservado pelo maior número impresso; Defensive Roll não foi somado novamente.",
     "Dodge foi ajustada de 25 para 15 para cumprir Dodge + Toughness ≤ 20 (NP 10).",

@@ -5,7 +5,7 @@
   "nome_pt": "Estrela do Norte",
   "nivel_poder": 10,
   "pontos_poder_origem": 150,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 148.5,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -84,22 +84,31 @@
       "aparar_mais_resistencia": 10,
       "fortitude_mais_vontade": 6,
       "legal": true
+    },
+    "habilidades_base": {
+      "For": 4,
+      "Vig": 4,
+      "Agi": 2,
+      "Des": 4,
+      "Lut": 2,
+      "Int": 2,
+      "Pro": 1,
+      "Pre": 2
     }
   },
   "custos_3e": {
-    "habilidades": 42,
-    "defesas": 20,
-    "pericias": 39,
+    "habilidades_base": 42,
+    "poderes": 44,
+    "defesas": 12,
+    "pericias": 38.5,
     "vantagens": 12,
-    "poderes_conhecidos": 44,
-    "subtotal_conhecido": 157,
-    "poderes_pendentes": false,
-    "total": null
+    "total": 148.5
   },
   "notas_conversao": [
     "A fonte apresenta Defense 12 e Dodge Focus 10, valores em tensão com Reflex +10. Dodge Focus foi convertido: Dodge 20 antes do ajuste; o valor final 12 cumpre Dodge + Toughness 20 (NP 10). Aparar permanece 2.",
     "A fonte apresenta duas entradas contraditórias de Sense Motive: 8 (+9) e 6 (+7). Foi mantida a entrada de maior total (+9; 8 ranks); a segunda está documentada aqui e não foi somada.",
     "A fonte liga Flight e Protection entre si; ambos os valores foram mantidos.",
-    "Dodge foi ajustada de 20 para 12 para cumprir Dodge + Toughness ≤ 20 (NP 10)."
+    "Dodge foi ajustada de 20 para 12 para cumprir Dodge + Toughness ≤ 20 (NP 10).",
+    "Os custos 3e somam 156.5 PP (42 habilidades base + 44 poderes + 20 defesas + 38.5 perícias + 12 vantagens)."
   ]
 }

@@ -46,7 +46,6 @@
     "vantagens": [
       "Attractive",
       "Defensive Roll 5",
-      "Dodge Focus convertido em Esquiva (removido por limite de NP)",
       "Evasion",
       "Inspire 2",
       "Improved Initiative 2",
@@ -55,8 +54,9 @@
     "poderes": [
       {
         "nome": "Teleport",
-        "construcao_3e": "Teleport 10, Accurate e Portal; Alternate Effects: Teleport Attack (Ranged) 10, Damage 10 (Autofire) e Deflect (all ranged) 10 (Reflection, Free Action).",
-        "custo_2e_pp": 53
+        "construcao_3e": "Teleport 10, Accurate e Portal; Alternate Effects: Teleport Attack (Ranged) 10, Damage 10 (Autofire) e Deflect (todos os ataques à distância) 10 (Reflection, Free Action).",
+        "custo_2e_pp": 53,
+        "custo_3e_pp": null
       }
     ],
     "equipamento": [],
@@ -82,9 +82,19 @@
     }
   },
   "notas_conversao": [
-    "Attack Specialization (Thrown) 2 e (Unarmed) 2 foram convertidas em ranks de Ranged Combat e Close Combat. Os bonus foram ajustados a partir do ataque +10 impresso para cada especialidade.",
-    "Dodge Focus 7 foi convertido em Esquiva, mas os ranks excedentes foram removidos para cumprir Esquiva + Resistencia 20; Aparar foi reduzido para 10 para respeitar o limite com Fighting 6.",
-    "Defensive Roll 5 consta na ficha como vantagem, mas a Resistencia 7 representa o valor final impresso; conferir a interacao entre a defesa comprada e o estado vulneravel ao recalcular PP.",
-    "A fonte agrupa Teleport, Teleport Attack, Disintegration e Deflect em um Array. Os Alternate Effects foram mantidos, mas seus custos foram deixados para recalc 3e."
-  ]
+    "Attack Specialization (Thrown) 2 e (Unarmed) 2 foram convertidas em graduações de Ranged Combat e Close Combat. Os bônus foram ajustados a partir do ataque +10 impresso para cada especialidade.",
+    "Dodge Focus 7 foi convertido em Esquiva, mas as graduações excedentes foram removidas para cumprir Esquiva + Resistência 20; Aparar foi reduzido para 10 para respeitar o limite com Fighting 6.",
+    "Defensive Roll 5 consta na ficha como vantagem, mas a Resistência 7 representa o valor final impresso; conferir a interacao entre a defesa comprada e o estado vulnerável ao recalcular PP.",
+    "A fonte agrupa Teleport, Teleport Attack, Disintegration e Deflect em um Array. Os Alternate Effects foram mantidos, mas seus custos foram deixados para recálculo em 3e."
+  ],
+  "custos_3e": {
+    "habilidades": 44,
+    "defesas": 21,
+    "pericias": 51.5,
+    "vantagens": 12,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 128.5,
+    "poderes_pendentes": true,
+    "total": null
+  }
 }

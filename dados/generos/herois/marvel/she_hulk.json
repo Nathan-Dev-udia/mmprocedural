@@ -34,10 +34,10 @@
       "Tecnologia": 8,
       "Persuasão": 8,
       "Intimidação": 8,
-      "Especialidade: Civics": 12,
       "Percepção": 8,
-      "Especialidade: Lawyer": 10,
-      "Intuição": 4
+      "Intuição": 4,
+      "Especialidade: Civismo": 12,
+      "Especialidade: Advogado": 10
     },
     "vantagens": [
       "All-out Attack",
@@ -52,7 +52,7 @@
     "poderes": [
       {
         "nome": "Impervious Toughness 10",
-        "construcao_3e": "Impervious Toughness 10; treated as a Toughness protection effect, exact 3e price left uncertain.",
+        "construcao_3e": "Impervious Toughness 10; tratado como um efeito de proteção de Toughness; o custo exato em 3e permanece incerto.",
         "custo_2e_pp": 10,
         "custo_3e_pp": null
       },
@@ -81,7 +81,7 @@
     ],
     "ataques": [
       {
-        "nome": "Unarmed",
+        "nome": "Desarmado",
         "bonus": 10,
         "dano": 14
       }
@@ -96,11 +96,11 @@
   },
   "custos_3e": {
     "habilidades": 108,
-    "defesas": 55,
-    "pericias": 33.0,
+    "defesas": 12,
+    "pericias": 33,
     "vantagens": 9,
     "poderes_conhecidos": 22,
-    "subtotal_conhecido": 227.0,
+    "subtotal_conhecido": 184,
     "poderes_pendentes": true,
     "total": null
   },

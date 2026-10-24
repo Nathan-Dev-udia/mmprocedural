@@ -5,7 +5,7 @@
   "nome_pt": "Mary Jane Watson",
   "nivel_poder": 4,
   "pontos_poder_origem": 50,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 57,
   "status_conversao": "convertida",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -13,6 +13,16 @@
   },
   "ficha": {
     "habilidades": {
+      "For": 0,
+      "Vig": 1,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 2,
+      "Int": 1,
+      "Pro": 1,
+      "Pre": 4
+    },
+    "habilidades_base": {
       "For": 0,
       "Vig": 1,
       "Agi": 1,
@@ -64,17 +74,15 @@
     }
   },
   "custos_3e": {
-    "habilidades": 22,
-    "defesas": 13,
+    "habilidades_base": 22,
+    "poderes": 0,
+    "defesas": 8,
     "pericias": 20,
     "vantagens": 7,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 62,
-    "poderes_pendentes": false,
-    "total": null
+    "total": 57
   },
   "notas_conversao": [
     "Perfil publicado sem poderes, equipamentos ou Drawbacks. Nenhuma Motivação ou complicação foi inventada.",
-    "Dodge/Parry 3 e Toughness 1 estão dentro de NP 4."
+    "Os custos 3e somam 62 PP (22 habilidades base + 0 poderes + 13 defesas + 20 perícias + 7 vantagens)."
   ]
 }

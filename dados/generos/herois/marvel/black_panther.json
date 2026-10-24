@@ -65,27 +65,31 @@
       {
         "nome": "Enhanced Strength",
         "construcao_3e": "Enhanced Trait: Strength 3 (para elevar o valor base, derivado de STR 16, ao valor final STR 22).",
-        "custo_2e_pp": 6
+        "custo_2e_pp": 6,
+        "custo_3e_pp": 6
       },
       {
         "nome": "Enhanced Dexterity",
-        "construcao_3e": "Enhanced Trait: Agility 4 e Dexterity 4 (derivados das diferencas entre os valores base e finais de DEX 16/24).",
-        "custo_2e_pp": 8
+        "construcao_3e": "Enhanced Trait: Agility 4 e Dexterity 4 (derivados das diferenças entre os valores base e finais de DEX 16/24).",
+        "custo_2e_pp": 8,
+        "custo_3e_pp": 16
       },
       {
         "nome": "Super Senses",
         "construcao_3e": "Senses 3: Extended Vision, Low-Light Vision e Scent.",
-        "custo_2e_pp": 3
+        "custo_2e_pp": 3,
+        "custo_3e_pp": 3
       },
       {
         "nome": "Black Panther Suit",
-        "construcao_3e": "Device removivel: Protection 4, Concealment (camuflagem em sombras) e Strength-based Damage 2 (Penetrating, Mighty, Improved Critical 2); Alternate Effects Autofire Damage 2, Movement (Wall-crawling), Leaping 1, Mind Shield 3 e Movement (Slow Fall).",
-        "custo_2e_pp": 16
+        "construcao_3e": "Device removível: Protection 4, Concealment (camuflagem em sombras) e Strength-based Damage 2 (Penetrating, Mighty, Improved Critical 2); Alternate Effects Autofire Damage 2, Movement (Wall-crawling), Leaping 1, Mind Shield 3 e Movement (Slow Fall).",
+        "custo_2e_pp": 16,
+        "custo_3e_pp": null
       }
     ],
     "equipamento": [
       "Shuriken (+1 Damage; Autofire; 3 EP)",
-      "Motorcycle (Strength 15; Speed 5; Defense 10; Toughness 8; Medium; 9 EP)"
+      "Motocicleta (Strength 15; Speed 5; Defense 10; Toughness 8; Medium; 9 EP)"
     ],
     "complicacoes": [],
     "ataques": [
@@ -101,14 +105,34 @@
       "aparar_mais_resistencia": 15,
       "fortitude_mais_vontade": 13,
       "legal": true
+    },
+    "habilidades_base": {
+      "For": 3,
+      "Vig": 3,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 12,
+      "Int": 3,
+      "Pro": 3,
+      "Pre": 3
     }
   },
   "notas_conversao": [
-    "Dodge Focus 10 foi convertido em Esquiva, mas removido para manter Esquiva 13 + Resistencia 7 em 20. Aparar foi reduzido de 13 para 8, pois Aparar + Fighting nao pode exceder 20.",
-    "As pericias Investigation e Perception foram convertidas separando Search/Investigate e Notice; Craft nao aparece nesta ficha. Survival foi mantida como Especialidade.",
+    "Dodge Focus 10 foi convertido em Esquiva, mas removido para manter Esquiva 13 + Resistência 7 em 20. Aparar foi reduzido de 13 para 8, pois Aparar + Fighting não pode exceder 20.",
+    "As perícias Investigation e Perception foram convertidas separando Search/Investigate e Notice; Craft não aparece nesta ficha. Survival foi mantida como Especialidade.",
     "Languages (English, Arabic; Base: Swahili) foi convertido em Idiomas 2, para os dois idiomas adicionais.",
-    "Master Plan foi convertido em Inspire. Elusive Target nao tem equivalencia direta e nao foi mantida como vantagem.",
+    "Master Plan foi convertido em Inspire. Elusive Target não tem equivalência direta e não foi mantida como vantagem.",
     "Enhanced Strength 6 (2e) corresponde a Strength +3 em 3e, pois a pontuacao-base 16 (+3) sobe para 22 (+6). Enhanced Dexterity 8 corresponde a Agility +4 e Dexterity +4, da base 16 para 24.",
     "Os efeitos do traje seguem as descricoes do perfil 2e; os custos e os Alternate Effects precisam ser recalculados para a economia de PP 3e."
-  ]
+  ],
+  "custos_3e": {
+    "habilidades_base": 66,
+    "defesas": 13,
+    "pericias": 59,
+    "vantagens": 21,
+    "poderes_conhecidos": 25,
+    "subtotal_conhecido": 184,
+    "poderes_pendentes": true,
+    "total": null
+  }
 }

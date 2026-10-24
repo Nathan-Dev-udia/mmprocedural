@@ -64,14 +64,14 @@
       },
       {
         "nome": "Immunity 1",
-        "construcao_3e": "Immunity to own powers.",
+        "construcao_3e": "Immunity ao próprios poderes.",
         "custo_2e_pp": 1,
-        "custo_3e_pp": null
+        "custo_3e_pp": 1
       }
     ],
     "equipamento": [
-      "Flame suit (+5 Toughness; 5 EP).",
-      "Lighter (0 EP)."
+      "Traje antichamas (+5 Toughness; 5 EP).",
+      "Isqueiro (0 EP)."
     ],
     "complicacoes": [],
     "ataques": [
@@ -81,12 +81,12 @@
         "dano": 9
       },
       {
-        "nome": "Flamethrower (line)",
+        "nome": "Lança-chamas (linha)",
         "bonus": 9,
         "dano": 9
       },
       {
-        "nome": "Unarmed",
+        "nome": "Desarmado",
         "bonus": 5,
         "dano": 1
       }
@@ -101,11 +101,11 @@
   },
   "custos_3e": {
     "habilidades": 26,
-    "defesas": 43,
-    "pericias": 24.0,
+    "defesas": 29,
+    "pericias": 24,
     "vantagens": 12,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 105.0,
+    "poderes_conhecidos": 1,
+    "subtotal_conhecido": 92,
     "poderes_pendentes": true,
     "total": null
   },

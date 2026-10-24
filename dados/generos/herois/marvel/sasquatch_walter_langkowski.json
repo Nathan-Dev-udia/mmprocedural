@@ -36,14 +36,14 @@
       "Persuasão": 8,
       "Intimidação": 12,
       "Investigação": 11,
-      "Especialidade: Physical Sciences": 12,
-      "Especialidade: Life Sciences": 8,
       "Tratamento": 11,
       "Percepção": 8,
-      "Especialidade: Scientist": 7,
-      "Especialidade: Pro Football Player": 7,
       "Intuição": 6,
-      "Especialidade: Sobrevivência": 7
+      "Especialidade: Sobrevivência": 7,
+      "Especialidade: Ciências Físicas": 12,
+      "Especialidade: Ciências da Vida": 8,
+      "Especialidade: Cientista": 7,
+      "Especialidade: Jogador de Futebol Americano": 7
     },
     "vantagens": [
       "Chokehold",
@@ -57,25 +57,25 @@
     "poderes": [
       {
         "nome": "Enhanced Strength 8",
-        "construcao_3e": "Enhanced Trait: Strength 8.",
+        "construcao_3e": "Enhanced Trait: Strength 4.",
         "custo_2e_pp": 8,
-        "custo_3e_pp": 16
+        "custo_3e_pp": 8
       },
       {
         "nome": "Enhanced Dexterity 4",
-        "construcao_3e": "Enhanced Trait: Dexterity 4.",
+        "construcao_3e": "Enhanced Trait: Agility 2 e Dexterity 2.",
         "custo_2e_pp": 4,
         "custo_3e_pp": 8
       },
       {
         "nome": "Enhanced Constitution 14",
-        "construcao_3e": "Enhanced Trait: Stamina 14.",
+        "construcao_3e": "Enhanced Trait: Stamina 7.",
         "custo_2e_pp": 14,
-        "custo_3e_pp": 28
+        "custo_3e_pp": 14
       },
       {
         "nome": "Growth 6",
-        "construcao_3e": "Continuous, Permanent, Innate; source specifies +12 Strength and +6 Constitution.",
+        "construcao_3e": "Continuous, Permanent, Innate; a fonte especifica Strength +12 e Constitution +6.",
         "custo_2e_pp": 19,
         "custo_3e_pp": null
       },
@@ -89,7 +89,7 @@
         "nome": "Super-Strength 5",
         "construcao_3e": "Power-Lifting 5.",
         "custo_2e_pp": 10,
-        "custo_3e_pp": null
+        "custo_3e_pp": 5
       }
     ],
     "equipamento": [],
@@ -98,7 +98,7 @@
     ],
     "ataques": [
       {
-        "nome": "Unarmed",
+        "nome": "Desarmado",
         "bonus": 8,
         "dano": 12
       }
@@ -109,15 +109,25 @@
       "aparar_mais_resistencia": 20,
       "fortitude_mais_vontade": 16,
       "legal": true
+    },
+    "habilidades_base": {
+      "For": 8,
+      "Vig": 5,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 8,
+      "Int": 3,
+      "Pro": 2,
+      "Pre": 2
     }
   },
   "custos_3e": {
-    "habilidades": 90,
-    "defesas": 44,
+    "habilidades_base": 60,
+    "defesas": 7,
     "pericias": 57.5,
     "vantagens": 7,
-    "poderes_conhecidos": 55,
-    "subtotal_conhecido": 253.5,
+    "poderes_conhecidos": 38,
+    "subtotal_conhecido": 169.5,
     "poderes_pendentes": true,
     "total": null
   },

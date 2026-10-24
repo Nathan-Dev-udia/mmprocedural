@@ -64,9 +64,9 @@
       },
       {
         "nome": "Concealment",
-        "construcao_3e": "Concealment 2 (Sight), Limited to shadows.",
+        "construcao_3e": "Concealment 2 (Sight), Limited a sombras.",
         "custo_2e_pp": 2,
-        "custo_3e_pp": null
+        "custo_3e_pp": 2
       },
       {
         "nome": "Super-Senses",
@@ -113,11 +113,11 @@
   },
   "custos_3e": {
     "habilidades": 72,
-    "defesas": 42,
+    "defesas": 19,
     "pericias": 33,
     "vantagens": 23,
-    "poderes_conhecidos": 7,
-    "subtotal_conhecido": 177,
+    "poderes_conhecidos": 9,
+    "subtotal_conhecido": 156,
     "poderes_pendentes": true,
     "total": null
   },

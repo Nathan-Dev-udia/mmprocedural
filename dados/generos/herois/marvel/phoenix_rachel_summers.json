@@ -50,7 +50,7 @@
     "poderes": [
       {
         "nome": "Element Control (Fire) 12",
-        "construcao_3e": "Dynamic array: Strike (Aura), Energy Absorption 12 (Boost: Protection; Limited to heat), Flight.",
+        "construcao_3e": "Dynamic array: Strike (Aura), Energy Absorption 12 (Boost: Protection; Limited a calor), Flight.",
         "custo_2e_pp": 31,
         "custo_3e_pp": null
       },
@@ -62,13 +62,13 @@
       }
     ],
     "equipamento": [
-      "Uniform (+3 Toughness; Subtle; 4 EP).",
-      "Leather jacket (1 EP)."
+      "Uniforme (+3 Toughness; Subtle; 4 EP).",
+      "Jaqueta de couro (1 EP)."
     ],
     "complicacoes": [],
     "ataques": [
       {
-        "nome": "Unarmed",
+        "nome": "Desarmado",
         "bonus": 8,
         "dano": 1
       },
@@ -93,11 +93,11 @@
   },
   "custos_3e": {
     "habilidades": 38,
-    "defesas": 45,
+    "defesas": 24,
     "pericias": 20.5,
     "vantagens": 12,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 115.5,
+    "subtotal_conhecido": 94.5,
     "poderes_pendentes": true,
     "total": null
   },

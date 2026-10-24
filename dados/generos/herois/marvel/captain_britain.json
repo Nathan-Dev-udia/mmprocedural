@@ -5,7 +5,7 @@
   "nome_pt": "Captain Britain",
   "nivel_poder": 11,
   "pontos_poder_origem": 165,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 170,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -53,9 +53,9 @@
     "poderes": [
       {
         "nome": "Enhanced Strength",
-        "construcao_3e": "Enhanced Trait (Strength 20).",
+        "construcao_3e": "Enhanced Trait: Strength 10 (para elevar o valor base 2 ao valor final 12).",
         "custo_2e_pp": 20,
-        "custo_3e_pp": 40
+        "custo_3e_pp": 20
       },
       {
         "nome": "Flight",
@@ -96,22 +96,30 @@
       "aparar_mais_resistencia": 22,
       "fortitude_mais_vontade": 15,
       "legal": true
+    },
+    "habilidades_base": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 10,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 3
     }
   },
   "custos_3e": {
-    "habilidades": 68,
+    "habilidades_base": 48,
+    "poderes": 57,
     "defesas": 19,
-    "pericias": 28.0,
-    "vantagens": null,
-    "poderes_conhecidos": 77,
-    "subtotal_conhecido": 192.0,
-    "poderes_pendentes": false,
-    "total": null
+    "pericias": 28,
+    "vantagens": 18,
+    "total": 170
   },
   "notas_conversao": [
     "Weak Point foi convertido em complicação preservando apenas o fato publicado. Ataque corpo a corpo +10 e dano desarmado +12 foram mantidos.",
     "Defesas ajustadas para Esquiva 10 e Aparar 10, respeitando os limites de NP 11 com Resistência 12.",
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
-    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias e apenas os custos de poderes confirmados; não inclui vantagens nem custos incertos."
+    "habilidades_base registra For 2 (sem Enhanced Strength 10); os custos 3e somam 170 PP (48 habilidades base + 57 poderes + 19 defesas + 28 perícias + 18 vantagens)."
   ]
 }

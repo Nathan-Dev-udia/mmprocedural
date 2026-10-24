@@ -35,7 +35,7 @@
       "Especialidade: Ciências da Vida": 4,
       "Especialidade: Conhecimento Arcano": 12,
       "Tratamento": 9,
-      "Especialidade: Doctor": 9,
+      "Especialidade: Médico": 9,
       "Combate a Distância: Mystic Blast": 8
     },
     "vantagens": [
@@ -49,9 +49,9 @@
     "poderes": [
       {
         "nome": "Super Strength",
-        "construcao_3e": "Power-Lifting / Enhanced Strength (rank 2e 5); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Strength 5 (Power Feat: Ground Strike; 11pp) Componentes/efeitos alternativos mapeados: Strike → Damage.; custo 2e impresso 11 PP.",
+        "construcao_3e": "Power-Lifting 5 (Alternate Effect: Ground Strike).",
         "custo_2e_pp": 11,
-        "custo_3e_pp": null
+        "custo_3e_pp": 6
       },
       {
         "nome": "Immunity",
@@ -95,11 +95,11 @@
   },
   "custos_3e": {
     "habilidades": 96,
-    "defesas": 60,
+    "defesas": 16,
     "pericias": 34,
     "vantagens": 6,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 196,
+    "poderes_conhecidos": 6,
+    "subtotal_conhecido": 158,
     "poderes_pendentes": true,
     "total": null
   },

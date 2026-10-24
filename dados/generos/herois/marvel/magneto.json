@@ -66,7 +66,7 @@
         "nome": "Helmet",
         "construcao_3e": "Device Removable: Immunity 10 (efeitos mentais).",
         "custo_2e_pp": 8,
-        "custo_3e_pp": null
+        "custo_3e_pp": 8
       },
       {
         "nome": "Magnetic Control",
@@ -78,7 +78,7 @@
         "nome": "Super-Senses",
         "construcao_3e": "Senses 5 (Metal Awareness, Extended 4).",
         "custo_2e_pp": 5,
-        "custo_3e_pp": null
+        "custo_3e_pp": 5
       },
       {
         "nome": "Telepathy",
@@ -114,11 +114,11 @@
   },
   "custos_3e": {
     "habilidades": 38,
-    "defesas": 39,
-    "pericias": 78,
+    "defesas": 31,
+    "pericias": 77.5,
     "vantagens": 28,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 183,
+    "poderes_conhecidos": 13,
+    "subtotal_conhecido": 187.5,
     "poderes_pendentes": true,
     "total": null
   },

@@ -40,7 +40,7 @@
       "Prestidigitação": 8,
       "Furtividade": 8,
       "Especialidade: Sobrevivência": 5,
-      "Combate Corpo-a-Corpo: Unarmed": 1,
+      "Combate Corpo-a-Corpo: Desarmado": 1,
       "Combate a Distância: Lightning Bolt": 5
     },
     "vantagens": [
@@ -87,11 +87,11 @@
   },
   "custos_3e": {
     "habilidades": 48,
-    "defesas": 33,
+    "defesas": 11,
     "pericias": 40.5,
     "vantagens": 20,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 141.5,
+    "subtotal_conhecido": 119.5,
     "poderes_pendentes": true,
     "total": null
   },

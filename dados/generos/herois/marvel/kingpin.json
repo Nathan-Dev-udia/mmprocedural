@@ -5,7 +5,7 @@
   "nome_pt": "Rei do Crime",
   "nivel_poder": 8,
   "pontos_poder_origem": 150,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 165,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -13,6 +13,16 @@
   },
   "ficha": {
     "habilidades": {
+      "For": 7,
+      "Vig": 7,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 7,
+      "Int": 3,
+      "Pro": 3,
+      "Pre": 3
+    },
+    "habilidades_base": {
       "For": 7,
       "Vig": 7,
       "Agi": 2,
@@ -86,19 +96,17 @@
     }
   },
   "custos_3e": {
-    "habilidades": 68,
-    "defesas": 30,
+    "habilidades_base": 68,
+    "poderes": 0,
+    "defesas": 11,
     "pericias": 47,
     "vantagens": 39,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 184,
-    "poderes_pendentes": false,
-    "total": null
+    "total": 165
   },
   "notas_conversao": [
     "Master Plan foi convertido em Inspire 1; Improved Pin virou Improved Hold e Improved Grapple virou Fast Grab.",
     "Defense 17 dá Dodge/Parry 7. Toughness 9 + Dodge/Parry 7 é 16, mas Fortitude 9 + Will 9 ultrapassa o limite 16 de NP 8; Vontade foi ajustada para 7.",
     "A fonte não lista poderes; os itens especiais permanecem em equipamento, sem convertê-los em poderes separados.",
-    "Vontade foi ajustada de 9 para 7 para cumprir Fortitude + Vontade ≤ 16 (NP 8)."
+    "Os custos 3e somam 184 PP (68 habilidades base + 0 poderes + 30 defesas + 47 perícias + 39 vantagens)."
   ]
 }

@@ -5,7 +5,7 @@
   "nome_pt": "Elektra",
   "nivel_poder": 10,
   "pontos_poder_origem": 140,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 164,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -95,22 +95,30 @@
       "aparar_mais_resistencia": 20,
       "fortitude_mais_vontade": 17,
       "legal": true
+    },
+    "habilidades_base": {
+      "For": 3,
+      "Vig": 3,
+      "Agi": 5,
+      "Des": 5,
+      "Lut": 14,
+      "Int": 1,
+      "Pro": 0,
+      "Pre": 3
     }
   },
   "custos_3e": {
-    "habilidades": 68,
+    "habilidades_base": 68,
+    "poderes": 0,
     "defesas": 23,
-    "pericias": 46.0,
-    "vantagens": null,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 137.0,
-    "poderes_pendentes": false,
-    "total": null
+    "pericias": 46,
+    "vantagens": 27,
+    "total": 164
   },
   "notas_conversao": [
     "Dodge Focus 7 foi convertido em Esquiva, limitada a 14; Aparar também foi reduzida para respeitar NP 10 com Resistência 6. Attack Specialization não consta; Improved Critical foi mantida. Languages 1 representa inglês e japonês além do grego-base. Stunning Attack foi removida conforme o guia.",
     "Defesas ajustadas para Esquiva 14 e Aparar 14, respeitando os limites de NP 10 com Resistência 6.",
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
-    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias e apenas os custos de poderes confirmados; não inclui vantagens nem custos incertos."
+    "Os custos 3e somam 164 PP (68 habilidades base + 0 poderes + 23 defesas + 46 perícias + 27 vantagens)."
   ]
 }

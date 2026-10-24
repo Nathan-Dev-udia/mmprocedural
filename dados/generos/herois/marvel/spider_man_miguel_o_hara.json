@@ -56,21 +56,21 @@
     "poderes": [
       {
         "nome": "Enhanced Strength",
-        "construcao_3e": "Enhanced Trait: Força (rank 2e 10); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Enhanced Strength 10 (10pp); custo 2e impresso 10 PP.",
+        "construcao_3e": "Enhanced Trait: Strength 5 (para elevar o valor base 1 ao valor final 6).",
         "custo_2e_pp": 10,
-        "custo_3e_pp": null
+        "custo_3e_pp": 10
       },
       {
         "nome": "Enhanced Dexterity",
-        "construcao_3e": "Enhanced Trait: Destreza (rank 2e 20); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Enhanced Dexterity 20 (20pp); custo 2e impresso 20 PP.",
+        "construcao_3e": "Enhanced Trait: Agility 10 e Dexterity 10 (para elevar os valores base 0 ao valor final 10).",
         "custo_2e_pp": 20,
-        "custo_3e_pp": null
+        "custo_3e_pp": 40
       },
       {
         "nome": "Leaping",
-        "construcao_3e": "Leaping (rank 2e 3); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Leaping 3 (3pp); custo 2e impresso 3 PP.",
+        "construcao_3e": "Leaping 3.",
         "custo_2e_pp": 3,
-        "custo_3e_pp": null
+        "custo_3e_pp": 3
       },
       {
         "nome": "Snare",
@@ -80,9 +80,9 @@
       },
       {
         "nome": "Speed",
-        "construcao_3e": "Speed (rank 2e 4); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Speed 4 (Flaw: Limited to Swinging [-1]; 2pp); custo 2e impresso 2 PP.",
+        "construcao_3e": "Speed 4 (Limited to Swinging).",
         "custo_2e_pp": 2,
-        "custo_3e_pp": null
+        "custo_3e_pp": 2
       },
       {
         "nome": "Super Movement",
@@ -92,9 +92,9 @@
       },
       {
         "nome": "Super Senses",
-        "construcao_3e": "Sentidos (rank 2e 2); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Senses 2 (Extended Vision, Low Light Vision; 2pp); custo 2e impresso 2 PP.",
+        "construcao_3e": "Senses 2 (Extended Vision, Low-Light Vision).",
         "custo_2e_pp": 2,
-        "custo_3e_pp": null
+        "custo_3e_pp": 2
       }
     ],
     "equipamento": [
@@ -119,15 +119,25 @@
       "aparar_mais_resistencia": 20,
       "fortitude_mais_vontade": 8,
       "legal": true
+    },
+    "habilidades_base": {
+      "For": 1,
+      "Vig": 1,
+      "Agi": 0,
+      "Des": 0,
+      "Lut": 11,
+      "Int": 4,
+      "Pro": 2,
+      "Pre": 2
     }
   },
   "custos_3e": {
-    "habilidades": 92,
-    "defesas": 42,
+    "habilidades_base": 42,
+    "defesas": 12,
     "pericias": 48,
     "vantagens": 9,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 191,
+    "poderes_conhecidos": 57,
+    "subtotal_conhecido": 168,
     "poderes_pendentes": true,
     "total": null
   },

@@ -67,7 +67,7 @@
     "poderes": [
       {
         "nome": "Boost",
-        "construcao_3e": "Enhanced Trait 6 (physical abilities), Fades (Slow Fade 6), Limited (personal), Limited (only while moon is at least gibbous). 12 PP na fonte.",
+        "construcao_3e": "Enhanced Trait 6 (habilidades físicas), Fades (Slow Fade 6), Limited (pessoal), Limited (somente quando a Lua está pelo menos gibosa). 12 PP na fonte.",
         "custo_2e_pp": 12,
         "custo_3e_pp": null
       },
@@ -81,8 +81,8 @@
     "equipamento": [
       "Uniforme (+3 Toughness; 3 EP)",
       "Braceletes (Improved Defense; 1 EP)",
-      "Grappling Hook (Movement: Swinging; 2 EP)",
-      "Arsenal 9 EP: Boomerang (+2 Damage, Mighty, Ricochet; 6 EP), Kopesh (+3 Damage, Mighty, Improved Critical; 5 EP), Throwing Irons (+1 Damage, Autofire, Mighty; 4 EP), Brass Knuckles (+1 Damage, Mighty; 2 EP)"
+      "gancho de escalada (Movement: Swinging; 2 EP)",
+      "Arsenal 9 EP: Boomerang (+2 Damage, Mighty, Ricochet; 6 EP), Kopesh (+3 Damage, Mighty, Improved Critical; 5 EP), dardos de arremesso (+1 Damage, Autofire, Mighty; 4 EP), Brass Knuckles (+1 Damage, Mighty; 2 EP)"
     ],
     "complicacoes": [],
     "ataques": [
@@ -117,16 +117,16 @@
   },
   "custos_3e": {
     "habilidades": 52,
-    "defesas": 36,
+    "defesas": 18,
     "pericias": 68,
     "vantagens": 22,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 178,
+    "subtotal_conhecido": 160,
     "poderes_pendentes": true,
     "total": null
   },
   "notas_conversao": [
-    "Dodge Focus 4 foi convertido em Dodge ranks e limitado a 12 com Toughness 8, dentro de NP 10. Defensive Roll 2 não foi somado novamente.",
+    "Dodge Focus 4 foi convertido em graduações de Dodge e limitado a 12 com Toughness 8, dentro de NP 10. Defensive Roll 2 não foi somado novamente.",
     "Sneak Attack e Stunning Attack foram omitidas conforme o guia; Languages (Hebrew, Egyptian; base English) virou Languages 2.",
     "O custo impresso do Arsenal é 9 EP, mas os itens listados somam 17 EP; discrepância preservada sem correção.",
     "Elusive Target foi omitida: não possui equivalente direto na 3e.",

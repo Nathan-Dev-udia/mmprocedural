@@ -26,10 +26,12 @@ Os custos totais em PP de 3e permanecem pendentes quando poderes ou modificadore
 
 `python ferramentas/auditar_herois.py --editora marvel` confere custos, limites de NP e campos faltantes. Correções
 já feitas: o custo de perícias de 28 fichas estava igual ao número de graduações (o correto é 1 PP a cada 2) e foi
-corrigido, com nota em `notas_conversao`; no Icarus, duas perícias Perform estavam somadas em uma (24 graduações) e
-foram separadas. Chamber e Sentinel têm valores `null` de propósito (o livro imprime travessão). Ficam em aberto:
-`giant_man` e `hulk` (o custo de habilidades ignora o reembolso das habilidades negativas; confirmar a regra), as
-10 fichas sem `custos_3e` e os poderes ainda pendentes de conversão (97 fichas).
+corrigido, com nota em `notas_conversao`; o custo de defesas nas fichas de `icarus` a `x_23` somava o valor final das
+defesas em vez das graduações compradas e foi corrigido; todas as 116 fichas receberam `custos_3e` padronizado e custo
+de vantagens calculado; no Icarus, duas perícias Perform estavam somadas em uma (24 graduações) e foram separadas;
+17 fichas já têm `pontos_poder_3e` e `custos_3e.total` fechados. Chamber e Sentinel têm valores `null` de propósito
+(o livro imprime travessão). Ficam em aberto: `giant_man` e `hulk` (o custo de habilidades ignora o reembolso das
+habilidades negativas; confirmar a regra) e os poderes ainda pendentes de precificação 3e (99 fichas).
 
 A extração do livro está completa (116 perfis, páginas 2 a 117, sem personagem faltando). O que resta é fechar a conversão
 dos poderes. **Antes de continuar, leia `PREPARACAO_CONVERSAO_PODERES.md`.**

@@ -50,7 +50,7 @@
     "poderes": [
       {
         "nome": "Mimic",
-        "construcao_3e": "Mimic (All Powers) X, Continuous, Extra Subjects 2, Perception Range, Stacking; Limited to mutant powers, Tainted, Limited to rank 8; 7X PP na fonte.",
+        "construcao_3e": "Mimic (All Powers) X, Continuous, Extra Subjects 2, Perception Range, Stacking; Limitado a poderes mutantes, Tainted, Limitado a rank 8; 7X PP na fonte.",
         "custo_2e_pp": null,
         "custo_3e_pp": null
       },
@@ -116,11 +116,11 @@
   },
   "custos_3e": {
     "habilidades": 58,
-    "defesas": 36,
+    "defesas": 21,
     "pericias": 39,
     "vantagens": 7,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 140,
+    "subtotal_conhecido": 125,
     "poderes_pendentes": true,
     "total": null
   },

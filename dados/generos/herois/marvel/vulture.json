@@ -45,7 +45,6 @@
       "Favored Environment [Airborne] 4",
       "Improved Initiative",
       "Inventor",
-      "Move- by Action",
       "Skill Mastery 4 [Computers, Craft, Disable Device, Knowledge]",
       "Startle",
       "Teamwork 2"
@@ -77,11 +76,11 @@
   },
   "custos_3e": {
     "habilidades": 28,
-    "defesas": 26,
+    "defesas": 14,
     "pericias": 41,
     "vantagens": 12,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 107,
+    "subtotal_conhecido": 95,
     "poderes_pendentes": true,
     "total": null
   },

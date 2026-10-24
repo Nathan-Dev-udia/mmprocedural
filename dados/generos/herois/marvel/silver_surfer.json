@@ -64,21 +64,21 @@
       },
       {
         "nome": "Protection",
-        "construcao_3e": "Protection (rank 2e 7); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Protection 7 (Extra: Impervious [+1] 15; 22pp); custo 2e impresso 22 PP.",
+        "construcao_3e": "Protection 7, Impervious Toughness 15.",
         "custo_2e_pp": 22,
-        "custo_3e_pp": null
+        "custo_3e_pp": 22
       },
       {
         "nome": "Super Senses",
-        "construcao_3e": "Sentidos (rank 2e 22); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Senses 22 (Extended (10) Cosmic Energy Awareness, Extended (10) Life Awareness; 22pp); custo 2e impresso 22 PP.",
+        "construcao_3e": "Senses 22 (Cosmic Energy Awareness, Extended 10; Life Awareness, Extended 10).",
         "custo_2e_pp": 22,
-        "custo_3e_pp": null
+        "custo_3e_pp": 22
       },
       {
         "nome": "Super Strength",
-        "construcao_3e": "Power-Lifting / Enhanced Strength (rank 2e 4); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Strength 4 (8pp); custo 2e impresso 8 PP.",
+        "construcao_3e": "Power-Lifting 4.",
         "custo_2e_pp": 8,
-        "custo_3e_pp": null
+        "custo_3e_pp": 4
       }
     ],
     "equipamento": [],
@@ -105,11 +105,11 @@
   },
   "custos_3e": {
     "habilidades": 112,
-    "defesas": 65,
+    "defesas": 19,
     "pericias": 37.5,
     "vantagens": 4,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 218.5,
+    "poderes_conhecidos": 48,
+    "subtotal_conhecido": 220.5,
     "poderes_pendentes": true,
     "total": null
   },

@@ -32,14 +32,14 @@
     "pericias": {
       "Enganação": 8,
       "Atletismo": 2,
-      "Especialidade: Mechanical": 12,
       "Intimidação": 12,
-      "Especialidade: Arcane Lore": 8,
-      "Especialidade: Tactics": 12,
-      "Especialidade: Technology": 8,
       "Percepção": 8,
       "Intuição": 7,
-      "Especialidade: Sobrevivência": 7
+      "Especialidade: Sobrevivência": 7,
+      "Especialidade: Mecânica": 12,
+      "Especialidade: Conhecimento Arcano": 8,
+      "Especialidade: Tática": 12,
+      "Especialidade: Tecnologia": 8
     },
     "vantagens": [
       "All-out Attack",
@@ -57,25 +57,25 @@
     "poderes": [
       {
         "nome": "Enhanced Strength 12",
-        "construcao_3e": "Enhanced Trait: Strength 12.",
+        "construcao_3e": "Enhanced Trait: Strength 6.",
         "custo_2e_pp": 12,
-        "custo_3e_pp": 24
+        "custo_3e_pp": 12
       },
       {
         "nome": "Enhanced Dexterity 4",
-        "construcao_3e": "Enhanced Trait: Dexterity 4.",
+        "construcao_3e": "Enhanced Trait: Agility 2 e Dexterity 2.",
         "custo_2e_pp": 4,
         "custo_3e_pp": 8
       },
       {
         "nome": "Enhanced Constitution 18",
-        "construcao_3e": "Enhanced Trait: Stamina 18.",
+        "construcao_3e": "Enhanced Trait: Stamina 9.",
         "custo_2e_pp": 18,
-        "custo_3e_pp": 36
+        "custo_3e_pp": 18
       },
       {
         "nome": "Growth 6",
-        "construcao_3e": "Continuous, Permanent, Innate; source specifies +12 Strength and +6 Constitution.",
+        "construcao_3e": "Continuous, Permanent, Innate; a fonte especifica Strength +12 e Constitution +6.",
         "custo_2e_pp": 19,
         "custo_3e_pp": null
       },
@@ -89,7 +89,7 @@
         "nome": "Super-Strength 5",
         "construcao_3e": "Power-Lifting 5.",
         "custo_2e_pp": 10,
-        "custo_3e_pp": null
+        "custo_3e_pp": 5
       }
     ],
     "equipamento": [],
@@ -98,7 +98,7 @@
     ],
     "ataques": [
       {
-        "nome": "Unarmed",
+        "nome": "Desarmado",
         "bonus": 8,
         "dano": 12
       }
@@ -109,15 +109,25 @@
       "aparar_mais_resistencia": 20,
       "fortitude_mais_vontade": 17,
       "legal": true
+    },
+    "habilidades_base": {
+      "For": 6,
+      "Vig": 3,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 8,
+      "Int": 2,
+      "Pro": 1,
+      "Pre": 3
     }
   },
   "custos_3e": {
-    "habilidades": 88,
-    "defesas": 45,
-    "pericias": 42.0,
+    "habilidades_base": 50,
+    "defesas": 9,
+    "pericias": 42,
     "vantagens": 14,
-    "poderes_conhecidos": 71,
-    "subtotal_conhecido": 260.0,
+    "poderes_conhecidos": 46,
+    "subtotal_conhecido": 161,
     "poderes_pendentes": true,
     "total": null
   },

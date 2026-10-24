@@ -53,31 +53,35 @@
       {
         "nome": "Object Mimicry",
         "construcao_3e": "Mimic/Variable, limitado a copiar propriedades de objetos tocados; inclui os efeitos de Density, Protection, Immovability e Super-Strength descritos na fonte.",
-        "custo_2e_pp": 72
+        "custo_2e_pp": 72,
+        "custo_3e_pp": null
       },
       {
         "nome": "Ball and Chain",
-        "construcao_3e": "Device removivel: Damage baseado em Strength, com Extended Reach e efeito Mighty.",
-        "custo_2e_pp": 3
+        "construcao_3e": "Device removível: Damage baseado em Strength, com Extended Reach e efeito Mighty.",
+        "custo_2e_pp": 3,
+        "custo_3e_pp": null
       },
       {
         "nome": "Regeneration",
         "construcao_3e": "Regeneration 7; o efeito Resurrection foi convertido separadamente em Immortality 1.",
-        "custo_2e_pp": 7
+        "custo_2e_pp": 7,
+        "custo_3e_pp": 9
       },
       {
         "nome": "Stunning Attack",
         "construcao_3e": "Affliction de alcance corpo a corpo, resistida por Fortitude, com Dazed, Stunned e Incapacitated como graus; efeito opcional a precificar em 3e.",
-        "custo_2e_pp": null
+        "custo_2e_pp": null,
+        "custo_3e_pp": null
       }
     ],
     "equipamento": [
-      "Ball and Chain (Device; facilmente removivel)"
+      "Bola e corrente (Device; facilmente removível)"
     ],
     "complicacoes": [
-      "Transformacao involuntaria ao tocar objetos; ocorrencia incomum, intensidade maior.",
-      "Transformacao unidirecional; ocorrencia muito comum, intensidade menor.",
-      "Vulnerabilidade a transformacao forcada; ocorrencia incomum, intensidade maior."
+      "Transformação involuntária ao tocar objetos; ocorrência incomum, intensidade maior.",
+      "Transformação unidirecional; ocorrência muito comum, intensidade menor.",
+      "Vulnerabilidade a transformação forçada; ocorrência incomum, intensidade maior."
     ],
     "ataques": [
       {
@@ -100,11 +104,21 @@
     }
   },
   "notas_conversao": [
-    "A fonte mostra Strength 45/19 (+17), que foi convertido diretamente em Strength 17. O ataque +11 somado ao dano 17 fica exatamente no limite de NP 14 (28); os ranks de Close Combat foram convertidos para manter o bonus de ataque impresso.",
-    "A pericia Climb foi convertida em Athletics: o bonus total impresso (+17) menos Strength 17 resulta em 0 graduacoes. As demais pericias foram convertidas do bonus total subtraindo a habilidade 3e correspondente.",
-    "O bonus de Toughness +17 da fonte foi mantido como Resistencia 17; esquiva 10 + resistencia 17 = 27, dentro do limite de defesa 28.",
-    "Fearsome Presence foi representada por Intimidation e Daze; Stunning Attack foi convertido em Affliction, cujo custo nao foi calculado. Weapon Bind nao tem equivalencia direta e precisa de adjudicacao do Mestre.",
-    "A conversao do poder Object Mimicry segue a indicacao do guia para Mimic limitado a propriedades de objetos; o custo em PP 3e nao foi recalculado.",
-    "A soma dos componentes impressos na ficha-fonte nao coincide com o total publicado (210 PP); os custos detalhados dos poderes listados tambem nao explicam todo o subtotal impresso. O total original foi preservado como referencia, sem tentar corrigir a fonte."
-  ]
+    "A fonte mostra Strength 45/19 (+17), que foi convertido diretamente em Strength 17. O ataque +11 somado ao dano 17 fica exatamente no limite de NP 14 (28); as graduações de Close Combat foram convertidas para manter o bônus de ataque impresso.",
+    "A perícia Climb foi convertida em Athletics: o bônus total impresso (+17) menos Strength 17 resulta em 0 graduações. As demais perícias foram convertidas do bônus total subtraindo a habilidade 3e correspondente.",
+    "O bônus de Toughness +17 da fonte foi mantido como Resistência 17; esquiva 10 + resistência 17 = 27, dentro do limite de defesa 28.",
+    "Fearsome Presence foi representada por Intimidation e Daze; Stunning Attack foi convertido em Affliction, cujo custo não foi calculado. Weapon Bind não tem equivalência direta e precisa de adjudicação do Mestre.",
+    "A conversão do poder Object Mimicry segue a indicação do guia para Mimic limitado a propriedades de objetos; o custo em PP 3e não foi recalculado.",
+    "A soma dos componentes impressos na ficha-fonte não coincide com o total publicado (210 PP); os custos detalhados dos poderes listados também não explicam todo o subtotal impresso. O total original foi preservado como referencia, sem tentar corrigir a fonte."
+  ],
+  "custos_3e": {
+    "habilidades": 60,
+    "defesas": 29,
+    "pericias": 27.5,
+    "vantagens": 8,
+    "poderes_conhecidos": 9,
+    "subtotal_conhecido": 133.5,
+    "poderes_pendentes": true,
+    "total": null
+  }
 }

@@ -76,10 +76,10 @@
   "custos_3e": {
     "habilidades": 36,
     "defesas": 33,
-    "pericias": 22.0,
-    "vantagens": null,
+    "pericias": 22,
+    "vantagens": 11,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 91.0,
+    "subtotal_conhecido": 102,
     "poderes_pendentes": true,
     "total": null
   },
@@ -87,6 +87,6 @@
     "A fonte não imprime Toughness de modo legível; a linha indica +6 seguido de Fortitude +10, Reflex +5 e Will +6, então Resistência 6 foi usada. Dodge Focus 6 e Defesa 24 foram limitados para respeitar NP 10. Attack Specialization (Touch) 3 foi representada por Close Attack 3; a fonte não detalha ataque separado para Healing.",
     "Defesas ajustadas para Esquiva 14 e Aparar 14, respeitando os limites de NP 10 com Resistência 6.",
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
-    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias e apenas os custos de poderes confirmados; não inclui vantagens nem custos incertos."
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
   ]
 }

@@ -56,24 +56,27 @@
     "poderes": [
       {
         "nome": "Black Cat Suit",
-        "construcao_3e": "Device removivel: Protection 2; Strength-based Damage 2, Mighty e Improved Critical 2; Movement (Swinging); Fascinate (Deception).",
-        "custo_2e_pp": 8
+        "construcao_3e": "Device removível: Protection 2; Strength-based Damage 2, Mighty e Improved Critical 2; Movement (Swinging); Fascinate (Deception).",
+        "custo_2e_pp": 8,
+        "custo_3e_pp": null
       },
       {
         "nome": "Whip",
-        "construcao_3e": "Device removivel: Affliction (Snare) 4; Alternate Effects Strength-based Damage 2 (Mighty, Extended Reach 2), Improved Disarm e Movement (Swinging).",
-        "custo_2e_pp": 6
+        "construcao_3e": "Device removível: Affliction (Snare) 4; Alternate Effects Strength-based Damage 2 (Mighty, Extended Reach 2), Improved Disarm e Movement (Swinging).",
+        "custo_2e_pp": 6,
+        "custo_3e_pp": null
       },
       {
         "nome": "Luck Control",
         "construcao_3e": "Luck Control 1 (Jinx).",
-        "custo_2e_pp": 3
+        "custo_2e_pp": 3,
+        "custo_3e_pp": 3
       }
     ],
     "equipamento": [
-      "Infrared Contacts (1 EP)",
-      "Masterwork Lock Picks (1 EP)",
-      "Cell Phone (1 EP)"
+      "Lentes de contato infravermelhas (1 EP)",
+      "Gazuas de obra-prima (1 EP)",
+      "Celular (1 EP)"
     ],
     "complicacoes": [],
     "ataques": [
@@ -97,10 +100,20 @@
     }
   },
   "notas_conversao": [
-    "Attack Focus (Melee) 3 foi convertido em Close Attack 3; o ataque corpo a corpo +12 e dano maximo 4 respeitam o limite 18.",
-    "Dodge Focus 7 foi convertido em Esquiva e reduzido ate 12; Esquiva 19 + Resistencia 6 excederia o limite de defesa de NP 9. Aparar tambem foi reduzido de 12 para 9 para respeitar Aparar + Fighting.",
-    "Defensive Roll foi mantida como vantagem; a resistencia registrada e o valor final com o equipamento e a rolagem defensiva da fonte.",
-    "Elusive Target nao tem equivalencia direta; Sneak Attack foi omitida para nao introduzir dano sem custo e sem teste de NP.",
-    "A fonte nao lista complicacoes; nenhuma motivacao foi inferida."
-  ]
+    "Attack Focus (Melee) 3 foi convertido em Close Attack 3; o ataque corpo a corpo +12 e dano máximo 4 respeitam o limite 18.",
+    "Dodge Focus 7 foi convertido em Esquiva e reduzido até 12; Esquiva 19 + Resistência 6 excederia o limite de defesa de NP 9. Aparar também foi reduzido de 12 para 9 para respeitar Aparar + Fighting.",
+    "Defensive Roll foi mantida como vantagem; a resistência registrada é o valor final com o equipamento e a rolagem defensiva da fonte.",
+    "Elusive Target não tem equivalência direta; Sneak Attack foi omitida para não introduzir dano sem custo e sem teste de NP.",
+    "A fonte não lista complicações; nenhuma motivacao foi inferida."
+  ],
+  "custos_3e": {
+    "habilidades": 52,
+    "defesas": 16,
+    "pericias": 46,
+    "vantagens": 19,
+    "poderes_conhecidos": 3,
+    "subtotal_conhecido": 136,
+    "poderes_pendentes": true,
+    "total": null
+  }
 }

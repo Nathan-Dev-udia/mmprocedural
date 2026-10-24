@@ -61,8 +61,8 @@
       }
     ],
     "equipamento": [
-      "Uniforme (Second Chance contra ataques elétricos, GPS Receiver, PDA; 3 EP)",
-      "Sky Scrapper (Large; Toughness 10; Communications, Computer, Defense System, Fire Prevention, Gym, Hangar, Infirmary, Laboratory, Library, Living Space, Power System, Security System, Workshop; 16 EP)"
+      "Uniforme (Second Chance contra ataques elétricos, receptor GPS, PDA; 3 EP)",
+      "Arranha-céu (Large; Toughness 10; Communications, Computer, Defense System, Fire Prevention, Gym, Hangar, Infirmary, Laboratory, Library, Living Space, Power System, Security System, Workshop; 16 EP)"
     ],
     "complicacoes": [],
     "ataques": [
@@ -82,11 +82,11 @@
   },
   "custos_3e": {
     "habilidades": 48,
-    "defesas": 21,
-    "pericias": 65,
+    "defesas": 10,
+    "pericias": 64.5,
     "vantagens": 12,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 146,
+    "subtotal_conhecido": 134.5,
     "poderes_pendentes": true,
     "total": null
   },

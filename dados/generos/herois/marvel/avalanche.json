@@ -42,7 +42,6 @@
     },
     "vantagens": [
       "All-out Attack",
-      "Attack Specialization (Vibrations), convertido em Ranged Combat",
       "Defensive Roll",
       "Improved Defense",
       "Improved Smash",
@@ -52,16 +51,17 @@
     "poderes": [
       {
         "nome": "Disintegration",
-        "construcao_3e": "Damage 9, limitado contra material organico; Array com Environment (Distract e Hamper Movement), Affliction (Trip; Area Shapeable) e Affliction (Nauseated).",
-        "custo_2e_pp": 30
+        "construcao_3e": "Damage 9, limitado contra material orgânico; Array com Environment (Distract e Hamper Movement), Affliction (Trip; Area Shapeable) e Affliction (Nauseated).",
+        "custo_2e_pp": 30,
+        "custo_3e_pp": null
       }
     ],
     "equipamento": [
-      "Uniform (+4 Toughness; 4 EP)",
-      "Helmet (+1 Toughness; 1 EP)"
+      "Uniforme (+4 Toughness; 4 EP)",
+      "Capacete (+1 Toughness; 1 EP)"
     ],
     "complicacoes": [
-      "Vulnerabilidade a vibracoes refletidas; ocorrencia incomum, intensidade moderada."
+      "Vulnerabilidade a vibrações refletidas; ocorrência incomum, intensidade moderada."
     ],
     "ataques": [
       {
@@ -79,9 +79,19 @@
     }
   },
   "notas_conversao": [
-    "Attack Specialization (Vibrations) foi incorporada a Ranged Combat: Vibrations; o bonus +9 e o dano 9 totalizam 18, o limite de ataque + dano para PL 9.",
-    "Improved Block foi convertido em Improved Defense; Improved Sunder em Improved Smash. Teamwork foi mantida como uma vantagem, sem duplicar ranks que nao existem em 3e.",
-    "Disintegration nao possui uma entrada propria no guia de conversao. O efeito principal foi representado como Damage limitado a alvos nao organicos, e os efeitos alternativos foram mapeados para Environment e Affliction conforme o guia. O custo 3e do Array precisa ser refeito.",
-    "A fonte apresenta Toughness +8/+7; foi usado o valor maior (+8), que com Esquiva 10 respeita o limite de defesa 18. O uniforme e o capacete sao a explicacao do equipamento de protecao listado."
-  ]
+    "Attack Specialization (Vibrations) foi incorporada a Ranged Combat: Vibrations; o bônus +9 e o dano 9 totalizam 18, o limite de ataque + dano para PL 9.",
+    "Improved Block foi convertido em Improved Defense; Improved Sunder em Improved Smash. Teamwork foi mantida como uma vantagem, sem duplicar graduações que não existem em 3e.",
+    "Disintegration não possui uma entrada propria no guia de conversão. O efeito principal foi representado como Damage limitado a alvos não orgânicos, e os efeitos alternativos foram mapeados para Environment e Affliction conforme o guia. O custo 3e do Array precisa ser refeito.",
+    "A fonte apresenta Toughness +8/+7; foi usado o valor maior (+8), que com Esquiva 10 respeita o limite de defesa 18. O uniforme e o capacete são a explicação do equipamento de proteção listado."
+  ],
+  "custos_3e": {
+    "habilidades": 26,
+    "defesas": 23,
+    "pericias": 37.5,
+    "vantagens": 6,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 92.5,
+    "poderes_pendentes": true,
+    "total": null
+  }
 }

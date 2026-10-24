@@ -59,15 +59,15 @@
     "poderes": [
       {
         "nome": "Flight",
-        "construcao_3e": "Flight (rank 2e 6); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Flight 6 (12pp); custo 2e impresso 12 PP.",
+        "construcao_3e": "Flight 6.",
         "custo_2e_pp": 12,
-        "custo_3e_pp": null
+        "custo_3e_pp": 12
       },
       {
         "nome": "Immunity",
-        "construcao_3e": "Immunity (rank 2e 5); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Immunity 5 (Radiation; 5pp); custo 2e impresso 5 PP.",
+        "construcao_3e": "Immunity 5 (Radiation).",
         "custo_2e_pp": 5,
-        "custo_3e_pp": null
+        "custo_3e_pp": 5
       },
       {
         "nome": "Strike",
@@ -77,9 +77,9 @@
       },
       {
         "nome": "Super Senses",
-        "construcao_3e": "Sentidos (rank 2e 1); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Senses 1 (Infravision; 1pp); custo 2e impresso 1 PP.",
+        "construcao_3e": "Senses 1 (Infravision).",
         "custo_2e_pp": 1,
-        "custo_3e_pp": null
+        "custo_3e_pp": 1
       }
     ],
     "equipamento": [
@@ -113,11 +113,11 @@
   },
   "custos_3e": {
     "habilidades": 38,
-    "defesas": 48,
+    "defesas": 26,
     "pericias": 34,
     "vantagens": 18,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 138,
+    "poderes_conhecidos": 18,
+    "subtotal_conhecido": 134,
     "poderes_pendentes": true,
     "total": null
   },

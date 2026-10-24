@@ -31,12 +31,12 @@
     },
     "pericias": {
       "Enganação": 8,
-      "Especialidade: Mechanical": 12,
-      "Especialidade: Electrical": 12,
+      "Especialidade: Mecânica": 12,
+      "Especialidade: Eletrônica": 12,
       "Tecnologia": 6,
       "Investigação": 11,
       "Intimidação": 6,
-      "Especialidade: Technology": 6,
+      "Especialidade: Tecnologia": 6,
       "Percepção": 10,
       "Intuição": 8,
       "Furtividade": 8
@@ -68,7 +68,7 @@
         "dano": 8
       },
       {
-        "nome": "Unarmed",
+        "nome": "Desarmado",
         "bonus": 8,
         "dano": 2
       }
@@ -83,11 +83,11 @@
   },
   "custos_3e": {
     "habilidades": 40,
-    "defesas": 36,
+    "defesas": 14,
     "pericias": 43.5,
     "vantagens": 8,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 127.5,
+    "subtotal_conhecido": 105.5,
     "poderes_pendentes": true,
     "total": null
   },

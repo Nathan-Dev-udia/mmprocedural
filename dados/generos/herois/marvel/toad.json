@@ -63,21 +63,21 @@
     "poderes": [
       {
         "nome": "Additional Limb",
-        "construcao_3e": "Extra Limb (rank 2e 1); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Additional Limb 1 (1pp); custo 2e impresso 1 PP.",
+        "construcao_3e": "Extra Limbs 1.",
         "custo_2e_pp": 1,
-        "custo_3e_pp": null
+        "custo_3e_pp": 1
       },
       {
         "nome": "Elongation",
-        "construcao_3e": "Efeito 3e correspondente ao descritor (rank 2e 2); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Elongation 2 (Flaws: Limited – Tongue [-1]; 1pp); custo 2e impresso 1 PP.",
+        "construcao_3e": "Elongation 2 (Limited: Tongue).",
         "custo_2e_pp": 1,
-        "custo_3e_pp": null
+        "custo_3e_pp": 1
       },
       {
         "nome": "Leaping",
-        "construcao_3e": "Leaping (rank 2e 3); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Leaping 3 (3pp); custo 2e impresso 3 PP.",
+        "construcao_3e": "Leaping 3.",
         "custo_2e_pp": 3,
-        "custo_3e_pp": null
+        "custo_3e_pp": 3
       },
       {
         "nome": "Paralyze",
@@ -105,11 +105,11 @@
   },
   "custos_3e": {
     "habilidades": 80,
-    "defesas": 42,
+    "defesas": 14,
     "pericias": 58.5,
     "vantagens": 18,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 198.5,
+    "poderes_conhecidos": 5,
+    "subtotal_conhecido": 175.5,
     "poderes_pendentes": true,
     "total": null
   },

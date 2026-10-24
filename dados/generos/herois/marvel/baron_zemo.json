@@ -66,15 +66,16 @@
     "poderes": [
       {
         "nome": "Adhesive X Blaster",
-        "construcao_3e": "Device removivel: Snare 10 (Affliction; Ranged), com as condicoes de imobilizacao do efeito.",
-        "custo_2e_pp": 12
+        "construcao_3e": "Device removível: Snare 10 (Affliction; Ranged), com as condicoes de imobilizacao do efeito.",
+        "custo_2e_pp": 12,
+        "custo_3e_pp": null
       }
     ],
     "equipamento": [
-      "Sword (+3 Damage; 19-20 Crit; Mighty; 5 EP)",
-      "Uniform (+3 Toughness; 3 EP)",
-      "Comm-Link (1 EP)",
-      "Heavy Pistol (+4 Damage; 8 EP)",
+      "Espada (+3 Damage; 19-20 Crit; Mighty; 5 EP)",
+      "Uniforme (+3 Toughness; 3 EP)",
+      "Comunicador (1 EP)",
+      "Pistola pesada (+4 Damage; 8 EP)",
       "Zemo Estate (Headquarters Huge; Toughness 10; comunicacoes, garagem, celas, enfermaria, laboratorio, biblioteca, alojamento, seguranca e oficina; 13 EP)"
     ],
     "complicacoes": [],
@@ -100,11 +101,21 @@
   },
   "notas_conversao": [
     "Attack Focus (Melee) 3 foi convertido em Close Attack 3: Fighting 10 + Close Attack 3 = +13. Com Strength 4 e dano +3 da espada, o limite de ataque + dano e 20.",
-    "Dodge Focus 10 foi convertido em Esquiva, mas limitado a 13 para que Esquiva + Resistencia nao ultrapasse 20; Aparar foi reduzido a 10 para que Aparar + Fighting tambem fique em 20.",
-    "Os bonus totais de pericia foram convertidos subtraindo a habilidade 3e correspondente. Craft e Knowledge foram agrupadas em Especialidade; Drive virou Veiculos.",
-    "Languages (English, Italian, Russian, French; Base: German) foi convertido em Idiomas 3, escolhendo a graduacao mais proxima para cinco idiomas no total.",
-    "Master Plan foi convertido em Inspire, que ja consta na ficha; Sneak Attack foi omitida por nao ter equivalencia direta segura e por poder exceder o limite de NP. Improved Block virou Improved Defense.",
-    "O Blaster foi convertido em Snare; os 12 PP impressos sao custo 2e e nao foram reutilizados como custo 3e.",
-    "A fonte nao lista complicacoes; nenhuma motivacao foi inferida."
-  ]
+    "Dodge Focus 10 foi convertido em Esquiva, mas limitado a 13 para que Esquiva + Resistência não ultrapasse 20; Aparar foi reduzido a 10 para que Aparar + Fighting também fique em 20.",
+    "Os bônus totais de perícia foram convertidos subtraindo a habilidade 3e correspondente. Craft e Knowledge foram agrupadas em Especialidade; Drive virou Veículos.",
+    "Languages (English, Italian, Russian, French; Base: German) foi convertido em Idiomas 3, escolhendo a graduação mais próxima para cinco idiomas no total.",
+    "Master Plan foi convertido em Inspire, que já consta na ficha; Sneak Attack foi omitida por não ter equivalência direta segura e por poder exceder o limite de NP. Improved Block virou Improved Defense.",
+    "O Blaster foi convertido em Snare; os 12 PP impressos são custo 2e e não foram reutilizados como custo 3e.",
+    "A fonte não lista complicações; nenhuma motivacao foi inferida."
+  ],
+  "custos_3e": {
+    "habilidades": 70,
+    "defesas": 19,
+    "pericias": 53.5,
+    "vantagens": 36,
+    "poderes_conhecidos": 0,
+    "subtotal_conhecido": 178.5,
+    "poderes_pendentes": true,
+    "total": null
+  }
 }

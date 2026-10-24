@@ -54,15 +54,15 @@
     "poderes": [
       {
         "nome": "Enhanced Strength",
-        "construcao_3e": "Enhanced Trait (Strength 22).",
+        "construcao_3e": "Enhanced Trait: Strength 11 (para elevar o valor base 1 ao valor final 12).",
         "custo_2e_pp": 22,
-        "custo_3e_pp": null
+        "custo_3e_pp": 22
       },
       {
         "nome": "Enhanced Constitution",
-        "construcao_3e": "Enhanced Trait (Stamina 18).",
+        "construcao_3e": "Enhanced Trait: Stamina 9 (para elevar o valor base 3 ao valor final 12).",
         "custo_2e_pp": 18,
-        "custo_3e_pp": null
+        "custo_3e_pp": 18
       },
       {
         "nome": "Hell Bike",
@@ -98,7 +98,7 @@
         "nome": "Super Senses",
         "construcao_3e": "Senses 5 (Extended 4, Detect Evil).",
         "custo_2e_pp": 5,
-        "custo_3e_pp": null
+        "custo_3e_pp": 5
       }
     ],
     "equipamento": [
@@ -130,15 +130,25 @@
       "aparar_mais_resistencia": 24,
       "fortitude_mais_vontade": 24,
       "legal": true
+    },
+    "habilidades_base": {
+      "For": 1,
+      "Vig": 3,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 8,
+      "Int": 0,
+      "Pro": 1,
+      "Pre": 3
     }
   },
   "custos_3e": {
-    "habilidades": 84,
+    "habilidades_base": 44,
     "defesas": 20,
     "pericias": 38.5,
-    "vantagens": null,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 142.5,
+    "vantagens": 10,
+    "poderes_conhecidos": 45,
+    "subtotal_conhecido": 157.5,
     "poderes_pendentes": true,
     "total": null
   },
@@ -146,6 +156,6 @@
     "Attack Focus (Melee) 2 foi convertido em Close Attack 2. Fast Overrun/Improved Overrun foram removidas; Move-by Action foi mantida como substituição. Fearsome Presence e Stunning Attack foram removidas sem inventar poderes. O Drawback Normal Identity foi convertido em complicação.",
     "Defesas ajustadas para Esquiva 10 e Aparar 10, respeitando os limites de NP 12 com Resistência 14.",
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
-    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias e apenas os custos de poderes confirmados; não inclui vantagens nem custos incertos."
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
   ]
 }

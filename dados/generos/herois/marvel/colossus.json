@@ -48,7 +48,7 @@
     "poderes": [
       {
         "nome": "Alternate Form (Solid)",
-        "construcao_3e": "Alternate Form (Solid): Growth 10 (Enhanced Strength 20; Does Not Modify Size, Speed, or Skills), Protection 5 (Impervious), Immovable 3, Power-Lifting 3 (Ground Strike), Immunity 9 (Life Support), Protection 6 (Impervious 8).",
+        "construcao_3e": "Alternate Form (Solid): Growth 10 (Enhanced Strength 20; não modifica Size, Speed ou Skills), Protection 5 (Impervious), Immovable 3, Power-Lifting 3 (golpe no solo), Immunity 9 (Life Support), Protection 6 (Impervious 8).",
         "custo_2e_pp": 55,
         "custo_3e_pp": null
       }
@@ -74,9 +74,9 @@
     "habilidades": 62,
     "defesas": 19,
     "pericias": 19.5,
-    "vantagens": null,
+    "vantagens": 9,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 100.5,
+    "subtotal_conhecido": 109.5,
     "poderes_pendentes": true,
     "total": null
   },
@@ -84,6 +84,6 @@
     "A fonte imprime Defesa 16 e Resistência 14; ambas foram reduzidas a 6 para respeitar os limites defensivos de NP 10. A forma sólida mantém os descritores originais. Atletismo 0: o bônus de Climb (+10) é menor que Força 12, logo não gera graduações positivas. Weapon Break e Stunning Attack foram removidas; o guia permite Affliction para Stunning Attack, mas nenhum custo foi presumido. Idioma inglês, além do russo-base, convertido em Languages 1.",
     "Defesas ajustadas para Esquiva 6 e Aparar 6, respeitando os limites de NP 10 com Resistência 14.",
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
-    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias e apenas os custos de poderes confirmados; não inclui vantagens nem custos incertos."
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
   ]
 }

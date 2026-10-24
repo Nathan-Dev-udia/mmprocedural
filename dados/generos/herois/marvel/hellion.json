@@ -89,9 +89,9 @@
     "habilidades": 36,
     "defesas": 28,
     "pericias": 30.5,
-    "vantagens": null,
+    "vantagens": 13,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 94.5,
+    "subtotal_conhecido": 107.5,
     "poderes_pendentes": true,
     "total": null
   },
@@ -99,6 +99,6 @@
     "Attack Specialization (Unarmed) 1 foi convertida em 2 graduações de Combate Corpo a Corpo: Desarmado. Sneak Attack e Ranged Pin foram removidas conforme o guia.",
     "Defesas ajustadas para Esquiva 14 e Aparar 14, respeitando os limites de NP 10 com Resistência 6.",
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
-    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias e apenas os custos de poderes confirmados; não inclui vantagens nem custos incertos."
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
   ]
 }

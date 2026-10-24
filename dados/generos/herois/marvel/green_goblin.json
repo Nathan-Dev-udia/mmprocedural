@@ -54,27 +54,27 @@
     "poderes": [
       {
         "nome": "Enhanced Strength",
-        "construcao_3e": "Enhanced Strength 14.",
+        "construcao_3e": "Enhanced Trait: Strength 7 (para elevar o valor base 1 ao valor final 8).",
         "custo_2e_pp": 14,
-        "custo_3e_pp": null
+        "custo_3e_pp": 14
       },
       {
         "nome": "Enhanced Dexterity",
-        "construcao_3e": "Enhanced Dexterity 10.",
+        "construcao_3e": "Enhanced Trait: Agility 5 e Dexterity 5 (para elevar os valores base 0 ao valor final 5).",
         "custo_2e_pp": 10,
-        "custo_3e_pp": null
+        "custo_3e_pp": 20
       },
       {
         "nome": "Enhanced Intelligence",
-        "construcao_3e": "Enhanced Intelligence 14.",
+        "construcao_3e": "Enhanced Trait: Intellect 7 (para elevar o valor base 3 ao valor final 10).",
         "custo_2e_pp": 14,
-        "custo_3e_pp": null
+        "custo_3e_pp": 14
       },
       {
         "nome": "Protection",
         "construcao_3e": "Protection 5.",
         "custo_2e_pp": 5,
-        "custo_3e_pp": null
+        "custo_3e_pp": 5
       },
       {
         "nome": "Glider",
@@ -86,7 +86,7 @@
         "nome": "Blaster Gloves",
         "construcao_3e": "Device (Removable): Blast 10.",
         "custo_2e_pp": 16,
-        "custo_3e_pp": null
+        "custo_3e_pp": 16
       }
     ],
     "equipamento": [
@@ -125,15 +125,25 @@
       "aparar_mais_resistencia": 20,
       "fortitude_mais_vontade": 8,
       "legal": true
+    },
+    "habilidades_base": {
+      "For": 1,
+      "Vig": 2,
+      "Agi": 0,
+      "Des": 0,
+      "Lut": 10,
+      "Int": 3,
+      "Pro": 1,
+      "Pre": 2
     }
   },
   "custos_3e": {
-    "habilidades": 86,
+    "habilidades_base": 38,
     "defesas": 16,
     "pericias": 34.5,
-    "vantagens": null,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 136.5,
+    "vantagens": 16,
+    "poderes_conhecidos": 69,
+    "subtotal_conhecido": 173.5,
     "poderes_pendentes": true,
     "total": null
   },
@@ -141,6 +151,6 @@
     "Dodge Focus 7 foi convertido em Esquiva e reduzido para cumprir NP 10 com Resistência 7. Fast Overrun não foi impressa como vantagem separada na conversão (Move-by Action já está presente). Sneak Attack foi removida. Os dois Drawbacks explícitos foram convertidos em complicações.",
     "Defesas ajustadas para Esquiva 13 e Aparar 13, respeitando os limites de NP 10 com Resistência 7.",
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
-    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias e apenas os custos de poderes confirmados; não inclui vantagens nem custos incertos."
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
   ]
 }

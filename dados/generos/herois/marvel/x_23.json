@@ -49,15 +49,15 @@
     "poderes": [
       {
         "nome": "Immunity",
-        "construcao_3e": "Immunity (rank 2e 1); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Immunity 1 (Aging; 1pp); custo 2e impresso 1 PP.",
+        "construcao_3e": "Immunity 1 (Aging).",
         "custo_2e_pp": 1,
-        "custo_3e_pp": null
+        "custo_3e_pp": 1
       },
       {
         "nome": "Protection",
-        "construcao_3e": "Protection (rank 2e 4); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Protection 4 (Power Feat: Innate; 5pp); custo 2e impresso 5 PP.",
+        "construcao_3e": "Protection 4, Innate.",
         "custo_2e_pp": 5,
-        "custo_3e_pp": null
+        "custo_3e_pp": 5
       },
       {
         "nome": "Strike",
@@ -67,9 +67,9 @@
       },
       {
         "nome": "Super Senses",
-        "construcao_3e": "Sentidos (rank 2e 5); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Senses 5 (Scent [Extended, Accurate], Tracking; 5pp); custo 2e impresso 5 PP.",
+        "construcao_3e": "Senses 5 (Scent [Extended, Accurate], Tracking).",
         "custo_2e_pp": 5,
-        "custo_3e_pp": null
+        "custo_3e_pp": 5
       },
       {
         "nome": "Regeneration",
@@ -100,11 +100,11 @@
   },
   "custos_3e": {
     "habilidades": 54,
-    "defesas": 46,
+    "defesas": 18,
     "pericias": 29.5,
     "vantagens": 6,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 135.5,
+    "poderes_conhecidos": 11,
+    "subtotal_conhecido": 118.5,
     "poderes_pendentes": true,
     "total": null
   },

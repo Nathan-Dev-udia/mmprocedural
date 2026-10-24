@@ -67,7 +67,7 @@
       }
     ],
     "equipamento": [
-      "Uniforme (Second Chance contra ataques elétricos, GPS Receiver, PDA; 3 EP)"
+      "Uniforme (Second Chance contra ataques elétricos, receptor GPS, PDA; 3 EP)"
     ],
     "complicacoes": [],
     "ataques": [
@@ -92,11 +92,11 @@
   },
   "custos_3e": {
     "habilidades": 38,
-    "defesas": 26,
-    "pericias": 38,
+    "defesas": 14,
+    "pericias": 37.5,
     "vantagens": 10,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 112,
+    "subtotal_conhecido": 99.5,
     "poderes_pendentes": true,
     "total": null
   },
