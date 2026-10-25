@@ -1,0 +1,81 @@
+{
+  "id": "fantasia/goblins/bugbear",
+  "genero": "fantasia",
+  "familia": "Bugbear",
+  "variante": "Caçador",
+  "padrao": true,
+  "nome": "Bugbear Caçador",
+  "tipo": "Goblinoide",
+  "subtipo": "Bugbear",
+  "papel": "Bruto / Emboscador",
+  "tamanho": "Grande",
+  "nivel_poder": 4,
+  "ambientes": [
+    "Cavernas",
+    "Florestas Densas",
+    "Masmorras"
+  ],
+  "descricao": "Predador silencioso de porte enorme que espreita nas sombras e desfere ataques esmagadores com maça-estrela.",
+  "tatica": "Embosca no escuro e ataca a vítima desprevenida com força desmedida.",
+  "fonte": "D&D 5e Monster Manual (Bugbear)",
+  "ficha": {
+    "habilidades": {
+      "For": 4,
+      "Vig": 3,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 3,
+      "Int": -1,
+      "Pro": 1,
+      "Pre": 0
+    },
+    "defesas": {
+      "Esquiva": 3,
+      "Aparar": 3,
+      "Fortitude": 5,
+      "Resistencia": 5,
+      "Vontade": 3
+    },
+    "pericias": {
+      "Furtividade": 6,
+      "Percepção": 4,
+      "Intimidação": 4,
+      "Atletismo": 4
+    },
+    "vantagens": [
+      "Ataque Poderoso",
+      "Iniciativa Aprimorada",
+      "Equipamento 2"
+    ],
+    "poderes": [
+      {
+        "nome": "Visão no Escuro",
+        "construcao": "Sentidos 2 (Visão no Escuro)."
+      },
+      {
+        "nome": "Alcance Longo",
+        "construcao": "Alongamento 1 (Membros longos, Limitado a armas de corpo a corpo)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Maça-estrela",
+        "bonus": 3,
+        "dano": 5,
+        "critico": 20
+      },
+      {
+        "nome": "Azagaia",
+        "bonus": 3,
+        "dano": 4,
+        "critico": 20,
+        "descricao": "À distância"
+      }
+    ],
+    "equipamento": [
+      "Gibão de peles e couro (+2 Resistência)",
+      "Maça-estrela (Dano 1)",
+      "Azagaias (Dano 2)"
+    ]
+  }
+}

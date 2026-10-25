@@ -16,9 +16,9 @@ import webbrowser
 import zipfile
 from pathlib import Path
 
-from flask import Flask, jsonify, render_template, request, send_file
+from flask import Flask, jsonify, redirect, render_template, request, send_file
 
-from nucleo import (data_loader, docx_export, formatter, generator, herois, herois_pdf, livros, medidas, pdf_export,
+from nucleo import (bestiario, bestiario_pdf, data_loader, docx_export, formatter, generator, herois, herois_pdf, livros, medidas, pdf_export,
                     planilhas, player, validator)
 
 app = Flask(__name__)
@@ -164,6 +164,12 @@ def opcoes_da_interface(DADOS):
                         for r in DADOS["jogador"]["riqueza"]],
             "motivacoes": DADOS["complicacoes"]["motivacoes"],
             "complicacoes": DADOS["complicacoes"]["complicacoes"],
+        },
+        "bestiario": {
+            "generos": bestiario.generos(),
+            "tipos": bestiario.tipos(),
+            "papeis": bestiario.papeis(),
+            "faixas_np": bestiario.faixas_np(),
         },
     }
 
@@ -399,6 +405,34 @@ def baixar_pdf_de_heroi(ficha_id):
         return jsonify({"erro": "Ficha não encontrada."}), 404
     return send_file(io.BytesIO(conteudo), mimetype="application/pdf", as_attachment=True,
                      download_name=f"{ficha_id.rsplit('/', 1)[-1]}.pdf")
+
+
+@app.get("/bestiario")
+def pagina_bestiario():
+    return redirect("/?aba=bestiario")
+
+
+@app.get("/api/bestiario")
+def lista_de_criaturas():
+    return jsonify({"criaturas": bestiario.lista()})
+
+
+@app.get("/api/bestiario/<path:criatura_id>")
+def ficha_de_criatura(criatura_id):
+    ficha = bestiario.ficha(criatura_id)
+    if ficha is None:
+        return jsonify({"erro": "Criatura não encontrada."}), 404
+    return jsonify({"ficha": ficha})
+
+
+@app.get("/bestiario/<path:criatura_id>.pdf")
+def baixar_pdf_de_criatura(criatura_id):
+    modelo = Path(__file__).parent / "dados" / "comum" / "ficha_editavel.pdf"
+    conteudo = bestiario_pdf.gerar_pdf(modelo, criatura_id) if modelo.is_file() else None
+    if conteudo is None:
+        return jsonify({"erro": "Criatura não encontrada."}), 404
+    return send_file(io.BytesIO(conteudo), mimetype="application/pdf", as_attachment=True,
+                     download_name=f"{criatura_id.rsplit('/', 1)[-1]}.pdf")
 
 
 @app.get("/planilhas/<genero_id>/<tipo>.xlsx")

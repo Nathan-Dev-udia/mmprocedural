@@ -1,0 +1,84 @@
+{
+  "id": "fantasia/sobrenatural/fada",
+  "nome": "Fada Trapaceira",
+  "tipo": "Fada",
+  "subtipo": "Duende Feérico",
+  "papel": "Emboscador / Suporte",
+  "tamanho": "Diminuto",
+  "nivel_poder": 4,
+  "ambientes": [
+    "Bosques Encantados",
+    "Círculos de Cogumelos",
+    "Fontes Mágicas"
+  ],
+  "descricao": "Espírito feérico alado do tamanho de um pardal que prega peças e confunde a mente dos mortais.",
+  "tatica": "Voa fora do alcance disparando pó sonífero e ilusões para deixar intrusos desorientados.",
+  "fonte": "Guia do Mestre de Jogo, p. 237 (Fada)",
+  "ficha": {
+    "habilidades": {
+      "For": -3,
+      "Vig": 0,
+      "Agi": 4,
+      "Des": 2,
+      "Lut": 1,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "defesas": {
+      "Esquiva": 6,
+      "Aparar": 5,
+      "Fortitude": 2,
+      "Resistencia": 1,
+      "Vontade": 5
+    },
+    "pericias": {
+      "Enganação": 6,
+      "Furtividade": 8,
+      "Percepção": 4,
+      "Acrobacia": 4
+    },
+    "vantagens": [
+      "Ação em Movimento",
+      "Esquiva Fabulosa",
+      "Zombar"
+    ],
+    "poderes": [
+      {
+        "nome": "Porte Diminuto",
+        "construcao": "Encolhimento 6 (+3 Esquiva/Aparar, +6 Furtividade, -3 Intimidação, Contínuo, Inato)."
+      },
+      {
+        "nome": "Asas de Libélula",
+        "construcao": "Voo 3 (Asas)."
+      },
+      {
+        "nome": "Pó do Sono",
+        "construcao": "Aflição 4 (Fatigado, Exausto, Adormecido; resistido por Fortitude; Nuvem)."
+      },
+      {
+        "nome": "Glamour Feérico",
+        "construcao": "Ilusão 3 (Sentidos Visuais e Auditivos)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Pó do Sono",
+        "bonus": 0,
+        "dano": 0,
+        "descricao": "Aflição 4 em Área de Nuvem (DC 14)"
+      },
+      {
+        "nome": "Alfinetada / Toque",
+        "bonus": 4,
+        "dano": 0,
+        "critico": 20
+      }
+    ],
+    "equipamento": []
+  },
+  "genero": "fantasia",
+  "familia": "Fada",
+  "variante": "Trapaceira",
+  "padrao": true
+}

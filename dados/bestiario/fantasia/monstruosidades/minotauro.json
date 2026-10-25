@@ -1,0 +1,86 @@
+{
+  "id": "fantasia/monstruosidades/minotauro",
+  "genero": "fantasia",
+  "familia": "Minotauro",
+  "variante": "Do Labirinto",
+  "padrao": true,
+  "nome": "Minotauro do Labirinto",
+  "tipo": "Monstruosidade",
+  "subtipo": "Humanoide Bestial",
+  "papel": "Bruto / Soldado",
+  "tamanho": "Grande",
+  "nivel_poder": 6,
+  "ambientes": [
+    "Labirintos",
+    "Masmorras Antigas",
+    "Ruínas Caóticas"
+  ],
+  "descricao": "Guerreiro com corpo de gigante musculoso e cabeça de touro selvagem. Guarda corredores infinitos e nunca se perde.",
+  "tatica": "Baixa os chifres e dispara em investida estrondosa, arremessando os oponentes longe para finalizar com o machado grande.",
+  "fonte": "Manual dos Monstros (D&D 5e)",
+  "ficha": {
+    "habilidades": {
+      "For": 5,
+      "Vig": 5,
+      "Agi": 1,
+      "Des": 0,
+      "Lut": 5,
+      "Int": -2,
+      "Pro": 3,
+      "Pre": 0
+    },
+    "defesas": {
+      "Esquiva": 4,
+      "Aparar": 5,
+      "Fortitude": 7,
+      "Resistencia": 7,
+      "Vontade": 5
+    },
+    "pericias": {
+      "Percepção": 6,
+      "Intimidação": 6,
+      "Atletismo": 6,
+      "Especialidade: Sobrevivência (Labirintos)": 8
+    },
+    "vantagens": [
+      "Ataque Poderoso",
+      "Derrubar Aprimorado",
+      "Carga Feroz (+2 no dano em carga)",
+      "Iniciativa Aprimorada",
+      "Equipamento 3"
+    ],
+    "poderes": [
+      {
+        "nome": "Porte Grande",
+        "construcao": "Crescimento 2 (Força +2, Vigor +2, Proteção +2, Contínuo, Inato)."
+      },
+      {
+        "nome": "Memória Labiríntica",
+        "construcao": "Sentidos 2 (Orientação Absoluta, nunca se perde em labirintos)."
+      },
+      {
+        "nome": "Chifres Maciços",
+        "construcao": "Dano 5 (Crítico 19-20)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Machado Grande de Duas Mãos",
+        "bonus": 5,
+        "dano": 7,
+        "critico": 19
+      },
+      {
+        "nome": "Chifrada em Investida",
+        "bonus": 5,
+        "dano": 7,
+        "critico": 19,
+        "descricao": "Investida + Derrubar"
+      }
+    ],
+    "equipamento": [
+      "Machado grande de guerra (Dano 2)",
+      "Couro reforçado (+1 Resistência)"
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "fantasia/sobrenatural/arvore_animada",
+  "nome": "Árvore Animada",
+  "tipo": "Planta",
+  "subtipo": "Guardião da Floresta",
+  "papel": "Bruto (Solo)",
+  "tamanho": "Enorme",
+  "nivel_poder": 8,
+  "ambientes": [
+    "Florestas Arcanas",
+    "Bosques Sagrados",
+    "Selvas"
+  ],
+  "descricao": "Carvalho centenário que ergue troncos pesados e raízes grossas para esmagar machados e lenhadores.",
+  "tatica": "Golpeia com galhos massivos varrendo vários combatentes ao mesmo tempo.",
+  "fonte": "Guia do Mestre de Jogo, p. 236 (Árvore Animada)",
+  "ficha": {
+    "habilidades": {
+      "For": 8,
+      "Vig": 8,
+      "Agi": -2,
+      "Des": -2,
+      "Lut": 4,
+      "Int": -4,
+      "Pro": 1,
+      "Pre": -2
+    },
+    "defesas": {
+      "Esquiva": 2,
+      "Aparar": 4,
+      "Fortitude": 9,
+      "Resistencia": 10,
+      "Vontade": 5
+    },
+    "pericias": {
+      "Percepção": 4,
+      "Intimidação": 6,
+      "Atletismo": 4
+    },
+    "vantagens": [
+      "Ataque Poderoso",
+      "Derrubar Aprimorado",
+      "Agarrar Aprimorado"
+    ],
+    "poderes": [
+      {
+        "nome": "Porte Enorme",
+        "construcao": "Crescimento 6 (Força +6, Vigor +6, Proteção +6, Contínuo, Inato)."
+      },
+      {
+        "nome": "Casca Grossa",
+        "construcao": "Proteção 4 (Impenetrável 6)."
+      },
+      {
+        "nome": "Membros Múltiplos",
+        "construcao": "Membros Extras 4 (Galhos e raízes)."
+      },
+      {
+        "nome": "Fisiologia Vegetal",
+        "construcao": "Imunidade 5 (Veneno, Sono, Paralisia)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Golpe de Galho",
+        "bonus": 4,
+        "dano": 8,
+        "critico": 20
+      }
+    ],
+    "equipamento": []
+  },
+  "genero": "fantasia",
+  "familia": "Árvore Animada",
+  "variante": "Comum",
+  "padrao": true
+}

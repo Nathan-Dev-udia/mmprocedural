@@ -13,6 +13,7 @@
   <nav class="abas" role="tablist">
     <button type="button" class="aba" role="tab" data-aba="jogador">Ficha de jogador</button>
     <button type="button" class="aba" role="tab" data-aba="npc">Fichas de NPC</button>
+    <button type="button" class="aba" role="tab" data-aba="bestiario">Bestiário</button>
   </nav>
 
   <!-- ===================== Aba: ficha de jogador (passo a passo) ===================== -->
@@ -263,6 +264,72 @@
     </section>
   </section>
 
+  <!-- ===================== Aba: Bestiário ===================== -->
+  <section id="aba-bestiario" class="painel-aba" role="tabpanel" hidden>
+    <div class="painel formulario">
+      <div class="campos">
+        <label class="campo">
+          <span>Gênero</span>
+          <select id="bestiario-genero">
+            {% for g in opcoes.bestiario.generos %}
+            <option value="{{ g.id }}">{{ g.nome }} ({{ g.quantidade }})</option>
+            {% endfor %}
+          </select>
+          <small>Escolha o gênero do universo das criaturas.</small>
+        </label>
+
+        <label class="campo">
+          <span>Tipo de Criatura</span>
+          <select id="bestiario-tipo">
+            <option value="todos">Todos os tipos ({{ opcoes.bestiario.tipos | sum(attribute='quantidade') }})</option>
+            {% for t in opcoes.bestiario.tipos %}
+            <option value="{{ t.id }}">{{ t.nome }} ({{ t.quantidade }})</option>
+            {% endfor %}
+          </select>
+          <small>Filtre por espécie ou natureza.</small>
+        </label>
+
+        <label class="campo">
+          <span>Faixa de NP</span>
+          <select id="bestiario-np">
+            {% for f in opcoes.bestiario.faixas_np %}
+            <option value="{{ f.id }}">{{ f.nome }} ({{ f.quantidade }})</option>
+            {% endfor %}
+          </select>
+          <small>Nível de Poder e ameaça no encontro.</small>
+        </label>
+
+        <label class="campo">
+          <span>Papel de Combate</span>
+          <select id="bestiario-papel">
+            <option value="todos">Todos os papéis ({{ opcoes.bestiario.papeis | sum(attribute='quantidade') }})</option>
+            {% for p in opcoes.bestiario.papeis %}
+            <option value="{{ p.id }}">{{ p.nome }} ({{ p.quantidade }})</option>
+            {% endfor %}
+          </select>
+          <small>Função tática (Lacaio, Soldado, Chefe, etc.).</small>
+        </label>
+
+        <label class="campo">
+          <span>Buscar Criatura</span>
+          <input id="bestiario-busca" type="search" placeholder="Nome, poder, ambiente (ex.: Carniçal, Fogo, Cripta)" autocomplete="off">
+          <small>Pesquise qualquer termo da ficha em tempo real.</small>
+        </label>
+      </div>
+    </div>
+
+    <div class="bestiario">
+      <div class="painel lista-de-criaturas">
+        <div class="barra-resultado">
+          <p id="contagem-criaturas">Carregando…</p>
+          <label class="controle-agrupamento"><input type="checkbox" id="bestiario-agrupar" checked> Agrupar famílias</label>
+        </div>
+        <ul id="lista-criaturas" class="lista-criaturas"></ul>
+      </div>
+      <article id="ficha-criatura" class="cartao ficha-criatura" hidden></article>
+    </div>
+  </section>
+
   <p id="mensagem" class="mensagem" role="status"></p>
 
   <div id="carregando" class="carregando" role="status" aria-live="polite" hidden>
@@ -278,5 +345,6 @@
 {% if opcoes %}
   <script>window.OPCOES = {{ opcoes | tojson }};</script>
   <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/bestiario.js') }}"></script>
 {% endif %}
 {% endblock %}

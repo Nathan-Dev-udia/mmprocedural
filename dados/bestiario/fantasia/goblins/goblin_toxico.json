@@ -1,0 +1,89 @@
+{
+  "id": "fantasia/goblins/goblin_toxico",
+  "genero": "fantasia",
+  "familia": "Goblin",
+  "variante": "Tóxico (Goblestiário)",
+  "padrao": false,
+  "nome": "Goblin Tóxico",
+  "tipo": "Goblinoide",
+  "subtipo": "Goblin Vulcânico",
+  "papel": "Bruto / Tóxico",
+  "tamanho": "Pequeno",
+  "nivel_poder": 4,
+  "ambientes": [
+    "Vulcões",
+    "Pântanos Venenosos",
+    "Minas de Carvão e Enxofre"
+  ],
+  "descricao": "Monstrengo de pele enegrecida e pustulenta que engole carvão e exala gases venenosos e fuligem por todos os poros.",
+  "tatica": "Lança-se no centro da formação inimiga e libera nuvens densas de vapor ácido e sufocante.",
+  "fonte": "Goblestiário (D&D 5e), p. 99 (Goblin Tóxico), adaptado para M&M 3e",
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 3,
+      "Agi": 1,
+      "Des": 0,
+      "Lut": 3,
+      "Int": -1,
+      "Pro": 1,
+      "Pre": -1
+    },
+    "defesas": {
+      "Esquiva": 3,
+      "Aparar": 3,
+      "Fortitude": 5,
+      "Resistencia": 4,
+      "Vontade": 2
+    },
+    "pericias": {
+      "Intimidação": 4,
+      "Atletismo": 4,
+      "Furtividade": 4
+    },
+    "vantagens": [
+      "Duro de Matar",
+      "Ataque Poderoso",
+      "Iniciativa Aprimorada"
+    ],
+    "poderes": [
+      {
+        "nome": "Porte Pequeno",
+        "construcao": "Encolhimento 4 (-1 Força, +2 Esquiva/Aparar, +4 Furtividade, -2 Intimidação, Contínuo, Inato)."
+      },
+      {
+        "nome": "Visão no Escuro",
+        "construcao": "Sentidos 2 (Visão no Escuro)."
+      },
+      {
+        "nome": "Exalação de Gás Corrosivo",
+        "construcao": "Dano 4 (Área Nuvem 4,5m, resistido por Fortitude; Veneno)."
+      },
+      {
+        "nome": "Imunidades Tóxicas",
+        "construcao": "Imunidade 5 (Veneno, Gás Sufocante, Fumaça)."
+      },
+      {
+        "nome": "Regeneração por Fumaça",
+        "construcao": "Regeneração 2 (Limitada a ambientes tomados por fumaça ou fogo ativo)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Nuvem de Gás Venenoso",
+        "bonus": 0,
+        "dano": 4,
+        "descricao": "Área de Nuvem (DC 14 de Fortitude)"
+      },
+      {
+        "nome": "Mordida Tóxica",
+        "bonus": 3,
+        "dano": 3,
+        "critico": 20
+      }
+    ],
+    "equipamento": [
+      "Couro endurecido com alcatrão (+1 Resistência)"
+    ]
+  }
+}

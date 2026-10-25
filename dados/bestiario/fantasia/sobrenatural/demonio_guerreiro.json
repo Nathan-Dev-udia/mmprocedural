@@ -1,0 +1,77 @@
+{
+  "id": "fantasia/sobrenatural/demonio_guerreiro",
+  "nome": "Demônio Guerreiro",
+  "tipo": "Demônio",
+  "subtipo": "Abissal",
+  "papel": "Bruto / Soldado",
+  "tamanho": "Médio",
+  "nivel_poder": 6,
+  "ambientes": [
+    "Planos Infernais",
+    "Círculos de Evocação",
+    "Ruínas Corrompidas"
+  ],
+  "descricao": "Monstro couraçado de chifres recurvados e garras em brasa invocada para semear chacina.",
+  "tatica": "Avança em fúria desenfreada desferindo golpes de garras incendiárias.",
+  "fonte": "Guia do Mestre de Jogo, p. 234 (Demônio, Guerreiro)",
+  "ficha": {
+    "habilidades": {
+      "For": 6,
+      "Vig": 5,
+      "Agi": 1,
+      "Des": 0,
+      "Lut": 5,
+      "Int": -1,
+      "Pro": 1,
+      "Pre": 1
+    },
+    "defesas": {
+      "Esquiva": 5,
+      "Aparar": 5,
+      "Fortitude": 7,
+      "Resistencia": 7,
+      "Vontade": 5
+    },
+    "pericias": {
+      "Intimidação": 6,
+      "Percepção": 4,
+      "Atletismo": 4
+    },
+    "vantagens": [
+      "Ataque Agressivo",
+      "Ataque Poderoso",
+      "Iniciativa Aprimorada"
+    ],
+    "poderes": [
+      {
+        "nome": "Couro Demoníaco",
+        "construcao": "Proteção 2 (Impenetrável 4)."
+      },
+      {
+        "nome": "Garras Flamejantes",
+        "construcao": "Dano 6 (Penetrante 3, Fogo)."
+      },
+      {
+        "nome": "Imunidades Demoníacas",
+        "construcao": "Imunidade 10 (Fogo, Veneno)."
+      },
+      {
+        "nome": "Visão Infernal",
+        "construcao": "Sentidos 2 (Visão no Escuro)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Garras Flamejantes",
+        "bonus": 5,
+        "dano": 6,
+        "critico": 19
+      }
+    ],
+    "equipamento": []
+  },
+  "genero": "fantasia",
+  "familia": "Demônio",
+  "variante": "Guerreiro",
+  "padrao": true
+}

@@ -1,0 +1,91 @@
+{
+  "id": "fantasia/mortos_vivos/carnical_darakhul",
+  "genero": "fantasia",
+  "familia": "Carniçal",
+  "variante": "Darakhul (Tomo dos Monstros)",
+  "padrao": false,
+  "nome": "Carniçal Darakhul",
+  "tipo": "Morto-Vivo",
+  "subtipo": "Carniçal Nobre",
+  "papel": "Soldado / Líder",
+  "tamanho": "Médio",
+  "nivel_poder": 6,
+  "ambientes": [
+    "Cidades Subterrâneas",
+    "Catacumbas Imperiais",
+    "Tumbas Reais"
+  ],
+  "descricao": "Membro da aristocracia necropolitana dos carniçais darakhul. Inteligente, usa couraça polida, empunha armas de ferro estígio e lidera hordas de carniçais inferiores.",
+  "tatica": "Combate com disciplina marcial, aplicando paralisia calculada em alvos de alto valor e comandando lacaios para cercar conjuradores.",
+  "fonte": "Tomo dos Monstros (Kobold Press), p. 119",
+  "ficha": {
+    "habilidades": {
+      "For": 4,
+      "Vig": -5,
+      "Agi": 2,
+      "Des": 1,
+      "Lut": 6,
+      "Int": 2,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "defesas": {
+      "Esquiva": 6,
+      "Aparar": 6,
+      "Fortitude": 0,
+      "Resistencia": 6,
+      "Vontade": 6
+    },
+    "pericias": {
+      "Intimidação": 6,
+      "Especialidade: Tática": 6,
+      "Percepção": 4,
+      "Furtividade": 4,
+      "Enganação": 4
+    },
+    "vantagens": [
+      "Liderança",
+      "Trabalho em Equipe",
+      "Iniciativa Aprimorada",
+      "Ataque Dominó",
+      "Equipamento 3"
+    ],
+    "poderes": [
+      {
+        "nome": "Fisiologia de Morto-Vivo",
+        "construcao": "Imunidade 30 (efeitos de Fortitude)."
+      },
+      {
+        "nome": "Visão no Escuro",
+        "construcao": "Sentidos 2 (Visão no Escuro)."
+      },
+      {
+        "nome": "Toque Paralisante Darakhul",
+        "construcao": "Aflição 6 (Impedido, Imóvel, Paralisado; resistido por Fortitude), Cumulativo, Ligado a Garras e Mordida."
+      },
+      {
+        "nome": "Febre da Cripta",
+        "construcao": "Aflição 4 (Enjoado, Exausto, Incapacitado; resistido por Fortitude), Progressiva."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Espada Longa de Ferro Estígio",
+        "bonus": 6,
+        "dano": 6,
+        "critico": 19
+      },
+      {
+        "nome": "Garras / Mordida Paralisante",
+        "bonus": 6,
+        "dano": 4,
+        "critico": 20,
+        "descricao": "Dano 4 + Aflição 6 (Paralisia)"
+      }
+    ],
+    "equipamento": [
+      "Meia-armadura (+4 Resistência)",
+      "Espada longa de ferro estígio (Dano 2)"
+    ]
+  }
+}

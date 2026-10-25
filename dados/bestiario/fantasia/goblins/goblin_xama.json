@@ -1,0 +1,89 @@
+{
+  "id": "fantasia/goblins/goblin_xama",
+  "genero": "fantasia",
+  "familia": "Goblin",
+  "variante": "Xamã",
+  "padrao": false,
+  "nome": "Xamã Goblin",
+  "tipo": "Goblinoide",
+  "subtipo": "Goblin",
+  "papel": "Conjurador / Suporte",
+  "tamanho": "Pequeno",
+  "nivel_poder": 3,
+  "ambientes": [
+    "Cavernas Profundas",
+    "Pira da Tribo",
+    "Altares Ancestrais"
+  ],
+  "descricao": "Curandeiro e feiticeiro coberto de crânios de roedores e amuletos de osso; fala com espíritos da terra e do fogo.",
+  "tatica": "Fica atrás dos guerreiros, cura quem cai e dispara labaredas místicas em quem ameaça a retaguarda.",
+  "fonte": "D&D 5e e M&M 3e Fantasia",
+  "ficha": {
+    "habilidades": {
+      "For": -1,
+      "Vig": 1,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 2,
+      "Int": 1,
+      "Pro": 3,
+      "Pre": 1
+    },
+    "defesas": {
+      "Esquiva": 3,
+      "Aparar": 3,
+      "Fortitude": 2,
+      "Resistencia": 2,
+      "Vontade": 4
+    },
+    "pericias": {
+      "Especialidade: Magia": 6,
+      "Intuição": 4,
+      "Percepção": 4,
+      "Combate à Distância: Magia": 2
+    },
+    "vantagens": [
+      "Ritualista",
+      "Iniciativa Aprimorada",
+      "Equipamento 1"
+    ],
+    "poderes": [
+      {
+        "nome": "Porte Pequeno",
+        "construcao": "Encolhimento 4 (-1 Força, +2 Esquiva/Aparar, +4 Furtividade, -2 Intimidação, Contínuo, Inato)."
+      },
+      {
+        "nome": "Visão no Escuro",
+        "construcao": "Sentidos 2 (Visão no Escuro)."
+      },
+      {
+        "nome": "Arranjo Xamânico: Raio de Fogo",
+        "construcao": "Dano 3 (À Distância, Fogo; Perícia Combate à Distância: Magia)."
+      },
+      {
+        "nome": "Arranjo Xamânico: Curar Ferimentos",
+        "construcao": "Cura 3 (Cânticos e raízes medicinais, Efeito Alternativo)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Raio de Fogo",
+        "bonus": 3,
+        "dano": 3,
+        "critico": 20,
+        "descricao": "À distância (Fogo)"
+      },
+      {
+        "nome": "Bordão de Ossos",
+        "bonus": 2,
+        "dano": 1,
+        "critico": 20
+      }
+    ],
+    "equipamento": [
+      "Trapos e amuletos (+1 Resistência)",
+      "Bordão (Dano 1)",
+      "Símbolo Sagrado de Osso"
+    ]
+  }
+}

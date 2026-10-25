@@ -1,0 +1,78 @@
+{
+  "id": "fantasia/sobrenatural/gargula",
+  "nome": "Gárgula",
+  "tipo": "Construto",
+  "subtipo": "Estátua Animada",
+  "papel": "Guardião / Emboscador",
+  "tamanho": "Médio",
+  "nivel_poder": 5,
+  "ambientes": [
+    "Catedrais",
+    "Torres",
+    "Ruínas",
+    "Telhados Urbanos"
+  ],
+  "descricao": "Monstruosidade alada de pedra viva esculpida para guardar templos e muralhas.",
+  "tatica": "Permanece perfeitamente imóvel disfarçada de ornamento arquitetônico até a presa passar embaixo.",
+  "fonte": "Guia do Mestre de Jogo, p. 238 (Gárgula)",
+  "ficha": {
+    "habilidades": {
+      "For": 4,
+      "Vig": 5,
+      "Agi": 1,
+      "Des": 0,
+      "Lut": 4,
+      "Int": -2,
+      "Pro": 1,
+      "Pre": -2
+    },
+    "defesas": {
+      "Esquiva": 4,
+      "Aparar": 4,
+      "Fortitude": 6,
+      "Resistencia": 6,
+      "Vontade": 4
+    },
+    "pericias": {
+      "Furtividade": 6,
+      "Percepção": 4,
+      "Intimidação": 4,
+      "Atletismo": 4
+    },
+    "vantagens": [
+      "Iniciativa Aprimorada",
+      "Ataque Poderoso"
+    ],
+    "poderes": [
+      {
+        "nome": "Corpo de Pedra",
+        "construcao": "Proteção 3 (Impenetrável 4)."
+      },
+      {
+        "nome": "Falsa Aparência de Estátua",
+        "construcao": "Ocultamento 2 (Visão; Limitado a fingir-se de escultura inerte)."
+      },
+      {
+        "nome": "Asas de Pedra",
+        "construcao": "Voo 2 (Asas)."
+      },
+      {
+        "nome": "Imunidades de Construto",
+        "construcao": "Imunidade 5 (Veneno, Doença, Fadiga)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Garras de Pedra",
+        "bonus": 4,
+        "dano": 5,
+        "critico": 20
+      }
+    ],
+    "equipamento": []
+  },
+  "genero": "fantasia",
+  "familia": "Gárgula",
+  "variante": "Comum",
+  "padrao": true
+}

@@ -1,0 +1,92 @@
+{
+  "id": "fantasia/dragoes/dragao_branco",
+  "nome": "Dragão Branco Jovem",
+  "tipo": "Dragão",
+  "subtipo": "Dragão Cromático",
+  "papel": "Chefe (Solo)",
+  "tamanho": "Grande",
+  "nivel_poder": 9,
+  "ambientes": [
+    "Geleiras",
+    "Cavernas de Gelo",
+    "Montanhas Nevadas"
+  ],
+  "descricao": "O mais bestial dos dragões cromáticos, caçador feroz adaptado ao frio polar.",
+  "tatica": "Mergulha de emboscada nas tempestades de neve congelando presas com sopro de gelo polar.",
+  "fonte": "D&D 5e Monster Manual adaptado para M&M 3e",
+  "ficha": {
+    "habilidades": {
+      "For": 8,
+      "Vig": 7,
+      "Agi": 1,
+      "Des": 0,
+      "Lut": 6,
+      "Int": -1,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "defesas": {
+      "Esquiva": 6,
+      "Aparar": 6,
+      "Fortitude": 10,
+      "Resistencia": 10,
+      "Vontade": 7
+    },
+    "pericias": {
+      "Percepção": 6,
+      "Furtividade": 6,
+      "Intimidação": 8,
+      "Atletismo": 4
+    },
+    "vantagens": [
+      "Ataque Poderoso",
+      "Iniciativa Aprimorada",
+      "Presença Aterrorizante 2"
+    ],
+    "poderes": [
+      {
+        "nome": "Sopro de Gelo",
+        "construcao": "Dano 9 (Área Cone, Frio)."
+      },
+      {
+        "nome": "Voo Alado",
+        "construcao": "Voo 4 (Asas)."
+      },
+      {
+        "nome": "Escamas de Gelo",
+        "construcao": "Proteção 3 (Impenetrável 3)."
+      },
+      {
+        "nome": "Imunidade ao Frio",
+        "construcao": "Imunidade 10 (efeitos de gelo e frio)."
+      },
+      {
+        "nome": "Andar no Gelo",
+        "construcao": "Movimento 1 (Andar em superfícies geladas sem penalidade)."
+      },
+      {
+        "nome": "Sentidos Draconianos",
+        "construcao": "Sentidos 4 (Visão no Escuro, Olfato Aguçado)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Sopro de Gelo",
+        "bonus": 0,
+        "dano": 9,
+        "descricao": "Área de cone"
+      },
+      {
+        "nome": "Mordida / Garras",
+        "bonus": 6,
+        "dano": 8,
+        "critico": 20
+      }
+    ],
+    "equipamento": []
+  },
+  "genero": "fantasia",
+  "familia": "Dragão Branco",
+  "variante": "Jovem",
+  "padrao": true
+}

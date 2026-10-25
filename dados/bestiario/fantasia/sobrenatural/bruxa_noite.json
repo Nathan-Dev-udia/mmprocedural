@@ -1,0 +1,97 @@
+{
+  "id": "fantasia/sobrenatural/bruxa_noite",
+  "genero": "fantasia",
+  "familia": "Bruxa",
+  "variante": "Bruxa da Noite",
+  "padrao": false,
+  "nome": "Bruxa da Noite",
+  "tipo": "Fada",
+  "subtipo": "Bruxa (Hag) / Ímpia",
+  "papel": "Conjurador / Chefe",
+  "tamanho": "Médio",
+  "nivel_poder": 9,
+  "ambientes": [
+    "Planos Infernais",
+    "Cemitérios Malditos",
+    "Ruínas Corrompidas"
+  ],
+  "descricao": "A mais maligna de todas as bruxas, de pele azul-escura e olhos amarelos venenosos. Viaja no mundo dos sonhos para devorar almas.",
+  "tatica": "Assombra sonhos à distância e ataca no plano etéreo. Em combate físico, dilacera com garras que rasgam matéria e alma.",
+  "fonte": "Manual dos Monstros (D&D 5e)",
+  "ficha": {
+    "habilidades": {
+      "For": 5,
+      "Vig": 5,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 8,
+      "Int": 3,
+      "Pro": 4,
+      "Pre": 4
+    },
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 8,
+      "Fortitude": 9,
+      "Resistencia": 10,
+      "Vontade": 9
+    },
+    "pericias": {
+      "Enganação": 10,
+      "Intimidação": 8,
+      "Percepção": 8,
+      "Intuição": 8,
+      "Especialidade: Planos e Magia": 8,
+      "Furtividade": 6
+    },
+    "vantagens": [
+      "Artífice",
+      "Ritualista",
+      "Iniciativa Aprimorada",
+      "Ataque Poderoso",
+      "Fascinar (Enganação)",
+      "Zombar"
+    ],
+    "poderes": [
+      {
+        "nome": "Carcaça de Ébano",
+        "construcao": "Proteção 5 (Impenetrável 6)."
+      },
+      {
+        "nome": "Passagem Etérea",
+        "construcao": "Movimento 2 (Viagem Dimensional 2, Planos Astrais e Etéreos)."
+      },
+      {
+        "nome": "Pesadelo Noturno",
+        "construcao": "Aflição 9 (Fatigado, Exausto, Incapacitado; resistido por Vontade; À Distância; Cumulativo; Limitado a vítimas adormecidas)."
+      },
+      {
+        "nome": "Disfarce Ilusório",
+        "construcao": "Morfar 2 (Formas humanoides)."
+      },
+      {
+        "nome": "Imunidades Infernais",
+        "construcao": "Imunidade 5 (Sono, Encantamento, Fogo)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Garras do Pesadelo",
+        "bonus": 8,
+        "dano": 7,
+        "critico": 19,
+        "descricao": "Penetrante 4"
+      },
+      {
+        "nome": "Raio de Agonia Mágica",
+        "bonus": 8,
+        "dano": 8,
+        "critico": 20,
+        "descricao": "À distância"
+      }
+    ],
+    "equipamento": [
+      "Bolsa de almas e amuletos de ossos"
+    ]
+  }
+}

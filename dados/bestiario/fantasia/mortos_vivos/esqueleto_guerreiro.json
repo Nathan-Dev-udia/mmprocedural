@@ -1,0 +1,73 @@
+{
+  "id": "fantasia/mortos_vivos/esqueleto_guerreiro",
+  "nome": "Esqueleto Guerreiro",
+  "tipo": "Morto-Vivo",
+  "subtipo": "Esqueleto",
+  "papel": "Soldado",
+  "tamanho": "Médio",
+  "nivel_poder": 3,
+  "ambientes": [
+    "Criptas",
+    "Masmorras",
+    "Campos de Batalha",
+    "Tumbas"
+  ],
+  "descricao": "Esqueleto de soldado antigo que preservou suas armas e armadura enferrujadas.",
+  "tatica": "Combate com disciplina marcial arcaica, desferindo golpes de machadinha.",
+  "fonte": "Guia do Mestre de Jogo, p. 255 (adaptado com equipamento)",
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": -5,
+      "Agi": 1,
+      "Des": 0,
+      "Lut": 2,
+      "Int": -5,
+      "Pro": -1,
+      "Pre": -5
+    },
+    "defesas": {
+      "Esquiva": 2,
+      "Aparar": 2,
+      "Fortitude": 0,
+      "Resistencia": 4,
+      "Vontade": -1
+    },
+    "pericias": {
+      "Combate Corpo-a-Corpo: Machados": 2
+    },
+    "vantagens": [
+      "Iniciativa Aprimorada",
+      "Equipamento 2"
+    ],
+    "poderes": [
+      {
+        "nome": "Fisiologia Esquelética",
+        "construcao": "Imunidade 45 (efeitos de Fortitude, frio, meio dano por corte e perfuração)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Machadinha",
+        "bonus": 4,
+        "dano": 3,
+        "critico": 20,
+        "descricao": "Corpo a corpo"
+      },
+      {
+        "nome": "Pancada",
+        "bonus": 2,
+        "dano": 2,
+        "critico": 20
+      }
+    ],
+    "equipamento": [
+      "Machadinha (Dano 1 baseado em Força)",
+      "Meia-armadura (+4 Resistência)"
+    ]
+  },
+  "genero": "fantasia",
+  "familia": "Esqueleto",
+  "variante": "Guerreiro",
+  "padrao": false
+}

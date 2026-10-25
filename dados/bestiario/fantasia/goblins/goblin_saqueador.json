@@ -1,0 +1,81 @@
+{
+  "id": "fantasia/goblins/goblin_saqueador",
+  "genero": "fantasia",
+  "familia": "Goblin",
+  "variante": "Saqueador",
+  "padrao": true,
+  "nome": "Goblin Saqueador",
+  "tipo": "Goblinoide",
+  "subtipo": "Goblin",
+  "papel": "Lacaio / Emboscador",
+  "tamanho": "Pequeno",
+  "nivel_poder": 2,
+  "ambientes": [
+    "Cavernas",
+    "Florestas",
+    "Masmorras",
+    "Montanhas"
+  ],
+  "descricao": "Pequeno, covarde e esperto. Ataca em bando pelas costas e foge pelo terreno acidentado ao menor revés.",
+  "tatica": "Dispara flechas curtas de abrigo ou posições elevadas e recua para atrair inimigos para armadilhas.",
+  "fonte": "Guia do Mestre de Jogo, p. 252 (adaptado a goblin)",
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 0,
+      "Agi": 2,
+      "Des": 1,
+      "Lut": 2,
+      "Int": 0,
+      "Pro": 0,
+      "Pre": -1
+    },
+    "defesas": {
+      "Esquiva": 3,
+      "Aparar": 3,
+      "Fortitude": 1,
+      "Resistencia": 1,
+      "Vontade": 0
+    },
+    "pericias": {
+      "Furtividade": 6,
+      "Percepção": 4,
+      "Enganação": 4,
+      "Especialidade: Sobrevivência": 4
+    },
+    "vantagens": [
+      "Iniciativa Aprimorada",
+      "Equipamento 2"
+    ],
+    "poderes": [
+      {
+        "nome": "Porte Pequeno",
+        "construcao": "Encolhimento 4 (-1 Força, +2 Esquiva/Aparar, +4 Furtividade, -2 Intimidação, Contínuo, Inato)."
+      },
+      {
+        "nome": "Visão no Escuro",
+        "construcao": "Sentidos 2 (Visão no Escuro)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Arco Curto",
+        "bonus": 3,
+        "dano": 1,
+        "critico": 20,
+        "descricao": "À distância"
+      },
+      {
+        "nome": "Espada Curta",
+        "bonus": 2,
+        "dano": 1,
+        "critico": 19
+      }
+    ],
+    "equipamento": [
+      "Armadura de couro (+1 Resistência)",
+      "Espada curta (Dano 1)",
+      "Arco curto (Dano 1)"
+    ]
+  }
+}

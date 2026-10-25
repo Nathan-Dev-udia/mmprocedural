@@ -1,0 +1,88 @@
+{
+  "id": "fantasia/goblins/goblin_chefe",
+  "genero": "fantasia",
+  "familia": "Goblin",
+  "variante": "Chefe da Tribo",
+  "padrao": false,
+  "nome": "Chefe Goblin",
+  "tipo": "Goblinoide",
+  "subtipo": "Goblin",
+  "papel": "Chefe / Líder",
+  "tamanho": "Pequeno",
+  "nivel_poder": 4,
+  "ambientes": [
+    "Salão do Trono de Sucata",
+    "Acampamentos Goblins"
+  ],
+  "descricao": "O mais corpulento e cruel do bando, com uma coroa de ossos e dentes de ferro. Manda nos outros na base do berro.",
+  "tatica": "Luta cercado de capangas, usa subordinados como escudo humano e dá ordem para todos atacarem juntos.",
+  "fonte": "D&D 5e Monster Manual (Goblin Boss)",
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 2,
+      "Des": 1,
+      "Lut": 4,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "defesas": {
+      "Esquiva": 4,
+      "Aparar": 4,
+      "Fortitude": 4,
+      "Resistencia": 4,
+      "Vontade": 3
+    },
+    "pericias": {
+      "Intimidação": 6,
+      "Enganação": 4,
+      "Persuasão": 4,
+      "Percepção": 4,
+      "Furtividade": 4
+    },
+    "vantagens": [
+      "Liderança",
+      "Redirecionar",
+      "Trabalho em Equipe",
+      "Ataque Poderoso",
+      "Equipamento 3"
+    ],
+    "poderes": [
+      {
+        "nome": "Porte Pequeno",
+        "construcao": "Encolhimento 4 (-1 Força, +2 Esquiva/Aparar, +4 Furtividade, -2 Intimidação, Contínuo, Inato)."
+      },
+      {
+        "nome": "Visão no Escuro",
+        "construcao": "Sentidos 2 (Visão no Escuro)."
+      },
+      {
+        "nome": "Escudo de Capangas",
+        "construcao": "Interpor-se Inverso (Transfere o ataque para um aliado adjacente)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Maça Pontuda",
+        "bonus": 4,
+        "dano": 4,
+        "critico": 20
+      },
+      {
+        "nome": "Javelin / Azagaia",
+        "bonus": 3,
+        "dano": 3,
+        "critico": 20,
+        "descricao": "À distância"
+      }
+    ],
+    "equipamento": [
+      "Cota de malha de placas de sucata (+2 Resistência)",
+      "Escudo (+1 Esquiva/Aparar)",
+      "Maça (Dano 2)",
+      "Azagaias (Dano 1)"
+    ]
+  }
+}

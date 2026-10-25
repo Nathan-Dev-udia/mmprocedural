@@ -1,0 +1,95 @@
+{
+  "id": "fantasia/goblins/hobgoblin_conjurador",
+  "genero": "fantasia",
+  "familia": "Hobgoblin",
+  "variante": "Conjurador de Guerra",
+  "padrao": false,
+  "nome": "Hobgoblin Conjurador de Guerra",
+  "tipo": "Goblinoide",
+  "subtipo": "Hobgoblin",
+  "papel": "Conjurador / Artilharia",
+  "tamanho": "Médio",
+  "nivel_poder": 6,
+  "ambientes": [
+    "Fortalezas",
+    "Primeira Linha de Batalha",
+    "Torres de Cerco"
+  ],
+  "descricao": "Mago militar de robe encouraçado e luvas de ferro, treinado estritamente para abrir brechas no exército inimigo com fogo destrutivo.",
+  "tatica": "Posiciona-se atrás da linha de escudos e despeja bolas de fogo e relâmpagos onde o inimigo agrupa.",
+  "fonte": "D&D 5e (Hobgoblin Devastator)",
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 2,
+      "Agi": 1,
+      "Des": 2,
+      "Lut": 3,
+      "Int": 3,
+      "Pro": 2,
+      "Pre": 1
+    },
+    "defesas": {
+      "Esquiva": 5,
+      "Aparar": 4,
+      "Fortitude": 5,
+      "Resistencia": 5,
+      "Vontade": 6
+    },
+    "pericias": {
+      "Especialidade: Magia": 6,
+      "Percepção": 4,
+      "Especialidade: Tática": 4,
+      "Combate à Distância: Evocação": 2
+    },
+    "vantagens": [
+      "Artífice",
+      "Trabalho em Equipe",
+      "Iniciativa Aprimorada",
+      "Equipamento 3"
+    ],
+    "poderes": [
+      {
+        "nome": "Visão no Escuro",
+        "construcao": "Sentidos 2 (Visão no Escuro)."
+      },
+      {
+        "nome": "Magia Bélica: Bola de Fogo",
+        "construcao": "Dano 6 (À Distância, Área Explosão 9m, Fogo)."
+      },
+      {
+        "nome": "Magia Bélica: Raio Místico",
+        "construcao": "Dano 6 (À Distância, Penetrante 3, Efeito Alternativo)."
+      },
+      {
+        "nome": "Escudo de Chamas",
+        "construcao": "Proteção 2 (Reação de Dano 2 contra atacantes corpo a corpo)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Bola de Fogo",
+        "bonus": 0,
+        "dano": 6,
+        "descricao": "Área de Explosão (DC 16 de Esquiva)"
+      },
+      {
+        "nome": "Raio Místico",
+        "bonus": 5,
+        "dano": 6,
+        "critico": 20,
+        "descricao": "À distância"
+      },
+      {
+        "nome": "Bordão de Guerra",
+        "bonus": 3,
+        "dano": 2,
+        "critico": 20
+      }
+    ],
+    "equipamento": [
+      "Gibão reforçado com placas (+1 Resistência)",
+      "Bordão de ferro (Dano 1)"
+    ]
+  }
+}

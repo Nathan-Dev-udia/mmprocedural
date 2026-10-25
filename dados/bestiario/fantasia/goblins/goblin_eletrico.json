@@ -1,0 +1,91 @@
+{
+  "id": "fantasia/goblins/goblin_eletrico",
+  "genero": "fantasia",
+  "familia": "Goblin",
+  "variante": "Elétrico (Goblestiário)",
+  "padrao": false,
+  "nome": "Goblin Elétrico",
+  "tipo": "Goblinoide",
+  "subtipo": "Goblin das Tempestades",
+  "papel": "Soldado / Elementalista",
+  "tamanho": "Pequeno",
+  "nivel_poder": 3,
+  "ambientes": [
+    "Montanhas Tempestuosas",
+    "Terras Altas",
+    "Ruínas Arcanas"
+  ],
+  "descricao": "Pele eriçada e azulada com arcos elétricos faiscando entre os dentes e unhas. Acumula estática ao se movimentar.",
+  "tatica": "Move-se acrobaticamente para carregar eletricidade estática e descarrega um toque de alta voltagem ou estalo em linha.",
+  "fonte": "Goblestiário (D&D 5e), p. 115 (Goblin Elétrico), adaptado para M&M 3e",
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 1,
+      "Agi": 3,
+      "Des": 2,
+      "Lut": 3,
+      "Int": 0,
+      "Pro": 1,
+      "Pre": -1
+    },
+    "defesas": {
+      "Esquiva": 4,
+      "Aparar": 3,
+      "Fortitude": 3,
+      "Resistencia": 2,
+      "Vontade": 2
+    },
+    "pericias": {
+      "Acrobacia": 6,
+      "Furtividade": 6,
+      "Percepção": 4,
+      "Combate Corpo-a-Corpo: Toque": 2
+    },
+    "vantagens": [
+      "Iniciativa Aprimorada",
+      "Agilidade Febril",
+      "Equipamento 1"
+    ],
+    "poderes": [
+      {
+        "nome": "Porte Pequeno",
+        "construcao": "Encolhimento 4 (-1 Força, +2 Esquiva/Aparar, +4 Furtividade, -2 Intimidação, Contínuo, Inato)."
+      },
+      {
+        "nome": "Visão no Escuro",
+        "construcao": "Sentidos 2 (Visão no Escuro)."
+      },
+      {
+        "nome": "Arranjo Elétrico: Toque Estático",
+        "construcao": "Dano 3 (Corpo a corpo, Elétrico; Penetrante 2)."
+      },
+      {
+        "nome": "Arranjo Elétrico: Estalo Relampejante",
+        "construcao": "Dano 2 (Área Linha 9m, Elétrico; Efeito Alternativo)."
+      },
+      {
+        "nome": "Resistência Elétrica",
+        "construcao": "Imunidade 5 (Dano Elétrico)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Toque Estático",
+        "bonus": 5,
+        "dano": 3,
+        "critico": 20,
+        "descricao": "Elétrico penetrante"
+      },
+      {
+        "nome": "Estalo em Linha",
+        "bonus": 0,
+        "dano": 2,
+        "descricao": "Área Linha (DC 12)"
+      }
+    ],
+    "equipamento": [
+      "Roupas de couro com fios de cobre (+1 Resistência)"
+    ]
+  }
+}

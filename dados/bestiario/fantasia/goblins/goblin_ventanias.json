@@ -1,0 +1,87 @@
+{
+  "id": "fantasia/goblins/goblin_ventanias",
+  "genero": "fantasia",
+  "familia": "Goblin",
+  "variante": "Das Ventanias (Goblestiário)",
+  "padrao": false,
+  "nome": "Goblin das Ventanias",
+  "tipo": "Goblinoide",
+  "subtipo": "Goblin Aéreo",
+  "papel": "Emboscador / Aéreo",
+  "tamanho": "Pequeno",
+  "nivel_poder": 3,
+  "ambientes": [
+    "Canyons",
+    "Montanhas Ventosas",
+    "Despenhadeiros"
+  ],
+  "descricao": "Flutua leve pelo ar preso a um balão rústico de couro e gás leve, saltando de penhascos sem fazer barulho.",
+  "tatica": "Paira acima do alcance corpo a corpo, sopra rajadas de vento para empurrar inimigos em abismos e desce cortando.",
+  "fonte": "Goblestiário (D&D 5e), p. 116 (Goblin das Ventanias), adaptado para M&M 3e",
+  "ficha": {
+    "habilidades": {
+      "For": -1,
+      "Vig": 0,
+      "Agi": 3,
+      "Des": 2,
+      "Lut": 2,
+      "Int": 0,
+      "Pro": 1,
+      "Pre": -1
+    },
+    "defesas": {
+      "Esquiva": 4,
+      "Aparar": 3,
+      "Fortitude": 2,
+      "Resistencia": 1,
+      "Vontade": 2
+    },
+    "pericias": {
+      "Acrobacia": 6,
+      "Furtividade": 8,
+      "Percepção": 4,
+      "Combate à Distância: Sopros": 2
+    },
+    "vantagens": [
+      "Ação em Movimento",
+      "Iniciativa Aprimorada",
+      "Equipamento 1"
+    ],
+    "poderes": [
+      {
+        "nome": "Porte Pequeno",
+        "construcao": "Encolhimento 4 (-1 Força, +2 Esquiva/Aparar, +4 Furtividade, -2 Intimidação, Contínuo, Inato)."
+      },
+      {
+        "nome": "Visão no Escuro",
+        "construcao": "Sentidos 2 (Visão no Escuro)."
+      },
+      {
+        "nome": "Balão Flutuador",
+        "construcao": "Voo 1 (Balão de gás amarrado à cintura)."
+      },
+      {
+        "nome": "Rajada Ventosa",
+        "construcao": "Mover Objetos 2 (Área Cone, Perto; Limitado a empurrar inimigos para trás)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Rajada de Vento",
+        "bonus": 0,
+        "dano": 2,
+        "descricao": "Área de Cone (Derrubar/Empurrar)"
+      },
+      {
+        "nome": "Garras / Foice Pequena",
+        "bonus": 3,
+        "dano": 2,
+        "critico": 19
+      }
+    ],
+    "equipamento": [
+      "Arreios de seda e couro leve (+1 Resistência)",
+      "Foice pequena (Dano 2)"
+    ]
+  }
+}

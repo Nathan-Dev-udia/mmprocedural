@@ -1,0 +1,89 @@
+{
+  "id": "fantasia/dragoes/dragao_vermelho",
+  "nome": "Dragão Vermelho Jovem",
+  "tipo": "Dragão",
+  "subtipo": "Dragão Cromático",
+  "papel": "Chefe (Solo)",
+  "tamanho": "Grande",
+  "nivel_poder": 10,
+  "ambientes": [
+    "Montanhas Vulcânicas",
+    "Cavernas de Magma",
+    "Picos Altos"
+  ],
+  "descricao": "Tirano reptiliano alado com escamas que brilham como brasas e hálito incandescente de fogo líquido.",
+  "tatica": "Sobrevoa o campo varrendo com sopro de fogo antes de aterrissar para despedaçar os sobreviventes com garras e cauda.",
+  "fonte": "Guia do Mestre de Jogo, p. 237 (Dragão) e D&D 5e Monster Manual",
+  "ficha": {
+    "habilidades": {
+      "For": 10,
+      "Vig": 8,
+      "Agi": 1,
+      "Des": 0,
+      "Lut": 7,
+      "Int": 2,
+      "Pro": 3,
+      "Pre": 4
+    },
+    "defesas": {
+      "Esquiva": 6,
+      "Aparar": 6,
+      "Fortitude": 11,
+      "Resistencia": 12,
+      "Vontade": 9
+    },
+    "pericias": {
+      "Percepção": 8,
+      "Intimidação": 10,
+      "Atletismo": 4,
+      "Furtividade": 2
+    },
+    "vantagens": [
+      "Ataque Poderoso",
+      "Iniciativa Aprimorada",
+      "Presença Aterrorizante 4",
+      "Agarrar Aprimorado"
+    ],
+    "poderes": [
+      {
+        "nome": "Sopro de Fogo",
+        "construcao": "Dano 10 (Área Cone, Fogo)."
+      },
+      {
+        "nome": "Voo Alado",
+        "construcao": "Voo 5 (100 km/h, Asas)."
+      },
+      {
+        "nome": "Escamas de Dragão",
+        "construcao": "Proteção 4 (Impenetrável 4)."
+      },
+      {
+        "nome": "Imunidade ao Fogo",
+        "construcao": "Imunidade 10 (efeitos de calor e fogo)."
+      },
+      {
+        "nome": "Sentidos Draconianos",
+        "construcao": "Sentidos 5 (Visão no Escuro, Sentido Sísmico, Olfato Aguçado)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Sopro de Fogo",
+        "bonus": 0,
+        "dano": 10,
+        "descricao": "Área de cone (DC 20 de Esquiva para metade)"
+      },
+      {
+        "nome": "Mordida / Garras",
+        "bonus": 7,
+        "dano": 10,
+        "critico": 19
+      }
+    ],
+    "equipamento": []
+  },
+  "genero": "fantasia",
+  "familia": "Dragão Vermelho",
+  "variante": "Jovem",
+  "padrao": true
+}

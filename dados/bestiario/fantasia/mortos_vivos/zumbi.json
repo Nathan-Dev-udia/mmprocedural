@@ -1,0 +1,62 @@
+{
+  "id": "fantasia/mortos_vivos/zumbi",
+  "nome": "Zumbi",
+  "tipo": "Morto-Vivo",
+  "subtipo": "Zumbi",
+  "papel": "Bruto / Lacaio",
+  "tamanho": "Médio",
+  "nivel_poder": 2,
+  "ambientes": [
+    "Criptas",
+    "Pântanos",
+    "Cemitérios",
+    "Campos de Batalha"
+  ],
+  "descricao": "Cadáver apodrecido reerguido por magia negra. Lento e irracional, mas implacável.",
+  "tatica": "Marcha lentamente em direção à carne viva, ignorando ferimentos até agarrar e dilacerar o alvo.",
+  "fonte": "Guia do Mestre de Jogo, p. 255 (Zumbi)",
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": -5,
+      "Agi": -1,
+      "Des": -1,
+      "Lut": 1,
+      "Int": -5,
+      "Pro": -1,
+      "Pre": -5
+    },
+    "defesas": {
+      "Esquiva": 0,
+      "Aparar": 1,
+      "Fortitude": 0,
+      "Resistencia": 3,
+      "Vontade": -1
+    },
+    "pericias": {},
+    "vantagens": [],
+    "poderes": [
+      {
+        "nome": "Fisiologia de Zumbi",
+        "construcao": "Imunidade 30 (efeitos de Fortitude)."
+      },
+      {
+        "nome": "Carne Morta",
+        "construcao": "Proteção 3."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Pancada",
+        "bonus": 1,
+        "dano": 2,
+        "critico": 20
+      }
+    ],
+    "equipamento": []
+  },
+  "genero": "fantasia",
+  "familia": "Zumbi",
+  "variante": "Comum",
+  "padrao": true
+}

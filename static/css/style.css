@@ -506,3 +506,159 @@ a.botao { text-decoration: none; display: inline-block; }
   .ficha-heroi { position: static; }
   .habilidades-heroi { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 }
+
+
+/* Bestiário */
+.bestiario {
+  display: grid;
+  grid-template-columns: minmax(280px, 360px) 1fr;
+  gap: 16px;
+  align-items: start;
+  margin-top: 16px;
+}
+.lista-de-criaturas .barra-resultado { margin-top: 0; }
+.lista-criaturas {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 70vh;
+  overflow-y: auto;
+  display: grid;
+  gap: 6px;
+}
+.item-criatura {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.info-criatura {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.tags-criatura {
+  display: flex;
+  gap: 4px;
+  font-size: 0.75rem;
+}
+.badge-tipo {
+  background: rgba(192, 57, 43, 0.15);
+  color: var(--destaque);
+  padding: 1px 6px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+.badge-papel {
+  background: var(--campo-forte);
+  color: var(--tinta-suave);
+  padding: 1px 6px;
+  border-radius: 4px;
+}
+.badge-np {
+  font-weight: 700;
+  color: var(--destaque);
+  font-size: 0.85rem;
+}
+.ficha-criatura { position: sticky; top: 16px; }
+.cabecalho-criatura {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.badge-np-ficha {
+  font-size: 1.1rem;
+  font-weight: 800;
+  background: var(--destaque);
+  color: #fff;
+  padding: 2px 10px;
+  border-radius: 6px;
+}
+.descricao-criatura {
+  font-style: italic;
+  color: var(--tinta-suave);
+  margin-top: 4px;
+}
+.acoes-ficha {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.botao.sucesso {
+  background: #27ae60 !important;
+  color: #fff !important;
+}
+@media (max-width: 800px) {
+  .bestiario { grid-template-columns: 1fr; }
+  .lista-criaturas { max-height: 45vh; }
+  .ficha-criatura { position: static; }
+}
+
+
+/* Variantes no Bestiário */
+.variantes-container {
+  background: var(--campo);
+  border: 1px solid var(--borda);
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin: 10px 0;
+}
+.variantes-titulo {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--tinta-suave);
+  display: block;
+  margin-bottom: 6px;
+}
+.variantes-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.chip-variante {
+  font: inherit;
+  font-size: 0.8rem;
+  background: var(--campo-forte);
+  color: var(--tinta);
+  border: 1px solid var(--borda);
+  border-radius: 6px;
+  padding: 4px 8px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.15s ease;
+}
+.chip-variante:hover {
+  border-color: var(--destaque);
+}
+.chip-variante.ativo {
+  background: var(--destaque);
+  color: #fff;
+  border-color: var(--destaque);
+  font-weight: 700;
+}
+.chip-variante.ativo small {
+  color: rgba(255, 255, 255, 0.85);
+}
+.badge-variantes {
+  background: rgba(41, 128, 185, 0.15);
+  color: #2980b9;
+  font-size: 0.7rem;
+  padding: 1px 5px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+.controle-agrupamento {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  color: var(--tinta-suave);
+  cursor: pointer;
+  margin-left: auto;
+}
+.controle-agrupamento input {
+  cursor: pointer;
+}

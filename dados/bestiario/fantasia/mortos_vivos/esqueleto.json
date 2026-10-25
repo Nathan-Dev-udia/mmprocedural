@@ -1,0 +1,64 @@
+{
+  "id": "fantasia/mortos_vivos/esqueleto",
+  "nome": "Esqueleto",
+  "tipo": "Morto-Vivo",
+  "subtipo": "Esqueleto",
+  "papel": "Lacaio",
+  "tamanho": "Médio",
+  "nivel_poder": 2,
+  "ambientes": [
+    "Criptas",
+    "Masmorras",
+    "Cemitérios",
+    "Ruínas"
+  ],
+  "descricao": "Ossos de um guerreiro antigo erguidos por necromancia. Não sente dor, não cansa e não teme nada.",
+  "tatica": "Avança em linha reta contra o inimigo mais próximo, atacando sem hesitação até ser reduzido a pó.",
+  "fonte": "Guia do Mestre de Jogo, p. 255 (Esqueleto)",
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": -5,
+      "Agi": 1,
+      "Des": 0,
+      "Lut": 1,
+      "Int": -5,
+      "Pro": -1,
+      "Pre": -5
+    },
+    "defesas": {
+      "Esquiva": 1,
+      "Aparar": 1,
+      "Fortitude": 0,
+      "Resistencia": 2,
+      "Vontade": -1
+    },
+    "pericias": {},
+    "vantagens": [
+      "Iniciativa Aprimorada"
+    ],
+    "poderes": [
+      {
+        "nome": "Fisiologia Esquelética",
+        "construcao": "Imunidade 45 (efeitos de Fortitude, frio, meio dano por corte e perfuração)."
+      },
+      {
+        "nome": "Ossos Duros",
+        "construcao": "Proteção 2."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Garras / Pancada",
+        "bonus": 1,
+        "dano": 2,
+        "critico": 20
+      }
+    ],
+    "equipamento": []
+  },
+  "genero": "fantasia",
+  "familia": "Esqueleto",
+  "variante": "Comum",
+  "padrao": true
+}

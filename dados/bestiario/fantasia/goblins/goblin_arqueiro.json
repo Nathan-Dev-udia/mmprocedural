@@ -1,0 +1,82 @@
+{
+  "id": "fantasia/goblins/goblin_arqueiro",
+  "genero": "fantasia",
+  "familia": "Goblin",
+  "variante": "Arqueiro",
+  "padrao": false,
+  "nome": "Goblin Arqueiro",
+  "tipo": "Goblinoide",
+  "subtipo": "Goblin",
+  "papel": "Emboscador / Atirador",
+  "tamanho": "Pequeno",
+  "nivel_poder": 3,
+  "ambientes": [
+    "Copas de Árvores",
+    "Penhascos",
+    "Muralhas de Ruínas"
+  ],
+  "descricao": "Atirador experiente que passa o dia empoleirado em galhos altos ou telhados, com flechas preparadas.",
+  "tatica": "Atira de cima e de longe, escolhe quem está sem armadura e troca de esconderijo a cada disparo.",
+  "fonte": "D&D 5e e M&M 3e Fantasia",
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 0,
+      "Agi": 3,
+      "Des": 2,
+      "Lut": 2,
+      "Int": 0,
+      "Pro": 1,
+      "Pre": -1
+    },
+    "defesas": {
+      "Esquiva": 4,
+      "Aparar": 3,
+      "Fortitude": 1,
+      "Resistencia": 1,
+      "Vontade": 1
+    },
+    "pericias": {
+      "Furtividade": 8,
+      "Percepção": 6,
+      "Combate à Distância: Arcos": 2,
+      "Atletismo": 4
+    },
+    "vantagens": [
+      "Mira Aprimorada",
+      "Ataque Preciso (À Distância; Cobertura)",
+      "Iniciativa Aprimorada",
+      "Equipamento 2"
+    ],
+    "poderes": [
+      {
+        "nome": "Porte Pequeno",
+        "construcao": "Encolhimento 4 (-1 Força, +2 Esquiva/Aparar, +4 Furtividade, -2 Intimidação, Contínuo, Inato)."
+      },
+      {
+        "nome": "Visão no Escuro",
+        "construcao": "Sentidos 2 (Visão no Escuro)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Arco Curto de Precisão",
+        "bonus": 4,
+        "dano": 2,
+        "critico": 19,
+        "descricao": "À distância"
+      },
+      {
+        "nome": "Adaga",
+        "bonus": 2,
+        "dano": 1,
+        "critico": 19
+      }
+    ],
+    "equipamento": [
+      "Couro leve (+1 Resistência)",
+      "Arco curto de caça (Dano 2, Crítico 19-20)",
+      "Adaga (Dano 1)"
+    ]
+  }
+}

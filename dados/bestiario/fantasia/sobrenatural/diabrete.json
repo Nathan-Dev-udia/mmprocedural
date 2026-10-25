@@ -1,0 +1,82 @@
+{
+  "id": "fantasia/sobrenatural/diabrete",
+  "nome": "Diabrete",
+  "tipo": "Demônio",
+  "subtipo": "Demônio Menor",
+  "papel": "Lacaio / Espião",
+  "tamanho": "Miúdo",
+  "nivel_poder": 4,
+  "ambientes": [
+    "Planos Infernais",
+    "Covis de Bruxas",
+    "Bibliotecas Proibidas"
+  ],
+  "descricao": "Demônio diminuto de pele escamosa e asas de morcego que sussurra mentiras e envenena os fracos.",
+  "tatica": "Fica invisível, aguarda o momento propício e ataca pelas costas com o ferrão venenoso.",
+  "fonte": "Guia do Mestre de Jogo, p. 233 (Demônio, Diabrete)",
+  "ficha": {
+    "habilidades": {
+      "For": -1,
+      "Vig": 1,
+      "Agi": 3,
+      "Des": 2,
+      "Lut": 2,
+      "Int": 1,
+      "Pro": 1,
+      "Pre": 2
+    },
+    "defesas": {
+      "Esquiva": 5,
+      "Aparar": 4,
+      "Fortitude": 3,
+      "Resistencia": 1,
+      "Vontade": 4
+    },
+    "pericias": {
+      "Enganação": 6,
+      "Furtividade": 8,
+      "Percepção": 4,
+      "Intuição": 4
+    },
+    "vantagens": [
+      "Iniciativa Aprimorada",
+      "Zombar"
+    ],
+    "poderes": [
+      {
+        "nome": "Porte Miúdo",
+        "construcao": "Encolhimento 4 (-1 Força, +2 Esquiva/Aparar, +4 Furtividade, -2 Intimidação, Contínuo, Inato)."
+      },
+      {
+        "nome": "Asas de Morcego",
+        "construcao": "Voo 2 (Asas)."
+      },
+      {
+        "nome": "Invisibilidade Mágica",
+        "construcao": "Ocultamento 2 (Visão)."
+      },
+      {
+        "nome": "Ferrão Venenoso",
+        "construcao": "Aflição 4 (Enjoado, Exausto, Incapacitado; resistido por Fortitude), Cumulativo, Ligado a Dano 1."
+      },
+      {
+        "nome": "Imunidades Infernais",
+        "construcao": "Imunidade 5 (Fogo, Veneno)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Ferrão Venenoso",
+        "bonus": 4,
+        "dano": 1,
+        "critico": 20,
+        "descricao": "Dano 1 + Aflição 4 (Veneno)"
+      }
+    ],
+    "equipamento": []
+  },
+  "genero": "fantasia",
+  "familia": "Demônio",
+  "variante": "Diabrete",
+  "padrao": false
+}

@@ -1,0 +1,86 @@
+{
+  "id": "fantasia/goblins/hobgoblin_capitao",
+  "genero": "fantasia",
+  "familia": "Hobgoblin",
+  "variante": "Capitão",
+  "padrao": false,
+  "nome": "Hobgoblin Capitão",
+  "tipo": "Goblinoide",
+  "subtipo": "Hobgoblin",
+  "papel": "Líder / Soldado",
+  "tamanho": "Médio",
+  "nivel_poder": 7,
+  "ambientes": [
+    "Cidadelas",
+    "Quartéis-Generais",
+    "Vanguarda de Guerra"
+  ],
+  "descricao": "Oficial veterano de peitoral reluzente e capa militar. Inspira medo e disciplina absoluta em suas tropas.",
+  "tatica": "Comanda manobras coordenadas, usa liderança para remover atordoamentos dos soldados e golpeia com lâmina de precisão.",
+  "fonte": "D&D 5e (Hobgoblin Captain)",
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 3,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 6,
+      "Int": 2,
+      "Pro": 2,
+      "Pre": 3
+    },
+    "defesas": {
+      "Esquiva": 6,
+      "Aparar": 7,
+      "Fortitude": 7,
+      "Resistencia": 7,
+      "Vontade": 6
+    },
+    "pericias": {
+      "Intimidação": 8,
+      "Especialidade: Tática": 8,
+      "Percepção": 6,
+      "Persuasão": 4,
+      "Atletismo": 4
+    },
+    "vantagens": [
+      "Liderança",
+      "Inspirar 2",
+      "Trabalho em Equipe",
+      "Ataque Dominó",
+      "Ataque Poderoso",
+      "Equipamento 4"
+    ],
+    "poderes": [
+      {
+        "nome": "Visão no Escuro",
+        "construcao": "Sentidos 2 (Visão no Escuro)."
+      },
+      {
+        "nome": "Vantagem Marcial",
+        "construcao": "Dano baseado em Força aumentado em +2 quando um aliado está adjacente ao mesmo inimigo."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Espada Bastarda",
+        "bonus": 7,
+        "dano": 6,
+        "critico": 19
+      },
+      {
+        "nome": "Arco Longo Pesado",
+        "bonus": 6,
+        "dano": 4,
+        "critico": 20,
+        "descricao": "À distância"
+      }
+    ],
+    "equipamento": [
+      "Couraça de aço e malha (+4 Resistência)",
+      "Escudo pesado (+1 Esquiva/Aparar)",
+      "Espada bastarda (Dano 3)",
+      "Arco longo (Dano 4)"
+    ]
+  }
+}

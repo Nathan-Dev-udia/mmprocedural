@@ -922,6 +922,11 @@ document.addEventListener("DOMContentLoaded", () => {
   prepararAbaNpc();
   document.querySelectorAll(".aba").forEach((b) => b.addEventListener("click", () => trocarAba(b.dataset.aba)));
   let inicial = "jogador";
-  try { inicial = localStorage.getItem("aba") || inicial; } catch { /* armazenamento indisponível */ }
+  const urlAba = new URLSearchParams(location.search).get("aba");
+  if (urlAba) {
+    inicial = urlAba;
+  } else {
+    try { inicial = localStorage.getItem("aba") || inicial; } catch { /* armazenamento indisponível */ }
+  }
   trocarAba(inicial);
 });

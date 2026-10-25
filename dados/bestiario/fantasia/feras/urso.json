@@ -1,0 +1,79 @@
+{
+  "id": "fantasia/feras/urso",
+  "nome": "Urso Marrom",
+  "tipo": "Besta",
+  "subtipo": "Ursídeo",
+  "papel": "Bruto",
+  "tamanho": "Grande",
+  "nivel_poder": 6,
+  "ambientes": [
+    "Florestas",
+    "Montanhas",
+    "Rios"
+  ],
+  "descricao": "Monstro de músculos e pelos que ergue quase quatro metros sobre as patas traseiras.",
+  "tatica": "Ataca com patadas pesadas e abraça a presa para esmagar ossos.",
+  "fonte": "Guia do Mestre de Jogo, p. 229 (Urso)",
+  "ficha": {
+    "habilidades": {
+      "For": 6,
+      "Vig": 6,
+      "Agi": 1,
+      "Des": 0,
+      "Lut": 4,
+      "Int": -4,
+      "Pro": 2,
+      "Pre": -2
+    },
+    "defesas": {
+      "Esquiva": 3,
+      "Aparar": 3,
+      "Fortitude": 7,
+      "Resistencia": 7,
+      "Vontade": 4
+    },
+    "pericias": {
+      "Percepção": 4,
+      "Atletismo": 6,
+      "Intimidação": 4
+    },
+    "vantagens": [
+      "Agarrar Aprimorado",
+      "Estrangular",
+      "Ataque Poderoso"
+    ],
+    "poderes": [
+      {
+        "nome": "Porte Enorme",
+        "construcao": "Crescimento 4 (Força +4, Vigor +4, Proteção +4, Contínuo, Inato)."
+      },
+      {
+        "nome": "Couro Espesso",
+        "construcao": "Proteção 1."
+      },
+      {
+        "nome": "Faro Fino",
+        "construcao": "Sentidos 2 (Olfato Aguçado, Rastrear por Olfato)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Garras",
+        "bonus": 4,
+        "dano": 6,
+        "critico": 20
+      },
+      {
+        "nome": "Mordida",
+        "bonus": 4,
+        "dano": 6,
+        "critico": 20
+      }
+    ],
+    "equipamento": []
+  },
+  "genero": "fantasia",
+  "familia": "Urso",
+  "variante": "Marrom",
+  "padrao": true
+}

@@ -1,0 +1,89 @@
+{
+  "id": "fantasia/goblins/goblin_areia",
+  "genero": "fantasia",
+  "familia": "Goblin",
+  "variante": "De Areia (Goblestiário)",
+  "padrao": false,
+  "nome": "Goblin de Areia",
+  "tipo": "Goblinoide",
+  "subtipo": "Goblin do Deserto",
+  "papel": "Emboscador",
+  "tamanho": "Pequeno",
+  "nivel_poder": 3,
+  "ambientes": [
+    "Desertos",
+    "Dunas",
+    "Terras Áridas",
+    "Canyons"
+  ],
+  "descricao": "Nativo de mares de areia que desliza pelas dunas como água e manipula grãos de sílica por magia inata.",
+  "tatica": "Enterra-se nas dunas, surge cegando o alvo com rajada de areia nos olhos e ataca enquanto o oponente está cego.",
+  "fonte": "Goblestiário (D&D 5e), p. 113 (Goblin de Areia), adaptado para M&M 3e",
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 1,
+      "Agi": 3,
+      "Des": 2,
+      "Lut": 2,
+      "Int": 0,
+      "Pro": 1,
+      "Pre": -1
+    },
+    "defesas": {
+      "Esquiva": 4,
+      "Aparar": 3,
+      "Fortitude": 3,
+      "Resistencia": 2,
+      "Vontade": 2
+    },
+    "pericias": {
+      "Furtividade": 8,
+      "Percepção": 4,
+      "Especialidade: Sobrevivência (Deserto)": 6,
+      "Combate à Distância: Magia": 2
+    },
+    "vantagens": [
+      "Ambiente Favorito (Deserto)",
+      "Esconder-se à Plena Vista",
+      "Iniciativa Aprimorada",
+      "Equipamento 1"
+    ],
+    "poderes": [
+      {
+        "nome": "Porte Pequeno",
+        "construcao": "Encolhimento 4 (-1 Força, +2 Esquiva/Aparar, +4 Furtividade, -2 Intimidação, Contínuo, Inato)."
+      },
+      {
+        "nome": "Visão no Escuro",
+        "construcao": "Sentidos 2 (Visão no Escuro)."
+      },
+      {
+        "nome": "Rajada de Areia Cegante",
+        "construcao": "Aflição 3 (Visão prejudicada, desabilitada, cego; resistido por Fortitude; À Distância; Cumulativo)."
+      },
+      {
+        "nome": "Nadar na Areia",
+        "construcao": "Movimento 1 (Escavação 1 através de areia fofa)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Rajada de Areia",
+        "bonus": 4,
+        "dano": 0,
+        "descricao": "Aflição 3 de Cegueira à distância (DC 13)"
+      },
+      {
+        "nome": "Adaga de Vidro",
+        "bonus": 3,
+        "dano": 2,
+        "critico": 19
+      }
+    ],
+    "equipamento": [
+      "Traje de nômades do deserto (+1 Resistência)",
+      "Adagas de vidro vulcânico (Dano 2)"
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id": "fantasia/goblins/goblin_quebra_gelo",
+  "genero": "fantasia",
+  "familia": "Goblin",
+  "variante": "Quebra-Gelo (Goblestiário)",
+  "padrao": false,
+  "nome": "Goblin Quebra-Gelo",
+  "tipo": "Goblinoide",
+  "subtipo": "Goblin Ártico",
+  "papel": "Bruto",
+  "tamanho": "Pequeno",
+  "nivel_poder": 3,
+  "ambientes": [
+    "Geleiras",
+    "Cavernas de Neve",
+    "Picos Congelados"
+  ],
+  "descricao": "Goblin troncudo da neve coberto de gordura de foca e peles grossas, armado de picaretas e clavas de gelo.",
+  "tatica": "Avança como ariete quebrando estruturas de gelo, pontes e armaduras sem se importar com ferimentos.",
+  "fonte": "Goblestiário (D&D 5e), p. 56 (Goblin Quebra-Gelo), adaptado para M&M 3e",
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 1,
+      "Des": 0,
+      "Lut": 3,
+      "Int": -1,
+      "Pro": 1,
+      "Pre": -1
+    },
+    "defesas": {
+      "Esquiva": 3,
+      "Aparar": 3,
+      "Fortitude": 4,
+      "Resistencia": 3,
+      "Vontade": 1
+    },
+    "pericias": {
+      "Atletismo": 4,
+      "Intimidação": 4,
+      "Percepção": 2,
+      "Especialidade: Sobrevivência (Gelo)": 4
+    },
+    "vantagens": [
+      "Ataque Poderoso",
+      "Quebrar Aprimorado",
+      "Duro de Matar",
+      "Equipamento 1"
+    ],
+    "poderes": [
+      {
+        "nome": "Porte Pequeno",
+        "construcao": "Encolhimento 4 (-1 Força, +2 Esquiva/Aparar, +4 Furtividade, -2 Intimidação, Contínuo, Inato)."
+      },
+      {
+        "nome": "Visão no Escuro",
+        "construcao": "Sentidos 2 (Visão no Escuro)."
+      },
+      {
+        "nome": "Resistência ao Frio",
+        "construcao": "Imunidade 2 (Frio Ambiental Extremo, Efeitos de Resfriamento)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Picareta de Quebrar Gelo",
+        "bonus": 3,
+        "dano": 3,
+        "critico": 19,
+        "descricao": "Crítico 19-20, Quebra itens"
+      },
+      {
+        "nome": "Mordida / Cabeçada",
+        "bonus": 3,
+        "dano": 2,
+        "critico": 20
+      }
+    ],
+    "equipamento": [
+      "Casaco de pele de urso e gelo (+1 Resistência)",
+      "Picareta pesada (Dano 1)"
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "fantasia/goblins/hobgoblin_soldado",
+  "genero": "fantasia",
+  "familia": "Hobgoblin",
+  "variante": "Soldado",
+  "padrao": true,
+  "nome": "Hobgoblin Soldado",
+  "tipo": "Goblinoide",
+  "subtipo": "Hobgoblin",
+  "papel": "Soldado",
+  "tamanho": "Médio",
+  "nivel_poder": 5,
+  "ambientes": [
+    "Fortalezas",
+    "Acampamentos",
+    "Colinas",
+    "Fronteiras"
+  ],
+  "descricao": "Soldado disciplinado de infantaria pesada que encara o combate como ciência militar rigorosa.",
+  "tatica": "Mantém parede de escudos e formação cerrada, concentrando fogo de arcos nos oponentes mais perigosos.",
+  "fonte": "Guia do Mestre de Jogo, p. 248 (Soldado, adaptado a hobgoblin)",
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 4,
+      "Int": 0,
+      "Pro": 1,
+      "Pre": 1
+    },
+    "defesas": {
+      "Esquiva": 4,
+      "Aparar": 5,
+      "Fortitude": 5,
+      "Resistencia": 5,
+      "Vontade": 3
+    },
+    "pericias": {
+      "Percepção": 4,
+      "Intimidação": 4,
+      "Especialidade: Tática": 4,
+      "Atletismo": 4
+    },
+    "vantagens": [
+      "Trabalho em Equipe",
+      "Ataque Defensivo",
+      "Equipamento 4"
+    ],
+    "poderes": [
+      {
+        "nome": "Visão no Escuro",
+        "construcao": "Sentidos 2 (Visão no Escuro)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Espada Longa",
+        "bonus": 5,
+        "dano": 4,
+        "critico": 19
+      },
+      {
+        "nome": "Arco Longo",
+        "bonus": 4,
+        "dano": 3,
+        "critico": 20,
+        "descricao": "À distância"
+      }
+    ],
+    "equipamento": [
+      "Cota de malha (+3 Resistência)",
+      "Escudo (+1 Esquiva/Aparar)",
+      "Espada longa (Dano 2 baseado em Força)",
+      "Arco longo (Dano 3)"
+    ]
+  }
+}

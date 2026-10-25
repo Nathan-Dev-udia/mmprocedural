@@ -1,0 +1,75 @@
+{
+  "id": "fantasia/feras/lobo_atroz",
+  "nome": "Lobo Atroz",
+  "tipo": "Besta",
+  "subtipo": "Canídeo Monstruoso",
+  "papel": "Bruto / Predador",
+  "tamanho": "Grande",
+  "nivel_poder": 5,
+  "ambientes": [
+    "Florestas Ancestrais",
+    "Montanhas",
+    "Ermos Gélidos"
+  ],
+  "descricao": "Versão pré-histórica gigantesca do lobo comum, do tamanho de um cavalo e muito mais feroz.",
+  "tatica": "Investe em carga esmagadora para arremessar cavalos e cavaleiros ao chão com facilidade.",
+  "fonte": "Manual dos Monstros (D&D 5e) e M&M 3e GMG",
+  "ficha": {
+    "habilidades": {
+      "For": 4,
+      "Vig": 4,
+      "Agi": 2,
+      "Des": 0,
+      "Lut": 4,
+      "Int": -4,
+      "Pro": 2,
+      "Pre": -1
+    },
+    "defesas": {
+      "Esquiva": 4,
+      "Aparar": 4,
+      "Fortitude": 6,
+      "Resistencia": 6,
+      "Vontade": 3
+    },
+    "pericias": {
+      "Percepção": 6,
+      "Furtividade": 4,
+      "Atletismo": 6,
+      "Intimidação": 4
+    },
+    "vantagens": [
+      "Derrubar Aprimorado",
+      "Agarrar Aprimorado",
+      "Ataque Poderoso",
+      "Iniciativa Aprimorada"
+    ],
+    "poderes": [
+      {
+        "nome": "Porte Grande",
+        "construcao": "Crescimento 2 (Força +2, Vigor +2, Proteção +2, Contínuo, Inato)."
+      },
+      {
+        "nome": "Sentidos Aguçados",
+        "construcao": "Sentidos 4 (Olfato Aguçado, Rastrear por Olfato, Audição Ultrassônica, Visão na Penumbra)."
+      },
+      {
+        "nome": "Velocidade da Fera",
+        "construcao": "Velocidade 2."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Mordida Feroz",
+        "bonus": 4,
+        "dano": 6,
+        "critico": 20
+      }
+    ],
+    "equipamento": []
+  },
+  "genero": "fantasia",
+  "familia": "Lobo",
+  "variante": "Atroz",
+  "padrao": false
+}

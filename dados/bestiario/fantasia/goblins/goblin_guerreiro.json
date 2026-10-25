@@ -1,0 +1,81 @@
+{
+  "id": "fantasia/goblins/goblin_guerreiro",
+  "genero": "fantasia",
+  "familia": "Goblin",
+  "variante": "Guerreiro",
+  "padrao": false,
+  "nome": "Goblin Guerreiro",
+  "tipo": "Goblinoide",
+  "subtipo": "Goblin",
+  "papel": "Soldado",
+  "tamanho": "Pequeno",
+  "nivel_poder": 3,
+  "ambientes": [
+    "Cavernas",
+    "Montanhas",
+    "Ruínas",
+    "Masmorras"
+  ],
+  "descricao": "Combatente goblin da vanguarda, mais agressivo e equipado com cimitarra e broquel.",
+  "tatica": "Flanqueia os alvos em conjunto com outros guerreiros enquanto os saqueadores cobrem com flechas.",
+  "fonte": "Guia do Mestre de Jogo, p. 251 (adaptado a goblin)",
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 1,
+      "Agi": 2,
+      "Des": 1,
+      "Lut": 3,
+      "Int": 0,
+      "Pro": 1,
+      "Pre": -1
+    },
+    "defesas": {
+      "Esquiva": 4,
+      "Aparar": 4,
+      "Fortitude": 2,
+      "Resistencia": 2,
+      "Vontade": 1
+    },
+    "pericias": {
+      "Furtividade": 6,
+      "Percepção": 4,
+      "Atletismo": 2
+    },
+    "vantagens": [
+      "Ataque Dominó",
+      "Ataque Poderoso",
+      "Equipamento 2"
+    ],
+    "poderes": [
+      {
+        "nome": "Porte Pequeno",
+        "construcao": "Encolhimento 4 (-1 Força, +2 Esquiva/Aparar, +4 Furtividade, -2 Intimidação, Contínuo, Inato)."
+      },
+      {
+        "nome": "Visão no Escuro",
+        "construcao": "Sentidos 2 (Visão no Escuro)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Cimitarra",
+        "bonus": 3,
+        "dano": 2,
+        "critico": 19
+      },
+      {
+        "nome": "Arco Curto",
+        "bonus": 3,
+        "dano": 2,
+        "critico": 20,
+        "descricao": "À distância"
+      }
+    ],
+    "equipamento": [
+      "Armadura de couro batido (+2 Resistência)",
+      "Cimitarra (Dano 1)",
+      "Arco curto (Dano 2)"
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "fantasia/mortos_vivos/sombra",
+  "genero": "fantasia",
+  "familia": "Sombra",
+  "variante": "Voraz",
+  "padrao": true,
+  "nome": "Sombra Voraz",
+  "tipo": "Morto-Vivo",
+  "subtipo": "Incorpóreo",
+  "papel": "Emboscador",
+  "tamanho": "Médio",
+  "nivel_poder": 5,
+  "ambientes": [
+    "Ruínas Escuras",
+    "Catacumbas",
+    "Criptas",
+    "Masmorras"
+  ],
+  "descricao": "Silhueta escura e sem feições que rasteja pelas paredes e pelo chão como uma mancha de óleo vivo. Seu toque rouba a força muscular de mortais.",
+  "tatica": "Atinge alvos a partir de paredes ou do teto, drena a Força do guerreiro mais forte até ele não aguentar o peso da própria armadura.",
+  "fonte": "Manual dos Monstros (D&D 5e)",
+  "ficha": {
+    "habilidades": {
+      "For": -5,
+      "Vig": -5,
+      "Agi": 3,
+      "Des": 1,
+      "Lut": 4,
+      "Int": -2,
+      "Pro": 1,
+      "Pre": -1
+    },
+    "defesas": {
+      "Esquiva": 5,
+      "Aparar": 5,
+      "Fortitude": 0,
+      "Resistencia": 5,
+      "Vontade": 5
+    },
+    "pericias": {
+      "Furtividade": 10,
+      "Percepção": 4
+    },
+    "vantagens": [
+      "Iniciativa Aprimorada",
+      "Esconder-se à Plena Vista"
+    ],
+    "poderes": [
+      {
+        "nome": "Natureza Incorpórea",
+        "construcao": "Insubstancial 4 (Incorpórea / Sombra, Afeta Corpóreo)."
+      },
+      {
+        "nome": "Fisiologia de Morto-Vivo",
+        "construcao": "Imunidade 30 (efeitos de Fortitude)."
+      },
+      {
+        "nome": "Camuflagem Sombria",
+        "construcao": "Ocultamento 2 (Visão; Limitado a penumbra e escuridão)."
+      },
+      {
+        "nome": "Dreno de Força",
+        "construcao": "Enfraquecer Força 5 (Resistido por Fortitude, Ligado ao Toque Incorpóreo)."
+      },
+      {
+        "nome": "Visão no Escuro",
+        "construcao": "Sentidos 2 (Visão no Escuro)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Toque Sombrio Drenador",
+        "bonus": 5,
+        "dano": 3,
+        "critico": 20,
+        "descricao": "Afeta Corpóreo + Enfraquecer Força 5"
+      }
+    ],
+    "equipamento": []
+  }
+}

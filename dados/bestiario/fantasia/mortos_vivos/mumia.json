@@ -1,0 +1,88 @@
+{
+  "id": "fantasia/mortos_vivos/mumia",
+  "genero": "fantasia",
+  "familia": "Múmia",
+  "variante": "Guardiã da Tumba",
+  "padrao": true,
+  "nome": "Múmia Guardiã",
+  "tipo": "Morto-Vivo",
+  "subtipo": "Múmia",
+  "papel": "Bruto / Chefe",
+  "tamanho": "Médio",
+  "nivel_poder": 7,
+  "ambientes": [
+    "Pirâmides",
+    "Câmaras Funerárias",
+    "Tumbas Esquecidas"
+  ],
+  "descricao": "Cadáver ressecado envolto em faixas de linho embebidas em óleos arcanos. Seu olhar congela de terror e seu toque apodrece a carne dos vivos.",
+  "tatica": "Paralisa os invasores com seu Olhar Aterrorizante e esmaga o mais próximo com pancadas que transmitem a Maldição da Podridão.",
+  "fonte": "Manual dos Monstros (D&D 5e)",
+  "ficha": {
+    "habilidades": {
+      "For": 6,
+      "Vig": -5,
+      "Agi": -1,
+      "Des": 0,
+      "Lut": 5,
+      "Int": -2,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "defesas": {
+      "Esquiva": 4,
+      "Aparar": 5,
+      "Fortitude": 0,
+      "Resistencia": 9,
+      "Vontade": 7
+    },
+    "pericias": {
+      "Intimidação": 8,
+      "Percepção": 4,
+      "Especialidade: Religião Arcaica": 4
+    },
+    "vantagens": [
+      "Iniciativa Aprimorada",
+      "Ataque Poderoso",
+      "Duro de Matar 2"
+    ],
+    "poderes": [
+      {
+        "nome": "Fisiologia de Múmia",
+        "construcao": "Imunidade 30 (efeitos de Fortitude)."
+      },
+      {
+        "nome": "Carne Ressecada Amaldiçoada",
+        "construcao": "Proteção 9 (Impenetrável 6)."
+      },
+      {
+        "nome": "Vulnerabilidade ao Fogo",
+        "construcao": "Complicação: Sofre dano extra e tem defesas enfraquecidas contra fogo."
+      },
+      {
+        "nome": "Olhar Aterrorizante",
+        "construcao": "Aflição 7 (Tonto, Atordoado, Paralisado; resistido por Vontade; Área Olhar de Percepção)."
+      },
+      {
+        "nome": "Podridão da Múmia",
+        "construcao": "Enfraquecer Vigor 7 (Resistido por Fortitude; Incurável, Progressivo; Ligado a Pancada)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Pancada Amaldiçoada",
+        "bonus": 5,
+        "dano": 7,
+        "critico": 20,
+        "descricao": "Dano 7 + Enfraquecer Vigor 7 incurável"
+      },
+      {
+        "nome": "Olhar Aterrorizante",
+        "bonus": 0,
+        "dano": 0,
+        "descricao": "Área Percepção (DC 17 de Vontade)"
+      }
+    ],
+    "equipamento": []
+  }
+}

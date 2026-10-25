@@ -1,0 +1,84 @@
+{
+  "id": "fantasia/sobrenatural/bruxa_mar",
+  "genero": "fantasia",
+  "familia": "Bruxa",
+  "variante": "Bruxa do Mar",
+  "padrao": false,
+  "nome": "Bruxa do Mar",
+  "tipo": "Fada",
+  "subtipo": "Bruxa (Hag) Aquática",
+  "papel": "Emboscador / Maldição",
+  "tamanho": "Médio",
+  "nivel_poder": 5,
+  "ambientes": [
+    "Recifes Traiçoeiros",
+    "Navios Naufragados",
+    "Costas Nebulosas"
+  ],
+  "descricao": "Feiticeira litorânea deformada, com cabelos de algas escuras, escamas escorregadias e pele cadavérica cinzenta.",
+  "tatica": "Usa a Aparência Pavorosa para atordoar marinheiros e desfere o Olhar Mortal para parar o coração de quem fraquejar.",
+  "fonte": "Manual dos Monstros (D&D 5e)",
+  "ficha": {
+    "habilidades": {
+      "For": 4,
+      "Vig": 3,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 5,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "defesas": {
+      "Esquiva": 4,
+      "Aparar": 5,
+      "Fortitude": 5,
+      "Resistencia": 5,
+      "Vontade": 5
+    },
+    "pericias": {
+      "Enganação": 6,
+      "Intimidação": 6,
+      "Percepção": 4,
+      "Furtividade": 6,
+      "Atletismo": 4
+    },
+    "vantagens": [
+      "Iniciativa Aprimorada",
+      "Zombar"
+    ],
+    "poderes": [
+      {
+        "nome": "Adaptação Aquática",
+        "construcao": "Imunidade 2 (Sufocamento na água), Natação 3."
+      },
+      {
+        "nome": "Aparência Pavorosa",
+        "construcao": "Aflição 5 (Aterrorizado, Atordoado; resistido por Vontade; Área Olhar de Percepção)."
+      },
+      {
+        "nome": "Olhar Mortal",
+        "construcao": "Dano 5 (Resistido por Vontade; À Distância; Limitado a alvos já aterrorizados)."
+      },
+      {
+        "nome": "Disfarce de Donzela Afogada",
+        "construcao": "Morfar 1 (Forma de mulher afogada ou náufraga)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Garras Lodosas",
+        "bonus": 5,
+        "dano": 5,
+        "critico": 20
+      },
+      {
+        "nome": "Olhar Mortal",
+        "bonus": 4,
+        "dano": 5,
+        "descricao": "Resistido por Vontade (DC 15)"
+      }
+    ],
+    "equipamento": []
+  }
+}

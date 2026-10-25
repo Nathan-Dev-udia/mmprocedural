@@ -1,0 +1,81 @@
+{
+  "id": "fantasia/monstruosidades/ogro",
+  "genero": "fantasia",
+  "familia": "Ogro",
+  "variante": "Comum",
+  "padrao": true,
+  "nome": "Ogro",
+  "tipo": "Monstruosidade",
+  "subtipo": "Gigante Menor",
+  "papel": "Bruto",
+  "tamanho": "Grande",
+  "nivel_poder": 5,
+  "ambientes": [
+    "Colinas Rochosas",
+    "Pântanos",
+    "Acampamentos de Saque"
+  ],
+  "descricao": "Gigante corcunda de quase três metros e meio, ganancioso e glutão, com pele manchada e dentes tortos.",
+  "tatica": "Arremessa pedras pesadas enquanto fecha a distância, para então esmagar escudos com um tronco de árvore esculpido como clava.",
+  "fonte": "Manual dos Monstros (D&D 5e)",
+  "ficha": {
+    "habilidades": {
+      "For": 6,
+      "Vig": 5,
+      "Agi": 0,
+      "Des": -1,
+      "Lut": 4,
+      "Int": -3,
+      "Pro": -1,
+      "Pre": -2
+    },
+    "defesas": {
+      "Esquiva": 3,
+      "Aparar": 3,
+      "Fortitude": 6,
+      "Resistencia": 6,
+      "Vontade": 2
+    },
+    "pericias": {
+      "Intimidação": 6,
+      "Atletismo": 4,
+      "Percepção": 2
+    },
+    "vantagens": [
+      "Ataque Poderoso",
+      "Agarrar Aprimorado",
+      "Atropelar",
+      "Equipamento 1"
+    ],
+    "poderes": [
+      {
+        "nome": "Porte Grande",
+        "construcao": "Crescimento 2 (Força +2, Vigor +2, Proteção +2, Contínuo, Inato)."
+      },
+      {
+        "nome": "Visão no Escuro",
+        "construcao": "Sentidos 2 (Visão no Escuro)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Clava Gigante",
+        "bonus": 4,
+        "dano": 7,
+        "critico": 20,
+        "descricao": "Alcance 1,5m"
+      },
+      {
+        "nome": "Arremesso de Rocha",
+        "bonus": 3,
+        "dano": 6,
+        "critico": 20,
+        "descricao": "À distância"
+      }
+    ],
+    "equipamento": [
+      "Gibão de peles costuradas (+1 Resistência)",
+      "Grande clava (Dano 1)"
+    ]
+  }
+}

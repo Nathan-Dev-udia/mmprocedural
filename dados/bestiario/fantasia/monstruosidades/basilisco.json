@@ -1,0 +1,76 @@
+{
+  "id": "fantasia/monstruosidades/basilisco",
+  "genero": "fantasia",
+  "familia": "Basilisco",
+  "variante": "Petrificante",
+  "padrao": true,
+  "nome": "Basilisco",
+  "tipo": "Monstruosidade",
+  "subtipo": "Réptil",
+  "papel": "Emboscador / Perigo Fatal",
+  "tamanho": "Médio",
+  "nivel_poder": 5,
+  "ambientes": [
+    "Cavernas Profundas",
+    "Galerias Rochosas",
+    "Masmorras"
+  ],
+  "descricao": "Répitil pesado de oito patas, escamas cor de chumbo e olhos opacos que transformam carne viva em rocha sólida.",
+  "tatica": "Fixa o olhar nas criaturas que cruzam seu caminho; quem olha nos olhos do basilisco sente o corpo endurecer como mármore.",
+  "fonte": "Manual dos Monstros (D&D 5e)",
+  "ficha": {
+    "habilidades": {
+      "For": 4,
+      "Vig": 4,
+      "Agi": -1,
+      "Des": 0,
+      "Lut": 4,
+      "Int": -4,
+      "Pro": 1,
+      "Pre": -2
+    },
+    "defesas": {
+      "Esquiva": 3,
+      "Aparar": 3,
+      "Fortitude": 6,
+      "Resistencia": 7,
+      "Vontade": 4
+    },
+    "pericias": {
+      "Percepção": 4,
+      "Furtividade": 4
+    },
+    "vantagens": [
+      "Iniciativa Aprimorada"
+    ],
+    "poderes": [
+      {
+        "nome": "Olhar Petrificante",
+        "construcao": "Aflição 5 (Impedido, Imóvel, Transformado em Pedra permanente; resistido por Fortitude; Área Olhar de Percepção; Cumulativo)."
+      },
+      {
+        "nome": "Escamas Pétreas",
+        "construcao": "Proteção 3 (Impenetrável 3)."
+      },
+      {
+        "nome": "Visão no Escuro",
+        "construcao": "Sentidos 2 (Visão no Escuro)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Olhar Petrificante",
+        "bonus": 0,
+        "dano": 0,
+        "descricao": "Área Olhar de Percepção (DC 15 de Fortitude)"
+      },
+      {
+        "nome": "Mordida Esmagadora",
+        "bonus": 4,
+        "dano": 5,
+        "critico": 20
+      }
+    ],
+    "equipamento": []
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "fantasia/goblins/bugbear_brigao",
+  "genero": "fantasia",
+  "familia": "Bugbear",
+  "variante": "Brigão",
+  "padrao": false,
+  "nome": "Bugbear Brigão",
+  "tipo": "Goblinoide",
+  "subtipo": "Bugbear",
+  "papel": "Bruto",
+  "tamanho": "Grande",
+  "nivel_poder": 3,
+  "ambientes": [
+    "Tavernas Decadentes",
+    "Cavernas",
+    "Acampamentos"
+  ],
+  "descricao": "Goblinoide corpulento de pelos espessos que adora demonstrar força bruta quebrando móveis e oponentes.",
+  "tatica": "Atropela os alvos em investida e desfere socos pesados usando seu alcance superior.",
+  "fonte": "Guia do Mestre de Jogo, p. 251 (adaptado a bugbear)",
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 3,
+      "Agi": 0,
+      "Des": 0,
+      "Lut": 2,
+      "Int": -1,
+      "Pro": 0,
+      "Pre": 0
+    },
+    "defesas": {
+      "Esquiva": 2,
+      "Aparar": 2,
+      "Fortitude": 4,
+      "Resistencia": 4,
+      "Vontade": 2
+    },
+    "pericias": {
+      "Intimidação": 4,
+      "Atletismo": 4,
+      "Furtividade": 2
+    },
+    "vantagens": [
+      "Ataque Poderoso",
+      "Agarrar Aprimorado",
+      "Equipamento 1"
+    ],
+    "poderes": [
+      {
+        "nome": "Visão no Escuro",
+        "construcao": "Sentidos 2 (Visão no Escuro)."
+      },
+      {
+        "nome": "Braços Longos",
+        "construcao": "Alongamento 1 (Membros longos, Limitado a combate corpo a corpo)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Pancada / Clava Improvisada",
+        "bonus": 2,
+        "dano": 4,
+        "critico": 20
+      }
+    ],
+    "equipamento": [
+      "Peles grossas (+1 Resistência)",
+      "Clava pesada (Dano 1)"
+    ]
+  }
+}

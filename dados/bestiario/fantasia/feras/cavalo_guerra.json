@@ -1,0 +1,71 @@
+{
+  "id": "fantasia/feras/cavalo_guerra",
+  "nome": "Cavalo de Guerra",
+  "tipo": "Besta",
+  "subtipo": "Equino",
+  "papel": "Montaria / Bruto",
+  "tamanho": "Grande",
+  "nivel_poder": 4,
+  "ambientes": [
+    "Planícies",
+    "Estradas",
+    "Campos de Batalha"
+  ],
+  "descricao": "Animal maciço treinado para o impacto da carga de cavalaria sem se espantar com barulhos de batalha.",
+  "tatica": "Investe atropelando infantaria com cascos de ferro sob comando do cavaleiro.",
+  "fonte": "Guia do Mestre de Jogo, p. 223 (adaptado para montaria de guerra)",
+  "ficha": {
+    "habilidades": {
+      "For": 4,
+      "Vig": 4,
+      "Agi": 1,
+      "Des": -3,
+      "Lut": 3,
+      "Int": -4,
+      "Pro": 1,
+      "Pre": -2
+    },
+    "defesas": {
+      "Esquiva": 2,
+      "Aparar": 3,
+      "Fortitude": 6,
+      "Resistencia": 5,
+      "Vontade": 2
+    },
+    "pericias": {
+      "Atletismo": 6,
+      "Percepção": 4
+    },
+    "vantagens": [
+      "Iniciativa Aprimorada",
+      "Atropelar"
+    ],
+    "poderes": [
+      {
+        "nome": "Porte Grande",
+        "construcao": "Crescimento 2 (Força +2, Vigor +2, Proteção +2, Contínuo, Inato)."
+      },
+      {
+        "nome": "Galope Veloz",
+        "construcao": "Velocidade 3 (60 km/h)."
+      },
+      {
+        "nome": "Sentidos de Montaria",
+        "construcao": "Sentidos 2 (Visão na Penumbra, Olfato Aguçado)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Cascos",
+        "bonus": 3,
+        "dano": 4,
+        "critico": 20
+      }
+    ],
+    "equipamento": []
+  },
+  "genero": "fantasia",
+  "familia": "Cavalo",
+  "variante": "Cavalo de Guerra",
+  "padrao": true
+}

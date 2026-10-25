@@ -1,0 +1,86 @@
+{
+  "id": "fantasia/construtos/golem_pedra",
+  "genero": "fantasia",
+  "familia": "Golem",
+  "variante": "Golem de Pedra",
+  "padrao": true,
+  "nome": "Golem de Pedra",
+  "tipo": "Construto",
+  "subtipo": "Golem",
+  "papel": "Bruto / Guardião (Solo)",
+  "tamanho": "Grande",
+  "nivel_poder": 9,
+  "ambientes": [
+    "Câmaras de Tesouro",
+    "Santuários Arcanos",
+    "Tumbas de Magos"
+  ],
+  "descricao": "Colosso esculpido em granito maciço animado por runas mágicas pulsantes. Implacável, imune à magia e obediente até o fim dos tempos.",
+  "tatica": "Avança como uma avalanche desferindo pancadas esmagadoras e emite um pulso de Lentidão para impedir a fuga dos invasores.",
+  "fonte": "Manual dos Monstros (D&D 5e)",
+  "ficha": {
+    "habilidades": {
+      "For": 9,
+      "Vig": -5,
+      "Agi": -1,
+      "Des": -1,
+      "Lut": 6,
+      "Int": -5,
+      "Pro": 0,
+      "Pre": -5
+    },
+    "defesas": {
+      "Esquiva": 4,
+      "Aparar": 6,
+      "Fortitude": 0,
+      "Resistencia": 12,
+      "Vontade": 5
+    },
+    "pericias": {
+      "Intimidação": 8,
+      "Atletismo": 4
+    },
+    "vantagens": [
+      "Ataque Poderoso",
+      "Derrubar Aprimorado",
+      "Iniciativa Aprimorada"
+    ],
+    "poderes": [
+      {
+        "nome": "Porte Grande",
+        "construcao": "Crescimento 2 (Força +2, Vigor +2, Proteção +2, Contínuo, Inato)."
+      },
+      {
+        "nome": "Corpo de Granito Impenetrável",
+        "construcao": "Proteção 10 (Impenetrável 8)."
+      },
+      {
+        "nome": "Fisiologia de Construto",
+        "construcao": "Imunidade 30 (efeitos de Fortitude)."
+      },
+      {
+        "nome": "Imunidade à Magia",
+        "construcao": "Imunidade 10 (efeitos mágicos que permitam teste de resistência)."
+      },
+      {
+        "nome": "Pulso de Lentidão Mágica",
+        "construcao": "Aflição 8 (Impedido, Imóvel; resistido por Esquiva; Área Explosão 9m)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Pancada Esmagadora de Granito",
+        "bonus": 6,
+        "dano": 10,
+        "critico": 19
+      },
+      {
+        "nome": "Pulso de Lentidão",
+        "bonus": 0,
+        "dano": 0,
+        "descricao": "Área de Explosão (DC 18 de Esquiva)"
+      }
+    ],
+    "equipamento": []
+  }
+}

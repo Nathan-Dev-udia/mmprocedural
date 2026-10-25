@@ -1,0 +1,84 @@
+{
+  "id": "fantasia/monstruosidades/troll",
+  "genero": "fantasia",
+  "familia": "Troll",
+  "variante": "Regenerador",
+  "padrao": true,
+  "nome": "Troll",
+  "tipo": "Monstruosidade",
+  "subtipo": "Gigante",
+  "papel": "Bruto / Predador",
+  "tamanho": "Grande",
+  "nivel_poder": 7,
+  "ambientes": [
+    "Pântanos Profundos",
+    "Cavernas Úmidas",
+    "Montanhas Sombrias"
+  ],
+  "descricao": "Fera bípede voraz de pele verde e borrachuda com braços desproporcionalmente longos e fome incessante por carne fresca.",
+  "tatica": "Ignora o perigo avançando com unhas e dentes, confiando plenamente em sua regeneração rápida. Teme apenas fogo e ácido.",
+  "fonte": "Manual dos Monstros (D&D 5e)",
+  "ficha": {
+    "habilidades": {
+      "For": 6,
+      "Vig": 6,
+      "Agi": 1,
+      "Des": 0,
+      "Lut": 6,
+      "Int": -3,
+      "Pro": 0,
+      "Pre": -2
+    },
+    "defesas": {
+      "Esquiva": 5,
+      "Aparar": 5,
+      "Fortitude": 8,
+      "Resistencia": 8,
+      "Vontade": 4
+    },
+    "pericias": {
+      "Percepção": 6,
+      "Atletismo": 4,
+      "Intimidação": 6
+    },
+    "vantagens": [
+      "Ataque Dominó",
+      "Ataque Poderoso",
+      "Iniciativa Aprimorada"
+    ],
+    "poderes": [
+      {
+        "nome": "Porte Grande",
+        "construcao": "Crescimento 2 (Força +2, Vigor +2, Proteção +2, Contínuo, Inato)."
+      },
+      {
+        "nome": "Regeneração Rápida",
+        "construcao": "Regeneração 5 (Limitada: não recupera dano causado por fogo ou ácido na rodada anterior)."
+      },
+      {
+        "nome": "Garras e Dentes Vorazes",
+        "construcao": "Dano 7 (Penetrante 3)."
+      },
+      {
+        "nome": "Sentidos Predatórios",
+        "construcao": "Sentidos 3 (Visão no Escuro, Olfato Aguçado, Rastrear por Olfato)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Garras Rasgadoras",
+        "bonus": 6,
+        "dano": 7,
+        "critico": 19,
+        "descricao": "Penetrante 3"
+      },
+      {
+        "nome": "Mordida Voraz",
+        "bonus": 6,
+        "dano": 6,
+        "critico": 20
+      }
+    ],
+    "equipamento": []
+  }
+}
