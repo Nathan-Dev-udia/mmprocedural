@@ -24,5 +24,6 @@
     "ataques": "Initiative +11, Axe +15 (Close, Damage +15, Penetrating 10, Crit. 19-20), Unarmed +15 (Close, Damage 15)",
     "defesas": "Dodge 15, Parry 15, Fortitude 15, Toughness 17, Will 15",
     "pontos_poder": "Abilities 138 + Powers 23 + Advantages 19 + Skills 23 + Defenses 20 = 223"
-  }
+  },
+  "nome_pt": "Starro, o Conquistador (P. 205)"
 }

@@ -1,27 +1,29 @@
-{
-  "nome": "Speedy",
-  "sistema": "DC Adventures / Mutants & Masterminds 3e",
-  "nivel_poder": 8,
-  "pontos_poder_publicados": 91,
-  "fonte": {
-    "arquivo": "dc adventures heroes and villains vol 2.pdf",
-    "pagina_pdf": 192
-  },
-  "ficha_publicada": {
-    "habilidades": {
-      "STR": "1",
-      "STA": "2",
-      "AGL": "3",
-      "DEX": "2",
-      "FGT": "3",
-      "INT": "1",
-      "AWE": "1",
-      "PRE": "2"
-    },
-    "poderes": "Bow and a rr ows: Array (10 points) • Standard a rr ow: Ranged Damage 5 • 10 points • Cable a rr ow: Movement (Swinging) • 1 point • f lar e a rr ow: Ranged Affliction 5 (Resisted by Fortitude; Vision Impaired, Vision Disabled, Vision Unaware) • 1 point • k nockout Gas a rr ow: Ranged Burst Area Affliction 3 (Resisted by Fortitude; Fatigued, Exhausted, Asleep) • 1 point • n et a rr ow: Ranged Affliction 3 (Resisted by Dodge; Hindered and Vulnerable, Defenseless and Immobilized), Extra Condition, Limited Degree • 1 point • Stun a rr ow: Ranged Affliction 3 (Resisted by Fortitude; Dazed, Stunned, Incapacitated) • 1 point a V ant G d a e S Accurate Attack, Defensive Roll 3, Equipment 3, Improved Aim, Improved Critical (Standard Arrow), Improved Initiative, Precise Attack 2 (Ranged, Cover and Concealment), Quick Draw",
-    "pericias": "Acrobatics 3 (+6), Athletics 7 (+8), Close Combat: Unarmed 3 (+6), Deception 3 (+5), Expertise: Streetwise 4 (+5), Insight 6 (+7), Intimidation 2 (+4), Investigation 4 (+5), Perception 4 (+5), Ranged Combat: Bow and Arrows 9 (+11), Stealth 6 (+9)",
-    "ataques": "i nitia tive +7 Unarmed +6 Close, Damage 1 Bow +11 Ranged, Damage 5, Crit. 19-20, or other effects efen S e d d odge 11 f or titude 6 Parry 9 t oughness 4/1* W ill 6 *Without Defensive Roll.",
-    "pontos_poder": "a bilities 28 S kills 26 Powers 0 d efenses 24 a dv antages 13 ToTal 91",
-    "complicacoes": "Complications: Motivation—Legacy: Mia is motivated to live up to her mentor Green Arrow’s example. Chronic i llness: Speedy is HIV -positive and must deal with the health and social implications. aLLI e S Speedy is the Green Arrow’s sidekick and a close friend of Black Canary, Roy Harper and Connor Hawke. She’s also a member of the Teen Titans. e ne MI e S Mia has had particularly unpleasant run-ins with former-Robin Jason Todd, the Electrocutioner and the League of Assassins."
-  }
-}
+{
+  "nome": "Speedy",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 8,
+  "pontos_poder_publicados": 91,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 192
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "2",
+      "AGL": "3",
+      "DEX": "2",
+      "FGT": "3",
+      "INT": "1",
+      "AWE": "1",
+      "PRE": "2"
+    },
+    "poderes": "Bow and a rr ows: Array (10 points) • Standard a rr ow: Ranged Damage 5 • 10 points • Cable a rr ow: Movement (Swinging) • 1 point • f lar e a rr ow: Ranged Affliction 5 (Resisted by Fortitude; Vision Impaired, Vision Disabled, Vision Unaware) • 1 point • k nockout Gas a rr ow: Ranged Burst Area Affliction 3 (Resisted by Fortitude; Fatigued, Exhausted, Asleep) • 1 point • n et a rr ow: Ranged Affliction 3 (Resisted by Dodge; Hindered and Vulnerable, Defenseless and Immobilized), Extra Condition, Limited Degree • 1 point • Stun a rr ow: Ranged Affliction 3 (Resisted by Fortitude; Dazed, Stunned, Incapacitated) • 1 point a V ant G d a e S Accurate Attack, Defensive Roll 3, Equipment 3, Improved Aim, Improved Critical (Standard Arrow), Improved Initiative, Precise Attack 2 (Ranged, Cover and Concealment), Quick Draw",
+    "pericias": "Acrobatics 3 (+6), Athletics 7 (+8), Close Combat: Unarmed 3 (+6), Deception 3 (+5), Expertise: Streetwise 4 (+5), Insight 6 (+7), Intimidation 2 (+4), Investigation 4 (+5), Perception 4 (+5), Ranged Combat: Bow and Arrows 9 (+11), Stealth 6 (+9)",
+    "ataques": "i nitia tive +7 Unarmed +6 Close, Damage 1 Bow +11 Ranged, Damage 5, Crit. 19-20, or other effects",
+    "pontos_poder": "a bilities 28 S kills 26 Powers 0 d efenses 24 a dv antages 13 ToTal 91",
+    "complicacoes": "Complications: Motivation—Legacy: Mia is motivated to live up to her mentor Green Arrow’s example. Chronic i llness: Speedy is HIV -positive and must deal with the health and social implications. aLLI e S Speedy is the Green Arrow’s sidekick and a close friend of Black Canary, Roy Harper and Connor Hawke. She’s also a member of the Teen Titans. e ne MI e S Mia has had particularly unpleasant run-ins with former-Robin Jason Todd, the Electrocutioner and the League of Assassins.",
+    "defesas": "Dodge 11 Fortitude 6 Parry 9 Toughness 4/1* Will 6 *Without Defensive Roll."
+  },
+  "nome_pt": "Ricardito"
+}

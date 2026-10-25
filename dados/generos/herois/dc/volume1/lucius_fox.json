@@ -23,5 +23,6 @@
     "ataques": "Initiative +0, Unarmed +0 (Damage 0)",
     "defesas": "Dodge 2, Parry 2, Fortitude 2, Toughness 0, Will 5",
     "pontos_poder": "Abilities 16 + Advantages 3 + Skills 10 + Defenses 9 = 38"
-  }
+  },
+  "nome_pt": "Lucius Fox"
 }

@@ -5,7 +5,7 @@
   "nome_pt": "Homem-Múltiplo",
   "nivel_poder": 8,
   "pontos_poder_origem": 165,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 179,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -61,15 +61,17 @@
     "poderes": [
       {
         "nome": "Duplication",
-        "construcao_3e": "Duplication 11 (Continuous, Uncontrolled, Absorption Healing, Progression 6, Mental Link, Triggered por força física). 31 PP na fonte.",
+        "construcao_3e": "Invocar Cópias 11 (Contínuo, Reação a impacto físico, Ligação Mental, Múltiplos Duplicatas; 31 PP, custo original da fonte preservado).",
         "custo_2e_pp": 31,
-        "custo_3e_pp": null
+        "custo_3e_pp": 31,
+        "nome_pt": "Duplicação Cinética"
       },
       {
         "nome": "Uniforme de amortecimento cinético",
-        "construcao_3e": "Device Removable 3: remove a falha Uncontrolled de Duplication 11, Protection 3, Comm-Link. 12 PP na fonte.",
+        "construcao_3e": "Dispositivo Removível: Remove a falha Incontrolável da Duplicação (8 PP) + Proteção 3 (3 PP) + Comunicador (1 PP) = 12 PP.",
         "custo_2e_pp": 12,
-        "custo_3e_pp": null
+        "custo_3e_pp": 12,
+        "nome_pt": "Uniforme de Amortecimento Cinético"
       }
     ],
     "equipamento": [
@@ -101,18 +103,17 @@
   },
   "custos_3e": {
     "habilidades": 48,
+    "poderes": 43,
     "defesas": 18,
     "pericias": 54,
     "vantagens": 16,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 136,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 179
   },
   "notas_conversao": [
     "Dodge Focus 5 foi convertido em Dodge ranks e limitado a 11 com Toughness 5 para NP 8.",
     "Profession (Lawyer/Private Investigator) convertido em Especialidade. Elusive Target não tem equivalente; Sneak Attack e Stunning Attack omitidas.",
     "A fonte descreve a roupa como Device 3, mas indica 12 PP para o pacote; discrepância preservada.",
-    "Dodge foi ajustada de 16 para 11 para cumprir Dodge + Toughness ≤ 16 (NP 8)."
+    "Dodge foi ajustada de 16 para 11 para cumprir Dodge + Toughness ≤ 16 (NP 8).",
+    "Poderes fechados em 3e: Duplicação Cinética (31 PP) + Uniforme Amortecedor (12 PP) = 43 PP poderes. Total 3e: 179 PP."
   ]
 }

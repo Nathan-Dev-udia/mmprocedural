@@ -24,5 +24,6 @@
     "ataques": "Initiative +11, Claws +11 (Damage 5, Critical 19-20)",
     "defesas": "Dodge 12, Parry 12, Fortitude 7, Toughness 4/2*, Will 8 *Without Defensive Roll",
     "pontos_poder": "Abilities 50 + Powers 39 + Advantages 14 + Skills 32 + Defenses 22 = 157"
-  }
+  },
+  "nome_pt": "Shakira"
 }

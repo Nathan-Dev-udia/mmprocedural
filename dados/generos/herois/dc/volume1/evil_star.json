@@ -25,5 +25,6 @@
     "defesas": "Dodge 8 Fortitude 15 Parry 7 Toughness 16 Will 8",
     "pontos_poder": "Abilities 64 Skills 30 Powers 199 Defenses 21 Advantages 5 ToTal 319",
     "complicacoes": "Star-Band Corruption: The Star-Band erodes Evil Star’s principles and sanity. He is vulnerable to remorse and guilt when faced directly with his past atrocities. Starlight: Being isolated from starlight reduces every power in the Star-Band by one rank per full day of isolation."
-  }
+  },
+  "nome_pt": "Estrela Maligna"
 }

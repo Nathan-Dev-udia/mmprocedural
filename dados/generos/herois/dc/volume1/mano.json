@@ -24,5 +24,6 @@
     "defesas": "Dodge 9, Parry 10, Fortitude 8, Toughness 10, Will 7",
     "pontos_poder": "Abilities 36 + Powers 59 + Advantages 0 + Skills 8 + Defenses 23 = 126",
     "complicacoes": "Toxic Atmosphere : Mano breathes a poison atmosphere and suffocates in an Earth-normal atmosphere without his containment suit."
-  }
+  },
+  "nome_pt": "Mano"
 }

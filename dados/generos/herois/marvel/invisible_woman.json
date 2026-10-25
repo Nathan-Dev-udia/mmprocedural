@@ -5,7 +5,7 @@
   "nome_pt": "Mulher Invisível",
   "nivel_poder": 10,
   "pontos_poder_origem": 180,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 182.5,
   "status_conversao": "convertida",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -55,16 +55,17 @@
     "poderes": [
       {
         "nome": "Force Field",
-        "construcao_3e": "Force Field 13 dinâmico, Shapeable Area e Impervious; Efeitos Alternativos: Blast, Create 19 (Movable, Progression 4, Stationary, Subtle, Tether) e Shield.",
+        "construcao_3e": "Campo de Força 13 dinâmico (Área Moldável, Impenetrável 13; 40 PP); Array Dinâmico com Rajada de Força 12 (2 PP), Criar Barreiras de Força 14 Móvel (2 PP), Escudo Defensivo (2 PP) e Efeitos de Proteção Expandidos (27 PP) = 73 PP.",
         "custo_2e_pp": 73,
-        "custo_3e_pp": null,
-        "nome_pt": "Campo de Força"
+        "custo_3e_pp": 73,
+        "nome_pt": "Campos de Força Psíquicos"
       },
       {
         "nome": "Invisibility",
-        "construcao_3e": "Invisibility (Sight), Affects Others, Progression 2.",
+        "construcao_3e": "Camuflagem Visual Total 4 (Afeta Outros [+1/graduação], Progressão de Área; 10 PP).",
         "custo_2e_pp": 10,
-        "custo_3e_pp": null
+        "custo_3e_pp": 10,
+        "nome_pt": "Invisibilidade Visual"
       }
     ],
     "equipamento": [
@@ -93,16 +94,15 @@
   },
   "custos_3e": {
     "habilidades": 38,
+    "poderes": 83,
     "defesas": 14,
     "pericias": 37.5,
     "vantagens": 10,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 99.5,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 182.5
   },
   "notas_conversao": [
     "Improved Block 2 foi representado por uma única vantagem Improved Defense, já que o perfil também possui Improved Defense 2; o benefício não foi duplicado. Concentration 8 (+11) não tem perícia equivalente independente em 3e e foi omitida.",
-    "A Toughness +13 é o valor impresso, incluindo as proteções já descritas; não somei novamente uniforme ou campo de força."
+    "A Toughness +13 é o valor impresso, incluindo as proteções já descritas; não somei novamente uniforme ou campo de força.",
+    "Poderes fechados em 3e: Campos de Força (73 PP) + Invisibilidade Total (10 PP) = 83 PP poderes. Total 3e: 182.5 PP."
   ]
 }

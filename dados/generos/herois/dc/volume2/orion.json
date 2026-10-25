@@ -1,26 +1,30 @@
-{
-  "nome": "Orion",
-  "sistema": "DC Adventures / Mutants & Masterminds 3e",
-  "nivel_poder": 14,
-  "pontos_poder_publicados": null,
-  "fonte": {
-    "arquivo": "dc adventures heroes and villains vol 2.pdf",
-    "pagina_pdf": 93
-  },
-  "ficha_publicada": {
-    "habilidades": {
-      "STR": "16",
-      "STA": "15",
-      "AGL": "5",
-      "DEX": "3",
-      "FGT": "12",
-      "INT": "1",
-      "AWE": "3",
-      "PRE": "4"
-    },
-    "poderes": "a 66 points, Removable (–13 points) • 53 points str o-Harness: a str o- f or ce: Array (30-points) • a str o-Blast: Ranged Damage 15 • 30 points • a str o-Barrage: Ranged Damage 10, Multiattack• 1 point • t r actor Beam: Move Object 15, Continuous, Limited to towing/pushing • 1 point f ligh t: Flight 12 (8,000 MPH), Movement 5 (Dimensional Travel: New Genesis/Apokolips, Environmental Adaptation: Zero-G, Space Travel 3) • 34 points d og of War: Power-lifting 5 (Lifting Str 21; 50,000 tons); Regeneration 2• 7 points i mmor tal: Immunity 11 (Aging, Life Support), Impervious Toughness 10 • 21 points Mother Box: Boom t e (Space Travel 3); i telligence ub n (Feature 2); r estoration (Healing 8); Removable (–5 points) • 19 points",
-    "vantagens": "All-out Attack, Diehard, Extraordinary Effort, Fearless, Great Endurance, Move-by Action, Power Attack, Ranged Attack 5, Seize Initiative, Takedown, Ultimate Effort (Toughness)",
-    "pericias": "Athletics 6 (+22), Expertise: Tactics 7 (+8), Intimidation 10 (+14), Perception 4 (+7), Ranged Combat: Astro-Harness 4 (+7), Vehicles 5 (+8)",
-    "ataques": "i nitia tive +5 Astro Blast +12 Ranged, Damage 15 Unarmed +12 Close, Damage 16"
-  }
-}
+{
+  "nome": "Orion",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 14,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 93
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "16",
+      "STA": "15",
+      "AGL": "5",
+      "DEX": "3",
+      "FGT": "12",
+      "INT": "1",
+      "AWE": "3",
+      "PRE": "4"
+    },
+    "poderes": "a 66 points, Removable (–13 points) • 53 points str o-Harness: a str o- f or ce: Array (30-points) • a str o-Blast: Ranged Damage 15 • 30 points • a str o-Barrage: Ranged Damage 10, Multiattack• 1 point • t r actor Beam: Move Object 15, Continuous, Limited to towing/pushing • 1 point f ligh t: Flight 12 (8,000 MPH), Movement 5 (Dimensional Travel: New Genesis/Apokolips, Environmental Adaptation: Zero-G, Space Travel 3) • 34 points d og of War: Power-lifting 5 (Lifting Str 21; 50,000 tons); Regeneration 2• 7 points i mmor tal: Immunity 11 (Aging, Life Support), Impervious Toughness 10 • 21 points Mother Box: Boom t e (Space Travel 3); i telligence ub n (Feature 2); r estoration (Healing 8); Removable (–5 points) • 19 points",
+    "vantagens": "All-out Attack, Diehard, Extraordinary Effort, Fearless, Great Endurance, Move-by Action, Power Attack, Ranged Attack 5, Seize Initiative, Takedown, Ultimate Effort (Toughness)",
+    "pericias": "Athletics 6 (+22), Expertise: Tactics 7 (+8), Intimidation 10 (+14), Perception 4 (+7), Ranged Combat: Astro-Harness 4 (+7), Vehicles 5 (+8)",
+    "ataques": "i nitia tive +5 Astro Blast +12 Ranged, Damage 15 Unarmed +12 Close, Damage 16",
+    "defesas": "Dodge 13, Parry 13, Fortitude 16, Toughness 15, Will 12",
+    "pontos_poder": "Abilities 118 + Powers 100 + Advantages 16 + Skills 18 + Defenses 19 = 271",
+    "complicacoes": "Motivation: Responsibility, Temper: The Beast Within."
+  },
+  "nome_pt": "Órion"
+}

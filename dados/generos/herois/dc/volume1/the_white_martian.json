@@ -25,5 +25,6 @@
     "defesas": "Dodge 12, Parry 13, Fortitude 13, Toughness 13, Will 15",
     "pontos_poder": "Abilities 96 + Powers 136 + Advantages 4 + Skills 35 + Defenses 29 = 300",
     "complicacoes": "Enemy: The White Martian and Ultraman are fierce rivals. Power Loss: The White Martian loses his powers and his Str and Sta are reduced to 2 when exposed to fire."
-  }
+  },
+  "nome_pt": "The White Martian"
 }

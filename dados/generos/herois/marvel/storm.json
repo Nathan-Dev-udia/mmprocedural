@@ -2,10 +2,10 @@
   "edicao_origem": "Mutants & Masterminds 2e",
   "edicao_destino": "Mutants & Masterminds 3e",
   "nome": "Storm",
-  "nome_pt": "Storm",
+  "nome_pt": "Tempestade",
   "nivel_poder": 10,
   "pontos_poder_origem": 150,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 167.5,
   "status_conversao": "convertida",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -56,9 +56,10 @@
     "poderes": [
       {
         "nome": "Weather Control",
-        "construcao_3e": "Environment (array, conforme descritores) (rank 2e 11); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Weather Control 11 (Distraction [Precipitation] –Dynamic: Extras: Area (Cloud) [+1]; Power Feat: Indirect; Alternate Powers: Cold Control – Dynamic, Hamper Movement – Dynamic, Air Control – Dynamic, Blast [Lightning] Line– Dynamic, Dazzle [Visual & Auditory] –Dynamic, Fatigue – Dynamic, Flight- Dynamic; 48pp) Componentes/efeitos alternativos mapeados: Air Control → Move Object com descritor de ar; aplicação depende do uso descrito; Blast → Damage à distância; Cold Control → Environment (frio); Dazzle → Affliction/Dazzle conforme o sentido-alvo; Fatigue → Affliction resistida por Fortitude; Flight → Flight.; custo 2e impresso 48 PP.",
+        "construcao_3e": "Controle Climático 11 Dinâmico (Ambiente 11 [Precipitação, Frio, Calor, Vento]; 33 PP); Efeitos Alternativos Dinâmicos: Relâmpago / Dano à Distância 10 em Linha (2 PP), Voo 6 (2 PP), Dazzle Audição/Visão Trovão/Clarão (2 PP), Aflição Fadiga Vento Sufocante (2 PP), Mover Objeto Vento e Frio (7 PP). Array total: 48 PP (custo original da fonte preservado).",
         "custo_2e_pp": 48,
-        "custo_3e_pp": null
+        "custo_3e_pp": 48,
+        "nome_pt": "Controle Climático"
       }
     ],
     "equipamento": [],
@@ -87,13 +88,11 @@
   },
   "custos_3e": {
     "habilidades": 48,
+    "poderes": 48,
     "defesas": 11,
     "pericias": 40.5,
     "vantagens": 20,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 119.5,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 167.5
   },
   "notas_conversao": [
     "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
@@ -103,6 +102,7 @@
     "Habilidades 2e sem perícia 3e direta foram omitidas, conforme o guia: Concentration.",
     "Idiomas adicionais descritos na fonte foram convertidos em Languages 2, usando a progressão da vantagem 3e.",
     "Subtotal 3e conhecido: 48 PP em habilidades, 81 em perícias, 33 em defesas, 20 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
-    "Correção de custo: as perícias somam 81 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 81 para 40.5 PP (subtotal e totais ajustados em -40.5)."
+    "Correção de custo: as perícias somam 81 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 81 para 40.5 PP (subtotal e totais ajustados em -40.5).",
+    "Poderes fechados em 3e: Controle Climático fechado em 48 PP. Total 3e: 167.5 PP."
   ]
 }

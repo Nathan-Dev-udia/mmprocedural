@@ -24,5 +24,6 @@
     "ataques": "Initiative +3, Heliotron Blaster +10 (Ranged Damage 6), Flying Sabre +11 (Ranged Damage 5, Homing), Flying Sabre +11 (Close Damage 5, Crit. 19-20), Unarmed +11 (Damage 2)",
     "defesas": "Dodge 6, Parry 6, Fortitude 9, Toughness 10/7, Will 2",
     "pontos_poder": "Abilities 36 + Powers 20 + Advantages 10 + Skills 19 + Defenses 12 = 97"
-  }
+  },
+  "nome_pt": "Lanceheads"
 }

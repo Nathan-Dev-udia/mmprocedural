@@ -24,5 +24,6 @@
     "ataques": "Initiative +7, Unarmed +8 (Damage 8)",
     "defesas": "Dodge 10, Parry 10, Fortitude 9, Toughness 6, Will 7",
     "pontos_poder": "Abilities 56 + Powers 15 + Advantages 3 + Skills 14 + Defenses 21 = 109"
-  }
+  },
+  "nome_pt": "Dolphin"
 }

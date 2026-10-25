@@ -1,29 +1,30 @@
-{
-  "nome": "In Recognition Of His Courage.Iron Munro",
-  "sistema": "DC Adventures / Mutants & Masterminds 3e",
-  "nivel_poder": 10,
-  "pontos_poder_publicados": 150,
-  "fonte": {
-    "arquivo": "dc adventures heroes and villains vol 2.pdf",
-    "pagina_pdf": 274
-  },
-  "ficha_publicada": {
-    "habilidades": {
-      "STR": "11",
-      "STA": "11",
-      "AGL": "5",
-      "DEX": "3",
-      "FGT": "5",
-      "INT": "2",
-      "AWE": "2",
-      "PRE": "3"
-    },
-    "poderes": "Enhanced Strength 2 (Limited t 13; 200 tons)), Immunity 1 (Aging), Im Leaping 7 (1/2 mile), Speed 5 (60 MPH)",
-    "vantagens": "All-out Attack, Diehard, Improved Initiative, Interpose, Weapon",
-    "pericias": "Close Combat: Unarmed 4 (+9), Expertise: Cars 5 (+7), Intimidation 7 Persuasion 7 (+10), Technology 3 (+5)",
-    "ataques": "Initiative +9, Unarmed +9 (Cl",
-    "defesas": "Dodge 9, Parry 9, Fortitude 1",
-    "pontos_poder": "Abilities 84 + Powers 26 + Adv Defenses 15 = 150",
-    "complicacoes": "doing Good: Arn strives relationship: Roy Lincoln, the origina Arn’s longtime best friend. Arn had ro (later marriages) with Fury I and Phan children with the latter. Kate (Manhun granddaughter, and her son Ramsey is A n spent most of the postwar years work gence agency Argent along with his sec ight, but resigned after the former Ba red their child. Munro retired to a ho y Lincoln, only sporadically adventuri mber and Freedom Fighter. In the wake currently focused on connecting with ildren. ptune perkInS ptune Perkins was conceived in the pre ergy source known as the Vril so that ilities that would allow him to bring ther Arthur Gordon Pym to justice. As rn a “human dolphin,” but his parents zi agents in February 1942 before they stiny to him. nding the Sea Suit his parents designe ught to join the All-Star Squadron, bu onary period as part of the Young All- norably throughout the war, learning h lping his grandfather reform during th ter the war, Perkins assisted Hawkman later married his former Squadron tea mi) Shimada, but the relationship did rth to a daughter during the marriage Deep Blue, but later events revealed lantean sorcerer Atlan. The pain of th rkins to abandon life at sea and get i coming a U.S. senator. rkins used his political clout to assi stice” in its efforts to outlaw undera wever, the accomplishments of Young Ju n Perkins’ admiration and he recanted tion. roes & VHeroes & VIIllallaIIns, Vol. 2 er #3338244)"
-  }
-}
+{
+  "nome": "Iron Munro",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 150,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 274
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "11",
+      "STA": "11",
+      "AGL": "5",
+      "DEX": "3",
+      "FGT": "5",
+      "INT": "2",
+      "AWE": "2",
+      "PRE": "3"
+    },
+    "poderes": "Enhanced Strength 2 (Limited t 13; 200 tons)), Immunity 1 (Aging), Im Leaping 7 (1/2 mile), Speed 5 (60 MPH)",
+    "vantagens": "All-out Attack, Diehard, Improved Initiative, Interpose, Weapon",
+    "pericias": "Close Combat: Unarmed 4 (+9), Expertise: Cars 5 (+7), Intimidation 7 Persuasion 7 (+10), Technology 3 (+5)",
+    "ataques": "Initiative +9, Unarmed +9 (Cl",
+    "defesas": "Dodge 9, Parry 9, Fortitude 13, Toughness 11, Will 7",
+    "pontos_poder": "Abilities 84 + Powers 26 + Adv Defenses 15 = 150",
+    "complicacoes": "doing Good: Arn strives relationship: Roy Lincoln, the origina Arn’s longtime best friend. Arn had ro (later marriages) with Fury I and Phan children with the latter. Kate (Manhun granddaughter, and her son Ramsey is A n spent most of the postwar years work gence agency Argent along with his sec ight, but resigned after the former Ba red their child. Munro retired to a ho y Lincoln, only sporadically adventuri mber and Freedom Fighter. In the wake currently focused on connecting with ildren. ptune perkInS ptune Perkins was conceived in the pre ergy source known as the Vril so that ilities that would allow him to bring ther Arthur Gordon Pym to justice. As rn a “human dolphin,” but his parents zi agents in February 1942 before they stiny to him. nding the Sea Suit his parents designe ught to join the All-Star Squadron, bu onary period as part of the Young All- norably throughout the war, learning h lping his grandfather reform during th ter the war, Perkins assisted Hawkman later married his former Squadron tea mi) Shimada, but the relationship did rth to a daughter during the marriage Deep Blue, but later events revealed lantean sorcerer Atlan. The pain of th rkins to abandon life at sea and get i coming a U.S. senator. rkins used his political clout to assi stice” in its efforts to outlaw undera wever, the accomplishments of Young Ju n Perkins’ admiration and he recanted tion. roes & VHeroes & VIIllallaIIns, Vol. 2 er #3338244)"
+  },
+  "nome_pt": "Iron Munro"
+}

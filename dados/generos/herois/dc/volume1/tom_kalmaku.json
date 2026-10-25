@@ -22,5 +22,6 @@
     "ataques": "Initiative +0, Unarmed +1 (Damage 1)",
     "defesas": "Dodge 2, Parry 2, Fortitude 2, Toughness 1, Will 6",
     "pontos_poder": "Abilities 20 + Powers 0 + Advantages 0 + Skills 10 + Defenses 8 = 39"
-  }
+  },
+  "nome_pt": "Tom Kalmaku"
 }

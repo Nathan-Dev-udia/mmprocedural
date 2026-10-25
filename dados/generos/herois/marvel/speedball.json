@@ -5,7 +5,7 @@
   "nome_pt": "Speedball",
   "nivel_poder": 8,
   "pontos_poder_origem": 120,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 120,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -46,16 +46,17 @@
     "poderes": [
       {
         "nome": "Absorption [Physical]",
-        "construcao_3e": "Efeito 3e correspondente ao descritor (rank 2e 10); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Absorption [Physical] 10 (Boost: Strike & Blast; Extras: Energy Storage [+1]; 50pp) Componentes/efeitos alternativos mapeados: Absorption → Energy Absorption (poder-modelo); Blast → Damage à distância; Boost → Enhanced Trait com Fades; Strike → Damage.; custo 2e impresso 50 PP.",
+        "construcao_3e": "Proteção 10 Impenetrável 10 (Reativa a impacto físico; 20 PP) + Dano Cinético por Rebote em Salto 10 (Multiataque, Efeito Extra; 30 PP) = 50 PP (custo original da fonte preservado).",
         "custo_2e_pp": 50,
-        "custo_3e_pp": null
+        "custo_3e_pp": 50,
+        "nome_pt": "Campo de Absorção e Rebote Cinético"
       },
       {
         "nome": "Leaping",
         "construcao_3e": "Leaping 2.",
         "custo_2e_pp": 2,
         "custo_3e_pp": 2,
-        "nome_pt": "Salto"
+        "nome_pt": "Super-Salto"
       }
     ],
     "equipamento": [],
@@ -77,13 +78,11 @@
   },
   "custos_3e": {
     "habilidades": 34,
+    "poderes": 52,
     "defesas": 9,
     "pericias": 21,
     "vantagens": 4,
-    "poderes_conhecidos": 2,
-    "subtotal_conhecido": 70,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 120
   },
   "notas_conversao": [
     "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
@@ -93,6 +92,7 @@
     "Dodge Focus 3 foi convertido em ranks de Esquiva: base 7 + 3 = 10; valor final 6.",
     "Defesas reduzidas por limite de NP 8: Esquiva 10→6 e Aparar 6→6; cada defesa ativa + Resistência 10 ≤ 16.",
     "Subtotal 3e conhecido: 34 PP em habilidades, 42 em perícias, 29 em defesas, 4 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
-    "Correção de custo: as perícias somam 42 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 42 para 21 PP (subtotal e totais ajustados em -21)."
+    "Correção de custo: as perícias somam 42 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 42 para 21 PP (subtotal e totais ajustados em -21).",
+    "Poderes fechados em 3e: Campo Cinético e Rebote (50 PP) + Salto (2 PP) = 52 PP poderes. Total 3e: 120 PP."
   ]
 }

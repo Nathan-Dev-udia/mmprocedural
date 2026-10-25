@@ -25,5 +25,6 @@
     "defesas": "Dodge 12 Fortitude 14 Parry 12 Toughness 18 Will 12",
     "pontos_poder": "Abilities 108 Skills 39 Powers 106 Defenses 21 Advantages 17 ToTal 291",
     "complicacoes": "Power Loss: Zod loses his powers under a red sun, like that of Krypton, and other effects draining or interfering with the energies of the yellow sun can deprive him of his powers. Without his powers, Dru-Zod has Strength 2 and Stamina 3. Vulnerability: Zod is as vulnerable to magic as anyone else. His Toughness is not Impervious against magical attacks. Weakness: Kryptonite (see sidebar)."
-  }
+  },
+  "nome_pt": "General Zod"
 }

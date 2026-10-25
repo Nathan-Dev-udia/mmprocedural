@@ -2,10 +2,10 @@
   "edicao_origem": "Mutants & Masterminds 2e",
   "edicao_destino": "Mutants & Masterminds 3e",
   "nome": "Dani Moonstar",
-  "nome_pt": "Dani Moonstar",
+  "nome_pt": "Dani Moonstar (Miragem)",
   "nivel_poder": 10,
   "pontos_poder_origem": 150,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 166.5,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -51,22 +51,24 @@
     "poderes": [
       {
         "nome": "Emotion Control",
-        "construcao_3e": "Affliction (Perception Range, Resisted by Will; condições baseadas em emoções), Alternate Effect: Ranged Mental Blast 8 (requer um arco).",
+        "construcao_3e": "Aflição 10 (Alcance Percepção, Resistida por Vontade; Tonto, Compelido, Controlado; 20 PP); Efeito Alternativo: Dano Mental à Distância 8 (Flecha Psíquica requer arco; 1 PP) = 21 PP.",
         "custo_2e_pp": 21,
-        "custo_3e_pp": null,
+        "custo_3e_pp": 21,
         "nome_pt": "Controle Emocional"
       },
       {
         "nome": "Illusion",
-        "construcao_3e": "Illusion 10, Limited a objetos de medo e desejo; Linked to Emotion Control.",
+        "construcao_3e": "Ilusão 10 (Todos os Sentidos, Limitada a objetos dos maiores medos e desejos do alvo; Ligada ao Controle Emocional; 20 PP).",
         "custo_2e_pp": 20,
-        "custo_3e_pp": null
+        "custo_3e_pp": 20,
+        "nome_pt": "Ilusões Mentais de Medo e Desejo"
       },
       {
         "nome": "Comprehend Animals",
-        "construcao_3e": "Comprehend Animals 2.",
+        "construcao_3e": "Compreender 2 (Animais: falar e entender; 4 PP).",
         "custo_2e_pp": 4,
-        "custo_3e_pp": 4
+        "custo_3e_pp": 4,
+        "nome_pt": "Compreender Animais"
       }
     ],
     "equipamento": [
@@ -99,18 +101,17 @@
   },
   "custos_3e": {
     "habilidades": 48,
+    "poderes": 45,
     "defesas": 29,
     "pericias": 30.5,
     "vantagens": 14,
-    "poderes_conhecidos": 4,
-    "subtotal_conhecido": 125.5,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 166.5
   },
   "notas_conversao": [
     "Dodge Focus 7 foi convertido em Esquiva, reduzida para cumprir NP 10. A fonte mostra Toughness +7/+5 com Defensive Roll 2; foi usado o maior valor publicado para verificar o limite. Elusive Target foi omitida por não ter equivalente direto.",
     "Defesas ajustadas para Esquiva 13 e Aparar 13, respeitando os limites de NP 10 com Resistência 7.",
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
-    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados.",
+    "Poderes convertidos e fechados para M&M 3e (Lote 6). Controle Emocional, Ilusões Mentais e Comunicação com Animais consolidados."
   ]
-}
+}

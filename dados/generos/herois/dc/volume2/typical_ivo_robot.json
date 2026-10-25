@@ -24,5 +24,6 @@
     "ataques": "Initiative +4, Energy Blast +11 (Ranged Damage 11), Unarmed +11 (Damage 11)",
     "defesas": "Dodge 12, Parry 12, Fortitude Immune, Toughness 8, Will Immune",
     "pontos_poder": "Abilities 20 + Powers 80 + Advantages 0 + Skills 6 + Defenses 14 = 120"
-  }
+  },
+  "nome_pt": "Robô Típico de Ivo"
 }

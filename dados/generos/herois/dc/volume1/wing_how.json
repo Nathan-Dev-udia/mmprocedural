@@ -23,5 +23,6 @@
     "ataques": "Initiative +7, Unarmed +7 (Damage 3, Crit. 19-20)",
     "defesas": "Dodge 6, Parry 6, Fortitude 5, Toughness 4/2, Will 5",
     "pontos_poder": "Abilities 34 + Powers 0 + Advantages 17 + Skills 14 + Defenses 10 = 75"
-  }
+  },
+  "nome_pt": "Wing How"
 }

@@ -1,28 +1,30 @@
-{
-  "nome": "Starman (Thom Kallor)",
-  "sistema": "DC Adventures / Mutants & Masterminds 3e",
-  "nivel_poder": 12,
-  "pontos_poder_publicados": null,
-  "fonte": {
-    "arquivo": "dc adventures heroes and villains vol 2.pdf",
-    "pagina_pdf": 203
-  },
-  "ficha_publicada": {
-    "habilidades": {
-      "STR": "2",
-      "STA": "4",
-      "AGL": "3",
-      "DEX": "4",
-      "FGT": "3",
-      "INT": "2",
-      "AWE": "0",
-      "PRE": "3"
-    },
-    "poderes": "71 d efenses 36",
-    "equipamento": "f ligh t r ing: Communication 5 (subspace radio, Anywhere, Limited to Distress Signal –3); Flight 7 (250 MPH) • 19 points t elepa thic Plug: Comprehend 3 (Languages; Speak, Understand, Understood), Mental Communication 1 (100 feet) • 10 points t r anssuit: Immunity 9 (Life Support, except for starvation and thirst) • 9 points d a e S a V ant G Benefit 1 (Legion Membership), Defensive Roll 4, Equipment 8, Improved Smash, Well-informed",
-    "pericias": "Close Combat: Unarmed 5 (+8), Perception 6 (+6), Persuasion 7 (+10)",
-    "ataques": "i nitia tive +3 Increase Gravity +12 Ranged, Cumulative Affliction 12, Resisted by Fortitude (DC 22) Weight of Stars — Ranged, Cumulative Affliction 12, Resisted by Fortitude (DC 22) Gravity Control +12 Ranged, Damaging Move Object 12, Improvised Weapon Unarmed +8 Close, Damage 2/10 with Power of Gravity",
-    "defesas": "d odge 12 f or titude 10 Parry 12 t oughness 8/4* ill 12 *Without Defensive Roll. W Po er Point W S a bilities 42 S kills 13",
-    "vantagens": "15 ToTal 173 Co MPL i C tion S a o Though he enjoys being a superhero, Starman n a M ission: never forgets (and constantly reminds his friends) that he’s on an important mission from the future. Crazy: Starman’s mind was scrambled by his journey through the multiverse as he traveled between the future and the past."
-  }
-}
+{
+  "nome": "Starman (Thom Kallor)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 203
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "4",
+      "AGL": "3",
+      "DEX": "4",
+      "FGT": "3",
+      "INT": "2",
+      "AWE": "0",
+      "PRE": "3"
+    },
+    "poderes": "71 d efenses 36",
+    "equipamento": "f ligh t r ing: Communication 5 (subspace radio, Anywhere, Limited to Distress Signal –3); Flight 7 (250 MPH) • 19 points t elepa thic Plug: Comprehend 3 (Languages; Speak, Understand, Understood), Mental Communication 1 (100 feet) • 10 points t r anssuit: Immunity 9 (Life Support, except for starvation and thirst) • 9 points d a e S a V ant G Benefit 1 (Legion Membership), Defensive Roll 4, Equipment 8, Improved Smash, Well-informed",
+    "pericias": "Close Combat: Unarmed 5 (+8), Perception 6 (+6), Persuasion 7 (+10)",
+    "ataques": "i nitia tive +3 Increase Gravity +12 Ranged, Cumulative Affliction 12, Resisted by Fortitude (DC 22) Weight of Stars — Ranged, Cumulative Affliction 12, Resisted by Fortitude (DC 22) Gravity Control +12 Ranged, Damaging Move Object 12, Improvised Weapon Unarmed +8 Close, Damage 2/10 with Power of Gravity",
+    "defesas": "Dodge 12 Fortitude 10 Parry 12 Toughness 8/4* Will 12 *Without Defensive Roll. W",
+    "vantagens": "15 ToTal 173 Co MPL i C tion S a o Though he enjoys being a superhero, Starman n a M ission: never forgets (and constantly reminds his friends) that he’s on an important mission from the future. Crazy: Starman’s mind was scrambled by his journey through the multiverse as he traveled between the future and the past.",
+    "pontos_poder": "Po er Point W S a bilities 42 S kills 13"
+  },
+  "nome_pt": "Starman (Thom Kallor)"
+}

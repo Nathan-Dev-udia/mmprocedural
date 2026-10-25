@@ -1,23 +1,30 @@
-{
-  "nome": "Mister Miracle",
-  "sistema": "DC Adventures / Mutants & Masterminds 3e",
-  "nivel_poder": 12,
-  "pontos_poder_publicados": null,
-  "fonte": {
-    "arquivo": "dc adventures heroes and villains vol 2.pdf",
-    "pagina_pdf": 62
-  },
-  "ficha_publicada": {
-    "habilidades": {
-      "STR": "6",
-      "STA": "6",
-      "AGL": "6",
-      "DEX": "8",
-      "FGT": "6",
-      "INT": "6",
-      "AWE": "6",
-      "PRE": "4"
-    },
-    "poderes": "a er o- d isks: Flight 7 (250 MPH), Easily Removable (–6 points) • 8 points Costume: Protection 2, Movement 2 (Wall-Crawling), Removable (–1 point) • 5 points Mother Box: Removable (–4 points); Boom t ub e: Space Travel 3; i n telligence: Feature 2; r estoration: Healing 8 • 19 points Multi-Cube: Array (32 points), Removable (–7 points) • 29 points • Hologram: Visual Illusion 8, Area 2 (30 feet) • 32 points • Cable: Move Object 6, Limited Direction (Pull); Movement 1 (Swinging) • 1 point • f lar e: Burst Area Affliction 12 (Resisted by Fortitude; Visually Impaired, Visually Disabled, Visually Unaware) • 1 point • i llumina tion: Environment (Daylight) 3 • 1 point • Sonic Beam: Ranged Transform 8 (Open Locks and Seals) • 1 point n e w God: Immunity 3 (Aging, Disease, Poisons) • 3 points a V ant G d a e S Accurate Attack, Defensive Roll 2, Evasion 2, Fearless, Inventor, Luck, Move-by Action, Redirect, Set-up, Second Chance (Sleight of Hand), Skill Mastery (Sleight of Hand), Taunt, Trance, Ultimate Effort (Sleight of Hand), Uncanny Dodge impossible (achieving a 42 skill check result). In short, Mister Miracle can escape most traps most of the time. For the rest, he tries and, if he fails, spends a hero point and then escapes! He carries various items of New Genesian technology, includ- ing a Mother Box and his Aero Disks, which allow him to fly. With Mother Box’s capabilities and his own technical bril- liance, Mister Miracle is capable of whipping up virtually any sort of device, given some time (or enough hero points). His Technology rank is sufficient to routinely create inventions worth 16 power points."
-  }
-}
+{
+  "nome": "Mister Miracle",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 62
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "6",
+      "STA": "6",
+      "AGL": "6",
+      "DEX": "8",
+      "FGT": "6",
+      "INT": "6",
+      "AWE": "6",
+      "PRE": "4"
+    },
+    "poderes": "a er o- d isks: Flight 7 (250 MPH), Easily Removable (–6 points) • 8 points Costume: Protection 2, Movement 2 (Wall-Crawling), Removable (–1 point) • 5 points Mother Box: Removable (–4 points); Boom t ub e: Space Travel 3; i n telligence: Feature 2; r estoration: Healing 8 • 19 points Multi-Cube: Array (32 points), Removable (–7 points) • 29 points • Hologram: Visual Illusion 8, Area 2 (30 feet) • 32 points • Cable: Move Object 6, Limited Direction (Pull); Movement 1 (Swinging) • 1 point • f lar e: Burst Area Affliction 12 (Resisted by Fortitude; Visually Impaired, Visually Disabled, Visually Unaware) • 1 point • i llumina tion: Environment (Daylight) 3 • 1 point • Sonic Beam: Ranged Transform 8 (Open Locks and Seals) • 1 point n e w God: Immunity 3 (Aging, Disease, Poisons) • 3 points a V ant G d a e S Accurate Attack, Defensive Roll 2, Evasion 2, Fearless, Inventor, Luck, Move-by Action, Redirect, Set-up, Second Chance (Sleight of Hand), Skill Mastery (Sleight of Hand), Taunt, Trance, Ultimate Effort (Sleight of Hand), Uncanny Dodge impossible (achieving a 42 skill check result). In short, Mister Miracle can escape most traps most of the time. For the rest, he tries and, if he fails, spends a hero point and then escapes! He carries various items of New Genesian technology, includ- ing a Mother Box and his Aero Disks, which allow him to fly. With Mother Box’s capabilities and his own technical bril- liance, Mister Miracle is capable of whipping up virtually any sort of device, given some time (or enough hero points). His Technology rank is sufficient to routinely create inventions worth 16 power points.",
+    "defesas": "Dodge 15, Parry 13, Fortitude 8, Toughness 9/7*, Will 8 *Without Defensive Roll.",
+    "vantagens": "Agile Feint, Defensive Roll 2, Equipment 2, Evasion, Improved Initiative, Luck 2, Slippery, Ultimate Effort (Escape)",
+    "pericias": "Acrobatics 14 (+20), Athletics 8 (+14), Deception 10 (+14), Expertise: Escape Artist 16 (+22), Insight 8 (+14), Perception 6 (+12), Sleight of Hand 14 (+22), Technology 10 (+16)",
+    "ataques": "Initiative +10, Unarmed +6 (Close, Damage 6)",
+    "pontos_poder": "Abilities 96 + Powers 30 + Advantages 10 + Skills 43 + Defenses 20 = 199",
+    "complicacoes": "Relationship: Big Barda, Enemy: Darkseid and Apokolips, Thrillseeker."
+  },
+  "nome_pt": "Senhor Milagre"
+}

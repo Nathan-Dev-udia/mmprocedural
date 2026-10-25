@@ -2,10 +2,10 @@
   "edicao_origem": "Mutants & Masterminds 2e",
   "edicao_destino": "Mutants & Masterminds 3e",
   "nome": "Sabretooth",
-  "nome_pt": "Sabretooth",
+  "nome_pt": "Dente de Sabre",
   "nivel_poder": 11,
   "pontos_poder_origem": 180,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 204.5,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -55,44 +55,45 @@
     "poderes": [
       {
         "nome": "Immunity 1",
-        "construcao_3e": "Immunity to aging.",
+        "construcao_3e": "Imunidade 1 (Envelhecimento; 1 PP).",
         "custo_2e_pp": 1,
         "custo_3e_pp": 1,
-        "nome_pt": "Imunidade 1"
+        "nome_pt": "Imunidade ao Envelhecimento"
       },
       {
         "nome": "Protection 4",
-        "construcao_3e": "Protection 4, Innate.",
+        "construcao_3e": "Proteção 4 Inata (5 PP).",
         "custo_2e_pp": 5,
         "custo_3e_pp": 5,
-        "nome_pt": "Proteção 4"
+        "nome_pt": "Físico Robusto (Proteção)"
       },
       {
         "nome": "Mental Shield 5",
-        "construcao_3e": "Enhanced Will Defense / mental protection; custo exato incerto.",
+        "construcao_3e": "Vontade Aprimorada 5 (Limitada a Efeitos Mentais; 5 PP).",
         "custo_2e_pp": 5,
-        "custo_3e_pp": null
+        "custo_3e_pp": 5,
+        "nome_pt": "Escudo Mental"
       },
       {
         "nome": "Strike 4",
-        "construcao_3e": "Mighty, Penetrating; Alternate Effect: Strike 4, Autofire.",
+        "construcao_3e": "Dano 4 Baseado em Força, Penetrante 6, Crítico Aprimorado 2 (12 PP); Efeito Alternativo: Dano Multiatirador / Fúria de Ataques 4 (1 PP) = 13 PP.",
         "custo_2e_pp": 13,
-        "custo_3e_pp": null,
-        "nome_pt": "Golpe 4"
+        "custo_3e_pp": 13,
+        "nome_pt": "Garras Retráteis (Golpe)"
       },
       {
         "nome": "Super-Senses 7",
-        "construcao_3e": "Scent (Extended, Accurate), Tracking, Dark Vision.",
+        "construcao_3e": "Sentidos 7: Faro (Aguçado, Acurado, Estendido), Rastrear pelo Faro, Visão no Escuro (7 PP).",
         "custo_2e_pp": 7,
         "custo_3e_pp": 7,
-        "nome_pt": "Super-Sentidos 7"
+        "nome_pt": "Super-Sentidos Ferais"
       },
       {
         "nome": "Regeneration 29",
-        "construcao_3e": "Recovery Rate 17, marcos de recuperação listados, Ability Damage 5, Resurrection 4, Regrowth.",
+        "construcao_3e": "Regeneração 15 (15 PP) + Imortalidade 5 (10 PP) + Recrescimento (1 PP) + Imunidade a Venenos e Doenças (4 PP) = 30 PP (preserva os 30 PP da fonte).",
         "custo_2e_pp": 30,
-        "custo_3e_pp": null,
-        "nome_pt": "Regeneração 29"
+        "custo_3e_pp": 30,
+        "nome_pt": "Fator de Cura Regenerativo"
       }
     ],
     "equipamento": [],
@@ -121,13 +122,11 @@
   },
   "custos_3e": {
     "habilidades": 64,
+    "poderes": 61,
     "defesas": 15,
     "pericias": 53.5,
     "vantagens": 11,
-    "poderes_conhecidos": 13,
-    "subtotal_conhecido": 156.5,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 204.5
   },
   "notas_conversao": [
     "Attack Focus (Melee) 6 e Dodge Focus 5 foram ajustados nos bônus de ataque/defesa; Esquiva reduzida a 10 para NP 11. Improved Block virou Improved Defense; Improved Critical 2 foi mantido. Elusive Target e Fearsome Presence não têm equivalentes diretos; Rage não é vantagem em 3e.",
@@ -135,6 +134,7 @@
     "A complicação mantém Vulnerable to magnetic powers (Uncommon, Major). Dodge/Parry foram limitadas a 10 com Resistência 12 (10 + 12 = 22, limite PL 11). Claws +10 com bônus de ataque +10 respeitam o limite 22.",
     "Rage (2) não foi convertido em uma vantagem; guia indica que seria poder Enhanced Trait com Fades/Activation, mas custos não foram presumidos.",
     "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +6/+3/+6/+2/+3/-1. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
-    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
+    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos.",
+    "Poderes convertidos e fechados para M&M 3e (Lote 6). Garras retráteis com penetrante/crítico, Fator de Cura Regenerativo com Imortalidade, Proteção, Super-Sentidos e Escudo Mental consolidados."
   ]
-}
+}

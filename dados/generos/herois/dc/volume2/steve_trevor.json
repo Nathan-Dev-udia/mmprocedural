@@ -22,5 +22,6 @@
     "pericias": "Athletics 6 (+8), Close Combat: Unarmed 3 (+8), Expertise: Military 8 (+9), Insight 4 (+5), Intimidation 4 (+6), Perception 4 (+5), Ranged Combat: Guns 6 (+8), Stealth 4 (+5), Treatment 3 (+4), Vehicles 8 (+10)",
     "ataques": "Initiative +1, Pistol +8 (Damage 3), Unarmed +8 (Damage 2)",
     "defesas": "Dodge 7, Parry 8, Fortitude 6, Toughness 3, Will 6 t otal:s Abilities 34 + Powers 0 + Advantages 4 + Skills 25 + Defenses 17 = Total 80"
-  }
+  },
+  "nome_pt": "Steve Trevor"
 }

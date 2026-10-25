@@ -1,27 +1,29 @@
-{
-  "nome": "Faust",
-  "sistema": "DC Adventures / Mutants & Masterminds 3e",
-  "nivel_poder": 9,
-  "pontos_poder_publicados": 145,
-  "fonte": {
-    "arquivo": "dc adventures heroes and villains vol 2.pdf",
-    "pagina_pdf": 95
-  },
-  "ficha_publicada": {
-    "habilidades": {
-      "STR": "1",
-      "STA": "3",
-      "AGL": "2",
-      "DEX": "3",
-      "FGT": "1",
-      "INT": "6",
-      "AWE": "4",
-      "PRE": "0"
-    },
-    "poderes": "and abilities of others. His lack of a soul grants him certain immunities against Hell-born creatures and ef- fects. It also makes him emotionless and gives him little sense of morality. Despite this apparent handicap, Sebastian has pursued a romantic relationship with Halo. Sebastian joins the Outsiders after they meet in Markovia, where the sorcerer was busy hunting vampires. At one point, Sebastian gets his arm ripped off and acquires a new one, possibly from a fallen Markovian soldier. The Outsiders occasionally fought Sebastian’s father as well as his sister Fauna (who also had powers due to a separate soul-purchasing deal initiated by their father). Sebastian later leaves the team and eventually joins the Sentinels of Magic. He is currently a member of Checkmate. While his father is re- sponsible for his condition, Sebastian still considers him fam- ily and frequently attempts to repair their relationship. g race Grace Choi is a seven-foot-tall woman with a Bana Amazon heritage. After being abused by her foster parents, at age nine Grace ran away and was forced into a prostitution ring. Her powers manifested at age twelve and Grace used them to escape. She later became a bouncer for Chaney’s nightclub in Metropolis, which catered to aliens and metahumans. Heroes & V Heroes & V I I lla lla I I ns, Vol. 2 ns, Vol. 2 Heroes & VIllaIns, Vol. 2 178.76.175.224",
-    "vantagens": "Artificer, Attractive, Connected, Defensive Attack, Defensive Roll 5, Fearless, Luck 4, Ritualist, Taunt, Trance, Uncanny Dodge, Well-informed",
-    "pericias": "Athletics 7 (+8), Close Combat: Unarmed 6 (+7), Deception 8 (+8), Expertise: Magic 8 (+14), Insight 6 (+10), Investigation 6 (+12), Perception 8 (+12), Ranged Combat: Magic 5 (+8), Sleight of Hand 10 (+13), Stealth 4 (+6) ense: Initiative +2, Unarmed +7 (Close, Damage 1), Magic o ff Bolt +8 (Ranged, Damage 10) efense: Dodge 10, Parry 7, Fortitude 7, Toughness 8/3*, Will d 11 *Without Defensive Roll. Abilities 40 + Powers 27 + Advantages 19 + Skills 34 +",
-    "pontos_poder": "Defenses 25 = 145",
-    "complicacoes": "Soulless: Faust lacks strong emotions; he absorbs his personality traits from drained souls. 94 94"
-  }
-}
+{
+  "nome": "Faust",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 9,
+  "pontos_poder_publicados": 145,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 95
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "3",
+      "AGL": "2",
+      "DEX": "3",
+      "FGT": "1",
+      "INT": "6",
+      "AWE": "4",
+      "PRE": "0"
+    },
+    "poderes": "and abilities of others. His lack of a soul grants him certain immunities against Hell-born creatures and ef- fects. It also makes him emotionless and gives him little sense of morality. Despite this apparent handicap, Sebastian has pursued a romantic relationship with Halo. Sebastian joins the Outsiders after they meet in Markovia, where the sorcerer was busy hunting vampires. At one point, Sebastian gets his arm ripped off and acquires a new one, possibly from a fallen Markovian soldier. The Outsiders occasionally fought Sebastian’s father as well as his sister Fauna (who also had powers due to a separate soul-purchasing deal initiated by their father). Sebastian later leaves the team and eventually joins the Sentinels of Magic. He is currently a member of Checkmate. While his father is re- sponsible for his condition, Sebastian still considers him fam- ily and frequently attempts to repair their relationship. g race Grace Choi is a seven-foot-tall woman with a Bana Amazon heritage. After being abused by her foster parents, at age nine Grace ran away and was forced into a prostitution ring. Her powers manifested at age twelve and Grace used them to escape. She later became a bouncer for Chaney’s nightclub in Metropolis, which catered to aliens and metahumans. Heroes & V Heroes & V I I lla lla I I ns, Vol. 2 ns, Vol. 2 Heroes & VIllaIns, Vol. 2 178.76.175.224",
+    "vantagens": "Artificer, Attractive, Connected, Defensive Attack, Defensive Roll 5, Fearless, Luck 4, Ritualist, Taunt, Trance, Uncanny Dodge, Well-informed",
+    "pericias": "Athletics 7 (+8), Close Combat: Unarmed 6 (+7), Deception 8 (+8), Expertise: Magic 8 (+14), Insight 6 (+10), Investigation 6 (+12), Perception 8 (+12), Ranged Combat: Magic 5 (+8), Sleight of Hand 10 (+13), Stealth 4 (+6) ense: Initiative +2, Unarmed +7 (Close, Damage 1), Magic o ff Bolt +8 (Ranged, Damage 10) efense:",
+    "pontos_poder": "Defenses 25 = 145",
+    "complicacoes": "Soulless: Faust lacks strong emotions; he absorbs his personality traits from drained souls. 94 94",
+    "defesas": "Dodge 10, Parry 7, Fortitude 7, Toughness 8/3*, Will 11 *Without Defensive Roll."
+  },
+  "nome_pt": "Felix Fausto"
+}

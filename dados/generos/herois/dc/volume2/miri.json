@@ -24,5 +24,6 @@
     "ataques": "Initiative +2, Power Ring +9 (Ranged, Damage 15), Unarmed +4 (Close, Damage 0)",
     "defesas": "Dodge 11, Parry 9, Fortitude 9, Toughness 13, Will 15",
     "pontos_poder": "Abilities 26 + Powers 100 + Advantages 2 + Skills 18 + Defenses 34 = Total 180"
-  }
+  },
+  "nome_pt": "Miri"
 }

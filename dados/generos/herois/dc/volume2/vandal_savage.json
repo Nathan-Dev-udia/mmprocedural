@@ -1,28 +1,30 @@
-{
-  "nome": "Vandal Savage",
-  "sistema": "DC Adventures / Mutants & Masterminds 3e",
-  "nivel_poder": 13,
-  "pontos_poder_publicados": 242,
-  "fonte": {
-    "arquivo": "dc adventures heroes and villains vol 2.pdf",
-    "pagina_pdf": 254
-  },
-  "ficha_publicada": {
-    "habilidades": {
-      "STR": "4",
-      "STA": "5",
-      "AGL": "2",
-      "DEX": "2",
-      "FGT": "11",
-      "INT": "4",
-      "AWE": "4",
-      "PRE": "5"
-    },
-    "poderes": "i Immortality 15, Immunity 1 (Aging) • 31 points mmor tal:",
-    "equipamento": "Sword: Strength-Based Damage 3, Improved Critical (19–20) • 4 points Savage typically has access to a considerable amount of other equipment based on his resources.",
-    "vantagens": "Accurate Attack, All-out Attack, Benefit 6 (wealth and resources), Chokehold, Close Attack 2, Connected, Contacts, Defensive Roll 2, Diehard, Fascinate (Intimidation), Fast Grab, Fearless, Great Endurance, Improved Disarm, Improved Grab, Improved Hold, Improved Initiative, Improved Smash, Inventor, Jack-of-all-trades, Languages 5, Leadership, Power Attack, Prone Fighting, Ranged Attack 8, Skill Mastery (Expertise: History), Startle, Takedown, Uncanny Dodge, Weapon Bind, Weapon Break, Well-informed",
-    "pericias": "Athletics 8 (+12), Deception 8 (+13), Expertise: History 18 (+23), Expertise: Magic 6 (+11), Expertise: Tactics 12 (+17), Insight 8 (+12), Intimidation 8 (+13), Investigation 6 (+11), Perception 8 (+12), Persuasion 6 (+10), Stealth 6 (+8), Technology 8 (+13), Treatment 7 (+12), Vehicles 7 (+9) ffen S e o i nitia tive +6 Sword +13 Close, Damage 7 Unarmed +13 Close, Damage 4 efen S e d d odge 12 f or titude 12 Parry 13 t oughness 7/5* W ill 14 *Without Defensive Roll bonus",
-    "pontos_poder": "a bilities 74 S kills 58 Powers 31 d efenses 29 antages 50 a dv ToTal 242",
-    "complicacoes": "rr ogant: which sometimes blinds him to flaws in his own schemes. Selfish: Having lived so long, Savage is willing to do or sacrifice virtually anything (or anyone) to avoid death."
-  }
-}
+{
+  "nome": "Vandal Savage",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 13,
+  "pontos_poder_publicados": 242,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 254
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "4",
+      "STA": "5",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "11",
+      "INT": "4",
+      "AWE": "4",
+      "PRE": "5"
+    },
+    "poderes": "i Immortality 15, Immunity 1 (Aging) • 31 points mmor tal:",
+    "equipamento": "Sword: Strength-Based Damage 3, Improved Critical (19–20) • 4 points Savage typically has access to a considerable amount of other equipment based on his resources.",
+    "vantagens": "Accurate Attack, All-out Attack, Benefit 6 (wealth and resources), Chokehold, Close Attack 2, Connected, Contacts, Defensive Roll 2, Diehard, Fascinate (Intimidation), Fast Grab, Fearless, Great Endurance, Improved Disarm, Improved Grab, Improved Hold, Improved Initiative, Improved Smash, Inventor, Jack-of-all-trades, Languages 5, Leadership, Power Attack, Prone Fighting, Ranged Attack 8, Skill Mastery (Expertise: History), Startle, Takedown, Uncanny Dodge, Weapon Bind, Weapon Break, Well-informed",
+    "pericias": "Athletics 8 (+12), Deception 8 (+13), Expertise: History 18 (+23), Expertise: Magic 6 (+11), Expertise: Tactics 12 (+17), Insight 8 (+12), Intimidation 8 (+13), Investigation 6 (+11), Perception 8 (+12), Persuasion 6 (+10), Stealth 6 (+8), Technology 8 (+13), Treatment 7 (+12), Vehicles 7 (+9) ffen S e o i nitia tive +6 Sword +13 Close, Damage 7 Unarmed +13 Close, Damage 4",
+    "pontos_poder": "a bilities 74 S kills 58 Powers 31 d efenses 29 antages 50 a dv ToTal 242",
+    "complicacoes": "rr ogant: which sometimes blinds him to flaws in his own schemes. Selfish: Having lived so long, Savage is willing to do or sacrifice virtually anything (or anyone) to avoid death.",
+    "defesas": "Dodge 12 Fortitude 12 Parry 13 Toughness 7/5* Will 14 *Without Defensive Roll bonus"
+  },
+  "nome_pt": "Vandal Savage"
+}

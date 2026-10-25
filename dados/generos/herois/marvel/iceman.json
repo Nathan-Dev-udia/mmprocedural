@@ -5,7 +5,7 @@
   "nome_pt": "Homem de Gelo",
   "nivel_poder": 10,
   "pontos_poder_origem": 150,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 146,
   "status_conversao": "convertida",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -49,29 +49,31 @@
     "poderes": [
       {
         "nome": "Cold Control",
-        "construcao_3e": "Cold Control 12 como array dinâmico: Blast, Environment (Hamper Movement), Obscure (visual) e Snare; 31 PP na fonte.",
+        "construcao_3e": "Controle de Frio 12 (Array dinâmico: Dano de Gelo, Ambiente [Frio Extremo e Terreno Escorregadio], Obscurecer Visual e Snare de Gelo; 31 PP).",
         "custo_2e_pp": 31,
-        "custo_3e_pp": null
+        "custo_3e_pp": 31,
+        "nome_pt": "Controle de Gelo e Frio"
       },
       {
         "nome": "Create Object",
-        "construcao_3e": "Create 10 dinâmico; Efeito Alternativo: Movement (Air Walking). 23 PP na fonte.",
+        "construcao_3e": "Criar Gelo 10 dinâmico (21 PP); Efeito Alternativo Dinâmico: Movimento 2 (Andar no Ar com Pistas de Gelo; 2 PP) = 23 PP.",
         "custo_2e_pp": 23,
-        "custo_3e_pp": null
+        "custo_3e_pp": 23,
+        "nome_pt": "Criar Construções de Gelo e Pistas"
       },
       {
         "nome": "Immunity",
         "construcao_3e": "Immunity 5 (frio).",
         "custo_2e_pp": 5,
         "custo_3e_pp": 5,
-        "nome_pt": "Imunidade"
+        "nome_pt": "Imunidade a Frio"
       },
       {
         "nome": "Protection",
         "construcao_3e": "Protection 10.",
         "custo_2e_pp": 10,
         "custo_3e_pp": 10,
-        "nome_pt": "Proteção"
+        "nome_pt": "Armadura de Gelo"
       }
     ],
     "equipamento": [],
@@ -98,16 +100,15 @@
   },
   "custos_3e": {
     "habilidades": 32,
+    "poderes": 69,
     "defesas": 14,
     "pericias": 22,
     "vantagens": 9,
-    "poderes_conhecidos": 15,
-    "subtotal_conhecido": 92,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 146
   },
   "notas_conversao": [
     "Improved Block 2 virou Improved Defense (a vantagem de 3e não acumula nesses dois ranks). Improved Overrun e Weapon Break não têm equivalente direto e foram omitidas.",
-    "A fonte descreve Ice Blast como ataque +8 e efeito 12; a combinação fica no limite Ataque + Efeito de NP 10."
+    "A fonte descreve Ice Blast como ataque +8 e efeito 12; a combinação fica no limite Ataque + Efeito de NP 10.",
+    "Poderes fechados em 3e: Controle de Frio (31 PP) + Criar Gelo/Pistas (23 PP) + Imunidade (5 PP) + Armadura (10 PP) = 69 PP poderes. Total 3e: 146 PP."
   ]
 }

@@ -2,10 +2,10 @@
   "edicao_origem": "Mutants & Masterminds 2e",
   "edicao_destino": "Mutants & Masterminds 3e",
   "nome": "Doctor Doom",
-  "nome_pt": "Doctor Doom",
+  "nome_pt": "Doutor Destino",
   "nivel_poder": 15,
   "pontos_poder_origem": 330,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 379,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -61,21 +61,24 @@
     "poderes": [
       {
         "nome": "Battle Suit",
-        "construcao_3e": "Device (removível): Enhanced Strength 13; Damage 10 (Aura, Triggered by touch); Protection 15 (Impervious 9); Blast 15; Flight 5; Force Field 2 (Impervious, Area, Concentration); Senses 3 (Ultra-Hearing, Communication Link, Infravision).",
+        "construcao_3e": "Dispositivo Removível: Força Aumentada 6 (12 PP), Dano Reativo 10 (Aura Elétrica ao toque; 40 PP), Proteção 15 Impenetrável 9 (24 PP), Rajada de Força / Dano à Distância 15 (30 PP), Voo 5 (10 PP), Campo de Força 2 Impenetrável (4 PP), Sentidos 3 (Ultra-audição, Elo de Comunicação, Infravisão; 3 PP) = 105 PP de efeitos; Removível (-21 PP) = 84 PP.",
         "custo_2e_pp": 84,
-        "custo_3e_pp": null
+        "custo_3e_pp": 84,
+        "nome_pt": "Armadura de Batalha"
       },
       {
         "nome": "Magic",
-        "construcao_3e": "Magic 12 (Mystic Bindings; Alternate Effects: Mystic Blast and Dimensional Movement).",
+        "construcao_3e": "Array de Magia: Amarras Místicas / Aflição à Distância 12 Cumulativa (24 PP); Efeito Alternativo: Rajada Mística / Dano à Distância 12 (1 PP); Efeito Alternativo: Movimento Dimensional 3 (1 PP) = 26 PP.",
         "custo_2e_pp": 26,
-        "custo_3e_pp": null
+        "custo_3e_pp": 26,
+        "nome_pt": "Magia Mística"
       },
       {
         "nome": "Possession",
-        "construcao_3e": "Affliction 10 (possessão semelhante a Mind Control, Sense-Dependent: Sight) linked to Insubstantial.",
+        "construcao_3e": "Aflição Mental 10 (Resistida por Vontade; Dazed, Compelled, Controlled / Possessão; Dependente de Olhar; 20 PP) ligada a Insubstancial 2 (Forma Espiritual durante transferência; 10 PP) = 30 PP.",
         "custo_2e_pp": 30,
-        "custo_3e_pp": null
+        "custo_3e_pp": 30,
+        "nome_pt": "Possessão Mental (Técnica Ovóide)"
       }
     ],
     "equipamento": [
@@ -115,18 +118,17 @@
   },
   "custos_3e": {
     "habilidades": 92,
+    "poderes": 140,
     "defesas": 27,
     "pericias": 80,
     "vantagens": 40,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 239,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 379
   },
   "notas_conversao": [
     "Attack +13 e ataques de Blast foram preservados; as defesas Esquiva/Aparar foram reduzidas a 14 para respeitar NP 15 com Resistência 16. Master Plan foi substituída por Inspire 1 conforme o guia; Fearsome Presence e Sneak Attack foram removidas. Diplomatic Immunity/riqueza e 22 Minions foram mantidos como vantagens, com os descritores publicados.",
     "Defesas ajustadas para Esquiva 14 e Aparar 14, respeitando os limites de NP 15 com Resistência 16.",
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
-    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados.",
+    "Poderes convertidos e fechados para M&M 3e (Lote 6). Armadura de Batalha (dispositivo removível de 105 PP por 84 PP), Array de Magia Mística e Possessão Mental Ovóide consolidados."
   ]
-}
+}

@@ -24,5 +24,6 @@
     "ataques": "Initiative +9, Super-Claws+8 (Close, Damage 12), Unarmed +4 (Close, Damage 10)",
     "defesas": "Dodge 10*, Parry 10*, Fortitude 10, Toughness 12/10**, Will 4 *Includes Shrinking modifiers. **Without Defensive Roll.",
     "pontos_poder": "Abilities 58 + Powers 100 + Advantages 5 + Skills 15 + Defenses 7 = 185"
-  }
+  },
+  "nome_pt": "Raiado, o Supergato"
 }

@@ -1,27 +1,29 @@
-{
-  "nome": "Indigo",
-  "sistema": "DC Adventures / Mutants & Masterminds 3e",
-  "nivel_poder": 10,
-  "pontos_poder_publicados": 289,
-  "fonte": {
-    "arquivo": "dc adventures heroes and villains vol 2.pdf",
-    "pagina_pdf": 97
-  },
-  "ficha_publicada": {
-    "habilidades": {
-      "STR": "10",
-      "STA": "—",
-      "AGL": "3",
-      "DEX": "3",
-      "FGT": "2",
-      "INT": "12",
-      "AWE": "3",
-      "PRE": "4"
-    },
-    "poderes": ": Children of the n igh t (Summon Animals 2 (General Type: Bats, Rats, or Wolves; Horde, Mental Link, Multiple Minions 6 (64 minions))); f or ce f ield (Impervious Sustained Protection 3, Affects Others and Self ); f orm of Mist (Insubstantial 2); Mental Powers (Array (30 points), Mind Control (Perception Range Cumulative Affliction 10 (Resisted by Will; Entranced, Compelled, Controlled)), ae : t elepa thy (Mind Reading 10), ae : Mind Bolt (Perception Range Damage 7, Alternate Resistance: Will)); Spider-Climb (Movement 1 (Wall-crawling)); t elek inesis (Move Object 10); t elek inetic f ligh t (Flight 8 (500 MPH)); Undead i n vulnerability (Immortality 10 (Not When Staked or Beheaded), Immunity 30 (Fortitude), Impervious Protection 7 (Limited―Not Versus Blessed, Magical, or Silver Weapons), Regeneration 5 (Source: Blood)); Vampiric Bite (Weaken Stamina 9 (Resisted by Fortitude), Limited―Drains 1 rank per round, Grab-based) antages: Animal Empathy, Attractive 2, Benefit (Well-off ), a dv Connected, Fascinate (Deception, Persuasion), Favored Foe (Vampires), Fearless, Improved Hold, Improved Initiative, Power Attack, Startle, Taunt",
-    "vantagens": "Accurate Attack, Assessment, Attractive, Diehard, Eidetic Memory, Fearless, Improved Initiative, Inventor, Well- informed",
-    "pericias": "Close Combat: Unarmed 4 (+10), Deception 8 (+13), Expertise (PRE): High Fashion Model 5 (+10), Expertise: Magic 5 (+6), Insight 6 (+9), Intimidation 9 (+13), Perception 7 (+10), Persuasion 5 (+10), Stealth 9 (+13) ense: Initiative +8, Unarmed +10 (Close, Damage 6), Mind o ff Bolt — (Perception Range, Damage 7, Resisted by Will) efense: Dodge 10, Parry 8, Fortitude —, Toughness 10/7*, Will d 10 *Without Force Field. Abilities 46 + Powers 185 + Advantages 14 + Skills 39 +",
-    "pontos_poder": "Defenses 15 = 289",
-    "complicacoes": "d ependence: Looker is a vampire and must feed on blood or weaken. She has permanent telltale bite marks on her neck. Public i tity: Looker’s association with den the Outsiders and her vampirism has ended her marriage and prevents her from living a normal life. o Looker bsession: wants to remove all vampires from the planet."
-  }
-}
+{
+  "nome": "Indigo",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 289,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 97
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "10",
+      "STA": "—",
+      "AGL": "3",
+      "DEX": "3",
+      "FGT": "2",
+      "INT": "12",
+      "AWE": "3",
+      "PRE": "4"
+    },
+    "poderes": ": Children of the n igh t (Summon Animals 2 (General Type: Bats, Rats, or Wolves; Horde, Mental Link, Multiple Minions 6 (64 minions))); f or ce f ield (Impervious Sustained Protection 3, Affects Others and Self ); f orm of Mist (Insubstantial 2); Mental Powers (Array (30 points), Mind Control (Perception Range Cumulative Affliction 10 (Resisted by Will; Entranced, Compelled, Controlled)), ae : t elepa thy (Mind Reading 10), ae : Mind Bolt (Perception Range Damage 7, Alternate Resistance: Will)); Spider-Climb (Movement 1 (Wall-crawling)); t elek inesis (Move Object 10); t elek inetic f ligh t (Flight 8 (500 MPH)); Undead i n vulnerability (Immortality 10 (Not When Staked or Beheaded), Immunity 30 (Fortitude), Impervious Protection 7 (Limited―Not Versus Blessed, Magical, or Silver Weapons), Regeneration 5 (Source: Blood)); Vampiric Bite (Weaken Stamina 9 (Resisted by Fortitude), Limited―Drains 1 rank per round, Grab-based) antages: Animal Empathy, Attractive 2, Benefit (Well-off ), a dv Connected, Fascinate (Deception, Persuasion), Favored Foe (Vampires), Fearless, Improved Hold, Improved Initiative, Power Attack, Startle, Taunt",
+    "vantagens": "Accurate Attack, Assessment, Attractive, Diehard, Eidetic Memory, Fearless, Improved Initiative, Inventor, Well- informed",
+    "pericias": "Close Combat: Unarmed 4 (+10), Deception 8 (+13), Expertise (PRE): High Fashion Model 5 (+10), Expertise: Magic 5 (+6), Insight 6 (+9), Intimidation 9 (+13), Perception 7 (+10), Persuasion 5 (+10), Stealth 9 (+13) ense: Initiative +8, Unarmed +10 (Close, Damage 6), Mind o ff Bolt — (Perception Range, Damage 7, Resisted by Will) efense:",
+    "pontos_poder": "Defenses 15 = 289",
+    "complicacoes": "d ependence: Looker is a vampire and must feed on blood or weaken. She has permanent telltale bite marks on her neck. Public i tity: Looker’s association with den the Outsiders and her vampirism has ended her marriage and prevents her from living a normal life. o Looker bsession: wants to remove all vampires from the planet.",
+    "defesas": "Dodge 10, Parry 8, Fortitude —, Toughness 10/7*, Will 10 *Without Force Field."
+  },
+  "nome_pt": "Índigo"
+}

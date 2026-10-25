@@ -25,5 +25,6 @@
     "ataques": "Initiative +2, Blaster +12 (Ranged, Damage 9, Penetrating 6), Nullifer +12 (Ranged, Nullify 8)",
     "defesas": "Dodge 10, Parry 8, Fortitude 7, Toughness 11/8, Will 11",
     "pontos_poder": "Abilities 52 + Powers 27 + Advantages 22 + Skills 38 + Defenses 26 = 165"
-  }
+  },
+  "nome_pt": "H.I.V.E. Master"
 }

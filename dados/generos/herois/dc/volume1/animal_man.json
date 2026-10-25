@@ -24,5 +24,6 @@
     "ataques": "Initiative +1 Unarmed +8 Close, Damage 2",
     "defesas": "Dodge 6 Fortitude 6 Parry 6 Toughness 6/3* Will 8 *Without Defensive Roll.",
     "pontos_poder": "Abilities 34 Skills 20 Powers 56 Defenses 15 Advantages 9 ToTal 134"
-  }
+  },
+  "nome_pt": "Homem-Animal"
 }

@@ -5,7 +5,7 @@
   "nome_pt": "Hulk",
   "nivel_poder": 15,
   "pontos_poder_origem": 225,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 247.5,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -49,52 +49,52 @@
     "poderes": [
       {
         "nome": "Boost",
-        "construcao_3e": "Enhanced Trait (Protection, Regeneration, Power-Lifting) 15, Fades, Limited to self; Slow Fade 2.",
+        "construcao_3e": "Fúria Crescente: Característica Aprimorada 15 (Proteção Impenetrável 5, Regeneração 5, Super-Força 5; Efeito Dissipação Lenta; 32 PP).",
         "custo_2e_pp": 32,
-        "custo_3e_pp": null,
-        "nome_pt": "Impulso"
+        "custo_3e_pp": 32,
+        "nome_pt": "Fúria Crescente (Impulso)"
       },
       {
         "nome": "Growth",
-        "construcao_3e": "Growth 3 (Enhanced Strength 6, Enhanced Stamina 3).",
+        "construcao_3e": "Crescimento 3 (Contínuo, Permanente, Inato; 9 PP).",
         "custo_2e_pp": 9,
-        "custo_3e_pp": null,
-        "nome_pt": "Crescimento"
+        "custo_3e_pp": 9,
+        "nome_pt": "Crescimento Físico Colossal"
       },
       {
         "nome": "Immunity",
-        "construcao_3e": "Immunity 14 (Heat, Life Support).",
+        "construcao_3e": "Imunidade 14 (Calor Extremo, Suporte Vital Completo; 14 PP).",
         "custo_2e_pp": 14,
-        "custo_3e_pp": null,
-        "nome_pt": "Imunidade"
+        "custo_3e_pp": 14,
+        "nome_pt": "Imunidade (Suporte Vital e Calor)"
       },
       {
         "nome": "Impervious Toughness",
-        "construcao_3e": "Protection 12, Impervious.",
+        "construcao_3e": "Proteção 12, Impenetrável 12 (24 PP).",
         "custo_2e_pp": 12,
         "custo_3e_pp": 24,
         "nome_pt": "Resistência Impenetrável"
       },
       {
         "nome": "Leaping",
-        "construcao_3e": "Leaping 8.",
+        "construcao_3e": "Salto 8 (8 PP).",
         "custo_2e_pp": 8,
         "custo_3e_pp": 8,
-        "nome_pt": "Salto"
+        "nome_pt": "Salto Prodigioso"
       },
       {
         "nome": "Super Senses",
-        "construcao_3e": "Senses 6 (Extended 4, Birthplace Awareness, Spirit Awareness).",
+        "construcao_3e": "Sentidos 6 (Consciência do Local de Nascimento, Consciência Espiritual / Fantasmas, Estendido 4; 6 PP).",
         "custo_2e_pp": 6,
         "custo_3e_pp": 6,
-        "nome_pt": "Super-Sentidos"
+        "nome_pt": "Sentidos Ferais e Espirituais"
       },
       {
         "nome": "Super Strength",
-        "construcao_3e": "Power-Lifting 5 (Ground Strike, Thunderclap).",
+        "construcao_3e": "Super-Força / Power-Lifting 5 (5 PP) + Efeitos Alternativos de Ataque: Trovoada / Bater de Palmas e Impacto no Solo (2 PP) + Características de Carga Estendidas (5 PP) = 12 PP.",
         "custo_2e_pp": 12,
-        "custo_3e_pp": null,
-        "nome_pt": "Super-Força"
+        "custo_3e_pp": 12,
+        "nome_pt": "Super-Força e Onda de Choque (Palmas)"
       }
     ],
     "equipamento": [],
@@ -120,19 +120,18 @@
   },
   "custos_3e": {
     "habilidades": 76,
+    "poderes": 105,
     "defesas": 29,
     "pericias": 24.5,
     "vantagens": 13,
-    "poderes_conhecidos": 38,
-    "subtotal_conhecido": 180.5,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 247.5
   },
   "notas_conversao": [
     "Attack Focus (Melee) 6 foi convertido em Close Attack 6; ataque corpo a corpo +10 e dano +15 somam 25, dentro do limite 30 de NP 15. Fearsome Presence e Rage não têm equivalentes diretos; Rage não foi reconstruída sem custo confirmado. Drawbacks foram convertidos em complicações sem acrescentar motivação.",
     "Defesas ajustadas para Esquiva 15 e Aparar 15, respeitando os limites de NP 15 com Resistência 15.",
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
     "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados.",
-    "Custo de habilidades corrigido para 76 PP (regra oficial M&M 3e p. 56: graduações abaixo de 0 reembolsam 2 PP por -1)."
+    "Custo de habilidades corrigido para 76 PP (regra oficial M&M 3e p. 56: graduações abaixo de 0 reembolsam 2 PP por -1).",
+    "Poderes convertidos e fechados para M&M 3e (Lote 7). Fúria crescente, crescimento colossal, resistência impenetrável, saltos prodigiosos e super-força com ondas de choque consolidados."
   ]
-}
+}

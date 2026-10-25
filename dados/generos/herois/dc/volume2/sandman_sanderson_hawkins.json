@@ -1,26 +1,31 @@
-{
-  "nome": "Sandman (Sanderson Hawkins)",
-  "sistema": "DC Adventures / Mutants & Masterminds 3e",
-  "nivel_poder": 10,
-  "pontos_poder_publicados": null,
-  "fonte": {
-    "arquivo": "dc adventures heroes and villains vol 2.pdf",
-    "pagina_pdf": 157
-  },
-  "ficha_publicada": {
-    "habilidades": {
-      "STR": "2",
-      "STA": "6",
-      "AGL": "2",
-      "DEX": "2",
-      "FGT": "8",
-      "INT": "3",
-      "AWE": "3",
-      "PRE": "3"
-    },
-    "poderes": "Geokinesis: Array (36 points), • e arthwalker: Teleport 15 (120 miles), Extended (32,000 miles), Medium (Contiguous earth) • 30 points • e arth Control: Damaging Perception Range Move Object 9, Limited to earth, sand, and rock • 1 point • e arthquake: Burst Area Damage 10, Limited: Both Hawkins and targets must be in contact with the ground, Linked to Burst Area Affliction 10 (Resisted by Fortitude; Vulnerable, Defenseless), Instant Recovery, Limited Degree, Limited: Both Hawkins and targets must be in contact with the ground • 1 point • e arth Shaping: Continuous Movable Create 7 • 1 point Legacy",
-    "equipamento": "Array (44 points), Easily Removable (-22 points) • Sleep-Gas Gun: Cloud Area Affliction 8 (Resisted by Fortitude; Dazed and Fatigued, Compelled and Exhausted, Asleep), Extra Condition, Reach 4 (20 feet), Linked to Cloud Area Concealment 6 Attack (Olfactory and All Visual), Partial, Reach 4 (20 feet) • 41 points • Wirepoon: Ranged Damage 5; Movement 1 (Swinging) • 1 point eluctant Seer: Senses 4 (Precognition) Uncontrolled • 2 points r Self-Shaping: Array (14 points) • Hard as r ock: Enhanced Strength 4, Feature 2 (Increased Mass Rank 2 (800 lbs)), Impervious Protection 2 • 14 points • Living Sand: Insubstantial 2 (Sand), Immunity 2 (Suffocation) • 1 points i PM ent eQU a Gas Mask, Body Armor (Protection 2, doesn’t c coutrements: stack with Hard as Rock) • 3 points",
-    "vantagens": "Accurate Attack, Benefit 2 (Independently Wealthy), Close Attack 4, Connected, Contacts, Defensive Attack, Evasion, Equipment, Improved Defense, Improved Initiative, Improved Trip, Well-informed",
-    "pericias": "Acrobatics 6 (+8), Athletics 6 (+8), Deception 6 (+9), Expertise: Criminology 8 (+11), Insight 8 (+11), Intimidation 6 (+9), Investigation 8 (+11), Perception 8 (+11), Persuasion 6 (+9), Ranged Combat: Guns 8 (+10), Sleight of Hand 6 (+8), Stealth 8 (+10) the costumed-hero game dating back to his adolescence. He also goes into action wearing body armor and carrying Wes- ley’s old tools, though he has been known to carry heavier armaments when he felt it necessary (i.e., uses his unspent Equipment points and trades out the rest for an adventure)."
-  }
-}
+{
+  "nome": "Sandman (Sanderson Hawkins)",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 157
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "6",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "8",
+      "INT": "3",
+      "AWE": "3",
+      "PRE": "3"
+    },
+    "poderes": "Geokinesis: Array (36 points), • e arthwalker: Teleport 15 (120 miles), Extended (32,000 miles), Medium (Contiguous earth) • 30 points • e arth Control: Damaging Perception Range Move Object 9, Limited to earth, sand, and rock • 1 point • e arthquake: Burst Area Damage 10, Limited: Both Hawkins and targets must be in contact with the ground, Linked to Burst Area Affliction 10 (Resisted by Fortitude; Vulnerable, Defenseless), Instant Recovery, Limited Degree, Limited: Both Hawkins and targets must be in contact with the ground • 1 point • e arth Shaping: Continuous Movable Create 7 • 1 point Legacy",
+    "equipamento": "Array (44 points), Easily Removable (-22 points) • Sleep-Gas Gun: Cloud Area Affliction 8 (Resisted by Fortitude; Dazed and Fatigued, Compelled and Exhausted, Asleep), Extra Condition, Reach 4 (20 feet), Linked to Cloud Area Concealment 6 Attack (Olfactory and All Visual), Partial, Reach 4 (20 feet) • 41 points • Wirepoon: Ranged Damage 5; Movement 1 (Swinging) • 1 point eluctant Seer: Senses 4 (Precognition) Uncontrolled • 2 points r Self-Shaping: Array (14 points) • Hard as r ock: Enhanced Strength 4, Feature 2 (Increased Mass Rank 2 (800 lbs)), Impervious Protection 2 • 14 points • Living Sand: Insubstantial 2 (Sand), Immunity 2 (Suffocation) • 1 points i PM ent eQU a Gas Mask, Body Armor (Protection 2, doesn’t c coutrements: stack with Hard as Rock) • 3 points",
+    "vantagens": "Accurate Attack, Benefit 2 (Independently Wealthy), Close Attack 4, Connected, Contacts, Defensive Attack, Evasion, Equipment, Improved Defense, Improved Initiative, Improved Trip, Well-informed",
+    "pericias": "Acrobatics 6 (+8), Athletics 6 (+8), Deception 6 (+9), Expertise: Criminology 8 (+11), Insight 8 (+11), Intimidation 6 (+9), Investigation 8 (+11), Perception 8 (+11), Persuasion 6 (+9), Ranged Combat: Guns 8 (+10), Sleight of Hand 6 (+8), Stealth 8 (+10) the costumed-hero game dating back to his adolescence. He also goes into action wearing body armor and carrying Wes- ley’s old tools, though he has been known to carry heavier armaments when he felt it necessary (i.e., uses his unspent Equipment points and trades out the rest for an adventure).",
+    "defesas": "Dodge 10, Parry 8, Fortitude 10, Toughness 10, Will 10",
+    "ataques": "Initiative +2, Sleep-Gas Gun (Cloud Area Affliction 8, Resisted by Fortitude), Unarmed +12 (Close, Damage 2)",
+    "pontos_poder": "Abilities 58 + Powers 36 + Advantages 14 + Skills 24 + Defenses 23 = 155",
+    "complicacoes": "Motivation: Justice, Responsibility: Legacy of Wesley Dodds, Identity."
+  },
+  "nome_pt": "Sandman (Sandy Hawkins)"
+}

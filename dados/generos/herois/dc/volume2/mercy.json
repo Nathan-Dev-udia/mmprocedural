@@ -24,5 +24,6 @@
     "ataques": "Initiative +2, Unarmed +8 (Damage 10)",
     "defesas": "Dodge 8, Parry 8, Fortitude 10, Toughness 8, Will 8",
     "pontos_poder": "Abilities 66 + Powers 0 + Advantages 12 + Skills 12 + Defenses 15 = 105"
-  }
+  },
+  "nome_pt": "Mercy Graves"
 }

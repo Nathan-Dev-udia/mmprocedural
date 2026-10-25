@@ -25,5 +25,6 @@
     "defesas": "Dodge 11 Fortitude 10 Parry 10 Toughness 15/3* Will 16 *Without Power Ring protection.",
     "pontos_poder": "Abilities 44 Skills 24 Powers 101 Defenses 34 Advantages 4 ToTal 207",
     "complicacoes": "Power Loss: The power ring needs periodic recharging and issues a warning as its power runs low. Reputation: Guy Gardner is hard-nosed and stubborn. People usually expect the worst from Guy... and they usually get it. Weakness: Green Lantern power rings depend on the willpower of the wearer; the maximum rank of the ring’s effects is equal to the wearer’s Will rank, and moments of self-doubt or hesitation can cause the ring to fail."
-  }
+  },
+  "nome_pt": "Lanterna Verde (Guy Gardner)"
 }

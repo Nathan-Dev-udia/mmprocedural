@@ -25,5 +25,6 @@
     "defesas": "Dodge 11/5*, Parry 12/6*, Fortitude —, Toughness 14/20*, Will 14 *With Growth.",
     "pontos_poder": "Abilities 60 + Powers 86 + Advantages 8 + Skills 31 + Defenses 29 = 214",
     "complicacoes": "Fish Out of Water: Thorn is a stranger to modern ways and ideas. Weakness : Blackbriar Thorn is living wood and as such is vulnerable to defoliants and fire—treat each as a serious advantage to the damage rating of any such attack (+5)."
-  }
+  },
+  "nome_pt": "Blackbriar Thorn"
 }

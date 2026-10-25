@@ -25,5 +25,6 @@
     "defesas": "Dodge 10, Parry 4, Fortitude 5, Toughness 1, Will 11",
     "pontos_poder": "Abilities 30 + Powers 33 + Advantages 7 + Skills 18 + Defenses 22 = 110",
     "complicacoes": "Brat: Zatara has an incredibly high opinion of himself, and rarely views anyone else as an equal, an opinion he is happy to express in plain language. Living t hings , n ot S o Good: Zatara is not yet very proficient with magic involving naturally animate subjects, such as living things. When casting magic to affect such subjects consider his Magic Array to have both the Expertise: Magic Check Required and Unreliable flaws. Power Loss: Zatara needs to speak aloud (and backwards) to cast his spells. Women and Magic d on’t Mix: Zatara’s magic can be influenced by his emotional attachment to others, especially women. Strong feeling of this type effectively impose the Unreliable flaw upon his Magic Array when in the presence of the subject of his affection."
-  }
+  },
+  "nome_pt": "Zachary Zatara"
 }

@@ -1,27 +1,29 @@
-{
-  "nome": "Queen Bee",
-  "sistema": "DC Adventures / Mutants & Masterminds 3e",
-  "nivel_poder": 12,
-  "pontos_poder_publicados": 269,
-  "fonte": {
-    "arquivo": "dc adventures heroes and villains vol 2.pdf",
-    "pagina_pdf": 121
-  },
-  "ficha_publicada": {
-    "habilidades": {
-      "STR": "10",
-      "STA": "8",
-      "AGL": "8",
-      "DEX": "7",
-      "FGT": "5",
-      "INT": "6",
-      "AWE": "7",
-      "PRE": "8"
-    },
-    "poderes": "f Flight 6 (120 MPH) • 12 points ligh t: Heightened r eflexes: Improved Initiative 6, Quickness 6 • 12 points Mind-Confusing Pollen: Cumulative Affliction 13 (Resisted by Will; Dazed, Compelled, Controlled) • 26 points Stinger d arts: Cumulative Ranged Affliction 8 (Resisted by Fortitude; Dazed, Disabled, Incapacitated) • 24 points d a e S a V ant G Attractive, Benefit 10 (Queen of Korll), Close Attack 6, Defensive Roll 2, Improved Initiative 6, Leadership, Minions 6 (2 drone swarms), Move-by Action, Taunt",
-    "pericias": "Athletics 6 (+16), Deception 10 (+18), Insight 8 (+15), Intimidation 8 (+16), Perception 6 (+13), Persuasion 8 (+16), Ranged Combat: Stinger Darts 6 (+13), Technology 6 (+12)",
-    "ataques": "i nitia tive +32 Stinger Darts +13 Ranged, Affliction 8 (poison) Mind-Confusing Pollen +11 Close, Cumulative Affliction 13, Resisted by Will Unarmed +11 Close, Damage 10 efen S e d d odge 14 f or titude 10 Parry 12 t oughness 10/8* W ill 12 *Without Defensive Roll.",
-    "pontos_poder": "a bilities 118 S kills 29 Powers 74 d efenses 20 a dv antages 28 t otal 269",
-    "complicacoes": "Partial Color Blindness: Queen Bee and her drones cannot see the color red. Queen Bee is power-mad and constantly strives to o bsession: expand her empire."
-  }
-}
+{
+  "nome": "Queen Bee",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": 269,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 121
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "10",
+      "STA": "8",
+      "AGL": "8",
+      "DEX": "7",
+      "FGT": "5",
+      "INT": "6",
+      "AWE": "7",
+      "PRE": "8"
+    },
+    "poderes": "f Flight 6 (120 MPH) • 12 points ligh t: Heightened r eflexes: Improved Initiative 6, Quickness 6 • 12 points Mind-Confusing Pollen: Cumulative Affliction 13 (Resisted by Will; Dazed, Compelled, Controlled) • 26 points Stinger d arts: Cumulative Ranged Affliction 8 (Resisted by Fortitude; Dazed, Disabled, Incapacitated) • 24 points d a e S a V ant G Attractive, Benefit 10 (Queen of Korll), Close Attack 6, Defensive Roll 2, Improved Initiative 6, Leadership, Minions 6 (2 drone swarms), Move-by Action, Taunt",
+    "pericias": "Athletics 6 (+16), Deception 10 (+18), Insight 8 (+15), Intimidation 8 (+16), Perception 6 (+13), Persuasion 8 (+16), Ranged Combat: Stinger Darts 6 (+13), Technology 6 (+12)",
+    "ataques": "i nitia tive +32 Stinger Darts +13 Ranged, Affliction 8 (poison) Mind-Confusing Pollen +11 Close, Cumulative Affliction 13, Resisted by Will Unarmed +11 Close, Damage 10",
+    "pontos_poder": "a bilities 118 S kills 29 Powers 74 d efenses 20 a dv antages 28 t otal 269",
+    "complicacoes": "Partial Color Blindness: Queen Bee and her drones cannot see the color red. Queen Bee is power-mad and constantly strives to o bsession: expand her empire.",
+    "defesas": "Dodge 14 Fortitude 10 Parry 12 Toughness 10/8* Will 12 *Without Defensive Roll."
+  },
+  "nome_pt": "Rainha Abelha"
+}

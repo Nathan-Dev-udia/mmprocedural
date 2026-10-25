@@ -25,5 +25,6 @@
     "defesas": "Dodge 11, Parry 11, Fortitude 13, Toughness 17, Will 15",
     "complicacoes": "The same as Captain Marvel. Mary Batson’s normal form is Str 0, Sta 0, Fgt 2, and Awe 3, with corresponding adjustments to her skill ranks and defenses.",
     "pontos_poder": "Abilities 92 + Powers 110 + Advantages 0 + Skills 5 + Defenses 13 = 220"
-  }
+  },
+  "nome_pt": "Mary Marvel"
 }

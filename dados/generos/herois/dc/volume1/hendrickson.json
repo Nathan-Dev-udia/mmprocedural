@@ -25,5 +25,6 @@
     "defesas": "Dodge 9, Parry 10, Fortitude 7, Toughness 6/4, Will 11",
     "pontos_poder": "Abilities 56 + Powers 0 + Advantages 32 + Skills 17 + Defenses 21 = 126",
     "complicacoes": "Responsibility: Hendrickson regards fighting for human freedom as the highest duty. Enemy: See the Blackhawk Squadron’s group Enemies list."
-  }
+  },
+  "nome_pt": "Hendrickson"
 }

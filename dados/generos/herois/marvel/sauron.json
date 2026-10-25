@@ -5,7 +5,7 @@
   "nome_pt": "Sauron",
   "nivel_poder": 10,
   "pontos_poder_origem": 165,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 185,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -49,65 +49,66 @@
     "poderes": [
       {
         "nome": "Blast 10",
-        "construcao_3e": "Cone Area, Full Action.",
+        "construcao_3e": "Dano 10 em Cone de Área (2 PP/grad x 10 = 20 PP).",
         "custo_2e_pp": 20,
-        "custo_3e_pp": null,
-        "nome_pt": "Rajada de Energia 10"
+        "custo_3e_pp": 20,
+        "nome_pt": "Sopro de Fogo (Rajada em Cone)"
       },
       {
         "nome": "Drain (Stamina) 8",
-        "construcao_3e": "Weaken Stamina 8.",
+        "construcao_3e": "Enfraquecer Vigor 8 (Weaken Stamina 8; 8 PP).",
         "custo_2e_pp": 8,
-        "custo_3e_pp": 8
+        "custo_3e_pp": 8,
+        "nome_pt": "Drenar Energia Vital (Vigor)"
       },
       {
         "nome": "Enhanced Strength 8",
-        "construcao_3e": "Enhanced Trait: Strength 4 (para elevar o valor base 2 ao valor final 6).",
+        "construcao_3e": "Característica Aprimorada: Força 4 (8 PP).",
         "custo_2e_pp": 8,
         "custo_3e_pp": 8,
         "nome_pt": "Força Aumentada 8"
       },
       {
         "nome": "Enhanced Dexterity 8",
-        "construcao_3e": "Enhanced Trait: Agility 4 e Dexterity 4 (para elevar os valores base 1 ao valor final 5).",
+        "construcao_3e": "Característica Aprimorada: Agilidade 4 e Destreza 4 (16 PP).",
         "custo_2e_pp": 8,
         "custo_3e_pp": 16,
         "nome_pt": "Destreza Aumentada 8"
       },
       {
         "nome": "Enhanced Constitution 8",
-        "construcao_3e": "Enhanced Trait: Stamina 4 (para elevar o valor base 2 ao valor final 6).",
+        "construcao_3e": "Característica Aprimorada: Vigor 4 (8 PP).",
         "custo_2e_pp": 8,
         "custo_3e_pp": 8,
         "nome_pt": "Vigor Aumentado 8"
       },
       {
         "nome": "Flight 4",
-        "construcao_3e": "Flight 4.",
+        "construcao_3e": "Voo 4 (8 PP).",
         "custo_2e_pp": 8,
         "custo_3e_pp": 8,
         "nome_pt": "Voo 4"
       },
       {
         "nome": "Mind Control 8",
-        "construcao_3e": "Mind Control 8, Sense-Dependent (sight).",
+        "construcao_3e": "Aflição 8 (Resistida por Vontade; Dazed, Compelled, Controlled; Alcance Percepção, Dependente de Olhar; 8 PP).",
         "custo_2e_pp": 8,
-        "custo_3e_pp": null,
-        "nome_pt": "Controle Mental 8"
+        "custo_3e_pp": 8,
+        "nome_pt": "Olhar Hipnótico (Controle Mental)"
       },
       {
         "nome": "Protection 3",
-        "construcao_3e": "Protection 3.",
+        "construcao_3e": "Proteção 3 (3 PP).",
         "custo_2e_pp": 3,
         "custo_3e_pp": 3,
         "nome_pt": "Proteção 3"
       },
       {
         "nome": "Strike 2",
-        "construcao_3e": "Damage 2, Mighty, Improved Critical 2.",
+        "construcao_3e": "Dano 2 Baseado em Força, Crítico Aprimorado 2 (4 PP).",
         "custo_2e_pp": 5,
         "custo_3e_pp": 4,
-        "nome_pt": "Golpe 2"
+        "nome_pt": "Garras (Golpe 2)"
       }
     ],
     "equipamento": [],
@@ -151,13 +152,11 @@
   },
   "custos_3e": {
     "habilidades_base": 32,
+    "poderes": 83,
     "defesas": 20,
     "pericias": 36,
     "vantagens": 14,
-    "poderes_conhecidos": 55,
-    "subtotal_conhecido": 157,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 185
   },
   "notas_conversao": [
     "Fearsome Presence não é vantagem direta; foi registrada nas notas sem inventar custo de Affliction. Esquiva/Aparar foram reduzidas para respeitar o NP.",
@@ -165,6 +164,7 @@
     "A anotação de ataque de Sauron inclui bônus de defesa 22 durante voo; foi preservada como fato da fonte. Esquiva/Aparar 12 com Resistência 8 ficam no limite PL 10.",
     "Involuntary Transformation foi convertida em complicação preservando Karl Lykos.",
     "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +6/+5/+6/+2/+1/+1. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
-    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
+    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos.",
+    "Poderes convertidos e fechados para M&M 3e (Lote 6). Sopro de fogo em cone, Drenar vigor, Olhar hipnótico, garras e características aprimoradas consolidados."
   ]
-}
+}

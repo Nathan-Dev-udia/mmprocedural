@@ -24,5 +24,6 @@
     "ataques": "Initiative +4, Mace Hand +11 (Damage 7), Unarmed +9 (Damage 3)",
     "defesas": "Dodge 10, Parry 11, Fortitude 10, Toughness 7/3*, Will 8 *Without Defensive Roll",
     "pontos_poder": "Abilities 56 + Powers 5 + Advantages 23 + Skills 29 + Defenses 20 = 133"
-  }
+  },
+  "nome_pt": "Machiste"
 }

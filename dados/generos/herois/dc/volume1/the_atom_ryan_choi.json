@@ -23,5 +23,6 @@
     "pericias": "Acrobatics 4 (+7), Athletics 3 (+5), Close Combat: Unarmed 5 (+8), Expertise: Nanotechnology 9 (+15), Expertise: Science 9 (+15), Insight 2 (+5), Investigation 4 (+10), Perception 4 (+7), Technology 4 (+10), Treatment 2 (+8)",
     "ataques": "Initiative +3 Unarmed +8 Close, Damage 2 White Dwarf Punch +8 Close, Damage 10",
     "defesas": "Dodge 13/6* Fortitude 5 Parry 13/6* Toughness 2 Will 5 *Without typical Shrinking bonus (see"
-  }
+  },
+  "nome_pt": "The Atom (Ryan Choi)"
 }

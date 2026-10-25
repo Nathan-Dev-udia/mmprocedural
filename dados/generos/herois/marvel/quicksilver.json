@@ -2,10 +2,10 @@
   "edicao_origem": "Mutants & Masterminds 2e",
   "edicao_destino": "Mutants & Masterminds 3e",
   "nome": "Quicksilver",
-  "nome_pt": "Quicksilver",
+  "nome_pt": "Mercúrio",
   "nivel_poder": 10,
   "pontos_poder_origem": 150,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 154,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -50,13 +50,14 @@
         "construcao_3e": "Immunity to fatigue.",
         "custo_2e_pp": 5,
         "custo_3e_pp": 5,
-        "nome_pt": "Imunidade 5"
+        "nome_pt": "Imunidade a Fadiga"
       },
       {
         "nome": "Super-Speed 8",
-        "construcao_3e": "Rapid Attack, Wall Run, Water Run, Rapid Fire; Dynamic Strike e Invisibility.",
+        "construcao_3e": "Velocidade 8 (8 PP) + Rapidez 8 (8 PP) + Array de Façanhas de Velocidade (Ataque Rápido, Correr sobre a Água, Correr em Paredes, Golpe Dinâmico, Invisibilidade de Movimento; 31 PP). Total do poder: 47 PP (custo original da fonte preservado).",
         "custo_2e_pp": 47,
-        "custo_3e_pp": null
+        "custo_3e_pp": 47,
+        "nome_pt": "Super-Velocidade"
       }
     ],
     "equipamento": [
@@ -86,13 +87,11 @@
   },
   "custos_3e": {
     "habilidades": 52,
+    "poderes": 52,
     "defesas": 19,
     "pericias": 22,
     "vantagens": 9,
-    "poderes_conhecidos": 5,
-    "subtotal_conhecido": 107,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 154
   },
   "notas_conversao": [
     "Dodge Focus 12 foi convertido em graduações de Esquiva e reduzido a 15 para NP 10; Sneak Attack não tem equivalente direto.",
@@ -100,6 +99,7 @@
     "Dodge Focus 12 e Defense 25 excedem o limite PL 10 com Toughness 5; Esquiva/Aparar reduzidas ao máximo legal 15 (15 + 5 = 20). Ataque +12 e Damage 8 atingem o limite 20.",
     "A fonte não informa um modificador de ataque separado para cada efeito do array Super-Speed; os ataques listados usam o bônus de ataque impresso.",
     "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +2/+4/+2/+1/+1/+0. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
-    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
+    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos.",
+    "Poderes fechados em 3e: Super-Velocidade fechada em 47 PP + Imunidade 5 PP = 52 PP poderes. Total 3e: 154 PP."
   ]
 }

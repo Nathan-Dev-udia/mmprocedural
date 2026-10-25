@@ -21,8 +21,11 @@
     "poderes": "Chameleon: Variable 8 (Assumed Shapes; Insubstantial up to rank 3), Move Action, Limited (Gross physical traits of the assumed form and cannot reproduce an individual’s powers or complex mechanisms) • 56 points Shapeshifter: Immunity 2 (Critical Hits); Morph 4 (Any Shape); Regeneration 5 • 27 points Scanning: Senses 5 (Analytical Auditory, Modification Awareness, Counters Illusion, Mental Sense) • 5 points",
     "equipamento": "Flight Ring: Communication 5 (subspace radio, Anywhere, Limited to Distress Signal –3); Flight 7 (250 MPH); Removable (–3 points) • 16 points Telepathic Plug: Comprehend 3 (Languages), Mental Communication 1 (Close Range), Removable (-1 point) • 7 points Transsuit: Immunity 9 (Life Support, except for starvation and thirst), Removable (–2 point) • 7 points",
     "vantagens": "Benefit 1 (Legion membership), Close Attack 3, Defensive Roll 2, Eidetic Memory, Equipment 6, Evasion, Skill Mastery (Deception), Skill Mastery (Insight), Move-by Action, Taunt",
-    "pericias": "Acrobatics 5 (+10), Deception 10 (+13), Insight 12 (+16), Investigation 10 (+15), Expertise: Espionage 8 (+13), Intimidation 4 (+7), Perception 11 (+15), Stealth 8 (+13), Vehicles 2 (+7) OFFENSE* Initiative +5 Unarmed +9 Close, Damage 3 DEFENSE* Dodge 8 Fortitude 6 Parry 9 Toughness 4/2** Will 9 *His Chameleon power may change these. **Without Defensive Roll bonus.",
+    "pericias": "Acrobatics 5 (+10), Deception 10 (+13), Insight 12 (+16), Investigation 10 (+15), Expertise: Espionage 8 (+13), Intimidation 4 (+7), Perception 11 (+15), Stealth 8 (+13), Vehicles 2 (+7)",
     "pontos_poder": "Abilities 62 Skills 35 Powers 88 Defenses 15 Advantages 18 ToTal 218",
-    "complicacoes": "Antennae: Binding his antennae keeps Reep from using his Scanning and Chameleon powers. Limited Transformation: Chameleon Boy may not be able to reproduce certain complex functions of a particular shape. Motivation: Uphold the greater good. Vulnerability: Being sprayed with cancelite or exposed to large amounts of high radiation nullifies Reep’s Chameleon power and freezes him in the shape he was in for one scene."
-  }
+    "complicacoes": "Antennae: Binding his antennae keeps Reep from using his Scanning and Chameleon powers. Limited Transformation: Chameleon Boy may not be able to reproduce certain complex functions of a particular shape. Motivation: Uphold the greater good. Vulnerability: Being sprayed with cancelite or exposed to large amounts of high radiation nullifies Reep’s Chameleon power and freezes him in the shape he was in for one scene.",
+    "ataques": "Initiative +5, Unarmed +9 (Close, Damage 3)",
+    "defesas": "Dodge 8, Fortitude 6, Parry 9, Toughness 4/2*, Will 9 *Without Defensive Roll bonus."
+  },
+  "nome_pt": "Chameleon Boy"
 }

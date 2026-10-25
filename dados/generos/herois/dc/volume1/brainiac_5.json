@@ -26,5 +26,6 @@
     "defesas": "Dodge 8 Fortitude 6 Parry 8 Toughness 12 Will 11",
     "pontos_poder": "Abilities 66 Skills 34 Powers 54 Defenses 20 Advantages 22 ToTal 196",
     "complicacoes": "Arrogance: Brainiac 5 is condescending towards and often dismissive of people of lesser intellect. Guilt by Association: Brainiac 5 seeks to redeem the name of Brainiac and atone for the actions of the villains to bear the name. Instability: Brainiac 5 is prone to bouts of temporary insanity and mental breakdowns. These can occur due to extreme stress or from outside influence."
-  }
+  },
+  "nome_pt": "Brainiac 5"
 }

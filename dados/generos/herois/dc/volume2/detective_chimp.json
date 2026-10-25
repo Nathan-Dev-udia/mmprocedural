@@ -26,5 +26,6 @@
     "defesas": "Dodge 8*, Parry 8*, Fortitude 6, Toughness 5/3**, Will 11 *Includes Shrinking modifiers. **Without Defensive Roll. Abilities 56+ Powers 25 + Advantages 8 + Skills 32 +",
     "pontos_poder": "Defenses 14 = 135",
     "complicacoes": "Physical Limitation: Detective Chimp, like all chimpanzees, can’t swim. Bad Habits: Bobo smokes and drinks, both to excess, and gets cranky when he goes too long without nicotine or alcohol."
-  }
+  },
+  "nome_pt": "Detetive Chimp"
 }

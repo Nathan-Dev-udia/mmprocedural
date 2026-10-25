@@ -2,10 +2,10 @@
   "edicao_origem": "Mutants & Masterminds 2e",
   "edicao_destino": "Mutants & Masterminds 3e",
   "nome": "Rogue",
-  "nome_pt": "Rogue",
+  "nome_pt": "Vampira",
   "nivel_poder": 10,
   "pontos_poder_origem": 180,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 196,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -44,9 +44,10 @@
     "poderes": [
       {
         "nome": "Drain (All Powers at Once) 10",
-        "construcao_3e": "Weaken all powers, Slow Fade 2, Linked to Mimic, Uncontrolled.",
+        "construcao_3e": "Enfraquecer Todos os Poderes e Características 10 (Desvanecimento Lento; Ligado a Mimetismo; Falha: Incontrolável [-1/graduação] = 32 PP).",
         "custo_2e_pp": 32,
-        "custo_3e_pp": null
+        "custo_3e_pp": 32,
+        "nome_pt": "Dreno de Poderes e Memórias"
       },
       {
         "nome": "Mimic (All Powers at Once) 10",
@@ -115,13 +116,11 @@
   },
   "custos_3e": {
     "habilidades_base": 40,
+    "poderes": 131,
     "defesas": 9,
     "pericias": 10,
     "vantagens": 6,
-    "poderes_conhecidos": 99,
-    "subtotal_conhecido": 164,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 196
   },
   "notas_conversao": [
     "Dodge Focus 2 foi convertido em graduações de Esquiva. Força e Vigor da fonte são muito altos para NP 10, mas foram preservados; nenhuma outra vantagem foi removida.",
@@ -129,6 +128,7 @@
     "Os Drawbacks Full Power (Drain) e Full Power (Mimic), cada um 3 PP, foram convertidos em complicações separadas mantendo ocorrência e intensidade. Não foi criada Motivação.",
     "Resistência 12 limita Esquiva/Aparar a 8 para PL 10. Ataque +8 e dano +12 igualam o limite 20.",
     "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +12/+2/+12/+0/+2/+3. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
-    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
+    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos.",
+    "Poderes fechados em 3e: Dreno de Poderes fechado em 32 PP + Mimetismo (20 PP) + Força (22 PP) + Vigor (44 PP) + Voo (10 PP) + Carga (3 PP) = 131 PP poderes. Total 3e: 196 PP."
   ]
 }

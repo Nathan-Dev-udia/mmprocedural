@@ -5,7 +5,7 @@
   "nome_pt": "Thor",
   "nivel_poder": 13,
   "pontos_poder_origem": 195,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 202,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -49,24 +49,24 @@
     "poderes": [
       {
         "nome": "Super Strength",
-        "construcao_3e": "Power-Lifting 5 (Alternate Effect: Ground Strike).",
+        "construcao_3e": "Super-Força / Power-Lifting 5 (5 PP) + Efeito Alternativo: Impacto Terrestre / Ground Strike (1 PP) = 6 PP.",
         "custo_2e_pp": 11,
         "custo_3e_pp": 6,
-        "nome_pt": "Super-Força"
+        "nome_pt": "Super-Força Asgardiana"
       },
       {
         "nome": "Immunity",
-        "construcao_3e": "Immunity: Disease and Suffocation in Vacuum; custo 3e depende da seleção exata de imunidades.",
+        "construcao_3e": "Imunidade 2 (Doenças e Sufocamento no Vácuo; 2 PP).",
         "custo_2e_pp": 2,
-        "custo_3e_pp": null,
-        "nome_pt": "Imunidade"
+        "custo_3e_pp": 2,
+        "nome_pt": "Imunidade Divina"
       },
       {
         "nome": "Device (Mjolnir)",
-        "construcao_3e": "Removable (Mjolnir), com Strike 3 (Mighty, Thrown 3), Weather Control 16 (Precipitation e alternativos Dynamic), Flight 11 (Space Travel e Dimensional Movement como alternativos), Restricted: Those Worthy. A fonte atribui 42 PP; construção e custo 3e incertos.",
+        "construcao_3e": "Dispositivo Removível: Dano 3 Baseado em Força Arremessável 3 Penetrante 6 (12 PP), Controle Climático Dinâmico 14 [Relâmpago, Chuva, Vento] (30 PP), Voo 10 Dinâmico com Movimento Espacial e Dimensional (24 PP); Restrito aos Dignos (2 PP); Piscina de 68 PP; Removível (-26 PP) = 42 PP.",
         "custo_2e_pp": 42,
-        "custo_3e_pp": null,
-        "nome_pt": "Dispositivo (Mjolnir)"
+        "custo_3e_pp": 42,
+        "nome_pt": "Mjolnir (Martelo Encantado)"
       }
     ],
     "equipamento": [],
@@ -98,13 +98,11 @@
   },
   "custos_3e": {
     "habilidades": 96,
+    "poderes": 50,
     "defesas": 16,
     "pericias": 34,
     "vantagens": 6,
-    "poderes_conhecidos": 6,
-    "subtotal_conhecido": 158,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 202
   },
   "notas_conversao": [
     "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
@@ -115,6 +113,7 @@
     "Dodge Focus 6 foi convertido em ranks de Esquiva: base 11 + 6 = 17; valor final 11.",
     "Defesas reduzidas por limite de NP 13: Esquiva 17→11 e Aparar 11→11; cada defesa ativa + Resistência 15 ≤ 26.",
     "Subtotal 3e conhecido: 96 PP em habilidades, 68 em perícias, 60 em defesas, 6 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
-    "Correção de custo: as perícias somam 68 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 68 para 34 PP (subtotal e totais ajustados em -34)."
+    "Correção de custo: as perícias somam 68 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 68 para 34 PP (subtotal e totais ajustados em -34).",
+    "Poderes convertidos e fechados para M&M 3e (Lote 8). Mjolnir como dispositivo removível (golpe de arremesso penetrante, relâmpagos climáticos, voo/viagem espacial restrito aos dignos), super-força e imunidade divina consolidados."
   ]
-}
+}

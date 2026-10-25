@@ -5,7 +5,7 @@
   "nome_pt": "Venom",
   "nivel_poder": 11,
   "pontos_poder_origem": 165,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 213,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -51,79 +51,80 @@
     "poderes": [
       {
         "nome": "Enhanced Strength",
-        "construcao_3e": "Enhanced Trait: Força (rank 2e 15); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Enhanced Strength 15 (15pp); custo 2e impresso 15 PP.",
+        "construcao_3e": "Característica Aprimorada: Força 7 (14 PP) + Power-Lifting 1 (1 PP) = 15 PP.",
         "custo_2e_pp": 15,
-        "custo_3e_pp": null,
-        "nome_pt": "Força Aumentada"
+        "custo_3e_pp": 15,
+        "nome_pt": "Força Aumentada Simbiótica"
       },
       {
         "nome": "Enhanced Dexterity",
-        "construcao_3e": "Enhanced Trait: Agility 8 e Dexterity 8 (para elevar os valores base 4 e 2 aos valores finais 12 e 10).",
+        "construcao_3e": "Característica Aprimorada: Agilidade 8 e Destreza 8 (32 PP).",
         "custo_2e_pp": 16,
         "custo_3e_pp": 32,
-        "nome_pt": "Destreza Aumentada"
+        "nome_pt": "Agilidade e Destreza Aumentadas"
       },
       {
         "nome": "Snare",
-        "construcao_3e": "Protection 9.",
+        "construcao_3e": "Aflição à Distância 9 Cumulativa (Resistida por Esquiva/Força; Impedido e Vulnerável, Defenseless e Imobilizado; 27 PP).",
         "custo_2e_pp": 27,
-        "custo_3e_pp": 9
+        "custo_3e_pp": 27,
+        "nome_pt": "Teia Simbiótica de Matéria Viva"
       },
       {
         "nome": "Super Movement",
-        "construcao_3e": "Movement (rank 2e 3); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Movement 3 (Wall crawling [2], Swinging; 6pp); custo 2e impresso 6 PP.",
+        "construcao_3e": "Movimento 3 (Andar em Paredes 2, Balançar na Teia; 6 PP).",
         "custo_2e_pp": 6,
-        "custo_3e_pp": null,
-        "nome_pt": "Super-Movimento"
+        "custo_3e_pp": 6,
+        "nome_pt": "Super-Movimento Simbiótico"
       },
       {
         "nome": "Super Senses",
-        "construcao_3e": "Movement 3 (Wall-Crawling 2, Swinging).",
+        "construcao_3e": "Sentidos 1 (Sentido de Perigo; 1 PP).",
         "custo_2e_pp": 1,
-        "custo_3e_pp": 6,
-        "nome_pt": "Super-Sentidos"
+        "custo_3e_pp": 1,
+        "nome_pt": "Sentido de Perigo Simbiótico"
       },
       {
         "nome": "Super Strength",
-        "construcao_3e": "Senses 1 (Danger Sense).",
+        "construcao_3e": "Super-Força / Power-Lifting 2 (2 PP) + Características de Carga Adicionais (2 PP) = 4 PP.",
         "custo_2e_pp": 4,
-        "custo_3e_pp": 1,
-        "nome_pt": "Super-Força"
+        "custo_3e_pp": 4,
+        "nome_pt": "Super-Força Simbiótica"
       },
       {
         "nome": "Speed",
-        "construcao_3e": "Power-Lifting 2.",
+        "construcao_3e": "Velocidade 4 (Limitada a Balanço; 2 PP).",
         "custo_2e_pp": 2,
         "custo_3e_pp": 2,
-        "nome_pt": "Velocidade"
+        "nome_pt": "Velocidade em Balanço"
       },
       {
         "nome": "Leaping",
-        "construcao_3e": "Speed 4 (Limited to Swinging).",
+        "construcao_3e": "Salto 2 (2 PP).",
         "custo_2e_pp": 2,
         "custo_3e_pp": 2,
         "nome_pt": "Salto"
       },
       {
         "nome": "Morph [Any Humanoid]",
-        "construcao_3e": "Leaping 2.",
+        "construcao_3e": "Metamorfose Simbiótica 1 (Mudar Roupas e Aparência Humana; 5 PP) + Inato (1 PP) = 6 PP.",
         "custo_2e_pp": 6,
-        "custo_3e_pp": 2,
-        "nome_pt": "Metamorfose [Any Humanoid]"
+        "custo_3e_pp": 6,
+        "nome_pt": "Metamorfose e Camuflagem"
       },
       {
         "nome": "Immunity",
-        "construcao_3e": "Immunity (rank 2e 1); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Immunity 1 (Spiderman’s Danger Sense; 1pp); custo 2e impresso 1 PP.",
+        "construcao_3e": "Imunidade 1 (Sentido de Aranha do Homem-Aranha; 1 PP).",
         "custo_2e_pp": 1,
-        "custo_3e_pp": null,
-        "nome_pt": "Imunidade"
+        "custo_3e_pp": 1,
+        "nome_pt": "Imunidade ao Sentido de Aranha"
       },
       {
         "nome": "Protection",
-        "construcao_3e": "Immunity 1 (Spider-Man's Danger Sense).",
+        "construcao_3e": "Proteção Simbiótica 9 (9 PP).",
         "custo_2e_pp": 9,
-        "custo_3e_pp": 1,
-        "nome_pt": "Proteção"
+        "custo_3e_pp": 9,
+        "nome_pt": "Biomassa Simbiótica (Proteção)"
       }
     ],
     "equipamento": [],
@@ -159,13 +160,11 @@
   },
   "custos_3e": {
     "habilidades_base": 68,
+    "poderes": 105,
     "defesas": 8,
     "pericias": 28,
     "vantagens": 4,
-    "poderes_conhecidos": 55,
-    "subtotal_conhecido": 163,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 213
   },
   "notas_conversao": [
     "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
@@ -179,6 +178,7 @@
     "Defesas reduzidas por limite de NP 11: Esquiva 22→10 e Aparar 12→10; cada defesa ativa + Resistência 12 ≤ 22.",
     "Unarmed: efeito ajustado de 12 para 10 para cumprir Ataque + efeito ≤ 22.",
     "Subtotal 3e conhecido: 100 PP em habilidades, 56 em perícias, 45 em defesas, 4 em vantagens e 9 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
-    "Correção de custo: as perícias somam 56 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 56 para 28 PP (subtotal e totais ajustados em -28)."
+    "Correção de custo: as perícias somam 56 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 56 para 28 PP (subtotal e totais ajustados em -28).",
+    "Poderes convertidos e fechados para M&M 3e (Lote 8). Teia de biomassa simbiótica, camuflagem/metamorfose, imunidade ao sentido de aranha, proteção simbiótica e atributos ampliados consolidados."
   ]
-}
+}

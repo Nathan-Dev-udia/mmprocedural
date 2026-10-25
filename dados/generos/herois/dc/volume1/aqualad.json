@@ -25,5 +25,6 @@
     "defesas": "Dodge 10, Parry 10, Fortitude 8, Toughness 8/7*, Will 8 *Without Defensive Roll.",
     "pontos_poder": "Abilities 56 + Powers 45 + Advantages 6 + Skills 6 + Defenses 22 = 135",
     "complicacoes": "Enemy: Black Manta has sworn revenge on Aqualad and the Xebelians certainly have plans for him. Motivation—Responsibility: Aqualad didn’t ask for his powers, but he’s accepted his fate. The Key: Aqualad is a living key, capable of opening or closing the Bermuda Triangle’s portal to the extradimensional Xebel."
-  }
+  },
+  "nome_pt": "Aqualad"
 }

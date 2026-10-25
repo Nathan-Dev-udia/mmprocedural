@@ -5,7 +5,7 @@
   "nome_pt": "Magneto",
   "nivel_poder": 14,
   "pontos_poder_origem": 210,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 237.5,
   "status_conversao": "convertida",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -64,29 +64,31 @@
     "poderes": [
       {
         "nome": "Helmet",
-        "construcao_3e": "Device Removable: Immunity 10 (efeitos mentais).",
+        "construcao_3e": "Dispositivo Removível: Imunidade 10 (Efeitos Mentais; 8 PP).",
         "custo_2e_pp": 8,
-        "custo_3e_pp": 8
+        "custo_3e_pp": 8,
+        "nome_pt": "Elmo Anti-Psiônico"
       },
       {
         "nome": "Magnetic Control",
-        "construcao_3e": "Magnetic Control 16 dinâmico, baseado em Move Object limitado a metais ferrosos; Efeitos Alternativos: Blast 16, Force Field 16 (Impervious), Flight, Deflect (projéteis lentos; Move Action), Nullify (eletrônicos; Concentration), Telekinesis; Improved Disarm 4. 44 PP na fonte.",
+        "construcao_3e": "Array Dinâmico de Controle Magnético 16 (Mover Objeto Metálico 16 Dinâmico; 34 PP); Efeitos Alternativos Dinâmicos: Rajada Magnética 16 (2 PP), Campo de Força 16 Impenetrável (2 PP), Voo Magnético 6 (2 PP), Deflexão 12 (2 PP), Anular Eletrônicos 10 (2 PP) = 44 PP.",
         "custo_2e_pp": 44,
-        "custo_3e_pp": null
+        "custo_3e_pp": 44,
+        "nome_pt": "Controle do Magnetismo"
       },
       {
         "nome": "Super-Senses",
-        "construcao_3e": "Senses 5 (Metal Awareness, Extended 4).",
+        "construcao_3e": "Sentidos 5 (Consciência Magnética de Metais, Estendido 4; 5 PP).",
         "custo_2e_pp": 5,
         "custo_3e_pp": 5,
-        "nome_pt": "Super-Sentidos"
+        "nome_pt": "Consciência Magnética (Super-Sentidos)"
       },
       {
         "nome": "Telepathy",
-        "construcao_3e": "Telepathy 3.",
+        "construcao_3e": "Telepatia 3 (Leitura Mental 3 e Comunicação Mental 1; 6 PP).",
         "custo_2e_pp": 6,
-        "custo_3e_pp": null,
-        "nome_pt": "Telepatia"
+        "custo_3e_pp": 6,
+        "nome_pt": "Telepatia Latente"
       }
     ],
     "equipamento": [
@@ -116,18 +118,17 @@
   },
   "custos_3e": {
     "habilidades": 38,
+    "poderes": 63,
     "defesas": 31,
     "pericias": 77.5,
     "vantagens": 28,
-    "poderes_conhecidos": 13,
-    "subtotal_conhecido": 187.5,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 237.5
   },
   "notas_conversao": [
     "Attack Specialization (Magnetic Attacks) 4 convertido em 8 ranks de Ranged Combat; o bônus restante foi obtido do ataque impresso +12. O dano 16 respeita NP 14.",
     "Master Plan não aparece entre as vantagens convertidas e não foi duplicado porque a ficha já tem Inspire 5. Concentration 10 (+14) não é perícia 3e independente e foi omitida.",
     "O texto fonte traz custo total de 210 PP, mas a linha final parece omitir a sigla PP; valores de equipamentos preservados como impressos.",
-    "Concentration foi removida de Skill Mastery por não ter perícia independente na 3e."
+    "Concentration foi removida de Skill Mastery por não ter perícia independente na 3e.",
+    "Poderes convertidos e fechados para M&M 3e (Lote 7). Array dinâmico de controle magnético, elmo anti-psiônico, super-sentidos magnéticos e telepatia consolidados."
   ]
-}
+}

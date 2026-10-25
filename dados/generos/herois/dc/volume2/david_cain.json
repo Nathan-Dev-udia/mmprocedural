@@ -25,5 +25,6 @@
     "ataques": "Initiative +5, Flash-bang Grenade +10 (Burst Area Dazzle 4), Heavy Pistol +10 (Ranged Damage 4), Nerve Strike +14 (Affliction 6), Silenced Sniper Rifle +10 (Ranged Damage 5, Critical 19-20, Subtle), Spine Snap +14 (Damage 4)",
     "defesas": "Dodge 9, Parry 14, Fortitude 12, Toughness 8/3*, Will 10 * Without Defensive Roll.",
     "pontos_poder": "Abilities 82 + Powers 7+ Advantages 32 + Skills 39 + Defenses 21 = 181"
-  }
+  },
+  "nome_pt": "David Cain"
 }

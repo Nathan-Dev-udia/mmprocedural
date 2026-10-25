@@ -25,5 +25,6 @@
     "defesas": "Dodge 10, Parry 8, Fortitude 8, Toughness 8/4*, Will 9 *Without Defensive Roll.",
     "pontos_poder": "Abilities 42 + Powers 18 + Advantages 12 + Skills 23 + Defenses 24 = 119",
     "complicacoes": "Bionic Voodoo: Houngan is an expert in a very specialized form of magic, allowing him to use his Voodoo Expertise in place of Magic while employing his Artificer or Ritualist advantages. However, he does so at half his normal skill ranks unless he adds a computerized element to the ritual or artifact, also requiring successful Technology checks against the design and construction DCs."
-  }
+  },
+  "nome_pt": "Houngan"
 }

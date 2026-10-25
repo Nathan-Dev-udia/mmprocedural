@@ -25,5 +25,6 @@
     "ataques": "Initiative +10, Backup Blaster +15 (Ranged Damage 5, Penetrating 5)",
     "defesas": "Dodge 12, Parry 12, Fortitude 8, Toughness 3, Will 8",
     "pontos_poder": "Abilities 50 + Powers 25 + Advantages 17 + Skills 39 + Defenses 28 = 159"
-  }
+  },
+  "nome_pt": "Damien Darhk"
 }

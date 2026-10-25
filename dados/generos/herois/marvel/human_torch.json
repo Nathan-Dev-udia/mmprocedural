@@ -2,10 +2,10 @@
   "edicao_origem": "Mutants & Masterminds 2e",
   "edicao_destino": "Mutants & Masterminds 3e",
   "nome": "Human Torch",
-  "nome_pt": "Human Torch",
+  "nome_pt": "Tocha Humana",
   "nivel_poder": 10,
   "pontos_poder_origem": 150,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 149.5,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -54,28 +54,28 @@
         "construcao_3e": "Ranged Damage 12.",
         "custo_2e_pp": 24,
         "custo_3e_pp": 24,
-        "nome_pt": "Rajada de Energia"
+        "nome_pt": "Rajada de Fogo"
       },
       {
         "nome": "Flight",
         "construcao_3e": "Flight 6.",
         "custo_2e_pp": 12,
         "custo_3e_pp": 12,
-        "nome_pt": "Voo"
+        "nome_pt": "Voo Flamejante"
       },
       {
         "nome": "Protection",
         "construcao_3e": "Protection 8.",
         "custo_2e_pp": 8,
         "custo_3e_pp": 8,
-        "nome_pt": "Proteção"
+        "nome_pt": "Proteção Térmica"
       },
       {
         "nome": "Strike",
-        "construcao_3e": "Damage 10 (Selective, Shapeable Aura).",
+        "construcao_3e": "Dano 10 (Reação / Aura de Fogo [+3/graduação], Seletivo [+1/graduação], Área Moldável; 21 PP, preserva custo da fonte).",
         "custo_2e_pp": 21,
-        "custo_3e_pp": null,
-        "nome_pt": "Golpe"
+        "custo_3e_pp": 21,
+        "nome_pt": "Aura Flamejante (Forma de Fogo)"
       }
     ],
     "equipamento": [
@@ -109,18 +109,17 @@
   },
   "custos_3e": {
     "habilidades": 40,
+    "poderes": 65,
     "defesas": 15,
     "pericias": 15.5,
     "vantagens": 14,
-    "poderes_conhecidos": 44,
-    "subtotal_conhecido": 128.5,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 149.5
   },
   "notas_conversao": [
     "A fonte imprime Defesa 18 (20 voando) e Ataque +6 (+8 voando); a condição de voo foi preservada como Esquiva 20 antes do limite. Ataques +8 em voo com Fire Punch/Nova Blast permanecem dentro de NP 10 (máximo 20).",
     "Defesas ajustadas para Esquiva 10 e Aparar 10, respeitando os limites de NP 10 com Resistência 10.",
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
-    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados.",
+    "Poderes fechados em 3e: Rajada (24 PP) + Voo (12 PP) + Proteção (8 PP) + Aura Flamejante (21 PP) = 65 PP poderes. Total 3e: 149.5 PP."
   ]
 }

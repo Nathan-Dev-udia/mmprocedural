@@ -25,5 +25,6 @@
     "defesas": "Dodge 10 Fortitude 14 Parry 10 Toughness 15 Will 10",
     "pontos_poder": "Abilities 88 Skills 23 Powers 115 Defenses 20 Advantages 5 ToTal 251",
     "complicacoes": "Forced Time Travel: When Captain Atom pushes his ability to absorb energy past its normal limits, the accumulated energy “overwash” propels him through time. The exact amount of time traveled is up to the needs of the plot, but a rule of thumb is to take the rank of the triggering effect and compare it to the Time column of the basic rank chart – this is how much time is jumped past. Fish Out of Water: Nathaniel missed a lot of history and there are gaps in what should be his basic store of common/general knowledge."
-  }
+  },
+  "nome_pt": "Capitão Átomo"
 }

@@ -25,5 +25,6 @@
     "defesas": "Dodge 10, Parry 8, Fortitude 6, Toughness 8, Will 14",
     "pontos_poder": "Abilities 52 + Powers 77 + Advantages 6 + Skills 16 + Defenses 29 = 180",
     "complicacoes": "Destroyer: The demon Trigon the Terrible (See Vol. II ) is responsible for Psimon’s existence and he tasked Psimon with the destruction of the Earth. Psimon is still trying to meet that goal. Egotist: Psimon is out for himself. He works with his team as long as they prove useful, but he’s more than willing to abandon them (or worse) if it will help his cause."
-  }
+  },
+  "nome_pt": "Psimon"
 }

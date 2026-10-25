@@ -24,5 +24,6 @@
     "ataques": "Initiative +2, Mystic Bolt +10 (Ranged, Damage 12), Earthquake—(Close, Damage 8, Affliction 8 Resisted by Dodge; both Burst Area 2 or other effects)",
     "defesas": "Dodge 14, Parry 12, Fortitude 6, Toughness 8, Will 12",
     "pontos_poder": "Abilities 48 + Powers 36 + Advantages 12 + Skills 20 + Defenses 32 = 143"
-  }
+  },
+  "nome_pt": "Jinx"
 }

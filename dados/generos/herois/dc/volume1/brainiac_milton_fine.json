@@ -24,5 +24,6 @@
     "ataques": "Initiative +2, Mental Blast (Damage, DC 21 Will), Unarmed +3 (Damage 2)",
     "defesas": "Dodge 11, Parry 8, Fortitude 10, Toughness 15, Will 15",
     "pontos_poder": "Abilities 64 + Powers 94 + Advantages 3 + Skills 12 + Defenses 32 = 205"
-  }
+  },
+  "nome_pt": "Brainiac (Milton Fine)"
 }

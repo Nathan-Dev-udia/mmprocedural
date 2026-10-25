@@ -25,5 +25,6 @@
     "defesas": "Dodge 12, Parry 6, Fortitude 6, Toughness 6/4*, Will 6 *Without Defensive Roll.",
     "pontos_poder": "Abilities 50 + Powers 100 + Advantages 7 + Skills 17 + Defenses 17 = 191",
     "complicacoes": "The High Life: Warp enjoys living an expensive, jet-set lifestyle, and will not settle for anything but the best. This make him somewhat predictable in his tastes and personal habits.."
-  }
+  },
+  "nome_pt": "Warp"
 }

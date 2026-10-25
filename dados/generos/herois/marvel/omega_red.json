@@ -2,10 +2,10 @@
   "edicao_origem": "Mutants & Masterminds 2e",
   "edicao_destino": "Mutants & Masterminds 3e",
   "nome": "Omega Red",
-  "nome_pt": "Omega Red",
+  "nome_pt": "Ômega Vermelho",
   "nivel_poder": 10,
   "pontos_poder_origem": 165,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 190,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -59,43 +59,45 @@
     "poderes": [
       {
         "nome": "Boost (Regeneration) 16",
-        "construcao_3e": "Enhanced Trait (Regeneration), Personal Only; Triggered por um ataque Drain bem-sucedido; a fonte chama isso de Boost.",
+        "construcao_3e": "Característica Aprimorada: Regeneração 8 (Gatilho por ataque de Drenagem bem-sucedido; 9 PP).",
         "custo_2e_pp": 9,
-        "custo_3e_pp": null,
-        "nome_pt": "Impulso (Regeneration) 16"
+        "custo_3e_pp": 9,
+        "nome_pt": "Regeneração Drenada (Impulso)"
       },
       {
         "nome": "Carbonadium Armor",
-        "construcao_3e": "Removable Device: Protection 7, Impervious; Comm-Link.",
+        "construcao_3e": "Dispositivo Removível: Proteção 7 Impenetrável 7 (14 PP) e Elo de Comunicação (1 PP); Removível (-3 PP) = 12 PP.",
         "custo_2e_pp": 12,
-        "custo_3e_pp": null
+        "custo_3e_pp": 12,
+        "nome_pt": "Armadura de Carbonádio"
       },
       {
         "nome": "Immunity 1",
-        "construcao_3e": "Immunity ao próprio poder.",
+        "construcao_3e": "Imunidade 1 (Próprios Esporos da Morte; 1 PP).",
         "custo_2e_pp": 1,
         "custo_3e_pp": 1,
-        "nome_pt": "Imunidade 1"
+        "nome_pt": "Imunidade (Próprios Esporos)"
       },
       {
         "nome": "Strike 5",
-        "construcao_3e": "Damage 5, Mighty, Extended Range 4, Improved Critical.",
+        "construcao_3e": "Tentáculos de Carbonádio: Dano 5 Baseado em Força (5 PP), Alcance Estendido 4 (4 PP), Crítico Aprimorado 1 (1 PP) = 10 PP.",
         "custo_2e_pp": 10,
-        "custo_3e_pp": null,
-        "nome_pt": "Golpe 5"
+        "custo_3e_pp": 10,
+        "nome_pt": "Tentáculos de Carbonádio (Golpe)"
       },
       {
         "nome": "Super-Strength 3",
-        "construcao_3e": "Limited to tentacles.",
+        "construcao_3e": "Super-Força / Power-Lifting 3 (Limitada aos tentáculos; 3 PP).",
         "custo_2e_pp": 3,
-        "custo_3e_pp": null,
-        "nome_pt": "Super-Força 3"
+        "custo_3e_pp": 3,
+        "nome_pt": "Super-Força dos Tentáculos"
       },
       {
         "nome": "Transfer (Strength and Constitution) 8",
-        "construcao_3e": "Transfer, Aura; não pode reduzir a Aura.",
+        "construcao_3e": "Esporos da Morte: Enfraquecer Vigor 8 e Força 8 (Reação ao contato dos tentáculos ou aura; 24 PP).",
         "custo_2e_pp": 24,
-        "custo_3e_pp": null
+        "custo_3e_pp": 24,
+        "nome_pt": "Esporos da Morte (Drenagem de Energia Vital)"
       }
     ],
     "equipamento": [
@@ -124,13 +126,11 @@
   },
   "custos_3e": {
     "habilidades": 58,
+    "poderes": 59,
     "defesas": 15,
     "pericias": 40,
     "vantagens": 18,
-    "poderes_conhecidos": 1,
-    "subtotal_conhecido": 132,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 190
   },
   "notas_conversao": [
     "Dodge Focus 4 foi convertido em graduações de Esquiva e reduzido para respeitar o NP 10; Attack Focus (Melee) 6 foi ajustado para não ultrapassar o limite de ataque. Improved Grapple virou Grabbing Finesse; Improved Pin, Improved Hold; Improved Throw, Improved Trip.",
@@ -138,6 +138,7 @@
     "Dodge Focus 4 e a Defesa 18 original excedem o limite de PL 10 com Resistência 12; Esquiva e Aparar foram reduzidos a 8 cada (8 + 12 = 20). Ataques foram ajustados para respeitar Ataque + efeito ≤ 20.",
     "A fonte imprime 25 ft. de alcance dos tentáculos. Drawbacks: nenhum.",
     "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +5/+4/+5/+1/+0/+0. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
-    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
+    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos.",
+    "Poderes convertidos e fechados para M&M 3e (Lote 7). Tentáculos de carbonádio, esporos da morte com drenagem de energia vital, armadura e regeneração disparada consolidados."
   ]
-}
+}

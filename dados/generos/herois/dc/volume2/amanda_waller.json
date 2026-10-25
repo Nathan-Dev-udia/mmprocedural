@@ -24,5 +24,6 @@
     "ataques": "Initiative +0, Heavy Pistol +12 (Ranged, Damage 4), Unarmed +10 (Close, Damage 1)",
     "defesas": "Dodge 10, Parry 12, Fortitude 8, Toughness 6/2*, Will 12 *Without Defensive Roll.",
     "pontos_poder": "Abilities 50 + Powers 0 + Advantages 33 + Skills 54 + Defenses 23 = 160"
-  }
+  },
+  "nome_pt": "Amanda Waller"
 }

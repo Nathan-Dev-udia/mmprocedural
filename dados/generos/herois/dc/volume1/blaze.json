@@ -25,5 +25,6 @@
     "defesas": "Dodge 12 Fortitude 12 Parry 12 Toughness 16 Will 16",
     "pontos_poder": "Abilities 124 Skills 33 Powers 137 Defenses 20 Advantages 15 ToTal 329",
     "complicacoes": "Demonic Nature: Blaze is one of the spawn of Hell and is recognizable as such with the proper mystic senses. Uneasy Sits the Crown: Blaze’s position in Hell is always threatened. The only things that change are whether the threat is open or hidden and who happens to be behind it at any given time."
-  }
+  },
+  "nome_pt": "Blaze"
 }

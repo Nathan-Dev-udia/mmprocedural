@@ -25,5 +25,6 @@
     "defesas": "Dodge 8 Fortitude 8 Parry 12 Toughness 8/6* Will 8 *Without Defensive Roll.",
     "pontos_poder": "Abilities 36 Skills 30 Powers 27 Defenses 26 Advantages 10 ToTal 129",
     "complicacoes": "Obsession: Heat Wave is an incurable pyromaniac. Phobia: Heat Wave is afraid of cold temperatures and avoids them at all costs."
-  }
+  },
+  "nome_pt": "Onda Térmica"
 }

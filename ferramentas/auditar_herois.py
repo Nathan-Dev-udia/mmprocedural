@@ -143,13 +143,18 @@ def auditar_dc(fid, d):
     defs = h["defesas"]
     for k in ("Esquiva", "Aparar", "Fortitude", "Resistência", "Vontade"):
         if k not in defs:
+            if k == "Fortitude" and hab.get("Vig") is None:
+                continue
+            if k == "Vontade" and hab.get("Int") is None and hab.get("Pro") is None:
+                continue
             p("DEFESA_AUSENTE", fid, k)
+    defs_int = {k: v for k, v in defs.items() if isinstance(v, int)}
     if np:
-        checar_limites(fid, np, hab, defs, [(a[0], a[1], int(a[2])) for a in h["ataques"]])
+        checar_limites(fid, np, hab, defs_int, [(a[0], a[1], int(a[2])) for a in h["ataques"]])
     # defesa não pode ser menor que a habilidade base
     pares = {"Esquiva": "Agi", "Aparar": "Lut", "Fortitude": "Vig", "Vontade": "Pro", "Resistência": "Vig"}
     for k, s in pares.items():
-        if k in defs and hab.get(s) is not None and defs[k] < hab[s]:
+        if isinstance(defs.get(k), int) and hab.get(s) is not None and defs[k] < hab[s]:
             p("DEFESA_MENOR_QUE_HABILIDADE", fid, f"{k} {defs[k]} < {s} {hab[s]}")
     # perícias
     for nome, per in h["pericias"].items():

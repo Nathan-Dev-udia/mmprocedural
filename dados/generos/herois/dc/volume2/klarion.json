@@ -1,29 +1,30 @@
-{
-  "nome": "Klarion",
-  "sistema": "DC Adventures / Mutants & Masterminds 3e",
-  "nivel_poder": 10,
-  "pontos_poder_publicados": 168,
-  "fonte": {
-    "arquivo": "dc adventures heroes and villains vol 2.pdf",
-    "pagina_pdf": 171
-  },
-  "ficha_publicada": {
-    "habilidades": {
-      "STR": "0",
-      "STA": "0",
-      "AGL": "2",
-      "DEX": "2",
-      "FGT": "2",
-      "INT": "5",
-      "AWE": "5",
-      "PRE": "4"
-    },
-    "poderes": "Cruciform (Perception Range Affliction 10 (Resisted by Will; Dazed, Compelled, Controlled), Cumulative, Limited to Undead, Easily Removable (-12 points)); Magic (Array (24 points), Horigal t r ansformation (Enhanced Strength 6; Enhanced Fighting 4; Protection 8); ae : Steal Magic (Ranged Weaken 12 Magic Effects), Broad; ae : t en tacles (Cumulative Affliction 12 (Resisted by Dodge; Hindered and Vulnerable, Defenseless and Immobile), Extra Condition, Limited Degree, Reach 6 (30 feet)); Psychic Bond (Remote Sensing 8 (Visual), Medium: Only through Teekl’s eyes)",
-    "vantagens": "Daze (Deception), Defensive Roll 4, Ritualist, Sidekick 19, Taunt",
-    "pericias": "Acrobatics 6 (+8), Close Combat: Magic 6 (+8), Deception 10 (+14), Expertise: Magic 10 (+15), Stealth 8 (+10)",
-    "ataques": "Initiative +2, Magic +8 (Varies), Unarmed +2 (Damage 0)",
-    "defesas": "Executive—and joined their battles against strange threats around the world, fighting alongside the Bride who had once been created to be his companion. When S.H.A.D.E. uncovered rumors of the approaching Sheeda invasion, Frankenstein led the attack that killed Nebula Man and captured a Sheeda time-ship. Piloting the time-ship to the Sheeda staging ground one billion years in the future, Frankenstein laid waste to their fleet and seized control of their queen’s flying stronghold, Castle Revolving. Taking queen and castle back to the twenty-first century, Frankenstein brought both into position for a final strike not by S.H.A.D.E., but by the Seven Soldiers of Victory. Though betrayed by Klarion the Witch Boy and forced to pilot Castle Revolving back to the future, Frankenstein managed to make his way back to the present and rejoin S.H.A.D.E., where he remains an agent of the undercover organization, battling villains and horrors around the world. kL ar I on Deep underground in Limbo Town, a boy named Klarion learned the ways of the Book of Shadows, chafing under the instruction of the Submissionaries who governed the town.",
-    "pontos_poder": "Abilities 40 + Powers 65 + Advantages 26 + Skills 20 + Defenses 17 = 168",
-    "complicacoes": "Limbo t o wn: Klarion was born and raised in an underground faux-Puritanical settlement that practiced necromancy and had no contact with the surface world. As such, he is very out of place in normal social situations and misses many social cues. Unusual Looks: Klarion has large, dark eyes, pointy ears, black lips and fingernails, and bluish- white skin, in addition, he dresses in Puritan-style garb, all of which makes him look very unusual. Klarion looks even more unusual when he assumes his Horigal form, which is horrible and horrific."
-  }
-}
+{
+  "nome": "Klarion",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 168,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 171
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "0",
+      "STA": "0",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "2",
+      "INT": "5",
+      "AWE": "5",
+      "PRE": "4"
+    },
+    "poderes": "Cruciform (Perception Range Affliction 10 (Resisted by Will; Dazed, Compelled, Controlled), Cumulative, Limited to Undead, Easily Removable (-12 points)); Magic (Array (24 points), Horigal t r ansformation (Enhanced Strength 6; Enhanced Fighting 4; Protection 8); ae : Steal Magic (Ranged Weaken 12 Magic Effects), Broad; ae : t en tacles (Cumulative Affliction 12 (Resisted by Dodge; Hindered and Vulnerable, Defenseless and Immobile), Extra Condition, Limited Degree, Reach 6 (30 feet)); Psychic Bond (Remote Sensing 8 (Visual), Medium: Only through Teekl’s eyes)",
+    "vantagens": "Daze (Deception), Defensive Roll 4, Ritualist, Sidekick 19, Taunt",
+    "pericias": "Acrobatics 6 (+8), Close Combat: Magic 6 (+8), Deception 10 (+14), Expertise: Magic 10 (+15), Stealth 8 (+10)",
+    "ataques": "Initiative +2, Magic +8 (Varies), Unarmed +2 (Damage 0)",
+    "defesas": "Dodge 6, Parry 6, Fortitude 5, Toughness 4/0*, Will 9 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 40 + Powers 65 + Advantages 26 + Skills 20 + Defenses 17 = 168",
+    "complicacoes": "Limbo t o wn: Klarion was born and raised in an underground faux-Puritanical settlement that practiced necromancy and had no contact with the surface world. As such, he is very out of place in normal social situations and misses many social cues. Unusual Looks: Klarion has large, dark eyes, pointy ears, black lips and fingernails, and bluish- white skin, in addition, he dresses in Puritan-style garb, all of which makes him look very unusual. Klarion looks even more unusual when he assumes his Horigal form, which is horrible and horrific."
+  },
+  "nome_pt": "Klarion, o Menino Bruxo"
+}

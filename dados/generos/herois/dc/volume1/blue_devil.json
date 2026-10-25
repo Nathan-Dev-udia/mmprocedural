@@ -25,5 +25,6 @@
     "defesas": "Dodge 7 Fortitude 12 Parry 7 Toughness 13 Will 8",
     "pontos_poder": "Abilities 82 Skills 33 Powers 28 Defenses 12 Advantages 10 ToTal 165",
     "complicacoes": "Enemy: Neron Motivation: Fame & Thrills Prejudice: When meeting people who don’t know him, Blue Devil’s demonic appearance can get him into trouble and make it difficult to appear as one of the “good guys. ” Vulnerability: Blue Devil cannot set foot on consecrated ground without bursting into flame, and contact with holy water burns his flesh (treat either as an ongoing Damage 10 effect for each round contact is maintained). Weakness: Holy weapons ignore Blue Devil’s ranks in Protection. Note: This stat block represents the current supernatural version of Blue Devil. See the “Blue Devil (Original Version)” stat block for the older human-fused-to-a-devil-costume version."
-  }
+  },
+  "nome_pt": "Diabo Azul"
 }

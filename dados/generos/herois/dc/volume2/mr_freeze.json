@@ -1,28 +1,30 @@
-{
-  "nome": "Mr. Freeze",
-  "sistema": "DC Adventures / Mutants & Masterminds 3e",
-  "nivel_poder": 10,
-  "pontos_poder_publicados": 150,
-  "fonte": {
-    "arquivo": "dc adventures heroes and villains vol 2.pdf",
-    "pagina_pdf": 59
-  },
-  "ficha_publicada": {
-    "habilidades": {
-      "STR": "9",
-      "STA": "3",
-      "AGL": "2",
-      "DEX": "3",
-      "FGT": "5",
-      "INT": "5",
-      "AWE": "2",
-      "PRE": "0"
-    },
-    "poderes": "Cryo-Preserved: Immunity 6 (Aging, Cold damage) • 6 points f r eeze Gun: Array (36 points), Easily Removable (–16 points) • 22 points • Cold Blast: Ranged Damage 12, Resisted by Fortitude • 36 points • i c e o bjec ts: Create 10, Innate, Subtle, Permanent • 1 point • i c y Snare: Line Area Ranged Affliction 8 (Resisted by Dodge; Hindered and Vulnerable, Defenseless and Immobile), Cumulative, Limited Degree • 1 point r efrigeration Suit: Enhanced Strength 7; Immunity 10 (Life Support); Movement 2 (Sure-footed 4, Limited—Only to Ice and Snow); Protection 9, Impervious; Removable (-9 points) • 35 points",
-    "vantagens": "Accurate Attack, Favored Environment (Extreme Cold), Inventor",
-    "pericias": "Close Combat: Unarmed 3 (+8), Expertise: Cryogenics 10 (+15), Ranged Combat: Freeze Gun 5 (+8), Technology 12 (+17), Vehicles 6 (+9)",
-    "ataques": "i nitia tive +2 Cold Blast +8 Ranged, Damage 12, Resisted by Fortitude Icy Snare — Ranged, Line Area Affliction 8 Unarmed +8 Close, Damage 9 efen S e d d odge 8 f or titude 9 Parry 8 t oughness 12 W ill 9",
-    "pontos_poder": "a bilities 44 S kills 18 Powers 63 d efenses 22 a dv antages 3 ToTal 150",
-    "complicacoes": "o bsession: Mr. Freeze commits crimes to fund his experiments to cure his wife, Nora. Weakness: If Mr. Freeze is exposed to above-freezing temperatures outside of his Refrigeration Suit, his Stamina becomes impaired, disabled, then debilitated."
-  }
-}
+{
+  "nome": "Mr. Freeze",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 150,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 59
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "9",
+      "STA": "3",
+      "AGL": "2",
+      "DEX": "3",
+      "FGT": "5",
+      "INT": "5",
+      "AWE": "2",
+      "PRE": "0"
+    },
+    "poderes": "Cryo-Preserved: Immunity 6 (Aging, Cold damage) • 6 points f r eeze Gun: Array (36 points), Easily Removable (–16 points) • 22 points • Cold Blast: Ranged Damage 12, Resisted by Fortitude • 36 points • i c e o bjec ts: Create 10, Innate, Subtle, Permanent • 1 point • i c y Snare: Line Area Ranged Affliction 8 (Resisted by Dodge; Hindered and Vulnerable, Defenseless and Immobile), Cumulative, Limited Degree • 1 point r efrigeration Suit: Enhanced Strength 7; Immunity 10 (Life Support); Movement 2 (Sure-footed 4, Limited—Only to Ice and Snow); Protection 9, Impervious; Removable (-9 points) • 35 points",
+    "vantagens": "Accurate Attack, Favored Environment (Extreme Cold), Inventor",
+    "pericias": "Close Combat: Unarmed 3 (+8), Expertise: Cryogenics 10 (+15), Ranged Combat: Freeze Gun 5 (+8), Technology 12 (+17), Vehicles 6 (+9)",
+    "ataques": "i nitia tive +2 Cold Blast +8 Ranged, Damage 12, Resisted by Fortitude Icy Snare — Ranged, Line Area Affliction 8 Unarmed +8 Close, Damage 9",
+    "pontos_poder": "a bilities 44 S kills 18 Powers 63 d efenses 22 a dv antages 3 ToTal 150",
+    "complicacoes": "o bsession: Mr. Freeze commits crimes to fund his experiments to cure his wife, Nora. Weakness: If Mr. Freeze is exposed to above-freezing temperatures outside of his Refrigeration Suit, his Stamina becomes impaired, disabled, then debilitated.",
+    "defesas": "Dodge 8 Fortitude 9 Parry 8 Toughness 12 Will 9"
+  },
+  "nome_pt": "Senhor Frio"
+}

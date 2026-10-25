@@ -25,5 +25,6 @@
     "defesas": "Dodge 9 Fortitude 6 Parry 7 Toughness 12 Will 7",
     "pontos_poder": "Abilities 32 Skills 17 Powers 70 Defenses 22 Advantages 5 ToTal 146",
     "complicacoes": "Bully: Doctor Light receives gratification from the humiliation and suffering of others, especially women and those who are not consenting to his will. Light-Dependence: Doctor Light’s powers require ambient light, suffering a Weakness effect in reduced light exposure. The Gamemaster determines the effect’s rank, as suits lighting levels. The powers don’t work at all in total darkness. Something to Prove: Doctor Light can be driven into a rage if sufficiently mocked, belittled, or if his immense self-doubt is otherwise enflamed."
-  }
+  },
+  "nome_pt": "Doctor Light (Dr. Arthur Light)"
 }

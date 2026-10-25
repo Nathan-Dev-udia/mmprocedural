@@ -2,10 +2,10 @@
   "edicao_origem": "Mutants & Masterminds 2e",
   "edicao_destino": "Mutants & Masterminds 3e",
   "nome": "Sage",
-  "nome_pt": "Sage",
+  "nome_pt": "Sábia",
   "nivel_poder": 8,
   "pontos_poder_origem": 150,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 162.5,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -59,23 +59,24 @@
     "poderes": [
       {
         "nome": "Boost (All Powers at Once) 5",
-        "construcao_3e": "Enhanced Trait, Limited a poderes mutantes, Others Only.",
+        "construcao_3e": "Característica Aprimorada 5 (Afeta Apenas Outros [+0], Limitada a poderes mutantes [-1/grad]; 10 PP).",
         "custo_2e_pp": 10,
-        "custo_3e_pp": null,
-        "nome_pt": "Impulso (All Powers at Once) 5"
+        "custo_3e_pp": 10,
+        "nome_pt": "Despertar Potencial Mutante (Impulso)"
       },
       {
         "nome": "Quickness 10",
-        "construcao_3e": "Mental Quickness; Limited.",
+        "construcao_3e": "Rapidez 10 (Limitada a tarefas mentais; 5 PP).",
         "custo_2e_pp": 5,
-        "custo_3e_pp": 5
+        "custo_3e_pp": 5,
+        "nome_pt": "Processamento Cerebral Acelerado (Rapidez Mental)"
       },
       {
         "nome": "Telepathy 7",
-        "construcao_3e": "Mind Reading; Alternate Effects: Datalink and Mind Shield 14.",
+        "construcao_3e": "Array Telepático: Leitura Mental 7 (14 PP); Efeito Alternativo: Elo de Dados / Comunicação 3 com Computadores (1 PP); Efeito Alternativo: Escudo Mental / Vontade Aprimorada 14 (1 PP); Sentidos Mentais (2 PP) = 18 PP.",
         "custo_2e_pp": 18,
-        "custo_3e_pp": null,
-        "nome_pt": "Telepatia 7"
+        "custo_3e_pp": 18,
+        "nome_pt": "Telepatia e Elo Cibernético"
       }
     ],
     "equipamento": [
@@ -106,13 +107,11 @@
   },
   "custos_3e": {
     "habilidades": 50,
+    "poderes": 33,
     "defesas": 15,
     "pericias": 43.5,
     "vantagens": 21,
-    "poderes_conhecidos": 5,
-    "subtotal_conhecido": 134.5,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 162.5
   },
   "notas_conversao": [
     "Dodge Focus 4 foi convertido em Esquiva e reduzido a 11. Grappling Finesse e Improved Grab/Pin/Trip foram representados por Grabbing Finesse, Fast Grab, Improved Hold e Improved Trip. Master Plan e Sneak Attack não têm equivalentes diretos; Stunning Attack não foi incluído porque o custo de Affliction é incerto.",
@@ -120,6 +119,7 @@
     "Dodge Focus 4 e Defense 21 excedem PL 8 com Resistência 5; Esquiva/Aparar reduzidas a 11 (11 + 5 = 16). O rifle de assalto aparece como 16 PP na fonte, embora esteja listado sob Equipment.",
     "O perfil lista Computers e Knowledge [Technology] separadamente; foram preservados como Tecnologia e Especialidade: Technology. Bônus totais na fonte: Computers +21 e Knowledge +14. Master Plan virou Inspire; Improved Tools não tem equivalente direto no guia e não foi incluído.",
     "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +0/+2/+0/+6/+3/+2. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
-    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
+    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos.",
+    "Poderes convertidos e fechados para M&M 3e (Lote 6). Despertar de potencial genético mutante, Rapidez mental de processamento e Array telepático com elo de dados consolidados."
   ]
-}
+}

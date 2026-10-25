@@ -25,5 +25,6 @@
     "defesas": "Dodge 16, Parry 16, Fortitude 5, Toughness 2 /1, Will 5",
     "pontos_poder": "Abilities 26 + Powers 66 + Advantages 5 + Skills 15 + Defenses 10 = 122",
     "complicacoes": "Motormouth: Maxine talks constantly, often saying things she shouldn’t. She is also ignored by others because she never stops talking. Naive: Maxine is young and inexperienced, so she’s easily duped and misled."
-  }
+  },
+  "nome_pt": "Cyclone"
 }

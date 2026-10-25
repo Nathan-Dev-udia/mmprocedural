@@ -25,5 +25,6 @@
     "defesas": "Dodge 10, Parry 10, Fortitude 15, Toughness 18, Will 15",
     "pontos_poder": "Abilities 106 + Powers 116 + Advantages 17 + Skills 28 + Defenses 24 = 291",
     "complicacoes": "Power Loss: Ultraman loses his powers without regular exposure to anti-kryptonite. He keeps pellets of the substance in the compartments of his costume to prevent his strength from waning. Relationships: Ultraman has a love/hate marriage with Superwoman (who loathes him) and a rivalry with Owlman. Secret: The antimatter Clark Kent has committed personally shameful acts which he fears coming to light; Ultraman tolerates Owlman on the Crime Syndicate Team because of threatened internet exposure. Vulnerability: Ultraman is as vulnerable to magic as anyone else. His Toughness is not Impervious against magical attack."
-  }
+  },
+  "nome_pt": "Ultraman"
 }

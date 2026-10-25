@@ -21,6 +21,11 @@
     "poderes": "Diving Suit: Enhanced Strength 5, Protection 5, Swimming 7 (60 MPH), Removable (–4 points) • 13 points Gill Implants: Immunity 2 (Drowning, Pressure), Movement 1 (Environmental Adaptation: Aquatic) • 4 points Helmet: Immunity 5 (Telepathic Powers), Removable (–1 point) • 4 points Weapons: Array (20 points), Removable (–4 points) • Electrical Blasters: Damage 10, Line Area • 20 points • Blades: Strength-based Damage 2 • 1 point. • Helmet Eye-beams: Ranged Damage 10 (laser) • 1 point • Mini-Torpedoes: Ranged Damage 8, Homing 4 • 1 point",
     "equipamento": "VEHICLE: MANTA-SUB • 35 POINTS Gargantuan; Str 13, Speed 7, Def 6, Tou 11; Navigation System, Smokescreen (ink cloud), Torpedoes (Ranged Damage 8 Burst Area 5), Towing Cables",
     "vantagens": "Agile Feint, Defensive Attack, Equipment 7, Improved Aim, Minions, Move-by Action, Precise Attack (Ranged; Cover)",
-    "pericias": "Athletics 6 (+9), Close Combat: Blades 4 (+10), Close Combat: Unarmed 6 (+12), Ranged Combat: Weapons Array 6 (+10), Technology 8 (+10) THE MONSTER OF DEVIL’S DEEP When the demon Neron offered various super-villains power in exchange for their souls, Black Manta took the devil’s bargain and was transformed into a manta- human hybrid creature. In this form, he possessed Strength 9, Stamina 6, and the following powers: Aquatic: Immunity 3 (Cold, Drowning, Pressure), Movement 1 (Environmental Adaptation: Aquatic), Senses 1 (Low-Light Vision) • 6 points Claws & Teeth: Strength-Linked Damage 2 • 2 points Manta-Fins: Swimming 8 (120 MPH) • 8 points Tail: Extra Limbs 1 • 1 point OTHER GADGETS Black Manta is a skilled weapons-maker and designer. The weapons and vehicle included above can be swapped out for different options depending on his needs. He tends to use destructive effects, but he’s a savvy fighter and isn’t above using gadgets to entrap his foes if that’s what his plans require."
-  }
+    "pericias": "Athletics 6 (+9), Close Combat: Blades 4 (+10), Close Combat: Unarmed 6 (+12), Ranged Combat: Weapons Array 6 (+10), Technology 8 (+10)",
+    "ataques": "Initiative +4, Optic Blasters +10 (Ranged, Damage 10), Mini-Torpedoes +10 (Ranged, Damage 8, Multiattack), Grapple-Wire +10 (Ranged, Affliction 6), Electric Shock +10 (Close, Damage 8), Twin Blades +10 (Close, Damage 10, Piercing), Unarmed +12 (Close, Damage 8)",
+    "defesas": "Dodge 10, Fortitude 10, Parry 10, Toughness 8, Will 8",
+    "pontos_poder": "Abilities 48 + Powers 43 + Advantages 14 + Skills 15 + Defenses 22 = 142",
+    "complicacoes": "Motivation: Revenge. Enemy: Aquaman."
+  },
+  "nome_pt": "Arraia Negra"
 }

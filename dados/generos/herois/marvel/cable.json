@@ -5,7 +5,7 @@
   "nome_pt": "Cable",
   "nivel_poder": 12,
   "pontos_poder_origem": 195,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 215,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -69,22 +69,24 @@
     "poderes": [
       {
         "nome": "Psimtar",
-        "construcao_3e": "Device Removível: Damage 6, Strength-based, Penetrating 6, Extended Reach 1, Improved Critical 3 e Affects Insubstantial. Efeito Alternativo: Affliction 6 (Resisted by Will; Dazed, Stunned, Incapacitated), Extended Reach 1, Improved Critical 3, Affects Insubstantial e Limited a alvos com poderes mentais.",
+        "construcao_3e": "Dispositivo Facilmente Removível: Dano 6 Baseado em Força, Penetrante 6, Alcance Estendido 1, Crítico Aprimorado 3, Afeta Insubstancial 2 (18 PP); Efeito Alternativo: Aflição Mental 6 (Resistida por Vontade; Tonto, Atordoado, Incapacitado; 1 PP) + Vantagem Inato (1 PP). Piscina de 20 PP; Facilmente Removível (-8 PP) = 12 PP.",
         "custo_2e_pp": 12,
-        "custo_3e_pp": null
+        "custo_3e_pp": 12,
+        "nome_pt": "Psimitar"
       },
       {
         "nome": "Protection",
-        "construcao_3e": "Protection 3.",
+        "construcao_3e": "Proteção 3 (3 PP).",
         "custo_2e_pp": 3,
         "custo_3e_pp": 3,
-        "nome_pt": "Proteção"
+        "nome_pt": "Proteção Cibernética"
       },
       {
         "nome": "Telekinesis / Telepathy",
-        "construcao_3e": "Array Dinamico: Move Object 8 (Telekinesis); Efeito Alternativo Telepathy 8, construida com Mind Reading e Mental Communication.",
+        "construcao_3e": "Array Dinâmico: Mover Objeto 8 (Telecinésia; 16 PP + Dinâmico 2 PP = 18 PP); Efeito Alternativo Dinâmico: Telepatia 8 (Leitura Mental 8 e Comunicação Mental 2; Dinâmico 2 PP) = 20 PP.",
         "custo_2e_pp": 20,
-        "custo_3e_pp": null
+        "custo_3e_pp": 20,
+        "nome_pt": "Telecinésia e Telepatia"
       }
     ],
     "equipamento": [
@@ -122,13 +124,11 @@
   },
   "custos_3e": {
     "habilidades": 64,
+    "poderes": 35,
     "defesas": 23,
     "pericias": 67,
     "vantagens": 26,
-    "poderes_conhecidos": 3,
-    "subtotal_conhecido": 183,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 215
   },
   "notas_conversao": [
     "Os modificadores de Força, Constituição, Destreza, Inteligência, Sabedoria e Carisma foram usados conforme o guia. Agilidade foi limitada pelo menor valor entre Destreza e Defesa; Luta foi limitada pelo menor valor entre Ataque corpo a corpo e Defesa.",
@@ -138,6 +138,7 @@
     "O Drawback Techno-Organic Virus foi convertido em Complicação usando somente a condicao descrita na fonte. Nenhuma Motivacao foi inferida para este personagem publicado.",
     "A fonte registra Toughness +12/+11, Protection 3, Defensive Roll e armadura +4. Resistência 12 foi mantida como valor final publicado e conferida contra os limites de NP; não somei os valores defensivos novamente.",
     "O perfil lista Arsenal como 33 EP, embora os custos impressos dos quatro itens somem 82 EP. Os valores foram preservados como publicados, sem corrigir a discrepancia.",
-    "Os custos confirmados antes de Psimtar e Telekinesis/Telepathy somam 183 PP: 64 habilidades, 23 defesas, 67 perícias, 26 vantagens e Protection 3. O total final de PP 3e permanece pendente porque os custos desses poderes e modificadores não foram calculados por completo."
+    "Os custos confirmados antes de Psimtar e Telekinesis/Telepathy somam 183 PP: 64 habilidades, 23 defesas, 67 perícias, 26 vantagens e Protection 3. O total final de PP 3e permanece pendente porque os custos desses poderes e modificadores não foram calculados por completo.",
+    "Poderes convertidos e fechados para M&M 3e (Lote 6). Psimitar como dispositivo facilmente removível e Telecinésia/Telepatia em array dinâmico."
   ]
-}
+}

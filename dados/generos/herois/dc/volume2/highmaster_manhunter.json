@@ -25,5 +25,6 @@
     "defesas": "Dodge 8, Parry 8, Fortitude Immune, Toughness 14, Will 8",
     "pontos_poder": "Abilities 52 + Powers 189 + Advantages 4 + Skills 10 + Defenses 23 = 278",
     "complicacoes": "ing o v erride: If an engulfed Green Lantern breaks free of the Willhunters’ influence, the prisoner may use his power ring to initiate a Will check opposed by the Willhunter’s power rank. Failure means the Green Lantern may be affected normally by the Willhunters in subsequent rounds; success instead places the Highmaster under the Green Lantern’s control as though affected by a similar Affliction power of a rank equal to the Green Lantern’s Will modifier. Self- estruct: Highmasters contain a deadly, nuclear-level self- d destruct device to be employed as a defense against capture. Using this ability destroys the Highmaster utterly. Burst Area 8 Damage 15, Triggered (timer)."
-  }
+  },
+  "nome_pt": "Caçador Supremo"
 }

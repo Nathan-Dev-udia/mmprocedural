@@ -26,5 +26,6 @@
     "ataques": "Initiative +5 Melee Weapons +16 Close, Damage 16, Crit. 16-20 Ranged Weapons +16 Ranged, Damage varies, Crit. 16-20 Unarmed +16 Close, Damage 16, Crit. 16-20",
     "pontos_poder": "Abilities 160 Skills 45 Powers 158 Defenses 17 Advantages 40 ToTal 420",
     "complicacoes": "Godly Nature: Ares is a slave to his nature, even when it is obviously not in his best interest. Trail of Blood : Ares has had millennia to make powerful enemies, of which he has many ."
-  }
+  },
+  "nome_pt": "Ares"
 }

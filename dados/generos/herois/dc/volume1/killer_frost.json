@@ -25,5 +25,6 @@
     "defesas": "Dodge 10 Fortitude 8 Parry 8 Toughness 10 Will 10",
     "pontos_poder": "Abilities 50 Skills 19 Powers 56 Defenses 23 Advantages 4 ToTal 152",
     "complicacoes": "Enemy: Killer Frost has a long-running enmity with Firestorm; where one is, the other is sure to arrive. Hatred: Killer Frost is consumed by a pathological hatred of men. Weakness: Killer Frost is dependent on sources of heat to keep herself from freezing solid, stunned and immobile. PERSONALITY Her perceived mistreatment at the hands of men left Crystal Frost a cold, bitter woman. Louise Lincoln, the second Killer Frost, does not share Crystal’s hated of men, but emulates her idol’s coldly murderous attitude."
-  }
+  },
+  "nome_pt": "Killer Frost"
 }

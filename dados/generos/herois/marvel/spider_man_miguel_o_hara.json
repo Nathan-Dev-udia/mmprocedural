@@ -2,10 +2,10 @@
   "edicao_origem": "Mutants & Masterminds 2e",
   "edicao_destino": "Mutants & Masterminds 3e",
   "nome": "Spider-Man (Miguel O'Hara)",
-  "nome_pt": "Spider-Man (Miguel O'Hara)",
+  "nome_pt": "Homem-Aranha 2099",
   "nivel_poder": 10,
   "pontos_poder_origem": 165,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 194,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -56,51 +56,52 @@
     "poderes": [
       {
         "nome": "Enhanced Strength",
-        "construcao_3e": "Enhanced Trait: Strength 5 (para elevar o valor base 1 ao valor final 6).",
+        "construcao_3e": "Característica Aprimorada: Força 5 (10 PP).",
         "custo_2e_pp": 10,
         "custo_3e_pp": 10,
-        "nome_pt": "Força Aumentada"
+        "nome_pt": "Força Aumentada de Aranha"
       },
       {
         "nome": "Enhanced Dexterity",
-        "construcao_3e": "Enhanced Trait: Agility 10 e Dexterity 10 (para elevar os valores base 0 ao valor final 10).",
+        "construcao_3e": "Característica Aprimorada: Agilidade 10 e Destreza 10 (40 PP).",
         "custo_2e_pp": 20,
         "custo_3e_pp": 40,
-        "nome_pt": "Destreza Aumentada"
+        "nome_pt": "Agilidade e Destreza Aumentadas"
       },
       {
         "nome": "Leaping",
-        "construcao_3e": "Leaping 3.",
+        "construcao_3e": "Salto 3 (3 PP).",
         "custo_2e_pp": 3,
         "custo_3e_pp": 3,
         "nome_pt": "Salto"
       },
       {
         "nome": "Snare",
-        "construcao_3e": "Affliction (conforme graus e extras) (rank 2e 9); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Snare 9 (Power Feat: Tether; 19pp); custo 2e impresso 19 PP.",
+        "construcao_3e": "Aflição à Distância 9 Cumulativa (Resistida por Esquiva/Força; 18 PP) + Conexão (1 PP) = 19 PP.",
         "custo_2e_pp": 19,
-        "custo_3e_pp": null
+        "custo_3e_pp": 19,
+        "nome_pt": "Disparo de Teia Orgânica"
       },
       {
         "nome": "Speed",
-        "construcao_3e": "Speed 4 (Limited to Swinging).",
+        "construcao_3e": "Velocidade 4 (Limitada a Balanço; 2 PP).",
         "custo_2e_pp": 2,
         "custo_3e_pp": 2,
-        "nome_pt": "Velocidade"
+        "nome_pt": "Velocidade em Balanço"
       },
       {
         "nome": "Super Movement",
-        "construcao_3e": "Movement (rank 2e 3); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Movement 3 (Swinging, Wall Crawling (2); Alternate Powers: Improved Critical (2) Mighty Strike 3; 7pp) Componentes/efeitos alternativos mapeados: Strike → Damage.; custo 2e impresso 7 PP.",
+        "construcao_3e": "Movimento 3 (Andar em Paredes 2, Balançar na Teia; 6 PP); Efeito Alternativo: Garras Retráteis / Dano 3 Baseado em Força Crítico Aprimorado 2 (1 PP) = 7 PP.",
         "custo_2e_pp": 7,
-        "custo_3e_pp": null,
-        "nome_pt": "Super-Movimento"
+        "custo_3e_pp": 7,
+        "nome_pt": "Super-Movimento e Garras Retráteis"
       },
       {
         "nome": "Super Senses",
-        "construcao_3e": "Senses 2 (Extended Vision, Low-Light Vision).",
+        "construcao_3e": "Sentidos 2 (Visão na Penumbra e Visão Estendida; 2 PP).",
         "custo_2e_pp": 2,
         "custo_3e_pp": 2,
-        "nome_pt": "Super-Sentidos"
+        "nome_pt": "Super-Sentidos Aracnídeos 2099"
       }
     ],
     "equipamento": [
@@ -139,13 +140,11 @@
   },
   "custos_3e": {
     "habilidades_base": 42,
+    "poderes": 83,
     "defesas": 12,
     "pericias": 48,
     "vantagens": 9,
-    "poderes_conhecidos": 57,
-    "subtotal_conhecido": 168,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 194
   },
   "notas_conversao": [
     "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
@@ -155,6 +154,7 @@
     "Dodge Focus 9 foi convertido em ranks de Esquiva: base 14 + 9 = 23; valor final 14.",
     "Defesas reduzidas por limite de NP 10: Esquiva 23→14 e Aparar 14→14; cada defesa ativa + Resistência 6 ≤ 20.",
     "Subtotal 3e conhecido: 92 PP em habilidades, 96 em perícias, 42 em defesas, 9 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
-    "Correção de custo: as perícias somam 96 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 96 para 48 PP (subtotal e totais ajustados em -48)."
+    "Correção de custo: as perícias somam 96 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 96 para 48 PP (subtotal e totais ajustados em -48).",
+    "Poderes convertidos e fechados para M&M 3e (Lote 8). Teia orgânica dos antebraços, garras retráteis com super-movimento, velocidade em balanço e características aprimoradas consolidados."
   ]
-}
+}

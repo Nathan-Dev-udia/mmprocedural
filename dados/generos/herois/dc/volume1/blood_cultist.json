@@ -24,5 +24,6 @@
     "ataques": "Initiative +1, Ceremonial Dagger +9 (Damage 3, Crit. 19-20), Light Pistol +9 (Damage 3)",
     "defesas": "Dodge 2, Parry 4, Fortitude 1, Toughness 2, Will 1",
     "pontos_poder": "Abilities 16 + Powers 0 + Advantages 3 + Skills 7 + Defenses 3 = 27"
-  }
+  },
+  "nome_pt": "Cultista de Sangue"
 }

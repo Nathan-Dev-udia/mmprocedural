@@ -1,25 +1,27 @@
-{
-  "nome": "Oberon",
-  "sistema": "DC Adventures / Mutants & Masterminds 3e",
-  "nivel_poder": 3,
-  "pontos_poder_publicados": 35,
-  "fonte": {
-    "arquivo": "dc adventures heroes and villains vol 2.pdf",
-    "pagina_pdf": 62
-  },
-  "ficha_publicada": {
-    "habilidades": {
-      "STR": "0",
-      "STA": "1",
-      "AGL": "0",
-      "DEX": "1",
-      "FGT": "1",
-      "INT": "1",
-      "AWE": "0",
-      "PRE": "3"
-    },
-    "poderes": "Shrinking 4 (Permanent, Innate) • 5 points",
-    "pericias": "Close Combat: Unarmed 3 (+4), Expertise: Management 5 (+6), Expertise: Performer 6 (+7), Insight 4 (+4), Perception 4 (+4), Stealth 2 (+6)* ense: Initiative +0, Unarmed +4 (Damage 0) o ff efense: Dodge 4*, Parry 4*, Fortitude 2, Toughness 1, Will 2 d *Includes Shrinking modifiers. Abilities 12 + Powers 5 + Advantages 0 + Skills 12 +",
-    "pontos_poder": "Defenses 6 = 35"
-  }
-}
+{
+  "nome": "Oberon",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 3,
+  "pontos_poder_publicados": 35,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 62
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "0",
+      "STA": "1",
+      "AGL": "0",
+      "DEX": "1",
+      "FGT": "1",
+      "INT": "1",
+      "AWE": "0",
+      "PRE": "3"
+    },
+    "poderes": "Shrinking 4 (Permanent, Innate) • 5 points",
+    "pericias": "Close Combat: Unarmed 3 (+4), Expertise: Management 5 (+6), Expertise: Performer 6 (+7), Insight 4 (+4), Perception 4 (+4), Stealth 2 (+6)* ense: Initiative +0, Unarmed +4 (Damage 0) o ff efense:",
+    "pontos_poder": "Defenses 6 = 35",
+    "defesas": "Dodge 4*, Parry 4*, Fortitude 2, Toughness 1, Will 2 d *Includes Shrinking modifiers."
+  },
+  "nome_pt": "Oberon"
+}

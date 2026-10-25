@@ -24,5 +24,6 @@
     "ataques": "Initiative +0, Attack +1 (Close, Damage 0)",
     "defesas": "Dodge 3, Parry 3, Fortitude 2, Toughness 1, Will 2",
     "pontos_poder": "Abilities 18 + Powers 0 + Advantages 3 + Skills 11 + Defenses 6 = Total 38"
-  }
+  },
+  "nome_pt": "Jimmy Olsen"
 }

@@ -20,6 +20,11 @@
     },
     "poderes": "Drain Blood: Grab-Based Weaken Strength 12 Linked to Grab- based Weaken Stamina 12 • 12 points Hypnosis: Perception Ranged Affliction 12 (Resisted by Will; Dazed, Compelled, Controlled), Cumulative, Sense- Dependent (Sight) • 36 points Prayer Shawl: Enhanced Advantage 1 (Diehard), Protection 10 (Impervious 5), Immunity 2 (Aging, Limited to Half Effect; Raven’s Soul-Self powers), Removable (-4 points) • 14 points Vampire Strength: Enhanced Strength 16, Fades, Reaction (Triggered By Drinking Blood), Limited to amount of Strength of target • 16 points",
     "vantagens": "Benefit 5 (head of the Church of Blood), Diehard, Improved Grab, Improved Hold, Improved Initiative, Inspire, Minion 2, Ritualist, Startle",
-    "pericias": "Acrobatics 4 (+2), Close Combat: Vampire Bite 2 (+10), Intimidate 8 (+18), Expertise: Magic and Theology 8 (+9)"
-  }
+    "pericias": "Acrobatics 4 (+2), Close Combat: Vampire Bite 2 (+10), Intimidate 8 (+18), Expertise: Magic and Theology 8 (+9)",
+    "ataques": "Initiative +6, Vampire Bite +10 (Close, Damage 3 Linked to Weaken 12), Unarmed +8 (Close, Damage 3)",
+    "defesas": "Dodge 10, Fortitude 10, Parry 10, Toughness 10/3*, Will 12 *Without Defensive Roll/Protection.",
+    "pontos_poder": "Abilities 62 + Powers 44 + Advantages 15 + Skills 11 + Defenses 27 = 159",
+    "complicacoes": "Motivation: Power and control over the Church of Blood. Enemy: Teen Titans."
+  },
+  "nome_pt": "Brother Blood Ix"
 }

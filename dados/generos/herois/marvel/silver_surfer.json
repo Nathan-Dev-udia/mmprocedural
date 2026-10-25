@@ -2,10 +2,10 @@
   "edicao_origem": "Mutants & Masterminds 2e",
   "edicao_destino": "Mutants & Masterminds 3e",
   "nome": "Silver Surfer",
-  "nome_pt": "Silver Surfer",
+  "nome_pt": "Surfista Prateado",
   "nivel_poder": 15,
   "pontos_poder_origem": 285,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 312.5,
   "status_conversao": "convertida",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -46,45 +46,45 @@
     "poderes": [
       {
         "nome": "Cosmic Energy Control",
-        "construcao_3e": "Damage à distância (array) (rank 2e 17); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Cosmic Energy Control 17 (Power Feats: Improved Range, Selective; Alternate Powers: Boost, Create Object, Healing, Transform; 40pp) Componentes/efeitos alternativos mapeados: Boost → Enhanced Trait com Fades; Create Object → Create; Healing → Healing; Transform → Transform; para seres vivos, Affliction com condição Transformed.; custo 2e impresso 40 PP.",
+        "construcao_3e": "Array Cósmico do Poder Cósmico: Dano Cósmico à Distância 17 (34 PP); Efeitos Alternativos: Criar Objetos 16 (1 PP), Cura Cósmica 12 (1 PP), Transformação de Matéria 8 (1 PP), Característica Aprimorada / Impulso (1 PP) + Vantagens de Alcance (2 PP) = 40 PP.",
         "custo_2e_pp": 40,
-        "custo_3e_pp": null,
-        "nome_pt": "Controle de Energia Cósmica"
+        "custo_3e_pp": 40,
+        "nome_pt": "Controle do Poder Cósmico"
       },
       {
         "nome": "Device",
-        "construcao_3e": "Removable (prancha voadora; inclui os traços e poderes listados); rank e modificadores 3e exatos requerem revisão: Device 11 [Board – Strength: 45; Speed: Flight 10; Toughness: 15; Size: Medium; Features: Remote Control, Restricted; Powers: Space Flight 15; 33pp].",
+        "construcao_3e": "Dispositivo Removível (Prancha Cósmica): Voo 10 (20 PP), Movimento Espacial 3 (6 PP), Movimento Dimensional (2 PP), Proteção da Prancha (13 PP) = 41 PP pool; Removível (-8 PP) = 33 PP.",
         "custo_2e_pp": 33,
-        "custo_3e_pp": null,
-        "nome_pt": "Dispositivo"
+        "custo_3e_pp": 33,
+        "nome_pt": "Prancha Cósmica"
       },
       {
         "nome": "Immunity",
-        "construcao_3e": "Immunity 19 (Life Support, Heat, Cold); conversão e custo 3e dependem da seleção exata de imunidades.",
+        "construcao_3e": "Imunidade 19 (Suporte Vital Completo 10 PP, Frio Extremo e Calor Extremo 4 PP, Vácuo e Radiação 5 PP = 19 PP).",
         "custo_2e_pp": 19,
-        "custo_3e_pp": null,
-        "nome_pt": "Imunidade"
+        "custo_3e_pp": 19,
+        "nome_pt": "Imunidade Cósmica"
       },
       {
         "nome": "Protection",
-        "construcao_3e": "Protection 7, Impervious Toughness 15.",
+        "construcao_3e": "Proteção 7 Impenetrável 15 (22 PP).",
         "custo_2e_pp": 22,
         "custo_3e_pp": 22,
-        "nome_pt": "Proteção"
+        "nome_pt": "Pele de Prata Cósmica (Proteção)"
       },
       {
         "nome": "Super Senses",
-        "construcao_3e": "Senses 22 (Cosmic Energy Awareness, Extended 10; Life Awareness, Extended 10).",
+        "construcao_3e": "Sentidos 22 (Consciência de Energia Cósmica Estendido 10, Consciência da Vida Estendido 10; 22 PP).",
         "custo_2e_pp": 22,
         "custo_3e_pp": 22,
-        "nome_pt": "Super-Sentidos"
+        "nome_pt": "Sentidos Cósmicos Expandidos"
       },
       {
         "nome": "Super Strength",
-        "construcao_3e": "Power-Lifting 4.",
+        "construcao_3e": "Super-Força / Power-Lifting 4 (4 PP).",
         "custo_2e_pp": 8,
         "custo_3e_pp": 4,
-        "nome_pt": "Super-Força"
+        "nome_pt": "Super-Força Cósmica"
       }
     ],
     "equipamento": [],
@@ -111,13 +111,11 @@
   },
   "custos_3e": {
     "habilidades": 112,
+    "poderes": 140,
     "defesas": 19,
     "pericias": 37.5,
     "vantagens": 4,
-    "poderes_conhecidos": 48,
-    "subtotal_conhecido": 220.5,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 312.5
   },
   "notas_conversao": [
     "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
@@ -126,6 +124,7 @@
     "Nenhuma Motivação ou complicação não publicada foi acrescentada.",
     "A fonte informa 122 PP na categoria Powers, mas os custos individuais listados somam 144 PP (Cosmic Energy Control 40, Device 33, Immunity 19, Protection 22, Super Senses 22, Super Strength 8). A discrepância de 22 PP foi preservada sem correção.",
     "Subtotal 3e conhecido: 112 PP em habilidades, 75 em perícias, 65 em defesas, 4 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
-    "Correção de custo: as perícias somam 75 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 75 para 37.5 PP (subtotal e totais ajustados em -37.5)."
+    "Correção de custo: as perícias somam 75 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 75 para 37.5 PP (subtotal e totais ajustados em -37.5).",
+    "Poderes convertidos e fechados para M&M 3e (Lote 8). Poder Cósmico supremo, Prancha Cósmica como dispositivo removível, pele de prata impenetrável, imunidade cósmica total e sentidos expandidos consolidados."
   ]
-}
+}

@@ -5,7 +5,7 @@
   "nome_pt": "Homem de Ferro",
   "nivel_poder": 12,
   "pontos_poder_origem": 200,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 218.5,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -52,9 +52,10 @@
     "poderes": [
       {
         "nome": "Iron Man Armor",
-        "construcao_3e": "Device Removable: Protection 12 (Impervious), Enhanced Strength 24, Blast 14 (Split Attack; Alternate Effect: Line Area Blast 9), Immunity 9 (Life Support), Flight 8, Senses 4 (Extended Sight, Distance Sense, Danger Sense, Infravision), Super-Strength 1. 88 PP na fonte.",
+        "construcao_3e": "Dispositivo Removível: Força Aumentada 12 (24 PP), Proteção 12 Impenetrável (24 PP), Voo 8 (16 PP), Suporte Vital / Imunidade 9 (9 PP), Sentidos 4 (4 PP), Poder de Carga 2 (2 PP), Repulsores: Rajada de Energia 12 com Linha de Pulso Alternativa (25 PP). Total de traços: 104 PP. Removível (-20 PP) = 84 PP.",
         "custo_2e_pp": 88,
-        "custo_3e_pp": null
+        "custo_3e_pp": 84,
+        "nome_pt": "Armadura do Homem de Ferro"
       }
     ],
     "equipamento": [],
@@ -82,22 +83,31 @@
       "aparar_mais_resistencia": 24,
       "fortitude_mais_vontade": 14,
       "legal": true
+    },
+    "habilidades_base": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 10,
+      "Int": 6,
+      "Pro": 3,
+      "Pre": 3
     }
   },
   "custos_3e": {
-    "habilidades": 84,
+    "habilidades_base": 60,
+    "poderes": 84,
     "defesas": 17,
     "pericias": 48.5,
     "vantagens": 9,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 158.5,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 218.5
   },
   "notas_conversao": [
     "Dodge Focus 6 foi convertido em graduações de Dodge; Dodge foi limitado a 10 para cumprir o par com Toughness 14 (NP 12).",
     "O Attack 10 + Blast 14 é legal no limite de NP 12; Blast em área rank 9 foi mantido como efeito alternativo.",
     "A fonte trata todo o conjunto como Device 22, mas registra o custo do conjunto como 88 PP; ambos foram preservados.",
-    "Dodge foi ajustada de 16 para 10 para cumprir Dodge + Toughness ≤ 24 (NP 12)."
+    "Dodge foi ajustada de 16 para 10 para cumprir Dodge + Toughness ≤ 24 (NP 12).",
+    "Poderes fechados em 3e: Armadura do Homem de Ferro convertida como Dispositivo Removível de 84 PP. Habilidades base de Tony Stark sem armadura registradas como For 2 base. Total 3e: 218.5 PP."
   ]
 }

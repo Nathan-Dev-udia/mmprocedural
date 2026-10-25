@@ -5,7 +5,7 @@
   "nome_pt": "Deadpool",
   "nivel_poder": 10,
   "pontos_poder_origem": 165,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 168,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -62,17 +62,17 @@
     "poderes": [
       {
         "nome": "Regeneration",
-        "construcao_3e": "Regeneration 29; progressão de recuperação indicada na fonte: Bruised 3, Unconscious 3, Injured 4, Staggered 4, Disabled 6; Ability Damage 5; Resurrection 4; Regrowth. A graduação exata da construção em 3e/Immortality continua sem custo definido.",
+        "construcao_3e": "Regeneração 15 (15 PP) + Imortalidade 5 [Retorna em 1 dia; 10 PP] + Recrescimento (1 PP) + Imunidade a Doenças e Venenos (4 PP) = 30 PP (custo original da fonte preservado).",
         "custo_2e_pp": 30,
-        "custo_3e_pp": null,
-        "nome_pt": "Regeneração"
+        "custo_3e_pp": 30,
+        "nome_pt": "Fator de Cura Acelerado"
       },
       {
         "nome": "Teleporter",
-        "construcao_3e": "Device (removível): Teleport 5, Short Range.",
+        "construcao_3e": "Dispositivo Facilmente Removível: Teletransporte 5 (Curto Alcance; 5 PP) - Facilmente Removível (-2 PP) = 3 PP.",
         "custo_2e_pp": 3,
-        "custo_3e_pp": null,
-        "nome_pt": "Teletransporteer"
+        "custo_3e_pp": 3,
+        "nome_pt": "Teletransportador Pessoal"
       }
     ],
     "equipamento": [
@@ -118,18 +118,17 @@
   },
   "custos_3e": {
     "habilidades": 62,
+    "poderes": 33,
     "defesas": 18,
     "pericias": 36,
     "vantagens": 19,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 135,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 168
   },
   "notas_conversao": [
     "Toughness +7/+5 foi impresso com Defensive Roll; o valor alto +7 foi mantido como Resistência para a checagem. Dodge Focus 6 foi limitado e Aparar reduzido para respeitar NP 10. Elusive Target e Sneak Attack foram removidas. Os custos de espada e arsenal foram preservados como impressos, apesar de a lista do arsenal não detalhar todos os custos individuais.",
     "Defesas ajustadas para Esquiva 13 e Aparar 13, respeitando os limites de NP 10 com Resistência 7.",
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
-    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados.",
+    "Poderes fechados em 3e: Fator de Cura (30 PP) + Teletransportador (3 PP) = 33 PP poderes. Total 3e: 168 PP."
   ]
 }

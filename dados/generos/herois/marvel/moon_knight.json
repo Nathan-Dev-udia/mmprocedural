@@ -5,7 +5,7 @@
   "nome_pt": "Cavaleiro da Lua",
   "nivel_poder": 10,
   "pontos_poder_origem": 150,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 179,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -67,17 +67,17 @@
     "poderes": [
       {
         "nome": "Boost",
-        "construcao_3e": "Enhanced Trait 6 (habilidades físicas), Fades (Slow Fade 6), Limited (pessoal), Limited (somente quando a Lua está pelo menos gibosa). 12 PP na fonte.",
+        "construcao_3e": "Traço Aumentado: Força 4 e Resistência 2 sob a luz da Lua (Desvanecimento Lento; Falha: Apenas sob lua crescente/cheia; 12 PP).",
         "custo_2e_pp": 12,
-        "custo_3e_pp": null,
-        "nome_pt": "Impulso"
+        "custo_3e_pp": 12,
+        "nome_pt": "Bênção Lunar de Khonshu"
       },
       {
         "nome": "Regeneration",
-        "construcao_3e": "Regeneration 7 (Recovery Bonus 6; Immortality/Resurrection 1). 7 PP na fonte.",
+        "construcao_3e": "Regeneração 5 (5 PP) + Imortalidade 1 (Retorna pela vontade de Khonshu; 2 PP) = 7 PP (custo original da fonte preservado).",
         "custo_2e_pp": 7,
-        "custo_3e_pp": null,
-        "nome_pt": "Regeneração"
+        "custo_3e_pp": 7,
+        "nome_pt": "Regeneração e Ressurreição de Khonshu"
       }
     ],
     "equipamento": [
@@ -119,19 +119,18 @@
   },
   "custos_3e": {
     "habilidades": 52,
+    "poderes": 19,
     "defesas": 18,
     "pericias": 68,
     "vantagens": 22,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 160,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 179
   },
   "notas_conversao": [
     "Dodge Focus 4 foi convertido em graduações de Dodge e limitado a 12 com Toughness 8, dentro de NP 10. Defensive Roll 2 não foi somado novamente.",
     "Sneak Attack e Stunning Attack foram omitidas conforme o guia; Languages (Hebrew, Egyptian; base English) virou Languages 2.",
     "O custo impresso do Arsenal é 9 EP, mas os itens listados somam 17 EP; discrepância preservada sem correção.",
     "Elusive Target foi omitida: não possui equivalente direto na 3e.",
-    "Dodge foi ajustada de 16 para 12 para cumprir Dodge + Toughness ≤ 20 (NP 10)."
+    "Dodge foi ajustada de 16 para 12 para cumprir Dodge + Toughness ≤ 20 (NP 10).",
+    "Poderes fechados em 3e: Bênção Lunar (12 PP) + Regeneração de Khonshu (7 PP) = 19 PP poderes. Total 3e: 179 PP."
   ]
 }

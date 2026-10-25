@@ -5,7 +5,7 @@
   "nome_pt": "Noturno",
   "nivel_poder": 10,
   "pontos_poder_origem": 150,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 171,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -85,10 +85,10 @@
       },
       {
         "nome": "Teleport",
-        "construcao_3e": "Teleport 10 (Change Direction, Change Velocity, Progression 2, Turnabout), Short-Range.",
+        "construcao_3e": "Teletransporte 10 (Curto Alcance; Mudança de Direção, Mudança de Velocidade, Progressão de Carga 2, Ataque e Volta / Turnabout; 15 PP).",
         "custo_2e_pp": 15,
-        "custo_3e_pp": null,
-        "nome_pt": "Teletransporte"
+        "custo_3e_pp": 15,
+        "nome_pt": "Teletransporte (BAMF)"
       }
     ],
     "equipamento": [
@@ -117,13 +117,11 @@
   },
   "custos_3e": {
     "habilidades": 72,
+    "poderes": 24,
     "defesas": 19,
     "pericias": 33,
     "vantagens": 23,
-    "poderes_conhecidos": 9,
-    "subtotal_conhecido": 156,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 171
   },
   "notas_conversao": [
     "Attack Specialization (Sword) 2 convertido em Close Combat: Espadas 4; Ambidexterity virou Benefit (Ambidextrous).",
@@ -131,6 +129,7 @@
     "Dodge Focus 6 foi convertido em Dodge ranks e limitado a 14 com Toughness 6 para NP 10.",
     "Elusive Target foi omitida: não possui equivalente direto na 3e.",
     "Sneak Attack 2 foi omitida: não possui equivalente direto na 3e.",
-    "Dodge foi ajustada de 20 para 14 para cumprir Dodge + Toughness ≤ 20 (NP 10)."
+    "Dodge foi ajustada de 20 para 14 para cumprir Dodge + Toughness ≤ 20 (NP 10).",
+    "Poderes fechados em 3e: Teletransporte fechado em 15 PP + Cauda (2 PP) + Camuflagem (2 PP) + Sentidos (1 PP) + Escalar (4 PP) = 24 PP poderes. Total 3e: 171 PP."
   ]
 }

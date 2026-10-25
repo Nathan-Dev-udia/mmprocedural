@@ -25,5 +25,6 @@
     "defesas": "Dodge 8 Fortitude 11 Parry 8 Toughness 14 Will 7",
     "pontos_poder": "Abilities 78 Skills 21 Powers 73 Defenses 13 Advantages 6 ToTal 191",
     "complicacoes": "Living Spell: Kestrel is not a real creature but a spell, and requires a willing host to exist on Earth, who is most often promised power. Kestrel cannot stay on Earth outside a host, and has been defeated in the past when forced to leave its host. Obsession: Kestrel’s existence revolves around Hawk and Dove and it hunts them down whenever on Earth. Kestrel always tries to attack Dove first, and once she’s dead attempts to persuade Hawk to join the Lords of Chaos."
-  }
+  },
+  "nome_pt": "Kestrel"
 }

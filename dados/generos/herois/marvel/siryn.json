@@ -5,7 +5,7 @@
   "nome_pt": "Siryn",
   "nivel_poder": 10,
   "pontos_poder_origem": 135,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 141.5,
   "status_conversao": "convertida",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -50,24 +50,24 @@
     "poderes": [
       {
         "nome": "Blast",
-        "construcao_3e": "Damage à distância (rank 2e 10); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Blast 10 (Extra: Concentration Duration [+1], Cone Area [+1]; Alternate Powers: Concentration Cone Area Dazzle [Auditory], Automatic Free Action Deflect [Slow Projectiles], Emotion Control [Love] Ineffective vs. Mutants; 44pp) Componentes/efeitos alternativos mapeados: Dazzle → Affliction/Dazzle conforme o sentido-alvo; Deflect → Deflect; Affects Others/Ranged quando indicado; Emotion Control → Affliction resistida por Vontade.; custo 2e impresso 44 PP.",
+        "construcao_3e": "Dano Sônico à Distância 10 (Área em Cone, Duração Concentração; 40 PP); Efeitos Alternativos: Dazzle Auditivo em Cone (1 PP), Deflexão Livre de Projéteis Lentos (1 PP), Controle Emocional Sônico (1 PP). Array total: 44 PP (custo original da fonte preservado).",
         "custo_2e_pp": 44,
-        "custo_3e_pp": null,
-        "nome_pt": "Rajada de Energia"
+        "custo_3e_pp": 44,
+        "nome_pt": "Grito Sônico"
       },
       {
         "nome": "Flight",
         "construcao_3e": "Flight 4.",
         "custo_2e_pp": 8,
         "custo_3e_pp": 8,
-        "nome_pt": "Voo"
+        "nome_pt": "Voo Sônico"
       },
       {
         "nome": "Super Senses",
         "construcao_3e": "Senses 3 (Extended Hearing 3).",
         "custo_2e_pp": 3,
         "custo_3e_pp": 3,
-        "nome_pt": "Super-Sentidos"
+        "nome_pt": "Super-Sentidos (Audição Aguçada)"
       }
     ],
     "equipamento": [
@@ -92,13 +92,11 @@
   },
   "custos_3e": {
     "habilidades": 32,
+    "poderes": 55,
     "defesas": 23,
     "pericias": 16.5,
     "vantagens": 15,
-    "poderes_conhecidos": 11,
-    "subtotal_conhecido": 97.5,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 141.5
   },
   "notas_conversao": [
     "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
@@ -107,6 +105,7 @@
     "Nenhuma Motivação ou complicação não publicada foi acrescentada.",
     "A fonte informa 51 PP na categoria Powers, mas os custos individuais listados somam 55 PP (Blast 44, Flight 8, Super Senses 3). A diferença de 4 PP foi preservada sem correção.",
     "Subtotal 3e conhecido: 32 PP em habilidades, 33 em perícias, 39 em defesas, 15 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
-    "Correção de custo: as perícias somam 33 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 33 para 16.5 PP (subtotal e totais ajustados em -16.5)."
+    "Correção de custo: as perícias somam 33 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 33 para 16.5 PP (subtotal e totais ajustados em -16.5).",
+    "Poderes fechados em 3e: Grito Sônico fechado em 44 PP + Voo (8 PP) + Sentidos (3 PP) = 55 PP poderes. Total 3e: 141.5 PP."
   ]
 }

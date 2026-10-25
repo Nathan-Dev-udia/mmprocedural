@@ -5,7 +5,7 @@
   "nome_pt": "Senhor Fantástico",
   "nivel_poder": 10,
   "pontos_poder_origem": 180,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 199.5,
   "status_conversao": "convertida",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -55,9 +55,10 @@
     "poderes": [
       {
         "nome": "Elastic Alternate Form",
-        "construcao_3e": "Alternate Form 13 (Elongation 11, Strike 10, Protection 14 Impervious, Growth 4 Continuous and Permanent). 65 PP na fonte.",
+        "construcao_3e": "Forma Alternativa Elástica: Alongamento 11 (11 PP), Dano baseado em Força 10 (10 PP), Proteção 14 Impenetrável (28 PP), Crescimento 4 Permanente Contínuo (12 PP), Flexibilidade e Membros Extras (4 PP). Total: 65 PP (custo original da fonte preservado).",
         "custo_2e_pp": 65,
-        "custo_3e_pp": null
+        "custo_3e_pp": 65,
+        "nome_pt": "Forma Elástica / Maleabilidade"
       }
     ],
     "equipamento": [
@@ -82,17 +83,16 @@
   },
   "custos_3e": {
     "habilidades": 48,
+    "poderes": 65,
     "defesas": 10,
     "pericias": 64.5,
     "vantagens": 12,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 134.5,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 199.5
   },
   "notas_conversao": [
     "A fonte informa 3 Drawback PP na linha de total, mas não apresenta seção ou descrição de Drawbacks; a informação permanece sem especificação e não foi convertida em complicação.",
     "Toughness 14 e Defense 16 (rank 6) totalizam exatamente NP 10; o traje não foi somado novamente.",
-    "Master Plan foi convertido em Inspire 1 conforme a orientação do guia."
+    "Master Plan foi convertido em Inspire 1 conforme a orientação do guia.",
+    "Poderes fechados em 3e: Forma Elástica fechada em 65 PP. Total 3e: 199.5 PP."
   ]
 }

@@ -26,5 +26,6 @@
     "defesas": "Dodge 6, Parry 9, Fortitude Immune, Toughness 13, Will 8",
     "pontos_poder": "Abilities 54 + Powers 86 + Advantages 6 + Skills 15 + Defenses 13 = 174",
     "complicacoes": "Relationships: Cliff Steele is devoted to the well-being of his teammates. Weakness: Robotman has a human brain, which is dependent on his bionic body’s life support systems. He cannot exist indefinitely without oxygen or nourishment, despite his Immunity to Fortitude effects, as his robot body’s reserves are not infinite."
-  }
+  },
+  "nome_pt": "Homem-Robô"
 }

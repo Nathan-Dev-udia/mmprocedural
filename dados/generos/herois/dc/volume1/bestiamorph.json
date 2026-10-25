@@ -24,5 +24,6 @@
     "ataques": "Initiative +0, Unarmed +5 (Damage 3)",
     "defesas": "Dodge 5, Parry 5, Fortitude 5, Toughness 3, Will 3",
     "pontos_poder": "Abilities 20 + Powers 3 + Advantages 2 + Skills 10 + Defenses 10 = 45"
-  }
+  },
+  "nome_pt": "Bestiamorfo"
 }

@@ -5,7 +5,7 @@
   "nome_pt": "Polaris",
   "nivel_poder": 10,
   "pontos_poder_origem": 150,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 148,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -49,30 +49,31 @@
     "poderes": [
       {
         "nome": "Flight 4",
-        "construcao_3e": "Flight 4.",
+        "construcao_3e": "Voo 4 (8 PP).",
         "custo_2e_pp": 8,
         "custo_3e_pp": 8,
-        "nome_pt": "Voo 4"
+        "nome_pt": "Voo Magnético"
       },
       {
         "nome": "Force Field 12",
-        "construcao_3e": "Protection 12, Impervious; Alternate Effect: Deflect (slow projectiles), Move Action.",
+        "construcao_3e": "Proteção 12 Impenetrável 12 (Sustentada; 24 PP) + Efeito Alternativo: Deflexão Magnética 12 (1 PP) = 25 PP.",
         "custo_2e_pp": 25,
-        "custo_3e_pp": null,
-        "nome_pt": "Campo de Força 12"
+        "custo_3e_pp": 25,
+        "nome_pt": "Campo de Força Magnético"
       },
       {
         "nome": "Magnetic Control 12",
-        "construcao_3e": "Array: Blast, Nullify (electronics; Concentration), Nauseate.",
+        "construcao_3e": "Array de Controle Magnético: Dano à Distância 12 (24 PP); Efeitos Alternativos: Anular Eletrônicos 12 (1 PP), Aflição Magnética / Enjoo 12 (1 PP), Mover Metal 12 (1 PP) = 27 PP.",
         "custo_2e_pp": 27,
-        "custo_3e_pp": null
+        "custo_3e_pp": 27,
+        "nome_pt": "Controle do Magnetismo"
       },
       {
         "nome": "Super-Senses 3",
-        "construcao_3e": "Extended (2), Metal Awareness.",
+        "construcao_3e": "Sentidos 3 (Consciência de Metais, Estendido 2; 3 PP).",
         "custo_2e_pp": 3,
         "custo_3e_pp": 3,
-        "nome_pt": "Super-Sentidos 3"
+        "nome_pt": "Consciência Magnética"
       }
     ],
     "equipamento": [],
@@ -99,13 +100,11 @@
   },
   "custos_3e": {
     "habilidades": 34,
+    "poderes": 63,
     "defesas": 19,
     "pericias": 24,
     "vantagens": 8,
-    "poderes_conhecidos": 11,
-    "subtotal_conhecido": 96,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 148
   },
   "notas_conversao": [
     "Improved Block 2 foi convertido em Improved Defense 2 conforme o guia; Weapon Break não tem equivalente indicado e foi omitido. O bônus de ataque do Magnetic Blast foi ajustado ao NP.",
@@ -113,6 +112,7 @@
     "Perícias da fonte: Bluff +7, Computers +5, Concentration +9, Diplomacy +7, Disguise +11, Knowledge (Current Events) +7, Knowledge (Pop Culture) +9, Notice +11, Sense Motive +9. Concentration foi omitida por não ter equivalente direto no guia.",
     "Com Resistência 12, Esquiva e Aparar foram reduzidas a 8 para o limite defensivo de NP 10. Magnetic Blast 12 com ataque +8 atinge o limite Ataque + efeito 20.",
     "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +0/+2/+0/+1/+1/+3. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
-    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
+    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos.",
+    "Poderes convertidos e fechados para M&M 3e (Lote 7). Voo magnético, campo de força impenetrável, array de controle magnético e percepção de metais consolidados."
   ]
-}
+}

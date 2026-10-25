@@ -26,5 +26,6 @@
     "defesas": "Dodge 11 Fortitude 7 Parry 11 Toughness 5/3** Will 9 **Without Defensive Roll.",
     "pontos_poder": "Abilities 48 Skills 30 Powers 3 Defenses 23 Advantages 26 ToTal 130",
     "complicacoes": "Addiction: Jonah enjoys having a drink a bit more than he ought to. Honor: Hex has a personal code of honor that compels him to help and avenge the innocent. This often gets him involved in things he says he’d rather steer clear of. Prejudice: Jonah was given the mark of the demon—a very distinctive scar—by the Apache, which makes him very recognizable and more than a little ugly. He has a hard time going unnoticed even when he wants to."
-  }
+  },
+  "nome_pt": "Jonah Hex"
 }

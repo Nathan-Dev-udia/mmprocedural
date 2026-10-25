@@ -25,5 +25,6 @@
     "defesas": "Dodge 13 Fortitude 9 Parry 13 Toughness 7 Will 8",
     "pontos_poder": "Abilities 40 Skills 37 Powers 66 Defenses 17 Advantages 15 ToTal 175",
     "complicacoes": "Locked Form: While Dove has a -5 penalty to Toughness checks against damage or suffering a harmful condition, she cannot transform back into Dawn Granger. Pacifism: Dove will always try to resolve things without entering combat."
-  }
+  },
+  "nome_pt": "Dove"
 }

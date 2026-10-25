@@ -23,5 +23,6 @@
     "ataques": "Initiative +0, Dazzle +12 (Affliction 6, Resisted by Fortitude), Knockout Gas — (Cloud Area Affliction 6, Resisted by Fortitude), Laser Grid — (Shapeable Area Damage 4)",
     "defesas": "Dodge 11, Parry 8, Fortitude Immune, Toughness 8, Will Immune",
     "pontos_poder": "Abilities -32 + Powers 94 + Advantages 0 + Skills 6 + Defenses 7 = 75"
-  }
+  },
+  "nome_pt": "Esferas-T (4)"
 }

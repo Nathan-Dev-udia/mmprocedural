@@ -1,26 +1,28 @@
-{
-  "nome": "Wildcat",
-  "sistema": "DC Adventures / Mutants & Masterminds 3e",
-  "nivel_poder": 11,
-  "pontos_poder_publicados": 174,
-  "fonte": {
-    "arquivo": "dc adventures heroes and villains vol 2.pdf",
-    "pagina_pdf": 264
-  },
-  "ficha_publicada": {
-    "habilidades": {
-      "STR": "4",
-      "STA": "4",
-      "AGL": "4",
-      "DEX": "2",
-      "FGT": "12",
-      "INT": "0",
-      "AWE": "2",
-      "PRE": "2"
-    },
-    "poderes": "n Immortality 19, Subtle; Limited to nine uses ine Liv es: • 20 points",
-    "equipamento": "Ve H i CL e: Motor C y CL e • 10 POI n TS Size: Medium Str: 1 Speed: 6 d ef: 10 t ou: 8 d a e S a V ant G Agile Feint, All-out Attack, Assessment, Close Attack 5, Defensive Attack, Defensive Roll 4, Diehard, Equipment 2, Evasion, Fast Grab, Improved Critical 2 (Unarmed), Improved Defense, Improved Grab, Improved Hold, Improved Initiative, Improved Trip, Luck, Power Attack, Takedown 2, Taunt",
-    "pericias": "Acrobatics 6 (+10), Athletics 10 (+14), Deception 4 (+6), Expertise: The Sweet Science of Boxing 14 (+14), Insight 6 (+8), Intimidation 8 (+10), Investigation 4 (+5), Perception 8 (+10), Persuasion 4 (+6), Stealth 8 (+10), Vehicles 8 (+10) ffen S e o i nitia tive +8 Unarmed+17 Close, Damage 4 (Crit. 18-20) efen S e d d odge 13 f or titude 9 Parry 14 t oughness 8/4* W ill 10 *Without Defensive Roll.",
-    "pontos_poder": "a bilities 60 S kills 40 Powers 20 d efenses 24 a dv antages 30 ToTal 174"
-  }
-}
+{
+  "nome": "Wildcat",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 174,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 264
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "4",
+      "STA": "4",
+      "AGL": "4",
+      "DEX": "2",
+      "FGT": "12",
+      "INT": "0",
+      "AWE": "2",
+      "PRE": "2"
+    },
+    "poderes": "n Immortality 19, Subtle; Limited to nine uses ine Liv es: • 20 points",
+    "equipamento": "Ve H i CL e: Motor C y CL e • 10 POI n TS Size: Medium Str: 1 Speed: 6 d ef: 10 t ou: 8 d a e S a V ant G Agile Feint, All-out Attack, Assessment, Close Attack 5, Defensive Attack, Defensive Roll 4, Diehard, Equipment 2, Evasion, Fast Grab, Improved Critical 2 (Unarmed), Improved Defense, Improved Grab, Improved Hold, Improved Initiative, Improved Trip, Luck, Power Attack, Takedown 2, Taunt",
+    "pericias": "Acrobatics 6 (+10), Athletics 10 (+14), Deception 4 (+6), Expertise: The Sweet Science of Boxing 14 (+14), Insight 6 (+8), Intimidation 8 (+10), Investigation 4 (+5), Perception 8 (+10), Persuasion 4 (+6), Stealth 8 (+10), Vehicles 8 (+10) ffen S e o i nitia tive +8 Unarmed+17 Close, Damage 4 (Crit. 18-20)",
+    "pontos_poder": "a bilities 60 S kills 40 Powers 20 d efenses 24 a dv antages 30 ToTal 174",
+    "defesas": "Dodge 13 Fortitude 9 Parry 14 Toughness 8/4* Will 10 *Without Defensive Roll."
+  },
+  "nome_pt": "Pantera"
+}

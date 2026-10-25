@@ -20,6 +20,12 @@
     },
     "poderes": "Talented Killer: Array (2 points) • Accuracy: Enhanced Skill 2 (Ranged Combat: Guns +4) • 2 points • Two for One: May fire two guns of Damage 4 or less at once (Feature 1) • 1 point Telepathy: Mind Reading 8, Concentration, Limited to surface and personal thoughts • 4 points X-Ray Vision: Senses 4 (Vision Penetrates Concealment), Concentration • 2 points",
     "equipamento": "Sniper Rifle: Ranged Damage 5, Crit. 19-20, Suppressor (Subtle), Targeting Scope (Improved Aim) • 13 points Twin Heavy Pistols: Ranged Damage 4 • 16 points Fragmentation Grenade: Ranged Burst Area Damage 5 • 15 points Knife: Damage 1, Crit. 19-20 • 2 points 4 other points of equipment.",
-    "vantagens": "Benefit 1 (Ambidexterity), Connected, Defensive Roll 4, Equipment 10, Improved Critical (Guns), Power Attack, Quick Draw, Ranged"
-  }
+    "vantagens": "Benefit 1 (Ambidexterity), Connected, Defensive Roll 4, Equipment 10, Improved Critical (Guns), Power Attack, Quick Draw, Ranged",
+    "pericias": "Athletics 6 (+8), Close Combat: Unarmed 6 (+10), Deception 6 (+7), Expertise: Contract Killer 8 (+10), Insight 6 (+8), Perception 8 (+10), Ranged Combat: Guns 6 (+10), Stealth 6 (+10), Vehicles 4 (+8)",
+    "ataques": "Initiative +4, Guns +10 (Ranged, Damage 5, Crit. 19-20), Unarmed +10 (Close, Damage 2)",
+    "defesas": "Dodge 10, Fortitude 8, Parry 8, Toughness 9/3*, Will 8 *Without Body Armor and Defensive Roll.",
+    "pontos_poder": "Abilities 44 + Powers 9 + Advantages 25 + Skills 28 + Defenses 18 = 124",
+    "complicacoes": "Code of Honor: Will not kill children or innocent people. Enemies: Gotham mobsters and rogue metahumans."
+  },
+  "nome_pt": "Hitman (Tommy Monaghan)"
 }

@@ -19,11 +19,12 @@
       "PRE": "3"
     },
     "poderes": "Eternal: Immunity 2 (Aging, Disease); Feature 1 (Can survive death as disembodied spirit until granted new body by outside sources) • 3 points Mystic Senses: Senses 4 (Magic Awareness, Radius, Acute, Analytical) • 4 points Protective Enchantments: Enhanced",
-    "defesas": "(Dodge 14, Parry 14), Sustained; Protection 4, Sustained • 18 points Sorcery: Array (55 points) • Arcane Trickery: Illusion (All Senses) 11, Dynamic • 56 points • Countermagic: Nullify 13, Broad (all magic effects), Dynamic • 2 points • Demon Pact: Summon 7 (105 points), Broad Variable Type (Demons), Heroic, Multiple Minions 1 (2 minions), Attitude (Indifferent), Resistible, Dynamic • 2 points • Mystic Blast: Ranged Damage 13, Dynamic • 2 points • Mystic Shield: Deflect 17, Dynamic • 2 points • Mystic Veil: Concealment 10 (All Senses), Precise, Dynamic • 2 points • Telekinesis: Move Object 13, Dynamic • 2 points • Teleport: Teleport 11 (8 miles), Increased Mass 2, Dimensional 2 (Mystic Dimensions), Dynamic • 2 points",
+    "defesas": "Dodge 15, Fortitude 8, Parry 14, Toughness 5, Will 14",
     "vantagens": "Artificer, Languages 2 (Latin, Greek), Luck 2, Ritualist, Trance",
     "pericias": "Deception 10 (+13), Expertise: Magic 15 (+18), Insight 5 (+10), Intimidation 4 (+7), Perception 4 (+9), Persuasion 7 (+10), Ranged Combat: Sorcery 8 (+9), Sleight of Hand 7 (+8), Stealth 6(+7)",
-    "ataques": "Initiative +0 Mystic Bolt +9 Ranged, Damage 13 Unarmed +0 Close, Damage 0 DEFENSE Dodge 15 Fortitude 8 Parry 14 Toughness 5 Will 14",
+    "ataques": "Initiative +0, Mystic Bolt +9 (Ranged, Damage 13), Unarmed +0 (Close, Damage 0)",
     "pontos_poder": "Abilities 28 Skills 33 Powers 95 Defenses 16 Advantages 7 ToTal 179",
     "complicacoes": "Damaged Goods: Faust’s soul is considered so used and tainted it no longer has worth as a bargaining chip for dealing with demonic entities. Obsession: Increasing his magical powers. Relationships: Fauna (daughter) and Sebastian (son). Faust has also bartered with various demons for power, including Nekron and the Demons Three."
-  }
+  },
+  "nome_pt": "Felix Fausto"
 }

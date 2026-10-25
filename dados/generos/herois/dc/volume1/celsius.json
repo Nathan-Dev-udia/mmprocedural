@@ -25,5 +25,6 @@
     "defesas": "Dodge 15, Parry 15, Fortitude 8, Toughness 6/3, Will 8",
     "pontos_poder": "Abilities 52 + Powers 46 + Advantages 14 + Skills 21 + Defenses 32 = 165",
     "complicacoes": "Nemesis: Arani’s arch-enemy is her psychotic father, the mythological villain Kalki (and to a lesser extent, General Immortus). Obsession : Celsius is fanatical in her desire to restore the Chief and then prove her prior relationship with him."
-  }
+  },
+  "nome_pt": "Celsius"
 }

@@ -2,10 +2,10 @@
   "edicao_origem": "Mutants & Masterminds 2e",
   "edicao_destino": "Mutants & Masterminds 3e",
   "nome": "Ghost Rider",
-  "nome_pt": "Ghost Rider",
+  "nome_pt": "Motoqueiro Fantasma",
   "nivel_poder": 12,
   "pontos_poder_origem": 210,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 220.5,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -54,57 +54,59 @@
     "poderes": [
       {
         "nome": "Enhanced Strength",
-        "construcao_3e": "Enhanced Trait: Strength 11 (para elevar o valor base 1 ao valor final 12).",
+        "construcao_3e": "Característica Aprimorada: Força 11 (22 PP).",
         "custo_2e_pp": 22,
         "custo_3e_pp": 22,
-        "nome_pt": "Força Aumentada"
+        "nome_pt": "Força Aumentada Mística"
       },
       {
         "nome": "Enhanced Constitution",
-        "construcao_3e": "Enhanced Trait: Stamina 9 (para elevar o valor base 3 ao valor final 12).",
+        "construcao_3e": "Característica Aprimorada: Vigor 9 (18 PP).",
         "custo_2e_pp": 18,
         "custo_3e_pp": 18,
-        "nome_pt": "Vigor Aumentado"
+        "nome_pt": "Vigor Aumentado Místico"
       },
       {
         "nome": "Hell Bike",
-        "construcao_3e": "Device (Removable, vehicle): Dimensional Movement, Movement (Wall-running, Water-running), Damage 6 (Hellfire Aura).",
+        "construcao_3e": "Dispositivo Removível: Movimento Dimensional 2 (4 PP), Movimento 2 (Andar na Água e Paredes; 4 PP), Velocidade 6 (6 PP), Dano Reativo de Fogo do Inferno 6 (Aura de Fogo; 24 PP) = pool de 38 PP; Removível (-17 PP) = 21 PP (custo original da fonte preservado).",
         "custo_2e_pp": 21,
-        "custo_3e_pp": null
+        "custo_3e_pp": 21,
+        "nome_pt": "Moto Infernal"
       },
       {
         "nome": "Hell's Chain",
-        "construcao_3e": "Device (Removable): Damage 2 (Strength-based, Mighty), Extended Reach; Alternate Effects: Snare 4 and Ranged Damage 1 (Autofire).",
+        "construcao_3e": "Dispositivo Facilmente Removível: Dano 2 Baseado em Força (2 PP), Alcance Estendido 2 (2 PP), Crítico Aprimorado 2 (2 PP); Efeitos Alternativos (Laço Místico / Aflição Snare 4 [1 PP], Dano Multiatirador à Distância 1 [1 PP]); Facilmente Removível = 6 PP.",
         "custo_2e_pp": 6,
-        "custo_3e_pp": null
+        "custo_3e_pp": 6,
+        "nome_pt": "Corrente Mística Infernal"
       },
       {
         "nome": "Hellfire Control",
-        "construcao_3e": "Ranged Damage array 10, Affects Insubstantial.",
+        "construcao_3e": "Array de Fogo Infernal: Dano à Distância 10 (Afeta Insubstancial 1; 21 PP).",
         "custo_2e_pp": 21,
-        "custo_3e_pp": null,
-        "nome_pt": "Controle de Fogo Infernal"
+        "custo_3e_pp": 21,
+        "nome_pt": "Controle do Fogo Infernal"
       },
       {
         "nome": "Immunity",
-        "construcao_3e": "Immunity 9 (Life Support).",
+        "construcao_3e": "Imunidade 9 (Suporte Vital Completo; 9 PP).",
         "custo_2e_pp": 9,
-        "custo_3e_pp": null,
-        "nome_pt": "Imunidade"
+        "custo_3e_pp": 9,
+        "nome_pt": "Imunidade (Suporte Vital Sobrenatural)"
       },
       {
         "nome": "Emotion Control",
-        "construcao_3e": "Affliction 12 (Despair; One Emotion; Sense-dependent: sight).",
+        "construcao_3e": "Olhar da Penitência: Aflição 12 (Resistida por Vontade; Dazed, Stunned, Transformed / Remorso Agonizante; Dependente de Olhar [-1/grad]; 6 PP).",
         "custo_2e_pp": 6,
-        "custo_3e_pp": null,
-        "nome_pt": "Controle Emocional"
+        "custo_3e_pp": 6,
+        "nome_pt": "Olhar da Penitência"
       },
       {
         "nome": "Super Senses",
-        "construcao_3e": "Senses 5 (Extended 4, Detect Evil).",
+        "construcao_3e": "Sentidos 5 (Detectar o Mal, Estendido 4; 5 PP).",
         "custo_2e_pp": 5,
         "custo_3e_pp": 5,
-        "nome_pt": "Super-Sentidos"
+        "nome_pt": "Super-Sentidos Místicos"
       }
     ],
     "equipamento": [
@@ -150,18 +152,17 @@
   },
   "custos_3e": {
     "habilidades_base": 44,
+    "poderes": 108,
     "defesas": 20,
     "pericias": 38.5,
     "vantagens": 10,
-    "poderes_conhecidos": 45,
-    "subtotal_conhecido": 157.5,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 220.5
   },
   "notas_conversao": [
     "Attack Focus (Melee) 2 foi convertido em Close Attack 2. Fast Overrun/Improved Overrun foram removidas; Move-by Action foi mantida como substituição. Fearsome Presence e Stunning Attack foram removidas sem inventar poderes. O Drawback Normal Identity foi convertido em complicação.",
     "Defesas ajustadas para Esquiva 10 e Aparar 10, respeitando os limites de NP 12 com Resistência 14.",
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
-    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados.",
+    "Poderes convertidos e fechados para M&M 3e (Lote 7). Moto Infernal, Corrente Mística, Controle do Fogo Infernal, Olhar da Penitência e características sobrenaturais consolidados."
   ]
-}
+}

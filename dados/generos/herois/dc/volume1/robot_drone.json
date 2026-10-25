@@ -22,5 +22,6 @@
     "ataques": "Initiative +4, Stinger Blasts +6 (Ranged Damage 6), Unarmed +8 (Damage –5)",
     "defesas": "Dodge 12, Parry 9, Fortitude Immune, Toughness 0, Will Immune",
     "pontos_poder": "Abilities –26 + Powers 71 + Advantages 0 + Skills 0 + Defenses 1 = 46"
-  }
+  },
+  "nome_pt": "Robot Drone"
 }

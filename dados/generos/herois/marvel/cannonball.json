@@ -2,10 +2,10 @@
   "edicao_origem": "Mutants & Masterminds 2e",
   "edicao_destino": "Mutants & Masterminds 3e",
   "nome": "Cannonball",
-  "nome_pt": "Cannonball",
+  "nome_pt": "Míssil",
   "nivel_poder": 10,
   "pontos_poder_origem": 150,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 162,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -58,17 +58,17 @@
     "poderes": [
       {
         "nome": "Flight / Strike",
-        "construcao_3e": "Flight 12 (Dynamic; Alternate Effect: Strength-based Damage with Penetrating; graduação ilegível na fonte).",
+        "construcao_3e": "Voo 12 (Dinâmico; 25 PP); Efeito Alternativo Dinâmico: Dano Penetrante baseado em Força com Impacto Cinético (2 PP). Total: 27 PP.",
         "custo_2e_pp": 27,
-        "custo_3e_pp": null,
-        "nome_pt": "Voo / Strike"
+        "custo_3e_pp": 27,
+        "nome_pt": "Propulsão Termo-Química (Voo e Impacto)"
       },
       {
         "nome": "Force Field",
-        "construcao_3e": "Protection 10, Impervious 12, Limited a quando estiver em voo.",
+        "construcao_3e": "Proteção 10 Impenetrável 12; Falha: Limitado estritamente a quando estiver em voo/propulsão (-1/graduação) = 12 PP.",
         "custo_2e_pp": 12,
-        "custo_3e_pp": null,
-        "nome_pt": "Campo de Força"
+        "custo_3e_pp": 12,
+        "nome_pt": "Campo de Força Cinético Impenetrável"
       }
     ],
     "equipamento": [],
@@ -90,18 +90,17 @@
   },
   "custos_3e": {
     "habilidades": 54,
+    "poderes": 39,
     "defesas": 14,
     "pericias": 37,
     "vantagens": 18,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 123,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 162
   },
   "notas_conversao": [
     "Fast Overrun e Improved Overrun foram removidas (a manobra não existe na 3e); Move-by Action foi mantida como substituição. A fonte não declara motivação ou outra complicação.",
     "Defesas ajustadas para Esquiva 8 e Aparar 8, respeitando os limites de NP 10 com Resistência 12.",
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
-    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados.",
+    "Poderes fechados em 3e: Voo com Dano Dinâmico (27 PP) + Campo de Força Impenetrável (12 PP) = 39 PP poderes. Total 3e: 162 PP."
   ]
 }

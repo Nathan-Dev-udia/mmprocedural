@@ -25,5 +25,6 @@
     "defesas": "Dodge 13 Fortitude 7 Parry 13 Toughness 5/4* Will 11 *Without Defensive Roll.",
     "pontos_poder": "Abilities 30 Skills 4 Powers 91 Defenses 35 Advantages 7 ToTal 167",
     "complicacoes": "Responsibility: Throughout his life, Hal strove to emulate the heroism of his father, the original Air Wave. Weakness: Hal was sensitive to electromagnetic radiation emissions, like sunspot activity and broadcast communications. At sufficient levels, they rendered him impaired, disabled, powerless, or in danger of dying."
-  }
+  },
+  "nome_pt": "Onda Aérea"
 }

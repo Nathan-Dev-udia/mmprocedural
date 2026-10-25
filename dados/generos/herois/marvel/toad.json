@@ -2,10 +2,10 @@
   "edicao_origem": "Mutants & Masterminds 2e",
   "edicao_destino": "Mutants & Masterminds 3e",
   "nome": "Toad",
-  "nome_pt": "Toad",
+  "nome_pt": "Groxo",
   "nivel_poder": 10,
   "pontos_poder_origem": 165,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 199.5,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -65,26 +65,29 @@
         "nome": "Additional Limb",
         "construcao_3e": "Extra Limbs 1.",
         "custo_2e_pp": 1,
-        "custo_3e_pp": 1
+        "custo_3e_pp": 1,
+        "nome_pt": "Língua Preênsil"
       },
       {
         "nome": "Elongation",
         "construcao_3e": "Elongation 2 (Limited: Tongue).",
         "custo_2e_pp": 1,
-        "custo_3e_pp": 1
+        "custo_3e_pp": 1,
+        "nome_pt": "Alongamento da Língua"
       },
       {
         "nome": "Leaping",
         "construcao_3e": "Leaping 3.",
         "custo_2e_pp": 3,
         "custo_3e_pp": 3,
-        "nome_pt": "Salto"
+        "nome_pt": "Super-Salto"
       },
       {
         "nome": "Paralyze",
-        "construcao_3e": "Affliction (paralisado como terceiro grau) (rank 2e 8); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Paralyze 8 (Extra: Alternate Save: Fortitude [+0], Ranged [+1]; 24pp); custo 2e impresso 24 PP.",
+        "construcao_3e": "Aflição 8 (Resistida e Superada por Fortitude; Dazed, Stunned, Paralyzed; À Distância [+1/graduação], Cumulativo [+1/graduação] = 24 PP).",
         "custo_2e_pp": 24,
-        "custo_3e_pp": null
+        "custo_3e_pp": 24,
+        "nome_pt": "Cuspe Paralisante"
       }
     ],
     "equipamento": [],
@@ -106,13 +109,11 @@
   },
   "custos_3e": {
     "habilidades": 80,
+    "poderes": 29,
     "defesas": 14,
     "pericias": 58.5,
     "vantagens": 18,
-    "poderes_conhecidos": 5,
-    "subtotal_conhecido": 175.5,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 199.5
   },
   "notas_conversao": [
     "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
@@ -125,6 +126,7 @@
     "Defesas reduzidas por limite de NP 10: Esquiva 24→14 e Aparar 14→14; cada defesa ativa + Resistência 6 ≤ 20.",
     "Unarmed: efeito ajustado de 6 para 2 para cumprir Ataque + efeito ≤ 20.",
     "Subtotal 3e conhecido: 80 PP em habilidades, 117 em perícias, 42 em defesas, 18 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
-    "Correção de custo: as perícias somam 117 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 117 para 58.5 PP (subtotal e totais ajustados em -58.5)."
+    "Correção de custo: as perícias somam 117 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 117 para 58.5 PP (subtotal e totais ajustados em -58.5).",
+    "Poderes fechados em 3e: Cuspe Paralisante (24 PP) + Membro (1 PP) + Alongamento (1 PP) + Salto (3 PP) = 29 PP poderes. Total 3e: 199.5 PP."
   ]
 }

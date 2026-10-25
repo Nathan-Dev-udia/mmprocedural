@@ -25,5 +25,6 @@
     "defesas": "Dodge 7 Fortitude 7 Parry 6 Toughness 15/12* Will 7 *Without Enhanced Magnetic Force-Field.",
     "pontos_poder": "Abilities 42 Skills 35 Powers 83 Defenses 18 Advantages 4 ToTal 182",
     "complicacoes": "Eroding Sanity: His magnetic powers slowly sap Neal Emerson’s Awareness and Will. He is also susceptible to telepathy powers. Magnetic: Doctor Polaris is basically a living magnet, and as such he functions like one, losing his “charge” when exposed to extreme heat, recharging with kinetic energy, susceptible to magnetic fields, etc. Split Personality: Doctor Polaris is a second personality within Neal Emerson. Both personalities wrestle for control."
-  }
+  },
+  "nome_pt": "Doctor Polaris"
 }

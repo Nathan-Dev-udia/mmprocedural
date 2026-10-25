@@ -5,7 +5,7 @@
   "nome_pt": "Miss Marvel",
   "nivel_poder": 11,
   "pontos_poder_origem": 180,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 182.5,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -47,44 +47,45 @@
     "poderes": [
       {
         "nome": "Absorption",
-        "construcao_3e": "Absorption 8 (Energy), Boost Blast; 32 PP na fonte.",
+        "construcao_3e": "Absorção Fotônica: Imunidade a Dano de Energia 20 (Limitada a metade do efeito; 10 PP), Dano à Distância 10 (Fótons; 20 PP) e Esforço Supremo (2 PP) = 32 PP.",
         "custo_2e_pp": 32,
-        "custo_3e_pp": null
+        "custo_3e_pp": 32,
+        "nome_pt": "Absorção Fotônica e Projeção de Energia"
       },
       {
         "nome": "Enhanced Strength",
-        "construcao_3e": "Enhanced Trait: Strength 11 (para elevar o valor base 1 ao valor final 12).",
+        "construcao_3e": "Característica Aprimorada: Força 11 (22 PP).",
         "custo_2e_pp": 22,
         "custo_3e_pp": 22,
-        "nome_pt": "Força Aumentada"
+        "nome_pt": "Força Aumentada Kree"
       },
       {
         "nome": "Enhanced Constitution",
-        "construcao_3e": "Enhanced Trait: Stamina 11 (para elevar o valor base 1 ao valor final 12).",
+        "construcao_3e": "Característica Aprimorada: Vigor 11 (22 PP).",
         "custo_2e_pp": 22,
         "custo_3e_pp": 22,
-        "nome_pt": "Vigor Aumentado"
+        "nome_pt": "Vigor Aumentado Kree"
       },
       {
         "nome": "Flight",
-        "construcao_3e": "Flight 4.",
+        "construcao_3e": "Voo 4 (8 PP).",
         "custo_2e_pp": 8,
         "custo_3e_pp": 8,
-        "nome_pt": "Voo"
+        "nome_pt": "Voo Supersônico"
       },
       {
         "nome": "Immunity",
-        "construcao_3e": "Immunity 9 (Life Support).",
+        "construcao_3e": "Imunidade 9 (Suporte Vital Completo; 9 PP).",
         "custo_2e_pp": 9,
-        "custo_3e_pp": null,
-        "nome_pt": "Imunidade"
+        "custo_3e_pp": 9,
+        "nome_pt": "Imunidade (Suporte Vital Espacial)"
       },
       {
         "nome": "Super-Strength",
-        "construcao_3e": "Power-Lifting 3.",
+        "construcao_3e": "Super-Força / Power-Lifting 3 (3 PP).",
         "custo_2e_pp": 6,
         "custo_3e_pp": 3,
-        "nome_pt": "Super-Força"
+        "nome_pt": "Super-Força / Power-Lifting"
       }
     ],
     "equipamento": [],
@@ -116,17 +117,16 @@
   },
   "custos_3e": {
     "habilidades_base": 34,
+    "poderes": 96,
     "defesas": 21,
     "pericias": 26.5,
     "vantagens": 5,
-    "poderes_conhecidos": 55,
-    "subtotal_conhecido": 141.5,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 182.5
   },
   "notas_conversao": [
     "Attack Specialization (Unarmed) 2 convertido em Close Combat: Desarmado 4. Dodge Focus 4 foi convertido em graduações de Dodge; o valor foi limitado a 12 para respeitar NP 11 com Toughness 10.",
     "A fonte lista Mimic-like strength boosts junto a Absorption; os valores foram preservados sem recalcular os efeitos.",
-    "Dodge foi ajustada de 14 para 12 para cumprir Dodge + Toughness ≤ 22 (NP 11)."
+    "Dodge foi ajustada de 14 para 12 para cumprir Dodge + Toughness ≤ 22 (NP 11).",
+    "Poderes convertidos e fechados para M&M 3e (Lote 7). Absorção e projeção fotônica, voo supersônico, suporte vital e atributos Kree ampliados consolidados."
   ]
-}
+}

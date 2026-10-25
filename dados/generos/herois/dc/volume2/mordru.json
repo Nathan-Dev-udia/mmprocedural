@@ -1,26 +1,27 @@
-{
-  "nome": "Mordru",
-  "sistema": "DC Adventures / Mutants & Masterminds 3e",
-  "nivel_poder": 16,
-  "pontos_poder_publicados": 304,
-  "fonte": {
-    "arquivo": "dc adventures heroes and villains vol 2.pdf",
-    "pagina_pdf": 70
-  },
-  "ficha_publicada": {
-    "habilidades": {
-      "STR": "4",
-      "STA": "4",
-      "AGL": "2",
-      "DEX": "4",
-      "FGT": "1",
-      "INT": "10",
-      "AWE": "5",
-      "PRE": "5"
-    },
-    "poderes": "of the other sorcerors. One of Mordru’s apprentices, the White Witch, manages to escape before he can steal her powers and joins the Legion of Super-Heroes. Styling himself “the Dark Lord, ” Mordru created an interstellar empire. He desired to conquer Earth but the LSH stood in his way, defeating his fleet and imprisoning him in a vault. Later,",
-    "pericias": "Close Combat 10 (+11), Expertise: Magic 12 (+22), Insight 8 (+13), Intimidation 10 (+15), Perception 10 (+15), Ranged Combat: Sorcery 12 (+16) ffen S e o i nitia tive +10 Magic Bolt +16 Ranged, Damage 16 Unarmed +11 Close, Damage 4",
-    "defesas": "d odge 10 f or titude 10 Parry 9 t oughness I mmune Will 14",
-    "pontos_poder": "a bilities 7 0 Skills 31 Powers 164 d efenses 31 a dv antages 8 ToTal 304"
-  }
-}
+{
+  "nome": "Mordru",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 16,
+  "pontos_poder_publicados": 304,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 70
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "4",
+      "STA": "4",
+      "AGL": "2",
+      "DEX": "4",
+      "FGT": "1",
+      "INT": "10",
+      "AWE": "5",
+      "PRE": "5"
+    },
+    "poderes": "of the other sorcerors. One of Mordru’s apprentices, the White Witch, manages to escape before he can steal her powers and joins the Legion of Super-Heroes. Styling himself “the Dark Lord, ” Mordru created an interstellar empire. He desired to conquer Earth but the LSH stood in his way, defeating his fleet and imprisoning him in a vault. Later,",
+    "pericias": "Close Combat 10 (+11), Expertise: Magic 12 (+22), Insight 8 (+13), Intimidation 10 (+15), Perception 10 (+15), Ranged Combat: Sorcery 12 (+16) ffen S e o i nitia tive +10 Magic Bolt +16 Ranged, Damage 16 Unarmed +11 Close, Damage 4",
+    "defesas": "Dodge 10 Fortitude 10 Parry 9 Toughness Immune Will 14",
+    "pontos_poder": "a bilities 7 0 Skills 31 Powers 164 d efenses 31 a dv antages 8 ToTal 304"
+  },
+  "nome_pt": "Mordru"
+}

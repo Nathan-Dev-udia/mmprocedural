@@ -24,5 +24,6 @@
     "ataques": "Initiative +3 Unarmed +8 Close, Damage 2",
     "defesas": "Dodge 8 Fortitude 6 Parry 8 Toughness 6/3* Will 8 *Without Defensive Roll.",
     "pontos_poder": "Abilities 42 Skills 19 Powers 44 Defenses 18 Advantages 14 ToTal 147"
-  }
+  },
+  "nome_pt": "Cigana"
 }

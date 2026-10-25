@@ -5,7 +5,7 @@
   "nome_pt": "Gata Negra",
   "nivel_poder": 9,
   "pontos_poder_origem": 135,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 150,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -56,22 +56,24 @@
     "poderes": [
       {
         "nome": "Black Cat Suit",
-        "construcao_3e": "Device removível: Protection 2; Strength-based Damage 2, Mighty e Improved Critical 2; Movement (Swinging); Fascinate (Deception).",
+        "construcao_3e": "Dispositivo Removível: Proteção 2 (2 PP), Garras Retráteis Dano 2 Penetrante Crítico 2 (5 PP), Balançar em Cabos (1 PP), Atraente (1 PP). Piscina de 9 PP; Removível (-1 PP) = 8 PP.",
         "custo_2e_pp": 8,
-        "custo_3e_pp": null
+        "custo_3e_pp": 8,
+        "nome_pt": "Traje da Gata Negra"
       },
       {
         "nome": "Whip",
-        "construcao_3e": "Device removível: Affliction (Snare) 4; Alternate Effects Strength-based Damage 2 (Mighty, Extended Reach 2), Improved Disarm e Movement (Swinging).",
+        "construcao_3e": "Dispositivo Facilmente Removível: Aflição / Enredar 4 (Snare; 8 PP); Efeitos Alternativos: Dano 2 com Alcance Estendido e Desarmar Aprimorado (1 PP). Piscina de 9 PP; Facilmente Removível (-3 PP) = 6 PP.",
         "custo_2e_pp": 6,
-        "custo_3e_pp": null
+        "custo_3e_pp": 6,
+        "nome_pt": "Chicote de Combate"
       },
       {
         "nome": "Luck Control",
         "construcao_3e": "Luck Control 1 (Jinx).",
         "custo_2e_pp": 3,
         "custo_3e_pp": 3,
-        "nome_pt": "Controle de Sorte"
+        "nome_pt": "Azar / Má Sorte aos Oponentes"
       }
     ],
     "equipamento": [
@@ -105,16 +107,15 @@
     "Dodge Focus 7 foi convertido em Esquiva e reduzido até 12; Esquiva 19 + Resistência 6 excederia o limite de defesa de NP 9. Aparar também foi reduzido de 12 para 9 para respeitar Aparar + Fighting.",
     "Defensive Roll foi mantida como vantagem; a resistência registrada é o valor final com o equipamento e a rolagem defensiva da fonte.",
     "Elusive Target não tem equivalência direta; Sneak Attack foi omitida para não introduzir dano sem custo e sem teste de NP.",
-    "A fonte não lista complicações; nenhuma motivacao foi inferida."
+    "A fonte não lista complicações; nenhuma motivacao foi inferida.",
+    "Poderes fechados em 3e: Traje da Gata (8 PP) + Chicote (6 PP) + Azar (3 PP) = 17 PP poderes. Total 3e: 150 PP."
   ],
   "custos_3e": {
     "habilidades": 52,
+    "poderes": 17,
     "defesas": 16,
     "pericias": 46,
     "vantagens": 19,
-    "poderes_conhecidos": 3,
-    "subtotal_conhecido": 136,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 150
   }
 }

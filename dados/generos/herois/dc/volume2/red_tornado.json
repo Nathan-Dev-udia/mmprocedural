@@ -1,27 +1,29 @@
-{
-  "nome": "Red Tornado",
-  "sistema": "DC Adventures / Mutants & Masterminds 3e",
-  "nivel_poder": 11,
-  "pontos_poder_publicados": 197,
-  "fonte": {
-    "arquivo": "dc adventures heroes and villains vol 2.pdf",
-    "pagina_pdf": 140
-  },
-  "ficha_publicada": {
-    "habilidades": {
-      "STR": "10",
-      "STA": "—",
-      "AGL": "4",
-      "DEX": "3",
-      "FGT": "3",
-      "INT": "2",
-      "AWE": "4",
-      "PRE": "0"
-    },
-    "poderes": "a Protection 13, Impervious 6 • 19 points ndr oid Body: Computer Brain: Immunity 10 (Mental effects) • 10 points f ligh t: 8 (500 MPH) • 16 points Self- r epairing: Regeneration 5 • 5 points t ornado C ontrol : Array (32 points) • t ornado C reation: Perception Ranged Burst Area Move Object 8 • 32 points • a ir Blast Ranged Damage 12, Accurate 3 • 1 point • a ir S hield: Deflect 11 • 1 point • Bend Light: Concealment (All Visual) • 1 point Unaging: Immortality 5 (24 hours) • 5 points Unliving: Immunity 30 (Fortitude effects) • 30 points d a e S a V ant G Eidetic Memory, Evasion, Favored Environment (Aerial), Fearless, Improved Initiative 2",
-    "pericias": "Close Combat: Unarmed 7 (+10), Perception 4 (+8), Technology 10 (+12)",
-    "ataques": "i nitia tive +12 Tornado Blast +9 Ranged, Damage 12 Unarmed +10 Close, Damage 10 efen S e d d odge 8 f or titude Immune Parry 8 t oughness 13 W ill 8",
-    "pontos_poder": "a bilities 42 S kills 11 Powers 125 d efenses 13 a dv antages 6 ToTal 197",
-    "complicacoes": "occasionally arise when Red Tornado is re- built, including the loss of emotions and madness. This causes great stress in his personal life; his wife leaves him and he aban- dons his John Smith persona. Red Tornado overcomes this challenge to reconnect with his wife and daughter."
-  }
-}
+{
+  "nome": "Red Tornado",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": 197,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 140
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "10",
+      "STA": "—",
+      "AGL": "4",
+      "DEX": "3",
+      "FGT": "3",
+      "INT": "2",
+      "AWE": "4",
+      "PRE": "0"
+    },
+    "poderes": "a Protection 13, Impervious 6 • 19 points ndr oid Body: Computer Brain: Immunity 10 (Mental effects) • 10 points f ligh t: 8 (500 MPH) • 16 points Self- r epairing: Regeneration 5 • 5 points t ornado C ontrol : Array (32 points) • t ornado C reation: Perception Ranged Burst Area Move Object 8 • 32 points • a ir Blast Ranged Damage 12, Accurate 3 • 1 point • a ir S hield: Deflect 11 • 1 point • Bend Light: Concealment (All Visual) • 1 point Unaging: Immortality 5 (24 hours) • 5 points Unliving: Immunity 30 (Fortitude effects) • 30 points d a e S a V ant G Eidetic Memory, Evasion, Favored Environment (Aerial), Fearless, Improved Initiative 2",
+    "pericias": "Close Combat: Unarmed 7 (+10), Perception 4 (+8), Technology 10 (+12)",
+    "ataques": "i nitia tive +12 Tornado Blast +9 Ranged, Damage 12 Unarmed +10 Close, Damage 10",
+    "pontos_poder": "a bilities 42 S kills 11 Powers 125 d efenses 13 a dv antages 6 ToTal 197",
+    "complicacoes": "occasionally arise when Red Tornado is re- built, including the loss of emotions and madness. This causes great stress in his personal life; his wife leaves him and he aban- dons his John Smith persona. Red Tornado overcomes this challenge to reconnect with his wife and daughter.",
+    "defesas": "Dodge 8 Fortitude Immune Parry 8 Toughness 13 Will 8"
+  },
+  "nome_pt": "Tornado Vermelho"
+}

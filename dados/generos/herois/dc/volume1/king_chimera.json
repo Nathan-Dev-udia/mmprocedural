@@ -25,5 +25,6 @@
     "defesas": "Dodge 6, Parry 6, Fortitude 5, Toughness 1, Will 8",
     "pontos_poder": "Abilities 38 + Powers 63 + Advantages 5 + Skills 14 + Defenses 15 = 135",
     "complicacoes": "Own Worst Enemy : King Chimera is arrogant, abrasive, self-absorbed, and generally unlikable by most standards."
-  }
+  },
+  "nome_pt": "King Chimera"
 }

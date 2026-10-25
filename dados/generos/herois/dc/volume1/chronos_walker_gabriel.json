@@ -25,5 +25,6 @@
     "ataques": "Initiative +12, Unarmed +6 (Close, Damage 2)",
     "defesas": "Dodge 12, Parry 12, Fortitude 8, Toughness 8/2, Will 8",
     "pontos_poder": "Abilities 48 + Powers 12 + Advantages 22 + Skills 26 + Defenses 29 = 137"
-  }
+  },
+  "nome_pt": "Chronos (Walker Gabriel)"
 }

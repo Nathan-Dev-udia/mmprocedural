@@ -5,7 +5,7 @@
   "nome_pt": "Thanos",
   "nivel_poder": 19,
   "pontos_poder_origem": 330,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 341,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -50,59 +50,59 @@
     "poderes": [
       {
         "nome": "Cosmic Energy Control",
-        "construcao_3e": "Damage à distância (array) (rank 2e 12); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Cosmic Energy Control 12 (Extras: Penetrating [+1]; Alternate Powers: Teleport; 37pp) Componentes/efeitos alternativos mapeados: Teleport → Teleport.; custo 2e impresso 37 PP.",
+        "construcao_3e": "Array de Energia Cósmica: Dano Cósmico à Distância 12 Penetrante 12 (36 PP); Efeito Alternativo: Teletransporte 12 (1 PP) = 37 PP.",
         "custo_2e_pp": 37,
-        "custo_3e_pp": null,
-        "nome_pt": "Controle de Energia Cósmica"
+        "custo_3e_pp": 37,
+        "nome_pt": "Controle de Energia Cósmica e Teletransporte"
       },
       {
         "nome": "Immunity",
-        "construcao_3e": "Immunity (rank 2e 10); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Immunity 10 (Life Support, and Age; 10pp); custo 2e impresso 10 PP.",
+        "construcao_3e": "Imunidade 10 (Suporte Vital Completo e Envelhecimento; 10 PP).",
         "custo_2e_pp": 10,
-        "custo_3e_pp": null,
-        "nome_pt": "Imunidade"
+        "custo_3e_pp": 10,
+        "nome_pt": "Imunidade de Eterno (Suporte Vital e Idade)"
       },
       {
         "nome": "Impervious Toughness",
-        "construcao_3e": "Impervious Toughness 10.",
+        "construcao_3e": "Resistência Impenetrável 10 (10 PP).",
         "custo_2e_pp": 10,
         "custo_3e_pp": 10,
-        "nome_pt": "Resistência Impenetrável"
+        "nome_pt": "Resistência Titânica Impenetrável"
       },
       {
         "nome": "Protection",
-        "construcao_3e": "Protection 3, Impervious.",
+        "construcao_3e": "Proteção 3 Impenetrável 3 (6 PP).",
         "custo_2e_pp": 6,
         "custo_3e_pp": 6,
-        "nome_pt": "Proteção"
+        "nome_pt": "Proteção Fisiológica"
       },
       {
         "nome": "Regeneration",
-        "construcao_3e": "Immortality 10.",
+        "construcao_3e": "Imortalidade 10 (Retorno em minutos; 20 PP).",
         "custo_2e_pp": 10,
         "custo_3e_pp": 20,
-        "nome_pt": "Regeneração"
+        "nome_pt": "Imortalidade (Rejeitado pela Morte)"
       },
       {
         "nome": "Super Movement",
-        "construcao_3e": "Movement 3 (Dimensional Travel 3).",
+        "construcao_3e": "Movimento 3 (Viagem Dimensional 3; 6 PP).",
         "custo_2e_pp": 6,
         "custo_3e_pp": 6,
-        "nome_pt": "Super-Movimento"
+        "nome_pt": "Viagem Interdimensional"
       },
       {
         "nome": "Super Senses",
-        "construcao_3e": "Senses 6 (Detect Cosmic Energy, Extended 5).",
+        "construcao_3e": "Sentidos 6 (Detectar Energia Cósmica, Estendido 5; 6 PP).",
         "custo_2e_pp": 6,
         "custo_3e_pp": 6,
-        "nome_pt": "Super-Sentidos"
+        "nome_pt": "Percepção Cósmica"
       },
       {
         "nome": "Super Strength",
-        "construcao_3e": "Power-Lifting 13.",
+        "construcao_3e": "Super-Força / Power-Lifting 13 (13 PP).",
         "custo_2e_pp": 26,
         "custo_3e_pp": 13,
-        "nome_pt": "Super-Força"
+        "nome_pt": "Super-Força Colossal"
       }
     ],
     "equipamento": [],
@@ -131,13 +131,11 @@
   },
   "custos_3e": {
     "habilidades": 156,
+    "poderes": 108,
     "defesas": 29,
     "pericias": 38,
     "vantagens": 10,
-    "poderes_conhecidos": 61,
-    "subtotal_conhecido": 294,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 341
   },
   "notas_conversao": [
     "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
@@ -151,6 +149,7 @@
     "Fortitude ajustada de 20 para 18 para respeitar Fortitude + Vontade ≤ 38.",
     "Unarmed: efeito ajustado de 22 para 18 para cumprir Ataque + efeito ≤ 38.",
     "Subtotal 3e conhecido: 156 PP em habilidades, 76 em perícias, 91 em defesas, 10 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
-    "Correção de custo: as perícias somam 76 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 76 para 38 PP (subtotal e totais ajustados em -38)."
+    "Correção de custo: as perícias somam 76 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 76 para 38 PP (subtotal e totais ajustados em -38).",
+    "Poderes convertidos e fechados para M&M 3e (Lote 8). Projeção de energia cósmica penetrante, teletransporte, imortalidade da Morte, resistência titânica, viagem interdimensional e super-força colossal consolidados."
   ]
-}
+}

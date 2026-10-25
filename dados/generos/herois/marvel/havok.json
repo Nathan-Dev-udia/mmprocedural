@@ -2,10 +2,10 @@
   "edicao_origem": "Mutants & Masterminds 2e",
   "edicao_destino": "Mutants & Masterminds 3e",
   "nome": "Havok",
-  "nome_pt": "Havok",
+  "nome_pt": "Destrutor",
   "nivel_poder": 10,
   "pontos_poder_origem": 150,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 153,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -57,23 +57,24 @@
     "poderes": [
       {
         "nome": "Cosmic Energy Control",
-        "construcao_3e": "Ranged Damage 12 (Penetrating, Uncontrolled); Alternate Effects: Uncontrolled Disintegration 8 and Uncontrolled Explosion Area Damage 10 (centrado em si mesmo).",
+        "construcao_3e": "Dano Cósmico à Distância 12 (Penetrante; 24 PP); Efeitos Alternativos: Desintegração Cósmica 8 (1 PP), Explosão Cósmica em Área 10 centrada em si (1 PP). Array total: 26 PP.",
         "custo_2e_pp": 26,
-        "custo_3e_pp": null,
+        "custo_3e_pp": 26,
         "nome_pt": "Controle de Energia Cósmica"
       },
       {
         "nome": "Containment Suit",
-        "construcao_3e": "Device (Removable): removes Uncontrolled from the energy powers; Protection 3.",
+        "construcao_3e": "Dispositivo Removível: Remove a falha Incontrolável da energia cósmica (9 PP) + Proteção 3 (3 PP) = 12 PP.",
         "custo_2e_pp": 12,
-        "custo_3e_pp": null
+        "custo_3e_pp": 12,
+        "nome_pt": "Traje de Contenção"
       },
       {
         "nome": "Immunity",
         "construcao_3e": "Immunity 1 (Cyclops' powers).",
         "custo_2e_pp": 1,
         "custo_3e_pp": 1,
-        "nome_pt": "Imunidade"
+        "nome_pt": "Imunidade aos Poderes do Ciclope"
       }
     ],
     "equipamento": [],
@@ -100,18 +101,17 @@
   },
   "custos_3e": {
     "habilidades": 40,
+    "poderes": 39,
     "defesas": 27,
     "pericias": 30,
     "vantagens": 17,
-    "poderes_conhecidos": 1,
-    "subtotal_conhecido": 115,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 153
   },
   "notas_conversao": [
     "Toughness +7/+6 foi preservada como Resistência ativa 7 (base +6) com Defensive Roll 2; Esquiva/Aparar foram limitadas para respeitar NP 10. Os poderes incontrolados e o traje que remove essa falha foram preservados conforme a fonte.",
     "Defesas ajustadas para Esquiva 13 e Aparar 13, respeitando os limites de NP 10 com Resistência 7.",
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
-    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados.",
+    "Poderes fechados em 3e: Energia Cósmica (26 PP) + Traje (12 PP) + Imunidade (1 PP) = 39 PP poderes. Total 3e: 153 PP."
   ]
 }

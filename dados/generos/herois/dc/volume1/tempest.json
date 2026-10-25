@@ -24,5 +24,6 @@
     "ataques": "Initiative +3, Magic Blast +9 (Damage 11), Unarmed +9 (Damage 9)",
     "defesas": "Dodge 11, Parry 11, Fortitude 9, Toughness 9, Will 11",
     "pontos_poder": "Abilities 76 + Powers 39 + Advantages 5 + Skills 20 + Defenses 20 = 160"
-  }
+  },
+  "nome_pt": "Tempest"
 }

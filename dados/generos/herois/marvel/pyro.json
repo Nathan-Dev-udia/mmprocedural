@@ -5,7 +5,7 @@
   "nome_pt": "Pyro",
   "nivel_poder": 9,
   "pontos_poder_origem": 135,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 141,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -52,22 +52,24 @@
     "poderes": [
       {
         "nome": "Custom Flamethrower",
-        "construcao_3e": "Removable Device: Blast 9, Line Area, Split Attack.",
+        "construcao_3e": "Dispositivo Removível: Dano à Distância 9 em Linha de Área (18 PP) + Ataque Dividido 2 (2 PP) + Crítico Aprimorado 2 (2 PP) + Efeito Secundário (8 PP) = 30 PP pool; Removível (-6 PP) = 24 PP.",
         "custo_2e_pp": 24,
-        "custo_3e_pp": null
+        "custo_3e_pp": 24,
+        "nome_pt": "Lança-Chamas Sob Medida"
       },
       {
         "nome": "Element Control (Fire) 9",
-        "construcao_3e": "Array: Blast, Create, Flight; Homing 2, Accurate 2.",
+        "construcao_3e": "Array de Pirocinese: Dano à Distância 9, Perseguidor 2, Acurado 2 (22 PP); Efeitos Alternativos: Criar Chamas Móveis 9 (1 PP), Dano em Cone de Fogo 9 (1 PP), Plataforma Flamejante / Voo 5 (1 PP) = 25 PP.",
         "custo_2e_pp": 25,
-        "custo_3e_pp": null
+        "custo_3e_pp": 25,
+        "nome_pt": "Controle do Fogo (Pirocinese)"
       },
       {
         "nome": "Immunity 1",
-        "construcao_3e": "Immunity ao próprios poderes.",
+        "construcao_3e": "Imunidade 1 (Próprios Poderes de Fogo; 1 PP).",
         "custo_2e_pp": 1,
         "custo_3e_pp": 1,
-        "nome_pt": "Imunidade 1"
+        "nome_pt": "Imunidade ao Próprio Fogo"
       }
     ],
     "equipamento": [
@@ -102,13 +104,11 @@
   },
   "custos_3e": {
     "habilidades": 26,
+    "poderes": 50,
     "defesas": 29,
     "pericias": 24,
     "vantagens": 12,
-    "poderes_conhecidos": 1,
-    "subtotal_conhecido": 92,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 141
   },
   "notas_conversao": [
     "Dodge Focus 4 foi convertido em Esquiva e reduzido a 11; não houve outras remoções além deste ajuste de NP.",
@@ -116,6 +116,7 @@
     "Com Resistência 7, Esquiva/Aparar foram limitadas a 11 (11 + 7 = 18). Ataques de Blast 9 com bônus +9 chegam ao limite de PL 9.",
     "O bônus de Toughness da Flame Suit está listado como equipamento e não foi somado novamente à Resistência já impressa.",
     "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +1/+2/+1/+1/-1/+2. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
-    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
+    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos.",
+    "Poderes convertidos e fechados para M&M 3e (Lote 6). Lança-Chamas como dispositivo removível, Array de Pirocinese e Imunidade ao próprio fogo consolidados."
   ]
-}
+}

@@ -24,5 +24,6 @@
     "ataques": "Initiative +4, Unarmed +10 (Damage 9)",
     "defesas": "Dodge 12, Parry 12, Fortitude 11, Toughness 8, Will 9",
     "pontos_poder": "Abilities 76 + Powers 44 + Advantages 8 + Skills 10 + Defenses 22 = 160"
-  }
+  },
+  "nome_pt": "Mera"
 }

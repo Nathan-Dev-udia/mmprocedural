@@ -56,7 +56,8 @@ def _resumo_marvel(caminho, dados):
 
 
 def _resumo_dc(caminho, dados):
-    return {"id": f"dc/{caminho.parent.name}/{caminho.stem}", "editora": "dc", "nome": dados["nome"], "nome_pt": "",
+    return {"id": f"dc/{caminho.parent.name}/{caminho.stem}", "editora": "dc", "nome": dados["nome"],
+            "nome_pt": dados.get("nome_pt") if dados.get("nome_pt") != dados["nome"] else "",
             "np": dados.get("nivel_poder"), "pp": dados.get("pontos_poder_publicados"), "pp_rotulo": "PP",
             "volume": VOLUMES_DC.get(caminho.parent.name, caminho.parent.name),
             # A página distingue versões do mesmo personagem (Tempest na p. 24 e na p. 185 do Vol. I).

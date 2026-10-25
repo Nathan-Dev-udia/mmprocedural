@@ -2,10 +2,10 @@
   "edicao_origem": "Mutants & Masterminds 2e",
   "edicao_destino": "Mutants & Masterminds 3e",
   "nome": "Cyclops",
-  "nome_pt": "Cyclops",
+  "nome_pt": "Ciclope",
   "nivel_poder": 10,
   "pontos_poder_origem": 165,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 168,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -53,22 +53,24 @@
     "poderes": [
       {
         "nome": "Optic Blast / Deflect",
-        "construcao_3e": "Blast 12 (Penetrating, Concentration, Uncontrolled); Alternate Effects: Deflect (todos os ataques à distância, ação de movimento) and Blast 10 (Concentration, Line Area, Uncontrolled).",
+        "construcao_3e": "Dano à Distância 12 (Penetrante, Duração Concentração; 36 PP); Efeitos Alternativos: Deflexão 10 (1 PP), Rajada em Linha de Área 10 (1 PP). Array total: 38 PP.",
         "custo_2e_pp": 38,
-        "custo_3e_pp": null
+        "custo_3e_pp": 38,
+        "nome_pt": "Rajada Óptica e Deflexão"
       },
       {
         "nome": "Immunity",
         "construcao_3e": "Immunity 1 (Havok's powers).",
         "custo_2e_pp": 1,
         "custo_3e_pp": 1,
-        "nome_pt": "Imunidade"
+        "nome_pt": "Imunidade aos Poderes do Destrutor"
       },
       {
         "nome": "Visor",
-        "construcao_3e": "Device (removível): removes Uncontrolled from Blast; Accurate Attack, Improved Aim, Precise Shot 2, Ultimate Effort (Ultimate Aim).",
+        "construcao_3e": "Dispositivo Facilmente Removível: Remove a falha Incontrolável da Rajada Óptica (7 PP) + Vantagens Aprimoradas (Ataque Acurado, Mira Aprimorada, Ataque Preciso 2, Esforço Supremo; 5 PP). Total: 12 PP.",
         "custo_2e_pp": 12,
-        "custo_3e_pp": null
+        "custo_3e_pp": 12,
+        "nome_pt": "Visor de Quartzo-Rubi"
       }
     ],
     "equipamento": [
@@ -98,18 +100,17 @@
   },
   "custos_3e": {
     "habilidades": 50,
+    "poderes": 51,
     "defesas": 27,
     "pericias": 25,
     "vantagens": 15,
-    "poderes_conhecidos": 1,
-    "subtotal_conhecido": 118,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 168
   },
   "notas_conversao": [
     "O valor de Toughness foi extraído como “+/+5”; +5 é o único valor legível e Defensive Roll 2 pode elevar a Resistência ativa a +7. Esquiva e Aparar foram limitadas a 13 para respeitar NP 10 com Resistência ativa 7. O ataque +8 e dano +12 do Optic Blast foram preservados (total 20).",
     "Defesas ajustadas para Esquiva 13 e Aparar 13, respeitando os limites de NP 10 com Resistência 7.",
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
-    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados.",
+    "Poderes fechados em 3e: Rajada Óptica (38 PP) + Imunidade (1 PP) + Visor (12 PP) = 51 PP poderes. Total 3e: 168 PP."
   ]
 }

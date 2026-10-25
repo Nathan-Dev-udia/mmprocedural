@@ -23,5 +23,6 @@
     "ataques": "Initiative +9, Unarmed +19 (Close Damage 3, Crit. 18-20)",
     "defesas": "Dodge 15, Parry 15, Fortitude 8, Toughness 7/3*, Will 12 *without Defensive Roll",
     "pontos_poder": "Abilities 80 + Powers 0 + Advantages 36 + Skills 47 + Defenses 22 = 185"
-  }
+  },
+  "nome_pt": "Richard Dragon"
 }

@@ -1,26 +1,29 @@
-{
-  "nome": "Professor Ivo",
-  "sistema": "DC Adventures / Mutants & Masterminds 3e",
-  "nivel_poder": 11,
-  "pontos_poder_publicados": null,
-  "fonte": {
-    "arquivo": "dc adventures heroes and villains vol 2.pdf",
-    "pagina_pdf": 117
-  },
-  "ficha_publicada": {
-    "habilidades": {
-      "STR": "1",
-      "STA": "2",
-      "AGL": "0",
-      "DEX": "1",
-      "FGT": "0",
-      "INT": "9",
-      "AWE": "4",
-      "PRE": "4"
-    },
-    "poderes": "i Enhanced Advantage 1 (Diehard); Immunity 1 mmor tal: (Aging) • 2 points t oughened f lesh: Impervious Protection 10 • 20 points",
-    "vantagens": "Benefit 2 (Independently Wealthy), Diehard , Improvised Tools, Inventor, Minion 48 (6 120-point Robots), Ultimate Skill (Expertise: Robotics)",
-    "pericias": "Close Combat: Unarmed 3 (+3), Expertise: Astronomy 8 (+17), Expertise: Robotics 11 (+20), Expertise: Science 8 (+17), Technology 8 (+17), Treatment 2 (+11) ffen S e o i nitia tive +0 Unarmed +3 Close, Damage 1 efen S e d d odge 9 f or titude 8 Parry 9 t oughness 12 W ill 10 Po er Point W S a bilities 42 S kills 20 Powers 22 d efenses 30 a dv antages 53 ToTal 167",
-    "complicacoes": "o bsession: Ivo wants nothing more than to be cured of the disfigurement caused by the immortality serum. Phobia: Ivo has a crippling fear of death, which paradoxically compelled him to take the deforming immortality serum again, even after its effects had been reversed."
-  }
-}
+{
+  "nome": "Professor Ivo",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 11,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 117
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "2",
+      "AGL": "0",
+      "DEX": "1",
+      "FGT": "0",
+      "INT": "9",
+      "AWE": "4",
+      "PRE": "4"
+    },
+    "poderes": "i Enhanced Advantage 1 (Diehard); Immunity 1 mmor tal: (Aging) • 2 points t oughened f lesh: Impervious Protection 10 • 20 points",
+    "vantagens": "Benefit 2 (Independently Wealthy), Diehard , Improvised Tools, Inventor, Minion 48 (6 120-point Robots), Ultimate Skill (Expertise: Robotics)",
+    "pericias": "Close Combat: Unarmed 3 (+3), Expertise: Astronomy 8 (+17), Expertise: Robotics 11 (+20), Expertise: Science 8 (+17), Technology 8 (+17), Treatment 2 (+11) ffen S e o i nitia tive +0 Unarmed +3 Close, Damage 1",
+    "complicacoes": "o bsession: Ivo wants nothing more than to be cured of the disfigurement caused by the immortality serum. Phobia: Ivo has a crippling fear of death, which paradoxically compelled him to take the deforming immortality serum again, even after its effects had been reversed.",
+    "defesas": "Dodge 9 Fortitude 8 Parry 9 Toughness 12 Will 10",
+    "pontos_poder": "Po er Point W S a bilities 42 S kills 20 Powers 22 d efenses 30 a dv antages 53 ToTal 167"
+  },
+  "nome_pt": "Professor Ivo"
+}

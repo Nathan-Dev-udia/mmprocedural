@@ -25,5 +25,6 @@
     "defesas": "Dodge 12 Fortitude 8 Parry 8 Toughness 10 Will 10",
     "pontos_poder": "Abilities 60 Skills 26 Powers 72 Defenses 24 Advantages 7 ToTal 189",
     "complicacoes": "powers and the Expertise: Magic skill. Stressful Magic: Concentration effects and rituals that last too long, catastrophic failures or incredible successes may cause Enchantress to lose control and become evil."
-  }
+  },
+  "nome_pt": "Magia"
 }

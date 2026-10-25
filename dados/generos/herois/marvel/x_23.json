@@ -5,7 +5,7 @@
   "nome_pt": "X-23",
   "nivel_poder": 10,
   "pontos_poder_origem": 135,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 161.5,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -49,38 +49,38 @@
     "poderes": [
       {
         "nome": "Immunity",
-        "construcao_3e": "Immunity 1 (Aging).",
+        "construcao_3e": "Imunidade 1 (Envelhecimento; 1 PP).",
         "custo_2e_pp": 1,
         "custo_3e_pp": 1,
-        "nome_pt": "Imunidade"
+        "nome_pt": "Imunidade (Envelhecimento)"
       },
       {
         "nome": "Protection",
-        "construcao_3e": "Protection 4, Innate.",
+        "construcao_3e": "Proteção 4 Inata (5 PP).",
         "custo_2e_pp": 5,
         "custo_3e_pp": 5,
-        "nome_pt": "Proteção"
+        "nome_pt": "Físico Mutante Robusto (Proteção)"
       },
       {
         "nome": "Strike",
-        "construcao_3e": "Damage (rank 2e 4); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Strike 4 (Power feats: Mighty, Quick Draw; Extra: Penetrating [+1] 6; Alternate Power: Strike 4 (Quickdraw, Mighty; Extra: Auto-Fire [+1]); 13pp); custo 2e impresso 13 PP.",
+        "construcao_3e": "Dano 4 Baseado em Força, Penetrante 6, Saque Rápido, Crítico Aprimorado (12 PP); Efeito Alternativo: Dano Multiatirador / Fúria de Ataques 4 (1 PP) = 13 PP.",
         "custo_2e_pp": 13,
-        "custo_3e_pp": null,
-        "nome_pt": "Golpe"
+        "custo_3e_pp": 13,
+        "nome_pt": "Garras de Adamantium (Mãos e Pés)"
       },
       {
         "nome": "Super Senses",
-        "construcao_3e": "Senses 5 (Scent [Extended, Accurate], Tracking).",
+        "construcao_3e": "Sentidos 5 (Faro [Aguçado, Acurado, Estendido], Rastrear pelo Faro; 5 PP).",
         "custo_2e_pp": 5,
         "custo_3e_pp": 5,
-        "nome_pt": "Super-Sentidos"
+        "nome_pt": "Super-Sentidos Ferais"
       },
       {
         "nome": "Regeneration",
-        "construcao_3e": "Regeneration (Resurrection → Immortality) (rank 2e 29); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Regeneration 29 (Recovery Rate: 17; Bruised 3, Unconscious 3, Injured 4, Staggered 4, Disabled 6; Ability Damage: 5, Resurrection 4; Power Feat: Regrowth; 30pp); custo 2e impresso 30 PP.",
+        "construcao_3e": "Regeneração 15 (15 PP) + Imortalidade 5 (Retorno em 1 dia; 10 PP) + Recrescimento (1 PP) + Imunidade a Doenças (4 PP) = 30 PP (custo original da fonte preservado).",
         "custo_2e_pp": 30,
-        "custo_3e_pp": null,
-        "nome_pt": "Regeneração"
+        "custo_3e_pp": 30,
+        "nome_pt": "Fator de Cura Acelerado"
       }
     ],
     "equipamento": [],
@@ -105,13 +105,11 @@
   },
   "custos_3e": {
     "habilidades": 54,
+    "poderes": 54,
     "defesas": 18,
     "pericias": 29.5,
     "vantagens": 6,
-    "poderes_conhecidos": 11,
-    "subtotal_conhecido": 118.5,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 161.5
   },
   "notas_conversao": [
     "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
@@ -123,6 +121,7 @@
     "Dodge Focus 8 foi convertido em ranks de Esquiva: base 11 + 8 = 19; valor final 11.",
     "Defesas reduzidas por limite de NP 10: Esquiva 19→11 e Aparar 11→11; cada defesa ativa + Resistência 9 ≤ 20.",
     "Subtotal 3e conhecido: 54 PP em habilidades, 59 em perícias, 46 em defesas, 6 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
-    "Correção de custo: as perícias somam 59 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 59 para 29.5 PP (subtotal e totais ajustados em -29.5)."
+    "Correção de custo: as perícias somam 59 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 59 para 29.5 PP (subtotal e totais ajustados em -29.5).",
+    "Poderes convertidos e fechados para M&M 3e (Lote 8). Garras de adamantium nos pés e mãos, fator de cura acelerado com imortalidade, sentidos ferais e físico mutante robusto consolidados."
   ]
-}
+}

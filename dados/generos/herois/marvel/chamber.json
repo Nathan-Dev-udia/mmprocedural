@@ -2,10 +2,10 @@
   "edicao_origem": "Mutants & Masterminds 2e",
   "edicao_destino": "Mutants & Masterminds 3e",
   "nome": "Chamber",
-  "nome_pt": "Chamber",
+  "nome_pt": "Câmara",
   "nivel_poder": 10,
   "pontos_poder_origem": 150,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 163.5,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -46,24 +46,24 @@
     "poderes": [
       {
         "nome": "Blast",
-        "construcao_3e": "Damage 10 (Shapeable Area, Concentration, Incurable).",
+        "construcao_3e": "Dano à Distância 10 (Área Moldável, Concentração, Incurável; 41 PP na fonte).",
         "custo_2e_pp": 41,
-        "custo_3e_pp": null,
-        "nome_pt": "Rajada de Energia"
+        "custo_3e_pp": 41,
+        "nome_pt": "Rajada de Energia Psiônica"
       },
       {
         "nome": "Immunity",
-        "construcao_3e": "Immunity 30 (Fortitude effects).",
+        "construcao_3e": "Imunidade 30 (Efeitos de Fortitude; 30 PP).",
         "custo_2e_pp": 30,
         "custo_3e_pp": 30,
-        "nome_pt": "Imunidade"
+        "nome_pt": "Imunidade Biológica (Efeitos de Fortitude)"
       },
       {
         "nome": "Telepathy / Communication",
-        "construcao_3e": "Mind Reading 4; Alternate Effect: Mental Communication 8.",
+        "construcao_3e": "Leitura Mental 4 (8 PP); Efeito Alternativo: Comunicação Mental 8 (1 PP) = 9 PP.",
         "custo_2e_pp": 9,
-        "custo_3e_pp": null,
-        "nome_pt": "Telepatia / Communication"
+        "custo_3e_pp": 9,
+        "nome_pt": "Telepatia e Comunicação Mental"
       }
     ],
     "equipamento": [],
@@ -92,18 +92,17 @@
   },
   "custos_3e": {
     "habilidades": 26,
+    "poderes": 80,
     "defesas": 28,
     "pericias": 27.5,
     "vantagens": 2,
-    "poderes_conhecidos": 30,
-    "subtotal_conhecido": 113.5,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 163.5
   },
   "notas_conversao": [
     "A fonte imprime travessões para Constituição e Fortitude; ambos os valores são indisponíveis e permanecem null. Portanto, Fortitude + Vontade não pode ser validado e legal fica false até que a defesa ausente seja determinada. Dodge Focus 8 foi convertido em Esquiva, reduzida para respeitar o limite de NP 10. Attack Specialization (Unarmed) 2 equivale a 4 graduações de Combate Corpo a Corpo: Desarmado. Fearsome Presence foi removida, sem inventar um poder substituto.",
     "Defesas ajustadas para Esquiva 14 e Aparar 14, respeitando os limites de NP 10 com Resistência 6.",
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
-    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados.",
+    "Poderes convertidos e fechados para M&M 3e (Lote 7). Rajada psiônica no peito, imunidade a efeitos de Fortitude e comunicação mental telepática consolidados."
   ]
-}
+}

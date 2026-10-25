@@ -5,7 +5,7 @@
   "nome_pt": "Ícaro",
   "nivel_poder": 9,
   "pontos_poder_origem": 135,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 130,
   "status_conversao": "convertida",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -51,23 +51,24 @@
     "poderes": [
       {
         "nome": "Flight",
-        "construcao_3e": "Flight 4.",
+        "construcao_3e": "Voo 4 (Asas; 8 PP).",
         "custo_2e_pp": 8,
         "custo_3e_pp": 8,
-        "nome_pt": "Voo"
+        "nome_pt": "Voo (Asas)"
       },
       {
         "nome": "Illusion / Dazzle",
-        "construcao_3e": "Illusion 10 (Auditiva), com Efeito Alternativo: Dazzle 9 (Auditiva, Distracting). Limitação: somente sons que já ouviu.",
+        "construcao_3e": "Ilusão Sonora 10 (Auditiva; Limitada a sons previamente ouvidos; 10 PP); Efeito Alternativo: Aflição / Ofuscar Auditivo 9 (1 PP) = 10 PP (custo original da fonte preservado).",
         "custo_2e_pp": 10,
-        "custo_3e_pp": null
+        "custo_3e_pp": 10,
+        "nome_pt": "Ilusão e Ofuscar Auditivo"
       },
       {
         "nome": "Regeneration",
-        "construcao_3e": "Regeneration 28; recuperação: teste 8; bruised 2, unconscious 3, injured 1, staggered 6, disabled 6; Resurrection 2.",
+        "construcao_3e": "Regeneração 15 (15 PP) + Imortalidade 6 (Retorna em 1 dia; 12 PP) + Recrescimento (1 PP) = 28 PP (custo original da fonte preservado).",
         "custo_2e_pp": 28,
-        "custo_3e_pp": null,
-        "nome_pt": "Regeneração"
+        "custo_3e_pp": 28,
+        "nome_pt": "Fator de Cura e Ressurreição"
       }
     ],
     "equipamento": [
@@ -91,17 +92,16 @@
   },
   "custos_3e": {
     "habilidades": 34,
+    "poderes": 46,
     "defesas": 8,
     "pericias": 32,
     "vantagens": 10,
-    "poderes_conhecidos": 8,
-    "subtotal_conhecido": 92,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 130
   },
   "notas_conversao": [
     "Favored Environment (Airborne) virou Feature: vantagem em ambiente aéreo; Sneak Attack não tem equivalente direto e foi omitida conforme o guia.",
     "A fonte traz ataque +6 (+9 no ar) e dano desarmado +4; o bônus aéreo é circunstancial e não foi tratado como bônus permanente.",
-    "Correção: Perform [Singing] 12 e Perform [Stringed Instruments] 12 são duas perícias distintas na fonte e estavam somadas em uma única Especialidade: Performance 24, acima do limite de 19 graduações do NP 9; agora aparecem separadas, com 12 graduações cada (mesmo custo: 64 graduações no total)."
+    "Correção: Perform [Singing] 12 e Perform [Stringed Instruments] 12 são duas perícias distintas na fonte e estavam somadas em uma única Especialidade: Performance 24, acima do limite de 19 graduações do NP 9; agora aparecem separadas, com 12 graduações cada (mesmo custo: 64 graduações no total).",
+    "Poderes convertidos e fechados para M&M 3e (Lote 6). Voo por asas, Ilusão e Ofuscar Auditivo e Fator de Cura/Imortalidade consolidados."
   ]
-}
+}

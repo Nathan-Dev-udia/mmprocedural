@@ -5,7 +5,7 @@
   "nome_pt": "Blink",
   "nivel_poder": 10,
   "pontos_poder_origem": 165,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 181.5,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -54,10 +54,10 @@
     "poderes": [
       {
         "nome": "Teleport",
-        "construcao_3e": "Teleport 10, Accurate e Portal; Alternate Effects: Teleport Attack (Ranged) 10, Damage 10 (Autofire) e Deflect (todos os ataques à distância) 10 (Reflection, Free Action).",
+        "construcao_3e": "Teletransporte 10 (Acurado, Portal; 50 PP); Efeitos Alternativos: Ataque de Teletransporte à Distância (1 PP), Adagas de Teletransporte Dano 10 Multiataque (1 PP), Deflexão com Reflexão (1 PP). Array total: 53 PP (custo original da fonte preservado).",
         "custo_2e_pp": 53,
-        "custo_3e_pp": null,
-        "nome_pt": "Teletransporte"
+        "custo_3e_pp": 53,
+        "nome_pt": "Portais e Adagas de Teletransporte"
       }
     ],
     "equipamento": [],
@@ -86,16 +86,15 @@
     "Attack Specialization (Thrown) 2 e (Unarmed) 2 foram convertidas em graduações de Ranged Combat e Close Combat. Os bônus foram ajustados a partir do ataque +10 impresso para cada especialidade.",
     "Dodge Focus 7 foi convertido em Esquiva, mas as graduações excedentes foram removidas para cumprir Esquiva + Resistência 20; Aparar foi reduzido para 10 para respeitar o limite com Fighting 6.",
     "Defensive Roll 5 consta na ficha como vantagem, mas a Resistência 7 representa o valor final impresso; conferir a interacao entre a defesa comprada e o estado vulnerável ao recalcular PP.",
-    "A fonte agrupa Teleport, Teleport Attack, Disintegration e Deflect em um Array. Os Alternate Effects foram mantidos, mas seus custos foram deixados para recálculo em 3e."
+    "A fonte agrupa Teleport, Teleport Attack, Disintegration e Deflect em um Array. Os Alternate Effects foram mantidos, mas seus custos foram deixados para recálculo em 3e.",
+    "Poderes fechados em 3e: Portais de Teletransporte fechado em 53 PP. Total 3e: 181.5 PP."
   ],
   "custos_3e": {
     "habilidades": 44,
+    "poderes": 53,
     "defesas": 21,
     "pericias": 51.5,
     "vantagens": 12,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 128.5,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 181.5
   }
 }

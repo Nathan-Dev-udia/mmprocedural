@@ -56,7 +56,7 @@ def test_pagina_e_consulta():
 def test_pdf_preenche_ficha_da_marvel_e_da_dc():
     from nucleo import herois_pdf
     beast = herois_pdf.campos_do_heroi("marvel/beast")
-    assert beast["Herói"] == "Beast" and beast["Força"] == "6" and beast["Esquiva"] == "9"
+    assert beast["Herói"] in ("Beast", "Fera") and beast["Força"] == "6" and beast["Esquiva"] == "9"
     assert beast["AcrobPer"] == "12" and beast["Total"] == "183"
     adam = herois_pdf.campos_do_heroi("dc/volume1/adam_strange")
     assert adam["Luta"] == "3" and adam["Iniciativa"] == "+6" and adam["Resistência"] == "6"

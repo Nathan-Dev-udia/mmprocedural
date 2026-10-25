@@ -25,5 +25,6 @@
     "ataques": "Initiative +4, Demon’s Fang +19 (Damage 3, Crit 17-20), Fatal Strike +17 (Damage 5), Unarmed +19 (Damage 3)",
     "defesas": "Dodge 10, Parry 10, Fortitude 8, Toughness 10/5*, Will 12 * Without Defensive Roll.",
     "pontos_poder": "Abilities 70 + Powers 2 + Advantages 27 + Skills 50 + Defenses 17 = 166"
-  }
+  },
+  "nome_pt": "O Fantasma Branco"
 }

@@ -2,10 +2,10 @@
   "edicao_origem": "Mutants & Masterminds 2e",
   "edicao_destino": "Mutants & Masterminds 3e",
   "nome": "Strong Guy",
-  "nome_pt": "Strong Guy",
+  "nome_pt": "Fortão",
   "nivel_poder": 10,
   "pontos_poder_origem": 135,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 131.5,
   "status_conversao": "convertida",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -55,37 +55,38 @@
     "poderes": [
       {
         "nome": "Absorption [Physical]",
-        "construcao_3e": "Efeito 3e correspondente ao descritor (rank 2e 3); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Absorption [Physical] 3 (Boost: Other Powers; Power Feat: Slow Fade; 13pp) Componentes/efeitos alternativos mapeados: Absorption → Energy Absorption (poder-modelo); Boost → Enhanced Trait com Fades.; custo 2e impresso 13 PP.",
+        "construcao_3e": "Absorção Cinética: Imunidade a Dano Físico 20 (Limitada a metade do efeito; 10 PP) + Característica Aprimorada / Impulso de Força (Dissipação Lenta; 3 PP) = 13 PP.",
         "custo_2e_pp": 13,
-        "custo_3e_pp": null
+        "custo_3e_pp": 13,
+        "nome_pt": "Absorção de Energia Cinética"
       },
       {
         "nome": "Enhanced Strength",
-        "construcao_3e": "Enhanced Trait: Strength 5.",
+        "construcao_3e": "Característica Aprimorada: Força 5 (10 PP).",
         "custo_2e_pp": 10,
         "custo_3e_pp": 10,
-        "nome_pt": "Força Aumentada"
+        "nome_pt": "Força Aumentada Mutante"
       },
       {
         "nome": "Enhanced Constitution",
-        "construcao_3e": "Enhanced Trait: Stamina 7.",
+        "construcao_3e": "Característica Aprimorada: Vigor 7 (14 PP).",
         "custo_2e_pp": 14,
         "custo_3e_pp": 14,
-        "nome_pt": "Vigor Aumentado"
+        "nome_pt": "Vigor Aumentado Mutante"
       },
       {
         "nome": "Growth",
-        "construcao_3e": "Growth (rank 2e 4); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Growth 4 (+8 Strength, +4 Constitution; 12pp); custo 2e impresso 12 PP.",
+        "construcao_3e": "Crescimento 4 (Permanente, Inato; 12 PP).",
         "custo_2e_pp": 12,
-        "custo_3e_pp": null,
-        "nome_pt": "Crescimento"
+        "custo_3e_pp": 12,
+        "nome_pt": "Crescimento e Massa Muscular Desproporcional"
       },
       {
         "nome": "Super Strength",
-        "construcao_3e": "Power-Lifting 3.",
+        "construcao_3e": "Super-Força / Power-Lifting 3 (3 PP).",
         "custo_2e_pp": 6,
         "custo_3e_pp": 3,
-        "nome_pt": "Super-Força"
+        "nome_pt": "Super-Força / Power-Lifting"
       }
     ],
     "equipamento": [
@@ -122,13 +123,11 @@
   },
   "custos_3e": {
     "habilidades_base": 32,
+    "poderes": 52,
     "defesas": 9,
     "pericias": 27.5,
     "vantagens": 11,
-    "poderes_conhecidos": 27,
-    "subtotal_conhecido": 106.5,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 131.5
   },
   "notas_conversao": [
     "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
@@ -138,6 +137,7 @@
     "A fonte atribui 1 rank(s) de Equipment (5 EP), mas os itens listados somam 2 EP; valores preservados sem correção.",
     "Vantagens sem equivalente direto foram removidas conforme o guia; não foram recriadas como poderes: Elusive Target.",
     "Subtotal 3e conhecido: 68 PP em habilidades, 55 em perícias, 39 em defesas, 11 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
-    "Correção de custo: as perícias somam 55 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 55 para 27.5 PP (subtotal e totais ajustados em -27.5)."
+    "Correção de custo: as perícias somam 55 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 55 para 27.5 PP (subtotal e totais ajustados em -27.5).",
+    "Poderes convertidos e fechados para M&M 3e (Lote 8). Absorção de impacto cinético com impulso de força, crescimento muscular e características ampliadas consolidados."
   ]
-}
+}

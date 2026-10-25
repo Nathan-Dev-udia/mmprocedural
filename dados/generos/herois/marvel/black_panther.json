@@ -5,7 +5,7 @@
   "nome_pt": "Pantera Negra",
   "nivel_poder": 10,
   "pontos_poder_origem": 165,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 200,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -67,27 +67,28 @@
         "construcao_3e": "Enhanced Trait: Strength 3 (para elevar o valor base, derivado de STR 16, ao valor final STR 22).",
         "custo_2e_pp": 6,
         "custo_3e_pp": 6,
-        "nome_pt": "Força Aumentada"
+        "nome_pt": "Força Aumentada (Erva Coração)"
       },
       {
         "nome": "Enhanced Dexterity",
         "construcao_3e": "Enhanced Trait: Agility 4 e Dexterity 4 (derivados das diferenças entre os valores base e finais de DEX 16/24).",
         "custo_2e_pp": 8,
         "custo_3e_pp": 16,
-        "nome_pt": "Destreza Aumentada"
+        "nome_pt": "Destreza e Agilidade Aumentadas"
       },
       {
         "nome": "Super Senses",
         "construcao_3e": "Senses 3: Extended Vision, Low-Light Vision e Scent.",
         "custo_2e_pp": 3,
         "custo_3e_pp": 3,
-        "nome_pt": "Super-Sentidos"
+        "nome_pt": "Super-Sentidos Pantera"
       },
       {
         "nome": "Black Panther Suit",
-        "construcao_3e": "Device removível: Protection 4, Concealment (camuflagem em sombras) e Strength-based Damage 2 (Penetrating, Mighty, Improved Critical 2); Alternate Effects Autofire Damage 2, Movement (Wall-crawling), Leaping 1, Mind Shield 3 e Movement (Slow Fall).",
+        "construcao_3e": "Dispositivo Removível: Proteção 4 (4 PP), Camuflagem em Sombras (4 PP), Garras de Vibrânio Dano 2 Penetrante Crítico 2 (5 PP), Efeitos Alternativos (Dano Multiataque, Escalar Paredes, Salto, Escudo Mental, Queda Suave; 7 PP). Piscina de 20 PP; Removível (-4 PP) = 16 PP.",
         "custo_2e_pp": 16,
-        "custo_3e_pp": null
+        "custo_3e_pp": 16,
+        "nome_pt": "Traje de Vibrânio da Pantera Negra"
       }
     ],
     "equipamento": [
@@ -126,16 +127,15 @@
     "Languages (English, Arabic; Base: Swahili) foi convertido em Idiomas 2, para os dois idiomas adicionais.",
     "Master Plan foi convertido em Inspire. Elusive Target não tem equivalência direta e não foi mantida como vantagem.",
     "Enhanced Strength 6 (2e) corresponde a Strength +3 em 3e, pois a pontuacao-base 16 (+3) sobe para 22 (+6). Enhanced Dexterity 8 corresponde a Agility +4 e Dexterity +4, da base 16 para 24.",
-    "Os efeitos do traje seguem as descricoes do perfil 2e; os custos e os Alternate Effects precisam ser recalculados para a economia de PP 3e."
+    "Os efeitos do traje seguem as descricoes do perfil 2e; os custos e os Alternate Effects precisam ser recalculados para a economia de PP 3e.",
+    "Poderes fechados em 3e: Traje de Vibrânio fechado em 16 PP + Força (6 PP) + Agi/Des (16 PP) + Sentidos (3 PP) = 41 PP poderes. Total 3e: 200 PP."
   ],
   "custos_3e": {
     "habilidades_base": 66,
+    "poderes": 41,
     "defesas": 13,
     "pericias": 59,
     "vantagens": 21,
-    "poderes_conhecidos": 25,
-    "subtotal_conhecido": 184,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 200
   }
 }

@@ -25,5 +25,6 @@
     "defesas": "Dodge 10, Parry 9, Fortitude 10, Toughness 10, Will 14",
     "pontos_poder": "Abilities 40 + Powers 101 + Advantages 13 + Skills 27 + Defenses 18 = 199",
     "complicacoes": "Half-Man (Tharok is half cybernetic, so effects that work on machines can affect him as well)"
-  }
+  },
+  "nome_pt": "Tharok"
 }

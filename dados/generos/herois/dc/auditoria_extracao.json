@@ -53,6 +53,10 @@
    "soma dos itens 116 x publicado 52 (inclui equipamento? False)"
   ],
   [
+   "dc/volume1/black_manta",
+   "soma dos itens 44 x publicado 43 (inclui equipamento? True)"
+  ],
+  [
    "dc/volume1/blackbriar_thorn",
    "soma dos itens 0 x publicado 86 (inclui equipamento? False)"
   ],
@@ -89,8 +93,16 @@
    "soma dos itens 85 x publicado 61 (inclui equipamento? True)"
   ],
   [
+   "dc/volume1/brainiac",
+   "soma dos itens 76 x publicado 112 (inclui equipamento? True)"
+  ],
+  [
    "dc/volume1/brainiac_milton_fine",
    "soma dos itens 0 x publicado 94 (inclui equipamento? False)"
+  ],
+  [
+   "dc/volume1/brother_blood_ix",
+   "soma dos itens 78 x publicado 44 (inclui equipamento? False)"
   ],
   [
    "dc/volume1/brother_blood_viii",
@@ -125,8 +137,16 @@
    "soma dos itens 138 x publicado 130 (inclui equipamento? False)"
   ],
   [
+   "dc/volume1/chronos_david_clinton",
+   "soma dos itens 56 x publicado 40 (inclui equipamento? False)"
+  ],
+  [
    "dc/volume1/chronos_walker_gabriel",
    "soma dos itens 0 x publicado 12 (inclui equipamento? True)"
+  ],
+  [
+   "dc/volume1/circe",
+   "soma dos itens 55 x publicado 115 (inclui equipamento? False)"
   ],
   [
    "dc/volume1/citizen_steel",
@@ -245,8 +265,16 @@
    "soma dos itens 0 x publicado 70 (inclui equipamento? True)"
   ],
   [
+   "dc/volume1/elongated_man",
+   "soma dos itens 49 x publicado 38 (inclui equipamento? False)"
+  ],
+  [
    "dc/volume1/emerald_empress",
    "soma dos itens 0 x publicado 75 (inclui equipamento? False)"
+  ],
+  [
+   "dc/volume2/empress",
+   "soma dos itens 0 x publicado 24 (inclui equipamento? True)"
   ],
   [
    "dc/volume1/evil_star",
@@ -421,16 +449,16 @@
    "soma dos itens 0 x publicado 36 (inclui equipamento? False)"
   ],
   [
-   "dc/volume2/in_recognition_of_his_courage_iron_munro",
-   "soma dos itens 0 x publicado 26 (inclui equipamento? False)"
-  ],
-  [
    "dc/volume1/indigo_1",
    "soma dos itens 305 x publicado 130 (inclui equipamento? False)"
   ],
   [
    "dc/volume2/iron",
    "soma dos itens 0 x publicado 103 (inclui equipamento? False)"
+  ],
+  [
+   "dc/volume2/in_recognition_of_his_courage_iron_munro",
+   "soma dos itens 0 x publicado 26 (inclui equipamento? False)"
   ],
   [
    "dc/volume1/jason_blood",
@@ -517,8 +545,16 @@
    "soma dos itens 0 x publicado 88 (inclui equipamento? False)"
   ],
   [
+   "dc/volume2/lord_satanus",
+   "soma dos itens 190 x publicado 179 (inclui equipamento? False)"
+  ],
+  [
    "dc/volume2/machiste",
    "soma dos itens 0 x publicado 5 (inclui equipamento? False)"
+  ],
+  [
+   "dc/volume2/magog",
+   "soma dos itens 22 x publicado 52 (inclui equipamento? False)"
   ],
   [
    "dc/volume1/mammoth",
@@ -577,6 +613,10 @@
    "soma dos itens 0 x publicado 7 (inclui equipamento? False)"
   ],
   [
+   "dc/volume2/mister_miracle",
+   "soma dos itens 100 x publicado 30 (inclui equipamento? False)"
+  ],
+  [
    "dc/volume1/monsieur_mallah",
    "soma dos itens 0 x publicado 11 (inclui equipamento? True)"
   ],
@@ -615,6 +655,10 @@
   [
    "dc/volume2/orange_lantern_construct",
    "soma dos itens 0 x publicado 101 (inclui equipamento? False)"
+  ],
+  [
+   "dc/volume2/orion",
+   "soma dos itens 166 x publicado 100 (inclui equipamento? False)"
   ],
   [
    "dc/volume1/osiris",
@@ -693,6 +737,10 @@
    "soma dos itens 120 x publicado 125 (inclui equipamento? False)"
   ],
   [
+   "dc/volume2/reverse_flash",
+   "soma dos itens 4 x publicado 114 (inclui equipamento? False)"
+  ],
+  [
    "dc/volume2/rex_the_wonder_dog",
    "soma dos itens 0 x publicado 20 (inclui equipamento? False)"
   ],
@@ -719,6 +767,14 @@
   [
    "dc/volume2/sabbac",
    "soma dos itens 0 x publicado 75 (inclui equipamento? False)"
+  ],
+  [
+   "dc/volume2/saint_walker",
+   "soma dos itens 251 x publicado 111 (inclui equipamento? False)"
+  ],
+  [
+   "dc/volume2/sandman_sanderson_hawkins",
+   "soma dos itens 33 x publicado 36 (inclui equipamento? True)"
   ],
   [
    "dc/volume2/scandal_savage",
@@ -759,6 +815,10 @@
   [
    "dc/volume2/shrinking_violet",
    "soma dos itens 0 x publicado 24 (inclui equipamento? True)"
+  ],
+  [
+   "dc/volume2/silver_banshee",
+   "soma dos itens 0 x publicado 196 (inclui equipamento? False)"
   ],
   [
    "dc/volume2/sinestro_corpsman",
@@ -851,6 +911,10 @@
   [
    "dc/volume1/the_brain",
    "soma dos itens 0 x publicado 55 (inclui equipamento? False)"
+  ],
+  [
+   "dc/volume1/the_demon",
+   "soma dos itens 1 x publicado 58 (inclui equipamento? False)"
   ],
   [
    "dc/volume1/the_flash_barry_allen",
@@ -1011,10 +1075,6 @@
    ""
   ],
   [
-   "dc/volume1/black_manta",
-   ""
-  ],
-  [
    "dc/volume1/blood_cultist",
    ""
   ],
@@ -1027,19 +1087,11 @@
    ""
   ],
   [
-   "dc/volume1/brainiac",
-   ""
-  ],
-  [
    "dc/volume1/brainiac_milton_fine",
    ""
   ],
   [
    "dc/volume1/bronze_tiger",
-   ""
-  ],
-  [
-   "dc/volume1/brother_blood_ix",
    ""
   ],
   [
@@ -1051,15 +1103,7 @@
    ""
   ],
   [
-   "dc/volume1/chronos_david_clinton",
-   ""
-  ],
-  [
    "dc/volume1/chronos_walker_gabriel",
-   ""
-  ],
-  [
-   "dc/volume1/circe",
    ""
   ],
   [
@@ -1103,10 +1147,6 @@
    ""
   ],
   [
-   "dc/volume1/elongated_man",
-   ""
-  ],
-  [
    "dc/volume2/etta_candy",
    ""
   ],
@@ -1131,10 +1171,6 @@
    ""
   ],
   [
-   "dc/volume1/h_i_v_e_councilor",
-   ""
-  ],
-  [
    "dc/volume1/h_i_v_e_master",
    ""
   ],
@@ -1148,10 +1184,6 @@
   ],
   [
    "dc/volume1/h_i_v_e_trooper",
-   ""
-  ],
-  [
-   "dc/volume1/hitman",
    ""
   ],
   [
@@ -1303,14 +1335,6 @@
    ""
   ],
   [
-   "dc/volume2/mister_miracle",
-   ""
-  ],
-  [
-   "dc/volume2/mister_terrific_michael_holt",
-   ""
-  ],
-  [
    "dc/volume2/mordru",
    ""
   ],
@@ -1332,10 +1356,6 @@
   ],
   [
    "dc/volume2/oberon",
-   ""
-  ],
-  [
-   "dc/volume2/orion",
    ""
   ],
   [
@@ -1379,10 +1399,6 @@
    ""
   ],
   [
-   "dc/volume2/reverse_flash",
-   ""
-  ],
-  [
    "dc/volume2/richard_dragon",
    ""
   ],
@@ -1396,10 +1412,6 @@
   ],
   [
    "dc/volume2/roulette",
-   ""
-  ],
-  [
-   "dc/volume2/sandman_sanderson_hawkins",
    ""
   ],
   [
@@ -1524,10 +1536,6 @@
   ],
   [
    "dc/volume1/the_atom_ryan_choi",
-   ""
-  ],
-  [
-   "dc/volume1/the_demon",
    ""
   ],
   [
@@ -1663,6 +1671,10 @@
   [
    "dc/volume1/black_adam",
    "publicado 112 x calculado 126"
+  ],
+  [
+   "dc/volume1/black_manta",
+   "publicado 48 x calculado 60"
   ],
   [
    "dc/volume1/blood_eagle",
@@ -2525,12 +2537,12 @@
    "Defenses 21 = 112"
   ],
   [
-   "dc/volume2/in_recognition_of_his_courage_iron_munro",
-   "Abilities 84 + Powers 26 + Adv Defenses 15 = 150"
-  ],
-  [
    "dc/volume2/indigo",
    "Defenses 15 = 289"
+  ],
+  [
+   "dc/volume2/in_recognition_of_his_courage_iron_munro",
+   "Abilities 84 + Powers 26 + Adv Defenses 15 = 150"
   ],
   [
    "dc/volume2/jack_ii",
@@ -2669,6 +2681,10 @@
   [
    "dc/volume2/amanda_waller",
    "8+12>18"
+  ],
+  [
+   "dc/volume1/brainiac",
+   "14+14>26"
   ],
   [
    "dc/volume1/cheetah_priscilla_rich",
@@ -3073,1536 +3089,6 @@
    "AGL=—"
   ]
  ],
- "DEFESA_AUSENTE": [
-  [
-   "dc/volume1/amazo",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/artemis",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/artemis",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/artemis",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/artemis",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/artemis",
-   "Vontade"
-  ],
-  [
-   "dc/volume1/black_manta",
-   "Esquiva"
-  ],
-  [
-   "dc/volume1/black_manta",
-   "Aparar"
-  ],
-  [
-   "dc/volume1/black_manta",
-   "Fortitude"
-  ],
-  [
-   "dc/volume1/black_manta",
-   "Resistência"
-  ],
-  [
-   "dc/volume1/black_manta",
-   "Vontade"
-  ],
-  [
-   "dc/volume1/blackbriar_thorn",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/bouncing_boy",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/bouncing_boy",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/bouncing_boy",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/bouncing_boy",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/bouncing_boy",
-   "Vontade"
-  ],
-  [
-   "dc/volume1/brainiac",
-   "Esquiva"
-  ],
-  [
-   "dc/volume1/brainiac",
-   "Aparar"
-  ],
-  [
-   "dc/volume1/brainiac",
-   "Fortitude"
-  ],
-  [
-   "dc/volume1/brainiac",
-   "Resistência"
-  ],
-  [
-   "dc/volume1/brainiac",
-   "Vontade"
-  ],
-  [
-   "dc/volume1/brother_blood_ix",
-   "Esquiva"
-  ],
-  [
-   "dc/volume1/brother_blood_ix",
-   "Aparar"
-  ],
-  [
-   "dc/volume1/brother_blood_ix",
-   "Fortitude"
-  ],
-  [
-   "dc/volume1/brother_blood_ix",
-   "Resistência"
-  ],
-  [
-   "dc/volume1/brother_blood_ix",
-   "Vontade"
-  ],
-  [
-   "dc/volume1/calculator",
-   "Esquiva"
-  ],
-  [
-   "dc/volume1/calculator",
-   "Aparar"
-  ],
-  [
-   "dc/volume1/calculator",
-   "Fortitude"
-  ],
-  [
-   "dc/volume1/calculator",
-   "Resistência"
-  ],
-  [
-   "dc/volume1/calculator",
-   "Vontade"
-  ],
-  [
-   "dc/volume1/chameleon_boy",
-   "Esquiva"
-  ],
-  [
-   "dc/volume1/chameleon_boy",
-   "Aparar"
-  ],
-  [
-   "dc/volume1/chameleon_boy",
-   "Fortitude"
-  ],
-  [
-   "dc/volume1/chameleon_boy",
-   "Resistência"
-  ],
-  [
-   "dc/volume1/chameleon_boy",
-   "Vontade"
-  ],
-  [
-   "dc/volume1/chemo",
-   "Fortitude"
-  ],
-  [
-   "dc/volume1/chronos_david_clinton",
-   "Esquiva"
-  ],
-  [
-   "dc/volume1/chronos_david_clinton",
-   "Aparar"
-  ],
-  [
-   "dc/volume1/chronos_david_clinton",
-   "Fortitude"
-  ],
-  [
-   "dc/volume1/chronos_david_clinton",
-   "Resistência"
-  ],
-  [
-   "dc/volume1/chronos_david_clinton",
-   "Vontade"
-  ],
-  [
-   "dc/volume1/circe",
-   "Esquiva"
-  ],
-  [
-   "dc/volume1/circe",
-   "Aparar"
-  ],
-  [
-   "dc/volume1/circe",
-   "Fortitude"
-  ],
-  [
-   "dc/volume1/circe",
-   "Resistência"
-  ],
-  [
-   "dc/volume1/circe",
-   "Vontade"
-  ],
-  [
-   "dc/volume1/deadman",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/dex_starr",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/dex_starr",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/dex_starr",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/dex_starr",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/dex_starr",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/drone_bee_swarms",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/drone_bee_swarms",
-   "Vontade"
-  ],
-  [
-   "dc/volume1/elongated_man",
-   "Esquiva"
-  ],
-  [
-   "dc/volume1/elongated_man",
-   "Aparar"
-  ],
-  [
-   "dc/volume1/elongated_man",
-   "Fortitude"
-  ],
-  [
-   "dc/volume1/elongated_man",
-   "Resistência"
-  ],
-  [
-   "dc/volume1/elongated_man",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/empress",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/empress",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/empress",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/empress",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/empress",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/faust",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/faust",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/faust",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/faust",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/faust",
-   "Vontade"
-  ],
-  [
-   "dc/volume1/felix_faust",
-   "Fortitude"
-  ],
-  [
-   "dc/volume1/felix_faust",
-   "Resistência"
-  ],
-  [
-   "dc/volume1/felix_faust",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/frankenstein",
-   "Fortitude"
-  ],
-  [
-   "dc/volume1/gernsback",
-   "Fortitude"
-  ],
-  [
-   "dc/volume1/gernsback",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/giant_animated_tree",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/giant_animated_tree",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/girder",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/girder",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/girder",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/girder",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/girder",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/gold",
-   "Fortitude"
-  ],
-  [
-   "dc/volume1/guardian",
-   "Esquiva"
-  ],
-  [
-   "dc/volume1/guardian",
-   "Aparar"
-  ],
-  [
-   "dc/volume1/guardian",
-   "Fortitude"
-  ],
-  [
-   "dc/volume1/guardian",
-   "Resistência"
-  ],
-  [
-   "dc/volume1/guardian",
-   "Vontade"
-  ],
-  [
-   "dc/volume1/h_i_v_e_councilor",
-   "Esquiva"
-  ],
-  [
-   "dc/volume1/h_i_v_e_councilor",
-   "Aparar"
-  ],
-  [
-   "dc/volume1/h_i_v_e_councilor",
-   "Fortitude"
-  ],
-  [
-   "dc/volume1/h_i_v_e_councilor",
-   "Resistência"
-  ],
-  [
-   "dc/volume1/h_i_v_e_councilor",
-   "Vontade"
-  ],
-  [
-   "dc/volume1/h_i_v_e_queen_bee",
-   "Fortitude"
-  ],
-  [
-   "dc/volume1/h_i_v_e_queen_bee",
-   "Vontade"
-  ],
-  [
-   "dc/volume1/hector_hammond",
-   "Esquiva"
-  ],
-  [
-   "dc/volume1/hector_hammond",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/highmaster_manhunter",
-   "Fortitude"
-  ],
-  [
-   "dc/volume1/hitman",
-   "Esquiva"
-  ],
-  [
-   "dc/volume1/hitman",
-   "Aparar"
-  ],
-  [
-   "dc/volume1/hitman",
-   "Fortitude"
-  ],
-  [
-   "dc/volume1/hitman",
-   "Resistência"
-  ],
-  [
-   "dc/volume1/hitman",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/in_recognition_of_his_courage_iron_munro",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/in_recognition_of_his_courage_iron_munro",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/indigo",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/indigo",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/indigo",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/indigo",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/indigo",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/iron",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/johnny_sorrow",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/johnny_sorrow",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/johnny_sorrow",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/johnny_sorrow",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/johnny_sorrow",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/klarion",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/klarion",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/klarion",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/klarion",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/klarion",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/knockout",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/knockout",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/knockout",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/knockout",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/knockout",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/krypto_the_super_dog",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/krypto_the_super_dog",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/krypto_the_super_dog",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/krypto_the_super_dog",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/krypto_the_super_dog",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/lead",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/looker",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/looker",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/looker",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/looker",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/looker",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/lord_satanus",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/lord_satanus",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/lord_satanus",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/lord_satanus",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/lord_satanus",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/magog",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/magog",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/magog",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/magog",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/magog",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/martha_kent",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/martha_kent",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/martha_kent",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/martha_kent",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/martha_kent",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/martian_manhunter",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/martian_manhunter",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/martian_manhunter",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/martian_manhunter",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/martian_manhunter",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/max_mercury",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/max_mercury",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/max_mercury",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/max_mercury",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/max_mercury",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/mercury",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/mister_miracle",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/mister_miracle",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/mister_miracle",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/mister_miracle",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/mister_miracle",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/mister_terrific_michael_holt",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/mister_terrific_michael_holt",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/mister_terrific_michael_holt",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/mister_terrific_michael_holt",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/mister_terrific_michael_holt",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/mon_el",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/mon_el",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/mon_el",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/mon_el",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/mon_el",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/mordru",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/mr_freeze",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/mr_freeze",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/mr_freeze",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/mr_freeze",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/mr_freeze",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/multiplex",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/multiplex",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/multiplex",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/multiplex",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/multiplex",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/o_m_a_c_cyborg",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/o_m_a_c_cyborg",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/o_m_a_c_cyborg",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/o_m_a_c_cyborg",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/o_m_a_c_cyborg",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/oberon",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/oberon",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/oberon",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/oberon",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/oberon",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/ocean_master",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/ocean_master",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/ocean_master",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/ocean_master",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/ocean_master",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/offspring",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/orion",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/orion",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/orion",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/orion",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/orion",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/peacemaker",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/peacemaker",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/peacemaker",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/peacemaker",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/peacemaker",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/plastic_man",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/platinum",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/platinum",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/platinum",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/platinum",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/platinum",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/plunder",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/plunder",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/plunder",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/plunder",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/plunder",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/professor_ivo",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/professor_ivo",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/professor_ivo",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/professor_ivo",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/professor_ivo",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/queen_bee",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/queen_bee",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/queen_bee",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/queen_bee",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/queen_bee",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/ravager",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/ravager",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/ravager",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/ravager",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/ravager",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/red_tornado",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/red_tornado",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/red_tornado",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/red_tornado",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/red_tornado",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/reverse_flash",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/reverse_flash",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/reverse_flash",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/reverse_flash",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/reverse_flash",
-   "Vontade"
-  ],
-  [
-   "dc/volume1/robot_drone",
-   "Fortitude"
-  ],
-  [
-   "dc/volume1/robot_drone",
-   "Vontade"
-  ],
-  [
-   "dc/volume1/robotman",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/s_t_a_r_kilotrax",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/s_t_a_r_kilotrax",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/s_t_a_r_kilotrax",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/sabbac",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/sabbac",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/sabbac",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/sabbac",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/sabbac",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/saint_walker",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/saint_walker",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/saint_walker",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/saint_walker",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/saint_walker",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/sandman_sanderson_hawkins",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/sandman_sanderson_hawkins",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/sandman_sanderson_hawkins",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/sandman_sanderson_hawkins",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/sandman_sanderson_hawkins",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/secret",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/shadow_homunculus",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/shadow_homunculus",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/shadow_homunculus",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/shadow_homunculus",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/shadow_homunculus",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/shadow_thief",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/shadow_thief",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/shadow_thief",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/shadow_thief",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/shadow_thief",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/silver_banshee",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/silver_banshee",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/silver_banshee",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/silver_banshee",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/silver_banshee",
-   "Vontade"
-  ],
-  [
-   "dc/volume1/skeets",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/solomon_grundy",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/solomon_grundy",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/solomon_grundy",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/solomon_grundy",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/solomon_grundy",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/speedy",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/speedy",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/speedy",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/speedy",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/speedy",
-   "Vontade"
-  ],
-  [
-   "dc/volume1/starling",
-   "Fortitude"
-  ],
-  [
-   "dc/volume1/starling",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/starman_thom_kallor",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/t_spheres_4",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/t_spheres_4",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/tara",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/tara",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/tara",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/tara",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/tara",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/technocrat",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/technocrat",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/technocrat",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/technocrat",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/technocrat",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/terra",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/terra",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/terra",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/terra",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/terra",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/the_ace_android_ii",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/the_ace_android_ii",
-   "Vontade"
-  ],
-  [
-   "dc/volume1/the_brain",
-   "Esquiva"
-  ],
-  [
-   "dc/volume1/the_brain",
-   "Aparar"
-  ],
-  [
-   "dc/volume1/the_brain",
-   "Fortitude"
-  ],
-  [
-   "dc/volume1/the_demon",
-   "Esquiva"
-  ],
-  [
-   "dc/volume1/the_demon",
-   "Aparar"
-  ],
-  [
-   "dc/volume1/the_demon",
-   "Fortitude"
-  ],
-  [
-   "dc/volume1/the_demon",
-   "Resistência"
-  ],
-  [
-   "dc/volume1/the_demon",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/the_manhunters",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/the_spectre",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/thunder",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/thunder",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/thunder",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/thunder",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/thunder",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/tin",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/tinder",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/tinder",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/tinder",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/tinder",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/tinder",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/toyman_robot",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/toyman_robot",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/toyman_robot",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/toyman_robot",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/toyman_robot",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/trickster",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/trickster",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/trickster",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/trickster",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/trickster",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/typical_ivo_robot",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/typical_ivo_robot",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/typical_morrow_android",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/typical_morrow_android",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/typical_morrow_android",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/typical_morrow_android",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/typical_morrow_android",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/vandal_savage",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/vandal_savage",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/vandal_savage",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/vandal_savage",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/vandal_savage",
-   "Vontade"
-  ],
-  [
-   "dc/volume1/version",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/warlord",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/warlord",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/warlord",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/warlord",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/warlord",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/wildcat",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/wildcat",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/wildcat",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/wildcat",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/wildcat",
-   "Vontade"
-  ],
-  [
-   "dc/volume2/zauriel",
-   "Esquiva"
-  ],
-  [
-   "dc/volume2/zauriel",
-   "Aparar"
-  ],
-  [
-   "dc/volume2/zauriel",
-   "Fortitude"
-  ],
-  [
-   "dc/volume2/zauriel",
-   "Resistência"
-  ],
-  [
-   "dc/volume2/zauriel",
-   "Vontade"
-  ]
- ],
  "CUSTO_PERICIAS_DIVERGE": [
   [
    "dc/volume1/amazo",
@@ -4641,6 +3127,14 @@
    "publicado 34 x calculado 37 (pode haver perícia não lida)"
   ],
   [
+   "dc/volume1/brainiac",
+   "publicado 28 x calculado 40 (pode haver perícia não lida)"
+  ],
+  [
+   "dc/volume1/brother_blood_ix",
+   "publicado 11 x calculado 7 (pode haver perícia não lida)"
+  ],
+  [
    "dc/volume1/brother_blood_viii",
    "publicado 27 x calculado 23 (pode haver perícia não lida)"
   ],
@@ -4655,6 +3149,14 @@
   [
    "dc/volume1/cheetah_priscilla_rich",
    "publicado 33 x calculado 32 (pode haver perícia não lida)"
+  ],
+  [
+   "dc/volume1/chronos_david_clinton",
+   "publicado 19 x calculado 20 (pode haver perícia não lida)"
+  ],
+  [
+   "dc/volume1/circe",
+   "publicado 24 x calculado 32 (pode haver perícia não lida)"
   ],
   [
    "dc/volume1/clayface_matthew_hagen",
@@ -4687,6 +3189,10 @@
   [
    "dc/volume1/doomsday",
    "publicado 12 x calculado 14 (pode haver perícia não lida)"
+  ],
+  [
+   "dc/volume1/elongated_man",
+   "publicado 32 x calculado 39 (pode haver perícia não lida)"
   ],
   [
    "dc/volume1/enchantress",
@@ -4809,8 +3315,20 @@
    "publicado 28 x calculado 29 (pode haver perícia não lida)"
   ],
   [
+   "dc/volume2/reverse_flash",
+   "publicado 24 x calculado 23 (pode haver perícia não lida)"
+  ],
+  [
+   "dc/volume2/sandman_sanderson_hawkins",
+   "publicado 24 x calculado 42 (pode haver perícia não lida)"
+  ],
+  [
    "dc/volume2/shining_knight_ystina",
    "publicado 25 x calculado 20 (pode haver perícia não lida)"
+  ],
+  [
+   "dc/volume2/starman_thom_kallor",
+   "publicado 13 x calculado 9 (pode haver perícia não lida)"
   ],
   [
    "dc/volume2/streaky_the_super_cat",
@@ -4823,6 +3341,10 @@
   [
    "dc/volume2/the_ace_android_ii",
    "publicado 1 x calculado 2 (pode haver perícia não lida)"
+  ],
+  [
+   "dc/volume1/the_demon",
+   "publicado 24 x calculado 31 (pode haver perícia não lida)"
   ],
   [
    "dc/volume1/the_key",
@@ -4883,12 +3405,20 @@
    "10+8>16"
   ],
   [
+   "dc/volume1/brainiac",
+   "10+18>26"
+  ],
+  [
    "dc/volume1/cheetah_priscilla_rich",
    "15+9>18"
   ],
   [
    "dc/volume1/copperhead",
    "12+10>20"
+  ],
+  [
+   "dc/volume2/empress",
+   "11+6>16"
   ],
   [
    "dc/volume1/hooty",
@@ -4922,15 +3452,11 @@
  "PERICIAS_NAO_LIDAS": [
   [
    "dc/volume2/artemis",
-   "17 no texto, 11 lidas"
+   "13 no texto, 11 lidas"
   ],
   [
    "dc/volume1/atom_smasher",
    "11 no texto, 9 lidas"
-  ],
-  [
-   "dc/volume1/black_manta",
-   "12 no texto, 5 lidas"
   ],
   [
    "dc/volume1/blood_cultist",
@@ -4938,7 +3464,7 @@
   ],
   [
    "dc/volume2/bouncing_boy",
-   "12 no texto, 5 lidas"
+   "8 no texto, 5 lidas"
   ],
   [
    "dc/volume1/brainiac",
@@ -4961,18 +3487,6 @@
    "20 no texto, 17 lidas"
   ],
   [
-   "dc/volume1/chameleon_boy",
-   "10 no texto, 9 lidas"
-  ],
-  [
-   "dc/volume1/chronos_david_clinton",
-   "23 no texto, 7 lidas"
-  ],
-  [
-   "dc/volume1/circe",
-   "9 no texto, 8 lidas"
-  ],
-  [
    "dc/volume1/crimson_avenger_unknown",
    "2 no texto, 0 lidas"
   ],
@@ -4990,7 +3504,7 @@
   ],
   [
    "dc/volume2/dex_starr",
-   "11 no texto, 5 lidas"
+   "7 no texto, 5 lidas"
   ],
   [
    "dc/volume2/did_not_last_miya_gave_tsunami",
@@ -5014,11 +3528,11 @@
   ],
   [
    "dc/volume2/faust",
-   "16 no texto, 10 lidas"
+   "12 no texto, 10 lidas"
   ],
   [
    "dc/volume2/girder",
-   "8 no texto, 3 lidas"
+   "4 no texto, 3 lidas"
   ],
   [
    "dc/volume1/guardian",
@@ -5037,16 +3551,16 @@
    "5 no texto, 4 lidas"
   ],
   [
-   "dc/volume2/in_recognition_of_his_courage_iron_munro",
-   "4 no texto, 3 lidas"
-  ],
-  [
    "dc/volume2/indigo",
-   "15 no texto, 8 lidas"
+   "11 no texto, 8 lidas"
   ],
   [
    "dc/volume1/indigo_1",
    "9 no texto, 7 lidas"
+  ],
+  [
+   "dc/volume2/in_recognition_of_his_courage_iron_munro",
+   "4 no texto, 3 lidas"
   ],
   [
    "dc/volume1/jade",
@@ -5070,11 +3584,11 @@
   ],
   [
    "dc/volume2/knockout",
-   "12 no texto, 5 lidas"
+   "8 no texto, 5 lidas"
   ],
   [
    "dc/volume2/krypto_the_super_dog",
-   "12 no texto, 5 lidas"
+   "8 no texto, 5 lidas"
   ],
   [
    "dc/volume2/lightning_lad",
@@ -5082,7 +3596,7 @@
   ],
   [
    "dc/volume2/looker",
-   "15 no texto, 8 lidas"
+   "11 no texto, 8 lidas"
   ],
   [
    "dc/volume2/major_disaster",
@@ -5114,7 +3628,7 @@
   ],
   [
    "dc/volume2/mon_el",
-   "13 no texto, 7 lidas"
+   "9 no texto, 7 lidas"
   ],
   [
    "dc/volume2/mongul",
@@ -5130,11 +3644,11 @@
   ],
   [
    "dc/volume2/o_m_a_c_cyborg",
-   "8 no texto, 2 lidas"
+   "4 no texto, 2 lidas"
   ],
   [
    "dc/volume2/oberon",
-   "11 no texto, 6 lidas"
+   "7 no texto, 6 lidas"
   ],
   [
    "dc/volume2/obsidian",
@@ -5162,7 +3676,7 @@
   ],
   [
    "dc/volume2/platinum",
-   "8 no texto, 3 lidas"
+   "4 no texto, 3 lidas"
   ],
   [
    "dc/volume2/polar_boy",
@@ -5262,7 +3776,7 @@
   ],
   [
    "dc/volume2/technocrat",
-   "18 no texto, 12 lidas"
+   "14 no texto, 12 lidas"
   ],
   [
    "dc/volume2/terra",
@@ -5294,7 +3808,7 @@
   ],
   [
    "dc/volume2/thunder",
-   "14 no texto, 8 lidas"
+   "10 no texto, 8 lidas"
   ],
   [
    "dc/volume2/timber_wolf",
@@ -5310,7 +3824,7 @@
   ],
   [
    "dc/volume2/typical_morrow_android",
-   "8 no texto, 2 lidas"
+   "4 no texto, 2 lidas"
   ],
   [
    "dc/volume1/ultraman",
@@ -5357,271 +3871,13 @@
    "9 no texto, 8 lidas"
   ]
  ],
- "DC_SEM_DEFESAS": [
-  [
-   "dc/volume2/artemis",
-   ""
-  ],
-  [
-   "dc/volume1/black_manta",
-   ""
-  ],
-  [
-   "dc/volume2/bouncing_boy",
-   ""
-  ],
-  [
-   "dc/volume1/brainiac",
-   ""
-  ],
-  [
-   "dc/volume1/brother_blood_ix",
-   ""
-  ],
-  [
-   "dc/volume1/chameleon_boy",
-   ""
-  ],
-  [
-   "dc/volume1/chronos_david_clinton",
-   ""
-  ],
-  [
-   "dc/volume1/circe",
-   ""
-  ],
-  [
-   "dc/volume2/dex_starr",
-   ""
-  ],
-  [
-   "dc/volume1/elongated_man",
-   ""
-  ],
-  [
-   "dc/volume2/empress",
-   ""
-  ],
-  [
-   "dc/volume2/faust",
-   ""
-  ],
-  [
-   "dc/volume2/girder",
-   ""
-  ],
-  [
-   "dc/volume1/hitman",
-   ""
-  ],
-  [
-   "dc/volume2/indigo",
-   ""
-  ],
-  [
-   "dc/volume2/johnny_sorrow",
-   ""
-  ],
-  [
-   "dc/volume2/knockout",
-   ""
-  ],
-  [
-   "dc/volume2/krypto_the_super_dog",
-   ""
-  ],
-  [
-   "dc/volume2/looker",
-   ""
-  ],
-  [
-   "dc/volume2/lord_satanus",
-   ""
-  ],
-  [
-   "dc/volume2/magog",
-   ""
-  ],
-  [
-   "dc/volume2/martha_kent",
-   ""
-  ],
-  [
-   "dc/volume2/martian_manhunter",
-   ""
-  ],
-  [
-   "dc/volume2/max_mercury",
-   ""
-  ],
-  [
-   "dc/volume2/mister_miracle",
-   ""
-  ],
-  [
-   "dc/volume2/mister_terrific_michael_holt",
-   ""
-  ],
-  [
-   "dc/volume2/mon_el",
-   ""
-  ],
-  [
-   "dc/volume2/mr_freeze",
-   ""
-  ],
-  [
-   "dc/volume2/multiplex",
-   ""
-  ],
-  [
-   "dc/volume2/o_m_a_c_cyborg",
-   ""
-  ],
-  [
-   "dc/volume2/oberon",
-   ""
-  ],
-  [
-   "dc/volume2/ocean_master",
-   ""
-  ],
-  [
-   "dc/volume2/orion",
-   ""
-  ],
-  [
-   "dc/volume2/platinum",
-   ""
-  ],
-  [
-   "dc/volume2/plunder",
-   ""
-  ],
-  [
-   "dc/volume2/professor_ivo",
-   ""
-  ],
-  [
-   "dc/volume2/queen_bee",
-   ""
-  ],
-  [
-   "dc/volume2/ravager",
-   ""
-  ],
-  [
-   "dc/volume2/red_tornado",
-   ""
-  ],
-  [
-   "dc/volume2/reverse_flash",
-   ""
-  ],
-  [
-   "dc/volume2/sabbac",
-   ""
-  ],
-  [
-   "dc/volume2/saint_walker",
-   ""
-  ],
-  [
-   "dc/volume2/sandman_sanderson_hawkins",
-   ""
-  ],
-  [
-   "dc/volume2/shadow_thief",
-   ""
-  ],
-  [
-   "dc/volume2/silver_banshee",
-   ""
-  ],
-  [
-   "dc/volume2/solomon_grundy",
-   ""
-  ],
-  [
-   "dc/volume2/speedy",
-   ""
-  ],
-  [
-   "dc/volume2/tara",
-   ""
-  ],
-  [
-   "dc/volume2/technocrat",
-   ""
-  ],
-  [
-   "dc/volume1/the_demon",
-   ""
-  ],
-  [
-   "dc/volume2/thunder",
-   ""
-  ],
-  [
-   "dc/volume2/tinder",
-   ""
-  ],
-  [
-   "dc/volume2/trickster",
-   ""
-  ],
-  [
-   "dc/volume2/typical_morrow_android",
-   ""
-  ],
-  [
-   "dc/volume2/vandal_savage",
-   ""
-  ],
-  [
-   "dc/volume2/warlord",
-   ""
-  ],
-  [
-   "dc/volume2/wildcat",
-   ""
-  ],
-  [
-   "dc/volume2/zauriel",
-   ""
-  ]
- ],
  "DC_SEM_ATAQUE_LIDO": [
   [
    "dc/volume2/artemis",
    ""
   ],
   [
-   "dc/volume1/black_manta",
-   ""
-  ],
-  [
    "dc/volume2/bouncing_boy",
-   ""
-  ],
-  [
-   "dc/volume1/brainiac",
-   ""
-  ],
-  [
-   "dc/volume1/brother_blood_ix",
-   ""
-  ],
-  [
-   "dc/volume1/chameleon_boy",
-   ""
-  ],
-  [
-   "dc/volume1/chronos_david_clinton",
-   ""
-  ],
-  [
-   "dc/volume1/circe",
    ""
   ],
   [
@@ -5657,10 +3913,6 @@
    "Initiative +4, Stings — (Burst Area Damage 6)"
   ],
   [
-   "dc/volume1/elongated_man",
-   ""
-  ],
-  [
    "dc/volume2/faust",
    ""
   ],
@@ -5673,20 +3925,16 @@
    "Initiative +11 Telekinesis — Perception Range, Damage 12 Mental Illusi"
   ],
   [
-   "dc/volume1/hitman",
-   ""
-  ],
-  [
    "dc/volume1/hooty",
    "Initiative +8, Unarmed +8 (Close, Damage -1)"
   ],
   [
-   "dc/volume2/in_recognition_of_his_courage_iron_munro",
-   "Initiative +9, Unarmed +9 (Cl"
-  ],
-  [
    "dc/volume2/indigo",
    ""
+  ],
+  [
+   "dc/volume2/in_recognition_of_his_courage_iron_munro",
+   "Initiative +9, Unarmed +9 (Cl"
   ],
   [
    "dc/volume2/johnny_sorrow",
@@ -5706,7 +3954,7 @@
   ],
   [
    "dc/volume2/martha_kent",
-   "Initiative +0, Attack +0 (Close, Damage -1) efense: Dodge 2, Parry 2, "
+   "Initiative +0, Attack +0 (Close, Damage -1) efense:"
   ],
   [
    "dc/volume2/max_mercury",
@@ -5715,14 +3963,6 @@
   [
    "dc/volume2/mister_mind",
    "i nitia tive +0 Telepathic Control Affliction, Will DC 22"
-  ],
-  [
-   "dc/volume2/mister_miracle",
-   ""
-  ],
-  [
-   "dc/volume2/mister_terrific_michael_holt",
-   ""
   ],
   [
    "dc/volume2/mon_el",
@@ -5775,10 +4015,6 @@
   [
    "dc/volume2/s_t_a_r_kilotrax",
    "Initiative +0"
-  ],
-  [
-   "dc/volume2/sandman_sanderson_hawkins",
-   ""
   ],
   [
    "dc/volume2/sapphire_stagg",
@@ -5955,10 +4191,6 @@
    "Aparar 5 < Lut 7"
   ],
   [
-   "dc/volume2/in_recognition_of_his_courage_iron_munro",
-   "Fortitude 1 < Vig 11"
-  ],
-  [
    "dc/volume1/manta_men",
    "Aparar 4 < Lut 6"
   ],
@@ -6041,10 +4273,6 @@
    ""
   ],
   [
-   "dc/volume2/magog",
-   ""
-  ],
-  [
    "dc/volume2/major_disaster",
    ""
   ],
@@ -6106,10 +4334,6 @@
   ],
   [
    "dc/volume2/poison_ivy",
-   ""
-  ],
-  [
-   "dc/volume2/professor_ivo",
    ""
   ],
   [
@@ -6271,39 +4495,11 @@
  ],
  "DC_SEM_PONTOS_PODER": [
   [
-   "dc/volume1/black_manta",
-   ""
-  ],
-  [
    "dc/volume2/bombshell",
    ""
   ],
   [
-   "dc/volume1/brainiac",
-   ""
-  ],
-  [
-   "dc/volume1/brother_blood_ix",
-   ""
-  ],
-  [
-   "dc/volume1/chronos_david_clinton",
-   ""
-  ],
-  [
-   "dc/volume1/circe",
-   ""
-  ],
-  [
    "dc/volume2/donna_troy",
-   ""
-  ],
-  [
-   "dc/volume1/elongated_man",
-   ""
-  ],
-  [
-   "dc/volume2/empress",
    ""
   ],
   [
@@ -6315,19 +4511,7 @@
    ""
   ],
   [
-   "dc/volume1/hitman",
-   ""
-  ],
-  [
    "dc/volume2/lobo",
-   ""
-  ],
-  [
-   "dc/volume2/lord_satanus",
-   ""
-  ],
-  [
-   "dc/volume2/magog",
    ""
   ],
   [
@@ -6351,14 +4535,6 @@
    ""
   ],
   [
-   "dc/volume2/mister_miracle",
-   ""
-  ],
-  [
-   "dc/volume2/mister_terrific_michael_holt",
-   ""
-  ],
-  [
    "dc/volume2/monarch",
    ""
   ],
@@ -6372,10 +4548,6 @@
   ],
   [
    "dc/volume2/nightshade",
-   ""
-  ],
-  [
-   "dc/volume2/orion",
    ""
   ],
   [
@@ -6395,10 +4567,6 @@
    ""
   ],
   [
-   "dc/volume2/professor_ivo",
-   ""
-  ],
-  [
    "dc/volume2/ragman",
    ""
   ],
@@ -6415,19 +4583,7 @@
    ""
   ],
   [
-   "dc/volume2/reverse_flash",
-   ""
-  ],
-  [
    "dc/volume2/robin",
-   ""
-  ],
-  [
-   "dc/volume2/saint_walker",
-   ""
-  ],
-  [
-   "dc/volume2/sandman_sanderson_hawkins",
    ""
   ],
   [
@@ -6436,10 +4592,6 @@
   ],
   [
    "dc/volume2/shrapnel",
-   ""
-  ],
-  [
-   "dc/volume2/silver_banshee",
    ""
   ],
   [
@@ -6456,10 +4608,6 @@
   ],
   [
    "dc/volume2/stargirl",
-   ""
-  ],
-  [
-   "dc/volume2/starman_thom_kallor",
    ""
   ],
   [
@@ -6499,10 +4647,6 @@
    ""
   ],
   [
-   "dc/volume1/the_demon",
-   ""
-  ],
-  [
    "dc/volume2/the_question_renee_montoya",
    ""
   ],
@@ -6516,10 +4660,6 @@
   ],
   [
    "dc/volume2/thorn",
-   ""
-  ],
-  [
-   "dc/volume2/trickster",
    ""
   ],
   [
@@ -6553,6 +4693,52 @@
   [
    "dc/volume2/zatanna",
    ""
+  ]
+ ],
+ "LIMITE_APARAR_RESIST": [
+  [
+   "dc/volume1/brainiac",
+   "10+18>26"
+  ],
+  [
+   "dc/volume1/cheetah_priscilla_rich",
+   "15+9>18"
+  ],
+  [
+   "dc/volume2/empress",
+   "12+6>16"
+  ],
+  [
+   "dc/volume1/hooty",
+   "10+0>8"
+  ],
+  [
+   "dc/volume1/natt_the_hat_walls",
+   "10+7>16"
+  ],
+  [
+   "dc/volume2/orange_lantern_construct",
+   "8+14>20"
+  ],
+  [
+   "dc/volume2/shadow_homunculus",
+   "10+11>20"
+  ],
+  [
+   "dc/volume2/starro_the_conqueror_p205",
+   "15+17>30"
+  ],
+  [
+   "dc/volume2/streaky_the_super_cat",
+   "10+12>20"
+  ],
+  [
+   "dc/volume2/the_tigress_paula_books",
+   "12+8>16"
+  ],
+  [
+   "dc/volume2/vigilante",
+   "10+9>18"
   ]
  ],
  "VANTAGENS_COM_TEXTO_ESTRANHO": [
@@ -6589,40 +4775,6 @@
    "(Agile Feint, Close Attack 4, Defensive Roll 5, Evasion 2, I"
   ]
  ],
- "LIMITE_APARAR_RESIST": [
-  [
-   "dc/volume1/cheetah_priscilla_rich",
-   "15+9>18"
-  ],
-  [
-   "dc/volume1/hooty",
-   "10+0>8"
-  ],
-  [
-   "dc/volume1/natt_the_hat_walls",
-   "10+7>16"
-  ],
-  [
-   "dc/volume2/orange_lantern_construct",
-   "8+14>20"
-  ],
-  [
-   "dc/volume2/starro_the_conqueror_p205",
-   "15+17>30"
-  ],
-  [
-   "dc/volume2/streaky_the_super_cat",
-   "10+12>20"
-  ],
-  [
-   "dc/volume2/the_tigress_paula_books",
-   "12+8>16"
-  ],
-  [
-   "dc/volume2/vigilante",
-   "10+9>18"
-  ]
- ],
  "DC_SEM_PERICIAS": [
   [
    "dc/volume2/drone_bee_swarms",
@@ -6630,10 +4782,6 @@
   ],
   [
    "dc/volume1/gernsback",
-   ""
-  ],
-  [
-   "dc/volume1/hitman",
    ""
   ],
   [
@@ -6654,10 +4802,6 @@
   ],
   [
    "dc/volume2/mercury",
-   ""
-  ],
-  [
-   "dc/volume2/mister_miracle",
    ""
   ],
   [

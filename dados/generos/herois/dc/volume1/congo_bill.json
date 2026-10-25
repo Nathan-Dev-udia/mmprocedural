@@ -25,5 +25,6 @@
     "ataques": "Initiative +8, Hunting Rifle +11 (Ranged, Damage 5, Critical 19-20), Unarmed +8 (Close, Damage 2)",
     "defesas": "Dodge 8, Parry 7, Fortitude 8, Toughness 8/3, Will 8",
     "pontos_poder": "Abilities 46 + Powers 1 + Advantages 20 + Skills 24 + Defenses 20 = 111"
-  }
+  },
+  "nome_pt": "Congo Bill"
 }

@@ -25,5 +25,6 @@
     "ataques": "Initiative +8, Assassin’s Strike +12 (Damage 6, Penetrating, Critical 17-20), Dual Desert Eagles +11 (Ranged Multiattack Damage 4)",
     "defesas": "Dodge 12, Parry 13, Fortitude 8, Toughness 5/3*, Will 10 * Without Defensive Roll.",
     "pontos_poder": "Abilities 50 + Powers 12 + Advantages 38 + Skills 24 + Defenses 27 = 151"
-  }
+  },
+  "nome_pt": "Alfa"
 }

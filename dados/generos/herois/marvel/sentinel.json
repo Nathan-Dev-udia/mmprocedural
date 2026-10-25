@@ -2,10 +2,10 @@
   "edicao_origem": "Mutants & Masterminds 2e",
   "edicao_destino": "Mutants & Masterminds 3e",
   "nome": "Sentinel",
-  "nome_pt": "Sentinel",
+  "nome_pt": "Sentinela",
   "nivel_poder": 10,
   "pontos_poder_origem": 130,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 175,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -36,45 +36,45 @@
     "poderes": [
       {
         "nome": "Growth 16",
-        "construcao_3e": "Growth 16, Continuous, Permanent, Innate; no Constitution bonus.",
+        "construcao_3e": "Crescimento 16 (Contínuo, Permanente, Inato; sem bônus de Constituição; 33 PP).",
         "custo_2e_pp": 33,
-        "custo_3e_pp": null,
-        "nome_pt": "Crescimento 16"
+        "custo_3e_pp": 33,
+        "nome_pt": "Tamanho Gigante (Crescimento 16)"
       },
       {
         "nome": "Blast 10",
-        "construcao_3e": "Blast 10, Line Area; Alternate Effects: Ranged Cone Area Paralyze 10, Explosive Area Snare 10, holofote.",
+        "construcao_3e": "Armamento Sentinela: Dano à Distância 10 em Linha de Área (20 PP); Efeitos Alternativos: Aflição Paralisante em Cone 10 (1 PP), Aflição Snare em Área 10 (1 PP) e Holofotes/Sensores (11 PP) = 33 PP.",
         "custo_2e_pp": 33,
-        "custo_3e_pp": null,
-        "nome_pt": "Rajada de Energia 10"
+        "custo_3e_pp": 33,
+        "nome_pt": "Armamento de Rajadas e Contenção (Array)"
       },
       {
         "nome": "Immunity 30",
-        "construcao_3e": "Immunity to Fortitude effects.",
+        "construcao_3e": "Imunidade 30 (Efeitos de Fortitude; 30 PP).",
         "custo_2e_pp": 30,
         "custo_3e_pp": 30,
-        "nome_pt": "Imunidade 30"
+        "nome_pt": "Imunidade de Construto Robótico"
       },
       {
         "nome": "Flight 4",
-        "construcao_3e": "Flight 4.",
+        "construcao_3e": "Voo 4 (8 PP).",
         "custo_2e_pp": 8,
         "custo_3e_pp": 8,
-        "nome_pt": "Voo 4"
+        "nome_pt": "Voo por Propulsão"
       },
       {
         "nome": "Super-Senses 3",
-        "construcao_3e": "Extended 2, Mutant Awareness.",
+        "construcao_3e": "Sentidos 3 (Consciência de Mutantes, Estendido 2; 3 PP).",
         "custo_2e_pp": 3,
         "custo_3e_pp": 3,
-        "nome_pt": "Super-Sentidos 3"
+        "nome_pt": "Detectores de Mutantes (Super-Sentidos)"
       },
       {
         "nome": "Protection 12",
-        "construcao_3e": "Protection 12, Impervious, Ablative.",
+        "construcao_3e": "Proteção 12 Impenetrável 12 Ablativa (12 PP).",
         "custo_2e_pp": 12,
-        "custo_3e_pp": null,
-        "nome_pt": "Proteção 12"
+        "custo_3e_pp": 12,
+        "nome_pt": "Blindagem Impenetrável Ablativa"
       }
     ],
     "equipamento": [],
@@ -101,13 +101,11 @@
   },
   "custos_3e": {
     "habilidades": 38,
+    "poderes": 119,
     "defesas": 14,
     "pericias": 4,
     "vantagens": 0,
-    "poderes_conhecidos": 41,
-    "subtotal_conhecido": 97,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 175
   },
   "notas_conversao": [
     "Nenhuma vantagem foi removida.",
@@ -115,6 +113,7 @@
     "Valores ausentes foram mantidos como null/sem defesa comprada, não tratados como 0 ranks de atributo. Attack +2 com efeito 10 é legal; Esquiva/Aparar 8 + Resistência 12 = 20.",
     "A ficha apresenta Abilities −26 no total e Immunity 30 contra efeitos de Fortitude; nenhum atributo ou defesa ausente foi inventado.",
     "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +15/+0/—/—/+2/—. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
-    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
+    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos.",
+    "Poderes convertidos e fechados para M&M 3e (Lote 8). Crescimento gigante colossal, armamento de contenção e rajadas, blindagem impenetrável ablativa, imunidade de construto e detectores de mutantes consolidados."
   ]
-}
+}

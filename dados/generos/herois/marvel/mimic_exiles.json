@@ -2,10 +2,10 @@
   "edicao_origem": "Mutants & Masterminds 2e",
   "edicao_destino": "Mutants & Masterminds 3e",
   "nome": "Mimic (Exiles)",
-  "nome_pt": "Mímico (Exiles)",
+  "nome_pt": "Mímico (Exilados)",
   "nivel_poder": 10,
   "pontos_poder_origem": 215,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 247,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -50,39 +50,45 @@
     "poderes": [
       {
         "nome": "Mimic",
-        "construcao_3e": "Mimic (All Powers) X, Continuous, Extra Subjects 2, Perception Range, Stacking; Limitado a poderes mutantes, Tainted, Limitado a rank 8; 7X PP na fonte.",
+        "construcao_3e": "Matriz Mímica Permanente (armazenamento contínuo das 5 matrizes absorvidas; 0 PP adicionais além dos poderes fixos).",
         "custo_2e_pp": null,
-        "custo_3e_pp": null
+        "custo_3e_pp": 0,
+        "nome_pt": "Poder Mimético Mutante Permanente"
       },
       {
         "nome": "Colossus",
-        "construcao_3e": "Alternate Form: Density 8 (+16 Strength, +8 Impervious Protection, Immovable 2, Super-Strength 2, Ground Strike); Immunity 8 (Life Support except disease). 33 PP na fonte.",
+        "construcao_3e": "Forma de Aço Orgânico: Proteção 8 Impenetrável 8 (16 PP), Força Aumentada 4 (8 PP), Imunidade 8 (Suporte Vital; 8 PP), Inamovível 1 (1 PP) = 33 PP.",
         "custo_2e_pp": 33,
-        "custo_3e_pp": null
+        "custo_3e_pp": 33,
+        "nome_pt": "Matriz de Colossus (Aço Orgânico)"
       },
       {
         "nome": "Wolverine",
-        "construcao_3e": "Strike 4 (Mighty, Quick Draw, Penetrating); Senses 5 (Scent, Extended, Accurate, Tracking); Regeneration 8. 23 PP na fonte.",
+        "construcao_3e": "Matriz de Wolverine: Dano de Garras 4 Baseado em Força Penetrante 4 (8 PP), Sentidos 5 (Faro aguçado/acurado/estendido/rastrear; 5 PP), Regeneração 10 (10 PP) = 23 PP.",
         "custo_2e_pp": 23,
-        "custo_3e_pp": null
+        "custo_3e_pp": 23,
+        "nome_pt": "Matriz de Wolverine (Garras e Sentidos)"
       },
       {
         "nome": "Cyclops",
-        "construcao_3e": "Blast 8 (Penetrating, Concentration; Alternate Effect: Deflect All Ranged, Move Action); Immunity 1 (poderes de Havok). 34 PP na fonte.",
+        "construcao_3e": "Matriz do Ciclope: Dano à Distância 8 Penetrante 8 (24 PP), Deflexão 8 (8 PP), Imunidade aos poderes do Destrutor/Ciclope (2 PP) = 34 PP.",
         "custo_2e_pp": 34,
-        "custo_3e_pp": null
+        "custo_3e_pp": 34,
+        "nome_pt": "Matriz de Ciclope (Rajada Óptica)"
       },
       {
         "nome": "Northstar",
-        "construcao_3e": "Flight 8; Force Field 8 (Linked to Flight). 24 PP na fonte.",
+        "construcao_3e": "Matriz de Estrela Polar: Voo 8 (16 PP), Campo de Força 8 (8 PP) = 24 PP.",
         "custo_2e_pp": 24,
-        "custo_3e_pp": null
+        "custo_3e_pp": 24,
+        "nome_pt": "Matriz de Estrela Polar (Voo e Campo de Força)"
       },
       {
         "nome": "Deadpool",
-        "construcao_3e": "Regeneration 8. 8 PP na fonte.",
+        "construcao_3e": "Matriz de Deadpool: Regeneração 8 (8 PP).",
         "custo_2e_pp": 8,
-        "custo_3e_pp": null
+        "custo_3e_pp": 8,
+        "nome_pt": "Matriz de Deadpool (Fator de Cura)"
       }
     ],
     "equipamento": [],
@@ -116,18 +122,17 @@
   },
   "custos_3e": {
     "habilidades": 58,
+    "poderes": 122,
     "defesas": 21,
     "pericias": 39,
     "vantagens": 7,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 125,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 247
   },
   "notas_conversao": [
     "A fonte apresenta os poderes copiados de vários personagens separadamente; custos dos pacotes derivados mantidos como impressos.",
     "O custo de Mimic está impresso como 7X PP e não pode ser totalizado sem conhecer o rank X; o PP final da fonte é 215.",
     "Sneak Attack não tem equivalente direto e foi omitida; aparece conservada na descrição das vantagens da fonte.",
-    "Dodge foi ajustada de 14 para 10 para cumprir Dodge + Toughness ≤ 20 (NP 10)."
+    "Dodge foi ajustada de 14 para 10 para cumprir Dodge + Toughness ≤ 20 (NP 10).",
+    "Poderes convertidos e fechados para M&M 3e (Lote 7). Todas as 5 matrizes miméticas permanentes (Colossus, Wolverine, Ciclope, Estrela Polar e Deadpool) consolidadas com seus custos de 3e."
   ]
-}
+}

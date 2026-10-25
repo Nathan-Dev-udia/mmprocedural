@@ -2,10 +2,10 @@
   "edicao_origem": "Mutants & Masterminds 2e",
   "edicao_destino": "Mutants & Masterminds 3e",
   "nome": "Silver Samurai",
-  "nome_pt": "Silver Samurai",
+  "nome_pt": "Samurai de Prata",
   "nivel_poder": 10,
   "pontos_poder_origem": 150,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 162.5,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -69,17 +69,17 @@
       },
       {
         "nome": "Strike",
-        "construcao_3e": "Damage (rank 2e 8); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Strike 8 (Extras: Penetrating [+1], Auto- Fire [+1]; Flaw: Requires a Sword [-1]; Alternate Powers: Corrosion; Power Feats: Improved Critical (4); 21pp) Componentes/efeitos alternativos mapeados: Corrosion → Weaken Toughness ligado a Damage.; custo 2e impresso 21 PP.",
+        "construcao_3e": "Dano 8 baseado em Força (Penetrante, Multiataque; Falha: Requer Espada [-1/graduação], Crítico Aprimorado 4; 20 PP); Efeito Alternativo: Corrosão em Táquions (1 PP) = 21 PP (custo original da fonte preservado).",
         "custo_2e_pp": 21,
-        "custo_3e_pp": null,
-        "nome_pt": "Golpe"
+        "custo_3e_pp": 21,
+        "nome_pt": "Campo de Táquions na Katana"
       },
       {
         "nome": "Super Strength",
         "construcao_3e": "Power-Lifting 3.",
         "custo_2e_pp": 6,
         "custo_3e_pp": 3,
-        "nome_pt": "Super-Força"
+        "nome_pt": "Super-Força / Poder de Carga"
       }
     ],
     "equipamento": [
@@ -120,13 +120,11 @@
   },
   "custos_3e": {
     "habilidades_base": 56,
+    "poderes": 34,
     "defesas": 14,
     "pericias": 39.5,
     "vantagens": 19,
-    "poderes_conhecidos": 13,
-    "subtotal_conhecido": 141.5,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 162.5
   },
   "notas_conversao": [
     "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
@@ -140,6 +138,7 @@
     "Defesas reduzidas por limite de NP 10: Esquiva 16→11 e Aparar 11→11; cada defesa ativa + Resistência 9 ≤ 20.",
     "Channeled Katana: efeito ajustado de 8 para 7 para cumprir Ataque + efeito ≤ 20.",
     "Subtotal 3e conhecido: 66 PP em habilidades, 79 em perícias, 42 em defesas, 19 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
-    "Correção de custo: as perícias somam 79 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 79 para 39.5 PP (subtotal e totais ajustados em -39.5)."
+    "Correção de custo: as perícias somam 79 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 79 para 39.5 PP (subtotal e totais ajustados em -39.5).",
+    "Poderes fechados em 3e: Campo de Táquions fechado em 21 PP + Força (10 PP) + Carga (3 PP) = 34 PP poderes. Total 3e: 162.5 PP."
   ]
 }

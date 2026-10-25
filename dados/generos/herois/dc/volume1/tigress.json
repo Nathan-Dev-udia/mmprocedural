@@ -25,5 +25,6 @@
     "ataques": "Initiative +9, Crossbow +12 (Damage 3), Knives +14 (Damage 6, Crit. 19-20), Unarmed +14 (Damage 4)",
     "defesas": "Dodge 14, Parry 14, Fortitude 8, Toughness 6/4, Will 8",
     "pontos_poder": "Abilities 74 + Powers 8 + Advantages 25 + Skills 41 + Defenses 20 = 168"
-  }
+  },
+  "nome_pt": "Tigress"
 }

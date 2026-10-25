@@ -25,5 +25,6 @@
     "defesas": "Dodge 6 Fortitude 12 Parry 8 Toughness 12 Will 6",
     "pontos_poder": "Abilities 38 Skills 27 Powers 65 Defenses 14 Advantages 6 ToTal 150",
     "complicacoes": "Locked Form: When Hawk has a -5 or greater penalty to Toughness checks against damage or is suffering a harmful condition, he cannot transform back into Hank Hall. Imbalance: If Hawk spends too much time away from Dove, he starts losing Will defense and goes slowly insane with fury. Rage: Hawk can lose himself in combat. A natural result of 1 or 20 on an attack sends him on a rage, losing his active defenses until his next turn."
-  }
+  },
+  "nome_pt": "Hawk"
 }

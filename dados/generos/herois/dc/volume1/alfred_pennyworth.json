@@ -23,5 +23,6 @@
     "ataques": "Initiative +0, Shotgun +5 (Damage 5) Unarmed +5 (Damage 0)",
     "defesas": "Dodge 3, Parry 3, Fortitude 4, Toughness 1, Will 6",
     "pontos_poder": "Abilities 26 + Advantages 4 + Skills 23 + Defenses 9 = 62"
-  }
+  },
+  "nome_pt": "Alfred Pennyworth"
 }

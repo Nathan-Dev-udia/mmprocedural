@@ -2,10 +2,10 @@
   "edicao_origem": "Mutants & Masterminds 2e",
   "edicao_destino": "Mutants & Masterminds 3e",
   "nome": "White Queen",
-  "nome_pt": "White Queen",
+  "nome_pt": "Rainha Branca (Emma Frost)",
   "nivel_poder": 10,
   "pontos_poder_origem": 165,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 176.5,
   "status_conversao": "convertida",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -54,10 +54,10 @@
     "poderes": [
       {
         "nome": "Telepathy",
-        "construcao_3e": "Mind Reading + Mental Communication (rank 2e 10); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Telepathy 10 (Dynamic; Extras: Free Action [+2], Comprehend (2); Power Feat: Subtle; Alternate Powers: ESP [Telepathy] – Dynamic, Mental Blast 10 – Dynamic, Mind Shield – Dynamic, Astral Form 11 [Dimensional] – Dynamic, Emotion Control 10 – Dynamic, Free Action Phantasm Illusion [All Senses] 10 – Dynamic, Alternate Form [Solid] 11; 57pp) Componentes/efeitos alternativos mapeados: Blast → Damage à distância; Emotion Control → Affliction resistida por Vontade; Mind Shield → Enhanced Will/Impervious ou Immunity conforme descritores.; custo 2e impresso 57 PP.",
+        "construcao_3e": "Telepatia 10 Dinâmica (40 PP); Efeitos Alternativos Dinâmicos: Rajada Mental (2 PP), Escudo Mental (2 PP), Projeção Astral (2 PP), Controle Emocional (2 PP), Ilusão Fantasma (2 PP), Forma Alternativa Sólida de Diamante (7 PP). Array total: 57 PP (custo original da fonte preservado).",
         "custo_2e_pp": 57,
-        "custo_3e_pp": null,
-        "nome_pt": "Telepatia"
+        "custo_3e_pp": 57,
+        "nome_pt": "Telepatia e Forma de Diamante"
       }
     ],
     "equipamento": [
@@ -96,13 +96,11 @@
   },
   "custos_3e": {
     "habilidades": 44,
+    "poderes": 57,
     "defesas": 9,
     "pericias": 52.5,
     "vantagens": 14,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 119.5,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 176.5
   },
   "notas_conversao": [
     "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
@@ -111,6 +109,7 @@
     "Nenhuma Motivação ou complicação não publicada foi acrescentada.",
     "Habilidades 2e sem perícia 3e direta foram omitidas, conforme o guia: Concentration.",
     "Subtotal 3e conhecido: 44 PP em habilidades, 105 em perícias, 22 em defesas, 14 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
-    "Correção de custo: as perícias somam 105 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 105 para 52.5 PP (subtotal e totais ajustados em -52.5)."
+    "Correção de custo: as perícias somam 105 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 105 para 52.5 PP (subtotal e totais ajustados em -52.5).",
+    "Poderes fechados em 3e: Telepatia e Forma de Diamante fechadas em 57 PP. Total 3e: 176.5 PP."
   ]
 }

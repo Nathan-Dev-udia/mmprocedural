@@ -26,5 +26,6 @@
     "defesas": "Dodge 12/10* Fortitude 10 Parry 12/10* Toughness 10/9** Will 11 *Without shield. **Without Defensive Roll.",
     "pontos_poder": "Abilities 7 8 Skills 42 Powers 25 Defenses 17 Advantages 21 ToTal 183",
     "complicacoes": "Motivation: Justice. Power Loss: While Hawkwoman has access to high-tech Thangarian weapons, she is often unable to use them due to legal restrictions or concerns they might fall into enemy hands. Prejudice: Hawkwoman comes from one of the lower social castes on planet Thanagar. In addition, she may encounter sexist attitudes as a woman on the Thanagarian police force or for being an illegitimate child born out of wedlock under scandalous circumstances."
-  }
+  },
+  "nome_pt": "Hawkwoman"
 }

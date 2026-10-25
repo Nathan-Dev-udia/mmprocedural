@@ -1,28 +1,31 @@
-{
-  "nome": "Empress",
-  "sistema": "DC Adventures / Mutants & Masterminds 3e",
-  "nivel_poder": 8,
-  "pontos_poder_publicados": null,
-  "fonte": {
-    "arquivo": "dc adventures heroes and villains vol 2.pdf",
-    "pagina_pdf": 278
-  },
-  "ficha_publicada": {
-    "habilidades": {
-      "STR": "1",
-      "STA": "3",
-      "AGL": "3",
-      "DEX": "3",
-      "FGT": "8",
-      "INT": "2",
-      "AWE": "3",
-      "PRE": "2"
-    },
-    "poderes": "t he V oice (Hearing-Dependent Perception-Range Affliction 8 (Resisted by Will; Dazed, Compelled, Controlled)); Voodoo (Teleport 8 (1 mile), Distracting)",
-    "equipamento": "Body Armor (Protection 2), Sword-Baton (Strength-based Damage 2)",
-    "vantagens": "Agile Feint, All-out Attack, Defensive Attack, Defensive Roll, Equipment, Evasion, Improved Defense, Improved Disarm, Improved Initiative, Improved Trip, Move-by Action, Power Attack, Ritualist, Seize Initiative, Takedown, Weapon Bind",
-    "pericias": "Acrobatics 6 (+9), Athletics 6 (+7), Close Combat: Sword- Baton 5 (+13), Deception 6 (+8), Expertise: Magic 6 (+8), Insight 5 (+8), Intimidation 4 (+6), Investigation 4 (+8), Perception 6 (+9), Persuasion 4 (+6), Stealth 5 (+8), Treatment 3 (+5), Vehicles 4 (+7)",
-    "ataques": "Initiative +7, Sword-Baton +13 (Close, Damage 3), Unarmed +8 (Close, Damage 1) efense: Dodge 11, Parry 12, Fortitude 6, Toughness 6/3*, Will d 8 *Without Defensive Roll. Abilities 50+ Powers 24 + Advantages 16 + Skills 32 + t otals Defenses 20 = 142",
-    "complicacoes": "f atters : Empress has to deal with amily M being the daughter of a government agent and granddaughter of a supervillain."
-  }
-}
+{
+  "nome": "Empress",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 8,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 278
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "3",
+      "AGL": "3",
+      "DEX": "3",
+      "FGT": "8",
+      "INT": "2",
+      "AWE": "3",
+      "PRE": "2"
+    },
+    "poderes": "t he V oice (Hearing-Dependent Perception-Range Affliction 8 (Resisted by Will; Dazed, Compelled, Controlled)); Voodoo (Teleport 8 (1 mile), Distracting)",
+    "equipamento": "Body Armor (Protection 2), Sword-Baton (Strength-based Damage 2)",
+    "vantagens": "Agile Feint, All-out Attack, Defensive Attack, Defensive Roll, Equipment, Evasion, Improved Defense, Improved Disarm, Improved Initiative, Improved Trip, Move-by Action, Power Attack, Ritualist, Seize Initiative, Takedown, Weapon Bind",
+    "pericias": "Acrobatics 6 (+9), Athletics 6 (+7), Close Combat: Sword- Baton 5 (+13), Deception 6 (+8), Expertise: Magic 6 (+8), Insight 5 (+8), Intimidation 4 (+6), Investigation 4 (+8), Perception 6 (+9), Persuasion 4 (+6), Stealth 5 (+8), Treatment 3 (+5), Vehicles 4 (+7)",
+    "ataques": "Initiative +7, Sword-Baton +13 (Close, Damage 3), Unarmed +8 (Close, Damage 1) efense:",
+    "complicacoes": "f atters : Empress has to deal with amily M being the daughter of a government agent and granddaughter of a supervillain.",
+    "defesas": "Dodge 11, Parry 12, Fortitude 6, Toughness 6/3*, Will 8 *Without Defensive Roll.",
+    "pontos_poder": "Abilities 50+ Powers 24 + Advantages 16 + Skills 32 + t otals Defenses 20 = 142"
+  },
+  "nome_pt": "Imperatriz"
+}

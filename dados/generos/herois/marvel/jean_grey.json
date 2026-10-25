@@ -5,7 +5,7 @@
   "nome_pt": "Jean Grey",
   "nivel_poder": 10,
   "pontos_poder_origem": 150,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 151,
   "status_conversao": "convertida",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -57,10 +57,10 @@
     "poderes": [
       {
         "nome": "Telepathy Array",
-        "construcao_3e": "Telepathy 10 dinâmico (Free Action); Efeitos Alternativos: Force Field 14 (Impervious, Shapeable Area), ESP (Audio, Visual, Telepathy), Mental Blast, Mind Control, Telekinesis (Damaging), Blast 12 (Move Action, Concentration, Indirect), Astral Form 10 (Dimensional), Mind Shield. 57 PP na fonte.",
+        "construcao_3e": "Telepatia 10 Dinâmica (Leitura Mental 10 + Comunicação Mental 10; 40 PP); Efeitos Alternativos Dinâmicos: Campo de Força 14 Impenetrável (2 PP), Telecinese com Dano (2 PP), Rajada Mental (2 PP), Controle Mental (2 PP), Sentidos Remotos (2 PP), Projeção Astral (2 PP), Escudo Mental e Rajada de Força (5 PP). Array total: 57 PP (custo original da fonte preservado).",
         "custo_2e_pp": 57,
-        "custo_3e_pp": null,
-        "nome_pt": "Telepatia Array"
+        "custo_3e_pp": 57,
+        "nome_pt": "Telepatia e Telecinese Dinâmica"
       }
     ],
     "equipamento": [
@@ -90,17 +90,16 @@
   },
   "custos_3e": {
     "habilidades": 36,
+    "poderes": 57,
     "defesas": 11,
     "pericias": 34,
     "vantagens": 13,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 94,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 151
   },
   "notas_conversao": [
     "Concentration 12 (+16) não tem perícia equivalente independente em 3e e foi omitida.",
     "Attack +8 com Blast 12 respeita o limite de NP 10. Toughness +5/+2 foi preservado pelo maior valor impresso; o uniforme não foi somado novamente.",
-    "Second Chance (Concentration Checks) foi omitida porque Concentration não tem perícia ou teste independente equivalente na 3e."
+    "Second Chance (Concentration Checks) foi omitida porque Concentration não tem perícia ou teste independente equivalente na 3e.",
+    "Poderes fechados em 3e: Array de Telepatia e Telecinese Dinâmica fechado em 57 PP. Total 3e: 151 PP."
   ]
 }

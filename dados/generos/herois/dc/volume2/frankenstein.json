@@ -26,5 +26,6 @@
     "defesas": "Dodge 8, Parry 8, Fortitude Immune, Toughness 16, Will 8",
     "pontos_poder": "Abilities 86 + Powers 58 + Advantages 8 + Skills 29 + Defenses 10 = 191",
     "complicacoes": "r epulsive: Frankenstein is ugly and off-putting and his appearance always inspires fear and revulsion in others. Vulnerability: Magic like that of Klarion the Witch Boy’s witch-brand benefits from an additional level of success against Frankenstein."
-  }
+  },
+  "nome_pt": "Frankenstein"
 }

@@ -1,25 +1,27 @@
-{
-  "nome": "Martha Kent",
-  "sistema": "DC Adventures / Mutants & Masterminds 3e",
-  "nivel_poder": 2,
-  "pontos_poder_publicados": 28,
-  "fonte": {
-    "arquivo": "dc adventures heroes and villains vol 2.pdf",
-    "pagina_pdf": 221
-  },
-  "ficha_publicada": {
-    "habilidades": {
-      "STR": "–",
-      "STA": "0",
-      "AGL": "0",
-      "DEX": "1",
-      "FGT": "0",
-      "INT": "1",
-      "AWE": "2",
-      "PRE": "2"
-    },
-    "pericias": "Expertise: Farming 6 (+7), Insight 6 (+8), Perception 5 (+7), Persuasion 5 (+7), Technology 2 (+3)",
-    "ataques": "Initiative +0, Attack +0 (Close, Damage -1) efense: Dodge 2, Parry 2, Fortitude 1, Toughness 0, Will 3 d Abilities 10 + Powers 0 + Advantages 0 + Skills 12 +",
-    "pontos_poder": "Defenses 6 = Total 28"
-  }
-}
+{
+  "nome": "Martha Kent",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 2,
+  "pontos_poder_publicados": 28,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 221
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "–",
+      "STA": "0",
+      "AGL": "0",
+      "DEX": "1",
+      "FGT": "0",
+      "INT": "1",
+      "AWE": "2",
+      "PRE": "2"
+    },
+    "pericias": "Expertise: Farming 6 (+7), Insight 6 (+8), Perception 5 (+7), Persuasion 5 (+7), Technology 2 (+3)",
+    "ataques": "Initiative +0, Attack +0 (Close, Damage -1) efense:",
+    "pontos_poder": "Defenses 6 = Total 28",
+    "defesas": "Dodge 2, Parry 2, Fortitude 1, Toughness 0, Will 3 d"
+  },
+  "nome_pt": "Martha Kent"
+}

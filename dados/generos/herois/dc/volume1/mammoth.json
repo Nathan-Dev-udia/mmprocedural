@@ -23,5 +23,6 @@
     "defesas": "Dodge 4, Parry 4, Fortitude 18, Toughness 18, Will 2",
     "pontos_poder": "Abilities 44 + Powers 23 + Advantages 9 + Skills 14 + Defenses 17 = 107",
     "complicacoes": "Simple: Mammoth is simple-minded and lacks the ability to understand complicated plans and ideas. This makes him easy to lead, but hard to predict...especially when tricked or lied to."
-  }
+  },
+  "nome_pt": "Mammoth"
 }

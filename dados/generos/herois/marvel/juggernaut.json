@@ -5,7 +5,7 @@
   "nome_pt": "Fanático",
   "nivel_poder": 14,
   "pontos_poder_origem": 210,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 224,
   "status_conversao": "convertida",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -45,44 +45,45 @@
     "poderes": [
       {
         "nome": "Enhanced Strength",
-        "construcao_3e": "Enhanced Trait: Strength 11 (somado a Growth 4 para elevar o valor base 2 ao valor final 17).",
+        "construcao_3e": "Característica Aprimorada: Força 11 (22 PP).",
         "custo_2e_pp": 22,
         "custo_3e_pp": 22,
-        "nome_pt": "Força Aumentada"
+        "nome_pt": "Força Aumentada Mística"
       },
       {
         "nome": "Super-Strength",
-        "construcao_3e": "Super-Strength 3 (Ground Strike).",
+        "construcao_3e": "Super-Força / Power-Lifting 5 (5 PP) + Dano em Área no Solo / Ground Strike (2 PP) = 7 PP.",
         "custo_2e_pp": 7,
-        "custo_3e_pp": null,
-        "nome_pt": "Super-Força"
+        "custo_3e_pp": 7,
+        "nome_pt": "Super-Força e Impacto Terrestre"
       },
       {
         "nome": "Growth",
-        "construcao_3e": "Growth 4 (Large; +8 Strength, +4 Constitution; Innate, Permanent).",
+        "construcao_3e": "Crescimento 4 (Permanente, Inato; 9 PP).",
         "custo_2e_pp": 9,
-        "custo_3e_pp": null,
-        "nome_pt": "Crescimento"
+        "custo_3e_pp": 9,
+        "nome_pt": "Crescimento Físico e Massa"
       },
       {
         "nome": "Immunity",
-        "construcao_3e": "Immunity 89 (todos os danos físicos e energéticos letais e não letais; Life Support).",
+        "construcao_3e": "Imunidade 89 (Imunidade a Danos Físicos e Energéticos 80 PP + Suporte Vital Completo 9 PP = 89 PP).",
         "custo_2e_pp": 89,
-        "custo_3e_pp": null,
-        "nome_pt": "Imunidade"
+        "custo_3e_pp": 89,
+        "nome_pt": "Imunidade Sobrenatural de Cyttorak"
       },
       {
         "nome": "Helmet",
-        "construcao_3e": "Device Removable: Immunity 10 (efeitos mentais).",
+        "construcao_3e": "Dispositivo Removível: Imunidade 10 (Efeitos Mentais; 8 PP).",
         "custo_2e_pp": 8,
-        "custo_3e_pp": 8
+        "custo_3e_pp": 8,
+        "nome_pt": "Elmo de Cyttorak"
       },
       {
         "nome": "Immovable",
-        "construcao_3e": "Immovable 7 (Unstoppable).",
+        "construcao_3e": "Inamovível / Imparável 7 (Imunidade a ser parado ou desviado de sua trajetória enquanto em movimento, Resistência Absoluta a empurrões; 14 PP).",
         "custo_2e_pp": 14,
-        "custo_3e_pp": null,
-        "nome_pt": "Inamovível"
+        "custo_3e_pp": 14,
+        "nome_pt": "Força Irrefreável (Inamovível)"
       }
     ],
     "equipamento": [],
@@ -114,17 +115,16 @@
   },
   "custos_3e": {
     "habilidades_base": 10,
+    "poderes": 149,
     "defesas": 35,
     "pericias": 16,
     "vantagens": 14,
-    "poderes_conhecidos": 30,
-    "subtotal_conhecido": 105,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 224
   },
   "notas_conversao": [
     "Attack Focus (Melee) 9 convertido em Close Attack 9. Fast Overrun substituído por Move-by Action. Improved Overrun não tem equivalente e foi omitida.",
     "A fonte tem base STR +17 e Enhanced Strength 22, além de Growth; dano desarmado +17 impresso foi mantido. Seu ataque +11 e dano 17 atingem o limite de NP 14.",
-    "Dodge Focus 8 foi convertido em graduações de Dodge: Dodge 18, Parry 10; ambos respeitam NP 14."
+    "Dodge Focus 8 foi convertido em graduações de Dodge: Dodge 18, Parry 10; ambos respeitam NP 14.",
+    "Poderes convertidos e fechados para M&M 3e (Lote 7). Imunidade total de Cyttorak, força irrefreável inamovível, elmo protetor e super-força consolidados."
   ]
-}
+}

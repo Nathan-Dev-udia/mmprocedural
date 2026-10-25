@@ -20,6 +20,11 @@
     },
     "poderes": "Immortality: Immunity 1 (Aging) • 1 point Magic: Array (34 points) Magic Blast: Ranged Damage 17 • 34 points • Bestiamorph: Ranged Affliction 8 (Resisted by Will; Dazed, Compelled, Transformed), Progressive • 1 point • Mystic Passage: Teleport 11 (8 miles), Accurate • 1 point • Spell of Sleep: Ranged Affliction 17 (Resisted by Fortitude; Dazed, Stunned, Asleep)• 1 point • Veil of Illusion: Illusion 6 (All Senses), Area 4, Selective • 1 point Mystic Shield: Protection 8, Impervious, Sustained • 16 points",
     "vantagens": "Artificer, Attractive, Daze (Deception), Fascinate (Deception), Ritualist",
-    "pericias": "Deception 10 (+14), Expertise: Magic 15 (+18), Insight 6 (+10), Intimidation 4 (+8), Perception 4 (+8), Persuasion 10 (+14), Ranged Combat: Magic 8 (+11), Treatment 7 (+10) took the lost Amazon tribe of Bana-Mighdall and used them to cause strife on Themyscira. She even cast a spell on New York City to transform all male super heroes into her bestia - morphs, but Wonder Woman and an alliance of super hero - ines defeated her."
-  }
+    "pericias": "Deception 10 (+14), Expertise: Magic 15 (+18), Insight 6 (+10), Intimidation 4 (+8), Perception 4 (+8), Persuasion 10 (+14), Ranged Combat: Magic 8 (+11), Treatment 7 (+10)",
+    "ataques": "Initiative +2, Magic Blast +11 (Ranged, Damage 17), Bestiamorph Affliction +11 (Ranged, Transformed), Unarmed +3 (Close, Damage 0)",
+    "defesas": "Dodge 11, Fortitude 11, Parry 11, Toughness 11/3* (Impervious 8), Will 17 *Without Mystic Shield.",
+    "pontos_poder": "Abilities 44 + Powers 115 + Advantages 5 + Skills 24 + Defenses 30 = 218",
+    "complicacoes": "Motivation: Hatred of Amazons and Wonder Woman. Arrogance: Vast pride in her immortal sorcery."
+  },
+  "nome_pt": "Circe"
 }

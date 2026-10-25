@@ -25,5 +25,6 @@
     "defesas": "Dodge 10, Parry 10, Fortitude Immune, Toughness 10, Will 8",
     "pontos_poder": "Abilities 66 + Powers 103 + Advantages 5 + Skills 18 + Defenses 17 = 209",
     "complicacoes": "Self- d estruct: Manhunters contain a deadly, nuclear-level self-destruct device to be employed as a defense against capture. Using this ability destroys the Manhunter utterly. Burst Area 8 Damage 15, Triggered (timer)."
-  }
+  },
+  "nome_pt": "Os Caçadores Cósmicos"
 }

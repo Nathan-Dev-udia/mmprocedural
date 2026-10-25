@@ -1,26 +1,28 @@
-{
-  "nome": "Martian Manhunter",
-  "sistema": "DC Adventures / Mutants & Masterminds 3e",
-  "nivel_poder": 14,
-  "pontos_poder_publicados": 306,
-  "fonte": {
-    "arquivo": "dc adventures heroes and villains vol 2.pdf",
-    "pagina_pdf": 45
-  },
-  "ficha_publicada": {
-    "habilidades": {
-      "STR": "16",
-      "STA": "10",
-      "AGL": "2",
-      "DEX": "2",
-      "FGT": "8",
-      "INT": "3",
-      "AWE": "4",
-      "PRE": "3"
-    },
-    "poderes": "f Flight 13 (16,000 MPH) • 26 points ligh t: • Space f ligh t: Movement 1 (Space Travel 1) • 1 point Martian d ur ability: Protection 3, Impervious • 6 points Martian Morphology: Array (20 points), Dynamic • i n tangibility: Insubstantial 4, Dynamic • 21 points • d ensity: Protection 2, Impervious Toughness 15, Sustained, Dynamic • 2 points • i n visibility: Visual Concealment 4, Dynamic • 2 points • Shapeshifting: Morph (any form) 4, Dynamic • 2 points Martian Senses: Super-Senses 7 (Extended Vision 2, Mental Awareness, Vision Penetrates Concealment) • 7 points Martian Strength: Power-lifting 4 (Lifting Str20; 25,000 tons) • 4 points Martian Vision: Ranged Damage 11 (force) • 22 points t elepa thy: Mental Communication 5, Mind Reading 11 • 31 points a V ant G d a e S Contacts, Great Endurance, Leadership, Power Attack, Teamwork, Trance",
-    "pericias": "Close Combat: Unarmed 4 (+12), Insight 8 (+12), Intimidation 5 (+8), Investigation 10 (+13), Perception 8 (+12), Persuasion 5 (+8), Ranged Combat: Martian Vision 8 (+10), Stealth 4 (+6), Technology 4 (+7), Vehicles 4 (+6)",
-    "ataques": "i nitia tive +2 Martin Vision +10 Ranged, Damage 11 Unarmed +12 Close, Damage 16 efen S e d d odge 12 f or titude 13 Parry 13 t oughness 13 W ill 15",
-    "pontos_poder": "a bilities 96 S kills 30 Powers 145 d efenses 29 a dv antages 6 ToTal 306"
-  }
-}
+{
+  "nome": "Martian Manhunter",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 14,
+  "pontos_poder_publicados": 306,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 45
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "16",
+      "STA": "10",
+      "AGL": "2",
+      "DEX": "2",
+      "FGT": "8",
+      "INT": "3",
+      "AWE": "4",
+      "PRE": "3"
+    },
+    "poderes": "f Flight 13 (16,000 MPH) • 26 points ligh t: • Space f ligh t: Movement 1 (Space Travel 1) • 1 point Martian d ur ability: Protection 3, Impervious • 6 points Martian Morphology: Array (20 points), Dynamic • i n tangibility: Insubstantial 4, Dynamic • 21 points • d ensity: Protection 2, Impervious Toughness 15, Sustained, Dynamic • 2 points • i n visibility: Visual Concealment 4, Dynamic • 2 points • Shapeshifting: Morph (any form) 4, Dynamic • 2 points Martian Senses: Super-Senses 7 (Extended Vision 2, Mental Awareness, Vision Penetrates Concealment) • 7 points Martian Strength: Power-lifting 4 (Lifting Str20; 25,000 tons) • 4 points Martian Vision: Ranged Damage 11 (force) • 22 points t elepa thy: Mental Communication 5, Mind Reading 11 • 31 points a V ant G d a e S Contacts, Great Endurance, Leadership, Power Attack, Teamwork, Trance",
+    "pericias": "Close Combat: Unarmed 4 (+12), Insight 8 (+12), Intimidation 5 (+8), Investigation 10 (+13), Perception 8 (+12), Persuasion 5 (+8), Ranged Combat: Martian Vision 8 (+10), Stealth 4 (+6), Technology 4 (+7), Vehicles 4 (+6)",
+    "ataques": "i nitia tive +2 Martin Vision +10 Ranged, Damage 11 Unarmed +12 Close, Damage 16",
+    "pontos_poder": "a bilities 96 S kills 30 Powers 145 d efenses 29 a dv antages 6 ToTal 306",
+    "defesas": "Dodge 12 Fortitude 13 Parry 13 Toughness 13 Will 15"
+  },
+  "nome_pt": "Caçador de Marte"
+}

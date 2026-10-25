@@ -25,5 +25,6 @@
     "defesas": "Dodge 10 Fortitude 5 Parry 8 Toughness 6/3* Will 6 *Without Defensive Roll.",
     "pontos_poder": "Abilities 50 Skills 25 Powers 75 Defenses 15 Advantages 13 ToTal 178",
     "complicacoes": "Arrogance: As a former noble, Count Vertigo prefers to avoid close combat despite his training. Unstable: His mood swings and self-centeredness cause Count Vertigo to make rash decisions. Vulnerable: Count Vertigo has recovered from mental illness, but he is still vulnerable to manipulation by mundane or supernatural means."
-  }
+  },
+  "nome_pt": "Conde Vertigo"
 }

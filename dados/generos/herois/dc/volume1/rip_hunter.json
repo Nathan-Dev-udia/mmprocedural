@@ -25,5 +25,6 @@
     "defesas": "Dodge 8, Parry 8, Fortitude 6, Toughness 8/3, Will 10",
     "pontos_poder": "Abilities 50 + Powers 0+ Advantages 41 + Skills 42 + Defenses 19 = 152",
     "complicacoes": "Time Master: Rip Hunter follows in his ancestors’ footsteps as a guardian of time. He attempts to fix anomalies, prevent paradoxes, and keep evil time travel - ers from altering time and causing irreparable harm to the time stream."
-  }
+  },
+  "nome_pt": "Rip Hunter"
 }

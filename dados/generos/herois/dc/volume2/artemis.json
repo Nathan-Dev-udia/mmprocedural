@@ -1,26 +1,28 @@
-{
-  "nome": "Artemis",
-  "sistema": "DC Adventures / Mutants & Masterminds 3e",
-  "nivel_poder": 13,
-  "pontos_poder_publicados": 158,
-  "fonte": {
-    "arquivo": "dc adventures heroes and villains vol 2.pdf",
-    "pagina_pdf": 270
-  },
-  "ficha_publicada": {
-    "habilidades": {
-      "STR": "10",
-      "STA": "10",
-      "AGL": "8",
-      "DEX": "6",
-      "FGT": "13",
-      "INT": "0",
-      "AWE": "2",
-      "PRE": "3"
-    },
-    "poderes": "Immunity 1 (Aging), Senses 1 (Mystic Awareness)",
-    "vantagens": "All-out Attack, Attractive, Defensive Roll 2, Languages, Precise Attack (Close, Concealment), Ritualist",
-    "pericias": "Acrobatics 4 (+12), Athletics 8 (+18), Expertise: Magic 4 (+4), Expertise: Tactics 8 (+8), Insight 4 (+6), Intimidation 8 (+11), Perception 6 (+8), Ranged Combat: Bows 4 (+12), Stealth 4 (+12), Treatment 2 (+2), Vehicles 2 (+8) ense: Initiative +8, Sword +13 (Damage 13), Unarmed +13 o ff (Damage 10) efense: Dodge 13, Parry 13, Fortitude 14, Toughness 12/10, d Will 11 Abilities 104 + Powers 2 + Advantages 7 + Skills 27 +",
-    "pontos_poder": "Defenses 18 = Total 158"
-  }
-}
+{
+  "nome": "Artemis",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 13,
+  "pontos_poder_publicados": 158,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 270
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "10",
+      "STA": "10",
+      "AGL": "8",
+      "DEX": "6",
+      "FGT": "13",
+      "INT": "0",
+      "AWE": "2",
+      "PRE": "3"
+    },
+    "poderes": "Immunity 1 (Aging), Senses 1 (Mystic Awareness)",
+    "vantagens": "All-out Attack, Attractive, Defensive Roll 2, Languages, Precise Attack (Close, Concealment), Ritualist",
+    "pericias": "Acrobatics 4 (+12), Athletics 8 (+18), Expertise: Magic 4 (+4), Expertise: Tactics 8 (+8), Insight 4 (+6), Intimidation 8 (+11), Perception 6 (+8), Ranged Combat: Bows 4 (+12), Stealth 4 (+12), Treatment 2 (+2), Vehicles 2 (+8) ense: Initiative +8, Sword +13 (Damage 13), Unarmed +13 o ff (Damage 10) efense:",
+    "pontos_poder": "Defenses 18 = Total 158",
+    "defesas": "Dodge 13, Parry 13, Fortitude 14, Toughness 12/10, d Will 11"
+  },
+  "nome_pt": "Ártemis"
+}

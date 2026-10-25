@@ -24,5 +24,6 @@
     "ataques": "Initiative +2, Magic +10 (Cone Area, Damage 12 or other effects), Unarmed +8 (Close, Damage 2)",
     "defesas": "Dodge 8, Parry 8, Fortitude 8, Toughness 6/2*, Will 14 * Without Defensive Roll.",
     "pontos_poder": "Abilities 44 + Powers 41 + Advantages 17 + Skills 31 + Defenses 26 = 159"
-  }
+  },
+  "nome_pt": "Jason Blood"
 }

@@ -24,5 +24,6 @@
     "ataques": "Initiative +4, Grab +9 (Close, Damage 0)",
     "defesas": "Dodge 8, Parry 5, Fortitude 4, Toughness 4, Will 1",
     "pontos_poder": "Abilities 36 + Powers 20 + Advantages 3 + Skills 2 + Defenses 0 = 61"
-  }
+  },
+  "nome_pt": "Starrofitas"
 }

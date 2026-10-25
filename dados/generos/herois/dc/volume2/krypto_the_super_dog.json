@@ -1,26 +1,28 @@
-{
-  "nome": "Krypto, The Super-Dog",
-  "sistema": "DC Adventures / Mutants & Masterminds 3e",
-  "nivel_poder": 12,
-  "pontos_poder_publicados": 243,
-  "fonte": {
-    "arquivo": "dc adventures heroes and villains vol 2.pdf",
-    "pagina_pdf": 293
-  },
-  "ficha_publicada": {
-    "habilidades": {
-      "STR": "14",
-      "STA": "14",
-      "AGL": "4",
-      "DEX": "0",
-      "FGT": "6",
-      "INT": "-1",
-      "AWE": "3",
-      "PRE": "3"
-    },
-    "poderes": "d og (Shrinking 3, Innate, Normal Strength, Permanent); f ligh t (Flight 15 (64,000 MPH)), ae : f ast (Speed 15 (64,000 MPH), Quickness 6, Stacks with Superspeed); Heat Vision (Ranged Damage 14); i n vulnerability (Impervious Toughness 14; Immunity 10 (Life Support)); Super-Bite (Strength-based Damage 1); Super-Senses (Senses 18 (Acute and Extended Hearing, Acute and Extended Smell, Extended Vision 3, Infravision, Microscopic Vision 4, Ultra-Hearing, Tracking, Vision Penetrates Concealment (except lead))); Super-Speed (Quickness 8); Super-Strength (Enhanced Strength 4, Limited to Lifting (lifting Str 18; 6,000 tons)) antages: All-out Attack, Close Attack, Interpose, Power a dv Attack, Startle, Ultimate Effort (Toughness checks)",
-    "pericias": "Athletics 8 (+22), Close Combat: Super-Bite 2 (+8), Intimidation 5 (+8), Perception 9 (+12), Ranged Combat: Heat Vision 8 (+8) ense: Initiative +4, Bite +9 (Close, Damage 15), Heat Vision o ff +8 (Ranged, Damage 14), Unarmed +6 (Close, Damage 14) efense: Dodge 10*, Parry 10*, Fortitude 14, Toughness 14, d Will 6 *Includes Shrinking modifiers. Abilities 86 + Powers 124 + Advantages 6 + Skills 16 +",
-    "pontos_poder": "Defenses 11 = 243",
-    "complicacoes": "Canine Limitations: Krypto is a powerful, smart dog but he’s still a dog. He can’t talk, has no opposable thumbs and follows his animal instincts. Bad d og!: Krypto is fiercely protective of Superman and his family. He often reacts violently when his loved ones are in danger. Good d og!: Krypto is extremely loyal and devoted. He also likes kids and is generally good-natured. k ryptonian: Krypto is vulnerable to magic, red-sun radiation, and kryptonite just like Superman. 292 292"
-  }
-}
+{
+  "nome": "Krypto, The Super-Dog",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": 243,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 293
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "14",
+      "STA": "14",
+      "AGL": "4",
+      "DEX": "0",
+      "FGT": "6",
+      "INT": "-1",
+      "AWE": "3",
+      "PRE": "3"
+    },
+    "poderes": "d og (Shrinking 3, Innate, Normal Strength, Permanent); f ligh t (Flight 15 (64,000 MPH)), ae : f ast (Speed 15 (64,000 MPH), Quickness 6, Stacks with Superspeed); Heat Vision (Ranged Damage 14); i n vulnerability (Impervious Toughness 14; Immunity 10 (Life Support)); Super-Bite (Strength-based Damage 1); Super-Senses (Senses 18 (Acute and Extended Hearing, Acute and Extended Smell, Extended Vision 3, Infravision, Microscopic Vision 4, Ultra-Hearing, Tracking, Vision Penetrates Concealment (except lead))); Super-Speed (Quickness 8); Super-Strength (Enhanced Strength 4, Limited to Lifting (lifting Str 18; 6,000 tons)) antages: All-out Attack, Close Attack, Interpose, Power a dv Attack, Startle, Ultimate Effort (Toughness checks)",
+    "pericias": "Athletics 8 (+22), Close Combat: Super-Bite 2 (+8), Intimidation 5 (+8), Perception 9 (+12), Ranged Combat: Heat Vision 8 (+8) ense: Initiative +4, Bite +9 (Close, Damage 15), Heat Vision o ff +8 (Ranged, Damage 14), Unarmed +6 (Close, Damage 14) efense:",
+    "pontos_poder": "Defenses 11 = 243",
+    "complicacoes": "Canine Limitations: Krypto is a powerful, smart dog but he’s still a dog. He can’t talk, has no opposable thumbs and follows his animal instincts. Bad d og!: Krypto is fiercely protective of Superman and his family. He often reacts violently when his loved ones are in danger. Good d og!: Krypto is extremely loyal and devoted. He also likes kids and is generally good-natured. k ryptonian: Krypto is vulnerable to magic, red-sun radiation, and kryptonite just like Superman. 292 292",
+    "defesas": "Dodge 10*, Parry 10*, Fortitude 14, Toughness 14, d Will 6 *Includes Shrinking modifiers."
+  },
+  "nome_pt": "Krypto, o Supercão"
+}

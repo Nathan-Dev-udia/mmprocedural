@@ -24,5 +24,6 @@
     "ataques": "Initiative +5, Saber +11 (Damage 5, Critical 18-20), Unarmed +8 (Damage 2)",
     "defesas": "Dodge 11, Parry 11, Fortitude 6, Toughness 5/2*, Will 9 *Without Defensive Roll",
     "pontos_poder": "Abilities 58 + Powers 0 + Advantages 18 + Skills 32 + Defenses 19 = 127"
-  }
+  },
+  "nome_pt": "Mariah"
 }

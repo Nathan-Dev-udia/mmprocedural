@@ -24,5 +24,6 @@
     "ataques": "Initiative +6, Assault Rifle +12 (Ranged, Multiattack Damage 5), Heavy Pistol +12 (Ranged, Damage 4), Unarmed +12 (Close, Damage 3)",
     "defesas": "Dodge 11, Parry 11, Fortitude 8, Toughness 9/7*, Will 8 *Without Defensive Roll.",
     "pontos_poder": "Abilities 50 + Powers 0 + Advantages 32 + Skills 48 + Defenses 23 = 153"
-  }
+  },
+  "nome_pt": "Rick Flag"
 }

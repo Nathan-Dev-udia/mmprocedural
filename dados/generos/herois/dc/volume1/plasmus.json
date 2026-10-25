@@ -25,5 +25,6 @@
     "defesas": "Dodge 3/6*, Parry 3/6*, Fortitude 12, Toughness 15/7*, Will 6 *Without Density.",
     "pontos_poder": "Abilities 62 + Powers 79 + Advantages 9 + Skills 8 + Defenses 15 = 173",
     "complicacoes": "Protoplasm Form: Plasmus’ body is comprised of unstable protoplasm, causing it to uncontrollably fluctuate between a state of increased density and semi-intangibility unless Plasmus concentrates on retaining one state or the other."
-  }
+  },
+  "nome_pt": "Plasmus"
 }

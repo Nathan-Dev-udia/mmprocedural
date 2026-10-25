@@ -25,5 +25,6 @@
     "defesas": "Dodge 10 Fortitude 16 Parry 10 Toughness 16 Will 10",
     "pontos_poder": "Abilities 66 Skills 12 Powers 75 Defenses 30 Advantages 7 ToTal 215",
     "complicacoes": "Power Loss: Atrocitus’ ring exhausts its power with time and use. It needs to be recharged using a Red Lantern battery. Servant of Rage: Like all Red Lanterns, Atrocitus cannot remove his ring without risking death. Unlike his fellow Red Lanterns, Atrocitus seems immune to the ring’s tendency to inspire mindless rage in its bearer. The light of a Blue Lantern ring can help counteract these effects, not that Atrocitus seems to care. Weakness: Red Lantern Corps power rings depend on the ability of the wielders to feel rage. The maximum rank of the ring’s effects is equal to the user’s Fortitude Rank to reflect the being’s capacity for raw fury. Calming thoughts and hopeful feelings, such as those inspired by the Blue Lanterns, can cause the ring to fail."
-  }
+  },
+  "nome_pt": "Atrocitus"
 }

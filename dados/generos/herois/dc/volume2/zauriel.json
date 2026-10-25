@@ -1,28 +1,30 @@
-{
-  "nome": "Zauriel",
-  "sistema": "DC Adventures / Mutants & Masterminds 3e",
-  "nivel_poder": 12,
-  "pontos_poder_publicados": 212,
-  "fonte": {
-    "arquivo": "dc adventures heroes and villains vol 2.pdf",
-    "pagina_pdf": 281
-  },
-  "ficha_publicada": {
-    "habilidades": {
-      "STR": "7",
-      "STA": "7",
-      "AGL": "7",
-      "DEX": "7",
-      "FGT": "7",
-      "INT": "2",
-      "AWE": "4",
-      "PRE": "3"
-    },
-    "poderes": "a ngelic a rmor : Impervious Protection 5, Removable (–2 points) • 8 points a ngelic o v ermind: Comprehend 2 (Animals); Senses 6 (Detect Good, Detect Evil, Detect Magic, all Ranged) • 10 points f laming S word: Array (20 points), Removable (–4 points) • Blade: Strength-based Damage 6, Affects Insubstantial 2, Penetrating 12 • 20 points • f ir e Blast: Ranged Damage 10 • 1 point • Heavenly Light: Environment 10 (Daylight; Bright) • 1 point i mmor tality: Immunity 4 (Aging, Disease, Suffocation); Regeneration 2 • 6 points Sonic f lash: Array (20 points) • Sonic Blast: Cone Area Damage 10 • 20 points • Sonic d isr uption: Cone Area Nullify Divine Summon 10 • 1 point Wings: Flight 7 (250 MPH), Wings • 7 points",
-    "equipamento": "H q : tH e a erie • 14 POI n TS Size: Huge t ou : 14 f ea tures: Communications, Concealed, Isolated, Library, Living Space, Power System, Self-Repairing a V ant G d a e S Close Attack 4, Defensive Attack, Equipment 3, Favored Environment (Aerial), Teamwork",
-    "pericias": "Acrobatics 4 (+11), Athletics 4 (+11), Expertise: Guardian Angel 10 (+12), Insight 8 (+12), Perception 6 (+10), Persuasion 6 (+9), Ranged Combat: Flame Blast 4 (+11)",
-    "ataques": "i nitia tive +7 Flame Blast +11 Ranged, Damage 10 Flaming Sword +11 Close, Damage 13, Penetrating 12 Sonic Blast Cone Area (Dodge DC 20), Damage 10 Unarmed +11 Close, Damage 7 efen S e d d odge 12 f or titude 12 Parry 12 t oughness 12/7* W ill 12 *Without Armor Protection.",
-    "pontos_poder": "a bilities 88 S kills 21 Powers 70 d efenses 23 a dv antages 10 ToTal 212",
-    "complicacoes": "a ngel: Zauriel is neither human nor mortal, and is sometimes torn between his angelic nature and his admiration and sympathy for humanity. Under Heaven: Zauriel’s connections with the Eagle Host of angels have led to his exile and reinstatement, and have resulted in a wide varierty orders issued to him by the Heavenly Host."
-  }
-}
+{
+  "nome": "Zauriel",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 12,
+  "pontos_poder_publicados": 212,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 281
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "7",
+      "STA": "7",
+      "AGL": "7",
+      "DEX": "7",
+      "FGT": "7",
+      "INT": "2",
+      "AWE": "4",
+      "PRE": "3"
+    },
+    "poderes": "a ngelic a rmor : Impervious Protection 5, Removable (–2 points) • 8 points a ngelic o v ermind: Comprehend 2 (Animals); Senses 6 (Detect Good, Detect Evil, Detect Magic, all Ranged) • 10 points f laming S word: Array (20 points), Removable (–4 points) • Blade: Strength-based Damage 6, Affects Insubstantial 2, Penetrating 12 • 20 points • f ir e Blast: Ranged Damage 10 • 1 point • Heavenly Light: Environment 10 (Daylight; Bright) • 1 point i mmor tality: Immunity 4 (Aging, Disease, Suffocation); Regeneration 2 • 6 points Sonic f lash: Array (20 points) • Sonic Blast: Cone Area Damage 10 • 20 points • Sonic d isr uption: Cone Area Nullify Divine Summon 10 • 1 point Wings: Flight 7 (250 MPH), Wings • 7 points",
+    "equipamento": "H q : tH e a erie • 14 POI n TS Size: Huge t ou : 14 f ea tures: Communications, Concealed, Isolated, Library, Living Space, Power System, Self-Repairing a V ant G d a e S Close Attack 4, Defensive Attack, Equipment 3, Favored Environment (Aerial), Teamwork",
+    "pericias": "Acrobatics 4 (+11), Athletics 4 (+11), Expertise: Guardian Angel 10 (+12), Insight 8 (+12), Perception 6 (+10), Persuasion 6 (+9), Ranged Combat: Flame Blast 4 (+11)",
+    "ataques": "i nitia tive +7 Flame Blast +11 Ranged, Damage 10 Flaming Sword +11 Close, Damage 13, Penetrating 12 Sonic Blast Cone Area (Dodge DC 20), Damage 10 Unarmed +11 Close, Damage 7",
+    "pontos_poder": "a bilities 88 S kills 21 Powers 70 d efenses 23 a dv antages 10 ToTal 212",
+    "complicacoes": "a ngel: Zauriel is neither human nor mortal, and is sometimes torn between his angelic nature and his admiration and sympathy for humanity. Under Heaven: Zauriel’s connections with the Eagle Host of angels have led to his exile and reinstatement, and have resulted in a wide varierty orders issued to him by the Heavenly Host.",
+    "defesas": "Dodge 12 Fortitude 12 Parry 12 Toughness 12/7* Will 12 *Without Armor Protection."
+  },
+  "nome_pt": "Zauriel"
+}

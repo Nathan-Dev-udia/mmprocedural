@@ -25,5 +25,6 @@
     "defesas": "Dodge 15 Fortitude 13/11* Parry 15 Toughness 11/8*/5** Will 10 *Without Venom **Without Defensive Roll or Venom.",
     "pontos_poder": "Abilities 104 Skills 27 Powers 11 Defenses 26 Advantages 17 ToTal 185",
     "complicacoes": "Venom Addiction: Although Bane has kicked the habit, Venom is highly addictive and he may go back to using the drug for its strength or healing effects as he has in the past. Withdrawal symptoms begin occurring 12 hours after the last use. Stats to the left of the slash (/) represent Bane’s abilities while using Venom."
-  }
+  },
+  "nome_pt": "Bane"
 }

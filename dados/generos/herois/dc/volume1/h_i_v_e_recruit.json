@@ -25,5 +25,6 @@
     "ataques": "Initiative +2, H.I.V.E. Blaster +5 (Ranged, Damage 5), Stinger +5 (Strike 5 and Affliction 5, Resisted by Fortitude)",
     "defesas": "Dodge 5, Parry 5, Fortitude 5, Toughness 5, Will 5",
     "pontos_poder": "Abilities 28 + Powers 11 + Advantages 3 + Skills 18 + Defenses 12= 72"
-  }
+  },
+  "nome_pt": "H.I.V.E. Recruit"
 }

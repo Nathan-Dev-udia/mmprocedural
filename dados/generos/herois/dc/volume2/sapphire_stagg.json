@@ -23,5 +23,6 @@
     "ataques": "Initiative +1, Unarmed +0 (Damage -1)",
     "defesas": "Dodge 3, Parry 2, Fortitude 1, Toughness 1, Will 3",
     "pontos_poder": "Abilities 8 + Powers 0 + Advantages 5 + Skills 6 + Defenses 6 = 25"
-  }
+  },
+  "nome_pt": "Safira Stagg"
 }

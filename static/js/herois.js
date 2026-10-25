@@ -51,7 +51,7 @@ function desenharLista() {
   el("lista-herois").innerHTML = lista.length
     ? lista.map((h) => `<li><button type="button" class="item-heroi" data-id="${escapar(h.id)}"
         aria-current="${h.id === aberta}">
-        <strong>${escapar(h.nome)}</strong>${h.nome_pt ? ` <span class="discreto">(${escapar(h.nome_pt)})</span>` : ""}
+        <strong>${escapar(h.nome_pt || h.nome)}</strong>${h.nome_pt && h.nome !== h.nome_pt ? ` <span class="discreto">(${escapar(h.nome)})</span>` : ""}
         <small>NP ${escapar(h.np ?? "—")}${h.volume ? ` · ${escapar(h.volume)}, p. ${escapar(h.pagina)}` : ""}</small></button></li>`).join("")
     : "<li class='vazio'>Nenhum personagem encontrado.</li>";
 }
@@ -64,8 +64,8 @@ function desenharFicha(f) {
     : `<p>${escapar(s.itens[0])}</p>`)).join("");
   el("ficha-heroi").innerHTML = `
     <header>
-      <h2>${escapar(f.nome)}</h2>
-      ${f.nome_pt ? `<p class="subtitulo">${escapar(f.nome_pt)}</p>` : ""}
+      <h2>${escapar(f.nome_pt || f.nome)}</h2>
+      ${f.nome_pt && f.nome !== f.nome_pt ? `<p class="subtitulo">${escapar(f.nome)}</p>` : ""}
       <p class="discreto">NP ${escapar(f.np ?? "—")}${f.pp ? ` · ${escapar(f.pp)} ${escapar(f.pp_rotulo)}` : ""}
         · ${escapar(f.status)}</p>
     </header>

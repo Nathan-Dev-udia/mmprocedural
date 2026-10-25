@@ -23,5 +23,6 @@
     "ataques": "Initiative +1, Unarmed +11 (Close Damage 5)",
     "defesas": "Dodge 8, Parry 9, Fortitude 10, Toughness 7/5*, Will 6 *without Defensive Roll",
     "pontos_poder": "Abilities 48 + Powers 0 + Advantages 12 + Skills 16 + Defenses 17 = Total 93"
-  }
+  },
+  "nome_pt": "Ubu"
 }

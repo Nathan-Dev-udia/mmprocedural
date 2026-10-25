@@ -11,9 +11,9 @@ se os números caem depois (nenhum código de problema deve crescer).
 
 | Nível | Fichas (de 536) | Significa |
 |---|---|---|
-| jogável | 228 | habilidades, defesas, perícias e ataques completos e coerentes |
-| ressalvas | 207 | divergência de custo, perícia ou limite de NP; o Mestre deve conferir |
-| revisar | 101 | falta algo essencial (defesa ou habilidade) |
+| jogável | 252 | habilidades, defesas, perícias e ataques completos e coerentes |
+| ressalvas | 284 | divergência de custo, perícia ou limite de NP; o Mestre deve conferir |
+| revisar | 0 | falta algo essencial (defesa ou habilidade) — saneado em 25/10/2026 |
 
 Problemas por causa, em ordem de impacto:
 

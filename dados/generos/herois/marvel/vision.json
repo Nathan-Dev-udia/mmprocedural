@@ -2,10 +2,10 @@
   "edicao_origem": "Mutants & Masterminds 2e",
   "edicao_destino": "Mutants & Masterminds 3e",
   "nome": "Vision",
-  "nome_pt": "Vision",
+  "nome_pt": "Visão",
   "nivel_poder": 12,
   "pontos_poder_origem": 210,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 210.5,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -44,70 +44,73 @@
     "poderes": [
       {
         "nome": "Blast",
-        "construcao_3e": "Damage à distância 12 (Flaw: Distracting); custo 3e incerto.",
+        "construcao_3e": "Dano à Distância 12 (Falha: Distraído; 12 PP).",
         "custo_2e_pp": 12,
-        "custo_3e_pp": null,
-        "nome_pt": "Rajada de Energia"
+        "custo_3e_pp": 12,
+        "nome_pt": "Feixe Solar Óptico da Joia"
       },
       {
         "nome": "Data-Link",
-        "construcao_3e": "Communication (Radio), conforme o guia para Datalink; fonte rank 5.",
+        "construcao_3e": "Comunicação 1 por Rádio com Computadores / Elo de Dados (5 PP).",
         "custo_2e_pp": 5,
-        "custo_3e_pp": null
+        "custo_3e_pp": 5,
+        "nome_pt": "Elo Cibernético (Rede de Dados)"
       },
       {
         "nome": "Density",
-        "construcao_3e": "Growth (Does Not Modify Size, Speed, or Skills) (rank 2e 12); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Density 12 (Impervious Protection 6, Immovable 4, Super Strength 4; Flaws: No Strength [-1]; Alternate Power: Insubstantial 4; 25pp) Componentes/efeitos alternativos mapeados: Protection → Protection; Super Strength → Power-Lifting/Enhanced Strength.; custo 2e impresso 25 PP.",
+        "construcao_3e": "Array de Densidade Sintozóide: Proteção 6 Impenetrável 6, Inamovível 4, Super-Força 4 (24 PP); Efeito Alternativo: Insubstancial 4 (Forma Intangível; 1 PP) = 25 PP.",
         "custo_2e_pp": 25,
-        "custo_3e_pp": null,
-        "nome_pt": "Densidade"
+        "custo_3e_pp": 25,
+        "nome_pt": "Controle de Densidade e Intangibilidade"
       },
       {
         "nome": "Immunity",
-        "construcao_3e": "Immunity 30 (Fortitude Effects).",
+        "construcao_3e": "Imunidade 30 (Efeitos de Fortitude; 30 PP).",
         "custo_2e_pp": 30,
         "custo_3e_pp": 30,
-        "nome_pt": "Imunidade"
+        "nome_pt": "Imunidade de Sintozóide (Efeitos de Fortitude)"
       },
       {
         "nome": "Impervious Toughness",
-        "construcao_3e": "Impervious Toughness 7.",
+        "construcao_3e": "Resistência Impenetrável 7 (7 PP).",
         "custo_2e_pp": 7,
         "custo_3e_pp": 7,
-        "nome_pt": "Resistência Impenetrável"
+        "nome_pt": "Resistência Sintética Impenetrável"
       },
       {
         "nome": "Flight",
-        "construcao_3e": "Flight 8 (Limited: only while using Decreased Density).",
+        "construcao_3e": "Voo 8 (Limitado a densidade reduzida; 8 PP).",
         "custo_2e_pp": 8,
         "custo_3e_pp": 8,
-        "nome_pt": "Voo"
+        "nome_pt": "Voo (Densidade Reduzida)"
       },
       {
         "nome": "Mental Shield",
-        "construcao_3e": "Enhanced Will/Impervious (conforme o descritor Mental Shield no guia); fonte rank 10.",
+        "construcao_3e": "Vontade Aprimorada 10 (Limitada a efeitos mentais; 10 PP).",
         "custo_2e_pp": 10,
-        "custo_3e_pp": null
+        "custo_3e_pp": 10,
+        "nome_pt": "Mente Sintética (Escudo Mental)"
       },
       {
         "nome": "Quickness",
-        "construcao_3e": "Quickness 6 (Limited to One Type: Mental).",
+        "construcao_3e": "Rapidez 6 (Limitada a tarefas mentais; 3 PP).",
         "custo_2e_pp": 3,
-        "custo_3e_pp": 3
+        "custo_3e_pp": 3,
+        "nome_pt": "Rapidez Mental Computacional"
       },
       {
         "nome": "Regeneration",
-        "construcao_3e": "Regeneration (Resurrection → Immortality) (rank 2e 9); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Regeneration 9 (Recovery Check 9; Power Feat: Regrowth; 10pp); custo 2e impresso 10 PP.",
+        "construcao_3e": "Regeneração 9 (9 PP) + Recrescimento (1 PP) = 10 PP.",
         "custo_2e_pp": 10,
-        "custo_3e_pp": null,
-        "nome_pt": "Regeneração"
+        "custo_3e_pp": 10,
+        "nome_pt": "Auto-Reparo de Sintozóide"
       },
       {
         "nome": "Super Strength",
-        "construcao_3e": "Power-Lifting 4.",
+        "construcao_3e": "Super-Força / Power-Lifting 4 (4 PP).",
         "custo_2e_pp": 8,
         "custo_3e_pp": 4,
-        "nome_pt": "Super-Força"
+        "nome_pt": "Super-Força / Power-Lifting"
       }
     ],
     "equipamento": [],
@@ -134,13 +137,11 @@
   },
   "custos_3e": {
     "habilidades": 54,
+    "poderes": 114,
     "defesas": 16,
     "pericias": 23.5,
     "vantagens": 3,
-    "poderes_conhecidos": 52,
-    "subtotal_conhecido": 148.5,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 210.5
   },
   "notas_conversao": [
     "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
@@ -151,6 +152,7 @@
     "Dodge Focus 5 foi convertido em ranks de Esquiva: base 9 + 5 = 14; valor final 10.",
     "Defesas reduzidas por limite de NP 12: Esquiva 14→10 e Aparar 9→9; cada defesa ativa + Resistência 14 ≤ 24.",
     "Subtotal 3e conhecido: 54 PP em habilidades, 47 em perícias, 39 em defesas, 3 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
-    "Correção de custo: as perícias somam 47 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 47 para 23.5 PP (subtotal e totais ajustados em -23.5)."
+    "Correção de custo: as perícias somam 47 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 47 para 23.5 PP (subtotal e totais ajustados em -23.5).",
+    "Poderes convertidos e fechados para M&M 3e (Lote 8). Feixe solar da joia frontal, controle de densidade e intangibilidade, imunidade de construto sintozóide, escudo mental de processador e auto-reparo consolidados."
   ]
-}
+}

@@ -25,5 +25,6 @@
     "defesas": "Dodge 7 Fortitude 8 Parry 5 Toughness 15/3* Will 9 *Without Hard Light Field.",
     "pontos_poder": "Abilities 38 Skills 11 Powers 105 Defenses 19 Advantages 4 ToTal 177",
     "complicacoes": "Nyctophobia: Doctor Light is afraid of the dark (or, more specifically, what can happen under such conditions). Starlight Conduit: Doctor Light draws energy through her connection to the distant star, Vega, in order to fuel her powers. Others have been able to manipulate this conduit against Light’s will, drawing energy from Vega through her. If the starlight connection is blocked or severed, Doctor Light’s powers require ambient light to function. In such instances, her powers suffer a Weakness effect and won’t work in total darkness. The Gamemaster determines the effect’s rank, as suits lighting levels."
-  }
+  },
+  "nome_pt": "Doctor Light (Dr. Kimiyo Hoshi)"
 }

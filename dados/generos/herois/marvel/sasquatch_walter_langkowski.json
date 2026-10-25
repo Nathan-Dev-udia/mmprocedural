@@ -5,7 +5,7 @@
   "nome_pt": "Sasquatch (Walter Langkowski)",
   "nivel_poder": 10,
   "pontos_poder_origem": 150,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 188.5,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -57,42 +57,42 @@
     "poderes": [
       {
         "nome": "Enhanced Strength 8",
-        "construcao_3e": "Enhanced Trait: Strength 4.",
+        "construcao_3e": "Característica Aprimorada: Força 4 (8 PP).",
         "custo_2e_pp": 8,
         "custo_3e_pp": 8,
         "nome_pt": "Força Aumentada 8"
       },
       {
         "nome": "Enhanced Dexterity 4",
-        "construcao_3e": "Enhanced Trait: Agility 2 e Dexterity 2.",
+        "construcao_3e": "Característica Aprimorada: Agilidade 2 e Destreza 2 (8 PP).",
         "custo_2e_pp": 4,
         "custo_3e_pp": 8,
         "nome_pt": "Destreza Aumentada 4"
       },
       {
         "nome": "Enhanced Constitution 14",
-        "construcao_3e": "Enhanced Trait: Stamina 7.",
+        "construcao_3e": "Característica Aprimorada: Vigor 7 (14 PP).",
         "custo_2e_pp": 14,
         "custo_3e_pp": 14,
         "nome_pt": "Vigor Aumentado 14"
       },
       {
         "nome": "Growth 6",
-        "construcao_3e": "Continuous, Permanent, Innate; a fonte especifica Strength +12 e Constitution +6.",
+        "construcao_3e": "Crescimento 6 (Contínuo, Permanente, Inato; 19 PP, custo original da fonte preservado).",
         "custo_2e_pp": 19,
-        "custo_3e_pp": null,
+        "custo_3e_pp": 19,
         "nome_pt": "Crescimento 6"
       },
       {
         "nome": "Leaping 3",
-        "construcao_3e": "Leaping 3.",
+        "construcao_3e": "Salto 3 (3 PP).",
         "custo_2e_pp": 3,
         "custo_3e_pp": 3,
         "nome_pt": "Salto 3"
       },
       {
         "nome": "Super-Strength 5",
-        "construcao_3e": "Power-Lifting 5.",
+        "construcao_3e": "Super-Força / Power-Lifting 5 (5 PP).",
         "custo_2e_pp": 10,
         "custo_3e_pp": 5,
         "nome_pt": "Super-Força 5"
@@ -129,13 +129,11 @@
   },
   "custos_3e": {
     "habilidades_base": 60,
+    "poderes": 57,
     "defesas": 7,
     "pericias": 57.5,
     "vantagens": 7,
-    "poderes_conhecidos": 38,
-    "subtotal_conhecido": 169.5,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 188.5
   },
   "notas_conversao": [
     "Attack Focus (Melee) 5 foi ajustado ao bônus de ataque para não exceder o limite; Dodge Focus 4 foi convertido em graduações de Esquiva. Nenhuma outra vantagem ficou sem correspondência.",
@@ -143,6 +141,7 @@
     "A fonte separa este perfil de Sasquatch (Heather Hudson), página anterior; ambos são perfis reais e mantidos como arquivos distintos.",
     "Normal Identity convertida em complicação. Attack Focus/Dodge Focus e Defesa 18 foram reduzidos para obedecer PL 10; Esquiva/Aparar 8 com Resistência 12.",
     "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +12/+3/+12/+3/+2/+2. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
-    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
+    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos.",
+    "Poderes convertidos e fechados para M&M 3e (Lote 6). Crescimento 6 permanente/inato e características aprimoradas consolidados."
   ]
-}
+}

@@ -25,5 +25,6 @@
     "ataques": "Initiative +1, Rifle Strike +8 (Close, Damage 5), Stinger Rifle +8 (Ranged, Damage 6, Affliction 6, Resisted by Fortitude; Contagious)",
     "defesas": "Dodge 7, Parry 7, Fortitude 5, Toughness 7, Will 3",
     "pontos_poder": "Abilities 28 + Powers 31 + Advantages 1 + Skills 8 + Defenses 15 = 83"
-  }
+  },
+  "nome_pt": "H.I.V.E. Trooper"
 }

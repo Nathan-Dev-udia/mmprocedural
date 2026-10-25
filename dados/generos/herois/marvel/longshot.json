@@ -5,7 +5,7 @@
   "nome_pt": "Longshot",
   "nivel_poder": 10,
   "pontos_poder_origem": 150,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 174.5,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -61,21 +61,21 @@
         "construcao_3e": "Leaping 2.",
         "custo_2e_pp": 2,
         "custo_3e_pp": 2,
-        "nome_pt": "Salto"
+        "nome_pt": "Super-Salto"
       },
       {
         "nome": "Luck Control",
-        "construcao_3e": "Luck Control 3 (Area, Selective). 15 PP na fonte.",
+        "construcao_3e": "Controle de Sorte 3 (Forçar Rerolagem, Cancelar Sorte, Conceder Rerolagem; Área de Percepção [+1/graduação], Seletivo [+1/graduação] = 15 PP).",
         "custo_2e_pp": 15,
-        "custo_3e_pp": null,
-        "nome_pt": "Controle de Sorte"
+        "custo_3e_pp": 15,
+        "nome_pt": "Sorte Sobrenatural (Controle de Sorte)"
       },
       {
         "nome": "Super-Senses",
         "construcao_3e": "Senses 4 (Postcognition, Touch Range).",
         "custo_2e_pp": 2,
         "custo_3e_pp": 4,
-        "nome_pt": "Super-Sentidos"
+        "nome_pt": "Psicometria (Super-Sentidos)"
       }
     ],
     "equipamento": [
@@ -107,19 +107,18 @@
   },
   "custos_3e": {
     "habilidades": 74,
+    "poderes": 21,
     "defesas": 20,
     "pericias": 30.5,
     "vantagens": 29,
-    "poderes_conhecidos": 6,
-    "subtotal_conhecido": 159.5,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 174.5
   },
   "notas_conversao": [
     "Dodge Focus 10 foi convertido em graduações de Dodge; o valor anterior ao limite excede NP 10 e foi ajustado para Dodge 15 com Toughness 5.",
     "Elusive Target e Ranged Pin não têm equivalentes diretos; Sneak Attack não tem equivalente e foram omitidas. Acrobatic Bluff virou Agile Feint.",
     "O valor +5/+2 de Toughness foi preservado pelo maior número impresso; Defensive Roll não foi somado novamente.",
     "Dodge foi ajustada de 25 para 15 para cumprir Dodge + Toughness ≤ 20 (NP 10).",
-    "Ranged Attack foi reduzido de 8 para 3 ranks para preservar o bônus publicado de Facas arremessadas e respeitar o limite de NP."
+    "Ranged Attack foi reduzido de 8 para 3 ranks para preservar o bônus publicado de Facas arremessadas e respeitar o limite de NP.",
+    "Poderes fechados em 3e: Controle de Sorte fechado em 15 PP + Salto (2 PP) + Sentidos (4 PP) = 21 PP poderes. Total 3e: 174.5 PP."
   ]
 }

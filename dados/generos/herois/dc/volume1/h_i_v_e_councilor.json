@@ -23,7 +23,9 @@
     "vantagens": "Assessment, Benefit 2 (Cipher 2), Connected, Defensive Attack, Defensive Roll 2, Equipment, Evasion, Inventor, Languages 2, Leadership, Quick Draw",
     "pericias": "Close Combat: H.I.V.E. Prototypes 7 (+9), Deception 7 (+10), Expertise: Various 10 (+15), Perception 4 (+7), Persuasion 9 (+12), Ranged Combat: H.I.V.E. Prototypes 4 (+6), Stealth 8 (+10), Technology 9 (+14)",
     "ataques": "Initiative +2, Computer-Targeted Laser +10t (Ranged Damage 5, Penetrating 5), Vitality Siphon +9 (Ranged Weaken 6)",
-    "defesas": "System, Fire Prevention System, Garage, Gym, Hangar, Holding Cells, Infirmary, Isolated, Laboratory, Library, Living Space, Personnel, Power System, Security System 3 (DC 30), Workshop; Plus weapons and defenses of appropriate power level. H.I.V.E. MASTER The true identity of the founder of the H.I.V.E. remains unknown, but he was a brilliant scientist ready and able to ruthlessly make use of captured alien science, and charismatic enough to gather other criminal scientists to his side and keep them in line. H.I.V.E. COUNCILOR The ruling Councilors of the H.I.V.E. were known only by num - ber, but all were enormously intelligent and ambitious, each an expert in their own field. Though they worked in concert, HEROES & VILLAINS, VOL. I HEROES & VILLAINS, VOL. I HEROES & VILLAINS, VOL. 1 178.76.130.9",
-    "pontos_poder": "Abilities 38 + Powers 22 + Advantages 14 + Skills 29 + Defenses 17 = 120"
-  }
+    "defesas": "Dodge 8, Fortitude 6, Parry 8, Toughness 8/2*, Will 10 *Without H.I.V.E. Armor.",
+    "pontos_poder": "Abilities 38 + Powers 22 + Advantages 14 + Skills 29 + Defenses 17 = 120",
+    "complicacoes": "Motivation: Power and scientific domination. Secret: Identity unknown."
+  },
+  "nome_pt": "H.I.V.E. Councilor"
 }

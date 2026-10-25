@@ -24,5 +24,6 @@
     "ataques": "Initiative +1, Illusion—(Perception Range, Illusion 12), Mind Control—(Perception Range, Mind Control 12), Unarmed +5 (Damage 0)",
     "defesas": "Dodge 9, Parry 9, Fortitude 6, Toughness 2, Will 14",
     "pontos_poder": "Abilities 44 + Powers 85 + Advantages 9 + Skills 26 + Defenses 26 = 190"
-  }
+  },
+  "nome_pt": "The Wizard"
 }

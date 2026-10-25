@@ -25,5 +25,6 @@
     "ataques": "Initiative +0, Spear-gun +4 (Damage 4), Unarmed +4 (Damage 1)",
     "defesas": "Dodge 4, Parry 4, Fortitude 4, Toughness 3, Will 3",
     "pontos_poder": "Abilities 4 + Powers 3 + Advantages 3 + Skills 6 + Defenses 14 = 30"
-  }
+  },
+  "nome_pt": "Manta-Men"
 }

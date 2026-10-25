@@ -1,29 +1,31 @@
-{
-  "nome": "Plunder",
-  "sistema": "DC Adventures / Mutants & Masterminds 3e",
-  "nivel_poder": 10,
-  "pontos_poder_publicados": 145,
-  "fonte": {
-    "arquivo": "dc adventures heroes and villains vol 2.pdf",
-    "pagina_pdf": 147
-  },
-  "ficha_publicada": {
-    "habilidades": {
-      "STR": "4",
-      "STA": "5",
-      "AGL": "3",
-      "DEX": "5",
-      "FGT": "6",
-      "INT": "2",
-      "AWE": "3",
-      "PRE": "2"
-    },
-    "poderes": "Blaster Pistol (Ranged Burst Area Damage 5, Easily Removable (–6 points)), r ifle (Array (19 points), Easily Removable (–8 points): Bullets (Ranged Multiattack Damage 6, Extended Range), ae : Laser (Ranged Damage 7, Penetrating 5), Feature 1 (Hidden Tracer in Rifle))",
-    "equipamento": "Boomerang (Ranged Strength-based Damage 1), Camo Clothing (Urban), f r agmentation Grenades (Ranged Burst Area Damage 5), Commlink , Heavy Pistol (Ranged Damage 4), Survival k nife (Strength-based Damage 1, Improved Critical); 1 point of additional equipment",
-    "vantagens": "Accurate Attack, Close Attack 3, Defensive Roll, Equipment 6, Hide in Plain Sight, Precise Attack 2 (Ranged, Cover and Concealment), Quick Draw, Ranged Attack 8, Ultimate Effort (Aim)",
-    "pericias": "Athletics 4 (+8), Expertise: Criminal 5 (+7), Perception 5 (+8), Stealth 6 (+9)",
-    "ataques": "Initiative +3, Rifle (Bullets) +13 (Ranged, Multiattack Damage 6), Rifle (Laser) +13 (Ranged, Damage 7, Penetrating 5), Unarmed +9 (Close, Damage 4) efense: Dodge 14, Parry 12, Fortitude 11, Toughness 6/5*, d Will 9 *Without Defensive Roll. Abilities 60 + Powers 22 + Advantages 24 + Skills 10 +",
-    "pontos_poder": "Defenses 29 = 145",
-    "complicacoes": "Mercenary: Plunder is an assassin for hire. ceptance: Because his own world has most likely been a c destroyed, Plunder wants to make a life for himself on New Earth. Heroes & V Heroes & V I I lla lla I I ns, Vol. 2 ns, Vol. 2"
-  }
-}
+{
+  "nome": "Plunder",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 145,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 147
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "4",
+      "STA": "5",
+      "AGL": "3",
+      "DEX": "5",
+      "FGT": "6",
+      "INT": "2",
+      "AWE": "3",
+      "PRE": "2"
+    },
+    "poderes": "Blaster Pistol (Ranged Burst Area Damage 5, Easily Removable (–6 points)), r ifle (Array (19 points), Easily Removable (–8 points): Bullets (Ranged Multiattack Damage 6, Extended Range), ae : Laser (Ranged Damage 7, Penetrating 5), Feature 1 (Hidden Tracer in Rifle))",
+    "equipamento": "Boomerang (Ranged Strength-based Damage 1), Camo Clothing (Urban), f r agmentation Grenades (Ranged Burst Area Damage 5), Commlink , Heavy Pistol (Ranged Damage 4), Survival k nife (Strength-based Damage 1, Improved Critical); 1 point of additional equipment",
+    "vantagens": "Accurate Attack, Close Attack 3, Defensive Roll, Equipment 6, Hide in Plain Sight, Precise Attack 2 (Ranged, Cover and Concealment), Quick Draw, Ranged Attack 8, Ultimate Effort (Aim)",
+    "pericias": "Athletics 4 (+8), Expertise: Criminal 5 (+7), Perception 5 (+8), Stealth 6 (+9)",
+    "ataques": "Initiative +3, Rifle (Bullets) +13 (Ranged, Multiattack Damage 6), Rifle (Laser) +13 (Ranged, Damage 7, Penetrating 5), Unarmed +9 (Close, Damage 4) efense:",
+    "pontos_poder": "Defenses 29 = 145",
+    "complicacoes": "Mercenary: Plunder is an assassin for hire. ceptance: Because his own world has most likely been a c destroyed, Plunder wants to make a life for himself on New Earth. Heroes & V Heroes & V I I lla lla I I ns, Vol. 2 ns, Vol. 2",
+    "defesas": "Dodge 14, Parry 12, Fortitude 11, Toughness 6/5*, d Will 9 *Without Defensive Roll."
+  },
+  "nome_pt": "Saqueador"
+}

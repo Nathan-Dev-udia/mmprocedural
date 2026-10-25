@@ -120,8 +120,18 @@ def _ler_dc(dados):
         nome = _nome_da_pericia(achado.group(1)) if achado else None
         if nome:
             pericias[nome] = {"grad": int(achado.group(2)), "total": _inteiro(achado.group(3))}
-    defesas = {DEFESAS_DC[r]: int(v) for r, v in re.findall(r"(Dodge|Parry|Fortitude|Toughness|Will)\s+(\d+)",
-                                                            f.get("defesas", ""))}
+    texto_defesas = f.get("defesas", "") or ""
+    if not re.search(r"\bDodge\b", texto_defesas, re.IGNORECASE):
+        for fallback_sec in [f.get("ataques", ""), f.get("pericias", "")]:
+            if fallback_sec and re.search(r"\bDodge\b", fallback_sec, re.IGNORECASE):
+                texto_defesas = fallback_sec
+                break
+    defesas = {}
+    for r, v in re.findall(r"(Dodge|Parry|Fortitude|Toughness|Will)\s+([+-]?\d+|Immune|[—–\-])",
+                          texto_defesas, re.IGNORECASE):
+        key = DEFESAS_DC.get(r.capitalize())
+        if key:
+            defesas[key] = int(v) if re.match(r"^[+-]?\d+$", v) else None
     texto_ataques = f.get("ataques", "").translate(SINAL_MENOS)
     iniciativa = re.search(r"Initiative\s+([+-]?\d+)", texto_ataques)
     ataques = _ataques_dc(re.sub(r"Initiative\s+[+-]?\d+[\s,]*", "", texto_ataques))
@@ -155,7 +165,7 @@ def campos_do_heroi(ficha_id):
     dados = json.loads(caminho.read_text(encoding="utf-8"))
     h = (_ler_marvel if resumo["editora"] == "marvel" else _ler_dc)(dados)
     hab = {k: h["habilidades"].get(k, 0) for k in CAMPO_DA_HABILIDADE}
-    campos = {"Herói": dados["nome"], "Series": h["serie"], "Nível de Poder": str(h["np"] or ""),
+    campos = {"Herói": dados.get("nome_pt") or dados["nome"], "Series": h["serie"], "Nível de Poder": str(h["np"] or ""),
               "Grupo Afiliado": f"{h['serie']} {resumo['volume']}".strip()}
     for rotulo, valor in h["custos"].items():
         campos[rotulo] = "" if valor is None else str(valor)
@@ -170,15 +180,20 @@ def campos_do_heroi(ficha_id):
     campos["Iniciativa"] = f"{iniciativa:+d}"
 
     for defesa, sigla in rules.DEFESAS_COMPRAVEIS.items():
-        if defesa in h["defesas"]:
+        if defesa in h["defesas"] and h["defesas"][defesa] is not None and isinstance(hab.get(sigla), int):
             outros = h["defesas"][defesa] - hab[sigla]
             campos[f"Grad.{defesa}"] = "0"
             campos[f"{defesa} Outros"] = str(outros) if outros else ""
             campos[defesa] = str(h["defesas"][defesa])
+        elif defesa in h["defesas"]:
+            campos[defesa] = "Imune" if h["defesas"][defesa] is None else str(h["defesas"][defesa])
     if "Resistência" in h["defesas"]:
-        outros = h["defesas"]["Resistência"] - hab["Vig"]
-        campos["Resistência Outros"] = str(outros) if outros else ""
-        campos["Resistência"] = str(h["defesas"]["Resistência"])
+        if h["defesas"]["Resistência"] is not None and isinstance(hab.get("Vig"), int):
+            outros = h["defesas"]["Resistência"] - hab["Vig"]
+            campos["Resistência Outros"] = str(outros) if outros else ""
+            campos["Resistência"] = str(h["defesas"]["Resistência"])
+        else:
+            campos["Resistência"] = "Imune" if h["defesas"]["Resistência"] is None else str(h["defesas"]["Resistência"])
 
     notas = list(h["notas"])
     for n, (nome, bonus, dano, tipo) in enumerate(h["ataques"][:LINHAS["ataques"]], start=1):

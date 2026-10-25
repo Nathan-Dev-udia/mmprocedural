@@ -5,7 +5,7 @@
   "nome_pt": "Medula",
   "nivel_poder": 10,
   "pontos_poder_origem": 135,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 149.5,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -53,24 +53,24 @@
     "poderes": [
       {
         "nome": "Protection",
-        "construcao_3e": "Protection 4.",
+        "construcao_3e": "Proteção 4 (4 PP).",
         "custo_2e_pp": 4,
         "custo_3e_pp": 4,
-        "nome_pt": "Proteção"
+        "nome_pt": "Exoesqueleto Ósseo (Proteção)"
       },
       {
         "nome": "Regeneration",
-        "construcao_3e": "Regeneration 9 (Recovery Bonus 5; Bruised 3, Injured 1). 9 PP na fonte.",
+        "construcao_3e": "Regeneração 8 (8 PP) + Recrescimento (1 PP) = 9 PP.",
         "custo_2e_pp": 9,
-        "custo_3e_pp": null,
-        "nome_pt": "Regeneração"
+        "custo_3e_pp": 9,
+        "nome_pt": "Fator de Cura Ósseo (Regeneração)"
       },
       {
         "nome": "Strike",
-        "construcao_3e": "Strike 6 (Aura); Alternate Effect: Create 6 contínuo, alcance pessoal, damaging, como ação livre. 13 PP na fonte.",
+        "construcao_3e": "Dano 6 Baseado em Força, Penetrante 4, Crítico Aprimorado 2 (12 PP); Efeito Alternativo: Dano à Distância 6 (Projéteis Ósseos; 1 PP) = 13 PP.",
         "custo_2e_pp": 13,
-        "custo_3e_pp": null,
-        "nome_pt": "Golpe"
+        "custo_3e_pp": 13,
+        "nome_pt": "Espinhos Ósseos (Golpe e Projéteis)"
       }
     ],
     "equipamento": [],
@@ -97,17 +97,16 @@
   },
   "custos_3e": {
     "habilidades": 50,
+    "poderes": 26,
     "defesas": 26,
     "pericias": 38.5,
     "vantagens": 9,
-    "poderes_conhecidos": 4,
-    "subtotal_conhecido": 127.5,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 149.5
   },
   "notas_conversao": [
     "Attack Specialization (Bones) 3 convertido em Close Combat: Bones 6. Elusive Target não tem equivalente e foi omitida.",
     "Dodge Focus 6 foi convertido em graduações de Dodge; o valor foi limitado a 12 junto à Toughness 8 para respeitar NP 10.",
-    "Dodge foi ajustada de 18 para 12 para cumprir Dodge + Toughness ≤ 20 (NP 10)."
+    "Dodge foi ajustada de 18 para 12 para cumprir Dodge + Toughness ≤ 20 (NP 10).",
+    "Poderes convertidos e fechados para M&M 3e (Lote 6). Exoesqueleto ósseo, regeneração óssea e golpes/projéteis de ossos consolidados."
   ]
-}
+}

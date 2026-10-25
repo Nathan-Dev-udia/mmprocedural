@@ -25,5 +25,6 @@
     "defesas": "Dodge 4, Parry 4, Fortitude 20, Toughness 20, Will 8",
     "pontos_poder": "Abilities 24 + Powers 97 + Advantages 3 + Skills 2 + Defenses 27 = 153",
     "complicacoes": "Mindless (Validus is virtually incapable of thinking or acting on his own without orders or direction), Rage (Validus is filled with undirected rage and given to rampages of destructions when provoked)"
-  }
+  },
+  "nome_pt": "Validus"
 }

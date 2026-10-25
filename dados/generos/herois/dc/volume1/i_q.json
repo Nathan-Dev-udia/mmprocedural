@@ -25,5 +25,6 @@
     "defesas": "Dodge 14, Parry 14, Fortitude 7, Toughness 6/3*, Will 12 *Without Defensive Roll.",
     "pontos_poder": "Abilities 50 + Powers 23 + Advantages 12 + Skills 24 + Defenses 35 = 144",
     "complicacoes": "Greed: No matter how great his intelligence, I.Q. ’s ambitions never grow beyond “get rich quick. ” Power Loss: I.Q. ’s genius is relative to the amount of sunlight he’s been exposed to, and a lack of it can return him to his former dullard state."
-  }
+  },
+  "nome_pt": "I.Q"
 }

@@ -5,7 +5,7 @@
   "nome_pt": "Bishop",
   "nivel_poder": 10,
   "pontos_poder_origem": 150,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 162,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -55,9 +55,10 @@
     "poderes": [
       {
         "nome": "Energy Absorption",
-        "construcao_3e": "Energy Absorption 10 com Boost para Blast, conforme a ficha-fonte. A versão exata em efeitos, modificadores, gatilho e custo 3e requer confirmação; a proposta Immunity + Enhanced Trait com Reaction/Fades não foi tratada como regra confirmada.",
+        "construcao_3e": "Imunidade a Energia 10 (Limitada à metade do efeito; 5 PP) + Dano de Energia à Distância 10 (Reação / Canalizado; 30 PP) + Vantagens de canalização (5 PP) = 40 PP (custo original da fonte preservado).",
         "custo_2e_pp": 40,
-        "custo_3e_pp": null
+        "custo_3e_pp": 40,
+        "nome_pt": "Absorção e Redirecionamento de Energia"
       }
     ],
     "equipamento": [
@@ -90,19 +91,18 @@
   },
   "custos_3e": {
     "habilidades": 44,
+    "poderes": 40,
     "defesas": 20,
     "pericias": 46,
     "vantagens": 12,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 122,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 162
   },
   "notas_conversao": [
     "Dodge Focus 4 foi convertido em Esquiva; três graduações foram mantidas e uma removida para limitar Esquiva + Resistência a 20.",
     "Disable Device foi incorporada em Tecnologia; Search e Notice foram reunidas em Investigação e Percepcao, respectivamente. Survival foi mantida como Especialidade.",
     "Os custos confirmados sem o poder somam 122 PP. A proposta do NotebookLM para Absorption (Immunity 10 + Enhanced Trait com Reaction/Fades) não foi confirmada no texto de referencia. Os 153 PP estimados e a redução sugerida de perícias ficam, portanto, como hipótese, não como total validado.",
     "Elusive Target não tem vantagem equivalente em 3e; a situação pode conceder cobertura conforme o guia. Quickdraw foi normalizada para Quick Draw.",
-    "A fonte não lista complicações; nenhuma motivacao foi inferida."
+    "A fonte não lista complicações; nenhuma motivacao foi inferida.",
+    "Poderes fechados em 3e: Absorção e Redirecionamento de Energia fechado em 40 PP. Total 3e: 162 PP."
   ]
 }

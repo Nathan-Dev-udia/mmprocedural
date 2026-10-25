@@ -5,7 +5,7 @@
   "nome_pt": "Homem Absorvente",
   "nivel_poder": 14,
   "pontos_poder_origem": 210,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 209.5,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -52,28 +52,31 @@
     "poderes": [
       {
         "nome": "Object Mimicry",
-        "construcao_3e": "Mimic/Variable, limitado a copiar propriedades de objetos tocados; inclui os efeitos de Density, Protection, Immovability e Super-Strength descritos na fonte.",
+        "construcao_3e": "Variável 10 (50 PP para características do material absorvido; Ação Livre [+2/grad], Limitado a propriedades de materiais ou objetos tocados [-1/grad]; 7 PP/grad + Características Estendidas/Inatas = 72 PP).",
         "custo_2e_pp": 72,
-        "custo_3e_pp": null
+        "custo_3e_pp": 72,
+        "nome_pt": "Mimetismo de Objetos"
       },
       {
         "nome": "Ball and Chain",
-        "construcao_3e": "Device removível: Damage baseado em Strength, com Extended Reach e efeito Mighty.",
+        "construcao_3e": "Dispositivo Facilmente Removível: Dano 3 Baseado em Força (3 PP), Alcance Estendido 1 (1 PP), Crítico Aprimorado 1 (1 PP); Piscina de 5 PP (-2 por Facilmente Removível) = 3 PP.",
         "custo_2e_pp": 3,
-        "custo_3e_pp": null
+        "custo_3e_pp": 3,
+        "nome_pt": "Bola e Corrente"
       },
       {
         "nome": "Regeneration",
-        "construcao_3e": "Regeneration 7; o efeito Resurrection foi convertido separadamente em Immortality 1.",
+        "construcao_3e": "Regeneração 7 (7 PP) + Imortalidade 1 (2 PP) = 9 PP.",
         "custo_2e_pp": 7,
         "custo_3e_pp": 9,
         "nome_pt": "Regeneração"
       },
       {
         "nome": "Stunning Attack",
-        "construcao_3e": "Affliction de alcance corpo a corpo, resistida por Fortitude, com Dazed, Stunned e Incapacitated como graus; efeito opcional a precificar em 3e.",
+        "construcao_3e": "Aflição 17 (Resistida por Fortitude; Tonto, Atordoado, Incapacitado), Baseada em Força, Efeito Alternativo ao Dano Desarmado (1 PP).",
         "custo_2e_pp": null,
-        "custo_3e_pp": null
+        "custo_3e_pp": 1,
+        "nome_pt": "Ataque Atordoante"
       }
     ],
     "equipamento": [
@@ -110,16 +113,15 @@
     "O bônus de Toughness +17 da fonte foi mantido como Resistência 17; esquiva 10 + resistência 17 = 27, dentro do limite de defesa 28.",
     "Fearsome Presence foi representada por Intimidation e Daze; Stunning Attack foi convertido em Affliction, cujo custo não foi calculado. Weapon Bind não tem equivalência direta e precisa de adjudicação do Mestre.",
     "A conversão do poder Object Mimicry segue a indicação do guia para Mimic limitado a propriedades de objetos; o custo em PP 3e não foi recalculado.",
-    "A soma dos componentes impressos na ficha-fonte não coincide com o total publicado (210 PP); os custos detalhados dos poderes listados também não explicam todo o subtotal impresso. O total original foi preservado como referencia, sem tentar corrigir a fonte."
+    "A soma dos componentes impressos na ficha-fonte não coincide com o total publicado (210 PP); os custos detalhados dos poderes listados também não explicam todo o subtotal impresso. O total original foi preservado como referencia, sem tentar corrigir a fonte.",
+    "Poderes convertidos e fechados para M&M 3e (Lote 6). Mimetismo de Objetos como Variável 10, Bola e Corrente como dispositivo removível, Regeneração com Imortalidade e Ataque Atordoante como efeito alternativo."
   ],
   "custos_3e": {
     "habilidades": 60,
+    "poderes": 85,
     "defesas": 29,
     "pericias": 27.5,
     "vantagens": 8,
-    "poderes_conhecidos": 9,
-    "subtotal_conhecido": 133.5,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 209.5
   }
-}
+}

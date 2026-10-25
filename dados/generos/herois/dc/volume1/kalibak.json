@@ -24,5 +24,6 @@
     "ataques": "Initiative +6, Beta-Club +10 (Ranged, Damage 14), Unarmed +12 (Close, Damage 14)",
     "defesas": "Dodge 10, Parry 12, Fortitude 16, Toughness 14, Will 10",
     "pontos_poder": "Abilities 86 + Powers 24 + Advantages 10 + Skills 13 + Defenses 22 = 155"
-  }
+  },
+  "nome_pt": "Kalibak"
 }

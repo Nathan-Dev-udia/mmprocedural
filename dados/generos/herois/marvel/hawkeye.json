@@ -2,10 +2,10 @@
   "edicao_origem": "Mutants & Masterminds 2e",
   "edicao_destino": "Mutants & Masterminds 3e",
   "nome": "Hawkeye",
-  "nome_pt": "Hawkeye",
+  "nome_pt": "Gavião Arqueiro",
   "nivel_poder": 10,
   "pontos_poder_origem": 150,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 178,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -64,16 +64,17 @@
     "poderes": [
       {
         "nome": "Bow",
-        "construcao_3e": "Device (Removable): Explosive Arrow (Blast 5, Explosion); Alternate Effects: Snare 6, Blast 3 (Mighty, Improved Critical 3), Visual Concealment 7, Visual Dazzle 6, Movement (Swinging).",
+        "construcao_3e": "Dispositivo Facilmente Removível: Flecha Explosiva (Dano à Distância 5, Explosão; 15 PP); Efeitos Alternativos: Flecha de Rede (Snare 6; 1 PP), Flecha Perfurante (Dano 3 baseado em Força, Crítico 3; 1 PP), Flecha de Fumaça (Camuflagem Visual; 1 PP), Flecha de Luz (Dazzle Visual 6; 1 PP), Flecha de Cabo (Movimento Balançar; 1 PP). Piscina de 20 PP; Facilmente Removível (-8 PP) = 12 PP.",
         "custo_2e_pp": 12,
-        "custo_3e_pp": null
+        "custo_3e_pp": 12,
+        "nome_pt": "Arco e Flechas Especiais"
       },
       {
         "nome": "Super Senses",
         "construcao_3e": "Senses 2 (Extended Sight).",
         "custo_2e_pp": 2,
         "custo_3e_pp": 2,
-        "nome_pt": "Super-Sentidos"
+        "nome_pt": "Super-Sentidos (Visão Aguçada)"
       }
     ],
     "equipamento": [
@@ -104,18 +105,17 @@
   },
   "custos_3e": {
     "habilidades": 60,
+    "poderes": 14,
     "defesas": 25,
     "pericias": 59,
     "vantagens": 20,
-    "poderes_conhecidos": 2,
-    "subtotal_conhecido": 166,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 178
   },
   "notas_conversao": [
     "Attack Specialization (Bow) 2 foi convertida em 4 graduações de Combate à Distância: Arco. Dodge Focus 9 foi convertido em Esquiva; Esquiva/Aparar foram limitadas para respeitar NP 10 com Resistência ativa 6. Ranged Pin foi removida conforme o guia.",
     "Defesas ajustadas para Esquiva 14 e Aparar 14, respeitando os limites de NP 10 com Resistência 6.",
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
-    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados.",
+    "Poderes fechados em 3e: Arco e aljava de flechas especiais convertido como Dispositivo Facilmente Removível (12 PP) + Sentidos (2 PP) = 14 PP. Total 3e: 178 PP."
   ]
 }

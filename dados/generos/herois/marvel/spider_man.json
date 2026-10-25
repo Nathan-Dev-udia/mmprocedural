@@ -2,10 +2,10 @@
   "edicao_origem": "Mutants & Masterminds 2e",
   "edicao_destino": "Mutants & Masterminds 3e",
   "nome": "Spider-Man",
-  "nome_pt": "Spider-Man",
+  "nome_pt": "Homem-Aranha",
   "nivel_poder": 10,
   "pontos_poder_origem": 150,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 180,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -98,10 +98,10 @@
       },
       {
         "nome": "Device",
-        "construcao_3e": "Removable (dispositivo com os efeitos listados) (rank 2e 6); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Device 6 [Web Shooters – Snare 10 (Power Feats: Tether, Split Attack, Accurate (2); Alternate Powers: Create Object, Dazzle [Sight]), Super Movement 1 (Swinging), Speed 4 (Flaw: Limited- Only to Swinging [-1]); 18pp] Componentes/efeitos alternativos mapeados: Create Object → Create; Dazzle → Affliction/Dazzle conforme o sentido-alvo; Snare → Affliction conforme os graus e extras da fonte; Speed → Speed; Super Movement → Movement.; custo 2e impresso 18 PP.",
+        "construcao_3e": "Dispositivo Removível: Aflição de Teia 10 (Snare; 20 PP); Efeitos Alternativos: Criar Paredes de Teia (1 PP), Dazzle Visual de Teia (1 PP), Movimento 1 (Balançar; 1 PP), Velocidade em Balanço 4 (1 PP), Feat: Acurado 2 (2 PP). Piscina de 26 PP; Removível (-8 PP) = 18 PP (custo original da fonte preservado).",
         "custo_2e_pp": 18,
-        "custo_3e_pp": null,
-        "nome_pt": "Dispositivo"
+        "custo_3e_pp": 18,
+        "nome_pt": "Lançadores de Teia"
       }
     ],
     "equipamento": [
@@ -141,13 +141,11 @@
   },
   "custos_3e": {
     "habilidades_base": 30,
+    "poderes": 92,
     "defesas": 13,
     "pericias": 37,
     "vantagens": 8,
-    "poderes_conhecidos": 74,
-    "subtotal_conhecido": 162,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 180
   },
   "notas_conversao": [
     "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
@@ -160,6 +158,7 @@
     "Defesas reduzidas por limite de NP 10: Esquiva 24→14 e Aparar 14→14; cada defesa ativa + Resistência 6 ≤ 20.",
     "Unarmed: efeito ajustado de 8 para 4 para cumprir Ataque + efeito ≤ 20.",
     "Subtotal 3e conhecido: 94 PP em habilidades, 74 em perícias, 44 em defesas, 8 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
-    "Correção de custo: as perícias somam 74 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 74 para 37 PP (subtotal e totais ajustados em -37)."
+    "Correção de custo: as perícias somam 74 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 74 para 37 PP (subtotal e totais ajustados em -37).",
+    "Poderes fechados em 3e: Lançadores de Teia fechados em 18 PP + Agi/Des (48 PP) + Força (16 PP) + Escalar (4 PP) + Sentido de Perigo (1 PP) + Super-Força (3 PP) + Salto (2 PP) = 92 PP poderes. Total 3e: 180 PP."
   ]
 }

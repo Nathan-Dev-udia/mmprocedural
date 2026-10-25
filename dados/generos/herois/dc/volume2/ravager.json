@@ -1,28 +1,30 @@
-{
-  "nome": "Ravager",
-  "sistema": "DC Adventures / Mutants & Masterminds 3e",
-  "nivel_poder": 10,
-  "pontos_poder_publicados": 202,
-  "fonte": {
-    "arquivo": "dc adventures heroes and villains vol 2.pdf",
-    "pagina_pdf": 129
-  },
-  "ficha_publicada": {
-    "habilidades": {
-      "STR": "6",
-      "STA": "5",
-      "AGL": "7",
-      "DEX": "8",
-      "FGT": "11",
-      "INT": "2",
-      "AWE": "3",
-      "PRE": "2"
-    },
-    "poderes": "Body a rmor : Impervious Protection 4; Senses 1 (Communication Link); Removable (-2 points) • 7 points e nergy k atanas: Strength-based Damage 3, Improved Smash, Penetrating 5, Split 2, Easily Removable (–3 points), Indestructible • 8 points • e nergy Shield: Impervious Protection 3 • 1 point e nhanced Brain Capacity: Enhanced",
-    "vantagens": "(Eidetic Memory); Enhanced Intellect 1; Quickness 2, Limited to Mental • 4 points e nhanced Senses: Enhanced Awareness 1; Senses 8 (Acute Smell, Danger Sense, Darkvision, Extended Rapid Hearing, Extended Rapid Vision) • 10 points Heightened r eflexes: Enhanced Advantages (Evasion 2) • 2 points Heightened Speed: Enhanced Advantages (Improved Initiative 1); Quickness 1; Speed 3 (16 MPH) • 5 points Precognition: Enhanced Advantages ( Improved Initiative 2 , Redirect, Seize Initiative, Uncanny Dodge); Senses 4 (Precognition), Limited to 1 round into the future, Unreliable • 7 points Super-Strength: Enhanced Strength 1, Limited to Lifting (Lifting Str 7; 3 tons) • 1 point",
-    "equipamento": "Combat k nife: Strength-based Damage 2, Improved Critical • 3 points a d V ant a G e S Accurate Attack, Agile Feint, Assessment, Chokehold, Defensive Attack, Eidetic Memory , Equipment, Evasion 2 , Fearless, Great Endurance, Improved Aim, Improved Defense, Improved Disarm, Improved Grab, Improved Hold, Improved Initiative 3 , Improved Smash, Improved Trip, Instant Up, Jack- of-all-trades, Languages 2, Move-by Action, Power Attack, Precise Attack (Ranged; Cover), Prone Fighting, Quick Draw, Ranged Attack 4, Redirect , Seize Initiative , Startle, Takedown, Teamwork, Uncanny Dodge",
-    "pericias": "Acrobatics 7 (+14), Athletics 2 (+8), Deception 5 (+7), Expertise: Streetwise 3 (+5), Expertise: Tactics 3 (+5), Insight 6 (+9), Intimidation 10 (+12), Perception 8 (+11), Stealth 8 (+15), Technology 8 (+10)",
-    "ataques": "i nitia tive +19 Energy Katana +11 Close, Damage 9, Penetrating 5, Split 2 Unarmed +11 Close, Damage 6 efen S e d d odge 11 f or titude 10 Parry 11 t oughness 9 W ill 8",
-    "pontos_poder": "a bilities 84 S kills 30 Powers 44 d efenses 14 antages 30 a dv ToTal 202"
-  }
-}
+{
+  "nome": "Ravager",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": 202,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 129
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "6",
+      "STA": "5",
+      "AGL": "7",
+      "DEX": "8",
+      "FGT": "11",
+      "INT": "2",
+      "AWE": "3",
+      "PRE": "2"
+    },
+    "poderes": "Body a rmor : Impervious Protection 4; Senses 1 (Communication Link); Removable (-2 points) • 7 points e nergy k atanas: Strength-based Damage 3, Improved Smash, Penetrating 5, Split 2, Easily Removable (–3 points), Indestructible • 8 points • e nergy Shield: Impervious Protection 3 • 1 point e nhanced Brain Capacity: Enhanced",
+    "vantagens": "(Eidetic Memory); Enhanced Intellect 1; Quickness 2, Limited to Mental • 4 points e nhanced Senses: Enhanced Awareness 1; Senses 8 (Acute Smell, Danger Sense, Darkvision, Extended Rapid Hearing, Extended Rapid Vision) • 10 points Heightened r eflexes: Enhanced Advantages (Evasion 2) • 2 points Heightened Speed: Enhanced Advantages (Improved Initiative 1); Quickness 1; Speed 3 (16 MPH) • 5 points Precognition: Enhanced Advantages ( Improved Initiative 2 , Redirect, Seize Initiative, Uncanny Dodge); Senses 4 (Precognition), Limited to 1 round into the future, Unreliable • 7 points Super-Strength: Enhanced Strength 1, Limited to Lifting (Lifting Str 7; 3 tons) • 1 point",
+    "equipamento": "Combat k nife: Strength-based Damage 2, Improved Critical • 3 points a d V ant a G e S Accurate Attack, Agile Feint, Assessment, Chokehold, Defensive Attack, Eidetic Memory , Equipment, Evasion 2 , Fearless, Great Endurance, Improved Aim, Improved Defense, Improved Disarm, Improved Grab, Improved Hold, Improved Initiative 3 , Improved Smash, Improved Trip, Instant Up, Jack- of-all-trades, Languages 2, Move-by Action, Power Attack, Precise Attack (Ranged; Cover), Prone Fighting, Quick Draw, Ranged Attack 4, Redirect , Seize Initiative , Startle, Takedown, Teamwork, Uncanny Dodge",
+    "pericias": "Acrobatics 7 (+14), Athletics 2 (+8), Deception 5 (+7), Expertise: Streetwise 3 (+5), Expertise: Tactics 3 (+5), Insight 6 (+9), Intimidation 10 (+12), Perception 8 (+11), Stealth 8 (+15), Technology 8 (+10)",
+    "ataques": "i nitia tive +19 Energy Katana +11 Close, Damage 9, Penetrating 5, Split 2 Unarmed +11 Close, Damage 6",
+    "pontos_poder": "a bilities 84 S kills 30 Powers 44 d efenses 14 antages 30 a dv ToTal 202",
+    "defesas": "Dodge 11 Fortitude 10 Parry 11 Toughness 9 Will 8"
+  },
+  "nome_pt": "Devastadora"
+}

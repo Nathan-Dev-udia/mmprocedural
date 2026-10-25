@@ -1,27 +1,30 @@
-{
-  "nome": "Saint Walker",
-  "sistema": "DC Adventures / Mutants & Masterminds 3e",
-  "nivel_poder": 14,
-  "pontos_poder_publicados": null,
-  "fonte": {
-    "arquivo": "dc adventures heroes and villains vol 2.pdf",
-    "pagina_pdf": 155
-  },
-  "ficha_publicada": {
-    "habilidades": {
-      "STR": "1",
-      "STA": "2",
-      "AGL": "1",
-      "DEX": "2",
-      "FGT": "3",
-      "INT": "1",
-      "AWE": "6",
-      "PRE": "6"
-    },
-    "poderes": "Power r ing: 139 points, Removable (-28 points) • 111 points ai and d atabase: Features 2 • 2 points t he P ower of Hope: Feature 1 (see sidebar) • 1 points Communication: Senses 1 (Communication Link to Central Power Battery) • 1 points f ligh t: Flight 14 (32,000 MPH), Movement 4 (Environmental Adaptation — Zero-G, Space Travel 3) • 36 points f or ce f ield: Impervious Protection 12; Immunity 10 (Life Support) • 34 points f or ce Manipulation: Array (40 points) • r evitalize: Healing 20 • 40 points • Hope Burns Bright: Nullify 20 (Orange, Red, or Yellow power ring effects), Dynamic • 2 points • f or ce Blast: Ranged Damage 18, Dynamic • 2 points • f or ce Constructs: Create 18, Dynamic • 2 points • Lifting: Move Object 18, Dynamic • 2 points • f or ce Bubble: Immunity 10 (Life Support), Affects Others, Burst Area, Ranged • 2 point • Mobile Constructs: Create 12, Movable, Dynamic • 2 point S canning Beam: Senses 6 (Analytical Auditory, Chemical, and Visual) • 6 points Univ ersal t r anslator: Comprehend Languages 4 • 8 points a V ant G d a e S Defensive Attack, Diehard, Fearless, Inspire 3, Interpose, Leadership, Move-by Action",
-    "pericias": "Athletics 4 (+5), Expertise: Theology 8 (+9), Insight 4 (+10), Perception 4 (+10), Persuasion 4 (+10), Ranged Combat: Power Ring 8 (+10), Technology 4 (+5), Treatment 4 (+5)",
-    "ataques": "i nitia tive +1 Force Blast +10 Ranged, Damage 18 Unarmed +3 Close, Damage 1 efen S e d d odge 6 f or titude 6 Parry 6 t oughness 14 W ill 14 Po er Point W S a bilities 44 S kills 20 Powers 111 d efenses 20",
-    "vantagens": "9 t otal 204",
-    "complicacoes": "Power Loss: The Blue Lantern rings are fueled by hope. If the wearer of the ring and others near the wearer of a Blue Lantern power ring lose hope, the ring ceases to function. Weakness: The Force Manipulation array of the Blue Lantern Power Ring only functions while within perception range of a Green Lantern, also Flight and Force Field ranks are halved when out of this range."
-  }
-}
+{
+  "nome": "Saint Walker",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 14,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 155
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "2",
+      "AGL": "1",
+      "DEX": "2",
+      "FGT": "3",
+      "INT": "1",
+      "AWE": "6",
+      "PRE": "6"
+    },
+    "poderes": "Power r ing: 139 points, Removable (-28 points) • 111 points ai and d atabase: Features 2 • 2 points t he P ower of Hope: Feature 1 (see sidebar) • 1 points Communication: Senses 1 (Communication Link to Central Power Battery) • 1 points f ligh t: Flight 14 (32,000 MPH), Movement 4 (Environmental Adaptation — Zero-G, Space Travel 3) • 36 points f or ce f ield: Impervious Protection 12; Immunity 10 (Life Support) • 34 points f or ce Manipulation: Array (40 points) • r evitalize: Healing 20 • 40 points • Hope Burns Bright: Nullify 20 (Orange, Red, or Yellow power ring effects), Dynamic • 2 points • f or ce Blast: Ranged Damage 18, Dynamic • 2 points • f or ce Constructs: Create 18, Dynamic • 2 points • Lifting: Move Object 18, Dynamic • 2 points • f or ce Bubble: Immunity 10 (Life Support), Affects Others, Burst Area, Ranged • 2 point • Mobile Constructs: Create 12, Movable, Dynamic • 2 point S canning Beam: Senses 6 (Analytical Auditory, Chemical, and Visual) • 6 points Univ ersal t r anslator: Comprehend Languages 4 • 8 points a V ant G d a e S Defensive Attack, Diehard, Fearless, Inspire 3, Interpose, Leadership, Move-by Action",
+    "pericias": "Athletics 4 (+5), Expertise: Theology 8 (+9), Insight 4 (+10), Perception 4 (+10), Persuasion 4 (+10), Ranged Combat: Power Ring 8 (+10), Technology 4 (+5), Treatment 4 (+5)",
+    "ataques": "i nitia tive +1 Force Blast +10 Ranged, Damage 18 Unarmed +3 Close, Damage 1",
+    "vantagens": "9 t otal 204",
+    "complicacoes": "Power Loss: The Blue Lantern rings are fueled by hope. If the wearer of the ring and others near the wearer of a Blue Lantern power ring lose hope, the ring ceases to function. Weakness: The Force Manipulation array of the Blue Lantern Power Ring only functions while within perception range of a Green Lantern, also Flight and Force Field ranks are halved when out of this range.",
+    "defesas": "Dodge 6 Fortitude 6 Parry 6 Toughness 14 Will 14",
+    "pontos_poder": "Po er Point W S a bilities 44 S kills 20 Powers 111 d efenses 20"
+  },
+  "nome_pt": "Santo Andarilho"
+}

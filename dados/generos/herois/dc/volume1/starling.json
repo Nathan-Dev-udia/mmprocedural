@@ -24,5 +24,6 @@
     "ataques": "Initiative +4, Unarmed +13 (Damage 13)",
     "defesas": "Dodge 8, Parry 8, Fortitude Immune, Toughness 12, Will Immune",
     "pontos_poder": "Abilities 18 + Powers 77 + Advantages 3 + Skills 11 + Defenses 11 = 120"
-  }
+  },
+  "nome_pt": "Starling"
 }

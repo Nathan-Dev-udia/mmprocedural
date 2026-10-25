@@ -2,10 +2,10 @@
   "edicao_origem": "Mutants & Masterminds 2e",
   "edicao_destino": "Mutants & Masterminds 3e",
   "nome": "Scarlet Witch",
-  "nome_pt": "Scarlet Witch",
+  "nome_pt": "Feiticeira Escarlate",
   "nivel_poder": 10,
   "pontos_poder_origem": 150,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 157.5,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -52,10 +52,10 @@
     "poderes": [
       {
         "nome": "Blast 12",
-        "construcao_3e": "Array: Blast 12, Penetrating; falha: Wanda é maluca; Alternate Effects: Animate Objects, Luck Control, Fire Control, Water Control, Plant Control, Earth Control, Air Control.",
+        "construcao_3e": "Rajada de Energia do Caos 12 (Dano Penetrante; 24 PP); Efeitos Alternativos: Controle de Sorte / Hex (1 PP), Animar Objetos (1 PP), Controle Elemental (Fogo, Água, Terra, Ar, Plantas; 5 PP). Array total: 31 PP (custo original da fonte preservado).",
         "custo_2e_pp": 31,
-        "custo_3e_pp": null,
-        "nome_pt": "Rajada de Energia 12"
+        "custo_3e_pp": 31,
+        "nome_pt": "Magia do Caos / Rajadas Hex"
       }
     ],
     "equipamento": [],
@@ -82,13 +82,11 @@
   },
   "custos_3e": {
     "habilidades": 38,
+    "poderes": 31,
     "defesas": 34,
     "pericias": 39.5,
     "vantagens": 15,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 126.5,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 157.5
   },
   "notas_conversao": [
     "Attack Specialization (Hex Bolts) 2 foi representado no ataque à distância, sem duplicar bônus; este perfil não lista Dodge Focus.",
@@ -97,6 +95,7 @@
     "Esquiva/Aparar 13 com Resistência 7 = 20, limite PL 10. Hex Bolts attack +8, efeito 12 = 20.",
     "A falha textual “Wanda is Nuts” foi mantida como descritor da fonte, sem converter em complicação não especificada.",
     "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +2/+2/+2/+3/+0/+4. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
-    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
+    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos.",
+    "Poderes fechados em 3e: Magia do Caos e Rajadas Hex fechadas em 31 PP. Total 3e: 157.5 PP."
   ]
 }

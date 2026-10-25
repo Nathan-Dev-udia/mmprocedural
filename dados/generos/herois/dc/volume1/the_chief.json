@@ -24,5 +24,6 @@
     "defesas": "Dodge 2, Parry 6, Fortitude 5, Toughness 0, Will 10",
     "pontos_poder": "Abilities 60 + Powers 0 + Advantages 31 + Skills 30 + Defenses 12 = 135",
     "complicacoes": "Disability: The Chief lost the use of his legs years ago, due to nervous system damage. He is confined to a wheelchair . Nemesis: Niles Caulder has several sworn enemies, including the Brain and General Immortus. Reputation: The Chief has garnered a reputation as duplicitous and mentally unstable. Other heroes (even his allies) are suspicious of his actions."
-  }
+  },
+  "nome_pt": "The Chief"
 }

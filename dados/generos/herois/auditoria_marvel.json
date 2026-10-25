@@ -1,624 +1,4 @@
 {
- "MARVEL_PODERES_PENDENTES": [
-  [
-   "marvel/absorbing_man",
-   ""
-  ],
-  [
-   "marvel/bishop",
-   ""
-  ],
-  [
-   "marvel/black_cat",
-   ""
-  ],
-  [
-   "marvel/black_panther",
-   ""
-  ],
-  [
-   "marvel/blink",
-   ""
-  ],
-  [
-   "marvel/blob",
-   ""
-  ],
-  [
-   "marvel/cable",
-   ""
-  ],
-  [
-   "marvel/cannonball",
-   ""
-  ],
-  [
-   "marvel/chamber",
-   ""
-  ],
-  [
-   "marvel/cyclops",
-   ""
-  ],
-  [
-   "marvel/dani_moonstar",
-   ""
-  ],
-  [
-   "marvel/daredevil",
-   ""
-  ],
-  [
-   "marvel/deadpool",
-   ""
-  ],
-  [
-   "marvel/doctor_doom",
-   ""
-  ],
-  [
-   "marvel/forge",
-   ""
-  ],
-  [
-   "marvel/ghost_rider",
-   ""
-  ],
-  [
-   "marvel/giant_man",
-   ""
-  ],
-  [
-   "marvel/green_goblin",
-   ""
-  ],
-  [
-   "marvel/havok",
-   ""
-  ],
-  [
-   "marvel/hawkeye",
-   ""
-  ],
-  [
-   "marvel/hulk",
-   ""
-  ],
-  [
-   "marvel/human_torch",
-   ""
-  ],
-  [
-   "marvel/icarus",
-   ""
-  ],
-  [
-   "marvel/iceman",
-   ""
-  ],
-  [
-   "marvel/invisible_woman",
-   ""
-  ],
-  [
-   "marvel/iron_man",
-   ""
-  ],
-  [
-   "marvel/jean_grey",
-   ""
-  ],
-  [
-   "marvel/juggernaut",
-   ""
-  ],
-  [
-   "marvel/longshot",
-   ""
-  ],
-  [
-   "marvel/magneto",
-   ""
-  ],
-  [
-   "marvel/marrow",
-   ""
-  ],
-  [
-   "marvel/mercury",
-   ""
-  ],
-  [
-   "marvel/mimic_exiles",
-   ""
-  ],
-  [
-   "marvel/miss_marvel",
-   ""
-  ],
-  [
-   "marvel/mister_fantastic",
-   ""
-  ],
-  [
-   "marvel/moon_knight",
-   ""
-  ],
-  [
-   "marvel/multiple_man",
-   ""
-  ],
-  [
-   "marvel/nightcrawler",
-   ""
-  ],
-  [
-   "marvel/omega_red",
-   ""
-  ],
-  [
-   "marvel/phoenix_jean_grey",
-   ""
-  ],
-  [
-   "marvel/phoenix_rachel_summers",
-   ""
-  ],
-  [
-   "marvel/polaris",
-   ""
-  ],
-  [
-   "marvel/prodigy",
-   ""
-  ],
-  [
-   "marvel/professor_x",
-   ""
-  ],
-  [
-   "marvel/psylocke",
-   ""
-  ],
-  [
-   "marvel/pyro",
-   ""
-  ],
-  [
-   "marvel/quicksilver",
-   ""
-  ],
-  [
-   "marvel/rockslide",
-   ""
-  ],
-  [
-   "marvel/rogue",
-   ""
-  ],
-  [
-   "marvel/sabretooth",
-   ""
-  ],
-  [
-   "marvel/sage",
-   ""
-  ],
-  [
-   "marvel/sandman",
-   ""
-  ],
-  [
-   "marvel/sasquatch_heather_hudson",
-   ""
-  ],
-  [
-   "marvel/sasquatch_walter_langkowski",
-   ""
-  ],
-  [
-   "marvel/sauron",
-   ""
-  ],
-  [
-   "marvel/scarlet_witch",
-   ""
-  ],
-  [
-   "marvel/sentinel",
-   ""
-  ],
-  [
-   "marvel/shadowcat",
-   ""
-  ],
-  [
-   "marvel/she_hulk",
-   ""
-  ],
-  [
-   "marvel/silver_samurai",
-   ""
-  ],
-  [
-   "marvel/silver_surfer",
-   ""
-  ],
-  [
-   "marvel/siryn",
-   ""
-  ],
-  [
-   "marvel/speedball",
-   ""
-  ],
-  [
-   "marvel/spider_man",
-   ""
-  ],
-  [
-   "marvel/spider_man_miguel_o_hara",
-   ""
-  ],
-  [
-   "marvel/storm",
-   ""
-  ],
-  [
-   "marvel/strong_guy",
-   ""
-  ],
-  [
-   "marvel/sunfire",
-   ""
-  ],
-  [
-   "marvel/sunspot",
-   ""
-  ],
-  [
-   "marvel/thanos",
-   ""
-  ],
-  [
-   "marvel/thor",
-   ""
-  ],
-  [
-   "marvel/toad",
-   ""
-  ],
-  [
-   "marvel/venom",
-   ""
-  ],
-  [
-   "marvel/vision",
-   ""
-  ],
-  [
-   "marvel/white_queen",
-   ""
-  ],
-  [
-   "marvel/wolverine",
-   ""
-  ],
-  [
-   "marvel/x_23",
-   ""
-  ]
- ],
- "MARVEL_SEM_TOTAL_PP": [
-  [
-   "marvel/absorbing_man",
-   ""
-  ],
-  [
-   "marvel/bishop",
-   ""
-  ],
-  [
-   "marvel/black_cat",
-   ""
-  ],
-  [
-   "marvel/black_panther",
-   ""
-  ],
-  [
-   "marvel/blink",
-   ""
-  ],
-  [
-   "marvel/blob",
-   ""
-  ],
-  [
-   "marvel/cable",
-   ""
-  ],
-  [
-   "marvel/cannonball",
-   ""
-  ],
-  [
-   "marvel/chamber",
-   ""
-  ],
-  [
-   "marvel/cyclops",
-   ""
-  ],
-  [
-   "marvel/dani_moonstar",
-   ""
-  ],
-  [
-   "marvel/daredevil",
-   ""
-  ],
-  [
-   "marvel/deadpool",
-   ""
-  ],
-  [
-   "marvel/doctor_doom",
-   ""
-  ],
-  [
-   "marvel/forge",
-   ""
-  ],
-  [
-   "marvel/ghost_rider",
-   ""
-  ],
-  [
-   "marvel/giant_man",
-   ""
-  ],
-  [
-   "marvel/green_goblin",
-   ""
-  ],
-  [
-   "marvel/havok",
-   ""
-  ],
-  [
-   "marvel/hawkeye",
-   ""
-  ],
-  [
-   "marvel/hulk",
-   ""
-  ],
-  [
-   "marvel/human_torch",
-   ""
-  ],
-  [
-   "marvel/icarus",
-   ""
-  ],
-  [
-   "marvel/iceman",
-   ""
-  ],
-  [
-   "marvel/invisible_woman",
-   ""
-  ],
-  [
-   "marvel/iron_man",
-   ""
-  ],
-  [
-   "marvel/jean_grey",
-   ""
-  ],
-  [
-   "marvel/juggernaut",
-   ""
-  ],
-  [
-   "marvel/longshot",
-   ""
-  ],
-  [
-   "marvel/magneto",
-   ""
-  ],
-  [
-   "marvel/marrow",
-   ""
-  ],
-  [
-   "marvel/mercury",
-   ""
-  ],
-  [
-   "marvel/mimic_exiles",
-   ""
-  ],
-  [
-   "marvel/miss_marvel",
-   ""
-  ],
-  [
-   "marvel/mister_fantastic",
-   ""
-  ],
-  [
-   "marvel/moon_knight",
-   ""
-  ],
-  [
-   "marvel/multiple_man",
-   ""
-  ],
-  [
-   "marvel/nightcrawler",
-   ""
-  ],
-  [
-   "marvel/omega_red",
-   ""
-  ],
-  [
-   "marvel/phoenix_jean_grey",
-   ""
-  ],
-  [
-   "marvel/phoenix_rachel_summers",
-   ""
-  ],
-  [
-   "marvel/polaris",
-   ""
-  ],
-  [
-   "marvel/prodigy",
-   ""
-  ],
-  [
-   "marvel/professor_x",
-   ""
-  ],
-  [
-   "marvel/psylocke",
-   ""
-  ],
-  [
-   "marvel/pyro",
-   ""
-  ],
-  [
-   "marvel/quicksilver",
-   ""
-  ],
-  [
-   "marvel/rockslide",
-   ""
-  ],
-  [
-   "marvel/rogue",
-   ""
-  ],
-  [
-   "marvel/sabretooth",
-   ""
-  ],
-  [
-   "marvel/sage",
-   ""
-  ],
-  [
-   "marvel/sandman",
-   ""
-  ],
-  [
-   "marvel/sasquatch_heather_hudson",
-   ""
-  ],
-  [
-   "marvel/sasquatch_walter_langkowski",
-   ""
-  ],
-  [
-   "marvel/sauron",
-   ""
-  ],
-  [
-   "marvel/scarlet_witch",
-   ""
-  ],
-  [
-   "marvel/sentinel",
-   ""
-  ],
-  [
-   "marvel/shadowcat",
-   ""
-  ],
-  [
-   "marvel/she_hulk",
-   ""
-  ],
-  [
-   "marvel/silver_samurai",
-   ""
-  ],
-  [
-   "marvel/silver_surfer",
-   ""
-  ],
-  [
-   "marvel/siryn",
-   ""
-  ],
-  [
-   "marvel/speedball",
-   ""
-  ],
-  [
-   "marvel/spider_man",
-   ""
-  ],
-  [
-   "marvel/spider_man_miguel_o_hara",
-   ""
-  ],
-  [
-   "marvel/storm",
-   ""
-  ],
-  [
-   "marvel/strong_guy",
-   ""
-  ],
-  [
-   "marvel/sunfire",
-   ""
-  ],
-  [
-   "marvel/sunspot",
-   ""
-  ],
-  [
-   "marvel/thanos",
-   ""
-  ],
-  [
-   "marvel/thor",
-   ""
-  ],
-  [
-   "marvel/toad",
-   ""
-  ],
-  [
-   "marvel/venom",
-   ""
-  ],
-  [
-   "marvel/vision",
-   ""
-  ],
-  [
-   "marvel/white_queen",
-   ""
-  ],
-  [
-   "marvel/wolverine",
-   ""
-  ],
-  [
-   "marvel/x_23",
-   ""
-  ]
- ],
  "TOTAL_ACIMA_DE_15xNP": [
   [
    "marvel/adam-x",
@@ -633,8 +13,32 @@
    "183 > 135"
   ],
   [
+   "marvel/bishop",
+   "162 > 150"
+  ],
+  [
+   "marvel/black_cat",
+   "150 > 135"
+  ],
+  [
+   "marvel/black_panther",
+   "200 > 150"
+  ],
+  [
+   "marvel/blink",
+   "181.5 > 150"
+  ],
+  [
    "marvel/bullseye",
    "150 > 135"
+  ],
+  [
+   "marvel/cable",
+   "215 > 180"
+  ],
+  [
+   "marvel/cannonball",
+   "162 > 150"
   ],
   [
    "marvel/captain_america",
@@ -643,6 +47,30 @@
   [
    "marvel/captain_britain",
    "170 > 165"
+  ],
+  [
+   "marvel/chamber",
+   "163.5 > 150"
+  ],
+  [
+   "marvel/cyclops",
+   "168 > 150"
+  ],
+  [
+   "marvel/dani_moonstar",
+   "166.5 > 150"
+  ],
+  [
+   "marvel/daredevil",
+   "177.5 > 150"
+  ],
+  [
+   "marvel/deadpool",
+   "168 > 150"
+  ],
+  [
+   "marvel/doctor_doom",
+   "379 > 225"
   ],
   [
    "marvel/doctor_octopus",
@@ -665,16 +93,60 @@
    "172.5 > 150"
   ],
   [
+   "marvel/ghost_rider",
+   "220.5 > 180"
+  ],
+  [
+   "marvel/giant_man",
+   "205.5 > 150"
+  ],
+  [
+   "marvel/green_goblin",
+   "182.5 > 150"
+  ],
+  [
+   "marvel/havok",
+   "153 > 150"
+  ],
+  [
+   "marvel/hawkeye",
+   "178 > 150"
+  ],
+  [
+   "marvel/hulk",
+   "247.5 > 225"
+  ],
+  [
+   "marvel/invisible_woman",
+   "182.5 > 150"
+  ],
+  [
    "marvel/iron_fist",
    "164 > 150"
+  ],
+  [
+   "marvel/iron_man",
+   "218.5 > 180"
+  ],
+  [
+   "marvel/jean_grey",
+   "151 > 150"
   ],
   [
    "marvel/jubilee",
    "121 > 105"
   ],
   [
+   "marvel/juggernaut",
+   "224 > 210"
+  ],
+  [
    "marvel/kingpin",
    "165 > 120"
+  ],
+  [
+   "marvel/longshot",
+   "174.5 > 150"
   ],
   [
    "marvel/luke_cage",
@@ -685,36 +157,196 @@
    "173 > 135"
   ],
   [
+   "marvel/magneto",
+   "237.5 > 210"
+  ],
+  [
+   "marvel/mimic_exiles",
+   "247 > 150"
+  ],
+  [
+   "marvel/miss_marvel",
+   "182.5 > 165"
+  ],
+  [
+   "marvel/mister_fantastic",
+   "199.5 > 150"
+  ],
+  [
+   "marvel/moon_knight",
+   "179 > 150"
+  ],
+  [
+   "marvel/multiple_man",
+   "179 > 120"
+  ],
+  [
    "marvel/mystique",
    "170.5 > 150"
+  ],
+  [
+   "marvel/nightcrawler",
+   "171 > 150"
+  ],
+  [
+   "marvel/omega_red",
+   "190 > 150"
+  ],
+  [
+   "marvel/phoenix_jean_grey",
+   "311 > 255"
+  ],
+  [
+   "marvel/phoenix_rachel_summers",
+   "154.5 > 150"
+  ],
+  [
+   "marvel/prodigy",
+   "151.5 > 120"
+  ],
+  [
+   "marvel/psylocke",
+   "161.5 > 150"
   ],
   [
    "marvel/puck",
    "158 > 150"
   ],
   [
+   "marvel/pyro",
+   "141 > 135"
+  ],
+  [
+   "marvel/quicksilver",
+   "154 > 150"
+  ],
+  [
    "marvel/red_skull",
    "220.5 > 150"
+  ],
+  [
+   "marvel/rockslide",
+   "160 > 150"
+  ],
+  [
+   "marvel/rogue",
+   "196 > 150"
+  ],
+  [
+   "marvel/sabretooth",
+   "204.5 > 165"
+  ],
+  [
+   "marvel/sage",
+   "162.5 > 120"
+  ],
+  [
+   "marvel/sasquatch_heather_hudson",
+   "180 > 150"
+  ],
+  [
+   "marvel/sasquatch_walter_langkowski",
+   "188.5 > 150"
+  ],
+  [
+   "marvel/sauron",
+   "185 > 150"
+  ],
+  [
+   "marvel/scarlet_witch",
+   "157.5 > 150"
+  ],
+  [
+   "marvel/sentinel",
+   "175 > 150"
+  ],
+  [
+   "marvel/shadowcat",
+   "164 > 120"
+  ],
+  [
+   "marvel/she_hulk",
+   "205 > 180"
   ],
   [
    "marvel/shocker",
    "127.5 > 120"
   ],
   [
+   "marvel/silver_samurai",
+   "162.5 > 150"
+  ],
+  [
+   "marvel/silver_surfer",
+   "312.5 > 225"
+  ],
+  [
+   "marvel/spider_man",
+   "180 > 150"
+  ],
+  [
+   "marvel/spider_man_miguel_o_hara",
+   "194 > 150"
+  ],
+  [
+   "marvel/storm",
+   "167.5 > 150"
+  ],
+  [
+   "marvel/sunfire",
+   "157 > 150"
+  ],
+  [
+   "marvel/sunspot",
+   "174.5 > 150"
+  ],
+  [
    "marvel/tag",
    "120.5 > 120"
+  ],
+  [
+   "marvel/thanos",
+   "341 > 285"
   ],
   [
    "marvel/thing",
    "156.5 > 150"
   ],
   [
+   "marvel/thor",
+   "202 > 195"
+  ],
+  [
+   "marvel/toad",
+   "199.5 > 150"
+  ],
+  [
+   "marvel/venom",
+   "213 > 165"
+  ],
+  [
+   "marvel/vision",
+   "210.5 > 180"
+  ],
+  [
    "marvel/vulture",
    "107 > 105"
   ],
   [
+   "marvel/white_queen",
+   "176.5 > 150"
+  ],
+  [
    "marvel/wolfsbane",
    "161 > 150"
+  ],
+  [
+   "marvel/wolverine",
+   "193 > 150"
+  ],
+  [
+   "marvel/x_23",
+   "161.5 > 150"
   ]
  ],
  "HABILIDADE_NULA": [

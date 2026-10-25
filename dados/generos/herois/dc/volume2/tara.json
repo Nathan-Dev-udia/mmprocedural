@@ -1,28 +1,30 @@
-{
-  "nome": "Tara",
-  "sistema": "DC Adventures / Mutants & Masterminds 3e",
-  "nivel_poder": 8,
-  "pontos_poder_publicados": 129,
-  "fonte": {
-    "arquivo": "dc adventures heroes and villains vol 2.pdf",
-    "pagina_pdf": 262
-  },
-  "ficha_publicada": {
-    "habilidades": {
-      "STR": "2",
-      "STA": "2",
-      "AGL": "4",
-      "DEX": "4",
-      "FGT": "6",
-      "INT": "2",
-      "AWE": "2",
-      "PRE": "3"
-    },
-    "equipamento": "Bow & a rr ows: Ranged Damage 4; d agger: Strength-Based Damage 1, Improved Critical; Sword: Strength Based Damage 4, Improved Critical",
-    "vantagens": "All-out Attack, Attractive, Benefit 3 (Son of the Warlord), Close Attack 1, Defensive Attack, Defensive Roll 2, Evasion, Equipment 3, Improved Aim, Improved Defense, Inspire, Move-by Action, Power Attack, Quick Draw, Ranged Attack 3,Takedown, Teamwork",
-    "pericias": "Acrobatics 3 (+8) , Athletics 6 (+8), Close Combat: Swords 2 (+9), Deception 3 (+6), Expertise: Magic 2 (+4), Expertise: Performance 3 (+6), Expertise: Skartaris 5 (+7), Expertise: Survival 4 (+6), Expertise: Tactics 2 (+4), Insight 4 (+5), Intimidation 4 (+7), Perception 7 (+8), Persuasion 4 (+7), Ranged Combat: Bows 5 (+12), Sleight of Hand 3 (+7), Stealth 4 (+8)",
-    "ataques": "Initiative +5, Bow & Arrows +12 (Damage 4), Dagger +8 (Damage 3, Critical 19-20), Sword +10 (Damage 6, Critical 19-20), Unarmed +8 (Damage 2) efense: Dodge 11, Parry 11, Fortitude 7, Toughness 5/3*, Will d 7 *Without Defensive Roll Abilities 54 + Powers 0 + Advantages 24 + Skills 33 +",
-    "pontos_poder": "Defenses 20 = 129",
-    "complicacoes": "r elationships: Travis Morgan, husband, and Morgana, daughter. panion to the Warlord ever since, attaching herself to him so naturally that even his wife Tara has come to accept the rela- tionship as inevitable. Shakira refuses to reveal if she is a woman who turns into a cat or a feline somehow possessing the ability to take a human form, instead saying “why spoil a thing by tak- ing away all the mystery?” In any event, she is a fearsome fighter and skilled huntress. She has recently begun traveling with Joshua Morgan (see Tinder) since he became the new Warlord."
-  }
-}
+{
+  "nome": "Tara",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 8,
+  "pontos_poder_publicados": 129,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 262
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "2",
+      "STA": "2",
+      "AGL": "4",
+      "DEX": "4",
+      "FGT": "6",
+      "INT": "2",
+      "AWE": "2",
+      "PRE": "3"
+    },
+    "equipamento": "Bow & a rr ows: Ranged Damage 4; d agger: Strength-Based Damage 1, Improved Critical; Sword: Strength Based Damage 4, Improved Critical",
+    "vantagens": "All-out Attack, Attractive, Benefit 3 (Son of the Warlord), Close Attack 1, Defensive Attack, Defensive Roll 2, Evasion, Equipment 3, Improved Aim, Improved Defense, Inspire, Move-by Action, Power Attack, Quick Draw, Ranged Attack 3,Takedown, Teamwork",
+    "pericias": "Acrobatics 3 (+8) , Athletics 6 (+8), Close Combat: Swords 2 (+9), Deception 3 (+6), Expertise: Magic 2 (+4), Expertise: Performance 3 (+6), Expertise: Skartaris 5 (+7), Expertise: Survival 4 (+6), Expertise: Tactics 2 (+4), Insight 4 (+5), Intimidation 4 (+7), Perception 7 (+8), Persuasion 4 (+7), Ranged Combat: Bows 5 (+12), Sleight of Hand 3 (+7), Stealth 4 (+8)",
+    "ataques": "Initiative +5, Bow & Arrows +12 (Damage 4), Dagger +8 (Damage 3, Critical 19-20), Sword +10 (Damage 6, Critical 19-20), Unarmed +8 (Damage 2) efense:",
+    "pontos_poder": "Defenses 20 = 129",
+    "complicacoes": "r elationships: Travis Morgan, husband, and Morgana, daughter. panion to the Warlord ever since, attaching herself to him so naturally that even his wife Tara has come to accept the rela- tionship as inevitable. Shakira refuses to reveal if she is a woman who turns into a cat or a feline somehow possessing the ability to take a human form, instead saying “why spoil a thing by tak- ing away all the mystery?” In any event, she is a fearsome fighter and skilled huntress. She has recently begun traveling with Joshua Morgan (see Tinder) since he became the new Warlord.",
+    "defesas": "Dodge 11, Parry 11, Fortitude 7, Toughness 5/3*, Will 7 *Without Defensive Roll"
+  },
+  "nome_pt": "Tara"
+}

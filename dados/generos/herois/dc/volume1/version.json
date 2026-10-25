@@ -24,5 +24,6 @@
     "ataques": "Initiative +4, Attacks vary based on available machines to control",
     "defesas": "Dodge 5, Parry 5, Fortitude —, Toughness 5, Will 12",
     "pontos_poder": "Abilities 6 + Powers 109 + Advantages 3 + Skills 22 + Defenses 18 = 158"
-  }
+  },
+  "nome_pt": "Version)"
 }

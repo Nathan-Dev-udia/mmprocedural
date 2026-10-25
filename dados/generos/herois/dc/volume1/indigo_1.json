@@ -25,5 +25,6 @@
     "defesas": "Dodge 13 Fortitude 9 Parry 11 Toughness 14/13* Will 18 *Without Defense Roll.",
     "pontos_poder": "Abilities 56 Skills 26 Powers 130 Defenses 33 Advantages 7 ToTal 252",
     "complicacoes": "Enigmatic: Indigo-1 is cautious with the secrets of her Tribe. She will often not share the full details of events and plans that concern her people even with trusted allies. Power Loss: Indigo-1’s ring exhausts its power with time and use. It needs to be recharged using an Indigo Lantern Staff. Using the ring’s Space Travel power drains its charge substantially. Weakness: Indigo Lantern power rings depend on the ability of the wielders to feel compassion. The maximum rank of the ring’s effects is equal to the user’s Will Rank to reflect the ability to control and summon up these feelings, but thoughts of cruelty or callousness can cause the ring to fail."
-  }
+  },
+  "nome_pt": "Índigo-1"
 }

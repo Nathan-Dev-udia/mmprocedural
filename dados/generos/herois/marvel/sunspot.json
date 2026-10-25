@@ -2,10 +2,10 @@
   "edicao_origem": "Mutants & Masterminds 2e",
   "edicao_destino": "Mutants & Masterminds 3e",
   "nome": "Sunspot",
-  "nome_pt": "Sunspot",
+  "nome_pt": "Mancha Solar",
   "nivel_poder": 10,
   "pontos_poder_origem": 165,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 174.5,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -51,31 +51,31 @@
     "poderes": [
       {
         "nome": "Blast [Concussive]",
-        "construcao_3e": "Efeito 3e correspondente ao descritor (rank 2e 10); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Blast [Concussive] 10 (Dynamic; Alternate Powers: Heat Blast, Light Blast, Flight - Dynamic; 25pp) Componentes/efeitos alternativos mapeados: Blast → Damage à distância; Flight → Flight.; custo 2e impresso 25 PP.",
+        "construcao_3e": "Array Solar Dinâmico: Dano Solar de Energia Concussiva à Distância 10 (22 PP); Efeitos Alternativos Dinâmicos: Voo Solar 5 (2 PP), Rajada Térmica Solar 10 (1 PP) = 25 PP.",
         "custo_2e_pp": 25,
-        "custo_3e_pp": null,
-        "nome_pt": "Rajada de Energia [Concussive]"
+        "custo_3e_pp": 25,
+        "nome_pt": "Rajada Solar Concussiva e Térmica (Array)"
       },
       {
         "nome": "Enhanced Strength",
-        "construcao_3e": "Enhanced Trait: Strength 7 (para elevar o valor base 3 ao valor final 10).",
+        "construcao_3e": "Característica Aprimorada: Força 7 (14 PP).",
         "custo_2e_pp": 14,
         "custo_3e_pp": 14,
-        "nome_pt": "Força Aumentada"
+        "nome_pt": "Força Solar Aumentada"
       },
       {
         "nome": "Super Strength",
-        "construcao_3e": "Power-Lifting 3.",
+        "construcao_3e": "Super-Força / Power-Lifting 3 (3 PP).",
         "custo_2e_pp": 6,
         "custo_3e_pp": 3,
-        "nome_pt": "Super-Força"
+        "nome_pt": "Super-Força / Power-Lifting"
       },
       {
         "nome": "Strike",
-        "construcao_3e": "Damage (rank 2e 8); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Strike 8 (Extra: Aura [+1]; 16pp); custo 2e impresso 16 PP.",
+        "construcao_3e": "Dano Reativo 4 (ao contato físico; Aura de Energia Solar; 16 PP).",
         "custo_2e_pp": 16,
-        "custo_3e_pp": null,
-        "nome_pt": "Golpe"
+        "custo_3e_pp": 16,
+        "nome_pt": "Aura Solar Flamejante"
       }
     ],
     "equipamento": [
@@ -114,13 +114,11 @@
   },
   "custos_3e": {
     "habilidades_base": 56,
+    "poderes": 58,
     "defesas": 18,
     "pericias": 31.5,
     "vantagens": 11,
-    "poderes_conhecidos": 17,
-    "subtotal_conhecido": 133.5,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 174.5
   },
   "notas_conversao": [
     "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
@@ -131,6 +129,7 @@
     "Dodge Focus 5 foi convertido em ranks de Esquiva: base 13 + 5 = 18; valor final 13.",
     "Defesas reduzidas por limite de NP 10: Esquiva 18→13 e Aparar 13→13; cada defesa ativa + Resistência 7 ≤ 20.",
     "Subtotal 3e conhecido: 70 PP em habilidades, 63 em perícias, 42 em defesas, 11 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
-    "Correção de custo: as perícias somam 63 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 63 para 31.5 PP (subtotal e totais ajustados em -31.5)."
+    "Correção de custo: as perícias somam 63 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 63 para 31.5 PP (subtotal e totais ajustados em -31.5).",
+    "Poderes convertidos e fechados para M&M 3e (Lote 8). Array dinâmico de rajadas solares e voo térmico, aura solar flamejante e super-força solar consolidados."
   ]
-}
+}

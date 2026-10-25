@@ -26,5 +26,6 @@
     "defesas": "Dodge 10 Fortitude 8 Parry 6 Toughness 10 Will 8",
     "pontos_poder": "Abilities 48 Skills 21 Powers 52 Defenses 21 Advantages 16 ToTal 157",
     "complicacoes": "Motivation: Cosmic Boy is motivated to do good simply because it’s the right thing to do. Obsession: Cosmic Boy’s dedication to the Legion goes beyond mere commitment. He is a stalwart member and often makes personal sacrifices for the betterment of the team."
-  }
+  },
+  "nome_pt": "Cosmic Boy"
 }

@@ -25,5 +25,6 @@
     "defesas": "Dodge 10 Fortitude 12 Parry 10 Toughness 12 Will 8",
     "pontos_poder": "Abilities 50 Skills 17 Powers 88 Defenses 27 Advantages 3 ToTal 185",
     "complicacoes": "Motivation: For better or worse, the Floronic Man considers himself the defender of plant life and is willing to go to extremes to show humans the error of their ways. Prejudice: The Floronic Man is a human/plant hybrid and looks strangely horrific."
-  }
+  },
+  "nome_pt": "Floronic Man"
 }

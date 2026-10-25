@@ -2,10 +2,10 @@
   "edicao_origem": "Mutants & Masterminds 2e",
   "edicao_destino": "Mutants & Masterminds 3e",
   "nome": "Phoenix (Jean Grey)",
-  "nome_pt": "Phoenix (Jean Grey)",
+  "nome_pt": "Fênix (Jean Grey)",
   "nivel_poder": 17,
   "pontos_poder_origem": 300,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 311,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -57,36 +57,38 @@
     "poderes": [
       {
         "nome": "Element Control (Fire) 18",
-        "construcao_3e": "Array; Dynamic: Blast, Strike (Aura), Flight, Space Travel, Energy Absorption 18 (Healing; Limited a calor), Dimensional Movement, Temporal Movement.",
+        "construcao_3e": "Array Dinâmico de Fogo Cósmico 18: Dano à Distância 18 (36 PP) + Dinâmico (2 PP) + AEs Dinâmicos: Aura de Fogo Cósmico 10 (2 PP), Voo Espacial 10 (2 PP), Absorção Cósmica / Cura (2 PP), Movimento Dimensional/Temporal (5 PP) = 49 PP.",
         "custo_2e_pp": 49,
-        "custo_3e_pp": null
+        "custo_3e_pp": 49,
+        "nome_pt": "Poder Cósmico da Fênix (Chamas Cósmicas)"
       },
       {
         "nome": "Immunity 14",
-        "construcao_3e": "Life Support; descritor de fogo.",
+        "construcao_3e": "Imunidade 14 (Suporte Vital Cósmico e Calor/Fogo Cósmico; 14 PP).",
         "custo_2e_pp": 14,
-        "custo_3e_pp": null,
-        "nome_pt": "Imunidade 14"
+        "custo_3e_pp": 14,
+        "nome_pt": "Imunidade Cósmica e Fogo"
       },
       {
         "nome": "Regeneration 9",
-        "construcao_3e": "Recovery Bonus 8; Resurrection 1.",
+        "construcao_3e": "Regeneração 5 (5 PP) + Imortalidade 2 (Ressurreição da Fênix; 4 PP) = 9 PP.",
         "custo_2e_pp": 9,
-        "custo_3e_pp": null,
-        "nome_pt": "Regeneração 9"
+        "custo_3e_pp": 9,
+        "nome_pt": "Regeneração e Ressurreição da Fênix"
       },
       {
         "nome": "Telepathy 17",
-        "construcao_3e": "Dynamic array: Force Field (Impervious, Shapeable Area), ESP (Audio, Visual, Telepathy), Mental Blast, Mind Control, Telekinesis (Damaging), Blast 12 (Move Action, Concentration, Indirect), Astral Form 10 (Dimensional), Mind Shield, Life Control, Boost, Transform.",
+        "construcao_3e": "Array Dinâmico Cósmico Telepático/Telecinético: Telecinésia / Mover Objeto 16 (34 PP); AEs Dinâmicos: Campo de Força 16 Impenetrável (2 PP), Rajada Mental 12 (2 PP), Controle Mental 14 (2 PP), Forma Astral Dimensional 10 (2 PP), Clarividência 10 (2 PP), Transformação de Matéria (2 PP) e Sentidos Mentais (47 PP) = 93 PP.",
         "custo_2e_pp": 93,
-        "custo_3e_pp": null,
-        "nome_pt": "Telepatia 17"
+        "custo_3e_pp": 93,
+        "nome_pt": "Telepatia e Telecinésia Cósmicas"
       },
       {
         "nome": "Gestalt 10",
-        "construcao_3e": "Summon/gestalt form conforme impresso; a fonte não especifica a construção em 3e.",
+        "construcao_3e": "Avatar Cósmico / Conexão Transcendente 10 (10 PP).",
         "custo_2e_pp": 10,
-        "custo_3e_pp": null
+        "custo_3e_pp": 10,
+        "nome_pt": "Avatar Cósmico da Entidade Fênix"
       }
     ],
     "equipamento": [
@@ -121,13 +123,11 @@
   },
   "custos_3e": {
     "habilidades": 48,
+    "poderes": 175,
     "defesas": 42,
     "pericias": 28,
     "vantagens": 18,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 136,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 311
   },
   "notas_conversao": [
     "Equipment, Second Chance e Ultimate Effort foram mantidos como vantagens 3e correspondentes. Concentration não tem perícia equivalente direta no guia e aparece apenas na nota sobre a fonte.",
@@ -135,6 +135,7 @@
     "Perícias da fonte: Computers +10, Concentration +16, Diplomacy +6 (com Attractive +14), Notice +14, Pilot +7, Profession (Teacher/Model) +12 cada, Sense Motive +12. Concentration foi omitida por não ter equivalente direto no guia; as demais foram convertidas.",
     "A ficha não declara uma especialização de ataque. Ataques de Blast dinâmico permanecem abaixo do limite Ataque + efeito 34 de PL 17.",
     "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +1/+1/+1/+2/+4/+2. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
-    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
+    "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos.",
+    "Poderes convertidos e fechados para M&M 3e (Lote 7). Poder cósmico da Fênix, telepatia/telecinésia absolutas, imunidade cósmica, ressurreição e conexão de avatar consolidados."
   ]
-}
+}

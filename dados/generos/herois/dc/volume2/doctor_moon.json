@@ -25,5 +25,6 @@
     "ataques": "Initiative +1, Taser +8 (Damage 4), Scalpel +11 (Damage 1), Tranquilizer +8 (Affliction 5, Progressive, Paralytic (Affliction 5, Progressive)",
     "defesas": "Dodge 8, Parry 10, Fortitude 6, Toughness 2, Will 10",
     "pontos_poder": "Abilities 32 + Powers 11 + Advantages 7 + Skills 50 + Defenses 28 = 128"
-  }
+  },
+  "nome_pt": "Doutor Lua"
 }

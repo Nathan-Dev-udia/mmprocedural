@@ -2,10 +2,10 @@
   "edicao_origem": "Mutants & Masterminds 2e",
   "edicao_destino": "Mutants & Masterminds 3e",
   "nome": "Mercury",
-  "nome_pt": "Mercúrio",
+  "nome_pt": "Mercúrio (Cessily Kincaid)",
   "nivel_poder": 10,
   "pontos_poder_origem": 135,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 144.5,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -51,9 +51,10 @@
     "poderes": [
       {
         "nome": "Liquid Alternate Form",
-        "construcao_3e": "Alternate Form 12 (Liquid): Movement 2 (Slithering), Immunity 30 (efeitos de Fortitude), Insubstantial 1, Suffocate 10, Elongation 1; Permanent. 48 PP na fonte.",
+        "construcao_3e": "Forma Alternativa (Líquida): Movimento 2 (Deslizar em frestas; 4 PP), Imunidade 30 (efeitos de Fortitude; 30 PP), Insubstancial 1 (5 PP), Alongamento 1 (1 PP), Sufocamento / Aflição 8 (8 PP). Total: 48 PP (custo original da fonte preservado).",
         "custo_2e_pp": 48,
-        "custo_3e_pp": null
+        "custo_3e_pp": 48,
+        "nome_pt": "Forma de Mercúrio Líquido"
       }
     ],
     "equipamento": [
@@ -77,18 +78,17 @@
   },
   "custos_3e": {
     "habilidades": 38,
+    "poderes": 48,
     "defesas": 22,
     "pericias": 24.5,
     "vantagens": 12,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 96.5,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 144.5
   },
   "notas_conversao": [
     "A defesa de Fortitude aparece como travessão na fonte; foi tratada como 0 (não impressa), sem assumir valor adicional. O modificador de Constituição é 0.",
     "Dodge Focus 12 foi convertido em graduações de Dodge; o resultado foi reduzido a 15 para cumprir o limite de NP 10 com Toughness 5.",
     "Attack Focus (Melee) 3 convertido em Close Attack 3; Acrobatic Bluff virou Agile Feint.",
-    "Dodge foi ajustada de 27 para 15 para cumprir Dodge + Toughness ≤ 20 (NP 10)."
+    "Dodge foi ajustada de 27 para 15 para cumprir Dodge + Toughness ≤ 20 (NP 10).",
+    "Poderes fechados em 3e: Forma de Mercúrio Líquido fechada em 48 PP. Total 3e: 144.5 PP."
   ]
 }

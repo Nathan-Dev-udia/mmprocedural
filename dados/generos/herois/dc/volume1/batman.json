@@ -25,5 +25,6 @@
     "pericias": "Acrobatics 8 (+15), Athletics 11 (+15), Deception 8 (+15), Expertise: Criminology 13 (+21), Expertise: Streetwise 13 (+21), Insight 10 (+17), Intimidation 15 (+22), Investigation 14 (+22), Perception 13 (+20), Persuasion 5 (+12), Stealth 13 (+20), Sleight of Hand 8 (+15), Technology 8 (+15), Treatment 5 (+12), Vehicles 8 (+15)",
     "ataques": "Initiative +11 Batarang +14 Ranged, Damage 6 Unarmed +20 Close, Damage 4",
     "complicacoes": "Flashbacks: Batman is sometimes stunned by traumatic flashbacks to the night his parents were murdered, especially in connection to Crime Alley, where the killings took place. Nemesis: Batman has a number of recurring foes, but the Joker is the most dangerous of all. Obsession: Crime fighting. Relationships: Although he may appear to be a loner, Batman has a number of important people in his life, including Nightwing, Robin, Oracle, Alfred Pennyworth (the faithful Wayne family butler) and Police Commissioner James Gordon. Responsibility: Batman considers Gotham his city, and his responsibility. Secret Identity: Bruce Wayne."
-  }
+  },
+  "nome_pt": "Batman"
 }

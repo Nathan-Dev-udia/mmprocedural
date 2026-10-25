@@ -1,28 +1,31 @@
-{
-  "nome": "Trickster",
-  "sistema": "DC Adventures / Mutants & Masterminds 3e",
-  "nivel_poder": 10,
-  "pontos_poder_publicados": null,
-  "fonte": {
-    "arquivo": "dc adventures heroes and villains vol 2.pdf",
-    "pagina_pdf": 243
-  },
-  "ficha_publicada": {
-    "habilidades": {
-      "STR": "1",
-      "STA": "1",
-      "AGL": "3",
-      "DEX": "4",
-      "FGT": "3",
-      "INT": "1",
-      "AWE": "2",
-      "PRE": "3"
-    },
-    "equipamento": "t ricks: Array (24 points), Easily Removable (–10 points) • e xploding r ubber Chickens: Burst Area Ranged Damage 8 • 24 points • Combat y o - y o: S trength-Based Damage 8 • 1 point • i t ching Powder: Ranged Affliction 10 (Resisted by Will; Impaired, Disabled, Incapacitated) • 1 point • Hard Candy t r ap: Ranged Affliction 10 (Resisted by Dodge, Overcome by Strength; Hindered and Vulnerable, Immobile and Defenseless; Extra Condition, Limited Degree) • 1 point a ir W alking Shoes: Subtle Flight 4 (30 MPH), Removable (–2 points) • 7 points",
-    "vantagens": "All-out Attack, Close Attack 3, Daze (Deception), Defensive Attack, Defensive Roll 4, Improved Initiative 1, Improved Trip, Improvised Tools, Luck 2, Move-by Action, Redirect, Set-up, Taunt",
-    "pericias": "Acrobatics 7 (+10), Athletics 6 (+7), Close Combat: Combat Yo-Yo 3 (+9), Deception 8 (+11), Insight 6 (+8), Intimidation 2 (+5), Perception 4 (+6), Ranged Combat: Tricks 5 (+8), Sleight of Hand 6 (+10), Stealth 3 (+6), Technology 6 (+7), Vehicles 4 (+8)",
-    "ataques": "i nitia tive +7 Exploding Chickens +8 Ranged Damage 8, Burst Area (Dodge DC 28) Combat Yo-Yo +9 Close Damage 8 Unarmed +6 Close Damage 1 efen S e d d odge 14 f or titude 6 Parry 11 t oughness 5/1* W ill 9 *Without Defensive Roll Po er Point W S a bilities 36 S kills 30",
-    "poderes": "24 d efenses 31 a dv antages 17 ToTal 138",
-    "complicacoes": "t hrills: The Trickster is a die-hard adrenaline junkie. Childish: The Trickster is both childishly cruel and desirous of acceptance."
-  }
-}
+{
+  "nome": "Trickster",
+  "sistema": "DC Adventures / Mutants & Masterminds 3e",
+  "nivel_poder": 10,
+  "pontos_poder_publicados": null,
+  "fonte": {
+    "arquivo": "dc adventures heroes and villains vol 2.pdf",
+    "pagina_pdf": 243
+  },
+  "ficha_publicada": {
+    "habilidades": {
+      "STR": "1",
+      "STA": "1",
+      "AGL": "3",
+      "DEX": "4",
+      "FGT": "3",
+      "INT": "1",
+      "AWE": "2",
+      "PRE": "3"
+    },
+    "equipamento": "t ricks: Array (24 points), Easily Removable (–10 points) • e xploding r ubber Chickens: Burst Area Ranged Damage 8 • 24 points • Combat y o - y o: S trength-Based Damage 8 • 1 point • i t ching Powder: Ranged Affliction 10 (Resisted by Will; Impaired, Disabled, Incapacitated) • 1 point • Hard Candy t r ap: Ranged Affliction 10 (Resisted by Dodge, Overcome by Strength; Hindered and Vulnerable, Immobile and Defenseless; Extra Condition, Limited Degree) • 1 point a ir W alking Shoes: Subtle Flight 4 (30 MPH), Removable (–2 points) • 7 points",
+    "vantagens": "All-out Attack, Close Attack 3, Daze (Deception), Defensive Attack, Defensive Roll 4, Improved Initiative 1, Improved Trip, Improvised Tools, Luck 2, Move-by Action, Redirect, Set-up, Taunt",
+    "pericias": "Acrobatics 7 (+10), Athletics 6 (+7), Close Combat: Combat Yo-Yo 3 (+9), Deception 8 (+11), Insight 6 (+8), Intimidation 2 (+5), Perception 4 (+6), Ranged Combat: Tricks 5 (+8), Sleight of Hand 6 (+10), Stealth 3 (+6), Technology 6 (+7), Vehicles 4 (+8)",
+    "ataques": "i nitia tive +7 Exploding Chickens +8 Ranged Damage 8, Burst Area (Dodge DC 28) Combat Yo-Yo +9 Close Damage 8 Unarmed +6 Close Damage 1",
+    "poderes": "24 d efenses 31 a dv antages 17 ToTal 138",
+    "complicacoes": "t hrills: The Trickster is a die-hard adrenaline junkie. Childish: The Trickster is both childishly cruel and desirous of acceptance.",
+    "defesas": "Dodge 14 Fortitude 6 Parry 11 Toughness 5/1* Will 9 *Without Defensive Roll",
+    "pontos_poder": "Po er Point W S a bilities 36 S kills 30"
+  },
+  "nome_pt": "Trapaceiro"
+}

@@ -23,5 +23,6 @@
     "pericias": "Acrobatics 6 (+11), Athletics 6 (+13), Close Combat: Unarmed 4 (+14), Deception 4 (+6), Insight 4 (+6), Intimidation 4 (+6), Perception 6 (+8), Ranged Combat: Power Ring 8 (+12), Stealth 6 (+11), Vehicles 4 (+8)",
     "ataques": "Initiative +9, Power Ring +12 (Ranged, Damage 14), Unarmed +14 (Close, Damage 7)",
     "defesas": "Dodge 14, Parry 14, Fortitude 13, Toughness 12, Will 13 t otal:s Abilities 68 + Powers 92 + Advantages 8 + Skills 26 + Defenses 33 = Total 227"
-  }
+  },
+  "nome_pt": "Fatalidade"
 }

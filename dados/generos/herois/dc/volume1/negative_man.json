@@ -23,5 +23,6 @@
     "defesas": "Dodge 8, Parry 8, Fortitude 6/Immune*, Toughness 4, Will 6/Immune* *In Negative Man form.",
     "pontos_poder": "Abilities 50 + Powers 221 + Advantages 2 + Skills 19 + Defenses 10 = 302",
     "complicacoes": "Prejudice: Larry Trainor lives life as a human mummy, wrapped in bandages to contain his strange energies. He is treated as an outcast everywhere. Weakness: Larry Trainor (or whichever host body) grows weaker the longer the Negative Man is out of his body. He is able to act, but only through extreme effort. In addition, the Negative Man must return to Trainor’s body after roughly a minute or risk Trainor’s death. Weakness: The Negative Spirit is vulnerable to attacks with the electromagnetic descriptor, including EMP attacks and magnetic force fields. It suffers a -5 penalty to resist such effects."
-  }
+  },
+  "nome_pt": "Homem-Negativo"
 }
