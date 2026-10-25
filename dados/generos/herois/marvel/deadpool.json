@@ -41,36 +41,38 @@
       "Combate à Distância: Ataques gerais": 9
     },
     "vantagens": [
-      "Accurate Attack",
-      "All-out Attack",
-      "Contacts",
-      "Defensive Attack",
-      "Equipment 1",
-      "Evasion",
-      "Improved Initiative 2",
-      "Improved Smash",
-      "Improved Trip",
-      "Power Attack",
-      "Precise Attack (Ranged, Cover) 2",
-      "Quick Draw",
-      "Seize Initiative",
-      "Instant Up",
-      "Taunt",
-      "Takedown",
-      "Uncanny Dodge (Hearing)"
+      "Ataque Acurado",
+      "Ataque Imprudente",
+      "Contatos",
+      "Ataque Defensivo",
+      "Equipamento 1",
+      "Evasão",
+      "Iniciativa Aprimorada 2",
+      "Quebrar Aprimorado",
+      "Derrubar Aprimorado",
+      "Ataque Poderoso",
+      "Ataque Preciso (À Distância, Cobertura) 2",
+      "Saque Rápido",
+      "Tomar a Iniciativa",
+      "De Pé",
+      "Zombar",
+      "Ataque Dominó",
+      "Esquiva Fabulosa (Audição)"
     ],
     "poderes": [
       {
         "nome": "Regeneration",
         "construcao_3e": "Regeneration 29; progressão de recuperação indicada na fonte: Bruised 3, Unconscious 3, Injured 4, Staggered 4, Disabled 6; Ability Damage 5; Resurrection 4; Regrowth. A graduação exata da construção em 3e/Immortality continua sem custo definido.",
         "custo_2e_pp": 30,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Regeneração"
       },
       {
         "nome": "Teleporter",
         "construcao_3e": "Device (removível): Teleport 5, Short Range.",
         "custo_2e_pp": 3,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Teletransporteer"
       }
     ],
     "equipamento": [
@@ -130,4 +132,4 @@
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
     "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
   ]
-}
+}

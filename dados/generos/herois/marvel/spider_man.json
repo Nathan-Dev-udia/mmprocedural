@@ -45,56 +45,63 @@
       "Combate a Distância: Web Shooters": 2
     },
     "vantagens": [
-      "All-Out Attack",
-      "Agile Feint",
-      "Defensive Attack",
-      "Defensive Roll",
-      "Equipment 2",
-      "Taunt",
-      "Takedown"
+      "Ataque Imprudente",
+      "Finta Ágil",
+      "Ataque Defensivo",
+      "Rolamento Defensivo",
+      "Equipamento 2",
+      "Zombar",
+      "Ataque Dominó"
     ],
     "poderes": [
       {
         "nome": "Enhanced Dexterity",
         "construcao_3e": "Enhanced Trait: Agility 14 e Dexterity 10 (para elevar os valores base 0 aos valores finais 14 e 10).",
         "custo_2e_pp": 28,
-        "custo_3e_pp": 48
+        "custo_3e_pp": 48,
+        "nome_pt": "Destreza Aumentada"
       },
       {
         "nome": "Enhanced Strength",
         "construcao_3e": "Enhanced Trait: Strength 8 (para elevar o valor base 0 ao valor final 8).",
         "custo_2e_pp": 16,
-        "custo_3e_pp": 16
+        "custo_3e_pp": 16,
+        "nome_pt": "Força Aumentada"
       },
       {
         "nome": "Super Movement",
         "construcao_3e": "Movement 2 (Wall-Crawling 2).",
         "custo_2e_pp": 4,
-        "custo_3e_pp": 4
+        "custo_3e_pp": 4,
+        "nome_pt": "Super-Movimento"
       },
       {
         "nome": "Super Senses",
         "construcao_3e": "Senses 1 (Danger Sense).",
         "custo_2e_pp": 1,
-        "custo_3e_pp": 1
+        "custo_3e_pp": 1,
+        "nome_pt": "Super-Sentidos"
       },
       {
         "nome": "Super Strength",
         "construcao_3e": "Power-Lifting 3.",
         "custo_2e_pp": 6,
-        "custo_3e_pp": 3
+        "custo_3e_pp": 3,
+        "nome_pt": "Super-Força"
       },
       {
         "nome": "Leaping",
         "construcao_3e": "Leaping 2.",
         "custo_2e_pp": 2,
-        "custo_3e_pp": 2
+        "custo_3e_pp": 2,
+        "nome_pt": "Salto"
       },
       {
         "nome": "Device",
         "construcao_3e": "Removable (dispositivo com os efeitos listados) (rank 2e 6); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Device 6 [Web Shooters – Snare 10 (Power Feats: Tether, Split Attack, Accurate (2); Alternate Powers: Create Object, Dazzle [Sight]), Super Movement 1 (Swinging), Speed 4 (Flaw: Limited- Only to Swinging [-1]); 18pp] Componentes/efeitos alternativos mapeados: Create Object → Create; Dazzle → Affliction/Dazzle conforme o sentido-alvo; Snare → Affliction conforme os graus e extras da fonte; Speed → Speed; Super Movement → Movement.; custo 2e impresso 18 PP.",
         "custo_2e_pp": 18,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Dispositivo"
       }
     ],
     "equipamento": [
@@ -155,4 +162,4 @@
     "Subtotal 3e conhecido: 94 PP em habilidades, 74 em perícias, 44 em defesas, 8 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
     "Correção de custo: as perícias somam 74 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 74 para 37 PP (subtotal e totais ajustados em -37)."
   ]
-}
+}

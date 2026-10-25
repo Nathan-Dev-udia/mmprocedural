@@ -5,7 +5,7 @@
   "nome_pt": "Surge",
   "nivel_poder": 10,
   "pontos_poder_origem": 135,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 133.5,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -38,28 +38,30 @@
       "Combate a Distância: Electrical Blast": 8
     },
     "vantagens": [
-      "Attractive 2",
-      "Defensive Roll",
-      "Equipment",
-      "Evasion",
-      "Inspire 2",
-      "Luck",
-      "Move-By Action",
-      "Teamwork 2",
-      "Languages 1"
+      "Atraente 2",
+      "Rolamento Defensivo",
+      "Equipamento",
+      "Evasão",
+      "Inspirar 2",
+      "Sorte",
+      "Ação em Movimento",
+      "Trabalho em Equipe 2",
+      "Idiomas 1"
     ],
     "poderes": [
       {
         "nome": "Super Speed",
-        "construcao_3e": "Super-Speed (rank 2e 8); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Speed 8 (Rapid Attack; Extras: Linked to Electrical Control [+0]; Flaws: Uncontrolled [-1]; 32pp) Componentes/efeitos alternativos mapeados: Speed → Speed.; custo 2e impresso 32 PP.",
+        "construcao_3e": "Velocidade 8 e Rapidez 8 (Incontrolável; 8 PP) + Ataque Rápido Multiataque (2 PP). Total: 10 PP.",
         "custo_2e_pp": 32,
-        "custo_3e_pp": null
+        "custo_3e_pp": 10,
+        "nome_pt": "Super-Velocidade Elétrica"
       },
       {
         "nome": "Electrical Control",
-        "construcao_3e": "Damage à distância (array) (rank 2e 8); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Electrical Control 8 (Extra: Linked to Super Speed [+0]; Flaws: Uncontrolled [-1]; Power Feat: Accurate (3); Alternate Power: Strike 8 (Extra: Aura [+1]; Flaw: Uncontrolled [-1]); 12pp) Componentes/efeitos alternativos mapeados: Speed → Speed; Strike → Damage.; custo 2e impresso 12 PP.",
+        "construcao_3e": "Dano Elétrico à Distância 8 (Acurado 3, Incontrolável; 11 PP); Efeito Alternativo: Dano Elétrico com Aura (1 PP). Total: 12 PP.",
         "custo_2e_pp": 12,
-        "custo_3e_pp": null
+        "custo_3e_pp": 12,
+        "nome_pt": "Controle Elétrico"
       }
     ],
     "equipamento": [
@@ -94,13 +96,11 @@
   },
   "custos_3e": {
     "habilidades": 58,
+    "poderes": 22,
     "defesas": 19,
     "pericias": 22.5,
     "vantagens": 12,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 111.5,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 133.5
   },
   "notas_conversao": [
     "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
@@ -112,6 +112,7 @@
     "Dodge Focus 10 foi convertido em ranks de Esquiva: base 15 + 10 = 25; valor final 15.",
     "Defesas reduzidas por limite de NP 10: Esquiva 25→15 e Aparar 15→15; cada defesa ativa + Resistência 5 ≤ 20.",
     "Subtotal 3e conhecido: 58 PP em habilidades, 45 em perícias, 43 em defesas, 12 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
-    "Correção de custo: as perícias somam 45 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 45 para 22.5 PP (subtotal e totais ajustados em -22.5)."
+    "Correção de custo: as perícias somam 45 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 45 para 22.5 PP (subtotal e totais ajustados em -22.5).",
+    "Poderes fechados em 3e: Super-Velocidade e Controle Elétrico fechados em 22 PP. Total 3e: 133.5 PP."
   ]
-}
+}

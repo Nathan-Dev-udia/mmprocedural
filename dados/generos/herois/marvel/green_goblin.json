@@ -41,40 +41,44 @@
       "Combate à Distância: Ataques gerais": 5
     },
     "vantagens": [
-      "All-out Attack",
-      "Benefit (Wealth 3)",
-      "Connected",
-      "Equipment 4",
-      "Favored Environment (Airborne) 3",
+      "Ataque Imprudente",
+      "Benefício (Wealth 3)",
+      "Bem Relacionado",
+      "Equipamento 4",
+      "Ambiente Favorito (Aéreo) 3",
       "Inventor",
-      "Move-by Action",
-      "Power Attack",
-      "Startle"
+      "Ação em Movimento",
+      "Ataque Poderoso",
+      "Assustar"
     ],
     "poderes": [
       {
         "nome": "Enhanced Strength",
         "construcao_3e": "Enhanced Trait: Strength 7 (para elevar o valor base 1 ao valor final 8).",
         "custo_2e_pp": 14,
-        "custo_3e_pp": 14
+        "custo_3e_pp": 14,
+        "nome_pt": "Força Aumentada"
       },
       {
         "nome": "Enhanced Dexterity",
         "construcao_3e": "Enhanced Trait: Agility 5 e Dexterity 5 (para elevar os valores base 0 ao valor final 5).",
         "custo_2e_pp": 10,
-        "custo_3e_pp": 20
+        "custo_3e_pp": 20,
+        "nome_pt": "Destreza Aumentada"
       },
       {
         "nome": "Enhanced Intelligence",
         "construcao_3e": "Enhanced Trait: Intellect 7 (para elevar o valor base 3 ao valor final 10).",
         "custo_2e_pp": 14,
-        "custo_3e_pp": 14
+        "custo_3e_pp": 14,
+        "nome_pt": "Intelecto Aumentado"
       },
       {
         "nome": "Protection",
         "construcao_3e": "Protection 5.",
         "custo_2e_pp": 5,
-        "custo_3e_pp": 5
+        "custo_3e_pp": 5,
+        "nome_pt": "Proteção"
       },
       {
         "nome": "Glider",
@@ -86,7 +90,8 @@
         "nome": "Blaster Gloves",
         "construcao_3e": "Device (Removable): Blast 10.",
         "custo_2e_pp": 16,
-        "custo_3e_pp": 16
+        "custo_3e_pp": 16,
+        "nome_pt": "Rajada de Energiaer Gloves"
       }
     ],
     "equipamento": [
@@ -104,7 +109,7 @@
         "dano": 8
       },
       {
-        "nome": "Blast",
+        "nome": "Rajada de Energia",
         "bonus": 10,
         "dano": 10
       },
@@ -153,4 +158,4 @@
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
     "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
   ]
-}
+}

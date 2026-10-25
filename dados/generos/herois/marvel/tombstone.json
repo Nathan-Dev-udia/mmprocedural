@@ -40,29 +40,31 @@
       "Combate a Distância: Pistola": 8
     },
     "vantagens": [
-      "All-Out Attack",
-      "Contacts",
-      "Defensive Attack",
-      "Daze [Intimidate]",
-      "Equipment 2",
-      "Improved Defense",
-      "Power Attack",
-      "Startle",
-      "Takedown",
-      "Ultimate Effort (Ultimate Intimidate Check)"
+      "Ataque Imprudente",
+      "Contatos",
+      "Ataque Defensivo",
+      "Tontear [Intimidate]",
+      "Equipamento 2",
+      "Defesa Aprimorada",
+      "Ataque Poderoso",
+      "Assustar",
+      "Ataque Dominó",
+      "Esforço Supremo (Ultimate Intimidate Check)"
     ],
     "poderes": [
       {
         "nome": "Enhanced Strength",
         "construcao_3e": "Enhanced Trait: Strength 6 (para elevar o valor base 3 ao valor final 9).",
         "custo_2e_pp": 12,
-        "custo_3e_pp": 12
+        "custo_3e_pp": 12,
+        "nome_pt": "Força Aumentada"
       },
       {
         "nome": "Enhanced Constitution",
         "construcao_3e": "Enhanced Trait: Stamina 6 (para elevar o valor base 3 ao valor final 9).",
         "custo_2e_pp": 12,
-        "custo_3e_pp": 12
+        "custo_3e_pp": 12,
+        "nome_pt": "Vigor Aumentado"
       }
     ],
     "equipamento": [
@@ -119,4 +121,4 @@
     "habilidades_base registra For 3 e Vig 3 (sem os aumentos de Enhanced Strength e Enhanced Constitution). Os custos 3e somam 155 PP (40 habilidades base + 24 poderes + 43 defesas + 37 perícias + 11 vantagens).",
     "Correção de custo: as perícias somam 74 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 74 para 37 PP (subtotal e totais ajustados em -37)."
   ]
-}
+}

@@ -41,25 +41,25 @@
       "Combate à Distância: Ataques gerais": 9
     },
     "vantagens": [
-      "Accurate Attack",
-      "Attractive 2",
-      "Defensive Attack",
-      "Defensive Roll 3",
-      "Equipment 3",
-      "Evasion",
-      "Favored Foe (Ninja) 2",
-      "Grabbing Finesse",
-      "Improved Defense",
-      "Improved Critical (Sai)",
-      "Improved Disarm 2",
-      "Improved Initiative 2",
-      "Improved Trip",
-      "Instant Up",
-      "Power Attack",
-      "Startle",
-      "Takedown",
-      "Uncanny Dodge (Hearing)",
-      "Languages 1"
+      "Ataque Acurado",
+      "Atraente 2",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 3",
+      "Equipamento 3",
+      "Evasão",
+      "Inimigo Favorito (Ninja) 2",
+      "Agarrar Preciso",
+      "Defesa Aprimorada",
+      "Crítico Aprimorado (Sai)",
+      "Desarmar Aprimorado 2",
+      "Iniciativa Aprimorada 2",
+      "Derrubar Aprimorado",
+      "De Pé",
+      "Ataque Poderoso",
+      "Assustar",
+      "Ataque Dominó",
+      "Esquiva Fabulosa (Audição)",
+      "Idiomas 1"
     ],
     "poderes": [],
     "equipamento": [
@@ -121,4 +121,4 @@
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
     "Os custos 3e somam 164 PP (68 habilidades base + 0 poderes + 23 defesas + 46 perícias + 27 vantagens)."
   ]
-}
+}

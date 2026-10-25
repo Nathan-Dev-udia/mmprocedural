@@ -5,7 +5,7 @@
   "nome_pt": "Doctor Octopus",
   "nivel_poder": 10,
   "pontos_poder_origem": 150,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 170,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -45,25 +45,25 @@
       "Combate à Distância: Ataques gerais": 8
     },
     "vantagens": [
-      "Benefit (Ambidextrous)",
-      "Close Attack 3",
-      "Chokehold",
-      "Defensive Roll 2",
-      "Eidetic Memory",
-      "Equipment 1",
-      "Improved Initiative",
-      "Improved Hold",
+      "Benefício (Ambidestro)",
+      "Ataque Corpo-a-Corpo 3",
+      "Estrangular",
+      "Rolamento Defensivo 2",
+      "Memória Eidética",
+      "Equipamento 1",
+      "Iniciativa Aprimorada",
+      "Imobilizar Aprimorado",
       "Inventor",
-      "Inspire 1 (Master Plan convertido)",
-      "Power Attack",
-      "Startle"
+      "Inspirar 1 (Master Plan convertido)",
+      "Ataque Poderoso",
+      "Assustar"
     ],
     "poderes": [
       {
         "nome": "Harness",
-        "construcao_3e": "Device (removível): Extra Limbs 3, Enhanced Strength 18, Elongation 3 (Continuous, Permanent), Quickness 2 (Limited a ações físicas), Power-Lifting 3, Speed 4, Movement (Wall-crawling), Senses 1 (visão em raio).",
+        "construcao_3e": "Device (removível): Enhanced Strength 8 (16 PP), Extra Limbs 4 (4 PP), Elongation 3 (Continuous; 6 PP), Movement 2 (Wall-crawling; 4 PP), Speed 4 (4 PP), Quickness 2 (Limited a ações físicas; 1 PP), Power-Lifting 3 (3 PP), Senses 1 (visão em raio; 1 PP). Total de efeitos 39 PP; Removível (-7 PP) = 32 PP.",
         "custo_2e_pp": 32,
-        "custo_3e_pp": null
+        "custo_3e_pp": 32
       }
     ],
     "equipamento": [
@@ -89,22 +89,31 @@
       "aparar_mais_resistencia": 20,
       "fortitude_mais_vontade": 10,
       "legal": true
+    },
+    "habilidades_base": {
+      "For": 0,
+      "Vig": 2,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 9,
+      "Int": 5,
+      "Pro": 1,
+      "Pre": 1
     }
   },
   "custos_3e": {
-    "habilidades": 56,
+    "habilidades_base": 40,
+    "poderes": 32,
     "defesas": 23,
     "pericias": 60,
     "vantagens": 15,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 154,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 170
   },
   "notas_conversao": [
     "Attack Focus (Melee) 3 foi convertido em Close Attack 3. Toughness +7/+5 foi interpretado como +5 base e Defensive Roll 2; Esquiva e Aparar foram limitadas para respeitar NP 10 com Resistência ativa +5. Master Plan foi convertida em Inspire 1.",
     "Defesas ajustadas para Esquiva 13 e Aparar 13, respeitando os limites de NP 10 com Resistência 7.",
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
-    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados.",
+    "Poderes fechados em 3e: Harness convertido como Device removível de 39 PP (-7 PP removível = 32 PP). Habilidades base registradas sem o bônus de Força do arnês (For 0 base, For 8 com arnês). Total 3e: 170 PP."
   ]
-}
+}

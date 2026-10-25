@@ -47,19 +47,19 @@
       "Combate a Distância: Magnetic Attacks": 12
     },
     "vantagens": [
-      "Assessment",
-      "Benefit: Alternate Identities 1, Status 1, Wealth 3",
-      "Connected",
-      "Contacts",
-      "Equipment 6",
-      "Fascinate: Persuasion",
-      "Improved Initiative",
-      "Inspire 5",
+      "Avaliação",
+      "Benefício: Alternate Identities 1, Status 1, Wealth 3",
+      "Bem Relacionado",
+      "Contatos",
+      "Equipamento 6",
+      "Fascinar: Persuasion",
+      "Iniciativa Aprimorada",
+      "Inspirar 5",
       "Inventor",
-      "Leadership",
-      "Startle",
-      "Well-Informed",
-      "Skill Mastery: Persuasion, Expertise (Life Sciences), Expertise (Tactics)"
+      "Liderança",
+      "Assustar",
+      "Bem Informado",
+      "Maestria em Perícia: Persuasion, Expertise (Life Sciences), Expertise (Tactics)"
     ],
     "poderes": [
       {
@@ -78,13 +78,15 @@
         "nome": "Super-Senses",
         "construcao_3e": "Senses 5 (Metal Awareness, Extended 4).",
         "custo_2e_pp": 5,
-        "custo_3e_pp": 5
+        "custo_3e_pp": 5,
+        "nome_pt": "Super-Sentidos"
       },
       {
         "nome": "Telepathy",
         "construcao_3e": "Telepathy 3.",
         "custo_2e_pp": 6,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Telepatia"
       }
     ],
     "equipamento": [
@@ -128,4 +130,4 @@
     "O texto fonte traz custo total de 210 PP, mas a linha final parece omitir a sigla PP; valores de equipamentos preservados como impressos.",
     "Concentration foi removida de Skill Mastery por não ter perícia independente na 3e."
   ]
-}
+}

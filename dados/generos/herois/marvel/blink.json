@@ -44,19 +44,20 @@
       "Combate a Distancia: Armas arremessadas": 7
     },
     "vantagens": [
-      "Attractive",
-      "Defensive Roll 5",
-      "Evasion",
-      "Inspire 2",
-      "Improved Initiative 2",
-      "Uncanny Dodge (Hearing)"
+      "Atraente",
+      "Rolamento Defensivo 5",
+      "Evasão",
+      "Inspirar 2",
+      "Iniciativa Aprimorada 2",
+      "Esquiva Fabulosa (Audição)"
     ],
     "poderes": [
       {
         "nome": "Teleport",
         "construcao_3e": "Teleport 10, Accurate e Portal; Alternate Effects: Teleport Attack (Ranged) 10, Damage 10 (Autofire) e Deflect (todos os ataques à distância) 10 (Reflection, Free Action).",
         "custo_2e_pp": 53,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Teletransporte"
       }
     ],
     "equipamento": [],
@@ -97,4 +98,4 @@
     "poderes_pendentes": true,
     "total": null
   }
-}
+}

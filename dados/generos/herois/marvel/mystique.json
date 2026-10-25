@@ -41,28 +41,29 @@
       "Combate a Distância: Pistolas": 10
     },
     "vantagens": [
-      "Accurate Attack",
-      "Defensive Attack",
-      "Defensive Roll 4",
-      "Equipment 3",
-      "Improved Disarm",
-      "Improved Initiative 2",
-      "Improved Trip",
-      "Inspire 2",
-      "Instant Up",
-      "Luck",
-      "Power Attack",
+      "Ataque Acurado",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 4",
+      "Equipamento 3",
+      "Desarmar Aprimorado",
+      "Iniciativa Aprimorada 2",
+      "Derrubar Aprimorado",
+      "Inspirar 2",
+      "De Pé",
+      "Sorte",
+      "Ataque Poderoso",
       "Precise Shot 2",
-      "Seize Initiative",
-      "Skill Mastery: Deception, Prestidigitation, Disguise, Furtividade",
-      "Uncanny Dodge"
+      "Tomar a Iniciativa",
+      "Maestria em Perícia: Deception, Prestidigitation, Disguise, Furtividade",
+      "Esquiva Fabulosa"
     ],
     "poderes": [
       {
         "nome": "Morph",
         "construcao_3e": "Morph 10.",
         "custo_2e_pp": 30,
-        "custo_3e_pp": 10
+        "custo_3e_pp": 10,
+        "nome_pt": "Metamorfose"
       }
     ],
     "equipamento": [
@@ -115,4 +116,4 @@
     "Dodge foi ajustada de 20 para 14 para cumprir Dodge + Toughness ≤ 20 (NP 10).",
     "Os custos 3e somam 191.5 PP (74 habilidades base + 10 poderes + 42 defesas + 39.5 perícias + 26 vantagens)."
   ]
-}
+}

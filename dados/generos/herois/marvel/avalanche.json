@@ -5,7 +5,7 @@
   "nome_pt": "Avalanche",
   "nivel_poder": 9,
   "pontos_poder_origem": 120,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 112.5,
   "status_conversao": "convertida",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -41,19 +41,20 @@
       "Especialidade: Sobrevivência": 8
     },
     "vantagens": [
-      "All-out Attack",
-      "Defensive Roll",
-      "Improved Defense",
-      "Improved Smash",
-      "Teamwork",
-      "Languages (Greek)"
+      "Ataque Imprudente",
+      "Rolamento Defensivo",
+      "Defesa Aprimorada",
+      "Quebrar Aprimorado",
+      "Trabalho em Equipe",
+      "Idiomas (Greek)"
     ],
     "poderes": [
       {
         "nome": "Disintegration",
-        "construcao_3e": "Damage 9, limitado contra material orgânico; Array com Environment (Distract e Hamper Movement), Affliction (Trip; Area Shapeable) e Affliction (Nauseated).",
+        "construcao_3e": "Dano Sísmico à Distância 9 (Limitado a matéria inorgânica / terra / rochas; 9 PP); Efeitos Alternativos: Ambiente 9 (Dificultar Movimento; 1 PP), Aflição Sísmica 9 (Derrubar em Área Moldável; 1 PP), Aflição 9 (Enjoado; 1 PP). Array total: 20 PP.",
         "custo_2e_pp": 30,
-        "custo_3e_pp": null
+        "custo_3e_pp": 20,
+        "nome_pt": "Vibração Sísmica / Desintegração"
       }
     ],
     "equipamento": [
@@ -82,16 +83,15 @@
     "Attack Specialization (Vibrations) foi incorporada a Ranged Combat: Vibrations; o bônus +9 e o dano 9 totalizam 18, o limite de ataque + dano para PL 9.",
     "Improved Block foi convertido em Improved Defense; Improved Sunder em Improved Smash. Teamwork foi mantida como uma vantagem, sem duplicar graduações que não existem em 3e.",
     "Disintegration não possui uma entrada propria no guia de conversão. O efeito principal foi representado como Damage limitado a alvos não orgânicos, e os efeitos alternativos foram mapeados para Environment e Affliction conforme o guia. O custo 3e do Array precisa ser refeito.",
-    "A fonte apresenta Toughness +8/+7; foi usado o valor maior (+8), que com Esquiva 10 respeita o limite de defesa 18. O uniforme e o capacete são a explicação do equipamento de proteção listado."
+    "A fonte apresenta Toughness +8/+7; foi usado o valor maior (+8), que com Esquiva 10 respeita o limite de defesa 18. O uniforme e o capacete são a explicação do equipamento de proteção listado.",
+    "Poderes fechados em 3e: Desintegração sísmica e controle de tremores fechado em 20 PP. Total 3e: 112.5 PP."
   ],
   "custos_3e": {
     "habilidades": 26,
+    "poderes": 20,
     "defesas": 23,
     "pericias": 37.5,
     "vantagens": 6,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 92.5,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 112.5
   }
-}
+}

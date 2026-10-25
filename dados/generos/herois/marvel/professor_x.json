@@ -43,15 +43,15 @@
       "Especialidade: Professor": 5
     },
     "vantagens": [
-      "Assessment",
-      "Connected",
-      "Contacts",
-      "Eidetic Memory",
-      "Equipment 13",
-      "Inspire",
+      "Avaliação",
+      "Bem Relacionado",
+      "Contatos",
+      "Memória Eidética",
+      "Equipamento 13",
+      "Inspirar",
       "Set-Up",
-      "Well-informed",
-      "Languages 1"
+      "Bem Informado",
+      "Idiomas 1"
     ],
     "poderes": [
       {
@@ -64,7 +64,8 @@
         "nome": "Telepathy 17",
         "construcao_3e": "Dynamic array: Astral Form 8 (Dimensional), Mind Control 17, Mental Blast 10.",
         "custo_2e_pp": 41,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Telepatia 17"
       },
       {
         "nome": "Mind Shield 16",
@@ -119,4 +120,4 @@
     "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +0/-1/+0/+6/+6/+5. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
     "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
   ]
-}
+}

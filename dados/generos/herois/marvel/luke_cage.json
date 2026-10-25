@@ -41,40 +41,44 @@
       "Furtividade": 6
     },
     "vantagens": [
-      "Accurate Attack",
-      "All-out Attack",
-      "Chokehold",
-      "Defensive Attack",
-      "Improved Defense",
-      "Improved Critical: Unarmed 2",
-      "Luck",
-      "Power Attack",
-      "Startle"
+      "Ataque Acurado",
+      "Ataque Imprudente",
+      "Estrangular",
+      "Ataque Defensivo",
+      "Defesa Aprimorada",
+      "Crítico Aprimorado: Desarmado 2",
+      "Sorte",
+      "Ataque Poderoso",
+      "Assustar"
     ],
     "poderes": [
       {
         "nome": "Density",
         "construcao_3e": "Enhanced Trait: Strength 1 (Permanent, Innate; derivado de Density 1 da fonte).",
         "custo_2e_pp": 3,
-        "custo_3e_pp": 3
+        "custo_3e_pp": 3,
+        "nome_pt": "Densidade"
       },
       {
         "nome": "Immunity",
         "construcao_3e": "Immunity 3 (calor, frio e pressão).",
         "custo_2e_pp": 3,
-        "custo_3e_pp": 3
+        "custo_3e_pp": 3,
+        "nome_pt": "Imunidade"
       },
       {
         "nome": "Impervious Toughness",
         "construcao_3e": "Impervious Toughness 6.",
         "custo_2e_pp": 6,
-        "custo_3e_pp": 6
+        "custo_3e_pp": 6,
+        "nome_pt": "Resistência Impenetrável"
       },
       {
         "nome": "Super-Strength",
         "construcao_3e": "Power-Lifting 4.",
         "custo_2e_pp": 8,
-        "custo_3e_pp": 4
+        "custo_3e_pp": 4,
+        "nome_pt": "Super-Força"
       }
     ],
     "equipamento": [],
@@ -118,4 +122,4 @@
     "Weapon Break foi omitida: não possui equivalente direto na 3e.",
     "habilidades_base registra For 9 (sem o +1 de Density). Os custos 3e somam 156.5 PP (64 habilidades base + 16 poderes + 33 defesas + 33.5 perícias + 10 vantagens)."
   ]
-}
+}

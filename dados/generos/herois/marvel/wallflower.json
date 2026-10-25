@@ -5,7 +5,7 @@
   "nome_pt": "Wallflower",
   "nivel_poder": 8,
   "pontos_poder_origem": 120,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 95,
   "status_conversao": "convertida",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -37,17 +37,18 @@
       "Intuição": 8
     },
     "vantagens": [
-      "Attractive",
-      "Defensive Attack",
-      "Defensive Roll 2",
-      "Teamwork 2"
+      "Atraente",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 2",
+      "Trabalho em Equipe 2"
     ],
     "poderes": [
       {
         "nome": "Emotion Control",
-        "construcao_3e": "Affliction (Resistido por Vontade) (rank 2e 8); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Emotion Control 8 (Extra: Action - Free Action [+2], Continuous Duration [+1], Cloud Area [+1]; Flaws: Sense Dependent [Olfactory] [-1]; Power Feats: Subtle, Reversible; Alternate Power: Emotion Control 8 (Selective [+1], Continuous Duration [+1], Cloud Area [+1]; Flaws: Sense Dependent [Olfactory] [-1]; Power Feats: Subtle, Reversible); 43pp); custo 2e impresso 43 PP.",
+        "construcao_3e": "Aflição 8 (Resistida por Vontade; Dazed, Compelled, Controlled; Área em Nuvem, Falha: Dependente de Sentidos [Olfato]; Duração Contínua [+2/graduação], Sutil 1, Reversível 1; 26 PP); Efeito Alternativo: Controle Emocional Seletivo em Nuvem (1 PP). Array total: 27 PP.",
         "custo_2e_pp": 43,
-        "custo_3e_pp": null
+        "custo_3e_pp": 27,
+        "nome_pt": "Controle de Feromônios / Emoções"
       }
     ],
     "equipamento": [
@@ -71,13 +72,11 @@
   },
   "custos_3e": {
     "habilidades": 28,
+    "poderes": 27,
     "defesas": 18,
     "pericias": 16,
     "vantagens": 6,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 68,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 95
   },
   "notas_conversao": [
     "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
@@ -88,6 +87,7 @@
     "Vantagens sem equivalente direto foram removidas conforme o guia; não foram recriadas como poderes: Sneak Attack.",
     "A linha COMBAT não separa os efeitos de ataque em um formato legível; o ataque geral e o dano básico de Força foram mantidos como referência.",
     "Subtotal 3e conhecido: 28 PP em habilidades, 32 em perícias, 36 em defesas, 6 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
-    "Correção de custo: as perícias somam 32 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 32 para 16 PP (subtotal e totais ajustados em -16)."
+    "Correção de custo: as perícias somam 32 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 32 para 16 PP (subtotal e totais ajustados em -16).",
+    "Poderes fechados em 3e: Controle de Feromônios/Emoções convertido em Aflição em Nuvem Contínua com efeitos sutis (27 PP). Total 3e: 95 PP."
   ]
-}
+}

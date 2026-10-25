@@ -40,39 +40,43 @@
       "Especialidade: Advogado": 10
     },
     "vantagens": [
-      "All-out Attack",
-      "Attractive 2",
-      "Defensive Attack",
-      "Fascinate (Deception)",
-      "Improved Defense",
-      "Power Attack",
-      "Takedown",
-      "Teamwork"
+      "Ataque Imprudente",
+      "Atraente 2",
+      "Ataque Defensivo",
+      "Fascinar (Deception)",
+      "Defesa Aprimorada",
+      "Ataque Poderoso",
+      "Ataque Dominó",
+      "Trabalho em Equipe"
     ],
     "poderes": [
       {
         "nome": "Impervious Toughness 10",
         "construcao_3e": "Impervious Toughness 10; tratado como um efeito de proteção de Toughness; o custo exato em 3e permanece incerto.",
         "custo_2e_pp": 10,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Resistência Impenetrável 10"
       },
       {
         "nome": "Leaping 7",
         "construcao_3e": "Leaping 7.",
         "custo_2e_pp": 7,
-        "custo_3e_pp": 7
+        "custo_3e_pp": 7,
+        "nome_pt": "Salto 7"
       },
       {
         "nome": "Regeneration 15",
         "construcao_3e": "Regeneration 15.",
         "custo_2e_pp": 15,
-        "custo_3e_pp": 15
+        "custo_3e_pp": 15,
+        "nome_pt": "Regeneração 15"
       },
       {
         "nome": "Super-Strength 5",
         "construcao_3e": "Power-Lifting 5, Ground Strike.",
         "custo_2e_pp": 11,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Super-Força 5"
       }
     ],
     "equipamento": [],
@@ -112,4 +116,4 @@
     "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +14/+3/+14/+4/+2/+4. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
     "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
   ]
-}
+}

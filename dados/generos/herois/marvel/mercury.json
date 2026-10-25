@@ -38,15 +38,15 @@
       "Furtividade": 10
     },
     "vantagens": [
-      "Agile Feint",
-      "Close Attack 3",
-      "Attractive",
-      "Defensive Attack",
-      "Equipment",
-      "Evasion",
-      "Improved Initiative 2",
-      "Teamwork",
-      "Uncanny Dodge"
+      "Finta Ágil",
+      "Ataque Corpo-a-Corpo 3",
+      "Atraente",
+      "Ataque Defensivo",
+      "Equipamento",
+      "Evasão",
+      "Iniciativa Aprimorada 2",
+      "Trabalho em Equipe",
+      "Esquiva Fabulosa"
     ],
     "poderes": [
       {
@@ -91,4 +91,4 @@
     "Attack Focus (Melee) 3 convertido em Close Attack 3; Acrobatic Bluff virou Agile Feint.",
     "Dodge foi ajustada de 27 para 15 para cumprir Dodge + Toughness ≤ 20 (NP 10)."
   ]
-}
+}

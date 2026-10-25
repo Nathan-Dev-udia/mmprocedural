@@ -48,15 +48,15 @@
       "Combate à Distância: Ataques gerais": 12
     },
     "vantagens": [
-      "Benefit (Status, Diplomatic Immunity, Wealth 4) 6",
-      "Equipment 6",
-      "Fearless",
+      "Benefício (Status, Diplomatic Immunity, Wealth 4) 6",
+      "Equipamento 6",
+      "Destemido",
       "Inventor",
-      "Inspire 1 (Master Plan convertido)",
-      "Minion 22",
-      "Ritualist",
-      "Startle",
-      "Ultimate Effort (Ultimate Master Plan)"
+      "Inspirar 1 (Master Plan convertido)",
+      "Capanga 22",
+      "Ritualista",
+      "Assustar",
+      "Esforço Supremo (Ultimate Master Plan)"
     ],
     "poderes": [
       {
@@ -129,4 +129,4 @@
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
     "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
   ]
-}
+}

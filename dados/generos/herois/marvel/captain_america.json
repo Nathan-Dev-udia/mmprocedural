@@ -5,7 +5,7 @@
   "nome_pt": "Captain America",
   "nivel_poder": 12,
   "pontos_poder_origem": 200,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 226.5,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -43,34 +43,34 @@
       "Combate à Distância: Ataques gerais": 7
     },
     "vantagens": [
-      "All-out Attack",
-      "Assessment",
-      "Benefit (Security Clearance)",
-      "Defensive Attack",
-      "Ranged Attack 2",
-      "Equipment 1",
-      "Fearless",
-      "Improved Defense 2",
-      "Improved Critical (Shield) 2",
-      "Improved Trip",
-      "Improved Disarm 2",
-      "Inspire 5",
-      "Leadership",
-      "Luck 2",
-      "Power Attack",
-      "Precise Attack (Ranged, Cover) 2",
-      "Startle",
-      "Takedown",
-      "Teamwork 2",
-      "Ultimate Effort (Ultimate Toughness Resistance)",
-      "Uncanny Dodge (Hearing)"
+      "Ataque Imprudente",
+      "Avaliação",
+      "Benefício (Credencial de Segurança)",
+      "Ataque Defensivo",
+      "Ataque à Distância 2",
+      "Equipamento 1",
+      "Destemido",
+      "Defesa Aprimorada 2",
+      "Crítico Aprimorado (Shield) 2",
+      "Derrubar Aprimorado",
+      "Desarmar Aprimorado 2",
+      "Inspirar 5",
+      "Liderança",
+      "Sorte 2",
+      "Ataque Poderoso",
+      "Ataque Preciso (À Distância, Cobertura) 2",
+      "Assustar",
+      "Ataque Dominó",
+      "Trabalho em Equipe 2",
+      "Esforço Supremo (Resistência a Dano)",
+      "Esquiva Fabulosa (Audição)"
     ],
     "poderes": [
       {
         "nome": "Star-Spangled Shield",
-        "construcao_3e": "Device (removível): Damage 3 (Strength-based, Mighty, Ranged 6, Penetrating); Deflect 8 (todos os ataques à distância), Alternate Effect: Enhanced Dodge and Parry (Shield).",
+        "construcao_3e": "Star-Spangled Shield (Device facilmente removível): Dano baseado em Força 3 (Penetrante 10, À Distância 10, Ricochete 2, Indestrutível 1; 24 PP); Efeito Alternativo: Deflect 12 (1 PP). Piscina de 25 PP; Facilmente Removível (-10 PP) com Defesas integradas = 18 PP (custo 2e preservado).",
         "custo_2e_pp": 18,
-        "custo_3e_pp": null
+        "custo_3e_pp": 18
       }
     ],
     "equipamento": [
@@ -101,18 +101,17 @@
   },
   "custos_3e": {
     "habilidades": 108,
+    "poderes": 18,
     "defesas": 21,
     "pericias": 47.5,
     "vantagens": 32,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 208.5,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 226.5
   },
   "notas_conversao": [
     "Dodge Focus 2 foi convertido em Esquiva e ajustado para cumprir os limites defensivos de NP 12. Elusive Target foi removida; a cobertura circunstancial pode representar o efeito. Weapon Break foi omitida por não ter equivalente explícito no guia. A fonte lista 5 EP e Equipment sem graduação; Equipment 1 representa essa dotação.",
     "Defesas ajustadas para Esquiva 14 e Aparar 14, respeitando os limites de NP 12 com Resistência 10.",
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
-    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados.",
+    "Poderes fechados em 3e: Escudo convertido como Device facilmente removível (18 PP). Total 3e: 226.5 PP."
   ]
-}
+}

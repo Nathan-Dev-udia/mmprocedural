@@ -43,21 +43,22 @@
       "Combate Corpo-a-Corpo: Desarmado": 3
     },
     "vantagens": [
-      "Attractive",
-      "Defensive Attack",
-      "Equipment",
-      "Improved Defense",
-      "Inspire 2",
-      "Power Attack",
-      "Redirect",
-      "Teamwork 2"
+      "Atraente",
+      "Ataque Defensivo",
+      "Equipamento",
+      "Defesa Aprimorada",
+      "Inspirar 2",
+      "Ataque Poderoso",
+      "Redirecionar",
+      "Trabalho em Equipe 2"
     ],
     "poderes": [
       {
         "nome": "Force Field",
         "construcao_3e": "Force Field 13 dinâmico, Shapeable Area e Impervious; Efeitos Alternativos: Blast, Create 19 (Movable, Progression 4, Stationary, Subtle, Tether) e Shield.",
         "custo_2e_pp": 73,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Campo de Força"
       },
       {
         "nome": "Invisibility",
@@ -104,4 +105,4 @@
     "Improved Block 2 foi representado por uma única vantagem Improved Defense, já que o perfil também possui Improved Defense 2; o benefício não foi duplicado. Concentration 8 (+11) não tem perícia equivalente independente em 3e e foi omitida.",
     "A Toughness +13 é o valor impresso, incluindo as proteções já descritas; não somei novamente uniforme ou campo de força."
   ]
-}
+}

@@ -35,37 +35,41 @@
       "Intuição": 8
     },
     "vantagens": [
-      "All-out Attack",
-      "Close Attack 9",
-      "Move-By Action",
-      "Fearless",
-      "Power Attack",
-      "Startle"
+      "Ataque Imprudente",
+      "Ataque Corpo-a-Corpo 9",
+      "Ação em Movimento",
+      "Destemido",
+      "Ataque Poderoso",
+      "Assustar"
     ],
     "poderes": [
       {
         "nome": "Enhanced Strength",
         "construcao_3e": "Enhanced Trait: Strength 11 (somado a Growth 4 para elevar o valor base 2 ao valor final 17).",
         "custo_2e_pp": 22,
-        "custo_3e_pp": 22
+        "custo_3e_pp": 22,
+        "nome_pt": "Força Aumentada"
       },
       {
         "nome": "Super-Strength",
         "construcao_3e": "Super-Strength 3 (Ground Strike).",
         "custo_2e_pp": 7,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Super-Força"
       },
       {
         "nome": "Growth",
         "construcao_3e": "Growth 4 (Large; +8 Strength, +4 Constitution; Innate, Permanent).",
         "custo_2e_pp": 9,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Crescimento"
       },
       {
         "nome": "Immunity",
         "construcao_3e": "Immunity 89 (todos os danos físicos e energéticos letais e não letais; Life Support).",
         "custo_2e_pp": 89,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Imunidade"
       },
       {
         "nome": "Helmet",
@@ -77,7 +81,8 @@
         "nome": "Immovable",
         "construcao_3e": "Immovable 7 (Unstoppable).",
         "custo_2e_pp": 14,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Inamovível"
       }
     ],
     "equipamento": [],
@@ -122,4 +127,4 @@
     "A fonte tem base STR +17 e Enhanced Strength 22, além de Growth; dano desarmado +17 impresso foi mantido. Seu ataque +11 e dano 17 atingem o limite de NP 14.",
     "Dodge Focus 8 foi convertido em graduações de Dodge: Dodge 18, Parry 10; ambos respeitam NP 14."
   ]
-}
+}

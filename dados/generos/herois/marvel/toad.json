@@ -46,19 +46,19 @@
       "Combate Corpo-a-Corpo: Spittle": 6
     },
     "vantagens": [
-      "Agile Feint",
-      "All-Out Attack",
-      "Defensive Roll 3",
-      "Evasion",
-      "Improved Initiative 2",
+      "Finta Ágil",
+      "Ataque Imprudente",
+      "Rolamento Defensivo 3",
+      "Evasão",
+      "Iniciativa Aprimorada 2",
       "Improved Grapple",
-      "Improved Trip",
+      "Derrubar Aprimorado",
       "Inventor",
       "Grappling Finesse",
-      "Skill Mastery 4 [Acrobatics, Diplomacy, Sense Motive, Stealth]",
-      "Taunt",
-      "Teamwork 3",
-      "Uncanny Dodge [Hearing]"
+      "Maestria em Perícia 4 [Acrobatics, Diplomacy, Sense Motive, Stealth]",
+      "Zombar",
+      "Trabalho em Equipe 3",
+      "Esquiva Fabulosa [Audição]"
     ],
     "poderes": [
       {
@@ -77,7 +77,8 @@
         "nome": "Leaping",
         "construcao_3e": "Leaping 3.",
         "custo_2e_pp": 3,
-        "custo_3e_pp": 3
+        "custo_3e_pp": 3,
+        "nome_pt": "Salto"
       },
       {
         "nome": "Paralyze",
@@ -126,4 +127,4 @@
     "Subtotal 3e conhecido: 80 PP em habilidades, 117 em perícias, 42 em defesas, 18 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
     "Correção de custo: as perícias somam 117 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 117 para 58.5 PP (subtotal e totais ajustados em -58.5)."
   ]
-}
+}

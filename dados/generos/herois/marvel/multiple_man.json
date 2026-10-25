@@ -44,19 +44,19 @@
       "Combate a Distância: Pistola": 8
     },
     "vantagens": [
-      "Accurate Attack",
-      "All-out Attack",
-      "Beginner's Luck",
-      "Defensive Attack",
-      "Eidetic Memory",
-      "Equipment 2",
-      "Improved Disarm",
-      "Improved Initiative 2",
-      "Improved Trip",
+      "Ataque Acurado",
+      "Ataque Imprudente",
+      "Sorte de Principiante",
+      "Ataque Defensivo",
+      "Memória Eidética",
+      "Equipamento 2",
+      "Desarmar Aprimorado",
+      "Iniciativa Aprimorada 2",
+      "Derrubar Aprimorado",
       "Jack of All Trades",
-      "Luck 2",
-      "Power Attack",
-      "Takedown"
+      "Sorte 2",
+      "Ataque Poderoso",
+      "Ataque Dominó"
     ],
     "poderes": [
       {
@@ -115,4 +115,4 @@
     "A fonte descreve a roupa como Device 3, mas indica 12 PP para o pacote; discrepância preservada.",
     "Dodge foi ajustada de 16 para 11 para cumprir Dodge + Toughness ≤ 16 (NP 8)."
   ]
-}
+}

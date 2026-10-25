@@ -47,24 +47,24 @@
       "Combate a Distancia: Blaster Rifle": 13
     },
     "vantagens": [
-      "Accurate Attack",
-      "All-out Attack",
-      "Defensive Attack",
-      "Defensive Roll",
-      "Evasion",
-      "Fearless",
-      "Improved Disarm",
-      "Improved Initiative",
-      "Inspire 2",
-      "Instant Up",
-      "Power Attack",
+      "Ataque Acurado",
+      "Ataque Imprudente",
+      "Ataque Defensivo",
+      "Rolamento Defensivo",
+      "Evasão",
+      "Destemido",
+      "Desarmar Aprimorado",
+      "Iniciativa Aprimorada",
+      "Inspirar 2",
+      "De Pé",
+      "Ataque Poderoso",
       "Set-Up",
-      "Startle",
-      "Takedown",
-      "Teamwork",
-      "Well-informed",
-      "Languages 1",
-      "Equipment 8"
+      "Assustar",
+      "Ataque Dominó",
+      "Trabalho em Equipe",
+      "Bem Informado",
+      "Idiomas 1",
+      "Equipamento 8"
     ],
     "poderes": [
       {
@@ -77,7 +77,8 @@
         "nome": "Protection",
         "construcao_3e": "Protection 3.",
         "custo_2e_pp": 3,
-        "custo_3e_pp": 3
+        "custo_3e_pp": 3,
+        "nome_pt": "Proteção"
       },
       {
         "nome": "Telekinesis / Telepathy",
@@ -139,4 +140,4 @@
     "O perfil lista Arsenal como 33 EP, embora os custos impressos dos quatro itens somem 82 EP. Os valores foram preservados como publicados, sem corrigir a discrepancia.",
     "Os custos confirmados antes de Psimtar e Telekinesis/Telepathy somam 183 PP: 64 habilidades, 23 defesas, 67 perícias, 26 vantagens e Protection 3. O total final de PP 3e permanece pendente porque os custos desses poderes e modificadores não foram calculados por completo."
   ]
-}
+}

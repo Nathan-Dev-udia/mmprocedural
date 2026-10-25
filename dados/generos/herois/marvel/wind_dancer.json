@@ -5,7 +5,7 @@
   "nome_pt": "Wind Dancer",
   "nivel_poder": 10,
   "pontos_poder_origem": 135,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 136.5,
   "status_conversao": "convertida",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -39,29 +39,31 @@
       "Combate a Distância: Wind Blast": 6
     },
     "vantagens": [
-      "Accurate Attack",
-      "Attractive 2",
-      "Defensive Roll 3",
-      "Equipment",
-      "Favored Environment [Airborne] 8",
-      "Improved Initiative 2",
-      "Luck",
+      "Ataque Acurado",
+      "Atraente 2",
+      "Rolamento Defensivo 3",
+      "Equipamento",
+      "Ambiente Favorito [Aéreo] 8",
+      "Iniciativa Aprimorada 2",
+      "Sorte",
       "Move By Action",
-      "Teamwork 2",
-      "Languages 2"
+      "Trabalho em Equipe 2",
+      "Idiomas 2"
     ],
     "poderes": [
       {
         "nome": "Element Control [Air]",
-        "construcao_3e": "Element Control (Air) 12, Dynamic, Cone Area; Alternate Effects: Trip (Knockback, Cone Area), Flight, Blast (Autofire), todos Dynamic. A construção 3e segue o modelo Element Control do guia; custo incerto.",
+        "construcao_3e": "Controle de Ar (Mover Objeto 12, Área em Cone, Dinâmico; 25 PP); Efeitos Alternativos Dinâmicos: Derrubar em Cone Dinâmico (2 PP), Voo Dinâmico (2 PP), Rajada de Vento Multiataque (2 PP). Array total: 31 PP. Efeito de Rajada de Ar 5 PP adicionais = 36 PP.",
         "custo_2e_pp": 43,
-        "custo_3e_pp": null
+        "custo_3e_pp": 36,
+        "nome_pt": "Controle do Ar"
       },
       {
         "nome": "Super Senses",
         "construcao_3e": "Senses: Extended Hearing 5; fonte 5 PP.",
         "custo_2e_pp": 5,
-        "custo_3e_pp": 5
+        "custo_3e_pp": 5,
+        "nome_pt": "Super-Sentidos (Audição Aguçada)"
       }
     ],
     "equipamento": [
@@ -90,13 +92,11 @@
   },
   "custos_3e": {
     "habilidades": 36,
+    "poderes": 41,
     "defesas": 12,
     "pericias": 24.5,
     "vantagens": 23,
-    "poderes_conhecidos": 5,
-    "subtotal_conhecido": 100.5,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 136.5
   },
   "notas_conversao": [
     "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
@@ -106,6 +106,7 @@
     "A fonte informa 47 PP na categoria Powers, mas os custos individuais listados somam 48 PP (Element Control 43, Super Senses 5). A diferença de 1 PP foi preservada sem correção.",
     "Idiomas adicionais descritos na fonte foram convertidos em Languages 2, usando a progressão da vantagem 3e.",
     "Subtotal 3e conhecido: 36 PP em habilidades, 49 em perícias, 30 em defesas, 23 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
-    "Correção de custo: as perícias somam 49 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 49 para 24.5 PP (subtotal e totais ajustados em -24.5)."
+    "Correção de custo: as perícias somam 49 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 49 para 24.5 PP (subtotal e totais ajustados em -24.5).",
+    "Poderes fechados em 3e: Controle Elemental de Ar fechado em 36 PP + Super-Sentidos 5 PP = 41 PP poderes. Total 3e: 136.5 PP."
   ]
-}
+}

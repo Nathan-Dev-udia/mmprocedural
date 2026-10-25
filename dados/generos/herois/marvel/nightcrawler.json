@@ -41,26 +41,27 @@
       "Combate Corpo-a-Corpo: Espadas": 4
     },
     "vantagens": [
-      "Accurate Attack",
-      "Agile Feint",
-      "Benefit: Ambidextrous",
-      "Defensive Attack",
-      "Defensive Roll 4",
-      "Equipment 2",
-      "Hide in Plain Sight",
-      "Improved Critical: Sword",
+      "Ataque Acurado",
+      "Finta Ágil",
+      "Benefício: Ambidestro",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 4",
+      "Equipamento 2",
+      "Esconder-se à Plena Vista",
+      "Crítico Aprimorado: Sword",
       "Set-Up",
-      "Skill Mastery: Acrobacia, Atletismo, Prestidigitação, Expertise",
-      "Languages 2",
-      "Teamwork 3",
-      "Uncanny Dodge"
+      "Maestria em Perícia: Acrobacia, Atletismo, Prestidigitação, Expertise",
+      "Idiomas 2",
+      "Trabalho em Equipe 3",
+      "Esquiva Fabulosa"
     ],
     "poderes": [
       {
         "nome": "Extra Limbs",
         "construcao_3e": "Extra Limbs 1 (Innate).",
         "custo_2e_pp": 2,
-        "custo_3e_pp": 2
+        "custo_3e_pp": 2,
+        "nome_pt": "Membros Extras"
       },
       {
         "nome": "Concealment",
@@ -72,19 +73,22 @@
         "nome": "Super-Senses",
         "construcao_3e": "Senses 1 (Distance Sense).",
         "custo_2e_pp": 1,
-        "custo_3e_pp": 1
+        "custo_3e_pp": 1,
+        "nome_pt": "Super-Sentidos"
       },
       {
         "nome": "Movement",
         "construcao_3e": "Movement 2 (Wall-Crawling).",
         "custo_2e_pp": 4,
-        "custo_3e_pp": 4
+        "custo_3e_pp": 4,
+        "nome_pt": "Movimento"
       },
       {
         "nome": "Teleport",
         "construcao_3e": "Teleport 10 (Change Direction, Change Velocity, Progression 2, Turnabout), Short-Range.",
         "custo_2e_pp": 15,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Teletransporte"
       }
     ],
     "equipamento": [
@@ -129,4 +133,4 @@
     "Sneak Attack 2 foi omitida: não possui equivalente direto na 3e.",
     "Dodge foi ajustada de 20 para 14 para cumprir Dodge + Toughness ≤ 20 (NP 10)."
   ]
-}
+}

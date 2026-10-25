@@ -35,11 +35,11 @@
       "Intuição": 6
     },
     "vantagens": [
-      "All-out Attack",
-      "Attractive 2",
+      "Ataque Imprudente",
+      "Atraente 2",
       "Beginner’s Luck",
-      "Power Attack",
-      "Teamwork"
+      "Ataque Poderoso",
+      "Trabalho em Equipe"
     ],
     "poderes": [
       {
@@ -58,25 +58,29 @@
         "nome": "Enhanced Strength 20",
         "construcao_3e": "Enhanced Trait: Stamina 11 (para elevar o valor base 1 ao valor final 12).",
         "custo_2e_pp": 20,
-        "custo_3e_pp": 22
+        "custo_3e_pp": 22,
+        "nome_pt": "Força Aumentada 20"
       },
       {
         "nome": "Enhanced Constitution 22",
         "construcao_3e": "Enhanced Trait: Stamina 22.",
         "custo_2e_pp": 22,
-        "custo_3e_pp": 44
+        "custo_3e_pp": 44,
+        "nome_pt": "Vigor Aumentado 22"
       },
       {
         "nome": "Flight 5",
         "construcao_3e": "Flight 5.",
         "custo_2e_pp": 10,
-        "custo_3e_pp": 10
+        "custo_3e_pp": 10,
+        "nome_pt": "Voo 5"
       },
       {
         "nome": "Super-Strength 3",
         "construcao_3e": "Power-Lifting 3.",
         "custo_2e_pp": 6,
-        "custo_3e_pp": 3
+        "custo_3e_pp": 3,
+        "nome_pt": "Super-Força 3"
       }
     ],
     "equipamento": [],
@@ -127,4 +131,4 @@
     "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +12/+2/+12/+0/+2/+3. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
     "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
   ]
-}
+}

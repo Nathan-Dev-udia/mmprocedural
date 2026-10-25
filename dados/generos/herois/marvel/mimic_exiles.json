@@ -41,11 +41,11 @@
       "Combate a Distância: Blast de Cyclops": 9
     },
     "vantagens": [
-      "Assessment",
-      "Attractive",
-      "Benefit: Status",
-      "Inspire 3",
-      "Leadership"
+      "Avaliação",
+      "Atraente",
+      "Benefício: Status",
+      "Inspirar 3",
+      "Liderança"
     ],
     "poderes": [
       {
@@ -130,4 +130,4 @@
     "Sneak Attack não tem equivalente direto e foi omitida; aparece conservada na descrição das vantagens da fonte.",
     "Dodge foi ajustada de 14 para 10 para cumprir Dodge + Toughness ≤ 20 (NP 10)."
   ]
-}
+}

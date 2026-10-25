@@ -38,47 +38,53 @@
       "Combate a Distância: Cosmic Blast": 11
     },
     "vantagens": [
-      "Accurate Attack",
-      "Attractive",
-      "Luck",
-      "Power Attack"
+      "Ataque Acurado",
+      "Atraente",
+      "Sorte",
+      "Ataque Poderoso"
     ],
     "poderes": [
       {
         "nome": "Cosmic Energy Control",
         "construcao_3e": "Damage à distância (array) (rank 2e 17); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Cosmic Energy Control 17 (Power Feats: Improved Range, Selective; Alternate Powers: Boost, Create Object, Healing, Transform; 40pp) Componentes/efeitos alternativos mapeados: Boost → Enhanced Trait com Fades; Create Object → Create; Healing → Healing; Transform → Transform; para seres vivos, Affliction com condição Transformed.; custo 2e impresso 40 PP.",
         "custo_2e_pp": 40,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Controle de Energia Cósmica"
       },
       {
         "nome": "Device",
         "construcao_3e": "Removable (prancha voadora; inclui os traços e poderes listados); rank e modificadores 3e exatos requerem revisão: Device 11 [Board – Strength: 45; Speed: Flight 10; Toughness: 15; Size: Medium; Features: Remote Control, Restricted; Powers: Space Flight 15; 33pp].",
         "custo_2e_pp": 33,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Dispositivo"
       },
       {
         "nome": "Immunity",
         "construcao_3e": "Immunity 19 (Life Support, Heat, Cold); conversão e custo 3e dependem da seleção exata de imunidades.",
         "custo_2e_pp": 19,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Imunidade"
       },
       {
         "nome": "Protection",
         "construcao_3e": "Protection 7, Impervious Toughness 15.",
         "custo_2e_pp": 22,
-        "custo_3e_pp": 22
+        "custo_3e_pp": 22,
+        "nome_pt": "Proteção"
       },
       {
         "nome": "Super Senses",
         "construcao_3e": "Senses 22 (Cosmic Energy Awareness, Extended 10; Life Awareness, Extended 10).",
         "custo_2e_pp": 22,
-        "custo_3e_pp": 22
+        "custo_3e_pp": 22,
+        "nome_pt": "Super-Sentidos"
       },
       {
         "nome": "Super Strength",
         "construcao_3e": "Power-Lifting 4.",
         "custo_2e_pp": 8,
-        "custo_3e_pp": 4
+        "custo_3e_pp": 4,
+        "nome_pt": "Super-Força"
       }
     ],
     "equipamento": [],
@@ -122,4 +128,4 @@
     "Subtotal 3e conhecido: 112 PP em habilidades, 75 em perícias, 65 em defesas, 4 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
     "Correção de custo: as perícias somam 75 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 75 para 37.5 PP (subtotal e totais ajustados em -37.5)."
   ]
-}
+}

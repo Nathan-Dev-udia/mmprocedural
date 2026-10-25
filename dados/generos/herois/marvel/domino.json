@@ -5,7 +5,7 @@
   "nome_pt": "Domino",
   "nivel_poder": 10,
   "pontos_poder_origem": 165,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 169,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -44,25 +44,25 @@
       "Combate à Distância: Ataques gerais": 10
     },
     "vantagens": [
-      "Agile Feint",
-      "All-out Attack",
-      "Defensive Attack",
-      "Equipment 6",
-      "Improved Initiative 2",
-      "Improved Trip",
-      "Instant Up",
-      "Power Attack",
-      "Precise Attack (Ranged, Cover) 2",
-      "Skill Mastery (Acrobatics, Technology, Insight, Stealth)",
-      "Takedown",
-      "Uncanny Dodge (Hearing)"
+      "Finta Ágil",
+      "Ataque Imprudente",
+      "Ataque Defensivo",
+      "Equipamento 6",
+      "Iniciativa Aprimorada 2",
+      "Derrubar Aprimorado",
+      "De Pé",
+      "Ataque Poderoso",
+      "Ataque Preciso (À Distância, Cobertura) 2",
+      "Maestria em Perícia (Acrobatics, Technology, Insight, Stealth)",
+      "Ataque Dominó",
+      "Esquiva Fabulosa (Audição)"
     ],
     "poderes": [
       {
         "nome": "Probability Control",
-        "construcao_3e": "Luck Control 8.",
+        "construcao_3e": "Luck Control 4 (Bestow Luck, Negate Luck, Force Re-roll, Spend on Others; 12 PP) + Enhanced Trait: Advantage (Luck 8; 8 PP). Total: 20 PP.",
         "custo_2e_pp": 32,
-        "custo_3e_pp": null
+        "custo_3e_pp": 20
       }
     ],
     "equipamento": [
@@ -109,18 +109,17 @@
   },
   "custos_3e": {
     "habilidades": 58,
+    "poderes": 20,
     "defesas": 19,
     "pericias": 53,
     "vantagens": 19,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 149,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 169
   },
   "notas_conversao": [
     "Dodge Focus 8 foi convertido em Esquiva; Esquiva e Aparar foram reduzidas para 14 para cumprir NP 10. A fonte lista equipamento adicional de 5 EP e arsenal de 20 EP; ambos foram mantidos sem reconciliação. Elusive Target e Sneak Attack foram removidas.",
     "Defesas ajustadas para Esquiva 14 e Aparar 14, respeitando os limites de NP 10 com Resistência 6.",
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
-    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados.",
+    "Poderes fechados em 3e: Probability Control convertido em Luck Control 4 com 8 graduações de Sorte Aumentada (20 PP). Total 3e: 169 PP."
   ]
-}
+}

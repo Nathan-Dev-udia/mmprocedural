@@ -43,27 +43,28 @@
       "Combate a Distancia: Armas arremessadas": 4
     },
     "vantagens": [
-      "Accurate Attack",
-      "Assessment",
-      "Ranged Attack 3",
-      "Defensive Attack",
-      "Daze (Bluff)",
-      "Improved Aim",
-      "Improved Critical (Thrown) 5",
-      "Improved Initiative 2",
-      "Power Attack",
-      "Precise Attack (Ranged, Cover) 2",
-      "Quick Draw",
-      "Skill Mastery (Deception, Perception, Insight, Stealth)",
-      "Taunt",
-      "Throwing Mastery 7"
+      "Ataque Acurado",
+      "Avaliação",
+      "Ataque à Distância 3",
+      "Ataque Defensivo",
+      "Tontear (Bluff)",
+      "Mira Aprimorada",
+      "Crítico Aprimorado (Thrown) 5",
+      "Iniciativa Aprimorada 2",
+      "Ataque Poderoso",
+      "Ataque Preciso (À Distância, Cobertura) 2",
+      "Saque Rápido",
+      "Maestria em Perícia (Deception, Perception, Insight, Stealth)",
+      "Zombar",
+      "Maestria em Arremesso 7"
     ],
     "poderes": [
       {
         "nome": "Protection",
         "construcao_3e": "Protection 3, Innate.",
         "custo_2e_pp": 4,
-        "custo_3e_pp": 4
+        "custo_3e_pp": 4,
+        "nome_pt": "Proteção"
       }
     ],
     "equipamento": [
@@ -118,4 +119,4 @@
     "vantagens": 28,
     "total": 150
   }
-}
+}

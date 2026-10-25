@@ -41,25 +41,26 @@
       "Combate Corpo-a-Corpo: Desarmado": 2
     },
     "vantagens": [
-      "All-out Attack",
-      "Attractive",
-      "Equipment",
-      "Improved Defense",
-      "Improved Initiative",
-      "Inspire 2",
-      "Interpose",
-      "Luck",
-      "Seize Initiative",
+      "Ataque Imprudente",
+      "Atraente",
+      "Equipamento",
+      "Defesa Aprimorada",
+      "Iniciativa Aprimorada",
+      "Inspirar 2",
+      "Interpor-se",
+      "Sorte",
+      "Tomar a Iniciativa",
       "Set-Up",
-      "Teamwork",
-      "Ultimate Effort: Will Save"
+      "Trabalho em Equipe",
+      "Esforço Supremo: Will Save"
     ],
     "poderes": [
       {
         "nome": "Telepathy Array",
         "construcao_3e": "Telepathy 10 dinâmico (Free Action); Efeitos Alternativos: Force Field 14 (Impervious, Shapeable Area), ESP (Audio, Visual, Telepathy), Mental Blast, Mind Control, Telekinesis (Damaging), Blast 12 (Move Action, Concentration, Indirect), Astral Form 10 (Dimensional), Mind Shield. 57 PP na fonte.",
         "custo_2e_pp": 57,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Telepatia Array"
       }
     ],
     "equipamento": [
@@ -102,4 +103,4 @@
     "Attack +8 com Blast 12 respeita o limite de NP 10. Toughness +5/+2 foi preservado pelo maior valor impresso; o uniforme não foi somado novamente.",
     "Second Chance (Concentration Checks) foi omitida porque Concentration não tem perícia ou teste independente equivalente na 3e."
   ]
-}
+}

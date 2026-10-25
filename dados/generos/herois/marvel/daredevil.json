@@ -43,22 +43,22 @@
       "Combate à Distância: Ataques gerais": 7
     },
     "vantagens": [
-      "Agile Feint",
-      "Accurate Attack",
-      "All-out Attack",
-      "Assessment",
-      "Defensive Attack",
-      "Equipment 1",
-      "Evasion 2",
-      "Improved Disarm",
-      "Improved Initiative 2",
-      "Improved Trip",
-      "Power Attack",
-      "Takedown",
-      "Second Chance (Sense Motive)",
-      "Skill Mastery (Acrobatics, Perception, Insight, Stealth)",
-      "Uncanny Dodge (Hearing)",
-      "Weapon Bind"
+      "Finta Ágil",
+      "Ataque Acurado",
+      "Ataque Imprudente",
+      "Avaliação",
+      "Ataque Defensivo",
+      "Equipamento 1",
+      "Evasão 2",
+      "Desarmar Aprimorado",
+      "Iniciativa Aprimorada 2",
+      "Derrubar Aprimorado",
+      "Ataque Poderoso",
+      "Ataque Dominó",
+      "Segunda Chance (Sense Motive)",
+      "Maestria em Perícia (Acrobatics, Perception, Insight, Stealth)",
+      "Esquiva Fabulosa (Audição)",
+      "Prender Arma"
     ],
     "poderes": [
       {
@@ -71,7 +71,8 @@
         "nome": "Super Senses",
         "construcao_3e": "Senses 14 (Blindsight, Extended, Acute Touch, Scent, Radio, Tremorsense, Ultra-Hearing).",
         "custo_2e_pp": 14,
-        "custo_3e_pp": 14
+        "custo_3e_pp": 14,
+        "nome_pt": "Super-Sentidos"
       }
     ],
     "equipamento": [
@@ -117,4 +118,4 @@
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
     "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
   ]
-}
+}

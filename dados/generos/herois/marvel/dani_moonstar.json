@@ -39,21 +39,22 @@
       "Combate à Distância: Arco": 3
     },
     "vantagens": [
-      "Ranged Attack 4",
-      "Attractive",
-      "Connected",
-      "Defensive Roll 2",
-      "Equipment 3",
-      "Leadership",
-      "Tracking",
-      "Uncanny Dodge (Hearing)"
+      "Ataque à Distância 4",
+      "Atraente",
+      "Bem Relacionado",
+      "Rolamento Defensivo 2",
+      "Equipamento 3",
+      "Liderança",
+      "Rastrear",
+      "Esquiva Fabulosa (Audição)"
     ],
     "poderes": [
       {
         "nome": "Emotion Control",
         "construcao_3e": "Affliction (Perception Range, Resisted by Will; condições baseadas em emoções), Alternate Effect: Ranged Mental Blast 8 (requer um arco).",
         "custo_2e_pp": 21,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Controle Emocional"
       },
       {
         "nome": "Illusion",
@@ -112,4 +113,4 @@
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
     "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
   ]
-}
+}

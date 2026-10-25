@@ -39,20 +39,20 @@
       "Especialidade: Eletrônica": 8
     },
     "vantagens": [
-      "Accurate Attack",
-      "Attractive 2",
-      "Defensive Attack",
-      "Defensive Roll 2",
-      "Equipment 2",
-      "Improved Defense",
-      "Improved Disarm",
-      "Improved Initiative 2",
-      "Minion 4",
-      "Power Attack",
-      "Skill Mastery (Deception, Technology, Disable Device, Stealth) 4",
+      "Ataque Acurado",
+      "Atraente 2",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 2",
+      "Equipamento 2",
+      "Defesa Aprimorada",
+      "Desarmar Aprimorado",
+      "Iniciativa Aprimorada 2",
+      "Capanga 4",
+      "Ataque Poderoso",
+      "Maestria em Perícia (Deception, Technology, Disable Device, Stealth) 4",
       "Sneak Attack 2",
-      "Taunt",
-      "Teamwork 3"
+      "Zombar",
+      "Trabalho em Equipe 3"
     ],
     "poderes": [
       {
@@ -71,7 +71,8 @@
         "nome": "Super-Movement 2",
         "construcao_3e": "Air Walk 2, Linked to Insubstantial.",
         "custo_2e_pp": 4,
-        "custo_3e_pp": 4
+        "custo_3e_pp": 4,
+        "nome_pt": "Super-Movimento 2"
       }
     ],
     "equipamento": [
@@ -119,4 +120,4 @@
     "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +0/+4/+0/+4/+1/+2. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
     "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
   ]
-}
+}

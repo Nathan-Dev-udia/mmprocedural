@@ -5,7 +5,7 @@
   "nome_pt": "Wither",
   "nivel_poder": 9,
   "pontos_poder_origem": 135,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 121,
   "status_conversao": "convertida",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -39,22 +39,23 @@
       "Furtividade": 6
     },
     "vantagens": [
-      "All-Out Attack",
-      "Defensive Attack",
-      "Equipment",
-      "Improved Defense",
-      "Improved Grab",
-      "Improved Pin",
-      "Power Attack",
-      "Startle",
-      "Teamwork 3"
+      "Ataque Imprudente",
+      "Ataque Defensivo",
+      "Equipamento",
+      "Defesa Aprimorada",
+      "Agarrar Aprimorado",
+      "Imobilizar Aprimorado",
+      "Ataque Poderoso",
+      "Assustar",
+      "Trabalho em Equipe 3"
     ],
     "poderes": [
       {
         "nome": "Drain [Constitution]",
-        "construcao_3e": "Efeito 3e correspondente ao descritor (rank 2e 10); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Drain [Constitution] 10 (Extras: Duration – Concentration [+1], Vampiric [+1], Aura [+1] 9; Flaws: Uncontrolled [-1]; Alternate Power: Corrosion 10 (Extras: Duration –Concentration [+1]; Flaws: Only Effects Organic Material [-1]); 41pp) Componentes/efeitos alternativos mapeados: Corrosion → Weaken Toughness ligado a Damage; Drain → Weaken.; custo 2e impresso 41 PP.",
+        "construcao_3e": "Enfraquecer Vigor 10 (Reação / Aura [+3/graduação], Falha: Incontrolável [-1/graduação] = 3 PP/graduação = 30 PP); Efeito Alternativo: Corrosão 10 (Enfraquecer Resistência ligado a Dano, Concentração, Limitado a matéria orgânica; 1 PP). Array total: 31 PP.",
         "custo_2e_pp": 41,
-        "custo_3e_pp": null
+        "custo_3e_pp": 31,
+        "nome_pt": "Toque Murchador / Corrosão"
       }
     ],
     "equipamento": [
@@ -78,13 +79,11 @@
   },
   "custos_3e": {
     "habilidades": 30,
+    "poderes": 31,
     "defesas": 21,
     "pericias": 28,
     "vantagens": 11,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 90,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 121
   },
   "notas_conversao": [
     "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
@@ -93,6 +92,7 @@
     "Nenhuma Motivação ou complicação não publicada foi acrescentada.",
     "Vantagens sem equivalente direto foram removidas conforme o guia; não foram recriadas como poderes: Elusive Target; Fearsome Presence (4) [DC 13; 15 ft.]; Rage (3) [+8 Strength, +4 Fortitude & Will Saves].",
     "Subtotal 3e conhecido: 30 PP em habilidades, 56 em perícias, 38 em defesas, 11 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
-    "Correção de custo: as perícias somam 56 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 56 para 28 PP (subtotal e totais ajustados em -28)."
+    "Correção de custo: as perícias somam 56 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 56 para 28 PP (subtotal e totais ajustados em -28).",
+    "Poderes fechados em 3e: Toque Murchador de Vigor e Corrosão orgânica fechado em 31 PP. Total 3e: 121 PP."
   ]
-}
+}

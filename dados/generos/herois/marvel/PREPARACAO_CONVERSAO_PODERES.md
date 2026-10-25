@@ -9,15 +9,17 @@ Aviso para quem (pessoa ou IA) for continuar o trabalho nas fichas da Marvel.
   (`fonte.pagina`), sem repetição e sem página com dois perfis. **Não há personagem faltando.** Não procure outros livros.
 - **O que falta é fechar a conversão da 2ª para a 3ª edição**, principalmente dos poderes complexos (arrays, dispositivos, formas alternativas e efeitos com modificadores sem equivalência direta):
   - Todas as 116 fichas já possuem o bloco `custos_3e` padronizado (incluindo as 10 fichas de `absorbing_man` a `bullseye` e `bishop`), com `habilidades`/`habilidades_base`, `defesas` (1 PP por graduação comprada), `pericias` (1 PP a cada 2 graduações) e `vantagens` preenchidos.
-  - **17 fichas** já estão com `pontos_poder_3e` e `custos_3e.total` totalmente fechados (`archangel`, `beast`, `bullseye`, `captain_britain`, `elektra`, `jubilee`, `kingpin`, `luke_cage`, `mary_jane_watson`, `mystique`, `northstar`, `puck`, `punisher`, `red_skull`, `thing`, `tombstone`, `wolfsbane`). `beast` é o **modelo original de ficha completa**: leia-o primeiro.
-  - **99 fichas** têm `custos_3e.poderes_pendentes: true`. Nelas, poderes de equivalência direta já têm `custo_3e_pp` preenchido e somado em `poderes_conhecidos`, mas ao menos um poder depende de julgamento de design (`custo_3e_pp: null`), então o total de PP permanece `null`.
+  - **39 fichas** já estão com `pontos_poder_3e` e `custos_3e.total` totalmente fechados (incluindo os lotes de fechamento: `adam-x`, `archangel`, `avalanche`, `baron_zemo`, `beast`, `bullseye`, `captain_america`, `captain_britain`, `colossus`, `doctor_octopus`, `domino`, `dust`, `elektra`, `elixir`, `gambit`, `hellion`, `iron_fist`, `jubilee`, `kingpin`, `luke_cage`, `mach_iv`, `mary_jane_watson`, `mystique`, `nocturne`, `northstar`, `puck`, `punisher`, `red_skull`, `shocker`, `surge`, `tag`, `taskmaster`, `thing`, `tombstone`, `vulture`, `wallflower`, `wind_dancer`, `wither`, `wolfsbane`). `beast` é o **modelo original de ficha completa**: leia-o primeiro.
+  - **77 fichas** têm `custos_3e.poderes_pendentes: true`. Nelas, poderes de equivalência direta já têm `custo_3e_pp` preenchido e somado em `poderes_conhecidos`, mas poderes dependentes de julgamento de design permanecem como `custo_3e_pp: null` até seu respectivo lote de fechamento.
+  - Vantagens e ataques de todas as 116 fichas traduzidos para o português canônico de M&M 3e, com suporte completo no gerador de PDF e visualizador.
+  - Regra de habilidades negativas confirmada no livro oficial de M&M 3e (pág. 56: *"Ganhe 2 pontos de poder para cada -1 de graduação de habilidade"*); `giant_man` e `hulk` foram ajustados e todas as ressalvas de habilidades foram zeradas (0 ressalvas).
 - Fichas com valor `null` **de propósito**: `chamber` e `sentinel` (o livro imprime travessão; são construtos sem
   Constituição). Não preencha com 0.
 
 ## Linha de base e conferência
 
 `python ferramentas/auditar_herois.py dados/generos/herois/auditoria_marvel.json --editora marvel` mede a qualidade sem
-alterar nada. O arquivo `dados/generos/herois/auditoria_marvel.json` é o retrato de hoje (112 jogáveis, 2 com ressalvas,
+alterar nada. O arquivo `dados/generos/herois/auditoria_marvel.json` é o retrato atualizado (114 jogáveis, 0 com ressalvas,
 2 "revisar" que são os `null` intencionais). **Não guarde esse JSON dentro de `marvel/`**: o catálogo lê todo `*.json`
 dessa pasta como ficha. Depois de cada lote: rode a auditoria e `python -m pytest`.
 

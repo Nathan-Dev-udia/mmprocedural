@@ -5,18 +5,6 @@
    ""
   ],
   [
-   "marvel/adam-x",
-   ""
-  ],
-  [
-   "marvel/avalanche",
-   ""
-  ],
-  [
-   "marvel/baron_zemo",
-   ""
-  ],
-  [
    "marvel/bishop",
    ""
   ],
@@ -45,15 +33,7 @@
    ""
   ],
   [
-   "marvel/captain_america",
-   ""
-  ],
-  [
    "marvel/chamber",
-   ""
-  ],
-  [
-   "marvel/colossus",
    ""
   ],
   [
@@ -77,27 +57,7 @@
    ""
   ],
   [
-   "marvel/doctor_octopus",
-   ""
-  ],
-  [
-   "marvel/domino",
-   ""
-  ],
-  [
-   "marvel/dust",
-   ""
-  ],
-  [
-   "marvel/elixir",
-   ""
-  ],
-  [
    "marvel/forge",
-   ""
-  ],
-  [
-   "marvel/gambit",
    ""
   ],
   [
@@ -121,10 +81,6 @@
    ""
   ],
   [
-   "marvel/hellion",
-   ""
-  ],
-  [
    "marvel/hulk",
    ""
   ],
@@ -145,10 +101,6 @@
    ""
   ],
   [
-   "marvel/iron_fist",
-   ""
-  ],
-  [
    "marvel/iron_man",
    ""
   ],
@@ -162,10 +114,6 @@
   ],
   [
    "marvel/longshot",
-   ""
-  ],
-  [
-   "marvel/mach_iv",
    ""
   ],
   [
@@ -202,10 +150,6 @@
   ],
   [
    "marvel/nightcrawler",
-   ""
-  ],
-  [
-   "marvel/nocturne",
    ""
   ],
   [
@@ -293,10 +237,6 @@
    ""
   ],
   [
-   "marvel/shocker",
-   ""
-  ],
-  [
    "marvel/silver_samurai",
    ""
   ],
@@ -337,18 +277,6 @@
    ""
   ],
   [
-   "marvel/surge",
-   ""
-  ],
-  [
-   "marvel/tag",
-   ""
-  ],
-  [
-   "marvel/taskmaster",
-   ""
-  ],
-  [
    "marvel/thanos",
    ""
   ],
@@ -369,23 +297,7 @@
    ""
   ],
   [
-   "marvel/vulture",
-   ""
-  ],
-  [
-   "marvel/wallflower",
-   ""
-  ],
-  [
    "marvel/white_queen",
-   ""
-  ],
-  [
-   "marvel/wind_dancer",
-   ""
-  ],
-  [
-   "marvel/wither",
    ""
   ],
   [
@@ -403,18 +315,6 @@
    ""
   ],
   [
-   "marvel/adam-x",
-   ""
-  ],
-  [
-   "marvel/avalanche",
-   ""
-  ],
-  [
-   "marvel/baron_zemo",
-   ""
-  ],
-  [
    "marvel/bishop",
    ""
   ],
@@ -443,15 +343,7 @@
    ""
   ],
   [
-   "marvel/captain_america",
-   ""
-  ],
-  [
    "marvel/chamber",
-   ""
-  ],
-  [
-   "marvel/colossus",
    ""
   ],
   [
@@ -475,27 +367,7 @@
    ""
   ],
   [
-   "marvel/doctor_octopus",
-   ""
-  ],
-  [
-   "marvel/domino",
-   ""
-  ],
-  [
-   "marvel/dust",
-   ""
-  ],
-  [
-   "marvel/elixir",
-   ""
-  ],
-  [
    "marvel/forge",
-   ""
-  ],
-  [
-   "marvel/gambit",
    ""
   ],
   [
@@ -519,10 +391,6 @@
    ""
   ],
   [
-   "marvel/hellion",
-   ""
-  ],
-  [
    "marvel/hulk",
    ""
   ],
@@ -543,10 +411,6 @@
    ""
   ],
   [
-   "marvel/iron_fist",
-   ""
-  ],
-  [
    "marvel/iron_man",
    ""
   ],
@@ -560,10 +424,6 @@
   ],
   [
    "marvel/longshot",
-   ""
-  ],
-  [
-   "marvel/mach_iv",
    ""
   ],
   [
@@ -600,10 +460,6 @@
   ],
   [
    "marvel/nightcrawler",
-   ""
-  ],
-  [
-   "marvel/nocturne",
    ""
   ],
   [
@@ -691,10 +547,6 @@
    ""
   ],
   [
-   "marvel/shocker",
-   ""
-  ],
-  [
    "marvel/silver_samurai",
    ""
   ],
@@ -735,18 +587,6 @@
    ""
   ],
   [
-   "marvel/surge",
-   ""
-  ],
-  [
-   "marvel/tag",
-   ""
-  ],
-  [
-   "marvel/taskmaster",
-   ""
-  ],
-  [
    "marvel/thanos",
    ""
   ],
@@ -767,23 +607,7 @@
    ""
   ],
   [
-   "marvel/vulture",
-   ""
-  ],
-  [
-   "marvel/wallflower",
-   ""
-  ],
-  [
    "marvel/white_queen",
-   ""
-  ],
-  [
-   "marvel/wind_dancer",
-   ""
-  ],
-  [
-   "marvel/wither",
    ""
   ],
   [
@@ -797,6 +621,14 @@
  ],
  "TOTAL_ACIMA_DE_15xNP": [
   [
+   "marvel/adam-x",
+   "202 > 150"
+  ],
+  [
+   "marvel/baron_zemo",
+   "190.5 > 150"
+  ],
+  [
    "marvel/beast",
    "183 > 135"
   ],
@@ -805,11 +637,35 @@
    "150 > 135"
   ],
   [
+   "marvel/captain_america",
+   "226.5 > 180"
+  ],
+  [
    "marvel/captain_britain",
    "170 > 165"
   ],
   [
+   "marvel/doctor_octopus",
+   "170 > 150"
+  ],
+  [
+   "marvel/domino",
+   "169 > 150"
+  ],
+  [
+   "marvel/dust",
+   "163 > 150"
+  ],
+  [
    "marvel/elektra",
+   "164 > 150"
+  ],
+  [
+   "marvel/gambit",
+   "172.5 > 150"
+  ],
+  [
+   "marvel/iron_fist",
    "164 > 150"
   ],
   [
@@ -825,6 +681,10 @@
    "136.5 > 135"
   ],
   [
+   "marvel/mach_iv",
+   "173 > 135"
+  ],
+  [
    "marvel/mystique",
    "170.5 > 150"
   ],
@@ -837,8 +697,20 @@
    "220.5 > 150"
   ],
   [
+   "marvel/shocker",
+   "127.5 > 120"
+  ],
+  [
+   "marvel/tag",
+   "120.5 > 120"
+  ],
+  [
    "marvel/thing",
    "156.5 > 150"
+  ],
+  [
+   "marvel/vulture",
+   "107 > 105"
   ],
   [
    "marvel/wolfsbane",
@@ -891,16 +763,6 @@
   [
    "marvel/chamber",
    "{'ataque_mais_dano_maximo': 14, 'esquiva_mais_resistencia': 20, 'aparar_mais_resistencia': 20, 'fortitude_mais_vontade': None, 'legal': False}"
-  ]
- ],
- "CUSTO_HABILIDADES_DIVERGE": [
-  [
-   "marvel/giant_man",
-   "json 52 x calculado 46"
-  ],
-  [
-   "marvel/hulk",
-   "json 80 x calculado 76"
   ]
  ]
 }

@@ -5,7 +5,7 @@
   "nome_pt": "Vulture",
   "nivel_poder": 7,
   "pontos_poder_origem": 105,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 107,
   "status_conversao": "convertida",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -41,20 +41,21 @@
       "Furtividade": 8
     },
     "vantagens": [
-      "Move-by Action",
-      "Favored Environment [Airborne] 4",
-      "Improved Initiative",
+      "Ação em Movimento",
+      "Ambiente Favorito [Aéreo] 4",
+      "Iniciativa Aprimorada",
       "Inventor",
-      "Skill Mastery 4 [Computers, Craft, Disable Device, Knowledge]",
-      "Startle",
-      "Teamwork 2"
+      "Maestria em Perícia 4 [Computers, Craft, Disable Device, Knowledge]",
+      "Assustar",
+      "Trabalho em Equipe 2"
     ],
     "poderes": [
       {
         "nome": "Device",
-        "construcao_3e": "Removable (dispositivo com os efeitos listados) (rank 2e 6); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Device 6 [Vulture Flight Harness – Enhanced Strength 11, Flight 4, Protection 8, Immunity 1 (Aging); 24pp] Componentes/efeitos alternativos mapeados: Flight → Flight; Immunity → Immunity; Protection → Protection.; custo 2e impresso 24 PP.",
+        "construcao_3e": "Dispositivo Removível: Força Aumentada 5 (10 PP), Voo 4 (8 PP), Proteção 8 (8 PP), Imunidade 1 (Envelhecimento; 1 PP). Total de efeitos: 27 PP. Removível (-5 PP) = 22 PP.",
         "custo_2e_pp": 24,
-        "custo_3e_pp": null
+        "custo_3e_pp": 22,
+        "nome_pt": "Arnês de Voo do Abutre"
       }
     ],
     "equipamento": [],
@@ -72,17 +73,25 @@
       "aparar_mais_resistencia": 12,
       "fortitude_mais_vontade": 9,
       "legal": true
+    },
+    "habilidades_base": {
+      "For": -1,
+      "Vig": -1,
+      "Agi": 0,
+      "Des": 0,
+      "Lut": 5,
+      "Int": 4,
+      "Pro": 1,
+      "Pre": 1
     }
   },
   "custos_3e": {
-    "habilidades": 28,
+    "habilidades_base": 18,
+    "poderes": 22,
     "defesas": 14,
     "pericias": 41,
     "vantagens": 12,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 95,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 107
   },
   "notas_conversao": [
     "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
@@ -91,6 +100,7 @@
     "Nenhuma Motivação ou complicação não publicada foi acrescentada.",
     "Vantagens sem equivalente direto foram removidas conforme o guia; não foram recriadas como poderes: Sneak Attack.",
     "Subtotal 3e conhecido: 28 PP em habilidades, 82 em perícias, 26 em defesas, 12 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
-    "Correção de custo: as perícias somam 82 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 82 para 41 PP (subtotal e totais ajustados em -41)."
+    "Correção de custo: as perícias somam 82 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 82 para 41 PP (subtotal e totais ajustados em -41).",
+    "Poderes fechados em 3e: Arnês de Voo convertido como Dispositivo removível (22 PP). Habilidades base registradas sem a força do arnês (For -1 base idoso, For 4 com arnês). Total 3e: 107 PP."
   ]
-}
+}

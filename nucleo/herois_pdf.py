@@ -71,7 +71,7 @@ def _ler_marvel(dados):
         "pericias": pericias,
         "ataques": [(a["nome"], a.get("bonus"), a.get("dano"), "") for a in f.get("ataques", [])],
         "vantagens": list(f.get("vantagens", [])),
-        "poderes": [f"{p['nome']}: {p.get('construcao_3e', '')}".strip() for p in f.get("poderes", [])],
+        "poderes": [f"{p.get('nome_pt') or p['nome']}: {p.get('construcao_3e', '')}".strip() for p in f.get("poderes", [])],
         "equipamento": list(f.get("equipamento", [])), "complicacoes": list(f.get("complicacoes", [])),
         "iniciativa": None,
         "custos": {rotulo: valor for chave, rotulo in CUSTOS_MARVEL.items()
@@ -166,7 +166,7 @@ def campos_do_heroi(ficha_id):
     iniciativa = h["iniciativa"]
     if iniciativa is None:
         iniciativa = hab["Agi"] + 4 * sum(_inteiro(v, 1) for v in h["vantagens"]
-                                          if _chave(v).startswith("improvedinitiative"))
+                                          if _chave(v).startswith(("improvedinitiative", "iniciativaaprimorada")))
     campos["Iniciativa"] = f"{iniciativa:+d}"
 
     for defesa, sigla in rules.DEFESAS_COMPRAVEIS.items():

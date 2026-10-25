@@ -44,14 +44,14 @@
       "Combate a Distância: Lightning Bolt": 5
     },
     "vantagens": [
-      "Attractive",
-      "Benefit [Status]",
-      "Defensive Roll 5",
+      "Atraente",
+      "Benefício [Status]",
+      "Rolamento Defensivo 5",
       "Feature: Environmental Adaptation [Storms]",
       "Favred Environment [Airborn] 6",
-      "Inspire 3",
-      "Teamwork",
-      "Languages 2"
+      "Inspirar 3",
+      "Trabalho em Equipe",
+      "Idiomas 2"
     ],
     "poderes": [
       {
@@ -105,4 +105,4 @@
     "Subtotal 3e conhecido: 48 PP em habilidades, 81 em perícias, 33 em defesas, 20 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
     "Correção de custo: as perícias somam 81 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 81 para 40.5 PP (subtotal e totais ajustados em -40.5)."
   ]
-}
+}

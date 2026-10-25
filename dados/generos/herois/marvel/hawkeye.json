@@ -45,21 +45,21 @@
       "Combate à Distância: Arco": 9
     },
     "vantagens": [
-      "Accurate Attack",
-      "All-out Attack",
-      "Defensive Attack",
-      "Defensive Roll 2",
-      "Equipment 1",
-      "Improved Aim",
-      "Improved Disarm 3",
-      "Improved Initiative",
-      "Improved Smash",
-      "Power Attack",
-      "Precise Attack (Ranged, Cover) 2",
-      "Quick Draw 2",
-      "Teamwork",
-      "Ultimate Effort (Ultimate Aim)",
-      "Uncanny Dodge (Hearing)"
+      "Ataque Acurado",
+      "Ataque Imprudente",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 2",
+      "Equipamento 1",
+      "Mira Aprimorada",
+      "Desarmar Aprimorado 3",
+      "Iniciativa Aprimorada",
+      "Quebrar Aprimorado",
+      "Ataque Poderoso",
+      "Ataque Preciso (À Distância, Cobertura) 2",
+      "Saque Rápido 2",
+      "Trabalho em Equipe",
+      "Esforço Supremo (Ultimate Aim)",
+      "Esquiva Fabulosa (Audição)"
     ],
     "poderes": [
       {
@@ -72,7 +72,8 @@
         "nome": "Super Senses",
         "construcao_3e": "Senses 2 (Extended Sight).",
         "custo_2e_pp": 2,
-        "custo_3e_pp": 2
+        "custo_3e_pp": 2,
+        "nome_pt": "Super-Sentidos"
       }
     ],
     "equipamento": [
@@ -117,4 +118,4 @@
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
     "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
   ]
-}
+}

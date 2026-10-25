@@ -42,16 +42,16 @@
       "Furtividade": 12
     },
     "vantagens": [
-      "All-out Attack",
-      "Close Attack 3",
-      "Attractive 2",
-      "Defensive Attack",
-      "Defensive Roll 3",
-      "Equipment",
-      "Improved Initiative 2",
-      "Luck 4",
-      "Power Attack",
-      "Takedown"
+      "Ataque Imprudente",
+      "Ataque Corpo-a-Corpo 3",
+      "Atraente 2",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 3",
+      "Equipamento",
+      "Iniciativa Aprimorada 2",
+      "Sorte 4",
+      "Ataque Poderoso",
+      "Ataque Dominó"
     ],
     "poderes": [
       {
@@ -70,7 +70,8 @@
         "nome": "Luck Control",
         "construcao_3e": "Luck Control 1 (Jinx).",
         "custo_2e_pp": 3,
-        "custo_3e_pp": 3
+        "custo_3e_pp": 3,
+        "nome_pt": "Controle de Sorte"
       }
     ],
     "equipamento": [
@@ -116,4 +117,4 @@
     "poderes_pendentes": true,
     "total": null
   }
-}
+}

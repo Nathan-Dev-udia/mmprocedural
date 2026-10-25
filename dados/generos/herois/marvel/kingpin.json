@@ -53,19 +53,19 @@
       "Combate Corpo-a-Corpo: Desarmado": 1
     },
     "vantagens": [
-      "Accurate Attack",
-      "Benefit: Wealth 3",
-      "Connected",
-      "Contacts",
-      "Defensive Attack",
-      "Equipment 7",
-      "Inspire",
-      "Fast Grab",
-      "Improved Hold",
-      "Improved Trip",
-      "Minion 16",
-      "Skill Mastery: Deception, Persuasion, Investigation, Intimidation",
-      "Takedown"
+      "Ataque Acurado",
+      "Benefício: Wealth 3",
+      "Bem Relacionado",
+      "Contatos",
+      "Ataque Defensivo",
+      "Equipamento 7",
+      "Inspirar",
+      "Agarrar Rápido",
+      "Imobilizar Aprimorado",
+      "Derrubar Aprimorado",
+      "Capanga 16",
+      "Maestria em Perícia: Deception, Persuasion, Investigation, Intimidation",
+      "Ataque Dominó"
     ],
     "poderes": [],
     "equipamento": [
@@ -109,4 +109,4 @@
     "A fonte não lista poderes; os itens especiais permanecem em equipamento, sem convertê-los em poderes separados.",
     "Os custos 3e somam 184 PP (68 habilidades base + 0 poderes + 30 defesas + 47 perícias + 39 vantagens)."
   ]
-}
+}

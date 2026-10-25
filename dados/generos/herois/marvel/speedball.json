@@ -38,10 +38,10 @@
       "Combate Corpo-a-Corpo: Desarmado": 2
     },
     "vantagens": [
-      "All-Out Attack",
-      "Defensive Attack",
-      "Improved Initiative",
-      "Taunt"
+      "Ataque Imprudente",
+      "Ataque Defensivo",
+      "Iniciativa Aprimorada",
+      "Zombar"
     ],
     "poderes": [
       {
@@ -54,7 +54,8 @@
         "nome": "Leaping",
         "construcao_3e": "Leaping 2.",
         "custo_2e_pp": 2,
-        "custo_3e_pp": 2
+        "custo_3e_pp": 2,
+        "nome_pt": "Salto"
       }
     ],
     "equipamento": [],
@@ -94,4 +95,4 @@
     "Subtotal 3e conhecido: 34 PP em habilidades, 42 em perícias, 29 em defesas, 4 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
     "Correção de custo: as perícias somam 42 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 42 para 21 PP (subtotal e totais ajustados em -21)."
   ]
-}
+}

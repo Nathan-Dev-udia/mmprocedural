@@ -44,22 +44,24 @@
     },
     "vantagens": [
       "All Out Attack",
-      "Improved Pin",
-      "Power Attack",
-      "Startle"
+      "Imobilizar Aprimorado",
+      "Ataque Poderoso",
+      "Assustar"
     ],
     "poderes": [
       {
         "nome": "Enhanced Strength",
         "construcao_3e": "Enhanced Trait: Força (rank 2e 15); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Enhanced Strength 15 (15pp); custo 2e impresso 15 PP.",
         "custo_2e_pp": 15,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Força Aumentada"
       },
       {
         "nome": "Enhanced Dexterity",
         "construcao_3e": "Enhanced Trait: Agility 8 e Dexterity 8 (para elevar os valores base 4 e 2 aos valores finais 12 e 10).",
         "custo_2e_pp": 16,
-        "custo_3e_pp": 32
+        "custo_3e_pp": 32,
+        "nome_pt": "Destreza Aumentada"
       },
       {
         "nome": "Snare",
@@ -71,49 +73,57 @@
         "nome": "Super Movement",
         "construcao_3e": "Movement (rank 2e 3); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Movement 3 (Wall crawling [2], Swinging; 6pp); custo 2e impresso 6 PP.",
         "custo_2e_pp": 6,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Super-Movimento"
       },
       {
         "nome": "Super Senses",
         "construcao_3e": "Movement 3 (Wall-Crawling 2, Swinging).",
         "custo_2e_pp": 1,
-        "custo_3e_pp": 6
+        "custo_3e_pp": 6,
+        "nome_pt": "Super-Sentidos"
       },
       {
         "nome": "Super Strength",
         "construcao_3e": "Senses 1 (Danger Sense).",
         "custo_2e_pp": 4,
-        "custo_3e_pp": 1
+        "custo_3e_pp": 1,
+        "nome_pt": "Super-Força"
       },
       {
         "nome": "Speed",
         "construcao_3e": "Power-Lifting 2.",
         "custo_2e_pp": 2,
-        "custo_3e_pp": 2
+        "custo_3e_pp": 2,
+        "nome_pt": "Velocidade"
       },
       {
         "nome": "Leaping",
         "construcao_3e": "Speed 4 (Limited to Swinging).",
         "custo_2e_pp": 2,
-        "custo_3e_pp": 2
+        "custo_3e_pp": 2,
+        "nome_pt": "Salto"
       },
       {
         "nome": "Morph [Any Humanoid]",
         "construcao_3e": "Leaping 2.",
         "custo_2e_pp": 6,
-        "custo_3e_pp": 2
+        "custo_3e_pp": 2,
+        "nome_pt": "Metamorfose [Any Humanoid]"
       },
       {
         "nome": "Immunity",
         "construcao_3e": "Immunity (rank 2e 1); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Immunity 1 (Spiderman’s Danger Sense; 1pp); custo 2e impresso 1 PP.",
         "custo_2e_pp": 1,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Imunidade"
       },
       {
         "nome": "Protection",
         "construcao_3e": "Immunity 1 (Spider-Man's Danger Sense).",
         "custo_2e_pp": 9,
-        "custo_3e_pp": 1
+        "custo_3e_pp": 1,
+        "nome_pt": "Proteção"
       }
     ],
     "equipamento": [],
@@ -171,4 +181,4 @@
     "Subtotal 3e conhecido: 100 PP em habilidades, 56 em perícias, 45 em defesas, 4 em vantagens e 9 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
     "Correção de custo: as perícias somam 56 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 56 para 28 PP (subtotal e totais ajustados em -28)."
   ]
-}
+}

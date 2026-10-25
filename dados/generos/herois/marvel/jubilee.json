@@ -44,30 +44,32 @@
       "Combate a Distância: Fireworks": 3
     },
     "vantagens": [
-      "Agile Feint",
-      "Attractive",
-      "All-out Attack",
-      "Defensive Roll 3",
-      "Equipment",
-      "Hide in Plain Sight",
-      "Improved Initiative",
-      "Luck 2",
-      "Power Attack",
-      "Teamwork",
-      "Languages 1"
+      "Finta Ágil",
+      "Atraente",
+      "Ataque Imprudente",
+      "Rolamento Defensivo 3",
+      "Equipamento",
+      "Esconder-se à Plena Vista",
+      "Iniciativa Aprimorada",
+      "Sorte 2",
+      "Ataque Poderoso",
+      "Trabalho em Equipe",
+      "Idiomas 1"
     ],
     "poderes": [
       {
         "nome": "Blast / Dazzle",
         "construcao_3e": "Blast 7; Efeito Alternativo: Dazzle (Visual). 15 PP na fonte.",
         "custo_2e_pp": 15,
-        "custo_3e_pp": 15
+        "custo_3e_pp": 15,
+        "nome_pt": "Rajada de Energia / Dazzle"
       },
       {
         "nome": "Immunity",
         "construcao_3e": "Immunity 1 (próprios poderes).",
         "custo_2e_pp": 1,
-        "custo_3e_pp": 1
+        "custo_3e_pp": 1,
+        "nome_pt": "Imunidade"
       }
     ],
     "equipamento": [
@@ -109,4 +111,4 @@
     "Languages (English; chinês como idioma-base) convertido em Languages 1.",
     "Dodge foi ajustada de 14 para 10 para cumprir Dodge + Toughness ≤ 14 (NP 7)."
   ]
-}
+}

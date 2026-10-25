@@ -39,21 +39,22 @@
       "Furtividade": 8
     },
     "vantagens": [
-      "Attractive",
-      "Defensive Roll",
-      "Equipment",
-      "Improved Initiative",
-      "Move-By Action",
+      "Atraente",
+      "Rolamento Defensivo",
+      "Equipamento",
+      "Iniciativa Aprimorada",
+      "Ação em Movimento",
       "Feature: Favored Environment (Airborne)",
-      "Power Attack",
-      "Teamwork 3"
+      "Ataque Poderoso",
+      "Trabalho em Equipe 3"
     ],
     "poderes": [
       {
         "nome": "Flight",
         "construcao_3e": "Flight 4.",
         "custo_2e_pp": 8,
-        "custo_3e_pp": 8
+        "custo_3e_pp": 8,
+        "nome_pt": "Voo"
       },
       {
         "nome": "Illusion / Dazzle",
@@ -65,7 +66,8 @@
         "nome": "Regeneration",
         "construcao_3e": "Regeneration 28; recuperação: teste 8; bruised 2, unconscious 3, injured 1, staggered 6, disabled 6; Resurrection 2.",
         "custo_2e_pp": 28,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Regeneração"
       }
     ],
     "equipamento": [
@@ -102,4 +104,4 @@
     "A fonte traz ataque +6 (+9 no ar) e dano desarmado +4; o bônus aéreo é circunstancial e não foi tratado como bônus permanente.",
     "Correção: Perform [Singing] 12 e Perform [Stringed Instruments] 12 são duas perícias distintas na fonte e estavam somadas em uma única Especialidade: Performance 24, acima do limite de 19 graduações do NP 9; agora aparecem separadas, com 12 graduações cada (mesmo custo: 64 graduações no total)."
   ]
-}
+}

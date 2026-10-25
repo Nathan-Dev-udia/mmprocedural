@@ -46,39 +46,42 @@
       "Especialidade: Sobrevivencia": 8
     },
     "vantagens": [
-      "Accurate Attack",
-      "All-out Attack",
-      "Benefit (Diplomatic Immunity, Status, Wealth 3) 5",
-      "Defensive Attack",
-      "Equipment 3",
-      "Improved Disarm",
-      "Improved Initiative",
-      "Inspire (converted from Master Plan)",
-      "Languages 2 (English, Arabic; native Swahili)",
-      "Power Attack",
-      "Skill Mastery (Bluff, Diplomacy, Stealth, Survival)",
-      "Takedown",
-      "Tracking",
-      "Uncanny Dodge (Hearing)"
+      "Ataque Acurado",
+      "Ataque Imprudente",
+      "Benefício (Diplomatic Immunity, Status, Riqueza 3) 5",
+      "Ataque Defensivo",
+      "Equipamento 3",
+      "Desarmar Aprimorado",
+      "Iniciativa Aprimorada",
+      "Inspirar (converted from Master Plan)",
+      "Idiomas 2 (English, Arabic; native Swahili)",
+      "Ataque Poderoso",
+      "Maestria em Perícia (Bluff, Diplomacy, Stealth, Survival)",
+      "Ataque Dominó",
+      "Rastrear",
+      "Esquiva Fabulosa (Audição)"
     ],
     "poderes": [
       {
         "nome": "Enhanced Strength",
         "construcao_3e": "Enhanced Trait: Strength 3 (para elevar o valor base, derivado de STR 16, ao valor final STR 22).",
         "custo_2e_pp": 6,
-        "custo_3e_pp": 6
+        "custo_3e_pp": 6,
+        "nome_pt": "Força Aumentada"
       },
       {
         "nome": "Enhanced Dexterity",
         "construcao_3e": "Enhanced Trait: Agility 4 e Dexterity 4 (derivados das diferenças entre os valores base e finais de DEX 16/24).",
         "custo_2e_pp": 8,
-        "custo_3e_pp": 16
+        "custo_3e_pp": 16,
+        "nome_pt": "Destreza Aumentada"
       },
       {
         "nome": "Super Senses",
         "construcao_3e": "Senses 3: Extended Vision, Low-Light Vision e Scent.",
         "custo_2e_pp": 3,
-        "custo_3e_pp": 3
+        "custo_3e_pp": 3,
+        "nome_pt": "Super-Sentidos"
       },
       {
         "nome": "Black Panther Suit",
@@ -135,4 +138,4 @@
     "poderes_pendentes": true,
     "total": null
   }
-}
+}

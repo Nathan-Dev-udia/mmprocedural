@@ -40,12 +40,12 @@
       "Combate Corpo-a-Corpo: Desarmado": 10
     },
     "vantagens": [
-      "Agile Feint",
-      "Attractive",
+      "Finta Ágil",
+      "Atraente",
       "Feature: adaptação ambiental a altas velocidades",
-      "Improved Initiative 5",
-      "Move-By Action",
-      "Teamwork 3"
+      "Iniciativa Aprimorada 5",
+      "Ação em Movimento",
+      "Trabalho em Equipe 3"
     ],
     "poderes": [
       {
@@ -58,13 +58,15 @@
         "nome": "Flight",
         "construcao_3e": "Flight 12, Linked to Protection.",
         "custo_2e_pp": 24,
-        "custo_3e_pp": 24
+        "custo_3e_pp": 24,
+        "nome_pt": "Voo"
       },
       {
         "nome": "Protection",
         "construcao_3e": "Protection 4, Linked to Flight.",
         "custo_2e_pp": 4,
-        "custo_3e_pp": 4
+        "custo_3e_pp": 4,
+        "nome_pt": "Proteção"
       }
     ],
     "equipamento": [],
@@ -111,4 +113,4 @@
     "Dodge foi ajustada de 20 para 12 para cumprir Dodge + Toughness ≤ 20 (NP 10).",
     "Os custos 3e somam 156.5 PP (42 habilidades base + 44 poderes + 20 defesas + 38.5 perícias + 12 vantagens)."
   ]
-}
+}

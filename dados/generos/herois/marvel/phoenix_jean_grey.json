@@ -39,20 +39,20 @@
       "Especialidade: Modelo": 10
     },
     "vantagens": [
-      "All-out Attack",
-      "Assessment",
-      "Attractive 2",
-      "Equipment",
-      "Improved Defense 2",
-      "Improved Initiative 2",
-      "Inspire 2",
-      "Interpose",
-      "Luck",
-      "Second Chance (Concentration checks)",
-      "Seize Initiative",
+      "Ataque Imprudente",
+      "Avaliação",
+      "Atraente 2",
+      "Equipamento",
+      "Defesa Aprimorada 2",
+      "Iniciativa Aprimorada 2",
+      "Inspirar 2",
+      "Interpor-se",
+      "Sorte",
+      "Segunda Chance (Concentration checks)",
+      "Tomar a Iniciativa",
       "Set-Up",
-      "Teamwork",
-      "Ultimate Effort (Will saves)"
+      "Trabalho em Equipe",
+      "Esforço Supremo (Will saves)"
     ],
     "poderes": [
       {
@@ -65,19 +65,22 @@
         "nome": "Immunity 14",
         "construcao_3e": "Life Support; descritor de fogo.",
         "custo_2e_pp": 14,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Imunidade 14"
       },
       {
         "nome": "Regeneration 9",
         "construcao_3e": "Recovery Bonus 8; Resurrection 1.",
         "custo_2e_pp": 9,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Regeneração 9"
       },
       {
         "nome": "Telepathy 17",
         "construcao_3e": "Dynamic array: Force Field (Impervious, Shapeable Area), ESP (Audio, Visual, Telepathy), Mental Blast, Mind Control, Telekinesis (Damaging), Blast 12 (Move Action, Concentration, Indirect), Astral Form 10 (Dimensional), Mind Shield, Life Control, Boost, Transform.",
         "custo_2e_pp": 93,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Telepatia 17"
       },
       {
         "nome": "Gestalt 10",
@@ -134,4 +137,4 @@
     "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +1/+1/+1/+2/+4/+2. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
     "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
   ]
-}
+}

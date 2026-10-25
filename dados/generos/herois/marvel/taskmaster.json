@@ -5,7 +5,7 @@
   "nome_pt": "Taskmaster",
   "nivel_poder": 12,
   "pontos_poder_origem": 180,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 178,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -39,45 +39,46 @@
       "Furtividade": 8
     },
     "vantagens": [
-      "Accurate Attack",
-      "All-Out Attack",
+      "Ataque Acurado",
+      "Ataque Imprudente",
       "Ambidexterity",
-      "Assessment",
+      "Avaliação",
       "Beginner’s Luck",
-      "Chokehold",
-      "Defensive Attack",
-      "Eidetic Memory",
-      "Equipment 7",
-      "Evasion",
+      "Estrangular",
+      "Ataque Defensivo",
+      "Memória Eidética",
+      "Equipamento 7",
+      "Evasão",
       "Jack of All Trades",
-      "Improved Aim",
-      "Improved Defense",
-      "Improved Disarm",
-      "Improved Grab",
+      "Mira Aprimorada",
+      "Defesa Aprimorada",
+      "Desarmar Aprimorado",
+      "Agarrar Aprimorado",
       "Improved Grapple",
-      "Improved Initiative",
-      "Improved Pin",
+      "Iniciativa Aprimorada",
+      "Imobilizar Aprimorado",
       "Improved Sunder",
-      "Improved Trip",
-      "Instant Up",
-      "Power Attack",
+      "Derrubar Aprimorado",
+      "De Pé",
+      "Ataque Poderoso",
       "Precise Shot",
-      "Prone Fighting",
-      "Quick Draw",
-      "Redirect",
+      "Luta no Chão",
+      "Saque Rápido",
+      "Redirecionar",
       "Set-Up",
-      "Seize Initiative",
-      "Takedown",
-      "Throwing Mastery",
-      "Uncanny Dodge",
-      "Ultimate Effort (Ultimate Aim)"
+      "Tomar a Iniciativa",
+      "Ataque Dominó",
+      "Maestria em Arremesso",
+      "Esquiva Fabulosa",
+      "Esforço Supremo (Ultimate Aim)"
     ],
     "poderes": [
       {
         "nome": "Nemesis",
-        "construcao_3e": "Variable (efeitos apropriados ao adversário) (rank 2e 2); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Nemesis 2 (Flaw: Limited - Only Able to Buy Skills and Feats [-1]; 14pp); custo 2e impresso 14 PP.",
+        "construcao_3e": "Variável 2 (10 PP de características contra o adversário; Ação Padrão, Sustentado; 7 PP/graduação); Falha: Limitado a adquirir apenas Perícias e Vantagens combatentes [-1 PP/graduação] = 6 PP/graduação. Total: 12 PP.",
         "custo_2e_pp": 14,
-        "custo_3e_pp": null
+        "custo_3e_pp": 12,
+        "nome_pt": "Reflexos Fotográficos (Nêmesis)"
       }
     ],
     "equipamento": [
@@ -105,13 +106,11 @@
   },
   "custos_3e": {
     "habilidades": 74,
+    "poderes": 12,
     "defesas": 26,
     "pericias": 28,
     "vantagens": 38,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 166,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 178
   },
   "notas_conversao": [
     "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
@@ -122,6 +121,7 @@
     "Dodge Focus 4 foi convertido em ranks de Esquiva: base 14 + 4 = 18; valor final 16.",
     "Defesas reduzidas por limite de NP 12: Esquiva 18→16 e Aparar 14→14; cada defesa ativa + Resistência 8 ≤ 24.",
     "Subtotal 3e conhecido: 74 PP em habilidades, 56 em perícias, 57 em defesas, 38 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
-    "Correção de custo: as perícias somam 56 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 56 para 28 PP (subtotal e totais ajustados em -28)."
+    "Correção de custo: as perícias somam 56 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 56 para 28 PP (subtotal e totais ajustados em -28).",
+    "Poderes fechados em 3e: Nêmesis convertido em Efeito Variável 2 limitado a perícias e vantagens (12 PP). Total 3e: 178 PP."
   ]
-}
+}

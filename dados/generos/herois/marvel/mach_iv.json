@@ -5,7 +5,7 @@
   "nome_pt": "Mach IV",
   "nivel_poder": 9,
   "pontos_poder_origem": 150,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 173,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -44,20 +44,21 @@
       "Combate a Distância: Blast 6 autofire": 7
     },
     "vantagens": [
-      "Close Attack 4",
-      "Evasion",
+      "Ataque Corpo-a-Corpo 4",
+      "Evasão",
       "Feature: Favored Environment (Airborne)",
-      "Improved Initiative 2",
+      "Iniciativa Aprimorada 2",
       "Inventor",
-      "Move-By Action",
-      "Teamwork"
+      "Ação em Movimento",
+      "Trabalho em Equipe"
     ],
     "poderes": [
       {
         "nome": "Mach IV Armor",
-        "construcao_3e": "Device Removable: Enhanced Strength 14, Enhanced Dexterity 8, Flight 8, Blast 9 (Explosion; Alternate Effect: Blast 6 (Autofire, Accurate 3)), Protection 10 (Impervious 5), Immunity 9 (Life Support). 72 PP na fonte.",
+        "construcao_3e": "Dispositivo Removível: Força Aumentada 8 (16 PP), Agilidade Aumentada 4 (8 PP), Voo 8 (16 PP), Rajada de Energia 9 (18 PP), Proteção 9 Impenetrável (18 PP). Total de traços: 76 PP. Removível (-21 PP) = 55 PP.",
         "custo_2e_pp": 72,
-        "custo_3e_pp": null
+        "custo_3e_pp": 55,
+        "nome_pt": "Armadura Mach IV"
       }
     ],
     "equipamento": [],
@@ -89,17 +90,16 @@
   },
   "custos_3e": {
     "habilidades": 56,
+    "poderes": 55,
     "defesas": 7,
     "pericias": 44,
     "vantagens": 11,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 118,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 173
   },
   "notas_conversao": [
     "Attack Focus (Melee) 4 convertido em Close Attack 4. Favored Environment (Airborne) convertido em Feature.",
     "A fonte registra ataque +12 com blaster. Com efeito Blast 9, seria acima do limite Ataque + Efeito 18 de NP 9; esse ataque foi reduzido a +9 para a versão Blast 9. O Blast 6 alternativo permanece +12.",
-    "Toughness 10 e Defense 15 (rank 5) são legais no limite NP 9."
+    "Toughness 10 e Defense 15 (rank 5) são legais no limite NP 9.",
+    "Poderes fechados em 3e: Armadura Mach IV convertida como Dispositivo Removível de 55 PP. Total 3e: 173 PP."
   ]
-}
+}

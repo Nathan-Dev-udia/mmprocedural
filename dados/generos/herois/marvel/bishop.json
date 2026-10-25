@@ -42,15 +42,15 @@
       "Especialidade: Sobrevivência": 8
     },
     "vantagens": [
-      "Accurate Attack",
-      "All-out Attack",
-      "Equipment 4",
-      "Improved Aim",
-      "Improved Initiative",
-      "Power Attack",
-      "Quick Draw",
-      "Tracking",
-      "Ultimate Effort (Ultimate Aim)"
+      "Ataque Acurado",
+      "Ataque Imprudente",
+      "Equipamento 4",
+      "Mira Aprimorada",
+      "Iniciativa Aprimorada",
+      "Ataque Poderoso",
+      "Saque Rápido",
+      "Rastrear",
+      "Esforço Supremo (Ultimate Aim)"
     ],
     "poderes": [
       {
@@ -105,4 +105,4 @@
     "Elusive Target não tem vantagem equivalente em 3e; a situação pode conceder cobertura conforme o guia. Quickdraw foi normalizada para Quick Draw.",
     "A fonte não lista complicações; nenhuma motivacao foi inferida."
   ]
-}
+}

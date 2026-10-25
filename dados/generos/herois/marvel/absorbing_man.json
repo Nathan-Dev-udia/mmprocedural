@@ -41,13 +41,13 @@
       "Combate Corpo-a-Corpo: Desarmado": 1
     },
     "vantagens": [
-      "All-out Attack",
-      "Daze (Intimidation)",
-      "Diehard",
-      "Improved Critical (Ball and Chain) 2",
-      "Improved Grab",
-      "Improved Hold",
-      "Power Attack"
+      "Ataque Imprudente",
+      "Tontear (Intimidation)",
+      "Duro de Matar",
+      "Crítico Aprimorado (Ball and Chain) 2",
+      "Agarrar Aprimorado",
+      "Imobilizar Aprimorado",
+      "Ataque Poderoso"
     ],
     "poderes": [
       {
@@ -66,7 +66,8 @@
         "nome": "Regeneration",
         "construcao_3e": "Regeneration 7; o efeito Resurrection foi convertido separadamente em Immortality 1.",
         "custo_2e_pp": 7,
-        "custo_3e_pp": 9
+        "custo_3e_pp": 9,
+        "nome_pt": "Regeneração"
       },
       {
         "nome": "Stunning Attack",
@@ -121,4 +122,4 @@
     "poderes_pendentes": true,
     "total": null
   }
-}
+}

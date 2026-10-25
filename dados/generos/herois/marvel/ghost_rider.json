@@ -41,28 +41,30 @@
       "Combate à Distância: Ataques gerais": 5
     },
     "vantagens": [
-      "All-out Attack",
-      "Close Attack 2 (Melee)",
-      "Chokehold",
-      "Equipment 1",
-      "Move-by Action",
-      "Power Attack",
-      "Skill Mastery (Vehicles, Intimidation, Expertise, Insight)",
-      "Startle",
-      "Weapon Bind"
+      "Ataque Imprudente",
+      "Ataque Corpo-a-Corpo 2 (Corpo a Corpo)",
+      "Estrangular",
+      "Equipamento 1",
+      "Ação em Movimento",
+      "Ataque Poderoso",
+      "Maestria em Perícia (Vehicles, Intimidation, Expertise, Insight)",
+      "Assustar",
+      "Prender Arma"
     ],
     "poderes": [
       {
         "nome": "Enhanced Strength",
         "construcao_3e": "Enhanced Trait: Strength 11 (para elevar o valor base 1 ao valor final 12).",
         "custo_2e_pp": 22,
-        "custo_3e_pp": 22
+        "custo_3e_pp": 22,
+        "nome_pt": "Força Aumentada"
       },
       {
         "nome": "Enhanced Constitution",
         "construcao_3e": "Enhanced Trait: Stamina 9 (para elevar o valor base 3 ao valor final 12).",
         "custo_2e_pp": 18,
-        "custo_3e_pp": 18
+        "custo_3e_pp": 18,
+        "nome_pt": "Vigor Aumentado"
       },
       {
         "nome": "Hell Bike",
@@ -80,25 +82,29 @@
         "nome": "Hellfire Control",
         "construcao_3e": "Ranged Damage array 10, Affects Insubstantial.",
         "custo_2e_pp": 21,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Controle de Fogo Infernal"
       },
       {
         "nome": "Immunity",
         "construcao_3e": "Immunity 9 (Life Support).",
         "custo_2e_pp": 9,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Imunidade"
       },
       {
         "nome": "Emotion Control",
         "construcao_3e": "Affliction 12 (Despair; One Emotion; Sense-dependent: sight).",
         "custo_2e_pp": 6,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Controle Emocional"
       },
       {
         "nome": "Super Senses",
         "construcao_3e": "Senses 5 (Extended 4, Detect Evil).",
         "custo_2e_pp": 5,
-        "custo_3e_pp": 5
+        "custo_3e_pp": 5,
+        "nome_pt": "Super-Sentidos"
       }
     ],
     "equipamento": [
@@ -158,4 +164,4 @@
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
     "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
   ]
-}
+}

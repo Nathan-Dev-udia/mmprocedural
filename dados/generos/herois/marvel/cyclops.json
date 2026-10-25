@@ -39,16 +39,16 @@
       "Combate à Distância: Ataques gerais": 6
     },
     "vantagens": [
-      "All-out Attack",
-      "Assessment",
-      "Equipment 1",
-      "Defensive Roll 2",
-      "Inspire 4",
-      "Luck",
-      "Leadership",
-      "Power Attack",
-      "Teamwork 2",
-      "Ultimate Effort (Ultimate Will Resistance)"
+      "Ataque Imprudente",
+      "Avaliação",
+      "Equipamento 1",
+      "Rolamento Defensivo 2",
+      "Inspirar 4",
+      "Sorte",
+      "Liderança",
+      "Ataque Poderoso",
+      "Trabalho em Equipe 2",
+      "Esforço Supremo (Ultimate Will Resistance)"
     ],
     "poderes": [
       {
@@ -61,7 +61,8 @@
         "nome": "Immunity",
         "construcao_3e": "Immunity 1 (Havok's powers).",
         "custo_2e_pp": 1,
-        "custo_3e_pp": 1
+        "custo_3e_pp": 1,
+        "nome_pt": "Imunidade"
       },
       {
         "nome": "Visor",
@@ -111,4 +112,4 @@
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
     "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
   ]
-}
+}

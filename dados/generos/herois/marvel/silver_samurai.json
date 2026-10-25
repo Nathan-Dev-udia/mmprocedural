@@ -42,41 +42,44 @@
       "Combate Corpo-a-Corpo: Desarmado": 1
     },
     "vantagens": [
-      "Accurate Attack",
-      "Contacts",
-      "Connected",
-      "Defensive Attack",
-      "Daze [Intimidate]",
-      "Equipment 3",
-      "Improved Defense",
-      "Improved Initiative 2",
+      "Ataque Acurado",
+      "Contatos",
+      "Bem Relacionado",
+      "Ataque Defensivo",
+      "Tontear [Intimidate]",
+      "Equipamento 3",
+      "Defesa Aprimorada",
+      "Iniciativa Aprimorada 2",
       "Improved Sunder",
-      "Improved Trip",
-      "Instant Up",
-      "Power Attack",
+      "Derrubar Aprimorado",
+      "De Pé",
+      "Ataque Poderoso",
       "Quickdraw",
-      "Startle",
-      "Uncanny Dodge [Hearing]",
-      "Languages 1"
+      "Assustar",
+      "Esquiva Fabulosa [Audição]",
+      "Idiomas 1"
     ],
     "poderes": [
       {
         "nome": "Enhanced Strength",
         "construcao_3e": "Enhanced Trait: Strength 5 (para elevar o valor base 3 ao valor final 8).",
         "custo_2e_pp": 10,
-        "custo_3e_pp": 10
+        "custo_3e_pp": 10,
+        "nome_pt": "Força Aumentada"
       },
       {
         "nome": "Strike",
         "construcao_3e": "Damage (rank 2e 8); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Strike 8 (Extras: Penetrating [+1], Auto- Fire [+1]; Flaw: Requires a Sword [-1]; Alternate Powers: Corrosion; Power Feats: Improved Critical (4); 21pp) Componentes/efeitos alternativos mapeados: Corrosion → Weaken Toughness ligado a Damage.; custo 2e impresso 21 PP.",
         "custo_2e_pp": 21,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Golpe"
       },
       {
         "nome": "Super Strength",
         "construcao_3e": "Power-Lifting 3.",
         "custo_2e_pp": 6,
-        "custo_3e_pp": 3
+        "custo_3e_pp": 3,
+        "nome_pt": "Super-Força"
       }
     ],
     "equipamento": [
@@ -139,4 +142,4 @@
     "Subtotal 3e conhecido: 66 PP em habilidades, 79 em perícias, 42 em defesas, 19 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
     "Correção de custo: as perícias somam 79 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 79 para 39.5 PP (subtotal e totais ajustados em -39.5)."
   ]
-}
+}

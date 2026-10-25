@@ -5,7 +5,7 @@
   "nome_pt": "Elixir",
   "nivel_poder": 10,
   "pontos_poder_origem": 135,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 134,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -40,20 +40,21 @@
       "Combate à Distância: Ataques gerais": 2
     },
     "vantagens": [
-      "Great Endurance 2",
-      "Equipment 1",
-      "Die Hard",
-      "Improved Defense 2",
-      "Teamwork 3",
-      "Ultimate Effort (Ultimate Toughness Resistance)",
-      "Ultimate Effort (Ultimate Power Check)"
+      "Tolerância Maior 2",
+      "Equipamento 1",
+      "Duro de Matar",
+      "Defesa Aprimorada 2",
+      "Trabalho em Equipe 3",
+      "Esforço Supremo (Resistência a Dano)",
+      "Esforço Supremo (Teste de Poder)"
     ],
     "poderes": [
       {
         "nome": "Healing",
-        "construcao_3e": "Healing 10 (Persistent, Regrowth, Total, Standard Action).",
+        "construcao_3e": "Healing 10 (Total [+1/rank], Persistent [1 flat], Regrowth [1 flat]; Ação Padrão base 3e). Custo: 32 PP.",
         "custo_2e_pp": 42,
-        "custo_3e_pp": null
+        "custo_3e_pp": 32,
+        "nome_pt": "Cura"
       }
     ],
     "equipamento": [],
@@ -75,18 +76,17 @@
   },
   "custos_3e": {
     "habilidades": 36,
+    "poderes": 32,
     "defesas": 33,
     "pericias": 22,
     "vantagens": 11,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 102,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 134
   },
   "notas_conversao": [
     "A fonte não imprime Toughness de modo legível; a linha indica +6 seguido de Fortitude +10, Reflex +5 e Will +6, então Resistência 6 foi usada. Dodge Focus 6 e Defesa 24 foram limitados para respeitar NP 10. Attack Specialization (Touch) 3 foi representada por Close Attack 3; a fonte não detalha ataque separado para Healing.",
     "Defesas ajustadas para Esquiva 14 e Aparar 14, respeitando os limites de NP 10 com Resistência 6.",
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
-    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados.",
+    "Poderes fechados em 3e: Healing 10 com Total, Persistent e Regrowth (32 PP). Total 3e: 134 PP."
   ]
-}
+}

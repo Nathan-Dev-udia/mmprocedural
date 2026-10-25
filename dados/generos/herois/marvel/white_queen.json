@@ -45,18 +45,19 @@
       "Combate a Distância: Mental Blast": 8
     },
     "vantagens": [
-      "Attractive 2",
-      "Benefit [Wealth 3] 3",
-      "Equipment 7",
-      "Leadership",
-      "Second Chance [Bluff]"
+      "Atraente 2",
+      "Benefício [Wealth 3] 3",
+      "Equipamento 7",
+      "Liderança",
+      "Segunda Chance [Bluff]"
     ],
     "poderes": [
       {
         "nome": "Telepathy",
         "construcao_3e": "Mind Reading + Mental Communication (rank 2e 10); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Telepathy 10 (Dynamic; Extras: Free Action [+2], Comprehend (2); Power Feat: Subtle; Alternate Powers: ESP [Telepathy] – Dynamic, Mental Blast 10 – Dynamic, Mind Shield – Dynamic, Astral Form 11 [Dimensional] – Dynamic, Emotion Control 10 – Dynamic, Free Action Phantasm Illusion [All Senses] 10 – Dynamic, Alternate Form [Solid] 11; 57pp) Componentes/efeitos alternativos mapeados: Blast → Damage à distância; Emotion Control → Affliction resistida por Vontade; Mind Shield → Enhanced Will/Impervious ou Immunity conforme descritores.; custo 2e impresso 57 PP.",
         "custo_2e_pp": 57,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Telepatia"
       }
     ],
     "equipamento": [
@@ -112,4 +113,4 @@
     "Subtotal 3e conhecido: 44 PP em habilidades, 105 em perícias, 22 em defesas, 14 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
     "Correção de custo: as perícias somam 105 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 105 para 52.5 PP (subtotal e totais ajustados em -52.5)."
   ]
-}
+}

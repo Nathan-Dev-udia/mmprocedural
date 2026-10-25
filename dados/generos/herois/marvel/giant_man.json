@@ -46,14 +46,14 @@
       "Intuição": 6
     },
     "vantagens": [
-      "All-out Attack",
-      "Close Attack 5 (Melee)",
-      "Equipment 1",
-      "Improved Grab",
-      "Improved Hold",
+      "Ataque Imprudente",
+      "Ataque Corpo-a-Corpo 5 (Corpo a Corpo)",
+      "Equipamento 1",
+      "Agarrar Aprimorado",
+      "Imobilizar Aprimorado",
       "Inventor",
-      "Power Attack",
-      "Startle"
+      "Ataque Poderoso",
+      "Assustar"
     ],
     "poderes": [
       {
@@ -66,13 +66,15 @@
         "nome": "Growth",
         "construcao_3e": "Growth 12 (Linked to Enhanced Strength 24 and Enhanced Stamina 12); Alternate Effect: Shrinking 16 (Normal Strength).",
         "custo_2e_pp": 38,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Crescimento"
       },
       {
         "nome": "Super Strength",
         "construcao_3e": "Enhanced Strength 3, Linked to Growth; Ground Strike.",
         "custo_2e_pp": 7,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Super-Força"
       }
     ],
     "equipamento": [
@@ -96,12 +98,12 @@
     }
   },
   "custos_3e": {
-    "habilidades": 52,
+    "habilidades": 46,
     "defesas": 33,
     "pericias": 61.5,
     "vantagens": 12,
     "poderes_conhecidos": 0,
-    "subtotal_conhecido": 158.5,
+    "subtotal_conhecido": 152.5,
     "poderes_pendentes": true,
     "total": null
   },
@@ -109,6 +111,7 @@
     "Ataque corpo a corpo +3 foi convertido em Fighting -2 mais Close Attack 5, com +13 de dano. Dodge Focus 3 foi convertido em Esquiva; Esquiva/Aparar foram limitadas para cumprir NP 10. Notice e Sense Motive têm bônus totais +5, que resultam em 6 graduações quando se subtrai Awareness -1.",
     "Defesas ajustadas para Esquiva 10 e Aparar 10, respeitando os limites de NP 10 com Resistência 10.",
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
-    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados.",
+    "Custo de habilidades corrigido para 46 PP (regra oficial M&M 3e p. 56: graduações abaixo de 0 reembolsam 2 PP por -1)."
   ]
-}
+}

@@ -41,16 +41,16 @@
       "Combate Corpo-a-Corpo: Desarmado": 1
     },
     "vantagens": [
-      "All-Out Attack",
-      "Defensive Attack",
-      "Equipment",
-      "Improved Defense 2",
-      "Improved Defense",
-      "Interpose",
-      "Power Attack",
-      "Taunt",
-      "Takedown",
-      "Teamwork"
+      "Ataque Imprudente",
+      "Ataque Defensivo",
+      "Equipamento",
+      "Defesa Aprimorada 2",
+      "Defesa Aprimorada",
+      "Interpor-se",
+      "Ataque Poderoso",
+      "Zombar",
+      "Ataque Dominó",
+      "Trabalho em Equipe"
     ],
     "poderes": [
       {
@@ -63,25 +63,29 @@
         "nome": "Enhanced Strength",
         "construcao_3e": "Enhanced Trait: Strength 5.",
         "custo_2e_pp": 10,
-        "custo_3e_pp": 10
+        "custo_3e_pp": 10,
+        "nome_pt": "Força Aumentada"
       },
       {
         "nome": "Enhanced Constitution",
         "construcao_3e": "Enhanced Trait: Stamina 7.",
         "custo_2e_pp": 14,
-        "custo_3e_pp": 14
+        "custo_3e_pp": 14,
+        "nome_pt": "Vigor Aumentado"
       },
       {
         "nome": "Growth",
         "construcao_3e": "Growth (rank 2e 4); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Growth 4 (+8 Strength, +4 Constitution; 12pp); custo 2e impresso 12 PP.",
         "custo_2e_pp": 12,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Crescimento"
       },
       {
         "nome": "Super Strength",
         "construcao_3e": "Power-Lifting 3.",
         "custo_2e_pp": 6,
-        "custo_3e_pp": 3
+        "custo_3e_pp": 3,
+        "nome_pt": "Super-Força"
       }
     ],
     "equipamento": [
@@ -136,4 +140,4 @@
     "Subtotal 3e conhecido: 68 PP em habilidades, 55 em perícias, 39 em defesas, 11 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
     "Correção de custo: as perícias somam 55 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 55 para 27.5 PP (subtotal e totais ajustados em -27.5)."
   ]
-}
+}

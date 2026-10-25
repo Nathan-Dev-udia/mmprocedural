@@ -5,7 +5,7 @@
   "nome_pt": "Tag",
   "nivel_poder": 8,
   "pontos_poder_origem": 120,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 120.5,
   "status_conversao": "convertida",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -39,23 +39,24 @@
       "Furtividade": 8
     },
     "vantagens": [
-      "All-Out Attack",
-      "Defensive Attack",
-      "Equipment",
-      "Improved Initiative 2",
-      "Inspire 2",
-      "Power Attack",
-      "Set Up",
-      "Takedown",
-      "Teamwork 3",
-      "Languages 1"
+      "Ataque Imprudente",
+      "Ataque Defensivo",
+      "Equipamento",
+      "Iniciativa Aprimorada 2",
+      "Inspirar 2",
+      "Ataque Poderoso",
+      "Armação",
+      "Ataque Dominó",
+      "Trabalho em Equipe 3",
+      "Idiomas 1"
     ],
     "poderes": [
       {
         "nome": "Mind Control",
-        "construcao_3e": "Mind Control (rank 2e 8); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Mind Control 8 (Extra: Burst Area [+1]; Flaw: One Command – Run Away From Target; Power Feat: Indirect; Alternate Power: Mind Control 8 (Extra: Burst Area [+1]; Flaw: One Command – Run Toward Target; Power Feat: Indirect); 18pp); custo 2e impresso 18 PP.",
+        "construcao_3e": "Affliction 8 (Resisted and Overcome by Will; Dazed, Compelled, Controlled; Burst Area [+1/rank], Limited to One Command: Run Away [-1/rank], Indirect [1 flat]; 17 PP); Alternate Effect: Affliction 8 (Burst Area, Limited to One Command: Run Toward, Indirect; 1 PP). Total: 18 PP.",
         "custo_2e_pp": 18,
-        "custo_3e_pp": null
+        "custo_3e_pp": 18,
+        "nome_pt": "Controle Mental"
       }
     ],
     "equipamento": [
@@ -79,13 +80,11 @@
   },
   "custos_3e": {
     "habilidades": 42,
+    "poderes": 18,
     "defesas": 15,
     "pericias": 31.5,
     "vantagens": 14,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 102.5,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 120.5
   },
   "notas_conversao": [
     "Atributos derivados dos modificadores impressos usando o guia: Força/Vigor/Intelecto/Prontidão/Presença diretos; Agilidade = menor entre Destreza e Defesa; Destreza = menor entre Destreza e ataque à distância disponível; Luta = menor entre ataque corpo a corpo e Defesa.",
@@ -95,6 +94,7 @@
     "Idiomas adicionais descritos na fonte foram convertidos em Languages 1, usando a progressão da vantagem 3e.",
     "Vantagens sem equivalente direto foram removidas conforme o guia; não foram recriadas como poderes: Elusive Target; Sneak Attack.",
     "Subtotal 3e conhecido: 42 PP em habilidades, 63 em perícias, 37 em defesas, 14 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
-    "Correção de custo: as perícias somam 63 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 63 para 31.5 PP (subtotal e totais ajustados em -31.5)."
+    "Correção de custo: as perícias somam 63 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 63 para 31.5 PP (subtotal e totais ajustados em -31.5).",
+    "Poderes fechados em 3e: Mind Control convertido em Aflição em Área com comando único e efeito alternativo (18 PP). Total 3e: 120.5 PP."
   ]
-}
+}

@@ -40,27 +40,30 @@
       "Combate à Distância: Ataques gerais": 3
     },
     "vantagens": [
-      "Startle",
-      "Teamwork"
+      "Assustar",
+      "Trabalho em Equipe"
     ],
     "poderes": [
       {
         "nome": "Blast",
         "construcao_3e": "Damage 10 (Shapeable Area, Concentration, Incurable).",
         "custo_2e_pp": 41,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Rajada de Energia"
       },
       {
         "nome": "Immunity",
         "construcao_3e": "Immunity 30 (Fortitude effects).",
         "custo_2e_pp": 30,
-        "custo_3e_pp": 30
+        "custo_3e_pp": 30,
+        "nome_pt": "Imunidade"
       },
       {
         "nome": "Telepathy / Communication",
         "construcao_3e": "Mind Reading 4; Alternate Effect: Mental Communication 8.",
         "custo_2e_pp": 9,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Telepatia / Communication"
       }
     ],
     "equipamento": [],
@@ -103,4 +106,4 @@
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
     "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
   ]
-}
+}

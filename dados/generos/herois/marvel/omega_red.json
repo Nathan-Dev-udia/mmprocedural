@@ -41,27 +41,28 @@
       "Especialidade: Criminoso": 7
     },
     "vantagens": [
-      "Benefit (Ambidextrous)",
-      "Chokehold",
-      "Contacts",
-      "Fearless",
-      "Fast Grab",
-      "Improved Grab",
-      "Improved Hold",
-      "Improved Trip",
-      "Improved Initiative",
-      "Minion 5 (10 Thugs)",
-      "Grabbing Finesse",
-      "Power Attack",
-      "Startle",
-      "Languages 1"
+      "Benefício (Ambidestro)",
+      "Estrangular",
+      "Contatos",
+      "Destemido",
+      "Agarrar Rápido",
+      "Agarrar Aprimorado",
+      "Imobilizar Aprimorado",
+      "Derrubar Aprimorado",
+      "Iniciativa Aprimorada",
+      "Capanga 5 (10 Thugs)",
+      "Agarrar Preciso",
+      "Ataque Poderoso",
+      "Assustar",
+      "Idiomas 1"
     ],
     "poderes": [
       {
         "nome": "Boost (Regeneration) 16",
         "construcao_3e": "Enhanced Trait (Regeneration), Personal Only; Triggered por um ataque Drain bem-sucedido; a fonte chama isso de Boost.",
         "custo_2e_pp": 9,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Impulso (Regeneration) 16"
       },
       {
         "nome": "Carbonadium Armor",
@@ -73,19 +74,22 @@
         "nome": "Immunity 1",
         "construcao_3e": "Immunity ao próprio poder.",
         "custo_2e_pp": 1,
-        "custo_3e_pp": 1
+        "custo_3e_pp": 1,
+        "nome_pt": "Imunidade 1"
       },
       {
         "nome": "Strike 5",
         "construcao_3e": "Damage 5, Mighty, Extended Range 4, Improved Critical.",
         "custo_2e_pp": 10,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Golpe 5"
       },
       {
         "nome": "Super-Strength 3",
         "construcao_3e": "Limited to tentacles.",
         "custo_2e_pp": 3,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Super-Força 3"
       },
       {
         "nome": "Transfer (Strength and Constitution) 8",
@@ -136,4 +140,4 @@
     "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +5/+4/+5/+1/+0/+0. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
     "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
   ]
-}
+}

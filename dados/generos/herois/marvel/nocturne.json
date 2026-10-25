@@ -5,7 +5,7 @@
   "nome_pt": "Nocturna",
   "nivel_poder": 10,
   "pontos_poder_origem": 135,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 149,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -40,30 +40,33 @@
       "Combate a Distância: Hex Bolts": 2
     },
     "vantagens": [
-      "Agile Feint",
-      "Defensive Roll 5",
-      "Hide in Plain Sight",
-      "Teamwork 3",
-      "Uncanny Dodge"
+      "Finta Ágil",
+      "Rolamento Defensivo 5",
+      "Esconder-se à Plena Vista",
+      "Trabalho em Equipe 3",
+      "Esquiva Fabulosa"
     ],
     "poderes": [
       {
         "nome": "Extra Limbs",
         "construcao_3e": "Extra Limbs 1.",
         "custo_2e_pp": 1,
-        "custo_3e_pp": 1
+        "custo_3e_pp": 1,
+        "nome_pt": "Cauda Preênsil"
       },
       {
         "nome": "Hellfire Control",
-        "construcao_3e": "Hellfire Control 8 baseado em Damage; Efeito Alternativo: Possession (Close). 17 PP na fonte.",
+        "construcao_3e": "Controle de Fogo Infernal 8 (Dano à Distância 8; 16 PP); Efeito Alternativo: Possessão (Aflição 8 ligada a Insubstancial 4; 1 PP). Array total: 17 PP.",
         "custo_2e_pp": 17,
-        "custo_3e_pp": null
+        "custo_3e_pp": 17,
+        "nome_pt": "Fogo Infernal e Possessão"
       },
       {
         "nome": "Movement",
         "construcao_3e": "Movement 2 (Wall-Crawling).",
         "custo_2e_pp": 4,
-        "custo_3e_pp": 4
+        "custo_3e_pp": 4,
+        "nome_pt": "Escalar Paredes"
       }
     ],
     "equipamento": [],
@@ -90,18 +93,17 @@
   },
   "custos_3e": {
     "habilidades": 74,
+    "poderes": 22,
     "defesas": 16,
     "pericias": 26,
     "vantagens": 11,
-    "poderes_conhecidos": 5,
-    "subtotal_conhecido": 132,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 149
   },
   "notas_conversao": [
     "Attack Specialization (Unarmed) e (Hex Bolts) sem graduação impressa convertidas em 2 ranks de Combat skill cada; o ataque do feitiço +12 com efeito 8 respeita NP 10.",
     "Dodge Focus 6 foi convertido em Dodge ranks e limitado a 14 com Toughness 6; Acrobatic Bluff virou Agile Feint.",
     "A fonte usa singular Additional Limb; convertido em Extra Limbs 1.",
-    "Dodge foi ajustada de 20 para 14 para cumprir Dodge + Toughness ≤ 20 (NP 10)."
+    "Dodge foi ajustada de 20 para 14 para cumprir Dodge + Toughness ≤ 20 (NP 10).",
+    "Poderes fechados em 3e: Fogo Infernal e Possessão fechados em 17 PP + Cauda (1 PP) + Escalada (4 PP) = 22 PP poderes. Total 3e: 149 PP."
   ]
-}
+}

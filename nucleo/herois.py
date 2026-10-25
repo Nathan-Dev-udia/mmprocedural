@@ -52,7 +52,7 @@ def _resumo_marvel(caminho, dados):
     return {"id": f"marvel/{caminho.stem}", "editora": "marvel", "nome": dados["nome"],
             "nome_pt": dados.get("nome_pt") if dados.get("nome_pt") != dados["nome"] else "",
             "np": dados.get("nivel_poder"), "pp": dados.get("pontos_poder_origem"), "pp_rotulo": "PP na 2ª edição",
-            "volume": "", "termos": [p["nome"] for p in dados["ficha"].get("poderes", [])]}
+            "volume": "", "termos": [t for p in dados["ficha"].get("poderes", []) for t in (p.get("nome"), p.get("nome_pt")) if t]}
 
 
 def _resumo_dc(caminho, dados):
@@ -95,7 +95,7 @@ def _texto_de(valor):
 
 def _secoes_marvel(dados):
     ficha = dados["ficha"]
-    poderes = [f"{p['nome']}: {p.get('construcao_3e', '')}".strip() for p in ficha.get("poderes", [])]
+    poderes = [f"{p.get('nome_pt') or p['nome']}: {p.get('construcao_3e', '')}".strip() for p in ficha.get("poderes", [])]
     ataques = [f"{a['nome']} {a['bonus']:+d}, Dano {a['dano']}" if isinstance(a.get("bonus"), int)
                else _texto_de(a) for a in ficha.get("ataques", [])]
     secoes = [("Defesas", [_texto_de(ficha.get("defesas", {}))]),

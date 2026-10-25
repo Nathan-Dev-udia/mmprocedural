@@ -38,16 +38,16 @@
       "Furtividade": 8
     },
     "vantagens": [
-      "Accurate Attack",
-      "All-out Attack",
-      "Attractive",
-      "Defensive Roll",
-      "Equipment",
-      "Improved Initiative",
-      "Precise Attack (Ranged, Cover) 2",
-      "Power Attack",
-      "Taunt",
-      "Teamwork 2"
+      "Ataque Acurado",
+      "Ataque Imprudente",
+      "Atraente",
+      "Rolamento Defensivo",
+      "Equipamento",
+      "Iniciativa Aprimorada",
+      "Ataque Preciso (À Distância, Cobertura) 2",
+      "Ataque Poderoso",
+      "Zombar",
+      "Trabalho em Equipe 2"
     ],
     "poderes": [
       {
@@ -66,7 +66,8 @@
         "nome": "Immunity 1",
         "construcao_3e": "Immunity ao próprios poderes.",
         "custo_2e_pp": 1,
-        "custo_3e_pp": 1
+        "custo_3e_pp": 1,
+        "nome_pt": "Imunidade 1"
       }
     ],
     "equipamento": [
@@ -117,4 +118,4 @@
     "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +1/+2/+1/+1/-1/+2. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
     "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
   ]
-}
+}

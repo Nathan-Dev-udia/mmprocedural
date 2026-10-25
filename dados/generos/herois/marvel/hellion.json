@@ -5,7 +5,7 @@
   "nome_pt": "Hellion",
   "nivel_poder": 10,
   "pontos_poder_origem": 135,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 148.5,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -40,25 +40,26 @@
       "Combate à Distância: Ataques gerais": 7
     },
     "vantagens": [
-      "All-out Attack",
-      "Defensive Attack",
-      "Equipment 1",
-      "Improved Defense",
-      "Improved Critical (Unarmed)",
-      "Improved Initiative 2",
-      "Improved Trip",
-      "Inspire",
-      "Instant Up",
-      "Move-by Action",
-      "Power Attack",
-      "Teamwork"
+      "Ataque Imprudente",
+      "Ataque Defensivo",
+      "Equipamento 1",
+      "Defesa Aprimorada",
+      "Crítico Aprimorado (Desarmado)",
+      "Iniciativa Aprimorada 2",
+      "Derrubar Aprimorado",
+      "Inspirar",
+      "De Pé",
+      "Ação em Movimento",
+      "Ataque Poderoso",
+      "Trabalho em Equipe"
     ],
     "poderes": [
       {
         "nome": "Telekinesis",
-        "construcao_3e": "Move Object 12 (Dynamic, Damaging); Alternate Effects: Flight and Force Field (Impervious).",
+        "construcao_3e": "Mover Objeto 12 (Dano, Dinâmico; 37 PP); Efeitos Alternativos Dinâmicos: Voo 6 Dinâmico (2 PP), Campo de Força 10 Impenetrável Dinâmico (2 PP). Array total: 41 PP.",
         "custo_2e_pp": 41,
-        "custo_3e_pp": null
+        "custo_3e_pp": 41,
+        "nome_pt": "Telecinese"
       }
     ],
     "equipamento": [
@@ -87,18 +88,17 @@
   },
   "custos_3e": {
     "habilidades": 36,
+    "poderes": 41,
     "defesas": 28,
     "pericias": 30.5,
     "vantagens": 13,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 107.5,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 148.5
   },
   "notas_conversao": [
     "Attack Specialization (Unarmed) 1 foi convertida em 2 graduações de Combate Corpo a Corpo: Desarmado. Sneak Attack e Ranged Pin foram removidas conforme o guia.",
     "Defesas ajustadas para Esquiva 14 e Aparar 14, respeitando os limites de NP 10 com Resistência 6.",
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
-    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados.",
+    "Poderes fechados em 3e: Array de Telecinese Dinâmica fechado em 41 PP. Total 3e: 148.5 PP."
   ]
-}
+}

@@ -36,42 +36,46 @@
       "Intuicao": 8
     },
     "vantagens": [
-      "All-out Attack",
-      "Chokehold",
-      "Daze (Intimidation)",
-      "Improved Defense",
-      "Improved Grab",
-      "Improved Initiative",
-      "Improved Hold",
-      "Power Attack",
-      "Taunt",
-      "Teamwork",
-      "Ultimate Effort (Ultimate Toughness)"
+      "Ataque Imprudente",
+      "Estrangular",
+      "Tontear (Intimidation)",
+      "Defesa Aprimorada",
+      "Agarrar Aprimorado",
+      "Iniciativa Aprimorada",
+      "Imobilizar Aprimorado",
+      "Ataque Poderoso",
+      "Zombar",
+      "Trabalho em Equipe",
+      "Esforço Supremo (Ultimate Toughness)"
     ],
     "poderes": [
       {
         "nome": "Density",
         "construcao_3e": "Growth 9 (Limited a mass/strength benefits; Protection 4 Impervious; Immovability), mantendo os efeitos listados na fonte.",
         "custo_2e_pp": 24,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Densidade"
       },
       {
         "nome": "Immovable",
         "construcao_3e": "Enhanced Trait: bônus para resistir a efeitos de movimento/trip, limitado conforme o guia.",
         "custo_2e_pp": 7,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Inamovível"
       },
       {
         "nome": "Protection",
         "construcao_3e": "Protection 6, Impervious (reduzida de 8 para respeitar o limite defensivo de NP 9).",
         "custo_2e_pp": 16,
-        "custo_3e_pp": 12
+        "custo_3e_pp": 12,
+        "nome_pt": "Proteção"
       },
       {
         "nome": "Super Strength",
         "construcao_3e": "Power-Lifting 5.",
         "custo_2e_pp": 25,
-        "custo_3e_pp": 5
+        "custo_3e_pp": 5,
+        "nome_pt": "Super-Força"
       }
     ],
     "equipamento": [],
@@ -108,4 +112,4 @@
     "poderes_pendentes": true,
     "total": null
   }
-}
+}

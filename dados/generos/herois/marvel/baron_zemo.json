@@ -5,7 +5,7 @@
   "nome_pt": "Barão Zemo",
   "nivel_poder": 10,
   "pontos_poder_origem": 165,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 190.5,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -44,31 +44,31 @@
       "Combate a Distancia: Adhesive X Blaster": 7
     },
     "vantagens": [
-      "Accurate Attack",
-      "Close Attack 3",
-      "Benefit (Status, Wealth) 2",
-      "Connected",
-      "Contacts",
-      "Defensive Attack",
-      "Equipment 6",
-      "Improved Defense",
-      "Improved Disarm",
-      "Improved Initiative 2",
-      "Inspire 4",
+      "Ataque Acurado",
+      "Ataque Corpo-a-Corpo 3",
+      "Benefício (Status, Riqueza) 2",
+      "Bem Relacionado",
+      "Contatos",
+      "Ataque Defensivo",
+      "Equipamento 6",
+      "Defesa Aprimorada",
+      "Desarmar Aprimorado",
+      "Iniciativa Aprimorada 2",
+      "Inspirar 4",
       "Inventor",
-      "Languages 3 (English, Italian, Russian, French; native German)",
-      "Luck",
-      "Minion 5 (10 Soldiers)",
-      "Power Attack",
-      "Uncanny Dodge (Hearing)",
-      "Well-informed"
+      "Idiomas 3 (English, Italian, Russian, French; native German)",
+      "Sorte",
+      "Capanga 5 (10 Soldiers)",
+      "Ataque Poderoso",
+      "Esquiva Fabulosa (Audição)",
+      "Bem Informado"
     ],
     "poderes": [
       {
         "nome": "Adhesive X Blaster",
-        "construcao_3e": "Device removível: Snare 10 (Affliction; Ranged), com as condicoes de imobilizacao do efeito.",
+        "construcao_3e": "Device (facilmente removível): Snare 10 (Ranged Affliction 10, resistida por Esquiva; Impedido/Vulnerável, Indefeso/Imobilizado; Condição Extra, Grau Limitado; 20 PP). Facilmente removível (-8 PP) = 12 PP.",
         "custo_2e_pp": 12,
-        "custo_3e_pp": null
+        "custo_3e_pp": 12
       }
     ],
     "equipamento": [
@@ -106,16 +106,15 @@
     "Languages (English, Italian, Russian, French; Base: German) foi convertido em Idiomas 3, escolhendo a graduação mais próxima para cinco idiomas no total.",
     "Master Plan foi convertido em Inspire, que já consta na ficha; Sneak Attack foi omitida por não ter equivalência direta segura e por poder exceder o limite de NP. Improved Block virou Improved Defense.",
     "O Blaster foi convertido em Snare; os 12 PP impressos são custo 2e e não foram reutilizados como custo 3e.",
-    "A fonte não lista complicações; nenhuma motivacao foi inferida."
+    "A fonte não lista complicações; nenhuma motivacao foi inferida.",
+    "Poderes fechados em 3e: Adhesive X Blaster convertido como Snare 10 facilmente removível (12 PP). Total 3e: 190.5 PP."
   ],
   "custos_3e": {
     "habilidades": 70,
+    "poderes": 12,
     "defesas": 19,
     "pericias": 53.5,
     "vantagens": 36,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 178.5,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 190.5
   }
-}
+}

@@ -42,28 +42,30 @@
       "Especialidade: Sobrevivência": 13
     },
     "vantagens": [
-      "All-out Attack",
-      "Chokehold",
-      "Daze (Intimidation)",
-      "Defensive Roll 2",
-      "Improved Critical (Claws) 2",
-      "Improved Defense",
-      "Power Attack",
-      "Startle",
-      "Takedown"
+      "Ataque Imprudente",
+      "Estrangular",
+      "Tontear (Intimidation)",
+      "Rolamento Defensivo 2",
+      "Crítico Aprimorado (Claws) 2",
+      "Defesa Aprimorada",
+      "Ataque Poderoso",
+      "Assustar",
+      "Ataque Dominó"
     ],
     "poderes": [
       {
         "nome": "Immunity 1",
         "construcao_3e": "Immunity to aging.",
         "custo_2e_pp": 1,
-        "custo_3e_pp": 1
+        "custo_3e_pp": 1,
+        "nome_pt": "Imunidade 1"
       },
       {
         "nome": "Protection 4",
         "construcao_3e": "Protection 4, Innate.",
         "custo_2e_pp": 5,
-        "custo_3e_pp": 5
+        "custo_3e_pp": 5,
+        "nome_pt": "Proteção 4"
       },
       {
         "nome": "Mental Shield 5",
@@ -75,19 +77,22 @@
         "nome": "Strike 4",
         "construcao_3e": "Mighty, Penetrating; Alternate Effect: Strike 4, Autofire.",
         "custo_2e_pp": 13,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Golpe 4"
       },
       {
         "nome": "Super-Senses 7",
         "construcao_3e": "Scent (Extended, Accurate), Tracking, Dark Vision.",
         "custo_2e_pp": 7,
-        "custo_3e_pp": 7
+        "custo_3e_pp": 7,
+        "nome_pt": "Super-Sentidos 7"
       },
       {
         "nome": "Regeneration 29",
         "construcao_3e": "Recovery Rate 17, marcos de recuperação listados, Ability Damage 5, Resurrection 4, Regrowth.",
         "custo_2e_pp": 30,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Regeneração 29"
       }
     ],
     "equipamento": [],
@@ -132,4 +137,4 @@
     "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +6/+3/+6/+2/+3/-1. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
     "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
   ]
-}
+}

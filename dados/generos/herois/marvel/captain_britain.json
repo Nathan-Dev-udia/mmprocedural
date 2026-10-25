@@ -39,41 +39,45 @@
       "Combate à Distância: Ataques gerais": 8
     },
     "vantagens": [
-      "Accurate Attack",
-      "Attractive",
-      "Benefit (Wealth 2, Status) 3",
-      "Defensive Attack",
-      "Equipment 4",
-      "Improved Disarm",
-      "Improved Initiative",
-      "Inspire 4",
-      "Leadership",
-      "Power Attack"
+      "Ataque Acurado",
+      "Atraente",
+      "Benefício (Wealth 2, Status) 3",
+      "Ataque Defensivo",
+      "Equipamento 4",
+      "Desarmar Aprimorado",
+      "Iniciativa Aprimorada",
+      "Inspirar 4",
+      "Liderança",
+      "Ataque Poderoso"
     ],
     "poderes": [
       {
         "nome": "Enhanced Strength",
         "construcao_3e": "Enhanced Trait: Strength 10 (para elevar o valor base 2 ao valor final 12).",
         "custo_2e_pp": 20,
-        "custo_3e_pp": 20
+        "custo_3e_pp": 20,
+        "nome_pt": "Força Aumentada"
       },
       {
         "nome": "Flight",
         "construcao_3e": "Flight 6.",
         "custo_2e_pp": 12,
-        "custo_3e_pp": 12
+        "custo_3e_pp": 12,
+        "nome_pt": "Voo"
       },
       {
         "nome": "Protection",
         "construcao_3e": "Protection 10, Impervious.",
         "custo_2e_pp": 20,
-        "custo_3e_pp": 20
+        "custo_3e_pp": 20,
+        "nome_pt": "Proteção"
       },
       {
         "nome": "Super Strength",
         "construcao_3e": "Power-Lifting 5.",
         "custo_2e_pp": 10,
-        "custo_3e_pp": 5
+        "custo_3e_pp": 5,
+        "nome_pt": "Super-Força"
       }
     ],
     "equipamento": [
@@ -122,4 +126,4 @@
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
     "habilidades_base registra For 2 (sem Enhanced Strength 10); os custos 3e somam 170 PP (48 habilidades base + 57 poderes + 19 defesas + 28 perícias + 18 vantagens)."
   ]
-}
+}

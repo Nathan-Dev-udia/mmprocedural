@@ -39,47 +39,51 @@
       "Combate a Distância: Blast": 9
     },
     "vantagens": [
-      "Accurate Attack",
-      "Defensive Attack",
-      "Defensive Roll 2",
-      "Daze [Intimidate]",
-      "Equipment",
-      "Improved Defense",
-      "Improved Initiative 2",
+      "Ataque Acurado",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 2",
+      "Tontear [Intimidate]",
+      "Equipamento",
+      "Defesa Aprimorada",
+      "Iniciativa Aprimorada 2",
       "Improved Sunder",
-      "Improved Trip",
-      "Instant Up",
+      "Derrubar Aprimorado",
+      "De Pé",
       "Move By-Action",
-      "Power Attack",
+      "Ataque Poderoso",
       "Quickdraw",
-      "Startle",
-      "Uncanny Dodge [Hearing]",
-      "Languages 1"
+      "Assustar",
+      "Esquiva Fabulosa [Audição]",
+      "Idiomas 1"
     ],
     "poderes": [
       {
         "nome": "Flight",
         "construcao_3e": "Flight 6.",
         "custo_2e_pp": 12,
-        "custo_3e_pp": 12
+        "custo_3e_pp": 12,
+        "nome_pt": "Voo"
       },
       {
         "nome": "Immunity",
         "construcao_3e": "Immunity 5 (Radiation).",
         "custo_2e_pp": 5,
-        "custo_3e_pp": 5
+        "custo_3e_pp": 5,
+        "nome_pt": "Imunidade"
       },
       {
         "nome": "Strike",
         "construcao_3e": "Damage (rank 2e 10); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Strike 10 (Dynamic; Extra: Aura [+1]; Alternate Power: Blast –Dynamic; 23pp) Componentes/efeitos alternativos mapeados: Blast → Damage à distância.; custo 2e impresso 23 PP.",
         "custo_2e_pp": 23,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Golpe"
       },
       {
         "nome": "Super Senses",
         "construcao_3e": "Senses 1 (Infravision).",
         "custo_2e_pp": 1,
-        "custo_3e_pp": 1
+        "custo_3e_pp": 1,
+        "nome_pt": "Super-Sentidos"
       }
     ],
     "equipamento": [
@@ -132,4 +136,4 @@
     "Subtotal 3e conhecido: 38 PP em habilidades, 68 em perícias, 48 em defesas, 18 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
     "Correção de custo: as perícias somam 68 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 68 para 34 PP (subtotal e totais ajustados em -34)."
   ]
-}
+}

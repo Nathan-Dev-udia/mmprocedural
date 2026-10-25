@@ -5,7 +5,7 @@
   "nome_pt": "Punho de Ferro",
   "nivel_poder": 10,
   "pontos_poder_origem": 150,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 164,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -40,28 +40,29 @@
       "Furtividade": 12
     },
     "vantagens": [
-      "Accurate Attack",
-      "Agile Feint",
-      "Defensive Attack",
-      "Defensive Roll",
-      "Improved Defense",
-      "Improved Critical: Iron Fist 3",
-      "Improved Disarm",
-      "Fast Grab",
-      "Improved Initiative 2",
-      "Improved Hold",
-      "Improved Trip",
-      "Luck",
-      "Power Attack",
-      "Takedown",
-      "Uncanny Dodge"
+      "Ataque Acurado",
+      "Finta Ágil",
+      "Ataque Defensivo",
+      "Rolamento Defensivo",
+      "Defesa Aprimorada",
+      "Crítico Aprimorado: Iron Fist 3",
+      "Desarmar Aprimorado",
+      "Agarrar Rápido",
+      "Iniciativa Aprimorada 2",
+      "Imobilizar Aprimorado",
+      "Derrubar Aprimorado",
+      "Sorte",
+      "Ataque Poderoso",
+      "Ataque Dominó",
+      "Esquiva Fabulosa"
     ],
     "poderes": [
       {
         "nome": "Strike / Boost / Super-Senses / Healing / Telepathy",
-        "construcao_3e": "Strike 2 (Penetrating 6, Side Effect: Fatigued, Mighty); Alternate Effects: Boost Strength 4, Boost Dexterity, Senses, Healing (1-minute action), Telepathy 6 (Close). 10 PP na fonte.",
+        "construcao_3e": "Golpe 2 (Penetrante 6, Efeito Colateral: Fatigado, baseado em Força); Efeitos Alternativos: Força Aumentada 4, Agilidade Aumentada, Sentidos, Cura (Ação de 1 minuto), Telepatia 6 (Curto alcance). Custo do array: 10 PP.",
         "custo_2e_pp": 10,
-        "custo_3e_pp": null
+        "custo_3e_pp": 10,
+        "nome_pt": "Punho de Ferro / Canalização de Chi"
       }
     ],
     "equipamento": [],
@@ -88,18 +89,17 @@
   },
   "custos_3e": {
     "habilidades": 70,
+    "poderes": 10,
     "defesas": 23,
     "pericias": 43,
     "vantagens": 18,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 154,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 164
   },
   "notas_conversao": [
     "Acrobatic Bluff virou Agile Feint; Improved Grapple virou Fast Grab; Improved Pin virou Improved Hold; Takedown Attack virou Takedown. Stunning Attack não tem equivalente direto e foi omitida. Concentration 12 (+17) não tem perícia 3e independente.",
     "Dodge Focus 8 foi convertido em graduações de Dodge; Dodge 15 + Toughness 5 respeita NP 10.",
     "O poder Strike da fonte é rank 2, mas os danos impressos dos ataques são preservados como bônus de dano; a construção e seus custos em 3e permanecem pendentes.",
-    "Dodge foi ajustada de 23 para 15 para cumprir Dodge + Toughness ≤ 20 (NP 10)."
+    "Dodge foi ajustada de 23 para 15 para cumprir Dodge + Toughness ≤ 20 (NP 10).",
+    "Poderes fechados em 3e: Array de Punho de Ferro e Chi precificado em 10 PP (preserva o custo original da fonte). Total 3e: 164 PP."
   ]
-}
+}

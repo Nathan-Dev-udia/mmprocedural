@@ -41,13 +41,13 @@
       "Combate a Distância: Line Area Blast": 8
     },
     "vantagens": [
-      "Accurate Attack",
-      "Assessment",
-      "Attractive",
-      "Benefit: Wealth 3",
+      "Ataque Acurado",
+      "Avaliação",
+      "Atraente",
+      "Benefício: Wealth 3",
       "Inventor",
-      "Power Attack",
-      "Teamwork"
+      "Ataque Poderoso",
+      "Trabalho em Equipe"
     ],
     "poderes": [
       {
@@ -100,4 +100,4 @@
     "A fonte trata todo o conjunto como Device 22, mas registra o custo do conjunto como 88 PP; ambos foram preservados.",
     "Dodge foi ajustada de 16 para 10 para cumprir Dodge + Toughness ≤ 24 (NP 12)."
   ]
-}
+}

@@ -43,19 +43,19 @@
       "Especialidade: Tática": 8
     },
     "vantagens": [
-      "Accurate Attack",
-      "All-out Attack",
-      "Assessment",
-      "Chokehold",
-      "Equipment 11",
-      "Improved Disarm 2",
-      "Improved Initiative",
-      "Fast Grab",
-      "Improved Trip",
-      "Inspire",
-      "Power Attack",
-      "Precise Attack (Ranged, Cover)",
-      "Well-informed"
+      "Ataque Acurado",
+      "Ataque Imprudente",
+      "Avaliação",
+      "Estrangular",
+      "Equipamento 11",
+      "Desarmar Aprimorado 2",
+      "Iniciativa Aprimorada",
+      "Agarrar Rápido",
+      "Derrubar Aprimorado",
+      "Inspirar",
+      "Ataque Poderoso",
+      "Ataque Preciso (À Distância, Cobertura)",
+      "Bem Informado"
     ],
     "poderes": [],
     "equipamento": [
@@ -118,4 +118,4 @@
     "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +3/+3/+3/+1/+0/+0. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
     "Os custos 3e somam 172 PP (54 habilidades base + 0 poderes + 51 defesas + 43 perícias + 24 vantagens)."
   ]
-}
+}

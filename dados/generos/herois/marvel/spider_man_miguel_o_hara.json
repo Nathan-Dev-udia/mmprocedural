@@ -44,33 +44,36 @@
       "Furtividade": 8
     },
     "vantagens": [
-      "Agile Feint",
-      "All-Out Attack",
-      "Benefit [Security Clearance]",
-      "Defensive Roll 2",
-      "Equipment",
-      "Evasion",
-      "Power Attack",
-      "Uncanny Dodge [Sight]"
+      "Finta Ágil",
+      "Ataque Imprudente",
+      "Benefício [Credencial de Segurança]",
+      "Rolamento Defensivo 2",
+      "Equipamento",
+      "Evasão",
+      "Ataque Poderoso",
+      "Esquiva Fabulosa [Sight]"
     ],
     "poderes": [
       {
         "nome": "Enhanced Strength",
         "construcao_3e": "Enhanced Trait: Strength 5 (para elevar o valor base 1 ao valor final 6).",
         "custo_2e_pp": 10,
-        "custo_3e_pp": 10
+        "custo_3e_pp": 10,
+        "nome_pt": "Força Aumentada"
       },
       {
         "nome": "Enhanced Dexterity",
         "construcao_3e": "Enhanced Trait: Agility 10 e Dexterity 10 (para elevar os valores base 0 ao valor final 10).",
         "custo_2e_pp": 20,
-        "custo_3e_pp": 40
+        "custo_3e_pp": 40,
+        "nome_pt": "Destreza Aumentada"
       },
       {
         "nome": "Leaping",
         "construcao_3e": "Leaping 3.",
         "custo_2e_pp": 3,
-        "custo_3e_pp": 3
+        "custo_3e_pp": 3,
+        "nome_pt": "Salto"
       },
       {
         "nome": "Snare",
@@ -82,19 +85,22 @@
         "nome": "Speed",
         "construcao_3e": "Speed 4 (Limited to Swinging).",
         "custo_2e_pp": 2,
-        "custo_3e_pp": 2
+        "custo_3e_pp": 2,
+        "nome_pt": "Velocidade"
       },
       {
         "nome": "Super Movement",
         "construcao_3e": "Movement (rank 2e 3); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Super Movement 3 (Swinging, Wall Crawling (2); Alternate Powers: Improved Critical (2) Mighty Strike 3; 7pp) Componentes/efeitos alternativos mapeados: Strike → Damage.; custo 2e impresso 7 PP.",
         "custo_2e_pp": 7,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Super-Movimento"
       },
       {
         "nome": "Super Senses",
         "construcao_3e": "Senses 2 (Extended Vision, Low-Light Vision).",
         "custo_2e_pp": 2,
-        "custo_3e_pp": 2
+        "custo_3e_pp": 2,
+        "nome_pt": "Super-Sentidos"
       }
     ],
     "equipamento": [
@@ -151,4 +157,4 @@
     "Subtotal 3e conhecido: 92 PP em habilidades, 96 em perícias, 42 em defesas, 9 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
     "Correção de custo: as perícias somam 96 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 96 para 48 PP (subtotal e totais ajustados em -48)."
   ]
-}
+}

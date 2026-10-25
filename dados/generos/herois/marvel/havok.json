@@ -41,25 +41,26 @@
       "Combate à Distância: Ataques gerais": 6
     },
     "vantagens": [
-      "Accurate Attack",
-      "All-out Attack",
-      "Attractive",
-      "Defensive Roll 2",
-      "Die Hard",
-      "Inspire 3",
-      "Improved Aim",
-      "Improved Initiative",
-      "Power Attack",
-      "Precise Attack (Ranged, Cover) 2",
-      "Teamwork 2",
-      "Ultimate Effort (Ultimate Aim)"
+      "Ataque Acurado",
+      "Ataque Imprudente",
+      "Atraente",
+      "Rolamento Defensivo 2",
+      "Duro de Matar",
+      "Inspirar 3",
+      "Mira Aprimorada",
+      "Iniciativa Aprimorada",
+      "Ataque Poderoso",
+      "Ataque Preciso (À Distância, Cobertura) 2",
+      "Trabalho em Equipe 2",
+      "Esforço Supremo (Ultimate Aim)"
     ],
     "poderes": [
       {
         "nome": "Cosmic Energy Control",
         "construcao_3e": "Ranged Damage 12 (Penetrating, Uncontrolled); Alternate Effects: Uncontrolled Disintegration 8 and Uncontrolled Explosion Area Damage 10 (centrado em si mesmo).",
         "custo_2e_pp": 26,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Controle de Energia Cósmica"
       },
       {
         "nome": "Containment Suit",
@@ -71,7 +72,8 @@
         "nome": "Immunity",
         "construcao_3e": "Immunity 1 (Cyclops' powers).",
         "custo_2e_pp": 1,
-        "custo_3e_pp": 1
+        "custo_3e_pp": 1,
+        "nome_pt": "Imunidade"
       }
     ],
     "equipamento": [],
@@ -112,4 +114,4 @@
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
     "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
   ]
-}
+}

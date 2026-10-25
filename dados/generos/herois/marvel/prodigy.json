@@ -39,22 +39,23 @@
       "Especialidade: Tecnologia": 11
     },
     "vantagens": [
-      "Defensive Roll 2",
-      "Eidetic Memory",
-      "Equipment 3",
-      "Inspire",
+      "Rolamento Defensivo 2",
+      "Memória Eidética",
+      "Equipamento 3",
+      "Inspirar",
       "Inventor",
-      "Jack-of-all-trades",
-      "Luck",
+      "Faz Tudo",
+      "Sorte",
       "Set-Up",
-      "Teamwork 3"
+      "Trabalho em Equipe 3"
     ],
     "poderes": [
       {
         "nome": "Enhanced Intelligence 14",
         "construcao_3e": "Enhanced Trait: Intellect 14.",
         "custo_2e_pp": 14,
-        "custo_3e_pp": 28
+        "custo_3e_pp": 28,
+        "nome_pt": "Intelecto Aumentado 14"
       },
       {
         "nome": "Mimic (Skills and Feats) 8",
@@ -107,4 +108,4 @@
     "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +2/+1/+2/+0/+1/+1. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
     "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
   ]
-}
+}

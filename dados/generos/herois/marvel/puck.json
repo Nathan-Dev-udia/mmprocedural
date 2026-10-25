@@ -39,45 +39,50 @@
       "Especialidade: Sobrevivência": 5
     },
     "vantagens": [
-      "Agile Feint",
-      "All-out Attack",
-      "Defensive Attack",
-      "Improved Defense 2",
-      "Power Attack",
-      "Takedown 2",
-      "Teamwork 2",
-      "Languages 1"
+      "Finta Ágil",
+      "Ataque Imprudente",
+      "Ataque Defensivo",
+      "Defesa Aprimorada 2",
+      "Ataque Poderoso",
+      "Ataque Dominó 2",
+      "Trabalho em Equipe 2",
+      "Idiomas 1"
     ],
     "poderes": [
       {
         "nome": "Enhanced Strength 10",
         "construcao_3e": "Enhanced Trait: Strength 5 (para elevar o valor base 3 ao valor final 8).",
         "custo_2e_pp": 10,
-        "custo_3e_pp": 10
+        "custo_3e_pp": 10,
+        "nome_pt": "Força Aumentada 10"
       },
       {
         "nome": "Enhanced Dexterity 10",
         "construcao_3e": "Enhanced Trait: Agility 5 e Dexterity 5 (para elevar os valores base 3 e 0 aos valores finais 8 e 5).",
         "custo_2e_pp": 10,
-        "custo_3e_pp": 20
+        "custo_3e_pp": 20,
+        "nome_pt": "Destreza Aumentada 10"
       },
       {
         "nome": "Immunity 1",
         "construcao_3e": "Immunity to aging.",
         "custo_2e_pp": 1,
-        "custo_3e_pp": 1
+        "custo_3e_pp": 1,
+        "nome_pt": "Imunidade 1"
       },
       {
         "nome": "Leaping 2",
         "construcao_3e": "Leaping 2.",
         "custo_2e_pp": 2,
-        "custo_3e_pp": 2
+        "custo_3e_pp": 2,
+        "nome_pt": "Salto 2"
       },
       {
         "nome": "Protection 7",
         "construcao_3e": "Protection 7, Impervious.",
         "custo_2e_pp": 14,
-        "custo_3e_pp": 14
+        "custo_3e_pp": 14,
+        "nome_pt": "Proteção 7"
       },
       {
         "nome": "Shrinking 4",
@@ -89,7 +94,8 @@
         "nome": "Super-Strength 3",
         "construcao_3e": "Power-Lifting 3.",
         "custo_2e_pp": 6,
-        "custo_3e_pp": 3
+        "custo_3e_pp": 3,
+        "nome_pt": "Super-Força 3"
       }
     ],
     "equipamento": [],
@@ -135,4 +141,4 @@
     "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +8/+8/+3/+1/+1/+0. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
     "habilidades_base registra For 3, Agi 3 e Des 0 (sem os aumentos de Enhanced Strength e Enhanced Dexterity). Os custos 3e somam 190 PP (46 habilidades base + 63 poderes + 43 defesas + 27 perícias + 11 vantagens)."
   ]
-}
+}

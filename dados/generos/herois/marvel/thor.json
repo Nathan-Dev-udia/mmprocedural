@@ -39,31 +39,34 @@
       "Combate a Distância: Mystic Blast": 8
     },
     "vantagens": [
-      "All-Out Attack",
-      "Benefit [Status]",
-      "Fearless",
-      "Improved Critical [Mjolnir]",
-      "Power Attack",
-      "Startle"
+      "Ataque Imprudente",
+      "Benefício [Status]",
+      "Destemido",
+      "Crítico Aprimorado [Mjolnir]",
+      "Ataque Poderoso",
+      "Assustar"
     ],
     "poderes": [
       {
         "nome": "Super Strength",
         "construcao_3e": "Power-Lifting 5 (Alternate Effect: Ground Strike).",
         "custo_2e_pp": 11,
-        "custo_3e_pp": 6
+        "custo_3e_pp": 6,
+        "nome_pt": "Super-Força"
       },
       {
         "nome": "Immunity",
         "construcao_3e": "Immunity: Disease and Suffocation in Vacuum; custo 3e depende da seleção exata de imunidades.",
         "custo_2e_pp": 2,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Imunidade"
       },
       {
         "nome": "Device (Mjolnir)",
         "construcao_3e": "Removable (Mjolnir), com Strike 3 (Mighty, Thrown 3), Weather Control 16 (Precipitation e alternativos Dynamic), Flight 11 (Space Travel e Dimensional Movement como alternativos), Restricted: Those Worthy. A fonte atribui 42 PP; construção e custo 3e incertos.",
         "custo_2e_pp": 42,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Dispositivo (Mjolnir)"
       }
     ],
     "equipamento": [],
@@ -114,4 +117,4 @@
     "Subtotal 3e conhecido: 96 PP em habilidades, 68 em perícias, 60 em defesas, 6 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
     "Correção de custo: as perícias somam 68 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 68 para 34 PP (subtotal e totais ajustados em -34)."
   ]
-}
+}

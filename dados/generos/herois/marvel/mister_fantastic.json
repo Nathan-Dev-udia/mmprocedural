@@ -45,12 +45,12 @@
       "Combate Corpo-a-Corpo: Desarmado": 4
     },
     "vantagens": [
-      "Equipment 4",
+      "Equipamento 4",
       "Inventor",
-      "Leadership",
-      "Inspire",
-      "Skill Mastery: Prestidigitação, Expertise (Tecnologia), Expertise (Ciências Físicas), Expertise (Ciências da Vida)",
-      "Ultimate Effort: Will Save"
+      "Liderança",
+      "Inspirar",
+      "Maestria em Perícia: Prestidigitação, Expertise (Tecnologia), Expertise (Ciências Físicas), Expertise (Ciências da Vida)",
+      "Esforço Supremo: Will Save"
     ],
     "poderes": [
       {
@@ -95,4 +95,4 @@
     "Toughness 14 e Defense 16 (rank 6) totalizam exatamente NP 10; o traje não foi somado novamente.",
     "Master Plan foi convertido em Inspire 1 conforme a orientação do guia."
   ]
-}
+}

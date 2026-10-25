@@ -38,13 +38,13 @@
       "Combate Corpo-a-Corpo: Desarmado": 2
     },
     "vantagens": [
-      "All-out Attack",
-      "Improved Defense",
-      "Improved Initiative",
-      "Move-By Action",
-      "Power Attack",
-      "Taunt",
-      "Teamwork 3"
+      "Ataque Imprudente",
+      "Defesa Aprimorada",
+      "Iniciativa Aprimorada",
+      "Ação em Movimento",
+      "Ataque Poderoso",
+      "Zombar",
+      "Trabalho em Equipe 3"
     ],
     "poderes": [
       {
@@ -63,13 +63,15 @@
         "nome": "Immunity",
         "construcao_3e": "Immunity 5 (frio).",
         "custo_2e_pp": 5,
-        "custo_3e_pp": 5
+        "custo_3e_pp": 5,
+        "nome_pt": "Imunidade"
       },
       {
         "nome": "Protection",
         "construcao_3e": "Protection 10.",
         "custo_2e_pp": 10,
-        "custo_3e_pp": 10
+        "custo_3e_pp": 10,
+        "nome_pt": "Proteção"
       }
     ],
     "equipamento": [],
@@ -108,4 +110,4 @@
     "Improved Block 2 virou Improved Defense (a vantagem de 3e não acumula nesses dois ranks). Improved Overrun e Weapon Break não têm equivalente direto e foram omitidas.",
     "A fonte descreve Ice Blast como ataque +8 e efeito 12; a combinação fica no limite Ataque + Efeito de NP 10."
   ]
-}
+}

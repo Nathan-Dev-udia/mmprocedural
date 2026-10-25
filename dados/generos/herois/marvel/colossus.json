@@ -5,7 +5,7 @@
   "nome_pt": "Colossus",
   "nivel_poder": 10,
   "pontos_poder_origem": 150,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 144.5,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -37,20 +37,21 @@
       "Combate à Distância: Ataques gerais": 8
     },
     "vantagens": [
-      "Accurate Attack",
-      "All-out Attack",
-      "Defensive Attack",
-      "Improved Defense 2",
-      "Power Attack",
-      "Teamwork 2",
-      "Languages 1"
+      "Ataque Acurado",
+      "Ataque Imprudente",
+      "Ataque Defensivo",
+      "Defesa Aprimorada 2",
+      "Ataque Poderoso",
+      "Trabalho em Equipe 2",
+      "Idiomas 1"
     ],
     "poderes": [
       {
         "nome": "Alternate Form (Solid)",
-        "construcao_3e": "Alternate Form (Solid): Growth 10 (Enhanced Strength 20; não modifica Size, Speed ou Skills), Protection 5 (Impervious), Immovable 3, Power-Lifting 3 (golpe no solo), Immunity 9 (Life Support), Protection 6 (Impervious 8).",
+        "construcao_3e": "Forma Alternativa (Sólida): Força Aumentada 8 (16 PP), Proteção 11 (Impenetrável 10; 21 PP), Imunidade 9 (Suporte Vital; 9 PP), Super-Força / Poder de Carga 3 com Golpe no Solo (4 PP), Inamovível / Atletismo Aumentado 4 (1 PP). Total de traços da forma: 51 PP.",
         "custo_2e_pp": 55,
-        "custo_3e_pp": null
+        "custo_3e_pp": 51,
+        "nome_pt": "Forma Metálica (Forma Sólida)"
       }
     ],
     "equipamento": [],
@@ -68,22 +69,31 @@
       "aparar_mais_resistencia": 20,
       "fortitude_mais_vontade": 20,
       "legal": true
+    },
+    "habilidades_base": {
+      "For": 4,
+      "Vig": 3,
+      "Agi": 0,
+      "Des": 0,
+      "Lut": 8,
+      "Int": 2,
+      "Pro": 4,
+      "Pre": 2
     }
   },
   "custos_3e": {
-    "habilidades": 62,
+    "habilidades_base": 46,
+    "poderes": 51,
     "defesas": 19,
     "pericias": 19.5,
     "vantagens": 9,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 109.5,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 144.5
   },
   "notas_conversao": [
     "A fonte imprime Defesa 16 e Resistência 14; ambas foram reduzidas a 6 para respeitar os limites defensivos de NP 10. A forma sólida mantém os descritores originais. Atletismo 0: o bônus de Climb (+10) é menor que Força 12, logo não gera graduações positivas. Weapon Break e Stunning Attack foram removidas; o guia permite Affliction para Stunning Attack, mas nenhum custo foi presumido. Idioma inglês, além do russo-base, convertido em Languages 1.",
     "Defesas ajustadas para Esquiva 6 e Aparar 6, respeitando os limites de NP 10 com Resistência 14.",
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
-    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados.",
+    "Poderes fechados em 3e: Forma Alternativa Sólida precificada em 51 PP. Habilidades base registradas sem o acréscimo de metal (For 4 base, For 12 metálica). Total 3e: 144.5 PP."
   ]
-}
+}

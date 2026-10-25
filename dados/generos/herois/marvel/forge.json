@@ -41,29 +41,31 @@
       "Combate à Distância: Rifle Blaster": 10
     },
     "vantagens": [
-      "Accurate Attack",
-      "All-out Attack",
-      "Equipment 5",
-      "Improved Aim",
+      "Ataque Acurado",
+      "Ataque Imprudente",
+      "Equipamento 5",
+      "Mira Aprimorada",
       "Inventor",
-      "Luck 3",
-      "Power Attack",
-      "Ritualist",
-      "Ultimate Effort (Ultimate Craft Check)",
-      "Ultimate Effort (Ultimate Technology Check)"
+      "Sorte 3",
+      "Ataque Poderoso",
+      "Ritualista",
+      "Esforço Supremo (Ultimate Craft Check)",
+      "Esforço Supremo (Ultimate Technology Check)"
     ],
     "poderes": [
       {
         "nome": "Enhanced Intelligence",
         "construcao_3e": "Enhanced Trait (Intellect 26), Limited a Craft and Expertise (Technology) checks.",
         "custo_2e_pp": 13,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Intelecto Aumentado"
       },
       {
         "nome": "Protection",
         "construcao_3e": "Protection 3.",
         "custo_2e_pp": 3,
-        "custo_3e_pp": 3
+        "custo_3e_pp": 3,
+        "nome_pt": "Proteção"
       }
     ],
     "equipamento": [
@@ -109,4 +111,4 @@
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
     "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
   ]
-}
+}

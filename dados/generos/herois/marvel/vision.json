@@ -37,16 +37,17 @@
       "Combate a Distância: Solar Blast": 10
     },
     "vantagens": [
-      "Accurate Attack",
-      "Eidetic Memory",
-      "Power Attack"
+      "Ataque Acurado",
+      "Memória Eidética",
+      "Ataque Poderoso"
     ],
     "poderes": [
       {
         "nome": "Blast",
         "construcao_3e": "Damage à distância 12 (Flaw: Distracting); custo 3e incerto.",
         "custo_2e_pp": 12,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Rajada de Energia"
       },
       {
         "nome": "Data-Link",
@@ -58,25 +59,29 @@
         "nome": "Density",
         "construcao_3e": "Growth (Does Not Modify Size, Speed, or Skills) (rank 2e 12); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Density 12 (Impervious Protection 6, Immovable 4, Super Strength 4; Flaws: No Strength [-1]; Alternate Power: Insubstantial 4; 25pp) Componentes/efeitos alternativos mapeados: Protection → Protection; Super Strength → Power-Lifting/Enhanced Strength.; custo 2e impresso 25 PP.",
         "custo_2e_pp": 25,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Densidade"
       },
       {
         "nome": "Immunity",
         "construcao_3e": "Immunity 30 (Fortitude Effects).",
         "custo_2e_pp": 30,
-        "custo_3e_pp": 30
+        "custo_3e_pp": 30,
+        "nome_pt": "Imunidade"
       },
       {
         "nome": "Impervious Toughness",
         "construcao_3e": "Impervious Toughness 7.",
         "custo_2e_pp": 7,
-        "custo_3e_pp": 7
+        "custo_3e_pp": 7,
+        "nome_pt": "Resistência Impenetrável"
       },
       {
         "nome": "Flight",
         "construcao_3e": "Flight 8 (Limited: only while using Decreased Density).",
         "custo_2e_pp": 8,
-        "custo_3e_pp": 8
+        "custo_3e_pp": 8,
+        "nome_pt": "Voo"
       },
       {
         "nome": "Mental Shield",
@@ -94,13 +99,15 @@
         "nome": "Regeneration",
         "construcao_3e": "Regeneration (Resurrection → Immortality) (rank 2e 9); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Regeneration 9 (Recovery Check 9; Power Feat: Regrowth; 10pp); custo 2e impresso 10 PP.",
         "custo_2e_pp": 10,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Regeneração"
       },
       {
         "nome": "Super Strength",
         "construcao_3e": "Power-Lifting 4.",
         "custo_2e_pp": 8,
-        "custo_3e_pp": 4
+        "custo_3e_pp": 4,
+        "nome_pt": "Super-Força"
       }
     ],
     "equipamento": [],
@@ -146,4 +153,4 @@
     "Subtotal 3e conhecido: 54 PP em habilidades, 47 em perícias, 39 em defesas, 3 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
     "Correção de custo: as perícias somam 47 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 47 para 23.5 PP (subtotal e totais ajustados em -23.5)."
   ]
-}
+}

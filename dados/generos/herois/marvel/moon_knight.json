@@ -49,33 +49,35 @@
       "Combate a Distância: Throwing Irons": 9
     },
     "vantagens": [
-      "All-out Attack",
-      "Benefit: Alternate Identities 2, Wealth 2",
-      "Defensive Attack",
-      "Defensive Roll 2",
-      "Equipment 3",
-      "Improved Disarm",
-      "Improved Initiative",
-      "Improved Trip",
+      "Ataque Imprudente",
+      "Benefício: Alternate Identities 2, Wealth 2",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 2",
+      "Equipamento 3",
+      "Desarmar Aprimorado",
+      "Iniciativa Aprimorada",
+      "Derrubar Aprimorado",
       "Jack of All Trades",
-      "Luck 2",
-      "Power Attack",
-      "Takedown",
-      "Uncanny Dodge",
-      "Languages 2"
+      "Sorte 2",
+      "Ataque Poderoso",
+      "Ataque Dominó",
+      "Esquiva Fabulosa",
+      "Idiomas 2"
     ],
     "poderes": [
       {
         "nome": "Boost",
         "construcao_3e": "Enhanced Trait 6 (habilidades físicas), Fades (Slow Fade 6), Limited (pessoal), Limited (somente quando a Lua está pelo menos gibosa). 12 PP na fonte.",
         "custo_2e_pp": 12,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Impulso"
       },
       {
         "nome": "Regeneration",
         "construcao_3e": "Regeneration 7 (Recovery Bonus 6; Immortality/Resurrection 1). 7 PP na fonte.",
         "custo_2e_pp": 7,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Regeneração"
       }
     ],
     "equipamento": [
@@ -132,4 +134,4 @@
     "Elusive Target foi omitida: não possui equivalente direto na 3e.",
     "Dodge foi ajustada de 16 para 12 para cumprir Dodge + Toughness ≤ 20 (NP 10)."
   ]
-}
+}

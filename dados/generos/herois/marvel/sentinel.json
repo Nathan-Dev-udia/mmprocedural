@@ -38,37 +38,43 @@
         "nome": "Growth 16",
         "construcao_3e": "Growth 16, Continuous, Permanent, Innate; no Constitution bonus.",
         "custo_2e_pp": 33,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Crescimento 16"
       },
       {
         "nome": "Blast 10",
         "construcao_3e": "Blast 10, Line Area; Alternate Effects: Ranged Cone Area Paralyze 10, Explosive Area Snare 10, holofote.",
         "custo_2e_pp": 33,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Rajada de Energia 10"
       },
       {
         "nome": "Immunity 30",
         "construcao_3e": "Immunity to Fortitude effects.",
         "custo_2e_pp": 30,
-        "custo_3e_pp": 30
+        "custo_3e_pp": 30,
+        "nome_pt": "Imunidade 30"
       },
       {
         "nome": "Flight 4",
         "construcao_3e": "Flight 4.",
         "custo_2e_pp": 8,
-        "custo_3e_pp": 8
+        "custo_3e_pp": 8,
+        "nome_pt": "Voo 4"
       },
       {
         "nome": "Super-Senses 3",
         "construcao_3e": "Extended 2, Mutant Awareness.",
         "custo_2e_pp": 3,
-        "custo_3e_pp": 3
+        "custo_3e_pp": 3,
+        "nome_pt": "Super-Sentidos 3"
       },
       {
         "nome": "Protection 12",
         "construcao_3e": "Protection 12, Impervious, Ablative.",
         "custo_2e_pp": 12,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Proteção 12"
       }
     ],
     "equipamento": [],
@@ -80,7 +86,7 @@
         "dano": 10
       },
       {
-        "nome": "Blast",
+        "nome": "Rajada de Energia",
         "bonus": 2,
         "dano": 10
       }
@@ -111,4 +117,4 @@
     "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +15/+0/—/—/+2/—. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
     "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
   ]
-}
+}

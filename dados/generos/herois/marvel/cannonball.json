@@ -42,31 +42,33 @@
       "Combate à Distância: Ataques gerais": 8
     },
     "vantagens": [
-      "All-out Attack",
-      "Defensive Attack",
-      "Die Hard",
-      "Favored Environment (Airborne) 4",
-      "Improved Initiative 2",
-      "Improved Trip",
-      "Inspire 2",
-      "Leadership",
-      "Luck",
-      "Move-by Action",
-      "Power Attack",
-      "Teamwork 2"
+      "Ataque Imprudente",
+      "Ataque Defensivo",
+      "Duro de Matar",
+      "Ambiente Favorito (Aéreo) 4",
+      "Iniciativa Aprimorada 2",
+      "Derrubar Aprimorado",
+      "Inspirar 2",
+      "Liderança",
+      "Sorte",
+      "Ação em Movimento",
+      "Ataque Poderoso",
+      "Trabalho em Equipe 2"
     ],
     "poderes": [
       {
         "nome": "Flight / Strike",
         "construcao_3e": "Flight 12 (Dynamic; Alternate Effect: Strength-based Damage with Penetrating; graduação ilegível na fonte).",
         "custo_2e_pp": 27,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Voo / Strike"
       },
       {
         "nome": "Force Field",
         "construcao_3e": "Protection 10, Impervious 12, Limited a quando estiver em voo.",
         "custo_2e_pp": 12,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Campo de Força"
       }
     ],
     "equipamento": [],
@@ -102,4 +104,4 @@
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
     "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
   ]
-}
+}

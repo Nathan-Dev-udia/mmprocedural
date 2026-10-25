@@ -38,40 +38,44 @@
       "Combate à Distância: Ataques gerais": 3
     },
     "vantagens": [
-      "Accurate Attack",
-      "Attractive",
-      "Equipment 1",
-      "Favored Environment (Airborne) 4",
-      "Improved Initiative 2",
-      "Move-by Action",
-      "Precise Attack (Ranged, Cover)",
-      "Taunt",
-      "Teamwork 2"
+      "Ataque Acurado",
+      "Atraente",
+      "Equipamento 1",
+      "Ambiente Favorito (Aéreo) 4",
+      "Iniciativa Aprimorada 2",
+      "Ação em Movimento",
+      "Ataque Preciso (À Distância, Cobertura)",
+      "Zombar",
+      "Trabalho em Equipe 2"
     ],
     "poderes": [
       {
         "nome": "Blast",
         "construcao_3e": "Ranged Damage 12.",
         "custo_2e_pp": 24,
-        "custo_3e_pp": 24
+        "custo_3e_pp": 24,
+        "nome_pt": "Rajada de Energia"
       },
       {
         "nome": "Flight",
         "construcao_3e": "Flight 6.",
         "custo_2e_pp": 12,
-        "custo_3e_pp": 12
+        "custo_3e_pp": 12,
+        "nome_pt": "Voo"
       },
       {
         "nome": "Protection",
         "construcao_3e": "Protection 8.",
         "custo_2e_pp": 8,
-        "custo_3e_pp": 8
+        "custo_3e_pp": 8,
+        "nome_pt": "Proteção"
       },
       {
         "nome": "Strike",
         "construcao_3e": "Damage 10 (Selective, Shapeable Aura).",
         "custo_2e_pp": 21,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Golpe"
       }
     ],
     "equipamento": [
@@ -119,4 +123,4 @@
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
     "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
   ]
-}
+}

@@ -5,7 +5,7 @@
   "nome_pt": "Gambit",
   "nivel_poder": 10,
   "pontos_poder_origem": 150,
-  "pontos_poder_3e": null,
+  "pontos_poder_3e": 172.5,
   "status_conversao": "convertida_com_ajustes_de_np",
   "fonte": {
     "arquivo": "../mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf",
@@ -44,29 +44,30 @@
       "Combate à Distância: Cartas Cinéticas": 10
     },
     "vantagens": [
-      "Accurate Attack",
-      "Attractive 2",
-      "Contacts",
-      "Defensive Attack",
-      "Defensive Roll 2",
-      "Equipment 2",
-      "Evasion 2",
-      "Fascinate (Deception)",
-      "Improved Disarm",
-      "Improved Initiative 2",
-      "Luck",
-      "Power Attack",
-      "Skill Mastery (Deception, Technology, Sleight of Hand, Stealth)",
-      "Ultimate Effort (Ultimate Bluff Check)",
-      "Uncanny Dodge (Hearing)",
-      "Languages 1"
+      "Ataque Acurado",
+      "Atraente 2",
+      "Contatos",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 2",
+      "Equipamento 2",
+      "Evasão 2",
+      "Fascinar (Deception)",
+      "Desarmar Aprimorado",
+      "Iniciativa Aprimorada 2",
+      "Sorte",
+      "Ataque Poderoso",
+      "Maestria em Perícia (Deception, Technology, Sleight of Hand, Stealth)",
+      "Esforço Supremo (Teste de Enganação)",
+      "Esquiva Fabulosa (Audição)",
+      "Idiomas 1"
     ],
     "poderes": [
       {
         "nome": "Blast (kinetic cards)",
-        "construcao_3e": "Damage 10 (Explosion Area, Split Attack 3); Alternate Effect: Damage 6 (Multiattack, Accurate 3); Requer Medium.",
+        "construcao_3e": "Damage 10 (Ranged, Area Burst, Flaw: Requires Medium [cartas/objetos]; 20 PP) + Split 3 (3 PP); Alternate Effect: Damage 8 (Ranged, Multiattack, Accurate, Requires Medium; 1 PP). Array total: 24 PP.",
         "custo_2e_pp": 24,
-        "custo_3e_pp": null
+        "custo_3e_pp": 24,
+        "nome_pt": "Rajada de Energia (kinetic cards)"
       }
     ],
     "equipamento": [
@@ -108,18 +109,17 @@
   },
   "custos_3e": {
     "habilidades": 52,
+    "poderes": 24,
     "defesas": 23,
     "pericias": 52.5,
     "vantagens": 21,
-    "poderes_conhecidos": 0,
-    "subtotal_conhecido": 148.5,
-    "poderes_pendentes": true,
-    "total": null
+    "total": 172.5
   },
   "notas_conversao": [
     "Attack Specialization (Staff) 3 foi convertida em 6 graduações de Combate Corpo a Corpo: Bastão. Dodge Focus 10 foi limitado para respeitar NP 10 com Resistência ativa 7. Elusive Target e Sneak Attack foram removidas. Languages 1 representa inglês além do francês-base.",
     "Defesas ajustadas para Esquiva 13 e Aparar 13, respeitando os limites de NP 10 com Resistência 7.",
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
-    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados."
+    "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados.",
+    "Poderes fechados em 3e: Blast de cartas cinéticas convertido em Array de 24 PP com Requires Medium. Total 3e: 172.5 PP."
   ]
-}
+}

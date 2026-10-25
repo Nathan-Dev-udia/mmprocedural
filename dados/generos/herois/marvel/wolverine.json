@@ -39,55 +39,61 @@
       "Especialidade: Sobrevivência": 17
     },
     "vantagens": [
-      "All-Out Attack",
-      "Close Attack 8",
-      "Improved Defense",
-      "Improved Critical [Claws] 3",
-      "Improved Initiative",
-      "Luck",
-      "Power Attack",
-      "Skill Mastery 4 [Climb, Intimidate, Stealth, Survival]",
-      "Startle",
-      "Takedown 2",
-      "Ultimate Effort [Ultimate Toughness Save]",
-      "Weapon Break"
+      "Ataque Imprudente",
+      "Ataque Corpo-a-Corpo 8",
+      "Defesa Aprimorada",
+      "Crítico Aprimorado [Claws] 3",
+      "Iniciativa Aprimorada",
+      "Sorte",
+      "Ataque Poderoso",
+      "Maestria em Perícia 4 [Climb, Intimidate, Stealth, Survival]",
+      "Assustar",
+      "Ataque Dominó 2",
+      "Esforço Supremo [Ultimate Toughness Save]",
+      "Quebrar Arma"
     ],
     "poderes": [
       {
         "nome": "Immunity",
         "construcao_3e": "Immunity 2 (Aging, Poison).",
         "custo_2e_pp": 2,
-        "custo_3e_pp": 2
+        "custo_3e_pp": 2,
+        "nome_pt": "Imunidade"
       },
       {
         "nome": "Protection",
         "construcao_3e": "Protection 4, Innate.",
         "custo_2e_pp": 5,
-        "custo_3e_pp": 5
+        "custo_3e_pp": 5,
+        "nome_pt": "Proteção"
       },
       {
         "nome": "Strike",
         "construcao_3e": "Damage (rank 2e 4); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Strike 4 (Power feats: Mighty, Quick Draw; Extra: Penetrating [+1] 8; Alternate Power: Strike 4 (Quickdraw, Mighty; Extra: Auto-Fire [+1]; 14pp); custo 2e impresso 14 PP.",
         "custo_2e_pp": 14,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Golpe"
       },
       {
         "nome": "Super Senses",
         "construcao_3e": "Senses 5 (Scent [Extended, Accurate], Tracking).",
         "custo_2e_pp": 5,
-        "custo_3e_pp": 5
+        "custo_3e_pp": 5,
+        "nome_pt": "Super-Sentidos"
       },
       {
         "nome": "Super Strength",
         "construcao_3e": "Power-Lifting 1.",
         "custo_2e_pp": 2,
-        "custo_3e_pp": 1
+        "custo_3e_pp": 1,
+        "nome_pt": "Super-Força"
       },
       {
         "nome": "Regeneration",
         "construcao_3e": "Regeneration (Resurrection → Immortality) (rank 2e 29); rank e modificadores 3e exatos requerem revisão da construção descrita na fonte: Regeneration 29 (Recovery Rate: 17; Bruised 3, Unconscious 3, Injured 4, Staggered 4, Disabled 6; Ability Damage: 5, Resurrection 4; Power Feat: Regrowth; 30pp); custo 2e impresso 30 PP.",
         "custo_2e_pp": 30,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Regeneração"
       }
     ],
     "equipamento": [],
@@ -134,4 +140,4 @@
     "Subtotal 3e conhecido: 54 PP em habilidades, 84 em perícias, 50 em defesas, 22 em vantagens e 0 em poderes com custo confirmado. O total permanece pendente pelos poderes com custo 3e incerto.",
     "Correção de custo: as perícias somam 84 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 84 para 42 PP (subtotal e totais ajustados em -42)."
   ]
-}
+}

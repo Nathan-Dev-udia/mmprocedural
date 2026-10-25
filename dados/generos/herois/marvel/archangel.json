@@ -40,30 +40,32 @@
       "Furtividade": 7
     },
     "vantagens": [
-      "Attractive",
-      "Benefit (Wealth x3, Status) 4",
-      "Connected",
-      "Contacts",
-      "Defensive Roll",
-      "Equipment",
-      "Favored Environment (Airborne)",
-      "Great Endurance",
-      "Improved Initiative 2",
-      "Move-by Action",
-      "Skill Mastery (Bluff, Diplomacy, Gather Information, Pilot)"
+      "Atraente",
+      "Benefício (Wealth x3, Status) 4",
+      "Bem Relacionado",
+      "Contatos",
+      "Rolamento Defensivo",
+      "Equipamento",
+      "Ambiente Favorito (Aéreo)",
+      "Tolerância Maior",
+      "Iniciativa Aprimorada 2",
+      "Ação em Movimento",
+      "Maestria em Perícia (Bluff, Diplomacy, Gather Information, Pilot)"
     ],
     "poderes": [
       {
         "nome": "Flight",
         "construcao_3e": "Flight 4.",
         "custo_2e_pp": 8,
-        "custo_3e_pp": 8
+        "custo_3e_pp": 8,
+        "nome_pt": "Voo"
       },
       {
         "nome": "Super Senses",
         "construcao_3e": "Senses 5: Extended Vision 5.",
         "custo_2e_pp": 5,
-        "custo_3e_pp": 5
+        "custo_3e_pp": 5,
+        "nome_pt": "Super-Sentidos"
       }
     ],
     "equipamento": [
@@ -120,4 +122,4 @@
     "vantagens": 15,
     "total": 150
   }
-}
+}

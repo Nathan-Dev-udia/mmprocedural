@@ -40,39 +40,42 @@
       "Especialidade: Sobrevivência": 5
     },
     "vantagens": [
-      "Accurate Attack",
-      "Agile Feint",
-      "Attractive",
-      "Defensive Attack",
-      "Defensive Roll 3",
-      "Equipment",
-      "Evasion",
-      "Improved Initiative 2",
-      "Luck 5",
-      "Precise Attack (Ranged, Cover) 2",
-      "Quick Draw",
-      "Throwing Mastery 6",
-      "Uncanny Dodge",
-      "Ranged Attack 3"
+      "Ataque Acurado",
+      "Finta Ágil",
+      "Atraente",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 3",
+      "Equipamento",
+      "Evasão",
+      "Iniciativa Aprimorada 2",
+      "Sorte 5",
+      "Ataque Preciso (À Distância, Cobertura) 2",
+      "Saque Rápido",
+      "Maestria em Arremesso 6",
+      "Esquiva Fabulosa",
+      "Ataque à Distância 3"
     ],
     "poderes": [
       {
         "nome": "Leaping",
         "construcao_3e": "Leaping 2.",
         "custo_2e_pp": 2,
-        "custo_3e_pp": 2
+        "custo_3e_pp": 2,
+        "nome_pt": "Salto"
       },
       {
         "nome": "Luck Control",
         "construcao_3e": "Luck Control 3 (Area, Selective). 15 PP na fonte.",
         "custo_2e_pp": 15,
-        "custo_3e_pp": null
+        "custo_3e_pp": null,
+        "nome_pt": "Controle de Sorte"
       },
       {
         "nome": "Super-Senses",
         "construcao_3e": "Senses 4 (Postcognition, Touch Range).",
         "custo_2e_pp": 2,
-        "custo_3e_pp": 4
+        "custo_3e_pp": 4,
+        "nome_pt": "Super-Sentidos"
       }
     ],
     "equipamento": [
@@ -119,4 +122,4 @@
     "Dodge foi ajustada de 25 para 15 para cumprir Dodge + Toughness ≤ 20 (NP 10).",
     "Ranged Attack foi reduzido de 8 para 3 ranks para preservar o bônus publicado de Facas arremessadas e respeitar o limite de NP."
   ]
-}
+}

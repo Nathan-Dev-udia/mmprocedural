@@ -39,16 +39,16 @@
       "Especialidade: Mercenário": 8
     },
     "vantagens": [
-      "All-out Attack",
-      "Chokehold",
-      "Improved Defense",
-      "Fast Grab",
-      "Improved Grab",
-      "Improved Hold",
-      "Power Attack",
-      "Startle",
-      "Teamwork 2",
-      "Languages 1"
+      "Ataque Imprudente",
+      "Estrangular",
+      "Defesa Aprimorada",
+      "Agarrar Rápido",
+      "Agarrar Aprimorado",
+      "Imobilizar Aprimorado",
+      "Ataque Poderoso",
+      "Assustar",
+      "Trabalho em Equipe 2",
+      "Idiomas 1"
     ],
     "poderes": [
       {
@@ -61,19 +61,22 @@
         "nome": "Enhanced Strength 14",
         "construcao_3e": "Enhanced Trait: Strength 7 (para elevar o valor base 3 ao valor final 10); Linked to Alternate Form.",
         "custo_2e_pp": 14,
-        "custo_3e_pp": 14
+        "custo_3e_pp": 14,
+        "nome_pt": "Força Aumentada 14"
       },
       {
         "nome": "Protection 10",
         "construcao_3e": "Protection 10; Linked to Alternate Form.",
         "custo_2e_pp": 10,
-        "custo_3e_pp": 10
+        "custo_3e_pp": 10,
+        "nome_pt": "Proteção 10"
       },
       {
         "nome": "Super-Strength 3",
         "construcao_3e": "Power-Lifting 3; Linked to Alternate Form.",
         "custo_2e_pp": 6,
-        "custo_3e_pp": 3
+        "custo_3e_pp": 3,
+        "nome_pt": "Super-Força 3"
       }
     ],
     "equipamento": [],
@@ -125,4 +128,4 @@
     "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +10/+0/+2/+0/+1/+1. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
     "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos."
   ]
-}
+}

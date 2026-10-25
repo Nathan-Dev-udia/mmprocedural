@@ -108,7 +108,7 @@ def auditar_marvel(fid, d):
         cons = pod.get("construcao_3e", "")
         if not cons.strip():
             p("PODER_SEM_CONSTRUCAO_3E", fid, pod.get("nome", ""))
-        elif re.search(r"pendente|nao foi convertid|não foi convertid", cons, re.I):
+        elif re.search(r"\bpendente\b|nao foi convertid|não foi convertid", cons, re.I):
             p("PODER_CONSTRUCAO_PENDENTE", fid, pod.get("nome", ""))
     if d.get("status_conversao") == "convertida_com_ajustes_de_np":
         contagem["marvel_ajustada_np"] += 1
