@@ -1,0 +1,59 @@
+{
+  "nome_pt": "Super-Homem",
+  "conferida_em": "2026-10-26",
+  "pagina_do_livro": 217,
+  "ficha": {
+    "habilidades": {"For": 19, "Vig": 14, "Agi": 2, "Des": 2, "Lut": 8, "Int": 2, "Pro": 2, "Pre": 4},
+    "poderes": [
+      "Voo: Arranjo (30 pontos)",
+      "• Voo 15 (103.000 km/h) (30 PP)",
+      "• Rapidez 7, Acumula com Supervelocidade; Velocidade 15 (103.000 km/h) (1 PP)",
+      "• Movimento 1 (Viagem Espacial 1) (1 PP)",
+      "Visão de Calor: Dano à Distância 15 (30 PP)",
+      "Invulnerabilidade: Proteção 4; Resistência Impenetrável 18; Imunidade 5 (Frio, Calor, Pressão, Radiação, Vácuo) (27 PP)",
+      "Supersopro: Efeitos Alternativos do Dano de Força (19 pontos)",
+      "• Aflição 9 em Área de Cone (resistida por Fortitude; Tolhido, Imóvel, Paralisado) (1 PP)",
+      "• Mover Objeto 9 em Área de Cone, Alcance Perto, Limitado a empurrar e puxar (1 PP)",
+      "Supersentidos: Sentidos 15 (Audição Aguçada e Estendida, Visão Estendida 3, Infravisão, Visão Microscópica 4, Ultra-Audição, Visão Penetra Camuflagem (exceto chumbo)) (15 PP)",
+      "Supervelocidade: Rapidez 8 (8 PP)",
+      "Superforça: Força Aumentada 4, Limitado a levantar (Força 23 para levantar; 200.000 toneladas) (4 PP)"
+    ],
+    "equipamento": [
+      "Quartel-general: Fortaleza da Solidão (25 PP). Tamanho Enorme, Resistência 20. Recursos: Comunicações, Computador, Escondido 3 (+20 na CD), Sistema de Defesa, Hangar, Celas de Detenção, Enfermaria, Isolado, Laboratório, Biblioteca, Alojamento, Sistema de Energia, Sistema de Segurança"
+    ],
+    "vantagens": ["Bem Relacionado", "Equipamento 5", "Esforço Extraordinário", "Inspirar 3", "Idiomas (Kryptoniano)",
+                  "Liderança", "Ataque Poderoso", "Tomar a Iniciativa", "Esforço Supremo (testes de Resistência)"],
+    "pericias": [
+      {"nome": "Combate Corpo-a-Corpo: Desarmado", "graduacoes": 3, "total": 11},
+      {"nome": "Especialidade: Agricultura", "graduacoes": 4, "total": 6},
+      {"nome": "Especialidade: Krypton", "graduacoes": 8, "total": 10},
+      {"nome": "Especialidade: Jornalismo", "graduacoes": 10, "total": 12},
+      {"nome": "Percepção", "graduacoes": 8, "total": 10},
+      {"nome": "Persuasão", "graduacoes": 8, "total": 12},
+      {"nome": "Combate à Distância: Visão de Calor", "graduacoes": 8, "total": 10},
+      {"nome": "Tecnologia", "graduacoes": 3, "total": 5}
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {"nome": "Visão de Calor", "bonus": 10, "alcance": "À distância", "dano": 15},
+      {"nome": "Desarmado", "bonus": 11, "alcance": "Corpo a corpo", "dano": 19}
+    ],
+    "defesas": {"Esquiva": 10, "Aparar": 10, "Fortitude": 15, "Resistência": 18, "Vontade": 15},
+    "custos": {"Habilidades": 106, "Perícias": 26, "Poderes": 118, "Defesas": 24, "Vantagens": 15},
+    "total": 289,
+    "complicacoes": [
+      {"titulo": "Perda de Poder", "texto": "Sob um sol vermelho, como o de Krypton, Superman perde os poderes e sua Força e Vigor caem para 3; outros efeitos que drenam ou atrapalham as energias do sol amarelo também podem tirar seus poderes."},
+      {"titulo": "Relacionamentos", "texto": "A relação mais próxima do Superman é com sua esposa, Lois Lane. Outras pessoas importantes na vida dele são a mãe, Martha Kent, e os amigos e colegas de trabalho Jimmy Olsen, Perry White e Catherine \"Cat\" Grant."},
+      {"titulo": "Responsabilidade", "texto": "Superman sente uma forte responsabilidade de usar seus poderes em benefício de todos."},
+      {"titulo": "Identidade Secreta", "texto": "Clark Kent, o pacato repórter do Planeta Diário."},
+      {"titulo": "Vulnerabilidade", "texto": "Superman é vulnerável a magia: sua Resistência não é Impenetrável contra ataques mágicos."},
+      {"titulo": "Fraqueza", "texto": "Kryptonita (veja as notas)."}
+    ]
+  },
+  "notas": [
+    "Na extração automática, o título do primeiro poder saiu embaralhado, o quartel-general foi cortado, um trecho da história caiu dentro das vantagens e as complicações não foram lidas; tudo conferido pela página do livro.",
+    "Kryptonita verde (a mais comum): drena a Força e os poderes de kryptonianos, deixando-os prejudicados, desabilitados e por fim debilitados em Força e efeitos de poder; exposição longa (minutos, menos com uma quantidade grande) impõe a condição morrendo.",
+    "Kryptonita vermelha: efeitos imprevisíveis, em geral uma Aflição com resultado final transformado (encolher, crescer, virar um espectro intangível...), que passa em um ou dois dias. Dourada: tira os poderes por tempo graduação 1 (cerca de 15 segundos, duas rodadas). Azul: só afeta Bizarros. Preta: divide a pessoa em duas personalidades. Prateada: age como um psicoativo forte (alucinações, paranoia).",
+    "Supersopro usa o Dano de Força (19 pontos) como base dos efeitos alternativos; o Mestre deve tratar outros poderes ocasionais como façanhas de poder."
+  ]
+}

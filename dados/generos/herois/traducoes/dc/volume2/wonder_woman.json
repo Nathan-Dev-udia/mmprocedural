@@ -1,0 +1,52 @@
+{
+  "nome_pt": "Mulher-Maravilha",
+  "conferida_em": "2026-10-26",
+  "pagina_do_livro": 268,
+  "ficha": {
+    "habilidades": {"For": 16, "Vig": 14, "Agi": 10, "Des": 8, "Lut": 14, "Int": 2, "Pro": 4, "Pre": 6},
+    "poderes": [
+      "Braceletes da Vitória: Resistência Impenetrável 10, Sustentado, Removível (–2 pontos) (8 PP)",
+      "Laço Mágico: Mover Objeto 16 Ligado a Aflição à Distância 16 (resistida por Vontade; Vulnerável, Compelido), Limitado a dizer a verdade, Grau Limitado, Facilmente Removível (–16 pontos) (22 PP)",
+      "Troca Rápida: Característica 1 (vira Mulher-Maravilha como ação livre) (1 PP)",
+      "Velocidade de Hermes: Voo 11 (6.400 km/h) (22 PP)",
+      "Força de Gaia: Força Aumentada 6, Limitado a levantar (Força 22 para levantar; 100.000 toneladas) (6 PP)"
+    ],
+    "equipamento": [
+      "Veículo: Jato Invisível (44 PP). Tamanho Enorme, For 20, Def 6, Res 11. Recursos: Camuflagem 2 (visual), Voo 11"
+    ],
+    "vantagens": ["Empatia com Animais", "Atraente", "Benefício (Embaixadora de Themyscira)", "Equipamento 9", "Idiomas 2",
+                  "Ataque à Distância 4", "Trabalho em Equipe"],
+    "pericias": [
+      {"nome": "Acrobacia", "graduacoes": 6, "total": 16},
+      {"nome": "Atletismo", "graduacoes": 4, "total": 20},
+      {"nome": "Especialidade: Mitologia", "graduacoes": 8, "total": 10},
+      {"nome": "Intuição", "graduacoes": 10, "total": 14},
+      {"nome": "Intimidação", "graduacoes": 4, "total": 10},
+      {"nome": "Investigação", "graduacoes": 6, "total": 8},
+      {"nome": "Percepção", "graduacoes": 8, "total": 12},
+      {"nome": "Persuasão", "graduacoes": 6, "total": 12},
+      {"nome": "Combate à Distância: Laço", "graduacoes": 2, "total": 14},
+      {"nome": "Veículos", "graduacoes": 4, "total": 12}
+    ],
+    "iniciativa": 10,
+    "ataques": [
+      {"nome": "Laço", "bonus": 14, "alcance": "À distância", "dano": "Mover Objeto 16", "observacao": "+16 para agarrar"},
+      {"nome": "Desarmado", "bonus": 14, "alcance": "Corpo a corpo", "dano": 16},
+      {"nome": "Arma", "bonus": 14, "alcance": "Corpo a corpo", "dano": "18-19", "observacao": "dano típico"}
+    ],
+    "defesas": {"Esquiva": 16, "Aparar": 16, "Fortitude": 14, "Resistência": 14, "Vontade": 16},
+    "custos": {"Habilidades": 148, "Perícias": 29, "Poderes": 59, "Defesas": 20, "Vantagens": 17},
+    "total": 273,
+    "complicacoes": [
+      {"titulo": "Inimigos", "texto": "Circe e a Mulher-Leopardo."},
+      {"titulo": "Perda de Poder", "texto": "Na identidade de Diana Prince, a Mulher-Maravilha não tem poderes e tem as habilidades de uma mulher comum (ainda que atlética e habilidosa): Força e Vigor 3, Destreza e Agilidade 4."},
+      {"titulo": "Responsabilidade", "texto": "Para com Themyscira."},
+      {"titulo": "Identidade Secreta", "texto": "Diana Prince, agente do Departamento de Assuntos Meta-humanos."}
+    ]
+  },
+  "notas": [
+    "Na extração automática, quase toda a ficha saiu errada (poderes, vantagens e perícias com números soltos e o total de pontos ausente); tudo foi copiado da página do livro.",
+    "As vantagens listadas somam 19 pontos, mas o livro imprime 17 (e o total de 273 usa 17). Mantidos os números impressos; com 19, o total seria 275.",
+    "Balas e braceletes: os braceletes amazonas desviam ataques com facilidade e dão os benefícios de Resistência Impenetrável ao custo de uma ação livre por rodada, o que permite ignorar ataques menores como balas (até rajadas automáticas, graças à Velocidade de Hermes). Sem os braceletes, ou sem chance de usá-los, ela ainda precisa fazer testes de Resistência até contra tiros e armas comuns."
+  ]
+}

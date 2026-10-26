@@ -154,6 +154,23 @@ def _ler_dc(dados):
     }
 
 
+def _ler_traducao(dados, traduzida):
+    f = traduzida["ficha"]
+    return {
+        "habilidades": dict(f["habilidades"]), "defesas": dict(f["defesas"]),
+        "pericias": {p["nome"]: {"grad": p["graduacoes"], "total": p["total"]} for p in f["pericias"]},
+        "ataques": [(a["nome"], a.get("bonus"), a.get("dano") if a.get("dano") is not None else "",
+                     ", ".join(filter(None, [a.get("alcance", ""), a.get("observacao", "")])))
+                    for a in f["ataques"]],
+        "vantagens": list(f["vantagens"]), "poderes": list(f["poderes"]), "equipamento": list(f["equipamento"]),
+        "complicacoes": [c["titulo"] for c in f["complicacoes"]],
+        "iniciativa": f["iniciativa"], "custos": dict(f["custos"]), "total": f["total"],
+        "notas": [f["observacao_defesas"]] if f.get("observacao_defesas") else [],
+        "serie": "DC", "np": dados.get("nivel_poder"),
+        "detalhes_complicacoes": " ".join(f"{c['titulo']}: {c['texto']}" for c in f["complicacoes"]),
+    }
+
+
 # ---------------------------------------------------------------- campos do PDF
 
 def campos_do_heroi(ficha_id):
@@ -163,9 +180,13 @@ def campos_do_heroi(ficha_id):
         return None
     caminho, resumo = entrada
     dados = json.loads(caminho.read_text(encoding="utf-8"))
-    h = (_ler_marvel if resumo["editora"] == "marvel" else _ler_dc)(dados)
+    traduzida = herois.traducao(ficha_id) if resumo["editora"] == "dc" else None
+    if traduzida:
+        h = _ler_traducao(dados, traduzida)
+    else:
+        h = (_ler_marvel if resumo["editora"] == "marvel" else _ler_dc)(dados)
     hab = {k: h["habilidades"].get(k, 0) for k in CAMPO_DA_HABILIDADE}
-    campos = {"Herói": dados.get("nome_pt") or dados["nome"], "Series": h["serie"], "Nível de Poder": str(h["np"] or ""),
+    campos = {"Herói": (traduzida or dados).get("nome_pt") or dados["nome"], "Series": h["serie"], "Nível de Poder": str(h["np"] or ""),
               "Grupo Afiliado": f"{h['serie']} {resumo['volume']}".strip()}
     for rotulo, valor in h["custos"].items():
         campos[rotulo] = "" if valor is None else str(valor)
@@ -201,7 +222,7 @@ def campos_do_heroi(ficha_id):
         campos[f"Dano {n}"] = str(dano)
         campos[f"Descrição {n}"] = tipo
     for nome, bonus, dano, _ in h["ataques"][LINHAS["ataques"]:]:
-        notas.append(f"Ataque: {nome} {bonus:+d}, Dano {dano}")
+        notas.append(f"Ataque: {nome} {bonus:+d}, Dano {dano}" if isinstance(bonus, int) else f"Ataque: {nome}, {dano}")
 
     _preencher_pericias(campos, h["pericias"], hab, notas)
     campos["Perícias Total"] = str(sum(p["grad"] for p in h["pericias"].values()))
@@ -217,7 +238,8 @@ def campos_do_heroi(ficha_id):
                                            break_on_hyphens=False)
     _preencher_linhas(campos, "Poderes e Dispositivos {n}", linhas_de_poderes, LINHAS["poderes"])
 
-    condicoes = [f"Ficha publicada ({herois.FONTE_DA_EDITORA[resumo['editora']]}); valores conforme o livro."]
+    condicoes = [f"Ficha publicada ({herois.FONTE_DA_EDITORA[resumo['editora']]}); valores conforme o livro."
+                 + (" Conferida e traduzida." if traduzida else "")]
     if h["detalhes_complicacoes"]:
         condicoes.append(f"Complicações: {h['detalhes_complicacoes']}")
     campos["Notas & Condições"] = "\n".join(condicoes + notas)
@@ -254,8 +276,9 @@ def _preencher_pericias(campos, pericias, hab, notas):
 
 
 def _compativel_com_a_fonte(texto):
-    """A fonte do PDF só aceita Latin-1/Windows-1252: troca ≤, ≥ e afins e descarta o que não tem equivalente."""
-    texto = texto.replace("≤", "<=").replace("≥", ">=").replace("→", "->")
+    """A fonte do PDF só aceita Latin-1/Windows-1252: troca ≤, ≥ e afins e descarta o que não tem equivalente.
+    O • existe no Windows-1252, mas a fonte do formulário não tem o desenho dele (sai como aspas)."""
+    texto = texto.replace("≤", "<=").replace("≥", ">=").replace("→", "->").replace("•", "-")
     return "".join(c if c.encode("cp1252", "ignore") else
                    unicodedata.normalize("NFKD", c).encode("ascii", "ignore").decode() for c in texto)
 

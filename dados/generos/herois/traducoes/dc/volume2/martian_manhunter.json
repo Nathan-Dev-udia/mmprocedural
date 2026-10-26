@@ -1,0 +1,56 @@
+{
+  "nome_pt": "Caçador de Marte",
+  "conferida_em": "2026-10-26",
+  "pagina_do_livro": 44,
+  "ficha": {
+    "habilidades": {"For": 16, "Vig": 10, "Agi": 2, "Des": 2, "Lut": 8, "Int": 3, "Pro": 4, "Pre": 3},
+    "poderes": [
+      "Voo: Voo 13 (25.700 km/h) (26 PP)",
+      "• Voo Espacial: Movimento 1 (Viagem Espacial 1) (1 PP)",
+      "Durabilidade Marciana: Proteção 3, Impenetrável (6 PP)",
+      "Morfologia Marciana: Arranjo (20 pontos), Dinâmico",
+      "• Intangibilidade: Intangibilidade 4, Dinâmico (21 PP)",
+      "• Densidade: Proteção 2, Resistência Impenetrável 15, Sustentado, Dinâmico (2 PP)",
+      "• Invisibilidade: Camuflagem Visual 4, Dinâmico (2 PP)",
+      "• Metamorfose: Metamorfose 4 (qualquer forma), Dinâmico (2 PP)",
+      "Sentidos Marcianos: Sentidos 7 (Visão Estendida 2, Percepção Mental, Visão Penetra Camuflagem) (7 PP)",
+      "Força Marciana: Força Aumentada 4, Limitado a levantar (Força 20 para levantar; 25.000 toneladas) (4 PP)",
+      "Visão Marciana: Dano à Distância 11 (força) (22 PP)",
+      "Telepatia: Comunicação Mental 5, Leitura Mental 11 (42 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": ["Contatos", "Tolerância Maior", "Liderança", "Ataque Poderoso", "Trabalho em Equipe", "Transe"],
+    "pericias": [
+      {"nome": "Combate Corpo-a-Corpo: Desarmado", "graduacoes": 4, "total": 12},
+      {"nome": "Intuição", "graduacoes": 8, "total": 12},
+      {"nome": "Intimidação", "graduacoes": 5, "total": 8},
+      {"nome": "Investigação", "graduacoes": 10, "total": 13},
+      {"nome": "Percepção", "graduacoes": 8, "total": 12},
+      {"nome": "Persuasão", "graduacoes": 5, "total": 8},
+      {"nome": "Combate à Distância: Visão Marciana", "graduacoes": 8, "total": 10},
+      {"nome": "Furtividade", "graduacoes": 4, "total": 6},
+      {"nome": "Tecnologia", "graduacoes": 4, "total": 7},
+      {"nome": "Veículos", "graduacoes": 4, "total": 6}
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {"nome": "Visão Marciana", "bonus": 10, "alcance": "À distância", "dano": 11},
+      {"nome": "Desarmado", "bonus": 12, "alcance": "Corpo a corpo", "dano": 16}
+    ],
+    "defesas": {"Esquiva": 12, "Aparar": 13, "Fortitude": 13, "Resistência": 13, "Vontade": 15},
+    "custos": {"Habilidades": 96, "Perícias": 30, "Poderes": 145, "Defesas": 29, "Vantagens": 6},
+    "total": 306,
+    "complicacoes": [
+      {"titulo": "Inimigo", "texto": "Seu irmão, Malefic."},
+      {"titulo": "Perda de Poder", "texto": "Perde os poderes e sua Força e Vigor caem para 2 quando exposto ao fogo."},
+      {"titulo": "Preconceito", "texto": "Muitas vezes se sente isolado entre os humanos, um \"estrangeiro em terra estranha\"."}
+    ]
+  },
+  "notas": [
+    "Na extração automática, as vantagens foram parar dentro dos poderes e os nomes saíram com letras soltas (\"Martian d ur ability\"); tudo conferido pela página do livro.",
+    "Telepatia está impressa com 31 PP, mas Comunicação Mental 5 (20) + Leitura Mental 11 (22) custam 42 pela tabela; corrigido para 42.",
+    "Mesmo com a correção, os poderes somam 135 PP, e o livro dá 145 em Poderes (o total de 306 usa 145). Os demais custos conferem com a regra; mantidos a parcela e o total impressos.",
+    "No livro, o ataque aparece como \"Martin Vision\" (erro de digitação de Martian Vision).",
+    "Façanhas sugeridas pelo livro: usar a Morfologia Marciana para qualquer efeito de mudança do corpo (Alongamento, mudar de tamanho ou composição, até reestruturar o cérebro para ganhar Prontidão, Intuição ou Percepção); usar a Telepatia para Aflições (controle mental, alterar memórias, algo que J'onn evita) ou Ilusões (resistidas por Vontade, Seletivas); façanhas de força como as de qualquer brutamontes; e usar a natureza psicocinética do Voo e da Visão Marciana para Mover Objeto ou Voo que Afeta Outros."
+  ]
+}

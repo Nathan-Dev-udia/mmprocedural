@@ -28,6 +28,36 @@ def test_ficha_da_dc_traduz_as_habilidades_e_separa_os_poderes():
     assert "Vol. I, p. 13" in ficha["fonte"]
 
 
+TRADUZIDAS = ["dc/volume1/aquaman", "dc/volume1/batman", "dc/volume1/green_arrow_oliver_queen",
+              "dc/volume1/green_lantern_hal_jordan", "dc/volume1/the_flash_barry_allen", "dc/volume2/martian_manhunter",
+              "dc/volume2/superman", "dc/volume2/wonder_woman"]
+
+
+def test_fichas_traduzidas_substituem_o_texto_extraido():
+    for ficha_id in TRADUZIDAS:
+        ficha = herois.ficha(ficha_id)
+        assert ficha["status"] == "Ficha publicada, conferida com o livro e traduzida", ficha_id
+        custos = herois.traducao(ficha_id)["ficha"]["custos"]
+        assert sum(custos.values()) == ficha["pp"], ficha_id
+    aquaman = herois.ficha("dc/volume1/aquaman")
+    poderes = next(s for s in aquaman["secoes"] if s["titulo"] == "Poderes")["itens"]
+    assert poderes[0].startswith("Aquático: Imunidade 3 (Frio, Afogamento, Pressão)")
+    assert "Desarmado +13, corpo a corpo, Dano 10" in next(s for s in aquaman["secoes"] if s["titulo"] == "Ataques")["itens"]
+    mulher = next(h for h in herois.lista() if h["id"] == "dc/volume2/wonder_woman")
+    assert mulher["nome_pt"] == "Mulher-Maravilha" and mulher["pp"] == 273 and "Laço Mágico" in mulher["termos"]
+
+
+def test_pdf_usa_a_ficha_traduzida():
+    from nucleo import herois_pdf
+    for ficha_id in TRADUZIDAS:
+        assert herois_pdf.gerar_pdf(app.Path(app.__file__).parent / "dados" / "comum" / "ficha_editavel.pdf", ficha_id)
+    hal = herois_pdf.campos_do_heroi("dc/volume1/green_lantern_hal_jordan")
+    assert hal["Herói"] == "Lanterna Verde (Hal Jordan)" and hal["Ataque 1"] == "Anel de Poder +10"
+    assert hal["Dano 1"] == "18" and hal["Vontade"] == "18" and hal["Total"] == "222" and hal["Iniciativa"] == "+2"
+    flash = herois_pdf.campos_do_heroi("dc/volume1/the_flash_barry_allen")
+    assert flash["Ataque 2"] == "Redemoinho" and flash["Descrição 2"] == "Área de Explosão, agarrar, CD 20 de Esquiva"
+
+
 def test_ficha_da_marvel_traz_as_notas_de_conversao():
     ficha = herois.ficha("marvel/archangel")
     titulos = [s["titulo"] for s in ficha["secoes"]]

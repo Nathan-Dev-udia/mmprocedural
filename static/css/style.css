@@ -507,6 +507,8 @@ a.botao { text-decoration: none; display: inline-block; }
   .habilidades-heroi { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 }
 .acoes-ficha { display: flex; flex-wrap: wrap; gap: 8px; }
+.ficha-heroi li.sub { list-style-type: circle; margin-left: 18px; }
+.ficha-heroi li.nivel-2 { list-style-type: "– "; margin-left: 36px; }
 
 /* PDF personalizado: na impressão da página de heróis sobra só a ficha, em cores claras, numa folha A4. */
 @media print {

@@ -1,0 +1,76 @@
+{
+  "nome_pt": "Batman",
+  "conferida_em": "2026-10-26",
+  "pagina_do_livro": 44,
+  "ficha": {
+    "habilidades": {"For": 4, "Vig": 4, "Agi": 7, "Des": 7, "Lut": 14, "Int": 8, "Pro": 7, "Pre": 7},
+    "poderes": [],
+    "equipamento": [
+      "Lanterna: Característica 1 (Iluminação) (1 PP)",
+      "Arma de Gancho: Movimento 1 (Balançar-se) (2 PP)",
+      "Minirrastreadores: Característica 1 (Rastreamento) (1 PP)",
+      "Respirador: Imunidade 2 (Sufocamento), Limitado (1 PP)",
+      "Cinto de Utilidades: Arranjo (12 pontos)",
+      "• Boleadeiras: Aflição à Distância 4 (resistida por Esquiva; Tolhido e Vulnerável, Indefeso e Imóvel) (12 PP)",
+      "• Batarangues: Dano à Distância Baseado em Força 2 (1 PP)",
+      "• Maçarico: Dano 1 (calor) Ligado a Enfraquecer Resistência de Objetos 1 (1 PP)",
+      "• Batarangues Explosivos: Dano à Distância em Área de Explosão 4 (1 PP)",
+      "• Bombas de Clarão: Aflição à Distância em Área de Explosão 3 (resistida por Fortitude; Visão Prejudicada, Visão Desabilitada, Visão Desatenta) (1 PP)",
+      "• Pastilhas de Gás Sonífero: Aflição à Distância em Área de Nuvem 4 (resistida por Fortitude; Fatigado, Exausto, Adormecido) (1 PP)",
+      "• Bombas de Fumaça: Ataque de Camuflagem Visual em Área de Nuvem 4 (1 PP)",
+      "• Pastilhas de Gás Lacrimogêneo: Aflição à Distância em Área de Nuvem 3 (resistida por Fortitude; Tonto e Visão Prejudicada, Atordoado e Visão Desabilitada, Incapacitado) (1 PP)",
+      "Quartel-general: a Batcaverna (20 PP). Tamanho Enorme, Resistência 10. Recursos: Comunicações, Computador, Escondido, Sistema de Defesa, Doca, Garagem, Academia, Hangar, Enfermaria, Laboratório, Biblioteca, Alojamento, Sistema de Energia, Oficina",
+      "Veículos: Arranjo (49 pontos)",
+      "• Batplano: equivalente a um caça (capítulo Engenhocas & Equipamentos do DC Adventures), sem metralhadoras, mas com mísseis ar-ar e com o recurso Controle Remoto (49 PP)",
+      "• Batmóvel: Tamanho Enorme, For 8, Vel 6, Def 8, Res 10. Recursos: Alarme 3 (CD 30), Estrepes, Compartimentos Ocultos, Sistema de Navegação 2 (+10), Mancha de Óleo, Controle Remoto; Resistência Impenetrável 8 (1 PP)",
+      "• Batbarco: equivalente ao Batmóvel, com velocidade na água em vez de em terra e sem Estrepes nem Mancha de Óleo (1 PP)"
+    ],
+    "vantagens": ["Avaliação", "Benefício 5 (Bilionário)", "Ataque Corpo-a-Corpo 6", "Bem Relacionado", "Contatos",
+                  "Tontear (Intimidação)", "Ataque Defensivo", "Rolamento Defensivo 4", "Equipamento 19", "Evasão",
+                  "Esconder-se à Plena Vista", "Iniciativa Aprimorada", "Ferramentas Aprimoradas", "De Pé", "Inventor",
+                  "Faz Tudo", "Idiomas 4", "Ação em Movimento", "Ataque Poderoso", "Ataque Preciso (À distância; Cobertura)",
+                  "Saque Rápido", "Ataque à Distância 7", "Redirecionar", "Tomar a Iniciativa", "Armação",
+                  "Maestria em Perícia (Intimidação)", "Maestria em Perícia (Investigação)", "Assustar", "Ataque Dominó",
+                  "Transe", "Rastrear", "Esquiva Fabulosa", "Bem Informado"],
+    "pericias": [
+      {"nome": "Acrobacia", "graduacoes": 8, "total": 15},
+      {"nome": "Atletismo", "graduacoes": 11, "total": 15},
+      {"nome": "Enganação", "graduacoes": 8, "total": 15},
+      {"nome": "Especialidade: Criminologia", "graduacoes": 13, "total": 21},
+      {"nome": "Especialidade: Conhecimento das Ruas", "graduacoes": 13, "total": 21},
+      {"nome": "Intuição", "graduacoes": 10, "total": 17},
+      {"nome": "Intimidação", "graduacoes": 15, "total": 22},
+      {"nome": "Investigação", "graduacoes": 14, "total": 22},
+      {"nome": "Percepção", "graduacoes": 13, "total": 20},
+      {"nome": "Persuasão", "graduacoes": 5, "total": 12},
+      {"nome": "Furtividade", "graduacoes": 13, "total": 20},
+      {"nome": "Prestidigitação", "graduacoes": 8, "total": 15},
+      {"nome": "Tecnologia", "graduacoes": 8, "total": 15},
+      {"nome": "Tratamento", "graduacoes": 5, "total": 12},
+      {"nome": "Veículos", "graduacoes": 8, "total": 15}
+    ],
+    "iniciativa": 11,
+    "ataques": [
+      {"nome": "Batarangue", "bonus": 14, "alcance": "À distância", "dano": 6},
+      {"nome": "Desarmado", "bonus": 20, "alcance": "Corpo a corpo", "dano": 4}
+    ],
+    "defesas": {"Esquiva": 14, "Aparar": 14, "Fortitude": 9, "Resistência": 8, "Vontade": 13},
+    "observacao_defesas": "Resistência 4 sem Rolamento Defensivo.",
+    "custos": {"Habilidades": 116, "Perícias": 76, "Poderes": 0, "Defesas": 19, "Vantagens": 72},
+    "total": 283,
+    "complicacoes": [
+      {"titulo": "Flashbacks", "texto": "Batman às vezes fica atordoado por lembranças traumáticas da noite em que seus pais foram assassinados, principalmente em ligação com o Beco do Crime, onde as mortes aconteceram."},
+      {"titulo": "Nêmesis", "texto": "Batman tem vários inimigos recorrentes, mas o Coringa é o mais perigoso de todos."},
+      {"titulo": "Obsessão", "texto": "Combate ao crime."},
+      {"titulo": "Relacionamentos", "texto": "Embora pareça um solitário, Batman tem várias pessoas importantes na vida, como Asa Noturna, Robin, Oráculo, Alfred Pennyworth (o fiel mordomo da família Wayne) e o comissário de polícia James Gordon."},
+      {"titulo": "Responsabilidade", "texto": "Batman considera Gotham a sua cidade e a sua responsabilidade."},
+      {"titulo": "Identidade Secreta", "texto": "Bruce Wayne."}
+    ]
+  },
+  "notas": [
+    "A extração automática estava correta nos números, mas cortou o fim do equipamento (recursos da Batcaverna e os veículos); completado pela página do livro.",
+    "Tecnologia 8 e Tratamento 5 com Intelecto 8 dariam +16 e +13; o livro imprime +15 e +12. Mantidos os números impressos.",
+    "Pela tabela de custos, as defesas compradas somam 18 pontos (Esquiva 7, Fortitude 5, Vontade 6), não 19: o total seria 282. Mantidos os números impressos.",
+    "NP 12 com 283 pontos é proposital: o livro explica que ninguém passa tanto do limite de pontos do NP quanto o Batman, e sugere dar pontos normalmente sem subir o NP em campanhas \"de rua\"."
+  ]
+}

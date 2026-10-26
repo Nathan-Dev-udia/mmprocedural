@@ -56,11 +56,17 @@ function desenharLista() {
     : "<li class='vazio'>Nenhum personagem encontrado.</li>";
 }
 
+// "• Efeito" é parte do poder anterior (efeito alternativo, componente de dispositivo); "•• " desce mais um nível.
+function itemDaFicha(texto) {
+  const nivel = (texto.match(/^(•\s*)+/)?.[0].match(/•/g) || []).length;
+  return `<li${nivel ? ` class="sub nivel-${Math.min(nivel, 2)}"` : ""}>${escapar(texto.replace(/^(•\s*)+/, ""))}</li>`;
+}
+
 function desenharFicha(f) {
   const habilidades = Object.entries(f.habilidades)
     .map(([nome, valor]) => `<div><dt>${escapar(nome)}</dt><dd>${escapar(valor)}</dd></div>`).join("");
   const secoes = f.secoes.map((s) => `<h3>${escapar(s.titulo)}</h3>` + (s.itens.length > 1
-    ? `<ul>${s.itens.map((i) => `<li>${escapar(i)}</li>`).join("")}</ul>`
+    ? `<ul>${s.itens.map(itemDaFicha).join("")}</ul>`
     : `<p>${escapar(s.itens[0])}</p>`)).join("");
   el("ficha-heroi").innerHTML = `
     <header>

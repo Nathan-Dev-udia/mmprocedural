@@ -1,0 +1,58 @@
+{
+  "nome_pt": "Arqueiro Verde (Oliver Queen)",
+  "conferida_em": "2026-10-26",
+  "pagina_do_livro": 232,
+  "ficha": {
+    "habilidades": {"For": 2, "Vig": 2, "Agi": 4, "Des": 4, "Lut": 4, "Int": 1, "Pro": 2, "Pre": 3},
+    "poderes": [],
+    "equipamento": [
+      "Arco e Flechas: Arranjo (10 pontos)",
+      "• Flecha Comum: Dano à Distância 5 (10 PP)",
+      "• Flecha-Cabo: Movimento (Balançar-se) (1 PP)",
+      "• Flecha Sinalizadora: Aflição à Distância 5 (resistida por Fortitude; Visão Prejudicada, Visão Desabilitada, Visão Desatenta) (1 PP)",
+      "• Flecha de Gás Sonífero: Aflição à Distância em Área de Explosão 3 (resistida por Fortitude; Fatigado, Exausto, Adormecido) (1 PP)",
+      "• Flecha-Rede: Aflição à Distância 3 (resistida por Esquiva; Tolhido e Vulnerável, Indefeso e Imóvel) (1 PP)",
+      "• Flecha Atordoante: Aflição à Distância 3 (resistida por Fortitude; Tonto, Atordoado, Incapacitado) (1 PP)"
+    ],
+    "vantagens": ["Ataque Acurado", "Ataque Imprudente", "Benefício 3 (rico)", "Rolamento Defensivo 4", "Equipamento 3",
+                  "Mira Aprimorada", "Crítico Aprimorado (Arco)", "Desarmar Aprimorado", "Iniciativa Aprimorada",
+                  "Ação em Movimento", "Ataque Poderoso", "Ataque Preciso 2 (À distância; Cobertura e Camuflagem)",
+                  "Ataque à Distância 3", "Saque Rápido", "Maestria em Perícia (Combate à Distância: Arco)",
+                  "Ataque Dominó", "Zombar", "Esforço Supremo (Mirar)", "Esquiva Fabulosa"],
+    "pericias": [
+      {"nome": "Acrobacia", "graduacoes": 4, "total": 8},
+      {"nome": "Atletismo", "graduacoes": 8, "total": 10},
+      {"nome": "Combate Corpo-a-Corpo: Desarmado", "graduacoes": 4, "total": 8},
+      {"nome": "Enganação", "graduacoes": 8, "total": 11},
+      {"nome": "Especialidade: Jornalismo", "graduacoes": 6, "total": 7},
+      {"nome": "Especialidade: Política", "graduacoes": 6, "total": 7},
+      {"nome": "Especialidade: Sobrevivência", "graduacoes": 4, "total": 5},
+      {"nome": "Intuição", "graduacoes": 6, "total": 8},
+      {"nome": "Intimidação", "graduacoes": 4, "total": 7},
+      {"nome": "Investigação", "graduacoes": 6, "total": 7},
+      {"nome": "Percepção", "graduacoes": 6, "total": 8},
+      {"nome": "Combate à Distância: Arco", "graduacoes": 8, "total": 12},
+      {"nome": "Furtividade", "graduacoes": 8, "total": 12},
+      {"nome": "Veículos", "graduacoes": 6, "total": 10}
+    ],
+    "iniciativa": 8,
+    "ataques": [
+      {"nome": "Arco", "bonus": 15, "alcance": "À distância", "dano": 5, "observacao": "mais as outras flechas, crítico 19-20"},
+      {"nome": "Desarmado", "bonus": 8, "alcance": "Corpo a corpo", "dano": 2}
+    ],
+    "defesas": {"Esquiva": 14, "Aparar": 12, "Fortitude": 7, "Resistência": 6, "Vontade": 10},
+    "observacao_defesas": "Resistência 2 sem Rolamento Defensivo.",
+    "custos": {"Habilidades": 44, "Perícias": 42, "Poderes": 0, "Defesas": 31, "Vantagens": 29},
+    "total": 146,
+    "complicacoes": [
+      {"titulo": "Convicções", "texto": "O Arqueiro Verde é um progressista assumido, disposto a defender suas convicções com atos e palavras, o que o mete em encrenca (e em muitas discussões)."},
+      {"titulo": "Relacionamentos", "texto": "Casado com a Canário Negro, pai de Connor Hawke, mentor de Mia Dearden (Ricardito) e ex-mentor de Roy Harper (Arsenal)."},
+      {"titulo": "Temperamento", "texto": "Ollie tem pavio curto, principalmente quando se trata das causas sociais e políticas em que acredita."}
+    ]
+  },
+  "notas": [
+    "Na extração automática, trechos da história do personagem caíram dentro das perícias e das complicações; corrigido pela página do livro.",
+    "Aljava completa: as flechas listadas são as mais comuns. O livro sugere tirar outras flechas da aljava como façanhas de poder (o Mestre pode pedir um ponto heroico, já que é equipamento): acetileno, ácido, balão, bumerangue, serra circular, ponta de diamante (bom para o extra Penetrante), cortina de fumaça, sônica e a famosa flecha-luva-de-boxe.",
+    "As armas dele valem só 10 pontos de efeito, mas a perícia com o arco e Ataque Poderoso permitem trocar bônus de ataque por dano contra alvos fáceis de acertar."
+  ]
+}

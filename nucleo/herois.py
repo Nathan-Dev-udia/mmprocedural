@@ -2,8 +2,9 @@
 
 As fichas chegam em dois formatos: as da Marvel são conversões da 2ª para a 3ª edição, já em campos separados
 (habilidades, defesas, poderes com a construção em 3e, notas de conversão); as da DC foram extraídas dos livros DC
-Adventures e guardam o texto publicado, em inglês. Este módulo põe as duas num formato comum para a tela (resumo para a
-lista e seções para a ficha) sem mexer nos arquivos.
+Adventures e guardam o texto publicado, em inglês, a não ser as que já foram conferidas e traduzidas (pasta
+traducoes/, que tem precedência). Este módulo põe tudo num formato comum para a tela (resumo para a lista e seções
+para a ficha) sem mexer nos arquivos.
 """
 
 import json
@@ -55,14 +56,27 @@ def _resumo_marvel(caminho, dados):
             "volume": "", "termos": [t for p in dados["ficha"].get("poderes", []) for t in (p.get("nome"), p.get("nome_pt")) if t]}
 
 
+def traducao(ficha_id):
+    """Ficha conferida e traduzida (dados/generos/herois/traducoes/<id>.json), ou None se não houver."""
+    caminho = PASTA / "traducoes" / f"{ficha_id}.json"
+    return json.loads(caminho.read_text(encoding="utf-8")) if caminho.is_file() else None
+
+
 def _resumo_dc(caminho, dados):
-    return {"id": f"dc/{caminho.parent.name}/{caminho.stem}", "editora": "dc", "nome": dados["nome"],
-            "nome_pt": dados.get("nome_pt") if dados.get("nome_pt") != dados["nome"] else "",
-            "np": dados.get("nivel_poder"), "pp": dados.get("pontos_poder_publicados"), "pp_rotulo": "PP",
+    ficha_id = f"dc/{caminho.parent.name}/{caminho.stem}"
+    traduzida = traducao(ficha_id)
+    nome_pt = traduzida["nome_pt"] if traduzida else dados.get("nome_pt")
+    termos = _nomes_dos_poderes_dc(dados["ficha_publicada"].get("poderes", ""))
+    if traduzida:
+        termos += [linha.lstrip("• ").split(":")[0] for linha in traduzida["ficha"]["poderes"] if ":" in linha]
+    pp = traduzida["ficha"]["total"] if traduzida else dados.get("pontos_poder_publicados")
+    return {"id": ficha_id, "editora": "dc", "nome": dados["nome"],
+            "nome_pt": nome_pt if nome_pt != dados["nome"] else "",
+            "np": dados.get("nivel_poder"), "pp": pp, "pp_rotulo": "PP",
             "volume": VOLUMES_DC.get(caminho.parent.name, caminho.parent.name),
             # A página distingue versões do mesmo personagem (Tempest na p. 24 e na p. 185 do Vol. I).
             "pagina": dados.get("fonte", {}).get("pagina_pdf"),
-            "termos": _nomes_dos_poderes_dc(dados["ficha_publicada"].get("poderes", ""))}
+            "termos": termos, "traduzida": bool(traduzida)}
 
 
 @lru_cache(maxsize=1)
@@ -126,6 +140,30 @@ def _secoes_dc(dados):
     return secoes
 
 
+def texto_do_ataque(ataque):
+    """'Desarmado +13, corpo a corpo, Dano 10' a partir de um ataque da ficha traduzida."""
+    partes = [ataque["nome"] + (f" {ataque['bonus']:+d}" if isinstance(ataque.get("bonus"), int) else ""),
+              ataque["alcance"].lower() if ataque.get("alcance") else "",
+              f"Dano {ataque['dano']}" if isinstance(ataque.get("dano"), int) else ataque.get("dano") or "",
+              ataque.get("observacao", "")]
+    return ", ".join(p for p in partes if p)
+
+
+def _secoes_traduzidas(traduzida):
+    f = traduzida["ficha"]
+    defesas = [", ".join(f"{nome} {valor}" for nome, valor in f["defesas"].items())]
+    custos = ", ".join(f"{nome} {valor}" for nome, valor in f["custos"].items()) + f" = {f['total']}"
+    return [("Poderes", f["poderes"]),
+            ("Equipamento", f["equipamento"]),
+            ("Vantagens", f["vantagens"]),
+            ("Perícias", [f"{p['nome']} {p['graduacoes']} ({p['total']:+d})" for p in f["pericias"]]),
+            ("Ataques", [f"Iniciativa {f['iniciativa']:+d}"] + [texto_do_ataque(a) for a in f["ataques"]]),
+            ("Defesas", defesas + ([f["observacao_defesas"]] if f.get("observacao_defesas") else [])),
+            ("Pontos de poder", [custos]),
+            ("Complicações", [f"{c['titulo']}: {c['texto']}" for c in f["complicacoes"]]),
+            ("Notas da conferência", traduzida.get("notas", []))]
+
+
 def ficha(ficha_id):
     """Resumo, habilidades e seções de uma ficha, prontos para a tela; None se o id não existir."""
     entrada = _catalogo().get(ficha_id)
@@ -139,6 +177,12 @@ def ficha(ficha_id):
         pagina = dados.get("fonte", {}).get("pagina")
         status = "Conversão com ajustes de NP" if dados.get("status_conversao") == "convertida_com_ajustes_de_np" \
             else "Conversão"
+    elif resumo["traduzida"]:
+        traduzida = traducao(ficha_id)
+        habilidades = traduzida["ficha"]["habilidades"]
+        secoes = _secoes_traduzidas(traduzida)
+        pagina = dados.get("fonte", {}).get("pagina_pdf")
+        status = "Ficha publicada, conferida com o livro e traduzida"
     else:
         habilidades = {HABILIDADES_DC.get(k, k): v for k, v in dados["ficha_publicada"].get("habilidades", {}).items()}
         secoes = _secoes_dc(dados)

@@ -1,0 +1,58 @@
+{
+  "nome_pt": "Lanterna Verde (Hal Jordan)",
+  "conferida_em": "2026-10-26",
+  "pagina_do_livro": 237,
+  "ficha": {
+    "habilidades": {"For": 2, "Vig": 2, "Agi": 2, "Des": 3, "Lut": 5, "Int": 1, "Pro": 3, "Pre": 3},
+    "poderes": [
+      "Anel de Poder: 132 pontos, Removível (–26 pontos) (106 PP)",
+      "• IA e Banco de Dados: Característica 2 (2 PP)",
+      "• Comunicação: Sentidos 1 (Elo de Comunicação com a Bateria Central de Poder) (1 PP)",
+      "• Voo: Voo 14 (51.500 km/h), Movimento 4 (Adaptação Ambiental: Gravidade Zero; Viagem Espacial 3) (36 PP)",
+      "• Campo de Força: Proteção 12, Impenetrável; Imunidade 10 (Suporte Vital) (34 PP)",
+      "• Manipulação de Força: Arranjo (36 pontos)",
+      "•• Rajada de Força: Dano à Distância 18, Dinâmico (37 PP)",
+      "•• Bolha de Força: Afeta Outros, Área de Explosão e À Distância em Imunidade 10 (Suporte Vital), Dinâmico (2 PP)",
+      "•• Construtos de Força: Criar 18, Dinâmico (2 PP)",
+      "•• Levantar: Mover Objeto 18, Dinâmico (2 PP)",
+      "•• Construtos Móveis: Criar 12, Móvel, Dinâmico (2 PP)",
+      "• Feixe de Varredura: Sentidos 6 (Analítico Auditivo, Químico e Visual) (6 PP)",
+      "• Tradutor Universal: Compreender Idiomas 4 (8 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": ["Destemido", "Trabalho em Equipe", "Esforço Supremo (Vontade)"],
+    "pericias": [
+      {"nome": "Atletismo", "graduacoes": 4, "total": 6},
+      {"nome": "Combate Corpo-a-Corpo: Desarmado", "graduacoes": 3, "total": 8},
+      {"nome": "Enganação", "graduacoes": 4, "total": 7},
+      {"nome": "Especialidade: Aplicação da Lei", "graduacoes": 8, "total": 9},
+      {"nome": "Especialidade: Militar", "graduacoes": 8, "total": 9},
+      {"nome": "Intuição", "graduacoes": 8, "total": 11},
+      {"nome": "Investigação", "graduacoes": 4, "total": 5},
+      {"nome": "Percepção", "graduacoes": 4, "total": 7},
+      {"nome": "Persuasão", "graduacoes": 4, "total": 7},
+      {"nome": "Combate à Distância: Anel de Poder", "graduacoes": 7, "total": 10},
+      {"nome": "Veículos", "graduacoes": 12, "total": 15}
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {"nome": "Anel de Poder", "bonus": 10, "alcance": "À distância", "dano": 18},
+      {"nome": "Desarmado", "bonus": 8, "alcance": "Corpo a corpo", "dano": 2}
+    ],
+    "defesas": {"Esquiva": 12, "Aparar": 10, "Fortitude": 10, "Resistência": 14, "Vontade": 18},
+    "observacao_defesas": "Resistência 2 sem a Proteção do anel de poder.",
+    "custos": {"Habilidades": 42, "Perícias": 33, "Poderes": 106, "Defesas": 38, "Vantagens": 3},
+    "total": 222,
+    "complicacoes": [
+      {"titulo": "Perda de Poder", "texto": "O anel de poder precisa ser recarregado periodicamente e avisa quando a energia está acabando."},
+      {"titulo": "Reputação", "texto": "Hal Jordan é um rebelde em quase todos os aspectos da vida e conhecido por ter problemas com autoridade."},
+      {"titulo": "Responsabilidade", "texto": "Hal leva muito a sério suas responsabilidades de portador do anel. Também se sente responsável pelos atos terríveis de Parallax enquanto a entidade do medo o controlava."},
+      {"titulo": "Fraqueza", "texto": "Os anéis dos Lanternas Verdes dependem da força de vontade de quem os usa: a graduação máxima dos efeitos do anel é igual à graduação de Vontade do portador, e momentos de insegurança ou hesitação podem fazer o anel falhar."}
+    ]
+  },
+  "notas": [
+    "Os poderes recuados (com um traço no PDF padrão) fazem parte do Anel de Poder; os mais recuados (dois traços) são efeitos alternativos da Manipulação de Força.",
+    "Uso comum de esforço extra: aplicar o modificador Preciso a um efeito da Manipulação de Força, refletindo o foco do Hal, que prefere um feixe de energia concentrado a construtos complexos.",
+    "A extração automática dessa ficha estava correta."
+  ]
+}

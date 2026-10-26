@@ -23,6 +23,9 @@ automática. Quando uma informação parecer incompleta ou fora de contexto,
 confira a página indicada no arquivo de origem. Para regenerar os arquivos,
 execute `python ferramentas/extrair_fichas_dc.py` a partir da raiz do projeto.
 
+Algumas fichas já foram conferidas com o livro e traduzidas: ficam em `../traducoes/dc/` (veja o README de lá) e têm
+precedência sobre o JSON desta pasta na tela e nos PDFs. A reextração não as apaga.
+
 ## Qualidade da extração e reextração
 
 A extração tem falhas conhecidas (defesas e pontos ausentes em parte das fichas, texto de seções misturado, letras

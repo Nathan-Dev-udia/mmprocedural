@@ -1,0 +1,60 @@
+{
+  "nome_pt": "Flash (Barry Allen)",
+  "conferida_em": "2026-10-26",
+  "pagina_do_livro": 207,
+  "ficha": {
+    "habilidades": {"For": 1, "Vig": 3, "Agi": 4, "Des": 3, "Lut": 4, "Int": 4, "Pro": 3, "Pre": 2},
+    "poderes": [
+      "Aura sem Atrito: Imunidade 1 (Calor por Atrito) (1 PP)",
+      "Correr sobre a Água: Movimento 1 (Andar sobre a Água), Limitado a enquanto se move (1 PP)",
+      "Correr pelas Paredes: Movimento 2 (Escalar Paredes 2), Limitado a enquanto se move (2 PP)",
+      "Supervelocidade: Defesa Aumentada 24 (Esquiva 12, Aparar 12), Vantagem Aumentada (Finta Ágil, Ataque Corpo-a-Corpo 4, Rolamento Defensivo 5, Evasão 2, Iniciativa Aprimorada 10, Interpor-se, De Pé, Ação em Movimento, Tomar a Iniciativa, Ataque Dominó), Rapidez 20, Velocidade 20 (3.200.000 km/h) (91 PP)",
+      "Truques de Supervelocidade: Arranjo (20 pontos)",
+      "• Controle do Ar: Mover Objeto 10 em Área de Cone, Alcance Perto (20 PP)",
+      "• Colchão de Ar: Queda Segura em Área de Explosão, Afeta Outros (1 PP)",
+      "• Vácuo: Aflição Cumulativa 5 em Área de Explosão (resistida por Fortitude; Tonto, Atordoado, Incapacitado), Concentração (1 PP)",
+      "• Vibração: Intangibilidade 4 (Intangível) (1 PP)",
+      "• Redemoinho: Mover Objeto 10 em Área de Explosão, Alcance Perto (1 PP)"
+    ],
+    "equipamento": [
+      "Esteira Cósmica: Viagem no Tempo 3 (6 PP)",
+      "Anel do Uniforme: Característica 1 (guarda o uniforme comprimido) (1 PP)"
+    ],
+    "vantagens": ["Finta Ágil*", "Ataque Corpo-a-Corpo 4*", "Contatos", "Rolamento Defensivo 5*", "Equipamento 2",
+                  "Evasão 2*", "Iniciativa Aprimorada 10*", "Interpor-se*", "De Pé*", "Ação em Movimento*",
+                  "Tomar a Iniciativa*", "Ataque Dominó*", "Trabalho em Equipe",
+                  "Esforço Supremo (testes de Supervelocidade)", "Bem Informado"],
+    "pericias": [
+      {"nome": "Acrobacia", "graduacoes": 4, "total": 8},
+      {"nome": "Atletismo", "graduacoes": 6, "total": 7},
+      {"nome": "Enganação", "graduacoes": 4, "total": 6},
+      {"nome": "Combate Corpo-a-Corpo: Desarmado", "graduacoes": 2, "total": 10},
+      {"nome": "Especialidade: Ciência Forense", "graduacoes": 8, "total": 12},
+      {"nome": "Especialidade: Aplicação da Lei", "graduacoes": 4, "total": 8},
+      {"nome": "Intuição", "graduacoes": 8, "total": 11},
+      {"nome": "Investigação", "graduacoes": 8, "total": 12},
+      {"nome": "Percepção", "graduacoes": 4, "total": 7},
+      {"nome": "Tecnologia", "graduacoes": 8, "total": 12}
+    ],
+    "iniciativa": 44,
+    "ataques": [
+      {"nome": "Desarmado", "bonus": 10, "alcance": "Corpo a corpo", "dano": 1},
+      {"nome": "Redemoinho", "bonus": null, "alcance": "Área de Explosão", "dano": null, "observacao": "agarrar, CD 20 de Esquiva"}
+    ],
+    "defesas": {"Esquiva": 16, "Aparar": 16, "Fortitude": 9, "Resistência": 8, "Vontade": 10},
+    "observacao_defesas": "Resistência 3 sem Rolamento Defensivo.",
+    "custos": {"Habilidades": 48, "Perícias": 28, "Poderes": 119, "Defesas": 13, "Vantagens": 6},
+    "total": 214,
+    "complicacoes": [
+      {"titulo": "Inimigos", "texto": "O Flash tem uma extensa Galeria de Vilões atrás dele."},
+      {"titulo": "Relacionamentos", "texto": "Sua esposa, Iris, o neto Bart \"Kid Flash\" Allen, Wally West e a grande \"família Flash\"."},
+      {"titulo": "Identidade Secreta", "texto": "Barry Allen, perito criminal da polícia de Central City."},
+      {"titulo": "Fraqueza", "texto": "Esforço extra envolvendo Velocidade ameaça arrastar o Flash para a Força de Aceleração."}
+    ]
+  },
+  "notas": [
+    "As vantagens marcadas com * vêm do poder Supervelocidade (impressas em itálico no livro) e não entram no custo de vantagens.",
+    "O livro não imprime o custo de Aura sem Atrito; 1 PP é o custo do efeito e é o que fecha os 119 pontos de poderes (é o mesmo valor impresso na ficha do Jay Garrick).",
+    "A extração automática dessa ficha estava correta."
+  ]
+}

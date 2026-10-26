@@ -1,0 +1,52 @@
+{
+  "nome_pt": "Aquaman",
+  "conferida_em": "2026-10-26",
+  "pagina_do_livro": 20,
+  "ficha": {
+    "habilidades": {"For": 10, "Vig": 8, "Agi": 4, "Des": 2, "Lut": 11, "Int": 2, "Pro": 3, "Pre": 3},
+    "poderes": [
+      "Aquático: Imunidade 3 (Frio, Afogamento, Pressão), Movimento 1 (Adaptação Ambiental: Aquático), Sentidos 1 (Visão na Penumbra) (6 PP)",
+      "Telepatia Marinha: Arranjo (57 pontos)",
+      "• Invocar Vida Marinha 8 (120 pontos), Horda, Elo Mental, Lacaios Múltiplos 2 (4 lacaios), Tipo Geral Variável (Vida Marinha), Limitado a dentro ou perto da água (57 PP)",
+      "• Invocar Vida Marinha 4 (60 pontos), Horda, Elo Mental, Lacaios Múltiplos 4 (16 lacaios), Tipo Geral Variável (Vida Marinha), Limitado a dentro ou perto da água (1 PP)",
+      "• Compreender Animais 2, Comunicação Mental 4, Limitado a Vida Marinha (1 PP)",
+      "Natação: Natação 10 (800 km/h) (10 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": ["Ataque Imprudente", "Empatia com Animais", "Benefício 3 (Rei de Atlântida)", "Rolamento Defensivo 3",
+                  "Ambiente Favorito (Aquático)", "Iniciativa Aprimorada", "Idiomas (Atlante)", "Ataque Poderoso",
+                  "Ataque Preciso (Corpo a corpo; Camuflagem)"],
+    "pericias": [
+      {"nome": "Acrobacia", "graduacoes": 4, "total": 8},
+      {"nome": "Atletismo", "graduacoes": 4, "total": 14},
+      {"nome": "Combate Corpo-a-Corpo: Desarmado", "graduacoes": 2, "total": 13},
+      {"nome": "Especialidade: Saber Atlante", "graduacoes": 7, "total": 9},
+      {"nome": "Intuição", "graduacoes": 6, "total": 9},
+      {"nome": "Intimidação", "graduacoes": 6, "total": 9},
+      {"nome": "Percepção", "graduacoes": 5, "total": 8},
+      {"nome": "Combate à Distância: Arremesso", "graduacoes": 6, "total": 8},
+      {"nome": "Furtividade", "graduacoes": 4, "total": 8},
+      {"nome": "Tecnologia", "graduacoes": 3, "total": 5},
+      {"nome": "Veículos", "graduacoes": 3, "total": 5}
+    ],
+    "iniciativa": 8,
+    "ataques": [
+      {"nome": "Desarmado", "bonus": 13, "alcance": "Corpo a corpo", "dano": 10}
+    ],
+    "defesas": {"Esquiva": 11, "Aparar": 11, "Fortitude": 11, "Resistência": 11, "Vontade": 11},
+    "observacao_defesas": "Resistência 8 sem Rolamento Defensivo.",
+    "custos": {"Habilidades": 86, "Perícias": 25, "Poderes": 75, "Defesas": 19, "Vantagens": 13},
+    "total": 218,
+    "complicacoes": [
+      {"titulo": "Relacionamentos", "texto": "Aquaman é casado com Mera e tem laços com seu antigo pupilo, Tempestade, e com os amigos em Atlântida."},
+      {"titulo": "Responsabilidade", "texto": "Como Rei de Atlântida, Aquaman precisa atender às necessidades de seu povo e ao dever para com os Sete Mares, o que às vezes entra em conflito com suas responsabilidades na Liga da Justiça."},
+      {"titulo": "Temperamento", "texto": "Aquaman é conhecido por seu temperamento explosivo."},
+      {"titulo": "Fraqueza", "texto": "Aquaman se desidrata quando fica longe da água por muito tempo: fica prejudicado, depois desabilitado e por fim incapacitado, antes que sua condição ameace a vida. Mergulhar na água remove na hora todas as condições acumuladas."}
+    ]
+  },
+  "notas": [
+    "Na extração automática, o campo de poderes trazia um trecho da história do personagem; os poderes acima foram copiados da página do livro.",
+    "Pela tabela de custos, as defesas compradas somam 18 pontos (Esquiva 7, Fortitude 3, Vontade 8), não 19: o total seria 217. Mantidos os números impressos.",
+    "O livro traz duas variações na p. 21: o Rei Guerreiro (Mão de Arpão: Golpe 2 Baseado em Força, Alongamento 4, Limitado ao arpão; 4 PP) e o Portador da Água (Mão do Portador da Água: arranjo mágico de 24 pontos com Aflição 12 de desidratação, Cura 12, Anular Magia 8, Dano à Distância 12 de água fervente e outros)."
+  ]
+}
