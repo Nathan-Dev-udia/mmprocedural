@@ -46,8 +46,8 @@ Problemas por causa, em ordem de impacto:
 - **Mantenha os ids** (nome do arquivo = id da ficha) e a estrutura `ficha_publicada` com as mesmas chaves. O catálogo
   (`nucleo/herois.py`), o PDF (`nucleo/herois_pdf.py`) e os testes (`tests/test_herois.py`, que contam 536 fichas)
   dependem deles. Se o número de fichas mudar, atualize o teste de propósito.
-- Nomes de poderes, vantagens e perícias ficam em inglês, como no livro (decisão do usuário; um glossário
-  inglês→português pode vir depois).
+- Os JSONs desta pasta ficam em inglês, como no livro. A tradução vai em `../traducoes/dc/` (veja "Tradução: o que falta
+  fazer" no README desta pasta), que a reextração não toca.
 - Depois de regenerar: `python ferramentas/auditar_herois.py <saida.json> --editora dc`, compare com a linha de base,
   e rode `python -m pytest` (a suíte gera o PDF das 652 fichas). Atualize `auditoria_extracao.json` e a tabela acima.
 - Se mudar o formato de algum campo, ajuste `_ler_dc` em `nucleo/herois_pdf.py` e crie um teste com uma ficha real.
