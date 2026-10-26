@@ -72,10 +72,24 @@ function desenharFicha(f) {
     <dl class="habilidades-heroi">${habilidades}</dl>
     ${secoes}
     <footer>
-      <a class="botao" href="/herois/${f.id.split("/").map(encodeURIComponent).join("/")}.pdf" download>Baixar ficha em PDF</a>
+      <div class="acoes-ficha">
+        <a class="botao" href="/herois/${f.id.split("/").map(encodeURIComponent).join("/")}.pdf" download
+          title="Preenche a ficha editável oficial de M&amp;M">PDF padrão</a>
+        <button type="button" class="botao destaque" id="imprimir-ficha"
+          title="Abre a impressão com a ficha como na tela; escolha &quot;Salvar como PDF&quot;">PDF personalizado</button>
+      </div>
       <p class="discreto">Fonte: ${escapar(f.fonte)}</p>
     </footer>`;
+  el("imprimir-ficha").addEventListener("click", () => imprimirFicha(f.nome_pt || f.nome));
   el("ficha-heroi").hidden = false;
+}
+
+// O navegador sugere o título da página como nome do PDF salvo; durante a impressão ele vira o nome do personagem.
+function imprimirFicha(nome) {
+  const titulo = document.title;
+  document.title = nome;
+  window.addEventListener("afterprint", () => { document.title = titulo; }, { once: true });
+  window.print();
 }
 
 async function abrirFicha(id) {

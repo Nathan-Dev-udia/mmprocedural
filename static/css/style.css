@@ -506,6 +506,37 @@ a.botao { text-decoration: none; display: inline-block; }
   .ficha-heroi { position: static; }
   .habilidades-heroi { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 }
+.acoes-ficha { display: flex; flex-wrap: wrap; gap: 8px; }
+
+/* PDF personalizado: na impressão da página de heróis sobra só a ficha, em cores claras, numa folha A4. */
+@media print {
+  @page { size: A4; margin: 12mm; }
+  body:has(#ficha-heroi:not([hidden])) {
+    --fundo: #ffffff;
+    --papel: #ffffff;
+    --campo: #f3f8fd;
+    --campo-forte: #c7dbf1;
+    --tinta: #0f1c2b;
+    --tinta-suave: #4a5d72;
+    --borda: #b3cae2;
+    --borda-forte: #7ab3e1;
+    --titulo: #0083ca;
+    background: #ffffff;
+    font-size: 10.5pt;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  body:has(#ficha-heroi:not([hidden])) :is(.topo, .rodape, .abas, .formulario, .lista-de-herois, #mensagem, .acoes-ficha) {
+    display: none !important;
+  }
+  body:has(#ficha-heroi:not([hidden])) :is(.conteudo, .painel-aba) { margin: 0; padding: 0; max-width: none; }
+  .herois { display: block; margin: 0; }
+  .ficha-heroi { position: static; border: none; box-shadow: none; padding: 0; gap: 6px; }
+  .ficha-heroi header h2 { font-size: 18pt; }
+  .habilidades-heroi { grid-template-columns: repeat(8, minmax(0, 1fr)); }
+  .ficha-heroi h3 { break-after: avoid; margin-top: 8px; border-bottom: 1px solid var(--borda); }
+  .ficha-heroi li, .ficha-heroi p, .habilidades-heroi { break-inside: avoid; }
+}
 
 
 /* Bestiário */
