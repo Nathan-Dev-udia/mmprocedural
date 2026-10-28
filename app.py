@@ -19,7 +19,7 @@ from pathlib import Path
 from flask import Flask, jsonify, redirect, render_template, request, send_file
 
 from nucleo import (bestiario, bestiario_pdf, data_loader, docx_export, formatter, generator, herois, herois_pdf, livros, medidas, pdf_export,
-                    planilhas, player, validator)
+                    planilhas, player, validator, viagem)
 
 app = Flask(__name__)
 PASTA_LIVROS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "dados", "livros")
@@ -433,6 +433,32 @@ def baixar_pdf_de_criatura(criatura_id):
         return jsonify({"erro": "Criatura não encontrada."}), 404
     return send_file(io.BytesIO(conteudo), mimetype="application/pdf", as_attachment=True,
                      download_name=f"{criatura_id.rsplit('/', 1)[-1]}.pdf")
+
+
+# ---------------------------------------------------------------- rolagem de eventos de viagem
+
+@app.get("/api/viagem")
+def categorias_de_viagem():
+    return jsonify({"categorias": viagem.categorias()})
+
+
+@app.get("/api/viagem/<categoria>")
+def opcoes_de_viagem(categoria):
+    try:
+        return jsonify(viagem.opcoes(categoria))
+    except ValueError as erro:
+        return jsonify({"erro": str(erro)}), 404
+
+
+@app.post("/api/viagem/rolar")
+def rolar_viagem():
+    corpo = request.get_json(silent=True) or {}
+    try:
+        resultado = viagem.rolar(corpo.get("categoria"), corpo.get("situacao") or {}, corpo.get("dados"),
+                                 corpo.get("clima_atual"), bool(corpo.get("combate_hoje")))
+    except ValueError as erro:
+        return jsonify({"erro": str(erro)}), 400
+    return jsonify(resultado)
 
 
 @app.get("/planilhas/<genero_id>/<tipo>.xlsx")

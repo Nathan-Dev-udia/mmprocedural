@@ -695,3 +695,32 @@ a.botao { text-decoration: none; display: inline-block; }
 .controle-agrupamento input {
   cursor: pointer;
 }
+
+/* Rolagem de eventos de viagem */
+.viagem .titulo-passo:not(:first-child) { margin-top: 24px; }
+#viagem-narrar-bloco { margin-top: 24px; }
+.viagem-categoria { grid-template-columns: minmax(220px, 480px); margin-bottom: 16px; }
+.viagem-dia { margin: 16px 0 0; padding: 8px 12px; background: var(--campo); border-radius: 6px; }
+.viagem-dados { margin: 0 0 12px; }
+.viagem-dados summary { cursor: pointer; font-weight: 600; color: var(--destaque); margin-bottom: 8px; }
+.viagem-campos-dados { grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; }
+.viagem-botoes { margin-bottom: 16px; }
+.viagem-botoes .botao.principal { width: auto; min-width: 200px; }
+.viagem-etapas { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+.viagem-etapas th { text-align: left; color: var(--tinta-suave); font-weight: 600; border-bottom: 2px solid var(--campo-forte); padding: 6px 8px; }
+.viagem-etapas td { border-bottom: 1px solid var(--campo-forte); padding: 6px 8px; vertical-align: top; }
+.viagem-dado { white-space: nowrap; }
+.viagem-dado span, .viagem-dado em { color: var(--tinta-suave); font-style: normal; font-size: 0.85rem; }
+.viagem-resultado { font-weight: 700; color: var(--titulo); }
+.viagem-diario { margin-top: 16px; }
+.viagem-diario .barra-resultado { margin-top: 0; }
+.viagem-diario ol { margin: 0; padding-left: 22px; }
+@media (max-width: 640px) {
+  .viagem-etapas thead { display: none; }
+  .viagem-etapas tr { display: grid; grid-template-columns: 1fr auto; padding: 6px 0; border-bottom: 1px solid var(--campo-forte); }
+  .viagem-etapas td { border: none; padding: 2px 4px; }
+  .viagem-etapas td:last-child { grid-column: 1 / -1; color: var(--tinta-suave); font-size: 0.9rem; }
+}
+@media (max-width: 560px) {
+  .aba { padding: 8px 8px; font-size: 0.85rem; flex: 1 1 0; min-width: 0; }
+}

@@ -1,0 +1,1429 @@
+{
+  "genero": "fantasia",
+  "nome": "Fantasia medieval",
+  "descricao": "Viagem pelo Continente (The Witcher): estradas, florestas e pântanos com monstros do nosso bestiário.",
+  "areas": [
+    {
+      "id": "Tranquila",
+      "quando": "Estrada principal, patrulhada, perto de cidades",
+      "limiar": 17,
+      "mod_intensidade": -1,
+      "np": "NP 2–4",
+      "exemplos": "Novigrad–Oxenfurt, rotas comerciais de Temeria"
+    },
+    {
+      "id": "Média",
+      "quando": "Estradas comuns do reino, fazendas e aldeias espaçadas",
+      "limiar": 14,
+      "mod_intensidade": 0,
+      "np": "NP 3–5",
+      "exemplos": "Interior de Redânia, Aedirn"
+    },
+    {
+      "id": "Perigosa",
+      "quando": "Fronteira, floresta densa, pântano, região em guerra",
+      "limiar": 11,
+      "mod_intensidade": 1,
+      "np": "NP 4–7",
+      "exemplos": "Velen, margens do Pontar, Brokilon (borda)"
+    },
+    {
+      "id": "Mortal",
+      "quando": "Ermos, terra amaldiçoada, campo de batalha recente",
+      "limiar": 8,
+      "mod_intensidade": 2,
+      "np": "NP 5–9",
+      "exemplos": "Pântanos de Velen, Montanhas Azuis, ruínas élficas"
+    }
+  ],
+  "periodos": [
+    {
+      "id": "Manhã",
+      "horario": "Amanhecer ao meio-dia",
+      "mod_evento": -2,
+      "mod_tipo": -10,
+      "notas": "Respiro. Bom para social, obstáculos e pistas deixadas durante a noite."
+    },
+    {
+      "id": "Tarde",
+      "horario": "Meio-dia ao entardecer",
+      "mod_evento": 0,
+      "mod_tipo": 0,
+      "notas": "Viagem plena. Bandidos e patrulhas; o fim da tarde já traz presságios."
+    },
+    {
+      "id": "Noite",
+      "horario": "Entardecer à meia-noite",
+      "mod_evento": 2,
+      "mod_tipo": 10,
+      "notas": "Acampamento, fogueira e vigília. Feras e monstros saem."
+    },
+    {
+      "id": "Madrugada",
+      "horario": "Meia-noite ao amanhecer",
+      "mod_evento": 3,
+      "mod_tipo": 15,
+      "notas": "A hora dos espectros. Prefira sinais e pressão antes do combate."
+    }
+  ],
+  "situacoes": [
+    {
+      "id": "Na estrada",
+      "descricao": "Viajando ou em pausa curta.",
+      "mod_evento": 0
+    },
+    {
+      "id": "Acampado com fogueira",
+      "descricao": "O fogo afasta feras, mas é visto de longe.",
+      "mod_evento": 1
+    },
+    {
+      "id": "Acampado escondido",
+      "descricao": "Sem fogo: frio e desconforto, mas difícil de achar.",
+      "mod_evento": -2
+    },
+    {
+      "id": "Abrigo seguro",
+      "descricao": "Estalagem, aldeia ou casa. Só acontece algo se for importante.",
+      "mod_evento": -6
+    }
+  ],
+  "estacoes": [
+    "Primavera",
+    "Verão",
+    "Outono",
+    "Inverno"
+  ],
+  "terrenos": [
+    {
+      "id": "Estrada",
+      "inclui": "Estradas, campos, fazendas, trigais"
+    },
+    {
+      "id": "Floresta",
+      "inclui": "Bosques, mata fechada, clareiras"
+    },
+    {
+      "id": "Pântano",
+      "inclui": "Pântanos, rios, lagos, margens e costas"
+    },
+    {
+      "id": "Montanha",
+      "inclui": "Montanhas, colinas, desfiladeiros, cavernas"
+    },
+    {
+      "id": "Ruínas",
+      "inclui": "Ruínas, cemitérios, campos de batalha, aldeias abandonadas"
+    }
+  ],
+  "atividade": {
+    "Diurna": {
+      "Manhã": 1.5,
+      "Tarde": 1.5,
+      "Noite": 0.5,
+      "Madrugada": 0.25
+    },
+    "Noturna": {
+      "Manhã": 0.25,
+      "Tarde": 0.5,
+      "Noite": 1.5,
+      "Madrugada": 2
+    },
+    "Qualquer": {
+      "Manhã": 1,
+      "Tarde": 1,
+      "Noite": 1,
+      "Madrugada": 1
+    }
+  },
+  "fator_fora_do_terreno": 0.1,
+  "climas": [
+    {
+      "nome": "Céu limpo",
+      "pesos": {
+        "Primavera": 25,
+        "Verão": 35,
+        "Outono": 15,
+        "Inverno": 15
+      },
+      "mod_evento": 0,
+      "mod_tipo": 0,
+      "viagem": "Viagem normal, boa visibilidade.",
+      "regra": "Sem modificadores."
+    },
+    {
+      "nome": "Calor intenso",
+      "pesos": {
+        "Primavera": 0,
+        "Verão": 18,
+        "Outono": 0,
+        "Inverno": 0
+      },
+      "mod_evento": -1,
+      "mod_tipo": 0,
+      "viagem": "Cavalos cansam rápido; água vira prioridade. Bichos se entocam de dia.",
+      "regra": "Marcha à tarde: Fortitude CD 10 ou Fatigado (CD 15 de armadura pesada)."
+    },
+    {
+      "nome": "Nublado",
+      "pesos": {
+        "Primavera": 20,
+        "Verão": 12,
+        "Outono": 25,
+        "Inverno": 20
+      },
+      "mod_evento": 0,
+      "mod_tipo": 0,
+      "viagem": "Luz difusa, dia parece mais curto.",
+      "regra": "Sem modificadores."
+    },
+    {
+      "nome": "Garoa",
+      "pesos": {
+        "Primavera": 15,
+        "Verão": 6,
+        "Outono": 15,
+        "Inverno": 0
+      },
+      "mod_evento": 0,
+      "mod_tipo": 0,
+      "viagem": "Estrada escorregadia, roupa úmida.",
+      "regra": "−1 em Percepção (audição); +2 para seguir rastros frescos."
+    },
+    {
+      "nome": "Chuva forte",
+      "pesos": {
+        "Primavera": 12,
+        "Verão": 8,
+        "Outono": 12,
+        "Inverno": 3
+      },
+      "mod_evento": -1,
+      "mod_tipo": 0,
+      "viagem": "Estrada vira lama (viagem 25% mais lenta); rios sobem.",
+      "regra": "−2 em Percepção; ataques à distância −2; rastros antigos somem; acender fogo: Sobrevivência CD 12."
+    },
+    {
+      "nome": "Tempestade",
+      "pesos": {
+        "Primavera": 6,
+        "Verão": 10,
+        "Outono": 5,
+        "Inverno": 2
+      },
+      "mod_evento": -2,
+      "mod_tipo": 0,
+      "viagem": "Raios e vendaval. Procure abrigo; viagem pela metade.",
+      "regra": "−5 em Percepção; ataques à distância −5; Fortitude CD 10 por período exposto ou Fatigado."
+    },
+    {
+      "nome": "Neblina",
+      "pesos": {
+        "Primavera": 12,
+        "Verão": 4,
+        "Outono": 15,
+        "Inverno": 10
+      },
+      "mod_evento": 2,
+      "mod_tipo": 10,
+      "viagem": "Visibilidade de poucos metros; sons enganam; fácil se perder.",
+      "regra": "Camuflagem além de 10 m (−5 em Percepção visual); Sobrevivência CD 12 para não se perder."
+    },
+    {
+      "nome": "Ventania",
+      "pesos": {
+        "Primavera": 7,
+        "Verão": 7,
+        "Outono": 10,
+        "Inverno": 10
+      },
+      "mod_evento": 0,
+      "mod_tipo": 0,
+      "viagem": "Poeira e folhas; fogueira difícil.",
+      "regra": "Ataques à distância −2; Percepção auditiva −2."
+    },
+    {
+      "nome": "Frio intenso",
+      "pesos": {
+        "Primavera": 3,
+        "Verão": 0,
+        "Outono": 3,
+        "Inverno": 20
+      },
+      "mod_evento": -1,
+      "mod_tipo": 0,
+      "viagem": "Geada; fogo e agasalho à noite são obrigatórios.",
+      "regra": "Sem agasalho: Fortitude CD 10 por período noturno ou Fatigado."
+    },
+    {
+      "nome": "Neve",
+      "pesos": {
+        "Primavera": 0,
+        "Verão": 0,
+        "Outono": 0,
+        "Inverno": 15
+      },
+      "mod_evento": -1,
+      "mod_tipo": 0,
+      "viagem": "Neve acumulada: viagem 50% mais lenta, rastros muito visíveis.",
+      "regra": "+5 para seguir rastros; fora da estrada é terreno difícil."
+    },
+    {
+      "nome": "Nevasca",
+      "pesos": {
+        "Primavera": 0,
+        "Verão": 0,
+        "Outono": 0,
+        "Inverno": 5
+      },
+      "mod_evento": -3,
+      "mod_tipo": 0,
+      "viagem": "Branco total; viajar é arriscado. Procure abrigo.",
+      "regra": "−5 em Percepção; viagem a 1/4; Fortitude CD 15 por período exposto ou Fatigado."
+    }
+  ],
+  "tipos": [
+    {
+      "nome": "Encontro social",
+      "pesos": {
+        "Tranquila": 35,
+        "Média": 20,
+        "Perigosa": 10,
+        "Mortal": 5
+      },
+      "categoria": null,
+      "descricao": "Gente na estrada: mercadores, viajantes, patrulhas, rumores e ganchos."
+    },
+    {
+      "nome": "Obstáculo",
+      "pesos": {
+        "Tranquila": 25,
+        "Média": 18,
+        "Perigosa": 12,
+        "Mortal": 7
+      },
+      "categoria": null,
+      "descricao": "O caminho ou o equipamento cria um problema: lama, ponte caída, roda quebrada."
+    },
+    {
+      "nome": "Descoberta",
+      "pesos": {
+        "Tranquila": 18,
+        "Média": 12,
+        "Perigosa": 8,
+        "Mortal": 6
+      },
+      "categoria": null,
+      "descricao": "Algo para encontrar: carroça abandonada, ervas, santuário, cadáver com pertences."
+    },
+    {
+      "nome": "Pista / presságio",
+      "pesos": {
+        "Tranquila": 12,
+        "Média": 15,
+        "Perigosa": 15,
+        "Mortal": 14
+      },
+      "categoria": "Monstro",
+      "descricao": "Sinal de uma criatura sem ela aparecer. A criatura sorteada é quem deixou o sinal."
+    },
+    {
+      "nome": "Humanos hostis",
+      "pesos": {
+        "Tranquila": 5,
+        "Média": 13,
+        "Perigosa": 13,
+        "Mortal": 10
+      },
+      "categoria": "Humano",
+      "descricao": "Bandidos, desertores, caçadores de bruxas, cultistas."
+    },
+    {
+      "nome": "Fera",
+      "pesos": {
+        "Tranquila": 4,
+        "Média": 12,
+        "Perigosa": 14,
+        "Mortal": 14
+      },
+      "categoria": "Fera",
+      "descricao": "Animais: lobos, wargs, ursos."
+    },
+    {
+      "nome": "Monstro",
+      "pesos": {
+        "Tranquila": 1,
+        "Média": 7,
+        "Perigosa": 18,
+        "Mortal": 28
+      },
+      "categoria": "Monstro",
+      "descricao": "Criaturas do Continente: afogadores, nekkers, carniçais, trolls, grifos..."
+    },
+    {
+      "nome": "Sobrenatural",
+      "pesos": {
+        "Tranquila": 0,
+        "Média": 3,
+        "Perigosa": 10,
+        "Mortal": 16
+      },
+      "categoria": "Sobrenatural",
+      "descricao": "Espectros, megeras, leshen, maldições e barganhas."
+    }
+  ],
+  "eventos": {
+    "Encontro social": [
+      {
+        "nome": "Mercador ambulante",
+        "descricao": "Carroça coberta, mula teimosa e um mercador que fala demais.",
+        "opcoes": "Comprar, vender, trocar rumores, barganhar.",
+        "reviravolta": "Um item à venda tem má fama; um rumor aponta para um contrato.",
+        "periodos": "Manhã / Tarde"
+      },
+      {
+        "nome": "Viajantes pedem ajuda",
+        "descricao": "Uma família ou viajante ferido pede escolta ou carona.",
+        "opcoes": "Ajudar, recusar, negociar, investigar a história.",
+        "reviravolta": "Gente sincera — ou alguém esconde uma mordida, uma maldição ou uma dívida.",
+        "periodos": "Manhã / Tarde"
+      },
+      {
+        "nome": "Patrulha do reino",
+        "descricao": "Soldados param o grupo, pedem documentos e perguntam por um desertor.",
+        "opcoes": "Mostrar papéis, subornar, blefar, colaborar.",
+        "reviravolta": "O desertor está escondido logo adiante; ou os soldados querem só um 'pedágio'.",
+        "periodos": "Manhã / Tarde"
+      },
+      {
+        "nome": "Bardo e rumores",
+        "descricao": "Um menestrel na beira da estrada canta sobre um monstro da região.",
+        "opcoes": "Ouvir, pagar por detalhes, seguir junto.",
+        "reviravolta": "A canção exagera — ou acerta em algo que ninguém devia saber.",
+        "periodos": "Tarde / Noite"
+      },
+      {
+        "nome": "Caçadores desconfiados",
+        "descricao": "Dois caçadores perguntam para onde o grupo vai.",
+        "opcoes": "Conversar, trocar informações, perceber contradições.",
+        "reviravolta": "Podem ser caçadores legítimos ou batedores de bandidos.",
+        "periodos": "Manhã / Tarde"
+      },
+      {
+        "nome": "Aviso de contrato",
+        "descricao": "Um poste ou árvore com aviso pregado: recompensa por um monstro.",
+        "opcoes": "Ler, arrancar e levar, ignorar.",
+        "reviravolta": "O contratante paga mal, mente sobre o monstro, ou já contratou outro bruxo.",
+        "periodos": "Qualquer"
+      }
+    ],
+    "Obstáculo": [
+      {
+        "nome": "Roda quebrada / cavalo manco",
+        "descricao": "A roda racha num buraco ou o cavalo começa a mancar.",
+        "opcoes": "Reparar, improvisar, perder tempo, seguir a pé.",
+        "reviravolta": "Quem ajudar pede algo em troca; a pedra no casco foi colocada de propósito?",
+        "periodos": "Qualquer"
+      },
+      {
+        "nome": "Travessia alagada",
+        "descricao": "A ponte caiu ou o vau subiu com a chuva.",
+        "opcoes": "Procurar outro ponto, consertar, atravessar com risco, esperar.",
+        "reviravolta": "Água turva e restos na margem: afogadores por perto.",
+        "periodos": "Qualquer"
+      },
+      {
+        "nome": "Árvore caída",
+        "descricao": "Um tronco enorme bloqueia a estrada.",
+        "opcoes": "Cortar, contornar pelo mato, puxar com o cavalo.",
+        "reviravolta": "Corte limpo de machado: alguém derrubou de propósito (emboscada?).",
+        "periodos": "Qualquer"
+      },
+      {
+        "nome": "Caminho perdido",
+        "descricao": "A estrada se divide e nenhuma placa ajuda.",
+        "opcoes": "Sobrevivência para se orientar, perguntar, voltar.",
+        "reviravolta": "Errar custa um período — e leva a uma área mais perigosa.",
+        "periodos": "Qualquer"
+      },
+      {
+        "nome": "Atoleiro",
+        "descricao": "A carroça afunda na lama até o eixo.",
+        "opcoes": "Empurrar (Força), descarregar, procurar ajuda.",
+        "reviravolta": "Lama demais para a estação: há algo represando o riacho acima.",
+        "periodos": "Manhã / Tarde"
+      },
+      {
+        "nome": "Deslizamento",
+        "descricao": "Pedras e terra soltas bloqueiam ou ameaçam o trecho.",
+        "opcoes": "Escalar, limpar, esperar, desviar.",
+        "reviravolta": "O barulho atrai algo ou revela uma entrada de caverna.",
+        "periodos": "Qualquer"
+      }
+    ],
+    "Descoberta": [
+      {
+        "nome": "Carroça abandonada",
+        "descricao": "Uma carroça tombada, carga espalhada, nenhum corpo.",
+        "opcoes": "Examinar marcas, procurar sobreviventes, saquear.",
+        "reviravolta": "Ataque de monstro, de bandidos — ou uma encenação para atrair curiosos.",
+        "periodos": "Qualquer"
+      },
+      {
+        "nome": "Acampamento deserto",
+        "descricao": "Fogueira ainda morna, pertences espalhados.",
+        "opcoes": "Examinar rastros, procurar donos, seguir as pegadas.",
+        "reviravolta": "Fuga apressada, ataque recente ou armadilha.",
+        "periodos": "Qualquer"
+      },
+      {
+        "nome": "Ervas e ingredientes",
+        "descricao": "Uma clareira com plantas úteis para alquimia.",
+        "opcoes": "Colher (Sobrevivência / Medicina), marcar no mapa.",
+        "reviravolta": "Ingredientes raros perto de um ninho; colher pode acordar o dono.",
+        "periodos": "Manhã / Tarde"
+      },
+      {
+        "nome": "Santuário esquecido",
+        "descricao": "Altar de pedra com musgo e oferendas antigas.",
+        "opcoes": "Deixar oferenda, descansar, examinar, profanar.",
+        "reviravolta": "Pequena bênção (descanso, pista) — ou atrai o que foi invocado ali.",
+        "periodos": "Qualquer"
+      },
+      {
+        "nome": "Cadáver com pertences",
+        "descricao": "Um viajante morto, com mochila, mapa ou carta.",
+        "opcoes": "Revistar, enterrar, ler a carta, identificar a causa.",
+        "reviravolta": "A carta é um gancho; o ferimento é de uma criatura da região.",
+        "periodos": "Qualquer"
+      },
+      {
+        "nome": "Torre ou aldeia abandonada",
+        "descricao": "Casas vazias, mesas postas, nenhuma alma.",
+        "opcoes": "Explorar, procurar diários, usar de abrigo.",
+        "reviravolta": "Evacuada, atacada ou amaldiçoada; cada casa guarda uma pista.",
+        "periodos": "Tarde / Noite"
+      }
+    ],
+    "Pista / presságio": [
+      {
+        "nome": "Pegadas estranhas",
+        "descricao": "Pegadas recentes na lama ou na margem.",
+        "opcoes": "Rastrear, comparar com o que sabe, mudar de rota, se preparar.",
+        "reviravolta": "A pista não obriga combate; pode ser só um aviso.",
+        "periodos": "Qualquer"
+      },
+      {
+        "nome": "Corvos e carcaça",
+        "descricao": "Corvos circulam uma carcaça meio devorada.",
+        "opcoes": "Examinar feridas, acampar longe, usar como isca.",
+        "reviravolta": "O predador pode voltar ao anoitecer.",
+        "periodos": "Tarde / Noite"
+      },
+      {
+        "nome": "Cavalo inquieto",
+        "descricao": "O cavalo empaca, bufa e não quer seguir.",
+        "opcoes": "Acalmar (Lidar com Animais), examinar a área, forçar passagem.",
+        "reviravolta": "O animal sente o que o grupo ainda não percebeu.",
+        "periodos": "Noite / Madrugada"
+      },
+      {
+        "nome": "Árvores marcadas",
+        "descricao": "Símbolos nos troncos, animais mortos pendurados.",
+        "opcoes": "Examinar, recuar, queimar os marcos, seguir.",
+        "reviravolta": "Totem de culto ou território de criatura antiga.",
+        "periodos": "Qualquer"
+      },
+      {
+        "nome": "Gritos ao longe",
+        "descricao": "Uivos, gritos ou um choro que não parece humano.",
+        "opcoes": "Investigar, ignorar, montar vigília dupla.",
+        "reviravolta": "Pode ser uma vítima de verdade — ou uma isca.",
+        "periodos": "Noite / Madrugada"
+      },
+      {
+        "nome": "Covil fresco",
+        "descricao": "Ossos roídos, toca cavada, cheiro forte.",
+        "opcoes": "Examinar, destruir, armar armadilha, sair rápido.",
+        "reviravolta": "Está vazio... por enquanto.",
+        "periodos": "Qualquer"
+      }
+    ],
+    "Humanos hostis": [
+      {
+        "nome": "Pedágio ilegal",
+        "descricao": "Armados exigem pagamento numa ponte ou trecho.",
+        "opcoes": "Pagar, blefar, negociar, contornar, lutar.",
+        "reviravolta": "Bandidos comuns ou capangas de um senhor local.",
+        "periodos": "Manhã / Tarde"
+      },
+      {
+        "nome": "Emboscada na estrada",
+        "descricao": "Árvore derrubada, arqueiros no mato.",
+        "opcoes": "Perceber antes (Percepção), recuar, lutar, negociar.",
+        "reviravolta": "Querem a carga, não sangue; rendição é possível.",
+        "periodos": "Tarde"
+      },
+      {
+        "nome": "Desertores famintos",
+        "descricao": "Soldados sujos e desesperados cercam o grupo.",
+        "opcoes": "Dar comida, intimidar, lutar, convencer.",
+        "reviravolta": "Comida resolve; contar à patrulha os condena à forca.",
+        "periodos": "Qualquer"
+      },
+      {
+        "nome": "Caçadores de bruxas",
+        "descricao": "Fanáticos acusam alguém do grupo de feitiçaria.",
+        "opcoes": "Provar inocência, subornar, fugir, lutar.",
+        "reviravolta": "Têm um prisioneiro inocente — ou culpado.",
+        "periodos": "Manhã / Tarde"
+      },
+      {
+        "nome": "Saqueadores de cadáveres",
+        "descricao": "Gente revirando mortos de uma batalha.",
+        "opcoes": "Espantar, ignorar, negociar, juntar-se.",
+        "reviravolta": "Carniçais também gostam desse lugar.",
+        "periodos": "Tarde / Noite"
+      },
+      {
+        "nome": "Ritual ou sequestro",
+        "descricao": "Vultos levando alguém amarrado para a mata.",
+        "opcoes": "Seguir, intervir, avisar a aldeia.",
+        "reviravolta": "O 'sacrifício' pode ser oferenda a algo bem real.",
+        "periodos": "Noite / Madrugada"
+      }
+    ],
+    "Fera": [
+      {
+        "nome": "Matilha rondando",
+        "descricao": "Olhos brilhando entre as árvores, cada vez mais perto.",
+        "opcoes": "Acender fogo, afugentar, evitar, lutar.",
+        "reviravolta": "Fome, não ódio: um animal caído pode bastar para irem embora.",
+        "periodos": "Noite / Madrugada"
+      },
+      {
+        "nome": "Animal ferido",
+        "descricao": "Um bicho preso em armadilha ou ferido, furioso.",
+        "opcoes": "Libertar, sacrificar, contornar.",
+        "reviravolta": "A armadilha é de caçadores ilegais — ou de algo que não usa ferro.",
+        "periodos": "Qualquer"
+      },
+      {
+        "nome": "Território marcado",
+        "descricao": "Marcas de garras e urina; a fera avança para testar.",
+        "opcoes": "Recuar devagar, intimidar, lutar.",
+        "reviravolta": "Se o grupo recuar, não há combate.",
+        "periodos": "Qualquer"
+      },
+      {
+        "nome": "Ataque ao acampamento",
+        "descricao": "Algo tenta pegar o cavalo ou a comida no escuro.",
+        "opcoes": "Vigília, perseguir, proteger o cavalo.",
+        "reviravolta": "Perder o cavalo atrasa a viagem inteira.",
+        "periodos": "Noite / Madrugada"
+      },
+      {
+        "nome": "Debandada",
+        "descricao": "Animais passam correndo, fugindo de algo pior.",
+        "opcoes": "Sair do caminho (Esquiva), olhar de onde vieram.",
+        "reviravolta": "Funciona como presságio de algo maior.",
+        "periodos": "Qualquer"
+      },
+      {
+        "nome": "Mãe com filhotes",
+        "descricao": "Uma toca com filhotes na beira do caminho.",
+        "opcoes": "Contornar com cuidado, distrair, enfrentar.",
+        "reviravolta": "Matar a mãe atrai a ira de um caçador local ou druida.",
+        "periodos": "Manhã / Tarde"
+      }
+    ],
+    "Monstro": [
+      {
+        "nome": "Gritos adiante",
+        "descricao": "Uma carroça é atacada um pouco à frente.",
+        "opcoes": "Correr para ajudar, observar, esperar terminar.",
+        "reviravolta": "Salvar alguém rende aliado, recompensa ou dívida.",
+        "periodos": "Qualquer"
+      },
+      {
+        "nome": "Ninho perto da estrada",
+        "descricao": "Restos e ossos levam a um ninho ativo.",
+        "opcoes": "Destruir o ninho, evitar, marcar para depois.",
+        "reviravolta": "Destruir o ninho vale contrato numa aldeia próxima.",
+        "periodos": "Qualquer"
+      },
+      {
+        "nome": "Banquete",
+        "descricao": "Monstros comendo uma carcaça ou cadáveres.",
+        "opcoes": "Passar escondido (Furtividade), atacar de surpresa, recuar.",
+        "reviravolta": "Se ficarem distraídos, o grupo pode simplesmente ir embora.",
+        "periodos": "Noite / Madrugada"
+      },
+      {
+        "nome": "Perseguição",
+        "descricao": "Algo segue o grupo há horas, sem se mostrar.",
+        "opcoes": "Preparar emboscada, acelerar, tentar despistar.",
+        "reviravolta": "Ataca quando o grupo parar para descansar.",
+        "periodos": "Noite / Madrugada"
+      },
+      {
+        "nome": "Ataque da água ou do mato",
+        "descricao": "A criatura sai do junco, da lama ou do mato alto.",
+        "opcoes": "Reagir, recuar para terreno aberto, lutar.",
+        "reviravolta": "Lutar no terreno dela é desvantagem; recuar muda tudo.",
+        "periodos": "Qualquer"
+      },
+      {
+        "nome": "Contrato vivo",
+        "descricao": "Aldeões aflitos: esta criatura matou alguém ontem.",
+        "opcoes": "Negociar o pagamento, investigar, caçar.",
+        "reviravolta": "Vira missão secundária; não precisa terminar nesta viagem.",
+        "periodos": "Tarde"
+      }
+    ],
+    "Sobrenatural": [
+      {
+        "nome": "Névoa estranha",
+        "descricao": "Névoa cobre a estrada; sons e vultos fora de lugar.",
+        "opcoes": "Seguir marcos, esperar, investigar, sair da estrada.",
+        "reviravolta": "Clima comum ou sinal de área amaldiçoada.",
+        "periodos": "Madrugada / Manhã"
+      },
+      {
+        "nome": "Aparição ao longe",
+        "descricao": "Uma figura na beira da estrada que some ao se aproximar.",
+        "opcoes": "Seguir, procurar vestígios, ignorar.",
+        "reviravolta": "Morte injusta pede justiça; resolver a história acalma o espírito.",
+        "periodos": "Noite / Madrugada"
+      },
+      {
+        "nome": "Luzes no pântano",
+        "descricao": "Luzinhas dançam e chamam para fora da estrada.",
+        "opcoes": "Seguir, resistir (Vontade), marcar o lugar.",
+        "reviravolta": "Levam a um tesouro, a um afogamento ou a quem as acende.",
+        "periodos": "Noite / Madrugada"
+      },
+      {
+        "nome": "Pesadelo compartilhado",
+        "descricao": "Todos sonham a mesma coisa no acampamento.",
+        "opcoes": "Interpretar o sonho, mudar de lugar, investigar.",
+        "reviravolta": "Algo está chamando — ou avisando.",
+        "periodos": "Madrugada"
+      },
+      {
+        "nome": "Túmulo profanado",
+        "descricao": "Sepultura aberta, cruz quebrada, frio repentino.",
+        "opcoes": "Restaurar, investigar, saquear, sair.",
+        "reviravolta": "Os mortos querem algo de volta.",
+        "periodos": "Noite / Madrugada"
+      },
+      {
+        "nome": "Proposta de barganha",
+        "descricao": "Uma voz ou figura oferece ajuda em troca de um favor.",
+        "opcoes": "Aceitar, recusar, negociar os termos.",
+        "reviravolta": "Todo preço sobrenatural cobra juros.",
+        "periodos": "Qualquer"
+      }
+    ]
+  },
+  "criaturas": [
+    {
+      "categoria": "Humano",
+      "nome": "Bandidos de estrada",
+      "ficha_base": "Arquétipo: Bandido de estrada",
+      "bestiario_id": null,
+      "np": "3–5",
+      "atividade": "Diurna",
+      "terrenos": [
+        "Estrada",
+        "Floresta"
+      ],
+      "grupo": "3–6 capangas + chefe (NP+1)",
+      "pesos": {
+        "Tranquila": 6,
+        "Média": 6,
+        "Perigosa": 5,
+        "Mortal": 3
+      },
+      "nota": "Negociam, blefam e fogem ao perder metade do bando."
+    },
+    {
+      "categoria": "Humano",
+      "nome": "Desertores / mercenários",
+      "ficha_base": "Arquétipo: Soldado do reino",
+      "bestiario_id": null,
+      "np": "4–6",
+      "atividade": "Qualquer",
+      "terrenos": [
+        "Estrada",
+        "Floresta",
+        "Montanha"
+      ],
+      "grupo": "2–5",
+      "pesos": {
+        "Tranquila": 2,
+        "Média": 4,
+        "Perigosa": 5,
+        "Mortal": 4
+      },
+      "nota": "Famintos e com medo da forca; viram aliados por comida ou silêncio."
+    },
+    {
+      "categoria": "Humano",
+      "nome": "Patrulha hostil (Nilfgaard ou reino rival)",
+      "ficha_base": "Arquétipo: Soldado do reino; oficial = Hobgoblin Capitão",
+      "bestiario_id": "fantasia/goblins/hobgoblin_capitao",
+      "np": "5–7",
+      "atividade": "Diurna",
+      "terrenos": [
+        "Estrada"
+      ],
+      "grupo": "4–8 + oficial",
+      "pesos": {
+        "Tranquila": 1,
+        "Média": 2,
+        "Perigosa": 4,
+        "Mortal": 2
+      },
+      "nota": "Querem papéis, suborno ou um culpado. Lutar contra eles tem consequência política."
+    },
+    {
+      "categoria": "Humano",
+      "nome": "Caçadores de bruxas",
+      "ficha_base": "Arquétipo: Guarda da cidade; líder = Soldado do reino",
+      "bestiario_id": null,
+      "np": "4–6",
+      "atividade": "Diurna",
+      "terrenos": [
+        "Estrada",
+        "Ruínas"
+      ],
+      "grupo": "3–5",
+      "pesos": {
+        "Tranquila": 1,
+        "Média": 2,
+        "Perigosa": 3,
+        "Mortal": 2
+      },
+      "nota": "Perseguem magos, não-humanos e mutantes — bruxos inclusos."
+    },
+    {
+      "categoria": "Humano",
+      "nome": "Caçador de recompensas / assassino",
+      "ficha_base": "Arquétipo: Assassino de aluguel",
+      "bestiario_id": null,
+      "np": "6–8",
+      "atividade": "Noturna",
+      "terrenos": [
+        "Qualquer"
+      ],
+      "grupo": "1–2",
+      "pesos": {
+        "Tranquila": 1,
+        "Média": 1,
+        "Perigosa": 2,
+        "Mortal": 2
+      },
+      "nota": "Alguém pagou por um nome. Ataca no acampamento."
+    },
+    {
+      "categoria": "Humano",
+      "nome": "Cultistas",
+      "ficha_base": "Arquétipo: Cultista",
+      "bestiario_id": null,
+      "np": "3–6",
+      "atividade": "Noturna",
+      "terrenos": [
+        "Floresta",
+        "Ruínas",
+        "Pântano"
+      ],
+      "grupo": "3–8",
+      "pesos": {
+        "Tranquila": 0,
+        "Média": 1,
+        "Perigosa": 2,
+        "Mortal": 4
+      },
+      "nota": "Ritual em andamento; podem servir a um leshen ou demônio."
+    },
+    {
+      "categoria": "Humano",
+      "nome": "Mago renegado",
+      "ficha_base": "Hobgoblin Conjurador de Guerra (reskin humano)",
+      "bestiario_id": "fantasia/goblins/hobgoblin_conjurador",
+      "np": "6",
+      "atividade": "Qualquer",
+      "terrenos": [
+        "Ruínas",
+        "Montanha"
+      ],
+      "grupo": "1 + 1–3 guarda-costas",
+      "pesos": {
+        "Tranquila": 0,
+        "Média": 0,
+        "Perigosa": 1,
+        "Mortal": 2
+      },
+      "nota": "Fugitivo da Irmandade. Troque o fogo de guerra por magia variada."
+    },
+    {
+      "categoria": "Fera",
+      "nome": "Lobos",
+      "ficha_base": "Lobo",
+      "bestiario_id": "fantasia/feras/lobo",
+      "np": "3",
+      "atividade": "Noturna",
+      "terrenos": [
+        "Floresta",
+        "Montanha",
+        "Estrada"
+      ],
+      "grupo": "Matilha de 3–6",
+      "pesos": {
+        "Tranquila": 6,
+        "Média": 6,
+        "Perigosa": 5,
+        "Mortal": 4
+      },
+      "nota": "Testam o grupo; fogem com fogo ou se o mais forte cair."
+    },
+    {
+      "categoria": "Fera",
+      "nome": "Warg (lobo alfa)",
+      "ficha_base": "Lobo Atroz",
+      "bestiario_id": "fantasia/feras/lobo_atroz",
+      "np": "5",
+      "atividade": "Noturna",
+      "terrenos": [
+        "Floresta",
+        "Montanha"
+      ],
+      "grupo": "1 + 2–4 lobos",
+      "pesos": {
+        "Tranquila": 0,
+        "Média": 1,
+        "Perigosa": 3,
+        "Mortal": 4
+      },
+      "nota": "Lidera a matilha; esperto demais para um lobo comum."
+    },
+    {
+      "categoria": "Fera",
+      "nome": "Urso",
+      "ficha_base": "Urso Marrom",
+      "bestiario_id": "fantasia/feras/urso",
+      "np": "6",
+      "atividade": "Diurna",
+      "terrenos": [
+        "Floresta",
+        "Montanha",
+        "Pântano"
+      ],
+      "grupo": "1",
+      "pesos": {
+        "Tranquila": 2,
+        "Média": 3,
+        "Perigosa": 3,
+        "Mortal": 3
+      },
+      "nota": "Defende território ou filhotes; recuar quase sempre resolve."
+    },
+    {
+      "categoria": "Monstro",
+      "nome": "Afogadores",
+      "ficha_base": "Zumbi (+ Natação, + Velocidade 1, sem lentidão)",
+      "bestiario_id": "fantasia/mortos_vivos/zumbi",
+      "np": "2–3",
+      "atividade": "Noturna",
+      "terrenos": [
+        "Pântano"
+      ],
+      "grupo": "2–5",
+      "pesos": {
+        "Tranquila": 3,
+        "Média": 5,
+        "Perigosa": 5,
+        "Mortal": 4
+      },
+      "nota": "Só perto de água. Longe dela, troque por Carniçais."
+    },
+    {
+      "categoria": "Monstro",
+      "nome": "Nekkers",
+      "ficha_base": "Goblin Saqueador (guerreiros: Goblin Guerreiro)",
+      "bestiario_id": "fantasia/goblins/goblin_saqueador",
+      "np": "2–3",
+      "atividade": "Noturna",
+      "terrenos": [
+        "Floresta",
+        "Montanha"
+      ],
+      "grupo": "4–8",
+      "pesos": {
+        "Tranquila": 2,
+        "Média": 4,
+        "Perigosa": 5,
+        "Mortal": 4
+      },
+      "nota": "Saem de túneis, atacam em bando e fogem. Destruir o ninho resolve."
+    },
+    {
+      "categoria": "Monstro",
+      "nome": "Ninho de nekkers (Pai Nekker)",
+      "ficha_base": "Goblin Chefe",
+      "bestiario_id": "fantasia/goblins/goblin_chefe",
+      "np": "4",
+      "atividade": "Noturna",
+      "terrenos": [
+        "Floresta"
+      ],
+      "grupo": "1 + 4–8 nekkers",
+      "pesos": {
+        "Tranquila": 0,
+        "Média": 1,
+        "Perigosa": 2,
+        "Mortal": 3
+      },
+      "nota": "O chefe do ninho; selar os buracos com bomba encerra o problema."
+    },
+    {
+      "categoria": "Monstro",
+      "nome": "Carniçais",
+      "ficha_base": "Carniçal",
+      "bestiario_id": "fantasia/mortos_vivos/carnical",
+      "np": "4",
+      "atividade": "Noturna",
+      "terrenos": [
+        "Ruínas",
+        "Estrada",
+        "Floresta"
+      ],
+      "grupo": "2–4",
+      "pesos": {
+        "Tranquila": 3,
+        "Média": 5,
+        "Perigosa": 5,
+        "Mortal": 4
+      },
+      "nota": "Comem cadáveres; aparecem onde houve batalha ou peste."
+    },
+    {
+      "categoria": "Monstro",
+      "nome": "Alghoul",
+      "ficha_base": "Carniçal Darakhul (sem armas e armadura; garras e espinhos)",
+      "bestiario_id": "fantasia/mortos_vivos/carnical_darakhul",
+      "np": "6",
+      "atividade": "Noturna",
+      "terrenos": [
+        "Ruínas",
+        "Estrada"
+      ],
+      "grupo": "1 + 2–4 carniçais",
+      "pesos": {
+        "Tranquila": 0,
+        "Média": 1,
+        "Perigosa": 3,
+        "Mortal": 3
+      },
+      "nota": "Líder do bando de carniçais; mais esperto e agressivo."
+    },
+    {
+      "categoria": "Monstro",
+      "nome": "Lobisomem",
+      "ficha_base": "Bugbear Caçador (+ Regeneração; dano reduzido exceto prata)",
+      "bestiario_id": "fantasia/goblins/bugbear",
+      "np": "4–5",
+      "atividade": "Noturna",
+      "terrenos": [
+        "Floresta"
+      ],
+      "grupo": "1",
+      "pesos": {
+        "Tranquila": 0,
+        "Média": 1,
+        "Perigosa": 2,
+        "Mortal": 2
+      },
+      "nota": "Amaldiçoado; de dia é humano. Ótimo gancho de missão."
+    },
+    {
+      "categoria": "Monstro",
+      "nome": "Troll de pedra",
+      "ficha_base": "Troll",
+      "bestiario_id": "fantasia/monstruosidades/troll",
+      "np": "7",
+      "atividade": "Qualquer",
+      "terrenos": [
+        "Montanha",
+        "Ruínas"
+      ],
+      "grupo": "1",
+      "pesos": {
+        "Tranquila": 0,
+        "Média": 1,
+        "Perigosa": 2,
+        "Mortal": 3
+      },
+      "nota": "Fala, cobra pedágio em pontes, adora cerveja. Nem todo troll é hostil."
+    },
+    {
+      "categoria": "Monstro",
+      "nome": "Ogroide (ciclope jovem / ogro)",
+      "ficha_base": "Ogro",
+      "bestiario_id": "fantasia/monstruosidades/ogro",
+      "np": "5",
+      "atividade": "Qualquer",
+      "terrenos": [
+        "Montanha",
+        "Pântano",
+        "Floresta"
+      ],
+      "grupo": "1",
+      "pesos": {
+        "Tranquila": 0,
+        "Média": 1,
+        "Perigosa": 2,
+        "Mortal": 2
+      },
+      "nota": "Burro, guloso e territorial."
+    },
+    {
+      "categoria": "Monstro",
+      "nome": "Cocatriz",
+      "ficha_base": "Basilisco (troque a petrificação por veneno)",
+      "bestiario_id": "fantasia/monstruosidades/basilisco",
+      "np": "5",
+      "atividade": "Diurna",
+      "terrenos": [
+        "Ruínas",
+        "Montanha"
+      ],
+      "grupo": "1",
+      "pesos": {
+        "Tranquila": 0,
+        "Média": 0,
+        "Perigosa": 2,
+        "Mortal": 2
+      },
+      "nota": "Para um basilisco de verdade, mantenha a ficha e trate como missão."
+    },
+    {
+      "categoria": "Monstro",
+      "nome": "Grifo",
+      "ficha_base": "Manticora (troque a cauda de espinhos por mergulho com garras)",
+      "bestiario_id": "fantasia/monstruosidades/manticora",
+      "np": "6",
+      "atividade": "Diurna",
+      "terrenos": [
+        "Montanha",
+        "Estrada"
+      ],
+      "grupo": "1",
+      "pesos": {
+        "Tranquila": 0,
+        "Média": 1,
+        "Perigosa": 2,
+        "Mortal": 3
+      },
+      "nota": "Ataca cavalos e gado; ninho no alto."
+    },
+    {
+      "categoria": "Monstro",
+      "nome": "Chort",
+      "ficha_base": "Minotauro do Labirinto",
+      "bestiario_id": "fantasia/monstruosidades/minotauro",
+      "np": "6",
+      "atividade": "Noturna",
+      "terrenos": [
+        "Floresta"
+      ],
+      "grupo": "1",
+      "pesos": {
+        "Tranquila": 0,
+        "Média": 0,
+        "Perigosa": 2,
+        "Mortal": 2
+      },
+      "nota": "Parente menor do Demônio (fiend). Para o Demônio adulto use NP+2 e trate como missão."
+    },
+    {
+      "categoria": "Monstro",
+      "nome": "Dragão",
+      "ficha_base": "Dragão Vermelho ou Branco Jovem",
+      "bestiario_id": "fantasia/dragoes/dragao_vermelho",
+      "np": "9–10",
+      "atividade": "Diurna",
+      "terrenos": [
+        "Montanha"
+      ],
+      "grupo": "1",
+      "pesos": {
+        "Tranquila": 0,
+        "Média": 0,
+        "Perigosa": 0,
+        "Mortal": 1
+      },
+      "nota": "Raríssimo. Quase sempre ameaça anunciada, não combate."
+    },
+    {
+      "categoria": "Sobrenatural",
+      "nome": "Aparição (espectro)",
+      "ficha_base": "Sombra Voraz",
+      "bestiario_id": "fantasia/mortos_vivos/sombra",
+      "np": "5",
+      "atividade": "Noturna",
+      "terrenos": [
+        "Estrada",
+        "Ruínas",
+        "Pântano"
+      ],
+      "grupo": "1–3",
+      "pesos": {
+        "Tranquila": 1,
+        "Média": 3,
+        "Perigosa": 4,
+        "Mortal": 4
+      },
+      "nota": "Ligada a uma morte injusta; investigar a história enfraquece ou resolve."
+    },
+    {
+      "categoria": "Sobrenatural",
+      "nome": "Aparição do meio-dia",
+      "ficha_base": "Sombra Voraz (ativa sob sol forte)",
+      "bestiario_id": "fantasia/mortos_vivos/sombra",
+      "np": "5",
+      "atividade": "Diurna",
+      "terrenos": [
+        "Estrada"
+      ],
+      "grupo": "1",
+      "pesos": {
+        "Tranquila": 0,
+        "Média": 1,
+        "Perigosa": 2,
+        "Mortal": 2
+      },
+      "nota": "Campos e trigais no calor; noiva morta antes do casamento."
+    },
+    {
+      "categoria": "Sobrenatural",
+      "nome": "Megera da água",
+      "ficha_base": "Bruxa do Mar",
+      "bestiario_id": "fantasia/sobrenatural/bruxa_mar",
+      "np": "5",
+      "atividade": "Noturna",
+      "terrenos": [
+        "Pântano"
+      ],
+      "grupo": "1 + 1–3 afogadores",
+      "pesos": {
+        "Tranquila": 0,
+        "Média": 1,
+        "Perigosa": 3,
+        "Mortal": 3
+      },
+      "nota": "Lama, rios e lagos. Comanda afogadores."
+    },
+    {
+      "categoria": "Sobrenatural",
+      "nome": "Megera dos túmulos",
+      "ficha_base": "Bruxa Verde",
+      "bestiario_id": "fantasia/sobrenatural/bruxa",
+      "np": "7",
+      "atividade": "Noturna",
+      "terrenos": [
+        "Ruínas",
+        "Pântano",
+        "Floresta"
+      ],
+      "grupo": "1",
+      "pesos": {
+        "Tranquila": 0,
+        "Média": 0,
+        "Perigosa": 1,
+        "Mortal": 2
+      },
+      "nota": "Cemitérios e campos de batalha; engana viajantes e come cadáveres."
+    },
+    {
+      "categoria": "Sobrenatural",
+      "nome": "Damas do Bosque",
+      "ficha_base": "Bruxa da Noite (uma ficha por dama)",
+      "bestiario_id": "fantasia/sobrenatural/bruxa_noite",
+      "np": "9",
+      "atividade": "Noturna",
+      "terrenos": [
+        "Pântano",
+        "Floresta"
+      ],
+      "grupo": "1 (ou as três)",
+      "pesos": {
+        "Tranquila": 0,
+        "Média": 0,
+        "Perigosa": 0,
+        "Mortal": 1
+      },
+      "nota": "Barganham. Quase nunca combate direto."
+    },
+    {
+      "categoria": "Sobrenatural",
+      "nome": "Leshen",
+      "ficha_base": "Árvore Animada (+ controle de lobos e corvos)",
+      "bestiario_id": "fantasia/sobrenatural/arvore_animada",
+      "np": "8",
+      "atividade": "Qualquer",
+      "terrenos": [
+        "Floresta"
+      ],
+      "grupo": "1 + lobos e corvos",
+      "pesos": {
+        "Tranquila": 0,
+        "Média": 0,
+        "Perigosa": 1,
+        "Mortal": 2
+      },
+      "nota": "Comece por presságios (árvores marcadas). Anuncie antes de mostrar."
+    },
+    {
+      "categoria": "Sobrenatural",
+      "nome": "Godling (duende)",
+      "ficha_base": "Fada Trapaceira",
+      "bestiario_id": "fantasia/sobrenatural/fada",
+      "np": "4",
+      "atividade": "Diurna",
+      "terrenos": [
+        "Floresta",
+        "Pântano"
+      ],
+      "grupo": "1",
+      "pesos": {
+        "Tranquila": 2,
+        "Média": 2,
+        "Perigosa": 1,
+        "Mortal": 1
+      },
+      "nota": "Não é hostil: prega peças, pede ajuda, troca favores."
+    },
+    {
+      "categoria": "Sobrenatural",
+      "nome": "Sylvano",
+      "ficha_base": "Diabrete",
+      "bestiario_id": "fantasia/sobrenatural/diabrete",
+      "np": "4",
+      "atividade": "Qualquer",
+      "terrenos": [
+        "Floresta",
+        "Estrada"
+      ],
+      "grupo": "1",
+      "pesos": {
+        "Tranquila": 1,
+        "Média": 2,
+        "Perigosa": 1,
+        "Mortal": 1
+      },
+      "nota": "Chifres e pernas de bode; mais travessura que perigo."
+    },
+    {
+      "categoria": "Sobrenatural",
+      "nome": "Gárgula",
+      "ficha_base": "Gárgula",
+      "bestiario_id": "fantasia/sobrenatural/gargula",
+      "np": "5",
+      "atividade": "Noturna",
+      "terrenos": [
+        "Ruínas"
+      ],
+      "grupo": "1–2",
+      "pesos": {
+        "Tranquila": 0,
+        "Média": 0,
+        "Perigosa": 1,
+        "Mortal": 2
+      },
+      "nota": "Guarda torre de mago ou ruína élfica."
+    },
+    {
+      "categoria": "Sobrenatural",
+      "nome": "Golem",
+      "ficha_base": "Golem de Pedra",
+      "bestiario_id": "fantasia/construtos/golem_pedra",
+      "np": "9",
+      "atividade": "Qualquer",
+      "terrenos": [
+        "Ruínas"
+      ],
+      "grupo": "1",
+      "pesos": {
+        "Tranquila": 0,
+        "Média": 0,
+        "Perigosa": 0,
+        "Mortal": 1
+      },
+      "nota": "Guardião de laboratório abandonado; evitável se ninguém entrar."
+    },
+    {
+      "categoria": "Sobrenatural",
+      "nome": "Demônio invocado",
+      "ficha_base": "Demônio Guerreiro",
+      "bestiario_id": "fantasia/sobrenatural/demonio_guerreiro",
+      "np": "6",
+      "atividade": "Noturna",
+      "terrenos": [
+        "Ruínas",
+        "Floresta"
+      ],
+      "grupo": "1 + cultistas",
+      "pesos": {
+        "Tranquila": 0,
+        "Média": 0,
+        "Perigosa": 1,
+        "Mortal": 2
+      },
+      "nota": "Círculo de invocação; os cultistas são a pista."
+    }
+  ],
+  "intensidade": [
+    {
+      "nome": "Só sinais",
+      "descricao": "Está longe ou evita o grupo. Deixa rastros, sons ou restos.",
+      "solo": "Ótimo para tensão; nenhum teste obrigatório."
+    },
+    {
+      "nome": "Avistamento",
+      "descricao": "Percebe o grupo e observa à distância. Furtividade, Intimidação ou mudar de rota evitam o confronto.",
+      "solo": "Deixe o jogador escolher se quer o combate."
+    },
+    {
+      "nome": "Encontro menor",
+      "descricao": "Mínimo do grupo típico, ou um indivíduo jovem ou ferido.",
+      "solo": "Combate curto e vencível."
+    },
+    {
+      "nome": "Encontro padrão",
+      "descricao": "Grupo típico, sem vantagens especiais.",
+      "solo": "Use o grupo típico como teto."
+    },
+    {
+      "nome": "No terreno dela",
+      "descricao": "Grupo típico com vantagem de terreno: água, mato alto, escuridão.",
+      "solo": "Recuar para terreno aberto deve ser uma saída real."
+    },
+    {
+      "nome": "Grupo grande",
+      "descricao": "Máximo do grupo típico, ou reforço chega na 3ª rodada.",
+      "solo": "Troque inimigos extras por pressão: perseguição, cerco, fuga."
+    },
+    {
+      "nome": "Emboscada",
+      "descricao": "Surpreende o grupo (rodada de surpresa) a menos que alguém passe em Percepção CD 15.",
+      "solo": "Surpresa sim; dano extra não."
+    },
+    {
+      "nome": "Emboscada + complicação",
+      "descricao": "Como 7, e algo piora: cavalo foge, carga em risco, ou uma segunda ameaça observa.",
+      "solo": "A complicação é o problema; o inimigo continua do tamanho padrão."
+    }
+  ]
+}

@@ -36,8 +36,10 @@ python -m pytest
 | `nucleo/pdf_export.py`, `nucleo/docx_export.py` | Ficha editável em PDF e fichas em Word. |
 | `nucleo/livros.py` | Livros do Jogador e do Mestre em .docx (texto de `dados/livros/` + apêndice gerado dos dados). |
 | `nucleo/planilhas.py` | Planilhas de armas, itens e poderes em .xlsx, geradas dos dados. |
+| `nucleo/viagem.py` | Aba **Rolagem de Eventos**: rola clima, se algo acontece, tipo de evento, evento, criatura e intensidade de um período de viagem. |
 | `dados/comum/` | O que vale para todos os gêneros: `settings.json`, `styles.json`, `vantagens.json`, a ficha editável e o catálogo de poderes. |
 | `dados/generos/<id>/` | Um gênero: `genero.json`, `archetypes.json`, `modules.json`, `equipment.json`, `names.json`, `player.json`, `complications.json` e, se tiver, `powers.json`. |
+| `dados/viagem/<genero>.json` | Tabelas da Rolagem de Eventos de um gênero (hoje só `fantasia.json`), com a planilha de mesa ao lado (`fantasia.xlsx`, gerada por `ferramentas/gerar_planilha_viagem_witcher.py`). Para um gênero novo ganhar rolagens, crie o arquivo dele com os mesmos campos; ele aparece sozinho no seletor de Categoria. |
 | `ferramentas/` | Scripts de apoio: extração do Perfis de Poder e criação da base do cyberpunk e da fantasia. |
 | `templates/`, `static/` | A página (HTML, CSS e JavaScript). |
 | `tests/` | Testes com sementes fixas. |
