@@ -98,7 +98,16 @@ def peso_da_criatura(t, criatura, area, periodo, terreno):
     return criatura["pesos"][area] * t["atividade"][criatura["atividade"]][periodo] * fator_terreno
 
 
-def rolar(categoria, situacao, dados=None, clima_atual=None, combate_hoje=False, rng=None):
+class _FaltaDado(Exception):
+    """Na prévia, o próximo dado necessário ainda não foi informado."""
+
+    def __init__(self, chave, etapas):
+        super().__init__(chave)
+        self.chave = chave
+        self.etapas = etapas
+
+
+def rolar(categoria, situacao, dados=None, clima_atual=None, combate_hoje=False, rng=None, _previa=False):
     """Rola um período de viagem nas tabelas da categoria (gênero).
 
     situacao: {"area", "periodo", "estacao", "terreno", "situacao"} com os ids das tabelas.
@@ -123,6 +132,8 @@ def rolar(categoria, situacao, dados=None, clima_atual=None, combate_hoje=False,
         nome, faces = DADOS[chave]
         valor = dados.get(chave)
         if valor in (None, ""):
+            if _previa:
+                raise _FaltaDado(chave, etapas)
             return rng.randint(1, faces), False
         try:
             valor = int(valor)
@@ -216,6 +227,52 @@ def rolar(categoria, situacao, dados=None, clima_atual=None, combate_hoje=False,
     resultado["etapas"] = etapas
     resultado["narrar"] = _para_narrar(resultado)
     return resultado
+
+
+def _juntar(nomes):
+    return nomes[0] if len(nomes) == 1 else ", ".join(nomes[:-1]) + " nem " + nomes[-1]
+
+
+def previa(categoria, situacao, dados=None, clima_atual=None):
+    """Até onde os dados digitados levam, sem sortear nada: as etapas já resolvidas, o próximo dado a rolar
+    e os dados que não vão ser necessários (ex.: deu "nada acontece", então tipo, evento e criatura sobram)."""
+    t = tabelas(categoria)
+    tem_clima = any(c["nome"] == clima_atual for c in t["climas"])
+    try:
+        r = rolar(categoria, situacao, dados, clima_atual, _previa=True)
+        etapas, proxima = r["etapas"], None
+    except _FaltaDado as falta:
+        r, etapas, proxima = None, falta.etapas, falta.chave
+    usadas = [e["id"] for e in etapas]
+    # Ordem em que os dados podem aparecer: com clima do dia já rolado, o d6 de mudança vem antes do d100.
+    fluxo = (["mudanca_clima", "clima"] if tem_clima else ["clima"]) + [k for k in DADOS if "clima" not in k]
+    possiveis = fluxo[fluxo.index(proxima):] if proxima else []
+    # Com o tipo já resolvido dá para saber, antes do d6 do evento, se haverá criatura e intensidade.
+    tipo = next((e["resultado"] for e in etapas if e["id"] == "tipo"), None)
+    motivo = None
+    if tipo and not _por_id(t["tipos"], tipo, "Tipo", chave="nome")["categoria"]:
+        motivo = f"{tipo} não envolve criatura"
+        possiveis = [k for k in possiveis if k not in ("criatura", "intensidade")]
+    elif tipo == PISTA:
+        motivo = "É uma pista e a criatura não aparece agora"
+        possiveis = [k for k in possiveis if k != "intensidade"]
+    dispensadas = [k for k in fluxo if k not in usadas and k not in possiveis]
+    if not tem_clima:
+        dispensadas.insert(0, "mudanca_clima")  # no primeiro período do dia o clima sai direto no d100
+
+    sobram = _juntar([DADOS[k][0] for k in dispensadas if k not in ("clima", "mudanca_clima")] or [""])
+    if proxima:
+        nome, faces = DADOS[proxima]
+        mensagem = f"Próximo dado: {nome} (d{faces})."
+        if motivo:
+            mensagem += f" {motivo}: não precisa rolar {sobram}."
+    elif not r["acontece"]:
+        mensagem = f"Nada acontece. Não precisa rolar {sobram}: é só clicar em Rolar período."
+    elif motivo:
+        mensagem = f"{motivo}. Não precisa rolar {sobram}: é só clicar em Rolar período."
+    else:
+        mensagem = "Todos os dados necessários foram informados: é só clicar em Rolar período."
+    return {"etapas": etapas, "proxima": proxima, "dispensadas": dispensadas, "mensagem": mensagem}
 
 
 def _para_narrar(r):

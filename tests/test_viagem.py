@@ -106,3 +106,42 @@ def test_rotas_da_api():
     assert cliente.post("/api/viagem/rolar", json={"categoria": "fantasia", "situacao": {}}).status_code == 400
     assert cliente.post("/api/viagem/rolar", json={"categoria": "faroeste", "situacao": SITUACAO}).status_code == 400
     assert 'data-aba="viagem"' in cliente.get("/?genero=fantasia").get_data(as_text=True)
+
+
+def test_previa_avisa_o_proximo_dado_e_o_que_nao_precisa():
+    manha = {**SITUACAO, "periodo": "Manhã", "situacao": "Na estrada"}
+    p = viagem.previa("fantasia", manha, {})
+    assert p["proxima"] == "clima" and p["dispensadas"] == ["mudanca_clima"] and p["etapas"] == []
+    # Nada acontece: tipo, evento, criatura e intensidade sobram.
+    p = viagem.previa("fantasia", manha, {"clima": 62, "evento": 13})
+    assert p["proxima"] is None
+    assert p["dispensadas"] == ["mudanca_clima", "tipo", "qual", "criatura", "intensidade"]
+    assert p["mensagem"].startswith("Nada acontece")
+    # Tipo sem criatura: já avisa antes do d6 do evento.
+    p = viagem.previa("fantasia", manha, {"clima": 62, "evento": 20, "tipo": 44})
+    assert p["proxima"] == "qual" and p["dispensadas"] == ["mudanca_clima", "criatura", "intensidade"]
+    # Pista: tem criatura, mas não intensidade.
+    p = viagem.previa("fantasia", manha, {"clima": 62, "evento": 20, "tipo": 70})
+    assert p["proxima"] == "qual" and p["dispensadas"] == ["mudanca_clima", "intensidade"]
+    # Clima do dia já rolado: o d6 de mudança vem antes, e o d100 só é preciso no 6.
+    p = viagem.previa("fantasia", manha, {}, clima_atual="Neblina")
+    assert p["proxima"] == "mudanca_clima"
+    p = viagem.previa("fantasia", manha, {"mudanca_clima": 3}, clima_atual="Neblina")
+    assert p["proxima"] == "evento" and p["dispensadas"] == ["clima"]
+
+
+def test_previa_e_rolagem_concordam():
+    # O que a prévia dispensa não muda o resultado da rolagem: os dados extras são ignorados.
+    manha = {**SITUACAO, "periodo": "Manhã", "situacao": "Na estrada"}
+    dados = {"clima": 62, "evento": 13, "tipo": 99, "qual": 6, "criatura": 50, "intensidade": 6}
+    p = viagem.previa("fantasia", manha, dados)
+    r = viagem.rolar("fantasia", manha, dados)
+    assert [e["id"] for e in r["etapas"]] == [e["id"] for e in p["etapas"]] == ["clima", "evento"]
+
+
+def test_rota_da_previa():
+    cliente = app.app.test_client()
+    resposta = cliente.post("/api/viagem/previa", json={"categoria": "fantasia", "situacao": SITUACAO, "dados": {"clima": 1}})
+    assert resposta.status_code == 200 and resposta.get_json()["proxima"] == "evento"
+    resposta = cliente.post("/api/viagem/previa", json={"categoria": "fantasia", "situacao": SITUACAO, "dados": {"clima": 300}})
+    assert resposta.status_code == 400

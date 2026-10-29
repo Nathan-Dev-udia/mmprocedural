@@ -450,6 +450,17 @@ def opcoes_de_viagem(categoria):
         return jsonify({"erro": str(erro)}), 404
 
 
+@app.post("/api/viagem/previa")
+def previa_da_viagem():
+    """Enquanto o mestre digita os dados físicos: o próximo dado a rolar e os que não serão necessários."""
+    corpo = request.get_json(silent=True) or {}
+    try:
+        return jsonify(viagem.previa(corpo.get("categoria"), corpo.get("situacao") or {}, corpo.get("dados"),
+                                     corpo.get("clima_atual")))
+    except ValueError as erro:
+        return jsonify({"erro": str(erro)}), 400
+
+
 @app.post("/api/viagem/rolar")
 def rolar_viagem():
     corpo = request.get_json(silent=True) or {}

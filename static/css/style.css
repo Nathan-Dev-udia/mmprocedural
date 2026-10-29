@@ -724,3 +724,10 @@ a.botao { text-decoration: none; display: inline-block; }
 @media (max-width: 560px) {
   .aba { padding: 8px 8px; font-size: 0.85rem; flex: 1 1 0; min-width: 0; }
 }
+.viagem-previa { margin: 10px 0 0; padding: 8px 12px; border-radius: 6px; background: var(--info-fundo); color: var(--info); font-weight: 600; }
+.viagem-previa:empty { display: none; }
+.viagem-previa.erro { background: var(--erro-fundo); color: var(--erro); }
+.viagem-campos-dados .campo small[data-viagem-previa] { min-height: 1.2em; }
+.viagem-proximo-dado input { border-color: var(--destaque); box-shadow: 0 0 0 2px var(--destaque); }
+.viagem-proximo-dado small[data-viagem-previa] { color: var(--destaque); font-weight: 600; }
+.viagem-dispensado { opacity: 0.45; }

@@ -53,12 +53,53 @@
     el("viagem-diario").innerHTML = viagem.diario.map((d) => `<li>${escapar(d)}</li>`).join("");
   }
 
-  function dadosInformados() {
+  // Na rolagem vão só os campos ativos; na prévia vão todos, porque um campo desligado pode voltar a valer
+  // se o mestre mudar um dado anterior (ex.: o d20 que dava "nada acontece").
+  function dadosInformados(incluirDesligados = false) {
     const dados = {};
     document.querySelectorAll("[data-viagem-dado]").forEach((input) => {
-      if (input.value !== "") dados[input.dataset.viagemDado] = Number(input.value);
+      if (input.value !== "" && (incluirDesligados || !input.disabled)) dados[input.dataset.viagemDado] = Number(input.value);
     });
     return dados;
+  }
+
+  // ---------------------------------------------------------------- prévia dos dados físicos
+
+  let pedidoDaPrevia = 0;
+  let esperaDaPrevia = null;
+
+  function agendarPrevia() {
+    clearTimeout(esperaDaPrevia);
+    esperaDaPrevia = setTimeout(atualizarPrevia, 150);
+  }
+
+  async function atualizarPrevia() {
+    if (!opcoes || !document.querySelector("details.viagem-dados").open) return;
+    const pedido = ++pedidoDaPrevia;
+    const resposta = await fetch("/api/viagem/previa", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ categoria, situacao: situacaoAtual(), dados: dadosInformados(true), clima_atual: viagem.clima }),
+    });
+    const p = await resposta.json();
+    if (pedido !== pedidoDaPrevia) return;  // chegou uma resposta mais nova
+    const aviso = el("viagem-previa");
+    aviso.classList.toggle("erro", !resposta.ok);
+    if (!resposta.ok) {
+      aviso.textContent = p.erro;
+      return;
+    }
+    aviso.textContent = p.mensagem;
+    const resolvidas = Object.fromEntries(p.etapas.map((e) => [e.id, e.resultado]));
+    document.querySelectorAll("[data-viagem-dado]").forEach((input) => {
+      const chave = input.dataset.viagemDado;
+      const dispensada = p.dispensadas.includes(chave);
+      input.disabled = dispensada;
+      input.closest(".campo").classList.toggle("viagem-proximo-dado", p.proxima === chave);
+      input.closest(".campo").classList.toggle("viagem-dispensado", dispensada);
+      document.querySelector(`[data-viagem-previa="${chave}"]`).textContent =
+        chave in resolvidas ? `→ ${resolvidas[chave]}` : dispensada ? "não precisa" : p.proxima === chave ? "← próximo" : "";
+    });
   }
 
   function desenharResultado(r) {
@@ -114,6 +155,7 @@
       viagem.combateHoje = viagem.combateHoje || r.combate;
       anotarNoDiario(r, situacao);
       document.querySelectorAll("[data-viagem-dado]").forEach((input) => { input.value = ""; });
+      atualizarPrevia();
       desenharResultado(r);
       desenharDia();
       desenharDiario();
@@ -145,6 +187,7 @@
     descrever(campo);
     viagem.situacao = situacaoAtual();
     salvar();
+    agendarPrevia();
   }
 
   async function abrirCategoria(id, categorias) {
@@ -173,6 +216,7 @@
     el("viagem-narrar-bloco").hidden = true;
     desenharDia();
     desenharDiario();
+    atualizarPrevia();
   }
 
   async function inicializar() {
@@ -195,6 +239,8 @@
     seletor.value = inicial;
     seletor.addEventListener("change", () => abrirCategoria(seletor.value, categorias));
     for (const campo of Object.keys(CAMPOS)) el(`viagem-${campo}`).addEventListener("change", () => mudouCampo(campo));
+    document.querySelectorAll("[data-viagem-dado]").forEach((input) => input.addEventListener("input", agendarPrevia));
+    document.querySelector("details.viagem-dados").addEventListener("toggle", atualizarPrevia);
     el("viagem-rolar").addEventListener("click", rolarPeriodo);
     el("viagem-proximo").addEventListener("click", proximoPeriodo);
     el("viagem-novo-dia").addEventListener("click", () => { novoDia(); salvar(); });
@@ -203,6 +249,7 @@
       salvar();
       desenharDia();
       desenharDiario();
+      atualizarPrevia();
     });
     await abrirCategoria(inicial, categorias);
   }

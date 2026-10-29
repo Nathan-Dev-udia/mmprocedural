@@ -356,15 +356,17 @@
       <h2 class="titulo-passo">2. Rolagem</h2>
       <details class="viagem-dados">
         <summary>Vou rolar meus próprios dados (opcional)</summary>
-        <p class="dica">Digite o que saiu na mesa. O que ficar em branco o app rola. Os campos limpam depois de cada rolagem.</p>
+        <p class="dica">Digite o que saiu na mesa, na ordem. A tela avisa qual é o próximo dado e quando não precisa rolar o resto. O que ficar em branco o app rola; os campos limpam depois de cada rolagem.</p>
         <div class="campos viagem-campos-dados">
           {% for chave, rotulo, faces in [("clima", "Clima", 100), ("mudanca_clima", "Clima muda?", 6), ("evento", "Acontece algo?", 20), ("tipo", "Tipo de evento", 100), ("qual", "Qual evento", 6), ("criatura", "Criatura", 100), ("intensidade", "Intensidade", 6)] %}
           <label class="campo">
             <span>{{ rotulo }} <small>(d{{ faces }})</small></span>
             <input type="number" min="1" max="{{ faces }}" data-viagem-dado="{{ chave }}" placeholder="1–{{ faces }}">
+            <small data-viagem-previa="{{ chave }}"></small>
           </label>
           {% endfor %}
         </div>
+        <p id="viagem-previa" class="viagem-previa" role="status"></p>
       </details>
       <div class="botoes viagem-botoes">
         <button type="button" id="viagem-rolar" class="botao principal">Rolar período</button>
