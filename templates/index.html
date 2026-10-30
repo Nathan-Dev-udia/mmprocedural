@@ -303,12 +303,12 @@
         <label class="campo">
           <span>Papel de Combate</span>
           <select id="bestiario-papel">
-            <option value="todos">Todos os papéis ({{ opcoes.bestiario.papeis | sum(attribute='quantidade') }})</option>
+            <option value="todos">Todos os papéis ({{ opcoes.bestiario.generos[0].quantidade }})</option>
             {% for p in opcoes.bestiario.papeis %}
             <option value="{{ p.id }}">{{ p.nome }} ({{ p.quantidade }})</option>
             {% endfor %}
           </select>
-          <small>Função tática (Lacaio, Soldado, Chefe, etc.).</small>
+          <small>Função tática (Lacaio, Soldado, Chefe, etc.). "Bruto / Chefe" aparece nos dois.</small>
         </label>
 
         <label class="campo">
@@ -323,7 +323,10 @@
       <div class="painel lista-de-criaturas">
         <div class="barra-resultado">
           <p id="contagem-criaturas">Carregando…</p>
-          <label class="controle-agrupamento"><input type="checkbox" id="bestiario-agrupar" checked> Agrupar famílias</label>
+          <div class="controles-lista">
+            <label class="controle-agrupamento"><input type="checkbox" id="bestiario-chefes"> Só possíveis chefes ({{ opcoes.bestiario.chefes }})</label>
+            <label class="controle-agrupamento"><input type="checkbox" id="bestiario-agrupar" checked> Agrupar famílias</label>
+          </div>
         </div>
         <ul id="lista-criaturas" class="lista-criaturas"></ul>
       </div>

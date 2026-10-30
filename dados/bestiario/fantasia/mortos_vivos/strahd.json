@@ -1,0 +1,154 @@
+{
+  "id": "fantasia/mortos_vivos/strahd",
+  "genero": "fantasia",
+  "familia": "Vampiro",
+  "variante": "Strahd von Zarovich",
+  "padrao": false,
+  "nome": "Strahd von Zarovich",
+  "tipo": "Morto-Vivo",
+  "subtipo": "Vampiro",
+  "papel": "Conjurador / Chefe (Solo)",
+  "chefe": true,
+  "tamanho": "Médio",
+  "nivel_poder": 13,
+  "ambientes": [
+    "Castelo Ravenloft",
+    "Vale de Barovia",
+    "Brumas"
+  ],
+  "descricao": "O primeiro vampiro e senhor sombrio de Barovia, preso para sempre pelas Brumas. Nobre, guerreiro e mago, trata os aventureiros como peças de um jogo que já dura séculos.",
+  "tatica": "Nunca começa pela luta final: aparece, testa os heróis, encanta o mais fraco e foge como névoa ou morcego. Usa lobos, morcegos, crias e o próprio castelo para cansar o grupo antes de se mostrar de verdade.",
+  "complicacoes": [
+    "Fraquezas vampíricas: não entra numa residência sem ser convidado; água corrente causa Dano 6 por turno; sob a luz do sol sofre Dano 6 por turno e fica Impedido; uma estaca de madeira no coração de um vampiro Incapacitado o paralisa até ser retirada.",
+    "Prisioneiro das Brumas: sabe de tudo o que acontece em Barovia e não pode sair dela."
+  ],
+  "fonte": "Maldição de Strahd (D&D 5e), adaptado para M&M 3e",
+  "ficha": {
+    "habilidades": {
+      "For": 4,
+      "Vig": 5,
+      "Agi": 5,
+      "Des": 4,
+      "Lut": 9,
+      "Int": 6,
+      "Pro": 4,
+      "Pre": 6
+    },
+    "defesas": {
+      "Esquiva": 12,
+      "Aparar": 12,
+      "Fortitude": 10,
+      "Resistencia": 14,
+      "Vontade": 14
+    },
+    "pericias": {
+      "Especialidade: Magia": 8,
+      "Especialidade: História": 6,
+      "Percepção": 8,
+      "Furtividade": 8,
+      "Enganação": 6,
+      "Intimidação": 8,
+      "Persuasão": 6,
+      "Combate à Distância: Magia": 7,
+      "Combate Corpo-a-Corpo: Desarmado e Mordida": 3
+    },
+    "vantagens": [
+      "Agarrar Aprimorado",
+      "Agarrar Rápido",
+      "Fascinar",
+      "Iniciativa Aprimorada",
+      "Liderança",
+      "Ritualista",
+      "Bem Informado"
+    ],
+    "poderes": [
+      {
+        "nome": "Regeneração",
+        "construcao": "Regeneração 10 (Limitado: não age no turno seguinte a sofrer dano radiante ou de água benta)."
+      },
+      {
+        "nome": "Escalar como Aranha",
+        "construcao": "Movimento 1 (Escalar Paredes)."
+      },
+      {
+        "nome": "Fisiologia Vampírica",
+        "construcao": "Imunidade 5 (doença, envelhecimento, veneno)."
+      },
+      {
+        "nome": "Carne Morta",
+        "construcao": "Proteção 9."
+      },
+      {
+        "nome": "Visão no Escuro",
+        "construcao": "Sentidos 2 (Visão no Escuro)."
+      },
+      {
+        "nome": "Forma de Névoa",
+        "construcao": "Ao ficar Incapacitado fora do caixão, vira névoa (Insubstancial 3) em vez de cair e volta ao caixão, onde recupera tudo em 1 hora. Se não chegar ao caixão em 2 horas, é destruído."
+      },
+      {
+        "nome": "Metamorfose",
+        "construcao": "Morfar 2 (morcego ou lobo); Insubstancial 3 (névoa) como efeito alternativo."
+      },
+      {
+        "nome": "Olhar Enfeitiçante",
+        "construcao": "Aflição 13 (resistida por Vontade; Tonto, Compelido, Controlado), Percepção (visual), Cumulativo."
+      },
+      {
+        "nome": "Filhos da Noite",
+        "construcao": "Invocar 4 (morcegos ou lobos), Múltiplos (até 8 lobos), uma vez por noite."
+      },
+      {
+        "nome": "Mordida",
+        "construcao": "Enfraquecer Vigor 10 (resistido por Fortitude), Ligado à mordida; cada mordida que acerta remove um ferimento."
+      },
+      {
+        "nome": "Grimório: Bola de Fogo",
+        "construcao": "Dano 12 (fogo), Área (Explosão, 6 m). Efeito principal do arranjo."
+      },
+      {
+        "nome": "Relâmpago (efeito alternativo, 1 PP)",
+        "construcao": "Dano 12 (eletricidade), Área (Linha, 30 m)."
+      },
+      {
+        "nome": "Polimorfia (efeito alternativo, 1 PP)",
+        "construcao": "Aflição 12 (resistida por Vontade; Tonto, Impedido, Transformado em fera), à Distância."
+      },
+      {
+        "nome": "Animar Mortos (efeito alternativo, 1 PP)",
+        "construcao": "Invocar 4 (zumbis), Múltiplos."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Golpe Desarmado",
+        "bonus": 12,
+        "dano": 6,
+        "critico": 20,
+        "descricao": "Pode agarrar"
+      },
+      {
+        "nome": "Mordida",
+        "bonus": 12,
+        "dano": 6,
+        "critico": 20,
+        "descricao": "Só contra alvo agarrado ou enfeitiçado; Ligado a Enfraquecer Vigor 10"
+      },
+      {
+        "nome": "Bola de Fogo",
+        "bonus": 0,
+        "dano": 12,
+        "critico": 20,
+        "descricao": "Área Explosão 6 m (CD 22 de Esquiva para metade)"
+      },
+      {
+        "nome": "Relâmpago",
+        "bonus": 0,
+        "dano": 12,
+        "critico": 20,
+        "descricao": "Área Linha 30 m (CD 22 de Esquiva para metade)"
+      }
+    ],
+    "equipamento": []
+  }
+}

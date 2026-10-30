@@ -1,0 +1,131 @@
+{
+  "id": "fantasia/aberracoes/observador",
+  "genero": "fantasia",
+  "familia": "Observador",
+  "variante": "Tirano Ocular",
+  "padrao": true,
+  "nome": "Observador",
+  "tipo": "Aberração",
+  "subtipo": "Tirano Ocular",
+  "papel": "Artilharia / Chefe (Solo)",
+  "chefe": true,
+  "tamanho": "Grande",
+  "nivel_poder": 12,
+  "ambientes": [
+    "Cavernas profundas",
+    "Subterrâneo",
+    "Covis de poços verticais"
+  ],
+  "descricao": "Esfera flutuante de quitina com uma boca cheia de dentes, um grande olho central e dez pedúnculos oculares. Paranoico e megalomaníaco, acredita ser a única criatura perfeita.",
+  "tatica": "Fica no alto, fora do alcance, e dispara raios. Aponta o cone antimagia para quem usa magia e o desvia quando quer acertar essa pessoa com os raios. Só morde quem consegue chegar perto.",
+  "fonte": "Manual dos Monstros (D&D 5e), p. 243, adaptado para M&M 3e",
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 6,
+      "Agi": 2,
+      "Des": 4,
+      "Lut": 2,
+      "Int": 3,
+      "Pro": 6,
+      "Pre": 3
+    },
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 6,
+      "Fortitude": 12,
+      "Resistencia": 14,
+      "Vontade": 12
+    },
+    "pericias": {
+      "Percepção": 12,
+      "Intimidação": 8,
+      "Intuição": 4,
+      "Combate à Distância: Raios Oculares": 6,
+      "Combate Corpo-a-Corpo: Mordida": 2
+    },
+    "vantagens": [
+      "Iniciativa Aprimorada",
+      "Mira Aprimorada",
+      "Avaliação"
+    ],
+    "poderes": [
+      {
+        "nome": "Porte Grande",
+        "construcao": "Crescimento 4 (já somado em Força, Vigor e defesas; Permanente, Inato)."
+      },
+      {
+        "nome": "Levitar",
+        "construcao": "Voo 1 (levitação; nunca cai)."
+      },
+      {
+        "nome": "Couraça Quitinosa",
+        "construcao": "Proteção 8."
+      },
+      {
+        "nome": "Raios Oculares: Raio Enervante",
+        "construcao": "Dano 12 (necrótico), à Distância, Multiataque. Efeito principal do arranjo."
+      },
+      {
+        "nome": "Raio Paralisante (efeito alternativo, 1 PP)",
+        "construcao": "Aflição 12 (resistida por Fortitude; Impedido, Imóvel, Paralisado), à Distância."
+      },
+      {
+        "nome": "Raio Enfeitiçador (efeito alternativo, 1 PP)",
+        "construcao": "Aflição 12 (resistida por Vontade; Tonto, Compelido, Controlado), à Distância."
+      },
+      {
+        "nome": "Raio Apavorante (efeito alternativo, 1 PP)",
+        "construcao": "Aflição 12 (resistida por Vontade; Tonto, Compelido a fugir, Controlado), à Distância."
+      },
+      {
+        "nome": "Raio Letárgico (efeito alternativo, 1 PP)",
+        "construcao": "Aflição 12 (resistida por Fortitude; Impedido, Tonto, Atordoado), à Distância."
+      },
+      {
+        "nome": "Raio do Sono (efeito alternativo, 1 PP)",
+        "construcao": "Aflição 12 (resistida por Vontade; Fatigado, Exausto, Dormindo), à Distância."
+      },
+      {
+        "nome": "Raio Petrificante (efeito alternativo, 1 PP)",
+        "construcao": "Aflição 12 (resistida por Fortitude; Impedido, Imóvel, Transformado em pedra), à Distância, Cumulativo."
+      },
+      {
+        "nome": "Raio Desintegrador (efeito alternativo, 1 PP)",
+        "construcao": "Dano 12, à Distância, Penetrante 6; quem fica Incapacitado vira pó."
+      },
+      {
+        "nome": "Raio Telecinético (efeito alternativo, 1 PP)",
+        "construcao": "Mover Objeto 12, à Distância."
+      },
+      {
+        "nome": "Cone Antimagia",
+        "construcao": "Anular 12 (todos os efeitos mágicos ao mesmo tempo), Área (Cone, 45 m), Sustentado. Também apaga os raios dele dentro do cone; ele escolhe a direção no início de cada turno."
+      },
+      {
+        "nome": "Olhos em Toda Parte",
+        "construcao": "Sentidos 4 (Visão no Escuro; vê em todas as direções)."
+      },
+      {
+        "nome": "Flutuante",
+        "construcao": "Imunidade 1 (ser derrubado)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Raios Oculares",
+        "bonus": 10,
+        "dano": 12,
+        "critico": 20,
+        "descricao": "À distância, Multiataque; escolha o raio a cada disparo (ou role 1d8)"
+      },
+      {
+        "nome": "Mordida",
+        "bonus": 4,
+        "dano": 4,
+        "critico": 20
+      }
+    ],
+    "equipamento": []
+  }
+}

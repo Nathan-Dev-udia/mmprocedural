@@ -1,0 +1,89 @@
+{
+  "id": "fantasia/monstruosidades/grifo_anciao",
+  "genero": "fantasia",
+  "familia": "Grifo",
+  "variante": "Ancião",
+  "padrao": false,
+  "nome": "Grifo Ancião",
+  "tipo": "Monstruosidade",
+  "subtipo": "Híbrido",
+  "papel": "Predador / Chefe",
+  "chefe": true,
+  "tamanho": "Grande",
+  "nivel_poder": 8,
+  "ambientes": [
+    "Planaltos",
+    "Ninhos em penhascos",
+    "Campos de batalha antigos"
+  ],
+  "descricao": "Grifo enorme e mais velho, dono de um território inteiro. Depois que perde a companheira, ataca qualquer coisa que se mova perto do ninho.",
+  "tatica": "Circula alto, mergulha sobre o alvo isolado, agarra e sobe. Bate as asas para derrubar quem tenta cercá-lo no chão.",
+  "fonte": "Manual dos Monstros (D&D 5e), p. 181 (Grifo), na forma de um macho velho e territorial; adaptado para M&M 3e",
+  "ficha": {
+    "habilidades": {
+      "For": 7,
+      "Vig": 6,
+      "Agi": 3,
+      "Des": 0,
+      "Lut": 7,
+      "Int": -3,
+      "Pro": 3,
+      "Pre": 0
+    },
+    "defesas": {
+      "Esquiva": 7,
+      "Aparar": 7,
+      "Fortitude": 8,
+      "Resistencia": 9,
+      "Vontade": 6
+    },
+    "pericias": {
+      "Percepção": 6,
+      "Intimidação": 6,
+      "Atletismo": 2,
+      "Combate Corpo-a-Corpo: Garras e Bico": 1
+    },
+    "vantagens": [
+      "Ação em Movimento",
+      "Ataque Poderoso",
+      "Agarrar Aprimorado",
+      "Iniciativa Aprimorada"
+    ],
+    "poderes": [
+      {
+        "nome": "Porte Grande",
+        "construcao": "Crescimento 4 (já somado em Força, Vigor e defesas; Permanente, Inato)."
+      },
+      {
+        "nome": "Asas de Águia",
+        "construcao": "Voo 6 (200 km/h; Asas)."
+      },
+      {
+        "nome": "Visão Aguçada",
+        "construcao": "Sentidos 3 (Visão no Escuro, Visão Estendida)."
+      },
+      {
+        "nome": "Couro e Penas",
+        "construcao": "Proteção 3."
+      },
+      {
+        "nome": "Rajada das Asas",
+        "construcao": "Aflição 8 (resistida por Fortitude; Impedido, Caído), Área (Cone, 9 m)."
+      },
+      {
+        "nome": "Arrebatar",
+        "construcao": "Pode voar carregando uma presa Média ou menor que esteja agarrando; soltá-la do alto causa dano de queda (livro básico, cap. 8)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Garras e Bico",
+        "bonus": 8,
+        "dano": 8,
+        "critico": 20,
+        "descricao": "Pode agarrar (Agarrar Aprimorado)"
+      }
+    ],
+    "equipamento": []
+  }
+}

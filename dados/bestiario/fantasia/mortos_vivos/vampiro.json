@@ -1,0 +1,119 @@
+{
+  "id": "fantasia/mortos_vivos/vampiro",
+  "genero": "fantasia",
+  "familia": "Vampiro",
+  "variante": "Senhor Vampiro",
+  "padrao": true,
+  "nome": "Vampiro",
+  "tipo": "Morto-Vivo",
+  "subtipo": "Vampiro",
+  "papel": "Bruto / Chefe",
+  "chefe": true,
+  "tamanho": "Médio",
+  "nivel_poder": 11,
+  "ambientes": [
+    "Castelos sombrios",
+    "Criptas",
+    "Mansões em ruínas"
+  ],
+  "descricao": "Morto-vivo aristocrático que se alimenta do sangue dos vivos. Encanta, manipula e governa a noite a partir de um caixão escondido.",
+  "tatica": "Encanta com o olhar o herói mais forte e o joga contra os amigos. Luta com garras e mordida, vira névoa quando perde e volta na noite seguinte.",
+  "complicacoes": [
+    "Fraquezas vampíricas: não entra numa residência sem ser convidado; água corrente causa Dano 6 por turno; sob a luz do sol sofre Dano 6 por turno e fica Impedido; uma estaca de madeira no coração de um vampiro Incapacitado o paralisa até ser retirada."
+  ],
+  "fonte": "Manual dos Monstros (D&D 5e), p. 296, adaptado para M&M 3e",
+  "ficha": {
+    "habilidades": {
+      "For": 6,
+      "Vig": 5,
+      "Agi": 5,
+      "Des": 3,
+      "Lut": 8,
+      "Int": 3,
+      "Pro": 4,
+      "Pre": 6
+    },
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 10,
+      "Fortitude": 9,
+      "Resistencia": 12,
+      "Vontade": 12
+    },
+    "pericias": {
+      "Furtividade": 8,
+      "Percepção": 6,
+      "Intuição": 6,
+      "Persuasão": 6,
+      "Enganação": 6,
+      "Intimidação": 6,
+      "Combate Corpo-a-Corpo: Garras e Mordida": 2
+    },
+    "vantagens": [
+      "Agarrar Aprimorado",
+      "Agarrar Rápido",
+      "Fascinar",
+      "Iniciativa Aprimorada",
+      "Liderança"
+    ],
+    "poderes": [
+      {
+        "nome": "Regeneração",
+        "construcao": "Regeneração 10 (Limitado: não age no turno seguinte a sofrer dano radiante ou de água benta)."
+      },
+      {
+        "nome": "Escalar como Aranha",
+        "construcao": "Movimento 1 (Escalar Paredes)."
+      },
+      {
+        "nome": "Fisiologia Vampírica",
+        "construcao": "Imunidade 5 (doença, envelhecimento, veneno)."
+      },
+      {
+        "nome": "Carne Morta",
+        "construcao": "Proteção 7."
+      },
+      {
+        "nome": "Visão no Escuro",
+        "construcao": "Sentidos 2 (Visão no Escuro)."
+      },
+      {
+        "nome": "Forma de Névoa",
+        "construcao": "Ao ficar Incapacitado fora do caixão, vira névoa (Insubstancial 3) em vez de cair e volta ao caixão, onde recupera tudo em 1 hora. Se não chegar ao caixão em 2 horas, é destruído."
+      },
+      {
+        "nome": "Metamorfose",
+        "construcao": "Morfar 2 (morcego ou lobo); Insubstancial 3 (névoa) como efeito alternativo."
+      },
+      {
+        "nome": "Olhar Enfeitiçante",
+        "construcao": "Aflição 11 (resistida por Vontade; Tonto, Compelido, Controlado), Percepção (visual), Cumulativo."
+      },
+      {
+        "nome": "Filhos da Noite",
+        "construcao": "Invocar 4 (morcegos ou lobos), Múltiplos (até 8 lobos), uma vez por noite."
+      },
+      {
+        "nome": "Mordida",
+        "construcao": "Enfraquecer Vigor 8 (resistido por Fortitude), Ligado à mordida; cada mordida que acerta remove um ferimento do vampiro."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Garras",
+        "bonus": 10,
+        "dano": 7,
+        "critico": 20,
+        "descricao": "Pode agarrar"
+      },
+      {
+        "nome": "Mordida",
+        "bonus": 10,
+        "dano": 7,
+        "critico": 20,
+        "descricao": "Só contra alvo agarrado ou enfeitiçado; Ligado a Enfraquecer Vigor 8"
+      }
+    ],
+    "equipamento": []
+  }
+}

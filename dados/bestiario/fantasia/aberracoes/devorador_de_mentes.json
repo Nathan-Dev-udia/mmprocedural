@@ -1,0 +1,105 @@
+{
+  "id": "fantasia/aberracoes/devorador_de_mentes",
+  "genero": "fantasia",
+  "familia": "Devorador de Mentes",
+  "variante": "Ilitide",
+  "padrao": true,
+  "nome": "Devorador de Mentes",
+  "tipo": "Aberração",
+  "subtipo": "Ilitide",
+  "papel": "Conjurador / Chefe",
+  "chefe": true,
+  "tamanho": "Médio",
+  "nivel_poder": 9,
+  "ambientes": [
+    "Subterrâneo",
+    "Colônias ilitides",
+    "Cidades sob a superfície"
+  ],
+  "descricao": "Aberração de pele violácea com quatro tentáculos no rosto. Escraviza outros povos com a mente e se alimenta de cérebros.",
+  "tatica": "Abre com a Rajada Mental e deixa os escravos lutarem. Agarra o herói atordoado com os tentáculos e extrai o cérebro. Foge levitando se a luta virar.",
+  "fonte": "Manual dos Monstros (D&D 5e), p. 65, adaptado para M&M 3e",
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 1,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 4,
+      "Int": 4,
+      "Pro": 3,
+      "Pre": 3
+    },
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 7,
+      "Fortitude": 5,
+      "Resistencia": 7,
+      "Vontade": 11
+    },
+    "pericias": {
+      "Enganação": 6,
+      "Furtividade": 5,
+      "Intuição": 6,
+      "Percepção": 6,
+      "Persuasão": 5,
+      "Especialidade: Magia": 6,
+      "Combate Corpo-a-Corpo: Tentáculos": 4
+    },
+    "vantagens": [
+      "Iniciativa Aprimorada",
+      "Liderança",
+      "Equipamento 1"
+    ],
+    "poderes": [
+      {
+        "nome": "Arranjo Psiônico: Rajada Mental",
+        "construcao": "Aflição 9 (resistida por Vontade; Tonto, Atordoado, Incapacitado), Área (Cone, 18 m). Efeito principal."
+      },
+      {
+        "nome": "Dominar (efeito alternativo, 1 PP)",
+        "construcao": "Aflição 9 (resistida por Vontade; Tonto, Compelido, Controlado), Percepção, Cumulativo."
+      },
+      {
+        "nome": "Tentáculos",
+        "construcao": "Aflição 9 (resistida por Vontade; Tonto, Atordoado), Ligada ao ataque dos tentáculos, que também agarram o alvo."
+      },
+      {
+        "nome": "Extrair Cérebro",
+        "construcao": "Contra um humanoide agarrado e Incapacitado vale como golpe de misericórdia (livro básico): se o alvo falhar, morre."
+      },
+      {
+        "nome": "Telepatia",
+        "construcao": "Comunicação 2 (mental); Leitura Mental 6."
+      },
+      {
+        "nome": "Levitação",
+        "construcao": "Voo 1 (Levitação)."
+      },
+      {
+        "nome": "Resistência à Magia",
+        "construcao": "+2 em Fortitude e Vontade, Limitado a efeitos mágicos."
+      },
+      {
+        "nome": "Campo Psíquico",
+        "construcao": "Proteção 3 (Sustentado)."
+      },
+      {
+        "nome": "Visão no Escuro",
+        "construcao": "Sentidos 2 (Visão no Escuro)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Tentáculos",
+        "bonus": 8,
+        "dano": 2,
+        "critico": 20,
+        "descricao": "Dano 2 (psíquico) + Aflição 9 (Vontade); agarra o alvo"
+      }
+    ],
+    "equipamento": [
+      "Peitoral (+3 Resistência)"
+    ]
+  }
+}

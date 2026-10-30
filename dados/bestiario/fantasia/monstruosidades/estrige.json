@@ -1,0 +1,99 @@
+{
+  "id": "fantasia/monstruosidades/estrige",
+  "genero": "fantasia",
+  "familia": "Estrige",
+  "variante": "Amaldiçoada",
+  "padrao": true,
+  "nome": "Estrige",
+  "tipo": "Monstruosidade",
+  "subtipo": "Amaldiçoado",
+  "papel": "Bruto / Chefe",
+  "chefe": true,
+  "tamanho": "Médio",
+  "nivel_poder": 9,
+  "ambientes": [
+    "Criptas",
+    "Castelos abandonados",
+    "Noites de lua cheia"
+  ],
+  "descricao": "Vítima de uma maldição que se ergue do túmulo nas noites de lua cheia como uma fera de garras e dentes, e mata quem encontra até o amanhecer.",
+  "tatica": "Salta das sombras sobre o mais próximo, derruba, morde e foge pelas paredes quando é ferida. Grita quando é cercada. Não negocia e não recua antes do amanhecer.",
+  "complicacoes": [
+    "Maldição: só se ergue nas noites de lua cheia e precisa voltar ao túmulo antes do amanhecer."
+  ],
+  "fonte": "Folclore eslavo (strzyga), sobre os Licantropos do Manual dos Monstros (D&D 5e); adaptado para M&M 3e",
+  "ficha": {
+    "habilidades": {
+      "For": 7,
+      "Vig": 7,
+      "Agi": 5,
+      "Des": 0,
+      "Lut": 8,
+      "Int": -2,
+      "Pro": 3,
+      "Pre": 0
+    },
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 9,
+      "Fortitude": 9,
+      "Resistencia": 9,
+      "Vontade": 7
+    },
+    "pericias": {
+      "Atletismo": 4,
+      "Acrobacia": 4,
+      "Percepção": 6,
+      "Intimidação": 8,
+      "Combate Corpo-a-Corpo: Garras e Mordida": 1
+    },
+    "vantagens": [
+      "Ataque Poderoso",
+      "Ação em Movimento",
+      "Iniciativa Aprimorada",
+      "Derrubar Aprimorado"
+    ],
+    "poderes": [
+      {
+        "nome": "Fúria da Maldição",
+        "construcao": "Imunidade 20 (dano de armas comuns; prata e magia passam)."
+      },
+      {
+        "nome": "Regeneração",
+        "construcao": "Regeneração 6 (Limitado: não age no turno seguinte a sofrer dano de prata)."
+      },
+      {
+        "nome": "Saltos e Paredes",
+        "construcao": "Salto 3; Movimento 1 (Escalar Paredes)."
+      },
+      {
+        "nome": "Grito",
+        "construcao": "Aflição 9 (resistida por Vontade; Tonto, Atordoado), Área (Explosão de 9 m ao redor dela)."
+      },
+      {
+        "nome": "Sentidos de Fera",
+        "construcao": "Sentidos 3 (Visão no Escuro, Olfato Aguçado)."
+      },
+      {
+        "nome": "Pele Dura",
+        "construcao": "Proteção 2."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Garras",
+        "bonus": 9,
+        "dano": 9,
+        "critico": 19,
+        "descricao": "Pode derrubar (Derrubar Aprimorado)"
+      },
+      {
+        "nome": "Mordida",
+        "bonus": 9,
+        "dano": 8,
+        "critico": 20
+      }
+    ],
+    "equipamento": []
+  }
+}

@@ -18,7 +18,7 @@ from pathlib import Path
 
 from flask import Flask, jsonify, redirect, render_template, request, send_file
 
-from nucleo import (bestiario, bestiario_pdf, data_loader, docx_export, formatter, generator, herois, herois_pdf, livros, medidas, pdf_export,
+from nucleo import (bestiario, bestiario_docx, bestiario_pdf, data_loader, docx_export, formatter, generator, herois, herois_pdf, livros, medidas, pdf_export,
                     planilhas, player, validator, viagem)
 
 app = Flask(__name__)
@@ -170,6 +170,7 @@ def opcoes_da_interface(DADOS):
             "tipos": bestiario.tipos(),
             "papeis": bestiario.papeis(),
             "faixas_np": bestiario.faixas_np(),
+            "chefes": bestiario.chefes(),
         },
     }
 
@@ -419,20 +420,68 @@ def lista_de_criaturas():
 
 @app.get("/api/bestiario/<path:criatura_id>")
 def ficha_de_criatura(criatura_id):
-    ficha = bestiario.ficha(criatura_id)
+    ficha = bestiario.ficha(criatura_id, _np_pedido())
     if ficha is None:
         return jsonify({"erro": "Criatura não encontrada."}), 404
     return jsonify({"ficha": ficha})
 
 
+def _np_pedido():
+    """?np=12 -> 12 (de 1 a 20); sem ?np, ou inválido, a criatura fica no NP padrão dela."""
+    try:
+        return max(bestiario.NP_MINIMO, min(int(request.args["np"]), bestiario.NP_MAXIMO))
+    except (KeyError, ValueError):
+        return None
+
+
+def _nome_do_download(criatura_id, np):
+    """'carnical' no NP padrão; 'carnical_np12' em outro NP."""
+    arquivo = criatura_id.rsplit("/", 1)[-1]
+    return f"{arquivo}_np{np}" if np is not None else arquivo
+
+
+def _quantidade_de_copias():
+    """?quantidade=3 -> 3, limitado de 1 a bestiario_docx.COPIAS_MAXIMAS."""
+    try:
+        quantidade = int(request.args.get("quantidade", 1))
+    except ValueError:
+        quantidade = 1
+    return max(1, min(quantidade, bestiario_docx.COPIAS_MAXIMAS))
+
+
 @app.get("/bestiario/<path:criatura_id>.pdf")
 def baixar_pdf_de_criatura(criatura_id):
+    """Uma cópia: o PDF. Várias: um .zip com um PDF numerado por cópia (cada um com os seus campos)."""
     modelo = Path(__file__).parent / "dados" / "comum" / "ficha_editavel.pdf"
-    conteudo = bestiario_pdf.gerar_pdf(modelo, criatura_id) if modelo.is_file() else None
+    entrada = bestiario._catalogo().get(criatura_id)
+    if entrada is None or not modelo.is_file():
+        return jsonify({"erro": "Criatura não encontrada."}), 404
+    np = _np_pedido()
+    arquivo = _nome_do_download(criatura_id, np)
+    quantidade = _quantidade_de_copias()
+    if quantidade == 1:
+        return send_file(io.BytesIO(bestiario_pdf.gerar_pdf(modelo, criatura_id, np=np)), mimetype="application/pdf",
+                         as_attachment=True, download_name=f"{arquivo}.pdf")
+    pacote = io.BytesIO()
+    with zipfile.ZipFile(pacote, "w", zipfile.ZIP_DEFLATED) as arquivo_zip:
+        for n, nome in enumerate(bestiario_docx.nomes_das_copias(entrada[1]["nome"], quantidade), start=1):
+            arquivo_zip.writestr(f"{arquivo}_{n}.pdf", bestiario_pdf.gerar_pdf(modelo, criatura_id, nome, np))
+    pacote.seek(0)
+    return send_file(pacote, mimetype="application/zip", as_attachment=True,
+                     download_name=f"{arquivo}_x{quantidade}.zip")
+
+
+@app.get("/bestiario/<path:criatura_id>.docx")
+def baixar_docx_de_criatura(criatura_id):
+    """Um .docx com uma ficha por página; com várias cópias, elas saem numeradas."""
+    quantidade = _quantidade_de_copias()
+    np = _np_pedido()
+    conteudo = bestiario_docx.gerar_docx(criatura_id, quantidade, np)
     if conteudo is None:
         return jsonify({"erro": "Criatura não encontrada."}), 404
-    return send_file(io.BytesIO(conteudo), mimetype="application/pdf", as_attachment=True,
-                     download_name=f"{criatura_id.rsplit('/', 1)[-1]}.pdf")
+    sufixo = f"_x{quantidade}" if quantidade > 1 else ""
+    return send_file(io.BytesIO(conteudo), mimetype=MIME_DOCX, as_attachment=True,
+                     download_name=f"{_nome_do_download(criatura_id, np)}{sufixo}.docx")
 
 
 # ---------------------------------------------------------------- rolagem de eventos de viagem

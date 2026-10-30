@@ -1,0 +1,81 @@
+{
+  "id": "fantasia/monstruosidades/grifo_montaria",
+  "genero": "fantasia",
+  "familia": "Grifo",
+  "variante": "De Montaria",
+  "padrao": false,
+  "nome": "Grifo de Montaria",
+  "tipo": "Monstruosidade",
+  "subtipo": "Grifo",
+  "papel": "Montaria / Soldado",
+  "tamanho": "Grande",
+  "nivel_poder": 5,
+  "ambientes": [
+    "Fortalezas de cavaleiros",
+    "Ninhos em penhascos"
+  ],
+  "descricao": "Grifo criado desde o ovo e treinado para levar um cavaleiro. Leal ao mestre por toda a vida, mas sempre de olho nos cavalos.",
+  "tatica": "Luta junto do cavaleiro e se joga na frente dos golpes dirigidos a ele. Um cavaleiro sensato o alimenta bem antes de passar perto de estábulos.",
+  "fonte": "Manual dos Monstros (D&D 5e), p. 181 (Montarias Treinadas), adaptado para M&M 3e",
+  "ficha": {
+    "habilidades": {
+      "For": 5,
+      "Vig": 4,
+      "Agi": 2,
+      "Des": 0,
+      "Lut": 5,
+      "Int": -4,
+      "Pro": 2,
+      "Pre": -1
+    },
+    "defesas": {
+      "Esquiva": 5,
+      "Aparar": 5,
+      "Fortitude": 6,
+      "Resistencia": 5,
+      "Vontade": 3
+    },
+    "pericias": {
+      "Percepção": 6,
+      "Intimidação": 4,
+      "Atletismo": 2
+    },
+    "vantagens": [
+      "Ação em Movimento",
+      "Ataque Poderoso",
+      "Interpor-se",
+      "Trabalho em Equipe"
+    ],
+    "poderes": [
+      {
+        "nome": "Porte Grande",
+        "construcao": "Crescimento 4 (já somado em Força, Vigor e defesas; Permanente, Inato)."
+      },
+      {
+        "nome": "Asas de Águia",
+        "construcao": "Voo 5 (100 km/h; Asas)."
+      },
+      {
+        "nome": "Visão Aguçada",
+        "construcao": "Sentidos 3 (Visão no Escuro, Visão Estendida)."
+      },
+      {
+        "nome": "Couro e Penas",
+        "construcao": "Proteção 1."
+      },
+      {
+        "nome": "Montaria Leal",
+        "construcao": "Carrega em voo um cavaleiro Médio com equipamento. Vinculado a um só mestre: usa Interpor-se para receber os golpes dirigidos a ele."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Bico e Garras",
+        "bonus": 5,
+        "dano": 5,
+        "critico": 20
+      }
+    ],
+    "equipamento": []
+  }
+}

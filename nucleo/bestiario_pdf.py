@@ -1,6 +1,5 @@
 """Gera a ficha editável em PDF de uma criatura do Bestiário (dados/generos/bestiario)."""
 
-import json
 import textwrap
 import unicodedata
 from pathlib import Path
@@ -16,18 +15,20 @@ def _compativel_com_a_fonte(texto):
                    unicodedata.normalize("NFKD", c).encode("ascii", "ignore").decode() for c in texto)
 
 
-def campos_da_criatura(criatura_id):
-    """Mapeia os campos da criatura para o formulário da ficha editável PDF."""
-    entrada = bestiario._catalogo().get(criatura_id)
-    if entrada is None:
+def campos_da_criatura(criatura_id, nome=None, np=None):
+    """Mapeia os campos da criatura para o formulário da ficha editável PDF.
+
+    `nome` troca o nome da ficha (ex.: "Carniçal 2" quando o mestre baixa várias cópias); `np` leva a criatura
+    a outro NP (bestiario.no_np).
+    """
+    dados, resumo = bestiario.carregar(criatura_id, np)
+    if dados is None:
         return None
-    caminho, resumo = entrada
-    dados = json.loads(caminho.read_text(encoding="utf-8"))
     f = dados.get("ficha", {})
     hab = f.get("habilidades", {})
 
     campos = {
-        "Herói": dados.get("nome", ""),
+        "Herói": nome or dados.get("nome", ""),
         "Identidade": f"{dados.get('tipo', '')} ({dados.get('papel', '')})",
         "Gênero": "Fantasia / Bestiário",
         "Idade": "",
@@ -55,7 +56,11 @@ def campos_da_criatura(criatura_id):
     ]
     for d_nome, h_sigla, campo_def in pares:
         total = defs.get(d_nome)
-        if total is not None:
+        if isinstance(total, str):
+            # Defesa que a criatura não tem (Fortitude de morto-vivo sem Vigor): "Imune".
+            campos[f"{campo_def}Total"] = total
+            campos[campo_def] = total
+        elif total is not None:
             base = hab.get(h_sigla, 0) or 0
             comprada = max(0, total - base)
             campos[f"{campo_def}Hab"] = str(base)
@@ -128,8 +133,16 @@ def campos_da_criatura(criatura_id):
         linhas_poderes += textwrap.wrap(texto, width=62, subsequent_indent="  ", break_long_words=False)
     _preencher_linhas(campos, "Poderes e Dispositivos {n}", linhas_poderes, LINHAS["poderes"])
 
+    # Complicações
+    linhas_complicacoes = []
+    for complicacao in dados.get("complicacoes", []):
+        linhas_complicacoes += textwrap.wrap(complicacao, width=62, subsequent_indent="  ", break_long_words=False)
+    _preencher_linhas(campos, "Complicações {n}", linhas_complicacoes, LINHAS["complicacoes"])
+
     # Notas & Táticas
     condicoes = [f"Bestiário Fantasia — Fonte: {dados.get('fonte', '')}"]
+    if dados.get("aviso_de_escala"):
+        condicoes.append(dados["aviso_de_escala"])
     if dados.get("descricao"):
         condicoes.append(f"Descrição: {dados['descricao']}")
     if dados.get("tatica"):
@@ -142,9 +155,9 @@ def campos_da_criatura(criatura_id):
     return {k: _compativel_com_a_fonte(v) for k, v in campos.items()}
 
 
-def gerar_pdf(caminho_modelo, criatura_id):
+def gerar_pdf(caminho_modelo, criatura_id, nome=None, np=None):
     """Gera os bytes do PDF preenchido da criatura."""
-    campos = campos_da_criatura(criatura_id)
+    campos = campos_da_criatura(criatura_id, nome, np)
     if campos is None:
         return None
     return pdf_export.preencher_modelo(caminho_modelo, campos)

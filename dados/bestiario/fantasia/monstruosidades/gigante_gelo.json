@@ -1,0 +1,94 @@
+{
+  "id": "fantasia/monstruosidades/gigante_gelo",
+  "genero": "fantasia",
+  "familia": "Gigante do Gelo",
+  "variante": "Comum",
+  "padrao": true,
+  "nome": "Gigante do Gelo",
+  "tipo": "Monstruosidade",
+  "subtipo": "Ogroide",
+  "papel": "Bruto / Chefe (Solo)",
+  "chefe": true,
+  "tamanho": "Enorme",
+  "nivel_poder": 10,
+  "ambientes": [
+    "Ilhas geladas",
+    "Montanhas nevadas",
+    "Cavernas de gelo"
+  ],
+  "descricao": "Gigante de quase seis metros que vive em ilhas e montanhas geladas. Veste peles e retalhos das armaduras de quem matou e luta com o que tiver à mão: um machado, um mastro, uma âncora.",
+  "tatica": "Avança devagar e golpeia com alcance. Pisa em quem cai e arremessa pedras em quem foge.",
+  "fonte": "Manual dos Monstros (D&D 5e), Gigante do Gelo, adaptado para M&M 3e",
+  "ficha": {
+    "habilidades": {
+      "For": 11,
+      "Vig": 10,
+      "Agi": 0,
+      "Des": 0,
+      "Lut": 7,
+      "Int": -1,
+      "Pro": 1,
+      "Pre": 1
+    },
+    "defesas": {
+      "Esquiva": 4,
+      "Aparar": 6,
+      "Fortitude": 12,
+      "Resistencia": 14,
+      "Vontade": 6
+    },
+    "pericias": {
+      "Atletismo": 6,
+      "Percepção": 4,
+      "Intimidação": 6,
+      "Combate à Distância: Arremesso": 7
+    },
+    "vantagens": [
+      "Ataque Poderoso",
+      "Quebrar Aprimorado",
+      "Derrubar Aprimorado",
+      "Equipamento 3"
+    ],
+    "poderes": [
+      {
+        "nome": "Porte Enorme",
+        "construcao": "Crescimento 8 (já somado em Força, Vigor e defesas; Permanente, Inato)."
+      },
+      {
+        "nome": "Filho do Gelo",
+        "construcao": "Imunidade 10 (frio)."
+      },
+      {
+        "nome": "Pisotão",
+        "construcao": "Dano 8, Área (Explosão de 3 m ao redor dele)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Âncora ou Machado Grande",
+        "bonus": 7,
+        "dano": 13,
+        "critico": 20,
+        "descricao": "Alcance 3 m"
+      },
+      {
+        "nome": "Pedra",
+        "bonus": 7,
+        "dano": 11,
+        "critico": 20,
+        "descricao": "À distância"
+      },
+      {
+        "nome": "Pisotão",
+        "bonus": 0,
+        "dano": 8,
+        "critico": 20,
+        "descricao": "Área Explosão 3 m (CD 18 de Esquiva para metade)"
+      }
+    ],
+    "equipamento": [
+      "Armadura de retalhos (+4 Resistência)",
+      "Âncora de navio ou machado grande (Dano 2)"
+    ]
+  }
+}

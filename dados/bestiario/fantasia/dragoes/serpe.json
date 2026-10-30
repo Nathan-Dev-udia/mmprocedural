@@ -1,0 +1,89 @@
+{
+  "id": "fantasia/dragoes/serpe",
+  "genero": "fantasia",
+  "familia": "Serpe",
+  "variante": "Comum",
+  "padrao": true,
+  "nome": "Serpe",
+  "tipo": "Dragão",
+  "subtipo": "Draconídeo",
+  "papel": "Predador / Chefe",
+  "chefe": true,
+  "tamanho": "Grande",
+  "nivel_poder": 8,
+  "ambientes": [
+    "Montanhas",
+    "Ravinas",
+    "Ruínas altas"
+  ],
+  "descricao": "Draconídeo de duas pernas, asas de morcego e um ferrão venenoso na cauda. Não cospe fogo, mas é rápido, agressivo e territorial.",
+  "tatica": "Mergulha sobre o alvo, morde e crava o ferrão; sobe de novo antes do contra-ataque. Persegue quem foge.",
+  "fonte": "Manual dos Monstros (D&D 5e), p. 302 (Wyvern), adaptado para M&M 3e",
+  "ficha": {
+    "habilidades": {
+      "For": 6,
+      "Vig": 5,
+      "Agi": 2,
+      "Des": 0,
+      "Lut": 6,
+      "Int": -4,
+      "Pro": 2,
+      "Pre": -2
+    },
+    "defesas": {
+      "Esquiva": 7,
+      "Aparar": 7,
+      "Fortitude": 8,
+      "Resistencia": 9,
+      "Vontade": 5
+    },
+    "pericias": {
+      "Percepção": 6,
+      "Intimidação": 4,
+      "Combate Corpo-a-Corpo: Mordida e Ferrão": 2
+    },
+    "vantagens": [
+      "Ação em Movimento",
+      "Ataque Poderoso",
+      "Agarrar Aprimorado"
+    ],
+    "poderes": [
+      {
+        "nome": "Porte Grande",
+        "construcao": "Crescimento 4 (já somado em Força, Vigor e defesas; Permanente, Inato)."
+      },
+      {
+        "nome": "Asas",
+        "construcao": "Voo 6 (200 km/h; Asas)."
+      },
+      {
+        "nome": "Escamas",
+        "construcao": "Proteção 4."
+      },
+      {
+        "nome": "Visão no Escuro",
+        "construcao": "Sentidos 2 (Visão no Escuro)."
+      },
+      {
+        "nome": "Ferrão Venenoso",
+        "construcao": "Aflição 8 (resistida por Fortitude; Tonto, Atordoado, Incapacitado), veneno, Ligada ao ferrão."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Mordida",
+        "bonus": 8,
+        "dano": 8,
+        "critico": 20
+      },
+      {
+        "nome": "Ferrão",
+        "bonus": 8,
+        "dano": 6,
+        "critico": 20,
+        "descricao": "Ligado a Aflição 8 (veneno, Fortitude)"
+      }
+    ],
+    "equipamento": []
+  }
+}

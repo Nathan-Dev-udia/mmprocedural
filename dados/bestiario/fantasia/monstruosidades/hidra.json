@@ -1,0 +1,89 @@
+{
+  "id": "fantasia/monstruosidades/hidra",
+  "genero": "fantasia",
+  "familia": "Hidra",
+  "variante": "Cinco Cabeças",
+  "padrao": true,
+  "nome": "Hidra",
+  "tipo": "Monstruosidade",
+  "subtipo": "Hidra",
+  "papel": "Bruto / Chefe (Solo)",
+  "chefe": true,
+  "tamanho": "Enorme",
+  "nivel_poder": 9,
+  "ambientes": [
+    "Pântanos",
+    "Lagos profundos",
+    "Ruínas alagadas"
+  ],
+  "descricao": "Réptil enorme de cinco cabeças. Corte uma e nascem duas, a não ser que o toco seja queimado.",
+  "tatica": "Avança mordendo tudo ao redor. Não recua nem negocia; só foge para a água funda quando lhe resta uma cabeça.",
+  "complicacoes": [
+    "Fraqueza: o fogo impede que as cabeças cortadas cresçam de novo."
+  ],
+  "fonte": "Manual dos Monstros (D&D 5e), p. 185, adaptado para M&M 3e",
+  "ficha": {
+    "habilidades": {
+      "For": 9,
+      "Vig": 9,
+      "Agi": 1,
+      "Des": 0,
+      "Lut": 6,
+      "Int": -4,
+      "Pro": 2,
+      "Pre": -2
+    },
+    "defesas": {
+      "Esquiva": 4,
+      "Aparar": 6,
+      "Fortitude": 11,
+      "Resistencia": 12,
+      "Vontade": 6
+    },
+    "pericias": {
+      "Percepção": 6,
+      "Intimidação": 6,
+      "Atletismo": 2
+    },
+    "vantagens": [
+      "Ataque Poderoso",
+      "Iniciativa Aprimorada"
+    ],
+    "poderes": [
+      {
+        "nome": "Porte Enorme",
+        "construcao": "Crescimento 8 (já somado em Força, Vigor e defesas; Permanente, Inato)."
+      },
+      {
+        "nome": "Cinco Cabeças",
+        "construcao": "Mordidas com Multiataque. Dano 9, Reação (morde quem sai do alcance dela). Sentidos 1 (Sentido de Perigo): uma cabeça sempre vigia. +2 em Fortitude e Vontade (Limitado: contra Tonto, Atordoado, Cego e Incapacitado)."
+      },
+      {
+        "nome": "Regeneração",
+        "construcao": "Regeneração 6 (Limitado: não age no turno seguinte a sofrer dano de fogo)."
+      },
+      {
+        "nome": "Nadadora",
+        "construcao": "Natação 3; Imunidade 2 (sufocamento, Limitado a 1 hora)."
+      },
+      {
+        "nome": "Couro Escamoso",
+        "construcao": "Proteção 3."
+      },
+      {
+        "nome": "Visão no Escuro",
+        "construcao": "Sentidos 2 (Visão no Escuro)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Mordidas",
+        "bonus": 6,
+        "dano": 9,
+        "critico": 20,
+        "descricao": "Multiataque; uma por cabeça"
+      }
+    ],
+    "equipamento": []
+  }
+}

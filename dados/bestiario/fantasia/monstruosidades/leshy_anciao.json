@@ -1,0 +1,120 @@
+{
+  "id": "fantasia/monstruosidades/leshy_anciao",
+  "genero": "fantasia",
+  "familia": "Leshy",
+  "variante": "Ancião",
+  "padrao": true,
+  "nome": "Leshy Ancião",
+  "tipo": "Monstruosidade",
+  "subtipo": "Relicto",
+  "papel": "Conjurador / Chefe (Solo)",
+  "chefe": true,
+  "tamanho": "Grande",
+  "nivel_poder": 10,
+  "ambientes": [
+    "Florestas antigas",
+    "Bosques sagrados",
+    "Aldeias que o veneram"
+  ],
+  "descricao": "Espírito antigo da floresta, com crânio de cervo, corpo de galhos e olhos que brilham. Os aldeões o tratam como deus do bosque, até ele começar a cobrar.",
+  "tatica": "Nunca luta parado: some numa árvore, aparece atrás do mais ferido, solta corvos e lobos e ataca com raízes de longe. Usa a névoa para separar o grupo.",
+  "complicacoes": [
+    "Território: preso ao seu bosque; não o deixa por vontade própria."
+  ],
+  "fonte": "Leshy (Tomo dos Monstros), na forma de um espírito ancião do bosque; adaptado para M&M 3e",
+  "ficha": {
+    "habilidades": {
+      "For": 6,
+      "Vig": 6,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 6,
+      "Int": 3,
+      "Pro": 6,
+      "Pre": 4
+    },
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 8,
+      "Fortitude": 9,
+      "Resistencia": 11,
+      "Vontade": 11
+    },
+    "pericias": {
+      "Percepção": 8,
+      "Furtividade": 8,
+      "Intimidação": 8,
+      "Especialidade: Sobrevivência": 6,
+      "Combate à Distância: Raízes": 6
+    },
+    "vantagens": [
+      "Iniciativa Aprimorada",
+      "Esconder-se à Plena Vista",
+      "Liderança",
+      "Empatia com Animais"
+    ],
+    "poderes": [
+      {
+        "nome": "Porte Grande",
+        "construcao": "Crescimento 4 (já somado em Força, Vigor e defesas; Permanente, Inato)."
+      },
+      {
+        "nome": "Couro de Casca",
+        "construcao": "Proteção 5."
+      },
+      {
+        "nome": "Raízes Perfurantes",
+        "construcao": "Dano 10 (perfuração), à Distância, Indireto (as raízes saem do chão sob o alvo). Efeito principal do arranjo."
+      },
+      {
+        "nome": "Enxame de Corvos (efeito alternativo, 1 PP)",
+        "construcao": "Aflição 10 (resistida por Fortitude; Visão Prejudicada, Cego), Área (Explosão, 6 m)."
+      },
+      {
+        "nome": "Névoa do Bosque (efeito alternativo, 1 PP)",
+        "construcao": "Ocultamento 4 (visão), Área (Explosão, 9 m)."
+      },
+      {
+        "nome": "Passo pelas Raízes",
+        "construcao": "Teleporte 6 (Limitado: de uma árvore a outra do seu bosque)."
+      },
+      {
+        "nome": "Filhos do Bosque",
+        "construcao": "Invocar 3 (lobos), Múltiplos (até 4 lobos), Limitado: só no seu bosque."
+      },
+      {
+        "nome": "Regeneração",
+        "construcao": "Regeneração 4 (Limitado: só no bosque; não age no turno seguinte a sofrer dano de fogo)."
+      },
+      {
+        "nome": "Marca do Leshy",
+        "construcao": "Imortalidade 5 (renasce no bosque em uma semana), Limitado: só enquanto o marcado viver."
+      },
+      {
+        "nome": "Sentidos do Bosque",
+        "construcao": "Sentidos 5 (Visão no Escuro, Olfato Aguçado; sente tudo o que se move no seu bosque)."
+      },
+      {
+        "nome": "Mimetismo",
+        "construcao": "Imita qualquer voz ou som que já ouviu (Enganação; quem desconfia resiste com Intuição)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Raízes Perfurantes",
+        "bonus": 8,
+        "dano": 10,
+        "critico": 20,
+        "descricao": "À distância, Indireto"
+      },
+      {
+        "nome": "Garras de Galho",
+        "bonus": 6,
+        "dano": 8,
+        "critico": 20,
+        "descricao": "Alcance 3 m"
+      }
+    ],
+    "equipamento": []
+  }
+}

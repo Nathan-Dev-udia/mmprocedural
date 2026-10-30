@@ -1,0 +1,90 @@
+{
+  "id": "fantasia/monstruosidades/bies",
+  "genero": "fantasia",
+  "familia": "Bies",
+  "variante": "Comum",
+  "padrao": true,
+  "nome": "Bies",
+  "tipo": "Monstruosidade",
+  "subtipo": "Relicto",
+  "papel": "Bruto / Chefe",
+  "chefe": true,
+  "tamanho": "Enorme",
+  "nivel_poder": 9,
+  "ambientes": [
+    "Bosques antigos",
+    "Pântanos",
+    "Ruínas cobertas de mato"
+  ],
+  "descricao": "Fera ancestral dos bosques, de chifres enormes e pelo grosso, com um olho na testa que hipnotiza quem o encara.",
+  "tatica": "Hipnotiza quem o encara e investe contra quem resiste. Pisoteia quem está no chão. Foge para o pântano se a luta virar.",
+  "fonte": "Folclore eslavo (bies), com o olhar e o bote do Likho (Tomo dos Monstros); adaptado para M&M 3e",
+  "ficha": {
+    "habilidades": {
+      "For": 9,
+      "Vig": 8,
+      "Agi": 1,
+      "Des": 0,
+      "Lut": 7,
+      "Int": -1,
+      "Pro": 4,
+      "Pre": 2
+    },
+    "defesas": {
+      "Esquiva": 5,
+      "Aparar": 7,
+      "Fortitude": 10,
+      "Resistencia": 11,
+      "Vontade": 8
+    },
+    "pericias": {
+      "Percepção": 6,
+      "Intimidação": 8,
+      "Furtividade": 4
+    },
+    "vantagens": [
+      "Ataque Poderoso",
+      "Derrubar Aprimorado",
+      "Iniciativa Aprimorada",
+      "Ação em Movimento"
+    ],
+    "poderes": [
+      {
+        "nome": "Porte Enorme",
+        "construcao": "Crescimento 8 (já somado em Força, Vigor e defesas; Permanente, Inato)."
+      },
+      {
+        "nome": "Pelo Grosso",
+        "construcao": "Proteção 3."
+      },
+      {
+        "nome": "Visão no Escuro",
+        "construcao": "Sentidos 2 (Visão no Escuro)."
+      },
+      {
+        "nome": "Olho Hipnótico",
+        "construcao": "Aflição 9 (resistida por Vontade; Tonto, Atordoado, Incapacitado), Percepção (visual), Cumulativo."
+      },
+      {
+        "nome": "Corrida",
+        "construcao": "Velocidade 3."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Chifres",
+        "bonus": 7,
+        "dano": 11,
+        "critico": 20,
+        "descricao": "Pode derrubar (Derrubar Aprimorado)"
+      },
+      {
+        "nome": "Pisoteio",
+        "bonus": 7,
+        "dano": 10,
+        "critico": 20
+      }
+    ],
+    "equipamento": []
+  }
+}

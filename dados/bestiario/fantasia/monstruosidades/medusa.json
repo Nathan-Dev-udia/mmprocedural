@@ -1,0 +1,103 @@
+{
+  "id": "fantasia/monstruosidades/medusa",
+  "genero": "fantasia",
+  "familia": "Medusa",
+  "variante": "Comum",
+  "padrao": true,
+  "nome": "Medusa",
+  "tipo": "Monstruosidade",
+  "subtipo": "Medusa",
+  "papel": "Emboscador / Chefe",
+  "chefe": true,
+  "tamanho": "Médio",
+  "nivel_poder": 8,
+  "ambientes": [
+    "Ruínas de templos",
+    "Jardins de estátuas",
+    "Ilhas isoladas"
+  ],
+  "descricao": "Mulher amaldiçoada com serpentes no lugar dos cabelos. Quem a encara vira pedra, e ela vive cercada das estátuas de quem tentou.",
+  "tatica": "Espera escondida entre as estátuas e deixa o olhar trabalhar. Atira com o arco em quem desvia os olhos e ataca com as serpentes quem chega perto.",
+  "complicacoes": [
+    "Fraqueza: se ela se vir refletida numa superfície polida a até 9 m, sob luz plena, resiste ao próprio olhar."
+  ],
+  "fonte": "Manual dos Monstros (D&D 5e), p. 221, adaptado para M&M 3e",
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 3,
+      "Agi": 2,
+      "Des": 3,
+      "Lut": 5,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 3
+    },
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 8,
+      "Fortitude": 7,
+      "Resistencia": 8,
+      "Vontade": 7
+    },
+    "pericias": {
+      "Enganação": 6,
+      "Furtividade": 8,
+      "Intuição": 4,
+      "Percepção": 6,
+      "Combate Corpo-a-Corpo: Serpentes": 3,
+      "Combate à Distância: Arcos": 6
+    },
+    "vantagens": [
+      "Esconder-se à Plena Vista",
+      "Iniciativa Aprimorada",
+      "Fascinar",
+      "Equipamento 2"
+    ],
+    "poderes": [
+      {
+        "nome": "Olhar Petrificante",
+        "construcao": "Aflição 8 (resistida por Fortitude; Impedido, Imóvel, Transformado em pedra), Percepção (visual), Cumulativo. Limitado: só afeta quem olha para ela."
+      },
+      {
+        "nome": "Cabelo de Serpentes",
+        "construcao": "Aflição 7 (resistida por Fortitude; Tonto, Atordoado, Incapacitado), veneno, Ligada à mordida das serpentes."
+      },
+      {
+        "nome": "Visão no Escuro",
+        "construcao": "Sentidos 2 (Visão no Escuro)."
+      },
+      {
+        "nome": "Pele Escamosa",
+        "construcao": "Proteção 5."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Cabelo de Serpentes",
+        "bonus": 8,
+        "dano": 2,
+        "critico": 20,
+        "descricao": "Dano 2 + Aflição 7 (veneno)"
+      },
+      {
+        "nome": "Espada Curta",
+        "bonus": 5,
+        "dano": 2,
+        "critico": 19
+      },
+      {
+        "nome": "Arco Longo",
+        "bonus": 9,
+        "dano": 3,
+        "critico": 20,
+        "descricao": "À distância; flechas envenenadas (Aflição 4, Fortitude)"
+      }
+    ],
+    "equipamento": [
+      "Espada curta (Dano 2)",
+      "Arco longo (Dano 3)",
+      "Flechas envenenadas"
+    ]
+  }
+}

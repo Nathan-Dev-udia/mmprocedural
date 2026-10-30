@@ -1,0 +1,146 @@
+{
+  "id": "fantasia/mortos_vivos/lich",
+  "genero": "fantasia",
+  "familia": "Lich",
+  "variante": "Arquimago",
+  "padrao": true,
+  "nome": "Lich",
+  "tipo": "Morto-Vivo",
+  "subtipo": "Lich",
+  "papel": "Conjurador / Chefe (Solo)",
+  "chefe": true,
+  "tamanho": "Médio",
+  "nivel_poder": 14,
+  "ambientes": [
+    "Torres arruinadas",
+    "Tumbas ancestrais",
+    "Santuários ocultos"
+  ],
+  "descricao": "Mago que trocou a vida pela imortalidade da não-vida. A alma fica guardada numa filactéria e, enquanto ela existir, o lich sempre volta.",
+  "tatica": "Nunca é pego desprevenido: abre com Palavra de Poder, mantém os mortos-vivos à frente, troca de lugar com Porta Dimensional e paralisa quem chega perto.",
+  "fonte": "Manual dos Monstros (D&D 5e), p. 211, adaptado para M&M 3e",
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": null,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 4,
+      "Int": 8,
+      "Pro": 5,
+      "Pre": 4
+    },
+    "defesas": {
+      "Esquiva": 12,
+      "Aparar": 10,
+      "Fortitude": "Imune",
+      "Resistencia": 14,
+      "Vontade": 14
+    },
+    "pericias": {
+      "Especialidade: Magia": 12,
+      "Especialidade: História": 8,
+      "Intuição": 7,
+      "Percepção": 7,
+      "Intimidação": 8,
+      "Combate à Distância: Magia": 8,
+      "Combate Corpo-a-Corpo: Toque": 8
+    },
+    "vantagens": [
+      "Ritualista",
+      "Iniciativa Aprimorada",
+      "Memória Eidética",
+      "Bem Informado",
+      "Idiomas 3"
+    ],
+    "poderes": [
+      {
+        "nome": "Fisiologia de Morto-Vivo",
+        "construcao": "Imunidade 30 (efeitos de Fortitude); Imunidade 10 (efeitos de emoção e de controle mental)."
+      },
+      {
+        "nome": "Carne Encantada",
+        "construcao": "Proteção 14, Impenetrável 7 (só contra armas comuns, não mágicas)."
+      },
+      {
+        "nome": "Resistências",
+        "construcao": "Imunidade 10 (frio, eletricidade, necrótico), Limitado a metade do efeito."
+      },
+      {
+        "nome": "Visão Verdadeira",
+        "construcao": "Sentidos 7 (Visão no Escuro, Detectar Magia, visão que atravessa ilusões e ocultamento)."
+      },
+      {
+        "nome": "Toque Paralisante",
+        "construcao": "Dano 4 (frio) Ligado a Aflição 14 (resistida por Fortitude; Impedido, Imóvel, Paralisado)."
+      },
+      {
+        "nome": "Grimório: Bola de Fogo",
+        "construcao": "Dano 14 (fogo), Área (Explosão, 9 m). Efeito principal do arranjo."
+      },
+      {
+        "nome": "Raio de Gelo (efeito alternativo, 1 PP)",
+        "construcao": "Dano 13 (frio), à Distância."
+      },
+      {
+        "nome": "Dedo da Morte (efeito alternativo, 1 PP)",
+        "construcao": "Dano 13 (necrótico), à Distância, Penetrante; quem morre se levanta como zumbi."
+      },
+      {
+        "nome": "Palavra de Poder Atordoar (efeito alternativo, 1 PP)",
+        "construcao": "Aflição 14 (resistida por Vontade; Tonto, Atordoado, Incapacitado), Percepção."
+      },
+      {
+        "nome": "Porta Dimensional (efeito alternativo, 1 PP)",
+        "construcao": "Teleporte 8."
+      },
+      {
+        "nome": "Animar Mortos (efeito alternativo, 1 PP)",
+        "construcao": "Invocar 6 (esqueletos ou zumbis), Múltiplos."
+      },
+      {
+        "nome": "Contramágica (efeito alternativo, 1 PP)",
+        "construcao": "Anular 14 (efeitos mágicos), à Distância."
+      },
+      {
+        "nome": "Filactéria",
+        "construcao": "Imortalidade 5 (um corpo novo surge junto à filactéria em 1d10 dias), Limitado: só enquanto a filactéria existir."
+      },
+      {
+        "nome": "Resistência à Expulsão",
+        "construcao": "+2 em Vontade contra efeitos de expulsar mortos-vivos."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Toque Paralisante",
+        "bonus": 12,
+        "dano": 4,
+        "critico": 20,
+        "descricao": "Frio; Ligado a Aflição 14 (Fortitude: Impedido, Imóvel, Paralisado)"
+      },
+      {
+        "nome": "Raio de Gelo",
+        "bonus": 11,
+        "dano": 13,
+        "critico": 20,
+        "descricao": "À distância (magia)"
+      },
+      {
+        "nome": "Dedo da Morte",
+        "bonus": 11,
+        "dano": 13,
+        "critico": 20,
+        "descricao": "À distância, Penetrante (necrótico)"
+      },
+      {
+        "nome": "Bola de Fogo",
+        "bonus": 0,
+        "dano": 14,
+        "critico": 20,
+        "descricao": "Área Explosão 9 m (CD 24 de Esquiva para metade)"
+      }
+    ],
+    "equipamento": []
+  }
+}

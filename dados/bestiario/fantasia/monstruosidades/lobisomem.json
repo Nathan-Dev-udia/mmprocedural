@@ -1,0 +1,104 @@
+{
+  "id": "fantasia/monstruosidades/lobisomem",
+  "genero": "fantasia",
+  "familia": "Lobisomem",
+  "variante": "Forma Híbrida",
+  "padrao": true,
+  "nome": "Lobisomem",
+  "tipo": "Monstruosidade",
+  "subtipo": "Amaldiçoado",
+  "papel": "Predador / Chefe",
+  "chefe": true,
+  "tamanho": "Médio",
+  "nivel_poder": 8,
+  "ambientes": [
+    "Florestas",
+    "Aldeias isoladas",
+    "Noites de lua cheia"
+  ],
+  "descricao": "Homem amaldiçoado que, nas noites de lua cheia, vira uma fera meio lobo. De dia lembra pouco do que fez; à noite, só a prata o detém.",
+  "tatica": "Caça sozinho ou com a matilha que o segue. Ataca pelas costas, derruba e morde; foge para se regenerar quando ferido e volta quando o caçador baixa a guarda.",
+  "complicacoes": [
+    "Maldição: na lua cheia não controla a transformação.",
+    "Identidade secreta: de dia vive como uma pessoa comum."
+  ],
+  "fonte": "Manual dos Monstros (D&D 5e), p. 205 (Licantropos), adaptado para M&M 3e",
+  "ficha": {
+    "habilidades": {
+      "For": 5,
+      "Vig": 5,
+      "Agi": 4,
+      "Des": 1,
+      "Lut": 7,
+      "Int": 0,
+      "Pro": 3,
+      "Pre": 1
+    },
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 8,
+      "Fortitude": 8,
+      "Resistencia": 8,
+      "Vontade": 6
+    },
+    "pericias": {
+      "Percepção": 7,
+      "Furtividade": 6,
+      "Atletismo": 5,
+      "Intimidação": 6,
+      "Combate Corpo-a-Corpo: Garras e Mordida": 1
+    },
+    "vantagens": [
+      "Iniciativa Aprimorada",
+      "Ataque Poderoso",
+      "Ação em Movimento",
+      "Derrubar Aprimorado"
+    ],
+    "poderes": [
+      {
+        "nome": "Pele Amaldiçoada",
+        "construcao": "Imunidade 20 (dano de armas comuns; prata e magia passam)."
+      },
+      {
+        "nome": "Regeneração",
+        "construcao": "Regeneração 8 (Limitado: não age no turno seguinte a sofrer dano de prata)."
+      },
+      {
+        "nome": "Faro de Lobo",
+        "construcao": "Sentidos 4 (Visão no Escuro, Olfato Aguçado, Rastrear por Olfato)."
+      },
+      {
+        "nome": "Couro Grosso",
+        "construcao": "Proteção 3."
+      },
+      {
+        "nome": "Corrida",
+        "construcao": "Velocidade 2."
+      },
+      {
+        "nome": "Chamado da Matilha",
+        "construcao": "Invocar 3 (lobos), Múltiplos (até 4 lobos), uma vez por noite."
+      },
+      {
+        "nome": "Forma Humana",
+        "construcao": "Morfar 1 (forma humana)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Garras",
+        "bonus": 8,
+        "dano": 7,
+        "critico": 19,
+        "descricao": "Pode derrubar (Derrubar Aprimorado)"
+      },
+      {
+        "nome": "Mordida",
+        "bonus": 8,
+        "dano": 8,
+        "critico": 20
+      }
+    ],
+    "equipamento": []
+  }
+}

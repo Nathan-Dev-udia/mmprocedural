@@ -1,10 +1,18 @@
-// Bestiário: catálogo de criaturas e monstros organizado por famílias e variantes, com filtros em tempo real e download em PDF.
+// Bestiário: catálogo de criaturas e monstros organizado por famílias e variantes, com filtros em tempo real e download
+// em PDF ou DOCX (várias cópias numeradas de uma vez, para encontros com mais de uma criatura igual).
 
 (function () {
   const el = (id) => document.getElementById(id);
   let todas = [];
   let criaturaAtual = null;
   let inicializado = false;
+  let quantidade = 1;
+  const COPIAS_MAXIMAS = 20;
+  // O Flask devolve as chaves do JSON em ordem alfabética; a ficha usa a ordem do livro.
+  const ORDEM_DAS_HABILIDADES = ["For", "Vig", "Agi", "Des", "Lut", "Int", "Pro", "Pre"];
+  const habilidadesEmOrdem = (h) => ORDEM_DAS_HABILIDADES.filter((k) => k in h).map((k) => [k, h[k]]);
+  const PREFIXO_DO_HASH = "#bestiario/";
+  const criaturaDoHash = () => (location.hash.startsWith(PREFIXO_DO_HASH) ? location.hash.slice(PREFIXO_DO_HASH.length) : "");
 
   function escapar(texto) {
     return String(texto ?? "")
@@ -35,6 +43,7 @@
     const npFaixa = el("bestiario-np") ? el("bestiario-np").value : "todos";
     const papel = el("bestiario-papel") ? el("bestiario-papel").value : "todos";
     const agrupar = el("bestiario-agrupar") ? el("bestiario-agrupar").checked : false;
+    const soChefes = el("bestiario-chefes") ? el("bestiario-chefes").checked : false;
     const termos = normalizar(el("bestiario-busca") ? el("bestiario-busca").value : "")
       .split(/\s+/)
       .filter(Boolean);
@@ -43,7 +52,8 @@
     const encontradas = todas.filter((c) => {
       if (genero !== "todos" && c.genero !== genero) return false;
       if (tipo !== "todos" && c.tipo !== tipo) return false;
-      if (papel !== "todos" && c.papel !== papel) return false;
+      if (papel !== "todos" && !(c.papeis || [c.papel]).includes(papel)) return false;
+      if (soChefes && !c.chefe) return false;
       if (!faixaNpValida(c.np, npFaixa)) return false;
 
       if (termos.length > 0) {
@@ -57,8 +67,9 @@
     });
 
     // 2. Se estiver agrupando por família e o usuário NÃO estiver digitando uma busca específica,
-    // mostramos apenas a criatura principal (padrao) de cada família.
-    if (agrupar && termos.length === 0) {
+    // mostramos apenas a criatura principal (padrao) de cada família. Com o filtro de chefes, cada chefe aparece
+    // sozinho: o Strahd não pode sumir atrás do vampiro padrão da família.
+    if (agrupar && termos.length === 0 && !soChefes) {
       const vistas = new Set();
       const agrupadas = [];
       for (const c of encontradas) {
@@ -89,7 +100,7 @@
         ? `${lista.length} famílias encontradas`
         : `${lista.length} de ${total} criaturas encontradas`;
 
-    const aberta = location.hash.startsWith("#bestiario/") ? location.hash.slice(12) : "";
+    const aberta = criaturaDoHash();
     el("lista-criaturas").innerHTML = lista.length
       ? lista
           .map((c) => {
@@ -109,6 +120,7 @@
                 <div class="tags-criatura">
                   <span class="badge-tipo">${escapar(c.tipo)}</span>
                   <span class="badge-papel">${escapar(c.papel)}</span>
+                  ${c.chefe ? '<span class="badge-chefe">Chefe</span>' : ""}
                   ${subtituloVariante}
                 </div>
               </div>
@@ -123,12 +135,12 @@
   function gerarBlocoTexto(f) {
     const linhas = [
       `=== ${f.nome.toUpperCase()} (NP ${f.np}) ===`,
-      `Gênero: ${f.genero_nome || f.genero} | Família: ${f.familia}${f.variante ? ` (${f.variante})` : ""} | Papel: ${f.papel} | Porte: ${f.tamanho}`,
+      `Gênero: ${f.genero_nome || f.genero} | Família: ${f.familia}${f.variante ? ` (${f.variante})` : ""} | Papel: ${f.papel}${f.chefe ? " (possível chefe)" : ""} | Porte: ${f.tamanho}`,
       f.ambientes && f.ambientes.length ? `Ambientes: ${f.ambientes.join(", ")}` : "",
       "",
       "HABILIDADES:",
-      Object.entries(f.habilidades)
-        .map(([k, v]) => `${k} ${v >= 0 ? `+${v}` : v}`)
+      habilidadesEmOrdem(f.habilidades)
+        .map(([k, v]) => `${k} ${v === null ? "—" : v >= 0 ? `+${v}` : v}`)
         .join("  |  "),
       "",
     ];
@@ -143,6 +155,7 @@
 
     if (f.descricao) linhas.push(`Descrição: ${f.descricao}`);
     if (f.tatica) linhas.push(`Tática: ${f.tatica}`);
+    if (f.aviso_de_escala) linhas.push(f.aviso_de_escala);
     linhas.push(`Fonte: ${f.fonte}`);
 
     return linhas.filter((l) => l !== "").join("\n");
@@ -164,10 +177,37 @@
     });
   }
 
+  // ?np=12 só quando a ficha está fora do NP padrão da criatura.
+  function parametros(f, extras = {}) {
+    const busca = new URLSearchParams(extras);
+    if (f.np !== f.np_padrao) busca.set("np", f.np);
+    const texto = busca.toString();
+    return texto ? `?${texto}` : "";
+  }
+
+  function enderecoDeDownload(f, extensao) {
+    const caminho = f.id.split("/").map(encodeURIComponent).join("/");
+    return `/bestiario/${caminho}.${extensao}${parametros(f, quantidade > 1 ? { quantidade } : {})}`;
+  }
+
+  function atualizarDownloads() {
+    if (!criaturaAtual) return;
+    const pdf = el("btn-pdf-criatura");
+    const docx = el("btn-docx-criatura");
+    if (pdf) {
+      pdf.href = enderecoDeDownload(criaturaAtual, "pdf");
+      pdf.textContent = quantidade > 1 ? `Baixar ${quantidade} PDFs (.zip)` : "Baixar PDF";
+    }
+    if (docx) {
+      docx.href = enderecoDeDownload(criaturaAtual, "docx");
+      docx.textContent = quantidade > 1 ? `Baixar ${quantidade} fichas em DOCX` : "Baixar DOCX";
+    }
+  }
+
   function desenharFicha(f) {
     if (!el("ficha-criatura")) return;
     criaturaAtual = f;
-    const habilidades = Object.entries(f.habilidades)
+    const habilidades = habilidadesEmOrdem(f.habilidades)
       .map(
         ([nome, valor]) =>
           `<div><dt>${escapar(nome)}</dt><dd>${valor === null ? "—" : escapar(valor)}</dd></div>`
@@ -214,9 +254,17 @@
       <header>
         <div class="cabecalho-criatura">
           <h2>${escapar(f.nome)}</h2>
-          <span class="badge-np-ficha">NP ${escapar(f.np ?? "—")}</span>
+          <div class="escolha-np">
+            <label class="campo-np" title="Leva a criatura a outro NP: habilidades de combate, defesas, ataques e efeitos sobem (ou descem) junto.">
+              NP <input type="number" id="bestiario-np-ficha" min="1" max="20" value="${escapar(f.np)}">
+            </label>
+            ${f.np !== f.np_padrao
+              ? `<button type="button" id="btn-np-padrao" class="botao secundario">Voltar ao padrão (NP ${escapar(f.np_padrao)})</button>`
+              : '<small class="discreto">padrão</small>'}
+          </div>
         </div>
-        <p class="subtitulo">${escapar(f.tipo)}${f.subtipo ? ` · ${escapar(f.subtipo)}` : ""} · ${escapar(f.papel)} · Porte ${escapar(f.tamanho)}</p>
+        ${f.aviso_de_escala ? `<p class="aviso-escala">${escapar(f.aviso_de_escala)}</p>` : ""}
+        <p class="subtitulo">${escapar(f.tipo)}${f.subtipo ? ` · ${escapar(f.subtipo)}` : ""} · ${escapar(f.papel)} · Porte ${escapar(f.tamanho)}${f.chefe ? ' <span class="badge-chefe">Possível chefe</span>' : ""}</p>
         ${ambientesHtml}
         ${descricaoHtml}
         ${variantesHtml}
@@ -225,17 +273,36 @@
       ${secoes}
       <footer>
         <div class="acoes-ficha">
-          <a class="botao" href="/bestiario/${f.id.split("/").map(encodeURIComponent).join("/")}.pdf" download>Baixar ficha em PDF</a>
+          <label class="campo-quantidade" title="Cada cópia sai numerada (${escapar(f.nome)} 1, 2, 3...), com a sua linha de ferimentos.">
+            Quantidade
+            <input type="number" id="bestiario-quantidade" min="1" max="${COPIAS_MAXIMAS}" value="${quantidade}">
+          </label>
+          <a class="botao" id="btn-pdf-criatura" href="#" download>Baixar PDF</a>
+          <a class="botao" id="btn-docx-criatura" href="#" download>Baixar DOCX</a>
           <button type="button" id="btn-copiar-criatura" class="botao secundario">Copiar bloco de texto</button>
         </div>
         <p class="discreto">Fonte: ${escapar(f.fonte)}</p>
       </footer>`;
 
     el("ficha-criatura").hidden = false;
+    atualizarDownloads();
+    el("bestiario-quantidade").addEventListener("input", (e) => {
+      const valor = parseInt(e.target.value, 10);
+      quantidade = Number.isFinite(valor) ? Math.min(Math.max(valor, 1), COPIAS_MAXIMAS) : 1;
+      atualizarDownloads();
+    });
     const btnCopiar = el("btn-copiar-criatura");
     if (btnCopiar) btnCopiar.addEventListener("click", copiarBlocoTexto);
 
     // Eventos dos chips de variantes
+    // Troca de NP: espera o número ficar completo (change) antes de pedir a ficha de novo.
+    el("bestiario-np-ficha").addEventListener("change", (e) => {
+      const valor = parseInt(e.target.value, 10);
+      if (Number.isFinite(valor)) abrirFicha(f.id, Math.min(Math.max(valor, 1), 20));
+    });
+    const botaoPadrao = el("btn-np-padrao");
+    if (botaoPadrao) botaoPadrao.addEventListener("click", () => abrirFicha(f.id));
+
     el("ficha-criatura").querySelectorAll(".chip-variante").forEach((chip) => {
       chip.addEventListener("click", () => {
         abrirFicha(chip.dataset.id);
@@ -243,9 +310,11 @@
     });
   }
 
-  async function abrirFicha(id) {
+  // Sem `np`, a criatura abre no NP padrão dela (trocar de criatura sempre volta ao padrão).
+  async function abrirFicha(id, np = null) {
     try {
-      const resposta = await fetch(`/api/bestiario/${id.split("/").map(encodeURIComponent).join("/")}`);
+      const busca = np === null ? "" : `?np=${np}`;
+      const resposta = await fetch(`/api/bestiario/${id.split("/").map(encodeURIComponent).join("/")}${busca}`);
       const dados = await resposta.json();
       if (!resposta.ok) throw new Error(dados.erro || "Não consegui abrir a ficha.");
       desenharFicha(dados.ficha);
@@ -267,6 +336,7 @@
     if (el("bestiario-np")) el("bestiario-np").addEventListener("change", desenharLista);
     if (el("bestiario-papel")) el("bestiario-papel").addEventListener("change", desenharLista);
     if (el("bestiario-agrupar")) el("bestiario-agrupar").addEventListener("change", desenharLista);
+    if (el("bestiario-chefes")) el("bestiario-chefes").addEventListener("change", desenharLista);
 
     if (el("lista-criaturas")) {
       el("lista-criaturas").addEventListener("click", (e) => {
@@ -281,7 +351,7 @@
       todas = dados.criaturas || [];
       desenharLista();
 
-      const hash = location.hash.startsWith("#bestiario/") ? location.hash.slice(12) : null;
+      const hash = criaturaDoHash();
       const inicial = hash || (todas[0] ? todas[0].id : null);
       if (inicial) abrirFicha(inicial);
     } catch (erro) {

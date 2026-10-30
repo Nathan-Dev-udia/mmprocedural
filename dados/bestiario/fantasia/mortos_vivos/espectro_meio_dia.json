@@ -1,0 +1,95 @@
+{
+  "id": "fantasia/mortos_vivos/espectro_meio_dia",
+  "genero": "fantasia",
+  "familia": "Espectro do Meio-Dia",
+  "variante": "Comum",
+  "padrao": true,
+  "nome": "Espectro do Meio-Dia",
+  "tipo": "Morto-Vivo",
+  "subtipo": "Espectro",
+  "papel": "Emboscador / Chefe",
+  "chefe": true,
+  "tamanho": "Médio",
+  "nivel_poder": 8,
+  "ambientes": [
+    "Campos de trigo",
+    "Estradas ao sol",
+    "Ruínas de aldeias"
+  ],
+  "descricao": "Espírito que vaga pelos campos ao meio-dia, dentro de um redemoinho de poeira, e ataca quem trabalha na hora mais quente.",
+  "tatica": "Aparece no meio do redemoinho, cega com poeira, se divide em cópias e drena quem estiver mais perto. Some quando é encurralada e volta em outro ponto do campo.",
+  "complicacoes": [
+    "Presa ao lugar: só aparece ao meio-dia, perto do objeto ou do corpo que a prende; destruí-lo ou dar a ele um enterro digno a liberta."
+  ],
+  "fonte": "Manual dos Monstros (D&D 5e), p. 23 (Aparição), e o folclore eslavo (poludnica); adaptado para M&M 3e",
+  "ficha": {
+    "habilidades": {
+      "For": null,
+      "Vig": null,
+      "Agi": 5,
+      "Des": 2,
+      "Lut": 7,
+      "Int": 0,
+      "Pro": 3,
+      "Pre": 4
+    },
+    "defesas": {
+      "Esquiva": 9,
+      "Aparar": 8,
+      "Fortitude": "Imune",
+      "Resistencia": 7,
+      "Vontade": 8
+    },
+    "pericias": {
+      "Furtividade": 6,
+      "Percepção": 5,
+      "Intimidação": 6,
+      "Combate Corpo-a-Corpo: Toque": 1
+    },
+    "vantagens": [
+      "Iniciativa Aprimorada",
+      "Esconder-se à Plena Vista",
+      "Ação em Movimento"
+    ],
+    "poderes": [
+      {
+        "nome": "Fisiologia de Espectro",
+        "construcao": "Imunidade 30 (efeitos de Fortitude)."
+      },
+      {
+        "nome": "Corpo Etéreo",
+        "construcao": "Imunidade 20 (dano de armas comuns; prata e magia passam); atravessa paredes e objetos sólidos."
+      },
+      {
+        "nome": "Flutuar",
+        "construcao": "Voo 3."
+      },
+      {
+        "nome": "Véu de Poeira",
+        "construcao": "Proteção 7."
+      },
+      {
+        "nome": "Toque Drenador",
+        "construcao": "Dano 8 (necrótico)."
+      },
+      {
+        "nome": "Redemoinho de Poeira",
+        "construcao": "Aflição 8 (resistida por Fortitude; Visão Prejudicada, Cego), Área (Explosão, 3 m)."
+      },
+      {
+        "nome": "Cópias",
+        "construcao": "Ilusão 4 (visual): duas cópias que se movem com ela; um acerto numa cópia a desfaz."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Toque Drenador",
+        "bonus": 8,
+        "dano": 8,
+        "critico": 20,
+        "descricao": "Necrótico"
+      }
+    ],
+    "equipamento": []
+  }
+}

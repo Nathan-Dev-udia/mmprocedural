@@ -1,0 +1,122 @@
+{
+  "id": "fantasia/dragoes/dragao_vermelho_adulto",
+  "genero": "fantasia",
+  "familia": "Dragão Vermelho",
+  "variante": "Adulto",
+  "padrao": false,
+  "nome": "Dragão Vermelho Adulto",
+  "tipo": "Dragão",
+  "subtipo": "Dragão Cromático",
+  "papel": "Chefe (Solo)",
+  "chefe": true,
+  "tamanho": "Enorme",
+  "nivel_poder": 13,
+  "ambientes": [
+    "Montanhas vulcânicas",
+    "Covis de magma",
+    "Ruínas de reinos que ele incendiou"
+  ],
+  "descricao": "O mais ganancioso e vaidoso dos dragões cromáticos, já adulto: um tirano alado que cobra tributo de reinos inteiros e dorme sobre o tesouro.",
+  "tatica": "Abre com a Presença Aterradora e o sopro, em voo. Pousa para despedaçar quem resistiu e usa as asas para derrubar quem o cerca. Recua ao covil se ficar com três ferimentos.",
+  "fonte": "Manual dos Monstros (D&D 5e), Dragão Vermelho Adulto, adaptado para M&M 3e",
+  "ficha": {
+    "habilidades": {
+      "For": 13,
+      "Vig": 12,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 9,
+      "Int": 3,
+      "Pro": 4,
+      "Pre": 5
+    },
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 9,
+      "Fortitude": 14,
+      "Resistencia": 17,
+      "Vontade": 12
+    },
+    "pericias": {
+      "Percepção": 10,
+      "Intimidação": 10,
+      "Furtividade": 6,
+      "Intuição": 4,
+      "Enganação": 4
+    },
+    "vantagens": [
+      "Ataque Poderoso",
+      "Iniciativa Aprimorada",
+      "Agarrar Aprimorado",
+      "Liderança"
+    ],
+    "poderes": [
+      {
+        "nome": "Porte Enorme",
+        "construcao": "Crescimento 8 (já somado em Força, Vigor e defesas; Permanente, Inato)."
+      },
+      {
+        "nome": "Sopro Flamejante",
+        "construcao": "Dano 13 (fogo), Área (Cone, 18 m)."
+      },
+      {
+        "nome": "Presença Aterradora",
+        "construcao": "Aflição 10 (resistida por Vontade; Tonto, Compelido a fugir, Controlado), Área (Percepção)."
+      },
+      {
+        "nome": "Ataque com Asas",
+        "construcao": "Dano 10, Área (Explosão de 3 m ao redor dele); quem falha fica Caído."
+      },
+      {
+        "nome": "Asas",
+        "construcao": "Voo 6 (200 km/h; Asas)."
+      },
+      {
+        "nome": "Escalar",
+        "construcao": "Movimento 1 (Escalar Paredes)."
+      },
+      {
+        "nome": "Escamas de Dragão",
+        "construcao": "Proteção 5 (Impenetrável 5)."
+      },
+      {
+        "nome": "Imunidade ao Fogo",
+        "construcao": "Imunidade 10 (fogo)."
+      },
+      {
+        "nome": "Sentidos Draconianos",
+        "construcao": "Sentidos 6 (Visão no Escuro, Olfato Aguçado, percepção às cegas a 18 m)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Mordida",
+        "bonus": 9,
+        "dano": 15,
+        "critico": 19,
+        "descricao": "Alcance 3 m; mais fogo"
+      },
+      {
+        "nome": "Garras",
+        "bonus": 9,
+        "dano": 14,
+        "critico": 20
+      },
+      {
+        "nome": "Cauda",
+        "bonus": 7,
+        "dano": 13,
+        "critico": 20,
+        "descricao": "Alcance 4,5 m; pode derrubar; golpe largo, menos preciso"
+      },
+      {
+        "nome": "Sopro Flamejante",
+        "bonus": 0,
+        "dano": 13,
+        "critico": 20,
+        "descricao": "Área Cone 18 m (CD 23 de Esquiva para metade)"
+      }
+    ],
+    "equipamento": []
+  }
+}

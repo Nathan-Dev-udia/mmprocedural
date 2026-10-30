@@ -1,0 +1,89 @@
+{
+  "id": "fantasia/monstruosidades/ettin",
+  "genero": "fantasia",
+  "familia": "Ogro",
+  "variante": "Ettin (Duas Cabeças)",
+  "padrao": false,
+  "nome": "Ettin",
+  "tipo": "Monstruosidade",
+  "subtipo": "Ogroide",
+  "papel": "Bruto / Chefe",
+  "chefe": true,
+  "tamanho": "Grande",
+  "nivel_poder": 8,
+  "ambientes": [
+    "Cavernas cheias de ossos",
+    "Colinas",
+    "Ruínas"
+  ],
+  "descricao": "Ogroide enorme com duas cabeças que nunca concordam. Vive em cavernas cheias de ossos e só se entende quando o assunto é comer.",
+  "tatica": "Avança direto, um braço para cada inimigo. Não recua: as duas cabeças brigam sobre quem foge primeiro.",
+  "complicacoes": [
+    "Rivalidade: as duas cabeças nunca concordam."
+  ],
+  "fonte": "Manual dos Monstros (D&D 5e), p. 141 (Ettin), adaptado para M&M 3e",
+  "ficha": {
+    "habilidades": {
+      "For": 7,
+      "Vig": 7,
+      "Agi": 0,
+      "Des": 0,
+      "Lut": 6,
+      "Int": -2,
+      "Pro": 2,
+      "Pre": -1
+    },
+    "defesas": {
+      "Esquiva": 4,
+      "Aparar": 6,
+      "Fortitude": 9,
+      "Resistencia": 9,
+      "Vontade": 5
+    },
+    "pericias": {
+      "Percepção": 6,
+      "Intimidação": 4,
+      "Atletismo": 2
+    },
+    "vantagens": [
+      "Ataque Poderoso",
+      "Quebrar Aprimorado",
+      "Equipamento 1"
+    ],
+    "poderes": [
+      {
+        "nome": "Porte Grande",
+        "construcao": "Crescimento 4 (já somado em Força, Vigor e defesas; Permanente, Inato)."
+      },
+      {
+        "nome": "Visão no Escuro",
+        "construcao": "Sentidos 2 (Visão no Escuro)."
+      },
+      {
+        "nome": "Duas Cabeças",
+        "construcao": "Golpes com Multiataque (um braço para cada alvo). Sentidos 1 (Sentido de Perigo): uma cabeça sempre vigia. +2 em Vontade (Limitado: contra Tonto, Atordoado e Controlado)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Machado de Batalha",
+        "bonus": 6,
+        "dano": 10,
+        "critico": 20,
+        "descricao": "Multiataque"
+      },
+      {
+        "nome": "Maça-Estrela",
+        "bonus": 6,
+        "dano": 9,
+        "critico": 20,
+        "descricao": "Multiataque"
+      }
+    ],
+    "equipamento": [
+      "Peles e placas de metal (+2 Resistência)",
+      "Machado de batalha (Dano 3)",
+      "Maça-estrela (Dano 2)"
+    ]
+  }
+}

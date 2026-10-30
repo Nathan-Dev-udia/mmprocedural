@@ -1,0 +1,97 @@
+{
+  "id": "fantasia/mortos_vivos/cria_vampirica",
+  "genero": "fantasia",
+  "familia": "Vampiro",
+  "variante": "Cria",
+  "padrao": false,
+  "nome": "Cria Vampírica",
+  "tipo": "Morto-Vivo",
+  "subtipo": "Vampiro",
+  "papel": "Soldado / Lacaio",
+  "tamanho": "Médio",
+  "nivel_poder": 6,
+  "ambientes": [
+    "Castelos",
+    "Criptas",
+    "Vilas sob domínio vampírico"
+  ],
+  "descricao": "Vítima de um vampiro que voltou da morte faminta e obediente. Guarda lembranças da vida, mas só obedece ao mestre que a criou.",
+  "tatica": "Caça em grupos de 2 a 4 sob as ordens do mestre: cerca a presa, agarra e morde. Recua para a escuridão antes do amanhecer.",
+  "complicacoes": [
+    "Fraquezas vampíricas: não entra numa residência sem ser convidado; água corrente causa Dano 4 por turno; sob a luz do sol sofre Dano 4 por turno e fica Impedido; uma estaca de madeira no coração de um vampiro Incapacitado o paralisa até ser retirada."
+  ],
+  "fonte": "Manual dos Monstros (D&D 5e), p. 296, adaptado para M&M 3e",
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 3,
+      "Agi": 3,
+      "Des": 1,
+      "Lut": 5,
+      "Int": 0,
+      "Pro": 1,
+      "Pre": 1
+    },
+    "defesas": {
+      "Esquiva": 6,
+      "Aparar": 6,
+      "Fortitude": 5,
+      "Resistencia": 6,
+      "Vontade": 4
+    },
+    "pericias": {
+      "Furtividade": 6,
+      "Percepção": 4,
+      "Atletismo": 3,
+      "Combate Corpo-a-Corpo: Garras e Mordida": 1
+    },
+    "vantagens": [
+      "Agarrar Aprimorado",
+      "Ataque Poderoso",
+      "Iniciativa Aprimorada"
+    ],
+    "poderes": [
+      {
+        "nome": "Regeneração",
+        "construcao": "Regeneração 3 (Limitado: não age no turno seguinte a sofrer dano radiante ou de água benta)."
+      },
+      {
+        "nome": "Escalar como Aranha",
+        "construcao": "Movimento 1 (Escalar Paredes)."
+      },
+      {
+        "nome": "Fisiologia Vampírica",
+        "construcao": "Imunidade 5 (doença, envelhecimento, veneno)."
+      },
+      {
+        "nome": "Carne Morta",
+        "construcao": "Proteção 3."
+      },
+      {
+        "nome": "Visão no Escuro",
+        "construcao": "Sentidos 2 (Visão no Escuro)."
+      },
+      {
+        "nome": "Mordida",
+        "construcao": "Enfraquecer Vigor 4 (resistido por Fortitude), Ligado à mordida; cada mordida que acerta remove um ferimento da cria."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Garras",
+        "bonus": 6,
+        "dano": 4,
+        "critico": 20,
+        "descricao": "Pode agarrar"
+      },
+      {
+        "nome": "Mordida",
+        "bonus": 6,
+        "dano": 4,
+        "critico": 20,
+        "descricao": "Só contra alvo agarrado; Ligado a Enfraquecer Vigor 4"
+      }
+    ],
+    "equipamento": []
+  }
+}
