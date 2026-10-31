@@ -1018,6 +1018,32 @@ O **Kit de bruxo** (120 po) é o exemplo mais completo: espada de prata, espada 
 
 Os pacotes do Livro do Jogador também viraram kits: **Pacote de explorador** (10 po: mochila, saco de dormir, kit de refeição, pederneira, tochas, 10 dias de rações, cantil e corda), **Pacote de masmorra** (12 po: troca o saco de dormir e o kit de refeição por pé de cabra, martelo e pitões) e **Pacote de estudioso** (40 po: livro, tinta, pena e pergaminho).
 
+### 14.10 Na taverna: bebidas, refeições e hospedagem [D&D + Casa]
+
+A vida do aventureiro gira em torno da taverna: é onde o grupo descansa, comemora as vitórias, ouve boatos e contrata quartos para a noite.
+
+| Item ou Serviço | Preço em Moedas | Equivalente em po | Notas |
+|---|---|---|---|
+| **Caneca de cerveja comum** | 4 pc | 0,04 po | A cerveja padrão da estalagem, turva e leve. |
+| **Caneca de cerveja anã encorpada** | 1 pp | 0,10 po | Densa, preta e com alto teor alcoólico. |
+| **Jarra de vinho da casa (1L)** | 2 pp | 0,20 po | Vinho regional servido na jarra de cerâmica. |
+| **Jarra de hidromel (1L)** | 5 pp | 0,50 po | Fermentado de mel doce e forte; favorito de guerreiros. |
+| **Dose de aguardente forte** | 5 pp | 0,50 po | Destilado ardido para aquecer no frio da noite. |
+| **Vinho fino da adega (garrafa)** | 10 po | 10,00 po | Garrafa selada para banquetes com nobres e clero. |
+| **Sopa rala e pão duro** | 5 pc | 0,05 po | A refeição mais barata do cardápio; para bolsos vazios. |
+| **Pão de centeio do dia (250g)** | 2 pc | 0,02 po | Pão rústico recém-assado no forno comunitário. |
+| **Queijo curado (250g)** | 1 pp | 0,10 po | Queijo salgado de cabra ou ovelha; dura semanas na mochila. |
+| **Pedaço de carne assada (500g)** | 3 pp | 0,30 po | Pernil assado ou carne bovina salgada. |
+| **Refeição comum da taverna** | 3 pp | 0,30 po | O prato do dia: ensopado quente de carne, legumes, pão e cerveja. |
+| **Banquete do caçador (refeição farta)** | 8 pp | 0,80 po | Assado de caça com raízes, queijo curado, torta e caneca dupla. |
+| **Rações de viagem (5 dias)** | 25 pp | 2,50 po | Provisões secas que não estragam na estrada. |
+| **Chão comum / Palheiro da lareira** | 2 pc / noite | 0,02 po | Espaço no assoalho perto do fogo; usa seu próprio cobertor. |
+| **Quarto coletivo (beliche)** | 1 pp / noite | 0,10 po | Cama em aposento compartilhado com 4 a 8 viajantes. |
+| **Quarto individual modesto** | 5 pp / noite | 0,50 po | Cama de palha limpa, lençol, jarro d'água e tranca interna. |
+| **Quarto individual confortável** | 1,5 po / noite | 1,50 po | Colchão de penas, tina de banho quente e chave de ferro. |
+| **Estábulo comum (baia, feno e água)** | 5 pc / dia | 0,05 po | Abrigo e água fresca para seu cavalo, mula ou pônei. |
+| **Cuidado completo de montaria** | 2 pp / dia | 0,20 po | Baia limpa, aveia de qualidade, escovação e cocheiro dedicado. |
+
 ---
 
 ## 15. Usando o gerador do site

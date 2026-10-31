@@ -1,0 +1,958 @@
+"""Gera a planilha e os dados de poções, elixires, óleos para lâminas, ingredientes monstruosos,
+tabela de preços de taverna, hospedagem, serviços e contratos de aventureiros
+para o gênero Fantasia Medieval (M&M 3e), com base no Bestiário e no sistema de regras.
+
+Gera:
+- referencias/fantasia/pocoes.xlsx
+- dados/generos/fantasia/pocoes.xlsx
+- dados/generos/fantasia/alquimia.json
+"""
+
+import json
+from pathlib import Path
+import openpyxl
+from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
+from openpyxl.utils import get_column_letter
+
+# Cores e estilos
+AZUL_ESCURO = PatternFill(start_color="1F4E78", end_color="1F4E78", fill_type="solid")
+AZUL_MEDIO = PatternFill(start_color="2F5597", end_color="2F5597", fill_type="solid")
+AZUL_CLARO = PatternFill(start_color="D9E1F2", end_color="D9E1F2", fill_type="solid")
+ZEBRA = PatternFill(start_color="F9FAFC", end_color="F9FAFC", fill_type="solid")
+BRANCO = PatternFill(start_color="FFFFFF", end_color="FFFFFF", fill_type="solid")
+
+FONTE_TITULO = Font(name="Calibri", size=14, bold=True, color="FFFFFF")
+FONTE_SECAO = Font(name="Calibri", size=12, bold=True, color="1F4E78")
+FONTE_CABECALHO = Font(name="Calibri", size=10, bold=True, color="FFFFFF")
+FONTE_CORPO = Font(name="Calibri", size=10)
+FONTE_CORPO_BOLD = Font(name="Calibri", size=10, bold=True)
+FONTE_ITALICA = Font(name="Calibri", size=9, italic=True, color="595959")
+
+BORDA_FINA = Border(
+    left=Side(style="thin", color="D9D9D9"),
+    right=Side(style="thin", color="D9D9D9"),
+    top=Side(style="thin", color="D9D9D9"),
+    bottom=Side(style="thin", color="D9D9D9"),
+)
+
+ALINHA_ESQ = Alignment(horizontal="left", vertical="center", wrap_text=True)
+ALINHA_CENTRO = Alignment(horizontal="center", vertical="center", wrap_text=True)
+ALINHA_DIR = Alignment(horizontal="right", vertical="center")
+
+
+# ==============================================================================
+# DADOS DO SISTEMA DE ALQUIMIA, TAVERNA E SERVIÇOS
+# ==============================================================================
+
+REGRAS = [
+    ("1. Filosofia do Sistema",
+     "Alquimia em combate e exploração (estilo Witcher / D&D adaptado ao Mutantes & Masterminds 3e). "
+     "O sistema é simplificado e focado em preparação ritualística e tática: em vez de dezenas de pós químicos complexos, "
+     "cada receita exige uma Base Líquida comum (álcool/sebo), Ervas comuns e 1 Reagente Monstruoso extraído de criaturas derrotadas."),
+    
+    ("2. Colheita de Ingredientes de Monstros",
+     "Após vencer um combate contra criaturas que possuam partes úteis, qualquer jogador pode simplesmente declarar que colhe "
+     "os órgãos, sangue, gordura ou tecidos importantes da carcaça.\n"
+     "• Regra Rápida: O jogador declara a colheita e obtém 1d3 doses do reagente específico do monstro (ex: 'Restos de Carniçal', 'Gordura de Troll').\n"
+     "• Não há exigência de dissecação cirúrgica microscópica: declarou que pegou, pegou.\n"
+     "• Se houver pressa (fuga de inimigos ou terreno hostil), o mestre pode pedir um teste de Sobrevivência ou Tratamento CD 12."),
+    
+    ("3. O Teste de Preparação (Ritual / Alquimia)",
+     "A preparação de poções e óleos é um processo ritual feito durante um descanso curto (15 a 45 minutos) junto a uma fogueira ou bancada.\n"
+     "• Perícia Usada: Especialidade: Alquimia, Especialidade: Bruxo ou Artífice (com Especialidade: Magia).\n"
+     "• Ferramentas: Exige 'Suprimentos de Alquimista' ou 'Kit de Herbalismo'. Sem as ferramentas adequadas, sofre penalidade de -5 no teste.\n"
+     "• Sucesso (rolagem >= CD): Cria 1 frasco/dose da poção ou óleo.\n"
+     "• Sucesso Excepcional (+5 acima da CD): Extrai o dobro de rendimento (produz +1 dose extra) ou efeito estendido.\n"
+     "• Falha (< CD): Os ingredientes são consumidos sem efeito.\n"
+     "• Falha Crítica (1 natural ou 5+ abaixo da CD): Reação instável; o frasco quebra ou libera vapor tóxico (o criador fica Tonto/Enjoado por 10 minutos)."),
+    
+    ("4. Regra de Toxicidade e Consumo de Elixires",
+     "Diferente de remédios comuns, elixires de monstros possuem alta carga mutagênica e tóxica:\n"
+     "• Poções Medicinais Comuns (ex: Poção de Cura tradicional): Seguras para qualquer um tomar, sem risco de toxicidade.\n"
+     "• Elixires de Combate (Trovoada, Lua Cheia, Nevasca...): Feitos para organismos resistentes.\n"
+     "  - Caçadores de Monstros / Bruxos Mutantes: Podem manter até 3 elixires ativos ao mesmo tempo. A partir do 4º, sofrem náusea temporária.\n"
+     "  - Personagens Comuns (humanos, elfos, anões normais): Ao ingerir um elixir forte, devem fazer teste de Fortitude (CD 14 a 18 da poção). "
+     "Se passarem, ganham o benefício; se falharem, ficam Enjoados/Abalados e sofrem as veias escuras e náusea da intoxicação.\n"
+     "• Elixir Mel Branco: Remove instantaneamente a toxicidade e encerra todos os elixires ativos."),
+    
+    ("5. Aplicação de Óleos para Lâminas",
+     "• Óleos são unguentos viscosos aplicados em armas de corte ou perfuração (espadas, machados, adagas, flechas).\n"
+     "• Tempo de Aplicação: 1 ação padrão para untar a lâmina.\n"
+     "• Duração: 1 combate inteiro (ou até desferir 10 acertos bem-sucedidos).\n"
+     "• Efeito Geral: Concede bônus de circunstância de +2 de Dano contra a família específica de monstros (ou anula resistências especiais como regeneração e intangibilidade)."),
+]
+
+POCOES = [
+    {
+        "nome": "Poção Andorinha (Cura Rápida)",
+        "tipo": "Elixir de Combate",
+        "ingrediente": "Restos de Carniçal ou Lobo Atroz",
+        "base_ervas": "Destilado comum + Pétalas de Celidônia",
+        "cd": 14,
+        "tempo": "20 min",
+        "duracao": "5 rodadas",
+        "efeito": "Recupera 1 grau de dano imediatamente e permite 1 teste de Recuperação por rodada durante 5 rodadas (a regeneração pausa na rodada em que sofrer novo golpe).",
+        "toxicidade": "Média (Fortitude CD 14 para não-mutantes).",
+        "preco": "50 po"
+    },
+    {
+        "nome": "Bálsamo de Cura Tradicional",
+        "tipo": "Poção Medicinal Comum",
+        "ingrediente": "Gordura de Fera (Lobo ou Urso)",
+        "base_ervas": "Água destilada + Raiz de Mandrágora",
+        "cd": 12,
+        "tempo": "15 min",
+        "duracao": "Instantâneo",
+        "efeito": "Recupera 1 grau de dano imediatamente (remove a penalidade de dano acumulado mais grave). Segura para qualquer personagem beber.",
+        "toxicidade": "Nenhuma (segura).",
+        "preco": "50 po"
+    },
+    {
+        "nome": "Elixir Trovoada (Força Brutal)",
+        "tipo": "Elixir de Combate",
+        "ingrediente": "Restos de Ogro, Troll ou Bies",
+        "base_ervas": "Destilado forte + Raiz de Giesta",
+        "cd": 16,
+        "tempo": "30 min",
+        "duracao": "1 combate (10 rodadas)",
+        "efeito": "+2 de bônus de circunstância em Dano de ataques corpo a corpo e +2 em testes de Atletismo/Força bruta.",
+        "toxicidade": "Alta (Fortitude CD 16 para não-mutantes; impõe -2 em testes de Percepção pela fúria).",
+        "preco": "75 po"
+    },
+    {
+        "nome": "Elixir do Gato (Visão Penetrante)",
+        "tipo": "Elixir Utilitário",
+        "ingrediente": "Olho de Observador, Mímico ou Fera Noturna",
+        "base_ervas": "Álcool purificado + Erva-da-noite",
+        "cd": 14,
+        "tempo": "20 min",
+        "duracao": "1 hora",
+        "efeito": "Concede Sentidos: Visão no Escuro (ignora penalidade de escuridão natural e penumbra mágica) e +2 em Percepção visual.",
+        "toxicidade": "Média (Pupilas dilatadas: se exposto a luz solar intensa repentina, fica Deslumbrado 1 rodada).",
+        "preco": "60 po"
+    },
+    {
+        "nome": "Elixir da Lua Cheia (Vigor Titânico)",
+        "tipo": "Elixir de Combate",
+        "ingrediente": "Restos de Lobisomem ou Leshy Ancião",
+        "base_ervas": "Destilado puro + Folhas de Verbena",
+        "cd": 18,
+        "tempo": "30 min",
+        "duracao": "1 cena (10 min)",
+        "efeito": "Concede Proteção 2 (bônus de circunstância em Resistência) e +2 em testes de Fortitude.",
+        "toxicidade": "Alta (Fortitude CD 16 para não-mutantes; batimentos cardíacos violentamente acelerados).",
+        "preco": "90 po"
+    },
+    {
+        "nome": "Elixir Nevasca (Reflexos Acelerados)",
+        "tipo": "Elixir de Combate",
+        "ingrediente": "Restos de Quimera, Grifo ou Aparição",
+        "base_ervas": "Destilado forte + Frutos de Teixo",
+        "cd": 16,
+        "tempo": "30 min",
+        "duracao": "5 rodadas após o 1º golpe",
+        "efeito": "+2 em Esquiva, +2 em Iniciativa e permite realizar 1 ação de Movimento adicional por turno (aceleração temporal reflexa).",
+        "toxicidade": "Alta (Fortitude CD 16 para não-mutantes; foco de túnel: -2 em Intuição e testes sociais).",
+        "preco": "80 po"
+    },
+    {
+        "nome": "Elixir Sangue Negro (Defesa Venenosa)",
+        "tipo": "Elixir de Combate",
+        "ingrediente": "Sangue de Cria Vampírica, Darakhul ou Aparição",
+        "base_ervas": "Destilado com cinzas rituais + Beladona",
+        "cd": 18,
+        "tempo": "30 min",
+        "duracao": "1 combate",
+        "efeito": "O sangue do alquimista se torna ácido e cáustico: qualquer criatura que morder ou beber seu sangue sofre Dano 5 (Fortitude CD 15 reduz) por rodada.",
+        "toxicidade": "Muito Alta (Fortitude CD 18 para não-mutantes; causa palidez cadavérica durante o efeito).",
+        "preco": "100 po"
+    },
+    {
+        "nome": "Elixir Papa-figo (Antitoxina Absoluta)",
+        "tipo": "Elixir Defensivo",
+        "ingrediente": "Glândula de Basilisco, Hidra ou Goblin Tóxico",
+        "base_ervas": "Álcool comum + Raiz de Lótus Terrestre",
+        "cd": 14,
+        "tempo": "15 min",
+        "duracao": "1 hora",
+        "efeito": "Imunidade a venenos mundanos e +5 em Fortitude contra venenos sobrenaturais. Neutraliza toxinas e venenos já ativos no corpo.",
+        "toxicidade": "Baixa (leve gosto metálico na boca).",
+        "preco": "60 po"
+    },
+    {
+        "nome": "Elixir Mel Branco (Purificador Geral)",
+        "tipo": "Elixir de Purificação",
+        "ingrediente": "Pó de Mímico ou Cera de Golem",
+        "base_ervas": "Água pura de nascente + Mel silvestre + Hortelã",
+        "cd": 12,
+        "tempo": "15 min",
+        "duracao": "Instantâneo",
+        "efeito": "Remove instantaneamente toda a toxicidade e anula os efeitos de todos os outros elixires ativos, restaurando o organismo.",
+        "toxicidade": "Nenhuma (seguro e restaurador).",
+        "preco": "40 po"
+    },
+    {
+        "nome": "Filtro de Petri (Amplificador Arcano)",
+        "tipo": "Filtro Mágico",
+        "ingrediente": "Restos de Devorador de Mentes ou Hobgoblin Conjurador",
+        "base_ervas": "Destilado infundido com giz arcano + Lótus Negra",
+        "cd": 18,
+        "tempo": "45 min",
+        "duracao": "1 combate (10 rodadas)",
+        "efeito": "+2 na graduação de efeito de Magias e Dons (respeitando o limite de NP) ou +2 de bônus em testes de Ataque Mágico.",
+        "toxicidade": "Alta (Fortitude CD 16 para não-mutantes; leve enxaqueca arcana após o término).",
+        "preco": "120 po"
+    },
+]
+
+OLEOS = [
+    {
+        "nome": "Óleo de Necrófago",
+        "alvo": "Mortos-vivos Corpóreos",
+        "ingrediente": "Restos de Carniçal, Carniçal Darakhul ou Múmia",
+        "base": "Sebo de carneiro + Cinzas de madeira nobre",
+        "cd": 14,
+        "tempo": "15 min",
+        "duracao": "1 combate (ou 10 golpes)",
+        "efeito": "+2 de Dano de circunstância contra mortos-vivos corpóreos e impede a regeneração necromântica temporariamente.",
+        "exemplos": "Carniçal, Carniçal Darakhul, Esqueleto, Múmia, Zumbi",
+        "preco": "45 po"
+    },
+    {
+        "nome": "Óleo de Espectro",
+        "alvo": "Mortos-vivos Incorpóreos e Espíritos",
+        "ingrediente": "Ectoplasma de Aparição, Sombra ou Espectro do Meio-Dia",
+        "base": "Resina de pinheiro + Sal marinho refinado",
+        "cd": 16,
+        "tempo": "15 min",
+        "duracao": "1 combate (ou 10 golpes)",
+        "efeito": "A lâmina ganha Afeta Intangível total: causa dano normal em seres incorpóreos e espíritos, somando +2 de Dano circunstancial.",
+        "exemplos": "Aparição, Sombra, Espectro do Meio-Dia, Fantasmas",
+        "preco": "60 po"
+    },
+    {
+        "nome": "Óleo de Fera",
+        "alvo": "Feras e Animais Vorazes",
+        "ingrediente": "Gordura de Urso, Presa de Lobo ou Lobo Atroz",
+        "base": "Sebo animal comum + Ervas aromáticas pungentes",
+        "cd": 12,
+        "tempo": "15 min",
+        "duracao": "1 combate (ou 10 golpes)",
+        "efeito": "+2 de Dano de circunstância contra feras; o primeiro golpe impõe teste de Vontade CD 13 para não afugentar o animal.",
+        "exemplos": "Lobo, Lobo Atroz, Urso, Cavalo de Guerra hostil, Mastins",
+        "preco": "35 po"
+    },
+    {
+        "nome": "Óleo de Ogroide",
+        "alvo": "Gigantes, Ogros e Trolls",
+        "ingrediente": "Gordura de Troll, Restos de Ogro ou Ettin",
+        "base": "Cera de abelha + Sebo denso + Pó de pedra de amolar",
+        "cd": 16,
+        "tempo": "20 min",
+        "duracao": "1 combate (ou 10 golpes)",
+        "efeito": "+2 de Dano de circunstância contra gigantes e ogroides; anula a regeneração de Trolls por 1 rodada a cada golpe.",
+        "exemplos": "Troll, Ogro, Ettin, Gigante do Gelo, Bugbear Brigão",
+        "preco": "60 po"
+    },
+    {
+        "nome": "Óleo de Draconídeo",
+        "alvo": "Dragões, Serpes e Répteis Mágicos",
+        "ingrediente": "Escamas ou Sangue de Dragão Branco/Vermelho ou Serpe",
+        "base": "Óleo mineral purificado + Enxofre em pó",
+        "cd": 18,
+        "tempo": "30 min",
+        "duracao": "1 combate (ou 10 golpes)",
+        "efeito": "+2 de Dano de circunstância contra dragões e serpes; perfura carapaça escamosa (reduz a Proteção do alvo em 1 grau temporariamente).",
+        "exemplos": "Dragão Vermelho, Dragão Branco, Serpe, Basilisco",
+        "preco": "90 po"
+    },
+    {
+        "nome": "Óleo de Híbrido e Monstruosidades",
+        "alvo": "Quimeras, Grifos e Feras Aladas",
+        "ingrediente": "Penas de Grifo, Secreção de Quimera ou Ferrão de Mantícora",
+        "base": "Sebo animal purificado + Resina vegetal",
+        "cd": 16,
+        "tempo": "20 min",
+        "duracao": "1 combate (ou 10 golpes)",
+        "efeito": "+2 de Dano de circunstância contra monstruosidades; em acerto crítico, mutila asas/membros forçando pouso imediato.",
+        "exemplos": "Grifo, Quimera, Mantícora, Bies, Leshy Ancião",
+        "preco": "70 po"
+    },
+    {
+        "nome": "Óleo de Construtos e Autômatos",
+        "alvo": "Golems de Ferro, Pedra e Estátuas Vivas",
+        "ingrediente": "Pó Mineral de Golem de Ferro ou Golem de Pedra",
+        "base": "Ácido alquímico diluído + Óleo pesado de ferreiro",
+        "cd": 16,
+        "tempo": "20 min",
+        "duracao": "1 combate (ou 10 golpes)",
+        "efeito": "+2 de Dano de circunstância contra construtos e ignora até 2 pontos de Proteção Impenetrável ou dureza de pedra/ferro.",
+        "exemplos": "Golem de Ferro, Golem de Pedra, Gárgulas animadas",
+        "preco": "65 po"
+    },
+    {
+        "nome": "Óleo de Amaldiçoados e Metamorfos",
+        "alvo": "Lobisomens, Estriges e Seres sob Maldição",
+        "ingrediente": "Pêlo de Lobisomem ou Restos de Estrige",
+        "base": "Prata coloidal diluída + Cera virgem",
+        "cd": 18,
+        "tempo": "30 min",
+        "duracao": "1 combate (ou 10 golpes)",
+        "efeito": "A lâmina arde com essência de prata: causa +3 de Dano de circunstância e suprime a regeneração do monstro amaldiçoado.",
+        "exemplos": "Lobisomem, Estrige, Cria Vampírica, Vampiro",
+        "preco": "85 po"
+    },
+]
+
+INGREDIENTES = [
+    {
+        "criatura": "Carniçal / Carniçal Darakhul",
+        "categoria": "Morto-vivo",
+        "reagente": "Restos de Carniçal (Fígado / Sangue cadavérico)",
+        "regra": "Declarar colheita após o abate (rende 1d3 doses)",
+        "usos": "Óleo de Necrófago, Poção Andorinha, Sangue Negro",
+        "preco": "15 po"
+    },
+    {
+        "criatura": "Lobo / Lobo Atroz",
+        "categoria": "Fera",
+        "reagente": "Gordura e Presas de Lobo",
+        "regra": "Declarar colheita após o abate (rende 1d3 doses)",
+        "usos": "Óleo de Fera, Bálsamo de Cura, Elixir Trovoada",
+        "preco": "10 po"
+    },
+    {
+        "criatura": "Urso",
+        "categoria": "Fera",
+        "reagente": "Sebo Denso de Urso",
+        "regra": "Declarar colheita após o abate (rende 1d3 doses)",
+        "usos": "Óleo de Fera, Bálsamo de Cura",
+        "preco": "10 po"
+    },
+    {
+        "criatura": "Aparição / Sombra / Espectro",
+        "categoria": "Morto-vivo Incorpóreo",
+        "reagente": "Ectoplasma & Pó de Aparição",
+        "regra": "Coletar resíduos onde o espírito foi dissipado (rende 1d3 doses)",
+        "usos": "Óleo de Espectro, Elixir Nevasca, Sangue Negro",
+        "preco": "25 po"
+    },
+    {
+        "criatura": "Troll / Ogro / Ettin",
+        "categoria": "Monstruosidade / Ogroide",
+        "reagente": "Gordura Regenerativa de Troll / Glândula de Ogro",
+        "regra": "Declarar colheita após o abate (rende 1d3 doses)",
+        "usos": "Óleo de Ogroide, Elixir Trovoada, Lua Cheia",
+        "preco": "25 po"
+    },
+    {
+        "criatura": "Grifo / Mantícora",
+        "categoria": "Monstruosidade Alada",
+        "reagente": "Penas de Grifo / Ferrão de Mantícora",
+        "regra": "Declarar colheita após o abate (rende 1d3 doses)",
+        "usos": "Óleo de Híbrido, Elixir Nevasca",
+        "preco": "30 po"
+    },
+    {
+        "criatura": "Quimera",
+        "categoria": "Monstruosidade Tríplice",
+        "reagente": "Secreção Tríplice de Quimera",
+        "regra": "Declarar colheita após o abate (rende 1d3 doses)",
+        "usos": "Óleo de Híbrido, Elixir Nevasca, Fogo Alquímico",
+        "preco": "35 po"
+    },
+    {
+        "criatura": "Golem de Pedra / Golem de Ferro",
+        "categoria": "Construto",
+        "reagente": "Pó Mineral de Golem / Núcleo do Construto",
+        "regra": "Declarar recolhimento de fragmentos da carcaça quebrada (rende 1d3 doses)",
+        "usos": "Óleo de Construtos, Elixir Mel Branco",
+        "preco": "25 po"
+    },
+    {
+        "criatura": "Lobisomem / Estrige",
+        "categoria": "Monstruosidade Amaldiçoada",
+        "reagente": "Pêlo Amaldiçoado / Sangue Licantrópico",
+        "regra": "Declarar colheita antes que o corpo retorne à forma humana (rende 1d3 doses)",
+        "usos": "Óleo de Amaldiçoados, Elixir da Lua Cheia",
+        "preco": "35 po"
+    },
+    {
+        "criatura": "Dragão Vermelho / Dragão Branco / Serpe",
+        "categoria": "Dragão",
+        "reagente": "Sangue & Escamas Dracônicas",
+        "regra": "Declarar extração de escamas ou sangue do coração (rende 1d3 doses)",
+        "usos": "Óleo de Draconídeo, Elixir Trovoada Titânico",
+        "preco": "60 po"
+    },
+    {
+        "criatura": "Basilisco / Medusa / Hidra",
+        "categoria": "Monstruosidade Tóxica",
+        "reagente": "Glândula de Peçonha / Olho Petrificante",
+        "regra": "Declarar colheita cuidadosa com luvas (rende 1d3 doses)",
+        "usos": "Elixir Papa-figo (Antitoxina), Óleos Venenosos",
+        "preco": "35 po"
+    },
+    {
+        "criatura": "Devorador de Mentes / Observador",
+        "categoria": "Aberração Psíquica",
+        "reagente": "Glândula Psíquica / Olho Mágico",
+        "regra": "Declarar extração de tecido encefálico/ocular (rende 1d3 doses)",
+        "usos": "Filtro de Petri, Elixir do Gato",
+        "preco": "50 po"
+    },
+    {
+        "criatura": "Mímico",
+        "categoria": "Aberração Metamórfica",
+        "reagente": "Secreção Adesiva / Resíduo Amorfo",
+        "regra": "Raspar secreções adesivas da carcaça derrotada (rende 1d3 doses)",
+        "usos": "Elixir Mel Branco, Elixir do Gato, Cola Alquímica",
+        "preco": "20 po"
+    },
+]
+
+TAVERNA = [
+    # Bebidas
+    {"categoria": "Bebidas", "item": "Cerveja comum (caneca)", "preco": "4 pc", "valor_po": "0,04 po", "estilo": "Modesto", "detalhes": "A cerveja padrão da estalagem: turva, leve e servida em caneca de barro ou madeira."},
+    {"categoria": "Bebidas", "item": "Cerveja anã encorpada (caneca)", "preco": "1 pp", "valor_po": "0,10 po", "estilo": "Modesto / Confortável", "detalhes": "Cerveja preta densa, encorpada e com alto teor alcoólico, envelhecida em barril de carvalho."},
+    {"categoria": "Bebidas", "item": "Hidromel fermentado (jarra 1L)", "preco": "5 pp", "valor_po": "0,50 po", "estilo": "Confortável", "detalhes": "Bebida tradicional nórdica à base de mel fermentado e água com ervas; apreciada por bárbaros e anões."},
+    {"categoria": "Bebidas", "item": "Vinho comum da casa (jarra 1L)", "preco": "2 pp", "valor_po": "0,20 po", "estilo": "Modesto", "detalhes": "Vinho tinto regional da safra do ano; ácido e jovem, servido na jarra de cerâmica para a refeição."},
+    {"categoria": "Bebidas", "item": "Cerveja (barril pequeno 15L)", "preco": "4 pp", "valor_po": "0,40 po", "estilo": "Modesto", "detalhes": "Barril pequeno de cerveja para dividir com o grupo na taverna ou levar no acampamento da estrada."},
+    {"categoria": "Bebidas", "item": "Vinho fino da adega / élfico (garrafa)", "preco": "10 po", "valor_po": "10,00 po", "estilo": "Rico / Aristocrático", "detalhes": "Vinho vintage envelhecido em adegas nobres; aroma floral requintado, para impressionar nobres e autoridades."},
+    {"categoria": "Bebidas", "item": "Aguardente / Destilado forte (dose)", "preco": "5 pp", "valor_po": "0,50 po", "estilo": "Confortável", "detalhes": "Destilado de cereal com especiarias ardidas; queima a garganta e espanta o frio cortante da noite."},
+
+    # Comidas e Refeições
+    {"categoria": "Refeições", "item": "Sopa rala e pão duro", "preco": "5 pc", "valor_po": "0,05 po", "estilo": "Esquálido / Pobre", "detalhes": "Caldo ralo de nabos e cebola com um pedaço de pão amanhecido; comida de mendigo e camponês falido."},
+    {"categoria": "Refeições", "item": "Pão de centeio do dia (250g)", "preco": "2 pc", "valor_po": "0,02 po", "estilo": "Pobre a Modesto", "detalhes": "Pão rústico de grãos escuros assado na fornalha comunal da aldeia."},
+    {"categoria": "Refeições", "item": "Queijo curado de ovelha (250g)", "preco": "1 pp", "valor_po": "0,10 po", "estilo": "Modesto", "detalhes": "Queijo salgado e firme; resiste a semanas de viagem na mochila sem estragar."},
+    {"categoria": "Refeições", "item": "Carne assada / salgada (500g)", "preco": "3 pp", "valor_po": "0,30 po", "estilo": "Modesto", "detalhes": "Porção substancial de pernil de porco assado na brasa ou carne bovina salgada para a estrada."},
+    {"categoria": "Refeições", "item": "Refeição comum na taverna", "preco": "3 pp", "valor_po": "0,30 po", "estilo": "Modesto (Padrão)", "detalhes": "O prato clássico da casa: ensopado quente de carne com tubérculos, fatia de pão fresco e uma caneca de cerveja."},
+    {"categoria": "Refeições", "item": "Banquete do caçador (refeição farta)", "preco": "8 pp", "valor_po": "0,80 po", "estilo": "Confortável", "detalhes": "Perna inteira de ave ou caça assada com ervas, batatas douradas, pão de trigo, queijo cremoso e torta doce."},
+    {"categoria": "Refeições", "item": "Banquete aristocrático (alta corte)", "preco": "3 po", "valor_po": "3,00 po", "estilo": "Rico / Nobre", "detalhes": "Múltiplos pratos finos preparados por chef particular, carnes nobres com especiarias caras e sobremesas em louça de prata."},
+    {"categoria": "Refeições", "item": "Rações de viagem (5 dias)", "preco": "25 pp", "valor_po": "2,50 po", "estilo": "Modesto", "detalhes": "Provisões secas e imperecíveis (carne seca, frutas desidratadas e bolacha dura) para expedições nos ermos."},
+
+    # Hospedagem (por noite)
+    {"categoria": "Hospedagem (noite)", "item": "Pernoite no chão / Palheiro da lareira", "preco": "2 pc", "valor_po": "0,02 po", "estilo": "Pobre", "detalhes": "Espaço no assoalho perto do calor da lareira coletiva ou no palheiro do celeiro; exige usar seu próprio cobertor."},
+    {"categoria": "Hospedagem (noite)", "item": "Quarto coletivo (beliche)", "preco": "1 pp", "valor_po": "0,10 po", "estilo": "Pobre a Modesto", "detalhes": "Cama em beliche com esteira de palha limpa em dormitório compartilhado com outros 4 a 8 viajantes. Barulhento, com baú simples."},
+    {"categoria": "Hospedagem (noite)", "item": "Quarto individual modesto", "preco": "5 pp", "valor_po": "0,50 po", "estilo": "Modesto (Aventureiro)", "detalhes": "Aposento individual com cama de palha macia, lençóis limpos, jarro de água com bacia para lavar o rosto e tranca de madeira na porta."},
+    {"categoria": "Hospedagem (noite)", "item": "Quarto individual confortável", "preco": "1,5 po", "valor_po": "1,50 po", "estilo": "Confortável (Burguês)", "detalhes": "Colchão macio de penas de ganso, cobertores de lã lavados, tina de madeira com água quente para banho trazida pelo estalajadeiro e chave de ferro privativa."},
+    {"categoria": "Hospedagem (noite)", "item": "Suíte nobre / Luxo da capital", "preco": "5 a 10 po", "valor_po": "5,00 a 10,00 po", "estilo": "Rico / Grande Nobre", "detalhes": "Aposento amplo de dois cômodos com cama de dossel, lareira privativa acesa, mobília de madeira nobre, banheira de cobre e serviçal pessoal à disposição."},
+
+    # Estábulo e Animais
+    {"categoria": "Estábulo (por dia)", "item": "Estábulo comum (baia, feno e água)", "preco": "5 pc", "valor_po": "0,05 po", "estilo": "Modesto", "detalhes": "Baia coletiva protegida de vento e chuva, cocho com água fresca de poço e feno limpo suficiente para pernoite seguro."},
+    {"categoria": "Estábulo (por dia)", "item": "Cuidado completo de montaria", "preco": "2 pp", "valor_po": "0,20 po", "estilo": "Confortável", "detalhes": "Baia privativa higienizada com palha fresca, ração rica em aveia, escovação completa da pelagem e verificação de ferraduras pelo cocheiro."},
+]
+
+SERVICOS_CONTRATOS = [
+    # Serviços de Viagem e Cotidianos
+    {
+        "servico": "Passagem em carroça de viagem",
+        "categoria": "Transporte e Viagem",
+        "preco_base": "3 pc por légua (~5 km) ou 1 pp por dia",
+        "unidade": "Por passageiro / dia",
+        "regras": "Velocidade 3 (deslocamento normal de estrada, ~30 km por dia com paradas). Carrega mochila e bagagem comum sem custo adicional.",
+        "notas": "Viajantes dividem espaço com mercadorias e fardos em estradas principais."
+    },
+    {
+        "servico": "Travessia de barcaça / Barqueiro",
+        "categoria": "Transporte e Viagem",
+        "preco_base": "1 pc a 2 pc (5 pc com montaria/carroça)",
+        "unidade": "Por travessia",
+        "regras": "Cruza rios largos ou canais onde não há pontes de pedra. O barqueiro conhece as correntes e bancos de areia locais.",
+        "notas": "Em tempestades ou cheias perigosas, o preço dobra."
+    },
+    {
+        "servico": "Mensageiro expresso / Pombo-correio",
+        "categoria": "Comunicação",
+        "preco_base": "1 a 2 pp (vilas vizinhas) / 1 a 5 po (capitais)",
+        "unidade": "Por mensagem entregue",
+        "regras": "Pombo-correio leva mensagens curtas em 1 dia (se a cidade destino tiver pombal). Mensageiro a cavalo viaja até 60 km por dia.",
+        "notas": "Mensagens lacradas com cera e sinete do remetente."
+    },
+    {
+        "servico": "Guia local / Rastreador dos ermos",
+        "categoria": "Expedição e Batedores",
+        "preco_base": "1 a 2 po por dia (+ refeições)",
+        "unidade": "Por dia de expedição",
+        "regras": "Possui Especialidade: Sobrevivência +6 e conhecimento do terreno local. Concede +5 em testes de orientação para não se perder.",
+        "notas": "Não participa de combate salvo para autodefesa emergencial."
+    },
+    {
+        "servico": "Aluguel de carroça com cocheiro e parelha",
+        "categoria": "Transporte e Carga",
+        "preco_base": "1,5 po por dia (+ forragem dos animais)",
+        "unidade": "Por dia de contrato",
+        "regras": "Capacidade de carga de 500 kg. O cocheiro cuida dos cavalos e manobra a carroça por rotas transitáveis.",
+        "notas": "Exige caução de 30 po caso a carroça sofra danos graves."
+    },
+
+    # Mercenários e Guarda-Costas
+    {
+        "servico": "Mercenário de infantaria comum (NP 3)",
+        "categoria": "Segurança e Combate",
+        "preco_base": "2 po por dia (+ rações e munição)",
+        "unidade": "Por dia de serviço",
+        "regras": "Ficha de Soldado/Miliciano (NP 3): armado com lança/espada curta, escudo e couro batido. Segue ordens diretas em combate comum.",
+        "notas": "Exige teste de Moral/Vontade se enfrentar horrores sobrenaturais ou sofrer baixas severas."
+    },
+    {
+        "servico": "Mercenário veterano / Guarda de elite (NP 5)",
+        "categoria": "Segurança e Combate",
+        "preco_base": "5 po por dia (+ rações)",
+        "unidade": "Por dia de serviço",
+        "regras": "Guerreiro experiente (NP 5): cota de malha, escudo e espada longa. Não entra em pânico fácil e protege o cliente com a vida.",
+        "notas": "Ideal para escoltar personagens não-combatentes ou proteger acampamentos."
+    },
+    {
+        "servico": "Conjurador / Mago de aluguel (NP 5 a 6)",
+        "categoria": "Magia Sob Encomenda",
+        "preco_base": "15 a 25 po por dia ou por ritual",
+        "unidade": "Por serviço mágico / ritual",
+        "regras": "Realiza rituais utilitários (Identificação arcana, Compreender idiomas, Selo de proteção, Alarme místico).",
+        "notas": "Magos raramente aceitam missões suicidas de linha de frente."
+    },
+
+    # Reparos e Artesanato
+    {
+        "servico": "Afiação e manutenção de arma (Ferreiro)",
+        "categoria": "Ofício e Reparos",
+        "preco_base": "2 pp a 5 pp",
+        "unidade": "Por arma",
+        "regras": "Remove entalhes, ferrugem e restaura o fio da lâmina após viagens longas. Garante que a arma não falhe em uso crítico.",
+        "notas": "Leva de 1 a 2 horas na forja do ferreiro local."
+    },
+    {
+        "servico": "Reparo de armadura danificada em combate",
+        "categoria": "Ofício e Reparos",
+        "preco_base": "2 po (couro) a 10 po (cota de malha/placas)",
+        "unidade": "Por armadura avariada",
+        "regras": "Substitui anéis partidos, rebites soltos e placas amassadas por golpes de maça ou garras de monstros.",
+        "notas": "Restaura graduação integral de Proteção da armadura."
+    },
+    {
+        "servico": "Atendimento de médico / Barbeiro-cirurgião",
+        "categoria": "Saúde e Medicina",
+        "preco_base": "1 po por visita / procedimento",
+        "unidade": "Por atendimento médico",
+        "regras": "Realiza teste de Tratamento (+6). Estanca sangramentos graves, engessa ossos quebrados e costura lacerações profundas.",
+        "notas": "Fornece pomadas e ataduras limpas para convalescença."
+    },
+
+    # Templo e Serviços Sagrados
+    {
+        "servico": "Frasco de Água Benta consagrada",
+        "categoria": "Serviços de Templo",
+        "preco_base": "25 po por frasco",
+        "unidade": "Frasco de vidro selado",
+        "regras": "Item arremessável consagrado: causa Dano 3 sagrado contra mortos-vivos e demônios ao quebrar.",
+        "notas": "Produzida por clérigos e paladinos em cerimônia ritual."
+    },
+    {
+        "servico": "Bênção sagrada antes da partida",
+        "categoria": "Serviços de Templo",
+        "preco_base": "Doação voluntária (1 pp a 1 po)",
+        "unidade": "Por expedição",
+        "regras": "Rito de proteção: concede +1 de circunstância em um único teste de salvamento ou ataque durante a viagem.",
+        "notas": "Fortalece a coragem e a moral dos aventureiros."
+    },
+    {
+        "servico": "Cura de ferimentos graves via doação",
+        "categoria": "Serviços de Templo",
+        "preco_base": "10 a 25 po por prece de cura",
+        "unidade": "Por atendimento de milagre",
+        "regras": "Clérigo canaliza milagre de Cura: restaura 1 grau de dano imediatamente e purifica feridas infectadas.",
+        "notas": "Geralmente doado aos cofres do templo para caridade e manutenção da paróquia."
+    },
+    {
+        "servico": "Cura de doença comum ou veneno por clérigo",
+        "categoria": "Serviços de Templo",
+        "preco_base": "25 a 50 po por ritual",
+        "unidade": "Por pessoa curada",
+        "regras": "Purifica a carne de enfermidades naturais e neutraliza toxinas ativas que remédios comuns não eliminaram.",
+        "notas": "Indispensável após combates contra carniçais, cobras gigantes ou garras envenenadas."
+    },
+    {
+        "servico": "Remoção de maldição espiritual / profana",
+        "categoria": "Serviços de Templo",
+        "preco_base": "50 a 100 po por ritual",
+        "unidade": "Por pessoa ou item purificado",
+        "regras": "Ritual sagrado de alta complexidade (dura várias horas): quebra vínculos com espíritos malignos ou maldições de bruxas.",
+        "notas": "Exige penitência ou compromisso com a divindade benfeitora."
+    },
+    {
+        "servico": "Ritual de Ressurreição sagrada",
+        "categoria": "Serviços de Templo",
+        "preco_base": "500 a 1.250 po",
+        "unidade": "Por ressurreição",
+        "regras": "Ritual solene de 1 hora com clérigo de alto nível: traz de volta o espírito de quem morreu há pouco tempo (corpo deve estar preservado).",
+        "notas": "O valor cobre componentes materiais raros (diamantes e incenso sagrado de 500 po) mais grande oferenda à divindade."
+    },
+
+    # Contratos de Aventureiros (Tabela de Caça e Escolta)
+    {
+        "servico": "Contrato: Pragas e Bandos Menores (NP 1 a 3)",
+        "categoria": "Contratos de Aventureiros",
+        "preco_base": "25 a 50 po para o grupo",
+        "unidade": "Por missão / covil limpo",
+        "regras": "Exemplos: Limpar ninho de Ratos Gigantes nos porões, afugentar alcateia de Lobos perto das fazendas, eliminar patrulha de Goblins.",
+        "notas": "Financiado por fazendeiros locais, camponeses ou donos de estalagem desesperados."
+    },
+    {
+        "servico": "Contrato: Necrófagos e Ameaça Noturna (NP 4 a 5)",
+        "categoria": "Contratos de Aventureiros",
+        "preco_base": "50 a 150 po para o grupo",
+        "unidade": "Por contrato cumprido",
+        "regras": "Exemplos: Investigar cemitério violado por Carniçais, eliminar Mímico em armazém de mercadores, caçar Bugbear emboscador.",
+        "notas": "Pago pelo conselho da vila, sacerdotes do cemitério ou guilda mercantil."
+    },
+    {
+        "servico": "Contrato: Monstro Solitário da Aldeia (NP 6 a 8)",
+        "categoria": "Contratos de Aventureiros",
+        "preco_base": "200 a 600 po pela cabeça da fera",
+        "unidade": "Por besta abatida com prova",
+        "regras": "Exemplos: Caçar Lobisomem amaldiçoado, abater Troll na ponte, matar Quimera ou Grifo no pico rochoso, derrubar Bies da floresta.",
+        "notas": "Geralmente inclui 20% a 30% de adiantamento para compra de poções, óleos e prata. Exige trazer a cabeça ou troféu."
+    },
+    {
+        "servico": "Contrato: Terror Regional / Tirano Antigo (NP 9 a 10)",
+        "categoria": "Contratos de Aventureiros",
+        "preco_base": "1.500 a 5.000 po (ou mais)",
+        "unidade": "Por campanha / vitória lendária",
+        "regras": "Exemplos: Abater Dragão Adulto (Branco ou Vermelho) que incendeia cidades, destruir Lich em sua cripta, desmontar Construto Titânico.",
+        "notas": "Oferecido pela Coroa, Grandes Nobres ou Arquimagos. Costuma incluir títulos nobiliárquicos, castelos ou terras."
+    },
+    {
+        "servico": "Escolta de Caravana em Estrada Comercial",
+        "categoria": "Contratos de Escolta",
+        "preco_base": "5 po por guarda / dia (~50 po para o grupo)",
+        "unidade": "Por rota curta (2 a 3 dias)",
+        "regras": "Viagem entre cidades próximas por estrada patrulhada. Ameaças comuns: batedores de carteira, ladrões oportunistas e animais famintos.",
+        "notas": "Rações e alimentação cobertas pelo comboio mercantil."
+    },
+    {
+        "servico": "Escolta de Caravana em Rotas Ermas e Hostis",
+        "categoria": "Contratos de Escolta",
+        "preco_base": "15 a 25 po por guarda / dia (200 a 500 po grupo)",
+        "unidade": "Por expedição (1 a 2 semanas)",
+        "regras": "Cruzamento de passagens montanhosas, florestas infestadas ou pântanos sem lei. Risco constante de emboscadas de monstros.",
+        "notas": "Bônus de 20% a 50% de gratificação contratual se nenhuma carroça ou mercadoria for perdida."
+    },
+    {
+        "servico": "Mecânica de Regateio / Negociação de Contrato",
+        "categoria": "Regras de Negociação",
+        "preco_base": "Bônus de +20% a +50% no pagamento",
+        "unidade": "Por teste de negociação",
+        "regras": "Rola Persuasão ou Intimidação contra Intuição do contratante (CD 12 para aldeão/alcaide; CD 15 para mercador/nobre). Sucesso: +20%; Sucesso com +5 de margem: +50% ou adiantamento em poções.",
+        "notas": "Investigar a taverna antes da reunião para descobrir o desespero do contratante dá +2 de circunstância no teste."
+    },
+]
+
+
+def criar_planilha():
+    wb = openpyxl.Workbook()
+    wb.remove(wb.active)
+
+    # --------------------------------------------------------------------------
+    # FOLHA 1: REGRAS E PREPARO
+    # --------------------------------------------------------------------------
+    ws1 = wb.create_sheet(title="Regras e Preparo")
+    ws1.views.sheetView[0].showGridLines = True
+
+    ws1.merge_cells("A1:D1")
+    ws1["A1"] = "SISTEMA DE ALQUIMIA, RITUAL E PREPARAÇÃO (M&M 3e - FANTASIA)"
+    ws1["A1"].font = FONTE_TITULO
+    ws1["A1"].fill = AZUL_ESCURO
+    ws1["A1"].alignment = Alignment(horizontal="center", vertical="center")
+    ws1.row_dimensions[1].height = 40
+
+    linha_atual = 3
+    for titulo, texto in REGRAS:
+        ws1.merge_cells(start_row=linha_atual, start_column=1, end_row=linha_atual, end_column=4)
+        c = ws1.cell(row=linha_atual, column=1, value=titulo)
+        c.font = FONTE_SECAO
+        c.fill = AZUL_CLARO
+        c.alignment = Alignment(horizontal="left", vertical="center", indent=1)
+        ws1.row_dimensions[linha_atual].height = 26
+        linha_atual += 1
+
+        ws1.merge_cells(start_row=linha_atual, start_column=1, end_row=linha_atual, end_column=4)
+        c2 = ws1.cell(row=linha_atual, column=1, value=texto)
+        c2.font = FONTE_CORPO
+        c2.alignment = Alignment(horizontal="left", vertical="top", wrap_text=True)
+        quebras = texto.count("\n") + len(texto) // 90 + 1
+        ws1.row_dimensions[linha_atual].height = max(45, quebras * 18)
+        linha_atual += 2
+
+    ws1.column_dimensions["A"].width = 25
+    ws1.column_dimensions["B"].width = 30
+    ws1.column_dimensions["C"].width = 35
+    ws1.column_dimensions["D"].width = 35
+
+    # --------------------------------------------------------------------------
+    # FOLHA 2: POÇÕES E ELIXIRES
+    # --------------------------------------------------------------------------
+    ws2 = wb.create_sheet(title="Poções e Elixires")
+    ws2.views.sheetView[0].showGridLines = True
+
+    ws2.merge_cells("A1:J1")
+    ws2["A1"] = "CATÁLOGO DE POÇÕES, ELIXIRES E FILTROS"
+    ws2["A1"].font = FONTE_TITULO
+    ws2["A1"].fill = AZUL_ESCURO
+    ws2["A1"].alignment = Alignment(horizontal="center", vertical="center")
+    ws2.row_dimensions[1].height = 36
+
+    cabecalho_poc = [
+        ("Poção / Elixir", 24, ALINHA_ESQ),
+        ("Tipo", 18, ALINHA_CENTRO),
+        ("Ingrediente de Monstro", 25, ALINHA_ESQ),
+        ("Base & Ervas", 25, ALINHA_ESQ),
+        ("CD Alquimia", 12, ALINHA_CENTRO),
+        ("Preparo", 12, ALINHA_CENTRO),
+        ("Duração", 18, ALINHA_CENTRO),
+        ("Efeito Mecânico (M&M 3e)", 45, ALINHA_ESQ),
+        ("Toxicidade & Colaterais", 25, ALINHA_ESQ),
+        ("Preço", 10, ALINHA_DIR),
+    ]
+
+    for col_idx, (nome_col, larg, _) in enumerate(cabecalho_poc, start=1):
+        cell = ws2.cell(row=2, column=col_idx, value=nome_col)
+        cell.font = FONTE_CABECALHO
+        cell.fill = AZUL_MEDIO
+        cell.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
+        cell.border = BORDA_FINA
+        ws2.column_dimensions[get_column_letter(col_idx)].width = larg
+    ws2.row_dimensions[2].height = 28
+
+    for r_idx, item in enumerate(POCOES, start=3):
+        fill = ZEBRA if r_idx % 2 == 0 else BRANCO
+        linha = [
+            item["nome"], item["tipo"], item["ingrediente"], item["base_ervas"],
+            item["cd"], item["tempo"], item["duracao"], item["efeito"],
+            item["toxicidade"], item["preco"]
+        ]
+        ws2.row_dimensions[r_idx].height = 42
+        for col_idx, val in enumerate(linha, start=1):
+            cell = ws2.cell(row=r_idx, column=col_idx, value=val)
+            cell.font = FONTE_CORPO_BOLD if col_idx == 1 else FONTE_CORPO
+            cell.fill = fill
+            cell.border = BORDA_FINA
+            cell.alignment = cabecalho_poc[col_idx - 1][2]
+
+    # --------------------------------------------------------------------------
+    # FOLHA 3: ÓLEOS PARA LÂMINAS
+    # --------------------------------------------------------------------------
+    ws3 = wb.create_sheet(title="Óleos para Lâminas")
+    ws3.views.sheetView[0].showGridLines = True
+
+    ws3.merge_cells("A1:J1")
+    ws3["A1"] = "ÓLEOS ALQUÍMICOS PARA LÂMINAS (COMBATE CONTRA MONSTROS)"
+    ws3["A1"].font = FONTE_TITULO
+    ws3["A1"].fill = AZUL_ESCURO
+    ws3["A1"].alignment = Alignment(horizontal="center", vertical="center")
+    ws3.row_dimensions[1].height = 36
+
+    cabecalho_ole = [
+        ("Óleo de Lâmina", 24, ALINHA_ESQ),
+        ("Família Inimiga", 24, ALINHA_CENTRO),
+        ("Ingrediente de Monstro", 25, ALINHA_ESQ),
+        ("Base & Aglutinante", 25, ALINHA_ESQ),
+        ("CD Alquimia", 12, ALINHA_CENTRO),
+        ("Preparo", 12, ALINHA_CENTRO),
+        ("Duração / Cargas", 18, ALINHA_CENTRO),
+        ("Efeito Mecânico (M&M 3e)", 45, ALINHA_ESQ),
+        ("Monstros Afetados (Bestiário)", 30, ALINHA_ESQ),
+        ("Preço", 10, ALINHA_DIR),
+    ]
+
+    for col_idx, (nome_col, larg, _) in enumerate(cabecalho_ole, start=1):
+        cell = ws3.cell(row=2, column=col_idx, value=nome_col)
+        cell.font = FONTE_CABECALHO
+        cell.fill = AZUL_MEDIO
+        cell.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
+        cell.border = BORDA_FINA
+        ws3.column_dimensions[get_column_letter(col_idx)].width = larg
+    ws3.row_dimensions[2].height = 28
+
+    for r_idx, item in enumerate(OLEOS, start=3):
+        fill = ZEBRA if r_idx % 2 == 0 else BRANCO
+        linha = [
+            item["nome"], item["alvo"], item["ingrediente"], item["base"],
+            item["cd"], item["tempo"], item["duracao"], item["efeito"],
+            item["exemplos"], item["preco"]
+        ]
+        ws3.row_dimensions[r_idx].height = 42
+        for col_idx, val in enumerate(linha, start=1):
+            cell = ws3.cell(row=r_idx, column=col_idx, value=val)
+            cell.font = FONTE_CORPO_BOLD if col_idx == 1 else FONTE_CORPO
+            cell.fill = fill
+            cell.border = BORDA_FINA
+            cell.alignment = cabecalho_ole[col_idx - 1][2]
+
+    # --------------------------------------------------------------------------
+    # FOLHA 4: INGREDIENTES DE CRIATURAS
+    # --------------------------------------------------------------------------
+    ws4 = wb.create_sheet(title="Ingredientes de Criaturas")
+    ws4.views.sheetView[0].showGridLines = True
+
+    ws4.merge_cells("A1:F1")
+    ws4["A1"] = "GUIA DE COLHEITA DE REAGENTES DE CRIATURAS (BESTIÁRIO)"
+    ws4["A1"].font = FONTE_TITULO
+    ws4["A1"].fill = AZUL_ESCURO
+    ws4["A1"].alignment = Alignment(horizontal="center", vertical="center")
+    ws4.row_dimensions[1].height = 36
+
+    cabecalho_ing = [
+        ("Criatura (Bestiário)", 24, ALINHA_ESQ),
+        ("Categoria / Família", 20, ALINHA_CENTRO),
+        ("Reagente Colhido", 28, ALINHA_ESQ),
+        ("Método de Colheita", 35, ALINHA_ESQ),
+        ("Utilizado em Poções / Óleos", 35, ALINHA_ESQ),
+        ("Preço da Dose", 14, ALINHA_DIR),
+    ]
+
+    for col_idx, (nome_col, larg, _) in enumerate(cabecalho_ing, start=1):
+        cell = ws4.cell(row=2, column=col_idx, value=nome_col)
+        cell.font = FONTE_CABECALHO
+        cell.fill = AZUL_MEDIO
+        cell.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
+        cell.border = BORDA_FINA
+        ws4.column_dimensions[get_column_letter(col_idx)].width = larg
+    ws4.row_dimensions[2].height = 28
+
+    for r_idx, item in enumerate(INGREDIENTES, start=3):
+        fill = ZEBRA if r_idx % 2 == 0 else BRANCO
+        linha = [
+            item["criatura"], item["categoria"], item["reagente"], item["regra"],
+            item["usos"], item["preco"]
+        ]
+        ws4.row_dimensions[r_idx].height = 36
+        for col_idx, val in enumerate(linha, start=1):
+            cell = ws4.cell(row=r_idx, column=col_idx, value=val)
+            cell.font = FONTE_CORPO_BOLD if col_idx == 1 else FONTE_CORPO
+            cell.fill = fill
+            cell.border = BORDA_FINA
+            cell.alignment = cabecalho_ing[col_idx - 1][2]
+
+    # --------------------------------------------------------------------------
+    # FOLHA 5: TAVERNA E HOSPEDAGEM
+    # --------------------------------------------------------------------------
+    ws5 = wb.create_sheet(title="Taverna e Hospedagem")
+    ws5.views.sheetView[0].showGridLines = True
+
+    ws5.merge_cells("A1:F1")
+    ws5["A1"] = "TABELA DE PREÇOS DE TAVERNA, HOSPEDAGEM E ESTÁBULO"
+    ws5["A1"].font = FONTE_TITULO
+    ws5["A1"].fill = AZUL_ESCURO
+    ws5["A1"].alignment = Alignment(horizontal="center", vertical="center")
+    ws5.row_dimensions[1].height = 36
+
+    cabecalho_tav = [
+        ("Categoria", 18, ALINHA_CENTRO),
+        ("Item / Serviço", 28, ALINHA_ESQ),
+        ("Preço (Moedas)", 14, ALINHA_CENTRO),
+        ("Valor em Ouro", 14, ALINHA_CENTRO),
+        ("Estilo de Vida", 22, ALINHA_CENTRO),
+        ("Descrição e Detalhes da Taverna", 55, ALINHA_ESQ),
+    ]
+
+    for col_idx, (nome_col, larg, _) in enumerate(cabecalho_tav, start=1):
+        cell = ws5.cell(row=2, column=col_idx, value=nome_col)
+        cell.font = FONTE_CABECALHO
+        cell.fill = AZUL_MEDIO
+        cell.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
+        cell.border = BORDA_FINA
+        ws5.column_dimensions[get_column_letter(col_idx)].width = larg
+    ws5.row_dimensions[2].height = 28
+
+    for r_idx, item in enumerate(TAVERNA, start=3):
+        fill = ZEBRA if r_idx % 2 == 0 else BRANCO
+        linha = [
+            item["categoria"], item["item"], item["preco"], item["valor_po"],
+            item["estilo"], item["detalhes"]
+        ]
+        ws5.row_dimensions[r_idx].height = 36
+        for col_idx, val in enumerate(linha, start=1):
+            cell = ws5.cell(row=r_idx, column=col_idx, value=val)
+            cell.font = FONTE_CORPO_BOLD if col_idx == 2 else FONTE_CORPO
+            cell.fill = fill
+            cell.border = BORDA_FINA
+            cell.alignment = cabecalho_tav[col_idx - 1][2]
+
+    # --------------------------------------------------------------------------
+    # FOLHA 6: SERVIÇOS E CONTRATOS
+    # --------------------------------------------------------------------------
+    ws6 = wb.create_sheet(title="Serviços e Contratos")
+    ws6.views.sheetView[0].showGridLines = True
+
+    ws6.merge_cells("A1:F1")
+    ws6["A1"] = "GUIA DE SERVIÇOS, ESCOLTA E CONTRATOS DE AVENTUREIROS"
+    ws6["A1"].font = FONTE_TITULO
+    ws6["A1"].fill = AZUL_ESCURO
+    ws6["A1"].alignment = Alignment(horizontal="center", vertical="center")
+    ws6.row_dimensions[1].height = 36
+
+    cabecalho_ser = [
+        ("Serviço / Contrato", 28, ALINHA_ESQ),
+        ("Categoria", 22, ALINHA_CENTRO),
+        ("Preço Base Sugerido", 25, ALINHA_CENTRO),
+        ("Unidade / Duração", 20, ALINHA_CENTRO),
+        ("Regras Mecânicas (M&M 3e)", 45, ALINHA_ESQ),
+        ("Notas e Exemplos", 40, ALINHA_ESQ),
+    ]
+
+    for col_idx, (nome_col, larg, _) in enumerate(cabecalho_ser, start=1):
+        cell = ws6.cell(row=2, column=col_idx, value=nome_col)
+        cell.font = FONTE_CABECALHO
+        cell.fill = AZUL_MEDIO
+        cell.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
+        cell.border = BORDA_FINA
+        ws6.column_dimensions[get_column_letter(col_idx)].width = larg
+    ws6.row_dimensions[2].height = 28
+
+    for r_idx, item in enumerate(SERVICOS_CONTRATOS, start=3):
+        fill = ZEBRA if r_idx % 2 == 0 else BRANCO
+        linha = [
+            item["servico"], item["categoria"], item["preco_base"], item["unidade"],
+            item["regras"], item["notas"]
+        ]
+        ws6.row_dimensions[r_idx].height = 40
+        for col_idx, val in enumerate(linha, start=1):
+            cell = ws6.cell(row=r_idx, column=col_idx, value=val)
+            cell.font = FONTE_CORPO_BOLD if col_idx == 1 else FONTE_CORPO
+            cell.fill = fill
+            cell.border = BORDA_FINA
+            cell.alignment = cabecalho_ser[col_idx - 1][2]
+
+    return wb
+
+
+def main():
+    wb = criar_planilha()
+
+    # Destinos da planilha Excel
+    caminho_ref = Path("referencias/fantasia/pocoes.xlsx")
+    caminho_ref.parent.mkdir(parents=True, exist_ok=True)
+    wb.save(caminho_ref)
+    print(f"Planilha salva em: {caminho_ref}")
+
+    caminho_dados = Path("dados/generos/fantasia/pocoes.xlsx")
+    caminho_dados.parent.mkdir(parents=True, exist_ok=True)
+    wb.save(caminho_dados)
+    print(f"Planilha salva em: {caminho_dados}")
+
+    # Salva também os dados estruturados em JSON para uso pelo app / gerador
+    dados_json = {
+        "regras": [{"titulo": t, "descricao": d} for t, d in REGRAS],
+        "pocoes": POCOES,
+        "oleos": OLEOS,
+        "ingredientes": INGREDIENTES,
+        "taverna": TAVERNA,
+        "servicos_contratos": SERVICOS_CONTRATOS
+    }
+    caminho_json = Path("dados/generos/fantasia/alquimia.json")
+    caminho_json.write_text(json.dumps(dados_json, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"JSON estruturado salvo em: {caminho_json}")
+
+
+if __name__ == "__main__":
+    main()

@@ -71,6 +71,7 @@ def test_pagina_mostra_planilhas_do_genero_selecionado():
     assert "/planilhas/fantasia/armas.xlsx" in fantasia
     assert "/planilhas/fantasia/itens.xlsx" in fantasia
     assert "/planilhas/fantasia/poderes.xlsx" in fantasia
+    assert "/planilhas/fantasia/pocoes.xlsx" in fantasia
     assert "/planilhas/faroeste/poderes.xlsx" not in faroeste
 
 
@@ -150,3 +151,18 @@ def test_chefe_goblinoide_nao_e_capanga():
     assert not any(n["capanga"] for n in grupo["npcs"])
     comuns = generator.gerar_grupo(dados, "bugbear", 6, "aleatorio", 2, random.Random(1), tipo="bugbear_emboscador")
     assert all(n["capanga"] for n in comuns["npcs"])
+
+
+def test_planilha_de_pocoes_e_valida():
+    resposta = app.app.test_client().get("/planilhas/fantasia/pocoes.xlsx")
+    assert resposta.status_code == 200
+    assert resposta.mimetype == app.MIME_XLSX
+    assert resposta.headers["Content-Disposition"].endswith("pocoes_fantasia.xlsx")
+    assert resposta.data.startswith(b"PK")
+
+    import openpyxl
+    wb = openpyxl.load_workbook(io.BytesIO(resposta.data))
+    assert "Regras e Preparo" in wb.sheetnames
+    assert "Poções e Elixires" in wb.sheetnames
+    assert "Óleos para Lâminas" in wb.sheetnames
+    assert "Ingredientes de Criaturas" in wb.sheetnames

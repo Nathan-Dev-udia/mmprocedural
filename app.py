@@ -24,19 +24,26 @@ from nucleo import (bestiario, bestiario_docx, bestiario_pdf, data_loader, docx_
 app = Flask(__name__)
 PASTA_LIVROS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "dados", "livros")
 # Planilhas feitas à mão; as dos gêneros em planilhas.GERADAS saem dos dados na hora.
+PASTA_REFERENCIAS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "referencias")
 PLANILHAS_POR_GENERO = {
+    "fantasia": {
+        "pocoes": os.path.join(os.path.dirname(os.path.abspath(__file__)), "dados", "generos", "fantasia", "pocoes.xlsx"),
+    },
     "faroeste": {
         "armas": os.path.join(PASTA_LIVROS, "faroeste", "armas.xlsx"),
         "itens": os.path.join(PASTA_LIVROS, "faroeste", "itens.xlsx"),
     },
 }
-NOMES_DAS_PLANILHAS = {"armas": "Armas", "itens": "Itens", "poderes": "Poderes"}
+NOMES_DAS_PLANILHAS = {"armas": "Armas", "itens": "Itens", "poderes": "Poderes", "pocoes": "Poções e Alquimia"}
 
 
 def planilhas_disponiveis(genero_id):
+    tipos = []
     if genero_id in planilhas.GERADAS:
-        return list(planilhas.GERADAS[genero_id])
-    return [tipo for tipo, caminho in PLANILHAS_POR_GENERO.get(genero_id, {}).items() if os.path.isfile(caminho)]
+        tipos.extend(planilhas.GERADAS[genero_id])
+    if genero_id in PLANILHAS_POR_GENERO:
+        tipos.extend([tipo for tipo, caminho in PLANILHAS_POR_GENERO[genero_id].items() if os.path.isfile(caminho)])
+    return tipos
 
 # Versão mostrada no rodapé. Suba a cada entrega: 1.0 original, 1.1 passo a passo, 1.2 quantidades, 1.3 fantasia,
 # 1.4 distribuição dos pontos parecida com a dos arquétipos do livro, 1.5 subclasses e tipo de NPC, 1.6 goblinoides e caçador de monstros, 1.7 livros do faroeste e da fantasia,
@@ -526,7 +533,7 @@ def baixar_planilha(genero_id, tipo):
     if tipo not in NOMES_DAS_PLANILHAS or tipo not in planilhas_disponiveis(genero_id):
         return jsonify({"erro": "Planilha não encontrada."}), 404
     nome = f"{tipo}_{genero_id}.xlsx"
-    if genero_id in planilhas.GERADAS:
+    if genero_id in planilhas.GERADAS and tipo in planilhas.GERADAS[genero_id]:
         conteudo = planilhas.gerar(_dados(genero_id), tipo)
         return send_file(io.BytesIO(conteudo), mimetype=MIME_XLSX, as_attachment=True, download_name=nome)
     return send_file(PLANILHAS_POR_GENERO[genero_id][tipo], mimetype=MIME_XLSX, as_attachment=True,

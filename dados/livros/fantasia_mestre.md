@@ -1074,6 +1074,28 @@ A fantasia gira em torno de tesouros, mas o M&M separa duas moedas que o D&D mis
 
 **Recompensas de contrato** (caçador de monstros, mercenários, aventureiros contratados): um bando de goblins vale de 50 a 100 po para o grupo; um monstro que aterroriza uma aldeia, de 100 a 500 po; uma ameaça a uma cidade, 1.000 po ou mais, quase sempre com regateio. E o **ponto de poder** do fim da aventura continua sendo a recompensa principal.
 
+### 11.9 Contratos de Aventureiros: Caça a Monstros e Escolta [Casa]
+
+Aventureiros e caçadores de monstros vivem de contratos: cartazes pregados na taverna, apelos de alcaides aflitos ou acordos com barões e mercadores.
+
+| Tipo de Contrato | Nível / Ameaça | Recompensa do Grupo | Exemplos Típicos |
+|---|---|---|---|
+| **Pragas e Bandos Menores** | NP 1 a 3 | 25 a 50 po | Ninho de ratos gigantes em adegas, alcateia de lobos rondando fazendas, patrulha de goblins. |
+| **Ameaça Noturna e Necrófagos** | NP 4 a 5 | 50 a 150 po | Cemitério violado por carniçais, mímico em armazém portuário, aparição assombrando encruzilhada. |
+| **Fera Solitária / Monstro de Aldeia** | NP 6 a 8 | 200 a 600 po | Lobisomem amaldiçoado, troll em ponte mercantil, quimera no desfiladeiro, bies da floresta. |
+| **Terror Regional / Tirano Antigo** | NP 9 a 10 | 1.500 a 5.000 po+ | Dragão adulto queimando vilas, lich na cripta ancestral, gigante do gelo saqueando vales. |
+| **Escolta em Estrada Segura** | Rota curta (2–3 dias) | 5 po por guarda / dia (~50 po grupo) | Caravana comercial entre povoados vizinhos por estrada patrulhada. |
+| **Escolta em Ermos Perigosos** | Expedição (1–2 semanas) | 15 a 25 po por guarda / dia (200–500 po grupo) | Travessia de desfiladeiros montanhosos, pântanos ou florestas com risco de emboscadas. |
+
+#### Regras de Negociação e Regateio
+O contratante raramente oferece o valor máximo logo de início. O grupo pode negociar antes de aceitar o serviço:
+- **Teste de Negociação:** role **Persuasão** ou **Intimidação** contra a **Intuição** do contratante (CD 12 para alcaide ou aldeão; CD 15 para mercador ou nobre).
+  - **Sucesso:** o pagamento sobe em **+20%**.
+  - **Sucesso com 2 ou mais graus (+5 acima da CD):** o pagamento sobe em **+40% a +50%**, ou o contratante concede um adiantamento de 20% a 30% em poções, óleos ou munição.
+  - **Falha:** o contratante bate o pé e mantém a oferta inicial ("é isso ou procuro outros mercenários na taverna").
+  - **Falha Crítica (1 natural ou 5 abaixo):** o contratante se sente ofendido ou desconfia e reduz a oferta em 10%.
+- **Investigação Prévia na Taverna:** conversar com o taverneiro ou aldeões antes da reunião (teste de **Investigação CD 12**) revela o quão desesperado o contratante está, concedendo **+2 de bônus de circunstância** no teste de negociação.
+
 ---
 
 ## 12. Riqueza e economia [Guia do Mestre + Casa]
@@ -1135,7 +1157,62 @@ Entre aventuras, cobre o estilo de vida do dinheiro do personagem. Quem tem Bene
 
 **Moedas do D&D:** 1 peça de platina (pl) = 10 po; 1 peça de electro (pe) = 0,5 po; 1 peça de prata (pp) = 0,1 po; 1 peça de cobre (pc) = 0,01 po.
 
-### 12.5 Propriedades [Básico]
+### 12.5 Tabela de Taverna, Hospedagem e Serviços [D&D + Casa]
+
+Quando os jogadores entram em uma taverna, chegam a um vilarejo ou contratam serviços locais, use os preços abaixo (em peças de ouro, prata e cobre):
+
+#### Bebidas e Refeições na Taverna
+| Item | Preço em Moedas | Equivalente em po | Qualidade / Notas |
+|---|---|---|---|
+| **Caneca de cerveja comum** | 4 pc | 0,04 po | A cerveja padrão da taverna: turva, leve e espumosa. |
+| **Caneca de cerveja anã encorpada** | 1 pp | 0,10 po | Densa, preta e com alto teor alcoólico; envelhecida em carvalho. |
+| **Jarra de vinho comum da casa (1L)** | 2 pp | 0,20 po | Vinho tinto regional da safra; jovem e ácido. |
+| **Jarra de hidromel fermentado (1L)** | 5 pp | 0,50 po | Bebida nórdica de mel e especiarias; favorita de guerreiros e anões. |
+| **Barril pequeno de cerveja (15L)** | 4 pp | 0,40 po | Para a mesa inteira do grupo ou para levar no acampamento. |
+| **Dose de aguardente / destilado forte** | 5 pp | 0,50 po | Queima a garganta e espanta o frio cortante da noite. |
+| **Garrafa de vinho fino da adega / élfico** | 10 po | 10,00 po | Safra vintage de alta nobreza; bouquet floral refinado. |
+| **Sopa rala e pão duro** | 5 pc | 0,05 po | Caldo ralo de raízes; comida de mendigo e viajante falido. |
+| **Pão de centeio do dia (250g)** | 2 pc | 0,02 po | Pão rústico assado na fornalha comunal da aldeia. |
+| **Queijo curado de ovelha (250g)** | 1 pp | 0,10 po | Queijo salgado firme; dura semanas na mochila de viagem. |
+| **Pedaço de carne assada ou salgada (500g)**| 3 pp | 0,30 po | Pernil suíno assado na brasa ou carne bovina salgada. |
+| **Refeição comum da taverna** | 3 pp | 0,30 po | O prato do dia: ensopado quente de carne com tubérculos, pão e cerveja. |
+| **Banquete do caçador (refeição farta)** | 8 pp | 0,80 po | Perna de ave ou caça com ervas, batatas, pão de trigo, queijo e torta. |
+| **Banquete aristocrático da corte** | 3 po | 3,00 po | Múltiplos pratos finos preparados por chef pessoal em louça de prata. |
+| **Rações de viagem (5 dias)** | 25 pp | 2,50 po | Provisões secas e imperecíveis (carne seca, frutas secas e bolachas). |
+
+#### Hospedagem e Cuidados com Montarias (Preço por noite/dia)
+| Acomodação | Preço por Noite | Estilo de Vida | Descrição |
+|---|---|---|---|
+| **Chão comum / Palheiro da lareira** | 2 pc | Pobre | Espaço no assoalho perto do calor da lareira coletiva; usa o próprio cobertor. |
+| **Quarto coletivo (beliche)** | 1 pp | Pobre a Modesto | Beliche com esteira de palha limpa em aposento com outros 4 a 8 viajantes. |
+| **Quarto individual modesto** | 5 pp | Modesto (Aventureiro) | Cama de palha macia, lençol limpo, jarro d'água, bacia e tranca de madeira. |
+| **Quarto individual confortável** | 1,5 po | Confortável (Burguês) | Colchão de penas, tina de madeira com água quente para banho e chave de ferro. |
+| **Suíte nobre / Luxo da capital** | 5 a 10 po | Rico / Nobre | Aposento amplo com cama de dossel, lareira privativa acesa e serviçal pessoal. |
+| **Estábulo comum (baia, feno e água)** | 5 pc / dia | Modesto | Baia coletiva abrigada do vento, água de poço e feno limpo para a montaria. |
+| **Cuidado completo de montaria** | 2 pp / dia | Confortável | Baia higienizada privativa, ração de aveia, escovação e cuidados do cocheiro. |
+
+#### Serviços Cotidianos, Ofícios e Templos
+| Serviço | Preço Base Sugerido | Unidade / Tempo | Detalhes e Regras |
+|---|---|---|---|
+| **Passagem em carroça de viagem** | 3 pc / légua (~5 km) ou 1 pp / dia | Por passageiro | Deslocamento de 30 km/dia em estradas com paradas regulares. |
+| **Travessia de barcaça / Barqueiro** | 1 pc a 2 pc (5 pc c/ cavalo) | Por travessia | Cruza rios e canais navegáveis com segurança. |
+| **Mensageiro expresso / Pombo** | 1 a 2 pp (vilas) / 1 a 5 po (capitais) | Por mensagem | Pombo leva em 1 dia; mensageiro a cavalo viaja até 60 km/dia. |
+| **Guia local / Batedor dos ermos** | 1 a 2 po por dia (+ refeições) | Por dia de trilha | Especialidade: Sobrevivência +6; concede +5 contra perder-se. |
+| **Carroça alugada com cocheiro** | 1,5 po por dia (+ forragem) | Por dia | Carga de 500 kg; o cocheiro maneja e cuida dos animais. |
+| **Mercenário de infantaria (NP 3)**| 2 po por dia (+ comida/munição) | Por dia de guarda | Miliciano com lança, espada e escudo; segue ordens simples. |
+| **Mercenário veterano (NP 5)** | 5 po por dia (+ comida) | Por dia de guarda | Guerreiro de elite com cota de malha; protege o cliente com a vida. |
+| **Conjurador / Mago de aluguel** | 15 a 25 po por dia ou ritual | Por serviço arcano | Rituais utilitários (Identificação, Alarme, Selo de proteção). |
+| **Afiação e reparo de arma (Ferreiro)**| 2 pp a 5 pp | Por arma | Restaura o fio e remove entalhes após combates severos. |
+| **Reparo de armadura avariada** | 2 po (couro) a 10 po (placas) | Por armadura | Restaura anéis partidos e placas amassadas após a batalha. |
+| **Médico / Barbeiro-cirurgião** | 1 po por procedimento | Por consulta | Teste de Tratamento (+6); sutura cortes profundos e engessa fraturas. |
+| **Água Benta consagrada (frasco)** | 25 po | Frasco selado | Causa Dano 3 sagrado ao quebrar em mortos-vivos ou demônios. |
+| **Bênção simples antes da partida** | 1 pp a 1 po (doação) | Por expedição | Concede +1 de circunstância em um salvamento durante a jornada. |
+| **Cura mágica no templo** | 10 a 25 po (doação) | Por prece de cura | Restaura 1 grau de dano e purifica infecções graves. |
+| **Cura de veneno ou doença (Clérigo)**| 25 a 50 po por ritual | Por pessoa | Purifica toxinas e doenças que remédios comuns não curaram. |
+| **Remoção de maldição espiritual** | 50 a 100 po por ritual | Por pessoa/item | Quebra maldições de bruxas, licantropia inicial ou pragas espirituais. |
+| **Ritual de Ressurreição sagrada** | 500 a 1.250 po | Por ressurreição | Clérigo de alto nível; corpo preservado; cobre diamantes de 500 po. |
+
+### 12.6 Propriedades [Básico]
 
 Torres de mago, templos, casas de guilda e castelos usam as regras de **quartel-general** do livro básico: **Tamanho**, **Resistência** e **Características**, pagas com pontos de equipamento (a vantagem Equipamento, 5 pontos por graduação). Mesmo com o equipamento gratuito, propriedades custam pontos: o ouro explica na história como o personagem conseguiu o lugar; os pontos garantem que ele seja dele em jogo.
 

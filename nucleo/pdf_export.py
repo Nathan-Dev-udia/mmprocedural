@@ -236,24 +236,63 @@ def _inserir_imagem_do_personagem(writer, caminho_imagem):
         scale = min(box_w / img_w, box_h / img_h)
         final_w = img_w * scale
         final_h = img_h * scale
-        tx = x0 + (box_w - final_w) / 2
-        ty = y0 + (box_h - final_h) / 2
+        offset_x = (box_w - final_w) / 2
+        offset_y = (box_h - final_h) / 2
 
         buf = io.BytesIO()
         img.convert("RGB").save(buf, format="PDF")
         buf.seek(0)
 
         img_reader = pypdf.PdfReader(buf)
+        img_xobj_ref = img_reader.pages[0]["/Resources"]["/XObject"]["/image"]
+
+        # 1. Configura o botão do formulário "Desenho do Personagem" com a imagem como aparência (/AP /N)
+        for a in writer.pages[0].get("/Annots", []):
+            annot_obj = a.get_object()
+            if annot_obj.get("/T") == "Desenho do Personagem":
+                # Remove o fundo branco opaco (/BG) que cobria a imagem
+                mk = annot_obj.get("/MK")
+                if mk:
+                    mk_obj = mk.get_object()
+                    if "/BG" in mk_obj:
+                        del mk_obj[NameObject("/BG")]
+                    mk_obj[NameObject("/TP")] = pypdf.generic.NumberObject(1)
+
+                # Cria o Form XObject com a imagem desenhada nas dimensões exatas do botão
+                stream_content = (
+                    f"q\n0 0 {box_w:.3f} {box_h:.3f} re\nW\nn\n"
+                    f"q\n{final_w:.3f} 0 0 {final_h:.3f} {offset_x:.3f} {offset_y:.3f} cm\n/Im0 Do\nQ\nQ\n"
+                ).encode("latin-1")
+
+                form_xobj = pypdf.generic.DecodedStreamObject()
+                form_xobj.set_data(stream_content)
+                form_xobj.update({
+                    NameObject("/Type"): NameObject("/XObject"),
+                    NameObject("/Subtype"): NameObject("/Form"),
+                    NameObject("/BBox"): pypdf.generic.ArrayObject([
+                        pypdf.generic.FloatObject(0),
+                        pypdf.generic.FloatObject(0),
+                        pypdf.generic.FloatObject(box_w),
+                        pypdf.generic.FloatObject(box_h),
+                    ]),
+                    NameObject("/Resources"): pypdf.generic.DictionaryObject({
+                        NameObject("/XObject"): pypdf.generic.DictionaryObject({
+                            NameObject("/Im0"): img_xobj_ref
+                        })
+                    })
+                })
+                form_ref = writer._add_object(form_xobj)
+                annot_obj[NameObject("/AP")] = pypdf.generic.DictionaryObject({
+                    NameObject("/N"): form_ref
+                })
+                break
+
+        # 2. Também mescla no conteúdo estático da página (para leitores que desativam formulários interativos)
+        tx = x0 + offset_x
+        ty = y0 + offset_y
         img_page = img_reader.pages[0]
         img_page.add_transformation(pypdf.Transformation().scale(scale, scale).translate(tx, ty))
-
-        # Remove o botão interativo vazio para não cobrir a imagem com fundo branco
-        if "/Annots" in writer.pages[0]:
-            annots = writer.pages[0]["/Annots"]
-            novas = [a for a in annots if a.get_object().get("/T") != "Desenho do Personagem"]
-            writer.pages[0][NameObject("/Annots")] = pypdf.generic.ArrayObject(novas)
-
-        writer.pages[0].merge_page(img_page, over=True)
+        writer.pages[0].merge_page(img_page, over=False)
     except Exception:
         pass
 
