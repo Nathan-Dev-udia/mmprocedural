@@ -115,6 +115,7 @@
             return `<li>
             <button type="button" class="item-heroi item-criatura" data-id="${escapar(c.id)}"
               aria-current="${c.id === aberta}">
+              ${c.imagem ? `<img src="${escapar(c.imagem)}" alt="" class="miniatura-criatura" loading="lazy">` : ""}
               <div class="info-criatura">
                 <strong>${escapar(titulo)}</strong>
                 <div class="tags-criatura">
@@ -266,6 +267,11 @@
         ${f.aviso_de_escala ? `<p class="aviso-escala">${escapar(f.aviso_de_escala)}</p>` : ""}
         <p class="subtitulo">${escapar(f.tipo)}${f.subtipo ? ` · ${escapar(f.subtipo)}` : ""} · ${escapar(f.papel)} · Porte ${escapar(f.tamanho)}${f.chefe ? ' <span class="badge-chefe">Possível chefe</span>' : ""}</p>
         ${ambientesHtml}
+        ${f.imagem ? `
+          <div class="bloco-imagem-criatura">
+            <img src="${escapar(f.imagem)}" alt="${escapar(f.nome)}" class="imagem-criatura">
+          </div>
+        ` : ""}
         ${descricaoHtml}
         ${variantesHtml}
       </header>

@@ -1,0 +1,94 @@
+{
+  "id": "fantasia/mortos_vivos/aparicao",
+  "genero": "fantasia",
+  "familia": "Aparição",
+  "variante": "Comum",
+  "padrao": true,
+  "nome": "Aparição",
+  "tipo": "Morto-Vivo",
+  "subtipo": "Incorpóreo",
+  "papel": "Emboscador / Chefe",
+  "chefe": true,
+  "tamanho": "Médio",
+  "nivel_poder": 7,
+  "ambientes": [
+    "Criptas Antigas",
+    "Ruínas Amaldiçoadas",
+    "Campos de Batalha Esquecidos"
+  ],
+  "descricao": "Silhueta fantasmagórica e translúcida envolta em sombras esvoaçantes com olhos em brasa, movida por puro ódio aos vivos.",
+  "tatica": "Atravessa paredes e o piso de surpresa para drenar a vitalidade do alvo com um toque gélido. Sob a luz solar enfraquece, preferindo emboscadas noturnas ou subterrâneas.",
+  "complicacoes": [
+    "Sensibilidade à Luz Solar: na luz solar direta fica Tonta e suas rolagens sofrem penalidade de circunstância de -2.",
+    "Ódio Compulsivo aos Vivos: não tolera a presença da vida; ataca prioritariamente os heróis mais vigorosos."
+  ],
+  "fonte": "Manual dos Monstros (D&D 5e), p. 22 (Wraith), adaptado para M&M 3e",
+  "ficha": {
+    "habilidades": {
+      "For": null,
+      "Vig": null,
+      "Agi": 3,
+      "Des": 1,
+      "Lut": 5,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 3
+    },
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 7,
+      "Fortitude": "Imune",
+      "Resistencia": 6,
+      "Vontade": 7
+    },
+    "pericias": {
+      "Furtividade": 7,
+      "Intimidação": 5,
+      "Percepção": 4,
+      "Combate Corpo-a-Corpo: Toque Drenador": 2
+    },
+    "vantagens": [
+      "Ataque Oculto",
+      "Esconder-se à Plena Vista",
+      "Iniciativa Aprimorada",
+      "Presença Aterrorizante 2"
+    ],
+    "poderes": [
+      {
+        "nome": "Natureza Incorpórea",
+        "construcao": "Insubstancial 4 (Incorpóreo; Permanente, Inato)."
+      },
+      {
+        "nome": "Forma Espectral",
+        "construcao": "Proteção 6 e Voo 3 (25 km/h)."
+      },
+      {
+        "nome": "Imunidades de Morto-Vivo",
+        "construcao": "Imunidade 30 (efeitos de Fortitude) e Imunidade 20 (dano de armas comuns; prata e magia passam)."
+      },
+      {
+        "nome": "Visão nas Trevas",
+        "construcao": "Sentidos 2 (Visão no Escuro)."
+      },
+      {
+        "nome": "Dreno de Vida",
+        "construcao": "Aflição 7 (resistida por Fortitude; Fatigado, Exausto, Incapacitado) Ligada a Dano 7 (Penetrante, Necrótico)."
+      },
+      {
+        "nome": "Criar Espectro",
+        "construcao": "Invocar 4 (Espectro Lacaio; Amplo, Requer cadáver humanoide recente)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Toque Drenador",
+        "bonus": 7,
+        "dano": 7,
+        "critico": 20,
+        "descricao": "Necrótico, Penetrante; ativa a Aflição Dreno de Vida"
+      }
+    ],
+    "equipamento": []
+  }
+}
+

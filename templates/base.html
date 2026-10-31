@@ -31,6 +31,14 @@
     {% endif %}
     Versão {{ versao }}{% if commit %} · <span title="Commit em execução">{{ commit }}</span>{% endif %}
   </footer>
+
+  <div id="carregando" class="carregando" role="status" aria-live="polite" hidden>
+    <div class="carregando-caixa">
+      <span class="spinner" aria-hidden="true"></span>
+      <p id="carregando-texto">Carregando…</p>
+    </div>
+  </div>
+
   {% block scripts %}{% endblock %}
 </body>
 </html>

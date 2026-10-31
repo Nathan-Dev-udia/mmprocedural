@@ -160,4 +160,6 @@ def gerar_pdf(caminho_modelo, criatura_id, nome=None, np=None):
     campos = campos_da_criatura(criatura_id, nome, np)
     if campos is None:
         return None
-    return pdf_export.preencher_modelo(caminho_modelo, campos)
+    dados, _ = bestiario.carregar(criatura_id, np)
+    caminho_img = bestiario.arquivo_de_imagem(criatura_id, dados)
+    return pdf_export.preencher_modelo(caminho_modelo, campos, caminho_imagem=caminho_img)

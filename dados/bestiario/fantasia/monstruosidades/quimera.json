@@ -1,0 +1,115 @@
+{
+  "id": "fantasia/monstruosidades/quimera",
+  "genero": "fantasia",
+  "familia": "Quimera",
+  "variante": "Comum",
+  "padrao": true,
+  "nome": "Quimera",
+  "tipo": "Monstruosidade",
+  "subtipo": "Monstruosidade Híbrida",
+  "papel": "Predador / Chefe",
+  "chefe": true,
+  "tamanho": "Grande",
+  "nivel_poder": 8,
+  "ambientes": [
+    "Montanhas",
+    "Desfiladeiros",
+    "Colinas Rochosas"
+  ],
+  "descricao": "Abominação alada selvagem combinando a frente de um leão feroz, os quartos traseiros de um bode resistente e asas escamosas com uma cabeça cuspideira de dragão.",
+  "tatica": "Mergulha dos céus engolfando os alvos com o sopro de fogo antes de aterrissar para despedaçar a presa com mordidas, chifres e garras em ataques furiosos.",
+  "complicacoes": [
+    "Mentes em Conflito: as três cabeças possuem instintos distintos (ganância do dragão, orgulho do leão e teimosia do bode), podendo hesitar em situações confusas.",
+    "Fome e Avareza: ataca viajantes tanto por presas frescas quanto pelo fascínio de acumular tesouros metálicos brilhantes."
+  ],
+  "fonte": "Manual dos Monstros (D&D 5e), p. 267, adaptado para M&M 3e",
+  "ficha": {
+    "habilidades": {
+      "For": 6,
+      "Vig": 6,
+      "Agi": 2,
+      "Des": 0,
+      "Lut": 6,
+      "Int": -3,
+      "Pro": 2,
+      "Pre": 0
+    },
+    "defesas": {
+      "Esquiva": 7,
+      "Aparar": 7,
+      "Fortitude": 8,
+      "Resistencia": 9,
+      "Vontade": 7
+    },
+    "pericias": {
+      "Percepção": 6,
+      "Intimidação": 6,
+      "Atletismo": 4,
+      "Combate Corpo-a-Corpo: Mordidas e Chifres": 2
+    },
+    "vantagens": [
+      "Ataque Poderoso",
+      "Ação em Movimento",
+      "Iniciativa Aprimorada",
+      "Agarrar Aprimorado"
+    ],
+    "poderes": [
+      {
+        "nome": "Porte Grande",
+        "construcao": "Crescimento 4 (já somado em Força, Vigor, defesas e tamanho; Permanente, Inato)."
+      },
+      {
+        "nome": "Asas Dracônicas",
+        "construcao": "Voo 5 (100 km/h; Asas)."
+      },
+      {
+        "nome": "Couro e Escamas Grossas",
+        "construcao": "Proteção 3."
+      },
+      {
+        "nome": "Sentidos Ferais e Dracônicos",
+        "construcao": "Sentidos 3 (Visão no Escuro, Olfato Aguçado, Percepção às Cegas: Olfato)."
+      },
+      {
+        "nome": "Sopro de Fogo",
+        "construcao": "Dano 8 (Área Cone 18 m, Fogo)."
+      },
+      {
+        "nome": "Frenesi de Três Cabeças",
+        "construcao": "Multiataque no dano dos ataques corpo a corpo."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Mordida de Dragão",
+        "bonus": 8,
+        "dano": 8,
+        "critico": 20,
+        "descricao": "Multiataque, Perfurante"
+      },
+      {
+        "nome": "Chifres de Bode",
+        "bonus": 8,
+        "dano": 8,
+        "critico": 20,
+        "descricao": "Contusão, pode derrubar"
+      },
+      {
+        "nome": "Garras de Leão",
+        "bonus": 8,
+        "dano": 8,
+        "critico": 19,
+        "descricao": "Cortante"
+      },
+      {
+        "nome": "Sopro de Fogo",
+        "bonus": 0,
+        "dano": 8,
+        "critico": 20,
+        "descricao": "Área Cone 18 m (CD 18 de Esquiva para metade)"
+      }
+    ],
+    "equipamento": []
+  }
+}
+

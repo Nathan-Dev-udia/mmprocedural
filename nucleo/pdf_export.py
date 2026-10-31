@@ -12,6 +12,7 @@ Ajustes feitos na cópia gerada (o modelo original não é alterado):
 """
 
 import io
+from pathlib import Path
 import textwrap
 
 from pypdf import PdfReader, PdfWriter
@@ -216,7 +217,48 @@ def gerar_pdf(caminho_modelo, npc, relatorio, genero_nome):
     return preencher_modelo(caminho_modelo, valores_dos_campos(npc, relatorio, genero_nome))
 
 
-def preencher_modelo(caminho_modelo, campos):
+def _inserir_imagem_do_personagem(writer, caminho_imagem):
+    """Insere a imagem no quadro 'Desenho do Personagem' na página 1 da ficha PDF."""
+    try:
+        from PIL import Image
+        import pypdf
+
+        img = Image.open(caminho_imagem)
+        img_w, img_h = img.size
+        if not img_w or not img_h or not len(writer.pages):
+            return
+
+        # Coordenadas do campo "Desenho do Personagem" no modelo original (pt):
+        x0, y0, x1, y1 = 400.814, 26.6932, 583.434, 319.725
+        box_w = x1 - x0
+        box_h = y1 - y0
+
+        scale = min(box_w / img_w, box_h / img_h)
+        final_w = img_w * scale
+        final_h = img_h * scale
+        tx = x0 + (box_w - final_w) / 2
+        ty = y0 + (box_h - final_h) / 2
+
+        buf = io.BytesIO()
+        img.convert("RGB").save(buf, format="PDF")
+        buf.seek(0)
+
+        img_reader = pypdf.PdfReader(buf)
+        img_page = img_reader.pages[0]
+        img_page.add_transformation(pypdf.Transformation().scale(scale, scale).translate(tx, ty))
+
+        # Remove o botão interativo vazio para não cobrir a imagem com fundo branco
+        if "/Annots" in writer.pages[0]:
+            annots = writer.pages[0]["/Annots"]
+            novas = [a for a in annots if a.get_object().get("/T") != "Desenho do Personagem"]
+            writer.pages[0][NameObject("/Annots")] = pypdf.generic.ArrayObject(novas)
+
+        writer.pages[0].merge_page(img_page, over=True)
+    except Exception:
+        pass
+
+
+def preencher_modelo(caminho_modelo, campos, caminho_imagem=None):
     """Limpa o modelo e preenche os campos dados; devolve os bytes do PDF."""
     leitor = PdfReader(caminho_modelo)
     writer = PdfWriter(clone_from=leitor)
@@ -233,6 +275,9 @@ def preencher_modelo(caminho_modelo, campos):
     _ajustar_fonte_dos_poderes(writer)
     writer.set_need_appearances_writer(True)
     _corrigir_formula_do_combate_a_distancia(writer)
+
+    if caminho_imagem and Path(caminho_imagem).is_file():
+        _inserir_imagem_do_personagem(writer, caminho_imagem)
 
     saida = io.BytesIO()
     writer.write(saida)

@@ -907,13 +907,20 @@ function prepararGenero() {
     el(id).innerHTML = opcoesDeSelect(opcoes.generos);
     el(id).value = opcoes.genero.id;
     el(id).addEventListener("change", () => {
+      const select = el(id);
+      const nomeGenero = select.selectedOptions && select.selectedOptions[0] ? select.selectedOptions[0].textContent : "";
+      mostrarCarregando(`Carregando gênero ${nomeGenero}…`);
       if (id === "genero") {
         try { sessionStorage.setItem("passo", "identidade"); } catch { /* armazenamento indisponível */ }
       }
-      window.location.search = `?genero=${encodeURIComponent(el(id).value)}`;
+      window.location.search = `?genero=${encodeURIComponent(select.value)}`;
     });
   });
 }
+
+window.addEventListener("pageshow", () => {
+  esconderCarregando();
+});
 
 document.addEventListener("DOMContentLoaded", () => {
   prepararGenero();

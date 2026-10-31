@@ -1,0 +1,111 @@
+{
+  "id": "fantasia/construtos/golem_ferro",
+  "genero": "fantasia",
+  "familia": "Golem",
+  "variante": "Golem de Ferro",
+  "padrao": false,
+  "nome": "Golem de Ferro",
+  "tipo": "Construto",
+  "subtipo": "Golem",
+  "papel": "Bruto / Guardião (Solo)",
+  "chefe": true,
+  "tamanho": "Grande",
+  "nivel_poder": 10,
+  "ambientes": [
+    "Câmaras de Tesouro",
+    "Fortalezas de Forjadores",
+    "Tumbas Reais"
+  ],
+  "descricao": "Titã imponente esculpido em ferro escuro maciço que empunha uma espada colossal. Imune à maioria dos ataques mortais e alimentado pelo próprio fogo.",
+  "tatica": "Avança inexoravelmente desferindo golpes de espada e punho esmagadores. Quando cercado por múltiplos oponentes, expele uma nuvem de gás venenoso incandescente.",
+  "complicacoes": [
+    "Construto Autômato: obedece apenas aos comandos do mestre; incapaz de raciocínio criativo, discernimento moral ou fala.",
+    "Corpo Pesado de Ferro: pesa mais de duas toneladas; quebra pontes de madeira e afunda imediatamente em águas profundas."
+  ],
+  "fonte": "Manual dos Monstros (D&D 5e), p. 177, adaptado para M&M 3e",
+  "ficha": {
+    "habilidades": {
+      "For": 12,
+      "Vig": null,
+      "Agi": -1,
+      "Des": -1,
+      "Lut": 6,
+      "Int": null,
+      "Pro": 1,
+      "Pre": null
+    },
+    "defesas": {
+      "Esquiva": 6,
+      "Aparar": 6,
+      "Fortitude": "Imune",
+      "Resistencia": 14,
+      "Vontade": 8
+    },
+    "pericias": {
+      "Atletismo": 4,
+      "Intimidação": 6,
+      "Combate Corpo-a-Corpo: Armas de Ferro": 2
+    },
+    "vantagens": [
+      "Ataque Poderoso",
+      "Derrubar Aprimorado",
+      "Quebrar Aprimorado",
+      "Duro de Matar"
+    ],
+    "poderes": [
+      {
+        "nome": "Porte Grande",
+        "construcao": "Crescimento 4 (já somado em Força, defesas e tamanho; Permanente, Inato)."
+      },
+      {
+        "nome": "Blindagem de Ferro Maciço",
+        "construcao": "Proteção 14 (Impenetrável 10)."
+      },
+      {
+        "nome": "Fisiologia de Construto",
+        "construcao": "Imunidade 30 (efeitos de Fortitude)."
+      },
+      {
+        "nome": "Absorção de Fogo",
+        "construcao": "Imunidade 10 (efeitos de fogo; fogo cura dano em vez de ferir)."
+      },
+      {
+        "nome": "Forma Imutável e Resistência à Magia",
+        "construcao": "Imunidade 10 (efeitos que alterem a forma, controle mental e aflições mágicas)."
+      },
+      {
+        "nome": "Sentidos Artificiais",
+        "construcao": "Sentidos 2 (Visão no Escuro)."
+      },
+      {
+        "nome": "Sopro de Gás Venenoso",
+        "construcao": "Dano 10 (Área Cone 18 m, Veneno)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Espada Colossal",
+        "bonus": 8,
+        "dano": 12,
+        "critico": 19,
+        "descricao": "Cortante, Alcance 3 m"
+      },
+      {
+        "nome": "Pancada de Ferro",
+        "bonus": 8,
+        "dano": 12,
+        "critico": 20,
+        "descricao": "Contusão"
+      },
+      {
+        "nome": "Sopro de Gás Venenoso",
+        "bonus": 0,
+        "dano": 10,
+        "critico": 20,
+        "descricao": "Área Cone 18 m (CD 20 de Esquiva para metade)"
+      }
+    ],
+    "equipamento": []
+  }
+}
+

@@ -16,6 +16,53 @@ from . import rules
 
 
 PASTA = Path(__file__).parent.parent / "dados" / "bestiario"
+PASTA_STATIC = Path(__file__).parent.parent / "static"
+PASTA_IMAGENS = PASTA_STATIC / "img" / "bestiario"
+
+
+def arquivo_de_imagem(criatura_id, dados=None):
+    """Retorna o Path da imagem da criatura no disco se existir, ou None."""
+    if not PASTA_IMAGENS.is_dir():
+        return None
+    if dados and dados.get("imagem"):
+        candidato = PASTA_IMAGENS / dados["imagem"]
+        if candidato.is_file():
+            return candidato
+    # 1. Busca por criatura_id (.webp, .png, .jpg)
+    for ext in (".webp", ".png", ".jpg", ".jpeg"):
+        arq = PASTA_IMAGENS / f"{criatura_id}{ext}"
+        if arq.is_file():
+            return arq
+    # 2. Fallback por família
+    partes = criatura_id.split("/")
+    if len(partes) >= 3:
+        genero, categoria = partes[0], partes[1]
+        if dados:
+            familia = dados.get("familia") or ""
+            slug = re.sub(r"[^a-z0-9]+", "_", familia.lower()).strip("_")
+            for ext in (".webp", ".png", ".jpg"):
+                arq = PASTA_IMAGENS / genero / categoria / f"{slug}{ext}"
+                if arq.is_file():
+                    return arq
+        # 3. Fallback por categoria
+        for ext in (".webp", ".png", ".jpg"):
+            arq = PASTA_IMAGENS / genero / categoria / f"padrao{ext}"
+            if arq.is_file():
+                return arq
+    return None
+
+
+def url_da_imagem(criatura_id, dados=None):
+    """URL web (/static/img/bestiario/...) se a imagem existir no disco, senão None."""
+    arq = arquivo_de_imagem(criatura_id, dados)
+    if not arq:
+        return None
+    try:
+        rel = arq.relative_to(PASTA_STATIC).as_posix()
+        return f"/static/{rel}"
+    except ValueError:
+        return None
+
 
 NOMES_DOS_GENEROS = {
     "fantasia": "Fantasia",
@@ -87,6 +134,7 @@ def _catalogo():
                 "ambientes": dados.get("ambientes", []),
                 "descricao": dados.get("descricao", ""),
                 "termos": [t for t in termos if t],
+                "imagem": url_da_imagem(criatura_id, dados),
             }
 
             dados_carregados[criatura_id] = (caminho, resumo)
@@ -394,4 +442,5 @@ def ficha(criatura_id, np=None):
         "defesas": f.get("defesas", {}),
         "secoes": secoes,
         "fonte": dados.get("fonte", "Guia do Mestre de Jogo / D&D 5e"),
+        "imagem": resumo.get("imagem") or url_da_imagem(criatura_id, dados),
     }

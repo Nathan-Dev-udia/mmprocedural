@@ -1,0 +1,91 @@
+{
+  "id": "fantasia/aberracoes/mimico",
+  "genero": "fantasia",
+  "familia": "Mímico",
+  "variante": "Comum",
+  "padrao": true,
+  "nome": "Mímico",
+  "tipo": "Aberração",
+  "subtipo": "Metamorfo",
+  "papel": "Emboscador",
+  "chefe": false,
+  "tamanho": "Médio",
+  "nivel_poder": 4,
+  "ambientes": [
+    "Masmorras",
+    "Salas do Tesouro",
+    "Ruínas Subterrâneas"
+  ],
+  "descricao": "Predador metamorfo que assume a forma de objetos inanimados — especialmente baús, portas e barris — para emboscar exploradores curiosos.",
+  "tatica": "Permanece imóvel como um objeto até ser tocado. Prende a presa com seu muco adesivo e desfere golpes com pseudópodes e presas ácidas.",
+  "complicacoes": [
+    "Metamorfose Inanimada: só consegue imitar objetos rígidos de madeira, pedra ou metal; não imita criaturas vivas.",
+    "Fome Predatória: caça instintivamente por carne fresca e não aceita negociações quando faminto."
+  ],
+  "fonte": "Manual dos Monstros (D&D 5e), p. 229, adaptado para M&M 3e",
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 3,
+      "Agi": 1,
+      "Des": 0,
+      "Lut": 3,
+      "Int": -3,
+      "Pro": 2,
+      "Pre": -1
+    },
+    "defesas": {
+      "Esquiva": 4,
+      "Aparar": 4,
+      "Fortitude": 5,
+      "Resistencia": 4,
+      "Vontade": 3
+    },
+    "pericias": {
+      "Furtividade": 6,
+      "Percepção": 4,
+      "Combate Corpo-a-Corpo: Pseudópode e Mordida": 1
+    },
+    "vantagens": [
+      "Agarrar Aprimorado",
+      "Agarrar Rápido",
+      "Ataque Oculto"
+    ],
+    "poderes": [
+      {
+        "nome": "Aparência Falsa",
+        "construcao": "Morfismo 1 (qualquer objeto Médio de madeira ou pedra) Ligado a Ocultamento 2 (todos os sentidos visuais; Limitado a enquanto imóvel na forma de objeto)."
+      },
+      {
+        "nome": "Corpo Adesivo",
+        "construcao": "Aflição 4 (resistida por Esquiva, superada por Força ou Atletismo; Impedido, Imóvel), Reação (a quem tocar ou for atingido pelo mímico), Limitado a dois graus."
+      },
+      {
+        "nome": "Carapaça e Fisiologia Amorfa",
+        "construcao": "Proteção 1 e Imunidade 11 (dano de ácido, condição caído)."
+      },
+      {
+        "nome": "Sentidos da Penumbra",
+        "construcao": "Sentidos 2 (Visão no Escuro)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Pseudópode Adesivo",
+        "bonus": 4,
+        "dano": 4,
+        "critico": 20,
+        "descricao": "Contusão; ativa o Corpo Adesivo"
+      },
+      {
+        "nome": "Mordida Ácida",
+        "bonus": 4,
+        "dano": 4,
+        "critico": 20,
+        "descricao": "Perfurante e ácido"
+      }
+    ],
+    "equipamento": []
+  }
+}
+

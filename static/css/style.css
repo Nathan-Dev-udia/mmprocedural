@@ -569,6 +569,33 @@ a.botao { text-decoration: none; display: inline-block; }
   display: flex;
   flex-direction: column;
   gap: 2px;
+  flex: 1;
+}
+
+.miniatura-criatura {
+  width: 44px;
+  height: 44px;
+  border-radius: 6px;
+  border: 1px solid var(--borda);
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.bloco-imagem-criatura {
+  display: flex;
+  justify-content: center;
+  margin: 12px 0 16px 0;
+}
+
+.imagem-criatura {
+  max-width: 260px;
+  max-height: 350px;
+  width: auto;
+  height: auto;
+  border-radius: var(--raio);
+  border: 2px solid var(--borda-forte);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  object-fit: cover;
 }
 .tags-criatura {
   display: flex;

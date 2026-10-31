@@ -171,6 +171,7 @@ FICHAS_NOVAS = (
     "monstruosidades/bies", "monstruosidades/gigante_gelo", "monstruosidades/ettin", "aberracoes/devorador_de_mentes",
     "aberracoes/observador", "mortos_vivos/lich", "mortos_vivos/cria_vampirica", "mortos_vivos/vampiro",
     "mortos_vivos/strahd", "mortos_vivos/espectro_meio_dia", "dragoes/dragao_vermelho_adulto", "dragoes/serpe",
+    "aberracoes/mimico", "construtos/golem_ferro", "monstruosidades/quimera", "mortos_vivos/aparicao",
 )
 
 

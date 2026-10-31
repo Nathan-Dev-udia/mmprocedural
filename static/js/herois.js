@@ -32,6 +32,23 @@ function mostrarMensagem(texto) {
   el("mensagem").classList.toggle("erro", Boolean(texto));
 }
 
+function mostrarCarregando(texto) {
+  const c = el("carregando");
+  if (!c) return;
+  const t = el("carregando-texto");
+  if (t) t.textContent = texto;
+  c.hidden = false;
+}
+
+function esconderCarregando() {
+  const c = el("carregando");
+  if (c) c.hidden = true;
+}
+
+window.addEventListener("pageshow", () => {
+  esconderCarregando();
+});
+
 function filtrados() {
   const termos = normalizar(el("busca-heroi").value).split(/\s+/).filter(Boolean);
   return todos.filter((h) => h.editora === editora()).filter((h) => {
@@ -118,7 +135,10 @@ document.addEventListener("DOMContentLoaded", async () => {
     .map((g) => `<option value="${escapar(g.id)}">${escapar(g.nome)}</option>`).join("");
   el("genero").value = opcoes.genero.id;
   el("genero").addEventListener("change", () => {
-    window.location.search = `?genero=${encodeURIComponent(el("genero").value)}`;
+    const select = el("genero");
+    const nomeGenero = select.selectedOptions && select.selectedOptions[0] ? select.selectedOptions[0].textContent : "";
+    mostrarCarregando(`Carregando gênero ${nomeGenero}…`);
+    window.location.search = `?genero=${encodeURIComponent(select.value)}`;
   });
 
   // Uma ficha aberta pelo link (#marvel/archangel) escolhe a editora dela; senão, vale a última usada.
