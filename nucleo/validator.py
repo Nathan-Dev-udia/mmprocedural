@@ -18,6 +18,7 @@ Formato da ficha (dicionário):
 
 import math
 
+from . import medidas
 from . import poderes as poderes_mod
 from . import rules
 
@@ -50,6 +51,19 @@ def _ajustes_de_poder(ficha, ativo=None):
         for chave, valor in poder.get("ajustes", {}).items():
             total[chave] = total.get(chave, 0) + valor
     return total
+
+
+def _descricao_item(item, quantidade=1):
+    """Nome do item com quantidade e peso (se houver)."""
+    nome_com_qtd = _com_quantidade(item["nome"], quantidade)
+    peso = item.get("peso")
+    if isinstance(peso, (int, float)) and not isinstance(peso, bool) and not item.get("kit"):
+        if peso == 0:
+            return f"{nome_com_qtd} (desprezível)"
+        peso_total_item = peso * (quantidade or 1)
+        texto_peso = (f"{peso_total_item * 1000:g} g" if peso_total_item < 1 else f"{peso_total_item:g} kg").replace(".", ",")
+        return f"{nome_com_qtd} ({texto_peso})"
+    return nome_com_qtd
 
 
 def _com_quantidade(nome, quantidade):
@@ -139,6 +153,29 @@ def calcular(ficha, catalogo_equipamento, ativo=None):
                         # Tipo de dano e qualidades das armas arcaicas (guia de gadgets): só para exibir.
                         "descritor": atq.get("descritor", ""), "qualidades": atq.get("qualidades", [])})
 
+    pesos = []
+    for item, i in zip(itens, ficha.get("equipamento", [])):
+        if item.get("kit"):
+            continue
+        p = item.get("peso")
+        if isinstance(p, (int, float)) and not isinstance(p, bool) and p > 0:
+            qtd = ficha.get("quantidades", {}).get(i, 1) or 1
+            pesos.append(p * qtd)
+    peso_total = round(sum(pesos), 2) if pesos else None
+
+    carga = None
+    if peso_total is not None:
+        forca = hab.get("For", 0)
+        cap = medidas.capacidade_de_carga(forca)
+        cat = medidas.categoria_de_carga(peso_total, forca)
+        carga = {
+            "peso_total": peso_total,
+            "forca": forca,
+            "capacidade_leve": cap["leve"],
+            "capacidade_maxima": cap["maxima"],
+            "categoria": cat,
+        }
+
     pontos_equipamento = {
         "usados": sum(item["custo"] * ficha.get("quantidades", {}).get(i, 1)
                       for item, i in zip(itens, ficha.get("equipamento", [])) if item.get("custo") is not None),
@@ -153,8 +190,9 @@ def calcular(ficha, catalogo_equipamento, ativo=None):
         "pericias": pericias_totais,
         "ataques": ataques,
         "pontos_equipamento": pontos_equipamento,
-        "itens": [_com_quantidade(item["nome"], ficha.get("quantidades", {}).get(i, 1))
+        "itens": [_descricao_item(item, ficha.get("quantidades", {}).get(i, 1))
                   for item, i in zip(itens, ficha.get("equipamento", []))],
+        "carga": carga,
         "protecao": protecao,
         "fontes_de_protecao": fontes_de_protecao,
         "protecao_de_poder": protecao_de_poder,

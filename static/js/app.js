@@ -197,6 +197,7 @@ function cartao(ficha, { regerar = false, aberto = false } = {}) {
       <p><strong>Ataques:</strong> Inic ${escapar(e.iniciativa)}; ${e.ataques.map(escapar).join("; ")}</p>
       <p><strong>Defesas:</strong> ${escapar(e.defesas)}</p>
       <p><strong>Equipamento:</strong> ${escapar(e.equipamento.join(", ") || "nenhum")}</p>
+      ${e.carga ? `<p><strong>Carga:</strong> <span class="carga-badge ${escapar(e.carga_dados?.categoria || '')}">${escapar(e.carga)}</span></p>` : ""}
       ${e.dinheiro ? `<p><strong>Dinheiro:</strong> ${escapar(e.dinheiro)}</p>` : ""}
       ${!e.dinheiro && ficha.pontos_de_equipamento ? `<p class="discreto">${escapar(e.pontos_equipamento)}</p>` : ""}
       ${e.de_fora ? `<p class="aviso-texto"><strong>Ficou de fora:</strong> ${escapar(e.de_fora)}</p>` : ""}

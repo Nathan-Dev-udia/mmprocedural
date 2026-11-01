@@ -1,0 +1,95 @@
+{
+  "id": "fantasia/dragoes/dragao_ametista_fragmento",
+  "nome": "Fragmento de Dragão de Ametista",
+  "tipo": "Dragão",
+  "subtipo": "Eco Cristalino",
+  "papel": "Emboscador / Artilheiro Arcano",
+  "tamanho": "Médio",
+  "nivel_poder": 8,
+  "ambientes": [
+    "Cavernas de Cristal",
+    "Covis Draconianos Abandonados",
+    "Fendas Planares"
+  ],
+  "descricao": "Uma centelha viva de consciência draconiana desprendida do corpo ou ovo de um dragão de ametista ancestral. Manifesta-se como um enxame giratório de lascas púrpuras translúcidas orbitando um núcleo cintilante de pura energia gravitacional.",
+  "tatica": "Flutua silenciosamente pelas reentrâncias do teto, bombardeando invasores com rajadas de lascas cristalinas e distorcendo a gravidade local para derrubar os conjuradores inimigos.",
+  "fonte": "Fizban's Treasury of Dragons (D&D 5e) adaptado para M&M 3e",
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 5,
+      "Agi": 4,
+      "Des": 4,
+      "Lut": 5,
+      "Int": 1,
+      "Pro": 3,
+      "Pre": 2
+    },
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 7,
+      "Fortitude": 8,
+      "Resistencia": 8,
+      "Vontade": 7
+    },
+    "pericias": {
+      "Furtividade": 6,
+      "Percepção": 6,
+      "Acrobacia": 4,
+      "Intimidação": 4
+    },
+    "vantagens": [
+      "Ataque Furtivo",
+      "Iniciativa Aprimorada",
+      "Evasão",
+      "Agilidade Extraordinária"
+    ],
+    "poderes": [
+      {
+        "nome": "Rajada de Lascas de Ametista",
+        "construcao": "Dano 8 (À Distância, Perfuração de Cristal e Força, Crítico 19-20)."
+      },
+      {
+        "nome": "Enxame Cortante de Cristais",
+        "construcao": "Dano 7 (Corpo a corpo, Penetrante 3)."
+      },
+      {
+        "nome": "Levitação de Fragmentos",
+        "construcao": "Voo 4 (50 km/h, Pairar)."
+      },
+      {
+        "nome": "Estrutura de Cristal Flutuante",
+        "construcao": "Proteção 3 (Impenetrável 4)."
+      },
+      {
+        "nome": "Resistência de Força e Psiquismo",
+        "construcao": "Imunidade 5 (Dano de Força, Efeitos de Sono e Paralisia)."
+      },
+      {
+        "nome": "Sentidos Cristalinos",
+        "construcao": "Sentidos 3 (Visão no Escuro, Sentido Sísmico 9 m)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Rajada de Lascas de Ametista",
+        "bonus": 8,
+        "dano": 8,
+        "critico": 19,
+        "descricao": "À Distância, dano perfurante e de força"
+      },
+      {
+        "nome": "Enxame Cortante de Cristais",
+        "bonus": 7,
+        "dano": 7,
+        "critico": 20,
+        "descricao": "Corpo a corpo, Penetrante 3"
+      }
+    ],
+    "equipamento": []
+  },
+  "genero": "fantasia",
+  "familia": "Dragão de Ametista",
+  "variante": "Fragmento (Eco Cristalino)",
+  "padrao": false
+}

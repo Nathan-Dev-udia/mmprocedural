@@ -43,3 +43,40 @@ def test_todo_item_da_fantasia_tem_peso_ou_velocidade():
 def test_peso_em_texto_do_faroeste_nao_conta():
     dados = data_loader.carregar_genero("faroeste")
     assert player.peso_do_item(dados, {"peso": "2,5 (cheio)/1 (vazio)"}) is None
+
+
+def test_capacidade_e_categoria_de_carga():
+    assert medidas.capacidade_de_carga(0) == {"leve": 15, "maxima": 30}
+    assert medidas.capacidade_de_carga(1) == {"leve": 30, "maxima": 60}
+    assert medidas.capacidade_de_carga(2) == {"leve": 60, "maxima": 120}
+    assert medidas.capacidade_de_carga(3) == {"leve": 120, "maxima": 250}
+
+    assert medidas.categoria_de_carga(10, 0) == "leve"
+    assert medidas.categoria_de_carga(20, 0) == "pesada"
+    assert medidas.categoria_de_carga(35, 0) == "sobrecarregado"
+
+    assert medidas.categoria_de_carga(50, 2) == "leve"
+    assert medidas.categoria_de_carga(80, 2) == "pesada"
+    assert medidas.categoria_de_carga(130, 2) == "sobrecarregado"
+
+
+def test_ficha_calcula_peso_total_e_exibe_peso_dos_itens():
+    dados = data_loader.carregar_genero("fantasia")
+    ficha = {
+        "habilidades": {"For": 2, "Vig": 2, "Agi": 1, "Des": 1, "Lut": 2, "Int": 0, "Pro": 1, "Pre": 0},
+        "equipamento": ["espada_longa", "cota_malha", "mochila"],
+    }
+    from nucleo import validator, formatter
+    rel = validator.validar(ficha, 6, dados["equipamentos"])
+    val = rel["valores"]
+    assert "Espada longa (1,5 kg)" in val["itens"]
+    assert "Cota de malha (27,5 kg)" in val["itens"]
+    assert "Mochila (2,5 kg)" in val["itens"]
+
+    # 1.5 + 27.5 + 2.5 = 31.5 kg
+    assert val["carga"]["peso_total"] == 31.5
+    assert val["carga"]["categoria"] == "leve"  # Força 2 suporta até 60 kg em leve
+
+    e = formatter.exibicao({"validacao": rel, "ficha": ficha, "dinheiro": None, "complicacoes": []})
+    assert "31,5 kg (Carga Leve)" in e["carga"]
+    assert "Leve até 60 kg, Máx: 120 kg" in e["carga"]

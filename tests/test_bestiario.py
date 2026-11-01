@@ -32,6 +32,13 @@ def test_catalogo_contem_criaturas_e_variantes():
     assert any(c["id"] == "fantasia/monstruosidades/troll" for c in lista)
     assert any(c["id"] == "fantasia/monstruosidades/minotauro" for c in lista)
     assert any(c["id"] == "fantasia/construtos/golem_pedra" for c in lista)
+    assert any(c["id"] == "fantasia/dragoes/dragao_ametista" for c in lista)
+    assert any(c["id"] == "fantasia/dragoes/dragao_ametista_fragmento" for c in lista)
+    assert any(c["id"] == "fantasia/construtos/golem_esmeraldino" for c in lista)
+    assert any(c["id"] == "fantasia/construtos/golem_pedra_ametista" for c in lista)
+    assert any(c["id"] == "fantasia/aberracoes/alhoon" for c in lista)
+    assert any(c["id"] == "fantasia/sobrenatural/demonio_glabrezu" for c in lista)
+    assert any(c["id"] == "fantasia/sobrenatural/diabo_cristalino" for c in lista)
 
 
 def test_filtros_de_genero_familias_tipos_e_faixas():

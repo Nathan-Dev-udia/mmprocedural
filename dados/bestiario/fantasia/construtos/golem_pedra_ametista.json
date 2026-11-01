@@ -1,0 +1,94 @@
+{
+  "id": "fantasia/construtos/golem_pedra_ametista",
+  "nome": "Golem de Pedra com Ametista",
+  "tipo": "Construto",
+  "subtipo": "Golem de Pedra",
+  "papel": "Bruto / Controlador (Solo)",
+  "tamanho": "Grande",
+  "nivel_poder": 10,
+  "ambientes": [
+    "Masmorras Antigas",
+    "Templos Esquecidos",
+    "Minas Profundas"
+  ],
+  "descricao": "Uma variante ancestral e aperfeiçoada do golem de pedra clássico. Seu corpo de rocha maciça foi forjado com veios e espigões ressonantes de ametista mágica, permitindo que a criatura emita ondas de choque que distorcem a gravidade e retardam o próprio fluxo do tempo ao seu redor.",
+  "tatica": "Ativa seu pulso de lentidão temporal de ametista logo no início do confronto para impedir a evasão dos guerreiros ágeis, esmagando os adversários paralisados com pancadas sísmicas inevitáveis.",
+  "fonte": "Manual dos Monstros 5e / Tomo dos Monstros adaptado para M&M 3e",
+  "ficha": {
+    "habilidades": {
+      "For": 11,
+      "Vig": 0,
+      "Agi": -1,
+      "Des": 0,
+      "Lut": 6,
+      "Int": -5,
+      "Pro": 2,
+      "Pre": -4
+    },
+    "defesas": {
+      "Esquiva": 6,
+      "Aparar": 6,
+      "Fortitude": 11,
+      "Resistencia": 14,
+      "Vontade": 7
+    },
+    "pericias": {
+      "Atletismo": 4,
+      "Percepção": 4,
+      "Intimidação": 8
+    },
+    "vantagens": [
+      "Ataque Poderoso",
+      "Agarrar Aprimorado",
+      "Derrubar Aprimorado",
+      "Imperturbável",
+      "Presença Aterrorizante 2"
+    ],
+    "poderes": [
+      {
+        "nome": "Pulso de Lentidão de Ametista",
+        "construcao": "Aflição 10 (Resistida por Esquiva ou Fortitude; Tonto e Impedido, Atordoado e Imóvel; Área Explosão 9 m, Distorção Temporal e Gravitacional, CD 20)."
+      },
+      {
+        "nome": "Pancada Sísmica",
+        "construcao": "Dano 11 (baseado em Força, Penetrante 5)."
+      },
+      {
+        "nome": "Imunidade de Construto",
+        "construcao": "Imunidade 30 (Efeitos de Fortitude, Veneno, Doença, Sufocamento, Paralisia mental)."
+      },
+      {
+        "nome": "Carapaça de Granito e Ametista",
+        "construcao": "Proteção 14 (Impenetrável 10)."
+      },
+      {
+        "nome": "Resistência a Magia Conjurada",
+        "construcao": "Imunidade 5 (Magias de Controle Mental, Feitiços de Fogo e Eletricidade parciais)."
+      },
+      {
+        "nome": "Sentidos da Terra",
+        "construcao": "Sentidos 3 (Visão no Escuro, Sentido Sísmico 18 m)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Pancada Sísmica",
+        "bonus": 7,
+        "dano": 11,
+        "critico": 20,
+        "descricao": "Corpo a corpo, Penetrante 5"
+      },
+      {
+        "nome": "Pulso de Lentidão Temporal",
+        "bonus": 0,
+        "dano": 0,
+        "descricao": "Área de Explosão 9 m, Aflição 10 (CD 20 de Esquiva/Fortitude)"
+      }
+    ],
+    "equipamento": []
+  },
+  "genero": "fantasia",
+  "familia": "Golem",
+  "variante": "Golem de Pedra com Ametista",
+  "padrao": false
+}

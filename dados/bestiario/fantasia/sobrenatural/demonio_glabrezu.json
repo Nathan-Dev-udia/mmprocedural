@@ -1,0 +1,115 @@
+{
+  "id": "fantasia/sobrenatural/demonio_glabrezu",
+  "nome": "Demônio Glabrezu",
+  "tipo": "Extraplanar",
+  "subtipo": "Demônio Tanar'ri",
+  "papel": "Bruto / Conjurador (Chefe)",
+  "tamanho": "Grande",
+  "nivel_poder": 10,
+  "ambientes": [
+    "Fossas do Abismo",
+    "Masmorras Profanadas",
+    "Campos de Batalha de Sangue",
+    "Círculos de Evocação Negra"
+  ],
+  "descricao": "Titã demoníaco monstruoso de quatro braços com cabeça canina e chifres retorcidos. Duas pinças colossais de caranguejo brotam de seus ombros, capazes de partir guerreiros de armadura ao meio, enquanto dois braços humanoides menores gesticulam encantamentos arcanos enganosos e promessas de poder.",
+  "tatica": "Usa suas pinças brutais para agarrar e esmagar oponentes da linha de frente em presas inquebráveis, enquanto projeta magias de Confusão ou Trevas Abissais com seus braços menores para desestruturar a retaguarda inimiga.",
+  "fonte": "Manual dos Monstros 5e / Pathfinder RPG Bestiário adaptado para M&M 3e",
+  "ficha": {
+    "habilidades": {
+      "For": 10,
+      "Vig": 9,
+      "Agi": 1,
+      "Des": 2,
+      "Lut": 8,
+      "Int": 4,
+      "Pro": 3,
+      "Pre": 4
+    },
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 8,
+      "Fortitude": 11,
+      "Resistencia": 12,
+      "Vontade": 9
+    },
+    "pericias": {
+      "Enganação": 8,
+      "Intimidação": 8,
+      "Percepção": 6,
+      "Furtividade": 4,
+      "Especialidade: Arcana / Planar": 6,
+      "Atletismo": 4
+    },
+    "vantagens": [
+      "Ataque Poderoso",
+      "Agarrar Aprimorado",
+      "Agarrar Rápido",
+      "Imobilizar Aprimorado",
+      "Estrangular",
+      "Iniciativa Aprimorada",
+      "Presença Aterrorizante 2"
+    ],
+    "poderes": [
+      {
+        "nome": "Pinças Esmagadoras Gigantes",
+        "construcao": "Dano 10 (baseado em Força, Penetrante 5, Agarrar com ação livre)."
+      },
+      {
+        "nome": "Quatro Braços Abissais",
+        "construcao": "Membros Extras 2 (duas pinças gigantes e dois braços humanoides mágicos)."
+      },
+      {
+        "nome": "Feitiçaria Abissal: Névoa da Confusão",
+        "construcao": "Aflição 10 (Resistida por Vontade; Tonto, Compelido, Controlado; Área Explosão 9 m, CD 20)."
+      },
+      {
+        "nome": "Trevas Mágicas Profundas (efeito alternativo)",
+        "construcao": "Ocultamento Visual 2 (Área Explosão 9 m, Trevas Impenetráveis)."
+      },
+      {
+        "nome": "Dissipar Magia (efeito alternativo)",
+        "construcao": "Nulificar Efeitos Mágicos 10 (À Distância)."
+      },
+      {
+        "nome": "Couro Abissal Impenetrável",
+        "construcao": "Proteção 3 (Impenetrável 6)."
+      },
+      {
+        "nome": "Imunidades Abissais",
+        "construcao": "Imunidade 15 (Veneno, Eletricidade, Efeitos de Sono; Resistência Parcial a Fogo e Frio 5)."
+      },
+      {
+        "nome": "Sentidos Demoníacos",
+        "construcao": "Sentidos 4 (Visão no Escuro, Visão da Verdade / Detectar Invisibilidade 18 m)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Pinça Esmagadora",
+        "bonus": 8,
+        "dano": 10,
+        "critico": 19,
+        "descricao": "Corpo a corpo, Penetrante 5, Agarra como ação livre"
+      },
+      {
+        "nome": "Garras Menores",
+        "bonus": 8,
+        "dano": 8,
+        "critico": 20,
+        "descricao": "Corpo a corpo"
+      },
+      {
+        "nome": "Névoa da Confusão",
+        "bonus": 0,
+        "dano": 0,
+        "descricao": "Área Explosão 9 m, Aflição 10 (CD 20 de Vontade)"
+      }
+    ],
+    "equipamento": []
+  },
+  "genero": "fantasia",
+  "familia": "Demônio",
+  "variante": "Glabrezu",
+  "padrao": false
+}

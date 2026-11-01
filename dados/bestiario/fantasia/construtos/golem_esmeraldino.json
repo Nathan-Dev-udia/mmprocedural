@@ -1,0 +1,94 @@
+{
+  "id": "fantasia/construtos/golem_esmeraldino",
+  "nome": "Golem Esmeraldino",
+  "tipo": "Construto",
+  "subtipo": "Golem de Cristal",
+  "papel": "Bruto / Artilheiro Arcano",
+  "tamanho": "Grande",
+  "nivel_poder": 9,
+  "ambientes": [
+    "Masmorras Arcanas",
+    "Laboratórios de Magos",
+    "Câmaras do Tesouro Antigas"
+  ],
+  "descricao": "Colosso imponente forjado em granito rúnico incrustado de grandes blocos de esmeralda cintilante. No centro de seu torso repousa uma joia oval gigantesca conhecida como o 'Olho Esmeralda', capaz de canalizar raios crepitantes de desintegração arcana e ácido cáustico.",
+  "tatica": "Avança com passos sísmicos esmagando tudo com punhos titânicos de pedra e gema, enquanto seu Olho Esmeralda dispara raios verdes de alta precisão contra conjuradores e atiradores recuados.",
+  "fonte": "Tomo dos Monstros (Kobold Press) e Manual dos Monstros 5e adaptado para M&M 3e",
+  "ficha": {
+    "habilidades": {
+      "For": 10,
+      "Vig": 0,
+      "Agi": 0,
+      "Des": 2,
+      "Lut": 6,
+      "Int": -5,
+      "Pro": 1,
+      "Pre": -4
+    },
+    "defesas": {
+      "Esquiva": 6,
+      "Aparar": 6,
+      "Fortitude": 10,
+      "Resistencia": 12,
+      "Vontade": 6
+    },
+    "pericias": {
+      "Atletismo": 4,
+      "Percepção": 4,
+      "Intimidação": 6
+    },
+    "vantagens": [
+      "Ataque Poderoso",
+      "Derrubar Aprimorado",
+      "Interpor-se",
+      "Imperturbável"
+    ],
+    "poderes": [
+      {
+        "nome": "Fisiologia de Construto Rochoso",
+        "construcao": "Imunidade 30 (Efeitos de Fortitude, Fadiga, Respiração, Doenças, Venenos)."
+      },
+      {
+        "nome": "Armadura de Pedra e Esmeralda",
+        "construcao": "Proteção 12 (Impenetrável 10)."
+      },
+      {
+        "nome": "Raio do Olho Esmeralda",
+        "construcao": "Dano 9 (À Distância, Penetrante 5, Energia Arcana e Ácida)."
+      },
+      {
+        "nome": "Pancada Esmagadora",
+        "construcao": "Dano 10 (baseado em Força, Penetrante 4)."
+      },
+      {
+        "nome": "Absorção Ácida e Mágica",
+        "construcao": "Imunidade 10 (Ácido e Magia Elemental Menor; absorve o impacto fortalecendo sua estrutura)."
+      },
+      {
+        "nome": "Sentidos Artificiais",
+        "construcao": "Sentidos 3 (Visão no Escuro, Sentido Sísmico 9 m)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Pancada Esmeralda",
+        "bonus": 7,
+        "dano": 10,
+        "critico": 20,
+        "descricao": "Corpo a corpo, Penetrante 4"
+      },
+      {
+        "nome": "Raio do Olho Esmeralda",
+        "bonus": 8,
+        "dano": 9,
+        "critico": 20,
+        "descricao": "À Distância, Penetrante 5, Energia Arcana/Ácida"
+      }
+    ],
+    "equipamento": []
+  },
+  "genero": "fantasia",
+  "familia": "Golem",
+  "variante": "Golem Esmeraldino",
+  "padrao": false
+}

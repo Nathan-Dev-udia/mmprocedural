@@ -147,12 +147,28 @@ def exibicao(npc):
         texto_pe = "Equipamento pago em dólares (não usa pontos de poder)"
     else:
         texto_pe = f"{pe['usados']} de {pe['disponiveis']} pontos de equipamento"
+
+    carga_texto = ""
+    if val.get("carga"):
+        c = val["carga"]
+        p_str = peso(c["peso_total"])
+        l_str = peso(c["capacidade_leve"])
+        m_str = peso(c["capacidade_maxima"])
+        rotulos = {
+            "leve": "Carga Leve",
+            "pesada": "Carga Pesada [-1 vel]",
+            "sobrecarregado": "Sobrecarregado [Impedido]",
+        }
+        rot = rotulos.get(c["categoria"], "Carga Leve")
+        carga_texto = f"{p_str} ({rot}) — Leve até {l_str}, Máx: {m_str}"
     return {
         "habilidades": habilidades,
         "pericias": pericias,
         "vantagens": vantagens,
         "poderes": poderes,
         "equipamento": val["itens"],
+        "carga": carga_texto,
+        "carga_dados": val.get("carga"),
         "pontos_equipamento": texto_pe,
         "iniciativa": _sinal(val["iniciativa"]),
         "ataques": ataques,
@@ -247,6 +263,8 @@ def texto(npc):
         linhas.append(f"{npc.get('rotulo_poderes', 'Poderes')}: " + ", ".join(e["poderes"]) + ".")
     if e["equipamento"]:
         linhas.append("Equipamento: " + ", ".join(e["equipamento"]) + ".")
+    if e.get("carga"):
+        linhas.append(f"Carga: {e['carga']}.")
     if e["dinheiro"]:
         linhas.append(f"Dinheiro: {e['dinheiro']}")
     if e["de_fora"]:

@@ -1,0 +1,115 @@
+{
+  "id": "fantasia/aberracoes/alhoon",
+  "nome": "Alhoon (Devorador de Mentes Licantrópico)",
+  "tipo": "Aberração",
+  "subtipo": "Ilítide Não-Morto / Licantrópico",
+  "papel": "Conjurador / Chefe",
+  "tamanho": "Médio",
+  "nivel_poder": 10,
+  "ambientes": [
+    "Subterrâneos Profundos (Underdark)",
+    "Tumbas Arcanas Proibidas",
+    "Laboratórios de Nigromancia"
+  ],
+  "descricao": "Um devorador de mentes renegado que desafiou o dogma da Mente Anciã para abraçar a feitiçaria arcana proibida e a não-morte. Sua carne cinzenta dessecada traz mutações animalescas e ferinas de uma maldição licantrópica abissal, com garras afiadas como foices e olhos avermelhados cheios de malícia pura.",
+  "tatica": "Abre o combate disparando sua Rajada Mental em cone para paralisar o grupo de aventureiros. Enquanto os alvos estão atordoados, drena a força vital de conjuradores à distância com feitiços necromânticos e despedaça combatentes próximos com garras ferais e tentáculos vorazes.",
+  "fonte": "Mordenkainen Apresenta: Monstros do Multiverso / Volo's Guide to Monsters (D&D 5e)",
+  "ficha": {
+    "habilidades": {
+      "For": 4,
+      "Vig": 5,
+      "Agi": 3,
+      "Des": 4,
+      "Lut": 7,
+      "Int": 8,
+      "Pro": 5,
+      "Pre": 5
+    },
+    "defesas": {
+      "Esquiva": 9,
+      "Aparar": 9,
+      "Fortitude": 8,
+      "Resistencia": 10,
+      "Vontade": 11
+    },
+    "pericias": {
+      "Especialidade: Arcana / Ocultismo": 10,
+      "Percepção": 8,
+      "Furtividade": 6,
+      "Intimidação": 8,
+      "Enganação": 6,
+      "Intuição": 6
+    },
+    "vantagens": [
+      "Ataque à Distância 3",
+      "Ritualista",
+      "Artífice",
+      "Ações em Movimento",
+      "Iniciativa Aprimorada",
+      "Duro de Matar",
+      "Fascinar (Intimidação)",
+      "Presença Aterrorizante 2"
+    ],
+    "poderes": [
+      {
+        "nome": "Rajada Mental Psiônica (Mind Blast)",
+        "construcao": "Aflição 10 (Resistida por Vontade; Tonto, Atordoado, Incapacitado; Área Cone 18 m, Psíquico, CD 20)."
+      },
+      {
+        "nome": "Arranjo Necro-Arcano: Raio da Morte",
+        "construcao": "Dano 10 (À Distância, Necrótico, Vampírico [recupera ferimentos ao drenar vida])."
+      },
+      {
+        "nome": "Dominar Mentes (efeito alternativo)",
+        "construcao": "Aflição 10 (Resistida por Vontade; Tonto, Compelido, Controlado; Percepção, Cumulativo)."
+      },
+      {
+        "nome": "Garras Ferais e Tentáculos Licantrópicos",
+        "construcao": "Dano 6 (Baseado em Força, Penetrante 3) + Aflição 8 (Resistida por Fortitude; Vulnerável, Fatigado, Paralisado - Maldição Bestial)."
+      },
+      {
+        "nome": "Armadura de Força Necrótica",
+        "construcao": "Proteção 5 (Impenetrável 4)."
+      },
+      {
+        "nome": "Fisiologia Não-Morta e Mente Aberrante",
+        "construcao": "Imunidade 12 (Efeitos de Doença, Veneno, Sono, Dreno de Energia, Ataques de Frio Parciais)."
+      },
+      {
+        "nome": "Levitação Psiônica",
+        "construcao": "Voo 2 (12 km/h, Pairar)."
+      },
+      {
+        "nome": "Percepção Telepática",
+        "construcao": "Sentidos 6 (Sentir Mentes 30 m [Mental, Aguçado, Raio], Visão no Escuro)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Rajada Mental Psiônica",
+        "bonus": 0,
+        "dano": 0,
+        "descricao": "Área de Cone 18 m, Aflição 10 (CD 20 de Vontade)"
+      },
+      {
+        "nome": "Raio da Morte Necrótico",
+        "bonus": 9,
+        "dano": 10,
+        "critico": 20,
+        "descricao": "À Distância, Necrótico e Vampírico"
+      },
+      {
+        "nome": "Garras Ferais e Tentáculos",
+        "bonus": 8,
+        "dano": 6,
+        "critico": 19,
+        "descricao": "Corpo a corpo, Penetrante 3 + Aflição 8 (Maldição)"
+      }
+    ],
+    "equipamento": []
+  },
+  "genero": "fantasia",
+  "familia": "Devorador de Mentes",
+  "variante": "Alhoon (Licantrópico / Necromante)",
+  "padrao": false
+}

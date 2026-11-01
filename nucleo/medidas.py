@@ -62,3 +62,22 @@ def km_por_hora(velocidade):
     """Distância coberta em uma hora (Distância = Tempo + Velocidade), como o Guia do Mestre: cavalo com
     Velocidade 4 anda 60 km/h."""
     return _valor("distancia_metros", TEMPO_DE_UMA_HORA + velocidade) / 1000
+
+
+def capacidade_de_carga(forca):
+    """Limites em kg de carga leve (sem penalidades) e carga máxima (esforço máximo) para uma graduação de Força."""
+    leve = _valor("massa_kg", forca - 1)
+    maxima = _valor("massa_kg", forca)
+    return {"leve": leve, "maxima": maxima}
+
+
+def categoria_de_carga(peso_kg, forca):
+    """Classifica a carga transportada em 'leve', 'pesada' ou 'sobrecarregado' conforme a Força."""
+    if not peso_kg or peso_kg <= 0:
+        return "leve"
+    cap = capacidade_de_carga(forca)
+    if peso_kg <= cap["leve"]:
+        return "leve"
+    if peso_kg <= cap["maxima"]:
+        return "pesada"
+    return "sobrecarregado"

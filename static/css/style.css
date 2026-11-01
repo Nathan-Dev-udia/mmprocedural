@@ -635,6 +635,26 @@ a.botao { text-decoration: none; display: inline-block; }
   padding: 2px 10px;
   border-radius: 6px;
 }
+.carga-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-size: 0.9em;
+}
+.carga-badge.leve {
+  background: var(--ok-fundo);
+  color: var(--ok);
+}
+.carga-badge.pesada {
+  background: var(--alerta-fundo);
+  color: var(--alerta);
+  font-weight: 600;
+}
+.carga-badge.sobrecarregado {
+  background: var(--erro-fundo);
+  color: var(--erro);
+  font-weight: 600;
+}
 .descricao-criatura {
   font-style: italic;
   color: var(--tinta-suave);

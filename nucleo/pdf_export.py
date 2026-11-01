@@ -143,6 +143,14 @@ def valores_dos_campos(npc, relatorio, genero_nome):
     equipamento = list(val["itens"])
     if not npc.get("dinheiro") and pe["disponiveis"]:
         equipamento.append(f"({pe['usados']} de {pe['disponiveis']} pontos de equipamento)")
+    if val.get("carga"):
+        c = val["carga"]
+        p_str = formatter.peso(c["peso_total"])
+        l_str = formatter.peso(c["capacidade_leve"])
+        m_str = formatter.peso(c["capacidade_maxima"])
+        rotulos = {"leve": "Leve", "pesada": "Pesada", "sobrecarregado": "Sobrecarregado"}
+        rot = rotulos.get(c["categoria"], "Leve")
+        equipamento.append(f"Carga: {p_str} ({rot} • Leve {l_str}, Máx {m_str})")
     _preencher_linhas(campos, "Equipamento {n}", equipamento, LINHAS["equipamento"])
 
     # Complicações

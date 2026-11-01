@@ -1,0 +1,103 @@
+{
+  "id": "fantasia/sobrenatural/diabo_cristalino",
+  "nome": "Diabo Cristalino (Crystal Devil)",
+  "tipo": "Extraplanar",
+  "subtipo": "Diabo Baatezu",
+  "papel": "Emboscador / Assassino Arcano",
+  "tamanho": "Médio",
+  "nivel_poder": 8,
+  "ambientes": [
+    "Nove Infernos",
+    "Salões Espelhados",
+    "Covis de Cultistas Infernais",
+    "Cavernas de Quartzo Vulcânico"
+  ],
+  "descricao": "Demônio infernal ágil e calculista cujo corpo é esculpido em vidro vulcânico negro, quartzo prismático e lâminas de obsidiana afiadas como navalha. Consegue tornar-se quase imperceptível ao refratar a luz ambiente, gerando clarões cegantes de arco-íris mortais antes de fatiar suas presas.",
+  "tatica": "Espreita completamente imóvel camuflado em superfícies reflexivas, atacando alvos desavisados pelas costas. Se pressionado por múltiplos inimigos, projeta um clarão prismático ofuscante para cegar os oponentes e escorregar de volta para a escuridão.",
+  "fonte": "Tomo dos Monstros (Kobold Press) adaptado para M&M 3e",
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 4,
+      "Agi": 6,
+      "Des": 5,
+      "Lut": 8,
+      "Int": 2,
+      "Pro": 3,
+      "Pre": 3
+    },
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 10,
+      "Fortitude": 7,
+      "Resistencia": 6,
+      "Vontade": 7
+    },
+    "pericias": {
+      "Furtividade": 8,
+      "Acrobacia": 6,
+      "Percepção": 6,
+      "Enganação": 6,
+      "Intimidação": 4
+    },
+    "vantagens": [
+      "Ataque Furtivo 2",
+      "Evasão 2",
+      "Esquiva Fabulosa",
+      "Foco em Esquiva 2",
+      "Foco em Aparar 2",
+      "Iniciativa Aprimorada",
+      "Rolamento Defensivo 2"
+    ],
+    "poderes": [
+      {
+        "nome": "Lâminas Facetadas de Obsidiana",
+        "construcao": "Dano 5 (Baseado em Força, Penetrante 4, Crítico 18-20, Sangramento Contínuo)."
+      },
+      {
+        "nome": "Clarão Prismático Ofuscante",
+        "construcao": "Aflição 8 (Resistida por Esquiva ou Fortitude; Visão Prejudicada, Indefeso, Cego; Área Cone 18 m, Refratado, CD 18)."
+      },
+      {
+        "nome": "Reflexo de Feitiços (efeito alternativo)",
+        "construcao": "Deflexão 8 (Refletir Feitiços de Raio ou Projétil de volta ao conjurador)."
+      },
+      {
+        "nome": "Camuflagem de Vidro Translúcido",
+        "construcao": "Ocultamento Visual 2 (Invisibilidade quando imóvel ou mesclado a reflexos)."
+      },
+      {
+        "nome": "Carapaça de Quartzo Infernal",
+        "construcao": "Proteção 2 (Impenetrável 4)."
+      },
+      {
+        "nome": "Fisiologia e Imunidades Infernais",
+        "construcao": "Imunidade 15 (Fogo, Veneno, Efeitos de Sono; Resistência Parcial a Frio 5)."
+      },
+      {
+        "nome": "Sentidos Translúcidos",
+        "construcao": "Sentidos 3 (Visão no Escuro, Visão na Penumbra)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Lâminas de Cristal",
+        "bonus": 9,
+        "dano": 5,
+        "critico": 18,
+        "descricao": "Corpo a corpo, Penetrante 4, Sangramento (+2 dano furtivo)"
+      },
+      {
+        "nome": "Clarão Prismático",
+        "bonus": 0,
+        "dano": 0,
+        "descricao": "Área de Cone 18 m, Aflição 8 (CD 18 de Esquiva/Fortitude)"
+      }
+    ],
+    "equipamento": []
+  },
+  "genero": "fantasia",
+  "familia": "Diabo",
+  "variante": "Cristalino (Crystal Devil)",
+  "padrao": false
+}
