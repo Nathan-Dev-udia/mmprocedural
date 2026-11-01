@@ -521,28 +521,46 @@ A regra abaixo usa a mesma lógica do modificador **Multiataque** do livro bási
 
 ---
 
-## 6. Dano letal e condições
+## 6. Dano letal, aflições e condições
 
-### 6.1 Tiros são letais [Guia do Mestre + Casa]
+### 6.1 Tabela de Aflição (Venenos, Toxinas e Efeitos Especiais) [Básico + Casa]
 
-Armas de fogo, lâminas e explosivos usam a regra de **Dano Letal** do Guia do Mestre. O grau de falha no salvamento de Resistência define a condição:
+Nem todos os perigos do Velho Oeste causam dano físico direto por projétil ou lâmina. Veneno de cascavel ou escorpião, fumaça densa de dinamite, laços de couro, gás asfixiante, insolação severa ou toxinas indígenas usam o salvamento de **Fortitude ou Vontade** contra a CD do efeito:
 
-| Grau de falha | Pontos abaixo da CD | Condição |
-|----|----|----|
-| **1º** | 1 a 5 | **Ferido:** –1 na Resistência (cumulativo). |
-| **2º** | 6 a 10 | **Ferido + tonto** até o fim do próximo turno. |
-| **3º** | 11 a 15 | **Ferido + abatido + desabilitado** (–5 em todos os testes). |
-| **4º** | 16 ou mais | **Incapacitado + moribundo.** Cai sem ação e está sangrando até a morte. |
+| **Grau de Falha** | **Margem no d20** | **Condição Aplicada (Escolha 1 Conjunto conforme o Descritor)** | **O que acontece na prática?** |
+| --- | --- | --- | --- |
+| **1º Grau** | **1 a 5 pontos abaixo da CD** | **Leve:** *Tonto* **OU** *Impedido* **OU** *Prejudicado* **OU** *Vulnerável* **OU** *Fatigado* | O veneno/efeito começa a pesar. O alvo sofre um incômodo inicial (ex: perde metade do movimento ou sofre -2 nos testes). |
+| **2º Grau** | **6 a 10 pontos abaixo da CD** | **Moderada:** *Atordoado* **OU** *Imóvel* **OU** *Desabilitado* **OU** *Exausto* **OU** *Caído* | O efeito trava o monstro/personagem! Ele fica sem agir, preso ao chão ou com **-5 em todos os testes**. |
+| **3º Grau** | **11 a 15 pontos abaixo da CD** | **Grave:** *Incapacitado* **OU** *Paralisado* **OU** *Adormecido* **OU** *Transformado* **OU** *Controlado* | O alvo cai indefeso, entra em rigidez total de paralisia, desmaia ou é dominado. |
+| **4º Grau** | **16 ou mais pontos abaixo da CD** | **Crítica / Colapso:** *Incapacitado + Coma / Toxidade Extrema / Mutação Definitiva* | O corpo ou mente do alvo entra em colapso total (ex: veneno mortal que exige estabilização para não matar). |
 
-Lembrete das condições: **tonto** permite só ações livres e uma ação padrão por turno; **abatido** é tonto e impedido (metade do movimento).
+### 6.2 Dano Letal e Condições de Tiro [Guia do Mestre + Casa]
 
-Socos, coronhadas e garrafadas continuam usando a tabela padrão (seção 5.1), sem as condições extras.
+Armas de fogo, lâminas e explosivos usam a regra de **Dano Letal** do Guia do Mestre. O grau de falha no salvamento de Resistência (contra CD 15 + graduação de Dano) define a condição:
 
-### 6.2 Morte instantânea (opcional) [Guia do Mestre]
+| **Grau de Falha** | **Margem no d20** | **Condição Aplicada** | **O que acontece na prática?** |
+| --- | --- | --- | --- |
+| **1º Grau** | **1 a 5 pontos abaixo da CD** | **Ferido** | Aplica apenas a penalidade cumulativa de -1 na Resistência. |
+| **2º Grau** | **6 a 10 pontos abaixo da CD** | **Tonto + Ferido** | Sofre -1 na Resistência e fica Tonto (limitado a ações livres e uma ação padrão ou de movimento) até o fim do próximo turno. |
+| **3º Grau** | **11 a 15 pontos abaixo da CD** | **Abatido + Desabilitado + Ferido** | Sofre -1 na Resistência, fica Abatido (Tonto + Impedido) e Desabilitado (-5 em todos os testes). |
+| **4º Grau** | **16 ou mais pontos abaixo da CD** | **Incapacitado + Moribundo** | O personagem cai sem ação e está sangrando até a morte. |
+
+- **Falha de 1º Grau (1 a 5 pontos abaixo da CD):** **Ferido.** Aplica apenas a penalidade de -1 na Resistência.
+- **Falha de 2º Grau (6 a 10 pontos abaixo):** **Tonto + Ferido.** O personagem sofre o -1 e fica com a condição **Tonto** (pode fazer apenas uma ação por turno) até o fim do próximo turno dele.
+- **Falha de 3º Grau (11 a 15 pontos abaixo):** **Abatido + Desabilitado + Ferido.** Aqui o bicho pega:
+    - **Abatido (*tonto + impedido*):**
+        - **Impedido:** um personagem impedido se move a metade de seu movimento normal (–1 graduação de velocidade). Imóvel se sobrepõe a impedido.
+        - **Tonto:** um personagem tonto fica limitado a ações livres, ou uma ação padrão ou uma ação de movimento por turno. Atordoado se sobrepõe a tonto.
+    - **Desabilitado (*Disabled*):** O personagem sofre uma penalidade de -5 em todos os seus testes.
+- **Falha de 4º Grau (16 ou mais pontos abaixo):** **Incapacitado + Moribundo.** O personagem cai sem ação e está sangrando até a morte.
+
+Socos, coronhadas e garrafadas continuam usando a tabela padrão não-letal (seção 5.1), sem as condições extras.
+
+### 6.3 Morte instantânea (opcional) [Guia do Mestre]
 
 Para um faroeste brutal: **cinco ou mais graus de falha** num salvamento contra dano letal matam na hora, sem passar por moribundo. Os jogadores ainda podem gastar pontos heroicos para melhorar o salvamento.
 
-### 6.3 Moribundo [Básico]
+### 6.4 Moribundo [Básico]
 
 Ao ficar moribundo, o personagem faz na hora um **teste de Fortitude CD 15**, e repete a cada rodada:
 
@@ -558,16 +576,18 @@ Outra pessoa pode estabilizá-lo com **Tratamento CD 15** (ação padrão). A va
 
 Com a recuperação lenta, o ritmo de super-herói ("balançar a cabeça e voltar pra briga em um minuto") dá lugar à poeira, às faixas sangrentas e aos dias de repouso no saloon.
 
-### 7.1 O relógio da cura [Guia do Mestre + Casa]
+### 7.1 Recuperação Lenta [Guia do Mestre + Casa]
 
-Nas regras padrão, o personagem recupera uma condição de dano **por minuto** de descanso. Com dano letal:
+Para fechar o pacote "pé no chão", lembre-se: no M&M padrão, essas condições somem em minutos. No seu faroeste, use a regra de **Recuperação Lenta**:
 
-- Recupera **1 condição por hora de descanso** (ou **1 por dia**, para um realismo ainda mais brutal).
+1. **Ferido (-1):** Recupera 1 ponto por hora de descanso (ou por dia, se quiser ser brutal).
+2. **Condições graves (Abatido, Desabilitado):** Só começam a ser recuperadas depois que todas as penalidades de -1 forem removidas, ou exigem um teste de **Tratamento** (CD 15) para estabilizar.
+
 - A cura vai da pior condição para a melhor:
-  1. **Moribundo** precisa ser estabilizado antes (seção 6.3).
+  1. **Moribundo** precisa ser estabilizado antes (seção 6.4).
   2. **Incapacitado → abatido:** 1 hora.
-  3. **Abatido e desabilitado → apenas ferido:** 1 hora.
-  4. **Cada –1 na Resistência:** 1 hora cada.
+  3. **Abatido e desabilitado → apenas ferido:** 1 hora (ou teste de Tratamento CD 15).
+  4. **Cada –1 na Resistência:** 1 hora cada (ou 1 por dia na escala brutal).
 - O **tonto** do 2º grau some sozinho no fim do turno seguinte.
 
 > **Exemplo:** o pistoleiro levou dois tiros, ficou abatido e acumulou –2 de Resistência. Precisa de 1 hora para sair do abatido, 1 hora para o primeiro –1 e 1 hora para o segundo: **3 horas de repouso absoluto**.

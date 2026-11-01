@@ -912,20 +912,40 @@ Efeitos de área não têm teste de ataque, por isso são a melhor arma contra *
 
 ---
 
-## 10. Dano, morte e recuperação
+## 10. Dano, aflições, morte e recuperação
 
-### 10.1 Dano padrão ou letal? [Básico + Guia do Mestre]
+### 10.1 Tabela de Aflição (Venenos, Magias e Toxinas) [Básico + Casa]
+
+Muitas ameaças da fantasia medieval não causam apenas dano físico direto, mas afetam o organismo ou a mente: venenos de basilisco e serpente, sopro congelante, paralisia de carniçal, sono mágico, medo de dragão, encantos e toxinas. Esses efeitos usam o salvamento de **Fortitude ou Vontade** contra a CD do efeito:
+
+| **Grau de Falha** | **Margem no d20** | **Condição Aplicada (Escolha 1 Conjunto conforme o Descritor)** | **O que acontece na prática?** |
+| --- | --- | --- | --- |
+| **1º Grau** | **1 a 5 pontos abaixo da CD** | **Leve:** *Tonto* **OU** *Impedido* **OU** *Prejudicado* **OU** *Vulnerável* **OU** *Fatigado* | O veneno/efeito começa a pesar. O alvo sofre um incômodo inicial (ex: perde metade do movimento ou sofre -2 nos testes). |
+| **2º Grau** | **6 a 10 pontos abaixo da CD** | **Moderada:** *Atordoado* **OU** *Imóvel* **OU** *Desabilitado* **OU** *Exausto* **OU** *Caído* | O efeito trava o monstro/personagem! Ele fica sem agir, preso ao chão ou com **-5 em todos os testes**. |
+| **3º Grau** | **11 a 15 pontos abaixo da CD** | **Grave:** *Incapacitado* **OU** *Paralisado* **OU** *Adormecido* **OU** *Transformado* **OU** *Controlado* | O alvo cai indefeso, entra em rigidez total de paralisia, desmaia ou é dominado. |
+| **4º Grau** | **16 ou mais pontos abaixo da CD** | **Crítica / Colapso:** *Incapacitado + Coma / Toxidade Extrema / Mutação Definitiva* | O corpo ou mente do alvo entra em colapso total (ex: veneno mortal que exige estabilização para não matar). |
+
+### 10.2 Dano Padrão ou Letal? [Básico + Guia do Mestre]
 
 O M&M foi feito para super-heróis: por padrão, quem cai está nocauteado, e morrer exige ser moribundo e falhar de novo. Isso combina com fantasia heroica, em que o vilão "deixa o herói para morrer" e ele acorda na cela.
 
-Para uma campanha **"pé no chão"** (NP 5, masmorras perigosas), use a regra de **Dano Letal** do Guia do Mestre para lâminas, flechas, garras e magias de dano:
+Para uma campanha **"pé no chão"** (NP 5, masmorras perigosas, estilo Witcher ou D&D brutal), use a regra de **Dano Letal** do Guia do Mestre para lâminas, flechas, garras e magias de dano (contra CD 15 + Dano):
 
-| Grau de falha | Pontos abaixo da CD | Condição |
-|----|----|----|
-| **1º** | 1 a 5 | **Ferido:** –1 na Resistência (cumulativo). |
-| **2º** | 6 a 10 | **Ferido + tonto** até o fim do próximo turno. |
-| **3º** | 11 a 15 | **Ferido + abatido + desabilitado** (–5 em todos os testes). |
-| **4º** | 16 ou mais | **Incapacitado + moribundo.** Cai sem ação e está sangrando até a morte. |
+| **Grau de Falha** | **Margem no d20** | **Condição Aplicada** | **O que acontece na prática?** |
+| --- | --- | --- | --- |
+| **1º Grau** | **1 a 5 pontos abaixo da CD** | **Ferido** | Aplica apenas a penalidade cumulativa de -1 na Resistência. |
+| **2º Grau** | **6 a 10 pontos abaixo da CD** | **Tonto + Ferido** | Sofre -1 na Resistência e fica Tonto até o fim do próximo turno. |
+| **3º Grau** | **11 a 15 pontos abaixo da CD** | **Abatido + Desabilitado + Ferido** | Sofre -1 na Resistência, fica Abatido e Desabilitado (-5 em todos os testes). |
+| **4º Grau** | **16 ou mais pontos abaixo da CD** | **Incapacitado + Moribundo** | O personagem cai sem ação e está sangrando até a morte. |
+
+- **Falha de 1º Grau (1 a 5 pontos abaixo da CD):** **Ferido.** Aplica apenas a penalidade de -1 na Resistência.
+- **Falha de 2º Grau (6 a 10 pontos abaixo):** **Tonto + Ferido.** O personagem sofre o -1 e fica com a condição **Tonto** (pode fazer apenas uma ação por turno) até o fim do próximo turno dele.
+- **Falha de 3º Grau (11 a 15 pontos abaixo):** **Abatido + Desabilitado + Ferido.** Aqui o bicho pega:
+    - **Abatido (*tonto + impedido*):**
+        - **Impedido:** um personagem impedido se move a metade de seu movimento normal (–1 graduação de velocidade). Imóvel se sobrepõe a impedido.
+        - **Tonto:** um personagem tonto fica limitado a ações livres, ou uma ação padrão ou uma ação de movimento por turno. Atordoado se sobrepõe a tonto.
+    - **Desabilitado (*Disabled*):** O personagem sofre uma penalidade de -5 em todos os seus testes.
+- **Falha de 4º Grau (16 ou mais pontos abaixo):** **Incapacitado + Moribundo.** O personagem cai sem ação e está sangrando até a morte.
 
 Socos, pancadas com o cabo da espada e ataques de quem quer capturar continuam usando a tabela padrão.
 

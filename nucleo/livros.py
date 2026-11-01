@@ -24,6 +24,10 @@ PASTA_LIVROS = Path(__file__).parent.parent / "dados" / "livros"
 TIPOS = {"jogador": "Livro do Jogador", "mestre": "Livro do Mestre"}
 
 AZUL = RGBColor(0x00, 0x6F, 0xAE)
+AZUL_ESCURO = RGBColor(0x1F, 0x4E, 0x78)
+AZUL_MEDIO = RGBColor(0x2E, 0x75, 0xB6)
+CINZA_TEXTO = RGBColor(0x22, 0x22, 0x22)
+CINZA_MUTED = RGBColor(0x7F, 0x8C, 0x8D)
 
 
 def caminho_do_texto(genero_id, tipo):
@@ -44,7 +48,7 @@ def _texto_limpo(texto):
     return re.sub(r"\\([$*_|#`\\-])", r"\1", texto)
 
 
-def _inline(paragrafo, texto, negrito=False):
+def _inline(paragrafo, texto, negrito=False, cor=None):
     """Acrescenta texto com **negrito**, *itálico* e `código` ao parágrafo."""
     for pedaco in _INLINE.split(texto):
         if not pedaco:
@@ -52,17 +56,25 @@ def _inline(paragrafo, texto, negrito=False):
         if pedaco.startswith("**") and pedaco.endswith("**") and len(pedaco) > 4:
             run = paragrafo.add_run(_texto_limpo(pedaco[2:-2]))
             run.bold = True
+            if cor:
+                run.font.color.rgb = cor
         elif pedaco.startswith("`") and pedaco.endswith("`"):
             run = paragrafo.add_run(pedaco[1:-1])
             run.font.name = "Consolas"
             run.bold = negrito
+            if cor:
+                run.font.color.rgb = cor
         elif pedaco.startswith("*") and pedaco.endswith("*") and len(pedaco) > 2:
             run = paragrafo.add_run(_texto_limpo(pedaco[1:-1]))
             run.italic = True
             run.bold = negrito
+            if cor:
+                run.font.color.rgb = cor
         else:
             run = paragrafo.add_run(_texto_limpo(pedaco))
             run.bold = negrito
+            if cor:
+                run.font.color.rgb = cor
 
 
 def _celulas(linha):
@@ -75,22 +87,52 @@ def _tabela(doc, linhas):
     colunas = len(cabecalho)
     tabela = doc.add_table(rows=1 + len(corpo), cols=colunas)
     tabela.style = "Table Grid"
-    # As células numa lista só: tabela.cell(i, j) refaz a tabela inteira a cada chamada e deixava o livro lento.
+
+    # Margens internas das células (padding) para diagramação limpa
+    tblPr = tabela._tbl.tblPr
+    tblCellMar = OxmlElement("w:tblCellMar")
+    for lado, valor in [("top", "100"), ("bottom", "100"), ("left", "140"), ("right", "140")]:
+        m = OxmlElement(f"w:{lado}")
+        m.set(qn("w:w"), valor)
+        m.set(qn("w:type"), "dxa")
+        tblCellMar.append(m)
+    tblPr.append(tblCellMar)
+
+    # Configuração das linhas: repetir cabeçalho nas quebras de página e não quebrar linha no meio
+    for idx_linha, row in enumerate(tabela.rows):
+        trPr = row._tr.get_or_add_trPr()
+        trPr.append(OxmlElement("w:cantSplit"))
+        if idx_linha == 0:
+            trPr.append(OxmlElement("w:tblHeader"))
+
     celulas = tabela._cells
     for i, linha in enumerate([cabecalho] + corpo):
+        eh_cabecalho = (i == 0)
+        eh_par = (i % 2 == 0)
         for j in range(colunas):
             celula = celulas[i * colunas + j]
             celula.text = ""
-            if i == 0:
-                # Cabeçalho em azul-claro, como os campos da ficha editável.
+            tcPr = celula._tc.get_or_add_tcPr()
+            if eh_cabecalho:
                 fundo = OxmlElement("w:shd")
                 fundo.set(qn("w:val"), "clear")
-                fundo.set(qn("w:fill"), "C7DBF1")
-                celula._tc.get_or_add_tcPr().append(fundo)
+                fundo.set(qn("w:fill"), "1F4E78")  # Azul escuro clássico de M&M
+                tcPr.append(fundo)
+            elif eh_par:
+                fundo = OxmlElement("w:shd")
+                fundo.set(qn("w:val"), "clear")
+                fundo.set(qn("w:fill"), "F4F7FA")  # Zebra striping suave para leitura
+                tcPr.append(fundo)
+
             paragrafo = celula.paragraphs[0]
-            _inline(paragrafo, linha[j] if j < len(linha) else "", negrito=(i == 0))
+            paragrafo.paragraph_format.space_before = Pt(2)
+            paragrafo.paragraph_format.space_after = Pt(2)
+            cor_texto = RGBColor(0xFF, 0xFF, 0xFF) if eh_cabecalho else None
+            _inline(paragrafo, linha[j] if j < len(linha) else "", negrito=eh_cabecalho, cor=cor_texto)
             for run in paragrafo.runs:
-                run.font.size = Pt(9)
+                run.font.size = Pt(8.5 if colunas >= 4 else 9)
+                if eh_cabecalho:
+                    run.font.color.rgb = RGBColor(0xFF, 0xFF, 0xFF)
     doc.add_paragraph()
 
 
@@ -114,21 +156,46 @@ def markdown_para_docx(texto, doc):
         if titulo:
             nivel = min(len(titulo.group(1)), 4)
             paragrafo = doc.add_heading(level=0 if nivel == 1 else nivel - 1)
+            paragrafo.paragraph_format.keep_with_next = True
             _inline(paragrafo, titulo.group(2))
         elif re.fullmatch(r"-{3,}|\*{3,}", linha.strip()):
             pass   # separadores: os títulos já dividem as seções
         elif linha.startswith(">"):
             paragrafo = doc.add_paragraph(style="Quote")
+            pPr = paragrafo._p.get_or_add_pPr()
+            pBdr = OxmlElement("w:pBdr")
+            left = OxmlElement("w:left")
+            left.set(qn("w:val"), "single")
+            left.set(qn("w:sz"), "24")  # 3pt
+            left.set(qn("w:space"), "10")
+            left.set(qn("w:color"), "1F4E78")
+            pBdr.append(left)
+            pPr.append(pBdr)
+
+            shd = OxmlElement("w:shd")
+            shd.set(qn("w:val"), "clear")
+            shd.set(qn("w:fill"), "F0F4F8")  # Fundo sutil azulado
+            pPr.append(shd)
+
+            paragrafo.paragraph_format.left_indent = Pt(12)
+            paragrafo.paragraph_format.right_indent = Pt(12)
+            paragrafo.paragraph_format.space_before = Pt(4)
+            paragrafo.paragraph_format.space_after = Pt(4)
             _inline(paragrafo, linha.lstrip("> ").strip())
         elif re.match(r"^\s*[-*]\s+", linha):
             recuo = len(linha) - len(linha.lstrip())
             paragrafo = doc.add_paragraph(style="List Bullet 2" if recuo >= 2 else "List Bullet")
+            paragrafo.paragraph_format.space_before = Pt(0)
+            paragrafo.paragraph_format.space_after = Pt(2)
             _inline(paragrafo, re.sub(r"^\s*[-*]\s+", "", linha))
         elif re.match(r"^\s*\d+\.\s+", linha):
             paragrafo = doc.add_paragraph(style="List Number")
+            paragrafo.paragraph_format.space_before = Pt(0)
+            paragrafo.paragraph_format.space_after = Pt(2)
             _inline(paragrafo, re.sub(r"^\s*\d+\.\s+", "", linha))
         else:
             paragrafo = doc.add_paragraph()
+            paragrafo.paragraph_format.space_after = Pt(4)
             _inline(paragrafo, linha.strip())
         i += 1
 
@@ -441,29 +508,103 @@ def apendice(dados, tipo):
 # ---------------------------------------------------------------- documento
 
 def gerar_livro(dados, tipo, versao=""):
-    """.docx do livro (bytes)."""
+    """.docx do livro com diagramação e estilos profissionais de livro de RPG."""
     genero_id = dados["genero"]["id"]
     caminho = caminho_do_texto(genero_id, tipo)
     if tipo not in TIPOS or not caminho.is_file():
         raise FileNotFoundError(f"Não há {TIPOS.get(tipo, tipo)} para o gênero {dados['genero']['nome']}.")
     doc = Document()
-    estilo = doc.styles["Normal"]
-    estilo.font.name = "Calibri"
-    estilo.font.size = Pt(10.5)
-    for nivel in range(1, 4):
-        doc.styles[f"Heading {nivel}"].font.color.rgb = AZUL
-    doc.styles["Title"].font.color.rgb = AZUL
 
+    # 1. Margens de 2 cm (~56 pt) e cabeçalhos/rodapés
+    secao = doc.sections[0]
+    secao.top_margin = Pt(56)
+    secao.bottom_margin = Pt(56)
+    secao.left_margin = Pt(56)
+    secao.right_margin = Pt(56)
+    secao.different_first_page_header_footer = True
+
+    # Cabeçalho nas páginas seguintes
+    cabecalho = secao.header
+    p_cab = cabecalho.paragraphs[0]
+    p_cab.alignment = WD_ALIGN_PARAGRAPH.RIGHT
+    run_cab = p_cab.add_run(f"{TIPOS[tipo]} — {dados['genero']['nome']} | Mutantes & Malfeitores 3ª Ed.")
+    run_cab.font.name = "Calibri"
+    run_cab.font.size = Pt(8.5)
+    run_cab.font.color.rgb = CINZA_MUTED
+
+    # Rodapé nas páginas seguintes com numeração dinâmica de página
+    rodape_sec = secao.footer
+    p_rod = rodape_sec.paragraphs[0]
+    p_rod.alignment = WD_ALIGN_PARAGRAPH.RIGHT
+    run_rod = p_rod.add_run(f"{TIPOS[tipo]} · Página ")
+    run_rod.font.name = "Calibri"
+    run_rod.font.size = Pt(8.5)
+    run_rod.font.color.rgb = CINZA_MUTED
+    run_pag = p_rod.add_run()
+    run_pag.font.name = "Calibri"
+    run_pag.font.size = Pt(8.5)
+    run_pag.font.color.rgb = CINZA_MUTED
+    fld = OxmlElement("w:fldSimple")
+    fld.set(qn("w:instr"), "PAGE")
+    run_pag._r.append(fld)
+
+    # 2. Tipografia e hierarquia de estilos
+    estilo_normal = doc.styles["Normal"]
+    estilo_normal.font.name = "Calibri"
+    estilo_normal.font.size = Pt(10)
+    estilo_normal.font.color.rgb = CINZA_TEXTO
+    estilo_normal.paragraph_format.line_spacing = 1.15
+    estilo_normal.paragraph_format.space_after = Pt(4)
+
+    hierarquia_titulos = {
+        "Title": (Pt(20), AZUL_ESCURO, Pt(14), Pt(6)),
+        "Heading 1": (Pt(15), AZUL_ESCURO, Pt(12), Pt(4)),
+        "Heading 2": (Pt(12.5), AZUL_MEDIO, Pt(9), Pt(3)),
+        "Heading 3": (Pt(11), AZUL_ESCURO, Pt(6), Pt(2)),
+    }
+    for nome_h, (tam, cor, antes, depois) in hierarquia_titulos.items():
+        if nome_h in doc.styles:
+            h = doc.styles[nome_h]
+            h.font.name = "Calibri"
+            h.font.size = tam
+            h.font.bold = True
+            h.font.color.rgb = cor
+            h.paragraph_format.space_before = antes
+            h.paragraph_format.space_after = depois
+            h.paragraph_format.keep_with_next = True
+
+    for nome_lista in ["List Bullet", "List Bullet 2", "List Number"]:
+        if nome_lista in doc.styles:
+            l_style = doc.styles[nome_lista]
+            l_style.paragraph_format.space_before = Pt(0)
+            l_style.paragraph_format.space_after = Pt(2)
+            l_style.paragraph_format.line_spacing = 1.1
+
+    # 3. Cabeçalho de capa do livro
     capa = doc.add_paragraph()
     capa.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    capa.paragraph_format.space_before = Pt(12)
+    capa.paragraph_format.space_after = Pt(2)
+
+    run_pre = capa.add_run("MUTANTES & MALFEITORES 3ª EDIÇÃO\n")
+    run_pre.font.size = Pt(9.5)
+    run_pre.bold = True
+    run_pre.font.color.rgb = AZUL_MEDIO
+
     run = capa.add_run(f"{TIPOS[tipo]} · {dados['genero']['nome']}")
     run.bold = True
-    run.font.size = Pt(11)
-    run.font.color.rgb = AZUL
+    run.font.size = Pt(20)
+    run.font.color.rgb = AZUL_ESCURO
+
     rodape = doc.add_paragraph()
     rodape.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    rodape.add_run(f"Mutantes & Malfeitores 3ª edição · Gerador de fichas{f' versão {versao}' if versao else ''}").italic = True
+    rodape.paragraph_format.space_after = Pt(16)
+    r_rod = rodape.add_run(f"Mutantes & Malfeitores 3ª edição · Gerador de fichas{f' versão {versao}' if versao else ''} · Consulta Rápida")
+    r_rod.italic = True
+    r_rod.font.size = Pt(9)
+    r_rod.font.color.rgb = CINZA_MUTED
 
+    # 4. Conteúdo do livro e Apêndice
     markdown_para_docx(caminho.read_text(encoding="utf-8"), doc)
     doc.add_page_break()
     markdown_para_docx(apendice(dados, tipo), doc)
