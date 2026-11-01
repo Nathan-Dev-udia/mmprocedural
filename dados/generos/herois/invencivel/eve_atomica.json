@@ -1,0 +1,117 @@
+{
+  "nome": "Eve Atômica",
+  "nome_pt": "Atom Eve",
+  "nivel_poder": 10,
+  "pontos_poder": 138,
+  "universo": "invencivel",
+  "fonte": {
+    "arquivo": "dados/livros/invencivel.md"
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 3,
+      "Agi": 3,
+      "Des": 2,
+      "Lut": 7,
+      "Int": 4,
+      "Pro": 2,
+      "Pre": 3
+    },
+    "defesas": {
+      "Esquiva": 9,
+      "Aparar": 9,
+      "Resistência": 3,
+      "Fortitude": 6,
+      "Vontade": 10
+    },
+    "pericias": {
+      "Combate À Distância: Rajada Rosa": 5,
+      "Enganação": 3,
+      "Especialidade: Ciências (Especialmente Químicas)": 10,
+      "Intuição": 4,
+      "Percepção": 5,
+      "Persuasão": 3
+    },
+    "pericias_detalhes": [
+      "Combate À Distância: Rajada Rosa 5 (+7/+11)",
+      "Enganação 3 (+6)",
+      "Especialidade: Ciências (Especialmente Químicas) 10 (+14)",
+      "Intuição 4 (+6)",
+      "Percepção 5 (+7)",
+      "Persuasão 3 (+6)"
+    ],
+    "vantagens": [
+      "Armação",
+      "Ataque A Distância 4",
+      "Atraente",
+      "Esforço Supremo (Perícia Especialidade: Ciência)",
+      "Interpor-se",
+      "Trabalho em Equipe"
+    ],
+    "poderes": [
+      "**Poderes de Transmutação de Energia Rosa**: 39 pontos base; 44 pontos total (Depois vejam Notas)",
+      "• **Campo de Força \\- Dinâmico**: Proteção 7 (**Extras**: Afeta Outros \\+1, Distância Aumentada \\+1 \\[A Distância\\], Impenetrável 7, Sustentado \\+0); 28 pontos",
+      "• **Obstáculos Rosas \\- Dinâmico**: Criar 9 (**Extras**: Móvel \\+1, Preciso, Seletivo \\+1); 37 pontos",
+      "• **Rajada Rosa \\- Dinâmico**: Dano 9 (**Extras**: Distância Aumentada \\+1 \\[A Distância\\]); 18 pontos",
+      "• **Transmutação \\- Dinâmico**: Transformar 6 (Tipo 5: Qualquer coisa em qualquer coisa. 15 kg. **Extras**: Alcance 2, Duração Aumentada \\+1 \\[Contínua \\- *Ver notas*\\]);"
+    ],
+    "equipamento": [],
+    "iniciativa": 3,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 7,
+        "alcance": "Corpo a corpo",
+        "dano": 1,
+        "descricao": "dano contuso 1, crit 20 (CD 16 vs Resistência)"
+      },
+      {
+        "nome": "Agarrar",
+        "bonus": 7,
+        "alcance": "Corpo a corpo",
+        "dano": "",
+        "descricao": "crit 20 (CD 11 vs Esquiva ou Força/Acrobacias ou Atletismo)"
+      },
+      {
+        "nome": "Arremesso",
+        "bonus": 6,
+        "alcance": "À distância",
+        "dano": 1,
+        "descricao": "dano 1, crit 20 (CD 16 vs Resistência)"
+      },
+      {
+        "nome": "Rajada Rosa",
+        "bonus": 11,
+        "alcance": "À distância",
+        "dano": 9,
+        "descricao": "dano de energia 9, crit 20 (CD 24 vs Resistência)"
+      }
+    ],
+    "custos": {
+      "Habilidades": 50,
+      "Defesas": 19,
+      "Perícias": 15,
+      "Vantagens": 9,
+      "Poderes": 45
+    },
+    "total": 138,
+    "complicacoes": [
+      {
+        "titulo": "Relacionamento (Pais)",
+        "texto": "Os pais de Eve são bem estranhos. A mãe um total capacho e o pai um tedioso. São tão estranhos que elogiam o Mark por namorar Eve \"mesmo que ela não seja virgem\". É claro que Mark fica mortificado e percebe por que Eva não suporta seus pais."
+      },
+      {
+        "titulo": "Relacionamento (Rex Splode)",
+        "texto": "Rex foi o primeiro namorado de Eve, e seu primeiro TUDO. Ela ficou arrasada quando ele a traiu e o tratou como uma merda toda vez que se encontraram depois, mesmo quando ele se desculpou e tentou compensar."
+      },
+      {
+        "titulo": "Spoilers grandes em branco** **Relacionamento/Obsessão (Mark Greyson)",
+        "texto": "Eve ama Mark desesperadamente desde que eles eram adolescentes \\- uma \"versão futura\" de si mesma enlouqueceu com isso (arriscando o fluxo de tempo no processo). Os períodos em que esteve longe dele resultaram em aborto, obesidade sexy e anorexia \\- sua dependência emocional é impressionante. Finalmente, os dois se estabelecem, têm uma filha e se casam."
+      }
+    ],
+    "notas": [
+      "Ah, mas isso não é toda a ficha dela. Abaixo, em branco Spoilers de outros poderes que ela tem:\n\n* **Imortalidade de Última Hora**: Imortalidade 17 (30 segundos); 34 pontos  \n* **Poder Alternativo para Poderes de Transmutação da Energia Rosa \\- Ressurreição de Última Hora**: Cura 12 (**Extras**: Ressurreição \\+1. **Falhas**: Inconstante \\-1, Limitado \\-1 \\[Apenas para Ressurreição\\]); 12 pontos\n\nCom eles, dá um incremento de 35 pontos na ficha, ficando personagem NP 10 com 173 pontos. Fim de Spoilers\n\nDurante o avanço da série, os poderes dela ficam mais fortes, inclusive fazendo umas atividades humanitárias que mostram o alcance da Transformação dela."
+    ]
+  }
+}

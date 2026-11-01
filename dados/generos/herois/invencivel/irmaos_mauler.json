@@ -1,0 +1,103 @@
+{
+  "nome": "Os Irmãos Mauler",
+  "nome_pt": "Gêmeos Mauler",
+  "nivel_poder": 8,
+  "pontos_poder": 120,
+  "universo": "invencivel",
+  "fonte": {
+    "arquivo": "dados/livros/invencivel.md"
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 8,
+      "Vig": 8,
+      "Agi": 1,
+      "Des": 0,
+      "Lut": 8,
+      "Int": 8,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 8,
+      "Resistência": 0,
+      "Fortitude": 8,
+      "Vontade": 8
+    },
+    "pericias": {
+      "Enganação": 4,
+      "Especialidade: Ciência": 8,
+      "Especialidade: Criminosos": 2,
+      "Intimidação": 4,
+      "Intuição": 2,
+      "Percepção": 4,
+      "Tecnologia": 8
+    },
+    "pericias_detalhes": [
+      "Enganação 4 (+6)",
+      "Especialidade: Ciência 8 (+16)",
+      "Especialidade: Criminosos 2 (+10)",
+      "Intimidação 4 (+6/+8)",
+      "Intuição 2 (+4)",
+      "Percepção 4 (+6)",
+      "Tecnologia 8 (+16)",
+      "Veículos 4\\"
+    ],
+    "vantagens": [
+      "Agarrar Rápido",
+      "Armação",
+      "Ataque A Distância 8",
+      "Ataque Poderoso",
+      "Equipamento 5 (Quartel General de Laboratório, Equipamentos Diversos)",
+      "Trabalho em Equipe"
+    ],
+    "poderes": [
+      "**Grandões**: Crescimento 4 (**Extras**: Inato. **Falhas**: Permanente \\+0); 9 pontos"
+    ],
+    "equipamento": [],
+    "iniciativa": 1,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": 8,
+        "descricao": "dano contuso 8, crit 20 (CD 23 vs Resistência)"
+      },
+      {
+        "nome": "Agarrar",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "",
+        "descricao": "crit 20 (CD 18 vs Esquiva ou Força/Acrobacias ou Atletismo)"
+      },
+      {
+        "nome": "Arremesso",
+        "bonus": 8,
+        "alcance": "À distância",
+        "dano": 8,
+        "descricao": "dano 8, crit 20 (CD 23 vs Resistência)"
+      }
+    ],
+    "custos": {
+      "Habilidades": 58,
+      "Defesas": 17,
+      "Perícias": 18,
+      "Vantagens": 18,
+      "Poderes": 9
+    },
+    "total": 120,
+    "complicacoes": [
+      {
+        "titulo": "Rivalidade (Seu Clone)",
+        "texto": "Cada Gêmeo Mauler assume que ele é o original, enquanto o outro é o clone. É uma coisa de orgulho. Quando é provado qual deles É um clone, isso causa um grande problema entre eles, com o \"original\" dominando o clone."
+      },
+      {
+        "titulo": "Obsessão (Produzindo um Clone)",
+        "texto": "Os Maulers são aparentemente sempre compelidos a criar um novo clone toda vez que um morre (ou é assassinado). Sempre apenas um."
+      }
+    ],
+    "notas": []
+  }
+}

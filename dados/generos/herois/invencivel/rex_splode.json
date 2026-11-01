@@ -1,0 +1,120 @@
+{
+  "nome": "Rex Explode",
+  "nome_pt": "Rex Splode",
+  "nivel_poder": 10,
+  "pontos_poder": 135,
+  "universo": "invencivel",
+  "fonte": {
+    "arquivo": "dados/livros/invencivel.md"
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 4,
+      "Agi": 4,
+      "Des": 4,
+      "Lut": 8,
+      "Int": 1,
+      "Pro": 1,
+      "Pre": 2
+    },
+    "defesas": {
+      "Esquiva": 11,
+      "Aparar": 11,
+      "Resistência": 6,
+      "Fortitude": 12,
+      "Vontade": 7
+    },
+    "pericias": {
+      "Acrobacia": 4,
+      "Atletismo": 4,
+      "Combate À Distância: Arremesso de Objetos": 4,
+      "Enganação": 4,
+      "Intimidação": 2,
+      "Intuição": 3,
+      "Percepção": 5
+    },
+    "pericias_detalhes": [
+      "Acrobacia 4 (+8)",
+      "Atletismo 4 (+6)",
+      "Combate À Distância: Arremesso de Objetos 4 (+8/+12)",
+      "Enganação 4 (+6)",
+      "Intimidação 2 (+4)",
+      "Intuição 3 (+4)",
+      "Percepção 5 (+6)"
+    ],
+    "vantagens": [
+      "Ataque A Distância 4",
+      "Ataque Poderoso",
+      "Ataque Preciso (A Distância: Cobertura)",
+      "Equipamento (Coleção de Moedas para arremesso)",
+      "Mira Aprimorada",
+      "Rolamento Defensivo 2",
+      "Tolerância Maior",
+      "Zombar"
+    ],
+    "poderes": [
+      "**Carga em Objetos**: 34 pontos",
+      "• **Explosão**: Dano 10 (**Extras**: Área Explosão \\+1, Distância Aumentada \\+1 \\[A Distância\\], Penetrante 6\\. **Falhas**: Alcance Diminuído, Peculiaridade 2 \\[Exige objetos suficientemente grande\\]); 33 pontos",
+      "• **Pequenas Cargas**: Dano 8 (**Extras**: Distância Aumentada \\+1 \\[A Distância\\], Multiataque \\+1, Penetrante 7\\. **Falhas**: Peculiaridade 1 \\[Exige Objetos para arremesso\\]); 30 pontos"
+    ],
+    "equipamento": [],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": 2,
+        "descricao": "dano contuso 2, crit 20 (CD 17 vs Resistência)"
+      },
+      {
+        "nome": "Agarrar",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "",
+        "descricao": "crit 20 (CD 12 vs Esquiva ou Força/Acrobacias ou Atletismo)"
+      },
+      {
+        "nome": "Arremesso",
+        "bonus": 12,
+        "alcance": "À distância",
+        "dano": 2,
+        "descricao": "dano 2, crit 20 (CD 17 vs Resistência)"
+      },
+      {
+        "nome": "Pequenas Cargas",
+        "bonus": 12,
+        "alcance": "À distância",
+        "dano": 8,
+        "descricao": "dano explosivo multiataque 8, crit 20 (CD 23 vs Resistência)"
+      },
+      {
+        "nome": "Explosão",
+        "bonus": null,
+        "alcance": "Área",
+        "dano": "",
+        "descricao": "Dano 10 em Área Explosão de 8 metros de raio (CD 20 vs Esquiva e CD 25/20 vs Resistência)"
+      }
+    ],
+    "custos": {
+      "Habilidades": 52,
+      "Defesas": 24,
+      "Perícias": 13,
+      "Vantagens": 12,
+      "Poderes": 34
+    },
+    "total": 135,
+    "complicacoes": [
+      {
+        "titulo": "Reputação (Babaca)",
+        "texto": ""
+      },
+      {
+        "titulo": "Relacionamentos (Atom Eve, Dupli-Kate)",
+        "texto": "Rex esteve com Eve por anos, mas traiu ela com Kate, que eventualmente não deu bom também..."
+      }
+    ],
+    "notas": []
+  }
+}

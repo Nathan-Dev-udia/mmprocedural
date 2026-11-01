@@ -15,10 +15,12 @@ from pathlib import Path
 
 PASTA = Path(__file__).parent.parent / "dados" / "generos" / "herois"
 
-EDITORAS = {"marvel": "Marvel", "dc": "DC"}
+EDITORAS = {"marvel": "Marvel", "dc": "DC", "invencivel": "Invencível", "outros": "Outros"}
 
 FONTE_DA_EDITORA = {"marvel": "Marvel Files (M&M 2ª edição), convertida para a 3ª edição",
-                    "dc": "DC Adventures: Heroes and Villains (M&M 3ª edição)"}
+                    "dc": "DC Adventures: Heroes and Villains (M&M 3ª edição)",
+                    "invencivel": "Invencível / Invincible (M&M 3ª edição)",
+                    "outros": "Fichas avulsas e crossovers (M&M 3ª edição)"}
 
 VOLUMES_DC = {"volume1": "Vol. I", "volume2": "Vol. II"}
 
@@ -79,6 +81,22 @@ def _resumo_dc(caminho, dados):
             "termos": termos, "traduzida": bool(traduzida)}
 
 
+def _resumo_invencivel(caminho, dados):
+    editora = caminho.parent.name
+    ficha_id = f"{editora}/{caminho.stem}"
+    termos = []
+    for p in dados["ficha"].get("poderes", []):
+        nome_poder = p if isinstance(p, str) else p.get("nome", "")
+        termos.append(nome_poder.split(":")[0].lstrip("•* ").strip())
+    for a in dados["ficha"].get("ataques", []):
+        if isinstance(a, dict) and a.get("nome"):
+            termos.append(a["nome"])
+    return {"id": ficha_id, "editora": editora, "nome": dados["nome"],
+            "nome_pt": dados.get("nome_pt") if dados.get("nome_pt") != dados["nome"] else "",
+            "np": dados.get("nivel_poder"), "pp": dados.get("pontos_poder"), "pp_rotulo": "PP",
+            "volume": "", "termos": termos}
+
+
 @lru_cache(maxsize=1)
 def _catalogo():
     """{id: (caminho, resumo)} de todas as fichas, em ordem alfabética dentro de cada editora."""
@@ -87,10 +105,19 @@ def _catalogo():
         fichas[f"marvel/{caminho.stem}"] = caminho
     for caminho in sorted((PASTA / "dc").glob("*/*.json")):
         fichas[f"dc/{caminho.parent.name}/{caminho.stem}"] = caminho
+    for caminho in sorted((PASTA / "invencivel").glob("*.json")):
+        fichas[f"invencivel/{caminho.stem}"] = caminho
+    for caminho in sorted((PASTA / "outros").glob("*.json")):
+        fichas[f"outros/{caminho.stem}"] = caminho
     catalogo = {}
     for ficha_id, caminho in fichas.items():
         dados = json.loads(caminho.read_text(encoding="utf-8"))
-        resumo = (_resumo_marvel if ficha_id.startswith("marvel/") else _resumo_dc)(caminho, dados)
+        if ficha_id.startswith("marvel/"):
+            resumo = _resumo_marvel(caminho, dados)
+        elif ficha_id.startswith(("invencivel/", "outros/")):
+            resumo = _resumo_invencivel(caminho, dados)
+        else:
+            resumo = _resumo_dc(caminho, dados)
         catalogo[ficha_id] = (caminho, resumo)
     return dict(sorted(catalogo.items(), key=lambda par: (par[1][1]["editora"], par[1][1]["nome"].lower())))
 
@@ -164,6 +191,41 @@ def _secoes_traduzidas(traduzida):
             ("Notas da conferência", traduzida.get("notas", []))]
 
 
+def _secoes_invencivel(dados):
+    ficha = dados["ficha"]
+    defesas_texto = ", ".join(f"{k} {v}" for k, v in ficha.get("defesas", {}).items())
+    custos = ", ".join(f"{nome} {valor}" for nome, valor in ficha.get("custos", {}).items()) + f" = {dados.get('pontos_poder')}"
+    ataques = []
+    if ficha.get("iniciativa") is not None:
+        ataques.append(f"Iniciativa {ficha['iniciativa']:+d}")
+    for a in ficha.get("ataques", []):
+        if isinstance(a, dict):
+            partes = [a["nome"]]
+            if a.get("bonus") is not None:
+                partes[0] += f" {a['bonus']:+d}"
+            if a.get("alcance"):
+                partes.append(a["alcance"].lower())
+            if a.get("descricao"):
+                partes.append(a["descricao"])
+            elif a.get("dano"):
+                partes.append(f"Dano {a['dano']}")
+            ataques.append(", ".join(p for p in partes if p))
+        else:
+            ataques.append(str(a))
+    secoes = [
+        ("Poderes", ficha.get("poderes", [])),
+        ("Vantagens", ficha.get("vantagens", [])),
+        ("Perícias", ficha.get("pericias_detalhes") or [f"{nome} {valor}" for nome, valor in ficha.get("pericias", {}).items()]),
+        ("Ataques", ataques),
+        ("Defesas", [defesas_texto] if defesas_texto else []),
+        ("Pontos de poder", [custos] if ficha.get("custos") else []),
+        ("Complicações", [f"{c['titulo']}: {c['texto']}" if isinstance(c, dict) else str(c) for c in ficha.get("complicacoes", [])]),
+    ]
+    if ficha.get("notas"):
+        secoes.append(("Notas", ficha["notas"] if isinstance(ficha["notas"], list) else [ficha["notas"]]))
+    return secoes
+
+
 def ficha(ficha_id):
     """Resumo, habilidades e seções de uma ficha, prontos para a tela; None se o id não existir."""
     entrada = _catalogo().get(ficha_id)
@@ -177,6 +239,11 @@ def ficha(ficha_id):
         pagina = dados.get("fonte", {}).get("pagina")
         status = "Conversão com ajustes de NP" if dados.get("status_conversao") == "convertida_com_ajustes_de_np" \
             else "Conversão"
+    elif resumo["editora"] in ("invencivel", "outros"):
+        habilidades = dados["ficha"].get("habilidades", {})
+        secoes = _secoes_invencivel(dados)
+        pagina = None
+        status = "Ficha adaptada e conferida em português"
     elif resumo["traduzida"]:
         traduzida = traducao(ficha_id)
         habilidades = traduzida["ficha"]["habilidades"]

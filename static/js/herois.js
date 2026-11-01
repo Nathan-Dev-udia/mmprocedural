@@ -7,6 +7,8 @@ let todos = [];
 const DESCRICAO_DA_EDITORA = {
   marvel: "Conversões dos perfis do Marvel Files (M&M 2ª edição) para a 3ª edição, com notas de conversão.",
   dc: "Fichas publicadas nos livros DC Adventures: Heroes and Villains (M&M 3ª edição), no texto original em inglês.",
+  invencivel: "Fichas dos personagens do universo de Invencível adaptadas para Mutantes & Malfeitores 3ª edição.",
+  outros: "Fichas avulsas, crossovers e personagens diversos adaptados para M&M 3ª edição.",
 };
 
 function escapar(texto) {

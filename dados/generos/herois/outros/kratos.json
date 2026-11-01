@@ -1,0 +1,158 @@
+{
+  "nome": "Kratos",
+  "nome_pt": "Kratos (Fantasma de Esparta)",
+  "nivel_poder": 12,
+  "pontos_poder": 180,
+  "universo": "outros",
+  "fonte": {
+    "arquivo": "dados/livros/invencivel.md"
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 10,
+      "Vig": 12,
+      "Agi": 4,
+      "Des": 0,
+      "Lut": 10,
+      "Int": 0,
+      "Pro": 0,
+      "Pre": 2
+    },
+    "defesas": {
+      "Esquiva": 12,
+      "Aparar": 12,
+      "Resistência": 12,
+      "Fortitude": 14,
+      "Vontade": 10
+    },
+    "pericias": {
+      "Acrobacia": 4,
+      "Atletismo": 2,
+      "Combate Corpo-a-corpo: Agarrar": 4,
+      "Especialidade: Arte da Guerra": 10,
+      "Intimidação": 12
+    },
+    "pericias_detalhes": [
+      "Acrobacia 4 (+8)",
+      "Atletismo 2 (+12)",
+      "Combate Corpo-a-corpo: Agarrar 4 (+14)",
+      "Especialidade: Arte da Guerra 10",
+      "Intimidação 12 (+14)",
+      "Percepção 8\\"
+    ],
+    "vantagens": [
+      "Agarrar Aprimorado",
+      "Ataque À Distância 10",
+      "Ataque Dominó 2",
+      "Ataque Imprudente",
+      "Ataque Poderoso",
+      "Bem Relacionado",
+      "Crítico Aprimorado 2 (Lâminas de Athena)",
+      "Destemido",
+      "Duro de Matar",
+      "Esforço Extraordinário",
+      "Iniciativa Aprimorada",
+      "Oponente Favorito (Deuses)",
+      "Tolerância Maior"
+    ],
+    "poderes": [
+      "**Asas de Ícarus**: 2 pts em efeito. **Falhas**: Removível \\-1 (-0 pts); 2 pts total",
+      "• Voo 4 (**Falhas**: Asas \\-1, Planar \\-1); 2 pts",
+      "**Lâminas de Athena**: 9 pts em efeitos.",
+      "• Dano baseado em Força 2 (**Extras**: Alcance 2, Dividido); 5 pts",
+      "• Movimento 2 (Balançar-se, Escalar Paredes); 4 pts",
+      "**Tridente de Poseidon**: 5 pts em efeito. **Falhas**: Removível \\-1 (-1 pts); 4 pts total",
+      "• Imunidade 1 (Afogamento); 1 pt",
+      "• Natação 4; 4 pts",
+      "**Relíquias Divinas**: Arranjo de 23 pts; 27 pts total",
+      "• **Lâmina do Olimpo**: 39 pts em efeitos. **Falhas**: Facilmente Removível \\-2 (-16 pts); 23 pts",
+      "• **Disparos de Energia**: Dano 14 (**Extras**: À Distância \\+1, Penetrante 10); 38 pts",
+      "• **EA \\-** Dano baseado em Força 6 (**Extras**: Crítico Aprimorado 2, Penetrante 10\\. **Falhas**: Impreciso 2\\)",
+      "• **Cabeça de Górgona**: 36 pts em efeito. **Falhas**: Facilmente Removível \\-2 (-14 pts); 22 pts total",
+      "• Aflição 12 (Resistido e Superado por Fortitude. Impedido e Prejudicado, Desabilitado e Imóvel, Desatento e Paralisado. **Extras**: Área Linha \\+1, Concentração \\+1, Condição Extra \\+1, Cumulativo \\+1. **Falhas**: Cansativo \\-1, Distrativo \\-1); 36 pts",
+      "• **Velo de Ouro**: 24 pts em efeito. **Falhas**: Removível \\-1 (-5 pts); 19 pts total",
+      "• Defletir 12 (**Extras**: Refletir \\+1. **Falhas**: Perto \\-1); 24 pts",
+      "• **Typhon's Bane**: 28 pts em efeito. **Falhas**: Facilmente Removível \\-2 (-12 pts); 16 pts",
+      "• Dano 8 (**Extras**: À Distância \\+1, Acurado 3, Crítico Aprimorado, Multi-ataque \\+1); 28 pts",
+      "• **Martelo do Bárbaro**: 25 pts em efeito. **Falhas**: Facilmente Removível \\-2 (-10 pts); 15 pts",
+      "• **Martelada**: Dano baseado em Força 4 (**Extras**: Alcance. **Falhas**: Impreciso); 4 pts",
+      "• **Invocar Almas**: Invocar 3 (**Extras**: Horda \\+1, Múltiplos Capangas \\+4 \\[4 capangas\\]); 21 pts"
+    ],
+    "equipamento": [],
+    "iniciativa": 8,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": 10,
+        "descricao": "dano contusão 10 \\- crit 20"
+      },
+      {
+        "nome": "Lâminas de Athena",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": 12,
+        "descricao": "dano cortante 12 \\- crit 18-20"
+      },
+      {
+        "nome": "Lâmina do Olimpo",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": 16,
+        "descricao": "dano cortante 16 \\- crit 18-20"
+      },
+      {
+        "nome": "Martelo do Bárbaro",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": 14,
+        "descricao": "dano contusão 14 \\- crit 20"
+      },
+      {
+        "nome": "Lâmina do Olimpo: Disparos de Energia",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": 14,
+        "descricao": "dano de energia \\+14 \\- crit 20"
+      },
+      {
+        "nome": "Typhon's Bane",
+        "bonus": 16,
+        "alcance": "À distância",
+        "dano": 8,
+        "descricao": "dano perfurante 8 multiataque \\- crit 20"
+      },
+      {
+        "nome": "Cabeça de Górgona",
+        "bonus": null,
+        "alcance": "Área",
+        "dano": "",
+        "descricao": "Aflição 12 em Área Linha de 1,5 metros de largura e 8 metros de comprimento"
+      }
+    ],
+    "custos": {
+      "Habilidades": 76,
+      "Vantagens": 24,
+      "Perícias": 20,
+      "Poderes": 42,
+      "Defesas": 18
+    },
+    "total": 180,
+    "complicacoes": [
+      {
+        "titulo": "Inimigos",
+        "texto": "O Panteão Grego."
+      },
+      {
+        "titulo": "Motivação \\- Vingança",
+        "texto": "Sempre.. Só muda os alvos."
+      },
+      {
+        "titulo": "Passado Assombroso",
+        "texto": "Kratos é assombrado pelo assassinato de sua esposa e filha."
+      }
+    ],
+    "notas": []
+  }
+}

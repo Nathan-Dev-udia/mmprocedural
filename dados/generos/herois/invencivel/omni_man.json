@@ -1,0 +1,127 @@
+{
+  "nome": "Omni-Man",
+  "nome_pt": "Omni-Man (Nolan Grayson)",
+  "nivel_poder": 14,
+  "pontos_poder": 232,
+  "universo": "invencivel",
+  "fonte": {
+    "arquivo": "dados/livros/invencivel.md"
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 18,
+      "Vig": 16,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 10,
+      "Int": 4,
+      "Pro": 4,
+      "Pre": 4
+    },
+    "defesas": {
+      "Esquiva": 12,
+      "Aparar": 12,
+      "Resistência": 16,
+      "Fortitude": 16,
+      "Vontade": 12
+    },
+    "pericias": {
+      "Combate A Distância: Arremesso": 6,
+      "Enganação": 8,
+      "Especialidade: História Galática": 6,
+      "Furtividade": 2,
+      "Intimidação": 8,
+      "Intuição": 4,
+      "Percepção": 4,
+      "Persuasão": 3,
+      "Tecnologia": 6,
+      "Veículos": 1
+    },
+    "pericias_detalhes": [
+      "Combate A Distância: Arremesso 6 (+8/+10)",
+      "Enganação 8 (+12)",
+      "Especialidade: História Galática 6 (+10)",
+      "Furtividade 2 (+4)",
+      "Intimidação 8 (+12)",
+      "Intuição 4 (+8)",
+      "Percepção 4 (+8)",
+      "Persuasão 3 (+7)",
+      "Tecnologia 6 (+10)",
+      "Veículos 1 (+3)"
+    ],
+    "vantagens": [
+      "Ação em Movimento",
+      "Agarrar Aprimorado",
+      "Agarrar Rápido",
+      "Ataque A Distância 2",
+      "Ataque Dominó",
+      "Ataque Imprudente",
+      "Ataque Poderoso",
+      "Crítico Aprimorado (Desarmado)",
+      "Duro de Matar",
+      "Estrangular",
+      "Imobilizar Aprimorado",
+      "Iniciativa Aprimorada 2",
+      "Interpor-se",
+      "Tolerância Maior"
+    ],
+    "poderes": [
+      "**Fisiologia Viltrumitana**: 53 pontos",
+      "• **Saúde Viltrumitana**: Imunidade 1 (Doenças), Imunidade 4 (Envelhecimento, Sufocamento 2, Venenos. **Falhas**: Limitado a Metade do Efeito \\-1), Regeneração 2, Resistência Impenetrável 15; 20 pontos",
+      "• **Seguro para o Espaço**: Imunidade 4 (Calor, Frio, Pressão, Vácuo), Movimento 1 (Viagem Espacial); 6 pontos",
+      "• **Tijolo Voador**: Voo 12 (1 km/mov \\- 500 km/h); 24 pontos"
+    ],
+    "equipamento": [],
+    "iniciativa": 10,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": 18,
+        "descricao": "dano contuso 18, crit 19-20 (CD 33 vs Resistência)"
+      },
+      {
+        "nome": "Agarrar",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "",
+        "descricao": "crit 20 (CD 28 vs Esquiva ou Força/Acrobacias ou Atletismo)"
+      },
+      {
+        "nome": "Arremesso",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": 18,
+        "descricao": "dano 18, crit 20 (CD 33 vs Resistência)"
+      }
+    ],
+    "custos": {
+      "Habilidades": 120,
+      "Defesas": 20,
+      "Perícias": 23,
+      "Vantagens": 16,
+      "Poderes": 53
+    },
+    "total": 232,
+    "complicacoes": [
+      {
+        "titulo": "Fraqueza (Efeitos Sônicos Altos)",
+        "texto": "Viltrumites necessitam da estabilidade proporcionada pelo interior do ouvido para manter o voo e pode ficar incapacitado por certos graus de pulsos sônicos."
+      },
+      {
+        "titulo": "Relacionamento (Debbie Grayson)",
+        "texto": "Debbie Grayson é sua esposa por muitos anos. SPOILERS EM BRANCO E depois de desmascarado, Nolan mente para si mesmo em dizer que ela era apenas um \"pet\". Eventualmente, ele confessa amar ela e eles voltam."
+      },
+      {
+        "titulo": "Relacionamento (Mark Greyson)",
+        "texto": "Mark é seu filho que também se torna super-herói. SPOILERS EM BRANCO E eventualmente é quem faz Nolan desistir de dominar a Terra \\- nunca mataria seu próprio filho."
+      },
+      {
+        "titulo": "Temperamento (Raiva)",
+        "texto": "Como todos Viltrumites, Mark pode acabar ficando com raiva muito rápido e se restringir em momentos de fúria é muito difícil."
+      }
+    ],
+    "notas": []
+  }
+}

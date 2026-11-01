@@ -14,9 +14,15 @@ def test_catalogo_traz_as_duas_editoras():
     lista = herois.lista()
     assert sum(h["editora"] == "marvel" for h in lista) == 116
     assert sum(h["editora"] == "dc" for h in lista) == 536
+    assert sum(h["editora"] == "invencivel" for h in lista) == 11
+    assert sum(h["editora"] == "outros" for h in lista) == 1
     assert len({h["id"] for h in lista}) == len(lista)
     arcanjo = next(h for h in lista if h["id"] == "marvel/archangel")
     assert arcanjo["nome_pt"] == "Arcanjo" and arcanjo["np"] == 10 and "Flight" in arcanjo["termos"]
+    inv = next(h for h in lista if h["id"] == "invencivel/mark_grayson")
+    assert inv["nome"] == "Mark Grayson" and inv["np"] == 10 and inv["pp"] == 150
+    kratos = next(h for h in lista if h["id"] == "outros/kratos")
+    assert kratos["nome"] == "Kratos" and kratos["np"] == 12 and kratos["pp"] == 180
 
 
 def test_ficha_da_dc_traduz_as_habilidades_e_separa_os_poderes():
@@ -74,11 +80,16 @@ def test_pagina_e_consulta():
     cliente = app.app.test_client()
     pagina = cliente.get("/?genero=herois").get_data(as_text=True)
     assert "Heróis conhecidos" in pagina and "Marvel (116)" in pagina and "DC (536)" in pagina
+    assert "Invencível (11)" in pagina and "Outros (1)" in pagina
     assert '"herois"' in cliente.get("/?genero=fantasia").get_data(as_text=True)   # na escolha de gênero
 
-    assert len(cliente.get("/api/herois").get_json()["herois"]) == 652
+    assert len(cliente.get("/api/herois").get_json()["herois"]) == 664
     ficha = cliente.get("/api/herois/dc/volume1/batman").get_json()["ficha"]
     assert ficha["nome"] == "Batman" and ficha["np"] == 12
+    ficha_inv = cliente.get("/api/herois/invencivel/mark_grayson").get_json()["ficha"]
+    assert ficha_inv["nome"] == "Mark Grayson" and ficha_inv["np"] == 10
+    ficha_kra = cliente.get("/api/herois/outros/kratos").get_json()["ficha"]
+    assert ficha_kra["nome"] == "Kratos" and ficha_kra["np"] == 12
     assert cliente.get("/api/herois/marvel/nao_existe").status_code == 404
     assert cliente.get("/api/herois/../app.py").status_code == 404
 
@@ -104,6 +115,10 @@ def test_pdf_de_todas_as_fichas_e_gerado():
 def test_rota_do_pdf_do_heroi():
     resposta = app.app.test_client().get("/herois/marvel/beast.pdf")
     assert resposta.status_code == 200 and resposta.data.startswith(b"%PDF")
+    resposta_inv = app.app.test_client().get("/herois/invencivel/mark_grayson.pdf")
+    assert resposta_inv.status_code == 200 and resposta_inv.data.startswith(b"%PDF")
+    resposta_kra = app.app.test_client().get("/herois/outros/kratos.pdf")
+    assert resposta_kra.status_code == 200 and resposta_kra.data.startswith(b"%PDF")
     assert app.app.test_client().get("/herois/dc/x/y.pdf").status_code == 404
 
 

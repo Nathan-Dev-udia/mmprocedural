@@ -1,0 +1,118 @@
+{
+  "nome": "O Imortal",
+  "nome_pt": "The Immortal",
+  "nivel_poder": 10,
+  "pontos_poder": 165,
+  "universo": "invencivel",
+  "fonte": {
+    "arquivo": "dados/livros/invencivel.md"
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 11,
+      "Vig": 10,
+      "Agi": 3,
+      "Des": 2,
+      "Lut": 9,
+      "Int": 0,
+      "Pro": 0,
+      "Pre": 0
+    },
+    "defesas": {
+      "Esquiva": 9,
+      "Aparar": 9,
+      "Resistência": 11,
+      "Fortitude": 11,
+      "Vontade": 8
+    },
+    "pericias": {
+      "Enganação": 4,
+      "Especialidade: História": 11,
+      "Especialidade: Política": 8,
+      "Intimidação": 4,
+      "Intuição": 3,
+      "Investigação": 3,
+      "Percepção": 4
+    },
+    "pericias_detalhes": [
+      "Enganação 4 (+5)",
+      "Especialidade: História 11 (+14)",
+      "Especialidade: Política 8 (+11)",
+      "Intimidação 4 (+5)",
+      "Intuição 3 (+6)",
+      "Investigação 3 (+6)",
+      "Percepção 4 (+7)"
+    ],
+    "vantagens": [
+      "Ação em Movimento",
+      "Agarrar Rápido",
+      "Ataque A Distância 3",
+      "Ataque Dominó",
+      "Ataque Poderoso",
+      "Crítico Aprimorado (Desarmado)",
+      "Destemido",
+      "Interpor-se",
+      "Tolerância Maior"
+    ],
+    "poderes": [
+      "**Imortal... duh**: Imortalidade 10 (1 hora. **Falhas**: Limitado \\-1 \\[Exige o corpo estar todo completo \\- especialmente órgãos vitais\\]), Imunidade 3 (Doenças, Envelhecimento, Venenos), Regeneração 5; 18 pontos",
+      "**Voo**: Voo 9 (4 km/mov. \\- 2.000 km/h); 18 pontos"
+    ],
+    "equipamento": [],
+    "iniciativa": 3,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 9,
+        "alcance": "Corpo a corpo",
+        "dano": 11,
+        "descricao": "dano contuso 11, crit 19-20 (CD 26 vs Resistência)"
+      },
+      {
+        "nome": "Agarrar",
+        "bonus": 9,
+        "alcance": "Corpo a corpo",
+        "dano": "",
+        "descricao": "crit 20 (CD 21 vs Esquiva ou Força/Acrobacias ou Atletismo)"
+      },
+      {
+        "nome": "Arremesso",
+        "bonus": 5,
+        "alcance": "À distância",
+        "dano": 11,
+        "descricao": "dano 11, crit 20 (CD 26 vs Resistência)"
+      }
+    ],
+    "custos": {
+      "Habilidades": 86,
+      "Defesas": 12,
+      "Perícias": 20,
+      "Vantagens": 11,
+      "Poderes": 36
+    },
+    "total": 165,
+    "complicacoes": [
+      {
+        "titulo": "Responsabilidade (Cecil, O Governo)",
+        "texto": "O Imortal é velho amigo de Cecil e geralmente faz o que ele pede."
+      },
+      {
+        "titulo": "Reputação (Herói de Merda)",
+        "texto": "Bulletproof alegou não gostar de trabalhar para Imortal, e Invincible finalmente se irrita com ele por agir como se ele fosse um NP 12 ou algo assim, quando ele está muito mais fraco."
+      },
+      {
+        "titulo": "Relacionamento (Crianças)",
+        "texto": "Eles são enviados para sua primeira \"Batalha do Super-Herói\" no final da série."
+      },
+      {
+        "titulo": "Relacionamento (Dupli-Kate)",
+        "texto": "Os dois acabam se casando depois que um breve caso se torna sério. Ele confessa que Kate o faz sentir-se JOVEM novamente, e ela se gaba de envolvê-lo em seu dedo mindinho \\- fazendo-o se estabelecer, se aposentar e começar uma família."
+      },
+      {
+        "titulo": "Rivalidade (Invencível)",
+        "texto": "O Imortal não acreditava que Mark estava realmente lutando contra seu pai (de quem ele nunca gostou). Ele afirma que não confia em Mark e o estará observando, logo após Mark quase morrer lutando contra seu próprio pai. Eventualmente, os dois ficam amigos."
+      }
+    ],
+    "notas": []
+  }
+}

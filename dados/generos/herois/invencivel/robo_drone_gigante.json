@@ -1,0 +1,100 @@
+{
+  "nome": "Robô (Drone gigante)",
+  "nome_pt": "Robô (Drone Gigante)",
+  "nivel_poder": 11,
+  "pontos_poder": 145,
+  "universo": "invencivel",
+  "fonte": {
+    "arquivo": "dados/livros/invencivel.md"
+  },
+  "ficha": {
+    "habilidades": {
+      "For": "4/12",
+      "Vig": "-",
+      "Agi": 2,
+      "Des": 4,
+      "Lut": 9,
+      "Int": "-",
+      "Pro": 0,
+      "Pre": "-"
+    },
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 2,
+      "Resistência": 14,
+      "Fortitude": "Imune",
+      "Vontade": "Imune"
+    },
+    "pericias": {
+      "Combate a Distância": 2
+    },
+    "pericias_detalhes": [
+      "Combate a Distância 2 (+6/+12)",
+      "Percepção 10\\"
+    ],
+    "vantagens": [
+      "Ação em Movimento",
+      "Agarrar Aprimorado",
+      "Ataque a Distância 6",
+      "Ataque Acurado",
+      "Ataque Imprudente",
+      "Ataque Poderoso"
+    ],
+    "poderes": [
+      "**Drone Gigante**: Crescimento 8 (**Extras**: Inato. **Falhas**: Permanente \\+0), Imunidade 30 (Efeitos de Fortitude), Proteção 6 (**Extras**: Impenetrável \\+1), Resistência Impenetrável 5; 64 pontos",
+      "• \\+2 em Tamanho",
+      "• \\+8 em Força, \\+8 em Proteção, \\+4 Intimidar, \\+8 em Massa",
+      "• \\-4 em Defesas Ativas, \\-8 em Furtividade",
+      "**Lasers**: Dano 10 (**Extras**: Distância Aumentada \\+1 \\[A Distância\\]); 20 pontos",
+      "**Sensores**: Sentidos 6 (Detectar Ondas de Rádio, Elo de Comunicação \\[com Rudolph\\], Infravisão, Rádio, Visão \\[Estendida, Rápido\\]); 6 pontos",
+      "**Voo** 8 (2 km/mov \\- 1.000 km/h); 16 pontos"
+    ],
+    "equipamento": [],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": 12,
+        "descricao": "dano contuso 12, crit 20 (CD 27 vs Resistência)"
+      },
+      {
+        "nome": "Agarrar",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "",
+        "descricao": "crit 20 (CD 22 vs Esquiva ou Força/Acrobacias ou Atletismo)"
+      },
+      {
+        "nome": "Arremesso",
+        "bonus": 6,
+        "alcance": "À distância",
+        "dano": 12,
+        "descricao": "dano 12, crit 20 (CD 27 vs Resistência)"
+      },
+      {
+        "nome": "Laser",
+        "bonus": 12,
+        "alcance": "À distância",
+        "dano": 10,
+        "descricao": "dano de energia 10, crit 20 (CD 25 vs Resistência)"
+      }
+    ],
+    "custos": {
+      "Habilidades": 10,
+      "Defesas": 12,
+      "Perícias": 6,
+      "Vantagens": 11,
+      "Poderes": 106
+    },
+    "total": 145,
+    "complicacoes": [
+      {
+        "titulo": "Relacionamento (Monster Girl)",
+        "texto": "Robô gosta de Monster Girl. E muito muito tem a ser dito... * **Responsabilidade (Guardiões do Globo)**"
+      }
+    ],
+    "notas": []
+  }
+}

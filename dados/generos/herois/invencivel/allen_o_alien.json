@@ -1,0 +1,110 @@
+{
+  "nome": "Allen o Alien",
+  "nome_pt": "Allen the Alien",
+  "nivel_poder": 12,
+  "pontos_poder": 205,
+  "universo": "invencivel",
+  "fonte": {
+    "arquivo": "dados/livros/invencivel.md"
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 14,
+      "Vig": 14,
+      "Agi": 3,
+      "Des": 0,
+      "Lut": 10,
+      "Int": 4,
+      "Pro": 3,
+      "Pre": 4
+    },
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 10,
+      "Resistência": 14,
+      "Fortitude": 14,
+      "Vontade": 10
+    },
+    "pericias": {
+      "Enganação": 4,
+      "Especialidade: Culturas Alienígenas": 6,
+      "Intimidação": 5,
+      "Intuição": 4,
+      "Percepção": 3,
+      "Persuasão": 6,
+      "Tecnologia": 4
+    },
+    "pericias_detalhes": [
+      "Enganação 4 (+8)",
+      "Especialidade: Culturas Alienígenas 6 (+10)",
+      "Intimidação 5 (+9)",
+      "Intuição 4 (+7)",
+      "Percepção 3 (+6)",
+      "Persuasão 6 (+10)",
+      "Tecnologia 4 (+8)"
+    ],
+    "vantagens": [
+      "Ação em Movimento",
+      "Agarrar Aprimorado",
+      "Agarrar Rápido",
+      "Ataque A Distância 4",
+      "Ataque Acurado",
+      "Ataque Poderoso",
+      "Imobilizar Aprimorado",
+      "Iniciativa Aprimorada",
+      "Interpor-se"
+    ],
+    "poderes": [
+      "**Fisiologia Unopan Aprimorada**: Imunidade 7 (Todas Condições Ambientais, Sufocamento), Regeneração 2, Resistência Impenetrável 8, Movimento 1 (Viagem Espacial), Voo 7 (1 km/mov \\- 500 km/h); 35 pontos",
+      "**Telepatia**: Comunicação Mental 2, Leitura Mental 8; 24 pontos"
+    ],
+    "equipamento": [],
+    "iniciativa": 7,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": 14,
+        "descricao": "dano contuso 14, crit 20 (CD 29 vs Resistência)"
+      },
+      {
+        "nome": "Agarrar",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "",
+        "descricao": "crit 20 (CD 24 vs Esquiva ou Força/Acrobacias ou Atletismo)"
+      },
+      {
+        "nome": "Arremesso",
+        "bonus": 4,
+        "alcance": "À distância",
+        "dano": 14,
+        "descricao": "dano 14, crit 20 (CD 29 vs Resistência)"
+      }
+    ],
+    "custos": {
+      "Habilidades": 104,
+      "Defesas": 14,
+      "Perícias": 16,
+      "Vantagens": 12,
+      "Poderes": 59
+    },
+    "total": 205,
+    "complicacoes": [
+      {
+        "titulo": "Relacionamento (Mark)",
+        "texto": "Mark e Allen começam como possíveis inimigos, mas logo se tornam amigos rapidamente e grandes aliados."
+      },
+      {
+        "titulo": "Relacionamento (Namorada)",
+        "texto": "Eles transam BASTANTE, Seus colegas de quarto odeiam. Ele fica meio mau-humorado porque Unopans devem \"manter\" sua semente para propósitos de reprodução, mas ela não tá nem aí."
+      },
+      {
+        "titulo": "Relacionamento (Omni-Man)",
+        "texto": "Omni-Man e Allen brigam no espaço de vez em quando. Não é algo sério de verdade e esse relacionamento rival-amigável passou para Mark."
+      }
+    ],
+    "notas": []
+  }
+}

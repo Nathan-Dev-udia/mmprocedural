@@ -1,0 +1,97 @@
+{
+  "nome": "Robô (drone humanoide)",
+  "nome_pt": "Robô (Drone Humanoide)",
+  "nivel_poder": 10,
+  "pontos_poder": 131,
+  "universo": "invencivel",
+  "fonte": {
+    "arquivo": "dados/livros/invencivel.md"
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 8,
+      "Vig": "-",
+      "Agi": 2,
+      "Des": 4,
+      "Lut": 9,
+      "Int": "-",
+      "Pro": 0,
+      "Pre": "-"
+    },
+    "defesas": {
+      "Esquiva": 9,
+      "Aparar": 9,
+      "Resistência": 12,
+      "Fortitude": "Imune",
+      "Vontade": "Imune"
+    },
+    "pericias": {
+      "Combate Corpo-a-corpo: Desarme": 5
+    },
+    "pericias_detalhes": [
+      "Combate Corpo-a-corpo: Desarme 5 (+14)",
+      "Percepção 11\\"
+    ],
+    "vantagens": [
+      "Ação em Movimento",
+      "Agarrar Aprimorado",
+      "Ataque a Distância 6",
+      "Ataque Acurado",
+      "Ataque Imprudente",
+      "Ataque Poderoso"
+    ],
+    "poderes": [
+      "**Drone Robô**: Imunidade 30 (Efeitos de Fortitude), Proteção 12 (**Extras**: Impenetrável 9); 51 pontos",
+      "**Sensores**: Sentidos 6 (Detectar Ondas de Rádio, Elo de Comunicação \\[com Rudolph\\], Infravisão, Rádio, Visão \\[Estendida, Rápido\\]); 6 pontos",
+      "**Lasers**: Dano 8 (**Extras**: Distância Aumentada \\+1 \\[A Distância\\]); 16 pontos",
+      "**Voo** 8 (2 km/mov \\- 1.000 km/h); 16 pontos"
+    ],
+    "equipamento": [],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 14,
+        "alcance": "Corpo a corpo",
+        "dano": 8,
+        "descricao": "dano contuso 8, crit 20 (CD 23 vs Resistência)"
+      },
+      {
+        "nome": "Agarrar",
+        "bonus": 9,
+        "alcance": "Corpo a corpo",
+        "dano": "",
+        "descricao": "crit 20 (CD 18 vs Esquiva ou Força/Acrobacias ou Atletismo)"
+      },
+      {
+        "nome": "Arremesso",
+        "bonus": 6,
+        "alcance": "À distância",
+        "dano": 8,
+        "descricao": "dano 8, crit 20 (CD 23 vs Resistência)"
+      },
+      {
+        "nome": "Lasers",
+        "bonus": 6,
+        "alcance": "À distância",
+        "dano": 8,
+        "descricao": "dano de energia 8, crit 20 (CD 23 vs Resistência)"
+      }
+    ],
+    "custos": {
+      "Habilidades": 16,
+      "Defesas": 7,
+      "Perícias": 8,
+      "Vantagens": 11,
+      "Poderes": 89
+    },
+    "total": 131,
+    "complicacoes": [
+      {
+        "titulo": "Relacionamento (Monster Girl)",
+        "texto": "Robô gosta de Monster Girl. E muito muito tem a ser dito... * **Responsabilidade (Guardiões do Globo)**"
+      }
+    ],
+    "notas": []
+  }
+}

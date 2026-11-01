@@ -1,0 +1,121 @@
+{
+  "nome": "Mark Grayson",
+  "nome_pt": "Invencível",
+  "nivel_poder": 10,
+  "pontos_poder": 150,
+  "universo": "invencivel",
+  "fonte": {
+    "arquivo": "dados/livros/invencivel.md"
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 12,
+      "Vig": 12,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 8,
+      "Int": 1,
+      "Pro": 1,
+      "Pre": 3
+    },
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 8,
+      "Resistência": 12,
+      "Fortitude": 12,
+      "Vontade": 8
+    },
+    "pericias": {
+      "Combate A Distância: Arremesso": 4,
+      "Especialidade: Cultura Popular": 5,
+      "Intimidação": 3,
+      "Intuição": 2,
+      "Percepção": 3,
+      "Persuasão": 5
+    },
+    "pericias_detalhes": [
+      "Combate A Distância: Arremesso 4 (+6/+8)",
+      "Especialidade: Cultura Popular 5 (+6)",
+      "Intimidação 3 (+6)",
+      "Intuição 2 (+3)",
+      "Percepção 3 (+4)",
+      "Persuasão 5 (+8)"
+    ],
+    "vantagens": [
+      "Ação em Movimento",
+      "Agarrar Rápido",
+      "Ataque A Distância 2",
+      "Ataque Imprudente",
+      "Ataque Poderoso",
+      "Imobilizar Aprimorado",
+      "Iniciativa Aprimorada",
+      "Interpor-se"
+    ],
+    "poderes": [
+      "**Fisiologia Viltrumitana**: 34 pontos",
+      "• **Saúde Viltrumitana**: Imunidade 1 (Doenças), Imunidade 4 (Envelhecimento, Sufocamento 2, Venenos. **Falhas**: Limitado a Metade do Efeito \\-1), Regeneração 2, Resistência Impenetrável 10; 15 pontos",
+      "• **Seguro para o Espaço**: Imunidade 4 (Calor, Frio, Pressão, Vácuo), Movimento 1 (Viagem Espacial); 6 pontos",
+      "• **Tijolo Voador**: Voo 7 (1 km/mov \\- 500 km/h); 14 pontos"
+    ],
+    "equipamento": [],
+    "iniciativa": 6,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": 12,
+        "descricao": "dano contuso 12, crit 20 (CD 27 vs Resistência)"
+      },
+      {
+        "nome": "Agarrar",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "",
+        "descricao": "crit 20 (CD 22 vs Esquiva ou Força/Acrobacias ou Atletismo)"
+      },
+      {
+        "nome": "Arremesso",
+        "bonus": 8,
+        "alcance": "À distância",
+        "dano": 12,
+        "descricao": "dano 12, crit 20 (CD 27 vs Resistência)"
+      }
+    ],
+    "custos": {
+      "Habilidades": 82,
+      "Defesas": 13,
+      "Perícias": 11,
+      "Vantagens": 9,
+      "Poderes": 35
+    },
+    "total": 150,
+    "complicacoes": [
+      {
+        "titulo": "Fraqueza (Efeitos Sônicos Altos)",
+        "texto": "Viltrumites necessitam da estabilidade proporcionada pelo interior do ouvido para manter o voo e pode ficar incapacitado por certos graus de pulsos sônicos."
+      },
+      {
+        "titulo": "Relacionamento (Atom Eve)",
+        "texto": "Eve é melhor amiga de Mark e sua parceira na luta contra o crime. Os dois se comunicam como ninguém em sua vida. Ele é cego aos sentimentos verdadeiros dela."
+      },
+      {
+        "titulo": "Relacionamento (Cecil Stedman)",
+        "texto": "Cecil é os olhos e ouvidos do Mark em respeito da Terra, direcionando-o para onde ele é necessário."
+      },
+      {
+        "titulo": "Relacionamento (Omni-Man)",
+        "texto": "Mark respeitou seu pai por muitos anos e SPOILERS EM BRANCO estava devastado ao descobrir que ele era um vilão. Ele se recusou a lutar contra seu pai e quase morreu."
+      },
+      {
+        "titulo": "Relacionamento (William)",
+        "texto": "Mark e William são antigos amigos do fundamental... e isso aí."
+      },
+      {
+        "titulo": "Temperamento (Raiva)",
+        "texto": "Como todos Viltrumites, Mark pode acabar ficando com raiva muito rápido e se restringir em momentos de fúria é muito difícil."
+      }
+    ],
+    "notas": []
+  }
+}

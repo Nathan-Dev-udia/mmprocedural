@@ -1,0 +1,95 @@
+{
+  "nome": "Menina Monstro",
+  "nome_pt": "Monster Girl",
+  "nivel_poder": 10,
+  "pontos_poder": 113,
+  "universo": "invencivel",
+  "fonte": {
+    "arquivo": "dados/livros/invencivel.md"
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 11,
+      "Vig": 12,
+      "Agi": 0,
+      "Des": 1,
+      "Lut": 6,
+      "Int": 0,
+      "Pro": 1,
+      "Pre": 3
+    },
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 8,
+      "Resistência": 0,
+      "Fortitude": 12,
+      "Vontade": 8
+    },
+    "pericias": {
+      "Enganação": 3,
+      "Intimidação": 6,
+      "Intuição": 2
+    },
+    "pericias_detalhes": [
+      "Enganação 3 (+6)",
+      "Intimidação 6 (+9/+11)",
+      "Intuição 2 (+3)",
+      "Percepção \\+3 (+4)"
+    ],
+    "vantagens": [
+      "Agarra Rápido",
+      "Ataque Dominó 2",
+      "Assustar",
+      "Crítico Aprimorado (Desarmado)",
+      "Imobilizar Aprimorado",
+      "Iniciativa Aprimorada"
+    ],
+    "poderes": [
+      "**Monstrão**: Crescimento 4 (**Extras**: Duração Aumentada \\+1 \\[Contínuo\\]), Resistência Impenetrável 7, Salto 4; 23 pontos"
+    ],
+    "equipamento": [],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": 11,
+        "descricao": "dano contuso 11, crit 19-20 (CD 26 vs Resistência)"
+      },
+      {
+        "nome": "Agarrar",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "",
+        "descricao": "crit 20 (CD 21 vs Esquiva ou Força/Acrobacias ou Atletismo)"
+      },
+      {
+        "nome": "Arremesso",
+        "bonus": 1,
+        "alcance": "À distância",
+        "dano": 11,
+        "descricao": "dano 11, crit 20 (CD 26 vs Resistência)"
+      }
+    ],
+    "custos": {
+      "Habilidades": 56,
+      "Defesas": 19,
+      "Perícias": 7,
+      "Vantagens": 8,
+      "Poderes": 23
+    },
+    "total": 113,
+    "complicacoes": [
+      {
+        "titulo": "Identidade Normal (Humana)",
+        "texto": "A \"forma de combate\" da Monster Girl é um monstro masculino. Quando não transformada, ela é uma garota normal, com força e vigor de uma garota normal. Cada vez que ela se transforma, mais nova ela fica."
+      },
+      {
+        "titulo": "Relacionamento (Robô)",
+        "texto": "Ao se juntar aos Guardiões do Globo, Robô foi a pessoa que se aproximou dela e ajuda ela lidar com sua maldição (isso sem falar em spoilers)."
+      }
+    ],
+    "notas": []
+  }
+}

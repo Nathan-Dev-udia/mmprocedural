@@ -1,0 +1,127 @@
+{
+  "nome": "Battle Beast",
+  "nome_pt": "Battle Beast",
+  "nivel_poder": 15,
+  "pontos_poder": 215,
+  "universo": "invencivel",
+  "fonte": {
+    "arquivo": "dados/livros/invencivel.md"
+  },
+  "ficha": {
+    "habilidades": {
+      "For": 14,
+      "Vig": 16,
+      "Agi": 5,
+      "Des": 4,
+      "Lut": 13,
+      "Int": 3,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "defesas": {
+      "Esquiva": 13,
+      "Aparar": 13,
+      "Resistência": 16,
+      "Fortitude": 16,
+      "Vontade": 12
+    },
+    "pericias": {
+      "Acrobacias": 1,
+      "Atletismo": 1,
+      "Enganação": 3,
+      "Intimidação": 9,
+      "Intuição": 3,
+      "Percepção": 6,
+      "Tecnologia": 3,
+      "Veículos": 4
+    },
+    "pericias_detalhes": [
+      "Acrobacias 1 (+6)",
+      "Atletismo 1 (+15)",
+      "Enganação 3 (+6)",
+      "Intimidação 9 (+11)",
+      "Intuição 3 (+5)",
+      "Percepção 6 (+8)",
+      "Tecnologia 3 (+6)",
+      "Veículos 4 (+8)"
+    ],
+    "vantagens": [
+      "Ação em Movimento",
+      "Agarrar Aprimorado",
+      "Agarrar Rápido",
+      "Assustar",
+      "Ataque A Distância 4",
+      "Ataque Dominó 2",
+      "Ataque Imprudente",
+      "Ataque Poderoso",
+      "Crítico Aprimorado 3 (Armas de Guerra, Desarmado/Garras e Dentes 2\\) Duro de Matar",
+      "Estrangular",
+      "Imobilizar Aprimorado",
+      "Iniciativa Aprimorada"
+    ],
+    "poderes": [
+      "**Dentes e Garras**: Dano baseado em Força 2 (**Extars**: Penetrante 7); 9 pontos",
+      "**Poderoso**: Imunidade 10 (Suporte Vital), Regeneração 7, Salto 3 (15 metros), Velocidade 1; 21 pontos",
+      "**Sentidos Animalescos**: Sentidos 5 (Audição Normal \\[Estendido\\], Olfato Normal \\[Aguçado, Estendido\\], Visão na Penumbra, Ultra-audição); 5 pontos",
+      "**Armas de Guerra**: Dano baseado em Força 3 (**Extras**: Crítico Aprimorado, Descritor Variável \\[Armas medievais\\], Dividido, Penetrante 7\\. **Falhas**: Facilmente Removível \\-2 \\[-6 pontos\\]); 7 pontos"
+    ],
+    "equipamento": [],
+    "iniciativa": 9,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 13,
+        "alcance": "Corpo a corpo",
+        "dano": 14,
+        "descricao": "dano contuso 14, crit 18-20 (CD 29 vs Resistência)"
+      },
+      {
+        "nome": "Agarrar",
+        "bonus": 13,
+        "alcance": "Corpo a corpo",
+        "dano": "",
+        "descricao": "crit 20 (CD 24 vs Esquiva ou Força/Acrobacias ou Atletismo)"
+      },
+      {
+        "nome": "Dentes e Garras",
+        "bonus": 13,
+        "alcance": "Corpo a corpo",
+        "dano": 16,
+        "descricao": "dano cortante 16, crit 18-20 (CD 31 vs Resistência)"
+      },
+      {
+        "nome": "Armas de Guerra",
+        "bonus": 13,
+        "alcance": "Corpo a corpo",
+        "dano": 17,
+        "descricao": "dano contuso/cortante/perfurante 17, crit 18-20 (CD 32 vs Resistência)"
+      },
+      {
+        "nome": "Arremesso",
+        "bonus": 8,
+        "alcance": "À distância",
+        "dano": 14,
+        "descricao": "dano 14, crit 18-20 (CD 29 vs Resistência)"
+      }
+    ],
+    "custos": {
+      "Habilidades": 118,
+      "Defesas": 18,
+      "Perícias": 15,
+      "Vantagens": 19,
+      "Poderes": 45
+    },
+    "total": 215,
+    "complicacoes": [
+      {
+        "titulo": "Motivação (Uma Morte Honrosa)",
+        "texto": "Battle Beast é tão viciado em batalha que ele busca apenas encontrar oponentes cada vez mais merecedores de lutar, até finalmente algum matar ele. * **Obsessão (Lutar)**"
+      },
+      {
+        "titulo": "Relacionamento (Thresha)",
+        "texto": "Quando ela o faz sangrar durante o sexo, ele declara que está apaixonado."
+      }
+    ],
+    "notas": []
+  }
+}

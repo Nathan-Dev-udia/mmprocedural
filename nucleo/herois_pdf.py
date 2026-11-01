@@ -81,6 +81,47 @@ def _ler_marvel(dados):
     }
 
 
+def _ler_invencivel(dados):
+    f = dados["ficha"]
+    pericias = {}
+    for nome, val in f.get("pericias", {}).items():
+        if (limpo := _nome_da_pericia(nome)):
+            pericias[limpo] = {"grad": _inteiro(val), "total": None}
+    ataques = []
+    for a in f.get("ataques", []):
+        if isinstance(a, dict):
+            ataques.append((a["nome"], a.get("bonus"), a.get("dano", ""), a.get("descricao", "")))
+        else:
+            ataques.append((str(a), None, "", ""))
+    complicacoes = []
+    detalhes_comp = []
+    for c in f.get("complicacoes", []):
+        if isinstance(c, dict):
+            complicacoes.append(c["titulo"])
+            detalhes_comp.append(f"{c['titulo']}: {c['texto']}")
+        else:
+            complicacoes.append(str(c).split(":")[0])
+            detalhes_comp.append(str(c))
+    return {
+        "habilidades": {k: _inteiro(v) for k, v in f.get("habilidades", {}).items()},
+        "defesas": {"Resistência" if k == "Resistencia" else k: _inteiro(v) for k, v in f.get("defesas", {}).items()}
+                   if isinstance(f.get("defesas"), dict) else {},
+        "pericias": pericias,
+        "ataques": ataques,
+        "vantagens": list(f.get("vantagens", [])),
+        "poderes": list(f.get("poderes", [])),
+        "equipamento": list(f.get("equipamento", [])),
+        "complicacoes": complicacoes,
+        "iniciativa": f.get("iniciativa"),
+        "custos": dict(f.get("custos", {})),
+        "total": dados.get("pontos_poder"),
+        "notas": list(f.get("notas", []) if isinstance(f.get("notas"), list) else [f["notas"]] if f.get("notas") else []),
+        "serie": "Outros" if dados.get("universo") == "outros" else "Invencível",
+        "np": dados.get("nivel_poder"),
+        "detalhes_complicacoes": " ".join(detalhes_comp),
+    }
+
+
 # A extração do PDF da DC separa a letra capitular ("d odge 10 f or titude 12"): estas palavras são religadas
 # antes de ler os campos de defesas, ataques, perícias e pontos.
 _PALAVRAS_DC = ["Dodge", "Parry", "Fortitude", "Toughness", "Will", "Initiative", "Damage", "Close", "Ranged", "Crit",
@@ -183,8 +224,12 @@ def campos_do_heroi(ficha_id):
     traduzida = herois.traducao(ficha_id) if resumo["editora"] == "dc" else None
     if traduzida:
         h = _ler_traducao(dados, traduzida)
+    elif resumo["editora"] == "marvel":
+        h = _ler_marvel(dados)
+    elif resumo["editora"] in ("invencivel", "outros"):
+        h = _ler_invencivel(dados)
     else:
-        h = (_ler_marvel if resumo["editora"] == "marvel" else _ler_dc)(dados)
+        h = _ler_dc(dados)
     hab = {k: h["habilidades"].get(k, 0) for k in CAMPO_DA_HABILIDADE}
     campos = {"Herói": (traduzida or dados).get("nome_pt") or dados["nome"], "Series": h["serie"], "Nível de Poder": str(h["np"] or ""),
               "Grupo Afiliado": f"{h['serie']} {resumo['volume']}".strip()}
