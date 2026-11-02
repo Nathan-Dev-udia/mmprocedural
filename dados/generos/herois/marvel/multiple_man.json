@@ -75,10 +75,10 @@
       }
     ],
     "equipamento": [
-      "Pistola (+3 Damage; 6 EP)",
-      "Celular (1 EP)",
-      "Notebook (1 EP)",
-      "Apartamento (2 EP)"
+      "Pistola (+3 Dano; 6 PE)",
+      "Celular (1 PE)",
+      "Notebook (1 PE)",
+      "Apartamento (2 PE)"
     ],
     "complicacoes": [],
     "ataques": [
@@ -116,4 +116,4 @@
     "Dodge foi ajustada de 16 para 11 para cumprir Dodge + Toughness ≤ 16 (NP 8).",
     "Poderes fechados em 3e: Duplicação Cinética (31 PP) + Uniforme Amortecedor (12 PP) = 43 PP poderes. Total 3e: 179 PP."
   ]
-}
+}

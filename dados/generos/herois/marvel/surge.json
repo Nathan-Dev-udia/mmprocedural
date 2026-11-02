@@ -65,7 +65,7 @@
       }
     ],
     "equipamento": [
-      "New X-Men Uniform [+3 Toughness Save; Comm-Link; 4ep]",
+      "New X-Men Uniform [+3 Resistência Save; Comm-Link; 4ep]",
       "Power Gauntlets [1ep]"
     ],
     "complicacoes": [],
@@ -115,4 +115,4 @@
     "Correção de custo: as perícias somam 45 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 45 para 22.5 PP (subtotal e totais ajustados em -22.5).",
     "Poderes fechados em 3e: Super-Velocidade e Controle Elétrico fechados em 22 PP. Total 3e: 133.5 PP."
   ]
-}
+}

@@ -1,0 +1,118 @@
+{
+  "nome_pt": "Capitão Frio (Leonard Snart)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 98,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 3,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 3,
+      "Int": 3,
+      "Pro": 2,
+      "Pre": 3
+    },
+    "poderes": [
+      "Frio-Guns: Arranjo (21 pontos), Facilmente Removível (-10 pontos) • Chilling Frio: Área de Explosão Enfraquecer 7 (resistido por Fortitude, Broad: Super-Velocidade Powers) (21 PP)",
+      "• Freezing Raio: Dano à Distância 7 (1 PP)",
+      "• Ice Block: umulative Aflição 7 (resistido por Esquiva; Impedido and Vulnerável, Indefeso and Imóvel), Extra Condition, Limitado a Dois Graus (1 PP)",
+      "• Icy Surface: Área de Cone Aflição 10 (resistido por Esquiva; Impedido and Vulnerável), Extra Condition, Limitado Degree 2 (1 PP)",
+      "• Ice Shapes: Criar Objetos 7 (1 PP)",
+      "Frio Suit: Imunidade 1 (Frio); Proteção 4, Removível (-1 ponto) (4 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Preciso",
+      "Rolamento Defensivo 3",
+      "Mira Aprimorada",
+      "Liderança",
+      "Ação em Movimento",
+      "Precise Attack 2 (à distância; Cover and Concealment)",
+      "Saque Rápido",
+      "Provocar"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Especialidade: Cryogenics",
+        "graduacoes": 10,
+        "total": 13
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Combate à Distância: Frio-Guns",
+        "graduacoes": 10,
+        "total": 13
+      }
+    ],
+    "iniciativa": 3,
+    "ataques": [
+      {
+        "nome": "Frio-Guns",
+        "bonus": 13,
+        "alcance": "À distância",
+        "dano": "Dano 7 (and others)"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Fortitude": 8,
+      "Aparar": 8,
+      "Resistência": 7,
+      "Vontade": 6
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 44,
+      "Perícias": 29,
+      "Poderes": 19,
+      "Defesas": 21,
+      "Vantagens": 11
+    },
+    "total": 124,
+    "complicacoes": [
+      {
+        "titulo": "Inimigo",
+        "texto": "The Flash."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

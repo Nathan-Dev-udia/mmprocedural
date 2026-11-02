@@ -92,8 +92,8 @@
       }
     ],
     "equipamento": [
-      "Uniforme (+4 Toughness; Quick Change; 5 EP)",
-      "Asteroid M (Colossal; Toughness 20; Combat Simulator, Communications, Computer, Defense System, Fire Prevention, Gym, Hangar, Holding Cell, Infirmary, Isolated, Laboratory, Living Space, Power System, Security System, Teleport (Affects Others); 23 EP)"
+      "Uniforme (+4 Resistência; Quick Change; 5 PE)",
+      "Asteroid M (Colossal; Resistência 20; Combat Simulator, Communications, Computer, Defense System, Fire Prevention, Gym, Hangar, Holding Cell, Infirmary, Isolated, Laboratory, Living Space, Power System, Security System, Teleport (Affects Others); 23 PE)"
     ],
     "complicacoes": [],
     "ataques": [

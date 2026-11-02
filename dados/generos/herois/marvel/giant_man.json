@@ -72,15 +72,15 @@
       },
       {
         "nome": "Super Strength",
-        "construcao_3e": "Super-Força / Power-Lifting 3 (3 PP) + Dano em Área de Impacto no Solo / Ground Strike 4 (4 PP) = 7 PP.",
+        "construcao_3e": "Super-Força / Power-Lifting 3 (3 PP) + Dano em Área de Impacto no Solo / Ground Golpe 4 (4 PP) = 7 PP.",
         "custo_2e_pp": 7,
         "custo_3e_pp": 7,
         "nome_pt": "Super-Força e Impacto Terrestre"
       }
     ],
     "equipamento": [
-      "Uniforme (+3 Resistência; 3 EP)",
-      "comunicador (1 EP)"
+      "Uniforme (+3 Resistência; 3 PE)",
+      "comunicador (1 PE)"
     ],
     "complicacoes": [],
     "ataques": [

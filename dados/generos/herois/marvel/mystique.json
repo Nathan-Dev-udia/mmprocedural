@@ -60,15 +60,15 @@
     "poderes": [
       {
         "nome": "Morph",
-        "construcao_3e": "Morph 10.",
+        "construcao_3e": "Metamorfose 10.",
         "custo_2e_pp": 30,
         "custo_3e_pp": 10,
         "nome_pt": "Metamorfose"
       }
     ],
     "equipamento": [
-      "Duas pistolas (+4 Damage; Autofire; 12 EP)",
-      "3 EP extras"
+      "Duas pistolas (+4 Dano; Multiataque; 12 PE)",
+      "3 PE extras"
     ],
     "complicacoes": [],
     "ataques": [
@@ -116,4 +116,4 @@
     "Dodge foi ajustada de 20 para 14 para cumprir Dodge + Toughness ≤ 20 (NP 10).",
     "Os custos 3e somam 191.5 PP (74 habilidades base + 10 poderes + 42 defesas + 39.5 perícias + 26 vantagens)."
   ]
-}
+}

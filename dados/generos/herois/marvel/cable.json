@@ -90,9 +90,9 @@
       }
     ],
     "equipamento": [
-      "Armadura corporal (+4 Toughness; 4 EP)",
-      "Comunicador (1 EP)",
-      "Arsenal (33 EP): Explosivos plásticos (+10 Damage; Explosion Area; 30 EP), Rifle blaster com mira laser (+8 Damage; Autofire; Attack Focus; 25 EP), Duas pistolas (+3 Damage; Autofire; 9 EP), Gás lacrimogêneo (Dazzle 4 + Nauseate Explosion 4; 18 EP)"
+      "Armadura corporal (+4 Resistência; 4 PE)",
+      "Comunicador (1 PE)",
+      "Arsenal (33 PE): Explosivos plásticos (+10 Dano; Explosion Area; 30 PE), Rifle blaster com mira laser (+8 Dano; Multiataque; Attack Focus; 25 PE), Duas pistolas (+3 Dano; Multiataque; 9 PE), Gás lacrimogêneo (Dazzle 4 + Nauseate Explosion 4; 18 PE)"
     ],
     "complicacoes": [
       "Techno-Organic Virus: se Cable for levado a inconsciencia ao usar Esforço Extra em Telekinesis, ele morre."

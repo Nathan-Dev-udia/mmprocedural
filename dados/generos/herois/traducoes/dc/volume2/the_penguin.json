@@ -1,0 +1,134 @@
+{
+  "nome_pt": "Pinguim (Oswald Cobblepot)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 99,
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 3,
+      "Agi": 2,
+      "Des": 4,
+      "Lut": 6,
+      "Int": 5,
+      "Pro": 5,
+      "Pre": 4
+    },
+    "poderes": [
+      "t Facilmente Removível (-6 pontos) (23 PP)",
+      "rick Umbr ellas: Mini-Helicopter: Voo 4 (48 km/h) (8 PP)",
+      "Weapons: Arranjo (18 pontos)",
+      "• Spinning Blades: Multiataque Dano 9 (18 PP)",
+      "• f lamethr ower: Área de Cone Dano 6, Efeito Secundário (1 PP)",
+      "• k nockout Gas: Área de Nuvem Aflição 9 (resistido por Fortitude; Fatigado, Exausto, Incapacitado) (1 PP)",
+      "• Machine Gun: À Distância Multiataque Dano 6 (1 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Empatia com Animais",
+      "Benefit 4 (Multi-millionaire)",
+      "Benefit 2 (Status: Criminal mastermind)",
+      "Ataque Corpo-a-Corpo 2",
+      "Conectado",
+      "Contatos",
+      "Rolamento Defensivo 3",
+      "Ataque à Distância 4",
+      "Bem-Informado"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Trick Umbrella",
+        "graduacoes": 4,
+        "total": 10
+      },
+      {
+        "nome": "Especialidade: Business",
+        "graduacoes": 12,
+        "total": 17
+      },
+      {
+        "nome": "Especialidade: Criminal",
+        "graduacoes": 14,
+        "total": 19
+      },
+      {
+        "nome": "Especialidade: Ornithology",
+        "graduacoes": 10,
+        "total": 15
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 9
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 6,
+        "total": 11
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Combate à Distância: Trick Umbrella",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 10,
+        "total": 14
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Spinning Blades",
+        "bonus": 12,
+        "alcance": "Corpo a corpo",
+        "dano": "Multiataque Dano 9"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 0"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Fortitude": 8,
+      "Aparar": 12,
+      "Resistência": 6,
+      "Vontade": 8
+    },
+    "observacao_defesas": "* Vontade 8 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 58,
+      "Perícias": 41,
+      "Poderes": 23,
+      "Defesas": 20,
+      "Vantagens": 19
+    },
+    "total": 161,
+    "complicacoes": [
+      {
+        "titulo": "o bsession",
+        "texto": "The Penguin is obsessed with birds. ademark: The Penguin’s crimes usually have a bird-related t r theme. The Gamemaster should make liberal use of complications ( CD Adventures Hero’s Handbook, page 27) in scenarios involv- ing the Penguin, from the elements of the Felonious Fowl’s latest scheme (deathtraps, red herrings, and so forth) to a cunning use of his thugs or another distraction to cover his escape when his plan goes sour. aLLI e S The Penguin possesses deep ties to the Gotham mob, and an audit of his business practices revealed connections to Lex Luthor’s empire as well. He was once a member of both the Injustice League and Suicide Squad, but now prefers a more lucrative solo career. His recent allies include the Riddler and Mad Hatter, and he has allied himself with several of Gotham’s other key criminal players when it has been profitable to do so, including Catwoman, the Joker, Scarecrow and Two-Face."
+      },
+      {
+        "titulo": "Batman occasionally uses Cobblepot as a source of informa- tion",
+        "texto": "the Penguin is more than happy to sell information to Batman provided the price is right, though the Penguin has a habit of neglecting to mention key elements that might give the Dark Knight too much help. He employs three “hench- birds” in the Iceberg Lounge—Jay, Raven and Lark—beautiful women who serve as hostesses and information-gatherers. e ne MI e S The Penguin’s criminal activities put him in conflict with other criminals and Gotham’s law enforcement, especially Batman and Robin. He has actively fought Two-Face, Killer Croc, Black Mask, the Joker, Mr. Freeze, and the Great White Shark for control over various parts of Gotham City, though usually in a proxy gang war between underlings."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

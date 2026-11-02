@@ -1,0 +1,106 @@
+{
+  "nome_pt": "Adão Negro",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 52,
+  "ficha": {
+    "habilidades": {
+      "For": 19,
+      "Vig": 16,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 10,
+      "Int": 1,
+      "Pro": 10,
+      "Pre": 3
+    },
+    "poderes": [
+      "Vigor of Shu: Proteção 2, Resistência Impenetrável 18; Imunidade 10 (Suporte Vital) (30 PP)",
+      "Swiftness of Heru: Arranjo (30 pontos)",
+      "• Voo 15 (64,0 km/h) (30 PP)",
+      "• Dimensional Travel 1 (Rock of Eternity) (1 PP)",
+      "• Rapidez 15, Velocidade 15 (64,0 km/h) (1 PP)",
+      "Força of Amon: Força Aprimorada 4, Limitado a Lifting (lifting Str 23; 200,000 tons) (4 PP)",
+      "Wisdom of Zehuti: Prontidão Aprimorada 7, Enhanced Advantages 4 (Assessment, Beginner’s Luck, Eidetic Memory, Jack-of-all-trades) (18 PP)",
+      "Courage of Mehen: Enhanced Vontade 5, Impenetrável Vontade 10 (15 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Avaliação",
+      "Beginner’s Luck",
+      "Memória Eidética",
+      "Grande Vigor",
+      "Iniciativa Aprimorada",
+      "Pau pra Toda Obra",
+      "Ação em Movimento"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 3,
+        "total": 13
+      },
+      {
+        "nome": "Especialidade: Tactics",
+        "graduacoes": 9,
+        "total": 10
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 2,
+        "total": 12
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 2,
+        "total": 12
+      }
+    ],
+    "iniciativa": 6,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 13,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 19"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 11,
+      "Fortitude": 16,
+      "Aparar": 11,
+      "Resistência": 18,
+      "Vontade": 16
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 112,
+      "Perícias": 12,
+      "Poderes": 99,
+      "Defesas": 11,
+      "Vantagens": 3
+    },
+    "total": 237,
+    "complicacoes": [
+      {
+        "titulo": "Perda de Poder",
+        "texto": "Black Adam loses his Powers and reverts to his mortal form when he speaks the mágico word “Shazam. ” His Força, Vigor, and Prontidão become 3."
+      },
+      {
+        "titulo": "Relacionamento",
+        "texto": "With his wife, Isis (Adrianna Tomaz) and brother- in-law, Osiris (Amon Tomaz)."
+      },
+      {
+        "titulo": "Temperamento",
+        "texto": "Black Adam is infamous for his towering rages."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

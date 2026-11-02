@@ -63,7 +63,7 @@
       },
       {
         "nome": "Movement",
-        "construcao_3e": "Movement 2 (Wall-Crawling).",
+        "construcao_3e": "Movimento 2 (Wall-Crawling).",
         "custo_2e_pp": 4,
         "custo_3e_pp": 4,
         "nome_pt": "Escalar Paredes"
@@ -106,4 +106,4 @@
     "Dodge foi ajustada de 20 para 14 para cumprir Dodge + Toughness ≤ 20 (NP 10).",
     "Poderes fechados em 3e: Fogo Infernal e Possessão fechados em 17 PP + Cauda (1 PP) + Escalada (4 PP) = 22 PP poderes. Total 3e: 149 PP."
   ]
-}
+}

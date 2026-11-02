@@ -1,0 +1,172 @@
+{
+  "nome_pt": "Batgirl (Barbara Gordon)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 40,
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 3,
+      "Agi": 4,
+      "Des": 5,
+      "Lut": 9,
+      "Int": 4,
+      "Pro": 4,
+      "Pre": 3
+    },
+    "poderes": [
+      "Cowl Sensors: Sentidos 2 (Infravisão, Tracking), Removível (-0 pontos) (2 PP)"
+    ],
+    "equipamento": [
+      "Flashlight: Característica 1 (Illumination) (1 PP)",
+      "Grapnel Gun: Super-Movimento 1 (Swinging) (2 PP)",
+      "Mini-Tracers: Característica 1 (Tracking) (1 PP)",
+      "Rebreather: Imunidade 2 (Sufocamento), Limitado (1 PP)",
+      "Utility Belt: Arranjo (12 pontos)",
+      "• Tear Gas Pellets: À Distância Área de Nuvem Aflição 3 (resistido por Fortitude; Tonto and Vision Impaired, Atordoado and Vision Disabled, Incapacitado) (12 PP)",
+      "• Batarangues: Força-based Dano à Distância 2 (1 PP)",
+      "• Bolos: Aflição à Distância 4 (resistido por Esquiva; Impedido and Vulnerável, Indefeso and Imóvel) (1 PP)",
+      "• Cutting Torch: Dano 1 Linked to Enfraquecer Object’s Resistência 1 (1 PP)",
+      "• Explosive Batarangues: À Distância Área de Explosão Dano 4 (1 PP)",
+      "• Flash Bombs: À Distância Área de Explosão Aflição 3 (resistido por Fortitude; Vision Impaired, Vision Disabled, Vision Unaware) (1 PP)",
+      "• Sleep Gas Pellets: À Distância Área de Nuvem Aflição 4 (resistido por Fortitude; Fatigado, Exausto, Adormecido) (1 PP)",
+      "• Smoke Bombs: Área de Nuvem Visual Camuflagem Attack 4 (1 PP)",
+      "VEHICLE: MOTORCYCLE (11 PP)",
+      "Size: Medium Str 1 Spd 6 Def 10 Tou 8 Features: Navigation System"
+    ],
+    "vantagens": [
+      "Ataque Preciso",
+      "Finta Ágil",
+      "Beginner’s Luck",
+      "Ataque Corpo-a-Corpo 2",
+      "Contatos",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 2",
+      "Memória Eidética",
+      "Equipamento 7",
+      "Evasion 2",
+      "Esconder-se a Plena Vista",
+      "Defesa Aprimorada",
+      "Desarmar Aprimorado",
+      "Iniciativa Aprimorada",
+      "Derrubar Aprimorado",
+      "Levantar Rápido",
+      "Pau pra Toda Obra",
+      "Ataque à Distância 3",
+      "Redirecionar",
+      "Preparar",
+      "Bem-Informado"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 4,
+        "total": 13
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: Law Enforcement",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Especialidade: Research",
+        "graduacoes": 10,
+        "total": 14
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 5,
+        "total": 9
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 7,
+        "total": 11
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Combate à Distância: Batarangue",
+        "graduacoes": 5,
+        "total": 10
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 7,
+        "total": 12
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 10,
+        "total": 15
+      }
+    ],
+    "iniciativa": 8,
+    "ataques": [
+      {
+        "nome": "Batarangue",
+        "bonus": 13,
+        "alcance": "À distância",
+        "dano": "Dano 5"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 15,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 3"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 14,
+      "Fortitude": 8,
+      "Aparar": 14,
+      "Resistência": 4,
+      "Vontade": 8
+    },
+    "observacao_defesas": "* Vontade 8 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 70,
+      "Perícias": 47,
+      "Poderes": 2,
+      "Defesas": 24,
+      "Vantagens": 32
+    },
+    "total": 175,
+    "complicacoes": [
+      {
+        "titulo": "Family",
+        "texto": "Babs is dedicated to her father, Commissioner Jim Gordon, and also her extended family in the super-hero community, namely the Batman family and the Birds of Prey."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

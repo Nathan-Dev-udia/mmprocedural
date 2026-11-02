@@ -1,0 +1,117 @@
+{
+  "nome_pt": "Darkseid",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 145,
+  "ficha": {
+    "habilidades": {
+      "For": 18,
+      "Vig": 19,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 12,
+      "Int": 8,
+      "Pro": 5,
+      "Pre": 7
+    },
+    "poderes": [
+      "Imortal: Imunidade 11 (Envelhecimento, Suporte Vital), Resistência Impenetrável 10 (21 PP)",
+      "Efeito Ômega: Arranjo (56 pontos)",
+      "• Destruição: Dano 20, Dimensional 3, Teleguiado 12, Reversível (56 PP)",
+      "• Dor: Aflição à Distância 20 (resistido por Fortitude; Tonto, Atordoado), Concentração, Dimensional 3, Teleguiado 12, Reversível, Limitado a Dois Graus (1 PP)",
+      "• Transporte: Teleporte Attack 20 (4,000 milhas), Dimensional 3, Teleguiado 12, Reversível (1 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Benefit 10 (Lord of Apokolips)",
+      "Destemido",
+      "Ataque Poderoso",
+      "Derrubar em Sequência"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 2,
+        "total": 14
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 8,
+        "total": 15
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 14,
+        "total": 21
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 9
+      },
+      {
+        "nome": "Combate à Distância: Efeito Ômega",
+        "graduacoes": 10,
+        "total": 12
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 4,
+        "total": 12
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 4,
+        "total": 6
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Efeito Ômega",
+        "bonus": 12,
+        "alcance": "À distância",
+        "dano": "Dano 20 mais outros"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 14,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 18"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Fortitude": 19,
+      "Aparar": 12,
+      "Resistência": 19,
+      "Vontade": 13
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 146,
+      "Perícias": 27,
+      "Poderes": 79,
+      "Defesas": 18,
+      "Vantagens": 13
+    },
+    "total": 283,
+    "complicacoes": [
+      {
+        "titulo": "Arrogance",
+        "texto": "Darkseid is supremely arrogant and confident in his position as a god."
+      },
+      {
+        "titulo": "Obsessão",
+        "texto": "With discovering the Anti-Life Equation and extinguishing free Vontade throughout the cosmos."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

@@ -70,14 +70,14 @@
       },
       {
         "nome": "Super Senses",
-        "construcao_3e": "Senses 14 (Blindsight, Extended, Acute Touch, Scent, Radio, Tremorsense, Ultra-Hearing).",
+        "construcao_3e": "Sentidos 14 (Blindsight, Extended, Aguçado Touch, Scent, Rádio, Sentido Sísmico, Ultra-Audição).",
         "custo_2e_pp": 14,
         "custo_3e_pp": 14,
         "nome_pt": "Super-Sentidos Radar"
       }
     ],
     "equipamento": [
-      "Uniforme (+3 Resistência; Subtle; 4 EP)"
+      "Uniforme (+3 Resistência; Sutil; 4 PE)"
     ],
     "complicacoes": [
       "Deficiência (cegueira; ocorrência incomum; intensidade menor; 1 PP).",
@@ -118,4 +118,4 @@
     "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados.",
     "Poderes fechados em 3e: Bastão do Demolidor precificado em 6 PP + Super-Sentidos 14 PP = 20 PP poderes. Total 3e: 177.5 PP."
   ]
-}
+}

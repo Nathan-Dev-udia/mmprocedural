@@ -1,0 +1,94 @@
+{
+  "nome_pt": "Espectro",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 187,
+  "ficha": {
+    "habilidades": {
+      "For": 16,
+      "Vig": 20,
+      "Agi": 8,
+      "Des": 8,
+      "Lut": 10,
+      "Int": 9,
+      "Pro": 20,
+      "Pre": 16
+    },
+    "poderes": [
+      "d Sentidos 42 (Analítico on all Sight and ivine P erception: Prontidão effects, Prontidão 3 (Cosmic, Divine, Magical; Extended 5 on all Prontidão effects), Counters All Camuflagem on Sight and Hearing, Counters Ilusão on Sight and Hearing, Analítico Detect Guilt, Postcognition (Limitado a the commission of crimes, sins, etc.), Tracking) (40 PP)",
+      "o ther worldly Being: Compreender 11 (Animals (Speak To, Understand), Languages (Read, Speak, Understand, Understood), Objects, Plants, Spirits (Communicate, Medium)); Imortalidade 16, Limitado—Not if killed with mágico; Metamorfose 4 (Any Form), Contínuo; Movimento 6 (Dimensional Travel 3, Space Travel 3) (74 PP)",
+      "eality Manipulation: Arranjo (135 pontos) r • Microcosm: Ilusão 15 (All Sentidos), área 3, Seletivo; Dynamic (135 PP)",
+      "• Conjure from a : Contínuo Perception À Distância t hin ir Criar Objetos 18, Inato, Preciso, Dynamic (2 PP)",
+      "• Cruelly i onic Justice: Cumulativo Perception À Distância r Aflição 18 (resistido por Vontade; Tonto, Atordoado, Transformado), Preciso, Sutil, Variável Descriptor 2 (Magical), Dynamic (2 PP)",
+      "• apable Punishment: Perception Dano à Distância 18, i nesc Variável Descriptor 2 (Magical), Dynamic (2 PP)",
+      "• where t Hide: Remote Sensing 25 (All Visual and n o o Auditory), Simultaneous, Dimensional 3, Sutil, Dynamic (2 PP)",
+      "• eality i a i Vontade i e: Perception À Distância Contínuo r s s t t o B Transform 16 (Anything to Anything, 25 tons), Dynamic (2 PP)",
+      "• World Walking: Teleporte 20 (4,000 milhas), Preciso, Attack (plus self ), Easy, Extended (1 million milhas), Increased Mass 20 (25,000 tons), Sutil 2 (World subtly shifts around a passenger before they realize it), Dynamic (2 PP)",
+      "Spectre: Camuflagem 10 (Limitado a non-magical Sentidos); Resistência Impenetrável 20; Imunidade 110 (all Resistência and Fortitude effects; Limitado a non-magical effects, Limitado a half-Força on Resistência effects); Intangibilidade 4 (Contínuo; Preciso, Sutil 2) (95 PP)",
+      "h o S t S For Jim Corrigan and Crispus Allen, use the Supporting Cast archetype for Police Officer with small modifica- tion—Corrigan has Pre 2, Intimidation 6 (+8) and Vontade 4; i nt 2, a we 2, and Investigation 6 (+8). Allen has"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Benefit 6 (Status: Wrath of God Incarnate)",
+      "Tontear (Intimidação)",
+      "Esforço Extraordinário",
+      "Fascinar (Intimidação)",
+      "Destemido",
+      "Tomar a Iniciativa",
+      "Maestria em Perícia (Intimidação)"
+    ],
+    "pericias": [
+      {
+        "nome": "Especialidade: Heaven and The Presence",
+        "graduacoes": 16,
+        "total": 25
+      },
+      {
+        "nome": "Especialidade: Supernatural World",
+        "graduacoes": 16,
+        "total": 25
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 12,
+        "total": 28
+      }
+    ],
+    "iniciativa": 8,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 16 Reality Manipulation — Perception À Distância, Dano 18 or other effects"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Aparar": 12,
+      "Resistência": 20,
+      "Vontade": 20
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 214,
+      "Perícias": 22,
+      "Poderes": 356,
+      "Defesas": 6,
+      "Vantagens": 12
+    },
+    "total": 610,
+    "complicacoes": [
+      {
+        "titulo": "of the Lord’s Will",
+        "texto": "role it plays and cannot set aside its duty regardless of what its hosts may want or need. A primal entity, it has little personal direction apart from its mandate and answers unswervingly to its “boss” known as The Presença."
+      },
+      {
+        "titulo": "Wrath is More a Word",
+        "texto": "The Spectre is not actually an t han instrument of justice, but rather of a divine and decidedly Old Testament vengeance—compassion and forgiveness play little part in its actions. p un IS hed f or hIS f a IL ure S During the times when the Spectre has been “demoted, ” such as the period following his successive failures to defeat the Anti-Monitor and the Great Evil Beast, he operates at PL 12, with the following modifications: i a we 12, and Pre 8. nt 8, drop Abilities to Str 10, Sta 12, Halve the graduações on his Arranjo Powers, drop the Space and Time Travel effects altogether, and pull in the rest of his numbers until they meet his adjusted caps."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

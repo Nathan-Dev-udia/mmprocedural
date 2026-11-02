@@ -50,28 +50,28 @@
     "poderes": [
       {
         "nome": "Blast",
-        "construcao_3e": "Dano Sônico à Distância 10 (Área em Cone, Duração Concentração; 40 PP); Efeitos Alternativos: Dazzle Auditivo em Cone (1 PP), Deflexão Livre de Projéteis Lentos (1 PP), Controle Emocional Sônico (1 PP). Array total: 44 PP (custo original da fonte preservado).",
+        "construcao_3e": "Dano Sônico à Distância 10 (Área em Cone, Duração Concentração; 40 PP); Efeitos Alternativos: Ofuscar Auditivo em Cone (1 PP), Deflexão Livre de Projéteis Lentos (1 PP), Controle Emocional Sônico (1 PP). Array total: 44 PP (custo original da fonte preservado).",
         "custo_2e_pp": 44,
         "custo_3e_pp": 44,
         "nome_pt": "Grito Sônico"
       },
       {
         "nome": "Flight",
-        "construcao_3e": "Flight 4.",
+        "construcao_3e": "Voo 4.",
         "custo_2e_pp": 8,
         "custo_3e_pp": 8,
         "nome_pt": "Voo Sônico"
       },
       {
         "nome": "Super Senses",
-        "construcao_3e": "Senses 3 (Extended Hearing 3).",
+        "construcao_3e": "Sentidos 3 (Audição Estendida 3).",
         "custo_2e_pp": 3,
         "custo_3e_pp": 3,
         "nome_pt": "Super-Sentidos (Audição Aguçada)"
       }
     ],
     "equipamento": [
-      "Uniform [+3 Toughness Save; Subtle; 4ep]",
+      "Uniform [+3 Resistência Save; Sutil; 4ep]",
       "Cell Phone [1ep]"
     ],
     "complicacoes": [],
@@ -108,4 +108,4 @@
     "Correção de custo: as perícias somam 33 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 33 para 16.5 PP (subtotal e totais ajustados em -16.5).",
     "Poderes fechados em 3e: Grito Sônico fechado em 44 PP + Voo (8 PP) + Sentidos (3 PP) = 55 PP poderes. Total 3e: 141.5 PP."
   ]
-}
+}

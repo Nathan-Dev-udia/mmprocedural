@@ -1,0 +1,57 @@
+{
+  "nome_pt": "Ra's al Ghul",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 123,
+  "ficha": {
+    "habilidades": {
+      "For": 4,
+      "Vig": 5,
+      "Agi": 3,
+      "Des": 4,
+      "Lut": 14,
+      "Int": 9,
+      "Pro": 5,
+      "Pre": 7
+    },
+    "poderes": [
+      "0 Defenses 24"
+    ],
+    "equipamento": [
+      "Espada (Força-based Dano 3, Improved Critical) (4 PP)"
+    ],
+    "vantagens": [
+      "44 Total 225 Co MPL i C tion S a a Ra’s believes he knows what is best for everyone rr ogance: and the world",
+      "and that he alone has the Will to do what must be done to save it. Legacy: Ra’s is obsessed with his own mortality and the legacy he must leave to a worthy successor."
+    ],
+    "pericias": [],
+    "iniciativa": 7,
+    "ataques": [
+      {
+        "nome": "Espada",
+        "bonus": 20,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 7, Crit. 18-20"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 18,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 4"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Fortitude": 11,
+      "Aparar": 14,
+      "Resistência": 8,
+      "Vontade": 14
+    },
+    "observacao_defesas": "* Vontade 14 *sem Rolamento Defensivo. W S Po er ponto Abilities 102",
+    "custos": {},
+    "total": null,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

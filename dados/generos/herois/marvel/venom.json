@@ -65,7 +65,7 @@
       },
       {
         "nome": "Snare",
-        "construcao_3e": "Aflição à Distância 9 Cumulativa (Resistida por Esquiva/Força; Impedido e Vulnerável, Defenseless e Imobilizado; 27 PP).",
+        "construcao_3e": "Aflição à Distância 9 Cumulativa (Resistida por Esquiva/Força; Impedido e Vulnerável, Indefeso e Imobilizado; 27 PP).",
         "custo_2e_pp": 27,
         "custo_3e_pp": 27,
         "nome_pt": "Teia Simbiótica de Matéria Viva"

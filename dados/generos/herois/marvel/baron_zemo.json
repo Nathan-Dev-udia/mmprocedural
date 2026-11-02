@@ -66,17 +66,18 @@
     "poderes": [
       {
         "nome": "Adhesive X Blaster",
-        "construcao_3e": "Device (facilmente removível): Snare 10 (Ranged Affliction 10, resistida por Esquiva; Impedido/Vulnerável, Indefeso/Imobilizado; Condição Extra, Grau Limitado; 20 PP). Facilmente removível (-8 PP) = 12 PP.",
+        "construcao_3e": "Dispositivo (facilmente removível): Aprisionar 10 (Aflição à Distância 10, resistida por Esquiva; Impedido/Vulnerável, Indefeso/Imobilizado; Condição Extra, Grau Limitado; 20 PP). Facilmente removível (-8 PP) = 12 PP.",
         "custo_2e_pp": 12,
-        "custo_3e_pp": 12
+        "custo_3e_pp": 12,
+        "nome_pt": "Lançador de Adesivo X"
       }
     ],
     "equipamento": [
-      "Espada (+3 Damage; 19-20 Crit; Mighty; 5 EP)",
-      "Uniforme (+3 Toughness; 3 EP)",
-      "Comunicador (1 EP)",
-      "Pistola pesada (+4 Damage; 8 EP)",
-      "Zemo Estate (Headquarters Huge; Toughness 10; comunicacoes, garagem, celas, enfermaria, laboratorio, biblioteca, alojamento, seguranca e oficina; 13 EP)"
+      "Espada (+3 Dano; 19-20 Crítico; Baseado em Força; 5 PE)",
+      "Uniforme (+3 Resistência; 3 PE)",
+      "Comunicador (1 PE)",
+      "Pistola pesada (+4 Dano; 8 PE)",
+      "Zemo Estate (Headquarters Huge; Resistência 10; comunicacoes, garagem, celas, enfermaria, laboratorio, biblioteca, alojamento, seguranca e oficina; 13 PE)"
     ],
     "complicacoes": [],
     "ataques": [
@@ -117,4 +118,4 @@
     "vantagens": 36,
     "total": 190.5
   }
-}
+}

@@ -44,7 +44,7 @@
       "Equipamento",
       "Iniciativa Aprimorada",
       "Ação em Movimento",
-      "Feature: Favored Environment (Airborne)",
+      "Feature: Favored Environment (Aéreo)",
       "Ataque Poderoso",
       "Trabalho em Equipe 3"
     ],
@@ -72,7 +72,7 @@
       }
     ],
     "equipamento": [
-      "Uniforme dos New X-Men (+4 Toughness; Comunicador; 5 EP)"
+      "Uniforme dos New X-Men (+4 Resistência; Comunicador; 5 PE)"
     ],
     "complicacoes": [],
     "ataques": [

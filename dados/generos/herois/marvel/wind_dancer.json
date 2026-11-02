@@ -60,14 +60,14 @@
       },
       {
         "nome": "Super Senses",
-        "construcao_3e": "Senses: Extended Hearing 5; fonte 5 PP.",
+        "construcao_3e": "Sentidos: Audição Estendida 5; fonte 5 PP.",
         "custo_2e_pp": 5,
         "custo_3e_pp": 5,
         "nome_pt": "Super-Sentidos (Audição Aguçada)"
       }
     ],
     "equipamento": [
-      "New X-Men Uniform [+4 Toughness; Comm-Link; 5ep]"
+      "New X-Men Uniform [+4 Resistência; Comm-Link; 5ep]"
     ],
     "complicacoes": [],
     "ataques": [
@@ -109,4 +109,4 @@
     "Correção de custo: as perícias somam 49 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 49 para 24.5 PP (subtotal e totais ajustados em -24.5).",
     "Poderes fechados em 3e: Controle Elemental de Ar fechado em 36 PP + Super-Sentidos 5 PP = 41 PP poderes. Total 3e: 136.5 PP."
   ]
-}
+}

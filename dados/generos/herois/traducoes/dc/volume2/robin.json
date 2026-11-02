@@ -1,0 +1,190 @@
+{
+  "nome_pt": "Robin (Damian Wayne)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 141,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 1,
+      "Agi": 5,
+      "Des": 5,
+      "Lut": 8,
+      "Int": 5,
+      "Pro": 4,
+      "Pre": 3
+    },
+    "poderes": [
+      "0 Defenses 20 Advantages 34 Total 177"
+    ],
+    "equipamento": [
+      "Binoculars: Visão Estendida 1 (1 PP)",
+      "Costume: Proteção 1 (1 PP)",
+      "Grapnel Gun: Super-Movimento 1 (Swinging) (2 PP)",
+      "Mini- t r acers: Característica 1 (1 PP)",
+      "Utility Belt: Arranjo (12 pontos)",
+      "• f lash B ombs: À Distância Área de Explosão Aflição 4 (resistido por Fortitude; Visually Impaired, Visually Disabled, Visually Unaware) (12 PP)",
+      "• Batarangues: À Distância Força-based Dano 1 (1 PP)",
+      "• Bo Staff: Força-based Dano 2, Reach 1 (1 PP)",
+      "• Bolos: Aflição à Distância 4 (resistido por Esquiva; Impedido and Vulnerável, Indefeso and Imóvel), Extra Condition, Limitado Degree (1 PP)",
+      "• Sleep Gas Pellets: À Distância Área de Nuvem Aflição 4 (resistido por Fortitude; Fatigado, Exausto, Adormecido) (1 PP)",
+      "• Smoke Bombs: Área de Nuvem Visual Camuflagem Attack 4 (1 PP)",
+      "• as Pellets: À Distância Área de Nuvem Aflição 3 (Resisted t ear G by Fortitude; Tonto and Visually Impaired, Atordoado and Visually Disabled, Incapacitado), Extra Condition (1 PP)",
+      "Ve H i CL e: Motor C y CL e • 11 POI n TS Size: Medium Str: 1 Spd: 6 d ef: 10 t ou: 8 f ea tures: Navigation System"
+    ],
+    "vantagens": [
+      "Beginner’s Luck",
+      "Ataque Corpo-a-Corpo 4",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 3",
+      "Equipamento 7",
+      "Evasion",
+      "Esconder-se a Plena Vista",
+      "Iniciativa Aprimorada",
+      "Ferramentas Improvisadas",
+      "Levantar Rápido",
+      "Languages 3",
+      "Ação em Movimento",
+      "Ataque Poderoso",
+      "Precise Attack (Close",
+      "Concealment)",
+      "Saque Rápido",
+      "Redirecionar",
+      "Set-Up",
+      "Derrubar em Sequência",
+      "Trabalho em Equipe",
+      "Rastrear",
+      "Esquiva Fabulosa"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 1,
+        "total": 9
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Especialidade: Criminology",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Especialidade: Streetwise",
+        "graduacoes": 6,
+        "total": 11
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 10,
+        "total": 15
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Combate à Distância: Throwing",
+        "graduacoes": 7,
+        "total": 12
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 6,
+        "total": 11
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 6,
+        "total": 11
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 4,
+        "total": 9
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 6,
+        "total": 11
+      }
+    ],
+    "iniciativa": 9,
+    "ataques": [
+      {
+        "nome": "Bo Staff",
+        "bonus": 12,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 4"
+      },
+      {
+        "nome": "Batarangue",
+        "bonus": 12,
+        "alcance": "À distância",
+        "dano": "Dano 3"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 13,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 11,
+      "Fortitude": 7,
+      "Aparar": 11,
+      "Resistência": 5,
+      "Vontade": 9
+    },
+    "observacao_defesas": "* Vontade 9 *sem Rolamento Defensivo. Po er ponto W S Abilities 66 Skills 57",
+    "custos": {},
+    "total": null,
+    "complicacoes": [
+      {
+        "titulo": "r elationships",
+        "texto": "Robin has had some romantic entanglements, but none ha ve lasted. r esponsibility: To Batman and Gotham City."
+      },
+      {
+        "titulo": "Secret den i tity",
+        "texto": "Timothy Wayne, Bruce Wayne’s adopted son."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

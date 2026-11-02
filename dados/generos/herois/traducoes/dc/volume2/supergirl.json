@@ -1,0 +1,60 @@
+{
+  "nome_pt": "Supergirl (Kara Zor-El)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 212,
+  "ficha": {
+    "habilidades": {
+      "For": 15,
+      "Vig": 10,
+      "Agi": 3,
+      "Des": 2,
+      "Lut": 4,
+      "Int": 2,
+      "Pro": 2,
+      "Pre": 3
+    },
+    "poderes": [
+      "104 Defenses 25"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "3 Total 235 a Co MPL i C tion S Power Loss: Supergirl loses her Powers and her Str and Sta are reduced to 1 under a red sun",
+      "like that of Krypton. esponsibility: Supergirl feels a strong sense of responsibility r to use her Powers for the benefit of all. Secret i den tity: Linda Lang Vulnerability: Supergirl is vulnerable to magic. Her Toughness is not Impervious against magical attacks. Supergirl has the same Kryptonian vulnerabilities as her cous- in: she loses her Powers under the light of a red sun (or when otherwise cut off from solar energy for a long period) and be- comes weak when exposed to Kryptonite."
+    ],
+    "pericias": [],
+    "iniciativa": 3,
+    "ataques": [
+      {
+        "nome": "Calor Vision",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Dano 12"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 9,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 15 Powers, even in situations where restraint might be more ap- propriate. This can Criar Objetos additional"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Fortitude": 12,
+      "Aparar": 10,
+      "Resistência": 14,
+      "Vontade": 12
+    },
+    "observacao_defesas": "",
+    "custos": {},
+    "total": null,
+    "complicacoes": [
+      {
+        "titulo": "Complicação",
+        "texto": "for Kara, playing into her Responsibility complication when she real- izes what she has done. Supergirl’s player is encouraged to look for these opportunities, while the Gamemaster should award hero pontos when Supergirl’s inexperience or lack of control adds a complication to the overall story."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

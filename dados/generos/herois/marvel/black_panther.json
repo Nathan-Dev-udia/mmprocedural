@@ -64,21 +64,21 @@
     "poderes": [
       {
         "nome": "Enhanced Strength",
-        "construcao_3e": "Enhanced Trait: Strength 3 (para elevar o valor base, derivado de STR 16, ao valor final STR 22).",
+        "construcao_3e": "Característica Aprimorada: Força 3 (para elevar o valor base, derivado de STR 16, ao valor final STR 22).",
         "custo_2e_pp": 6,
         "custo_3e_pp": 6,
         "nome_pt": "Força Aumentada (Erva Coração)"
       },
       {
         "nome": "Enhanced Dexterity",
-        "construcao_3e": "Enhanced Trait: Agility 4 e Dexterity 4 (derivados das diferenças entre os valores base e finais de DEX 16/24).",
+        "construcao_3e": "Característica Aprimorada: Agilidade 4 e Destreza 4 (derivados das diferenças entre os valores base e finais de DEX 16/24).",
         "custo_2e_pp": 8,
         "custo_3e_pp": 16,
         "nome_pt": "Destreza e Agilidade Aumentadas"
       },
       {
         "nome": "Super Senses",
-        "construcao_3e": "Senses 3: Extended Vision, Low-Light Vision e Scent.",
+        "construcao_3e": "Sentidos 3: Visão Estendida, Visão na Penumbra e Scent.",
         "custo_2e_pp": 3,
         "custo_3e_pp": 3,
         "nome_pt": "Super-Sentidos Pantera"
@@ -92,8 +92,8 @@
       }
     ],
     "equipamento": [
-      "Shuriken (+1 Damage; Autofire; 3 EP)",
-      "Motocicleta (Strength 15; Speed 5; Defense 10; Toughness 8; Medium; 9 EP)"
+      "Shuriken (+1 Dano; Multiataque; 3 PE)",
+      "Motocicleta (Strength 15; Speed 5; Defense 10; Resistência 8; Medium; 9 PE)"
     ],
     "complicacoes": [],
     "ataques": [
@@ -138,4 +138,4 @@
     "vantagens": 21,
     "total": 200
   }
-}
+}

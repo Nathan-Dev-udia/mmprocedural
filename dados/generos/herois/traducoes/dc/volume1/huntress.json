@@ -1,0 +1,194 @@
+{
+  "nome_pt": "Caçadora (Helena Bertinelli)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 268,
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 3,
+      "Agi": 6,
+      "Des": 5,
+      "Lut": 9,
+      "Int": 3,
+      "Pro": 4,
+      "Pre": 4
+    },
+    "poderes": [],
+    "equipamento": [
+      "Crossbow: Dano à Distância 3, Improved Critical (7 PP)",
+      "Knife: Força-based Dano 1, Improved Critical (2 PP)",
+      "Staff: Força-based Dano 1, Reach 1 (2 PP)",
+      "Twin Pistols: Dano à Distância 4 (16 PP)",
+      "VEHICLE: MOTORCYCLE (11 PP)",
+      "Medium, Str 1, Spd 6, Def 10, Tou 8; Navigation System"
+    ],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Ataque Corpo-a-Corpo 4",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 2",
+      "Equipamento 8",
+      "Agarrar com Destreza",
+      "Esconder-se a Plena Vista",
+      "Mira Aprimorada",
+      "Crítico Aprimorado (Desarmado)",
+      "Iniciativa Aprimorada",
+      "Derrubar Aprimorado",
+      "Arma Improvisada",
+      "Levantar Rápido",
+      "Languages 1",
+      "Precise Attack 2 (à distância; Cover & Concealment)",
+      "Saque Rápido",
+      "Ataque à Distância 4"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 8,
+        "total": 14
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 9,
+        "total": 12
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 2,
+        "total": 11
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Knives",
+        "graduacoes": 1,
+        "total": 10
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Staff",
+        "graduacoes": 1,
+        "total": 10
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 5,
+        "total": 9
+      },
+      {
+        "nome": "Especialidade: Teaching",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 5,
+        "total": 9
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Combate à Distância: Crossbow",
+        "graduacoes": 6,
+        "total": 11
+      },
+      {
+        "nome": "Combate à Distância: Pistols",
+        "graduacoes": 5,
+        "total": 10
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 5,
+        "total": 10
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 12,
+        "total": 18
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 5,
+        "total": 10
+      }
+    ],
+    "iniciativa": 10,
+    "ataques": [
+      {
+        "nome": "Staff",
+        "bonus": 14,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 4, Reach 1"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 15,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 3, Crit. 19-20"
+      },
+      {
+        "nome": "Knife",
+        "bonus": 14,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 4, Crit. 19-20"
+      },
+      {
+        "nome": "Pistols",
+        "bonus": 14,
+        "alcance": "À distância",
+        "dano": "Dano 4"
+      },
+      {
+        "nome": "Crossbow",
+        "bonus": 15,
+        "alcance": "À distância",
+        "dano": "Dano 3, Crit. 19-20"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 13,
+      "Fortitude": 8,
+      "Aparar": 13,
+      "Resistência": 5,
+      "Vontade": 8
+    },
+    "observacao_defesas": "* Vontade 8",
+    "custos": {
+      "Habilidades": 74,
+      "Perícias": 46,
+      "Poderes": 0,
+      "Defesas": 20,
+      "Vantagens": 32
+    },
+    "total": 172,
+    "complicacoes": [
+      {
+        "titulo": "Vengeance",
+        "texto": "“Blood calls out for blood” has been the Huntress’ mantra since the beginning of her career, and this attitude has cost her much, including her membership in the Justice League."
+      },
+      {
+        "titulo": "Relacionamentos",
+        "texto": "Huntress is Corpo a Corpo friends with Oracle and Black Canary, and Helena Bertinelli is a dedicated teacher. She has found, however, that her nocturnal double-life as Huntress makes keeping a teaching job difficult."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

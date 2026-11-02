@@ -61,14 +61,15 @@
     "poderes": [
       {
         "nome": "Harness",
-        "construcao_3e": "Device (removível): Enhanced Strength 8 (16 PP), Extra Limbs 4 (4 PP), Elongation 3 (Continuous; 6 PP), Movement 2 (Wall-crawling; 4 PP), Speed 4 (4 PP), Quickness 2 (Limited a ações físicas; 1 PP), Power-Lifting 3 (3 PP), Senses 1 (visão em raio; 1 PP). Total de efeitos 39 PP; Removível (-7 PP) = 32 PP.",
+        "construcao_3e": "Dispositivo (removível): Força Aprimorada 8 (16 PP), Extra Limbs 4 (4 PP), Alongamento 3 (Contínuo; 6 PP), Movimento 2 (Wall-crawling; 4 PP), Velocidade 4 (4 PP), Rapidez 2 (Limitado a ações físicas; 1 PP), Power-Lifting 3 (3 PP), Sentidos 1 (visão em raio; 1 PP). Total de efeitos 39 PP; Removível (-7 PP) = 32 PP.",
         "custo_2e_pp": 32,
-        "custo_3e_pp": 32
+        "custo_3e_pp": 32,
+        "nome_pt": "Tentáculos Mecânicos"
       }
     ],
     "equipamento": [
-      "Casaco pesado (+3 Resistência; Subtle; 4 EP)",
-      "Óculos Flash (1 EP)"
+      "Casaco pesado (+3 Resistência; Sutil; 4 PE)",
+      "Óculos Flash (1 PE)"
     ],
     "complicacoes": [],
     "ataques": [
@@ -116,4 +117,4 @@
     "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados.",
     "Poderes fechados em 3e: Harness convertido como Device removível de 39 PP (-7 PP removível = 32 PP). Habilidades base registradas sem o bônus de Força do arnês (For 0 base, For 8 com arnês). Total 3e: 170 PP."
   ]
-}
+}

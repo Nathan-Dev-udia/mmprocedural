@@ -59,7 +59,7 @@
       }
     ],
     "equipamento": [
-      "Hellion Uniform [+4 Toughness; Comm-Link; 5ep]"
+      "Hellion Uniform [+4 Resistência; Comm-Link; 5ep]"
     ],
     "complicacoes": [],
     "ataques": [
@@ -95,4 +95,4 @@
     "Correção de custo: as perícias somam 56 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 56 para 28 PP (subtotal e totais ajustados em -28).",
     "Poderes fechados em 3e: Toque Murchador de Vigor e Corrosão orgânica fechado em 31 PP. Total 3e: 121 PP."
   ]
-}
+}

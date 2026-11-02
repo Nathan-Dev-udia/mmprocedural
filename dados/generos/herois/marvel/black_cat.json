@@ -63,23 +63,23 @@
       },
       {
         "nome": "Whip",
-        "construcao_3e": "Dispositivo Facilmente Removível: Aflição / Enredar 4 (Snare; 8 PP); Efeitos Alternativos: Dano 2 com Alcance Estendido e Desarmar Aprimorado (1 PP). Piscina de 9 PP; Facilmente Removível (-3 PP) = 6 PP.",
+        "construcao_3e": "Dispositivo Facilmente Removível: Aflição / Enredar 4 (Aprisionar; 8 PP); Efeitos Alternativos: Dano 2 com Alcance Estendido e Desarmar Aprimorado (1 PP). Piscina de 9 PP; Facilmente Removível (-3 PP) = 6 PP.",
         "custo_2e_pp": 6,
         "custo_3e_pp": 6,
         "nome_pt": "Chicote de Combate"
       },
       {
         "nome": "Luck Control",
-        "construcao_3e": "Luck Control 1 (Jinx).",
+        "construcao_3e": "Controle de Sorte 1 (Jinx).",
         "custo_2e_pp": 3,
         "custo_3e_pp": 3,
         "nome_pt": "Azar / Má Sorte aos Oponentes"
       }
     ],
     "equipamento": [
-      "Lentes de contato infravermelhas (1 EP)",
-      "Gazuas de obra-prima (1 EP)",
-      "Celular (1 EP)"
+      "Lentes de contato infravermelhas (1 PE)",
+      "Gazuas de obra-prima (1 PE)",
+      "Celular (1 PE)"
     ],
     "complicacoes": [],
     "ataques": [
@@ -118,4 +118,4 @@
     "vantagens": 19,
     "total": 150
   }
-}
+}

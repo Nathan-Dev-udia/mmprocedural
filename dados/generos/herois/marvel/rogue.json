@@ -51,27 +51,28 @@
       },
       {
         "nome": "Mimic (All Powers at Once) 10",
-        "construcao_3e": "Enhanced Trait: Strength 10 (para elevar o valor base 2 ao valor final 12).",
+        "construcao_3e": "Característica Aprimorada: Força 10 (para elevar o valor base 2 ao valor final 12).",
         "custo_2e_pp": 30,
-        "custo_3e_pp": 20
+        "custo_3e_pp": 20,
+        "nome_pt": "Mimetismo de Poderes"
       },
       {
         "nome": "Enhanced Strength 20",
-        "construcao_3e": "Enhanced Trait: Stamina 11 (para elevar o valor base 1 ao valor final 12).",
+        "construcao_3e": "Característica Aprimorada: Vigor 11 (para elevar o valor base 1 ao valor final 12).",
         "custo_2e_pp": 20,
         "custo_3e_pp": 22,
         "nome_pt": "Força Aumentada 20"
       },
       {
         "nome": "Enhanced Constitution 22",
-        "construcao_3e": "Enhanced Trait: Stamina 22.",
+        "construcao_3e": "Característica Aprimorada: Vigor 22.",
         "custo_2e_pp": 22,
         "custo_3e_pp": 44,
         "nome_pt": "Vigor Aumentado 22"
       },
       {
         "nome": "Flight 5",
-        "construcao_3e": "Flight 5.",
+        "construcao_3e": "Voo 5.",
         "custo_2e_pp": 10,
         "custo_3e_pp": 10,
         "nome_pt": "Voo 5"
@@ -131,4 +132,4 @@
     "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos.",
     "Poderes fechados em 3e: Dreno de Poderes fechado em 32 PP + Mimetismo (20 PP) + Força (22 PP) + Vigor (44 PP) + Voo (10 PP) + Carga (3 PP) = 131 PP poderes. Total 3e: 196 PP."
   ]
-}
+}

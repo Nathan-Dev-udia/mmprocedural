@@ -54,21 +54,21 @@
     "poderes": [
       {
         "nome": "Enhanced Strength",
-        "construcao_3e": "Enhanced Trait: Strength 6 (para elevar o valor base 3 ao valor final 9).",
+        "construcao_3e": "Característica Aprimorada: Força 6 (para elevar o valor base 3 ao valor final 9).",
         "custo_2e_pp": 12,
         "custo_3e_pp": 12,
         "nome_pt": "Força Aumentada"
       },
       {
         "nome": "Enhanced Constitution",
-        "construcao_3e": "Enhanced Trait: Stamina 6 (para elevar o valor base 3 ao valor final 9).",
+        "construcao_3e": "Característica Aprimorada: Vigor 6 (para elevar o valor base 3 ao valor final 9).",
         "custo_2e_pp": 12,
         "custo_3e_pp": 12,
         "nome_pt": "Vigor Aumentado"
       }
     ],
     "equipamento": [
-      "Heavy Pistol (+4 Damage; 8ep)"
+      "Heavy Pistol (+4 Dano; 8ep)"
     ],
     "complicacoes": [
       "Fraqueza indicada na fonte: Weakness [Sunlight; Common Occurrence, Minor Intensity; 2pp)"
@@ -121,4 +121,4 @@
     "habilidades_base registra For 3 e Vig 3 (sem os aumentos de Enhanced Strength e Enhanced Constitution). Os custos 3e somam 155 PP (40 habilidades base + 24 poderes + 43 defesas + 37 perícias + 11 vantagens).",
     "Correção de custo: as perícias somam 74 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 74 para 37 PP (subtotal e totais ajustados em -37)."
   ]
-}
+}

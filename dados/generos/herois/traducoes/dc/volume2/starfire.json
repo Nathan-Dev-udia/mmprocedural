@@ -1,0 +1,115 @@
+{
+  "nome_pt": "Estelar",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 193,
+  "ficha": {
+    "habilidades": {
+      "For": 10,
+      "Vig": 10,
+      "Agi": 5,
+      "Des": 5,
+      "Lut": 10,
+      "Int": 1,
+      "Pro": 3,
+      "Pre": 3
+    },
+    "poderes": [
+      "Language a ssimila tion: Compreender Languages 2 (Speak and Understand all languages), Peculiaridade (Requires Physical Contact to “Learn”) (3 PP)",
+      "Solar Conversion: Voo 10 (2,0 km/h) (20 PP)",
+      "Solar Sustenance: Imunidade 10 (Suporte Vital), Limitado (Requires sunlight); Regeneração 2, Source (Sunlight) (6 PP)",
+      "Star Bolts: Dano à Distância 12 (24 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Finta Ágil",
+      "Ataque Imprudente",
+      "Atraente 2",
+      "Iniciativa Aprimorada",
+      "Liderança",
+      "Ação em Movimento",
+      "Ataque Poderoso",
+      "Trabalho em Equipe"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 5,
+        "total": 10
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 2,
+        "total": 12
+      },
+      {
+        "nome": "Especialidade: Modeling",
+        "graduacoes": 7,
+        "total": 8
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Combate à Distância: Starbolts",
+        "graduacoes": 5,
+        "total": 10
+      }
+    ],
+    "iniciativa": 9,
+    "ataques": [
+      {
+        "nome": "Starbolts",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Dano 12"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 12,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 10"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Fortitude": 12,
+      "Aparar": 12,
+      "Resistência": 10,
+      "Vontade": 8
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 94,
+      "Perícias": 18,
+      "Poderes": 53,
+      "Defesas": 16,
+      "Vantagens": 9
+    },
+    "total": 190,
+    "complicacoes": [
+      {
+        "titulo": "e nemy",
+        "texto": "Starfire’s sister, Blackfire, harbors a deep resentment t oward and lifelong hatred for her."
+      },
+      {
+        "titulo": "Perda de Poder",
+        "texto": "During any prolonged period without exposure to sunlight, Starfire loses her Voo and Starbolts Powers r elationship: Starfire has an on-again, off-again romance with Dick Grayson. t emp er: Starfire has a very short fuse. e ne MI e S Starfire has battled many enemies as a member of the Teen Titans, most notably Brother Blood, Deathstroke, and Trigon. Her sister, Blackfire, remains Starfire’s greatest personal en- emy."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

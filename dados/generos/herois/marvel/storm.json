@@ -56,7 +56,7 @@
     "poderes": [
       {
         "nome": "Weather Control",
-        "construcao_3e": "Controle Climático 11 Dinâmico (Ambiente 11 [Precipitação, Frio, Calor, Vento]; 33 PP); Efeitos Alternativos Dinâmicos: Relâmpago / Dano à Distância 10 em Linha (2 PP), Voo 6 (2 PP), Dazzle Audição/Visão Trovão/Clarão (2 PP), Aflição Fadiga Vento Sufocante (2 PP), Mover Objeto Vento e Frio (7 PP). Array total: 48 PP (custo original da fonte preservado).",
+        "construcao_3e": "Controle Climático 11 Dinâmico (Ambiente 11 [Precipitação, Frio, Calor, Vento]; 33 PP); Efeitos Alternativos Dinâmicos: Relâmpago / Dano à Distância 10 em Linha (2 PP), Voo 6 (2 PP), Ofuscar Audição/Visão Trovão/Clarão (2 PP), Aflição Fadiga Vento Sufocante (2 PP), Mover Objeto Vento e Frio (7 PP). Array total: 48 PP (custo original da fonte preservado).",
         "custo_2e_pp": 48,
         "custo_3e_pp": 48,
         "nome_pt": "Controle Climático"
@@ -105,4 +105,4 @@
     "Correção de custo: as perícias somam 81 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 81 para 40.5 PP (subtotal e totais ajustados em -40.5).",
     "Poderes fechados em 3e: Controle Climático fechado em 48 PP. Total 3e: 167.5 PP."
   ]
-}
+}

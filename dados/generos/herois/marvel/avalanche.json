@@ -58,8 +58,8 @@
       }
     ],
     "equipamento": [
-      "Uniforme (+4 Toughness; 4 EP)",
-      "Capacete (+1 Toughness; 1 EP)"
+      "Uniforme (+4 Resistência; 4 PE)",
+      "Capacete (+1 Resistência; 1 PE)"
     ],
     "complicacoes": [
       "Vulnerabilidade a vibrações refletidas; ocorrência incomum, intensidade moderada."
@@ -94,4 +94,4 @@
     "vantagens": 6,
     "total": 112.5
   }
-}
+}

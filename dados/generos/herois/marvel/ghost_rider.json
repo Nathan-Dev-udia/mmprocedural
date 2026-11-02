@@ -75,7 +75,7 @@
       },
       {
         "nome": "Hell's Chain",
-        "construcao_3e": "Dispositivo Facilmente Removível: Dano 2 Baseado em Força (2 PP), Alcance Estendido 2 (2 PP), Crítico Aprimorado 2 (2 PP); Efeitos Alternativos (Laço Místico / Aflição Snare 4 [1 PP], Dano Multiatirador à Distância 1 [1 PP]); Facilmente Removível = 6 PP.",
+        "construcao_3e": "Dispositivo Facilmente Removível: Dano 2 Baseado em Força (2 PP), Alcance Estendido 2 (2 PP), Crítico Aprimorado 2 (2 PP); Efeitos Alternativos (Laço Místico / Aflição Aprisionar 4 [1 PP], Dano Multiatirador à Distância 1 [1 PP]); Facilmente Removível = 6 PP.",
         "custo_2e_pp": 6,
         "custo_3e_pp": 6,
         "nome_pt": "Corrente Mística Infernal"
@@ -96,7 +96,7 @@
       },
       {
         "nome": "Emotion Control",
-        "construcao_3e": "Olhar da Penitência: Aflição 12 (Resistida por Vontade; Dazed, Stunned, Transformed / Remorso Agonizante; Dependente de Olhar [-1/grad]; 6 PP).",
+        "construcao_3e": "Olhar da Penitência: Aflição 12 (Resistida por Vontade; Tonto, Atordoado, Transformado / Remorso Agonizante; Dependente de Olhar [-1/grad]; 6 PP).",
         "custo_2e_pp": 6,
         "custo_3e_pp": 6,
         "nome_pt": "Olhar da Penitência"
@@ -110,7 +110,7 @@
       }
     ],
     "equipamento": [
-      "Jaqueta de couro com correntes (+2 Resistência; 2 EP)"
+      "Jaqueta de couro com correntes (+2 Resistência; 2 PE)"
     ],
     "complicacoes": [
       "Identidade normal (Johnny Blaze; ocorrência comum; intensidade maior; 4 PP)."

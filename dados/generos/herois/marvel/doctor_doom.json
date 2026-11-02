@@ -75,15 +75,15 @@
       },
       {
         "nome": "Possession",
-        "construcao_3e": "Aflição Mental 10 (Resistida por Vontade; Dazed, Compelled, Controlled / Possessão; Dependente de Olhar; 20 PP) ligada a Insubstancial 2 (Forma Espiritual durante transferência; 10 PP) = 30 PP.",
+        "construcao_3e": "Aflição Mental 10 (Resistida por Vontade; Tonto, Compelido, Controlado / Possessão; Dependente de Olhar; 20 PP) ligada a Insubstancial 2 (Forma Espiritual durante transferência; 10 PP) = 30 PP.",
         "custo_2e_pp": 30,
         "custo_3e_pp": 30,
         "nome_pt": "Possessão Mental (Técnica Ovóide)"
       }
     ],
     "equipamento": [
-      "Broomhandle Mauser (+4 dano; 8 EP)",
-      "Castelo Von Doom (Gargantuan; Resistência 30; Communications, Computer, Defense System, Fire Prevention System, Garage, Holding Cells, Infirmary, Laboratory, Library, Living Space, Power System, Security System, Workshop; 22 EP)"
+      "Broomhandle Mauser (+4 dano; 8 PE)",
+      "Castelo Von Doom (Gargantuan; Resistência 30; Communications, Computer, Defense System, Fire Prevention System, Garage, Holding Cells, Infirmary, Laboratory, Library, Living Space, Power System, Security System, Workshop; 22 PE)"
     ],
     "complicacoes": [],
     "ataques": [

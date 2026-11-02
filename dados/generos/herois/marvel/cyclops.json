@@ -60,7 +60,7 @@
       },
       {
         "nome": "Immunity",
-        "construcao_3e": "Immunity 1 (Havok's powers).",
+        "construcao_3e": "Imunidade 1 (Havok's powers).",
         "custo_2e_pp": 1,
         "custo_3e_pp": 1,
         "nome_pt": "Imunidade aos Poderes do Destrutor"
@@ -74,8 +74,8 @@
       }
     ],
     "equipamento": [
-      "Uniforme (Protection 3; Subtle; 4 EP)",
-      "Com-link (1 EP)"
+      "Uniforme (Proteção 3; Sutil; 4 PE)",
+      "Com-link (1 PE)"
     ],
     "complicacoes": [],
     "ataques": [
@@ -113,4 +113,4 @@
     "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados.",
     "Poderes fechados em 3e: Rajada Óptica (38 PP) + Imunidade (1 PP) + Visor (12 PP) = 51 PP poderes. Total 3e: 168 PP."
   ]
-}
+}

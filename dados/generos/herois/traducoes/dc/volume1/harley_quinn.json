@@ -1,0 +1,136 @@
+{
+  "nome_pt": "Arlequina (Harleen Quinzel)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 246,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 3,
+      "Agi": 6,
+      "Des": 5,
+      "Lut": 8,
+      "Int": 7,
+      "Pro": 2,
+      "Pre": 4
+    },
+    "poderes": [
+      "Veneno Ivy Imunidade: Imunidade 3 (Doença, Veneno, Veneno Ivy’s Touch) (3 PP)"
+    ],
+    "equipamento": [
+      "Boxing-Glove Gun: Aflição à Distância 4 (resistido por Esquiva; Tonto, Atordoado, Incapacitado) (8 PP)",
+      "Two-Handed Mallet: Força-based Dano 4, Reach 1 (5 PP)",
+      "Light Pistola: Dano à Distância 3 (6 PP)"
+    ],
+    "vantagens": [
+      "Finta Ágil",
+      "Atraente",
+      "Benefit 1 (Well-off)",
+      "Ataque Corpo-a-Corpo 2",
+      "Tontear (Enganação)",
+      "Rolamento Defensivo 4",
+      "Equipamento 3",
+      "Evasion",
+      "Agarrar com Destreza",
+      "Desarmar Aprimorado",
+      "Iniciativa Aprimorada",
+      "Arma Improvisada",
+      "Sorte 4"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 12,
+        "total": 18
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 7,
+        "total": 9
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Two-Handed Mallet",
+        "graduacoes": 4,
+        "total": 12
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 5,
+        "total": 13
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Especialidade: Psychology",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 2,
+        "total": 4
+      },
+      {
+        "nome": "Combate à Distância: Guns",
+        "graduacoes": 10,
+        "total": 15
+      }
+    ],
+    "iniciativa": 10,
+    "ataques": [
+      {
+        "nome": "Boxing-Glove Gun",
+        "bonus": 15,
+        "alcance": "À distância",
+        "dano": "Aflição 4, resistido por Esquiva Light Pistola +15 À Distância, Dano 3"
+      },
+      {
+        "nome": "Two-Handed Mallet",
+        "bonus": 14,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 6"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 15,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 14,
+      "Fortitude": 8,
+      "Aparar": 14,
+      "Resistência": 6,
+      "Vontade": 7
+    },
+    "observacao_defesas": "* Vontade 7 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 74,
+      "Perícias": 27,
+      "Poderes": 3,
+      "Defesas": 24,
+      "Vantagens": 22
+    },
+    "total": 150,
+    "complicacoes": [
+      {
+        "titulo": "Obsessão",
+        "texto": "Harley threw away a very successful career as psychiatrist to follow the man of her dreams—unfortunately, that man was the Joker. Her love–hate relationship with the Joker motivates many of her actions."
+      },
+      {
+        "titulo": "Recognition",
+        "texto": "Harley wants people to respect and acknowledge her, even if she has to beat them into doing so."
+      },
+      {
+        "titulo": "Hedonism",
+        "texto": "If it feels good to Harley, then it must be good, even if everyone else thinks it’s bad. ENEMIES While every criminal in Gotham must count the Batman as an enemy, Harley Quinn has occasionally helped the Caped Crusader, even assisting him in bringing the Joker to justice. Batman wants concrete evidence that she has dropped the criminal personae and still considers her on the side of the bad guys. At the moment, any enemy of Veneno Ivy or Cat - woman is an enemy of Harley as well."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

@@ -52,7 +52,7 @@
       "Tomar a Iniciativa",
       "Set-Up",
       "Trabalho em Equipe",
-      "Esforço Supremo (Will saves)"
+      "Esforço Supremo (salvamentos de Vontade)"
     ],
     "poderes": [
       {
@@ -92,8 +92,8 @@
       }
     ],
     "equipamento": [
-      "Uniforme (+3 Toughness; Subtle; 4 EP).",
-      "Comm-Link (1 EP)."
+      "Uniforme (+3 Resistência; Sutil; 4 PE).",
+      "Comm-Link (1 PE)."
     ],
     "complicacoes": [],
     "ataques": [

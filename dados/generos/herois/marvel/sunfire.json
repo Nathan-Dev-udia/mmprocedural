@@ -59,14 +59,14 @@
     "poderes": [
       {
         "nome": "Flight",
-        "construcao_3e": "Flight 6.",
+        "construcao_3e": "Voo 6.",
         "custo_2e_pp": 12,
         "custo_3e_pp": 12,
         "nome_pt": "Voo"
       },
       {
         "nome": "Immunity",
-        "construcao_3e": "Immunity 5 (Radiation).",
+        "construcao_3e": "Imunidade 5 (Radiation).",
         "custo_2e_pp": 5,
         "custo_3e_pp": 5,
         "nome_pt": "Imunidade"
@@ -80,14 +80,14 @@
       },
       {
         "nome": "Super Senses",
-        "construcao_3e": "Senses 1 (Infravision).",
+        "construcao_3e": "Sentidos 1 (Infravisão).",
         "custo_2e_pp": 1,
         "custo_3e_pp": 1,
         "nome_pt": "Super-Sentidos"
       }
     ],
     "equipamento": [
-      "Uniform [+4 Toughness; Subtle; 5ep]"
+      "Uniform [+4 Resistência; Sutil; 5ep]"
     ],
     "complicacoes": [],
     "ataques": [
@@ -135,4 +135,4 @@
     "Correção de custo: as perícias somam 68 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 68 para 34 PP (subtotal e totais ajustados em -34).",
     "Poderes fechados em 3e: Aura Solar e Rajada fechadas em 23 PP + Voo (12 PP) + Imunidade (5 PP) + Sentidos (1 PP) = 41 PP poderes. Total 3e: 157 PP."
   ]
-}
+}

@@ -43,7 +43,7 @@
       },
       {
         "nome": "Blast 10",
-        "construcao_3e": "Armamento Sentinela: Dano à Distância 10 em Linha de Área (20 PP); Efeitos Alternativos: Aflição Paralisante em Cone 10 (1 PP), Aflição Snare em Área 10 (1 PP) e Holofotes/Sensores (11 PP) = 33 PP.",
+        "construcao_3e": "Armamento Sentinela: Dano à Distância 10 em Linha de Área (20 PP); Efeitos Alternativos: Aflição Paralisante em Cone 10 (1 PP), Aflição Aprisionar em Área 10 (1 PP) e Holofotes/Sensores (11 PP) = 33 PP.",
         "custo_2e_pp": 33,
         "custo_3e_pp": 33,
         "nome_pt": "Armamento de Rajadas e Contenção (Array)"

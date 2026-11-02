@@ -52,7 +52,7 @@
       },
       {
         "nome": "Super-Strength",
-        "construcao_3e": "Super-Força / Power-Lifting 5 (5 PP) + Dano em Área no Solo / Ground Strike (2 PP) = 7 PP.",
+        "construcao_3e": "Super-Força / Power-Lifting 5 (5 PP) + Dano em Área no Solo / Ground Golpe (2 PP) = 7 PP.",
         "custo_2e_pp": 7,
         "custo_3e_pp": 7,
         "nome_pt": "Super-Força e Impacto Terrestre"

@@ -76,9 +76,9 @@
       }
     ],
     "equipamento": [
-      "Espada (+3 dano; Mighty; crítico 19–20; 5 EP)",
-      "Uniforme (+3 Resistência; 3 EP)",
-      "Arsenal: granadas de fragmentação (Blast 5, Área Explosão; 15 EP), submetralhadora (+4 dano; Autofire), pistola pesada (+4 dano; total de arsenal impresso: 17 EP)"
+      "Espada (+3 dano; Baseado em Força; crítico 19–20; 5 PE)",
+      "Uniforme (+3 Resistência; 3 PE)",
+      "Arsenal: granadas de fragmentação (Blast 5, Área Explosão; 15 PE), submetralhadora (+4 dano; Multiataque), pistola pesada (+4 dano; total de arsenal impresso: 17 PE)"
     ],
     "complicacoes": [],
     "ataques": [
@@ -131,4 +131,4 @@
     "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados.",
     "Poderes fechados em 3e: Fator de Cura (30 PP) + Teletransportador (3 PP) = 33 PP poderes. Total 3e: 168 PP."
   ]
-}
+}

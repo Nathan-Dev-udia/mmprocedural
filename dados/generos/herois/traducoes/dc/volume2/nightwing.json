@@ -1,0 +1,195 @@
+{
+  "nome_pt": "Asa Noturna (Dick Grayson)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 79,
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 3,
+      "Agi": 6,
+      "Des": 4,
+      "Lut": 10,
+      "Int": 3,
+      "Pro": 4,
+      "Pre": 4
+    },
+    "poderes": [],
+    "equipamento": [
+      "f Característica 1 (Illumination) (1 PP)",
+      "lashligh t: Grapnel Gun: Super-Movimento 1 (Swinging) (2 PP)",
+      "Mini- t r acers: Característica 1 (1 PP)",
+      "r ebreather: Imunidade 2 (Sufocamento), Limitado (1 PP)",
+      "Weapons: Arranjo (8 pontos)",
+      "• t aser : Aflição à Distância 4 (resistido por Fortitude; Tonto, Atordoado, Incapacitado) (8 PP)",
+      "• Escrima Sticks: Força-based Dano 3 (1 PP)",
+      "• t hr owing d isks: Força-based Dano à Distância 2 (1 PP)",
+      "Ve H i CL e: Motor C y CL e • 11 POI n TS Size: Medium Str: 1 Spd: 6 d ef: 10 t ou: 8 f ea tures: Navigation System"
+    ],
+    "vantagens": [
+      "Ataque Corpo-a-Corpo 4",
+      "Conectado",
+      "Contatos",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 3",
+      "Equipamento 6",
+      "Evasion",
+      "Esconder-se a Plena Vista",
+      "Iniciativa Aprimorada",
+      "Ferramentas Improvisadas",
+      "Pau pra Toda Obra",
+      "Languages 4",
+      "Liderança",
+      "Ação em Movimento",
+      "Ataque Poderoso",
+      "Precise Attack (Ranged",
+      "Concealment)",
+      "Saque Rápido",
+      "Ataque à Distância 5",
+      "Redirecionar",
+      "Tomar a Iniciativa",
+      "Set-Up",
+      "Maestria em Perícia (Acrobacia)",
+      "Maestria em Perícia (Investigação)",
+      "Derrubar em Sequência",
+      "Rastrear",
+      "Esquiva Fabulosa",
+      "Bem-Informado"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 12,
+        "total": 18
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 10,
+        "total": 13
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 1,
+        "total": 15
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Especialidade: Criminology",
+        "graduacoes": 10,
+        "total": 13
+      },
+      {
+        "nome": "Especialidade: Streetwise",
+        "graduacoes": 10,
+        "total": 13
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 10,
+        "total": 14
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 12,
+        "total": 15
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 10,
+        "total": 14
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Combate à Distância: Throwing",
+        "graduacoes": 5,
+        "total": 14
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 10,
+        "total": 16
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 8,
+        "total": 12
+      }
+    ],
+    "iniciativa": 10,
+    "ataques": [
+      {
+        "nome": "Escrima Sticks",
+        "bonus": 14,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 6"
+      },
+      {
+        "nome": "Throwing Disks",
+        "bonus": 14,
+        "alcance": "À distância",
+        "dano": "Dano 5"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 15,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 3"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 14,
+      "Fortitude": 8,
+      "Aparar": 12,
+      "Resistência": 6,
+      "Vontade": 12
+    },
+    "observacao_defesas": "* Vontade 12 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 74,
+      "Perícias": 71,
+      "Poderes": 0,
+      "Defesas": 23
+    },
+    "total": 212,
+    "complicacoes": [
+      {
+        "titulo": "e nemy",
+        "texto": "Blockbuster, crime lord of Blüdhaven. elationships: Nightwing has various past romantic r relationships, but difficulty in maintaining a current one. r iv alry: Nightwing lives in Batman’s shadow and feels the need to prove himself as capable as his mentor."
+      },
+      {
+        "titulo": "Secret i den tity",
+        "texto": "Richard Grayson, officer of the Blüdhaven Police Department. aLLI e S Having grown up in the super hero community, Dick Grayson knows virtually everyone. He worked with (and led) the Teen Titans for some time, and has since worked with many mem- bers of the Justice League. Nightwing’s closest allies are from his time in Gotham City, including Oracle (Barbara Gordon), and he can rely on his former mentor Batman and the boy who replaced him as Robin. e ne MI e S Along with Batman’s various foes he faced as Robin, Nigh- twing has racked up his own rogues gallery, including the crime-boss Blockbuster and the mercenary Deathstroke the Terminator."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

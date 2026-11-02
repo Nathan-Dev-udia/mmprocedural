@@ -64,23 +64,23 @@
     "poderes": [
       {
         "nome": "Bow",
-        "construcao_3e": "Dispositivo Facilmente Removível: Flecha Explosiva (Dano à Distância 5, Explosão; 15 PP); Efeitos Alternativos: Flecha de Rede (Snare 6; 1 PP), Flecha Perfurante (Dano 3 baseado em Força, Crítico 3; 1 PP), Flecha de Fumaça (Camuflagem Visual; 1 PP), Flecha de Luz (Dazzle Visual 6; 1 PP), Flecha de Cabo (Movimento Balançar; 1 PP). Piscina de 20 PP; Facilmente Removível (-8 PP) = 12 PP.",
+        "construcao_3e": "Dispositivo Facilmente Removível: Flecha Explosiva (Dano à Distância 5, Explosão; 15 PP); Efeitos Alternativos: Flecha de Rede (Aprisionar 6; 1 PP), Flecha Perfurante (Dano 3 baseado em Força, Crítico 3; 1 PP), Flecha de Fumaça (Camuflagem Visual; 1 PP), Flecha de Luz (Ofuscar Visual 6; 1 PP), Flecha de Cabo (Movimento Balançar; 1 PP). Piscina de 20 PP; Facilmente Removível (-8 PP) = 12 PP.",
         "custo_2e_pp": 12,
         "custo_3e_pp": 12,
         "nome_pt": "Arco e Flechas Especiais"
       },
       {
         "nome": "Super Senses",
-        "construcao_3e": "Senses 2 (Extended Sight).",
+        "construcao_3e": "Sentidos 2 (Extended Sight).",
         "custo_2e_pp": 2,
         "custo_3e_pp": 2,
         "nome_pt": "Super-Sentidos (Visão Aguçada)"
       }
     ],
     "equipamento": [
-      "Uniforme (+2 Resistência; Subtle; 3 EP)",
-      "comunicador (1 EP)",
-      "Binóculos (1 EP)"
+      "Uniforme (+2 Resistência; Sutil; 3 PE)",
+      "comunicador (1 PE)",
+      "Binóculos (1 PE)"
     ],
     "complicacoes": [],
     "ataques": [
@@ -118,4 +118,4 @@
     "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados.",
     "Poderes fechados em 3e: Arco e aljava de flechas especiais convertido como Dispositivo Facilmente Removível (12 PP) + Sentidos (2 PP) = 14 PP. Total 3e: 178 PP."
   ]
-}
+}

@@ -85,15 +85,15 @@
     "poderes": [
       {
         "nome": "Mental Blast",
-        "construcao_3e": "Haemopyrokinesis: Damage 10 (Perception Range [+2/rank], Concentration Duration [+1/rank], Alternate Resistance [Fortitude; +0], Limited: apenas alvos feridos/sangrando [-1/rank]). Custo: 30 PP.",
+        "construcao_3e": "Haemopyrokinesis: Dano 10 (Alcance de Percepção [+2/graduação], Duração de Concentração [+1/graduação], Resistência Alternativa [Fortitude; +0], Limitado: apenas alvos feridos/sangrando [-1/graduação]). Custo: 30 PP.",
         "custo_2e_pp": 40,
         "custo_3e_pp": 30,
         "nome_pt": "Rajada Mental"
       }
     ],
     "equipamento": [
-      "Lâminas gêmeas (+3 dano; Auto-Fire; Mighty; Improved Critical; 8 EP)",
-      "Armadura corporal (+3 Protection; Strike 2 com Aura; 7 EP)"
+      "Lâminas gêmeas (+3 dano; Multiataque; Baseado em Força; Crítico Aprimorado; 8 PE)",
+      "Armadura corporal (+3 Proteção; Strike 2 com Aura; 7 PE)"
     ],
     "complicacoes": [],
     "ataques": [
@@ -132,4 +132,4 @@
     "vantagens": 59,
     "total": 202
   }
-}
+}

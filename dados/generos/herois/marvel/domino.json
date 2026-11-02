@@ -60,16 +60,17 @@
     "poderes": [
       {
         "nome": "Probability Control",
-        "construcao_3e": "Luck Control 4 (Bestow Luck, Negate Luck, Force Re-roll, Spend on Others; 12 PP) + Enhanced Trait: Advantage (Luck 8; 8 PP). Total: 20 PP.",
+        "construcao_3e": "Controle de Sorte 4 (Bestow Luck, Negate Luck, Force Re-roll, Spend on Others; 12 PP) + Característica Aprimorada: Advantage (Luck 8; 8 PP). Total: 20 PP.",
         "custo_2e_pp": 32,
-        "custo_3e_pp": 20
+        "custo_3e_pp": 20,
+        "nome_pt": "Controle de Probabilidade"
       }
     ],
     "equipamento": [
-      "Colete tático (+4 Resistência; 4 EP)",
-      "Óculos de visão noturna (1 EP)",
-      "Outros equipamentos (5 EP)",
-      "Arsenal: granada flash-bang (Dazzle 4, Área Explosão), rifle de precisão (+5 dano; Improved Range 2; Improved Critical), duas pistolas 9mm (+3 dano; Autofire), pistola pesada (+4 dano), faca (+1 dano; crítico 19–20; Thrown; Mighty); 20 EP"
+      "Colete tático (+4 Resistência; 4 PE)",
+      "Óculos de visão noturna (1 PE)",
+      "Outros equipamentos (5 PE)",
+      "Arsenal: granada flash-bang (Dazzle 4, Área Explosão), rifle de precisão (+5 dano; Improved Range 2; Crítico Aprimorado), duas pistolas 9mm (+3 dano; Multiataque), pistola pesada (+4 dano), faca (+1 dano; crítico 19–20; Thrown; Baseado em Força); 20 PE"
     ],
     "complicacoes": [],
     "ataques": [
@@ -122,4 +123,4 @@
     "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados.",
     "Poderes fechados em 3e: Probability Control convertido em Luck Control 4 com 8 graduações de Sorte Aumentada (20 PP). Total 3e: 169 PP."
   ]
-}
+}

@@ -61,14 +61,14 @@
     "poderes": [
       {
         "nome": "Protection",
-        "construcao_3e": "Protection 3, Innate.",
+        "construcao_3e": "Proteção 3, Inato.",
         "custo_2e_pp": 4,
         "custo_3e_pp": 4,
         "nome_pt": "Proteção"
       }
     ],
     "equipamento": [
-      "Shuriken (+1 Damage; Autofire; 3 EP)"
+      "Shuriken (+1 Dano; Multiataque; 3 PE)"
     ],
     "complicacoes": [
       "Vulnerabilidade a poderes magneticos; ocorrência incomum, intensidade maior.",
@@ -119,4 +119,4 @@
     "vantagens": 28,
     "total": 150
   }
-}
+}

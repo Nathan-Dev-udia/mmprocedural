@@ -70,21 +70,21 @@
       },
       {
         "nome": "Elongation",
-        "construcao_3e": "Elongation 2 (Limited: Tongue).",
+        "construcao_3e": "Alongamento 2 (Limitado: Tongue).",
         "custo_2e_pp": 1,
         "custo_3e_pp": 1,
         "nome_pt": "Alongamento da Língua"
       },
       {
         "nome": "Leaping",
-        "construcao_3e": "Leaping 3.",
+        "construcao_3e": "Salto 3.",
         "custo_2e_pp": 3,
         "custo_3e_pp": 3,
         "nome_pt": "Super-Salto"
       },
       {
         "nome": "Paralyze",
-        "construcao_3e": "Aflição 8 (Resistida e Superada por Fortitude; Dazed, Stunned, Paralyzed; À Distância [+1/graduação], Cumulativo [+1/graduação] = 24 PP).",
+        "construcao_3e": "Aflição 8 (Resistida e Superada por Fortitude; Tonto, Atordoado, Paralisado; À Distância [+1/graduação], Cumulativo [+1/graduação] = 24 PP).",
         "custo_2e_pp": 24,
         "custo_3e_pp": 24,
         "nome_pt": "Cuspe Paralisante"
@@ -129,4 +129,4 @@
     "Correção de custo: as perícias somam 117 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 117 para 58.5 PP (subtotal e totais ajustados em -58.5).",
     "Poderes fechados em 3e: Cuspe Paralisante (24 PP) + Membro (1 PP) + Alongamento (1 PP) + Salto (3 PP) = 29 PP poderes. Total 3e: 199.5 PP."
   ]
-}
+}

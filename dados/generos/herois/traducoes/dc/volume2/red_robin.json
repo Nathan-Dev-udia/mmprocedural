@@ -1,0 +1,165 @@
+{
+  "nome_pt": "Robin Vermelho (Tim Drake)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 134,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 5,
+      "Des": 5,
+      "Lut": 8,
+      "Int": 5,
+      "Pro": 4,
+      "Pre": 3
+    },
+    "poderes": [
+      "0 Defenses 23"
+    ],
+    "equipamento": [
+      "a Proteção 2, Sentidos 1 (Visão no Escuro) (4 PP)",
+      "rmor ed Cowl: Grapnel: Movimento 1 (Swinging) (2 PP)",
+      "Utility Belt: Arranjo (12 pontos)",
+      "• f lashbang G renades: À Distância Área de Explosão Aflição 4 (resistido por Fortitude; Visual and Auditory Impaired, Visual and Auditory Disabled, Visual and Auditory Unaware) (12 PP)",
+      "• Bo Staff: Força-based Dano 2, Reach 1 (1 PP)",
+      "• Smoke Bombs: Área de Nuvem Visual (All) Camuflagem Attack 4 (1 PP)",
+      "• t hr owing d iscs: À Distância Força-based Multiataque Dano 1, Ricochete 2 (1 PP)",
+      "8 additional pontos of equipment as needed Ve H i CL e: r ed B ird Cy CL e • 11 POI n TS Size: Medium Str: 1 Velocidade: 6 d ef: 0 t ou: 8 f ea tures: Navigation System a V ant G d a e S All-out Attack, Benefit 4 (Wealth), Corpo a Corpo Attack 6, Connected, Contacts, Defensive Roll 2, Equipment 8, Evasion, Extraordinary Effort, Hide in Plain Sight, Improved Critical (Bo Staff ), Improved Iniciativa, Improvised Tools, Instant Up, Interpose, Languages 4, Move-by Action, Power Attack, Quick Draw, Set-up, Takedown, Teamwork, Tracking, Uncanny Esquiva"
+    ],
+    "vantagens": [
+      "43 Total 208"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 2,
+        "total": 10
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 9,
+        "total": 12
+      },
+      {
+        "nome": "Especialidade: Criminology",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Especialidade: Computers",
+        "graduacoes": 10,
+        "total": 15
+      },
+      {
+        "nome": "Especialidade: Streetwise",
+        "graduacoes": 9,
+        "total": 14
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 10,
+        "total": 14
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 11,
+        "total": 16
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 11,
+        "total": 15
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Combate à Distância: Throwing Discs",
+        "graduacoes": 9,
+        "total": 14
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 7,
+        "total": 12
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 10,
+        "total": 15
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 5,
+        "total": 10
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 8,
+        "total": 13
+      }
+    ],
+    "iniciativa": 9,
+    "ataques": [
+      {
+        "nome": "Bo Staff",
+        "bonus": 14,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 4, Reach 1, Crit. 19-20"
+      },
+      {
+        "nome": "Throwing Discs",
+        "bonus": 14,
+        "alcance": "À distância",
+        "dano": "Multiataque Dano 3, Ricochete 2"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 16,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Fortitude": 8,
+      "Aparar": 12,
+      "Resistência": 6,
+      "Vontade": 10
+    },
+    "observacao_defesas": "* Vontade 10 *Without Armored Cowl and Defensive Roll. W S Po er ponto Abilities 68 Skills 74",
+    "custos": {},
+    "total": null,
+    "complicacoes": [
+      {
+        "titulo": "H ero r emade",
+        "texto": "Red Robin struggles to carry on the ideals of Batman while becoming a hero in his own right. “Crippled”: To protect his secret identity from reporter Vicki Vale, Tim Wayne pretends to need leg braces and two canes, which appears to make it impossible for him to be Red Robin."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

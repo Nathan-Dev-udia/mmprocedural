@@ -62,11 +62,11 @@
       }
     ],
     "equipamento": [
-      "Duas pistolas pesadas (+4 Damage; Auto-fire; 12 EP)",
-      "Colete disfarçado (+3 Toughness; Subtle; 4 EP)",
-      "Celular (1 EP)",
-      "Óculos escuros (0 EP)",
-      "Jaqueta de couro (+1 Toughness; 1 EP)"
+      "Duas pistolas pesadas (+4 Dano; Multiataque; 12 PE)",
+      "Colete disfarçado (+3 Resistência; Sutil; 4 PE)",
+      "Celular (1 PE)",
+      "Óculos escuros (0 PE)",
+      "Jaqueta de couro (+1 Resistência; 1 PE)"
     ],
     "complicacoes": [],
     "ataques": [
@@ -105,4 +105,4 @@
     "A fonte não lista complicações; nenhuma motivacao foi inferida.",
     "Poderes fechados em 3e: Absorção e Redirecionamento de Energia fechado em 40 PP. Total 3e: 162 PP."
   ]
-}
+}

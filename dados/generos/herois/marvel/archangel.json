@@ -55,22 +55,22 @@
     "poderes": [
       {
         "nome": "Flight",
-        "construcao_3e": "Flight 4.",
+        "construcao_3e": "Voo 4.",
         "custo_2e_pp": 8,
         "custo_3e_pp": 8,
         "nome_pt": "Voo"
       },
       {
         "nome": "Super Senses",
-        "construcao_3e": "Senses 5: Extended Vision 5.",
+        "construcao_3e": "Sentidos 5: Visão Estendida 5.",
         "custo_2e_pp": 5,
         "custo_3e_pp": 5,
         "nome_pt": "Super-Sentidos"
       }
     ],
     "equipamento": [
-      "Uniforme (+3 Toughness; Subtle; 4 EP)",
-      "Comunicador (1 EP)"
+      "Uniforme (+3 Resistência; Sutil; 4 PE)",
+      "Comunicador (1 PE)"
     ],
     "complicacoes": [
       "Vulnerabilidade a vibrações refletidas; ocorrência incomum, intensidade moderada."
@@ -122,4 +122,4 @@
     "vantagens": 15,
     "total": 150
   }
-}
+}

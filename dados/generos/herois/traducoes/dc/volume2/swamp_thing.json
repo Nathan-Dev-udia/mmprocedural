@@ -1,0 +1,42 @@
+{
+  "nome_pt": "Monstro do Pântano",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 218,
+  "ficha": {
+    "habilidades": {
+      "For": 9,
+      "Vig": 15,
+      "Agi": 0,
+      "Des": 0,
+      "Lut": 2,
+      "Int": 4,
+      "Pro": 7,
+      "Pre": 5
+    },
+    "poderes": [
+      "155 Defenses 22"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "3 Total 279 a Co MPL i C tion S e A mystic elemental",
+      "Swamp Thing has a lemen tal: responsibility to the Green. Plant: Swamp Thing is made up of plants and is affected by anything that affects plants. r elationship: Swamp Thing has a wife (Abby) and a daughter (Téfe) ."
+    ],
+    "pericias": [],
+    "iniciativa": 0,
+    "ataques": [],
+    "defesas": {
+      "Esquiva": 8,
+      "Fortitude": 15,
+      "Aparar": 8,
+      "Resistência": 15,
+      "Vontade": 15
+    },
+    "observacao_defesas": "",
+    "custos": {},
+    "total": null,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

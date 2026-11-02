@@ -15,7 +15,8 @@ from .pdf_export import CAMPO_DA_HABILIDADE, LINHAS, LINHAS_ESPECIALIZADAS, PREF
 
 TRADUCAO_DE_PERICIAS_DC = {
     "Acrobatics": "Acrobacia", "Athletics": "Atletismo", "Deception": "Enganação", "Stealth": "Furtividade",
-    "Intimidation": "Intimidação", "Insight": "Intuição", "Investigation": "Investigação",
+    "Intimidation": "Intimidação", "Intimidate": "Intimidação", "Insight": "Intuição",
+    "Investigation": "Investigação", "Investigate": "Investigação",
     "Perception": "Percepção", "Persuasion": "Persuasão", "Sleight of Hand": "Prestidigitação",
     "Technology": "Tecnologia", "Treatment": "Tratamento", "Vehicles": "Veículos",
     "Close Combat": "Combate Corpo-a-Corpo", "Ranged Combat": "Combate à Distância", "Expertise": "Especialidade",
@@ -296,6 +297,8 @@ def _preencher_pericias(campos, pericias, hab, notas):
     for nome, p in sorted(pericias.items()):
         sigla = rules.habilidade_da_pericia(nome)
         base = rules.nome_base(nome)
+        if base == "Combate Corpo a Corpo":
+            base = "Combate Corpo-a-Corpo"
         total = p["total"] if p["total"] is not None else hab[sigla] + p["grad"]
         if base in PREFIXO_DA_PERICIA:
             prefixo = PREFIXO_DA_PERICIA[base]

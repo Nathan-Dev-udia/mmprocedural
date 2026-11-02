@@ -50,20 +50,21 @@
     "poderes": [
       {
         "nome": "Dazzle",
-        "construcao_3e": "Dazzle 8 (Visual). 16 PP na fonte.",
+        "construcao_3e": "Ofuscar 8 (Visual). 16 PP na fonte.",
         "custo_2e_pp": 16,
-        "custo_3e_pp": 16
+        "custo_3e_pp": 16,
+        "nome_pt": "Clarão Cegante"
       },
       {
         "nome": "Flight",
-        "construcao_3e": "Flight 12, Linked to Protection.",
+        "construcao_3e": "Voo 12, Linked to Proteção.",
         "custo_2e_pp": 24,
         "custo_3e_pp": 24,
         "nome_pt": "Voo"
       },
       {
         "nome": "Protection",
-        "construcao_3e": "Protection 4, Linked to Flight.",
+        "construcao_3e": "Proteção 4, Linked to Voo.",
         "custo_2e_pp": 4,
         "custo_3e_pp": 4,
         "nome_pt": "Proteção"
@@ -113,4 +114,4 @@
     "Dodge foi ajustada de 20 para 12 para cumprir Dodge + Toughness ≤ 20 (NP 10).",
     "Os custos 3e somam 156.5 PP (42 habilidades base + 44 poderes + 20 defesas + 38.5 perícias + 12 vantagens)."
   ]
-}
+}

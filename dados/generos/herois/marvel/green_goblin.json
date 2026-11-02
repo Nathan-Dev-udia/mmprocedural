@@ -54,28 +54,28 @@
     "poderes": [
       {
         "nome": "Enhanced Strength",
-        "construcao_3e": "Enhanced Trait: Strength 7 (para elevar o valor base 1 ao valor final 8).",
+        "construcao_3e": "Característica Aprimorada: Força 7 (para elevar o valor base 1 ao valor final 8).",
         "custo_2e_pp": 14,
         "custo_3e_pp": 14,
         "nome_pt": "Força Aumentada"
       },
       {
         "nome": "Enhanced Dexterity",
-        "construcao_3e": "Enhanced Trait: Agility 5 e Dexterity 5 (para elevar os valores base 0 ao valor final 5).",
+        "construcao_3e": "Característica Aprimorada: Agilidade 5 e Destreza 5 (para elevar os valores base 0 ao valor final 5).",
         "custo_2e_pp": 10,
         "custo_3e_pp": 20,
         "nome_pt": "Destreza Aumentada"
       },
       {
         "nome": "Enhanced Intelligence",
-        "construcao_3e": "Enhanced Trait: Intellect 7 (para elevar o valor base 3 ao valor final 10).",
+        "construcao_3e": "Característica Aprimorada: Intelecto 7 (para elevar o valor base 3 ao valor final 10).",
         "custo_2e_pp": 14,
         "custo_3e_pp": 14,
         "nome_pt": "Intelecto Aumentado"
       },
       {
         "nome": "Protection",
-        "construcao_3e": "Protection 5.",
+        "construcao_3e": "Proteção 5.",
         "custo_2e_pp": 5,
         "custo_3e_pp": 5,
         "nome_pt": "Proteção"
@@ -89,15 +89,15 @@
       },
       {
         "nome": "Blaster Gloves",
-        "construcao_3e": "Device (Removable): Blast 10.",
+        "construcao_3e": "Dispositivo (Removível): Raio 10.",
         "custo_2e_pp": 16,
         "custo_3e_pp": 16,
         "nome_pt": "Rajada de Energiaer Gloves"
       }
     ],
     "equipamento": [
-      "Bombas abóbora (Blast 5, Área Explosão; 15 EP)",
-      "Lâminas de arremesso (+1 dano, Autofire, Mighty, Improved Critical; 5 EP)"
+      "Bombas abóbora (Blast 5, Área Explosão; 15 PE)",
+      "Lâminas de arremesso (+1 dano, Multiataque, Baseado em Força, Crítico Aprimorado; 5 PE)"
     ],
     "complicacoes": [
       "Transformação involuntária (em Norman Osborn; ocorrência comum; intensidade moderada; 3 PP).",
@@ -158,4 +158,4 @@
     "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados.",
     "Poderes fechados em 3e: Planador do Duende fechado em 9 PP + Luvas/Bombas (16 PP) + Força (14 PP) + Agi/Des (20 PP) + Int (14 PP) + Proteção (5 PP) = 78 PP poderes. Total 3e: 182.5 PP."
   ]
-}
+}

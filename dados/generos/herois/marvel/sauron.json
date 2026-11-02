@@ -56,7 +56,7 @@
       },
       {
         "nome": "Drain (Stamina) 8",
-        "construcao_3e": "Enfraquecer Vigor 8 (Weaken Stamina 8; 8 PP).",
+        "construcao_3e": "Enfraquecer Vigor 8 (Enfraquecer Vigor 8; 8 PP).",
         "custo_2e_pp": 8,
         "custo_3e_pp": 8,
         "nome_pt": "Drenar Energia Vital (Vigor)"
@@ -91,7 +91,7 @@
       },
       {
         "nome": "Mind Control 8",
-        "construcao_3e": "Aflição 8 (Resistida por Vontade; Dazed, Compelled, Controlled; Alcance Percepção, Dependente de Olhar; 8 PP).",
+        "construcao_3e": "Aflição 8 (Resistida por Vontade; Tonto, Compelido, Controlado; Alcance Percepção, Dependente de Olhar; 8 PP).",
         "custo_2e_pp": 8,
         "custo_3e_pp": 8,
         "nome_pt": "Olhar Hipnótico (Controle Mental)"

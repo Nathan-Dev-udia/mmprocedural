@@ -72,11 +72,11 @@
       }
     ],
     "equipamento": [
-      "Arco (+3 dano; Mighty; 9 EP)",
-      "Uniforme (+3 Resistência; 3 EP)",
-      "Com-link (1 EP)",
-      "Binóculos (1 EP)",
-      "Celular (1 EP)"
+      "Arco (+3 dano; Baseado em Força; 9 PE)",
+      "Uniforme (+3 Resistência; 3 PE)",
+      "Com-link (1 PE)",
+      "Binóculos (1 PE)",
+      "Celular (1 PE)"
     ],
     "complicacoes": [],
     "ataques": [

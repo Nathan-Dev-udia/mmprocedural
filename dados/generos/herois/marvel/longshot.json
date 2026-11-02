@@ -58,7 +58,7 @@
     "poderes": [
       {
         "nome": "Leaping",
-        "construcao_3e": "Leaping 2.",
+        "construcao_3e": "Salto 2.",
         "custo_2e_pp": 2,
         "custo_3e_pp": 2,
         "nome_pt": "Super-Salto"
@@ -72,15 +72,15 @@
       },
       {
         "nome": "Super-Senses",
-        "construcao_3e": "Senses 4 (Postcognition, Touch Range).",
+        "construcao_3e": "Sentidos 4 (Postcognition, Touch Range).",
         "custo_2e_pp": 2,
         "custo_3e_pp": 4,
         "nome_pt": "Psicometria (Super-Sentidos)"
       }
     ],
     "equipamento": [
-      "Facas de arremesso (+1 Damage; 19–20 Crit; Autofire; 4 EP)",
-      "Jaqueta de couro (+1 Toughness; 1 EP)"
+      "Facas de arremesso (+1 Dano; 19–20 Crítico; Multiataque; 4 PE)",
+      "Jaqueta de couro (+1 Resistência; 1 PE)"
     ],
     "complicacoes": [
       "Perda de Poder: Luck Control não funciona quando Longshot acredita que os motivos são malignos/egoístas; ocorrência incomum, intensidade menor (1 PP na fonte)."
@@ -121,4 +121,4 @@
     "Ranged Attack foi reduzido de 8 para 3 ranks para preservar o bônus publicado de Facas arremessadas e respeitar o limite de NP.",
     "Poderes fechados em 3e: Controle de Sorte fechado em 15 PP + Salto (2 PP) + Sentidos (4 PP) = 21 PP poderes. Total 3e: 174.5 PP."
   ]
-}
+}

@@ -57,21 +57,21 @@
     "poderes": [
       {
         "nome": "Enhanced Strength",
-        "construcao_3e": "Enhanced Trait: Strength 10 (para elevar o valor base 2 ao valor final 12).",
+        "construcao_3e": "Característica Aprimorada: Força 10 (para elevar o valor base 2 ao valor final 12).",
         "custo_2e_pp": 20,
         "custo_3e_pp": 20,
         "nome_pt": "Força Aumentada"
       },
       {
         "nome": "Enhanced Constitution",
-        "construcao_3e": "Enhanced Trait: Stamina 10 (para elevar o valor base 3 ao valor final 13).",
+        "construcao_3e": "Característica Aprimorada: Vigor 10 (para elevar o valor base 3 ao valor final 13).",
         "custo_2e_pp": 30,
         "custo_3e_pp": 20,
         "nome_pt": "Vigor Aumentado"
       },
       {
         "nome": "Impervious Toughness",
-        "construcao_3e": "Impervious Toughness 13.",
+        "construcao_3e": "Resistência Impenetrável 13.",
         "custo_2e_pp": 13,
         "custo_3e_pp": 13,
         "nome_pt": "Resistência Impenetrável"
@@ -132,4 +132,4 @@
     "habilidades_base registra For 2 e Vig 3 (sem os aumentos de Enhanced Strength e Enhanced Constitution). Os custos 3e somam 192.5 PP (42 habilidades base + 56 poderes + 47 defesas + 32.5 perícias + 15 vantagens).",
     "Correção de custo: as perícias somam 65 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 65 para 32.5 PP (subtotal e totais ajustados em -32.5)."
   ]
-}
+}

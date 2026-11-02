@@ -1,0 +1,120 @@
+{
+  "nome_pt": "Besouro Azul (Jaime Reyes)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 73,
+  "ficha": {
+    "habilidades": {
+      "For": 6,
+      "Vig": 4,
+      "Agi": 4,
+      "Des": 3,
+      "Lut": 4,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 1
+    },
+    "poderes": [
+      "Beetle Wings: Voo 5 (96 km/h) (10 PP)",
+      "Carapace: Proteção 8 (8 PP)",
+      "Reach Infiltrator: Arranjo (16 pontos)",
+      "• Khaji Da: Sentidos 8 (Analítico (Normal Hearing), Analítico (Normal Sight), Counters Ilusão, Counters Camuflagem (Invisibility), Sentido de Perigo, Visão no Escuro, Rádio, Raio (Normal Sight), Tracking), Enhanced Advantage: Assessment, Enhanced Skill 3 (Insight +3) (16 PP)",
+      "• Dimension Shift: Dimension Travel (Bleed) (1 PP)",
+      "• Dimension Step: Camuflagem (Total), Não Confiável (may cause Blue Beetle to skip forward in time up to +8 graduações of time he intended to stay concealed) (1 PP)",
+      "• Energy Pattern Disruption: Effect Nulificar 10 (Energy Effects), Randomize (1 PP)",
+      "• Rocket Booster: Voo 5, Stacks with Beetle Wings (2,0 km/h) (1 PP)",
+      "• Sealed Systems: Imunidade 10 (Suporte Vital) (1 PP)",
+      "Reach Weaponry: Arranjo (16 pontos)",
+      "• Energy Cannon: Dano à Distância 8 (16 PP)",
+      "• Arm Blades: Força-based Dano 3 (1 PP)",
+      "• Escudo: Proteção 4, Resistência Impenetrável 12, Distrativo (1 PP)",
+      "Força of the Scarab: Força Aprimorada 4; Vigor Aprimorado 2; Agilidade Aprimorada 2; Destreza Aprimorada 2; Luta Aprimorada 3 (26 PP)",
+      "Subdermal Scarab: Característica 1 (Scarab AI and Database), Característica 1 (Quick Change to armor) (2 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Esforço Extraordinário",
+      "Language (Spanish)",
+      "Ataque Poderoso"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Arm Blades",
+        "graduacoes": 7,
+        "total": 11
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Especialidade: Tactics",
+        "graduacoes": 3,
+        "total": 4
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 7,
+        "total": 9
+      },
+      {
+        "nome": "Combate à Distância: Energy Cannons",
+        "graduacoes": 9,
+        "total": 12
+      }
+    ],
+    "iniciativa": 3,
+    "ataques": [
+      {
+        "nome": "Energy Cannons",
+        "bonus": 12,
+        "alcance": "À distância",
+        "dano": "Dano 8"
+      },
+      {
+        "nome": "Arm Blades",
+        "bonus": 11,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 9"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Fortitude": 12,
+      "Aparar": 8,
+      "Resistência": 12,
+      "Vontade": 8
+    },
+    "observacao_defesas": "* Fortitude 12 Aparar 8/4* Resistência 12/16* Vontade 8 *With Escudo.",
+    "custos": {
+      "Habilidades": 24,
+      "Perícias": 16,
+      "Poderes": 85,
+      "Defesas": 22,
+      "Vantagens": 3
+    },
+    "total": 150,
+    "complicacoes": [
+      {
+        "titulo": "Family and Friends",
+        "texto": "Jaime Reyes has shared the secret of his super hero career with not just his family, but also a circle of friends, all of whom help and support him in his adventures."
+      },
+      {
+        "titulo": "Hybrid Hero",
+        "texto": "The Blue Beetle was born when Jaime Reyes merged into a unique symbiotic relationship with the scarab named “Khaji Da. ” Together they are still figuring out the exact nature and extent of their Abilities. When the scarab isn’t active Jaime doesn’t have any Powers."
+      },
+      {
+        "titulo": "Lone Star",
+        "texto": "Blue Beetle is not only a new hero, he is a hero in a Texas city that has not previously had many super heroes."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

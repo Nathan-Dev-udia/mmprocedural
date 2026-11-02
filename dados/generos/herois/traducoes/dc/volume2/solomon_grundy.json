@@ -1,0 +1,67 @@
+{
+  "nome_pt": "Solomon Grundy",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 183,
+  "ficha": {
+    "habilidades": {
+      "For": 18,
+      "Vig": 20,
+      "Agi": 0,
+      "Des": 0,
+      "Lut": 6,
+      "Int": -2,
+      "Pro": 0,
+      "Pre": 0
+    },
+    "poderes": [
+      "i Resistência Impenetrável 8 (8 PP)",
+      "mp enetrable Hide: Soulless: Imunidade 5 (Control effects) (5 PP)",
+      "Unliving: Imunidade 30 (Fortitude) (30 PP)",
+      "d a e S a V ant G All-out Attack, Corpo a Corpo Attack 4, Fearless, Improved Hold, Power Attack"
+    ],
+    "equipamento": [],
+    "vantagens": [],
+    "pericias": [
+      {
+        "nome": "Intimidação",
+        "graduacoes": 8,
+        "total": 8
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 18"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 8,
+      "Resistência": 20,
+      "Vontade": 9
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 84,
+      "Perícias": 4,
+      "Poderes": 43
+    },
+    "total": 158,
+    "complicacoes": [
+      {
+        "titulo": "f ur y",
+        "texto": "Grundy is given to uncontrollable bouts of temper and rage."
+      },
+      {
+        "titulo": "Gullible",
+        "texto": "Grundy is often fooled into helping out a new “friend. ”"
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

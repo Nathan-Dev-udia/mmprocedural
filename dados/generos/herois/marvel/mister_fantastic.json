@@ -62,8 +62,8 @@
       }
     ],
     "equipamento": [
-      "Uniforme (Second Chance contra ataques elétricos, receptor GPS, PDA; 3 EP)",
-      "Arranha-céu (Large; Toughness 10; Communications, Computer, Defense System, Fire Prevention, Gym, Hangar, Infirmary, Laboratory, Library, Living Space, Power System, Security System, Workshop; 16 EP)"
+      "Uniforme (Second Chance contra ataques elétricos, receptor GPS, PDA; 3 PE)",
+      "Arranha-céu (Large; Resistência 10; Communications, Computer, Defense System, Fire Prevention, Gym, Hangar, Infirmary, Laboratory, Library, Living Space, Power System, Security System, Workshop; 16 PE)"
     ],
     "complicacoes": [],
     "ataques": [
@@ -95,4 +95,4 @@
     "Master Plan foi convertido em Inspire 1 conforme a orientação do guia.",
     "Poderes fechados em 3e: Forma Elástica fechada em 65 PP. Total 3e: 199.5 PP."
   ]
-}
+}

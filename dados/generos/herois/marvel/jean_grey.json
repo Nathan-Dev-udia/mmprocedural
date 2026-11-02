@@ -64,8 +64,8 @@
       }
     ],
     "equipamento": [
-      "Uniforme (+3 Toughness; Subtle; 4 EP)",
-      "Comunicador (1 EP)"
+      "Uniforme (+3 Resistência; Sutil; 4 PE)",
+      "Comunicador (1 PE)"
     ],
     "complicacoes": [],
     "ataques": [
@@ -102,4 +102,4 @@
     "Second Chance (Concentration Checks) foi omitida porque Concentration não tem perícia ou teste independente equivalente na 3e.",
     "Poderes fechados em 3e: Array de Telepatia e Telecinese Dinâmica fechado em 57 PP. Total 3e: 151 PP."
   ]
-}
+}

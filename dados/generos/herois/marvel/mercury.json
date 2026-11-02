@@ -58,7 +58,7 @@
       }
     ],
     "equipamento": [
-      "Uniforme dos Hellions (+4 Toughness; Comunicador; 5 EP)"
+      "Uniforme dos Hellions (+4 Resistência; Comunicador; 5 PE)"
     ],
     "complicacoes": [],
     "ataques": [
@@ -91,4 +91,4 @@
     "Dodge foi ajustada de 27 para 15 para cumprir Dodge + Toughness ≤ 20 (NP 10).",
     "Poderes fechados em 3e: Forma de Mercúrio Líquido fechada em 48 PP. Total 3e: 144.5 PP."
   ]
-}
+}

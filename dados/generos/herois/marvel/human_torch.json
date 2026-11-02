@@ -51,21 +51,21 @@
     "poderes": [
       {
         "nome": "Blast",
-        "construcao_3e": "Ranged Damage 12.",
+        "construcao_3e": "Dano à Distância 12.",
         "custo_2e_pp": 24,
         "custo_3e_pp": 24,
         "nome_pt": "Rajada de Fogo"
       },
       {
         "nome": "Flight",
-        "construcao_3e": "Flight 6.",
+        "construcao_3e": "Voo 6.",
         "custo_2e_pp": 12,
         "custo_3e_pp": 12,
         "nome_pt": "Voo Flamejante"
       },
       {
         "nome": "Protection",
-        "construcao_3e": "Protection 8.",
+        "construcao_3e": "Proteção 8.",
         "custo_2e_pp": 8,
         "custo_3e_pp": 8,
         "nome_pt": "Proteção Térmica"
@@ -79,7 +79,7 @@
       }
     ],
     "equipamento": [
-      "Uniforme (Second Chance: testes de resistência contra eletricidade; receptor GPS; PDA; 3 EP)"
+      "Uniforme (Second Chance: testes de resistência contra eletricidade; receptor GPS; PDA; 3 PE)"
     ],
     "complicacoes": [],
     "ataques": [
@@ -122,4 +122,4 @@
     "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados.",
     "Poderes fechados em 3e: Rajada (24 PP) + Voo (12 PP) + Proteção (8 PP) + Aura Flamejante (21 PP) = 65 PP poderes. Total 3e: 149.5 PP."
   ]
-}
+}

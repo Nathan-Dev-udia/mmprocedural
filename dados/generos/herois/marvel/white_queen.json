@@ -61,10 +61,10 @@
       }
     ],
     "equipamento": [
-      "Small Pistol [+2 Damage; 4ep]",
-      "Limo [Strength: 35; Speed: 5; Defense: 8; Toughness: 9; Size: Huge; 8ep]",
-      "Mansion [Size: Large; Toughness: 10; Features: Living Space; 4ep]",
-      "Private Jet [Strength: 40; Speed: 7; Defense: 6; Toughness 11: Size: Gargantuan; 17ep]",
+      "Small Pistol [+2 Dano; 4ep]",
+      "Limo [Strength: 35; Speed: 5; Defense: 8; Resistência: 9; Size: Huge; 8ep]",
+      "Mansion [Size: Large; Resistência: 10; Features: Living Space; 4ep]",
+      "Private Jet [Strength: 40; Speed: 7; Defense: 6; Resistência 11: Size: Gargantuan; 17ep]",
       "The Outfit [Fascinate – Bluff; 1ep]",
       "Cell Phone [1ep]"
     ],
@@ -112,4 +112,4 @@
     "Correção de custo: as perícias somam 105 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 105 para 52.5 PP (subtotal e totais ajustados em -52.5).",
     "Poderes fechados em 3e: Telepatia e Forma de Diamante fechadas em 57 PP. Total 3e: 176.5 PP."
   ]
-}
+}

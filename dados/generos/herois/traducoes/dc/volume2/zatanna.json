@@ -1,0 +1,123 @@
+{
+  "nome_pt": "Zatanna Zatara",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 275,
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 2,
+      "Agi": 2,
+      "Des": 4,
+      "Lut": 2,
+      "Int": 3,
+      "Pro": 4,
+      "Pre": 4
+    },
+    "poderes": [
+      "mágico: Arranjo (28 pontos)",
+      "• e nogeb Cigam!: Nulificar 14 (All mágico Effects) (28 PP)",
+      "• e b W on d nuob!: R anged Aflição 14 (resistido por Esquiva; Impedido and Vulnerável, Indefeso and Immobilized) (1 PP)",
+      "• Cigam e k irts!: Dano à Distância 14 (mágico) (1 PP)",
+      "• o tserp e gnahc o !: Aflição à Distância 9 (resistido por Fortitude; Tonto, Atordoado, Transformado), Cumulativo (1 PP)",
+      "• r aeppa!: Criar Objetos 9, Contínuo, Sutil (1 PP)",
+      "• t c etorp!: Perception À Distância Deflexão 14 (1 PP)",
+      "• Won t egr of: Aflição 9 (resistido por Vontade; Tonto, Atordoado, Transformado—subject forgets), Insidioso, Progressivo (1 PP)",
+      "• t r opsnart e m!: Teleporte 14 (60 milhas) (1 PP)",
+      "Mystic Sentidos: Sentidos 4 (Detect mágico, À Distância, Aguçado, Analítico) (4 PP)",
+      "a V ant G d a e S Artificer, Attractive, Connected, Defensive Attack, Extraordinary Effort, Fascinate (Expertise: Performance), Luck, Ritualist, Teamwork"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "9 Total 153"
+    ],
+    "pericias": [
+      {
+        "nome": "Enganação",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Especialidade: mágico",
+        "graduacoes": 12,
+        "total": 15
+      },
+      {
+        "nome": "Especialidade: Performance",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Combate à Distância: mágico",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 10,
+        "total": 14
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 4,
+        "total": 7
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "mágico",
+        "bonus": 8,
+        "alcance": "À distância",
+        "dano": "Dano 14 mais outros"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 2,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 0"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Fortitude": 7,
+      "Aparar": 8,
+      "Resistência": 2,
+      "Vontade": 13
+    },
+    "observacao_defesas": "",
+    "custos": {},
+    "total": null,
+    "complicacoes": [
+      {
+        "titulo": "e nemies",
+        "texto": "Zatanna has various mystical foes who consider her a thr eat."
+      },
+      {
+        "titulo": "Guilt",
+        "texto": "Zatanna feels guilt over the death of her father, Zatara, who sacrificed himself to save her."
+      },
+      {
+        "titulo": "Perda de Poder",
+        "texto": "Zatanna needs to speak aloud (and backwards) to cast her spells."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

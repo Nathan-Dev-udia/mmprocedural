@@ -62,7 +62,7 @@
     "poderes": [
       {
         "nome": "Enhanced Strength",
-        "construcao_3e": "Enhanced Trait: Strength 5 (para elevar o valor base 3 ao valor final 8).",
+        "construcao_3e": "Característica Aprimorada: Força 5 (para elevar o valor base 3 ao valor final 8).",
         "custo_2e_pp": 10,
         "custo_3e_pp": 10,
         "nome_pt": "Força Aumentada"
@@ -83,9 +83,9 @@
       }
     ],
     "equipamento": [
-      "Katana [+3 Damage; 19-20 Crit; Mighty; 5ep]",
-      "Silver Samurai Armor [+6 Toughness; 6ep]",
-      "Shuriken [+1 Damage; Auto-Fire; 3ep]"
+      "Katana [+3 Dano; 19-20 Crítico; Baseado em Força; 5ep]",
+      "Silver Samurai Armor [+6 Resistência; 6ep]",
+      "Shuriken [+1 Dano; Multiataque; 3ep]"
     ],
     "complicacoes": [],
     "ataques": [
@@ -141,4 +141,4 @@
     "Correção de custo: as perícias somam 79 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 79 para 39.5 PP (subtotal e totais ajustados em -39.5).",
     "Poderes fechados em 3e: Campo de Táquions fechado em 21 PP + Força (10 PP) + Carga (3 PP) = 34 PP poderes. Total 3e: 162.5 PP."
   ]
-}
+}

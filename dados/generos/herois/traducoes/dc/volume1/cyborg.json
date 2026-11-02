@@ -1,0 +1,115 @@
+{
+  "nome_pt": "Ciborgue (Victor Stone)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 140,
+  "ficha": {
+    "habilidades": {
+      "For": 7,
+      "Vig": 6,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 4,
+      "Int": 4,
+      "Pro": 3,
+      "Pre": 3
+    },
+    "poderes": [
+      "Amplified Sentidos: Sentidos 11 (Analítico Vision, Analítico Hearing, Visão no Escuro, Visão Estendida, Audição Estendida, Infravisão, Rádio, Ultra-Audição, Ultravisão) (11 PP)",
+      "Computer Link: Compreender 2 (Machines) (4 PP)",
+      "Hydraulic Muscles: Força Aprimorada 4, Salto 8 (1,800 feet) (16 PP)",
+      "Molybdenum Steel Body: Proteção 6 (6 PP)",
+      "Self-Repair Systems: Vigor Aprimorado 3, Regeneração 3 (9 PP)",
+      "White Sound Blaster: Dano à Distância 9 (18 PP)",
+      "• Widespread White Sound: Área de Cone Dano 9 (1 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Preciso",
+      "Duro de Matar",
+      "Grande Vigor",
+      "Agarrar Aprimorado",
+      "Quebrar Aprimorado",
+      "Ataque Poderoso"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 5,
+        "total": 12
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 9,
+        "total": 13
+      },
+      {
+        "nome": "Especialidade: Streetwise",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Combate à Distância: Sound Blaster",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 8,
+        "total": 12
+      }
+    ],
+    "iniciativa": 3,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 13,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 7"
+      },
+      {
+        "nome": "White Sound Blaster",
+        "bonus": 11,
+        "alcance": "",
+        "dano": "Range, Dano 9"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Fortitude": 10,
+      "Aparar": 8,
+      "Resistência": 12,
+      "Vontade": 7
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 52,
+      "Perícias": 20,
+      "Poderes": 65,
+      "Defesas": 17,
+      "Vantagens": 6
+    },
+    "total": 160,
+    "complicacoes": [
+      {
+        "titulo": "The Hero Rebuilt",
+        "texto": "Victor Stone’s body has been rebuilt nearly from scratch several times, and echoes of those traumas still haunt him."
+      },
+      {
+        "titulo": "Insecurity",
+        "texto": "Particularly when it comes to his relationships, Cyborg is quietly unsure if others see him as a man or as a machine."
+      },
+      {
+        "titulo": "Man and Machine",
+        "texto": "While his human side is a part of Victor’s Força, it is also an element of his construction that is occasionally Vulnerável. Powers & Abilities As Cyborg, Victor Stone’s mind is augmented by an onboard computer, his Força is mechanically amplified, and his body can power tools and weapons like the sonic disruptor attached to his arm. Bonding with the alien Omegadrome also gave him the ability to speak to computers and other electronics."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

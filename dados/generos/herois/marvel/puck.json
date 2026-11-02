@@ -51,44 +51,45 @@
     "poderes": [
       {
         "nome": "Enhanced Strength 10",
-        "construcao_3e": "Enhanced Trait: Strength 5 (para elevar o valor base 3 ao valor final 8).",
+        "construcao_3e": "Característica Aprimorada: Força 5 (para elevar o valor base 3 ao valor final 8).",
         "custo_2e_pp": 10,
         "custo_3e_pp": 10,
         "nome_pt": "Força Aumentada 10"
       },
       {
         "nome": "Enhanced Dexterity 10",
-        "construcao_3e": "Enhanced Trait: Agility 5 e Dexterity 5 (para elevar os valores base 3 e 0 aos valores finais 8 e 5).",
+        "construcao_3e": "Característica Aprimorada: Agilidade 5 e Destreza 5 (para elevar os valores base 3 e 0 aos valores finais 8 e 5).",
         "custo_2e_pp": 10,
         "custo_3e_pp": 20,
         "nome_pt": "Destreza Aumentada 10"
       },
       {
         "nome": "Immunity 1",
-        "construcao_3e": "Immunity to aging.",
+        "construcao_3e": "Imunidade to aging.",
         "custo_2e_pp": 1,
         "custo_3e_pp": 1,
         "nome_pt": "Imunidade 1"
       },
       {
         "nome": "Leaping 2",
-        "construcao_3e": "Leaping 2.",
+        "construcao_3e": "Salto 2.",
         "custo_2e_pp": 2,
         "custo_3e_pp": 2,
         "nome_pt": "Salto 2"
       },
       {
         "nome": "Protection 7",
-        "construcao_3e": "Protection 7, Impervious.",
+        "construcao_3e": "Proteção 7, Impenetrável.",
         "custo_2e_pp": 14,
         "custo_3e_pp": 14,
         "nome_pt": "Proteção 7"
       },
       {
         "nome": "Shrinking 4",
-        "construcao_3e": "Shrinking 4 (Permanent, Normal Strength, Innate).",
+        "construcao_3e": "Encolhimento 4 (Permanente, Normal Força, Inato).",
         "custo_2e_pp": 9,
-        "custo_3e_pp": 13
+        "custo_3e_pp": 13,
+        "nome_pt": "Encolhimento"
       },
       {
         "nome": "Super-Strength 3",
@@ -141,4 +142,4 @@
     "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +8/+8/+3/+1/+1/+0. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
     "habilidades_base registra For 3, Agi 3 e Des 0 (sem os aumentos de Enhanced Strength e Enhanced Dexterity). Os custos 3e somam 190 PP (46 habilidades base + 63 poderes + 43 defesas + 27 perícias + 11 vantagens)."
   ]
-}
+}

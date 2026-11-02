@@ -51,7 +51,7 @@
       "Rolamento Defensivo 2",
       "Equipamento 2",
       "Evasão 2",
-      "Fascinar (Deception)",
+      "Fascinar (Enganação)",
       "Desarmar Aprimorado",
       "Iniciativa Aprimorada 2",
       "Sorte",
@@ -64,17 +64,17 @@
     "poderes": [
       {
         "nome": "Blast (kinetic cards)",
-        "construcao_3e": "Damage 10 (Ranged, Area Burst, Flaw: Requires Medium [cartas/objetos]; 20 PP) + Split 3 (3 PP); Alternate Effect: Damage 8 (Ranged, Multiattack, Accurate, Requires Medium; 1 PP). Array total: 24 PP.",
+        "construcao_3e": "Dano 10 (À Distância, área Burst, Flaw: Requires Medium [cartas/objetos]; 20 PP) + Dividido 3 (3 PP); Efeito Alternativo: Dano 8 (À Distância, Multiataque, Preciso, Requires Medium; 1 PP). Array total: 24 PP.",
         "custo_2e_pp": 24,
         "custo_3e_pp": 24,
         "nome_pt": "Rajada de Energia (kinetic cards)"
       }
     ],
     "equipamento": [
-      "Bastão (+2 dano; alcance 3 m; 4 EP)",
-      "Cartas de baralho (1 EP)",
-      "Gazuas de obra-prima (1 EP)",
-      "Uniforme (Protection 3; Subtle; 4 EP)"
+      "Bastão (+2 dano; alcance 3 m; 4 PE)",
+      "Cartas de baralho (1 PE)",
+      "Gazuas de obra-prima (1 PE)",
+      "Uniforme (Proteção 3; Sutil; 4 PE)"
     ],
     "complicacoes": [],
     "ataques": [
@@ -122,4 +122,4 @@
     "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados.",
     "Poderes fechados em 3e: Blast de cartas cinéticas convertido em Array de 24 PP com Requires Medium. Total 3e: 172.5 PP."
   ]
-}
+}

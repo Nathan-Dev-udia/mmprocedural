@@ -81,10 +81,10 @@
       }
     ],
     "equipamento": [
-      "Uniforme (+3 Toughness; 3 EP)",
-      "Braceletes (Improved Defense; 1 EP)",
-      "gancho de escalada (Movement: Swinging; 2 EP)",
-      "Arsenal 9 EP: Boomerang (+2 Damage, Mighty, Ricochet; 6 EP), Kopesh (+3 Damage, Mighty, Improved Critical; 5 EP), dardos de arremesso (+1 Damage, Autofire, Mighty; 4 EP), Brass Knuckles (+1 Damage, Mighty; 2 EP)"
+      "Uniforme (+3 Resistência; 3 PE)",
+      "Braceletes (Improved Defense; 1 PE)",
+      "gancho de escalada (Movement: Swinging; 2 PE)",
+      "Arsenal 9 PE: Boomerang (+2 Dano, Baseado em Força, Ricochet; 6 PE), Kopesh (+3 Dano, Baseado em Força, Crítico Aprimorado; 5 PE), dardos de arremesso (+1 Dano, Multiataque, Baseado em Força; 4 PE), Brass Knuckles (+1 Dano, Baseado em Força; 2 PE)"
     ],
     "complicacoes": [],
     "ataques": [
@@ -133,4 +133,4 @@
     "Dodge foi ajustada de 16 para 12 para cumprir Dodge + Toughness ≤ 20 (NP 10).",
     "Poderes fechados em 3e: Bênção Lunar (12 PP) + Regeneração de Khonshu (7 PP) = 19 PP poderes. Total 3e: 179 PP."
   ]
-}
+}

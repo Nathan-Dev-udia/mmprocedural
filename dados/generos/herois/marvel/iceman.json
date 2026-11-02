@@ -49,7 +49,7 @@
     "poderes": [
       {
         "nome": "Cold Control",
-        "construcao_3e": "Controle de Frio 12 (Array dinâmico: Dano de Gelo, Ambiente [Frio Extremo e Terreno Escorregadio], Obscurecer Visual e Snare de Gelo; 31 PP).",
+        "construcao_3e": "Controle de Frio 12 (Array dinâmico: Dano de Gelo, Ambiente [Frio Extremo e Terreno Escorregadio], Obscurecer Visual e Aprisionar de Gelo; 31 PP).",
         "custo_2e_pp": 31,
         "custo_3e_pp": 31,
         "nome_pt": "Controle de Gelo e Frio"
@@ -63,14 +63,14 @@
       },
       {
         "nome": "Immunity",
-        "construcao_3e": "Immunity 5 (frio).",
+        "construcao_3e": "Imunidade 5 (frio).",
         "custo_2e_pp": 5,
         "custo_3e_pp": 5,
         "nome_pt": "Imunidade a Frio"
       },
       {
         "nome": "Protection",
-        "construcao_3e": "Protection 10.",
+        "construcao_3e": "Proteção 10.",
         "custo_2e_pp": 10,
         "custo_3e_pp": 10,
         "nome_pt": "Armadura de Gelo"
@@ -111,4 +111,4 @@
     "A fonte descreve Ice Blast como ataque +8 e efeito 12; a combinação fica no limite Ataque + Efeito de NP 10.",
     "Poderes fechados em 3e: Controle de Frio (31 PP) + Criar Gelo/Pistas (23 PP) + Imunidade (5 PP) + Armadura (10 PP) = 69 PP poderes. Total 3e: 146 PP."
   ]
-}
+}

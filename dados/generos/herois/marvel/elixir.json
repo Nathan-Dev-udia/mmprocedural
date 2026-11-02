@@ -51,7 +51,7 @@
     "poderes": [
       {
         "nome": "Healing",
-        "construcao_3e": "Healing 10 (Total [+1/rank], Persistent [1 flat], Regrowth [1 flat]; Ação Padrão base 3e). Custo: 32 PP.",
+        "construcao_3e": "Cura 10 (Total [+1/graduação], Persistent [1 flat], Regrowth [1 flat]; Ação Padrão base 3e). Custo: 32 PP.",
         "custo_2e_pp": 42,
         "custo_3e_pp": 32,
         "nome_pt": "Cura"
@@ -89,4 +89,4 @@
     "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados.",
     "Poderes fechados em 3e: Healing 10 com Total, Persistent e Regrowth (32 PP). Total 3e: 134 PP."
   ]
-}
+}

@@ -1,0 +1,94 @@
+{
+  "nome_pt": "Hera Venenosa (Pamela Isley)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 109,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 3,
+      "Agi": 3,
+      "Des": 2,
+      "Lut": 5,
+      "Int": 4,
+      "Pro": 3,
+      "Pre": 5
+    },
+    "poderes": [
+      "67 Defenses 28"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "6 Total 182 Co MPL i C tion S a e nvironmentalist: Poison Ivy’s mission is to protect plant life and pur ify Gotham. Vanity: Poison Ivy is obsessed with having power over others",
+      "particularly Batman",
+      "who is one of the few to have been able to reject her. lips—toxic to the touch. Her poisons can kill",
+      "paralyze",
+      "or act as mind-altering chemical agents as she sees fit and based on the requirements of the situation. She is an extremely in- telligent woman and gifted scientist who has been observed controlling plants",
+      "and may possess an undefined mystic link to the plant world."
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 6,
+        "total": 7
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Veneno Touch",
+        "graduacoes": 4,
+        "total": 9
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 10,
+        "total": 15
+      },
+      {
+        "nome": "Especialidade: Botany",
+        "graduacoes": 10,
+        "total": 14
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 12,
+        "total": 17
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 4,
+        "total": 8
+      }
+    ],
+    "iniciativa": 3,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 5,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 1"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 11,
+      "Fortitude": 10,
+      "Aparar": 11,
+      "Resistência": 6,
+      "Vontade": 10
+    },
+    "observacao_defesas": "* Vontade 10 *sem Rolamento Defensivo. Po er ponto W S Abilities 52 Skills 29",
+    "custos": {},
+    "total": null,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

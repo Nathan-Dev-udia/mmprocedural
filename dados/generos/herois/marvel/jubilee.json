@@ -59,22 +59,22 @@
     "poderes": [
       {
         "nome": "Blast / Dazzle",
-        "construcao_3e": "Blast 7; Efeito Alternativo: Dazzle (Visual). 15 PP na fonte.",
+        "construcao_3e": "Raio 7; Efeito Alternativo: Ofuscar (Visual). 15 PP na fonte.",
         "custo_2e_pp": 15,
         "custo_3e_pp": 15,
         "nome_pt": "Rajada de Energia / Dazzle"
       },
       {
         "nome": "Immunity",
-        "construcao_3e": "Immunity 1 (próprios poderes).",
+        "construcao_3e": "Imunidade 1 (próprios poderes).",
         "custo_2e_pp": 1,
         "custo_3e_pp": 1,
         "nome_pt": "Imunidade"
       }
     ],
     "equipamento": [
-      "Jaqueta (+1 Toughness; 1 EP)",
-      "Celular (1 EP)"
+      "Jaqueta (+1 Resistência; 1 PE)",
+      "Celular (1 PE)"
     ],
     "complicacoes": [],
     "ataques": [
@@ -111,4 +111,4 @@
     "Languages (English; chinês como idioma-base) convertido em Languages 1.",
     "Dodge foi ajustada de 14 para 10 para cumprir Dodge + Toughness ≤ 14 (NP 7)."
   ]
-}
+}

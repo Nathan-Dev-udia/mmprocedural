@@ -1,0 +1,144 @@
+{
+  "nome_pt": "Brainiac",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 81,
+  "ficha": {
+    "habilidades": {
+      "For": 13,
+      "Vig": 11,
+      "Agi": 2,
+      "Des": 3,
+      "Lut": 4,
+      "Int": 15,
+      "Pro": 3,
+      "Pre": 3
+    },
+    "poderes": [
+      "Android Body: Imunidade 30 (Fortitude), Proteção 5, Resistência Impenetrável 8 (43 PP)",
+      "Computer Mind: Comunicação 5 (Rádio), Compreender 4 (Languages, Machines), Rapidez 10 (Limitado a mental Tasks) (33 PP)"
+    ],
+    "equipamento": [
+      "VEHICLE: BIO-SHELL (219 PP)",
+      "Size: Awesome Str 20 Velocidade 14 Def –2, Tou 20 Features: Extra Limbs 8, Resistência Impenetrável 20, Missile Battery (Dano à Distância 16, Área de Explosão 12), Remote Control, Shrink Ray (À Distância Encolhimento Attack 20), Space Travel 3, Transporter (Teleporte 15, Extended)"
+    ],
+    "vantagens": [
+      "Ataque Preciso",
+      "Avaliação",
+      "Estrangular",
+      "Duro de Matar",
+      "Memória Eidética",
+      "Equipamento 43",
+      "Destemido",
+      "Iniciativa Aprimorada",
+      "Inventor",
+      "Bem-Informado"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Bio-Shell",
+        "graduacoes": 2,
+        "total": 6
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 7,
+        "total": 11
+      },
+      {
+        "nome": "Especialidade: History",
+        "graduacoes": 8,
+        "total": 23
+      },
+      {
+        "nome": "Especialidade: Known Space",
+        "graduacoes": 8,
+        "total": 23
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 6,
+        "total": 18
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Combate à Distância: Bio-Shell Weapons",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 8,
+        "total": 23
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 11,
+        "total": 14
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Golpes de Bio-Carapaça",
+        "bonus": 11,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 13"
+      },
+      {
+        "nome": "Rajada mental",
+        "bonus": null,
+        "alcance": "Percepção",
+        "dano": "Dano 12, resistido por Vontade"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 11,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 13"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Fortitude": 14,
+      "Aparar": 10,
+      "Resistência": 18,
+      "Vontade": 14
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 108,
+      "Poderes": 112,
+      "Vantagens": 12,
+      "Perícias": 28,
+      "Defesas": 27
+    },
+    "total": null,
+    "complicacoes": [
+      {
+        "titulo": "Obsessão",
+        "texto": "Collecting all knowledge in the universe, then destroying the remainder."
+      },
+      {
+        "titulo": "Fraqueza",
+        "texto": "Susceptible to sensory overloads."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

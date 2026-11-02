@@ -58,27 +58,28 @@
     "poderes": [
       {
         "nome": "Extra Limbs",
-        "construcao_3e": "Extra Limbs 1 (Innate).",
+        "construcao_3e": "Extra Limbs 1 (Inato).",
         "custo_2e_pp": 2,
         "custo_3e_pp": 2,
         "nome_pt": "Membros Extras"
       },
       {
         "nome": "Concealment",
-        "construcao_3e": "Concealment 2 (Sight), Limited a sombras.",
+        "construcao_3e": "Camuflagem 2 (Sight), Limitado a sombras.",
         "custo_2e_pp": 2,
-        "custo_3e_pp": 2
+        "custo_3e_pp": 2,
+        "nome_pt": "Camuflagem nas Sombras"
       },
       {
         "nome": "Super-Senses",
-        "construcao_3e": "Senses 1 (Distance Sense).",
+        "construcao_3e": "Sentidos 1 (Noção de Distância).",
         "custo_2e_pp": 1,
         "custo_3e_pp": 1,
         "nome_pt": "Super-Sentidos"
       },
       {
         "nome": "Movement",
-        "construcao_3e": "Movement 2 (Wall-Crawling).",
+        "construcao_3e": "Movimento 2 (Wall-Crawling).",
         "custo_2e_pp": 4,
         "custo_3e_pp": 4,
         "nome_pt": "Movimento"
@@ -92,7 +93,7 @@
       }
     ],
     "equipamento": [
-      "Espadas (+3 Damage; 19–20 Crit; Autofire; 8 EP)"
+      "Espadas (+3 Dano; 19–20 Crítico; Multiataque; 8 PE)"
     ],
     "complicacoes": [],
     "ataques": [
@@ -132,4 +133,4 @@
     "Dodge foi ajustada de 20 para 14 para cumprir Dodge + Toughness ≤ 20 (NP 10).",
     "Poderes fechados em 3e: Teletransporte fechado em 15 PP + Cauda (2 PP) + Camuflagem (2 PP) + Sentidos (1 PP) + Escalar (4 PP) = 24 PP poderes. Total 3e: 171 PP."
   ]
-}
+}

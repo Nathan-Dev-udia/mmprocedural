@@ -56,56 +56,56 @@
     "poderes": [
       {
         "nome": "Enhanced Strength",
-        "construcao_3e": "Enhanced Trait: Strength 4 (para elevar o valor base 1 ao valor final 5).",
+        "construcao_3e": "Característica Aprimorada: Força 4 (para elevar o valor base 1 ao valor final 5).",
         "custo_2e_pp": 8,
         "custo_3e_pp": 8,
         "nome_pt": "Força Aumentada"
       },
       {
         "nome": "Enhanced Dexterity",
-        "construcao_3e": "Enhanced Trait: Agility 2 e Dexterity 2 (para elevar os valores base 2 ao valor final 4).",
+        "construcao_3e": "Característica Aprimorada: Agilidade 2 e Destreza 2 (para elevar os valores base 2 ao valor final 4).",
         "custo_2e_pp": 4,
         "custo_3e_pp": 8,
         "nome_pt": "Destreza Aumentada"
       },
       {
         "nome": "Enhanced Constitution",
-        "construcao_3e": "Enhanced Trait: Stamina 4 (para elevar o valor base 1 ao valor final 5).",
+        "construcao_3e": "Característica Aprimorada: Vigor 4 (para elevar o valor base 1 ao valor final 5).",
         "custo_2e_pp": 8,
         "custo_3e_pp": 8,
         "nome_pt": "Vigor Aumentado"
       },
       {
         "nome": "Morph",
-        "construcao_3e": "Morph 1 (Metamorph: forma lupina descrita em ficha.formas_alternativas).",
+        "construcao_3e": "Metamorfose 1 (Metamorph: forma lupina descrita em ficha.formas_alternativas).",
         "custo_2e_pp": 2,
         "custo_3e_pp": 6,
         "nome_pt": "Metamorfose"
       },
       {
         "nome": "Speed",
-        "construcao_3e": "Speed 2.",
+        "construcao_3e": "Velocidade 2.",
         "custo_2e_pp": 2,
         "custo_3e_pp": 2,
         "nome_pt": "Velocidade"
       },
       {
         "nome": "Strike",
-        "construcao_3e": "Damage 2 (Strength-based, Improved Critical 3).",
+        "construcao_3e": "Dano 2 (Força-based, Improved Critical 3).",
         "custo_2e_pp": 6,
         "custo_3e_pp": 5,
         "nome_pt": "Golpe"
       },
       {
         "nome": "Super Senses",
-        "construcao_3e": "Senses 4 (Acute Scent, Extended Vision, Low-Light Vision, Tracking).",
+        "construcao_3e": "Sentidos 4 (Aguçado Scent, Visão Estendida, Visão na Penumbra, Tracking).",
         "custo_2e_pp": 4,
         "custo_3e_pp": 4,
         "nome_pt": "Super-Sentidos"
       }
     ],
     "equipamento": [
-      "Motorcycle [Strength: 15; Speed: 5; Defense: 10; Toughness: 8; Size: Medium; 9ep]"
+      "Motorcycle [Strength: 15; Speed: 5; Defense: 10; Resistência: 8; Size: Medium; 9ep]"
     ],
     "complicacoes": [
       "Identidade normal: Rahne Sinclair (fonte: Normal Identity, 3 PP).",
@@ -269,4 +269,4 @@
     "habilidades_base registra For 1, Vig 1, Agi 2 e Des 2 (sem os aumentos dos poderes). Os custos 3e somam 190 PP (42 habilidades base + 41 poderes + 47 defesas + 43 perícias + 17 vantagens).",
     "Correção de custo: as perícias somam 86 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 86 para 43 PP (subtotal e totais ajustados em -43)."
   ]
-}
+}

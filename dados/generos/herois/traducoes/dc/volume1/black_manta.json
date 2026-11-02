@@ -1,0 +1,134 @@
+{
+  "nome_pt": "Arraia Negra",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 61,
+  "ficha": {
+    "habilidades": {
+      "For": 8,
+      "Vig": 3,
+      "Agi": 4,
+      "Des": 3,
+      "Lut": 6,
+      "Int": 2,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "poderes": [
+      "Diving Suit: Força Aprimorada 5, Proteção 5, Natação 7 (96 km/h), Removível (–4 pontos) (13 PP)",
+      "Gill Implants: Imunidade 2 (Afogamento, Pressão), Movimento 1 (Environmental Adaptation: Aquatic) (4 PP)",
+      "Helmet: Imunidade 5 (Telepathic Powers), Removível (–1 ponto) (4 PP)",
+      "Weapons: Arranjo (20 pontos), Removível (–4 pontos) • Electrical Blasters: Dano 10, Área de Linha (20 PP)",
+      "• Blades: Força-based Dano 2 (1 PP)",
+      ". • Helmet Eye-beams: Dano à Distância 10 (laser) (1 PP)",
+      "• Minitorpedos: Dano à Distância 8, Teleguiado 4 (1 PP)"
+    ],
+    "equipamento": [
+      "VEHICLE: MANTA-SUB (35 PP)",
+      "Gargantuan; Str 13, Velocidade 7, Def 6, Tou 11; Navigation System, Smokescreen (ink cloud), Torpedoes (Dano à Distância 8 Área de Explosão 5), Towing Cables"
+    ],
+    "vantagens": [
+      "Finta Ágil",
+      "Ataque Defensivo",
+      "Equipamento 7",
+      "Mira Aprimorada",
+      "Minions",
+      "Ação em Movimento",
+      "Precise Attack (à distância; Cover)"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Blades",
+        "graduacoes": 4,
+        "total": 10
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 6,
+        "total": 12
+      },
+      {
+        "nome": "Combate à Distância: Weapons Array",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 8,
+        "total": 10
+      }
+    ],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Disparadores Ópticos",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Dano 10"
+      },
+      {
+        "nome": "Minitorpedos",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Dano 8, Multiataque"
+      },
+      {
+        "nome": "Cabo de Gancho",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Aflição 6"
+      },
+      {
+        "nome": "Choque Elétrico",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 8"
+      },
+      {
+        "nome": "Lâminas Gêmeas",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 10, Piercing"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 12,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 8"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Fortitude": 10,
+      "Aparar": 10,
+      "Resistência": 8,
+      "Vontade": 8
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 48,
+      "Poderes": 43,
+      "Vantagens": 14,
+      "Perícias": 15,
+      "Defesas": 22
+    },
+    "total": null,
+    "complicacoes": [
+      {
+        "titulo": "Motivação",
+        "texto": "Revenge."
+      },
+      {
+        "titulo": "Inimigo",
+        "texto": "Aquaman."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

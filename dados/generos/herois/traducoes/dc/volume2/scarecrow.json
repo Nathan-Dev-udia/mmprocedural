@@ -1,0 +1,86 @@
+{
+  "nome_pt": "Espantalho (Jonathan Crane)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 157,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 2,
+      "Agi": 4,
+      "Des": 1,
+      "Lut": 6,
+      "Int": 4,
+      "Pro": 3,
+      "Pre": 4
+    },
+    "poderes": [
+      "e motionless: Imunidade 5 (Emotion effects) (5 PP)",
+      "f ear G as: Cumulativo Progressivo Área de Nuvem Aflição 10 (resistido por Vontade; Tonto and Vulnerável, Atordoado and Indefeso, Paralisado and Unaware), Extra Condition, Facilmente Removível (-24 pontos) (36 PP)"
+    ],
+    "equipamento": [
+      "Scythe: Força-based Dano 3, Improved Critical, Reach (5 PP)"
+    ],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Rolamento Defensivo 4",
+      "Equipamento",
+      "Fascinar (Intimidação)",
+      "Maestria em Perícia (Expertise: Psychology)",
+      "Assustar"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Scythe",
+        "graduacoes": 4,
+        "total": 10
+      },
+      {
+        "nome": "Especialidade: Chemistry",
+        "graduacoes": 12,
+        "total": 16
+      },
+      {
+        "nome": "Especialidade: Psychology",
+        "graduacoes": 12,
+        "total": 16
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 12,
+        "total": 15
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 10,
+        "total": 14
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 4,
+        "total": 8
+      }
+    ],
+    "iniciativa": 4,
+    "ataques": [],
+    "defesas": {
+      "Esquiva": 8,
+      "Fortitude": 6,
+      "Aparar": 12,
+      "Resistência": 6,
+      "Vontade": 12
+    },
+    "observacao_defesas": "* Vontade 12 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 50,
+      "Perícias": 27,
+      "Poderes": 41,
+      "Defesas": 23,
+      "Vantagens": 9
+    },
+    "total": 150,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "nome_pt": "Mulher-Gato (Selina Kyle)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 107,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 3,
+      "Agi": 6,
+      "Des": 6,
+      "Lut": 8,
+      "Int": 3,
+      "Pro": 4,
+      "Pre": 4
+    },
+    "poderes": [
+      "Affinity for Cats: Característica 1 (Cats accept Catwoman as one of their own) (1 PP)"
+    ],
+    "equipamento": [
+      "Cat’s Claws: Força-based Dano 2 (2 PP)",
+      "Cat o’ Nine-Tails: Força-based Dano 2, Improved Grab, Improved Trip, Reach 2 (6 PP)",
+      "Climbing Gear: Movimento 1 (Wall-crawling) (2 PP)",
+      "Vehicle: Motorcycle (10 PP)",
+      "Medium; Str 1, Velocidade 6, Def 10, Tou 8"
+    ],
+    "vantagens": [
+      "Atraente",
+      "Ataque Corpo-a-Corpo 2",
+      "Conectado",
+      "Contatos",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 3",
+      "Equipamento 4",
+      "Evasion",
+      "Esconder-se a Plena Vista",
+      "Iniciativa Aprimorada",
+      "Ferramentas Improvisadas",
+      "Levantar Rápido",
+      "Move-by Attack",
+      "Precise Attack (corpo a corpo; Cover)",
+      "Saque Rápido",
+      "Ataque à Distância 3",
+      "Tomar a Iniciativa",
+      "Maestria em Perícia (Prestidigitação)",
+      "Derrubar em Sequência",
+      "Esquiva Fabulosa"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 8,
+        "total": 14
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 10,
+        "total": 12
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 10,
+        "total": 14
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Bullwhip",
+        "graduacoes": 4,
+        "total": 12
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 3,
+        "total": 11
+      },
+      {
+        "nome": "Especialidade: Burglar",
+        "graduacoes": 10,
+        "total": 13
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 10,
+        "total": 14
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 8,
+        "total": 14
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 8,
+        "total": 14
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 4,
+        "total": 10
+      }
+    ],
+    "iniciativa": 10,
+    "ataques": [
+      {
+        "nome": "Claws",
+        "bonus": 13,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 4"
+      },
+      {
+        "nome": "Bullwhip",
+        "bonus": 14,
+        "alcance": "Corpo a corpo",
+        "dano": "(Reach 2), Dano 4"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 13,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 14,
+      "Fortitude": 8,
+      "Aparar": 14,
+      "Resistência": 6,
+      "Vontade": 11
+    },
+    "observacao_defesas": "* Vontade 11 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 72,
+      "Perícias": 52,
+      "Poderes": 1,
+      "Defesas": 26,
+      "Vantagens": 28
+    },
+    "total": 179,
+    "complicacoes": [
+      {
+        "titulo": "Obsessão",
+        "texto": "Selina has a difficult time resisting a thrilling challenge, especially if it involves cats or pretty, shiny baubles."
+      },
+      {
+        "titulo": "Relacionamento",
+        "texto": "Catwoman has strong feelings for Batman that can distract from her other goals. and duct-tape to bind and gag targets before she robs them, for example, and usually has a set of lockpicks on her person. While she prefers a more maneuverable motorcycle (better for the tight alleys of parts of Gotham) she has been known to drive various cars as well, often stolen."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

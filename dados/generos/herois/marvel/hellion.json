@@ -63,7 +63,7 @@
       }
     ],
     "equipamento": [
-      "Uniforme dos Hellions (+4 Resistência; com-link; 5 EP)"
+      "Uniforme dos Hellions (+4 Resistência; com-link; 5 PE)"
     ],
     "complicacoes": [],
     "ataques": [
@@ -101,4 +101,4 @@
     "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados.",
     "Poderes fechados em 3e: Array de Telecinese Dinâmica fechado em 41 PP. Total 3e: 148.5 PP."
   ]
-}
+}

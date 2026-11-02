@@ -68,15 +68,16 @@
     "poderes": [
       {
         "nome": "Star-Spangled Shield",
-        "construcao_3e": "Star-Spangled Shield (Device facilmente removível): Dano baseado em Força 3 (Penetrante 10, À Distância 10, Ricochete 2, Indestrutível 1; 24 PP); Efeito Alternativo: Deflect 12 (1 PP). Piscina de 25 PP; Facilmente Removível (-10 PP) com Defesas integradas = 18 PP (custo 2e preservado).",
+        "construcao_3e": "Star-Spangled Shield (Dispositivo facilmente removível): Dano baseado em Força 3 (Penetrante 10, À Distância 10, Ricochete 2, Indestrutível 1; 24 PP); Efeito Alternativo: Deflexão 12 (1 PP). Piscina de 25 PP; Facilmente Removível (-10 PP) com Defesas integradas = 18 PP (custo 2e preservado).",
         "custo_2e_pp": 18,
-        "custo_3e_pp": 18
+        "custo_3e_pp": 18,
+        "nome_pt": "Escudo Estrelado"
       }
     ],
     "equipamento": [
-      "Cota de malha (+3 Resistência; 3 EP)",
-      "Com-link (1 EP)",
-      "Binóculos (1 EP)"
+      "Cota de malha (+3 Resistência; 3 PE)",
+      "Com-link (1 PE)",
+      "Binóculos (1 PE)"
     ],
     "complicacoes": [],
     "ataques": [
@@ -114,4 +115,4 @@
     "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados.",
     "Poderes fechados em 3e: Escudo convertido como Device facilmente removível (18 PP). Total 3e: 226.5 PP."
   ]
-}
+}

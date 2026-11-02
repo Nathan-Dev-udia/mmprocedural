@@ -43,7 +43,7 @@
       "Ataque Imprudente",
       "Atraente 2",
       "Ataque Defensivo",
-      "Fascinar (Deception)",
+      "Fascinar (Enganação)",
       "Defesa Aprimorada",
       "Ataque Poderoso",
       "Ataque Dominó",
@@ -73,7 +73,7 @@
       },
       {
         "nome": "Super-Strength 5",
-        "construcao_3e": "Super-Força / Power-Lifting 5 (5 PP) + Dano em Área no Solo / Ground Strike (6 PP) = 11 PP.",
+        "construcao_3e": "Super-Força / Power-Lifting 5 (5 PP) + Dano em Área no Solo / Ground Golpe (6 PP) = 11 PP.",
         "custo_2e_pp": 11,
         "custo_3e_pp": 11,
         "nome_pt": "Super-Força e Impacto Terrestre"

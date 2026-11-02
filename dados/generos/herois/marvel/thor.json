@@ -49,7 +49,7 @@
     "poderes": [
       {
         "nome": "Super Strength",
-        "construcao_3e": "Super-Força / Power-Lifting 5 (5 PP) + Efeito Alternativo: Impacto Terrestre / Ground Strike (1 PP) = 6 PP.",
+        "construcao_3e": "Super-Força / Power-Lifting 5 (5 PP) + Efeito Alternativo: Impacto Terrestre / Ground Golpe (1 PP) = 6 PP.",
         "custo_2e_pp": 11,
         "custo_3e_pp": 6,
         "nome_pt": "Super-Força Asgardiana"

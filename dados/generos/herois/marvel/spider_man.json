@@ -56,28 +56,28 @@
     "poderes": [
       {
         "nome": "Enhanced Dexterity",
-        "construcao_3e": "Enhanced Trait: Agility 14 e Dexterity 10 (para elevar os valores base 0 aos valores finais 14 e 10).",
+        "construcao_3e": "Característica Aprimorada: Agilidade 14 e Destreza 10 (para elevar os valores base 0 aos valores finais 14 e 10).",
         "custo_2e_pp": 28,
         "custo_3e_pp": 48,
         "nome_pt": "Destreza Aumentada"
       },
       {
         "nome": "Enhanced Strength",
-        "construcao_3e": "Enhanced Trait: Strength 8 (para elevar o valor base 0 ao valor final 8).",
+        "construcao_3e": "Característica Aprimorada: Força 8 (para elevar o valor base 0 ao valor final 8).",
         "custo_2e_pp": 16,
         "custo_3e_pp": 16,
         "nome_pt": "Força Aumentada"
       },
       {
         "nome": "Super Movement",
-        "construcao_3e": "Movement 2 (Wall-Crawling 2).",
+        "construcao_3e": "Movimento 2 (Wall-Crawling 2).",
         "custo_2e_pp": 4,
         "custo_3e_pp": 4,
         "nome_pt": "Super-Movimento"
       },
       {
         "nome": "Super Senses",
-        "construcao_3e": "Senses 1 (Danger Sense).",
+        "construcao_3e": "Sentidos 1 (Sentido de Perigo).",
         "custo_2e_pp": 1,
         "custo_3e_pp": 1,
         "nome_pt": "Super-Sentidos"
@@ -91,21 +91,21 @@
       },
       {
         "nome": "Leaping",
-        "construcao_3e": "Leaping 2.",
+        "construcao_3e": "Salto 2.",
         "custo_2e_pp": 2,
         "custo_3e_pp": 2,
         "nome_pt": "Salto"
       },
       {
         "nome": "Device",
-        "construcao_3e": "Dispositivo Removível: Aflição de Teia 10 (Snare; 20 PP); Efeitos Alternativos: Criar Paredes de Teia (1 PP), Dazzle Visual de Teia (1 PP), Movimento 1 (Balançar; 1 PP), Velocidade em Balanço 4 (1 PP), Feat: Acurado 2 (2 PP). Piscina de 26 PP; Removível (-8 PP) = 18 PP (custo original da fonte preservado).",
+        "construcao_3e": "Dispositivo Removível: Aflição de Teia 10 (Aprisionar; 20 PP); Efeitos Alternativos: Criar Paredes de Teia (1 PP), Ofuscar Visual de Teia (1 PP), Movimento 1 (Balançar; 1 PP), Velocidade em Balanço 4 (1 PP), Feat: Acurado 2 (2 PP). Piscina de 26 PP; Removível (-8 PP) = 18 PP (custo original da fonte preservado).",
         "custo_2e_pp": 18,
         "custo_3e_pp": 18,
         "nome_pt": "Lançadores de Teia"
       }
     ],
     "equipamento": [
-      "Costume [+5 Toughness; Subtle; 6ep]",
+      "Costume [+5 Resistência; Sutil; 6ep]",
       "Apartment [1ep]",
       "Mini Tracer [1ep]",
       "GPS Reciever [1ep]",
@@ -161,4 +161,4 @@
     "Correção de custo: as perícias somam 74 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 74 para 37 PP (subtotal e totais ajustados em -37).",
     "Poderes fechados em 3e: Lançadores de Teia fechados em 18 PP + Agi/Des (48 PP) + Força (16 PP) + Escalar (4 PP) + Sentido de Perigo (1 PP) + Super-Força (3 PP) + Salto (2 PP) = 92 PP poderes. Total 3e: 180 PP."
   ]
-}
+}

@@ -69,10 +69,10 @@
     ],
     "poderes": [],
     "equipamento": [
-      "Bengala (+1 Damage; Mighty; 2 EP)",
-      "Colete discreto (+2 Toughness; 4 EP)",
-      "Alfinete de gravata (Fatigue 6; 12 EP)",
-      "Arranha-céu (Large; Toughness 15; Communications, Computer, Defense System, Fire Prevention, Gym, Hangar, Infirmary, Laboratory, Library, Living Space, Power System, Security System, Workshop; 17 EP)"
+      "Bengala (+1 Dano; Baseado em Força; 2 PE)",
+      "Colete discreto (+2 Resistência; 4 PE)",
+      "Alfinete de gravata (Fatigue 6; 12 PE)",
+      "Arranha-céu (Large; Resistência 15; Communications, Computer, Defense System, Fire Prevention, Gym, Hangar, Infirmary, Laboratory, Library, Living Space, Power System, Security System, Workshop; 17 PE)"
     ],
     "complicacoes": [],
     "ataques": [
@@ -109,4 +109,4 @@
     "A fonte não lista poderes; os itens especiais permanecem em equipamento, sem convertê-los em poderes separados.",
     "Os custos 3e somam 184 PP (68 habilidades base + 0 poderes + 30 defesas + 47 perícias + 39 vantagens)."
   ]
-}
+}

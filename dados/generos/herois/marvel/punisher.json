@@ -59,7 +59,7 @@
     ],
     "poderes": [],
     "equipamento": [
-      "55 EP, normalmente distribuídos conforme a lista: van (Strength 35, Speed 5, Defense 8, Toughness 9; 8 EP); Colt .45s (+4 Damage; 8 EP); assault rifle with grenade launcher (+5 Damage, Autofire, AP; munição explosiva; 17 EP); escopeta (+5/+6 Damage; 11 EP); faca (+1 Damage, 19–20 critical, Mighty, thrown; 4 EP); colete à prova de balas (+3 Toughness; 3 EP); 4 EP for silenciadores, camuflagem, óculos de visão noturna, miras laser, and lunetas de mira."
+      "55 PE, normalmente distribuídos conforme a lista: van (Strength 35, Speed 5, Defense 8, Resistência 9; 8 PE); Colt .45s (+4 Dano; 8 PE); assault rifle with grenade launcher (+5 Dano, Multiataque, AP; munição explosiva; 17 PE); escopeta (+5/+6 Dano; 11 PE); faca (+1 Dano, 19–20 critical, Baseado em Força, thrown; 4 PE); colete à prova de balas (+3 Resistência; 3 PE); 4 PE for silenciadores, camuflagem, óculos de visão noturna, miras laser, and lunetas de mira."
     ],
     "complicacoes": [],
     "ataques": [
@@ -118,4 +118,4 @@
     "Modificadores originais de habilidades (STR/DEX/CON/INT/WIS/CHA): +3/+3/+3/+1/+0/+0. Atributos 3e derivados conforme o guia; perícias calculadas subtraindo a habilidade 3e do bônus total impresso.",
     "Os custos 3e somam 172 PP (54 habilidades base + 0 poderes + 51 defesas + 43 perícias + 24 vantagens)."
   ]
-}
+}

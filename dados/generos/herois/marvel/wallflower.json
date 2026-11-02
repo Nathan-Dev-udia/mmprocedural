@@ -45,14 +45,14 @@
     "poderes": [
       {
         "nome": "Emotion Control",
-        "construcao_3e": "Aflição 8 (Resistida por Vontade; Dazed, Compelled, Controlled; Área em Nuvem, Falha: Dependente de Sentidos [Olfato]; Duração Contínua [+2/graduação], Sutil 1, Reversível 1; 26 PP); Efeito Alternativo: Controle Emocional Seletivo em Nuvem (1 PP). Array total: 27 PP.",
+        "construcao_3e": "Aflição 8 (Resistida por Vontade; Tonto, Compelido, Controlado; Área em Nuvem, Falha: Dependente de Sentidos [Olfato]; Duração Contínua [+2/graduação], Sutil 1, Reversível 1; 26 PP); Efeito Alternativo: Controle Emocional Seletivo em Nuvem (1 PP). Array total: 27 PP.",
         "custo_2e_pp": 43,
         "custo_3e_pp": 27,
         "nome_pt": "Controle de Feromônios / Emoções"
       }
     ],
     "equipamento": [
-      "New X-Men Uniform [+4 Toughness; Comm-Link; 5ep]"
+      "New X-Men Uniform [+4 Resistência; Comm-Link; 5ep]"
     ],
     "complicacoes": [],
     "ataques": [
@@ -90,4 +90,4 @@
     "Correção de custo: as perícias somam 32 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 32 para 16 PP (subtotal e totais ajustados em -16).",
     "Poderes fechados em 3e: Controle de Feromônios/Emoções convertido em Aflição em Nuvem Contínua com efeitos sutis (27 PP). Total 3e: 95 PP."
   ]
-}
+}

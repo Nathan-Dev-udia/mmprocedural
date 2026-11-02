@@ -1,0 +1,107 @@
+{
+  "nome_pt": "Gladiador Dourado (Michael Jon Carter)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 79,
+  "ficha": {
+    "habilidades": {
+      "For": 10,
+      "Vig": 3,
+      "Agi": 3,
+      "Des": 2,
+      "Lut": 4,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 3
+    },
+    "poderes": [
+      "Booster Gold Suit: 62 pontos, Removível (–12 pontos) (50 PP)",
+      "Augmented Abilities: Enhanced Fortitude 5; Força Aprimorada 7 (19 PP)",
+      "Energy Blasters: Dano à Distância 8 (16 PP)",
+      "• Time Circuits: Movimento 3 (Full Time Travel), Peculiaridade: Connected to Rip Hunter’s"
+    ],
+    "equipamento": [
+      "Campo de Força: Imunidade 10 (Suporte Vital) Linked to Proteção 8, Sustentado (18 PP)",
+      "Goggles: Sentidos 8 (Comunicação Link to Skeets, Audição Estendida 2, Visão Estendida 2, Infravisão, Visão na Penumbra, Rádio) (8 PP)",
+      "Voo Ring: Voo 7 (400 km/h), Removível (-3 ponto) (11 PP)"
+    ],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Atraente",
+      "Iniciativa Aprimorada",
+      "Sorte",
+      "Minion 10 (Skeets)",
+      "Ataque Poderoso"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 5,
+        "total": 7
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Combate à Distância: Energy Blasters",
+        "graduacoes": 10,
+        "total": 12
+      }
+    ],
+    "iniciativa": 6,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 10"
+      },
+      {
+        "nome": "Energy Blasters",
+        "bonus": 12,
+        "alcance": "À distância",
+        "dano": "Dano 8"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 9,
+      "Fortitude": 8,
+      "Aparar": 9,
+      "Resistência": 11,
+      "Vontade": 6
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 42,
+      "Perícias": 17,
+      "Poderes": 61,
+      "Defesas": 15,
+      "Vantagens": 15
+    },
+    "total": 150,
+    "complicacoes": [
+      {
+        "titulo": "Secret Hero",
+        "texto": "Though most people think Booster is a fool, he has undertaken a serious new quest as a defender of the timestream, maintaining his foolish reputation as a cover."
+      },
+      {
+        "titulo": "Skeets",
+        "texto": "Though he is from the future, Booster knows little about history and is often dependent upon the knowledge and advice of his robotic partner Skeets."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

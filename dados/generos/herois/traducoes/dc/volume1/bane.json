@@ -1,0 +1,131 @@
+{
+  "nome_pt": "Bane",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 35,
+  "ficha": {
+    "habilidades": {
+      "For": 7,
+      "Vig": 7,
+      "Agi": 7,
+      "Des": 7,
+      "Lut": 12,
+      "Int": 8,
+      "Pro": 6,
+      "Pre": 8
+    },
+    "poderes": [
+      "Venom: Força Aprimorada 2; Vigor Aprimorado 2; Cura 6, Limitado a Self; Proteção 1; Ativação (Ação Padrão, -2 pontos), Removível (-3 pontos) (11 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Preciso",
+      "Ataque Imprudente",
+      "Avaliação",
+      "Rolamento Defensivo 3",
+      "Memória Eidética",
+      "Crítico Aprimorado (Desarmado)",
+      "Imobilizar Aprimorado",
+      "Languages 4 (Latin",
+      "Persian",
+      "Spanish",
+      "Urdu",
+      "and four others)",
+      "Liderança",
+      "Ataque Poderoso",
+      "Assustar",
+      "Provocar"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 6,
+        "total": 13
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 7,
+        "total": 19
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 4,
+        "total": 12
+      },
+      {
+        "nome": "Especialidade: Philosophy",
+        "graduacoes": 2,
+        "total": 10
+      },
+      {
+        "nome": "Especialidade: Sociology",
+        "graduacoes": 2,
+        "total": 10
+      },
+      {
+        "nome": "Especialidade: Theology",
+        "graduacoes": 2,
+        "total": 10
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 8,
+        "total": 14
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 4,
+        "total": 12
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 12
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 6,
+        "total": 14
+      }
+    ],
+    "iniciativa": 5,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 19,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 5*, Crit. 19-20"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 19,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 7, Crit. 19-20"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 15,
+      "Fortitude": 13,
+      "Aparar": 15,
+      "Resistência": 11,
+      "Vontade": 10
+    },
+    "observacao_defesas": "* Aparar 15 Resistência 11/8*/5** Vontade 10 *sem Veneno **sem Rolamento Defensivo or Venom.",
+    "custos": {
+      "Habilidades": 104,
+      "Perícias": 27,
+      "Poderes": 11,
+      "Defesas": 26,
+      "Vantagens": 17
+    },
+    "total": 185,
+    "complicacoes": [
+      {
+        "titulo": "Venom Addiction",
+        "texto": "Although Bane has kicked the habit, Venom is highly addictive and he may go back to using the drug for its Força or Cura effects as he has in the past. Withdrawal symptoms begin occurring 12 hours after the last use. Stats to the left of the slash (/) represent Bane’s Abilities while using Venom."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

@@ -62,17 +62,17 @@
       },
       {
         "nome": "Protection",
-        "construcao_3e": "Protection 3.",
+        "construcao_3e": "Proteção 3.",
         "custo_2e_pp": 3,
         "custo_3e_pp": 3,
         "nome_pt": "Proteção Cibernética"
       }
     ],
     "equipamento": [
-      "Rifle blaster com mira avançada (+8 dano; Accurate; 18 EP)",
-      "Uniforme (+3 Resistência; 3 EP)",
-      "Ferramentas de obra-prima (1 EP)",
-      "3 EP adicionais"
+      "Rifle blaster com mira avançada (+8 dano; Accurate; 18 PE)",
+      "Uniforme (+3 Resistência; 3 PE)",
+      "Ferramentas de obra-prima (1 PE)",
+      "3 PE adicionais"
     ],
     "complicacoes": [],
     "ataques": [
@@ -110,4 +110,4 @@
     "Pontos de poder 3e permanecem pendentes: o subtotal soma habilidades, defesas, perícias, vantagens e apenas os custos de poderes confirmados.",
     "Poderes fechados em 3e: Intelecto Aumentado limitado à engenharia fechado em 13 PP + Proteção 3 PP = 16 PP poderes. Total 3e: 136 PP."
   ]
-}
+}

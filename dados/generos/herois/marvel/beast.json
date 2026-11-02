@@ -71,36 +71,36 @@
     "poderes": [
       {
         "nome": "Enhanced Strength",
-        "construcao_3e": "Enhanced Trait: Strength 3 (para elevar o valor base, derivado de STR 16, ao valor final STR 22).",
+        "construcao_3e": "Característica Aprimorada: Força 3 (para elevar o valor base, derivado de STR 16, ao valor final STR 22).",
         "custo_2e_pp": 6,
         "custo_3e_pp": 6,
         "nome_pt": "Força Aumentada"
       },
       {
         "nome": "Enhanced Dexterity",
-        "construcao_3e": "Enhanced Trait: Agility 4 e Dexterity 4 (derivados das diferenças entre os valores base e finais da fonte).",
+        "construcao_3e": "Característica Aprimorada: Agilidade 4 e Destreza 4 (derivados das diferenças entre os valores base e finais da fonte).",
         "custo_2e_pp": 8,
         "custo_3e_pp": 16,
         "nome_pt": "Destreza Aumentada"
       },
       {
         "nome": "Enhanced Constitution",
-        "construcao_3e": "Enhanced Trait: Stamina 3 (para elevar o valor base, derivado de CON 16, ao valor final CON 22).",
+        "construcao_3e": "Característica Aprimorada: Vigor 3 (para elevar o valor base, derivado de CON 16, ao valor final CON 22).",
         "custo_2e_pp": 6,
         "custo_3e_pp": 6,
         "nome_pt": "Vigor Aumentado"
       },
       {
         "nome": "Super Senses",
-        "construcao_3e": "Senses 2: Acute Smell.",
+        "construcao_3e": "Sentidos 2: Aguçado Smell.",
         "custo_2e_pp": 2,
         "custo_3e_pp": 2,
         "nome_pt": "Super-Sentidos"
       }
     ],
     "equipamento": [
-      "Uniforme (+3 Toughness; Subtle; 4 EP)",
-      "Óculos (0 EP)"
+      "Uniforme (+3 Resistência; Sutil; 4 PE)",
+      "Óculos (0 PE)"
     ],
     "complicacoes": [],
     "ataques": [
@@ -134,4 +134,4 @@
     "A fonte não traz uma equivalência direta para Improved Escape; o recurso não foi convertido em vantagem nova. Sneak Attack também foi omitida.",
     "Os custos 3e somam 183 PP (62 habilidades base + 30 poderes + 8 defesas + 72 perícias + 11 vantagens). O total ultrapassa os 135 PP padrao de NP 9; não reduzi os tracos para caber no orcamento inicial."
   ]
-}
+}

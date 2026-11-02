@@ -53,7 +53,7 @@
       "Imobilizar Aprimorado",
       "Derrubar Aprimorado",
       "Set-Up",
-      "Sneak Attack",
+      "Ataque Furtivo",
       "Idiomas 1"
     ],
     "poderes": [
@@ -80,9 +80,9 @@
       }
     ],
     "equipamento": [
-      "Óculos cibernéticos (Assessment, Comm-Link, Camera, Notebook, GPS; 5 EP).",
-      "Fuzil de assalto (+5 Damage; Autofire; Improved Range; a fonte imprime 16 PP).",
-      "Uniforme (+3 Toughness; Subtle; 4 EP)."
+      "Óculos cibernéticos (Assessment, Comm-Link, Camera, Notebook, GPS; 5 PE).",
+      "Fuzil de assalto (+5 Dano; Multiataque; Improved Range; a fonte imprime 16 PP).",
+      "Uniforme (+3 Resistência; Sutil; 4 PE)."
     ],
     "complicacoes": [],
     "ataques": [

@@ -1,0 +1,152 @@
+{
+  "nome_pt": "Duas-Caras (Harvey Dent)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 244,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 3,
+      "Agi": 2,
+      "Des": 3,
+      "Lut": 6,
+      "Int": 5,
+      "Pro": 5,
+      "Pre": 4
+    },
+    "poderes": [
+      "0 Defenses 28 Advantages 16 Total 150"
+    ],
+    "equipamento": [
+      "Submachine gun: À Distância Multi-Attack Dano 4 (12 PP)",
+      "Heavy Pistola: Dano à Distância 4 (8 PP)"
+    ],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Rolamento Defensivo 3",
+      "Equipamento 4",
+      "Iniciativa Aprimorada 1",
+      "Inspirar 2",
+      "Liderança",
+      "Assustar",
+      "Provocar",
+      "Bem-Informado"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 2,
+        "total": 5
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo (Desarmado)",
+        "graduacoes": 3,
+        "total": 9
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 12,
+        "total": 16
+      },
+      {
+        "nome": "Especialidade: Law",
+        "graduacoes": 9,
+        "total": 14
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 10,
+        "total": 14
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 4,
+        "total": 9
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Combate à Distância: Firearms",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 2,
+        "total": 7
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 5,
+        "total": 8
+      }
+    ],
+    "iniciativa": 7,
+    "ataques": [
+      {
+        "nome": "Metralhadora Tommy",
+        "bonus": 11,
+        "alcance": "À distância",
+        "dano": "Multi-Attack Dano 4"
+      },
+      {
+        "nome": "Pistola",
+        "bonus": 11,
+        "alcance": "À distância",
+        "dano": "Dano 4"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 9,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Fortitude": 8,
+      "Aparar": 12,
+      "Resistência": 6,
+      "Vontade": 12
+    },
+    "observacao_defesas": "* Vontade 12 *sem Rolamento Defensivo Po er ponto W S Abilities 60 Skills 46",
+    "custos": {},
+    "total": null,
+    "complicacoes": [
+      {
+        "titulo": "d isfigur ement",
+        "texto": "Two-Face is so badly disfigured it’s difficult to imagine him ever reentering mainstream society. e nemy: Batman. wo-face is obsessed with the number two and o bsession: T most of his crimes revolve around that theme. r andom C hance: Two-Face resolves all key decisions with a flip of his two-headed coin: the scarred side evil, the clean side good. The GM can flip a coin (or roll the die: 1–10 evil, 11–20 good) to see what Two-Face Vontade do in a given situation. It requires a CD 30 Vontade check for Two-Face to ignore the coin’s decision. Christening himself Two-Face, Dent quickly became one of the most fearsome gangsters in Gotham City. He routinely crosses swords with Batman, who still struggles to find some way to help his old friend."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

@@ -53,21 +53,21 @@
     "poderes": [
       {
         "nome": "Enhanced Strength",
-        "construcao_3e": "Enhanced Trait: Strength 10 (para elevar o valor base 2 ao valor final 12).",
+        "construcao_3e": "Característica Aprimorada: Força 10 (para elevar o valor base 2 ao valor final 12).",
         "custo_2e_pp": 20,
         "custo_3e_pp": 20,
         "nome_pt": "Força Aumentada"
       },
       {
         "nome": "Flight",
-        "construcao_3e": "Flight 6.",
+        "construcao_3e": "Voo 6.",
         "custo_2e_pp": 12,
         "custo_3e_pp": 12,
         "nome_pt": "Voo"
       },
       {
         "nome": "Protection",
-        "construcao_3e": "Protection 10, Impervious.",
+        "construcao_3e": "Proteção 10, Impenetrável.",
         "custo_2e_pp": 20,
         "custo_3e_pp": 20,
         "nome_pt": "Proteção"
@@ -81,8 +81,8 @@
       }
     ],
     "equipamento": [
-      "Mansão (Huge; Toughness 10; Communications, Computer, Garage, Gym, Library, Living Space, Power System, Security System; 12 EP)",
-      "Carro esportivo (Força 25; Velocidade 5; Defesa 9; Resistência 8; Grande; 8 EP)"
+      "Mansão (Huge; Resistência 10; Communications, Computer, Garage, Gym, Library, Living Space, Power System, Security System; 12 PE)",
+      "Carro esportivo (Força 25; Velocidade 5; Defesa 9; Resistência 8; Grande; 8 PE)"
     ],
     "complicacoes": [
       "Weak Point (1 PP; a fonte não detalha a condição)."
@@ -126,4 +126,4 @@
     "As perícias listadas são graduações 3e, obtidas subtraindo a habilidade correspondente do bônus total impresso. As conversões de nomes seguem o guia; Concentration foi omitida por não ter perícia equivalente independente na 3e.",
     "habilidades_base registra For 2 (sem Enhanced Strength 10); os custos 3e somam 170 PP (48 habilidades base + 57 poderes + 19 defesas + 28 perícias + 18 vantagens)."
   ]
-}
+}

@@ -60,14 +60,14 @@
       },
       {
         "nome": "Enhanced Strength 14",
-        "construcao_3e": "Enhanced Trait: Strength 7 (para elevar o valor base 3 ao valor final 10); Linked to Alternate Form.",
+        "construcao_3e": "Característica Aprimorada: Força 7 (para elevar o valor base 3 ao valor final 10); Linked to Alternate Form.",
         "custo_2e_pp": 14,
         "custo_3e_pp": 14,
         "nome_pt": "Força Aumentada 14"
       },
       {
         "nome": "Protection 10",
-        "construcao_3e": "Protection 10; Linked to Alternate Form.",
+        "construcao_3e": "Proteção 10; Linked to Alternate Form.",
         "custo_2e_pp": 10,
         "custo_3e_pp": 10,
         "nome_pt": "Proteção 10"
@@ -128,4 +128,4 @@
     "Poderes de conversão 3e sem custo confirmado foram marcados null; o subtotal de PP conhecidos inclui apenas habilidades, defesas, perícias e vantagens listadas. Não se presume custo final para arrays, dispositivos e efeitos complexos.",
     "Poderes fechados em 3e: Forma de Areia fechada em 20 PP + Força (14 PP) + Proteção (10 PP) + Carga (3 PP) = 47 PP poderes. Total 3e: 134 PP."
   ]
-}
+}
