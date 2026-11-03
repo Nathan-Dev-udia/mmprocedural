@@ -541,7 +541,7 @@ O Caçador de monstros é a subclasse do bruxo inspirada nos bruxos da série *T
 
 No NP 5, o Igni (Dano 5 em cone) custa 11 PP; Quen, Aard e Axii somam 3 PP; o arranjo inteiro sai por 14 PP (15 com Yrden). A **planilha de poderes** do site traz o custo de cada Sinal em todos os NPs.
 
-- **Equipamento:** o **Kit de bruxo** (120 po): espada de prata para monstros, espada de aço (espada longa) para homens, armadura de couro batido (Proteção 2), 3 doses de elixir, 2 óleos para lâminas, kit de herbalismo e bolsa de componentes. Comprados um a um, sairiam por 365 po; o kit vem com o desconto da escola.
+- **Equipamento:** o **Kit de bruxo** (120 po): espada de prata para monstros, espada de aço (espada longa) para homens, armadura de couro batido (Proteção 2), 3 elixires (Andorinha, Trovoada e Gato), 2 óleos (Necrófago e Fera), kit de herbalismo e bolsa de componentes. Comprados um a um, sairiam por 465 po; o bruxo sai da escola com ele: na ficha sorteada, em vez do preço, deixa metade do dinheiro inicial (no máximo o preço do kit; 75 po para o Aventureiro, 15 po para o Camponês).
 - **Presença baixa:** o gerador não gasta a sobra do orçamento em Presença. Caçadores não são famosos pelo charme.
 - **Complicação fixa:** todo caçador de monstros é um **mutante odiado e temido** (Preconceito): olhos de gato, pele pálida e o estigma dos bruxos fazem o povo, os guardas e os nobres desconfiarem dele. Essa complicação sempre entra na ficha, inclusive quando você sorteia as complicações.
 
@@ -998,7 +998,7 @@ Alguns exemplos (o **Apêndice** traz a lista completa com preços):
 - **Ferramentas de ladrão** (25 po), **Kit de herbalismo** (5 po), **Kit de primeiros-socorros** (5 po), **Alaúde** (35 po).
 - **Mochila** (2 po), **Saco de dormir** (1 po), **Corda de cânhamo, 15 m** (1 po), **Tochas, 10** (1 pp), **Tenda** (2 po).
 - **Lupa** (100 po, +2 em Investigação), **Aríete portátil** (4 po, +2 em Força para arrombar), **Gancho de escalada** (2 po), **Lanterna furta-fogo** (10 po), **Estrepes** e **esferas de metal** (1 po cada), **Cadeado** (10 po), **Espelho de aço** (5 po).
-- **Poção de cura** (50 po), **Antitoxina** (50 po, +5 em Fortitude contra veneno por uma hora), **Veneno básico** (100 po), **Bomba de bruxo** (50 po). **Água benta** (25 po).
+- **Poção de cura** (50 po), **Antitoxina** (50 po, +5 em Fortitude contra veneno por uma hora), **Veneno básico** (100 po). **Bombas** arremessadas, de 45 a 90 po: Samum (clarão que cega), Estilhaços, Cola, Estrela Dançante (fogo), Gás do Dragão (veneno), Vento do Norte (gelo), Pó Lunar (contra licantropos) e Pó Espectral (deixa espíritos sólidos); a lista com os efeitos está na planilha Poções e Alquimia. **Água benta** (25 po).
 - **Ferramentas de ofício:** suprimentos de alquimista, kits de envenenador e de falsificação, ferramentas de ferreiro, carpinteiro, cartógrafo, joalheiro e navegador, jogos e instrumentos.
 - **Montarias e veículos:** pônei (30 po), burro (8 po), cavalo de montaria (75 po), cavalo de guerra (400 po), sela (10 po), alforjes (4 po), carroça (35 po), barco a remo (50 po).
 
@@ -1014,7 +1014,7 @@ A **planilha de itens** do site traz o catálogo inteiro do gerador, com preço,
 
 Um **kit** é um pacote com preço próprio, mais barato que os itens separados. Na ficha entram o kit e cada item de dentro, com as estatísticas de cada um: as espadas atacam e a armadura protege.
 
-O **Kit de bruxo** (120 po) é o exemplo mais completo: espada de prata, espada longa de aço, couro batido (Proteção 2), 3 doses de elixir, 2 óleos para lâminas, kit de herbalismo e bolsa de componentes. Avulsos, custariam 365 po. As escolas da Víbora e do Urso têm kits próprios (veja a seção 8.3). Se um item de dentro do kit estourar o NP, ele sai da ficha sem reembolso.
+O **Kit de bruxo** (120 po) é o exemplo mais completo: espada de prata, espada longa de aço, couro batido (Proteção 2), 3 elixires (Andorinha, Trovoada e Gato), 2 óleos (Necrófago e Fera), kit de herbalismo e bolsa de componentes. Avulsos, custariam 465 po; o bruxo sai da escola com ele: na ficha sorteada, em vez do preço, deixa metade do dinheiro inicial (no máximo o preço do kit; 75 po para o Aventureiro, 15 po para o Camponês). As escolas da Víbora e do Urso têm kits próprios (veja a seção 8.3). Se um item de dentro do kit estourar o NP, ele sai da ficha sem reembolso.
 
 Os pacotes do Livro do Jogador também viraram kits: **Pacote de explorador** (10 po: mochila, saco de dormir, kit de refeição, pederneira, tochas, 10 dias de rações, cantil e corda), **Pacote de masmorra** (12 po: troca o saco de dormir e o kit de refeição por pé de cabra, martelo e pitões) e **Pacote de estudioso** (40 po: livro, tinta, pena e pergaminho).
 

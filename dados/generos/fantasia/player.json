@@ -1565,7 +1565,8 @@
                 "pericia:Tratamento"
               ],
               "itens": [
-                "elixires",
+                "pocao_andorinha",
+                "elixir_trovoada",
                 "pocao_cura"
               ],
               "complicacoes": [

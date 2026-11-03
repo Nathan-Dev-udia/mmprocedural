@@ -100,8 +100,16 @@ def test_planilhas_da_fantasia_saem_dos_dados():
     assert itens | nomes_das_armas == {i["nome"] for i in player.catalogo_do_jogador(dados)}
     acolchoada = next(l for l in _linhas(cliente.get("/planilhas/fantasia/itens.xlsx").data, "Itens")
                       if l[1] == "Armadura acolchoada")
-    assert acolchoada[3] == "4 kg" and acolchoada[4] == -3
-    assert acolchoada[6] == f"Proteção {dados['equipamentos']['acolchoada']['protecao']}"
+    assert acolchoada[2] == "Alfaiate" and acolchoada[4] == "4 kg" and acolchoada[5] == -3
+    assert acolchoada[7] == f"Proteção {dados['equipamentos']['acolchoada']['protecao']}"
+
+    # Todo item tem um comércio, e a folha "Por comércio" junta armas e itens para filtrar pela loja
+    assert all(i.get("comercio") for i in player.catalogo_do_jogador(dados))
+    por_comercio = _linhas(cliente.get("/planilhas/fantasia/itens.xlsx").data, "Por comércio")
+    assert len(por_comercio) == len(player.catalogo_do_jogador(dados))
+    ferreiro = {linha[1] for linha in por_comercio if linha[0] == "Ferreiro"}
+    taberna = {linha[1] for linha in por_comercio if linha[0] == "Taberna"}
+    assert "Espada longa" in ferreiro and "Cota de malha" in ferreiro and "Cerveja (caneca)" in taberna
 
 
 def test_preco_em_moedas():
@@ -166,3 +174,16 @@ def test_planilha_de_pocoes_e_valida():
     assert "Poções e Elixires" in wb.sheetnames
     assert "Óleos para Lâminas" in wb.sheetnames
     assert "Ingredientes de Criaturas" in wb.sheetnames
+
+    # Toda poção, óleo e reagente tem preço e peso, e é o mesmo item (mesmo preço e peso) na planilha de itens
+    import json
+    from pathlib import Path
+    alquimia = json.loads(Path("dados/generos/fantasia/alquimia.json").read_text(encoding="utf-8"))
+    equipamentos = data_loader.carregar_genero("fantasia")["equipamentos"]
+    assert "Bombas" in wb.sheetnames and len(alquimia["bombas"]) >= 6
+    for receita in alquimia["pocoes"] + alquimia["oleos"] + alquimia["bombas"] + alquimia["ingredientes"]:
+        item = equipamentos[receita["id"]]
+        assert receita["preco"] == f"{item['preco']} po" and receita["peso"] == item["peso"] > 0, receita["id"]
+        assert item["comercio"] == "Alquimista"
+    pesos = [linha[10] for linha in wb["Poções e Elixires"].iter_rows(min_row=3, values_only=True)]
+    assert pesos and all(pesos)

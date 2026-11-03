@@ -18,6 +18,8 @@ sem conferir a diferença.
 import json
 from pathlib import Path
 
+from gerar_planilha_pocoes import BOMBAS, INGREDIENTES, OLEOS, POCOES   # a receita, o preço e o peso de cada um
+
 PASTA = Path(__file__).resolve().parent.parent / "dados" / "generos" / "fantasia"
 PASTA.mkdir(parents=True, exist_ok=True)
 
@@ -150,8 +152,8 @@ PESOS = {
     "oleo": 0.5, "pa": 2.5, "papel": 0, "pederneira": 0.5, "pena_escrever": 0, "pergaminho": 0, "picareta": 5,
     "pitoes": 0, "sabao": 0, "saco": 0.25, "sinete": 0, "sino": 0, "tinta": 0, "vara": 3.5, "velas": 0,
     "kit_refeicao": 0.5, "armadilha_caca": 12.5,
-    # Poções e alquimia (* bomba, elixires e óleos de bruxo, como os frascos do livro)
-    "pocao_cura": 0.25, "antitoxina": 0, "veneno": 0, "bomba_bruxo": 0.5, "elixires": 0.25, "oleo_laminas": 0.5,
+    # Poções e alquimia: poções, elixires, óleos, bombas e reagentes pesam o que diz ferramentas/gerar_planilha_pocoes.py
+    "antitoxina": 0, "veneno": 0,
     # Comida e bebida (* o livro não pesa pão, queijo, carne nem bebidas)
     "racoes": 5, "vinho": 2, "cerveja": 4, "pao": 0.25, "queijo": 0.25, "carne": 0.5, "refeicao": 0,
     "cerveja_caneca": 0, "vinho_fino": 1,
@@ -160,8 +162,32 @@ PESOS = {
     # Roupas
     "roupas_viajante": 2, "roupas_finas": 3, "robes": 2, "roupas_comuns": 1.5, "traje_artista": 2,
 }
-PESO_ESTIMADO = {"adaga_longa", "adaga_longa_prata", "broquel", "escudo_torre", "giz_runico", "bomba_bruxo",
-                 "elixires", "oleo_laminas", "vinho", "cerveja", "pao", "queijo", "carne", "vinho_fino"}
+PESO_ESTIMADO = {"adaga_longa", "adaga_longa_prata", "broquel", "escudo_torre", "giz_runico",
+                 "vinho", "cerveja", "pao", "queijo", "carne", "vinho_fino"}
+
+# Onde cada item se compra (coluna Comércio das planilhas): pela categoria, salvo os itens listados à parte.
+COMERCIO_POR_CATEGORIA = {
+    "Arma branca": "Ferreiro", "Arma à distância": "Arqueiro", "Munição": "Arqueiro", "Armadura": "Ferreiro",
+    "Escudo": "Ferreiro", "Bebida": "Taberna", "Comida": "Taberna", "Equipamento de aventura": "Armazém geral",
+    "Kits": "Armazém geral", "Roupas": "Alfaiate", "Montaria": "Estábulo", "Veículos": "Carpinteiro",
+    "Poções": "Alquimista", "Óleos": "Alquimista", "Bombas": "Alquimista", "Ingredientes": "Alquimista", "Itens de conjurador": "Loja arcana",
+    "Ferramentas": "Artífice",
+}
+COMERCIO_POR_ITEM = {
+    "Carpinteiro": "porrete bordao clava_grande barril bau ariete vara ferramentas_carpinteiro",
+    "Curtidor": "couro couro_batido gibao_peles chicote mochila bolsa_cinto cantil aljava saco",
+    "Alfaiate": "acolchoada manto cobertor saco_dormir tenda kit_disfarce",
+    "Alquimista": "frasco_acido fogo_alquimico frasco sabao kit_herbalismo suprimentos_alquimista foco_druidico",
+    "Ferreiro": "algemas cadeado corrente pitoes pe_de_cabra gancho esferas estrepes picareta pa martelo "
+                "ferramentas_ferreiro armadilha_caca",
+    "Templo": "agua_benta simbolo_sagrado kit_primeiros_socorros",
+    "Livreiro": "livro papel pergaminho tinta pena_escrever estojo_mapas sinete ferramentas_cartografo kit_estudioso",
+    "Luthier": "alaude flauta lira viola tambor trompa gaita_foles",
+    "Mercado clandestino": "veneno ferramentas_ladrao kit_envenenador kit_falsificacao zarabatana agulhas",
+    "Taberna": "dados baralho",
+    "Armazém geral": "racoes utensilios_cozinheiro rede",
+}
+COMERCIO_DO_ITEM = {id_: loja for loja, ids in COMERCIO_POR_ITEM.items() for id_ in ids.split()}
 
 # Velocidade das montarias pelo Guia do Mestre (Cavalo: Velocidade 4; Animal de rebanho: Velocidade 3), na ordem do
 # deslocamento do Livro do Jogador (18 m: cavalos de montaria e de guerra; 12 a 15 m: os outros). Carga em kg, do
@@ -179,7 +205,7 @@ def com_pesos(itens):
         if item["id"] in MONTARIAS:
             item["velocidade"], item["carga"] = MONTARIAS[item["id"]]
             item["fonte_velocidade"] = "Guia do Mestre, Cavalo e Animal de rebanho; carga do Livro do Jogador"
-        elif item.get("kit"):
+        elif item.get("kit") or "peso" in item:
             continue
         else:
             assert item["id"] in PESOS, f"falta o peso de {item['id']}"
@@ -192,7 +218,62 @@ def com_pesos(itens):
     return itens
 
 
-gravar("equipment.json", com_pesos([
+def com_comercio(itens):
+    """Põe o comércio logo depois da categoria, para a ordem das chaves no JSON ficar legível."""
+    resultado = []
+    for item in itens:
+        loja = COMERCIO_DO_ITEM.get(item["id"]) or COMERCIO_POR_CATEGORIA[item["categoria"]]
+        novo = {}
+        for chave, valor in item.items():
+            novo[chave] = valor
+            if chave == "categoria":
+                novo["comercio"] = loja
+        resultado.append(novo)
+    return resultado
+
+
+def com_precos_dos_kits(itens):
+    """Troca {avulsos} na descrição de cada kit pela soma dos preços do que ele leva."""
+    precos = {i["id"]: i["preco"] for i in itens}
+    for item in itens:
+        if "{avulsos}" in item.get("descricao", ""):
+            soma = sum(precos[e["id"]] * e["quantidade"] if isinstance(e, dict) else precos[e] for e in item["kit"])
+            item["descricao"] = item["descricao"].replace("{avulsos}", f"{soma:g} po")
+    return itens
+
+
+ALQUIMIA = GERAL + "; receita, preço e peso de ferramentas/gerar_planilha_pocoes.py"
+# Os kits de escola têm "de_origem": no sorteio, o gerador cobra só a parte da origem (nucleo/player.py).
+KIT_DA_ESCOLA = ("Quem é da escola sai com ele: no sorteio, em vez do preço, o bruxo deixa metade do "
+                 "dinheiro inicial (no máximo o preço do kit).")
+
+
+def itens_de_alquimia():
+    """Poções, elixires, óleos, bombas e reagentes: os mesmos da planilha de Poções e Alquimia, com o mesmo preço e
+    peso."""
+    itens = []
+    for p in POCOES:
+        cura = p["id"] == "pocao_cura"   # a do Livro do Jogador: preço e peso do livro
+        itens.append(item(p["id"], p["nome"], "Poções", int(p["preco"].split()[0]),
+                          f"{p['efeito']} Duração: {p['duracao']}. Toxicidade: {p['toxicidade']}",
+                          fonte_=fonte(GERAL) if cura else ALQUIMIA, peso=p["peso"],
+                          **({} if cura else {"peso_estimado": True})))
+    for o in OLEOS:
+        itens.append(item(o["id"], o["nome"], "Óleos", int(o["preco"].split()[0]),
+                          f"Contra {o['alvo'].lower()}: {o['efeito']} Duração: {o['duracao']}.", fonte_=ALQUIMIA,
+                          peso=o["peso"], peso_estimado=True))
+    for b in BOMBAS:
+        itens.append(item(b["id"], b["nome"], "Bombas", int(b["preco"].split()[0]),
+                          f"Arremessada (Combate à Distância: Arremesso): {b['efeito']}", fonte_=ALQUIMIA,
+                          peso=b["peso"], peso_estimado=True))
+    for r in INGREDIENTES:
+        itens.append(item(r["id"], f"{r['reagente']} (dose)", "Ingredientes", int(r["preco"].split()[0]),
+                          f"Colhido de {r['criatura']}. Serve para: {r['usos']}.", fonte_=ALQUIMIA,
+                          peso=r["peso"], peso_estimado=True))
+    return itens
+
+
+gravar("equipment.json", com_comercio(com_precos_dos_kits(com_pesos([
     # Armas simples (corpo a corpo)
     arma("adaga", "Adaga", BR, 2, "1d4 perfurante", 1, ADA, "perfuração", ["Perigosa"],
          notas="Leve; pode ser arremessada", familia="adaga"),
@@ -431,41 +512,30 @@ gravar("equipment.json", com_pesos([
     item("armadilha_caca", "Armadilha de caça", "Equipamento de aventura", 5,
          "Mandíbulas de ferro escondidas no chão: quem pisa resiste com Esquiva (CD 13) ou fica imóvel até "
          "abri-la com Força (CD 13)."),
-    item("pocao_cura", "Poção de cura", "Poções", 50,
-         "Recupera um grau de dano (teste de recuperação imediato)."),
     item("antitoxina", "Antitoxina (frasco)", "Poções", 50, "+5 nos testes de Fortitude contra veneno por uma hora."),
     item("veneno", "Veneno básico (frasco)", "Poções", 100,
          "Passado numa lâmina, dardo ou agulha: no próximo acerto, o alvo também resiste com Fortitude (CD 12) "
          "ou fica tonto até o fim da cena."),
-    item("bomba_bruxo", "Bomba de bruxo", "Poções", 50,
-         "Arremessada, explode num raio de 3 m: quem estiver nele resiste com Fortitude (CD 14) ou fica tonto; "
-         "Samum cega, Estrela dançante queima e Gás do dragão envenena (combine o efeito com o mestre).",
-         fonte_=GERAL + "; item de The Witcher, sem equivalente no Livro do Jogador; preço do fogo alquímico"),
-    item("elixires", "Elixires de bruxo (dose)", "Poções", 50,
-         "Andorinha, Trovão, Gato...: o efeito é narrado pelo mestre. Tóxicos para quem não passou pelas mutações.",
-         fonte_=GERAL + "; item de The Witcher; preço da poção de cura e do antídoto do Livro do Jogador (50 po)"),
-    item("oleo_laminas", "Óleo para lâminas (contra monstros)", "Poções", 5,
-         "Passado na espada antes de enfrentar uma espécie de monstro.",
-         fonte_=GERAL + "; item de The Witcher, sem equivalente no Livro do Jogador; preço estimado"),
+    *itens_de_alquimia(),
     item("kit_bruxo", "Kit de bruxo", "Kits", 120,
-         "O que o bruxo leva da escola: espada de prata, espada de aço, armadura de couro (+2), 3 doses de elixir, "
-         "2 óleos para lâminas, kit de herbalismo e bolsa de componentes. Os itens avulsos somariam 365 po; "
-         "o kit sai com desconto da escola.", custo=0,
+         "O que o bruxo leva da escola: espada de prata, espada de aço, armadura de couro (+2), 3 elixires (Andorinha, "
+         "Trovoada e Gato), 2 óleos (Necrófago e Fera), kit de herbalismo e bolsa de componentes. Os itens avulsos "
+         "somariam {avulsos}. " + KIT_DA_ESCOLA, custo=0, de_origem=True,
          fonte_=GERAL + "; pacote do gerador para o bruxo caçador de monstros",
-         kit=["espada_prata", "espada_longa", "couro_batido", {"id": "elixires", "quantidade": 3},
-              {"id": "oleo_laminas", "quantidade": 2}, "kit_herbalismo", "bolsa_componentes"]),
+         kit=["espada_prata", "espada_longa", "couro_batido", "pocao_andorinha", "elixir_trovoada", "elixir_gato",
+              "oleo_necrofago", "oleo_fera", "kit_herbalismo", "bolsa_componentes"]),
     item("kit_bruxo_vibora", "Kit de bruxo da Víbora", "Kits", 120,
          "O kit do bruxo com um par de adagas longas (uma de prata, uma de aço) no lugar das espadas e um kit de "
-         "disfarce para chegar perto do alvo. Os itens avulsos somariam 380 po; o kit sai com desconto da escola.",
-         custo=0, fonte_=GERAL + "; pacote do gerador para o bruxo da escola da Víbora",
-         kit=["adaga_longa_prata", "adaga_longa", "couro_batido", {"id": "elixires", "quantidade": 3},
-              {"id": "oleo_laminas", "quantidade": 2}, "kit_herbalismo", "bolsa_componentes", "kit_disfarce"]),
+         "disfarce para chegar perto do alvo. Os itens avulsos somariam {avulsos}. " + KIT_DA_ESCOLA,
+         custo=0, de_origem=True, fonte_=GERAL + "; pacote do gerador para o bruxo da escola da Víbora",
+         kit=["adaga_longa_prata", "adaga_longa", "couro_batido", "pocao_andorinha", "elixir_trovoada", "elixir_gato",
+              "oleo_necrofago", "oleo_fera", "kit_herbalismo", "bolsa_componentes", "kit_disfarce"]),
     item("kit_bruxo_urso", "Kit de bruxo do Urso", "Kits", 150,
-         "O kit do bruxo com cota de malha (+3) no lugar do couro batido. Os itens avulsos somariam 395 po; "
-         "o kit sai com desconto da escola.",
-         custo=0, fonte_=GERAL + "; pacote do gerador para o bruxo da escola do Urso",
-         kit=["espada_prata", "espada_longa", "cota_malha", {"id": "elixires", "quantidade": 3},
-              {"id": "oleo_laminas", "quantidade": 2}, "kit_herbalismo", "bolsa_componentes"]),
+         "O kit do bruxo com cota de malha (+3) no lugar do couro batido. Os itens avulsos somariam {avulsos}. "
+         + KIT_DA_ESCOLA,
+         custo=0, de_origem=True, fonte_=GERAL + "; pacote do gerador para o bruxo da escola do Urso",
+         kit=["espada_prata", "espada_longa", "cota_malha", "pocao_andorinha", "elixir_trovoada", "elixir_gato",
+              "oleo_necrofago", "oleo_fera", "kit_herbalismo", "bolsa_componentes"]),
     item("kit_explorador", "Pacote de explorador", "Kits", 10,
          "Mochila, saco de dormir, kit de refeição, estojo de pederneira, 10 tochas, 10 dias de rações, cantil e "
          "corda de cânhamo.", custo=0, fonte_=GERAL + "; pacote do Livro do Jogador (D&D 5e), cap. 5",
@@ -509,7 +579,7 @@ gravar("equipment.json", com_pesos([
     item("robes", "Robes", "Roupas", 1, "Típicos de magos e sacerdotes."),
     item("roupas_comuns", "Roupas comuns", "Roupas", 0.5, "As de qualquer camponês."),
     item("traje_artista", "Traje de artista", "Roupas", 5, "Cores berrantes para o palco."),
-]))
+]))))
 
 
 def magia(id_, nome, categoria, catalogo, descricao, arranjo=None, graduacao=None, graduacao_np=None,
@@ -986,7 +1056,7 @@ ESCOLAS_DE_BRUXO = [
              "Alquimistas: vivem de elixires e óleos e conhecem as ervas melhor que qualquer herbalista.",
              vantagens=["Inventor"],
              prioridades=p("pericia:Especialidade: Bruxo", "habilidade:Int", "pericia:Tratamento"),
-             itens=["elixires", "pocao_cura"],
+             itens=["pocao_andorinha", "elixir_trovoada", "pocao_cura"],
              complicacoes=[("Vício", "Toma elixires demais, até quando não precisa.")]),
     variante("lince", "Escola do Lince",
              "Atiradores: preferem acertar o monstro de longe, com a besta e olhos de caçador, antes de puxar "

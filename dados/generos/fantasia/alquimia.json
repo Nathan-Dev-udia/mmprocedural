@@ -17,12 +17,17 @@
       "descricao": "Diferente de remédios comuns, elixires de monstros possuem alta carga mutagênica e tóxica:\n• Poções Medicinais Comuns (ex: Poção de Cura tradicional): Seguras para qualquer um tomar, sem risco de toxicidade.\n• Elixires de Combate (Trovoada, Lua Cheia, Nevasca...): Feitos para organismos resistentes.\n  - Caçadores de Monstros / Bruxos Mutantes: Podem manter até 3 elixires ativos ao mesmo tempo. A partir do 4º, sofrem náusea temporária.\n  - Personagens Comuns (humanos, elfos, anões normais): Ao ingerir um elixir forte, devem fazer teste de Fortitude (CD 14 a 18 da poção). Se passarem, ganham o benefício; se falharem, ficam Enjoados/Abalados e sofrem as veias escuras e náusea da intoxicação.\n• Elixir Mel Branco: Remove instantaneamente a toxicidade e encerra todos os elixires ativos."
     },
     {
-      "titulo": "5. Aplicação de Óleos para Lâminas",
+      "titulo": "5. Bombas",
+      "descricao": "• Bombas são frascos arremessados com Combate à Distância: Arremesso (distância de arremesso, como o fogo alquímico).\n• Estouram numa Explosão de 3 m onde caem: quem está na área resiste ao efeito (a CD está na aba Bombas).\n• Uso único: o frasco se quebra. A graduação 5 cabe nos limites do NP a partir do NP 5.\n• Preparo como o das poções: 1 reagente de monstro, a base e um teste na CD da bomba."
+    },
+    {
+      "titulo": "6. Aplicação de Óleos para Lâminas",
       "descricao": "• Óleos são unguentos viscosos aplicados em armas de corte ou perfuração (espadas, machados, adagas, flechas).\n• Tempo de Aplicação: 1 ação padrão para untar a lâmina.\n• Duração: 1 combate inteiro (ou até desferir 10 acertos bem-sucedidos).\n• Efeito Geral: Concede bônus de circunstância de +2 de Dano contra a família específica de monstros (ou anula resistências especiais como regeneração e intangibilidade)."
     }
   ],
   "pocoes": [
     {
+      "id": "pocao_andorinha",
       "nome": "Poção Andorinha (Cura Rápida)",
       "tipo": "Elixir de Combate",
       "ingrediente": "Restos de Carniçal ou Lobo Atroz",
@@ -32,10 +37,12 @@
       "duracao": "5 rodadas",
       "efeito": "Recupera 1 grau de dano imediatamente e permite 1 teste de Recuperação por rodada durante 5 rodadas (a regeneração pausa na rodada em que sofrer novo golpe).",
       "toxicidade": "Média (Fortitude CD 14 para não-mutantes).",
-      "preco": "50 po"
+      "preco": "60 po",
+      "peso": 0.25
     },
     {
-      "nome": "Bálsamo de Cura Tradicional",
+      "id": "pocao_cura",
+      "nome": "Poção de Cura (Bálsamo Tradicional)",
       "tipo": "Poção Medicinal Comum",
       "ingrediente": "Gordura de Fera (Lobo ou Urso)",
       "base_ervas": "Água destilada + Raiz de Mandrágora",
@@ -44,9 +51,11 @@
       "duracao": "Instantâneo",
       "efeito": "Recupera 1 grau de dano imediatamente (remove a penalidade de dano acumulado mais grave). Segura para qualquer personagem beber.",
       "toxicidade": "Nenhuma (segura).",
-      "preco": "50 po"
+      "preco": "50 po",
+      "peso": 0.25
     },
     {
+      "id": "elixir_trovoada",
       "nome": "Elixir Trovoada (Força Brutal)",
       "tipo": "Elixir de Combate",
       "ingrediente": "Restos de Ogro, Troll ou Bies",
@@ -56,9 +65,11 @@
       "duracao": "1 combate (10 rodadas)",
       "efeito": "+2 de bônus de circunstância em Dano de ataques corpo a corpo e +2 em testes de Atletismo/Força bruta.",
       "toxicidade": "Alta (Fortitude CD 16 para não-mutantes; impõe -2 em testes de Percepção pela fúria).",
-      "preco": "75 po"
+      "preco": "75 po",
+      "peso": 0.25
     },
     {
+      "id": "elixir_gato",
       "nome": "Elixir do Gato (Visão Penetrante)",
       "tipo": "Elixir Utilitário",
       "ingrediente": "Olho de Observador, Mímico ou Fera Noturna",
@@ -68,9 +79,11 @@
       "duracao": "1 hora",
       "efeito": "Concede Sentidos: Visão no Escuro (ignora penalidade de escuridão natural e penumbra mágica) e +2 em Percepção visual.",
       "toxicidade": "Média (Pupilas dilatadas: se exposto a luz solar intensa repentina, fica Deslumbrado 1 rodada).",
-      "preco": "60 po"
+      "preco": "60 po",
+      "peso": 0.25
     },
     {
+      "id": "elixir_lua_cheia",
       "nome": "Elixir da Lua Cheia (Vigor Titânico)",
       "tipo": "Elixir de Combate",
       "ingrediente": "Restos de Lobisomem ou Leshy Ancião",
@@ -80,9 +93,11 @@
       "duracao": "1 cena (10 min)",
       "efeito": "Concede Proteção 2 (bônus de circunstância em Resistência) e +2 em testes de Fortitude.",
       "toxicidade": "Alta (Fortitude CD 16 para não-mutantes; batimentos cardíacos violentamente acelerados).",
-      "preco": "90 po"
+      "preco": "90 po",
+      "peso": 0.25
     },
     {
+      "id": "elixir_nevasca",
       "nome": "Elixir Nevasca (Reflexos Acelerados)",
       "tipo": "Elixir de Combate",
       "ingrediente": "Restos de Quimera, Grifo ou Aparição",
@@ -92,9 +107,11 @@
       "duracao": "5 rodadas após o 1º golpe",
       "efeito": "+2 em Esquiva, +2 em Iniciativa e permite realizar 1 ação de Movimento adicional por turno (aceleração temporal reflexa).",
       "toxicidade": "Alta (Fortitude CD 16 para não-mutantes; foco de túnel: -2 em Intuição e testes sociais).",
-      "preco": "80 po"
+      "preco": "80 po",
+      "peso": 0.25
     },
     {
+      "id": "elixir_sangue_negro",
       "nome": "Elixir Sangue Negro (Defesa Venenosa)",
       "tipo": "Elixir de Combate",
       "ingrediente": "Sangue de Cria Vampírica, Darakhul ou Aparição",
@@ -104,9 +121,11 @@
       "duracao": "1 combate",
       "efeito": "O sangue do alquimista se torna ácido e cáustico: qualquer criatura que morder ou beber seu sangue sofre Dano 5 (Fortitude CD 15 reduz) por rodada.",
       "toxicidade": "Muito Alta (Fortitude CD 18 para não-mutantes; causa palidez cadavérica durante o efeito).",
-      "preco": "100 po"
+      "preco": "100 po",
+      "peso": 0.25
     },
     {
+      "id": "elixir_papa_figo",
       "nome": "Elixir Papa-figo (Antitoxina Absoluta)",
       "tipo": "Elixir Defensivo",
       "ingrediente": "Glândula de Basilisco, Hidra ou Goblin Tóxico",
@@ -116,9 +135,11 @@
       "duracao": "1 hora",
       "efeito": "Imunidade a venenos mundanos e +5 em Fortitude contra venenos sobrenaturais. Neutraliza toxinas e venenos já ativos no corpo.",
       "toxicidade": "Baixa (leve gosto metálico na boca).",
-      "preco": "60 po"
+      "preco": "60 po",
+      "peso": 0.25
     },
     {
+      "id": "elixir_mel_branco",
       "nome": "Elixir Mel Branco (Purificador Geral)",
       "tipo": "Elixir de Purificação",
       "ingrediente": "Pó de Mímico ou Cera de Golem",
@@ -128,9 +149,11 @@
       "duracao": "Instantâneo",
       "efeito": "Remove instantaneamente toda a toxicidade e anula os efeitos de todos os outros elixires ativos, restaurando o organismo.",
       "toxicidade": "Nenhuma (seguro e restaurador).",
-      "preco": "40 po"
+      "preco": "40 po",
+      "peso": 0.25
     },
     {
+      "id": "filtro_petri",
       "nome": "Filtro de Petri (Amplificador Arcano)",
       "tipo": "Filtro Mágico",
       "ingrediente": "Restos de Devorador de Mentes ou Hobgoblin Conjurador",
@@ -140,11 +163,13 @@
       "duracao": "1 combate (10 rodadas)",
       "efeito": "+2 na graduação de efeito de Magias e Dons (respeitando o limite de NP) ou +2 de bônus em testes de Ataque Mágico.",
       "toxicidade": "Alta (Fortitude CD 16 para não-mutantes; leve enxaqueca arcana após o término).",
-      "preco": "120 po"
+      "preco": "120 po",
+      "peso": 0.25
     }
   ],
   "oleos": [
     {
+      "id": "oleo_necrofago",
       "nome": "Óleo de Necrófago",
       "alvo": "Mortos-vivos Corpóreos",
       "ingrediente": "Restos de Carniçal, Carniçal Darakhul ou Múmia",
@@ -154,9 +179,11 @@
       "duracao": "1 combate (ou 10 golpes)",
       "efeito": "+2 de Dano de circunstância contra mortos-vivos corpóreos e impede a regeneração necromântica temporariamente.",
       "exemplos": "Carniçal, Carniçal Darakhul, Esqueleto, Múmia, Zumbi",
-      "preco": "45 po"
+      "preco": "40 po",
+      "peso": 0.5
     },
     {
+      "id": "oleo_espectro",
       "nome": "Óleo de Espectro",
       "alvo": "Mortos-vivos Incorpóreos e Espíritos",
       "ingrediente": "Ectoplasma de Aparição, Sombra ou Espectro do Meio-Dia",
@@ -166,9 +193,11 @@
       "duracao": "1 combate (ou 10 golpes)",
       "efeito": "A lâmina ganha Afeta Intangível total: causa dano normal em seres incorpóreos e espíritos, somando +2 de Dano circunstancial.",
       "exemplos": "Aparição, Sombra, Espectro do Meio-Dia, Fantasmas",
-      "preco": "60 po"
+      "preco": "55 po",
+      "peso": 0.5
     },
     {
+      "id": "oleo_fera",
       "nome": "Óleo de Fera",
       "alvo": "Feras e Animais Vorazes",
       "ingrediente": "Gordura de Urso, Presa de Lobo ou Lobo Atroz",
@@ -178,9 +207,11 @@
       "duracao": "1 combate (ou 10 golpes)",
       "efeito": "+2 de Dano de circunstância contra feras; o primeiro golpe impõe teste de Vontade CD 13 para não afugentar o animal.",
       "exemplos": "Lobo, Lobo Atroz, Urso, Cavalo de Guerra hostil, Mastins",
-      "preco": "35 po"
+      "preco": "25 po",
+      "peso": 0.5
     },
     {
+      "id": "oleo_ogroide",
       "nome": "Óleo de Ogroide",
       "alvo": "Gigantes, Ogros e Trolls",
       "ingrediente": "Gordura de Troll, Restos de Ogro ou Ettin",
@@ -190,9 +221,11 @@
       "duracao": "1 combate (ou 10 golpes)",
       "efeito": "+2 de Dano de circunstância contra gigantes e ogroides; anula a regeneração de Trolls por 1 rodada a cada golpe.",
       "exemplos": "Troll, Ogro, Ettin, Gigante do Gelo, Bugbear Brigão",
-      "preco": "60 po"
+      "preco": "55 po",
+      "peso": 0.5
     },
     {
+      "id": "oleo_draconideo",
       "nome": "Óleo de Draconídeo",
       "alvo": "Dragões, Serpes e Répteis Mágicos",
       "ingrediente": "Escamas ou Sangue de Dragão Branco/Vermelho ou Serpe",
@@ -202,9 +235,11 @@
       "duracao": "1 combate (ou 10 golpes)",
       "efeito": "+2 de Dano de circunstância contra dragões e serpes; perfura carapaça escamosa (reduz a Proteção do alvo em 1 grau temporariamente).",
       "exemplos": "Dragão Vermelho, Dragão Branco, Serpe, Basilisco",
-      "preco": "90 po"
+      "preco": "70 po",
+      "peso": 0.5
     },
     {
+      "id": "oleo_hibrido",
       "nome": "Óleo de Híbrido e Monstruosidades",
       "alvo": "Quimeras, Grifos e Feras Aladas",
       "ingrediente": "Penas de Grifo, Secreção de Quimera ou Ferrão de Mantícora",
@@ -214,9 +249,11 @@
       "duracao": "1 combate (ou 10 golpes)",
       "efeito": "+2 de Dano de circunstância contra monstruosidades; em acerto crítico, mutila asas/membros forçando pouso imediato.",
       "exemplos": "Grifo, Quimera, Mantícora, Bies, Leshy Ancião",
-      "preco": "70 po"
+      "preco": "55 po",
+      "peso": 0.5
     },
     {
+      "id": "oleo_construtos",
       "nome": "Óleo de Construtos e Autômatos",
       "alvo": "Golems de Ferro, Pedra e Estátuas Vivas",
       "ingrediente": "Pó Mineral de Golem de Ferro ou Golem de Pedra",
@@ -226,9 +263,11 @@
       "duracao": "1 combate (ou 10 golpes)",
       "efeito": "+2 de Dano de circunstância contra construtos e ignora até 2 pontos de Proteção Impenetrável ou dureza de pedra/ferro.",
       "exemplos": "Golem de Ferro, Golem de Pedra, Gárgulas animadas",
-      "preco": "65 po"
+      "preco": "55 po",
+      "peso": 0.5
     },
     {
+      "id": "oleo_amaldicoados",
       "nome": "Óleo de Amaldiçoados e Metamorfos",
       "alvo": "Lobisomens, Estriges e Seres sob Maldição",
       "ingrediente": "Pêlo de Lobisomem ou Restos de Estrige",
@@ -238,113 +277,238 @@
       "duracao": "1 combate (ou 10 golpes)",
       "efeito": "A lâmina arde com essência de prata: causa +3 de Dano de circunstância e suprime a regeneração do monstro amaldiçoado.",
       "exemplos": "Lobisomem, Estrige, Cria Vampírica, Vampiro",
-      "preco": "85 po"
+      "preco": "75 po",
+      "peso": 0.5
+    }
+  ],
+  "bombas": [
+    {
+      "id": "bomba_samum",
+      "nome": "Samum (Bomba de Clarão)",
+      "ingrediente": "Glândula Psíquica / Olho Mágico",
+      "base": "Pólvora de salitre + Pó de magnésio",
+      "cd": 14,
+      "tempo": "20 min",
+      "area": "Explosão 3 m",
+      "efeito": "Aflição 5 (resistida por Fortitude; Visão Prejudicada, Visão Incapacitada [cego]), Área Explosão 3 m. CD 15. Um clarão branco que cega quem olha.",
+      "preco": "50 po",
+      "peso": 0.5
+    },
+    {
+      "id": "bomba_estilhacos",
+      "nome": "Bomba de Estilhaços",
+      "ingrediente": "Pó Mineral de Golem / Núcleo do Construto",
+      "base": "Pólvora de salitre + Cacos de ferro",
+      "cd": 14,
+      "tempo": "20 min",
+      "area": "Explosão 3 m",
+      "efeito": "Dano 5 (perfuração), Área Explosão 3 m. CD 15 de Esquiva para metade; quem falha resiste com Resistência (CD 20).",
+      "preco": "45 po",
+      "peso": 0.5
+    },
+    {
+      "id": "bomba_cola",
+      "nome": "Bomba de Cola (Secreção de Mímico)",
+      "ingrediente": "Secreção Adesiva / Resíduo Amorfo",
+      "base": "Resina de pinheiro + Cera de abelha",
+      "cd": 14,
+      "tempo": "20 min",
+      "area": "Explosão 3 m",
+      "efeito": "Aflição 5 (resistida por Esquiva, superada por Força; Impedido, Imóvel), Área Explosão 3 m, Cumulativo. CD 15. Gruda pés e asas no chão.",
+      "preco": "45 po",
+      "peso": 0.5
+    },
+    {
+      "id": "bomba_estrela_dancante",
+      "nome": "Estrela Dançante (Bomba Incendiária)",
+      "ingrediente": "Sangue & Escamas Dracônicas ou Secreção Tríplice de Quimera",
+      "base": "Óleo mineral + Enxofre em pó",
+      "cd": 16,
+      "tempo": "30 min",
+      "area": "Explosão 3 m",
+      "efeito": "Dano 5 (fogo), Área Explosão 3 m. CD 15 de Esquiva para metade; quem falha resiste com Resistência (CD 20). O chão arde até o fim da rodada seguinte.",
+      "preco": "70 po",
+      "peso": 0.5
+    },
+    {
+      "id": "bomba_gas_dragao",
+      "nome": "Gás do Dragão (Nuvem Venenosa)",
+      "ingrediente": "Glândula de Peçonha / Olho Petrificante",
+      "base": "Enxofre em pó + Folhas de Beladona",
+      "cd": 16,
+      "tempo": "30 min",
+      "area": "Nuvem 3 m (3 rodadas)",
+      "efeito": "Aflição 5 (resistida por Fortitude; Tonto, Atordoado, Incapacitado), Área Nuvem 3 m (dura 3 rodadas), Cumulativo. CD 15. Quem não respira (mortos-vivos, construtos) é imune.",
+      "preco": "70 po",
+      "peso": 0.5
+    },
+    {
+      "id": "bomba_vento_norte",
+      "nome": "Vento do Norte (Bomba de Gelo)",
+      "ingrediente": "Ectoplasma & Pó de Aparição",
+      "base": "Água de degelo + Sal de amônia",
+      "cd": 16,
+      "tempo": "30 min",
+      "area": "Explosão 3 m",
+      "efeito": "Aflição 5 (resistida por Fortitude; Impedido, Imóvel), Área Explosão 3 m (frio). CD 15. Congela as pernas de quem estiver na área.",
+      "preco": "70 po",
+      "peso": 0.5
+    },
+    {
+      "id": "bomba_po_lunar",
+      "nome": "Pó Lunar (Bomba de Prata)",
+      "ingrediente": "Pêlo Amaldiçoado / Sangue Licantrópico",
+      "base": "Prata em pó + Cinzas de verbena",
+      "cd": 18,
+      "tempo": "45 min",
+      "area": "Explosão 3 m",
+      "efeito": "Anular 5 (transformação e regeneração de amaldiçoados e metamorfos), Área Explosão 3 m, até o fim da cena. Impede o lobisomem de mudar de forma e de se regenerar.",
+      "preco": "90 po",
+      "peso": 0.5
+    },
+    {
+      "id": "bomba_po_espectral",
+      "nome": "Pó Espectral (Bomba de Materialização)",
+      "ingrediente": "Ectoplasma & Pó de Aparição",
+      "base": "Sal marinho refinado + Cinzas de ossos consagrados",
+      "cd": 18,
+      "tempo": "45 min",
+      "area": "Explosão 3 m",
+      "efeito": "Anular 5 (Insubstancial), Área Explosão 3 m, até o fim da rodada seguinte. Espíritos e aparições na área ficam sólidos e podem ser feridos por armas comuns.",
+      "preco": "85 po",
+      "peso": 0.5
     }
   ],
   "ingredientes": [
     {
+      "id": "reagente_carnical",
       "criatura": "Carniçal / Carniçal Darakhul",
       "categoria": "Morto-vivo",
       "reagente": "Restos de Carniçal (Fígado / Sangue cadavérico)",
       "regra": "Declarar colheita após o abate (rende 1d3 doses)",
       "usos": "Óleo de Necrófago, Poção Andorinha, Sangue Negro",
-      "preco": "15 po"
+      "preco": "15 po",
+      "peso": 0.5
     },
     {
+      "id": "reagente_lobo",
       "criatura": "Lobo / Lobo Atroz",
       "categoria": "Fera",
       "reagente": "Gordura e Presas de Lobo",
       "regra": "Declarar colheita após o abate (rende 1d3 doses)",
-      "usos": "Óleo de Fera, Bálsamo de Cura, Elixir Trovoada",
-      "preco": "10 po"
+      "usos": "Óleo de Fera, Poção de Cura, Elixir Trovoada",
+      "preco": "10 po",
+      "peso": 0.5
     },
     {
+      "id": "reagente_urso",
       "criatura": "Urso",
       "categoria": "Fera",
       "reagente": "Sebo Denso de Urso",
       "regra": "Declarar colheita após o abate (rende 1d3 doses)",
-      "usos": "Óleo de Fera, Bálsamo de Cura",
-      "preco": "10 po"
+      "usos": "Óleo de Fera, Poção de Cura",
+      "preco": "10 po",
+      "peso": 0.5
     },
     {
+      "id": "reagente_aparicao",
       "criatura": "Aparição / Sombra / Espectro",
       "categoria": "Morto-vivo Incorpóreo",
       "reagente": "Ectoplasma & Pó de Aparição",
       "regra": "Coletar resíduos onde o espírito foi dissipado (rende 1d3 doses)",
-      "usos": "Óleo de Espectro, Elixir Nevasca, Sangue Negro",
-      "preco": "25 po"
+      "usos": "Óleo de Espectro, Elixir Nevasca, Sangue Negro, Vento do Norte, Pó Espectral",
+      "preco": "25 po",
+      "peso": 0.1
     },
     {
+      "id": "reagente_troll",
       "criatura": "Troll / Ogro / Ettin",
       "categoria": "Monstruosidade / Ogroide",
       "reagente": "Gordura Regenerativa de Troll / Glândula de Ogro",
       "regra": "Declarar colheita após o abate (rende 1d3 doses)",
       "usos": "Óleo de Ogroide, Elixir Trovoada, Lua Cheia",
-      "preco": "25 po"
+      "preco": "25 po",
+      "peso": 0.5
     },
     {
+      "id": "reagente_grifo",
       "criatura": "Grifo / Mantícora",
       "categoria": "Monstruosidade Alada",
       "reagente": "Penas de Grifo / Ferrão de Mantícora",
       "regra": "Declarar colheita após o abate (rende 1d3 doses)",
       "usos": "Óleo de Híbrido, Elixir Nevasca",
-      "preco": "30 po"
+      "preco": "30 po",
+      "peso": 0.25
     },
     {
+      "id": "reagente_quimera",
       "criatura": "Quimera",
       "categoria": "Monstruosidade Tríplice",
       "reagente": "Secreção Tríplice de Quimera",
       "regra": "Declarar colheita após o abate (rende 1d3 doses)",
-      "usos": "Óleo de Híbrido, Elixir Nevasca, Fogo Alquímico",
-      "preco": "35 po"
+      "usos": "Óleo de Híbrido, Elixir Nevasca, Estrela Dançante",
+      "preco": "35 po",
+      "peso": 0.25
     },
     {
+      "id": "reagente_golem",
       "criatura": "Golem de Pedra / Golem de Ferro",
       "categoria": "Construto",
       "reagente": "Pó Mineral de Golem / Núcleo do Construto",
       "regra": "Declarar recolhimento de fragmentos da carcaça quebrada (rende 1d3 doses)",
-      "usos": "Óleo de Construtos, Elixir Mel Branco",
-      "preco": "25 po"
+      "usos": "Óleo de Construtos, Elixir Mel Branco, Bomba de Estilhaços",
+      "preco": "25 po",
+      "peso": 1
     },
     {
+      "id": "reagente_lobisomem",
       "criatura": "Lobisomem / Estrige",
       "categoria": "Monstruosidade Amaldiçoada",
       "reagente": "Pêlo Amaldiçoado / Sangue Licantrópico",
       "regra": "Declarar colheita antes que o corpo retorne à forma humana (rende 1d3 doses)",
-      "usos": "Óleo de Amaldiçoados, Elixir da Lua Cheia",
-      "preco": "35 po"
+      "usos": "Óleo de Amaldiçoados, Elixir da Lua Cheia, Pó Lunar",
+      "preco": "35 po",
+      "peso": 0.25
     },
     {
+      "id": "reagente_dragao",
       "criatura": "Dragão Vermelho / Dragão Branco / Serpe",
       "categoria": "Dragão",
       "reagente": "Sangue & Escamas Dracônicas",
       "regra": "Declarar extração de escamas ou sangue do coração (rende 1d3 doses)",
-      "usos": "Óleo de Draconídeo, Elixir Trovoada Titânico",
-      "preco": "60 po"
+      "usos": "Óleo de Draconídeo, Elixir Trovoada, Estrela Dançante",
+      "preco": "45 po",
+      "peso": 1
     },
     {
+      "id": "reagente_basilisco",
       "criatura": "Basilisco / Medusa / Hidra",
       "categoria": "Monstruosidade Tóxica",
       "reagente": "Glândula de Peçonha / Olho Petrificante",
       "regra": "Declarar colheita cuidadosa com luvas (rende 1d3 doses)",
-      "usos": "Elixir Papa-figo (Antitoxina), Óleos Venenosos",
-      "preco": "35 po"
+      "usos": "Elixir Papa-figo (Antitoxina), Gás do Dragão",
+      "preco": "35 po",
+      "peso": 0.25
     },
     {
+      "id": "reagente_devorador",
       "criatura": "Devorador de Mentes / Observador",
       "categoria": "Aberração Psíquica",
       "reagente": "Glândula Psíquica / Olho Mágico",
       "regra": "Declarar extração de tecido encefálico/ocular (rende 1d3 doses)",
-      "usos": "Filtro de Petri, Elixir do Gato",
-      "preco": "50 po"
+      "usos": "Filtro de Petri, Elixir do Gato, Samum",
+      "preco": "50 po",
+      "peso": 0.25
     },
     {
+      "id": "reagente_mimico",
       "criatura": "Mímico",
       "categoria": "Aberração Metamórfica",
       "reagente": "Secreção Adesiva / Resíduo Amorfo",
       "regra": "Raspar secreções adesivas da carcaça derrotada (rende 1d3 doses)",
-      "usos": "Elixir Mel Branco, Elixir do Gato, Cola Alquímica",
-      "preco": "20 po"
+      "usos": "Elixir Mel Branco, Elixir do Gato, Bomba de Cola",
+      "preco": "20 po",
+      "peso": 0.25
     }
   ],
   "taverna": [

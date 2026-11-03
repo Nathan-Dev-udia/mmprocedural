@@ -89,11 +89,11 @@ def _efeito_da_arma(ataque):
 def planilha_de_armas(dados):
     livro = Workbook()
     catalogo = player.catalogo_do_jogador(dados)
-    cabecalho = ["Arma", "Perícia", "Efeito", "Tipo de dano", "Qualidades", "Crítico", "Custo (PP)", "Preço", "Peso",
-                 "Massa (graduação)", "Notas", "Fonte"]
-    larguras = [24, 32, 30, 16, 26, 9, 10, 11, 11, 11, 40, 60]
+    cabecalho = ["Arma", "Comércio", "Perícia", "Efeito", "Tipo de dano", "Qualidades", "Crítico", "Custo (PP)",
+                 "Preço", "Peso", "Massa (graduação)", "Notas", "Fonte"]
+    larguras = [24, 18, 32, 30, 16, 26, 9, 10, 11, 11, 11, 40, 60]
     for titulo, categoria in (("Armas brancas", "Arma branca"), ("Armas à distância", "Arma à distância")):
-        linhas = [[i["nome"], i["ataque"].get("pericia", ""), _efeito_da_arma(i["ataque"]),
+        linhas = [[i["nome"], i.get("comercio", ""), i["ataque"].get("pericia", ""), _efeito_da_arma(i["ataque"]),
                    i["ataque"].get("descritor", ""), ", ".join(i["ataque"].get("qualidades", [])),
                    f"{i['ataque'].get('critico', 20)}–20" if i["ataque"].get("critico", 20) < 20 else "20",
                    i.get("custo"), preco_em_moedas(i.get("preco"))] + _colunas_de_peso(dados, i)
@@ -104,10 +104,10 @@ def planilha_de_armas(dados):
     for arma in catalogo:
         if arma.get("municao"):
             armas.setdefault(arma["municao"], []).append(arma["nome"])
-    _folha(livro, "Munição", ["Munição", "Preço", "Peso", "Massa (graduação)", "Para", "Descrição"],
-           [[i["nome"], preco_em_moedas(i.get("preco"))] + _colunas_de_peso(dados, i)
+    _folha(livro, "Munição", ["Munição", "Comércio", "Preço", "Peso", "Massa (graduação)", "Para", "Descrição"],
+           [[i["nome"], i.get("comercio", ""), preco_em_moedas(i.get("preco"))] + _colunas_de_peso(dados, i)
             + [", ".join(armas.get(i["id"], [])), i.get("descricao", "")]
-            for i in catalogo if i["categoria"] == "Munição"], [30, 11, 11, 11, 24, 40])
+            for i in catalogo if i["categoria"] == "Munição"], [30, 18, 11, 11, 11, 24, 40])
     _folha(livro, "Qualidades", ["Qualidade", "O que faz"],
            [[nome, texto] for nome, texto in rules.QUALIDADES_DE_ARMA.items()]
            + [["Dano", "Pelo dado do Livro do Jogador (D&D 5e): d4 → 1, d6 → 2, d8 → 3, d10, d12 ou 2d6 → 4. Armas "
@@ -132,8 +132,8 @@ def _conteudo_do_kit(dados, item):
 
 def planilha_de_itens(dados):
     livro = Workbook()
-    catalogo = [i for i in player.catalogo_do_jogador(dados) if i["categoria"] not in
-                ("Arma branca", "Arma à distância", "Munição")]
+    todos = player.catalogo_do_jogador(dados)
+    catalogo = [i for i in todos if i["categoria"] not in ("Arma branca", "Arma à distância", "Munição")]
     linhas = []
     for item in catalogo:
         efeito = item.get("descricao", "")
@@ -141,12 +141,17 @@ def planilha_de_itens(dados):
             efeito = f"Proteção {item['protecao']}"
         elif item.get("defesas_ativas"):
             efeito = f"+{item['defesas_ativas']} em Esquiva e Aparar"
-        linhas.append([item["categoria"], item["nome"], preco_em_moedas(item.get("preco"))]
+        linhas.append([item["categoria"], item["nome"], item.get("comercio", ""), preco_em_moedas(item.get("preco"))]
                       + _colunas_de_peso(dados, item)
                       + [_velocidade(item), efeito, _conteudo_do_kit(dados, item), item.get("fonte", "")])
-    _folha(livro, "Itens", ["Categoria", "Item", "Preço", "Peso", "Massa (graduação)", "Velocidade e carga",
-                            "Efeito / descrição", "Conteúdo (kits)", "Fonte"],
-           linhas, [22, 32, 11, 13, 11, 30, 60, 50, 50])
+    _folha(livro, "Itens", ["Categoria", "Item", "Comércio", "Preço", "Peso", "Massa (graduação)",
+                            "Velocidade e carga", "Efeito / descrição", "Conteúdo (kits)", "Fonte"],
+           linhas, [22, 32, 18, 11, 13, 11, 30, 60, 50, 50])
+    # Tudo o que se compra, armas incluídas, agrupado pela loja: filtrar "Ferreiro" mostra espadas e armaduras.
+    por_comercio = sorted(todos, key=lambda i: (i.get("comercio", ""), i["categoria"], i["nome"]))
+    _folha(livro, "Por comércio", ["Comércio", "Item", "Categoria", "Preço", "Peso", "Massa (graduação)"],
+           [[i.get("comercio", ""), i["nome"], i["categoria"], preco_em_moedas(i.get("preco"))]
+            + _colunas_de_peso(dados, i) for i in por_comercio], [20, 32, 22, 11, 13, 11])
     _folha_de_medidas(livro)
     return _salvar(livro)
 

@@ -37,8 +37,16 @@ PERICIAS_DE_RESERVA = ["Percepção", "Atletismo", "Intuição", "Furtividade", 
                        "Enganação", "Intimidação", "Investigação", "Especialidade: Cavalgar"]
 
 # Itens que o jogador pode levar em mais de uma unidade (cada unidade é o pacote do catálogo).
-CATEGORIAS_COM_QUANTIDADE = {"Comida", "Munição", "Bebida", "Poções"}
+CATEGORIAS_COM_QUANTIDADE = {"Comida", "Munição", "Bebida", "Poções", "Óleos", "Bombas", "Ingredientes"}
 QUANTIDADE_MAXIMA = 99
+
+# No sorteio, o personagem não gasta tudo em equipamento: os extras (outras armas, opcionais) não descem abaixo da
+# PARTE_GUARDADA do dinheiro inicial, e nem os itens essenciais descem abaixo da PARTE_MINIMA.
+PARTE_GUARDADA = 0.15
+PARTE_MINIMA = 0.05
+# Item "de_origem" (o kit da escola do bruxo): no sorteio, ele vem com o personagem, que deixa esta parte do
+# dinheiro inicial no lugar do preço (nunca mais que o preço do item).
+PARTE_PAGA_PELA_ORIGEM = 0.5
 
 
 def _arquetipo(dados, arquetipo_id):
@@ -266,6 +274,13 @@ def _cabe_no_np(item, np, vantagens):
 
 def _equipamento_automatico(dados, arquetipo, foco, np, vantagens, rng):
     """Lista de compras coerente com o arquétipo e o foco, na ordem de prioridade."""
+    prioritarios, extras = _equipamento_automatico_em_partes(dados, arquetipo, foco, np, vantagens, rng)
+    return prioritarios + extras
+
+
+def _equipamento_automatico_em_partes(dados, arquetipo, foco, np, vantagens, rng):
+    """(prioritários, extras): a primeira arma, a munição, os itens básicos, os essenciais e os do foco; depois as
+    outras armas e os opcionais, que só entram com o dinheiro que não fica guardado."""
     catalogo = dados["equipamentos"]
     cabe = [i for i in arquetipo["armas"]["principais"] if _cabe_no_np(catalogo[i], np, vantagens)]
     lista = []
@@ -288,13 +303,10 @@ def _equipamento_automatico(dados, arquetipo, foco, np, vantagens, rng):
     # Ordem de compra (o dinheiro pode acabar no meio): a primeira arma e a munição dela, itens básicos,
     # essenciais (armadura...), itens do foco, as outras armas com a munição e, por último, os opcionais.
     primeira, outras = lista[:1], lista[1:] + ([secundaria] if secundaria else [])
-    ordem = (primeira + municoes(primeira) + itens_basicos(dados) + arquetipo["itens"]["essenciais"]
-             + foco.get("itens", []) + outras + municoes(outras) + opcionais)
-    sem_repetir = []
-    for item in ordem:
-        if item not in sem_repetir:
-            sem_repetir.append(item)
-    return sem_repetir
+    prioritarios = list(dict.fromkeys(primeira + municoes(primeira) + itens_basicos(dados)
+                                      + arquetipo["itens"]["essenciais"] + foco.get("itens", [])))
+    extras = [i for i in dict.fromkeys(outras + municoes(outras) + opcionais) if i not in prioritarios]
+    return prioritarios, extras
 
 
 def _preco_total(dados, item_id, quantidades):
@@ -302,22 +314,25 @@ def _preco_total(dados, item_id, quantidades):
     return None if preco is None else round(preco * quantidades.get(item_id, 1), 2)
 
 
-def _comprar(dados, itens, dinheiro, obrigatorio=False, quantidades=None):
+def _comprar(dados, itens, dinheiro, obrigatorio=False, quantidades=None, precos_de_origem=None):
     """Compra os itens na ordem da lista. Itens sem preço entram como 'a combinar'.
 
     obrigatorio=True (escolha do jogador): se o dinheiro não der, é erro em vez de pular o item.
     quantidades: {id: n} para itens comprados em mais de uma unidade (o preço da compra é o total).
+    precos_de_origem: {id: preço} dos itens que vêm da origem do personagem, pagos por esse preço.
     """
-    quantidades = quantidades or {}
+    quantidades, precos_de_origem = quantidades or {}, precos_de_origem or {}
     compras, restante, sem_dinheiro = [], dinheiro, []
     for item_id in itens:
         item = dados["equipamentos"][item_id]
-        preco = _preco_total(dados, item_id, quantidades)
+        preco = precos_de_origem.get(item_id, _preco_total(dados, item_id, quantidades))
         quantidade = quantidades.get(item_id, 1)
         if preco is None:
             compras.append({"id": item_id, "nome": item["nome"], "preco": None, "quantidade": quantidade})
         elif preco <= restante + 1e-9:
             compras.append({"id": item_id, "nome": item["nome"], "preco": preco, "quantidade": quantidade})
+            if item_id in precos_de_origem:
+                compras[-1]["preco_normal"] = item["preco"]
             restante -= preco
         else:
             sem_dinheiro.append(item["nome"])
@@ -326,6 +341,12 @@ def _comprar(dados, itens, dinheiro, obrigatorio=False, quantidades=None):
         raise GeneratorError(f"Os itens escolhidos custam {formatter.dolares(total, moeda(dados))}, mas o personagem "
                              f"só tem {formatter.dolares(dinheiro, moeda(dados))}.")
     return compras, round(restante, 2), sem_dinheiro
+
+
+def precos_de_origem(dados, itens, dinheiro):
+    """{id: preço} dos itens "de_origem" da lista: a parte do dinheiro inicial, no máximo o preço do item."""
+    return {i: round(min(dados["equipamentos"][i]["preco"], dinheiro * PARTE_PAGA_PELA_ORIGEM), 2)
+            for i in itens if dados["equipamentos"][i].get("de_origem")}
 
 
 def conteudo_do_kit(item):
@@ -747,8 +768,19 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
             compras, troco, sem_dinheiro = _comprar(dados, ids, riqueza["dinheiro"] + divida, obrigatorio=True,
                                                     quantidades=quantidades)
         else:
-            lista = _equipamento_automatico(dados, arquetipo, foco, np, vantagens, rng)
-            compras, troco, sem_dinheiro = _comprar(dados, lista, riqueza["dinheiro"])
+            prioritarios, extras = _equipamento_automatico_em_partes(dados, arquetipo, foco, np, vantagens, rng)
+            # O que vem da origem entra primeiro. Os prioritários usam tudo menos a parte mínima; os extras, só o que
+            # passa da parte guardada (se os prioritários já comeram essa parte, não entra extra nenhum).
+            origem = precos_de_origem(dados, prioritarios + extras, riqueza["dinheiro"])
+            prioritarios = list(origem) + [i for i in prioritarios if i not in origem]
+            extras = [i for i in extras if i not in origem]
+            minimo = round(riqueza["dinheiro"] * PARTE_MINIMA, 2)
+            compras, troco, sem_dinheiro = _comprar(dados, prioritarios, riqueza["dinheiro"] - minimo,
+                                                    precos_de_origem=origem)
+            troco = round(troco + minimo, 2)
+            guardado = min(troco, round(riqueza["dinheiro"] * PARTE_GUARDADA, 2))
+            mais, troco, faltou = _comprar(dados, extras, troco - guardado)
+            compras, sem_dinheiro, troco = compras + mais, sem_dinheiro + faltou, round(troco + guardado, 2)
             compras, troco = _devolver_municao_sem_arma(dados, compras, troco)
         ficha["equipamento"] = _abrir_kits(dados, [c["id"] for c in compras], ficha["quantidades"])
         compras, troco, fora_do_np = _tirar_armas_acima_do_np(dados, ficha, compras, troco, np)

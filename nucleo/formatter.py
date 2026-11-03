@@ -223,6 +223,10 @@ def texto_dinheiro(dinheiro):
     implantes = [c for c in dinheiro["compras"] if c.get("implante")]
     if implantes:
         texto += ("; cyberware: " + ", ".join(f"{c['nome']} ({dolares(c['preco'], moeda)})" for c in implantes))
+    for compra in dinheiro["compras"]:
+        if compra.get("preco_normal") is not None:
+            texto += (f"; {compra['nome']} veio da origem do personagem por {dolares(compra['preco'], moeda)} "
+                      f"(preço normal {dolares(compra['preco_normal'], moeda)})")
     if dinheiro.get("subiu_de"):
         texto += (f". A condição financeira subiu de {dinheiro['subiu_de']} para pagar os itens "
                   f"(+{dinheiro['pontos_da_riqueza']} PP em Benefício: Riqueza)")

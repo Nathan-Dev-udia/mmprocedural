@@ -272,12 +272,31 @@ def test_kit_de_bruxo_traz_os_itens_com_estatistica(fantasia):
     pj = gerar_pj(fantasia, "bruxo", 5, "cacador_monstros", variante="lobo")
     equipamento = pj["ficha"]["equipamento"]
     assert {"kit_bruxo", "espada_prata", "espada_longa", "couro_batido"} <= set(equipamento)
-    assert pj["ficha"]["quantidades"]["elixires"] == 3
+    assert {"pocao_andorinha", "elixir_trovoada", "elixir_gato", "oleo_necrofago", "oleo_fera"} <= set(equipamento)
     compras = {c["id"]: c["preco"] for c in pj["dinheiro"]["compras"]}
-    assert compras["kit_bruxo"] == 120 and "espada_prata" not in compras   # paga o pacote, não as peças
+    # O kit vem da escola: em vez dos 120 po, deixa metade do dinheiro do Aventureiro (150 po)
+    assert compras["kit_bruxo"] == 75 and "espada_prata" not in compras   # paga o pacote, não as peças
+    assert "veio da origem do personagem por 75 po (preço normal 120 po)" in formatter.texto_dinheiro(pj["dinheiro"])
     ataques = {a["nome"] for a in pj["validacao"]["valores"]["ataques"]}
     assert {"Espada de prata", "Espada longa"} <= ataques
     assert pj["validacao"]["valores"]["protecao"] == 2
+
+    # Até o Camponês (30 po) sai da escola com o kit, por 15 po
+    pobre = gerar_pj(fantasia, "bruxo", 5, "cacador_monstros", variante="urso", riqueza="trabalhador")
+    assert {c["id"]: c["preco"] for c in pobre["dinheiro"]["compras"]}["kit_bruxo_urso"] == 15
+
+
+def test_sorteio_guarda_parte_do_dinheiro(fantasia):
+    """O equipamento sorteado nunca gasta tudo: os essenciais deixam 5% e os extras deixam 15% do dinheiro."""
+    for riqueza in ("trabalhador", "classe_media"):
+        for arquetipo, dados_arq in fantasia["jogador"]["arquetipos"].items():
+            for semente in range(3):
+                pj = gerar_pj(fantasia, arquetipo, 5, dados_arq["focos"][0]["id"], semente, riqueza)
+                dinheiro = pj["dinheiro"]
+                assert dinheiro["restante"] >= round(dinheiro["inicial"] * player.PARTE_MINIMA, 2), (arquetipo, riqueza)
+    # Com dinheiro sobrando para os essenciais, o arqueiro compra a cota de malha e ainda guarda dinheiro
+    arqueiro = gerar_pj(fantasia, "guerreiro", 5, "arqueiro")
+    assert "cota_malha" in arqueiro["ficha"]["equipamento"] and arqueiro["dinheiro"]["restante"] > 0
 
 
 def test_ficha_explica_protecao_da_armadura_na_resistencia(fantasia):

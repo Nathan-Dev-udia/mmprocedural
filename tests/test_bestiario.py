@@ -39,6 +39,9 @@ def test_catalogo_contem_criaturas_e_variantes():
     assert any(c["id"] == "fantasia/aberracoes/alhoon" for c in lista)
     assert any(c["id"] == "fantasia/sobrenatural/demonio_glabrezu" for c in lista)
     assert any(c["id"] == "fantasia/sobrenatural/diabo_cristalino" for c in lista)
+    assert any(c["id"] == "fantasia/aberracoes/prole_estelar_vidente" for c in lista)
+    assert any(c["id"] == "fantasia/mortos_vivos/dullahan" for c in lista)
+    assert any(c["id"] == "fantasia/sobrenatural/dullahan_feerico" for c in lista)
 
 
 def test_filtros_de_genero_familias_tipos_e_faixas():
@@ -179,6 +182,7 @@ FICHAS_NOVAS = (
     "aberracoes/observador", "mortos_vivos/lich", "mortos_vivos/cria_vampirica", "mortos_vivos/vampiro",
     "mortos_vivos/strahd", "mortos_vivos/espectro_meio_dia", "dragoes/dragao_vermelho_adulto", "dragoes/serpe",
     "aberracoes/mimico", "construtos/golem_ferro", "monstruosidades/quimera", "mortos_vivos/aparicao",
+    "aberracoes/prole_estelar_vidente", "mortos_vivos/dullahan", "sobrenatural/dullahan_feerico",
 )
 
 
