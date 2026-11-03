@@ -8,7 +8,7 @@ from pathlib import Path
 from docx import Document
 
 import app
-from nucleo import bestiario, bestiario_docx, bestiario_pdf
+from nucleo import bestiario, bestiario_docx, bestiario_pdf, pdf_export
 
 
 def test_catalogo_contem_criaturas_e_variantes():
@@ -281,7 +281,19 @@ def test_rotas_de_download_com_quantidade():
     # PDF do lich: Vigor ausente e Fortitude "Imune" não quebram o formulário
     campos = bestiario_pdf.campos_da_criatura("fantasia/mortos_vivos/lich", "Lich 2")
     assert campos["Herói"] == "Lich 2"
-    assert campos["Vig"] == "Imune"
+    assert campos["Vigor"] == "—" and campos["Fortitude"] == "Imune"
+    # As defesas vão nos campos do formulário (habilidade + graduações = total), com NP e Iniciativa
+    lich = bestiario.ficha("fantasia/mortos_vivos/lich")
+    assert campos["Esquiva"] == "12" and int(campos["Agilidade"]) + int(campos["Grad.Esquiva"]) == 12
+    assert campos["Resistência"] == "14" and campos["Resistência Outros"] == "14"
+    assert campos["Nível de Poder"] == str(lich["np"]) and campos["Iniciativa"] == "+7"   # Agi 3 + Iniciativa Aprimorada
+    # No PDF, a Fortitude "Imune" é mantida pela fórmula (a soma do modelo a trocaria por 0)
+    from pypdf import PdfReader
+    pdf = PdfReader(io.BytesIO(bestiario_pdf.gerar_pdf(app.app.root_path + "/dados/comum/ficha_editavel.pdf",
+                                                       "fantasia/mortos_vivos/lich")))
+    fortitude = next(r.get_object() for r in pdf.trailer["/Root"]["/AcroForm"]["/CO"]
+                     if r.get_object().get("/T") == "Fortitude")
+    assert "event.target.value" in pdf_export._texto_do_js(fortitude["/AA"]["/C"])
 
 
 def test_chefes_novos_sao_genericos_e_usam_complicacoes():
@@ -334,4 +346,4 @@ def test_rotas_com_np_escolhido():
     with zipfile.ZipFile(io.BytesIO(resp.data)) as pacote:
         assert sorted(pacote.namelist()) == ["carnical_np12_1.pdf", "carnical_np12_2.pdf"]
     campos = bestiario_pdf.campos_da_criatura("fantasia/mortos_vivos/carnical", np=12)
-    assert campos["NP"] == "12" and campos["Luta"] == "12"
+    assert campos["Nível de Poder"] == "12" and campos["Luta"] == "12"

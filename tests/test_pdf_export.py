@@ -63,10 +63,43 @@ def test_valores_obedecem_as_formulas_do_pdf(dados, arquetipo, np):
 
 
 def test_cavalgar_usa_agilidade_na_ficha(dados):
-    # Especialidade: Cavalgar usa Agilidade; a ficha soma Intelecto, então a diferença vai em "Outros".
+    # Especialidade: Cavalgar usa Agilidade; a linha da ficha somava Intelecto, então a fórmula dela é trocada.
     npc, relatorio, c = gerar_pdf(dados, "policial", 5)
     linha = next(n for n in range(1, 5) if c.get(f"Especialidade {n}") == "Cavalgar")
     assert numero(c[f"EspTotal {linha}"]) == relatorio["valores"]["pericias"]["Especialidade: Cavalgar"]["total"]
+    assert numero(c[f"EspHab {linha}"]) == relatorio["valores"]["habilidades"]["Agi"]
+    formulas = pdf_export.formulas_dos_campos(npc, relatorio)
+    assert formulas[f"EspHab {linha}"] == 'event.value = AFMakeNumber(getField("Agilidade").value);'
+
+
+def _calculos(pdf):
+    """[(campo, JavaScript)] na ordem de cálculo (/CO) do PDF."""
+    leitor = PdfReader(io.BytesIO(pdf))
+    lista = []
+    for ref in leitor.trailer["/Root"]["/AcroForm"]["/CO"]:
+        campo = ref.get_object()
+        lista.append((str(campo["/T"]), pdf_export._texto_do_js(campo["/AA"]["/C"])))
+    return lista
+
+
+def test_mudar_habilidade_no_pdf_recalcula_o_que_depende_dela(dados):
+    """O jogador troca Agilidade por Força no PDF: custo, Iniciativa, ataque, dano e totais têm fórmula, e cada
+    total vem depois das parcelas na ordem de cálculo (senão ficaria um passo atrasado)."""
+    from test_fantasia import _complicacoes
+    from nucleo import data_loader
+    fantasia = data_loader.carregar_genero("fantasia")
+    pj = player.gerar_personagem(fantasia, "guerreiro", 5, "campeao", "classe_media", _complicacoes(),
+                                 rng=random.Random(3))
+    calculos = _calculos(pdf_export.gerar_pdf(fantasia["ficha_pdf"], pj, app._relatorio(pj), "Fantasia"))
+    ordem = [nome for nome, _ in calculos]
+    for nome, js in calculos:
+        for usado in set(pdf_export.re.findall(r'"([^"]+)"', js)) & set(ordem) - {nome}:
+            assert ordem.index(usado) < ordem.index(nome), (usado, nome)
+    js = dict(calculos)
+    assert "Agilidade" in js["Iniciativa"] and "AcrobHab" in js["AcrobTotal"] and "Prontidão" in js["Vontade"]
+    assert "Força" in js["Habilidades"] and "Habilidades" in js["Total"]
+    assert "Força" in js["Dano 1"] and '"Dano 1"' in js["Descrição 1"] and "Luta" in js["Ataque 1"]
+    assert "Math.ceil" in js["Perícias"] and "Math.max" in js["Resistência Máxima"]
 
 
 def test_formula_do_combate_a_distancia_corrigida(dados):
