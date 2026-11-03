@@ -85,6 +85,16 @@ PONTOS_POR_NP = 15
 # Tabela "Referências de Habilidade": 7 é o ápice da capacidade humana.
 HABILIDADE_MAXIMA_HUMANA = 7
 
+# Tamanho natural de uma raça: o Encolhimento 4 Permanente e Inato do livro básico (p. 106), que deixa a criatura
+# Pequena (graduação de tamanho –3). Furtividade e Intimidação mudam por circunstância e não contam no limite de
+# perícia do NP (Perfis de Poder, p. 64); Força, Esquiva e Aparar contam como qualquer graduação.
+# [Casa] Custo de raça: o saldo dos traços pelos preços do livro (+2 Esquiva e +2 Aparar = 4 PP, +4 Furtividade =
+# 2 PP, Força –1 = –2 PP, Intimidação –2 = –1 PP), 3 PP no lugar dos 9 PP do Encolhimento 4 Inato.
+TAMANHOS = {
+    "pequeno": {"nome": "Pequeno", "graduacao": -3, "custo_racial": 3, "habilidades": {"For": -1},
+                "defesas": {"Esquiva": 2, "Aparar": 2}, "pericias": {"Furtividade": 4, "Intimidação": -2}},
+}
+
 # Sorte: no máximo graduações iguais à metade do NP (livro básico, vantagem Sorte).
 VANTAGEM_SORTE = "Sorte"
 

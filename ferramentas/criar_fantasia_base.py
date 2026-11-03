@@ -1494,9 +1494,14 @@ for _classe in CLASSES:
                 nova if x == velha else x for x in _classe["prioridades"]))
 
 
-def raca(id_, nome, descricao, nomes="humano", habilidades=None, vantagens=None, pericias=None, poderes=()):
-    return {"id": id_, "nome": nome, "descricao": descricao, "nomes": nomes, "habilidades": habilidades or {},
-            "vantagens": vantagens or {}, "pericias": pericias or {}, "poderes": list(poderes)}
+def raca(id_, nome, descricao, nomes="humano", habilidades=None, vantagens=None, pericias=None, poderes=(),
+         tamanho=None):
+    dados = {"id": id_, "nome": nome, "descricao": descricao, "nomes": nomes, "habilidades": habilidades or {},
+             "vantagens": vantagens or {}, "pericias": pericias or {}, "poderes": list(poderes)}
+    if tamanho:
+        # [Casa] O tamanho natural custa o saldo dos traços (3 PP para Pequeno), não os 9 PP do Encolhimento.
+        dados["tamanho"] = tamanho
+    return dados
 
 
 RACAS = [
@@ -1506,11 +1511,11 @@ RACAS = [
     raca("elfo", "Elfo", "Graciosos e de vida longa, com sentidos afiados e sangue feérico.", "elfo", {"Agi": 1},
          pericias={"Percepção": 2}, poderes=["visao_escuro", "ancestralidade_feerica", "sentidos_agucados"]),
     raca("halfling", "Halfling", "Pequenos, discretos e sortudos.", "halfling", {"Agi": 1},
-         vantagens={"Sorte": 1}, pericias={"Furtividade": 2}),
+         vantagens={"Sorte": 1}, tamanho="pequeno"),
     raca("draconato", "Draconato", "Descendentes de dragões, orgulhosos e com um sopro de fogo.", "humano",
          {"For": 1, "Pre": 1}, poderes=["sopro_draconico"]),
     raca("gnomo", "Gnomo", "Pequenos, curiosos e inventivos.", "halfling", {"Int": 1},
-         poderes=["visao_escuro", "esperteza_gnomica"]),
+         poderes=["visao_escuro", "esperteza_gnomica"], tamanho="pequeno"),
     raca("meio_elfo", "Meio-elfo", "Entre dois mundos, à vontade em ambos.", "elfo", {"Pre": 1},
          pericias={"Persuasão": 2}, poderes=["visao_escuro", "ancestralidade_feerica"]),
     raca("meio_orc", "Meio-orc", "Fortes e difíceis de derrubar.", "monstro", {"For": 1},

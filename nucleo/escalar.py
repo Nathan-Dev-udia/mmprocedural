@@ -110,7 +110,7 @@ def saturacao(passo, relatorio, ficha, np, habilidade_maxima):
 
     if tipo == "pericia":
         pericia = valores["pericias"].get(nome)
-        propria = pericia["total"] / teto["pericia"] if pericia else 0
+        propria = (pericia["total"] - pericia.get("circunstancia", 0)) / teto["pericia"] if pericia else 0
         da_pericia = lambda a: a["pericia"] == nome
         return max(propria, sat_ataques(da_pericia), sat_bonus(da_pericia))
     if tipo == "defesa":

@@ -24,6 +24,34 @@ Na subclasse, o bloco mostra só **o que ela acrescenta ou troca**. Todo o resto
 
 **Sobre os números:** no NP 5, ataque + Dano não passa de 10. Com uma arma pesada (Dano 4) e Força 3, o golpe já tem Dano 7, e sobram só +3 para acertar. Por isso as fichas de combate de NP baixo têm Força 2 ou 3, e não 5: em M&M, Força 3 já é um sujeito muito forte. A Força e as outras habilidades crescem com o NP.
 
+## Tamanho
+
+Em M&M, o tamanho de uma criatura vem dos efeitos **Encolhimento** e **Crescimento** comprados como **Permanente** e **Inato**, que representam o tamanho natural dela (livro básico, p. 101 e 106; *Perfis de Poder*, p. 64). Um humano é **Médio**, com graduação de tamanho –2. Cada 4 graduações de Encolhimento ou Crescimento mudam o tamanho em uma categoria.
+
+| Tamanho | Exemplos | Efeito e custo | Furtividade | Intimidação | Esquiva e Aparar | Força e Vigor | Velocidade |
+|----|----|----|----|----|----|----|----|
+| **Miúdo** (–4, ~50 cm) | Fada, gato, pseudodragão | Encolhimento 8 · 17 PP | +8 | –4 | +4 | Força –2 | –1 |
+| **Pequeno** (–3, ~1 m) | Halfling, gnomo, goblin | Encolhimento 4 · 9 PP | +4 | –2 | +2 | Força –1 | — |
+| **Médio** (–2, ~2 m) | Humano, elfo, anão, orc | — | — | — | — | — | — |
+| **Grande** (–1, ~4 m) | Ogro, cavalo, urso-coruja | Crescimento 4 · 9 PP | –4 | +2 | –2 | +4 | — |
+| **Enorme** (0, ~8 m) | Gigante das colinas, ent | Crescimento 8 · 17 PP | –8 | +4 | –4 | +8 | +1 |
+| **Imenso** (1, ~15 m) | Dragão ancião, kraken | Crescimento 12 · 25 PP | –12 | +6 | –6 | +12 | +1 |
+
+O número entre parênteses é a **graduação de tamanho**.
+
+- **Furtividade e Intimidação** são bônus e penalidades de circunstância. É a parte da tabela que pesa no dia a dia: o halfling se esconde atrás de um barril, mas ninguém treme quando ele ameaça.
+- **Esquiva, Aparar, Força e Vigor** entram nos limites do NP como qualquer outra graduação. Uma criatura Pequena fica mais difícil de acertar, mas a soma Esquiva + Resistência continua limitada a duas vezes o NP.
+- **Crescimento** também soma 1 na massa por graduação, e a criatura Grande ou maior alcança mais longe (+1 de alcance a cada 4 graduações).
+- **Custo:** 2 PP por graduação, mais 1 PP do Inato. O Permanente não muda o custo.
+
+**Raças Pequenas [Casa]:** como em D&D, o **halfling** e o **gnomo** são **Pequenos**: Furtividade +4, Intimidação –2, Esquiva e Aparar +2 e Força –1. Nas raças, o tamanho custa **3 PP**, não os 9 PP do Encolhimento 4. É o saldo dos traços pelos preços do livro: +2 em Esquiva e Aparar valem 4 PP, +4 em Furtividade vale 2 PP, a Força –1 devolve 2 PP e a Intimidação –2 devolve 1 PP. De graça, o halfling sairia melhor que o humano gastando o mesmo; pelo preço cheio, ninguém escolheria a raça. O gerador aplica tudo na ficha, e o tamanho aparece na lista de poderes:
+
+- **Força:** a –1 entra na ficha, então o dano dos golpes e a carga ficam um pouco menores.
+- **Esquiva e Aparar:** o +2 entra no limite do NP. Por isso o gerador compra um pouco menos de defesa para chegar ao mesmo teto.
+- **Furtividade e Intimidação:** mudam por circunstância e não contam no limite de perícia. O halfling pode chegar ao teto de Furtividade com treino e ainda somar o +4.
+
+As criaturas Pequenas e Grandes do bestiário já trazem o tamanho na ficha. Num PJ de outro tamanho (um meio-gigante, uma fada), o mestre pode usar a mesma tabela.
+
 ---
 
 ## Guerreiro

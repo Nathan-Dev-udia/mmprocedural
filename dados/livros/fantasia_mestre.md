@@ -469,9 +469,9 @@ No D&D, a raça é "de graça": todo mundo ganha alguma coisa. No M&M, **tudo o 
 | **Humano** | Nenhum. | 0 PP |
 | **Anão** | Vigor +1; visão no escuro; Resiliência anã (Imunidade a doenças e venenos, limitada a metade do efeito). | 5 PP |
 | **Elfo** | Agilidade +1; Percepção 2; visão no escuro; Ancestralidade feérica (+2 de Vontade contra efeitos mentais); Sentidos aguçados (visão estendida). | 8 PP |
-| **Halfling** | Agilidade +1; Sorte 1; Furtividade 2. | 4 PP |
+| **Halfling** | Agilidade +1; Sorte 1; tamanho Pequeno (Furtividade +4, Intimidação –2, Esquiva e Aparar +2, Força –1, 3 PP). | 6 PP |
 | **Draconato** | Força +1; Presença +1; Sopro dracônico (Dano em cone, NP – 2). | 10 PP |
-| **Gnomo** | Intelecto +1; visão no escuro; Esperteza gnômica (+2 de Vontade contra efeitos mentais). | 6 PP |
+| **Gnomo** | Intelecto +1; visão no escuro; Esperteza gnômica (+2 de Vontade contra efeitos mentais); tamanho Pequeno (3 PP). | 9 PP |
 | **Meio-elfo** | Presença +1; Persuasão 2; visão no escuro; Ancestralidade feérica. | 7 PP |
 | **Meio-orc** | Força +1; Duro de Matar; Intimidação 2; visão no escuro. | 6 PP |
 | **Tiefling** | Presença +1; visão no escuro; Legado infernal (Dano 2 à distância, fogo infernal). | 8 PP |

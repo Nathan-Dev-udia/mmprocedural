@@ -154,6 +154,16 @@ def _aplicar_raca(dados, ficha, raca, np):
         ficha["pericias"][nome] = ficha["pericias"].get(nome, 0) + graduacao
     for poder_id in raca.get("poderes", []):
         ficha["poderes"][poder_id] = poder_do_genero(dados, poder_id, np)
+    if raca.get("tamanho"):
+        # Os efeitos do tamanho o validador aplica (rules.TAMANHOS); o custo entra como um poder racial, para
+        # aparecer na lista de poderes da ficha.
+        ficha["tamanho"] = raca["tamanho"]
+        tamanho = rules.TAMANHOS[raca["tamanho"]]
+        ficha["poderes"][f"tamanho_{raca['tamanho']}"] = {
+            "nome": f"{texto_do_tamanho(raca['tamanho'])} [Casa: custo de raça]",
+            "nome_curto": tamanho["nome"], "custo_informado": tamanho["custo_racial"], "ajustes": {},
+            "descricao": "Tamanho natural (Encolhimento 4, Permanente, Inato), com o custo do saldo dos traços.",
+            "fonte": "Livro básico, p. 106 (Encolhimento); custo de raça da casa"}
 
 
 def custo_da_raca(dados, raca, np):
@@ -173,7 +183,23 @@ def tracos_da_raca(dados, raca):
     tracos += [f"{nome} {grad}" for nome, grad in raca.get("pericias", {}).items()]
     tracos += [f"{dados['poderes_do_genero'][p]['nome']}: {dados['poderes_do_genero'][p].get('descricao', '')}"
                for p in raca.get("poderes", [])]
+    if raca.get("tamanho"):
+        tracos.append(texto_do_tamanho(raca["tamanho"]))
     return tracos
+
+
+def texto_do_tamanho(tamanho_id):
+    """"Pequeno (3 PP): Furtividade +4, Intimidação –2, Esquiva e Aparar +2, Força –1"."""
+    tamanho = rules.TAMANHOS[tamanho_id]
+    defesas = tamanho["defesas"]
+    partes = [f"{nome} {valor:+d}" for nome, valor in tamanho["pericias"].items()]
+    if len(set(defesas.values())) == 1:
+        partes.append(f"{' e '.join(defesas)} {next(iter(defesas.values())):+d}")
+    else:
+        partes += [f"{nome} {valor:+d}" for nome, valor in defesas.items()]
+    nomes = {"For": "Força", "Vig": "Vigor", "Agi": "Agilidade"}
+    partes += [f"{nomes.get(h, h)} {valor:+d}" for h, valor in tamanho["habilidades"].items()]
+    return (f"{tamanho['nome']} ({tamanho['custo_racial']} PP): " + ", ".join(partes)).replace("-", "–")
 
 
 def poder_do_genero(dados, implante_id, np):

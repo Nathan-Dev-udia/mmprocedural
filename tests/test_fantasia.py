@@ -442,3 +442,25 @@ def test_barbaro_treina_a_pericia_da_arma_que_carrega(fantasia):
         pj = gerar_pj(fantasia, "barbaro", 5, "totemico", semente=semente)
         principal = next(a for a in pj["validacao"]["valores"]["ataques"] if a["nome"] != "Desarmado")
         assert principal["bonus"] >= 2, (principal["nome"], principal["bonus"], principal["dano"])
+
+
+def test_halfling_e_pequeno_e_paga_o_saldo_do_tamanho(fantasia):
+    halfling = fantasia["jogador"]["racas"]["halfling"]
+    # Agilidade +1 (2 PP), Sorte (1 PP) e Pequeno (3 PP, o saldo dos traços; o Encolhimento 4 Inato custaria 9)
+    assert player.custo_da_raca(fantasia, halfling, 5) == 6
+    assert "tamanho_pequeno" in gerar_pj(fantasia, "ladino", 5, "ladrao", raca="halfling")["ficha"]["poderes"]
+    pj = gerar_pj(fantasia, "ladino", 5, "ladrao", raca="halfling")
+    valores, ficha = pj["validacao"]["valores"], pj["ficha"]
+    assert pj["validacao"]["problemas"] == [] and pj["validacao"]["total_pp"] == 75
+    assert valores["habilidades"]["For"] == ficha["habilidades"]["For"] - 1
+    assert valores["defesas"]["Esquiva"] == (ficha["habilidades"]["Agi"] + ficha.get("defesas_compradas", {}).get("Esquiva", 0) + 2)
+    furtividade = valores["pericias"]["Furtividade"]
+    assert furtividade["circunstancia"] == 4
+    assert furtividade["total"] == ficha["habilidades"]["Agi"] + ficha["pericias"].get("Furtividade", 0) + 4
+    assert valores["pericias"]["Intimidação"]["circunstancia"] == -2
+    # A circunstância não conta no limite de perícia do NP.
+    limite = next(c for c in pj["validacao"]["limites"] if c["nome"] == "Perícia Furtividade")
+    assert limite["valor"] == furtividade["total"] - 4
+    humano = gerar_pj(fantasia, "ladino", 5, "ladrao", raca="humano")
+    assert "circunstancia" not in str({k: v for k, v in humano["validacao"]["valores"]["pericias"].items()
+                                       if v.get("circunstancia")})

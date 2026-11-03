@@ -111,10 +111,9 @@
       "vantagens": {
         "Sorte": 1
       },
-      "pericias": {
-        "Furtividade": 2
-      },
-      "poderes": []
+      "pericias": {},
+      "poderes": [],
+      "tamanho": "pequeno"
     },
     {
       "id": "draconato",
@@ -144,7 +143,8 @@
       "poderes": [
         "visao_escuro",
         "esperteza_gnomica"
-      ]
+      ],
+      "tamanho": "pequeno"
     },
     {
       "id": "meio_elfo",

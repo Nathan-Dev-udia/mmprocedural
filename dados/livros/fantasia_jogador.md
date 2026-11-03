@@ -456,9 +456,9 @@ Cada raça traz ajustes de habilidade, às vezes vantagens e perícias, e alguns
 | **Humano** | Versátil e ambicioso. | Nenhum: todos os pontos ficam livres. | 0 PP |
 | **Anão** | Robusto e teimoso, das montanhas. | Vigor +1, Visão no escuro, Resiliência anã (venenos e doenças). | 5 PP |
 | **Elfo** | Gracioso, de sentidos afiados e sangue feérico. | Agilidade +1, Percepção 2, Visão no escuro, Ancestralidade feérica, Sentidos aguçados. | 8 PP |
-| **Halfling** | Pequeno, discreto e sortudo. | Agilidade +1, Sorte, Furtividade 2. | 4 PP |
+| **Halfling** | Pequeno, discreto e sortudo. | Agilidade +1, Sorte, tamanho Pequeno. | 6 PP |
 | **Draconato** | Descendente de dragões, com sopro de fogo. | Força +1, Presença +1, Sopro dracônico. | 10 PP |
-| **Gnomo** | Pequeno, curioso e inventivo. | Intelecto +1, Visão no escuro, Esperteza gnômica. | 6 PP |
+| **Gnomo** | Pequeno, curioso e inventivo. | Intelecto +1, Visão no escuro, Esperteza gnômica, tamanho Pequeno. | 9 PP |
 | **Meio-elfo** | Entre dois mundos, à vontade em ambos. | Presença +1, Persuasão 2, Visão no escuro, Ancestralidade feérica. | 7 PP |
 | **Meio-orc** | Forte e difícil de derrubar. | Força +1, Duro de Matar, Intimidação 2, Visão no escuro. | 6 PP |
 | **Tiefling** | Sangue infernal, chifres e chamas nos dedos. | Presença +1, Visão no escuro, Legado infernal. | 8 PP |
@@ -469,6 +469,7 @@ Cada raça traz ajustes de habilidade, às vezes vantagens e perícias, e alguns
 - **Ancestralidade feérica** e **Esperteza gnômica** (Vontade +2 só contra efeitos mentais, 2 PP): encantamentos, sono mágico e ilusões têm mais dificuldade com você.
 - **Resiliência anã** (Imunidade a venenos e doenças pela metade, 1 PP).
 - **Sopro dracônico** (Dano em cone de fogo): a graduação acompanha o NP (NP – 2, mínimo 1). Por isso o draconato custa mais quanto maior o NP: 6 PP no NP 2, 10 PP no NP 5, 16 PP no NP 8 e 20 PP no NP 10.
+- **Tamanho Pequeno** (halfling e gnomo) [Casa]: Furtividade +4, Intimidação –2, Esquiva e Aparar +2 e Força –1, por **3 PP**: o saldo dos traços pelos preços do livro, em vez dos 9 PP do Encolhimento 4 Inato. A Furtividade e a Intimidação mudam por circunstância e não contam no limite de perícia; a Esquiva e o Aparar contam no limite do NP. A tabela completa de tamanhos está no Livro das Classes e Subclasses.
 - **Legado infernal** (Dano 2 à distância, fogo): o tiefling ataca com a perícia **Combate à Distância: Magia**, a mesma dos conjuradores.
 
 A lista completa dos traços e o custo de cada raça em cada NP estão no **Apêndice**.

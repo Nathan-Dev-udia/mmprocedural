@@ -306,3 +306,22 @@ Itens com `custo` em pontos de equipamento (e `preco` em dólares, nos gêneros 
 - Mechas e veículos do Mecha & Mangá.
 - Edição de arquétipos e módulos pela interface.
 - Biblioteca de fichas salvas e imagens.
+
+## O que falta (próximos passos)
+
+Levantado em 03/11/2026. Pendências mais antigas estão em `PENDENCIAS.md`.
+
+- **Tamanho nas fichas:** halfling e gnomo já são Pequenos por 3 PP [Casa], o saldo dos traços em vez dos 9 PP do Encolhimento (`rules.TAMANHOS`, aplicado pelo validador). Falta revisar como isso aparece na ficha:
+  - hoje o +4 de Furtividade e o –2 de Intimidação somam no total e vão para "Outros" no PDF, sem dizer que vêm do tamanho;
+  - só existe o tamanho Pequeno para raças: um PJ Miúdo ou Grande ainda não é possível.
+- **Livro das Classes e Subclasses:** falta a leitura do usuário, principalmente as linhas "Escolha se…", que são sugestões do Claude.
+- **Gênero Chamado de Cthulhu (anos 20):** planejado, não iniciado. O passo a passo, a adaptação da Sanidade em d100 e as decisões em aberto estão em `dados/generos/cthulhu/PREPARACAO_GENERO.md`.
+- **Faroeste:**
+  - revisar o texto dos livros;
+  - avaliar criar um script gerador, como na fantasia (hoje o `equipment.json` é a fonte da verdade);
+  - novos arquétipos (vaqueiro, pregador, garimpeiro…) e criaturas no bestiário.
+- **Mais magias na fantasia:** curadoria de 60 a 80 magias do *Compêndio de Magia* do D&D 5e (`referencias/dd/`), com nível mínimo pelo NP para magias de nível alto.
+- **Exportar a ficha em planilha (.xlsx)** com fórmulas (defesas, perícias, ataques, custos e limites do NP), para funcionar onde o PDF não recalcula.
+- **Fantasia, pequenos ajustes:**
+  - desconto do kit da escola do bruxo no modo de escolha manual de itens;
+  - a Prole Estelar Bruta no bestiário.
