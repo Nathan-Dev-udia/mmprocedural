@@ -136,7 +136,7 @@ Cada gênero tem um **Livro do Jogador** e um **Livro do Mestre** para baixar em
 
 ## Planilhas
 
-Ao lado dos livros ficam as planilhas (.xlsx) do gênero. As da fantasia (**Armas**, **Itens** e **Poderes**) são montadas na hora a partir dos JSON por `nucleo/planilhas.py`, como o apêndice dos livros: a de poderes traz todas as magias, dons, Sinais, mutações e traços raciais, com estatística, arranjo, quem usa (classe, subclasse, escola ou raça) e o custo em cada NP. As do faroeste foram feitas à mão e ficam em `dados/livros/faroeste/`; para um gênero passar a ter planilhas geradas, basta incluí-lo em `planilhas.GERADAS`.
+Ao lado dos livros ficam as planilhas (.xlsx) do gênero. As da fantasia (**Armas**, **Itens** e **Poderes**) são montadas na hora a partir dos JSON por `nucleo/planilhas.py`, como o apêndice dos livros: a de poderes traz todas as magias, dons, Sinais, mutações e traços raciais, com estatística, arranjo, quem usa (classe, subclasse, escola ou raça) e o custo em cada NP. As do faroeste (**Armas** e **Itens**) também saem dos dados, com preço em dólar, classe, tiros, munição e distância das armas de fogo, e as folhas de referência das classes do *Manual dos Mecanismos*. Nos dois gêneros, a folha "Por comércio" agrupa tudo pela loja que vende (Armeiro, Armazém geral, Saloon, Ferreiro, Taberna…). Para um gênero passar a ter planilhas geradas, basta incluí-lo em `planilhas.GERADAS`.
 
 ## Heróis conhecidos
 

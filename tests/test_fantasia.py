@@ -142,7 +142,7 @@ def test_escudo_que_estoura_o_np_sai_e_devolve_o_dinheiro(fantasia):
 
 def test_preco_em_pecas_de_ouro(fantasia):
     assert formatter.dolares(120, "po") == "120 po"
-    assert formatter.dolares(2.5, "po") == "2,50 po"
+    assert formatter.dolares(2.5, "po") == "2 po e 5 pp"
     assert formatter.dolares(2550, "eb") == "2.550eb"
     assert formatter.dolares(250, "$") == "$250"
 
@@ -405,3 +405,10 @@ def test_ficha_mostra_tipo_de_dano_e_qualidades(fantasia):
     machado = next(a for a in pj["validacao"]["valores"]["ataques"] if a["nome"] == "Machado de batalha")
     texto = formatter.texto_ataque(machado)
     assert "corte" in texto and "Perigosa, Quebrar" in texto and "crítico 19–20" in texto
+
+
+def test_dinheiro_da_fantasia_em_pecas_de_ouro_prata_e_cobre():
+    from nucleo import formatter
+    assert [formatter.dolares(v, "po") for v in (79.2, 79.25, 1500, 0.5, 0.04, 0, -2.3)] == \
+        ["79 po e 2 pp", "79 po, 2 pp e 5 pc", "1.500 po", "5 pp", "4 pc", "0 po", "–2 po e 3 pp"]
+    assert formatter.dolares(79.2, "$") == "$79,20"

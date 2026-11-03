@@ -2791,6 +2791,7 @@
     "preco": 10,
     "descricao": "Para viajar a cavalo.",
     "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "vai_na_montaria": true,
     "peso": 12.5
   },
   {
@@ -2854,6 +2855,7 @@
     "preco": 4,
     "descricao": "Bolsas presas à sela.",
     "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "vai_na_montaria": true,
     "peso": 4
   },
   {

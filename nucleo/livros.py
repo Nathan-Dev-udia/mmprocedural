@@ -406,9 +406,9 @@ def _secao_medidas():
     linhas = [[str(g), m["massa"], m["tempo"], m["distancia"], m["volume"]]
               for g, m in medidas.tabela().items() if g <= 20]
     return ("## Tabela de Medidas\n\nDo livro básico de M&M. Um valor pertence à menor graduação que o "
-            "alcança: uma espada de 1,5 kg tem massa –4 (2 kg). Abaixo de –5, cada graduação divide a anterior pela "
+            "alcança: um objeto de 1,5 kg tem massa –4 (2 kg). Abaixo de –5, cada graduação divide a anterior pela "
             "metade (–6 = 500 g, –7 = 250 g). **Distância = Tempo + Velocidade:** em uma hora (tempo 9), um cavalo "
-            "com Velocidade 4 anda 60 km. **Arremesso = Força – Massa:** com Força 3, uma cota de malha de 27,5 kg "
+            "com Velocidade 4 anda 60 km. **Arremesso = Força – Massa:** com Força 3, uma carga de 27,5 kg "
             "(massa 0) voa 60 m.\n\n" + _tabela_md(["Graduação", "Massa", "Tempo", "Distância", "Volume"], linhas))
 
 
@@ -449,11 +449,16 @@ def _secao_equipamento(dados):
     md = ["## Equipamento\n"]
     if dados["configuracoes"].get("itens_basicos"):
         md.append("Todo personagem leva: " + _nomes(dados, dados["configuracoes"]["itens_basicos"]) + ".\n")
+    # Peso e Velocidade só nos gêneros que pesam os itens (o faroeste; o cyberpunk não).
+    com_peso = any(player.peso_do_item(dados, i) is not None for i in catalogo)
     for categoria in sorted(por_categoria):
         md.append(f"### {categoria}\n")
         linhas = [[i["nome"], _resumo_do_item(dados, i), _preco(dados, i.get("preco"))]
+                  + ([_peso_e_velocidade(dados, i)] if com_peso else [])
                   for i in sorted(por_categoria[categoria], key=lambda i: (i.get("preco") or 0, i["nome"]))]
-        md.append(_tabela_md(["Item", "Efeito", "Preço"], linhas))
+        md.append(_tabela_md(["Item", "Efeito", "Preço"] + (["Peso / Velocidade"] if com_peso else []), linhas))
+    if com_peso:
+        md.append("\n" + _secao_medidas())
     return "\n".join(md)
 
 

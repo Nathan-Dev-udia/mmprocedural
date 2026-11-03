@@ -3,6 +3,7 @@
 import io
 
 import docx
+import openpyxl
 import pytest
 
 import app
@@ -110,6 +111,38 @@ def test_planilhas_da_fantasia_saem_dos_dados():
     ferreiro = {linha[1] for linha in por_comercio if linha[0] == "Ferreiro"}
     taberna = {linha[1] for linha in por_comercio if linha[0] == "Taberna"}
     assert "Espada longa" in ferreiro and "Cota de malha" in ferreiro and "Cerveja (caneca)" in taberna
+
+
+def test_planilhas_do_faroeste_saem_dos_dados():
+    dados = data_loader.carregar_genero("faroeste")
+    cliente = app.app.test_client()
+    armas = cliente.get("/planilhas/faroeste/armas.xlsx").data
+    itens = cliente.get("/planilhas/faroeste/itens.xlsx").data
+
+    folhas = ("Armas de fogo", "Armas brancas", "Armas de arremesso", "Explosivos", "Munição")
+    nomes_das_armas = {linha[0] for folha in folhas for linha in _linhas(armas, folha)}
+    nomes_dos_itens = {linha[1] for linha in _linhas(itens, "Itens")}
+    assert nomes_das_armas | nomes_dos_itens == {i["nome"] for i in player.catalogo_do_jogador(dados)}
+    assert not nomes_das_armas & nomes_dos_itens
+
+    navy = next(l for l in _linhas(armas, "Armas de fogo") if l[0] == "Revólver leve (Colt Navy)")
+    assert navy[1:3] == ("Armeiro", "Pistola leve") and navy[7] == "$10" and navy[8] == "1,5 kg"
+    assert navy[12] == "22,5 / 45 / 90 m"
+    gatling = next(l for l in _linhas(armas, "Armas de fogo") if l[0] == "Rifle Gatling (.45)")
+    assert gatling[4] == "Dano 5 à distância, Multiataque"
+    assert {"Classes de armas", "Como ler"} <= set(openpyxl.load_workbook(io.BytesIO(armas)).sheetnames)
+
+    por_comercio = _linhas(itens, "Por comércio")
+    assert len(por_comercio) == len(player.catalogo_do_jogador(dados))
+    saloon = {linha[1] for linha in por_comercio if linha[0] == "Saloon"}
+    armeiro = {linha[1] for linha in por_comercio if linha[0] == "Armeiro"}
+    assert "Cerveja (copo)" in saloon and "Revólver pesado (Colt Peacemaker)" in armeiro
+
+
+def test_apendice_do_faroeste_mostra_o_peso():
+    texto = livros._secao_equipamento(data_loader.carregar_genero("faroeste"))
+    assert "| Item | Efeito | Preço | Peso / Velocidade |" in texto
+    assert "Velocidade 4 (60 km/h), carga 220 kg" in texto and "## Tabela de Medidas" in texto
 
 
 def test_preco_em_moedas():

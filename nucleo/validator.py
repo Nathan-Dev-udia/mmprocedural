@@ -153,14 +153,16 @@ def calcular(ficha, catalogo_equipamento, ativo=None):
                         # Tipo de dano e qualidades das armas arcaicas (guia de gadgets): só para exibir.
                         "descritor": atq.get("descritor", ""), "qualidades": atq.get("qualidades", [])})
 
-    pesos = []
+    # Com uma montaria (item com "carga"), a sela e os alforjes vão no animal, não nas costas do personagem.
+    tem_montaria = any(item.get("carga") for item in itens)
+    pesos, na_montaria = [], []
     for item, i in zip(itens, ficha.get("equipamento", [])):
         if item.get("kit"):
             continue
         p = item.get("peso")
         if isinstance(p, (int, float)) and not isinstance(p, bool) and p > 0:
             qtd = ficha.get("quantidades", {}).get(i, 1) or 1
-            pesos.append(p * qtd)
+            (na_montaria if tem_montaria and item.get("vai_na_montaria") else pesos).append(p * qtd)
     peso_total = round(sum(pesos), 2) if pesos else None
 
     carga = None
@@ -174,6 +176,7 @@ def calcular(ficha, catalogo_equipamento, ativo=None):
             "capacidade_leve": cap["leve"],
             "capacidade_maxima": cap["maxima"],
             "categoria": cat,
+            "na_montaria": round(sum(na_montaria), 2),
         }
 
     pontos_equipamento = {

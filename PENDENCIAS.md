@@ -4,13 +4,18 @@ Rascunho do que ficou para depois (atualizado na versão 1.7.0).
 
 ## Livros
 - **Cyberpunk:** os dois livros foram revisados, corrigidos e publicados em `dados/livros/`. A ficha da moto do clã, as descrições de equipamento, complicações, limites de NP, custos e opções de compra foram alinhados aos dados e ao gerador.
-- **Faroeste:** os textos são os antigos de `referencias/`. Não foram revisados depois das mudanças no gerador (comida, quantidades, distribuição de pontos). O apêndice gerado dos dados está atualizado.
+- **Faroeste:** os textos são os antigos de `referencias/`. Não foram revisados depois das mudanças no gerador (comida, quantidades, distribuição de pontos, dinheiro guardado no sorteio, carga e itens novos como as Gatlings e os serviços). O apêndice gerado dos dados está atualizado e agora mostra peso e Velocidade.
+- **Dados do faroeste:** o `equipment.json` continua sendo a fonte da verdade (não há script gerador, como na fantasia); os testes de `test_player.py` conferem peso em kg, preço e comércio de todos os itens. Os pesos marcados como estimados (kits, chapéus, baioneta, cartucheira) não vêm do livro.
 - **Fantasia:** revisão mecânica concluída. Custos de poderes, Axii, o exemplo de Sariel, poção de cura, complicação fixa, armaduras e exemplo do mago rúnico foram alinhados ao catálogo e ao código. Os livros ainda aguardam leitura editorial do usuário.
 
 ## Regras e dados da fantasia
 - **Armaduras:** as graduações de Proteção seguem as equivalências adotadas do Manual dos Mecanismos Lite; os preços permanecem conversões do gênero. As fichas-base de hobgoblin e soldado usam cota de malha para continuar válidas com a meia-armadura em Proteção 5.
 - **Fichas incomuns mas válidas:** podem surgir combinações que não pareçam adequadas ao conceito, como um Campeão com Presença 4 ou um bugbear NP 7 com Furtividade +16. Ajustar manualmente quando o resultado não combinar com a cena.
 - **Mago rúnico:** o foco pode priorizar Runas e Prestidigitação em vez de uma perícia de ataque mágico; o livro agora explica como priorizar magia manualmente.
+
+## Gênero Chamado de Cthulhu (anos 20)
+- Planejado, não iniciado. Decisões, referências dos livros, adaptação da Sanidade em d100 e passo a passo em
+  `dados/generos/cthulhu/PREPARACAO_GENERO.md`.
 
 ## Outros
 - Biblioteca de fichas salvas, edição de arquétipos pela interface e mechas, como já estava no README.

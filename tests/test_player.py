@@ -278,7 +278,7 @@ def test_quantidade_multiplica_o_preco_e_aparece_na_ficha(dados):
     assert pj["dinheiro"]["gasto"] == 2.5 * 4 + 3 * 3 + 150
     assert pj["ficha"]["quantidades"] == {"racoes": 4, "municao_pistola": 3}
     itens = app.formatter.exibicao(pj)["equipamento"]
-    assert "Rações de viagem (5 dias) ×4" in itens
+    assert "Rações de viagem (5 dias) ×4 (30 kg)" in itens
     assert "Cavalo" in itens
 
 
@@ -299,3 +299,32 @@ def test_quantidade_conta_para_passar_do_dinheiro(dados):
     pj = gerar(dados, equipamento={"modo": "manual", "ids": ["racoes", "cavalo", "sela"],
                                    "quantidades": {"racoes": 30}, "excesso": "divida"})
     assert pj["dinheiro"]["divida"] == 75 + 150 + 25 - 250
+
+
+def test_todo_item_do_faroeste_tem_peso_em_kg_preco_e_comercio(dados):
+    for item in player.catalogo_do_jogador(dados):
+        peso = item.get("peso")
+        assert peso is None or isinstance(peso, (int, float)), item["id"]
+        assert item.get("preco") is not None, item["id"]
+        assert item.get("comercio"), item["id"]
+        # Só montarias, veículos, passagens, serviços e o que se consome na hora ficam sem peso.
+        if peso is None:
+            assert item["categoria"] in ("Transporte", "Serviços", "Comida", "Bebida"), item["id"]
+        if item.get("ataque") or item["categoria"] in ("Munição", "Roupas", "Acessórios de armas"):
+            assert peso is not None, item["id"]
+
+
+def test_ficha_do_faroeste_mostra_a_carga_e_a_sela_vai_no_cavalo(dados):
+    a_pe = gerar(dados, equipamento={"modo": "manual", "ids": ["revolver_pesado", "sela"]})
+    a_cavalo = gerar(dados, equipamento={"modo": "manual", "ids": ["revolver_pesado", "sela", "cavalo"]})
+
+    assert a_pe["validacao"]["valores"]["carga"]["peso_total"] == 2 + 15
+    carga = a_cavalo["validacao"]["valores"]["carga"]
+    assert carga["peso_total"] == 2 and carga["na_montaria"] == 15
+    assert "mais 15 kg na montaria" in app.formatter.exibicao(a_cavalo)["carga"]
+
+
+def test_gatlings_entram_no_catalogo_com_multiataque(dados):
+    gatling = dados["equipamentos"]["rifle_gatling"]
+    assert gatling["ataque"]["multiataque"] and gatling["custo"] == 15 and gatling["comercio"] == "Armeiro"
+    assert {"pistola_gatling", "espingarda_gatling", "metralhadora_gatling", "lanca", "chicote"} <= set(dados["equipamentos"])

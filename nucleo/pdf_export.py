@@ -158,7 +158,8 @@ def valores_dos_campos(npc, relatorio, genero_nome):
         m_str = formatter.peso(c["capacidade_maxima"])
         rotulos = {"leve": "Leve", "pesada": "Pesada", "sobrecarregado": "Sobrecarregado"}
         rot = rotulos.get(c["categoria"], "Leve")
-        equipamento.append(f"Carga: {p_str} ({rot} • Leve {l_str}, Máx {m_str})")
+        na_montaria = f"; +{formatter.peso(c['na_montaria'])} na montaria" if c.get("na_montaria") else ""
+        equipamento.append(f"Carga: {p_str} ({rot} • Leve {l_str}, Máx {m_str}){na_montaria}")
     _preencher_linhas(campos, "Equipamento {n}", equipamento, LINHAS["equipamento"])
 
     # Complicações

@@ -416,7 +416,18 @@ const implanteNoNp = (i) => i.por_np[npPj()] || { custo: i.custo, estatistica: i
 const graduacoesDeEquipamento = (pontos) => Math.ceil(pontos / 5);
 const modo = (nome) => document.querySelector(`input[name="${nome}"]:checked`).value;
 const baseDaVantagem = (nome) => nome.split(" (")[0];
+// 79,25 po -> "79 po, 2 pp e 5 pc" (1 po = 10 pp = 100 pc), como formatter.pecas.
+const pecas = (v) => {
+  const centavos = Math.round(Math.abs(v) * 100);
+  const po = Math.floor(centavos / 100), pp = Math.floor((centavos % 100) / 10), pc = centavos % 10;
+  const partes = [[po, `${po.toLocaleString("pt-BR")} po`], [pp, `${pp} pp`], [pc, `${pc} pc`]]
+    .filter(([quantidade]) => quantidade).map(([, texto]) => texto);
+  if (!partes.length) partes.push("0 po");
+  const texto = partes.length === 1 ? partes[0] : `${partes.slice(0, -1).join(", ")} e ${partes[partes.length - 1]}`;
+  return (v < 0 && centavos ? "–" : "") + texto;
+};
 const dolares = (v) => {
+  if (pj().moeda === "po") return pecas(v);
   const numero = v.toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 }).replace(",00", "");
   // $1.234,50 (faroeste), 2.550eb (cyberpunk), 15 po (fantasia): moeda com letras vai depois.
   if (pj().moeda === "eb") return `${numero}eb`;
