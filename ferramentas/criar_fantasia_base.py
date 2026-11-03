@@ -1096,7 +1096,7 @@ CLASSES = [
             foco("mestre_batalha", "Mestre de batalha", "Usa manobras para derrubar e desarmar os inimigos.",
                  ["Derrubar Aprimorado", "Desarmar Aprimorado"], p("pericia:Intuição"), ["espada_longa"]),
             foco("cavaleiro_arcano", "Cavaleiro arcano", "Combina a espada com um pouco de magia arcana.",
-                 [], p("habilidade:Int", "pericia:Especialidade: Magia"), ["espada_longa"], ["grimorio"],
+                 [], p("pericia:Especialidade: Magia"), ["espada_longa"], ["grimorio"],
                  ["armadura_arcana", "raio_de_fogo"])]),
     classe("barbaro", "Bárbaro", "Guerreiro selvagem que luta movido pela fúria.",
            ["Ataque Poderoso", "Destemido", "Duro de Matar"],
@@ -1136,7 +1136,7 @@ CLASSES = [
             foco("assassino", "Assassino", "Ataca primeiro e some antes de alguém perceber.",
                  ["Tomar a Iniciativa"], p("pericia:Furtividade", "pericia:Enganação"), itens=["kit_disfarce"]),
             foco("trapaceiro_arcano", "Trapaceiro arcano", "Usa truques de magia para roubar e enganar.",
-                 [], p("habilidade:Int", "pericia:Especialidade: Magia"), implantes=["maos_magicas", "imagem_silenciosa"])]),
+                 [], p("pericia:Especialidade: Magia"), implantes=["maos_magicas", "imagem_silenciosa"])]),
     classe("mago", "Mago", "Estudioso da magia arcana, que guarda as fórmulas no grimório.",
            ["Ritualista", "Esforço Extraordinário"],
            ["Memória Eidética", "Bem Informado", "Idiomas", "Artífice", "Mira Aprimorada"],
@@ -1213,7 +1213,7 @@ CLASSES = [
     classe("paladino", "Paladino", "Cavaleiro sagrado ligado a um juramento.",
            ["Destemido", "Interpor-se"], ["Ataque Poderoso", "Liderança", "Inspirar", "Duro de Matar",
                                           "Rolamento Defensivo"],
-           p("habilidade:Lut", "habilidade:For", "pericia:Combate Corpo-a-Corpo: Espadas", "habilidade:Pre",
+           p("habilidade:Lut", "habilidade:For", "pericia:Combate Corpo-a-Corpo: Espadas",
              "defesa:Vontade", "defesa:Aparar", "pericia:Persuasão", "pericia:Intimidação",
              "pericia:Especialidade: Religião", "pericia:Especialidade: Cavalgar"),
            ["espada_longa", "martelo_guerra", "maca_estrela", "espada_grande"], ["lanca", "azagaia", "lanca_montaria"],
@@ -1346,7 +1346,7 @@ EXTRAS = {
         foco("adivinhacao", "Escola de Adivinhação", "Vê longe, vê o futuro e vê através de mentiras.",
              ["Avaliação"], p("pericia:Percepção", "pericia:Intuição"), implantes=["videncia", "visao_verdadeira"]),
         foco("encantamento", "Escola de Encantamento", "Dobra a vontade dos outros com palavras e magia.",
-             ["Fascinar"], p("habilidade:Pre", "pericia:Persuasão"), implantes=["enfeiticar_pessoa", "sono"]),
+             ["Fascinar"], p("pericia:Persuasão"), implantes=["enfeiticar_pessoa", "sono"]),
         foco("transmutacao", "Escola de Transmutação", "Muda a matéria: pedra na pele, chumbo que flutua.",
              [], p("habilidade:Vig", "pericia:Especialidade: Alquimia"), implantes=["pele_de_pedra", "levitacao"]),
         foco("runico", "Mago rúnico",
@@ -1424,7 +1424,7 @@ EXTRAS = {
         foco("perseguidor", "Perseguidor sombrio", "Caça nas trevas, onde os outros não enxergam.",
              ["Tomar a Iniciativa"], p("pericia:Furtividade", "pericia:Percepção"), implantes=["olhos_de_gato"]),
         foco("andarilho_feerico", "Andarilho feérico", "Tocado pelas fadas: encanta e some num piscar de olhos.",
-             [], p("habilidade:Pre", "pericia:Persuasão"), implantes=["passo_nebuloso"]),
+             [], p("pericia:Persuasão"), implantes=["passo_nebuloso"]),
     ],
     "druida": [
         foco("fogo", "Círculo do Fogo selvagem", "O fogo que destrói para a floresta renascer.", [],
@@ -1449,6 +1449,49 @@ EXTRAS = {
 }
 for _classe in CLASSES:
     _classe["focos"] += EXTRAS.get(_classe["id"], [])
+
+# Para onde vai a sobra do orçamento depois que as prioridades batem nos limites do NP: as habilidades de cada
+# classe, na ordem do D&D (atributo principal, depois os secundários). As que ficam de fora são as que a classe
+# despreza (o Intelecto do bárbaro): sem isso, a sobra caía justamente nelas, que nenhum limite segura.
+RESERVA_DA_CLASSE = {
+    "guerreiro": ["Vig", "For", "Lut", "Agi", "Pro", "Des"],
+    "barbaro": ["For", "Vig", "Lut", "Agi", "Pro", "Pre"],
+    "ladino": ["Agi", "Des", "Pro", "Int", "Pre", "Lut"],
+    "mago": ["Int", "Vig", "Agi", "Pro", "Des", "Pre"],
+    "feiticeiro": ["Pre", "Vig", "Agi", "Pro", "Des", "Int"],
+    "bruxo": ["Pre", "Vig", "Agi", "Pro", "Int", "Des"],
+    "clerigo": ["Pro", "Vig", "For", "Lut", "Pre", "Agi"],
+    "paladino": ["For", "Pre", "Vig", "Lut", "Pro", "Agi"],
+    "patrulheiro": ["Des", "Pro", "Agi", "Vig", "For", "Lut"],
+    "druida": ["Pro", "Vig", "Agi", "Int", "Pre", "Des"],
+    "monge": ["Agi", "Lut", "Pro", "Vig", "Des", "For"],
+    "bardo": ["Pre", "Agi", "Des", "Vig", "Int", "Pro"],
+}
+# Focos que lutam de outro jeito que a classe (o arqueiro não é um guerreiro de Força).
+RESERVA_DO_FOCO = {
+    ("guerreiro", "arqueiro"): ["Des", "Vig", "Agi", "Pro", "For", "Lut"],
+    ("guerreiro", "cavaleiro_arcano"): ["Int", "Vig", "For", "Lut", "Agi", "Pro"],
+    ("ladino", "trapaceiro_arcano"): ["Int", "Agi", "Des", "Pro", "Pre"],
+    ("mago", "lamina_cantante"): ["Int", "Agi", "Lut", "Vig", "Pro", "Des"],
+    ("mago", "encantamento"): ["Int", "Pre", "Vig", "Agi", "Pro", "Des"],
+    ("bruxo", "lamina"): ["Pre", "Lut", "Vig", "For", "Agi", "Pro"],
+    ("clerigo", "guerra"): ["Pro", "For", "Lut", "Vig", "Pre", "Agi"],
+    ("bardo", "bravura"): ["Pre", "Lut", "Agi", "Vig", "Des", "Pro"],
+    ("bardo", "espadas"): ["Pre", "Agi", "Lut", "Des", "Vig", "Pro"],
+    ("patrulheiro", "andarilho_feerico"): ["Des", "Pre", "Pro", "Agi", "Vig"],
+}
+# Focos que trocam a habilidade principal da classe por outra (o arqueiro mira com Destreza, não bate com Força).
+TROCA_DE_HABILIDADE_DO_FOCO = {("guerreiro", "arqueiro"): ("habilidade:For", "habilidade:Des")}
+for _classe in CLASSES:
+    _classe.setdefault("habilidades_de_reserva", RESERVA_DA_CLASSE[_classe["id"]])
+    for _foco in _classe["focos"]:
+        chave = (_classe["id"], _foco["id"])
+        if chave in RESERVA_DO_FOCO:
+            _foco.setdefault("substitui", {})["habilidades_de_reserva"] = RESERVA_DO_FOCO[chave]
+        if chave in TROCA_DE_HABILIDADE_DO_FOCO:
+            velha, nova = TROCA_DE_HABILIDADE_DO_FOCO[chave]
+            _foco.setdefault("substitui", {})["prioridades"] = list(dict.fromkeys(
+                nova if x == velha else x for x in _classe["prioridades"]))
 
 
 def raca(id_, nome, descricao, nomes="humano", habilidades=None, vantagens=None, pericias=None, poderes=()):

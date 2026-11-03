@@ -629,13 +629,35 @@ def teto_de_pericia_fora_da_classe(np):
     return max(2, np // 2)
 
 
+def teto_de_habilidade_de_reserva(np):
+    """Graduações máximas de uma habilidade que só recebe a sobra do orçamento (fora das prioridades da classe)."""
+    return max(2, (np + 1) // 2)
+
+
+def _pericias_de_ataque_que_usa(dados, ficha):
+    """Todas as perícias de ataque das armas e dos poderes que o personagem tem."""
+    ataques = [p.get("ataque") for p in ficha["poderes"].values()]
+    ataques += [dados["equipamentos"][i].get("ataque") for i in ficha["equipamento"]]
+    return {a["pericia"] for a in ataques if a and a.get("pericia")}
+
+
+def _sem_ataques_que_nao_usa(prioridades, usadas):
+    """Tira as perícias de ataque de armas que o personagem não carrega: um bárbaro que sorteou um malho não
+    treina Machados (os pontos iriam para uma perícia sem uso e o malho ficaria com +0 de ataque)."""
+    if not usadas:
+        return prioridades
+    return [p for p in prioridades if not (p["tipo"] == "pericia" and p["nome"].startswith("Combate")
+                                           and p["nome"] not in usadas)]
+
+
 def _passos(dados, arquetipo, foco, vantagens_extras, so_vantagens_escolhidas, vantagens, ficha=None, np=6):
     reserva = dados["configuracoes"].get("pericias_de_reserva", PERICIAS_DE_RESERVA)
     teto = teto_de_pericia_fora_da_classe(np)
-    passos = [escalar.ler_passo(p) for p in foco.get("prioridades", [])]
+    usadas = _pericias_de_ataque_que_usa(dados, ficha) if ficha else set()
+    passos = _sem_ataques_que_nao_usa([escalar.ler_passo(p) for p in foco.get("prioridades", [])], usadas)
     # As perícias de ataque vêm logo depois do foco.
     passos += [{"tipo": "pericia", "nome": p} for p in (_pericias_das_armas(dados, ficha) if ficha else [])][:2]
-    passos += [escalar.ler_passo(p) for p in arquetipo["prioridades"]]
+    passos += _sem_ataques_que_nao_usa([escalar.ler_passo(p) for p in arquetipo["prioridades"]], usadas)
     da_classe = {p["nome"] for p in passos if p["tipo"] == "pericia"}
 
     def com_teto(passo):
@@ -646,8 +668,10 @@ def _passos(dados, arquetipo, foco, vantagens_extras, so_vantagens_escolhidas, v
     passos += [com_teto(escalar.ler_passo(p)) for p in dados["configuracoes"].get("prioridades_gerais", [])]
     passos += [{"tipo": "vantagem", "nome": v} for v in vantagens_extras]
     # A sobra vai primeiro para as habilidades (como nos arquétipos do livro), e só depois para perícias.
-    # O arquétipo pode trocar a lista (ex.: o bruxo caçador de monstros não põe sobra em Presença).
-    passos += [{"tipo": "habilidade", "nome": h}
+    # O arquétipo pode trocar a lista (ex.: o bruxo caçador de monstros não põe sobra em Presença). As que não estão
+    # nas prioridades param no teto da reserva (as das prioridades já entraram antes, sem teto).
+    principais = [p["nome"] for p in passos if p["tipo"] == "habilidade"]
+    passos += [{"tipo": "habilidade", "nome": h, "teto": teto_de_habilidade_de_reserva(np), "abaixo_de": principais}
                for h in arquetipo.get("habilidades_de_reserva", HABILIDADES_DE_RESERVA)]
     passos += [com_teto({"tipo": "pericia", "nome": p}) for p in reserva]
     if so_vantagens_escolhidas:

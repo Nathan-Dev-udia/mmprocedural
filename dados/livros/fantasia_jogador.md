@@ -497,20 +497,22 @@ Duas subclasses vão além:
 
 ### 8.2 As 12 classes
 
-| Classe | Conceito | Vantagens essenciais | Magias e dons essenciais | Subclasses |
-|----|----|----|----|----|
-| **Guerreiro** | Mestre das armas e da armadura, na linha de frente. | Ataque Poderoso, Iniciativa Aprimorada, Rolamento Defensivo | Retomar o fôlego | Campeão, Mestre de batalha, Cavaleiro arcano, Cavaleiro, Arqueiro de elite, Gladiador |
-| **Bárbaro** | Guerreiro selvagem movido pela fúria. | Ataque Poderoso, Destemido, Duro de Matar | Fúria | Caminho do furioso, Guerreiro totêmico, Selvagem das montanhas, Guardião ancestral, Coração de fera |
-| **Ladino** | Furtividade, armadilhas e golpes pelas costas. | Finta Ágil, Evasão, Ferramentas Aprimoradas | — | Ladrão, Assassino, Trapaceiro arcano, Espadachim, Mestre da intriga |
-| **Mago** | Estudioso da magia arcana, com grimório. | Ritualista, Esforço Extraordinário | Raio de fogo, Armadura arcana | Evocação, Ilusão, Abjuração, Necromancia, Adivinhação, Encantamento, Transmutação, Mago rúnico, Lâmina cantante |
-| **Feiticeiro** | Magia no sangue, conjurada por instinto. | Esforço Extraordinário, Destemido | Raio de fogo | Linhagem dracônica, Magia selvagem, Alma da tempestade, Linhagem sombria, Mente aberrante |
-| **Bruxo** | Fez um pacto com um ser poderoso. | Esforço Extraordinário, Assustar | Rajada mística | Corruptor, Arquifada, Grande Antigo, Caçador de monstros, Pacto da lâmina, Celestial |
-| **Clérigo** | Sacerdote guerreiro do seu deus. | Inspirar, Ritualista | Chama sagrada, Curar ferimentos | Vida, Guerra, Luz, Tempestade, Trapaça, Morte, Conhecimento |
-| **Paladino** | Cavaleiro sagrado ligado a um juramento. | Destemido, Interpor-se | Cura pelas mãos, Aura de coragem | Devoção, Anciões, Vingança, Coroa, Conquista |
-| **Patrulheiro** | Caçador e batedor das terras selvagens. | Rastrear, Inimigo Favorito | Passo sem rastro | Caçador, Mestre das feras, Batedor da fronteira, Perseguidor sombrio, Andarilho feérico |
-| **Druida** | Guardião da natureza. | Empatia com Animais, Ritualista | Chamar relâmpago, Bálsamo da natureza | Terra, Lua, Pastor, Fogo selvagem, Esporos, Estrelas |
-| **Monge** | Artista marcial que domina o ki. | Evasão, Iniciativa Aprimorada | Artes marciais, Golpe atordoante | Mão Aberta, Sombra, Quatro Elementos, Mestre Bêbado, Alma Solar |
-| **Bardo** | Músico cuja magia vem da música. | Inspirar, Fascinar | Zombaria cruel, Palavra de cura | Conhecimento, Bravura, Glamour, Espadas, Sussurros |
+| Classe | Conceito | Habilidades principais | Vantagens essenciais | Magias e dons essenciais | Subclasses |
+|----|----|----|----|----|----|
+| **Guerreiro** | Mestre das armas e da armadura, na linha de frente. | Luta, Vigor e Força | Ataque Poderoso, Iniciativa Aprimorada, Rolamento Defensivo | Retomar o fôlego | Campeão, Mestre de batalha, Cavaleiro arcano, Cavaleiro, Arqueiro de elite, Gladiador |
+| **Bárbaro** | Guerreiro selvagem movido pela fúria. | Força, Vigor e Luta | Ataque Poderoso, Destemido, Duro de Matar | Fúria | Caminho do furioso, Guerreiro totêmico, Selvagem das montanhas, Guardião ancestral, Coração de fera |
+| **Ladino** | Furtividade, armadilhas e golpes pelas costas. | Agilidade e Destreza | Finta Ágil, Evasão, Ferramentas Aprimoradas | — | Ladrão, Assassino, Trapaceiro arcano, Espadachim, Mestre da intriga |
+| **Mago** | Estudioso da magia arcana, com grimório. | Intelecto e Destreza | Ritualista, Esforço Extraordinário | Raio de fogo, Armadura arcana | Evocação, Ilusão, Abjuração, Necromancia, Adivinhação, Encantamento, Transmutação, Mago rúnico, Lâmina cantante |
+| **Feiticeiro** | Magia no sangue, conjurada por instinto. | Presença e Destreza | Esforço Extraordinário, Destemido | Raio de fogo | Linhagem dracônica, Magia selvagem, Alma da tempestade, Linhagem sombria, Mente aberrante |
+| **Bruxo** | Fez um pacto com um ser poderoso. | Presença e Destreza | Esforço Extraordinário, Assustar | Rajada mística | Corruptor, Arquifada, Grande Antigo, Caçador de monstros, Pacto da lâmina, Celestial |
+| **Clérigo** | Sacerdote guerreiro do seu deus. | Prontidão e Vigor | Inspirar, Ritualista | Chama sagrada, Curar ferimentos | Vida, Guerra, Luz, Tempestade, Trapaça, Morte, Conhecimento |
+| **Paladino** | Cavaleiro sagrado ligado a um juramento. | Luta e Força | Destemido, Interpor-se | Cura pelas mãos, Aura de coragem | Devoção, Anciões, Vingança, Coroa, Conquista |
+| **Patrulheiro** | Caçador e batedor das terras selvagens. | Destreza, Prontidão e Agilidade | Rastrear, Inimigo Favorito | Passo sem rastro | Caçador, Mestre das feras, Batedor da fronteira, Perseguidor sombrio, Andarilho feérico |
+| **Druida** | Guardião da natureza. | Prontidão e Vigor | Empatia com Animais, Ritualista | Chamar relâmpago, Bálsamo da natureza | Terra, Lua, Pastor, Fogo selvagem, Esporos, Estrelas |
+| **Monge** | Artista marcial que domina o ki. | Agilidade e Luta | Evasão, Iniciativa Aprimorada | Artes marciais, Golpe atordoante | Mão Aberta, Sombra, Quatro Elementos, Mestre Bêbado, Alma Solar |
+| **Bardo** | Músico cuja magia vem da música. | Presença e Destreza | Inspirar, Fascinar | Zombaria cruel, Palavra de cura | Conhecimento, Bravura, Glamour, Espadas, Sussurros |
+
+**Habilidades principais** são as que o gerador sobe primeiro. Quando elas batem nos limites do NP, a sobra vai para as habilidades secundárias da classe (o Apêndice diz quais), que nunca passam da principal mais alta: um bárbaro gerado não sai com mais Presença que Força, nem com Intelecto alto. A Destreza dos conjuradores é a mira das magias de ataque (Combate à Distância: Magia). Algumas subclasses trocam a habilidade principal: o Arqueiro de elite usa Destreza no lugar da Força.
 
 São **69 subclasses** ao todo. O conceito de cada uma, as vantagens, as magias e os itens estão no **Apêndice**.
 

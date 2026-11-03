@@ -155,8 +155,26 @@ def test_planilha_nao_disponivel_retorna_404():
     assert resposta.status_code == 404
 
 
+def test_livro_das_classes_explica_todas_as_classes_e_subclasses():
+    dados = data_loader.carregar_genero("fantasia")
+    texto = livros.caminho_do_texto("fantasia", "classes").read_text(encoding="utf-8")
+    marcadores = [m.group(1) + ":" + m.group(2) for m in livros._MARCADOR.finditer(texto)]
+    # Uma subclasse nova no gerador precisa do texto dela aqui (e de um marcador para o bloco "Na ficha").
+    assert sorted(marcadores) == sorted(livros.marcadores_esperados(dados))
+
+    expandido = livros.expandir_marcadores(texto, dados)
+    assert "{{" not in expandido
+    assert "- **Magias e dons:** Falar com animais (Compreender 2 (animais))." in expandido
+    assert "- **Habilidades:** Destreza, Luta e Vigor" in expandido   # o arqueiro troca a Força pela Destreza
+
+    resposta = app.app.test_client().get("/livros/fantasia/classes.docx")
+    assert resposta.status_code == 200
+    documento = _texto(resposta.data)
+    assert "Livro das Classes e Subclasses" in documento and "Guerreiro totêmico" in documento
+
+
 def test_faroeste_e_fantasia_tem_os_dois_livros():
-    assert livros.livros_disponiveis("fantasia") == ["jogador", "mestre"]
+    assert livros.livros_disponiveis("fantasia") == ["jogador", "mestre", "classes"]
     assert livros.livros_disponiveis("faroeste") == ["jogador", "mestre"]
     assert livros.livros_disponiveis("cyberpunk") == ["jogador", "mestre"]
 

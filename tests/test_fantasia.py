@@ -412,3 +412,33 @@ def test_dinheiro_da_fantasia_em_pecas_de_ouro_prata_e_cobre():
     assert [formatter.dolares(v, "po") for v in (79.2, 79.25, 1500, 0.5, 0.04, 0, -2.3)] == \
         ["79 po e 2 pp", "79 po, 2 pp e 5 pc", "1.500 po", "5 pp", "4 pc", "0 po", "–2 po e 3 pp"]
     assert formatter.dolares(79.2, "$") == "$79,20"
+
+
+def _media_das_habilidades(fantasia, arquetipo, foco, np, vezes=12):
+    racas = list(fantasia["jogador"]["racas"])
+    somas = {}
+    for semente in range(vezes):
+        pj = gerar_pj(fantasia, arquetipo, np, foco, semente=semente, raca=racas[semente % len(racas)])
+        for habilidade, valor in pj["ficha"]["habilidades"].items():
+            somas[habilidade] = somas.get(habilidade, 0) + valor / vezes
+    return somas
+
+
+@pytest.mark.parametrize("np", [5, 8])
+def test_habilidades_combinam_com_a_classe(fantasia, np):
+    # A sobra do orçamento não cai nas habilidades que a classe despreza (o Intelecto do bárbaro).
+    barbaro = _media_das_habilidades(fantasia, "barbaro", "totemico", np)
+    assert barbaro["For"] > barbaro["Pre"] > barbaro["Int"] and barbaro["Int"] < 1
+    arqueiro = _media_das_habilidades(fantasia, "guerreiro", "arqueiro", np)
+    assert arqueiro["Des"] > arqueiro["For"]
+    paladino = _media_das_habilidades(fantasia, "paladino", "devocao", np)
+    assert paladino["For"] > paladino["Pre"]
+    cavaleiro_arcano = _media_das_habilidades(fantasia, "guerreiro", "cavaleiro_arcano", np)
+    assert cavaleiro_arcano["For"] > cavaleiro_arcano["Int"]
+
+
+def test_barbaro_treina_a_pericia_da_arma_que_carrega(fantasia):
+    for semente in range(10):
+        pj = gerar_pj(fantasia, "barbaro", 5, "totemico", semente=semente)
+        principal = next(a for a in pj["validacao"]["valores"]["ataques"] if a["nome"] != "Desarmado")
+        assert principal["bonus"] >= 2, (principal["nome"], principal["bonus"], principal["dano"])
