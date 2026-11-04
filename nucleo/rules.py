@@ -93,6 +93,8 @@ HABILIDADE_MAXIMA_HUMANA = 7
 TAMANHOS = {
     "pequeno": {"nome": "Pequeno", "graduacao": -3, "custo_racial": 3, "habilidades": {"For": -1},
                 "defesas": {"Esquiva": 2, "Aparar": 2}, "pericias": {"Furtividade": 4, "Intimidação": -2}},
+    "grande": {"nome": "Grande", "graduacao": -1, "custo_racial": 3, "habilidades": {"For": 2, "Vig": 2},
+               "defesas": {"Esquiva": -2, "Aparar": -2}, "pericias": {"Furtividade": -4, "Intimidação": 2}},
 }
 
 # Sorte: no máximo graduações iguais à metade do NP (livro básico, vantagem Sorte).

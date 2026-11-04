@@ -195,6 +195,40 @@
         "visao_escuro",
         "legado_infernal"
       ]
+    },
+    {
+      "id": "golias",
+      "nome": "Golias",
+      "descricao": "Descendentes dos gigantes das montanhas, altos, fortes e resistentes como pedra.",
+      "nomes": "humano",
+      "habilidades": {
+        "Vig": 1
+      },
+      "vantagens": {
+        "Tolerância Maior": 1
+      },
+      "pericias": {
+        "Atletismo": 2
+      },
+      "poderes": [],
+      "tamanho": "grande"
+    },
+    {
+      "id": "minotauro",
+      "nome": "Minotauro",
+      "descricao": "Guerreiros robustos de porte imponente com cabeça de touro e chifres ameaçadores.",
+      "nomes": "monstro",
+      "habilidades": {
+        "For": 1
+      },
+      "vantagens": {
+        "Ataque Poderoso": 1
+      },
+      "pericias": {
+        "Intimidação": 2
+      },
+      "poderes": [],
+      "tamanho": "grande"
     }
   ],
   "arquetipos": [

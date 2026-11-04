@@ -462,6 +462,8 @@ Cada raça traz ajustes de habilidade, às vezes vantagens e perícias, e alguns
 | **Meio-elfo** | Entre dois mundos, à vontade em ambos. | Presença +1, Persuasão 2, Visão no escuro, Ancestralidade feérica. | 7 PP |
 | **Meio-orc** | Forte e difícil de derrubar. | Força +1, Duro de Matar, Intimidação 2, Visão no escuro. | 6 PP |
 | **Tiefling** | Sangue infernal, chifres e chamas nos dedos. | Presença +1, Visão no escuro, Legado infernal. | 8 PP |
+| **Golias** | Gigante das montanhas, forte e resistente como pedra. | Vigor +1, Tolerância Maior, Atletismo 2, tamanho Grande. | 7 PP |
+| **Minotauro** | Combatente taurino imponente, brutal e intimidador. | Força +1, Ataque Poderoso, Intimidação 2, tamanho Grande. | 7 PP |
 
 **Alguns dons raciais, explicados:**
 
@@ -470,6 +472,7 @@ Cada raça traz ajustes de habilidade, às vezes vantagens e perícias, e alguns
 - **Resiliência anã** (Imunidade a venenos e doenças pela metade, 1 PP).
 - **Sopro dracônico** (Dano em cone de fogo): a graduação acompanha o NP (NP – 2, mínimo 1). Por isso o draconato custa mais quanto maior o NP: 6 PP no NP 2, 10 PP no NP 5, 16 PP no NP 8 e 20 PP no NP 10.
 - **Tamanho Pequeno** (halfling e gnomo) [Casa]: Furtividade +4, Intimidação –2, Esquiva e Aparar +2 e Força –1, por **3 PP**: o saldo dos traços pelos preços do livro, em vez dos 9 PP do Encolhimento 4 Inato. A Furtividade e a Intimidação mudam por circunstância e não contam no limite de perícia; a Esquiva e o Aparar contam no limite do NP. A tabela completa de tamanhos está no Livro das Classes e Subclasses.
+- **Tamanho Grande** (golias e minotauro) [Casa]: Força +2, Vigor +2, Esquiva e Aparar –2, Furtividade –4 e Intimidação +2, por **3 PP**: o saldo líquido dos traços pelos preços do livro (Força +2 e Vigor +2 valem 8 PP; Esquiva e Aparar –2 devolvem 4 PP, Furtividade –4 devolve 2 PP e Intimidação +2 custa 1 PP: 8 – 4 – 2 + 1 = 3 PP), em vez dos 9 PP do Crescimento 4 Inato. A Furtividade e a Intimidação mudam por circunstância e não contam no limite de perícia; as habilidades e defesas contam nos limites do NP.
 - **Legado infernal** (Dano 2 à distância, fogo): o tiefling ataca com a perícia **Combate à Distância: Magia**, a mesma dos conjuradores.
 
 A lista completa dos traços e o custo de cada raça em cada NP estão no **Apêndice**.

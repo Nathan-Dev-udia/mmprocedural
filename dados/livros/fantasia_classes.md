@@ -4,6 +4,40 @@
 
 ---
 
+## Sumário
+
+- **Regras e Ambientação**
+  - Como ler este livro
+  - Tamanho e Categorias de Criaturas
+- **Raças de Fantasia Medieval**
+  - O Papel das Raças em Mutantes & Malfeitores
+  - Humano
+  - Anão
+  - Elfo
+  - Halfling
+  - Draconato
+  - Gnomo
+  - Meio-elfo
+  - Meio-orc
+  - Tiefling
+  - Golias
+  - Minotauro
+- **Classes e Subclasses**
+  - **Guerreiro**: Campeão, Mestre de batalha, Cavaleiro arcano, Cavaleiro, Arqueiro de elite, Gladiador
+  - **Bárbaro**: Caminho do furioso, Guerreiro totêmico, Selvagem das montanhas, Guardião ancestral, Coração de fera
+  - **Ladino**: Ladrão, Assassino, Trapaceiro arcano, Espadachim, Mestre da intriga
+  - **Mago**: Escola de Evocação, Escola de Ilusão, Escola de Abjuração, Escola de Necromancia, Escola de Adivinhação, Escola de Encantamento, Escola de Transmutação, Mago rúnico, Lâmina cantante
+  - **Feiticeiro**: Linhagem dracônica, Magia selvagem, Alma da tempestade, Linhagem sombria, Mente aberrante
+  - **Bruxo**: Pacto com o Corruptor, Pacto com a Arquifada, Pacto com o Grande Antigo, Caçador de monstros (Escolas: Lobo, Gato, Grifo, Víbora, Urso, Manticora, Lince, Garça), Pacto da lâmina, Pacto com o Celestial
+  - **Clérigo**: Domínio da Vida, Domínio da Guerra, Domínio da Luz, Domínio da Tempestade, Domínio da Trapaça, Domínio da Morte, Domínio do Conhecimento
+  - **Paladino**: Juramento de Devoção, Juramento dos Anciões, Juramento de Vingança, Juramento da Coroa, Juramento de Conquista
+  - **Patrulheiro**: Caçador, Mestre das feras, Batedor da fronteira, Perseguidor sombrio, Andarilho feérico
+  - **Druida**: Círculo da Terra, Círculo da Lua, Círculo do Pastor, Círculo do Fogo selvagem, Círculo dos Esporos, Círculo das Estrelas
+  - **Monge**: Caminho da Mão Aberta, Caminho da Sombra, Caminho dos Quatro Elementos, Caminho do Mestre Bêbado, Caminho da Alma Solar
+  - **Bardo**: Colégio do Conhecimento, Colégio da Bravura, Colégio do Glamour, Colégio das Espadas, Colégio dos Sussurros
+
+---
+
 ## Como ler este livro
 
 O Livro do Jogador explica as regras e mostra as classes numa tabela. Este livro mostra **como cada classe e cada subclasse joga**: o que ela faz bem, o que ela deixa de lado e quando vale escolher uma em vez de outra.
@@ -33,7 +67,7 @@ Em M&M, o tamanho de uma criatura vem dos efeitos **Encolhimento** e **Crescimen
 | **Miúdo** (–4, ~50 cm) | Fada, gato, pseudodragão | Encolhimento 8 · 17 PP | +8 | –4 | +4 | Força –2 | –1 |
 | **Pequeno** (–3, ~1 m) | Halfling, gnomo, goblin | Encolhimento 4 · 9 PP | +4 | –2 | +2 | Força –1 | — |
 | **Médio** (–2, ~2 m) | Humano, elfo, anão, orc | — | — | — | — | — | — |
-| **Grande** (–1, ~4 m) | Ogro, cavalo, urso-coruja | Crescimento 4 · 9 PP | –4 | +2 | –2 | +4 | — |
+| **Grande** (–1, ~4 m) | Golias, minotauro, ogro, cavalo, urso-coruja | Crescimento 4 — 9 PP | –4 | +2 | –2 | +4 (For +2, Vig +2) | — |
 | **Enorme** (0, ~8 m) | Gigante das colinas, ent | Crescimento 8 · 17 PP | –8 | +4 | –4 | +8 | +1 |
 | **Imenso** (1, ~15 m) | Dragão ancião, kraken | Crescimento 12 · 25 PP | –12 | +6 | –6 | +12 | +1 |
 
@@ -50,7 +84,120 @@ O número entre parênteses é a **graduação de tamanho**.
 - **Esquiva e Aparar:** o +2 entra no limite do NP. Por isso o gerador compra um pouco menos de defesa para chegar ao mesmo teto.
 - **Furtividade e Intimidação:** mudam por circunstância e não contam no limite de perícia. O halfling pode chegar ao teto de Furtividade com treino e ainda somar o +4.
 
+**Raças Grandes [Casa]:** raças jogáveis colossais, como o **golias** e o **minotauro**, são de tamanho **Grande** (graduação de tamanho –1): Força +2, Vigor +2, Esquiva e Aparar –2, Furtividade –4 e Intimidação +2. Nas raças de jogadores, o tamanho custa **3 PP** (o saldo líquido dos traços pelos preços de M&M: +8 PP por Força +2 e Vigor +2; –4 PP por Esquiva e Aparar –2; –2 PP por Furtividade –4; +1 PP por Intimidação +2 = 3 PP), em vez dos 9 PP do Crescimento 4 Inato. Essa equivalência mantém o orçamento no NP 5 perfeitamente equilibrado com as raças Pequenas (que também custam 3 PP de saldo líquido):
+
+- **Força e Vigor:** os bônus entram na ficha e no cálculo das defesas e dano natural, respeitando os tetos do NP.
+- **Esquiva e Aparar:** a penalidade de –2 exige compensação com treino ou armadura para atingir os limites defensivos.
+- **Furtividade e Intimidação:** contam como circunstância e não limitam o teto de perícia: um minotauro assusta pelo simples porte, mas terá imensa dificuldade para se esconder nas sombras.
+
 As criaturas Pequenas e Grandes do bestiário já trazem o tamanho na ficha. Num PJ de outro tamanho (um meio-gigante, uma fada), o mestre pode usar a mesma tabela.
+
+---
+
+## Raças de Fantasia Medieval
+
+Em *Mutantes & Malfeitores*, a raça do personagem não é um bônus gratuito: ela é comprada com os próprios **Pontos de Poder (PP)** do seu orçamento de criação. Um humano gasta 0 PP com raça e tem todos os pontos livres para investir em sua classe e vantagens; já um draconato ou gnomo investe parte do seu orçamento inicial em sopro flamejante, resistência ou sentidos apurados.
+
+As raças definem a fisiologia, dons inatos e o porte físico do herói no mundo. A seguir, cada uma das raças disponíveis no gerador é detalhada com seu custo, traços e papéis recomendados.
+
+### Humano
+
+Versáteis, determinados e adaptáveis, os humanos são a raça mais numerosa e diversa das terras conhecidas. Sem dons mágicos inatos ou fisiologia incomum, eles compensam com flexibilidade absoluta.
+
+- **Porte:** Médio (graduação –2).
+- **Custo:** 0 PP.
+- **Traços:** Nenhum poder ou ajuste fixo; 100% dos PP ficam livres.
+- **Ideal para:** Qualquer classe. Excelente para quem deseja maximizar perícias, vantagens marciais ou tradições mágicas desde o NP inicial.
+
+### Anão
+
+Habitantes das fortalezas subterrâneas e mestres da forja e da cantaria, os anões são renomados por sua solidez, teimosia e resistência inabalável.
+
+- **Porte:** Médio (graduação –2).
+- **Custo:** 5 PP no NP 5.
+- **Traços:** Vigor +1 (2 PP), Visão no Escuro (Sentidos 2, 2 PP), Resiliência Anã (Imunidade a venenos e doenças limitada à metade, 1 PP).
+- **Ideal para:** Guerreiros, bárbaros, clérigos e paladinos da linha de frente que precisam absorver dano e explorar masmorras escuras sem depender de tochas.
+
+### Elfo
+
+Graciosos, longevos e profundamente conectados à magia e à natureza feérica, os elfos possuem percepção aguçada e agilidade sem igual.
+
+- **Porte:** Médio (graduação –2).
+- **Custo:** 8 PP no NP 5.
+- **Traços:** Agilidade +1 (2 PP), Percepção 2 (1 PP), Visão no Escuro (Sentidos 2, 2 PP), Sentidos Aguçados (Sentidos 1: Audição Estendida, 1 PP), Ancestralidade Feérica (Vontade +2 contra efeitos mentais, 2 PP).
+- **Ideal para:** Ladinos, patrulheiros, magos, lâminas cantantes e monges. Dificilmente são pegos de surpresa e resistem a feitiços mentais com naturalidade.
+
+### Halfling
+
+Pequeninos, discretos e incrivelmente afortunados, os halflings evitam problemas sempre que podem — mas quando o perigo os encontra, demonstram uma bravura e esquiva surpreendentes.
+
+- **Porte:** Pequeno (graduação –3).
+- **Custo:** 6 PP no NP 5.
+- **Traços:** Agilidade +1 (2 PP), Sorte 1 (1 PP), Tamanho Pequeno (3 PP: Esquiva +2, Aparar +2, Furtividade +4, Força –1, Intimidação –2).
+- **Ideal para:** Ladinos (especialmente ladrões e trapaceiros), bardos e arqueiros de elite. Sua defesa natural e bônus de furtividade os tornam alvos quase impossíveis de atingir à distância.
+
+### Draconato
+
+Portando o orgulho e o sangue dos dragões ancestrais, os draconatos possuem escamas brilhantes, presença régia e a capacidade de expelir um cone devorador de chamas.
+
+- **Porte:** Médio (graduação –2).
+- **Custo:** 10 PP no NP 5 (o custo varia com o NP pelo Sopro Dracônico: graduação NP – 2).
+- **Traços:** Força +1 (2 PP), Presença +1 (2 PP), Sopro Dracônico (Dano em Área Cone de fogo, 6 PP no NP 5).
+- **Ideal para:** Paladinos, clérigos da guerra, guerreiros e feiticeiros da linhagem dracônica. O sopro em área oferece um ataque limpa-campo devastador contra bandos de capangas.
+
+### Gnomo
+
+Curiosos, inventivos e repletos de entusiasmo pelas ciências e pela ilusão mágica, os gnomos sobrevivem em um mundo de gigantes graças à esperteza e raciocínio afiado.
+
+- **Porte:** Pequeno (graduação –3).
+- **Custo:** 9 PP no NP 5.
+- **Traços:** Intelecto +1 (2 PP), Visão no Escuro (Sentidos 2, 2 PP), Esperteza Gnômica (Vontade +2 contra efeitos mentais, 2 PP), Tamanho Pequeno (3 PP: Esquiva +2, Aparar +2, Furtividade +4, Força –1, Intimidação –2).
+- **Ideal para:** Magos, alquimistas, artífices e ilusionistas. A combinação de Intelecto elevado com defesas ativas naturais do tamanho Pequeno gera conjuradores difíceis de derrubar.
+
+### Meio-elfo
+
+Nascidos na encruzilhada entre a graça élfica e a ambição humana, os meio-elfos combinam charme natural, diplomacia e resistência feérica.
+
+- **Porte:** Médio (graduação –2).
+- **Custo:** 7 PP no NP 5.
+- **Traços:** Presença +1 (2 PP), Persuasão 2 (1 PP), Visão no Escuro (Sentidos 2, 2 PP), Ancestralidade Feérica (Vontade +2 contra efeitos mentais, 2 PP).
+- **Ideal para:** Bardos, bruxos, paladinos e feiticeiros. Sua Presença elevada e bônus de persuasão facilitam tanto os testes sociais quanto a CD de magias baseadas em carisma.
+
+### Meio-orc
+
+Fortes, impetuosos e dotados de uma resiliência lendária, os meio-orcs canalizam sua herança orca em tenacidade marcial absoluta nas batalhas.
+
+- **Porte:** Médio (graduação –2).
+- **Custo:** 6 PP no NP 5.
+- **Traços:** Força +1 (2 PP), Duro de Matar (1 PP), Intimidação 2 (1 PP), Visão no Escuro (Sentidos 2, 2 PP).
+- **Ideal para:** Bárbaros e guerreiros. A vantagem Duro de Matar impede que caiam inconscientes no primeiro golpe incapacitante, tornando-os combatentes implacáveis.
+
+### Tiefling
+
+Marcados pelo toque de linhagens infernais, os tieflings exibem chifres, olhos sem pupilas e cauda, além de dominarem uma centelha de fogo místico primordial.
+
+- **Porte:** Médio (graduação –2).
+- **Custo:** 8 PP no NP 5.
+- **Traços:** Presença +1 (2 PP), Visão no Escuro (Sentidos 2, 2 PP), Legado Infernal (Dano 2 à distância, fogo; 4 PP).
+- **Ideal para:** Bruxos, feiticeiros e bardos. O ataque inato de fogo garante uma opção confiável de combate à distância mesmo quando desarmados.
+
+### Golias
+
+Descendentes dos gigantes das montanhas mais gélidas, os golias têm a pele cinzenta mosqueada como granito e uma compleição titânica. São nobres caçadores e guardiões de picos inóspitos, cuja força bruta e resistência corporal desafiam as tempestades de gelo.
+
+- **Porte:** Grande (graduação –1).
+- **Custo:** 7 PP no NP 5.
+- **Traços:** Vigor +1 (2 PP), Tolerância Maior (+5 em testes de tolerância contra fadiga, frio e privação; 1 PP), Atletismo 2 (1 PP), Tamanho Grande (3 PP: Força +2, Vigor +2, Esquiva –2, Aparar –2, Furtividade –4, Intimidação +2).
+- **Ideal para:** Bárbaros das montanhas, guerreiros campeões, guardiões ancestrais e monges gigantes. O porte Grande eleva o dano corpo a corpo e a capacidade de carga às alturas, enquanto sua tolerância sobrevive a ambientes extremos.
+
+### Minotauro
+
+Guerreiros taurinos imponentes com corpo musculoso e cabeça de touro, os minotauros são lendas vivas dos labirintos e campos de glória militar. Combinam fúria controlada, investidas destruidoras e uma presença ameaçadora que quebra a moral inimiga.
+
+- **Porte:** Grande (graduação –1).
+- **Custo:** 7 PP no NP 5.
+- **Traços:** Força +1 (2 PP), Ataque Poderoso (vantagem que permite trocar precisão por dano massivo; 1 PP), Intimidação 2 (1 PP), Tamanho Grande (3 PP: Força +2, Vigor +2, Esquiva –2, Aparar –2, Furtividade –4, Intimidação +2).
+- **Ideal para:** Bárbaros furiosos, gladiadores e guerreiros de choque. A união de Força elevada, Ataque Poderoso e a Intimidação inerente ao porte colossal transforma o minotauro no pesadelo de qualquer formação inimiga.
 
 ---
 

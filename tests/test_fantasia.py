@@ -464,3 +464,33 @@ def test_halfling_e_pequeno_e_paga_o_saldo_do_tamanho(fantasia):
     humano = gerar_pj(fantasia, "ladino", 5, "ladrao", raca="humano")
     assert "circunstancia" not in str({k: v for k, v in humano["validacao"]["valores"]["pericias"].items()
                                        if v.get("circunstancia")})
+def test_golias_e_minotauro_sao_grandes_e_pagam_o_saldo_do_tamanho(fantasia):
+    golias = fantasia["jogador"]["racas"]["golias"]
+    minotauro = fantasia["jogador"]["racas"]["minotauro"]
+    # Golias: Vigor +1 (2 PP), Tolerância Maior (1 PP), Atletismo 2 (1 PP) e Grande (3 PP, saldo líquido: +8 For/Vig, -4 defesas, -2 Furtividade, +1 Intimidação = 3 PP)
+    assert player.custo_da_raca(fantasia, golias, 5) == 7
+    # Minotauro: Força +1 (2 PP), Ataque Poderoso (1 PP), Intimidação 2 (1 PP) e Grande (3 PP)
+    assert player.custo_da_raca(fantasia, minotauro, 5) == 7
+
+    assert "tamanho_grande" in gerar_pj(fantasia, "guerreiro", 5, "campeao", raca="golias")["ficha"]["poderes"]
+    assert "tamanho_grande" in gerar_pj(fantasia, "barbaro", 5, "furioso", raca="minotauro")["ficha"]["poderes"]
+
+    pj = gerar_pj(fantasia, "ladino", 5, "ladrao", raca="golias")
+    valores, ficha = pj["validacao"]["valores"], pj["ficha"]
+    assert pj["validacao"]["problemas"] == [] and pj["validacao"]["total_pp"] == 75
+    assert valores["habilidades"]["For"] == ficha["habilidades"]["For"] + 2
+    assert valores["habilidades"]["Vig"] == ficha["habilidades"]["Vig"] + 2
+    assert valores["defesas"]["Esquiva"] == (ficha["habilidades"]["Agi"] + ficha.get("defesas_compradas", {}).get("Esquiva", 0) - 2)
+    assert valores["defesas"]["Aparar"] == (ficha["habilidades"]["Lut"] + ficha.get("defesas_compradas", {}).get("Aparar", 0) - 2)
+    furtividade = valores["pericias"]["Furtividade"]
+    assert furtividade["circunstancia"] == -4
+    assert valores["pericias"]["Intimidação"]["circunstancia"] == 2
+    # A circunstância não conta no limite de perícia do NP.
+    limite = next(c for c in pj["validacao"]["limites"] if c["nome"] == "Perícia Furtividade")
+    assert limite["valor"] == furtividade["total"] + 4
+
+    pj_m = gerar_pj(fantasia, "barbaro", 5, "furioso", raca="minotauro")
+    assert pj_m["validacao"]["problemas"] == [] and pj_m["validacao"]["total_pp"] == 75
+    valores_m, ficha_m = pj_m["validacao"]["valores"], pj_m["ficha"]
+    assert valores_m["habilidades"]["For"] == ficha_m["habilidades"]["For"] + 2
+    assert valores_m["habilidades"]["Vig"] == ficha_m["habilidades"]["Vig"] + 2

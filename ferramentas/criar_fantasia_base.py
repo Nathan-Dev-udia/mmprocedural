@@ -1522,6 +1522,10 @@ RACAS = [
          vantagens={"Duro de Matar": 1}, pericias={"Intimidação": 2}, poderes=["visao_escuro"]),
     raca("tiefling", "Tiefling", "Têm sangue infernal: chifres, cauda e chamas na ponta dos dedos.", "humano",
          {"Pre": 1}, poderes=["visao_escuro", "legado_infernal"]),
+    raca("golias", "Golias", "Descendentes dos gigantes das montanhas, altos, fortes e resistentes como pedra.", "humano",
+         {"Vig": 1}, vantagens={"Tolerância Maior": 1}, pericias={"Atletismo": 2}, tamanho="grande"),
+    raca("minotauro", "Minotauro", "Guerreiros robustos de porte imponente com cabeça de touro e chifres ameaçadores.", "monstro",
+         {"For": 1}, vantagens={"Ataque Poderoso": 1}, pericias={"Intimidação": 2}, tamanho="grande"),
 ]
 
 gravar("player.json", {
