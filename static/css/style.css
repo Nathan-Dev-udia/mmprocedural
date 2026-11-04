@@ -842,3 +842,71 @@ a.botao { text-decoration: none; display: inline-block; }
 .viagem-proximo-dado input { border-color: var(--destaque); box-shadow: 0 0 0 2px var(--destaque); }
 .viagem-proximo-dado small[data-viagem-previa] { color: var(--destaque); font-weight: 600; }
 .viagem-dispensado { opacity: 0.45; }
+
+/* Escudo do Mestre */
+.escudo-topo { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; }
+.escudo-topo .titulo-passo { margin: 0; }
+.acoes-escudo { display: flex; gap: 8px; }
+.escudo-abas { margin-top: 12px; }
+.escudo-abas .passo-aba { padding: 6px 12px; }
+.escudo-abas .passo-aba::before { content: none; }
+.escudo-aba-titulo { display: none; }
+.escudo-blocos { columns: 2 440px; column-gap: 24px; }
+.escudo-bloco { break-inside: avoid; margin: 0 0 18px; }
+.escudo-bloco h4 { margin: 0 0 6px; color: var(--titulo); font-size: 1.02rem; }
+.escudo-tabela { overflow-x: auto; }
+.escudo-bloco table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+.escudo-bloco th {
+  text-align: left;
+  background: var(--campo-forte);
+  border-bottom: 2px solid var(--destaque);
+  padding: 4px 6px;
+  font-weight: 600;
+}
+.escudo-bloco td { padding: 3px 6px; border-bottom: 1px solid var(--borda); vertical-align: top; }
+.escudo-bloco tbody tr:nth-child(even) td { background: var(--campo); }
+.escudo-lista, .escudo-formulas { margin: 0; padding-left: 18px; font-size: 0.9rem; }
+.escudo-lista li, .escudo-formulas li { margin-bottom: 3px; }
+.escudo-formulas { list-style: none; padding-left: 0; }
+.escudo-nota { margin: 4px 0 0; font-size: 0.82rem; font-style: italic; color: var(--tinta-suave); }
+
+@media print {
+  body:has(#aba-escudo:not([hidden])) {
+    --fundo: #ffffff;
+    --papel: #ffffff;
+    --campo: #f3f8fd;
+    --campo-forte: #c7dbf1;
+    --tinta: #0f1c2b;
+    --tinta-suave: #4a5d72;
+    --borda: #b3cae2;
+    --destaque: #006fae;
+    --titulo: #0083ca;
+    background: #ffffff;
+    font-size: 8.5pt;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  body:has(#aba-escudo:not([hidden])) :is(.topo, .rodape, .abas, #mensagem, .acoes-escudo, .escudo-abas, .escudo-topo) {
+    display: none !important;
+  }
+  body:has(#aba-escudo:not([hidden])) :is(.conteudo, .painel-aba) { margin: 0; padding: 0; max-width: none; }
+  #aba-escudo .painel { border: none; box-shadow: none; padding: 0; }
+  #aba-escudo .escudo-aba { display: block !important; break-after: page; }
+  #aba-escudo .escudo-aba:last-child { break-after: auto; }
+  #aba-escudo .escudo-aba-titulo {
+    display: block;
+    margin: 0 0 6px;
+    color: var(--destaque);
+    border-bottom: 1.5px solid var(--destaque);
+    font-size: 13pt;
+  }
+  #aba-escudo .escudo-blocos { columns: 2; column-gap: 8mm; }
+  #aba-escudo .escudo-bloco { margin-bottom: 8px; }
+  #aba-escudo .escudo-bloco h4 { font-size: 9.5pt; margin-bottom: 2px; }
+  #aba-escudo .escudo-bloco table { font-size: 7.5pt; }
+  #aba-escudo .escudo-bloco th, #aba-escudo .escudo-bloco td { padding: 1px 4px; }
+  #aba-escudo :is(.escudo-lista, .escudo-formulas) { font-size: 7.8pt; }
+  #aba-escudo .escudo-nota { font-size: 7pt; }
+}
+@page escudo { size: A4 landscape; margin: 9mm; }
+#aba-escudo { page: escudo; }

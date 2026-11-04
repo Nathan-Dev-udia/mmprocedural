@@ -17,9 +17,10 @@ import zipfile
 from pathlib import Path
 
 from flask import Flask, jsonify, redirect, render_template, request, send_file
+from markupsafe import Markup, escape
 
-from nucleo import (bestiario, bestiario_docx, bestiario_pdf, data_loader, docx_export, formatter, generator, herois, herois_pdf, livros, medidas, pdf_export,
-                    planilhas, player, validator, viagem)
+from nucleo import (bestiario, bestiario_docx, bestiario_pdf, data_loader, docx_export, escudo, escudo_pdf, escudo_xlsx, formatter, generator, herois,
+                    herois_pdf, livros, medidas, pdf_export, planilhas, player, validator, viagem)
 
 app = Flask(__name__)
 PASTA_LIVROS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "dados", "livros")
@@ -45,8 +46,9 @@ def planilhas_disponiveis(genero_id):
 # 1.4 distribuição dos pontos parecida com a dos arquétipos do livro, 1.5 subclasses e tipo de NPC, 1.6 goblinoides e caçador de monstros, 1.7 livros do faroeste e da fantasia,
 # 1.8 planilhas de armas e itens, magias na ficha e livros montados mais rápido, 1.9 escolas do bruxo caçador de monstros,
 # 1.10 catálogo da fantasia ampliado com peso, massa e Velocidade, planilhas de armas, itens e poderes geradas dos
-# dados e Tabela de Medidas, 1.11 heróis conhecidos (fichas prontas da Marvel e da DC para buscar e consultar).
-VERSAO = "1.11.0"
+# dados e Tabela de Medidas, 1.11 heróis conhecidos (fichas prontas da Marvel e da DC para buscar e consultar),
+# 1.12 Escudo do Mestre da fantasia (página, impressão, PDF e planilha).
+VERSAO = "1.12.0"
 
 
 def _commit_atual():
@@ -275,7 +277,31 @@ def pagina_inicial():
     if genero_id not in DADOS_POR_GENERO:
         return render_template("index.html", opcoes=None,
                                erros=erros or [f"Gênero '{genero_id}' não encontrado."]), 500
-    return render_template("index.html", opcoes=opcoes_da_interface(DADOS_POR_GENERO[genero_id]), erros=erros)
+    return render_template("index.html", opcoes=opcoes_da_interface(DADOS_POR_GENERO[genero_id]), erros=erros,
+                           escudo=escudo.montar(genero_id, DADOS_POR_GENERO[genero_id]))
+
+
+@app.template_filter("negrito")
+def _negrito(texto):
+    """Texto do escudo com **negrito** em HTML (o resto escapado)."""
+    return Markup("".join(f"<strong>{escape(t)}</strong>" if forte else str(escape(t))
+                          for t, forte in escudo.partes_do_texto(str(texto))))
+
+
+@app.get("/escudo/<genero_id>.<formato>")
+def baixar_escudo(genero_id, formato):
+    """Escudo do Mestre em PDF (A4 deitado) ou em planilha (uma folha por aba)."""
+    if genero_id not in DADOS_POR_GENERO or formato not in ("pdf", "xlsx"):
+        return jsonify({"erro": "Escudo não encontrado."}), 404
+    montado = escudo.montar(genero_id, DADOS_POR_GENERO[genero_id])
+    if montado is None:
+        return jsonify({"erro": "Este gênero ainda não tem Escudo do Mestre."}), 404
+    if formato == "pdf":
+        conteudo, mime = escudo_pdf.gerar_pdf(montado, VERSAO), "application/pdf"
+    else:
+        conteudo, mime = escudo_xlsx.gerar_xlsx(montado), MIME_XLSX
+    return send_file(io.BytesIO(conteudo), mimetype=mime, as_attachment=True,
+                     download_name=f"escudo_do_mestre_{genero_id}.{formato}")
 
 
 @app.post("/api/gerar")

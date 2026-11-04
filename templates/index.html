@@ -15,6 +15,7 @@
     <button type="button" class="aba" role="tab" data-aba="npc">Fichas de NPC</button>
     <button type="button" class="aba" role="tab" data-aba="bestiario">Bestiário</button>
     <button type="button" class="aba" role="tab" data-aba="viagem">Rolagem de Eventos</button>
+    {% if escudo %}<button type="button" class="aba" role="tab" data-aba="escudo">Escudo do Mestre</button>{% endif %}
   </nav>
 
   <!-- ===================== Aba: ficha de jogador (passo a passo) ===================== -->
@@ -397,6 +398,54 @@
     </div>
   </section>
 
+  {% if escudo %}
+  <!-- ===================== Aba: Escudo do Mestre ===================== -->
+  <section id="aba-escudo" class="painel-aba" role="tabpanel" hidden>
+    <div class="painel escudo">
+      <div class="escudo-topo">
+        <h2 class="titulo-passo">{{ escudo.titulo }}</h2>
+        <div class="acoes-escudo">
+          <button type="button" id="escudo-imprimir" class="botao pequeno">Imprimir</button>
+          <a class="botao pequeno" href="{{ url_for('baixar_escudo', genero_id=escudo.genero, formato='xlsx') }}">Baixar planilha (.xlsx)</a>
+          <a class="botao pequeno destaque" href="{{ url_for('baixar_escudo', genero_id=escudo.genero, formato='pdf') }}">Baixar PDF</a>
+        </div>
+      </div>
+      <ol class="passos escudo-abas" role="tablist">
+        {% for aba in escudo.abas %}
+        <li><button type="button" class="passo-aba" role="tab" data-escudo="{{ aba.id }}">{{ aba.nome }}</button></li>
+        {% endfor %}
+      </ol>
+      {% for aba in escudo.abas %}
+      <section class="escudo-aba" data-escudo="{{ aba.id }}" role="tabpanel" aria-label="{{ aba.nome }}"{% if not loop.first %} hidden{% endif %}>
+        <h3 class="escudo-aba-titulo">{{ aba.nome }}</h3>
+        <div class="escudo-blocos">
+          {% for bloco in aba.blocos %}
+          <article class="escudo-bloco{% if bloco.tipo == 'tabela' and bloco.colunas|length > 4 %} largo{% endif %}">
+            {% if bloco.titulo %}<h4>{{ bloco.titulo }}</h4>{% endif %}
+            {% if bloco.tipo == 'tabela' %}
+            <div class="escudo-tabela">
+              <table>
+                <thead><tr>{% for c in bloco.colunas %}<th>{{ c | negrito }}</th>{% endfor %}</tr></thead>
+                <tbody>
+                  {% for linha in bloco.linhas %}<tr>{% for c in linha %}<td>{{ c | negrito }}</td>{% endfor %}</tr>{% endfor %}
+                </tbody>
+              </table>
+            </div>
+            {% elif bloco.tipo == 'formulas' %}
+            <ul class="escudo-formulas">{% for item in bloco.itens %}<li>{{ item | negrito }}</li>{% endfor %}</ul>
+            {% else %}
+            <ul class="escudo-lista">{% for item in bloco.itens %}<li>{{ item | negrito }}</li>{% endfor %}</ul>
+            {% endif %}
+            {% if bloco.nota %}<p class="escudo-nota">{{ bloco.nota | negrito }}</p>{% endif %}
+          </article>
+          {% endfor %}
+        </div>
+      </section>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
   <p id="mensagem" class="mensagem" role="status"></p>
 
 {% endif %}
@@ -408,5 +457,6 @@
   <script src="{{ url_for('static', filename='js/app.js') }}"></script>
   <script src="{{ url_for('static', filename='js/bestiario.js') }}"></script>
   <script src="{{ url_for('static', filename='js/viagem.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/escudo.js') }}"></script>
 {% endif %}
 {% endblock %}

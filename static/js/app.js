@@ -41,6 +41,8 @@ function opcoesDeSelect(itens, rotulo = (i) => i.nome, valor = (i) => i.id) {
 // ---------------------------------------------------------------- abas
 
 function trocarAba(nome) {
+  // Aba lembrada que não existe neste gênero (o escudo só existe na fantasia): volta para a ficha de jogador.
+  if (!document.getElementById(`aba-${nome}`)) nome = "jogador";
   document.querySelectorAll(".aba").forEach((b) => b.setAttribute("aria-selected", b.dataset.aba === nome));
   document.querySelectorAll(".painel-aba").forEach((p) => { p.hidden = p.id !== `aba-${nome}`; });
   try { localStorage.setItem("aba", nome); } catch { /* armazenamento indisponível */ }

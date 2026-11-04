@@ -1,0 +1,1270 @@
+{
+  "_fonte": "Resumo das regras do Livro do Mestre e do Livro do Jogador da fantasia (dados/livros/fantasia_*.md). Os blocos 'gerado' são calculados por nucleo/escudo.py a partir da Tabela de Medidas e do catálogo de equipamento.",
+  "genero": "fantasia",
+  "titulo": "Escudo do Mestre: Fantasia medieval",
+  "abas": [
+    {
+      "id": "testes",
+      "nome": "Testes",
+      "blocos": [
+        {
+          "tipo": "formulas",
+          "titulo": "Fórmulas",
+          "itens": [
+            "**Teste** = d20 + graduação + modificadores, contra a CD",
+            "**Rotina** = 10 + graduação (sem pressão; só com treino na perícia)",
+            "**Ataque** = d20 + bônus de ataque, contra defesa + 10 (Aparar corpo a corpo, Esquiva à distância)",
+            "**Salvamento contra efeito** = d20 + defesa, contra 10 + graduação",
+            "**Salvamento contra dano** = d20 + Resistência, contra 15 + Dano"
+          ]
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Classes de dificuldade",
+          "colunas": [
+            "CD",
+            "Dificuldade",
+            "Exemplo"
+          ],
+          "linhas": [
+            [
+              "0",
+              "Muito fácil",
+              "Perceber um dragão dormindo no meio do salão"
+            ],
+            [
+              "5",
+              "Fácil",
+              "Subir numa corda com nós"
+            ],
+            [
+              "10",
+              "Médio",
+              "Ouvir goblins se aproximando do acampamento"
+            ],
+            [
+              "15",
+              "Difícil",
+              "Desarmar a agulha envenenada de um baú"
+            ],
+            [
+              "20",
+              "Desafiador",
+              "Nadar contra a correnteza de um rio de degelo"
+            ],
+            [
+              "25",
+              "Formidável",
+              "Escalar a muralha do castelo debaixo de chuva"
+            ],
+            [
+              "30",
+              "Heroico",
+              "Convencer o capitão a abrir o portão à meia-noite sem ordem do rei"
+            ],
+            [
+              "35",
+              "Super-heroico",
+              "Seguir o rastro de um batedor élfico depois de três dias de chuva"
+            ],
+            [
+              "40",
+              "Quase impossível",
+              "—"
+            ]
+          ]
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Graus de sucesso e de falha",
+          "colunas": [
+            "Resultado",
+            "Grau"
+          ],
+          "linhas": [
+            [
+              "CD + 15 ou mais",
+              "4 graus de sucesso"
+            ],
+            [
+              "CD + 10 a + 14",
+              "3 graus de sucesso"
+            ],
+            [
+              "CD + 5 a + 9",
+              "2 graus de sucesso"
+            ],
+            [
+              "CD a CD + 4",
+              "1 grau de sucesso"
+            ],
+            [
+              "CD – 1 a – 5",
+              "1 grau de falha"
+            ],
+            [
+              "CD – 6 a – 10",
+              "2 graus de falha"
+            ],
+            [
+              "CD – 11 a – 15",
+              "3 graus de falha"
+            ],
+            [
+              "CD – 16 ou menos",
+              "4 graus de falha"
+            ]
+          ],
+          "nota": "20 natural: o resultado sobe um grau. Em ataques, 20 sempre acerta e 1 sempre erra."
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Testes opostos",
+          "colunas": [
+            "Situação",
+            "Quem age",
+            "Quem resiste"
+          ],
+          "linhas": [
+            [
+              "Esgueirar-se pelo acampamento",
+              "Furtividade",
+              "Percepção"
+            ],
+            [
+              "Mentir, blefar",
+              "Enganação",
+              "Intuição"
+            ],
+            [
+              "Disfarçar-se",
+              "Enganação",
+              "Percepção"
+            ],
+            [
+              "Bater uma carteira, esconder um objeto",
+              "Prestidigitação",
+              "Percepção"
+            ],
+            [
+              "Fintar em combate",
+              "Enganação (Acrobacia com Finta Ágil)",
+              "Enganação ou Intuição"
+            ],
+            [
+              "Desmoralizar",
+              "Intimidação",
+              "Intuição ou Vontade"
+            ],
+            [
+              "Escapar de um agarrão",
+              "Acrobacia ou Atletismo",
+              "Força (rotina) de quem agarra"
+            ],
+            [
+              "Derrubar",
+              "Acrobacia ou Atletismo",
+              "Acrobacia ou Atletismo"
+            ],
+            [
+              "Perseguição a cavalo",
+              "Especialidade: Cavalgar",
+              "Especialidade: Cavalgar"
+            ],
+            [
+              "Pechinchar",
+              "Persuasão",
+              "Persuasão ou Intuição"
+            ],
+            [
+              "Esconder o rastro do grupo",
+              "Furtividade",
+              "Percepção (com Rastrear)"
+            ],
+            [
+              "Queda de braço",
+              "Força",
+              "Força"
+            ],
+            [
+              "Disputa de saber (dois magos)",
+              "Especialidade",
+              "Especialidade"
+            ]
+          ],
+          "nota": "Os dois lados rolam e vence o maior total. Empate: vence quem tem o maior bônus."
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Modificadores e ajuda",
+          "itens": [
+            "**Circunstância:** +2 ou –2 para uma pequena vantagem ou desvantagem; +5 ou –5 para uma grande.",
+            "**Ferramentas:** sem a ferramenta certa, –5; com uma improvisada, –2.",
+            "**Teste de equipe:** os ajudantes fazem o mesmo teste contra CD 10. Um grau de sucesso dá +2 ao líder; três graus ou mais, +5; dois graus de falha, –2.",
+            "**Sucesso crítico:** um 20 natural sobe o resultado em um grau."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "combate",
+      "nome": "Combate",
+      "blocos": [
+        {
+          "tipo": "tabela",
+          "titulo": "Ações",
+          "colunas": [
+            "Ação",
+            "Tipo",
+            "Efeito"
+          ],
+          "linhas": [
+            [
+              "Agarrar",
+              "Padrão",
+              "Ataque; o alvo resiste com Força ou Esquiva. 1 grau: restrito; 2 ou mais: amarrado."
+            ],
+            [
+              "Ajudar",
+              "Padrão",
+              "Ataque contra CD 10: o aliado ganha +2 no ataque ou na defesa (+5 com três graus)."
+            ],
+            [
+              "Carga",
+              "Padrão",
+              "Move a toda velocidade em linha reta e ataca corpo a corpo com –2."
+            ],
+            [
+              "Defender-se",
+              "Padrão",
+              "Até o próximo turno, a defesa vira teste oposto; 10 ou menos no dado vale +10."
+            ],
+            [
+              "Derrubar",
+              "Padrão",
+              "Ataque corpo a corpo com –2, depois Acrobacia ou Atletismo opostos."
+            ],
+            [
+              "Desarmar",
+              "Padrão",
+              "Ataque com –2 (–5 à distância), depois dano contra a Força do alvo."
+            ],
+            [
+              "Mirar",
+              "Padrão",
+              "+5 no próximo ataque de perto, +2 de longe. Fica vulnerável enquanto mira."
+            ],
+            [
+              "Quebrar",
+              "Padrão",
+              "Ataque com –5 contra um objeto que alguém segura."
+            ],
+            [
+              "Recuperar-se",
+              "Padrão",
+              "Uma vez por conflito: remove a pior condição de dano ou fadiga (ou um salvamento extra) e +2 nas defesas ativas."
+            ],
+            [
+              "Preparar",
+              "Padrão",
+              "Define uma ação e o gatilho; age como reação."
+            ],
+            [
+              "Escapar",
+              "Movimento",
+              "Acrobacia ou Atletismo contra a Força de quem agarra."
+            ],
+            [
+              "Levantar-se",
+              "Movimento",
+              "Livre com Acrobacia CD 20 ou com a vantagem De Pé."
+            ],
+            [
+              "Comandar",
+              "Movimento",
+              "Uma ordem a um capanga, companheiro animal ou montaria."
+            ],
+            [
+              "Sacar ou guardar",
+              "Movimento",
+              "Livre com Saque Rápido."
+            ],
+            [
+              "Jogar-se no chão",
+              "Livre",
+              "Fica caído (–5 para quem atira de longe)."
+            ],
+            [
+              "Trocar de efeito no arranjo",
+              "Livre",
+              "Uma vez por turno."
+            ]
+          ]
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Manobras",
+          "colunas": [
+            "Manobra",
+            "Efeito"
+          ],
+          "linhas": [
+            [
+              "Ataque Acurado",
+              "Até –2 no efeito para +2 no ataque."
+            ],
+            [
+              "Ataque Poderoso",
+              "Até –2 no ataque para +2 no efeito."
+            ],
+            [
+              "Ataque Defensivo",
+              "Até –2 no ataque para +2 em Esquiva e Aparar."
+            ],
+            [
+              "Ataque Imprudente",
+              "Até –2 em Esquiva e Aparar para +2 no ataque."
+            ],
+            [
+              "Ataque de Equipe",
+              "Atacantes agem no mesmo ponto da iniciativa; cada acerto extra soma +2 (+5 com três graus) ao efeito principal."
+            ],
+            [
+              "Ataque Final",
+              "Contra alvo indefeso: ataque de rotina, ou rolado com todo acerto virando crítico."
+            ],
+            [
+              "Desmoralizar",
+              "Intimidação contra Intuição ou Vontade: alvo prejudicado (desabilitado com 4 graus) até o fim do próximo turno dele."
+            ],
+            [
+              "Fintar",
+              "Enganação contra Enganação ou Intuição: alvo vulnerável contra o seu próximo ataque."
+            ],
+            [
+              "Encontrão",
+              "Na carga, o dano usa a Velocidade + 1; você sofre metade do impacto."
+            ]
+          ],
+          "nota": "Com a vantagem de mesmo nome, a troca vai até 5 pontos."
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Alcance",
+          "colunas": [
+            "Alcance",
+            "Distância",
+            "Ataque"
+          ],
+          "linhas": [
+            [
+              "Curto",
+              "graduação × 7,5 m",
+              "sem penalidade"
+            ],
+            [
+              "Médio",
+              "graduação × 15 m",
+              "–2"
+            ],
+            [
+              "Longo",
+              "graduação × 30 m",
+              "–5"
+            ]
+          ],
+          "nota": "Arco longo (Dano 4): 30 m sem penalidade, 120 m no máximo."
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Camuflagem e cobertura",
+          "colunas": [
+            "Situação",
+            "Ataque",
+            "Exemplos"
+          ],
+          "linhas": [
+            [
+              "Camuflagem parcial",
+              "–2",
+              "Penumbra, tocha distante, neblina, fumaça"
+            ],
+            [
+              "Camuflagem total",
+              "–5",
+              "Escuridão sem visão no escuro, névoa mágica densa"
+            ],
+            [
+              "Cobertura parcial",
+              "–2",
+              "Ameias, pilar da cripta, mesa virada"
+            ],
+            [
+              "Cobertura total",
+              "–5",
+              "Seteira, porta entreaberta"
+            ]
+          ],
+          "nota": "A cobertura dá o mesmo valor como bônus na Esquiva contra áreas (atrás de uma parede de pedra, +5 contra a bola de fogo)."
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Iniciativa, surpresa e capangas",
+          "itens": [
+            "**Iniciativa:** d20 + Agilidade + 4 por graduação de Iniciativa Aprimorada. Empate: Esquiva, depois Agilidade, depois Prontidão.",
+            "**Surpresa:** quem é pego desprevenido fica atordoado e vulnerável na rodada de surpresa.",
+            "**Capangas:** não fazem crítico contra heróis; os heróis os atacam com testes de rotina; qualquer falha num salvamento aplica o pior grau.",
+            "**Áreas:** Esquiva contra 10 + graduação; com sucesso, metade da graduação. Melhor arma contra capangas."
+          ]
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Esforço extra",
+          "itens": [
+            "Uma vez por turno, ação livre. Escolha: **ação** padrão extra; **+2** num teste (ou +2 vira +5); **salvamento** extra contra efeito em andamento; **+1 Velocidade ou Força**; **+1 num poder** ou uma **façanha de poder**.",
+            "**Custo:** fatigado no início do próximo turno (fatigado vira exausto; exausto, incapacitado). Um ponto heroico anula a fadiga."
+          ]
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Pontos heroicos",
+          "itens": [
+            "**Melhorar a rolagem:** rerrole o d20; de 1 a 10 vale +10.",
+            "**Feito heroico:** uma graduação de vantagem (não de sorte) até o fim do próximo turno.",
+            "**Recuperar-se:** remove tonto, atordoado ou fatigado, ou converte exausto em fatigado.",
+            "**Editar a cena**, **inspiração** (uma pista) ou **repelir** um efeito como reação.",
+            "Cada jogador começa a sessão com 1 ponto. O mestre paga 1 ponto cada vez que usa uma complicação."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "condicoes",
+      "nome": "Condições e graus",
+      "blocos": [
+        {
+          "tipo": "tabela",
+          "titulo": "Aflição: condição por grau de falha",
+          "colunas": [
+            "Grau",
+            "Margem",
+            "Escolha uma condição (pelo descritor do efeito)",
+            "Exemplos"
+          ],
+          "linhas": [
+            [
+              "1º grau",
+              "CD – 1 a – 5",
+              "Tonto, Em transe, Fatigado, Impedido, Prejudicado, Vulnerável",
+              "Teia: restrito. Veneno fraco: prejudicado."
+            ],
+            [
+              "2º grau",
+              "CD – 6 a – 10",
+              "Atordoado, Compelido, Desabilitado, Exausto, Imóvel, Indefeso, Caído",
+              "Teia: amarrado. Medo de dragão: desabilitado."
+            ],
+            [
+              "3º grau",
+              "CD – 11 a – 15",
+              "Adormecido, Controlado, Desatento, Incapacitado, Paralisado, Transformado",
+              "Sono: adormecido. Enfeitiçar pessoa: controlado."
+            ],
+            [
+              "4º grau [Casa]",
+              "CD – 16 ou menos",
+              "Colapso: incapacitado com coma, toxicidade extrema ou mutação definitiva",
+              "Veneno mortal: precisa de estabilização."
+            ]
+          ],
+          "nota": "Salvamento contra 10 + graduação. No fim de cada turno, o alvo rola de novo para se livrar das condições do 1º e do 2º grau. As do 3º grau exigem um minuto ou ajuda (Tratamento ou Cura contra 10 + graduação)."
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Dano: padrão e letal",
+          "colunas": [
+            "Grau de falha",
+            "Dano padrão",
+            "Dano letal [Casa]"
+          ],
+          "linhas": [
+            [
+              "1º (CD – 1 a – 5)",
+              "–1 na Resistência (cumulativo)",
+              "Ferido: –1 na Resistência"
+            ],
+            [
+              "2º (CD – 6 a – 10)",
+              "–1 e tonto até o fim do próximo turno",
+              "–1 e tonto"
+            ],
+            [
+              "3º (CD – 11 a – 15)",
+              "–1 e abatido (já abatido: 4º grau)",
+              "–1, abatido e desabilitado"
+            ],
+            [
+              "4º (CD – 16 ou menos)",
+              "Incapacitado",
+              "Incapacitado e moribundo"
+            ]
+          ],
+          "nota": "Incapacitado que falha fica moribundo; moribundo que falha, morre. Dano letal: lâminas, flechas, garras e magias numa campanha pé no chão. Cinco graus de falha matam (opcional, dragões e gigantes)."
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Condições básicas",
+          "colunas": [
+            "Condição",
+            "Efeito"
+          ],
+          "linhas": [
+            [
+              "Prejudicado",
+              "–2 em todos os testes (ou nos indicados)."
+            ],
+            [
+              "Desabilitado",
+              "–5 em todos os testes. Sobrepõe prejudicado."
+            ],
+            [
+              "Tonto",
+              "Só ações livres e uma ação padrão por turno."
+            ],
+            [
+              "Atordoado",
+              "Nenhuma ação, nem livre. Sobrepõe tonto."
+            ],
+            [
+              "Impedido",
+              "Move-se à metade (–1 de Velocidade)."
+            ],
+            [
+              "Imóvel",
+              "Não sai do lugar. Sobrepõe impedido."
+            ],
+            [
+              "Vulnerável",
+              "Esquiva e Aparar pela metade (arredondando para cima)."
+            ],
+            [
+              "Indefeso",
+              "Esquiva e Aparar 0; ataques de rotina contra ele; acerto rolado vira crítico."
+            ],
+            [
+              "Desatento",
+              "Não percebe o ambiente nem age com base nele."
+            ],
+            [
+              "Fatigado",
+              "Impedido. Some com 1 hora de descanso."
+            ],
+            [
+              "Compelido",
+              "Uma ação padrão por turno, escolhida por quem o controla."
+            ],
+            [
+              "Controlado",
+              "Todas as ações escolhidas por quem o controla."
+            ],
+            [
+              "Transformado",
+              "Características mudadas pelo efeito."
+            ],
+            [
+              "Debilitado",
+              "Uma habilidade abaixo de –5. Depende da habilidade."
+            ]
+          ]
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Condições combinadas",
+          "colunas": [
+            "Condição",
+            "É o mesmo que"
+          ],
+          "linhas": [
+            [
+              "Abatido",
+              "Tonto e impedido."
+            ],
+            [
+              "Exausto",
+              "Prejudicado e impedido. Some com 1 hora de descanso confortável."
+            ],
+            [
+              "Caído",
+              "–5 corpo a corpo; inimigos +5 corpo a corpo e –5 à distância contra ele; impedido. Levantar: ação de movimento."
+            ],
+            [
+              "Restrito",
+              "Impedido e vulnerável (imóvel se preso a algo fixo)."
+            ],
+            [
+              "Amarrado",
+              "Indefeso, imóvel e prejudicado."
+            ],
+            [
+              "Surpreso",
+              "Atordoado e vulnerável."
+            ],
+            [
+              "Em transe",
+              "Atordoado, só presta atenção ao efeito. Um aliado o liberta com perícia de interação contra 10 + graduação."
+            ],
+            [
+              "Cego",
+              "Impedido, visualmente desatento e vulnerável; tudo tem camuflagem total."
+            ],
+            [
+              "Paralisado",
+              "Indefeso, imóvel e fisicamente atordoado; ainda percebe tudo."
+            ],
+            [
+              "Adormecido",
+              "Indefeso, atordoado e desatento; barulho alto ou um tapa acorda."
+            ],
+            [
+              "Incapacitado",
+              "Indefeso, atordoado e desatento; normalmente caído."
+            ],
+            [
+              "Moribundo",
+              "Incapacitado e à beira da morte."
+            ]
+          ]
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Moribundo e recuperação",
+          "itens": [
+            "**Moribundo:** Fortitude CD 15 por rodada. Dois graus de sucesso estabilizam; três graus de falha somados matam.",
+            "**Estabilizar:** Tratamento CD 15 (ação padrão, com kit) ou qualquer Cura. Duro de Matar estabiliza sozinho.",
+            "**Livro:** uma condição de dano por minuto de descanso; fadiga some com 1 hora.",
+            "**Pé no chão [Casa]:** descanso curto (1 hora) remove tonto, atordoado, fatigado e uma condição de dano; descanso longo (8 horas, uma vez por dia) remove todas, menos lesões duradouras."
+          ]
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Tratamento (só treinado, com ferramentas)",
+          "colunas": [
+            "Tarefa",
+            "CD",
+            "Ação",
+            "Efeito"
+          ],
+          "linhas": [
+            [
+              "Diagnosticar",
+              "10",
+              "1 minuto",
+              "+2 nos testes seguintes de Tratamento"
+            ],
+            [
+              "Estabilizar",
+              "15",
+              "Padrão",
+              "Estanca o sangramento de um moribundo"
+            ],
+            [
+              "Reviver",
+              "15",
+              "Padrão",
+              "Remove tonto ou atordoado"
+            ],
+            [
+              "Longo prazo",
+              "15",
+              "Durante o descanso",
+              "–1 graduação no tempo de recuperação"
+            ],
+            [
+              "Doença ou veneno",
+              "15",
+              "A cada salvamento",
+              "+2 no salvamento (+5 com três graus)"
+            ]
+          ],
+          "nota": "Sem kit de primeiros-socorros ou de herbalismo: –5."
+        }
+      ]
+    },
+    {
+      "id": "viagem",
+      "nome": "Viagem",
+      "blocos": [
+        {
+          "tipo": "formulas",
+          "titulo": "Fórmulas",
+          "itens": [
+            "**Tempo** = distância – velocidade",
+            "**Distância** = tempo + velocidade",
+            "**1 hora** = tempo 9; **1 dia de marcha** (8 horas) = tempo 12"
+          ]
+        },
+        {
+          "tipo": "gerado",
+          "fonte": "tempo_de_viagem"
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Ritmo de viagem (8 horas por dia)",
+          "colunas": [
+            "Ritmo",
+            "Por hora",
+            "Por dia",
+            "Efeito"
+          ],
+          "linhas": [
+            [
+              "Rápido",
+              "6 km",
+              "cerca de 48 km",
+              "–5 em Percepção para notar perigos"
+            ],
+            [
+              "Normal",
+              "5 km",
+              "cerca de 38 km",
+              "—"
+            ],
+            [
+              "Lento",
+              "3 km",
+              "cerca de 29 km",
+              "Pode se mover com Furtividade"
+            ]
+          ],
+          "nota": "Montado, o grupo anda no mesmo ritmo; o cavalo só é mais rápido no galope (Forçar a montaria). Carroça de viagem: 30 km por dia. Mensageiro que troca de cavalo: 60 km por dia ou mais."
+        },
+        {
+          "tipo": "gerado",
+          "fonte": "montarias"
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Marcha forçada e forçar a montaria [Casa]",
+          "itens": [
+            "**Marcha forçada:** cada hora além das 8 pede Fortitude (CD 10, +1 por hora extra) de viajantes e montarias. Falha: fatigado.",
+            "**Galope:** a cada 15 minutos, a montaria faz Fortitude (CD 10, +1 por teste anterior no dia). Cavalo: Fortitude 5; cavalo de guerra: 6.",
+            "**O cavaleiro ajuda:** Especialidade: Cavalgar CD 10 antes de cada teste dá +2 à montaria (+5 com três graus).",
+            "**Falhas da montaria:** fatigada (–1 Velocidade) → exausta (não galopa) → incapacitada (desaba; cavaleiro faz Cavalgar ou Acrobacia CD 15 ou cai com Dano 2) → moribunda (morre na estrada).",
+            "**Ponto heroico** do cavaleiro anula uma falha da montaria.",
+            "**Recuperação:** fatigada, 1 hora; exausta, uma noite com água e pasto. Trocar de cavalo zera tudo.",
+            "**Esforço extra** acelera uma etapa da viagem; um ponto heroico anula a fadiga."
+          ]
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Comida e água [Casa]",
+          "itens": [
+            "**Pessoa por dia:** 1 ração (o pacote dura 5 dias) e 2 litros de água (um cantil). No calor, o dobro de água.",
+            "**Meia ração:** dois dias contam como um dia sem comida.",
+            "**Montaria:** pasta se o grupo parar em campo com capim. Sem pasto: feno ou aveia, 5 pc por dia. Sem água no fim do dia: teste de sede.",
+            "**Sede:** 1 dia sem penalidade; depois Fortitude por hora (CD 10, +1). Só some com água.",
+            "**Fome:** 3 dias sem penalidade; depois Fortitude por dia (CD 10, +1). Só some com uma refeição."
+          ]
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Caçar e coletar: Especialidade: Sobrevivência",
+          "colunas": [
+            "Terreno",
+            "CD"
+          ],
+          "linhas": [
+            [
+              "Floresta, campo fértil, margem de rio",
+              "10"
+            ],
+            [
+              "Colinas, pântano, litoral",
+              "15"
+            ],
+            [
+              "Montanha, tundra, floresta no inverno",
+              "20"
+            ],
+            [
+              "Deserto, terra devastada",
+              "25"
+            ]
+          ],
+          "nota": "Viajando em ritmo normal ou lento, ou 1 hora parado. Sucesso: comida e água para 1 pessoa por 1 dia; +1 pessoa ou montaria por grau a mais. Arco, funda ou armadilha: +2. Dois graus de falha: nada, e o mestre pode rolar um evento."
+        },
+        {
+          "tipo": "gerado",
+          "fonte": "carga"
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Eventos de viagem",
+          "itens": [
+            "A aba **Rolagem de Eventos** do site sorteia clima, encontros e criaturas pelo terreno e pela estação."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "perigos",
+      "nome": "Perigos",
+      "blocos": [
+        {
+          "tipo": "gerado",
+          "fonte": "queda"
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Afogamento, venenos e doenças",
+          "itens": [
+            "**Afogamento:** prende a respiração por 10 rodadas + 2 × Vigor. Depois, Fortitude CD 10 (+1 por teste) a cada rodada; uma falha, incapacitado; na rodada seguinte, moribundo.",
+            "**Veneno:** Aflição ou Enfraquecer resistido por Fortitude, graduação de 2 a NP + 2. Veneno de cobra: Enfraquecer Vigor; abaixo de –5, morte.",
+            "**Doença:** Fortitude contra 10 + graduação para não pegar. Gripe 3 a 5, febre do pântano 4, peste 6 a 11.",
+            "**Fogo direto:** tocha Dano 1, fogueira Dano 2."
+          ]
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Calor e frio",
+          "colunas": [
+            "Exposição",
+            "Exemplo",
+            "Teste de Fortitude"
+          ],
+          "linhas": [
+            [
+              "Desconfortável",
+              "Verão no deserto, noite na montanha",
+              "1 por hora"
+            ],
+            [
+              "Intensa",
+              "Deserto sem sombra, nevasca",
+              "A cada 10 minutos"
+            ],
+            [
+              "Extrema",
+              "A forja do anão, a geleira do dragão branco",
+              "A cada minuto"
+            ]
+          ],
+          "nota": "Espiral de Fortitude: CD 10, +1 por teste. Cada falha: fatigado → exausto → incapacitado → moribundo. Tolerância Maior: +5."
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Armadilhas (exemplos no NP 5)",
+          "colunas": [
+            "Armadilha",
+            "Efeito",
+            "Exemplo"
+          ],
+          "linhas": [
+            [
+              "Agulha envenenada na fechadura",
+              "Aflição (Fortitude: prejudicado, desabilitado, incapacitado)",
+              "Graduação 5, CD 15"
+            ],
+            [
+              "Fosso coberto",
+              "Queda; Esquiva CD 15 para se agarrar na borda",
+              "6 m de profundidade: Dano 6"
+            ],
+            [
+              "Lâmina pendular",
+              "Ataque +6, Dano 6",
+              "Percepção CD 20 para notar"
+            ],
+            [
+              "Runa de fogo",
+              "Dano 5 em área (Esquiva CD 15 para metade)",
+              "Investigação CD 20 para notar; Magia CD 20 para apagar"
+            ],
+            [
+              "Rede que cai do teto",
+              "Aflição em área (Esquiva: impedido e vulnerável; depois indefeso e imóvel)",
+              "Graduação 5"
+            ],
+            [
+              "Gás do sono",
+              "Aflição em nuvem (Fortitude: tonto, atordoado, adormecido)",
+              "Graduação 4"
+            ]
+          ],
+          "nota": "Notar: Percepção (procurando) ou Investigação (com calma), CD 15 a 25. Desarmar: Tecnologia com ferramentas de ladrão (sem elas, –5); dois graus de falha disparam. Graduação entre NP – 1 e NP + 2."
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Escuridão e luz",
+          "itens": [
+            "**Sem luz:** camuflagem total (–5) para quem não tem visão no escuro.",
+            "**Tocha:** luz numa área pequena e penumbra (–2) além dela. Tochas: 10 por 0,1 po; lanterna coberta: 5 po.",
+            "**Visão no escuro:** anões, elfos, gnomos, meio-elfos, meio-orcs, tieflings e quase todos os goblinoides; a escuridão vira penumbra ou some."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "objetos",
+      "nome": "Objetos e medidas",
+      "blocos": [
+        {
+          "tipo": "formulas",
+          "titulo": "Fórmulas",
+          "itens": [
+            "**Arremesso:** distância = Força – massa do objeto",
+            "**Quebrar um objeto:** dano contra a Resistência do material"
+          ]
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Resistência dos materiais",
+          "colunas": [
+            "Material",
+            "Resistência",
+            "Exemplo"
+          ],
+          "linhas": [
+            [
+              "Papel, terra",
+              "0",
+              "Pergaminho, parede de taipa fina"
+            ],
+            [
+              "Vidro, gelo, corda",
+              "1",
+              "Janela, corda de cânhamo"
+            ],
+            [
+              "Madeira",
+              "3",
+              "Baú, porta comum"
+            ],
+            [
+              "Pedra",
+              "5",
+              "Estátua, parede de pedra fina"
+            ],
+            [
+              "Ferro",
+              "7",
+              "Grade, corrente, fechadura"
+            ],
+            [
+              "Aço",
+              "9",
+              "Lâmina, porta de cofre"
+            ]
+          ],
+          "nota": "Para alguns centímetros de espessura; +1 a cada vez que a espessura dobra. Porta de carvalho grossa: cerca de 5. Muralha de castelo: 10 ou mais."
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Tamanho",
+          "colunas": [
+            "Tamanho",
+            "Exemplos",
+            "Furtividade",
+            "Intimidação",
+            "Esquiva e Aparar",
+            "Força e Vigor"
+          ],
+          "linhas": [
+            [
+              "Miúdo (–4, ~50 cm)",
+              "Fada, gato, pseudodragão",
+              "+8",
+              "–4",
+              "+4",
+              "Força –2"
+            ],
+            [
+              "Pequeno (–3, ~1 m)",
+              "Halfling, gnomo, goblin",
+              "+4",
+              "–2",
+              "+2",
+              "Força –1"
+            ],
+            [
+              "Médio (–2, ~2 m)",
+              "Humano, elfo, anão, orc",
+              "—",
+              "—",
+              "—",
+              "—"
+            ],
+            [
+              "Grande (–1, ~4 m)",
+              "Golias, minotauro, ogro, cavalo",
+              "–4",
+              "+2",
+              "–2",
+              "+4 (raças: For +2, Vig +2)"
+            ],
+            [
+              "Enorme (0, ~8 m)",
+              "Gigante das colinas, ent",
+              "–8",
+              "+4",
+              "–4",
+              "+8"
+            ],
+            [
+              "Imenso (1, ~15 m)",
+              "Dragão ancião, kraken",
+              "–12",
+              "+6",
+              "–6",
+              "+12"
+            ]
+          ],
+          "nota": "Furtividade e Intimidação são circunstância. Esquiva, Aparar, Força e Vigor contam nos limites do NP."
+        },
+        {
+          "tipo": "gerado",
+          "fonte": "medidas"
+        }
+      ]
+    },
+    {
+      "id": "cidade",
+      "nome": "Cidade",
+      "blocos": [
+        {
+          "tipo": "tabela",
+          "titulo": "Comida e bebida",
+          "colunas": [
+            "Item",
+            "Preço"
+          ],
+          "linhas": [
+            [
+              "Caneca de cerveja comum",
+              "4 pc"
+            ],
+            [
+              "Caneca de cerveja anã",
+              "1 pp"
+            ],
+            [
+              "Jarra de vinho da casa (1 L)",
+              "2 pp"
+            ],
+            [
+              "Jarra de hidromel (1 L)",
+              "5 pp"
+            ],
+            [
+              "Dose de aguardente",
+              "5 pp"
+            ],
+            [
+              "Garrafa de vinho fino ou élfico",
+              "10 po"
+            ],
+            [
+              "Sopa rala e pão duro",
+              "5 pc"
+            ],
+            [
+              "Refeição comum da taverna",
+              "3 pp"
+            ],
+            [
+              "Banquete do caçador",
+              "8 pp"
+            ],
+            [
+              "Banquete da corte",
+              "3 po"
+            ],
+            [
+              "Rações de viagem (5 dias)",
+              "2,5 po"
+            ]
+          ]
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Hospedagem e estábulo (por noite)",
+          "colunas": [
+            "Acomodação",
+            "Preço",
+            "Estilo de vida"
+          ],
+          "linhas": [
+            [
+              "Chão perto da lareira",
+              "2 pc",
+              "Pobre"
+            ],
+            [
+              "Quarto coletivo (beliche)",
+              "1 pp",
+              "Pobre a modesto"
+            ],
+            [
+              "Quarto individual modesto",
+              "5 pp",
+              "Modesto"
+            ],
+            [
+              "Quarto confortável",
+              "1,5 po",
+              "Confortável"
+            ],
+            [
+              "Suíte nobre",
+              "5 a 10 po",
+              "Rico ou nobre"
+            ],
+            [
+              "Estábulo (baia, feno e água)",
+              "5 pc",
+              "—"
+            ],
+            [
+              "Cuidado completo da montaria",
+              "2 pp",
+              "—"
+            ]
+          ]
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Contratar e serviços",
+          "colunas": [
+            "Serviço",
+            "Preço",
+            "Detalhe"
+          ],
+          "linhas": [
+            [
+              "Passagem em carroça",
+              "3 pc por légua (~5 km) ou 1 pp por dia",
+              "30 km por dia"
+            ],
+            [
+              "Barqueiro",
+              "1 a 2 pc (5 pc com cavalo)",
+              "Por travessia"
+            ],
+            [
+              "Mensageiro",
+              "1 a 2 pp (vila), 1 a 5 po (capital)",
+              "Pombo: 1 dia; a cavalo: 60 km por dia"
+            ],
+            [
+              "Guia ou batedor",
+              "1 a 2 po por dia + refeições",
+              "Sobrevivência +6; +5 contra perder-se"
+            ],
+            [
+              "Carroça com cocheiro",
+              "1,5 po por dia + forragem",
+              "Leva 500 kg"
+            ],
+            [
+              "Mercenário (NP 3)",
+              "2 po por dia + comida",
+              "Lança, espada e escudo"
+            ],
+            [
+              "Mercenário veterano (NP 5)",
+              "5 po por dia + comida",
+              "Cota de malha"
+            ],
+            [
+              "Mago de aluguel",
+              "15 a 25 po por dia ou ritual",
+              "Identificação, Alarme, Selo"
+            ],
+            [
+              "Ferreiro: afiar ou reparar arma",
+              "2 a 5 pp",
+              "Por arma"
+            ],
+            [
+              "Reparar armadura",
+              "2 po (couro) a 10 po (placas)",
+              "Por armadura"
+            ],
+            [
+              "Barbeiro-cirurgião",
+              "1 po",
+              "Tratamento +6"
+            ],
+            [
+              "Cura no templo",
+              "10 a 25 po",
+              "1 grau de dano"
+            ],
+            [
+              "Curar veneno ou doença",
+              "25 a 50 po",
+              "Por pessoa"
+            ],
+            [
+              "Remover maldição",
+              "50 a 100 po",
+              "Por pessoa ou item"
+            ],
+            [
+              "Ressurreição",
+              "500 a 1.250 po",
+              "Corpo preservado"
+            ],
+            [
+              "Água benta",
+              "25 po",
+              "Dano 3 sagrado em mortos-vivos e demônios"
+            ]
+          ]
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Custo de vida (por dia)",
+          "colunas": [
+            "Estilo",
+            "Custo",
+            "Condição financeira"
+          ],
+          "linhas": [
+            [
+              "Esquálido",
+              "1 pp",
+              "Camponês em má fase"
+            ],
+            [
+              "Pobre",
+              "2 pp",
+              "Camponês"
+            ],
+            [
+              "Modesto",
+              "1 po",
+              "Aventureiro"
+            ],
+            [
+              "Confortável",
+              "2 po",
+              "Burguês"
+            ],
+            [
+              "Rico",
+              "4 po",
+              "Mercador próspero"
+            ],
+            [
+              "Aristocrático",
+              "10 po ou mais",
+              "Nobre"
+            ]
+          ],
+          "nota": "10 pc = 1 pp; 10 pp = 1 po; 10 po = 1 pl. Teste de Riqueza (opcional): d20 + Riqueza contra a CD de compra; até Riqueza + 10 é rotina."
+        }
+      ]
+    }
+  ]
+}

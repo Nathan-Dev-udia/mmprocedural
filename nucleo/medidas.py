@@ -55,6 +55,24 @@ def distancia(graduacao):
     return f"{metros * 100:g} cm" if metros < 1 else f"{metros / 1000:g} km"
 
 
+def graduacao_de_distancia(metros):
+    """Graduação de distância de uma medida em metros (a menor graduação que a alcança: 3 m é distância –1)."""
+    return _graduacao("distancia_metros", metros)
+
+
+def tempo(graduacao):
+    """Texto do tempo ("1 hora", "16 horas") de uma graduação."""
+    if graduacao in tabela():
+        return tabela()[graduacao]["tempo"]
+    segundos = _valor("tempo_segundos", graduacao)
+    return f"{segundos:g} segundo"
+
+
+def dano_de_queda(metros):
+    """Dano de uma queda (livro básico): 4 + o dobro da graduação de distância, no máximo 16; 0 se não machuca."""
+    return max(0, min(16, 4 + 2 * graduacao_de_distancia(metros)))
+
+
 TEMPO_DE_UMA_HORA = 9
 
 

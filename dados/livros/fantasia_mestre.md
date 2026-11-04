@@ -1551,8 +1551,10 @@ Trate uma armadilha como um **efeito com gatilho**:
 |----|----|----|
 | A pé, caminhando | 0 | 4 km/h |
 | A pé, correndo | 1 | 8 km/h |
-| Carroça carregada | 2 | 15 km/h |
-| Cavalo a galope (máximo) | 4 | 60 km/h |
+| Carroça carregada | 1 | 8 km/h |
+| Carruagem | 2 | 15 km/h |
+| Pônei, mula, camelo, cavalo de tração | 3 | 30 km/h |
+| Cavalo de montaria ou de guerra a galope (máximo) | 4 | 60 km/h |
 | Levitação do gerador (Voo 2) | 2 | 15 km/h |
 | Dragão (Voo 6) | 6 | 250 km/h |
 
@@ -1571,6 +1573,63 @@ A fórmula dá a velocidade máxima. Para viagens de vários dias, use o ritmo d
 - **Marcha forçada:** cada hora além das 8 pede um teste de Fortitude (CD 10, +1 por hora extra); com falha, fatigado. Montarias também fazem o teste.
 - **Cavalo** pode galopar no dobro do ritmo rápido por cerca de uma hora, mas no fim do dia anda o mesmo que o grupo a pé, se não houver troca de montaria.
 - **Esforço extra** acelera uma etapa da viagem, com a fadiga de sempre; um ponto heroico a anula.
+
+### 14.8 Forçar a montaria [Casa]
+
+A montaria aguenta o ritmo do grupo o dia inteiro. Galopar na velocidade máxima, não.
+
+- **Galope:** a cada **15 minutos** de galope (tempo 7), a montaria faz um teste de **Fortitude** (CD 10, +1 por teste anterior no mesmo dia). O cavalo do bestiário tem Fortitude 5; o cavalo de guerra, 6. Uma hora inteira de galope são quatro testes, e quase nenhum cavalo chega ao fim descansado.
+- **Marcha forçada:** cada hora de viagem além das 8 pede um teste, como para os viajantes (seção 14.7).
+- **O cavaleiro ajuda:** antes de cada teste, quem monta pode fazer **Especialidade: Cavalgar** contra CD 10, como um teste de equipe: +2 no teste da montaria (+5 com três graus de sucesso).
+- **Cada falha** desce um passo:
+  1. **Fatigada:** impedida (–1 de Velocidade). Um cavalo cai para Velocidade 3 (30 km/h).
+  2. **Exausta:** prejudicada e impedida. Não galopa mais; só anda a passo.
+  3. **Incapacitada:** a montaria desaba. O cavaleiro faz **Cavalgar ou Acrobacia CD 15** para saltar a tempo; se falhar, fica caído e sofre Dano 2 (a queda a galope).
+  4. **Moribunda:** se o cavaleiro insistir, o animal morre na estrada ("rebentar o cavalo").
+- **Ponto heroico:** o cavaleiro pode gastar um ponto heroico para anular uma falha da montaria. A égua aguenta mais um pouco.
+- **Recuperação:** fatigada, 1 hora de descanso; exausta, uma noite inteira com água e pasto ou feno. Trocar de cavalo numa estalagem ou num posto de mensageiros zera tudo; é assim que o mensageiro do rei cobre 60 km por dia ou mais.
+
+> **Exemplo:** perseguidos por bandidos, os heróis galopam 30 minutos até a ponte. O cavalo do ladino (Fortitude 5) faz dois testes, contra CD 10 e 11. O ladino ajuda com Cavalgar e tira um grau de sucesso: +2 nos dois. O cavalo passa no primeiro e falha no segundo: chega à ponte fatigado, em Velocidade 3.
+
+### 14.9 Comida, água e caça [Casa + D&D]
+
+**Consumo por dia:**
+
+- **Pessoa:** 1 ração de viagem (um pacote de rações dura 5 dias) e cerca de 2 litros de água (um cantil). No calor desconfortável ou pior, o dobro de água.
+- **Meia ração:** dois dias a meia ração contam como um dia sem comida para a tolerância de 3 dias (seção 14.2).
+- **Montaria:** pasta por conta própria se o grupo parar no fim do dia em campo com capim. No deserto, na montanha, na neve ou na cidade, precisa de feno ou aveia (5 pc por dia, o preço do estábulo). Bebe muito: sem água no fim do dia, faz o teste de sede como uma pessoa.
+
+**Caçar e coletar** usa **Especialidade: Sobrevivência** (só treinado). Quem procura comida não pode viajar no ritmo rápido, ou gasta 1 hora parado no acampamento.
+
+| Terreno | CD |
+|----|----|
+| Floresta, campo fértil, margem de rio | 10 |
+| Colinas, pântano, litoral | 15 |
+| Montanha, tundra, floresta no inverno | 20 |
+| Deserto, terra devastada | 25 |
+
+- **Sucesso:** comida e água para **1 pessoa por 1 dia**. Cada grau de sucesso a mais alimenta mais uma pessoa (ou uma montaria).
+- **Arco, funda ou armadilha de caça:** +2. Uma armadilha deixada à noite dá um teste extra pela manhã, sem gastar tempo.
+- **Ajuda:** quem não tem a perícia pode ajudar com um teste de equipe.
+- **Dois graus de falha:** nada de comida, e o mestre pode rolar um evento de viagem (o caçador encontrou outra coisa).
+
+### 14.10 Carga [Casa]
+
+O peso do equipamento está no catálogo e na ficha do gerador. Compare o peso que o personagem leva no corpo com a Força:
+
+| Força | Carga leve até | Carga máxima |
+|----|----|----|
+| –1 | 8 kg | 15 kg |
+| 0 | 15 kg | 30 kg |
+| 1 | 30 kg | 60 kg |
+| 2 | 60 kg | 120 kg |
+| 3 | 120 kg | 250 kg |
+| 4 | 250 kg | 500 kg |
+
+- **Carga leve** (até a massa da Força – 1): sem penalidade.
+- **Carga pesada** (até a massa da Força): –1 na graduação de Velocidade.
+- **Sobrecarregado** (acima disso): impedido.
+- **Montaria:** sela e alforjes vão no animal. O catálogo traz a carga de cada montaria: pônei 115 kg, cavalo de montaria 220 kg, mula 210 kg, cavalo de guerra 270 kg.
 
 ---
 
