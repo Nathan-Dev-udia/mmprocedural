@@ -1,0 +1,123 @@
+{
+  "nome_pt": "Raposa Voadora",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 268,
+  "ficha": {
+    "habilidades": {
+      "For": 4,
+      "Vig": 5,
+      "Agi": 4,
+      "Des": 4,
+      "Lut": 7,
+      "Int": 3,
+      "Pro": 3,
+      "Pre": 2
+    },
+    "poderes": [
+      "f o x- f ur C loak (Voo 6 (192 km/h), Imunidade 1 (Frio), Removível (–2 pontos)); Shaman’s Pouch (Arranjo (Herbs & Powders, 16 pontos), Removível (–3 pontos): f lame Raio (Dano à Distância 8), ae : d isguise (Metamorfose 2 (similarly-sized men)), ae : i n visibility (Visual Camuflagem 4), ae : i llusion 8 (Visual), ae : t r anslator (Compreender 4, Languages)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Finta Ágil",
+      "Artífice",
+      "Estrangular",
+      "Rolamento Defensivo 2",
+      "Evasion",
+      "Agarrar Rápido",
+      "Grande Vigor",
+      "Agarrar Aprimorado",
+      "Imobilizar Aprimorado",
+      "Iniciativa Aprimorada",
+      "Language 1 (English)",
+      "Ataque Poderoso",
+      "Saque Rápido",
+      "Rastrear"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 7,
+        "total": 11
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 7,
+        "total": 11
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 6,
+        "total": 13
+      },
+      {
+        "nome": "Especialidade: mágico",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Combate à Distância: Flame Blast",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 7,
+        "total": 11
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 4,
+        "total": 7
+      }
+    ],
+    "iniciativa": 8,
+    "ataques": [
+      {
+        "nome": "Flame Raio",
+        "bonus": 12,
+        "alcance": "À distância",
+        "dano": "Dano 8"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 13,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 5"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 13,
+      "Aparar": 13,
+      "Fortitude": 9,
+      "Resistência": 7,
+      "Vontade": 11
+    },
+    "observacao_defesas": "*, Vontade 11 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 64,
+      "Poderes": 26,
+      "Vantagens": 15,
+      "Perícias": 26,
+      "Defesas": 27
+    },
+    "total": 158,
+    "complicacoes": [
+      {
+        "titulo": "r esponsibility",
+        "texto": "Flying Fox is dedicated to fulfilling the mission of Luta the Axis given him by his tribe’s shaman."
+      },
+      {
+        "titulo": "Peculiaridade",
+        "texto": "Flying Fox is still adjusting to the differences between his primitive tribe and 1940s America. from the start, as the youthful heroes embarked on an event- filled nationwide war-bond rally tour. His mystic Abilities were crucial in several of the Young All-Star’s exploits, including numerous battles with the metahuman fascist team Axis Amerika. Within a few months, he was awarded full Squadron membership. However, his subsequent activities are unrecorded, and his present whereabouts are unknown. He may yet be alive in the present day, as most of his former Young All-Star teammates survive in present times."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

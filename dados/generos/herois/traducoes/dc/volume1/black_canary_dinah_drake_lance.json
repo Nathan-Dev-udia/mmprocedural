@@ -1,0 +1,134 @@
+{
+  "nome_pt": "Canário Negro (Dinah Drake Lance)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 54,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 4,
+      "Des": 3,
+      "Lut": 10,
+      "Int": 3,
+      "Pro": 3,
+      "Pre": 4
+    },
+    "poderes": [],
+    "equipamento": [
+      "VEHICLE: MOTORCYCLE (10 PP)",
+      "Size: Medium Str 1 Spd 6 Def 10 Tou 8"
+    ],
+    "vantagens": [
+      "Finta Ágil",
+      "Atraente",
+      "Choke Hold",
+      "Rolamento Defensivo 4",
+      "Equipamento 2",
+      "Evasion",
+      "Fascinar (Persuasão)",
+      "Desarmar Aprimorado",
+      "Imobilizar Aprimorado",
+      "Iniciativa Aprimorada",
+      "Ataque Poderoso",
+      "Preparar",
+      "Derrubar em Sequência",
+      "Trabalho em Equipe",
+      "Bem-Informado"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 6,
+        "total": 16
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 5,
+        "total": 9
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 9,
+        "total": 13
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 7,
+        "total": 10
+      }
+    ],
+    "iniciativa": 8,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 16,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Fortitude": 9,
+      "Aparar": 10,
+      "Resistência": 6,
+      "Vontade": 9
+    },
+    "observacao_defesas": "* Vontade 9 * sem Rolamento Defensivo",
+    "custos": {
+      "Habilidades": 62,
+      "Vantagens": 19,
+      "Defesas": 21,
+      "Poderes": 0,
+      "Perícias": 34
+    },
+    "total": 136,
+    "complicacoes": [
+      {
+        "titulo": "Doing Good",
+        "texto": "Black Canary’s detective father instilled her with a strong sense of right and wrong, along with a need to protect the innocent and bring justice to the guilty."
+      },
+      {
+        "titulo": "Relacionamentos",
+        "texto": "Black Canary is married to private investigator Larry Lance and is mother to Dinah Laurel Lance, the second Black Canary. Among her many friends in the Justice Society, she was especially Corpo a Corpo to Ted Knight, the first Starman, and the two once momentarily considered having an affair."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

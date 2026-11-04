@@ -1,0 +1,75 @@
+{
+  "nome_pt": "Mordru",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 66,
+  "ficha": {
+    "habilidades": {
+      "For": 4,
+      "Vig": 4,
+      "Agi": 2,
+      "Des": 4,
+      "Lut": 1,
+      "Int": 10,
+      "Pro": 5,
+      "Pre": 5
+    },
+    "poderes": [
+      "of the other sorcerors. One of Mordru’s apprentices, the White Witch, manages to escape before he can steal her Powers and joins the Legion of Super-Heroes. Styling himself “the Dark Lord, ” Mordru created an interstellar empire. He desired to conquer Earth but the LSH stood in his way, defeating his fleet and imprisoning him in a vault. Later,"
+    ],
+    "equipamento": [],
+    "vantagens": [],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo",
+        "graduacoes": 10,
+        "total": 11
+      },
+      {
+        "nome": "Especialidade: mágico",
+        "graduacoes": 12,
+        "total": 22
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 10,
+        "total": 15
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 10,
+        "total": 15
+      },
+      {
+        "nome": "Combate à Distância: Sorcery",
+        "graduacoes": 12,
+        "total": 16
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [],
+    "defesas": {
+      "Esquiva": 10,
+      "Fortitude": 10,
+      "Aparar": 9,
+      "Vontade": 14
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 7,
+      "Perícias": 31,
+      "Poderes": 164,
+      "Defesas": 31,
+      "Vantagens": 8
+    },
+    "total": 304,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

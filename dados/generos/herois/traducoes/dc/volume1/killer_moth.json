@@ -1,0 +1,106 @@
+{
+  "nome_pt": "Mariposa Assassina",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 306,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 4,
+      "Int": 6,
+      "Pro": 4,
+      "Pre": 1
+    },
+    "poderes": [
+      "Moth Costume: Fight 5 (96 km/h), Wings; Proteção 3; Removível (-2 pontos) (6 PP)",
+      "Cocoon Gun: Arranjo (18 pontos), Facilmente Removível (-8 pontos) • Cocoon Spray: À Distância Cumulativo Aflição 6 (resistido por Esquiva; Impaired, Imóvel, Paralisado) (18 PP)",
+      "• Grenade Launcher: À Distância Área de Explosão Dano 5, Não Confiável (5 uses) (1 PP)"
+    ],
+    "equipamento": [
+      "Moth-Helmet : Sentidos 2 (Visão no Escuro) (2 PP)",
+      "Police Rádio (1 PP)",
+      "VEHICLE: MOTHMOBILE (10 PP)",
+      "Large; Str 5, Spd 5, Def 9, Tou 8; Caltrops, Navigation System"
+    ],
+    "vantagens": [
+      "Ataque Defensivo",
+      "Rolamento Defensivo 3",
+      "Evasion",
+      "Equipamento 3",
+      "Inventor"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 5,
+        "total": 7
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 2,
+        "total": 6
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Combate à Distância: Cocoon Gun",
+        "graduacoes": 9,
+        "total": 12
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 8,
+        "total": 6
+      }
+    ],
+    "iniciativa": 3,
+    "ataques": [
+      {
+        "nome": "Cocoon Spray",
+        "bonus": 12,
+        "alcance": "À distância",
+        "dano": "Aflição 6, Cumulativo Grenade Launcher — À Distância, Área de Explosão Dano 5"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Fortitude": 8,
+      "Aparar": 8,
+      "Resistência": 8,
+      "Vontade": 8
+    },
+    "observacao_defesas": "* Vontade 8 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 50,
+      "Perícias": 19,
+      "Poderes": 17,
+      "Defesas": 21,
+      "Vantagens": 9
+    },
+    "total": 107,
+    "complicacoes": [
+      {
+        "titulo": "Inferiority Complex",
+        "texto": "Killer Moth feels he is inferior to every other villain and hero, and often sets out to prove himself with disastrous results."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

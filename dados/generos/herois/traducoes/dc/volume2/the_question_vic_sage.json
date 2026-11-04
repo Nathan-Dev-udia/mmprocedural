@@ -1,0 +1,160 @@
+{
+  "nome_pt": "Questão (Vic Sage)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 119,
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 4,
+      "Agi": 5,
+      "Des": 3,
+      "Lut": 10,
+      "Int": 3,
+      "Pro": 5,
+      "Pre": 3
+    },
+    "poderes": [
+      "0 Defenses 23 a dv Total 181 antages 29"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Preciso",
+      "Finta Ágil",
+      "Ataque Imprudente",
+      "Avaliação",
+      "Ataque Corpo-a-Corpo 2",
+      "Contatos",
+      "Tontear (Intimidação)",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 2",
+      "Duro de Matar",
+      "Evasion",
+      "Crítico Aprimorado (Desarmado)",
+      "Defesa Aprimorada",
+      "Desarmar Aprimorado",
+      "Iniciativa Aprimorada",
+      "Derrubar Aprimorado",
+      "Arma Improvisada",
+      "Levantar Rápido",
+      "Ataque Poderoso",
+      "Precise Attack (corpo a corpo; Concealment)",
+      "Redirecionar",
+      "Maestria em Perícia (Intuição)",
+      "Derrubar em Sequência",
+      "Provocar",
+      "Transe",
+      "Prender Arma",
+      "Bem-Informado"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 5,
+        "total": 15
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Especialidade: Journalism",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Especialidade: Philosophy",
+        "graduacoes": 9,
+        "total": 12
+      },
+      {
+        "nome": "Especialidade: Streetwise",
+        "graduacoes": 9,
+        "total": 12
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 11,
+        "total": 16
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 9,
+        "total": 12
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 9,
+        "total": 12
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 10,
+        "total": 15
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 3,
+        "total": 6
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 6,
+        "total": 11
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 3,
+        "total": 6
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 5,
+        "total": 8
+      }
+    ],
+    "iniciativa": 9,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 17,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 3, Crit. 19-20"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 13,
+      "Fortitude": 9,
+      "Aparar": 14,
+      "Resistência": 6,
+      "Vontade": 11
+    },
+    "observacao_defesas": "* Vontade 11 *sem Rolamento Defensivo. Po er ponto W S Abilities 72 Skills 57",
+    "custos": {},
+    "total": null,
+    "complicacoes": [
+      {
+        "titulo": "i den tity",
+        "texto": "Becoming: Most of the Question’s life has been a search for truth and meaning. He often gets himself into dangerous situations out of a desire to discover the truth behind a mystery, someone’s true nature, or even something about himself."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

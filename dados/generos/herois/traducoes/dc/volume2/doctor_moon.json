@@ -1,0 +1,130 @@
+{
+  "nome_pt": "Doutor Lua",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 8,
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 2,
+      "Agi": 1,
+      "Des": 2,
+      "Lut": 1,
+      "Int": 6,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "poderes": [
+      "i n terrogation k it: Arranjo (16 pontos), Easily Removed ( t r uth Serum: Aflição 8 (resistido por Vontade; Tonto, Compelido, Controlado; Progressivo; Limitado a answering questions), t r anquilizer: Aflição 5 (resistido por Fortitude; Tonto, Exausto, Adormecido; Progressivo), Paralytic: Aflição 5 (resistido por Fortitude; Destreza Impaired, Destreza Disabled, Paralisado; Progressivo), t aser : Dano 4 Linked to Aflição 4 (resistido por Fortitude; Tonto, Atordoado, Incapacitado)"
+    ],
+    "equipamento": [
+      "Handcuffs, Medical Bag, Restraints, Scalpels (Dano 1, critical 19-20)"
+    ],
+    "vantagens": [
+      "Conectado",
+      "Memória Eidética",
+      "Equipamento 1",
+      "Destemido",
+      "Ferramentas Improvisadas",
+      "Inventor",
+      "Esforço Supremo (Intimidação)"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Interrogation Kit",
+        "graduacoes": 7,
+        "total": 8
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Scalpels",
+        "graduacoes": 10,
+        "total": 11
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Especialidade: Medicine",
+        "graduacoes": 9,
+        "total": 15
+      },
+      {
+        "nome": "Especialidade: Neurosurgery",
+        "graduacoes": 10,
+        "total": 16
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 5,
+        "total": 7
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 14,
+        "total": 16
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 12,
+        "total": 14
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 7,
+        "total": 13
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 10,
+        "total": 16
+      }
+    ],
+    "iniciativa": 1,
+    "ataques": [
+      {
+        "nome": "Taser",
+        "bonus": 8,
+        "alcance": "",
+        "dano": "Dano 4"
+      },
+      {
+        "nome": "Scalpel",
+        "bonus": 11,
+        "alcance": "",
+        "dano": "Dano 1"
+      },
+      {
+        "nome": "Tranquilizer",
+        "bonus": 8,
+        "alcance": "",
+        "dano": "Aflição 5, Progressivo, Paralytic (Aflição 5, Progressivo"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 10,
+      "Fortitude": 6,
+      "Resistência": 2,
+      "Vontade": 10
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 32,
+      "Poderes": 11,
+      "Vantagens": 7,
+      "Perícias": 50,
+      "Defesas": 28
+    },
+    "total": 128,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

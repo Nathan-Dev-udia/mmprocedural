@@ -1,0 +1,116 @@
+{
+  "nome_pt": "Roleta",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 145,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 1,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 6,
+      "Int": 4,
+      "Pro": 5,
+      "Pre": 5
+    },
+    "poderes": [
+      "Memories of d estiny Sentidos 4 (Precognition), Distrativo, Unc ontrolled (2 PP)",
+      "Stolen Gear: Arranjo (27 pontos), Facilmente Removível (–10 pontos) • Gorgon’s Head: Cumulativo Perception área Aflição 9 (resistido por Fortitude; Tonto, Imóvel; Transformado (Stone)) (27 PP)",
+      "• f ir ebug’s Gauntlets: Área de Cone Dano 9 (fogo) (1 PP)",
+      "• Harpi’s Claws: Força-based Dano 2, Penetrante 2 (1 PP)",
+      "• r am ’s i n terface: Compreender Machines (1 PP)",
+      "i PM ent eQU H q : tH e House • 23 POI n TS Size: Large t ou: 14 f ea tures: Combat Simulator, Communications, Computer, Concealed 3 (CD 30),"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Avaliação",
+      "Atraente",
+      "Beginner’s Luck",
+      "Benefit 2 (Cipher)",
+      "Benefit 4 (Multi-millionaire)",
+      "Ataque Corpo-a-Corpo 7",
+      "Conectado",
+      "Tontear (Enganação)",
+      "Rolamento Defensivo 5",
+      "Equipamento 5",
+      "Evasion",
+      "Inspirar 3",
+      "Languages 2",
+      "Liderança",
+      "Sorte 3",
+      "Capanga 9",
+      "Redirecionar",
+      "Preparar",
+      "Bem-Informado"
+    ],
+    "pericias": [
+      {
+        "nome": "Enganação",
+        "graduacoes": 10,
+        "total": 15
+      },
+      {
+        "nome": "Especialidade: Streetwise",
+        "graduacoes": 9,
+        "total": 13
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 5,
+        "total": 10
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 7,
+        "total": 12
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 11,
+        "total": 16
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 9,
+        "total": 11
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 11,
+        "total": 13
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 10,
+        "total": 14
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [],
+    "defesas": {
+      "Esquiva": 12,
+      "Fortitude": 6,
+      "Aparar": 10,
+      "Resistência": 6,
+      "Vontade": 12
+    },
+    "observacao_defesas": "* Vontade 12 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 52,
+      "Perícias": 40,
+      "Poderes": 22,
+      "Defesas": 26,
+      "Vantagens": 50
+    },
+    "total": 190,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

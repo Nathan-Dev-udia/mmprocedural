@@ -1,0 +1,84 @@
+{
+  "nome_pt": "Ás III",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 147,
+  "ficha": {
+    "habilidades": {
+      "For": 10,
+      "Vig": 6,
+      "Agi": 4,
+      "Des": 2,
+      "Lut": 6,
+      "Int": 0,
+      "Pro": 1,
+      "Pre": 1
+    },
+    "poderes": [
+      "e xoskeleton (Agilidade Aprimorada 1, Vigor Aprimorado 5, Força Aprimorada 5, Força Aprimorada 3 (Limitado a Lifting; lifting Str 13, 200 tons), Removível (–5 pontos)), f lying Ca rd (Voo 6 (192 km/h), Platform)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Trabalho em Equipe"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 4,
+        "total": 10
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 5,
+        "total": 7
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 5,
+        "total": 9
+      }
+    ],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 10"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 8,
+      "Fortitude": 10,
+      "Resistência": 10,
+      "Vontade": 8
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 46,
+      "Poderes": 26,
+      "Vantagens": 1,
+      "Perícias": 9,
+      "Defesas": 13
+    },
+    "total": 95,
+    "complicacoes": [
+      {
+        "titulo": "Ganância",
+        "texto": "Befitting a man dressed as a playing card, Clay looks to get rich quick."
+      },
+      {
+        "titulo": "Segredo",
+        "texto": "Clay hopes his term with the Gang remains largely unrecognized. 150 150"
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

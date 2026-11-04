@@ -1,0 +1,140 @@
+{
+  "nome_pt": "O Fantasma Branco",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 10,
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 5,
+      "Agi": 4,
+      "Des": 3,
+      "Lut": 10,
+      "Int": 2,
+      "Pro": 4,
+      "Pre": 4
+    },
+    "poderes": [
+      "f a tal Golpe (Força-based Dano 2)"
+    ],
+    "equipamento": [
+      "d emon’s f ang k uk ri (Improved Critical 3, Removível)"
+    ],
+    "vantagens": [
+      "Finta Ágil",
+      "Avaliação",
+      "Benefício (Cipher)",
+      "Ataque Corpo-a-Corpo 5",
+      "Tontear (Intimidação)",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 5",
+      "Equipamento 1",
+      "Esforço Extraordinário",
+      "Evasion",
+      "Fascinar (Intimidação)",
+      "Destemido",
+      "Liderança",
+      "Ação em Movimento",
+      "Ataque Poderoso",
+      "Derrubar em Sequência",
+      "Transe",
+      "Esquiva Fabulosa"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 12,
+        "total": 16
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 10,
+        "total": 13
+      },
+      {
+        "nome": "Especialidade: s Fang Kukri)",
+        "graduacoes": 4,
+        "total": 14
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Fatal Strike",
+        "graduacoes": 2,
+        "total": 12
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 4,
+        "total": 14
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 10,
+        "total": 14
+      },
+      {
+        "nome": "Especialidade: Poisons",
+        "graduacoes": 9,
+        "total": 11
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 9,
+        "total": 13
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 14,
+        "total": 18
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 12,
+        "total": 15
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 8,
+        "total": 12
+      }
+    ],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Fatal Golpe",
+        "bonus": 17,
+        "alcance": "",
+        "dano": "Dano 5"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 19,
+        "alcance": "",
+        "dano": "Dano 3"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 10,
+      "Fortitude": 8,
+      "Resistência": 10,
+      "Vontade": 12
+    },
+    "observacao_defesas": "*, Vontade 12 * sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 70,
+      "Poderes": 2,
+      "Vantagens": 27,
+      "Perícias": 50,
+      "Defesas": 17
+    },
+    "total": 166,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "nome_pt": "Pantera",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 260,
+  "ficha": {
+    "habilidades": {
+      "For": 4,
+      "Vig": 4,
+      "Agi": 4,
+      "Des": 2,
+      "Lut": 12,
+      "Int": 0,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "poderes": [
+      "n Imortalidade 19, Sutil; Limitado a nine uses ine Liv es: (20 PP)"
+    ],
+    "equipamento": [
+      "Ve H i CL e: Motor C y CL e • 10 POI n TS Size: Medium Str: 1 Velocidade: 6 d ef: 10 t ou: 8 d a e S a V ant G Agile Feint, All-out Attack, Assessment, Corpo a Corpo Attack 5, Defensive Attack, Defensive Roll 4, Diehard, Equipment 2, Evasion, Fast Grab, Improved Critical 2 (Desarmado), Improved Defense, Improved Grab, Improved Hold, Improved Iniciativa, Improved Trip, Luck, Power Attack, Takedown 2, Taunt"
+    ],
+    "vantagens": [],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 10,
+        "total": 14
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Especialidade: The Sweet Science of Boxing",
+        "graduacoes": 14,
+        "total": 14
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 8,
+        "total": 10
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [],
+    "defesas": {
+      "Esquiva": 13,
+      "Fortitude": 9,
+      "Aparar": 14,
+      "Resistência": 8,
+      "Vontade": 10
+    },
+    "observacao_defesas": "* Vontade 10 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 60,
+      "Perícias": 40,
+      "Poderes": 20,
+      "Defesas": 24,
+      "Vantagens": 30
+    },
+    "total": 174,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

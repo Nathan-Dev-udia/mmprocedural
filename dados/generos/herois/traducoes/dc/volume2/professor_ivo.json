@@ -1,0 +1,93 @@
+{
+  "nome_pt": "Professor Ivo",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 113,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 2,
+      "Agi": 0,
+      "Des": 1,
+      "Lut": 0,
+      "Int": 9,
+      "Pro": 4,
+      "Pre": 4
+    },
+    "poderes": [
+      "i Enhanced Advantage 1 (Diehard); Imunidade 1 mmor tal: (Envelhecimento) (2 PP)",
+      "t oughened f lesh: Impenetrável Proteção 10 (20 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Benefit 2 (Independently Wealthy)",
+      "Duro de Matar",
+      "Ferramentas Improvisadas",
+      "Inventor",
+      "Minion 48 (6 120-ponto Robots)",
+      "Ultimate Skill (Expertise: Robotics)"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 3,
+        "total": 3
+      },
+      {
+        "nome": "Especialidade: Astronomy",
+        "graduacoes": 8,
+        "total": 17
+      },
+      {
+        "nome": "Especialidade: Robotics",
+        "graduacoes": 11,
+        "total": 20
+      },
+      {
+        "nome": "Especialidade: Science",
+        "graduacoes": 8,
+        "total": 17
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 8,
+        "total": 17
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 2,
+        "total": 11
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [],
+    "defesas": {
+      "Esquiva": 9,
+      "Fortitude": 8,
+      "Aparar": 9,
+      "Resistência": 12,
+      "Vontade": 10
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 42,
+      "Perícias": 20,
+      "Poderes": 22,
+      "Defesas": 30,
+      "Vantagens": 53
+    },
+    "total": null,
+    "complicacoes": [
+      {
+        "titulo": "o bsession",
+        "texto": "Ivo wants nothing more than to be cured of the disfigurement caused by the Imortalidade serum."
+      },
+      {
+        "titulo": "Fobia",
+        "texto": "Ivo has a crippling fear of death, which paradoxically Compelido him to take the deforming Imortalidade serum again, even after its effects had been reversed."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

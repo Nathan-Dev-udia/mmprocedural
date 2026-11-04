@@ -1,0 +1,121 @@
+{
+  "nome_pt": "Onda Térmica",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 256,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 3,
+      "Agi": 3,
+      "Des": 2,
+      "Lut": 2,
+      "Int": 3,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "poderes": [
+      "Fireproof Suit: Imunidade 12 (fogo Effects, Sufocamento), Proteção 3, Removível (-3 pontos) (12 PP)",
+      "Flamethrower: Arranjo (18 pontos), Facilmente Removível (–8 pontos) • fogo Raio: Dano à Distância 9 (18 PP)",
+      "• fogo Retardant Spray: Corpo a Corpo Range Área de Cone Nulificar 9 (fogo Effects), Simultaneous, Effortless, Não Confiável (5 uses) (1 PP)",
+      "• Flamethrower: Área de Linha 2 ,(60 feet long) Dano 6 (1 PP)",
+      "• Calor Stroke: Área de Linha 2 (60 feet long), Aflição 6 (resistido por Fortitude; Fatigado, Exausto, Incapacitado) (1 PP)",
+      "• Lasting Flames: Dano à Distância 4, Efeito Secundário 2 (1 PP)",
+      "• Melt: Área de Linha Enfraquecer 9 (Resistência), Affects Only Objects (1 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Preciso",
+      "Rolamento Defensivo 2",
+      "Mira Aprimorada",
+      "Ação em Movimento",
+      "Saque Rápido",
+      "Ataque à Distância 3",
+      "Provocar"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: Demolitions",
+        "graduacoes": 10,
+        "total": 13
+      },
+      {
+        "nome": "Especialidade: fogo Science",
+        "graduacoes": 12,
+        "total": 15
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Combate à Distância: Flamethrower",
+        "graduacoes": 6,
+        "total": 8
+      }
+    ],
+    "iniciativa": 3,
+    "ataques": [
+      {
+        "nome": "fogo Raio",
+        "bonus": 11,
+        "alcance": "À distância",
+        "dano": "Dano 9 Flamethrower — Área de Linha 2 (60 feet long) Dano 6 Calor Stroke — Área de Linha 2 (60 feet long) Aflição 6, resistido por Fortitude Desarmado +6 Corpo a Corpo, Dano 1"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Fortitude": 8,
+      "Aparar": 12,
+      "Resistência": 8,
+      "Vontade": 8
+    },
+    "observacao_defesas": "* Vontade 8 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 36,
+      "Perícias": 30,
+      "Poderes": 27,
+      "Defesas": 26,
+      "Vantagens": 10
+    },
+    "total": 129,
+    "complicacoes": [
+      {
+        "titulo": "Obsessão",
+        "texto": "Calor Wave is an incurable pyromaniac."
+      },
+      {
+        "titulo": "Fobia",
+        "texto": "Calor Wave is afraid of Frio temperatures and avoids them at all costs."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

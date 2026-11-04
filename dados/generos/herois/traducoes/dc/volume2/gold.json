@@ -1,0 +1,80 @@
+{
+  "nome_pt": "Ouro (Homens Metálicos)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 45,
+  "ficha": {
+    "habilidades": {
+      "For": 7,
+      "Vig": "—",
+      "Agi": 5,
+      "Des": 5,
+      "Lut": 9,
+      "Int": 5,
+      "Pro": 3,
+      "Pre": 2
+    },
+    "poderes": [
+      "r obot Body (Imunidade 40 (Fortitude effects, mental effects); Proteção 8, Impenetrável), Shapeshifting (Alongamento 8; Metamorfose 4 (any form), Peculiaridade: Limitado a Same Color; Variável 2 (physical traits, 10 power pontos, plus changing existing physical trait allocations)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Liderança",
+      "Ataque Poderoso"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 4,
+        "total": 13
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 3,
+        "total": 8
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 7,
+        "total": 12
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 6,
+        "total": 11
+      }
+    ],
+    "iniciativa": 5,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 13,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 7"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Aparar": 12,
+      "Resistência": 8,
+      "Vontade": 8
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 82,
+      "Poderes": 97,
+      "Vantagens": 2,
+      "Perícias": 10,
+      "Defesas": 15
+    },
+    "total": 206,
+    "complicacoes": [
+      {
+        "titulo": "d oing Good",
+        "texto": "All of the Metal Men are driven to make the world a better place. e al: gotistic Gold comes off as full of himself."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

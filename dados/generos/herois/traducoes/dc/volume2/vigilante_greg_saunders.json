@@ -1,0 +1,145 @@
+{
+  "nome_pt": "Vigilante (Greg Saunders)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 252,
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 3,
+      "Agi": 3,
+      "Des": 4,
+      "Lut": 4,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "poderes": [],
+    "equipamento": [
+      "Six-Shooters: À Distância Multiataque Dano 3 (9 PP)",
+      "Lasso: À Distância Cumulativo Aflição 6 (resistido por Esquiva; Impedido and Vulnerável, Indefeso and Imóvel), Extra Condition, Limitado Degree) (18 PP)",
+      "Ve H i CL e: Motor C y CL e • 10 POI n TS Size: Medium Str: 1 Velocidade: 6 d ef: 10 t ou: 8"
+    ],
+    "vantagens": [
+      "Atraente",
+      "Duro de Matar",
+      "Equipamento 8",
+      "Esforço Extraordinário",
+      "Agarrar Rápido",
+      "Mira Aprimorada",
+      "Desarmar Aprimorado",
+      "Inspirar",
+      "Sorte",
+      "Saque Rápido",
+      "Ataque à Distância 5",
+      "Derrubar em Sequência",
+      "Rastrear",
+      "Prender Arma"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 10,
+        "total": 13
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 9,
+        "total": 13
+      },
+      {
+        "nome": "Especialidade: Cowboy",
+        "graduacoes": 8,
+        "total": 9
+      },
+      {
+        "nome": "Especialidade: Performing",
+        "graduacoes": 7,
+        "total": 9
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 10,
+        "total": 12
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 7,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 9,
+        "total": 11
+      },
+      {
+        "nome": "Combate à Distância: Guns",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 6,
+        "total": 10
+      }
+    ],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Dual Pistols",
+        "bonus": 15,
+        "alcance": "À distância",
+        "dano": "Multiataque Dano 3"
+      },
+      {
+        "nome": "Lasso",
+        "bonus": 9,
+        "alcance": "À distância",
+        "dano": "Cumulativo Aflição 6, resistido por Esquiva (CD 16)"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 13,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 3"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Fortitude": 9,
+      "Aparar": 13,
+      "Resistência": 3,
+      "Vontade": 7
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 44,
+      "Perícias": 43,
+      "Poderes": 0,
+      "Defesas": 27
+    },
+    "total": 139,
+    "complicacoes": [
+      {
+        "titulo": "o ld W ays",
+        "texto": "century ideals living in the twenty-first. He frames every conflict as good versus evil, then firmly places himself among the white hats—and not only because he wears a white hat of his own."
+      },
+      {
+        "titulo": "Cowboy in the City",
+        "texto": "From New York and Hollywood to Warpath, Arizona, Vigilante has always found himself living in big cities, but his heart is out on the range."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

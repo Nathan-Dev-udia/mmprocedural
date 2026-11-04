@@ -1,0 +1,95 @@
+{
+  "nome_pt": "Sideral (Stargirl)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 194,
+  "ficha": {
+    "habilidades": {
+      "For": 8,
+      "Vig": 8,
+      "Agi": 8,
+      "Des": 4,
+      "Lut": 4,
+      "Int": 2,
+      "Pro": 4,
+      "Pre": 2
+    },
+    "poderes": [
+      "Cosmic Converter Belt: Removível (-15 pontos) (62 PP)",
+      "e nhanced Abilities: Agilidade Aprimorada 4; Vigor Aprimorado 5; Força Aprimorada 6 (32 PP)",
+      "S hooting Star: Aflição à Distância 10 (resistido por Fortitude; Tonto, Atordoado, Incapacitado) Linked to Nulificar Electronics 10, Simultaneous; Preciso 3 (39 PP)",
+      "f or ce f ield: Sustentado Proteção 4 (4 PP)",
+      "Cosmic r od: Facilmente Removível (-16 pontos) (24 PP)",
+      "f ligh t: Voo 8 (800 km/h) (16 PP)",
+      "S tar Raio: Dano à Distância 12 (24 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Finta Ágil",
+      "Ataque Defensivo",
+      "Derrubar Aprimorado",
+      "Levantar Rápido",
+      "Ataque Poderoso"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 4,
+        "total": 12
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Combate à Distância: Star Blast",
+        "graduacoes": 6,
+        "total": 10
+      }
+    ],
+    "iniciativa": 8,
+    "ataques": [
+      {
+        "nome": "Solar Raio",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Dano 12"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 8"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Fortitude": 8,
+      "Aparar": 8,
+      "Resistência": 12,
+      "Vontade": 8
+    },
+    "observacao_defesas": "* Vontade 8 *Without Campo de Força. pable of unleashing deadly force. Stargirl is fearless and Vontade- ingly takes on opponents that are clearly stronger than she. Powers and Abilities Stargirl has no native Powers other than trained skill in the martial arts. Her Cosmic Converter Belt offers her Proteção and the ability to disrupt electronics and nervous systems; her Cosmic Rod enables her to fly and can emit potent blasts of energy.",
+    "custos": {},
+    "total": null,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

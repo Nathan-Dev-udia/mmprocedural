@@ -1,0 +1,115 @@
+{
+  "nome_pt": "Maxwell Lord",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 22,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 2,
+      "Agi": 1,
+      "Des": 2,
+      "Lut": 2,
+      "Int": 4,
+      "Pro": 3,
+      "Pre": 4
+    },
+    "poderes": [
+      "mental Conditioning: Perception Sustentado Enfraquecer Vontade 8 (mental, resistido por Vontade), Incurable, Insidioso, Sutil 2, Limitado—Only effects targets up 10’ away, Limitado—Vontade weakened only against Push effects (28 PP)",
+      "t he P ush: Arranjo (62 pontos)",
+      "• Push Mind: Perception Concentração Aflição 12 (psychic, mental suggestions or hallucinations; resistido por Vontade; Entranced, Compelido, Controlado), Insidioso, Progressivo, Sutil 2, Peculiaridade—If Maxwell Lord takes Dano from the side-effect, he gets a bloody nose, Side-Effect— Maxwell Lord must resist a Dano effect, CD 15 + Push Mind graduações used (62 PP)",
+      "• Mass Push: Perception área (Auditory) Sustentado Aflição 10 (resistido por Vontade; Entranced, Compelido, Controlado), Insidioso, Progressivo, Sutil 2, Distrativo, Peculiaridade—If Maxwell Lord takes Dano from the side-effect, he gets a bloody nose, Side-Effect—Maxwell Lord must resist a Dano effect, CD 15 + Push Mind graduações used, Cansativo (1 PP)",
+      "• mental a Perception Aflição 14 (psychic, mental ssault: suggestions; resistido por Vontade, Vulnerável, Compelido), Insidioso, Sutil 2, Instant Recovery, Limitado Degree (1 PP)"
+    ],
+    "equipamento": [
+      "Light Pistola with Suppressor: Dano à Distância 3, Sutil (7 PP)",
+      "Bulletproof Vest: Proteção 4, Sutil, Limitado (Ballistic) (3 PP)"
+    ],
+    "vantagens": [
+      "Avaliação",
+      "Benefit 1 (Independently Wealthy)",
+      "Conectado",
+      "Contatos",
+      "Tontear (Enganação)",
+      "Rolamento Defensivo 2",
+      "Equipamento 2",
+      "Fascinar (Enganação)",
+      "Redirecionar",
+      "Tomar a Iniciativa",
+      "Skill Mastery (Insight",
+      "Deception",
+      "Expertise: Tactician",
+      "Persuasion)",
+      "Provocar",
+      "Well-informed Wonder Woman used her lasso to extract from Lord the only way to free Superman from the “push",
+      "” and the solution was simply to kill him. She snapped his neck without hesitation. Maxwell Lord later returned as one of many heroes and vil- lains brought back to life during the Blackest Night. The first thing he did was push the entire world into forgetting he existed",
+      "and he is now free to work on his plans in absolute obscurity."
+    ],
+    "pericias": [
+      {
+        "nome": "Enganação",
+        "graduacoes": 14,
+        "total": 18
+      },
+      {
+        "nome": "Especialidade: Business",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Especialidade: Tactician",
+        "graduacoes": 7,
+        "total": 11
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 10,
+        "total": 13
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 12,
+        "total": 16
+      },
+      {
+        "nome": "Combate à Distância: Pistols",
+        "graduacoes": 5,
+        "total": 7
+      }
+    ],
+    "iniciativa": 1,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 2,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 1"
+      },
+      {
+        "nome": "Pistola",
+        "bonus": 7,
+        "alcance": "À distância",
+        "dano": "Dano 3 mental Assault — À Distância, Aflição 14 Mass Push — Corpo a Corpo, Perception área Aflição 10 Push Mind — À Distância, Aflição 12 mental Conditioning — Perception, Enfraquecer Vontade 8, Limitado a 10 feet"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 6,
+      "Fortitude": 5,
+      "Aparar": 5,
+      "Resistência": 8,
+      "Vontade": 10
+    },
+    "observacao_defesas": "* Vontade 10 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 38,
+      "Perícias": 28,
+      "Poderes": 92,
+      "Defesas": 18,
+      "Vantagens": 18
+    },
+    "total": 194,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

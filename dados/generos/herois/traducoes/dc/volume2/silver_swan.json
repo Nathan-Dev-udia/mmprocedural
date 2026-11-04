@@ -1,0 +1,96 @@
+{
+  "nome_pt": "Cisne de Prata",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 177,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 4,
+      "Agi": 4,
+      "Des": 4,
+      "Lut": 1,
+      "Int": 3,
+      "Pro": 2,
+      "Pre": 3
+    },
+    "poderes": [
+      "a vian t elepa thy: Arranjo (49 pontos)",
+      "• Helping Song : Summon Avian Life 4 (60 pontos), Horde, mental Link, Multiple Minions 4 (16 minions), Variável General Type (Avian Life) (49 PP)",
+      "• Bird Song : Comunicação 4 (mental), Limitado a Avian Life; Compreender Animals 2 (1 PP)",
+      "Humming Bird: Sustentado Impenetrável Proteção 10 (20 PP)",
+      "Swan Song: Arranjo (28 pontos)",
+      "• Sonic Raio: À Distância, Dano 14 (28 PP)",
+      "• Sound Wave: Área de Cone Dano 11 (1 PP)",
+      "• Swan Screech: Área de Explosão Cumulativo Aflição 11 (resistido por Fortitude; Auditory Impaired, Auditory Disabled, Auditory Unaware), Limitado a a single sense (1 PP)",
+      "Winged f t: Voo 8 (800 km/h), Wings (8 PP)",
+      "ligh"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Evasion",
+      "Ambiente Favorito (Aerial)",
+      "Levantar Rápido",
+      "Ação em Movimento"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Combate à Distância: Swan Song",
+        "graduacoes": 4,
+        "total": 8
+      }
+    ],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Sonic Raio",
+        "bonus": 8,
+        "alcance": "",
+        "dano": "/+10* À Distância, Dano 14 Sound Wave — Corpo a Corpo, Área de Cone Dano 11 Swan’s Screech — Corpo a Corpo, Área de Explosão Aflição 11, resistido por Fortitude (CD 21) *With Favored Environment (Aerial)"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Fortitude": 8,
+      "Aparar": 8,
+      "Resistência": 14,
+      "Vontade": 6
+    },
+    "observacao_defesas": "",
+    "custos": {},
+    "total": null,
+    "complicacoes": [
+      {
+        "titulo": "Self Hatred",
+        "texto": "Vanessa blames herself for everything bad that has happened to her friends and family."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

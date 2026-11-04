@@ -1,0 +1,201 @@
+{
+  "nome_pt": "Homem-Gato",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 105,
+  "ficha": {
+    "habilidades": {
+      "For": 4,
+      "Vig": 4,
+      "Agi": 6,
+      "Des": 4,
+      "Lut": 11,
+      "Int": 1,
+      "Pro": 4,
+      "Pre": 4
+    },
+    "poderes": [
+      "Affinity for Cats: Característica 1 (Cats accept Catman as one of their own) (1 PP)"
+    ],
+    "equipamento": [
+      "Catarang: À Distância Força-based Dano 2 (8 PP)",
+      "(Note: Catman rarely uses this weapon these days) Cat Claw Grapple: Movimento 1 (Swinging) (2 PP)",
+      "Luta Claws: Força-based Dano 2 (2 PP)",
+      "Knives: Força-based Dano 1, Improved Critical (2 PP)"
+    ],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Empatia com Animais",
+      "Ataque Defensivo",
+      "Ataque Corpo-a-Corpo 3",
+      "Rolamento Defensivo 4",
+      "Equipamento 3",
+      "Evasion",
+      "Iniciativa Aprimorada",
+      "Levantar Rápido",
+      "Ataque Poderoso",
+      "Precise Attack (Close",
+      "Concealment)",
+      "Saque Rápido",
+      "Ataque à Distância 4",
+      "Tomar a Iniciativa",
+      "Maestria em Perícia (Expertise: Hunter)",
+      "Maestria em Perícia (Percepção)",
+      "Assustar",
+      "Derrubar em Sequência",
+      "Rastrear",
+      "Esforço Supremo (Tracking)",
+      "Prender Arma"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 7,
+        "total": 13
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 10,
+        "total": 13
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Short Blades",
+        "graduacoes": 2,
+        "total": 13
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 5,
+        "total": 9
+      },
+      {
+        "nome": "Especialidade: Animal Trainer",
+        "graduacoes": 10,
+        "total": 11
+      },
+      {
+        "nome": "Especialidade: Criminal",
+        "graduacoes": 8,
+        "total": 9
+      },
+      {
+        "nome": "Especialidade: Hunter",
+        "graduacoes": 14,
+        "total": 15
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 5,
+        "total": 9
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 10,
+        "total": 14
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 12,
+        "total": 16
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Combate à Distância: Throwing",
+        "graduacoes": 4,
+        "total": 12
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 10,
+        "total": 16
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 5,
+        "total": 6
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 3,
+        "total": 6
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 5,
+        "total": 9
+      }
+    ],
+    "iniciativa": 10,
+    "ataques": [
+      {
+        "nome": "Catarang",
+        "bonus": 12,
+        "alcance": "À distância",
+        "dano": "Dano 6"
+      },
+      {
+        "nome": "Luta Claws",
+        "bonus": 16,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 6"
+      },
+      {
+        "nome": "Knives",
+        "bonus": 16,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 5, Crit. 19-20"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 14,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 4"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 14,
+      "Fortitude": 9,
+      "Aparar": 14,
+      "Resistência": 8,
+      "Vontade": 10
+    },
+    "observacao_defesas": "* Vontade 10 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 76,
+      "Perícias": 60,
+      "Poderes": 1,
+      "Defesas": 22,
+      "Vantagens": 31
+    },
+    "total": 190,
+    "complicacoes": [
+      {
+        "titulo": "Conflicted",
+        "texto": "Catman is often torn between extremes such as hero or villain, leader or follower, loner or team player."
+      },
+      {
+        "titulo": "Delusion",
+        "texto": "(past) Catman thought his special costume protected him from harm."
+      },
+      {
+        "titulo": "Obsessão",
+        "texto": "In the past, Catman was obsessed with cat-themed places, objects and people, including the villainess Catwoman. He has abandoned this Obsession but feels a connection to big cats, their predatory ways, and hunting that at times borders on extreme."
+      },
+      {
+        "titulo": "Relacionamentos",
+        "texto": "Catman has a son, Thomas, Jr. with the villainess Cheshire. He is unlikely friends with his fellow Secret Sixer Deadshot. He and the Huntress share a mutual attraction. of his fellow founding members: Scandal Savage, Ragdoll, and Deadshot. In fact, Deadshot and Catman have become friends despite Blake’s discovery it was the marksman who killed his pride. ENEMIES Catman has mostly buried the hatchet with his old foes, such as Batman. However, he has more than made up for this by running afoul nearly every member of the super-villain com - munity they encounter. From the Society to Vandal Savage, Catman and his fellow Secret Sixers have managed to collect a powerful cadre of enemies."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

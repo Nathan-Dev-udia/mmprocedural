@@ -1,0 +1,130 @@
+{
+  "nome_pt": "Professor Amos Fortune (Ás I)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 147,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 1,
+      "Agi": 0,
+      "Des": 1,
+      "Lut": 0,
+      "Int": 4,
+      "Pro": 4,
+      "Pre": 3
+    },
+    "poderes": [
+      "Stellaration e nergy d evice (À Distância Cumulativo Aflição 10 (resistido por Vontade; Tonto, Compelido, Controlado), Facilmente Removível (–12 pontos)), Stimoluck d evice (Controle de Sorte 4, Área de Explosão, Seletivo, Enhanced Advantage 13 (Beginner’s Luck, Inspire 5, Leadership, Luck 5, Seize Iniciativa), Enhanced Defenses 20 (Esquiva & Aparar 10); Facilmente Removível (–20 pontos), Peculiaridade (Only Affects Humans))"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Benefit 2 (Independently Wealthy)",
+      "Beginner’s Luck",
+      "Rolamento Defensivo 2",
+      "Inspirar 5",
+      "Inventor",
+      "Liderança",
+      "Sorte 5",
+      "Saque Rápido",
+      "Tomar a Iniciativa",
+      "Trabalho em Equipe"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 3,
+        "total": 3
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Especialidade: Criminal",
+        "graduacoes": 7,
+        "total": 11
+      },
+      {
+        "nome": "Especialidade: Gambling",
+        "graduacoes": 9,
+        "total": 13
+      },
+      {
+        "nome": "Especialidade: Luck",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Especialidade: Science",
+        "graduacoes": 7,
+        "total": 11
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 7,
+        "total": 11
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 9,
+        "total": 10
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Combate à Distância: Stellaration Energy Device",
+        "graduacoes": 9,
+        "total": 10
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 9,
+        "total": 13
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [
+      {
+        "nome": "Stellaration Energy Dispositivo",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Cumulativo Aflição 10"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 3,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 1"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 17,
+      "Aparar": 17,
+      "Fortitude": 6,
+      "Resistência": 3,
+      "Vontade": 10
+    },
+    "observacao_defesas": "*, Vontade 10 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 28,
+      "Poderes": 50,
+      "Vantagens": 7,
+      "Perícias": 38,
+      "Defesas": 25
+    },
+    "total": 148,
+    "complicacoes": [
+      {
+        "titulo": "Ganância",
+        "texto": "Like any gambler, Fortune always looks to take home a bigger pot."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

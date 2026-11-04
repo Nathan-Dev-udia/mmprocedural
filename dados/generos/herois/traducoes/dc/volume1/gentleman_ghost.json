@@ -1,0 +1,103 @@
+{
+  "nome_pt": "Gentleman Ghost",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 222,
+  "ficha": {
+    "habilidades": {
+      "For": -1,
+      "Vig": 6,
+      "Agi": 2,
+      "Des": 3,
+      "Lut": 2,
+      "Int": 2,
+      "Pro": 2,
+      "Pre": 6
+    },
+    "poderes": [
+      "Cursed Spirit: Camuflagem 10 (Total); Imunidade 12 (Envelhecimento, Suporte Vital, Sleep), Imortalidade 2 (36 PP)",
+      "Spectral Flintlocks: Dano à Distância 9 (18 PP)",
+      "Spirit Walk: Arranjo (15 pontos)",
+      "• Ghost: Intangibilidade 3: Energy (Spectral Energy); Limitado: Attacks by characters with royal blood deal full Dano) (15 PP)",
+      "• Travel the Spirit Planes: Teleporte 5 (900 feet), Preciso (1 PP)",
+      "Touch of Death: Aflição 10 (resistido por Vontade; Tonto, Disabled, Incapacitado) (10 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Tontear (Intimidação)",
+      "Destemido",
+      "Iniciativa Aprimorada 2",
+      "Assustar",
+      "Esquiva Fabulosa"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 10,
+        "total": 12
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Simple Weapons",
+        "graduacoes": 10,
+        "total": 12
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 4,
+        "total": 10
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 8,
+        "total": 14
+      },
+      {
+        "nome": "Combate à Distância: Spectral Flintlocks",
+        "graduacoes": 10,
+        "total": 13
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 8,
+        "total": 10
+      }
+    ],
+    "iniciativa": 10,
+    "ataques": [
+      {
+        "nome": "Spectral Flintlocks",
+        "bonus": 13,
+        "alcance": "À distância",
+        "dano": "Dano 9 Touch of Death +12 Corpo a Corpo, Aflição 10, resistido por Vontade"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 16,
+      "Fortitude": 9,
+      "Aparar": 16,
+      "Resistência": 6,
+      "Vontade": 10
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 44,
+      "Perícias": 25,
+      "Poderes": 80,
+      "Defesas": 39,
+      "Vantagens": 6
+    },
+    "total": 194,
+    "complicacoes": [
+      {
+        "titulo": "Cultured",
+        "texto": "Even as a highwayman and criminal, Gentleman Ghost always tries to maintain an air of culture and propriety— but is also quick to anger when he fails to receive the respect he believes he deserves."
+      },
+      {
+        "titulo": "Cursed",
+        "texto": "The Gentleman Ghost is unable to pass on to the next plane of existence until the one who killed him passes first, along with a magically unquenchable greed that drives him to crime."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

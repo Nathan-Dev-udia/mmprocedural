@@ -1,0 +1,84 @@
+{
+  "nome_pt": "Hourman (Rex Tyler)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 263,
+  "ficha": {
+    "habilidades": {
+      "For": 7,
+      "Vig": 7,
+      "Agi": 7,
+      "Des": 3,
+      "Lut": 4,
+      "Int": 3,
+      "Pro": 1,
+      "Pre": 4
+    },
+    "poderes": [
+      "Miraclo Pills: Ativação (Ação de Movimento, –1 ponto) (34 PP)",
+      "Bulletproof: Proteção 2 (2 PP)",
+      "Enhanced Performance: Enhanced Advantages 4 (Extraordinary Effort, Fast Grab, Improved Hold, Improved Smash) (4 PP)",
+      "Jump to the Rooftops: Salto 2 (2 PP)",
+      "Miraclo Força: Força Aprimorada 4 (8 PP)",
+      "Miraclo Vigor: Vigor Aprimorado 4 (8 PP)",
+      "Miraclo Agilidade: Agilidade Aprimorada 4, Enhanced Defenses 3 (Aparar 3) (11 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Benefit 2 (Independently Wealthy)",
+      "Estrangular",
+      "Esforço Extraordinário",
+      "Agarrar Rápido",
+      "Imobilizar Aprimorado",
+      "Quebrar Aprimorado",
+      "Ataque Poderoso",
+      "Startle Skills** Acrobatics 5 (+12/+8*)",
+      "Athletics 8 (+15/+11*)",
+      "Close Combat: Unarmed 5 (+9)",
+      "Expertise: Biochemistry 9 (+12)",
+      "Intimidation 5 (+9)",
+      "Investigation 3 (+6)",
+      "Perception 6 (+7)",
+      "Persuasion 7 (+11)"
+    ],
+    "pericias": [],
+    "iniciativa": 7,
+    "ataques": [
+      {
+        "nome": "/",
+        "bonus": 3,
+        "alcance": "",
+        "dano": "Desarmado +9 Corpo a Corpo, Dano 7/3*"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 7,
+      "Fortitude": 9,
+      "Aparar": 7,
+      "Resistência": 9,
+      "Vontade": 7
+    },
+    "observacao_defesas": "* Fortitude 9/5* Aparar 7/4* Resistência 9/3* Vontade 7 * Without Miraclo Pills.",
+    "custos": {
+      "Habilidades": 48,
+      "Perícias": 24,
+      "Poderes": 34,
+      "Defesas": 8,
+      "Vantagens": 6
+    },
+    "total": 120,
+    "complicacoes": [
+      {
+        "titulo": "Hour of Power",
+        "texto": "Once Hourman takes a Miraclo pill, his Powers last exactly an hour, and no more. In addition, he can’t take another pill until an hour after his Powers fade."
+      },
+      {
+        "titulo": "Addictive Power",
+        "texto": "Rex Tyler became severely addicted first to the rush of heroic adventure, and then to the drug that gave him his Powers. Eventually, the only way to break his addiction was to retire from being Hourman and pass the legacy on to his son Rick. Using Miraclo caused Rick Tyler to contract leukemia, and he retired from heroics. On the verge of death, he was saved only by the arrival of an Hourman from the far-future, who took Rick out of time to bring him back to health and reintroduce him to his father."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

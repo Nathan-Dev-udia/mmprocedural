@@ -1,0 +1,130 @@
+{
+  "nome_pt": "O Névoa",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 54,
+  "ficha": {
+    "habilidades": {
+      "For": -1,
+      "Vig": 0,
+      "Agi": 0,
+      "Des": 2,
+      "Lut": 1,
+      "Int": 6,
+      "Pro": 3,
+      "Pre": 4
+    },
+    "poderes": [
+      "Living Mist: Intangibilidade 4, Contínuo, Reação, Preciso, Limitado—Not through airtight or solid objects; Voo 4 (48 km/h), Contínuo, Sutil 2 (39 PP)"
+    ],
+    "equipamento": [
+      "Light Pistola: Dano à Distância 3 (6 PP)"
+    ],
+    "vantagens": [
+      "Avaliação",
+      "Benefit 4 (Multi-millionaire)",
+      "Conectado",
+      "Rolamento Defensivo 6",
+      "Equipamento 2",
+      "Evasion",
+      "Esconder-se a Plena Vista",
+      "Inventor",
+      "Liderança",
+      "Ataque Poderoso",
+      "Redirecionar",
+      "Preparar",
+      "Maestria em Perícia (Furtividade)",
+      "Provocar",
+      "Esquiva Fabulosa"
+    ],
+    "pericias": [
+      {
+        "nome": "Enganação",
+        "graduacoes": 10,
+        "total": 14
+      },
+      {
+        "nome": "Especialidade: Chemistry",
+        "graduacoes": 14,
+        "total": 20
+      },
+      {
+        "nome": "Especialidade: Explosives",
+        "graduacoes": 7,
+        "total": 13
+      },
+      {
+        "nome": "Especialidade: Poisons",
+        "graduacoes": 8,
+        "total": 14
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 12,
+        "total": 16
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Combate à Distância: Guns",
+        "graduacoes": 12,
+        "total": 14
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 9,
+        "total": 11
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 15,
+        "total": 15
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 8,
+        "total": 14
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [
+      {
+        "nome": "Light Pistola",
+        "bonus": 14,
+        "alcance": "À distância",
+        "dano": "Dano 3"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 7,
+      "Fortitude": 6,
+      "Aparar": 2,
+      "Resistência": 6,
+      "Vontade": 14
+    },
+    "observacao_defesas": "* Vontade 14 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 30,
+      "Perícias": 51,
+      "Poderes": 39,
+      "Defesas": 25,
+      "Vantagens": 24
+    },
+    "total": 169,
+    "complicacoes": [
+      {
+        "titulo": "riv en by Madness",
+        "texto": "remained as powerful as ever but slowly began to lose his mental faculties. A deal with the demon Neron restored his mind, but he remained driven by a burning need for vengeance against the heroes who defeated him in the past—particularly Starman."
+      },
+      {
+        "titulo": "The first Mist trained his son to follow in his f amily Business",
+        "texto": "footsteps, and eventually also advised his daughter after she turned to villainy."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

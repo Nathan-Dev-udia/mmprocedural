@@ -1,0 +1,57 @@
+{
+  "nome_pt": "Ciborgue O.M.A.C.",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 83,
+  "ficha": {
+    "habilidades": {
+      "For": 9,
+      "Vig": 11,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 9,
+      "Int": 2,
+      "Pro": 2,
+      "Pre": 0
+    },
+    "poderes": [
+      "keyed to their opponents’ weaknesses. Even if they are lower power level than an oppo- nent, keep in mind O.M.A.C.s almost always operate in large groups capable of overwhelming most opposition. In spite of their considerable Powers, within each O.M.A.C. is an otherwise ordinary human being, unwittingly Transformado and under the influence of outside programming and the Brother Eye artificial intelligence. This may give heroic oppo - nents pause, unwilling to use potentially lethal force against innocent people (and earning the characters hero pontos for the complication and their restraint). Heroes & V Heroes & V I I lla lla I I ns, Vol. 2 ns, Vol. 2 Heroes & VIllaIns, Vol. 2 178.76.175.224"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Avaliação",
+      "Memória Eidética",
+      "Destemido",
+      "Ataque à Distância 8",
+      "Trabalho em Equipe"
+    ],
+    "pericias": [
+      {
+        "nome": "Especialidade: Metahumans",
+        "graduacoes": 16,
+        "total": 18
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 12,
+        "total": 14
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [],
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 10,
+      "Resistência": 11,
+      "Vontade": 11
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Defesas": 19
+    },
+    "total": 151,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

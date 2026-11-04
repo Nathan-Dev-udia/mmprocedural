@@ -1,0 +1,114 @@
+{
+  "nome_pt": "Órion",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 89,
+  "ficha": {
+    "habilidades": {
+      "For": 16,
+      "Vig": 15,
+      "Agi": 5,
+      "Des": 3,
+      "Lut": 12,
+      "Int": 1,
+      "Pro": 3,
+      "Pre": 4
+    },
+    "poderes": [
+      "a 66 pontos, Removível (–13 pontos) (53 PP)",
+      "str o-Harness: a str o- f or ce: Arranjo (30-pontos)",
+      "• a str o-Raio: Dano à Distância 15 (30 PP)",
+      "• a str o-Barrage: Dano à Distância 10, Multiataque (1 PP)",
+      "• t r actor Beam: Mover Objetos 15, Contínuo, Limitado a towing/pushing (1 PP)",
+      "f ligh t: Voo 12 (8,0 km/h), Movimento 5 (Dimensional Travel: New Genesis/Apokolips, Environmental Adaptation: Zero-G, Space Travel 3) (34 PP)",
+      "d og of War: Power-lifting 5 (Lifting Str 21; 50,000 tons); Regeneração 2 (7 PP)",
+      "i mmor tal: Imunidade 11 (Envelhecimento, Suporte Vital), Resistência Impenetrável 10 (21 PP)",
+      "Mother Box: Boom t e (Space Travel 3); i telligence ub n (Característica 2); r estoration (Cura 8); Removível (–5 pontos) (19 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Duro de Matar",
+      "Esforço Extraordinário",
+      "Destemido",
+      "Grande Vigor",
+      "Ação em Movimento",
+      "Ataque Poderoso",
+      "Ataque à Distância 5",
+      "Tomar a Iniciativa",
+      "Derrubar em Sequência",
+      "Esforço Supremo (Resistência)"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 6,
+        "total": 22
+      },
+      {
+        "nome": "Especialidade: Tactics",
+        "graduacoes": 7,
+        "total": 8
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 10,
+        "total": 14
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Combate à Distância: Astro-Harness",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 5,
+        "total": 8
+      }
+    ],
+    "iniciativa": 5,
+    "ataques": [
+      {
+        "nome": "Astro Raio",
+        "bonus": 12,
+        "alcance": "À distância",
+        "dano": "Dano 15"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 12,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 16"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 13,
+      "Aparar": 13,
+      "Fortitude": 16,
+      "Resistência": 15,
+      "Vontade": 12
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 118,
+      "Poderes": 100,
+      "Vantagens": 16,
+      "Perícias": 18,
+      "Defesas": 19
+    },
+    "total": null,
+    "complicacoes": [
+      {
+        "titulo": "Motivação",
+        "texto": "Responsibility, Temper: The Beast Within."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

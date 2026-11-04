@@ -1,0 +1,162 @@
+{
+  "nome_pt": "Escândalo Savage",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 161,
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 5,
+      "Agi": 5,
+      "Des": 5,
+      "Lut": 9,
+      "Int": 4,
+      "Pro": 2,
+      "Pre": 4
+    },
+    "poderes": [
+      "Savage Heir (Imortalidade 5, Imunidade 1 (Envelhecimento), Regeneração 2)"
+    ],
+    "equipamento": [
+      "Laminas Pesar (Força-based Dano 3, Improved Critical)"
+    ],
+    "vantagens": [
+      "Atraente",
+      "Benefit 3 (Millionaire)",
+      "Ataque Corpo-a-Corpo",
+      "Conectado",
+      "Rolamento Defensivo 3",
+      "Equipamento",
+      "Crítico Aprimorado (Laminas Pesar)",
+      "Languages 4",
+      "Liderança",
+      "Ação em Movimento",
+      "Precise Attack (corpo a corpo; Concealment)",
+      "Derrubar em Sequência",
+      "Prender Arma",
+      "Quebrar Arma",
+      "Bem-Informado"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 5,
+        "total": 10
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Laminas Pesar",
+        "graduacoes": 4,
+        "total": 13
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Especialidade: Business",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Especialidade: Criminal",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: History",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: Tactics",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 5,
+        "total": 7
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 3,
+        "total": 7
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 3,
+        "total": 7
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 6,
+        "total": 11
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 2,
+        "total": 6
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 5,
+        "total": 10
+      }
+    ],
+    "iniciativa": 5,
+    "ataques": [
+      {
+        "nome": "Laminas Pesar",
+        "bonus": 14,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 6, Crit. 18-20"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 3"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Aparar": 12,
+      "Fortitude": 10,
+      "Resistência": 8,
+      "Vontade": 9
+    },
+    "observacao_defesas": "*, Vontade 9 *sem Rolamento Defensivo",
+    "custos": {
+      "Habilidades": 74,
+      "Poderes": 13,
+      "Vantagens": 22,
+      "Perícias": 38,
+      "Defesas": 22
+    },
+    "total": 169,
+    "complicacoes": [
+      {
+        "titulo": "d addy i ssues",
+        "texto": "Scandal’s father, Vandal Savage is determined to make her do as he wishes. d epression: Since Knockout’s death, Scandal has been prone to bouts of drinking and depression."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

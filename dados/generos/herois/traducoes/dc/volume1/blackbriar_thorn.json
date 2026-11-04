@@ -1,0 +1,121 @@
+{
+  "nome_pt": "Blackbriar Thorn",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 278,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 8,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 6,
+      "Int": 4,
+      "Pro": 5,
+      "Pre": 3
+    },
+    "poderes": [
+      "Druidic mágico (Arranjo (36 pontos), Environment 5 (Extreme Frio, Extreme Calor, Impeded Movimento (2 graduações), Visibility, Variável Descriptors: Weather), AE: Crescimento 12 , AE: Mover Objetos 11 (Damaging, Variável Descriptor: Natural Materials like Air, Earth, and Water), AE: Dano à Distância 15 (Indirect 4, Variável Descriptor: Nature Attacks like Lightning, Earthen Spikes, etc.)); Imortalidade 16 ; Imunidade 30 (Fortitude Effects); Proteção 6 (Limitado—Loses one graduação per two graduações of Crescimento in use); Sentidos 2 (Magical Prontidão, Raio)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Artífice",
+      "Duro de Matar",
+      "Destemido",
+      "Languages 2 (English",
+      "Latin)",
+      "Ritualista",
+      "Tomar a Iniciativa",
+      "Rastrear"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 4,
+        "total": 10
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Especialidade: mágico",
+        "graduacoes": 10,
+        "total": 14
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Combate à Distância: Druidic mágico",
+        "graduacoes": 9,
+        "total": 10
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 5,
+        "total": 6
+      }
+    ],
+    "iniciativa": 1,
+    "ataques": [
+      {
+        "nome": "Damaging Mover Objetos",
+        "bonus": 10,
+        "alcance": "",
+        "dano": "Dano 11"
+      },
+      {
+        "nome": "Dano à Distância",
+        "bonus": 10,
+        "alcance": "",
+        "dano": "Dano 15"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 11,
+      "Aparar": 12,
+      "Resistência": 14,
+      "Vontade": 14
+    },
+    "observacao_defesas": "*, Aparar 12/6*, Fortitude —, Resistência 14/20*, Vontade 14 *With Crescimento.",
+    "custos": {
+      "Habilidades": 60,
+      "Poderes": 86,
+      "Vantagens": 8,
+      "Perícias": 31,
+      "Defesas": 29
+    },
+    "total": 214,
+    "complicacoes": [
+      {
+        "titulo": "Fish Out of Water",
+        "texto": "Thorn is a stranger to modern ways and ideas."
+      },
+      {
+        "titulo": "Fraqueza",
+        "texto": "Blackbriar Thorn is living wood and as such is Vulnerável to defoliants and fogo—treat each as a serious advantage to the Dano rating of any such attack (+5)."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

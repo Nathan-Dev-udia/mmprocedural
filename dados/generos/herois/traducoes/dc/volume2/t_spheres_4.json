@@ -1,0 +1,60 @@
+{
+  "nome_pt": "Esferas-T (4)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 61,
+  "ficha": {
+    "habilidades": {
+      "For": -4,
+      "Vig": "—",
+      "Agi": 0,
+      "Des": 0,
+      "Lut": 0,
+      "Int": "—",
+      "Pro": 0,
+      "Pre": "—"
+    },
+    "poderes": [
+      "Camuflagem 10, Limitado a Machines; Voo 6 (192 km/h); Característica (Database); Imunidade 30 (Fortitude effects); Proteção 8; Sentidos 4 (Comunicação Link—Mister Terrific, Infravisão, Rádio, Tracking); Encolhimento 12, Permanente, Inato; Weapons Systems (12-ponto Arranjo: Knockout Gas: Área de Nuvem Aflição 6 (resistido por Fortitude; Fatigado, Exausto, Adormecido); AE: Ofuscar: Aflição à Distância 6 (resistido por Fortitude; Vision Impaired, Vision Disabled, Vision Unaware); AE: Smoke Gas: Área de Nuvem Visual Camuflagem Attack 4; AE: Laser Grid: Área Moldável Sustentado Dano 4, Only as Team Attack; AE: Holographic Projection: Visual and Auditory Ilusão 4)"
+    ],
+    "equipamento": [],
+    "vantagens": [],
+    "pericias": [
+      {
+        "nome": "Combate à Distância: Dazzle",
+        "graduacoes": 12,
+        "total": 12
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 0,
+        "total": 12
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [
+      {
+        "nome": "Ofuscar",
+        "bonus": 12,
+        "alcance": "",
+        "dano": "Aflição 6, resistido por Fortitude"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 11,
+      "Aparar": 8,
+      "Resistência": 8
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Poderes": 94,
+      "Vantagens": 0,
+      "Perícias": 6,
+      "Defesas": 7
+    },
+    "total": 75,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

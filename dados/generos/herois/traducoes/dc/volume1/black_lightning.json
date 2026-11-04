@@ -1,0 +1,135 @@
+{
+  "nome_pt": "Raio Negro",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 59,
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 4,
+      "Agi": 4,
+      "Des": 6,
+      "Lut": 5,
+      "Int": 4,
+      "Pro": 3,
+      "Pre": 5
+    },
+    "poderes": [
+      "Electrokinesis: Arranjo (24 pontos)",
+      "• Lightning Bolt: Dano 12, Dynamic (25 PP)",
+      "• Ground Charge: Área de Explosão Aflição 11 (resistido por Fortitude; Tonto, Atordoado, Incapacitado) , Dynamic (2 PP)",
+      "• Ride the Lightning: Voo 4 (48 km/h), Concentração, Dynamic (2 PP)",
+      "• Short Circuit: Aflição 12 (resistido por Esquiva; Impaired, Disabled, Incapacitado), Limitado: Only effects electrical devices, robots, and cybernetics), Dynamic (2 PP)",
+      "• Static Escudo: Proteção 7, Aftfects Others, Sustentado, Alcance Aumentado (Corpo a Corpo), Distrativo, Dynamic (2 PP)",
+      "• Stun Shock: Aflição à Distância 9 (resistido por Fortitude; Tonto, Atordoado, Incapacitado), Dynamic (2 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Finta Ágil",
+      "Ataque Imprudente",
+      "Conectado",
+      "Rolamento Defensivo 4",
+      "Esforço Extraordinário",
+      "Improved Critical 2 (Lightning Bolts)",
+      "Iniciativa Aprimorada",
+      "Ataque Poderoso",
+      "Ataque à Distância 4"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 5,
+        "total": 9
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 10,
+        "total": 13
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Short Circuit",
+        "graduacoes": 5,
+        "total": 10
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 5,
+        "total": 10
+      },
+      {
+        "nome": "Especialidade: Education",
+        "graduacoes": 12,
+        "total": 16
+      },
+      {
+        "nome": "Especialidade: Politics",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 3,
+        "total": 8
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 3,
+        "total": 7
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Combate à Distância: Stun Shock",
+        "graduacoes": 3,
+        "total": 9
+      }
+    ],
+    "iniciativa": 8,
+    "ataques": [
+      {
+        "nome": "Lightning Bolts",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Dano 12, Crit. 18-20 Ground Charge — Área de Explosão, Aflição 11, resistido por Fortitude Stun Shock +13 À Distância, Aflição 9, resistido por Fortitude Short Circuit +10 Corpo a Corpo, Aflição 12 (electrical; electrical devices, robots, and cybernetics only)"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 3"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 14,
+      "Fortitude": 8,
+      "Aparar": 10,
+      "Resistência": 8,
+      "Vontade": 8
+    },
+    "observacao_defesas": "* Vontade 8 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 68,
+      "Perícias": 31,
+      "Poderes": 35,
+      "Defesas": 24,
+      "Vantagens": 16
+    },
+    "total": 174,
+    "complicacoes": [
+      {
+        "titulo": "Social Responsibility",
+        "texto": "Black Lightning is as interested in helping society by running a food drive or teaching a civics class at an inner-city high school as he is helping society by defeating super-villains. In addition to being a super hero, he has also been a high school principal and the U.S. Secretary of Education."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

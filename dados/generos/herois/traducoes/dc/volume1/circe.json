@@ -1,0 +1,126 @@
+{
+  "nome_pt": "Circe",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 118,
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 3,
+      "Agi": 2,
+      "Des": 3,
+      "Lut": 3,
+      "Int": 3,
+      "Pro": 4,
+      "Pre": 4
+    },
+    "poderes": [
+      "Imortalidade: Imunidade 1 (Envelhecimento) (1 PP)",
+      "mágico: Arranjo (34 pontos) mágico Raio: Dano à Distância 17 (34 PP)",
+      "• Bestiamorph: Aflição à Distância 8 (resistido por Vontade; Tonto, Compelido, Transformado), Progressivo (1 PP)",
+      "• Mystic Passage: Teleporte 11 (8 milhas), Preciso (1 PP)",
+      "• Spell of Sleep: Aflição à Distância 17 (resistido por Fortitude; Tonto, Atordoado, Adormecido) (1 PP)",
+      "• Veil of Ilusão: Ilusão 6 (All Sentidos), área 4, Seletivo (1 PP)",
+      "Mystic Escudo: Proteção 8, Impenetrável, Sustentado (16 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Artífice",
+      "Atraente",
+      "Tontear (Enganação)",
+      "Fascinar (Enganação)",
+      "Ritualista"
+    ],
+    "pericias": [
+      {
+        "nome": "Enganação",
+        "graduacoes": 10,
+        "total": 14
+      },
+      {
+        "nome": "Especialidade: mágico",
+        "graduacoes": 15,
+        "total": 18
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 10,
+        "total": 14
+      },
+      {
+        "nome": "Combate à Distância: mágico",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 7,
+        "total": 10
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "mágico Raio",
+        "bonus": 11,
+        "alcance": "À distância",
+        "dano": "Dano 17"
+      },
+      {
+        "nome": "Bestiamorph Aflição",
+        "bonus": 11,
+        "alcance": "À distância",
+        "dano": "Transformado"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 3,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 0"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 11,
+      "Fortitude": 11,
+      "Aparar": 11,
+      "Resistência": 11,
+      "Vontade": 17
+    },
+    "observacao_defesas": "* (Impenetrável 8), Vontade 17 *Without Mystic Escudo.",
+    "custos": {
+      "Habilidades": 44,
+      "Poderes": 115,
+      "Vantagens": 5,
+      "Perícias": 24,
+      "Defesas": 30
+    },
+    "total": null,
+    "complicacoes": [
+      {
+        "titulo": "Motivação",
+        "texto": "Hatred of Amazons and Wonder Woman."
+      },
+      {
+        "titulo": "Arrogance",
+        "texto": "Vast pride in her Imortal sorcery."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

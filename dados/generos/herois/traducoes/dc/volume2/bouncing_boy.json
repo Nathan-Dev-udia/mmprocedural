@@ -1,0 +1,92 @@
+{
+  "nome_pt": "Saltador",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 12,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 3,
+      "Agi": 0,
+      "Des": 0,
+      "Lut": 1,
+      "Int": 1,
+      "Pro": 1,
+      "Pre": 0
+    },
+    "poderes": [
+      "i nfla ted r ubber Ball f orm (Sustentado; Enhanced Advantage 7 (Defensive Roll 5, Improved Iniciativa, Move-by Action), Enhanced Skill 10 (Acrobatics +20), Salto 5 (250ft.), Movimento 1 (Safe Fall), Proteção 6 (Limitado a Physical Attacks Only); r ebound Slam (Arranjo (Limitado a Only Usable with Move-by Action), Força-based Dano 10, AE: Força-based Área de Explosão Dano 5)) t: Voo Ring (Comunicação 5 (subspace Rádio, e quipmen Anywhere, Limitado a Distress Signal –3), Voo 7 (400 km/h); Telepathic Ear Plug ( Compreender 3 (Languages), mental Comunicação 1 (Corpo a Corpo Range)); Transsuit (Imunidade 9 (Suporte Vital, except for Inanição and thirst)) antages: Beginner’s Luck,"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Benefício (Legion Membership)",
+      "a dv Defensive Attack",
+      "Rolamento Defensivo 5",
+      "Equipamento 8",
+      "Iniciativa Aprimorada",
+      "Inspirar 2",
+      "Interpor-se",
+      "Ação em Movimento",
+      "Ataque Poderoso"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 10,
+        "total": 20
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Ricochet Slam Array",
+        "graduacoes": 8,
+        "total": 9
+      },
+      {
+        "nome": "Especialidade: Earth",
+        "graduacoes": 5,
+        "total": 6
+      },
+      {
+        "nome": "Especialidade: Instruction",
+        "graduacoes": 8,
+        "total": 9
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 5,
+        "total": 5
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 4,
+        "total": 4
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [],
+    "defesas": {
+      "Esquiva": 6,
+      "Aparar": 6,
+      "Fortitude": 3,
+      "Resistência": 14,
+      "Vontade": 4
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Defesas": 14
+    },
+    "total": 92,
+    "complicacoes": [
+      {
+        "titulo": "r esponsibility",
+        "texto": "Bouncing Boy recognizes that his Powers can do some good and helps out however he can. r elationship: Bouncing Boy is deeply devoted to his wife, Duplicate Damsel."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

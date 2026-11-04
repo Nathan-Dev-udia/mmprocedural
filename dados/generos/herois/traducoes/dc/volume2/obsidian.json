@@ -1,0 +1,117 @@
+{
+  "nome_pt": "Obsidiano",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 80,
+  "ficha": {
+    "habilidades": {
+      "For": 8,
+      "Vig": 8,
+      "Agi": 6,
+      "Des": 2,
+      "Lut": 6,
+      "Int": 1,
+      "Pro": 3,
+      "Pre": 1
+    },
+    "poderes": [
+      "Shadow f orm: Camuflagem 4 (all Visual, Limitado a Darkness and Shadows); Alongamento 2 (30 feet); Enhanced Abilities 16 (Agilidade 4, Vigor 6, Força 6); Enhanced Defense 14 (Esquiva 6, Aparar 6); Enhanced Advantages 4 (Fast Grab, Hide in Plain Sight, Instant Up, Move-by Action); Característica 1 (Quick Change); Voo 4 (48 km/h); Imunidade 10 (Suporte Vital); Intangibilidade 4; Movimento 2 (Slithering, Wall-Crawling 2); Sentidos 2 (Visão no Escuro) (101 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Corpo-a-Corpo 4",
+      "Agarrar Rápido",
+      "Esconder-se a Plena Vista",
+      "Levantar Rápido",
+      "Sorte",
+      "Ação em Movimento"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 6,
+        "total": 7
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 3,
+        "total": 4
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 9,
+        "total": 11
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 3,
+        "total": 4
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 3,
+        "total": 4
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 5,
+        "total": 7
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [],
+    "defesas": {
+      "Esquiva": 12,
+      "Fortitude": 10,
+      "Aparar": 12,
+      "Resistência": 8,
+      "Vontade": 6
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 38,
+      "Perícias": 26,
+      "Poderes": 101,
+      "Defesas": 5,
+      "Vantagens": 5
+    },
+    "total": 175,
+    "complicacoes": [
+      {
+        "titulo": "d ark Connection",
+        "texto": "Obsidian gains his Powers through a c onnection to the Shadowlands, an inherently corrupting influence. nstabilit Legacy of i y: Obsidian inherited a predisposition to mental illness from his mother, a vulnerability exacerbated by his abusive adoptive father."
+      },
+      {
+        "titulo": "Sexuality",
+        "texto": "Obsidian is gay, and this might cause him difficulty in situations where prejudice is an issue. aLLI e S His father Alan Scott (the first Green Lantern), his sister, Jade, and his teammates in the JSA are all strong allies. Thanks to his past connections, he can also call on a variety of other he- roes. e ne MI e S Due to his strong self-identification with the JSA, their ene - mies are his, with Ian Karkull (presuming his survival) and Kid Karnevil representing his personal enemies."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

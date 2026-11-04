@@ -1,0 +1,155 @@
+{
+  "nome_pt": "Doctor Fate",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 162,
+  "ficha": {
+    "habilidades": {
+      "For": 10,
+      "Vig": 3,
+      "Agi": 2,
+      "Des": 3,
+      "Lut": 4,
+      "Int": 3,
+      "Pro": 12,
+      "Pre": 7
+    },
+    "poderes": [
+      "Amulet of Anubis: Removível (-6 pontos) (24 PP)",
+      "Mystic Attunement: Sentidos 5 (Magical Prontidão, mental, Extended 4) (5 PP)",
+      "Pocket Dimension: Movimento 1 (Dimension Travel 1), Increased Mass 8 (10 PP)",
+      "True Sight: Sentidos 8 (Analítico Sight, Sight Counters All Camuflagem, Sight Counters Ilusão, Perceptível: Glowing Eyes (-1 ponto)) (7 PP)",
+      "Helm of Nabu: Removível (-13 pontos) (54 PP)",
+      "Lord of Order Incarnate: Enhanced Advantage (Fearless); Prontidão Aprimorada 8; Presença Aprimorada 5; Característica 1 (Guidance of Nabu) (28 PP)",
+      "Magical Mastery: Arranjo (55 pontos)* • Spell Shattering: Nulificar 18, Broad (mágico), Preciso, Simultaneous; Dynamic (56 PP)",
+      "• Ankh Gate: Teleporte 13, Extended (8,000 milhas), Portal; Limitado a Extended; Dynamic (2 PP)",
+      "• Mystic Lightning Barrage: Dano à Distância 18, Multiataque; Dynamic (2 PP)",
+      "• Scrying: Remote Sensing 18 (Sight, Hearing), Dimensional; Dynamic (2 PP)",
+      "• Shields of Order: Deflexão 18; Dynamic (2 PP)",
+      "Longevity: Imunidade 1 (Age) (1 PP)",
+      "Telekinetic mágico: Força Aprimorada 8; Voo 6 (192 km/h); Mover Objetos 8; Proteção 8 (52 PP)",
+      "*Any user of the Helm without Nelson’s training and experience is treated as suffering a major penalty (see CD ADventures: Hero’s Handbook , page 15) when attempting to use this power."
+    ],
+    "equipamento": [
+      "HEADQUARTERS: TOWER OF FATE (24 PP)",
+      "Medium; Tou 20;"
+    ],
+    "vantagens": [
+      "Ataque Preciso",
+      "Artífice",
+      "Duro de Matar",
+      "Equipamento 5",
+      "Destemido",
+      "Desarmar Aprimorado",
+      "Derrubar Aprimorado",
+      "Languages 4 (several dead and occult languages)",
+      "Ritualista",
+      "Trance original state and manifested in Egypt following Jared Ste - vens’ death). Thanks to the reformation of the Justice Society he inspired by this",
+      "Mordru failed. Hector Hall",
+      "son of Carter and Sheira Hall and a former super hero who had died at the hands of one of his parents’ enemies",
+      "was reincarnated as the son of Hank Hall and Dawn Grainger",
+      "the former agents of Or - der and Chaos named Hawk and Dove. He was the destined successor to the mantle of Fate and as the offspring of Chaos and Order together",
+      "was an agent for balance instead of act - ing for either side in the ancient struggle. After a number of his own adventures and a quest to find his lost wife Lyta and their child",
+      "Hector enjoyed a brief interlude reunited with his love before they were both killed in a con - frontation with an unleashed Spectre in its attempts to rid the Earth of magic. Their spirits were taken to the Dreaming by their son Daniel",
+      "who had replaced Morpheus as Dream after"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 2,
+        "total": 12
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 6,
+        "total": 13
+      },
+      {
+        "nome": "Especialidade: mágico",
+        "graduacoes": 20,
+        "total": 23
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 6,
+        "total": 18
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 18
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 3,
+        "total": 10
+      },
+      {
+        "nome": "Combate à Distância: mágico Spells",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 7,
+        "total": 10
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Magical Mastery",
+        "bonus": 10,
+        "alcance": "",
+        "dano": "Range varies, Dano varies or other effects up to 18"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 10"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Fortitude": 10,
+      "Aparar": 8,
+      "Resistência": 11,
+      "Vontade": 20
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 46,
+      "Perícias": 31,
+      "Poderes": 123,
+      "Defesas": 25,
+      "Vantagens": 16
+    },
+    "total": 241,
+    "complicacoes": [
+      {
+        "titulo": "Overbearing Mentor",
+        "texto": "The longer Nelson wears the Helm of Nabu, the more influence its creator wields over him, until finally Nelson’s (or any long-term wielder’s) personality is subsumed under Nabu’s own."
+      },
+      {
+        "titulo": "Relacionamento",
+        "texto": "Married to Inza Nelson Responsibility: Nelson struggles under the weight of his many responsibilities as Earth’s foremost mystical protector and the successor to Nabu."
+      },
+      {
+        "titulo": "Restricted Power",
+        "texto": "The Helm decides who is and isn’t worthy to wear it. Those deemed unworthy suffer either a lethal Contínuo Rajada mental 20 or Contínuo Aflição 20 (resistido por Vontade; Tonto, Atordoado, Transformado) that leaves the unfortunate target in a Permanente vegetative state."
+      },
+      {
+        "titulo": "Identidade Secreta",
+        "texto": "Kent Nelson his Destruição. Nabu faced the Spectre in a fight he knew he was going to lose and during which he would die, all in order to force the Presença (the power to which the Spectre answered) to notice and rein in its agent. Nabu’s death ended the Ninth Age of mágico and marked the beginning of the Tenth. Following Nabu and Hall’s deaths, the Helm of Fate made its way through many potential wielders, either rejecting them, being rejected by them, or in at least one instance being taken away from a wielder (by the angel Zauriel). It finally made its way into the possession of Kent V. Nelson, the grand-nephew of Kent Nelson. A reluctant possessor of the Helm and power, the current Doctor Fate is still learning how to use it properly and without coming to a bad end in the process—a learning curve that is ongoing. PERSONALITY Kent Nelson is a brave and caring man, devoted to his wife and his duties. Under the influence of Nabu, he is distant and Frio, almost inhuman in demeanor."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

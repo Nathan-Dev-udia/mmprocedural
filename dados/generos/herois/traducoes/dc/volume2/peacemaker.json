@@ -1,0 +1,165 @@
+{
+  "nome_pt": "Pacificador",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 97,
+  "ficha": {
+    "habilidades": {
+      "For": 4,
+      "Vig": 3,
+      "Agi": 3,
+      "Des": 8,
+      "Lut": 8,
+      "Int": 3,
+      "Pro": 2,
+      "Pre": 1
+    },
+    "poderes": [
+      "36 Defenses 59 Advantages 51 Total 212"
+    ],
+    "equipamento": [
+      "a rsenal: Arranjo (15 pontos)",
+      "• a ssault r ifle: À Distância Multiataque Dano 5 (15 PP)",
+      "• Combat k nife: Força-based Dano 2, Improved Critical (1 PP)",
+      "• f r agmentation Grenades: À Distância Área de Explosão Dano 5 (1 PP)",
+      "• Heavy Pistola: Dano à Distância 4 (1 PP)",
+      "• Submachine Gun: À Distância Multiataque Dano 4 (1 PP)",
+      "• Espada: Força-based Dano 3, Improved Critical (1 PP)",
+      "H q : p ea C e M aker Ca V ern • 14 POI n TS Size: Large t ou: 12 f ea tures: Communications, Computer, Concealed,"
+    ],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Benefit 3 (Millionaire)",
+      "Ataque Corpo-a-Corpo 5",
+      "Equipamento 21",
+      "Iniciativa Aprimorada",
+      "Languages 3 (German",
+      "French",
+      "Italian",
+      "Spanish",
+      "English Native)",
+      "Ataque Poderoso",
+      "Precise Attack (à distância; Cover)",
+      "Ataque à Distância 7",
+      "Saque Rápido",
+      "Assustar",
+      "Derrubar em Sequência",
+      "Maestria em Arremesso"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 2,
+        "total": 10
+      },
+      {
+        "nome": "Especialidade: Tactics",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 8,
+        "total": 9
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 6,
+        "total": 7
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 10,
+        "total": 13
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 2,
+        "total": 10
+      }
+    ],
+    "iniciativa": 7,
+    "ataques": [
+      {
+        "nome": "Assault Rifle",
+        "bonus": 15,
+        "alcance": "À distância",
+        "dano": "Multiataque Dano 5 Fragmentation Grenade — À Distância, Área de Explosão Dano 5"
+      },
+      {
+        "nome": "Heavy Pistola",
+        "bonus": 15,
+        "alcance": "À distância",
+        "dano": "Dano 4"
+      },
+      {
+        "nome": "Submachine Gun",
+        "bonus": 15,
+        "alcance": "À distância",
+        "dano": "Multiataque Dano 4"
+      },
+      {
+        "nome": "Espada",
+        "bonus": 13,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 7, Crit. 19-20"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 15,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 4 efen S e d Esquiva 13 Fortitude 11 Aparar 13 Resistência 7 Vontade 8 Po er ponto W S Abilities 64 Skills 32"
+      }
+    ],
+    "defesas": {},
+    "observacao_defesas": "",
+    "custos": {},
+    "total": null,
+    "complicacoes": [
+      {
+        "titulo": "Motivação",
+        "texto": "Doing the right thing. o bsession: Keeping the peace, no matter what the cost."
+      },
+      {
+        "titulo": "Peculiaridade",
+        "texto": "Sees his dead father and deceased victims of terrorism egging him on."
+      },
+      {
+        "titulo": "Secret den i tity",
+        "texto": "Christopher Smith."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "nome_pt": "Lanterna Verde (John Stewart)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 240,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 3,
+      "Agi": 2,
+      "Des": 4,
+      "Lut": 5,
+      "Int": 3,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "poderes": [
+      "Green Lantern Power Ring: 126 pontos, Removível (–25 pontos) (101 PP)",
+      "AI and Database: Features 2 (see description) (2 PP)",
+      "Comunicação: Sentidos 1 (Comunicação Link to Central Power Battery) (1 PP)",
+      "Voo: Voo 14 (32,0 km/h), Movimento 4 (Environmental Adaptation: Zero-G, Space Travel 3) (36 PP)",
+      "Campo de Força: Impenetrável Proteção 12; Imunidade 10 (Suporte Vital) (34 PP)",
+      "Force Manipulation: Arranjo(30 pontos)",
+      "• Force Raio: Dano à Distância 15, Dynamic (31 PP)",
+      "• Force Bubble: Affects Others, Área de Explosão, and À Distância on Imunidade 10 (Suporte Vital), Dynamic (2 PP)",
+      "• Force Constructs: Criar Objetos 14, Increased Mass, Preciso, Dynamic (2 PP)",
+      "• Lifting: Mover Objetos 15, Dynamic (2 PP)",
+      "• Mobile Constructs: Criar Objetos 12, Movable, Dynamic (2 PP)",
+      "Scanning Beam: Sentidos 6 (Analítico Auditory, Chemical, and Visual) (6 PP)",
+      "Universal Translator: Compreender Languages 4 (8 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Esforço Extraordinário",
+      "Destemido",
+      "Mira Aprimorada",
+      "Trabalho em Equipe"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 4,
+        "total": 9
+      },
+      {
+        "nome": "Especialidade: Architecture & Engineering",
+        "graduacoes": 12,
+        "total": 15
+      },
+      {
+        "nome": "Especialidade: Academics",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: Military",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 5,
+        "total": 7
+      },
+      {
+        "nome": "Combate à Distância: Power Ring",
+        "graduacoes": 7,
+        "total": 11
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 8,
+        "total": 11
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 9,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2"
+      },
+      {
+        "nome": "Power Ring",
+        "bonus": 11,
+        "alcance": "",
+        "dano": "Range, Dano 15"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 9,
+      "Fortitude": 11,
+      "Aparar": 11,
+      "Resistência": 15,
+      "Vontade": 15
+    },
+    "observacao_defesas": "* Vontade 15 *Without Power Ring Proteção.",
+    "custos": {
+      "Habilidades": 46,
+      "Perícias": 30,
+      "Poderes": 101,
+      "Defesas": 34,
+      "Vantagens": 4
+    },
+    "total": 215,
+    "complicacoes": [
+      {
+        "titulo": "Self-Doubt",
+        "texto": "John is prone to second-guess himself after his role in the Destruição of Xanshi."
+      },
+      {
+        "titulo": "Perda de Poder",
+        "texto": "The power ring needs periodic recharging and issues a warning as its power runs low."
+      },
+      {
+        "titulo": "Fraqueza",
+        "texto": "Green Lantern power rings depend on the willpower of the wearer; the maximum graduação of the ring’s effects is equal to the wearer’s Vontade graduação, and moments of self-doubt or hesitation can cause the ring to fail."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

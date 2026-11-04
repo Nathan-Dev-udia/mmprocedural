@@ -1,0 +1,65 @@
+{
+  "nome_pt": "Platina (Homens Metálicos)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 45,
+  "ficha": {
+    "habilidades": {
+      "For": 6,
+      "Vig": "—",
+      "Agi": 5,
+      "Des": 5,
+      "Lut": 6,
+      "Int": 3,
+      "Pro": 1,
+      "Pre": 5
+    },
+    "poderes": [
+      "r obot Body (Imunidade 57 (Fortitude effects, Chemical effects, mental effects, Electrical Dano, Frio, Calor); Proteção 10, Impenetrável), Shapeshifting (Alongamento 8; Metamorfose 4 (any form), Peculiaridade: Limitado a Same Color; Variável 2 (physical traits, 10 power pontos, plus changing existing physical trait allocations)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Atraente",
+      "Set-Up",
+      "Trabalho em Equipe"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 4,
+        "total": 10
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 6,
+        "total": 9
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [],
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 10,
+      "Resistência": 10,
+      "Vontade": 6
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Defesas": 14
+    },
+    "total": 217,
+    "complicacoes": [
+      {
+        "titulo": "d oing Good",
+        "texto": "All of the Metal Men are driven to make the world a better place. elationship: r Tina is in love with Magnus and pines for him often."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

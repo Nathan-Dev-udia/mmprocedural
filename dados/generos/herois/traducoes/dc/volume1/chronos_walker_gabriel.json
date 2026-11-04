@@ -1,0 +1,108 @@
+{
+  "nome_pt": "Chronos (Walker Gabriel)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 116,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 4,
+      "Des": 3,
+      "Lut": 2,
+      "Int": 4,
+      "Pro": 3,
+      "Pre": 4
+    },
+    "poderes": [
+      "Chronal Displacement Suit (Arranjo (10 pontos) Time Travel (Movimento 3 (Full Time Travel), Movimento 2 (Alternate Timelines)), AE: Temporal Displacement Field ( Rapidez 10), AE: Tesseract Storage (Característica 4 (Can store up to 2,000 lbs of items and summon them to hand at Vontade)))"
+    ],
+    "equipamento": [
+      "Headquarters: Chronopolis (Awesome; Tou 14; Concealed 4, Dimensional Portal, Isolated, Laboratory, Library, Living Space, Personnel, Power System, Security System, Self- Repairing, Temporal Limbo, Workshop)"
+    ],
+    "vantagens": [
+      "Avaliação",
+      "Beginner’s Luck",
+      "Conectado",
+      "Tontear (Enganação)",
+      "Rolamento Defensivo 6",
+      "Equipamento 5",
+      "Evasion",
+      "Iniciativa Aprimorada 2",
+      "Ferramentas Improvisadas",
+      "Tomar a Iniciativa",
+      "Provocar",
+      "Bem-Informado"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 12,
+        "total": 16
+      },
+      {
+        "nome": "Especialidade: History",
+        "graduacoes": 5,
+        "total": 9
+      },
+      {
+        "nome": "Especialidade: Physics",
+        "graduacoes": 6,
+        "total": 11
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 6,
+        "total": 10
+      }
+    ],
+    "iniciativa": 12,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 6,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Aparar": 12,
+      "Fortitude": 8,
+      "Resistência": 8,
+      "Vontade": 8
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 48,
+      "Poderes": 12,
+      "Vantagens": 22,
+      "Perícias": 26,
+      "Defesas": 29
+    },
+    "total": 137,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

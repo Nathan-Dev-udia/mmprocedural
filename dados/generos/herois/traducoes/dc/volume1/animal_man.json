@@ -1,0 +1,101 @@
+{
+  "nome_pt": "Homem-Animal",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 16,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 3,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 4,
+      "Int": 1,
+      "Pro": 3,
+      "Pre": 2
+    },
+    "poderes": [
+      "Animal Mimicry: Variável 8 (Physical Traits of Animals, 40 power pontos), Ação de Movimento (56 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Empatia com Animais",
+      "Beginner’s Luck",
+      "Estrangular",
+      "Rolamento Defensivo 3",
+      "Defesa Aprimorada",
+      "Ação em Movimento",
+      "Redirecionar"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: Animal Rights",
+        "graduacoes": 5,
+        "total": 6
+      },
+      {
+        "nome": "Especialidade: Animal Powers",
+        "graduacoes": 8,
+        "total": 9
+      },
+      {
+        "nome": "Especialidade: Environmentalism",
+        "graduacoes": 5,
+        "total": 6
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 6,
+        "total": 8
+      }
+    ],
+    "iniciativa": 1,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 6,
+      "Fortitude": 6,
+      "Aparar": 6,
+      "Resistência": 6,
+      "Vontade": 8
+    },
+    "observacao_defesas": "* Vontade 8 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 34,
+      "Perícias": 20,
+      "Poderes": 56,
+      "Defesas": 15,
+      "Vantagens": 9
+    },
+    "total": 134,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

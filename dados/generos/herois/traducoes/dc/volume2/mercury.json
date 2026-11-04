@@ -1,0 +1,64 @@
+{
+  "nome_pt": "Mercúrio (Homens Metálicos)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 45,
+  "ficha": {
+    "habilidades": {
+      "For": 5,
+      "Vig": "—",
+      "Agi": 8,
+      "Des": 8,
+      "Lut": 7,
+      "Int": 1,
+      "Pro": 1,
+      "Pre": 1
+    },
+    "poderes": [
+      "r obot Body (Imunidade 40 (Fortitude effects, mental effects); Proteção 12, Impenetrável), Shapeshifting (Alongamento 6; Metamorfose 4 (any form), Peculiaridade: Limitado a Same Color; Variável 2 (physical traits, 10 power pontos, plus changing existing physical trait allocations)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Destemido",
+      "Ataque Poderoso"
+    ],
+    "pericias": [],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 7,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 13"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 8,
+      "Resistência": 12,
+      "Vontade": 6
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 70,
+      "Poderes": 103,
+      "Vantagens": 3,
+      "Perícias": 0,
+      "Defesas": 11
+    },
+    "total": 187,
+    "complicacoes": [
+      {
+        "titulo": "d oing Good",
+        "texto": "All of the Metal Men are driven to make the world a better place."
+      },
+      {
+        "titulo": "Protector",
+        "texto": "Iron knows he’s the strongest and often takes the lead in battle to protect others from harm."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

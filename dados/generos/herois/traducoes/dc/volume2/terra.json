@@ -1,0 +1,100 @@
+{
+  "nome_pt": "Terra",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 230,
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 2,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 2,
+      "Int": 1,
+      "Pro": 1,
+      "Pre": 4
+    },
+    "poderes": [
+      "f lying r ocks: Voo 6 (192 km/h), Sutil, Platform (chunk of rock) (7 PP)",
+      "Geokinesis: Dynamic Arranjo (28 pontos)",
+      "• Shift e arth: Criar Objetos 13 (Rock/Earth), Contínuo, Extended Range, Inato, Limitado: Needs ground or rock (29 PP)",
+      "• Catapult Golpe: Dano à Distância 14, Limitado: Needs ground or rock, Linked to Aflição à Distância 14 (resistido por Esquiva; Tonto and Vulnerável, Imóvel and Prone), Extra Condition, Instant Recovery, Limitado Degree; Dynamic (2 PP)",
+      "• d rill t hr ough: À Distância Escavação 9, Affects Others (2 PP)",
+      "• Jagged e arth: Environment 4 (250 foot Raio, Criar Objetos uneven ground conditions; Impede Movimento 2), Seletivo (2 PP)",
+      "• Sinkhole: Aflição à Distância 14 (resistido por Esquiva; Impedido, Imóvel, Paralisado), Contínuo, Cumulativo, Limitado a targets on the ground, Resistível (Fortitude) (2 PP)",
+      "• Stone Barrage: Dano à Distância 14, Multiataque, Limitado: Needs ground or rock (2 PP)",
+      "• t r emors: área Burst 2 (60 feet) Aflição 12 (resistido por Esquiva; Impedido and Vulnerável, Indefeso and Prone), Extra Condition, Concentração, Instant Recovery, Limitado Degree, Limitado a targets on the ground (2 PP)",
+      "• Undermine: área Burst 2 (60 feet) Enfraquecer Resistência 12, Affects Only Objects, Limitado a targets on the ground (2 PP)",
+      "r ock Shields: Dynamic Arranjo (12 pontos)",
+      "• Stone"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Evasion",
+      "Grande Vigor",
+      "Defesa Aprimorada",
+      "Levantar Rápido",
+      "Languages (Markovian",
+      "English)",
+      "Ataque Poderoso",
+      "Maestria em Perícia (Deception checks)",
+      "Provocar"
+    ],
+    "pericias": [
+      {
+        "nome": "Enganação",
+        "graduacoes": 12,
+        "total": 16
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 8,
+        "total": 9
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 5,
+        "total": 6
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Combate à Distância: Geokinesis à distância Powers",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 6,
+        "total": 9
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [],
+    "defesas": {},
+    "observacao_defesas": "",
+    "custos": {},
+    "total": null,
+    "complicacoes": [
+      {
+        "titulo": "Unbalanced",
+        "texto": "Behind her rough but likeable personality, Tara is amoral and a borderline sociopath; while she can control herself in order to complete her objectives, she can fly into destructive rages. Her Geokinesis increases exponentially while in this state, but she can’t control it as finely. i mmor al Loyalty: Tara is Deathstroke’s lover, despite the large age difference between them (and her being underage as well). She is only loyal to him, and his manipulations always succeed with her."
+      },
+      {
+        "titulo": "Markovian Bastard",
+        "texto": "Tara is the unrecognized daughter of the King of Markovia and half-sister to Geo-Force, the legitimate (if abdicating) heir. She is very resentful of being exiled along with her mother."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

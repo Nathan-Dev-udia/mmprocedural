@@ -1,0 +1,150 @@
+{
+  "nome_pt": "Superwoman",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 135,
+  "ficha": {
+    "habilidades": {
+      "For": 16,
+      "Vig": 14,
+      "Agi": 10,
+      "Des": 8,
+      "Lut": 14,
+      "Int": 2,
+      "Pro": 4,
+      "Pre": 6
+    },
+    "poderes": [
+      "Gaze of Hyperion ( Dano à Distância 14); mágico Lasso (Mover Objetos 16 Linked to Aflição à Distância 16 (resistido por Vontade; Compelido), Limitado a Acting Out Hidden Desires (One Degree, no other effects), Facilmente Removível (–24 pontos)); Quick Change ( Característica 1 (Change into Superwoman as a Ação Livre)); Velocidade of Metis (Voo 11 (4,0 km/h)); Força of Atlas (Força Aprimorada 6, Limitado a Lifting (lifting Str 22; 100,000 tons))"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Atraente 2",
+      "Benefit 5 (CSA member)",
+      "Conectado",
+      "Languages 2",
+      "Ataque à Distância 4",
+      "Trabalho em Equipe"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 6,
+        "total": 16
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 4,
+        "total": 20
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 6,
+        "total": 12
+      },
+      {
+        "nome": "Especialidade: Mythology",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Especialidade: Journalism",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Especialidade: Streetwise",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 6,
+        "total": 12
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 4,
+        "total": 10
+      },
+      {
+        "nome": "Combate à Distância: Gaze",
+        "graduacoes": 2,
+        "total": 10
+      },
+      {
+        "nome": "Combate à Distância: Lasso",
+        "graduacoes": 2,
+        "total": 10
+      }
+    ],
+    "iniciativa": 8,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 14,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 16"
+      },
+      {
+        "nome": "Gaze",
+        "bonus": 14,
+        "alcance": "À distância",
+        "dano": "Dano 14"
+      },
+      {
+        "nome": "Lasso",
+        "bonus": 14,
+        "alcance": "À distância",
+        "dano": "Mover Objetos 16"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 16,
+      "Aparar": 16,
+      "Fortitude": 14,
+      "Resistência": 14,
+      "Vontade": 16
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 148,
+      "Poderes": 97,
+      "Vantagens": 15,
+      "Perícias": 31,
+      "Defesas": 20
+    },
+    "total": 311,
+    "complicacoes": [
+      {
+        "titulo": "Relacionamentos",
+        "texto": "Superwoman maintains a passionate but erratic romance with Owlman and a dysfunctional marriage to Ultraman."
+      },
+      {
+        "titulo": "Identidade Secreta",
+        "texto": "Lois Lane."
+      },
+      {
+        "titulo": "Peculiaridade",
+        "texto": "Thrill seeker who Vontade “try anything once. ”"
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

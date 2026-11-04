@@ -1,0 +1,132 @@
+{
+  "nome_pt": "Machiste",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 257,
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 4,
+      "Agi": 4,
+      "Des": 2,
+      "Lut": 9,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 3
+    },
+    "poderes": [
+      "Mace Hand (Força-Based Dano 4, Característica (+2 to Smash checks))"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Benefit 3 (King of Kiro)",
+      "Rolamento Defensivo 3",
+      "Agarrar Aprimorado",
+      "Quebrar Aprimorado",
+      "Inspirar",
+      "Liderança",
+      "Ação em Movimento",
+      "Ataque Poderoso",
+      "Prone-Fighting",
+      "Ataque à Distância 3",
+      "Preparar",
+      "Assustar",
+      "Derrubar em Sequência",
+      "Trabalho em Equipe",
+      "Rastrear",
+      "Quebrar Arma"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 1,
+        "total": 5
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 10,
+        "total": 13
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Mace Hand",
+        "graduacoes": 2,
+        "total": 11
+      },
+      {
+        "nome": "Especialidade: Survival",
+        "graduacoes": 6,
+        "total": 7
+      },
+      {
+        "nome": "Especialidade: Skartaris",
+        "graduacoes": 9,
+        "total": 10
+      },
+      {
+        "nome": "Especialidade: Tactics",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 5,
+        "total": 7
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 9,
+        "total": 12
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 2,
+        "total": 5
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 3,
+        "total": 7
+      }
+    ],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Mace Hand",
+        "bonus": 11,
+        "alcance": "",
+        "dano": "Dano 7"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 9,
+        "alcance": "",
+        "dano": "Dano 3"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 11,
+      "Fortitude": 10,
+      "Resistência": 7,
+      "Vontade": 8
+    },
+    "observacao_defesas": "*, Vontade 8 *sem Rolamento Defensivo",
+    "custos": {
+      "Habilidades": 56,
+      "Poderes": 5,
+      "Vantagens": 23,
+      "Perícias": 29,
+      "Defesas": 20
+    },
+    "total": 133,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

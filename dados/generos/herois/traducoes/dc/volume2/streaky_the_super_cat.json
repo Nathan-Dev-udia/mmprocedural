@@ -1,0 +1,89 @@
+{
+  "nome_pt": "Raiado, o Supergato",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 289,
+  "ficha": {
+    "habilidades": {
+      "For": 10,
+      "Vig": 10,
+      "Agi": 5,
+      "Des": 0,
+      "Lut": 4,
+      "Int": -3,
+      "Pro": 2,
+      "Pre": 1
+    },
+    "poderes": [
+      "Cat (Movimento 1 (Safe Fall); Encolhimento 6, Inato, Normal Força, Permanente); f ligh t (Voo 15 (64,0 km/h)), ae : f ast (Velocidade 16 (64,0 km/h*), Rapidez 6, Stacks with Superspeed); i n vulnerability (Resistência Impenetrável 10; Imunidade 10 (Suporte Vital)); Super-Claws (Força-based Dano 2); Super-Sentidos (Sentidos 15 (Aguçado and Audição Estendida, Visão Estendida 3, Infravisão, Visão Microscópica 4, Ultra-Audição, Vision Penetrates Camuflagem (except lead))); Super-Velocidade (Rapidez 8); Super-Força (Força Aprimorada 3, Limitado a Lifting (lifting Str 13; 200 tons))"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Defensivo",
+      "Rolamento Defensivo 2",
+      "Inimigo Favorito (Mice)",
+      "Iniciativa Aprimorada"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 5,
+        "total": 10
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 7,
+        "total": 17
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Super-Claws",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: Purr-suasion",
+        "graduacoes": 5,
+        "total": 6
+      }
+    ],
+    "iniciativa": 9,
+    "ataques": [
+      {
+        "nome": "Super-Claws",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 12"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 4,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 10"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 10,
+      "Fortitude": 10,
+      "Resistência": 12,
+      "Vontade": 4
+    },
+    "observacao_defesas": "*, Aparar 10*, Fortitude 10, Resistência 12/10**, Vontade 4 *Includes Encolhimento modifiers. **sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 58,
+      "Poderes": 100,
+      "Vantagens": 5,
+      "Perícias": 15,
+      "Defesas": 7
+    },
+    "total": 185,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

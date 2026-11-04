@@ -1,0 +1,150 @@
+{
+  "nome_pt": "Katana",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 299,
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 3,
+      "Agi": 5,
+      "Des": 5,
+      "Lut": 8,
+      "Int": 1,
+      "Pro": 5,
+      "Pre": 3
+    },
+    "poderes": [
+      "Soultaker Espada: Enhanced Aparar 3; Característica 1 (Souls In Espada); Força-based Dano 3, Penetrante 3; Facilmente Removível (-4 pontos) (6 PP)"
+    ],
+    "equipamento": [
+      "20 pontos of martial arts weapons and gear."
+    ],
+    "vantagens": [
+      "Ataque Preciso",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 2",
+      "Equipamento 4",
+      "Improved Critical 2 (Shuriken)",
+      "Improved Critical 4 (Espada)",
+      "Improved Critical 2 (Desarmado)",
+      "Desarmar Aprimorado",
+      "Agarrar Aprimorado",
+      "Imobilizar Aprimorado",
+      "Iniciativa Aprimorada",
+      "Quebrar Aprimorado",
+      "Derrubar Aprimorado",
+      "Levantar Rápido",
+      "Language (English; Japanese native)",
+      "Luta Caída",
+      "Ataque Poderoso",
+      "Precise Attack 4 (Ranged",
+      "Close; Cover and Concealment)",
+      "Saque Rápido",
+      "Assustar",
+      "Derrubar em Sequência 2",
+      "Provocar"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 10,
+        "total": 15
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 10,
+        "total": 13
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Martial Art Weapons",
+        "graduacoes": 6,
+        "total": 14
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 9,
+        "total": 17
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 6,
+        "total": 11
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 10,
+        "total": 15
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Combate à Distância: Martial Art Weapons",
+        "graduacoes": 12,
+        "total": 17
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 13,
+        "total": 18
+      }
+    ],
+    "iniciativa": 9,
+    "ataques": [
+      {
+        "nome": "Shuriken",
+        "bonus": 17,
+        "alcance": "À distância",
+        "dano": "Dano 3, Crit. 18-20"
+      },
+      {
+        "nome": "Espada",
+        "bonus": 14,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 6, Penetrante 3, Crit. 16-20"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 17,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 3, Crit. 18-20"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Fortitude": 8,
+      "Aparar": 15,
+      "Resistência": 5,
+      "Vontade": 10
+    },
+    "observacao_defesas": "* Resistência 5/3** Vontade 10 *Without Soultaker. **sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 66,
+      "Perícias": 45,
+      "Poderes": 6,
+      "Defesas": 21,
+      "Vantagens": 35
+    },
+    "total": 173,
+    "complicacoes": [
+      {
+        "titulo": "Justice",
+        "texto": "Katana believes the world should be a just place and she does what she can to make it that way."
+      },
+      {
+        "titulo": "Honra",
+        "texto": "Katana has a strong sense of honor and won’t unfairly take advantage when in a position of power."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

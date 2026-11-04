@@ -1,0 +1,65 @@
+{
+  "nome_pt": "Homem-Negativo",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 179,
+  "ficha": {
+    "habilidades": {
+      "For": 9,
+      "Vig": 4,
+      "Agi": 4,
+      "Des": 3,
+      "Lut": 6,
+      "Int": 1,
+      "Pro": 4,
+      "Pre": 2
+    },
+    "poderes": [
+      "Negative Man ( Alternate Form (222 pontos); Ativação (Ação de Movimento, -1 ponto), Fast ( Enhanced Advantages 9 (Corpo a Corpo Attack 6, Improved Iniciativa 2, Uncanny Esquiva)), Voo ( Voo 18 (500,0 km/h)), Inhuman ( Imunidade 53 (Envelhecimento, Critical Hits, Fortitude Effects, Vontade Effects, Suporte Vital)), Intangible ( Intangibilidade 3 (Energy Form)), Negative Energy Body (Affects Corporeal Reação Dano 12, Penetrante 12 Linked to Affects Corporeal Corpo a Corpo Range Nulificar 12 (Electronic Equipment)), Tactile Telekinesis (Força Aprimorada 8, Affects Corporeal 9)) Advantages; Corpo a Corpo Attack 6 , Extraordinary Effort, Improved Iniciativa 2 , Trance, Uncanny Esquiva Skills; Athletics 4 (+5), Deception 4 (+9), Insight 6 (+10), Perception 7 (+11), Persuasion 4 (+10), Technology 4 (+5), Vehicles 9 (+12)"
+    ],
+    "equipamento": [],
+    "vantagens": [],
+    "pericias": [],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "/",
+        "bonus": 9,
+        "alcance": "",
+        "dano": ", Desarmado +6/+12 (Corpo a Corpo, Dano 1/9*), Negative Energy Body +12* (Corpo a Corpo, Dano 12 Linked to Nulificar 12*)"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 8,
+      "Fortitude": 6,
+      "Resistência": 4,
+      "Vontade": 6
+    },
+    "observacao_defesas": "*, Resistência 4, Vontade 6/Immune* *In Negative Man form.",
+    "custos": {
+      "Habilidades": 50,
+      "Poderes": 221,
+      "Vantagens": 2,
+      "Perícias": 19,
+      "Defesas": 10
+    },
+    "total": 302,
+    "complicacoes": [
+      {
+        "titulo": "Preconceito",
+        "texto": "Larry Trainor lives life as a human mummy, wrapped in bandages to contain his strange energies. He is treated as an outcast everywhere."
+      },
+      {
+        "titulo": "Fraqueza",
+        "texto": "Larry Trainor (or whichever host body) grows weaker the longer the Negative Man is out of his body. He is able to act, but only through extreme effort. In addition, the Negative Man must return to Trainor’s body after roughly a minute or risk Trainor’s death."
+      },
+      {
+        "titulo": "Fraqueza",
+        "texto": "The Negative Spirit is Vulnerável to attacks with the electromagnetic descriptor, including EMP attacks and magnetic force fields. It suffers a -5 penalty to resist such effects."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

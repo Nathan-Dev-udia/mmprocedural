@@ -1,0 +1,201 @@
+{
+  "nome_pt": "Amazo",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 13,
+  "ficha": {
+    "habilidades": {
+      "For": 19,
+      "Vig": "—",
+      "Agi": 10,
+      "Des": 8,
+      "Lut": 11,
+      "Int": 8,
+      "Pro": 7,
+      "Pre": 7
+    },
+    "poderes": [
+      "Absorbo Cells: Variável Effect 20 (All Abilities, Powers, and Skills), Contínuo, Limitado a only those traits a target possesses, Limitado a targets in near vicinity (120 PP)",
+      "Android Body: Imunidade 40 (Fortitude Effects, mental Effects) (40 PP)",
+      "Aquatic: Movimento 1 (Environmental Adaption: Aquatic); Sentidos 1 (Visão na Penumbra) (3 PP)",
+      "Voo: Arranjo (30 pontos) Voo: Voo 15 (64,0 km/h) (30 PP)",
+      "• Running: Velocidade 20 (2,000,0 km/h) (1 PP)",
+      "• Space Voo: Movimento 1 (Space Travel) (1 PP)",
+      "• Natação: Natação 10 (800 km/h) (1 PP)",
+      "Vision Blasts: Arranjo (30 pontos)",
+      "• Calor Vision: Dano à Distância 15 (30 PP)",
+      "• Martian Vision: Dano à Distância 11 (force) (1 PP)",
+      "Marine Telepatia: Arranjo (57 pontos)",
+      "• Summon Marine Life 8 (120 pontos), Horde, mental Link, Multiple Minions 2 (4 minions), Variável General Type (Marine Life), Limitado a in or near water (57 PP)",
+      "• Summon Marine Life 4 (60 pontos), Horde, mental Link, Multiple Minions 7 (128 minions), Variável General Type (Marine Life), Limitado a in or near water (1 PP)",
+      "• Compreender Animals 2, mental Comunicação 4, Limitado a Marine Life (1 PP)",
+      "Martian Morphology: Dynamic Arranjo (21 pontos)",
+      "• Intangibility: Intangibilidade 4, Dynamic (21 PP)",
+      "• Invisibility: Visual Camuflagem 4, Dynamic (2 PP)",
+      "• Shapeshifting: Metamorfose (Any Form) 4, Dynamic (2 PP)",
+      "Run On Water: Movimento 1 (Water Walking), Limitado a While Moving (1 PP)",
+      "Run Up Walls: Movimento 2 (Wall-crawling 2), Limitado a While Moving (2 PP)",
+      "Super-Sentidos: Sentidos 16 (Aguçado and Audição Estendida, Visão Estendida 3, Infravisão, mental Prontidão, Visão Microscópica 4, Ultra-Audição, Vision Penetrates Camuflagem) (16 PP)",
+      "Super-Velocidade: Enhanced Defenses 12 (Esquiva and Aparar), Enhanced Advantages 18 (Agile Feint, Evasion 2, Improved Iniciativa 10, Interpose, Instant Up, Move-by Action, Seize Iniciativa, Takedown), Rapidez 20, Velocidade 20 (2,000,000) (77 PP)",
+      "Telepatia: mental Comunicação 5, Leitura mental 11 (42 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Finta Ágil",
+      "Avaliação",
+      "Duro de Matar",
+      "Memória Eidética",
+      "Evasion 2",
+      "Inimigo Favorito (Active Members of the JLA)",
+      "Destemido",
+      "Iniciativa Aprimorada 10",
+      "Interpor-se",
+      "Levantar Rápido",
+      "Languages 8",
+      "Ação em Movimento",
+      "Ataque Poderoso",
+      "Tomar a Iniciativa",
+      "Derrubar em Sequência"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 8,
+        "total": 18
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 6,
+        "total": 25
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 8,
+        "total": 15
+      },
+      {
+        "nome": "Especialidade: Criminology",
+        "graduacoes": 13,
+        "total": 21
+      },
+      {
+        "nome": "Especialidade: Journalism and Politics",
+        "graduacoes": 6,
+        "total": 14
+      },
+      {
+        "nome": "Especialidade: Streetwise",
+        "graduacoes": 13,
+        "total": 21
+      },
+      {
+        "nome": "Especialidade: Survival",
+        "graduacoes": 4,
+        "total": 12
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 10,
+        "total": 17
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 15,
+        "total": 22
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 15,
+        "total": 23
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 13,
+        "total": 20
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 5,
+        "total": 12
+      },
+      {
+        "nome": "Combate à Distância: Bow",
+        "graduacoes": 8,
+        "total": 16
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 13,
+        "total": 23
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 8,
+        "total": 16
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 8,
+        "total": 16
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 5,
+        "total": 13
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 8,
+        "total": 16
+      }
+    ],
+    "iniciativa": 50,
+    "ataques": [
+      {
+        "nome": "Calor Vision",
+        "bonus": 8,
+        "alcance": "À distância",
+        "dano": "Dano 15"
+      },
+      {
+        "nome": "Martian Vision",
+        "bonus": 8,
+        "alcance": "À distância",
+        "dano": "Dano 11"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 11,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 19"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Aparar": 12,
+      "Resistência": 18,
+      "Vontade": 10
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 130,
+      "Perícias": 89,
+      "Poderes": 449,
+      "Defesas": 6,
+      "Vantagens": 14
+    },
+    "total": 688,
+    "complicacoes": [
+      {
+        "titulo": "Ódio",
+        "texto": "Amazo’s sole objective is the Destruição of the Justice League of America."
+      },
+      {
+        "titulo": "Obsessed",
+        "texto": "Amazo continually upgrades and improves himself."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

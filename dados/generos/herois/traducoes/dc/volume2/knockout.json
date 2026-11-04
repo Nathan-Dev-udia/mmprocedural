@@ -1,0 +1,81 @@
+{
+  "nome_pt": "Nocaute",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 161,
+  "ficha": {
+    "habilidades": {
+      "For": 15,
+      "Vig": 15,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 9,
+      "Int": 0,
+      "Pro": 1,
+      "Pre": 2
+    },
+    "poderes": [
+      "ealer (Regeneração 3); Strong (Enhanced f ast H Força 4, Limitado a Lifting (lifting Str 19; 12,000 tons)); (Imunidade 2 (Envelhecimento, Doença), Resistência Impenetrável 8) t ough antages: All-out Attack, Attractive, Fast Grab, Improved a dv Iniciativa, Power Attack, Takedown"
+    ],
+    "equipamento": [],
+    "vantagens": [],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Especialidade ( Pre ): Dancer",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Combate à Distância: Throwing",
+        "graduacoes": 6,
+        "total": 9
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [],
+    "defesas": {
+      "Esquiva": 9,
+      "Aparar": 9,
+      "Fortitude": 15,
+      "Resistência": 15,
+      "Vontade": 9
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Defesas": 14
+    },
+    "total": 148,
+    "complicacoes": [
+      {
+        "titulo": "Competitive",
+        "texto": "Knockout likes to win . She lives for the fierce competition of battle. f tatious: Knockout is a lir notorious flirt, often mixing it with her Luta."
+      },
+      {
+        "titulo": "Perda de Poder",
+        "texto": "At least some of Knockout’s tremendous Força seems to come from her confidence. Occasions when she has been dispirited have weakened her considerably. Heroes & V Heroes & V I I lla lla I I ns, Vol. 2 ns, Vol. 2"
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

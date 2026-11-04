@@ -1,0 +1,104 @@
+{
+  "nome_pt": "Victor Zsasz",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 278,
+  "ficha": {
+    "habilidades": {
+      "For": 4,
+      "Vig": 4,
+      "Agi": 5,
+      "Des": 5,
+      "Lut": 8,
+      "Int": 4,
+      "Pro": 4,
+      "Pre": 3
+    },
+    "poderes": [],
+    "equipamento": [
+      "Collection of k nives: Força-based Dano 1 (Piercing), I mproved Critical (2 PP)",
+      "d a e S a V ant G Preciso Attack, Agile Feint, All-out Attack, Assessment, Chokehold, Defensive Roll 6, Equipment, Evasion, Fast Grab, Improved Hold, Move-by Action, Power Attack, Preciso Attack (Corpo a Corpo; Camuflagem), Quick Draw"
+    ],
+    "vantagens": [],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Knives",
+        "graduacoes": 7,
+        "total": 15
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Especialidade: Business",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 8,
+        "total": 13
+      }
+    ],
+    "iniciativa": 5,
+    "ataques": [
+      {
+        "nome": "Knives",
+        "bonus": 15,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 5, Crit. 19-20"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 4"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Fortitude": 8,
+      "Aparar": 10,
+      "Resistência": 10,
+      "Vontade": 8
+    },
+    "observacao_defesas": "* Vontade 8 *Without Defnsive Roll.",
+    "custos": {
+      "Habilidades": 74,
+      "Perícias": 31,
+      "Poderes": 0,
+      "Defesas": 15
+    },
+    "total": 139,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

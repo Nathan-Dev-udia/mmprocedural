@@ -1,0 +1,84 @@
+{
+  "nome_pt": "Mano",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 194,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 4,
+      "Agi": 2,
+      "Des": 3,
+      "Lut": 3,
+      "Int": 0,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "poderes": [
+      "Containment Suit (Imunidade 11: Suporte Vital, Own Powers; Proteção 6, Removível, –3 pontos); Disintegration Disk (Dano 15, Penetrante 15, Link to Enfraquecer Resistência 15)"
+    ],
+    "equipamento": [],
+    "vantagens": [],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 3,
+        "total": 5
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 3,
+        "total": 3
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Disintegrating Touch",
+        "bonus": 9,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 15, Penetrante, Enfraquecer Resistência 15"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 9,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 9,
+      "Aparar": 10,
+      "Fortitude": 8,
+      "Resistência": 10,
+      "Vontade": 7
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 36,
+      "Poderes": 59,
+      "Vantagens": 0,
+      "Perícias": 8,
+      "Defesas": 23
+    },
+    "total": 126,
+    "complicacoes": [
+      {
+        "titulo": "Toxic Atmosphere",
+        "texto": "Mano breathes a Veneno atmosphere and suffocates in an Earth-normal atmosphere without his containment suit."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

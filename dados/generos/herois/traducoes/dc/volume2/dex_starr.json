@@ -1,0 +1,71 @@
+{
+  "nome_pt": "Dex-Starr",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 133,
+  "ficha": {
+    "habilidades": {
+      "For": "—",
+      "Vig": 2,
+      "Agi": 2,
+      "Des": 0,
+      "Lut": 5,
+      "Int": 0,
+      "Pro": 1,
+      "Pre": 0
+    },
+    "poderes": [
+      "Encolhimento 8 (Permanente, Inato); Power r ing (115 ponto Dispositivo, Removível (–23 pontos), ai and d atabase (Característica 2 (AI and Database), Sentidos 1 (Comunicação link to Central Power Battery)), f ligh t (Voo 14 (32,0 km/h), Movimento 4 (Environmental Adaption (Zero-G), Space Travel 3)), f or ce f ield (Proteção 10, Impenetrável; Imunidade 10 (Suporte Vital)), Heartless (Característica (Heart of equivalent vital organs are no longer essential to survival), Regeneração 1), r ed Light of r age (Arranjo (28 pontos) Lifting (Criar Objetos 14), ae : f ir es of r age (Dano à Distância 14), ae : Burning Blood (Dano 8, Reach 2, Sustentado (extinguished by a cessation of rage or the Blue Light of Hope), Power of r age (Sentidos 3 (Aguçado Detect Rage), Característica 3 (Lanterns other than Blue lose ring power more quickly than normal defending against the Red Light), Universal t r anslator (Compreender Languages 4)) antages: All-out Attack, Power Attack a dv"
+    ],
+    "equipamento": [],
+    "vantagens": [],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 7,
+        "total": 9
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Burning Blood",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 5,
+        "total": 6
+      },
+      {
+        "nome": "Combate à Distância: Power Ring",
+        "graduacoes": 8,
+        "total": 8
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [],
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 10,
+      "Fortitude": 8,
+      "Resistência": 12,
+      "Vontade": 14
+    },
+    "observacao_defesas": "*, Aparar 10*, Fortitude 8, Resistência 12, Vontade 14 *Includes size modifiers.",
+    "custos": {
+      "Defesas": 24
+    },
+    "total": 174,
+    "complicacoes": [
+      {
+        "titulo": "age",
+        "texto": "Dex-Starr is motived by pure rage."
+      },
+      {
+        "titulo": "Cat",
+        "texto": "Dex-Starr is an Earth feline, with all its associated drawbacks."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

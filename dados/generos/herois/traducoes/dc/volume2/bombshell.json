@@ -1,0 +1,106 @@
+{
+  "nome_pt": "Bombshell",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 227,
+  "ficha": {
+    "habilidades": {
+      "For": 9,
+      "Vig": 8,
+      "Agi": 2,
+      "Des": 3,
+      "Lut": 4,
+      "Int": 0,
+      "Pro": 1,
+      "Pre": 0
+    },
+    "poderes": [
+      "d ilust el Shell (Vigor Aprimorado 6, Força Aprimorada 8, Imunidade 10 (Suporte Vital), Resistência Impenetrável 12, Proteção 4, Ativação (Move, -1 ponto)); Quantum Channeling (Voo 11 (4,0 km/h), Imunidade 20 (Energy Effects, Distrativo, Limitado a Half-Effect, Sustentado), Sentidos 3 (Detect Energy Spectra (Aguçado, Raio))); Quantum Manipulation Arranjo (24 pontos): Quantum Raio (Dano à Distância 12), ae : Control Machines (Aflição à Distância 11 (resistido por Esquiva; Tonto, Compelido, Controlado; Concentração, Limitado a Technological Devices), ae : Quantum Burst (Área de Explosão Dano 11), ae : Quantum Conversion (Deflexão Energy 10 (Reflect, Redirection, Corpo a Corpo Range, Energy Only)), ae : Quantum d isr uption (Área de Explosão Aflição 11 (resistido por Vontade; Tonto, Atordoado; Concentração, Limitado Degree)))"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Duro de Matar",
+      "Move-By Action",
+      "Ataque à Distância 4",
+      "Provocar"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 4,
+        "total": 13
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 8,
+        "total": 8
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 6,
+        "total": 6
+      },
+      {
+        "nome": "Combate à Distância: Quantum Blast",
+        "graduacoes": 3,
+        "total": 10
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 1,
+        "total": 3
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 1,
+        "total": 4
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Quantum Raio",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Dano 12"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 9"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 6,
+      "Aparar": 9,
+      "Fortitude": 10,
+      "Resistência": 12,
+      "Vontade": 6
+    },
+    "observacao_defesas": "",
+    "custos": {},
+    "total": null,
+    "complicacoes": [
+      {
+        "titulo": "Bad a ttitude",
+        "texto": "Bombshell looks down on just about everyone and only grudgingly offers her respect, making her difficult to get along with and Não Confiável when it comes to team tactics. This causes constant friction with the other Teen Titans."
+      },
+      {
+        "titulo": "Crack the Shell",
+        "texto": "Extreme Calor followed by extreme Frio attacks can Enfraquecer her Dilustel shell, making it easy to crack if damaged. Under such conditions, temporarily remove her Resistência Impenetrável and Proteção Powers. Any attacks resulting in two degrees of failure on her Dano resistance check mean the shell is cracked, whereas three degrees of failure shatters the shell temporarily."
+      },
+      {
+        "titulo": "Perda de Poder",
+        "texto": "Bombshell’s Dilustel shell is not Permanente, and so she loses its benefits and her access to the Quantum Field if the Dilustel is not activated or is somehow negated or dispersed. The shell Vontade also disappear for a time if shattered (see her “Crack the Shell” complication). She has Str 1 and Sta 2 without the shell."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

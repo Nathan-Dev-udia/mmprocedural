@@ -1,0 +1,93 @@
+{
+  "nome_pt": "I.Q. Gang Member",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 274,
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 0,
+      "Agi": 2,
+      "Des": 1,
+      "Lut": 1,
+      "Int": 1,
+      "Pro": 0,
+      "Pre": 1
+    },
+    "poderes": [
+      "Air Cycle (Voo 8, Sutil, Platform, Wings, Removível (-1 ponto))"
+    ],
+    "equipamento": [
+      "Light Pistola"
+    ],
+    "vantagens": [
+      "Equipamento 1"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 2,
+        "total": 4
+      },
+      {
+        "nome": "Especialidade: Streetwise",
+        "graduacoes": 2,
+        "total": 3
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 2,
+        "total": 2
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 6,
+        "total": 7
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 2,
+        "total": 3
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 2,
+        "total": 3
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Light Pistola",
+        "bonus": 1,
+        "alcance": "",
+        "dano": "Dano 3"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 1,
+        "alcance": "",
+        "dano": "Dano 0"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 4,
+      "Aparar": 4,
+      "Fortitude": 0,
+      "Resistência": 0,
+      "Vontade": 0
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 12,
+      "Poderes": 4,
+      "Vantagens": 1,
+      "Perícias": 8,
+      "Defesas": 5
+    },
+    "total": 30,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "nome_pt": "Caçadora (Kate Spencer)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 38,
+  "ficha": {
+    "habilidades": {
+      "For": 4,
+      "Vig": 2,
+      "Agi": 2,
+      "Des": 3,
+      "Lut": 5,
+      "Int": 2,
+      "Pro": 1,
+      "Pre": 2
+    },
+    "poderes": [
+      "Clawed Gauntlets : Penetrante 4 on Força Dano; Movimento 1 (Safe Fall, Limitado—Must be near a surface) (Removível, -1 ponto) (4 PP)",
+      "Darkstar Uniform: Força Aprimorada 2; Proteção 5 (Removível, -2 pontos) (7 PP)",
+      "Manhunter Mask: Imunidade 10 (mental effects), Sentidos 2 (Visão no Escuro) (Removível, -2 pontos) (10 PP)",
+      "Powers taff : Dano à Distância 5; Salto 7 (Facilmente Removível, -6 pontos) (11 PP)",
+      "A D n TAG es v A"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Benefício (Independently Wealthy)",
+      "Contatos",
+      "Rolamento Defensivo",
+      "Iniciativa Aprimorada",
+      "Quebrar Aprimorado",
+      "Ataque Poderoso"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Clawed Gauntlet/Desarmado",
+        "graduacoes": 9,
+        "total": 14
+      },
+      {
+        "nome": "Especialidade: Law",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 7,
+        "total": 8
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 7,
+        "total": 8
+      },
+      {
+        "nome": "Combate à Distância: Power Staff",
+        "graduacoes": 10,
+        "total": 13
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 6,
+        "total": 8
+      }
+    ],
+    "iniciativa": 6,
+    "ataques": [
+      {
+        "nome": "Power Staff",
+        "bonus": 13,
+        "alcance": "À distância",
+        "dano": "Dano 5"
+      },
+      {
+        "nome": "Clawed Gauntlets",
+        "bonus": 14,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 4, Penetrante 4"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 14,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 4"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Fortitude": 8,
+      "Aparar": 10,
+      "Resistência": 8,
+      "Vontade": 6
+    },
+    "observacao_defesas": "* Vontade 6 *W ithout Defensive Roll.",
+    "custos": {
+      "Habilidades": 38,
+      "Perícias": 34,
+      "Poderes": 32,
+      "Defesas": 24,
+      "Vantagens": 6
+    },
+    "total": 135,
+    "complicacoes": [
+      {
+        "titulo": "Driven by Justice",
+        "texto": "As a lawyer, Kate Spencer is bound by the complications of the legal system, but as Manhunter she can do whatever it takes to ensure that the wronged get justice and villains are punished—even if it means using lethal force. s ingle Mother: Spencer is a single mother to her son Ramsey, and often struggles to balance her careers as a lawyer and Manhunter while protecting her son from the demands and dangers of both roles."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

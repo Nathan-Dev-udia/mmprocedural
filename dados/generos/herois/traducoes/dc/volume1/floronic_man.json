@@ -1,0 +1,100 @@
+{
+  "nome_pt": "Floronic Man",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 208,
+  "ficha": {
+    "habilidades": {
+      "For": 4,
+      "Vig": 5,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 4,
+      "Int": 4,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "poderes": [
+      "Chlorokinesis: Arranjo (36 pontos), Peculiaridade: Plants must be nearby (-1 ponto) (39 PP)",
+      "• Grabbing Tendrils: À Distância Área de Explosão Aflição 12 (resistido por Esquiva; Impedido, Imóvel, Paralisado) (36 PP)",
+      "• Duplication: Summon Duplicate 11 (165 pontos), Controlado, mental Link 3 (1 PP)",
+      "• Plant Servants: Summon 4 (60 pontos), Controlado, Horde, Multiple Minions 2 (4 minions), mental Link (1 PP)",
+      "• Squeezing Tendrils: Alcance de Percepção Dano 12 (1 PP)",
+      "• Venomous Toxin Cloud: À Distância Área de Nuvem Aflição 12 (resistido por Fortitude; Fatigado, Exausto, Incapacitado) (1 PP)",
+      "Plant Body: Alongamento 2 (30 feet); Imortalidade 5; Imunidade 3 (Inanição and Thirst, Sufocamento, all half effect), Proteção 7, Regeneração 5 (26 PP)",
+      "Thorny: Força-based Dano 6; Dano 2, Reação (14 PP)",
+      "Communicate with Plants: Compreender (Plants 2 and Plant Spirits 1) (6 PP)",
+      "Plant Sense: Sentidos 3 (Plant Prontidão, Aguçado, Raio) (3 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Duro de Matar",
+      "Grande Vigor",
+      "Iniciativa Aprimorada"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Especialidade: Botanist",
+        "graduacoes": 10,
+        "total": 14
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 3,
+        "total": 5
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 5,
+        "total": 7
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 8,
+        "total": 10
+      }
+    ],
+    "iniciativa": 6,
+    "ataques": [
+      {
+        "nome": "Thorny",
+        "bonus": 12,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 10 Venomous Cloud — À Distância, Área de Nuvem Aflição 12, resistido por Fortitude"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Fortitude": 12,
+      "Aparar": 10,
+      "Resistência": 12,
+      "Vontade": 8
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 50,
+      "Perícias": 17,
+      "Poderes": 88,
+      "Defesas": 27,
+      "Vantagens": 3
+    },
+    "total": 185,
+    "complicacoes": [
+      {
+        "titulo": "Motivação",
+        "texto": "For better or worse, the Floronic Man considers himself the defender of plant life and is willing to go to extremes to show humans the error of their ways."
+      },
+      {
+        "titulo": "Preconceito",
+        "texto": "The Floronic Man is a human/plant hybrid and looks strangely horrific."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

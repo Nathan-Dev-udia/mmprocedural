@@ -299,11 +299,12 @@ def _preencher_pericias(campos, pericias, hab, notas):
         base = rules.nome_base(nome)
         if base == "Combate Corpo a Corpo":
             base = "Combate Corpo-a-Corpo"
-        total = p["total"] if p["total"] is not None else hab[sigla] + p["grad"]
+        val_sigla = int(hab[sigla]) if sigla in hab and (isinstance(hab[sigla], int) or str(hab[sigla]).lstrip("-").isdigit()) else 0
+        total = p["total"] if p["total"] is not None else val_sigla + p["grad"]
         if base in PREFIXO_DA_PERICIA:
             prefixo = PREFIXO_DA_PERICIA[base]
-            outros = total - hab[sigla] - p["grad"]
-            campos[f"{prefixo}Hab"] = str(hab[sigla])
+            outros = total - val_sigla - p["grad"]
+            campos[f"{prefixo}Hab"] = str(hab.get(sigla, 0))
             campos[f"{prefixo}Per"] = str(p["grad"])
             campos[f"{prefixo}Outros"] = str(outros) if outros else ""
             campos[f"{prefixo}Total"] = str(total)
@@ -314,10 +315,12 @@ def _preencher_pericias(campos, pericias, hab, notas):
             continue
         usadas[base] += 1
         n = usadas[base]
-        padrao = hab[pdf_export.HABILIDADE_PADRAO_DA_LINHA[base]]
+        sigla_padrao = pdf_export.HABILIDADE_PADRAO_DA_LINHA[base]
+        padrao_raw = hab.get(sigla_padrao, 0)
+        padrao = int(padrao_raw) if isinstance(padrao_raw, int) or str(padrao_raw).lstrip("-").isdigit() else 0
         outros = total - padrao - p["grad"]
         campos[campo_nome.format(n=n)] = nome.split(":", 1)[1].strip() if ":" in nome else ""
-        campos[f"{prefixo}Hab {n}"] = str(padrao)
+        campos[f"{prefixo}Hab {n}"] = str(padrao_raw)
         campos[f"{prefixo}Per {n}"] = str(p["grad"])
         campos[f"{prefixo}{sufixo_outros} {n}"] = str(outros) if outros else ""
         campos[f"{prefixo}Total {n}"] = str(total)

@@ -1,0 +1,117 @@
+{
+  "nome_pt": "Major Força",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 34,
+  "ficha": {
+    "habilidades": {
+      "For": 17,
+      "Vig": 12,
+      "Agi": 2,
+      "Des": 1,
+      "Lut": 8,
+      "Int": 0,
+      "Pro": 1,
+      "Pre": 0
+    },
+    "poderes": [
+      "d Imunidade 10 (Suporte Vital); Imortalidade 1; ilust el Covering: Resistência Impenetrável 14; Proteção 2 (28 PP)",
+      "Quantum Channeling : Power-lifting 5 (Lifting Str 22; 100,000 tons), Voo 12 (8,0 km/h), Salto 9, Regeneração 1 (Persistent) (40 PP)",
+      "Quantum Manipulation: Arranjo (32 pontos)",
+      "• d ark Matter Raio: Dano à Distância 14, Preciso 2, Dividido 2 (32 PP)",
+      "• d ark Matter Constructs: Criar Objetos 7 (Contínuo, Movable, Preciso) (1 PP)",
+      "• Quantum Raio: Dano à Distância 17 (Diminished Range, Inaccurate) (1 PP)",
+      "• Quantum Burst: Área de Explosão 2 (60 feet) Dano 10 (1 PP)",
+      "• Quantum d ain: Enfraquecer All Electromagnetic Energy r Powers 6, Broad (all EM Energy), Concentração, Progressivo (1 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Benefício (Security Clearance)",
+      "Ataque Poderoso",
+      "Ataque à Distância 9"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 5,
+        "total": 22
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 3,
+        "total": 11
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 2,
+        "total": 2
+      },
+      {
+        "nome": "Especialidade: Military Science",
+        "graduacoes": 3,
+        "total": 3
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 8,
+        "total": 8
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 2,
+        "total": 2
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 3,
+        "total": 4
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 4,
+        "total": 4
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Dark Matter Raio",
+        "bonus": 14,
+        "alcance": "À distância",
+        "dano": "Dano 14"
+      },
+      {
+        "nome": "Quantum Raio",
+        "bonus": 8,
+        "alcance": "À distância",
+        "dano": "Dano 17"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 11,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 17"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Fortitude": 14,
+      "Aparar": 10,
+      "Resistência": 14,
+      "Vontade": 8
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 82,
+      "Perícias": 15,
+      "Poderes": 104,
+      "Defesas": 17,
+      "Vantagens": 12
+    },
+    "total": 230,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

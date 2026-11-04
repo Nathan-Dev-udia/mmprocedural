@@ -1,0 +1,158 @@
+{
+  "nome_pt": "Tara",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 258,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 4,
+      "Des": 4,
+      "Lut": 6,
+      "Int": 2,
+      "Pro": 2,
+      "Pre": 3
+    },
+    "poderes": [],
+    "equipamento": [
+      "Bow & a rr ows: Dano à Distância 4; d agger: Força-Based Dano 1, Improved Critical; Espada: Força Based Dano 4, Improved Critical"
+    ],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Atraente",
+      "Benefit 3 (Son of the Warlord)",
+      "Ataque Corpo-a-Corpo 1",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 2",
+      "Evasion",
+      "Equipamento 3",
+      "Mira Aprimorada",
+      "Defesa Aprimorada",
+      "Inspirar",
+      "Ação em Movimento",
+      "Ataque Poderoso",
+      "Saque Rápido",
+      "Ataque à Distância 3",
+      "Derrubar em Sequência",
+      "Trabalho em Equipe"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 3,
+        "total": 8
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Swords",
+        "graduacoes": 2,
+        "total": 9
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 3,
+        "total": 6
+      },
+      {
+        "nome": "Especialidade: mágico",
+        "graduacoes": 2,
+        "total": 4
+      },
+      {
+        "nome": "Especialidade: Performance",
+        "graduacoes": 3,
+        "total": 6
+      },
+      {
+        "nome": "Especialidade: Skartaris",
+        "graduacoes": 5,
+        "total": 7
+      },
+      {
+        "nome": "Especialidade: Survival",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Especialidade: Tactics",
+        "graduacoes": 2,
+        "total": 4
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 7,
+        "total": 8
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Combate à Distância: Bows",
+        "graduacoes": 5,
+        "total": 12
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 3,
+        "total": 7
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 4,
+        "total": 8
+      }
+    ],
+    "iniciativa": 5,
+    "ataques": [
+      {
+        "nome": "Dagger",
+        "bonus": 8,
+        "alcance": "",
+        "dano": "Dano 3, Critical 19-20"
+      },
+      {
+        "nome": "Espada",
+        "bonus": 10,
+        "alcance": "",
+        "dano": "Dano 6, Critical 19-20"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 11,
+      "Aparar": 11,
+      "Fortitude": 7,
+      "Resistência": 5,
+      "Vontade": 7
+    },
+    "observacao_defesas": "*, Vontade 7 *sem Rolamento Defensivo",
+    "custos": {
+      "Defesas": 20
+    },
+    "total": 129,
+    "complicacoes": [
+      {
+        "titulo": "r elationships",
+        "texto": "Travis Morgan, husband, and Morgana, daughter. panion to the Warlord ever since, attaching herself to him so naturally that even his wife Tara has come to accept the rela- tionship as inevitable. Shakira refuses to reveal if she is a woman who turns into a cat or a feline somehow possessing the ability to take a human form, instead saying “why spoil a thing by tak- ing away all the mystery?” In any event, she is a fearsome fighter and skilled huntress. She has recently begun traveling with Joshua Morgan (see Tinder) since he became the new Warlord."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

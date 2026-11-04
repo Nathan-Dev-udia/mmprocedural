@@ -1,0 +1,100 @@
+{
+  "nome_pt": "Filha do Bruxo",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 171,
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 2,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 4,
+      "Int": 2,
+      "Pro": 4,
+      "Pre": 2
+    },
+    "poderes": [
+      "a str al Projection (Remote Sensing 11 (8 milhas; Visual, Auditory, mental), Body is Indefeso, Sutil 2, ae : Levitation (Voo 4 (48 km/h)) and Mystic Escudo (Proteção 8, Impenetrável, bilities Sustentado ) ; Mystic a (Arranjo (18 pontos), Mystic Raio (Dano à Distância 9), ae : Mage Hand (Mover Objetos 8, Preciso)); Mystic Sentidos (Sentidos 2 (Magical Prontidão, Raio))"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ritualista"
+    ],
+    "pericias": [
+      {
+        "nome": "Enganação",
+        "graduacoes": 5,
+        "total": 7
+      },
+      {
+        "nome": "Especialidade: mágico",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Combate à Distância: Mystic Abilities",
+        "graduacoes": 5,
+        "total": 7
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Mystic Raio",
+        "bonus": 7,
+        "alcance": "À distância",
+        "dano": "Dano 9"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 4,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 0"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 6,
+      "Aparar": 4,
+      "Fortitude": 6,
+      "Resistência": 10,
+      "Vontade": 8
+    },
+    "observacao_defesas": "*, Vontade 8 *Without Mystic Escudo.",
+    "custos": {
+      "Habilidades": 36,
+      "Poderes": 57,
+      "Vantagens": 1,
+      "Perícias": 14,
+      "Defesas": 12
+    },
+    "total": 120,
+    "complicacoes": [
+      {
+        "titulo": "a entice",
+        "texto": "Warlock’s Daughter has been apprentice to a couple of powerful mystics, both of whom hold significant power over her path to the future. Where she ends up is still a mystery."
+      },
+      {
+        "titulo": "Supernatural Being",
+        "texto": "Murdered then resurrected at the cost of her father’s life, Warlock’s Daughter is still coping with what she’s become."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

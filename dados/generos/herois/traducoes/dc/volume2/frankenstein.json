@@ -1,0 +1,117 @@
+{
+  "nome_pt": "Frankenstein",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 166,
+  "ficha": {
+    "habilidades": {
+      "For": 10,
+      "Vig": 12,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 8,
+      "Int": 3,
+      "Pro": 4,
+      "Pre": 2
+    },
+    "poderes": [
+      "i n vulnerability (Imunidade 5 (Electrical Dano), Resistência Impenetrável 10, Proteção 4, Regeneração 5); Espada of Michael (Força-based Dano 4, Improved Critical, Indestructible, Facilmente Removível (-2 pontos)); Unliving (Imunidade 30 (Fortitude effects))"
+    ],
+    "equipamento": [
+      "Steam-Gun (Dano à Distância 5)"
+    ],
+    "vantagens": [
+      "Ataque Corpo-a-Corpo 2",
+      "Tontear (Intimidação)",
+      "Equipamento 2",
+      "Destemido",
+      "Saque Rápido",
+      "Assustar"
+    ],
+    "pericias": [
+      {
+        "nome": "Especialidade: Arcane Lore",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Especialidade: Handle Animal",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Especialidade: Literature",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 12,
+        "total": 14
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Combate à Distância: Guns",
+        "graduacoes": 10,
+        "total": 12
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 8,
+        "total": 10
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Steam-Gun",
+        "bonus": 12,
+        "alcance": "À distância",
+        "dano": "Dano 5"
+      },
+      {
+        "nome": "Espada",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 14, Crit. 19-20"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 10"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 8,
+      "Resistência": 16,
+      "Vontade": 8
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 86,
+      "Poderes": 58,
+      "Vantagens": 8,
+      "Perícias": 29,
+      "Defesas": 10
+    },
+    "total": 191,
+    "complicacoes": [
+      {
+        "titulo": "r epulsive",
+        "texto": "Frankenstein is ugly and off-putting and his appearance always inspires fear and revulsion in others."
+      },
+      {
+        "titulo": "Vulnerability",
+        "texto": "mágico like that of Klarion the Witch Boy’s witch-brand benefits from an additional level of success against Frankenstein."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "nome_pt": "Cheetah (Sebastian Ballésteros)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 112,
+  "ficha": {
+    "habilidades": {
+      "For": 8,
+      "Vig": 6,
+      "Agi": 6,
+      "Des": 4,
+      "Lut": 8,
+      "Int": 2,
+      "Pro": 4,
+      "Pre": 4
+    },
+    "poderes": [
+      "Claws: (Força-based Dano 4, Penetrante 6); Heightened Sentidos (Sentidos 6: Visão no Escuro, Visão na Penumbra, Scent, Track, Ultra-Audição); Velocidade (Enhanced Advantage: Improved Iniciativa 3, Rapidez 3, Velocidade 2 (12 km/h)); Tail (Extra Limbs 1)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Finta Ágil",
+      "Ataque Imprudente",
+      "Benefit 3 (Wealth)",
+      "Rolamento Defensivo 3",
+      "Crítico Aprimorado (Claws)",
+      "Iniciativa Aprimorada 3",
+      "Derrubar Aprimorado",
+      "Levantar Rápido",
+      "Languages 2",
+      "Ataque Poderoso",
+      "Luta Caída",
+      "Esquiva Fabulosa"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 8,
+        "total": 14
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 8,
+        "total": 16
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Claws",
+        "graduacoes": 4,
+        "total": 12
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: Business",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 6,
+        "total": 12
+      }
+    ],
+    "iniciativa": 18,
+    "ataques": [
+      {
+        "nome": "Claws",
+        "bonus": 12,
+        "alcance": "",
+        "dano": "Dano 12, Penetrante 6"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 15,
+      "Aparar": 15,
+      "Fortitude": 12,
+      "Resistência": 9,
+      "Vontade": 11
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 84,
+      "Poderes": 25,
+      "Vantagens": 16,
+      "Perícias": 31,
+      "Defesas": 29
+    },
+    "total": 185,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

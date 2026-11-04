@@ -1,0 +1,72 @@
+{
+  "nome_pt": "Hector Hammond",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 257,
+  "ficha": {
+    "habilidades": {
+      "For": -5,
+      "Vig": -2,
+      "Agi": -5,
+      "Des": -5,
+      "Lut": -5,
+      "Int": 10,
+      "Pro": 12,
+      "Pre": 3
+    },
+    "poderes": [
+      "of others must be better than his own. Obsession: Hector Hammond is obsessed with Hal Jordan, lusting after his memories, his love with Carol Ferris, and his life as Green Lantern. He considers himself Jordan’s “number one fan, ” but is eager to destroy Jordan’s life so he can claim it for his own."
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Memória Eidética",
+      "Esforço Supremo (Will checks)"
+    ],
+    "pericias": [
+      {
+        "nome": "Enganação",
+        "graduacoes": 10,
+        "total": 13
+      },
+      {
+        "nome": "Especialidade: Astrophysics",
+        "graduacoes": 8,
+        "total": 16
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 10,
+        "total": 16
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 8,
+        "total": 16
+      }
+    ],
+    "iniciativa": 11,
+    "ataques": [],
+    "defesas": {
+      "Fortitude": 6,
+      "Resistência": 18,
+      "Vontade": 18
+    },
+    "observacao_defesas": "* Vontade 18 *Without Campo de Força.",
+    "custos": {
+      "Habilidades": 6,
+      "Perícias": 18,
+      "Poderes": 148,
+      "Defesas": 14,
+      "Vantagens": 2
+    },
+    "total": 188,
+    "complicacoes": [
+      {
+        "titulo": "Shattered Mind",
+        "texto": "The mutation of Hector Hammond’s mind granted him immense power, but twisted his ego-driven personality into one racked with insecurity, certain that the lives and"
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "nome_pt": "Garota-Sensor (Princesa Projectra)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 15,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 2,
+      "Agi": 4,
+      "Des": 4,
+      "Lut": 3,
+      "Int": 4,
+      "Pro": 7,
+      "Pre": 8
+    },
+    "poderes": [
+      "i llusions (Ilusão 10 (All Sense Types, área 5); Super- Sentidos (Sense 59 (Preciso and Audição Estendida Type 3, All Sentidos Counters Camuflagem 25 (All Camuflagem Effects), All Sentidos Counters Ilusão 10, Visão Estendida 3, Infravisão, Visão Microscópica 4, Vision Penetrates Camuflagem, Postcognition (Não Confiável), Raio Vision 2, Ultra-Audição, Ultra-Vision))"
+    ],
+    "equipamento": [
+      "Voo Ring (Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal –3), Voo 7 (400 km/h); Telepathic Ear Plug ( Compreender 3 (Languages), mental Comunicação 1 (Corpo a Corpo Range)); Transsuit (Imunidade 9 (Suporte Vital, except for Inanição and thirst))"
+    ],
+    "vantagens": [
+      "Ataque Preciso",
+      "Benefit 6 (Queen of Orando",
+      "Legion Membership)",
+      "Ataque Corpo-a-Corpo 2",
+      "Conectado",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 6",
+      "Equipamento 8",
+      "Desarmar Aprimorado",
+      "Agarrar Aprimorado",
+      "Imobilizar Aprimorado",
+      "Derrubar Aprimorado"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 2,
+        "total": 5
+      },
+      {
+        "nome": "Especialidade: mágico",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Especialidade: Orando",
+        "graduacoes": 5,
+        "total": 9
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 5,
+        "total": 12
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 4,
+        "total": 12
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 15
+      }
+    ],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 7,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 1"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 6,
+      "Fortitude": 6,
+      "Resistência": 8,
+      "Vontade": 14
+    },
+    "observacao_defesas": "*, Vontade 14 * sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 66,
+      "Poderes": 159,
+      "Vantagens": 29,
+      "Perícias": 16,
+      "Defesas": 20
+    },
+    "total": 290,
+    "complicacoes": [
+      {
+        "titulo": "r esponsibility",
+        "texto": "As royalty, Sensor Girl sees it as her responsibility to help others. Later, she helps as penance for taking Nemesis Kid’s life. r elationship: Sensor Girl was married to Karate Kid (see Vol. 1 ) for a time."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

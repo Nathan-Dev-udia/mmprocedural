@@ -1,0 +1,89 @@
+{
+  "nome_pt": "T.O. Morrow",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 220,
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 1,
+      "Agi": 0,
+      "Des": 1,
+      "Lut": 0,
+      "Int": 8,
+      "Pro": 5,
+      "Pre": 1
+    },
+    "poderes": [
+      "f our th- d imensional G rapple Beam: Alcance de Percepção Teleporte 10, Attack (resistido por Esquiva), Dimensional 1 (100 years forward in time), Increased Mass 4, Facilmente Removível (–18 pontos) (27 PP)",
+      "f utur e-Vision Set: Remote Sensing 22 (Visual), Dimensional 1 (100 years forward in time), Sutil 2, Facilmente Removível (–10 pontos), Uncontrolled (15 PP)",
+      "Super-Computer: Sentidos 12 (Precognition, Extended 7, Raio), Facilmente Removível (–2 pontos), Uncontrolled (4 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Benefit 2 (Independently Wealthy)",
+      "Rolamento Defensivo 2",
+      "Ferramentas Improvisadas",
+      "Inventor",
+      "Minion 66 (Six PL11 Androids)",
+      "Esforço Supremo (Expertise: Androids)"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 3,
+        "total": 3
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 5,
+        "total": 6
+      },
+      {
+        "nome": "Especialidade: Androids",
+        "graduacoes": 8,
+        "total": 16
+      },
+      {
+        "nome": "Especialidade: Science",
+        "graduacoes": 6,
+        "total": 14
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 9
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 5,
+        "total": 6
+      },
+      {
+        "nome": "Combate à Distância: Energy Weapons",
+        "graduacoes": 3,
+        "total": 4
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 10,
+        "total": 18
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [],
+    "defesas": {
+      "Esquiva": 8,
+      "Fortitude": 7,
+      "Aparar": 8,
+      "Resistência": 3,
+      "Vontade": 11
+    },
+    "observacao_defesas": "* Vontade 11 *sem Rolamento Defensivo. tIM e p a SS age S Morrow sometimes chooses human thugs with futuristic weapons instead of androids, allowing the Gamemaster to real- locate his Minion pontos. In his first appearance, Morrow could only copy the advanced technology he saw on his Future- Vision Set, and instead of his listed Powers employed a Duplicating Machine: Summon 15, Heroic, Multiple Minions 2, Variável Type (Duplicates), Facilmente Removível (–48 pontos), Resistível by Esquiva. Ta Ta TT TT ooed Man ooed Man U.S. Marine Mark Richards was missing in action and pre - sumed dead after his helicopter crashed. He showed up a few years later in Gotham City as a hit man, his body covered in tattoos he could bring to life. He claimed that by taking on the “sins” of others, he was redeeming those he killed. The Tattooed Man worked for Morgaine le Fey’s Dream- bound and later sided with the Justice League against Dark - seid. He attempted to be a hero in his old Washington D.C. neighborhood of Liberty Hill, Luta both local gangs and corrupt cops. He later joined Deathstroke the Terminator’s new team of mercenary Titans, in order to track down Slip - knot, his son’s killer. Heroes & VIllaIns, Vol. 2 Heroes & VIllaIns, Vol. 2 Heroes & V Heroes & V I I lla lla I I ns, Vol. 2 ns, Vol. 2 Andre Nutter (order #3338244)",
+    "custos": {},
+    "total": null,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

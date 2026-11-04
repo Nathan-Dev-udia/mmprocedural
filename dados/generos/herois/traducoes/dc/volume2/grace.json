@@ -1,0 +1,103 @@
+{
+  "nome_pt": "Grace Choi",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 92,
+  "ficha": {
+    "habilidades": {
+      "For": 14,
+      "Vig": 12,
+      "Agi": 2,
+      "Des": 3,
+      "Lut": 6,
+      "Int": 0,
+      "Pro": 2,
+      "Pre": 1
+    },
+    "poderes": [
+      ": a maz on/Bana Skin: Resistência Impenetrável 12; Bana Cura : Regeneração 3"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Preciso",
+      "Ataque Imprudente",
+      "Ataque Defensivo",
+      "Improved Critical 3 (Desarmado)",
+      "Desarmar Aprimorado",
+      "Agarrar Aprimorado",
+      "Imobilizar Aprimorado",
+      "Iniciativa Aprimorada",
+      "Quebrar Aprimorado",
+      "Derrubar Aprimorado",
+      "Levantar Rápido",
+      "Ataque Poderoso",
+      "Assustar",
+      "Derrubar em Sequência"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 3,
+        "total": 17
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 8,
+        "total": 9
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 12,
+        "total": 13
+      },
+      {
+        "nome": "Combate à Distância: Throw",
+        "graduacoes": 3,
+        "total": 6
+      }
+    ],
+    "iniciativa": 6,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 6,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 14, Crit. 17-20"
+      },
+      {
+        "nome": "Thrown Object",
+        "bonus": 6,
+        "alcance": "À distância",
+        "dano": "Dano 14"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 8,
+      "Fortitude": 12,
+      "Resistência": 12,
+      "Vontade": 6
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 80,
+      "Poderes": 15,
+      "Vantagens": 16,
+      "Perícias": 13,
+      "Defesas": 12
+    },
+    "total": 136,
+    "complicacoes": [
+      {
+        "titulo": "Love",
+        "texto": "Grace loves Thunder so devotedly that she allows her to join Outsider missions against Batman’s wishes."
+      },
+      {
+        "titulo": "Bloodlust",
+        "texto": "Grace has a tendency to use excessive force."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

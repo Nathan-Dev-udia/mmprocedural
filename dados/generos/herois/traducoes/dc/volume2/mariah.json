@@ -1,0 +1,142 @@
+{
+  "nome_pt": "Mariah",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 257,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 5,
+      "Des": 4,
+      "Lut": 8,
+      "Int": 3,
+      "Pro": 3,
+      "Pre": 2
+    },
+    "poderes": [],
+    "equipamento": [
+      "Saber: Força-Based Dano 3, Improved Critical 2"
+    ],
+    "vantagens": [
+      "Atraente",
+      "Ataque Preciso",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 3",
+      "Equipamento 1",
+      "Mira Aprimorada",
+      "Defesa Aprimorada",
+      "Languages 3",
+      "Ataque à Distância 3",
+      "Provocar",
+      "Trabalho em Equipe",
+      "Prender Arma"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 4,
+        "total": 9
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Swords",
+        "graduacoes": 3,
+        "total": 11
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: Archeology",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Especialidade: Survival",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Especialidade: Skartaris",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 5,
+        "total": 7
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 5,
+        "total": 9
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 2,
+        "total": 5
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 2,
+        "total": 6
+      }
+    ],
+    "iniciativa": 5,
+    "ataques": [
+      {
+        "nome": "Saber",
+        "bonus": 11,
+        "alcance": "",
+        "dano": "Dano 5, Critical 18-20"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "",
+        "dano": "Dano 2"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 11,
+      "Aparar": 11,
+      "Fortitude": 6,
+      "Resistência": 5,
+      "Vontade": 9
+    },
+    "observacao_defesas": "*, Vontade 9 *sem Rolamento Defensivo",
+    "custos": {
+      "Habilidades": 58,
+      "Poderes": 0,
+      "Vantagens": 18,
+      "Perícias": 32,
+      "Defesas": 19
+    },
+    "total": 127,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

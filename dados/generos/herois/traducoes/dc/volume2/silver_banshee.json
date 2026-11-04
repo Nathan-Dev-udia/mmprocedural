@@ -1,0 +1,90 @@
+{
+  "nome_pt": "Banshee Prateada",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 176,
+  "ficha": {
+    "habilidades": {
+      "For": 6,
+      "Vig": 10,
+      "Agi": 4,
+      "Des": 2,
+      "Lut": 4,
+      "Int": 2,
+      "Pro": 3,
+      "Pre": 3
+    },
+    "poderes": [
+      "and free her - self of her curse by gathering a series of mystical artifacts— though not always in that order. While pursuing her plans the Silver Banshee often finds herself opposing various heroes, including Superman and Supergirl."
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "5 Total 305 Co MPL i C tion S a Cursed: The Silver Banshee has returned to “life” a number of times",
+      "each time in service to a greater power or to whom she’s beholden. Her life is not her own. d eadly: Silver Banshee freely uses her deadly Abilities on anyone in her way."
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 5,
+        "total": 9
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Especialidade: mágico",
+        "graduacoes": 2,
+        "total": 4
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Combate à Distância: Supernatural Sonic Powers",
+        "graduacoes": 9,
+        "total": 11
+      }
+    ],
+    "iniciativa": 8,
+    "ataques": [
+      {
+        "nome": "Banshee Wail",
+        "bonus": 11,
+        "alcance": "À distância",
+        "dano": "Dano 11, Aflição 11 (Fortitude CD 21), possibly Enfraquecer Vigor 11"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 6, Crit. 19-20"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Aparar": 10,
+      "Resistência": 10,
+      "Vontade": 10
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 68,
+      "Perícias": 15,
+      "Poderes": 196,
+      "Defesas": 21
+    },
+    "total": null,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

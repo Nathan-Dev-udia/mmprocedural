@@ -1,0 +1,98 @@
+{
+  "nome_pt": "Mago do Tempo",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 259,
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 2,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 3,
+      "Int": 3,
+      "Pro": 2,
+      "Pre": 1
+    },
+    "poderes": [
+      "Cloud r iding: Voo 5 (96 km/h) (10 PP)",
+      "Weather Control: 30-ponto Arranjo • a ir C ontrol: Área de Explosão Mover Objetos 10, Dynamic (31 PP)",
+      "• e xtreme Weather: Environment 10 (Intense Frio, Impede Movimento, Visibility), Dynamic (2 PP)",
+      "• f o g: Visual Camuflagem Attack, Área de Nuvem 5 (250 ft. Raio), Dynamic (2 PP)",
+      "• Glacier: Criar Objetos Ice 10, Contínuo, Dynamic (2 PP)",
+      "• Lightning: Dano à Distância 14, Dynamic, Indirect 2 (2 PP)",
+      "• t ornado: Área de Explosão Dano à Distância 10, Dynamic (2 PP)",
+      "Weather-Proof: Imunidade 10 (Weather Effects) (10 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Preciso",
+      "Rolamento Defensivo 4",
+      "Ambiente Favorito (Extreme Weather)",
+      "Inventor",
+      "Trabalho em Equipe"
+    ],
+    "pericias": [
+      {
+        "nome": "Especialidade: Criminal",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Especialidade: Meteorology",
+        "graduacoes": 11,
+        "total": 14
+      },
+      {
+        "nome": "Combate à Distância: Lightning Bolt",
+        "graduacoes": 3,
+        "total": 6
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 10,
+        "total": 13
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 4,
+        "total": 7
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [],
+    "defesas": {
+      "Esquiva": 12,
+      "Fortitude": 6,
+      "Aparar": 9,
+      "Resistência": 6,
+      "Vontade": 10
+    },
+    "observacao_defesas": "* Vontade 10 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 34,
+      "Perícias": 18,
+      "Poderes": 61,
+      "Defesas": 27,
+      "Vantagens": 8
+    },
+    "total": 148,
+    "complicacoes": [
+      {
+        "titulo": "Guilt",
+        "texto": "Mardon feels guilt about the death of his brother Clyde."
+      },
+      {
+        "titulo": "Peculiaridade",
+        "texto": "Even though he no longer needs to use his wand, Weather Wizard still chooses to use it as a focus for his Powers. the original Rogues who tangled with Barry Allen, and when Allen apparently died, Mardon pondered retiring from his life of crime. However, the Rogues were drawn back together ev- ery time a new speedster took up the mantle of the Flash. p er S ona LI ty Weather Wizard is about as unpredictable as, well, the weath- er. Mark delights in using his Powers for Destruição regard- less of the collateral Dano to others, but he is burdened by a sense of guilt over his brother’s death. Likewise, despite having enough savvy to apply his brother’s weather technol- ogy, he unnecessarily limits his Powers and his crimes, appar- ently incapable of visualizing Destruição on a global scale."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

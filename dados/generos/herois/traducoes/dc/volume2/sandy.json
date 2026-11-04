@@ -1,0 +1,113 @@
+{
+  "nome_pt": "Sandy (Sandman)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 153,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 2,
+      "Agi": 3,
+      "Des": 2,
+      "Lut": 4,
+      "Int": 2,
+      "Pro": 2,
+      "Pre": 1
+    },
+    "poderes": [],
+    "equipamento": [
+      "Wirepoon ( Dano à Distância 5 and Move 1 (Swinging) (11 PP)"
+    ],
+    "vantagens": [
+      "Ataque Corpo-a-Corpo 3",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 2",
+      "Evasion",
+      "Equipamento 3",
+      "Defesa Aprimorada",
+      "Iniciativa Aprimorada",
+      "Derrubar Aprimorado"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 2,
+        "total": 3
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 2,
+        "total": 4
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 2,
+        "total": 4
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 2,
+        "total": 3
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 2,
+        "total": 4
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 4,
+        "total": 6
+      }
+    ],
+    "iniciativa": 7,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 7,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 1"
+      },
+      {
+        "nome": "Wirepoon",
+        "bonus": 2,
+        "alcance": "À distância",
+        "dano": "Dano 5"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 8,
+      "Fortitude": 4,
+      "Resistência": 4,
+      "Vontade": 4
+    },
+    "observacao_defesas": "*, Vontade 4 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 34,
+      "Poderes": 0,
+      "Vantagens": 13,
+      "Perícias": 13,
+      "Defesas": 13
+    },
+    "total": 73,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

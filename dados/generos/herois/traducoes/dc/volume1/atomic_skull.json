@@ -1,0 +1,121 @@
+{
+  "nome_pt": "Caveira Atômica",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 30,
+  "ficha": {
+    "habilidades": {
+      "For": 12,
+      "Vig": 8,
+      "Agi": 6,
+      "Des": 2,
+      "Lut": 4,
+      "Int": 1,
+      "Pro": 1,
+      "Pre": 2
+    },
+    "poderes": [
+      "Atomic Raio: Dano à Distância 11 (22 PP)",
+      "Superhuman Reflexes: Enhanced Advantage 1 (Improved Iniciativa); Agilidade Aprimorada 5 (11 PP)",
+      "Superhuman Resilience: Vigor Aprimorado 6; Força Aprimorada 10; Resistência Impenetrável 8; Proteção 4 (44 PP)"
+    ],
+    "equipamento": [
+      "VEHICLE: MOTORCYCLE (10 PP)",
+      "Size: Medium Str 1 Velocidade 6 Def 10 Tou 8"
+    ],
+    "vantagens": [
+      "Estrangular",
+      "Ataque Corpo-a-Corpo 6",
+      "Equipamento 2",
+      "Imobilizar Aprimorado",
+      "Iniciativa Aprimorada",
+      "Ataque Poderoso",
+      "Assustar"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 4,
+        "total": 10
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 4,
+        "total": 16
+      },
+      {
+        "nome": "Especialidade: Film History",
+        "graduacoes": 6,
+        "total": 7
+      },
+      {
+        "nome": "Especialidade: Movie Serials",
+        "graduacoes": 8,
+        "total": 9
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 9
+      },
+      {
+        "nome": "Combate à Distância: Blast",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 10,
+        "total": 12
+      }
+    ],
+    "iniciativa": 10,
+    "ataques": [
+      {
+        "nome": "Atomic Raio",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Dano 11"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 12"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Fortitude": 10,
+      "Aparar": 10,
+      "Resistência": 12,
+      "Vontade": 8
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 30,
+      "Perícias": 27,
+      "Poderes": 77,
+      "Defesas": 19,
+      "Vantagens": 12
+    },
+    "total": 165,
+    "complicacoes": [
+      {
+        "titulo": "Delusional Psychotic",
+        "texto": "Joe believes that he is playing the part of the hero in his delusional recreation of his favorite Depression-era movie serial."
+      },
+      {
+        "titulo": "Macabre Appearance",
+        "texto": "The Atomic Skull’s skull shows visibly and burns endlessly."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

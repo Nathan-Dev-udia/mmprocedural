@@ -1,0 +1,105 @@
+{
+  "nome_pt": "Steve Trevor",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 266,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 3,
+      "Agi": 1,
+      "Des": 2,
+      "Lut": 5,
+      "Int": 1,
+      "Pro": 1,
+      "Pre": 2
+    },
+    "poderes": [],
+    "equipamento": [],
+    "vantagens": [
+      "Benefit 2 (military graduação)",
+      "Conectado",
+      "Duro de Matar"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 3,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: Military",
+        "graduacoes": 8,
+        "total": 9
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Combate à Distância: Guns",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 3,
+        "total": 4
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 8,
+        "total": 10
+      }
+    ],
+    "iniciativa": 1,
+    "ataques": [
+      {
+        "nome": "Pistola",
+        "bonus": 8,
+        "alcance": "",
+        "dano": "Dano 3"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "",
+        "dano": "Dano 2"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 7,
+      "Aparar": 8,
+      "Fortitude": 6,
+      "Resistência": 3,
+      "Vontade": 6
+    },
+    "observacao_defesas": "",
+    "custos": {},
+    "total": null,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

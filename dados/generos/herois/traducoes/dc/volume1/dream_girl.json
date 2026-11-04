@@ -1,0 +1,145 @@
+{
+  "nome_pt": "Dream Girl",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 182,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 5,
+      "Agi": 4,
+      "Des": 3,
+      "Lut": 7,
+      "Int": 7,
+      "Pro": 8,
+      "Pre": 6
+    },
+    "poderes": [
+      "Precognition: Sentidos 5 (Sentido de Perigo, Precognition) (5 PP)"
+    ],
+    "equipamento": [
+      "Voo Ring: Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal –3 pontos); Voo 7 (400 km/h), Removível (–3 pontos) (16 PP)",
+      "Telepathic Plug: Compreender 3 (Languages); mental Comunicação 1 (Corpo a Corpo Range), Removível (–1 ponto) (7 PP)",
+      "Transsuit: Imunidade 9 (Suporte Vital, except for Inanição and thirst), Removível (–2 ponto) (7 PP)"
+    ],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Avaliação",
+      "Atraente",
+      "Benefit 1 (Legion membership)",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 3",
+      "Equipamento 6",
+      "Evasion",
+      "Interpor-se",
+      "Liderança",
+      "Ação em Movimento",
+      "Ataque Poderoso",
+      "Redirecionar",
+      "Preparar",
+      "Trabalho em Equipe",
+      "Transe",
+      "Esquiva Fabulosa"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 10,
+        "total": 16
+      },
+      {
+        "nome": "Especialidade: Biology",
+        "graduacoes": 12,
+        "total": 19
+      },
+      {
+        "nome": "Especialidade: Science",
+        "graduacoes": 12,
+        "total": 19
+      },
+      {
+        "nome": "Especialidade: Medicine",
+        "graduacoes": 8,
+        "total": 15
+      },
+      {
+        "nome": "Especialidade: Tactics",
+        "graduacoes": 10,
+        "total": 17
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 8,
+        "total": 16
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 4,
+        "total": 11
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 12
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 10,
+        "total": 16
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 10,
+        "total": 17
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 6,
+        "total": 13
+      }
+    ],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 15,
+        "alcance": "Corpo a corpo",
+        "dano": "Range, Dano 2"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Fortitude": 8,
+      "Aparar": 10,
+      "Resistência": 8,
+      "Vontade": 12
+    },
+    "observacao_defesas": "* Vontade 12 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 84,
+      "Perícias": 53,
+      "Poderes": 5,
+      "Defesas": 16,
+      "Vantagens": 24
+    },
+    "total": 182,
+    "complicacoes": [
+      {
+        "titulo": "Relacionamento",
+        "texto": "Dream Girl and Star Boy have been a couple for years. The care for and protect each other. Motivation—Responsibility: Dream Girl uses her Powers to help others because she feels she’s been given those Powers for a reason. ALLIES As a member of the Legion, Nura can call on most members for help. She is also on good terms with the Science Police and many Naltorian scientists. ENEMIES Nura’s enemies include any that threaten the United Planets or the Legion, including the Dominators, the Fatal Five and many others."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

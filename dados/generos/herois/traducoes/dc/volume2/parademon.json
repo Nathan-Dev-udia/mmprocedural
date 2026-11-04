@@ -1,0 +1,93 @@
+{
+  "nome_pt": "Parademônio",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 162,
+  "ficha": {
+    "habilidades": {
+      "For": 8,
+      "Vig": 6,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 6,
+      "Int": -1,
+      "Pro": 1,
+      "Pre": 1
+    },
+    "poderes": [
+      "a rmor (Voo 5 (96 km/h), Imunidade 4 (Pressão, Sufocamento, Vácuo), Impenetrável Proteção 4, Sentidos 3 (Comunicação Link, Visão no Escuro), Removível (-5 pontos)); Mother Box (Intelligence (Característica 2), Cura 8, Removível (–4 pontos); Power-Staff (Dano à Distância 8, Facilmente Removível (-6 pontos))"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Estrangular",
+      "Ataque Corpo-a-Corpo 4",
+      "Destemido",
+      "Grande Vigor",
+      "Agarrar Aprimorado",
+      "Interpor-se",
+      "Esforço Supremo (Toughness check)"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 4,
+        "total": 12
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 8,
+        "total": 9
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Combate à Distância: Power-Staff",
+        "graduacoes": 6,
+        "total": 8
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 8"
+      },
+      {
+        "nome": "Power- Staff",
+        "bonus": 8,
+        "alcance": "À distância",
+        "dano": "Dano 8"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 8,
+      "Fortitude": 10,
+      "Resistência": 10,
+      "Vontade": 8
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 50,
+      "Poderes": 44,
+      "Vantagens": 11,
+      "Perícias": 11,
+      "Defesas": 19
+    },
+    "total": 135,
+    "complicacoes": [
+      {
+        "titulo": "born and bred ie",
+        "texto": "to die in the name of Darkseid. He has little to no sense of self-preservation. worldly: Parademon is an inhuman- o ther looking alien being with no social Skills. r elationship: Parademon enjoys Ragdoll’s antics and defends the twisted villain above all other members of the Secret Six."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

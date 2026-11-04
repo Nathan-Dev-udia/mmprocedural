@@ -1,0 +1,117 @@
+{
+  "nome_pt": "Kid Flash",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 303,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 3,
+      "Agi": 4,
+      "Des": 3,
+      "Lut": 3,
+      "Int": 2,
+      "Pro": 3,
+      "Pre": 2
+    },
+    "poderes": [
+      "Frictionless Aura: Imunidade 1 (Friction Effects) (1 PP)",
+      "Run On Water: Movimento 1 (Water Walking), Limitado a While Moving (1 PP)",
+      "Run Up Walls: Movimento 2 (Wall-crawling 2), Limitado a While Moving (2 PP)",
+      "Super-Velocidade: Enhanced Defense 23 (Esquiva 11, Aparar 12), Enhanced Advantage 25 (Agile Feint, Beginner’s Luck, Corpo a Corpo Attack 4, Defensive Roll 2, Evasion 2, Improved Iniciativa 10, Interpose, Instant Up, Move-by Action, Seize Iniciativa, Takedown), Rapidez 20, Velocidade 20 (2,000,0 km/h) (88 PP)",
+      "Velocidade Stunts: Arranjo (21 pontos)",
+      "• Air Control: Área de Cone Mover Objetos 7 (21 PP)",
+      "• Air Cushion: Movimento 1 (Safe Fall), Área de Explosão, Affects Others (1 PP)",
+      "• Velocidade Golpe : Força-based Dano 5, Multiataque 6 (1 PP)",
+      "• Vácuo: Área de Explosão Aflição 7 (resistido por Fortitude; Tonto, Atordoado, Incapacitado), Concentração (1 PP)",
+      "• Vibrate Through Walls: Intangibilidade 4 (1 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Finta Ágil",
+      "Beginner’s Luck",
+      "Ataque Corpo-a-Corpo 4",
+      "Rolamento Defensivo 2",
+      "Memória Eidética",
+      "Evasion 2",
+      "Iniciativa Aprimorada 10",
+      "Interpor-se",
+      "Levantar Rápido",
+      "Ação em Movimento",
+      "Tomar a Iniciativa",
+      "Derrubar em Sequência",
+      "Uncanny Dodge attacked by the evil speedster Zoom and the Flash’s Rogues. The attacks culminated in a particularly savage assault by the Rogues that left Bart Allen dead. Bart’s death released the pow - er of the Speed Force",
+      "allowing the return of Wally West. West returned to the role of the Flash and the Justice League",
+      "where he encountered the Legion of Super-Heroes on a mission from their future to the present whose mission was to save Bart Allen. Revived in the future by the Legion",
+      "Allen was reborn young - er",
+      "now once again Kid Flash. He also discovered the true rea - son the Legion rescued him: to help defeat Superboy-Prime once and for all. After the battle",
+      "Kid Flash returned to his home",
+      "his friends",
+      "and family in the present."
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 7,
+        "total": 8
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 11
+      }
+    ],
+    "iniciativa": 44,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 13,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 6, Multiataque"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 15,
+      "Fortitude": 9,
+      "Aparar": 15,
+      "Resistência": 5,
+      "Vontade": 5
+    },
+    "observacao_defesas": "* Vontade 5 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 42,
+      "Perícias": 17,
+      "Poderes": 116,
+      "Defesas": 30,
+      "Vantagens": 2
+    },
+    "total": 207,
+    "complicacoes": [
+      {
+        "titulo": "Flash Family",
+        "texto": "Kid Flash is part of an extended family of super- speedsters, a legacy that brings both allies and enemies."
+      },
+      {
+        "titulo": "Out of Time",
+        "texto": "Bart Allen was born in the 30th century and raised inside a virtual reality environment. Although he has had time to acclimate to living in the reality of the present day, the speedster still sometimes misses a step. incredible speeds. In combat, he can use his Velocidade to rain a flurry of blows on his foes, or suck the air away from an área to knock them out. He can also Criar Objetos air vortexes by mov - ing at super Velocidade that can move heavy objects or catch falling allies. ALLIES Kid Flash has met and been trained by every speedster hero of the present day, from Max Mercury and Jesse Quick to all the heroes who have worn the Flash costume. His adventures have also taken him through time, back to his birthplace in the 30th century, where he ran alongside his cousin XS and the Legion of Super-Heroes. His best friends are Robin, Super - boy, Wonder Girl, and the other Teen Titans. ENEMIES Kid Flash shares the enemies of his allies, from the foes of the Teen Titans like Brother Blood and Trigon the Terrible to Deathstroke. Superboy-Prime has a particular dislike for Kid Flash. Kid Flash has also chased the super-Velocidade enemies of the Flash family, from Zoom and the Black Flash to Inertia and Savitar, and battled the Rogues—who once very nearly suc - ceeded in killing him."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

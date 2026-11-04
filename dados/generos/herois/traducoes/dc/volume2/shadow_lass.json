@@ -1,0 +1,102 @@
+{
+  "nome_pt": "Moça-Sombra",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 15,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 2,
+      "Agi": 4,
+      "Des": 5,
+      "Lut": 3,
+      "Int": 3,
+      "Pro": 5,
+      "Pre": 2
+    },
+    "poderes": [
+      "Shadow Casting (Arranjo), Shadow Bubble (Camuflagem 4 (All Visual Sense, Área de Explosão, À Distância)) Linked to Proteção 10 (À Distância, Área de Explosão, Limitado a Calor and Radiação Attacks Only), ae : Shadow f ield (Camuflagem 4 (All Visual Sentidos, Área Moldável, À Distância) Linked to Proteção 10 (À Distância, Área Moldável, Limitado a Calor and Radiação Attacks Only), ae : Cego (resistido por Esquiva; Cumulativo Aflição à Distância 10, (Visually Impaired, Visually Disabled, Visually Unaware, Concentração))); Visão no Escuro (Sentidos 2)"
+    ],
+    "equipamento": [
+      "Voo Ring (Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal –3), Voo 7 (400 km/h); Telepathic Ear Plug ( Compreender 3 (Languages), mental Comunicação 1 (Corpo a Corpo Range)); Transsuit (Imunidade 9 (Suporte Vital, except for Inanição and thirst))"
+    ],
+    "vantagens": [
+      "Benefit 4 (Champion of Talok VIII",
+      "Legion Membership)",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 2",
+      "Equipamento 8",
+      "Crítico Aprimorado (Desarmado)",
+      "Quebrar Aprimorado",
+      "Derrubar Aprimorado",
+      "Levantar Rápido",
+      "Ataque Poderoso"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 3,
+        "total": 6
+      },
+      {
+        "nome": "Especialidade: Talok VIII",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 9
+      },
+      {
+        "nome": "Combate à Distância: Shadow Casting Array",
+        "graduacoes": 5,
+        "total": 10
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 3,
+        "total": 7
+      }
+    ],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Cego",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Aflição 10"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 6,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 1, Crit. 19-20"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 6,
+      "Aparar": 8,
+      "Fortitude": 5,
+      "Resistência": 4,
+      "Vontade": 10
+    },
+    "observacao_defesas": "*, Vontade 10 * sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 50,
+      "Poderes": 44,
+      "Vantagens": 20,
+      "Perícias": 10,
+      "Defesas": 15
+    },
+    "total": 139,
+    "complicacoes": [
+      {
+        "titulo": "r esponsibility",
+        "texto": "Shadow Lass was given her Powers to act as protector and champion of her people. r elationship: Shadow Lass and Mon-El care deeply for one another."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

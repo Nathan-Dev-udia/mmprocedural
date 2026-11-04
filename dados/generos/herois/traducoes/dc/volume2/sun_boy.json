@@ -1,0 +1,88 @@
+{
+  "nome_pt": "Rapaz-Fogo (Solar)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 208,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 3,
+      "Des": 2,
+      "Lut": 3,
+      "Int": 3,
+      "Pro": 1,
+      "Pre": 3
+    },
+    "poderes": [
+      "f lame i mmunit y: Imunidade 10 (fogo and Calor Effects) (10 PP)",
+      "Solar a ur a: Reação Dano 10 (40 PP)",
+      "Solar f ir e: Arranjo (24 pontos)",
+      "• Solar f ir e Raio: Dano à Distância 12 (24 PP)",
+      "• f lame a bsorption: Nulificar fogo Effects 6, Simultaneous, Sustentado (1 PP)",
+      "• f lame a bsorption Burst: Corpo a Corpo Área de Explosão Nulificar fogo Effects 6, Simultaneous, Sustentado (1 PP)",
+      "• n o va Burst: Área de Explosão Dano 12 (1 PP)",
+      "• Solar f lash: Área de Explosão Cumulativo Aflição 6 (resistido por Fortitude; Visually Impaired, Visually Disabled, Visually Unaware) (1 PP)"
+    ],
+    "equipamento": [
+      "f ligh t r ing: Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal –3); Voo 7 (400 km/h) (19 PP)",
+      "t elepa thic e ar Plug: Compreender 3 (Languages), mental Comunicação 1 (Corpo a Corpo Range) (10 PP)",
+      "t r anssuit: Imunidade 9 (Suporte Vital, except for Inanição and thirst) (9 PP)",
+      "d a e S a V ant G Attractive, Benefit (Legion Membership), Connected, Defensive Attack, Defensive Roll 5, Equipment 6, Power Attack"
+    ],
+    "vantagens": [],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: Earth",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Combate à Distância: Solar fogo Array",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 4,
+        "total": 7
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [],
+    "defesas": {
+      "Esquiva": 13,
+      "Fortitude": 8,
+      "Resistência": 7,
+      "Aparar": 8,
+      "Vontade": 8
+    },
+    "observacao_defesas": "* Aparar 8 Vontade 8 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 38,
+      "Perícias": 15,
+      "Poderes": 78,
+      "Defesas": 28,
+      "Vantagens": 18
+    },
+    "total": 177,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

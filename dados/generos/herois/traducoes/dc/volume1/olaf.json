@@ -1,0 +1,114 @@
+{
+  "nome_pt": "Olaf",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 64,
+  "ficha": {
+    "habilidades": {
+      "For": 4,
+      "Vig": 5,
+      "Agi": 4,
+      "Des": 3,
+      "Lut": 6,
+      "Int": 2,
+      "Pro": 3,
+      "Pre": 2
+    },
+    "poderes": [],
+    "equipamento": [
+      "Grumman XF5F-1 “Skyrocket, ” Heavy Pistola; choose 2 EP’s of additional gear"
+    ],
+    "vantagens": [
+      "Finta Ágil",
+      "Ataque Imprudente",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 2",
+      "Equipamento 18",
+      "Defesa Aprimorada",
+      "Languages",
+      "Ataque Poderoso",
+      "Takedown Attack",
+      "Trabalho em Equipe"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 5,
+        "total": 9
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 3,
+        "total": 9
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Combate à Distância: Heavy Weapons",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Combate à Distância: Firearms",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 8,
+        "total": 11
+      }
+    ],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Heavy Pistola",
+        "bonus": 9,
+        "alcance": "",
+        "dano": "Dano 4"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 9,
+        "alcance": "",
+        "dano": "Dano 4"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 9,
+      "Aparar": 9,
+      "Fortitude": 8,
+      "Resistência": 7,
+      "Vontade": 8
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 58,
+      "Poderes": 0,
+      "Vantagens": 28,
+      "Perícias": 19,
+      "Defesas": 16
+    },
+    "total": 119,
+    "complicacoes": [
+      {
+        "titulo": "Responsabilidade",
+        "texto": "Olaf regards Luta for human freedom as the highest duty."
+      },
+      {
+        "titulo": "Inimigo",
+        "texto": "See the Blackhawk Squadron’s group Enemies list."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

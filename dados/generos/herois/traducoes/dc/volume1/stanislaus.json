@@ -1,0 +1,108 @@
+{
+  "nome_pt": "Stanislaus",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 65,
+  "ficha": {
+    "habilidades": {
+      "For": 5,
+      "Vig": 6,
+      "Agi": 2,
+      "Des": 3,
+      "Lut": 6,
+      "Int": 3,
+      "Pro": 3,
+      "Pre": 2
+    },
+    "poderes": [],
+    "equipamento": [
+      "Grumman XF5F-1 “Skyrocket, ” Heavy Pistola; choose 2 EP’s of additional gear"
+    ],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Ataque Defensivo",
+      "Rolamento Defensivo",
+      "Equipamento 16",
+      "Defesa Aprimorada",
+      "Languages",
+      "Ataque Poderoso",
+      "Takedown Attack",
+      "Trabalho em Equipe"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 6,
+        "total": 11
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 3,
+        "total": 9
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Combate à Distância: Heavy Weapons",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Combate à Distância: Firearms",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 7,
+        "total": 10
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Heavy Pistola",
+        "bonus": 9,
+        "alcance": "",
+        "dano": "Dano 4"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 9,
+        "alcance": "",
+        "dano": "Dano 5"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 9,
+      "Fortitude": 8,
+      "Resistência": 7,
+      "Vontade": 8
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 60,
+      "Poderes": 0,
+      "Vantagens": 24,
+      "Perícias": 17,
+      "Defesas": 16
+    },
+    "total": 117,
+    "complicacoes": [
+      {
+        "titulo": "Justice",
+        "texto": "Stanislaus is committed to avenging the wrongs of tyranny and oppression worldwide."
+      },
+      {
+        "titulo": "Inimigo",
+        "texto": "See the Blackhawk Squadron’s group Enemies list."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

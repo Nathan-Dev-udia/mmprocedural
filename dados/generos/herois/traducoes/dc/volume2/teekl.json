@@ -1,0 +1,79 @@
+{
+  "nome_pt": "Teekl",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 167,
+  "ficha": {
+    "habilidades": {
+      "For": 5,
+      "Vig": 5,
+      "Agi": 6,
+      "Des": 4,
+      "Lut": 6,
+      "Int": 0,
+      "Pro": 1,
+      "Pre": 1
+    },
+    "poderes": [
+      "Cat-like Sentidos (Sentidos 5 (Aguçado and Tracking Olfactory, Visão no Escuro, Audição Estendida)); t r ansformation (Arranjo (24 pontos) Peculiaridade—One form must always be active (-0 pontos), Humanoid f orm (Força-based Dano 3, Vigor Aprimorado 5, Força Aprimorada 5, Característica Aprimorada (Improved Critical (Força-based Dano)), ae : Catlike f orm (Enhanc ed Defense 6 (Esquiva 1, Aparar 1, Fortitude 4), Encolhimento 8, Contínuo)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Corpo-a-Corpo 2",
+      "Rolamento Defensivo 4",
+      "Iniciativa Aprimorada",
+      "Assustar"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 2,
+        "total": 8
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 7,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 3,
+        "total": 4
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 2,
+        "total": 8
+      }
+    ],
+    "iniciativa": 10,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 8, Crit. 19-20/Dano -2"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 7,
+      "Aparar": 7,
+      "Fortitude": 7,
+      "Resistência": 9,
+      "Vontade": 5
+    },
+    "observacao_defesas": "*, Aparar 7/12*, Fortitude 7/6*, Resistência 9/4*, Vontade 5 *Numbers before the slash are in Humanoid Form, those after the slash are in Catlike Form. Abilities 36 + Powers 36 + Advantages 8 + Skills 7 +",
+    "custos": {
+      "Defesas": 8
+    },
+    "total": 95,
+    "complicacoes": [
+      {
+        "titulo": "Cat",
+        "texto": "Teekl is an exceptional cat-like creature, but still basically a cat with the same physical limitations. : Teekl is loyal to Klarion the Witch Boy. f amiliar"
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

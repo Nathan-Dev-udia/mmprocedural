@@ -1,0 +1,121 @@
+{
+  "nome_pt": "Magia",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 189,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 3,
+      "Agi": 2,
+      "Des": 5,
+      "Lut": 2,
+      "Int": 6,
+      "Pro": 7,
+      "Pre": 4
+    },
+    "poderes": [
+      "Cauldron of Herne-Ramsgate: Enhanced Skill 12 (Expertise: mágico +12), Limitado a knowledge about mágico creatures; Enhanced Advantage (Assessment); Remote Sensing 20 (mágico Sensitivity), Limitado a only magical creatures, Dimensional 2, No Conduit; Facilmente Removível (-12 pontos) (14 PP)",
+      "Enchanted Physique: Força Aprimorada 6, Limitado a Lifting (Lifting Str 7: 3 tons); Proteção 7 (13 PP)",
+      "mágico Sensitivity: Sentidos 8 (Preciso Aguçado Analítico Magical Prontidão, Extended 2, Tracking) (8 PP)",
+      "Sorcery: Arranjo (32 pontos)",
+      "• Channel Power: À Distância Variável 8 (boost effects), Affects Only Others, Exige Teste (Expertise: mágico, CD 18), Concentração, Dissipação (recharges when tapping the mágico of others), Limitado (only Característica Aprimorada for target’s existing traits) (32 PP)",
+      "• Eldritch Raio: Dano à Distância 12, Variável Descriptor (elemental) (1 PP)",
+      "• Ghostwalk: Voo 4; Movimento 3 (Permeate 3); Sentidos 2 (Sight Penetrates Camuflagem); Imunidade 2 (Sufocamento) (1 PP)",
+      "• Cura: Cura 10, Energizing (1 PP)",
+      "• Hex Hijack: Aflição à Distância 12 (taps and control mágico flows; mágico Impaired, mágico Disabled, Controlado), Limitado (Controlado condition only applies to effect parameters) 0 (1 PP)",
+      "• Teleportation: Teleporte 12 (16 milhas), Increased Mass 4 (800 lbs.) (1 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Artífice",
+      "Avaliação",
+      "Liderança",
+      "Sorte",
+      "Ritualista",
+      "Maestria em Perícia (Expertise: mágico)",
+      "Trabalho em Equipe",
+      "Transe"
+    ],
+    "pericias": [
+      {
+        "nome": "Intuição",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 6,
+        "total": 12
+      },
+      {
+        "nome": "Especialidade: mágico",
+        "graduacoes": 12,
+        "total": 18
+      },
+      {
+        "nome": "Especialidade: Art",
+        "graduacoes": 8,
+        "total": 14
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 13,
+        "total": 20
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 12,
+        "total": 18
+      },
+      {
+        "nome": "Combate à Distância: Sorcery",
+        "graduacoes": 5,
+        "total": 10
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 2,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 1"
+      },
+      {
+        "nome": "Sorcery",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Eldritch Raio 12 or other effects"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Fortitude": 8,
+      "Aparar": 8,
+      "Resistência": 10,
+      "Vontade": 10
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 60,
+      "Perícias": 26,
+      "Poderes": 72,
+      "Defesas": 24,
+      "Vantagens": 7
+    },
+    "total": 189,
+    "complicacoes": [
+      {
+        "titulo": "Powers and the Expertise",
+        "texto": "mágico skill."
+      },
+      {
+        "titulo": "Stressful Magic",
+        "texto": "Concentração effects and rituals that last too long, catastrophic failures or incredible successes may cause Enchantress to lose control and become evil."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

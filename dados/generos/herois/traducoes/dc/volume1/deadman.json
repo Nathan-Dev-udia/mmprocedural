@@ -1,0 +1,110 @@
+{
+  "nome_pt": "Desafiador",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 150,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 3,
+      "Agi": 6,
+      "Des": 5,
+      "Lut": 2,
+      "Int": 1,
+      "Pro": 6,
+      "Pre": 4
+    },
+    "poderes": [
+      "Possession: Aflição 10 (resistido por Vontade; Tonto, Compelido, Controlado), Affects Corporeal 10, Concentração, Cumulativo, Insidioso, Instant Recovery, Sutil 2, Limitado a creatures with Int -3 or higher, Limitado—Cannot access target’s thoughts or memories (18 PP)",
+      "Spectral Form: Intangibilidade 4 (Not versus mágico), Contínuo, Inato, Permanente; Camuflagem 10, Contínuo, Permanente; Voo 4 (48 km/h); Imunidade 30 (Fortitude Effects); Sentidos 4 (Vision Counters Invisibility, Auditory Counters Spiritual Camuflagem), Dimensional, Limitado a Spirits/Astral Entities (83 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Conectado",
+      "Rolamento Defensivo 5",
+      "Sorte 3",
+      "Skill Mastery 2 (Acrobatics",
+      "Athletics)",
+      "Ataque Poderoso"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 6,
+        "total": 12
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Possession",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Especialidade: mágico",
+        "graduacoes": 2,
+        "total": 3
+      },
+      {
+        "nome": "Especialidade: Supernatural",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 10
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 2,
+        "total": 6
+      }
+    ],
+    "iniciativa": 6,
+    "ataques": [
+      {
+        "nome": "Possession",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Aflição 10 Desarmado +X* Corpo a Corpo, Dano X* *Depends on Fgt and Str of body possessed"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 5,
+      "Resistência": 8,
+      "Vontade": 8
+    },
+    "observacao_defesas": "** Vontade 8 **sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 58,
+      "Perícias": 21,
+      "Poderes": 101,
+      "Defesas": 9,
+      "Vantagens": 12
+    },
+    "total": 201,
+    "complicacoes": [
+      {
+        "titulo": "Spiritual Responsibilities",
+        "texto": "As a spirit in service to Rama Kushna, Deadman is frequently called upon to perform “other- worldly” duties, such as guiding other spirits to their final rest and defending the living against supernatural evils. As the fight raged, Deadman was forced to return to Nanda Parbat to repel a Black Lantern assault. Full knowing that doing so risked his own (final) Destruição, Deadman be - gan possessing the invaders so as to cause his ring-wearing hosts to destroy themselves. Aided by the Phantom Stranger, Deadman resisted the Black Lanterns’ control and finally man - aged to possess his own corpse. Doing so expelled the black power ring from his body, allowing him to take his body back to Nanda Parbat where it could be kept safe. Brought back to life following the Blackest Night, Deadman now finds himself in possession of a white power ring that, among other Abilities he hasn’t yet quite mastered, allows him to resurrect the dead (in some cases). Even as he strug - gles with what his own resurrection means, he finds himself suffering under a new set of responsibilities: uncovering the white power ring’s purpose and what its existence means to the universe at large. PERSONALITY Perhaps because he’s been so long denied tactile sensation, Deadman is highly sensitive to the emotions of others, making him very empathetic when exposed to suffering, tragedy, and loss. He also possesses a great sense of responsibility (even if it is sometimes reluctant) with regards to others’ welfare, hoping one day his good deeds shall earn him a final peace. Powers & Abilities Deadman is an intangible spirit, detectable only to those with the ability to sense the paranormal or otherwise com - mune with the dead. He is also able to enter a sentient, living subject’s body and possess it, gaining control of its physical functions. Because Deadman is unable to access his host’s memories or mind, a possessed subject has no recollection of the occurrence once Deadman leaves."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

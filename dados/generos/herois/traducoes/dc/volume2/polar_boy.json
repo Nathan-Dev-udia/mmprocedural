@@ -1,0 +1,98 @@
+{
+  "nome_pt": "Rapaz-Polar",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 14,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 4,
+      "Agi": 2,
+      "Des": 3,
+      "Lut": 3,
+      "Int": 2,
+      "Pro": 2,
+      "Pre": 1
+    },
+    "poderes": [
+      "f lame i mmunit y (Imunidade 11 (Calor, fogo Attacks (Limitado a Half Effect)); i c e Production (Criar Objetos Ice (Criar Objetos 11, Contínuo), ae : i c e Raio (Dano à Distância 11), ae : i c e Aprisionar (À Distância Cumulativo Aflição 11 (resistido por Esquiva; Impedido and Vulnerável, Indefeso and Immobilized), Extra Condition, Limitado Degree), ae : i c y Surface (Área de Cone Aflição 9 (resistido por Esquiva; Impedido and Vulnerável), Extra Condition, Limitado Degree 2)); i c e Slide (Platform Voo 5)"
+    ],
+    "equipamento": [
+      "Voo Ring (Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal –3), Voo 7 (400 km/h); Telepathic Ear Plug ( Compreender 3 (Languages), mental Comunicação 1 (Corpo a Corpo Range)); Transsuit (Imunidade 9 (Suporte Vital, except for Inanição and thirst))"
+    ],
+    "vantagens": [
+      "Beginner’s Luck",
+      "Benefício (Legion Membership)",
+      "Rolamento Defensivo 3",
+      "Equipamento 8",
+      "Liderança",
+      "Trabalho em Equipe"
+    ],
+    "pericias": [
+      {
+        "nome": "Especialidade: Tharr",
+        "graduacoes": 5,
+        "total": 7
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 5,
+        "total": 6
+      },
+      {
+        "nome": "Combate à Distância (Ice Production Array)",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 4,
+        "total": 7
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Ice Raio",
+        "bonus": 9,
+        "alcance": "À distância",
+        "dano": "Dano 11"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 3,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 8,
+      "Fortitude": 6,
+      "Resistência": 7,
+      "Vontade": 5
+    },
+    "observacao_defesas": "*, Vontade 5 * sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 38,
+      "Poderes": 47,
+      "Vantagens": 15,
+      "Perícias": 12,
+      "Defesas": 18
+    },
+    "total": 130,
+    "complicacoes": [
+      {
+        "titulo": "r ecognition",
+        "texto": "Polar Boy isn’t a show off, but he wants to be regarded as competent and riv skilled and works hard to achieve that. d en: Polar Boy is determined and tenacious. He never gives up once he sets his mind to something... which can also make him seem stubborn."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

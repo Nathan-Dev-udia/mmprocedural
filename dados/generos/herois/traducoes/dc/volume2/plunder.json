@@ -1,0 +1,80 @@
+{
+  "nome_pt": "Saqueador",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 143,
+  "ficha": {
+    "habilidades": {
+      "For": 4,
+      "Vig": 5,
+      "Agi": 3,
+      "Des": 5,
+      "Lut": 6,
+      "Int": 2,
+      "Pro": 3,
+      "Pre": 2
+    },
+    "poderes": [
+      "Blaster Pistola (À Distância Área de Explosão Dano 5, Facilmente Removível (–6 pontos)), r ifle (Arranjo (19 pontos), Facilmente Removível (–8 pontos): Bullets (À Distância Multiataque Dano 6, Extended Range), ae : Laser (Dano à Distância 7, Penetrante 5), Característica 1 (Hidden Tracer in Rifle))"
+    ],
+    "equipamento": [
+      "Boomerang (À Distância Força-based Dano 1), Camo Clothing (Urban), f r agmentation Grenades (À Distância Área de Explosão Dano 5), Commlink , Heavy Pistola (Dano à Distância 4), Survival k nife (Força-based Dano 1, Improved Critical); 1 ponto of additional equipment"
+    ],
+    "vantagens": [
+      "Ataque Preciso",
+      "Ataque Corpo-a-Corpo 3",
+      "Rolamento Defensivo",
+      "Equipamento 6",
+      "Esconder-se a Plena Vista",
+      "Precise Attack 2 (Ranged",
+      "Cover and Concealment)",
+      "Saque Rápido",
+      "Ataque à Distância 8",
+      "Esforço Supremo (Aim)"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: Criminal",
+        "graduacoes": 5,
+        "total": 7
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 6,
+        "total": 9
+      }
+    ],
+    "iniciativa": 3,
+    "ataques": [],
+    "defesas": {
+      "Esquiva": 14,
+      "Aparar": 12,
+      "Fortitude": 11,
+      "Resistência": 6,
+      "Vontade": 9
+    },
+    "observacao_defesas": "*, d Vontade 9 *sem Rolamento Defensivo.",
+    "custos": {
+      "Defesas": 29
+    },
+    "total": 145,
+    "complicacoes": [
+      {
+        "titulo": "Mercenary",
+        "texto": "Plunder is an assassin for hire. ceptance: Because his own world has most likely been a c destroyed, Plunder wants to make a life for himself on New Earth. Heroes & V Heroes & V I I lla lla I I ns, Vol. 2 ns, Vol. 2"
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

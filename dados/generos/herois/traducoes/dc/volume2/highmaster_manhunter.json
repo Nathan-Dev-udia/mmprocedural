@@ -1,0 +1,98 @@
+{
+  "nome_pt": "Caçador Supremo",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 40,
+  "ficha": {
+    "habilidades": {
+      "For": 16,
+      "Vig": "—",
+      "Agi": 2,
+      "Des": 3,
+      "Lut": 6,
+      "Int": 1,
+      "Pro": 1,
+      "Pre": 0
+    },
+    "poderes": [
+      "a rmor (Proteção 6, Resistência Impenetrável 14), f ligh t (Voo 8 (800 km/h), ae : Movimento 4 (Environmental Adaptation: Zero-G, Space Travel 3)), Hand Raio (Dano à Distância 12, Penetrante 12), r obot (Crescimento 8 (Permanente, Inato), Imunidade 40 (Fortitude effects, mental effects), Super- Sentidos (Sentidos 4, (Visão no Escuro, Rádio, Ultra-Audição)), Universal t r anslator (Compreender 3, (Read, Speak, Understand)), Willhunter t endrils (Aflição 14 (resistido por Vontade; Entranced, Indefeso, Controlado), Cumulativo, Progressivo, Reach 2, Sutil, Baseado em Agarrar)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Memória Eidética",
+      "Agarrar Rápido",
+      "Inimigo Favorito (Green Lanterns)",
+      "Rastrear"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 2,
+        "total": 8
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 6,
+        "total": 6
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 3,
+        "total": 4
+      },
+      {
+        "nome": "Combate à Distância: Hand Blasts",
+        "graduacoes": 5,
+        "total": 8
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Hand Raio",
+        "bonus": 8,
+        "alcance": "À distância",
+        "dano": "Dano 12, Penetrante 12"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 16"
+      },
+      {
+        "nome": "Willhunter Tendrils",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Reach, Aflição 14"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 8,
+      "Resistência": 14,
+      "Vontade": 8
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 52,
+      "Poderes": 189,
+      "Vantagens": 4,
+      "Perícias": 10,
+      "Defesas": 23
+    },
+    "total": 278,
+    "complicacoes": [
+      {
+        "titulo": "ing o v erride",
+        "texto": "If an engulfed Green Lantern breaks free of the Willhunters’ influence, the prisoner may use his power ring to initiate a Vontade check opposed by the Willhunter’s power graduação. Failure means the Green Lantern may be affected normally by the Willhunters in subsequent rounds; success instead places the Highmaster under the Green Lantern’s control as though affected by a similar Aflição power of a graduação equal to the Green Lantern’s Vontade modifier."
+      },
+      {
+        "titulo": "Self- estruct",
+        "texto": "Highmasters contain a deadly, nuclear-level self- d destruct Dispositivo to be employed as a defense against capture. Using this ability destroys the Highmaster utterly. Área de Explosão 8 Dano 15, Gatilho (timer)."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

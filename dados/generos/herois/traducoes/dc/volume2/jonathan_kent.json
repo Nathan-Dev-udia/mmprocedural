@@ -1,0 +1,71 @@
+{
+  "nome_pt": "Jonathan Kent",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 217,
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 1,
+      "Agi": 0,
+      "Des": 1,
+      "Lut": 2,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "poderes": [],
+    "equipamento": [],
+    "vantagens": [],
+    "pericias": [
+      {
+        "nome": "Especialidade: Farming",
+        "graduacoes": 8,
+        "total": 9
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 4,
+        "total": 6
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [
+      {
+        "nome": "Attack",
+        "bonus": 2,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 0"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 2,
+      "Aparar": 3,
+      "Fortitude": 2,
+      "Resistência": 1,
+      "Vontade": 2
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 18,
+      "Poderes": 0,
+      "Vantagens": 0,
+      "Perícias": 10,
+      "Defesas": 5
+    },
+    "total": 33,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

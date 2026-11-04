@@ -1,0 +1,59 @@
+{
+  "nome_pt": "Árvore Animada Gigante",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 109,
+  "ficha": {
+    "habilidades": {
+      "For": 16,
+      "Vig": 16,
+      "Agi": "—",
+      "Des": "—",
+      "Lut": 0,
+      "Int": "—",
+      "Pro": 0,
+      "Pre": 0
+    },
+    "poderes": [
+      "Branches (Alongamento 2, Extra Limbs 12), f lail (Burst A rea Força Dano 12, Seletivo, Baseado em Agarrar), Giant (Crescimento 16, Permanente, Inato), Plant (Imunidade 60 (Fortitude effects, Vontade effects)), t ough B ark (Resistência Impenetrável 4)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Ataque Poderoso",
+      "Agarrar Aprimorado",
+      "Imobilizar Aprimorado",
+      "Quebrar Aprimorado"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 6,
+        "total": 6
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [],
+    "defesas": {
+      "Esquiva": 4,
+      "Aparar": 6,
+      "Resistência": 16
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Poderes": 113,
+      "Vantagens": 5,
+      "Perícias": 3,
+      "Defesas": 26
+    },
+    "total": 150,
+    "complicacoes": [
+      {
+        "titulo": "Plant",
+        "texto": "Affected by things with harm and affect plants. e: Truly titanic trees (old-Crescimento redwoods, etc.) may have n ot up to Crescimento 20, with appropriately adjusted traits. 112 112"
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

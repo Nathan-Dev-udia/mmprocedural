@@ -1,0 +1,95 @@
+{
+  "nome_pt": "The Wizard",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 279,
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 2,
+      "Agi": 1,
+      "Des": 2,
+      "Lut": 5,
+      "Int": 4,
+      "Pro": 4,
+      "Pre": 4
+    },
+    "poderes": [
+      "Astral Projection (Remote Sensing 10 (visual, auditory, mental), physical body is Indefeso, Sutil 2); Imunidade 2 (Envelhecimento, Doença); Magical Powers (Arranjo (48 pontos), Controle mental 12 , AE: Ilusão 12 (All Sentidos); Mystic Sentidos (Magical Prontidão, Raio)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Tontear (Enganação)",
+      "Fascinar",
+      "Languages 3 (several Asian and dead languages)",
+      "Sorte 2",
+      "Ritualista",
+      "Provocar"
+    ],
+    "pericias": [
+      {
+        "nome": "Enganação",
+        "graduacoes": 10,
+        "total": 14
+      },
+      {
+        "nome": "Especialidade: mágico",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 4,
+        "total": 5
+      }
+    ],
+    "iniciativa": 1,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 5,
+        "alcance": "",
+        "dano": "Dano 0"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 9,
+      "Aparar": 9,
+      "Fortitude": 6,
+      "Resistência": 2,
+      "Vontade": 14
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 44,
+      "Poderes": 85,
+      "Vantagens": 9,
+      "Perícias": 26,
+      "Defesas": 26
+    },
+    "total": 190,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "nome_pt": "David Cain",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 8,
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 3,
+      "Agi": 5,
+      "Des": 6,
+      "Lut": 14,
+      "Int": 4,
+      "Pro": 2,
+      "Pre": 4
+    },
+    "poderes": [
+      "n er ve Golpe Aflição 6 (resistido por Fortitude; Tonto, Imóvel, Paralisado), Spine Snap Força-Based Dano 1"
+    ],
+    "equipamento": [
+      "Binoculars, Flash-bang Grenade (Área de Explosão Ofuscar 4), Heavy Pistola (Dano à Distância 4), Knife (Dano 1, piercing), Night-vision Goggles, Silenced Sniper Rifle (Dano à Distância 5, Critical 19-20, Sutil)"
+    ],
+    "vantagens": [
+      "Estrangular",
+      "Rolamento Defensivo 5",
+      "Duro de Matar",
+      "Equipamento 8",
+      "Agarrar Rápido",
+      "Destemido",
+      "Agarrar com Destreza",
+      "Grande Vigor",
+      "Esconder-se a Plena Vista",
+      "Mira Aprimorada",
+      "Ataque Poderoso",
+      "Precise Attack (à distância; Cover)",
+      "Luta Caída",
+      "Range Attack 4",
+      "Tomar a Iniciativa",
+      "Assustar",
+      "Esquiva Fabulosa",
+      "Prender Arma"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 6,
+        "total": 11
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 9,
+        "total": 12
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 7,
+        "total": 11
+      },
+      {
+        "nome": "Especialidade: Combat Instruction",
+        "graduacoes": 10,
+        "total": 14
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 10,
+        "total": 12
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 14,
+        "total": 18
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 10,
+        "total": 12
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 5,
+        "total": 10
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 5,
+        "total": 9
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 2,
+        "total": 8
+      }
+    ],
+    "iniciativa": 5,
+    "ataques": [
+      {
+        "nome": "Flash-bang Grenade",
+        "bonus": 10,
+        "alcance": "",
+        "dano": "Área de Explosão Ofuscar 4"
+      },
+      {
+        "nome": "Heavy Pistola",
+        "bonus": 10,
+        "alcance": "",
+        "dano": "Dano à Distância 4"
+      },
+      {
+        "nome": "Nerve Golpe",
+        "bonus": 14,
+        "alcance": "",
+        "dano": "Aflição 6"
+      },
+      {
+        "nome": "Silenced Sniper Rifle",
+        "bonus": 10,
+        "alcance": "",
+        "dano": "Dano à Distância 5, Critical 19-20, Sutil"
+      },
+      {
+        "nome": "Spine Snap",
+        "bonus": 14,
+        "alcance": "",
+        "dano": "Dano 4"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 9,
+      "Aparar": 14,
+      "Fortitude": 12,
+      "Resistência": 8,
+      "Vontade": 10
+    },
+    "observacao_defesas": "*, Vontade 10 * sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 82,
+      "Poderes": 7,
+      "Vantagens": 32,
+      "Perícias": 39,
+      "Defesas": 21
+    },
+    "total": 181,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

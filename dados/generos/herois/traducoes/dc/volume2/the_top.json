@@ -1,0 +1,137 @@
+{
+  "nome_pt": "O Pião",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 144,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 3,
+      "Des": 2,
+      "Lut": 4,
+      "Int": 2,
+      "Pro": 3,
+      "Pre": 2
+    },
+    "poderes": [
+      "Concealed t ops (Arranjo (32 pontos), Removível (–8 pontos): Streamer t op (R anged Aflição 8 (resistido por Esquiva; Impedido and Vulnerável, Indefeso and Imóvel), Área de Nuvem, Cumulativo, Extra Condition, Limitado Degree); ae : Blacklight t op (Camuflagem 4 (All Visual), Attack, Área de Cone); ae : Blinding t op (Aflição 10 (resistido por Fortitude; Visually Impaired, Visually Disabled, Visually Unaware), Cumulativo, Perception área (Visual)); ae : Bola t ops (Aflição à Distância 10 (resistido por Esquiva; Impedido and Vulnerável, Indefeso and Imóvel), Cumulativo, Extra Condition, Limitado Degree); ae : e lec tro- t op (Dano à Distância 10, resistido por Fortitude); ae : f lamethr ower t op (Dano à Distância 10, Área de Nuvem); ae : Gas t op (Aflição à Distância 8 (resistido por Fortitude; Tonto, Atordoado, Incapacitado) Área de Nuvem 2 (30 feet), Cumulativo); ae : Glue t op (Aflição à Distância 6 (resistido por Esquiva; Impedido and Vulnerável, Indefeso and Imóvel), Área de Explosão, Cumulativo, Extra Condition, Sustentado Duration, Limitado Degree); ae : Grenade t op (Dano à Distância 10, Área de Explosão); ae : Soundwave t op (Dano à Distância 10, Sustentado Duration); ae : t ornado t op (Mover Objetos 10, Área de Cone, Sustentado Duration, Limitado Direction (repulsion)); i mmor tality 6 (Recently dead or brain-dead body nearby); Spinning (Enhanced Advantage 11 (Defensive Roll 4, Fascinate (Deception), Improved Iniciativa 6), Enhanced Defenses 20 (Esquiva 10, Aparar 10), Intelecto Aprimorado 3, Sentidos 1 (Raio Vision), Limitado: Must Remain Imóvel While Spinning))"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Finta Ágil",
+      "Rolamento Defensivo 4",
+      "Evasion",
+      "Fascinar (Enganação)",
+      "Iniciativa Aprimorada 6",
+      "Ferramentas Improvisadas",
+      "Inventor"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Especialidade: Criminal",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Especialidade: Science",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: Tops",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 3,
+        "total": 5
+      },
+      {
+        "nome": "Combate à Distância: Tops",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 7,
+        "total": 9
+      }
+    ],
+    "iniciativa": 27,
+    "ataques": [
+      {
+        "nome": "Concealed Tops",
+        "bonus": 10,
+        "alcance": "",
+        "dano": "Dano à Distância 10, various"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 14,
+      "Aparar": 14,
+      "Fortitude": 9,
+      "Resistência": 6,
+      "Vontade": 11
+    },
+    "observacao_defesas": "*, Vontade 11 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 40,
+      "Poderes": 65,
+      "Vantagens": 4,
+      "Perícias": 33,
+      "Defesas": 16
+    },
+    "total": 158,
+    "complicacoes": [
+      {
+        "titulo": "Ganância",
+        "texto": "Money made the Top go ’round. r elationship: Dillon’s girlfriend was Lisa (the Golden Glider) Snart. Recently, Dillon returned in possession of vice-presidential candidate Thomas O’Neill, but was exposed by the third Flash. Flash III later enlisted Zatanna to re-balance Dillon’s mind, prompting the Top to restore the Rogues to their vil- lainous selves. Before his plan came to full fruition, the Top was killed by a vengeful Captain Frio."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "nome_pt": "Robot Drone",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 214,
+  "ficha": {
+    "habilidades": {
+      "For": -5,
+      "Vig": "—",
+      "Agi": 4,
+      "Des": -2,
+      "Lut": 0,
+      "Int": "—",
+      "Pro": 0,
+      "Pre": "—"
+    },
+    "poderes": [
+      "Stinger Blasts (eletricidade; Dano à Distância 6); Encolhimento 8 (Permanente, Inato); Voo 5 (96 km/h; Wings); Imunidade 40 (Fortitude Effects, mental Effects)"
+    ],
+    "equipamento": [],
+    "vantagens": [],
+    "pericias": [],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Stinger Blasts",
+        "bonus": 6,
+        "alcance": "",
+        "dano": "Dano à Distância 6"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "",
+        "dano": "Dano –5"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Aparar": 9,
+      "Resistência": 0
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Poderes": 71,
+      "Vantagens": 0,
+      "Perícias": 0,
+      "Defesas": 1
+    },
+    "total": 46,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

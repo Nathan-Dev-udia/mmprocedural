@@ -1,0 +1,112 @@
+{
+  "nome_pt": "Fatalidade",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 191,
+  "ficha": {
+    "habilidades": {
+      "For": 7,
+      "Vig": 4,
+      "Agi": 5,
+      "Des": 4,
+      "Lut": 10,
+      "Int": 0,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "poderes": [
+      "Power r ing (as Star Sapphire’s, but with Campo de Força (Impenetrável Proteção 8; Imunidade 10 (Suporte Vital)) and a 28-ponto Arranjo with each effect reduced by 1 graduação; see Star Sapphire )"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Atraente",
+      "Evasion",
+      "Iniciativa Aprimorada",
+      "Arma Improvisada",
+      "Ataque Poderoso",
+      "Saque Rápido",
+      "Rastrear"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 6,
+        "total": 11
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 6,
+        "total": 13
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 4,
+        "total": 14
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Combate à Distância: Power Ring",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 6,
+        "total": 11
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 4,
+        "total": 8
+      }
+    ],
+    "iniciativa": 9,
+    "ataques": [
+      {
+        "nome": "Power Ring",
+        "bonus": 12,
+        "alcance": "À distância",
+        "dano": "Dano 14"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 14,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 7"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 14,
+      "Aparar": 14,
+      "Fortitude": 13,
+      "Resistência": 12,
+      "Vontade": 13
+    },
+    "observacao_defesas": "",
+    "custos": {},
+    "total": null,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

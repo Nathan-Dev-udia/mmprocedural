@@ -1,0 +1,130 @@
+{
+  "nome_pt": "Cosmic Boy",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 127,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 4,
+      "Des": 3,
+      "Lut": 3,
+      "Int": 3,
+      "Pro": 2,
+      "Pre": 5
+    },
+    "poderes": [
+      "Electromagnetic Prontidão : Sentidos 2 (À Distância Detect Electromagnetic Fields) (2 PP)",
+      "Magnetic Aura: Proteção 8, Sustentado (8 PP)",
+      "Magnetic Voo: Voo 8 (800 km/h) (16 PP)",
+      "Magnetic Manipulation: Arranjo (24 pontos)",
+      "• Projectile Attack: À Distância Attack 12 (24 PP)",
+      "• Magnetic Construct: Criar Objetos 11, Inato, Preciso (1 PP)",
+      "• Magnetism: Mover Objetos 12, Preciso, Limitado a Metal (1 PP)"
+    ],
+    "equipamento": [
+      "Voo Ring: Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal –3 pontos); Voo 7 (400 km/h), Removível (–3 pontos) (16 PP)",
+      "Telepathic Plug: Compreender 3 (Languages); mental Comunicação 1 (Corpo a Corpo Range), Removível (–1 ponto) (7 PP)",
+      "Transsuit: Imunidade 9 (Suporte Vital, except for Inanição and thirst), Removível (–2 ponto) (7 PP)"
+    ],
+    "vantagens": [
+      "Finta Ágil",
+      "Avaliação",
+      "Benefit 1 (Legion membership)",
+      "Equipamento 6",
+      "Iniciativa Aprimorada",
+      "Inspirar",
+      "Interpor-se",
+      "Liderança",
+      "Ataque Poderoso",
+      "Set Up",
+      "Trabalho em Equipe"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: History",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 7,
+        "total": 9
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Combate à Distância: Projectile Attack",
+        "graduacoes": 5,
+        "total": 8
+      }
+    ],
+    "iniciativa": 5,
+    "ataques": [
+      {
+        "nome": "Projectile Attack",
+        "bonus": 8,
+        "alcance": "À distância",
+        "dano": "Dano 12"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Fortitude": 8,
+      "Aparar": 6,
+      "Resistência": 10,
+      "Vontade": 8
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 48,
+      "Perícias": 21,
+      "Poderes": 52,
+      "Defesas": 21,
+      "Vantagens": 16
+    },
+    "total": 157,
+    "complicacoes": [
+      {
+        "titulo": "Motivação",
+        "texto": "Cosmic Boy is motivated to do good simply because it’s the right thing to do."
+      },
+      {
+        "titulo": "Obsessão",
+        "texto": "Cosmic Boy’s dedication to the Legion goes beyond mere commitment. He is a stalwart member and often makes personal sacrifices for the betterment of the team."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

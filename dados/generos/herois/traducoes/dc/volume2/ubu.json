@@ -1,0 +1,103 @@
+{
+  "nome_pt": "Ubu",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 124,
+  "ficha": {
+    "habilidades": {
+      "For": 5,
+      "Vig": 5,
+      "Agi": 1,
+      "Des": 2,
+      "Lut": 9,
+      "Int": 0,
+      "Pro": 1,
+      "Pre": 1
+    },
+    "poderes": [],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Estrangular",
+      "Rolamento Defensivo 2",
+      "Agarrar Rápido",
+      "Grande Vigor",
+      "Agarrar Aprimorado",
+      "Imobilizar Aprimorado",
+      "Arma Improvisada",
+      "Interpor-se",
+      "Ataque Poderoso",
+      "Derrubar em Sequência"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 4,
+        "total": 9
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 2,
+        "total": 11
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 6,
+        "total": 7
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Combate à Distância: Throwing",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 2,
+        "total": 2
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 4,
+        "total": 6
+      }
+    ],
+    "iniciativa": 1,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 11,
+        "alcance": "",
+        "dano": "(Dano Corpo a Corpo 5)"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 9,
+      "Fortitude": 10,
+      "Resistência": 7,
+      "Vontade": 6
+    },
+    "observacao_defesas": "*, Vontade 6 *sem Rolamento Defensivo",
+    "custos": {
+      "Habilidades": 48,
+      "Poderes": 0,
+      "Vantagens": 12,
+      "Perícias": 16,
+      "Defesas": 17
+    },
+    "total": 93,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

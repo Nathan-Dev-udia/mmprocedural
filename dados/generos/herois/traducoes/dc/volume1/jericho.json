@@ -1,0 +1,103 @@
+{
+  "nome_pt": "Jericho",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 284,
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 2,
+      "Agi": 2,
+      "Des": 3,
+      "Lut": 3,
+      "Int": 4,
+      "Pro": 4,
+      "Pre": 2
+    },
+    "poderes": [
+      "Possession: Aflição 12 (resistido por Vontade; Tonto, Compelido, Controlado), Sustentado, Cumulativo, Instant Recovery, Reach 6, Sutil, Dependente de Sentidos (Must make eye contact), Linked to: Camuflagem 10, Contínuo, Linked to: Imunidade 2 (Sufocamento), Linked to: Intangibilidade 4, Concentração, Linked to: Leitura mental 8, Cumulativo, Effortless, Reduced Range 2 (Corpo a Corpo), Limitado a Controlado Target (62 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Avaliação",
+      "Rolamento Defensivo 3",
+      "Memória Eidética",
+      "Languages 1 (American Sign Language)",
+      "Trabalho em Equipe"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 2,
+        "total": 5
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Combate à Distância: Guns",
+        "graduacoes": 7,
+        "total": 10
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 1"
+      },
+      {
+        "nome": "Possession",
+        "bonus": 9,
+        "alcance": "Corpo a corpo",
+        "dano": "Aflição 12, Reach 6, resistido por Vontade (CD 22)"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Fortitude": 8,
+      "Aparar": 8,
+      "Resistência": 5,
+      "Vontade": 12
+    },
+    "observacao_defesas": "* Vontade 12",
+    "custos": {
+      "Habilidades": 46,
+      "Perícias": 14,
+      "Poderes": 74,
+      "Defesas": 25,
+      "Vantagens": 7
+    },
+    "total": 166,
+    "complicacoes": [
+      {
+        "titulo": "Minds in One Body",
+        "texto": "Years of “body-hopping” has left Jericho’s mind easily overruled by stronger, evil, and dangerous mental patterns that were never fully purged from his mind."
+      },
+      {
+        "titulo": "A History of Violence",
+        "texto": "Jericho’s father is Deathstroke the Terminator, a man who tried singlehandedly to kill the Teen Titans."
+      },
+      {
+        "titulo": "Scars",
+        "texto": "Joseph Wilson was abducted as a small boy and his throat was slashed, rendering him mute. ALLIES Jericho worked longest and most closely with the Teen Titans, forging friendships with the core group. He worked mostly with Raven, who he felt was hurting in ways the rest of the team did not understand. Many of the Teen Titans of that time may still consider him a friend though he has repeatedly tried to kill them. His current ally is his father, Slade Wilson, Death - stroke the Terminator. ENEMIES The Teen Titans and the Justice League both consider Jericho a dangerous villain."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

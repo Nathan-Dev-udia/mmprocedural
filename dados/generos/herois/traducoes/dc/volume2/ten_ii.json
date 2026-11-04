@@ -1,0 +1,115 @@
+{
+  "nome_pt": "Dez II",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 149,
+  "ficha": {
+    "habilidades": {
+      "For": 4,
+      "Vig": 5,
+      "Agi": 4,
+      "Des": 4,
+      "Lut": 4,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 1
+    },
+    "poderes": [
+      "Blaster Pistola (Dano à Distância 9, Facilmente Removível (–8 pontos)); e xploding Playing Cards (À Distância Área de Explosão Dano 7, Removível (–4 pontos)); f lying C ard (Voo 6 (192 km/h), Platform)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Finta Ágil",
+      "Ataque Defensivo",
+      "Evasion",
+      "Crítico Aprimorado (Desarmado)",
+      "Iniciativa Aprimorada",
+      "Quebrar Aprimorado",
+      "Derrubar Aprimorado",
+      "Levantar Rápido",
+      "Ataque Poderoso",
+      "Trabalho em Equipe"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 9,
+        "total": 13
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Combate à Distância: Blaster Pistola",
+        "graduacoes": 7,
+        "total": 11
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 7,
+        "total": 11
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 7,
+        "total": 11
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 6,
+        "total": 10
+      }
+    ],
+    "iniciativa": 8,
+    "ataques": [
+      {
+        "nome": "Blaster Pistola",
+        "bonus": 11,
+        "alcance": "À distância",
+        "dano": "Dano 9"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 13,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 4, Crit. 19-20"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 13,
+      "Aparar": 13,
+      "Fortitude": 9,
+      "Resistência": 5,
+      "Vontade": 9
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 50,
+      "Poderes": 33,
+      "Vantagens": 10,
+      "Perícias": 26,
+      "Defesas": 29
+    },
+    "total": 148,
+    "complicacoes": [
+      {
+        "titulo": "Ganância",
+        "texto": "Befitting a woman dressed as a playing card, Wayland looks to get rich quick. t er: Wayland is as emp ill-humored as her teammates. both Tens carried Stellaration Energy devices. The original Ten also had Technology 7 skill. tahumans, and the catastrophe in Blüdhaven provided Father Time with more test subjects. Father Time began using brutal tactics to contain the mutated population of Blüdhaven, and was eventually stopped by the Teen Titans. The research performed by S.H.A.D.E. allowed them to cre - ate a modern incarnation of the World War II-era superhu- man team known as the Freedom Fighters. The new group was loyal to Father Time, who used them protect the interests of S.H.A.D.E. and the U.S. government—until the rebirth of Uncle Sam. Uncle Sam is the physical incarnation of the national spirit of the United States. During World War II the original Freedom Fighters were led by Uncle Sam and his uncompromising sense of justice. Appalled by the new Freedom Fighters’ use of brutality to accomplish their goals, Uncle Sam set out to win over the hearts and minds of the modern team. Over the course of his struggle to gain the loyalty of the Free- dom Fighters, Uncle Sam unmasked a pawn of Father Time who had replaced Senator Henry Knight. In the guise of Sena- tor Knight, Gonzo the Mechanical Bastard won the presiden- cy of the United States. Uncle Sam and the Freedom Fighters exposed Gonzo the Mechanical Bastard and wrested control of S.H.A.D.E. from Father Time. The new president appointed the Freedom Fighters as the directors of S.H.A.D.E. and re - turned the organization to prominence. Heroes & V Heroes & V I I lla lla I I ns, Vol. 2 ns, Vol. 2"
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

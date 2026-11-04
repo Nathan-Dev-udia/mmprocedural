@@ -1,0 +1,128 @@
+{
+  "nome_pt": "The White Martian",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 137,
+  "ficha": {
+    "habilidades": {
+      "For": 16,
+      "Vig": 10,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 8,
+      "Int": 3,
+      "Pro": 4,
+      "Pre": 3
+    },
+    "poderes": [
+      "Voo ( Voo 13 (16,0 km/h), Movimento 1 (Space Travel)); Martian Durability (Impenetrável Proteção 3); Martian Morphology ( Dynamic Arranjo (20 pontos) Intangibility: (Intangibilidade 4, Dynamic), AE: Density (Resistência Impenetrável 15, Sustentado, Dynamic), AE: Invisibility (Visual Camuflagem 4, Dynamic), AE: Shapeshifting (Metamorfose (Any Form) 4, Dynamic)); Martian Sentidos (Sentidos 7 (Visão Estendida 2, mental Prontidão, Vision Penetrates Camuflagem)); Martian Força (Força Aprimorada 4, Limitado a Lifting (Lifting Str 20; 25,000 tons)); Martian Vision (Dano à Distância 11 (force)); Telepatia (mental Comunicação 5, Leitura mental 11)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Poderoso",
+      "Grande Vigor",
+      "Trabalho em Equipe",
+      "Transe"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 4,
+        "total": 12
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 10,
+        "total": 13
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Combate à Distância: Martian Vision",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 7,
+        "total": 9
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 4,
+        "total": 6
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Martian Vision",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Dano 11"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 12,
+        "alcance": "",
+        "dano": "Dano 16"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Aparar": 13,
+      "Fortitude": 13,
+      "Resistência": 13,
+      "Vontade": 15
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 96,
+      "Poderes": 136,
+      "Vantagens": 4,
+      "Perícias": 35,
+      "Defesas": 29
+    },
+    "total": 300,
+    "complicacoes": [
+      {
+        "titulo": "Inimigo",
+        "texto": "The White Martian and Ultraman are fierce rivals."
+      },
+      {
+        "titulo": "Perda de Poder",
+        "texto": "The White Martian loses his Powers and his Str and Sta are reduced to 2 when exposed to fogo."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

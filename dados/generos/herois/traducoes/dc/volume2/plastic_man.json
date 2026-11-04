@@ -1,0 +1,60 @@
+{
+  "nome_pt": "Homem-Borracha",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 106,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 5,
+      "Agi": 5,
+      "Des": 5,
+      "Lut": 5,
+      "Int": 0,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "poderes": [
+      "100 Defenses 20"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "9 Total 207"
+    ],
+    "pericias": [],
+    "iniciativa": 5,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 11,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2 (+14 grab check)"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 11,
+      "Aparar": 11,
+      "Resistência": 11,
+      "Vontade": 10
+    },
+    "observacao_defesas": "",
+    "custos": {},
+    "total": null,
+    "complicacoes": [
+      {
+        "titulo": "r eputation",
+        "texto": "Plastic Man has a (well-deserved) reputation for not tak ing anything seriously."
+      },
+      {
+        "titulo": "Segredo",
+        "texto": "Very few know about Plastic Man’s criminal past."
+      },
+      {
+        "titulo": "Fraqueza",
+        "texto": "Extremes of temperature can cause Plastic Man to melt or freeze solid (and even shatter!). Luke later created a costume of his own and took the code - name Offspring, working with the Teen Titans and other young heroes. Offspring has malleability similar to his father, but to an even greater extent, since he can also vary his color- ation and not just his topography, allowing Offspring to truly appear to be whatever he transforms into. He often uses the Variável effect of his Shapeshifting for Crescimento or Enhanced Traits reflecting greater size, density, or innately stronger forms (such as turning into a charging rhino)"
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

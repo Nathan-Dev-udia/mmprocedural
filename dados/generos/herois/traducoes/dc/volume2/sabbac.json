@@ -1,0 +1,88 @@
+{
+  "nome_pt": "Sabbac",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 150,
+  "ficha": {
+    "habilidades": {
+      "For": 18,
+      "Vig": 16,
+      "Agi": 0,
+      "Des": 0,
+      "Lut": 6,
+      "Int": 0,
+      "Pro": 1,
+      "Pre": 1
+    },
+    "poderes": [
+      "of six demons: Satan, Aym, Belial, Beelzebub, Asmodeus and Creteis, transforming Tim into the demonic Sabbac!"
+    ],
+    "equipamento": [],
+    "vantagens": [],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 4,
+        "total": 10
+      },
+      {
+        "nome": "Especialidade: mágico",
+        "graduacoes": 2,
+        "total": 2
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 5
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [
+      {
+        "nome": "Hellfire",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Dano 14"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 18"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 9,
+      "Fortitude": 16,
+      "Aparar": 9,
+      "Resistência": 19,
+      "Vontade": 12
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 84,
+      "Perícias": 7,
+      "Poderes": 75,
+      "Defesas": 23,
+      "Vantagens": 2
+    },
+    "total": 191,
+    "complicacoes": [
+      {
+        "titulo": "d emonic Pact",
+        "texto": "Sabbac owes his Powers to six demons, who can choose t o withdraw those Powers. ansformation: Returns to his mortal identity upon saying t r his name. Karnes is Str , Sta , and Ftg 1. I S h M ae L g regor Tim Karnes is not the only one to wield the Powers of Sabbac; New York-based Russian mob boss Ishmael Gregor stole Sabbac’s demonic Powers and identity for himself, confronting the Outsiders and Captain Marvel, Jr. as well as absorbing the power of the Seven Deadly Enemies of Man to become even stronger. Gregor’s traits are similar to those given for Karnes, though he later acquires Crescimento, allowing him to assume a gigantic demon form as well."
+      },
+      {
+        "titulo": "Gregor also has Expertise",
+        "texto": "Criminal 8 and Expertise: mágico 6."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "nome_pt": "Tio Sam",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 248,
+  "ficha": {
+    "habilidades": {
+      "For": 13,
+      "Vig": 13,
+      "Agi": 5,
+      "Des": 4,
+      "Lut": 5,
+      "Int": 1,
+      "Pro": 3,
+      "Pre": 5
+    },
+    "poderes": [
+      "n ational Greatness: Alongamento 3 (3 PP)",
+      "f r om the Heartland: Movimento 1 (Dimensional Travel 1, “The Heartland”) (2 PP)",
+      "Força of a n ation: Força Aprimorada 2, Limitado a Lifting (2 PP)",
+      "n ation: Sentidos 10 (Detect National Threats, o ne with the Extended 7, Raio, À Distância), Remote Sensing 20 (Audial & Visual), Sutil 2, Limitado a Perceiving Locations Inside the USA (52 PP)",
+      "n w Birth of f eedom: Imortalidade 1, Limitado a a National a e r Time of Crisis (2 PP)",
+      "rinciples: Imunidade 1 (Envelhecimento) (1 PP)",
+      "t imeless P d a e S a V ant G All-out Attack, Diehard, Extraordinary Effort, Fascinate (Persuasion), Improved Iniciativa, Inspire 4, Leadership, Seize Iniciativa, Skill Mastery (Persuasion), Ultimate Skill (Persuasion), Well-informed"
+    ],
+    "equipamento": [],
+    "vantagens": [],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Especialidade: US History",
+        "graduacoes": 12,
+        "total": 13
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 12,
+        "total": 15
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 12,
+        "total": 15
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 12,
+        "total": 17
+      }
+    ],
+    "iniciativa": 9,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 13,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 13"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 13,
+      "Fortitude": 14,
+      "Aparar": 13,
+      "Resistência": 13,
+      "Vontade": 12
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 98,
+      "Perícias": 28,
+      "Poderes": 62,
+      "Defesas": 26,
+      "Vantagens": 14
+    },
+    "total": 228,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

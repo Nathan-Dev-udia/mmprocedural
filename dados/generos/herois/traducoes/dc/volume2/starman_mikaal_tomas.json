@@ -1,0 +1,94 @@
+{
+  "nome_pt": "Starman (Mikaal Tomas)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 197,
+  "ficha": {
+    "habilidades": {
+      "For": 8,
+      "Vig": 6,
+      "Agi": 4,
+      "Des": 3,
+      "Lut": 7,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 1
+    },
+    "poderes": [
+      "Sonic Crystal ( e nergy Raio (Dano à Distância 13, Preciso 2), f ligh t 7 (400 km/h)); t alok ian Physiology (Resistência Impenetrável 8, Proteção 6, Regeneração 3)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Preciso",
+      "Ataque Corpo-a-Corpo 5",
+      "Agarrar Rápido",
+      "Grande Vigor",
+      "Improved Critical 2 (Energy Blast)",
+      "Imobilizar Aprimorado",
+      "Quebrar Aprimorado",
+      "Interpor-se",
+      "Ação em Movimento"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 4,
+        "total": 12
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 10
+      }
+    ],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Sonic Crystal",
+        "bonus": 7,
+        "alcance": "À distância",
+        "dano": "Dano 13, Crit. 18-20"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 12,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 8"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 8,
+      "Fortitude": 10,
+      "Resistência": 12,
+      "Vontade": 8
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 64,
+      "Poderes": 59,
+      "Vantagens": 14,
+      "Perícias": 12,
+      "Defesas": 15
+    },
+    "total": 164,
+    "complicacoes": [
+      {
+        "titulo": "Justice",
+        "texto": "Mikaal becomes a hero in order to defend the people of Earth from his own race, which sent him here to help them conquer it. Later, after his partner Tony is killed, he’s motivated to bring the killers to justice. a lien: M ikaal is an alien with blue skin, dark eyes, and a slightly androgynous look."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

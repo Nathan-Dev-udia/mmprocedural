@@ -1,0 +1,104 @@
+{
+  "nome_pt": "Netuno Perkins",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 270,
+  "ficha": {
+    "habilidades": {
+      "For": 6,
+      "Vig": 7,
+      "Agi": 4,
+      "Des": 3,
+      "Lut": 4,
+      "Int": 2,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "poderes": [
+      "Compreender 2 (Animals, Limitado a Cetaceans), Imunidade 1 (Envelhecimento), Movimento 1 (Environmental Adaptation— Water)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Empatia com Animais",
+      "Evasion",
+      "Ambiente Favorito (Aquatic)",
+      "Grande Vigor",
+      "Maestria em Perícia (Atletismo)",
+      "Ultimate Effect (Athletics checks)"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 5,
+        "total": 9
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 5,
+        "total": 11
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Especialidade: Marine Biology",
+        "graduacoes": 7,
+        "total": 9
+      },
+      {
+        "nome": "Especialidade: Writer",
+        "graduacoes": 3,
+        "total": 5
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 5,
+        "total": 7
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 7,
+        "total": 10
+      }
+    ],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "alcance": "",
+        "dano": "(Dano 6)"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 9,
+      "Aparar": 9,
+      "Fortitude": 8,
+      "Resistência": 7,
+      "Vontade": 8
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 60,
+      "Poderes": 4,
+      "Vantagens": 6,
+      "Perícias": 19,
+      "Defesas": 17
+    },
+    "total": 106,
+    "complicacoes": [
+      {
+        "titulo": "d oing Good",
+        "texto": "Though being a mystery man was not what he planned for his life, Perkins served as a Squadron member from a overriding sense of what’s right."
+      },
+      {
+        "titulo": "Fraqueza",
+        "texto": "Because of a lethal shortage of sodium in his body, Perkins can survive out of salt water for only a few minutes. His special Sea Suit extends this period to 24 hours. During the Infinite Crisis, Perkins returned to costumed ac - tion, protecting the city of Sub Diego. During the battle, Per - kins died a hero at the hands of the Shark and King Shark of the Secret Society of Super-Villains. t he tI gre SS ( p au L a b ook S ) Teenager Paula Brooks became smitten with famed big-game hunter Paul Kirk, and rigorously trained herself to be his equal in order to win his affections. Deducing that Kirk was secretly the costumed mystery man Manhunter II, Paula designed the costumed identity of the second Tigress and sought to join him as part of the All-Star Squadron. The Squadron was un- impressed by a love-crazed teenager, and Tigress wound up joining the Squadron’s other probationary members on the Young All-Stars."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "nome_pt": "Madame Xanadu",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 29,
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 2,
+      "Agi": 1,
+      "Des": 2,
+      "Lut": 4,
+      "Int": 5,
+      "Pro": 5,
+      "Pre": 4
+    },
+    "poderes": [
+      "Bargain with d eath: Imortalidade 20 (Insidioso, Sutil 2), I mmunity 3 (Age, Doença, Veneno) (46 PP)",
+      "Seer: Sentidos 17 (Detect mágico (À Distância, Aguçado, Analyze), Mystic Prontidão, Postcognition (À Distância, Aguçado, Analítico, Extended 4), Precognition (À Distância, Aguçado, Analítico)) (23 PP)"
+    ],
+    "equipamento": [
+      "a Força-based Dano 1, Improved Critical thame (k nife): (2 PP)",
+      "H q : “Hokus & p okus oC C u L t Curiosities” • 7 POI n TS Size: Small t ou: 8 f ea tures: Library, Living Space, Secret, Security System (wards and bindings), Self-Repairing, Workshop"
+    ],
+    "vantagens": [
+      "Artífice",
+      "Atraente",
+      "Equipamento 2",
+      "Languages 4 (Various dead and occult languages)",
+      "Ritualista",
+      "Bem-Informado"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Knife",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Especialidade: History",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Especialidade: mágico",
+        "graduacoes": 15,
+        "total": 20
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 10,
+        "total": 15
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 9,
+        "total": 13
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 8,
+        "total": 9
+      }
+    ],
+    "iniciativa": 1,
+    "ataques": [
+      {
+        "nome": "Knife",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 1, Crit. 19-20"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Fortitude": 6,
+      "Aparar": 7,
+      "Resistência": 2,
+      "Vontade": 14
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 46,
+      "Perícias": 39,
+      "Poderes": 69,
+      "Defesas": 23,
+      "Vantagens": 10
+    },
+    "total": 187,
+    "complicacoes": [
+      {
+        "titulo": "Cursed",
+        "texto": "Xanadu’s eyes were burned out by the Spectre: no attempt to repair or regrow them has been able to overcome the Spectre’s power. An assistant must read her cards in order for her to use her magical Sentidos. ot d ependency: Aside from Mystic Prontidão, Madame t ar Xanadu’s Sense Powers require her to use her Tarot cards. t emp er : Madame Xanadu is quick to anger against anyone she feels has slighted her or acted against her, especially men."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

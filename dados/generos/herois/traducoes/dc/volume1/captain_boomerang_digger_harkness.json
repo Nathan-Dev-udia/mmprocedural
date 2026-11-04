@@ -1,0 +1,141 @@
+{
+  "nome_pt": "Capitão Bumerangue (Digger Harkness)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 95,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 3,
+      "Agi": 6,
+      "Des": 6,
+      "Lut": 5,
+      "Int": 3,
+      "Pro": 4,
+      "Pre": 2
+    },
+    "poderes": [
+      "Boomerangs: Arranjo (25 pontos)",
+      "• Smokarang: À Distância Área de Nuvem 3 (60 feet) Visual Camuflagem 4 Attack, Indirect (25 PP)",
+      "• Acid Boomerang: Dano à Distância 5 (acid), Efeito Secundário, Indirect, Multiataque (1 PP)",
+      "• Bafflerang: Força-based Dano à Distância 1, Indirect, Multiataque Linked to Ofuscar 6 (visual, Fortitude), Indirect, Multiataque (1 PP)",
+      "• BOOMerang: À Distância Área de Explosão Dano 6, Indirect, Multiataque (1 PP)",
+      "• Electrorang: Dano à Distância 5, Contagioso, Indirect, Multiataque, Sustentado, Dissipação (1 PP)",
+      "• Gasserang: Área de Nuvem Aflição à Distância 6 (resistido por Fortitude; Visually Impaired, Atordoado and Visually Disabled, Incapacitado), Indirect, Multiataque (1 PP)",
+      "• Gravity Boomerang: Área de Linha 3 Aflição 5 (resistido por Fortitude; Impedido, Imóvel, Paralisado), Indirect, Multiataque (1 PP)",
+      "• Laserang: Área de Linha 4 Dano 4, Indirect, Multiataque (1 PP)",
+      "• Razorang: Dano à Distância 3, Preciso, Improved Critical, Indirect, Multiataque, Penetrante 3 (1 PP)",
+      "• Shriekerang: Força-based Dano à Distância 1, Indirect, Multiataque Linked to Ofuscar 6 (Auditory, Fortitude), Indirect, Multiataque (1 PP)",
+      "• Weighted Boomerang: Força-based Dano à Distância 3, Indirect, Multiataque (1 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Finta Ágil",
+      "Ataque Corpo-a-Corpo",
+      "Conectado",
+      "Rolamento Defensivo 4",
+      "Evasion",
+      "Mira Aprimorada",
+      "Crítico Aprimorado (Boomerang)",
+      "Iniciativa Aprimorada",
+      "Inventor",
+      "Precise Attack 2 (Ranged; Cover",
+      "Concealment)",
+      "Luta Caída",
+      "Saque Rápido",
+      "Ataque à Distância 3",
+      "Maestria em Arremesso 2"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 1,
+        "total": 7
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 2,
+        "total": 7
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 3,
+        "total": 5
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 3,
+        "total": 7
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 1,
+        "total": 3
+      },
+      {
+        "nome": "Combate à Distância: Boomerangs",
+        "graduacoes": 5,
+        "total": 11
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 1,
+        "total": 7
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 2,
+        "total": 8
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 4,
+        "total": 7
+      }
+    ],
+    "iniciativa": 10,
+    "ataques": [
+      {
+        "nome": "Boomerang",
+        "bonus": 14,
+        "alcance": "À distância",
+        "dano": "Dano 6 mais outros, Crit. 19-20"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 1"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 11,
+      "Fortitude": 8,
+      "Aparar": 11,
+      "Resistência": 7,
+      "Vontade": 7
+    },
+    "observacao_defesas": "* Vontade 7 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 62,
+      "Perícias": 13,
+      "Poderes": 35,
+      "Defesas": 19,
+      "Vantagens": 21
+    },
+    "total": 150,
+    "complicacoes": [
+      {
+        "titulo": "Play Well With Others",
+        "texto": "Captain Boomerang is difficult to work with on his best days. He’s vicious when he has the upper hand, cowardly when he doesn’t, and can’t be depended on to hold up his end of nearly any bargain."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

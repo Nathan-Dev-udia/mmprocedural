@@ -1,0 +1,111 @@
+{
+  "nome_pt": "Alfa",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 7,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 3,
+      "Agi": 4,
+      "Des": 3,
+      "Lut": 8,
+      "Int": 2,
+      "Pro": 1,
+      "Pre": 2
+    },
+    "poderes": [
+      "a ssassin ’s Golpe Força-based Dano 4, Penetrante 4; t rigger M an Multiataque on handguns with a Dano of 4 or less"
+    ],
+    "equipamento": [
+      "d ual d esert e agles Dano à Distância 4"
+    ],
+    "vantagens": [
+      "Ataque Preciso",
+      "Ataque Imprudente",
+      "Avaliação",
+      "Benefit 8 (Alternate Identity 4",
+      "Cipher 4)",
+      "Ataque Corpo-a-Corpo 4",
+      "Rolamento Defensivo 2",
+      "Equipamento 4",
+      "Evasion",
+      "Grande Vigor",
+      "Mira Aprimorada",
+      "Improved Critical 3 (Assassin’s Strike)",
+      "Desarmar Aprimorado",
+      "Iniciativa Aprimorada",
+      "Derrubar Aprimorado",
+      "Levantar Rápido",
+      "Ação em Movimento",
+      "Precise Attack (à distância; Cover)",
+      "Saque Rápido",
+      "Ataque à Distância 4"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 10,
+        "total": 14
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 5,
+        "total": 6
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 7,
+        "total": 8
+      },
+      {
+        "nome": "Combate à Distância: Dual Desert Eagles",
+        "graduacoes": 4,
+        "total": 7
+      }
+    ],
+    "iniciativa": 8,
+    "ataques": [
+      {
+        "nome": "Dual Desert Eagles",
+        "bonus": 11,
+        "alcance": "",
+        "dano": "À Distância Multiataque Dano 4"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Aparar": 13,
+      "Fortitude": 8,
+      "Resistência": 5,
+      "Vontade": 10
+    },
+    "observacao_defesas": "*, Vontade 10 * sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 50,
+      "Poderes": 12,
+      "Vantagens": 38,
+      "Perícias": 24,
+      "Defesas": 27
+    },
+    "total": 151,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

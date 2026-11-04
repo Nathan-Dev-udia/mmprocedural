@@ -1,0 +1,136 @@
+{
+  "nome_pt": "Rip Hunter",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 79,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 3,
+      "Agi": 3,
+      "Des": 2,
+      "Lut": 3,
+      "Int": 6,
+      "Pro": 4,
+      "Pre": 2
+    },
+    "poderes": [],
+    "equipamento": [
+      "Blaster Pistola; Short Espada TIMESPHERE: VEHICLE ( Size: Huge Str 8 Velocidade 1 (Voo) Def 8 Tou 12; Time Engines: Movimento 5 (Full Time Travel, Dimension Travel to Alternate Timelines), Chronal Escudo: Imunidade 10 (Suporte Vital), Crosstime Database: Enhanced Skill 10 (Expertise: History +10); Linked: Característica 1 (Database Updates Based on Shifting Timelines), Alarm, Hidden Compartments, Navigation)"
+    ],
+    "vantagens": [
+      "Avaliação",
+      "Benefit 6 (Cipher)",
+      "Benefit 5 (Billionaire)",
+      "Conectado",
+      "Contatos",
+      "Rolamento Defensivo 5",
+      "Memória Eidética",
+      "Equipamento 10",
+      "Destemido",
+      "Inventor",
+      "Languages 4",
+      "Redirecionar",
+      "Tomar a Iniciativa",
+      "Preparar",
+      "Esquiva Fabulosa",
+      "Bem-Informado"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 10,
+        "total": 13
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Blades",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Especialidade: History",
+        "graduacoes": 12,
+        "total": 18
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 5,
+        "total": 11
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 10,
+        "total": 12
+      },
+      {
+        "nome": "Combate à Distância: Handguns",
+        "graduacoes": 9,
+        "total": 11
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 8,
+        "total": 14
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 6,
+        "total": 8
+      }
+    ],
+    "iniciativa": 3,
+    "ataques": [
+      {
+        "nome": "Blaster Pistola",
+        "bonus": 11,
+        "alcance": "",
+        "dano": "Dano à Distância 5"
+      },
+      {
+        "nome": "Espada",
+        "bonus": 11,
+        "alcance": "",
+        "dano": "Dano 5, Crit. 19-20"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 8,
+      "Fortitude": 6,
+      "Resistência": 8,
+      "Vontade": 10
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 50,
+      "Poderes": 0,
+      "Vantagens": 41,
+      "Perícias": 42,
+      "Defesas": 19
+    },
+    "total": 152,
+    "complicacoes": [
+      {
+        "titulo": "Time Master",
+        "texto": "Rip Hunter follows in his ancestors’ footsteps as a guardian of time. He attempts to fix anomalies, prevent paradoxes, and keep evil time travel - ers from altering time and causing irreparable harm to the time stream."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

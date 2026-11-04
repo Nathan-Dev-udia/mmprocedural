@@ -1,0 +1,66 @@
+{
+  "nome_pt": "Androide Ás II",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 147,
+  "ficha": {
+    "habilidades": {
+      "For": 14,
+      "Vig": "—",
+      "Agi": 4,
+      "Des": 4,
+      "Lut": 8,
+      "Int": "—",
+      "Pro": 0,
+      "Pre": "—"
+    },
+    "poderes": [
+      "a ndr oid Body (Força Aprimorada 4 (Limitado a Lifting; lifting Str 18, 6,000 tons), Característica 1 (Turn Self Yellow), Imunidade 30 (Fortitude effects), Proteção 14), f lame a ura (Dano 8, Reação), f lame Blasts (Dano à Distância 13, Preciso 2), n ullify 11 (Gravity effects, Concentração)), f lying Ca rd (Voo 6 (192 km/h), Platform)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Corpo-a-Corpo 4",
+      "Ataque à Distância 5",
+      "Trabalho em Equipe"
+    ],
+    "pericias": [
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 4
+      }
+    ],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Flame Blasts",
+        "bonus": 13,
+        "alcance": "À distância",
+        "dano": "Dano 13"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 12,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 14"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 10,
+      "Resistência": 14
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 30,
+      "Poderes": 137,
+      "Vantagens": 10,
+      "Perícias": 1,
+      "Defesas": 8
+    },
+    "total": 186,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

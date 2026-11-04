@@ -1,0 +1,116 @@
+{
+  "nome_pt": "Phobia",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 90,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 2,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 2,
+      "Int": 3,
+      "Pro": 3,
+      "Pre": 2
+    },
+    "poderes": [
+      "Detect Fear (Leitura mental 8, Sutil 2, Limitado a Fear); Project Fear (Perception Aflição 12 (resistido por Vontade; Impaired, Compelido, Controlado (Flee)), Concentração, AE: Paralyzing Fear (Aflição 12 (resistido por Vontade; Impaired, Atordoado, Incapacitado), Concentração))"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Atraente",
+      "Benefit 1 (Aristocrat)",
+      "Benefit 2 (Independently Wealthy)",
+      "Rolamento Defensivo 3",
+      "Maestria em Perícia (Intimidação)",
+      "Esforço Supremo (Intimidação)"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 3,
+        "total": 5
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 3,
+        "total": 5
+      },
+      {
+        "nome": "Especialidade: Aristocracy",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Especialidade: Art",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Especialidade: Current Events",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 4,
+        "total": 6
+      }
+    ],
+    "iniciativa": 3,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 5,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 1"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 10,
+      "Fortitude": 5,
+      "Resistência": 5,
+      "Vontade": 10
+    },
+    "observacao_defesas": "*, Vontade 10 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 38,
+      "Poderes": 59,
+      "Vantagens": 9,
+      "Perícias": 15,
+      "Defesas": 25
+    },
+    "total": 146,
+    "complicacoes": [
+      {
+        "titulo": "Aristocrat",
+        "texto": "As a member of British aristocracy, Angela is very much a blue-blooded snob, often to the ponto of being boorish and making it difficult for even her teammates to tolerate her, much less like her."
+      },
+      {
+        "titulo": "Fear",
+        "texto": "Phobia harbors a deep-seated fear of ending up alone."
+      },
+      {
+        "titulo": "Loss of Control",
+        "texto": "Phobia’s Powers have been known to escape her control when her mind is not focused upon them, causing others to relive their greatest fears if Phobia so much as accidentally bumps into them. This is a rare occasion, however."
+      },
+      {
+        "titulo": "Misandry",
+        "texto": "Although she doesn’t let it rule her behavior, Phobia has been known to harbor and express anti- male notions born out of her childhood relationship with her father."
+      },
+      {
+        "titulo": "Sadistic Thrill Seeker",
+        "texto": "Phobia became a criminal for the adrenaline rush that comes with risk and from terrifying others, as she has no need of the money."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

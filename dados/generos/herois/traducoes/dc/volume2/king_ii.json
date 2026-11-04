@@ -1,0 +1,122 @@
+{
+  "nome_pt": "Rei II",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 148,
+  "ficha": {
+    "habilidades": {
+      "For": 4,
+      "Vig": 4,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 2,
+      "Int": 2,
+      "Pro": 2,
+      "Pre": 4
+    },
+    "poderes": [
+      "e ye L aser (Dano à Distância 7); f lying C ard (Voo 6 (192 km/h), Platform)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Preciso",
+      "Finta Ágil",
+      "Ataque Corpo-a-Corpo 5",
+      "Ataque Defensivo",
+      "Rolamento Defensivo",
+      "Evasion",
+      "Crítico Aprimorado (Eye Laser)",
+      "Desarmar Aprimorado",
+      "Iniciativa Aprimorada",
+      "Ataque Poderoso",
+      "Ataque à Distância 5",
+      "Trabalho em Equipe"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 3,
+        "total": 5
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 3,
+        "total": 7
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: Gigolo",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Combate à Distância: Eye Laser",
+        "graduacoes": 6,
+        "total": 8
+      }
+    ],
+    "iniciativa": 6,
+    "ataques": [
+      {
+        "nome": "Eye Laser",
+        "bonus": 13,
+        "alcance": "À distância",
+        "dano": "Dano 7, Crit. 19-20"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 4"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 13,
+      "Aparar": 13,
+      "Fortitude": 8,
+      "Resistência": 5,
+      "Vontade": 8
+    },
+    "observacao_defesas": "*, Vontade 8 *sem Rolamento Defensivo. Abilities 46 + Powers 20 + Advantages 20 + Skills 23 +",
+    "custos": {
+      "Defesas": 29
+    },
+    "total": 138,
+    "complicacoes": [
+      {
+        "titulo": "Ganância",
+        "texto": "Befitting a man dressed as a play - ing card, Danforth looks to get rich quick. t emp er: Once provoked, Danforth may fly into nearly homicidal rages."
+      },
+      {
+        "titulo": "Peculiaridade",
+        "texto": "Prior to losing his natural eye, Danforth was quite the cad. o bsession: Danforth’s desire to regain his lost eye and sex appeal has made him mentally unstable. become a “one-eyed Jack” at the urging of the second Gam- bler, but the scarring implantation of a laser-emitting eye wrecked his self-image and sanity. r e-Shuff L ed While working for Hector Hammond, Jack II wielded an En- ergized Espada (Força-Based Dano 6, Facilmente Removível (–2 pontos)), and had the Attractive Advantage. Both were lost after he gained his Laser Eye. The above statistics (without the Powers & Equipment) can also be used for the original Jack. As “Hi-Jack, ” Jack I was armed with sharpened playing cards equivalent to Queen II’s Razor-Spade Launcher. While work - ing for Prof. Amos Fortune, both Jacks carried Stellaration Energy devices. kI ng II Terminal cancer had nearly ended the reign of “King of the Hoboes” Joe Carny when he was recruited into the Gang and became its sovereign after Ace Derek Reston was exposed as an android. Later, during the massive invasion of Earth by aliens determined to eliminate the threat of the human meta- gene, Carny’s own metagene made the phrase “Long live the king” a reality, granting him Imortalidade. r e-Shuff L ed While working for Hector Hammond, King II wore a Charisma- Enhancing Costume (Aflição 10 (resistido por Vontade; Tonto, Compelido, Controlado), Cumulativo, Removível (–4 pontos)) in lieu of wielding a Blaster Pistola. The above statistics (with- out the Powers, Equipment, and charisma) can also be used for the original King. While working for Prof. Amos Fortune, both Kings carried Stellaration Energy devices."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

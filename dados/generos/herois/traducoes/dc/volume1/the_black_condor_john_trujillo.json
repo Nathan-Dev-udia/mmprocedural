@@ -1,0 +1,121 @@
+{
+  "nome_pt": "The Black Condor (John Trujillo)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 214,
+  "ficha": {
+    "habilidades": {
+      "For": 8,
+      "Vig": 8,
+      "Agi": 4,
+      "Des": 2,
+      "Lut": 4,
+      "Int": 3,
+      "Pro": 4,
+      "Pre": 4
+    },
+    "poderes": [
+      "Aerokinesis (Mover Objetos 10, Área de Cone, Alcance de Percepção, Dynamic, AE (Dynamic): Voo 8 (800 km/h))"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Avaliação",
+      "Tontear (Intimidação)",
+      "Defensive: Attack",
+      "Evasion",
+      "Destemido",
+      "Defesa Aprimorada",
+      "Ação em Movimento",
+      "Ataque Poderoso",
+      "Assustar",
+      "Derrubar em Sequência 2",
+      "Rastrear"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 3,
+        "total": 7
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 3,
+        "total": 11
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Especialidade: mágico",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 3,
+        "total": 7
+      }
+    ],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Aerokinesis",
+        "bonus": null,
+        "alcance": "",
+        "dano": "Alcance de Percepção Área de Cone Mover Objetos 10"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 12,
+        "alcance": "",
+        "dano": "Dano 8"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Aparar": 12,
+      "Fortitude": 10,
+      "Resistência": 8,
+      "Vontade": 10
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 74,
+      "Poderes": 43,
+      "Vantagens": 13,
+      "Perícias": 20,
+      "Defesas": 24
+    },
+    "total": 174,
+    "complicacoes": [
+      {
+        "titulo": "Responsabilidade",
+        "texto": "Tocotl bestowed John Trujillo with the power of the Black Condor to be guardian protector of all creation, a role he takes with the utmost seriousness."
+      },
+      {
+        "titulo": "Peculiaridade",
+        "texto": "Trujillo is unaccustomed to dealing with other people, and is often at a loss in social situations where threats are not required."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

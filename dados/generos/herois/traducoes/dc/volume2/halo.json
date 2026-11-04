@@ -1,0 +1,98 @@
+{
+  "nome_pt": "Halo",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 92,
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 2,
+      "Agi": 5,
+      "Des": 4,
+      "Lut": 2,
+      "Int": 1,
+      "Pro": 4,
+      "Pre": 3
+    },
+    "poderes": [
+      "a ur akle Merge Imortalidade 10 (Requires a recently dead body); f ligh t 8 (800 km/h); Protective a ur a Sustentado Proteção 5; Quick Change Característica 1; r ainb ow Hues a rr ay*: r ed (Calor Beam) Dano à Distância 10, ae : o r ange ( f or ce Beam) Dano à Distância 10, ae : y ello w (Brilliant Light) Aflição à Distância 10 (Visual; resistido por Esquiva; Cumulativo), ae : Green (Stasis Beam) Aflição à Distância 10 (resistido por Fortitude; Impedido, Imóvel, Paralisado), ae : Blue ( d ist ortion) Camuflagem 5 (All Visual and Auditory), ae : Blue ( d ist ortion) Ilusão 6 (Visual and Auditory), ae : i ndigo ( t r actor Beam) Alcance de Percepção Mover Objetos 10 , Limitado— Toward and Away Only) *Halo can counter other effects with an appropriate hue."
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Finta Ágil",
+      "Rolamento Defensivo 3",
+      "Evasion 2",
+      "Increased Initiative"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Combate à Distância: Rainbow hues",
+        "graduacoes": 6,
+        "total": 10
+      }
+    ],
+    "iniciativa": 9,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 2,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 0"
+      },
+      {
+        "nome": "Rainbow Hues",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Dano 10 mais outros"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 6,
+      "Fortitude": 8,
+      "Resistência": 10,
+      "Vontade": 8
+    },
+    "observacao_defesas": "*, Vontade 8 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 42,
+      "Poderes": 68,
+      "Vantagens": 7,
+      "Perícias": 14,
+      "Defesas": 19
+    },
+    "total": 150,
+    "complicacoes": [
+      {
+        "titulo": "Color n ega tion",
+        "texto": "Anything that would negate a particular hue Vontade also prevent Halo from using the power associated with it."
+      },
+      {
+        "titulo": "Violet Hue",
+        "texto": "The current Halo can be dominated by the personality of Violent Harper. When this happens, Halo is evil and is Controlado by the Gamemaster."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

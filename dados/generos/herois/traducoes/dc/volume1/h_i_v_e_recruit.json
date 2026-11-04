@@ -1,0 +1,99 @@
+{
+  "nome_pt": "H.I.V.E. Recruit",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 262,
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 2,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 2,
+      "Int": 3,
+      "Pro": 2,
+      "Pre": 1
+    },
+    "poderes": [
+      "H.I.V.E. Weapons: ( Arranjo (10 pontos), Facilmente Removível (-4 pontos), Stinger (Golpe 5 Linked to Aflição 5 (resistido por Fortitude; Tonto, Disabled, Incapacitado (electrical), AE: Blaster (Dano à Distância 5)); H.I.V.E. Uniform (Proteção 3, Sutil)"
+    ],
+    "equipamento": [
+      "H.I.V.E. Communicator"
+    ],
+    "vantagens": [
+      "Benefício (various)",
+      "Conectado",
+      "Equipamento"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Stinger",
+        "graduacoes": 3,
+        "total": 5
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 5,
+        "total": 6
+      },
+      {
+        "nome": "Especialidade: Various Sciences",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 3,
+        "total": 5
+      },
+      {
+        "nome": "Combate à Distância: Blaster",
+        "graduacoes": 3,
+        "total": 5
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 4,
+        "total": 6
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Stinger",
+        "bonus": 5,
+        "alcance": "",
+        "dano": "Golpe 5 and Aflição 5, resistido por Fortitude"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 5,
+      "Aparar": 5,
+      "Fortitude": 5,
+      "Resistência": 5,
+      "Vontade": 5
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 28,
+      "Poderes": 11,
+      "Vantagens": 3,
+      "Perícias": 18,
+      "Defesas": 12
+    },
+    "total": 72,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

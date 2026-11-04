@@ -1,0 +1,87 @@
+{
+  "nome_pt": "Jimmy Olsen",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 216,
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 1,
+      "Agi": 0,
+      "Des": 1,
+      "Lut": 1,
+      "Int": 2,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "poderes": [],
+    "equipamento": [
+      "Signal watch (Característica 1 (Ultrasonic signal))"
+    ],
+    "vantagens": [
+      "Contatos",
+      "Equipamento",
+      "Sorte"
+    ],
+    "pericias": [
+      {
+        "nome": "Especialidade: Photography",
+        "graduacoes": 9,
+        "total": 11
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 2,
+        "total": 4
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 2,
+        "total": 2
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 1,
+        "total": 3
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [
+      {
+        "nome": "Attack",
+        "bonus": 1,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 0"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 3,
+      "Aparar": 3,
+      "Fortitude": 2,
+      "Resistência": 1,
+      "Vontade": 2
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 18,
+      "Poderes": 0,
+      "Vantagens": 3,
+      "Perícias": 11,
+      "Defesas": 6
+    },
+    "total": 38,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

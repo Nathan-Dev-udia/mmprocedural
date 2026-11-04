@@ -1,0 +1,125 @@
+{
+  "nome_pt": "Santo Andarilho",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 151,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 2,
+      "Agi": 1,
+      "Des": 2,
+      "Lut": 3,
+      "Int": 1,
+      "Pro": 6,
+      "Pre": 6
+    },
+    "poderes": [
+      "Power r ing: 139 pontos, Removível (-28 pontos) (111 PP)",
+      "ai and d atabase: Features 2 (2 PP)",
+      "t he P ower of Hope: Característica 1 (see sidebar) (1 PP)",
+      "Comunicação: Sentidos 1 (Comunicação Link to Central Power Battery) (1 PP)",
+      "f ligh t: Voo 14 (32,0 km/h), Movimento 4 (Environmental Adaptation — Zero-G, Space Travel 3) (36 PP)",
+      "f or ce f ield: Impenetrável Proteção 12; Imunidade 10 (Suporte Vital) (34 PP)",
+      "f or ce Manipulation: Arranjo (40 pontos)",
+      "• r evitalize: Cura 20 (40 PP)",
+      "• Hope Burns Bright: Nulificar 20 (Orange, Red, or Yellow power ring effects), Dynamic (2 PP)",
+      "• f or ce Raio: Dano à Distância 18, Dynamic (2 PP)",
+      "• f or ce Constructs: Criar Objetos 18, Dynamic (2 PP)",
+      "• Lifting: Mover Objetos 18, Dynamic (2 PP)",
+      "• f or ce Bubble: Imunidade 10 (Suporte Vital), Affects Others, Área de Explosão, À Distância (2 PP)",
+      "• Mobile Constructs: Criar Objetos 12, Movable, Dynamic (2 PP)",
+      "S canning Beam: Sentidos 6 (Analítico Auditory, Chemical, and Visual) (6 PP)",
+      "Univ ersal t r anslator: Compreender Languages 4 (8 PP)",
+      "a V ant G d a e S Defensive Attack, Diehard, Fearless, Inspire 3, Interpose, Leadership, Move-by Action"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "9 Total 204"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Especialidade: Theology",
+        "graduacoes": 8,
+        "total": 9
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 10
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 10
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 4,
+        "total": 10
+      },
+      {
+        "nome": "Combate à Distância: Power Ring",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 4,
+        "total": 5
+      }
+    ],
+    "iniciativa": 1,
+    "ataques": [
+      {
+        "nome": "Force Raio",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Dano 18"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 3,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 1"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 6,
+      "Fortitude": 6,
+      "Aparar": 6,
+      "Resistência": 14,
+      "Vontade": 14
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 44,
+      "Perícias": 20,
+      "Poderes": 111,
+      "Defesas": 20
+    },
+    "total": null,
+    "complicacoes": [
+      {
+        "titulo": "Perda de Poder",
+        "texto": "The Blue Lantern rings are fueled by hope. If the wearer of the ring and others near the wearer of a Blue Lantern power ring lose hope, the ring ceases to function."
+      },
+      {
+        "titulo": "Fraqueza",
+        "texto": "The Force Manipulation Arranjo of the Blue Lantern Power Ring only functions while within Alcance de Percepção of a Green Lantern, also Voo and Campo de Força graduações are halved when out of this range."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

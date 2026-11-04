@@ -1,0 +1,129 @@
+{
+  "nome_pt": "Vigilante",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 253,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 3,
+      "Agi": 2,
+      "Des": 3,
+      "Lut": 3,
+      "Int": 1,
+      "Pro": 1,
+      "Pre": 2
+    },
+    "poderes": [
+      "0 Defenses 26"
+    ],
+    "equipamento": [
+      "Body a rmor : Proteção 5 (5 PP)",
+      "Starlight Goggles: Sentidos 1 (Night vision) (1 PP)",
+      "a rsenal: Arranjo (15 pontos)",
+      "• Submachine Gun: À Distância Multiataque Dano 4 (1 PP)",
+      "• Sniper r ifle: Dano à Distância 5 (1 PP)",
+      "• f r agmentation Grenade: Área de Explosão Dano 5 (15 PP)",
+      "• f lash-bang G renade: Área de Explosão Ofuscar 4 (1 PP)",
+      "• k nife: Golpe 1, piercing (1 PP)",
+      "5 pontos worth of miscellaneous equipment a V ant G d a e S Preciso Attack, Assessment, Equipment 6, Evasion, Extraordinary Effort, Improved Aim, Improvised Weapon, Preciso Attack (À Distância, Camuflagem), Prone Luta, Quick Draw, Startle, Takedown, Tracking"
+    ],
+    "vantagens": [
+      "17 Total 122 Co MPL i C tion S a Judge",
+      "Jury and e xecutioner: The Vigilante is an agent of harsh justice",
+      "prepared to use deadly force to bring it about. Suicide Mission: The deaths caused by the Vigilante tend to weigh heavily. often tangled with the Electrocutioner",
+      "and Dorian Chase has crossed paths a number of times with the Titans."
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 10,
+        "total": 13
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 7,
+        "total": 9
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 9,
+        "total": 10
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 9,
+        "total": 11
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 7,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 9
+      },
+      {
+        "nome": "Combate à Distância: Guns",
+        "graduacoes": 9,
+        "total": 12
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 11,
+        "total": 13
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 6,
+        "total": 9
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Sniper Rifle",
+        "bonus": 12,
+        "alcance": "À distância",
+        "dano": "Dano 5"
+      },
+      {
+        "nome": "Submachine Gun",
+        "bonus": 12,
+        "alcance": "À distância",
+        "dano": "Multiataque Dano 4"
+      },
+      {
+        "nome": "Fragmentation Grenade",
+        "bonus": 12,
+        "alcance": "",
+        "dano": "Área de Explosão Dano 5"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 7,
+      "Fortitude": 12,
+      "Aparar": 10,
+      "Resistência": 9,
+      "Vontade": 6
+    },
+    "observacao_defesas": "* Vontade 6 *Without Body Armor. Po er ponto W S Abilities 34 Skills 45",
+    "custos": {},
+    "total": null,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "nome_pt": "Senhor Mente",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 56,
+  "ficha": {
+    "habilidades": {
+      "For": -5,
+      "Vig": 0,
+      "Agi": 0,
+      "Des": -4,
+      "Lut": -5,
+      "Int": 10,
+      "Pro": 8,
+      "Pre": 3
+    },
+    "poderes": [
+      "t Leitura mental 12, Sutil (25 PP)",
+      "elepa thy: t elepa thic Control: Aflição 12 (resistido por Vontade; Tonto, Compelido, Controlado), Concentração, Contagioso, Progressivo, Instant Recovery; Insidioso, Sutil (50 PP)",
+      "t iny: Encolhimento 20, Permanente, Inato (21 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Evasion 2",
+      "Transe (spins cocoon)"
+    ],
+    "pericias": [
+      {
+        "nome": "Enganação",
+        "graduacoes": 10,
+        "total": 13
+      },
+      {
+        "nome": "Especialidade: Psychology",
+        "graduacoes": 4,
+        "total": 14
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 12
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 2,
+        "total": 10
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 0,
+        "total": 20
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 12,
+        "total": 22
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [],
+    "defesas": {
+      "Esquiva": 10,
+      "Fortitude": 4,
+      "Aparar": 10,
+      "Resistência": 0,
+      "Vontade": 16
+    },
+    "observacao_defesas": "* Fortitude 4 Aparar 10* Resistência 0 Vontade 16 *Includes size modifiers. W S Po er ponto Abilities 24 Skills 16 Powers 96 Defenses 17 Advantages 3 Total 156",
+    "custos": {},
+    "total": null,
+    "complicacoes": [
+      {
+        "titulo": "Worm",
+        "texto": "Mister Mind is a tiny worm in his normal state. Motivation—Conqueror: Mister Mind is driven to conquer worlds and destroy his enemies."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "nome_pt": "Batgirl (Cassandra Cain)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 38,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 4,
+      "Agi": 5,
+      "Des": 5,
+      "Lut": 10,
+      "Int": 1,
+      "Pro": 4,
+      "Pre": 1
+    },
+    "poderes": [],
+    "equipamento": [
+      "Flashlight: Característica 1 (Illumination) (1 PP)",
+      "Grapnel Gun: Super-Movimento 1 (Swinging) (2 PP)",
+      "Plasti-Cuffs: Característica 1 (Restraint) (1 PP)",
+      "Mini-Tracers: Característica 1 (Tracking) (1 PP)",
+      "Utility Belt: Arranjo (12 pontos)",
+      "• Tear Gas Pellets: À Distância Área de Nuvem Aflição 3 (resistido por Fortitude; Tonto and Vision Impaired, Atordoado and Vision Disabled, Incapacitado) (12 PP)",
+      "• Batarangues: Força-based Dano à Distância 2 (1 PP)",
+      "• Bolos: Aflição à Distância 4 (resistido por Esquiva; Impedido and Vulnerável, Indefeso and Imóvel) (1 PP)",
+      "• Cutting Torch: Dano 1 Linked to Enfraquecer Object’s Resistência 1 (1 PP)",
+      "• Explosive Batarangues: À Distância Área de Explosão Dano 4 (1 PP)",
+      "• Flash Bombs: À Distância Área de Explosão Aflição 3 (resistido por Fortitude; Vision Impaired, Vision Disabled, Vision Unaware) (1 PP)",
+      "• Sleep Gas Pellets: À Distância Área de Nuvem Aflição 4 (resistido por Fortitude; Fatigado, Exausto, Adormecido) (1 PP)",
+      "• Smoke Bombs: Área de Nuvem Visual Camuflagem Attack 4 (1 PP)",
+      "VEHICLE: MOTORCYCLE (11 PP)",
+      "Size: Medium Str 1 Spd 6 Def 10 Tou 8 Features: Navigation System"
+    ],
+    "vantagens": [
+      "Finta Ágil",
+      "Avaliação",
+      "Benefit 1 (Cipher)",
+      "Ataque Corpo-a-Corpo 3",
+      "Ataque Defensivo",
+      "Rolamento Defensivo",
+      "Equipamento 7",
+      "Agarrar com Destreza",
+      "Grande Vigor",
+      "Esconder-se a Plena Vista",
+      "Crítico Aprimorado (Desarmado)",
+      "Iniciativa Aprimorada",
+      "Derrubar Aprimorado",
+      "Levantar Rápido",
+      "Ataque Poderoso",
+      "Ranged Combat 3",
+      "Maestria em Perícia (Intuição)",
+      "Esquiva Fabulosa"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 7,
+        "total": 12
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 7,
+        "total": 9
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 5,
+        "total": 15
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 6,
+        "total": 7
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 7,
+        "total": 11
+      },
+      {
+        "nome": "Combate à Distância: Batarangue",
+        "graduacoes": 5,
+        "total": 10
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 4,
+        "total": 9
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 7,
+        "total": 12
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 4,
+        "total": 9
+      }
+    ],
+    "iniciativa": 9,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 18,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2, Crit. 19-20"
+      },
+      {
+        "nome": "Batarangue",
+        "bonus": 13,
+        "alcance": "À distância",
+        "dano": "Dano 4"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 15,
+      "Fortitude": 10,
+      "Aparar": 15,
+      "Resistência": 5,
+      "Vontade": 10
+    },
+    "observacao_defesas": "* Vontade 10 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 64,
+      "Perícias": 31,
+      "Poderes": 0,
+      "Defesas": 27,
+      "Vantagens": 28
+    },
+    "total": 150,
+    "complicacoes": [
+      {
+        "titulo": "Fear of Abandonment",
+        "texto": "Cassandra’s brutal upbringing has left her with a serious fear of abandonment, and a vulnerability to mental manipulation."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

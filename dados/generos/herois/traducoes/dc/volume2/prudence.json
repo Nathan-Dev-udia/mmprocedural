@@ -1,0 +1,130 @@
+{
+  "nome_pt": "Prudência",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 9,
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 2,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 5,
+      "Int": 1,
+      "Pro": 3,
+      "Pre": 1
+    },
+    "poderes": [],
+    "equipamento": [
+      "Dual Submachine Guns (À Distância Multiataque Dano 4), Holdout Pistola (Dano à Distância 2), Knife (Dano 1, piercing, Critical 19-20), Kevlar Vest (Proteção 4, Limitado a Ballistic, Sutil)"
+    ],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Estrangular",
+      "Conectado",
+      "Duro de Matar",
+      "Equipamento 7",
+      "Iniciativa Aprimorada",
+      "Arma Improvisada",
+      "Tomar a Iniciativa"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 5,
+        "total": 10
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Knife",
+        "graduacoes": 4,
+        "total": 9
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 6,
+        "total": 7
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 8,
+        "total": 9
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Combate à Distância: Guns",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 4,
+        "total": 7
+      }
+    ],
+    "iniciativa": 7,
+    "ataques": [
+      {
+        "nome": "Dual Submachine Guns",
+        "bonus": 10,
+        "alcance": "",
+        "dano": "À Distância Multiataque Dano 4"
+      },
+      {
+        "nome": "Holdout Pistola",
+        "bonus": 10,
+        "alcance": "",
+        "dano": "Dano à Distância 2"
+      },
+      {
+        "nome": "Knife",
+        "bonus": 9,
+        "alcance": "",
+        "dano": "Dano 1, Critical 19-20"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "alcance": "",
+        "dano": "Dano 3"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 8,
+      "Fortitude": 8,
+      "Resistência": 6,
+      "Vontade": 6
+    },
+    "observacao_defesas": "*, Vontade 6 * Without Kevlar Vest.",
+    "custos": {
+      "Habilidades": 42,
+      "Poderes": 0,
+      "Vantagens": 14,
+      "Perícias": 28,
+      "Defesas": 17
+    },
+    "total": 101,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

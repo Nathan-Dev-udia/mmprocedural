@@ -1,0 +1,159 @@
+{
+  "nome_pt": "Ares",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 21,
+  "ficha": {
+    "habilidades": {
+      "For": 16,
+      "Vig": 16,
+      "Agi": 5,
+      "Des": 5,
+      "Lut": 16,
+      "Int": 6,
+      "Pro": 10,
+      "Pre": 6
+    },
+    "poderes": [
+      "Arsenal of Areopagus: Penetrante 16 on Força Dano (Preciso, Reach) (18 PP)",
+      "Body of a God: Força Aprimorada 4 (Lifting only, Lifting Str 20; 25,000 tons), Imortalidade 16 (Limitado a Non-magical Dano), Imunidade 30 (Fortitude Effects), Metamorfose 4 (Anything) (62 PP)",
+      "Divine Armor: Impenetrável on Resistência 16 (16 PP)",
+      "Godly mágico: Arranjo (35 pontos)",
+      "• Divine Flames: Dano à Distância 16, Indirect 3 (35 PP)",
+      "• Divine Gifts: Criar Objetos 11, Contínuo, Inato, Preciso, (1 PP)",
+      "• Divine Images: Ilusão 7, All Sentidos (1 PP)",
+      "• Divine Inspiration: Perception área Aflição 16 (resistido por Vontade; Tonto, Compelido, Controlado), Limitado a Negative Emotions Only (1 PP)",
+      "• Divine Vontade: Transform 7, Anything into Anything (1 PP)",
+      "Mind of a God : Compreender Languages 3, Imunidade 10 (mental Effects, Limitado a Half Effect), Sentidos 12 (Divine Prontidão (mental, Extended 3), True Sight (Vision Counters Camuflagem, Vision Penetrates Camuflagem, Vision Counters Ilusão)) (23 PP)"
+    ],
+    "equipamento": [
+      "HEADQUARTERS: AREOPAGUS (19 PP)",
+      "Size: Awesome Tou: 14 Features:"
+    ],
+    "vantagens": [
+      "Ataque Preciso",
+      "Ataque Imprudente",
+      "Avaliação",
+      "Benefit 5 (Status and resources of Olympian god of war)",
+      "Estrangular",
+      "Tontear (Intimidação)",
+      "Ataque Defensivo",
+      "Equipamento 4",
+      "Fascinar (Enganação)",
+      "Destemido",
+      "Defesa Aprimorada",
+      "Improved Critical 4 (Archaic à distância Weapons)",
+      "Improved Critical 4 (Guns)",
+      "Improved Critical 4 (Melee Weapons)",
+      "Improved Critical 4 (Desarmado)",
+      "Desarmar Aprimorado",
+      "Ataque Poderoso",
+      "Precise Attack (Close",
+      "Concealment)",
+      "Ritualista",
+      "Prender Arma",
+      "Quebrar Arma"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 4,
+        "total": 20
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 12,
+        "total": 18
+      },
+      {
+        "nome": "Especialidade: mágico",
+        "graduacoes": 6,
+        "total": 12
+      },
+      {
+        "nome": "Especialidade: Olympus",
+        "graduacoes": 12,
+        "total": 18
+      },
+      {
+        "nome": "Especialidade: Warfare",
+        "graduacoes": 20,
+        "total": 26
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 6,
+        "total": 16
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 14,
+        "total": 20
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 16
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 6,
+        "total": 14
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 4,
+        "total": 9
+      }
+    ],
+    "iniciativa": 5,
+    "ataques": [
+      {
+        "nome": "Melee Weapons",
+        "bonus": 16,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 16, Crit. 16-20"
+      },
+      {
+        "nome": "À Distância Weapons",
+        "bonus": 16,
+        "alcance": "À distância",
+        "dano": "Dano varies, Crit. 16-20"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 16,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 16, Crit. 16-20"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 16,
+      "Fortitude": 18,
+      "Aparar": 16,
+      "Resistência": 16,
+      "Vontade": 14
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 160,
+      "Perícias": 45,
+      "Poderes": 158,
+      "Defesas": 17,
+      "Vantagens": 40
+    },
+    "total": 420,
+    "complicacoes": [
+      {
+        "titulo": "Godly Nature",
+        "texto": "Ares is a slave to his nature, even when it is obviously not in his best interest."
+      },
+      {
+        "titulo": "Trail of Blood",
+        "texto": "Ares has had millennia to make powerful enemies, of which he has many ."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "nome_pt": "Lorde Satanus",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 23,
+  "ficha": {
+    "habilidades": {
+      "For": 11,
+      "Vig": 9,
+      "Agi": 4,
+      "Des": 4,
+      "Lut": 9,
+      "Int": 9,
+      "Pro": 9,
+      "Pre": 6
+    },
+    "poderes": [
+      "d emonic Heritage: Compreender Languages 3; Imunidade 30 (Fortitude Effects); Movimento 2 (Dimensional Movimento 2 (Hell and Occult Dimensions)); Proteção 3; Regeneração 5; Sentidos 4 (mágico Prontidão (Analítico, Extended 2)) (52 PP)",
+      "d emonic mágico: Arranjo (65 pontos)",
+      "• t r ansmogrification: Transform 13, Anything into Anything (65 PP)",
+      "• d emonic d eception: Ilusão 11 (All Sentidos) (1 PP)",
+      "• “Granting Wishes” 1: Criar Objetos 14, Contínuo, Inato, Preciso, Sutil (1 PP)",
+      "• “Granting Wishes” 2: Aflição à Distância 15 (resistido por Vontade; Tonto, Atordoado, Transformado) (1 PP)",
+      "d emonic Mask: Metamorfose 3 (humanoids and animals) (15 PP)",
+      "Hellfire t riden t: Arranjo (54 pontos), Removível (–11 pontos) • Hellfire Raio: Dano à Distância 12, Resistência Alternativa (Fortitude), Contínuo on 6 graduações (54 PP)",
+      "• Hellish t riden t t ines: Força-based Dano 3, Penetrante on Dano 14; Preciso (1 PP)",
+      "a V ant G d a e S Benefit 3 (Status: Demon Lord), Fascinate (Deception), Improved Defense, Ritualist, Seize Iniciativa, Skill Mastery (Deception), Taunt"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "9 Total 365"
+    ],
+    "pericias": [
+      {
+        "nome": "Enganação",
+        "graduacoes": 18,
+        "total": 24
+      },
+      {
+        "nome": "Especialidade: Hell",
+        "graduacoes": 8,
+        "total": 17
+      },
+      {
+        "nome": "Especialidade: mágico",
+        "graduacoes": 6,
+        "total": 15
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 9,
+        "total": 18
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 9,
+        "total": 15
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 15
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 8,
+        "total": 14
+      },
+      {
+        "nome": "Combate à Distância: Hellfire Trident",
+        "graduacoes": 8,
+        "total": 12
+      }
+    ],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Hellfire Raio",
+        "bonus": 12,
+        "alcance": "À distância",
+        "dano": "Dano 12 resistido por Fortitude Hellfire Trident +11 Corpo a Corpo, Dano 14"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 9,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 11"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Aparar": 12,
+      "Resistência": 12,
+      "Vontade": 14
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 122,
+      "Perícias": 36,
+      "Poderes": 179,
+      "Defesas": 19
+    },
+    "total": null,
+    "complicacoes": [
+      {
+        "titulo": "d emonic n ature",
+        "texto": "Satanus is a spawn of Hell and is recognizable t o properly attuned mystical Sentidos as such."
+      },
+      {
+        "titulo": "My d earest e nemy",
+        "texto": "Satanus’ most constant enemy is his sister and erstwhile ally Blaze, who normally operates against him from the shadows."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

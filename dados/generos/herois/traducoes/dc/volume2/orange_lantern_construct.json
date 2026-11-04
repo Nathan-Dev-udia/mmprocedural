@@ -1,0 +1,100 @@
+{
+  "nome_pt": "Construto da Lanterna Laranja",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 87,
+  "ficha": {
+    "habilidades": {
+      "For": 8,
+      "Vig": "—",
+      "Agi": 10,
+      "Des": 0,
+      "Lut": 8,
+      "Int": 0,
+      "Pro": 0,
+      "Pre": 0
+    },
+    "poderes": [
+      ": Construct (Imunidade 60: Fortitude and Vontade effects, Proteção 11); o r ange Hunger (Nulificar Yellow and Green Energy Manipulation and mágico 14)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Minions (see M ine !)"
+    ],
+    "pericias": [
+      {
+        "nome": "Enganação",
+        "graduacoes": 6,
+        "total": 6
+      },
+      {
+        "nome": "Especialidade: Possessions",
+        "graduacoes": 10,
+        "total": 10
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 6,
+        "total": 6
+      },
+      {
+        "nome": "Combate à Distância: Power Ring",
+        "graduacoes": 10,
+        "total": 12
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 10,
+        "total": 12
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 4,
+        "total": 4
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [
+      {
+        "nome": "Ring Raio",
+        "bonus": 12,
+        "alcance": "",
+        "dano": "Dano 16"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 2,
+        "alcance": "",
+        "dano": "Dano 1"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 8,
+      "Fortitude": 12,
+      "Resistência": 14,
+      "Vontade": 16
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 14,
+      "Poderes": 101,
+      "Vantagens": 0,
+      "Perícias": 23,
+      "Defesas": 42
+    },
+    "total": 180,
+    "complicacoes": [
+      {
+        "titulo": "Ganância",
+        "texto": "Larfleeze is the personification of greed. o ut cast: Larfleeze’s manner and appearance are alien and his time in seclusion has made him difficult to relate to."
+      },
+      {
+        "titulo": "Fraqueza",
+        "texto": "The Orange Lantern power ring depends on the willpower of the wearer and moments of self-doubt or hesitation can cause the ring to fail. MI ne ! As with many characters able to field a vast number of minions, Larfleeze’s power to, in effect, Criar Objetos an entire Lantern Corps is not reflected in his Powers listing. The wielder of the orange light has the ability to steal the identities of others; an orange light-construct in the victim’s image arises from the corpse, under the lantern- wielder’s control, with a range of the traits listed for the Orange Lantern Construct archetype. Some constructs are different sizes (with appropriate graduações of Crescimento or Encolhimento) but most share the same traits. The Orange Lanterns are constructs of Larfleeze’s power and Vontade, and require some effort on his part to exist. They are essentially a Sustentado duration Summon effect, and fade if Agent Orange is unable to focus on them. Anyone attempting to take the orange lantern from Larfleeze risks falling victim to the light of avarice and the power of the Ophidian, the Entity of the lantern. Overcoming the tremendous desire to have and control the lantern requires at least a CD 30 Vontade resistance check. The blue light of hope can temporarily overpower the orange light of avarice, serving to Nulificar it. Heroes & V Heroes & V I I lla lla I I ns, Vol. 2 ns, Vol. 2"
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "nome_pt": "Persuader",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 194,
+  "ficha": {
+    "habilidades": {
+      "For": 8,
+      "Vig": 8,
+      "Agi": 5,
+      "Des": 4,
+      "Lut": 7,
+      "Int": 0,
+      "Pro": 3,
+      "Pre": 2
+    },
+    "poderes": [
+      "Atomic Axe (Facilmente Removível, –6 pontos; Característica: Mentally Linked to Persuader); Atomic Golpe (Dano 14, Penetrante 14, Affects Intangibilidade 2, Dimensional 3, Reach, Variável Descriptor 2 (Quantum); AE: Cut Anything (Dano 14 Linked Enfraquecer Resistência 14, Affects Objects Only, Reach), AE: Cut Rift (Dimensional Travel 3, Portal); Armor (Impenetrável Proteção 2, Removível, –1 ponto)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Preciso",
+      "Ataque Corpo-a-Corpo 3",
+      "Conectado",
+      "Destemido",
+      "Iniciativa Aprimorada",
+      "Ataque Poderoso"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 3,
+        "total": 8
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 4,
+        "total": 12
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 2,
+        "total": 4
+      },
+      {
+        "nome": "Especialidade: Mercenary",
+        "graduacoes": 8,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: Streetwise",
+        "graduacoes": 8,
+        "total": 8
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 9,
+        "total": 11
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 2,
+        "total": 7
+      }
+    ],
+    "iniciativa": 9,
+    "ataques": [
+      {
+        "nome": "Atomic Axe",
+        "bonus": 10,
+        "alcance": "",
+        "dano": "Dano 14"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "alcance": "",
+        "dano": "Dano 8"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 14,
+      "Fortitude": 12,
+      "Resistência": 10,
+      "Vontade": 6
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 74,
+      "Poderes": 35,
+      "Vantagens": 8,
+      "Perícias": 18,
+      "Defesas": 17
+    },
+    "total": 152,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

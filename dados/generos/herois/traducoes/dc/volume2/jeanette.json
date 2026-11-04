@@ -1,0 +1,125 @@
+{
+  "nome_pt": "Jeanette",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 159,
+  "ficha": {
+    "habilidades": {
+      "For": 9,
+      "Vig": 9,
+      "Agi": 4,
+      "Des": 2,
+      "Lut": 5,
+      "Int": 2,
+      "Pro": 2,
+      "Pre": 4
+    },
+    "poderes": [
+      "as an assassin. He encountered the Atom (Ryan Choi) and afterward spent a lot of his time trying to kill him. He eventually managed to do just that by hiring Deathstroke and his mercenary Titans to carry out the attack. Dwarfstar eventually joined the Secret Six where he served for a very short time before Amanda Waller, who disliked his past crimes and attitude, let Giganta know it was Dwarfstar who was responsible for her boyfriend, Ryan Choi’s, death. Dwarfstar survived the beating, but not before telling Gigan- ta it was Deathstroke who actually killed Choi. Jeanette Jeanette, also known as “the Last Victim” was a survivor of the murderous reign of Countess Elizabeth Bathory. A Hungarian noblewoman, Jeannette eventually escaped and married. Unfortunately, her husband betrayed her and she fell victim to a botched execution. As she was suffering under each clumsy swing of the headsman’s axe, the vengeful spirit of a banshee entered Jeanette. This saved her life and rendered her functionally Imortal, but changed her forever. For cen- turies Jeannette wandered. She lived a life of luxury punctu- ated by terror and suffering. As such, she is familiar with both the finer things of life and the world’s worst prisons and tor - ture chambers. Jeannette joined the Secret Six because of her longtime friendship with Scandal Savage and her attraction to Dead-"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Atraente",
+      "Benefit 2 (Independently Wealthy)",
+      "Fascinar (Persuasão)",
+      "Iniciativa Aprimorada",
+      "Languages 4 (Hungarian",
+      "Russian",
+      "Chinese",
+      "English",
+      "and four others)",
+      "Provocar"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 6,
+        "total": 11
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 7,
+        "total": 11
+      },
+      {
+        "nome": "Especialidade: Criminal",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Especialidade: History",
+        "graduacoes": 5,
+        "total": 7
+      },
+      {
+        "nome": "Especialidade: Politics",
+        "graduacoes": 3,
+        "total": 5
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 3,
+        "total": 5
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 5,
+        "total": 9
+      },
+      {
+        "nome": "Combate à Distância: Throwing",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 3,
+        "total": 7
+      }
+    ],
+    "iniciativa": 8,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 11,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 9"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 11,
+      "Fortitude": 11,
+      "Resistência": 9,
+      "Vontade": 8
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 74,
+      "Poderes": 65,
+      "Vantagens": 10,
+      "Perícias": 24,
+      "Defesas": 20
+    },
+    "total": 193,
+    "complicacoes": [
+      {
+        "titulo": "t Last Victim",
+        "texto": "Jeannette is sometimes plagued by flashbacks of previous moments in her life, traumatic and otherwise. She is also very world-weary and fatalistic. r omance: Jeannette is romantically involved with Deadshot, both for his deadly Skills and resemblance to an old lover."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

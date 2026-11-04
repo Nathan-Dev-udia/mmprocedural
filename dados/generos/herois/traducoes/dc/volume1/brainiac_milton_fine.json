@@ -1,0 +1,93 @@
+{
+  "nome_pt": "Brainiac (Milton Fine)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 81,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 3,
+      "Agi": 2,
+      "Des": 3,
+      "Lut": 3,
+      "Int": 11,
+      "Pro": 4,
+      "Pre": 4
+    },
+    "poderes": [
+      "Cyber-Web (Compreender Machines 2); Psychokinetic Campo de Força (Proteção 12, Impenetrável 10); Psychokinesis (Mover Objetos 13, Perception À Distância); Telepatia (Leitura mental 13; AE: Dano 6, Perception À Distância, resistido por Vontade; AE: Ilusão 8 (All Sentidos), Resistível; AE: mental Comunicação 5)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Avaliação",
+      "Memória Eidética",
+      "Inventor"
+    ],
+    "pericias": [
+      {
+        "nome": "Enganação",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 2,
+        "total": 6
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 4,
+        "total": 15
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 4,
+        "total": 7
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Rajada mental",
+        "bonus": null,
+        "alcance": "",
+        "dano": "Dano, CD 21 Vontade"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 3,
+        "alcance": "",
+        "dano": "Dano 2"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 11,
+      "Aparar": 8,
+      "Fortitude": 10,
+      "Resistência": 15,
+      "Vontade": 15
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 64,
+      "Poderes": 94,
+      "Vantagens": 3,
+      "Perícias": 12,
+      "Defesas": 32
+    },
+    "total": 205,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

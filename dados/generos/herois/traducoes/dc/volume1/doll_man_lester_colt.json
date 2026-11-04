@@ -1,0 +1,139 @@
+{
+  "nome_pt": "Doll Man (Lester Colt)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 212,
+  "ficha": {
+    "habilidades": {
+      "For": -3,
+      "Vig": 4,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 6,
+      "Int": 4,
+      "Pro": 5,
+      "Pre": 3
+    },
+    "poderes": [
+      "Encolhimento 12 (6 inches; Permanente); Combat Rocket Pack (Voo 5 (96 km/h), Removível)"
+    ],
+    "equipamento": [
+      "Miniaturized Arsenal (select 35 equipment pontos worth of Projectile Weapons, Heavy Weapons, and/or Grenades and Explosives)"
+    ],
+    "vantagens": [
+      "Finta Ágil",
+      "Ataque Imprudente",
+      "Estrangular",
+      "Ataque Corpo-a-Corpo 6",
+      "Rolamento Defensivo",
+      "Equipamento 7",
+      "Grande Vigor",
+      "Improved Critical 2 (Guns)",
+      "Defesa Aprimorada",
+      "Desarmar Aprimorado",
+      "Agarrar Aprimorado",
+      "Iniciativa Aprimorada",
+      "Derrubar Aprimorado",
+      "Liderança",
+      "Ataque Poderoso",
+      "Ataque à Distância 4",
+      "Redirecionar",
+      "Rastrear"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 3,
+        "total": 6
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 3,
+        "total": 0
+      },
+      {
+        "nome": "Especialidade: Politics",
+        "graduacoes": 7,
+        "total": 11
+      },
+      {
+        "nome": "Especialidade: Science",
+        "graduacoes": 7,
+        "total": 11
+      },
+      {
+        "nome": "Especialidade: Soldier",
+        "graduacoes": 9,
+        "total": 13
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 0,
+        "total": -3
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 9,
+        "total": 14
+      },
+      {
+        "nome": "Combate à Distância: Guns",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 3,
+        "total": 18
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 7,
+        "total": 10
+      }
+    ],
+    "iniciativa": 7,
+    "ataques": [
+      {
+        "nome": "À Distância Attacks",
+        "bonus": 13,
+        "alcance": "",
+        "dano": "Dano by Weapon Type"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 12,
+        "alcance": "",
+        "dano": "Dano -4 or by Weapon Type"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 15,
+      "Aparar": 15,
+      "Fortitude": 10,
+      "Resistência": 5,
+      "Vontade": 10
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 56,
+      "Poderes": 32,
+      "Vantagens": 33,
+      "Perícias": 27,
+      "Defesas": 20
+    },
+    "total": 168,
+    "complicacoes": [
+      {
+        "titulo": "Patriotism",
+        "texto": "Colt is the consummate soldier, ready to follow any order and even die in order to protect America."
+      },
+      {
+        "titulo": "Relacionamento",
+        "texto": "Colt truly loves Emma Glenn, and her safety (and their baby’s) remains his constant concern."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

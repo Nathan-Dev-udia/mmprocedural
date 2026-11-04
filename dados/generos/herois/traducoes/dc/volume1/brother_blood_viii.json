@@ -1,0 +1,104 @@
+{
+  "nome_pt": "Brother Blood Viii",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 85,
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 3,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 5,
+      "Int": 3,
+      "Pro": 1,
+      "Pre": 12
+    },
+    "poderes": [
+      "Energy Gauntlets (Dano à Distância 12 (plasma), Removível (-5 pontos)); Hypnosis (Perception À Distância, Cumulativo Aflição 12, resistido por Vontade, Dependente de Sentidos (Sight); Prayer Shawl (Enhanced Advantage (Diehard), Proteção 10 (Impenetrável 5), Imunidade 2 (Envelhecimento, Limitado a Half Effect; Raven’s Soul-Self Powers), Removível (-3 pontos)); Força of the Faithful (Força Aprimorada 7, Limitado by number of worshipers; Vigor Aprimorado 6, Limitado by number of worshippers)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Benefit 5 (head of the Church of Blood)",
+      "Connections",
+      "Duro de Matar",
+      "Inspirar",
+      "Languages 1 (English",
+      "Zandian native)",
+      "Liderança",
+      "Capanga 2",
+      "Assustar"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 2,
+        "total": 7
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 10,
+        "total": 22
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 8,
+        "total": 20
+      },
+      {
+        "nome": "Especialidade: Theology",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Especialidade: Zandia",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 8,
+        "total": 20
+      },
+      {
+        "nome": "Combate à Distância: Energy Gauntlets",
+        "graduacoes": 10,
+        "total": 12
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Energy Gauntlets",
+        "bonus": 12,
+        "alcance": "",
+        "dano": "Dano à Distância 12"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 7,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 3"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 11,
+      "Aparar": 8,
+      "Fortitude": 6,
+      "Resistência": 13,
+      "Vontade": 10
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 62,
+      "Poderes": 84,
+      "Vantagens": 12,
+      "Perícias": 27,
+      "Defesas": 24
+    },
+    "total": 209,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

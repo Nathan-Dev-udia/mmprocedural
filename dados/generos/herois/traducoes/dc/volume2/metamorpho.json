@@ -1,0 +1,51 @@
+{
+  "nome_pt": "Metamorfo",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 48,
+  "ficha": {
+    "habilidades": {
+      "For": 11,
+      "Vig": 12,
+      "Agi": 8,
+      "Des": 2,
+      "Lut": 8,
+      "Int": 1,
+      "Pro": 1,
+      "Pre": 2
+    },
+    "poderes": [
+      "100 Defenses 14"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "7 Total 237 Co MPL i C tion S a f r eakish a pp earance: As Metamorpho",
+      "Rex Mason is an obvious metahuman",
+      "oddly colored and possessing strange skin textures. i Want My Life Back!: Mason is an unwilling metahuman",
+      "desperate to be rid of his Powers and restored to a normal human state. Vulnerability: Anyone possessing the Orb of Ra can use it to incapacitate or control Metamorpho using a mental command. Mason has no defense against the Orb of Ra."
+    ],
+    "pericias": [],
+    "iniciativa": 12,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 11"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Fortitude": 14,
+      "Aparar": 10,
+      "Resistência": 14,
+      "Vontade": 9
+    },
+    "observacao_defesas": "",
+    "custos": {},
+    "total": null,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

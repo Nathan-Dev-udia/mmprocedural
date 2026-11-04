@@ -1,0 +1,102 @@
+{
+  "nome_pt": "Starman (David Knight)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 198,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 2,
+      "Des": 3,
+      "Lut": 3,
+      "Int": 1,
+      "Pro": 1,
+      "Pre": 1
+    },
+    "poderes": [
+      "Cosmic r od (Arranjo (20 pontos), Removível (-5 pontos), Star Beam (Dano à Distância 10, Dynamic), ae : Star Raio (À Distância Área de Cone Dano 6, Dynamic), ae : Starshine (Aflição à Distância 10 (resistido por Fortitude; Visually Impaired, Visually Disabled, Visually Unaware), Dynamic); Star Cape (Removível (-4 pontos), Voo 7 (400 km/h); Sustentado Proteção 8)"
+    ],
+    "equipamento": [
+      "Starship ( Size: Huge, Str: 8, t ou: 9 d ef: 8; f ea tures: Voo 8 (800 km/h), Gravity Beam (Mover Objetos 8, Contínuo), Communications, Infirmary, Remote Control)"
+    ],
+    "vantagens": [
+      "Ataque Defensivo",
+      "Equipamento 10",
+      "Desarmar Aprimorado",
+      "Sorte",
+      "Ação em Movimento"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 9
+      },
+      {
+        "nome": "Combate à Distância: Cosmic Rod",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 5,
+        "total": 8
+      }
+    ],
+    "iniciativa": 6,
+    "ataques": [
+      {
+        "nome": "Star Beam",
+        "bonus": 8,
+        "alcance": "À distância",
+        "dano": "Dano 10"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 8,
+      "Fortitude": 8,
+      "Resistência": 10,
+      "Vontade": 8
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 30,
+      "Poderes": 38,
+      "Vantagens": 14,
+      "Perícias": 18,
+      "Defesas": 24
+    },
+    "total": 124,
+    "complicacoes": [
+      {
+        "titulo": "r esponsibility",
+        "texto": "David becomes Starman because he believes it’s his destiny and responsiblity. d oomed: David was apparently born to die, something he is aware of during his time as the Starman of the 1950s."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

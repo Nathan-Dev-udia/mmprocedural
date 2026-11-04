@@ -1,0 +1,89 @@
+{
+  "nome_pt": "Hourman (Matthew Tyler)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 265,
+  "ficha": {
+    "habilidades": {
+      "For": 8,
+      "Vig": 8,
+      "Agi": 3,
+      "Des": 2,
+      "Lut": 4,
+      "Int": 4,
+      "Pro": -1,
+      "Pre": 1
+    },
+    "poderes": [
+      "Miraclo Velocidade: Arranjo (12 pontos)",
+      "• Tachyon Rider: Voo 6 (192 km/h) (12 PP)",
+      "• Personal Timeline Compression: Rapidez 12 (1 PP)",
+      "Time Vision: Arranjo (16 pontos)",
+      "• Accelerated Envelhecimento: Alcance de Percepção Dano 4, Penetrante 4 (resistido por Esquiva) (16 PP)",
+      "• Chronal Stasis: Alcance de Percepção Aflição 5 (resistido por Vontade; Tonto, Atordoado, Incapacitado), Reversível (1 PP)",
+      "• Temporal Reversion: Sentidos 8 (Postcognition, Precognition) (1 PP)",
+      "TIMESHIP: VEHICLE (25 PP)",
+      "Size: Gargantuan Str 12 Velocidade 4 (Voo) Def 6 Tou 14 Features: Timeship can be summoned across time by Hourman, Time Engines: Movimento 5 (full time travel, dimension travel to alternate timelines and temporal pocket universes)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Avaliação",
+      "Beginner’s Luck",
+      "Memória Eidética",
+      "Equipamento 5",
+      "Evasion",
+      "Ataque Poderoso",
+      "Parceiro 15"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 6,
+        "total": 10
+      }
+    ],
+    "iniciativa": 3,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 12,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 8 Accelerated Envelhecimento — Alcance de Percepção, Dano 5, Penetrante 5, resistido por Esquiva Chronal Stasis — Alcance de Percepção, Aflição 6 (resistido por Vontade), Reversível"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Fortitude": 12,
+      "Aparar": 12,
+      "Resistência": 8,
+      "Vontade": 8
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 58,
+      "Perícias": 7,
+      "Poderes": 31,
+      "Defesas": 28,
+      "Vantagens": 26
+    },
+    "total": 150,
+    "complicacoes": [
+      {
+        "titulo": "Naive",
+        "texto": "Despite all his power, Hourman is uncertain how to truly be a hero and live up to his heritage. Though his fellow heroes and his friends help him as best they can, Hourman sometimes turns to the wrong people for advice."
+      },
+      {
+        "titulo": "Amazo",
+        "texto": "Since stealing part of Hourman’s time Powers, the android Amazo is behind many of Hourman’s problems."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "nome_pt": "Doctor Mid-Nite (Dr. Pieter Cross)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 168,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 3,
+      "Agi": 3,
+      "Des": 4,
+      "Lut": 3,
+      "Int": 4,
+      "Pro": 3,
+      "Pre": 3
+    },
+    "poderes": [
+      "Blindsight: Sentidos 4 (Visão no Escuro, Infravisão, Ultravisão), Inato (5 PP)",
+      "Blackout Bombs: Visual Camuflagem 2 (Normal Sight), Área de Nuvem 2 (30 feet), Attack, Contracted Range 2, Peculiaridade: Can be blown away by strong winds, etc. even while being Sustentado (-1 ponto), Removível (-2 pontos) (7 PP)",
+      "Goggles: Característica 1 (Compensate for blindness), Removível (1 PP)",
+      "Medical Gauntlets: Arranjo (12 pontos), Removível (–3 pontos) • Surgical Laser: Dano à Distância 5, Preciso, Preciso (12 PP)",
+      "• Anesthetic Spray: Cumulativo Aflição 5 (resistido por Fortitude; Fatigado, Exausto, Adormecido), Reach 2 (1 PP)",
+      "• Pharmaceutical Injector: Enhanced Skill 8 (Treatment +8) (1 PP)",
+      "Night-Luta: Enhanced Skill 8 (Deception +8), Limitado: Only for use with Redirect, Limitado: Only in Camuflagem (1 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Contatos",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 5",
+      "Evasion",
+      "Desarmar Aprimorado",
+      "Ambiente Favorito (Darkness)",
+      "Liderança",
+      "Precise Attack (corpo a corpo; Concealment)",
+      "Redirecionar",
+      "Preparar",
+      "Esforço Supremo (Tratamento)",
+      "Esquiva Fabulosa"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 5,
+        "total": 7
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 11,
+        "total": 14
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 3,
+        "total": 6
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 5,
+        "total": 9
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Combate à Distância: Medical Gauntlet",
+        "graduacoes": 7,
+        "total": 11
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 14,
+        "total": 18
+      }
+    ],
+    "iniciativa": 3,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 14,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2"
+      },
+      {
+        "nome": "Surgical Laser",
+        "bonus": 13,
+        "alcance": "À distância",
+        "dano": "Dano 5"
+      },
+      {
+        "nome": "Anesthetic Spray",
+        "bonus": 13,
+        "alcance": "Corpo a corpo",
+        "dano": "Reach 2, Cumulativo Aflição 5, resistido por Fortitude"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Fortitude": 8,
+      "Aparar": 10,
+      "Resistência": 8,
+      "Vontade": 8
+    },
+    "observacao_defesas": "** Vontade 8 **sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 50,
+      "Perícias": 38,
+      "Poderes": 25,
+      "Defesas": 24,
+      "Vantagens": 16
+    },
+    "total": 153,
+    "complicacoes": [
+      {
+        "titulo": "Blind",
+        "texto": "Without his goggles, Doctor Mid-Nite is completely Cego, except in pitch blackness."
+      },
+      {
+        "titulo": "Portsmouth Medical Clinic",
+        "texto": "Doctor Mid-Nite runs a community clinic with assistants who help him in his adventures. But the staff and the clients of the clinic have also become targets for his enemies."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

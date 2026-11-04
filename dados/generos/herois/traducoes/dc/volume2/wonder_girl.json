@@ -1,0 +1,54 @@
+{
+  "nome_pt": "Moça-Maravilha",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 263,
+  "ficha": {
+    "habilidades": {
+      "For": 14,
+      "Vig": 10,
+      "Agi": 8,
+      "Des": 4,
+      "Lut": 7,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 3
+    },
+    "poderes": [
+      "45 Defenses 21"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "8 Total 189 Co MPL i C tion S a r elationship: Romantic relationship with Superboy. esponsibility: Feels responsible for taking charge. r"
+    ],
+    "pericias": [],
+    "iniciativa": 8,
+    "ataques": [
+      {
+        "nome": "mágico Lasso",
+        "bonus": 12,
+        "alcance": "À distância",
+        "dano": "+12"
+      },
+      {
+        "nome": "Grab Desarmado",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 14"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Fortitude": 12,
+      "Aparar": 12,
+      "Resistência": 12,
+      "Vontade": 12
+    },
+    "observacao_defesas": "* Vontade 12 *sem Rolamento Defensivo. W S Po er ponto Abilities 98",
+    "custos": {},
+    "total": null,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

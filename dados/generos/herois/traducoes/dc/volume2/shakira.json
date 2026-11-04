@@ -1,0 +1,131 @@
+{
+  "nome_pt": "Shakira",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 257,
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 2,
+      "Agi": 7,
+      "Des": 4,
+      "Lut": 7,
+      "Int": 0,
+      "Pro": 1,
+      "Pre": 1
+    },
+    "poderes": [
+      "Claws (Força-Based Dano 2); f eline f orm (Metamorfose 1 (Black Cat), Contínuo; Linked Encolhimento 6, Contínuo); f eline G race (Enhanced Advantages 4 (Agile Feint, Evasion, Skill Mastery (Acrobatics), Skill Mastery (Athletics), Uncanny Esquiva), Movimento 2 (Safe Fall, Sure-Footed); Salto 1; Velocidade 1 (6 km/h)); f eline S enses (Sentidos 2 (Visão na Penumbra, Aguçado Smell))"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Finta Ágil",
+      "Ataque Imprudente",
+      "Atraente",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 2",
+      "Evasion",
+      "Esconder-se a Plena Vista",
+      "Crítico Aprimorado (Claws)",
+      "Defesa Aprimorada",
+      "Iniciativa Aprimorada",
+      "Sorte 2",
+      "Ação em Movimento",
+      "Ataque à Distância 1",
+      "Maestria em Perícia (Acrobacia)",
+      "Maestria em Perícia (Atletismo)",
+      "Rastrear",
+      "Esquiva Fabulosa"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 7,
+        "total": 14
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Claws",
+        "graduacoes": 4,
+        "total": 11
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Swords",
+        "graduacoes": 1,
+        "total": 8
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 7,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: Skartaris",
+        "graduacoes": 5,
+        "total": 6
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 5,
+        "total": 6
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 9
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 7,
+        "total": 8
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 7,
+        "total": 14
+      }
+    ],
+    "iniciativa": 11,
+    "ataques": [
+      {
+        "nome": "Claws",
+        "bonus": 11,
+        "alcance": "",
+        "dano": "Dano 5, Critical 19-20"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Aparar": 12,
+      "Fortitude": 7,
+      "Resistência": 4,
+      "Vontade": 8
+    },
+    "observacao_defesas": "*, Vontade 8 *sem Rolamento Defensivo",
+    "custos": {
+      "Habilidades": 50,
+      "Poderes": 39,
+      "Vantagens": 14,
+      "Perícias": 32,
+      "Defesas": 22
+    },
+    "total": 157,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

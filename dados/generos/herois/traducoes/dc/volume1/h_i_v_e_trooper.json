@@ -1,0 +1,78 @@
+{
+  "nome_pt": "H.I.V.E. Trooper",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 262,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 1,
+      "Des": 2,
+      "Lut": 3,
+      "Int": 2,
+      "Pro": 1,
+      "Pre": 1
+    },
+    "poderes": [
+      "Voo Pack (Voo 5 (96 km/h), Removível); Battle Armor (Proteção 5, Removível); Stinger Rifle (Facilmente Removível, Dano à Distância 6 Linked À Distância Contagioso Aflição 6 (resistido por Fortitude; Tonto, Disabled, Incapacitado (electrical), AE: Rifle Golpe (Dano 3))"
+    ],
+    "equipamento": [
+      "H.I.V.E. Communicator"
+    ],
+    "vantagens": [
+      "Equipamento"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Rifle Strike",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 5,
+        "total": 6
+      },
+      {
+        "nome": "Combate à Distância: Stinger Rifle",
+        "graduacoes": 6,
+        "total": 8
+      }
+    ],
+    "iniciativa": 1,
+    "ataques": [
+      {
+        "nome": "Rifle Golpe",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 5"
+      },
+      {
+        "nome": "Stinger Rifle",
+        "bonus": 8,
+        "alcance": "À distância",
+        "dano": "Dano 6, Aflição 6, resistido por Fortitude; Contagioso"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 7,
+      "Aparar": 7,
+      "Fortitude": 5,
+      "Resistência": 7,
+      "Vontade": 3
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 28,
+      "Poderes": 31,
+      "Vantagens": 1,
+      "Perícias": 8,
+      "Defesas": 15
+    },
+    "total": 83,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

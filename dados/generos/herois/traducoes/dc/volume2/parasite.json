@@ -1,0 +1,69 @@
+{
+  "nome_pt": "Parasita",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 96,
+  "ficha": {
+    "habilidades": {
+      "For": 8,
+      "Vig": 6,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 8,
+      "Int": 5,
+      "Pro": 2,
+      "Pre": 1
+    },
+    "poderes": [
+      "160 Defenses 19 antages 1 a dv Total 246"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Imobilizar Aprimorado"
+    ],
+    "pericias": [],
+    "iniciativa": 1,
+    "ataques": [
+      {
+        "nome": "Life Drain",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Enfraquecer 18"
+      },
+      {
+        "nome": "Power Drain",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Aflição 18"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 8"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Fortitude": 12,
+      "Aparar": 8,
+      "Resistência": 6,
+      "Vontade": 8
+    },
+    "observacao_defesas": "",
+    "custos": {},
+    "total": null,
+    "complicacoes": [
+      {
+        "titulo": "Hunger",
+        "texto": "Parasite needs to feed on the life energy of others in order to survive."
+      },
+      {
+        "titulo": "Fraqueza",
+        "texto": "When Parasite duplicates a subject’s Powers, he also acquires his weaknesses. aLLI e S Parasite generally works alone but is often recruited by gov - ernment agencies for his energy-draining Powers or by mas- terminds hoping to use him against Superman. The Parasite rarely passes up the opportunity to feed on his favorite target. e ne MI e S Parasite becomes proportionately powerful based on his op- ponent, so it’s no surprise that Parasite is considered one of Superman’s most dangerous enemies."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "nome_pt": "Ultra-Rapaz",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 246,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 7,
+      "Int": 2,
+      "Pro": 4,
+      "Pre": 4
+    },
+    "poderes": [
+      "43 Defenses 19"
+    ],
+    "equipamento": [
+      "f ligh t r ing: Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal (–3)), Voo 7 (400 km/h) (19 PP)",
+      "t elepa thic Plug: Compreender 3 (Languages), mental Comunicação 1 (Corpo a Corpo Range) (10 PP)",
+      "t r anssuit: Imunidade 9 (Suporte Vital, except for Inanição and Thirst) (9 PP)",
+      "d a e S a V ant G All-out Attack, Attractive, Equipment 8, Power Attack, À Distância Attack 2, Taunt"
+    ],
+    "vantagens": [
+      "14 Total 156 Co MPL i C tion S a Motivation – d oing Good: Jo came from a crime-ridden societ y and wants to do good with his Powers. r elationship: Ultra Boy is in love with Tinya Wazzo",
+      "the Legion’s Phantom Girl."
+    ],
+    "pericias": [
+      {
+        "nome": "Enganação",
+        "graduacoes": 10,
+        "total": 14
+      },
+      {
+        "nome": "Especialidade: Streetwise",
+        "graduacoes": 10,
+        "total": 12
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Combate à Distância: Flash Vision",
+        "graduacoes": 4,
+        "total": 9
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 2,
+        "total": 6
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 8,
+        "total": 11
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Flash Vision",
+        "bonus": 9,
+        "alcance": "À distância",
+        "dano": "Dano 14"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 7,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 17"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Fortitude": 11,
+      "Aparar": 8,
+      "Resistência": 14,
+      "Vontade": 8
+    },
+    "observacao_defesas": "* Vontade 8 *Without Invulnerability. Po er ponto W S Abilities 54 Skills 26",
+    "custos": {},
+    "total": null,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

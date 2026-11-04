@@ -1,0 +1,93 @@
+{
+  "nome_pt": "The Human Bomb (Andy Franklin)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 212,
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 4,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 2,
+      "Int": 4,
+      "Pro": 4,
+      "Pre": 2
+    },
+    "poderes": [
+      "Explosive Physiology (Arranjo (132 pontos), Nuclear Raio (Área de Explosão 12 (16 milhas) Dano 12, Efeito Colateral (same as base effect, always occurs)), AE: Tissue Grenades (À Distância Área de Explosão Dano 10,), AE: Thunderclap (Área de Cone Dano 8)); Fibro-Wax Containment Suit (Proteção 6)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Esforço Extraordinário"
+    ],
+    "pericias": [
+      {
+        "nome": "Especialidade: Chemistry",
+        "graduacoes": 12,
+        "total": 16
+      },
+      {
+        "nome": "Especialidade: Science",
+        "graduacoes": 7,
+        "total": 11
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 7,
+        "total": 11
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Explosive Physiology",
+        "bonus": null,
+        "alcance": "",
+        "dano": "Dano 12, 10, or 8"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 2,
+        "alcance": "",
+        "dano": "Dano 3"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Aparar": 12,
+      "Fortitude": 8,
+      "Resistência": 10,
+      "Vontade": 14
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 46,
+      "Poderes": 140,
+      "Vantagens": 1,
+      "Perícias": 13,
+      "Defesas": 34
+    },
+    "total": 234,
+    "complicacoes": [
+      {
+        "titulo": "Acceptance",
+        "texto": "Franklin feels almost completely cut off from humanity, and hopes his heroism Vontade somehow overcome the fear he engenders in others."
+      },
+      {
+        "titulo": "Temperamento",
+        "texto": "The highly emotional Andy has a tendency to overreact when he believes his teammates have been harmed, retaliating with extreme (sometimes lethal) force."
+      },
+      {
+        "titulo": "Acidente",
+        "texto": "If not immersed in a fibro-wax bath or given special daily medication prepared by S.H.A.D.E., Andy’s explosive physiology reaches critical mass in 24 hours and uncontrollably explodes at maximum Dano graduação."
+      },
+      {
+        "titulo": "Honra",
+        "texto": "Though his Temper complication sometimes overwhelms him, Andy is normally governed by a strong moral concern for the well-being of others. gained metahuman Abilities as a result, and his entire physiolo - gy become dangerously explosive. Contact with his bodily tis - sues, even his perspiration, could level cities. The government agency S.H.A.D.E. kept Andy immersed in liquid fibro-wax to"
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

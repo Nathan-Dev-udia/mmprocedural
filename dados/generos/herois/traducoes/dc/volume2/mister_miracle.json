@@ -1,0 +1,117 @@
+{
+  "nome_pt": "Senhor Milagre",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 58,
+  "ficha": {
+    "habilidades": {
+      "For": 6,
+      "Vig": 6,
+      "Agi": 6,
+      "Des": 8,
+      "Lut": 6,
+      "Int": 6,
+      "Pro": 6,
+      "Pre": 4
+    },
+    "poderes": [
+      "a er o- d isks: Voo 7 (400 km/h), Facilmente Removível (–6 pontos) (8 PP)",
+      "Costume: Proteção 2, Movimento 2 (Wall-Crawling), Removível (–1 ponto) (5 PP)",
+      "Mother Box: Removível (–4 pontos); Boom t ub e: Space Travel 3; i n telligence: Característica 2; r estoration: Cura 8 (19 PP)",
+      "Multi-Cube: Arranjo (32 pontos), Removível (–7 pontos) (29 PP)",
+      "• Hologram: Visual Ilusão 8, área 2 (30 feet) (32 PP)",
+      "• Cable: Mover Objetos 6, Limitado Direction (Pull); Movimento 1 (Swinging) (1 PP)",
+      "• f lar e: Área de Explosão Aflição 12 (resistido por Fortitude; Visually Impaired, Visually Disabled, Visually Unaware) (1 PP)",
+      "• i llumina tion: Environment (Daylight) 3 (1 PP)",
+      "• Sonic Beam: À Distância Transform 8 (Open Locks and Seals) (1 PP)",
+      "n e w God: Imunidade 3 (Envelhecimento, Doença, Poisons) (3 PP)",
+      "a V ant G d a e S Preciso Attack, Defensive Roll 2, Evasion 2, Fearless, Inventor, Luck, Move-by Action, Redirect, Set-up, Second Chance (Sleight of Hand), Skill Mastery (Sleight of Hand), Taunt, Trance, Ultimate Effort (Sleight of Hand), Uncanny Esquiva impossible (achieving a 42 skill check result). In short, Mister Miracle can escape most traps most of the time. For the rest, he tries and, if he fails, spends a hero ponto and then escapes! He carries various items of New Genesian technology, includ- ing a Mother Box and his Aero Disks, which allow him to fly. With Mother Box’s capabilities and his own technical bril- liance, Mister Miracle is capable of whipping up virtually any sort of Dispositivo, given some time (or enough hero pontos). His Technology graduação is sufficient to routinely Criar Objetos inventions worth 16 power pontos."
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Finta Ágil",
+      "Rolamento Defensivo 2",
+      "Equipamento 2",
+      "Evasion",
+      "Iniciativa Aprimorada",
+      "Sorte 2",
+      "Slippery",
+      "Esforço Supremo (Escape)"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 14,
+        "total": 20
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 8,
+        "total": 14
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 10,
+        "total": 14
+      },
+      {
+        "nome": "Especialidade: Escape Artist",
+        "graduacoes": 16,
+        "total": 22
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 8,
+        "total": 14
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 12
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 14,
+        "total": 22
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 10,
+        "total": 16
+      }
+    ],
+    "iniciativa": 10,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 6,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 6"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 15,
+      "Aparar": 13,
+      "Fortitude": 8,
+      "Resistência": 9,
+      "Vontade": 8
+    },
+    "observacao_defesas": "*, Vontade 8 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 96,
+      "Poderes": 30,
+      "Vantagens": 10,
+      "Perícias": 43,
+      "Defesas": 20
+    },
+    "total": null,
+    "complicacoes": [
+      {
+        "titulo": "Relacionamento",
+        "texto": "Big Barda, Enemy: Darkseid and Apokolips, Thrillseeker."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

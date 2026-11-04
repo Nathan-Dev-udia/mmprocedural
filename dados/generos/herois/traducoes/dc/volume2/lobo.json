@@ -1,0 +1,85 @@
+{
+  "nome_pt": "Lobo",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 20,
+  "ficha": {
+    "habilidades": {
+      "For": 16,
+      "Vig": 16,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 10,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 0
+    },
+    "poderes": [
+      "81 Defenses 16"
+    ],
+    "equipamento": [
+      "Ve H i CL e: s pa C e Bike • 47 POI n TS Size: Medium Str 6 Velocidade: 12 (Voo) d ef: 10 t ou: 10 f ea tures: Navigation System, Voo (Voo 12, AE: Space Travel 3) d a e S a V ant G All-out Attack, Daze (Intimidation), Equipment 10, Fearless, Improved Critical (Desarmado), Improved Iniciativa, Power Attack, À Distância Attack 10, Startle, Weapon Bind Cuz maybe Dox didn’t do as good a job as he thinks he did! Lobo encountered Starfire, Animal Man, and Adam Strange in outer space with Devilance in hot pursuit. Lobo killed the New God but spared the trio, explaining that he was now the archbishop of a religion devoted to a fish-god and therefore had forsworn violence. This vow, of course, lasted only as long as it took Lobo to discover how to kill the fish-god. Just goes ta show that violence solves all problems, even the problem o’ non-violence! Recently, Lobo was sent to collect a bounty on Atrocitus but was repelled by the combined efforts of Hal Jordan, Sinestro and Carol Ferris. Lobo was actually hired by Atrocitus himself to stage the fight and gain him alliance with the Lanterns. In return for his services, Lobo received a Red Lantern power ring. What kinda fraggin’ d’ya think the Main Man can do with the most powerful weapon in the universe?"
+    ],
+    "vantagens": [
+      "28 Total 252"
+    ],
+    "pericias": [
+      {
+        "nome": "Especialidade: Streetwise",
+        "graduacoes": 12,
+        "total": 13
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 20,
+        "total": 20
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 10,
+        "total": 11
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 10,
+        "total": 12
+      }
+    ],
+    "iniciativa": 6,
+    "ataques": [
+      {
+        "nome": "Bolter Gun",
+        "bonus": 12,
+        "alcance": "À distância",
+        "dano": "Multiataque Dano 10 Frag Grenades Área de Explosão, À Distância, Dano 10 Hook and Chain +10 À Distância, Aflição 13, resistido por Esquiva Desarmado +10 Corpo a Corpo, Dano 16, Crit 19-20"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Fortitude": 16,
+      "Aparar": 10,
+      "Resistência": 16,
+      "Vontade": 10
+    },
+    "observacao_defesas": "",
+    "custos": {},
+    "total": null,
+    "complicacoes": [
+      {
+        "titulo": "Clone Wars",
+        "texto": "One of Lobo’s clones might come calling, or maybe the clone is the real Lobo, or maybe they’re all clones and the real Lobo is elsewhere, or maybe … f eetal ’s Gizz!: Lobo’s got a temper."
+      },
+      {
+        "titulo": "Honra",
+        "texto": "Lobo’s word is his bond. My f ishies!: Lobo has a soft spot for his space dolphins. t he M ain Man: Lobo’s reputation and a trail of dead bodies precede him. Powers & Abilities Lobo is strong enough to go toe-to-toe against the likes of Superman. He can regenerate any wound that doesn’t kill him, and because he isn’t allowed in either Heaven or Hell, it’s unlikely that Lobo can be permanently killed. Lobo is the best tracker in the universe and once he has caught a scent, Lobo can locate his prey even across solar systems. Lobo seems to have the uncanny ability to find an opponent’s weakness and kill the seemingly unkillable. Lobo’s Czarnian ability to spawn clones from his blood was fortunately re - moved by Vril Dox. aLLI e S Lobo is extremely protective of his pet space dolphins and of Al and Darlene, the owner and waitress, respectively, of his favorite diner. e ne MI e S As a bounty hunter unafraid of significant collateral Dano in the course of conducting business, Lobo has earned the enmity of numerous former victims and former employers alike. Anyone foolish enough to breach a contract with Lobo names himself as Lobo’s enemy."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

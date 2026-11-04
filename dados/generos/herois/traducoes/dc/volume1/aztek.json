@@ -1,0 +1,142 @@
+{
+  "nome_pt": "Aztek",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 33,
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 5,
+      "Agi": 4,
+      "Des": 4,
+      "Lut": 5,
+      "Int": 4,
+      "Pro": 3,
+      "Pre": 3
+    },
+    "poderes": [
+      "4-D Gauntlets: Arranjo (24 pontos)",
+      "• Plasma Blasts: Dano à Distância 12 (24 PP)",
+      "• Netcaster: Aflição 12 (resistido por Esquiva; Impedido and Vulnerável, Indefeso and Imóvel), Extra Condition, À Distância, Limitado Degree (1 PP)",
+      "Costume of the Champion: Arranjo (15 pontos)",
+      "• Wing Units: Voo 7 (400 km/h), Dynamic (15 PP)",
+      "• Density Control: Proteção 7 Linked to Característica 3 (Increased Mass, 1,600 lbs.), Dynamic (2 PP)",
+      "• Super-Força: Força Aprimorada 5, Dynamic (2 PP)",
+      "• Invisibility: Visual Camuflagem 4 , Dynamic (2 PP)",
+      "Helmet of Quetzalcoatl: Arranjo (9 pontos)",
+      "• Heightened Sentidos: Sentidos 9 (Audição Estendida 2, Infravisão, Rádio, Tracking, Vision Penetrates Camuflagem 4) (9 PP)",
+      "• Experience of Champions Past: Enhanced Advantage 5 (Corpo a Corpo Combat 5) (1 PP)",
+      "• Metahuman Database: Enhanced Advantage (Assessment), Enhanced Skill 6 (Insight +12) (1 PP)",
+      "• Vibrational Transformation: Característica 1 (Can change into costume and gauntlets as a Ação Livre) (1 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Preciso",
+      "Benefit 2 (Patron: Q Foundation)",
+      "Destemido",
+      "Desarmar Aprimorado",
+      "Precise Attack (à distância; Cover)",
+      "Ultimate Resistance (Vontade)"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 4,
+        "total": 9
+      },
+      {
+        "nome": "Especialidade: Combat Strategy",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 19
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 1,
+        "total": 5
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Combate à Distância: 4-D Gauntlets",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 7,
+        "total": 11
+      }
+    ],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 14,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 8"
+      },
+      {
+        "nome": "Plasma Blasts",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Dano 12"
+      },
+      {
+        "nome": "Netcaster",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Aflição 12, resistido por Esquiva"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Fortitude": 7,
+      "Aparar": 10,
+      "Resistência": 12,
+      "Vontade": 9
+    },
+    "observacao_defesas": "** Vontade 9 **Without Density Control",
+    "custos": {
+      "Habilidades": 62,
+      "Perícias": 20,
+      "Poderes": 58,
+      "Defesas": 20,
+      "Vantagens": 7
+    },
+    "total": 165,
+    "complicacoes": [
+      {
+        "titulo": "Responsabilidade",
+        "texto": "Aztek has trained since childhood with the Q Foundation to be the champion of the Aztec god Quetzalcoatl and battle evil in the world."
+      },
+      {
+        "titulo": "Naive",
+        "texto": "Though a stalwart hero, Aztek has lived most of his life in the isolation of the Q Foundation’s South American enclave and is often uncomfortable interacting with the larger world."
+      },
+      {
+        "titulo": "Perda de Poder",
+        "texto": "Aztek needs to use the Helmet of Quetzalcoatl to summon his 4-D Gauntlets and Costume of the Champion. He still has access to their Powers if he loses the helmet after summoning them, however. the Lizard King, and the Q Foundation itself, when it was revealed that the ancient and benevolent society is actually funded by Lex Luthor."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

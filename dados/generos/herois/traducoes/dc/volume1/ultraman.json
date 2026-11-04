@@ -1,0 +1,132 @@
+{
+  "nome_pt": "Ultraman",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 135,
+  "ficha": {
+    "habilidades": {
+      "For": 19,
+      "Vig": 14,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 8,
+      "Int": 2,
+      "Pro": 2,
+      "Pre": 4
+    },
+    "poderes": [
+      "Voo ( Arranjo (30 pontos), Ultra-Voo (Voo 15 (64,0 km/h)), AE: Space Voo (Movimento 1 (Space Travel)), AE: Ultra- Velocidade (Velocidade 15 (64,0 km/h))); Calor Vision (Dano à Distância 15); Invulnerability (Proteção 4, Resistência Impenetrável 18; Imunidade 5 (Frio, Calor, Pressão, Radiação, Vácuo)); Super- Sentidos ( Sentidos 15 (Aguçado and Audição Estendida, Visão Estendida 3, Infravisão, Visão Microscópica 4, Ultra-Audição, Vision Penetrates Camuflagem (except lead))); Super-Velocidade (Rapidez 8); Super-Força: (Força Aprimorada 4, Limitado a Lifting (Lifting Str 23; 200,000 tons)) HQ: UL TRAMAN’S FLYING FORTRESS (25 PP)",
+      "Size: Huge Tou 20 Features: Communications, Computer, Death Traps, Característica: Brainiac’s Alien Database*, Hanger, Holding Cells, Infirmary, Isolated (Orbital), Laboratory, Library, Living Space, Personnel (Brainiac Drone Androids), Power System, Security System *Ultraman (and the other CSA members) can consult Brainiac on questions about alien worlds, interstellar space, and extraterrestrial organisms. The extent of Brainiac’s knowledge is up to the Gamemaster."
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Benefit 5 (CSA member)",
+      "Conectado",
+      "Equipamento 5",
+      "Esforço Extraordinário",
+      "Inspirar",
+      "Liderança",
+      "Ataque Poderoso",
+      "Tomar a Iniciativa",
+      "Esforço Supremo (Resistência)"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 3,
+        "total": 11
+      },
+      {
+        "nome": "Especialidade: Astronaut",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Especialidade: Streetwise",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Especialidade: Science",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Combate à Distância: Calor Vision",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 4,
+        "total": 6
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 11,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 19"
+      },
+      {
+        "nome": "Calor Vision",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Dano 15"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 10,
+      "Fortitude": 15,
+      "Resistência": 18,
+      "Vontade": 15
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 106,
+      "Poderes": 116,
+      "Vantagens": 17,
+      "Perícias": 28,
+      "Defesas": 24
+    },
+    "total": 291,
+    "complicacoes": [
+      {
+        "titulo": "Perda de Poder",
+        "texto": "Ultraman loses his Powers without regular exposure to anti-kryptonite. He keeps pellets of the substance in the compartments of his costume to prevent his Força from waning."
+      },
+      {
+        "titulo": "Relacionamentos",
+        "texto": "Ultraman has a love/hate marriage with Superwoman (who loathes him) and a rivalry with Owlman."
+      },
+      {
+        "titulo": "Segredo",
+        "texto": "The antimatter Clark Kent has committed personally shameful acts which he fears coming to light; Ultraman tolerates Owlman on the Crime Syndicate Team because of threatened internet exposure."
+      },
+      {
+        "titulo": "Vulnerability",
+        "texto": "Ultraman is as Vulnerável to mágico as anyone else. His Resistência is not Impenetrável against magical attack."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

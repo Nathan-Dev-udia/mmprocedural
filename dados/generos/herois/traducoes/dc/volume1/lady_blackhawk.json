@@ -1,0 +1,125 @@
+{
+  "nome_pt": "Senhora Falcão Negro",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 49,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 5,
+      "Des": 6,
+      "Lut": 6,
+      "Int": 2,
+      "Pro": 3,
+      "Pre": 2
+    },
+    "poderes": [],
+    "equipamento": [
+      "Commlink, Heavy Pistola Vehicle: Arranjo (66 pontos) AERIE ONE JET (66 PP)",
+      "Size: Huge Str 10 Spd 12 Def 8 Tou 10 Features: Machine Gun (À Distância, Multiataque Dano 6), Rockets (Dano à Distância 11, Burst 8, Teleguiado 6) AERIE TWO HELICOPTER (1 PP)",
+      "Size: Huge Str 8, Spd 8, Def 8, Tou 11 Features: Machine Gun (À Distância, Multiataque Dano 6), Rockets (Dano à Distância 9, Burst 8, Teleguiado 6) 20 *Lady Blackhawk is PL11 when piloting Aerie One or Aerie Two."
+    ],
+    "vantagens": [
+      "Ataque Preciso",
+      "Atraente",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 5",
+      "Equipamento 16",
+      "Evasion",
+      "Agarrar Rápido",
+      "Desarmar Aprimorado",
+      "Imobilizar Aprimorado",
+      "Derrubar Aprimorado",
+      "Languages 4",
+      "Ação em Movimento",
+      "Ataque Poderoso",
+      "Maestria em Perícia (Veículos)",
+      "Trabalho em Equipe"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 6,
+        "total": 12
+      },
+      {
+        "nome": "Especialidade: History",
+        "graduacoes": 3,
+        "total": 5
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Combate à Distância: Heavy Weapons",
+        "graduacoes": 6,
+        "total": 12
+      },
+      {
+        "nome": "Combate à Distância: Pistols",
+        "graduacoes": 6,
+        "total": 12
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 5,
+        "total": 7
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 10,
+        "total": 16
+      }
+    ],
+    "iniciativa": 5,
+    "ataques": [
+      {
+        "nome": "Heavy Pistola",
+        "bonus": 12,
+        "alcance": "",
+        "dano": "Dano 4"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 8,
+      "Fortitude": 8,
+      "Resistência": 8,
+      "Vontade": 8
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 58,
+      "Poderes": 0,
+      "Vantagens": 37,
+      "Perícias": 26,
+      "Defesas": 15
+    },
+    "total": 136,
+    "complicacoes": [
+      {
+        "titulo": "Inimigo",
+        "texto": "Killer Shark."
+      },
+      {
+        "titulo": "Peculiaridade",
+        "texto": "Lady Blackhawk is displaced in time. Her mannerisms seem outdated."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

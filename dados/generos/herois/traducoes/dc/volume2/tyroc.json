@@ -1,0 +1,102 @@
+{
+  "nome_pt": "Tyroc",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 17,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 3,
+      "Agi": 3,
+      "Des": 4,
+      "Lut": 2,
+      "Int": 1,
+      "Pro": 3,
+      "Pre": 3
+    },
+    "poderes": [
+      "f ligh t 5 (96 km/h); r eality Warping Scream (Arranjo) k inetic y ell (Dano à Distância 12), ae : e xplosive y ell (À Distância Área de Explosão Dano 8), ae : f or ce f ield y ell (Sustentado Proteção 10), ae : f or ce Manipulation y ell (Criar Objetos 10, Sutil 2), ae : Plant Manipulation y ell (À Distância Cumulativo Aflição 8 (resistido por Esquiva; Vulnerável and Impedido, Indefeso and Immobilized), Extra Condition, Limitado Degree, Limitado—Requires Plants), ae : Pyrokinetic y ell (Energy Control (fogo) 10, Indirect 3, Peculiaridade— Cannot cause knockback), ae : t elek inetic y ell (Mover Objetos 12), ae : t elep ortation y ell (Teleporte 6, Easy, Extended), ae : Vertigo y ell (À Distância Cumulativo Aflição 8 (resistido por Fortitude; Impaired, Disabled, Incapacitado)), ae : Weather Manipulation y ell (Environment 6 (Impede Movimento 2, Visibility 2), ae : Wind Manipulation (Elemental Control (Air) 12))"
+    ],
+    "equipamento": [
+      "Voo Ring (Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal –3), Voo 7 (400 km/h); Telepathic Ear Plug ( Compreender 3 (Languages), mental Comunicação 1 (Corpo a Corpo Range)); Transsuit (Imunidade 9 (Suporte Vital, except for Inanição and thirst))"
+    ],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Benefit 4 (Champion of Marzal",
+      "Legion Membership)",
+      "Ataque Defensivo",
+      "Equipamento 8",
+      "Ataque Poderoso"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 3,
+        "total": 5
+      },
+      {
+        "nome": "Especialidade: Marzal",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 3,
+        "total": 6
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 2,
+        "total": 5
+      },
+      {
+        "nome": "Combate à Distância: Reality Altering Array",
+        "graduacoes": 4,
+        "total": 8
+      }
+    ],
+    "iniciativa": 3,
+    "ataques": [
+      {
+        "nome": "Raio Yell",
+        "bonus": 8,
+        "alcance": "À distância",
+        "dano": "Dano 12"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 5,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 7,
+      "Aparar": 7,
+      "Fortitude": 6,
+      "Resistência": 3,
+      "Vontade": 5
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 42,
+      "Poderes": 44,
+      "Vantagens": 15,
+      "Perícias": 8,
+      "Defesas": 14
+    },
+    "total": 123,
+    "complicacoes": [
+      {
+        "titulo": "a rr ogant",
+        "texto": "Tyroc is very self-assured and can be difficult to get along with. Motivation— r esponsibility : Tyroc recognizes that his Powers come with a duty to help others... especially the people of Marzal."
+      },
+      {
+        "titulo": "Perda de Poder",
+        "texto": "All of Tyroc’s Powers emanate from his ability to scream. Anything that prevents that effectively makes him powerless."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

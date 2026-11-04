@@ -1,0 +1,120 @@
+{
+  "nome_pt": "Chronos (David Clinton)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 116,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 3,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 2,
+      "Int": 6,
+      "Pro": 3,
+      "Pre": 4
+    },
+    "poderes": [
+      "Chronal Shift: Intangibilidade 3 (Time-Shifted), Contínuo (18 PP)",
+      "Clock Gadgets: Arranjo (16 pontos), Removível (–4 pontos) Watch Blaster: Dano à Distância 7, Preciso 2 (16 PP)",
+      "• Temporal Stasis: Aflição à Distância 8 (resistido por Vontade; Tonto, Atordoado, Incapacitado) (1 PP)",
+      "• Chronal Lenses: Camuflagem 3 (Sight, Precognition, Postcognition) (1 PP)",
+      "Flying Sundial: Voo 5 (96 km/h), Platform (5 PP)",
+      "Knowledge of the Future: Enhanced Advantage 8 (Improved Iniciativa 2, Luck 5, Seize Iniciativa) (8 PP)",
+      "Perfect Timing: Sentidos 1 (Noção do Tempo) (1 PP)",
+      "Time Travel: Movimento 3 (Full Time Travel) , Increased Mass 3 (400 lbs.), Não Confiável (On roll of 11 or more, power works but Chronos ages 5 years.) (6 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Benefit 2 (Independently Wealthy)",
+      "Rolamento Defensivo 2",
+      "Evasion",
+      "Iniciativa Aprimorada 2",
+      "Inventor",
+      "Sorte",
+      "Redirecionar",
+      "Segunda Chance (Surprise)",
+      "Tomar a Iniciativa"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Especialidade: Electronics",
+        "graduacoes": 4,
+        "total": 10
+      },
+      {
+        "nome": "Especialidade: Temporal Physics",
+        "graduacoes": 6,
+        "total": 12
+      },
+      {
+        "nome": "Combate à Distância: Clock Gadgets",
+        "graduacoes": 7,
+        "total": 9
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 5,
+        "total": 7
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 6,
+        "total": 12
+      }
+    ],
+    "iniciativa": 10,
+    "ataques": [
+      {
+        "nome": "Clock Gadgets",
+        "bonus": 9,
+        "alcance": "À distância",
+        "dano": "Dano 9 or Aflição 9"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 6,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Fortitude": 8,
+      "Aparar": 8,
+      "Resistência": 8,
+      "Vontade": 10
+    },
+    "observacao_defesas": "*, Vontade 10 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 48,
+      "Poderes": 40,
+      "Vantagens": 13,
+      "Perícias": 19,
+      "Defesas": 22
+    },
+    "total": null,
+    "complicacoes": [
+      {
+        "titulo": "Motivação",
+        "texto": "Greed and obsession with time."
+      },
+      {
+        "titulo": "Obsessão",
+        "texto": "Clocks and punctuality."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

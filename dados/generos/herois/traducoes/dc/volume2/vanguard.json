@@ -1,0 +1,72 @@
+{
+  "nome_pt": "Vanguarda",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 166,
+  "ficha": {
+    "habilidades": {
+      "For": 6,
+      "Vig": 6,
+      "Agi": 2,
+      "Des": 0,
+      "Lut": 6,
+      "Int": 0,
+      "Pro": 2,
+      "Pre": -2
+    },
+    "poderes": [
+      "e y e Beams (Dano à Distância 8, Preciso 3); f lying Horse (Voo 13 (16,0 km/h), Wings; Crescimento 4, Inato, Permanente; Velocidade 4 (48 km/h); Sentidos 5 (Aguçado and Tracking Olfactory, Visão no Escuro, Extended Auditory))"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ambiente Favorito (Aeriel)",
+      "Interpor-se"
+    ],
+    "pericias": [
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 6
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Eye Beams",
+        "bonus": 6,
+        "alcance": "À distância",
+        "dano": "Dano 8"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 6,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 6"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 8,
+      "Fortitude": 8,
+      "Resistência": 6,
+      "Vontade": 5
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 24,
+      "Poderes": 50,
+      "Vantagens": 2,
+      "Perícias": 2,
+      "Defesas": 17
+    },
+    "total": 95,
+    "complicacoes": [
+      {
+        "titulo": "Horse",
+        "texto": "Vanguard is a flying, talking horse, but still has all physical and social limitations of a normal horse. evoted: Vanguard is devoted to Ystina and Vontade do everything d possible to defend and protect her."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "nome_pt": "Starman (Jack Knight)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 196,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 3,
+      "Agi": 3,
+      "Des": 2,
+      "Lut": 4,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "poderes": [
+      "Cosmic r od: Removível (–13 pontos) (54 PP)",
+      "e nergy Escudo: Sustentado Proteção 10, Affect Others (20 PP)",
+      "C osmic r od f ligh t: Voo 7 (400 km/h) (14 PP)",
+      "S tellar e nergy Control: Arranjo (28 pontos)",
+      "• Stellar Raio: Dano à Distância 14, Dynamic (29 PP)",
+      "• Gravity Manipulation: Mover Objetos 14 (400 tons), Dynamic (2 PP)",
+      "• Starlight: Environment 4 (Bright Light, 250 feet), Dynamic (2 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Finta Ágil",
+      "Ataque Imprudente",
+      "Esforço Extraordinário",
+      "Ataque Poderoso",
+      "Tomar a Iniciativa"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 7,
+        "total": 8
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Especialidade: Ephemera",
+        "graduacoes": 12,
+        "total": 13
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 7,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Combate à Distância: Gravity Rod",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 2,
+        "total": 5
+      }
+    ],
+    "iniciativa": 3,
+    "ataques": [
+      {
+        "nome": "Stellar Raio",
+        "bonus": 8,
+        "alcance": "À distância",
+        "dano": "Dano 14"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 1"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 9,
+      "Fortitude": 8,
+      "Aparar": 9,
+      "Resistência": 13,
+      "Vontade": 8
+    },
+    "observacao_defesas": "* Vontade 8 *Without Energy Escudo.",
+    "custos": {
+      "Habilidades": 36,
+      "Perícias": 35,
+      "Poderes": 54,
+      "Defesas": 22,
+      "Vantagens": 5
+    },
+    "total": 152,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

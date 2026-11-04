@@ -1,0 +1,123 @@
+{
+  "nome_pt": "Arrowette",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 273,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 3,
+      "Agi": 4,
+      "Des": 4,
+      "Lut": 8,
+      "Int": 1,
+      "Pro": 1,
+      "Pre": 1
+    },
+    "poderes": [],
+    "equipamento": [
+      "Bow and a rr ows (Arranjo (10 pontos), Standard a rr ow (Dano à Distância 5), ae : Cable a rr ow (Movimento 1 (Swinging)), ae : f lar e a rr ow (Aflição à Distância 5 (resistido por Fortitude; Vision Impaired, Vision Disabled, Vision Unaware)) , ae : k nockout Gas a rr ow (Área de Explosão Aflição à Distância 3 (resistido por Fortitude; Fatigado, Exausto, Adormecido)), ae : n et a rr ow (Aflição à Distância 5 (resistido por Esquiva; Impedido and Vulnerável, Indefeso and Immobilized)), ae : Stun a rr ow (Aflição à Distância 5 (resistido por Fortitude; Tonto, Atordoado, Incapacitado)))"
+    ],
+    "vantagens": [
+      "Ataque Preciso",
+      "Ataque Imprudente",
+      "Benefício (Well-off)",
+      "Rolamento Defensivo 2",
+      "Equipamento 3",
+      "Mira Aprimorada",
+      "Crítico Aprimorado (Bow)",
+      "Desarmar Aprimorado",
+      "Iniciativa Aprimorada",
+      "Ação em Movimento",
+      "Precise Attack 2 (à distância; Cover and Concealment)",
+      "Ataque à Distância 3",
+      "Saque Rápido"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 6,
+        "total": 7
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 2,
+        "total": 10
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 6,
+        "total": 7
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Combate à Distância: Bow",
+        "graduacoes": 5,
+        "total": 13
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 5,
+        "total": 9
+      }
+    ],
+    "iniciativa": 8,
+    "ataques": [
+      {
+        "nome": "Bow",
+        "bonus": 13,
+        "alcance": "À distância",
+        "dano": "Dano 5 or varies, Crit. 19-20"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 6,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 1"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 11,
+      "Aparar": 9,
+      "Fortitude": 6,
+      "Resistência": 5,
+      "Vontade": 7
+    },
+    "observacao_defesas": "*, Vontade 7 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 46,
+      "Poderes": 0,
+      "Vantagens": 19,
+      "Perícias": 20,
+      "Defesas": 17
+    },
+    "total": 102,
+    "complicacoes": [
+      {
+        "titulo": "r elationship",
+        "texto": "Cissie has a difficult relationship with her mother, an overbearing stage-mom who was the first Arrowette."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

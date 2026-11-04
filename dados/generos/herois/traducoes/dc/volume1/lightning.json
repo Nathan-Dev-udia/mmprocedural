@@ -1,0 +1,101 @@
+{
+  "nome_pt": "Lightning",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 293,
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 2,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 3,
+      "Int": 1,
+      "Pro": 1,
+      "Pre": 1
+    },
+    "poderes": [
+      "Lightning Form (Ativação (Ação de Movimento -1 ponto): Electrical Control (Arranjo (25 pontos), Raio 11 (Preciso 3), AE: Nulificar Electronics 7 (Preciso 3, Effortless, Simultaneous), AE: Stun * Aflição à Distância 11, Preciso 3 (resistido por Fortitude; Tonto, Atordoado, Incapacitado))); Energy Aura 6 ; Enhanced Esquiva 4 ; Voo 6 (192 km/h); Campo de Força 7"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Defensivo",
+      "Provocar"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 4,
+        "total": 4
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 5,
+        "total": 6
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 5,
+        "total": 6
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 3,
+        "total": 4
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 3,
+        "total": 4
+      }
+    ],
+    "iniciativa": 1,
+    "ataques": [
+      {
+        "nome": "Raio",
+        "bonus": 7,
+        "alcance": "",
+        "dano": "Dano 11"
+      },
+      {
+        "nome": "Stun",
+        "bonus": 7,
+        "alcance": "",
+        "dano": "Aflição 11, resistido por Fortitude"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 9,
+      "Aparar": 5,
+      "Fortitude": 6,
+      "Resistência": 9,
+      "Vontade": 6
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 20,
+      "Poderes": 73,
+      "Vantagens": 2,
+      "Perícias": 12,
+      "Defesas": 15
+    },
+    "total": 122,
+    "complicacoes": [
+      {
+        "titulo": "Uncontrolled Powers",
+        "texto": "Pierce has difficulty controlling her Abilities and must work at not shorting out delicate electronics around her."
+      },
+      {
+        "titulo": "Perda de Poder",
+        "texto": "Jennifer has no Powers when she’s not in her Lightning form."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

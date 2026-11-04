@@ -1,0 +1,63 @@
+{
+  "nome_pt": "Corujinha",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 169,
+  "ficha": {
+    "habilidades": {
+      "For": -2,
+      "Vig": 0,
+      "Agi": 4,
+      "Des": 2,
+      "Lut": 2,
+      "Int": -1,
+      "Pro": 2,
+      "Pre": 0
+    },
+    "poderes": [
+      "Força-based Dano 1 ; Voo 4 (48 km/h; Inato, Sutil, Wings); Sentidos 3 (Visão no Escuro, Visão Estendida; Inato); Encolhimento 6 (Permanente, Inato)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Evasion",
+      "Agarrar Rápido",
+      "Iniciativa Aprimorada",
+      "Move-by Attack"
+    ],
+    "pericias": [
+      {
+        "nome": "Furtividade",
+        "graduacoes": 2,
+        "total": 12
+      }
+    ],
+    "iniciativa": 8,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano -1"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Aparar": 10,
+      "Fortitude": 1,
+      "Resistência": 0,
+      "Vontade": 2
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 16,
+      "Poderes": 17,
+      "Vantagens": 4,
+      "Perícias": 1,
+      "Defesas": 11
+    },
+    "total": 49,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

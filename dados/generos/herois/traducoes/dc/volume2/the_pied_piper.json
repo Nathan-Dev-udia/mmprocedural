@@ -1,0 +1,154 @@
+{
+  "nome_pt": "O Flautista",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 104,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 2,
+      "Des": 3,
+      "Lut": 2,
+      "Int": 3,
+      "Pro": 3,
+      "Pre": 3
+    },
+    "poderes": [
+      "Super-Sonic f lut e: Arranjo (30 pontos)",
+      "• Hypnotic Music: Perception área (Auditory) Aflição 10 (resistido por Vontade; Tonto, Compelido, Controlado), Concentração (30 PP)",
+      "• Sonic Raio: Alcance de Percepção Dano 10 (1 PP)",
+      "• Sound Waves: Área de Cone Mover Objetos 10 (1 PP)",
+      "• Vibratory a ur a: Aflição à Distância 10 (resistido por Vontade; Tonto, Impedido & Impaired, Indefeso, Imóvel & Atordoado), Extra Condition 2, Limitado Degree (1 PP)",
+      "• Ventriloquism: Comunicação 3 (Auditory), Sutil (1 PP)",
+      "• r a t-Catching: Summon 3, Controlado, Horde, Multiple Minions 3 (Eight PL3 rats) (1 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Benefit 2 (Independently Wealthy)",
+      "Rolamento Defensivo 3",
+      "Fascinar (Expertise: Wind Instruments)",
+      "Ferramentas Improvisadas",
+      "Inventor",
+      "Saque Rápido",
+      "Skill Mastery 2 (Expertise: Sonology",
+      "Expertise: Wind Instruments)",
+      "Bem-Informado"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 3,
+        "total": 5
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Especialidade: Music Composition",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Especialidade: Science",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: Sonology",
+        "graduacoes": 10,
+        "total": 13
+      },
+      {
+        "nome": "Especialidade: Streetwise",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Especialidade: Wind Instruments",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Combate à Distância: Sonic Weapons",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 5,
+        "total": 8
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Sonic Raio",
+        "bonus": 10,
+        "alcance": "",
+        "dano": "Perception, Dano 10"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 5,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 13,
+      "Fortitude": 8,
+      "Aparar": 13,
+      "Resistência": 5,
+      "Vontade": 12
+    },
+    "observacao_defesas": "* Vontade 12 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 40,
+      "Perícias": 40,
+      "Poderes": 35,
+      "Defesas": 37,
+      "Vantagens": 12
+    },
+    "total": 164,
+    "complicacoes": [
+      {
+        "titulo": "Justice",
+        "texto": "Formerly motivated by the search for thrills, Hartley is now, foremost, an advocate for the poor."
+      },
+      {
+        "titulo": "Preconceito",
+        "texto": "Hartley is openly gay and a former super-villain, and both earn him lingering disapproval. c hang I ng hIS t une Hartley only recently added r a t-Catching to his reper - toire, and as a Rogue employed some alternate instru- ments (all Facilmente Removível): • The Ultra-Pipe summoned extradimensional, entangling “Velocidade Demons”: Aflição à Distância 10 (resistido por Vontade; Tonto, Impedido & Impaired, Indefeso, Imóvel & Atordoado), Extra Condi- tions, Limitado Degree. • The Psychic-Pipe induced amnesia and rendered the Flash mentally incapable of using super-Velocidade (À Distância Transform 10). • The Sonic Boomatron disintegrated people into sound waves (À Distância Transform 10)."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

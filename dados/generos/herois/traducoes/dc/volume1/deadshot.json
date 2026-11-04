@@ -1,0 +1,156 @@
+{
+  "nome_pt": "Pistoleiro",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 152,
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 4,
+      "Agi": 3,
+      "Des": 5,
+      "Lut": 4,
+      "Int": 2,
+      "Pro": 3,
+      "Pre": 1
+    },
+    "poderes": [
+      "Armored Costume: Proteção 3; Característica 1 (Conceals vital signs from normal Sentidos); Removível (–1 ponto) (3 PP)",
+      "Eyescope Mask: Sentidos 3 (Extended Sight, Infravisão, Visão na Penumbra) 3; Característica 1 (Conceals vital signs from normal Sentidos); Removível (–1 ponto) (3 PP)",
+      "Master Marksman: Enhanced Advantage (À Distância Attack 8), Extended Range, Inato, Ricochete 3 (13 PP)",
+      "Wrist Loader: Arranjo (18 pontos), Removível (–4 pontos) (14 PP)",
+      "• Silenced Magnums: Dano à Distância 5, Multiataque, Penetrante 2, Sutil (18 PP)",
+      "• Mini-Rocket: Dano à Distância 7, Área de Explosão (4 graduações only), Não Confiável (5 Uses) (1 PP)",
+      "• Kill Shot: Dano à Distância 5, Teleguiado, Incurable, Penetrante 5 (1 PP)"
+    ],
+    "equipamento": [
+      "Sniper Rifle: Dano à Distância 5, Improved Critical (11 PP)",
+      "Knife: Dano 1, Improved Critical (2 PP)",
+      "Arsenal: 22 pontos worth of assorted weapons."
+    ],
+    "vantagens": [
+      "Ataque Preciso",
+      "Ataque Imprudente",
+      "Ataque Corpo-a-Corpo 3",
+      "Rolamento Defensivo 2",
+      "Duro de Matar",
+      "Equipamento 7",
+      "Destemido",
+      "Mira Aprimorada",
+      "Crítico Aprimorado (Wrist Loader)",
+      "Desarmar Aprimorado",
+      "Iniciativa Aprimorada",
+      "Inventor",
+      "Sorte",
+      "Ação em Movimento",
+      "Ataque Poderoso",
+      "Precise Attack",
+      "Saque Rápido",
+      "Ataque à Distância 6",
+      "Derrubar em Sequência",
+      "Maestria em Arremesso 2"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Especialidade: Mercenary",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 9,
+        "total": 10
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 11,
+        "total": 14
+      },
+      {
+        "nome": "Combate à Distância: Wrist Loader",
+        "graduacoes": 2,
+        "total": 7
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 9,
+        "total": 12
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 7,
+        "total": 9
+      }
+    ],
+    "iniciativa": 7,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 7,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 3"
+      },
+      {
+        "nome": "Knife",
+        "bonus": 7,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 4, Crit. 19-20 Knife (thrown) +11 À Distância, Dano 6, Crit. 19-20"
+      },
+      {
+        "nome": "Mini-Rocket",
+        "bonus": 13,
+        "alcance": "À distância",
+        "dano": "Dano 7; Área de Explosão Dano 4"
+      },
+      {
+        "nome": "Silenced Magnums",
+        "bonus": 13,
+        "alcance": "À distância",
+        "dano": "Multiataque Dano 5, Penetrante 2, Crit. 19-20"
+      },
+      {
+        "nome": "Sniper Rifle",
+        "bonus": 11,
+        "alcance": "À distância",
+        "dano": "Dano 5"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Fortitude": 8,
+      "Aparar": 10,
+      "Resistência": 9,
+      "Vontade": 8
+    },
+    "observacao_defesas": "* Vontade 8 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 50,
+      "Perícias": 27,
+      "Poderes": 35,
+      "Defesas": 24,
+      "Vantagens": 29
+    },
+    "total": 165,
+    "complicacoes": [
+      {
+        "titulo": "Death Wish",
+        "texto": "Deadshot must take any chance to die in a spectacular fashion."
+      },
+      {
+        "titulo": "Mercenary Honor",
+        "texto": "Deadshot Vontade always finish a job he has been paid to do."
+      },
+      {
+        "titulo": "Wanted",
+        "texto": "Amanda Waller is keen on bringing him back to the Suicide Squad."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "nome_pt": "Jinx",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 196,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 4,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 2,
+      "Int": 4,
+      "Pro": 4,
+      "Pre": 5
+    },
+    "poderes": [
+      "Elemental mágico ( Arranjo (24 pontos), Earthquake ( Área de Explosão Dano 8 Linked to Área de Explosão Aflição 8 (resistido por Esquiva; Vulnerável, Indefeso), Limitado Degree; both effects are Seletivo, Limitado—Jinx and targets must be in contact with the ground), AE: Green Flamestorm ( À Distância Área de Explosão Aflição 8 (resistido por Fortitude; Vulnerável, Disabled, Incapacitado), Concentração, Cumulativo, Instant Recovery, Limitado: Jinx Must be in Contact with Earth), AE: Gust of Wind ( Área de Cone Mover Objetos 5, Corpo a Corpo Range, Limitado Direction: Straight Away), AE: Mystic Bolt ( Dano à Distância 12, Limitado: Jinx Must be in Contact with Earth)); Mystic Escudo ( Proteção 4, Sustentado)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Preciso",
+      "Atraente",
+      "Tontear (Enganação)",
+      "Fascinar (Enganação)",
+      "Languages 3",
+      "Sorte 3",
+      "Ritualista",
+      "Maestria em Perícia (Expertise: mágico)"
+    ],
+    "pericias": [
+      {
+        "nome": "Enganação",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Especialidade: mágico",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 5,
+        "total": 9
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 5,
+        "total": 10
+      },
+      {
+        "nome": "Combate à Distância: Mystic Bolt",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 6,
+        "total": 8
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Mystic Bolt",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Dano 12"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 14,
+      "Aparar": 12,
+      "Fortitude": 6,
+      "Resistência": 8,
+      "Vontade": 12
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 48,
+      "Poderes": 36,
+      "Vantagens": 12,
+      "Perícias": 20,
+      "Defesas": 32
+    },
+    "total": 143,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

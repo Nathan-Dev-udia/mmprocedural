@@ -1,0 +1,91 @@
+{
+  "nome_pt": "Will Magnus",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 44,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 1,
+      "Agi": 2,
+      "Des": 3,
+      "Lut": 2,
+      "Int": 8,
+      "Pro": 4,
+      "Pre": 1
+    },
+    "poderes": [],
+    "equipamento": [],
+    "vantagens": [
+      "Benefit 3 (wealth and resources)",
+      "Contatos",
+      "Rolamento Defensivo 2",
+      "Ferramentas Improvisadas",
+      "Inventor",
+      "Languages 2",
+      "Liderança",
+      "Maestria em Perícia (Tecnologia)",
+      "Bem-Informado"
+    ],
+    "pericias": [
+      {
+        "nome": "Especialidade: Science",
+        "graduacoes": 12,
+        "total": 20
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 6,
+        "total": 14
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 12,
+        "total": 20
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 2,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 4,
+      "Aparar": 4,
+      "Fortitude": 4,
+      "Resistência": 3,
+      "Vontade": 9
+    },
+    "observacao_defesas": "*, Vontade 9 * sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 46,
+      "Poderes": 0,
+      "Vantagens": 13,
+      "Perícias": 20,
+      "Defesas": 12
+    },
+    "total": 91,
+    "complicacoes": [
+      {
+        "titulo": "d oing Good",
+        "texto": "Magnus is driven to better the world any way he can. o bsession—S cience: Magnus is a scientist first and foremost. He is easily consumed by work and distracted by new gadgets or technology. to pursue scientific exploration. Sending the Metal Men into battle against scientific curiosities and experiments gone awry, Magnus not only gathers interesting data, he also reas- sures the public that super science can and Vontade be used as a tool to benefit mankind. Like all else in Magnus’ life, his posi- tion is a rational one, as he tends to be Cego to the emotions of those around him, even (and especially) the Metal Men. g o L d Stalwart and reliable, Gold is entrusted by Doc Magnus to lead the Metal Men on the battlefield. Sometimes accused of having no personality, Gold has recently been experimenting with an ego and referring to himself in the third person, as he has decided befits a hero given his responsibility—though what he calls self-respect and self-confidence, his teammates often call vanity and egotism."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

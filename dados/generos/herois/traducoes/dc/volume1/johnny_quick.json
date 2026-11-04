@@ -1,0 +1,149 @@
+{
+  "nome_pt": "Johnny Quick",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 132,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 3,
+      "Agi": 4,
+      "Des": 3,
+      "Lut": 4,
+      "Int": 4,
+      "Pro": 1,
+      "Pre": 2
+    },
+    "poderes": [
+      "Costume Ring (Característica 1 (stores compressed costume)); Frictionless Aura (Imunidade 1 (Friction Calor)); Run On Water (Movimento 1 (Water Walking), Limitado a While Moving); Run Up Walls (Movimento 2 (Wall-crawling 2), Limitado a While Moving; Super-Velocidade Enhanced Defenses 12 (Esquiva and Aparar), Enhanced"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "(Agile Feint",
+      "Ataque Corpo-a-Corpo 4",
+      "Rolamento Defensivo 5",
+      "Evasion 2",
+      "Iniciativa Aprimorada 10",
+      "Interpor-se",
+      "Levantar Rápido",
+      "Ação em Movimento",
+      "Tomar a Iniciativa",
+      "Takedown)",
+      "Quickness 20",
+      "Speed 20 (2",
+      "000",
+      "000 MPH)); Super- Speed Stunts (Array (20 pontos)",
+      "Air Control (Cone Area Move Object 10",
+      "Close Range)",
+      "AE: Air Cushion (Burst Area Safe Fall",
+      "Affects Others)",
+      "AE: Vacuum (Burst Area Cumulative Affliction 5 (Resisted by Fortitude; Dazed",
+      "Stunned",
+      "Incapacitated)",
+      "Concentration)",
+      "AE: Vibration (Insubstantial 4)",
+      "AE: Whirlwind (Burst Area Move Object 10",
+      "Close Range)) Advantages: Agile Feint",
+      "Benefit 5 (CSA member)",
+      "Ataque Corpo-a-Corpo 4",
+      "Rolamento Defensivo 5",
+      "Evasion 2",
+      "Iniciativa Aprimorada 10",
+      "Interpor-se",
+      "Levantar Rápido",
+      "Ação em Movimento",
+      "Tomar a Iniciativa",
+      "Derrubar em Sequência",
+      "Trabalho em Equipe",
+      "Esforço Supremo (Super-Speed checks)"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 6,
+        "total": 7
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 2,
+        "total": 6
+      },
+      {
+        "nome": "Especialidade: Criminal",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 8,
+        "total": 12
+      }
+    ],
+    "iniciativa": 44,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 1"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 16,
+      "Aparar": 16,
+      "Fortitude": 9,
+      "Resistência": 8,
+      "Vontade": 7
+    },
+    "observacao_defesas": "*, Vontade 7 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 44,
+      "Poderes": 120,
+      "Vantagens": 7,
+      "Perícias": 26,
+      "Defesas": 12
+    },
+    "total": 209,
+    "complicacoes": [
+      {
+        "titulo": "Fraqueza",
+        "texto": "Extra effort involving his super-Velocidade threatens to draw Johnny Quick into alternate dimensions (he once was pulled into a desolate future timeline)."
+      },
+      {
+        "titulo": "Perda de Poder",
+        "texto": "Johnny Quick’s super-Velocidade Powers are dependent on taking regular doses of his Velocidade-juice drug. Missing a dose makes him so sluggish Johnny Quick suffers -5 penalties to Intelecto and Agilidade checks."
+      },
+      {
+        "titulo": "Peculiaridade",
+        "texto": "Johnny Quick is rash and foolhardy; he must succeed on Prontidão Checks to avoid racing headfirst into dangerous situations. Powers. The rivalry involves his illicit affair with Ultraman’s wife, Superwoman. Supremely confident, Owlman greatly enjoys new challenges. Owlman is dedicated to bringing ruin to his father and Go - tham City police loyal to the commissioner. The only time he loses his cool is when reminded of his family’s tragedy. Powers & Abilities Like his counterpart Batman, Thomas Jr. spent years train - ing his mind and body to the peak of human development, then crafted the costumed identity of Owlman to Golpe fear in the hearts of Gotham’s police and honest citizenry. Unlike the Batman, Owlman uses performance enhancing drugs to"
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

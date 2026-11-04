@@ -1,0 +1,126 @@
+{
+  "nome_pt": "Felix Fausto",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 198,
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 1,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 0,
+      "Int": 3,
+      "Pro": 5,
+      "Pre": 3
+    },
+    "poderes": [
+      "Eternal: Imunidade 2 (Envelhecimento, Doença); Característica 1 (Can survive death as disembodied spirit until granted new body by outside sources) (3 PP)",
+      "Mystic Sentidos: Sentidos 4 (mágico Prontidão, Raio, Aguçado, Analítico) (4 PP)",
+      "Protective Enchantments: Enhanced"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Artífice",
+      "Languages 2 (Latin",
+      "Greek)",
+      "Sorte 2",
+      "Ritualista",
+      "Transe"
+    ],
+    "pericias": [
+      {
+        "nome": "Enganação",
+        "graduacoes": 10,
+        "total": 13
+      },
+      {
+        "nome": "Especialidade: mágico",
+        "graduacoes": 15,
+        "total": 18
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 5,
+        "total": 10
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 9
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Combate à Distância: Sorcery",
+        "graduacoes": 8,
+        "total": 9
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 7,
+        "total": 8
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 6,
+        "total": 7
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [
+      {
+        "nome": "Mystic Bolt",
+        "bonus": 9,
+        "alcance": "À distância",
+        "dano": "Dano 13"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 0,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 0"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 15,
+      "Fortitude": 8,
+      "Aparar": 14,
+      "Resistência": 5,
+      "Vontade": 14
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 28,
+      "Perícias": 33,
+      "Poderes": 95,
+      "Defesas": 16,
+      "Vantagens": 7
+    },
+    "total": 179,
+    "complicacoes": [
+      {
+        "titulo": "Damaged Goods",
+        "texto": "Faust’s soul is considered so used and tainted it no longer has worth as a bargaining chip for dealing with demonic entities."
+      },
+      {
+        "titulo": "Obsessão",
+        "texto": "Increasing his magical Powers."
+      },
+      {
+        "titulo": "Relacionamentos",
+        "texto": "Fauna (daughter) and Sebastian (son). Faust has also bartered with various demons for power, including Nekron and the Demons Three."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

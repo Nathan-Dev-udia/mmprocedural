@@ -1,0 +1,146 @@
+{
+  "nome_pt": "Guerreiro (Travis Morgan)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 256,
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 4,
+      "Agi": 4,
+      "Des": 4,
+      "Lut": 9,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 5
+    },
+    "poderes": [
+      "Past Lives: Característica 1 (Reincarnation of other famous warriors)"
+    ],
+    "equipamento": [
+      ".44 Dano à Distância 4, Improved Critical (9 PP)",
+      "a ut omag: Espada: Força-Based Dano 4, Improved Critical (5 PP)"
+    ],
+    "vantagens": [
+      "Ataque Preciso",
+      "Ataque Imprudente",
+      "Benefit 4 (Warlord of Skartaris)",
+      "Conectado",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 2",
+      "Equipamento 3",
+      "Mira Aprimorada",
+      "Desarmar Aprimorado",
+      "Iniciativa Aprimorada",
+      "Inspirar",
+      "Languages (Skartaran)",
+      "Liderança",
+      "Ataque Poderoso",
+      "Precise Attack (corpo a corpo; Concealment)",
+      "Saque Rápido",
+      "Ataque à Distância 2",
+      "Derrubar em Sequência",
+      "Prender Arma"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 2,
+        "total": 6
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 9,
+        "total": 12
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Espada",
+        "graduacoes": 3,
+        "total": 12
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 3,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: Military",
+        "graduacoes": 10,
+        "total": 11
+      },
+      {
+        "nome": "Especialidade: Skartaris",
+        "graduacoes": 9,
+        "total": 10
+      },
+      {
+        "nome": "Especialidade: Survival",
+        "graduacoes": 6,
+        "total": 7
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 7,
+        "total": 12
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 7,
+        "total": 12
+      },
+      {
+        "nome": "Combate à Distância: Guns",
+        "graduacoes": 6,
+        "total": 12
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 2,
+        "total": 6
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 8,
+        "total": 12
+      }
+    ],
+    "iniciativa": 8,
+    "ataques": [
+      {
+        "nome": "Automag",
+        "bonus": 12,
+        "alcance": "",
+        "dano": "Range, Dano 4, Critical 19-20"
+      },
+      {
+        "nome": "Espada",
+        "bonus": 11,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 7, Critical 19-20"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Fortitude": 9,
+      "Aparar": 12,
+      "Resistência": 6,
+      "Vontade": 9
+    },
+    "observacao_defesas": "* Vontade 9 *sem Rolamento Defensivo accompanied by the warrior-king Machiste, Russian-born Mariah, and the catlike Shakira.",
+    "custos": {},
+    "total": null,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "nome_pt": "Colossal Boy",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 121,
+  "ficha": {
+    "habilidades": {
+      "For": 14,
+      "Vig": 14,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 4,
+      "Int": 1,
+      "Pro": 3,
+      "Pre": 2
+    },
+    "poderes": [
+      "Colossal Size: Crescimento 12 Linked to Enhanced Advantage 7 (Daze (Intimidation), Fast Grab, Improved Grab, Interpose, Startle, Takedown 2) (31 PP)",
+      "Colossal Endurance: Proteção 2 Linked 1 graduação of Proteção to each 6 graduações of Crescimento (1 PP)"
+    ],
+    "equipamento": [
+      "Voo Ring: Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal (-3)); Voo 7 (400 km/h); Removível (-3 pontos) (16 PP)",
+      "Telepathic Plug: Compreender 3 (Languages), mental Comunicação 1 (Corpo a Corpo Range), Removível (-1 ponto) (7 PP)",
+      "Transsuit: Imunidade 9 (Suporte Vital, except for Inanição and thirst), Removível (–2 ponto) (7 PP)"
+    ],
+    "vantagens": [
+      "Ataque Preciso",
+      "Benefit 1 (Legion membership)",
+      "Tontear (Intimidação)",
+      "Equipamento 6",
+      "Agarrar Rápido",
+      "Agarrar Aprimorado",
+      "Interpor-se",
+      "Assustar",
+      "Takedown 2 ble of changing his size quickly and with little or no disorien - tation",
+      "making it possible for him to employ this size-change as a combat tactic."
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 5,
+        "total": 19
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 2,
+        "total": 6
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 2,
+        "total": 4
+      },
+      {
+        "nome": "Especialidade: Law Enforcement",
+        "graduacoes": 5,
+        "total": 6
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 0,
+        "total": 8
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 5,
+        "total": 6
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 3,
+        "total": 7
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 5,
+        "total": 6
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Grown Desarmado",
+        "bonus": 6,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 14"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 6,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2*"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 4,
+      "Fortitude": 14,
+      "Aparar": 4,
+      "Resistência": 16,
+      "Vontade": 6
+    },
+    "observacao_defesas": "* Fortitude 14/2* Aparar 4/10* Resistência 16/2* Vontade 6 *Without Crescimento.",
+    "custos": {
+      "Habilidades": 36,
+      "Perícias": 19,
+      "Poderes": 32,
+      "Defesas": 17,
+      "Vantagens": 8
+    },
+    "total": 112,
+    "complicacoes": [
+      {
+        "titulo": "Loyalty",
+        "texto": "Colossal Boy is protective of those he loves, be they family or teammates, and this loyalty can be used against him."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

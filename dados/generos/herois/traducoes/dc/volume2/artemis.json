@@ -1,0 +1,105 @@
+{
+  "nome_pt": "Ártemis",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 266,
+  "ficha": {
+    "habilidades": {
+      "For": 10,
+      "Vig": 10,
+      "Agi": 8,
+      "Des": 6,
+      "Lut": 13,
+      "Int": 0,
+      "Pro": 2,
+      "Pre": 3
+    },
+    "poderes": [
+      "Imunidade 1 (Envelhecimento), Sentidos 1 (Mystic Prontidão)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Atraente",
+      "Rolamento Defensivo 2",
+      "Languages",
+      "Precise Attack (Close",
+      "Concealment)",
+      "Ritualista"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 4,
+        "total": 12
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 8,
+        "total": 18
+      },
+      {
+        "nome": "Especialidade: mágico",
+        "graduacoes": 4,
+        "total": 4
+      },
+      {
+        "nome": "Especialidade: Tactics",
+        "graduacoes": 8,
+        "total": 8
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Combate à Distância: Bows",
+        "graduacoes": 4,
+        "total": 12
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 4,
+        "total": 12
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 2,
+        "total": 2
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 2,
+        "total": 8
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [],
+    "defesas": {
+      "Esquiva": 13,
+      "Aparar": 13,
+      "Fortitude": 14,
+      "Resistência": 12,
+      "Vontade": 11
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Defesas": 18
+    },
+    "total": 158,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

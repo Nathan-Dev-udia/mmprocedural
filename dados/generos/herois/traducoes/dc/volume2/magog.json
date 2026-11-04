@@ -1,0 +1,152 @@
+{
+  "nome_pt": "Magog",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 31,
+  "ficha": {
+    "habilidades": {
+      "For": 11,
+      "Vig": 6,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 10,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 4
+    },
+    "poderes": [
+      "Cybernetic a rm: Deflexão 14, Corpo a Corpo Range, Limitado a Energy Attacks; Força Aprimorada 2, Limitado a his left arm, Limitado a Lifting (lifting Str 15 in left arm; 800 tons) (6 PP)",
+      "e nhanced d ur ability: Proteção 6, Impenetrável 4 (10 PP)",
+      "e nhanced Vision: Sentidos 6 (Visão no Escuro, Extended Rapid Vision, Infravisão, Visão na Penumbra) (6 PP)",
+      "Golden Staff of Magog: Enhanced"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "(Accurate Attack",
+      "Ranged Attack 3)",
+      "Limited to Plasma Blast; Enhanced Advantages (Improved Critical 2 (Plasma Blast)) Easily Removable (–2 pontos)",
+      "Indestructible; Strength-Based Damage 2",
+      "Improved Critical • 5 points Plasma Generation: Ranged Damage 14",
+      "Penetrating 6",
+      "Split 3",
+      "Limited to rank 7 without Golden Staff • 23 points Super-Strength: Enhanced Strength 2",
+      "Limited to Lifting (lifting Str 13; 200 tons) • 2 pontos a V ant G d a e S Accurate Attack (Plasma Blast)",
+      "Ataque Imprudente",
+      "Ataque Corpo-a-Corpo 3",
+      "Destemido",
+      "Mira Aprimorada",
+      "Improved Critical 2 (Plasma Blast)",
+      "Inspirar 2",
+      "Liderança",
+      "Ação em Movimento",
+      "Ataque Poderoso",
+      "Saque Rápido",
+      "Ataque à Distância 6",
+      "Ranged Attack 3 (Plasma Blast)",
+      "Assustar",
+      "Derrubar em Sequência",
+      "Esquiva Fabulosa"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 4,
+        "total": 15
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: Tactics",
+        "graduacoes": 8,
+        "total": 9
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 7,
+        "total": 11
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 6,
+        "total": 7
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 5,
+        "total": 8
+      }
+    ],
+    "iniciativa": 3,
+    "ataques": [
+      {
+        "nome": "Plasma Raio",
+        "bonus": 12,
+        "alcance": "",
+        "dano": "Range, Dano 14, Crit. 18-20"
+      },
+      {
+        "nome": "Armor Piercing Staff",
+        "bonus": 13,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 13, Crit. 19-20"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 13,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 11"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 13,
+      "Fortitude": 14,
+      "Aparar": 14,
+      "Resistência": 12,
+      "Vontade": 10
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 80,
+      "Perícias": 26,
+      "Poderes": 52,
+      "Defesas": 30,
+      "Vantagens": 21
+    },
+    "total": null,
+    "complicacoes": [
+      {
+        "titulo": "his enhanced isabilit y",
+        "texto": "Sentidos compensate for this loss, but as David Reid he has no depth perception (-4 to actions which require depth perception). e nemy: Flashpoint Power Loss: As David Reid, Magog appears as a normal human, badly scarred and lacking most of his Powers."
+      },
+      {
+        "titulo": "Perda de Poder",
+        "texto": "Since his left arm was destroyed and replaced by a cybernetic arm, Magog cannot channel his plasma into energy blasts without his golden staff."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

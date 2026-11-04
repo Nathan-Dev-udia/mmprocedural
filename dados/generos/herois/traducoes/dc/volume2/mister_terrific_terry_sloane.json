@@ -1,0 +1,110 @@
+{
+  "nome_pt": "Senhor Incrível (Terry Sloane)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 61,
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 3,
+      "Agi": 5,
+      "Des": 5,
+      "Lut": 11,
+      "Int": 6,
+      "Pro": 4,
+      "Pre": 2
+    },
+    "poderes": [],
+    "equipamento": [],
+    "vantagens": [
+      "Avaliação",
+      "Rolamento Defensivo 3",
+      "Memória Eidética",
+      "Iniciativa Aprimorada",
+      "Ferramentas Improvisadas",
+      "Languages 4",
+      "Ataque Poderoso",
+      "Ataque à Distância 5"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 10,
+        "total": 13
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 4,
+        "total": 15
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 10,
+        "total": 16
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 6,
+        "total": 11
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 8,
+        "total": 14
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 4,
+        "total": 9
+      }
+    ],
+    "iniciativa": 9,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 15,
+        "alcance": "",
+        "dano": "(Dano 3)"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Aparar": 12,
+      "Fortitude": 8,
+      "Resistência": 6,
+      "Vontade": 10
+    },
+    "observacao_defesas": "*, Vontade 10 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 78,
+      "Poderes": 0,
+      "Vantagens": 17,
+      "Perícias": 31,
+      "Defesas": 19
+    },
+    "total": 145,
+    "complicacoes": [
+      {
+        "titulo": "t hrills",
+        "texto": "Mister Terrific helps others in order to give himself a sense of excitement and fulfillment. o bsession— f air Pla y: Mister Terrific is dedicated to the concept of “fair play” for all."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

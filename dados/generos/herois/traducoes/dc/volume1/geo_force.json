@@ -1,0 +1,149 @@
+{
+  "nome_pt": "Geo-Force",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 223,
+  "ficha": {
+    "habilidades": {
+      "For": 13,
+      "Vig": 14,
+      "Agi": 2,
+      "Des": 5,
+      "Lut": 6,
+      "Int": 3,
+      "Pro": 3,
+      "Pre": 4
+    },
+    "poderes": [
+      "Earthen Physiology: Força Aprimorada 10; Vigor Aprimorado 12; Resistência Impenetrável 12; Regeneração 10, Source (Must be buried in earth), Imunidade 1 (Sufocamento from burying) (62 PP)",
+      "Magma Thrust: Voo 6 (192 km/h), Cansativo (last 2 graduações only) (10 PP)",
+      "Geo-Manipulation: Arranjo (27 pontos)",
+      "• Gravity Control: Mover Objetos 13, Damaging, Limitado Direction; Enhanced Advantage (Improved Trip) (27 PP)",
+      "• Earthquake: Área de Explosão 2 (60 feet) Aflição 12 (resistido por Esquiva; Attack Impaired and Impedido), Extra Condition, Concentração, Instant Recovery, Limitado Degree 2, Limitado a targets standing on the ground; Área de Explosão 2 (60 feet) Enfraquecer Resistência 12, Affects Only Objects, Limitado a targets standing on the ground (1 PP)",
+      "• Gravity Pin: Aflição à Distância 13 (resistido por Fortitude; Impedido, Imóvel), Affects Objects, Limitado Degree (1 PP)",
+      "• High Gravity área: Environment Control 5 (high gravity; Affects Acrobatics and Athletics; Impede Movimento 2) (1 PP)",
+      "• Lava Raio: Dano à Distância 13 (1 PP)",
+      "• Low Gravity área: Área de Explosão Força Aprimorada 13 (Affects Others, Limitado a Lifting) (1 PP)",
+      "• Shift Earth: Criar Objetos 13 (Rock/Earth), Contínuo, Inato, Limitado: Needs ground or rock (1 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Benefit 6 (Diplomatic Immunity",
+      "Influence of the Markovian throne",
+      "Multi-millionaire)",
+      "Conectado",
+      "Duro de Matar",
+      "Derrubar Aprimorado (with Move Object only)",
+      "Inspirar",
+      "Levantar Rápido",
+      "Interpor-se",
+      "Languages (Romanian native",
+      "English)",
+      "Leadership official leader of The Outsiders when they had a falling out with Batman. From that moment the team’s funding came from Markovia’s treasury",
+      "and Geo-Force would rally them to defend his homeland once more. The U.S. government threatened to withdraw all aid unless King Gregor",
+      "Brion’s older brother",
+      "disclosed the real names of The Outsiders. Gregor didn’t even have time to consider the issue be - fore he was murdered. Brion renounced his right of succession",
+      "abdicating in favor of the child that Ilona",
+      "his sister-in-law",
+      "was carrying. He was rewarded with imprisonment",
+      "but one of his teammates discovered that Gregor’s murderer was actually Dr. Jace",
+      "who betrayed them all to the alien Manhunters. The Outsiders disbanded after defeating the Manhunters",
+      "leaving Geo-Force alone to struggle with his doubts. His life would not improve when he reformed The Outsiders to - gether with Katana",
+      "and the vampire Roderick framed them for Queen Ilona’s murder. Brion and his friends went under - ground",
+      "hiding in the U.S. until they managed to defeat Rod - erick and restore peace in Markovia. Brion gained a measure of happiness for himself by marrying his girlfriend",
+      "Denise. His strength of character was strained again as a new Terra ap - peared",
+      "but claiming she was not Tara Markov. Brion invited her to Markovia and became very close to her",
+      "so much that he un - derstood her fears about herself and lied about the DNA results"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 3,
+        "total": 16
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 3,
+        "total": 9
+      },
+      {
+        "nome": "Especialidade: Rulership",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 7,
+        "total": 11
+      },
+      {
+        "nome": "Combate à Distância: Geo-Manipulation",
+        "graduacoes": 4,
+        "total": 9
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 2,
+        "total": 7
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 9,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 13"
+      },
+      {
+        "nome": "Geo-Manipulation",
+        "bonus": 9,
+        "alcance": "À distância",
+        "dano": "Dano 13 or other effects"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Fortitude": 14,
+      "Aparar": 8,
+      "Resistência": 14,
+      "Vontade": 8
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 56,
+      "Perícias": 17,
+      "Poderes": 105,
+      "Defesas": 13,
+      "Vantagens": 14
+    },
+    "total": 205,
+    "complicacoes": [
+      {
+        "titulo": "Borrowed Power",
+        "texto": "The Earth Shift and Earthquake Powers are actually new to Geo-Force; he may lose control of them when stressed."
+      },
+      {
+        "titulo": "Burden of Duty",
+        "texto": "Brion feels that it is his duty to be a protector, and may be torn between his duties as a hero, as a ruler, and as a friend."
+      },
+      {
+        "titulo": "Earthbound",
+        "texto": "Brion’s Powers come from the Earth; if he spends too much time in space he Vontade Enfraquecer and eventually die. that did prove that she was, at least, a genetic duplicate of the old Terra. Brion would not have time to develop this sibling re - lationship as Terra was killed later by Black Adam. Brion began displaying earth-manipulation Powers like Ter - ra’s; Deathstroke approached him, claiming to be the source of such Powers and threatening Brion with the psychosis that had taken grip of Tara, in a bid to make him his agent. Instead of going along with Deathstroke’s blackmail, Geo-Force went to the Justice League, who accepted him provisionally and used him as a double-agent. He brought Deathstroke to the alley where the mercenary had caused his own son’s throat to be slit, and Brion slit his own. Unnerved by the similari - ties, Deathstroke tried to save Brion, but the younger man impaled him with his own Espada. Brion felt he had avenged Tara, and lied down for death to arrive. Geo-Force survived, however, and was made leader of The Outsiders once more, still tormented and shamed by his actions and his failures. During the Blackest Night, Brion was driven to the break - ing ponto when Black Lantern Terra arrived at The Outsid - ers’ HQ, lying about her condition in order to heighten the team’s compassion and hope for her “sad” state, so she could devour them. His feelings betrayed again, Geo-Force had an epiphany; he had enough, and finally accepted that Terra had fooled him like she had everyone else. He turned the animat - ed corpse of his half-sister to stone, finally burying her in his heart. Although he is currently the regent of Markovia until"
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

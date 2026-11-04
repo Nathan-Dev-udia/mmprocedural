@@ -1,0 +1,114 @@
+{
+  "nome_pt": "Blaze",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 66,
+  "ficha": {
+    "habilidades": {
+      "For": 9,
+      "Vig": 9,
+      "Agi": 7,
+      "Des": 7,
+      "Lut": 7,
+      "Int": 9,
+      "Pro": 9,
+      "Pre": 5
+    },
+    "poderes": [
+      "Demonic Heritage: Compreender Languages 3 (Speak, Understand, and Understood), Imunidade 30 (Fortitude Effects), Proteção 7, Movimento 2 (Dimensional Travel 2 (Hell and Occult Dimensions)), Regeneração 5, Sentidos 5 (mágico Prontidão (Analítico, Extended 2)) (57 PP)",
+      "Demonic mágico: Arranjo (60 pontos)",
+      "• Call Servants: Summon 10, Heroic, Broad Variável Type (Demons and Infernal Creatures) (60 PP)",
+      "• Demonic Deception: Ilusão 12 (All Sentidos) (1 PP)",
+      "• “Granting Wishes” 1: Criar Objetos 14, Contínuo, Inato, Preciso, Sutil (1 PP)",
+      "• “Granting Wishes” 2: Aflição à Distância 18 (resistido por Vontade; Tonto, Atordoado, Transformado) (1 PP)",
+      "• Punishing Flames: Alcance de Percepção Dano 14, Resistência Alternativa (Fortitude), Distrativo (1 PP)",
+      "• Transmogrification: Transform 12, Anything into Anything (1 PP)",
+      "Demonic Mask: Metamorfose 3 (humanoids and animals) (15 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Benefit 6 (Queen of Hell)",
+      "Fascinar (Enganação)",
+      "Iniciativa Aprimorada",
+      "Ataque à Distância 3",
+      "Tomar a Iniciativa",
+      "Ritualista",
+      "Maestria em Perícia (Enganação)",
+      "Provocar"
+    ],
+    "pericias": [
+      {
+        "nome": "Enganação",
+        "graduacoes": 19,
+        "total": 24
+      },
+      {
+        "nome": "Especialidade: Hell",
+        "graduacoes": 9,
+        "total": 18
+      },
+      {
+        "nome": "Especialidade: mágico",
+        "graduacoes": 6,
+        "total": 15
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 9,
+        "total": 18
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 15
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 9,
+        "total": 14
+      }
+    ],
+    "iniciativa": 11,
+    "ataques": [
+      {
+        "nome": "Aflição",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Varies Punishing Flames — Perception, Dano 14, resistido por Fortitude Desarmado +7 Corpo a Corpo, Dano +9"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Fortitude": 12,
+      "Aparar": 12,
+      "Resistência": 16,
+      "Vontade": 16
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 124,
+      "Perícias": 33,
+      "Poderes": 137,
+      "Defesas": 20,
+      "Vantagens": 15
+    },
+    "total": 329,
+    "complicacoes": [
+      {
+        "titulo": "Demonic Nature",
+        "texto": "Blaze is one of the spawn of Hell and is recognizable as such with the proper mystic Sentidos."
+      },
+      {
+        "titulo": "Uneasy Sits the Crown",
+        "texto": "Blaze’s position in Hell is always threatened. The only things that change are whether the threat is open or hidden and who happens to be behind it at any given time."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

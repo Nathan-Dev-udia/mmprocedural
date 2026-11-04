@@ -1,0 +1,84 @@
+{
+  "nome_pt": "Iris Allen",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 204,
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 0,
+      "Agi": 0,
+      "Des": 1,
+      "Lut": 0,
+      "Int": 2,
+      "Pro": 3,
+      "Pre": 2
+    },
+    "poderes": [],
+    "equipamento": [],
+    "vantagens": [
+      "Contatos",
+      "Bem-Informado"
+    ],
+    "pericias": [
+      {
+        "nome": "Especialidade: Future History",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Especialidade: Journalism",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 3,
+        "total": 5
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 3,
+        "total": 5
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 0,
+        "alcance": "",
+        "dano": "(Dano 0)"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 2,
+      "Aparar": 2,
+      "Fortitude": 3,
+      "Resistência": 0,
+      "Vontade": 5
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 16,
+      "Poderes": 0,
+      "Vantagens": 2,
+      "Perícias": 12,
+      "Defesas": 9
+    },
+    "total": 39,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

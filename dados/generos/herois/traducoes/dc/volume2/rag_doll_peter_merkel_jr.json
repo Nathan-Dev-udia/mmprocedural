@@ -1,0 +1,140 @@
+{
+  "nome_pt": "Boneco de Pano (Peter Merkel Jr.)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 160,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 4,
+      "Agi": 8,
+      "Des": 8,
+      "Lut": 6,
+      "Int": 0,
+      "Pro": 1,
+      "Pre": 0
+    },
+    "poderes": [
+      "t riple -Jointed (Enhanced Advantages 3 (Second Chance (Escape Checks), Skill Mastery (Sleight of Hand), Ultimate Effort (Contortion checks), Ultimate Effort (Escape Checks)); Força Aprimorada 4, Limitado: Attacks against Grabbed Foes Only; Enhanced Skill 4 (Sleight of Hand +8, Limitado a Contorting and Escaping Checks); Imunidade 20 (Blunt Force Trauma), Limitado a Half Effect)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Finta Ágil",
+      "Ataque Imprudente",
+      "Benefício (Ambidexterity)",
+      "Estrangular",
+      "Ataque Corpo-a-Corpo 3",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 2",
+      "Evasion",
+      "Agarrar Rápido",
+      "Agarrar com Destreza",
+      "Defesa Aprimorada",
+      "Imobilizar Aprimorado",
+      "Arma Improvisada",
+      "Segunda Chance (Escape Checks)",
+      "Preparar",
+      "Maestria em Perícia (Prestidigitação)",
+      "Trabalho em Equipe",
+      "Esquiva Fabulosa",
+      "Esforço Supremo (Contortion checks)",
+      "Esforço Supremo (Escape checks)"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 10,
+        "total": 18
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 10,
+        "total": 12
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Grab ( d ex )",
+        "graduacoes": 1,
+        "total": 9
+      },
+      {
+        "nome": "Especialidade: D eception",
+        "graduacoes": 4,
+        "total": 4
+      },
+      {
+        "nome": "Especialidade: Criminal",
+        "graduacoes": 4,
+        "total": 4
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 4,
+        "total": 4
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 7
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 2,
+        "total": 10
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 5,
+        "total": 13
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 2,
+        "total": 2
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 2,
+        "total": 2
+      }
+    ],
+    "iniciativa": 8,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 9,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2"
+      },
+      {
+        "nome": "Grab",
+        "bonus": 12,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 6"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Aparar": 12,
+      "Fortitude": 8,
+      "Resistência": 6,
+      "Vontade": 6
+    },
+    "observacao_defesas": "*, Vontade 6 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 58,
+      "Poderes": 20,
+      "Vantagens": 19,
+      "Perícias": 25,
+      "Defesas": 19
+    },
+    "total": 141,
+    "complicacoes": [
+      {
+        "titulo": "Perda de Poder",
+        "texto": "Rag Doll must keep his skin lubricated with special chemicals to avoid it drying out and developing painful cracks, which make it impossible for him to use his Powers without causing himself injury. f r eak: Rag Doll is deeply disturbed and profoundly insane. He is covered in scars and physically twisted from numerous surgeries."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

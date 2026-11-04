@@ -1,0 +1,105 @@
+{
+  "nome_pt": "Gelo (Tora Olafsdotter)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 269,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 5,
+      "Agi": 4,
+      "Des": 2,
+      "Lut": 2,
+      "Int": 2,
+      "Pro": 3,
+      "Pre": 2
+    },
+    "poderes": [
+      "Frio Imunidade: Imunidade 10 (Frio Effects) (10 PP)",
+      "Ice Slide: Platform Voo 5 (96 km/h) (5 PP)",
+      "Ice Production: Arranjo (27 pontos)",
+      "• Criar Objetos Ice: Criar Objetos 9, Contínuo (27 PP)",
+      "• Ice Raio: Dano à Distância 9 (1 PP)",
+      "• Ice Aprisionar: À Distância Cumulativo Aflição 9 (resistido por Esquiva; Impedido and Vulnerável, Indefeso and Imóvel), Extra Condition, Limitado Degree (1 PP)",
+      "• Icy Surface: Área de Cone Aflição 9 (resistido por Esquiva; Impedido and Vulnerável), Extra Condition, Limitado Degree 2 (1 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Preciso",
+      "Atraente",
+      "Rolamento Defensivo 3",
+      "Esforço Extraordinário",
+      "Languages 1 (English",
+      "Norwegian native)",
+      "Sorte 2",
+      "Ação em Movimento",
+      "Trabalho em Equipe"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Especialidade: mágico",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Combate à Distância: Ice Production",
+        "graduacoes": 7,
+        "total": 9
+      }
+    ],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Ice Raio",
+        "bonus": 9,
+        "alcance": "À distância",
+        "dano": "Dano 9"
+      },
+      {
+        "nome": "Ice Aprisionar",
+        "bonus": 9,
+        "alcance": "À distância",
+        "dano": "Aflição 9, resistido por Esquiva Desarmado +6 Corpo a Corpo, Dano 2"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Fortitude": 9,
+      "Aparar": 10,
+      "Resistência": 8,
+      "Vontade": 9
+    },
+    "observacao_defesas": "* Vontade 9 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 42,
+      "Perícias": 13,
+      "Poderes": 45,
+      "Defesas": 24,
+      "Vantagens": 11
+    },
+    "total": 135,
+    "complicacoes": [
+      {
+        "titulo": "Relacionamento",
+        "texto": "Ice has an on again-off again relationship with Guy Gardner. Motivation—Doing Good: Ice is a genuinely good person and uses her Powers to make the world a better place. Powers & Abilities Tora is proficient in hand-to-hand combatant, and can proj - ect various forms of ice and snow from her hands. She is able to encase opponents in ice, and Criar Objetos platforms of ice upon which she can skate."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

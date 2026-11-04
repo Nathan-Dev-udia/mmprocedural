@@ -1,0 +1,110 @@
+{
+  "nome_pt": "Traci Treze",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 238,
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 3,
+      "Agi": 3,
+      "Des": 2,
+      "Lut": 2,
+      "Int": 2,
+      "Pro": 4,
+      "Pre": 3
+    },
+    "poderes": [
+      "Mystic Dano à Distância 6 (12 PP)",
+      "f ir e: mágico: Arranjo (35 pontos), Ativação (–1 pontos) • Gateway of Citrina: Teleporte 7, Extended, Portal (35 PP)",
+      "• n ommo ’s t r ansformation: Transform 6 (anything into anything, 50 lbs.) (1 PP)",
+      "• mágico f ail: Broad Área de Explosão Nulificar mágico 8, Concentração (1 PP)",
+      "• Phasma Phasmatis: Impenetrável Proteção 8, Concentração (1 PP)",
+      "• d eimos’ Claw: Dano 9, Penetrante, Cansativo (1 PP)",
+      "• t hr ough the Seven Veils: Sentidos 5 (Dimensional Sight and Hearing into Magical Dimensions, Magical Prontidão, Vision Counters Ilusão) (1 PP)",
+      "a V ant G d a e S Artificer, Contacts, Evasion, Fearless, Improved Iniciativa, Luck, Power Attack, Ritualist, Ultimate Effort (Expertise: mágico)"
+    ],
+    "equipamento": [],
+    "vantagens": [],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 6,
+        "total": 6
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Homi Magi",
+        "graduacoes": 7,
+        "total": 9
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: mágico",
+        "graduacoes": 10,
+        "total": 12
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 2,
+        "total": 5
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 9,
+        "total": 11
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Combate à Distância : Mystic fogo",
+        "graduacoes": 9,
+        "total": 11
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 7,
+        "total": 9
+      }
+    ],
+    "iniciativa": 7,
+    "ataques": [
+      {
+        "nome": "Mystic fogo",
+        "bonus": 11,
+        "alcance": "À distância",
+        "dano": "Dano 5 Deimos’ Claw +9 Penetrante Golpe 9, Cansativo"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 7,
+      "Fortitude": 6,
+      "Aparar": 6,
+      "Resistência": 11,
+      "Vontade": 12
+    },
+    "observacao_defesas": "* Vontade 12 *Without Phasma Phasmatis.",
+    "custos": {
+      "Habilidades": 38,
+      "Perícias": 35,
+      "Poderes": 51,
+      "Defesas": 19,
+      "Vantagens": 9
+    },
+    "total": 152,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

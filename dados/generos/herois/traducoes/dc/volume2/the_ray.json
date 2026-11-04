@@ -1,0 +1,111 @@
+{
+  "nome_pt": "Ray",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 129,
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 4,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 3,
+      "Int": 3,
+      "Pro": 3,
+      "Pre": 1
+    },
+    "poderes": [
+      "e nergy f orm: Enhanced Advantage 6 (Agile Feint, Defensive Roll 2, Evasion 2, Improved Iniciativa); Enhanced Skill 3 (Acrobatics 6); Característica 1 (Quick Change); Imunidade 11 (Envelhecimento, Suporte Vital); Sentidos 8 (Comunicação Link (mental, with Happy Terrill); Detect Electromagnetic Radiação (Visual Sense), Preciso, Aguçado, Analítico, À Distância; Noção de Direção); Ativação (Ação de Movimento, -1 ponto) (28 PP)",
+      "Solar r adia tion Control: Dynamic Arranjo (40 pontos), Ativação (Ação de Movimento, –1 ponto) • e nergy a ur a: Dano 10, Reação, Dynamic (41 PP)",
+      "• i n a Blaz e of Power: Voo 19 (1,000,0 km/h), Dynamic (2 PP)",
+      "• Light r a ys: À Distância Área de Cone Dano 10, Penetrante 5, Dynamic (2 PP)",
+      "• Solid-Light Constructs: Criar Objetos 10, Movable, Dynamic (2 PP)",
+      "• e nergy a bsorption: Corpo a Corpo Range Nulificar Calor & Light Effects 10, Broad, Effortless, Perception área (Detect- Dependent), Simultaneous, Reduced Range, Dynamic (2 PP)",
+      "• Blinding Light: À Distância Cumulativo Perception área (Visual) Aflição 10 (resistido por Fortitude; Impaired, Disabled, Unaware), Limitado a Visual Sentidos, Dynamic (2 PP)",
+      "• Bend Light: Camuflagem 4 (All Visual Sentidos), Attack (resistido por Esquiva), Dynamic (2 PP)",
+      "• i n visibility: Camuflagem 4 (All Visual Sentidos), Dynamic (2 PP)",
+      "• Light Projection: Environment 10 (Bright Light, Eliminates Camuflagem), Dynamic (2 PP)",
+      "• r e- e nergize: Cura 10, Limitado a Self, Dynamic (2 PP)",
+      "• Lightspeed: Movimento 1 (Space Travel 1) (1 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Finta Ágil",
+      "Rolamento Defensivo 2",
+      "Evasion 2",
+      "Esforço Extraordinário",
+      "Improved Initiative his inexperience in dealing with people",
+      "a weakness resulting from his isolated childhood."
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 3,
+        "total": 6
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Especialidade: Business",
+        "graduacoes": 2,
+        "total": 5
+      },
+      {
+        "nome": "Especialidade: Computers",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Combate à Distância: Solar Radiação",
+        "graduacoes": 7,
+        "total": 10
+      }
+    ],
+    "iniciativa": 7,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 6,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 3"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Fortitude": 9,
+      "Aparar": 12,
+      "Resistência": 6,
+      "Vontade": 11
+    },
+    "observacao_defesas": "* Vontade 11 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 46,
+      "Perícias": 15,
+      "Poderes": 88,
+      "Defesas": 33,
+      "Vantagens": 1
+    },
+    "total": 183,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

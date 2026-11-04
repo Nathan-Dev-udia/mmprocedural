@@ -1,0 +1,110 @@
+{
+  "nome_pt": "O.M.A.C. (Terra-51)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 84,
+  "ficha": {
+    "habilidades": {
+      "For": 10,
+      "Vig": 9,
+      "Agi": 6,
+      "Des": 3,
+      "Lut": 9,
+      "Int": 1,
+      "Pro": 1,
+      "Pre": 2
+    },
+    "poderes": [
+      "e y e in the Sky (Sentidos 1 (Comunicação Link to Brother Eye)); Unstoppable (Proteção 6, Impenetrável); Lightning r eflexes (Rapidez 4 (Physical tasks only)); Healed by the e y e (Cura 5, Persistent, Peculiaridade—Requires contact with Brother Eye)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Duro de Matar",
+      "Evasion",
+      "Esforço Extraordinário",
+      "Agarrar Rápido",
+      "Grande Vigor",
+      "Agarrar Aprimorado",
+      "Imobilizar Aprimorado",
+      "Iniciativa Aprimorada",
+      "Quebrar Aprimorado",
+      "Arma Improvisada",
+      "Levantar Rápido",
+      "Interpor-se",
+      "Ação em Movimento",
+      "Ataque Poderoso",
+      "Derrubar em Sequência",
+      "Esforço Supremo (Atletismo)"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 12,
+        "total": 18
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 12,
+        "total": 22
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 5,
+        "total": 14
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 9
+      },
+      {
+        "nome": "Combate à Distância: Guns",
+        "graduacoes": 10,
+        "total": 13
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 7,
+        "total": 8
+      }
+    ],
+    "iniciativa": 10,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 14,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 10"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 9,
+      "Aparar": 9,
+      "Fortitude": 18,
+      "Resistência": 15,
+      "Vontade": 6
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 82,
+      "Poderes": 25,
+      "Vantagens": 17,
+      "Perícias": 27,
+      "Defesas": 17
+    },
+    "total": 168,
+    "complicacoes": [
+      {
+        "titulo": "d oing Good",
+        "texto": "O.M.A.C. fights for what is right."
+      },
+      {
+        "titulo": "Serve the e y e",
+        "texto": "O.M.A.C. is connected to Brother Eye and is sent on missions by it."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

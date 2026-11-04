@@ -1,0 +1,104 @@
+{
+  "nome_pt": "Espinho",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 233,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 4,
+      "Des": 3,
+      "Lut": 8,
+      "Int": 2,
+      "Pro": 2,
+      "Pre": 4
+    },
+    "poderes": [
+      "t Arranjo (18 pontos), Removível (–2 pontos) horn W eapons: • Concussion t horn: R anged Multi-Attack Dano 6 (18 PP)",
+      "• Smoke t horn: Cloud A rea 2 Visual Camuflagem Attack 4 (1 PP)",
+      "• Magnesium t horn: À Distância Área de Explosão Aflição 9 (resistido por Fortitude; Vision Impaired, Vision Disabled, Vision Unaware) (1 PP)",
+      "Barbed Whip: Força-Based Dano 4, Fast Grab, Improved Disarm, Improved Grab, Improved Trip, Reach 2 (10 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Preciso",
+      "Rolamento Defensivo 3",
+      "Equipamento 2",
+      "Iniciativa Aprimorada",
+      "Sorte",
+      "Assustar",
+      "Derrubar em Sequência",
+      "Provocar"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 9,
+        "total": 11
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 7,
+        "total": 11
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 7,
+        "total": 11
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Combate à Distância: Thorn Weapons",
+        "graduacoes": 9,
+        "total": 12
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 4,
+        "total": 6
+      }
+    ],
+    "iniciativa": 8,
+    "ataques": [
+      {
+        "nome": "Concussion Thorn",
+        "bonus": 12,
+        "alcance": "À distância",
+        "dano": "Dano 6, Multi-Attack Whip +12 Dano Corpo a Corpo 4, Fast Grab Desarmado +8 Dano Corpo a Corpo 2"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Fortitude": 7,
+      "Aparar": 11,
+      "Resistência": 5,
+      "Vontade": 9
+    },
+    "observacao_defesas": "* Vontade 9 *sem Rolamento Defensivo Po er ponto W S Abilities 54 Skills 33 Powers 16 Defenses 21 Advantages 11 Total 135 Co MPL i C tion S a i Extreme trauma or mental stress causes Thorn den tity: to revert to her Rose persona: As Rose, her Luta is 1, her Presença is 0, and she has no Skills or Advantages.",
+    "custos": {},
+    "total": null,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

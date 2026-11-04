@@ -1,0 +1,88 @@
+{
+  "nome_pt": "Tigresa (Paula Brooks)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 271,
+  "ficha": {
+    "habilidades": {
+      "For": 4,
+      "Vig": 5,
+      "Agi": 4,
+      "Des": 4,
+      "Lut": 8,
+      "Int": 2,
+      "Pro": 3,
+      "Pre": 4
+    },
+    "poderes": [
+      "a qua tic (Imunidade 4 (Envelhecimento, Frio, Afogamento, High Atlantean sorcerer Atlan. Miya is rarely seen these days, but Pressão), Movimento 1 (Environmental Adaptation– Aquatic), assists Aquaman when emergencies arise. Natação 9 (400 km/h)); Water Control (Alcance de Percepção Damaging Área Moldável Mover Objetos 10 (Limitado a Water))"
+    ],
+    "equipamento": [
+      "Crossbow Pistola (Dano à Distância 5)"
+    ],
+    "vantagens": [
+      "Ambiente Favorito (Aquatic)",
+      "Languages 1 (Japanese)"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 5,
+        "total": 9
+      }
+    ],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Water Control",
+        "bonus": null,
+        "alcance": "",
+        "dano": "Dano 10"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 12,
+        "alcance": "",
+        "dano": "Dano 8"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 12,
+      "Fortitude": 12,
+      "Resistência": 8,
+      "Vontade": 8
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 64,
+      "Poderes": 55,
+      "Vantagens": 2,
+      "Perícias": 9,
+      "Defesas": 24
+    },
+    "total": 154,
+    "complicacoes": [
+      {
+        "titulo": "d oing Good",
+        "texto": "Miya is not afraid to do what’s right, even if it means standing alone. i tity: Miya kept her den true identity secret during WWII."
+      },
+      {
+        "titulo": "Preconceito",
+        "texto": "As a Japanese- American during WWII, Miya faced that era’s prejudices. elationship: Miya was married to Neptune Perkins, and has r a metahuman daughter, Debbie (Deep Blue)."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

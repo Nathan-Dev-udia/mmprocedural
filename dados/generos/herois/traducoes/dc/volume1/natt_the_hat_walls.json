@@ -1,0 +1,121 @@
+{
+  "nome_pt": "Natt \"O Chapéu\" Walls",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 260,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 2,
+      "Agi": 2,
+      "Des": 4,
+      "Lut": 3,
+      "Int": 2,
+      "Pro": 3,
+      "Pre": 2
+    },
+    "poderes": [],
+    "equipamento": [],
+    "vantagens": [],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 7,
+        "total": 8
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Simple Weapons",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 7,
+        "total": 8
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 6,
+        "total": 7
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Combate à Distância: Guns",
+        "graduacoes": 3,
+        "total": 7
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 3,
+        "total": 7
+      }
+    ],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Sniper Rifle",
+        "bonus": 15,
+        "alcance": "À distância",
+        "dano": "Dano 5, Sutil, Improved Aim, Crit. 18-20"
+      },
+      {
+        "nome": "Pistols",
+        "bonus": 15,
+        "alcance": "À distância",
+        "dano": "Dano 4, Critical 19-20 Grenades — À Distância, Área de Explosão Dano 5"
+      },
+      {
+        "nome": "Knife",
+        "bonus": 12,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 3, Crit. 19-20"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Fortitude": 9,
+      "Aparar": 10,
+      "Resistência": 7,
+      "Vontade": 9
+    },
+    "observacao_defesas": "* Vontade 9 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 44,
+      "Perícias": 29,
+      "Poderes": 9,
+      "Defesas": 27,
+      "Vantagens": 41
+    },
+    "total": 150,
+    "complicacoes": [
+      {
+        "titulo": "Feedback",
+        "texto": "Using his X-ray vision or Telepatia Vontade quickly give Monaghan a headache, and Vontade eventually proceed through nausea to cause him more physical Dor."
+      },
+      {
+        "titulo": "Morals",
+        "texto": "Tommy Monaghan’s sense of morality keeps him from ever being an utterly irredeemable villain, but in the bloody and corrupt world in which he operates, it’s also often a frustrating limitation."
+      },
+      {
+        "titulo": "Marked for Death",
+        "texto": "Tommy Monaghan has many, many enemies, most of whom want him dead."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

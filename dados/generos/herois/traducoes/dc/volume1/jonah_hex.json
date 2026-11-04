@@ -1,0 +1,162 @@
+{
+  "nome_pt": "Jonah Hex",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 259,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 3,
+      "Agi": 4,
+      "Des": 5,
+      "Lut": 4,
+      "Int": 1,
+      "Pro": 4,
+      "Pre": 1
+    },
+    "poderes": [
+      "Gunplay: Arranjo (2 pontos)",
+      "• Training: Enhanced Skill 2 (À Distância Combat: Guns +4) (2 PP)",
+      "• Independent Aim: May fogo two guns of Dano 4 or less at once (Característica 1) (1 PP)"
+    ],
+    "equipamento": [
+      "Twin Colt .45 Revolvers: Dano à Distância 4 (16 PP)",
+      "Winchester Rifle: Dano à Distância 5, Crit. 19-20 (11 PP)",
+      "Bowie Knife: Força-based Dano 1, Crit. 19-20 (2 PP)",
+      "Cavalry Saber: Força-based Dano 3, Crit. 19-20 (4 PP)"
+    ],
+    "vantagens": [
+      "Rolamento Defensivo 2",
+      "Duro de Matar",
+      "Equipamento 7",
+      "Destemido",
+      "Grande Vigor",
+      "Mira Aprimorada",
+      "Improved Critical 2 (Guns)",
+      "Iniciativa Aprimorada",
+      "Arma Improvisada 2",
+      "Languages (Apache)",
+      "Precise Attack 2 (à distância; Cover and Concealment)",
+      "Saque Rápido",
+      "Tomar a Iniciativa",
+      "Rastrear",
+      "Esforço Supremo (Aim)",
+      "Esquiva Fabulosa"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 5,
+        "total": 9
+      },
+      {
+        "nome": "Especialidade: Riding",
+        "graduacoes": 7,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: Scouting",
+        "graduacoes": 7,
+        "total": 8
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 6,
+        "total": 7
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Combate à Distância: Guns",
+        "graduacoes": 2,
+        "total": 7
+      },
+      {
+        "nome": "Combate à Distância: Throwing",
+        "graduacoes": 4,
+        "total": 9
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 7,
+        "total": 11
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 4,
+        "total": 5
+      }
+    ],
+    "iniciativa": 8,
+    "ataques": [
+      {
+        "nome": "Colt Pistola",
+        "bonus": 11,
+        "alcance": "À distância",
+        "dano": "Dano 4, Crit. 18-20"
+      },
+      {
+        "nome": "Rifle",
+        "bonus": 11,
+        "alcance": "À distância",
+        "dano": "Dano 5, Crit. 17-20"
+      },
+      {
+        "nome": "Saber",
+        "bonus": 9,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 5, Crit. 19-20"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 11,
+      "Fortitude": 7,
+      "Aparar": 11,
+      "Resistência": 5,
+      "Vontade": 9
+    },
+    "observacao_defesas": "** Vontade 9 **sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 48,
+      "Perícias": 30,
+      "Poderes": 3,
+      "Defesas": 23,
+      "Vantagens": 26
+    },
+    "total": 130,
+    "complicacoes": [
+      {
+        "titulo": "Vício",
+        "texto": "Jonah enjoys having a drink a bit more than he ought to."
+      },
+      {
+        "titulo": "Honra",
+        "texto": "Hex has a personal code of honor that compels him to help and avenge the innocent. This often gets him involved in things he says he’d rather steer clear of."
+      },
+      {
+        "titulo": "Preconceito",
+        "texto": "Jonah was given the mark of the demon—a very distinctive scar—by the Apache, which makes him very recognizable and more than a little ugly. He has a hard time going unnoticed even when he wants to."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

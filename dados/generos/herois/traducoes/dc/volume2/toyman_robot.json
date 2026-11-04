@@ -1,0 +1,68 @@
+{
+  "nome_pt": "Robô do Homem dos Brinquedos",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 236,
+  "ficha": {
+    "habilidades": {
+      "For": 12,
+      "Vig": "—",
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 6,
+      "Int": "—",
+      "Pro": 2,
+      "Pre": "—"
+    },
+    "poderes": [
+      "a r tificial (Imunidade 30 (Fortitude Effects)), r einforced Chassis (Proteção 13, Impenetrável 10 graduações), f ligh t 2, Mouth Cannon (Dano à Distância 11, Multiataque), Likeness (Metamorfose 1)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Agarrar Rápido",
+      "Agarrar Aprimorado",
+      "Imobilizar Aprimorado",
+      "Ação em Movimento"
+    ],
+    "pericias": [
+      {
+        "nome": "Enganação",
+        "graduacoes": 6,
+        "total": 6
+      },
+      {
+        "nome": "Combate à Distância: Mouth Cannon",
+        "graduacoes": 8,
+        "total": 11
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 7,
+        "alcance": "",
+        "dano": "Dano 12"
+      },
+      {
+        "nome": "Mouth Cannon",
+        "bonus": 11,
+        "alcance": "",
+        "dano": "Dano 11"
+      }
+    ],
+    "defesas": {},
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 20,
+      "Poderes": 95,
+      "Vantagens": 4,
+      "Perícias": 7,
+      "Defesas": 6
+    },
+    "total": 132,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

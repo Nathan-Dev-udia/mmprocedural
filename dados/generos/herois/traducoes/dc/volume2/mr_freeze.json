@@ -1,0 +1,102 @@
+{
+  "nome_pt": "Senhor Frio",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 55,
+  "ficha": {
+    "habilidades": {
+      "For": 9,
+      "Vig": 3,
+      "Agi": 2,
+      "Des": 3,
+      "Lut": 5,
+      "Int": 5,
+      "Pro": 2,
+      "Pre": 0
+    },
+    "poderes": [
+      "Cryo-Preserved: Imunidade 6 (Envelhecimento, Frio Dano) (6 PP)",
+      "f r eeze Gun: Arranjo (36 pontos), Facilmente Removível (–16 pontos) (22 PP)",
+      "• Frio Raio: Dano à Distância 12, resistido por Fortitude (36 PP)",
+      "• i c e o bjec ts: Criar Objetos 10, Inato, Sutil, Permanente (1 PP)",
+      "• i c y Aprisionar: Área de Linha Aflição à Distância 8 (resistido por Esquiva; Impedido and Vulnerável, Indefeso and Imóvel), Cumulativo, Limitado Degree (1 PP)",
+      "r efrigeration Suit: Força Aprimorada 7; Imunidade 10 (Suporte Vital); Movimento 2 (Sure-footed 4, Limitado—Only to Ice and Snow); Proteção 9, Impenetrável; Removível (-9 pontos) (35 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Preciso",
+      "Ambiente Favorito (Extreme Frio)",
+      "Inventor"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 3,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: Cryogenics",
+        "graduacoes": 10,
+        "total": 15
+      },
+      {
+        "nome": "Combate à Distância: Freeze Gun",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 12,
+        "total": 17
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 6,
+        "total": 9
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Frio Raio",
+        "bonus": 8,
+        "alcance": "À distância",
+        "dano": "Dano 12, resistido por Fortitude Icy Aprisionar — À Distância, Área de Linha Aflição 8"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 9"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Fortitude": 9,
+      "Aparar": 8,
+      "Resistência": 12,
+      "Vontade": 9
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 44,
+      "Perícias": 18,
+      "Poderes": 63,
+      "Defesas": 22,
+      "Vantagens": 3
+    },
+    "total": 150,
+    "complicacoes": [
+      {
+        "titulo": "o bsession",
+        "texto": "Mr. Freeze commits crimes to fund his experiments to cure his wife, Nora."
+      },
+      {
+        "titulo": "Fraqueza",
+        "texto": "If Mr. Freeze is exposed to above-freezing temperatures outside of his Refrigeration Suit, his Vigor becomes impaired, disabled, then debilitated."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

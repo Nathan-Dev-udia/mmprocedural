@@ -1,0 +1,81 @@
+{
+  "nome_pt": "Bestiamorfo",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 118,
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 3,
+      "Agi": 0,
+      "Des": 0,
+      "Lut": 3,
+      "Int": "—",
+      "Pro": 2,
+      "Pre": 0
+    },
+    "poderes": [
+      "See description plus Sentidos 3 (Aguçado Smell, Visão no Escuro)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Rastrear"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 2,
+        "total": 5
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 5,
+        "total": 5
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 4,
+        "total": 4
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 5,
+        "alcance": "",
+        "dano": "(Dano 3)"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 5,
+      "Aparar": 5,
+      "Fortitude": 5,
+      "Resistência": 3,
+      "Vontade": 3
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 20,
+      "Poderes": 3,
+      "Vantagens": 2,
+      "Perícias": 10,
+      "Defesas": 10
+    },
+    "total": 45,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "nome_pt": "Major Desastre",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 33,
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 3,
+      "Agi": 2,
+      "Des": 1,
+      "Lut": 2,
+      "Int": 1,
+      "Pro": 1,
+      "Pre": 1
+    },
+    "poderes": [
+      "65 Defenses 18"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "4 Total 133"
+    ],
+    "pericias": [],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Mass Destruição",
+        "bonus": 8,
+        "alcance": "À distância",
+        "dano": "Área de Explosão 2 (60 feet) Dano 12 Earthquake/ À Distância, Área de Explosão 2 (60 feet)"
+      },
+      {
+        "nome": "Storm Buffet",
+        "bonus": 8,
+        "alcance": "",
+        "dano": "Aflição 12, resistido por Esquiva Desarmado +2 Corpo a Corpo, Dano 3"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 13,
+      "Fortitude": 8,
+      "Aparar": 6,
+      "Resistência": 11,
+      "Vontade": 6
+    },
+    "observacao_defesas": "* Fortitude 8 Aparar 6 Resistência 11 Vontade 6 *Without Buffeted Object Screen. Po er ponto W S Abilities 28",
+    "custos": {},
+    "total": null,
+    "complicacoes": [
+      {
+        "titulo": "ddic tion",
+        "texto": "Motivation— r esponsibility: Major Disaster is driven by regret and works to make up for past misdeeds. aLLI e S Booker was a member of the second Injustice League and he briefly served with Amanda Waller’s Suicide Squad. After he reformed, Booker joined the Justice League of America and served with the Justice League Elite. e ne MI e S While he was a costumed criminal, Major Disaster sparred with Green Lantern (Hal Jordan) and the Flash (Barry Allen) on a number of occasions."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

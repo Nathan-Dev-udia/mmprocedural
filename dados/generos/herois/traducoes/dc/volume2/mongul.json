@@ -1,0 +1,101 @@
+{
+  "nome_pt": "Mongul",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 65,
+  "ficha": {
+    "habilidades": {
+      "For": 14,
+      "Vig": 14,
+      "Agi": 4,
+      "Des": 4,
+      "Lut": 12,
+      "Int": 4,
+      "Pro": 4,
+      "Pre": 8
+    },
+    "poderes": [
+      "d Dano à Distância 16, Preciso 3 (35 PP)",
+      "isin tegration Beam: Gigantic Leaps : Salto 7 (900 feet) (7 PP)",
+      "i mpr egnable Skin : Resistência Impenetrável 14 (14 PP)",
+      "Massive Build : Força Aprimorada 6, Only for lifting (lifting Str 20; 25,000 tons) (6 PP)",
+      "r ugged Constitution : Imunidade 5 (Frio, Calor, Pressão, Radiação, Vácuo) (5 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Estrangular",
+      "Agarrar Aprimorado",
+      "Imobilizar Aprimorado",
+      "Languages 2 (English",
+      "Arkadyte",
+      "Interlac)",
+      "Ataque Poderoso",
+      "Redirecionar",
+      "Assustar"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 4,
+        "total": 18
+      },
+      {
+        "nome": "Especialidade: Warlord",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 6,
+        "total": 14
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Combate à Distância",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 5,
+        "total": 9
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [],
+    "defesas": {
+      "Esquiva": 10,
+      "Fortitude": 14,
+      "Aparar": 12,
+      "Resistência": 14,
+      "Vontade": 12
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 128,
+      "Perícias": 20,
+      "Poderes": 67,
+      "Defesas": 14,
+      "Vantagens": 10
+    },
+    "total": 239,
+    "complicacoes": [
+      {
+        "titulo": "Power",
+        "texto": "Mongul is driven by his power-hunger. e ne MI e S Mongul’s enemies are legion, from Superman and the Justice League to the entire Green Lantern Corps, the Sinestro Corps, and the inhabitants of the planet Daxam (which Mongul at - tempted to conquer)."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

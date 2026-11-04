@@ -1,0 +1,125 @@
+{
+  "nome_pt": "Mestre dos Oceanos",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 81,
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 4,
+      "Agi": 2,
+      "Des": 3,
+      "Lut": 5,
+      "Int": 3,
+      "Pro": 3,
+      "Pre": 2
+    },
+    "poderes": [
+      "a Imunidade 3 (Frio, Calor, Pressão); Movimento 1 rmor : (Environmental Adaptation: Aquatic); Impenetrável Proteção 6; Natação 8 (192 km/h); Removível (-5 ponto) (20 PP)",
+      "Helmet: Imunidade 1(Afogamento); Sentidos 1 (Visão na Penumbra); Removível (-0) (2 PP)",
+      "Magical t riden t: Arranjo (30 pontos)",
+      "• Mystic Bolt: Dano à Distância 10, Penetrante 10 (30 PP)",
+      "• t elepa thy: mental Comunicação 4, Leitura mental 7 (1 PP)",
+      "• Mystic f lames: Dano à Distância 10, Efeito Secundário (1 PP)",
+      "t riden t a ttack : Força-Based Dano 4, Reach 1 (5 feet) (5 PP)",
+      "Note: Ocean Master’s Trident does not possess the Removível Flaw. See Trident Link Complication. a V ant G d a e S Artificer, Improved Iniciativa, Language (Atlantean), Ritualist, Weapon Bind"
+    ],
+    "equipamento": [],
+    "vantagens": [],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 3,
+        "total": 6
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Swords",
+        "graduacoes": 2,
+        "total": 7
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Trident",
+        "graduacoes": 7,
+        "total": 12
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 5,
+        "total": 7
+      },
+      {
+        "nome": "Especialidade: Atlantean Lore",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Especialidade: mágico",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Especialidade: Streetwise",
+        "graduacoes": 2,
+        "total": 5
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Combate à Distância: Trident",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 5,
+        "total": 8
+      }
+    ],
+    "iniciativa": 6,
+    "ataques": [
+      {
+        "nome": "Mystic Raio",
+        "bonus": 10,
+        "alcance": "",
+        "dano": "Range, Dano 10 or other effects Trident +12 Corpo a Corpo, Dano 7"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Fortitude": 9,
+      "Aparar": 10,
+      "Resistência": 10,
+      "Vontade": 10
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 50,
+      "Perícias": 26,
+      "Poderes": 59,
+      "Defesas": 25,
+      "Vantagens": 5
+    },
+    "total": 165,
+    "complicacoes": [
+      {
+        "titulo": "r iv alry",
+        "texto": "and is obsessed with conquering his kingdom and proving that he is better than the King of Atlantis. t riden t Link: Ocean Master’s trident greatly increases and focuses his power, but being separated from it causes him incredible Dor. Every round he is separated from his trident, he must save against the following Effect: Aflição 8 (impaired, disabled, Incapacitado), Cumulativo. Ocean Master possesses some magical Powers even without the trident, but the Dor of being separated from it makes it effectively impossible for him to properly cast spells and work enchantments (apply penalties from Aflição)."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

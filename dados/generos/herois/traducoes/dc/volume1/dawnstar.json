@@ -1,0 +1,150 @@
+{
+  "nome_pt": "Dawnstar",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 149,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 4,
+      "Agi": 5,
+      "Des": 5,
+      "Lut": 9,
+      "Int": 2,
+      "Pro": 6,
+      "Pre": 3
+    },
+    "poderes": [
+      "Voo: Voo 15 (64,0 km/h), Limitado a graduação 9 (1600 km/h) unless in outer space; Movimento 3 (Space Travel 3); Wings (15 PP)",
+      "Space Adaptation: Imunidade 10 (Suporte Vital) (10 PP)",
+      "Super-Tracking: Sentidos 8 (Preciso, Aguçado, Noção de Direção, Noção de Distância, Extended, Tracking 2) (8 PP)",
+      "Wing Golpe: Força-based Dano 2 (2 PP)"
+    ],
+    "equipamento": [
+      "Voo Ring: Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal –3 pontos); Voo 7 (400 km/h), Removível (–3 pontos) (16 PP)",
+      "Telepathic Plug: Compreender 3 (Languages); mental Comunicação 1 (Corpo a Corpo Range), Removível (–1 ponto) (7 PP)",
+      "Transsuit: Imunidade 9 (Suporte Vital, except for Inanição and thirst), Removível (–2 ponto) (7 PP)"
+    ],
+    "vantagens": [
+      "Finta Ágil",
+      "Atraente 1",
+      "Benefit 1 (Legion membership)",
+      "Ataque Corpo-a-Corpo 7",
+      "Rolamento Defensivo 3",
+      "Equipamento 6",
+      "Evasion",
+      "Ambiente Favorito (Aerial)",
+      "Ambiente Favorito (Outer Space)",
+      "Grappling Finesse",
+      "Grande Vigor",
+      "Defesa Aprimorada",
+      "Iniciativa Aprimorada",
+      "Languages (Starhavenite)",
+      "Ação em Movimento",
+      "Preparar",
+      "Trabalho em Equipe",
+      "Rastrear",
+      "Esquiva Fabulosa"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 2,
+        "total": 3
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 6,
+        "total": 12
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: Guide",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 12,
+        "total": 18
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 6,
+        "total": 11
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 2,
+        "total": 7
+      }
+    ],
+    "iniciativa": 9,
+    "ataques": [
+      {
+        "nome": "Wing Golpe",
+        "bonus": 16,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 4"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 16,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 13,
+      "Fortitude": 8,
+      "Aparar": 11,
+      "Resistência": 7,
+      "Vontade": 8
+    },
+    "observacao_defesas": "* Vontade 8 *sem Rolamento Defensivo bonus.",
+    "custos": {
+      "Habilidades": 72,
+      "Perícias": 32,
+      "Poderes": 34,
+      "Defesas": 16,
+      "Vantagens": 32
+    },
+    "total": 186,
+    "complicacoes": [
+      {
+        "titulo": "Relacionamento",
+        "texto": "Dawnstar has a rocky love-hate relationship with Wildfire (See Vol. II )."
+      },
+      {
+        "titulo": "Reputação",
+        "texto": "Dawnstar often comes across as stuck-up or aloof."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "nome_pt": "Jade",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 282,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 1,
+      "Agi": 2,
+      "Des": 3,
+      "Lut": 3,
+      "Int": 2,
+      "Pro": 4,
+      "Pre": 3
+    },
+    "poderes": [
+      "Voo: Voo 13 (16,0 km/h), Movimento 4 (Environmental Adaptation: Zero-G, Space Travel 3) (34 PP)",
+      "Starheart Proteção: Impenetrável Proteção 11; Imunidade 11 (Envelhecimento, Suporte Vital) (33 PP)",
+      "Starheart Manipulation: Arranjo (26 pontos)",
+      "• Force Raio: Dano à Distância 13, Dynamic (27 PP)",
+      "• Force Constructs: Criar Objetos 13, Dynamic (2 PP)",
+      "• Lifting: Mover Objetos 13, Dynamic (2 PP)",
+      "Psychic Bond: Sentidos 1 (Comunicação Link: Obsidian) (1 PP)",
+      "Starheart Sight: Sentidos 4 (Analítico Vision, Aguçado mágico Prontidão) (4 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Atraente",
+      "Benefit 1 (Well-off)",
+      "Destemido",
+      "Liderança",
+      "Trabalho em Equipe"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 3,
+        "total": 4
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: Journalism",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: Popular Culture",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 5,
+        "total": 9
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 5,
+        "total": 9
+      },
+      {
+        "nome": "Combate à Distância: Starheart Powers",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Especialidade: Power Ring",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 4,
+        "total": 6
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Force Raio",
+        "bonus": 9,
+        "alcance": "À distância",
+        "dano": "Dano 13"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 2,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 1"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Fortitude": 8,
+      "Aparar": 10,
+      "Resistência": 12,
+      "Vontade": 13
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 38,
+      "Perícias": 21,
+      "Poderes": 103,
+      "Defesas": 31,
+      "Vantagens": 5
+    },
+    "total": 198,
+    "complicacoes": [
+      {
+        "titulo": "Power Issues",
+        "texto": "Jade has lost her Powers at times and has even manifested new Abilities on occasion. During her time as a Green Lantern her ring had the Complications common to the Green Lantern Corps."
+      },
+      {
+        "titulo": "Relacionamentos",
+        "texto": "Green Lantern (Alan Scott (father)), Obsidian (twin brother), Green Lantern (Kyle Rayner (ex-lover and friend)."
+      },
+      {
+        "titulo": "Fraqueza",
+        "texto": "Like her father’s, Jade’s Powers do not work on wood."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

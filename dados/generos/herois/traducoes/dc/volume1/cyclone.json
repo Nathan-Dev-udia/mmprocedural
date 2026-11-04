@@ -1,0 +1,102 @@
+{
+  "nome_pt": "Cyclone",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 295,
+  "ficha": {
+    "habilidades": {
+      "For": -1,
+      "Vig": 1,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 2,
+      "Int": 5,
+      "Pro": 1,
+      "Pre": 1
+    },
+    "poderes": [
+      "Air Control (Arranjo (18 pontos): Área de Cone Mover Objetos 9 (Corpo a Corpo Range), AE: Air Raio (Área de Cone Dano 9), AE: Air Cushion (Área de Explosão Safe Fall, Affects Others), AE: Tornado Burst ( área Mover Objetos 9, Corpo a Corpo Range)); Cyclone “Escudo” (Enhanced Defenses (Esquiva 13, Aparar 13), Perceptível); Voo 5 (96 km/h; Affects Others)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Rolamento Defensivo",
+      "Sorte 2",
+      "Minion 2 (Frankie",
+      "pet monkey)"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Especialidade: Wizard of Oz",
+        "graduacoes": 6,
+        "total": 11
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 4,
+        "total": 9
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 2,
+        "alcance": "",
+        "dano": "Dano -1"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 16,
+      "Aparar": 16,
+      "Fortitude": 5,
+      "Resistência": 2,
+      "Vontade": 5
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 26,
+      "Poderes": 66,
+      "Vantagens": 5,
+      "Perícias": 15,
+      "Defesas": 10
+    },
+    "total": 122,
+    "complicacoes": [
+      {
+        "titulo": "Motormouth",
+        "texto": "Maxine talks constantly, often saying things she shouldn’t. She is also ignored by others because she never stops talking."
+      },
+      {
+        "titulo": "Naive",
+        "texto": "Maxine is young and inexperienced, so she’s easily duped and misled."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

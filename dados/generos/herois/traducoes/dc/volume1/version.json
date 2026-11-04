@@ -1,0 +1,79 @@
+{
+  "nome_pt": "Version)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 278,
+  "ficha": {
+    "habilidades": {
+      "For": "—",
+      "Vig": "—",
+      "Agi": "—",
+      "Des": 4,
+      "Lut": 0,
+      "Int": 10,
+      "Pro": 4,
+      "Pre": 0
+    },
+    "poderes": [
+      "Comunicação 4 (Rádio), Compreender Machines 2 ; Imunidade 30 (Fortitude Effects); Intangibilidade 4 (Hologram; Intangibilidade; Permanente, Inato); Cyberconnection Powers Arranjo (31 pontos): Controle mental 10 (Sutil, Limitado a Machines), AE: Leitura mental 10 (Cumulativo, Effortless, Sutil, Limitado a Machines), AE: Remote Sensing 10 (All Sentidos, Medium: Sensor Devices); Proteção 5"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Memória Eidética",
+      "Destemido",
+      "Bem-Informado"
+    ],
+    "pericias": [
+      {
+        "nome": "Enganação",
+        "graduacoes": 8,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: Computers",
+        "graduacoes": 10,
+        "total": 20
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 4,
+        "total": 14
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 10,
+        "total": 20
+      }
+    ],
+    "iniciativa": 4,
+    "ataques": [],
+    "defesas": {
+      "Esquiva": 5,
+      "Aparar": 5,
+      "Resistência": 5,
+      "Vontade": 12
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 6,
+      "Poderes": 109,
+      "Vantagens": 3,
+      "Perícias": 22,
+      "Defesas": 18
+    },
+    "total": 158,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

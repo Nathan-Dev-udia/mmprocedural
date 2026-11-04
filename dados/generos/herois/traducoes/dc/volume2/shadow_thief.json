@@ -1,0 +1,97 @@
+{
+  "nome_pt": "Ladrão das Sombras",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 172,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 3,
+      "Agi": 5,
+      "Des": 5,
+      "Lut": 5,
+      "Int": 2,
+      "Pro": 2,
+      "Pre": 1
+    },
+    "poderes": [
+      "Shadow f orm: Affects Corporeal on Força 2; Camuflagem 4 (All Visual, Limitado a Darkness and Shadows); Força- based Dano 3, Affects Corporeal; Enhanced Defenses 8 (Esquiva 4, Aparar 4); Enhanced Advantages 3 (Hide in Plain Sight, Instant Up, Move-by Action, Skill Mastery 2 (Sleight of Hand, Stealth)); Imunidade 10 (Suporte Vital); Intangibilidade 4 (Shadow Form); Movimento 3 (Slithering, Wall-crawling 2); Removível, -12 pts (49 PP)",
+      "a V ant G d a e S Preciso Attack, Agile Feint, Chokehold, Corpo a Corpo Attack 6, Defensive Roll 3, Evasion, Grabbing Finesse, Hide in Plain Sight, Improved Hold, Improved Iniciativa, Improved Trip, Instant Up, Move-by Action, Skill Mastery 2 (Sleight of Hand, Stealth)"
+    ],
+    "equipamento": [],
+    "vantagens": [],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 8,
+        "total": 9
+      },
+      {
+        "nome": "Especialidade: Thief",
+        "graduacoes": 10,
+        "total": 12
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 10,
+        "total": 15
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 10,
+        "total": 15
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 4,
+        "total": 6
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [],
+    "defesas": {
+      "Esquiva": 11,
+      "Fortitude": 7,
+      "Aparar": 11,
+      "Resistência": 6,
+      "Vontade": 7
+    },
+    "observacao_defesas": "* Vontade 7 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 50,
+      "Perícias": 35,
+      "Poderes": 49,
+      "Defesas": 13,
+      "Vantagens": 18
+    },
+    "total": 165,
+    "complicacoes": [
+      {
+        "titulo": "d elusional",
+        "texto": "Sands’ long-term exposure to the energies of the Dimensiomet er has affected his mind and weakened his grasp on reality, to the extent that he sometimes engages in long conversations with the inanimate Dimensiometer itself. temporary power boosts from patrons like Neron and Star - breaker. aLLI e S Sands really doesn’t play well with others and only has allies, such as the Injustice League, when absolutely necessary for his plans or bank account. Powerful patrons like Starbreaker, whose offers appeal to his greed or ambition, are another matter entirely. e ne MI e S Hawkman and Hawkwoman are the most prominent, but his involvement in the death of Firestorm and humiliation at Manhunter’s (Kate Spencer) hands has probably added her and the resurrected Firestorm to the list."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

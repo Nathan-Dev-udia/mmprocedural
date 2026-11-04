@@ -1,0 +1,94 @@
+{
+  "nome_pt": "Duplóide",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 69,
+  "ficha": {
+    "habilidades": {
+      "For": 7,
+      "Vig": 6,
+      "Agi": 3,
+      "Des": 4,
+      "Lut": 5,
+      "Int": 4,
+      "Pro": 2,
+      "Pre": 1
+    },
+    "poderes": [
+      "e nergy a bsorption (Proteção 6, Impenetrável 12, Limitado a Energy)"
+    ],
+    "equipamento": [
+      "Heavy Pistola (Dano à Distância 4)"
+    ],
+    "vantagens": [
+      "Equipamento 2",
+      "Trabalho em Equipe"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 4,
+        "total": 9
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Especialidade: Physics",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Combate à Distância: Pistola",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 4,
+        "total": 8
+      }
+    ],
+    "iniciativa": 3,
+    "ataques": [
+      {
+        "nome": "Heavy Pistola",
+        "bonus": 8,
+        "alcance": "À distância",
+        "dano": "Dano 4"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 9,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 7"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 8,
+      "Fortitude": 10,
+      "Resistência": 6,
+      "Vontade": 5
+    },
+    "observacao_defesas": "*, Vontade 5 *Limitado a Energy.",
+    "custos": {
+      "Habilidades": 64,
+      "Poderes": 9,
+      "Vantagens": 3,
+      "Perícias": 14,
+      "Defesas": 15
+    },
+    "total": 105,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

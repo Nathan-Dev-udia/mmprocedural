@@ -1,0 +1,149 @@
+{
+  "nome_pt": "Sandman (Sandy Hawkins)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 153,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 6,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 8,
+      "Int": 3,
+      "Pro": 3,
+      "Pre": 3
+    },
+    "poderes": [
+      "Geokinesis: Arranjo (36 pontos), • e arthwalker: Teleporte 15 (120 milhas), Extended (32,000 milhas), Medium (Contiguous earth) (30 PP)",
+      "• e arth Control: Damaging Alcance de Percepção Mover Objetos 9, Limitado a earth, sand, and rock (1 PP)",
+      "• e arthquake: Área de Explosão Dano 10, Limitado: Both Hawkins and targets must be in contact with the ground, Linked to Área de Explosão Aflição 10 (resistido por Fortitude; Vulnerável, Indefeso), Instant Recovery, Limitado Degree, Limitado: Both Hawkins and targets must be in contact with the ground (1 PP)",
+      "• e arth Shaping: Contínuo Movable Criar Objetos 7 (1 PP)",
+      "Legacy"
+    ],
+    "equipamento": [
+      "Arranjo (44 pontos), Facilmente Removível (-22 pontos) • Sleep-Gas Gun: Área de Nuvem Aflição 8 (resistido por Fortitude; Tonto and Fatigado, Compelido and Exausto, Adormecido), Extra Condition, Reach 4 (20 feet), Linked to Área de Nuvem Camuflagem 6 Attack (Olfactory and All Visual), Partial, Reach 4 (20 feet) (41 PP)",
+      "• Wirepoon: Dano à Distância 5; Movimento 1 (Swinging) (1 PP)",
+      "eluctant Seer: Sentidos 4 (Precognition) Uncontrolled (2 PP)",
+      "r Self-Shaping: Arranjo (14 pontos)",
+      "• Hard as r ock: Força Aprimorada 4, Característica 2 (Increased Mass graduação 2 (800 lbs)), Impenetrável Proteção 2 (14 PP)",
+      "• Living Sand: Intangibilidade 2 (Sand), Imunidade 2 (Sufocamento) (1 PP)",
+      "i PM ent eQU a Gas Mask, Body Armor (Proteção 2, doesn’t c coutrements: stack with Hard as Rock) (3 PP)"
+    ],
+    "vantagens": [
+      "Ataque Preciso",
+      "Benefit 2 (Independently Wealthy)",
+      "Ataque Corpo-a-Corpo 4",
+      "Conectado",
+      "Contatos",
+      "Ataque Defensivo",
+      "Evasion",
+      "Equipamento",
+      "Defesa Aprimorada",
+      "Iniciativa Aprimorada",
+      "Derrubar Aprimorado",
+      "Bem-Informado"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Especialidade: Criminology",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Combate à Distância: Guns",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 8,
+        "total": 10
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Sleep-Gas Gun",
+        "bonus": null,
+        "alcance": "",
+        "dano": "Área de Nuvem Aflição 8, resistido por Fortitude"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 12,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 8,
+      "Fortitude": 10,
+      "Resistência": 10,
+      "Vontade": 10
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 58,
+      "Poderes": 36,
+      "Vantagens": 14,
+      "Perícias": 24,
+      "Defesas": 23
+    },
+    "total": null,
+    "complicacoes": [
+      {
+        "titulo": "Motivação",
+        "texto": "Justice, Responsibility: Legacy of Wesley Dodds, Identity."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

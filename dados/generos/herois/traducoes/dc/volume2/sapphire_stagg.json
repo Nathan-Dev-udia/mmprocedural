@@ -1,0 +1,70 @@
+{
+  "nome_pt": "Safira Stagg",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 49,
+  "ficha": {
+    "habilidades": {
+      "For": -1,
+      "Vig": 1,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 0,
+      "Int": 3,
+      "Pro": 1,
+      "Pre": 1
+    },
+    "poderes": [],
+    "equipamento": [],
+    "vantagens": [
+      "Atraente",
+      "Benefit 3 (Millionaire)",
+      "Sorte 1"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 2,
+        "total": 1
+      },
+      {
+        "nome": "Especialidade: Jet-Setter",
+        "graduacoes": 6,
+        "total": 6
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 4,
+        "total": 5
+      }
+    ],
+    "iniciativa": 1,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 0,
+        "alcance": "",
+        "dano": "(Dano -1)"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 3,
+      "Aparar": 2,
+      "Fortitude": 1,
+      "Resistência": 1,
+      "Vontade": 3
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 8,
+      "Poderes": 0,
+      "Vantagens": 5,
+      "Perícias": 6,
+      "Defesas": 6
+    },
+    "total": 25,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

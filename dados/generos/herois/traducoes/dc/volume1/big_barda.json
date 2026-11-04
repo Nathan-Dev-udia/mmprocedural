@@ -1,0 +1,121 @@
+{
+  "nome_pt": "Grande Barda",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 48,
+  "ficha": {
+    "habilidades": {
+      "For": 15,
+      "Vig": 15,
+      "Agi": 8,
+      "Des": 8,
+      "Lut": 11,
+      "Int": 2,
+      "Pro": 4,
+      "Pre": 6
+    },
+    "poderes": [
+      "Aero Disks: Voo 6 (192 km/h), Platform, Removível (-1 ponto) (5 PP)",
+      "Apokoliptian Armor: Força Aprimorada 5, Vigor Aprimorado 5, Removível (-4 pontos) (16 PP)",
+      "Imortal: Imunidade 11 (Envelhecimento, Suporte Vital), Resistência Impenetrável 8 (19 PP)",
+      "Mega Rod: Arranjo (20 pontos), Facilmente Removível (-10 pontos) • Concussive Raio: Dano à Distância 10 (20 PP)",
+      "• Voo: Voo 5 (96 km/h) (1 PP)",
+      "• Mega Mace: Penetrante 10 on Força Dano (1 PP)",
+      "• Teleporte: Teleportation 5 (900 feet) (1 PP)",
+      "• Transwarp Drive: Movimento 3 (Space Travel) (1 PP)",
+      "Mother Box: Característica 2 (Intelligence); Cura 8; Movimento 3 (Space Travel); Removível (-5 pontos) (20 PP)",
+      "Força of Apokolips: Força Aprimorada 4, Limitado a Lifting (lifting Str 19; 12,000 tons) (4 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Preciso",
+      "Ataque Imprudente",
+      "Avaliação",
+      "Grande Vigor",
+      "Iniciativa Aprimorada",
+      "Interpor-se",
+      "Liderança"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 4,
+        "total": 19
+      },
+      {
+        "nome": "Especialidade: Tactics",
+        "graduacoes": 5,
+        "total": 7
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 2,
+        "total": 6
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 4,
+        "total": 10
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Combate à Distância: Mega Rod",
+        "graduacoes": 3,
+        "total": 11
+      }
+    ],
+    "iniciativa": 12,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 11,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 15"
+      },
+      {
+        "nome": "Mega Rod",
+        "bonus": 11,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 15, Penetrante 10"
+      },
+      {
+        "nome": "Mega Rod",
+        "bonus": 11,
+        "alcance": "À distância",
+        "dano": "Dano 10"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Fortitude": 11,
+      "Aparar": 11,
+      "Resistência": 15,
+      "Vontade": 9
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 118,
+      "Perícias": 11,
+      "Poderes": 77,
+      "Defesas": 6,
+      "Vantagens": 7
+    },
+    "total": 219,
+    "complicacoes": [
+      {
+        "titulo": "Love",
+        "texto": "Big Barda’s love for Scott Free means she Vontade always be more concerned with his safety than her own."
+      },
+      {
+        "titulo": "Inimigos",
+        "texto": "When she left Apokolips, Big Barda was marked a traitor by Granny Goodness, the Female Furies, and even Darkseid himself (see Darkseid )."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

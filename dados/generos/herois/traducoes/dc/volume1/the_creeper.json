@@ -1,0 +1,118 @@
+{
+  "nome_pt": "The Creeper",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 129,
+  "ficha": {
+    "habilidades": {
+      "For": 7,
+      "Vig": 7,
+      "Agi": 7,
+      "Des": 5,
+      "Lut": 7,
+      "Int": 2,
+      "Pro": 2,
+      "Pre": 4
+    },
+    "poderes": [
+      "Cellular Regeneração: Regeneração 10 (10 PP)",
+      "Creep: Salto 5, Movimento 6 (Safe Fall, Sure-Footed 2, Swinging, Wall-crawling 2) (17 PP)",
+      "Nanocell Transformation Característica 1 (Transform instantly from Ryder to the Creeper) (1 PP)",
+      "Terrifying Laughter: Perception área (Auditory) Aflição 7 (resistido por Vontade; Impaired, Imóvel, Paralisado), Seletivo (21 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Finta Ágil",
+      "Rolamento Defensivo 2",
+      "Iniciativa Aprimorada",
+      "Derrubar Aprimorado",
+      "Ação em Movimento",
+      "Assustar",
+      "Provocar"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 6,
+        "total": 13
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 3,
+        "total": 10
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 4,
+        "total": 11
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 5,
+        "total": 9
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 5,
+        "total": 7
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 7,
+        "total": 9
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 4,
+        "total": 9
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 4,
+        "total": 11
+      }
+    ],
+    "iniciativa": 11,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 11,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 7 Terrifying Laughter— Perception área, Aflição 7, resistido por Vontade, Seletivo"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 11,
+      "Fortitude": 7,
+      "Aparar": 11,
+      "Resistência": 7,
+      "Vontade": 7
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 82,
+      "Perícias": 22,
+      "Poderes": 49,
+      "Defesas": 13,
+      "Vantagens": 8
+    },
+    "total": 174,
+    "complicacoes": [
+      {
+        "titulo": "Split Personality",
+        "texto": "The Creeper and Jack Ryder are two minds sharing the same body, but are often at odds with one another: the Creeper complains that Ryder holds him back, while Ryder is concerned that the Creeper might be driving him insane."
+      },
+      {
+        "titulo": "Hunted",
+        "texto": "To distract those coming Corpo a Corpo to discovering the connection between Jack Ryder and the Creeper, Jack Ryder announced on his television show not only that he disapproved of vigilantes, but also offered a million dollar reward to whoever brings the Creeper to justice."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

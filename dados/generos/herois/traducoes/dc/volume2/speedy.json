@@ -1,0 +1,121 @@
+{
+  "nome_pt": "Ricardito",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 188,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 2,
+      "Agi": 3,
+      "Des": 2,
+      "Lut": 3,
+      "Int": 1,
+      "Pro": 1,
+      "Pre": 2
+    },
+    "poderes": [],
+    "equipamento": [],
+    "vantagens": [],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 3,
+        "total": 6
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 7,
+        "total": 8
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 3,
+        "total": 6
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 3,
+        "total": 5
+      },
+      {
+        "nome": "Especialidade: Streetwise",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 6,
+        "total": 7
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 2,
+        "total": 4
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Combate à Distância: Bow and Arrows",
+        "graduacoes": 9,
+        "total": 11
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 6,
+        "total": 9
+      }
+    ],
+    "iniciativa": 7,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 6,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 1"
+      },
+      {
+        "nome": "Bow",
+        "bonus": 11,
+        "alcance": "À distância",
+        "dano": "Dano 5, Crit. 19-20, or other effects"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 11,
+      "Fortitude": 6,
+      "Aparar": 9,
+      "Resistência": 4,
+      "Vontade": 6
+    },
+    "observacao_defesas": "* Vontade 6 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 28,
+      "Perícias": 26,
+      "Poderes": 0,
+      "Defesas": 24,
+      "Vantagens": 13
+    },
+    "total": 91,
+    "complicacoes": [
+      {
+        "titulo": "Complications",
+        "texto": "Motivation—Legacy: Mia is motivated to live up to her mentor Green Arrow’s example."
+      },
+      {
+        "titulo": "Chronic i llness",
+        "texto": "Speedy is HIV -positive and must deal with the health and social implications. aLLI e S Speedy is the Green Arrow’s sidekick and a Corpo a Corpo friend of Black Canary, Roy Harper and Connor Hawke. She’s also a member of the Teen Titans. e ne MI e S Mia has had particularly unpleasant run-ins with former-Robin Jason Todd, the Electrocutioner and the League of Assassins."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

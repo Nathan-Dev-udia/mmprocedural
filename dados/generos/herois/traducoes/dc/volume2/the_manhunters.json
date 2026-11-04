@@ -1,0 +1,104 @@
+{
+  "nome_pt": "Os Caçadores Cósmicos",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 40,
+  "ficha": {
+    "habilidades": {
+      "For": 9,
+      "Vig": "—",
+      "Agi": 4,
+      "Des": 5,
+      "Lut": 6,
+      "Int": 2,
+      "Pro": 1,
+      "Pre": 1
+    },
+    "poderes": [
+      "a rmor (Proteção 11, Impenetrável 6), e nergy Baton (Arranjo, Facilmente Removível, Raio (Dano à Distância 12), ae : Stun Raio (À Distância Cumulativo Aflição 8 (resistido por Fortitude; Tonto, Atordoado, Incapacitado))); f ligh t (Voo 11 (4,0 km/h), ae : Movimento 4 (Environmental Adaptation: Zero-G, Space Travel 3)), r obot Body (Imunidade 40, (Fortitude Effects, mental Effects)), Super-Sentidos (Sentidos 4 (Visão no Escuro, Rádio, Ultra- Hearing)), Universal t r anslator (Compreender 3 (read, speak, understand all languages))"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Avaliação",
+      "Memória Eidética",
+      "Inimigo Favorito (Green Lanterns)",
+      "Trabalho em Equipe",
+      "Rastrear"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 4,
+        "total": 10
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 8,
+        "total": 9
+      },
+      {
+        "nome": "Especialidade: Law Enforcement",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 7,
+        "total": 8
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Combate à Distância: Energy Baton",
+        "graduacoes": 3,
+        "total": 8
+      }
+    ],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Energy Baton",
+        "bonus": 8,
+        "alcance": "À distância",
+        "dano": "Dano 12 or À Distância, Aflição 8"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 9"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 10,
+      "Resistência": 10,
+      "Vontade": 8
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 66,
+      "Poderes": 103,
+      "Vantagens": 5,
+      "Perícias": 18,
+      "Defesas": 17
+    },
+    "total": 209,
+    "complicacoes": [
+      {
+        "titulo": "Self- d estruct",
+        "texto": "Manhunters contain a deadly, nuclear-level self-destruct Dispositivo to be employed as a defense against capture. Using this ability destroys the Manhunter utterly. Área de Explosão 8 Dano 15, Gatilho (timer)."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

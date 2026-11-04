@@ -1,0 +1,123 @@
+{
+  "nome_pt": "Dove",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 248,
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 7,
+      "Agi": 8,
+      "Des": 2,
+      "Lut": 3,
+      "Int": 3,
+      "Pro": 8,
+      "Pre": 3
+    },
+    "poderes": [
+      "Dove Form: mágico, 67 pontos, Ativação (Ação de Movimento, –1 ponto) (66 PP)",
+      "Avatar of Peace: Enhanced Advantage 6 (Agile Feint, Diehard, Improved Trip, Instant Up, Move-by Action, Uncanny Esquiva), Agilidade Aprimorada 6; Vigor Aprimorado 5; Força Aprimorada 2; Característica 1 (costume is Inato) (33 PP)",
+      "Hyperawareness: Prontidão Aprimorada 4; Sentidos 9 (Preciso mental 4, Sentido de Perigo (mental), Extended (Presença Prontidão), mágico Prontidão (mental), Presença Prontidão (mental), Tracking (mágico Prontidão)) (17 PP)",
+      "Resilience: Regeneração 5; Imunidade (Black Lantern possession) 1 (6 PP)",
+      "Dove Wings: Voo 3 (25 km/h) (6 PP)",
+      "White Light of Creation: Área de Explosão Aflição 10 (White emotional spectrum; resistido por Esquiva; Visual Impaired, Visual Disabled, Visual Unaware), Limitado a only in magical dimensions (5 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Finta Ágil",
+      "Avaliação",
+      "Benefit 1 (Well-off)",
+      "Ataque Defensivo",
+      "Duro de Matar",
+      "Evasion",
+      "Defesa Aprimorada",
+      "Iniciativa Aprimorada 2",
+      "Derrubar Aprimorado",
+      "Inspirar",
+      "Levantar Rápido",
+      "Liderança",
+      "Ação em Movimento",
+      "Redirecionar",
+      "Preparar",
+      "Segunda Chance (Dodge resistance checks)",
+      "Maestria em Perícia (Intuição)",
+      "Maestria em Perícia (Percepção)",
+      "Trabalho em Equipe",
+      "Esquiva Fabulosa"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 8,
+        "total": 16
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 14,
+        "total": 17
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 12,
+        "total": 20
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 12,
+        "total": 20
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 15,
+        "total": 18
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 6,
+        "total": 14
+      }
+    ],
+    "iniciativa": 16,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 17,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 3"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 13,
+      "Fortitude": 9,
+      "Aparar": 13,
+      "Resistência": 7,
+      "Vontade": 8
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 40,
+      "Perícias": 37,
+      "Poderes": 66,
+      "Defesas": 17,
+      "Vantagens": 15
+    },
+    "total": 175,
+    "complicacoes": [
+      {
+        "titulo": "Locked Form",
+        "texto": "While Dove has a -5 penalty to Resistência checks against Dano or suffering a harmful condition, she cannot transform back into Dawn Granger."
+      },
+      {
+        "titulo": "Pacifism",
+        "texto": "Dove Vontade always try to resolve things without entering combat."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

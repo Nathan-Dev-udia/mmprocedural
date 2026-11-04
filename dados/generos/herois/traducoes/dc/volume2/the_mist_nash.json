@@ -1,0 +1,124 @@
+{
+  "nome_pt": "O Névoa (Nash)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 53,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 2,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 5,
+      "Int": 2,
+      "Pro": 1,
+      "Pre": 2
+    },
+    "poderes": [
+      "Living Mist: Intangibilidade 4, Contínuo, Reação, Preciso, Limitado—Not through airtight or solid objects; Voo 4 (48 km/h), Contínuo, Sutil 2; Área de Nuvem Enfraquecer Abilities 6 (resistido por Fortitude), Progressivo, Broad (Força, Vigor, Agilidade, and Destreza), Simultaneous (81 PP)"
+    ],
+    "equipamento": [
+      "Submachine Gun: À Distância Multiataque Dano 4 (12 PP)",
+      "k nife: Força-based Dano 1, Improved Critical (1 PP)",
+      "Leather Jacket: Proteção 1 (1 PP)"
+    ],
+    "vantagens": [
+      "Benefit 3 (Millionaire)",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 4",
+      "Equipamento 9",
+      "Evasion",
+      "Esforço Extraordinário",
+      "Mira Aprimorada",
+      "Levantar Rápido",
+      "Ataque Poderoso",
+      "Tomar a Iniciativa"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 9,
+        "total": 11
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Knives",
+        "graduacoes": 12,
+        "total": 13
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 12,
+        "total": 13
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 9,
+        "total": 11
+      },
+      {
+        "nome": "Especialidade: Tactics",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 5,
+        "total": 6
+      },
+      {
+        "nome": "Combate à Distância: Guns",
+        "graduacoes": 10,
+        "total": 13
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 9,
+        "total": 11
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Knife",
+        "bonus": 13,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2, Crit. 19-20 Living Mist — Corpo a Corpo, Área de Nuvem Enfraquecer Abilities 6, resistido por Fortitude Submachine Gun +13 À Distância, Multiataque Dano 4"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 13,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 1"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Fortitude": 8,
+      "Aparar": 10,
+      "Resistência": 7,
+      "Vontade": 9
+    },
+    "observacao_defesas": "* Vontade 9 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 38,
+      "Perícias": 41,
+      "Poderes": 81,
+      "Defesas": 28,
+      "Vantagens": 23
+    },
+    "total": 211,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

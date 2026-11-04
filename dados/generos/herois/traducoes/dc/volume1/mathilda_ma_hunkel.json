@@ -1,0 +1,99 @@
+{
+  "nome_pt": "Mathilda “Ma” Hunkel",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 293,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 1,
+      "Agi": 0,
+      "Des": 1,
+      "Lut": 3,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "poderes": [],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Conectado",
+      "Improvised Weapons"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 3,
+        "total": 5
+      },
+      {
+        "nome": "Especialidade: Cooking",
+        "graduacoes": 7,
+        "total": 8
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 5,
+        "total": 7
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 3,
+        "total": 5
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 5,
+        "total": 7
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 5,
+        "total": 7
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 7,
+        "alcance": "",
+        "dano": "(Dano 1)"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 3,
+      "Aparar": 3,
+      "Fortitude": 2,
+      "Resistência": 1,
+      "Vontade": 6
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 22,
+      "Poderes": 0,
+      "Vantagens": 3,
+      "Perícias": 16,
+      "Defesas": 8
+    },
+    "total": 49,
+    "complicacoes": [
+      {
+        "titulo": "Age",
+        "texto": "Ma Hunkel is senior citizen."
+      },
+      {
+        "titulo": "Family Responsibilities",
+        "texto": "Hunkel has only recently rejoined her large and rambunctious family."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

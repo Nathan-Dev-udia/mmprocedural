@@ -1,0 +1,105 @@
+{
+  "nome_pt": "Índigo",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 93,
+  "ficha": {
+    "habilidades": {
+      "For": 10,
+      "Vig": "—",
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 2,
+      "Int": 12,
+      "Pro": 3,
+      "Pre": 4
+    },
+    "poderes": [
+      ": Children of the n igh t (Summon Animals 2 (General Type: Bats, Rats, or Wolves; Horde, mental Link, Multiple Minions 6 (64 minions))); f or ce f ield (Impenetrável Sustentado Proteção 3, Affects Others and Self ); f orm of Mist (Intangibilidade 2); mental Powers (Arranjo (30 pontos), Controle mental (Alcance de Percepção Cumulativo Aflição 10 (resistido por Vontade; Entranced, Compelido, Controlado)), ae : t elepa thy (Leitura mental 10), ae : Mind Bolt (Alcance de Percepção Dano 7, Resistência Alternativa: Vontade)); Spider-Climb (Movimento 1 (Wall-crawling)); t elek inesis (Mover Objetos 10); t elek inetic f ligh t (Voo 8 (800 km/h)); Undead i n vulnerability (Imortalidade 10 (Not When Staked or Beheaded), Imunidade 30 (Fortitude), Impenetrável Proteção 7 (Limitado―Not Versus Blessed, Magical, or Silver Weapons), Regeneração 5 (Source: Blood)); Vampiric Bite (Enfraquecer Vigor 9 (resistido por Fortitude), Limitado―Drains 1 graduação per round, Baseado em Agarrar) antages: Animal Empathy, Attractive 2, Benefit (Well-off ), a dv Connected, Fascinate (Deception, Persuasion), Favored Foe (Vampires), Fearless, Improved Hold, Improved Iniciativa, Power Attack, Startle, Taunt"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Preciso",
+      "Avaliação",
+      "Atraente",
+      "Duro de Matar",
+      "Memória Eidética",
+      "Destemido",
+      "Iniciativa Aprimorada",
+      "Inventor",
+      "Well- informed"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 4,
+        "total": 10
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Especialidade: High Fashion Model",
+        "graduacoes": 5,
+        "total": 10
+      },
+      {
+        "nome": "Especialidade: mágico",
+        "graduacoes": 5,
+        "total": 6
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 9,
+        "total": 13
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 5,
+        "total": 10
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 9,
+        "total": 13
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [],
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 8,
+      "Resistência": 10,
+      "Vontade": 10
+    },
+    "observacao_defesas": "*, Vontade 10 *Without Campo de Força.",
+    "custos": {
+      "Defesas": 15
+    },
+    "total": 289,
+    "complicacoes": [
+      {
+        "titulo": "d ependence",
+        "texto": "Looker is a vampire and must feed on blood or Enfraquecer. She has Permanente telltale bite marks on her neck."
+      },
+      {
+        "titulo": "Public i tity",
+        "texto": "Looker’s association with den the Outsiders and her vampirism has ended her marriage and prevents her from living a normal life. o Looker bsession: wants to remove all vampires from the planet."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

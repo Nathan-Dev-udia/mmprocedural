@@ -1,0 +1,106 @@
+{
+  "nome_pt": "Superboy",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 210,
+  "ficha": {
+    "habilidades": {
+      "For": 15,
+      "Vig": 10,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 4,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "poderes": [
+      "f Arranjo (26 pontos) ligh t: • Voo 13 (16,0 km/h) (26 PP)",
+      "• Velocidade 13 (16,0 km/h) (1 PP)",
+      "Calor Vision: Dano à Distância 12 (24 PP)",
+      "i n vulnerability: Proteção 5, Resistência Impenetrável 12; Imunidade 5 (Frio, Calor, Pressão, Radiação, Vácuo) (22 PP)",
+      "Super-Sentidos: Sentidos 7 (Aguçado and Audição Estendida, Visão Estendida 3, Infravisão, Ultra-Audição) (7 PP)",
+      "Super-Velocidade: Rapidez 6 (6 PP)",
+      "Super-Força: Força Aprimorada 3, Limitado a Lifting (Lifting Str18; 6,000 tons) (3 PP)",
+      "t ac tile t elek inesis: Arranjo (15 pontos), Alternate Effects of Força Dano, Característica 1: Can exert Força without moving (1 PP)",
+      "• Transform 5 (assembled into disassembled), d isassemble: Contínuo (1 PP)",
+      "• Escudo o Proteção 15, Affects Others (1 PP)",
+      "thers: • Shockwave: Área de Explosão Aflição 12, Extra Condition, Limitado Degree (resistido por Fortitude; Tonto and Vulnerável, Atordoado and Indefeso), Limitado (Superboy and targets must be touching the ground) (1 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Esforço Extraordinário",
+      "Ação em Movimento",
+      "Segunda Chance (Resist mind control)",
+      "Taunt clude his heat vision and portions of his strength",
+      "speed and invulnerability. Superboy’s Powers are still maturing along with the rest of him. His Extraordinary Effort advantage reflects a knack for developing impressive power stunts in times of stress",
+      "as well as coming through at the last minute to snatch victory from the jaws of defeat. Among other things",
+      "Superboy has displayed the potential for ranged telekinesis",
+      "freezing super- breath",
+      "and the power to adapt his telekinetic field to shield himself from magic",
+      "among other effects."
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 5,
+        "total": 9
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Combate à Distância: Calor Vision",
+        "graduacoes": 7,
+        "total": 9
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 9,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 15"
+      },
+      {
+        "nome": "Calor Vision",
+        "bonus": 9,
+        "alcance": "À distância",
+        "dano": "Dano 12"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 9,
+      "Fortitude": 13,
+      "Aparar": 9,
+      "Resistência": 15,
+      "Vontade": 11
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 76,
+      "Perícias": 13,
+      "Poderes": 93,
+      "Defesas": 24,
+      "Vantagens": 5
+    },
+    "total": 211,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

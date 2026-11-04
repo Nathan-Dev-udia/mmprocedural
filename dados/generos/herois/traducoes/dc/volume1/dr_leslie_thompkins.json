@@ -1,0 +1,50 @@
+{
+  "nome_pt": "Dr. Leslie Thompkins",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 44,
+  "ficha": {
+    "habilidades": {
+      "For": "—",
+      "Vig": 0,
+      "Agi": 0,
+      "Des": 2,
+      "Lut": 0,
+      "Int": 2,
+      "Pro": 2,
+      "Pre": 1
+    },
+    "poderes": [],
+    "equipamento": [
+      "character in the CD Universe. Even ignoring some of his more outré gadgets, it’s safe to say Bats has all the best toys. The items listed under Equipment for him are merely the most commonly- used. Fortunately, in CD ADventures game terms, Batman has plenty of options for breaking out the odd or unusual piece of equipment. First, assume Batman has various minor items of equip - ment useful for using his different Skills, but not listed among his game traits. For example, his Utility Belt may be assumed to include things like lockpicks, an evidence kit, and other necessary tools for his Investigation and Tech - nology Skills. These simply overcome the circumstance penalties normally applied for using those"
+    ],
+    "vantagens": [],
+    "pericias": [],
+    "iniciativa": 0,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 0,
+        "alcance": "",
+        "dano": "(Dano –1)"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 2,
+      "Aparar": 1,
+      "Fortitude": 2,
+      "Resistência": 0,
+      "Vontade": 4
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 12,
+      "Perícias": 15,
+      "Defesas": 7
+    },
+    "total": 34,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

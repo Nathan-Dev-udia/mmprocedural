@@ -1,0 +1,93 @@
+{
+  "nome_pt": "Starro, o Conquistador",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 200,
+  "ficha": {
+    "habilidades": {
+      "For": 14,
+      "Vig": 14,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 10,
+      "Int": 10,
+      "Pro": 10,
+      "Pre": 4
+    },
+    "poderes": [
+      "d omination: Perception Aflição à Distância 15 (resistido por Vontade; Tonto, Atordoado, Controlado), Progressivo, Reação (when Starrophyte grabs target) Linked to Leitura mental 15 (Limitado—Controlado victims only) (120 PP)",
+      "e nergy a bsorption: Imunidade 20 (Energy Dano); Dano à Distância 16, Preciso 4, Dissipação (40 PP)",
+      "Giant a lien S tarfish: Extra Limbs 3 (5 manipulator limbs); Crescimento 8, Inato, Permanente (20 PP)",
+      "i n vulnerability: Imortalidade 1; Imunidade 10 (Suporte Vital); Resistência Impenetrável 10; Proteção 2; Regeneração 5 (29 PP)",
+      "Star- f ligh t: Voo 10 (2,0 km/h); Movimento 2 (Space Travel 2) (24 PP)",
+      "Starrophyte i vasion: Summon 6, Horde, mental Link, Multiple n Minions 10 (1,024 PL6 minions); Remote Sensing 25 (Visual), Simultaneous, Medium: Starrophytes (189 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Agarrar Rápido",
+      "Agarrar Aprimorado",
+      "Imobilizar Aprimorado",
+      "Inspirar 5",
+      "Liderança",
+      "Tomar a Iniciativa"
+    ],
+    "pericias": [
+      {
+        "nome": "Especialidade: Science",
+        "graduacoes": 8,
+        "total": 18
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 4,
+        "total": 12
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 2,
+        "total": 12
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Energy Absorption",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Dano 16, Dissipação Desarmado +10 Corpo a Corpo, Dano 14"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 6,
+      "Fortitude": 14,
+      "Aparar": 6,
+      "Resistência": 16,
+      "Vontade": 16
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 100,
+      "Perícias": 7,
+      "Poderes": 422,
+      "Defesas": 14,
+      "Vantagens": 9
+    },
+    "total": 552,
+    "complicacoes": [
+      {
+        "titulo": "o bsession",
+        "texto": "Order and control."
+      },
+      {
+        "titulo": "Perda de Poder",
+        "texto": "The chemical quicklime automatically counters Starro’s Domination power."
+      },
+      {
+        "titulo": "Vulnerability",
+        "texto": "Starro is Vulnerável to Frio attacks. Starro’s Invulnerability does not apply, and both Starro and his starrophytes suffer an additional degree of effect from Frio effects (including a first degree even with a successful resistance check). r eal n ame: Starro o ccupation: c onqueror b ase: Mobile"
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

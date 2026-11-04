@@ -1,0 +1,78 @@
+{
+  "nome_pt": "Mary Marvel",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 102,
+  "ficha": {
+    "habilidades": {
+      "For": 17,
+      "Vig": 13,
+      "Agi": 3,
+      "Des": 2,
+      "Lut": 6,
+      "Int": 3,
+      "Pro": 10,
+      "Pre": 3
+    },
+    "poderes": [
+      "Courage of Achilles (Luta Aprimorada 4, Enhanced Vontade 5, Impenetrável Vontade 10); Velocidade of Mercury (30-ponto Arranjo: Voo 15 (64,0 km/h), AE: Dimensional Travel 1 (Rock of Eternity), AE: Rapidez 15, Velocidade 15 (64,0 km/h)); Vigor of Atlas (Proteção 4, Resistência Impenetrável 19; Imunidade 10 (Suporte Vital)); Força of Hercules (Força Aprimorada 4, Limitado a Lifting (Lifting Str 21)), Wisdom of Solomon (Prontidão Aprimorada 7, Enhanced Advantages 4 (Assessment, Beginner’s Luck, Eidetic Memory, Jack-of-all-trades))"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Avaliação",
+      "Beginner’s Luck",
+      "Memória Eidética",
+      "Jack- of-all-trades"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 5,
+        "total": 11
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 3,
+        "total": 13
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 2,
+        "total": 12
+      }
+    ],
+    "iniciativa": 3,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 11,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 17"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 11,
+      "Aparar": 11,
+      "Fortitude": 13,
+      "Resistência": 17,
+      "Vontade": 15
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 92,
+      "Poderes": 110,
+      "Vantagens": 0,
+      "Perícias": 5,
+      "Defesas": 13
+    },
+    "total": 220,
+    "complicacoes": [
+      {
+        "titulo": "Complicação",
+        "texto": "The same as Captain Marvel. Mary Batson’s normal form is Str 0, Sta 0, Fgt 2, and Awe 3, with corresponding adjustments to her skill graduações and Defenses."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

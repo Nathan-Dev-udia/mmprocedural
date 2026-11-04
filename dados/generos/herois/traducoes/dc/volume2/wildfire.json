@@ -1,0 +1,92 @@
+{
+  "nome_pt": "Fogo Selvagem",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 262,
+  "ficha": {
+    "habilidades": {
+      "For": 13,
+      "Vig": 12,
+      "Agi": 6,
+      "Des": 2,
+      "Lut": 6,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 0
+    },
+    "poderes": [],
+    "equipamento": [
+      "f ligh t r ing: Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal –3); Voo 7 (400 km/h) (19 PP)",
+      "t elepa thic e ar Plug: Compreender 3 (Languages), mental Comunicação 1 (Corpo a Corpo Range) (10 PP)",
+      "t r anssuit: Imunidade 10 (Suporte Vital, Peculiaridade: not for Inanição and thirst) (9 PP)",
+      "d a e S a V ant G All-out Attack, Benefit (Legion Membership), Diehard, Equipment 6, Extraordinary Effort, Move-by Action, Power Attack, Seize Iniciativa, Taunt e ne MI e S Wildfire has no enemy specific to him but, like all Legion- naires, must contend with the villains that the Legion as a whole has accrued over their existence."
+    ],
+    "vantagens": [],
+    "pericias": [
+      {
+        "nome": "Enganação",
+        "graduacoes": 2,
+        "total": 2
+      },
+      {
+        "nome": "Especialidade (Earth)",
+        "graduacoes": 5,
+        "total": 6
+      },
+      {
+        "nome": "Especialidade (Instruction)",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Combate à Distância (Damage)",
+        "graduacoes": 5,
+        "total": 7
+      }
+    ],
+    "iniciativa": 6,
+    "ataques": [
+      {
+        "nome": "Negative Energy Raio",
+        "bonus": 7,
+        "alcance": "À distância",
+        "dano": "Dano 13"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 6,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 13"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Fortitude": 14,
+      "Aparar": 8,
+      "Resistência": 12,
+      "Vontade": 6
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 48,
+      "Perícias": 10,
+      "Poderes": 102,
+      "Defesas": 10,
+      "Vantagens": 16
+    },
+    "total": 186,
+    "complicacoes": [
+      {
+        "titulo": "Complicação",
+        "texto": "), Força Aprimorada 17 (4 graduações Limitado a lifting (3,000 tons)), Proteção 2 (Impenetrável 6), Voo 14 (32,0 km/h), Imunidade 10 (Suporte Vital), Movimento 3 (Space Travel) • 102 pontos"
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

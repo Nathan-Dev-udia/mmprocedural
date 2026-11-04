@@ -1,0 +1,81 @@
+{
+  "nome_pt": "Mercy Graves",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 26,
+  "ficha": {
+    "habilidades": {
+      "For": 10,
+      "Vig": 8,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 8,
+      "Int": 0,
+      "Pro": 1,
+      "Pre": 2
+    },
+    "poderes": [],
+    "equipamento": [],
+    "vantagens": [
+      "Atraente",
+      "Rolamento Defensivo 2",
+      "Equipamento 3",
+      "Ataque à Distância 6"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 4,
+        "total": 14
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 7
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "",
+        "dano": "(Dano 10)"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 8,
+      "Fortitude": 10,
+      "Resistência": 8,
+      "Vontade": 8
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 66,
+      "Poderes": 0,
+      "Vantagens": 12,
+      "Perícias": 12,
+      "Defesas": 15
+    },
+    "total": 105,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

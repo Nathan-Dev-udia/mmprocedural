@@ -1,0 +1,110 @@
+{
+  "nome_pt": "Felix Fausto",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 91,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 3,
+      "Agi": 2,
+      "Des": 3,
+      "Lut": 1,
+      "Int": 6,
+      "Pro": 4,
+      "Pre": 0
+    },
+    "poderes": [
+      "and Abilities of others. His lack of a soul grants him certain immunities against Hell-born creatures and ef- fects. It also makes him emotionless and gives him little sense of morality. Despite this apparent handicap, Sebastian has pursued a romantic relationship with Halo. Sebastian joins the Outsiders after they meet in Markovia, where the sorcerer was busy hunting vampires. At one ponto, Sebastian gets his arm ripped off and acquires a new one, possibly from a fallen Markovian soldier. The Outsiders occasionally fought Sebastian’s father as well as his sister Fauna (who also had Powers due to a separate soul-purchasing deal initiated by their father). Sebastian later leaves the team and eventually joins the Sentinels of mágico. He is currently a member of Checkmate. While his father is re- sponsible for his condition, Sebastian still considers him fam- ily and frequently attempts to repair their relationship. g race Grace Choi is a seven-foot-tall woman with a Bana Amazon heritage. After being abused by her foster parents, at age nine Grace ran away and was forced into a prostitution ring. Her Powers manifested at age twelve and Grace used them to escape. She later became a bouncer for Chaney’s nightclub in Metropolis, which catered to aliens and metahumans. Heroes & V Heroes & V I I lla lla I I ns, Vol. 2 ns, Vol. 2 Heroes & VIllaIns, Vol. 2 178.76.175.224"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Artífice",
+      "Atraente",
+      "Conectado",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 5",
+      "Destemido",
+      "Sorte 4",
+      "Ritualista",
+      "Provocar",
+      "Transe",
+      "Esquiva Fabulosa",
+      "Bem-Informado"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 7,
+        "total": 8
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 6,
+        "total": 7
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 8,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: mágico",
+        "graduacoes": 8,
+        "total": 14
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 6,
+        "total": 12
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Combate à Distância: mágico",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 10,
+        "total": 13
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 4,
+        "total": 6
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [],
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 7,
+      "Fortitude": 7,
+      "Resistência": 8,
+      "Vontade": 11
+    },
+    "observacao_defesas": "*, Vontade 11 *sem Rolamento Defensivo.",
+    "custos": {
+      "Defesas": 25
+    },
+    "total": 145,
+    "complicacoes": [
+      {
+        "titulo": "Soulless",
+        "texto": "Faust lacks strong emotions; he absorbs his personality traits from drained souls. 94 94"
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

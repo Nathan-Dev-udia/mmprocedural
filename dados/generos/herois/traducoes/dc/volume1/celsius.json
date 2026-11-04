@@ -1,0 +1,132 @@
+{
+  "nome_pt": "Celsius",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 180,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 3,
+      "Agi": 5,
+      "Des": 5,
+      "Lut": 5,
+      "Int": 3,
+      "Pro": 1,
+      "Pre": 3
+    },
+    "poderes": [
+      "Frio/Calor Resistance ( Imunidade 20 (Frio Effects, Calor Effects), Limitado a Half Effect); Imortalidade ( Imunidade 1 (Envelhecimento)) ; Thermal Control ( Arranjo (23 pontos), Frio/Calor Raio ( Dano à Distância 11, Variável Descriptor (Calor, Frio)), AE: Extreme Temperature Field (À Distância Enfraquecer 11 (Resistência), Affects Only Objects), AE: Ice Generation (Criar Objetos Object 11))"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Benefit 2 (Independently Wealthy)",
+      "Rolamento Defensivo 3",
+      "Crítico Aprimorado (Desarmado)",
+      "Defesa Aprimorada",
+      "Levantar Rápido",
+      "Language 2 (Chinese",
+      "Russian",
+      "Hindi",
+      "English)",
+      "Ataque Poderoso",
+      "Luta Caída",
+      "Ritualista",
+      "Transe"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 3,
+        "total": 8
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 10,
+        "total": 15
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 3,
+        "total": 6
+      },
+      {
+        "nome": "Especialidade: mágico",
+        "graduacoes": 3,
+        "total": 6
+      },
+      {
+        "nome": "Especialidade: Science",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 2,
+        "total": 3
+      },
+      {
+        "nome": "Combate à Distância: Frio/Calor Blast",
+        "graduacoes": 6,
+        "total": 11
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 3,
+        "total": 6
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 4,
+        "total": 9
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 4,
+        "total": 7
+      }
+    ],
+    "iniciativa": 5,
+    "ataques": [
+      {
+        "nome": "Frio/Calor Raio",
+        "bonus": 11,
+        "alcance": "",
+        "dano": "Dano 11"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 15,
+        "alcance": "",
+        "dano": "Dano 1, Crit. 19-20"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 15,
+      "Aparar": 15,
+      "Fortitude": 8,
+      "Resistência": 6,
+      "Vontade": 8
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 52,
+      "Poderes": 46,
+      "Vantagens": 14,
+      "Perícias": 21,
+      "Defesas": 32
+    },
+    "total": 165,
+    "complicacoes": [
+      {
+        "titulo": "Nemesis",
+        "texto": "Arani’s arch-enemy is her psychotic father, the mythological villain Kalki (and to a lesser extent, General Immortus)."
+      },
+      {
+        "titulo": "Obsessão",
+        "texto": "Celsius is fanatical in her desire to restore the Chief and then prove her prior relationship with him."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

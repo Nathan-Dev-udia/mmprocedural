@@ -1,0 +1,150 @@
+{
+  "nome_pt": "Diabo Azul",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 74,
+  "ficha": {
+    "habilidades": {
+      "For": 11,
+      "Vig": 10,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 7,
+      "Int": 2,
+      "Pro": 2,
+      "Pre": 3
+    },
+    "poderes": [
+      "Devilish Immunities: Imunidade 3 (Envelhecimento, Afogamento, and Calor) (3 PP)",
+      "Devilish Resilience: Proteção 3 (3 PP)",
+      "Regeneração: Regeneração 5 (5 PP)",
+      "Super Leap: Salto 3 (3 PP)",
+      "Super-Sentidos: Sentidos 4 (Visão no Escuro, Visão Estendida, Audição Estendida) (4 PP)",
+      "Super-Força: Força Aprimorada 4, Limitado a Lifting (lifting Str 15; 800 tons) (4 PP)",
+      "Trident of Lucifer: Arranjo (5 pontos), Facilmente Removível (–1 ponto), Indestructible • Locate Demons: Sentidos 5 (Preciso, À Distância Detect Demons, Extended) (5 PP)",
+      "• Trident Thrust: Força-based Dano 2, Penetrante 3 (1 PP)",
+      "• Banish Demon: Movimento 1 (Dimension Travel (Hell)), 1 Extra graduação, Attack (resistido por Vontade (CD 12)), À Distância, Limitado a banishing demons (1 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Duro de Matar",
+      "Destemido",
+      "Grande Vigor",
+      "Inventor",
+      "Defesa Aprimorada",
+      "Iniciativa Aprimorada",
+      "Ataque Poderoso",
+      "Ritualista",
+      "Derrubar em Sequência"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 1,
+        "total": 12
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 2,
+        "total": 9
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Especialidade: Acting",
+        "graduacoes": 5,
+        "total": 7
+      },
+      {
+        "nome": "Especialidade: mágico",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: Special Effects",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 2,
+        "total": 4
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 11,
+        "total": 13
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 2,
+        "total": 5
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 6,
+        "total": 8
+      }
+    ],
+    "iniciativa": 7,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 9,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 11"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 7,
+      "Fortitude": 12,
+      "Aparar": 7,
+      "Resistência": 13,
+      "Vontade": 8
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 82,
+      "Perícias": 33,
+      "Poderes": 28,
+      "Defesas": 12,
+      "Vantagens": 10
+    },
+    "total": 165,
+    "complicacoes": [
+      {
+        "titulo": "Inimigo",
+        "texto": "Neron Motivation: Fame & Thrills Prejudice: When meeting people who don’t know him, Blue Devil’s demonic appearance can get him into trouble and make it difficult to appear as one of the “good guys. ” Vulnerability: Blue Devil cannot set foot on consecrated ground without bursting into flame, and contact with holy water burns his flesh (treat either as an ongoing Dano 10 effect for each round contact is maintained)."
+      },
+      {
+        "titulo": "Fraqueza",
+        "texto": "Holy weapons ignore Blue Devil’s graduações in Proteção."
+      },
+      {
+        "titulo": "Note",
+        "texto": "This stat block represents the current supernatural version of Blue Devil. See the “Blue Devil (Original Version)” stat block for the older human-fused-to-a-devil-costume version."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

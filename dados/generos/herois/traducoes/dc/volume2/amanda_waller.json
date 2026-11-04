@@ -1,0 +1,151 @@
+{
+  "nome_pt": "Amanda Waller",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 207,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 2,
+      "Agi": 0,
+      "Des": 2,
+      "Lut": 4,
+      "Int": 5,
+      "Pro": 5,
+      "Pre": 6
+    },
+    "poderes": [],
+    "equipamento": [
+      "Squad Detonator, Heavy Pistola (Dano à Distância 4)"
+    ],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Avaliação",
+      "Benefit 4 (Diplomatic Immunity",
+      "Security Clearance 3)",
+      "Conectado",
+      "Contatos",
+      "Rolamento Defensivo 4",
+      "Duro de Matar",
+      "Memória Eidética",
+      "Equipamento 6",
+      "Esforço Extraordinário",
+      "Destemido",
+      "Grande Vigor",
+      "Defesa Aprimorada",
+      "Inspirar 2",
+      "Liderança",
+      "Saque Rápido",
+      "Redirecionar",
+      "Tomar a Iniciativa",
+      "Preparar",
+      "Maestria em Perícia (Intimidação)",
+      "Assustar",
+      "Derrubar em Sequência",
+      "Provocar",
+      "Trabalho em Equipe",
+      "Bem-Informado"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 10,
+        "total": 16
+      },
+      {
+        "nome": "Especialidade: Bureaucratics",
+        "graduacoes": 9,
+        "total": 14
+      },
+      {
+        "nome": "Especialidade: Tradecraft",
+        "graduacoes": 9,
+        "total": 14
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 10,
+        "total": 15
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 10,
+        "total": 16
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 7,
+        "total": 12
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 7,
+        "total": 12
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 8,
+        "total": 14
+      },
+      {
+        "nome": "Combate à Distância: Guns",
+        "graduacoes": 10,
+        "total": 12
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 9,
+        "total": 9
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 5,
+        "total": 10
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [
+      {
+        "nome": "Heavy Pistola",
+        "bonus": 12,
+        "alcance": "À distância",
+        "dano": "Dano 4"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 1"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 12,
+      "Fortitude": 8,
+      "Resistência": 6,
+      "Vontade": 12
+    },
+    "observacao_defesas": "*, Vontade 12 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 50,
+      "Poderes": 0,
+      "Vantagens": 33,
+      "Perícias": 54,
+      "Defesas": 23
+    },
+    "total": 160,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

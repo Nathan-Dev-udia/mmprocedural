@@ -1,0 +1,109 @@
+{
+  "nome_pt": "Safira Estrela",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 189,
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 1,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 3,
+      "Int": 2,
+      "Pro": 2,
+      "Pre": 3
+    },
+    "poderes": [
+      "Power r ing: 125 pontos, Removível (–25 pontos) (100 PP)",
+      "ai and d atabase: Features 2 (2 PP)",
+      "Comunicação: Sentidos 1 (Comunicação Link to Central Power Battery) (1 PP)",
+      "f ligh t: Voo 13 (16,0 km/h); Movimento 4 (Environmental Adaptation—Zero-G, Space Travel 3) (34 PP)",
+      "f or ce f ield: Impenetrável Proteção 12; Imunidade 10 (Suporte Vital) (34 PP)",
+      "f or ce Manipulation: Arranjo (30 pontos)",
+      "• Conversion Crystals: Aflição à Distância 10 (resistido por Vontade; Impedido, Imóvel, Transformado), Progressivo, Dynamic (31 PP)",
+      "• f or ce Raio: Dano à Distância 15, Dynamic (2 PP)",
+      "• ce Constructs: Criar Objetos 15, Dynamic (2 PP)",
+      "f or • Lifting: Mover Objetos 15, Dynamic (2 PP)",
+      "• Mobile Constructs: Criar Objetos 10, Movable, Dynamic (2 PP)",
+      "Heart’s Connection: Enhanced Advantage (Diehard), Affects Others, À Distância (3 PP)",
+      "Sense Love: Sentidos 4 (Detect Love, À Distância, Aguçado, Analítico) (4 PP)",
+      "Universal t anslator: Compreender Languages 4 (Read, r Speak, Understand, Understood) (8 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Atraente 2",
+      "Ataque Defensivo"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 3,
+        "total": 6
+      },
+      {
+        "nome": "Especialidade: Business",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Combate à Distância: Power Ring",
+        "graduacoes": 9,
+        "total": 11
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 6,
+        "total": 8
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Force Raio",
+        "bonus": 11,
+        "alcance": "À distância",
+        "dano": "Dano 15"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 5,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 0"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 13,
+      "Fortitude": 10,
+      "Aparar": 10,
+      "Resistência": 13,
+      "Vontade": 15
+    },
+    "observacao_defesas": "",
+    "custos": {},
+    "total": null,
+    "complicacoes": [
+      {
+        "titulo": "r elationship",
+        "texto": "Carol is in love with Green Lantern Hal Jordan and the t wo of them share a complicated relationship. r esponsibility: As one of the Star Sapphires, Carol owes responsibility to other wielders of the violet light of love. membership in the Star Sapphires and she accepted only when she learned Hal was in danger and she could help him. Since then, she has worked in cooperation with the Star Sap- phires, Green Lantern and the other Lantern Corps."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

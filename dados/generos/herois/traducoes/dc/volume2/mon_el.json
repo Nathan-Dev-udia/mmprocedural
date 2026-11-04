@@ -1,0 +1,96 @@
+{
+  "nome_pt": "Mon-El",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 13,
+  "ficha": {
+    "habilidades": {
+      "For": 18,
+      "Vig": 13,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 8,
+      "Int": 4,
+      "Pro": 3,
+      "Pre": 3
+    },
+    "poderes": [
+      "similar to Superman’s as a result of exposure to Earth’s yellow sun, Lar was discovered by Clark Kent. Mistaking him for a fellow Kryp- tonian and thus a possible relative, Clark named him Mon-El until his real name could be discovered. Following an acci- dental exposure to lead, a substance that is fatal to Daxam- ites, Lar’s memories returned. Aware that his friend was Moribundo from the toxic substance, Clark sent Lar to the Phantom Zone in a bid to save his life. Several years later, Mon-El was released from the Phantom Zone by Superman and provided with a lead serum that had been secretly left in the past by Legion of Super-Heroes members. Mon-El served as a super hero in the twenty-first century for some time, and even helped humanity colonize the worlds that would eventually become members of the United Planets in accordance with instructions left for him by the Legion of the Super-Heroes. Eventually Mon-El became immune to the effectiveness of the lead serum and had to return to the Phantom Zone, where he lived on in the time - less limbo. Centuries later a new serum was created for Mon-El by Brai- niac 5 (see Vol. 1 ), and he was freed from the Phantom Zone to join the Legion of Super-Heroes. Recognized as one of the three most powerful members of the Legion, he even served two terms as team leader. Lar fell in love with Shadow Lass (Tasmia Mallor) and the pair married, but had a rocky relation- ship despite their love for each other. Their marriage ended tragically when Mon-El died during the mágico Wars. He was resurrected by the Time Trapper to be used as a replacement for the villain’s own waning body, but Mon-El killed him and returned to serve with the Legion."
+    ],
+    "equipamento": [
+      "Voo Ring (Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal –3), Voo 7 (400 km/h); Telepathic Ear Plug ( Compreender 3 (Languages), mental Comunicação 1 (Corpo a Corpo Range)); Transsuit (Imunidade 9 (Suporte Vital, except for Inanição and thirst))"
+    ],
+    "vantagens": [
+      "Benefício (Legion Membership)",
+      "Equipamento 8",
+      "Esforço Extraordinário",
+      "Inventor",
+      "Ataque Poderoso",
+      "Tomar a Iniciativa",
+      "Esforço Supremo (Toughness checks) ."
+    ],
+    "pericias": [
+      {
+        "nome": "Especialidade: Daxam",
+        "graduacoes": 5,
+        "total": 9
+      },
+      {
+        "nome": "Especialidade: Medicine",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Especialidade: Phantom Zone",
+        "graduacoes": 5,
+        "total": 9
+      },
+      {
+        "nome": "Especialidade: Science",
+        "graduacoes": 5,
+        "total": 9
+      },
+      {
+        "nome": "Combate à Distância",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 5,
+        "total": 9
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 8,
+        "total": 12
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [],
+    "defesas": {
+      "Esquiva": 9,
+      "Aparar": 8,
+      "Fortitude": 14,
+      "Resistência": 17,
+      "Vontade": 12
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Defesas": 17
+    },
+    "total": 255,
+    "complicacoes": [
+      {
+        "titulo": "d oing Good",
+        "texto": "Mon-El is driven to do the right thing and help however he can. r elationship: Mon-El and Shadow Lass care deeply for one another."
+      },
+      {
+        "titulo": "Fraqueza",
+        "texto": "Mon-El (periodically) suffers from a weakness to lead which is identical to Superman’s weakness to Green Kryptonite. (See the k ryptonite sidebar on page 218.)"
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

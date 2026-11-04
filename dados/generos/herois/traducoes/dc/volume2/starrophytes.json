@@ -1,0 +1,63 @@
+{
+  "nome_pt": "Starrofitas",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 201,
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 4,
+      "Agi": 4,
+      "Des": 6,
+      "Lut": 1,
+      "Int": 0,
+      "Pro": 1,
+      "Pre": 0
+    },
+    "poderes": [
+      "t iny a lien Starfish (Extra Limbs 3; Encolhimento 8, Inato, Permanente)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Agarrar com Destreza",
+      "Agarrar Aprimorado",
+      "Imobilizar Aprimorado",
+      "Trabalho em Equipe"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Grab",
+        "graduacoes": 4,
+        "total": 10
+      }
+    ],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Grab",
+        "bonus": 9,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 0"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 5,
+      "Fortitude": 4,
+      "Resistência": 4,
+      "Vontade": 1
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 36,
+      "Poderes": 20,
+      "Vantagens": 3,
+      "Perícias": 2,
+      "Defesas": 0
+    },
+    "total": 61,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

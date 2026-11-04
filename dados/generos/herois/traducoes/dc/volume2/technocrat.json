@@ -1,0 +1,111 @@
+{
+  "nome_pt": "Tecnocrata",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 94,
+  "ficha": {
+    "habilidades": {
+      "For": 8,
+      "Vig": 6,
+      "Agi": 5,
+      "Des": 3,
+      "Lut": 2,
+      "Int": 8,
+      "Pro": 4,
+      "Pre": 3
+    },
+    "poderes": [
+      "Battlesuit (Removível, -17 pontos), a rmor Systems (Proteção 3, Campo de Força 3, Força Aprimorada 6, Vigor Aprimorado 4, Agilidade Aprimorada 3, Voo 8 (800 km/h)); e nergy Bolt ( Dano à Distância 10*); Sensors (Sentidos 6 (Infravisão, Visão na Penumbra, Visão Microscópica, Rádio, Tracking, Ultravisão)); Suporte Vital (Imunidade 10 (Suporte Vital)) * Barron is constantly in the process of updating and improving his battlesuit. pontos allotted to Energy Bolt or other Powers may instead be filled with varying weaponry or gadgets as the mood suits him. antages: Assessment, Connected, Eidetic Memory, a dv Evasion, Improvised Tools, Inventor, Power Attack, Tracking"
+    ],
+    "equipamento": [],
+    "vantagens": [],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 3,
+        "total": 8
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 4,
+        "total": 12
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 10,
+        "total": 12
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Especialidade: Business",
+        "graduacoes": 6,
+        "total": 14
+      },
+      {
+        "nome": "Especialidade: Science",
+        "graduacoes": 6,
+        "total": 14
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Combate à Distância: Battlesuit Weapons",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 6,
+        "total": 14
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 8,
+        "total": 11
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [],
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 6,
+      "Fortitude": 10,
+      "Resistência": 12,
+      "Vontade": 8
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Defesas": 15
+    },
+    "total": 179,
+    "complicacoes": [
+      {
+        "titulo": "Justice",
+        "texto": "Technocrat has a strong commitment to justice."
+      },
+      {
+        "titulo": "Love",
+        "texto": "Because Halo currently occupies his wife’s body, Technocrat’s has transferred his love for his wife to Halo. She doesn’t feel the same way, which continues to cause awkward situations."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

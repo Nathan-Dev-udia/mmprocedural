@@ -1,0 +1,96 @@
+{
+  "nome_pt": "Caçador (Paul Kirk)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 37,
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 4,
+      "Agi": 6,
+      "Des": 5,
+      "Lut": 10,
+      "Int": 1,
+      "Pro": 4,
+      "Pre": 4
+    },
+    "poderes": [
+      "Cura n anobots: Regeneração 3 (3 PP)"
+    ],
+    "equipamento": [
+      "Mauser: Dano à Distância 4 (8 PP)",
+      "s hurik en: À Distância Multiataque Dano 3 (3 PP)",
+      "k atar ( l ong Dagger): Força-based Dano 2 (2 PP)"
+    ],
+    "vantagens": [
+      "Ataque Preciso",
+      "Avaliação",
+      "Estrangular",
+      "Ataque Corpo-a-Corpo 4",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 4",
+      "Equipamento 3",
+      "Grande Vigor",
+      "Iniciativa Aprimorada",
+      "Levantar Rápido",
+      "Ataque Poderoso",
+      "Precise Attack (à distância; Concealment)",
+      "Ataque à Distância 8",
+      "Derrubar em Sequência",
+      "Maestria em Arremesso 2",
+      "Rastrear"
+    ],
+    "pericias": [],
+    "iniciativa": 10,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 14,
+        "alcance": "",
+        "dano": "Dano 3"
+      },
+      {
+        "nome": "Katar",
+        "bonus": 19,
+        "alcance": "Corpo a corpo",
+        "dano": "Força-based Dano 5"
+      },
+      {
+        "nome": "Mauser",
+        "bonus": 18,
+        "alcance": "À distância",
+        "dano": "Dano 4"
+      },
+      {
+        "nome": "Shuriken",
+        "bonus": 18,
+        "alcance": "À distância",
+        "dano": "Multiataque Dano 3"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 14,
+      "Fortitude": 9,
+      "Aparar": 14,
+      "Resistência": 8,
+      "Vontade": 9
+    },
+    "observacao_defesas": "* Vontade 9 * sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 74,
+      "Perícias": 46,
+      "Poderes": 3,
+      "Defesas": 22,
+      "Vantagens": 32
+    },
+    "total": 177,
+    "complicacoes": [
+      {
+        "titulo": "e nemy",
+        "texto": "The Council Q uirk: Man without a past."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

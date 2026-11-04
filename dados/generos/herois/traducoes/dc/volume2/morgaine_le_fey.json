@@ -1,0 +1,99 @@
+{
+  "nome_pt": "Morgaine le Fey",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 68,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 2,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 3,
+      "Int": 7,
+      "Pro": 7,
+      "Pre": 5
+    },
+    "poderes": [
+      "130 Defenses 25 Advantages 9 Total 256"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Artífice",
+      "Languages 4 (Numerous dead and arcane languages)",
+      "Ritualista",
+      "Tomar a Iniciativa",
+      "Maestria em Perícia (Expertise: mágico)",
+      "Provocar"
+    ],
+    "pericias": [
+      {
+        "nome": "Enganação",
+        "graduacoes": 10,
+        "total": 15
+      },
+      {
+        "nome": "Especialidade: History",
+        "graduacoes": 9,
+        "total": 16
+      },
+      {
+        "nome": "Especialidade: mágico",
+        "graduacoes": 13,
+        "total": 20
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 11,
+        "total": 18
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 15
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 6,
+        "total": 11
+      },
+      {
+        "nome": "Combate à Distância: Spells",
+        "graduacoes": 11,
+        "total": 12
+      }
+    ],
+    "iniciativa": 1,
+    "ataques": [
+      {
+        "nome": "À Distância Spells",
+        "bonus": 12,
+        "alcance": "À distância",
+        "dano": "Dano 14 Linked to Enfraquecer Resistência 14, or varies Desarmado+3 Corpo a Corpo, Dano 1"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Fortitude": 8,
+      "Aparar": 12,
+      "Resistência": 14,
+      "Vontade": 18
+    },
+    "observacao_defesas": "",
+    "custos": {},
+    "total": null,
+    "complicacoes": [
+      {
+        "titulo": "o bsession",
+        "texto": "None of Morgaine’s protections based on her armor equate to actual eternal youth, and she ages (cosmetically) over time though through her armor she remains physically vigorous. She hates true immortals and plots to steal their Imortalidade; she also steals youth from various unfortunate mortals through ritual mágico. o v erconfidence: Morgaine has a dangerous level of contempt for her enemies, causing her to underestimate them again and again. e ne MI e S Etrigan and Merlin above all others, but in recent years she has added Wonder Woman and Batman to a long list."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

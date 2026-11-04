@@ -1,0 +1,72 @@
+{
+  "nome_pt": "Cultista de Sangue",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 85,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 2,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 3,
+      "Int": 0,
+      "Pro": 0,
+      "Pre": 0
+    },
+    "poderes": [],
+    "equipamento": [
+      "Ceremonial Dagger (Dano 2, Improved Critical), Light Pistola (Dano à Distância 3)"
+    ],
+    "vantagens": [
+      "Equipamento 2",
+      "Trabalho em Equipe"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Ceremonial Dagger",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Combate à Distância: Light Pisto)",
+        "graduacoes": 8,
+        "total": 9
+      }
+    ],
+    "iniciativa": 1,
+    "ataques": [
+      {
+        "nome": "Ceremonial Dagger",
+        "bonus": 9,
+        "alcance": "",
+        "dano": "Dano 3, Crit. 19-20"
+      },
+      {
+        "nome": "Light Pistola",
+        "bonus": 9,
+        "alcance": "",
+        "dano": "Dano 3"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 2,
+      "Aparar": 4,
+      "Fortitude": 1,
+      "Resistência": 2,
+      "Vontade": 1
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 16,
+      "Poderes": 0,
+      "Vantagens": 3,
+      "Perícias": 7,
+      "Defesas": 3
+    },
+    "total": 27,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

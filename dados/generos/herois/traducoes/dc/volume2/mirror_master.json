@@ -1,0 +1,133 @@
+{
+  "nome_pt": "Mestre dos Espelhos",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 50,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 3,
+      "Agi": 2,
+      "Des": 4,
+      "Lut": 3,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 0
+    },
+    "poderes": [
+      "a Proteção 3, Sutil, Removível (-1 ponto) rmor ed Costume: (3 PP)",
+      "Holo-Mirrors: Variável 10 (mirror or reflection-based effects, 50 pontos), Removível (-14 pontos) (56 PP)",
+      "Mirror Gun: Dano à Distância 12 (laser), Preciso, Facilmente Removível (-10 pontos) (15 PP)",
+      "Mirror t r avel: Arranjo (42 pontos), Facilmente Removível (-16 pontos) (26 PP)",
+      "• Mirror Portal: Portal Teleporte 8 (1 mile), Preciso, Easy, Extended (250 milhas), Medium—Reflective surfaces (42 PP)",
+      "• Personal Mirror Portal: Teleporte 8 (1 mile), Preciso, Easy, Extended (250 milhas), Medium—Reflective surfaces (1 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Corpo-a-Corpo 2",
+      "Conectado",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 2",
+      "Evasion",
+      "Mira Aprimorada",
+      "Iniciativa Aprimorada",
+      "Inventor",
+      "Precise Attack 2 (corpo a corpo and à distância; Cover)",
+      "Ataque à Distância 2",
+      "Redirecionar",
+      "Esquiva Fabulosa"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Holo-Mirror",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 5,
+        "total": 5
+      },
+      {
+        "nome": "Especialidade: Underworld",
+        "graduacoes": 6,
+        "total": 7
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 7,
+        "total": 9
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 6,
+        "total": 6
+      },
+      {
+        "nome": "Combate à Distância: Holo-Mirror",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Combate à Distância: Mirror Gun",
+        "graduacoes": 2,
+        "total": 6
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 9,
+        "total": 10
+      }
+    ],
+    "iniciativa": 6,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 7,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2"
+      },
+      {
+        "nome": "Holo-Mirror",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "or À Distância, Varies up to 10"
+      },
+      {
+        "nome": "Mirror Gun",
+        "bonus": 8,
+        "alcance": "À distância",
+        "dano": "Dano 12"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Fortitude": 8,
+      "Aparar": 10,
+      "Resistência": 8,
+      "Vontade": 8
+    },
+    "observacao_defesas": "* Vontade 8 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 34,
+      "Perícias": 25,
+      "Poderes": 100,
+      "Defesas": 26,
+      "Vantagens": 16
+    },
+    "total": 201,
+    "complicacoes": [
+      {
+        "titulo": "a ddic tion ( e v an McCulloch)",
+        "texto": "Evan McCulloch is addicted to cocaine, though Captain Frio is “helping” him kick the habit (by kicking him for being an idiot). n o o C v Women, n hildren ( e an McCulloch) : Like the other Rogues, Mirror Master refuses to harm innocent women and children. While this mostly manifests as reluctance in the case of female and teenage super heroes, he did once protected fallen heroines from being sexually assaulted by Doctor Light. t ies v Past ( e an McCulloch): McCulloch has assumed some responsibility for the orphanage where he grew up and donates part of his criminal earnings to its support. Petty Pride (Sam Scudder): While ingenious and visionary, the first Mirror Master was still a petty criminal hampered by short-term goals and narcissistic pride."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

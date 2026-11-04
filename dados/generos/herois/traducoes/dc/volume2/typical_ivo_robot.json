@@ -1,0 +1,69 @@
+{
+  "nome_pt": "Robô Típico de Ivo",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 113,
+  "ficha": {
+    "habilidades": {
+      "For": 11,
+      "Vig": "—",
+      "Agi": 4,
+      "Des": 4,
+      "Lut": 6,
+      "Int": "—",
+      "Pro": 0,
+      "Pre": "—"
+    },
+    "poderes": [
+      "a rmor (Impenetrável Proteção 8); e nergy Blasts (Dano à Distância 11); f ligh t 6 (192 km/h); i mmunit y 30 (Fortitude Effects)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "None"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 7,
+        "total": 11
+      },
+      {
+        "nome": "Combate à Distância: Energy Blast",
+        "graduacoes": 7,
+        "total": 11
+      }
+    ],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Energy Raio",
+        "bonus": 11,
+        "alcance": "",
+        "dano": "Dano à Distância 11"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 11,
+        "alcance": "",
+        "dano": "Dano 11"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Aparar": 12,
+      "Resistência": 8
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 20,
+      "Poderes": 80,
+      "Vantagens": 0,
+      "Perícias": 6,
+      "Defesas": 14
+    },
+    "total": 120,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "nome_pt": "Demons Three",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 158,
+  "ficha": {
+    "habilidades": {
+      "For": 11,
+      "Vig": 13,
+      "Agi": 6,
+      "Des": 6,
+      "Lut": 6,
+      "Int": 10,
+      "Pro": 10,
+      "Pre": 4
+    },
+    "poderes": [
+      "Brothers-in-Shadow: Enhanced Advantages 3 (Inspire, Set-up, Teamwork), Limitado a using with the other two brothers (2 PP)",
+      "Demonic Entities: Compreender Languages 3, Imunidade 30 (Fortitude Effects), Proteção 3, Regeneração 5, Sentidos 5 (mágico Prontidão (Analítico, Extended 2)) (49 PP)",
+      "Demonic mágico: Arranjo (45 pontos)",
+      "• mágico Raio: Dano à Distância 15, Alternate Save: Fortitude (45 PP)",
+      "• Conjuration: Criar Objetos 14, Contínuo, Inato, Preciso, Sutil (1 PP)",
+      "• Glamours: Ilusão 10 (All Sentidos), Resistable (1 PP)",
+      "• Major Curse: Aflição à Distância 15 (resistido por Vontade; Tonto, Atordoado, Transformado) (1 PP)",
+      "• Transmogrification: Transform 9, Anything into Anything (1 PP)",
+      "• Willforce: Alcance de Percepção Mover Objetos 11, Damaging (1 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Artífice",
+      "Benefit 1 (Legendary Demons)",
+      "Ataque Corpo-a-Corpo 2",
+      "Memória Eidética",
+      "Fascinar (Enganação)",
+      "Destemido",
+      "Ritualista",
+      "Provocar"
+    ],
+    "pericias": [
+      {
+        "nome": "Enganação",
+        "graduacoes": 12,
+        "total": 16
+      },
+      {
+        "nome": "Especialidade: mágico",
+        "graduacoes": 13,
+        "total": 23
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 10,
+        "total": 20
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 10,
+        "total": 20
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 9,
+        "total": 13
+      },
+      {
+        "nome": "Combate à Distância: mágico Array",
+        "graduacoes": 4,
+        "total": 10
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [],
+    "defesas": {
+      "Esquiva": 8,
+      "Fortitude": 13,
+      "Aparar": 10,
+      "Resistência": 16,
+      "Vontade": 13
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 132,
+      "Perícias": 33,
+      "Poderes": 102,
+      "Defesas": 9,
+      "Vantagens": 9
+    },
+    "total": 285,
+    "complicacoes": [
+      {
+        "titulo": "Bindable",
+        "texto": "As demonic entities, Abnegazar, Rath, and Ghast can be summoned and bound through the proper (and extraordinarily powerful) rituals."
+      },
+      {
+        "titulo": "Exiled",
+        "texto": "The brothers are exiled to the pits of Hell and can only manifest on Earth through ritual mágico others use on their totem foci (the Bell, Wheel, and Jar), or through intercession of other high-ranking supernatural entities."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

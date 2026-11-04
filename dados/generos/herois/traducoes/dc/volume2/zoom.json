@@ -1,0 +1,105 @@
+{
+  "nome_pt": "Zoom",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 138,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 2,
+      "Agi": 3,
+      "Des": 2,
+      "Lut": 4,
+      "Int": 4,
+      "Pro": 2,
+      "Pre": 1
+    },
+    "poderes": [
+      "The same as Reverse-Flash, except for having Rapidez 21 and lacking the Frictionless Aura and Vibration power. Zoom’s Powers have the temporal descriptor rather than being connected to the Velocidade Force."
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Assessment; otherwise the same as Reverse-Flash."
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 6,
+        "total": 7
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 2,
+        "total": 6
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Especialidade: Criminology",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Especialidade: Psychology",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 6
+      }
+    ],
+    "iniciativa": 43,
+    "ataques": [
+      {
+        "nome": "Attack",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 1"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 16,
+      "Aparar": 16,
+      "Fortitude": 8,
+      "Resistência": 7,
+      "Vontade": 11
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 38,
+      "Poderes": 117,
+      "Vantagens": 1,
+      "Perícias": 24,
+      "Defesas": 16
+    },
+    "total": 196,
+    "complicacoes": [
+      {
+        "titulo": "o bsession",
+        "texto": "The Flash."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

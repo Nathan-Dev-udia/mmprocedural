@@ -1,0 +1,87 @@
+{
+  "nome_pt": "Abby Holland",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 219,
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 2,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 1,
+      "Int": 3,
+      "Pro": 5,
+      "Pre": 4
+    },
+    "poderes": [
+      "e mpathy (Sentidos 2 (Detect Emotions, À Distância)); t elek inesis (Mover Objetos 1, Não Confiável); t elepa thy (Leitura mental 1)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Empatia com Animais",
+      "Atraente",
+      "Plant Empathy*"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 3,
+        "total": 3
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 2,
+        "total": 3
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 5,
+        "total": 10
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 2,
+        "total": 5
+      }
+    ],
+    "iniciativa": 1,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 3,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 0"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 5,
+      "Aparar": 5,
+      "Fortitude": 3,
+      "Resistência": 2,
+      "Vontade": 5
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 34,
+      "Poderes": 5,
+      "Vantagens": 3,
+      "Perícias": 12,
+      "Defesas": 9
+    },
+    "total": 63,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

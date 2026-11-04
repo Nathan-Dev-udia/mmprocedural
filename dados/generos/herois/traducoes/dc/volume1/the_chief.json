@@ -1,0 +1,131 @@
+{
+  "nome_pt": "The Chief",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 176,
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 0,
+      "Agi": 2,
+      "Des": 4,
+      "Lut": 4,
+      "Int": 10,
+      "Pro": 5,
+      "Pre": 5
+    },
+    "poderes": [],
+    "equipamento": [],
+    "vantagens": [
+      "Benefit 4 (Multi-millionaire)",
+      "Equipamento 10",
+      "Fascinar (Enganação)",
+      "Inventor",
+      "Languages 2",
+      "Liderança",
+      "Ataque à Distância 4",
+      "Tomar a Iniciativa",
+      "Preparar",
+      "Maestria em Perícia (Enganação)",
+      "Maestria em Perícia (Persuasão)",
+      "Maestria em Perícia (Tecnologia)",
+      "Provocar",
+      "Esforço Supremo (Tecnologia)",
+      "Bem-Informado"
+    ],
+    "pericias": [
+      {
+        "nome": "Enganação",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Especialidade: Medicine",
+        "graduacoes": 5,
+        "total": 15
+      },
+      {
+        "nome": "Especialidade: Science",
+        "graduacoes": 10,
+        "total": 20
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 5,
+        "total": 10
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 5,
+        "total": 15
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 10,
+        "total": 20
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 5,
+        "total": 15
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 4,
+        "total": 8
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 0 or by weapon"
+      },
+      {
+        "nome": "À Distância",
+        "bonus": 8,
+        "alcance": "À distância",
+        "dano": "Dano by weapon"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 2,
+      "Aparar": 6,
+      "Fortitude": 5,
+      "Resistência": 0,
+      "Vontade": 10
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 60,
+      "Poderes": 0,
+      "Vantagens": 31,
+      "Perícias": 30,
+      "Defesas": 12
+    },
+    "total": 135,
+    "complicacoes": [
+      {
+        "titulo": "Deficiência",
+        "texto": "The Chief lost the use of his legs years ago, due to nervous system Dano. He is confined to a wheelchair ."
+      },
+      {
+        "titulo": "Nemesis",
+        "texto": "Niles Caulder has several sworn enemies, including the Brain and General Immortus."
+      },
+      {
+        "titulo": "Reputação",
+        "texto": "The Chief has garnered a reputation as duplicitous and mentally unstable. Other heroes (even his allies) are suspicious of his actions."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

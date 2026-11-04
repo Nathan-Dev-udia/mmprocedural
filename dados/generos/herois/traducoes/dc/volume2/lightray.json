@@ -1,0 +1,105 @@
+{
+  "nome_pt": "Homem-Raio",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 76,
+  "ficha": {
+    "habilidades": {
+      "For": 6,
+      "Vig": 7,
+      "Agi": 5,
+      "Des": 5,
+      "Lut": 6,
+      "Int": 6,
+      "Pro": 6,
+      "Pre": 5
+    },
+    "poderes": [
+      "i mmunit y 10 (Envelhecimento, Frio, Calor, Pressão, Radiação, Vácuo, Doença, Veneno, Sufocamento (All)); Solar e nergy Control: Arranjo (48 pontos): f ligh t 24 (32,000,0 km/h, Dynamic), ae : Solar e nergy Beam (Dano à Distância 12, Dynamic), ae : Solar Light Beam (Aflição à Distância 12 (resistido por Fortitude; Visually Impaired, Visually Disabled, Visually Unaware), Cumulativo, Dynamic), ae : Holograms (Ilusão 10 (Visual), área 2 (30 feet), Dynamic), ae : Miniature Sun (Environment 12 (Bright Light), Dynamic), ae : Movimento 1 (Space Travel 1, Dynamic); Mother Box (Removível (–5 pontos): Boom Tube (Space Travel 3); i n telligence (Característica 2); r estoration (Cura 8)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Finta Ágil",
+      "Rolamento Defensivo 3",
+      "Duro de Matar",
+      "Evasion 2",
+      "Ataque à Distância 7"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 10,
+        "total": 15
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 6,
+        "total": 12
+      },
+      {
+        "nome": "Especialidade: Science",
+        "graduacoes": 8,
+        "total": 14
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 12,
+        "total": 18
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 8,
+        "total": 13
+      }
+    ],
+    "iniciativa": 5,
+    "ataques": [
+      {
+        "nome": "Solar Energy Beam",
+        "bonus": 12,
+        "alcance": "À distância",
+        "dano": "Dano 12"
+      },
+      {
+        "nome": "Solar Light Ray",
+        "bonus": 12,
+        "alcance": "À distância",
+        "dano": "Aflição 12"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 12,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 6"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 14,
+      "Aparar": 14,
+      "Fortitude": 11,
+      "Resistência": 10,
+      "Vontade": 13
+    },
+    "observacao_defesas": "*, Vontade 13 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 92,
+      "Poderes": 88,
+      "Vantagens": 14,
+      "Perícias": 22,
+      "Defesas": 28
+    },
+    "total": 244,
+    "complicacoes": [
+      {
+        "titulo": "d oing Good",
+        "texto": "Lightray’s overriding kindheartedness leads him to always do right by others."
+      },
+      {
+        "titulo": "Fraqueza",
+        "texto": "The mysterious substance Radion is potentially lethal to Lightray, as to the other New Gods."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

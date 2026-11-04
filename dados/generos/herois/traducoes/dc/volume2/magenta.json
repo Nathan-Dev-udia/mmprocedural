@@ -1,0 +1,100 @@
+{
+  "nome_pt": "Magenta",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 30,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 3,
+      "Agi": 2,
+      "Des": 3,
+      "Lut": 2,
+      "Int": 3,
+      "Pro": 2,
+      "Pre": 3
+    },
+    "poderes": [
+      "Magnetic Manipulation: Arranjo (24 pontos)",
+      "• e lec tromagnetic Raio: Dano à Distância 12 (24 PP)",
+      "• Magnetic Control: Mover Objetos 12, Preciso, Limitado a metal (1 PP)",
+      "• e M Pulse: Área de Explosão 2 (60 feet) Aflição 11 (resistido por Esquiva; Impaired, Disabled, Incapacitado), Limitado a electrical devices, robots, and cybernetics) (1 PP)",
+      "r epulsor f ligh t: Voo 8 (800 km/h) (16 PP)",
+      "Static a ur a: Proteção 8, Sustentado (8 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Atraente",
+      "Fascinar (Persuasão)",
+      "Ação em Movimento",
+      "Precise Attack (à distância; Cover)",
+      "Esquiva Fabulosa"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 7,
+        "total": 9
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Combate à Distância: Magnetic Manipulation",
+        "graduacoes": 7,
+        "total": 10
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Magnetic Manipulation",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Dano 12"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 2,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 1"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Fortitude": 8,
+      "Aparar": 7,
+      "Resistência": 11,
+      "Vontade": 8
+    },
+    "observacao_defesas": "* Vontade 8 *Without Static Aura.",
+    "custos": {
+      "Habilidades": 38,
+      "Perícias": 17,
+      "Poderes": 50,
+      "Defesas": 24,
+      "Vantagens": 5
+    },
+    "total": 134,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

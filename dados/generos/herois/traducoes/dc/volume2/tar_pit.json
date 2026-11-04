@@ -1,0 +1,82 @@
+{
+  "nome_pt": "Poço de Piche",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 144,
+  "ficha": {
+    "habilidades": {
+      "For": 8,
+      "Vig": 10,
+      "Agi": 0,
+      "Des": 2,
+      "Lut": 5,
+      "Int": 0,
+      "Pro": 1,
+      "Pre": 1
+    },
+    "poderes": [
+      "Burning t ouch (Reação Dano 3, Permanente), Crescimento 4 (Permanente), i mmunit y 10 (Suporte Vital), Liquid t ar f orm (Intangibilidade 1 (Permanente), Proteção 2), n o xious f umes (Cumulativo Área de Explosão Reação Aflição 4 (resistido por Fortitude; Tonto, Atordoado, Incapacitado), Permanente), Suffocating Globs (À Distância Progressivo Aflição 6 (resistido por Esquiva/Fortitude; Tonto, Atordoado, Incapacitado))"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Estrangular",
+      "Ataque Corpo-a-Corpo 6",
+      "Duro de Matar",
+      "Agarrar Rápido",
+      "Agarrar Aprimorado",
+      "Imobilizar Aprimorado",
+      "Prender Arma"
+    ],
+    "pericias": [
+      {
+        "nome": "Especialidade: Criminal",
+        "graduacoes": 4,
+        "total": 4
+      },
+      {
+        "nome": "Combate à Distância: Sufocamento",
+        "graduacoes": 10,
+        "total": 12
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [
+      {
+        "nome": "Sufocamento",
+        "bonus": 12,
+        "alcance": "À distância",
+        "dano": "Progressivo Aflição 6"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 11,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 8"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 6,
+      "Aparar": 8,
+      "Fortitude": 15,
+      "Resistência": 12,
+      "Vontade": 5
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 38,
+      "Poderes": 99,
+      "Vantagens": 12,
+      "Perícias": 7,
+      "Defesas": 22
+    },
+    "total": 178,
+    "complicacoes": [
+      {
+        "titulo": "Fraqueza",
+        "texto": "Citric acid causes Tar Pit’s form to dissolve, though he is capable of reforming himself."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

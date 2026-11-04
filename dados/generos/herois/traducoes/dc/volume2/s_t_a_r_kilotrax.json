@@ -1,0 +1,81 @@
+{
+  "nome_pt": "S.T.A.R. Kilotrax",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 225,
+  "ficha": {
+    "habilidades": {
+      "For": "—",
+      "Vig": "—",
+      "Agi": "—",
+      "Des": "—",
+      "Lut": "—",
+      "Int": 4,
+      "Pro": 2,
+      "Pre": 0
+    },
+    "poderes": [
+      "Computer (Compreender 4 (Languages; Speak, Understand; Machines), Crescimento 8 (Inato, Permanente), Imunidade 30 (Fortitude Effects)); t o wer Sensors (Remote Sensing 9 (Auditory, Visual, Simultaneous, Medium (Titan Tower Sentidos)), Sentidos 1 (Communications Link (Titans Tower)); Upload Copy (Imortalidade 12 (Medium (Network Connection)))"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Memória Eidética",
+      "Destemido",
+      "Iniciativa Aprimorada"
+    ],
+    "pericias": [
+      {
+        "nome": "Especialidade: Engineering",
+        "graduacoes": 2,
+        "total": 6
+      },
+      {
+        "nome": "Especialidade: Forensics",
+        "graduacoes": 2,
+        "total": 6
+      },
+      {
+        "nome": "Especialidade: Science",
+        "graduacoes": 2,
+        "total": 6
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 2,
+        "total": 6
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 3,
+        "total": 5
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 3,
+        "total": 7
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [],
+    "defesas": {
+      "Resistência": 8,
+      "Vontade": 10
+    },
+    "observacao_defesas": "*, Vontade 10 *Includes Crescimento modifiers.",
+    "custos": {
+      "Poderes": 95,
+      "Vantagens": 3,
+      "Perícias": 7,
+      "Defesas": 8
+    },
+    "total": 75,
+    "complicacoes": [
+      {
+        "titulo": "Confined",
+        "texto": "The Kilotrax is Imóvel and is unable to sense anything beyond Titans Tower’s grounds. It relies upon its link to the tower—its body, effectively— to see or interact with the world. Named Zbnik (“Wildcat”) by its original Zandian owners, it was here that the Titans stopped the Zandians’ terrorist activities. They agreed to Checkmate renovating it for Titans’ use dur - ing the team’s time working with the government. Renamed the Argus, the station was fitted with a variety of cutting-edge surveillance equipment to keep an eye on metahuman activ- ity across the Earth. Access was via a JLA-derived teleporter (for which each team member was given an access Dispositivo) and three shuttles. t t o y ork HQ: itans wer ( n ew , origina L ) • 21 POI n TS Size: Gargantuan t ou: 10 f ea tures: Communications, Computer, Dock, fogo Prevention System, Garage, Grounds, Gym, Hangar, Infirmary, Laboratory, Library, Living Space, Security System, Workshop; Minion 5 (S.T.A.R. Kilotrax, see sidebar), Cyborg’s father built the T-shaped tower for the New Teen Ti- tans upon a roughly forty acre island in the East River. There were actually two incarnations of this tower—the second was erected with several upgrades after the original was destroyed by Trigon. Equipped to be both practical for their work and a comfortable place to live, the tower has (among 228 228"
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

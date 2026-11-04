@@ -1,0 +1,122 @@
+{
+  "nome_pt": "Super-Ciborgue",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 142,
+  "ficha": {
+    "habilidades": {
+      "For": 19,
+      "Vig": 14,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 8,
+      "Int": 7,
+      "Pro": 2,
+      "Pre": 4
+    },
+    "poderes": [
+      "Cyberpathy : Arranjo (38 pontos)",
+      "• Cyberpathy: Perception À Distância Comunicação (mental) 9, Limitado a Machines, Compreender 2 (Machines) (38 PP)",
+      "• Machine Animation: Summon 8 (120 pontos), mental Link, À Distância, Broad Variável Type (Machines), Limitado a animating machines within range (1 PP)",
+      "Electronic Consciousness: Imortalidade 20, Limitado a having an electronic Dispositivo to transmit consciousness into (20 PP)",
+      "Voo: Arranjo (30 pontos) Voo: Voo 15 (64,0 km/h) (30 PP)",
+      "• Space Voo: Movimento 1 (Space Travel) (1 PP)",
+      "• Velocidade: Velocidade 15 (64,0 km/h) (1 PP)",
+      "Calor Vision: Dano à Distância 15 (30 PP)",
+      "Invulnerability: Proteção 2, Resistência Impenetrável 16, Imunidade 7 (Frio, Calor, Pressão, Radiação, Sufocamento (All), Vácuo) (25 PP)",
+      "Super-Sentidos: Sentidos 15 (Aguçado and Audição Estendida, Visão Estendida 3, Infravisão, Microscopic Vision4, Ultra- Hearing, Vision Penetrates Camuflagem (except lead)) (15 PP)",
+      "Super-Velocidade: Rapidez 8 (8 PP)",
+      "Super-Força: Força Aprimorada 4, Limitado a Lifting (Lifting Str 23; 200,000 tons) (4 PP)",
+      "Technomorph: Arranjo (39 pontos)",
+      "• Arm Blaster: Dano à Distância 19, Variável Descriptor (Electromagnetic) (39 PP)",
+      "• Arm Aprisionar: Cumulativo Aflição 15 (Impedido and Vulnerável, Indefeso and Imóvel) Extra Condition, resistido por Esquiva, Limitado Degree (1 PP)",
+      "• Claws: Penetrante 19 on Força Dano (1 PP)",
+      "Hank was later discovered, by Hal Jordan, at the Source Wall. In their confrontation, Hank was torn apart by Hal’s represen - tations of the Coast City victims, and Hank’s consciousness was absorbed into the Godwave. Surviving as part of the Godwave, Hank created a world made up of his memories. Superman encountered this world and Hank used those memories to torment the Kryptonian, but once again he was defeated. Unbeknownst to Superman, Hank had downloaded his consciousness into the Man of Steel’s containment suit and returned with him to Earth where he created a new body and posed as an art teacher with the intention of starting a new life. Despite this, Hank’s hatred for Superman caused him to reveal his true identity, and his new body was destroyed in the inevitable conflict. Having returned once again and in alliance with the Toyman, Hank devised a Dispositivo to destroy Superman by dispersing the Kryptonian’s energy across the galaxy, making it impossible for him to reform. The Dispositivo malfunctioned, causing Super - man to Dividido into two personas, Superman Red and Superman Blue, with the former eventually defeating him. Returning to space, Hank discovered the homeworld of the android Manhunters. Gathering together deceased Green Lanterns, he used their rings and Kryptonian technology to upgrade the Manhunters into Highlords. Hal Jordon and Ari - sia combined the power of their rings with a Highlord and"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Benefit 10 (Grandmaster of the Highlords)",
+      "Ataque Poderoso",
+      "Tomar a Iniciativa",
+      "Esforço Supremo (Resistência)"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 3,
+        "total": 11
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Combate à Distância: Technomorphed Weapons",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 9,
+        "total": 11
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 9,
+        "total": 16
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Blaster",
+        "bonus": 11,
+        "alcance": "À distância",
+        "dano": "Dano 19"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 11,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 19"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 14,
+      "Fortitude": 15,
+      "Aparar": 14,
+      "Resistência": 16,
+      "Vontade": 14
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 116,
+      "Perícias": 19,
+      "Poderes": 214,
+      "Defesas": 31,
+      "Vantagens": 13
+    },
+    "total": 393,
+    "complicacoes": [
+      {
+        "titulo": "Cyborg",
+        "texto": "Cyborg Superman’s body is largely mechanical, and cannot heal normally."
+      },
+      {
+        "titulo": "Obsessão",
+        "texto": "Cyborg Superman is driven by his hatred to destroy Superman."
+      },
+      {
+        "titulo": "Perda de Poder",
+        "texto": "Because of his Kryptonian biological parts, Cyborg Superman loses his Powers under a red sun. Other effects draining or interfering with the energies of the yellow sun can also deprive him of his Powers. The Powers affected this way are Voo, Super-Sentidos, Super-Velocidade, and Super-Força."
+      },
+      {
+        "titulo": "Fraqueza",
+        "texto": "Cyborg Superman suffers from a weakness to kryptonite due to his Kryptonian DNA, the radioactive remains of the planet Krypton. Kryptonite comes in a number of forms. Green kryptonite is by far the most common. Its Radiação saps his Força, Voo, Super-Sentidos, Super-Velocidade, and Super- Força, leaving him impaired, disabled, and eventually debilitated in terms of Força and power effects. Long-term exposure (usually a matter of minutes, less for a large enough amount) imposes the Moribundo condition and may lead to death. destroyed Hanks organic components along with most of the Manhunters’ homeworld. The cyborg’s remains were then im - prisoned on Oa. Freed by the Sinestro Corps, Hank was made a herald of the Anti-Monitor with the understanding that he would be re - warded for his services with his greatest desire—a final death. Wielding ten Qwardian power rings, Hank led his Highlords to Earth and battled Superman again. This time, Hank would have defeated Superman if Power Girl and Supergirl had not come to the Man of Steel’s aid. In the final encounter with the Anti-Monitor, Hank was finally killed. Unfortunately, the Highlords, lost without their leader, retrieved a fraction of Hank’s remains and funneled a massive amount of energy into it, returning Cyborg Superman to life."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

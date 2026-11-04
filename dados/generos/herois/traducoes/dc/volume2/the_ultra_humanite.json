@@ -1,0 +1,126 @@
+{
+  "nome_pt": "Ultra-Humanóide",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 247,
+  "ficha": {
+    "habilidades": {
+      "For": 10,
+      "Vig": 8,
+      "Agi": 4,
+      "Des": 2,
+      "Lut": 5,
+      "Int": 7,
+      "Pro": 7,
+      "Pre": 5
+    },
+    "poderes": [
+      "Gorilla’s Body: Característica 1 (Insulating Fur), Crescimento 4 (Inato, Permanente), Proteção 3 (13 PP)",
+      "mental Powers: Arranjo (48 pontos)",
+      "• t elek inesis: Mover Objetos 12, Damaging, Alcance de Percepção (48 PP)",
+      "• Psychic Raio: Dano 9, Resistência Alternativa (Vontade), Área de Explosão, Alcance de Percepção (1 PP)",
+      "• t elepa thy: Comunicação 4 (mental), Concentração, Remote Sensing 18 (Audial & Visual), Concentração (1 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Benefit 2 (Wealth)",
+      "Duro de Matar",
+      "Evasion",
+      "Ferramentas Improvisadas",
+      "Inventor",
+      "Liderança"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 8,
+        "total": 18
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 9,
+        "total": 14
+      },
+      {
+        "nome": "Especialidade: Criminal",
+        "graduacoes": 14,
+        "total": 21
+      },
+      {
+        "nome": "Especialidade: Science",
+        "graduacoes": 15,
+        "total": 22
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 9,
+        "total": 16
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 9,
+        "total": 14
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 13,
+        "total": 20
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 9,
+        "total": 14
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 15,
+        "total": 22
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 13,
+        "total": 20
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [],
+    "defesas": {
+      "Esquiva": 13,
+      "Fortitude": 12,
+      "Aparar": 13,
+      "Resistência": 11,
+      "Vontade": 14
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 80,
+      "Perícias": 65,
+      "Poderes": 63,
+      "Defesas": 32,
+      "Vantagens": 7
+    },
+    "total": 247,
+    "complicacoes": [
+      {
+        "titulo": "o bsession",
+        "texto": "The Ultra Humanite craves power at any cost, even his own humanity. d isabilit y: Originally Limitado by a weak and sickly body, the Humanite’s psionic energies gradually degrade the substitute bodies his brain occupies, forcing him to periodically find replacements."
+      },
+      {
+        "titulo": "Perda de Poder",
+        "texto": "It takes time for a new body to adapt to the Humanite’s mental Powers, and he cannot use them for a time after his brain is transplanted. t he g o L den a ge uL tra- h u M an I te In his original body, the Ultra-Humanite had Luta, Agilidade, Força & Vigor scores of –2, had no Skills based on them, no Powers, and no Evasion Advantage."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

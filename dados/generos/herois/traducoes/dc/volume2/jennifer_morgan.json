@@ -1,0 +1,125 @@
+{
+  "nome_pt": "Jennifer Morgan",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 256,
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 2,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 4,
+      "Int": 3,
+      "Pro": 4,
+      "Pre": 3
+    },
+    "poderes": [
+      "Mystical Sentidos (Sense 4 (Detect mágico, À Distância, Aguçado, Analítico)); Levitation (Voo 2 (12 km/h, Concentração); Sorcery (Arranjo (22 pontos), mágico Raio (Dano à Distância 10, Affects Intangibilidade (full effect), Dynamic), ae : Mystic Escudo (Deflexão 12, Impenetrável Proteção 5, Sustentado, Dynamic), ae : Clairvoyance (Remote Sensing 11 (Sight)), ae : d isp el mágico (Nulificar Magical Effects 10, Broad, Preciso), ae : Cure (Cura 7, Restorative, Stabilize), ae : i llusion- Casting (Ilusão 7 (Visual and Auditory))"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Artífice",
+      "Atraente",
+      "Benefit 2 (Supreme Sorceress of Skartaris)",
+      "Ataque Defensivo",
+      "Esforço Extraordinário",
+      "Languages 3",
+      "Ritualist. Trance"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 4,
+        "total": 4
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Especialidade: History",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: mágico",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Especialidade: Skartaris",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Combate à Distância: mágico",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 2,
+        "total": 5
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 4,
+        "total": 7
+      }
+    ],
+    "iniciativa": 3,
+    "ataques": [
+      {
+        "nome": "mágico Raio",
+        "bonus": 8,
+        "alcance": "",
+        "dano": "(Dano 10 mais outros)"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 8,
+      "Fortitude": 5,
+      "Resistência": 2,
+      "Vontade": 12
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 44,
+      "Poderes": 37,
+      "Vantagens": 11,
+      "Perícias": 26,
+      "Defesas": 22
+    },
+    "total": 140,
+    "complicacoes": [
+      {
+        "titulo": "r elationships",
+        "texto": "Warlord (father), Joshua (half- brother) and various allies and friends."
+      },
+      {
+        "titulo": "Sorceress",
+        "texto": "Must be able to gesture and speak to use her Powers effectively."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

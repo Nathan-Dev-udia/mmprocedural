@@ -1,0 +1,114 @@
+{
+  "nome_pt": "Abra Kadabra",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 7,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 4,
+      "Agi": 1,
+      "Des": 3,
+      "Lut": 2,
+      "Int": 4,
+      "Pro": 4,
+      "Pre": 2
+    },
+    "poderes": [
+      "Technological mágico: Arranjo (56 pontos)",
+      "• Mind over Matter: Mover Objetos 11, Damaging, Perception área, Alcance de Percepção, Preciso (56 PP)",
+      "• Disappearing Act: Teleporte 11, Preciso, Easy, Extended, Increased Mass (1 PP)",
+      "• Hypno-Ray: Aflição 11 (resistido por Vontade; Tonto, Compelido, Controlado), Área de Cone, Cumulativo, Alcance de Percepção, Reversível (1 PP)",
+      "• Nanotechnological Transformation: Aflição 11 (resistido por Fortitude; Impedido, Imóvel, Transformado), Alcance de Percepção, Progressivo, Reversível (1 PP)",
+      "• Nanotechnological Transmutation: Transform 8 (solids into other solids), Contínuo, Alcance de Percepção (1 PP)",
+      "• Teleporte Ray: Teleporte 11, Attack (resistido por Esquiva), Extended, Increased Mass, Alcance de Percepção (1 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Tontear (Enganação)",
+      "Rolamento Defensivo 3",
+      "Fascinar (Enganação)",
+      "Ferramentas Improvisadas",
+      "Inventor"
+    ],
+    "pericias": [
+      {
+        "nome": "Enganação",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: Science",
+        "graduacoes": 15,
+        "total": 19
+      },
+      {
+        "nome": "Especialidade: Stage mágico",
+        "graduacoes": 10,
+        "total": 14
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 6,
+        "total": 7
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 7,
+        "total": 11
+      }
+    ],
+    "iniciativa": 1,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 2,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Fortitude": 9,
+      "Aparar": 12,
+      "Resistência": 7,
+      "Vontade": 11
+    },
+    "observacao_defesas": "* Vontade 11 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 44,
+      "Perícias": 31,
+      "Poderes": 61,
+      "Defesas": 31,
+      "Vantagens": 7
+    },
+    "total": 174,
+    "complicacoes": [
+      {
+        "titulo": "Perda de Poder",
+        "texto": "Kadabra derives his Powers from sub-dermal implants acquired in his native future era. Authorities with sufficient know-how (like Iron Heights wardens) can remove them, leaving Kadabra without Powers."
+      },
+      {
+        "titulo": "Recognition",
+        "texto": "Kadabra sometimes acts out of greed or revenge, but the common element in all of his schemes is his insane, ruthless craving for applause and attention. His actions are often showy, even when subtlety is needed."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

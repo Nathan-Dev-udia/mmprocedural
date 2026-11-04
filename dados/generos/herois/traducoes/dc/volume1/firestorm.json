@@ -1,0 +1,122 @@
+{
+  "nome_pt": "Firestorm",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 202,
+  "ficha": {
+    "habilidades": {
+      "For": 8,
+      "Vig": 8,
+      "Agi": 4,
+      "Des": 4,
+      "Lut": 2,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "poderes": [
+      "Absorption: Área de Explosão Nulificar 11 (Electromagnetic Energy) Linked to Área de Explosão Nulificar 11 (Kinetic Energy), Distrativo, Cansativo (22 PP)",
+      "Voo 8 (800 km/h) (16 PP)",
+      "Heightened Sentidos: Sentidos 9 (Visão Estendida 3, Infravisão, Visão Microscópica 4, Ultravisão) (9 PP)",
+      "Nuclear Control: Arranjo (42 pontos)",
+      "• Atomic Rearrangement: À Distância Transform 8 (Anything to Anything), Increased Duration (Contínuo), Skill Exige Teste 10 (Expertise: Science DC20) , Half-Value Efeito Colateral: Automatic when attempted on organic matter: Aflição 12 (resistido por Fortitude; Tonto, Atordoado, Incapacitado) and Dano 12 (42 PP)",
+      "• Nuclear Bolt: Dano à Distância 12 (1 PP)",
+      "• Intangible Intangibilidade 4 (Incorporeal), Reação (1 PP)",
+      "Quick Change: Característica 1 (1 PP)",
+      "Stein’s Presença*: Enhanced Skill 14 (Expertise: Science +14) (7 PP)",
+      "*Only when Stein is part of Firestorm"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Rolamento Defensivo 2",
+      "Evasion",
+      "Iniciativa Aprimorada",
+      "Ação em Movimento",
+      "Ataque Poderoso",
+      "Esforço Supremo (Expertise: Science)"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 4,
+        "total": 12
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 12,
+        "total": 14
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Especialidade: Science",
+        "graduacoes": 5,
+        "total": 6
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 5,
+        "total": 7
+      },
+      {
+        "nome": "Combate à Distância: Nuclear Control",
+        "graduacoes": 6,
+        "total": 10
+      }
+    ],
+    "iniciativa": 8,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 14,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 8"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Fortitude": 10,
+      "Aparar": 10,
+      "Resistência": 10,
+      "Vontade": 8
+    },
+    "observacao_defesas": "** Vontade 8 **sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 62,
+      "Perícias": 22,
+      "Poderes": 88,
+      "Defesas": 24,
+      "Vantagens": 7
+    },
+    "total": 203,
+    "complicacoes": [
+      {
+        "titulo": "Identity",
+        "texto": "Firestorm’s identities are secret from the public."
+      },
+      {
+        "titulo": "Motivação",
+        "texto": "Doing Good: Firestorm and those that join together to make him are good people interested in helping however they can."
+      },
+      {
+        "titulo": "Perda de Poder",
+        "texto": "The two beings who merge to Criar Objetos Firestorm have no Powers when they separate into their normal forms."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

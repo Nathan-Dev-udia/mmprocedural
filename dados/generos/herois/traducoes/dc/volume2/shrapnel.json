@@ -1,0 +1,106 @@
+{
+  "nome_pt": "Estilhaço (Shrapnel)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 175,
+  "ficha": {
+    "habilidades": {
+      "For": 7,
+      "Vig": 7,
+      "Agi": 5,
+      "Des": 5,
+      "Lut": 4,
+      "Int": 0,
+      "Pro": 1,
+      "Pre": 0
+    },
+    "poderes": [
+      "Body Spikes: Reação Dano 6, Penetrante 5 (slashing, when attacked in melee) (29 PP)",
+      "Composite o r ganism: Imunidade 13 (Critical Hits, Suporte Vital, Sleep); Impenetrável Proteção 6; Força Aprimorada 3, Limitado a Lifting (lifting Str 10; 25 tons) (28 PP)",
+      "f r agmentation: Arranjo (43 pontos)",
+      "• f r agmentation Raio: À Distância Multiataque Dano 11 (slashing), Teleguiado, Improved Critical 2, Penetrante 5 (43 PP)",
+      "• Body e xplosion: área Burst 2 (60 feet) Dano 11 (slashing), Penetrante 7 (1 PP)",
+      "• d isp erse f orm: Intangibilidade 1 (Metal Fragments) (1 PP)",
+      "Jagged e dge: Força-based Dano 5, Penetrante 5 (10 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Tontear (Intimidação)",
+      "Duro de Matar",
+      "Evasion",
+      "Grande Vigor",
+      "Improved Critical 2 (Jagged Edge)",
+      "Quebrar Aprimorado"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 3,
+        "total": 10
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Jagged Edge",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 8,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: Hitman",
+        "graduacoes": 5,
+        "total": 5
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 8,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 5,
+        "total": 6
+      },
+      {
+        "nome": "Combate à Distância: Fragmentation Blast",
+        "graduacoes": 4,
+        "total": 11
+      }
+    ],
+    "iniciativa": 5,
+    "ataques": [
+      {
+        "nome": "Fragmentation Raio",
+        "bonus": 11,
+        "alcance": "À distância",
+        "dano": "Multiataque Dano 11, Teleguiado, Penetrante 5, Crit. 18-20"
+      },
+      {
+        "nome": "Jagged Edge",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 12, Penetrante 4, Crit. 18-20"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 7,
+      "Fortitude": 11,
+      "Aparar": 9,
+      "Resistência": 13,
+      "Vontade": 5
+    },
+    "observacao_defesas": "",
+    "custos": {},
+    "total": null,
+    "complicacoes": [
+      {
+        "titulo": "Living Metal",
+        "texto": "Shrapnel’s components feed on blood; he must regularly kill others in order to feed himself. o bsession: Shrapnel is fully intent on making a name for himself and Vontade do anything to increase his reputation."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

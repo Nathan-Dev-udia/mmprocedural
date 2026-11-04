@@ -1,0 +1,132 @@
+{
+  "nome_pt": "Chameleon Boy",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 108,
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 2,
+      "Agi": 5,
+      "Des": 3,
+      "Lut": 6,
+      "Int": 5,
+      "Pro": 4,
+      "Pre": 3
+    },
+    "poderes": [
+      "Chameleon: Variável 8 (Assumed Shapes; Intangibilidade up to graduação 3), Ação de Movimento, Limitado (Gross physical traits of the assumed form and cannot reproduce an individual’s Powers or complex mechanisms) (56 PP)",
+      "Shapeshifter: Imunidade 2 (Critical Hits); Metamorfose 4 (Any Shape); Regeneração 5 (27 PP)",
+      "Scanning: Sentidos 5 (Analítico Auditory, Modification Prontidão, Counters Ilusão, mental Sense) (5 PP)"
+    ],
+    "equipamento": [
+      "Voo Ring: Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal –3); Voo 7 (400 km/h); Removível (–3 pontos) (16 PP)",
+      "Telepathic Plug: Compreender 3 (Languages), mental Comunicação 1 (Corpo a Corpo Range), Removível (-1 ponto) (7 PP)",
+      "Transsuit: Imunidade 9 (Suporte Vital, except for Inanição and thirst), Removível (–2 ponto) (7 PP)"
+    ],
+    "vantagens": [
+      "Benefit 1 (Legion membership)",
+      "Ataque Corpo-a-Corpo 3",
+      "Rolamento Defensivo 2",
+      "Memória Eidética",
+      "Equipamento 6",
+      "Evasion",
+      "Maestria em Perícia (Enganação)",
+      "Maestria em Perícia (Intuição)",
+      "Ação em Movimento",
+      "Provocar"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 5,
+        "total": 10
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 10,
+        "total": 13
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 12,
+        "total": 16
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 10,
+        "total": 15
+      },
+      {
+        "nome": "Especialidade: Espionage",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 11,
+        "total": 15
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 2,
+        "total": 7
+      }
+    ],
+    "iniciativa": 5,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 9,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 3"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Fortitude": 6,
+      "Aparar": 9,
+      "Resistência": 4,
+      "Vontade": 9
+    },
+    "observacao_defesas": "*, Vontade 9 *sem Rolamento Defensivo bonus.",
+    "custos": {
+      "Habilidades": 62,
+      "Perícias": 35,
+      "Poderes": 88,
+      "Defesas": 15,
+      "Vantagens": 18
+    },
+    "total": 218,
+    "complicacoes": [
+      {
+        "titulo": "Antennae",
+        "texto": "Binding his antennae keeps Reep from using his Scanning and Chameleon Powers."
+      },
+      {
+        "titulo": "Limited Transformation",
+        "texto": "Chameleon Boy may not be able to reproduce certain complex functions of a particular shape."
+      },
+      {
+        "titulo": "Motivação",
+        "texto": "Uphold the greater good."
+      },
+      {
+        "titulo": "Vulnerability",
+        "texto": "Being sprayed with cancelite or exposed to large amounts of high Radiação nullifies Reep’s Chameleon power and freezes him in the shape he was in for one scene."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

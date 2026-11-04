@@ -1,0 +1,89 @@
+{
+  "nome_pt": "Alice Negra",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 162,
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 1,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 2,
+      "Int": 1,
+      "Pro": 3,
+      "Pre": 1
+    },
+    "poderes": [
+      "Mystic Siphon (Característica (Quick Change—to clothing of Power Drained subject); Variável 12 (60 pontos for duplicating subject’s magical traits), Contínuo, Ação de Movimento, Uncontrolled (Limitado a Power Drained subjects or acquired traits become random), Limitado—Traits reset to normal when subject recovers from Power Drain); Power d r ain (Perception À Distância Cumulativo Aflição 12 (resistido por Vontade; Powers Impaired, Powers Disabled, Transformado—Half Power), Reversível)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Atraente"
+    ],
+    "pericias": [
+      {
+        "nome": "Enganação",
+        "graduacoes": 1,
+        "total": 2
+      },
+      {
+        "nome": "Especialidade: mágico",
+        "graduacoes": 3,
+        "total": 4
+      },
+      {
+        "nome": "Especialidade: Streetwise",
+        "graduacoes": 2,
+        "total": 3
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 1,
+        "total": 4
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 3,
+        "total": 6
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 2,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 0"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 6,
+      "Aparar": 6,
+      "Fortitude": 5,
+      "Resistência": 1,
+      "Vontade": 8
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 24,
+      "Poderes": 140,
+      "Vantagens": 1,
+      "Perícias": 11,
+      "Defesas": 17
+    },
+    "total": 193,
+    "complicacoes": [
+      {
+        "titulo": "Long Lost",
+        "texto": "She has recently discovered the super hero Misfit is her half-sister. t r oubled t een: Black Alice is temperamental, angry and doesn’t listen. While this might be typical teenage behavior, it is made worse by personal tragedy and her mystical Powers."
+      },
+      {
+        "titulo": "Vulnerability",
+        "texto": "When mimicking a mystical character’s power Black Alice can fall victim to her target’s own Complications. She also has trouble controlling her Powers when upset. power, she is a fragile, emotional girl. She could be a great force for evil or good—only time Vontade tell which way she turns. Black Alice’s Powers vary significantly from appearance to ap- pearance. While working with supernatural beings of Limitado power use the game stats presented here. In times of extreme need or when in the Presença of more powerful beings, she’s easily a PLX character and is able to bring powerful Abilities to bear on her opponents."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

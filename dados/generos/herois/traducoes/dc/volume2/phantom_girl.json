@@ -1,0 +1,107 @@
+{
+  "nome_pt": "Moça-Fantasma",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 14,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 2,
+      "Agi": 4,
+      "Des": 4,
+      "Lut": 3,
+      "Int": 2,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "poderes": [
+      "Phantom f ligh t (Voo 4 (Limitado a When Intangibilidade)); Phantom Form (Intangibilidade 4 (Preciso, Reação, Sutil 2); Phantom Hand (Aflição 12 (resistido por Fortitude; Tonto, Atordoado, Incapacitado); Phantom Sight (Sentidos 5 (Preciso, Aguçado, À Distância Detect (Phantom Zone Prisoners), Dimensional, Não Confiável))"
+    ],
+    "equipamento": [
+      "Voo Ring (Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal –3), Voo 7 (400 km/h); Telepathic Ear Plug ( Compreender 3 (Languages), mental Comunicação 1 (Corpo a Corpo Range)); Transsuit (Imunidade 9 (Suporte Vital, except for Inanição and thirst))"
+    ],
+    "vantagens": [
+      "Ataque Preciso",
+      "Benefício (Legion Membership)",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 4",
+      "Desarmar Aprimorado",
+      "Equipamento 8",
+      "Agarrar Aprimorado",
+      "Imobilizar Aprimorado",
+      "Derrubar Aprimorado",
+      "Ataque Poderoso"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: Bgtzl",
+        "graduacoes": 5,
+        "total": 7
+      },
+      {
+        "nome": "Especialidade: Comics",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Especialidade: History",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 2,
+        "total": 6
+      }
+    ],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Phantom Hand",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Aflição 12"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 1"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 9,
+      "Aparar": 8,
+      "Fortitude": 6,
+      "Resistência": 6,
+      "Vontade": 6
+    },
+    "observacao_defesas": "*, Vontade 6 * sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 40,
+      "Poderes": 47,
+      "Vantagens": 20,
+      "Perícias": 16,
+      "Defesas": 18
+    },
+    "total": 141,
+    "complicacoes": [
+      {
+        "titulo": "r esponsibility",
+        "texto": "Phantom Girl believes it’s her duty to use her Powers to help others. r elationship: Phantom Girl and Ultra-Boy have been dating for a long time and are very Corpo a Corpo."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "nome_pt": "Besouro Bisonho",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 15,
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 0,
+      "Agi": 1,
+      "Des": 0,
+      "Lut": -1,
+      "Int": 1,
+      "Pro": 3,
+      "Pre": 5
+    },
+    "poderes": [
+      "But Under the Green Suit I Bruise Like a Peach!: Proteção 10, Sutil (11 PP)",
+      "Deputy Continuity Cop: Sentidos 1 (Continuity Prontidão) (1 PP)",
+      "POP!: Teleportation 19 (2,000 milhas), Preciso, Change Direction, Change Velocity (59 PP)",
+      "• And Y ou’re Coming With Me!: Teleporte 13 (30 milhas), Preciso, Change Direction, Change Velocity, Affects Others, Attack (Aparar), Peculiaridade--Must Teleporte with target of attack, Increased Mass 6 (3,200 lbs.) (1 PP)",
+      "Popping Over to Earth-C: Movimento 3 (Dimension Travel) (6 PP)",
+      "That’s Not in My Contract : Controle de Sorte 1 (Negate use of Luck or GM-imposed complication) (3 PP)"
+    ],
+    "equipamento": [
+      "50 feet of silk rope, Copy of CD A Dventures H ero’s H AnDbook , Turkey club sandwich"
+    ],
+    "vantagens": [
+      "Benefit 4 (Cipher)",
+      "Evasion",
+      "Iniciativa Aprimorada 2",
+      "Arma Improvisada 2",
+      "Sorte 5",
+      "Redirecionar",
+      "Tomar a Iniciativa",
+      "Sidekick 1 (Cheeks)",
+      "Provocar",
+      "Bem-Informado"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 6,
+        "total": 7
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 1,
+        "total": 0
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Especialidade: CD Comics",
+        "graduacoes": 17,
+        "total": 18
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 11,
+        "total": 13
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 8,
+        "total": 13
+      }
+    ],
+    "iniciativa": 9,
+    "ataques": [
+      {
+        "nome": "Cheeks",
+        "bonus": 0,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 1 (Improvised Weapon)"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Fortitude": 3,
+      "Aparar": 6,
+      "Resistência": 10,
+      "Vontade": 4
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 18,
+      "Perícias": 30,
+      "Poderes": 81,
+      "Defesas": 17,
+      "Vantagens": 19
+    },
+    "total": 165,
+    "complicacoes": [
+      {
+        "titulo": "In a Game",
+        "texto": "Bad enough that I’ve had to deal with agents and comic editors determining my fate. Now I have to trust what happens to dice?"
+      },
+      {
+        "titulo": "Out of Milk",
+        "texto": "Not much of a complication, you say? You try getting down to the corner bodega to pick up a pint at your next game session without the Fearsome Five or the Legion of Super-Pets tearing the place up."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

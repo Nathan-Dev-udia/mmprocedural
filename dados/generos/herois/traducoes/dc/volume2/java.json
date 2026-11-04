@@ -1,0 +1,91 @@
+{
+  "nome_pt": "Java",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 49,
+  "ficha": {
+    "habilidades": {
+      "For": 5,
+      "Vig": 4,
+      "Agi": 0,
+      "Des": 0,
+      "Lut": 5,
+      "Int": -1,
+      "Pro": 1,
+      "Pre": 0
+    },
+    "poderes": [
+      "t ough S kin and d ense Bone (Proteção 2)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Estrangular",
+      "Ataque Corpo-a-Corpo 2",
+      "Duro de Matar",
+      "Grande Vigor",
+      "Ataque Poderoso",
+      "Assustar"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 6,
+        "total": 6
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 6,
+        "total": 11
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 2,
+        "total": 2
+      },
+      {
+        "nome": "Especialidade: Sapphire Stagg",
+        "graduacoes": 6,
+        "total": 5
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 6,
+        "total": 6
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 4,
+        "total": 4
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 7,
+        "alcance": "",
+        "dano": "(Dano 5)"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 6,
+      "Aparar": 6,
+      "Fortitude": 10,
+      "Resistência": 6,
+      "Vontade": 2
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 28,
+      "Poderes": 2,
+      "Vantagens": 8,
+      "Perícias": 15,
+      "Defesas": 14
+    },
+    "total": 67,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

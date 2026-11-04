@@ -1,0 +1,68 @@
+{
+  "nome_pt": "Cavaleiro Andante (Sir Justin)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 174,
+  "ficha": {
+    "habilidades": {
+      "For": 4,
+      "Vig": 4,
+      "Agi": 5,
+      "Des": 4,
+      "Lut": 7,
+      "Int": 2,
+      "Pro": 3,
+      "Pre": 3
+    },
+    "poderes": [
+      "e nchanted a rmor : Imunidade 2 (Frio, Calor); Impenetrável Proteção 5, Removível (-2 pontos) (10 PP)",
+      "Total e nchanted Espada: Força-based Dano 3, Penetrante 3, Facilmente Removível (-2 pontos) (4 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Equipamento",
+      "Crítico Aprimorado (Espada)",
+      "Quebrar Aprimorado",
+      "Interpor-se",
+      "Ataque Poderoso",
+      "Parceiro 12",
+      "Derrubar em Sequência",
+      "Quebrar Arma"
+    ],
+    "pericias": [],
+    "iniciativa": 5,
+    "ataques": [
+      {
+        "nome": "Enchanted Espada",
+        "bonus": 13,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 7, Penetrante 3"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 11,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 4"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 11,
+      "Fortitude": 9,
+      "Aparar": 11,
+      "Resistência": 9,
+      "Vontade": 9
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 64,
+      "Perícias": 29,
+      "Poderes": 14,
+      "Defesas": 21
+    },
+    "total": 150,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

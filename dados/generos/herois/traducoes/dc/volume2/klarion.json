@@ -1,0 +1,99 @@
+{
+  "nome_pt": "Klarion, o Menino Bruxo",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 167,
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 0,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 2,
+      "Int": 5,
+      "Pro": 5,
+      "Pre": 4
+    },
+    "poderes": [
+      "Cruciform (Alcance de Percepção Aflição 10 (resistido por Vontade; Tonto, Compelido, Controlado), Cumulativo, Limitado a Undead, Facilmente Removível (-12 pontos)); mágico (Arranjo (24 pontos), Horigal t r ansformation (Força Aprimorada 6; Luta Aprimorada 4; Proteção 8); ae : Steal mágico (À Distância Enfraquecer 12 mágico Effects), Broad; ae : t en tacles (Cumulativo Aflição 12 (resistido por Esquiva; Impedido and Vulnerável, Indefeso and Imóvel), Extra Condition, Limitado Degree, Reach 6 (30 feet)); Psychic Bond (Remote Sensing 8 (Visual), Medium: Only through Teekl’s eyes)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Tontear (Enganação)",
+      "Rolamento Defensivo 4",
+      "Ritualista",
+      "Parceiro 19",
+      "Provocar"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: mágico",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 10,
+        "total": 14
+      },
+      {
+        "nome": "Especialidade: mágico",
+        "graduacoes": 10,
+        "total": 15
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 8,
+        "total": 10
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "mágico",
+        "bonus": 8,
+        "alcance": "",
+        "dano": "Varies"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 2,
+        "alcance": "",
+        "dano": "Dano 0"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 6,
+      "Aparar": 6,
+      "Fortitude": 5,
+      "Resistência": 4,
+      "Vontade": 9
+    },
+    "observacao_defesas": "*, Vontade 9 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 40,
+      "Poderes": 65,
+      "Vantagens": 26,
+      "Perícias": 20,
+      "Defesas": 17
+    },
+    "total": 168,
+    "complicacoes": [
+      {
+        "titulo": "Limbo t o wn",
+        "texto": "Klarion was born and raised in an underground faux-Puritanical settlement that practiced necromancy and had no contact with the surface world. As such, he is very out of place in normal social situations and misses many social cues."
+      },
+      {
+        "titulo": "Unusual Looks",
+        "texto": "Klarion has large, dark eyes, pointy ears, black lips and fingernails, and bluish- white skin, in addition, he dresses in Puritan-style garb, all of which makes him look very unusual. Klarion looks even more unusual when he assumes his Horigal form, which is horrible and horrific."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

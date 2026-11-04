@@ -1,0 +1,100 @@
+{
+  "nome_pt": "Starro, o Conquistador (P. 205)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 201,
+  "ficha": {
+    "habilidades": {
+      "For": 16,
+      "Vig": 15,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 12,
+      "Int": 7,
+      "Pro": 4,
+      "Pre": 9
+    },
+    "poderes": [
+      "a xe (Força-based Dano 4, Penetrante 10, Removível); t ough (Resistência Impenetrável 10; Proteção 2)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Preciso",
+      "Estrangular",
+      "Duro de Matar",
+      "Esforço Extraordinário",
+      "Grande Vigor",
+      "Crítico Aprimorado (Axe)",
+      "Agarrar Aprimorado",
+      "Imobilizar Aprimorado",
+      "Iniciativa Aprimorada 2",
+      "Quebrar Aprimorado",
+      "Ataque Poderoso",
+      "Tomar a Iniciativa",
+      "Assustar",
+      "Derrubar em Sequência",
+      "Quebrar Arma"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 9,
+        "total": 12
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 9,
+        "total": 25
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 10,
+        "total": 14
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 8,
+        "total": 17
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 10,
+        "total": 14
+      }
+    ],
+    "iniciativa": 11,
+    "ataques": [
+      {
+        "nome": "Axe",
+        "bonus": 15,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano +15, Penetrante 10, Crit. 19-20"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 15,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 15"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 15,
+      "Aparar": 15,
+      "Fortitude": 15,
+      "Resistência": 17,
+      "Vontade": 15
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 138,
+      "Poderes": 23,
+      "Vantagens": 19,
+      "Perícias": 23,
+      "Defesas": 20
+    },
+    "total": 223,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "nome_pt": "Estrela Maligna",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 192,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 6,
+      "Agi": 2,
+      "Des": 4,
+      "Lut": 4,
+      "Int": 8,
+      "Pro": 5,
+      "Pre": 5
+    },
+    "poderes": [
+      "The Star-Band: 249 pontos, Removível (–50 pontos) (199 PP)",
+      "Ageless: Imunidade 3 (Envelhecimento, Inanição, Thirst); Vigor Aprimorado 4 (11 PP)",
+      "Voo: Voo 13 (16,0 km/h); Movimento 4 (Environmental Adaptation: Zero-G, Space Travel 3) (34 PP)",
+      "Campo de Força: Impenetrável Proteção 10; Imunidade 10 (Suporte Vital) (30 PP)",
+      "Starlings: Summon 13 (195 pontos), Controlado, Característica 1 (Can give two commands to Starlings as a Ação de Movimento), Horde, Multiple Minions 3 (5 minions), Sacrifice (132 PP)",
+      "Starlight Manipulation: Arranjo (32 pontos)",
+      "• Starforce Raio: Dano à Distância 16 (32 PP)",
+      "• Force Constructs: Criar Objetos 16 (1 PP)",
+      "• Lifting: Mover Objetos 16 (1 PP)",
+      "Universal Translator: Compreender Languages 4 (8 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Inspirar 2",
+      "Inventor",
+      "Precise Attack (à distância; Concealment)",
+      "Preparar"
+    ],
+    "pericias": [
+      {
+        "nome": "Enganação",
+        "graduacoes": 7,
+        "total": 13
+      },
+      {
+        "nome": "Especialidade: Science",
+        "graduacoes": 14,
+        "total": 22
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 10,
+        "total": 15
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 8,
+        "total": 16
+      },
+      {
+        "nome": "Combate à Distância: Star-Band",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 15,
+        "total": 23
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 4,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2"
+      },
+      {
+        "nome": "Star-Band",
+        "bonus": 10,
+        "alcance": "",
+        "dano": "Range, Dano 16 or other effects"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Fortitude": 15,
+      "Aparar": 7,
+      "Resistência": 16,
+      "Vontade": 8
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 64,
+      "Perícias": 30,
+      "Poderes": 199,
+      "Defesas": 21,
+      "Vantagens": 5
+    },
+    "total": 319,
+    "complicacoes": [
+      {
+        "titulo": "Star-Band Corruption",
+        "texto": "The Star-Band erodes Evil Star’s principles and sanity. He is Vulnerável to remorse and guilt when faced directly with his past atrocities."
+      },
+      {
+        "titulo": "Starlight",
+        "texto": "Being isolated from starlight reduces every power in the Star-Band by one graduação per full day of isolation."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

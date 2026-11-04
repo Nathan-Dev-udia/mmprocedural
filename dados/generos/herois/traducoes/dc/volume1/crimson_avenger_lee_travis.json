@@ -1,0 +1,149 @@
+{
+  "nome_pt": "Crimson Avenger (Lee Travis)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 138,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 2,
+      "Des": 3,
+      "Lut": 4,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "poderes": [
+      "Gunplay: Arranjo (2 pontos)",
+      "• Training: Enhanced Skill 2 (À Distância Combat: Guns +4) (2 PP)",
+      "• Independent Aim: May fogo two guns of Dano 4 or less at once (Característica 1) (1 PP)"
+    ],
+    "equipamento": [
+      "Twin Colt .45 Automatics: Dano à Distância 4 (16 PP)",
+      "VEHICLE : ROLLS ROYCE (12 PP)",
+      "Size: Huge, Str 8, Spd 5, Def 8, Tou 12 Features: Cloaking Dispositivo (Hearing)"
+    ],
+    "vantagens": [
+      "Benefit 1 (Well-off)",
+      "Conectado",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 4",
+      "Equipamento 6",
+      "Evasion",
+      "Defesa Aprimorada",
+      "Iniciativa Aprimorada",
+      "Arma Improvisada 2",
+      "Languages 2 (Spanish",
+      "Tibetan)",
+      "Ataque Poderoso",
+      "Saque Rápido",
+      "Sidekick 5 (Wing How)",
+      "Assustar",
+      "Derrubar em Sequência",
+      "Esquiva Fabulosa"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 3,
+        "total": 5
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 3,
+        "total": 5
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 7,
+        "total": 11
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 3,
+        "total": 5
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 3,
+        "total": 5
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 3,
+        "total": 5
+      },
+      {
+        "nome": "Combate à Distância: Guns",
+        "graduacoes": 3,
+        "total": 6
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 5,
+        "total": 8
+      }
+    ],
+    "iniciativa": 6,
+    "ataques": [
+      {
+        "nome": "Automatic Pistola",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Dano 4"
+      },
+      {
+        "nome": "Pistola Whip",
+        "bonus": 11,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 3 (Improvised Weapon)"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 11,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Fortitude": 5,
+      "Aparar": 8,
+      "Resistência": 6,
+      "Vontade": 5
+    },
+    "observacao_defesas": "** Vontade 5 **sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 36,
+      "Perícias": 22,
+      "Poderes": 5,
+      "Defesas": 16,
+      "Vantagens": 30
+    },
+    "total": 107,
+    "complicacoes": [
+      {
+        "titulo": "Justice",
+        "texto": "The Crimson Avenger is motivated by a desire to see justice served. ALLIES The Crimson Avenger counts a number of “Golden Age” super heroes as allies, including the Sandman (to whom he gave his gas gun) and the All-Star Squadron."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

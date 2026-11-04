@@ -1,0 +1,123 @@
+{
+  "nome_pt": "Eradicator",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 191,
+  "ficha": {
+    "habilidades": {
+      "For": 19,
+      "Vig": 14,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 8,
+      "Int": 5,
+      "Pro": 3,
+      "Pre": 2
+    },
+    "poderes": [
+      "Energy Raio: Dano à Distância 16, Variável Descriptor (any energy) (34 PP)",
+      "Voo: Arranjo (30 pontos)",
+      "• Voo: Voo 15 (64,0 km/h) (30 PP)",
+      "• Space Voo: Movimento 1 (Space Travel) (1 PP)",
+      "• Velocidade: Velocidade 15 (64,0 km/h) (1 PP)",
+      "Invulnerability: Proteção 4; Resistência Impenetrável 18; Imunidade 5 (Frio, Calor, Pressão, Radiação, Vácuo) (27 PP)",
+      "Super-Sentidos: Sentidos 15 (Aguçado and Audição Estendida, Detect 2 (extradimensional beings, mental), Detect 2 (extradimensional gateways, mental), Visão Estendida 3, Infravisão, Visão Microscópica 4, Ultra-Audição, Vision Penetrates Camuflagem (except lead)) (19 PP)",
+      "Super-Velocidade: Rapidez 12, Limitado a mental tasks 4 (10 PP)",
+      "Super-Força: Força Aprimorada 4, Limitado a Lifting (Lifting Str 23: 200,000 tons) (4 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Duro de Matar",
+      "Memória Eidética",
+      "Esforço Extraordinário",
+      "Languages (Kryptonian",
+      "English native)",
+      "Ataque Poderoso",
+      "Tomar a Iniciativa",
+      "Esforço Supremo (Resistência)"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo : Desarmado",
+        "graduacoes": 1,
+        "total": 9
+      },
+      {
+        "nome": "Especialidade: Krypton",
+        "graduacoes": 12,
+        "total": 17
+      },
+      {
+        "nome": "Especialidade: Scientist",
+        "graduacoes": 7,
+        "total": 12
+      },
+      {
+        "nome": "Combate à Distância: Energy Blasts",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 8,
+        "total": 13
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Energy Raio",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Dano 16"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 9,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 19"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Fortitude": 15,
+      "Aparar": 10,
+      "Resistência": 18,
+      "Vontade": 12
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 110,
+      "Perícias": 22,
+      "Poderes": 126,
+      "Defesas": 20,
+      "Vantagens": 7
+    },
+    "total": 285,
+    "complicacoes": [
+      {
+        "titulo": "Obsessed",
+        "texto": "Eradicator is obsessed with preserving the culture and knowledge of the planet Krypton, no matter how little of it remains."
+      },
+      {
+        "titulo": "Perda de Poder",
+        "texto": "Eradicator loses his Powers under a red sun. Other effects draining or interfering with the energies of the yellow sun can deprive him of his Energy Raio, Voo, Super-Sentidos, Super-Velocidade, and Super-Força."
+      },
+      {
+        "titulo": "Vulnerability",
+        "texto": "Eradicator is as Vulnerável to mágico as anyone else. His Resistência is not Impenetrável against magical attacks."
+      },
+      {
+        "titulo": "Fraqueza",
+        "texto": "Eradicator has a weakness to kryptonite, the radioactive remains of the planet Krypton. Kryptonite comes in a number of forms. Green kryptonite is by far the most common. Its Radiação saps his Força, Voo, Super-Sentidos, Super-Velocidade, and Super-Força, leaving him impaired, disabled, and eventually debilitated in terms of Força and power effects. Long-term exposure (usually a matter of minutes, less for a large enough amount) imposes the Moribundo condition and may lead to death. PERSONALITY The Eradicator is a Frio and dispassionate being, most often ruled by logic and his directive of preserving Kryptonian cul - ture and heritage. At times, David Connor’s personality has become dominant, giving the Eradicator a more human-like and emotional countenance. Powers & Abilities The Eradicator possesses all the Powers and Abilities of a Kryptonian exposed to yellow sun Radiação. In addition, he is able to manipulate energy to produce various types of blasts, possesses a vast computer Intelecto, and is able to detect in - terdimensional beings and gateways. ALLIES The Eradicator has been allied with the Outsiders on occa - sion, and is considered part of Superman’s extended family. ENEMIES The Eradicator has at times directly opposed Superman."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

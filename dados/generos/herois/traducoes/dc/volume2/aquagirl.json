@@ -1,0 +1,102 @@
+{
+  "nome_pt": "Aquagirl",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 226,
+  "ficha": {
+    "habilidades": {
+      "For": 5,
+      "Vig": 6,
+      "Agi": 4,
+      "Des": 3,
+      "Lut": 5,
+      "Int": 2,
+      "Pro": 3,
+      "Pre": 1
+    },
+    "poderes": [
+      "a qua tic (Imunidade 3 (Frio, Afogamento, Pressão), Movimento 1 (Environmental Adaptation – Aquatic), Sentidos 1 (Visão na Penumbra)); Natação 8 (192 km/h); t elepa thy (Compreender 2 (Animals; Speak To, Understand), mental Comunicação 2, Prontidão Exige Teste) e Atlantean Trident (Força-based Dano 3, quipmen t: Reach)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Empatia com Animais",
+      "Atraente",
+      "Ataque Corpo-a-Corpo 3",
+      "Rolamento Defensivo 2",
+      "Equipamento",
+      "Evasion",
+      "Ambiente Favorito (Aquatic)",
+      "Languages (Spanish)"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 3,
+        "total": 8
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 3,
+        "total": 6
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 2,
+        "total": 4
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 2,
+        "total": 5
+      }
+    ],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Atlantean Trident",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 8, Reach"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 5"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 8,
+      "Fortitude": 8,
+      "Resistência": 8,
+      "Vontade": 6
+    },
+    "observacao_defesas": "*, Vontade 6 * sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 58,
+      "Poderes": 25,
+      "Vantagens": 11,
+      "Perícias": 7,
+      "Defesas": 14
+    },
+    "total": 115,
+    "complicacoes": [
+      {
+        "titulo": "f lir tations",
+        "texto": "Aquagirl’s Presença has been causing problems for Blue Beetle, whose girlfriend (Traci Thirteen) has declined Titans’ membership and thus isn’t always around, and between Superboy and Wonder Girl. Lorena has thus far kept her multiple flirtations relatively Sutil, though she has been getting bolder of late, a situ- ation that could lead to problems within the team."
+      },
+      {
+        "titulo": "Pro - tector",
+        "texto": "Lorena is highly motivated to use her Powers to protect others. She willingly puts herself at risk to defend innocents or those she cares about."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

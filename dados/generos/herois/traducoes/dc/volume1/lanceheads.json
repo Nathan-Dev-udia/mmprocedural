@@ -1,0 +1,112 @@
+{
+  "nome_pt": "Lanceheads",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 308,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 4,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 1
+    },
+    "poderes": [
+      "Initiate Armor ( Proteção 5 (Removível)); Heliotron Blaster (Dano à Distância 6, Facilmente Removível); Flying Sabre (Arranjo, Facilmente Removível, ( Dano à Distância 5 (Teleguiado), AE: Força-based Dano 3 , ((Crit. 19-20)))"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Corpo-a-Corpo 3",
+      "Rolamento Defensivo 3",
+      "Mira Aprimorada",
+      "Saque Rápido",
+      "Ataque à Distância 2"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 7,
+        "total": 9
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Flying Sabre",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Combate à Distância: Flying Sabre",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Combate à Distância: Heliotron Blaster",
+        "graduacoes": 5,
+        "total": 8
+      }
+    ],
+    "iniciativa": 3,
+    "ataques": [
+      {
+        "nome": "Heliotron Blaster",
+        "bonus": 10,
+        "alcance": "",
+        "dano": "Dano à Distância 6"
+      },
+      {
+        "nome": "Flying Sabre",
+        "bonus": 11,
+        "alcance": "",
+        "dano": "Dano à Distância 5, Teleguiado"
+      },
+      {
+        "nome": "Flying Sabre",
+        "bonus": 11,
+        "alcance": "",
+        "dano": "Dano Corpo a Corpo 5, Crit. 19-20"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 11,
+        "alcance": "",
+        "dano": "Dano 2"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 6,
+      "Aparar": 6,
+      "Fortitude": 9,
+      "Resistência": 10,
+      "Vontade": 2
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 36,
+      "Poderes": 20,
+      "Vantagens": 10,
+      "Perícias": 19,
+      "Defesas": 12
+    },
+    "total": 97,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "nome_pt": "Damien Darhk",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 262,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 3,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 3,
+      "Int": 4,
+      "Pro": 4,
+      "Pre": 5
+    },
+    "poderes": [
+      "Power of the Blood (Imortalidade 5); Backup Blaster (Dano à Distância 5, Penetrante 5, Removível)"
+    ],
+    "equipamento": [
+      "Smartphone"
+    ],
+    "vantagens": [
+      "Atraente",
+      "Benefit 6 (Alternate Identity 2",
+      "Multi- millionaire)",
+      "Conectado",
+      "Equipamento",
+      "Fascinar",
+      "Destemido",
+      "Iniciativa Aprimorada 2",
+      "Liderança",
+      "Saque Rápido",
+      "Provocar",
+      "Well- informed"
+    ],
+    "pericias": [
+      {
+        "nome": "Enganação",
+        "graduacoes": 10,
+        "total": 15
+      },
+      {
+        "nome": "Especialidade: Finance",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 9,
+        "total": 13
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 12,
+        "total": 17
+      },
+      {
+        "nome": "Combate à Distância: Blaster",
+        "graduacoes": 13,
+        "total": 15
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 10,
+        "total": 12
+      }
+    ],
+    "iniciativa": 10,
+    "ataques": [
+      {
+        "nome": "Backup Blaster",
+        "bonus": 15,
+        "alcance": "",
+        "dano": "Dano à Distância 5, Penetrante 5"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Aparar": 12,
+      "Fortitude": 8,
+      "Resistência": 3,
+      "Vontade": 8
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 50,
+      "Poderes": 25,
+      "Vantagens": 17,
+      "Perícias": 39,
+      "Defesas": 28
+    },
+    "total": 159,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

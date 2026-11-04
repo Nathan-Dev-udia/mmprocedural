@@ -1,0 +1,86 @@
+{
+  "nome_pt": "Simon Stagg",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 49,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 1,
+      "Agi": 0,
+      "Des": 0,
+      "Lut": 2,
+      "Int": 3,
+      "Pro": 2,
+      "Pre": 3
+    },
+    "poderes": [],
+    "equipamento": [],
+    "vantagens": [
+      "Benefit 4 (Multi-millionaire)",
+      "Conectado",
+      "Maestria em Perícia (Expertise: Business)",
+      "Bem-Informado"
+    ],
+    "pericias": [
+      {
+        "nome": "Enganação",
+        "graduacoes": 11,
+        "total": 14
+      },
+      {
+        "nome": "Especialidade: Business",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 6,
+        "total": 9
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 2,
+        "alcance": "",
+        "dano": "(Dano 1)"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 2,
+      "Aparar": 2,
+      "Fortitude": 3,
+      "Resistência": 1,
+      "Vontade": 5
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 24,
+      "Poderes": 0,
+      "Vantagens": 7,
+      "Perícias": 19,
+      "Defesas": 7
+    },
+    "total": 57,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "nome_pt": "Starman (Thom Kallor)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 199,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 4,
+      "Agi": 3,
+      "Des": 4,
+      "Lut": 3,
+      "Int": 2,
+      "Pro": 0,
+      "Pre": 3
+    },
+    "poderes": [
+      "71 Defenses 36"
+    ],
+    "equipamento": [
+      "f ligh t r ing: Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal –3); Voo 7 (400 km/h) (19 PP)",
+      "t elepa thic Plug: Compreender 3 (Languages; Speak, Understand, Understood), mental Comunicação 1 (100 feet) (10 PP)",
+      "t r anssuit: Imunidade 9 (Suporte Vital, except for Inanição and thirst) (9 PP)",
+      "d a e S a V ant G Benefit 1 (Legion Membership), Defensive Roll 4, Equipment 8, Improved Smash, Well-informed"
+    ],
+    "vantagens": [
+      "15 Total 173 Co MPL i C tion S a o Though he enjoys being a superhero",
+      "Starman n a M ission: never forgets (and constantly reminds his friends) that he’s on an important mission from the future. Crazy: Starman’s mind was scrambled by his journey through the multiverse as he traveled between the future and the past."
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 6
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 7,
+        "total": 10
+      }
+    ],
+    "iniciativa": 3,
+    "ataques": [
+      {
+        "nome": "Increase Gravity",
+        "bonus": 12,
+        "alcance": "À distância",
+        "dano": "Cumulativo Aflição 12, resistido por Fortitude (CD 22) Weight of Stars — À Distância, Cumulativo Aflição 12, resistido por Fortitude (CD 22)"
+      },
+      {
+        "nome": "Gravity Control",
+        "bonus": 12,
+        "alcance": "À distância",
+        "dano": "Damaging Mover Objetos 12, Improvised Weapon Desarmado +8 Corpo a Corpo, Dano 2/10 with Power of Gravity"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Fortitude": 10,
+      "Aparar": 12,
+      "Resistência": 8,
+      "Vontade": 12
+    },
+    "observacao_defesas": "* Vontade 12 *sem Rolamento Defensivo. W",
+    "custos": {
+      "Habilidades": 42,
+      "Perícias": 13
+    },
+    "total": null,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

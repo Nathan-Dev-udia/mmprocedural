@@ -1,0 +1,65 @@
+{
+  "nome_pt": "Homúnculo das Sombras",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 77,
+  "ficha": {
+    "habilidades": {
+      "For": 12,
+      "Vig": "—",
+      "Agi": 6,
+      "Des": 0,
+      "Lut": 8,
+      "Int": 13,
+      "Pro": 2,
+      "Pre": 0
+    },
+    "poderes": [
+      "Shadow Construct (Imunidade 30 (Fortitude effects)); Giant (Crescimento 8, Inato, Permanente); Smash (Força- based Dano 1 linked to Área de Explosão Aflição 8 (resistido por Fortitude; Impedido, Prone), Limitado Degree); Proteção 7"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "15 Total 171"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 8,
+        "total": 20
+      }
+    ],
+    "iniciativa": 6,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 8"
+      },
+      {
+        "nome": "Smash",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 9 linked to Área de Explosão Aflição 8, resistido por Fortitude"
+      }
+    ],
+    "defesas": {},
+    "observacao_defesas": "*, Aparar +10*, Fortitude Immune, Resistência +11, Vontade +2 *Includes Crescimento modifiers.",
+    "custos": {
+      "Habilidades": 52,
+      "Poderes": 63,
+      "Vantagens": 4,
+      "Perícias": 7,
+      "Defesas": 10
+    },
+    "total": 136,
+    "complicacoes": [
+      {
+        "titulo": "tmarish t r ansport",
+        "texto": "Anyone crossing Nightshade’s shadow warps is immediately attacked by nightmarish visions of the Land of Nightshades, emerging with a random fear- based condition as decided by the Gamemaster. Closing one’s eyes avoids this effect, but it might become a complication at an important moment. Nightshade is immune to this. Prejudice—Strange a pp earance: After absorbing the Succubus’ power, Nightshade’s skin is alabaster white and her hair can become living shadows. two-Dimensional shadow to slip through cracks and become invulnerable to most attacks. aLLI e S Throughout her long career, Nightshade gained many allies, from members of the Suicide Squad to the mágico community through her work with the Shadowpact. e ne MI e S Nightshade does not have her own nemesis, but Doctor Gotham proved to be a relentless foe during her stint in the Shadowpact. t he Shadow h o M oncu L u S The Shadow Homunculus is a jet-black colossus, fanatically loyal to Nightshade yet still able to think for itself."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

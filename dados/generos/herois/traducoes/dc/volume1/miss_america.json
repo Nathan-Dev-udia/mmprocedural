@@ -1,0 +1,107 @@
+{
+  "nome_pt": "Miss America",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 215,
+  "ficha": {
+    "habilidades": {
+      "For": 5,
+      "Vig": 7,
+      "Agi": 3,
+      "Des": 2,
+      "Lut": 3,
+      "Int": 3,
+      "Pro": 3,
+      "Pre": 3
+    },
+    "poderes": [
+      "were fading, lead - ing to her retirement and subsequent marriage to Admiral Derek Trevor. The couple adopted a daughter, Hippolyta, who later became the second costumed heroine known as Fury. In truth, Joan hid her Powers and true age to live a quiet family life, until recently when her husband’s death and the appear - ance of an evil imposter finally brought the real Miss America back. Now more powerful than ever, Miss America remains a"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Preciso",
+      "Atraente",
+      "Ataque Defensivo",
+      "Agarrar Rápido",
+      "Desarmar Aprimorado",
+      "Imobilizar Aprimorado",
+      "Derrubar Aprimorado",
+      "Liderança"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Especialidade: Chemistry",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Especialidade: Journalist",
+        "graduacoes": 2,
+        "total": 5
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 7,
+        "total": 10
+      }
+    ],
+    "iniciativa": 3,
+    "ataques": [
+      {
+        "nome": "Elemental Transmutation",
+        "bonus": null,
+        "alcance": "",
+        "dano": "Alcance de Percepção Aflição 12, others"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "",
+        "dano": "Dano 5"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 15,
+      "Aparar": 15,
+      "Fortitude": 12,
+      "Resistência": 7,
+      "Vontade": 12
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 58,
+      "Poderes": 101,
+      "Vantagens": 8,
+      "Perícias": 18,
+      "Defesas": 38
+    },
+    "total": 223,
+    "complicacoes": [
+      {
+        "titulo": "Doing Good",
+        "texto": "Joan believes in Luta for what’s right, sometimes to the exclusion of all other considerations."
+      },
+      {
+        "titulo": "Patriotism",
+        "texto": "As her code name indicates, Joan is a proud citizen of the United States."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

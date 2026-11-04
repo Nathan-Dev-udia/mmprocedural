@@ -1,0 +1,151 @@
+{
+  "nome_pt": "Trapaceiro",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 239,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 1,
+      "Agi": 3,
+      "Des": 4,
+      "Lut": 3,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 3
+    },
+    "poderes": [
+      "24 Defenses 31 Advantages 17 Total 138"
+    ],
+    "equipamento": [
+      "t ricks: Arranjo (24 pontos), Facilmente Removível (–10 pontos) • e xploding r ubber Chickens: Área de Explosão Dano à Distância 8 (24 PP)",
+      "• Combat y o - y o: S trength-Based Dano 8 (1 PP)",
+      "• i t ching Powder: Aflição à Distância 10 (resistido por Vontade; Impaired, Disabled, Incapacitado) (1 PP)",
+      "• Hard Candy t r ap: Aflição à Distância 10 (resistido por Esquiva, Overcome by Força; Impedido and Vulnerável, Imóvel and Indefeso; Extra Condition, Limitado Degree) (1 PP)",
+      "a ir W alking Shoes: Sutil Voo 4 (48 km/h), Removível (–2 pontos) (7 PP)"
+    ],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Ataque Corpo-a-Corpo 3",
+      "Tontear (Enganação)",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 4",
+      "Iniciativa Aprimorada 1",
+      "Derrubar Aprimorado",
+      "Ferramentas Improvisadas",
+      "Sorte 2",
+      "Ação em Movimento",
+      "Redirecionar",
+      "Preparar",
+      "Provocar"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 6,
+        "total": 7
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Combat Yo-Yo",
+        "graduacoes": 3,
+        "total": 9
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 2,
+        "total": 5
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Combate à Distância: Tricks",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 3,
+        "total": 6
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 6,
+        "total": 7
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 4,
+        "total": 8
+      }
+    ],
+    "iniciativa": 7,
+    "ataques": [
+      {
+        "nome": "Exploding Chickens",
+        "bonus": 8,
+        "alcance": "À distância",
+        "dano": "Dano 8, Área de Explosão (Esquiva CD 28)"
+      },
+      {
+        "nome": "Combat Yo-Yo",
+        "bonus": 9,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 8"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 6,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 1"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 14,
+      "Fortitude": 6,
+      "Aparar": 11,
+      "Resistência": 5,
+      "Vontade": 9
+    },
+    "observacao_defesas": "* Vontade 9 *sem Rolamento Defensivo",
+    "custos": {
+      "Habilidades": 36,
+      "Perícias": 30
+    },
+    "total": null,
+    "complicacoes": [
+      {
+        "titulo": "t hrills",
+        "texto": "The Trickster is a die-hard adrenaline junkie."
+      },
+      {
+        "titulo": "Childish",
+        "texto": "The Trickster is both childishly cruel and desirous of acceptance."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

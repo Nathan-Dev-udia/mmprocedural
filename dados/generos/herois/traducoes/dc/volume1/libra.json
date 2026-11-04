@@ -1,0 +1,80 @@
+{
+  "nome_pt": "Libra",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 276,
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 4,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 1,
+      "Int": 5,
+      "Pro": 4,
+      "Pre": 4
+    },
+    "poderes": [
+      "Energy Transmortifier (Aflição 11 (resistido por Esquiva; Impaired, Disabled, Transformado), Área de Explosão, Alcance de Percepção, Progressivo, Seletivo, Facilmente Removível (–26 pontos)); Variável 11 ((Stolen Abilities & Powers), Facilmente Removível (–30 pontos))"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Inventor",
+      "Liderança"
+    ],
+    "pericias": [
+      {
+        "nome": "Enganação",
+        "graduacoes": 9,
+        "total": 13
+      },
+      {
+        "nome": "Especialidade: Science",
+        "graduacoes": 11,
+        "total": 16
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 14,
+        "total": 19
+      }
+    ],
+    "iniciativa": 1,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 1,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 3"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 16,
+      "Aparar": 16,
+      "Fortitude": 7,
+      "Resistência": 4,
+      "Vontade": 13
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 46,
+      "Poderes": 87,
+      "Vantagens": 2,
+      "Perícias": 17,
+      "Defesas": 42
+    },
+    "total": 194,
+    "complicacoes": [
+      {
+        "titulo": "Obsessão",
+        "texto": "Ballantine seeks to bring “balance” to the universe, as his damaged psyche defines the concept."
+      },
+      {
+        "titulo": "Segredo",
+        "texto": "Both of Libra’s grand criminal schemes involved duping a group of super-villains into serving his own ends."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "nome_pt": "Rapaz-Relâmpago",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 18,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 3,
+      "Agi": 3,
+      "Des": 4,
+      "Lut": 3,
+      "Int": 1,
+      "Pro": 0,
+      "Pre": 2
+    },
+    "poderes": [
+      "Lightning Blasts: Arranjo ( 24 pontos)",
+      "• Lightning Raio: Dano 12 (À Distância) (24 PP)",
+      "• Ball Lightning: À Distância Área de Explosão Dano 8 (1 PP)",
+      "• Chain Lightning: Dano à Distância 10 (Dividido 4) (1 PP)",
+      "• Lightning Punch: Força-based Dano 12 (1 PP)",
+      "• Lightning Storm: Área de Explosão Dano 10 (1 PP)",
+      "Lightning i mmunit y: Imunidade (Electrical Effects) (10 PP)",
+      "Lightning Escudo: Dano 8 (Reação) (32 PP)"
+    ],
+    "equipamento": [
+      "f ligh t r ing: Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal –3); Voo 7 (400 km/h) (19 PP)",
+      "t elepa thic e ar Plug: Compreender 3 (Languages), mental Comunicação 1 (Corpo a Corpo Range) (10 PP)",
+      "t r anssuit: Imunidade 9 (Suporte Vital, except for Inanição and thirst) (9 PP)"
+    ],
+    "vantagens": [
+      "Benefício (Legion Membership)",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 5",
+      "Equipamento 8",
+      "Inventor",
+      "Ataque Poderoso",
+      "Precise Attack (Ranged",
+      "Cover)",
+      "Provocar"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 3,
+        "total": 6
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Especialidade: Geography",
+        "graduacoes": 8,
+        "total": 9
+      },
+      {
+        "nome": "Especialidade: Winath",
+        "graduacoes": 5,
+        "total": 6
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 5,
+        "total": 7
+      },
+      {
+        "nome": "Combate à Distância: Lightning Blasts Array",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 2,
+        "total": 3
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 4,
+        "total": 8
+      }
+    ],
+    "iniciativa": 3,
+    "ataques": [
+      {
+        "nome": "Ball Lightning",
+        "bonus": 8,
+        "alcance": "À distância",
+        "dano": "Área de Explosão Dano 8"
+      },
+      {
+        "nome": "Chain Lightning",
+        "bonus": 8,
+        "alcance": "À distância",
+        "dano": "Dano 10, Dividido 4"
+      },
+      {
+        "nome": "Lightning Raio",
+        "bonus": 8,
+        "alcance": "À distância",
+        "dano": "Dano 12"
+      },
+      {
+        "nome": "Lightning Punch",
+        "bonus": 6,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 14"
+      },
+      {
+        "nome": "Lightning Storm",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Área de Explosão Dano 10"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 6,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Fortitude": 6,
+      "Aparar": 10,
+      "Resistência": 8,
+      "Vontade": 5
+    },
+    "observacao_defesas": "* Vontade 5 * sem Rolamento Defensivo",
+    "custos": {
+      "Habilidades": 36,
+      "Perícias": 19,
+      "Poderes": 70,
+      "Defesas": 25,
+      "Vantagens": 19
+    },
+    "total": 169,
+    "complicacoes": [
+      {
+        "titulo": "i mpulsiv e",
+        "texto": "Garth can be very impulsive, Salto into situations before thinking them through clearly, often landing himself and his team-mates in hot water. r omance: Garth is married to Saturn Girl, and though he loves her deeply, he often clashes with her opinions regarding authority. He especially dislikes how Saturn Girl Vontade often side with Cosmic Boy on decisions."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

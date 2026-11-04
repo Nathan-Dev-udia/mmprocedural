@@ -1,0 +1,127 @@
+{
+  "nome_pt": "Homem-Terra",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 232,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 4,
+      "Agi": 4,
+      "Des": 5,
+      "Lut": 4,
+      "Int": 2,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "poderes": [
+      "Six Shooters: Arranjo (26 pontos), Facilmente Removível (-14 pontos) • Standard Bullets: Dano à Distância 13, Penetrante 4 (30 PP)",
+      "• e xploding Bullets: Área de Explosão Dano à Distância 10 (1 PP)",
+      "• d azzle Bullets: Aflição à Distância 13 (resistido por Fortitude; Vision Impaired, Vision Disabled, Vision Unaware) (1 PP)",
+      "• Psi-Bullets: Dano à Distância 10, resistido por Vontade (1 PP)",
+      "f lying Harness: Voo 6 (192 km/h), Removível (-2 pontos) (10 PP)",
+      "Lariat: Aflição 12 (resistido por Esquiva; Impedido and Vulnerável, Indefeso and Imóvel), Extra Condition, Limitado Degree, Reach 8 (40 feet), Linked to Mover Objetos 2 (200 lbs.), Corpo a Corpo Range, Reach 8 (40 feet) Facilmente Removível (-12 pontos) (18 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Preciso",
+      "Empatia com Animais",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 4",
+      "Mira Aprimorada",
+      "Improved Critical 2 (Six Shooters)",
+      "Iniciativa Aprimorada 1",
+      "Ataque Poderoso",
+      "Precise Attack 2 (Ranged",
+      "Cover and Concealment)",
+      "Saque Rápido",
+      "Ataque à Distância 6"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 3,
+        "total": 7
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 3,
+        "total": 5
+      }
+    ],
+    "iniciativa": 8,
+    "ataques": [
+      {
+        "nome": "Standard Bullet",
+        "bonus": 11,
+        "alcance": "À distância",
+        "dano": "Dano 13, Penetrante 4, Crit. 18-20 Exploding Bullet — À Distância, Área de Explosão Dano 12"
+      },
+      {
+        "nome": "Psi- Bullet",
+        "bonus": 11,
+        "alcance": "À distância",
+        "dano": "Dano 10, resistido por Vontade, Crit. 18-20"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Fortitude": 8,
+      "Aparar": 9,
+      "Resistência": 8,
+      "Vontade": 8
+    },
+    "observacao_defesas": "* Vontade 8 *sem Rolamento Defensivo. Po er ponto W S Abilities 50 Skills 21 Powers 47 Defenses 23 Advantages 21 Total 162",
+    "custos": {},
+    "total": null,
+    "complicacoes": [
+      {
+        "titulo": "Code of the West",
+        "texto": "Manning follows his own twisted version of the gunfighters’ code of the Old West; he’ll never shoot an Desarmado man, he’ll defend the honor of women, and he abides by his own version of all the other honorable behaviors made famous in movies."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

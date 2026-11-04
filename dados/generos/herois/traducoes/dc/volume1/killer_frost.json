@@ -1,0 +1,118 @@
+{
+  "nome_pt": "Killer Frost",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 305,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 2,
+      "Agi": 4,
+      "Des": 4,
+      "Lut": 3,
+      "Int": 4,
+      "Pro": 4,
+      "Pre": 3
+    },
+    "poderes": [
+      "Cryokinesis Stunts: Arranjo (24 pontos)",
+      "• Frio Control: Dano à Distância 12 (24 PP)",
+      "• Ice Aprisionar: Aflição à Distância 8 (resistido por Esquiva; Impedido, Imóvel, Incapacitado), Cumulativo (1 PP)",
+      "• Ice Creations: Criar Objetos 7, Permanente, Inato (1 PP)",
+      "Freezing Frio: Environment Control 5 (900 feet; Extreme Frio, Impede Movimento 1, Visibility) (20 PP)",
+      "Ice Shell: Proteção 8 (8 PP)",
+      "Temperature Control: Imunidade 2 (Calor, Frio) (2 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Preciso",
+      "Ataque Imprudente",
+      "Atraente",
+      "Ataque Poderoso"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 2,
+        "total": 5
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: Physics",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Combate à Distância: Cryokinesis Stunts",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 7,
+        "total": 11
+      }
+    ],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Frio Control",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Dano 12"
+      },
+      {
+        "nome": "Ice Aprisionar",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Aflição 8, Cumulativo Desarmado +5 Corpo a Corpo, Dano 1"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Fortitude": 8,
+      "Aparar": 8,
+      "Resistência": 10,
+      "Vontade": 10
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 50,
+      "Perícias": 19,
+      "Poderes": 56,
+      "Defesas": 23,
+      "Vantagens": 4
+    },
+    "total": 152,
+    "complicacoes": [
+      {
+        "titulo": "Inimigo",
+        "texto": "Killer Frost has a long-running enmity with Firestorm; where one is, the other is sure to arrive."
+      },
+      {
+        "titulo": "Ódio",
+        "texto": "Killer Frost is consumed by a pathological hatred of men."
+      },
+      {
+        "titulo": "Fraqueza",
+        "texto": "Killer Frost is dependent on sources of Calor to keep herself from freezing solid, Atordoado and Imóvel. PERSONALITY Her perceived mistreatment at the hands of men left Crystal Frost a Frio, bitter woman. Louise Lincoln, the second Killer Frost, does not share Crystal’s hated of men, but emulates her idol’s coldly murderous attitude."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

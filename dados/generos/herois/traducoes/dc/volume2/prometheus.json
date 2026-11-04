@@ -1,0 +1,142 @@
+{
+  "nome_pt": "Prometeu",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 115,
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 3,
+      "Agi": 5,
+      "Des": 5,
+      "Lut": 9,
+      "Int": 6,
+      "Pro": 5,
+      "Pre": 4
+    },
+    "poderes": [
+      "Cosmic Arranjo (29 pontos), Facilmente Removível (–12 pontos) k e y: (18 PP)",
+      "Total • Movimento 1 (Dimensional—Ghost Zone), Additional graduações 13 (Limitado a increase CD), Attack (resistido por Esquiva), Perception À Distância, Limitado a Corpo a Corpo Distance (29 PP)",
+      "• Movimento 1 (Dimensional—Ghost Zone), Affects Others (1 PP)",
+      "Gauntlets: Arranjo, Removível (–2 pontos) (9 PP)",
+      "Total • Bullets: Dano à Distância 5 (10 PP)",
+      "• n eur o- t o xin d arts: Aflição à Distância 5 (resistido por Fortitude; Tonto, Atordoado, Incapacitado) (1 PP)",
+      "Helmet: Removível (–10 pontos) (40 PP)",
+      "Total n eur al d ownload: Variável 2 (10 pontos), Limitado a Enhanced"
+    ],
+    "equipamento": [],
+    "vantagens": [],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 10,
+        "total": 13
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 12,
+        "total": 16
+      },
+      {
+        "nome": "Especialidade: Superheroes",
+        "graduacoes": 12,
+        "total": 18
+      },
+      {
+        "nome": "Especialidade: Underworld",
+        "graduacoes": 12,
+        "total": 18
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 11,
+        "total": 16
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 10,
+        "total": 14
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 12,
+        "total": 18
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 10,
+        "total": 15
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 7,
+        "total": 11
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 10,
+        "total": 15
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 10,
+        "total": 16
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 8,
+        "total": 13
+      }
+    ],
+    "iniciativa": 9,
+    "ataques": [
+      {
+        "nome": "Gauntlets",
+        "bonus": 11,
+        "alcance": "À distância",
+        "dano": "Dano 5 or Aflição 5 (resistido por Fortitude)"
+      },
+      {
+        "nome": "Nightstick",
+        "bonus": 14,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 9"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 14,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 3"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Fortitude": 10,
+      "Aparar": 12,
+      "Resistência": 10,
+      "Vontade": 16
+    },
+    "observacao_defesas": "* Vontade 16 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 80,
+      "Perícias": 70,
+      "Poderes": 92,
+      "Defesas": 28,
+      "Vantagens": 42
+    },
+    "total": 312,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

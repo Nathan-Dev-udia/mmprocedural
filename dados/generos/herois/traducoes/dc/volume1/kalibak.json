@@ -1,0 +1,91 @@
+{
+  "nome_pt": "Kalibak",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 147,
+  "ficha": {
+    "habilidades": {
+      "For": 14,
+      "Vig": 12,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 12,
+      "Int": 0,
+      "Pro": 0,
+      "Pre": 1
+    },
+    "poderes": [
+      "Beta-Club (Dano à Distância 14; AE: Área de Cone 3 (250 feet) Aflição 5 (resistido por Fortitude; Tonto, Atordoado, Incapacitado), Concentração, Cumulativo, Instant Recovery) Facilmente Removível, –12 pontos); Imunidade 1 (Envelhecimento); Proteção 2 ; Super-Força (Força Aprimorada 4, Limitado a Lifting (Lifting Str 18; 6,000 tons))"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Benefit 5 (Darkseid’s Elite)",
+      "Grande Vigor",
+      "Iniciativa Aprimorada",
+      "Quebrar Aprimorado",
+      "Ataque Poderoso"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 6,
+        "total": 20
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 6,
+        "total": 7
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 2,
+        "total": 2
+      },
+      {
+        "nome": "Combate à Distância: Beta-Club",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 4,
+        "total": 6
+      }
+    ],
+    "iniciativa": 6,
+    "ataques": [
+      {
+        "nome": "Beta-Club",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Dano 14"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 12,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 14"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 12,
+      "Fortitude": 16,
+      "Resistência": 14,
+      "Vontade": 10
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 86,
+      "Poderes": 24,
+      "Vantagens": 10,
+      "Perícias": 13,
+      "Defesas": 22
+    },
+    "total": 155,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

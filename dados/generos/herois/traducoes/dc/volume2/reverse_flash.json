@@ -1,0 +1,127 @@
+{
+  "nome_pt": "Flash Reverso",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 138,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 3,
+      "Agi": 4,
+      "Des": 3,
+      "Lut": 4,
+      "Int": 3,
+      "Pro": 3,
+      "Pre": 2
+    },
+    "poderes": [
+      "f ric tionless a ur a: Imunidade 1 (Friction Calor) (1 PP)",
+      "r un o n W ater: Movimento 1 (Water Walking), Limitado a While Moving (1 PP)",
+      "r un Up Walls: Movimento 2 (Wall-crawling 2), Limitado a While Moving (2 PP)",
+      "Super-Velocidade: Enhanced Defenses 24 (Esquiva 12, Aparar 12), Enhanced"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "(Agile Feint",
+      "Ataque Corpo-a-Corpo 4",
+      "Rolamento Defensivo 5",
+      "Evasion 2",
+      "Iniciativa Aprimorada 10",
+      "Levantar Rápido",
+      "Ação em Movimento",
+      "Tomar a Iniciativa",
+      "Takedown)",
+      "Quickness 20",
+      "Speed 20 (2",
+      "000",
+      "000 MPH) • 90 points Super-Speed Stunts: Array (20 pontos) • a ir C ontrol: corpo a corpo Range Cone área Move Object 10 • 20 pontos • a ir C ushion: Burst área Movement 1 (Safe Fall)",
+      "Affects Others • 1 point • Vacuum: Burst Area Cumulative Affliction 5 (Resisted by Fortitude; Dazed",
+      "Stunned",
+      "Incapacitated)",
+      "Concentration • 1 point • Vibration: Insubstantial 4 • 1 point • Whirlwind: Close Range Burst Area Move Object 10 • 1 point Advantages Agile Feint",
+      "Ataque Corpo-a-Corpo 4",
+      "Rolamento Defensivo 5",
+      "Evasion 2",
+      "Iniciativa Aprimorada 10",
+      "Levantar Rápido",
+      "Ação em Movimento",
+      "Tomar a Iniciativa",
+      "Derrubar em Sequência"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 6,
+        "total": 7
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 2,
+        "total": 6
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: History",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 10,
+        "total": 13
+      }
+    ],
+    "iniciativa": 44,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 1 Whirlwind Área de Explosão, Grapple, Esquiva CD 20 sually, making them power stunts (and therefore challenges for the heroes he has faced) rather than regular Powers"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 16,
+      "Aparar": 16,
+      "Fortitude": 9,
+      "Resistência": 8,
+      "Vontade": 10
+    },
+    "observacao_defesas": "*, Vontade 10 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 46,
+      "Poderes": 114,
+      "Vantagens": 10,
+      "Perícias": 24,
+      "Defesas": 20
+    },
+    "total": null,
+    "complicacoes": [
+      {
+        "titulo": "Obsessão",
+        "texto": "The Flash (Barry Allen), Enemy: The Flash Family, Psychopathy."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

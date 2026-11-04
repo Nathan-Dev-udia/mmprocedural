@@ -1,0 +1,114 @@
+{
+  "nome_pt": "Kestrel",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 300,
+  "ficha": {
+    "habilidades": {
+      "For": 9,
+      "Vig": 9,
+      "Agi": 6,
+      "Des": 2,
+      "Lut": 4,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 6
+    },
+    "poderes": [
+      "Chaos Body: Impenetrável Proteção 5 (10 PP)",
+      "Host Disguise: Metamorfose 1 (Appears as original host) (5 PP)",
+      "Kestrel Talons: Arranjo (20 pontos)",
+      "• Talons: Força-based Dano 3, Affects Intangibilidade 2, Dimensional 3, Penetrante 12 (20 PP)",
+      "• Shredding Swipe: Aflição 15 (resistido por Fortitude; Impaired Resistência and Vulnerável, Disabled Resistência and Indefeso), Affects Intangibilidade 2, Dimensional 3, Extra Condition, Limitado Degree (1 PP)",
+      "Kestrel Wings: Arranjo (12 pontos)",
+      "• Rend Space: Área de Explosão Movimento 3 (Dimension Travel 3, travel is voluntary), Affects Others (12 PP)",
+      "• Hunter Velocidade: Velocidade 4 (48 km/h); Salto 6 (1 PP)",
+      "Reform: Imortalidade 1, Limitado: Reforms in the dimension of Chaos; Regeneração 10 (11 PP)",
+      "Track Hawk: Sentidos 13 (Detect Hawk 2 (mental) , Extended 10 (Detect Hawk) , Tracking (Hawk)) (13 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Destemido",
+      "Crítico Aprimorado (Talons)",
+      "Levantar Rápido",
+      "Ataque Poderoso",
+      "Assustar"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 5,
+        "total": 14
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Shredding Swipe",
+        "graduacoes": 3,
+        "total": 7
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Talons",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 8,
+        "total": 14
+      },
+      {
+        "nome": "Especialidade: Chaos",
+        "graduacoes": 10,
+        "total": 11
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 10,
+        "total": 16
+      }
+    ],
+    "iniciativa": 6,
+    "ataques": [
+      {
+        "nome": "Talons",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 12 Crit. 19-20"
+      },
+      {
+        "nome": "Shredding Swipe",
+        "bonus": 7,
+        "alcance": "Corpo a corpo",
+        "dano": "Aflição 15, resistido por Fortitude"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Fortitude": 11,
+      "Aparar": 8,
+      "Resistência": 14,
+      "Vontade": 7
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 78,
+      "Perícias": 21,
+      "Poderes": 73,
+      "Defesas": 13,
+      "Vantagens": 6
+    },
+    "total": 191,
+    "complicacoes": [
+      {
+        "titulo": "Living Spell",
+        "texto": "Kestrel is not a real creature but a spell, and requires a willing host to exist on Earth, who is most often promised power. Kestrel cannot stay on Earth outside a host, and has been defeated in the past when forced to leave its host."
+      },
+      {
+        "titulo": "Obsessão",
+        "texto": "Kestrel’s existence revolves around Hawk and Dove and it hunts them down whenever on Earth. Kestrel always tries to attack Dove first, and once she’s dead attempts to persuade Hawk to join the Lords of Chaos."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

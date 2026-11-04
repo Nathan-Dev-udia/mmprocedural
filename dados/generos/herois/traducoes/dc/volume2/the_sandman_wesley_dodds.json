@@ -1,0 +1,71 @@
+{
+  "nome_pt": "Sandman (Wesley Dodds)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 154,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 3,
+      "Agi": 2,
+      "Des": 4,
+      "Lut": 4,
+      "Int": 4,
+      "Pro": 4,
+      "Pre": 2
+    },
+    "poderes": [
+      "28 Defenses 21"
+    ],
+    "equipamento": [
+      "Gas Mask: Enhanced Skill 1 (Intimidation +2), Imunidade 1 (Breathe normally in Aéreo toxins and irritants) (2 PP)",
+      "d ust er: Proteção 1 (1 PP)",
+      "Ve H i CL e: 1938 pL y M out H Coupe • 10 POI n TS Size: Large Str: 5 Velocidade: 6 d ef: 8 t ou: 8 f ea tures: Caltrops"
+    ],
+    "vantagens": [
+      "26 Total 171"
+    ],
+    "pericias": [],
+    "iniciativa": 6,
+    "ataques": [
+      {
+        "nome": "Sleep-Gas Gun",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Área de Nuvem Aflição 8, resistido por Fortitude (CD 18), Reach 4"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 12,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2, Crit. 19-20"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 9,
+      "Fortitude": 7,
+      "Aparar": 9,
+      "Resistência": 7,
+      "Vontade": 9
+    },
+    "observacao_defesas": "** Vontade 9 **sem Rolamento Defensivo. Po er ponto W S Abilities 50",
+    "custos": {},
+    "total": null,
+    "complicacoes": [
+      {
+        "titulo": "Justice",
+        "texto": "Wesley’s nightmares compel him to punish evildoers. r elationship: Wesley loves Dian Belmont deeply, and holds Sandy and Humphries in great esteem. r eputation: Prior to joining the JSA, the Sandman was mistrusted by the public and wanted by the police."
+      },
+      {
+        "titulo": "Segredo",
+        "texto": "The Sandman keeps his true identity hidden."
+      },
+      {
+        "titulo": "Peculiaridade",
+        "texto": "The Sandman leaves an origami sculpture containing a poem as his “calling card. ”"
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

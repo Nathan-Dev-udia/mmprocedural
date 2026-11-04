@@ -1,0 +1,150 @@
+{
+  "nome_pt": "Lady Shiva",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 6,
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 4,
+      "Agi": 7,
+      "Des": 7,
+      "Lut": 16,
+      "Int": 4,
+      "Pro": 8,
+      "Pre": 5
+    },
+    "poderes": [
+      "Body r eading: Enhanced Advantage 1 (Uncanny Esquiva), Enhanc ed Defenses 8 (Esquiva 4 and Aparar 4), Resistível by Vontade; Sentidos 1 (Sentido de Perigo) (6 PP)",
+      "Leopard Blow: Força-based Dano 3, Enhanced Advantage 3 (Improved Critical 3) (6 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Finta Ágil",
+      "Avaliação",
+      "Ataque Corpo-a-Corpo 4",
+      "Tontear (Intimidação)",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 4",
+      "Evasion",
+      "Inimigo Favorito (Martial Arts Masters)",
+      "Agarrar com Destreza",
+      "Grande Vigor",
+      "Improved Critical 3 (Leopard Blow)",
+      "Improved Critical (Unarmed",
+      "adds to Leopard Blow)",
+      "Defesa Aprimorada",
+      "Iniciativa Aprimorada",
+      "Derrubar Aprimorado",
+      "Languages 3 (Cantonese",
+      "Japanese",
+      "Mandarin",
+      "Vietnamese)",
+      "Ataque Poderoso",
+      "Precise Attack (corpo a corpo; Concealment)",
+      "Ataque à Distância 7",
+      "Ritualista",
+      "Maestria em Perícia (Intuição)",
+      "Assustar",
+      "Derrubar em Sequência 2",
+      "Transe",
+      "Esquiva Fabulosa"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 8,
+        "total": 15
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 11,
+        "total": 14
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 2,
+        "total": 18
+      },
+      {
+        "nome": "Especialidade: mágico",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: Streetwise",
+        "graduacoes": 10,
+        "total": 14
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 16,
+        "total": 24
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 11,
+        "total": 16
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 10,
+        "total": 18
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 8,
+        "total": 15
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 6,
+        "total": 10
+      }
+    ],
+    "iniciativa": 11,
+    "ataques": [
+      {
+        "nome": "Leopard Blow",
+        "bonus": 22,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 6, Crit. 16-20"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 22,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 3, Crit. 19-20"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 16,
+      "Fortitude": 10,
+      "Aparar": 16,
+      "Resistência": 8,
+      "Vontade": 14
+    },
+    "observacao_defesas": "* Fortitude 10 Aparar 16/20* Resistência 8/4** Vontade 14 *Includes Enhanced Defenses 4, Resistível by Vontade. **sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 108,
+      "Perícias": 46,
+      "Poderes": 12,
+      "Defesas": 21,
+      "Vantagens": 38
+    },
+    "total": 225,
+    "complicacoes": [
+      {
+        "titulo": "o bsession",
+        "texto": "Lady Shiva is driven to perfect her martial-arts Skills. elationship: Shiva has some level of maternal feelings for her r daughter, Cassandra Cain. sufficiently to overcome the defense bonuses provided by her Body Reading power. At the Gamemaster’s discretion, a Deception check might substitute for Vontade, and feints (either via Deception or Advantages and other Skills) affect Lady Shiva’s Body Reading bonuses the same as her normal Esquiva and Aparar graduações, although it is difficult to feint against her due to her considerable Insight graduação and Skill Mastery. Her Ritual advantage and (relatively minor) knowledge of Asian mágico allow Lady Shiva to provide occasional surprises; as a non-player character, the GM can use Shiva’s Abilities to work unusual and mysterious Powers into the story to main- tain her aura of menace and keep the players from thinking they know all of Lady Shiva’s secrets. aLLI e S The League of Assassins often calls upon Lady Shiva’s ser - vices, and she has been an occasional member of that orga- nization over the years. She Vontade also take interest in certain young fighters and unexpectedly lend them her aid, having formed brief, uneasy alliances with the Birds of Prey and Black Canary in particular, the Question, Tim Drake, and Cassandra Cain. Lady Shiva also shares a special bond with former com- panions Richard Dragon and Ben Turner, showing them the respect given only to near-equals. e ne MI e S Lady Shiva’s work for the League of Assassins often brings her into conflict with various heroes, particularly the Batman and his allies. Her independent nature prevents Shiva from remaining with the League for any extended period, and she periodically must fend off League members sent to punish her for going independent."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

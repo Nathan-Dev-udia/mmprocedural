@@ -1,0 +1,77 @@
+{
+  "nome_pt": "Sturmer, Cão de Guerra de Órion",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 89,
+  "ficha": {
+    "habilidades": {
+      "For": 9,
+      "Vig": 7,
+      "Agi": 5,
+      "Des": 0,
+      "Lut": 7,
+      "Int": -1,
+      "Pro": 3,
+      "Pre": 1
+    },
+    "poderes": [
+      "Big d og (Crescimento 2, Permanente, Inato; Proteção 3), Bite & Claw (Força-Based Dano 4), Canine Sentidos (Sentidos 3; Tracking, Ultra-Audição, and Aguçado Smell), Velocidade 5 (96 km/h)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Crítico Aprimorado (Bite & Claw)",
+      "Imobilizar Aprimorado",
+      "Ataque Poderoso"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 8,
+        "total": 17
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo (Bite & Claw)",
+        "graduacoes": 2,
+        "total": 9
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 8,
+        "total": 9
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 2,
+        "total": 7
+      }
+    ],
+    "iniciativa": 5,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 7,
+        "alcance": "",
+        "dano": "Dano Corpo a Corpo 9"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 8,
+      "Fortitude": 12,
+      "Resistência": 12,
+      "Vontade": 5
+    },
+    "observacao_defesas": "",
+    "custos": {},
+    "total": null,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

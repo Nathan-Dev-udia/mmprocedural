@@ -1,0 +1,102 @@
+{
+  "nome_pt": "Trovão",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 95,
+  "ficha": {
+    "habilidades": {
+      "For": 12,
+      "Vig": 2,
+      "Agi": 8,
+      "Des": 3,
+      "Lut": 4,
+      "Int": 3,
+      "Pro": 2,
+      "Pre": 0
+    },
+    "poderes": [
+      "a lt ernate f orm— d ensity Control (Ativação― Ação de Movimento), d ense Body (Crescimento 11, Density; Resistência Impenetrável 11; Enhanced Advantages 7 (Improved Grab, Improved Hold, Improved Smash, Improved Trip, Interpose, Power Attack, Weapon Break); t hunderst omp (Área de Explosão Dano 10 Linked to Área de Explosão Aflição 10 (resistido por Esquiva; Impedido, Prone), Instant Recovery, Limitado Degree); Unslowed (Enhanced Defenses 10 (Esquiva 5, Aparar 5), Linked to Crescimento (Density), Only to negate modifiers; ae : Light Body Agilidade Aprimorada 4)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Diehard Improved Grab",
+      "Imobilizar Aprimorado",
+      "Quebrar Aprimorado",
+      "Derrubar Aprimorado",
+      "Interpor-se",
+      "Language 2 (French",
+      "Spanish",
+      "Native: English)",
+      "Ataque Poderoso",
+      "Quebrar Arma"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 4,
+        "total": 12
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: Doctor",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 8,
+        "total": 11
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [],
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 8,
+      "Fortitude": 12,
+      "Resistência": 12,
+      "Vontade": 8
+    },
+    "observacao_defesas": "*With Dense Body. **With Light Body.",
+    "custos": {
+      "Defesas": 14
+    },
+    "total": 150,
+    "complicacoes": [
+      {
+        "titulo": "Love",
+        "texto": "Thunder loves Grace and tries to protect her."
+      },
+      {
+        "titulo": "Second Best",
+        "texto": "Thunder has a hard time dealing with Batman’s decision to remove her from the Outsiders and continues to join Grace on missions in an unofficial capacity."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

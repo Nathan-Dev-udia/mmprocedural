@@ -1,0 +1,161 @@
+{
+  "nome_pt": "Vandal Savage",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 250,
+  "ficha": {
+    "habilidades": {
+      "For": 4,
+      "Vig": 5,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 11,
+      "Int": 4,
+      "Pro": 4,
+      "Pre": 5
+    },
+    "poderes": [
+      "i Imortalidade 15, Imunidade 1 (Envelhecimento) (31 PP)",
+      "mmor tal:"
+    ],
+    "equipamento": [
+      "Espada: Força-Based Dano 3, Improved Critical (19–20) (4 PP)",
+      "Savage typically has access to a considerable amount of other equipment based on his resources."
+    ],
+    "vantagens": [
+      "Ataque Preciso",
+      "Ataque Imprudente",
+      "Benefit 6 (wealth and resources)",
+      "Estrangular",
+      "Ataque Corpo-a-Corpo 2",
+      "Conectado",
+      "Contatos",
+      "Rolamento Defensivo 2",
+      "Duro de Matar",
+      "Fascinar (Intimidação)",
+      "Agarrar Rápido",
+      "Destemido",
+      "Grande Vigor",
+      "Desarmar Aprimorado",
+      "Agarrar Aprimorado",
+      "Imobilizar Aprimorado",
+      "Iniciativa Aprimorada",
+      "Quebrar Aprimorado",
+      "Inventor",
+      "Pau pra Toda Obra",
+      "Languages 5",
+      "Liderança",
+      "Ataque Poderoso",
+      "Luta Caída",
+      "Ataque à Distância 8",
+      "Maestria em Perícia (Expertise: History)",
+      "Assustar",
+      "Derrubar em Sequência",
+      "Esquiva Fabulosa",
+      "Prender Arma",
+      "Quebrar Arma",
+      "Bem-Informado"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Especialidade: History",
+        "graduacoes": 18,
+        "total": 23
+      },
+      {
+        "nome": "Especialidade: mágico",
+        "graduacoes": 6,
+        "total": 11
+      },
+      {
+        "nome": "Especialidade: Tactics",
+        "graduacoes": 12,
+        "total": 17
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 6,
+        "total": 11
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 7,
+        "total": 12
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 7,
+        "total": 9
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [],
+    "defesas": {
+      "Esquiva": 12,
+      "Fortitude": 12,
+      "Aparar": 13,
+      "Resistência": 7,
+      "Vontade": 14
+    },
+    "observacao_defesas": "* Vontade 14 *sem Rolamento Defensivo bonus",
+    "custos": {
+      "Habilidades": 74,
+      "Perícias": 58,
+      "Poderes": 31,
+      "Defesas": 29
+    },
+    "total": 242,
+    "complicacoes": [
+      {
+        "titulo": "rr ogant",
+        "texto": "which sometimes blinds him to flaws in his own schemes."
+      },
+      {
+        "titulo": "Selfish",
+        "texto": "Having lived so long, Savage is willing to do or sacrifice virtually anything (or anyone) to avoid death."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

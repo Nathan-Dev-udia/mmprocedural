@@ -1,0 +1,104 @@
+{
+  "nome_pt": "Estrela Vermelha",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 135,
+  "ficha": {
+    "habilidades": {
+      "For": 10,
+      "Vig": 10,
+      "Agi": 6,
+      "Des": 5,
+      "Lut": 7,
+      "Int": 4,
+      "Pro": 3,
+      "Pre": 3
+    },
+    "poderes": [
+      "e nhanced e ndurance: Resistência Impenetrável 8, Proteção 2 (10 PP)",
+      "e nhanced Velocidade: Velocidade 6 (192 km/h), Rapidez 3, Enhanced Advantage 3 (Improved Iniciativa 3) (12 PP)",
+      "r ed Star Raio: Dano à Distância 12 (24 PP)",
+      "r ed Star f orm: Alternate Form-Energy (Ação de Movimento); Voo 8 (800 km/h), Intangibilidade 3, Imunidade 10 (Solar Energy) (40 PP)",
+      "Super-Lifting: Força Aprimorada 4, Limitado a Lifting (Lifting Str 14; 400 tons) (4 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Benefício (Diplomatic Immunity)",
+      "Grande Vigor",
+      "Ação em Movimento",
+      "Precise Attack (Ranged",
+      "Cover)",
+      "Redirecionar",
+      "Preparar",
+      "Trabalho em Equipe"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 6,
+        "total": 16
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 5,
+        "total": 12
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Combate à Distância: Red Star Blasts",
+        "graduacoes": 5,
+        "total": 10
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 4,
+        "total": 9
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [],
+    "defesas": {
+      "Esquiva": 8,
+      "Fortitude": 12,
+      "Aparar": 10,
+      "Resistência": 12,
+      "Vontade": 8
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 96,
+      "Perícias": 20,
+      "Poderes": 90,
+      "Defesas": 12,
+      "Vantagens": 7
+    },
+    "total": 225,
+    "complicacoes": [
+      {
+        "titulo": "y to the Motherland",
+        "texto": "of Russia. He feels a great responsibility to her people and the government. Though he is a staunch socialist, Leonid supports the current capitalist system. Powers & Abilities Leonid was granted vast superhuman Força, Velocidade and endurance. Over time he developed other Powers, including the ability to transform into a form of red solar Radiação. aLLI e S Red Star was a long-time member of the Teen Titans. e ne MI e S Red Star has fought many foes of the Teen Titans."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

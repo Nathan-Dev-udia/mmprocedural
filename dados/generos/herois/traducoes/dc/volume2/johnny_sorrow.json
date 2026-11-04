@@ -1,0 +1,87 @@
+{
+  "nome_pt": "Johnny Desespero",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 185,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 6,
+      "Agi": 2,
+      "Des": 6,
+      "Lut": 2,
+      "Int": 1,
+      "Pro": 4,
+      "Pre": 5
+    },
+    "poderes": [
+      "Bend e nergy: Imunidade 20 (Energy effects) (20 PP)",
+      "G olden Mask: Arranjo (56 pontos)",
+      "• Sorrow’s f ac e: Área de Cone Sustentado Dano 14, Resistência Alternativa (Vontade), Dependente de Sentidos (Sight), Limitado—Only against living beings who can perceive Sorrow’s face (56 PP)",
+      "• Ghostly f orm: Intangibilidade 4, Contínuo; Teleportation 10 (4 milhas) (1 PP)",
+      "Levitation: Voo 4 (48 km/h), Levitation (4 PP)",
+      "Summon Mask: Característica (1 PP)",
+      "Undying: Imortalidade 10 (20 PP)",
+      "a V ant G d a e S Defensive Roll 5, Diehard, Evasion, Fascinate (Deception), Fearless, Improved Iniciativa, Leadership, À Distância Attack 5, Seize Iniciativa, Taunt, Uncanny Esquiva, Well-informed"
+    ],
+    "equipamento": [],
+    "vantagens": [],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 10,
+        "total": 12
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 10,
+        "total": 15
+      },
+      {
+        "nome": "Especialidade: Silent Film Star",
+        "graduacoes": 10,
+        "total": 11
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 10,
+        "total": 14
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 10,
+        "total": 15
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 10,
+        "total": 15
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [],
+    "defesas": {
+      "Esquiva": 8,
+      "Fortitude": 7,
+      "Aparar": 8,
+      "Resistência": 11,
+      "Vontade": 8
+    },
+    "observacao_defesas": "* Vontade 8 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 54,
+      "Perícias": 30,
+      "Poderes": 102,
+      "Defesas": 17
+    },
+    "total": 223,
+    "complicacoes": [
+      {
+        "titulo": "ing of t ears",
+        "texto": "Johnny Sorrow is beholden to and the willing servant of a major demon that is trapped in another dimension. Most of Johnny Sorrow’s schemes involve bringing the King of Tears to Earth. wn ac Can’t See o f e: If Johnny Sorrow sees his own face he Vontade be temporarily Paralisado and powerless."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

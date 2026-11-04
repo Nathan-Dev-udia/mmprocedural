@@ -1,0 +1,81 @@
+{
+  "nome_pt": "Tsunami (Miya Shimada)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 271,
+  "ficha": {
+    "habilidades": {
+      "For": 8,
+      "Vig": 8,
+      "Agi": 4,
+      "Des": 3,
+      "Lut": 4,
+      "Int": 2,
+      "Pro": 2,
+      "Pre": 1
+    },
+    "poderes": [
+      "aquatic (Imunidade 4 (Envelhecimento, Frio, Afogamento, High assists Aquaman when emergencies arise.Pressão), Movimento 1 (Environmental Adaptation– Aquatic), (+12), Corpo a Corpo Combat: Natação 9 (400 km/h)); Water Control (Alcance de Percepção igation 4 (+6), Damaging Área Moldável Mover Objetos 10 (Limitado a Water)) ssbow Pistola 7"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ambiente Favorito (Aquatic)",
+      "Languages 1 9 (+13)",
+      "Technology 4 (Japanese)"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: Damage Stealth",
+        "graduacoes": 5,
+        "total": 9
+      }
+    ],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Water Control",
+        "bonus": null,
+        "alcance": "",
+        "dano": "Dano 10"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 12,
+      "Fortitude": 12,
+      "Resistência": 8,
+      "Vontade": 8
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 64,
+      "Poderes": 55,
+      "Vantagens": 2,
+      "Perícias": 9,
+      "Defesas": 24
+    },
+    "total": 154,
+    "complicacoes": [
+      {
+        "titulo": "doing Good",
+        "texto": "Miya is not afraid to do what’s super- right, even if it means standing alone. identity: Miya kept her tionship: After true identity secret during WWII."
+      },
+      {
+        "titulo": "Preconceito",
+        "texto": "As a Japanese- aster) American during WWII, Miya faced that era’s prejudices. d relationship: Miya was married to Neptune Perkins, and has nemy a metahuman daughter, Debbie (Deep Blue). Heroes & VHeroes & VIIllallaIIns, Vol. 2ns, Vol. 2"
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

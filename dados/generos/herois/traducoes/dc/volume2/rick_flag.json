@@ -1,0 +1,149 @@
+{
+  "nome_pt": "Rick Flag",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 207,
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 3,
+      "Agi": 2,
+      "Des": 4,
+      "Lut": 6,
+      "Int": 1,
+      "Pro": 4,
+      "Pre": 2
+    },
+    "poderes": [],
+    "equipamento": [
+      "Assault Rifle (À Distância Multiataque Dano 5), Heavy Pistola (Dano à Distância 4), Knife (Dano 1, Improved Critical), Fragmentation Grenade (Área de Explosão Dano 5), Bulletproof vest (Proteção 4, Limitado a Ballistic, Sutil), Squad Detonator, Binoculars"
+    ],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Avaliação",
+      "Ataque Corpo-a-Corpo 2",
+      "Conectado",
+      "Rolamento Defensivo 2",
+      "Duro de Matar",
+      "Equipamento 9",
+      "Destemido",
+      "Grande Vigor",
+      "Mira Aprimorada",
+      "Iniciativa Aprimorada",
+      "Inspirar 2",
+      "Liderança",
+      "Ataque Poderoso",
+      "Saque Rápido",
+      "Ataque à Distância 5",
+      "Tomar a Iniciativa",
+      "Esquiva Fabulosa"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 4,
+        "total": 10
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 10,
+        "total": 12
+      },
+      {
+        "nome": "Especialidade: Soldier",
+        "graduacoes": 11,
+        "total": 12
+      },
+      {
+        "nome": "Especialidade: Tradecraft",
+        "graduacoes": 9,
+        "total": 10
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 10,
+        "total": 12
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Combate à Distância: Guns",
+        "graduacoes": 4,
+        "total": 12
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 5,
+        "total": 9
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 7,
+        "total": 9
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 8,
+        "total": 12
+      }
+    ],
+    "iniciativa": 6,
+    "ataques": [
+      {
+        "nome": "Assault Rifle",
+        "bonus": 12,
+        "alcance": "À distância",
+        "dano": "Multiataque Dano 5"
+      },
+      {
+        "nome": "Heavy Pistola",
+        "bonus": 12,
+        "alcance": "À distância",
+        "dano": "Dano 4"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 12,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 3"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 11,
+      "Aparar": 11,
+      "Fortitude": 8,
+      "Resistência": 9,
+      "Vontade": 8
+    },
+    "observacao_defesas": "*, Vontade 8 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 50,
+      "Poderes": 0,
+      "Vantagens": 32,
+      "Perícias": 48,
+      "Defesas": 23
+    },
+    "total": 153,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

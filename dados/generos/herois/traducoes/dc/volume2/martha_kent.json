@@ -1,0 +1,72 @@
+{
+  "nome_pt": "Martha Kent",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 217,
+  "ficha": {
+    "habilidades": {
+      "For": "—",
+      "Vig": 0,
+      "Agi": 0,
+      "Des": 1,
+      "Lut": 0,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "poderes": [],
+    "equipamento": [],
+    "vantagens": [],
+    "pericias": [
+      {
+        "nome": "Especialidade: Farming",
+        "graduacoes": 6,
+        "total": 7
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 5,
+        "total": 7
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 5,
+        "total": 7
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 2,
+        "total": 3
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [
+      {
+        "nome": "Attack",
+        "bonus": 0,
+        "alcance": "",
+        "dano": "(Corpo a Corpo, Dano -1) efense:"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 2,
+      "Aparar": 2,
+      "Fortitude": 1,
+      "Resistência": 0,
+      "Vontade": 3
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Defesas": 6
+    },
+    "total": 28,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

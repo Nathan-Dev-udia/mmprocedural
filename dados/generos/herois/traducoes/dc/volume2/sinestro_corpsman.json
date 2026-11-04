@@ -1,0 +1,88 @@
+{
+  "nome_pt": "Membro da Tropa Sinestro",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 181,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 2,
+      "Agi": 0,
+      "Des": 2,
+      "Lut": 3,
+      "Int": 0,
+      "Pro": 1,
+      "Pre": 2
+    },
+    "poderes": [
+      "y ello w Power r ing (as given in the Sinestro entry, but with a 30-ponto Force Manipulation Arranjo)"
+    ],
+    "equipamento": [],
+    "vantagens": [],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 3,
+        "total": 7
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 8,
+        "total": 9
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Combate à Distância: Power Ring",
+        "graduacoes": 7,
+        "total": 9
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [
+      {
+        "nome": "Ring Raio",
+        "bonus": 9,
+        "alcance": "À distância",
+        "dano": "Dano 15"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 10,
+      "Fortitude": 9,
+      "Resistência": 14,
+      "Vontade": 15
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 11,
+      "Poderes": 101,
+      "Vantagens": 0,
+      "Perícias": 18,
+      "Defesas": 38
+    },
+    "total": 168,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

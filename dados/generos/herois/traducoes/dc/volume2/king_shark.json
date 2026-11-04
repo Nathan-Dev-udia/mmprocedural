@@ -1,0 +1,84 @@
+{
+  "nome_pt": "Tubarão-Rei",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 160,
+  "ficha": {
+    "habilidades": {
+      "For": 10,
+      "Vig": 10,
+      "Agi": 4,
+      "Des": 0,
+      "Lut": 8,
+      "Int": 0,
+      "Pro": 2,
+      "Pre": 4
+    },
+    "poderes": [
+      "a qua tic (Imunidade 3 (Frio, Afogamento, Pressão), Movimento 1 (Environmental Adaptation (Aquatic), Sentidos 2 (Visão na Penumbra, Tracking (Olfactory)); Claws and t eeth (Força-based Dano 4, Penetrante 6, Improved Critical); r egeneration (Regeneração 2); Sharkskin (Proteção 4); Natação (Natação 7 (96 km/h))"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Benefit 2 (Cipher 2)",
+      "Duro de Matar",
+      "Destemido",
+      "Grande Vigor",
+      "Derrubar em Sequência 2"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 4,
+        "total": 14
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 6
+      }
+    ],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Claws and Teeth",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 14, Penetrante 6, Crit. 19-20"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 8,
+      "Fortitude": 14,
+      "Resistência": 14,
+      "Vontade": 6
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 76,
+      "Poderes": 33,
+      "Vantagens": 8,
+      "Perícias": 7,
+      "Defesas": 12
+    },
+    "total": 136,
+    "complicacoes": [
+      {
+        "titulo": "a p ex Predator",
+        "texto": "King Shark is a powerful and vicious mercenary not for money or fame, but because it’s in his nature to hunt and kill."
+      },
+      {
+        "titulo": "Bloodlust",
+        "texto": "King Shark often loses control of himself in combat and attacks blindly, without regard for his own safety or thinking about tactics. f a ther’s Son: King Shark is the son of the Shark God known as the King of All Sharks and is sometimes used as a pawn by his father. King Shark does as his father commands, but it’s unknown if it’s by choice or due to the Shark God’s influence."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

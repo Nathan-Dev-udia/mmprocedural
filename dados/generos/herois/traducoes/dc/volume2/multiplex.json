@@ -1,0 +1,89 @@
+{
+  "nome_pt": "Múltiplex",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 69,
+  "ficha": {
+    "habilidades": {
+      "For": 7,
+      "Vig": 6,
+      "Agi": 3,
+      "Des": 4,
+      "Lut": 5,
+      "Int": 4,
+      "Pro": 2,
+      "Pre": 1
+    },
+    "poderes": [
+      "Bio- f ission: Summon Duploids 7 (105 pontos), Active, Horde, mental Link, Multiple Minions 4 (16 minions) (85 PP)",
+      "e nergy a bsorption: Impenetrável Proteção 6, Limitado a Energy; Resistência Impenetrável 6, Limitado a Energy (9 PP)"
+    ],
+    "equipamento": [
+      "Weapon: Usually a heavy Pistola (Dano à Distância 4) (8 PP)"
+    ],
+    "vantagens": [
+      "Equipamento 2",
+      "Trabalho em Equipe"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 4,
+        "total": 9
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Especialidade: Physics",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Combate à Distância: Guns",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 4,
+        "total": 8
+      }
+    ],
+    "iniciativa": 3,
+    "ataques": [
+      {
+        "nome": "Heavy Pistola",
+        "bonus": 8,
+        "alcance": "À distância",
+        "dano": "Dano 4"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 9,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 7"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Fortitude": 10,
+      "Aparar": 8,
+      "Resistência": 6,
+      "Vontade": 5
+    },
+    "observacao_defesas": "* Vontade 5 *Limitado a Energy.",
+    "custos": {},
+    "total": null,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

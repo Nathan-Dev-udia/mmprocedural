@@ -1,0 +1,124 @@
+{
+  "nome_pt": "The Brain",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 86,
+  "ficha": {
+    "habilidades": {
+      "For": "—",
+      "Vig": "—",
+      "Agi": "—",
+      "Des": "—",
+      "Lut": "—",
+      "Int": 10,
+      "Pro": 5,
+      "Pre": 12
+    },
+    "poderes": [
+      ": Housing ( Característica 1 (Normal Sentidos; see Complications), Imunidade 40 (Fortitude Effects, Suporte Vital), Proteção 15, Removível (–11 pontos)) mental Shielding (Impenetrável Vontade 10)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Avaliação",
+      "Tontear (Enganação)",
+      "Memória Eidética",
+      "Fascinar (Persuasão)",
+      "Inventor",
+      "Pau pra Toda Obra",
+      "Languages (French)",
+      "Liderança",
+      "Preparar",
+      "Maestria em Perícia (Persuasão)",
+      "Esforço Supremo (Persuasão)",
+      "Bem-Informado"
+    ],
+    "pericias": [
+      {
+        "nome": "Enganação",
+        "graduacoes": 6,
+        "total": 18
+      },
+      {
+        "nome": "Especialidade: Brainwashing",
+        "graduacoes": 4,
+        "total": 14
+      },
+      {
+        "nome": "Especialidade: Criminal",
+        "graduacoes": 2,
+        "total": 12
+      },
+      {
+        "nome": "Especialidade: Current Events",
+        "graduacoes": 1,
+        "total": 11
+      },
+      {
+        "nome": "Especialidade: History",
+        "graduacoes": 2,
+        "total": 12
+      },
+      {
+        "nome": "Especialidade: Psychology",
+        "graduacoes": 4,
+        "total": 14
+      },
+      {
+        "nome": "Especialidade: Science",
+        "graduacoes": 4,
+        "total": 14
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 6,
+        "total": 11
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 4,
+        "total": 16
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 3,
+        "total": 13
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 2,
+        "total": 12
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [],
+    "defesas": {
+      "Resistência": 15,
+      "Vontade": 10
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 12,
+      "Poderes": 55,
+      "Vantagens": 12,
+      "Perícias": 19,
+      "Defesas": 13
+    },
+    "total": 111,
+    "complicacoes": [
+      {
+        "titulo": "Bodysnatcher",
+        "texto": "Not satisfied to remain little more than a brain in a jar, the Brain is constantly pursuing every possible avenue, no matter how unlikely or risky, to acquire a new body for himself. This has led him to seek out everything from robotic chassis his brain can be interred in to clones that can likewise house his Intelecto."
+      },
+      {
+        "titulo": "Brain in a Jar",
+        "texto": "The Brain requires his cybernetic housing to survive and provide rudimentary sensory input. Even within the housing, the Brain suffers from reduced mobility, as his housing’s ability to move and maneuver are extremely Limitado, and he is unable to directly manipulate his environment. The housing is roughly 3 ft. 4 in. tall and weighs about 195 lbs."
+      },
+      {
+        "titulo": "Forbidden Love",
+        "texto": "The Brain and Monsieur Mallah are involved in a romantic relationship that can, at best, be described as extraordinarily unorthodox given former’s disembodied circumstances and Mallah being a mutated gorilla."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

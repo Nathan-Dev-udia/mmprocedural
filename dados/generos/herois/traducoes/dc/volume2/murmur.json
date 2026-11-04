@@ -1,0 +1,124 @@
+{
+  "nome_pt": "Murmúrio",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 70,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 3,
+      "Agi": 5,
+      "Des": 5,
+      "Lut": 9,
+      "Int": 4,
+      "Pro": 4,
+      "Pre": -2
+    },
+    "poderes": [
+      "a bnormal B ody Chemistry: Imunidade 2 (Doença, Veneno) (2 PP)",
+      "i PM ent eQU Assortment of 10 knives"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Finta Ágil",
+      "Ataque Imprudente",
+      "Rolamento Defensivo 4",
+      "Equipamento 4",
+      "Evasion 2",
+      "Destemido",
+      "Esconder-se a Plena Vista",
+      "Improved Critical 3 (Knives)",
+      "Desarmar Aprimorado",
+      "Iniciativa Aprimorada",
+      "Ataque Poderoso",
+      "Precise Attack 4 (corpo a corpo and à distância; Cover and Concealment)",
+      "Luta Caída",
+      "Saque Rápido"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Knife",
+        "graduacoes": 6,
+        "total": 15
+      },
+      {
+        "nome": "Especialidade: Surgeon",
+        "graduacoes": 10,
+        "total": 14
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Combate à Distância: Throw",
+        "graduacoes": 10,
+        "total": 15
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 4,
+        "total": 9
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 10,
+        "total": 14
+      }
+    ],
+    "iniciativa": 9,
+    "ataques": [
+      {
+        "nome": "Knife",
+        "bonus": 15,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 3, Crit. 16-20"
+      },
+      {
+        "nome": "Thrown Knife",
+        "bonus": 15,
+        "alcance": "À distância",
+        "dano": "Dano 3, Crit. 16-20"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 11,
+      "Fortitude": 9,
+      "Aparar": 11,
+      "Resistência": 7,
+      "Vontade": 9
+    },
+    "observacao_defesas": "* Vontade 9 *sem Rolamento Defensivo",
+    "custos": {
+      "Habilidades": 60,
+      "Perícias": 35,
+      "Poderes": 2,
+      "Defesas": 19
+    },
+    "total": 142,
+    "complicacoes": [
+      {
+        "titulo": "Mute",
+        "texto": "Murmur cut out his own tongue for fear of incriminating himself. k iller: Murmur kills in a futile attempt to silence the Serial voices inside his head."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

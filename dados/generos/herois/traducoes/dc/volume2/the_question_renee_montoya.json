@@ -1,0 +1,59 @@
+{
+  "nome_pt": "Questão (Renee Montoya)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 120,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 3,
+      "Agi": 5,
+      "Des": 4,
+      "Lut": 9,
+      "Int": 2,
+      "Pro": 3,
+      "Pre": 2
+    },
+    "poderes": [
+      "0 Defenses 23"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "24 Total 152"
+    ],
+    "pericias": [],
+    "iniciativa": 9,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 16,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2"
+      },
+      {
+        "nome": "Pistola",
+        "bonus": 11,
+        "alcance": "À distância",
+        "dano": "Dano 4"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 13,
+      "Fortitude": 8,
+      "Aparar": 13,
+      "Resistência": 5,
+      "Vontade": 9
+    },
+    "observacao_defesas": "* Vontade 9 *sem Rolamento Defensivo Po er ponto W S Abilities 60",
+    "custos": {},
+    "total": null,
+    "complicacoes": [
+      {
+        "titulo": "ddic tion",
+        "texto": "r elationships: Renee still has strong feelings for her ex-girlfriend Kate Kane (See Batwoman, Vol. 1 ). She had a very Corpo a Corpo relationship with the first Question and is slowly becoming friends with Aristotle “Tot” Rodor. Who a m i ?: Like her predecessor, she seeks to come to grips with who she has been, who she is now, and who she wants to become."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

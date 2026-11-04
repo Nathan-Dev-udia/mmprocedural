@@ -1,0 +1,161 @@
+{
+  "nome_pt": "Arsenal",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 23,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 5,
+      "Des": 5,
+      "Lut": 6,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "poderes": [],
+    "equipamento": [
+      "Arsenal: Arranjo (6 pontos)",
+      "• Throwing Knives: Dano à Distância 2, Multiataque (6 PP)",
+      "• Short Espada: Força-based Dano 2, Penetrante 2 (1 PP)",
+      "• Batons: Força-based Dano 2, Dividido (1 PP)"
+    ],
+    "vantagens": [
+      "Ataque Preciso",
+      "Atraente",
+      "Estrangular",
+      "Ataque Corpo-a-Corpo 5",
+      "Conectado",
+      "Rolamento Defensivo 3",
+      "Equipamento 2",
+      "Evasion",
+      "Mira Aprimorada",
+      "Crítico Aprimorado (Arsenal) 2",
+      "Iniciativa Aprimorada",
+      "Arma Improvisada 2",
+      "Ataque Poderoso",
+      "Precise Attack 3 (corpo a corpo; Cover and Concealment. à distância; Cover)",
+      "Saque Rápido",
+      "Ataque à Distância 5",
+      "Maestria em Arremesso 2"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 3,
+        "total": 8
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 9,
+        "total": 11
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Arsenal",
+        "graduacoes": 5,
+        "total": 11
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 7,
+        "total": 9
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 5,
+        "total": 7
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 7,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 7,
+        "total": 9
+      },
+      {
+        "nome": "Combate à Distância: Arsenal",
+        "graduacoes": 6,
+        "total": 11
+      },
+      {
+        "nome": "Combate à Distância: Bows",
+        "graduacoes": 5,
+        "total": 10
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 4,
+        "total": 9
+      }
+    ],
+    "iniciativa": 9,
+    "ataques": [
+      {
+        "nome": "Batons",
+        "bonus": 16,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 4, Dividido, Crit. 18-20"
+      },
+      {
+        "nome": "Short Espada",
+        "bonus": 16,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 4, Penetrante 2, Crit. 18-20"
+      },
+      {
+        "nome": "Throwing Knives",
+        "bonus": 16,
+        "alcance": "À distância",
+        "dano": "Dano 2, Multiataque, Crit. 18-20"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 11,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 15,
+      "Fortitude": 8,
+      "Aparar": 15,
+      "Resistência": 5,
+      "Vontade": 8
+    },
+    "observacao_defesas": "* Vontade 8 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 50,
+      "Perícias": 36,
+      "Poderes": 0,
+      "Defesas": 31,
+      "Vantagens": 33
+    },
+    "total": 150,
+    "complicacoes": [
+      {
+        "titulo": "Bereaved",
+        "texto": "Arsenal recently lost his daughter Lian in the Destruição of Star City, an event that left him an angry, broken man, riding the line between hero and villain."
+      },
+      {
+        "titulo": "Junkie",
+        "texto": "When he was younger, Arsenal was addicted to heroin. While he beat his addiction and was clean for many years, the loss of his daughter has driven him back to drugs and caused him to have severe hallucinations."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

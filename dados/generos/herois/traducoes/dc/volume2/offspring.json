@@ -1,0 +1,97 @@
+{
+  "nome_pt": "Prole (Offspring)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 106,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 4,
+      "Agi": 4,
+      "Des": 4,
+      "Lut": 4,
+      "Int": 0,
+      "Pro": 2,
+      "Pre": 1
+    },
+    "poderes": [
+      "e lastic B ody (Imunidade 32 (Fortitude effects, Leitura mental), Impenetrável Proteção 6), Shapeshifting (Alongamento 9, Metamorfose 4 (any shape), Variável 4 (physical traits, 20 power pontos))"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Benefício (Ambidexterity)",
+      "Ataque Defensivo",
+      "Agarrar com Destreza",
+      "Provocar"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 8,
+        "total": 9
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Combate à Distância: Throwing",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 4,
+        "total": 8
+      }
+    ],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 10,
+      "Resistência": 10,
+      "Vontade": 9
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 42,
+      "Poderes": 101,
+      "Vantagens": 5,
+      "Perícias": 14,
+      "Defesas": 17
+    },
+    "total": 181,
+    "complicacoes": [
+      {
+        "titulo": "t hrills",
+        "texto": "Offspring enjoys using his Powers, especially to help others."
+      },
+      {
+        "titulo": "Fraqueza",
+        "texto": "Like his father, extremes of temperature can cause Offspring to melt or freeze solid (and even shatter)."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

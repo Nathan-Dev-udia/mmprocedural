@@ -1,0 +1,87 @@
+{
+  "nome_pt": "Psimon",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 196,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 3,
+      "Agi": 1,
+      "Des": 2,
+      "Lut": 1,
+      "Int": 7,
+      "Pro": 4,
+      "Pre": 7
+    },
+    "poderes": [
+      "Telepath ( Arranjo (44 pontos), mental Domination ( Alcance de Percepção Cumulativo Aflição 11 (resistido por Vontade; Tonto, Compelido, Controlado)), AE: Illusory Disguise ( Área de Explosão Affects Others Seletivo Metamorfose 3 (Humanoids), Resistível), AE: mental Probe ( Leitura mental 11, Cumulativo), AE: mental Projection ( Ilusão 11 (Visual, Hearing), Resistível, Seletivo)); Telekinetic (Arranjo (24 pontos), Telekinetic Raio ( Alcance de Percepção Dano 8), AE: Telekinetic Toss ( Alcance de Percepção Mover Objetos 8 (6 tons)); Telekinetic Escudo (Proteção 5, Sustentado)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Tontear (Intimidação)",
+      "Liderança",
+      "Redirecionar",
+      "Tomar a Iniciativa",
+      "Preparar",
+      "Provocar"
+    ],
+    "pericias": [
+      {
+        "nome": "Enganação",
+        "graduacoes": 8,
+        "total": 15
+      },
+      {
+        "nome": "Especialidade: Physics",
+        "graduacoes": 4,
+        "total": 11
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 8,
+        "total": 15
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 8
+      }
+    ],
+    "iniciativa": 1,
+    "ataques": [],
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 8,
+      "Fortitude": 6,
+      "Resistência": 8,
+      "Vontade": 14
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 52,
+      "Poderes": 77,
+      "Vantagens": 6,
+      "Perícias": 16,
+      "Defesas": 29
+    },
+    "total": 180,
+    "complicacoes": [
+      {
+        "titulo": "Destroyer",
+        "texto": "The demon Trigon the Terrible (See Vol. II ) is responsible for Psimon’s existence and he tasked Psimon with the Destruição of the Earth. Psimon is still trying to meet that goal."
+      },
+      {
+        "titulo": "Egotist",
+        "texto": "Psimon is out for himself. He works with his team as long as they prove useful, but he’s more than willing to abandon them (or worse) if it Vontade help his cause."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

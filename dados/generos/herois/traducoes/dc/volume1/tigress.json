@@ -1,0 +1,144 @@
+{
+  "nome_pt": "Tigress",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 279,
+  "ficha": {
+    "habilidades": {
+      "For": 4,
+      "Vig": 4,
+      "Agi": 5,
+      "Des": 5,
+      "Lut": 12,
+      "Int": 2,
+      "Pro": 3,
+      "Pre": 2
+    },
+    "poderes": [
+      "Sentidos 5 (Preciso Hearing, Aguçado Smell, Visão na Penumbra, Tracking); Velocidade 3 (25 km/h)"
+    ],
+    "equipamento": [
+      "Bolos (Aprisionar 3), Crossbow (Dano à Distância 3), Knives (Força-based Dano 1, Improved Critical)"
+    ],
+    "vantagens": [
+      "Ataque Preciso",
+      "Finta Ágil",
+      "Avaliação",
+      "Estrangular",
+      "Ataque Corpo-a-Corpo 2",
+      "Rolamento Defensivo 2",
+      "Equipamento 3",
+      "Evasion",
+      "Grande Vigor",
+      "Esconder-se a Plena Vista",
+      "Iniciativa Aprimorada",
+      "Improvised Weapons",
+      "Levantar Rápido",
+      "Precise Attack",
+      "Saque Rápido",
+      "Redirecionar",
+      "Preparar",
+      "Tomar a Iniciativa",
+      "Maestria em Arremesso",
+      "Rastrear",
+      "Esquiva Fabulosa"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 9,
+        "total": 14
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 10,
+        "total": 14
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 10,
+        "total": 13
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Combate à Distância: Crossbow",
+        "graduacoes": 7,
+        "total": 12
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 12,
+        "total": 17
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 4,
+        "total": 9
+      }
+    ],
+    "iniciativa": 9,
+    "ataques": [
+      {
+        "nome": "Crossbow",
+        "bonus": 12,
+        "alcance": "",
+        "dano": "Dano 3"
+      },
+      {
+        "nome": "Knives",
+        "bonus": 14,
+        "alcance": "",
+        "dano": "Dano 6, Crit. 19-20"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 14,
+        "alcance": "",
+        "dano": "Dano 4"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 14,
+      "Aparar": 14,
+      "Fortitude": 8,
+      "Resistência": 6,
+      "Vontade": 8
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 74,
+      "Poderes": 8,
+      "Vantagens": 25,
+      "Perícias": 41,
+      "Defesas": 20
+    },
+    "total": 168,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

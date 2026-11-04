@@ -1,0 +1,120 @@
+{
+  "nome_pt": "Zauriel",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 277,
+  "ficha": {
+    "habilidades": {
+      "For": 7,
+      "Vig": 7,
+      "Agi": 7,
+      "Des": 7,
+      "Lut": 7,
+      "Int": 2,
+      "Pro": 4,
+      "Pre": 3
+    },
+    "poderes": [
+      "a ngelic a rmor : Impenetrável Proteção 5, Removível (–2 pontos) (8 PP)",
+      "a ngelic o v ermind: Compreender 2 (Animals); Sentidos 6 (Detect Good, Detect Evil, Detect mágico, all À Distância) (10 PP)",
+      "f laming S word: Arranjo (20 pontos), Removível (–4 pontos) • Blade: Força-based Dano 6, Affects Intangibilidade 2, Penetrante 12 (20 PP)",
+      "• f ir e Raio: Dano à Distância 10 (1 PP)",
+      "• Heavenly Light: Environment 10 (Daylight; Bright) (1 PP)",
+      "i mmor tality: Imunidade 4 (Envelhecimento, Doença, Sufocamento); Regeneração 2 (6 PP)",
+      "Sonic f lash: Arranjo (20 pontos)",
+      "• Sonic Raio: Área de Cone Dano 10 (20 PP)",
+      "• Sonic d isr uption: Área de Cone Nulificar Divine Summon 10 (1 PP)",
+      "Wings: Voo 7 (400 km/h), Wings (7 PP)"
+    ],
+    "equipamento": [
+      "H q : tH e a erie • 14 POI n TS Size: Huge t ou : 14 f ea tures: Communications, Concealed, Isolated, Library, Living Space, Power System, Self-Repairing a V ant G d a e S Corpo a Corpo Attack 4, Defensive Attack, Equipment 3, Favored Environment (Aerial), Teamwork"
+    ],
+    "vantagens": [],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 4,
+        "total": 11
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 4,
+        "total": 11
+      },
+      {
+        "nome": "Especialidade: Guardian Angel",
+        "graduacoes": 10,
+        "total": 12
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Combate à Distância: Flame Blast",
+        "graduacoes": 4,
+        "total": 11
+      }
+    ],
+    "iniciativa": 7,
+    "ataques": [
+      {
+        "nome": "Flame Raio",
+        "bonus": 11,
+        "alcance": "À distância",
+        "dano": "Dano 10"
+      },
+      {
+        "nome": "Flaming Espada",
+        "bonus": 11,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 13, Penetrante 12 Sonic Raio Área de Cone (Esquiva CD 20), Dano 10"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 11,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 7"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Fortitude": 12,
+      "Aparar": 12,
+      "Resistência": 12,
+      "Vontade": 12
+    },
+    "observacao_defesas": "* Vontade 12 *Without Armor Proteção.",
+    "custos": {
+      "Habilidades": 88,
+      "Perícias": 21,
+      "Poderes": 70,
+      "Defesas": 23,
+      "Vantagens": 10
+    },
+    "total": 212,
+    "complicacoes": [
+      {
+        "titulo": "a ngel",
+        "texto": "Zauriel is neither human nor mortal, and is sometimes torn between his angelic nature and his admiration and sympathy for humanity."
+      },
+      {
+        "titulo": "Under Heaven",
+        "texto": "Zauriel’s connections with the Eagle Host of angels have led to his exile and reinstatement, and have resulted in a wide varierty orders issued to him by the Heavenly Host."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

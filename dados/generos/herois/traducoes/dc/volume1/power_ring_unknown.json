@@ -1,0 +1,131 @@
+{
+  "nome_pt": "Power Ring (Unknown)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 134,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 2,
+      "Des": 3,
+      "Lut": 5,
+      "Int": 1,
+      "Pro": 3,
+      "Pre": 3
+    },
+    "poderes": [
+      "Power Ring (132 pontos, Removível (–26 pontos); Volthoom’s Mystic Knowledge ( Features 2 (This is identical to the AI built into Oan Green Lantern Rings)); Comunicação ( Sentidos 1 (Comunicação Link to Central Power Battery)); Voo (Voo 14 (32,0 km/h), Movimento 4 (Environmental Adaptation: Zero-G, Space Travel 3)); Campo de Força (Proteção 12, Impenetrável; Imunidade 10 (Suporte Vital)); Force Manipulation (Arranjo (36 pontos) Force Raio ( Dano à Distância 18, Dynamic), AE: Force Bubble ( Affects Others, Área de Explosão, and À Distância on Imunidade 10 (Suporte Vital), Dynamic), AE: Force Constructs (Criar Objetos 18, Dynamic, AE: Lifting: Mover Objetos 18, Dynamic), AE: Mobile Constructs ( Criar Objetos 12, Movable, Dynamic); Scanning Beam (Sentidos 6 (Analítico Auditory, Chemical, and Visual)); Universal Translator (Compreender Languages 4)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Destemido",
+      "Trabalho em Equipe",
+      "Esforço Supremo (Will checks)"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 3,
+        "total": 8
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Especialidade: Criminal",
+        "graduacoes": 8,
+        "total": 9
+      },
+      {
+        "nome": "Especialidade: Military",
+        "graduacoes": 8,
+        "total": 9
+      },
+      {
+        "nome": "Especialidade: Streetwise",
+        "graduacoes": 12,
+        "total": 13
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Combate à Distância: Power Ring",
+        "graduacoes": 7,
+        "total": 10
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2"
+      },
+      {
+        "nome": "Power Ring",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Dano 18"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Aparar": 10,
+      "Fortitude": 10,
+      "Resistência": 14,
+      "Vontade": 18
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 42,
+      "Poderes": 106,
+      "Vantagens": 3,
+      "Perícias": 33,
+      "Defesas": 38
+    },
+    "total": 222,
+    "complicacoes": [
+      {
+        "titulo": "Inimigo",
+        "texto": "The ring’s “inhabitant” , Volthoom, is no friend to the ring-bearer. Volthoom plots the downfall of Power Ring."
+      },
+      {
+        "titulo": "Perda de Poder",
+        "texto": "The ring needs periodic recharging via a battery of unknown origin; it issues a warning as its power runs low."
+      },
+      {
+        "titulo": "Fraqueza",
+        "texto": "Power Ring’s Abilities depend on his willpower; the maximum graduação of his mágico ring’s effects is equal to Power Ring’s Vontade graduação, and moments of self-doubt or hesitation can cause the ring to fail. Powers & Abilities Superwoman is astoundingly strong and tough, can fly at incredible speeds,, and wields an enchanted lasso. Super - woman’s Powers differ from those of Wonder Woman. She can project lethal energy beams from her eyes (similar to the Calor vision of Superman/Ultraman), her lasso lowers the inhibitions of anyone caught in it, so they blurt out secrets, and she does not wear Amazonian bracelet, so Superwom - an is unable to Deflexão attacks as can Wonder Woman. Her"
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

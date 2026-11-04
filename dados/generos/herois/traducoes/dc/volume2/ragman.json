@@ -1,0 +1,71 @@
+{
+  "nome_pt": "Retalho",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 122,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 4,
+      "Des": 3,
+      "Lut": 6,
+      "Int": 2,
+      "Pro": 4,
+      "Pre": 2
+    },
+    "poderes": [
+      "84 Defenses 14 antages 19 a dv Total 203"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Finta Ágil",
+      "Avaliação",
+      "Ataque Corpo-a-Corpo 4",
+      "Conectado",
+      "Contatos",
+      "Rolamento Defensivo 3",
+      "Memória Eidética",
+      "Destemido",
+      "Agarrar Aprimorado",
+      "Languages (Hebrew)",
+      "Ação em Movimento",
+      "Ataque Poderoso",
+      "Redirecionar",
+      "Ritualista",
+      "Rastrear"
+    ],
+    "pericias": [],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Absorb Evildoer",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Movimento (Dimensional) Attack, resistido por Aparar, CD 21 Suit of Rags +10 Corpo a Corpo, Aflição 5, resistido por Esquiva Desarmado +10 Corpo a Corpo, Dano 2"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Fortitude": 6,
+      "Aparar": 8,
+      "Resistência": 5,
+      "Vontade": 8
+    },
+    "observacao_defesas": "* Vontade 8 *sem Rolamento Defensivo. W S Po er ponto Abilities 50",
+    "custos": {},
+    "total": null,
+    "complicacoes": [
+      {
+        "titulo": "Motivação",
+        "texto": "Doing good works and giving hope to good people. Absorbing the souls of evildoers into the suit of rags. o bsession: Power Loss: On rare occasions the souls absorbed by the suit of rags are able to rebel and collectively escape the suit, depriving Ragman of souls to Mimetismo."
+      },
+      {
+        "titulo": "Secret i den tity",
+        "texto": "Roy Regan e ne MI e S Ragman is a foe of all evildoers, particularly those in Gotham city. He has had run-ins with the Diablos and has an evil dou- ble called Bagman"
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "nome_pt": "Caçador (Kirk DePaul)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 36,
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 3,
+      "Agi": 4,
+      "Des": 4,
+      "Lut": 8,
+      "Int": 1,
+      "Pro": 3,
+      "Pre": 5
+    },
+    "poderes": [
+      "Cura n anobots: Regeneração 3 (3 PP)"
+    ],
+    "equipamento": [
+      "Mauser: Dano à Distância 4 (8 PP)",
+      "s hurik en: À Distância Multiataque Dano 3 (3 PP)",
+      "k atar ( l ong Dagger): Força-based Dano 2 (2 PP)"
+    ],
+    "vantagens": [
+      "Ataque Preciso",
+      "Avaliação",
+      "Estrangular",
+      "Ataque Corpo-a-Corpo 2",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 3",
+      "Equipamento 3",
+      "Grande Vigor",
+      "Iniciativa Aprimorada",
+      "Levantar Rápido",
+      "Ataque Poderoso",
+      "Precise Attack (à distância; Concealment)",
+      "Ataque à Distância 7",
+      "Derrubar em Sequência",
+      "Maestria em Arremesso 2",
+      "Rastrear"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 5,
+        "total": 9
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 3,
+        "total": 6
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Katar",
+        "graduacoes": 3,
+        "total": 11
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 6,
+        "total": 11
+      },
+      {
+        "nome": "Especialidade: Tracking",
+        "graduacoes": 5,
+        "total": 6
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 3,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 3,
+        "total": 8
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 2,
+        "total": 6
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 5,
+        "total": 9
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 3,
+        "total": 4
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 2,
+        "total": 6
+      }
+    ],
+    "iniciativa": 8,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 3"
+      },
+      {
+        "nome": "Katar",
+        "bonus": 13,
+        "alcance": "Corpo a corpo",
+        "dano": "Força-based Dano 5"
+      },
+      {
+        "nome": "Mauser",
+        "bonus": 11,
+        "alcance": "À distância",
+        "dano": "Dano 4"
+      },
+      {
+        "nome": "Shuriken",
+        "bonus": 11,
+        "alcance": "À distância",
+        "dano": "Multiataque Dano 3"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 11,
+      "Fortitude": 8,
+      "Aparar": 11,
+      "Resistência": 6,
+      "Vontade": 8
+    },
+    "observacao_defesas": "* Vontade 8 * sem Rolamento Defensivo. p s ower p oin T Abilities 62 Skills 25 Powers 3 Defenses 20 Advantages 28 Total 138",
+    "custos": {},
+    "total": null,
+    "complicacoes": [
+      {
+        "titulo": "Honra",
+        "texto": "Manhunter has a strong sense of honor. He’s not sure where it came from, but its existence makes him unlike the other Paul Kirk clones."
+      },
+      {
+        "titulo": "Ganância",
+        "texto": "Manhunter is in the hero business to make money … as long as that goal doesn’t conflict with his sense of honor."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

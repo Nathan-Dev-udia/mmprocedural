@@ -1,0 +1,56 @@
+{
+  "nome_pt": "Donna Troy",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 243,
+  "ficha": {
+    "habilidades": {
+      "For": 15,
+      "Vig": 13,
+      "Agi": 8,
+      "Des": 5,
+      "Lut": 11,
+      "Int": 2,
+      "Pro": 3,
+      "Pre": 4
+    },
+    "poderes": [
+      "58 Defenses 17"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "2 Total 223 Co MPL i C tion S a a maz on f ur y: Troy is a trained warrior and directs her fury into combat. Sometimes her temper gets away from her. d ifficult P ast: Sometimes Donna’s past is unclear even to her. Multiversal n e xus: Troy is a bridge between different worlds",
+      "which often pulls her into the middle of important",
+      "world- changing conflicts."
+    ],
+    "pericias": [],
+    "iniciativa": 8,
+    "ataques": [
+      {
+        "nome": "mágico Lasso",
+        "bonus": 11,
+        "alcance": "À distância",
+        "dano": "Aflição 15, resistido por Vontade (CD 25), Grab +15"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 11,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 15"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 13,
+      "Fortitude": 13,
+      "Aparar": 13,
+      "Resistência": 13,
+      "Vontade": 13
+    },
+    "observacao_defesas": "",
+    "custos": {},
+    "total": null,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

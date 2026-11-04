@@ -1,0 +1,140 @@
+{
+  "nome_pt": "Sombra da Noite",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 77,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 2,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 4,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "poderes": [
+      "d arksight: Sentidos 2 (Visão no Escuro); Característica 1 (can see through her o wn shadow effects) (3 PP)",
+      "f ligh t: Voo 1 (6 km/h) (2 PP)",
+      "Shadow f orm: Intangibilidade 2 (two-Dimensional shadow), Ativação (Ação de Movimento) (9 PP)",
+      "Umbrakinesis: mágico Arranjo (36 pontos)",
+      "• Shadow Warp: Teleporte 7, Preciso, Easy, Extended (120 milhas), Portal, Limitado a Extended (36 PP)",
+      "• Black t endrils: Dano 14 (solid shadow), Penetrante 5, Reach 5, Dividido 2, Não Confiável, Efeito Colateral (Become Uncontrolled), Affects Only Objects (4 graduações only, -4 pontos) (1 PP)",
+      "• d imensional P ortal: Movimento 2 (Dimensional Travel 2, Mystical Dimensions), Affects Others, Reach 2 (10 feet); Característica (Access to The Oblivion Bar and the Land of Nightshades) (1 PP)",
+      "• Shadow Bolts: À Distância Área de Explosão Dano 10 (1 PP)",
+      "• Shadow Constructs: Criar Objetos 10 (solid shadows), Impenetrável, Movable, Stationary, Concentração, Distrativo (1 PP)",
+      "• Shadow f À Distância área Burst 4 (250 feet) ields: Camuflagem Attack 4 (All Visual Sentidos; resistido por Esquiva), Seletivo (1 PP)",
+      "• Shadow Homunculi: Summon 10 (animated shadows, 150 pontos), Active, Multiple Minions 2 (4 minions), Concentração, Distrativo (1 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Avaliação",
+      "Contatos",
+      "Ataque Corpo-a-Corpo 2",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 4",
+      "Defesa Aprimorada",
+      "Iniciativa Aprimorada",
+      "Derrubar Aprimorado",
+      "Ação em Movimento",
+      "Ataque Poderoso",
+      "Luta Caída"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: Espionage",
+        "graduacoes": 5,
+        "total": 6
+      },
+      {
+        "nome": "Especialidade: Mystic Dimensions",
+        "graduacoes": 7,
+        "total": 8
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 6,
+        "total": 7
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Combate à Distância: Umbrakinesis",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 10,
+        "total": 13
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 4,
+        "total": 5
+      }
+    ],
+    "iniciativa": 7,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 1"
+      },
+      {
+        "nome": "Shadow Tendril",
+        "bonus": 6,
+        "alcance": "Corpo a corpo",
+        "dano": "Reach 5 (25 feet), Dano 10 (14 against objects) Shadow Bolts — À Distância, Área de Explosão, Dano 10 Shadow Fields — À Distância, Burst 4 (250 feet), Camuflagem"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Fortitude": 8,
+      "Aparar": 10,
+      "Resistência": 6,
+      "Vontade": 10
+    },
+    "observacao_defesas": "* Vontade 10 *sem Rolamento Defensivo Po er ponto W S Abilities 36 Skills 37",
+    "custos": {},
+    "total": null,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

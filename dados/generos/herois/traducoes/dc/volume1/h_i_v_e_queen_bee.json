@@ -1,0 +1,74 @@
+{
+  "nome_pt": "H.I.V.E. Queen Bee",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 262,
+  "ficha": {
+    "habilidades": {
+      "For": 13,
+      "Vig": "—",
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 7,
+      "Int": "—",
+      "Pro": 0,
+      "Pre": "—"
+    },
+    "poderes": [
+      "Giant Robot Crescimento 8 (Permanente, Inato); Construct Imunidade 40 (Fortitude Effects, mental Effects); Armored Shell Proteção 7, Impenetrável 5, Big Sting À Distância Área de Explosão Dano 10, Sensors Sentidos 5 (Visão no Escuro, Infravison, Raio (All Visual))"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Agarrar Rápido",
+      "Mira Aprimorada",
+      "Agarrar Aprimorado",
+      "Imobilizar Aprimorado",
+      "Quebrar Aprimorado"
+    ],
+    "pericias": [
+      {
+        "nome": "Intimidação",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 6
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 7,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 13"
+      },
+      {
+        "nome": "Big Sting",
+        "bonus": 8,
+        "alcance": "",
+        "dano": "Dano à Distância 6, Área de Explosão"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 0,
+      "Aparar": 5,
+      "Resistência": 15
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 2,
+      "Poderes": 112,
+      "Vantagens": 6,
+      "Perícias": 5,
+      "Defesas": 4
+    },
+    "total": 129,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "nome_pt": "Rainha Abelha",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 117,
+  "ficha": {
+    "habilidades": {
+      "For": 10,
+      "Vig": 8,
+      "Agi": 8,
+      "Des": 7,
+      "Lut": 5,
+      "Int": 6,
+      "Pro": 7,
+      "Pre": 8
+    },
+    "poderes": [
+      "f Voo 6 (192 km/h) (12 PP)",
+      "ligh t: Heightened r eflexes: Improved Iniciativa 6, Rapidez 6 (12 PP)",
+      "Mind-Confusing Pollen: Cumulativo Aflição 13 (resistido por Vontade; Tonto, Compelido, Controlado) (26 PP)",
+      "Stinger d arts: Cumulativo Aflição à Distância 8 (resistido por Fortitude; Tonto, Disabled, Incapacitado) (24 PP)",
+      "d a e S a V ant G Attractive, Benefit 10 (Queen of Korll), Corpo a Corpo Attack 6, Defensive Roll 2, Improved Iniciativa 6, Leadership, Minions 6 (2 drone swarms), Move-by Action, Taunt"
+    ],
+    "equipamento": [],
+    "vantagens": [],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 6,
+        "total": 16
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 10,
+        "total": 18
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 8,
+        "total": 15
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 8,
+        "total": 16
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 13
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 8,
+        "total": 16
+      },
+      {
+        "nome": "Combate à Distância: Stinger Darts",
+        "graduacoes": 6,
+        "total": 13
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 6,
+        "total": 12
+      }
+    ],
+    "iniciativa": 32,
+    "ataques": [
+      {
+        "nome": "Stinger Darts",
+        "bonus": 13,
+        "alcance": "À distância",
+        "dano": "Aflição 8 (Veneno)"
+      },
+      {
+        "nome": "Mind-Confusing Pollen",
+        "bonus": 11,
+        "alcance": "Corpo a corpo",
+        "dano": "Cumulativo Aflição 13, resistido por Vontade Desarmado +11 Corpo a Corpo, Dano 10"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 14,
+      "Fortitude": 10,
+      "Aparar": 12,
+      "Resistência": 10,
+      "Vontade": 12
+    },
+    "observacao_defesas": "* Vontade 12 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 118,
+      "Perícias": 29,
+      "Poderes": 74,
+      "Defesas": 20,
+      "Vantagens": 28
+    },
+    "total": 269,
+    "complicacoes": [
+      {
+        "titulo": "Partial Color Blindness",
+        "texto": "Queen Bee and her drones cannot see the color red."
+      },
+      {
+        "titulo": "Queen Bee is power-mad and constantly strives to o bsession",
+        "texto": "expand her empire."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "nome_pt": "Lobo Cinzento",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 234,
+  "ficha": {
+    "habilidades": {
+      "For": 12,
+      "Vig": 10,
+      "Agi": 10,
+      "Des": 8,
+      "Lut": 12,
+      "Int": 2,
+      "Pro": 8,
+      "Pre": 4
+    },
+    "poderes": [
+      "as the result of one of his father’s experiments. On his father’s death, Brin was misled into believing that he was an android. Taking the name Lone Wolf, Brin performed a number of he - roic deeds and was approached by the Legion for member - ship, but he declined. Aided by Light Lass (Ayla Ranzz), Brin was cured of his delusional belief, and after a period of recov- ery he entered the Legion Academy as one of its first trainees. After a successful mission infiltrating the Legion of Super-Vil- lians, Brin adopted the name Timber Wolf and was inducted as a full member of the Legion of Super-Heroes."
+    ],
+    "equipamento": [
+      "f ligh t r ing: Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal –3); Voo 7 (400 km/h); (19 PP)",
+      "t elepa thic e ar Plug: Compreender 3 (Languages), mental Comunicação 1 (Corpo a Corpo Range) (10 PP)",
+      "t r anssuit: Imunidade 9 (Suporte Vital, except for Inanição and thirst) (9 PP)"
+    ],
+    "vantagens": [
+      "Ataque Preciso",
+      "Finta Ágil",
+      "Benefit 1 (Legion Membership)",
+      "Rolamento Defensivo 2",
+      "Equipamento 8",
+      "Evasion",
+      "Destemido",
+      "Crítico Aprimorado (Claws)",
+      "Iniciativa Aprimorada 2",
+      "Levantar Rápido",
+      "Ataque Poderoso",
+      "Precise Attack (Close",
+      "Cover)",
+      "Assustar",
+      "Derrubar em Sequência",
+      "Esquiva Fabulosa"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 8,
+        "total": 18
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 6,
+        "total": 18
+      },
+      {
+        "nome": "Especialidade (Jungles)",
+        "graduacoes": 9,
+        "total": 14
+      },
+      {
+        "nome": "Especialidade (Zoon)",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 10,
+        "total": 14
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 12
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 16
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 10,
+        "total": 20
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 2,
+        "total": 10
+      }
+    ],
+    "iniciativa": 18,
+    "ataques": [
+      {
+        "nome": "Claws",
+        "bonus": 12,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 12, Penetrante 6"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 12,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 12"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Fortitude": 14,
+      "Aparar": 12,
+      "Resistência": 12,
+      "Vontade": 10
+    },
+    "observacao_defesas": "* Vontade 10 *sem Rolamento Defensivo",
+    "custos": {
+      "Habilidades": 132,
+      "Perícias": 31,
+      "Poderes": 26,
+      "Defesas": 8,
+      "Vantagens": 22
+    },
+    "total": 219,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

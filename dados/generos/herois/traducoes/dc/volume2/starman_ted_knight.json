@@ -1,0 +1,113 @@
+{
+  "nome_pt": "Starman (Ted Knight)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 195,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 3,
+      "Agi": 2,
+      "Des": 3,
+      "Lut": 3,
+      "Int": 7,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "poderes": [
+      "Cosmic r od: Removível (–13 pontos) (54 PP)",
+      "e nergy Escudo: Sustentado Proteção 10, Affect Others (20 PP)",
+      "S hooting Star: Voo 7 (400 km/h) (14 PP)",
+      "S tellar e nergy Control: Arranjo (28 pontos)",
+      "• Stellar Raio: Dano à Distância 14, Dynamic (29 PP)",
+      "• Gravity Manipulation: Mover Objetos 14 (400 tons), Dynamic (2 PP)",
+      "• Starlight: Environment 4 (Bright Light, 250 feet), Dynamic (2 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Preciso",
+      "Benefit 2 (Independently Wealthy)",
+      "Esforço Extraordinário",
+      "Defesa Aprimorada",
+      "Inspirar 2",
+      "Inventor",
+      "Liderança",
+      "Ação em Movimento",
+      "Ataque Poderoso",
+      "Precise Attack (Ranged",
+      "Cover)",
+      "Bem-Informado"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 3,
+        "total": 5
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Especialidade: Physics",
+        "graduacoes": 10,
+        "total": 17
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 7,
+        "total": 9
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Combate à Distância: Gravity Rod",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 10,
+        "total": 17
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [],
+    "defesas": {
+      "Esquiva": 10,
+      "Fortitude": 8,
+      "Aparar": 10,
+      "Resistência": 13,
+      "Vontade": 11
+    },
+    "observacao_defesas": "* Vontade 11 *Without Energy Escudo.",
+    "custos": {
+      "Habilidades": 48,
+      "Perícias": 29,
+      "Poderes": 54,
+      "Defesas": 29
+    },
+    "total": 173,
+    "complicacoes": [
+      {
+        "titulo": "Guiding Star",
+        "texto": "Ted Knight’s strong moral compass allows him to lead by example—not just the citizens of Opal City, but his fellow heroes and those who follow him as Starman."
+      },
+      {
+        "titulo": "Guilt",
+        "texto": "The guilt Ted Knight felt over his part in inventing the atomic bomb led to him spending part of the 1950s in a sanitarium. Ever since, the possible repercussions of his inventions and actions weigh heavily on him, sometimes leading him to do nothing at all. aLLI e S Starman’s greatest allies have always been his friends in the Justice Society and the All-Star Squadron, but he was par - ticularly Corpo a Corpo to his cousin, the first Phantom Lady, and Black Canary, with whom he had a brief affair. Years later he worked closely with his sons when they carried on the legacy of Star- man, as well as other heroes who protected Opal City."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

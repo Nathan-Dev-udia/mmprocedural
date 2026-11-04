@@ -1,0 +1,50 @@
+{
+  "nome_pt": "Androide Típico de Morrow",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 220,
+  "ficha": {
+    "habilidades": {
+      "For": 9,
+      "Vig": "—",
+      "Agi": 4,
+      "Des": 4,
+      "Lut": 4,
+      "Int": "—",
+      "Pro": 0,
+      "Pre": "—"
+    },
+    "poderes": [
+      "a rmor (Proteção 10), f utur energy Gun (Arranjo (51 pontos), Facilmente Removível (–16 pontos): d ain f energy r utur (À Distância Transform 9 (Sentient beings into a near-death state), Preciso 3, Contínuo, Reversível), ae : Paralyzing Bubbles (Aflição à Distância 9 (resistido por Fortitude; Tonto, Impedido and Impaired, Indefeso, Imóvel and Atordoado), Preciso 3, Extra Condition 2, Multiataque, Reversível, Limitado Degree), ae : omic-Cloud y (À Distância Transform 9 (Matter into vapor), a t r a Preciso 3, Reversível)); i y 30 (Fortitude Effects) mmunit antages: Improved Aim a dv"
+    ],
+    "equipamento": [],
+    "vantagens": [],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 7,
+        "total": 11
+      },
+      {
+        "nome": "Combate à Distância: Energy Weapons",
+        "graduacoes": 3,
+        "total": 7
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [],
+    "defesas": {
+      "Esquiva": 12,
+      "Aparar": 12,
+      "Resistência": 10
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Defesas": 16
+    },
+    "total": 105,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

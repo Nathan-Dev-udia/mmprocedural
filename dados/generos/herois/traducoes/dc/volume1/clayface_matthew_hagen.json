@@ -1,0 +1,102 @@
+{
+  "nome_pt": "Clayface (Matthew Hagen)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 119,
+  "ficha": {
+    "habilidades": {
+      "For": 8,
+      "Vig": 8,
+      "Agi": 4,
+      "Des": 2,
+      "Lut": 0,
+      "Int": 3,
+      "Pro": 2,
+      "Pre": 3
+    },
+    "poderes": [
+      "Clay Body: Arranjo (13 pontos) (13 PP)",
+      "• Hard Clay Form: Força-based Damge 4; Luta Aprimorada -4; Força Aprimorada 3; Proteção 7; Resistência Impenetrável 4 (13 PP)",
+      "• Flowing Clay Form: Alongamento 1 (15 feet); Intangibilidade 1 (Liquid); Força-based Dano 3; Movimento 1 (Slithering (1 PP)",
+      "Inhuman: Imunidade 8 (Critical Hits, Doença, Calor, Veneno, Radiação, Sufocamento) (8 PP)",
+      "Reassembly: Cura 5, Limitado a Self; Regeneração 1, Persistent (7 PP)",
+      "Shapechange: Característica 1 (Voice Mimetismo); Metamorfose 4 (Anything), Peculiaridade: Using Clay Body power ends Shapechange (-1 ponto) (20 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Preciso",
+      "Ataque Imprudente",
+      "Estrangular",
+      "Agarrar Rápido",
+      "Ambiente Favorito (Muddy Conditions)",
+      "Agarrar Aprimorado",
+      "Imobilizar Aprimorado",
+      "Ataque Poderoso"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 4,
+        "total": 12
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 9,
+        "total": 13
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Especialidade: Geography",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: History",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 4,
+        "total": 8
+      }
+    ],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 13,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 8, Alongamento 15 feet* Desarmado +9 Corpo a Corpo, Dano 12"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 6,
+      "Fortitude": 15,
+      "Aparar": 6,
+      "Resistência": 15,
+      "Vontade": 5
+    },
+    "observacao_defesas": "* Vontade 5 *In Flowing Clay Form.",
+    "custos": {
+      "Habilidades": 60,
+      "Perícias": 8,
+      "Poderes": 49,
+      "Defesas": 17,
+      "Vantagens": 8
+    },
+    "total": 152,
+    "complicacoes": [
+      {
+        "titulo": "Perda de Poder",
+        "texto": "Hagen must bathe in a radioactive pool once every 48 hours or he loses his Powers. ALLIES Clayface’s associates include the Joker, Brainiac, Killer Moth, Two-Face, and Gentleman Ghost. ENEMIES Batman, Robin, Batgirl, and Superman have all fought and defeated Hagen."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

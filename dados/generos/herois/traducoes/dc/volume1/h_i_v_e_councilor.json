@@ -1,0 +1,116 @@
+{
+  "nome_pt": "H.I.V.E. Councilor",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 261,
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 1,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 2,
+      "Int": 5,
+      "Pro": 4,
+      "Pre": 3
+    },
+    "poderes": [
+      "H.I.V.E. Prototypes (Arranjo (18 pontos), Removível (-4 pontos), Teleporter (Teleporte 18, 1,000 mile range; Limitado a teleporting to nearest H.I.V.E. base), AE: Computer-Targeted Laser (Dano à Distância 5, Preciso 2, Penetrante 5), AE: Vitality Siphon (À Distância Enfraquecer 6, resistido por Fortitude, Broad (Abilities)); H.I.V.E. Armor (Proteção 6, Sutil, Removível)"
+    ],
+    "equipamento": [
+      "H.I.V.E. Communicator"
+    ],
+    "vantagens": [
+      "Avaliação",
+      "Benefit 2 (Cipher 2)",
+      "Conectado",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 2",
+      "Equipamento",
+      "Evasion",
+      "Inventor",
+      "Languages 2",
+      "Liderança",
+      "Saque Rápido"
+    ],
+    "pericias": [
+      {
+        "nome": "Especialidade: Prototypes",
+        "graduacoes": 7,
+        "total": 9
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Especialidade: Various",
+        "graduacoes": 10,
+        "total": 15
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 9,
+        "total": 12
+      },
+      {
+        "nome": "Especialidade: Prototypes",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 9,
+        "total": 14
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Vitality Siphon",
+        "bonus": 9,
+        "alcance": "",
+        "dano": "À Distância Enfraquecer 6"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Fortitude": 6,
+      "Aparar": 8,
+      "Resistência": 8,
+      "Vontade": 10
+    },
+    "observacao_defesas": "*, Vontade 10 *Without H.I.V.E. Armor.",
+    "custos": {
+      "Habilidades": 38,
+      "Poderes": 22,
+      "Vantagens": 14,
+      "Perícias": 29,
+      "Defesas": 17
+    },
+    "total": 120,
+    "complicacoes": [
+      {
+        "titulo": "Motivação",
+        "texto": "Power and scientific domination."
+      },
+      {
+        "titulo": "Segredo",
+        "texto": "Identity unknown."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

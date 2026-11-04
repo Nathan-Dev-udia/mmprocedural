@@ -1,0 +1,78 @@
+{
+  "nome_pt": "Blue Lantern Brother/Sister",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 76,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 2,
+      "Agi": 1,
+      "Des": 2,
+      "Lut": 3,
+      "Int": 1,
+      "Pro": 6,
+      "Pre": 6
+    },
+    "poderes": [
+      ": Power Ring* ( Característica: The Power of Hope (see sidebar); Force Manipulation: 40-ponto Arranjo; AE: Revitalize: Cura 20; AE: Hope Burns Bright: Nulificar 20 (Orange, Red, or Yellow power ring effects); Limitado a when a Green Lantern is within Alcance de Percepção) * Functions as a Green Lantern power ring except as noted here."
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Defensivo",
+      "Destemido",
+      "Inspirar",
+      "Ação em Movimento"
+    ],
+    "pericias": [
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 10
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 10
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 4,
+        "total": 10
+      },
+      {
+        "nome": "Combate à Distância: Power Ring",
+        "graduacoes": 10,
+        "total": 12
+      }
+    ],
+    "iniciativa": 1,
+    "ataques": [
+      {
+        "nome": "Force Raio",
+        "bonus": 12,
+        "alcance": "",
+        "dano": "(Dano à Distância 14)"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 6,
+      "Aparar": 6,
+      "Fortitude": 6,
+      "Resistência": 14,
+      "Vontade": 14
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 44,
+      "Poderes": 94,
+      "Vantagens": 4,
+      "Perícias": 11,
+      "Defesas": 20
+    },
+    "total": 173,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

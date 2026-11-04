@@ -1,0 +1,94 @@
+{
+  "nome_pt": "Quemo",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 113,
+  "ficha": {
+    "habilidades": {
+      "For": 18,
+      "Vig": 12,
+      "Agi": 0,
+      "Des": -1,
+      "Lut": 4,
+      "Int": -3,
+      "Pro": 0,
+      "Pre": 0
+    },
+    "poderes": [
+      "Armored Shell: Proteção 8, Resistência Impenetrável 10 (18 PP)",
+      "Chemical Absorption: Energy Absorption 8 (Chemical Attacks, Adds to Crescimento) (8 PP)",
+      "Construct: Imunidade 30 (Fortitude Effects) (30 PP)",
+      "Giant-Sized: Crescimento 8, Permanente, Inato (17 PP)",
+      "Living Chemical Dump: Imunidade 2 (Chemical Effects) (2 PP)",
+      "Rampaging Monster: Imunidade 10 (Control Effects, Interaction Skills), Limitado a Half Effect (5 PP)",
+      "Self-Repairing: Regeneração 10, Source: Chemicals (5 PP)",
+      "Toxic Chemicals: Arranjo (51 pontos)",
+      "• Toxic Cloud: Área de Nuvem Aflição 10 (Tonto, Disabled, Incapacitado), Cumulativo, Linked to Área de Nuvem Dano 10, Incurable (51 PP)",
+      "• Caustic Spray: Dano à Distância 10, Incurable, Linked to Enfraquecer Resistência 10, Affects Objects, À Distância (1 PP)",
+      "• Toxic Raio: Dano à Distância 18, Incurable (1 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Duro de Matar",
+      "Destemido",
+      "Ataque Poderoso",
+      "Esforço Supremo (Resistência)"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 8,
+        "total": 8
+      },
+      {
+        "nome": "Combate à Distância: Toxic Powers",
+        "graduacoes": 8,
+        "total": 8
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 18 Caustic Spray — Range, Área de Nuvem Dano 10 Linked to Área de Nuvem Enfraquecer 10"
+      },
+      {
+        "nome": "Toxic Raio",
+        "bonus": 8,
+        "alcance": "",
+        "dano": "Range, Dano 18"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 4,
+      "Aparar": 4,
+      "Resistência": 20,
+      "Vontade": 8
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 28,
+      "Perícias": 10,
+      "Poderes": 130,
+      "Defesas": 20,
+      "Vantagens": 5
+    },
+    "total": 193,
+    "complicacoes": [
+      {
+        "titulo": "Tool of Destruction",
+        "texto": "Chemo is often used by other villains, particularly for causing mass devastation. ALLIES Chemo does not have allies, per se. However, he has been used as a pawn by various villains, such as the Joker or Gorilla Grodd. He was also used by Amanda Waller on one occa - sion. ENEMIES Chemo has fought the Metal Men and Superman many times. Chemo is also responsible for the deaths of the first"
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

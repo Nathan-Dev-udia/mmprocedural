@@ -1,0 +1,127 @@
+{
+  "nome_pt": "Duplicate Damsel",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 183,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 1,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 4,
+      "Int": 2,
+      "Pro": 3,
+      "Pre": 2
+    },
+    "poderes": [
+      "Duplication: Summon Duplicates 7 (105 pontos), Horde, Multiple Minions 5 (32 minions) (91 PP)"
+    ],
+    "equipamento": [
+      "Voo Ring: Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal (–3)), Voo 7 (400 km/h), Removível (–3 pontos) (16 PP)",
+      "Telepathic Plug: Compreender 3 (Languages), mental Comunicação 1 (Corpo a Corpo Range), Removível (–1 ponto) (7 PP)",
+      "Transsuit: Imunidade 9 (Suporte Vital, except for Inanição and thirst), Removível (–2 pontos) (7 PP)"
+    ],
+    "vantagens": [
+      "Benefit 1 (Legion membership)",
+      "Rolamento Defensivo 2",
+      "Equipamento 6",
+      "Iniciativa Aprimorada",
+      "Trabalho em Equipe"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 5,
+        "total": 7
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 3,
+        "total": 5
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 3,
+        "total": 6
+      }
+    ],
+    "iniciativa": 7,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 12,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 11,
+      "Fortitude": 7,
+      "Aparar": 11,
+      "Resistência": 3,
+      "Vontade": 7
+    },
+    "observacao_defesas": "* Vontade 7 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 40,
+      "Perícias": 29,
+      "Poderes": 91,
+      "Defesas": 25,
+      "Vantagens": 11
+    },
+    "total": 196,
+    "complicacoes": [
+      {
+        "titulo": "Relacionamento",
+        "texto": "Married to Chuck Taine (Bouncing Boy)."
+      },
+      {
+        "titulo": "Trauma",
+        "texto": "Duplicate Damsel still carries the memory of the death of one of her duplicates at the hands of Computo. It haunts her in ways others can never understand. ALLIES Duplicate Damsel can count on her fellow Legionnaires and her students from the Legion Academy, but most of all on her husband, Chuck Taine (Bouncing Boy). Of course, she is also her own greatest ally, able to outnumber most foes all by herselves!"
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

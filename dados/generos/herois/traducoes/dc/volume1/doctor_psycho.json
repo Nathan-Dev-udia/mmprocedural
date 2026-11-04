@@ -1,0 +1,114 @@
+{
+  "nome_pt": "Doutor Psíquico",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 171,
+  "ficha": {
+    "habilidades": {
+      "For": -1,
+      "Vig": 0,
+      "Agi": 1,
+      "Des": 4,
+      "Lut": 1,
+      "Int": 9,
+      "Pro": 8,
+      "Pre": 4
+    },
+    "poderes": [
+      "Dream Manipulation: Ilusão 12 (All Sentidos), Independent, Resistível, Limitado a One Subject, Limitado a Sleeping Targets, Sutil 2; Sentidos 16 (find dreaming subject; mental Prontidão, Preciso, Aguçado, Extended 10, Raio, À Distância), Limitado a One Subject at a Time, Limitado a Sleeping Targets (42 PP)",
+      "Dwarfism: Encolhimento 4, Permanente, Inato (9 PP)",
+      "Ectoplasmic Disguise: Metamorfose 3 (Humanoids), Removível (machine or victim used to channel ectoplasm, -1 pontos), Ativação (Ação Padrão), Exige Teste (Deception, CD 15) Linked to Proteção 6 (11 PP)",
+      "Hypnosis: Aflição 12 (resistido por Vontade; Entranced, Compelido, Controlado), Concentração, Cumulativo, Reach 2 (38 PP)",
+      "Mind Invasion: Leitura mental 12, Concentração, Distrativo, Cumulativo, Effortless, Sutil (25 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Fascinar (Enganação)",
+      "Ambiente Favorito (Dreams)",
+      "Inventor"
+    ],
+    "pericias": [
+      {
+        "nome": "Enganação",
+        "graduacoes": 10,
+        "total": 14
+      },
+      {
+        "nome": "Especialidade: Medicine",
+        "graduacoes": 8,
+        "total": 17
+      },
+      {
+        "nome": "Especialidade: Science",
+        "graduacoes": 8,
+        "total": 17
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 9,
+        "total": 17
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 10,
+        "total": 12
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 6,
+        "total": 15
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 14
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 8,
+        "total": 17
+      }
+    ],
+    "iniciativa": 1,
+    "ataques": [],
+    "defesas": {
+      "Esquiva": 6,
+      "Fortitude": 6,
+      "Aparar": 6,
+      "Resistência": 6,
+      "Vontade": 18
+    },
+    "observacao_defesas": "* Vontade 18 *Without Ectoplasmic Disguise.",
+    "custos": {
+      "Habilidades": 54,
+      "Perícias": 39,
+      "Poderes": 125,
+      "Defesas": 22,
+      "Vantagens": 3
+    },
+    "total": 243,
+    "complicacoes": [
+      {
+        "titulo": "Loucura",
+        "texto": "Doctor Psycho suffers from a pathological hatred of women, especially beautiful women. This misogynistic fury sometimes drives him to outbursts of rage and fits of hysteria."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

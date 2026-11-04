@@ -1,0 +1,134 @@
+{
+  "nome_pt": "Kobra",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 308,
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 3,
+      "Agi": 3,
+      "Des": 2,
+      "Lut": 8,
+      "Int": 6,
+      "Pro": 5,
+      "Pre": 7
+    },
+    "poderes": [
+      "Ceremonial Armor: Proteção 3, Removível (-1 ponto) (2 PP)",
+      "Serpent-fang Swordstaff: Força-based Dano 3, Penetrante 3, Reach, Facilmente Removível (-2 pontos) (5 PP)",
+      "Imortal: Imunidade 1 (Envelhecimento) (1 PP)"
+    ],
+    "equipamento": [
+      "and minions as needed for his plot."
+    ],
+    "vantagens": [
+      "Artífice",
+      "Conectado",
+      "Contatos",
+      "Tontear (Enganação)",
+      "Ataque Defensivo",
+      "Duro de Matar",
+      "Equipment*",
+      "Fascinar (Enganação)",
+      "Destemido",
+      "Esconder-se a Plena Vista",
+      "Iniciativa Aprimorada 2",
+      "Inspirar",
+      "Languages 4",
+      "Liderança",
+      "Ritualista",
+      "Tomar a Iniciativa",
+      "Assustar",
+      "Provocar",
+      "Ultimate Effort 2 (Deception",
+      "Stealth)",
+      "Well-informed *Kobra has extensive wealth and resources. He has as many points of"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Swordstaff",
+        "graduacoes": 6,
+        "total": 14
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 13,
+        "total": 20
+      },
+      {
+        "nome": "Especialidade: mágico",
+        "graduacoes": 8,
+        "total": 14
+      },
+      {
+        "nome": "Especialidade: Tactics",
+        "graduacoes": 10,
+        "total": 16
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 10,
+        "total": 15
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 7,
+        "total": 14
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 15
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 12,
+        "total": 19
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 12,
+        "total": 15
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 4,
+        "total": 10
+      }
+    ],
+    "iniciativa": 11,
+    "ataques": [
+      {
+        "nome": "Serpent-fang Swordstaff",
+        "bonus": 14,
+        "alcance": "",
+        "dano": "Dano 6, Penetrante 3, Reach 1"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 14,
+      "Fortitude": 9,
+      "Aparar": 14,
+      "Resistência": 6,
+      "Vontade": 11
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 74,
+      "Perícias": 49,
+      "Poderes": 8,
+      "Defesas": 29,
+      "Vantagens": 25
+    },
+    "total": null,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

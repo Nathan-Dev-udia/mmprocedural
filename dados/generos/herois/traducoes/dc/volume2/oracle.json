@@ -1,0 +1,138 @@
+{
+  "nome_pt": "Oráculo (Barbara Gordon)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 85,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 2,
+      "Agi": 0,
+      "Des": 2,
+      "Lut": 4,
+      "Int": 8,
+      "Pro": 8,
+      "Pre": 3
+    },
+    "poderes": [],
+    "equipamento": [
+      "e Força-based Dano 2 (2 PP)",
+      "scrima S ticks: Stun Gun: Aflição 5 (resistido por Fortitude; Tonto Atordoado, Incapacitado) (5 PP)",
+      "Headquarters: C L o C ktower • 17 POI n TS Size: Med t ou: 14 f ea tures: Combat Simulator, Communications, Computer, Concealed, Gym, Library, Living Space, Power System, Security System 4 (CD 35)"
+    ],
+    "vantagens": [
+      "Avaliação",
+      "Benefit 5 (Cipher 4",
+      "Security Clearance)",
+      "Ataque Corpo-a-Corpo 4",
+      "Conectado",
+      "Contatos",
+      "Rolamento Defensivo 3",
+      "Memória Eidética",
+      "Equipamento 6",
+      "Defesa Aprimorada",
+      "Desarmar Aprimorado",
+      "Pau pra Toda Obra",
+      "Languages 4",
+      "Luta Caída",
+      "Redirecionar",
+      "Preparar",
+      "Bem-Informado"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 9,
+        "total": 9
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Escrima Sticks",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 10,
+        "total": 13
+      },
+      {
+        "nome": "Especialidade: Computers",
+        "graduacoes": 12,
+        "total": 20
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 7,
+        "total": 15
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 12,
+        "total": 20
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 10,
+        "total": 18
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 13,
+        "total": 16
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 12,
+        "total": 20
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [
+      {
+        "nome": "Escrima Sticks",
+        "bonus": 16,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 3"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 14,
+        "alcance": "",
+        "dano": "Dano 1"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 6,
+      "Fortitude": 7,
+      "Aparar": 12,
+      "Resistência": 5,
+      "Vontade": 13
+    },
+    "observacao_defesas": "* Vontade 13 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 56,
+      "Perícias": 47,
+      "Poderes": 0,
+      "Defesas": 24,
+      "Vantagens": 32
+    },
+    "total": 159,
+    "complicacoes": [
+      {
+        "titulo": "from Behind the Scenes",
+        "texto": "Though she rarely takes an active role on the battlefield like she did when she was Batgirl, Oracle is determined to put an end to crime and evil wherever her extensive information network finds it and wherever she can reach it through her expansive network of agents."
+      },
+      {
+        "titulo": "Paralyzed",
+        "texto": "Though her technological and physical prowess (not to mention her Skills from her years as Batgirl) makes her fully capable of taking care of herself, Oracle is confined to a wheelchair. p er S ona LI ty Because Oracle is usually the smartest person in the room, and she’s always the best informed, she likes to be in control of a situation, or at least forming the strategy pursued by her allies."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "nome_pt": "Atrocitus",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 31,
+  "ficha": {
+    "habilidades": {
+      "For": 10,
+      "Vig": 6,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 6,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 4
+    },
+    "poderes": [
+      "Power Ring (87 PP)",
+      "AI and Database: Característica 2 (AI and Database), Sentidos 1 (Comunicação link to Central Power Battery) (3 PP)",
+      "Voo: Voo 14 (32,0 km/h), Movimento 4 (Environmental Adaption (Zero-G), Space Travel 3) (36 PP)",
+      "Campo de Força: Proteção 10, Impenetrável; Imunidade 10 (Suporte Vital) (30 PP)",
+      "Heartless: Característica (Heart or equivalent vital organs are no longer essential to survival), Regeneração 1 (2 PP)",
+      "Red Light of Rage: Arranjo (32 pontos)",
+      "• Burning Blood: Dano 10, Reach 2, Sustentado Duration (extinguished by a cessation of rage or the Blue Light of Hope) (32 PP)",
+      "• Fires of Rage: Dano à Distância 16 (1 PP)",
+      "• Lifting: Criar Objetos 16 (1 PP)",
+      "Power of Rage: Sentidos 3 (Aguçado Detect Rage); Característica 3 (Lanterns other than Blue lose ring power more quickly than normal defending against the Red Light) (6 PP)",
+      "Universal Translator: Compreender Languages 4 (8 PP)",
+      "Claws: Força-based Dano 3 (3 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Ataque Corpo-a-Corpo 3",
+      "Liderança",
+      "Ataque Poderoso",
+      "Ritualista"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 4,
+        "total": 14
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Burning Blood",
+        "graduacoes": 4,
+        "total": 10
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Claws",
+        "graduacoes": 2,
+        "total": 8
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 3,
+        "total": 5
+      },
+      {
+        "nome": "Especialidade: mágico",
+        "graduacoes": 7,
+        "total": 8
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Combate à Distância: Power Ring",
+        "graduacoes": 8,
+        "total": 10
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Burning Blood",
+        "bonus": 13,
+        "alcance": "Corpo a corpo",
+        "dano": "Sustentado Dano 10, Reach 2"
+      },
+      {
+        "nome": "Claws",
+        "bonus": 11,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 13"
+      },
+      {
+        "nome": "Power Ring",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Dano 16"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 9,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 10"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Fortitude": 16,
+      "Aparar": 10,
+      "Resistência": 16,
+      "Vontade": 10
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 66,
+      "Perícias": 12,
+      "Poderes": 75,
+      "Defesas": 30,
+      "Vantagens": 7
+    },
+    "total": 215,
+    "complicacoes": [
+      {
+        "titulo": "Perda de Poder",
+        "texto": "Atrocitus’ ring exhausts its power with time and use. It needs to be recharged using a Red Lantern battery."
+      },
+      {
+        "titulo": "Servant of Rage",
+        "texto": "Like all Red Lanterns, Atrocitus cannot remove his ring without risking death. Unlike his fellow Red Lanterns, Atrocitus seems immune to the ring’s tendency to inspire mindless rage in its bearer. The light of a Blue Lantern ring can help counteract these effects, not that Atrocitus seems to care."
+      },
+      {
+        "titulo": "Fraqueza",
+        "texto": "Red Lantern Corps power rings depend on the ability of the wielders to feel rage. The maximum graduação of the ring’s effects is equal to the user’s Fortitude graduação to reflect the being’s capacity for raw fury. Calming thoughts and hopeful feelings, such as those inspired by the Blue Lanterns, can cause the ring to fail."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

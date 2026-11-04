@@ -1,0 +1,176 @@
+{
+  "nome_pt": "Lady Vic",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 69,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 3,
+      "Agi": 5,
+      "Des": 4,
+      "Lut": 8,
+      "Int": 1,
+      "Pro": 3,
+      "Pre": 2
+    },
+    "poderes": [],
+    "equipamento": [
+      "Katana (Dano 3, Improved Critical 2), Matched Katars (Dano 2, Enhanced Aparar 1), Thuggee Strangling Cord (Chokehold, Improved Hold (Limitado a Chokehold)), Webley Revolver (Raio 2)"
+    ],
+    "vantagens": [
+      "Ataque Preciso",
+      "Finta Ágil",
+      "Ataque Imprudente",
+      "Avaliação",
+      "Benefit 1 (Status: British Aristocrat)",
+      "Equipamento 3",
+      "Ataque Corpo-a-Corpo 5",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 2",
+      "Evasion",
+      "Agarrar com Destreza",
+      "Defesa Aprimorada",
+      "Desarmar Aprimorado",
+      "Iniciativa Aprimorada",
+      "Derrubar Aprimorado",
+      "Minion 2 (Bivens)",
+      "Ação em Movimento",
+      "Saque Rápido",
+      "Provocar",
+      "Rastrear",
+      "Esquiva Fabulosa"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 10,
+        "total": 12
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Especialidade: Assassin",
+        "graduacoes": 11,
+        "total": 12
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 9,
+        "total": 12
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Combate à Distância: Guns",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 6,
+        "total": 11
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 6,
+        "total": 10
+      }
+    ],
+    "iniciativa": 9,
+    "ataques": [
+      {
+        "nome": "Katana",
+        "bonus": 13,
+        "alcance": "",
+        "dano": "Dano 5, Crit. 18-20"
+      },
+      {
+        "nome": "Katars",
+        "bonus": 13,
+        "alcance": "",
+        "dano": "Dano 4"
+      },
+      {
+        "nome": "Strangling Cord",
+        "bonus": 13,
+        "alcance": "",
+        "dano": "Chokehold"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 13,
+        "alcance": "",
+        "dano": "Dano 2"
+      },
+      {
+        "nome": "Webley Revolver",
+        "bonus": 13,
+        "alcance": "",
+        "dano": "Dano à Distância 2"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 13,
+      "Aparar": 12,
+      "Fortitude": 6,
+      "Resistência": 5,
+      "Vontade": 10
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 56,
+      "Vantagens": 29,
+      "Perícias": 48,
+      "Defesas": 22
+    },
+    "total": 155,
+    "complicacoes": [
+      {
+        "titulo": "Ganância",
+        "texto": "Lady Vic needs money to save her family estate."
+      },
+      {
+        "titulo": "Peculiaridade",
+        "texto": "Sense of superiority to those of lower station."
+      },
+      {
+        "titulo": "Rivalidade",
+        "texto": "Must prove herself the better of other martial artists."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

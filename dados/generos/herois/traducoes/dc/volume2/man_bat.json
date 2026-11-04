@@ -1,0 +1,108 @@
+{
+  "nome_pt": "Morcego-Humano",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 35,
+  "ficha": {
+    "habilidades": {
+      "For": 6,
+      "Vig": 6,
+      "Agi": 7,
+      "Des": 4,
+      "Lut": 10,
+      "Int": 4,
+      "Pro": 3,
+      "Pre": 1
+    },
+    "poderes": [
+      "Bat Wings: Voo 5 (96 km/h), Wings (5 PP)",
+      "Claws: Força-based Dano 1 (1 PP)",
+      "e cholo cation: Sentidos 3 (Preciso and Audição Estendida) (3 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Corpo-a-Corpo",
+      "Rolamento Defensivo 2",
+      "Ambiente Favorito (Nighttime)",
+      "Crítico Aprimorado (Claws)",
+      "Iniciativa Aprimorada",
+      "Ação em Movimento",
+      "Assustar"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 8,
+        "total": 15
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 8,
+        "total": 14
+      },
+      {
+        "nome": "Especialidade: Zoology",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 8,
+        "total": 9
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 10,
+        "total": 13
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 8,
+        "total": 15
+      }
+    ],
+    "iniciativa": 11,
+    "ataques": [
+      {
+        "nome": "Claws",
+        "bonus": 11,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 7, Crit. 19-20"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 11,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 6"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Fortitude": 10,
+      "Aparar": 10,
+      "Resistência": 8,
+      "Vontade": 8
+    },
+    "observacao_defesas": "* Vontade 8 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 82,
+      "Perícias": 25,
+      "Poderes": 9,
+      "Defesas": 12,
+      "Vantagens": 8
+    },
+    "total": 136,
+    "complicacoes": [
+      {
+        "titulo": "ormal i den tity",
+        "texto": "If the bat-gland serum wears off or is countered by an antidote, Man-Bat reverts to Kirk Langstrom, who has STR 0, STA 0, AGI 1, DEX 1, FGT 1, and none of Man-Bat’s Powers, Advantages or Skills except for Expertise."
+      },
+      {
+        "titulo": "Sensitivity to Light and Sound",
+        "texto": "Man-Bat’s heightened Sentidos are susceptible to loud noises and bright light. the less human and more brutal he becomes. Dr. Langstrom is not a typical villain; he loves his wife and child and it is only under the transformative power of the serum that he becomes the violent Man-Bat, often believing (erroneously) that his loved ones are dead and a real or imagined enemy must pay."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

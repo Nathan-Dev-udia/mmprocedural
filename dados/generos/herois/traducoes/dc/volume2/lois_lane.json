@@ -1,0 +1,111 @@
+{
+  "nome_pt": "Lois Lane",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 216,
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 1,
+      "Agi": 1,
+      "Des": 2,
+      "Lut": 2,
+      "Int": 2,
+      "Pro": 2,
+      "Pre": 3
+    },
+    "poderes": [],
+    "equipamento": [],
+    "vantagens": [
+      "Conectado",
+      "Contatos",
+      "Derrubar Aprimorado",
+      "Bem-Informado"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 3,
+        "total": 4
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 3,
+        "total": 5
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Especialidade: Journalism",
+        "graduacoes": 11,
+        "total": 13
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 2,
+        "total": 4
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 3,
+        "total": 5
+      }
+    ],
+    "iniciativa": 1,
+    "ataques": [
+      {
+        "nome": "Attack",
+        "bonus": 5,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 0"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 5,
+      "Aparar": 4,
+      "Fortitude": 3,
+      "Resistência": 1,
+      "Vontade": 3
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 26,
+      "Poderes": 0,
+      "Vantagens": 4,
+      "Perícias": 24,
+      "Defesas": 9
+    },
+    "total": 63,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

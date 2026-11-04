@@ -1,0 +1,142 @@
+{
+  "nome_pt": "Imperatriz",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 274,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 3,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 8,
+      "Int": 2,
+      "Pro": 3,
+      "Pre": 2
+    },
+    "poderes": [
+      "t he V oice (Hearing-Dependent Perception-Range Aflição 8 (resistido por Vontade; Tonto, Compelido, Controlado)); Voodoo (Teleporte 8 (1 mile), Distrativo)"
+    ],
+    "equipamento": [
+      "Body Armor (Proteção 2), Espada-Baton (Força-based Dano 2)"
+    ],
+    "vantagens": [
+      "Finta Ágil",
+      "Ataque Imprudente",
+      "Ataque Defensivo",
+      "Rolamento Defensivo",
+      "Equipamento",
+      "Evasion",
+      "Defesa Aprimorada",
+      "Desarmar Aprimorado",
+      "Iniciativa Aprimorada",
+      "Derrubar Aprimorado",
+      "Ação em Movimento",
+      "Ataque Poderoso",
+      "Ritualista",
+      "Tomar a Iniciativa",
+      "Derrubar em Sequência",
+      "Prender Arma"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 6,
+        "total": 7
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Espada- Baton",
+        "graduacoes": 5,
+        "total": 13
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: mágico",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 3,
+        "total": 5
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 4,
+        "total": 7
+      }
+    ],
+    "iniciativa": 7,
+    "ataques": [
+      {
+        "nome": "Espada-Baton",
+        "bonus": 13,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 3"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 11,
+      "Aparar": 12,
+      "Fortitude": 6,
+      "Resistência": 6,
+      "Vontade": 8
+    },
+    "observacao_defesas": "*, Vontade 8 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 50,
+      "Poderes": 24,
+      "Vantagens": 16,
+      "Perícias": 32,
+      "Defesas": 20
+    },
+    "total": null,
+    "complicacoes": [
+      {
+        "titulo": "f atters",
+        "texto": "Empress has to deal with amily M being the daughter of a government agent and granddaughter of a supervillain."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

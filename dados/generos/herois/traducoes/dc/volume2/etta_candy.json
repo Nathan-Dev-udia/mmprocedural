@@ -1,0 +1,114 @@
+{
+  "nome_pt": "Etta Candy",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 266,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 2,
+      "Agi": 0,
+      "Des": 2,
+      "Lut": 4,
+      "Int": 2,
+      "Pro": 1,
+      "Pre": 1
+    },
+    "poderes": [],
+    "equipamento": [],
+    "vantagens": [
+      "Benefício (military graduação)"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 5,
+        "total": 6
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 2,
+        "total": 6
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 3,
+        "total": 4
+      },
+      {
+        "nome": "Especialidade: Military",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 6,
+        "total": 7
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Combate à Distância: Guns",
+        "graduacoes": 6,
+        "total": 6
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 4,
+        "total": 4
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 2,
+        "total": 4
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 2,
+        "total": 4
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [
+      {
+        "nome": "Pistola",
+        "bonus": 6,
+        "alcance": "",
+        "dano": "Dano 3"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 6,
+        "alcance": "",
+        "dano": "Dano 1"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 6,
+      "Aparar": 6,
+      "Fortitude": 4,
+      "Resistência": 2,
+      "Vontade": 6
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 26,
+      "Poderes": 0,
+      "Vantagens": 1,
+      "Perícias": 22,
+      "Defesas": 15
+    },
+    "total": 64,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

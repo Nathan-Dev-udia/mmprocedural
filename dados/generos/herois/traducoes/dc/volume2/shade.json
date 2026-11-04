@@ -1,0 +1,118 @@
+{
+  "nome_pt": "Sombra",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 169,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 8,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 4,
+      "Int": 4,
+      "Pro": 4,
+      "Pre": 4
+    },
+    "poderes": [
+      "141 Defenses 24 Advantages 12 Total 261"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Preciso",
+      "Benefit 3 (Millionaire)",
+      "Ataque Defensivo",
+      "Duro de Matar",
+      "Destemido",
+      "Grande Vigor",
+      "Desarmar Aprimorado",
+      "Languages 3 (French",
+      "German",
+      "Italian",
+      "Latin)"
+    ],
+    "pericias": [
+      {
+        "nome": "Especialidade: Close Attack: Fencing",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Especialidade: Art",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Especialidade: Literature",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 7,
+        "total": 11
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Combate à Distância: Shadow Control",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 6,
+        "total": 9
+      }
+    ],
+    "iniciativa": 3,
+    "ataques": [
+      {
+        "nome": "Shadow Attacks",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Multiataque Dano 12, Indirect Desarmado+4 Corpo a Corpo, Dano 2"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 11,
+      "Fortitude": 10,
+      "Aparar": 10,
+      "Resistência": 8,
+      "Vontade": 12
+    },
+    "observacao_defesas": "",
+    "custos": {},
+    "total": null,
+    "complicacoes": [
+      {
+        "titulo": "motional a ttachmen t",
+        "texto": "Swift is very attached to Opal City and goes to great lengths to keep it safe."
+      },
+      {
+        "titulo": "Mental Control",
+        "texto": "From WWII until recently, the Shade was mystically merged with a second person, Simon Culp, who would exert great mental influence when the Shade tired or otherwise dropped his guard. He was not aware of Culp’s Presença or his actions. r eputation: The Shade fought on the wrong side of the law for a long time. Most heroes and law enforcement agents, particularly older ones, have a difficult time trusting him."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

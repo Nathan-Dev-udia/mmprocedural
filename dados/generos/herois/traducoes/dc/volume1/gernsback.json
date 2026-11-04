@@ -1,0 +1,44 @@
+{
+  "nome_pt": "Gernsback",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 12,
+  "ficha": {
+    "habilidades": {
+      "For": 9,
+      "Vig": "—",
+      "Agi": 0,
+      "Des": 0,
+      "Lut": 6,
+      "Int": "—",
+      "Pro": 2,
+      "Pre": "—"
+    },
+    "poderes": [
+      "Proteção 10 ; Imunidade 30 (Fortitude Effects, mental Effects); Sentidos 1 (Ultravisão)"
+    ],
+    "equipamento": [],
+    "vantagens": [],
+    "pericias": [],
+    "iniciativa": 0,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 6,
+        "alcance": "",
+        "dano": "(Dano 9)"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 0,
+      "Aparar": 6,
+      "Resistência": 10
+    },
+    "observacao_defesas": "",
+    "custos": {},
+    "total": null,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

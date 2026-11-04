@@ -1,0 +1,142 @@
+{
+  "nome_pt": "Guardian",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 241,
+  "ficha": {
+    "habilidades": {
+      "For": 4,
+      "Vig": 3,
+      "Agi": 5,
+      "Des": 4,
+      "Lut": 9,
+      "Int": 2,
+      "Pro": 3,
+      "Pre": 2
+    },
+    "poderes": [
+      "Athletic Prowess: Salto 1, Movimento 4 (Safe Fall, Sure- Footed 2, Swinging), Velocidade 3 (25 km/h) (12 PP)",
+      "Genetic Acceleration: Regeneração 5 (5 PP)",
+      "Golden Escudo: Impenetrável Proteção 6, Exige Teste (Acrobatics DC11), Removível (-2 pontos) (9 PP)"
+    ],
+    "equipamento": [
+      "HEADQUARTERS: PROJECT CADMUS (50 PP)",
+      "Awesome; Tou 18; Combat Simulator, Communications, Computer, Concealed 3 (CD 30),"
+    ],
+    "vantagens": [
+      "Finta Ágil",
+      "Ataque Imprudente",
+      "Equipamento 10",
+      "Evasion",
+      "Agarrar Rápido",
+      "Grande Vigor",
+      "Improved Critical 2 (Desarmado)",
+      "Defesa Aprimorada",
+      "Desarmar Aprimorado",
+      "Iniciativa Aprimorada",
+      "Derrubar Aprimorado",
+      "Arma Improvisada",
+      "Interpor-se",
+      "Liderança",
+      "Ação em Movimento",
+      "Ataque Poderoso",
+      "Luta Caída",
+      "Esquiva Fabulosa",
+      "Quebrar Arma"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 7,
+        "total": 12
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 5,
+        "total": 14
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 3,
+        "total": 5
+      },
+      {
+        "nome": "Combate à Distância: Guns",
+        "graduacoes": 5,
+        "total": 9
+      },
+      {
+        "nome": "Especialidade: Thrown Weapons",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 3,
+        "total": 8
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 4,
+        "total": 8
+      }
+    ],
+    "iniciativa": 9,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 14,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 4, Crit. 18-20"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 9,
+      "Fortitude": 9,
+      "Aparar": 9,
+      "Resistência": 9,
+      "Vontade": 9
+    },
+    "observacao_defesas": "*, Vontade 9 *Without Golden Escudo.",
+    "custos": {
+      "Habilidades": 64,
+      "Perícias": 25,
+      "Poderes": 26,
+      "Defesas": 16,
+      "Vantagens": 29
+    },
+    "total": 160,
+    "complicacoes": [
+      {
+        "titulo": "Cloned",
+        "texto": "Though the outside world believes that there has been only one Guardian for decades, occasional memory gaps and behavior quirks hint at the truth: whenever the Guardian falls in battle, Project Cadmus grows another clone of Jim Harper and instills him with the memories of his predecessor."
+      },
+      {
+        "titulo": "Newsboy Legion",
+        "texto": "Both at Project Cadmus and in the streets of Metropolis, the footsteps of the Guardian are often dogged by the Newsboy Legion, a group of street kids who became researchers at Cadmus when they got older—and cloned a new, young group of Newsboys to be their sons and tag along after the newly-cloned Guardian!"
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

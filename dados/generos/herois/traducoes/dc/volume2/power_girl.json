@@ -1,0 +1,135 @@
+{
+  "nome_pt": "Poderosa",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 111,
+  "ficha": {
+    "habilidades": {
+      "For": 17,
+      "Vig": 13,
+      "Agi": 3,
+      "Des": 2,
+      "Lut": 6,
+      "Int": 2,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "poderes": [
+      "f Arranjo (30 pontos) ligh t: • Voo 15 (64,0 km/h) (30 PP)",
+      "• Velocidade 15 (64,0 km/h) (1 PP)",
+      "• Movimento 1 (Space Travel 1) (1 PP)",
+      "Calor Vision: Dano à Distância 15 (Calor) (30 PP)",
+      "i n vulnerability: Proteção 4; Resistência Impenetrável 17; Imunidade 5 (Frio, Calor, Pressão, Radiação, Vácuo) (26 PP)",
+      "Super-Sentidos: Sentidos 15 (Aguçado and Audição Estendida, Visão Estendida 3, Infravisão, Visão Microscópica 4, Ultra- Hearing, Vision Penetrates Camuflagem (except lead)) (15 PP)",
+      "Super-Velocidade: Rapidez 8 (8 PP)",
+      "Super-Força: Força Aprimorada 4, Limitado a Lifting (Lifting Str 21; 50,000 tons) (4 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Atraente",
+      "Ataque Corpo-a-Corpo 3",
+      "Conectado",
+      "Fascinate 2 (Deception and Persuasion)",
+      "Interpor-se",
+      "Ataque Poderoso"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 2,
+        "total": 19
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Especialidade: Business",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Combate à Distância: Calor Vision",
+        "graduacoes": 7,
+        "total": 9
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 7,
+        "total": 9
+      }
+    ],
+    "iniciativa": 3,
+    "ataques": [
+      {
+        "nome": "Calor Vision",
+        "bonus": 9,
+        "alcance": "À distância",
+        "dano": "Dano 15"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 9,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 17"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 9,
+      "Fortitude": 16,
+      "Aparar": 9,
+      "Resistência": 17,
+      "Vontade": 10
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 94,
+      "Perícias": 24,
+      "Poderes": 115,
+      "Defesas": 20,
+      "Vantagens": 9
+    },
+    "total": 262,
+    "complicacoes": [
+      {
+        "titulo": "d emeaning Perception",
+        "texto": "Power Girl is not afraid to flaunt her f emale attributes, which sometimes causes unwanted distraction and allows others to make ill-informed judgments of her character."
+      },
+      {
+        "titulo": "Perda de Poder",
+        "texto": "Power Girl loses her Powers and her Str and Sta are reduced to 1 and 2 respectively under a red sun, like that of Krypton, and other effects that drain or interfere with the energies of the yellow sun can deprive her of her Powers."
+      },
+      {
+        "titulo": "Secret i den tity",
+        "texto": "Karen Starr Stranger in a Strange Land: Power Girl is the last survivor of her home planet and of her universe. She truly has no one else from either home, only counterparts of those with whom she was once connected. er: Power Girl is notorious for her temper. t emp Vulnerability: Power Girl is Vulnerável to mágico. Her Resistência is not Impenetrável against magical attacks."
+      },
+      {
+        "titulo": "Fraqueza",
+        "texto": "Kryptonite (see sidebar). As the survivor of an alternate Earth’s Krypton, standard (New Earth) kryptonite doesn’t affect Power Girl, only the remnants of her original universe’s kryptonite."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "nome_pt": "Miss Marte",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 52,
+  "ficha": {
+    "habilidades": {
+      "For": 14,
+      "Vig": 9,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 8,
+      "Int": 1,
+      "Pro": 1,
+      "Pre": 1
+    },
+    "poderes": [
+      "f Voo 13 (16,0 km/h) (26 PP)",
+      "ligh t: • Space f ligh t: Movimento 1 (Space Travel 1) (1 PP)",
+      "Martian d ur ability: Imunidade 10 (Suporte Vital); Impenetrável Proteção 3 (16 PP)",
+      "Martian Morphology: Arranjo (20-ponto), Dynamic • i n tangibility: Intangibilidade 4, Dynamic (21 PP)",
+      "• d ensity: Proteção 2, Resistência Impenetrável 14, Sustentado, Dynamic (2 PP)",
+      "• i n visibility: Visual Camuflagem 4, Dynamic (2 PP)",
+      "• Shapeshifting: Metamorfose 4 (Any Form), Dynamic (2 PP)",
+      "Martian Sentidos: Super-Sentidos 7 (Visão Estendida 2, mental Prontidão, Vision Penetrates Camuflagem) (7 PP)",
+      "Martian Força: Power-lifting 4 (Lifting Str 18; 6,000 tons) (4 PP)",
+      "Martian Vision: Dano à Distância 10 (force) (20 PP)",
+      "t elepa thy: mental Comunicação 4, Leitura mental 9 (34 PP)",
+      "a V ant G d a e S Corpo a Corpo Attack 2, Great Endurance, Power Attack"
+    ],
+    "equipamento": [],
+    "vantagens": [],
+    "pericias": [
+      {
+        "nome": "Enganação",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 8,
+        "total": 9
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 6,
+        "total": 7
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 9
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 5,
+        "total": 6
+      },
+      {
+        "nome": "Combate à Distância: Martian Vision",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 7,
+        "total": 9
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 4,
+        "total": 6
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Martian Vision",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Dano 10"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 14"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Fortitude": 12,
+      "Aparar": 10,
+      "Resistência": 14,
+      "Vontade": 12
+    },
+    "observacao_defesas": "* Vontade 12 *Without Density",
+    "custos": {
+      "Habilidades": 76,
+      "Perícias": 25,
+      "Poderes": 135,
+      "Defesas": 24,
+      "Vantagens": 4
+    },
+    "total": 264,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

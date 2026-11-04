@@ -1,0 +1,77 @@
+{
+  "nome_pt": "Tubarão",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 173,
+  "ficha": {
+    "habilidades": {
+      "For": 10,
+      "Vig": 6,
+      "Agi": 5,
+      "Des": 4,
+      "Lut": 7,
+      "Int": 6,
+      "Pro": 6,
+      "Pre": 1
+    },
+    "poderes": [
+      "a Imunidade 3 (Frio, High Pressão, Afogamento); qua tic: Movimento 1 (Environmental Adaptation: Aquatic); Proteção 8; Sentidos 2 (Visão na Penumbra, Aguçado Olfactory); Natação 10 (800 km/h) (25 PP)",
+      "Claws and t eeth: Força-based Dano 2 (2 PP)",
+      "d evour Minds: Alcance de Percepção Enfraquecer Prontidão 12 (resistido por Vontade) (36 PP)",
+      "i nstill f ear : Alcance de Percepção Aflição 12 (resistido por Vontade; Tonto, Compelido, Controlado), Limitado a Fear (24 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Ataque Corpo-a-Corpo 5",
+      "Evasion",
+      "Ambiente Favorito (Aquatic)",
+      "Improved Critical 2 (Claws and Teeth)",
+      "Ação em Movimento",
+      "Ataque Poderoso"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 6,
+        "total": 16
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 12,
+        "total": 13
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 10
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [],
+    "defesas": {
+      "Esquiva": 8,
+      "Fortitude": 12,
+      "Aparar": 10,
+      "Resistência": 14,
+      "Vontade": 12
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 90,
+      "Perícias": 11,
+      "Poderes": 87,
+      "Defesas": 18,
+      "Vantagens": 12
+    },
+    "total": 218,
+    "complicacoes": [
+      {
+        "titulo": "Unstable",
+        "texto": "Shark is an unstable genetic mutation. He is often Transformado back to an ordinary tiger shark, and each time he is re-mutated his mind and Powers change. man Força. His exposure to radioactive waste makes his genetic structure unstable; at times he has displayed vast mental Powers and the ability to instill fear in others and devour their minds. aLLI e S Shark was a member of the Weaponers of Qward and the Se- cret Society of Super-Villains."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

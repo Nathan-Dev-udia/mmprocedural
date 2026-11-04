@@ -1,0 +1,82 @@
+{
+  "nome_pt": "Eclusa de Vapor",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 204,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 2,
+      "Agi": 4,
+      "Des": 3,
+      "Lut": 5,
+      "Int": 8,
+      "Pro": 1,
+      "Pre": 0
+    },
+    "poderes": [
+      "Mist f orm (Voo 5 (96 km/h), Intangibilidade 2 (Gaseous; Preciso), Proteção 8 (Limitado a energy Dano))"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Defensivo",
+      "Ambiente Favorito (Aerial)",
+      "Inventor"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 5,
+        "total": 10
+      },
+      {
+        "nome": "Especialidade: Politics",
+        "graduacoes": 2,
+        "total": 10
+      },
+      {
+        "nome": "Especialidade: Science",
+        "graduacoes": 2,
+        "total": 10
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 5,
+        "total": 13
+      }
+    ],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 1"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 8,
+      "Fortitude": 6,
+      "Resistência": 10,
+      "Vontade": 6
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 48,
+      "Poderes": 25,
+      "Vantagens": 3,
+      "Perícias": 7,
+      "Defesas": 16
+    },
+    "total": 99,
+    "complicacoes": [
+      {
+        "titulo": "Mercurial",
+        "texto": "Natasha has changed her Powers and personality a number of times. She is capable of changing her mind about her life and her place in it with ease. This makes her hard to pin down and difficult to reason with despite her intelligence. Motivation— d oing Good: At heart, Natasha wants to help others and Vontade go to great lengths to do so. Henry was seriously beaten by Starlight and the new Infinity Inc. Despite her uncle’s repeated attempts to reconcile their relationship, Starlight kept her distance until she witnessed the death of her friend at the hands of the new Blockbuster. Turning to her uncle in hopes of understanding what had happened, John Henry helped her see Luthor’s villainous in- tentions, and she became a double agent. When Luthor dis- covered her duplicity, he attacked Starlight using super pow- ers of his own and deactivated her Powers. Natasha later discovered a hidden consequence of the Every- man Project. A residual Efeito Colateral of the genetic manipula- tion gave her an ability to assume a mistlike form, though her control of this transformation was weak at best. Taking the codename Vaporlock as suggested by her uncle, Natasha continued her career in a newly independent Infinity Inc."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

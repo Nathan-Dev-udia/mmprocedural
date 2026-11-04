@@ -1,0 +1,101 @@
+{
+  "nome_pt": "Aço (John Henry Irons)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 203,
+  "ficha": {
+    "habilidades": {
+      "For": 11,
+      "Vig": 3,
+      "Agi": 1,
+      "Des": 2,
+      "Lut": 7,
+      "Int": 10,
+      "Pro": 4,
+      "Pre": 3
+    },
+    "poderes": [
+      "100 Defenses 29"
+    ],
+    "equipamento": [
+      "H q : i ronworks • 15 POI n TS Size: Huge t ou: 14 f ea tures: Communications, Computer, fogo Prevention System, Holding Cells, Living Space, Power System, Security System, Workshop"
+    ],
+    "vantagens": [
+      "12 Total 227 Co MPL i C tion S a r esponsibility: Steel feels personally responsible for any of his in ventions",
+      "and Will do what it takes to stop them from being used inappropriately. Stepping i n: Steel first stepped up to the plate when Superman was killed by Doomsday",
+      "and continues to step up despite his personal health or well-being. Returning to active duty",
+      "Steel soon learned that Luthor was able to negate any power granted by the Everyman Project. He shared his discovery with the Teen Titans and they began inves- tigating the project",
+      "learning that the Everyman Powers were only temporary. By this time",
+      "Natasha had come to her uncle with her own suspicions. Working as a double agent",
+      "Natasha was captured by Luthor. Steel led the Titans on an open assault of LexCorp. Luther",
+      "who had gained Powers similar to Super- man by using the Everyman Project process",
+      "attacked John Henry but Natasha used an electromagnetic pulse from Steel’s Kinetic Hammer to negate Lex’s Powers and incarcerate him."
+    ],
+    "pericias": [
+      {
+        "nome": "Especialidade: Weapon Systems",
+        "graduacoes": 10,
+        "total": 20
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 3,
+        "total": 7
+      },
+      {
+        "nome": "Combate à Distância: Hammer",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 10,
+        "total": 20
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 3,
+        "total": 5
+      }
+    ],
+    "iniciativa": 1,
+    "ataques": [
+      {
+        "nome": "Kinetic Hammer",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 14"
+      },
+      {
+        "nome": "Kinetic Hammer",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Dano 14"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 11"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Fortitude": 12,
+      "Aparar": 10,
+      "Resistência": 14,
+      "Vontade": 12
+    },
+    "observacao_defesas": "* Vontade 12 *Against energy attacks. Po er ponto W S Abilities 66 Skills 20",
+    "custos": {},
+    "total": null,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

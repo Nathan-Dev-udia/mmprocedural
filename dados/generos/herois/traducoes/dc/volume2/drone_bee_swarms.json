@@ -1,0 +1,42 @@
+{
+  "nome_pt": "Enxame de Abelhas Robóticas",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 117,
+  "ficha": {
+    "habilidades": {
+      "For": "—",
+      "Vig": 0,
+      "Agi": 4,
+      "Des": -2,
+      "Lut": 0,
+      "Int": "—",
+      "Pro": 0,
+      "Pre": "—"
+    },
+    "poderes": [
+      "Área de Explosão Dano 6 (Stings); Voo 5 (96 km/h; Wings); Imunidade 30 (Fortitude Effects); Impenetrável Proteção 5; Intangibilidade 2 (Swarm; Permanente, Inato)"
+    ],
+    "equipamento": [],
+    "vantagens": [],
+    "pericias": [],
+    "iniciativa": 4,
+    "ataques": [],
+    "defesas": {
+      "Esquiva": 4,
+      "Aparar": 0,
+      "Resistência": 5
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Poderes": 73,
+      "Vantagens": 0,
+      "Perícias": 0,
+      "Defesas": 0
+    },
+    "total": 47,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

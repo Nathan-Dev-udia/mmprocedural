@@ -1,0 +1,107 @@
+{
+  "nome_pt": "Homem-Tatuado",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 221,
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 3,
+      "Agi": 1,
+      "Des": 2,
+      "Lut": 6,
+      "Int": 0,
+      "Pro": 1,
+      "Pre": 1
+    },
+    "poderes": [
+      "a nima ted t a ttoos: Summon 6 (Four 90-ponto minions), Active, Broad Type (His tattoos), Controlado, mental Link, Multiple Minions 2 (61 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Rolamento Defensivo 4",
+      "Esforço Extraordinário",
+      "Tomar a Iniciativa"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 3,
+        "total": 9
+      },
+      {
+        "nome": "Especialidade: Military",
+        "graduacoes": 8,
+        "total": 8
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Combate à Distância: Guns",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 2,
+        "total": 2
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 3,
+        "total": 5
+      }
+    ],
+    "iniciativa": 1,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 9,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 3"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Fortitude": 9,
+      "Aparar": 8,
+      "Resistência": 7,
+      "Vontade": 9
+    },
+    "observacao_defesas": "* Vontade 9 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 34,
+      "Perícias": 19,
+      "Poderes": 61,
+      "Defesas": 23,
+      "Vantagens": 6
+    },
+    "total": 143,
+    "complicacoes": [
+      {
+        "titulo": "e nemy",
+        "texto": "Mark has fought his brother Levon, who goes by “Sync” and has mind- control Powers. aw: Despite his best efforts to be a hero, Tattooed o utside the L Man ends up working outside the law against the authorities. r elationships: Tattooed Man has a family to care for; his wife Michelle, daughter Laurel, and sister-in-law Regina."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

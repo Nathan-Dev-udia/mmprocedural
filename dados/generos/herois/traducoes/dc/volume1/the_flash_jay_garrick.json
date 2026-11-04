@@ -1,0 +1,150 @@
+{
+  "nome_pt": "The Flash (Jay Garrick)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 205,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 2,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 5,
+      "Int": 4,
+      "Pro": 3,
+      "Pre": 2
+    },
+    "poderes": [
+      "Frictionless Aura: Imunidade 1 (Friction Calor) (1 PP)",
+      "Run On Water: Movimento 1 (Water Walking), Limitado a While Moving (1 PP)",
+      "Run Up Walls: Movimento 2 (Wall-crawling 2), Limitado a While Moving (2 PP)",
+      "Super-Velocidade: Enhanced Defenses 12 (Esquiva and Aparar), Enhanced"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "(Agile Feint",
+      "Ataque Corpo-a-Corpo 4",
+      "Rolamento Defensivo 5",
+      "Evasion 2",
+      "Iniciativa Aprimorada 10",
+      "Interpor-se",
+      "Levantar Rápido",
+      "Ação em Movimento",
+      "Tomar a Iniciativa",
+      "Takedown)",
+      "Quickness 20",
+      "Speed 20 (2",
+      "000",
+      "000 MPH) • 91 points Super-Speed Stunts: Array (20 pontos) • Air Control: Cone Area Move Object 10",
+      "Close Range • 20 points • Air Cushion: Burst Area Safe Fall",
+      "Affects Others • 1 point • Vacuum: Burst Area Cumulative Affliction 5 (Resisted by Fortitude; Dazed",
+      "Stunned",
+      "Incapacitated)",
+      "Concentration • 1 point • Vibration: Insubstantial 4 • 1 point • Whirlwind: Burst Area Move Object 10",
+      "Close Range • 1 point Vibrational Guise: Feature 1 (disguises facial features) • 1 point Advantages Agile Feint",
+      "Ataque Corpo-a-Corpo 4",
+      "Contatos",
+      "Rolamento Defensivo 5",
+      "Evasion 2",
+      "Iniciativa Aprimorada 10",
+      "Interpor-se",
+      "Levantar Rápido",
+      "Ação em Movimento",
+      "Tomar a Iniciativa",
+      "Derrubar em Sequência",
+      "Trabalho em Equipe"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 6,
+        "total": 7
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 2,
+        "total": 7
+      },
+      {
+        "nome": "Especialidade: Chemistry",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Combate à Distância: Throwing",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 4,
+        "total": 8
+      }
+    ],
+    "iniciativa": 43,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 11,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 1 Whirlwind Área de Explosão, Grapple, Esquiva CD 20"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 15,
+      "Fortitude": 9,
+      "Aparar": 17,
+      "Resistência": 7,
+      "Vontade": 10
+    },
+    "observacao_defesas": "* Vontade 10 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 46,
+      "Perícias": 24,
+      "Poderes": 120,
+      "Defesas": 14,
+      "Vantagens": 2
+    },
+    "total": 206,
+    "complicacoes": [
+      {
+        "titulo": "Age",
+        "texto": "Jay is starting to show his age a bit, and pushing himself too hard can result in injury or even heart troubles."
+      },
+      {
+        "titulo": "Inimigos",
+        "texto": "The trio of the Fiddler, the Thinker, and the Shade, and his opposite number Rival."
+      },
+      {
+        "titulo": "Relacionamentos",
+        "texto": "Jay is devoted to his wife Joan."
+      },
+      {
+        "titulo": "Fraqueza",
+        "texto": "Extra effort involving Velocidade threatens to draw the Flash into the Velocidade Force."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

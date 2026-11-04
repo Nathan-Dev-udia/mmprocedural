@@ -1,0 +1,113 @@
+{
+  "nome_pt": "Detetive Chimp",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 171,
+  "ficha": {
+    "habilidades": {
+      "For": 4,
+      "Vig": 3,
+      "Agi": 4,
+      "Des": 2,
+      "Lut": 5,
+      "Int": 5,
+      "Pro": 3,
+      "Pre": 1
+    },
+    "poderes": [
+      "d r ank f r om the f oun tain (Compreender 6 (Animals 2 (Speak To, Understand), Languages 5 (Read, Speak To, Understand, Understood)); Imunidade 2 (Age, Doença)); Chimpanzee (Extra Limbs 1 (prehensile feet; Inato), Encolhimento 4 (Inato, Permanente))"
+    ],
+    "equipamento": [
+      "Durable whiskey flask, smartphone, deerstalker hat"
+    ],
+    "vantagens": [
+      "Rolamento Defensivo 2",
+      "Equipamento",
+      "Pau pra Toda Obra",
+      "Skill Mastery 3 (Insight",
+      "Investigation",
+      "Perception)",
+      "Bem-Informado"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 10,
+        "total": 11
+      },
+      {
+        "nome": "Especialidade: mágico",
+        "graduacoes": 3,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: Current Events",
+        "graduacoes": 6,
+        "total": 11
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 10,
+        "total": 13
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 10,
+        "total": 15
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 9,
+        "total": 12
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 4,
+        "total": 5
+      }
+    ],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 5,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 4"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 8,
+      "Fortitude": 6,
+      "Resistência": 5,
+      "Vontade": 11
+    },
+    "observacao_defesas": "*, Aparar 8*, Fortitude 6, Resistência 5/3**, Vontade 11 *Includes Encolhimento modifiers. **sem Rolamento Defensivo. Abilities 56+ Powers 25 + Advantages 8 + Skills 32 +",
+    "custos": {
+      "Defesas": 14
+    },
+    "total": 135,
+    "complicacoes": [
+      {
+        "titulo": "Physical Limitation",
+        "texto": "Detective Chimp, like all chimpanzees, can’t swim."
+      },
+      {
+        "titulo": "Bad Habits",
+        "texto": "Bobo smokes and drinks, both to excess, and gets cranky when he goes too long without nicotine or alcohol."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

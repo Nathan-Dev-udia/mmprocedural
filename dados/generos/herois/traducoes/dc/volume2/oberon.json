@@ -1,0 +1,72 @@
+{
+  "nome_pt": "Oberon",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 58,
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 1,
+      "Agi": 0,
+      "Des": 1,
+      "Lut": 1,
+      "Int": 1,
+      "Pro": 0,
+      "Pre": 3
+    },
+    "poderes": [
+      "Encolhimento 4 (Permanente, Inato) (5 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 3,
+        "total": 4
+      },
+      {
+        "nome": "Especialidade: Management",
+        "graduacoes": 5,
+        "total": 6
+      },
+      {
+        "nome": "Especialidade: Performer",
+        "graduacoes": 6,
+        "total": 7
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 4
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 4
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 2,
+        "total": 6
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [],
+    "defesas": {
+      "Esquiva": 4,
+      "Aparar": 4,
+      "Fortitude": 2,
+      "Resistência": 1,
+      "Vontade": 2
+    },
+    "observacao_defesas": "*, Aparar 4*, Fortitude 2, Resistência 1, Vontade 2 d *Includes Encolhimento modifiers.",
+    "custos": {
+      "Defesas": 6
+    },
+    "total": 35,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "nome_pt": "Plastique",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 107,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 2,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 2,
+      "Int": 2,
+      "Pro": 1,
+      "Pre": 2
+    },
+    "poderes": [
+      "e xplosive i mmunit y: Imunidade 1 (Own Powers) (1 PP)",
+      "o bjec t e xplosion: Área de Explosão Dano 11, Peculiaridade (must touch an object, –2 pontos) (20 PP)"
+    ],
+    "equipamento": [
+      "Plastique has 15 pontos to spend on equipment."
+    ],
+    "vantagens": [
+      "Atraente",
+      "Rolamento Defensivo 4",
+      "Equipamento 3",
+      "Ferramentas Improvisadas",
+      "Languages (English",
+      "Native: French)",
+      "Ação em Movimento",
+      "Luta Caída",
+      "Segunda Chance (Expertise: Demolitions checks)",
+      "Provocar"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 5,
+        "total": 7
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 7,
+        "total": 9
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Especialidade: Demolitions",
+        "graduacoes": 12,
+        "total": 14
+      },
+      {
+        "nome": "Especialidade: Terrorism",
+        "graduacoes": 10,
+        "total": 12
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 5,
+        "total": 6
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 7,
+        "total": 9
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 9,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 1 Object Explosion — Corpo a Corpo, Área de Explosão Dano 11"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 7,
+      "Fortitude": 7,
+      "Aparar": 7,
+      "Resistência": 6,
+      "Vontade": 6
+    },
+    "observacao_defesas": "* Vontade 6 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 28,
+      "Perícias": 36,
+      "Poderes": 21,
+      "Defesas": 20,
+      "Vantagens": 14
+    },
+    "total": 1119,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

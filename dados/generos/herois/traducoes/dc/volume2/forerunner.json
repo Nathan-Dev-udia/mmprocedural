@@ -1,0 +1,107 @@
+{
+  "nome_pt": "Precursora",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 64,
+  "ficha": {
+    "habilidades": {
+      "For": 14,
+      "Vig": 12,
+      "Agi": 7,
+      "Des": 7,
+      "Lut": 11,
+      "Int": 1,
+      "Pro": 4,
+      "Pre": 2
+    },
+    "poderes": [
+      "Clawed Gloves (Força-based Dano 1, Penetrante 8); e ngineered Physiology (Imunidade 10 (Suporte Vital), Resistência Impenetrável 12); i n visibility (Visual Camuflagem 4, Concentração); Super-Velocidade (Enhanced Defenses 6 (Esquiva 6), Enhanced"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "(Agile Feint",
+      "Evasion",
+      "Iniciativa Aprimorada",
+      "Levantar Rápido",
+      "Ação em Movimento",
+      "Takedown)",
+      "Speed 8 (500 MPH)) ; t elepa thy (Mental Communication 4",
+      "Mind Reading 2); t hr owing Spikes (Strength-based Ranged Damage 1",
+      "Crítico Aprimorado",
+      "Penetrating 8) Advantages: Accurate Attack",
+      "Finta Ágil",
+      "Ataque Corpo-a-Corpo 2",
+      "Duro de Matar",
+      "Evasion",
+      "Esforço Extraordinário",
+      "Iniciativa Aprimorada",
+      "Levantar Rápido",
+      "Move-By Action",
+      "Precise Attack (à distância; Cover)",
+      "Ataque à Distância 6",
+      "Derrubar em Sequência",
+      "Rastrear"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 4,
+        "total": 11
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 2,
+        "total": 6
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 2,
+        "total": 9
+      }
+    ],
+    "iniciativa": 11,
+    "ataques": [
+      {
+        "nome": "Thrown Spikes",
+        "bonus": 13,
+        "alcance": "À distância",
+        "dano": "Dano 15, Penetrante 8"
+      },
+      {
+        "nome": "Clawed Gloves",
+        "bonus": 13,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 15, Penetrante 8"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 16,
+      "Aparar": 14,
+      "Fortitude": 14,
+      "Resistência": 12,
+      "Vontade": 8
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 116,
+      "Poderes": 82,
+      "Vantagens": 13,
+      "Perícias": 6,
+      "Defesas": 12
+    },
+    "total": 229,
+    "complicacoes": [
+      {
+        "titulo": "Genetic f ailsaf e",
+        "texto": "Their creators have encoded all Forerunner DNA with a safety Característica that prevents the warriors from being able to directly attack any Monitor. a Warrior Born: Viza Aziv was engineered and raised to be a warrior and finds normal social interaction difficult, making her somewhat gullible and unable to grasp behavioral nuances. She also tends to revert to her warrior code and traditions when dealing with others."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

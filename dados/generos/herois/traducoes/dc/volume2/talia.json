@@ -1,0 +1,162 @@
+{
+  "nome_pt": "Talia al Ghul",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 124,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 3,
+      "Agi": 4,
+      "Des": 4,
+      "Lut": 10,
+      "Int": 5,
+      "Pro": 2,
+      "Pre": 4
+    },
+    "poderes": [],
+    "equipamento": [
+      "Light Pistola (Dano à Distância 3), 9 pontos of other equipment"
+    ],
+    "vantagens": [
+      "Ataque Preciso",
+      "Avaliação",
+      "Atraente",
+      "Benefit 5 (The Demon’s Daughter)",
+      "Conectado",
+      "Contatos",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 3",
+      "Equipamento 3",
+      "Defesa Aprimorada",
+      "Iniciativa Aprimorada",
+      "Inspirar",
+      "Precise Attack (à distância; Cover)",
+      "Saque Rápido",
+      "Ataque à Distância 4",
+      "Derrubar em Sequência",
+      "Bem-Informado"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 2,
+        "total": 12
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Especialidade: Criminal",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Combate à Distância: Guns",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 4,
+        "total": 9
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 4,
+        "total": 9
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 4,
+        "total": 8
+      }
+    ],
+    "iniciativa": 8,
+    "ataques": [
+      {
+        "nome": "Pistola",
+        "bonus": 12,
+        "alcance": "À distância",
+        "dano": "Dano 3"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 12,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 10,
+      "Fortitude": 7,
+      "Resistência": 6,
+      "Vontade": 9
+    },
+    "observacao_defesas": "*, Vontade 9 *sem Rolamento Defensivo",
+    "custos": {
+      "Habilidades": 68,
+      "Poderes": 0,
+      "Vantagens": 28,
+      "Perícias": 47,
+      "Defesas": 17
+    },
+    "total": 160,
+    "complicacoes": [
+      {
+        "titulo": "Conflicted Loyalties",
+        "texto": "Talia is in love with Batman, but loyal to her father."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

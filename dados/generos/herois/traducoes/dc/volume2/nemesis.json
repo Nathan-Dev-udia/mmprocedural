@@ -1,0 +1,136 @@
+{
+  "nome_pt": "Nêmesis",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 73,
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 4,
+      "Agi": 4,
+      "Des": 4,
+      "Lut": 8,
+      "Int": 4,
+      "Pro": 4,
+      "Pre": 4
+    },
+    "poderes": [],
+    "equipamento": [
+      "d issolving M asks: Metamorfose 2, Limitado—Facial Features Only, Não Confiável (5 uses) (6 PP)",
+      "Pistola: Dano à Distância 3 (6 PP)"
+    ],
+    "vantagens": [
+      "Ataque Defensivo",
+      "Rolamento Defensivo 2",
+      "Equipamento 3",
+      "Evasion",
+      "Iniciativa Aprimorada",
+      "Ferramentas Improvisadas",
+      "Derrubar Aprimorado",
+      "Arma Improvisada",
+      "Luta Caída",
+      "Bem-Informado"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 2,
+        "total": 6
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 5,
+        "total": 13
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 12,
+        "total": 16
+      },
+      {
+        "nome": "Especialidade: Intelligence Operations",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Combate à Distância: Guns",
+        "graduacoes": 9,
+        "total": 13
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 2,
+        "total": 6
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 6,
+        "total": 10
+      }
+    ],
+    "iniciativa": 8,
+    "ataques": [
+      {
+        "nome": "Pistola",
+        "bonus": 13,
+        "alcance": "À distância",
+        "dano": "Dano 3"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 13,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 3"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Fortitude": 8,
+      "Aparar": 10,
+      "Resistência": 6,
+      "Vontade": 8
+    },
+    "observacao_defesas": "* Vontade 8 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 70,
+      "Perícias": 41,
+      "Poderes": 0,
+      "Defesas": 16,
+      "Vantagens": 13
+    },
+    "total": 140,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

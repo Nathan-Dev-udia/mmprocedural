@@ -1,0 +1,106 @@
+{
+  "nome_pt": "Vixen",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 254,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 2,
+      "Agi": 3,
+      "Des": 2,
+      "Lut": 4,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 4
+    },
+    "poderes": [
+      "t Variável 5 (25-pontos, animal traits), Ação Livre an tu t ot em: (45 PP)",
+      "Common a nimal t r aits: • Cheetah: Dano 3 (claws, Penetrante 3, Força-Based), Velocidade 6 • Hawk: Voo 4 • e lephan t: Crescimento 8, No Change in Size (+0) • Mule: Dano 2 (kick, Força-Based), Enhanced Vontade 4 (stubbornness) • Monkey: Agilidade Aprimorada 5, Movimento 1 (Safe Fall, Limitado a near a surface)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Atraente",
+      "Rolamento Defensivo 3",
+      "Iniciativa Aprimorada",
+      "Languages",
+      "Ação em Movimento"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: Modeling",
+        "graduacoes": 8,
+        "total": 9
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 4,
+        "total": 7
+      }
+    ],
+    "iniciativa": 7,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 1 (or more)"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 9,
+      "Fortitude": 8,
+      "Aparar": 4,
+      "Resistência": 5,
+      "Vontade": 9
+    },
+    "observacao_defesas": "* Vontade 9 *sem Rolamento Defensivo bonus",
+    "custos": {
+      "Habilidades": 38,
+      "Perícias": 22,
+      "Poderes": 45,
+      "Defesas": 23,
+      "Vantagens": 8
+    },
+    "total": 136,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "nome_pt": "Lanterna Verde (Alan Scott)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 238,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 1,
+      "Des": 2,
+      "Lut": 8,
+      "Int": 2,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "poderes": [
+      "Power Ring: 121 pontos, Removível (–24 pontos) (97 PP)",
+      "Ageless: Imunidade 1 (Envelhecimento) (1 PP)",
+      "Voo: Voo 14 (32,0 km/h), Movimento 4 (Environmental Adaptation: Zero-G, Space Travel 3) (36 PP)",
+      "Campo de Força: Proteção 12, Impenetrável; Imunidade 10 (Suporte Vital) (34 PP)",
+      "The Green Flame: Arranjo (36 pontos) Energy Raio: Dano à Distância 18, Dynamic (37 PP)",
+      "• Energy Constructs: Criar Objetos 18, Dynamic (2 PP)",
+      "• Fourth-Dimensional Shift: Intangibilidade 4 (Vulnerável to wood) (1 PP)",
+      "• Lifting: Mover Objetos 18, Dynamic (2 PP)",
+      "• Mobile Constructs: Criar Objetos 12, Movable, Dynamic (2 PP)",
+      "Scanning: Sentidos 6 (À Distância Analítico Detect Energy and mágico) (6 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Contatos",
+      "Duro de Matar",
+      "Esforço Extraordinário"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Especialidade: Business",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: Engineering",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 7,
+        "total": 9
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 5,
+        "total": 7
+      },
+      {
+        "nome": "Combate à Distância: Green Flame",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 4,
+        "total": 6
+      }
+    ],
+    "iniciativa": 1,
+    "ataques": [
+      {
+        "nome": "Green Flame",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Dano 18"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 11,
+      "Fortitude": 10,
+      "Aparar": 11,
+      "Resistência": 14,
+      "Vontade": 18
+    },
+    "observacao_defesas": "* Vontade 18 *Without Campo de Força Proteção.",
+    "custos": {
+      "Habilidades": 42,
+      "Perícias": 21,
+      "Poderes": 97,
+      "Defesas": 37,
+      "Vantagens": 3
+    },
+    "total": 200,
+    "complicacoes": [
+      {
+        "titulo": "Incarnation of the Flame",
+        "texto": "Alan Scott is no longer entirely mortal, being the vessel for the Starheart. This can cause mystical concerns for him that do not threaten ordinary people."
+      },
+      {
+        "titulo": "Relacionamentos",
+        "texto": "Alan is protective of his children, Jennie-Lynn (Jade) and Todd (Obsidian) and his wife Molly."
+      },
+      {
+        "titulo": "Vulnerability",
+        "texto": "The Green Flame cannot affect wood, so Alan is Vulnerável to wooden weapons (which ignore his Proteção) and cannot directly manipulate wooden objects."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "nome_pt": "Chumbo (Homens Metálicos)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 45,
+  "ficha": {
+    "habilidades": {
+      "For": 12,
+      "Vig": "—",
+      "Agi": 0,
+      "Des": 0,
+      "Lut": 6,
+      "Int": 0,
+      "Pro": 0,
+      "Pre": 1
+    },
+    "poderes": [
+      "r obot Body (Imunidade 45 (Fortitude effects, mental effects, Radiação Dano); Proteção 14, Impenetrável), Shapeshifting (Alongamento 8; Metamorfose 4 (any form), Peculiaridade: Limitado a Same Color; Variável 2 (physical traits, 10 power pontos, plus changing existing physical trait allocations)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Interpor-se"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 2,
+        "total": 8
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 8,
+        "total": 8
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 12"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 6,
+      "Aparar": 6,
+      "Resistência": 14,
+      "Vontade": 5
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Defesas": 11
+    },
+    "total": 179,
+    "complicacoes": [
+      {
+        "titulo": "d oing Good",
+        "texto": "All of the Metal Men are driven to make the world a better place."
+      },
+      {
+        "titulo": "Slow",
+        "texto": "Lead isn’t very bright and often makes careless mistakes."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

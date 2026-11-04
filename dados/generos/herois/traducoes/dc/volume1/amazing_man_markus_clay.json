@@ -1,0 +1,108 @@
+{
+  "nome_pt": "Homem-Maravilha (Markus Clay)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 292,
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 3,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 5,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "poderes": [
+      "Material Mimicry (Variável 8, Mimetismo the properties of inorganic materials he touches)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Duro de Matar",
+      "Grande Vigor",
+      "Inspirar",
+      "Interpor-se"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 3,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: Islam",
+        "graduacoes": 6,
+        "total": 7
+      },
+      {
+        "nome": "Especialidade: Social Work",
+        "graduacoes": 6,
+        "total": 7
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 5,
+        "total": 7
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 5,
+        "total": 7
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 6,
+        "total": 8
+      }
+    ],
+    "iniciativa": 1,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "",
+        "dano": "(Dano 1 or varies)"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 7,
+      "Aparar": 7,
+      "Fortitude": 8,
+      "Resistência": 3,
+      "Vontade": 7
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 36,
+      "Poderes": 56,
+      "Vantagens": 5,
+      "Perícias": 20,
+      "Defesas": 18
+    },
+    "total": 135,
+    "complicacoes": [
+      {
+        "titulo": "Public Identity",
+        "texto": "C lay makes no efforts to hide who he is."
+      },
+      {
+        "titulo": "Responsabilidade",
+        "texto": "Clay feels a deep-seated responsibility to use his Skills and Abilities to aid those around him outside traditional superhuman means."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "nome_pt": "Capitão Átomo",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 94,
+  "ficha": {
+    "habilidades": {
+      "For": 15,
+      "Vig": 12,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 8,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 2
+    },
+    "poderes": [
+      "Dilustel Covering: Imunidade 10 (Suporte Vital), Resistência Impenetrável 15, Proteção 3 (28 PP)",
+      "Quantum Channeling : Força Aprimorada 5 (Lifting only, Lifting Str 20; 25,000 tons), Voo 13 (16,0 km/h), Imunidade 40 (Energy Effects, Distrativo, Limitado a Half Effect, Sustentado), Sentidos 3 (Detect Energy Spectra (Aguçado, Raio)) (48 PP)",
+      "Quantum Manipulation: Arranjo (36 pontos)",
+      "• Quantum Raio: Dano à Distância 18 (36 PP)",
+      "• Quantum Burst: Área de Explosão Dano 14 (1 PP)",
+      "• Quantum Conversion: Deflexão 13, Reflect, Redirect, Corpo a Corpo, Energy Only) (1 PP)",
+      "• Quantum Drain: Enfraquecer All Electromagnetic Energy Powers 7 (Affects Others, Broad (all EM Energy), Progressivo, Simultaneous) (1 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Duro de Matar",
+      "Esforço Extraordinário",
+      "Liderança",
+      "Ataque Poderoso",
+      "Tomar a Iniciativa"
+    ],
+    "pericias": [
+      {
+        "nome": "Atletismo",
+        "graduacoes": 4,
+        "total": 19
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 2,
+        "total": 10
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 4,
+        "total": 6
+      },
+      {
+        "nome": "Especialidade: Military Science",
+        "graduacoes": 6,
+        "total": 7
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Combate à Distância: Quantum Blast",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 2,
+        "total": 3
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 2,
+        "total": 4
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 15"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Fortitude": 14,
+      "Aparar": 10,
+      "Resistência": 15,
+      "Vontade": 10
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 88,
+      "Perícias": 23,
+      "Poderes": 115,
+      "Defesas": 20,
+      "Vantagens": 5
+    },
+    "total": 251,
+    "complicacoes": [
+      {
+        "titulo": "Forced Time Travel",
+        "texto": "When Captain Atom pushes his ability to absorb energy past its normal limits, the accumulated energy “overwash” propels him through time. The exact amount of time traveled is up to the needs of the plot, but a rule of thumb is to take the graduação of the triggering effect and compare it to the Time column of the basic graduação chart – this is how much time is jumped past."
+      },
+      {
+        "titulo": "Fish Out of Water",
+        "texto": "Nathaniel missed a lot of history and there are gaps in what should be his basic store of common/general knowledge."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

@@ -13,6 +13,7 @@ import sys
 # Importar o motor de termos do tradutor de heróis
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from nucleo.herois import _dividir_por_custo
+from nucleo import rules
 from ferramentas import tradutor_herois as t
 
 RAIZ = Path(__file__).resolve().parent.parent
@@ -70,11 +71,13 @@ NOMES_DC_PT = {
     "john_constantine": "John Constantine",
 }
 
-# Fichas que NUNCA devem ser sobrescritas (preservar traduções manuais ou exigidas em testes originais)
+# Fichas que NUNCA devem ser sobrescritas (preservar traduções manuais ou exigidas em testes de fallback raw)
 FICHAS_PROTEGIDAS = {
+    # Traduções manuais canônicas originais:
     "aquaman", "batman", "green_arrow_oliver_queen", "green_lantern_hal_jordan",
     "the_flash_barry_allen", "martian_manhunter", "superman", "wonder_woman",
-    "adam_strange"  # exigido em inglês original por test_ficha_da_dc_traduz_as_habilidades_e_separa_os_poderes
+    # Fichas usadas para testar o parser/fallback de texto original em inglês:
+    "adam_strange", "captain_comet", "blockbuster_roland_desmond", "dwarfstar"
 }
 
 
@@ -105,8 +108,12 @@ def extrair_habilidades(ficha_pub):
     res = {}
     for k, v in ficha_pub.get("habilidades", {}).items():
         v_str = str(v).strip()
-        num = int(v_str.split("/")[0]) if v_str else 0
-        res[HABILIDADES_MAP.get(k, k)] = num
+        # Se é traço (habilidade ausente, ex: robôs/construtos sem Vigor)
+        if re.search(r"^[–—−-]+$", v_str) or v_str in ("", "None"):
+            res[HABILIDADES_MAP.get(k, k)] = "—"
+        else:
+            m = re.search(r"-?\d+", v_str.split("/")[0])
+            res[HABILIDADES_MAP.get(k, k)] = int(m.group()) if m else 0
     return res
 
 
@@ -152,14 +159,29 @@ def extrair_pericias(per_texto):
         return []
     txt = normalizar_texto_dc(per_texto)
     # Rejuntar quebras com hífen (ex: Technol- ogy, Ornitholo - gy)
-    txt = re.sub(r"(\w+)\s*-\s+(\w+)", r"\1\2", txt)
-    # Normalizar anotações de atributo como "Expertise (PRE):"
+    txt = re.sub(r"([A-Za-z]{3,})-\s+([a-z]{2,})", r"\1\2", txt)
     txt = re.sub(r"Expertise\s*\([A-Z]+\):", "Expertise:", txt)
+    txt = re.sub(r"\bRange(?:d\s+Attack)?\s+Combat\b", "Ranged Combat", txt, flags=re.I)
+    txt = re.sub(r"\bRanged\s+Attack:", "Ranged Combat:", txt, flags=re.I)
+    txt = re.sub(r"\bExpert:", "Expertise:", txt, flags=re.I)
+    txt = re.sub(r"\bPerceptions\b", "Perception", txt, flags=re.I)
+
     pericias = []
     bloco = re.split(r"\b(?:Some of|Notes?:)\b", txt, maxsplit=1)[0]
-    for part in re.finditer(r"([A-Za-z\s:\-&()]+?)\s+(\d+)\s*\(\+?(-?\d+)\)", bloco):
-        nome_p = part.group(1).strip()
-        nome_p_pt = t.traduzir_pericia(nome_p)
+    for part in re.finditer(r"([A-Za-z0-9\s:\-&()/'\"]+?)\s+(\d+)\s*\(\+?(-?\d+)(?:/[^)]+)?\)", bloco):
+        nome_bruto = part.group(1).strip()
+        nome_bruto = re.sub(r"^[0-9*),;.\s\-]+", "", nome_bruto)
+        nome_bruto = re.sub(r"^\([^)]*\)\s*", "", nome_bruto)
+        nome_bruto = re.sub(r"^[0-9*),;.\s\-]+", "", nome_bruto)
+        if not nome_bruto:
+            continue
+        nome_p_pt = t.traduzir_pericia(nome_bruto)
+        base = rules.nome_base(nome_p_pt)
+        if base == "Combate Corpo a Corpo":
+            base = "Combate Corpo-a-Corpo"
+            nome_p_pt = nome_p_pt.replace("Combate Corpo a Corpo", "Combate Corpo-a-Corpo")
+        if base not in rules.PERICIAS:
+            nome_p_pt = f"Especialidade: {nome_p_pt}"
         pericias.append({
             "nome": nome_p_pt,
             "graduacoes": int(part.group(2)),

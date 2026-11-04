@@ -1,0 +1,137 @@
+{
+  "nome_pt": "Lince",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 114,
+  "ficha": {
+    "habilidades": {
+      "For": 4,
+      "Vig": 3,
+      "Agi": 7,
+      "Des": 5,
+      "Lut": 12,
+      "Int": 2,
+      "Pro": 3,
+      "Pre": 3
+    },
+    "poderes": [
+      "Razor Sharp Artificial Nails: Força-based Dano 2, Penetrante 2 (4 PP)",
+      "Veneno: Arranjo (24 pontos), Limitado (Full Action to Change Powers), Gatilho (Opponent Damaged by Artificial Nails, -1 ponto) • Fatal Veneno: Enfraquecer Vigor 12 (resistido por Fortitude), Progressivo (23 PP)",
+      "• Disabling Veneno: Enfraquecer Destreza 12 (resistido por Fortitude), Progressivo (1 PP)",
+      "• Sleep Veneno: Aflição 12 (resistido por Fortitude; Tonto, Atordoado, Adormecido) Progressivo (1 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Preciso",
+      "Finta Ágil",
+      "Ataque Imprudente",
+      "Avaliação",
+      "Ataque Corpo-a-Corpo 4",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 4",
+      "Evasion",
+      "Improved Critical 2 (Artificial Nails)",
+      "Defesa Aprimorada",
+      "Desarmar Aprimorado",
+      "Agarrar Aprimorado",
+      "Iniciativa Aprimorada",
+      "Quebrar Aprimorado",
+      "Derrubar Aprimorado",
+      "Levantar Rápido",
+      "Languages 2 (English",
+      "French",
+      "Vietnamese native)",
+      "Ação em Movimento",
+      "Ataque Poderoso",
+      "Precise Attack (corpo a corpo; Concealment)",
+      "Luta Caída",
+      "Redirecionar",
+      "Tomar a Iniciativa",
+      "Skill Mastery 2 (Acrobatics",
+      "Athletics)",
+      "Derrubar em Sequência",
+      "Esquiva Fabulosa",
+      "Quebrar Arma"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 10,
+        "total": 17
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 10,
+        "total": 14
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Artificial Nails",
+        "graduacoes": 2,
+        "total": 14
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Especialidade: Poisons",
+        "graduacoes": 12,
+        "total": 14
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 8,
+        "total": 15
+      }
+    ],
+    "iniciativa": 11,
+    "ataques": [
+      {
+        "nome": "Artificial Nails",
+        "bonus": 18,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 6, Crit. 18-20"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 16,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 4"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 15,
+      "Fortitude": 6,
+      "Aparar": 17,
+      "Resistência": 7,
+      "Vontade": 10
+    },
+    "observacao_defesas": "* Vontade 10 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 78,
+      "Perícias": 29,
+      "Poderes": 29,
+      "Defesas": 23,
+      "Vantagens": 35
+    },
+    "total": 194,
+    "complicacoes": [
+      {
+        "titulo": "Responsabilidade",
+        "texto": "To her son by Catman."
+      },
+      {
+        "titulo": "Vengeful",
+        "texto": "Cheshire rarely lets a perceived slight go unpunished. her former teammates and stabbed the Mad Hatter with a poisoned dagger. She later traded an antidote for the Veneno in exchange for her safety."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

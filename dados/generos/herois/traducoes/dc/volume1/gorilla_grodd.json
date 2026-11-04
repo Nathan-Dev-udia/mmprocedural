@@ -1,0 +1,133 @@
+{
+  "nome_pt": "Gorila Grodd",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 226,
+  "ficha": {
+    "habilidades": {
+      "For": 9,
+      "Vig": 6,
+      "Agi": 4,
+      "Des": 4,
+      "Lut": 6,
+      "Int": 8,
+      "Pro": 5,
+      "Pre": 3
+    },
+    "poderes": [
+      "Ape Sentidos: Sentidos 2 (Visão na Penumbra, Aguçado Smell) (2 PP)",
+      "Force of Mind: Alcance de Percepção Mover Objetos 5, Sutil 2 (17 PP)",
+      "Prehensile Feet: Característica 1 (May use feet as hands) (1 PP)",
+      "Telepatia: Arranjo (25 pontos)",
+      "• Leitura mental 12: Sutil (25 PP)",
+      "• Controle mental: Alcance de Percepção Aflição 8 (resistido por Vontade; Tonto, Compelido, Controlado), Sutil (1 PP)",
+      "• Thought Projection: área mental Comunicação 5 (1 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Benefit 1 (Ambidexterity)",
+      "Rolamento Defensivo 3",
+      "Agarrar Rápido",
+      "Inventor"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 6,
+        "total": 15
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 7,
+        "total": 13
+      },
+      {
+        "nome": "Especialidade: Gorilla City",
+        "graduacoes": 8,
+        "total": 16
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 6,
+        "total": 11
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 5,
+        "total": 10
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 8,
+        "total": 16
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 4,
+        "total": 8
+      }
+    ],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 13,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 9 Controle mental — Alcance de Percepção, Aflição 8, resistido por Vontade"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 13,
+      "Fortitude": 11,
+      "Aparar": 13,
+      "Resistência": 9,
+      "Vontade": 13
+    },
+    "observacao_defesas": "* Vontade 13 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 90,
+      "Perícias": 36,
+      "Poderes": 47,
+      "Defesas": 29,
+      "Vantagens": 7
+    },
+    "total": 209,
+    "complicacoes": [
+      {
+        "titulo": "Ódio",
+        "texto": "Grodd has sworn revenge against Gorilla City and the Flash for past slights."
+      },
+      {
+        "titulo": "Obsessão",
+        "texto": "With extending his influence over the world."
+      },
+      {
+        "titulo": "Preconceito",
+        "texto": "Grodd considers simians far superior to “primitive” humans. ENEMIES Grodd’s two greatest enemies are Solovar and the Flash (Barry Allen). He Vontade go to any length to remove them as obstacles to his plans. He also reserves a particular venge - ful streak for Gorilla City for his treatment over the years. In cooperation with other villains, Grodd has come up against diverse heroes, including most of the members of the Jus - tice League."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

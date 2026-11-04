@@ -1,0 +1,135 @@
+{
+  "nome_pt": "Azrael",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 34,
+  "ficha": {
+    "habilidades": {
+      "For": 6,
+      "Vig": 3,
+      "Agi": 8,
+      "Des": 5,
+      "Lut": 8,
+      "Int": 2,
+      "Pro": 5,
+      "Pre": 5
+    },
+    "poderes": [
+      "Suit of Sorrows: Enhanced Feat 1 (Improved Iniciativa), Força Aprimorada 3, Agilidade Aprimorada 3, Proteção 6, Removível (-4 pontos) (15 PP)",
+      "Swords of Sin and Salvation: 9 pontos, Removível (-2 pontos) (7 PP)",
+      "• Twin Swords: Força-based Dano 4, Improved Critical, Dividido • Flaming Aura: Enhanced Dano 2 (fogo), Linked to Twin Swords, Dividido"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Corpo-a-Corpo 2",
+      "Ataque Defensivo",
+      "Evasion",
+      "Iniciativa Aprimorada",
+      "Ataque Poderoso",
+      "Precise Attack (corpo a corpo; Concealment)",
+      "Saque Rápido",
+      "Derrubar em Sequência"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 5,
+        "total": 13
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 8,
+        "total": 14
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 2,
+        "total": 10
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Especialidade: Current Events",
+        "graduacoes": 7,
+        "total": 9
+      },
+      {
+        "nome": "Especialidade: Streetwise",
+        "graduacoes": 9,
+        "total": 11
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 3,
+        "total": 5
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 4,
+        "total": 9
+      }
+    ],
+    "iniciativa": 12,
+    "ataques": [
+      {
+        "nome": "Twin Swords",
+        "bonus": 11,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 10/8*, Crit. 19-20"
+      },
+      {
+        "nome": "Twin Flaming Swords",
+        "bonus": 11,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 12/9*, Crit. 19-20"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 12,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 6 *Dividido evenly between two targets"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 11,
+      "Fortitude": 7,
+      "Aparar": 11,
+      "Resistência": 9,
+      "Vontade": 8
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 72,
+      "Perícias": 31,
+      "Poderes": 22,
+      "Defesas": 13,
+      "Vantagens": 8
+    },
+    "total": 146,
+    "complicacoes": [
+      {
+        "titulo": "Cursed",
+        "texto": "The Suit of Sorrows slowly drives Michael insane."
+      },
+      {
+        "titulo": "Temperamento",
+        "texto": "The Suit of Sorrows makes its wearer more violent, often causing them to enter a berserker rage in combat."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

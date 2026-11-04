@@ -1,0 +1,83 @@
+{
+  "nome_pt": "Pirata Psíquico",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 116,
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 3,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 3,
+      "Int": 1,
+      "Pro": 1,
+      "Pre": 3
+    },
+    "poderes": [
+      "Medusa Mask: Progressivo Sight-Dependent Enfraquecer Vontade 12 (resistido por Vontade, Limitado a Resistance checks against the Linked Aflição Only) with Linked Cumulativo Sight- Dependant Aflição 12 resistido por Vontade (Tonto, Compelido, Controlado), Limitado a Emotions; Removível (-12 pontos) (48 PP)",
+      "Multiversal Vision: Característica 1 (Hayden remembers the Pre -Crisis multiverse and can see multiversal iterations of select beings and places) (1 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Tontear (Enganação)",
+      "Rolamento Defensivo 4",
+      "Sorte 3",
+      "Tomar a Iniciativa",
+      "Provocar"
+    ],
+    "pericias": [
+      {
+        "nome": "Enganação",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Especialidade: Psychology",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 7,
+        "total": 8
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 5
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 4,
+        "total": 7
+      }
+    ],
+    "iniciativa": 0,
+    "ataques": [],
+    "defesas": {
+      "Esquiva": 11,
+      "Fortitude": 5,
+      "Aparar": 7,
+      "Resistência": 7,
+      "Vontade": 8
+    },
+    "observacao_defesas": "* Vontade 8 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 26,
+      "Perícias": 13,
+      "Poderes": 49,
+      "Defesas": 23,
+      "Vantagens": 10
+    },
+    "total": 121,
+    "complicacoes": [
+      {
+        "titulo": "ddic ted",
+        "texto": "r eality-Challenged: Psycho-Pirate is a “refugee” from an alternate reality that no longer exists and sometimes encounters difficulties because the multiverse doesn’t know exactly what to do with him. Mu L t I ver S a L a no M a L y At one ponto, Hayden temporarily could summon pre- Crisis versions of anyone back into existence. Mechani- cally, this is handled as a plot Dispositivo trait rather than an enumerated power."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

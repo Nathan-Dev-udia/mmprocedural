@@ -1,0 +1,127 @@
+{
+  "nome_pt": "Devastadora",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 125,
+  "ficha": {
+    "habilidades": {
+      "For": 6,
+      "Vig": 5,
+      "Agi": 7,
+      "Des": 8,
+      "Lut": 11,
+      "Int": 2,
+      "Pro": 3,
+      "Pre": 2
+    },
+    "poderes": [
+      "Body a rmor : Impenetrável Proteção 4; Sentidos 1 (Comunicação Link); Removível (-2 pontos) (7 PP)",
+      "e nergy k atanas: Força-based Dano 3, Improved Smash, Penetrante 5, Dividido 2, Facilmente Removível (–3 pontos), Indestructible (8 PP)",
+      "• e nergy Escudo: Impenetrável Proteção 3 (1 PP)",
+      "e nhanced Brain Capacity: Enhanced"
+    ],
+    "equipamento": [
+      "Combat k nife: Força-based Dano 2, Improved Critical (3 PP)",
+      "Advantages Preciso Attack, Agile Feint, Assessment, Chokehold, Defensive Attack, Eidetic Memory , Equipment, Evasion 2 , Fearless, Great Endurance, Improved Aim, Improved Defense, Improved Disarm, Improved Grab, Improved Hold, Improved Iniciativa 3 , Improved Smash, Improved Trip, Instant Up, Jack- of-all-trades, Languages 2, Move-by Action, Power Attack, Preciso Attack (À Distância; Cover), Prone Luta, Quick Draw, À Distância Attack 4, Redirect , Seize Iniciativa , Startle, Takedown, Teamwork, Uncanny Esquiva"
+    ],
+    "vantagens": [
+      "(Eidetic Memory); Enhanced Intellect 1; Quickness 2",
+      "Limited to Mental • 4 points e nhanced Senses: Enhanced Awareness 1; Senses 8 (Acute Smell",
+      "Danger Sense",
+      "Darkvision",
+      "Extended Rapid Hearing",
+      "Extended Rapid Vision) • 10 points Heightened r eflexes: Enhanced Advantages (Evasion 2) • 2 pontos Heightened Speed: Enhanced Advantages (Improved Iniciativa 1); Quickness 1; Speed 3 (16 MPH) • 5 points Precognition: Enhanced Advantages ( Improved Initiative 2",
+      "Redirecionar",
+      "Tomar a Iniciativa",
+      "Uncanny Dodge); Senses 4 (Precognition)",
+      "Limited to 1 round into the future",
+      "Unreliable • 7 points Super-Strength: Enhanced Strength 1",
+      "Limited to Lifting (Lifting Str 7; 3 tons) • 1 point"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 7,
+        "total": 14
+      },
+      {
+        "nome": "Atletismo",
+        "graduacoes": 2,
+        "total": 8
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 5,
+        "total": 7
+      },
+      {
+        "nome": "Especialidade: Streetwise",
+        "graduacoes": 3,
+        "total": 5
+      },
+      {
+        "nome": "Especialidade: Tactics",
+        "graduacoes": 3,
+        "total": 5
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 10,
+        "total": 12
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 8,
+        "total": 15
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 8,
+        "total": 10
+      }
+    ],
+    "iniciativa": 19,
+    "ataques": [
+      {
+        "nome": "Energy Katana",
+        "bonus": 11,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 9, Penetrante 5, Dividido 2"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 11,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 6"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 11,
+      "Fortitude": 10,
+      "Aparar": 11,
+      "Resistência": 9,
+      "Vontade": 8
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 84,
+      "Perícias": 30,
+      "Poderes": 44,
+      "Defesas": 14
+    },
+    "total": 202,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

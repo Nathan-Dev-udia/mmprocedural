@@ -1,0 +1,112 @@
+{
+  "nome_pt": "Violeta Encolhedora",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 16,
+  "ficha": {
+    "habilidades": {
+      "For": -1,
+      "Vig": 2,
+      "Agi": 4,
+      "Des": 4,
+      "Lut": 5,
+      "Int": 3,
+      "Pro": 2,
+      "Pre": 1
+    },
+    "poderes": [
+      "Encolhimento 20 (Atomic), Crescimento Punch (Dano 5, Força-Based, Peculiaridade—Dano based on size graduação difference between Encolhimento Violet and her opponent, Peculiaridade—Leaves Violet at same height as opponent)"
+    ],
+    "equipamento": [
+      "Voo Ring (Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal –3), Voo 7 (400 km/h); Telepathic Ear Plug ( Compreender 3 (Languages), mental Comunicação 1 (Corpo a Corpo Range)); Transsuit (Imunidade 9 (Suporte Vital, except for Inanição and thirst))"
+    ],
+    "vantagens": [
+      "Avaliação",
+      "Benefit 1 (Legion Membership)",
+      "Ataque Corpo-a-Corpo 3",
+      "Ataque Defensivo",
+      "Equipamento 8",
+      "Crítico Aprimorado (Desarmado)",
+      "Iniciativa Aprimorada",
+      "Quebrar Aprimorado",
+      "Derrubar Aprimorado",
+      "Levantar Rápido",
+      "Ataque Poderoso"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 5,
+        "total": 9
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 2,
+        "total": 7
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 5,
+        "total": 6
+      },
+      {
+        "nome": "Especialidade: Imsk",
+        "graduacoes": 5,
+        "total": 8
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 4,
+        "total": 20
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 3,
+        "total": 7
+      }
+    ],
+    "iniciativa": 8,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano -1/2*, Crit. 19-20"
+      },
+      {
+        "nome": "Crescimento Punch",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 7, Crit. 19-20"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 16,
+      "Aparar": 16,
+      "Fortitude": 4,
+      "Resistência": 2,
+      "Vontade": 8
+    },
+    "observacao_defesas": "*, Aparar 16/10*, Fortitude 4, Resistência 2, Vontade 8 * Without 12 graduações of Encolhimento.",
+    "custos": {
+      "Habilidades": 46,
+      "Poderes": 24,
+      "Vantagens": 20,
+      "Perícias": 12,
+      "Defesas": 19
+    },
+    "total": 121,
+    "complicacoes": [
+      {
+        "titulo": "r esponsibility",
+        "texto": "Encolhimento Violet believes she should use her Abilities to help others. r elationship: Encolhimento Violet has had Corpo a Corpo relationships with Duplicate Boy, Sun Boy, and Lightning Lass, and a strong dislike of Chameleon Girl."
+      },
+      {
+        "titulo": "Survivor",
+        "texto": "Since her abduction, Encolhimento Violet has become much more forceful and able to protect herself."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

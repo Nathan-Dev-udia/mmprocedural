@@ -1,0 +1,115 @@
+{
+  "nome_pt": "Zachary Zatara",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 229,
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 2,
+      "Agi": 2,
+      "Des": 3,
+      "Lut": 0,
+      "Int": 2,
+      "Pro": 4,
+      "Pre": 2
+    },
+    "poderes": [
+      "mágico a rr ay (24 pontos): d inb Mih! (À Distância Cumulativo Aflição 8 (resistido por Esquiva; Impedido and Vulnerável, Indefeso and Imóvel), Extra Condition, Limitado Degree), ae : Cigam e k irts! (Dano à Distância 9 (mágico)), ae : e nogeb! (Nulificar 9 (Broad: All mágico Effects)), ae : o tserp e gnahc o ! (À Distância Transform 4 (Anything)), ae : r aeppa! (Criar Objetos 7 (Contínuo, Sutil)), ae : Seutats, k c atta! (À Distância Summon 4 (Horde, Multiple Minions (Two 60-ponto minions), Medium (Statues))), Mystic Sentidos (Sentidos 4 (Detect mágico, À Distância, Aguçado, Analítico))"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Atraente",
+      "Esforço Extraordinário",
+      "Fascinar (Expertise: Performance)",
+      "Ritualista",
+      "Sidekick 2 (Bunny) *",
+      "Provocar",
+      "Esquiva Fabulosa"
+    ],
+    "pericias": [
+      {
+        "nome": "Enganação",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: mágico",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Especialidade: Performance",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 3,
+        "total": 7
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 2,
+        "total": 6
+      },
+      {
+        "nome": "Combate à Distância: mágico",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 9,
+        "total": 12
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "mágico",
+        "bonus": 7,
+        "alcance": "À distância",
+        "dano": "Dano 10 mais outros"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 0,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 0"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 4,
+      "Fortitude": 5,
+      "Resistência": 1,
+      "Vontade": 11
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 30,
+      "Poderes": 33,
+      "Vantagens": 7,
+      "Perícias": 18,
+      "Defesas": 22
+    },
+    "total": 110,
+    "complicacoes": [
+      {
+        "titulo": "Brat",
+        "texto": "Zatara has an incredibly high opinion of himself, and rarely views anyone else as an equal, an opinion he is happy to express in plain language. Living t hings , n ot S o Good: Zatara is not yet very proficient with mágico involving naturally animate subjects, such as living things."
+      },
+      {
+        "titulo": "When casting magic to affect such subjects consider his Magic Array to have both the Expertise",
+        "texto": "mágico Exige Teste and Não Confiável flaws."
+      },
+      {
+        "titulo": "Perda de Poder",
+        "texto": "Zatara needs to speak aloud (and backwards) to cast his spells. Women and mágico d on’t Mix: Zatara’s mágico can be influenced by his emotional attachment to others, especially women. Strong feeling of this type effectively impose the Não Confiável flaw upon his mágico Arranjo when in the Presença of the subject of his affection."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

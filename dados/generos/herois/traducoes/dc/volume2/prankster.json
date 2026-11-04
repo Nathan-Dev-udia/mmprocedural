@@ -1,0 +1,96 @@
+{
+  "nome_pt": "Galhofeiro",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 112,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 3,
+      "Agi": 2,
+      "Des": 3,
+      "Lut": 2,
+      "Int": 5,
+      "Pro": 4,
+      "Pre": 4
+    },
+    "poderes": [
+      "Campainha Elétrica: Dano 8 (eletricidade), Removível (-2 pontos) (6 PP)",
+      "Laughing Gun: Aflição à Distância 12 (resistido por Fortitude; Tonto, Atordoado, Incapacitado), Facilmente Removível (-10 pontos) (14 PP)"
+    ],
+    "equipamento": [
+      "Prankster usually has up 60 pontos’ worth of comedic (and dangerous) inventions at his disposal. a V ant G d a e S All-out Attack, Contacts, Defensive Roll 2, Equipment 12, Fascinate (Expertise: Comedy), Improved Trip, Inventor, Luck, Set-up, Skill Mastery (Expertise: Comedy), Taunt"
+    ],
+    "vantagens": [],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 3,
+        "total": 5
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Campainha Elétrica",
+        "graduacoes": 5,
+        "total": 7
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Especialidade: Comedy",
+        "graduacoes": 9,
+        "total": 14
+      },
+      {
+        "nome": "Combate à Distância: Laughing Gun",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Prestidigitação",
+        "graduacoes": 6,
+        "total": 9
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 6,
+        "total": 8
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 6,
+        "total": 11
+      }
+    ],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Laughing Gun",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Aflição 12, resistido por Fortitude Campainha Elétrica +7 Corpo a Corpo, Dano 8"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 9,
+      "Fortitude": 5,
+      "Aparar": 9,
+      "Resistência": 5,
+      "Vontade": 10
+    },
+    "observacao_defesas": "* Vontade 10 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 48,
+      "Perícias": 25,
+      "Poderes": 20,
+      "Defesas": 22,
+      "Vantagens": 23
+    },
+    "total": 138,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "nome_pt": "Per Degaton",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 101,
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 4,
+      "Des": 4,
+      "Lut": 4,
+      "Int": 11,
+      "Pro": 3,
+      "Pre": 2
+    },
+    "poderes": [
+      "f ail-S afe r eset: Imortalidade 5 (10 PP)",
+      "o ut of Phase: Intangibilidade 4 (Intangible; Doesn’t work against Powers with a temporal effect); Força 2 Affects Corporeal (22 PP)",
+      "r ecalls f utur e e v ents: Sentidos 4 (Precognition) (4 PP)",
+      "t ime d isk : Aflição à Distância 10 (resistido por Fortitude; Fatigado, Disabled, Incapacitado), Facilmente Removível (-8 pontos) (12 PP)",
+      "t ime t r avel d isk : Arranjo (6 pontos), Removível (-1 pontos) • f lying d isk : Voo 6 (192 km/h), Platform (6 PP)",
+      "• t ime Jump: Movimento 3 (Time Travel; Any time) (1 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Memória Eidética",
+      "Inventor",
+      "Maestria em Perícia (Technology checks)",
+      "Esforço Supremo (Technology checks)"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 12,
+        "total": 14
+      },
+      {
+        "nome": "Especialidade: Ex - pertise: Science",
+        "graduacoes": 8,
+        "total": 19
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 12,
+        "total": 15
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 10,
+        "total": 12
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 10,
+        "total": 13
+      },
+      {
+        "nome": "Combate à Distância: Time Disc",
+        "graduacoes": 6,
+        "total": 10
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 8,
+        "total": 19
+      }
+    ],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Time Disc",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Aflição 10, resistido por Fortitude Desarmado +10 Corpo a Corpo, Dano 2"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Fortitude": 6,
+      "Aparar": 8,
+      "Resistência": 2,
+      "Vontade": 7
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 64,
+      "Perícias": 36,
+      "Poderes": 53,
+      "Defesas": 16,
+      "Vantagens": 4
+    },
+    "total": 173,
+    "complicacoes": [
+      {
+        "titulo": "Megalomania",
+        "texto": "Per Degaton wants to rule the world. o v erconfident: In spite of his constant defeats, Per Degaton continues to try to manipulate history."
+      },
+      {
+        "titulo": "Untrustworthy",
+        "texto": "Per Degaton has a tendency to turn on friends and loved ones when his authority is questioned or his greed gets the better of him"
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

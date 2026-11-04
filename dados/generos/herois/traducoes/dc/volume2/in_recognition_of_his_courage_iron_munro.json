@@ -1,0 +1,82 @@
+{
+  "nome_pt": "Iron Munro",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 270,
+  "ficha": {
+    "habilidades": {
+      "For": 11,
+      "Vig": 11,
+      "Agi": 5,
+      "Des": 3,
+      "Lut": 5,
+      "Int": 2,
+      "Pro": 2,
+      "Pre": 3
+    },
+    "poderes": [
+      "Força Aprimorada 2 (Limitado t 13; 200 tons)), Imunidade 1 (Envelhecimento), Im Salto 7 (1/2 mile), Velocidade 5 (96 km/h)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Duro de Matar",
+      "Iniciativa Aprimorada",
+      "Interpor-se",
+      "Weapon"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 4,
+        "total": 9
+      },
+      {
+        "nome": "Especialidade: Cars",
+        "graduacoes": 5,
+        "total": 7
+      },
+      {
+        "nome": "Especialidade: Intimidação 7 Persuasion",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 3,
+        "total": 5
+      }
+    ],
+    "iniciativa": 9,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 9,
+        "alcance": "",
+        "dano": "(Cl"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 9,
+      "Aparar": 9,
+      "Fortitude": 13,
+      "Resistência": 11,
+      "Vontade": 7
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 84,
+      "Poderes": 26,
+      "Defesas": 15
+    },
+    "total": 150,
+    "complicacoes": [
+      {
+        "titulo": "doing Good",
+        "texto": "Arn strives relationship: Roy Lincoln, the origina Arn’s longtime best friend. Arn had ro (later marriages) with Fury I and Phan children with the latter. Kate (Manhun granddaughter, and her son Ramsey is A n spent most of the postwar years work gence agency Argent along with his sec ight, but resigned after the former Ba red their child. Munro retired to a ho y Lincoln, only sporadically adventuri mber and Freedom Fighter. In the wake currently focused on connecting with ildren. ptune perkInS ptune Perkins was conceived in the pre ergy source known as the Vril so that ilities that would allow him to bring ther Arthur Gordon Pym to justice. As rn a “human dolphin,” but his parents zi agents in February 1942 before they stiny to him. nding the Sea Suit his parents designe ught to join the All-Star Squadron, bu onary period as part of the Young All- norably throughout the war, learning h lping his grandfather reform during th ter the war, Perkins assisted Hawkman later married his former Squadron tea mi) Shimada, but the relationship did rth to a daughter during the marriage Deep Blue, but later events revealed lantean sorcerer Atlan. The Dor of th rkins to abandon life at sea and get i coming a U.S. senator. rkins used his political clout to assi stice” in its efforts to outlaw undera wever, the accomplishments of Young Ju n Perkins’ admiration and he recanted tion. roes & VHeroes & VIIllallaIIns, Vol. 2 er #3338244)"
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

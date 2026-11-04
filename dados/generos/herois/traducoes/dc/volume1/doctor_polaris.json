@@ -1,0 +1,134 @@
+{
+  "nome_pt": "Doctor Polaris",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 170,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 0,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 2,
+      "Int": 5,
+      "Pro": 4,
+      "Pre": 3
+    },
+    "poderes": [
+      "Absorb EM Energy: Enhanced Magnetic Force-Field 3, Dissipação (recharges when exposed to source or attack with electromagnetic descriptor); Enhanced Regeneração 10, Dissipação (recharges when exposed to source or attack with electromagnetic descriptor), Sustentado (8 PP)",
+      "Voo: Voo 5 (96 km/h) (10 PP)",
+      "Magnetic Control: Arranjo (31 pontos)",
+      "• Neuro-Electrical Shutdown: Aflição à Distância 12 (resistido por Fortitude; Tonto, Atordoado, Incapacitado) Linked to Aflição à Distância (resistido por Fortitude; Vulnerável) 12, Limitado Degree 2, Preciso (31 PP)",
+      "• EM Raio: Dano à Distância 12, Variável Descriptor (Electromagnetic, Electrical, Laser), Preciso (1 PP)",
+      "• EM Pulse: Área de Explosão Nulificar 7, Affects Objects (Only), Broad (Electronics), Simultaneous (1 PP)",
+      "• Magnetize: Aflição 14 (resistido por Fortitude; Impedido, Imóvel) Área de Explosão 3 (120 feet), Limitado a targets made of or carrying metal, Limitado Degree (1 PP)",
+      "• Metal Manipulation: Mover Objetos 14, Damaging, Limitado a Metallic/Conductive Objects (1 PP)",
+      "• Molecular Acceleration: Environment Control 14 (Extreme Calor) (1 PP)",
+      "Magnetic Force-Field: Impenetrável Proteção 9, Sustentado (18 PP)",
+      "Magnetic Sense: Sentidos 9 (À Distância and Preciso Detect Electromagnetics, À Distância and Preciso Detect Metal, Noção de Direção) (9 PP)",
+      "Composite Suit: Proteção 3, Removível (-1 ponto) (2 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Preciso",
+      "Inventor",
+      "Redirecionar",
+      "Maestria em Perícia (Tecnologia)",
+      "Assustar"
+    ],
+    "pericias": [
+      {
+        "nome": "Enganação",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Especialidade: Science",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Especialidade: Physician",
+        "graduacoes": 8,
+        "total": 13
+      },
+      {
+        "nome": "Combate à Distância: Magnetic Control",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 5,
+        "total": 9
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 12
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 10,
+        "total": 15
+      },
+      {
+        "nome": "Tratamento",
+        "graduacoes": 8,
+        "total": 13
+      }
+    ],
+    "iniciativa": 3,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 2,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 1"
+      },
+      {
+        "nome": "EM Raio",
+        "bonus": 12,
+        "alcance": "À distância",
+        "dano": "Dano 12 Magnetize or Metal À Distância, Dano 14 or Manipulation +10 other effects Neuro-Electrical Shutdown +12 À Distância, Aflição 12, resistido por Fortitude"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 7,
+      "Fortitude": 7,
+      "Aparar": 6,
+      "Resistência": 15,
+      "Vontade": 7
+    },
+    "observacao_defesas": "* Vontade 7 *Without Enhanced Magnetic Force-Field.",
+    "custos": {
+      "Habilidades": 42,
+      "Perícias": 35,
+      "Poderes": 83,
+      "Defesas": 18,
+      "Vantagens": 4
+    },
+    "total": 182,
+    "complicacoes": [
+      {
+        "titulo": "Eroding Sanity",
+        "texto": "His magnetic Powers slowly sap Neal Emerson’s Prontidão and Vontade. He is also susceptible to Telepatia Powers."
+      },
+      {
+        "titulo": "Magnetic",
+        "texto": "Doctor Polaris is basically a living magnet, and as such he functions like one, losing his “charge” when exposed to extreme Calor, recharging with kinetic energy, susceptible to magnetic fields, etc."
+      },
+      {
+        "titulo": "Split Personality",
+        "texto": "Doctor Polaris is a second personality within Neal Emerson. Both personalities wrestle for control."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

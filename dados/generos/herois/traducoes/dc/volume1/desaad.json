@@ -1,0 +1,117 @@
+{
+  "nome_pt": "Desaad",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 146,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 2,
+      "Agi": 1,
+      "Des": 4,
+      "Lut": 3,
+      "Int": 7,
+      "Pro": 3,
+      "Pre": 1
+    },
+    "poderes": [
+      "Imunidade 1 (Envelhecimento)"
+    ],
+    "equipamento": [
+      "Considerable (see description)"
+    ],
+    "vantagens": [
+      "Benefit 5 (Darkseid’s Elite)",
+      "Ataque Defensivo",
+      "Rolamento Defensivo 2",
+      "Memória Eidética",
+      "Inventor",
+      "Bem-Informado"
+    ],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Dagger",
+        "graduacoes": 4,
+        "total": 7
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 14,
+        "total": 15
+      },
+      {
+        "nome": "Especialidade: Torture",
+        "graduacoes": 11,
+        "total": 18
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Intimidação",
+        "graduacoes": 8,
+        "total": 8
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 4,
+        "total": 11
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Combate à Distância: Blaster",
+        "graduacoes": 3,
+        "total": 7
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 5,
+        "total": 6
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 11,
+        "total": 18
+      },
+      {
+        "nome": "Veículos",
+        "graduacoes": 4,
+        "total": 8
+      }
+    ],
+    "iniciativa": 1,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 3,
+        "alcance": "",
+        "dano": "(Dano 1)"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 11,
+      "Aparar": 11,
+      "Fortitude": 9,
+      "Resistência": 4,
+      "Vontade": 9
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 44,
+      "Poderes": 1,
+      "Vantagens": 11,
+      "Perícias": 40,
+      "Defesas": 31
+    },
+    "total": 127,
+    "complicacoes": []
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}

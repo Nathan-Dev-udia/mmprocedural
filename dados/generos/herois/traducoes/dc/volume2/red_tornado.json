@@ -1,0 +1,89 @@
+{
+  "nome_pt": "Tornado Vermelho",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 136,
+  "ficha": {
+    "habilidades": {
+      "For": 10,
+      "Vig": "—",
+      "Agi": 4,
+      "Des": 3,
+      "Lut": 3,
+      "Int": 2,
+      "Pro": 4,
+      "Pre": 0
+    },
+    "poderes": [
+      "a Proteção 13, Impenetrável 6 (19 PP)",
+      "ndr oid Body: Computer Brain: Imunidade 10 (mental effects) (10 PP)",
+      "f ligh t: 8 (800 km/h) (16 PP)",
+      "Self- r epairing: Regeneração 5 (5 PP)",
+      "t ornado C ontrol : Arranjo (32 pontos)",
+      "• t ornado C reation: Perception À Distância Área de Explosão Mover Objetos 8 (32 PP)",
+      "• a ir Raio Dano à Distância 12, Preciso 3 (1 PP)",
+      "• a ir S hield: Deflexão 11 (1 PP)",
+      "• Bend Light: Camuflagem (All Visual) (1 PP)",
+      "Unaging: Imortalidade 5 (24 hours) (5 PP)",
+      "Unliving: Imunidade 30 (Fortitude effects) (30 PP)",
+      "d a e S a V ant G Eidetic Memory, Evasion, Favored Environment (Aerial), Fearless, Improved Iniciativa 2"
+    ],
+    "equipamento": [],
+    "vantagens": [],
+    "pericias": [
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Percepção",
+        "graduacoes": 4,
+        "total": 8
+      },
+      {
+        "nome": "Tecnologia",
+        "graduacoes": 10,
+        "total": 12
+      }
+    ],
+    "iniciativa": 12,
+    "ataques": [
+      {
+        "nome": "Tornado Raio",
+        "bonus": 9,
+        "alcance": "À distância",
+        "dano": "Dano 12"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 10"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 8,
+      "Resistência": 13,
+      "Vontade": 8
+    },
+    "observacao_defesas": "",
+    "custos": {
+      "Habilidades": 42,
+      "Perícias": 11,
+      "Poderes": 125,
+      "Defesas": 13,
+      "Vantagens": 6
+    },
+    "total": 197,
+    "complicacoes": [
+      {
+        "titulo": "Complicação",
+        "texto": "occasionally arise when Red Tornado is re- built, including the loss of emotions and madness. This causes great stress in his personal life; his wife leaves him and he aban- dons his John Smith persona. Red Tornado overcomes this challenge to reconnect with his wife and daughter."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol 2.pdf."
+  ]
+}

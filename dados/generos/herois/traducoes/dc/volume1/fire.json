@@ -1,0 +1,160 @@
+{
+  "nome_pt": "Fogo (Beatriz da Costa)",
+  "conferida_em": "2026-11-02",
+  "pagina_do_livro": 200,
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 3,
+      "Agi": 3,
+      "Des": 3,
+      "Lut": 3,
+      "Int": 2,
+      "Pro": 3,
+      "Pre": 3
+    },
+    "poderes": [
+      "fogo Form: 59 pontos, Ativação (Ação de Movimento –1 ponto) (58 PP)",
+      "Pyroplasm Body: Imunidade 10 (fogo Effects); Intangibilidade 3 (fogo Form); Força Affects Corporeal 2 (22 PP)",
+      "Voo: Voo 5 (96 km/h) (10 PP)",
+      "fogo Projection: Arranjo (30 pontos)",
+      "• Gout of Flame: Área de Linha 2 (120 feet) Dano 10 (30 PP)",
+      "• Burning Touch: Dano 11, Penetrante 11, Preciso 1 (1 PP)",
+      "• fogo Raio: Dano à Distância 10, Enhanced Advantage (Improved Critical 2), Efeito Secundário on 8 graduações (1 PP)",
+      "• Flame Aura: Reação Dano 7 (1 PP)",
+      "• Flaming Fan: Área de Cone Dano 10 (1 PP)",
+      "• Incendiary Raio: Dano à Distância 10 Linked to Aflição à Distância 10 (target is set on fogo; resistido por Fortitude; Resistência Impaired, Resistência Disabled), Limitado Degree (1 PP)"
+    ],
+    "equipamento": [],
+    "vantagens": [
+      "Ataque Imprudente",
+      "Atraente",
+      "Benefit 1 (Checkmate Clearance)",
+      "Ataque Corpo-a-Corpo 2",
+      "Conectado",
+      "Contatos",
+      "Rolamento Defensivo 4",
+      "Ambiente Favorito (Aéreo)",
+      "Improved Critical 2 (fogo Blast)",
+      "Languages (Portuguese native",
+      "English)",
+      "Ação em Movimento"
+    ],
+    "pericias": [
+      {
+        "nome": "Acrobacia",
+        "graduacoes": 10,
+        "total": 13
+      },
+      {
+        "nome": "Combate Corpo-a-Corpo: Desarmado",
+        "graduacoes": 2,
+        "total": 5
+      },
+      {
+        "nome": "Enganação",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Especialidade: Espionage",
+        "graduacoes": 8,
+        "total": 10
+      },
+      {
+        "nome": "Especialidade: Fashion Design",
+        "graduacoes": 5,
+        "total": 7
+      },
+      {
+        "nome": "Intuição",
+        "graduacoes": 9,
+        "total": 12
+      },
+      {
+        "nome": "Investigação",
+        "graduacoes": 5,
+        "total": 7
+      },
+      {
+        "nome": "Persuasão",
+        "graduacoes": 8,
+        "total": 11
+      },
+      {
+        "nome": "Combate à Distância: fogo Projection",
+        "graduacoes": 7,
+        "total": 10
+      },
+      {
+        "nome": "Furtividade",
+        "graduacoes": 7,
+        "total": 10
+      }
+    ],
+    "iniciativa": 3,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 7,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2"
+      },
+      {
+        "nome": "Burning Touch",
+        "bonus": 9,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 11, Penetrante 11"
+      },
+      {
+        "nome": "fogo Raio",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Dano 10, Crit. 18-20, Efeito Secundário on 8 graduações Flaming Fan — Corpo a Corpo, Área de Cone Dano 10 Gout of Flame — Corpo a Corpo, Área de Linha 2 (120 feet) Dano 10"
+      },
+      {
+        "nome": "Incendiary Raio",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Dano 10 and Aflição 10, resistido por Fortitude"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 12,
+      "Fortitude": 6,
+      "Aparar": 8,
+      "Resistência": 7,
+      "Vontade": 6
+    },
+    "observacao_defesas": "* Vontade 6 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 42,
+      "Perícias": 34,
+      "Poderes": 61,
+      "Defesas": 20,
+      "Vantagens": 14
+    },
+    "total": 171,
+    "complicacoes": [
+      {
+        "titulo": "Dark Secret",
+        "texto": "Beatriz’s father is a war criminal."
+      },
+      {
+        "titulo": "Fire Nature",
+        "texto": "fogo can be doused out of her fogo Form by strong water effects, and she may set things on fogo accidentally, including her own clothes."
+      },
+      {
+        "titulo": "Flaming Heart",
+        "texto": "fogo may burst into her complete or partial fogo Form during emotional outbursts."
+      },
+      {
+        "titulo": "Thrillseeker",
+        "texto": "Beatriz loves excitement, adventure and glamour; Amanda Waller claims she also enjoys killing. ENEMIES fogo has always fought and adventured as part of a team or organization, so their enemies become hers."
+      }
+    ]
+  },
+  "notas": [
+    "Ficha adaptada e traduzida automaticamente a partir de dc adventures heroes and villains vol1.pdf."
+  ]
+}
