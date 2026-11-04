@@ -1,7 +1,7 @@
 """Planilhas (.xlsx) de armas, itens e poderes montadas a partir dos JSON do gênero.
 
 Como o apêndice dos livros, saem sempre iguais ao que o gerador usa: mudar um item ou um poder no JSON já muda
-a planilha. Os gêneros que não estão em GERADAS usam as planilhas feitas à mão em dados/livros/<gênero>/.
+a planilha. Os outros gêneros não têm planilha de equipamento.
 """
 
 import io
@@ -13,7 +13,41 @@ from openpyxl.utils import get_column_letter
 from . import formatter, medidas, player, rules
 
 # Gêneros cujas planilhas saem dos dados, e quais.
-GERADAS = {"fantasia": ("armas", "itens", "poderes")}
+GERADAS = {"fantasia": ("armas", "itens", "poderes"), "faroeste": ("armas", "itens")}
+
+# Folhas da planilha de armas: (título, categoria do equipment.json). Só entram os itens com ataque.
+FOLHAS_DE_ARMAS = {
+    "fantasia": (("Armas brancas", "Arma branca"), ("Armas à distância", "Arma à distância")),
+    "faroeste": (("Armas de fogo", "Arma de fogo"), ("Armas brancas", "Arma branca"),
+                 ("Armas de arremesso", "Arma de arremesso"), ("Explosivos", "Explosivos")),
+}
+
+# Faroeste: as classes de arma de fogo do Manual dos Mecanismos (Lite), tabela de armas, p. 29; descrições nas p. 31-32.
+CLASSES_DE_ARMAS_DE_FOGO = [
+    ["Pistola de apoio", "Dano 2 à distância", 4, "Do tamanho da palma da mão, de baixo calibre e fácil de esconder."],
+    ["Pistola leve", "Dano 3 à distância", 6, "Revólver ou pistola de pequeno calibre."],
+    ["Pistola pesada", "Dano 4 à distância", 8, "Revólver ou pistola de alto calibre."],
+    ["Rifle", "Dano 4 à distância", 8, "Cano longo, usado com as duas mãos: mais alcance e mira mais estável."],
+    ["Rifle de alto poder", "Dano 5 à distância", 10, "Versão mais potente do rifle."],
+    ["Escopeta", "Dano 5 à distância", 10, "Com chumbo: +2 no ataque, mas Dano máximo 3 contra armadura."],
+    ["Submetralhadora (pistola)", "Dano 3 à distância, Multiataque", 9, "Pistola de disparo automático."],
+    ["Rifle de assalto", "Dano 5 à distância, Multiataque", 15, "Arma automática de cano longo."],
+]
+NOTAS_DAS_ARMAS_DO_FAROESTE = [
+    ["Classe", "Derringers, pepperboxes e a pistola-adaga são pistolas de apoio. Revólveres de dano 2d6 no livro de "
+               "faroeste são pistolas leves; os de 2d6+1 (calibres .44 e .45), pistolas pesadas. Carabinas e rifles "
+               "de 2d8 são rifles; os de 2d10, rifles de alto poder."],
+    ["Gatlings", "O manual não as traz: usam Multiataque com os perfis de submetralhadora (pistola) e rifle de "
+                 "assalto. Só disparam em rajada; a metralhadora fica montada num tripé ou numa carroça."],
+    ["Pólvora negra", "Armas de carga pela boca recarregam devagar (ação padrão). O manual (p. 32) sugere ainda a "
+                      "falha Não Confiável (1 disparo a cada 5 rodadas), se o mestre quiser mais realismo."],
+    ["Munição", "O manual não controla munição: ficar sem balas é uma complicação. Tiros e Munição são referência."],
+    ["Distância", "Graduação do Dano × 7,5 m (curta, sem penalidade), × 15 m (média, –2 no ataque) e × 30 m "
+                  "(longa, –5 no ataque)."],
+    ["Custo (PP)", "O custo em pontos de poder do manual. Com equipamento em dinheiro, as armas são pagas em dólares "
+                   "e o custo em PP não sai do orçamento do personagem."],
+    ["Peso", "Do livro de faroeste. \"Estimado\" quando o livro não pesa o item; \"desprezível\" quando nem conta."],
+]
 
 AZUL_CLARO = PatternFill("solid", fgColor="C7DBF1")   # o mesmo dos cabeçalhos dos livros
 
@@ -32,6 +66,13 @@ def preco_em_moedas(valor):
     if pecas_de_cobre % 10 == 0:
         return f"{pecas_de_cobre // 10} pp"
     return f"{pecas_de_cobre} pc"
+
+
+def _preco(dados, valor):
+    """15 po na fantasia; $15 ou 2.550eb nos outros gêneros."""
+    if dados["genero"]["id"] == "fantasia":
+        return preco_em_moedas(valor)
+    return "a combinar" if valor is None else formatter.dolares(valor, player.moeda(dados))
 
 
 def _folha(livro, titulo, cabecalho, linhas, larguras):
@@ -79,35 +120,76 @@ def _salvar(livro):
 
 def _efeito_da_arma(ataque):
     efeito = ataque.get("efeito_nome", "Dano")
-    alcance = "à distância" if ataque["tipo"] == "distancia" else "corpo a corpo"
+    alcance = {"distancia": "à distância", "area": "em área"}.get(ataque["tipo"], "corpo a corpo")
     texto = f"{efeito} {ataque['efeito']} {alcance}" + (" + Força" if ataque.get("soma_forca") else "")
+    if ataque.get("multiataque"):
+        texto += ", Multiataque"
     if ataque.get("resistido_por"):
         texto += f", resistido por {ataque['resistido_por']}"
     return texto
 
 
+def _folhas_de_armas(dados):
+    """[(título, [armas])] da planilha de armas; os itens que ficam nela não se repetem na planilha de itens."""
+    catalogo = player.catalogo_do_jogador(dados)
+    return [(titulo, [i for i in catalogo if i["categoria"] == categoria and i.get("ataque")])
+            for titulo, categoria in FOLHAS_DE_ARMAS.get(dados["genero"]["id"], ())]
+
+
+def _critico(ataque):
+    return f"{ataque.get('critico', 20)}–20" if ataque.get("critico", 20) < 20 else "20"
+
+
+def _distancias(ataque):
+    """"22,5 / 45 / 90 m": curta, média e longa, pela graduação do Dano (livro básico, cap. 6)."""
+    if ataque["tipo"] != "distancia":
+        return ""
+    return " / ".join(f"{ataque['efeito'] * metros:g}".replace(".", ",") for metros in (7.5, 15, 30)) + " m"
+
+
 def planilha_de_armas(dados):
     livro = Workbook()
     catalogo = player.catalogo_do_jogador(dados)
-    cabecalho = ["Arma", "Perícia", "Efeito", "Tipo de dano", "Qualidades", "Crítico", "Custo (PP)", "Preço", "Peso",
-                 "Massa (graduação)", "Notas", "Fonte"]
-    larguras = [24, 32, 30, 16, 26, 9, 10, 11, 11, 11, 40, 60]
-    for titulo, categoria in (("Armas brancas", "Arma branca"), ("Armas à distância", "Arma à distância")):
-        linhas = [[i["nome"], i["ataque"].get("pericia", ""), _efeito_da_arma(i["ataque"]),
-                   i["ataque"].get("descritor", ""), ", ".join(i["ataque"].get("qualidades", [])),
-                   f"{i['ataque'].get('critico', 20)}–20" if i["ataque"].get("critico", 20) < 20 else "20",
-                   i.get("custo"), preco_em_moedas(i.get("preco"))] + _colunas_de_peso(dados, i)
-                  + [i.get("notas", ""), i.get("fonte", "")]
-                  for i in catalogo if i["categoria"] == categoria and i.get("ataque")]
-        _folha(livro, titulo, cabecalho, linhas, larguras)
+    fantasia = dados["genero"]["id"] == "fantasia"
+    if fantasia:
+        cabecalho = ["Arma", "Comércio", "Perícia", "Efeito", "Tipo de dano", "Qualidades", "Crítico", "Custo (PP)",
+                     "Preço", "Peso", "Massa (graduação)", "Notas", "Fonte"]
+        larguras = [24, 18, 32, 30, 16, 26, 9, 10, 11, 11, 11, 40, 60]
+    else:
+        cabecalho = ["Arma", "Comércio", "Classe", "Perícia", "Efeito", "Crítico", "Custo (PP)", "Preço", "Peso",
+                     "Massa (graduação)", "Tiros", "Munição", "Distância (curta / média / longa)", "Notas", "Fonte"]
+        larguras = [30, 18, 22, 32, 34, 9, 10, 11, 11, 11, 7, 32, 20, 40, 60]
+    for titulo, armas_da_folha in _folhas_de_armas(dados):
+        linhas = []
+        for i in armas_da_folha:
+            ataque = i["ataque"]
+            if fantasia:
+                linhas.append([i["nome"], i.get("comercio", ""), ataque.get("pericia", ""), _efeito_da_arma(ataque),
+                               ataque.get("descritor", ""), ", ".join(ataque.get("qualidades", [])), _critico(ataque),
+                               i.get("custo"), _preco(dados, i.get("preco"))] + _colunas_de_peso(dados, i)
+                              + [i.get("notas", ""), i.get("fonte", "")])
+            else:
+                municao = dados["equipamentos"][i["municao"]]["nome"] if i.get("municao") else ""
+                linhas.append([i["nome"], i.get("comercio", ""), i.get("classe", ""), ataque.get("pericia", ""),
+                               _efeito_da_arma(ataque), _critico(ataque), i.get("custo"), _preco(dados, i.get("preco"))]
+                              + _colunas_de_peso(dados, i)
+                              + [i.get("tiros", ""), municao, _distancias(ataque), i.get("notas", ""),
+                                 i.get("fonte", "")])
+        if linhas:
+            _folha(livro, titulo, cabecalho, linhas, larguras)
     armas = {}
     for arma in catalogo:
         if arma.get("municao"):
             armas.setdefault(arma["municao"], []).append(arma["nome"])
-    _folha(livro, "Munição", ["Munição", "Preço", "Peso", "Massa (graduação)", "Para", "Descrição"],
-           [[i["nome"], preco_em_moedas(i.get("preco"))] + _colunas_de_peso(dados, i)
+    _folha(livro, "Munição", ["Munição", "Comércio", "Preço", "Peso", "Massa (graduação)", "Para", "Descrição"],
+           [[i["nome"], i.get("comercio", ""), _preco(dados, i.get("preco"))] + _colunas_de_peso(dados, i)
             + [", ".join(armas.get(i["id"], [])), i.get("descricao", "")]
-            for i in catalogo if i["categoria"] == "Munição"], [30, 11, 11, 11, 24, 40])
+            for i in catalogo if i["categoria"] == "Munição"], [30, 18, 11, 11, 11, 24, 40])
+    if not fantasia:
+        _folha(livro, "Classes de armas", ["Classe", "Efeito", "Custo (PP)", "Descrição"],
+               [[c, e, custo, d] for c, e, custo, d in CLASSES_DE_ARMAS_DE_FOGO], [26, 34, 10, 70])
+        _folha(livro, "Como ler", ["Coluna", "O que quer dizer"], NOTAS_DAS_ARMAS_DO_FAROESTE, [16, 100])
+        return _salvar(livro)
     _folha(livro, "Qualidades", ["Qualidade", "O que faz"],
            [[nome, texto] for nome, texto in rules.QUALIDADES_DE_ARMA.items()]
            + [["Dano", "Pelo dado do Livro do Jogador (D&D 5e): d4 → 1, d6 → 2, d8 → 3, d10, d12 ou 2d6 → 4. Armas "
@@ -132,8 +214,9 @@ def _conteudo_do_kit(dados, item):
 
 def planilha_de_itens(dados):
     livro = Workbook()
-    catalogo = [i for i in player.catalogo_do_jogador(dados) if i["categoria"] not in
-                ("Arma branca", "Arma à distância", "Munição")]
+    todos = player.catalogo_do_jogador(dados)
+    na_planilha_de_armas = {i["id"] for _, armas in _folhas_de_armas(dados) for i in armas}
+    catalogo = [i for i in todos if i["id"] not in na_planilha_de_armas and i["categoria"] != "Munição"]
     linhas = []
     for item in catalogo:
         efeito = item.get("descricao", "")
@@ -141,12 +224,17 @@ def planilha_de_itens(dados):
             efeito = f"Proteção {item['protecao']}"
         elif item.get("defesas_ativas"):
             efeito = f"+{item['defesas_ativas']} em Esquiva e Aparar"
-        linhas.append([item["categoria"], item["nome"], preco_em_moedas(item.get("preco"))]
+        linhas.append([item["categoria"], item["nome"], item.get("comercio", ""), _preco(dados, item.get("preco"))]
                       + _colunas_de_peso(dados, item)
                       + [_velocidade(item), efeito, _conteudo_do_kit(dados, item), item.get("fonte", "")])
-    _folha(livro, "Itens", ["Categoria", "Item", "Preço", "Peso", "Massa (graduação)", "Velocidade e carga",
-                            "Efeito / descrição", "Conteúdo (kits)", "Fonte"],
-           linhas, [22, 32, 11, 13, 11, 30, 60, 50, 50])
+    _folha(livro, "Itens", ["Categoria", "Item", "Comércio", "Preço", "Peso", "Massa (graduação)",
+                            "Velocidade e carga", "Efeito / descrição", "Conteúdo (kits)", "Fonte"],
+           linhas, [22, 32, 18, 11, 13, 11, 30, 60, 50, 50])
+    # Tudo o que se compra, armas incluídas, agrupado pela loja: filtrar "Ferreiro" mostra espadas e armaduras.
+    por_comercio = sorted(todos, key=lambda i: (i.get("comercio", ""), i["categoria"], i["nome"]))
+    _folha(livro, "Por comércio", ["Comércio", "Item", "Categoria", "Preço", "Peso", "Massa (graduação)"],
+           [[i.get("comercio", ""), i["nome"], i["categoria"], _preco(dados, i.get("preco"))]
+            + _colunas_de_peso(dados, i) for i in por_comercio], [20, 32, 22, 11, 13, 11])
     _folha_de_medidas(livro)
     return _salvar(livro)
 

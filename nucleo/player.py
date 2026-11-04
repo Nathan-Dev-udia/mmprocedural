@@ -37,8 +37,16 @@ PERICIAS_DE_RESERVA = ["Percepção", "Atletismo", "Intuição", "Furtividade", 
                        "Enganação", "Intimidação", "Investigação", "Especialidade: Cavalgar"]
 
 # Itens que o jogador pode levar em mais de uma unidade (cada unidade é o pacote do catálogo).
-CATEGORIAS_COM_QUANTIDADE = {"Comida", "Munição", "Bebida", "Poções"}
+CATEGORIAS_COM_QUANTIDADE = {"Comida", "Munição", "Bebida", "Poções", "Óleos", "Bombas", "Ingredientes"}
 QUANTIDADE_MAXIMA = 99
+
+# No sorteio, o personagem não gasta tudo em equipamento: os extras (outras armas, opcionais) não descem abaixo da
+# PARTE_GUARDADA do dinheiro inicial, e nem os itens essenciais descem abaixo da PARTE_MINIMA.
+PARTE_GUARDADA = 0.15
+PARTE_MINIMA = 0.05
+# Item "de_origem" (o kit da escola do bruxo): no sorteio, ele vem com o personagem, que deixa esta parte do
+# dinheiro inicial no lugar do preço (nunca mais que o preço do item).
+PARTE_PAGA_PELA_ORIGEM = 0.5
 
 
 def _arquetipo(dados, arquetipo_id):
@@ -146,6 +154,16 @@ def _aplicar_raca(dados, ficha, raca, np):
         ficha["pericias"][nome] = ficha["pericias"].get(nome, 0) + graduacao
     for poder_id in raca.get("poderes", []):
         ficha["poderes"][poder_id] = poder_do_genero(dados, poder_id, np)
+    if raca.get("tamanho"):
+        # Os efeitos do tamanho o validador aplica (rules.TAMANHOS); o custo entra como um poder racial, para
+        # aparecer na lista de poderes da ficha.
+        ficha["tamanho"] = raca["tamanho"]
+        tamanho = rules.TAMANHOS[raca["tamanho"]]
+        ficha["poderes"][f"tamanho_{raca['tamanho']}"] = {
+            "nome": f"{texto_do_tamanho(raca['tamanho'])} [Casa: custo de raça]",
+            "nome_curto": tamanho["nome"], "custo_informado": tamanho["custo_racial"], "ajustes": {},
+            "descricao": "Tamanho natural (Encolhimento 4, Permanente, Inato), com o custo do saldo dos traços.",
+            "fonte": "Livro básico, p. 106 (Encolhimento); custo de raça da casa"}
 
 
 def custo_da_raca(dados, raca, np):
@@ -165,7 +183,23 @@ def tracos_da_raca(dados, raca):
     tracos += [f"{nome} {grad}" for nome, grad in raca.get("pericias", {}).items()]
     tracos += [f"{dados['poderes_do_genero'][p]['nome']}: {dados['poderes_do_genero'][p].get('descricao', '')}"
                for p in raca.get("poderes", [])]
+    if raca.get("tamanho"):
+        tracos.append(texto_do_tamanho(raca["tamanho"]))
     return tracos
+
+
+def texto_do_tamanho(tamanho_id):
+    """"Pequeno (3 PP): Furtividade +4, Intimidação –2, Esquiva e Aparar +2, Força –1"."""
+    tamanho = rules.TAMANHOS[tamanho_id]
+    defesas = tamanho["defesas"]
+    partes = [f"{nome} {valor:+d}" for nome, valor in tamanho["pericias"].items()]
+    if len(set(defesas.values())) == 1:
+        partes.append(f"{' e '.join(defesas)} {next(iter(defesas.values())):+d}")
+    else:
+        partes += [f"{nome} {valor:+d}" for nome, valor in defesas.items()]
+    nomes = {"For": "Força", "Vig": "Vigor", "Agi": "Agilidade"}
+    partes += [f"{nomes.get(h, h)} {valor:+d}" for h, valor in tamanho["habilidades"].items()]
+    return (f"{tamanho['nome']} ({tamanho['custo_racial']} PP): " + ", ".join(partes)).replace("-", "–")
 
 
 def poder_do_genero(dados, implante_id, np):
@@ -266,6 +300,13 @@ def _cabe_no_np(item, np, vantagens):
 
 def _equipamento_automatico(dados, arquetipo, foco, np, vantagens, rng):
     """Lista de compras coerente com o arquétipo e o foco, na ordem de prioridade."""
+    prioritarios, extras = _equipamento_automatico_em_partes(dados, arquetipo, foco, np, vantagens, rng)
+    return prioritarios + extras
+
+
+def _equipamento_automatico_em_partes(dados, arquetipo, foco, np, vantagens, rng):
+    """(prioritários, extras): a primeira arma, a munição, os itens básicos, os essenciais e os do foco; depois as
+    outras armas e os opcionais, que só entram com o dinheiro que não fica guardado."""
     catalogo = dados["equipamentos"]
     cabe = [i for i in arquetipo["armas"]["principais"] if _cabe_no_np(catalogo[i], np, vantagens)]
     lista = []
@@ -288,13 +329,10 @@ def _equipamento_automatico(dados, arquetipo, foco, np, vantagens, rng):
     # Ordem de compra (o dinheiro pode acabar no meio): a primeira arma e a munição dela, itens básicos,
     # essenciais (armadura...), itens do foco, as outras armas com a munição e, por último, os opcionais.
     primeira, outras = lista[:1], lista[1:] + ([secundaria] if secundaria else [])
-    ordem = (primeira + municoes(primeira) + itens_basicos(dados) + arquetipo["itens"]["essenciais"]
-             + foco.get("itens", []) + outras + municoes(outras) + opcionais)
-    sem_repetir = []
-    for item in ordem:
-        if item not in sem_repetir:
-            sem_repetir.append(item)
-    return sem_repetir
+    prioritarios = list(dict.fromkeys(primeira + municoes(primeira) + itens_basicos(dados)
+                                      + arquetipo["itens"]["essenciais"] + foco.get("itens", [])))
+    extras = [i for i in dict.fromkeys(outras + municoes(outras) + opcionais) if i not in prioritarios]
+    return prioritarios, extras
 
 
 def _preco_total(dados, item_id, quantidades):
@@ -302,22 +340,25 @@ def _preco_total(dados, item_id, quantidades):
     return None if preco is None else round(preco * quantidades.get(item_id, 1), 2)
 
 
-def _comprar(dados, itens, dinheiro, obrigatorio=False, quantidades=None):
+def _comprar(dados, itens, dinheiro, obrigatorio=False, quantidades=None, precos_de_origem=None):
     """Compra os itens na ordem da lista. Itens sem preço entram como 'a combinar'.
 
     obrigatorio=True (escolha do jogador): se o dinheiro não der, é erro em vez de pular o item.
     quantidades: {id: n} para itens comprados em mais de uma unidade (o preço da compra é o total).
+    precos_de_origem: {id: preço} dos itens que vêm da origem do personagem, pagos por esse preço.
     """
-    quantidades = quantidades or {}
+    quantidades, precos_de_origem = quantidades or {}, precos_de_origem or {}
     compras, restante, sem_dinheiro = [], dinheiro, []
     for item_id in itens:
         item = dados["equipamentos"][item_id]
-        preco = _preco_total(dados, item_id, quantidades)
+        preco = precos_de_origem.get(item_id, _preco_total(dados, item_id, quantidades))
         quantidade = quantidades.get(item_id, 1)
         if preco is None:
             compras.append({"id": item_id, "nome": item["nome"], "preco": None, "quantidade": quantidade})
         elif preco <= restante + 1e-9:
             compras.append({"id": item_id, "nome": item["nome"], "preco": preco, "quantidade": quantidade})
+            if item_id in precos_de_origem:
+                compras[-1]["preco_normal"] = item["preco"]
             restante -= preco
         else:
             sem_dinheiro.append(item["nome"])
@@ -326,6 +367,12 @@ def _comprar(dados, itens, dinheiro, obrigatorio=False, quantidades=None):
         raise GeneratorError(f"Os itens escolhidos custam {formatter.dolares(total, moeda(dados))}, mas o personagem "
                              f"só tem {formatter.dolares(dinheiro, moeda(dados))}.")
     return compras, round(restante, 2), sem_dinheiro
+
+
+def precos_de_origem(dados, itens, dinheiro):
+    """{id: preço} dos itens "de_origem" da lista: a parte do dinheiro inicial, no máximo o preço do item."""
+    return {i: round(min(dados["equipamentos"][i]["preco"], dinheiro * PARTE_PAGA_PELA_ORIGEM), 2)
+            for i in itens if dados["equipamentos"][i].get("de_origem")}
 
 
 def conteudo_do_kit(item):
@@ -608,13 +655,35 @@ def teto_de_pericia_fora_da_classe(np):
     return max(2, np // 2)
 
 
+def teto_de_habilidade_de_reserva(np):
+    """Graduações máximas de uma habilidade que só recebe a sobra do orçamento (fora das prioridades da classe)."""
+    return max(2, (np + 1) // 2)
+
+
+def _pericias_de_ataque_que_usa(dados, ficha):
+    """Todas as perícias de ataque das armas e dos poderes que o personagem tem."""
+    ataques = [p.get("ataque") for p in ficha["poderes"].values()]
+    ataques += [dados["equipamentos"][i].get("ataque") for i in ficha["equipamento"]]
+    return {a["pericia"] for a in ataques if a and a.get("pericia")}
+
+
+def _sem_ataques_que_nao_usa(prioridades, usadas):
+    """Tira as perícias de ataque de armas que o personagem não carrega: um bárbaro que sorteou um malho não
+    treina Machados (os pontos iriam para uma perícia sem uso e o malho ficaria com +0 de ataque)."""
+    if not usadas:
+        return prioridades
+    return [p for p in prioridades if not (p["tipo"] == "pericia" and p["nome"].startswith("Combate")
+                                           and p["nome"] not in usadas)]
+
+
 def _passos(dados, arquetipo, foco, vantagens_extras, so_vantagens_escolhidas, vantagens, ficha=None, np=6):
     reserva = dados["configuracoes"].get("pericias_de_reserva", PERICIAS_DE_RESERVA)
     teto = teto_de_pericia_fora_da_classe(np)
-    passos = [escalar.ler_passo(p) for p in foco.get("prioridades", [])]
+    usadas = _pericias_de_ataque_que_usa(dados, ficha) if ficha else set()
+    passos = _sem_ataques_que_nao_usa([escalar.ler_passo(p) for p in foco.get("prioridades", [])], usadas)
     # As perícias de ataque vêm logo depois do foco.
     passos += [{"tipo": "pericia", "nome": p} for p in (_pericias_das_armas(dados, ficha) if ficha else [])][:2]
-    passos += [escalar.ler_passo(p) for p in arquetipo["prioridades"]]
+    passos += _sem_ataques_que_nao_usa([escalar.ler_passo(p) for p in arquetipo["prioridades"]], usadas)
     da_classe = {p["nome"] for p in passos if p["tipo"] == "pericia"}
 
     def com_teto(passo):
@@ -625,8 +694,10 @@ def _passos(dados, arquetipo, foco, vantagens_extras, so_vantagens_escolhidas, v
     passos += [com_teto(escalar.ler_passo(p)) for p in dados["configuracoes"].get("prioridades_gerais", [])]
     passos += [{"tipo": "vantagem", "nome": v} for v in vantagens_extras]
     # A sobra vai primeiro para as habilidades (como nos arquétipos do livro), e só depois para perícias.
-    # O arquétipo pode trocar a lista (ex.: o bruxo caçador de monstros não põe sobra em Presença).
-    passos += [{"tipo": "habilidade", "nome": h}
+    # O arquétipo pode trocar a lista (ex.: o bruxo caçador de monstros não põe sobra em Presença). As que não estão
+    # nas prioridades param no teto da reserva (as das prioridades já entraram antes, sem teto).
+    principais = [p["nome"] for p in passos if p["tipo"] == "habilidade"]
+    passos += [{"tipo": "habilidade", "nome": h, "teto": teto_de_habilidade_de_reserva(np), "abaixo_de": principais}
                for h in arquetipo.get("habilidades_de_reserva", HABILIDADES_DE_RESERVA)]
     passos += [com_teto({"tipo": "pericia", "nome": p}) for p in reserva]
     if so_vantagens_escolhidas:
@@ -747,8 +818,19 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
             compras, troco, sem_dinheiro = _comprar(dados, ids, riqueza["dinheiro"] + divida, obrigatorio=True,
                                                     quantidades=quantidades)
         else:
-            lista = _equipamento_automatico(dados, arquetipo, foco, np, vantagens, rng)
-            compras, troco, sem_dinheiro = _comprar(dados, lista, riqueza["dinheiro"])
+            prioritarios, extras = _equipamento_automatico_em_partes(dados, arquetipo, foco, np, vantagens, rng)
+            # O que vem da origem entra primeiro. Os prioritários usam tudo menos a parte mínima; os extras, só o que
+            # passa da parte guardada (se os prioritários já comeram essa parte, não entra extra nenhum).
+            origem = precos_de_origem(dados, prioritarios + extras, riqueza["dinheiro"])
+            prioritarios = list(origem) + [i for i in prioritarios if i not in origem]
+            extras = [i for i in extras if i not in origem]
+            minimo = round(riqueza["dinheiro"] * PARTE_MINIMA, 2)
+            compras, troco, sem_dinheiro = _comprar(dados, prioritarios, riqueza["dinheiro"] - minimo,
+                                                    precos_de_origem=origem)
+            troco = round(troco + minimo, 2)
+            guardado = min(troco, round(riqueza["dinheiro"] * PARTE_GUARDADA, 2))
+            mais, troco, faltou = _comprar(dados, extras, troco - guardado)
+            compras, sem_dinheiro, troco = compras + mais, sem_dinheiro + faltou, round(troco + guardado, 2)
             compras, troco = _devolver_municao_sem_arma(dados, compras, troco)
         ficha["equipamento"] = _abrir_kits(dados, [c["id"] for c in compras], ficha["quantidades"])
         compras, troco, fora_do_np = _tirar_armas_acima_do_np(dados, ficha, compras, troco, np)

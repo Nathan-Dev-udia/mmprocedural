@@ -456,9 +456,9 @@ Cada raça traz ajustes de habilidade, às vezes vantagens e perícias, e alguns
 | **Humano** | Versátil e ambicioso. | Nenhum: todos os pontos ficam livres. | 0 PP |
 | **Anão** | Robusto e teimoso, das montanhas. | Vigor +1, Visão no escuro, Resiliência anã (venenos e doenças). | 5 PP |
 | **Elfo** | Gracioso, de sentidos afiados e sangue feérico. | Agilidade +1, Percepção 2, Visão no escuro, Ancestralidade feérica, Sentidos aguçados. | 8 PP |
-| **Halfling** | Pequeno, discreto e sortudo. | Agilidade +1, Sorte, Furtividade 2. | 4 PP |
+| **Halfling** | Pequeno, discreto e sortudo. | Agilidade +1, Sorte, tamanho Pequeno. | 6 PP |
 | **Draconato** | Descendente de dragões, com sopro de fogo. | Força +1, Presença +1, Sopro dracônico. | 10 PP |
-| **Gnomo** | Pequeno, curioso e inventivo. | Intelecto +1, Visão no escuro, Esperteza gnômica. | 6 PP |
+| **Gnomo** | Pequeno, curioso e inventivo. | Intelecto +1, Visão no escuro, Esperteza gnômica, tamanho Pequeno. | 9 PP |
 | **Meio-elfo** | Entre dois mundos, à vontade em ambos. | Presença +1, Persuasão 2, Visão no escuro, Ancestralidade feérica. | 7 PP |
 | **Meio-orc** | Forte e difícil de derrubar. | Força +1, Duro de Matar, Intimidação 2, Visão no escuro. | 6 PP |
 | **Tiefling** | Sangue infernal, chifres e chamas nos dedos. | Presença +1, Visão no escuro, Legado infernal. | 8 PP |
@@ -469,6 +469,7 @@ Cada raça traz ajustes de habilidade, às vezes vantagens e perícias, e alguns
 - **Ancestralidade feérica** e **Esperteza gnômica** (Vontade +2 só contra efeitos mentais, 2 PP): encantamentos, sono mágico e ilusões têm mais dificuldade com você.
 - **Resiliência anã** (Imunidade a venenos e doenças pela metade, 1 PP).
 - **Sopro dracônico** (Dano em cone de fogo): a graduação acompanha o NP (NP – 2, mínimo 1). Por isso o draconato custa mais quanto maior o NP: 6 PP no NP 2, 10 PP no NP 5, 16 PP no NP 8 e 20 PP no NP 10.
+- **Tamanho Pequeno** (halfling e gnomo) [Casa]: Furtividade +4, Intimidação –2, Esquiva e Aparar +2 e Força –1, por **3 PP**: o saldo dos traços pelos preços do livro, em vez dos 9 PP do Encolhimento 4 Inato. A Furtividade e a Intimidação mudam por circunstância e não contam no limite de perícia; a Esquiva e o Aparar contam no limite do NP. A tabela completa de tamanhos está no Livro das Classes e Subclasses.
 - **Legado infernal** (Dano 2 à distância, fogo): o tiefling ataca com a perícia **Combate à Distância: Magia**, a mesma dos conjuradores.
 
 A lista completa dos traços e o custo de cada raça em cada NP estão no **Apêndice**.
@@ -497,20 +498,22 @@ Duas subclasses vão além:
 
 ### 8.2 As 12 classes
 
-| Classe | Conceito | Vantagens essenciais | Magias e dons essenciais | Subclasses |
-|----|----|----|----|----|
-| **Guerreiro** | Mestre das armas e da armadura, na linha de frente. | Ataque Poderoso, Iniciativa Aprimorada, Rolamento Defensivo | Retomar o fôlego | Campeão, Mestre de batalha, Cavaleiro arcano, Cavaleiro, Arqueiro de elite, Gladiador |
-| **Bárbaro** | Guerreiro selvagem movido pela fúria. | Ataque Poderoso, Destemido, Duro de Matar | Fúria | Caminho do furioso, Guerreiro totêmico, Selvagem das montanhas, Guardião ancestral, Coração de fera |
-| **Ladino** | Furtividade, armadilhas e golpes pelas costas. | Finta Ágil, Evasão, Ferramentas Aprimoradas | — | Ladrão, Assassino, Trapaceiro arcano, Espadachim, Mestre da intriga |
-| **Mago** | Estudioso da magia arcana, com grimório. | Ritualista, Esforço Extraordinário | Raio de fogo, Armadura arcana | Evocação, Ilusão, Abjuração, Necromancia, Adivinhação, Encantamento, Transmutação, Mago rúnico, Lâmina cantante |
-| **Feiticeiro** | Magia no sangue, conjurada por instinto. | Esforço Extraordinário, Destemido | Raio de fogo | Linhagem dracônica, Magia selvagem, Alma da tempestade, Linhagem sombria, Mente aberrante |
-| **Bruxo** | Fez um pacto com um ser poderoso. | Esforço Extraordinário, Assustar | Rajada mística | Corruptor, Arquifada, Grande Antigo, Caçador de monstros, Pacto da lâmina, Celestial |
-| **Clérigo** | Sacerdote guerreiro do seu deus. | Inspirar, Ritualista | Chama sagrada, Curar ferimentos | Vida, Guerra, Luz, Tempestade, Trapaça, Morte, Conhecimento |
-| **Paladino** | Cavaleiro sagrado ligado a um juramento. | Destemido, Interpor-se | Cura pelas mãos, Aura de coragem | Devoção, Anciões, Vingança, Coroa, Conquista |
-| **Patrulheiro** | Caçador e batedor das terras selvagens. | Rastrear, Inimigo Favorito | Passo sem rastro | Caçador, Mestre das feras, Batedor da fronteira, Perseguidor sombrio, Andarilho feérico |
-| **Druida** | Guardião da natureza. | Empatia com Animais, Ritualista | Chamar relâmpago, Bálsamo da natureza | Terra, Lua, Pastor, Fogo selvagem, Esporos, Estrelas |
-| **Monge** | Artista marcial que domina o ki. | Evasão, Iniciativa Aprimorada | Artes marciais, Golpe atordoante | Mão Aberta, Sombra, Quatro Elementos, Mestre Bêbado, Alma Solar |
-| **Bardo** | Músico cuja magia vem da música. | Inspirar, Fascinar | Zombaria cruel, Palavra de cura | Conhecimento, Bravura, Glamour, Espadas, Sussurros |
+| Classe | Conceito | Habilidades principais | Vantagens essenciais | Magias e dons essenciais | Subclasses |
+|----|----|----|----|----|----|
+| **Guerreiro** | Mestre das armas e da armadura, na linha de frente. | Luta, Vigor e Força | Ataque Poderoso, Iniciativa Aprimorada, Rolamento Defensivo | Retomar o fôlego | Campeão, Mestre de batalha, Cavaleiro arcano, Cavaleiro, Arqueiro de elite, Gladiador |
+| **Bárbaro** | Guerreiro selvagem movido pela fúria. | Força, Vigor e Luta | Ataque Poderoso, Destemido, Duro de Matar | Fúria | Caminho do furioso, Guerreiro totêmico, Selvagem das montanhas, Guardião ancestral, Coração de fera |
+| **Ladino** | Furtividade, armadilhas e golpes pelas costas. | Agilidade e Destreza | Finta Ágil, Evasão, Ferramentas Aprimoradas | — | Ladrão, Assassino, Trapaceiro arcano, Espadachim, Mestre da intriga |
+| **Mago** | Estudioso da magia arcana, com grimório. | Intelecto e Destreza | Ritualista, Esforço Extraordinário | Raio de fogo, Armadura arcana | Evocação, Ilusão, Abjuração, Necromancia, Adivinhação, Encantamento, Transmutação, Mago rúnico, Lâmina cantante |
+| **Feiticeiro** | Magia no sangue, conjurada por instinto. | Presença e Destreza | Esforço Extraordinário, Destemido | Raio de fogo | Linhagem dracônica, Magia selvagem, Alma da tempestade, Linhagem sombria, Mente aberrante |
+| **Bruxo** | Fez um pacto com um ser poderoso. | Presença e Destreza | Esforço Extraordinário, Assustar | Rajada mística | Corruptor, Arquifada, Grande Antigo, Caçador de monstros, Pacto da lâmina, Celestial |
+| **Clérigo** | Sacerdote guerreiro do seu deus. | Prontidão e Vigor | Inspirar, Ritualista | Chama sagrada, Curar ferimentos | Vida, Guerra, Luz, Tempestade, Trapaça, Morte, Conhecimento |
+| **Paladino** | Cavaleiro sagrado ligado a um juramento. | Luta e Força | Destemido, Interpor-se | Cura pelas mãos, Aura de coragem | Devoção, Anciões, Vingança, Coroa, Conquista |
+| **Patrulheiro** | Caçador e batedor das terras selvagens. | Destreza, Prontidão e Agilidade | Rastrear, Inimigo Favorito | Passo sem rastro | Caçador, Mestre das feras, Batedor da fronteira, Perseguidor sombrio, Andarilho feérico |
+| **Druida** | Guardião da natureza. | Prontidão e Vigor | Empatia com Animais, Ritualista | Chamar relâmpago, Bálsamo da natureza | Terra, Lua, Pastor, Fogo selvagem, Esporos, Estrelas |
+| **Monge** | Artista marcial que domina o ki. | Agilidade e Luta | Evasão, Iniciativa Aprimorada | Artes marciais, Golpe atordoante | Mão Aberta, Sombra, Quatro Elementos, Mestre Bêbado, Alma Solar |
+| **Bardo** | Músico cuja magia vem da música. | Presença e Destreza | Inspirar, Fascinar | Zombaria cruel, Palavra de cura | Conhecimento, Bravura, Glamour, Espadas, Sussurros |
+
+**Habilidades principais** são as que o gerador sobe primeiro. Quando elas batem nos limites do NP, a sobra vai para as habilidades secundárias da classe (o Apêndice diz quais), que nunca passam da principal mais alta: um bárbaro gerado não sai com mais Presença que Força, nem com Intelecto alto. A Destreza dos conjuradores é a mira das magias de ataque (Combate à Distância: Magia). Algumas subclasses trocam a habilidade principal: o Arqueiro de elite usa Destreza no lugar da Força.
 
 São **69 subclasses** ao todo. O conceito de cada uma, as vantagens, as magias e os itens estão no **Apêndice**.
 
@@ -541,7 +544,7 @@ O Caçador de monstros é a subclasse do bruxo inspirada nos bruxos da série *T
 
 No NP 5, o Igni (Dano 5 em cone) custa 11 PP; Quen, Aard e Axii somam 3 PP; o arranjo inteiro sai por 14 PP (15 com Yrden). A **planilha de poderes** do site traz o custo de cada Sinal em todos os NPs.
 
-- **Equipamento:** o **Kit de bruxo** (120 po): espada de prata para monstros, espada de aço (espada longa) para homens, armadura de couro batido (Proteção 2), 3 doses de elixir, 2 óleos para lâminas, kit de herbalismo e bolsa de componentes. Comprados um a um, sairiam por 365 po; o kit vem com o desconto da escola.
+- **Equipamento:** o **Kit de bruxo** (120 po): espada de prata para monstros, espada de aço (espada longa) para homens, armadura de couro batido (Proteção 2), 3 elixires (Andorinha, Trovoada e Gato), 2 óleos (Necrófago e Fera), kit de herbalismo e bolsa de componentes. Comprados um a um, sairiam por 465 po; o bruxo sai da escola com ele: na ficha sorteada, em vez do preço, deixa metade do dinheiro inicial (no máximo o preço do kit; 75 po para o Aventureiro, 15 po para o Camponês).
 - **Presença baixa:** o gerador não gasta a sobra do orçamento em Presença. Caçadores não são famosos pelo charme.
 - **Complicação fixa:** todo caçador de monstros é um **mutante odiado e temido** (Preconceito): olhos de gato, pele pálida e o estigma dos bruxos fazem o povo, os guardas e os nobres desconfiarem dele. Essa complicação sempre entra na ficha, inclusive quando você sorteia as complicações.
 
@@ -998,7 +1001,7 @@ Alguns exemplos (o **Apêndice** traz a lista completa com preços):
 - **Ferramentas de ladrão** (25 po), **Kit de herbalismo** (5 po), **Kit de primeiros-socorros** (5 po), **Alaúde** (35 po).
 - **Mochila** (2 po), **Saco de dormir** (1 po), **Corda de cânhamo, 15 m** (1 po), **Tochas, 10** (1 pp), **Tenda** (2 po).
 - **Lupa** (100 po, +2 em Investigação), **Aríete portátil** (4 po, +2 em Força para arrombar), **Gancho de escalada** (2 po), **Lanterna furta-fogo** (10 po), **Estrepes** e **esferas de metal** (1 po cada), **Cadeado** (10 po), **Espelho de aço** (5 po).
-- **Poção de cura** (50 po), **Antitoxina** (50 po, +5 em Fortitude contra veneno por uma hora), **Veneno básico** (100 po), **Bomba de bruxo** (50 po). **Água benta** (25 po).
+- **Poção de cura** (50 po), **Antitoxina** (50 po, +5 em Fortitude contra veneno por uma hora), **Veneno básico** (100 po). **Bombas** arremessadas, de 45 a 90 po: Samum (clarão que cega), Estilhaços, Cola, Estrela Dançante (fogo), Gás do Dragão (veneno), Vento do Norte (gelo), Pó Lunar (contra licantropos) e Pó Espectral (deixa espíritos sólidos); a lista com os efeitos está na planilha Poções e Alquimia. **Água benta** (25 po).
 - **Ferramentas de ofício:** suprimentos de alquimista, kits de envenenador e de falsificação, ferramentas de ferreiro, carpinteiro, cartógrafo, joalheiro e navegador, jogos e instrumentos.
 - **Montarias e veículos:** pônei (30 po), burro (8 po), cavalo de montaria (75 po), cavalo de guerra (400 po), sela (10 po), alforjes (4 po), carroça (35 po), barco a remo (50 po).
 
@@ -1014,7 +1017,7 @@ A **planilha de itens** do site traz o catálogo inteiro do gerador, com preço,
 
 Um **kit** é um pacote com preço próprio, mais barato que os itens separados. Na ficha entram o kit e cada item de dentro, com as estatísticas de cada um: as espadas atacam e a armadura protege.
 
-O **Kit de bruxo** (120 po) é o exemplo mais completo: espada de prata, espada longa de aço, couro batido (Proteção 2), 3 doses de elixir, 2 óleos para lâminas, kit de herbalismo e bolsa de componentes. Avulsos, custariam 365 po. As escolas da Víbora e do Urso têm kits próprios (veja a seção 8.3). Se um item de dentro do kit estourar o NP, ele sai da ficha sem reembolso.
+O **Kit de bruxo** (120 po) é o exemplo mais completo: espada de prata, espada longa de aço, couro batido (Proteção 2), 3 elixires (Andorinha, Trovoada e Gato), 2 óleos (Necrófago e Fera), kit de herbalismo e bolsa de componentes. Avulsos, custariam 465 po; o bruxo sai da escola com ele: na ficha sorteada, em vez do preço, deixa metade do dinheiro inicial (no máximo o preço do kit; 75 po para o Aventureiro, 15 po para o Camponês). As escolas da Víbora e do Urso têm kits próprios (veja a seção 8.3). Se um item de dentro do kit estourar o NP, ele sai da ficha sem reembolso.
 
 Os pacotes do Livro do Jogador também viraram kits: **Pacote de explorador** (10 po: mochila, saco de dormir, kit de refeição, pederneira, tochas, 10 dias de rações, cantil e corda), **Pacote de masmorra** (12 po: troca o saco de dormir e o kit de refeição por pé de cabra, martelo e pitões) e **Pacote de estudioso** (40 po: livro, tinta, pena e pergaminho).
 

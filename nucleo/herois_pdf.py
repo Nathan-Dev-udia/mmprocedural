@@ -217,6 +217,12 @@ def _ler_traducao(dados, traduzida):
 
 def campos_do_heroi(ficha_id):
     """{nome do campo: valor} para preencher o modelo; None se o id não existir."""
+    resultado = _campos_e_formulas(ficha_id)
+    return None if resultado is None else resultado[0]
+
+
+def _campos_e_formulas(ficha_id):
+    """(campos, fórmulas a acrescentar no PDF) do herói; None se o id não existir."""
     entrada = herois._catalogo().get(ficha_id)
     if entrada is None:
         return None
@@ -245,6 +251,19 @@ def campos_do_heroi(ficha_id):
         iniciativa = hab["Agi"] + 4 * sum(_inteiro(v, 1) for v in h["vantagens"]
                                           if _chave(v).startswith(("improvedinitiative", "iniciativaaprimorada")))
     campos["Iniciativa"] = f"{iniciativa:+d}"
+    # Os custos de Defesas e Perícias vêm do livro, que nem sempre fecha com as graduações da ficha (e não separa as
+    # de cada defesa): o PDF os mantém. O Total soma os custos mais a diferença que o próprio livro já trazia.
+    formulas = {**pdf_export.formula_da_iniciativa(iniciativa, hab["Agi"]),
+                **pdf_export.formula_do_custo_das_habilidades(h["custos"].get("Habilidades"), hab),
+                "Defesas": pdf_export.MANTER_O_VALOR, "Perícias": pdf_export.MANTER_O_VALOR,
+                "Perícias Total": pdf_export.MANTER_O_VALOR}
+    custos = [h["custos"].get(r) for r in ("Habilidades", "Poderes", "Vantagens", "Perícias", "Defesas")]
+    if isinstance(h["total"], int) and all(isinstance(c, int) for c in custos):
+        partes = ", ".join(f'"{r}"' for r in ("Defesas", "Habilidades", "Perícias", "Poderes", "Vantagens"))
+        formulas["Total"] = (f'AFSimple_Calculate("SUM", new Array ({partes})); '
+                             f"event.value = event.value + ({h['total'] - sum(custos)});")
+    else:
+        formulas["Total"] = pdf_export.MANTER_O_VALOR
 
     for defesa, sigla in rules.DEFESAS_COMPRAVEIS.items():
         if defesa in h["defesas"] and h["defesas"][defesa] is not None and isinstance(hab.get(sigla), int):
@@ -270,7 +289,7 @@ def campos_do_heroi(ficha_id):
     for nome, bonus, dano, _ in h["ataques"][LINHAS["ataques"]:]:
         notas.append(f"Ataque: {nome} {bonus:+d}, Dano {dano}" if isinstance(bonus, int) else f"Ataque: {nome}, {dano}")
 
-    _preencher_pericias(campos, h["pericias"], hab, notas)
+    _preencher_pericias(campos, h["pericias"], hab, notas, formulas)
     campos["Perícias Total"] = str(sum(p["grad"] for p in h["pericias"].values()))
     _preencher_linhas(campos, "Vantagens {n}", h["vantagens"], LINHAS["vantagens"])
     linhas_de_equipamento = []
@@ -289,10 +308,10 @@ def campos_do_heroi(ficha_id):
     if h["detalhes_complicacoes"]:
         condicoes.append(f"Complicações: {h['detalhes_complicacoes']}")
     campos["Notas & Condições"] = "\n".join(condicoes + notas)
-    return campos
+    return campos, formulas
 
 
-def _preencher_pericias(campos, pericias, hab, notas):
+def _preencher_pericias(campos, pericias, hab, notas, formulas):
     usadas = {chave: 0 for chave in LINHAS_ESPECIALIZADAS}
     for nome, p in sorted(pericias.items()):
         sigla = rules.habilidade_da_pericia(nome)
@@ -315,12 +334,11 @@ def _preencher_pericias(campos, pericias, hab, notas):
             continue
         usadas[base] += 1
         n = usadas[base]
-        sigla_padrao = pdf_export.HABILIDADE_PADRAO_DA_LINHA[base]
-        padrao_raw = hab.get(sigla_padrao, 0)
-        padrao = int(padrao_raw) if isinstance(padrao_raw, int) or str(padrao_raw).lstrip("-").isdigit() else 0
-        outros = total - padrao - p["grad"]
+        # A coluna Hab mostra a habilidade da própria perícia; a fórmula da linha acompanha essa habilidade.
+        outros = total - val_sigla - p["grad"]
+        formulas.update(pdf_export.formula_da_linha_de_pericia(base, n, sigla))
         campos[campo_nome.format(n=n)] = nome.split(":", 1)[1].strip() if ":" in nome else ""
-        campos[f"{prefixo}Hab {n}"] = str(padrao_raw)
+        campos[f"{prefixo}Hab {n}"] = str(hab.get(sigla, 0))
         campos[f"{prefixo}Per {n}"] = str(p["grad"])
         campos[f"{prefixo}{sufixo_outros} {n}"] = str(outros) if outros else ""
         campos[f"{prefixo}Total {n}"] = str(total)
@@ -336,7 +354,9 @@ def _compativel_com_a_fonte(texto):
 
 def gerar_pdf(caminho_modelo, ficha_id):
     """Bytes do PDF preenchido; None se o id não existir."""
-    campos = campos_do_heroi(ficha_id)
-    if campos is None:
+    resultado = _campos_e_formulas(ficha_id)
+    if resultado is None:
         return None
-    return pdf_export.preencher_modelo(caminho_modelo, {k: _compativel_com_a_fonte(v) for k, v in campos.items()})
+    campos, formulas = resultado
+    return pdf_export.preencher_modelo(caminho_modelo, {k: _compativel_com_a_fonte(v) for k, v in campos.items()},
+                                       formulas=formulas)

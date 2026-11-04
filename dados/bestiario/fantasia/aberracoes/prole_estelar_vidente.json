@@ -1,0 +1,118 @@
+{
+  "id": "fantasia/aberracoes/prole_estelar_vidente",
+  "genero": "fantasia",
+  "familia": "Prole Estelar",
+  "variante": "Vidente",
+  "padrao": true,
+  "nome": "Prole Estelar Vidente",
+  "tipo": "Aberração",
+  "subtipo": "Prole Estelar",
+  "papel": "Conjurador / Líder / Chefe",
+  "chefe": true,
+  "tamanho": "Médio",
+  "nivel_poder": 11,
+  "ambientes": [
+    "Templos de cultos proibidos",
+    "Ruínas sob céus estranhos",
+    "Subterrâneo"
+  ],
+  "descricao": "Um conjurador mortal que fez contato com uma entidade vinda do caos entre as estrelas e foi tomado por ela. Seu corpo some sob espirais de pele tumoral, as mãos viram nadadeiras grossas e ele carrega um cajado de carne, osso e matéria estelar. Lidera cultos de horrores cósmicos e é o único membro que entende o que eles veneram.",
+  "tatica": "Fica atrás das proles brutas e dispara orbes psíquicos. Teleporta quem chega perto demais para longe, ferindo quem estava ao redor, e troca de lugar com uma prole aliada quando um golpe iria acertá-la. Atravessa paredes e inimigos para escapar ou reposicionar-se.",
+  "complicacoes": [
+    "Matéria instável: sofre dano se terminar o turno dentro de um objeto sólido.",
+    "Motivação: realizar os rituais que abrem uma ponte entre o mundo e o caos de onde veio a entidade que a habita."
+  ],
+  "fonte": "Mordenkainen Apresenta: Monstros do Multiverso (D&D 5e), p. 233, adaptado para M&M 3e",
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 4,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 7,
+      "Int": 6,
+      "Pro": 4,
+      "Pre": 3
+    },
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 11,
+      "Fortitude": 10,
+      "Resistencia": 11,
+      "Vontade": 12
+    },
+    "pericias": {
+      "Percepção": 9,
+      "Especialidade: Magia": 10,
+      "Intuição": 6,
+      "Intimidação": 8,
+      "Enganação": 4,
+      "Combate Corpo-a-Corpo: Cajado Cometa": 4,
+      "Combate à Distância: Orbe Psíquico": 10
+    },
+    "vantagens": [
+      "Ritualista",
+      "Liderança",
+      "Ação em Movimento",
+      "Iniciativa Aprimorada",
+      "Destemido"
+    ],
+    "poderes": [
+      {
+        "nome": "Cajado Cometa",
+        "construcao": "Dano 9 (Baseado em Força, contundente e psíquico) Ligado a Aflição 11 (resistida por Fortitude; Tonto, Atordoado, Incapacitado), CD 21."
+      },
+      {
+        "nome": "Orbe Psíquico",
+        "construcao": "Dano 11 (À Distância, Psíquico, Multiataque)."
+      },
+      {
+        "nome": "Colapsar Distância",
+        "construcao": "Teleporte 1 (18 m; Afeta Outros, Ataque, Percepção, resistido por Vontade; só o alvo) Ligado a Dano 11 (Psíquico, Área Explosão 3 m no espaço que o alvo deixou), CD 21."
+      },
+      {
+        "nome": "Movimento Fora de Fase",
+        "construcao": "Movimento 1 (Permear, meio deslocamento) Ligado a Dano 2 (Psíquico, Reação: cada criatura que atravessa, uma vez por turno)."
+      },
+      {
+        "nome": "Dobrar Espacial",
+        "construcao": "Teleporte 3 (Reação: quando um ataque a acertaria; Limitado: troca de lugar com outra prole estelar a até 18 m, que recebe o ataque)."
+      },
+      {
+        "nome": "Pele Tumoral",
+        "construcao": "Proteção 7."
+      },
+      {
+        "nome": "Natureza Estelar",
+        "construcao": "Imunidade 23 (dano psíquico 10; efeitos de controle mental 5; frio, Limitado a metade 5; dano de armas comuns, Limitado a metade 3)."
+      },
+      {
+        "nome": "Olhos do Vazio",
+        "construcao": "Sentidos 2 (Visão no Escuro)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Cajado Cometa",
+        "bonus": 11,
+        "dano": 11,
+        "critico": 20,
+        "descricao": "Corpo a corpo, contundente e psíquico + Aflição 11 (CD 21 de Fortitude; até Incapacitado)"
+      },
+      {
+        "nome": "Orbe Psíquico",
+        "bonus": 11,
+        "dano": 11,
+        "critico": 20,
+        "descricao": "À distância (36 m), Multiataque"
+      },
+      {
+        "nome": "Colapsar Distância",
+        "bonus": 0,
+        "dano": 11,
+        "descricao": "Teleporta o alvo até 18 m; Área Explosão 3 m no espaço deixado (CD 21 de Esquiva para metade)"
+      }
+    ],
+    "equipamento": []
+  }
+}

@@ -29,10 +29,6 @@ PLANILHAS_POR_GENERO = {
     "fantasia": {
         "pocoes": os.path.join(os.path.dirname(os.path.abspath(__file__)), "dados", "generos", "fantasia", "pocoes.xlsx"),
     },
-    "faroeste": {
-        "armas": os.path.join(PASTA_LIVROS, "faroeste", "armas.xlsx"),
-        "itens": os.path.join(PASTA_LIVROS, "faroeste", "itens.xlsx"),
-    },
 }
 NOMES_DAS_PLANILHAS = {"armas": "Armas", "itens": "Itens", "poderes": "Poderes", "pocoes": "Poções e Alquimia"}
 

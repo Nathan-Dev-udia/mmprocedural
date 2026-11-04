@@ -111,10 +111,9 @@
       "vantagens": {
         "Sorte": 1
       },
-      "pericias": {
-        "Furtividade": 2
-      },
-      "poderes": []
+      "pericias": {},
+      "poderes": [],
+      "tamanho": "pequeno"
     },
     {
       "id": "draconato",
@@ -144,7 +143,8 @@
       "poderes": [
         "visao_escuro",
         "esperteza_gnomica"
-      ]
+      ],
+      "tamanho": "pequeno"
     },
     {
       "id": "meio_elfo",
@@ -327,7 +327,6 @@
           "descricao": "Combina a espada com um pouco de magia arcana.",
           "vantagens": [],
           "prioridades": [
-            "habilidade:Int",
             "pericia:Especialidade: Magia"
           ],
           "armas": [
@@ -339,7 +338,17 @@
           "implantes": [
             "armadura_arcana",
             "raio_de_fogo"
-          ]
+          ],
+          "substitui": {
+            "habilidades_de_reserva": [
+              "Int",
+              "Vig",
+              "For",
+              "Lut",
+              "Agi",
+              "Pro"
+            ]
+          }
         },
         {
           "id": "cavaleiro",
@@ -377,7 +386,28 @@
             "arco_longo"
           ],
           "itens": [],
-          "implantes": []
+          "implantes": [],
+          "substitui": {
+            "habilidades_de_reserva": [
+              "Des",
+              "Vig",
+              "Agi",
+              "Pro",
+              "For",
+              "Lut"
+            ],
+            "prioridades": [
+              "habilidade:Lut",
+              "pericia:Combate Corpo-a-Corpo: Espadas",
+              "habilidade:Vig",
+              "habilidade:Des",
+              "defesa:Aparar",
+              "pericia:Atletismo",
+              "pericia:Intimidação",
+              "defesa:Fortitude",
+              "pericia:Percepção"
+            ]
+          }
         },
         {
           "id": "gladiador",
@@ -397,6 +427,14 @@
           "itens": [],
           "implantes": []
         }
+      ],
+      "habilidades_de_reserva": [
+        "Vig",
+        "For",
+        "Lut",
+        "Agi",
+        "Pro",
+        "Des"
       ]
     },
     {
@@ -560,6 +598,14 @@
           "itens": [],
           "implantes": []
         }
+      ],
+      "habilidades_de_reserva": [
+        "For",
+        "Vig",
+        "Lut",
+        "Agi",
+        "Pro",
+        "Pre"
       ]
     },
     {
@@ -686,7 +732,6 @@
           "descricao": "Usa truques de magia para roubar e enganar.",
           "vantagens": [],
           "prioridades": [
-            "habilidade:Int",
             "pericia:Especialidade: Magia"
           ],
           "armas": [],
@@ -694,7 +739,16 @@
           "implantes": [
             "maos_magicas",
             "imagem_silenciosa"
-          ]
+          ],
+          "substitui": {
+            "habilidades_de_reserva": [
+              "Int",
+              "Agi",
+              "Des",
+              "Pro",
+              "Pre"
+            ]
+          }
         },
         {
           "id": "espadachim",
@@ -737,6 +791,14 @@
           ],
           "implantes": []
         }
+      ],
+      "habilidades_de_reserva": [
+        "Agi",
+        "Des",
+        "Pro",
+        "Int",
+        "Pre",
+        "Lut"
       ]
     },
     {
@@ -925,7 +987,6 @@
             "Fascinar"
           ],
           "prioridades": [
-            "habilidade:Pre",
             "pericia:Persuasão"
           ],
           "armas": [],
@@ -933,7 +994,17 @@
           "implantes": [
             "enfeiticar_pessoa",
             "sono"
-          ]
+          ],
+          "substitui": {
+            "habilidades_de_reserva": [
+              "Int",
+              "Pre",
+              "Vig",
+              "Agi",
+              "Pro",
+              "Des"
+            ]
+          }
         },
         {
           "id": "transmutacao",
@@ -996,8 +1067,26 @@
           "itens": [],
           "implantes": [
             "golpe_arcano"
-          ]
+          ],
+          "substitui": {
+            "habilidades_de_reserva": [
+              "Int",
+              "Agi",
+              "Lut",
+              "Vig",
+              "Pro",
+              "Des"
+            ]
+          }
         }
+      ],
+      "habilidades_de_reserva": [
+        "Int",
+        "Vig",
+        "Agi",
+        "Pro",
+        "Des",
+        "Pre"
       ]
     },
     {
@@ -1169,6 +1258,14 @@
             "ler_mentes"
           ]
         }
+      ],
+      "habilidades_de_reserva": [
+        "Pre",
+        "Vig",
+        "Agi",
+        "Pro",
+        "Des",
+        "Int"
       ]
     },
     {
@@ -1565,7 +1662,8 @@
                 "pericia:Tratamento"
               ],
               "itens": [
-                "elixires",
+                "pocao_andorinha",
+                "elixir_trovoada",
                 "pocao_cura"
               ],
               "complicacoes": [
@@ -1624,7 +1722,17 @@
           "itens": [],
           "implantes": [
             "lamina_pacto"
-          ]
+          ],
+          "substitui": {
+            "habilidades_de_reserva": [
+              "Pre",
+              "Lut",
+              "Vig",
+              "For",
+              "Agi",
+              "Pro"
+            ]
+          }
         },
         {
           "id": "celestial",
@@ -1640,6 +1748,14 @@
             "cura_celestial"
           ]
         }
+      ],
+      "habilidades_de_reserva": [
+        "Pre",
+        "Vig",
+        "Agi",
+        "Pro",
+        "Int",
+        "Des"
       ]
     },
     {
@@ -1762,7 +1878,17 @@
           ],
           "armas": [],
           "itens": [],
-          "implantes": []
+          "implantes": [],
+          "substitui": {
+            "habilidades_de_reserva": [
+              "Pro",
+              "For",
+              "Lut",
+              "Vig",
+              "Pre",
+              "Agi"
+            ]
+          }
         },
         {
           "id": "luz",
@@ -1839,6 +1965,14 @@
             "augurio"
           ]
         }
+      ],
+      "habilidades_de_reserva": [
+        "Pro",
+        "Vig",
+        "For",
+        "Lut",
+        "Pre",
+        "Agi"
       ]
     },
     {
@@ -1860,7 +1994,6 @@
         "habilidade:Lut",
         "habilidade:For",
         "pericia:Combate Corpo-a-Corpo: Espadas",
-        "habilidade:Pre",
         "defesa:Vontade",
         "defesa:Aparar",
         "pericia:Persuasão",
@@ -2013,6 +2146,14 @@
             "medo_divino"
           ]
         }
+      ],
+      "habilidades_de_reserva": [
+        "For",
+        "Pre",
+        "Vig",
+        "Lut",
+        "Pro",
+        "Agi"
       ]
     },
     {
@@ -2172,15 +2313,31 @@
           "descricao": "Tocado pelas fadas: encanta e some num piscar de olhos.",
           "vantagens": [],
           "prioridades": [
-            "habilidade:Pre",
             "pericia:Persuasão"
           ],
           "armas": [],
           "itens": [],
           "implantes": [
             "passo_nebuloso"
-          ]
+          ],
+          "substitui": {
+            "habilidades_de_reserva": [
+              "Des",
+              "Pre",
+              "Pro",
+              "Agi",
+              "Vig"
+            ]
+          }
         }
+      ],
+      "habilidades_de_reserva": [
+        "Des",
+        "Pro",
+        "Agi",
+        "Vig",
+        "For",
+        "Lut"
       ]
     },
     {
@@ -2358,6 +2515,14 @@
             "augurio"
           ]
         }
+      ],
+      "habilidades_de_reserva": [
+        "Pro",
+        "Vig",
+        "Agi",
+        "Int",
+        "Pre",
+        "Des"
       ]
     },
     {
@@ -2521,6 +2686,14 @@
             "raio_solar_monge"
           ]
         }
+      ],
+      "habilidades_de_reserva": [
+        "Agi",
+        "Lut",
+        "Pro",
+        "Vig",
+        "Des",
+        "For"
       ]
     },
     {
@@ -2641,7 +2814,17 @@
           ],
           "armas": [],
           "itens": [],
-          "implantes": []
+          "implantes": [],
+          "substitui": {
+            "habilidades_de_reserva": [
+              "Pre",
+              "Lut",
+              "Agi",
+              "Vig",
+              "Des",
+              "Pro"
+            ]
+          }
         },
         {
           "id": "glamour",
@@ -2672,7 +2855,17 @@
             "cimitarra"
           ],
           "itens": [],
-          "implantes": []
+          "implantes": [],
+          "substitui": {
+            "habilidades_de_reserva": [
+              "Pre",
+              "Agi",
+              "Lut",
+              "Des",
+              "Vig",
+              "Pro"
+            ]
+          }
         },
         {
           "id": "sussurros",
@@ -2691,6 +2884,14 @@
             "medo_bardico"
           ]
         }
+      ],
+      "habilidades_de_reserva": [
+        "Pre",
+        "Agi",
+        "Des",
+        "Vig",
+        "Int",
+        "Pro"
       ]
     }
   ]

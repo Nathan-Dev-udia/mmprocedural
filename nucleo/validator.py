@@ -80,13 +80,17 @@ def calcular(ficha, catalogo_equipamento, ativo=None):
     vantagens = ficha.get("vantagens", {})
     pericias = ficha.get("pericias", {})
 
-    hab = {h: ficha["habilidades"].get(h, 0) + ajustes.get(h, 0) for h in rules.HABILIDADES}
+    # O tamanho natural (raça Pequena) muda habilidades, defesas e perícias sem custar PP.
+    tamanho = rules.TAMANHOS.get(ficha.get("tamanho"), {})
+    hab = {h: ficha["habilidades"].get(h, 0) + ajustes.get(h, 0) + tamanho.get("habilidades", {}).get(h, 0)
+           for h in rules.HABILIDADES}
 
     defesas = {}
     for defesa, habilidade in rules.DEFESAS_COMPRAVEIS.items():
         defesas[defesa] = (hab[habilidade]
                            + ficha.get("defesas_compradas", {}).get(defesa, 0)
-                           + ajustes.get(defesa, 0))
+                           + ajustes.get(defesa, 0)
+                           + tamanho.get("defesas", {}).get(defesa, 0))
 
     itens = [catalogo_equipamento[i] for i in ficha.get("equipamento", [])]
     # Livro básico, cap. 7: escudos dão bônus às defesas ativas (Esquiva e Aparar); vale o maior escudo.
@@ -112,9 +116,13 @@ def calcular(ficha, catalogo_equipamento, ativo=None):
     iniciativa = hab["Agi"] + rules.INICIATIVA_POR_GRADUACAO * vantagens.get(rules.VANTAGEM_INICIATIVA, 0)
 
     pericias_totais = {}
-    for nome, graduacoes in pericias.items():
-        pericias_totais[nome] = {"graduacoes": graduacoes,
-                                 "total": hab[rules.habilidade_da_pericia(nome)] + graduacoes}
+    circunstancias = tamanho.get("pericias", {})
+    # As perícias que o tamanho muda aparecem mesmo sem graduações (o halfling se esconde bem sem treino).
+    for nome in list(pericias) + [p for p in circunstancias if p not in pericias]:
+        graduacoes = pericias.get(nome, 0)
+        circunstancia = circunstancias.get(nome, 0)
+        pericias_totais[nome] = {"graduacoes": graduacoes, "circunstancia": circunstancia,
+                                 "total": hab[rules.habilidade_da_pericia(nome)] + graduacoes + circunstancia}
 
     ataques = []
     fontes_de_ataque = list(ficha.get("ataques_naturais", []))
@@ -153,14 +161,16 @@ def calcular(ficha, catalogo_equipamento, ativo=None):
                         # Tipo de dano e qualidades das armas arcaicas (guia de gadgets): só para exibir.
                         "descritor": atq.get("descritor", ""), "qualidades": atq.get("qualidades", [])})
 
-    pesos = []
+    # Com uma montaria (item com "carga"), a sela e os alforjes vão no animal, não nas costas do personagem.
+    tem_montaria = any(item.get("carga") for item in itens)
+    pesos, na_montaria = [], []
     for item, i in zip(itens, ficha.get("equipamento", [])):
         if item.get("kit"):
             continue
         p = item.get("peso")
         if isinstance(p, (int, float)) and not isinstance(p, bool) and p > 0:
             qtd = ficha.get("quantidades", {}).get(i, 1) or 1
-            pesos.append(p * qtd)
+            (na_montaria if tem_montaria and item.get("vai_na_montaria") else pesos).append(p * qtd)
     peso_total = round(sum(pesos), 2) if pesos else None
 
     carga = None
@@ -174,6 +184,7 @@ def calcular(ficha, catalogo_equipamento, ativo=None):
             "capacidade_leve": cap["leve"],
             "capacidade_maxima": cap["maxima"],
             "categoria": cat,
+            "na_montaria": round(sum(na_montaria), 2),
         }
 
     pontos_equipamento = {
@@ -276,7 +287,8 @@ def _checar_limites(valores, np):
     checagens += _checar_defesas(valores, np)
 
     for nome, pericia in valores["pericias"].items():
-        checar(f"Perícia {nome}", pericia["total"], teto["pericia"])
+        # Bônus de circunstância (o tamanho na Furtividade) não contam no limite do NP.
+        checar(f"Perícia {nome}", pericia["total"] - pericia.get("circunstancia", 0), teto["pericia"])
     return checagens
 
 
@@ -292,7 +304,7 @@ def np_efetivo(valores):
     for par in (d["Esquiva"] + d["Resistência"], d["Aparar"] + valores["resistencia_plena"],
                 d["Fortitude"] + d["Vontade"]):
         candidatos.append(math.ceil(par / 2))
-    candidatos += [p["total"] - 10 for p in valores["pericias"].values()]
+    candidatos += [p["total"] - p.get("circunstancia", 0) - 10 for p in valores["pericias"].values()]
     return max(candidatos)
 
 

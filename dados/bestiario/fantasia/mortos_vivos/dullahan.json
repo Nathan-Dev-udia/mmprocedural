@@ -1,0 +1,128 @@
+{
+  "id": "fantasia/mortos_vivos/dullahan",
+  "genero": "fantasia",
+  "familia": "Dullahan",
+  "variante": "Cavaleiro Vingativo",
+  "padrao": true,
+  "nome": "Dullahan (Cavaleiro Decapitado)",
+  "tipo": "Morto-Vivo",
+  "subtipo": "Cavaleiro Sem Cabeça",
+  "papel": "Soldado / Líder / Chefe",
+  "chefe": true,
+  "tamanho": "Médio",
+  "nivel_poder": 10,
+  "ambientes": [
+    "Campos de batalha assombrados",
+    "Estradas e pontes desertas",
+    "Ruínas de fortalezas"
+  ],
+  "descricao": "Guerreiro morto-vivo sem cabeça, o que resta de um cavaleiro ou comandante cruel que deixou a vingança consumi-lo. Assombra o lugar onde morreu, segue um código distorcido de cavalaria e procura sem descanso a cabeça perdida, muitas vezes cercado por esqueletos que o seguiam em vida.",
+  "tatica": "Avança direto sobre o inimigo mais forte com o machado, buscando o golpe que arranca a cabeça. Lança o crânio em chamas em quem foge e solta o lamento do pescoço vazio quando é cercado. Ao cair pela primeira vez, ergue-se de novo e chama cabeças da morte para lutar ao seu lado.",
+  "complicacoes": [
+    "Obsessão: procura a própria cabeça e persegue quem tiver um pedaço dela ou um elmo que foi seu.",
+    "Preso ao lugar: assombra o campo, a estrada ou a ruína onde foi morto.",
+    "Mudo: entende as línguas que conhecia em vida, mas não fala.",
+    "Código distorcido: segue regras de cavalaria ou de guerra que só fazem sentido para ele."
+  ],
+  "fonte": "Guia de Ravenloft (D&D 5e), p. 233, adaptado para M&M 3e",
+  "ficha": {
+    "habilidades": {
+      "For": 4,
+      "Vig": null,
+      "Agi": 2,
+      "Des": 2,
+      "Lut": 7,
+      "Int": 0,
+      "Pro": 2,
+      "Pre": 3
+    },
+    "defesas": {
+      "Esquiva": 10,
+      "Aparar": 10,
+      "Fortitude": "Imune",
+      "Resistencia": 10,
+      "Vontade": 10
+    },
+    "pericias": {
+      "Percepção": 8,
+      "Intimidação": 9,
+      "Combate Corpo-a-Corpo: Machado": 3,
+      "Combate à Distância: Crânio Ardente": 6
+    },
+    "vantagens": [
+      "Ataque Poderoso",
+      "Ação em Movimento",
+      "Crítico Aprimorado (Machado Profano)",
+      "Iniciativa Aprimorada",
+      "Liderança"
+    ],
+    "poderes": [
+      {
+        "nome": "Fisiologia de Morto-Vivo",
+        "construcao": "Imunidade 30 (efeitos de Fortitude); Imunidade 10 (efeitos de emoção e de controle mental)."
+      },
+      {
+        "nome": "Corpo Profano",
+        "construcao": "Proteção 6."
+      },
+      {
+        "nome": "Resistências",
+        "construcao": "Imunidade 10 (frio, eletricidade), Limitado a metade do efeito."
+      },
+      {
+        "nome": "Visão Verdadeira",
+        "construcao": "Sentidos 6 (Visão no Escuro, visão que atravessa ilusões, invisibilidade e ocultamento, Estendida)."
+      },
+      {
+        "nome": "Machado Profano",
+        "construcao": "Dano 6 (Baseado em Força, cortante e necrótico)."
+      },
+      {
+        "nome": "Decapitar",
+        "construcao": "Aflição 10 (resistida por Fortitude; Atordoado, Incapacitado, Moribundo), Ligado ao Machado Profano, Limitado a acertos críticos, CD 20."
+      },
+      {
+        "nome": "Crânio Ardente",
+        "construcao": "Dano 12 (À Distância, fogo)."
+      },
+      {
+        "nome": "Lamento Sem Cabeça",
+        "construcao": "Dano 8 (psíquico), Área Explosão 3 m centrada nele, Seletivo, CD 18."
+      },
+      {
+        "nome": "Presença Aterradora",
+        "construcao": "Aflição 8 (resistida por Vontade; Tonto e Impedido, Compelido a fugir, Controlado), Área Percepção 9 m, Seletivo, CD 18."
+      },
+      {
+        "nome": "Invocação Sem Cabeça",
+        "construcao": "Cura 10 (só em si mesmo; Limitado: uma vez, quando ficaria incapacitado pela primeira vez) Ligado a Invocar 2 (cabeça da morte), Múltiplos (três cabeças)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Machado Profano",
+        "bonus": 10,
+        "dano": 10,
+        "critico": 19,
+        "descricao": "Corpo a corpo, cortante e necrótico; no crítico, Aflição 10 (CD 20 de Fortitude; até Moribundo)"
+      },
+      {
+        "nome": "Crânio Ardente",
+        "bonus": 8,
+        "dano": 12,
+        "critico": 20,
+        "descricao": "À distância (36 m), fogo"
+      },
+      {
+        "nome": "Lamento Sem Cabeça",
+        "bonus": 0,
+        "dano": 8,
+        "descricao": "Área Explosão 3 m, Seletivo, psíquico (CD 18 de Esquiva para metade)"
+      }
+    ],
+    "equipamento": [
+      "Couraça (+4 Resistência)",
+      "Machado de batalha"
+    ]
+  }
+}

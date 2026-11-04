@@ -161,6 +161,8 @@ def exibicao(npc):
         }
         rot = rotulos.get(c["categoria"], "Carga Leve")
         carga_texto = f"{p_str} ({rot}) — Leve até {l_str}, Máx: {m_str}"
+        if c.get("na_montaria"):
+            carga_texto += f"; mais {peso(c['na_montaria'])} na montaria"
     return {
         "habilidades": habilidades,
         "pericias": pericias,
@@ -208,8 +210,21 @@ def peso(kg, estimado=False):
     return texto + (" (estimado)" if estimado else "")
 
 
+def pecas(valor):
+    """79,25 po -> "79 po, 2 pp e 5 pc" (1 po = 10 pp = 100 pc)."""
+    centavos = round(abs(valor) * 100)
+    po, resto = divmod(centavos, 100)
+    pp, pc = divmod(resto, 10)
+    partes = [texto for quantidade, texto in ((po, f"{po:,} po".replace(",", ".")), (pp, f"{pp} pp"), (pc, f"{pc} pc"))
+              if quantidade] or ["0 po"]
+    texto = partes[0] if len(partes) == 1 else ", ".join(partes[:-1]) + " e " + partes[-1]
+    return ("–" if valor < 0 and centavos else "") + texto
+
+
 def dolares(valor, moeda="$"):
-    """$1.234,50 (faroeste), 2.550eb (cyberpunk) ou 15 po (fantasia): moeda com letras vai depois."""
+    """$1.234,50 (faroeste), 2.550eb (cyberpunk) ou 79 po e 2 pp (fantasia): moeda com letras vai depois."""
+    if moeda == "po":
+        return pecas(valor)
     numero = f"{valor:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".").replace(",00", "")
     if moeda == "eb":
         return numero + moeda
@@ -223,6 +238,10 @@ def texto_dinheiro(dinheiro):
     implantes = [c for c in dinheiro["compras"] if c.get("implante")]
     if implantes:
         texto += ("; cyberware: " + ", ".join(f"{c['nome']} ({dolares(c['preco'], moeda)})" for c in implantes))
+    for compra in dinheiro["compras"]:
+        if compra.get("preco_normal") is not None:
+            texto += (f"; {compra['nome']} veio da origem do personagem por {dolares(compra['preco'], moeda)} "
+                      f"(preço normal {dolares(compra['preco_normal'], moeda)})")
     if dinheiro.get("subiu_de"):
         texto += (f". A condição financeira subiu de {dinheiro['subiu_de']} para pagar os itens "
                   f"(+{dinheiro['pontos_da_riqueza']} PP em Benefício: Riqueza)")

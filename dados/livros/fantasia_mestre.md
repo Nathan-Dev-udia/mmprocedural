@@ -469,9 +469,9 @@ No D&D, a raça é "de graça": todo mundo ganha alguma coisa. No M&M, **tudo o 
 | **Humano** | Nenhum. | 0 PP |
 | **Anão** | Vigor +1; visão no escuro; Resiliência anã (Imunidade a doenças e venenos, limitada a metade do efeito). | 5 PP |
 | **Elfo** | Agilidade +1; Percepção 2; visão no escuro; Ancestralidade feérica (+2 de Vontade contra efeitos mentais); Sentidos aguçados (visão estendida). | 8 PP |
-| **Halfling** | Agilidade +1; Sorte 1; Furtividade 2. | 4 PP |
+| **Halfling** | Agilidade +1; Sorte 1; tamanho Pequeno (Furtividade +4, Intimidação –2, Esquiva e Aparar +2, Força –1, 3 PP). | 6 PP |
 | **Draconato** | Força +1; Presença +1; Sopro dracônico (Dano em cone, NP – 2). | 10 PP |
-| **Gnomo** | Intelecto +1; visão no escuro; Esperteza gnômica (+2 de Vontade contra efeitos mentais). | 6 PP |
+| **Gnomo** | Intelecto +1; visão no escuro; Esperteza gnômica (+2 de Vontade contra efeitos mentais); tamanho Pequeno (3 PP). | 9 PP |
 | **Meio-elfo** | Presença +1; Persuasão 2; visão no escuro; Ancestralidade feérica. | 7 PP |
 | **Meio-orc** | Força +1; Duro de Matar; Intimidação 2; visão no escuro. | 6 PP |
 | **Tiefling** | Presença +1; visão no escuro; Legado infernal (Dano 2 à distância, fogo infernal). | 8 PP |
@@ -734,9 +734,9 @@ Uma perícia única que reúne **magia dos Sinais, alquimia, ervas e saber sobre
 
 ### 8.5 O Kit de bruxo, elixires e óleos
 
-O **Kit de bruxo** custa **120 po** e traz espada de prata, espada de aço (espada longa), couro batido (Proteção 2), 3 doses de elixir, 2 óleos para lâminas, kit de herbalismo e bolsa de componentes. Avulsos, os itens somariam **365 po**; o kit é um "preço de escola". Se um item do kit estourar o NP, ele sai da ficha sem reembolso.
+O **Kit de bruxo** custa **120 po** e traz espada de prata, espada de aço (espada longa), couro batido (Proteção 2), 3 elixires (Andorinha, Trovoada e Gato), 2 óleos (Necrófago e Fera), kit de herbalismo e bolsa de componentes. Avulsos, os itens somariam **465 po**; o bruxo sai da escola com ele: na ficha sorteada, em vez do preço, deixa metade do dinheiro inicial (no máximo o preço do kit; 75 po para o Aventureiro, 15 po para o Camponês). Na escolha manual de itens, o kit custa o preço da tabela. Se um item do kit estourar o NP, ele sai da ficha sem reembolso.
 
-Elixires e óleos têm preço, mas não têm efeitos mecânicos cadastrados. Seu uso, efeito, duração e eventual toxicidade ficam a critério do mestre. Qualquer efeito aplicado é uma regra da mesa, não uma regra do gerador.
+Cada elixir, óleo e reagente tem preço, peso, efeito, duração e toxicidade na planilha **Poções e Alquimia** e no catálogo de itens (comércio: Alquimista). O gerador compra e lista esses itens, mas não aplica o efeito na ficha: beber o elixir ou untar a lâmina é com a mesa.
 
 ### 8.6 Rodando contratos de caça [Casa]
 
@@ -1031,7 +1031,7 @@ A tabela completa, com qualidades e tipo de dano, está no Apêndice e na planil
 
 ### 11.3 Kits [Casa]
 
-Um **kit** é um pacote com preço próprio. Na ficha entram o kit e cada item de dentro, com as estatísticas deles (as espadas atacam, a armadura protege). O exemplo do gênero é o **Kit de bruxo** (seção 8.5): 120 po por itens que, avulsos, custariam 365 po.
+Um **kit** é um pacote com preço próprio. Na ficha entram o kit e cada item de dentro, com as estatísticas deles (as espadas atacam, a armadura protege). O exemplo do gênero é o **Kit de bruxo** (seção 8.5): 120 po por itens que, avulsos, custariam 465 po (e o bruxo de escola paga só metade do dinheiro inicial).
 
 Use kits para representar o "pacote de aventureiro" do Livro do Jogador ou o equipamento padrão de uma ordem (o kit do templário: cota de malha, escudo, maça e símbolo sagrado). Se um item de dentro do kit estourar o NP, ele sai da ficha sem reembolso: o kit é vendido inteiro.
 
@@ -1045,10 +1045,10 @@ Para pratear outra arma, some 100 po ao preço dela. Munição prateada [Casa]: 
 
 Alguns itens do gênero não existem no Livro do Jogador e têm **preço estimado**:
 
-- **Óleo para lâminas** (contra monstros): 5 po.
+- **Óleos para lâminas** (contra uma família de monstros): de 25 po (Fera, CD 12) a 75 po (Amaldiçoados, CD 18). Ficam abaixo dos 100 po de pratear uma arma, porque duram um combate só.
 - **Giz e tintas rúnicas** do mago rúnico: 5 po.
 - **Escudo de torre:** 30 po (estatística do escudo grande do livro de M&M).
-- **Elixires de bruxo:** 50 po, o preço da poção de cura e do antídoto.
+- **Elixires:** de 40 po (Mel Branco) a 120 po (Filtro de Petri), pela CD de preparo: a poção de cura e o antídoto do Livro do Jogador (50 po) são a referência. Os reagentes de monstro custam de 10 a 50 po a dose, menos que o elixir ou óleo que rendem.
 
 Quando precisar dar preço a um item novo, compare com o item mais parecido do Livro do Jogador e marque o preço como estimado.
 
@@ -1141,6 +1141,7 @@ Cada personagem tem uma graduação de **Riqueza**, que mede o poder de compra (
 - **Os 1.600 po do Mercador próspero** já pagam uma armadura de placas (1.500 po).
 - As outras faixas seguem a mesma escada de Riqueza e Benefício dos outros gêneros do gerador (faroeste e cyberpunk).
 - **Não se junta dinheiro inicial:** cada personagem gasta o próprio.
+- **A ficha sorteada não gasta tudo:** os itens essenciais (a primeira arma, a munição, a armadura, os itens do foco) deixam pelo menos 5% do dinheiro inicial, e os extras (outras armas, itens opcionais) deixam 15%. O Aventureiro sai com 7,5 po ou mais no bolso; quem escolhe os itens à mão gasta o quanto quiser.
 
 ### 12.2 Passar do dinheiro [Casa]
 

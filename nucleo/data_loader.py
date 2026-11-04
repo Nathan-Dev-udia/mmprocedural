@@ -240,6 +240,8 @@ def _conferir_jogador(bruto, vantagens_validas, equipamentos, erros, poderes_do_
         for poder in raca.get("poderes", []):
             if poder not in (poderes_do_genero or {}):
                 erros.append(f"{rotulo}: poder racial desconhecido '{poder}' (não está em powers.json).")
+        if raca.get("tamanho") and raca["tamanho"] not in rules.TAMANHOS:
+            erros.append(f"{rotulo}: tamanho desconhecido '{raca['tamanho']}' (use {', '.join(rules.TAMANHOS)}).")
     return {"riqueza": jogador.get("riqueza", []), "arquetipos": arquetipos, "racas": racas}
 
 

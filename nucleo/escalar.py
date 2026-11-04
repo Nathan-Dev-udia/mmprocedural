@@ -52,9 +52,20 @@ TETOS_DE_VANTAGEM = {
 }
 
 
+# Quanto o bônus de ataque ou o dano de uma arma pode passar do NP antes de o gerador preferir subir o outro.
+DESVIO_DE_ATAQUE_E_DANO = 2
+
+
 def _passo_permitido(ficha, passo, habilidade_maxima, np):
     if passo["tipo"] == "habilidade":
         atual = ficha["habilidades"].get(passo["nome"], 0)
+        # Habilidades que só recebem a sobra do orçamento param num teto (o Intelecto de um bárbaro).
+        if passo.get("teto") is not None and atual >= passo["teto"]:
+            return False
+        # ...e ficam abaixo da habilidade principal mais alta (a Presença do bárbaro não passa da Força).
+        principais = [ficha["habilidades"].get(h, 0) for h in passo.get("abaixo_de", [])]
+        if principais and atual + 1 >= max(principais):
+            return False
         # –5 é como as fichas guardam uma habilidade ausente ("—" no livro, ex.: o Vigor de um esqueleto):
         # ela não sobe.
         return rules.HABILIDADE_MINIMA < atual < habilidade_maxima
@@ -81,6 +92,17 @@ def saturacao(passo, relatorio, ficha, np, habilidade_maxima):
     def sat_ataques(filtro):
         return max([(a["bonus"] + a["dano"]) / teto["ataque_mais_efeito"] for a in ataques if filtro(a)] or [0])
 
+    # Nas armas que somam a Força, ataque e dano dividem o limite do NP: nenhum dos dois deve passar muito do NP,
+    # senão a Força de 5 de um bárbaro deixa o machado com +0 de ataque (dano 9, ataque 0, ainda dentro do limite
+    # de 10 no NP 5). Numa arma de dano fixo (um rifle), o ataque pode subir até o limite.
+    equilibrio = np + DESVIO_DE_ATAQUE_E_DANO
+
+    def sat_bonus(filtro):
+        return max([a["bonus"] / equilibrio for a in ataques if filtro(a) and a["soma_forca"]] or [0])
+
+    def sat_dano(filtro):
+        return max([a["dano"] / equilibrio for a in ataques if filtro(a) and a["soma_forca"]] or [0])
+
     esq = (d["Esquiva"] + d["Resistência"]) / teto["esquiva_mais_resistencia"]
     apa = (d["Aparar"] + valores["resistencia_plena"]) / teto["aparar_mais_resistencia"]
     fv = (d["Fortitude"] + d["Vontade"]) / teto["fortitude_mais_vontade"]
@@ -88,16 +110,18 @@ def saturacao(passo, relatorio, ficha, np, habilidade_maxima):
 
     if tipo == "pericia":
         pericia = valores["pericias"].get(nome)
-        propria = pericia["total"] / teto["pericia"] if pericia else 0
-        return max(propria, sat_ataques(lambda a: a["pericia"] == nome))
+        propria = (pericia["total"] - pericia.get("circunstancia", 0)) / teto["pericia"] if pericia else 0
+        da_pericia = lambda a: a["pericia"] == nome
+        return max(propria, sat_ataques(da_pericia), sat_bonus(da_pericia))
     if tipo == "defesa":
         return {"Esquiva": esq, "Aparar": apa}.get(nome, fv)
     if tipo == "habilidade":
         propria = ficha["habilidades"].get(nome, 0) / habilidade_maxima
+        distancia, corpo = (lambda a: a["tipo"] == "distancia"), (lambda a: a["tipo"] == "corpo")
         derivada = {
-            "Des": sat_ataques(lambda a: a["tipo"] == "distancia"),
-            "Lut": max(apa, sat_ataques(lambda a: a["tipo"] == "corpo")),
-            "For": sat_ataques(lambda a: a["soma_forca"]),
+            "Des": max(sat_ataques(distancia), sat_bonus(distancia)),
+            "Lut": max(apa, sat_ataques(corpo), sat_bonus(corpo)),
+            "For": max(sat_ataques(lambda a: a["soma_forca"]), sat_dano(lambda a: a["soma_forca"])),
             "Agi": esq,
             "Vig": max(esq, apa, fv),
             "Pro": fv,
@@ -177,6 +201,12 @@ def subir(ficha, np, passos, catalogo, rng, objetivo, opcoes_validacao=None,
         if escolhido is None and teto_pericias is not None:
             # Só sobraram perícias: o teto cede para o orçamento fechar.
             escolhido = _escolher_passo(ficha, relatorio, np, passos, catalogo, rng, opcoes_validacao,
+                                        habilidade_maxima, orcamento, None)
+        if escolhido is None and any("teto" in p or "abaixo_de" in p for p in passos):
+            # Nem as perícias couberam: os tetos da reserva (habilidades e perícias de fora da classe) cedem para o
+            # orçamento fechar.
+            soltos = [{k: v for k, v in p.items() if k not in ("teto", "abaixo_de")} for p in passos]
+            escolhido = _escolher_passo(ficha, relatorio, np, soltos, catalogo, rng, opcoes_validacao,
                                         habilidade_maxima, orcamento, None)
         if escolhido is None:
             break   # nenhum passo coube

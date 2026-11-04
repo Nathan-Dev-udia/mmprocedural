@@ -134,9 +134,11 @@ O programa entende os efeitos que mudam habilidades e defesas (Força Aumentada,
 
 Cada gênero tem um **Livro do Jogador** e um **Livro do Mestre** para baixar em .docx: botões no passo "Gênero" e links no rodapé. O texto fica em `dados/livros/<gênero>_<jogador|mestre>.md` (Markdown: títulos, listas, tabelas, citações, **negrito**, *itálico*). Ao baixar, `nucleo/livros.py` converte o texto e acrescenta um **apêndice montado dos dados** (classes e focos, raças, poderes, equipamento com preços, condição financeira, complicações e, no livro do mestre, os NPCs e seus tipos). Assim, mudar um JSON já muda o livro; só o texto corrido é editado à mão. O livro montado fica em memória até o .md mudar (montar leva alguns segundos).
 
+A fantasia tem ainda o **Livro das Classes e Subclasses** (`dados/livros/fantasia_classes.md`): uma explicação de como joga cada uma das 12 classes, 69 subclasses e 8 escolas do caçador de monstros. O texto tem marcadores como `{{classe:barbaro}}`, `{{subclasse:barbaro:totemico}}` e `{{escola:bruxo:cacador_monstros:lobo}}`, que viram o bloco "Na ficha" (habilidades, perícias, vantagens, magias e itens) montado dos dados na hora do download. O teste `test_livro_das_classes_explica_todas_as_classes_e_subclasses` falha se uma subclasse nova do gerador ficar sem texto.
+
 ## Planilhas
 
-Ao lado dos livros ficam as planilhas (.xlsx) do gênero. As da fantasia (**Armas**, **Itens** e **Poderes**) são montadas na hora a partir dos JSON por `nucleo/planilhas.py`, como o apêndice dos livros: a de poderes traz todas as magias, dons, Sinais, mutações e traços raciais, com estatística, arranjo, quem usa (classe, subclasse, escola ou raça) e o custo em cada NP. As do faroeste foram feitas à mão e ficam em `dados/livros/faroeste/`; para um gênero passar a ter planilhas geradas, basta incluí-lo em `planilhas.GERADAS`.
+Ao lado dos livros ficam as planilhas (.xlsx) do gênero. As da fantasia (**Armas**, **Itens** e **Poderes**) são montadas na hora a partir dos JSON por `nucleo/planilhas.py`, como o apêndice dos livros: a de poderes traz todas as magias, dons, Sinais, mutações e traços raciais, com estatística, arranjo, quem usa (classe, subclasse, escola ou raça) e o custo em cada NP. As do faroeste (**Armas** e **Itens**) também saem dos dados, com preço em dólar, classe, tiros, munição e distância das armas de fogo, e as folhas de referência das classes do *Manual dos Mecanismos*. Nos dois gêneros, a folha "Por comércio" agrupa tudo pela loja que vende (Armeiro, Armazém geral, Saloon, Ferreiro, Taberna…). Para um gênero passar a ter planilhas geradas, basta incluí-lo em `planilhas.GERADAS`.
 
 ## Heróis conhecidos
 
@@ -304,3 +306,22 @@ Itens com `custo` em pontos de equipamento (e `preco` em dólares, nos gêneros 
 - Mechas e veículos do Mecha & Mangá.
 - Edição de arquétipos e módulos pela interface.
 - Biblioteca de fichas salvas e imagens.
+
+## O que falta (próximos passos)
+
+Levantado em 03/11/2026. Pendências mais antigas estão em `PENDENCIAS.md`.
+
+- **Tamanho nas fichas:** halfling e gnomo já são Pequenos por 3 PP [Casa], o saldo dos traços em vez dos 9 PP do Encolhimento (`rules.TAMANHOS`, aplicado pelo validador). Falta revisar como isso aparece na ficha:
+  - hoje o +4 de Furtividade e o –2 de Intimidação somam no total e vão para "Outros" no PDF, sem dizer que vêm do tamanho;
+  - só existe o tamanho Pequeno para raças: um PJ Miúdo ou Grande ainda não é possível.
+- **Livro das Classes e Subclasses:** falta a leitura do usuário, principalmente as linhas "Escolha se…", que são sugestões do Claude.
+- **Gênero Chamado de Cthulhu (anos 20):** planejado, não iniciado. O passo a passo, a adaptação da Sanidade em d100 e as decisões em aberto estão em `dados/generos/cthulhu/PREPARACAO_GENERO.md`.
+- **Faroeste:**
+  - revisar o texto dos livros;
+  - avaliar criar um script gerador, como na fantasia (hoje o `equipment.json` é a fonte da verdade);
+  - novos arquétipos (vaqueiro, pregador, garimpeiro…) e criaturas no bestiário.
+- **Mais magias na fantasia:** curadoria de 60 a 80 magias do *Compêndio de Magia* do D&D 5e (`referencias/dd/`), com nível mínimo pelo NP para magias de nível alto.
+- **Exportar a ficha em planilha (.xlsx)** com fórmulas (defesas, perícias, ataques, custos e limites do NP), para funcionar onde o PDF não recalcula.
+- **Fantasia, pequenos ajustes:**
+  - desconto do kit da escola do bruxo no modo de escolha manual de itens;
+  - a Prole Estelar Bruta no bestiário.

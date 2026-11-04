@@ -1,0 +1,132 @@
+{
+  "id": "fantasia/sobrenatural/dullahan_feerico",
+  "genero": "fantasia",
+  "familia": "Dullahan",
+  "variante": "Arauto Feérico",
+  "padrao": false,
+  "nome": "Dullahan Feérico",
+  "tipo": "Fada",
+  "subtipo": "Prenúncio de Morte",
+  "papel": "Predador / Chefe",
+  "chefe": true,
+  "tamanho": "Grande",
+  "nivel_poder": 11,
+  "ambientes": [
+    "Estradas noturnas",
+    "Florestas encantadas",
+    "Cortes feéricas sombrias"
+  ],
+  "descricao": "Espírito feérico macabro que parece um cavaleiro sem cabeça num cavalo negro, mas cavaleiro e montaria são uma criatura só. Ergue a própria cabeça decepada como um lampião e cavalga a serviço de senhores feéricos cruéis, levando a morte a quem despertou a fúria deles.",
+  "tatica": "Marca a vítima com a Perdição Mortal e a persegue sem parar, sobre terreno ruim ou sobre a água. Ergue a cabeça para que todos vejam o olhar funesto, derruba quem resiste com o chicote vertebral e, quando a vítima marcada está ao alcance, sela a perdição.",
+  "complicacoes": [
+    "Dever: serve a um senhor feérico como mensageiro e carrasco, e cumpre as ordens dele.",
+    "Olhar evitável: quem desvia os olhos da cabeça decepada não é afetado pelo Olhar Funesto, mas também não vê o dullahan."
+  ],
+  "fonte": "Tomo dos Monstros (Kobold Press, D&D 5e), p. 183, adaptado para M&M 3e",
+  "ficha": {
+    "habilidades": {
+      "For": 8,
+      "Vig": 9,
+      "Agi": 4,
+      "Des": 4,
+      "Lut": 6,
+      "Int": 1,
+      "Pro": 2,
+      "Pre": 3
+    },
+    "defesas": {
+      "Esquiva": 11,
+      "Aparar": 11,
+      "Fortitude": 11,
+      "Resistencia": 11,
+      "Vontade": 11
+    },
+    "pericias": {
+      "Percepção": 6,
+      "Intimidação": 6,
+      "Persuasão": 6,
+      "Especialidade: Sobrevivência": 6,
+      "Combate Corpo-a-Corpo: Chicote Vertebral": 4,
+      "Combate à Distância: Magia": 6
+    },
+    "vantagens": [
+      "Derrubar Aprimorado",
+      "Ataque Poderoso",
+      "Iniciativa Aprimorada",
+      "Rastrear"
+    ],
+    "poderes": [
+      {
+        "nome": "Porte Grande",
+        "construcao": "Crescimento 4 (já somado em Força, Vigor e defesas; Permanente, Inato)."
+      },
+      {
+        "nome": "Natureza Macabra",
+        "construcao": "Imunidade 10 (necrótico); Imunidade 10 (efeitos de emoção e de controle mental); Imunidade 3 (fadiga, fome e sede, sono)."
+      },
+      {
+        "nome": "Pele Espectral",
+        "construcao": "Proteção 2; Imunidade 10 (dano de armas comuns), Limitado a metade do efeito."
+      },
+      {
+        "nome": "Sentidos do Arauto",
+        "construcao": "Sentidos 4 (Sentido Acurado: percepção às cegas 18 m, Ver o Invisível)."
+      },
+      {
+        "nome": "Avanço Incansável",
+        "construcao": "Velocidade 3; Movimento 2 (Passo Seguro, Andar sobre a Água)."
+      },
+      {
+        "nome": "Chicote Vertebral",
+        "construcao": "Dano 4 (Baseado em Força, cortante e necrótico, Alcance 1, Multiataque) Ligado a Aflição 10 (resistida por Fortitude; Tonto e Caído, Atordoado e Caído, Incapacitado), CD 20."
+      },
+      {
+        "nome": "Olhar Funesto",
+        "construcao": "Aflição 11 (resistida por Vontade; Tonto e Impedido, Compelido a fugir, Controlado), Área Percepção (visual, 9 m), Seletivo, CD 21."
+      },
+      {
+        "nome": "Olhar Intrometido",
+        "construcao": "Aflição 11 (resistida por Vontade; Tonto e Impedido, Compelido a fugir, Controlado), Percepção (visual), Reação: quando é atingido por um ataque corpo a corpo, só contra o atacante, CD 21."
+      },
+      {
+        "nome": "Perdição Mortal",
+        "construcao": "Sentidos 2 (Rastrear e saber a direção de uma criatura amaldiçoada), Limitado a uma vítima por dia."
+      },
+      {
+        "nome": "Selar a Perdição",
+        "construcao": "Aflição 11 (resistida por Fortitude; Atordoado, Incapacitado, Moribundo), Percepção, Limitado à vítima da Perdição Mortal a até 12 m, CD 21."
+      },
+      {
+        "nome": "Magia Inata: Toque Necrótico",
+        "construcao": "Dano 12 (À Distância, necrótico). Efeito principal do arranjo."
+      },
+      {
+        "nome": "Malogro (efeito alternativo, 1 PP)",
+        "construcao": "Dano 11 (necrótico), Percepção, CD 26."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Chicote Vertebral",
+        "bonus": 10,
+        "dano": 12,
+        "critico": 20,
+        "descricao": "Corpo a corpo, alcance 3 m, Multiataque; Aflição 10 (CD 20 de Fortitude; derruba)"
+      },
+      {
+        "nome": "Toque Necrótico",
+        "bonus": 10,
+        "dano": 12,
+        "critico": 20,
+        "descricao": "À distância, necrótico"
+      },
+      {
+        "nome": "Malogro",
+        "bonus": 0,
+        "dano": 11,
+        "descricao": "Percepção, necrótico (CD 26 de Resistência)"
+      }
+    ],
+    "equipamento": []
+  }
+}

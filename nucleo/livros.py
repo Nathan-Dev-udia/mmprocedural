@@ -21,7 +21,7 @@ from . import player
 from . import rules
 
 PASTA_LIVROS = Path(__file__).parent.parent / "dados" / "livros"
-TIPOS = {"jogador": "Livro do Jogador", "mestre": "Livro do Mestre"}
+TIPOS = {"jogador": "Livro do Jogador", "mestre": "Livro do Mestre", "classes": "Livro das Classes e Subclasses"}
 
 AZUL = RGBColor(0x00, 0x6F, 0xAE)
 AZUL_ESCURO = RGBColor(0x1F, 0x4E, 0x78)
@@ -304,6 +304,31 @@ def _equivalente_no_manual(item):
     return "Característica de equipamento (1 graduação, 1 ponto)"
 
 
+NOMES_DAS_HABILIDADES = {"For": "Força", "Vig": "Vigor", "Agi": "Agilidade", "Des": "Destreza", "Lut": "Luta",
+                         "Int": "Intelecto", "Pro": "Prontidão", "Pre": "Presença"}
+# Como o apêndice chama os campos que uma subclasse troca da classe.
+ROTULOS_DO_QUE_TROCA = {"conceito": "conceito", "vantagens_essenciais": "vantagens essenciais",
+                        "vantagens_opcionais": "vantagens opcionais", "prioridades": "prioridades", "armas": "armas",
+                        "itens": "itens", "implantes": "magias", "sugestoes": "sugestões"}
+
+
+def _habilidades(arquetipo, foco=None):
+    """"Força, Vigor e Luta; a sobra vai para Agilidade e Presença": as habilidades que o gerador sobe."""
+    prioridades = (foco or {}).get("prioridades", []) + arquetipo["prioridades"]
+    principais = list(dict.fromkeys(NOMES_DAS_HABILIDADES[p.split(":", 1)[1]] for p in prioridades
+                                    if p.startswith("habilidade:")))
+    reserva = [NOMES_DAS_HABILIDADES[h] for h in arquetipo.get("habilidades_de_reserva", [])
+               if NOMES_DAS_HABILIDADES[h] not in principais]
+
+    def lista(nomes):
+        return nomes[0] if len(nomes) == 1 else ", ".join(nomes[:-1]) + " e " + nomes[-1]
+
+    texto = lista(principais) if principais else "—"
+    if reserva:
+        texto += f"; a sobra vai para {lista(reserva)}"
+    return texto
+
+
 def _secao_arquetipos(dados):
     config = dados["configuracoes"]
     rotulo, rotulo_foco = config.get("rotulo_arquetipo", "Arquétipo"), config.get("rotulo_foco", "Foco")
@@ -312,6 +337,7 @@ def _secao_arquetipos(dados):
     for arq in dados["jogador"]["arquetipos"].values():
         md.append(f"### {arq['nome']}\n")
         md.append(f"*{arq['conceito']}*\n")
+        md.append(f"- **Habilidades:** {_habilidades(arq)}")
         md.append(f"- **Vantagens essenciais:** {', '.join(arq['vantagens_essenciais']) or '—'}")
         md.append(f"- **Vantagens opcionais:** {', '.join(arq['vantagens_opcionais']) or '—'}")
         md.append(f"- **Armas:** {_nomes(dados, arq['armas'].get('principais', []))}; "
@@ -332,9 +358,15 @@ def _secao_arquetipos(dados):
                 extras.append(rotulo_poderes.lower() + ": " + _nomes(dados, foco["implantes"], "poderes_do_genero"))
             if foco.get("armas") or foco.get("itens"):
                 extras.append("itens: " + _nomes(dados, foco.get("armas", []) + foco.get("itens", [])))
-            if foco.get("substitui"):
-                extras.append(f"troca da {rotulo.lower()}: " + ", ".join(sorted(foco["substitui"]))
+            trocados = [ROTULOS_DO_QUE_TROCA[c] for c in sorted(foco.get("substitui", {})) if c in ROTULOS_DO_QUE_TROCA]
+            if "implantes" in foco.get("substitui", {}):
+                extras.append(f"troca da {rotulo.lower()}: " + ", ".join(trocados)
                               + f" ({rotulo_poderes.lower()}: {_nomes(dados, essenciais, 'poderes_do_genero')})")
+            elif trocados:
+                extras.append(f"troca da {rotulo.lower()}: " + ", ".join(trocados))
+            if ({"prioridades", "habilidades_de_reserva"} & set(foco.get("substitui", {}))
+                    or any(p.startswith("habilidade:") for p in foco.get("prioridades", []))):
+                extras.append("habilidades: " + _habilidades(player.arquetipo_com_foco(arq, foco), foco))
             for falha in foco.get("falhas", []):
                 extras.append(f"falha: {falha['nome']} ({falha['custo']} PP no arranjo {falha['arranjo']})")
             linhas.append([foco["nome"], foco["descricao"], "; ".join(extras) or "—"])
@@ -406,9 +438,9 @@ def _secao_medidas():
     linhas = [[str(g), m["massa"], m["tempo"], m["distancia"], m["volume"]]
               for g, m in medidas.tabela().items() if g <= 20]
     return ("## Tabela de Medidas\n\nDo livro básico de M&M. Um valor pertence à menor graduação que o "
-            "alcança: uma espada de 1,5 kg tem massa –4 (2 kg). Abaixo de –5, cada graduação divide a anterior pela "
+            "alcança: um objeto de 1,5 kg tem massa –4 (2 kg). Abaixo de –5, cada graduação divide a anterior pela "
             "metade (–6 = 500 g, –7 = 250 g). **Distância = Tempo + Velocidade:** em uma hora (tempo 9), um cavalo "
-            "com Velocidade 4 anda 60 km. **Arremesso = Força – Massa:** com Força 3, uma cota de malha de 27,5 kg "
+            "com Velocidade 4 anda 60 km. **Arremesso = Força – Massa:** com Força 3, uma carga de 27,5 kg "
             "(massa 0) voa 60 m.\n\n" + _tabela_md(["Graduação", "Massa", "Tempo", "Distância", "Volume"], linhas))
 
 
@@ -449,11 +481,16 @@ def _secao_equipamento(dados):
     md = ["## Equipamento\n"]
     if dados["configuracoes"].get("itens_basicos"):
         md.append("Todo personagem leva: " + _nomes(dados, dados["configuracoes"]["itens_basicos"]) + ".\n")
+    # Peso e Velocidade só nos gêneros que pesam os itens (o faroeste; o cyberpunk não).
+    com_peso = any(player.peso_do_item(dados, i) is not None for i in catalogo)
     for categoria in sorted(por_categoria):
         md.append(f"### {categoria}\n")
         linhas = [[i["nome"], _resumo_do_item(dados, i), _preco(dados, i.get("preco"))]
+                  + ([_peso_e_velocidade(dados, i)] if com_peso else [])
                   for i in sorted(por_categoria[categoria], key=lambda i: (i.get("preco") or 0, i["nome"]))]
-        md.append(_tabela_md(["Item", "Efeito", "Preço"], linhas))
+        md.append(_tabela_md(["Item", "Efeito", "Preço"] + (["Peso / Velocidade"] if com_peso else []), linhas))
+    if com_peso:
+        md.append("\n" + _secao_medidas())
     return "\n".join(md)
 
 
@@ -494,8 +531,102 @@ def _secao_npcs(dados):
     return "\n".join(md)
 
 
+def _passo_legivel(texto):
+    """'pericia:Atletismo' -> 'Atletismo'; 'habilidade:For' -> 'Força'; 'defesa:Vontade' -> 'Vontade'."""
+    tipo, _, nome = texto.partition(":")
+    return NOMES_DAS_HABILIDADES.get(nome, nome) if tipo == "habilidade" else nome
+
+
+def _magias_com_estatistica(dados, ids):
+    poderes = dados["poderes_do_genero"]
+    return "; ".join(f"{poderes[i]['nome']} ({poderes[i]['estatistica']})" if poderes[i].get("estatistica")
+                     else poderes[i]["nome"] for i in ids if i in poderes)
+
+
+def _bloco_da_classe(dados, arq):
+    """Resumo da classe, montado dos dados (o que o gerador usa)."""
+    magias = arq.get("implantes", {})
+    linhas = [f"- **Habilidades:** {_habilidades(arq)}.",
+              "- **Perícias:** " + (", ".join(_passo_legivel(p) for p in arq["prioridades"]
+                                             if p.startswith("pericia:")) or "—") + ".",
+              f"- **Vantagens essenciais:** {', '.join(arq['vantagens_essenciais']) or '—'}; "
+              f"opcionais: {', '.join(arq['vantagens_opcionais']) or '—'}."]
+    if magias.get("essenciais") or magias.get("opcionais"):
+        linhas.append(f"- **Magias e dons essenciais:** {_magias_com_estatistica(dados, magias.get('essenciais', [])) or '—'}.")
+        if magias.get("opcionais"):
+            linhas.append(f"- **Magias e dons opcionais:** {_nomes(dados, magias['opcionais'], 'poderes_do_genero')}.")
+    linhas.append(f"- **Armas:** {_nomes(dados, arq['armas'].get('principais', []))}; "
+                  f"secundárias: {_nomes(dados, arq['armas'].get('secundarias', []))}.")
+    linhas.append(f"- **Itens:** {_nomes(dados, arq['itens'].get('essenciais', []))}.")
+    return "**Na ficha:**\n\n" + "\n".join(linhas) + "\n"
+
+
+def _bloco_da_subclasse(dados, arq, foco):
+    """O que a subclasse (ou a escola de uma subclasse) acrescenta ou troca, montado dos dados."""
+    linhas = []
+    if foco.get("vantagens"):
+        linhas.append(f"- **Vantagens:** {', '.join(foco['vantagens'])}.")
+    if foco.get("implantes"):
+        linhas.append(f"- **Magias e dons:** {_magias_com_estatistica(dados, foco['implantes'])}.")
+    itens = foco.get("armas", []) + foco.get("itens", []) + foco.get("substitui", {}).get("armas", {}).get("principais", [])
+    if itens:
+        linhas.append(f"- **Itens:** {_nomes(dados, list(dict.fromkeys(itens)))}.")
+    if foco.get("prioridades"):
+        linhas.append("- **Prioriza:** " + ", ".join(_passo_legivel(p) for p in foco["prioridades"]) + ".")
+    substitui = foco.get("substitui", {})
+    habilidades = _habilidades(player.arquetipo_com_foco(arq, foco), foco)
+    if habilidades != _habilidades(arq):
+        linhas.append(f"- **Habilidades:** {habilidades}.")
+    trocados = [ROTULOS_DO_QUE_TROCA[c] for c in sorted(substitui) if c in ROTULOS_DO_QUE_TROCA and c != "prioridades"]
+    if trocados:
+        linhas.append(f"- **Troca da classe:** {', '.join(trocados)}.")
+    if substitui.get("implantes", {}).get("essenciais"):
+        linhas.append(f"- **Magias e dons no lugar dos da classe:** "
+                      f"{_magias_com_estatistica(dados, substitui['implantes']['essenciais'])}.")
+    for falha in foco.get("falhas", []):
+        linhas.append(f"- **Falha:** {falha['nome']} ({falha['custo']} PP no arranjo {falha['arranjo']}).")
+    return "**Na ficha:**\n\n" + "\n".join(linhas or ["- Usa a classe como ela é."]) + "\n"
+
+
+_MARCADOR = re.compile(r"^\{\{(classe|subclasse|escola):([^}]+)\}\}$", re.M)
+
+
+def marcadores_esperados(dados):
+    """Todos os marcadores que o Livro das Classes precisa ter: um por classe, subclasse e escola."""
+    esperados = []
+    for arq in dados["jogador"]["arquetipos"].values():
+        esperados.append(f"classe:{arq['id']}")
+        for foco in arq["focos"]:
+            esperados.append(f"subclasse:{arq['id']}:{foco['id']}")
+            esperados += [f"escola:{arq['id']}:{foco['id']}:{v['id']}" for v in foco.get("variantes", [])]
+    return esperados
+
+
+def expandir_marcadores(texto, dados):
+    """Troca {{classe:barbaro}}, {{subclasse:barbaro:totemico}} e {{escola:bruxo:cacador_monstros:lobo}} pelo
+    resumo montado dos dados, para o texto escrito à mão nunca desatualizar em relação ao gerador."""
+    arquetipos = dados["jogador"]["arquetipos"]
+
+    def trocar(m):
+        tipo, ids = m.group(1), m.group(2).split(":")
+        arq = arquetipos[ids[0]]
+        if tipo == "classe":
+            return _bloco_da_classe(dados, arq)
+        foco = next(f for f in arq["focos"] if f["id"] == ids[1])
+        if tipo == "subclasse":
+            return _bloco_da_subclasse(dados, arq, foco)
+        variante = next(v for v in foco["variantes"] if v["id"] == ids[2])
+        return _bloco_da_subclasse(dados, arq, variante)
+
+    return _MARCADOR.sub(trocar, texto)
+
+
 def apendice(dados, tipo):
     """Markdown do apêndice gerado dos dados do gênero."""
+    if tipo == "classes":
+        abertura = ("# Apêndice: catálogo do gênero\n\n*Montado automaticamente a partir dos dados do gerador, no "
+                    "momento do download: os custos são os mesmos que o site usa.*\n")
+        return abertura + _secao_poderes(dados)
     secoes = [_secao_arquetipos(dados), _secao_racas(dados), _secao_poderes(dados), _secao_equipamento(dados),
               _secao_dinheiro(dados), _secao_complicacoes(dados)]
     if tipo == "mestre":
@@ -605,7 +736,7 @@ def gerar_livro(dados, tipo, versao=""):
     r_rod.font.color.rgb = CINZA_MUTED
 
     # 4. Conteúdo do livro e Apêndice
-    markdown_para_docx(caminho.read_text(encoding="utf-8"), doc)
+    markdown_para_docx(expandir_marcadores(caminho.read_text(encoding="utf-8"), dados), doc)
     doc.add_page_break()
     markdown_para_docx(apendice(dados, tipo), doc)
 

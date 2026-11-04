@@ -8,15 +8,20 @@ PDF recalcular, os números continuam certos.
 Ajustes feitos na cópia gerada (o modelo original não é alterado):
 - todos os campos de dados são limpos antes (o modelo veio preenchido);
 - a fórmula do total do 2º Combate à Distância é corrigida (ela somava o
-  nome da especialização em vez das graduações).
+  nome da especialização em vez das graduações);
+- as fórmulas do custo das perícias e da Resistência Máxima são corrigidas, e a
+  ordem de cálculo passa a seguir as dependências (parcelas antes dos totais);
+- na ficha gerada, custo das habilidades, Iniciativa, bônus de ataque e dano com
+  Força ganham fórmulas: o jogador muda uma habilidade e eles acompanham.
 """
 
 import io
 from pathlib import Path
+import re
 import textwrap
 
 from pypdf import PdfReader, PdfWriter
-from pypdf.generic import NameObject, TextStringObject
+from pypdf.generic import ArrayObject, DictionaryObject, NameObject, TextStringObject
 
 from . import formatter
 from . import poderes as poderes_mod
@@ -116,6 +121,8 @@ def valores_dos_campos(npc, relatorio, genero_nome):
             prefixo = PREFIXO_DA_PERICIA[base]
             campos[f"{prefixo}Hab"] = str(val["habilidades"][hab_da_pericia])
             campos[f"{prefixo}Per"] = str(pericia["graduacoes"])
+            outros = pericia["total"] - val["habilidades"][hab_da_pericia] - pericia["graduacoes"]
+            campos[f"{prefixo}Outros"] = str(outros) if outros else ""
             campos[f"{prefixo}Total"] = str(pericia["total"])
             continue
         campo_nome, prefixo, sufixo_outros, maximo = LINHAS_ESPECIALIZADAS[base]
@@ -124,11 +131,12 @@ def valores_dos_campos(npc, relatorio, genero_nome):
             continue
         usadas[base] += 1
         n = usadas[base]
-        hab_padrao = val["habilidades"][HABILIDADE_PADRAO_DA_LINHA[base]]
-        outros = val["habilidades"][hab_da_pericia] - hab_padrao
+        # A coluna Hab mostra a habilidade da própria perícia (a fórmula da linha é trocada em formulas_dos_campos
+        # quando não é a padrão), para o total acompanhar se o jogador mudar essa habilidade no PDF.
         campos[campo_nome.format(n=n)] = nome.split(":", 1)[1].strip()
-        campos[f"{prefixo}Hab {n}"] = str(hab_padrao)
+        campos[f"{prefixo}Hab {n}"] = str(val["habilidades"][hab_da_pericia])
         campos[f"{prefixo}Per {n}"] = str(pericia["graduacoes"])
+        outros = pericia["total"] - val["habilidades"][hab_da_pericia] - pericia["graduacoes"]
         campos[f"{prefixo}{sufixo_outros} {n}"] = str(outros) if outros else ""
         campos[f"{prefixo}Total {n}"] = str(pericia["total"])
     campos["Perícias Total"] = str(sum(ficha.get("pericias", {}).values()))
@@ -150,7 +158,8 @@ def valores_dos_campos(npc, relatorio, genero_nome):
         m_str = formatter.peso(c["capacidade_maxima"])
         rotulos = {"leve": "Leve", "pesada": "Pesada", "sobrecarregado": "Sobrecarregado"}
         rot = rotulos.get(c["categoria"], "Leve")
-        equipamento.append(f"Carga: {p_str} ({rot} • Leve {l_str}, Máx {m_str})")
+        na_montaria = f"; +{formatter.peso(c['na_montaria'])} na montaria" if c.get("na_montaria") else ""
+        equipamento.append(f"Carga: {p_str} ({rot} • Leve {l_str}, Máx {m_str}){na_montaria}")
     _preencher_linhas(campos, "Equipamento {n}", equipamento, LINHAS["equipamento"])
 
     # Complicações
@@ -220,9 +229,188 @@ def _corrigir_formula_do_combate_a_distancia(writer):
             acao[NameObject("/JS")] = TextStringObject(texto.replace('"CaD 2"', '"CaDPer 2"'))
 
 
+# Fórmulas do modelo que precisam de conserto, para todas as fichas (NPC, PJ, herói, criatura):
+# - o custo das perícias é 1 PP a cada 2 graduações, arredondado para cima (como o gerador conta);
+# - a Resistência Máxima comparava os textos "Esquiva" e "Aparar", não os valores.
+FORMULAS_CORRIGIDAS = {
+    "Perícias": 'event.value = Math.ceil(AFMakeNumber(getField("Perícias Total").value) / 2);',
+    "Resistência Máxima": ('var e = AFMakeNumber(getField("Esquiva").value), a = AFMakeNumber(getField("Aparar").value);'
+                           ' event.value = 2 * AFMakeNumber(getField("Nível de Poder").value) - Math.max(e, a);'),
+}
+
+
+def _js_numero(campo):
+    return f'AFMakeNumber(getField("{campo}").value)'
+
+
+def _js_so_quando_mudar(campos, calculo):
+    """Recalcula só quando o jogador muda um dos campos dados; com qualquer outra mudança, o campo fica como está
+    (o jogador pode trocar a arma ou o texto à mão sem a fórmula apagar)."""
+    lista = ", ".join(f'"{c}"' for c in campos)
+    return (f"var origem = event.source ? event.source.name : \"\"; "
+            f"if ([{lista}].indexOf(origem) >= 0) {{ {calculo} }} else {{ event.value = event.target.value; }}")
+
+
+def _js_descricao(ataque, campo_dano):
+    """A descrição do ataque com a CD (e o alcance, à distância) tirados do campo de Dano."""
+    d = _js_numero(campo_dano)
+    base = 15 if ataque.get("efeito_nome", "Dano") == "Dano" else 10
+    critico = f"crít. {ataque['critico']}–20" if ataque["critico"] < 20 else "crít. 20"
+    resistido = ataque.get("resistido_por", "Resistência")
+    rotulo = "Resist." if resistido == "Resistência" else resistido
+    extras = formatter._descritor_e_qualidades(ataque)
+    efeito = "" if ataque.get("efeito_nome", "Dano") == "Dano" else f'"{ataque["efeito_nome"]} " + d + ", " + '
+    fim = f'"{critico}, {rotulo} CD " + ({base} + d) + "{extras}"'
+    if ataque["tipo"] == "distancia":
+        metros = 'function m(x) { return x.toFixed(1).replace(/\\.?0+$/, "").replace(".", ","); } '
+        return (f"var d = {d}; {metros}event.value = m(d * 7.5) + \"/\" + m(d * 15) + \"/\" + m(d * 30) + \" m, \" + "
+                f"{efeito}{fim};")
+    return f'var d = {d}; event.value = "Corpo a corpo, " + {efeito}{fim};'
+
+
+# Para um campo calculado cujo valor não sai da fórmula do modelo (Fortitude "Imune" de quem não tem Vigor, o custo
+# de Defesas de uma ficha publicada que não separa as graduações): o leitor deixa o valor como está.
+MANTER_O_VALOR = "event.value = event.target.value;"
+
+
+def formula_do_custo_das_habilidades(custo, hab):
+    """{"Habilidades": js}: 2 PP por graduação, mais o que a ficha já trazia de diferente (traços de raça...)."""
+    if custo is None or not all(isinstance(v, int) for v in hab.values()):
+        return {}
+    soma = " + ".join(_js_numero(c) for c in CAMPO_DA_HABILIDADE.values())
+    return {"Habilidades": f"event.value = 2 * ({soma}) + ({custo - 2 * sum(hab.values())});"}
+
+
+def formula_da_iniciativa(iniciativa, agilidade):
+    """{"Iniciativa": js}: Agilidade mais o que vem das vantagens (só recalcula quando a Agilidade muda)."""
+    if not isinstance(iniciativa, int) or not isinstance(agilidade, int):
+        return {}
+    return {"Iniciativa": _js_so_quando_mudar(
+        ["Agilidade"], f'var n = {_js_numero("Agilidade")} + ({iniciativa - agilidade}); '
+                       f'event.value = (n >= 0 ? "+" : "") + n;')}
+
+
+def formula_da_linha_de_pericia(base, n, sigla):
+    """{campo Hab da linha: js} quando a perícia especializada usa outra habilidade que não a padrão da linha
+    (a ficha soma Luta, Destreza ou Intelecto; Especialidade: Cavalgar usa Agilidade)."""
+    if sigla == HABILIDADE_PADRAO_DA_LINHA[base]:
+        return {}
+    return {f"{LINHAS_ESPECIALIZADAS[base][1]}Hab {n}": f"event.value = {_js_numero(CAMPO_DA_HABILIDADE[sigla])};"}
+
+
+def formulas_dos_campos(npc, relatorio):
+    """{campo: JavaScript de cálculo} dos campos que o modelo não calcula e que dependem das habilidades.
+
+    Os números que não vêm das habilidades (graduações, vantagens, a arma) entram como uma constante na fórmula:
+    se o jogador trocar Força ou Agilidade no PDF, o custo, a Iniciativa, o ataque e o dano acompanham.
+    """
+    val = relatorio["valores"]
+    hab = val["habilidades"]
+    formulas = {**formula_do_custo_das_habilidades(relatorio["custos"].get("habilidades"), hab),
+                **formula_da_iniciativa(val["iniciativa"], hab.get("Agi"))}
+
+    for n, ataque in enumerate(formatter.ataques_exibidos(val["ataques"])[:LINHAS["ataques"]], start=1):
+        if ataque["bonus"] is not None and ataque["tipo"] in rules.HABILIDADE_DE_ATAQUE:
+            sigla = rules.HABILIDADE_DE_ATAQUE[ataque["tipo"]]
+            campo = CAMPO_DA_HABILIDADE[sigla]
+            k = ataque["bonus"] - hab[sigla]
+            nome = formatter.nome_curto(ataque["nome"]).replace("\\", "\\\\").replace('"', '\\"')
+            formulas[f"Ataque {n}"] = _js_so_quando_mudar(
+                [campo], f'var b = {_js_numero(campo)} + ({k}); event.value = "{nome} " + (b >= 0 ? "+" : "") + b;')
+        if ataque.get("soma_forca") and hab.get("For") is not None:
+            k = ataque["dano"] - hab["For"]
+            formulas[f"Dano {n}"] = _js_so_quando_mudar(["Força"], f'event.value = {_js_numero("Força")} + ({k});')
+            if ataque["tipo"] in ("corpo", "distancia"):
+                formulas[f"Descrição {n}"] = _js_so_quando_mudar(["Força"], _js_descricao(ataque, f"Dano {n}"))
+
+    # Linhas de perícia especializada cuja habilidade não é a padrão da linha (Combate à Distância: Arremesso...)
+    usadas = {chave: 0 for chave in LINHAS_ESPECIALIZADAS}
+    for nome in sorted(val["pericias"]):
+        base = rules.nome_base(nome)
+        if base not in LINHAS_ESPECIALIZADAS:
+            continue
+        _, prefixo, _, maximo = LINHAS_ESPECIALIZADAS[base]
+        if usadas[base] == maximo:
+            continue
+        usadas[base] += 1
+        formulas.update(formula_da_linha_de_pericia(base, usadas[base], rules.habilidade_da_pericia(nome)))
+    return formulas
+
+
+def _campos_do_formulario(writer):
+    """{nome: referência} dos campos do formulário (o campo é o pai do widget quando o widget não tem nome)."""
+    campos = {}
+    for pagina in writer.pages:
+        for ref in pagina.get("/Annots", []):
+            anotacao = ref.get_object()
+            if "/T" in anotacao:
+                campos.setdefault(str(anotacao["/T"]), ref.indirect_reference if hasattr(ref, "indirect_reference")
+                                  and ref.indirect_reference else ref)
+            elif "/Parent" in anotacao:
+                pai = anotacao.raw_get("/Parent")
+                campos.setdefault(str(pai.get_object().get("/T")), pai)
+    return campos
+
+
+def _texto_do_js(acao):
+    js = acao.get_object()["/JS"].get_object()
+    return js.get_data().decode("latin-1") if hasattr(js, "get_data") else str(js)
+
+
+def _formulas_que_mantem_texto(writer, campos):
+    """Campo calculado preenchido com texto ("Imune", "—"): a soma do modelo o trocaria por um número."""
+    formulas = {}
+    for nome, ref in _campos_do_formulario(writer).items():
+        acoes = ref.get_object().get("/AA")
+        valor = str(campos.get(nome, "")).strip().lstrip("+-")
+        if acoes is not None and "/C" in acoes.get_object() and valor and not valor.isdigit():
+            formulas[nome] = MANTER_O_VALOR
+    return formulas
+
+
+def _aplicar_formulas(writer, formulas):
+    """Grava as fórmulas nos campos e refaz a ordem de cálculo (/CO) pelas dependências.
+
+    O modelo calculava alguns totais antes das parcelas (AcrobTotal antes de AcrobHab, Total antes de Habilidades):
+    o leitor de PDF roda a lista uma vez por mudança, então esses totais ficavam um passo atrasados.
+    """
+    campos = _campos_do_formulario(writer)
+    for nome, js in formulas.items():
+        if nome not in campos:
+            continue
+        campo = campos[nome].get_object()
+        acoes = campo.get("/AA")
+        if acoes is None:
+            acoes = DictionaryObject()
+            campo[NameObject("/AA")] = acoes
+        acoes = acoes.get_object()
+        acoes[NameObject("/C")] = DictionaryObject({NameObject("/S"): NameObject("/JavaScript"),
+                                                    NameObject("/JS"): TextStringObject(js)})
+
+    formulario = writer._root_object["/AcroForm"]
+    antiga = [str(ref.get_object().get("/T")) for ref in formulario.get("/CO", [])]
+    calculos = {}
+    for nome, ref in campos.items():
+        acoes = ref.get_object().get("/AA")
+        if acoes is not None and "/C" in acoes.get_object():
+            calculos[nome] = _texto_do_js(acoes.get_object()["/C"])
+    ordem_original = {nome: i for i, nome in enumerate(antiga)}
+    nomes = sorted(calculos, key=lambda nome: ordem_original.get(nome, len(antiga)))
+    depende = {nome: {d for d in re.findall(r'"([^"]+)"', js) if d in calculos and d != nome}
+               for nome, js in calculos.items()}
+    ordem, feitos = [], set()
+    while len(ordem) < len(nomes):
+        prontos = [n for n in nomes if n not in feitos and depende[n] <= feitos]
+        proximo = prontos[0] if prontos else next(n for n in nomes if n not in feitos)   # ciclo: segue a ordem
+        ordem.append(proximo)
+        feitos.add(proximo)
+    formulario[NameObject("/CO")] = ArrayObject(campos[nome] for nome in ordem)
+
+
 def gerar_pdf(caminho_modelo, npc, relatorio, genero_nome):
     """Devolve os bytes de um PDF preenchido com o NPC."""
-    return preencher_modelo(caminho_modelo, valores_dos_campos(npc, relatorio, genero_nome))
+    return preencher_modelo(caminho_modelo, valores_dos_campos(npc, relatorio, genero_nome),
+                            formulas=formulas_dos_campos(npc, relatorio))
 
 
 def _inserir_imagem_do_personagem(writer, caminho_imagem):
@@ -305,8 +493,11 @@ def _inserir_imagem_do_personagem(writer, caminho_imagem):
         pass
 
 
-def preencher_modelo(caminho_modelo, campos, caminho_imagem=None):
-    """Limpa o modelo e preenche os campos dados; devolve os bytes do PDF."""
+def preencher_modelo(caminho_modelo, campos, caminho_imagem=None, formulas=None):
+    """Limpa o modelo e preenche os campos dados; devolve os bytes do PDF.
+
+    formulas: {campo: JavaScript} de cálculos a acrescentar (além das correções do modelo, que entram sempre).
+    """
     leitor = PdfReader(caminho_modelo)
     writer = PdfWriter(clone_from=leitor)
 
@@ -322,6 +513,8 @@ def preencher_modelo(caminho_modelo, campos, caminho_imagem=None):
     _ajustar_fonte_dos_poderes(writer)
     writer.set_need_appearances_writer(True)
     _corrigir_formula_do_combate_a_distancia(writer)
+    _aplicar_formulas(writer, {**FORMULAS_CORRIGIDAS, **_formulas_que_mantem_texto(writer, campos),
+                               **(formulas or {})})
 
     if caminho_imagem and Path(caminho_imagem).is_file():
         _inserir_imagem_do_personagem(writer, caminho_imagem)

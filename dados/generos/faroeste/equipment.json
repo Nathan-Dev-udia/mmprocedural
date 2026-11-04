@@ -12,9 +12,10 @@
     "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico)",
     "preco": 10,
     "categoria": "Arma de fogo",
+    "comercio": "Armeiro",
     "tipo": "Revólver de ação simples",
     "classe": "Pistola leve",
-    "peso": "1,5",
+    "peso": 1.5,
     "tiros": 6,
     "municao": "municao_pistola_leve",
     "notas": ""
@@ -32,9 +33,10 @@
     "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico)",
     "preco": 15,
     "categoria": "Arma de fogo",
+    "comercio": "Armeiro",
     "tipo": "Revólver de ação dupla",
     "classe": "Pistola pesada",
-    "peso": "2",
+    "peso": 2,
     "tiros": 6,
     "municao": "municao_pistola",
     "notas": ""
@@ -52,9 +54,10 @@
     "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico)",
     "preco": 8,
     "categoria": "Arma de fogo",
+    "comercio": "Armeiro",
     "tipo": "Derringer",
     "classe": "Pistola de apoio",
-    "peso": "0,25",
+    "peso": 0.25,
     "tiros": 2,
     "municao": "municao_pistola",
     "notas": ""
@@ -72,9 +75,10 @@
     "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico)",
     "preco": 25,
     "categoria": "Arma de fogo",
+    "comercio": "Armeiro",
     "tipo": "Rifle",
     "classe": "Rifle",
-    "peso": "3,5",
+    "peso": 3.5,
     "tiros": 15,
     "municao": "municao_rifle",
     "notas": ""
@@ -92,9 +96,10 @@
     "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico)",
     "preco": 35,
     "categoria": "Arma de fogo",
+    "comercio": "Armeiro",
     "tipo": "Escopeta",
     "classe": "Escopeta",
-    "peso": "4",
+    "peso": 4,
     "tiros": 2,
     "municao": "cartuchos",
     "notas": "Chumbo: +2 no ataque, Dano máximo 3 contra armadura"
@@ -113,7 +118,9 @@
     "fonte": "Livro básico, cap. 7 (armas brancas), conversão do guia de faroeste",
     "preco": 2,
     "categoria": "Arma branca",
-    "notas": ""
+    "comercio": "Armazém geral",
+    "notas": "",
+    "peso": 0.5
   },
   {
     "id": "cassetete",
@@ -129,7 +136,9 @@
     "fonte": "Livro básico, cap. 7 (armas brancas), conversão do guia de faroeste",
     "preco": 1,
     "categoria": "Arma branca",
-    "notas": ""
+    "comercio": "Armazém geral",
+    "notas": "",
+    "peso": 0.5
   },
   {
     "id": "dinamite",
@@ -142,8 +151,10 @@
     "fonte": "Livro básico, cap. 7 (dinamite: Dano 5, Área de Explosão)",
     "preco": 3,
     "categoria": "Explosivos",
+    "comercio": "Ferragens e mineração",
     "descricao": "Bastão de dinamite; precisa de estopim ou detonador.",
-    "peso": "0,5"
+    "peso": 0.5,
+    "notas": "Feixes amarrados batem mais forte: 2 bastões +1 de Dano, 4 bastões +2 e 8 bastões +3 (no livro, 2d6 a 5d6)."
   },
   {
     "id": "casaco_couro",
@@ -153,8 +164,9 @@
     "fonte": "Livro básico, cap. 7 (armadura de couro, Proteção 1)",
     "preco": 10,
     "categoria": "Roupas",
+    "comercio": "Alfaiate",
     "descricao": "Casaco longo e pesado, protege da chuva e do vento.",
-    "peso": "2"
+    "peso": 2
   },
   {
     "id": "algemas",
@@ -163,16 +175,21 @@
     "fonte": "Livro básico, cap. 7 (algemas)",
     "preco": 3.5,
     "categoria": "Equipamento geral",
+    "comercio": "Armeiro",
     "descricao": "Par de algemas de ferro para prender prisioneiros.",
-    "peso": "1,5"
+    "peso": 1.5
   },
   {
     "id": "maleta_medica",
     "nome": "Maleta médica",
     "custo": 1,
     "fonte": "Livro básico, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); Tratamento sem ferramentas sofre –5",
-    "preco": null,
-    "categoria": "Equipamento geral"
+    "preco": 10,
+    "categoria": "Equipamento geral",
+    "comercio": "Médico e farmácia",
+    "peso": 3,
+    "peso_estimado": true,
+    "descricao": "Bisturis, pinças, ataduras, láudano e linha de sutura."
   },
   {
     "id": "gazuas",
@@ -181,16 +198,21 @@
     "fonte": "Livro básico, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto)",
     "preco": 50,
     "categoria": "Equipamento geral",
+    "comercio": "Mercado clandestino",
     "descricao": "Conjunto de ganchos e ferramentas para abrir fechaduras.",
-    "peso": "0,5"
+    "peso": 0.5
   },
   {
     "id": "kit_ferramentas",
     "nome": "Kit de ferramentas",
     "custo": 1,
     "fonte": "Livro básico, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto)",
-    "preco": null,
-    "categoria": "Equipamento geral"
+    "preco": 5,
+    "categoria": "Equipamento geral",
+    "comercio": "Ferragens e mineração",
+    "peso": 5,
+    "peso_estimado": true,
+    "descricao": "Martelo, serrote, chaves, lima e pregos numa caixa de madeira."
   },
   {
     "id": "ferramentas_mineracao",
@@ -198,15 +220,23 @@
     "custo": 1,
     "fonte": "Livro básico, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto)",
     "preco": 3.5,
-    "categoria": "Equipamento geral"
+    "categoria": "Equipamento geral",
+    "comercio": "Ferragens e mineração",
+    "peso": 10,
+    "peso_estimado": true,
+    "descricao": "Picareta, pá e escoras de madeira para abrir um veio."
   },
   {
     "id": "kit_geologo",
     "nome": "Martelo de geólogo, lupa e reagentes",
     "custo": 1,
     "fonte": "Livro básico, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto)",
-    "preco": null,
-    "categoria": "Equipamento geral"
+    "preco": 5,
+    "categoria": "Equipamento geral",
+    "comercio": "Ferragens e mineração",
+    "peso": 2,
+    "peso_estimado": true,
+    "descricao": "Martelo de ponta, lupa e frascos de reagentes para testar minério."
   },
   {
     "id": "laco",
@@ -222,7 +252,9 @@
     },
     "fonte": "Livro básico, cap. 7 (boleadeira: Armadilha 3 à distância, 6 pontos), usado para o laço",
     "preco": 4,
-    "categoria": "Arma de arremesso"
+    "categoria": "Arma de arremesso",
+    "comercio": "Selaria",
+    "peso": 1.5
   },
   {
     "id": "baioneta",
@@ -238,7 +270,10 @@
     },
     "fonte": "Livro básico, cap. 7 (armas brancas), conversão do guia de faroeste",
     "categoria": "Arma branca",
-    "notas": "Presa ao rifle"
+    "comercio": "Armeiro",
+    "notas": "Presa ao rifle",
+    "peso": 0.5,
+    "peso_estimado": true
   },
   {
     "id": "coldre_rapido",
@@ -247,8 +282,9 @@
     "preco": 11,
     "fonte": "Preço da tabela de itens do guia de faroeste",
     "categoria": "Acessórios de armas",
+    "comercio": "Armeiro",
     "descricao": "Coldre feito para sacar a arma com mais rapidez.",
-    "peso": "0,5"
+    "peso": 0.5
   },
   {
     "id": "cinto_armas",
@@ -257,8 +293,9 @@
     "preco": 2,
     "fonte": "Preço da tabela de itens do guia de faroeste",
     "categoria": "Acessórios de armas",
+    "comercio": "Armeiro",
     "descricao": "Cinto reforçado para prender coldres e munição.",
-    "peso": "0,5"
+    "peso": 0.5
   },
   {
     "id": "municao_pistola",
@@ -267,7 +304,8 @@
     "preco": 3,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)",
     "categoria": "Munição",
-    "peso": "2,5"
+    "comercio": "Armeiro",
+    "peso": 2.5
   },
   {
     "id": "municao_rifle",
@@ -276,7 +314,8 @@
     "preco": 4,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)",
     "categoria": "Munição",
-    "peso": "3"
+    "comercio": "Armeiro",
+    "peso": 3
   },
   {
     "id": "cartuchos",
@@ -285,7 +324,8 @@
     "preco": 2,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)",
     "categoria": "Munição",
-    "peso": "1"
+    "comercio": "Armeiro",
+    "peso": 1
   },
   {
     "id": "cavalo",
@@ -294,8 +334,12 @@
     "preco": 150,
     "fonte": "Preço da tabela de itens do guia de faroeste",
     "categoria": "Transporte",
+    "comercio": "Estábulo",
     "descricao": "Cavalo de montaria ou de tração.",
-    "peso": null
+    "peso": null,
+    "velocidade": 4,
+    "carga": 220,
+    "fonte_velocidade": "Guia do Mestre, Cavalo e Animal de rebanho; carga estimada"
   },
   {
     "id": "sela",
@@ -304,8 +348,10 @@
     "preco": 25,
     "fonte": "Preço da tabela de itens do guia de faroeste",
     "categoria": "Transporte",
+    "comercio": "Selaria",
     "descricao": "Sela para montar cavalos ou mulas.",
-    "peso": "15"
+    "peso": 15,
+    "vai_na_montaria": true
   },
   {
     "id": "cantil",
@@ -314,8 +360,9 @@
     "preco": 1,
     "fonte": "Preço da tabela de itens do guia de faroeste",
     "categoria": "Equipamento geral",
+    "comercio": "Armazém geral",
     "descricao": "Recipiente para carregar água.",
-    "peso": "2,5 (cheio)/1 (vazio)"
+    "peso": 2.5
   },
   {
     "id": "saco_dormir",
@@ -324,8 +371,9 @@
     "preco": 4,
     "fonte": "Preço da tabela de itens do guia de faroeste",
     "categoria": "Equipamento geral",
+    "comercio": "Armazém geral",
     "descricao": "Saco de dormir para acampamentos.",
-    "peso": "5"
+    "peso": 5
   },
   {
     "id": "racoes",
@@ -333,7 +381,11 @@
     "custo": null,
     "preco": 2.5,
     "fonte": "Preço da tabela de itens do guia de faroeste",
-    "categoria": "Comida"
+    "categoria": "Comida",
+    "comercio": "Armazém geral",
+    "peso": 7.5,
+    "descricao": "Carne-seca, feijão, biscoito duro e café para cinco dias.",
+    "notas": "1,5 kg por dia (planilha de itens)."
   },
   {
     "id": "baralho",
@@ -342,8 +394,9 @@
     "preco": 0.25,
     "fonte": "Preço da tabela de itens do guia de faroeste",
     "categoria": "Equipamento geral",
+    "comercio": "Saloon",
     "descricao": "Baralho comum para jogos de cartas.",
-    "peso": null
+    "peso": 0
   },
   {
     "id": "terno",
@@ -352,23 +405,28 @@
     "preco": 15,
     "fonte": "Preço da tabela de itens do guia de faroeste",
     "categoria": "Roupas",
+    "comercio": "Alfaiate",
     "descricao": "Traje fino para ocasiões formais.",
-    "peso": "3"
+    "peso": 3
   },
   {
     "id": "estrela",
     "nome": "Estrela de xerife",
     "custo": null,
-    "preco": null,
+    "preco": 0,
     "fonte": "Entregue pelo condado",
-    "categoria": "Equipamento geral"
+    "categoria": "Equipamento geral",
+    "comercio": "Escritório do xerife",
+    "peso": 0,
+    "descricao": "A estrela do cargo: vem com a nomeação, não se vende."
   },
   {
     "id": "municao_pistola_leve",
     "nome": "Munição de pistola .22–.38 (50 balas)",
     "categoria": "Munição",
+    "comercio": "Armeiro",
     "preco": 2,
-    "peso": "1,5",
+    "peso": 1.5,
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
   },
@@ -376,8 +434,9 @@
     "id": "municao_rifle_pesada",
     "nome": "Munição de rifle .56 ou maior (50 balas)",
     "categoria": "Munição",
+    "comercio": "Armeiro",
     "preco": 5,
-    "peso": "4",
+    "peso": 4,
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
   },
@@ -385,8 +444,9 @@
     "id": "polvora_tiro",
     "nome": "Pólvora e balas para carga pela boca (20 tiros)",
     "categoria": "Munição",
+    "comercio": "Armeiro",
     "preco": 1,
-    "peso": "2",
+    "peso": 2,
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
   },
@@ -394,8 +454,9 @@
     "id": "capsulas",
     "nome": "Cápsulas de percussão (60)",
     "categoria": "Munição",
+    "comercio": "Armeiro",
     "preco": 0.5,
-    "peso": "0,5",
+    "peso": 0.5,
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
   },
@@ -403,8 +464,9 @@
     "id": "flechas",
     "nome": "Flechas (20)",
     "categoria": "Munição",
+    "comercio": "Posto de comércio",
     "preco": 2,
-    "peso": "0,5",
+    "peso": 0.5,
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
   },
@@ -412,11 +474,12 @@
     "id": "sharps_55_57",
     "nome": "Sharps '55 (.57)",
     "categoria": "Arma de fogo",
+    "comercio": "Armeiro",
     "tipo": "Carabina",
     "classe": "Rifle",
     "custo": 8,
     "preco": 18,
-    "peso": "4",
+    "peso": 4,
     "tiros": 1,
     "municao": "polvora_tiro",
     "notas": "Recarga lenta (ação padrão)",
@@ -432,11 +495,12 @@
     "id": "spencer_56",
     "nome": "Spencer (.56)",
     "categoria": "Arma de fogo",
+    "comercio": "Armeiro",
     "tipo": "Carabina",
     "classe": "Rifle",
     "custo": 8,
     "preco": 15,
-    "peso": "4",
+    "peso": 4,
     "tiros": 7,
     "municao": "municao_rifle_pesada",
     "notas": "",
@@ -452,11 +516,12 @@
     "id": "carabina_lemat_42",
     "nome": "Carabina LeMat (.42)",
     "categoria": "Arma de fogo",
+    "comercio": "Armeiro",
     "tipo": "Carabina",
     "classe": "Rifle",
     "custo": 8,
     "preco": 35,
-    "peso": "4,5",
+    "peso": 4.5,
     "tiros": 9,
     "municao": "municao_rifle",
     "notas": "Segundo cano de escopeta (1 tiro)",
@@ -472,11 +537,12 @@
     "id": "modelo_ingles_1840_36",
     "nome": "Modelo Inglês 1840 (.36)",
     "categoria": "Arma de fogo",
+    "comercio": "Armeiro",
     "tipo": "Derringer",
     "classe": "Pistola de apoio",
     "custo": 4,
     "preco": 5,
-    "peso": "0,5",
+    "peso": 0.5,
     "tiros": 8,
     "municao": "polvora_tiro",
     "notas": "Recarga lenta (ação padrão)",
@@ -492,11 +558,12 @@
     "id": "rupertus_pepperbox_22",
     "nome": "Rupertus Pepperbox (.22)",
     "categoria": "Arma de fogo",
+    "comercio": "Armeiro",
     "tipo": "Derringer",
     "classe": "Pistola de apoio",
     "custo": 4,
     "preco": 6,
-    "peso": "0,5",
+    "peso": 0.5,
     "tiros": 8,
     "municao": "municao_pistola_leve",
     "notas": "",
@@ -512,11 +579,12 @@
     "id": "pistola_adaga_wesson_41",
     "nome": "Pistola-Adaga Wesson (.41)",
     "categoria": "Arma de fogo",
+    "comercio": "Armeiro",
     "tipo": "Derringer",
     "classe": "Pistola de apoio",
     "custo": 4,
     "preco": 6,
-    "peso": "0,5",
+    "peso": 0.5,
     "tiros": 2,
     "municao": "municao_pistola",
     "notas": "Lâmina embutida",
@@ -532,11 +600,12 @@
     "id": "colt_army_44",
     "nome": "Colt Army (.44)",
     "categoria": "Arma de fogo",
+    "comercio": "Armeiro",
     "tipo": "Revólver de ação simples",
     "classe": "Pistola pesada",
     "custo": 8,
     "preco": 12,
-    "peso": "1",
+    "peso": 1,
     "tiros": 6,
     "municao": "municao_pistola",
     "notas": "",
@@ -552,11 +621,12 @@
     "id": "colt_buntline_especial_45",
     "nome": "Colt Buntline Especial (.45)",
     "categoria": "Arma de fogo",
+    "comercio": "Armeiro",
     "tipo": "Revólver de ação simples",
     "classe": "Pistola pesada",
     "custo": 8,
     "preco": 500,
-    "peso": "1,5",
+    "peso": 1.5,
     "tiros": 6,
     "municao": "municao_pistola",
     "notas": "Cano longo",
@@ -572,11 +642,12 @@
     "id": "colt_dragon_44",
     "nome": "Colt Dragon (.44)",
     "categoria": "Arma de fogo",
+    "comercio": "Armeiro",
     "tipo": "Revólver de ação simples",
     "classe": "Pistola pesada",
     "custo": 8,
     "preco": 11,
-    "peso": "2",
+    "peso": 2,
     "tiros": 6,
     "municao": "municao_pistola",
     "notas": "",
@@ -592,11 +663,12 @@
     "id": "pistola_lemat_grapeshot_40",
     "nome": "Pistola LeMat Grapeshot (.40)",
     "categoria": "Arma de fogo",
+    "comercio": "Armeiro",
     "tipo": "Revólver de ação simples",
     "classe": "Pistola leve",
     "custo": 6,
     "preco": 25,
-    "peso": "2",
+    "peso": 2,
     "tiros": 9,
     "municao": "municao_pistola",
     "notas": "Segundo cano de escopeta (1 tiro)",
@@ -612,11 +684,12 @@
     "id": "colt_frontier_32_20",
     "nome": "Colt Frontier (.32-20)",
     "categoria": "Arma de fogo",
+    "comercio": "Armeiro",
     "tipo": "Revólver de ação dupla",
     "classe": "Pistola leve",
     "custo": 6,
     "preco": 8,
-    "peso": "2",
+    "peso": 2,
     "tiros": 6,
     "municao": "municao_pistola_leve",
     "notas": "",
@@ -632,11 +705,12 @@
     "id": "colt_lightning_38",
     "nome": "Colt Lightning (.38)",
     "categoria": "Arma de fogo",
+    "comercio": "Armeiro",
     "tipo": "Revólver de ação dupla",
     "classe": "Pistola leve",
     "custo": 6,
     "preco": 13,
-    "peso": "2",
+    "peso": 2,
     "tiros": 6,
     "municao": "municao_pistola_leve",
     "notas": "",
@@ -652,11 +726,12 @@
     "id": "colt_thunderer_41",
     "nome": "Colt Thunderer (.41)",
     "categoria": "Arma de fogo",
+    "comercio": "Armeiro",
     "tipo": "Revólver de ação dupla",
     "classe": "Pistola leve",
     "custo": 6,
     "preco": 14,
-    "peso": "2",
+    "peso": 2,
     "tiros": 6,
     "municao": "municao_pistola",
     "notas": "",
@@ -672,11 +747,12 @@
     "id": "revolver_starr_44",
     "nome": "Revólver Starr (.44)",
     "categoria": "Arma de fogo",
+    "comercio": "Armeiro",
     "tipo": "Revólver de ação dupla",
     "classe": "Pistola pesada",
     "custo": 8,
     "preco": 9,
-    "peso": "2",
+    "peso": 2,
     "tiros": 6,
     "municao": "polvora_tiro",
     "notas": "Recarga lenta (ação padrão)",
@@ -692,11 +768,12 @@
     "id": "ballard_72_56",
     "nome": "Ballard '72 (.56)",
     "categoria": "Arma de fogo",
+    "comercio": "Armeiro",
     "tipo": "Rifle",
     "classe": "Rifle",
     "custo": 8,
     "preco": 24,
-    "peso": "5,5",
+    "peso": 5.5,
     "tiros": 1,
     "municao": "polvora_tiro",
     "notas": "Recarga lenta (ação padrão)",
@@ -712,11 +789,12 @@
     "id": "bullard_express_50",
     "nome": "Bullard Express (.50)",
     "categoria": "Arma de fogo",
+    "comercio": "Armeiro",
     "tipo": "Rifle",
     "classe": "Rifle de alto poder",
     "custo": 10,
     "preco": 30,
-    "peso": "5,5",
+    "peso": 5.5,
     "tiros": 11,
     "municao": "municao_rifle",
     "notas": "",
@@ -732,11 +810,12 @@
     "id": "modelo_colt_paterson_36_69",
     "nome": "Modelo Colt-Paterson '36 (.69)",
     "categoria": "Arma de fogo",
+    "comercio": "Armeiro",
     "tipo": "Rifle",
     "classe": "Rifle de alto poder",
     "custo": 10,
     "preco": 25,
-    "peso": "6",
+    "peso": 6,
     "tiros": 4,
     "municao": "polvora_tiro",
     "notas": "Recarga lenta (ação padrão)",
@@ -752,11 +831,12 @@
     "id": "rifle_colt_de_tambor_56",
     "nome": "Rifle Colt de Tambor (.56)",
     "categoria": "Arma de fogo",
+    "comercio": "Armeiro",
     "tipo": "Rifle",
     "classe": "Rifle",
     "custo": 8,
     "preco": 24,
-    "peso": "5,5",
+    "peso": 5.5,
     "tiros": 5,
     "municao": "polvora_tiro",
     "notas": "Recarga lenta (ação padrão)",
@@ -772,11 +852,12 @@
     "id": "mosquete_enfield_58",
     "nome": "Mosquete Enfield (.58)",
     "categoria": "Arma de fogo",
+    "comercio": "Armeiro",
     "tipo": "Rifle",
     "classe": "Rifle",
     "custo": 8,
     "preco": 25,
-    "peso": "4,5",
+    "peso": 4.5,
     "tiros": 1,
     "municao": "polvora_tiro",
     "notas": "Recarga lenta (ação padrão)",
@@ -792,11 +873,12 @@
     "id": "evans_modelo_antigo_esportivo_44",
     "nome": "Evans Modelo Antigo Esportivo (.44)",
     "categoria": "Arma de fogo",
+    "comercio": "Armeiro",
     "tipo": "Rifle",
     "classe": "Rifle",
     "custo": 8,
     "preco": 30,
-    "peso": "6",
+    "peso": 6,
     "tiros": 34,
     "municao": "municao_rifle",
     "notas": "",
@@ -812,11 +894,12 @@
     "id": "sharp_s_big_50_50",
     "nome": "Sharps Big 50 (.50)",
     "categoria": "Arma de fogo",
+    "comercio": "Armeiro",
     "tipo": "Rifle",
     "classe": "Rifle de alto poder",
     "custo": 10,
     "preco": 20,
-    "peso": "5",
+    "peso": 5,
     "tiros": 1,
     "municao": "municao_rifle",
     "notas": "",
@@ -832,11 +915,12 @@
     "id": "springfield_58",
     "nome": "Springfield (.58)",
     "categoria": "Arma de fogo",
+    "comercio": "Armeiro",
     "tipo": "Rifle",
     "classe": "Rifle de alto poder",
     "custo": 10,
     "preco": 8,
-    "peso": "4,5",
+    "peso": 4.5,
     "tiros": 1,
     "municao": "polvora_tiro",
     "notas": "Recarga lenta (ação padrão)",
@@ -852,11 +936,12 @@
     "id": "winchester_76_45",
     "nome": "Winchester '76 (.45)",
     "categoria": "Arma de fogo",
+    "comercio": "Armeiro",
     "tipo": "Rifle",
     "classe": "Rifle",
     "custo": 8,
     "preco": 40,
-    "peso": "3,5",
+    "peso": 3.5,
     "tiros": 15,
     "municao": "municao_rifle",
     "notas": "",
@@ -872,11 +957,12 @@
     "id": "escopeta_revolver_colt_espingarda",
     "nome": "Escopeta-revólver Colt",
     "categoria": "Arma de fogo",
+    "comercio": "Armeiro",
     "tipo": "Escopeta",
     "classe": "Escopeta",
     "custo": 10,
     "preco": 45,
-    "peso": "5",
+    "peso": 5,
     "tiros": 5,
     "municao": "cartuchos",
     "notas": "Chumbo: +2 no ataque, Dano máximo 3 contra armadura",
@@ -892,11 +978,12 @@
     "id": "escopeta_cano_curto_serrado",
     "nome": "Escopeta de cano serrado",
     "categoria": "Arma de fogo",
+    "comercio": "Armeiro",
     "tipo": "Escopeta",
     "classe": "Escopeta",
     "custo": 10,
     "preco": 35,
-    "peso": "2,5",
+    "peso": 2.5,
     "tiros": 2,
     "municao": "cartuchos",
     "notas": "Chumbo: +2 no ataque, Dano máximo 3 contra armadura",
@@ -912,11 +999,12 @@
     "id": "escopeta_cano_simples",
     "nome": "Escopeta de cano simples",
     "categoria": "Arma de fogo",
+    "comercio": "Armeiro",
     "tipo": "Escopeta",
     "classe": "Escopeta",
     "custo": 10,
     "preco": 25,
-    "peso": "3",
+    "peso": 3,
     "tiros": 1,
     "municao": "cartuchos",
     "notas": "Chumbo: +2 no ataque, Dano máximo 3 contra armadura",
@@ -932,11 +1020,12 @@
     "id": "escopeta_winchester_de_acao_por_alavanca",
     "nome": "Escopeta Winchester de alavanca",
     "categoria": "Arma de fogo",
+    "comercio": "Armeiro",
     "tipo": "Escopeta",
     "classe": "Escopeta",
     "custo": 10,
     "preco": 35,
-    "peso": "4",
+    "peso": 4,
     "tiros": 4,
     "municao": "cartuchos",
     "notas": "Chumbo: +2 no ataque, Dano máximo 3 contra armadura",
@@ -952,6 +1041,7 @@
     "id": "soqueira",
     "nome": "Soqueira",
     "categoria": "Arma branca",
+    "comercio": "Mercado clandestino",
     "custo": 1,
     "preco": 1,
     "notas": "",
@@ -962,12 +1052,14 @@
       "pericia": "Combate Corpo-a-Corpo: Briga",
       "critico": 20
     },
-    "fonte": "Livro básico, cap. 7 (armas brancas), conversão do guia de faroeste"
+    "fonte": "Livro básico, cap. 7 (armas brancas), conversão do guia de faroeste",
+    "peso": 0.5
   },
   {
     "id": "porrete_guerra",
     "nome": "Porrete de guerra",
     "categoria": "Arma branca",
+    "comercio": "Armazém geral",
     "custo": 2,
     "preco": 3,
     "notas": "",
@@ -978,12 +1070,14 @@
       "pericia": "Combate Corpo-a-Corpo: Porretes",
       "critico": 20
     },
-    "fonte": "Livro básico, cap. 7 (armas brancas), conversão do guia de faroeste"
+    "fonte": "Livro básico, cap. 7 (armas brancas), conversão do guia de faroeste",
+    "peso": 1.5
   },
   {
     "id": "porrete_laminas",
     "nome": "Porrete de guerra com lâminas",
     "categoria": "Arma branca",
+    "comercio": "Armazém geral",
     "custo": 3,
     "preco": 8,
     "notas": "Exige as duas mãos",
@@ -994,12 +1088,14 @@
       "pericia": "Combate Corpo-a-Corpo: Porretes",
       "critico": 20
     },
-    "fonte": "Livro básico, cap. 7 (armas brancas), conversão do guia de faroeste"
+    "fonte": "Livro básico, cap. 7 (armas brancas), conversão do guia de faroeste",
+    "peso": 3
   },
   {
     "id": "faca_bowie",
     "nome": "Faca Bowie",
     "categoria": "Arma branca",
+    "comercio": "Armazém geral",
     "custo": 3,
     "preco": 4,
     "notas": "",
@@ -1010,12 +1106,14 @@
       "pericia": "Combate Corpo-a-Corpo: Facas",
       "critico": 19
     },
-    "fonte": "Livro básico, cap. 7 (armas brancas), conversão do guia de faroeste"
+    "fonte": "Livro básico, cap. 7 (armas brancas), conversão do guia de faroeste",
+    "peso": 1
   },
   {
     "id": "rapieira",
     "nome": "Rapieira",
     "categoria": "Arma branca",
+    "comercio": "Armeiro",
     "custo": 3,
     "preco": 10,
     "notas": "",
@@ -1026,12 +1124,14 @@
       "pericia": "Combate Corpo-a-Corpo: Lâminas",
       "critico": 19
     },
-    "fonte": "Livro básico, cap. 7 (armas brancas), conversão do guia de faroeste"
+    "fonte": "Livro básico, cap. 7 (armas brancas), conversão do guia de faroeste",
+    "peso": 1.5
   },
   {
     "id": "sabre",
     "nome": "Sabre",
     "categoria": "Arma branca",
+    "comercio": "Armeiro",
     "custo": 4,
     "preco": 15,
     "notas": "",
@@ -1042,12 +1142,14 @@
       "pericia": "Combate Corpo-a-Corpo: Lâminas",
       "critico": 19
     },
-    "fonte": "Livro básico, cap. 7 (armas brancas), conversão do guia de faroeste"
+    "fonte": "Livro básico, cap. 7 (armas brancas), conversão do guia de faroeste",
+    "peso": 2
   },
   {
     "id": "tomahawk",
     "nome": "Tomahawk",
     "categoria": "Arma branca",
+    "comercio": "Posto de comércio",
     "custo": 3,
     "preco": 3,
     "notas": "Pode ser arremessado",
@@ -1058,12 +1160,14 @@
       "pericia": "Combate Corpo-a-Corpo: Machados",
       "critico": 20
     },
-    "fonte": "Livro básico, cap. 7 (armas brancas), conversão do guia de faroeste"
+    "fonte": "Livro básico, cap. 7 (armas brancas), conversão do guia de faroeste",
+    "peso": 2
   },
   {
     "id": "arco",
     "nome": "Arco",
     "categoria": "Arma de arremesso",
+    "comercio": "Posto de comércio",
     "custo": 6,
     "preco": 3,
     "municao": "flechas",
@@ -1074,12 +1178,14 @@
       "pericia": "Combate à Distância: Arcos",
       "critico": 20
     },
-    "fonte": "Livro básico, cap. 7 (arco)"
+    "fonte": "Livro básico, cap. 7 (arco)",
+    "peso": 1
   },
   {
     "id": "boleadeira",
     "nome": "Boleadeira",
     "categoria": "Arma de arremesso",
+    "comercio": "Posto de comércio",
     "custo": 6,
     "preco": 3,
     "notas": "",
@@ -1091,14 +1197,16 @@
       "pericia": "Combate à Distância: Arremesso",
       "critico": 20
     },
-    "fonte": "Livro básico, cap. 7 (boleadeira)"
+    "fonte": "Livro básico, cap. 7 (boleadeira)",
+    "peso": 0.25
   },
   {
     "id": "botas",
     "categoria": "Roupas",
+    "comercio": "Selaria",
     "preco": 8,
     "descricao": "Calçado alto e resistente, próprio para cavalgar e longas caminhadas.",
-    "peso": "2",
+    "peso": 2,
     "nome": "Botas",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1106,9 +1214,10 @@
   {
     "id": "calcas_saia",
     "categoria": "Roupas",
+    "comercio": "Alfaiate",
     "preco": 2,
     "descricao": "Peça comum de vestuário para o dia a dia.",
-    "peso": "1",
+    "peso": 1,
     "nome": "Calças/saia",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1116,9 +1225,10 @@
   {
     "id": "camisa",
     "categoria": "Roupas",
+    "comercio": "Alfaiate",
     "preco": 1,
     "descricao": "Camisa simples de uso diário.",
-    "peso": "0,5",
+    "peso": 0.5,
     "nome": "Camisa",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1126,9 +1236,10 @@
   {
     "id": "casaco_de_inverno",
     "categoria": "Roupas",
+    "comercio": "Alfaiate",
     "preco": 15,
     "descricao": "Casaco grosso para climas frios.",
-    "peso": "1,5",
+    "peso": 1.5,
     "nome": "Casaco de inverno",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1136,9 +1247,10 @@
   {
     "id": "ceroulas",
     "categoria": "Roupas",
+    "comercio": "Alfaiate",
     "preco": 2,
     "descricao": "Roupa de baixo comprida, usada sob as roupas no frio.",
-    "peso": "1",
+    "peso": 1,
     "nome": "Ceroulas",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1146,9 +1258,10 @@
   {
     "id": "meias_de_seda",
     "categoria": "Roupas",
+    "comercio": "Alfaiate",
     "preco": 1,
     "descricao": "Meias finas, de uso mais refinado.",
-    "peso": null,
+    "peso": 0,
     "nome": "Meias de seda",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1156,9 +1269,10 @@
   {
     "id": "perneiras",
     "categoria": "Roupas",
+    "comercio": "Selaria",
     "preco": 4,
     "descricao": "Proteção de couro para as pernas, usada ao cavalgar e em meio a mato fechado.",
-    "peso": "3",
+    "peso": 3,
     "nome": "Perneiras",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1166,9 +1280,10 @@
   {
     "id": "sapatos",
     "categoria": "Roupas",
+    "comercio": "Alfaiate",
     "preco": 2,
     "descricao": "Calçado comum, mais leve e barato que as botas.",
-    "peso": "0,5",
+    "peso": 0.5,
     "nome": "Sapatos",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1176,9 +1291,10 @@
   {
     "id": "vestido",
     "categoria": "Roupas",
+    "comercio": "Alfaiate",
     "preco": 3,
     "descricao": "Vestido simples de uso comum.",
-    "peso": "0,5",
+    "peso": 0.5,
     "nome": "Vestido",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1186,9 +1302,10 @@
   {
     "id": "dinamite_por_caixote_com_24_bastoes_cada",
     "categoria": "Explosivos",
+    "comercio": "Ferragens e mineração",
     "preco": 65,
     "descricao": "Caixote com 24 bastões de dinamite, mais barato que comprar por unidade.",
-    "peso": "15",
+    "peso": 15,
     "nome": "Dinamite (por caixote com 24 bastões cada)",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1196,9 +1313,10 @@
   {
     "id": "estopim",
     "categoria": "Explosivos",
+    "comercio": "Ferragens e mineração",
     "preco": 1,
     "descricao": "Pavio de queima usado para acender explosivos.",
-    "peso": null,
+    "peso": 0,
     "nome": "Estopim",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1206,9 +1324,10 @@
   {
     "id": "nitroglicerina_por_frasco",
     "categoria": "Explosivos",
+    "comercio": "Mercado clandestino",
     "preco": 2.5,
     "descricao": "Frasco de explosivo líquido, instável e perigoso de manusear.",
-    "peso": "0,5",
+    "peso": 0.5,
     "nome": "Nitroglicerina (por frasco)",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1216,9 +1335,10 @@
   {
     "id": "pavio_por_30_cm",
     "categoria": "Explosivos",
+    "comercio": "Ferragens e mineração",
     "preco": 0.05,
     "descricao": "Pavio de queima lenta para acionar cargas explosivas. Peso: 0,5 a cada 1,5 m.",
-    "peso": "0,5/1,5m",
+    "peso": 0.1,
     "nome": "Pavio (por 30 cm)",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1226,9 +1346,10 @@
   {
     "id": "bacon_por_12_quilo",
     "categoria": "Comida",
+    "comercio": "Armazém geral",
     "preco": 0.15,
     "descricao": "Carne de porco curada, ração comum de viagem.",
-    "peso": "0,5",
+    "peso": 0.5,
     "nome": "Bacon (½ quilo)",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1236,9 +1357,10 @@
   {
     "id": "cafe_por_12_quilo",
     "categoria": "Comida",
+    "comercio": "Armazém geral",
     "preco": 0.25,
     "descricao": "Grãos de café para preparar na fogueira.",
-    "peso": "0,5",
+    "peso": 0.5,
     "nome": "Café (½ quilo)",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1246,9 +1368,10 @@
   {
     "id": "arame_farpado_por_metro",
     "categoria": "Equipamento geral",
+    "comercio": "Ferragens e mineração",
     "preco": 0.05,
     "descricao": "Arame com espinhos, usado em cercas. Peso: 2,5 a cada 1,5 m.",
-    "peso": "2,5/1,5m",
+    "peso": 1.7,
     "nome": "Arame farpado (por metro)",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1256,9 +1379,10 @@
   {
     "id": "broca",
     "categoria": "Equipamento geral",
+    "comercio": "Ferragens e mineração",
     "preco": 2,
     "descricao": "Ferramenta para furar madeira ou rocha.",
-    "peso": "1",
+    "peso": 1,
     "nome": "Broca",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1266,9 +1390,10 @@
   {
     "id": "cachimbo",
     "categoria": "Equipamento geral",
+    "comercio": "Armazém geral",
     "preco": 2,
     "descricao": "Cachimbo para fumar tabaco.",
-    "peso": "0,3",
+    "peso": 0.3,
     "nome": "Cachimbo",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1276,9 +1401,10 @@
   {
     "id": "camera",
     "categoria": "Equipamento geral",
+    "comercio": "Fotógrafo",
     "preco": 3,
     "descricao": "Câmera fotográfica de época; usa placas fotográficas.",
-    "peso": "2,5",
+    "peso": 2.5,
     "nome": "Câmera",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1286,9 +1412,10 @@
   {
     "id": "cigarro",
     "categoria": "Equipamento geral",
+    "comercio": "Saloon",
     "preco": 0.05,
     "descricao": "Um cigarro.",
-    "peso": null,
+    "peso": 0,
     "nome": "Cigarro",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1296,9 +1423,10 @@
   {
     "id": "corda_por_1_5m",
     "categoria": "Equipamento geral",
+    "comercio": "Armazém geral",
     "preco": 5,
     "descricao": "Corda resistente para escalar, amarrar ou prender.",
-    "peso": "4",
+    "peso": 4,
     "nome": "Corda (por 1,5m)",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1306,9 +1434,10 @@
   {
     "id": "embolo_detonador",
     "categoria": "Equipamento geral",
+    "comercio": "Ferragens e mineração",
     "preco": 10,
     "descricao": "Aparelho de acionamento manual para detonar explosivos à distância, com fio detonador.",
-    "peso": "5",
+    "peso": 5,
     "nome": "Êmbolo detonador",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1316,9 +1445,10 @@
   {
     "id": "fio_detonador_por_1_5m",
     "categoria": "Equipamento geral",
+    "comercio": "Ferragens e mineração",
     "preco": 2.5,
     "descricao": "Fio que liga o êmbolo detonador à carga explosiva.",
-    "peso": "0,5",
+    "peso": 0.5,
     "nome": "Fio detonador (por 1,5m)",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1326,9 +1456,10 @@
   {
     "id": "fosforos_caixa_com_100",
     "categoria": "Equipamento geral",
+    "comercio": "Armazém geral",
     "preco": 0.5,
     "descricao": "Caixa com cem palitos de fósforo.",
-    "peso": "0,25",
+    "peso": 0.25,
     "nome": "Fósforos (caixa com 100)",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1336,9 +1467,10 @@
   {
     "id": "frigideira_de_ferro",
     "categoria": "Equipamento geral",
+    "comercio": "Armazém geral",
     "preco": 0.5,
     "descricao": "Frigideira pesada para cozinhar no acampamento.",
-    "peso": "2,5",
+    "peso": 2.5,
     "nome": "Frigideira de ferro",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1346,9 +1478,10 @@
   {
     "id": "fumo_de_mascar_lata",
     "categoria": "Equipamento geral",
+    "comercio": "Armazém geral",
     "preco": 0.5,
     "descricao": "Lata de tabaco para mascar.",
-    "peso": "0,5",
+    "peso": 0.5,
     "nome": "Fumo de mascar (lata)",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1356,9 +1489,10 @@
   {
     "id": "gaita",
     "categoria": "Equipamento geral",
+    "comercio": "Armazém geral",
     "preco": 0.5,
     "descricao": "Pequeno instrumento musical de sopro.",
-    "peso": null,
+    "peso": 0,
     "nome": "Gaita",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1366,9 +1500,10 @@
   {
     "id": "lanterna",
     "categoria": "Equipamento geral",
+    "comercio": "Armazém geral",
     "preco": 2.5,
     "descricao": "Lanterna a óleo; precisa de óleo para lanterna.",
-    "peso": "2",
+    "peso": 2,
     "nome": "Lanterna",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1376,9 +1511,10 @@
   {
     "id": "lima",
     "categoria": "Equipamento geral",
+    "comercio": "Ferragens e mineração",
     "preco": 0.25,
     "descricao": "Ferramenta para desbastar e alisar metal ou madeira.",
-    "peso": "0,5",
+    "peso": 0.5,
     "nome": "Lima",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1386,9 +1522,10 @@
   {
     "id": "machadinha",
     "categoria": "Equipamento geral",
+    "comercio": "Ferragens e mineração",
     "preco": 1,
     "descricao": "Machado pequeno de uma mão, para uso geral.",
-    "peso": "1,75",
+    "peso": 1.75,
     "nome": "Machadinha",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1396,9 +1533,10 @@
   {
     "id": "marmita",
     "categoria": "Equipamento geral",
+    "comercio": "Armazém geral",
     "preco": 2,
     "descricao": "Panela com tampa para cozinhar e transportar comida.",
-    "peso": "1,5",
+    "peso": 1.5,
     "nome": "Marmita",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1406,9 +1544,10 @@
   {
     "id": "machado_de_lenha",
     "categoria": "Equipamento geral",
+    "comercio": "Ferragens e mineração",
     "preco": 2,
     "descricao": "Machado maior, próprio para cortar madeira.",
-    "peso": "2,5",
+    "peso": 2.5,
     "nome": "Machado de lenha",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1416,9 +1555,10 @@
   {
     "id": "martelo",
     "categoria": "Equipamento geral",
+    "comercio": "Ferragens e mineração",
     "preco": 0.5,
     "descricao": "Martelo comum de carpintaria.",
-    "peso": "1",
+    "peso": 1,
     "nome": "Martelo",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1426,9 +1566,10 @@
   {
     "id": "mochila",
     "categoria": "Equipamento geral",
+    "comercio": "Armazém geral",
     "preco": 2,
     "descricao": "Mochila de lona ou couro para carregar equipamento.",
-    "peso": "1,5",
+    "peso": 1.5,
     "nome": "Mochila",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1436,9 +1577,10 @@
   {
     "id": "oculos",
     "categoria": "Equipamento geral",
+    "comercio": "Joalheiro e relojoeiro",
     "preco": 5,
     "descricao": "Óculos de lentes para correção de visão ou proteção dos olhos.",
-    "peso": null,
+    "peso": 0,
     "nome": "Óculos",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1446,9 +1588,10 @@
   {
     "id": "oleo_para_lanterna_por_galao",
     "categoria": "Equipamento geral",
+    "comercio": "Armazém geral",
     "preco": 0.1,
     "descricao": "Combustível para lanternas.",
-    "peso": "3",
+    "peso": 3,
     "nome": "Óleo para lanterna (por galão)",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1456,9 +1599,10 @@
   {
     "id": "pa",
     "categoria": "Equipamento geral",
+    "comercio": "Ferragens e mineração",
     "preco": 1.5,
     "descricao": "Pá para escavar.",
-    "peso": "2,5",
+    "peso": 2.5,
     "nome": "Pá",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1466,9 +1610,10 @@
   {
     "id": "picareta",
     "categoria": "Equipamento geral",
+    "comercio": "Ferragens e mineração",
     "preco": 2,
     "descricao": "Ferramenta de mineração e escavação.",
-    "peso": "6",
+    "peso": 6,
     "nome": "Picareta",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1476,9 +1621,10 @@
   {
     "id": "placa_fotografica",
     "categoria": "Equipamento geral",
+    "comercio": "Fotógrafo",
     "preco": 1,
     "descricao": "Placa usada para registrar uma imagem na câmera.",
-    "peso": "0,25",
+    "peso": 0.25,
     "nome": "Placa fotográfica",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1486,9 +1632,10 @@
   {
     "id": "relogio_comum",
     "categoria": "Equipamento geral",
+    "comercio": "Joalheiro e relojoeiro",
     "preco": 2.5,
     "descricao": "Relógio de bolso comum.",
-    "peso": "0,25",
+    "peso": 0.25,
     "nome": "Relógio comum",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1496,9 +1643,10 @@
   {
     "id": "relogio_de_ouro",
     "categoria": "Equipamento geral",
+    "comercio": "Joalheiro e relojoeiro",
     "preco": 10,
     "descricao": "Relógio de bolso de ouro, sinal de riqueza.",
-    "peso": "0,25",
+    "peso": 0.25,
     "nome": "Relógio de ouro",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1506,9 +1654,10 @@
   {
     "id": "tabaco_bolsa",
     "categoria": "Equipamento geral",
+    "comercio": "Armazém geral",
     "preco": 0.5,
     "descricao": "Bolsa de tabaco para cachimbo ou cigarros.",
-    "peso": "0,5",
+    "peso": 0.5,
     "nome": "Tabaco (bolsa)",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1516,9 +1665,10 @@
   {
     "id": "violao",
     "categoria": "Equipamento geral",
+    "comercio": "Armazém geral",
     "preco": 8,
     "descricao": "Instrumento musical de cordas.",
-    "peso": "3",
+    "peso": 3,
     "nome": "Violão",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1526,19 +1676,22 @@
   {
     "id": "cartucheira_de_espingarda",
     "categoria": "Acessórios de armas",
+    "comercio": "Armeiro",
     "preco": 0.25,
     "descricao": "Faixa ou bolsa para levar cartuchos de espingarda à mão.",
-    "peso": null,
+    "peso": 0.5,
     "nome": "Cartucheira de espingarda",
     "custo": null,
-    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)",
+    "peso_estimado": true
   },
   {
     "id": "cilindro_de_recarga_rapida",
     "categoria": "Acessórios de armas",
+    "comercio": "Armeiro",
     "preco": 3,
     "descricao": "Cilindro extra de revólver, já carregado, para troca rápida.",
-    "peso": "0,5",
+    "peso": 0.5,
     "nome": "Cilindro de recarga rápida",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1546,9 +1699,10 @@
   {
     "id": "coldre",
     "categoria": "Acessórios de armas",
+    "comercio": "Armeiro",
     "preco": 3,
     "descricao": "Coldre comum para pistola ou revólver.",
-    "peso": "0,5",
+    "peso": 0.5,
     "nome": "Coldre",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1556,69 +1710,82 @@
   {
     "id": "coldre_de_rifle",
     "categoria": "Acessórios de armas",
+    "comercio": "Selaria",
     "preco": 3,
     "descricao": "Estojo preso à sela ou às costas para carregar um rifle.",
-    "peso": "0,25",
+    "peso": 0.25,
     "nome": "Coldre de rifle",
     "custo": null,
-    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)",
+    "vai_na_montaria": true
   },
   {
     "id": "coco",
     "categoria": "Chapéus",
+    "comercio": "Alfaiate",
     "preco": 1.5,
     "descricao": "Chapéu-coco, de copa redonda e rígida.",
-    "peso": null,
+    "peso": 0.25,
     "nome": "Chapéu-coco",
     "custo": null,
-    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)",
+    "peso_estimado": true
   },
   {
     "id": "fedora",
     "categoria": "Chapéus",
+    "comercio": "Alfaiate",
     "preco": 3,
     "descricao": "Chapéu de feltro com aba média e vinco na copa.",
-    "peso": null,
+    "peso": 0.25,
     "nome": "Chapéu fedora",
     "custo": null,
-    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)",
+    "peso_estimado": true
   },
   {
     "id": "gorro",
     "categoria": "Chapéus",
+    "comercio": "Alfaiate",
     "preco": 2,
     "descricao": "Gorro simples de pano.",
-    "peso": null,
+    "peso": 0.1,
     "nome": "Gorro",
     "custo": null,
-    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)",
+    "peso_estimado": true
   },
   {
     "id": "sombreiro",
     "categoria": "Chapéus",
+    "comercio": "Alfaiate",
     "preco": 3.5,
     "descricao": "Chapéu de abas largas, protege do sol.",
-    "peso": null,
+    "peso": 0.3,
     "nome": "Sombreiro",
     "custo": null,
-    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)",
+    "peso_estimado": true
   },
   {
     "id": "stetson",
     "categoria": "Chapéus",
+    "comercio": "Alfaiate",
     "preco": 5,
     "descricao": "Chapéu de aba larga típico do faroeste.",
-    "peso": null,
+    "peso": 0.25,
     "nome": "Chapéu Stetson",
     "custo": null,
-    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)",
+    "peso_estimado": true
   },
   {
     "id": "coisa_barata_garrafa",
     "categoria": "Bebida",
+    "comercio": "Saloon",
     "preco": 2,
     "descricao": "Garrafa de bebida forte de baixa qualidade.",
-    "peso": "2",
+    "peso": 2,
     "nome": "Coisa barata (garrafa)",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1626,9 +1793,10 @@
   {
     "id": "coisa_de_boa_qualidade_garrafa",
     "categoria": "Bebida",
+    "comercio": "Saloon",
     "preco": 5,
     "descricao": "Garrafa de bebida forte de boa qualidade.",
-    "peso": "2",
+    "peso": 2,
     "nome": "Coisa de boa qualidade (garrafa)",
     "custo": null,
     "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
@@ -1636,51 +1804,423 @@
   {
     "id": "alforjes",
     "categoria": "Transporte",
+    "comercio": "Selaria",
     "preco": 5,
     "descricao": "Bolsas duplas penduradas na sela ou no animal, para carga.",
-    "peso": "2,5",
+    "peso": 2.5,
     "nome": "Alforjes",
     "custo": null,
-    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)",
+    "vai_na_montaria": true
   },
   {
     "id": "buckboard",
     "categoria": "Transporte",
+    "comercio": "Estábulo",
     "preco": 75,
     "descricao": "Carroça leve e aberta, puxada por cavalos.",
     "peso": null,
     "nome": "Buckboard",
     "custo": null,
-    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)",
+    "velocidade": 2,
+    "fonte_velocidade": "estimada: o passo dos cavalos que puxam"
   },
   {
     "id": "carrocao_conestoga",
     "categoria": "Transporte",
+    "comercio": "Estábulo",
     "preco": 200,
     "descricao": "Grande carroça coberta, própria para longas viagens com carga.",
     "peso": null,
     "nome": "Carroção Conestoga",
     "custo": null,
-    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)",
+    "velocidade": 1,
+    "fonte_velocidade": "estimada: o passo dos cavalos que puxam"
   },
   {
     "id": "carruagem_cabriole",
     "categoria": "Transporte",
+    "comercio": "Estábulo",
     "preco": 200,
     "descricao": "Carruagem leve de passeio, puxada por cavalo.",
     "peso": null,
     "nome": "Carruagem/Cabriolé",
     "custo": null,
-    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)",
+    "velocidade": 2,
+    "fonte_velocidade": "estimada: o passo dos cavalos que puxam"
   },
   {
     "id": "mula",
     "categoria": "Transporte",
+    "comercio": "Estábulo",
     "preco": 50,
     "descricao": "Animal de carga, mais resistente e barato que o cavalo.",
     "peso": null,
     "nome": "Mula",
     "custo": null,
-    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)"
+    "fonte": "Tabela de itens do guia de faroeste (itens.xlsx)",
+    "velocidade": 3,
+    "carga": 190,
+    "fonte_velocidade": "Guia do Mestre, Cavalo e Animal de rebanho; carga estimada"
+  },
+  {
+    "id": "pistola_gatling",
+    "nome": "Pistola Gatling (.45)",
+    "categoria": "Arma de fogo",
+    "comercio": "Armeiro",
+    "custo": 9,
+    "preco": 800,
+    "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico); classificação sugerida com Multiataque (o manual não traz Gatlings)",
+    "peso": 2.5,
+    "tipo": "Gatling",
+    "classe": "Submetralhadora (pistola)",
+    "tiros": 12,
+    "municao": "municao_pistola",
+    "notas": "Só dispara em rajada (Multiataque).",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 3,
+      "multiataque": true,
+      "pericia": "Combate à Distância: Pistolas",
+      "critico": 20
+    }
+  },
+  {
+    "id": "rifle_gatling",
+    "nome": "Rifle Gatling (.45)",
+    "categoria": "Arma de fogo",
+    "comercio": "Armeiro",
+    "custo": 15,
+    "preco": 1200,
+    "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico); classificação sugerida com Multiataque (o manual não traz Gatlings)",
+    "peso": 6.5,
+    "tipo": "Gatling",
+    "classe": "Rifle de assalto",
+    "tiros": 12,
+    "municao": "municao_rifle",
+    "notas": "Só dispara em rajada (Multiataque).",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 5,
+      "multiataque": true,
+      "pericia": "Combate à Distância: Rifles",
+      "critico": 20
+    }
+  },
+  {
+    "id": "espingarda_gatling",
+    "nome": "Espingarda Gatling",
+    "categoria": "Arma de fogo",
+    "comercio": "Armeiro",
+    "custo": 15,
+    "preco": 1500,
+    "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico); classificação sugerida com Multiataque (o manual não traz Gatlings)",
+    "peso": 7.5,
+    "tipo": "Gatling",
+    "classe": "Escopeta automática",
+    "tiros": 12,
+    "municao": "cartuchos",
+    "notas": "Só dispara em rajada (Multiataque). Chumbo: +2 no ataque, Dano máximo 3 contra armadura",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 5,
+      "multiataque": true,
+      "pericia": "Combate à Distância: Escopetas",
+      "critico": 20
+    }
+  },
+  {
+    "id": "metralhadora_gatling",
+    "nome": "Metralhadora Gatling (.45)",
+    "categoria": "Arma de fogo",
+    "comercio": "Armeiro",
+    "custo": 15,
+    "preco": 1500,
+    "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico); classificação sugerida com Multiataque (o manual não traz Gatlings)",
+    "peso": 20,
+    "tipo": "Metralhadora",
+    "classe": "Metralhadora mecânica",
+    "tiros": 100,
+    "municao": "municao_rifle",
+    "notas": "Só dispara em rajada (Multiataque). Montada num tripé ou numa carroça: não se move enquanto atira.",
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 5,
+      "multiataque": true,
+      "pericia": "Combate à Distância: Metralhadoras",
+      "critico": 20
+    }
+  },
+  {
+    "id": "lanca",
+    "nome": "Lança",
+    "categoria": "Arma branca",
+    "comercio": "Posto de comércio",
+    "custo": 3,
+    "preco": 3,
+    "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico)",
+    "peso": 2.5,
+    "notas": "Alcance; exige as duas mãos",
+    "ataque": {
+      "tipo": "corpo",
+      "efeito": 3,
+      "soma_forca": true,
+      "pericia": "Combate Corpo-a-Corpo: Lanças",
+      "critico": 20
+    }
+  },
+  {
+    "id": "chicote",
+    "nome": "Chicote",
+    "categoria": "Arma branca",
+    "comercio": "Selaria",
+    "custo": 3,
+    "preco": 10,
+    "fonte": "Planilha armas.xlsx (classes do Manual dos Mecanismos e do livro básico)",
+    "peso": 1,
+    "notas": "Alcance 2 (até 3 m); serve para desarmar ou derrubar",
+    "ataque": {
+      "tipo": "corpo",
+      "efeito": 1,
+      "soma_forca": true,
+      "pericia": "Combate Corpo-a-Corpo: Chicote",
+      "critico": 20
+    }
+  },
+  {
+    "id": "restaurante_bom_cafe",
+    "nome": "Bom restaurante: café da manhã",
+    "categoria": "Comida",
+    "comercio": "Restaurante",
+    "custo": null,
+    "preco": 0.5,
+    "fonte": "Planilha itens.xlsx do livro de faroeste",
+    "descricao": "Refeição da manhã num estabelecimento de boa qualidade."
+  },
+  {
+    "id": "restaurante_bom_almoco",
+    "nome": "Bom restaurante: almoço",
+    "categoria": "Comida",
+    "comercio": "Restaurante",
+    "custo": null,
+    "preco": 0.25,
+    "fonte": "Planilha itens.xlsx do livro de faroeste",
+    "descricao": "Almoço num estabelecimento de boa qualidade."
+  },
+  {
+    "id": "restaurante_bom_jantar",
+    "nome": "Bom restaurante: jantar",
+    "categoria": "Comida",
+    "comercio": "Restaurante",
+    "custo": null,
+    "preco": 1,
+    "fonte": "Planilha itens.xlsx do livro de faroeste",
+    "descricao": "Jantar num estabelecimento de boa qualidade."
+  },
+  {
+    "id": "restaurante_barato",
+    "nome": "Restaurante barato (qualquer refeição)",
+    "categoria": "Comida",
+    "comercio": "Restaurante",
+    "custo": null,
+    "preco": 0.25,
+    "fonte": "Planilha itens.xlsx do livro de faroeste",
+    "descricao": "Refeição simples num lugar modesto."
+  },
+  {
+    "id": "cerveja_copo",
+    "nome": "Cerveja (copo)",
+    "categoria": "Bebida",
+    "comercio": "Saloon",
+    "custo": null,
+    "preco": 0.05,
+    "fonte": "Planilha itens.xlsx do livro de faroeste",
+    "descricao": "Um copo de cerveja."
+  },
+  {
+    "id": "coisa_barata_dose",
+    "nome": "Coisa barata (dose)",
+    "categoria": "Bebida",
+    "comercio": "Saloon",
+    "custo": null,
+    "preco": 0.1,
+    "fonte": "Planilha itens.xlsx do livro de faroeste",
+    "descricao": "Uma dose de bebida forte de baixa qualidade."
+  },
+  {
+    "id": "coisa_boa_dose",
+    "nome": "Coisa de boa qualidade (dose)",
+    "categoria": "Bebida",
+    "comercio": "Saloon",
+    "custo": null,
+    "preco": 0.25,
+    "fonte": "Planilha itens.xlsx do livro de faroeste",
+    "descricao": "Uma dose de bebida forte de boa qualidade."
+  },
+  {
+    "id": "ouro_30g",
+    "nome": "Ouro (30 g)",
+    "categoria": "Equipamento geral",
+    "comercio": "Banco e ensaiador",
+    "custo": null,
+    "preco": 5,
+    "fonte": "Planilha itens.xlsx do livro de faroeste",
+    "peso": 0.03,
+    "descricao": "Pequena porção de ouro, usada como valor de troca."
+  },
+  {
+    "id": "prata_30g",
+    "nome": "Prata (30 g)",
+    "categoria": "Equipamento geral",
+    "comercio": "Banco e ensaiador",
+    "custo": null,
+    "preco": 1,
+    "fonte": "Planilha itens.xlsx do livro de faroeste",
+    "peso": 0.03,
+    "descricao": "Pequena porção de prata, usada como valor de troca."
+  },
+  {
+    "id": "rocha_fantasma",
+    "nome": "Rocha fantasma (0,5 kg)",
+    "categoria": "Equipamento geral",
+    "comercio": "Banco e ensaiador",
+    "custo": null,
+    "preco": 100,
+    "fonte": "Planilha itens.xlsx do livro de faroeste",
+    "peso": 0.5,
+    "descricao": "Mineral raro e valioso, vendido em porções de 0,5 kg."
+  },
+  {
+    "id": "barco_fluvial",
+    "nome": "Barco fluvial (por 1,5 km)",
+    "categoria": "Transporte",
+    "comercio": "Cais",
+    "custo": null,
+    "preco": 0.05,
+    "fonte": "Planilha itens.xlsx do livro de faroeste",
+    "descricao": "Passagem de barco a vapor ou fluvial."
+  },
+  {
+    "id": "bilhete_trem",
+    "nome": "Bilhete de trem (por 1,5 km)",
+    "categoria": "Transporte",
+    "comercio": "Estação ferroviária",
+    "custo": null,
+    "preco": 0.05,
+    "fonte": "Planilha itens.xlsx do livro de faroeste",
+    "descricao": "Passagem de trem."
+  },
+  {
+    "id": "diligencia",
+    "nome": "Diligência (por 1,5 km)",
+    "categoria": "Transporte",
+    "comercio": "Estação de diligências",
+    "custo": null,
+    "preco": 0.1,
+    "fonte": "Planilha itens.xlsx do livro de faroeste",
+    "descricao": "Passagem em diligência (carruagem de passageiros)."
+  },
+  {
+    "id": "banho",
+    "nome": "Banho",
+    "categoria": "Serviços",
+    "comercio": "Hotel e pensão",
+    "custo": null,
+    "preco": 1,
+    "fonte": "Planilha itens.xlsx do livro de faroeste",
+    "descricao": "Banho quente em casa de banhos ou hotel."
+  },
+  {
+    "id": "barbeiro",
+    "nome": "Cortar o cabelo e fazer a barba",
+    "categoria": "Serviços",
+    "comercio": "Barbearia",
+    "custo": null,
+    "preco": 0.25,
+    "fonte": "Planilha itens.xlsx do livro de faroeste",
+    "descricao": "Serviço de barbeiro."
+  },
+  {
+    "id": "enterro",
+    "nome": "Enterro",
+    "categoria": "Serviços",
+    "comercio": "Agente funerário",
+    "custo": null,
+    "preco": 5,
+    "fonte": "Planilha itens.xlsx do livro de faroeste",
+    "descricao": "Serviço funerário básico."
+  },
+  {
+    "id": "fotografia",
+    "nome": "Fotografia",
+    "categoria": "Serviços",
+    "comercio": "Fotógrafo",
+    "custo": null,
+    "preco": 10,
+    "fonte": "Planilha itens.xlsx do livro de faroeste",
+    "descricao": "Retrato feito por um fotógrafo profissional."
+  },
+  {
+    "id": "hotel_barato",
+    "nome": "Quarto (por dia): hotel de baixa qualidade",
+    "categoria": "Serviços",
+    "comercio": "Hotel e pensão",
+    "custo": null,
+    "preco": 2,
+    "fonte": "Planilha itens.xlsx do livro de faroeste",
+    "descricao": "Diária em hospedagem simples."
+  },
+  {
+    "id": "hotel_luxo",
+    "nome": "Quarto (por dia): hotel de luxo",
+    "categoria": "Serviços",
+    "comercio": "Hotel e pensão",
+    "custo": null,
+    "preco": 10,
+    "fonte": "Planilha itens.xlsx do livro de faroeste",
+    "descricao": "Diária em hotel de alto padrão."
+  },
+  {
+    "id": "pensao",
+    "nome": "Quarto (por dia): pensão com refeições",
+    "categoria": "Serviços",
+    "comercio": "Hotel e pensão",
+    "custo": null,
+    "preco": 3,
+    "fonte": "Planilha itens.xlsx do livro de faroeste",
+    "descricao": "Diária em pensão, com refeições incluídas."
+  },
+  {
+    "id": "telefonema",
+    "nome": "Telefonema",
+    "categoria": "Serviços",
+    "comercio": "Telégrafo",
+    "custo": null,
+    "preco": 5,
+    "fonte": "Planilha itens.xlsx do livro de faroeste",
+    "descricao": "Uma ligação telefônica."
+  },
+  {
+    "id": "telegrama",
+    "nome": "Telegrama (por palavra)",
+    "categoria": "Serviços",
+    "comercio": "Telégrafo",
+    "custo": null,
+    "preco": 0.05,
+    "fonte": "Planilha itens.xlsx do livro de faroeste",
+    "descricao": "Envio de telegrama, cobrado por palavra."
+  },
+  {
+    "id": "consulta_medica",
+    "nome": "Visita ao consultório médico",
+    "categoria": "Serviços",
+    "comercio": "Médico e farmácia",
+    "custo": null,
+    "preco": 3,
+    "fonte": "Planilha itens.xlsx do livro de faroeste",
+    "descricao": "Consulta com o médico da cidade."
   }
 ]

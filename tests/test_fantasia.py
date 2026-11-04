@@ -142,7 +142,7 @@ def test_escudo_que_estoura_o_np_sai_e_devolve_o_dinheiro(fantasia):
 
 def test_preco_em_pecas_de_ouro(fantasia):
     assert formatter.dolares(120, "po") == "120 po"
-    assert formatter.dolares(2.5, "po") == "2,50 po"
+    assert formatter.dolares(2.5, "po") == "2 po e 5 pp"
     assert formatter.dolares(2550, "eb") == "2.550eb"
     assert formatter.dolares(250, "$") == "$250"
 
@@ -272,12 +272,31 @@ def test_kit_de_bruxo_traz_os_itens_com_estatistica(fantasia):
     pj = gerar_pj(fantasia, "bruxo", 5, "cacador_monstros", variante="lobo")
     equipamento = pj["ficha"]["equipamento"]
     assert {"kit_bruxo", "espada_prata", "espada_longa", "couro_batido"} <= set(equipamento)
-    assert pj["ficha"]["quantidades"]["elixires"] == 3
+    assert {"pocao_andorinha", "elixir_trovoada", "elixir_gato", "oleo_necrofago", "oleo_fera"} <= set(equipamento)
     compras = {c["id"]: c["preco"] for c in pj["dinheiro"]["compras"]}
-    assert compras["kit_bruxo"] == 120 and "espada_prata" not in compras   # paga o pacote, não as peças
+    # O kit vem da escola: em vez dos 120 po, deixa metade do dinheiro do Aventureiro (150 po)
+    assert compras["kit_bruxo"] == 75 and "espada_prata" not in compras   # paga o pacote, não as peças
+    assert "veio da origem do personagem por 75 po (preço normal 120 po)" in formatter.texto_dinheiro(pj["dinheiro"])
     ataques = {a["nome"] for a in pj["validacao"]["valores"]["ataques"]}
     assert {"Espada de prata", "Espada longa"} <= ataques
     assert pj["validacao"]["valores"]["protecao"] == 2
+
+    # Até o Camponês (30 po) sai da escola com o kit, por 15 po
+    pobre = gerar_pj(fantasia, "bruxo", 5, "cacador_monstros", variante="urso", riqueza="trabalhador")
+    assert {c["id"]: c["preco"] for c in pobre["dinheiro"]["compras"]}["kit_bruxo_urso"] == 15
+
+
+def test_sorteio_guarda_parte_do_dinheiro(fantasia):
+    """O equipamento sorteado nunca gasta tudo: os essenciais deixam 5% e os extras deixam 15% do dinheiro."""
+    for riqueza in ("trabalhador", "classe_media"):
+        for arquetipo, dados_arq in fantasia["jogador"]["arquetipos"].items():
+            for semente in range(3):
+                pj = gerar_pj(fantasia, arquetipo, 5, dados_arq["focos"][0]["id"], semente, riqueza)
+                dinheiro = pj["dinheiro"]
+                assert dinheiro["restante"] >= round(dinheiro["inicial"] * player.PARTE_MINIMA, 2), (arquetipo, riqueza)
+    # Com dinheiro sobrando para os essenciais, o arqueiro compra a cota de malha e ainda guarda dinheiro
+    arqueiro = gerar_pj(fantasia, "guerreiro", 5, "arqueiro")
+    assert "cota_malha" in arqueiro["ficha"]["equipamento"] and arqueiro["dinheiro"]["restante"] > 0
 
 
 def test_ficha_explica_protecao_da_armadura_na_resistencia(fantasia):
@@ -386,3 +405,62 @@ def test_ficha_mostra_tipo_de_dano_e_qualidades(fantasia):
     machado = next(a for a in pj["validacao"]["valores"]["ataques"] if a["nome"] == "Machado de batalha")
     texto = formatter.texto_ataque(machado)
     assert "corte" in texto and "Perigosa, Quebrar" in texto and "crítico 19–20" in texto
+
+
+def test_dinheiro_da_fantasia_em_pecas_de_ouro_prata_e_cobre():
+    from nucleo import formatter
+    assert [formatter.dolares(v, "po") for v in (79.2, 79.25, 1500, 0.5, 0.04, 0, -2.3)] == \
+        ["79 po e 2 pp", "79 po, 2 pp e 5 pc", "1.500 po", "5 pp", "4 pc", "0 po", "–2 po e 3 pp"]
+    assert formatter.dolares(79.2, "$") == "$79,20"
+
+
+def _media_das_habilidades(fantasia, arquetipo, foco, np, vezes=12):
+    racas = list(fantasia["jogador"]["racas"])
+    somas = {}
+    for semente in range(vezes):
+        pj = gerar_pj(fantasia, arquetipo, np, foco, semente=semente, raca=racas[semente % len(racas)])
+        for habilidade, valor in pj["ficha"]["habilidades"].items():
+            somas[habilidade] = somas.get(habilidade, 0) + valor / vezes
+    return somas
+
+
+@pytest.mark.parametrize("np", [5, 8])
+def test_habilidades_combinam_com_a_classe(fantasia, np):
+    # A sobra do orçamento não cai nas habilidades que a classe despreza (o Intelecto do bárbaro).
+    barbaro = _media_das_habilidades(fantasia, "barbaro", "totemico", np)
+    assert barbaro["For"] > barbaro["Pre"] > barbaro["Int"] and barbaro["Int"] < 1
+    arqueiro = _media_das_habilidades(fantasia, "guerreiro", "arqueiro", np)
+    assert arqueiro["Des"] > arqueiro["For"]
+    paladino = _media_das_habilidades(fantasia, "paladino", "devocao", np)
+    assert paladino["For"] > paladino["Pre"]
+    cavaleiro_arcano = _media_das_habilidades(fantasia, "guerreiro", "cavaleiro_arcano", np)
+    assert cavaleiro_arcano["For"] > cavaleiro_arcano["Int"]
+
+
+def test_barbaro_treina_a_pericia_da_arma_que_carrega(fantasia):
+    for semente in range(10):
+        pj = gerar_pj(fantasia, "barbaro", 5, "totemico", semente=semente)
+        principal = next(a for a in pj["validacao"]["valores"]["ataques"] if a["nome"] != "Desarmado")
+        assert principal["bonus"] >= 2, (principal["nome"], principal["bonus"], principal["dano"])
+
+
+def test_halfling_e_pequeno_e_paga_o_saldo_do_tamanho(fantasia):
+    halfling = fantasia["jogador"]["racas"]["halfling"]
+    # Agilidade +1 (2 PP), Sorte (1 PP) e Pequeno (3 PP, o saldo dos traços; o Encolhimento 4 Inato custaria 9)
+    assert player.custo_da_raca(fantasia, halfling, 5) == 6
+    assert "tamanho_pequeno" in gerar_pj(fantasia, "ladino", 5, "ladrao", raca="halfling")["ficha"]["poderes"]
+    pj = gerar_pj(fantasia, "ladino", 5, "ladrao", raca="halfling")
+    valores, ficha = pj["validacao"]["valores"], pj["ficha"]
+    assert pj["validacao"]["problemas"] == [] and pj["validacao"]["total_pp"] == 75
+    assert valores["habilidades"]["For"] == ficha["habilidades"]["For"] - 1
+    assert valores["defesas"]["Esquiva"] == (ficha["habilidades"]["Agi"] + ficha.get("defesas_compradas", {}).get("Esquiva", 0) + 2)
+    furtividade = valores["pericias"]["Furtividade"]
+    assert furtividade["circunstancia"] == 4
+    assert furtividade["total"] == ficha["habilidades"]["Agi"] + ficha["pericias"].get("Furtividade", 0) + 4
+    assert valores["pericias"]["Intimidação"]["circunstancia"] == -2
+    # A circunstância não conta no limite de perícia do NP.
+    limite = next(c for c in pj["validacao"]["limites"] if c["nome"] == "Perícia Furtividade")
+    assert limite["valor"] == furtividade["total"] - 4
+    humano = gerar_pj(fantasia, "ladino", 5, "ladrao", raca="humano")
+    assert "circunstancia" not in str({k: v for k, v in humano["validacao"]["valores"]["pericias"].items()
+                                       if v.get("circunstancia")})

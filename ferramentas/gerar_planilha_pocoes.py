@@ -75,7 +75,13 @@ REGRAS = [
      "Se passarem, ganham o benefício; se falharem, ficam Enjoados/Abalados e sofrem as veias escuras e náusea da intoxicação.\n"
      "• Elixir Mel Branco: Remove instantaneamente a toxicidade e encerra todos os elixires ativos."),
     
-    ("5. Aplicação de Óleos para Lâminas",
+    ("5. Bombas",
+     "• Bombas são frascos arremessados com Combate à Distância: Arremesso (distância de arremesso, como o fogo alquímico).\n"
+     "• Estouram numa Explosão de 3 m onde caem: quem está na área resiste ao efeito (a CD está na aba Bombas).\n"
+     "• Uso único: o frasco se quebra. A graduação 5 cabe nos limites do NP a partir do NP 5.\n"
+     "• Preparo como o das poções: 1 reagente de monstro, a base e um teste na CD da bomba."),
+
+    ("6. Aplicação de Óleos para Lâminas",
      "• Óleos são unguentos viscosos aplicados em armas de corte ou perfuração (espadas, machados, adagas, flechas).\n"
      "• Tempo de Aplicação: 1 ação padrão para untar a lâmina.\n"
      "• Duração: 1 combate inteiro (ou até desferir 10 acertos bem-sucedidos).\n"
@@ -84,6 +90,7 @@ REGRAS = [
 
 POCOES = [
     {
+        "id": "pocao_andorinha",
         "nome": "Poção Andorinha (Cura Rápida)",
         "tipo": "Elixir de Combate",
         "ingrediente": "Restos de Carniçal ou Lobo Atroz",
@@ -93,10 +100,12 @@ POCOES = [
         "duracao": "5 rodadas",
         "efeito": "Recupera 1 grau de dano imediatamente e permite 1 teste de Recuperação por rodada durante 5 rodadas (a regeneração pausa na rodada em que sofrer novo golpe).",
         "toxicidade": "Média (Fortitude CD 14 para não-mutantes).",
-        "preco": "50 po"
+        "preco": "60 po",
+        "peso": 0.25
     },
     {
-        "nome": "Bálsamo de Cura Tradicional",
+        "id": "pocao_cura",
+        "nome": "Poção de Cura (Bálsamo Tradicional)",
         "tipo": "Poção Medicinal Comum",
         "ingrediente": "Gordura de Fera (Lobo ou Urso)",
         "base_ervas": "Água destilada + Raiz de Mandrágora",
@@ -105,9 +114,11 @@ POCOES = [
         "duracao": "Instantâneo",
         "efeito": "Recupera 1 grau de dano imediatamente (remove a penalidade de dano acumulado mais grave). Segura para qualquer personagem beber.",
         "toxicidade": "Nenhuma (segura).",
-        "preco": "50 po"
+        "preco": "50 po",
+        "peso": 0.25
     },
     {
+        "id": "elixir_trovoada",
         "nome": "Elixir Trovoada (Força Brutal)",
         "tipo": "Elixir de Combate",
         "ingrediente": "Restos de Ogro, Troll ou Bies",
@@ -117,9 +128,11 @@ POCOES = [
         "duracao": "1 combate (10 rodadas)",
         "efeito": "+2 de bônus de circunstância em Dano de ataques corpo a corpo e +2 em testes de Atletismo/Força bruta.",
         "toxicidade": "Alta (Fortitude CD 16 para não-mutantes; impõe -2 em testes de Percepção pela fúria).",
-        "preco": "75 po"
+        "preco": "75 po",
+        "peso": 0.25
     },
     {
+        "id": "elixir_gato",
         "nome": "Elixir do Gato (Visão Penetrante)",
         "tipo": "Elixir Utilitário",
         "ingrediente": "Olho de Observador, Mímico ou Fera Noturna",
@@ -129,9 +142,11 @@ POCOES = [
         "duracao": "1 hora",
         "efeito": "Concede Sentidos: Visão no Escuro (ignora penalidade de escuridão natural e penumbra mágica) e +2 em Percepção visual.",
         "toxicidade": "Média (Pupilas dilatadas: se exposto a luz solar intensa repentina, fica Deslumbrado 1 rodada).",
-        "preco": "60 po"
+        "preco": "60 po",
+        "peso": 0.25
     },
     {
+        "id": "elixir_lua_cheia",
         "nome": "Elixir da Lua Cheia (Vigor Titânico)",
         "tipo": "Elixir de Combate",
         "ingrediente": "Restos de Lobisomem ou Leshy Ancião",
@@ -141,9 +156,11 @@ POCOES = [
         "duracao": "1 cena (10 min)",
         "efeito": "Concede Proteção 2 (bônus de circunstância em Resistência) e +2 em testes de Fortitude.",
         "toxicidade": "Alta (Fortitude CD 16 para não-mutantes; batimentos cardíacos violentamente acelerados).",
-        "preco": "90 po"
+        "preco": "90 po",
+        "peso": 0.25
     },
     {
+        "id": "elixir_nevasca",
         "nome": "Elixir Nevasca (Reflexos Acelerados)",
         "tipo": "Elixir de Combate",
         "ingrediente": "Restos de Quimera, Grifo ou Aparição",
@@ -153,9 +170,11 @@ POCOES = [
         "duracao": "5 rodadas após o 1º golpe",
         "efeito": "+2 em Esquiva, +2 em Iniciativa e permite realizar 1 ação de Movimento adicional por turno (aceleração temporal reflexa).",
         "toxicidade": "Alta (Fortitude CD 16 para não-mutantes; foco de túnel: -2 em Intuição e testes sociais).",
-        "preco": "80 po"
+        "preco": "80 po",
+        "peso": 0.25
     },
     {
+        "id": "elixir_sangue_negro",
         "nome": "Elixir Sangue Negro (Defesa Venenosa)",
         "tipo": "Elixir de Combate",
         "ingrediente": "Sangue de Cria Vampírica, Darakhul ou Aparição",
@@ -165,9 +184,11 @@ POCOES = [
         "duracao": "1 combate",
         "efeito": "O sangue do alquimista se torna ácido e cáustico: qualquer criatura que morder ou beber seu sangue sofre Dano 5 (Fortitude CD 15 reduz) por rodada.",
         "toxicidade": "Muito Alta (Fortitude CD 18 para não-mutantes; causa palidez cadavérica durante o efeito).",
-        "preco": "100 po"
+        "preco": "100 po",
+        "peso": 0.25
     },
     {
+        "id": "elixir_papa_figo",
         "nome": "Elixir Papa-figo (Antitoxina Absoluta)",
         "tipo": "Elixir Defensivo",
         "ingrediente": "Glândula de Basilisco, Hidra ou Goblin Tóxico",
@@ -177,9 +198,11 @@ POCOES = [
         "duracao": "1 hora",
         "efeito": "Imunidade a venenos mundanos e +5 em Fortitude contra venenos sobrenaturais. Neutraliza toxinas e venenos já ativos no corpo.",
         "toxicidade": "Baixa (leve gosto metálico na boca).",
-        "preco": "60 po"
+        "preco": "60 po",
+        "peso": 0.25
     },
     {
+        "id": "elixir_mel_branco",
         "nome": "Elixir Mel Branco (Purificador Geral)",
         "tipo": "Elixir de Purificação",
         "ingrediente": "Pó de Mímico ou Cera de Golem",
@@ -189,9 +212,11 @@ POCOES = [
         "duracao": "Instantâneo",
         "efeito": "Remove instantaneamente toda a toxicidade e anula os efeitos de todos os outros elixires ativos, restaurando o organismo.",
         "toxicidade": "Nenhuma (seguro e restaurador).",
-        "preco": "40 po"
+        "preco": "40 po",
+        "peso": 0.25
     },
     {
+        "id": "filtro_petri",
         "nome": "Filtro de Petri (Amplificador Arcano)",
         "tipo": "Filtro Mágico",
         "ingrediente": "Restos de Devorador de Mentes ou Hobgoblin Conjurador",
@@ -201,12 +226,14 @@ POCOES = [
         "duracao": "1 combate (10 rodadas)",
         "efeito": "+2 na graduação de efeito de Magias e Dons (respeitando o limite de NP) ou +2 de bônus em testes de Ataque Mágico.",
         "toxicidade": "Alta (Fortitude CD 16 para não-mutantes; leve enxaqueca arcana após o término).",
-        "preco": "120 po"
+        "preco": "120 po",
+        "peso": 0.25
     },
 ]
 
 OLEOS = [
     {
+        "id": "oleo_necrofago",
         "nome": "Óleo de Necrófago",
         "alvo": "Mortos-vivos Corpóreos",
         "ingrediente": "Restos de Carniçal, Carniçal Darakhul ou Múmia",
@@ -216,9 +243,11 @@ OLEOS = [
         "duracao": "1 combate (ou 10 golpes)",
         "efeito": "+2 de Dano de circunstância contra mortos-vivos corpóreos e impede a regeneração necromântica temporariamente.",
         "exemplos": "Carniçal, Carniçal Darakhul, Esqueleto, Múmia, Zumbi",
-        "preco": "45 po"
+        "preco": "40 po",
+        "peso": 0.5
     },
     {
+        "id": "oleo_espectro",
         "nome": "Óleo de Espectro",
         "alvo": "Mortos-vivos Incorpóreos e Espíritos",
         "ingrediente": "Ectoplasma de Aparição, Sombra ou Espectro do Meio-Dia",
@@ -228,9 +257,11 @@ OLEOS = [
         "duracao": "1 combate (ou 10 golpes)",
         "efeito": "A lâmina ganha Afeta Intangível total: causa dano normal em seres incorpóreos e espíritos, somando +2 de Dano circunstancial.",
         "exemplos": "Aparição, Sombra, Espectro do Meio-Dia, Fantasmas",
-        "preco": "60 po"
+        "preco": "55 po",
+        "peso": 0.5
     },
     {
+        "id": "oleo_fera",
         "nome": "Óleo de Fera",
         "alvo": "Feras e Animais Vorazes",
         "ingrediente": "Gordura de Urso, Presa de Lobo ou Lobo Atroz",
@@ -240,9 +271,11 @@ OLEOS = [
         "duracao": "1 combate (ou 10 golpes)",
         "efeito": "+2 de Dano de circunstância contra feras; o primeiro golpe impõe teste de Vontade CD 13 para não afugentar o animal.",
         "exemplos": "Lobo, Lobo Atroz, Urso, Cavalo de Guerra hostil, Mastins",
-        "preco": "35 po"
+        "preco": "25 po",
+        "peso": 0.5
     },
     {
+        "id": "oleo_ogroide",
         "nome": "Óleo de Ogroide",
         "alvo": "Gigantes, Ogros e Trolls",
         "ingrediente": "Gordura de Troll, Restos de Ogro ou Ettin",
@@ -252,9 +285,11 @@ OLEOS = [
         "duracao": "1 combate (ou 10 golpes)",
         "efeito": "+2 de Dano de circunstância contra gigantes e ogroides; anula a regeneração de Trolls por 1 rodada a cada golpe.",
         "exemplos": "Troll, Ogro, Ettin, Gigante do Gelo, Bugbear Brigão",
-        "preco": "60 po"
+        "preco": "55 po",
+        "peso": 0.5
     },
     {
+        "id": "oleo_draconideo",
         "nome": "Óleo de Draconídeo",
         "alvo": "Dragões, Serpes e Répteis Mágicos",
         "ingrediente": "Escamas ou Sangue de Dragão Branco/Vermelho ou Serpe",
@@ -264,9 +299,11 @@ OLEOS = [
         "duracao": "1 combate (ou 10 golpes)",
         "efeito": "+2 de Dano de circunstância contra dragões e serpes; perfura carapaça escamosa (reduz a Proteção do alvo em 1 grau temporariamente).",
         "exemplos": "Dragão Vermelho, Dragão Branco, Serpe, Basilisco",
-        "preco": "90 po"
+        "preco": "70 po",
+        "peso": 0.5
     },
     {
+        "id": "oleo_hibrido",
         "nome": "Óleo de Híbrido e Monstruosidades",
         "alvo": "Quimeras, Grifos e Feras Aladas",
         "ingrediente": "Penas de Grifo, Secreção de Quimera ou Ferrão de Mantícora",
@@ -276,9 +313,11 @@ OLEOS = [
         "duracao": "1 combate (ou 10 golpes)",
         "efeito": "+2 de Dano de circunstância contra monstruosidades; em acerto crítico, mutila asas/membros forçando pouso imediato.",
         "exemplos": "Grifo, Quimera, Mantícora, Bies, Leshy Ancião",
-        "preco": "70 po"
+        "preco": "55 po",
+        "peso": 0.5
     },
     {
+        "id": "oleo_construtos",
         "nome": "Óleo de Construtos e Autômatos",
         "alvo": "Golems de Ferro, Pedra e Estátuas Vivas",
         "ingrediente": "Pó Mineral de Golem de Ferro ou Golem de Pedra",
@@ -288,9 +327,11 @@ OLEOS = [
         "duracao": "1 combate (ou 10 golpes)",
         "efeito": "+2 de Dano de circunstância contra construtos e ignora até 2 pontos de Proteção Impenetrável ou dureza de pedra/ferro.",
         "exemplos": "Golem de Ferro, Golem de Pedra, Gárgulas animadas",
-        "preco": "65 po"
+        "preco": "55 po",
+        "peso": 0.5
     },
     {
+        "id": "oleo_amaldicoados",
         "nome": "Óleo de Amaldiçoados e Metamorfos",
         "alvo": "Lobisomens, Estriges e Seres sob Maldição",
         "ingrediente": "Pêlo de Lobisomem ou Restos de Estrige",
@@ -300,114 +341,243 @@ OLEOS = [
         "duracao": "1 combate (ou 10 golpes)",
         "efeito": "A lâmina arde com essência de prata: causa +3 de Dano de circunstância e suprime a regeneração do monstro amaldiçoado.",
         "exemplos": "Lobisomem, Estrige, Cria Vampírica, Vampiro",
-        "preco": "85 po"
+        "preco": "75 po",
+        "peso": 0.5
+    },
+]
+
+# Bombas: frascos arremessados (Combate à Distância: Arremesso, distância de arremesso) que estouram numa
+# Explosão de 3 m. Graduação 5 em todas: cabe nos limites do NP a partir do NP 5, como o frasco de ácido (Dano 4).
+# Preço pela CD de preparo, como os óleos: CD 14 = 45 a 50 po, CD 16 = 70 po, CD 18 = 85 a 90 po.
+BOMBAS = [
+    {
+        "id": "bomba_samum",
+        "nome": "Samum (Bomba de Clarão)",
+        "ingrediente": "Glândula Psíquica / Olho Mágico",
+        "base": "Pólvora de salitre + Pó de magnésio",
+        "cd": 14,
+        "tempo": "20 min",
+        "area": "Explosão 3 m",
+        "efeito": "Aflição 5 (resistida por Fortitude; Visão Prejudicada, Visão Incapacitada [cego]), Área Explosão 3 m. CD 15. Um clarão branco que cega quem olha.",
+        "preco": "50 po",
+        "peso": 0.5
+    },
+    {
+        "id": "bomba_estilhacos",
+        "nome": "Bomba de Estilhaços",
+        "ingrediente": "Pó Mineral de Golem / Núcleo do Construto",
+        "base": "Pólvora de salitre + Cacos de ferro",
+        "cd": 14,
+        "tempo": "20 min",
+        "area": "Explosão 3 m",
+        "efeito": "Dano 5 (perfuração), Área Explosão 3 m. CD 15 de Esquiva para metade; quem falha resiste com Resistência (CD 20).",
+        "preco": "45 po",
+        "peso": 0.5
+    },
+    {
+        "id": "bomba_cola",
+        "nome": "Bomba de Cola (Secreção de Mímico)",
+        "ingrediente": "Secreção Adesiva / Resíduo Amorfo",
+        "base": "Resina de pinheiro + Cera de abelha",
+        "cd": 14,
+        "tempo": "20 min",
+        "area": "Explosão 3 m",
+        "efeito": "Aflição 5 (resistida por Esquiva, superada por Força; Impedido, Imóvel), Área Explosão 3 m, Cumulativo. CD 15. Gruda pés e asas no chão.",
+        "preco": "45 po",
+        "peso": 0.5
+    },
+    {
+        "id": "bomba_estrela_dancante",
+        "nome": "Estrela Dançante (Bomba Incendiária)",
+        "ingrediente": "Sangue & Escamas Dracônicas ou Secreção Tríplice de Quimera",
+        "base": "Óleo mineral + Enxofre em pó",
+        "cd": 16,
+        "tempo": "30 min",
+        "area": "Explosão 3 m",
+        "efeito": "Dano 5 (fogo), Área Explosão 3 m. CD 15 de Esquiva para metade; quem falha resiste com Resistência (CD 20). O chão arde até o fim da rodada seguinte.",
+        "preco": "70 po",
+        "peso": 0.5
+    },
+    {
+        "id": "bomba_gas_dragao",
+        "nome": "Gás do Dragão (Nuvem Venenosa)",
+        "ingrediente": "Glândula de Peçonha / Olho Petrificante",
+        "base": "Enxofre em pó + Folhas de Beladona",
+        "cd": 16,
+        "tempo": "30 min",
+        "area": "Nuvem 3 m (3 rodadas)",
+        "efeito": "Aflição 5 (resistida por Fortitude; Tonto, Atordoado, Incapacitado), Área Nuvem 3 m (dura 3 rodadas), Cumulativo. CD 15. Quem não respira (mortos-vivos, construtos) é imune.",
+        "preco": "70 po",
+        "peso": 0.5
+    },
+    {
+        "id": "bomba_vento_norte",
+        "nome": "Vento do Norte (Bomba de Gelo)",
+        "ingrediente": "Ectoplasma & Pó de Aparição",
+        "base": "Água de degelo + Sal de amônia",
+        "cd": 16,
+        "tempo": "30 min",
+        "area": "Explosão 3 m",
+        "efeito": "Aflição 5 (resistida por Fortitude; Impedido, Imóvel), Área Explosão 3 m (frio). CD 15. Congela as pernas de quem estiver na área.",
+        "preco": "70 po",
+        "peso": 0.5
+    },
+    {
+        "id": "bomba_po_lunar",
+        "nome": "Pó Lunar (Bomba de Prata)",
+        "ingrediente": "Pêlo Amaldiçoado / Sangue Licantrópico",
+        "base": "Prata em pó + Cinzas de verbena",
+        "cd": 18,
+        "tempo": "45 min",
+        "area": "Explosão 3 m",
+        "efeito": "Anular 5 (transformação e regeneração de amaldiçoados e metamorfos), Área Explosão 3 m, até o fim da cena. Impede o lobisomem de mudar de forma e de se regenerar.",
+        "preco": "90 po",
+        "peso": 0.5
+    },
+    {
+        "id": "bomba_po_espectral",
+        "nome": "Pó Espectral (Bomba de Materialização)",
+        "ingrediente": "Ectoplasma & Pó de Aparição",
+        "base": "Sal marinho refinado + Cinzas de ossos consagrados",
+        "cd": 18,
+        "tempo": "45 min",
+        "area": "Explosão 3 m",
+        "efeito": "Anular 5 (Insubstancial), Área Explosão 3 m, até o fim da rodada seguinte. Espíritos e aparições na área ficam sólidos e podem ser feridos por armas comuns.",
+        "preco": "85 po",
+        "peso": 0.5
     },
 ]
 
 INGREDIENTES = [
     {
+        "id": "reagente_carnical",
         "criatura": "Carniçal / Carniçal Darakhul",
         "categoria": "Morto-vivo",
         "reagente": "Restos de Carniçal (Fígado / Sangue cadavérico)",
         "regra": "Declarar colheita após o abate (rende 1d3 doses)",
         "usos": "Óleo de Necrófago, Poção Andorinha, Sangue Negro",
-        "preco": "15 po"
+        "preco": "15 po",
+        "peso": 0.5
     },
     {
+        "id": "reagente_lobo",
         "criatura": "Lobo / Lobo Atroz",
         "categoria": "Fera",
         "reagente": "Gordura e Presas de Lobo",
         "regra": "Declarar colheita após o abate (rende 1d3 doses)",
-        "usos": "Óleo de Fera, Bálsamo de Cura, Elixir Trovoada",
-        "preco": "10 po"
+        "usos": "Óleo de Fera, Poção de Cura, Elixir Trovoada",
+        "preco": "10 po",
+        "peso": 0.5
     },
     {
+        "id": "reagente_urso",
         "criatura": "Urso",
         "categoria": "Fera",
         "reagente": "Sebo Denso de Urso",
         "regra": "Declarar colheita após o abate (rende 1d3 doses)",
-        "usos": "Óleo de Fera, Bálsamo de Cura",
-        "preco": "10 po"
+        "usos": "Óleo de Fera, Poção de Cura",
+        "preco": "10 po",
+        "peso": 0.5
     },
     {
+        "id": "reagente_aparicao",
         "criatura": "Aparição / Sombra / Espectro",
         "categoria": "Morto-vivo Incorpóreo",
         "reagente": "Ectoplasma & Pó de Aparição",
         "regra": "Coletar resíduos onde o espírito foi dissipado (rende 1d3 doses)",
-        "usos": "Óleo de Espectro, Elixir Nevasca, Sangue Negro",
-        "preco": "25 po"
+        "usos": "Óleo de Espectro, Elixir Nevasca, Sangue Negro, Vento do Norte, Pó Espectral",
+        "preco": "25 po",
+        "peso": 0.1
     },
     {
+        "id": "reagente_troll",
         "criatura": "Troll / Ogro / Ettin",
         "categoria": "Monstruosidade / Ogroide",
         "reagente": "Gordura Regenerativa de Troll / Glândula de Ogro",
         "regra": "Declarar colheita após o abate (rende 1d3 doses)",
         "usos": "Óleo de Ogroide, Elixir Trovoada, Lua Cheia",
-        "preco": "25 po"
+        "preco": "25 po",
+        "peso": 0.5
     },
     {
+        "id": "reagente_grifo",
         "criatura": "Grifo / Mantícora",
         "categoria": "Monstruosidade Alada",
         "reagente": "Penas de Grifo / Ferrão de Mantícora",
         "regra": "Declarar colheita após o abate (rende 1d3 doses)",
         "usos": "Óleo de Híbrido, Elixir Nevasca",
-        "preco": "30 po"
+        "preco": "30 po",
+        "peso": 0.25
     },
     {
+        "id": "reagente_quimera",
         "criatura": "Quimera",
         "categoria": "Monstruosidade Tríplice",
         "reagente": "Secreção Tríplice de Quimera",
         "regra": "Declarar colheita após o abate (rende 1d3 doses)",
-        "usos": "Óleo de Híbrido, Elixir Nevasca, Fogo Alquímico",
-        "preco": "35 po"
+        "usos": "Óleo de Híbrido, Elixir Nevasca, Estrela Dançante",
+        "preco": "35 po",
+        "peso": 0.25
     },
     {
+        "id": "reagente_golem",
         "criatura": "Golem de Pedra / Golem de Ferro",
         "categoria": "Construto",
         "reagente": "Pó Mineral de Golem / Núcleo do Construto",
         "regra": "Declarar recolhimento de fragmentos da carcaça quebrada (rende 1d3 doses)",
-        "usos": "Óleo de Construtos, Elixir Mel Branco",
-        "preco": "25 po"
+        "usos": "Óleo de Construtos, Elixir Mel Branco, Bomba de Estilhaços",
+        "preco": "25 po",
+        "peso": 1
     },
     {
+        "id": "reagente_lobisomem",
         "criatura": "Lobisomem / Estrige",
         "categoria": "Monstruosidade Amaldiçoada",
         "reagente": "Pêlo Amaldiçoado / Sangue Licantrópico",
         "regra": "Declarar colheita antes que o corpo retorne à forma humana (rende 1d3 doses)",
-        "usos": "Óleo de Amaldiçoados, Elixir da Lua Cheia",
-        "preco": "35 po"
+        "usos": "Óleo de Amaldiçoados, Elixir da Lua Cheia, Pó Lunar",
+        "preco": "35 po",
+        "peso": 0.25
     },
     {
+        "id": "reagente_dragao",
         "criatura": "Dragão Vermelho / Dragão Branco / Serpe",
         "categoria": "Dragão",
         "reagente": "Sangue & Escamas Dracônicas",
         "regra": "Declarar extração de escamas ou sangue do coração (rende 1d3 doses)",
-        "usos": "Óleo de Draconídeo, Elixir Trovoada Titânico",
-        "preco": "60 po"
+        "usos": "Óleo de Draconídeo, Elixir Trovoada, Estrela Dançante",
+        "preco": "45 po",
+        "peso": 1
     },
     {
+        "id": "reagente_basilisco",
         "criatura": "Basilisco / Medusa / Hidra",
         "categoria": "Monstruosidade Tóxica",
         "reagente": "Glândula de Peçonha / Olho Petrificante",
         "regra": "Declarar colheita cuidadosa com luvas (rende 1d3 doses)",
-        "usos": "Elixir Papa-figo (Antitoxina), Óleos Venenosos",
-        "preco": "35 po"
+        "usos": "Elixir Papa-figo (Antitoxina), Gás do Dragão",
+        "preco": "35 po",
+        "peso": 0.25
     },
     {
+        "id": "reagente_devorador",
         "criatura": "Devorador de Mentes / Observador",
         "categoria": "Aberração Psíquica",
         "reagente": "Glândula Psíquica / Olho Mágico",
         "regra": "Declarar extração de tecido encefálico/ocular (rende 1d3 doses)",
-        "usos": "Filtro de Petri, Elixir do Gato",
-        "preco": "50 po"
+        "usos": "Filtro de Petri, Elixir do Gato, Samum",
+        "preco": "50 po",
+        "peso": 0.25
     },
     {
+        "id": "reagente_mimico",
         "criatura": "Mímico",
         "categoria": "Aberração Metamórfica",
         "reagente": "Secreção Adesiva / Resíduo Amorfo",
         "regra": "Raspar secreções adesivas da carcaça derrotada (rende 1d3 doses)",
-        "usos": "Elixir Mel Branco, Elixir do Gato, Cola Alquímica",
-        "preco": "20 po"
+        "usos": "Elixir Mel Branco, Elixir do Gato, Bomba de Cola",
+        "preco": "20 po",
+        "peso": 0.25
     },
 ]
 
@@ -648,6 +818,11 @@ SERVICOS_CONTRATOS = [
 ]
 
 
+def peso_em_texto(kg):
+    """250 g ou 1 kg: o mesmo formato da planilha de itens."""
+    return (f"{kg * 1000:g} g" if kg < 1 else f"{kg:g} kg").replace(".", ",")
+
+
 def criar_planilha():
     wb = openpyxl.Workbook()
     wb.remove(wb.active)
@@ -694,7 +869,7 @@ def criar_planilha():
     ws2 = wb.create_sheet(title="Poções e Elixires")
     ws2.views.sheetView[0].showGridLines = True
 
-    ws2.merge_cells("A1:J1")
+    ws2.merge_cells("A1:K1")
     ws2["A1"] = "CATÁLOGO DE POÇÕES, ELIXIRES E FILTROS"
     ws2["A1"].font = FONTE_TITULO
     ws2["A1"].fill = AZUL_ESCURO
@@ -712,6 +887,7 @@ def criar_planilha():
         ("Efeito Mecânico (M&M 3e)", 45, ALINHA_ESQ),
         ("Toxicidade & Colaterais", 25, ALINHA_ESQ),
         ("Preço", 10, ALINHA_DIR),
+        ("Peso", 10, ALINHA_DIR),
     ]
 
     for col_idx, (nome_col, larg, _) in enumerate(cabecalho_poc, start=1):
@@ -728,7 +904,7 @@ def criar_planilha():
         linha = [
             item["nome"], item["tipo"], item["ingrediente"], item["base_ervas"],
             item["cd"], item["tempo"], item["duracao"], item["efeito"],
-            item["toxicidade"], item["preco"]
+            item["toxicidade"], item["preco"], peso_em_texto(item["peso"])
         ]
         ws2.row_dimensions[r_idx].height = 42
         for col_idx, val in enumerate(linha, start=1):
@@ -744,7 +920,7 @@ def criar_planilha():
     ws3 = wb.create_sheet(title="Óleos para Lâminas")
     ws3.views.sheetView[0].showGridLines = True
 
-    ws3.merge_cells("A1:J1")
+    ws3.merge_cells("A1:K1")
     ws3["A1"] = "ÓLEOS ALQUÍMICOS PARA LÂMINAS (COMBATE CONTRA MONSTROS)"
     ws3["A1"].font = FONTE_TITULO
     ws3["A1"].fill = AZUL_ESCURO
@@ -762,6 +938,7 @@ def criar_planilha():
         ("Efeito Mecânico (M&M 3e)", 45, ALINHA_ESQ),
         ("Monstros Afetados (Bestiário)", 30, ALINHA_ESQ),
         ("Preço", 10, ALINHA_DIR),
+        ("Peso", 10, ALINHA_DIR),
     ]
 
     for col_idx, (nome_col, larg, _) in enumerate(cabecalho_ole, start=1):
@@ -778,7 +955,7 @@ def criar_planilha():
         linha = [
             item["nome"], item["alvo"], item["ingrediente"], item["base"],
             item["cd"], item["tempo"], item["duracao"], item["efeito"],
-            item["exemplos"], item["preco"]
+            item["exemplos"], item["preco"], peso_em_texto(item["peso"])
         ]
         ws3.row_dimensions[r_idx].height = 42
         for col_idx, val in enumerate(linha, start=1):
@@ -789,12 +966,60 @@ def criar_planilha():
             cell.alignment = cabecalho_ole[col_idx - 1][2]
 
     # --------------------------------------------------------------------------
+    # FOLHA 3B: BOMBAS
+    # --------------------------------------------------------------------------
+    ws_b = wb.create_sheet(title="Bombas")
+    ws_b.views.sheetView[0].showGridLines = True
+
+    ws_b.merge_cells("A1:I1")
+    ws_b["A1"] = "BOMBAS ALQUÍMICAS (ARREMESSADAS: COMBATE À DISTÂNCIA: ARREMESSO)"
+    ws_b["A1"].font = FONTE_TITULO
+    ws_b["A1"].fill = AZUL_ESCURO
+    ws_b["A1"].alignment = Alignment(horizontal="center", vertical="center")
+    ws_b.row_dimensions[1].height = 36
+
+    cabecalho_bom = [
+        ("Bomba", 26, ALINHA_ESQ),
+        ("Ingrediente de Monstro", 25, ALINHA_ESQ),
+        ("Base & Carga", 25, ALINHA_ESQ),
+        ("CD Alquimia", 12, ALINHA_CENTRO),
+        ("Preparo", 12, ALINHA_CENTRO),
+        ("Área", 18, ALINHA_CENTRO),
+        ("Efeito Mecânico (M&M 3e)", 55, ALINHA_ESQ),
+        ("Preço", 10, ALINHA_DIR),
+        ("Peso", 10, ALINHA_DIR),
+    ]
+
+    for col_idx, (nome_col, larg, _) in enumerate(cabecalho_bom, start=1):
+        cell = ws_b.cell(row=2, column=col_idx, value=nome_col)
+        cell.font = FONTE_CABECALHO
+        cell.fill = AZUL_MEDIO
+        cell.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
+        cell.border = BORDA_FINA
+        ws_b.column_dimensions[get_column_letter(col_idx)].width = larg
+    ws_b.row_dimensions[2].height = 28
+
+    for r_idx, item in enumerate(BOMBAS, start=3):
+        fill = ZEBRA if r_idx % 2 == 0 else BRANCO
+        linha = [
+            item["nome"], item["ingrediente"], item["base"], item["cd"], item["tempo"], item["area"],
+            item["efeito"], item["preco"], peso_em_texto(item["peso"])
+        ]
+        ws_b.row_dimensions[r_idx].height = 42
+        for col_idx, val in enumerate(linha, start=1):
+            cell = ws_b.cell(row=r_idx, column=col_idx, value=val)
+            cell.font = FONTE_CORPO_BOLD if col_idx == 1 else FONTE_CORPO
+            cell.fill = fill
+            cell.border = BORDA_FINA
+            cell.alignment = cabecalho_bom[col_idx - 1][2]
+
+    # --------------------------------------------------------------------------
     # FOLHA 4: INGREDIENTES DE CRIATURAS
     # --------------------------------------------------------------------------
     ws4 = wb.create_sheet(title="Ingredientes de Criaturas")
     ws4.views.sheetView[0].showGridLines = True
 
-    ws4.merge_cells("A1:F1")
+    ws4.merge_cells("A1:G1")
     ws4["A1"] = "GUIA DE COLHEITA DE REAGENTES DE CRIATURAS (BESTIÁRIO)"
     ws4["A1"].font = FONTE_TITULO
     ws4["A1"].fill = AZUL_ESCURO
@@ -808,6 +1033,7 @@ def criar_planilha():
         ("Método de Colheita", 35, ALINHA_ESQ),
         ("Utilizado em Poções / Óleos", 35, ALINHA_ESQ),
         ("Preço da Dose", 14, ALINHA_DIR),
+        ("Peso da Dose", 12, ALINHA_DIR),
     ]
 
     for col_idx, (nome_col, larg, _) in enumerate(cabecalho_ing, start=1):
@@ -823,7 +1049,7 @@ def criar_planilha():
         fill = ZEBRA if r_idx % 2 == 0 else BRANCO
         linha = [
             item["criatura"], item["categoria"], item["reagente"], item["regra"],
-            item["usos"], item["preco"]
+            item["usos"], item["preco"], peso_em_texto(item["peso"])
         ]
         ws4.row_dimensions[r_idx].height = 36
         for col_idx, val in enumerate(linha, start=1):
@@ -945,6 +1171,7 @@ def main():
         "regras": [{"titulo": t, "descricao": d} for t, d in REGRAS],
         "pocoes": POCOES,
         "oleos": OLEOS,
+        "bombas": BOMBAS,
         "ingredientes": INGREDIENTES,
         "taverna": TAVERNA,
         "servicos_contratos": SERVICOS_CONTRATOS

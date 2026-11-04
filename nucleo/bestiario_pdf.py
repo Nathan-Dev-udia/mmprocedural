@@ -1,5 +1,6 @@
 """Gera a ficha editável em PDF de uma criatura do Bestiário (dados/generos/bestiario)."""
 
+import re
 import textwrap
 import unicodedata
 from pathlib import Path
@@ -21,6 +22,12 @@ def campos_da_criatura(criatura_id, nome=None, np=None):
     `nome` troca o nome da ficha (ex.: "Carniçal 2" quando o mestre baixa várias cópias); `np` leva a criatura
     a outro NP (bestiario.no_np).
     """
+    resultado = _campos_e_formulas(criatura_id, nome, np)
+    return None if resultado is None else resultado[0]
+
+
+def _campos_e_formulas(criatura_id, nome=None, np=None):
+    """(campos, fórmulas a acrescentar no PDF) da criatura; None se ela não existir."""
     dados, resumo = bestiario.carregar(criatura_id, np)
     if dados is None:
         return None
@@ -36,7 +43,7 @@ def campos_da_criatura(criatura_id, nome=None, np=None):
         "Peso": "",
         "Olhos": "",
         "Cabelos": "",
-        "NP": str(dados.get("nivel_poder", "")),
+        "Nível de Poder": str(dados.get("nivel_poder", "")),
         "Total": "",
         "Jogador": "Mestre (NPC)",
     }
@@ -46,32 +53,37 @@ def campos_da_criatura(criatura_id, nome=None, np=None):
         v = hab.get(sigla, 0)
         campos[campo] = str(v) if v is not None else "—"
 
-    # Defesas
+    # Defesas: habilidade + graduações (o que passa da habilidade) + outros (o que fica abaixo dela, como o
+    # Crescimento tirando Esquiva e Aparar), para as fórmulas do PDF fecharem com o total da ficha.
     defs = f.get("defesas", {})
-    pares = [
-        ("Esquiva", "Agi", "Agi"),
-        ("Aparar", "Lut", "Lut"),
-        ("Fortitude", "Vig", "Vig"),
-        ("Vontade", "Pro", "Pro"),
-    ]
-    for d_nome, h_sigla, campo_def in pares:
-        total = defs.get(d_nome)
+    for defesa, sigla in rules.DEFESAS_COMPRAVEIS.items():
+        total = defs.get(defesa)
         if isinstance(total, str):
             # Defesa que a criatura não tem (Fortitude de morto-vivo sem Vigor): "Imune".
-            campos[f"{campo_def}Total"] = total
-            campos[campo_def] = total
+            campos[defesa] = total
         elif total is not None:
-            base = hab.get(h_sigla, 0) or 0
-            comprada = max(0, total - base)
-            campos[f"{campo_def}Hab"] = str(base)
-            campos[f"{campo_def}Def"] = str(comprada) if comprada else ""
-            campos[f"{campo_def}Total"] = str(total)
-            campos[campo_def] = str(total)
+            diferenca = total - (hab.get(sigla) or 0)
+            campos[f"Grad.{defesa}"] = str(max(diferenca, 0))
+            campos[f"{defesa} Outros"] = str(min(diferenca, 0)) if diferenca < 0 else ""
+            campos[defesa] = str(total)
+    resistencia = defs.get("Resistencia", defs.get("Resistência"))
+    if isinstance(resistencia, int):
+        outros = resistencia - (hab.get("Vig") or 0)
+        campos["Resistência Outros"] = str(outros) if outros else ""
+        campos["Resistência"] = str(resistencia)
+    elif resistencia is not None:
+        campos["Resistência"] = str(resistencia)
 
-    if "Resistencia" in defs:
-        campos["Resistência"] = str(defs["Resistencia"])
-    elif "Resistência" in defs:
-        campos["Resistência"] = str(defs["Resistência"])
+    # Iniciativa: Agilidade + 4 por graduação de Iniciativa Aprimorada
+    iniciativa = None
+    if isinstance(hab.get("Agi"), int):
+        graduacoes = 0
+        for vantagem in f.get("vantagens", []):
+            achou = re.fullmatch(rf"{rules.VANTAGEM_INICIATIVA}\s*(\d+)?", vantagem.strip())
+            if achou:
+                graduacoes += int(achou.group(1) or 1)
+        iniciativa = hab["Agi"] + rules.INICIATIVA_POR_GRADUACAO * graduacoes
+        campos["Iniciativa"] = f"{iniciativa:+d}"
 
     # Ataques
     notas = []
@@ -91,6 +103,8 @@ def campos_da_criatura(criatura_id, nome=None, np=None):
         notas.append(f"Ataque: {atk.get('nome')} {atk.get('bonus', 0):+d}, Dano {atk.get('dano', 0)}")
 
     # Perícias
+    # A criatura não tem custo em PP: o Total fica em branco (a fórmula do modelo somaria só uma parte).
+    formulas = {**pdf_export.formula_da_iniciativa(iniciativa, hab.get("Agi")), "Total": pdf_export.MANTER_O_VALOR}
     pericias = f.get("pericias", {})
     usadas = {chave: 0 for chave in LINHAS_ESPECIALIZADAS}
     for nome, grad in sorted(pericias.items()):
@@ -112,8 +126,10 @@ def campos_da_criatura(criatura_id, nome=None, np=None):
                 campos[f"{prefixo}Hab {n}"] = str(h_val)
                 campos[f"{prefixo}Per {n}"] = str(grad)
                 campos[f"{prefixo}Total {n}"] = str(total)
+                formulas.update(pdf_export.formula_da_linha_de_pericia(base, n, sigla))
             else:
                 notas.append(f"Perícia: {nome} {grad} ({total:+d})")
+    campos["Perícias Total"] = str(sum(pericias.values()))
 
     # Vantagens
     _preencher_linhas(campos, "Vantagens {n}", f.get("vantagens", []), LINHAS["vantagens"])
@@ -152,14 +168,15 @@ def campos_da_criatura(criatura_id, nome=None, np=None):
 
     campos["Notas & Condições"] = "\n\n".join(condicoes + notas)
 
-    return {k: _compativel_com_a_fonte(v) for k, v in campos.items()}
+    return {k: _compativel_com_a_fonte(v) for k, v in campos.items()}, formulas
 
 
 def gerar_pdf(caminho_modelo, criatura_id, nome=None, np=None):
     """Gera os bytes do PDF preenchido da criatura."""
-    campos = campos_da_criatura(criatura_id, nome, np)
-    if campos is None:
+    resultado = _campos_e_formulas(criatura_id, nome, np)
+    if resultado is None:
         return None
+    campos, formulas = resultado
     dados, _ = bestiario.carregar(criatura_id, np)
     caminho_img = bestiario.arquivo_de_imagem(criatura_id, dados)
-    return pdf_export.preencher_modelo(caminho_modelo, campos, caminho_imagem=caminho_img)
+    return pdf_export.preencher_modelo(caminho_modelo, campos, caminho_imagem=caminho_img, formulas=formulas)

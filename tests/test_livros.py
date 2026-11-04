@@ -3,6 +3,7 @@
 import io
 
 import docx
+import openpyxl
 import pytest
 
 import app
@@ -100,8 +101,48 @@ def test_planilhas_da_fantasia_saem_dos_dados():
     assert itens | nomes_das_armas == {i["nome"] for i in player.catalogo_do_jogador(dados)}
     acolchoada = next(l for l in _linhas(cliente.get("/planilhas/fantasia/itens.xlsx").data, "Itens")
                       if l[1] == "Armadura acolchoada")
-    assert acolchoada[3] == "4 kg" and acolchoada[4] == -3
-    assert acolchoada[6] == f"Proteção {dados['equipamentos']['acolchoada']['protecao']}"
+    assert acolchoada[2] == "Alfaiate" and acolchoada[4] == "4 kg" and acolchoada[5] == -3
+    assert acolchoada[7] == f"Proteção {dados['equipamentos']['acolchoada']['protecao']}"
+
+    # Todo item tem um comércio, e a folha "Por comércio" junta armas e itens para filtrar pela loja
+    assert all(i.get("comercio") for i in player.catalogo_do_jogador(dados))
+    por_comercio = _linhas(cliente.get("/planilhas/fantasia/itens.xlsx").data, "Por comércio")
+    assert len(por_comercio) == len(player.catalogo_do_jogador(dados))
+    ferreiro = {linha[1] for linha in por_comercio if linha[0] == "Ferreiro"}
+    taberna = {linha[1] for linha in por_comercio if linha[0] == "Taberna"}
+    assert "Espada longa" in ferreiro and "Cota de malha" in ferreiro and "Cerveja (caneca)" in taberna
+
+
+def test_planilhas_do_faroeste_saem_dos_dados():
+    dados = data_loader.carregar_genero("faroeste")
+    cliente = app.app.test_client()
+    armas = cliente.get("/planilhas/faroeste/armas.xlsx").data
+    itens = cliente.get("/planilhas/faroeste/itens.xlsx").data
+
+    folhas = ("Armas de fogo", "Armas brancas", "Armas de arremesso", "Explosivos", "Munição")
+    nomes_das_armas = {linha[0] for folha in folhas for linha in _linhas(armas, folha)}
+    nomes_dos_itens = {linha[1] for linha in _linhas(itens, "Itens")}
+    assert nomes_das_armas | nomes_dos_itens == {i["nome"] for i in player.catalogo_do_jogador(dados)}
+    assert not nomes_das_armas & nomes_dos_itens
+
+    navy = next(l for l in _linhas(armas, "Armas de fogo") if l[0] == "Revólver leve (Colt Navy)")
+    assert navy[1:3] == ("Armeiro", "Pistola leve") and navy[7] == "$10" and navy[8] == "1,5 kg"
+    assert navy[12] == "22,5 / 45 / 90 m"
+    gatling = next(l for l in _linhas(armas, "Armas de fogo") if l[0] == "Rifle Gatling (.45)")
+    assert gatling[4] == "Dano 5 à distância, Multiataque"
+    assert {"Classes de armas", "Como ler"} <= set(openpyxl.load_workbook(io.BytesIO(armas)).sheetnames)
+
+    por_comercio = _linhas(itens, "Por comércio")
+    assert len(por_comercio) == len(player.catalogo_do_jogador(dados))
+    saloon = {linha[1] for linha in por_comercio if linha[0] == "Saloon"}
+    armeiro = {linha[1] for linha in por_comercio if linha[0] == "Armeiro"}
+    assert "Cerveja (copo)" in saloon and "Revólver pesado (Colt Peacemaker)" in armeiro
+
+
+def test_apendice_do_faroeste_mostra_o_peso():
+    texto = livros._secao_equipamento(data_loader.carregar_genero("faroeste"))
+    assert "| Item | Efeito | Preço | Peso / Velocidade |" in texto
+    assert "Velocidade 4 (60 km/h), carga 220 kg" in texto and "## Tabela de Medidas" in texto
 
 
 def test_preco_em_moedas():
@@ -114,8 +155,26 @@ def test_planilha_nao_disponivel_retorna_404():
     assert resposta.status_code == 404
 
 
+def test_livro_das_classes_explica_todas_as_classes_e_subclasses():
+    dados = data_loader.carregar_genero("fantasia")
+    texto = livros.caminho_do_texto("fantasia", "classes").read_text(encoding="utf-8")
+    marcadores = [m.group(1) + ":" + m.group(2) for m in livros._MARCADOR.finditer(texto)]
+    # Uma subclasse nova no gerador precisa do texto dela aqui (e de um marcador para o bloco "Na ficha").
+    assert sorted(marcadores) == sorted(livros.marcadores_esperados(dados))
+
+    expandido = livros.expandir_marcadores(texto, dados)
+    assert "{{" not in expandido
+    assert "- **Magias e dons:** Falar com animais (Compreender 2 (animais))." in expandido
+    assert "- **Habilidades:** Destreza, Luta e Vigor" in expandido   # o arqueiro troca a Força pela Destreza
+
+    resposta = app.app.test_client().get("/livros/fantasia/classes.docx")
+    assert resposta.status_code == 200
+    documento = _texto(resposta.data)
+    assert "Livro das Classes e Subclasses" in documento and "Guerreiro totêmico" in documento
+
+
 def test_faroeste_e_fantasia_tem_os_dois_livros():
-    assert livros.livros_disponiveis("fantasia") == ["jogador", "mestre"]
+    assert livros.livros_disponiveis("fantasia") == ["jogador", "mestre", "classes"]
     assert livros.livros_disponiveis("faroeste") == ["jogador", "mestre"]
     assert livros.livros_disponiveis("cyberpunk") == ["jogador", "mestre"]
 
@@ -166,3 +225,16 @@ def test_planilha_de_pocoes_e_valida():
     assert "Poções e Elixires" in wb.sheetnames
     assert "Óleos para Lâminas" in wb.sheetnames
     assert "Ingredientes de Criaturas" in wb.sheetnames
+
+    # Toda poção, óleo e reagente tem preço e peso, e é o mesmo item (mesmo preço e peso) na planilha de itens
+    import json
+    from pathlib import Path
+    alquimia = json.loads(Path("dados/generos/fantasia/alquimia.json").read_text(encoding="utf-8"))
+    equipamentos = data_loader.carregar_genero("fantasia")["equipamentos"]
+    assert "Bombas" in wb.sheetnames and len(alquimia["bombas"]) >= 6
+    for receita in alquimia["pocoes"] + alquimia["oleos"] + alquimia["bombas"] + alquimia["ingredientes"]:
+        item = equipamentos[receita["id"]]
+        assert receita["preco"] == f"{item['preco']} po" and receita["peso"] == item["peso"] > 0, receita["id"]
+        assert item["comercio"] == "Alquimista"
+    pesos = [linha[10] for linha in wb["Poções e Elixires"].iter_rows(min_row=3, values_only=True)]
+    assert pesos and all(pesos)
