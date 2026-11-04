@@ -339,13 +339,15 @@ Você começa **cada sessão com 1 ponto heroico**. Pontos não gastos se perdem
 9. **Equipamento e dinheiro.** Armas, cavalo, roupas (seção 11).
 10. **Detalhes e revisão.** Nome, aparência, passado. Confira se gastou exatamente seus pontos e se respeitou os limites. Mostre ao mestre.
 
+O gerador do site faz os passos 3 a 9 por você, se quiser (seção 15).
+
 ### 6.2 Nível de poder e pontos
 
-| NP | 4 | 5 | 6 | 7 | 8 |
-|----|----|----|----|----|----|
-| **Pontos de poder** | 60 | 75 | 90 | 105 | 120 |
+| NP | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+|----|----|----|----|----|----|----|----|
+| **Pontos de poder** | 60 | 75 | 90 | 105 | 120 | 135 | 150 |
 
-Para o faroeste, a sugestão é NP 6 (90 PP) num jogo duro e realista, ou NP 8 (120 PP) num jogo cinematográfico.
+São sempre **15 PP por NP**. Para o faroeste, a sugestão é NP 6 (90 PP) num jogo duro e realista, ou NP 8 (120 PP) num jogo cinematográfico.
 
 ### 6.3 Custos
 
@@ -627,7 +629,9 @@ Sua **Riqueza** começa em **8** (classe média). Cada graduação de **Benefíc
 | 21 a 30 | Rico | \$10.000 |
 | 31 ou mais | Muito rico | \$50.000 ou mais |
 
-A lista completa de itens comuns (roupas, comida, cavalos, serviços) está com o mestre, no guia de faroeste.
+O gerador do site oferece as condições de **Trabalhador** a **Muito rico**. Quem quiser começar Empobrecido (Riqueza 0) monta a ficha à mão, com o mestre.
+
+A lista completa de itens comuns (roupas, comida, cavalos, serviços), com preço e peso, está no apêndice no fim deste livro e no guia do mestre.
 
 ### 11.3 Classes de armas de fogo
 
@@ -731,11 +735,39 @@ Armas brancas e arremessadas **somam a sua Força ao dano**. Uma arma de madeira
 - **Dinamite:** uma banana causa **Dano 5 em área** (explosão). Quem está na área faz Esquiva CD 15; se passar, sofre só metade. Cada vez que a quantidade dobra, +1 de Dano (2 bananas: 6; 4: 7; 8: 8). Preço: \$3 por banana.
 - **Couro grosso** (casaco, jaqueta ou colete): **+1 de Resistência**. Custo 1 ponto. Armaduras não se somam: vale só a melhor.
 
+### 11.8 Comida, quantidades e carga [Casa]
+
+**Comida.** Todo personagem sai para a estrada com **rações de viagem para 5 dias** (\$2,50, 7,5 kg). Sem comida, valem as regras de fome da seção 4.5.
+
+**Quantidades.** Comida, bebida e munição são vendidas em lotes: um lote de rações dura 5 dias, um de balas de pistola tem 50 balas. Você pode comprar vários lotes do mesmo item (no gerador, até 99). O preço e o peso multiplicam pelo número de lotes.
+
+**Carga.** Some o peso do que você leva no corpo e compare com a sua Força, pela Tabela de Medidas do livro básico:
+
+| Força | Carga leve até | Carga máxima |
+|----|----|----|
+| 0 | 15 kg | 30 kg |
+| 1 | 30 kg | 60 kg |
+| 2 | 60 kg | 120 kg |
+| 3 | 120 kg | 250 kg |
+| 4 | 250 kg | 500 kg |
+
+- **Carga leve** (até a massa da Força – 1): sem penalidade.
+- **Carga pesada** (até a massa da Força): –1 na graduação de Velocidade.
+- **Sobrecarregado** (acima disso): você fica **impedido** (movimento pela metade).
+
+**Montaria.** Com cavalo ou mula, a **sela**, os **alforjes** e o **coldre de rifle** vão no animal e não contam na sua carga. O cavalo leva até 220 kg e anda com Velocidade 4 (60 km/h). A mula leva até 190 kg e anda com Velocidade 3 (30 km/h).
+
+> **Força 0 pesa:** só as rações já são metade dos 15 kg de carga leve. Um personagem fraco que carrega arma, munição, rações e cantil chega fácil à carga pesada. Compre alforjes e deixe o resto no cavalo.
+
 ---
 
 ## 12. Arquétipos
 
 Modelos prontos para começar rápido. Use como ponto de partida e ajuste ao seu gosto.
+
+No gerador do site, cada arquétipo tem também três **focos** (o duelista, o rastreador, o linha-dura...). O foco muda as prioridades e às vezes acrescenta uma vantagem ou uma arma. O apêndice no fim deste livro lista os focos e as armas e os itens que o gerador sorteia para cada arquétipo. O equipamento abaixo é a imagem típica do arquétipo. A ficha gerada pode vir diferente, conforme o sorteio e o dinheiro.
+
+Algumas opcionais abaixo (Capanga, Parceiro, Benefício) o gerador não sorteia, porque pedem uma ficha à parte ou uma decisão do mestre. Acrescente à mão, se fizer sentido.
 
 ### O Pistoleiro (*The Gunslinger*)
 
@@ -897,13 +929,80 @@ Riqueza 8 (classe média): **\$250** para começar.
 | 50 balas de pistola (.40–.50) | \$3 |
 | Cavalo | \$150 |
 | Sela | \$25 |
-| **Total** | **\$221** (sobram \$29) |
+| Rações de viagem (5 dias) | \$2,50 |
+| **Total** | **\$223,50** (sobram \$26,50) |
+
+**Carga:** os dois revólveres, o coldre, o cinto, as balas e as rações pesam **15 kg**. Com Força 2, é carga leve (até 60 kg). A sela (15 kg) vai no cavalo.
 
 ---
 
 ## 14. Avanço
 
 Ao fim de cada aventura, você ganha **1 PP** (2 se o desafio foi grande; em aventuras longas, 1 por sessão). Gaste os pontos entre as aventuras para melhorar a ficha, sempre dentro dos limites do NP. Pontos podem ser guardados até o mestre subir o NP, o que costuma acontecer a cada 15 PP ganhos.
+
+---
+
+## 15. Usando o gerador do site
+
+O site tem um montador de fichas **passo a passo** que aplica as regras deste livro: custos, limites do NP, preços em dólares e carga. Use-o para fazer a ficha inteira ou só para conferir uma ficha feita à mão.
+
+### 15.1 Os passos
+
+| Passo | O que você faz |
+|----|----|
+| **Gênero** | Escolha **Faroeste**. Aqui também ficam os links para baixar os livros e as planilhas. |
+| **Nome** | Digite o nome do personagem ou deixe em branco: o gerador sorteia um. |
+| **Arquétipo** | Escolha o arquétipo, o **foco**, o **NP** (de 2 a 10; o padrão é 6) e a **condição financeira**. |
+| **Vantagens** | **Sortear de acordo com o arquétipo** (as essenciais do arquétipo e do foco, mais 0 a 2 opcionais) ou **Escolher** (as do arquétipo já vêm marcadas; o gerador só sobe graduações das que você marcar). |
+| **Armas e itens** | **Sortear** ou **Escolher**, com as sugestões do arquétipo no topo, um contador de dinheiro e o número de lotes de comida, bebida e munição. |
+| **Complicações** | Escolha a Motivação e pelo menos mais uma complicação, ou clique em **Sortear complicações**. |
+| **Ficha** | Clique em **Gerar ficha**. Não gostou? **Gerar outra versão** refaz o sorteio com as mesmas escolhas. |
+
+### 15.2 Como o gerador gasta o dinheiro
+
+No sorteio, o personagem compra nesta ordem, até o dinheiro acabar:
+
+1. **Primeiro o que não pode faltar:** a arma do foco ou a principal do arquétipo e a munição dela, as rações, os itens essenciais do arquétipo (cavalo e sela, a estrela do xerife, a maleta do médico) e os itens do foco.
+2. **Depois os extras:** talvez uma segunda arma, com a munição, e de 1 a 3 itens opcionais (chapéu, cantil, saco de dormir...).
+
+O personagem não gasta tudo:
+
+- **Os extras** só entram enquanto sobrarem **15% do dinheiro inicial**.
+- **Os itens essenciais** param quando sobram **5% do dinheiro inicial**. O que não couber fica de fora, e a ficha diz o quê.
+- **Munição sem arma** volta para o caixa: se o rifle não coube, as balas de rifle também não são compradas.
+- **Arma acima do NP** sai da ficha, e o dinheiro volta. Isso acontece quando o ataque + Dano da arma passa do limite só com as vantagens iniciais.
+
+Na classe média (\$250), quem compra cavalo costuma sair com \$30 a \$45 no bolso. O Jogador de Pôquer, que não compra cavalo, guarda uns \$200.
+
+**Escolhendo os itens:** se a compra passar do seu dinheiro, o site pergunta como pagar a diferença. Você pode **subir a condição financeira**, pagando os PP de Benefício (Riqueza) que faltarem, ou **ficar devendo**: a ficha sai com a dívida anotada, e o credor fica a cargo do mestre.
+
+### 15.3 Como o gerador distribui os pontos
+
+O gerador gasta **exatamente 15 × NP** (mais 1 PP se você escolher ser Trabalhador).
+
+1. **Primeiro as escolhas:** as vantagens essenciais do arquétipo e do foco, o Benefício (Riqueza) da condição financeira e o equipamento.
+2. **Depois sobe a ficha +1 por vez:** as prioridades do foco, a perícia de ataque das armas que você carrega, as prioridades do arquétipo e as gerais (Esquiva, Aparar, Fortitude, Vontade, Percepção, Atletismo, Intuição, Cavalgar...), até gastar o último PP.
+
+Para a ficha ficar parecida com as do livro básico, o gerador segue algumas regras:
+
+- **Perícias levam no máximo 30%** dos PP, enquanto houver outra coisa para subir.
+- **Perícias fora do arquétipo** (Atletismo num jogador de pôquer, por exemplo) param em metade do NP (mínimo 2).
+- **A sobra vai para as habilidades** antes das perícias de reserva. Uma habilidade que não está nas prioridades do arquétipo para em metade do NP, arredondada para cima (mínimo 2).
+- **Só treina a arma que carrega:** um veterano que sorteou um mosquete não gasta pontos em Combate à Distância: Pistolas.
+- **Tetos do gerador:** habilidades até 7, Crítico Aprimorado até 4, Sorte até metade do NP e Iniciativa Aprimorada até um terço do NP.
+- **O teto do NP é raro:** perícias, ataques e defesas podem chegar ao máximo, mas o gerador evita encostar nele, para sobrar espaço para você melhorar.
+
+### 15.4 Lendo a ficha gerada
+
+- **Dinheiro:** quanto você tinha, quanto gastou, quanto sobrou (ou quanto ficou devendo) e o que não coube.
+- **Carga:** o peso que você leva, se é leve ou pesada e quanto vai na montaria (seção 11.8). O gerador não tira itens por causa do peso: uma ficha com Força 0 pode sair com carga pesada.
+- **Status "Validada":** o programa conferiu todos os custos e limites.
+- **Downloads:** ficha editável em PDF, em Word (DOCX) ou em texto.
+
+### 15.5 Gerador e livro juntos
+
+- O gerador escolhe por você; **o livro explica por quê**. Mude o que não combinar com o seu personagem e confira de novo os custos e os limites (seção 6).
+- O gerador não controla munição nem comida em jogo, não cobra a dívida e não faz testes de Riqueza. Isso fica com você e com o mestre.
 
 ---
 
@@ -923,3 +1022,4 @@ Ao fim de cada aventura, você ganha **1 PP** (2 se o desafio foi grande; em ave
 | Tirar o tonto | 1 ponto heroico, sem gastar ação |
 | Uma ação a mais | Esforço extra, e fico fatigado no turno seguinte |
 | Salvar um amigo moribundo | Tratamento CD 15, ação padrão |
+| Saber se estou carregado demais | Carga leve até a massa da Força – 1; até a massa da Força, –1 de Velocidade; acima, impedido |

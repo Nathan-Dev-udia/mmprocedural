@@ -4,7 +4,8 @@ Rascunho do que ficou para depois (atualizado na versão 1.7.0).
 
 ## Livros
 - **Cyberpunk:** os dois livros foram revisados, corrigidos e publicados em `dados/livros/`. A ficha da moto do clã, as descrições de equipamento, complicações, limites de NP, custos e opções de compra foram alinhados aos dados e ao gerador.
-- **Faroeste:** os textos são os antigos de `referencias/`. Não foram revisados depois das mudanças no gerador (comida, quantidades, distribuição de pontos, dinheiro guardado no sorteio, carga e itens novos como as Gatlings e os serviços). O apêndice gerado dos dados está atualizado e agora mostra peso e Velocidade.
+- **Faroeste:** revisão contra o gerador concluída. Os livros explicam comida, lotes, carga e montaria, o dinheiro guardado no sorteio, a dívida e a distribuição de pontos (nova seção 15 do Livro do Jogador). O exemplo do Jesse inclui as rações e a carga, e a tabela de locomoção usa as Velocidades do catálogo. Preços e pesos das tabelas batem com o `equipment.json`. Os livros ainda aguardam leitura editorial do usuário.
+- **Carga no gerador do faroeste:** o gerador não tira itens por causa do peso. Cerca de 5% das fichas (só as com Força 0) saem com carga pesada. O livro avisa; falta decidir se o sorteio deve mandar peso para a montaria ou evitar Força 0.
 - **Dados do faroeste:** o `equipment.json` continua sendo a fonte da verdade (não há script gerador, como na fantasia); os testes de `test_player.py` conferem peso em kg, preço e comércio de todos os itens. Os pesos marcados como estimados (kits, chapéus, baioneta, cartucheira) não vêm do livro.
 - **Fantasia:** revisão mecânica concluída. Custos de poderes, Axii, o exemplo de Sariel, poção de cura, complicação fixa, armaduras e exemplo do mago rúnico foram alinhados ao catálogo e ao código. Os livros ainda aguardam leitura editorial do usuário.
 

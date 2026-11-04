@@ -289,6 +289,8 @@ Ao fim de cada aventura, cada personagem ganha **1 ponto de poder** (2 se o desa
 
 > **Recomendação [Casa]:** use o equipamento gratuito. O faroeste gira em torno de dinheiro, recompensas e compras no armazém, e as tabelas de preços deste guia ficam com função real no jogo. Nesse caso, a vantagem Equipamento sai dos arquétipos (ou passa a representar um item excepcional).
 
+**O gerador do site** usa o equipamento gratuito: paga tudo em dólares, gasta exatamente 15 × NP em pontos e não sorteia as vantagens Equipamento, Capanga, Parceiro nem Benefício avulso. Todo personagem gerado leva rações para 5 dias, e o sorteio deixa parte do dinheiro no bolso. As regras completas do gerador estão no Livro do Jogador, seção 15.
+
 ---
 
 ## 4. Arquétipos [Casa]
@@ -642,6 +644,26 @@ O livro básico já trata ferimentos sérios como complicações. Para o gosto a
 - **Bônus de equipamento não se acumulam:** vale só a melhor armadura.
 - **Dano e perda:** equipamento pode ser danificado (–1 nos testes com ele a cada dano, até ser consertado com Tecnologia), roubado ou perdido. Falhar, emperrar ou ficar sem munição é uma complicação que rende ponto heroico.
 - **Ter algo à mão:** com permissão do mestre, gastar 1 ponto heroico faz um item comum aparecer na cena ("por sorte, tinha uma corda na sela").
+- **Lotes:** comida, bebida e munição são vendidas em lotes (rações para 5 dias, 50 balas de pistola). O personagem pode levar vários lotes; preço e peso multiplicam.
+
+### 8.1.1 Carga [Casa]
+
+O peso das tabelas deste capítulo serve para saber quanto o personagem aguenta levar. Compare o peso no corpo com a Força, pela Tabela de Medidas:
+
+| Força | Carga leve até | Carga máxima |
+|----|----|----|
+| 0 | 15 kg | 30 kg |
+| 1 | 30 kg | 60 kg |
+| 2 | 60 kg | 120 kg |
+| 3 | 120 kg | 250 kg |
+| 4 | 250 kg | 500 kg |
+
+- **Carga leve** (até a massa da Força – 1): sem penalidade.
+- **Carga pesada** (até a massa da Força): –1 na graduação de Velocidade.
+- **Sobrecarregado** (acima disso): impedido.
+- **Montaria:** sela, alforjes e coldre de rifle vão no animal. Cavalo leva até 220 kg; mula, até 190 kg (estimativas da casa).
+
+A ficha do gerador mostra a carga, mas não tira itens por causa dela. Um personagem com Força 0 pode sair com carga pesada; peça que ele mande peso para o cavalo.
 
 ### 8.2 Classes de armas de fogo [Básico + Manual dos Mecanismos]
 
@@ -948,6 +970,8 @@ Cada personagem tem uma graduação de Riqueza, que mede o poder de compra (rend
 
 **Na prática [Casa]:** a coluna "dinheiro em espécie" é o que o personagem tem para gastar no início da campanha, usando os preços da seção 8. Depois, o dinheiro sobe e desce com recompensas, roubos, jogatina e gastos.
 
+**No gerador do site:** as condições vão de Trabalhador (Riqueza 4, devolve 1 PP) a Muito rico (Riqueza 32, Benefício 6). Empobrecido não aparece; monte essa ficha à mão. Se o jogador escolher itens que passam do dinheiro, o site sobe a condição financeira (cobrando os PP do Benefício) ou anota a dívida. A dívida é um gancho para você: alguém na cidade vai querer receber.
+
 ### 9.2 Teste de Riqueza (opcional) [Guia do Mestre]
 
 Para compras grandes, como um rancho, uma manada ou uma propriedade, o mestre pode usar o teste do Guia do Mestre em vez de contar dólares:
@@ -1202,8 +1226,10 @@ Use a tabela de medidas da seção 2.4 para converter.
 |----|----|----|
 | A pé, caminhando | 0 | 4 km/h |
 | A pé, correndo | 1 | 8 km/h |
-| Carroça ou carroção carregado [Casa] | 2 | 15 km/h |
+| Carroção Conestoga carregado [Casa] | 1 | 8 km/h |
+| Buckboard ou carruagem [Casa] | 2 | 15 km/h |
 | Diligência a toda velocidade [Casa] | 3 | 30 km/h |
+| Mula [Casa] | 3 | 30 km/h |
 | Cavalo a galope (velocidade máxima) | 4 | 60 km/h |
 | Trem a vapor (velocidade máxima) | 5 | 120 km/h |
 
