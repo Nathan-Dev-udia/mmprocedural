@@ -20,11 +20,16 @@ DISTANCIAS_DE_VIAGEM = [4, 8, 15, 30, 60, 120, 250]
 # Meios de transporte da tabela de tempo: (rótulo, id do item no catálogo com a Velocidade; None = a pé).
 MEIOS_DE_VIAGEM = [("A pé", None), ("Carroça", "carroca"), ("Pônei ou mula", "ponei"),
                    ("Cavalo a galope", "cavalo_montaria")]
+MEIOS_DE_VIAGEM_POR_GENERO = {
+    "fantasia": MEIOS_DE_VIAGEM,
+    "faroeste": [("A pé", None), ("Carroção Conestoga", "carrocao_conestoga"),
+                 ("Buckboard", "buckboard"), ("Cavalo a galope", "cavalo")],
+}
 KM_POR_DIA_EM_RITMO_NORMAL = 38
 KM_POR_HORA_EM_RITMO_NORMAL = 5
 ALTURAS_DE_QUEDA = [2, 4, 8, 15, 30, 60, 120, 250, 500]
 FORCAS_DA_CARGA = range(-1, 6)
-CATEGORIAS_DE_MONTARIA = {"Montaria", "Veículos"}
+CATEGORIAS_DE_MONTARIA = {"Montaria", "Veículos", "Transporte"}
 
 
 def generos_com_escudo():
@@ -80,9 +85,11 @@ def _no_ritmo_normal(km):
     return f"{_numero(dias)} dia" + ("s" if dias >= 2 else "")
 
 
-def _tempo_de_viagem(catalogo):
+def _tempo_de_viagem(catalogo, dados=None, genero_id="fantasia"):
+    genero = genero_id or (dados or {}).get("genero", {}).get("id", "fantasia")
+    meios = MEIOS_DE_VIAGEM_POR_GENERO.get(genero, MEIOS_DE_VIAGEM)
     velocidades = [(rotulo, 0 if item_id is None else catalogo[item_id]["velocidade"])
-                   for rotulo, item_id in MEIOS_DE_VIAGEM]
+                   for rotulo, item_id in meios]
     colunas = (["Distância"] + [f"{rotulo} (Vel. {vel})" for rotulo, vel in velocidades]
                + [f"Ritmo normal ({KM_POR_DIA_EM_RITMO_NORMAL} km/dia)"])
     linhas = []
@@ -97,19 +104,20 @@ def _tempo_de_viagem(catalogo):
                     "ritmo normal; para o galope, veja Forçar a montaria."}
 
 
-def _montarias(catalogo):
+def _montarias(catalogo, dados=None, _genero_id="fantasia"):
+    moeda = (dados or {}).get("configuracoes", {}).get("moeda", "po")
     itens = sorted((i for i in catalogo.values()
                     if i.get("categoria") in CATEGORIAS_DE_MONTARIA and i.get("velocidade") is not None),
                    key=lambda i: (-i["velocidade"], i.get("preco") or 0))
     linhas = [[i["nome"], str(i["velocidade"]).replace("-", "–"), f"{_numero(medidas.km_por_hora(i['velocidade']))} km/h",
-               f"{i['carga']} kg" if i.get("carga") else "—", formatter.pecas(i["preco"]) if i.get("preco") else "—"]
+               f"{i['carga']} kg" if i.get("carga") else "—", formatter.dolares(i["preco"], moeda) if i.get("preco") else "—"]
               for i in itens]
     return {"tipo": "tabela", "titulo": "Montarias e veículos", "linhas": linhas,
             "colunas": ["Montaria ou veículo", "Velocidade", "Máxima", "Carga", "Preço"],
             "nota": "Sela e alforjes vão no animal e não contam na carga de quem monta."}
 
 
-def _carga(_catalogo):
+def _carga(_catalogo, _dados=None, _genero_id="fantasia"):
     linhas = []
     for forca in FORCAS_DA_CARGA:
         linhas.append([f"{forca:+d}".replace("+0", "0").replace("-", "–"), medidas.massa(forca - 1),
@@ -120,7 +128,7 @@ def _carga(_catalogo):
                     "Acima: sobrecarregado (impedido)."}
 
 
-def _queda(_catalogo):
+def _queda(_catalogo, _dados=None, genero_id="fantasia"):
     linhas = []
     for metros in ALTURAS_DE_QUEDA:
         graduacao = medidas.graduacao_de_distancia(metros)
@@ -128,13 +136,14 @@ def _queda(_catalogo):
         linhas.append([f"até {_numero(metros)} m", str(graduacao).replace("-", "–"),
                        f"Dano {dano}" if dano else "sem dano", f"CD {15 + dano}" if dano else "—"])
     linhas.append([f"mais de {ALTURAS_DE_QUEDA[-1]} m", "—", "Dano 16 (máximo)", "CD 31"])
+    local = "do saloon" if genero_id == "faroeste" else "da taverna"
     return {"tipo": "tabela", "titulo": "Queda", "colunas": ["Altura", "Distância", "Dano", "Resistência"],
             "linhas": linhas,
-            "nota": "Dano 4 + o dobro da graduação de distância, no máximo 16. Do segundo andar da taverna (4 m): "
+            "nota": f"Dano 4 + o dobro da graduação de distância, no máximo 16. Do segundo andar {local} (4 m): "
                     "Dano 2. Cair do cavalo parado não machuca; a galope, Dano 2 [Casa]."}
 
 
-def _medidas(_catalogo):
+def _medidas(_catalogo, _dados=None, _genero_id="fantasia"):
     linhas = [[str(g).replace("-", "–"), m["massa"], m["tempo"], m["distancia"]]
               for g, m in medidas.tabela().items() if g <= 20]
     return {"tipo": "tabela", "titulo": "Tabela de medidas", "colunas": ["Grad.", "Massa", "Tempo", "Distância"],
@@ -156,7 +165,8 @@ def montar(genero_id, dados=None):
         return None
     catalogo = (dados or {}).get("equipamentos", {})
     for aba in escudo["abas"]:
-        aba["blocos"] = [GERADORES[b["fonte"]](catalogo) if b["tipo"] == "gerado" else b for b in aba["blocos"]]
+        aba["blocos"] = [GERADORES[b["fonte"]](catalogo, dados, genero_id) if b["tipo"] == "gerado" else b
+                         for b in aba["blocos"]]
     return escudo
 
 

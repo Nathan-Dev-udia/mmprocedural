@@ -20,7 +20,7 @@ def _bloco(montado, titulo):
 
 
 def test_todos_os_escudos_tem_estrutura_valida():
-    assert escudo.generos_com_escudo() == ["fantasia"]
+    assert escudo.generos_com_escudo() == ["fantasia", "faroeste"]
     for genero in escudo.generos_com_escudo():
         assert escudo.conferir(escudo.montar(genero, data_loader.carregar_genero(genero))) == []
 
@@ -38,8 +38,11 @@ def test_queda_segue_a_regra_do_livro():
     assert medidas.dano_de_queda(10_000) == 16
 
 
-def test_tempo_de_viagem_usa_as_velocidades_do_catalogo(montado):
-    tabela = _bloco(montado, "Tempo de viagem (velocidade máxima contínua)")
+@pytest.mark.parametrize("genero", ["fantasia", "faroeste"])
+def test_tempo_de_viagem_usa_as_velocidades_do_catalogo(genero):
+    dados = data_loader.carregar_genero(genero)
+    montado_genero = escudo.montar(genero, dados)
+    tabela = _bloco(montado_genero, "Tempo de viagem (velocidade máxima contínua)")
     linha_60km = next(l for l in tabela["linhas"] if l[0].startswith("60 km"))
     # 60 km é distância 13: a pé 16 horas, a cavalo (Velocidade 4) 1 hora, ritmo normal 1,5 dia.
     assert linha_60km[1] == "16 horas"
@@ -63,17 +66,23 @@ def test_negrito_vira_partes():
     assert escudo.partes_do_texto("**Teste** = d20") == [("Teste", True), (" = d20", False)]
 
 
-def test_pdf_tem_uma_pagina_por_aba(montado):
-    leitor = pypdf.PdfReader(io.BytesIO(escudo_pdf.gerar_pdf(montado, "teste")))
+@pytest.mark.parametrize("genero", ["fantasia", "faroeste"])
+def test_pdf_tem_uma_pagina_por_aba(genero):
+    dados = data_loader.carregar_genero(genero)
+    montado_genero = escudo.montar(genero, dados)
+    leitor = pypdf.PdfReader(io.BytesIO(escudo_pdf.gerar_pdf(montado_genero, "teste")))
     texto = "\n".join(p.extract_text() for p in leitor.pages)
-    assert len(leitor.pages) >= len(montado["abas"])
-    for aba in montado["abas"]:
+    assert len(leitor.pages) >= len(montado_genero["abas"])
+    for aba in montado_genero["abas"]:
         assert aba["nome"] in texto
 
 
-def test_planilha_tem_uma_folha_por_aba(montado):
-    livro = openpyxl.load_workbook(io.BytesIO(escudo_xlsx.gerar_xlsx(montado)))
-    assert livro.sheetnames == [aba["nome"] for aba in montado["abas"]]
+@pytest.mark.parametrize("genero", ["fantasia", "faroeste"])
+def test_planilha_tem_uma_folha_por_aba(genero):
+    dados = data_loader.carregar_genero(genero)
+    montado_genero = escudo.montar(genero, dados)
+    livro = openpyxl.load_workbook(io.BytesIO(escudo_xlsx.gerar_xlsx(montado_genero)))
+    assert livro.sheetnames == [aba["nome"] for aba in montado_genero["abas"]]
     viagem = livro["Viagem"]
     valores = [c for linha in viagem.iter_rows(values_only=True) for c in linha if c is not None]
     assert "Tempo de viagem (velocidade máxima contínua)" in valores and "1,5 dia" in valores
@@ -82,12 +91,13 @@ def test_planilha_tem_uma_folha_por_aba(montado):
 
 def test_pagina_e_download():
     cliente = app.app.test_client()
-    pagina = cliente.get("/?genero=fantasia").get_data(as_text=True)
-    assert 'id="aba-escudo"' in pagina and "<strong>Teste</strong>" in pagina
-    assert 'id="aba-escudo"' not in cliente.get("/?genero=faroeste").get_data(as_text=True)
-    resposta = cliente.get("/escudo/fantasia.pdf")
-    assert resposta.status_code == 200 and resposta.data.startswith(b"%PDF")
-    assert cliente.get("/escudo/faroeste.pdf").status_code == 404
-    planilha = cliente.get("/escudo/fantasia.xlsx")
-    assert planilha.status_code == 200 and planilha.data.startswith(b"PK")
+    for genero in ("fantasia", "faroeste"):
+        pagina = cliente.get(f"/?genero={genero}").get_data(as_text=True)
+        assert 'id="aba-escudo"' in pagina and "<strong>Teste</strong>" in pagina
+        resposta = cliente.get(f"/escudo/{genero}.pdf")
+        assert resposta.status_code == 200 and resposta.data.startswith(b"%PDF")
+        planilha = cliente.get(f"/escudo/{genero}.xlsx")
+        assert planilha.status_code == 200 and planilha.data.startswith(b"PK")
+    assert 'id="aba-escudo"' not in cliente.get("/?genero=cyberpunk").get_data(as_text=True)
+    assert cliente.get("/escudo/cyberpunk.pdf").status_code == 404
     assert cliente.get("/escudo/fantasia.docx").status_code == 404

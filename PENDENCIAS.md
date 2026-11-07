@@ -15,9 +15,9 @@ Rascunho do que ficou para depois (atualizado na versão 1.7.0).
 - **Mago rúnico:** o foco pode priorizar Runas e Prestidigitação em vez de uma perícia de ataque mágico; o livro agora explica como priorizar magia manualmente.
 
 ## Escudo do Mestre
-- **Fantasia:** feito (aba no site, impressão, PDF e planilha). Conteúdo em `dados/escudo/fantasia.json`; queda, tempo de viagem, montarias, carga e medidas são calculados em `nucleo/escudo.py`. As regras novas de forçar a montaria, comida e caça e carga estão no Livro do Mestre (14.8 a 14.10) e ainda aguardam leitura editorial.
+- **Fantasia e Faroeste:** feitos (aba no site, impressão, PDF e planilha). Conteúdo em `dados/escudo/fantasia.json` e `dados/escudo/faroeste.json`; queda, tempo de viagem, montarias, carga e medidas são calculados dinamicamente em `nucleo/escudo.py`.
 - **Impressão pelo navegador:** a aba Viagem ocupa duas folhas; o PDF baixado cabe em 7 páginas.
-- **Faroeste e cyberpunk:** ainda sem escudo; basta criar `dados/escudo/<gênero>.json`.
+- **Cyberpunk:** ainda sem escudo; basta criar `dados/escudo/cyberpunk.json`.
 
 ## Gênero Chamado de Cthulhu (anos 20)
 - Planejado, não iniciado. Decisões, referências dos livros, adaptação da Sanidade em d100 e passo a passo em

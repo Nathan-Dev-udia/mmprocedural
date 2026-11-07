@@ -1,0 +1,1289 @@
+{
+  "_fonte": "Resumo das regras do Livro do Mestre e do Livro do Jogador do faroeste (dados/livros/faroeste_*.md). Os blocos 'gerado' são calculados por nucleo/escudo.py a partir da Tabela de Medidas e do catálogo de equipamento.",
+  "genero": "faroeste",
+  "titulo": "Escudo do Mestre: Faroeste",
+  "abas": [
+    {
+      "id": "testes",
+      "nome": "Testes",
+      "blocos": [
+        {
+          "tipo": "formulas",
+          "titulo": "Fórmulas",
+          "itens": [
+            "**Teste** = d20 + graduação + modificadores, contra a CD",
+            "**Rotina** = 10 + graduação (sem pressão; só com treino na perícia)",
+            "**Ataque** = d20 + bônus de ataque, contra defesa + 10 (Aparar corpo a corpo, Esquiva à distância)",
+            "**Salvamento contra efeito** = d20 + defesa, contra 10 + graduação",
+            "**Salvamento contra dano** = d20 + Resistência, contra 15 + Dano"
+          ]
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Classes de dificuldade",
+          "colunas": [
+            "CD",
+            "Dificuldade",
+            "Exemplo"
+          ],
+          "linhas": [
+            [
+              "0",
+              "Muito fácil",
+              "Acertar a lateral de um celeiro a 3 metros com uma espingarda"
+            ],
+            [
+              "5",
+              "Fácil",
+              "Montar num cavalo manso equipado com sela"
+            ],
+            [
+              "10",
+              "Médio",
+              "Ouvir cavaleiros se aproximando da cidade pela trilha de poeira"
+            ],
+            [
+              "15",
+              "Difícil",
+              "Abrir a fechadura enferrujada da cela da cadeia com um pedaço de arame"
+            ],
+            [
+              "20",
+              "Desafiador",
+              "Atravessar a nado as corredeiras do Rio Bravo puxando a montaria"
+            ],
+            [
+              "25",
+              "Formidável",
+              "Arrombar o cofre de aço da Wells Fargo antes que a patrulha chegue"
+            ],
+            [
+              "30",
+              "Heroico",
+              "Convencer uma turba armada de linchamento a abaixar as espingardas e soltar o réu"
+            ],
+            [
+              "35",
+              "Super-heroico",
+              "Rastrear uma única mula em terreno de rocha pura sob tempestade de poeira"
+            ],
+            [
+              "40",
+              "Quase impossível",
+              "—"
+            ]
+          ]
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Graus de sucesso e de falha",
+          "nota": "20 natural: o resultado sobe um grau. Em ataques, 20 sempre acerta e 1 sempre erra.",
+          "colunas": [
+            "Resultado",
+            "Grau"
+          ],
+          "linhas": [
+            [
+              "CD + 15 ou mais",
+              "4 graus de sucesso"
+            ],
+            [
+              "CD + 10 a + 14",
+              "3 graus de sucesso"
+            ],
+            [
+              "CD + 5 a + 9",
+              "2 graus de sucesso"
+            ],
+            [
+              "CD a CD + 4",
+              "1 grau de sucesso"
+            ],
+            [
+              "CD – 1 a CD – 5",
+              "1 grau de falha"
+            ],
+            [
+              "CD – 6 a CD – 10",
+              "2 graus de falha"
+            ],
+            [
+              "CD – 11 a CD – 15",
+              "3 graus de falha"
+            ],
+            [
+              "CD – 16 ou menos",
+              "4 graus de falha"
+            ]
+          ]
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Testes opostos",
+          "nota": "Os dois lados rolam e vence o maior total. Empate: vence quem tem o maior bônus.",
+          "colunas": [
+            "Situação",
+            "Quem age",
+            "Quem resiste"
+          ],
+          "linhas": [
+            [
+              "Esgueirar-se pelo acampamento de bandidos",
+              "Furtividade",
+              "Percepção"
+            ],
+            [
+              "Blefar na mesa de pôquer do saloon",
+              "Enganação",
+              "Intuição"
+            ],
+            [
+              "Disfarçar-se com casaco longo e chapéu",
+              "Enganação",
+              "Percepção"
+            ],
+            [
+              "Bater carteira / punga na estação de trem",
+              "Prestidigitação",
+              "Percepção"
+            ],
+            [
+              "Trapacear nas cartas sem ser notado",
+              "Prestidigitação",
+              "Percepção ou Intuição"
+            ],
+            [
+              "Rastrear fugitivos pelo deserto árido",
+              "Especialidade: Sobrevivência",
+              "Furtividade"
+            ],
+            [
+              "Intimidar um pistoleiro a largar a arma",
+              "Intimidação",
+              "Vontade"
+            ],
+            [
+              "Finta em tiroteio",
+              "Enganação ou Acrobacia",
+              "Intuição ou Esquiva"
+            ],
+            [
+              "Derrubar / Atropelar com cavalo",
+              "Atletismo",
+              "Atletismo ou Acrobacia"
+            ],
+            [
+              "Agarrar / Briga corporal de saloon",
+              "Luta ou Ataque",
+              "Esquiva ou Força"
+            ],
+            [
+              "Desarmar um atirador",
+              "Ataque",
+              "Força ou Luta"
+            ],
+            [
+              "Amarrar um prisioneiro com corda ou laço",
+              "Tecnologia ou Especialidade",
+              "Acrobacia ou Prestidigitação"
+            ],
+            [
+              "Esconder arma sob o casaco ou botas",
+              "Furtividade",
+              "Investigação ou Percepção"
+            ]
+          ]
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Modificadores e ajuda",
+          "itens": [
+            "**Circunstância:** +2 ou –2 para uma pequena vantagem ou desvantagem; +5 ou –5 para uma grande.",
+            "**Ferramentas:** sem a ferramenta certa (gazuas, maleta médica), –5; com ferramenta improvisada, –2.",
+            "**Teste de equipe:** os ajudantes fazem o mesmo teste contra CD 10. Um grau de sucesso dá +2 ao líder; três graus ou mais, +5; dois graus de falha, –2.",
+            "**Sucesso crítico:** um 20 natural sobe o resultado do teste em um grau."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "combate",
+      "nome": "Combate",
+      "blocos": [
+        {
+          "tipo": "tabela",
+          "titulo": "Ações",
+          "colunas": [
+            "Ação",
+            "Tipo",
+            "Efeito"
+          ],
+          "linhas": [
+            [
+              "Agarrar",
+              "Padrão",
+              "Ataque desarmado; o alvo resiste com Força ou Esquiva. 1 grau: restrito; 2 ou mais: amarrado."
+            ],
+            [
+              "Ajudar",
+              "Padrão",
+              "Ataque contra CD 10: o aliado ganha +2 no ataque ou na defesa (+5 com três graus)."
+            ],
+            [
+              "Carga montada",
+              "Padrão",
+              "Move a toda velocidade em linha reta montado a cavalo e ataca com –2."
+            ],
+            [
+              "Desarmar",
+              "Padrão",
+              "Ataque oposto; sucesso desarma o inimigo (a arma cai no chão ou na mesa)."
+            ],
+            [
+              "Desengajar",
+              "Movimento",
+              "Sai do combate corpo a corpo sem sofrer ataque de oportunidade."
+            ],
+            [
+              "Derrubar",
+              "Padrão",
+              "Ataque de tropeço ou coronhada; sucesso deixa o inimigo caído."
+            ],
+            [
+              "Finta",
+              "Padrão",
+              "Enganação contra Intuição: sucesso deixa o alvo vulnerável no próximo ataque."
+            ],
+            [
+              "Imobilizar",
+              "Padrão",
+              "Contra alvo agarrado: teste de Força; sucesso o impede de agir."
+            ],
+            [
+              "Lançar dinamite",
+              "Padrão",
+              "Arremesso de dinamite com pavio; causa Dano em área de explosão."
+            ],
+            [
+              "Mirar",
+              "Padrão",
+              "+5 no próximo ataque à distância (ou +2 se mover)."
+            ],
+            [
+              "Mover-se",
+              "Movimento",
+              "Desloca-se até a sua Velocidade (caminhando ou trotando)."
+            ],
+            [
+              "Quebrar objeto",
+              "Padrão",
+              "Ataca uma arma, tranca, garrafa ou suporte; dano contra a Resistência do material."
+            ],
+            [
+              "Recarregar",
+              "Movimento / Padrão",
+              "Cilindro de recarga rápida: movimento. Balas individuais em revólver: padrão [Casa]."
+            ],
+            [
+              "Recuperar-se",
+              "Padrão",
+              "Gasta o turno recuperando o fôlego; remove a pior penalidade de dano (1/cena)."
+            ],
+            [
+              "Sacar arma",
+              "Movimento",
+              "Saca o revólver ou rifle; com a vantagem Saque Rápido, torna-se ação livre."
+            ]
+          ]
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Manobras",
+          "nota": "Com a vantagem de mesmo nome, a troca vai até 5 pontos.",
+          "colunas": [
+            "Manobra",
+            "Efeito"
+          ],
+          "linhas": [
+            [
+              "Ataque Acurado",
+              "Até –2 no efeito (dano) para +2 no ataque (tiro preciso no chapéu ou na mão)."
+            ],
+            [
+              "Ataque Poderoso",
+              "Até –2 no ataque para +2 no efeito (tiro em cheio no peito com munição pesada)."
+            ],
+            [
+              "Ataque Defensivo",
+              "Até –2 no ataque para +2 em Esquiva e Aparar."
+            ],
+            [
+              "Ataque Total",
+              "–5 em Esquiva e Aparar para +2 no ataque (disparar a descoberto sem se proteger)."
+            ],
+            [
+              "Tiro Preciso",
+              "Disparar contra alvo em combate corpo a corpo sem a penalidade padrão de –4."
+            ],
+            [
+              "Fanning / Disparo Múltiplo",
+              "Disparar rajada rápida puxando o cão; penalidade no ataque para atingir múltiplos alvos."
+            ],
+            [
+              "Duelo ao Meio-Dia",
+              "Iniciativa disputada com Saque Rápido; quem vencer o teste age primeiro e dispara."
+            ]
+          ]
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Alcance",
+          "nota": "Revólver Colt Peacemaker (Dano 4): 30 m sem penalidade, 120 m no máximo. Rifle Winchester '73 (Dano 5): 37,5 m sem penalidade, 150 m no máximo.",
+          "colunas": [
+            "Alcance",
+            "Distância",
+            "Ataque"
+          ],
+          "linhas": [
+            [
+              "Curto",
+              "graduação de dano × 7,5 m",
+              "sem penalidade"
+            ],
+            [
+              "Médio",
+              "graduação de dano × 15 m",
+              "–2"
+            ],
+            [
+              "Longo",
+              "graduação de dano × 30 m",
+              "–5"
+            ]
+          ]
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Camuflagem e cobertura",
+          "nota": "A cobertura dá o mesmo valor como bônus na Esquiva contra explosões (atrás de uma mureta de pedra, +5 contra dinamite).",
+          "colunas": [
+            "Situação",
+            "Ataque",
+            "Exemplos"
+          ],
+          "linhas": [
+            [
+              "Camuflagem parcial",
+              "–2",
+              "Fumaça densa de pólvora, penumbra, poeira levantada por cavalos"
+            ],
+            [
+              "Camuflagem total",
+              "–5",
+              "Noite sem lua, tempestade de areia fechada, escuridão total"
+            ],
+            [
+              "Cobertura parcial",
+              "–2",
+              "Porta vai-e-vem do saloon, fardo de feno, mesa de madeira virada"
+            ],
+            [
+              "Cobertura total",
+              "–5",
+              "Parede grossa de adobe, mureta de pedra, vagão de trem de aço"
+            ]
+          ]
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Iniciativa, surpresa e capangas",
+          "itens": [
+            "**Iniciativa:** d20 + Agilidade + 4 por graduação de Iniciativa Aprimorada. Empate: Esquiva, depois Agilidade, depois Prontidão.",
+            "**Surpresa:** quem é pego de surpresa (emboscada no desfiladeiro) fica atordoado e vulnerável na rodada de surpresa.",
+            "**Capangas:** bandidos comuns e foras-da-lei descartáveis não fazem acertos críticos contra os heróis; os heróis os atacam com testes de rotina; qualquer falha num salvamento aplica o pior grau de efeito.",
+            "**Armas de área:** dinamite e escopetas em curta distância exigem Esquiva CD 10 + graduação; se passar, sofrem metade do efeito. Excelente contra grupos de capangas."
+          ]
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Esforço extra",
+          "itens": [
+            "Uma vez por turno, ação livre. Escolha: **ação** padrão extra; **+2** num teste (ou +2 vira +5); **salvamento** extra contra efeito contínuo; **+1 Velocidade ou Força** por uma rodada.",
+            "**Custo:** o personagem fica fatigado no início do próximo turno (fatigado vira exausto; exausto vira incapacitado). Um ponto heroico anula a fadiga."
+          ]
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Pontos heroicos",
+          "itens": [
+            "**Rolar de novo:** rola um d20 e fica com o melhor resultado; se tirar 10 ou menos no segundo dado, soma 10 (mínimo 11).",
+            "**Cancelar fadiga:** anula a fadiga causada por esforço extra.",
+            "**Inspirar:** concede +2 a todos os aliados que possam ouvir o herói.",
+            "**Façanha heroica:** ganha temporariamente uma vantagem pelo resto da cena.",
+            "**Escapar da morte:** gasta todos os pontos heroicos para estabilizar instantaneamente um ferimento fatal."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "condicoes",
+      "nome": "Condições e graus",
+      "blocos": [
+        {
+          "tipo": "tabela",
+          "titulo": "Aflição: condição por grau de falha",
+          "nota": "O efeito escolhe as condições de cada grau. A cada rodada, o alvo faz um salvamento para se livrar.",
+          "colunas": [
+            "Grau de falha",
+            "Condições possíveis"
+          ],
+          "linhas": [
+            [
+              "1º grau (falha por 1 a 5)",
+              "Desatento, impedido, prejudicado ou vulnerável"
+            ],
+            [
+              "2º grau (falha por 6 a 10)",
+              "Atordoado, caído, desabilitado, imobilizado ou surdo"
+            ],
+            [
+              "3º grau (falha por 11 a 15)",
+              "Incapacitado, controlado, dominado ou cego"
+            ],
+            [
+              "4º grau (falha por 16 ou mais)",
+              "Condição contínua permanente ou morte"
+            ]
+          ]
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Dano: padrão e letal",
+          "nota": "No faroeste, tiros e lâminas causam dano letal por padrão [Guia do Mestre + Casa]. O 4º grau letal deixa moribundo.",
+          "colunas": [
+            "Salvamento (d20 + Resistência)",
+            "Grau de falha",
+            "Efeito"
+          ],
+          "linhas": [
+            [
+              "15 + Dano ou mais",
+              "Sucesso",
+              "Sem efeito."
+            ],
+            [
+              "10 + Dano a 14 + Dano",
+              "1º grau",
+              "Ferido: –1 acumulado nos próximos salvamentos contra dano."
+            ],
+            [
+              "5 + Dano a 9 + Dano",
+              "2º grau",
+              "Ferido e Atordoado: perde a ação do próximo turno."
+            ],
+            [
+              "Dano a 4 + Dano",
+              "3º grau",
+              "Ferido e Cambaleando: só pode fazer uma ação padrão ou de movimento."
+            ],
+            [
+              "Menor que o Dano",
+              "4º grau",
+              "Incapacitado: indefeso e inconsciente. Se letal, fica Moribundo."
+            ]
+          ]
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Condições básicas",
+          "colunas": [
+            "Condição",
+            "Efeito"
+          ],
+          "linhas": [
+            [
+              "Atordoado",
+              "Não pode agir (nem ações livres)."
+            ],
+            [
+              "Caído",
+              "–5 em ataques corpo a corpo; –2 no corpo a corpo contra ele; +2 à distância contra ele; rasteja a 1 m."
+            ],
+            [
+              "Cego",
+              "–5 em testes visuais; desatento a alvos que não percebe; vulnerável; velocidade –2."
+            ],
+            [
+              "Desabilitado",
+              "–5 em testes daquela característica."
+            ],
+            [
+              "Desatento",
+              "Não percebe o ambiente ou o perigo; não age em relação ao que não percebe."
+            ],
+            [
+              "Desprevenido",
+              "Vulnerável e não pode fazer ataques de oportunidade nem ações de reação."
+            ],
+            [
+              "Exausto",
+              "Prejudicado e impedido; vira incapacitado se sofrer nova fadiga."
+            ],
+            [
+              "Fatigado",
+              "Impedido (velocidade –1); vira exausto se sofrer nova fadiga."
+            ],
+            [
+              "Imóvel",
+              "Velocidade 0; não pode se mover do lugar."
+            ],
+            [
+              "Impedido",
+              "Velocidade –1 (deslocamento pela metade)."
+            ],
+            [
+              "Incapacitado",
+              "Indefeso, atordoado e desatento; cai no chão inconsciente."
+            ],
+            [
+              "Indefeso",
+              "Esquiva e Aparar 0; ataques contra ele têm +5; críticos sem rolar 20."
+            ],
+            [
+              "Moribundo",
+              "Incapacitado; a cada rodada faz teste de Fortitude CD 10 (+1 por teste) ou morre."
+            ],
+            [
+              "Prejudicado",
+              "–2 em testes daquela característica."
+            ],
+            [
+              "Restrito",
+              "Impedido e vulnerável; –2 em ataques e manobras."
+            ],
+            [
+              "Surdo",
+              "–5 em testes auditivos; desatento a pistas sonoras."
+            ],
+            [
+              "Transpassado",
+              "–2 em defesas ativas por ataque sofrido naquela rodada."
+            ],
+            [
+              "Vulnerável",
+              "Esquiva e Aparar pela metade (arredondado para cima)."
+            ]
+          ]
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Condições combinadas",
+          "colunas": [
+            "Condição",
+            "Efeito"
+          ],
+          "linhas": [
+            [
+              "Amarrado",
+              "Indefeso, imóvel e prejudicado (amarrado com corda ou laço)."
+            ],
+            [
+              "Compelido",
+              "Atordoado e obrigado a seguir ordens simples da fonte."
+            ],
+            [
+              "Controlado",
+              "Ações totalmente controladas pela fonte da aflição."
+            ],
+            [
+              "Dominado",
+              "Sob controle mental ou hipnose total."
+            ]
+          ]
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Moribundo e recuperação",
+          "itens": [
+            "**Moribundo:** no faroeste realista, um tiro que derruba (4 graus de falha) deixa o herói Moribundo na poeira. A cada rodada, Fortitude CD 10 (+1 por teste). Com três sucessos ele estabiliza; uma falha causa a morte.",
+            "**Estabilizar:** um aliado treinado em Tratamento pode estabilizá-lo com um teste contra CD 15 (ação padrão).",
+            "**Recuperação lenta [Casa]:** sem atendimento médico e repouso, cada ferimento demora 1 dia para recuperar. Com sucesso em Tratamento e repouso absoluto, recupera 1 ferimento a cada 8 horas."
+          ]
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Tratamento (só treinado, com maleta médica)",
+          "nota": "Sem maleta médica com instrumentos e bandagens, penalidade de –5. Em combate, ação padrão.",
+          "colunas": [
+            "Procedimento",
+            "CD",
+            "Efeito"
+          ],
+          "linhas": [
+            [
+              "Estabilizar moribundo",
+              "15",
+              "O paciente para de morrer e fica incapacitado estável."
+            ],
+            [
+              "Reviver incapacitado",
+              "15",
+              "Remove a condição de incapacitado; o paciente fica cambaleando."
+            ],
+            [
+              "Cuidar de ferimentos (repouso)",
+              "15",
+              "Acelera a recuperação: remove 1 ferido a cada 8 horas de repouso."
+            ],
+            [
+              "Extrair projétil / cirurgia",
+              "20",
+              "Remove a complicação de bala alojada; falha causa 1 ferimento adicional."
+            ],
+            [
+              "Tratar veneno ou infecção",
+              "10 + grad.",
+              "Concede bônus de +2 nos salvamentos de Fortitude do paciente."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "viagem",
+      "nome": "Viagem",
+      "blocos": [
+        {
+          "tipo": "formulas",
+          "titulo": "Fórmulas",
+          "itens": [
+            "**Tempo de viagem** = distância – velocidade",
+            "**Cavaleiro em marcha normal** = cerca de 60 km por dia (ritmo sustentável)",
+            "**A pé em marcha normal** = cerca de 38 km por dia (5 km/h, 8 horas)",
+            "**Diligência de linha** = 110 a 160 km por dia (trocando parelhas nos postos)",
+            "**Trem a vapor** = cerca de 400 km por dia"
+          ]
+        },
+        {
+          "tipo": "gerado",
+          "fonte": "tempo_de_viagem"
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Ritmo de viagem (8 horas por dia)",
+          "nota": "Marcha forçada além de 8 horas exige teste de Fortitude a cada hora adicional.",
+          "colunas": [
+            "Meio de locomoção",
+            "Km por hora",
+            "Km por dia",
+            "Observação"
+          ],
+          "linhas": [
+            [
+              "A pé, caminhando",
+              "5 km/h",
+              "38 km",
+              "Ritmo normal sem sobrecarga"
+            ],
+            [
+              "Carroção Conestoga",
+              "8 km/h",
+              "30 a 40 km",
+              "Limitado pelo terreno e peso da carga"
+            ],
+            [
+              "Mula de carga",
+              "8 km/h",
+              "45 km",
+              "Excelente em trilhas íngremes e desfiladeiros"
+            ],
+            [
+              "Cavaleiro (marcha normal)",
+              "15 km/h",
+              "60 km",
+              "Alternando trote e caminhada"
+            ],
+            [
+              "Diligência de linha",
+              "15 a 20 km/h",
+              "110 a 160 km",
+              "Troca cavalos a cada posto de apoio"
+            ],
+            [
+              "Trem de passageiros",
+              "50 a 60 km/h",
+              "400 km",
+              "Depende dos trilhos e paradas para água e carvão"
+            ]
+          ]
+        },
+        {
+          "tipo": "gerado",
+          "fonte": "montarias"
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Marcha forçada e forçar a montaria [Casa]",
+          "itens": [
+            "**Marcha forçada:** após 8 horas de viagem no dia, cavaleiro ou pedestre faz teste de Fortitude CD 10 (+1 por hora adicional). Falha: fatigado → exausto → incapacitado.",
+            "**Forçar galope (Velocidade 4):** o cavalo só sustenta galope máximo contínuo por 15 minutos. Após isso, teste de Fortitude do animal CD 10 (+2 a cada 15 min extras); com falha, fica fatigado e reduz o passo para trote (Velocidade 2).",
+            "**Cavalo exausto:** animal que falhar duas vezes cai manco ou desmaiado na trilha."
+          ]
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Comida e água [Casa]",
+          "itens": [
+            "**Sede no deserto:** 1 dia (24 horas) sem água sem penalidade. A partir do 2º dia, teste de Fortitude por hora (CD 10, +1 a cada hora sob sol quente). A fadiga só cessa após hidratação completa.",
+            "**Fome:** 3 dias sem comida sem penalidade. A partir do 4º dia, teste de Fortitude por dia (CD 10, +1 por dia seguinte).",
+            "**Rações:** um pacote de rações de viagem dura 5 dias ($2,50, peso 7,5 kg). Cantil cheio (2 L) é equipamento indispensável para qualquer travessia na fronteira."
+          ]
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Caçar e coletar: Especialidade: Sobrevivência",
+          "nota": "Teste de 4 horas em terreno selvagem. No deserto árido, penalidade de –5.",
+          "colunas": [
+            "Resultado",
+            "Água e comida encontradas"
+          ],
+          "linhas": [
+            [
+              "CD 10 a 14",
+              "Água e comida suficientes para 1 pessoa por 1 dia."
+            ],
+            [
+              "CD 15 a 19",
+              "Água e comida suficientes para 3 pessoas por 1 dia."
+            ],
+            [
+              "CD 20 a 24",
+              "Abundância: caça de grande porte e água fresca para até 6 pessoas."
+            ],
+            [
+              "CD 25 ou mais",
+              "Banquete e água cristalina para toda a comitiva e as montarias."
+            ]
+          ]
+        },
+        {
+          "tipo": "gerado",
+          "fonte": "carga"
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Eventos de viagem",
+          "itens": [
+            "**Trilha da fronteira:** a cada dia de viagem em território perigoso, role d20:",
+            "**1–4:** Pistas de emboscada, bando de foras-da-lei ou índios guerreiros vigiando das colinas.",
+            "**5–7:** Cobra cascavel na trilha (assusta o cavalo; teste de Cavalgar CD 15 para não ser derrubado).",
+            "**8–10:** Poço de água seco ou salobra; caça escassa.",
+            "**11–13:** Tempestade de areia súbita ou chuva torrencial transformando a trilha em lamaçal.",
+            "**14–16:** Encontro com patrulha da Cavalaria dos EUA, batedores ou comitiva de colonos.",
+            "**17–19:** Diligência avariada na estrada ou viajante solitário necessitando de socorro.",
+            "**20:** Viagem tranquila sob céu aberto; excelente acampamento com água limpa."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "perigos",
+      "nome": "Perigos",
+      "blocos": [
+        {
+          "tipo": "gerado",
+          "fonte": "queda"
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Afogamento, venenos e doenças",
+          "itens": [
+            "**Afogamento:** prende a respiração por 10 rodadas + 2 × Vigor. Depois, Fortitude CD 10 (+1 por teste) a cada rodada; uma falha deixa incapacitado; na rodada seguinte, moribundo.",
+            "**Veneno de cascavel:** Enfraquecer Vigor graduação 7 (Fortitude CD 17). Se o Vigor cair abaixo de –5, o personagem morre.",
+            "**Escorpião do deserto:** Aflição graduação 4 (Fortitude CD 14: dor severa e prejudicado, desabilitado, incapacitado).",
+            "**Doenças da fronteira:** cólera (Fortitude CD 16), febre tifoide (CD 15), gangrena por ferimento sujo de pólvora (CD 14).",
+            "**Fogo e explosões:** fogueira Dano 2; dinamite Dano 5 em área de explosão (1 banana) a Dano 10 (caixote inteiro)."
+          ]
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Calor e frio",
+          "nota": "Espiral de Fortitude: CD 10, +1 por teste. Cada falha: fatigado → exausto → incapacitado → moribundo. Vantagem Tolerância Maior dá +5.",
+          "colunas": [
+            "Exposição",
+            "Exemplo",
+            "Teste de Fortitude"
+          ],
+          "linhas": [
+            [
+              "Desconfortável",
+              "Tarde quente na pradaria, noite fria no planalto",
+              "1 por hora"
+            ],
+            [
+              "Intensa",
+              "Deserto escaldante sob sol a pino, nevasca nas montanhas",
+              "A cada 10 minutos"
+            ],
+            [
+              "Extrema",
+              "Tempestade de areia em pleno verão, incêndio florestal, caldeira",
+              "A cada minuto"
+            ]
+          ]
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Armadilhas e perigos (exemplos no NP 6)",
+          "nota": "Notar: Percepção CD 15 a 25. Desarmar: Tecnologia com gazuas ou ferramentas; falha por 2 graus dispara o perigo.",
+          "colunas": [
+            "Perigo",
+            "Efeito",
+            "Exemplo"
+          ],
+          "linhas": [
+            [
+              "Armadilha de urso oculta",
+              "Ataque +6, Dano 4 perfurante e restrito",
+              "Percepção CD 18 para notar"
+            ],
+            [
+              "Dinamite ligada a arame de tropeço",
+              "Dano 8 em área de explosão (Esquiva CD 18 metade)",
+              "Tecnologia CD 20 para desarmar"
+            ],
+            [
+              "Desmoronamento em mina abandonada",
+              "Dano 7 em área e soterramento",
+              "Esquiva CD 17 para pular fora"
+            ],
+            [
+              "Alçapão falso no celeiro",
+              "Queda de 6 m (Dano 4) sobre forquilhas",
+              "Percepção CD 15 para perceber"
+            ],
+            [
+              "Trilho de trem afrouxado por bandidos",
+              "Descarrilamento de trem (Dano 10 massivo)",
+              "Investigação CD 20 antes da passagem"
+            ]
+          ]
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Escuridão e luz",
+          "itens": [
+            "**Sem luz:** camuflagem total (–5 em ataques) em noites sem lua ou minas escuras.",
+            "**Lanterna / Lamparina a querosene:** ilumina com luz clara raio de 9 m e penumbra até 18 m. Um galão de óleo ($0,10) dura semanas.",
+            "**Fósforos e tochas:** caixa com 100 fósforos custa $0,50; fogueira de acampamento ilumina cerca de 12 m."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "objetos",
+      "nome": "Objetos e medidas",
+      "blocos": [
+        {
+          "tipo": "formulas",
+          "titulo": "Fórmulas",
+          "itens": [
+            "**Arremesso:** distância = Força – massa do objeto",
+            "**Quebrar um objeto:** dano do golpe ou tiro contra a Resistência do material"
+          ]
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Resistência dos materiais",
+          "nota": "Para alguns centímetros de espessura; +1 a cada vez que a espessura dobra. Cofre reforçado: 10 ou mais.",
+          "colunas": [
+            "Material",
+            "Resistência",
+            "Exemplo"
+          ],
+          "linhas": [
+            [
+              "Papel, lona, couro fino",
+              "0",
+              "Toldo de carroça, sela leve, jornal"
+            ],
+            [
+              "Vidro, garrafa de uísque",
+              "1",
+              "Janela do saloon, garrafa de bebida"
+            ],
+            [
+              "Madeira leve",
+              "2",
+              "Caixote de munição, porta vai-e-vem do saloon"
+            ],
+            [
+              "Madeira pesada",
+              "3 a 4",
+              "Porta de carvalho, balcão do saloon, dormente de trem"
+            ],
+            [
+              "Adobe e tijolo de barro seco",
+              "5",
+              "Paredes de casas mexicanas e missões"
+            ],
+            [
+              "Pedra e alvenaria",
+              "6 a 7",
+              "Paredes de bancos de pedra, rochas do cânion"
+            ],
+            [
+              "Ferro batido",
+              "8",
+              "Grades da cela da cadeia, ferraduras, algemas"
+            ],
+            [
+              "Aço temperado",
+              "10",
+              "Porta do cofre da Wells Fargo, trilhos de ferrovia"
+            ]
+          ]
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Tamanho",
+          "nota": "Furtividade e Intimidação são circunstância. Esquiva, Aparar, Força e Vigor contam nos limites do NP.",
+          "colunas": [
+            "Tamanho",
+            "Exemplos",
+            "Furtividade",
+            "Intimidação",
+            "Esquiva e Aparar",
+            "Força e Vigor"
+          ],
+          "linhas": [
+            [
+              "Miúdo (–4, ~50 cm)",
+              "Cascavel, coelho, gato selvagem",
+              "+8",
+              "–4",
+              "+4",
+              "Força –2"
+            ],
+            [
+              "Pequeno (–3, ~1 m)",
+              "Cachorro, texugo, raposa",
+              "+4",
+              "–2",
+              "+2",
+              "Força –1"
+            ],
+            [
+              "Médio (–2, ~2 m)",
+              "Humano, puma, lobo",
+              "—",
+              "—",
+              "—",
+              "—"
+            ],
+            [
+              "Grande (–1, ~4 m)",
+              "Cavalo, mula, urso-pardo, búfalo",
+              "–4",
+              "+2",
+              "–2",
+              "+4 (For +2, Vig +2)"
+            ],
+            [
+              "Enorme (0, ~8 m)",
+              "Carroção gigante, vagão de trem",
+              "–8",
+              "+4",
+              "–4",
+              "+8"
+            ],
+            [
+              "Imenso (1, ~15 m)",
+              "Locomotiva a vapor, barco a vapor",
+              "–12",
+              "+6",
+              "–6",
+              "+12"
+            ]
+          ]
+        },
+        {
+          "tipo": "gerado",
+          "fonte": "medidas"
+        }
+      ]
+    },
+    {
+      "id": "cidade",
+      "nome": "Saloon e Cidade",
+      "blocos": [
+        {
+          "tipo": "tabela",
+          "titulo": "Bebidas no saloon",
+          "colunas": [
+            "Bebida",
+            "Preço"
+          ],
+          "linhas": [
+            [
+              "Cerveja (copo)",
+              "$0,05"
+            ],
+            [
+              "Coisa barata (dose de uísque)",
+              "$0,10"
+            ],
+            [
+              "Coisa de boa qualidade (dose)",
+              "$0,25"
+            ],
+            [
+              "Coisa barata (garrafa)",
+              "$2,00"
+            ],
+            [
+              "Coisa de boa qualidade (garrafa)",
+              "$5,00"
+            ],
+            [
+              "Café passado com água quente (xícara)",
+              "$0,05"
+            ],
+            [
+              "Maço de cigarros / charutos",
+              "$0,25"
+            ],
+            [
+              "Fumo de mascar (lata)",
+              "$0,50"
+            ],
+            [
+              "Garrafa de vinho importado",
+              "$3,00"
+            ]
+          ]
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Comida e refeições",
+          "colunas": [
+            "Refeição ou provisão",
+            "Preço",
+            "Observação"
+          ],
+          "linhas": [
+            [
+              "Restaurante barato (prato feito de feijão e carne)",
+              "$0,25",
+              "Comum em saloons e pensões simples"
+            ],
+            [
+              "Bom restaurante: almoço",
+              "$0,25",
+              "Refeição caprichada no centro da cidade"
+            ],
+            [
+              "Bom restaurante: café da manhã",
+              "$0,50",
+              "Ovos, toucinho frito, café e pão fresco"
+            ],
+            [
+              "Bom restaurante: jantar completo",
+              "$1,00",
+              "Bife alto, batatas, torta e café"
+            ],
+            [
+              "Bacon defumado (½ quilo)",
+              "$0,15",
+              "Excelente provisão para levar na sela"
+            ],
+            [
+              "Café em grãos ou moído (½ quilo)",
+              "$0,25",
+              "Item vital no acampamento"
+            ],
+            [
+              "Rações de viagem (para 5 dias)",
+              "$2,50",
+              "Carne seca, biscoito duro e toucinho (7,5 kg)"
+            ]
+          ]
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Hospedagem e estábulo (por noite)",
+          "colunas": [
+            "Acomodação",
+            "Preço",
+            "Estilo de vida"
+          ],
+          "linhas": [
+            [
+              "Cama coletiva no chão ou sótão do saloon",
+              "$0,25",
+              "Miserável a pobre"
+            ],
+            [
+              "Quarto coletivo em pensão simples",
+              "$1,00",
+              "Pobre a modesto"
+            ],
+            [
+              "Hotel de baixa qualidade (quarto privativo)",
+              "$2,00",
+              "Modesto"
+            ],
+            [
+              "Pensão com refeições diárias incluídas",
+              "$3,00",
+              "Modesto a confortável"
+            ],
+            [
+              "Hotel de luxo da cidade ferroviária",
+              "$10,00",
+              "Rico"
+            ],
+            [
+              "Estábulo: feno e água para montaria",
+              "$0,50",
+              "Por animal"
+            ],
+            [
+              "Estábulo: trato completo com escovação e grãos",
+              "$1,00",
+              "Por animal"
+            ],
+            [
+              "Banho quente com tina de latão e sabão",
+              "$1,00",
+              "Serviço no hotel ou barbearia"
+            ],
+            [
+              "Barbeiro (corte de cabelo e barba feita na navalha)",
+              "$0,25",
+              "Serviço avulso"
+            ]
+          ]
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Contratar e serviços na fronteira",
+          "colunas": [
+            "Serviço",
+            "Preço",
+            "Detalhe"
+          ],
+          "linhas": [
+            [
+              "Bilhete de trem (por 1,5 km)",
+              "$0,05",
+              "~$10 para viagem de 300 km"
+            ],
+            [
+              "Passagem de diligência (por 1,5 km)",
+              "$0,10",
+              "~$20 para viagem de 300 km"
+            ],
+            [
+              "Passagem em barco fluvial a vapor (por 1,5 km)",
+              "$0,05",
+              "Ao longo dos grandes rios navegáveis"
+            ],
+            [
+              "Telegrama Western Union (por palavra)",
+              "$0,05",
+              "Comunicação mais rápida entre cidades ligadas"
+            ],
+            [
+              "Telefonema (nas poucas cidades com fiação)",
+              "$5,00",
+              "Tecnologia de ponta recém-chegada"
+            ],
+            [
+              "Fotografia em placa de prata / estúdio",
+              "$10,00",
+              "Retrato duradouro para levar na carteira"
+            ],
+            [
+              "Visita e consulta médica",
+              "$3,00",
+              "Atendimento no consultório do doutor"
+            ],
+            [
+              "Cirurgia para extrair bala alojada",
+              "$5,00 a $10,00",
+              "Procedimento delicado sob éter"
+            ],
+            [
+              "Tratamento veterinário para montaria",
+              "$1,00 a $3,00",
+              "Doutor de animais ou ferrador experiente"
+            ],
+            [
+              "Ferrar cavalo na ferraria da cidade",
+              "$1,00",
+              "Quatro ferraduras novas e pregos"
+            ],
+            [
+              "Guia batedor para a trilha (por dia)",
+              "$2,00 a $3,00",
+              "Conhece trilhas, água e perigos indígenas"
+            ],
+            [
+              "Pistoleiro contratado (por dia)",
+              "$3,00 a $5,00",
+              "Segurança para comboios e diligências"
+            ],
+            [
+              "Lavar e engomar um jogo de roupas",
+              "$0,25",
+              "Serviço das lavadeiras da cidade"
+            ],
+            [
+              "Enterro cristão com caixão de pinho",
+              "$5,00",
+              "Sepultura no cemitério da colina (Boot Hill)"
+            ]
+          ]
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Custo de vida (por dia)",
+          "nota": "Teste de Riqueza (opcional): d20 + Riqueza contra a CD do custo; até Riqueza + 10 é rotina.",
+          "colunas": [
+            "Estilo",
+            "Custo diário",
+            "Condição financeira"
+          ],
+          "linhas": [
+            [
+              "Miserável",
+              "$0,20",
+              "Sem teto, dormindo sob as estrelas ou celeiro"
+            ],
+            [
+              "Pobre",
+              "$0,50",
+              "Vaqueiro itinerante, peão de fazenda"
+            ],
+            [
+              "Modesto",
+              "$1,00",
+              "Cidadão comum, ferreiro, minerador estável"
+            ],
+            [
+              "Confortável",
+              "$2,50",
+              "Xerife, dono de saloon, médico da cidade"
+            ],
+            [
+              "Rico",
+              "$10,00+",
+              "Banqueiro, dono de rancho grande, magnata ferroviário"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
