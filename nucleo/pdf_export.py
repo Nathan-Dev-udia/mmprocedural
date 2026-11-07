@@ -189,6 +189,9 @@ def valores_dos_campos(npc, relatorio, genero_nome):
         if dinheiro.get("divida"):
             resumo += f" Dívida: {formatter.dolares(dinheiro['divida'], moeda)}."
         condicoes.append(resumo)
+    san = npc.get("sanidade") or ficha.get("sanidade")
+    if san:
+        condicoes.append(f"Sanidade: {san['atual']} (máx. {san['maxima']}; inicial {san['inicial']})")
     detalhe_protecao = formatter.detalhe_protecao(val)
     if detalhe_protecao:
         condicoes.append(f"Armadura: {detalhe_protecao}; já incluída na Resistência.")

@@ -20,8 +20,12 @@ Rascunho do que ficou para depois (atualizado na versão 1.7.0).
 - **Cyberpunk:** ainda sem escudo; basta criar `dados/escudo/cyberpunk.json`.
 
 ## Gênero Chamado de Cthulhu (anos 20)
-- Planejado, não iniciado. Decisões, referências dos livros, adaptação da Sanidade em d100 e passo a passo em
-  `dados/generos/cthulhu/PREPARACAO_GENERO.md`.
+- **Implementação base concluída:** gerador de gênero ativado com dados completos (`dados/generos/cthulhu/` contendo `genero.json`, `equipment.json`, `player.json`, `archetypes.json`, `modules.json`, `complications.json`, `names.json`).
+- **15 Ocupações clássicas e 6 faixas de crédito/riqueza:** Professor, Detetive, Médico, Jornalista, Antiquário, Veterano, Policial, Bibliotecário, Diletante, Membro do Clero, Escritor, Parapsicólogo, Enfermeira, Advogado e Criminoso.
+- **Mecânica de Sanidade d100 integrada (`nucleo/sanidade.py`):** cálculo inicial derivado de Vontade (`45 + 5 * Vontade`, teto 99 reduzido por Mythos), rolagem d100 (01 sucesso automático, 100 desastre / 96-100 para SAN < 50, perda >= 5 com teste de Intelecto CD 10 para insanidade temporária, perda no dia >= 20% para insanidade indefinida).
+- **Integração no sistema:** fichas de PJ e NPCs recebem o medidor de Sanidade, formatado em texto, ficha de PDF e página web.
+- **Testes automatizados:** `tests/test_cthulhu.py` com 26 testes cobrindo todas as ocupações, NPs (1 a 5), faixas de riqueza, exportação e Sanidade. Todos os 439 testes do projeto passando.
+- **Próximos passos opcionais:** Escudo do mestre para Cthulhu, Bestiário do Mythos (profundos, ghouls, mi-go) e Livro do Jogador/Mestre de Cthulhu.
 
 ## Outros
 - Biblioteca de fichas salvas, edição de arquétipos pela interface e mechas, como já estava no README.

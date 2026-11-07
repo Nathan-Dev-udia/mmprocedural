@@ -1,0 +1,75 @@
+{
+  "_fonte": "Chamado de Cthulhu 7ª edição (regras de Sanidade, fobias e manias) adaptado para Mutantes & Malfeitores 3ª edição.",
+  "motivacoes": [
+    {
+      "nome": "Justiça",
+      "exemplo": "Ver os inocentes protegidos e a verdade revelada."
+    },
+    {
+      "nome": "Conhecimento",
+      "exemplo": "A busca implacável pela verdade cósmica e mistérios proibidos."
+    },
+    {
+      "nome": "Dever Profissional",
+      "exemplo": "Cumprir seu trabalho como detetive, jornalista, médico ou policial."
+    },
+    {
+      "nome": "Proteção de Inocentes",
+      "exemplo": "Salvar entes queridos e inocentes dos horrores das sombras."
+    },
+    {
+      "nome": "Curiosidade Macabra",
+      "exemplo": "Fascinado pelo bizarro e pelo inexplicável."
+    },
+    {
+      "nome": "Vingança",
+      "exemplo": "Destruir a criatura ou culto que arruinou sua família ou sanidade."
+    }
+  ],
+  "complicacoes": [
+    {
+      "nome": "Fobia",
+      "exemplo": "Pavor paralisante de escuridão, insetos, alturas ou corpos mortos."
+    },
+    {
+      "nome": "Mania",
+      "exemplo": "Compulsões neuróticas: lavagem constante, grafomania, higiene obsessiva."
+    },
+    {
+      "nome": "Pesadelos",
+      "exemplo": "Sonhos perturbadores com geometrias estranhas e cidades submersas."
+    },
+    {
+      "nome": "Paranoia",
+      "exemplo": "Desconfiança doentia de qualquer pessoa ou autoridade."
+    },
+    {
+      "nome": "Trauma da Grande Guerra",
+      "exemplo": "Sequelas de choque de trincheira e pânico de explosões."
+    },
+    {
+      "nome": "Lei Seca",
+      "exemplo": "Vício secreto em bebidas ilegais ou dívidas com mafiosos."
+    },
+    {
+      "nome": "Inimigo",
+      "exemplo": "Perseguido por um culto implacável do Mythos."
+    },
+    {
+      "nome": "Segredo de Família",
+      "exemplo": "Ancestrais ligados a rituais arcanos ou sangue maculado."
+    },
+    {
+      "nome": "Obsessão",
+      "exemplo": "Compelido a desvendar qualquer enigma proibido."
+    },
+    {
+      "nome": "Honra",
+      "exemplo": "Código profissional ético rígido que nunca transgride."
+    },
+    {
+      "nome": "Ceticismo Fanático",
+      "exemplo": "Recusa veemente em aceitar o inexplicável até ser tarde demais."
+    }
+  ]
+}

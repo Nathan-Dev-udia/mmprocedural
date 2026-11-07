@@ -1,0 +1,578 @@
+[
+  {
+    "id": "revolver_38",
+    "nome": "Revólver .38 Special",
+    "custo": 6,
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 3,
+      "pericia": "Combate à Distância: Pistolas",
+      "critico": 20
+    },
+    "preco": 25,
+    "categoria": "Arma de fogo",
+    "comercio": "Armeiro",
+    "peso": 1.0,
+    "notas": "",
+    "tiros": 6,
+    "municao": "municao_38"
+  },
+  {
+    "id": "pistola_colt_45",
+    "nome": "Pistola Colt .45 M1911",
+    "custo": 8,
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 4,
+      "pericia": "Combate à Distância: Pistolas",
+      "critico": 20
+    },
+    "preco": 35,
+    "categoria": "Arma de fogo",
+    "comercio": "Armeiro",
+    "peso": 1.2,
+    "notas": "",
+    "tiros": 7,
+    "municao": "municao_45"
+  },
+  {
+    "id": "pistola_bolso_32",
+    "nome": "Pistola de bolso .32",
+    "custo": 4,
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 2,
+      "pericia": "Combate à Distância: Pistolas",
+      "critico": 20
+    },
+    "preco": 15,
+    "categoria": "Arma de fogo",
+    "comercio": "Armeiro",
+    "peso": 0.4,
+    "notas": "",
+    "tiros": 6,
+    "municao": "municao_32"
+  },
+  {
+    "id": "rifle_ferrolho_30_06",
+    "nome": "Rifle de ferrolho Springfield .30-06",
+    "custo": 10,
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 5,
+      "pericia": "Combate à Distância: Rifles",
+      "critico": 20
+    },
+    "preco": 45,
+    "categoria": "Arma de fogo",
+    "comercio": "Armeiro",
+    "peso": 4.0,
+    "notas": "",
+    "tiros": 5,
+    "municao": "municao_rifle"
+  },
+  {
+    "id": "escopeta_12",
+    "nome": "Escopeta calibre 12",
+    "custo": 10,
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 5,
+      "pericia": "Combate à Distância: Escopetas",
+      "critico": 20
+    },
+    "preco": 40,
+    "categoria": "Arma de fogo",
+    "comercio": "Armeiro",
+    "peso": 3.5,
+    "notas": "",
+    "tiros": 2,
+    "municao": "cartuchos_12"
+  },
+  {
+    "id": "submetralhadora_thompson",
+    "nome": "Submetralhadora Thompson .45",
+    "custo": 12,
+    "ataque": {
+      "tipo": "distancia",
+      "efeito": 4,
+      "pericia": "Combate à Distância: Submetralhadoras",
+      "critico": 20
+    },
+    "preco": 200,
+    "categoria": "Arma de fogo",
+    "comercio": "Mercado negro",
+    "peso": 5.0,
+    "notas": "Multiataque",
+    "tiros": 50,
+    "municao": "tambor_thompson"
+  },
+  {
+    "id": "faca_bowie",
+    "nome": "Faca Bowie",
+    "custo": 2,
+    "ataque": {
+      "tipo": "corpo",
+      "efeito": 1,
+      "pericia": "Combate Corpo-a-Corpo: Facas",
+      "critico": 19,
+      "soma_forca": true
+    },
+    "preco": 3,
+    "categoria": "Arma branca",
+    "comercio": "Armeiro",
+    "peso": 0.5,
+    "notas": ""
+  },
+  {
+    "id": "cassetete",
+    "nome": "Cassetete policial",
+    "custo": 2,
+    "ataque": {
+      "tipo": "corpo",
+      "efeito": 1,
+      "pericia": "Combate Corpo-a-Corpo: Bastões",
+      "critico": 20,
+      "soma_forca": true
+    },
+    "preco": 2,
+    "categoria": "Arma branca",
+    "comercio": "Armeiro",
+    "peso": 0.5,
+    "notas": ""
+  },
+  {
+    "id": "soqueira",
+    "nome": "Soqueira de bronze",
+    "custo": 1,
+    "ataque": {
+      "tipo": "corpo",
+      "efeito": 1,
+      "pericia": "Combate Corpo-a-Corpo: Briga",
+      "critico": 20,
+      "soma_forca": true
+    },
+    "preco": 1,
+    "categoria": "Arma branca",
+    "comercio": "Armeiro",
+    "peso": 0.3,
+    "notas": ""
+  },
+  {
+    "id": "porrete",
+    "nome": "Porrete de madeira",
+    "custo": 2,
+    "ataque": {
+      "tipo": "corpo",
+      "efeito": 2,
+      "pericia": "Combate Corpo-a-Corpo: Bastões",
+      "critico": 20,
+      "soma_forca": true
+    },
+    "preco": 2,
+    "categoria": "Arma branca",
+    "comercio": "Loja de ferragens",
+    "peso": 1.0,
+    "notas": ""
+  },
+  {
+    "id": "pe_de_cabra",
+    "nome": "Pé de cabra de ferro",
+    "custo": 2,
+    "ataque": {
+      "tipo": "corpo",
+      "efeito": 2,
+      "pericia": "Combate Corpo-a-Corpo: Bastões",
+      "critico": 20,
+      "soma_forca": true
+    },
+    "preco": 2,
+    "categoria": "Arma branca",
+    "comercio": "Loja de ferragens",
+    "peso": 2.0,
+    "notas": ""
+  },
+  {
+    "id": "dinamite",
+    "nome": "Dinamite (banana com estopim)",
+    "custo": 10,
+    "ataque": {
+      "tipo": "area",
+      "efeito": 5,
+      "pericia": "Combate à Distância: Arremesso",
+      "critico": 20
+    },
+    "preco": 3,
+    "categoria": "Explosivo",
+    "comercio": "Loja de ferragens",
+    "peso": 0.5,
+    "notas": "Área de explosão"
+  },
+  {
+    "id": "municao_38",
+    "nome": "Munição .38 Special (50 balas)",
+    "custo": 1,
+    "preco": 2,
+    "categoria": "Munição",
+    "comercio": "Armeiro",
+    "peso": 1.0,
+    "descricao": ""
+  },
+  {
+    "id": "municao_45",
+    "nome": "Munição .45 ACP (50 balas)",
+    "custo": 1,
+    "preco": 3,
+    "categoria": "Munição",
+    "comercio": "Armeiro",
+    "peso": 1.5,
+    "descricao": ""
+  },
+  {
+    "id": "municao_32",
+    "nome": "Munição .32 ACP (50 balas)",
+    "custo": 1,
+    "preco": 2,
+    "categoria": "Munição",
+    "comercio": "Armeiro",
+    "peso": 0.8,
+    "descricao": ""
+  },
+  {
+    "id": "municao_rifle",
+    "nome": "Munição de rifle .30-06 (20 balas)",
+    "custo": 1,
+    "preco": 2,
+    "categoria": "Munição",
+    "comercio": "Armeiro",
+    "peso": 1.0,
+    "descricao": ""
+  },
+  {
+    "id": "cartuchos_12",
+    "nome": "Cartuchos calibre 12 (25 cartuchos)",
+    "custo": 1,
+    "preco": 2,
+    "categoria": "Munição",
+    "comercio": "Armeiro",
+    "peso": 1.0,
+    "descricao": ""
+  },
+  {
+    "id": "tambor_thompson",
+    "nome": "Tambor com 50 balas para Thompson",
+    "custo": 2,
+    "preco": 10,
+    "categoria": "Munição",
+    "comercio": "Mercado negro",
+    "peso": 2.5,
+    "descricao": ""
+  },
+  {
+    "id": "ford_modelo_t",
+    "nome": "Automóvel Ford Modelo T",
+    "custo": 8,
+    "preco": 300,
+    "categoria": "Veículos",
+    "comercio": "Concessionária",
+    "peso": 750,
+    "descricao": "Velocidade 4 (60 km/h), transporte popular dos anos 20.",
+    "velocidade": 4,
+    "carga": 400
+  },
+  {
+    "id": "packard_luxo",
+    "nome": "Automóvel de Luxo Packard",
+    "custo": 10,
+    "preco": 2500,
+    "categoria": "Veículos",
+    "comercio": "Concessionária",
+    "peso": 1500,
+    "descricao": "Velocidade 5 (120 km/h), potente e confortável.",
+    "velocidade": 5,
+    "carga": 500
+  },
+  {
+    "id": "motocicleta",
+    "nome": "Motocicleta com sidecar",
+    "custo": 9,
+    "preco": 200,
+    "categoria": "Veículos",
+    "comercio": "Concessionária",
+    "peso": 250,
+    "descricao": "Velocidade 5 (120 km/h), ágil em ruas e trilhas.",
+    "velocidade": 5,
+    "carga": 150
+  },
+  {
+    "id": "lanterna_eletrica",
+    "nome": "Lanterna elétrica a pilha",
+    "custo": 1,
+    "preco": 2,
+    "categoria": "Equipamento geral",
+    "comercio": "Loja de ferragens",
+    "peso": 0.5,
+    "descricao": "Ilumina 9 m de raio."
+  },
+  {
+    "id": "camera_fotografica",
+    "nome": "Câmera fotográfica com tripé e placas",
+    "custo": 2,
+    "preco": 20,
+    "categoria": "Equipamento geral",
+    "comercio": "Loja de departamentos",
+    "peso": 3.0,
+    "descricao": "Registra imagens e evidências."
+  },
+  {
+    "id": "maleta_medica",
+    "nome": "Maleta médica",
+    "custo": 2,
+    "preco": 25,
+    "categoria": "Equipamento geral",
+    "comercio": "Farmácia",
+    "peso": 3.5,
+    "descricao": "Instrumentos cirúrgicos e remédios essenciais para Tratamento."
+  },
+  {
+    "id": "gazuas",
+    "nome": "Ferramentas de chaveiro (gazuas)",
+    "custo": 1,
+    "preco": 10,
+    "categoria": "Equipamento geral",
+    "comercio": "Mercado negro",
+    "peso": 0.5,
+    "descricao": "Ferramentas para abrir fechaduras."
+  },
+  {
+    "id": "binoculos",
+    "nome": "Binóculos prismáticos",
+    "custo": 1,
+    "preco": 15,
+    "categoria": "Equipamento geral",
+    "comercio": "Loja de departamentos",
+    "peso": 1.0,
+    "descricao": "Visão ampliada à distância."
+  },
+  {
+    "id": "maquina_escrever",
+    "nome": "Máquina de escrever portátil",
+    "custo": 1,
+    "preco": 30,
+    "categoria": "Equipamento geral",
+    "comercio": "Loja de departamentos",
+    "peso": 5.0,
+    "descricao": "Redação de artigos e relatórios."
+  },
+  {
+    "id": "caderno_caneta",
+    "nome": "Caderno de notas e caneta-tinteiro",
+    "custo": 0,
+    "preco": 1,
+    "categoria": "Equipamento geral",
+    "comercio": "Loja de departamentos",
+    "peso": 0.3,
+    "descricao": "Anotações de pistas e nomes."
+  },
+  {
+    "id": "relogio_bolso",
+    "nome": "Relógio de bolso",
+    "custo": 0,
+    "preco": 5,
+    "categoria": "Equipamento geral",
+    "comercio": "Loja de departamentos",
+    "peso": 0.2,
+    "descricao": ""
+  },
+  {
+    "id": "lupa",
+    "nome": "Lupa de aumento",
+    "custo": 0,
+    "preco": 2,
+    "categoria": "Equipamento geral",
+    "comercio": "Loja de departamentos",
+    "peso": 0.2,
+    "descricao": "Examina pistas minuciosas."
+  },
+  {
+    "id": "cantil",
+    "nome": "Cantil de metal com água",
+    "custo": 0,
+    "preco": 1,
+    "categoria": "Equipamento geral",
+    "comercio": "Loja de departamentos",
+    "peso": 1.5,
+    "descricao": ""
+  },
+  {
+    "id": "isqueiro_cigarros",
+    "nome": "Isqueiro e maço de cigarros",
+    "custo": 0,
+    "preco": 0.5,
+    "categoria": "Equipamento geral",
+    "comercio": "Tabacaria",
+    "peso": 0.1,
+    "descricao": ""
+  },
+  {
+    "id": "gravador_fonografo",
+    "nome": "Fonógrafo portátil de cilindros",
+    "custo": 2,
+    "preco": 35,
+    "categoria": "Equipamento geral",
+    "comercio": "Loja de departamentos",
+    "peso": 6.0,
+    "descricao": "Grava áudio em cilindros de cera."
+  },
+  {
+    "id": "corda_15m",
+    "nome": "Corda de cânhamo (15 m)",
+    "custo": 1,
+    "preco": 2,
+    "categoria": "Equipamento geral",
+    "comercio": "Loja de ferragens",
+    "peso": 3.0,
+    "descricao": ""
+  },
+  {
+    "id": "mochila_couro",
+    "nome": "Mala ou pasta executiva de couro",
+    "custo": 1,
+    "preco": 5,
+    "categoria": "Equipamento geral",
+    "comercio": "Loja de departamentos",
+    "peso": 1.5,
+    "descricao": ""
+  },
+  {
+    "id": "kit_quimica",
+    "nome": "Maleta de reagentes químicos",
+    "custo": 2,
+    "preco": 30,
+    "categoria": "Equipamento geral",
+    "comercio": "Farmácia",
+    "peso": 4.0,
+    "descricao": "Testes e análises laboratoriais."
+  },
+  {
+    "id": "terno_tres_pecas",
+    "nome": "Terno de três peças",
+    "custo": 0,
+    "preco": 20,
+    "categoria": "Roupas",
+    "comercio": "Alfaiataria",
+    "peso": 2.0,
+    "descricao": ""
+  },
+  {
+    "id": "sobretudo_pesado",
+    "nome": "Sobretudo pesado de lã",
+    "custo": 1,
+    "preco": 25,
+    "categoria": "Roupas",
+    "comercio": "Alfaiataria",
+    "peso": 2.5,
+    "descricao": "Proteção 1 contra frio e arranhões.",
+    "protecao": 1
+  },
+  {
+    "id": "chapeu_fedora",
+    "nome": "Chapéu fedora",
+    "custo": 0,
+    "preco": 5,
+    "categoria": "Roupas",
+    "comercio": "Alfaiataria",
+    "peso": 0.2,
+    "descricao": ""
+  },
+  {
+    "id": "vestido_melindrosa",
+    "nome": "Vestido melindrosa anos 20",
+    "custo": 0,
+    "preco": 15,
+    "categoria": "Roupas",
+    "comercio": "Alfaiataria",
+    "peso": 1.0,
+    "descricao": ""
+  },
+  {
+    "id": "botas_pesadas",
+    "nome": "Botas de couro resistentes",
+    "custo": 0,
+    "preco": 8,
+    "categoria": "Roupas",
+    "comercio": "Alfaiataria",
+    "peso": 1.5,
+    "descricao": ""
+  },
+  {
+    "id": "passagem_trem",
+    "nome": "Passagem de trem (por 50 km)",
+    "custo": 0,
+    "preco": 1.5,
+    "categoria": "Serviços",
+    "comercio": "Estação ferroviária",
+    "peso": 0,
+    "descricao": ""
+  },
+  {
+    "id": "passagem_navio",
+    "nome": "Passagem em transatlântico a vapor",
+    "custo": 0,
+    "preco": 100,
+    "categoria": "Serviços",
+    "comercio": "Porto",
+    "peso": 0,
+    "descricao": ""
+  },
+  {
+    "id": "telegrama",
+    "nome": "Telegrama Western Union (por palavra)",
+    "custo": 0,
+    "preco": 0.05,
+    "categoria": "Serviços",
+    "comercio": "Telégrafo",
+    "peso": 0,
+    "descricao": ""
+  },
+  {
+    "id": "telefonema",
+    "nome": "Telefonema interurbano",
+    "custo": 0,
+    "preco": 5,
+    "categoria": "Serviços",
+    "comercio": "Central telefônica",
+    "peso": 0,
+    "descricao": ""
+  },
+  {
+    "id": "consulta_medica",
+    "nome": "Consulta médica",
+    "custo": 0,
+    "preco": 3,
+    "categoria": "Serviços",
+    "comercio": "Consultório médico",
+    "peso": 0,
+    "descricao": ""
+  },
+  {
+    "id": "hotel_quarto",
+    "nome": "Diária de hotel de padrão médio",
+    "custo": 0,
+    "preco": 2.5,
+    "categoria": "Serviços",
+    "comercio": "Hotel",
+    "peso": 0,
+    "descricao": ""
+  },
+  {
+    "id": "refeicao_restaurante",
+    "nome": "Refeição completa em restaurante",
+    "custo": 0,
+    "preco": 0.5,
+    "categoria": "Serviços",
+    "comercio": "Restaurante",
+    "peso": 0,
+    "descricao": ""
+  }
+]

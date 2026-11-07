@@ -279,6 +279,20 @@ def gerar_npc(dados, arquetipo_id, np, estilo_id, rng,
         ficha, alvo = escalar_npc(dados, arquetipo, modulos, ficha, np, rng)
         relatorio = validator.validar(ficha, np, dados["equipamentos"])
 
+        sanidade_info = None
+        if dados["configuracoes"].get("sanidade"):
+            from . import sanidade
+            vontade_total = relatorio["valores"]["defesas"]["Vontade"]
+            grad_mythos = ficha.get("pericias", {}).get("Especialidade: Mythos de Cthulhu", 0)
+            san_ini = sanidade.sanidade_inicial(vontade_total)
+            san_max = sanidade.sanidade_maxima(grad_mythos)
+            sanidade_info = {
+                "inicial": san_ini,
+                "atual": san_ini,
+                "maxima": san_max,
+            }
+            ficha["sanidade"] = sanidade_info
+
         repetida = chave in combinacoes_usadas
         combinacoes_usadas.add(chave)
         principais_usados.add(modulos[0]["id"])
@@ -303,6 +317,7 @@ def gerar_npc(dados, arquetipo_id, np, estilo_id, rng,
             "escala": round(alvo, 2),
             "descricao": " ".join([arquetipo["descricao"]] + [m["descricao"] for m in modulos]),
             "tatica": " ".join(m.get("tatica", "") for m in modulos).strip(),
+            "sanidade": sanidade_info,
             "ficha": ficha,
             "validacao": relatorio,
         }

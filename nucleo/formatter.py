@@ -175,6 +175,7 @@ def exibicao(npc):
         "iniciativa": _sinal(val["iniciativa"]),
         "ataques": ataques,
         "defesas": defesas,
+        "sanidade": f"{san['atual']} (máx. {san['maxima']})" if (san := (npc.get("sanidade") or ficha.get("sanidade"))) else "",
         "totais": totais,
         "complicacoes": [texto_complicacao(c) for c in npc.get("complicacoes", [])],
         "dinheiro": texto_dinheiro(npc["dinheiro"]) if npc.get("dinheiro") else "",
@@ -291,6 +292,10 @@ def texto(npc):
     linhas += [
         f"Ataque: Inic {e['iniciativa']}, " + ", ".join(e["ataques"]) + ".",
         f"Defesa: {e['defesas']}.",
+    ]
+    if e.get("sanidade"):
+        linhas.append(f"Sanidade: {e['sanidade']}.")
+    linhas += [
         f"Totais: {e['totais']}.",
     ]
     if npc["capanga"]:

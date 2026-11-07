@@ -1,0 +1,42 @@
+{
+  "id": "cthulhu",
+  "nome": "Chamado de Cthulhu",
+  "descricao": "Horror cósmico e investigação nos anos 1920: investigadores comuns, mistérios arcanos e os horrores indescritíveis do Mythos de Cthulhu.",
+  "perfis_de_poder": [],
+  "configuracoes": {
+    "rotulo_poderes": "Feitiços arcanos",
+    "rotulo_arquetipo": "Ocupação",
+    "rotulo_foco": "Especialidade",
+    "equipamento": "dinheiro",
+    "moeda": "$",
+    "np_padrao_jogador": 3,
+    "nps_disponiveis": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "nps_jogador": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "sanidade": true,
+    "itens_basicos": [],
+    "prioridades_gerais": [
+      "defesa:Vontade",
+      "defesa:Esquiva",
+      "defesa:Aparar",
+      "defesa:Fortitude",
+      "pericia:Percepção",
+      "pericia:Intuição",
+      "pericia:Investigação",
+      "vantagem:Rolamento Defensivo",
+      "habilidade:Int",
+      "habilidade:Vig"
+    ]
+  }
+}

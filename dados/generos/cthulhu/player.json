@@ -1,0 +1,1585 @@
+{
+  "_fonte": "Ocupações do Livro do Jogador de Chamado de Cthulhu 7ª edição, adaptadas como arquétipos de Mutantes & Malfeitores 3ª edição.",
+  "riqueza": [
+    {
+      "id": "pobretao",
+      "nome": "Pobretão (Crédito 0)",
+      "riqueza": 4,
+      "dinheiro": 20,
+      "beneficio": 0,
+      "ajuste_de_pontos": 1,
+      "descricao": "Desempregado ou sem teto. Devolve 1 PP no orçamento de criação."
+    },
+    {
+      "id": "pobre",
+      "nome": "Pobre (Crédito 1–9)",
+      "riqueza": 6,
+      "dinheiro": 75,
+      "beneficio": 0,
+      "ajuste_de_pontos": 0,
+      "descricao": "Estudante ou trabalhador braçal com orçamento apertado."
+    },
+    {
+      "id": "classe_media",
+      "nome": "Classe média (Crédito 10–49)",
+      "riqueza": 8,
+      "dinheiro": 250,
+      "beneficio": 0,
+      "ajuste_de_pontos": 0,
+      "descricao": "Padrão: professor, jornalista, detetive ou médico de bairro."
+    },
+    {
+      "id": "abastado",
+      "nome": "Abastado (Crédito 50–89)",
+      "riqueza": 12,
+      "dinheiro": 1000,
+      "beneficio": 1,
+      "ajuste_de_pontos": 0,
+      "descricao": "Médico renomado, advogado sócio ou empresário próspero (1 PP)."
+    },
+    {
+      "id": "rico",
+      "nome": "Rico (Crédito 90–98)",
+      "riqueza": 24,
+      "dinheiro": 10000,
+      "beneficio": 4,
+      "ajuste_de_pontos": 0,
+      "descricao": "Diletante herdeiro ou banqueiro estabelecido (4 PP)."
+    },
+    {
+      "id": "ricaco",
+      "nome": "Ricaço (Crédito 99)",
+      "riqueza": 32,
+      "dinheiro": 50000,
+      "beneficio": 6,
+      "ajuste_de_pontos": 0,
+      "descricao": "Magnata industrial ou financista multimilionário (6 PP)."
+    }
+  ],
+  "arquetipos": [
+    {
+      "id": "professor",
+      "nome": "Professor Universitário",
+      "conceito": "Erudito e pesquisador acadêmico da Universidade Miskatonic, acostumado a arquivos, línguas mortas e bibliotecas empoeiradas.",
+      "vantagens_essenciais": [
+        "Bem Informado",
+        "Memória Eidética"
+      ],
+      "vantagens_opcionais": [
+        "Contatos",
+        "Idiomas",
+        "Fascinar"
+      ],
+      "prioridades": [
+        "habilidade:Int",
+        "pericia:Investigação",
+        "pericia:Especialidade: História",
+        "defesa:Vontade",
+        "habilidade:Pro",
+        "pericia:Percepção",
+        "habilidade:Vig",
+        "defesa:Esquiva"
+      ],
+      "sugestoes": {
+        "motivacoes": [
+          "Justiça",
+          "Conhecimento",
+          "Curiosidade Macabra",
+          "Proteção de Inocentes",
+          "Dever Profissional"
+        ],
+        "complicacoes": [
+          {
+            "nome": "Fobia",
+            "detalhe": "Pavor paralisante de escuridão ou espaços fechados."
+          },
+          {
+            "nome": "Mania",
+            "detalhe": "Registrar obsessivamente tudo o que vê em anotações cifradas."
+          },
+          {
+            "nome": "Paranoia",
+            "detalhe": "Desconfia que figuras nas sombras o estão seguindo."
+          },
+          {
+            "nome": "Obsessão",
+            "detalhe": "Não consegue abandonar um enigma ou manuscrito proibido."
+          }
+        ]
+      },
+      "focos": [
+        {
+          "id": "historiador",
+          "nome": "Historiador",
+          "descricao": "Pesquisa manuscritos e genealogias antigas.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Especialidade: História"
+          ],
+          "armas": [],
+          "itens": []
+        },
+        {
+          "id": "arqueologo",
+          "nome": "Arqueólogo",
+          "descricao": "Explorador de ruínas e tumbas antigas.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Especialidade: Arqueologia",
+            "pericia:Atletismo"
+          ],
+          "armas": [],
+          "itens": [
+            "lanterna_eletrica"
+          ]
+        },
+        {
+          "id": "antropologo",
+          "nome": "Antropólogo",
+          "descricao": "Estudioso de costumes tribais e cultos folclóricos.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Especialidade: Antropologia"
+          ],
+          "armas": [],
+          "itens": []
+        },
+        {
+          "id": "linguista",
+          "nome": "Linguista",
+          "descricao": "Tradutor de inscrições rúnicas e hieróglifos arcanos.",
+          "vantagens": [
+            "Idiomas"
+          ],
+          "prioridades": [
+            "pericia:Especialidade: Línguas Antigas"
+          ],
+          "armas": [],
+          "itens": []
+        }
+      ],
+      "armas": {
+        "principais": [
+          "revolver_38",
+          "pistola_bolso_32"
+        ],
+        "secundarias": [
+          "cassetete",
+          "faca_bowie"
+        ]
+      },
+      "itens": {
+        "essenciais": [
+          "caderno_caneta",
+          "relogio_bolso"
+        ],
+        "opcionais": [
+          "lupa",
+          "lanterna_eletrica",
+          "mochila_couro"
+        ]
+      }
+    },
+    {
+      "id": "detetive",
+      "nome": "Detetive Particular",
+      "conceito": "Investigador contratado para solucionar desaparecimentos bizarros, homicídios insolúveis e casos que a polícia arquivou.",
+      "vantagens_essenciais": [
+        "Contatos",
+        "Iniciativa Aprimorada"
+      ],
+      "vantagens_opcionais": [
+        "Saque Rápido",
+        "Tolerância Maior",
+        "Duro de Matar"
+      ],
+      "prioridades": [
+        "habilidade:Des",
+        "pericia:Investigação",
+        "pericia:Combate à Distância: Pistolas",
+        "defesa:Esquiva",
+        "habilidade:Int",
+        "pericia:Percepção",
+        "habilidade:Vig",
+        "defesa:Vontade"
+      ],
+      "sugestoes": {
+        "motivacoes": [
+          "Justiça",
+          "Conhecimento",
+          "Curiosidade Macabra",
+          "Proteção de Inocentes",
+          "Dever Profissional"
+        ],
+        "complicacoes": [
+          {
+            "nome": "Fobia",
+            "detalhe": "Pavor paralisante de escuridão ou espaços fechados."
+          },
+          {
+            "nome": "Mania",
+            "detalhe": "Registrar obsessivamente tudo o que vê em anotações cifradas."
+          },
+          {
+            "nome": "Paranoia",
+            "detalhe": "Desconfia que figuras nas sombras o estão seguindo."
+          },
+          {
+            "nome": "Obsessão",
+            "detalhe": "Não consegue abandonar um enigma ou manuscrito proibido."
+          }
+        ]
+      },
+      "focos": [
+        {
+          "id": "ex_policial",
+          "nome": "Ex-Policial",
+          "descricao": "Endurecido pelas ruas, intimidador e rápido no gatilho.",
+          "vantagens": [
+            "Iniciativa Aprimorada"
+          ],
+          "prioridades": [
+            "pericia:Intimidação"
+          ],
+          "armas": [],
+          "itens": []
+        },
+        {
+          "id": "pinkerton",
+          "nome": "Agente Pinkerton",
+          "descricao": "Perito em rastreio, campanas e infiltração discreta.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Furtividade"
+          ],
+          "armas": [],
+          "itens": [
+            "binoculos"
+          ]
+        }
+      ],
+      "armas": {
+        "principais": [
+          "revolver_38",
+          "pistola_colt_45"
+        ],
+        "secundarias": [
+          "soqueira",
+          "cassetete"
+        ]
+      },
+      "itens": {
+        "essenciais": [
+          "gazuas",
+          "lanterna_eletrica",
+          "caderno_caneta"
+        ],
+        "opcionais": [
+          "sobretudo_pesado",
+          "camera_fotografica"
+        ]
+      }
+    },
+    {
+      "id": "medico",
+      "nome": "Médico",
+      "conceito": "Profissional da medicina confrontado por ferimentos inexplicáveis, patologias cósmicas e a fragilidade do corpo humano.",
+      "vantagens_essenciais": [
+        "Maestria em Perícia"
+      ],
+      "vantagens_opcionais": [
+        "Tolerância Maior",
+        "Contatos",
+        "Destemido"
+      ],
+      "prioridades": [
+        "habilidade:Int",
+        "pericia:Tratamento",
+        "pericia:Especialidade: Medicina",
+        "defesa:Vontade",
+        "habilidade:Pro",
+        "pericia:Intuição",
+        "habilidade:Vig",
+        "defesa:Esquiva"
+      ],
+      "sugestoes": {
+        "motivacoes": [
+          "Justiça",
+          "Conhecimento",
+          "Curiosidade Macabra",
+          "Proteção de Inocentes",
+          "Dever Profissional"
+        ],
+        "complicacoes": [
+          {
+            "nome": "Fobia",
+            "detalhe": "Pavor paralisante de escuridão ou espaços fechados."
+          },
+          {
+            "nome": "Mania",
+            "detalhe": "Registrar obsessivamente tudo o que vê em anotações cifradas."
+          },
+          {
+            "nome": "Paranoia",
+            "detalhe": "Desconfia que figuras nas sombras o estão seguindo."
+          },
+          {
+            "nome": "Obsessão",
+            "detalhe": "Não consegue abandonar um enigma ou manuscrito proibido."
+          }
+        ]
+      },
+      "focos": [
+        {
+          "id": "clinico",
+          "nome": "Clínico Geral",
+          "descricao": "Especialista em diagnósticos rápidos e primeiros socorros.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Tratamento"
+          ],
+          "armas": [],
+          "itens": []
+        },
+        {
+          "id": "cirurgiao",
+          "nome": "Cirurgião",
+          "descricao": "Mão firme e precisão cirúrgica sob extrema pressão.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Tratamento",
+            "habilidade:Des"
+          ],
+          "armas": [],
+          "itens": []
+        },
+        {
+          "id": "legista",
+          "nome": "Médico Legista",
+          "descricao": "Examina autópsias e causas de mortes grotescas.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Investigação"
+          ],
+          "armas": [],
+          "itens": []
+        },
+        {
+          "id": "psiquiatra",
+          "nome": "Psiquiatra",
+          "descricao": "Trata traumas e crises agudas de histeria ou terror.",
+          "vantagens": [
+            "Destemido"
+          ],
+          "prioridades": [
+            "pericia:Especialidade: Psicanálise"
+          ],
+          "armas": [],
+          "itens": []
+        }
+      ],
+      "armas": {
+        "principais": [
+          "pistola_bolso_32",
+          "revolver_38"
+        ],
+        "secundarias": [
+          "faca_bowie"
+        ]
+      },
+      "itens": {
+        "essenciais": [
+          "maleta_medica",
+          "relogio_bolso"
+        ],
+        "opcionais": [
+          "lanterna_eletrica",
+          "mochila_couro"
+        ]
+      }
+    },
+    {
+      "id": "jornalista",
+      "nome": "Jornalista",
+      "conceito": "Repórter investigativo incansável atrás de manchetes sensacionalistas, sociedades secretas e conspirações urbanas.",
+      "vantagens_essenciais": [
+        "Contatos",
+        "Bem Relacionado"
+      ],
+      "vantagens_opcionais": [
+        "Fascinar",
+        "Bem Informado",
+        "Iniciativa Aprimorada"
+      ],
+      "prioridades": [
+        "habilidade:Int",
+        "pericia:Investigação",
+        "pericia:Enganação",
+        "pericia:Percepção",
+        "defesa:Esquiva",
+        "habilidade:Pre",
+        "defesa:Vontade",
+        "habilidade:Vig"
+      ],
+      "sugestoes": {
+        "motivacoes": [
+          "Justiça",
+          "Conhecimento",
+          "Curiosidade Macabra",
+          "Proteção de Inocentes",
+          "Dever Profissional"
+        ],
+        "complicacoes": [
+          {
+            "nome": "Fobia",
+            "detalhe": "Pavor paralisante de escuridão ou espaços fechados."
+          },
+          {
+            "nome": "Mania",
+            "detalhe": "Registrar obsessivamente tudo o que vê em anotações cifradas."
+          },
+          {
+            "nome": "Paranoia",
+            "detalhe": "Desconfia que figuras nas sombras o estão seguindo."
+          },
+          {
+            "nome": "Obsessão",
+            "detalhe": "Não consegue abandonar um enigma ou manuscrito proibido."
+          }
+        ]
+      },
+      "focos": [
+        {
+          "id": "reporter_policial",
+          "nome": "Repórter Policial",
+          "descricao": "Fontes no necrotério e informantes no submundo.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Intuição"
+          ],
+          "armas": [],
+          "itens": []
+        },
+        {
+          "id": "fotografo",
+          "nome": "Fotógrafo",
+          "descricao": "Registra em filme as evidências do indescritível.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Especialidade: Fotografia"
+          ],
+          "armas": [],
+          "itens": [
+            "camera_fotografica"
+          ]
+        },
+        {
+          "id": "colunista",
+          "nome": "Colunista Social",
+          "descricao": "Transita em festas da elite ouvindo confidências indiscretas.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Persuasão"
+          ],
+          "armas": [],
+          "itens": []
+        }
+      ],
+      "armas": {
+        "principais": [
+          "revolver_38",
+          "pistola_bolso_32"
+        ],
+        "secundarias": [
+          "cassetete"
+        ]
+      },
+      "itens": {
+        "essenciais": [
+          "caderno_caneta",
+          "relogio_bolso"
+        ],
+        "opcionais": [
+          "camera_fotografica",
+          "maquina_escrever",
+          "lanterna_eletrica"
+        ]
+      }
+    },
+    {
+      "id": "antiquario",
+      "nome": "Antiquário",
+      "conceito": "Negociante de peças raras, estatuetas macabras de basalto e relíquias de procedência duvidosa.",
+      "vantagens_essenciais": [
+        "Avaliação",
+        "Bem Informado"
+      ],
+      "vantagens_opcionais": [
+        "Contatos",
+        "Idiomas",
+        "Atraente"
+      ],
+      "prioridades": [
+        "habilidade:Int",
+        "pericia:Especialidade: Antiguidades",
+        "pericia:Percepção",
+        "defesa:Vontade",
+        "habilidade:Pro",
+        "pericia:Persuasão",
+        "habilidade:Vig",
+        "defesa:Esquiva"
+      ],
+      "sugestoes": {
+        "motivacoes": [
+          "Justiça",
+          "Conhecimento",
+          "Curiosidade Macabra",
+          "Proteção de Inocentes",
+          "Dever Profissional"
+        ],
+        "complicacoes": [
+          {
+            "nome": "Fobia",
+            "detalhe": "Pavor paralisante de escuridão ou espaços fechados."
+          },
+          {
+            "nome": "Mania",
+            "detalhe": "Registrar obsessivamente tudo o que vê em anotações cifradas."
+          },
+          {
+            "nome": "Paranoia",
+            "detalhe": "Desconfia que figuras nas sombras o estão seguindo."
+          },
+          {
+            "nome": "Obsessão",
+            "detalhe": "Não consegue abandonar um enigma ou manuscrito proibido."
+          }
+        ]
+      },
+      "focos": [
+        {
+          "id": "colecionador",
+          "nome": "Colecionador Ocultista",
+          "descricao": "Reconhece artefatos e grimórios do Mythos.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Especialidade: Ocultismo"
+          ],
+          "armas": [],
+          "itens": []
+        },
+        {
+          "id": "avaliador",
+          "nome": "Avaliador Comercial",
+          "descricao": "Perito em discernir ouro antigo de falsificações.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Especialidade: Antiguidades"
+          ],
+          "armas": [],
+          "itens": []
+        },
+        {
+          "id": "cacador_reliquias",
+          "nome": "Caçador de Relíquias",
+          "descricao": "Viaja a sítios isolados em busca de peças exóticas.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Atletismo"
+          ],
+          "armas": [],
+          "itens": []
+        }
+      ],
+      "armas": {
+        "principais": [
+          "revolver_38",
+          "pistola_bolso_32"
+        ],
+        "secundarias": [
+          "faca_bowie",
+          "porrete"
+        ]
+      },
+      "itens": {
+        "essenciais": [
+          "lupa",
+          "lanterna_eletrica"
+        ],
+        "opcionais": [
+          "mochila_couro",
+          "caderno_caneta"
+        ]
+      }
+    },
+    {
+      "id": "veterano",
+      "nome": "Veterano de Guerra",
+      "conceito": "Ex-soldado da Primeira Guerra Mundial, familiarizado com bombardeios, morticínio e a fragilidade da vida.",
+      "vantagens_essenciais": [
+        "Duro de Matar",
+        "Tolerância Maior"
+      ],
+      "vantagens_opcionais": [
+        "Iniciativa Aprimorada",
+        "Ataque Poderoso",
+        "Rolamento Defensivo"
+      ],
+      "prioridades": [
+        "habilidade:Vig",
+        "pericia:Combate à Distância: Rifles",
+        "defesa:Fortitude",
+        "habilidade:Des",
+        "defesa:Esquiva",
+        "pericia:Atletismo",
+        "defesa:Vontade",
+        "pericia:Percepção"
+      ],
+      "sugestoes": {
+        "motivacoes": [
+          "Justiça",
+          "Conhecimento",
+          "Curiosidade Macabra",
+          "Proteção de Inocentes",
+          "Dever Profissional"
+        ],
+        "complicacoes": [
+          {
+            "nome": "Fobia",
+            "detalhe": "Pavor paralisante de escuridão ou espaços fechados."
+          },
+          {
+            "nome": "Mania",
+            "detalhe": "Registrar obsessivamente tudo o que vê em anotações cifradas."
+          },
+          {
+            "nome": "Paranoia",
+            "detalhe": "Desconfia que figuras nas sombras o estão seguindo."
+          },
+          {
+            "nome": "Obsessão",
+            "detalhe": "Não consegue abandonar um enigma ou manuscrito proibido."
+          }
+        ]
+      },
+      "focos": [
+        {
+          "id": "infantaria",
+          "nome": "Soldado de Infantaria",
+          "descricao": "Disciplinado e resistente a marchas e intempéries.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Atletismo"
+          ],
+          "armas": [],
+          "itens": []
+        },
+        {
+          "id": "sapador",
+          "nome": "Sapador",
+          "descricao": "Especialista em demolições, trincheiras e explosivos.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Tecnologia"
+          ],
+          "armas": [
+            "dinamite"
+          ],
+          "itens": []
+        },
+        {
+          "id": "atirador_elite",
+          "nome": "Atirador de Elite",
+          "descricao": "Calmo sob pressão, letal a centenas de metros.",
+          "vantagens": [
+            "Mira Aprimorada"
+          ],
+          "prioridades": [
+            "pericia:Combate à Distância: Rifles"
+          ],
+          "armas": [],
+          "itens": []
+        }
+      ],
+      "armas": {
+        "principais": [
+          "rifle_ferrolho_30_06",
+          "escopeta_12",
+          "pistola_colt_45"
+        ],
+        "secundarias": [
+          "faca_bowie",
+          "cassetete"
+        ]
+      },
+      "itens": {
+        "essenciais": [
+          "botas_pesadas",
+          "sobretudo_pesado",
+          "cantil"
+        ],
+        "opcionais": [
+          "lanterna_eletrica",
+          "binoculos"
+        ]
+      }
+    },
+    {
+      "id": "policial",
+      "nome": "Oficial de Polícia",
+      "conceito": "Homem da lei juramentado, habituado a interrogatórios, rondas perigosas e a conter a violência urbana.",
+      "vantagens_essenciais": [
+        "Benefício (Autoridade Policial)",
+        "Iniciativa Aprimorada"
+      ],
+      "vantagens_opcionais": [
+        "Derrubar Aprimorado",
+        "Duro de Matar",
+        "Desarmar Aprimorado"
+      ],
+      "prioridades": [
+        "habilidade:Vig",
+        "pericia:Combate à Distância: Pistolas",
+        "pericia:Percepção",
+        "defesa:Esquiva",
+        "habilidade:Lut",
+        "pericia:Intimidação",
+        "defesa:Aparar",
+        "defesa:Fortitude"
+      ],
+      "sugestoes": {
+        "motivacoes": [
+          "Justiça",
+          "Conhecimento",
+          "Curiosidade Macabra",
+          "Proteção de Inocentes",
+          "Dever Profissional"
+        ],
+        "complicacoes": [
+          {
+            "nome": "Fobia",
+            "detalhe": "Pavor paralisante de escuridão ou espaços fechados."
+          },
+          {
+            "nome": "Mania",
+            "detalhe": "Registrar obsessivamente tudo o que vê em anotações cifradas."
+          },
+          {
+            "nome": "Paranoia",
+            "detalhe": "Desconfia que figuras nas sombras o estão seguindo."
+          },
+          {
+            "nome": "Obsessão",
+            "detalhe": "Não consegue abandonar um enigma ou manuscrito proibido."
+          }
+        ]
+      },
+      "focos": [
+        {
+          "id": "patrulheiro",
+          "nome": "Patrulheiro de Rua",
+          "descricao": "Conhece as ruas da cidade e aborda suspeitos com agilidade.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Atletismo"
+          ],
+          "armas": [],
+          "itens": []
+        },
+        {
+          "id": "inspetor",
+          "nome": "Inspetor de Homicídios",
+          "descricao": "Dedicado a pistas forenses, depoimentos e interrogatórios.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Investigação"
+          ],
+          "armas": [],
+          "itens": []
+        }
+      ],
+      "armas": {
+        "principais": [
+          "revolver_38",
+          "escopeta_12"
+        ],
+        "secundarias": [
+          "cassetete"
+        ]
+      },
+      "itens": {
+        "essenciais": [
+          "cassetete",
+          "lanterna_eletrica"
+        ],
+        "opcionais": [
+          "caderno_caneta",
+          "relogio_bolso"
+        ]
+      }
+    },
+    {
+      "id": "bibliotecario",
+      "nome": "Bibliotecário",
+      "conceito": "Guardião silencioso de coleções raras, jornais microfilmados e livros cuja leitura jamais deveria ser permitida.",
+      "vantagens_essenciais": [
+        "Memória Eidética",
+        "Bem Informado"
+      ],
+      "vantagens_opcionais": [
+        "Idiomas",
+        "Fascinar",
+        "Contatos"
+      ],
+      "prioridades": [
+        "habilidade:Int",
+        "pericia:Investigação",
+        "defesa:Vontade",
+        "pericia:Percepção",
+        "habilidade:Pro",
+        "pericia:Especialidade: Línguas Antigas",
+        "habilidade:Vig",
+        "defesa:Esquiva"
+      ],
+      "sugestoes": {
+        "motivacoes": [
+          "Justiça",
+          "Conhecimento",
+          "Curiosidade Macabra",
+          "Proteção de Inocentes",
+          "Dever Profissional"
+        ],
+        "complicacoes": [
+          {
+            "nome": "Fobia",
+            "detalhe": "Pavor paralisante de escuridão ou espaços fechados."
+          },
+          {
+            "nome": "Mania",
+            "detalhe": "Registrar obsessivamente tudo o que vê em anotações cifradas."
+          },
+          {
+            "nome": "Paranoia",
+            "detalhe": "Desconfia que figuras nas sombras o estão seguindo."
+          },
+          {
+            "nome": "Obsessão",
+            "detalhe": "Não consegue abandonar um enigma ou manuscrito proibido."
+          }
+        ]
+      },
+      "focos": [
+        {
+          "id": "arquivista",
+          "nome": "Arquivista",
+          "descricao": "Encontra qualquer registro ou documento em minutos.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Investigação"
+          ],
+          "armas": [],
+          "itens": []
+        },
+        {
+          "id": "obras_raras",
+          "nome": "Curador de Obras Raras",
+          "descricao": "Conhece os títulos proibidos do Mythos e seus riscos.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Especialidade: Ocultismo"
+          ],
+          "armas": [],
+          "itens": []
+        }
+      ],
+      "armas": {
+        "principais": [
+          "pistola_bolso_32"
+        ],
+        "secundarias": [
+          "faca_bowie"
+        ]
+      },
+      "itens": {
+        "essenciais": [
+          "caderno_caneta",
+          "lupa"
+        ],
+        "opcionais": [
+          "lanterna_eletrica",
+          "mochila_couro"
+        ]
+      }
+    },
+    {
+      "id": "diletante",
+      "nome": "Diletante",
+      "conceito": "Herdeiro afortunado com muito dinheiro e curiosidade mórbida por clubes secretos e expedições exóticas.",
+      "vantagens_essenciais": [
+        "Benefício (Riqueza)",
+        "Contatos"
+      ],
+      "vantagens_opcionais": [
+        "Atraente",
+        "Bem Relacionado",
+        "Fascinar"
+      ],
+      "prioridades": [
+        "habilidade:Pre",
+        "pericia:Persuasão",
+        "defesa:Esquiva",
+        "habilidade:Int",
+        "pericia:Veículos",
+        "pericia:Percepção",
+        "habilidade:Agi",
+        "defesa:Vontade"
+      ],
+      "sugestoes": {
+        "motivacoes": [
+          "Justiça",
+          "Conhecimento",
+          "Curiosidade Macabra",
+          "Proteção de Inocentes",
+          "Dever Profissional"
+        ],
+        "complicacoes": [
+          {
+            "nome": "Fobia",
+            "detalhe": "Pavor paralisante de escuridão ou espaços fechados."
+          },
+          {
+            "nome": "Mania",
+            "detalhe": "Registrar obsessivamente tudo o que vê em anotações cifradas."
+          },
+          {
+            "nome": "Paranoia",
+            "detalhe": "Desconfia que figuras nas sombras o estão seguindo."
+          },
+          {
+            "nome": "Obsessão",
+            "detalhe": "Não consegue abandonar um enigma ou manuscrito proibido."
+          }
+        ]
+      },
+      "focos": [
+        {
+          "id": "herdeiro",
+          "nome": "Alta Sociedade",
+          "descricao": "Influência nas altas rodas políticas e financeiras.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Persuasão"
+          ],
+          "armas": [],
+          "itens": []
+        },
+        {
+          "id": "aventureiro",
+          "nome": "Aventureiro Esportivo",
+          "descricao": "Pilota carros de corrida e financia safáris misteriosos.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Veículos",
+            "pericia:Atletismo"
+          ],
+          "armas": [],
+          "itens": []
+        }
+      ],
+      "armas": {
+        "principais": [
+          "revolver_38",
+          "pistola_colt_45",
+          "escopeta_12"
+        ],
+        "secundarias": [
+          "faca_bowie"
+        ]
+      },
+      "itens": {
+        "essenciais": [
+          "terno_tres_pecas",
+          "relogio_bolso",
+          "isqueiro_cigarros"
+        ],
+        "opcionais": [
+          "camera_fotografica",
+          "binoculos"
+        ]
+      }
+    },
+    {
+      "id": "clero",
+      "nome": "Membro do Clero",
+      "conceito": "Sacerdote ou pastor confrontado com horrores cósmicos que desafiam todas as escrituras sagradas da humanidade.",
+      "vantagens_essenciais": [
+        "Inspirar",
+        "Destemido"
+      ],
+      "vantagens_opcionais": [
+        "Bem Informado",
+        "Idiomas",
+        "Liderança"
+      ],
+      "prioridades": [
+        "habilidade:Pro",
+        "defesa:Vontade",
+        "pericia:Especialidade: Teologia",
+        "pericia:Persuasão",
+        "habilidade:Int",
+        "pericia:Intuição",
+        "habilidade:Vig",
+        "defesa:Fortitude"
+      ],
+      "sugestoes": {
+        "motivacoes": [
+          "Justiça",
+          "Conhecimento",
+          "Curiosidade Macabra",
+          "Proteção de Inocentes",
+          "Dever Profissional"
+        ],
+        "complicacoes": [
+          {
+            "nome": "Fobia",
+            "detalhe": "Pavor paralisante de escuridão ou espaços fechados."
+          },
+          {
+            "nome": "Mania",
+            "detalhe": "Registrar obsessivamente tudo o que vê em anotações cifradas."
+          },
+          {
+            "nome": "Paranoia",
+            "detalhe": "Desconfia que figuras nas sombras o estão seguindo."
+          },
+          {
+            "nome": "Obsessão",
+            "detalhe": "Não consegue abandonar um enigma ou manuscrito proibido."
+          }
+        ]
+      },
+      "focos": [
+        {
+          "id": "padre",
+          "nome": "Padre Erudito",
+          "descricao": "Instruído em latim e no combate ao oculto e herético.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Especialidade: Teologia",
+            "pericia:Especialidade: Ocultismo"
+          ],
+          "armas": [],
+          "itens": []
+        },
+        {
+          "id": "pastor",
+          "nome": "Pregador de Comunidade",
+          "descricao": "Voz poderosa que ampara fiéis atormentados pelo medo.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Persuasão"
+          ],
+          "armas": [],
+          "itens": []
+        }
+      ],
+      "armas": {
+        "principais": [
+          "pistola_bolso_32",
+          "revolver_38"
+        ],
+        "secundarias": [
+          "cassetete"
+        ]
+      },
+      "itens": {
+        "essenciais": [
+          "caderno_caneta",
+          "relogio_bolso"
+        ],
+        "opcionais": [
+          "lanterna_eletrica",
+          "mochila_couro"
+        ]
+      }
+    },
+    {
+      "id": "escritor",
+      "nome": "Escritor",
+      "conceito": "Autor de contos macabros e histórias policiais para revistas pulp, cujos pesadelos começam a se manifestar na vigília.",
+      "vantagens_essenciais": [
+        "Fascinar",
+        "Memória Eidética"
+      ],
+      "vantagens_opcionais": [
+        "Contatos",
+        "Bem Informado",
+        "Idiomas"
+      ],
+      "prioridades": [
+        "habilidade:Int",
+        "pericia:Especialidade: Literatura",
+        "defesa:Vontade",
+        "pericia:Percepção",
+        "habilidade:Pro",
+        "pericia:Intuição",
+        "habilidade:Vig",
+        "defesa:Esquiva"
+      ],
+      "sugestoes": {
+        "motivacoes": [
+          "Justiça",
+          "Conhecimento",
+          "Curiosidade Macabra",
+          "Proteção de Inocentes",
+          "Dever Profissional"
+        ],
+        "complicacoes": [
+          {
+            "nome": "Fobia",
+            "detalhe": "Pavor paralisante de escuridão ou espaços fechados."
+          },
+          {
+            "nome": "Mania",
+            "detalhe": "Registrar obsessivamente tudo o que vê em anotações cifradas."
+          },
+          {
+            "nome": "Paranoia",
+            "detalhe": "Desconfia que figuras nas sombras o estão seguindo."
+          },
+          {
+            "nome": "Obsessão",
+            "detalhe": "Não consegue abandonar um enigma ou manuscrito proibido."
+          }
+        ]
+      },
+      "focos": [
+        {
+          "id": "romancista",
+          "nome": "Romancista Policial",
+          "descricao": "Trama teorias dedutivas afiadas.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Investigação"
+          ],
+          "armas": [],
+          "itens": []
+        },
+        {
+          "id": "poeta_gotico",
+          "nome": "Poeta Gótico",
+          "descricao": "Fascinado pelo grotesco, cemitérios e lendas esquecidas.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Especialidade: Ocultismo"
+          ],
+          "armas": [],
+          "itens": []
+        }
+      ],
+      "armas": {
+        "principais": [
+          "pistola_bolso_32",
+          "revolver_38"
+        ],
+        "secundarias": [
+          "faca_bowie"
+        ]
+      },
+      "itens": {
+        "essenciais": [
+          "maquina_escrever",
+          "caderno_caneta"
+        ],
+        "opcionais": [
+          "relogio_bolso",
+          "isqueiro_cigarros"
+        ]
+      }
+    },
+    {
+      "id": "parapsicologo",
+      "nome": "Parapsicólogo",
+      "conceito": "Pesquisador acadêmico ou independente devotado ao registro científico de aparições, telepatia e sessões espíritas.",
+      "vantagens_essenciais": [
+        "Bem Informado",
+        "Artífice"
+      ],
+      "vantagens_opcionais": [
+        "Destemido",
+        "Contatos",
+        "Transe"
+      ],
+      "prioridades": [
+        "habilidade:Int",
+        "pericia:Especialidade: Ocultismo",
+        "pericia:Investigação",
+        "defesa:Vontade",
+        "pericia:Percepção",
+        "habilidade:Pro",
+        "defesa:Esquiva",
+        "habilidade:Vig"
+      ],
+      "sugestoes": {
+        "motivacoes": [
+          "Justiça",
+          "Conhecimento",
+          "Curiosidade Macabra",
+          "Proteção de Inocentes",
+          "Dever Profissional"
+        ],
+        "complicacoes": [
+          {
+            "nome": "Fobia",
+            "detalhe": "Pavor paralisante de escuridão ou espaços fechados."
+          },
+          {
+            "nome": "Mania",
+            "detalhe": "Registrar obsessivamente tudo o que vê em anotações cifradas."
+          },
+          {
+            "nome": "Paranoia",
+            "detalhe": "Desconfia que figuras nas sombras o estão seguindo."
+          },
+          {
+            "nome": "Obsessão",
+            "detalhe": "Não consegue abandonar um enigma ou manuscrito proibido."
+          }
+        ]
+      },
+      "focos": [
+        {
+          "id": "pesquisador_psiquico",
+          "nome": "Pesquisador Psíquico",
+          "descricao": "Registra evidências com gravações e instrumentos de precisão.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Especialidade: Ocultismo"
+          ],
+          "armas": [],
+          "itens": [
+            "gravador_fonografo"
+          ]
+        },
+        {
+          "id": "desmistificador",
+          "nome": "Desmistificador de Médiuns",
+          "descricao": "Revela truques de charlatães e mecanismos secretos.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Enganação",
+            "pericia:Tecnologia"
+          ],
+          "armas": [],
+          "itens": []
+        }
+      ],
+      "armas": {
+        "principais": [
+          "revolver_38",
+          "pistola_bolso_32"
+        ],
+        "secundarias": [
+          "faca_bowie"
+        ]
+      },
+      "itens": {
+        "essenciais": [
+          "camera_fotografica",
+          "lanterna_eletrica"
+        ],
+        "opcionais": [
+          "lupa",
+          "caderno_caneta"
+        ]
+      }
+    },
+    {
+      "id": "enfermeira",
+      "nome": "Enfermeira",
+      "conceito": "Profissional obstinada de hospitais e ambulatórios, acostumada a tratar infecções bizarras e delírios febris.",
+      "vantagens_essenciais": [
+        "Tolerância Maior",
+        "Duro de Matar"
+      ],
+      "vantagens_opcionais": [
+        "Trabalho em Equipe",
+        "Contatos",
+        "Inspirar"
+      ],
+      "prioridades": [
+        "habilidade:Pro",
+        "pericia:Tratamento",
+        "pericia:Intuição",
+        "defesa:Vontade",
+        "pericia:Percepção",
+        "habilidade:Vig",
+        "defesa:Fortitude",
+        "defesa:Esquiva"
+      ],
+      "sugestoes": {
+        "motivacoes": [
+          "Justiça",
+          "Conhecimento",
+          "Curiosidade Macabra",
+          "Proteção de Inocentes",
+          "Dever Profissional"
+        ],
+        "complicacoes": [
+          {
+            "nome": "Fobia",
+            "detalhe": "Pavor paralisante de escuridão ou espaços fechados."
+          },
+          {
+            "nome": "Mania",
+            "detalhe": "Registrar obsessivamente tudo o que vê em anotações cifradas."
+          },
+          {
+            "nome": "Paranoia",
+            "detalhe": "Desconfia que figuras nas sombras o estão seguindo."
+          },
+          {
+            "nome": "Obsessão",
+            "detalhe": "Não consegue abandonar um enigma ou manuscrito proibido."
+          }
+        ]
+      },
+      "focos": [
+        {
+          "id": "hospitalar",
+          "nome": "Enfermeira de Hospital",
+          "descricao": "Administra medicamentos, sedativos e cuidados intensivos.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Tratamento"
+          ],
+          "armas": [],
+          "itens": []
+        },
+        {
+          "id": "veterana_guerra",
+          "nome": "Enfermeira da Grande Guerra",
+          "descricao": "Resiliente sob fogo cruzado e acostumada ao caos.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Atletismo",
+            "defesa:Fortitude"
+          ],
+          "armas": [],
+          "itens": []
+        }
+      ],
+      "armas": {
+        "principais": [
+          "pistola_bolso_32"
+        ],
+        "secundarias": [
+          "faca_bowie"
+        ]
+      },
+      "itens": {
+        "essenciais": [
+          "maleta_medica",
+          "lanterna_eletrica"
+        ],
+        "opcionais": [
+          "relogio_bolso",
+          "cantil"
+        ]
+      }
+    },
+    {
+      "id": "advogado",
+      "nome": "Advogado",
+      "conceito": "Causídico eloquente e perspicaz, acostumado a disputas jurídicas, testamentos de famílias abastadas e contratos arcanos.",
+      "vantagens_essenciais": [
+        "Bem Relacionado",
+        "Contatos"
+      ],
+      "vantagens_opcionais": [
+        "Fascinar",
+        "Bem Informado",
+        "Zombar"
+      ],
+      "prioridades": [
+        "habilidade:Int",
+        "pericia:Especialidade: Direito",
+        "pericia:Persuasão",
+        "defesa:Vontade",
+        "habilidade:Pre",
+        "pericia:Intuição",
+        "defesa:Esquiva",
+        "habilidade:Vig"
+      ],
+      "sugestoes": {
+        "motivacoes": [
+          "Justiça",
+          "Conhecimento",
+          "Curiosidade Macabra",
+          "Proteção de Inocentes",
+          "Dever Profissional"
+        ],
+        "complicacoes": [
+          {
+            "nome": "Fobia",
+            "detalhe": "Pavor paralisante de escuridão ou espaços fechados."
+          },
+          {
+            "nome": "Mania",
+            "detalhe": "Registrar obsessivamente tudo o que vê em anotações cifradas."
+          },
+          {
+            "nome": "Paranoia",
+            "detalhe": "Desconfia que figuras nas sombras o estão seguindo."
+          },
+          {
+            "nome": "Obsessão",
+            "detalhe": "Não consegue abandonar um enigma ou manuscrito proibido."
+          }
+        ]
+      },
+      "focos": [
+        {
+          "id": "criminalista",
+          "nome": "Criminalista",
+          "descricao": "Defende clientes acusados de crimes bizarros.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Intimidação"
+          ],
+          "armas": [],
+          "itens": []
+        },
+        {
+          "id": "civil",
+          "nome": "Direito Civil e Sucessões",
+          "descricao": "Desvenda testamentos, propriedades confiscadas e cláusulas ocultas.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Investigação"
+          ],
+          "armas": [],
+          "itens": []
+        }
+      ],
+      "armas": {
+        "principais": [
+          "pistola_bolso_32",
+          "revolver_38"
+        ],
+        "secundarias": [
+          "cassetete"
+        ]
+      },
+      "itens": {
+        "essenciais": [
+          "mochila_couro",
+          "caderno_caneta"
+        ],
+        "opcionais": [
+          "terno_tres_pecas",
+          "relogio_bolso"
+        ]
+      }
+    },
+    {
+      "id": "criminoso",
+      "nome": "Criminoso",
+      "conceito": "Operador do submundo da Lei Seca, perito em burlar a vigilância policial, arrombar trancas e transportar cargas ilícitas.",
+      "vantagens_essenciais": [
+        "Contatos",
+        "Esconder-se à Plena Vista"
+      ],
+      "vantagens_opcionais": [
+        "Saque Rápido",
+        "Iniciativa Aprimorada",
+        "Duro de Matar"
+      ],
+      "prioridades": [
+        "habilidade:Agi",
+        "pericia:Furtividade",
+        "pericia:Combate à Distância: Pistolas",
+        "defesa:Esquiva",
+        "pericia:Prestidigitação",
+        "pericia:Enganação",
+        "habilidade:Des",
+        "habilidade:Vig"
+      ],
+      "sugestoes": {
+        "motivacoes": [
+          "Justiça",
+          "Conhecimento",
+          "Curiosidade Macabra",
+          "Proteção de Inocentes",
+          "Dever Profissional"
+        ],
+        "complicacoes": [
+          {
+            "nome": "Fobia",
+            "detalhe": "Pavor paralisante de escuridão ou espaços fechados."
+          },
+          {
+            "nome": "Mania",
+            "detalhe": "Registrar obsessivamente tudo o que vê em anotações cifradas."
+          },
+          {
+            "nome": "Paranoia",
+            "detalhe": "Desconfia que figuras nas sombras o estão seguindo."
+          },
+          {
+            "nome": "Obsessão",
+            "detalhe": "Não consegue abandonar um enigma ou manuscrito proibido."
+          }
+        ]
+      },
+      "focos": [
+        {
+          "id": "contrabandista",
+          "nome": "Contrabandista da Lei Seca",
+          "descricao": "Pilota caminhões velozes e foge de patrulhas.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Veículos"
+          ],
+          "armas": [],
+          "itens": []
+        },
+        {
+          "id": "arrombador",
+          "nome": "Ladrão de Cofres",
+          "descricao": "Abre cofres e fechaduras no escuro.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Tecnologia"
+          ],
+          "armas": [
+            "dinamite"
+          ],
+          "itens": []
+        }
+      ],
+      "armas": {
+        "principais": [
+          "revolver_38",
+          "pistola_colt_45",
+          "submetralhadora_thompson"
+        ],
+        "secundarias": [
+          "soqueira",
+          "faca_bowie"
+        ]
+      },
+      "itens": {
+        "essenciais": [
+          "gazuas",
+          "lanterna_eletrica"
+        ],
+        "opcionais": [
+          "pe_de_cabra",
+          "mochila_couro"
+        ]
+      }
+    }
+  ],
+  "_equipamento": "Armas e itens de 1920 sorteados pelo orçamento inicial em dólares."
+}

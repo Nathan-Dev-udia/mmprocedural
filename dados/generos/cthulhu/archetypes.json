@@ -1,0 +1,96 @@
+[
+  {
+    "id": "cultista",
+    "nome": "Cultista do Mythos",
+    "nomes": "humano",
+    "capanga": true,
+    "np_maximo": 4,
+    "descricao": "Fanático corrompido pelas promessas de entidades cósmicas. Usa túnica cerimonial e ataca com fúria cega.",
+    "faixas": [
+      {
+        "np": 2,
+        "nome": "Iniciado do Culto",
+        "fonte": "Chamado de Cthulhu / M&M",
+        "status_dados": "validado",
+        "observacao": "Fanático de apoio armado de adaga ritual.",
+        "ficha": {
+          "habilidades": {
+            "For": 1,
+            "Vig": 1,
+            "Agi": 1,
+            "Des": 0,
+            "Lut": 1,
+            "Int": 0,
+            "Pro": 0,
+            "Pre": 0
+          },
+          "defesas_compradas": {
+            "Esquiva": 1,
+            "Fortitude": 1,
+            "Vontade": 1
+          },
+          "pericias": {
+            "Combate Corpo-a-Corpo: Facas": 1,
+            "Furtividade": 2,
+            "Enganação": 2
+          },
+          "vantagens": {
+            "Destemido": 1,
+            "Equipamento": 1
+          },
+          "equipamento": [
+            "faca_bowie"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "policial_ronda",
+    "nome": "Policial de Ronda",
+    "nomes": "humano",
+    "capanga": true,
+    "np_maximo": 5,
+    "descricao": "Guarda fardado de patrulha urbana na cidade dos anos 20.",
+    "faixas": [
+      {
+        "np": 3,
+        "nome": "Guarda de Rua",
+        "fonte": "Chamado de Cthulhu / M&M",
+        "status_dados": "validado",
+        "observacao": "Equipado com cassetete e revólver regulamentar.",
+        "ficha": {
+          "habilidades": {
+            "For": 1,
+            "Vig": 1,
+            "Agi": 1,
+            "Des": 1,
+            "Lut": 1,
+            "Int": 0,
+            "Pro": 1,
+            "Pre": 0
+          },
+          "defesas_compradas": {
+            "Esquiva": 1,
+            "Aparar": 1,
+            "Fortitude": 1,
+            "Vontade": 1
+          },
+          "pericias": {
+            "Combate à Distância: Pistolas": 2,
+            "Percepção": 2,
+            "Intimidação": 2
+          },
+          "vantagens": {
+            "Iniciativa Aprimorada": 1,
+            "Equipamento": 2
+          },
+          "equipamento": [
+            "revolver_38",
+            "cassetete"
+          ]
+        }
+      }
+    ]
+  }
+]

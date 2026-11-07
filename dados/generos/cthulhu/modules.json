@@ -1,0 +1,117 @@
+[
+  {
+    "id": "fanatico_com_punhal",
+    "nome": "Fanático com Punhal",
+    "epiteto": "o Fanático",
+    "descricao": "Ataca em transe religioso sem hesitar diante do perigo.",
+    "tatica": "Avança diretamente contra o alvo mais próximo com a faca em punho.",
+    "tags": [
+      "combate",
+      "corpo-a-corpo"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "cultista"
+    ],
+    "status_dados": "validado",
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Intimidação": 2
+      },
+      "vantagens": {
+        "Ataque Poderoso": 1
+      }
+    }
+  },
+  {
+    "id": "cultista_ocultista",
+    "nome": "Iniciado no Oculto",
+    "epiteto": "o Conjurador",
+    "descricao": "Conhece símbolos blasfemos e passagens secretas do templo.",
+    "tatica": "Usa fumaça e dissimulação para escapar ou preparar emboscadas.",
+    "tags": [
+      "utilidade",
+      "ocultismo"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "cultista"
+    ],
+    "status_dados": "validado",
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Especialidade: Ocultismo": 2,
+        "Enganação": 2
+      }
+    }
+  },
+  {
+    "id": "tira_veterano",
+    "nome": "Tira Veterano",
+    "epiteto": "o Veterano",
+    "descricao": "Endurecido por anos de ronda noturna nos becos da metrópole.",
+    "tatica": "Busca cobertura e mantém os olhos bem abertos para emboscadas.",
+    "tags": [
+      "combate",
+      "defesa"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "policial_ronda"
+    ],
+    "status_dados": "validado",
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Investigação": 2
+      },
+      "vantagens": {
+        "Rolamento Defensivo": 1
+      }
+    }
+  },
+  {
+    "id": "guarda_escopeta",
+    "nome": "Guarda com Escopeta",
+    "epiteto": "o Guarda de Choque",
+    "descricao": "Armado com escopeta de repetição pesada para conter distúrbios graves.",
+    "tatica": "Dispara tiros espalhados para dispersar turbas e cultistas fanáticos.",
+    "tags": [
+      "combate",
+      "distancia"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "policial_ronda"
+    ],
+    "status_dados": "validado",
+    "papel": "ambos",
+    "substitui": {
+      "equipamento": {
+        "revolver_38": "escopeta_12"
+      }
+    },
+    "adiciona": {
+      "pericias": {
+        "Atletismo": 2
+      },
+      "vantagens": {
+        "Equipamento": 1
+      }
+    }
+  }
+]

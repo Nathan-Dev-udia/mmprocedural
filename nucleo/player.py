@@ -91,10 +91,10 @@ def _conferir_quantidades(dados, ids, quantidades):
 
 
 def vantagens_do_jogador(dados):
-    """Vantagens que fazem sentido numa ficha de PJ (no faroeste, só as que combinam com o gênero)."""
-    faroeste = dados["genero"]["id"] == "faroeste"
+    """Vantagens que fazem sentido numa ficha de PJ (no faroeste/cthulhu, só as que combinam com o gênero)."""
+    realista = dados["genero"]["id"] in ("faroeste", "cthulhu")
     return [v for v in dados["vantagens_detalhes"]
-            if v["nome"] not in VANTAGENS_FORA_DO_PJ and not (faroeste and v.get("faroeste") == "Não combina")]
+            if v["nome"] not in VANTAGENS_FORA_DO_PJ and not (realista and v.get("faroeste") == "Não combina")]
 
 
 def equipamento_em_pontos(dados):
@@ -873,6 +873,20 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
     regras = dict(opcoes, orcamento=orcamento)
     relatorio = validator.validar(ficha, np, dados["equipamentos"], regras)
 
+    sanidade_info = None
+    if dados["configuracoes"].get("sanidade"):
+        from . import sanidade
+        vontade_total = relatorio["valores"]["defesas"]["Vontade"]
+        grad_mythos = ficha.get("pericias", {}).get("Especialidade: Mythos de Cthulhu", 0)
+        san_ini = sanidade.sanidade_inicial(vontade_total)
+        san_max = sanidade.sanidade_maxima(grad_mythos)
+        sanidade_info = {
+            "inicial": san_ini,
+            "atual": san_ini,
+            "maxima": san_max,
+        }
+        ficha["sanidade"] = sanidade_info
+
     if not nome:
         lista_de_nomes = dados["nomes"].get((raca or {}).get("nomes", "humano"), dados["nomes"]["humano"])
         nome = f"{rng.choice(lista_de_nomes['nomes'])} {rng.choice(lista_de_nomes['sobrenomes'])}"
@@ -926,6 +940,7 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
         "descricao": f"{arquetipo['conceito']} {foco['descricao']}",
         "tatica": foco["descricao"],
         "complicacoes": complicacoes,
+        "sanidade": sanidade_info,
         "dinheiro": dinheiro,
         "pontos_de_equipamento": pontos_de_equipamento,
         "implantes": {"instalados": instalados, "fora": implantes_fora} if tem_implantes else None,
