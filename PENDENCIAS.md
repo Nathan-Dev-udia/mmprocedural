@@ -37,8 +37,8 @@ Rascunho do que ficou para depois (atualizado na versão 1.7.0).
     7. Shoggoth (NP 9, Aberração, Bruto / Chefe Solo, Tamanho Enorme)
   - Filtro por gênero "Chamado de Cthulhu" na aba do Bestiário, rotas de API, exportação DOCX agrupada/multi-cópia e geração de PDFs editáveis.
 - **Revisão de regras (10/11/2026):** escudo, página de Sanidade e bestiário alinhados ao M&M 3e e ao CoC 7e. As tabelas de Sanidade (acessos, durações, recuperação, ponto de ruptura) têm fonte única em `nucleo/sanidade.py`. As criaturas ganharam o campo `sanidade` (perda "x/y"). O cultista usa "Especialidade: Mythos de Cthulhu", que reduz a SAN máxima.
-- **A conferir no livro:** a regra de Moribundo segue o faroeste (CD 10, +1 por teste, três sucessos estabilizam); o livro básico pode usar outra. A tabela d10 de acessos com efeitos em condições de M&M foi redigida para o projeto.
-- **Faroeste (achado na revisão):** a Aflição põe Desatento no 1º grau (é de 3º) e o alvo caído dá "+2 à distância" (no M&M 3e é –5).
+- **Regra própria do projeto:** a tabela d10 de acessos de loucura com efeitos em condições de M&M foi redigida para o projeto (não vem do livro).
+- **Escudos conferidos com o livro básico (Moribundo, Caído, Aflição):** faroeste e Cthulhu usavam Moribundo com CD 10 (+1) e três sucessos; agora seguem o livro e os Livros do Mestre (Fortitude CD 15, dois graus de sucesso estabilizam, três graus de falha somados matam). A Aflição usa a tabela do livro (três graus) também na fantasia, e Caído dá –5 à distância contra o alvo.
 - **Próximos passos opcionais:** Livro do Jogador/Mestre de Cthulhu e Escudo do Mestre para Cyberpunk.
 
 ## Outros

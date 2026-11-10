@@ -432,7 +432,7 @@
         {
           "tipo": "tabela",
           "titulo": "Aflição: condição por grau de falha",
-          "nota": "O efeito escolhe as condições de cada grau. A cada rodada, o alvo faz um salvamento para se livrar.",
+          "nota": "O efeito define uma condição para cada grau; graus mais altos substituem os mais baixos. No fim de cada turno, o alvo faz um salvamento para tirar as condições de 1º e 2º grau; as de 3º grau exigem um minuto ou ajuda (Tratamento CD 10 + graduação).",
           "colunas": [
             "Grau de falha",
             "Condições possíveis"
@@ -440,19 +440,15 @@
           "linhas": [
             [
               "1º grau (falha por 1 a 5)",
-              "Desatento, impedido, prejudicado ou vulnerável"
+              "Tonto, em transe, fatigado, impedido, prejudicado ou vulnerável"
             ],
             [
               "2º grau (falha por 6 a 10)",
-              "Atordoado, caído, desabilitado, imobilizado ou surdo"
+              "Atordoado, caído, compelido, desabilitado, exausto, imóvel ou vulnerável"
             ],
             [
               "3º grau (falha por 11 a 15)",
-              "Incapacitado, controlado, dominado ou cego"
-            ],
-            [
-              "4º grau (falha por 16 ou mais)",
-              "Condição contínua permanente ou morte"
+              "Adormecido, controlado, desatento, incapacitado, paralisado ou transformado"
             ]
           ]
         },
@@ -507,7 +503,7 @@
             ],
             [
               "Caído",
-              "–5 em ataques corpo a corpo; –2 no corpo a corpo contra ele; +2 à distância contra ele; rasteja a 1 m."
+              "Impedido; –5 em ataques corpo a corpo; atacantes têm +5 corpo a corpo e –5 à distância (cobertura). Levantar: ação de movimento."
             ],
             [
               "Cego",
@@ -551,7 +547,7 @@
             ],
             [
               "Moribundo",
-              "Incapacitado; a cada rodada faz teste de Fortitude CD 10 (+1 por teste) ou morre."
+              "Incapacitado; Fortitude CD 15 na hora e a cada rodada: dois graus de sucesso estabilizam, três graus de falha somados matam."
             ],
             [
               "Prejudicado",
@@ -605,7 +601,7 @@
           "tipo": "lista",
           "titulo": "Moribundo e recuperação",
           "itens": [
-            "**Moribundo:** no faroeste realista, um tiro que derruba (4 graus de falha) deixa o herói Moribundo na poeira. A cada rodada, Fortitude CD 10 (+1 por teste). Com três sucessos ele estabiliza; uma falha causa a morte.",
+            "**Moribundo:** no faroeste realista, um tiro que derruba (4 graus de falha) deixa o herói Moribundo na poeira. Ele faz Fortitude CD 15 na hora e a cada rodada: um sucesso não muda nada, dois graus de sucesso estabilizam e três graus de falha somados (em um ou mais testes) causam a morte.",
             "**Estabilizar:** um aliado treinado em Tratamento pode estabilizá-lo com um teste contra CD 15 (ação padrão).",
             "**Recuperação lenta [Casa]:** sem atendimento médico e repouso, cada ferimento demora 1 dia para recuperar. Com sucesso em Tratamento e repouso absoluto, recupera 1 ferimento a cada 8 horas."
           ]

@@ -231,7 +231,7 @@ CONDICOES = {
             "colunas": ["Grau de falha", "Condições possíveis"],
             "linhas": [
                 ["1º grau (falha por 1 a 5)", "Tonto, em transe, fatigado, impedido, prejudicado ou vulnerável"],
-                ["2º grau (falha por 6 a 10)", "Atordoado, caído, compelido, desabilitado, exausto, imóvel ou indefeso"],
+                ["2º grau (falha por 6 a 10)", "Atordoado, caído, compelido, desabilitado, exausto, imóvel ou vulnerável"],
                 ["3º grau (falha por 11 a 15)", "Adormecido, controlado, desatento, incapacitado, paralisado ou transformado"],
             ],
         },
@@ -264,7 +264,7 @@ CONDICOES = {
                 ["Impedido", "Velocidade –1 (deslocamento pela metade)."],
                 ["Incapacitado", "Indefeso, atordoado e desatento; cai inconsciente."],
                 ["Indefeso", "Esquiva e Aparar 0; quem ataca pode usar teste de rotina."],
-                ["Moribundo", "Incapacitado; a cada rodada faz Fortitude CD 10 (+1 por teste) ou morre."],
+                ["Moribundo", "Incapacitado; Fortitude CD 15 na hora e a cada rodada: dois graus de sucesso estabilizam, três graus de falha somados matam."],
                 ["Prejudicado", "–2 em testes daquela característica."],
                 ["Tonto", "Só ações livres e uma ação padrão por turno."],
                 ["Vulnerável", "Esquiva e Aparar pela metade (arredondado para cima)."],
@@ -287,8 +287,8 @@ CONDICOES = {
             "tipo": "lista",
             "titulo": "Moribundo e recuperação",
             "itens": [
-                "**Moribundo:** quem leva o 4º grau de dano letal cai moribundo. A cada rodada, Fortitude CD 10 (+1 por "
-                "teste). Com três sucessos ele estabiliza; uma falha causa a morte.",
+                "**Moribundo:** quem leva o 4º grau de dano letal cai moribundo. Fortitude CD 15 na hora e a cada rodada: "
+                "um sucesso não muda nada, dois graus de sucesso estabilizam e três graus de falha somados causam a morte.",
                 "**Estabilizar:** um aliado treinado em Tratamento estabiliza o ferido com um teste contra CD 15 (ação "
                 "padrão).",
                 "**Recuperação [Casa]:** sem atendimento, cada ferimento leva 1 dia para sumir. Com Tratamento e repouso "
