@@ -174,3 +174,61 @@ def test_exportacao_pdf_cthulhu_inclui_sanidade(cthulhu):
         assert "REGISTRO DE SANIDADE" in texto_p3
         assert "RASTREADOR DE PONTOS DE SANIDADE" in texto_p3
         assert "TABELA DE ACESSOS DE LOUCURA" in texto_p3
+
+
+@pytest.mark.parametrize("genero", ["cthulhu", "faroeste"])
+def test_itens_extras_nao_viram_vantagens(genero):
+    """Regressão: os itens extras do sorteio de equipamento entravam na ficha como vantagens (e custavam PP)."""
+    dados = data_loader.carregar_genero(genero)
+    riquezas = dados["jogador"]["riqueza"]
+    riqueza = (riquezas[2]["id"] if isinstance(riquezas, list) else list(riquezas)[2])
+    for arq_id, arq in dados["jogador"]["arquetipos"].items():
+        for semente in range(3):
+            npc = player.gerar_personagem(dados, arq_id, 3, arq["focos"][0]["id"], riqueza, _complicacoes(),
+                                          rng=random.Random(semente))
+            desconhecidas = [v for v in npc["ficha"]["vantagens"] if rules.nome_base(v) not in dados["vantagens"]]
+            assert not desconhecidas, f"{arq_id}: {desconhecidas}"
+
+
+def test_sanidade_da_ficha_respeita_maxima_do_mythos():
+    ficha = {"pericias": {sanidade.PERICIA_MYTHOS: 8}}
+    san = sanidade.sanidade_da_ficha(6, ficha)
+    assert san["maxima"] == 59
+    assert san["inicial"] == san["atual"] == 59
+    assert sanidade.sanidade_da_ficha(2, {"pericias": {}}) == {"inicial": 55, "atual": 55, "maxima": 99}
+
+
+def test_ponto_de_ruptura_bate_com_insanidade_indefinida():
+    for san in (1, 5, 37, 62, 99):
+        ruptura = sanidade.ponto_de_ruptura(san)
+        assert sanidade.insanidade_indefinida(ruptura, san)
+        assert not sanidade.insanidade_indefinida(ruptura - 1, san)
+    assert sanidade.ponto_de_ruptura(62) == 13
+
+
+def test_pagina_de_sanidade_usa_a_ficha_e_a_ruptura_certa(cthulhu):
+    from nucleo import sanidade_pdf
+    pj = gerar_investigador(cthulhu, "professor", np=3)
+    pj["sanidade"] = {"inicial": 62, "atual": 62, "maxima": 99}
+    assert sanidade_pdf._sanidade_do_personagem(pj)["ruptura_diaria"] == 13
+    sem_registro = dict(pj, sanidade=None, ficha={**pj["ficha"], "sanidade": None,
+                                                  "pericias": {sanidade.PERICIA_MYTHOS: 8}})
+    calculada = sanidade_pdf._sanidade_do_personagem(sem_registro)
+    assert calculada["maxima"] == 59 and calculada["inicial"] <= 59
+
+
+def test_pagina_de_sanidade_cabe_numa_folha_com_complicacoes_longas(cthulhu):
+    import io
+    from pypdf import PdfReader
+    from nucleo import sanidade_pdf
+    longa = "Desconfia de qualquer autoridade, sobretudo de policiais e padres que fazem perguntas demais. " * 3
+    complicacoes = _complicacoes() + [{"categoria": "complicacao", "nome": nome, "detalhe": longa}
+                                      for nome in ("Paranoia", "Mania", "Obsessão", "Pesadelos")]
+    arq = cthulhu["jogador"]["arquetipos"]["professor"]
+    pj = player.gerar_personagem(cthulhu, "professor", 5, arq["focos"][0]["id"], "classe_media", complicacoes,
+                                 rng=random.Random(3))
+    leitor = PdfReader(io.BytesIO(sanidade_pdf.gerar_pagina_sanidade(pj)))
+    assert len(leitor.pages) == 1
+    texto = leitor.pages[0].extract_text()
+    assert "Jogador: Jogador" not in texto
+    assert "REGISTRO DIÁRIO DE SANIDADE" in texto

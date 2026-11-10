@@ -17,12 +17,12 @@
     "Bibliotecas ocultistas particulares"
   ],
   "descricao": "O mestre de cerimônias da seita profana. Portador de fragmentos traduzidos de grimórios como o Necronomicon ou o De Vermis Mysteriis, comanda os servos mortais e canaliza energias das abominações além das estrelas.",
-  "tatica": "Permanece atrás de seus acólitos e fanáticos, entoando encantamentos que abalam a mente dos heróis e conjurando rajadas de escuridão viva. Recorre à adaga cerimonial sacrificial apenas se encurralado.",
+  "tatica": "Permanece atrás de seus acólitos e fanáticos, entoando encantamentos que abalam a mente dos heróis e conjurando rajadas de escuridão viva. Recorre à adaga sacrificial apenas se encurralado.",
   "complicacoes": [
     "Obsessão Apocalíptica: devotado a despertar as divindades adormecidas, mesmo que isso destrua a Terra.",
     "Orgulho Sacerdotal: recusa-se a fugir se seu altar sagrado for profanado."
   ],
-  "fonte": "Chamado de Cthulhu (7ª Edição) & M&M 3e Supernatural Handbook",
+  "fonte": "Chamado de Cthulhu (7ª edição), sacerdotes de culto; ficha montada sem bloco de estatísticas, adaptado para M&M 3e",
   "ficha": {
     "habilidades": {
       "For": 0,
@@ -42,7 +42,7 @@
       "Vontade": 6
     },
     "pericias": {
-      "Especialidade: Ocultismo": 8,
+      "Especialidade: Mythos de Cthulhu": 8,
       "Intimidação": 6,
       "Enganação": 6,
       "Intuição": 4,
@@ -59,43 +59,32 @@
     ],
     "poderes": [
       {
-        "nome": "Maldição do Vazio",
-        "construcao": "Dano 5 (À Distância, Místico / Necrótico)."
-      },
-      {
-        "nome": "Onda de Loucura Cósmica",
-        "construcao": "Aflição 5 (resistida por Vontade; Pasmo, Atordoado, Incapacitado), Área Cone (18 m)."
+        "nome": "Feitiços do Vazio",
+        "construcao": "Arranjo. Maldição do Vazio: Dano 5, À Distância (descritor: energia mística do vazio cósmico). Efeito alternativo, 1 PP — Onda de Loucura Cósmica: Aflição 5 (resistida por Vontade; Tonto, Atordoado, Incapacitado), Área Cone."
       },
       {
         "nome": "Barreira Mística dos Antigos",
-        "construcao": "Proteção 3 (Sustentado)."
+        "construcao": "Proteção 3, Sustentado."
       }
     ],
     "ataques": [
       {
         "nome": "Adaga Sacrificial Ondulada",
         "bonus": 5,
-        "dano": 5,
+        "dano": 1,
         "critico": 19,
-        "descricao": "Dano 5 (místico e perfurante) com gume cerimonial entalhado"
+        "descricao": "Corpo a corpo, perfurante; Força 0 + adaga 1"
       },
       {
         "nome": "Maldição do Vazio",
         "bonus": 5,
         "dano": 5,
         "critico": 20,
-        "descricao": "À distância, energia do vácuo cósmico"
-      },
-      {
-        "nome": "Onda de Loucura Cósmica",
-        "bonus": 0,
-        "dano": 5,
-        "critico": 20,
-        "descricao": "Área Cone 18 m; Aflição 5 (CD 15 de Vontade; Pasmo / Atordoado / Incapacitado)"
+        "descricao": "À distância, energia mística do vazio"
       }
     ],
     "equipamento": [
-      "Adaga sacrificial ondulada",
+      "Adaga sacrificial ondulada (Dano 1, Crítico 19-20)",
       "Manto de seda negra com insígnias douradas",
       "Tomo de rituais com anotações em latim"
     ]

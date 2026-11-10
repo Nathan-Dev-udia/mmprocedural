@@ -11,18 +11,19 @@
   "chefe": false,
   "tamanho": "Médio",
   "nivel_poder": 5,
+  "sanidade": "0/1D6",
   "ambientes": [
     "Profundezas oceânicas",
     "Costas rochosas e recifes isolados",
     "Portos decadentes (como Innsmouth)"
   ],
-  "descricao": "Criatura anfíbia semi-humanoide com cabeça de peixe ou batráquio, olhos protuberantes e vítreos que jamais piscam, guelras pulsantes na garganta e membranas interdigitais. Sua pele verde-acinzentada brilha com uma camada mucosa oleosa.",
-  "tatica": "Ataca em emboscadas coordenadas partindo da água. Arrasta oponentes para o fundo do mar ou rios, onde ganha vantagem absoluta de mobilidade e sufocamento.",
+  "descricao": "Criatura anfíbia semi-humanoide com cabeça de peixe ou batráquio, olhos protuberantes e vítreos que jamais piscam, guelras pulsantes na garganta e membranas interdigitais. Sua pele verde-acinzentada brilha com uma camada mucosa oleosa. Não envelhece: os mais antigos têm milhares de anos.",
+  "tatica": "Ataca em emboscadas coordenadas partindo da água. Agarra oponentes e os arrasta para o fundo do mar ou de rios, onde se move com muito mais facilidade e a vítima se afoga.",
   "complicacoes": [
     "Dependência de Água: resseca-se e enfraquece gravemente se passar dias longe de água salgada.",
-    "Devoção Absoluta: reverência inabalável ao Pai Dagon, à Mãe Hydra e ao Grande Cthulhu."
+    "Devoção Absoluta: reverência inabalável ao Pai Dagon, à Mãe Hidra e ao Grande Cthulhu."
   ],
-  "fonte": "H.P. Lovecraft (A Sombra sobre Innsmouth) & Chamado de Cthulhu (7ª Edição)",
+  "fonte": "H. P. Lovecraft (A Sombra sobre Innsmouth) e Chamado de Cthulhu (7ª edição), adaptado para M&M 3e",
   "ficha": {
     "habilidades": {
       "For": 4,
@@ -45,24 +46,24 @@
       "Atletismo": 6,
       "Percepção": 4,
       "Furtividade": 4,
-      "Combate Corpo-a-Corpo: Garras e Tridente": 1
+      "Combate Corpo-a-Corpo: Garras": 1
     },
     "vantagens": [
       "Luta no Chão",
-      "Empunhadura Aprimorada",
+      "Agarrar Aprimorado",
       "Equipamento 1"
     ],
     "poderes": [
       {
-        "nome": "Anfíbio Abissal",
-        "construcao": "Imunidade 3 (Afogamento, Frio Oceânico, Pressão das Profundezas)."
+        "nome": "Anfíbio Abissal e Imortal",
+        "construcao": "Imunidade 4 (envelhecimento, afogamento, frio intenso, alta pressão)."
       },
       {
         "nome": "Natação Veloz",
-        "construcao": "Natação 3 (15 km/h)."
+        "construcao": "Natação 4 (velocidade 2: 30 m por rodada, cerca de 18 km/h)."
       },
       {
-        "nome": "Couraça Escamosa e Borrachuda",
+        "nome": "Couraça Escamosa e Emborrachada",
         "construcao": "Proteção 2."
       },
       {
@@ -72,22 +73,22 @@
     ],
     "ataques": [
       {
-        "nome": "Garras Lacradoras",
-        "bonus": 5,
-        "dano": 5,
-        "critico": 19,
-        "descricao": "Corpo a corpo, cortante baseado em Força"
-      },
-      {
-        "nome": "Tridente Profano",
+        "nome": "Garras Laceradoras",
         "bonus": 5,
         "dano": 5,
         "critico": 20,
-        "descricao": "Corpo a corpo, perfurante"
+        "descricao": "Corpo a corpo, cortante; Força 4 + garras 1; pode agarrar"
+      },
+      {
+        "nome": "Tridente Profano",
+        "bonus": 4,
+        "dano": 6,
+        "critico": 20,
+        "descricao": "Corpo a corpo, perfurante; Força 4 + tridente 2"
       }
     ],
     "equipamento": [
-      "Tridente de bronze trabalhado com motivos blasfemos"
+      "Tridente de bronze trabalhado com motivos blasfemos (Dano 2)"
     ]
   }
 }

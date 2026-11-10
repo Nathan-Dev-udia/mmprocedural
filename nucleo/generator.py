@@ -17,6 +17,7 @@ from collections import Counter
 
 from . import escalar
 from . import rules
+from . import sanidade
 from . import validator
 
 SECOES_NUMERICAS = ("habilidades", "defesas_compradas", "pericias", "vantagens")
@@ -281,16 +282,7 @@ def gerar_npc(dados, arquetipo_id, np, estilo_id, rng,
 
         sanidade_info = None
         if dados["configuracoes"].get("sanidade"):
-            from . import sanidade
-            vontade_total = relatorio["valores"]["defesas"]["Vontade"]
-            grad_mythos = ficha.get("pericias", {}).get("Especialidade: Mythos de Cthulhu", 0)
-            san_ini = sanidade.sanidade_inicial(vontade_total)
-            san_max = sanidade.sanidade_maxima(grad_mythos)
-            sanidade_info = {
-                "inicial": san_ini,
-                "atual": san_ini,
-                "maxima": san_max,
-            }
+            sanidade_info = sanidade.sanidade_da_ficha(relatorio["valores"]["defesas"]["Vontade"], ficha)
             ficha["sanidade"] = sanidade_info
 
         repetida = chave in combinacoes_usadas

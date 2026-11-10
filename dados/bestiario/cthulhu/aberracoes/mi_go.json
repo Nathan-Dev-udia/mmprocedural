@@ -7,22 +7,23 @@
   "nome": "Mi-Go",
   "tipo": "Aberração",
   "subtipo": "Mi-Go",
-  "papel": "Conjurador / Voador",
+  "papel": "Artilharia / Emboscador",
   "chefe": false,
   "tamanho": "Médio",
   "nivel_poder": 6,
+  "sanidade": "0/1D6",
   "ambientes": [
-    "Montanhas isoladas de Vermont e Himalaia",
+    "Montanhas isoladas de Vermont e do Himalaia",
     "Minas e cavernas profundas",
-    "Vácuo interestelar e bases em Plutão"
+    "Vácuo interestelar e bases em Yuggoth (Plutão)"
   ],
-  "descricao": "Um ser alienígena com consistência fungosa e carapaça crustácea rosada, dotado de múltiplos pares de membros articulados, asas membranosas capazes de viajar pelo éter interestelar e uma cabeça convoluta sem rosto, cercada de pequenas antenas ciliadas que pulsam com luzes policromáticas.",
-  "tatica": "Usa a mobilidade aérea e ataques à distância com seus projetores elétricos. Se engajado em combate próximo, tenta desarmar e imobilizar o oponente para capturá-lo para extração cirúrgica de cérebro.",
+  "descricao": "Um ser alienígena com consistência fúngica e carapaça crustácea rosada, dotado de múltiplos pares de membros articulados, asas membranosas capazes de atravessar o éter interestelar e uma cabeça convoluta sem rosto, cercada de antenas curtas que pulsam com cores. Cirurgiões sem igual, levam cérebros humanos vivos em cilindros metálicos até Yuggoth.",
+  "tatica": "Usa a mobilidade aérea e o projetor elétrico à distância. Em combate próximo, agarra o oponente com as pinças e o anestesia para capturá-lo vivo.",
   "complicacoes": [
-    "Estranheza Fotográfica: sua matéria não emite nem reflete a luz de forma comum, aparecendo desfocado ou invisível em emulsões fotográficas comuns.",
-    "Vulnerabilidade Sônica: frequências de ressonância acústica específicas perturbam suas antenas sensoriais."
+    "Estranheza Fotográfica: sua matéria não reflete a luz de forma comum; aparece desfocado ou não aparece em fotografias.",
+    "Desprezo Clínico: vê humanos como espécimes e prefere capturar a matar, mesmo quando isso o expõe."
   ],
-  "fonte": "H.P. Lovecraft (A Coisa no Nevoeiro) & Chamado de Cthulhu (7ª Edição)",
+  "fonte": "H. P. Lovecraft (Um Sussurro nas Trevas) e Chamado de Cthulhu (7ª edição), adaptado para M&M 3e",
   "ficha": {
     "habilidades": {
       "For": 3,
@@ -53,28 +54,28 @@
     "vantagens": [
       "Inventor",
       "Trabalho em Equipe",
-      "Ataque à Distância 3"
+      "Agarrar Aprimorado"
     ],
     "poderes": [
       {
         "nome": "Projetor Elétrico Alienígena",
-        "construcao": "Dano 6 (À Distância, Balístico / Energia)."
+        "construcao": "Dano 6, À Distância (descritor elétrico); Removível (dispositivo)."
       },
       {
         "nome": "Asas do Éter",
-        "construcao": "Voo 3 (250 m por rodada); Movimento 1 (Adaptação Espacial)."
+        "construcao": "Voo 3 (60 m por rodada, cerca de 36 km/h); Movimento 1 (Viagem Espacial: dentro do sistema solar)."
       },
       {
-        "nome": "Fisiologia Extraterrestre Quase-Fúngica",
-        "construcao": "Imunidade 6 (Sufocamento, Vácuo, Frio Extremo, Radiação); Proteção 3."
+        "nome": "Fisiologia Extraterrestre Quase Fúngica",
+        "construcao": "Imunidade 6 (sufocamento, frio intenso, alta pressão, radiação, vácuo); Proteção 3."
       },
       {
-        "nome": "Cirurgia Extratora de Cérebros",
-        "construcao": "Aflição 6 (resistida por Fortitude; Tonto, Atordoado, Incapacitado); Permite transplante para cilindro metálico em vítimas indefesas."
+        "nome": "Toxina Anestésica",
+        "construcao": "Aflição 6 (resistida por Fortitude; Tonto, Atordoado, Incapacitado), Ligado a Pinças Articuladas."
       },
       {
-        "nome": "Comunicação Ciliada Óptica",
-        "construcao": "Comunicação 1 (Sensorial Óptico por vibração luminosa de antenas); Sentidos 3 (Visão no Escuro, Sentido Eletromagnético)."
+        "nome": "Antenas Luminosas",
+        "construcao": "Comunicação 1 (visual: pulsos de cor das antenas); Sentidos 4 (Visão no Escuro, Detectar Eletricidade à distância)."
       }
     ],
     "ataques": [
@@ -83,7 +84,7 @@
         "bonus": 6,
         "dano": 4,
         "critico": 20,
-        "descricao": "Corpo a corpo, cortante e contundente; agarra a vítima"
+        "descricao": "Corpo a corpo, cortante; Força 3 + pinças 1; pode agarrar + Aflição 6 (CD 16 de Fortitude; Tonto / Atordoado / Incapacitado)"
       },
       {
         "nome": "Projetor Elétrico Alienígena",
@@ -94,6 +95,7 @@
       }
     ],
     "equipamento": [
+      "Projetor elétrico alienígena (Dano 6, à distância)",
       "Cilindro metálico preservador de cérebros",
       "Instrumentos cirúrgicos alienígenas"
     ]

@@ -93,6 +93,9 @@ def _adicionar_criatura(doc, dados, resumo, nome):
     _titulo_de_secao(doc, "Vantagens")
     doc.add_paragraph(", ".join(f.get("vantagens", [])) or "Nenhuma.")
 
+    if dados.get("sanidade"):
+        _paragrafo(doc, "Sanidade", bestiario.texto_da_sanidade(dados["sanidade"]))
+
     if dados.get("complicacoes"):
         _titulo_de_secao(doc, "Complicações")
         for complicacao in dados["complicacoes"]:

@@ -1,349 +1,590 @@
-"""Gera o arquivo dados/escudo/cthulhu.json para o Escudo do Mestre de Chamado de Cthulhu."""
+"""Gera o arquivo dados/escudo/cthulhu.json para o Escudo do Mestre de Chamado de Cthulhu.
+
+As regras de M&M seguem os escudos de fantasia e faroeste; os textos de Sanidade (acessos de loucura, estados de
+loucura e recuperação) vêm de nucleo/sanidade.py, a mesma fonte da página de Sanidade do PDF da ficha.
+
+Uso: python ferramentas/criar_cthulhu_escudo.py
+"""
 
 import json
+import sys
 from pathlib import Path
 
-DESTINO = Path(__file__).resolve().parent.parent / "dados" / "escudo" / "cthulhu.json"
+RAIZ = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(RAIZ))
 
-escudo_cthulhu = {
-  "_fonte": "Resumo das regras de Chamado de Cthulhu 7ª edição adaptadas para Mutantes & Malfeitores 3ª edição. Os blocos 'gerado' são calculados por nucleo/escudo.py.",
-  "genero": "cthulhu",
-  "titulo": "Escudo do Mestre: Chamado de Cthulhu",
-  "abas": [
-    {
-      "id": "testes",
-      "nome": "Testes",
-      "blocos": [
+from nucleo import sanidade  # noqa: E402
+
+DESTINO = RAIZ / "dados" / "escudo" / "cthulhu.json"
+
+# ---------------------------------------------------------------- Testes
+
+TESTES = {
+    "id": "testes",
+    "nome": "Testes",
+    "blocos": [
         {
-          "tipo": "formulas",
-          "titulo": "Fórmulas básicas",
-          "itens": [
-            "**Teste** = d20 + graduação + modificadores, contra a CD",
-            "**Rotina** = 10 + graduação (sem pressão imediata; só com treino na perícia)",
-            "**Ataque** = d20 + bônus de ataque, contra defesa ativa + 10 (Aparar corpo a corpo, Esquiva à distância)",
-            "**Salvamento contra efeito** = d20 + defesa, contra 10 + graduação",
-            "**Salvamento contra dano** = d20 + Resistência, contra 15 + Dano",
-            "**Teste de Sanidade** = d100 contra a Sanidade atual (rolar menor ou igual para ter sucesso)"
-          ]
+            "tipo": "formulas",
+            "titulo": "Fórmulas",
+            "itens": [
+                "**Teste** = d20 + graduação + modificadores, contra a CD",
+                "**Rotina** = 10 + graduação (sem pressão; só com treino na perícia)",
+                "**Ataque** = d20 + bônus de ataque, contra defesa + 10 (Aparar corpo a corpo, Esquiva à distância)",
+                "**Salvamento contra efeito** = d20 + defesa, contra 10 + graduação",
+                "**Salvamento contra dano** = d20 + Resistência, contra 15 + Dano",
+                "**Teste de Sanidade** = d100 contra a SAN atual; tirar igual ou menor é sucesso (veja a aba Sanidade)",
+            ],
         },
         {
-          "tipo": "tabela",
-          "titulo": "Classes de dificuldade",
-          "colunas": ["CD", "Dificuldade", "Exemplo nos anos 1920"],
-          "linhas": [
-            ["0", "Muito fácil", "Disparar uma escopeta à queima-roupa contra um monstro imenso imóvel"],
-            ["5", "Fácil", "Encontrar um livro comum ou jornal recente na biblioteca municipal de Arkham"],
-            ["10", "Médio", "Notar pegadas de lama recentes no chão de madeira da cena do crime"],
-            ["15", "Difícil", "Abrir a fechadura do cofre de aço antigo sem ruído durante a noite"],
-            ["20", "Desafiador", "Identificar um dialeto arcaico gravado em tábuas de pedra pré-humanas"],
-            ["25", "Formidável", "Despistar cultistas hostis correndo a pé pelas vielas de Innsmouth sob névoa"],
-            ["30", "Quase impossível", "Traduzir o Necronomicon completo em latim sem gritar ou desmaiar"]
-          ]
+            "tipo": "tabela",
+            "titulo": "Classes de dificuldade",
+            "colunas": ["CD", "Dificuldade", "Exemplo nos anos 1920"],
+            "linhas": [
+                ["0", "Muito fácil", "Achar o endereço de um hotel na lista telefônica"],
+                ["5", "Fácil", "Encontrar um jornal da semana passada na biblioteca municipal de Arkham"],
+                ["10", "Médio", "Notar pegadas de lama recentes no assoalho da cena do crime"],
+                ["15", "Difícil", "Abrir sem ruído a fechadura de um cofre antigo durante a noite"],
+                ["20", "Desafiador", "Identificar um dialeto arcaico gravado em tábuas de pedra pré-humanas"],
+                ["25", "Formidável", "Despistar cultistas a pé pelas vielas de Innsmouth sob a névoa"],
+                ["30", "Heroico", "Convencer o delegado de que o assassino não era humano, sem provas"],
+                ["35", "Super-heroico", "Decifrar sozinho, numa noite, um capítulo inteiro dos Manuscritos Pnakóticos"],
+                ["40", "Quase impossível", "—"],
+            ],
         },
         {
-          "tipo": "tabela",
-          "titulo": "Graus de sucesso e de falha",
-          "colunas": ["Margem", "Sucesso (rolagem ≥ CD)", "Falha (rolagem < CD)"],
-          "linhas": [
-            ["0 a 4", "1º grau: sucesso normal", "1º grau: falha simples sem complicação maior"],
-            ["5 a 9", "2º grau: sucesso com rapidez ou pista extra", "2º grau: falha evidente; perde tempo ou chama atenção"],
-            ["10 a 14", "3º grau: sucesso exemplar; informação oculta", "3º grau: falha grave; quebra ferramenta ou estraga pista"],
-            ["15 ou mais", "4º grau: sucesso crítico perfeito", "4º grau: desastre total; pior consequência da cena"]
-          ]
+            "tipo": "tabela",
+            "titulo": "Graus de sucesso e de falha",
+            "nota": "20 natural: o resultado sobe um grau. Em ataques, 20 sempre acerta e 1 sempre erra.",
+            "colunas": ["Resultado", "Grau"],
+            "linhas": [
+                ["CD + 15 ou mais", "4 graus de sucesso"],
+                ["CD + 10 a + 14", "3 graus de sucesso"],
+                ["CD + 5 a + 9", "2 graus de sucesso"],
+                ["CD a CD + 4", "1 grau de sucesso"],
+                ["CD – 1 a CD – 5", "1 grau de falha"],
+                ["CD – 6 a CD – 10", "2 graus de falha"],
+                ["CD – 11 a CD – 15", "3 graus de falha"],
+                ["CD – 16 ou menos", "4 graus de falha"],
+            ],
         },
         {
-          "tipo": "lista",
-          "titulo": "Perícias investigativas fundamentais",
-          "itens": [
-            "**Investigação:** Buscar pistas minuciosas, impressões digitais, gavetas de fundo falso e papéis queimados.",
-            "**Percepção:** Notar cheiro acre de enxofre ou peixe podre, ouvir sussurros no sótão ou vultos nas janelas.",
-            "**Intuição:** Discernir se um depoimento é sincero, se a testemunha está aterrorizada ou sob transe hipnótico.",
-            "**Tratamento (Medicina Legal):** Autópsia preliminar; distinguir lacerações de faca de mordidas não-humanas.",
-            "**Especialidade: Ocultismo:** Reconhecer símbolos de cultos profanos, grimórios apócrifos e círculos rituais.",
-            "**Especialidade: História / Antiguidades:** Decifrar crônicas coloniais, genealogias e estatuetas de pedra negra."
-          ]
+            "tipo": "lista",
+            "titulo": "Perícias investigativas",
+            "itens": [
+                "**Investigação:** buscar pistas, impressões digitais, gavetas de fundo falso e papéis queimados.",
+                "**Percepção:** notar cheiro de enxofre ou de peixe podre, sussurros no sótão, vultos nas janelas.",
+                "**Intuição:** perceber se a testemunha mente, está aterrorizada ou sob transe hipnótico.",
+                "**Tratamento (medicina legal):** autópsia preliminar; distinguir cortes de faca de mordidas não humanas.",
+                "**Especialidade: Ocultismo:** reconhecer símbolos de cultos, grimórios apócrifos e círculos rituais.",
+                "**Especialidade: Mythos de Cthulhu:** conhecimento proibido; cada graduação baixa 5 pontos da SAN máxima.",
+                "**Especialidade: História / Antiguidades:** decifrar crônicas coloniais, genealogias e estatuetas antigas.",
+            ],
         },
         {
-          "tipo": "lista",
-          "titulo": "Testes opostos e cooperação",
-          "itens": [
-            "**Teste oposto:** Os dois lados rolam; quem tirar a maior graduação de sucesso vence.",
-            "**Trabalho em equipe (Ajuda):** Um aliado rola contra CD 10. Sucesso dá +2 de bônus ao líder (+5 com 3 graus de sucesso); falha por 2 graus impõe –2 de penalidade."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "combate",
-      "nome": "Combate",
-      "blocos": [
-        {
-          "tipo": "tabela",
-          "titulo": "Ações de combate",
-          "colunas": ["Tipo de ação", "Exemplos nos anos 1920"],
-          "linhas": [
-            ["Padrão", "Disparar arma de fogo, golpear com faca ou cassetete, realizar primeiros socorros de emergência."],
-            ["Movimento", "Correr até cobertura, sacar arma do coldre, subir escadaria, manobrar automóvel."],
-            ["Livre", "Gritar um aviso aos companheiros, largar objeto, examinar visualmente o ambiente."],
-            ["Reação", "Teste de Esquiva contra explosivos, teste de Resistência ao ser atingido."]
-          ]
+            "tipo": "tabela",
+            "titulo": "Testes opostos",
+            "nota": "Os dois lados rolam e vence o maior total. Empate: vence quem tem o maior bônus.",
+            "colunas": ["Situação", "Quem age", "Quem resiste"],
+            "linhas": [
+                ["Esgueirar-se pelo porão do templo do culto", "Furtividade", "Percepção"],
+                ["Mentir para o delegado sobre a noite do crime", "Enganação", "Intuição"],
+                ["Disfarçar-se de operário do cais", "Enganação", "Percepção"],
+                ["Bater carteira na estação de trem", "Prestidigitação", "Percepção"],
+                ["Seguir um suspeito pelas ruas sem ser notado", "Furtividade", "Percepção"],
+                ["Intimidar um informante a falar", "Intimidação", "Vontade"],
+                ["Finta numa briga de rua", "Enganação ou Acrobacia", "Intuição ou Esquiva"],
+                ["Agarrar um cultista em fuga", "Ataque desarmado", "Força ou Esquiva"],
+                ["Desarmar um atirador", "Ataque", "Força ou Luta"],
+                ["Esconder um revólver sob o sobretudo", "Prestidigitação", "Percepção"],
+            ],
         },
         {
-          "tipo": "tabela",
-          "titulo": "Manobras de combate",
-          "colunas": ["Manobra", "Ataque", "Efeito / Defesa", "Uso tático"],
-          "linhas": [
-            ["Ataque Acurado", "+1 ou +2", "–1 ou –2 no Dano", "Mirar em ponto vulnerável do monstro"],
-            ["Ataque Defensivo", "–1 ou –2", "+1 ou +2 nas defesas ativas", "Recuar com cautela buscando abrigo"],
-            ["Ataque Poderoso", "–1 ou –2", "+1 ou +2 no Dano", "Golpe com força total contra barreira"],
-            ["Ataque Imprudente", "+1 ou +2", "–1 ou –2 nas defesas ativas", "Desespero absoluto para abater o alvo"],
-            ["Mirar", "Gasta ação de mov.", "+2 de ataque (+5 se gastar rodada)", "Tiro de fuzil Springfield com apoio"]
-          ]
+            "tipo": "lista",
+            "titulo": "Modificadores e ajuda",
+            "itens": [
+                "**Circunstância:** +2 ou –2 para uma pequena vantagem ou desvantagem; +5 ou –5 para uma grande.",
+                "**Ferramentas:** sem a ferramenta certa (gazuas, maleta médica, reagentes), –5; improvisada, –2.",
+                "**Teste de equipe:** os ajudantes fazem o mesmo teste contra CD 10. Um grau de sucesso dá +2 ao "
+                "líder; três graus ou mais, +5; dois graus de falha, –2.",
+                "**Pesquisa em arquivo:** horas de leitura viram teste de rotina; com pressa, role contra a CD.",
+            ],
         },
-        {
-          "tipo": "lista",
-          "titulo": "Regras de armas de fogo e tiroteios",
-          "itens": [
-            "**Revólveres e Pistolas:** Alcances de 15 m (curto), 30 m (médio) e 60 m (longo). Ágeis em corredores e becos.",
-            "**Escopeta calibre 12:** Dano 5 à distância. A curta distância (até 7,5 m), causa estrago devastador.",
-            "**Thompson .45 (Submetralhadora):** Multiataque (+2 de Dano com 2 graus de acerto, +5 com 3 graus de acerto contra um alvo; ou rajada espalhada em área).",
-            "**Dinamite:** Dano 5 em área de explosão; Esquiva CD 15 para sofrer metade do dano.",
-            "**Cobertura:** Parcial (+2 na Esquiva) atrás de postes e caixotes; Total (+5 na Esquiva e Resistência do obstáculo) atrás de blocos de motor ou muros de alvenaria."
-          ]
-        },
-        {
-          "tipo": "lista",
-          "titulo": "Iniciativa e capangas",
-          "itens": [
-            "**Iniciativa** = d20 + Agilidade + vantagens (Iniciativa Aprimorada dá +4).",
-            "**Surpresa:** Se um lado não percebe a emboscada, fica Indefeso durante a primeira rodada e não age.",
-            "**Cultistas e Capangas:** Não fazem acertos críticos contra investigadores; qualquer falha num salvamento aplica o pior grau da consequência."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "condicoes",
-      "nome": "Condições",
-      "blocos": [
-        {
-          "tipo": "tabela",
-          "titulo": "Dano e salvamentos de Resistência",
-          "colunas": ["Falha por", "Grau", "Efeito na vítima"],
-          "linhas": [
-            ["1 a 4", "1º grau", "Machucado: –1 cumulativo em futuros testes de Resistência contra Dano."],
-            ["5 a 9", "2º grau", "Machucado e Atordoado (perde a próxima ação)."],
-            ["10 a 14", "3º grau", "Machucado e Cambaleando (limitado a uma única ação padrão ou de movimento)."],
-            ["15 ou mais", "4º grau", "Incapacitado (desacordado, indefeso e incapaz de agir). Se o dano for letal: Moribundo."]
-          ]
-        },
-        {
-          "tipo": "tabela",
-          "titulo": "Aflição e choque",
-          "colunas": ["Grau de falha", "Exemplos mentais", "Exemplos físicos"],
-          "linhas": [
-            ["1º grau", "Transe, Confuso ou Prejudicado", "Lentidão, Desatento ou Vulnerável"],
-            ["2º grau", "Compelido, Histérico ou Indefeso", "Impedido, Atordoado ou Imóvel"],
-            ["3º grau", "Controlado, Em Pânico ou Em Choque", "Incapacitado, Paralisado ou Inconsciente"]
-          ]
-        },
-        {
-          "tipo": "lista",
-          "titulo": "Moribundo e estabilização",
-          "itens": [
-            "**Estado Moribundo:** Rola Fortitude CD 15 a cada rodada. Falha piora a condição; 3 falhas causam a morte.",
-            "**Primeiros Socorros:** Aliado com perícia Tratamento e maleta médica estabiliza o ferido com teste CD 15.",
-            "**Cirurgia e Repouso:** Cada dia de descanso completo em hospital ou sob cuidados médicos recupera 1 grau de ferimento."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "sanidade",
-      "nome": "Sanidade & Horror",
-      "blocos": [
-        {
-          "tipo": "tabela",
-          "titulo": "Perda típica de Sanidade por horror",
-          "colunas": ["Encontro ou Manifestação", "Sucesso", "Fracasso", "Máx. da Espécie"],
-          "linhas": [
-            ["Cadáver grotescamente mutilado", "0", "1D4", "4"],
-            ["Presenciar ritual com sacrifício humano", "0", "1D6", "6"],
-            ["Carniçal (Ghoul) ou Profundo (Deep One)", "0", "1D6", "6"],
-            ["Mi-Go (Fungo alienígena de Yuggoth)", "0", "1D6", "6"],
-            ["Criatura Insubstancial / Poltergeist", "1", "1D8", "8"],
-            ["Shoggoth ou Cria Estelar de Cthulhu", "1D6", "1D20", "20"],
-            ["Avatar de Nyarlathotep ou Cthulhu", "1D10", "1D100", "100"],
-            ["Descobrir que parente ou amigo é um monstro", "1", "1D10", "10"]
-          ],
-          "nota": "Regra de acostumar-se: após sofrer a perda máxima listada para uma espécie, o investigador não perde mais Sanidade contra ela."
-        },
-        {
-          "tipo": "formulas",
-          "titulo": "Mecânica do Teste de Sanidade (d100)",
-          "itens": [
-            "**Teste:** Rola d100 contra a **Sanidade Atual**. Rolar ≤ SAN é sucesso; > SAN é fracasso.",
-            "**01:** Sempre Sucesso Crítico (perde zero ou o mínimo absoluto).",
-            "**100:** Sempre Desastre (perde o valor máximo da rolagem de dano mental).",
-            "**SAN < 50:** Com Sanidade abaixo de 50, rolagens de **96 a 100** tornam-se Desastres automáticos."
-          ]
-        },
-        {
-          "tipo": "tabela",
-          "titulo": "Acessos de loucura imediata (1d10)",
-          "colunas": ["d10", "Surto", "Efeito na mesa"],
-          "linhas": [
-            ["1", "Amnésia", "Esquece sua identidade e como foi parar no local; atordoado por 1 rodada."],
-            ["2", "Catatonia", "Desmaia ou congela imóvel em estado de torpor por 1d10 rodadas."],
-            ["3", "Pânico", "Larga o que estiver nas mãos e corre aos berros para a direção oposta."],
-            ["4", "Histeria", "Risos incontroláveis ou gritos agudos; não consegue comunicar-se nem mirar."],
-            ["5", "Alucinações", "Vê paredes derretendo e monstros onde só há sombras; –2 em testes."],
-            ["6", "Paranoia", "Passa a crer que um dos aliados é um cultista traidor; recusa ajuda."],
-            ["7", "Fúria Cega", "Ataca descontroladamente a pessoa ou criatura mais próxima com o que tiver."],
-            ["8", "Ecolalia", "Repete frases desconexas ou profanas em voz alta sem parar."],
-            ["9", "Fobia Súbita", "Ganha fobia aguda de algo no ambiente (água, sangue, insetos, altura)."],
-            ["10", "Fascínio Mórbido", "Aproxima-se da abominação em transe reverente; fica Indefeso."]
-          ],
-          "nota": "Duração: 1d10 rodadas em combate ou 1d10 horas fora de combate."
-        },
-        {
-          "tipo": "lista",
-          "titulo": "Colapso e recuperação",
-          "itens": [
-            "**Insanidade Temporária (Perda ≥ 5 num teste):** Teste de Intelecto d20 + INT vs CD 10. Se passar, compreende a verdade e entra em surto.",
-            "**Insanidade Indefinida (Perda diária ≥ 20%):** Se perder 1/5 da SAN do início do dia, entra em colapso por 1d6 meses e adquire fobia ou mania permanente.",
-            "**Insanidade Permanente (SAN = 0):** A mente colapsa de forma irreversível; o personagem torna-se um NPC do Mestre.",
-            "**Tratamento e Psicanálise:** Sessão semanal de Tratamento CD 15 recupera 1d3 de Sanidade. Falha crítica custa 1d3 de SAN ao terapeuta."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "viagem",
-      "nome": "Viagem",
-      "blocos": [
-        {
-          "tipo": "formulas",
-          "titulo": "Fórmulas de locomoção",
-          "itens": [
-            "**Tempo** = graduação de distância – graduação de Velocidade",
-            "**Distância** = graduação de velocidade + graduação de tempo",
-            "**Ritmo normal a pé:** 5 km/h, cerca de 38 km por dia de marcha contínua de 8 horas."
-          ]
-        },
-        {
-          "tipo": "gerado",
-          "fonte": "tempo_de_viagem"
-        },
-        {
-          "tipo": "gerado",
-          "fonte": "montarias"
-        },
-        {
-          "tipo": "gerado",
-          "fonte": "carga"
-        },
-        {
-          "tipo": "tabela",
-          "titulo": "Trens e viagens na Nova Inglaterra (anos 20)",
-          "colunas": ["Trecho / Rota", "Meio de transporte", "Tempo estimado", "Preço passagem"],
-          "linhas": [
-            ["Boston a Arkham", "Trem expresso de passageiros", "1 hora e meia", "$1,50"],
-            ["Arkham a Innsmouth", "Ônibus rural decrépito de Joe Sargent", "1 hora", "$0,75"],
-            ["Arkham a Kingsport", "Trem local ou automóvel", "45 minutos", "$0,80"],
-            ["Arkham a Dunwich", "Estrada de terra esburacada (carro)", "3 horas", "$2,00 (gasolina)"],
-            ["Boston a New York", "Linha férrea principal interestadual", "5 horas", "$6,00"],
-            ["New York a Liverpool", "Transatlântico a vapor (classe turística)", "6 a 7 dias", "$100,00"]
-          ]
-        }
-      ]
-    },
-    {
-      "id": "perigos",
-      "nome": "Perigos",
-      "blocos": [
-        {
-          "tipo": "gerado",
-          "fonte": "queda"
-        },
-        {
-          "tipo": "tabela",
-          "titulo": "Fogo, calor e explosivos",
-          "colunas": ["Perigo", "Dano por rodada", "Resistência", "Efeito adicional"],
-          "linhas": [
-            ["Tocha ou vela", "Dano 1", "CD 16", "Pode inflamar roupas de algodão"],
-            ["Fogueira ou fogão a carvão", "Dano 3", "CD 18", "Queimadura de 2º grau"],
-            ["Prédio em chamas / Incêndio", "Dano 5", "CD 20", "Fumaça densa: asfixia CD 15"],
-            ["Banana de Dinamite (1 unidade)", "Dano 5 em área", "CD 20", "Esquiva CD 15 reduz para metade"],
-            ["Caixa de Dinamite (10 bananas)", "Dano 10 em área", "CD 25", "Desabamento de criptas e paredes"]
-          ]
-        },
-        {
-          "tipo": "lista",
-          "titulo": "Luz, penumbra e escuridão",
-          "itens": [
-            "**Farol de automóvel:** Ilumina cone de 30 metros à frente com luz plena.",
-            "**Lanterna elétrica:** Ilumina raio de 9 metros (6 quadrados); funciona sob chuva moderada.",
-            "**Tocha ou lampião de querosene:** Ilumina raio de 4,5 metros de luz plena e mais 4,5 m de penumbra.",
-            "**Fósforo ou isqueiro:** Luz tênue em raio de 1,5 metro (permite ler uma página ou destrancar fechadura).",
-            "**Penumbra:** Camuflagem parcial (–2 nos ataques visuais à distância).",
-            "**Escuridão total:** Camuflagem total (–5 no ataque; alvos ficam Indefesos contra ataques das sombras)."
-          ]
-        },
-        {
-          "tipo": "gerado",
-          "fonte": "medidas"
-        }
-      ]
-    },
-    {
-      "id": "cidade",
-      "nome": "Cidade & Serviços (1920)",
-      "blocos": [
-        {
-          "tipo": "tabela",
-          "titulo": "Serviços e comunicações da época",
-          "colunas": ["Serviço", "Custo médio", "Tempo de resposta / Observações"],
-          "linhas": [
-            ["Telegrama Western Union", "$0,05 por palavra", "Entregue em poucas horas na cidade"],
-            ["Telefonema interurbano", "$5,00 por 3 min", "Operadora conecta cabos manualmente"],
-            ["Carta por correio expresso", "$0,02", "1 a 2 dias entre cidades do mesmo estado"],
-            ["Diária em hotel de luxo (Boston)", "$8,00 a $12,00", "Quarto amplo, serviço de quarto e telefone"],
-            ["Diária em hotel médio (Arkham)", "$2,50", "Cama confortável e banho no corredor"],
-            ["Pensão barata em cortiço", "$0,75 por noite", "Bairro operário de imigrantes; sem registro"],
-            ["Refeição completa em restaurante", "$0,50 a $1,00", "Café, bife e torta em diner de esquina"],
-            ["Garrafa de uísque ilegal (speakeasy)", "$3,00 a $5,00", "Contrabando da máfia sob a Lei Seca"]
-          ]
-        },
-        {
-          "tipo": "tabela",
-          "titulo": "Instituições e arquivos investigativos",
-          "colunas": ["Local", "O que pesquisar", "Requisito de acesso"],
-          "linhas": [
-            ["Universidade Miskatonic", "Tomos raros, história colonial, química", "Credencial acadêmica ou persuasão"],
-            ["Redação do Arkham Advertiser", "Arquivos de notícias antigas e óbitos", "Contato jornalístico ou gorjeta ao arquivista"],
-            ["Cartório Municipal de Arkham", "Escrituras de imóveis e testamentos", "Taxa pública de $0,50 por busca"],
-            ["Necrotério Municipal de Boston", "Autópsias e relatórios de legistas", "Autoridade policial ou suborno de $2,00"],
-            ["Sanatório Estadual de Danvers", "Prontuários psiquiátricos e pacientes", "Autorização judicial ou visita médica"]
-          ]
-        },
-        {
-          "tipo": "tabela",
-          "titulo": "Honorários e serviços profissionais",
-          "colunas": ["Profissional", "Honorário", "Serviço padrão"],
-          "linhas": [
-            ["Consulta com médico particular", "$3,00", "Visita domiciliar e prescrição de sedativos"],
-            ["Internação em sanatório particular", "$15,00 por dia", "Acomodação reservada e vigilância médica"],
-            ["Detetive particular diarista", "$10,00 por dia", "Vigilância discreta e campanas na cidade"],
-            ["Advogado criminalista (defesa)", "$50,00 a $200,00", "Audiência de fiança e representação judicial"],
-            ["Mecânico de automóveis", "$2,00 a $5,00", "Conserto de motor, troca de pneus e correias"]
-          ]
-        }
-      ]
-    }
-  ]
+    ],
 }
 
-DESTINO.parent.mkdir(parents=True, exist_ok=True)
-DESTINO.write_text(json.dumps(escudo_cthulhu, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-print(f"Gravado {DESTINO}")
+# ---------------------------------------------------------------- Combate
+
+COMBATE = {
+    "id": "combate",
+    "nome": "Combate",
+    "blocos": [
+        {
+            "tipo": "tabela",
+            "titulo": "Ações",
+            "colunas": ["Ação", "Tipo", "Efeito"],
+            "linhas": [
+                ["Agarrar", "Padrão", "Ataque desarmado; o alvo resiste com Força ou Esquiva. 1 grau: restrito; "
+                                      "2 ou mais: amarrado."],
+                ["Ajudar", "Padrão", "Ataque contra CD 10: o aliado ganha +2 no ataque ou na defesa (+5 com três graus)."],
+                ["Desarmar", "Padrão", "Ataque oposto; sucesso faz a arma do inimigo cair no chão."],
+                ["Desengajar", "Movimento", "Sai do combate corpo a corpo sem sofrer ataque."],
+                ["Derrubar", "Padrão", "Rasteira ou empurrão; sucesso deixa o inimigo caído."],
+                ["Dirigir", "Movimento", "Conduz o automóvel até a Velocidade dele; manobras difíceis pedem Veículos."],
+                ["Finta", "Padrão", "Enganação contra Intuição: sucesso deixa o alvo vulnerável no próximo ataque."],
+                ["Imobilizar", "Padrão", "Contra alvo agarrado: teste de Força; sucesso o impede de agir."],
+                ["Lançar dinamite", "Padrão", "Arremesso com estopim aceso; Dano em área de explosão."],
+                ["Mirar", "Padrão", "+5 no próximo ataque à distância (ou +2 se também se mover)."],
+                ["Mover-se", "Movimento", "Desloca-se até a sua Velocidade."],
+                ["Quebrar objeto", "Padrão", "Ataca uma porta, tranca ou cadeado; dano contra a Resistência do material."],
+                ["Recarregar", "Movimento / Padrão", "Pente de pistola: movimento. Revólver bala a bala ou tambor da "
+                                                     "Thompson: padrão [Casa]."],
+                ["Recuperar-se", "Padrão", "Gasta o turno recobrando o fôlego; remove a pior penalidade de dano (1/cena)."],
+                ["Sacar arma", "Movimento", "Saca o revólver; com a vantagem Saque Rápido, vira ação livre."],
+            ],
+        },
+        {
+            "tipo": "tabela",
+            "titulo": "Manobras",
+            "nota": "Com a vantagem de mesmo nome, a troca vai até 5 pontos.",
+            "colunas": ["Manobra", "Efeito"],
+            "linhas": [
+                ["Ataque Acurado", "Até –2 no efeito (dano) para +2 no ataque (tiro no ponto fraco da criatura)."],
+                ["Ataque Poderoso", "Até –2 no ataque para +2 no efeito (golpe com toda a força)."],
+                ["Ataque Defensivo", "Até –2 no ataque para +2 em Esquiva e Aparar (recuar atirando)."],
+                ["Ataque Total", "Até –2 em Esquiva e Aparar para +2 no ataque (atirar a descoberto, em desespero)."],
+                ["Multiataque (Thompson)", "Contra um alvo, 2 graus de acerto dão +2 na CD do salvamento e 3 graus, +5. "
+                                           "Contra vários alvos próximos, divide o ataque entre eles; não é ataque de área."],
+            ],
+        },
+        {
+            "tipo": "tabela",
+            "titulo": "Alcance",
+            "nota": "Pistola .32 (Dano 2): 15 m sem penalidade, 60 m no máximo. Revólver .38 (Dano 3): 22,5 m e 90 m. "
+                    "Colt .45 M1911 e Thompson (Dano 4): 30 m e 120 m. Springfield .30-06 e escopeta (Dano 5): "
+                    "37,5 m e 150 m.",
+            "colunas": ["Alcance", "Distância", "Ataque"],
+            "linhas": [
+                ["Curto", "graduação de dano × 7,5 m", "sem penalidade"],
+                ["Médio", "graduação de dano × 15 m", "–2"],
+                ["Longo", "graduação de dano × 30 m", "–5"],
+            ],
+        },
+        {
+            "tipo": "tabela",
+            "titulo": "Camuflagem e cobertura",
+            "nota": "A cobertura dá o mesmo valor como bônus na Esquiva contra explosões (atrás de um muro de "
+                    "alvenaria, +5 contra a dinamite).",
+            "colunas": ["Situação", "Ataque", "Exemplos"],
+            "linhas": [
+                ["Camuflagem parcial", "–2", "Névoa do porto, fumaça de pólvora, penumbra de um porão"],
+                ["Camuflagem total", "–5", "Escuridão total, cripta sem luz, nevoeiro fechado"],
+                ["Cobertura parcial", "–2", "Poste, caixote, mesa virada, porta do automóvel"],
+                ["Cobertura total", "–5", "Muro de alvenaria, bloco do motor, coluna de pedra"],
+            ],
+        },
+        {
+            "tipo": "lista",
+            "titulo": "Iniciativa, surpresa e capangas",
+            "itens": [
+                "**Iniciativa:** d20 + Agilidade + 4 por graduação de Iniciativa Aprimorada. Empate: Esquiva, depois "
+                "Agilidade, depois Prontidão.",
+                "**Surpresa:** quem é pego de surpresa (emboscada no beco) fica atordoado e vulnerável na rodada de surpresa.",
+                "**Capangas:** cultistas comuns e capangas da máfia não fazem acertos críticos contra os investigadores; "
+                "qualquer falha num salvamento aplica o pior grau do efeito.",
+                "**Armas de área:** a dinamite pede Esquiva CD 10 + graduação; quem passa sofre metade do efeito.",
+            ],
+        },
+        {
+            "tipo": "lista",
+            "titulo": "Esforço extra",
+            "itens": [
+                "Uma vez por turno, ação livre. Escolha: **ação** padrão extra; **+2** num teste (ou +2 vira +5); "
+                "**salvamento** extra contra efeito contínuo; **+1 Velocidade ou Força** por uma rodada.",
+                "**Custo:** o personagem fica fatigado no início do próximo turno (fatigado vira exausto; exausto vira "
+                "incapacitado). Um ponto heroico anula a fadiga.",
+            ],
+        },
+        {
+            "tipo": "lista",
+            "titulo": "Pontos heroicos",
+            "itens": [
+                "**Rolar de novo:** rola outro d20 e fica com o melhor; se tirar 10 ou menos no segundo, soma 10.",
+                "**Recuperar-se:** remove as condições tonto, atordoado ou fatigado.",
+                "**Editar a cena:** acrescenta um detalhe útil à cena (uma janela aberta, um táxi passando).",
+                "**Façanha heroica:** ganha uma vantagem pelo resto da cena.",
+            ],
+        },
+    ],
+}
+
+# ---------------------------------------------------------------- Condições
+
+CONDICOES = {
+    "id": "condicoes",
+    "nome": "Condições e graus",
+    "blocos": [
+        {
+            "tipo": "tabela",
+            "titulo": "Aflição: condição por grau de falha",
+            "nota": "O efeito escolhe as condições de cada grau. A cada rodada, o alvo faz um salvamento para se "
+                    "livrar. Os surtos de loucura não são Aflição: veja a aba Sanidade.",
+            "colunas": ["Grau de falha", "Condições possíveis"],
+            "linhas": [
+                ["1º grau (falha por 1 a 5)", "Tonto, em transe, fatigado, impedido, prejudicado ou vulnerável"],
+                ["2º grau (falha por 6 a 10)", "Atordoado, caído, compelido, desabilitado, exausto, imóvel ou indefeso"],
+                ["3º grau (falha por 11 a 15)", "Adormecido, controlado, desatento, incapacitado, paralisado ou transformado"],
+            ],
+        },
+        {
+            "tipo": "tabela",
+            "titulo": "Dano: padrão e letal",
+            "nota": "Nos anos 1920, tiros, lâminas, garras e mordidas causam dano letal. O 4º grau letal deixa "
+                    "moribundo.",
+            "colunas": ["Salvamento (d20 + Resistência)", "Grau de falha", "Efeito"],
+            "linhas": [
+                ["15 + Dano ou mais", "Sucesso", "Sem efeito."],
+                ["10 + Dano a 14 + Dano", "1º grau", "Ferido: –1 acumulado nos próximos salvamentos contra dano."],
+                ["5 + Dano a 9 + Dano", "2º grau", "Ferido e atordoado: perde a ação do próximo turno."],
+                ["Dano a 4 + Dano", "3º grau", "Ferido e cambaleando (tonto e impedido): só uma ação padrão ou de movimento."],
+                ["Menor que o Dano", "4º grau", "Incapacitado: indefeso e inconsciente. Se letal, fica moribundo."],
+            ],
+        },
+        {
+            "tipo": "tabela",
+            "titulo": "Condições básicas",
+            "colunas": ["Condição", "Efeito"],
+            "linhas": [
+                ["Atordoado", "Não pode agir (nem ações livres)."],
+                ["Caído", "Impedido; –5 em ataques corpo a corpo; atacantes têm +5 corpo a corpo e –5 à distância."],
+                ["Desabilitado", "–5 em testes daquela característica."],
+                ["Desatento", "Não percebe o ambiente nem o perigo; não reage ao que não percebe."],
+                ["Exausto", "Prejudicado e impedido; vira incapacitado se sofrer nova fadiga."],
+                ["Fatigado", "Impedido; vira exausto se sofrer nova fadiga."],
+                ["Imóvel", "Velocidade 0; não pode sair do lugar."],
+                ["Impedido", "Velocidade –1 (deslocamento pela metade)."],
+                ["Incapacitado", "Indefeso, atordoado e desatento; cai inconsciente."],
+                ["Indefeso", "Esquiva e Aparar 0; quem ataca pode usar teste de rotina."],
+                ["Moribundo", "Incapacitado; a cada rodada faz Fortitude CD 10 (+1 por teste) ou morre."],
+                ["Prejudicado", "–2 em testes daquela característica."],
+                ["Tonto", "Só ações livres e uma ação padrão por turno."],
+                ["Vulnerável", "Esquiva e Aparar pela metade (arredondado para cima)."],
+            ],
+        },
+        {
+            "tipo": "tabela",
+            "titulo": "Condições combinadas",
+            "colunas": ["Condição", "Efeito"],
+            "linhas": [
+                ["Amarrado", "Indefeso, imóvel e prejudicado (amarrado ou algemado)."],
+                ["Cambaleando", "Tonto e impedido."],
+                ["Compelido", "Tonto e obrigado a seguir ordens simples da fonte (hipnose, feitiço)."],
+                ["Controlado", "Ações totalmente controladas pela fonte da aflição."],
+                ["Paralisado", "Indefeso, imóvel e fisicamente atordoado; ainda percebe o que acontece."],
+                ["Restrito", "Impedido e vulnerável."],
+            ],
+        },
+        {
+            "tipo": "lista",
+            "titulo": "Moribundo e recuperação",
+            "itens": [
+                "**Moribundo:** quem leva o 4º grau de dano letal cai moribundo. A cada rodada, Fortitude CD 10 (+1 por "
+                "teste). Com três sucessos ele estabiliza; uma falha causa a morte.",
+                "**Estabilizar:** um aliado treinado em Tratamento estabiliza o ferido com um teste contra CD 15 (ação "
+                "padrão).",
+                "**Recuperação [Casa]:** sem atendimento, cada ferimento leva 1 dia para sumir. Com Tratamento e repouso "
+                "num hospital, some 1 ferimento a cada 8 horas.",
+            ],
+        },
+        {
+            "tipo": "tabela",
+            "titulo": "Tratamento (só treinado, com maleta médica)",
+            "nota": "Sem maleta médica, –5. Em combate, ação padrão.",
+            "colunas": ["Procedimento", "CD", "Efeito"],
+            "linhas": [
+                ["Estabilizar moribundo", "15", "O paciente para de morrer e fica incapacitado estável."],
+                ["Reanimar incapacitado", "15", "Remove a condição incapacitado; o paciente fica cambaleando."],
+                ["Cuidar de ferimentos (repouso)", "15", "Remove 1 ferimento a cada 8 horas de repouso."],
+                ["Extrair projétil / cirurgia", "20", "Remove a bala alojada; falha causa 1 ferimento adicional."],
+                ["Tratar veneno ou infecção", "10 + grad.", "+2 nos salvamentos de Fortitude do paciente."],
+                ["Acalmar paciente em acesso de loucura", "15", "Encerra o acesso de loucura (com Especialidade: Psicologia)."],
+            ],
+        },
+    ],
+}
+
+# ---------------------------------------------------------------- Sanidade
+
+SANIDADE = {
+    "id": "sanidade",
+    "nome": "Sanidade & Horror",
+    "blocos": [
+        {
+            "tipo": "formulas",
+            "titulo": "Fórmulas de Sanidade",
+            "itens": [
+                "**SAN inicial** = 45 + 5 × Vontade (no máximo 99, e nunca acima da SAN máxima)",
+                "**SAN máxima** = 99 – 5 × graduação em Especialidade: Mythos de Cthulhu",
+                "**Teste de Sanidade** = d100 contra a SAN atual: igual ou menor é sucesso; maior é falha",
+                "**01:** sempre sucesso (sofre a perda normal do sucesso)",
+                "**100:** sempre desastre (sofre a perda máxima da falha); com SAN abaixo de 50, de 96 a 100",
+                "**Perda de 5 ou mais num teste:** Intelecto d20 + INT contra CD 10. Sucesso: entende o que viu e "
+                "entra em insanidade temporária. Falha: a mente reprime o choque e segue em frente",
+                "**Ponto de ruptura** = 1/5 da SAN do início do dia, arredondado para cima: perder isso ou mais no "
+                "mesmo dia causa insanidade indefinida",
+            ],
+        },
+        {
+            "tipo": "tabela",
+            "titulo": "Perda típica de Sanidade",
+            "colunas": ["Encontro ou descoberta", "Sucesso", "Falha", "Perda máx. (acostumar-se)"],
+            "linhas": [
+                ["Encontrar um cadáver comum", "0", "1D3", "—"],
+                ["Encontrar um cadáver humano mutilado", "1", "1D4+1", "—"],
+                ["Presenciar ritual com sacrifício humano", "0", "1D6", "—"],
+                ["Descobrir que um parente ou amigo é um monstro", "1", "1D10", "—"],
+                ["Carniçal ou Profundo", "0", "1D6", "6"],
+                ["Mi-Go (fungo de Yuggoth)", "0", "1D6", "6"],
+                ["Criatura insubstancial / poltergeist", "1", "1D8", "8"],
+                ["Shoggoth ou Cria Estelar de Cthulhu", "1D6", "1D20", "20"],
+                ["Avatar de Nyarlathotep ou o próprio Cthulhu", "1D10", "1D100", "100"],
+            ],
+            "nota": "Acostumar-se: some tudo o que o investigador já perdeu por um tipo de criatura; quando a soma "
+                    "chega à perda máxima da falha, ele não perde mais SAN por aquele tipo. Eventos (—) sempre custam SAN.",
+        },
+        {
+            "tipo": "tabela",
+            "titulo": "Estados de loucura",
+            "colunas": ["Estado", "Gatilho", "Duração e efeito"],
+            "linhas": [list(e) for e in sanidade.ESTADOS_DE_LOUCURA],
+        },
+        {
+            "tipo": "tabela",
+            "titulo": "Acessos de loucura (d10)",
+            "colunas": ["d10", "Acesso", "Efeito na mesa"],
+            "linhas": [[str(d), nome, efeito] for d, nome, efeito in sanidade.ACESSOS_DE_LOUCURA],
+            "nota": f"Duração: {sanidade.DURACAO_DO_ACESSO}.",
+        },
+        {
+            "tipo": "lista",
+            "titulo": "Recuperação de Sanidade",
+            "itens": list(sanidade.RECUPERACAO_DE_SANIDADE),
+        },
+    ],
+}
+
+# ---------------------------------------------------------------- Viagem
+
+VIAGEM = {
+    "id": "viagem",
+    "nome": "Viagem",
+    "blocos": [
+        {
+            "tipo": "formulas",
+            "titulo": "Fórmulas",
+            "itens": [
+                "**Tempo** = graduação de distância – graduação de Velocidade",
+                "**Distância** = graduação de Velocidade + graduação de tempo",
+                "**Ritmo normal a pé:** 5 km/h, cerca de 38 km num dia de 8 horas de caminhada.",
+                "**Trem:** $1,50 por 50 km (ou fração); o expresso viaja a cerca de 60 km/h com as paradas.",
+            ],
+        },
+        {"tipo": "gerado", "fonte": "tempo_de_viagem"},
+        {"tipo": "gerado", "fonte": "montarias"},
+        {"tipo": "gerado", "fonte": "carga"},
+        {
+            "tipo": "tabela",
+            "titulo": "Trechos na Nova Inglaterra (anos 1920)",
+            "colunas": ["Trecho", "Transporte", "Tempo", "Custo"],
+            "linhas": [
+                ["Boston a Arkham (~40 km)", "Trem de passageiros", "1 hora", "$1,50"],
+                ["Arkham a Innsmouth", "Ônibus decrépito de Joe Sargent", "1 hora", "$0,75"],
+                ["Arkham a Kingsport", "Bonde interurbano", "45 minutos", "$0,25"],
+                ["Arkham a Dunwich", "Automóvel por estrada de terra", "3 horas", "$0,40 (gasolina)"],
+                ["Boston a Nova York (~350 km)", "Trem expresso interestadual", "6 horas", "$10,50"],
+                ["Nova York a Liverpool", "Transatlântico a vapor (classe turística)", "6 a 7 dias", "$100,00"],
+            ],
+            "nota": "Gasolina: cerca de $0,20 o galão (3,8 litros); um Ford T faz uns 8 km por litro.",
+        },
+    ],
+}
+
+# ---------------------------------------------------------------- Perigos
+
+PERIGOS = {
+    "id": "perigos",
+    "nome": "Perigos",
+    "blocos": [
+        {"tipo": "gerado", "fonte": "queda"},
+        {
+            "tipo": "lista",
+            "titulo": "Afogamento, venenos e doenças",
+            "itens": [
+                "**Afogamento:** prende a respiração por 10 rodadas + 2 × Vigor. Depois, Fortitude CD 10 (+1 por "
+                "teste) a cada rodada; uma falha deixa incapacitado; na rodada seguinte, moribundo.",
+                "**Arsênico ou estricnina:** Enfraquecer Vigor graduação 6 (Fortitude CD 16).",
+                "**Clorofórmio no lenço:** Aflição graduação 4 (Fortitude CD 14: tonto, atordoado, inconsciente).",
+                "**Doenças da época:** gripe espanhola (Fortitude CD 15), tuberculose (CD 16), tifo (CD 15).",
+            ],
+        },
+        {
+            "tipo": "tabela",
+            "titulo": "Calor e frio",
+            "nota": "Espiral de Fortitude: CD 10, +1 por teste. Cada falha: fatigado → exausto → incapacitado → "
+                    "moribundo. A vantagem Tolerância Maior dá +5.",
+            "colunas": ["Exposição", "Exemplo", "Teste de Fortitude"],
+            "linhas": [
+                ["Desconfortável", "Noite de outono na mata de Dunwich, sótão abafado no verão", "1 por hora"],
+                ["Intensa", "Nevasca na Nova Inglaterra, sala de caldeiras de um navio", "A cada 10 minutos"],
+                ["Extrema", "Platô antártico, prédio em chamas, água gelada do Atlântico Norte", "A cada minuto"],
+            ],
+        },
+        {
+            "tipo": "tabela",
+            "titulo": "Fogo e explosivos",
+            "colunas": ["Perigo", "Dano", "Resistência", "Efeito adicional"],
+            "linhas": [
+                ["Tocha ou vela", "Dano 1 por rodada", "CD 16", "Pode inflamar roupas de algodão"],
+                ["Fogueira ou fornalha", "Dano 2 por rodada", "CD 17", "As roupas pegam fogo"],
+                ["Prédio em chamas", "Dano 5 por rodada", "CD 20", "Fumaça: espiral de Fortitude a cada minuto"],
+                ["Banana de dinamite", "Dano 5 em área", "CD 20", "Esquiva CD 15 para sofrer metade"],
+                ["Caixa de dinamite (10 bananas)", "Dano 10 em área", "CD 25", "Esquiva CD 20; derruba paredes de cripta"],
+            ],
+        },
+        {
+            "tipo": "tabela",
+            "titulo": "Armadilhas e perigos (exemplos no NP 4)",
+            "nota": "Notar: Percepção CD 15 a 20. Desarmar: Tecnologia com ferramentas; falha por 2 graus dispara o perigo.",
+            "colunas": ["Perigo", "Efeito", "Exemplo"],
+            "linhas": [
+                ["Assoalho podre da casa abandonada", "Queda de 4 m (Dano 2) no porão", "Percepção CD 15 para notar"],
+                ["Dinamite ligada à porta da cripta", "Dano 5 em área (Esquiva CD 15 metade)", "Tecnologia CD 20 para desarmar"],
+                ["Desabamento num túnel sob o cemitério", "Dano 6 em área e soterramento", "Esquiva CD 16 para escapar"],
+                ["Porta que tranca sozinha numa sala que alaga", "Afogamento em 1D6 minutos", "Força CD 20 para arrombar"],
+            ],
+        },
+        {
+            "tipo": "lista",
+            "titulo": "Escuridão e luz",
+            "itens": [
+                "**Farol de automóvel:** ilumina com luz clara cerca de 30 m à frente.",
+                "**Lanterna elétrica:** ilumina com luz clara 9 m; as pilhas duram umas 4 horas [Casa].",
+                "**Lampião de querosene:** luz clara num raio de 9 m e penumbra até 18 m.",
+                "**Fósforo ou isqueiro:** luz fraca a 1,5 m; dá para ler uma página ou achar a fechadura.",
+                "**Penumbra:** camuflagem parcial (–2 em ataques e testes visuais).",
+                "**Escuridão total:** camuflagem total (–5 em ataques e testes visuais).",
+            ],
+        },
+    ],
+}
+
+# ---------------------------------------------------------------- Objetos e medidas
+
+OBJETOS = {
+    "id": "objetos",
+    "nome": "Objetos e medidas",
+    "blocos": [
+        {
+            "tipo": "formulas",
+            "titulo": "Fórmulas",
+            "itens": [
+                "**Arremesso:** distância = Força – massa do objeto",
+                "**Quebrar um objeto:** dano do golpe ou tiro contra a Resistência do material",
+            ],
+        },
+        {
+            "tipo": "tabela",
+            "titulo": "Resistência dos materiais",
+            "nota": "Para alguns centímetros de espessura; +1 a cada vez que a espessura dobra. Cofre de banco: 10 ou mais.",
+            "colunas": ["Material", "Resistência", "Exemplo"],
+            "linhas": [
+                ["Papel, lona, couro fino", "0", "Livro, cortina, capota de lona"],
+                ["Vidro", "1", "Janela, vitrine, frasco de laboratório"],
+                ["Madeira leve", "2", "Porta interna, caixote, estante"],
+                ["Madeira pesada", "3 a 4", "Porta de carvalho, baú antigo, alçapão"],
+                ["Tijolo", "5", "Parede de casa, chaminé"],
+                ["Pedra e concreto", "6 a 7", "Parede de cripta, coluna, muro do cemitério"],
+                ["Ferro", "8", "Grade da cela, portão do mausoléu, algemas"],
+                ["Aço", "10", "Porta de cofre, casco de navio"],
+            ],
+        },
+        {
+            "tipo": "tabela",
+            "titulo": "Tamanho",
+            "nota": "Furtividade e Intimidação são circunstância. Esquiva, Aparar, Força e Vigor contam nos limites do NP.",
+            "colunas": ["Tamanho", "Exemplos", "Furtividade", "Intimidação", "Esquiva e Aparar", "Força e Vigor"],
+            "linhas": [
+                ["Miúdo (–4, ~50 cm)", "Rato, gato, corvo", "+8", "–4", "+4", "Força –2"],
+                ["Pequeno (–3, ~1 m)", "Cachorro, criança", "+4", "–2", "+2", "Força –1"],
+                ["Médio (–2, ~2 m)", "Humano, carniçal, Profundo", "—", "—", "—", "—"],
+                ["Grande (–1, ~4 m)", "Cavalo, automóvel", "–4", "+2", "–2", "+4 (For +2, Vig +2)"],
+                ["Enorme (0, ~8 m)", "Shoggoth, caminhão", "–8", "+4", "–4", "+8"],
+                ["Imenso (1, ~15 m)", "Locomotiva, Cria Estelar", "–12", "+6", "–6", "+12"],
+            ],
+        },
+        {"tipo": "gerado", "fonte": "medidas"},
+    ],
+}
+
+# ---------------------------------------------------------------- Cidade
+
+CIDADE = {
+    "id": "cidade",
+    "nome": "Cidade & Serviços (anos 1920)",
+    "blocos": [
+        {
+            "tipo": "tabela",
+            "titulo": "Serviços e comunicações",
+            "colunas": ["Serviço", "Custo", "Observações"],
+            "linhas": [
+                ["Telegrama Western Union", "$0,05 por palavra", "Entregue em poucas horas na cidade"],
+                ["Telefonema interurbano", "$5,00 por 3 min", "A telefonista conecta a ligação à mão"],
+                ["Carta (selo de 1ª classe)", "$0,02", "1 a 2 dias entre cidades do mesmo estado"],
+                ["Entrega especial (carta urgente)", "$0,12", "Entregue no mesmo dia por mensageiro"],
+                ["Diária em hotel de luxo (Boston)", "$8,00 a $12,00", "Quarto amplo, serviço de quarto e telefone"],
+                ["Diária em hotel médio (Arkham)", "$2,50", "Cama confortável, banheiro no corredor"],
+                ["Pensão barata", "$0,75 por noite", "Bairro operário de imigrantes; ninguém pergunta o nome"],
+                ["Refeição completa em restaurante", "$0,50 a $1,00", "Café, bife e torta numa lanchonete de esquina"],
+                ["Garrafa de uísque ilegal (speakeasy)", "$3,00 a $5,00", "Contrabando sob a Lei Seca"],
+            ],
+        },
+        {
+            "tipo": "tabela",
+            "titulo": "Instituições e arquivos",
+            "colunas": ["Local", "O que pesquisar", "Acesso"],
+            "linhas": [
+                ["Universidade Miskatonic", "Tomos raros, história colonial, química", "Credencial acadêmica ou Persuasão"],
+                ["Redação do Arkham Advertiser", "Notícias antigas e obituários", "Contato na imprensa ou gorjeta ao arquivista"],
+                ["Cartório de Arkham", "Escrituras de imóveis e testamentos", "Taxa de $0,50 por busca"],
+                ["Necrotério de Boston", "Autópsias e laudos do legista", "Autoridade policial ou suborno de $2,00"],
+                ["Hospital Estadual de Danvers", "Prontuários psiquiátricos e pacientes", "Ordem judicial ou visita médica"],
+            ],
+        },
+        {
+            "tipo": "tabela",
+            "titulo": "Honorários e serviços profissionais",
+            "colunas": ["Profissional", "Honorário", "Serviço"],
+            "linhas": [
+                ["Médico particular", "$3,00", "Visita em casa e receita de sedativos"],
+                ["Sanatório particular", "$15,00 por dia", "Quarto reservado e vigilância médica"],
+                ["Psicanalista", "$5,00 por sessão", "Tratamento de Sanidade (teste mensal)"],
+                ["Detetive particular", "$10,00 por dia", "Vigilância discreta e campanas na cidade"],
+                ["Advogado criminalista", "$50,00 a $200,00", "Fiança e defesa no tribunal"],
+                ["Mecânico de automóveis", "$2,00 a $5,00", "Conserto de motor, troca de pneus e correias"],
+            ],
+        },
+    ],
+}
+
+escudo_cthulhu = {
+    "_fonte": "Resumo das regras de Chamado de Cthulhu 7ª edição adaptadas para Mutantes & Malfeitores 3ª edição. "
+              "Gerado por ferramentas/criar_cthulhu_escudo.py; os textos de Sanidade vêm de nucleo/sanidade.py e os "
+              "blocos 'gerado' são calculados por nucleo/escudo.py.",
+    "genero": "cthulhu",
+    "titulo": "Escudo do Mestre: Chamado de Cthulhu",
+    "abas": [TESTES, COMBATE, CONDICOES, SANIDADE, VIAGEM, PERIGOS, OBJETOS, CIDADE],
+}
+
+if __name__ == "__main__":
+    DESTINO.parent.mkdir(parents=True, exist_ok=True)
+    DESTINO.write_text(json.dumps(escudo_cthulhu, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"Gravado {DESTINO}")

@@ -2,7 +2,7 @@
   "id": "cthulhu/aberracoes/carnical_mythos",
   "genero": "cthulhu",
   "familia": "Carniçal dos Mythos",
-  "variante": "Carniçal Nefrófago",
+  "variante": "Carniçal Necrófago",
   "padrao": true,
   "nome": "Carniçal dos Mythos",
   "tipo": "Aberração",
@@ -11,18 +11,19 @@
   "chefe": false,
   "tamanho": "Médio",
   "nivel_poder": 4,
+  "sanidade": "0/1D6",
   "ambientes": [
     "Cemitérios e mausoléus antigos",
     "Túneis sob cidades litorâneas",
     "Galerias subterrâneas e catacumbas"
   ],
-  "descricao": "Uma figura humanoide grotesca com feições caninas repulsivas, pele gomosa e acinzentada, membros compridos e garras encardidas com restos de sepulturas violadas. Fala em uivos guturais e grunhidos em dialetos antiquíssimos.",
+  "descricao": "Uma figura humanoide grotesca com feições caninas repulsivas, pele emborrachada e acinzentada, membros compridos e garras encardidas com restos de sepulturas violadas. Fala em uivos guturais e grunhidos em dialetos antiquíssimos.",
   "tatica": "Espreita nas sombras e ataca de surpresa surgindo de buracos ou valas. Arrasta presas isoladas para a escuridão dos túneis enquanto outros membros do bando distraem os companheiros.",
   "complicacoes": [
-    "Sensibilidade à Luz Forte: sofre desconforto e desvantagem sob sol intenso do meio-dia.",
+    "Sensibilidade à Luz Forte: sob sol intenso sofre –2 de circunstância em ataques e testes de Percepção.",
     "Fome Necrófaga: atração obsessiva por restos mortais e carne em putrefação."
   ],
-  "fonte": "H.P. Lovecraft (O Modelo de Pickman) & Chamado de Cthulhu (7ª Edição)",
+  "fonte": "H. P. Lovecraft (O Modelo de Pickman) e Chamado de Cthulhu (7ª edição), adaptado para M&M 3e",
   "ficha": {
     "habilidades": {
       "For": 3,
@@ -48,33 +49,33 @@
       "Intimidação": 4
     },
     "vantagens": [
-      "Ocultar-se à Vista de Todos",
-      "Ataque Descuidado"
+      "Esconder-se à Plena Vista",
+      "Ataque Imprudente"
     ],
     "poderes": [
       {
         "nome": "Garras Imundas e Mordida",
-        "construcao": "Dano 4 (Baseado em Força)."
+        "construcao": "Dano 4 baseado em Força (garras e dentes)."
       },
       {
         "nome": "Febre dos Cadáveres",
-        "construcao": "Aflição 4 (resistida por Fortitude; Prejudicado, Indefeso), Ligado ao ataque de Garras e Mordida."
+        "construcao": "Aflição 4 (resistida por Fortitude; Fatigado, Exausto, Incapacitado), Ligado a Garras Imundas e Mordida."
       },
       {
         "nome": "Sentidos Subterrâneos",
-        "construcao": "Sentidos 3 (Visão na Penumbra, Olfato Aguçado, Rastrear)."
+        "construcao": "Sentidos 4 (Visão no Escuro, Olfato Aguçado, Rastrear)."
       },
       {
         "nome": "Escalador Ágil",
-        "construcao": "Movimento 1 (Escalar Paredes 1)."
+        "construcao": "Movimento 1 (Escalar Paredes)."
       },
       {
         "nome": "Imunidades",
-        "construcao": "Imunidade 2 (Doenças e Venenos ordinários)."
+        "construcao": "Imunidade 2 (doenças e venenos)."
       },
       {
-        "nome": "Pele Gomosa",
-        "construcao": "Proteção 1."
+        "nome": "Pele Emborrachada",
+        "construcao": "Proteção 1; Imunidade 10 (dano balístico de armas de fogo e projéteis), Limitado a metade do efeito."
       }
     ],
     "ataques": [
@@ -83,7 +84,7 @@
         "bonus": 4,
         "dano": 4,
         "critico": 20,
-        "descricao": "Corpo a corpo, cortante e perfurante + Aflição 4 (CD 14 de Fortitude; Febre cadavérica)"
+        "descricao": "Corpo a corpo, cortante e perfurante + Aflição 4 (CD 14 de Fortitude; Fatigado / Exausto / Incapacitado)"
       }
     ]
   }

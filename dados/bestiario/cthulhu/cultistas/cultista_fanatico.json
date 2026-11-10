@@ -16,13 +16,13 @@
     "Ruínas isoladas",
     "Casarões decadentes"
   ],
-  "descricao": "Um crente fervoroso cuja psique já foi completamente consumida pela loucura cósmica. Ele não sente dor ordinária nem teme a morte, empunhando machados ou armas pesadas com frenesi assassino.",
+  "descricao": "Um crente fervoroso cuja psique já foi completamente consumida pela loucura cósmica. Ele não sente dor ordinária nem teme a morte, empunhando cutelos ou armas pesadas com frenesi assassino.",
   "tatica": "Avança cegamente em direção aos investigadores gritando nomes impronunciáveis, ignorando ferimentos leves para golpear de forma violenta e visceral.",
   "complicacoes": [
     "Fúria Incontrolável: quando o combate começa, não recua a menos que receba ordem direta do sacerdote.",
     "Mente Quebrada: sofre alucinações constantes das entidades do vácuo."
   ],
-  "fonte": "Chamado de Cthulhu (7ª Edição) & M&M 3e Supernatural Handbook",
+  "fonte": "Chamado de Cthulhu (7ª edição), cultistas genéricos; ficha montada sem bloco de estatísticas, adaptado para M&M 3e",
   "ficha": {
     "habilidades": {
       "For": 2,
@@ -45,8 +45,7 @@
       "Intimidação": 4,
       "Atletismo": 3,
       "Percepção": 2,
-      "Combate Corpo-a-Corpo: Machados e Cutelos": 1,
-      "Combate à Distância: Armas de Fogo": 2
+      "Combate Corpo-a-Corpo: Machados e Cutelos": 1
     },
     "vantagens": [
       "Destemido",
@@ -65,19 +64,19 @@
         "bonus": 3,
         "dano": 3,
         "critico": 19,
-        "descricao": "Dano baseado em Força com gume pesado"
+        "descricao": "Corpo a corpo, cortante; Força 2 + cutelo 1"
       },
       {
         "nome": "Espingarda Calibre 12",
-        "bonus": 3,
-        "dano": 3,
+        "bonus": 1,
+        "dano": 5,
         "critico": 20,
-        "descricao": "À distância, balístico"
+        "descricao": "À distância, balístico; dispara sem treino"
       }
     ],
     "equipamento": [
-      "Cutelo pesado de carniceiro",
-      "Espingarda Calibre 12 (cano duplo)",
+      "Cutelo pesado de carniceiro (Dano 1, Crítico 19-20)",
+      "Espingarda calibre 12 de cano duplo (Dano 5, à distância)",
       "Manto manchado de sangue"
     ]
   }

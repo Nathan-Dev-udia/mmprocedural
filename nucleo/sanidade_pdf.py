@@ -10,6 +10,8 @@ from reportlab.lib.enums import TA_CENTER, TA_LEFT, TA_RIGHT
 from reportlab.lib.styles import ParagraphStyle
 from reportlab.platypus import Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle
 
+from . import sanidade
+
 # Paleta temática de horror cósmico (tons abissais e pergaminho)
 ABISSO = colors.HexColor("#142834")
 VERDE_OCULTO = colors.HexColor("#1b4d3e")
@@ -32,17 +34,62 @@ ESTILO_TEXTO = ParagraphStyle("txt", parent=ESTILO_BASE, fontSize=6.5, leading=8
 ESTILO_TEXTO_BOLD = ParagraphStyle("txt_bold", parent=ESTILO_TEXTO, fontName="Helvetica-Bold")
 ESTILO_NUMERO = ParagraphStyle("num", parent=ESTILO_BASE, fontName="Helvetica", fontSize=6.5, leading=7.5, alignment=TA_CENTER)
 ESTILO_NUM_DEST = ParagraphStyle("num_dest", parent=ESTILO_NUMERO, fontName="Helvetica-Bold", textColor=VERMELHO_SANGUE)
+ESTILO_CARTAO_ROTULO = ParagraphStyle("cartao_rotulo", parent=ESTILO_BASE, fontSize=6, leading=7.5, alignment=TA_CENTER)
+ESTILO_CARTAO_VALOR = ParagraphStyle("cartao_valor", parent=ESTILO_BASE, fontName="Helvetica-Bold", fontSize=14,
+                                     leading=17, alignment=TA_CENTER)
+ESTILO_CARTAO_NOTA = ParagraphStyle("cartao_nota", parent=ESTILO_BASE, fontSize=5.5, leading=7, alignment=TA_CENTER,
+                                    textColor=TINTA_SUAVE)
+
+# Altura das linhas em branco das tabelas de anotação.
+ALTURA_LINHA_EM_BRANCO = 17
+
+
+def _negrito(texto):
+    """'**Psicanálise:** ...' (markdown do escudo) -> '<b>Psicanálise:</b> ...' (reportlab), com o resto escapado."""
+    partes = escape(texto).split("**")
+    return "".join(f"<b>{p}</b>" if i % 2 else p for i, p in enumerate(partes))
+
+
+def _cartao(rotulo, valor, nota, cor=None):
+    """Célula dos cartões do topo: rótulo, valor grande e nota, cada um com o próprio espaçamento."""
+    abre, fecha = (f"<font color='{cor}'>", "</font>") if cor else ("", "")
+    return [Paragraph(rotulo, ESTILO_CARTAO_ROTULO),
+            Paragraph(f"{abre}{valor}{fecha}", ESTILO_CARTAO_VALOR),
+            Paragraph(f"{abre}{nota}{fecha}", ESTILO_CARTAO_NOTA)]
+
+
+def _tabela_de_anotacao(cabecalho, larguras, linhas_em_branco, preenchidas=()):
+    """Tabela com cabeçalho, linhas já preenchidas e linhas em branco (sem sublinhados que quebram)."""
+    linhas = [[Paragraph(f"<b>{c}</b>", ESTILO_CAB) for c in cabecalho]]
+    linhas += [list(linha) for linha in preenchidas]
+    linhas += [[""] * len(cabecalho) for _ in range(max(0, linhas_em_branco - len(preenchidas)))]
+    alturas = [None] * (1 + len(preenchidas)) + [ALTURA_LINHA_EM_BRANCO] * (len(linhas) - 1 - len(preenchidas))
+    tabela = Table(linhas, colWidths=larguras, rowHeights=alturas)
+    tabela.setStyle(TableStyle([
+        ("BACKGROUND", (0, 0), (-1, 0), CINZA_CLARO),
+        ("BOX", (0, 0), (-1, -1), 0.6, ABISSO),
+        ("INNERGRID", (0, 0), (-1, -1), 0.3, BORDA_SUAVE),
+        ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
+        ("TOPPADDING", (0, 0), (-1, -1), 2),
+        ("BOTTOMPADDING", (0, 0), (-1, -1), 2),
+        ("LEFTPADDING", (0, 0), (-1, -1), 3),
+        ("RIGHTPADDING", (0, 0), (-1, -1), 3),
+    ]))
+    return tabela
 
 
 def _sanidade_do_personagem(npc):
     san = npc.get("sanidade") or npc.get("ficha", {}).get("sanidade") or {}
     val = npc.get("validacao", {}).get("valores", {})
     vontade = val.get("defesas", {}).get("Vontade", 0)
-    inicial = san.get("inicial", min(99, max(0, 45 + 5 * vontade)))
+    calculada = sanidade.sanidade_da_ficha(vontade, npc.get("ficha", {}))
+    inicial = san.get("inicial", calculada["inicial"])
     atual = san.get("atual", inicial)
-    maxima = san.get("maxima", 99)
-    ruptura_diaria = max(1, round(inicial * 0.2))
+    maxima = san.get("maxima", calculada["maxima"])
+    # A ruptura vale para a SAN do início do dia; na ficha impressa, a SAN atual é o ponto de partida.
+    ruptura_diaria = sanidade.ponto_de_ruptura(atual)
     return {
+        "limitada_pelo_mythos": inicial < sanidade.sanidade_inicial(vontade),
         "inicial": inicial,
         "atual": atual,
         "maxima": maxima,
@@ -70,7 +117,7 @@ def gerar_pagina_sanidade(npc, largura=603, altura=783):
     # 1. Cabeçalho
     nome = escape(npc.get("nome", "Investigador"))
     ocupacao = escape(npc.get("arquetipo", {}).get("nome", "Investigador"))
-    jogador = escape(npc.get("jogador", "Jogador") or "Jogador")
+    jogador = escape(npc.get("jogador") or "") or "____________________"
     np = npc.get("np_pretendido", 3)
 
     elementos.append(Paragraph("REGISTRO DE SANIDADE & TRAUMA DO INVESTIGADOR", ESTILO_TITULO))
@@ -86,7 +133,7 @@ def gerar_pagina_sanidade(npc, largura=603, altura=783):
             Paragraph(f"<b>Nível de Poder:</b> NP {np}", ESTILO_CAB),
         ]
     ]
-    tab_cab = Table(dados_cab, colWidths=[largura_util * 0.35, largura_util * 0.30, largura_util * 0.22, largura_util * 0.13])
+    tab_cab = Table(dados_cab, colWidths=[largura_util * 0.32, largura_util * 0.28, largura_util * 0.23, largura_util * 0.17])
     tab_cab.setStyle(TableStyle([
         ("BACKGROUND", (0, 0), (-1, -1), CINZA_FUNDO),
         ("BOX", (0, 0), (-1, -1), 0.8, ABISSO),
@@ -100,25 +147,16 @@ def gerar_pagina_sanidade(npc, largura=603, altura=783):
     elementos.append(Spacer(1, 5))
 
     # 2. Cartões de Estatísticas de Sanidade
-    dados_stats = [
-        [
-            Paragraph("<font size=6>SANIDADE INICIAL</font><br/>"
-                      f"<font size=12><b>{san['inicial']}</b></font><br/>"
-                      f"<font size=5.5 color='#4b5563'>45 + 5×Von ({san['vontade']:+d})</font>", ParagraphStyle("c1", parent=ESTILO_BASE, alignment=TA_CENTER)),
-            Paragraph("<font size=6>SANIDADE ATUAL</font><br/>"
-                      f"<font size=12><b>{san['atual']}</b></font><br/>"
-                      "<font size=5.5 color='#4b5563'>Rastrear na grade</font>", ParagraphStyle("c2", parent=ESTILO_BASE, alignment=TA_CENTER)),
-            Paragraph("<font size=6>SANIDADE MÁXIMA</font><br/>"
-                      f"<font size=12><b>{san['maxima']}</b></font><br/>"
-                      "<font size=5.5 color='#4b5563'>99 - 5×Mythos</font>", ParagraphStyle("c3", parent=ESTILO_BASE, alignment=TA_CENTER)),
-            Paragraph("<font size=6>PONTO DE RUPTURA</font><br/>"
-                      f"<font size=12 color='#7a1c1c'><b>-{san['ruptura_diaria']}</b></font><br/>"
-                      "<font size=5.5 color='#7a1c1c'>Perda diária (20%)</font>", ParagraphStyle("c4", parent=ESTILO_BASE, alignment=TA_CENTER)),
-            Paragraph("<font size=6>CHOQUE TEMPORÁRIO</font><br/>"
-                      "<font size=12 color='#7a1c1c'><b>≥ 5</b></font><br/>"
-                      "<font size=5.5 color='#7a1c1c'>Em um único teste</font>", ParagraphStyle("c5", parent=ESTILO_BASE, alignment=TA_CENTER)),
-        ]
-    ]
+    rotulo_inicial = ("45 + 5×Von, limitada pelo Mythos" if san["limitada_pelo_mythos"]
+                      else f"45 + 5×Von ({san['vontade']:+d})")
+    vermelho = "#7a1c1c"
+    dados_stats = [[
+        _cartao("SANIDADE INICIAL", san["inicial"], rotulo_inicial),
+        _cartao("SANIDADE ATUAL", san["atual"], "Rastrear na grade"),
+        _cartao("SANIDADE MÁXIMA", san["maxima"], "99 − 5×Mythos"),
+        _cartao("PONTO DE RUPTURA", f"−{san['ruptura_diaria']}", "1/5 da SAN do início do dia", vermelho),
+        _cartao("CHOQUE TEMPORÁRIO", "≥ 5", "Perda num único teste", vermelho),
+    ]]
     larg_col_stat = largura_util / 5
     tab_stats = Table(dados_stats, colWidths=[larg_col_stat] * 5)
     tab_stats.setStyle(TableStyle([
@@ -169,7 +207,7 @@ def gerar_pagina_sanidade(npc, largura=603, altura=783):
             linha.append(Paragraph(texto_cel, ESTILO_NUMERO))
         grade_dados.append(linha)
 
-    tab_grade = Table(grade_dados, colWidths=[larg_celula] * 10, rowHeights=[14.5] * 10)
+    tab_grade = Table(grade_dados, colWidths=[larg_celula] * 10, rowHeights=[17] * 10)
     tab_grade.setStyle(TableStyle([
         ("BOX", (0, 0), (-1, -1), 0.8, ABISSO),
         ("INNERGRID", (0, 0), (-1, -1), 0.3, BORDA_SUAVE),
@@ -187,26 +225,25 @@ def gerar_pagina_sanidade(npc, largura=603, altura=783):
 
     # Regras Rápidas de Sanidade
     bloco_esq.append(Paragraph("<b>REGRAS RÁPIDAS DE SANIDADE NA MESA</b>", ESTILO_SEC))
+    estados = {estado: (gatilho, duracao) for estado, gatilho, duracao in sanidade.ESTADOS_DE_LOUCURA}
+    recuperacao = "<br/>".join("&nbsp;&nbsp;– " + _negrito(item) for item in sanidade.RECUPERACAO_DE_SANIDADE)
     regras_texto = (
-        "<b>• O Teste de Sanidade (d100):</b> Rola d100 contra a <i>Sanidade Atual</i>.<br/>"
-        "&nbsp;&nbsp;– <b>Sucesso (≤ SAN):</b> Perde o mínimo (ex: 0, 1 ou 1D3).<br/>"
-        "&nbsp;&nbsp;– <b>Fracasso (> SAN):</b> Perde o valor total (ex: 1D6, 1D10, 1D20).<br/>"
-        "&nbsp;&nbsp;– <b>01</b> é sempre Sucesso Crítico (perde 0 ou o menor dano).<br/>"
-        "&nbsp;&nbsp;– <b>100</b> é sempre Desastre (perde o valor MÁXIMO da rolagem).<br/>"
-        "&nbsp;&nbsp;– <b>SAN < 50:</b> Resultados de <b>96 a 100</b> tornam-se Desastres.<br/>"
-        "<b>• Insanidade Temporária (Perda ≥ 5 em 1 teste):</b><br/>"
-        "&nbsp;&nbsp;Faça um <b>Teste de Intelecto do M&M (d20 + INT vs CD 10)</b>:<br/>"
-        "&nbsp;&nbsp;– <i>Sucesso:</i> A mente compreende o horror cósmico e entra em <b>Acesso de Loucura</b> "
-        "(1D10 rodadas em combate ou 1D10 horas em narrativa).<br/>"
-        "&nbsp;&nbsp;– <i>Falha:</i> A mente reprime o choque; sem loucura imediata.<br/>"
-        "<b>• Insanidade Indefinida (Perda diária ≥ 20%):</b><br/>"
-        "&nbsp;&nbsp;Se o investigador perder 20% da Sanidade inicial do dia (Ponto de Ruptura), "
-        "entra em colapso mental por 1D6 meses e ganha nova <b>Fobia</b> ou <b>Mania</b>.<br/>"
-        "<b>• Insanidade Permanente (SAN = 0):</b><br/>"
-        "&nbsp;&nbsp;A mente foi consumida pelos Deuses Exteriores. O personagem torna-se um NPC sob controle do Mestre.<br/>"
+        "<b>• O Teste de Sanidade (d100):</b> Rola d100 contra a <i>SAN atual</i>.<br/>"
+        "&nbsp;&nbsp;– <b>Sucesso (≤ SAN):</b> sofre a perda do sucesso (ex.: 0, 1 ou 1D6).<br/>"
+        "&nbsp;&nbsp;– <b>Falha (> SAN):</b> sofre a perda da falha (ex.: 1D6, 1D10, 1D20).<br/>"
+        "&nbsp;&nbsp;– <b>01</b> é sempre sucesso (com a perda normal do sucesso).<br/>"
+        "&nbsp;&nbsp;– <b>100</b> é sempre desastre (perde o valor MÁXIMO da falha).<br/>"
+        "&nbsp;&nbsp;– <b>SAN < 50:</b> resultados de <b>96 a 100</b> são desastres.<br/>"
+        "<b>• Perda ≥ 5 num só teste:</b> Teste de Intelecto (d20 + INT contra CD 10).<br/>"
+        f"&nbsp;&nbsp;– <i>Sucesso:</i> insanidade temporária ({escape(estados['Insanidade temporária'][1])})<br/>"
+        f"&nbsp;&nbsp;– <i>Falha:</i> a mente reprime o choque; sem loucura imediata.<br/>"
+        f"<b>• Acesso de loucura:</b> {escape(sanidade.DURACAO_DO_ACESSO)}.<br/>"
+        "<b>• Insanidade indefinida (Ponto de Ruptura):</b><br/>"
+        "&nbsp;&nbsp;Perder no mesmo dia 1/5 ou mais da SAN do início do dia: "
+        f"{escape(estados['Insanidade indefinida'][1])}<br/>"
+        f"<b>• SAN = 0:</b> {escape(estados['Insanidade permanente'][1])}<br/>"
         "<b>• Recuperação de Sanidade:</b><br/>"
-        "&nbsp;&nbsp;– <i>Tratamento Psiquiátrico:</i> Teste semanal de Tratamento CD 15 recupera 1D3 SAN.<br/>"
-        "&nbsp;&nbsp;– <i>Vitória sobre o Culto:</i> Destruir um plano maligno recupera 1D6 a 1D10 SAN."
+        f"{recuperacao}"
     )
     quadro_regras = Table([[Paragraph(regras_texto, ESTILO_TEXTO)]], colWidths=[larg_col])
     quadro_regras.setStyle(TableStyle([
@@ -218,27 +255,26 @@ def gerar_pagina_sanidade(npc, largura=603, altura=783):
         ("RIGHTPADDING", (0, 0), (-1, -1), 5),
     ]))
     bloco_esq.append(quadro_regras)
+    bloco_esq.append(Spacer(1, 6))
+
+    # Registro diário: a insanidade indefinida compara a perda do dia com a SAN do início do dia.
+    bloco_esq.append(Paragraph("<b>REGISTRO DIÁRIO DE SANIDADE</b>", ESTILO_SEC))
+    bloco_esq.append(Paragraph("<font size=5.5 color='#4b5563'>Anote a SAN ao começar o dia; se a perda do dia chegar "
+                               "ao ponto de ruptura (1/5, arredondado para cima), começa a insanidade indefinida.</font>",
+                               ESTILO_TEXTO))
+    bloco_esq.append(Spacer(1, 1))
+    bloco_esq.append(_tabela_de_anotacao(["Dia / Data", "SAN no início", "Ruptura (1/5)", "Perdido no dia"],
+                                         [larg_col * 0.31, larg_col * 0.23, larg_col * 0.23, larg_col * 0.23], 5))
 
     # --- Conteúdo da Coluna Direita ---
     bloco_dir = []
 
     # Tabela de Acessos de Loucura (d10)
     bloco_dir.append(Paragraph("<b>TABELA DE ACESSOS DE LOUCURA (1d10)</b>", ESTILO_SEC))
-    bloco_dir.append(Paragraph("<font size=5.5 color='#4b5563'>Role 1d10 durante episódios de insanidade temporária.</font>", ESTILO_TEXTO))
+    bloco_dir.append(Paragraph("<font size=5.5 color='#4b5563'>Role 1d10 no início de cada insanidade (temporária ou indefinida).</font>", ESTILO_TEXTO))
     bloco_dir.append(Spacer(1, 2))
 
-    loucuras = [
-        ("1", "<b>Amnésia:</b> Não se lembra de quem é nem de como chegou aqui."),
-        ("2", "<b>Catatonia:</b> Desmaia ou fica imóvel e mudo em estado de choque."),
-        ("3", "<b>Pânico & Fuga:</b> Foge aos berros para a direção oposta ao horror."),
-        ("4", "<b>Histeria:</b> Risos compulsivos, gritos ou choro incontrolável."),
-        ("5", "<b>Alucinações:</b> Vê geometrias não-euclidianas e sombras atacando."),
-        ("6", "<b>Paranoia Aguda:</b> Acredita que seus aliados são cultistas traidores."),
-        ("7", "<b>Fúria Cega:</b> Ataca violentamente o ser mais próximo (amigo ou inimigo)."),
-        ("8", "<b>Ecolalia / Tiques:</b> Balbucia frases profanas repetidamente sem parar."),
-        ("9", "<b>Fobia Súbita:</b> Pavor paralisante de algo no ambiente (água, sangue, etc.)."),
-        ("10", "<b>Fascínio Mórbido:</b> Aproxima-se da abominação em reverência silenciosa."),
-    ]
+    loucuras = [(str(d), f"<b>{escape(nome)}:</b> {escape(efeito)}") for d, nome, efeito in sanidade.ACESSOS_DE_LOUCURA]
     dados_loucuras = [[Paragraph(f"<b>{d}</b>", ParagraphStyle("d", parent=ESTILO_TEXTO_BOLD, alignment=TA_CENTER)),
                        Paragraph(desc, ESTILO_TEXTO)] for d, desc in loucuras]
     tab_loucuras = Table(dados_loucuras, colWidths=[larg_col * 0.10, larg_col * 0.90])
@@ -265,70 +301,29 @@ def gerar_pagina_sanidade(npc, largura=603, altura=783):
         for c in npc.get("complicacoes", [])
         if c.get("nome") in ("Fobia", "Mania", "Pesadelos", "Paranoia", "Obsessão", "Trauma da Grande Guerra")
     ]
-    linhas_fobias = []
-    # Cabeçalho da tabela de fobias
-    linhas_fobias.append([Paragraph("<b>Tipo / Nome</b>", ESTILO_CAB), Paragraph("<b>Gatilho Mental & Efeitos</b>", ESTILO_CAB)])
-    # Linhas preenchidas ou vazias
-    for i in range(4):
-        if i < len(comp_mentais):
-            nome_comp, detalhe_comp = comp_mentais[i]
-            linhas_fobias.append([Paragraph(f"<b>{nome_comp}</b>", ESTILO_TEXTO), Paragraph(detalhe_comp, ESTILO_TEXTO)])
-        else:
-            linhas_fobias.append([Paragraph("__________________", ESTILO_TEXTO), Paragraph("____________________________________", ESTILO_TEXTO)])
-
-    tab_fobias = Table(linhas_fobias, colWidths=[larg_col * 0.35, larg_col * 0.65])
-    tab_fobias.setStyle(TableStyle([
-        ("BACKGROUND", (0, 0), (-1, 0), CINZA_CLARO),
-        ("BOX", (0, 0), (-1, -1), 0.6, ABISSO),
-        ("INNERGRID", (0, 0), (-1, -1), 0.3, BORDA_SUAVE),
-        ("TOPPADDING", (0, 0), (-1, -1), 2),
-        ("BOTTOMPADDING", (0, 0), (-1, -1), 2),
-        ("LEFTPADDING", (0, 0), (-1, -1), 3),
-        ("RIGHTPADDING", (0, 0), (-1, -1), 3),
-    ]))
+    preenchidas = [(Paragraph(f"<b>{escape(nome)}</b>", ESTILO_TEXTO), Paragraph(detalhe, ESTILO_TEXTO))
+                   for nome, detalhe in comp_mentais]
+    tab_fobias = _tabela_de_anotacao(["Tipo / Nome", "Gatilho Mental & Efeitos"], [larg_col * 0.35, larg_col * 0.65],
+                                     max(5, len(preenchidas)), preenchidas)
     bloco_dir.append(tab_fobias)
     bloco_dir.append(Spacer(1, 6))
 
     # Diário de Criaturas do Mythos, Tomos e Perda Máxima
     bloco_dir.append(Paragraph("<b>ENCONTROS DO MYTHOS, TOMOS & PERDA MÁXIMA</b>", ESTILO_SEC))
-    bloco_dir.append(Paragraph("<font size=5.5 color='#4b5563'>Depois de perder o dano máximo de uma criatura, você se acostuma a ela.</font>", ESTILO_TEXTO))
+    bloco_dir.append(Paragraph("<font size=5.5 color='#4b5563'>Some as perdas por tipo de criatura: quando a soma chega à perda máxima dela, você se acostuma.</font>", ESTILO_TEXTO))
     bloco_dir.append(Spacer(1, 1))
 
-    linhas_mythos = [
-        [
-            Paragraph("<b>Criatura / Tomo Proibido</b>", ESTILO_CAB),
-            Paragraph("<b>SAN Perdida</b>", ESTILO_CAB),
-            Paragraph("<b>Perda Máx.</b>", ESTILO_CAB),
-            Paragraph("<b>Feitiço / Efeito</b>", ESTILO_CAB),
-        ]
-    ]
-    for _ in range(4):
-        linhas_mythos.append([
-            Paragraph("_____________________________", ESTILO_TEXTO),
-            Paragraph("[ &nbsp;&nbsp;&nbsp; ]", ParagraphStyle("c", parent=ESTILO_TEXTO, alignment=TA_CENTER)),
-            Paragraph("[ &nbsp;&nbsp;&nbsp; ]", ParagraphStyle("c", parent=ESTILO_TEXTO, alignment=TA_CENTER)),
-            Paragraph("______________________", ESTILO_TEXTO),
-        ])
-
-    tab_mythos = Table(linhas_mythos, colWidths=[larg_col * 0.42, larg_col * 0.18, larg_col * 0.18, larg_col * 0.22])
-    tab_mythos.setStyle(TableStyle([
-        ("BACKGROUND", (0, 0), (-1, 0), CINZA_CLARO),
-        ("BOX", (0, 0), (-1, -1), 0.6, ABISSO),
-        ("INNERGRID", (0, 0), (-1, -1), 0.3, BORDA_SUAVE),
-        ("TOPPADDING", (0, 0), (-1, -1), 2.5),
-        ("BOTTOMPADDING", (0, 0), (-1, -1), 2.5),
-        ("LEFTPADDING", (0, 0), (-1, -1), 2.5),
-        ("RIGHTPADDING", (0, 0), (-1, -1), 2.5),
-        ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
-    ]))
+    tab_mythos = _tabela_de_anotacao(["Criatura / Tomo Proibido", "SAN perdida (soma)", "Perda Máx.", "Feitiço / Efeito"],
+                                     [larg_col * 0.40, larg_col * 0.18, larg_col * 0.16, larg_col * 0.26], 8)
     bloco_dir.append(tab_mythos)
 
     # 4. Tabela de 2 Colunas para o Bloco Principal
-    tab_duas_colunas = Table([[bloco_esq, bloco_dir]], colWidths=[larg_col, larg_col])
+    tab_duas_colunas = Table([[bloco_esq, bloco_dir]], colWidths=[larg_col + 12, larg_col])
     tab_duas_colunas.setStyle(TableStyle([
         ("VALIGN", (0, 0), (-1, -1), "TOP"),
         ("LEFTPADDING", (0, 0), (-1, -1), 0),
-        ("RIGHTPADDING", (0, 0), (-1, -1), 6),
+        ("RIGHTPADDING", (0, 0), (0, 0), 12),
+        ("RIGHTPADDING", (1, 0), (1, 0), 0),
         ("TOPPADDING", (0, 0), (-1, -1), 0),
         ("BOTTOMPADDING", (0, 0), (-1, -1), 0),
     ]))

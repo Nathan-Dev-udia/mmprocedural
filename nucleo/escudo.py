@@ -32,6 +32,15 @@ KM_POR_HORA_EM_RITMO_NORMAL = 5
 ALTURAS_DE_QUEDA = [2, 4, 8, 15, 30, 60, 120, 250, 500]
 FORCAS_DA_CARGA = range(-1, 6)
 CATEGORIAS_DE_MONTARIA = {"Montaria", "Veículos", "Transporte"}
+# Notas que mudam com o gênero (sem cavalos nem sela nos anos 1920).
+NOTA_DO_TEMPO_DE_VIAGEM = {
+    "cthulhu": "Tempo = distância – velocidade. A velocidade máxima não se sustenta: para viagens longas de "
+               "automóvel, conte paradas para gasolina, pneus furados e estradas de terra; a pé, use o ritmo normal.",
+}
+NOTA_DAS_MONTARIAS = {
+    "cthulhu": "O porta-malas e o banco de trás levam a bagagem, que não conta na carga de quem dirige.",
+}
+TITULO_DAS_MONTARIAS = {"cthulhu": "Veículos"}
 
 
 def generos_com_escudo():
@@ -102,11 +111,12 @@ def _tempo_de_viagem(catalogo, dados=None, genero_id="fantasia"):
                       + [_no_ritmo_normal(km)])
     return {"tipo": "tabela", "titulo": "Tempo de viagem (velocidade máxima contínua)", "colunas": colunas,
             "linhas": linhas,
-            "nota": "Tempo = distância – velocidade. A velocidade máxima não se sustenta: para vários dias, use o "
-                    "ritmo normal; para o galope, veja Forçar a montaria."}
+            "nota": NOTA_DO_TEMPO_DE_VIAGEM.get(
+                genero, "Tempo = distância – velocidade. A velocidade máxima não se sustenta: para vários dias, use o "
+                        "ritmo normal; para o galope, veja Forçar a montaria.")}
 
 
-def _montarias(catalogo, dados=None, _genero_id="fantasia"):
+def _montarias(catalogo, dados=None, genero_id="fantasia"):
     moeda = (dados or {}).get("configuracoes", {}).get("moeda", "po")
     itens = sorted((i for i in catalogo.values()
                     if i.get("categoria") in CATEGORIAS_DE_MONTARIA and i.get("velocidade") is not None),
@@ -114,9 +124,12 @@ def _montarias(catalogo, dados=None, _genero_id="fantasia"):
     linhas = [[i["nome"], str(i["velocidade"]).replace("-", "–"), f"{_numero(medidas.km_por_hora(i['velocidade']))} km/h",
                f"{i['carga']} kg" if i.get("carga") else "—", formatter.dolares(i["preco"], moeda) if i.get("preco") else "—"]
               for i in itens]
-    return {"tipo": "tabela", "titulo": "Montarias e veículos", "linhas": linhas,
-            "colunas": ["Montaria ou veículo", "Velocidade", "Máxima", "Carga", "Preço"],
-            "nota": "Sela e alforjes vão no animal e não contam na carga de quem monta."}
+    titulo = TITULO_DAS_MONTARIAS.get(genero_id, "Montarias e veículos")
+    return {"tipo": "tabela", "titulo": titulo, "linhas": linhas,
+            "colunas": ["Montaria ou veículo" if titulo != "Veículos" else "Veículo", "Velocidade", "Máxima",
+                        "Carga", "Preço"],
+            "nota": NOTA_DAS_MONTARIAS.get(genero_id, "Sela e alforjes vão no animal e não contam na carga de quem "
+                                                      "monta.")}
 
 
 def _carga(_catalogo, _dados=None, _genero_id="fantasia"):

@@ -23,6 +23,7 @@ from . import escalar
 from . import formatter
 from . import poderes as poderes_mod
 from . import rules
+from . import sanidade
 from . import validator
 from .generator import GeneratorError
 
@@ -818,18 +819,18 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
             compras, troco, sem_dinheiro = _comprar(dados, ids, riqueza["dinheiro"] + divida, obrigatorio=True,
                                                     quantidades=quantidades)
         else:
-            prioritarios, extras = _equipamento_automatico_em_partes(dados, arquetipo, foco, np, vantagens, rng)
+            prioritarios, itens_extras = _equipamento_automatico_em_partes(dados, arquetipo, foco, np, vantagens, rng)
             # O que vem da origem entra primeiro. Os prioritários usam tudo menos a parte mínima; os extras, só o que
             # passa da parte guardada (se os prioritários já comeram essa parte, não entra extra nenhum).
-            origem = precos_de_origem(dados, prioritarios + extras, riqueza["dinheiro"])
+            origem = precos_de_origem(dados, prioritarios + itens_extras, riqueza["dinheiro"])
             prioritarios = list(origem) + [i for i in prioritarios if i not in origem]
-            extras = [i for i in extras if i not in origem]
+            itens_extras = [i for i in itens_extras if i not in origem]
             minimo = round(riqueza["dinheiro"] * PARTE_MINIMA, 2)
             compras, troco, sem_dinheiro = _comprar(dados, prioritarios, riqueza["dinheiro"] - minimo,
                                                     precos_de_origem=origem)
             troco = round(troco + minimo, 2)
             guardado = min(troco, round(riqueza["dinheiro"] * PARTE_GUARDADA, 2))
-            mais, troco, faltou = _comprar(dados, extras, troco - guardado)
+            mais, troco, faltou = _comprar(dados, itens_extras, troco - guardado)
             compras, sem_dinheiro, troco = compras + mais, sem_dinheiro + faltou, round(troco + guardado, 2)
             compras, troco = _devolver_municao_sem_arma(dados, compras, troco)
         ficha["equipamento"] = _abrir_kits(dados, [c["id"] for c in compras], ficha["quantidades"])
@@ -875,16 +876,7 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
 
     sanidade_info = None
     if dados["configuracoes"].get("sanidade"):
-        from . import sanidade
-        vontade_total = relatorio["valores"]["defesas"]["Vontade"]
-        grad_mythos = ficha.get("pericias", {}).get("Especialidade: Mythos de Cthulhu", 0)
-        san_ini = sanidade.sanidade_inicial(vontade_total)
-        san_max = sanidade.sanidade_maxima(grad_mythos)
-        sanidade_info = {
-            "inicial": san_ini,
-            "atual": san_ini,
-            "maxima": san_max,
-        }
+        sanidade_info = sanidade.sanidade_da_ficha(relatorio["valores"]["defesas"]["Vontade"], ficha)
         ficha["sanidade"] = sanidade_info
 
     if not nome:

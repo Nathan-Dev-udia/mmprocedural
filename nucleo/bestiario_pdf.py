@@ -157,9 +157,13 @@ def _campos_e_formulas(criatura_id, nome=None, np=None):
     _preencher_linhas(campos, "Complicações {n}", linhas_complicacoes, LINHAS["complicacoes"])
 
     # Notas & Táticas
-    condicoes = [f"Bestiário Fantasia — Fonte: {dados.get('fonte', '')}"]
+    genero = dados.get("genero") or criatura_id.split("/", 1)[0]
+    nome_do_genero = bestiario.NOMES_DOS_GENEROS.get(genero, genero.capitalize())
+    condicoes = [f"Bestiário {nome_do_genero} — Fonte: {dados.get('fonte', '')}"]
     if dados.get("aviso_de_escala"):
         condicoes.append(dados["aviso_de_escala"])
+    if dados.get("sanidade"):
+        condicoes.append(f"Sanidade: {bestiario.texto_da_sanidade(dados['sanidade'])}.")
     if dados.get("descricao"):
         condicoes.append(f"Descrição: {dados['descricao']}")
     if dados.get("tatica"):

@@ -916,13 +916,13 @@
       "nome": "Diletante",
       "conceito": "Herdeiro afortunado com muito dinheiro e curiosidade mórbida por clubes secretos e expedições exóticas.",
       "vantagens_essenciais": [
-        "Benefício (Riqueza)",
-        "Contatos"
+        "Contatos",
+        "Bem Relacionado"
       ],
       "vantagens_opcionais": [
         "Atraente",
-        "Bem Relacionado",
-        "Fascinar"
+        "Fascinar",
+        "Bem Informado"
       ],
       "prioridades": [
         "habilidade:Pre",

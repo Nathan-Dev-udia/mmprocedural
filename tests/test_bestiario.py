@@ -389,7 +389,7 @@ def test_bestiario_cthulhu_catalogo_e_filtros():
 
     mi_go = next(c for c in cthulhu_lista if c["id"] == "cthulhu/aberracoes/mi_go")
     assert mi_go["np"] == 6
-    assert "Voador" in mi_go["papeis"]
+    assert "Artilharia" in mi_go["papeis"]
 
     profundo = next(c for c in cthulhu_lista if c["id"] == "cthulhu/aberracoes/profundo")
     assert profundo["np"] == 5
@@ -427,3 +427,72 @@ def test_bestiario_cthulhu_downloads_e_rotas():
     titulos = [p.text for p in doc.paragraphs if p.style.name == "Heading 1"]
     assert titulos == ["Shoggoth 1", "Shoggoth 2"]
 
+
+
+def test_descer_o_np_nunca_estoura_limites():
+    """Na descida, os pisos (defesa 0, bônus 1) não deixam a ficha passar dos limites nem marcar habilidade ausente."""
+    for c in bestiario.lista():
+        dados, _ = bestiario.carregar(c["id"])
+        ausentes = {h for h, v in dados["ficha"]["habilidades"].items() if v is None or v == -5}
+        for np in range(bestiario.NP_MINIMO, c["np"]):
+            escalada = bestiario.no_np(dados, np)
+            assert _excesso(escalada) <= 0, (c["id"], np)
+            hab = escalada["ficha"]["habilidades"]
+            assert {h for h, v in hab.items() if v is None or v == -5} == ausentes, (c["id"], np)
+            # Ataque com teste continua com teste (bônus 0 é o marcador de área)
+            originais = [bool(a["bonus"]) for a in dados["ficha"]["ataques"]]
+            assert [bool(a["bonus"]) for a in escalada["ficha"]["ataques"]] == originais, (c["id"], np)
+
+
+def test_bestiario_cthulhu_fichas_coerentes():
+    """Vantagens do catálogo, Aflição com três graus, fonte honesta e sem termos de D&D."""
+    import re
+    from nucleo import rules
+    vantagens = {v["nome"] for v in json.loads(
+        (Path(__file__).parent.parent / "dados" / "comum" / "vantagens.json").read_text(encoding="utf-8"))["vantagens"]}
+    proibido = ("desvantagem", "Necrótico", "necrótico", "Nefrófago", "Lacradora", "não-euclidiana", "Supernatural")
+    bestiario.limpar_cache()
+    for c in bestiario.lista("cthulhu"):
+        caminho, _ = bestiario._catalogo()[c["id"]]
+        texto = caminho.read_text(encoding="utf-8")
+        assert not any(p in texto for p in proibido), c["id"]
+        dados = json.loads(texto)
+        f = dados["ficha"]
+        assert dados["fonte"].endswith("adaptado para M&M 3e"), c["id"]
+        for v in f["vantagens"]:
+            assert re.sub(r" \d+$", "", rules.nome_base(v)) in vantagens, (c["id"], v)
+        for p in f["poderes"]:
+            for condicoes in re.findall(r"Aflição \d+ \(resistida por \w+; ([^)]*)\)", p["construcao"]):
+                assert len(condicoes.split(",")) == 3, (c["id"], p["nome"])
+        # Aflição pura fica só nos poderes: todo ataque tem dano
+        assert all(a["dano"] for a in f["ataques"]), c["id"]
+        assert not any(p["construcao"].startswith("Complicação") for p in f["poderes"]), c["id"]
+    sacerdote, _ = bestiario.carregar("cthulhu/cultistas/cultista_sacerdote")
+    assert "Especialidade: Mythos de Cthulhu" in sacerdote["ficha"]["pericias"]
+
+
+def test_bestiario_cthulhu_perda_de_sanidade():
+    """A perda de Sanidade aparece na tela, no PDF e no DOCX; cultistas não têm."""
+    esperado = {"carnical_mythos": "0/1D6", "profundo": "0/1D6", "mi_go": "0/1D6", "shoggoth": "1D6/1D20"}
+    for nome, perda in esperado.items():
+        dados, _ = bestiario.carregar(f"cthulhu/aberracoes/{nome}")
+        assert dados["sanidade"] == perda
+    assert "sanidade" not in bestiario.carregar("cthulhu/cultistas/cultista_iniciado")[0]
+
+    ficha = bestiario.ficha("cthulhu/aberracoes/shoggoth")
+    assert ficha["sanidade"] == "1D6/1D20"
+    sanidade = next(s for s in ficha["secoes"] if s["titulo"] == "Sanidade")["itens"][0]
+    assert "1D6/1D20" in sanidade
+    assert not any(s["titulo"] == "Sanidade" for s in bestiario.ficha("cthulhu/cultistas/cultista_iniciado")["secoes"])
+
+    campos = bestiario_pdf.campos_da_criatura("cthulhu/aberracoes/shoggoth")
+    assert "1D6/1D20" in campos["Notas & Condições"]
+    doc = Document(io.BytesIO(bestiario_docx.gerar_docx("cthulhu/aberracoes/shoggoth")))
+    assert "1D6/1D20" in "\n".join(p.text for p in doc.paragraphs)
+
+
+def test_pdf_usa_o_nome_do_genero_da_criatura():
+    notas = bestiario_pdf.campos_da_criatura("cthulhu/aberracoes/profundo")["Notas & Condições"]
+    assert notas.startswith("Bestiário Chamado de Cthulhu")
+    assert bestiario_pdf.campos_da_criatura("fantasia/goblins/goblin_eletrico")["Notas & Condições"].startswith(
+        "Bestiário Fantasia")

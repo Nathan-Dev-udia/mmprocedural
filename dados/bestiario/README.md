@@ -6,7 +6,7 @@ que lê estas fichas está em `nucleo/bestiario.py` (catálogo, filtros, escala 
 
 ## Princípios
 
-1. **Genérico.** O bestiário serve a qualquer campanha de fantasia (alta fantasia, sombria, The Witcher, Ravenloft...).
+1. **Genérico.** O bestiário de cada gênero serve a qualquer campanha dele (na fantasia: alta fantasia, sombria, The Witcher, Ravenloft...).
    Nada de itens, magias ou nomes que só existem num cenário: sem óleos e Sinais de bruxo, sem "contrato", sem
    regras de um livro de campanha. Uma criatura de folclore pode entrar; a ficha descreve a criatura, não a campanha.
 2. **Só regras de Mutantes & Malfeitores 3e.** Todo traço vira um efeito, vantagem, perícia ou complicação do livro
@@ -27,7 +27,8 @@ Um JSON por criatura em `dados/bestiario/<gênero>/<categoria>/<id>.json`. O id 
 extensão (`fantasia/mortos_vivos/carnical`) e precisa bater com o campo `id`.
 
 Categorias em uso na fantasia: `aberracoes`, `construtos`, `dragoes`, `feras`, `goblins`, `monstruosidades`,
-`mortos_vivos`, `sobrenatural`.
+`mortos_vivos`, `sobrenatural`. No Chamado de Cthulhu (`cthulhu`): `aberracoes` (criaturas dos Mythos) e
+`cultistas` (humanos dos cultos, tipo Humanoide).
 
 ```json
 {
@@ -65,12 +66,13 @@ Categorias em uso na fantasia: `aberracoes`, `construtos`, `dragoes`, `feras`, `
 | Campo | Regra |
 |----|----|
 | `familia`, `variante`, `padrao` | Criaturas da mesma família aparecem juntas (chips de variante na ficha). **Uma** variante por família tem `"padrao": true`: é ela que a lista mostra quando "Agrupar famílias" está ligado. |
-| `tipo` | Um dos tipos em uso: Aberração, Besta, Construto, Demônio, Dragão, Fada, Goblinoide, Monstruosidade, Morto-Vivo, Planta. Evite criar tipo novo sem motivo: ele vira opção no filtro. |
+| `tipo` | Um dos tipos em uso: Aberração, Besta, Construto, Demônio, Dragão, Fada, Goblinoide, Humanoide (pessoas comuns, como os cultistas do Cthulhu), Monstruosidade, Morto-Vivo, Planta. Evite criar tipo novo sem motivo: ele vira opção no filtro. |
 | `subtipo` | Livre (Ilitide, Amaldiçoado, Relicto, Draconídeo...). Entra na busca. |
 | `papel` | Partes separadas por " / " (Bruto, Soldado, Emboscador, Lacaio, Conjurador, Artilharia, Predador, Montaria, Guardião, Líder, Chefe...). "(Solo)" pode vir no fim. Cada parte vira uma opção do filtro de papel. **Lacaio** faz o DOCX imprimir a regra de capanga. |
 | `chefe` | `true` marca um possível chefe (a luta principal de uma sessão). Sem o campo, conta como chefe quem tem Chefe ou Líder no papel, ou "(Solo)". |
 | `tamanho` | Diminuto, Miúdo, Pequeno, Médio, Grande, Enorme, Imenso. Só descreve; os números vêm de Encolhimento/Crescimento. |
 | `nivel_poder` | O **NP padrão** da criatura (veja "Escolhendo o NP padrão"). |
+| `sanidade` | Só em gêneros com Sanidade (Chamado de Cthulhu). Perda de Sanidade ao ver a criatura, no formato do Chamado de Cthulhu: `"sucesso/fracasso"` no teste de d100, ex.: `"0/1D6"` (Profundo, Carniçal, Mi-Go) ou `"1D6/1D20"` (Shoggoth). Aparece na tela, no DOCX e nas notas do PDF. Humanos comuns (cultistas) não têm o campo. |
 | `complicacoes` | Fraquezas, maldições, restrições e motivações, como as complicações do livro básico. Aparecem na tela, no DOCX e nos campos de Complicações do PDF. **Não** ponha complicação dentro de `poderes`. |
 | `habilidades` | Valores finais, **já com Crescimento ou Encolhimento somados**. Habilidade ausente (Vigor de morto-vivo ou construto, Força de incorpóreo) é `null` e aparece como "—". Fichas antigas usam `-5` para isso; não copie. |
 | `defesas` | Totais. A chave é `Resistencia` (sem acento). Defesa que não existe (Fortitude de quem não tem Vigor) é a string `"Imune"`. |
@@ -119,6 +121,11 @@ e nos downloads) **sem alterar o arquivo**. Cada NP a mais (ou a menos) vale ±1
 - graduações de **Dano**, **Aflição**, **Enfraquecer \<habilidade\>** e **Anular**, e as **CDs**, onde aparecerem no
   texto dos poderes e das descrições de ataque;
 - sem Vigor, a **primeira** "Proteção N" dos poderes (é de onde vem a Resistência).
+
+Na **descida**, os valores param em pisos (habilidade em –4, para não virar "ausente"; defesa em 0; bônus de ataque
+em 1, para não virar área; dano em 1). Quando um piso deixa uma soma acima de 2 × NP, o gerador tira a sobra da
+Resistência (Esquiva/Aparar + Resistência), da maior entre Fortitude e Vontade, e do dano do ataque. O teste
+`test_descer_o_np_nunca_estoura_limites` garante isso.
 
 As graduações de perícia não mudam (o total sobe com a habilidade). Como os limites do NP crescem 2 por NP e cada soma
 (ataque + efeito, defesa + Resistência, Fortitude + Vontade) também cresce 2, **uma ficha dentro dos limites continua

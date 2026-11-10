@@ -261,6 +261,11 @@ def texto_das_pericias(ficha_da_criatura):
     return textos
 
 
+def texto_da_sanidade(perda):
+    """'0/1D6' -> texto da perda de Sanidade ao ver a criatura (sucesso/fracasso no teste de d100)."""
+    return f"Perda ao ver a criatura: {perda} (sucesso/fracasso no teste de Sanidade)"
+
+
 def _texto_de(valor):
     if isinstance(valor, dict):
         return ", ".join(f"{k} {'—' if v is None else v}" for k, v in valor.items())
@@ -290,6 +295,49 @@ def _mudar_graduacoes(texto, delta):
     return _EFEITO.sub(lambda m: f"{m.group(1)} {max(1, int(m.group(2)) + delta)}", texto)
 
 
+def _caber_nos_limites(f, np):
+    """Na descida, os pisos (defesa 0, bônus 1, dano 1) podem deixar uma soma acima de 2 × NP: tira a sobra.
+
+    Ex.: o Shoggoth (NP 9, Esquiva 4, Resistência 14) no NP 3 ficaria com Esquiva 0 e Resistência 8. A sobra sai
+    da Resistência (e, se não bastar, da defesa ativa); em Fortitude + Vontade, da maior; no ataque, do dano.
+    """
+    teto = 2 * np
+    defesas = f.get("defesas", {})
+    chave_res = "Resistencia" if "Resistencia" in defesas else "Resistência"
+    numero = lambda nome: defesas.get(nome) if isinstance(defesas.get(nome), int) else None
+
+    for ativa in ("Esquiva", "Aparar"):
+        if numero(ativa) is None or numero(chave_res) is None:
+            continue
+        sobra = numero(ativa) + numero(chave_res) - teto
+        if sobra > 0:
+            tirar = min(sobra, numero(chave_res))
+            defesas[chave_res] -= tirar
+            defesas[ativa] = max(0, numero(ativa) - (sobra - tirar))
+
+    fort, von = numero("Fortitude"), numero("Vontade")
+    if fort is not None and von is not None and fort + von > teto:
+        sobra = fort + von - teto
+        maior = "Fortitude" if fort >= von else "Vontade"
+        defesas[maior] = max(0, defesas[maior] - sobra)
+        if defesas["Fortitude"] + defesas["Vontade"] > teto:
+            menor = "Vontade" if maior == "Fortitude" else "Fortitude"
+            defesas[menor] = max(0, teto - defesas[maior])
+
+    for ataque in f.get("ataques", []):
+        bonus, dano = ataque.get("bonus"), ataque.get("dano")
+        if not (isinstance(bonus, int) and isinstance(dano, int)):
+            continue
+        if bonus:
+            sobra = bonus + dano - teto
+            if sobra > 0:
+                novo_dano = max(1, dano - sobra)
+                ataque["dano"] = novo_dano
+                ataque["bonus"] = max(1, teto - novo_dano)
+        elif dano > np:
+            ataque["dano"] = np
+
+
 def no_np(dados, np):
     """Cópia da criatura levada a outro NP, sem mexer no arquivo.
 
@@ -313,7 +361,8 @@ def no_np(dados, np):
         valor = hab.get(sigla)
         if not isinstance(valor, int) or valor == -5:
             continue  # habilidade ausente continua ausente
-        hab[sigla] = max(-5, valor + delta)
+        # Não desce a –5: nas fichas, –5 marca a habilidade ausente.
+        hab[sigla] = max(rules.HABILIDADE_MINIMA + 1, valor + delta)
 
     defesas = f.setdefault("defesas", {})
     for nome in DEFESAS_QUE_ESCALAM:
@@ -324,7 +373,8 @@ def no_np(dados, np):
 
     for ataque in f.get("ataques", []):
         if isinstance(ataque.get("bonus"), int) and ataque["bonus"]:
-            ataque["bonus"] = max(0, ataque["bonus"] + delta)
+            # Bônus 0 marca o efeito de área: um ataque com teste nunca desce a 0.
+            ataque["bonus"] = max(1, ataque["bonus"] + delta)
         if isinstance(ataque.get("dano"), int) and ataque["dano"]:
             ataque["dano"] = max(1, ataque["dano"] + delta)
         if ataque.get("descricao"):
@@ -338,6 +388,9 @@ def no_np(dados, np):
             texto = _PROTECAO.sub(lambda m: f"Proteção {max(0, int(m.group(1)) + delta)}", texto, count=1)
             protecao_ajustada = True
         poder[chave] = texto
+
+    if delta < 0:
+        _caber_nos_limites(f, np)
 
     escalada["nivel_poder"] = np
     escalada["np_padrao"] = padrao
@@ -401,6 +454,9 @@ def ficha(criatura_id, np=None):
     if vantagens:
         secoes.append({"titulo": "Vantagens", "itens": vantagens})
 
+    if dados.get("sanidade"):
+        secoes.append({"titulo": "Sanidade", "itens": [texto_da_sanidade(dados["sanidade"])]})
+
     if dados.get("complicacoes"):
         secoes.append({"titulo": "Complicações", "itens": dados["complicacoes"]})
 
@@ -438,6 +494,7 @@ def ficha(criatura_id, np=None):
         "ambientes": dados.get("ambientes", resumo["ambientes"]),
         "descricao": dados.get("descricao", resumo["descricao"]),
         "tatica": dados.get("tatica", ""),
+        "sanidade": dados.get("sanidade", ""),
         "habilidades": f.get("habilidades", {}),
         "pericias": pericias,
         "defesas": f.get("defesas", {}),

@@ -1,4 +1,8 @@
-"""Gera os arquivos JSON do Bestiário de Chamado de Cthulhu."""
+"""Gera os arquivos JSON do Bestiário de Chamado de Cthulhu.
+
+As fichas seguem o guia em dados/bestiario/README.md. Edite aqui e rode o script de novo para regerar os JSONs
+(não edite os JSONs à mão).
+"""
 
 import json
 from pathlib import Path
@@ -27,13 +31,13 @@ CRIATURAS = [
                 "Templos abandonados",
                 "Bosques e pântanos à meia-noite"
             ],
-            "descricao": "Um devoto recém-admitido nas ordens secretas que adoram as divindades cósmicas. Veste túnicas rústicas com capuz para ocultar sua identidade de cidadão comum e carrega símbolos entalhados com geometrias não-euclidianas.",
+            "descricao": "Um devoto recém-admitido nas ordens secretas que adoram as divindades cósmicas. Veste túnicas rústicas com capuz para ocultar sua identidade de cidadão comum e carrega símbolos entalhados com geometrias não euclidianas.",
             "tatica": "Ataca em bando para proteger os altares ou rituais. Dispara de longe com armas de calibre pequeno e avança com facas cerimoniais quando ordenado pelos sacerdotes.",
             "complicacoes": [
                 "Fanatismo Cego: cumpre qualquer ordem blasfema dos líderes do culto sem questionar.",
                 "Obsessão pelos Mythos: mente degradada por cânticos e vislumbres profanos."
             ],
-            "fonte": "Chamado de Cthulhu (7ª Edição) & M&M 3e Supernatural Handbook",
+            "fonte": "Chamado de Cthulhu (7ª edição), cultistas genéricos; ficha montada sem bloco de estatísticas, adaptado para M&M 3e",
             "ficha": {
                 "habilidades": {
                     "For": 1,
@@ -49,7 +53,7 @@ CRIATURAS = [
                     "Esquiva": 2,
                     "Aparar": 2,
                     "Fortitude": 2,
-                    "Resistencia": 2,
+                    "Resistencia": 1,
                     "Vontade": 2
                 },
                 "pericias": {
@@ -71,7 +75,7 @@ CRIATURAS = [
                         "bonus": 2,
                         "dano": 2,
                         "critico": 19,
-                        "descricao": "Dano baseado em Força com lâmina cerimonial"
+                        "descricao": "Corpo a corpo, perfurante; Força 1 + adaga 1"
                     },
                     {
                         "nome": "Revólver .32",
@@ -83,7 +87,7 @@ CRIATURAS = [
                 ],
                 "equipamento": [
                     "Adaga ritual (Dano 1, Crítico 19-20)",
-                    "Revólver .32 (Dano 2, À Distância)",
+                    "Revólver .32 (Dano 2, à distância)",
                     "Túnica cerimonial e amuleto estranho"
                 ]
             }
@@ -110,13 +114,13 @@ CRIATURAS = [
                 "Ruínas isoladas",
                 "Casarões decadentes"
             ],
-            "descricao": "Um crente fervoroso cuja psique já foi completamente consumida pela loucura cósmica. Ele não sente dor ordinária nem teme a morte, empunhando machados ou armas pesadas com frenesi assassino.",
+            "descricao": "Um crente fervoroso cuja psique já foi completamente consumida pela loucura cósmica. Ele não sente dor ordinária nem teme a morte, empunhando cutelos ou armas pesadas com frenesi assassino.",
             "tatica": "Avança cegamente em direção aos investigadores gritando nomes impronunciáveis, ignorando ferimentos leves para golpear de forma violenta e visceral.",
             "complicacoes": [
                 "Fúria Incontrolável: quando o combate começa, não recua a menos que receba ordem direta do sacerdote.",
                 "Mente Quebrada: sofre alucinações constantes das entidades do vácuo."
             ],
-            "fonte": "Chamado de Cthulhu (7ª Edição) & M&M 3e Supernatural Handbook",
+            "fonte": "Chamado de Cthulhu (7ª edição), cultistas genéricos; ficha montada sem bloco de estatísticas, adaptado para M&M 3e",
             "ficha": {
                 "habilidades": {
                     "For": 2,
@@ -139,8 +143,7 @@ CRIATURAS = [
                     "Intimidação": 4,
                     "Atletismo": 3,
                     "Percepção": 2,
-                    "Combate Corpo-a-Corpo: Machados e Cutelos": 1,
-                    "Combate à Distância: Armas de Fogo": 2
+                    "Combate Corpo-a-Corpo: Machados e Cutelos": 1
                 },
                 "vantagens": [
                     "Destemido",
@@ -159,19 +162,19 @@ CRIATURAS = [
                         "bonus": 3,
                         "dano": 3,
                         "critico": 19,
-                        "descricao": "Dano baseado em Força com gume pesado"
+                        "descricao": "Corpo a corpo, cortante; Força 2 + cutelo 1"
                     },
                     {
                         "nome": "Espingarda Calibre 12",
-                        "bonus": 3,
-                        "dano": 3,
+                        "bonus": 1,
+                        "dano": 5,
                         "critico": 20,
-                        "descricao": "À distância, balístico"
+                        "descricao": "À distância, balístico; dispara sem treino"
                     }
                 ],
                 "equipamento": [
-                    "Cutelo pesado de carniceiro",
-                    "Espingarda Calibre 12 (cano duplo)",
+                    "Cutelo pesado de carniceiro (Dano 1, Crítico 19-20)",
+                    "Espingarda calibre 12 de cano duplo (Dano 5, à distância)",
                     "Manto manchado de sangue"
                 ]
             }
@@ -199,12 +202,12 @@ CRIATURAS = [
                 "Bibliotecas ocultistas particulares"
             ],
             "descricao": "O mestre de cerimônias da seita profana. Portador de fragmentos traduzidos de grimórios como o Necronomicon ou o De Vermis Mysteriis, comanda os servos mortais e canaliza energias das abominações além das estrelas.",
-            "tatica": "Permanece atrás de seus acólitos e fanáticos, entoando encantamentos que abalam a mente dos heróis e conjurando rajadas de escuridão viva. Recorre à adaga cerimonial sacrificial apenas se encurralado.",
+            "tatica": "Permanece atrás de seus acólitos e fanáticos, entoando encantamentos que abalam a mente dos heróis e conjurando rajadas de escuridão viva. Recorre à adaga sacrificial apenas se encurralado.",
             "complicacoes": [
                 "Obsessão Apocalíptica: devotado a despertar as divindades adormecidas, mesmo que isso destrua a Terra.",
                 "Orgulho Sacerdotal: recusa-se a fugir se seu altar sagrado for profanado."
             ],
-            "fonte": "Chamado de Cthulhu (7ª Edição) & M&M 3e Supernatural Handbook",
+            "fonte": "Chamado de Cthulhu (7ª edição), sacerdotes de culto; ficha montada sem bloco de estatísticas, adaptado para M&M 3e",
             "ficha": {
                 "habilidades": {
                     "For": 0,
@@ -224,7 +227,7 @@ CRIATURAS = [
                     "Vontade": 6
                 },
                 "pericias": {
-                    "Especialidade: Ocultismo": 8,
+                    "Especialidade: Mythos de Cthulhu": 8,
                     "Intimidação": 6,
                     "Enganação": 6,
                     "Intuição": 4,
@@ -241,43 +244,32 @@ CRIATURAS = [
                 ],
                 "poderes": [
                     {
-                        "nome": "Maldição do Vazio",
-                        "construcao": "Dano 5 (À Distância, Místico / Necrótico)."
-                    },
-                    {
-                        "nome": "Onda de Loucura Cósmica",
-                        "construcao": "Aflição 5 (resistida por Vontade; Pasmo, Atordoado, Incapacitado), Área Cone (18 m)."
+                        "nome": "Feitiços do Vazio",
+                        "construcao": "Arranjo. Maldição do Vazio: Dano 5, À Distância (descritor: energia mística do vazio cósmico). Efeito alternativo, 1 PP — Onda de Loucura Cósmica: Aflição 5 (resistida por Vontade; Tonto, Atordoado, Incapacitado), Área Cone."
                     },
                     {
                         "nome": "Barreira Mística dos Antigos",
-                        "construcao": "Proteção 3 (Sustentado)."
+                        "construcao": "Proteção 3, Sustentado."
                     }
                 ],
                 "ataques": [
                     {
                         "nome": "Adaga Sacrificial Ondulada",
                         "bonus": 5,
-                        "dano": 5,
+                        "dano": 1,
                         "critico": 19,
-                        "descricao": "Dano 5 (místico e perfurante) com gume cerimonial entalhado"
+                        "descricao": "Corpo a corpo, perfurante; Força 0 + adaga 1"
                     },
                     {
                         "nome": "Maldição do Vazio",
                         "bonus": 5,
                         "dano": 5,
                         "critico": 20,
-                        "descricao": "À distância, energia do vácuo cósmico"
-                    },
-                    {
-                        "nome": "Onda de Loucura Cósmica",
-                        "bonus": 0,
-                        "dano": 5,
-                        "critico": 20,
-                        "descricao": "Área Cone 18 m; Aflição 5 (CD 15 de Vontade; Pasmo / Atordoado / Incapacitado)"
+                        "descricao": "À distância, energia mística do vazio"
                     }
                 ],
                 "equipamento": [
-                    "Adaga sacrificial ondulada",
+                    "Adaga sacrificial ondulada (Dano 1, Crítico 19-20)",
                     "Manto de seda negra com insígnias douradas",
                     "Tomo de rituais com anotações em latim"
                 ]
@@ -291,7 +283,7 @@ CRIATURAS = [
             "id": "cthulhu/aberracoes/carnical_mythos",
             "genero": "cthulhu",
             "familia": "Carniçal dos Mythos",
-            "variante": "Carniçal Nefrófago",
+            "variante": "Carniçal Necrófago",
             "padrao": True,
             "nome": "Carniçal dos Mythos",
             "tipo": "Aberração",
@@ -300,18 +292,19 @@ CRIATURAS = [
             "chefe": False,
             "tamanho": "Médio",
             "nivel_poder": 4,
+            "sanidade": "0/1D6",
             "ambientes": [
                 "Cemitérios e mausoléus antigos",
                 "Túneis sob cidades litorâneas",
                 "Galerias subterrâneas e catacumbas"
             ],
-            "descricao": "Uma figura humanoide grotesca com feições caninas repulsivas, pele gomosa e acinzentada, membros compridos e garras encardidas com restos de sepulturas violadas. Fala em uivos guturais e grunhidos em dialetos antiquíssimos.",
+            "descricao": "Uma figura humanoide grotesca com feições caninas repulsivas, pele emborrachada e acinzentada, membros compridos e garras encardidas com restos de sepulturas violadas. Fala em uivos guturais e grunhidos em dialetos antiquíssimos.",
             "tatica": "Espreita nas sombras e ataca de surpresa surgindo de buracos ou valas. Arrasta presas isoladas para a escuridão dos túneis enquanto outros membros do bando distraem os companheiros.",
             "complicacoes": [
-                "Sensibilidade à Luz Forte: sofre desconforto e desvantagem sob sol intenso do meio-dia.",
+                "Sensibilidade à Luz Forte: sob sol intenso sofre –2 de circunstância em ataques e testes de Percepção.",
                 "Fome Necrófaga: atração obsessiva por restos mortais e carne em putrefação."
             ],
-            "fonte": "H.P. Lovecraft (O Modelo de Pickman) & Chamado de Cthulhu (7ª Edição)",
+            "fonte": "H. P. Lovecraft (O Modelo de Pickman) e Chamado de Cthulhu (7ª edição), adaptado para M&M 3e",
             "ficha": {
                 "habilidades": {
                     "For": 3,
@@ -337,33 +330,33 @@ CRIATURAS = [
                     "Intimidação": 4
                 },
                 "vantagens": [
-                    "Ocultar-se à Vista de Todos",
-                    "Ataque Descuidado"
+                    "Esconder-se à Plena Vista",
+                    "Ataque Imprudente"
                 ],
                 "poderes": [
                     {
                         "nome": "Garras Imundas e Mordida",
-                        "construcao": "Dano 4 (Baseado em Força)."
+                        "construcao": "Dano 4 baseado em Força (garras e dentes)."
                     },
                     {
                         "nome": "Febre dos Cadáveres",
-                        "construcao": "Aflição 4 (resistida por Fortitude; Prejudicado, Indefeso), Ligado ao ataque de Garras e Mordida."
+                        "construcao": "Aflição 4 (resistida por Fortitude; Fatigado, Exausto, Incapacitado), Ligado a Garras Imundas e Mordida."
                     },
                     {
                         "nome": "Sentidos Subterrâneos",
-                        "construcao": "Sentidos 3 (Visão na Penumbra, Olfato Aguçado, Rastrear)."
+                        "construcao": "Sentidos 4 (Visão no Escuro, Olfato Aguçado, Rastrear)."
                     },
                     {
                         "nome": "Escalador Ágil",
-                        "construcao": "Movimento 1 (Escalar Paredes 1)."
+                        "construcao": "Movimento 1 (Escalar Paredes)."
                     },
                     {
                         "nome": "Imunidades",
-                        "construcao": "Imunidade 2 (Doenças e Venenos ordinários)."
+                        "construcao": "Imunidade 2 (doenças e venenos)."
                     },
                     {
-                        "nome": "Pele Gomosa",
-                        "construcao": "Proteção 1."
+                        "nome": "Pele Emborrachada",
+                        "construcao": "Proteção 1; Imunidade 10 (dano balístico de armas de fogo e projéteis), Limitado a metade do efeito."
                     }
                 ],
                 "ataques": [
@@ -372,7 +365,7 @@ CRIATURAS = [
                         "bonus": 4,
                         "dano": 4,
                         "critico": 20,
-                        "descricao": "Corpo a corpo, cortante e perfurante + Aflição 4 (CD 14 de Fortitude; Febre cadavérica)"
+                        "descricao": "Corpo a corpo, cortante e perfurante + Aflição 4 (CD 14 de Fortitude; Fatigado / Exausto / Incapacitado)"
                     }
                 ]
             }
@@ -394,18 +387,19 @@ CRIATURAS = [
             "chefe": False,
             "tamanho": "Médio",
             "nivel_poder": 5,
+            "sanidade": "0/1D6",
             "ambientes": [
                 "Profundezas oceânicas",
                 "Costas rochosas e recifes isolados",
                 "Portos decadentes (como Innsmouth)"
             ],
-            "descricao": "Criatura anfíbia semi-humanoide com cabeça de peixe ou batráquio, olhos protuberantes e vítreos que jamais piscam, guelras pulsantes na garganta e membranas interdigitais. Sua pele verde-acinzentada brilha com uma camada mucosa oleosa.",
-            "tatica": "Ataca em emboscadas coordenadas partindo da água. Arrasta oponentes para o fundo do mar ou rios, onde ganha vantagem absoluta de mobilidade e sufocamento.",
+            "descricao": "Criatura anfíbia semi-humanoide com cabeça de peixe ou batráquio, olhos protuberantes e vítreos que jamais piscam, guelras pulsantes na garganta e membranas interdigitais. Sua pele verde-acinzentada brilha com uma camada mucosa oleosa. Não envelhece: os mais antigos têm milhares de anos.",
+            "tatica": "Ataca em emboscadas coordenadas partindo da água. Agarra oponentes e os arrasta para o fundo do mar ou de rios, onde se move com muito mais facilidade e a vítima se afoga.",
             "complicacoes": [
                 "Dependência de Água: resseca-se e enfraquece gravemente se passar dias longe de água salgada.",
-                "Devoção Absoluta: reverência inabalável ao Pai Dagon, à Mãe Hydra e ao Grande Cthulhu."
+                "Devoção Absoluta: reverência inabalável ao Pai Dagon, à Mãe Hidra e ao Grande Cthulhu."
             ],
-            "fonte": "H.P. Lovecraft (A Sombra sobre Innsmouth) & Chamado de Cthulhu (7ª Edição)",
+            "fonte": "H. P. Lovecraft (A Sombra sobre Innsmouth) e Chamado de Cthulhu (7ª edição), adaptado para M&M 3e",
             "ficha": {
                 "habilidades": {
                     "For": 4,
@@ -428,24 +422,24 @@ CRIATURAS = [
                     "Atletismo": 6,
                     "Percepção": 4,
                     "Furtividade": 4,
-                    "Combate Corpo-a-Corpo: Garras e Tridente": 1
+                    "Combate Corpo-a-Corpo: Garras": 1
                 },
                 "vantagens": [
                     "Luta no Chão",
-                    "Empunhadura Aprimorada",
+                    "Agarrar Aprimorado",
                     "Equipamento 1"
                 ],
                 "poderes": [
                     {
-                        "nome": "Anfíbio Abissal",
-                        "construcao": "Imunidade 3 (Afogamento, Frio Oceânico, Pressão das Profundezas)."
+                        "nome": "Anfíbio Abissal e Imortal",
+                        "construcao": "Imunidade 4 (envelhecimento, afogamento, frio intenso, alta pressão)."
                     },
                     {
                         "nome": "Natação Veloz",
-                        "construcao": "Natação 3 (15 km/h)."
+                        "construcao": "Natação 4 (velocidade 2: 30 m por rodada, cerca de 18 km/h)."
                     },
                     {
-                        "nome": "Couraça Escamosa e Borrachuda",
+                        "nome": "Couraça Escamosa e Emborrachada",
                         "construcao": "Proteção 2."
                     },
                     {
@@ -455,22 +449,22 @@ CRIATURAS = [
                 ],
                 "ataques": [
                     {
-                        "nome": "Garras Lacradoras",
-                        "bonus": 5,
-                        "dano": 5,
-                        "critico": 19,
-                        "descricao": "Corpo a corpo, cortante baseado em Força"
-                    },
-                    {
-                        "nome": "Tridente Profano",
+                        "nome": "Garras Laceradoras",
                         "bonus": 5,
                         "dano": 5,
                         "critico": 20,
-                        "descricao": "Corpo a corpo, perfurante"
+                        "descricao": "Corpo a corpo, cortante; Força 4 + garras 1; pode agarrar"
+                    },
+                    {
+                        "nome": "Tridente Profano",
+                        "bonus": 4,
+                        "dano": 6,
+                        "critico": 20,
+                        "descricao": "Corpo a corpo, perfurante; Força 4 + tridente 2"
                     }
                 ],
                 "equipamento": [
-                    "Tridente de bronze trabalhado com motivos blasfemos"
+                    "Tridente de bronze trabalhado com motivos blasfemos (Dano 2)"
                 ]
             }
         }
@@ -487,22 +481,23 @@ CRIATURAS = [
             "nome": "Mi-Go",
             "tipo": "Aberração",
             "subtipo": "Mi-Go",
-            "papel": "Conjurador / Voador",
+            "papel": "Artilharia / Emboscador",
             "chefe": False,
             "tamanho": "Médio",
             "nivel_poder": 6,
+            "sanidade": "0/1D6",
             "ambientes": [
-                "Montanhas isoladas de Vermont e Himalaia",
+                "Montanhas isoladas de Vermont e do Himalaia",
                 "Minas e cavernas profundas",
-                "Vácuo interestelar e bases em Plutão"
+                "Vácuo interestelar e bases em Yuggoth (Plutão)"
             ],
-            "descricao": "Um ser alienígena com consistência fungosa e carapaça crustácea rosada, dotado de múltiplos pares de membros articulados, asas membranosas capazes de viajar pelo éter interestelar e uma cabeça convoluta sem rosto, cercada de pequenas antenas ciliadas que pulsam com luzes policromáticas.",
-            "tatica": "Usa a mobilidade aérea e ataques à distância com seus projetores elétricos. Se engajado em combate próximo, tenta desarmar e imobilizar o oponente para capturá-lo para extração cirúrgica de cérebro.",
+            "descricao": "Um ser alienígena com consistência fúngica e carapaça crustácea rosada, dotado de múltiplos pares de membros articulados, asas membranosas capazes de atravessar o éter interestelar e uma cabeça convoluta sem rosto, cercada de antenas curtas que pulsam com cores. Cirurgiões sem igual, levam cérebros humanos vivos em cilindros metálicos até Yuggoth.",
+            "tatica": "Usa a mobilidade aérea e o projetor elétrico à distância. Em combate próximo, agarra o oponente com as pinças e o anestesia para capturá-lo vivo.",
             "complicacoes": [
-                "Estranheza Fotográfica: sua matéria não emite nem reflete a luz de forma comum, aparecendo desfocado ou invisível em emulsões fotográficas comuns.",
-                "Vulnerabilidade Sônica: frequências de ressonância acústica específicas perturbam suas antenas sensoriais."
+                "Estranheza Fotográfica: sua matéria não reflete a luz de forma comum; aparece desfocado ou não aparece em fotografias.",
+                "Desprezo Clínico: vê humanos como espécimes e prefere capturar a matar, mesmo quando isso o expõe."
             ],
-            "fonte": "H.P. Lovecraft (A Coisa no Nevoeiro) & Chamado de Cthulhu (7ª Edição)",
+            "fonte": "H. P. Lovecraft (Um Sussurro nas Trevas) e Chamado de Cthulhu (7ª edição), adaptado para M&M 3e",
             "ficha": {
                 "habilidades": {
                     "For": 3,
@@ -533,28 +528,28 @@ CRIATURAS = [
                 "vantagens": [
                     "Inventor",
                     "Trabalho em Equipe",
-                    "Ataque à Distância 3"
+                    "Agarrar Aprimorado"
                 ],
                 "poderes": [
                     {
                         "nome": "Projetor Elétrico Alienígena",
-                        "construcao": "Dano 6 (À Distância, Balístico / Energia)."
+                        "construcao": "Dano 6, À Distância (descritor elétrico); Removível (dispositivo)."
                     },
                     {
                         "nome": "Asas do Éter",
-                        "construcao": "Voo 3 (250 m por rodada); Movimento 1 (Adaptação Espacial)."
+                        "construcao": "Voo 3 (60 m por rodada, cerca de 36 km/h); Movimento 1 (Viagem Espacial: dentro do sistema solar)."
                     },
                     {
-                        "nome": "Fisiologia Extraterrestre Quase-Fúngica",
-                        "construcao": "Imunidade 6 (Sufocamento, Vácuo, Frio Extremo, Radiação); Proteção 3."
+                        "nome": "Fisiologia Extraterrestre Quase Fúngica",
+                        "construcao": "Imunidade 6 (sufocamento, frio intenso, alta pressão, radiação, vácuo); Proteção 3."
                     },
                     {
-                        "nome": "Cirurgia Extratora de Cérebros",
-                        "construcao": "Aflição 6 (resistida por Fortitude; Tonto, Atordoado, Incapacitado); Permite transplante para cilindro metálico em vítimas indefesas."
+                        "nome": "Toxina Anestésica",
+                        "construcao": "Aflição 6 (resistida por Fortitude; Tonto, Atordoado, Incapacitado), Ligado a Pinças Articuladas."
                     },
                     {
-                        "nome": "Comunicação Ciliada Óptica",
-                        "construcao": "Comunicação 1 (Sensorial Óptico por vibração luminosa de antenas); Sentidos 3 (Visão no Escuro, Sentido Eletromagnético)."
+                        "nome": "Antenas Luminosas",
+                        "construcao": "Comunicação 1 (visual: pulsos de cor das antenas); Sentidos 4 (Visão no Escuro, Detectar Eletricidade à distância)."
                     }
                 ],
                 "ataques": [
@@ -563,7 +558,7 @@ CRIATURAS = [
                         "bonus": 6,
                         "dano": 4,
                         "critico": 20,
-                        "descricao": "Corpo a corpo, cortante e contundente; agarra a vítima"
+                        "descricao": "Corpo a corpo, cortante; Força 3 + pinças 1; pode agarrar + Aflição 6 (CD 16 de Fortitude; Tonto / Atordoado / Incapacitado)"
                     },
                     {
                         "nome": "Projetor Elétrico Alienígena",
@@ -574,6 +569,7 @@ CRIATURAS = [
                     }
                 ],
                 "equipamento": [
+                    "Projetor elétrico alienígena (Dano 6, à distância)",
                     "Cilindro metálico preservador de cérebros",
                     "Instrumentos cirúrgicos alienígenas"
                 ]
@@ -596,18 +592,19 @@ CRIATURAS = [
             "chefe": True,
             "tamanho": "Enorme",
             "nivel_poder": 9,
+            "sanidade": "1D6/1D20",
             "ambientes": [
                 "Cidades esquecidas na Antártida",
                 "Fossas submarinas abissais",
                 "Ruínas pré-humanas subterrâneas"
             ],
-            "descricao": "Uma gigantesca e horripilante massa plástica negra e luminescente de vários metros de diâmetro. Brota continuamente dezenas de olhos verdes pustulentos, bocas repletas de dentes pontiagudos e tentáculos espessos que se desmancham na própria gosma. Arrasta-se avassaladoramente entoando como zombaria o pavoroso grito: 'Tekeli-li! Tekeli-li!'.",
-            "tatica": "Avança como uma avalanche de matéria viva esmagadora, cobrindo o campo de batalha com pseudópodes e engolindo investigadores para triturá-los sob toneladas de protoplasma.",
+            "descricao": "Uma gigantesca e horripilante massa plástica negra e luminescente de vários metros de diâmetro. Brota continuamente dezenas de olhos verdes pustulentos, bocas repletas de dentes pontiagudos e tentáculos espessos que se desmancham na própria gosma. Arrasta-se avassaladoramente, silvando em zombaria o grito musical de seus antigos senhores: 'Tekeli-li! Tekeli-li!'.",
+            "tatica": "Avança como uma avalanche de matéria viva, cobrindo o campo de batalha com pseudópodes e engolindo investigadores para triturá-los sob toneladas de protoplasma. Balas e lâminas passam por ele sem efeito; só fogo, eletricidade, explosivos ou magia o detêm.",
             "complicacoes": [
-                "Pavor Ardente: sensível ao fogo contínuo e altas voltagens que incineram sua matriz orgânica.",
-                "Eco dos Criadores: repete incessantemente a mímica sonora 'Tekeli-li', o que impede qualquer tentativa de passar furtivo enquanto se move."
+                "Rebeldia Ancestral: sem os Antigos para comandá-lo, ataca tudo o que se move; não negocia nem recua.",
+                "Eco dos Criadores: repete sem parar o silvo 'Tekeli-li', o que impede qualquer tentativa de passar furtivo enquanto se move."
             ],
-            "fonte": "H.P. Lovecraft (Nas Montanhas da Loucura) & Chamado de Cthulhu (7ª Edição)",
+            "fonte": "H. P. Lovecraft (Nas Montanhas da Loucura) e Chamado de Cthulhu (7ª edição), adaptado para M&M 3e",
             "ficha": {
                 "habilidades": {
                     "For": 11,
@@ -637,37 +634,40 @@ CRIATURAS = [
                     "Derrubar Aprimorado",
                     "Estrangular",
                     "Destemido",
-                    "Quebrar Aprimorado",
-                    "Interposição"
+                    "Quebrar Aprimorado"
                 ],
                 "poderes": [
                     {
                         "nome": "Tamanho Enorme",
-                        "construcao": "Crescimento 8 (Permanente, Inato: +8 Força, +8 Vigor, -4 Esquiva/Aparar, +1 de Velocidade)."
+                        "construcao": "Crescimento 8 (já somado em Força, Vigor e defesas; Permanente, Inato)."
                     },
                     {
-                        "nome": "Massa Protoplasmática Amorfa",
-                        "construcao": "Imunidade 20 (Golpes Críticos, Aprisionamento, Flanqueamento, Dano Contundente reduzido à metade, Sufocamento); Proteção 3 (Impenetrável 8)."
+                        "nome": "Corpo Amorfo",
+                        "construcao": "Imunidade 20 (dano de armas comuns: balas, lâminas e golpes; fogo, eletricidade, explosivos e magia passam); Imunidade 20 (dano de fogo e de eletricidade), Limitado a metade do efeito; Imunidade 4 (sufocamento, frio intenso, alta pressão); Proteção 3."
+                    },
+                    {
+                        "nome": "Regeneração Protoplasmática",
+                        "construcao": "Regeneração 10 (recupera um grau de dano por rodada)."
                     },
                     {
                         "nome": "Esmagamento Protoplasmático",
-                        "construcao": "Dano 11 (Baseado em Força) Ligado a Aflição 9 (resistida por Fortitude; Tonto, Atordoado, Incapacitado)."
+                        "construcao": "Dano 11 baseado em Força, Ligado a Aflição 9 (resistida por Fortitude; Tonto, Atordoado, Incapacitado)."
                     },
                     {
                         "nome": "Onda de Pseudópodes",
-                        "construcao": "Dano 9 (Área Explosão 9 m)."
+                        "construcao": "Dano 9, Área Explosão."
                     },
                     {
-                        "nome": "Uivo Perturbador (Tekeli-li!)",
-                        "construcao": "Aflição 9 (resistida por Vontade; Pasmo, Compelido a fugir em pânico), Área Auditiva (Percepção)."
+                        "nome": "Silvo Mimético (Tekeli-li!)",
+                        "construcao": "Aflição 9 (resistida por Vontade; Tonto, Compelido a fugir, Incapacitado de terror), Área Auditiva, Percepção."
                     },
                     {
                         "nome": "Sentidos Onidirecionais",
-                        "construcao": "Sentidos 4 (Visão no Escuro, Percepção Sísmica 2)."
+                        "construcao": "Sentidos 4 (Visão no Escuro, Visão em Todas as Direções)."
                     },
                     {
                         "nome": "Deslocamento Plástico",
-                        "construcao": "Movimento 2 (Deslizar, Escalar Paredes 1)."
+                        "construcao": "Movimento 2 (Rastejar, Escalar Paredes)."
                     }
                 ],
                 "ataques": [
@@ -676,14 +676,14 @@ CRIATURAS = [
                         "bonus": 7,
                         "dano": 11,
                         "critico": 20,
-                        "descricao": "Corpo a corpo, contundente esmagador + Aflição 9 (CD 19 de Fortitude; Tonto / Atordoado / Incapacitado)"
+                        "descricao": "Corpo a corpo, contundente + Aflição 9 (CD 19 de Fortitude; Tonto / Atordoado / Incapacitado)"
                     },
                     {
                         "nome": "Onda de Pseudópodes",
                         "bonus": 0,
                         "dano": 9,
                         "critico": 20,
-                        "descricao": "Área Explosão 9 m (CD 19 de Esquiva para metade do Dano 9 contundente)"
+                        "descricao": "Área Explosão (CD 19 de Esquiva para metade do Dano 9 contundente)"
                     }
                 ]
             }

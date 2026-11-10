@@ -4,6 +4,7 @@ A Sanidade não é uma habilidade nem defesa do M&M; é um medidor à parte (0 a
 rolado em d100, fiel ao horror cósmico clássico.
 """
 
+import math
 import random
 import re
 
@@ -18,6 +19,16 @@ def sanidade_inicial(vontade):
 def sanidade_maxima(graduacao_mythos=0):
     """Calcula a Sanidade máxima permitida: 99 menos 5 vezes a graduação em Mythos de Cthulhu."""
     return max(0, 99 - 5 * max(0, graduacao_mythos))
+
+
+PERICIA_MYTHOS = "Especialidade: Mythos de Cthulhu"
+
+
+def sanidade_da_ficha(vontade, ficha):
+    """Sanidade inicial, atual e máxima de uma ficha; a atual nunca passa da máxima permitida pelo Mythos."""
+    maxima = sanidade_maxima(ficha.get("pericias", {}).get(PERICIA_MYTHOS, 0))
+    inicial = min(sanidade_inicial(vontade), maxima)
+    return {"inicial": inicial, "atual": inicial, "maxima": maxima}
 
 
 def rolar_expressao(expressao, maximo=False, rng=None):
@@ -96,3 +107,51 @@ def insanidade_indefinida(perdido_no_dia, san_inicio_dia):
     if san_inicio_dia <= 0:
         return False
     return perdido_no_dia >= (san_inicio_dia / 5.0)
+
+
+def ponto_de_ruptura(san_inicio_dia):
+    """Menor perda no dia que causa insanidade indefinida: 1/5 da SAN do início do dia, arredondado para cima.
+
+    Bate com `insanidade_indefinida` (perdido >= SAN/5): com SAN 62, a ruptura é 13 (12,4 arredondado para cima).
+    """
+    return max(0, math.ceil(san_inicio_dia / 5))
+
+
+# ---------------------------------------------------------------- textos de regra (fonte única do escudo e do PDF)
+
+# Acessos de loucura (d10): (resultado, nome, efeito na mesa). Duram o tempo de DURACAO_DO_ACESSO.
+ACESSOS_DE_LOUCURA = [
+    (1, "Amnésia", "Esquece quem é e como chegou ali; não usa Especialidades nem reconhece os aliados."),
+    (2, "Catatonia", "Desmaia ou congela: fica imóvel e indefeso, sem agir até o fim do acesso."),
+    (3, "Pânico e fuga", "Larga o que segura e foge do horror; só faz ações de movimento para se afastar."),
+    (4, "Histeria", "Ri, grita ou chora sem controle: prejudicado (–2) em todos os testes e não fala com coerência."),
+    (5, "Alucinações", "Vê paredes derretendo e sombras que atacam: prejudicado (–2) em Percepção e nos ataques."),
+    (6, "Paranoia", "Crê que um aliado é cultista: recusa ajuda, testes de equipe e Tratamento vindos dele."),
+    (7, "Fúria cega", "Ataca o ser mais próximo, amigo ou inimigo, com o que tiver à mão (Ataque Total)."),
+    (8, "Ecolalia e tiques", "Repete em voz alta frases profanas: não consegue falar nada útil; –5 em Furtividade."),
+    (9, "Fobia súbita", "Ganha uma fobia de algo da cena (água, sangue, insetos, escuro); evita ou foge do gatilho."),
+    (10, "Fascínio mórbido", "Aproxima-se da abominação em transe: desatento a tudo o mais e vulnerável."),
+]
+
+DURACAO_DO_ACESSO = ("1D10 rodadas em tempo real (cena com ação) ou 1D10 horas em resumo "
+                     "(o investigador volta a si em outro lugar, sem lembrar o que fez)")
+
+# Estados de loucura: (estado, gatilho, duração e efeito).
+ESTADOS_DE_LOUCURA = [
+    ("Acesso de loucura", "Início de qualquer insanidade", DURACAO_DO_ACESSO + "; role na tabela d10."),
+    ("Insanidade temporária", "Perda de 5 ou mais num só teste e sucesso no teste de Intelecto (CD 10); "
+     "na falha, a mente reprime o choque", "1D10 horas; começa com um acesso de loucura."),
+    ("Insanidade indefinida", "Perda no dia de 1/5 ou mais da SAN do início do dia",
+     "1D6 meses; começa com um acesso de loucura e deixa uma fobia ou mania, que o tratamento pode curar."),
+    ("Insanidade permanente", "SAN chega a 0", "Para sempre: o investigador vira um personagem do Mestre."),
+]
+
+RECUPERACAO_DE_SANIDADE = [
+    "**Psicanálise:** uma vez por mês de tratamento, o terapeuta faz Tratamento CD 15 (com Especialidade: "
+    "Psicologia ou Medicina). Sucesso: o paciente recupera 1D3 de SAN. Falha por 2 graus ou mais: perde 1D6.",
+    "**Internação em sanatório:** a equipe faz o mesmo teste mensal da psicanálise; é onde o investigador passa "
+    "os 1D6 meses de insanidade indefinida.",
+    "**Fim da investigação:** derrotar o culto ou frustrar o plano recupera de 1D6 a 1D10 de SAN, a critério do "
+    "Mestre; fracassar não recupera nada.",
+    "**Teto:** a SAN nunca passa da máxima (99 – 5 × graduação em Mythos de Cthulhu).",
+]

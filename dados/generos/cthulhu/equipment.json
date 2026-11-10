@@ -288,7 +288,7 @@
     "categoria": "Veículos",
     "comercio": "Concessionária",
     "peso": 1500,
-    "descricao": "Velocidade 5 (120 km/h), potente e confortável.",
+    "descricao": "Velocidade 5 (cerca de 100 km/h), potente e confortável.",
     "velocidade": 5,
     "carga": 500
   },
@@ -300,8 +300,8 @@
     "categoria": "Veículos",
     "comercio": "Concessionária",
     "peso": 250,
-    "descricao": "Velocidade 5 (120 km/h), ágil em ruas e trilhas.",
-    "velocidade": 5,
+    "descricao": "Velocidade 4 (cerca de 50 km/h na estrada, 90 km/h no máximo), ágil em ruas e trilhas.",
+    "velocidade": 4,
     "carga": 150
   },
   {

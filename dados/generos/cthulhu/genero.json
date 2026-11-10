@@ -26,6 +26,18 @@
     ],
     "sanidade": true,
     "itens_basicos": [],
+    "pericias_de_reserva": [
+      "Percepção",
+      "Atletismo",
+      "Intuição",
+      "Furtividade",
+      "Acrobacia",
+      "Persuasão",
+      "Enganação",
+      "Intimidação",
+      "Investigação",
+      "Veículos"
+    ],
     "prioridades_gerais": [
       "defesa:Vontade",
       "defesa:Esquiva",

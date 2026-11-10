@@ -16,6 +16,7 @@ Ajustes feitos na cópia gerada (o modelo original não é alterado):
 """
 
 import io
+import logging
 from pathlib import Path
 import re
 import textwrap
@@ -531,7 +532,8 @@ def preencher_modelo(caminho_modelo, campos, caminho_imagem=None, formulas=None,
             for pagina in leitor_san.pages:
                 writer.add_page(pagina)
         except Exception:
-            pass
+            # A ficha sai mesmo sem a página de Sanidade, mas o erro fica registrado.
+            logging.getLogger(__name__).exception("Falha ao gerar a página de Sanidade da ficha.")
 
     saida = io.BytesIO()
     writer.write(saida)

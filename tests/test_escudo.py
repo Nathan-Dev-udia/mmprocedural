@@ -1,6 +1,7 @@
 """Escudo do Mestre: dados, tabelas geradas, página e PDF."""
 
 import io
+import json
 
 import openpyxl
 import pypdf
@@ -106,3 +107,22 @@ def test_pagina_e_download():
     assert 'id="aba-escudo"' not in cliente.get("/?genero=cyberpunk").get_data(as_text=True)
     assert cliente.get("/escudo/cyberpunk.pdf").status_code == 404
     assert cliente.get("/escudo/fantasia.docx").status_code == 404
+
+
+def test_escudo_cthulhu_usa_regras_do_mm_e_a_fonte_unica_de_sanidade():
+    from nucleo import sanidade
+    dados = data_loader.carregar_genero("cthulhu")
+    montado_c = escudo.montar("cthulhu", dados)
+    dano = _bloco(montado_c, "Dano: padrão e letal")
+    assert [l[1] for l in dano["linhas"]] == ["Sucesso", "1º grau", "2º grau", "3º grau", "4º grau"]
+    cds = _bloco(montado_c, "Classes de dificuldade")
+    assert [l[:2] for l in cds["linhas"]][-3:] == [["30", "Heroico"], ["35", "Super-heroico"], ["40", "Quase impossível"]]
+    acessos = _bloco(montado_c, "Acessos de loucura (d10)")
+    assert [l[1] for l in acessos["linhas"]] == [nome for _, nome, _ in sanidade.ACESSOS_DE_LOUCURA]
+    perdas = _bloco(montado_c, "Perda típica de Sanidade")
+    assert ["Encontrar um cadáver comum", "0", "1D3", "—"] in perdas["linhas"]
+    assert ["Encontrar um cadáver humano mutilado", "1", "1D4+1", "—"] in perdas["linhas"]
+    texto = json.dumps(montado_c, ensure_ascii=False)
+    for proibido in ("Forçar a montaria", "Sela e alforjes", "permanente.", "Histérico", "não-", "New York"):
+        assert proibido not in texto, proibido
+    assert [a["id"] for a in montado_c["abas"]].count("objetos") == 1

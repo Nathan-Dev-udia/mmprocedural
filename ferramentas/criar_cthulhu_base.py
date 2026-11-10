@@ -35,6 +35,11 @@ gravar("genero.json", {
         "nps_jogador": [1, 2, 3, 4, 5],
         "sanidade": True,
         "itens_basicos": [],
+        # Perícias que recebem a sobra dos pontos. Troca "Especialidade: Cavalgar" (a perícia de montaria, à parte
+        # de Veículos) por Veículos: nos anos 20 se dirige mais do que se cavalga. Cavalgar continua disponível
+        # como Especialidade (livro básico, p. 76: no mundo moderno o mestre pode aceitar Atletismo).
+        "pericias_de_reserva": ["Percepção", "Atletismo", "Intuição", "Furtividade", "Acrobacia", "Persuasão",
+                                "Enganação", "Intimidação", "Investigação", "Veículos"],
         "prioridades_gerais": [
             "defesa:Vontade",
             "defesa:Esquiva",
@@ -129,8 +134,8 @@ equipamentos = [
 
     # Veículos
     item("ford_modelo_t", "Automóvel Ford Modelo T", 8, 300, "Veículos", "Concessionária", peso=750, velocidade=4, carga=400, descricao="Velocidade 4 (60 km/h), transporte popular dos anos 20."),
-    item("packard_luxo", "Automóvel de Luxo Packard", 10, 2500, "Veículos", "Concessionária", peso=1500, velocidade=5, carga=500, descricao="Velocidade 5 (120 km/h), potente e confortável."),
-    item("motocicleta", "Motocicleta com sidecar", 9, 200, "Veículos", "Concessionária", peso=250, velocidade=5, carga=150, descricao="Velocidade 5 (120 km/h), ágil em ruas e trilhas."),
+    item("packard_luxo", "Automóvel de Luxo Packard", 10, 2500, "Veículos", "Concessionária", peso=1500, velocidade=5, carga=500, descricao="Velocidade 5 (cerca de 100 km/h), potente e confortável."),
+    item("motocicleta", "Motocicleta com sidecar", 9, 200, "Veículos", "Concessionária", peso=250, velocidade=4, carga=150, descricao="Velocidade 4 (cerca de 50 km/h na estrada, 90 km/h no máximo), ágil em ruas e trilhas."),
 
     # Equipamento investigativo
     item("lanterna_eletrica", "Lanterna elétrica a pilha", 1, 2, "Equipamento geral", "Loja de ferragens", peso=0.5, descricao="Ilumina 9 m de raio."),
@@ -243,7 +248,8 @@ archetypes = [
                 "ficha": {
                     "habilidades": {"For": 1, "Vig": 1, "Agi": 1, "Des": 0, "Lut": 1, "Int": 0, "Pro": 0, "Pre": 0},
                     "defesas_compradas": {"Esquiva": 1, "Fortitude": 1, "Vontade": 1},
-                    "pericias": {"Combate Corpo-a-Corpo: Facas": 1, "Furtividade": 2, "Enganação": 2},
+                    "pericias": {"Combate Corpo-a-Corpo: Facas": 1, "Furtividade": 2, "Enganação": 2,
+                                 "Especialidade: Mythos de Cthulhu": 2},
                     "vantagens": {"Destemido": 1, "Equipamento": 1},
                     "equipamento": ["faca_bowie"]
                 }
@@ -310,7 +316,7 @@ modules = [
         "status_dados": "validado",
         "papel": "ambos",
         "adiciona": {
-            "pericias": {"Especialidade: Ocultismo": 2, "Enganação": 2}
+            "pericias": {"Especialidade: Mythos de Cthulhu": 2, "Enganação": 2}
         }
     },
     {
@@ -522,8 +528,8 @@ arquetipos_jogador = [
     arq_investigador(
         "diletante", "Diletante",
         "Herdeiro afortunado com muito dinheiro e curiosidade mórbida por clubes secretos e expedições exóticas.",
-        ["Benefício (Riqueza)", "Contatos"],
-        ["Atraente", "Bem Relacionado", "Fascinar"],
+        ["Contatos", "Bem Relacionado"],
+        ["Atraente", "Fascinar", "Bem Informado"],
         ["habilidade:Pre", "pericia:Persuasão", "defesa:Esquiva", "habilidade:Int", "pericia:Veículos", "pericia:Percepção", "habilidade:Agi", "defesa:Vontade"],
         [
             foco_item("herdeiro", "Alta Sociedade", "Influência nas altas rodas políticas e financeiras.", ["pericia:Persuasão"]),

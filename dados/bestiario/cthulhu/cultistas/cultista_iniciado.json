@@ -16,13 +16,13 @@
     "Templos abandonados",
     "Bosques e pântanos à meia-noite"
   ],
-  "descricao": "Um devoto recém-admitido nas ordens secretas que adoram as divindades cósmicas. Veste túnicas rústicas com capuz para ocultar sua identidade de cidadão comum e carrega símbolos entalhados com geometrias não-euclidianas.",
+  "descricao": "Um devoto recém-admitido nas ordens secretas que adoram as divindades cósmicas. Veste túnicas rústicas com capuz para ocultar sua identidade de cidadão comum e carrega símbolos entalhados com geometrias não euclidianas.",
   "tatica": "Ataca em bando para proteger os altares ou rituais. Dispara de longe com armas de calibre pequeno e avança com facas cerimoniais quando ordenado pelos sacerdotes.",
   "complicacoes": [
     "Fanatismo Cego: cumpre qualquer ordem blasfema dos líderes do culto sem questionar.",
     "Obsessão pelos Mythos: mente degradada por cânticos e vislumbres profanos."
   ],
-  "fonte": "Chamado de Cthulhu (7ª Edição) & M&M 3e Supernatural Handbook",
+  "fonte": "Chamado de Cthulhu (7ª edição), cultistas genéricos; ficha montada sem bloco de estatísticas, adaptado para M&M 3e",
   "ficha": {
     "habilidades": {
       "For": 1,
@@ -38,7 +38,7 @@
       "Esquiva": 2,
       "Aparar": 2,
       "Fortitude": 2,
-      "Resistencia": 2,
+      "Resistencia": 1,
       "Vontade": 2
     },
     "pericias": {
@@ -60,7 +60,7 @@
         "bonus": 2,
         "dano": 2,
         "critico": 19,
-        "descricao": "Dano baseado em Força com lâmina cerimonial"
+        "descricao": "Corpo a corpo, perfurante; Força 1 + adaga 1"
       },
       {
         "nome": "Revólver .32",
@@ -72,7 +72,7 @@
     ],
     "equipamento": [
       "Adaga ritual (Dano 1, Crítico 19-20)",
-      "Revólver .32 (Dano 2, À Distância)",
+      "Revólver .32 (Dano 2, à distância)",
       "Túnica cerimonial e amuleto estranho"
     ]
   }
