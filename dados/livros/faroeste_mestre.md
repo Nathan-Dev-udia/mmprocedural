@@ -663,7 +663,7 @@ O peso das tabelas deste capítulo serve para saber quanto o personagem aguenta 
 - **Sobrecarregado** (acima disso): impedido.
 - **Montaria:** sela, alforjes e coldre de rifle vão no animal. Cavalo leva até 220 kg; mula, até 190 kg (estimativas da casa).
 
-A ficha do gerador mostra a carga, mas não tira itens por causa dela. Um personagem com Força 0 pode sair com carga pesada; peça que ele mande peso para o cavalo.
+A ficha do gerador mostra a carga e não tira itens por causa dela. Com montaria, o que passar da carga leve e não for usado no corpo (rações, ferramentas, bebida) vai no animal. Os PJs começam com Força 1, exceto o Jogador de Pôquer e o Médico de Fronteira; esses, sem cavalo, podem sair com carga pesada.
 
 ### 8.2 Classes de armas de fogo [Básico + Manual dos Mecanismos]
 

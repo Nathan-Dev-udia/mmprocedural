@@ -53,6 +53,16 @@ def _ajustes_de_poder(ficha, ativo=None):
     return total
 
 
+# Itens que ficam com o personagem mesmo quando ele tem montaria: o que ele usa no corpo ou precisa à mão.
+CATEGORIAS_QUE_FICAM_NO_CORPO = ("arma", "armadura", "escudo", "roupa", "chapéu", "munição", "poção", "acessórios de")
+
+
+def _vai_na_montaria_se_pesar(item):
+    """True se o item pode ir no animal quando a carga do personagem passa de leve."""
+    categoria = (item.get("categoria") or "").lower()
+    return bool(categoria) and not any(c in categoria for c in CATEGORIAS_QUE_FICAM_NO_CORPO)
+
+
 def _descricao_item(item, quantidade=1):
     """Nome do item com quantidade e peso (se houver)."""
     nome_com_qtd = _com_quantidade(item["nome"], quantidade)
@@ -162,20 +172,35 @@ def calcular(ficha, catalogo_equipamento, ativo=None):
                         "descritor": atq.get("descritor", ""), "qualidades": atq.get("qualidades", [])})
 
     # Com uma montaria (item com "carga"), a sela e os alforjes vão no animal, não nas costas do personagem.
-    tem_montaria = any(item.get("carga") for item in itens)
-    pesos, na_montaria = [], []
+    # Se ainda assim a carga passar de leve, os itens mais pesados que não se usam no corpo (mantimentos, ferramentas,
+    # cobertores) também vão no animal, até a carga voltar a leve ou a montaria encher.
+    montarias = [item["carga"] for item in itens if item.get("carga")]
+    forca = hab.get("For", 0)
+    pesos, na_montaria, transferiveis = [], [], []
     for item, i in zip(itens, ficha.get("equipamento", [])):
         if item.get("kit"):
             continue
         p = item.get("peso")
         if isinstance(p, (int, float)) and not isinstance(p, bool) and p > 0:
             qtd = ficha.get("quantidades", {}).get(i, 1) or 1
-            (na_montaria if tem_montaria and item.get("vai_na_montaria") else pesos).append(p * qtd)
+            if montarias and item.get("vai_na_montaria"):
+                na_montaria.append(p * qtd)
+            else:
+                pesos.append(p * qtd)
+                if montarias and not item.get("carga") and _vai_na_montaria_se_pesar(item):
+                    transferiveis.append(p * qtd)
+    if montarias:
+        leve, capacidade_da_montaria = medidas.capacidade_de_carga(forca)["leve"], max(montarias)
+        for p in sorted(transferiveis, reverse=True):
+            if sum(pesos) <= leve:
+                break
+            if sum(na_montaria) + p <= capacidade_da_montaria:
+                pesos.remove(p)
+                na_montaria.append(p)
     peso_total = round(sum(pesos), 2) if pesos else None
 
     carga = None
     if peso_total is not None:
-        forca = hab.get("For", 0)
         cap = medidas.capacidade_de_carga(forca)
         cat = medidas.categoria_de_carga(peso_total, forca)
         carga = {

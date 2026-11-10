@@ -324,6 +324,32 @@ def test_ficha_do_faroeste_mostra_a_carga_e_a_sela_vai_no_cavalo(dados):
     assert "mais 15 kg na montaria" in app.formatter.exibicao(a_cavalo)["carga"]
 
 
+def test_peso_que_passa_da_carga_leve_vai_na_montaria(dados):
+    from nucleo import validator
+    pedido = {"modo": "manual", "ids": ["revolver_pesado", "racoes", "cavalo"], "quantidades": {"racoes": 3}}
+    pj = gerar(dados, "jogador", 3, equipamento=pedido)
+    ficha = dict(pj["ficha"], habilidades=dict(pj["ficha"]["habilidades"], For=0))
+    carga = validator.validar(ficha, 3, dados["equipamentos"], player.opcoes_de_validacao(dados))["valores"]["carga"]
+    # As rações (22,5 kg) vão no cavalo; o revólver fica no coldre.
+    assert carga["categoria"] == "leve"
+    assert carga["peso_total"] == dados["equipamentos"]["revolver_pesado"]["peso"]
+    assert carga["na_montaria"] == 3 * dados["equipamentos"]["racoes"]["peso"]
+    sem_cavalo = dict(ficha, equipamento=["revolver_pesado", "racoes"])
+    a_pe = validator.validar(sem_cavalo, 3, dados["equipamentos"], player.opcoes_de_validacao(dados))["valores"]["carga"]
+    assert a_pe["categoria"] == "pesada" and a_pe["na_montaria"] == 0
+
+
+def test_pjs_do_faroeste_comecam_com_forca_1_exceto_os_da_cidade(dados):
+    da_cidade = {a for a, arq in dados["jogador"]["arquetipos"].items() if arq.get("forca_minima") == 0}
+    assert da_cidade == {"jogador", "medico"}
+    for arquetipo in set(ARQUETIPOS_PJ) - da_cidade:
+        for foco in dados["jogador"]["arquetipos"][arquetipo]["focos"]:
+            # No NP 2 a Força pode ficar em 0 quando passaria do limite do NP (a baioneta do veterano).
+            for np in (3, 6):
+                pj = gerar(dados, arquetipo, np, foco["id"], semente=np)
+                assert pj["ficha"]["habilidades"]["For"] >= 1, (arquetipo, foco["id"], np)
+
+
 def test_gatlings_entram_no_catalogo_com_multiataque(dados):
     gatling = dados["equipamentos"]["rifle_gatling"]
     assert gatling["ataque"]["multiataque"] and gatling["custo"] == 15 and gatling["comercio"] == "Armeiro"

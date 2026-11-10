@@ -755,9 +755,9 @@ Armas brancas e arremessadas **somam a sua Força ao dano**. Uma arma de madeira
 - **Carga pesada** (até a massa da Força): –1 na graduação de Velocidade.
 - **Sobrecarregado** (acima disso): você fica **impedido** (movimento pela metade).
 
-**Montaria.** Com cavalo ou mula, a **sela**, os **alforjes** e o **coldre de rifle** vão no animal e não contam na sua carga. O cavalo leva até 220 kg e anda com Velocidade 4 (60 km/h). A mula leva até 190 kg e anda com Velocidade 3 (30 km/h).
+**Montaria.** Com cavalo ou mula, a **sela**, os **alforjes** e o **coldre de rifle** vão no animal e não contam na sua carga. Se ainda assim você passar da carga leve, o gerador manda para o animal os itens mais pesados que você não usa no corpo (rações, ferramentas, cobertores, bebida), até a carga voltar a leve. Armas, munição, roupas e chapéus ficam com você. O cavalo leva até 220 kg e anda com Velocidade 4 (60 km/h). A mula leva até 190 kg e anda com Velocidade 3 (30 km/h).
 
-> **Força 0 pesa:** só as rações já são metade dos 15 kg de carga leve. Um personagem fraco que carrega arma, munição, rações e cantil chega fácil à carga pesada. Compre alforjes e deixe o resto no cavalo.
+> **Força 0 pesa:** só as rações já são metade dos 15 kg de carga leve. Por isso o gerador começa os personagens com Força 1, exceto o Jogador de Pôquer e o Médico de Fronteira, que vivem na cidade. Sem cavalo, um personagem com Força 0 chega fácil à carga pesada.
 
 ---
 
@@ -995,7 +995,7 @@ Para a ficha ficar parecida com as do livro básico, o gerador segue algumas reg
 ### 15.4 Lendo a ficha gerada
 
 - **Dinheiro:** quanto você tinha, quanto gastou, quanto sobrou (ou quanto ficou devendo) e o que não coube.
-- **Carga:** o peso que você leva, se é leve ou pesada e quanto vai na montaria (seção 11.8). O gerador não tira itens por causa do peso: uma ficha com Força 0 pode sair com carga pesada.
+- **Carga:** o peso que você leva, se é leve ou pesada e quanto vai na montaria (seção 11.8). O gerador não tira itens por causa do peso, mas manda para a montaria o que não se usa no corpo; sem montaria, uma ficha com Força 0 pode sair com carga pesada.
 - **Status "Validada":** o programa conferiu todos os custos e limites.
 - **Downloads:** ficha editável em PDF, em Word (DOCX) ou em texto.
 

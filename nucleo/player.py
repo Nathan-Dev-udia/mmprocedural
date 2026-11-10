@@ -677,6 +677,21 @@ def _sem_ataques_que_nao_usa(prioridades, usadas):
                                            and p["nome"] not in usadas)]
 
 
+def _aplicar_forca_minima(dados, arquetipo, ficha, np, orcamento, opcoes):
+    """Sobe a Força até o mínimo do gênero ("forca_minima" nas configurações; o arquétipo pode trocar), se couber no
+    orçamento e nos limites do NP (com Força, a baioneta do veterano NP 2 passaria do teto de ataque + dano).
+    No faroeste, Força 0 deixava a sela e os mantimentos acima da carga leve."""
+    minimo = arquetipo.get("forca_minima", dados["configuracoes"].get("forca_minima"))
+    if minimo is None:
+        return
+    while ficha["habilidades"]["For"] < minimo:
+        ficha["habilidades"]["For"] += 1
+        relatorio = validator.validar(ficha, np, dados["equipamentos"], opcoes)
+        if relatorio["problemas"] or (relatorio["total_pp"] or 0) > orcamento:
+            ficha["habilidades"]["For"] -= 1
+            return
+
+
 def _passos(dados, arquetipo, foco, vantagens_extras, so_vantagens_escolhidas, vantagens, ficha=None, np=6):
     reserva = dados["configuracoes"].get("pericias_de_reserva", PERICIAS_DE_RESERVA)
     teto = teto_de_pericia_fora_da_classe(np)
@@ -857,6 +872,7 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
         compras = compras + compras_de_implantes
         troco = round(troco - sum(c["preco"] for c in compras_de_implantes), 2)
 
+    _aplicar_forca_minima(dados, arquetipo, ficha, np, orcamento, opcoes)
     inicial = validator.validar(ficha, np, dados["equipamentos"], opcoes)["total_pp"] or 0
     if inicial > orcamento:
         raise GeneratorError(

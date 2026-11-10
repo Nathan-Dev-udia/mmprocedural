@@ -612,6 +612,7 @@
     },
     {
       "id": "jogador",
+      "forca_minima": 0,
       "nome": "Jogador de Pôquer",
       "conceito": "Elegância, blefe e truques de mão; resolve tudo na lábia ou com um tiro discreto.",
       "vantagens_essenciais": [
@@ -743,6 +744,7 @@
     },
     {
       "id": "medico",
+      "forca_minima": 0,
       "nome": "Médico de Fronteira",
       "conceito": "O homem de ciência num mundo chucro, que costura os buracos de bala do grupo.",
       "vantagens_essenciais": [

@@ -6,6 +6,8 @@
   "configuracoes": {
     "rotulo_poderes": "Traços naturais",
     "equipamento": "dinheiro",
-    "itens_basicos": ["racoes"]
+    "itens_basicos": ["racoes"],
+    "_forca_minima": "Força inicial dos PJs: a vida na fronteira (cavalgar, carregar sela e mantimentos) pede ao menos Força 1. Arquétipos da cidade baixam com \"forca_minima\": 0 no player.json.",
+    "forca_minima": 1
   }
 }

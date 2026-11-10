@@ -17,7 +17,8 @@ TIPOS_DE_BLOCO = {"tabela", "lista", "formulas", "gerado"}
 
 # Distâncias da tabela de tempo de viagem, em km.
 DISTANCIAS_DE_VIAGEM = [4, 8, 15, 30, 60, 120, 250]
-# Meios de transporte da tabela de tempo: (rótulo, id do item no catálogo com a Velocidade; None = a pé).
+# Meios de transporte da tabela de tempo: (rótulo, id do item no catálogo com a Velocidade; None = a pé; um número é
+# a própria graduação, para gêneros cujo catálogo não tem o veículo, como o metrô e os carros do cyberpunk).
 MEIOS_DE_VIAGEM = [("A pé", None), ("Carroça", "carroca"), ("Pônei ou mula", "ponei"),
                    ("Cavalo a galope", "cavalo_montaria")]
 MEIOS_DE_VIAGEM_POR_GENERO = {
@@ -26,6 +27,9 @@ MEIOS_DE_VIAGEM_POR_GENERO = {
                  ("Buckboard", "buckboard"), ("Cavalo a galope", "cavalo")],
     "cthulhu": [("A pé", None), ("Ford Modelo T", "ford_modelo_t"),
                 ("Packard de Luxo", "packard_luxo"), ("Motocicleta", "motocicleta")],
+    # Livro do Mestre do cyberpunk, seções 10.9 e 16.1.
+    "cyberpunk": [("A pé", None), ("Metrô ou ônibus", 3), ("Carro compacto ou moto", 5),
+                  ("Carro esportivo ou AV-4", 6), ("Superbike ou supercarro", 7)],
 }
 KM_POR_DIA_EM_RITMO_NORMAL = 38
 KM_POR_HORA_EM_RITMO_NORMAL = 5
@@ -36,11 +40,14 @@ CATEGORIAS_DE_MONTARIA = {"Montaria", "Veículos", "Transporte"}
 NOTA_DO_TEMPO_DE_VIAGEM = {
     "cthulhu": "Tempo = distância – velocidade. A velocidade máxima não se sustenta: para viagens longas de "
                "automóvel, conte paradas para gasolina, pneus furados e estradas de terra; a pé, use o ritmo normal.",
+    "cyberpunk": "Tempo = distância – velocidade. No trânsito de Night City, some +2 graduações de tempo; nas "
+                 "estradas da Zona de Combate, o mestre decide se dá para andar na velocidade máxima.",
 }
 NOTA_DAS_MONTARIAS = {
     "cthulhu": "O porta-malas e o banco de trás levam a bagagem, que não conta na carga de quem dirige.",
 }
 TITULO_DAS_MONTARIAS = {"cthulhu": "Veículos"}
+LOCAL_DA_QUEDA = {"cthulhu": "de um prédio urbano", "faroeste": "do saloon", "cyberpunk": "do bloco de contêineres"}
 
 
 def generos_com_escudo():
@@ -99,8 +106,8 @@ def _no_ritmo_normal(km):
 def _tempo_de_viagem(catalogo, dados=None, genero_id="fantasia"):
     genero = genero_id or (dados or {}).get("genero", {}).get("id", "fantasia")
     meios = MEIOS_DE_VIAGEM_POR_GENERO.get(genero, MEIOS_DE_VIAGEM)
-    velocidades = [(rotulo, 0 if item_id is None else catalogo[item_id]["velocidade"])
-                   for rotulo, item_id in meios]
+    velocidades = [(rotulo, 0 if item_id is None else item_id if isinstance(item_id, int)
+                    else catalogo[item_id]["velocidade"]) for rotulo, item_id in meios]
     colunas = (["Distância"] + [f"{rotulo} (Vel. {vel})" for rotulo, vel in velocidades]
                + [f"Ritmo normal ({KM_POR_DIA_EM_RITMO_NORMAL} km/dia)"])
     linhas = []
@@ -151,7 +158,7 @@ def _queda(_catalogo, _dados=None, genero_id="fantasia"):
         linhas.append([f"até {_numero(metros)} m", str(graduacao).replace("-", "–"),
                        f"Dano {dano}" if dano else "sem dano", f"CD {15 + dano}" if dano else "—"])
     linhas.append([f"mais de {ALTURAS_DE_QUEDA[-1]} m", "—", "Dano 16 (máximo)", "CD 31"])
-    local = "de um prédio urbano" if genero_id == "cthulhu" else ("do saloon" if genero_id == "faroeste" else "da taverna")
+    local = LOCAL_DA_QUEDA.get(genero_id, "da taverna")
     return {"tipo": "tabela", "titulo": "Queda", "colunas": ["Altura", "Distância", "Dano", "Resistência"],
             "linhas": linhas,
             "nota": f"Dano 4 + o dobro da graduação de distância, no máximo 16. Do segundo andar {local} (4 m): "

@@ -21,7 +21,7 @@ def _bloco(montado, titulo):
 
 
 def test_todos_os_escudos_tem_estrutura_valida():
-    assert escudo.generos_com_escudo() == ["cthulhu", "fantasia", "faroeste"]
+    assert escudo.generos_com_escudo() == ["cthulhu", "cyberpunk", "fantasia", "faroeste"]
     for genero in escudo.generos_com_escudo():
         assert escudo.conferir(escudo.montar(genero, data_loader.carregar_genero(genero))) == []
 
@@ -39,7 +39,7 @@ def test_queda_segue_a_regra_do_livro():
     assert medidas.dano_de_queda(10_000) == 16
 
 
-@pytest.mark.parametrize("genero", ["fantasia", "faroeste", "cthulhu"])
+@pytest.mark.parametrize("genero", ["fantasia", "faroeste", "cthulhu", "cyberpunk"])
 def test_tempo_de_viagem_usa_as_velocidades_do_catalogo(genero):
     dados = data_loader.carregar_genero(genero)
     montado_genero = escudo.montar(genero, dados)
@@ -54,6 +54,9 @@ def test_tempo_de_viagem_usa_as_velocidades_do_catalogo(genero):
         # Ford T (Velocidade 4) é 1 hora; Packard (Velocidade 5) é 30 minutos
         assert linha_60km[2] == "1 hora"
         assert linha_60km[3] == "30 minutos"
+    elif genero == "cyberpunk":
+        # Velocidades fixas do Livro do Mestre (seção 16.1): metrô 3 é 2 horas; carro compacto 5, 30 minutos.
+        assert linha_60km[2:6] == ["2 horas", "30 minutos", "15 minutos", "8 minutos"]
 
 
 def test_carga_bate_com_o_validador(montado):
@@ -72,7 +75,7 @@ def test_negrito_vira_partes():
     assert escudo.partes_do_texto("**Teste** = d20") == [("Teste", True), (" = d20", False)]
 
 
-@pytest.mark.parametrize("genero", ["fantasia", "faroeste", "cthulhu"])
+@pytest.mark.parametrize("genero", ["fantasia", "faroeste", "cthulhu", "cyberpunk"])
 def test_pdf_tem_uma_pagina_por_aba(genero):
     dados = data_loader.carregar_genero(genero)
     montado_genero = escudo.montar(genero, dados)
@@ -83,13 +86,13 @@ def test_pdf_tem_uma_pagina_por_aba(genero):
         assert aba["nome"] in texto
 
 
-@pytest.mark.parametrize("genero", ["fantasia", "faroeste", "cthulhu"])
+@pytest.mark.parametrize("genero", ["fantasia", "faroeste", "cthulhu", "cyberpunk"])
 def test_planilha_tem_uma_folha_por_aba(genero):
     dados = data_loader.carregar_genero(genero)
     montado_genero = escudo.montar(genero, dados)
     livro = openpyxl.load_workbook(io.BytesIO(escudo_xlsx.gerar_xlsx(montado_genero)))
     assert livro.sheetnames == [aba["nome"] for aba in montado_genero["abas"]]
-    viagem = livro["Viagem"]
+    viagem = livro[next(aba["nome"] for aba in montado_genero["abas"] if aba["id"] == "viagem")]
     valores = [c for linha in viagem.iter_rows(values_only=True) for c in linha if c is not None]
     assert "Tempo de viagem (velocidade máxima contínua)" in valores and "1,5 dia" in valores
     assert viagem.page_setup.orientation == "landscape"
@@ -97,15 +100,14 @@ def test_planilha_tem_uma_folha_por_aba(genero):
 
 def test_pagina_e_download():
     cliente = app.app.test_client()
-    for genero in ("fantasia", "faroeste", "cthulhu"):
+    for genero in ("fantasia", "faroeste", "cthulhu", "cyberpunk"):
         pagina = cliente.get(f"/?genero={genero}").get_data(as_text=True)
         assert 'id="aba-escudo"' in pagina and "<strong>Teste</strong>" in pagina
         resposta = cliente.get(f"/escudo/{genero}.pdf")
         assert resposta.status_code == 200 and resposta.data.startswith(b"%PDF")
         planilha = cliente.get(f"/escudo/{genero}.xlsx")
         assert planilha.status_code == 200 and planilha.data.startswith(b"PK")
-    assert 'id="aba-escudo"' not in cliente.get("/?genero=cyberpunk").get_data(as_text=True)
-    assert cliente.get("/escudo/cyberpunk.pdf").status_code == 404
+    assert cliente.get("/escudo/herois.pdf").status_code == 404
     assert cliente.get("/escudo/fantasia.docx").status_code == 404
 
 
@@ -126,3 +128,19 @@ def test_escudo_cthulhu_usa_regras_do_mm_e_a_fonte_unica_de_sanidade():
     for proibido in ("Forçar a montaria", "Sela e alforjes", "permanente.", "Histérico", "não-", "New York"):
         assert proibido not in texto, proibido
     assert [a["id"] for a in montado_c["abas"]].count("objetos") == 1
+
+
+def test_escudo_cyberpunk_segue_o_livro_do_mestre():
+    dados = data_loader.carregar_genero("cyberpunk")
+    montado_c = escudo.montar("cyberpunk", dados)
+    # Uma página de PDF por aba (o combate não transborda).
+    leitor = pypdf.PdfReader(io.BytesIO(escudo_pdf.gerar_pdf(montado_c, "teste")))
+    assert len(leitor.pages) == len(montado_c["abas"])
+    dano = _bloco(montado_c, "Dano: padrão e letal")
+    assert [l[0].split(" (")[0] for l in dano["linhas"]] == ["Sucesso", "1º grau", "2º grau", "3º grau", "4º grau"]
+    assert "tonto" in dano["linhas"][2][1] and "moribundo" in dano["linhas"][4][2]
+    assert [l[0] for l in _bloco(montado_c, "Lesões no corpo (2d6)")["linhas"]] == [str(n) for n in range(2, 13)]
+    assert [l[2] for l in _bloco(montado_c, "Arquiteturas da NET")["linhas"]] == ["15", "20", "25", "30"]
+    texto = json.dumps(montado_c, ensure_ascii=False)
+    for proibido in ("Forçar a montaria", "Sela e alforjes", "saloon", "taverna", "Indefeso, atordoado e desatento; cai"):
+        assert proibido not in texto, proibido
