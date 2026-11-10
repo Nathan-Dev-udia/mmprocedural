@@ -43,6 +43,7 @@ Rascunho do que ficou para depois (atualizado na versão 1.7.0).
 - **Próximo passo:** Livro do Jogador e Livro do Mestre de Cthulhu. Instruções para a IA (estrutura, fontes, decisões e armadilhas) em `dados/generos/cthulhu/PREPARACAO_LIVROS.md`.
 
 ## Outros
+- **Novos temas (só preparação):** `dados/generos/IDEIAS_DE_TEMAS.md` lista Delta Green, escola de magia, samurai, kaiju e ópera espacial, com um `PREPARACAO_GENERO.md` em cada pasta. Kaiju e ópera espacial dependem de decidir o sistema de veículos e mechas.
 - Biblioteca de fichas salvas, edição de arquétipos pela interface e mechas, como já estava no README.
 
 ## Heróis conhecidos (Marvel e DC)

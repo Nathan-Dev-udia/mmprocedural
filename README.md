@@ -338,6 +338,7 @@ Atualizado em 10/11/2026. Pendências mais antigas estão em `PENDENCIAS.md`.
   - hoje o +4 de Furtividade e o –2 de Intimidação somam no total e vão para "Outros" no PDF, sem dizer que vêm do tamanho;
   - só existe o tamanho Pequeno para raças: um PJ Miúdo ou Grande ainda não é possível.
 - **Livro das Classes e Subclasses:** falta a leitura do usuário, principalmente as linhas "Escolha se…", que são sugestões do Claude.
+- **Novos temas:** horror moderno (Delta Green), escola de magia (Harry Potter), samurai, kaiju (Pacific Rim) e ópera espacial (Star Wars). Índice, ordem sugerida e passo a passo comum em `dados/generos/IDEIAS_DE_TEMAS.md`; cada tema tem um `PREPARACAO_GENERO.md` na própria pasta.
 - **Livros de Chamado de Cthulhu:** o gênero, o escudo e o bestiário estão prontos; faltam o Livro do Jogador e o do Mestre. Instruções em `dados/generos/cthulhu/PREPARACAO_LIVROS.md`.
 - **Faroeste:**
   - revisar o texto dos livros;
