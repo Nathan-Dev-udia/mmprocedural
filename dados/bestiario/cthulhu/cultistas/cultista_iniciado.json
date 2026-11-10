@@ -1,0 +1,79 @@
+{
+  "id": "cthulhu/cultistas/cultista_iniciado",
+  "genero": "cthulhu",
+  "familia": "Cultista",
+  "variante": "Iniciado",
+  "padrao": true,
+  "nome": "Cultista Iniciado",
+  "tipo": "Humanoide",
+  "subtipo": "Cultista",
+  "papel": "Lacaio",
+  "chefe": false,
+  "tamanho": "Médio",
+  "nivel_poder": 2,
+  "ambientes": [
+    "Celas e porões urbanos",
+    "Templos abandonados",
+    "Bosques e pântanos à meia-noite"
+  ],
+  "descricao": "Um devoto recém-admitido nas ordens secretas que adoram as divindades cósmicas. Veste túnicas rústicas com capuz para ocultar sua identidade de cidadão comum e carrega símbolos entalhados com geometrias não-euclidianas.",
+  "tatica": "Ataca em bando para proteger os altares ou rituais. Dispara de longe com armas de calibre pequeno e avança com facas cerimoniais quando ordenado pelos sacerdotes.",
+  "complicacoes": [
+    "Fanatismo Cego: cumpre qualquer ordem blasfema dos líderes do culto sem questionar.",
+    "Obsessão pelos Mythos: mente degradada por cânticos e vislumbres profanos."
+  ],
+  "fonte": "Chamado de Cthulhu (7ª Edição) & M&M 3e Supernatural Handbook",
+  "ficha": {
+    "habilidades": {
+      "For": 1,
+      "Vig": 1,
+      "Agi": 1,
+      "Des": 1,
+      "Lut": 1,
+      "Int": 0,
+      "Pro": 1,
+      "Pre": 0
+    },
+    "defesas": {
+      "Esquiva": 2,
+      "Aparar": 2,
+      "Fortitude": 2,
+      "Resistencia": 2,
+      "Vontade": 2
+    },
+    "pericias": {
+      "Furtividade": 3,
+      "Intimidação": 2,
+      "Percepção": 2,
+      "Especialidade: Ocultismo": 3,
+      "Combate à Distância: Armas de Fogo": 1,
+      "Combate Corpo-a-Corpo: Lâminas": 1
+    },
+    "vantagens": [
+      "Benefício (Membro do Culto)",
+      "Equipamento 2"
+    ],
+    "poderes": [],
+    "ataques": [
+      {
+        "nome": "Adaga Ritual",
+        "bonus": 2,
+        "dano": 2,
+        "critico": 19,
+        "descricao": "Dano baseado em Força com lâmina cerimonial"
+      },
+      {
+        "nome": "Revólver .32",
+        "bonus": 2,
+        "dano": 2,
+        "critico": 20,
+        "descricao": "À distância, balístico"
+      }
+    ],
+    "equipamento": [
+      "Adaga ritual (Dano 1, Crítico 19-20)",
+      "Revólver .32 (Dano 2, À Distância)",
+      "Túnica cerimonial e amuleto estranho"
+    ]
+  }
+}

@@ -34,10 +34,11 @@ def _campos_e_formulas(criatura_id, nome=None, np=None):
     f = dados.get("ficha", {})
     hab = f.get("habilidades", {})
 
+    genero_nome = resumo.get("genero_nome", "Bestiário") if resumo else "Bestiário"
     campos = {
         "Herói": nome or dados.get("nome", ""),
         "Identidade": f"{dados.get('tipo', '')} ({dados.get('papel', '')})",
-        "Gênero": "Fantasia / Bestiário",
+        "Gênero": f"{genero_nome} / Bestiário",
         "Idade": "",
         "Altura": dados.get("tamanho", "Médio"),
         "Peso": "",

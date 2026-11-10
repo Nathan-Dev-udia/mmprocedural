@@ -68,6 +68,7 @@ NOMES_DOS_GENEROS = {
     "fantasia": "Fantasia",
     "faroeste": "Faroeste",
     "cyberpunk": "Cyberpunk",
+    "cthulhu": "Chamado de Cthulhu",
 }
 
 

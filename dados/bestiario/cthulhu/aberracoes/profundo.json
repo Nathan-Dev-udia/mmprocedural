@@ -1,0 +1,93 @@
+{
+  "id": "cthulhu/aberracoes/profundo",
+  "genero": "cthulhu",
+  "familia": "Profundo",
+  "variante": "Guerreiro Profundo",
+  "padrao": true,
+  "nome": "Profundo",
+  "tipo": "Aberração",
+  "subtipo": "Profundo",
+  "papel": "Soldado / Predador",
+  "chefe": false,
+  "tamanho": "Médio",
+  "nivel_poder": 5,
+  "ambientes": [
+    "Profundezas oceânicas",
+    "Costas rochosas e recifes isolados",
+    "Portos decadentes (como Innsmouth)"
+  ],
+  "descricao": "Criatura anfíbia semi-humanoide com cabeça de peixe ou batráquio, olhos protuberantes e vítreos que jamais piscam, guelras pulsantes na garganta e membranas interdigitais. Sua pele verde-acinzentada brilha com uma camada mucosa oleosa.",
+  "tatica": "Ataca em emboscadas coordenadas partindo da água. Arrasta oponentes para o fundo do mar ou rios, onde ganha vantagem absoluta de mobilidade e sufocamento.",
+  "complicacoes": [
+    "Dependência de Água: resseca-se e enfraquece gravemente se passar dias longe de água salgada.",
+    "Devoção Absoluta: reverência inabalável ao Pai Dagon, à Mãe Hydra e ao Grande Cthulhu."
+  ],
+  "fonte": "H.P. Lovecraft (A Sombra sobre Innsmouth) & Chamado de Cthulhu (7ª Edição)",
+  "ficha": {
+    "habilidades": {
+      "For": 4,
+      "Vig": 4,
+      "Agi": 2,
+      "Des": 1,
+      "Lut": 4,
+      "Int": 0,
+      "Pro": 2,
+      "Pre": 0
+    },
+    "defesas": {
+      "Esquiva": 4,
+      "Aparar": 4,
+      "Fortitude": 6,
+      "Resistencia": 6,
+      "Vontade": 4
+    },
+    "pericias": {
+      "Atletismo": 6,
+      "Percepção": 4,
+      "Furtividade": 4,
+      "Combate Corpo-a-Corpo: Garras e Tridente": 1
+    },
+    "vantagens": [
+      "Luta no Chão",
+      "Empunhadura Aprimorada",
+      "Equipamento 1"
+    ],
+    "poderes": [
+      {
+        "nome": "Anfíbio Abissal",
+        "construcao": "Imunidade 3 (Afogamento, Frio Oceânico, Pressão das Profundezas)."
+      },
+      {
+        "nome": "Natação Veloz",
+        "construcao": "Natação 3 (15 km/h)."
+      },
+      {
+        "nome": "Couraça Escamosa e Borrachuda",
+        "construcao": "Proteção 2."
+      },
+      {
+        "nome": "Visão Abissal",
+        "construcao": "Sentidos 2 (Visão no Escuro)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Garras Lacradoras",
+        "bonus": 5,
+        "dano": 5,
+        "critico": 19,
+        "descricao": "Corpo a corpo, cortante baseado em Força"
+      },
+      {
+        "nome": "Tridente Profano",
+        "bonus": 5,
+        "dano": 5,
+        "critico": 20,
+        "descricao": "Corpo a corpo, perfurante"
+      }
+    ],
+    "equipamento": [
+      "Tridente de bronze trabalhado com motivos blasfemos"
+    ]
+  }
+}

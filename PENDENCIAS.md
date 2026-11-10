@@ -26,7 +26,17 @@ Rascunho do que ficou para depois (atualizado na versão 1.7.0).
 - **Página 3 no PDF da Ficha (Registro de Sanidade):** implementada em `nucleo/sanidade_pdf.py` e anexada automaticamente em `nucleo/pdf_export.py`. Traz contador visual de 00 a 99, estatísticas vitais, regras resumidas de Sanidade, tabela d10 de Acessos de Loucura, registro de Fobias e Manias, e diário de Criaturas e Tomos do Mythos.
 - **Escudo do Mestre (Site, PDF e XLSX):** 7 abas especializadas em `dados/escudo/cthulhu.json` cobrindo testes investigativos, combate nos anos 20, condições, aba dedicada de Sanidade & Horror, viagens e veículos de 1920 (Ford Modelo T, Packard, trem), perigos/explosivos e serviços da metrópole (hotéis, hospitais, speakeasies).
 - **Testes automatizados:** `tests/test_cthulhu.py` e `tests/test_escudo.py` com validação completa de dados, cálculos, geração de PDFs, planilhas e rotas web. Todos os 442 testes do projeto passando com 100% de sucesso.
-- **Próximos passos opcionais:** Bestiário do Mythos (profundos, ghouls, mi-go) e Livro do Jogador/Mestre de Cthulhu.
+- **Bestiário do Mythos integrado ao sistema de Bestiário (`dados/bestiario/cthulhu/`):**
+  - 7 criaturas cadastradas sob regras estritas de M&M 3e e testadas de NP 1 a 20:
+    1. Cultista Iniciado (NP 2, Humanoide, Lacaio, padrão da família Cultista)
+    2. Cultista Fanático (NP 3, Humanoide, Bruto / Lacaio)
+    3. Sumo Sacerdote do Culto (NP 5, Humanoide, Líder / Conjurador / Chefe)
+    4. Carniçal dos Mythos (NP 4, Aberração, Emboscador / Lacaio)
+    5. Profundo (NP 5, Aberração, Soldado / Predador)
+    6. Mi-Go (NP 6, Aberração, Conjurador / Voador)
+    7. Shoggoth (NP 9, Aberração, Bruto / Chefe Solo, Tamanho Enorme)
+  - Filtro por gênero "Chamado de Cthulhu" na aba do Bestiário, rotas de API, exportação DOCX agrupada/multi-cópia e geração de PDFs editáveis.
+- **Próximos passos opcionais:** Livro do Jogador/Mestre de Cthulhu e Escudo do Mestre para Cyberpunk.
 
 ## Outros
 - Biblioteca de fichas salvas, edição de arquétipos pela interface e mechas, como já estava no README.

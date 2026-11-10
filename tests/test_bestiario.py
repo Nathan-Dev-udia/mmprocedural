@@ -347,3 +347,83 @@ def test_rotas_com_np_escolhido():
         assert sorted(pacote.namelist()) == ["carnical_np12_1.pdf", "carnical_np12_2.pdf"]
     campos = bestiario_pdf.campos_da_criatura("fantasia/mortos_vivos/carnical", np=12)
     assert campos["Nível de Poder"] == "12" and campos["Luta"] == "12"
+
+
+def test_bestiario_cthulhu_catalogo_e_filtros():
+    bestiario.limpar_cache()
+    generos = {g["id"]: g for g in bestiario.generos()}
+    assert "cthulhu" in generos
+    assert generos["cthulhu"]["nome"] == "Chamado de Cthulhu"
+    assert generos["cthulhu"]["quantidade"] == 7
+
+    cthulhu_lista = bestiario.lista("cthulhu")
+    assert len(cthulhu_lista) == 7
+    ids = {c["id"] for c in cthulhu_lista}
+    esperados = {
+        "cthulhu/cultistas/cultista_iniciado",
+        "cthulhu/cultistas/cultista_fanatico",
+        "cthulhu/cultistas/cultista_sacerdote",
+        "cthulhu/aberracoes/carnical_mythos",
+        "cthulhu/aberracoes/profundo",
+        "cthulhu/aberracoes/mi_go",
+        "cthulhu/aberracoes/shoggoth",
+    }
+    assert ids == esperados
+
+    # Família Cultista
+    cultistas = [c for c in cthulhu_lista if c["familia"] == "Cultista"]
+    assert len(cultistas) == 3
+    variantes_culto = {c["variante"] for c in cultistas}
+    assert variantes_culto == {"Iniciado", "Fanático", "Sumo Sacerdote"}
+    iniciado = next(c for c in cultistas if c["variante"] == "Iniciado")
+    assert iniciado["padrao"] is True
+    sacerdote = next(c for c in cultistas if c["variante"] == "Sumo Sacerdote")
+    assert sacerdote["chefe"] is True
+
+    # Aberrações
+    shoggoth = next(c for c in cthulhu_lista if c["id"] == "cthulhu/aberracoes/shoggoth")
+    assert shoggoth["np"] == 9
+    assert shoggoth["chefe"] is True
+    assert shoggoth["tamanho"] == "Enorme"
+    assert "Bruto" in shoggoth["papeis"]
+
+    mi_go = next(c for c in cthulhu_lista if c["id"] == "cthulhu/aberracoes/mi_go")
+    assert mi_go["np"] == 6
+    assert "Voador" in mi_go["papeis"]
+
+    profundo = next(c for c in cthulhu_lista if c["id"] == "cthulhu/aberracoes/profundo")
+    assert profundo["np"] == 5
+
+    carnical = next(c for c in cthulhu_lista if c["id"] == "cthulhu/aberracoes/carnical_mythos")
+    assert carnical["np"] == 4
+
+    # Todas as criaturas de Cthulhu respeitam limites de NP
+    for c_id in esperados:
+        dados, _ = bestiario.carregar(c_id)
+        assert _excesso(dados) <= 0, f"Criatura {c_id} excedeu limites de NP"
+
+
+def test_bestiario_cthulhu_downloads_e_rotas():
+    cliente = app.app.test_client()
+
+    # Rota API
+    resp_api = cliente.get("/api/bestiario/cthulhu/cultistas/cultista_iniciado")
+    assert resp_api.status_code == 200
+    dados = resp_api.get_json()["ficha"]
+    assert dados["nome"] == "Cultista Iniciado"
+    assert dados["familia"] == "Cultista"
+    assert dados["total_variantes"] == 3
+
+    # Rota PDF
+    resp_pdf = cliente.get("/bestiario/cthulhu/cultistas/cultista_sacerdote.pdf")
+    assert resp_pdf.status_code == 200
+    assert resp_pdf.mimetype == "application/pdf"
+    assert len(resp_pdf.data) > 10000
+
+    # Rota DOCX com quantidade
+    resp_docx = cliente.get("/bestiario/cthulhu/aberracoes/shoggoth.docx?quantidade=2")
+    assert resp_docx.status_code == 200
+    doc = Document(io.BytesIO(resp_docx.data))
+    titulos = [p.text for p in doc.paragraphs if p.style.name == "Heading 1"]
+    assert titulos == ["Shoggoth 1", "Shoggoth 2"]
+

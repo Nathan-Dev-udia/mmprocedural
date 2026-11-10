@@ -1,0 +1,105 @@
+{
+  "id": "cthulhu/aberracoes/shoggoth",
+  "genero": "cthulhu",
+  "familia": "Shoggoth",
+  "variante": "Massa Protoplasmática",
+  "padrao": true,
+  "nome": "Shoggoth",
+  "tipo": "Aberração",
+  "subtipo": "Shoggoth",
+  "papel": "Bruto / Chefe (Solo)",
+  "chefe": true,
+  "tamanho": "Enorme",
+  "nivel_poder": 9,
+  "ambientes": [
+    "Cidades esquecidas na Antártida",
+    "Fossas submarinas abissais",
+    "Ruínas pré-humanas subterrâneas"
+  ],
+  "descricao": "Uma gigantesca e horripilante massa plástica negra e luminescente de vários metros de diâmetro. Brota continuamente dezenas de olhos verdes pustulentos, bocas repletas de dentes pontiagudos e tentáculos espessos que se desmancham na própria gosma. Arrasta-se avassaladoramente entoando como zombaria o pavoroso grito: 'Tekeli-li! Tekeli-li!'.",
+  "tatica": "Avança como uma avalanche de matéria viva esmagadora, cobrindo o campo de batalha com pseudópodes e engolindo investigadores para triturá-los sob toneladas de protoplasma.",
+  "complicacoes": [
+    "Pavor Ardente: sensível ao fogo contínuo e altas voltagens que incineram sua matriz orgânica.",
+    "Eco dos Criadores: repete incessantemente a mímica sonora 'Tekeli-li', o que impede qualquer tentativa de passar furtivo enquanto se move."
+  ],
+  "fonte": "H.P. Lovecraft (Nas Montanhas da Loucura) & Chamado de Cthulhu (7ª Edição)",
+  "ficha": {
+    "habilidades": {
+      "For": 11,
+      "Vig": 11,
+      "Agi": 0,
+      "Des": -2,
+      "Lut": 6,
+      "Int": -3,
+      "Pro": 2,
+      "Pre": -1
+    },
+    "defesas": {
+      "Esquiva": 4,
+      "Aparar": 4,
+      "Fortitude": 11,
+      "Resistencia": 14,
+      "Vontade": 7
+    },
+    "pericias": {
+      "Intimidação": 12,
+      "Atletismo": 4,
+      "Percepção": 6,
+      "Combate Corpo-a-Corpo: Pseudópodes": 1
+    },
+    "vantagens": [
+      "Agarrar Aprimorado",
+      "Derrubar Aprimorado",
+      "Estrangular",
+      "Destemido",
+      "Quebrar Aprimorado",
+      "Interposição"
+    ],
+    "poderes": [
+      {
+        "nome": "Tamanho Enorme",
+        "construcao": "Crescimento 8 (Permanente, Inato: +8 Força, +8 Vigor, -4 Esquiva/Aparar, +1 de Velocidade)."
+      },
+      {
+        "nome": "Massa Protoplasmática Amorfa",
+        "construcao": "Imunidade 20 (Golpes Críticos, Aprisionamento, Flanqueamento, Dano Contundente reduzido à metade, Sufocamento); Proteção 3 (Impenetrável 8)."
+      },
+      {
+        "nome": "Esmagamento Protoplasmático",
+        "construcao": "Dano 11 (Baseado em Força) Ligado a Aflição 9 (resistida por Fortitude; Tonto, Atordoado, Incapacitado)."
+      },
+      {
+        "nome": "Onda de Pseudópodes",
+        "construcao": "Dano 9 (Área Explosão 9 m)."
+      },
+      {
+        "nome": "Uivo Perturbador (Tekeli-li!)",
+        "construcao": "Aflição 9 (resistida por Vontade; Pasmo, Compelido a fugir em pânico), Área Auditiva (Percepção)."
+      },
+      {
+        "nome": "Sentidos Onidirecionais",
+        "construcao": "Sentidos 4 (Visão no Escuro, Percepção Sísmica 2)."
+      },
+      {
+        "nome": "Deslocamento Plástico",
+        "construcao": "Movimento 2 (Deslizar, Escalar Paredes 1)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Esmagamento Protoplasmático",
+        "bonus": 7,
+        "dano": 11,
+        "critico": 20,
+        "descricao": "Corpo a corpo, contundente esmagador + Aflição 9 (CD 19 de Fortitude; Tonto / Atordoado / Incapacitado)"
+      },
+      {
+        "nome": "Onda de Pseudópodes",
+        "bonus": 0,
+        "dano": 9,
+        "critico": 20,
+        "descricao": "Área Explosão 9 m (CD 19 de Esquiva para metade do Dano 9 contundente)"
+      }
+    ]
+  }
+}

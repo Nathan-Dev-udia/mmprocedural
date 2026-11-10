@@ -1,0 +1,101 @@
+{
+  "id": "cthulhu/aberracoes/mi_go",
+  "genero": "cthulhu",
+  "familia": "Mi-Go",
+  "variante": "Fungo de Yuggoth",
+  "padrao": true,
+  "nome": "Mi-Go",
+  "tipo": "Aberração",
+  "subtipo": "Mi-Go",
+  "papel": "Conjurador / Voador",
+  "chefe": false,
+  "tamanho": "Médio",
+  "nivel_poder": 6,
+  "ambientes": [
+    "Montanhas isoladas de Vermont e Himalaia",
+    "Minas e cavernas profundas",
+    "Vácuo interestelar e bases em Plutão"
+  ],
+  "descricao": "Um ser alienígena com consistência fungosa e carapaça crustácea rosada, dotado de múltiplos pares de membros articulados, asas membranosas capazes de viajar pelo éter interestelar e uma cabeça convoluta sem rosto, cercada de pequenas antenas ciliadas que pulsam com luzes policromáticas.",
+  "tatica": "Usa a mobilidade aérea e ataques à distância com seus projetores elétricos. Se engajado em combate próximo, tenta desarmar e imobilizar o oponente para capturá-lo para extração cirúrgica de cérebro.",
+  "complicacoes": [
+    "Estranheza Fotográfica: sua matéria não emite nem reflete a luz de forma comum, aparecendo desfocado ou invisível em emulsões fotográficas comuns.",
+    "Vulnerabilidade Sônica: frequências de ressonância acústica específicas perturbam suas antenas sensoriais."
+  ],
+  "fonte": "H.P. Lovecraft (A Coisa no Nevoeiro) & Chamado de Cthulhu (7ª Edição)",
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 3,
+      "Agi": 2,
+      "Des": 3,
+      "Lut": 4,
+      "Int": 6,
+      "Pro": 3,
+      "Pre": 1
+    },
+    "defesas": {
+      "Esquiva": 6,
+      "Aparar": 5,
+      "Fortitude": 5,
+      "Resistencia": 6,
+      "Vontade": 7
+    },
+    "pericias": {
+      "Especialidade: Ciências Alienígenas": 8,
+      "Especialidade: Medicina Cirúrgica": 6,
+      "Percepção": 5,
+      "Tecnologia": 6,
+      "Furtividade": 4,
+      "Combate à Distância: Armas de Raio": 3,
+      "Combate Corpo-a-Corpo: Pinças": 2
+    },
+    "vantagens": [
+      "Inventor",
+      "Trabalho em Equipe",
+      "Ataque à Distância 3"
+    ],
+    "poderes": [
+      {
+        "nome": "Projetor Elétrico Alienígena",
+        "construcao": "Dano 6 (À Distância, Balístico / Energia)."
+      },
+      {
+        "nome": "Asas do Éter",
+        "construcao": "Voo 3 (250 m por rodada); Movimento 1 (Adaptação Espacial)."
+      },
+      {
+        "nome": "Fisiologia Extraterrestre Quase-Fúngica",
+        "construcao": "Imunidade 6 (Sufocamento, Vácuo, Frio Extremo, Radiação); Proteção 3."
+      },
+      {
+        "nome": "Cirurgia Extratora de Cérebros",
+        "construcao": "Aflição 6 (resistida por Fortitude; Tonto, Atordoado, Incapacitado); Permite transplante para cilindro metálico em vítimas indefesas."
+      },
+      {
+        "nome": "Comunicação Ciliada Óptica",
+        "construcao": "Comunicação 1 (Sensorial Óptico por vibração luminosa de antenas); Sentidos 3 (Visão no Escuro, Sentido Eletromagnético)."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Pinças Articuladas",
+        "bonus": 6,
+        "dano": 4,
+        "critico": 20,
+        "descricao": "Corpo a corpo, cortante e contundente; agarra a vítima"
+      },
+      {
+        "nome": "Projetor Elétrico Alienígena",
+        "bonus": 6,
+        "dano": 6,
+        "critico": 20,
+        "descricao": "À distância, elétrico"
+      }
+    ],
+    "equipamento": [
+      "Cilindro metálico preservador de cérebros",
+      "Instrumentos cirúrgicos alienígenas"
+    ]
+  }
+}

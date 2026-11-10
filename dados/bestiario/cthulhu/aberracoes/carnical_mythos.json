@@ -1,0 +1,90 @@
+{
+  "id": "cthulhu/aberracoes/carnical_mythos",
+  "genero": "cthulhu",
+  "familia": "Carniçal dos Mythos",
+  "variante": "Carniçal Nefrófago",
+  "padrao": true,
+  "nome": "Carniçal dos Mythos",
+  "tipo": "Aberração",
+  "subtipo": "Carniçal",
+  "papel": "Emboscador / Lacaio",
+  "chefe": false,
+  "tamanho": "Médio",
+  "nivel_poder": 4,
+  "ambientes": [
+    "Cemitérios e mausoléus antigos",
+    "Túneis sob cidades litorâneas",
+    "Galerias subterrâneas e catacumbas"
+  ],
+  "descricao": "Uma figura humanoide grotesca com feições caninas repulsivas, pele gomosa e acinzentada, membros compridos e garras encardidas com restos de sepulturas violadas. Fala em uivos guturais e grunhidos em dialetos antiquíssimos.",
+  "tatica": "Espreita nas sombras e ataca de surpresa surgindo de buracos ou valas. Arrasta presas isoladas para a escuridão dos túneis enquanto outros membros do bando distraem os companheiros.",
+  "complicacoes": [
+    "Sensibilidade à Luz Forte: sofre desconforto e desvantagem sob sol intenso do meio-dia.",
+    "Fome Necrófaga: atração obsessiva por restos mortais e carne em putrefação."
+  ],
+  "fonte": "H.P. Lovecraft (O Modelo de Pickman) & Chamado de Cthulhu (7ª Edição)",
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 3,
+      "Agi": 3,
+      "Des": 0,
+      "Lut": 4,
+      "Int": 0,
+      "Pro": 2,
+      "Pre": -1
+    },
+    "defesas": {
+      "Esquiva": 4,
+      "Aparar": 4,
+      "Fortitude": 5,
+      "Resistencia": 4,
+      "Vontade": 3
+    },
+    "pericias": {
+      "Furtividade": 5,
+      "Percepção": 4,
+      "Atletismo": 3,
+      "Intimidação": 4
+    },
+    "vantagens": [
+      "Ocultar-se à Vista de Todos",
+      "Ataque Descuidado"
+    ],
+    "poderes": [
+      {
+        "nome": "Garras Imundas e Mordida",
+        "construcao": "Dano 4 (Baseado em Força)."
+      },
+      {
+        "nome": "Febre dos Cadáveres",
+        "construcao": "Aflição 4 (resistida por Fortitude; Prejudicado, Indefeso), Ligado ao ataque de Garras e Mordida."
+      },
+      {
+        "nome": "Sentidos Subterrâneos",
+        "construcao": "Sentidos 3 (Visão na Penumbra, Olfato Aguçado, Rastrear)."
+      },
+      {
+        "nome": "Escalador Ágil",
+        "construcao": "Movimento 1 (Escalar Paredes 1)."
+      },
+      {
+        "nome": "Imunidades",
+        "construcao": "Imunidade 2 (Doenças e Venenos ordinários)."
+      },
+      {
+        "nome": "Pele Gomosa",
+        "construcao": "Proteção 1."
+      }
+    ],
+    "ataques": [
+      {
+        "nome": "Garras e Mordida",
+        "bonus": 4,
+        "dano": 4,
+        "critico": 20,
+        "descricao": "Corpo a corpo, cortante e perfurante + Aflição 4 (CD 14 de Fortitude; Febre cadavérica)"
+      }
+    ]
+  }
+}
