@@ -163,34 +163,14 @@
               "Vontade"
             ],
             [
-              "Finta em tiroteio",
-              "Enganação ou Acrobacia",
-              "Intuição ou Esquiva"
-            ],
-            [
-              "Derrubar / Atropelar com cavalo",
-              "Atletismo",
-              "Atletismo ou Acrobacia"
-            ],
-            [
-              "Agarrar / Briga corporal de saloon",
-              "Luta ou Ataque",
-              "Esquiva ou Força"
-            ],
-            [
-              "Desarmar um atirador",
-              "Ataque",
-              "Força ou Luta"
-            ],
-            [
               "Amarrar um prisioneiro com corda ou laço",
               "Tecnologia ou Especialidade",
               "Acrobacia ou Prestidigitação"
             ],
             [
               "Esconder arma sob o casaco ou botas",
-              "Furtividade",
-              "Investigação ou Percepção"
+              "Prestidigitação",
+              "Percepção"
             ]
           ]
         },
@@ -202,6 +182,36 @@
             "**Ferramentas:** sem a ferramenta certa (gazuas, maleta médica), –5; com ferramenta improvisada, –2.",
             "**Teste de equipe:** os ajudantes fazem o mesmo teste contra CD 10. Um grau de sucesso dá +2 ao líder; três graus ou mais, +5; dois graus de falha, –2.",
             "**Sucesso crítico:** um 20 natural sobe o resultado do teste em um grau."
+          ]
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Iniciativa, surpresa e capangas",
+          "itens": [
+            "**Iniciativa:** d20 + Agilidade + 4 por graduação de Iniciativa Aprimorada. Empate: Esquiva, depois Agilidade, depois Prontidão.",
+            "**Surpresa:** quem é pego de surpresa (emboscada no desfiladeiro) fica atordoado e vulnerável na rodada de surpresa.",
+            "**Capangas:** bandidos comuns e foras-da-lei descartáveis não fazem acertos críticos contra os heróis; os heróis os atacam com testes de rotina; qualquer falha num salvamento aplica o pior grau de efeito.",
+            "**Armas de área:** a dinamite exige Esquiva CD 10 + graduação; se passar, sofrem metade do efeito. Excelente contra grupos de capangas."
+          ]
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Esforço extra",
+          "itens": [
+            "Uma vez por turno, ação livre. Escolha: **ação** padrão extra; **+2** num teste (ou +2 vira +5); **salvamento** extra contra efeito em andamento; **+1 Velocidade ou Força** até o próximo turno.",
+            "**Custo:** fatigado no início do próximo turno (fatigado vira exausto; exausto vira incapacitado). Um ponto heroico anula a fadiga.",
+            "Equipamento não aceita esforço extra: para forçar uma arma ou uma montaria além do limite, gaste um ponto heroico."
+          ]
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Pontos heroicos",
+          "itens": [
+            "Cada jogador começa a sessão com **1 ponto heroico**; os não gastos não passam para a próxima aventura.",
+            "**Melhorar uma rolagem:** rerrole o d20; de 1 a 10 no novo dado, some 10 (fica entre 11 e 20).",
+            "**Feito heroico:** uma graduação de vantagem (que não seja de sorte) até o fim do próximo turno.",
+            "**Recuperar-se:** remove tonto, atordoado ou fatigado sem gastar ação, ou converte exausto em fatigado.",
+            "**Editar a cena**, **Inspiração** (uma pista do mestre) ou **repelir** um efeito como reação."
           ]
         }
       ]
@@ -220,86 +230,110 @@
           ],
           "linhas": [
             [
-              "Agarrar",
+              "Atacar",
               "Padrão",
-              "Ataque desarmado; o alvo resiste com Força ou Esquiva. 1 grau: restrito; 2 ou mais: amarrado."
-            ],
-            [
-              "Ajudar",
-              "Padrão",
-              "Ataque contra CD 10: o aliado ganha +2 no ataque ou na defesa (+5 com três graus)."
-            ],
-            [
-              "Carga montada",
-              "Padrão",
-              "Move a toda velocidade em linha reta montado a cavalo e ataca com –2."
-            ],
-            [
-              "Desarmar",
-              "Padrão",
-              "Ataque oposto; sucesso desarma o inimigo (a arma cai no chão ou na mesa)."
-            ],
-            [
-              "Desengajar",
-              "Movimento",
-              "Sai do combate corpo a corpo sem sofrer ataque de oportunidade."
-            ],
-            [
-              "Derrubar",
-              "Padrão",
-              "Ataque de tropeço ou coronhada; sucesso deixa o inimigo caído."
-            ],
-            [
-              "Finta",
-              "Padrão",
-              "Enganação contra Intuição: sucesso deixa o alvo vulnerável no próximo ataque."
-            ],
-            [
-              "Imobilizar",
-              "Padrão",
-              "Contra alvo agarrado: teste de Força; sucesso o impede de agir."
-            ],
-            [
-              "Lançar dinamite",
-              "Padrão",
-              "Arremesso de dinamite com pavio; causa Dano em área de explosão."
+              "Um teste de ataque contra um alvo ao alcance."
             ],
             [
               "Mirar",
               "Padrão",
-              "+5 no próximo ataque à distância (ou +2 se mover)."
+              "+5 no próximo ataque corpo a corpo ou à queima-roupa; +2 à distância. Fica vulnerável enquanto mira, e a próxima ação tem de ser o ataque."
             ],
             [
-              "Mover-se",
-              "Movimento",
-              "Desloca-se até a sua Velocidade (caminhando ou trotando)."
-            ],
-            [
-              "Quebrar objeto",
+              "Agarrar",
               "Padrão",
-              "Ataca uma arma, tranca, garrafa ou suporte; dano contra a Resistência do material."
+              "Ataque; o alvo resiste com Força ou Esquiva. 1 grau: restrito; 2 ou mais: amarrado."
             ],
             [
-              "Recarregar",
-              "Movimento / Padrão",
-              "Cilindro de recarga rápida: movimento. Balas individuais em revólver: padrão [Casa]."
+              "Ajudar",
+              "Padrão",
+              "Ataque contra CD 10; o aliado ganha +2 no ataque ou na defesa (+5 com três graus)."
+            ],
+            [
+              "Carga",
+              "Padrão",
+              "Move-se a toda velocidade em linha reta e ataca corpo a corpo com –2."
+            ],
+            [
+              "Defender-se",
+              "Padrão",
+              "Até o próximo turno, a defesa ativa vira teste oposto; 10 ou menos no dado vale +10."
+            ],
+            [
+              "Derrubar",
+              "Padrão",
+              "Ataque corpo a corpo com –2; depois, teste oposto de Acrobacia ou Atletismo."
+            ],
+            [
+              "Desarmar",
+              "Padrão",
+              "Ataque com –2 (–5 à distância), depois dano contra a Força do alvo."
+            ],
+            [
+              "Quebrar",
+              "Padrão",
+              "Ataque com –5 contra um objeto segurado."
             ],
             [
               "Recuperar-se",
               "Padrão",
-              "Gasta o turno recuperando o fôlego; remove a pior penalidade de dano (1/cena)."
+              "Uma vez por conflito: remove a pior condição de dano ou fadiga (ou dá um salvamento extra) e +2 nas defesas ativas até o próximo turno."
             ],
             [
-              "Sacar arma",
+              "Preparar",
+              "Padrão",
+              "Define uma ação e o gatilho; age como reação quando ele acontecer."
+            ],
+            [
+              "Recarregar",
               "Movimento",
-              "Saca o revólver ou rifle; com a vantagem Saque Rápido, torna-se ação livre."
+              "Recarrega por completo o tambor ou o carregador (livre com Saque Rápido, opcional). Carga pela boca e bacamarte: padrão."
+            ],
+            [
+              "Rastejar",
+              "Movimento",
+              "Caído, move-se com –1 de velocidade."
+            ],
+            [
+              "Mover-se",
+              "Movimento",
+              "Até a sua velocidade. Atletismo CD 15 (livre) dá +1 de velocidade por uma rodada."
+            ],
+            [
+              "Sacar ou guardar arma",
+              "Movimento",
+              "Livre com a vantagem Saque Rápido."
+            ],
+            [
+              "Levantar-se",
+              "Movimento",
+              "Livre com Acrobacia CD 20 ou com a vantagem De Pé."
+            ],
+            [
+              "Escapar",
+              "Movimento",
+              "Acrobacia ou Atletismo contra a Força de quem agarra."
+            ],
+            [
+              "Comandar",
+              "Movimento",
+              "Dá uma ordem a um capanga ou animal treinado."
+            ],
+            [
+              "Jogar-se no chão",
+              "Livre",
+              "Fica caído (–5 para quem atira em você de longe)."
+            ],
+            [
+              "Atrasar",
+              "Nenhuma",
+              "Age mais tarde na ordem de iniciativa."
             ]
           ]
         },
         {
           "tipo": "tabela",
           "titulo": "Manobras",
-          "nota": "Com a vantagem de mesmo nome, a troca vai até 5 pontos.",
           "colunas": [
             "Manobra",
             "Efeito"
@@ -307,33 +341,83 @@
           "linhas": [
             [
               "Ataque Acurado",
-              "Até –2 no efeito (dano) para +2 no ataque (tiro preciso no chapéu ou na mão)."
+              "Até –2 no efeito para +2 no ataque."
             ],
             [
               "Ataque Poderoso",
-              "Até –2 no ataque para +2 no efeito (tiro em cheio no peito com munição pesada)."
+              "Até –2 no ataque para +2 no efeito."
             ],
             [
               "Ataque Defensivo",
               "Até –2 no ataque para +2 em Esquiva e Aparar."
             ],
             [
-              "Ataque Total",
-              "–5 em Esquiva e Aparar para +2 no ataque (disparar a descoberto sem se proteger)."
+              "Ataque Imprudente",
+              "Até –2 em Esquiva e Aparar para +2 no ataque."
             ],
             [
-              "Tiro Preciso",
-              "Disparar contra alvo em combate corpo a corpo sem a penalidade padrão de –4."
+              "Ataque de Equipe",
+              "Atacantes atrasam para o mesmo ponto da iniciativa; cada acerto extra soma +2 (+5 com três graus) ao efeito principal."
             ],
             [
-              "Fanning / Disparo Múltiplo",
-              "Disparar rajada rápida puxando o cão; penalidade no ataque para atingir múltiplos alvos."
+              "Ataque Surpresa",
+              "Alvo pego de surpresa fica vulnerável."
             ],
             [
-              "Duelo ao Meio-Dia",
-              "Iniciativa disputada com Saque Rápido; quem vencer o teste age primeiro e dispara."
+              "Ataque Final",
+              "Contra alvo indefeso ao alcance perto: ataque de rotina, ou rolado e todo acerto é crítico."
+            ],
+            [
+              "Desmoralizar",
+              "Intimidação contra Intuição ou Vontade: alvo prejudicado (desabilitado com quatro graus) até o fim do próximo turno dele."
+            ],
+            [
+              "Fintar",
+              "Enganação contra Enganação ou Intuição: alvo vulnerável contra o seu próximo ataque."
+            ],
+            [
+              "Encontrão",
+              "Durante uma carga (a cavalo, por exemplo), o dano usa a velocidade +1; você sofre metade do impacto."
             ]
-          ]
+          ],
+          "nota": "Os ajustes valem até o início do próximo turno. Com a vantagem de mesmo nome, a troca vai até 5 pontos."
+        },
+        {
+          "tipo": "tabela",
+          "titulo": "Tipos de disparo [Casa]",
+          "colunas": [
+            "Disparo",
+            "Balas",
+            "Efeito"
+          ],
+          "linhas": [
+            [
+              "Tiro padrão",
+              "1",
+              "Ataque normal com o dano da arma."
+            ],
+            [
+              "Martelar o cão",
+              "2 ou 3",
+              "–2 no ataque; +2 no dano com dois graus de sucesso."
+            ],
+            [
+              "Esvaziar o tambor",
+              "4 a 6",
+              "–5 no ataque; +5 no dano com três graus de sucesso. A arma fica vazia."
+            ],
+            [
+              "Leque",
+              "1 por alvo",
+              "Um ataque contra cada alvo, com penalidade igual ao número de alvos."
+            ],
+            [
+              "Fogo de cobertura",
+              "3 ou mais",
+              "Ação padrão: um aliado à vista ganha cobertura; quem a ignorar sofre um ataque seu."
+            ]
+          ],
+          "nota": "Mesma lógica do modificador Multiataque do livro básico (Livro do Mestre, seção 5.7)."
         },
         {
           "tipo": "tabela",
@@ -393,35 +477,6 @@
               "Parede grossa de adobe, mureta de pedra, vagão de trem de aço"
             ]
           ]
-        },
-        {
-          "tipo": "lista",
-          "titulo": "Iniciativa, surpresa e capangas",
-          "itens": [
-            "**Iniciativa:** d20 + Agilidade + 4 por graduação de Iniciativa Aprimorada. Empate: Esquiva, depois Agilidade, depois Prontidão.",
-            "**Surpresa:** quem é pego de surpresa (emboscada no desfiladeiro) fica atordoado e vulnerável na rodada de surpresa.",
-            "**Capangas:** bandidos comuns e foras-da-lei descartáveis não fazem acertos críticos contra os heróis; os heróis os atacam com testes de rotina; qualquer falha num salvamento aplica o pior grau de efeito.",
-            "**Armas de área:** dinamite e escopetas em curta distância exigem Esquiva CD 10 + graduação; se passar, sofrem metade do efeito. Excelente contra grupos de capangas."
-          ]
-        },
-        {
-          "tipo": "lista",
-          "titulo": "Esforço extra",
-          "itens": [
-            "Uma vez por turno, ação livre. Escolha: **ação** padrão extra; **+2** num teste (ou +2 vira +5); **salvamento** extra contra efeito contínuo; **+1 Velocidade ou Força** por uma rodada.",
-            "**Custo:** o personagem fica fatigado no início do próximo turno (fatigado vira exausto; exausto vira incapacitado). Um ponto heroico anula a fadiga."
-          ]
-        },
-        {
-          "tipo": "lista",
-          "titulo": "Pontos heroicos",
-          "itens": [
-            "**Rolar de novo:** rola um d20 e fica com o melhor resultado; se tirar 10 ou menos no segundo dado, soma 10 (mínimo 11).",
-            "**Cancelar fadiga:** anula a fadiga causada por esforço extra.",
-            "**Inspirar:** concede +2 a todos os aliados que possam ouvir o herói.",
-            "**Façanha heroica:** ganha temporariamente uma vantagem pelo resto da cena.",
-            "**Escapar da morte:** gasta todos os pontos heroicos para estabilizar instantaneamente um ferimento fatal."
-          ]
         }
       ]
     },
@@ -432,7 +487,6 @@
         {
           "tipo": "tabela",
           "titulo": "Aflição: condição por grau de falha",
-          "nota": "O efeito define uma condição para cada grau; graus mais altos substituem os mais baixos. No fim de cada turno, o alvo faz um salvamento para tirar as condições de 1º e 2º grau; as de 3º grau exigem um minuto ou ajuda (Tratamento CD 10 + graduação).",
           "colunas": [
             "Grau de falha",
             "Condições possíveis"
@@ -449,45 +503,50 @@
             [
               "3º grau (falha por 11 a 15)",
               "Adormecido, controlado, desatento, incapacitado, paralisado ou transformado"
+            ],
+            [
+              "4º grau [Casa] (16 ou mais)",
+              "Colapso: incapacitado com coma, toxicidade extrema ou mutação definitiva (veneno mortal que exige estabilização)"
             ]
-          ]
+          ],
+          "nota": "O efeito define uma condição para cada grau; graus mais altos substituem os mais baixos. No fim de cada turno, o alvo faz um salvamento para tirar as condições de 1º e 2º grau; as de 3º grau exigem um minuto ou ajuda (Tratamento CD 10 + graduação)."
         },
         {
           "tipo": "tabela",
           "titulo": "Dano: padrão e letal",
-          "nota": "No faroeste, tiros e lâminas causam dano letal por padrão [Guia do Mestre + Casa]. O 4º grau letal deixa moribundo.",
           "colunas": [
-            "Salvamento (d20 + Resistência)",
             "Grau de falha",
-            "Efeito"
+            "Padrão (socos, coronhadas, garrafadas)",
+            "Letal (tiros, lâminas, explosivos)"
           ],
           "linhas": [
             [
-              "15 + Dano ou mais",
               "Sucesso",
+              "Sem efeito.",
               "Sem efeito."
             ],
             [
-              "10 + Dano a 14 + Dano",
-              "1º grau",
-              "Ferido: –1 acumulado nos próximos salvamentos contra dano."
+              "1º grau (1 a 5)",
+              "–1 nos próximos salvamentos de Resistência (cumulativo).",
+              "Ferido: –1 na Resistência (cumulativo)."
             ],
             [
-              "5 + Dano a 9 + Dano",
-              "2º grau",
-              "Ferido e Atordoado: perde a ação do próximo turno."
+              "2º grau (6 a 10)",
+              "–1 e tonto até o fim do próximo turno.",
+              "Ferido e tonto até o fim do próximo turno."
             ],
             [
-              "Dano a 4 + Dano",
-              "3º grau",
-              "Ferido e Cambaleando: só pode fazer uma ação padrão ou de movimento."
+              "3º grau (11 a 15)",
+              "–1 e abatido (tonto e impedido). Se já estava abatido, aplique o 4º grau.",
+              "Ferido, abatido e desabilitado (–5 em todos os testes)."
             ],
             [
-              "Menor que o Dano",
-              "4º grau",
-              "Incapacitado: indefeso e inconsciente. Se letal, fica Moribundo."
+              "4º grau (16 ou mais)",
+              "Incapacitado.",
+              "Incapacitado e moribundo."
             ]
-          ]
+          ],
+          "nota": "Salvamento: d20 + Resistência contra 15 + Dano. Incapacitado que falha fica moribundo; moribundo que falha morre. Opcional: cinco ou mais graus de falha contra dano letal matam na hora."
         },
         {
           "tipo": "tabela",
@@ -498,76 +557,48 @@
           ],
           "linhas": [
             [
-              "Atordoado",
-              "Não pode agir (nem ações livres)."
-            ],
-            [
-              "Caído",
-              "Impedido; –5 em ataques corpo a corpo; atacantes têm +5 corpo a corpo e –5 à distância (cobertura). Levantar: ação de movimento."
-            ],
-            [
-              "Cego",
-              "–5 em testes visuais; desatento a alvos que não percebe; vulnerável; velocidade –2."
+              "Prejudicado",
+              "–2 em todos os testes (ou nos indicados)."
             ],
             [
               "Desabilitado",
-              "–5 em testes daquela característica."
+              "–5 em todos os testes (ou nos indicados). Sobrepõe prejudicado."
             ],
             [
-              "Desatento",
-              "Não percebe o ambiente ou o perigo; não age em relação ao que não percebe."
+              "Tonto",
+              "Só ações livres e uma ação padrão por turno."
             ],
             [
-              "Desprevenido",
-              "Vulnerável e não pode fazer ataques de oportunidade nem ações de reação."
-            ],
-            [
-              "Exausto",
-              "Prejudicado e impedido; vira incapacitado se sofrer nova fadiga."
-            ],
-            [
-              "Fatigado",
-              "Impedido (velocidade –1); vira exausto se sofrer nova fadiga."
-            ],
-            [
-              "Imóvel",
-              "Velocidade 0; não pode se mover do lugar."
+              "Atordoado",
+              "Não pode fazer nenhuma ação, nem livre. Sobrepõe tonto."
             ],
             [
               "Impedido",
-              "Velocidade –1 (deslocamento pela metade)."
+              "Move-se à metade (–1 graduação de velocidade)."
             ],
             [
-              "Incapacitado",
-              "Indefeso, atordoado e desatento; cai no chão inconsciente."
-            ],
-            [
-              "Indefeso",
-              "Esquiva e Aparar 0; ataques contra ele têm +5; críticos sem rolar 20."
-            ],
-            [
-              "Moribundo",
-              "Incapacitado; Fortitude CD 15 na hora e a cada rodada: dois graus de sucesso estabilizam, três graus de falha somados matam."
-            ],
-            [
-              "Prejudicado",
-              "–2 em testes daquela característica."
-            ],
-            [
-              "Restrito",
-              "Impedido e vulnerável; –2 em ataques e manobras."
-            ],
-            [
-              "Surdo",
-              "–5 em testes auditivos; desatento a pistas sonoras."
-            ],
-            [
-              "Transpassado",
-              "–2 em defesas ativas por ataque sofrido naquela rodada."
+              "Imóvel",
+              "Não se move do lugar. Sobrepõe impedido."
             ],
             [
               "Vulnerável",
-              "Esquiva e Aparar pela metade (arredondado para cima)."
+              "Esquiva e Aparar pela metade, arredondando para cima."
+            ],
+            [
+              "Indefeso",
+              "Esquiva e Aparar 0. Atacantes podem fazer ataques de rotina; um ataque rolado que acerte vira crítico. Sobrepõe vulnerável."
+            ],
+            [
+              "Desatento",
+              "Não percebe o ambiente nem age com base nele."
+            ],
+            [
+              "Fatigado",
+              "Impedido. Some com 1 hora de descanso."
+            ],
+            [
+              "Compelido / Controlado",
+              "Ações ditadas por outra pessoa (raro fora do sobrenatural)."
             ]
           ]
         },
@@ -580,20 +611,44 @@
           ],
           "linhas": [
             [
+              "Abatido",
+              "Tonto e impedido."
+            ],
+            [
+              "Exausto",
+              "Prejudicado e impedido. Some com 1 hora de descanso em lugar confortável."
+            ],
+            [
+              "Caído",
+              "Impedido; –5 nos ataques corpo a corpo; atacantes têm +5 corpo a corpo e –5 à distância. Levantar-se: ação de movimento."
+            ],
+            [
+              "Restrito",
+              "Impedido e vulnerável (imóvel se preso a algo fixo)."
+            ],
+            [
               "Amarrado",
-              "Indefeso, imóvel e prejudicado (amarrado com corda ou laço)."
+              "Indefeso, imóvel e prejudicado."
             ],
             [
-              "Compelido",
-              "Atordoado e obrigado a seguir ordens simples da fonte."
+              "Surpreso",
+              "Atordoado e vulnerável."
             ],
             [
-              "Controlado",
-              "Ações totalmente controladas pela fonte da aflição."
+              "Cego",
+              "Impedido, visualmente desatento e vulnerável; tudo tem camuflagem total contra ele."
             ],
             [
-              "Dominado",
-              "Sob controle mental ou hipnose total."
+              "Paralisado",
+              "Indefeso, imóvel e fisicamente atordoado; ainda percebe o que acontece."
+            ],
+            [
+              "Incapacitado",
+              "Indefeso, atordoado e desatento; normalmente caído."
+            ],
+            [
+              "Moribundo",
+              "Incapacitado; Fortitude CD 15 na hora e a cada rodada: dois graus de sucesso estabilizam, três graus de falha somados matam."
             ]
           ]
         },
@@ -601,47 +656,48 @@
           "tipo": "lista",
           "titulo": "Moribundo e recuperação",
           "itens": [
-            "**Moribundo:** no faroeste realista, um tiro que derruba (4 graus de falha) deixa o herói Moribundo na poeira. Ele faz Fortitude CD 15 na hora e a cada rodada: um sucesso não muda nada, dois graus de sucesso estabilizam e três graus de falha somados (em um ou mais testes) causam a morte.",
-            "**Estabilizar:** um aliado treinado em Tratamento pode estabilizá-lo com um teste contra CD 15 (ação padrão).",
-            "**Recuperação lenta [Casa]:** sem atendimento médico e repouso, cada ferimento demora 1 dia para recuperar. Com sucesso em Tratamento e repouso absoluto, recupera 1 ferimento a cada 8 horas."
+            "**Moribundo:** Fortitude CD 15 na hora e a cada rodada: um sucesso não muda nada, dois graus de sucesso estabilizam e três graus de falha somados (em um ou mais testes) causam a morte.",
+            "**Estabilizar:** Tratamento CD 15 (ação padrão). A vantagem Duro de Matar estabiliza sozinha.",
+            "**Recuperação lenta [Casa]:** da pior condição para a melhor, 1 hora de descanso por condição (incapacitado → abatido → ferido; cada –1 na Resistência, 1 hora). Na escala brutal, 1 dia. O tonto some no fim do turno seguinte.",
+            "**Ponto heroico:** remove tonto, atordoado ou fatigado na hora, sem gastar ação."
           ]
         },
         {
           "tipo": "tabela",
-          "titulo": "Tratamento (só treinado, com maleta médica)",
-          "nota": "Sem maleta médica com instrumentos e bandagens, penalidade de –5. Em combate, ação padrão.",
+          "titulo": "Tratamento (só treinado; sem maleta médica, –5)",
           "colunas": [
-            "Procedimento",
+            "Tarefa",
             "CD",
             "Efeito"
           ],
           "linhas": [
             [
-              "Estabilizar moribundo",
+              "Diagnosticar (1 minuto)",
+              "10",
+              "+2 nos testes seguintes de Tratamento."
+            ],
+            [
+              "Estabilizar (padrão)",
               "15",
-              "O paciente para de morrer e fica incapacitado estável."
+              "Estanca o sangramento de um moribundo."
             ],
             [
-              "Reviver incapacitado",
+              "Reviver (padrão)",
               "15",
-              "Remove a condição de incapacitado; o paciente fica cambaleando."
+              "Remove tonto ou atordoado; não remove ferimentos."
             ],
             [
-              "Cuidar de ferimentos (repouso)",
+              "Longo prazo (no descanso)",
               "15",
-              "Acelera a recuperação: remove 1 ferido a cada 8 horas de repouso."
+              "Reduz a recuperação em 1 graduação de tempo."
             ],
             [
-              "Extrair projétil / cirurgia",
-              "20",
-              "Remove a complicação de bala alojada; falha causa 1 ferimento adicional."
-            ],
-            [
-              "Tratar veneno ou infecção",
-              "10 + grad.",
-              "Concede bônus de +2 nos salvamentos de Fortitude do paciente."
+              "Doença ou veneno",
+              "15",
+              "+2 no salvamento do paciente (+5 com três graus de sucesso)."
             ]
-          ]
+          ],
+          "nota": "Tratar a si mesmo: só diagnosticar, longo prazo e doenças ou venenos, com –5."
         }
       ]
     },

@@ -127,7 +127,7 @@ ACESSOS_DE_LOUCURA = [
     (4, "Histeria", "Ri, grita ou chora sem controle: prejudicado (–2) em todos os testes e não fala com coerência."),
     (5, "Alucinações", "Vê paredes derretendo e sombras que atacam: prejudicado (–2) em Percepção e nos ataques."),
     (6, "Paranoia", "Crê que um aliado é cultista: recusa ajuda, testes de equipe e Tratamento vindos dele."),
-    (7, "Fúria cega", "Ataca o ser mais próximo, amigo ou inimigo, com o que tiver à mão (Ataque Total)."),
+    (7, "Fúria cega", "Ataca o ser mais próximo, amigo ou inimigo, com o que tiver à mão (Ataque Imprudente)."),
     (8, "Ecolalia e tiques", "Repete em voz alta frases profanas: não consegue falar nada útil; –5 em Furtividade."),
     (9, "Fobia súbita", "Ganha uma fobia de algo da cena (água, sangue, insetos, escuro); evita ou foge do gatilho."),
     (10, "Fascínio mórbido", "Aproxima-se da abominação em transe: desatento a tudo o mais e vulnerável."),

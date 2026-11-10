@@ -1,6 +1,6 @@
 """Gera o arquivo dados/escudo/cthulhu.json para o Escudo do Mestre de Chamado de Cthulhu.
 
-As regras de M&M seguem os escudos de fantasia e faroeste; os textos de Sanidade (acessos de loucura, estados de
+As regras gerais de M&M (ações, manobras, condições, dano, tratamento) vêm de ferramentas/escudo_mm.py; os textos de Sanidade (acessos de loucura, estados de
 loucura e recuperação) vêm de nucleo/sanidade.py, a mesma fonte da página de Sanidade do PDF da ficha.
 
 Uso: python ferramentas/criar_cthulhu_escudo.py
@@ -14,6 +14,9 @@ RAIZ = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(RAIZ))
 
 from nucleo import sanidade  # noqa: E402
+
+sys.path.insert(0, str(RAIZ / "ferramentas"))
+import escudo_mm as mm  # noqa: E402
 
 DESTINO = RAIZ / "dados" / "escudo" / "cthulhu.json"
 
@@ -92,9 +95,8 @@ TESTES = {
                 ["Bater carteira na estação de trem", "Prestidigitação", "Percepção"],
                 ["Seguir um suspeito pelas ruas sem ser notado", "Furtividade", "Percepção"],
                 ["Intimidar um informante a falar", "Intimidação", "Vontade"],
-                ["Finta numa briga de rua", "Enganação ou Acrobacia", "Intuição ou Esquiva"],
-                ["Agarrar um cultista em fuga", "Ataque desarmado", "Força ou Esquiva"],
-                ["Desarmar um atirador", "Ataque", "Força ou Luta"],
+                ["Fintar numa briga de rua", "Enganação", "Enganação ou Intuição"],
+                ["Escapar de um cultista que agarra", "Acrobacia ou Atletismo", "Força de quem agarra"],
                 ["Esconder um revólver sob o sobretudo", "Prestidigitação", "Percepção"],
             ],
         },
@@ -109,6 +111,8 @@ TESTES = {
                 "**Pesquisa em arquivo:** horas de leitura viram teste de rotina; com pressa, role contra a CD.",
             ],
         },
+        mm.esforco_extra("uma arma ou um automóvel"),
+        mm.PONTOS_HEROICOS,
     ],
 }
 
@@ -118,44 +122,15 @@ COMBATE = {
     "id": "combate",
     "nome": "Combate",
     "blocos": [
-        {
-            "tipo": "tabela",
-            "titulo": "Ações",
-            "colunas": ["Ação", "Tipo", "Efeito"],
-            "linhas": [
-                ["Agarrar", "Padrão", "Ataque desarmado; o alvo resiste com Força ou Esquiva. 1 grau: restrito; "
-                                      "2 ou mais: amarrado."],
-                ["Ajudar", "Padrão", "Ataque contra CD 10: o aliado ganha +2 no ataque ou na defesa (+5 com três graus)."],
-                ["Desarmar", "Padrão", "Ataque oposto; sucesso faz a arma do inimigo cair no chão."],
-                ["Desengajar", "Movimento", "Sai do combate corpo a corpo sem sofrer ataque."],
-                ["Derrubar", "Padrão", "Rasteira ou empurrão; sucesso deixa o inimigo caído."],
-                ["Dirigir", "Movimento", "Conduz o automóvel até a Velocidade dele; manobras difíceis pedem Veículos."],
-                ["Finta", "Padrão", "Enganação contra Intuição: sucesso deixa o alvo vulnerável no próximo ataque."],
-                ["Imobilizar", "Padrão", "Contra alvo agarrado: teste de Força; sucesso o impede de agir."],
-                ["Lançar dinamite", "Padrão", "Arremesso com estopim aceso; Dano em área de explosão."],
-                ["Mirar", "Padrão", "+5 no próximo ataque à distância (ou +2 se também se mover)."],
-                ["Mover-se", "Movimento", "Desloca-se até a sua Velocidade."],
-                ["Quebrar objeto", "Padrão", "Ataca uma porta, tranca ou cadeado; dano contra a Resistência do material."],
-                ["Recarregar", "Movimento / Padrão", "Pente de pistola: movimento. Revólver bala a bala ou tambor da "
-                                                     "Thompson: padrão [Casa]."],
-                ["Recuperar-se", "Padrão", "Gasta o turno recobrando o fôlego; remove a pior penalidade de dano (1/cena)."],
-                ["Sacar arma", "Movimento", "Saca o revólver; com a vantagem Saque Rápido, vira ação livre."],
-            ],
-        },
-        {
-            "tipo": "tabela",
-            "titulo": "Manobras",
-            "nota": "Com a vantagem de mesmo nome, a troca vai até 5 pontos.",
-            "colunas": ["Manobra", "Efeito"],
-            "linhas": [
-                ["Ataque Acurado", "Até –2 no efeito (dano) para +2 no ataque (tiro no ponto fraco da criatura)."],
-                ["Ataque Poderoso", "Até –2 no ataque para +2 no efeito (golpe com toda a força)."],
-                ["Ataque Defensivo", "Até –2 no ataque para +2 em Esquiva e Aparar (recuar atirando)."],
-                ["Ataque Total", "Até –2 em Esquiva e Aparar para +2 no ataque (atirar a descoberto, em desespero)."],
-                ["Multiataque (Thompson)", "Contra um alvo, 2 graus de acerto dão +2 na CD do salvamento e 3 graus, +5. "
-                                           "Contra vários alvos próximos, divide o ataque entre eles; não é ataque de área."],
-            ],
-        },
+        mm.acoes([
+            ["Recarregar", "Movimento", "Troca o pente da pistola ou o tambor da Thompson. Revólver bala a bala: "
+                                        "padrão [Casa]."],
+            ["Dirigir", "Movimento", "Conduz o automóvel até a Velocidade dele; manobras difíceis pedem Veículos."],
+        ], comandar="um capanga ou cão treinado"),
+        mm.manobras("de automóvel, por exemplo", extras=[
+            ["Multiataque (Thompson)", "Alvo único: +2 no dano com dois graus de sucesso no ataque, +5 com três. "
+                                       "Vários alvos: um ataque contra cada, com penalidade igual ao número de alvos."],
+        ]),
         {
             "tipo": "tabela",
             "titulo": "Alcance",
@@ -194,26 +169,6 @@ COMBATE = {
                 "**Armas de área:** a dinamite pede Esquiva CD 10 + graduação; quem passa sofre metade do efeito.",
             ],
         },
-        {
-            "tipo": "lista",
-            "titulo": "Esforço extra",
-            "itens": [
-                "Uma vez por turno, ação livre. Escolha: **ação** padrão extra; **+2** num teste (ou +2 vira +5); "
-                "**salvamento** extra contra efeito contínuo; **+1 Velocidade ou Força** por uma rodada.",
-                "**Custo:** o personagem fica fatigado no início do próximo turno (fatigado vira exausto; exausto vira "
-                "incapacitado). Um ponto heroico anula a fadiga.",
-            ],
-        },
-        {
-            "tipo": "lista",
-            "titulo": "Pontos heroicos",
-            "itens": [
-                "**Rolar de novo:** rola outro d20 e fica com o melhor; se tirar 10 ou menos no segundo, soma 10.",
-                "**Recuperar-se:** remove as condições tonto, atordoado ou fatigado.",
-                "**Editar a cena:** acrescenta um detalhe útil à cena (uma janela aberta, um táxi passando).",
-                "**Façanha heroica:** ganha uma vantagem pelo resto da cena.",
-            ],
-        },
     ],
 }
 
@@ -223,92 +178,25 @@ CONDICOES = {
     "id": "condicoes",
     "nome": "Condições e graus",
     "blocos": [
-        {
-            "tipo": "tabela",
-            "titulo": "Aflição: condição por grau de falha",
-            "nota": "O efeito escolhe as condições de cada grau. A cada rodada, o alvo faz um salvamento para se "
-                    "livrar. Os surtos de loucura não são Aflição: veja a aba Sanidade.",
-            "colunas": ["Grau de falha", "Condições possíveis"],
-            "linhas": [
-                ["1º grau (falha por 1 a 5)", "Tonto, em transe, fatigado, impedido, prejudicado ou vulnerável"],
-                ["2º grau (falha por 6 a 10)", "Atordoado, caído, compelido, desabilitado, exausto, imóvel ou vulnerável"],
-                ["3º grau (falha por 11 a 15)", "Adormecido, controlado, desatento, incapacitado, paralisado ou transformado"],
-            ],
-        },
-        {
-            "tipo": "tabela",
-            "titulo": "Dano: padrão e letal",
-            "nota": "Nos anos 1920, tiros, lâminas, garras e mordidas causam dano letal. O 4º grau letal deixa "
-                    "moribundo.",
-            "colunas": ["Salvamento (d20 + Resistência)", "Grau de falha", "Efeito"],
-            "linhas": [
-                ["15 + Dano ou mais", "Sucesso", "Sem efeito."],
-                ["10 + Dano a 14 + Dano", "1º grau", "Ferido: –1 acumulado nos próximos salvamentos contra dano."],
-                ["5 + Dano a 9 + Dano", "2º grau", "Ferido e atordoado: perde a ação do próximo turno."],
-                ["Dano a 4 + Dano", "3º grau", "Ferido e cambaleando (tonto e impedido): só uma ação padrão ou de movimento."],
-                ["Menor que o Dano", "4º grau", "Incapacitado: indefeso e inconsciente. Se letal, fica moribundo."],
-            ],
-        },
-        {
-            "tipo": "tabela",
-            "titulo": "Condições básicas",
-            "colunas": ["Condição", "Efeito"],
-            "linhas": [
-                ["Atordoado", "Não pode agir (nem ações livres)."],
-                ["Caído", "Impedido; –5 em ataques corpo a corpo; atacantes têm +5 corpo a corpo e –5 à distância."],
-                ["Desabilitado", "–5 em testes daquela característica."],
-                ["Desatento", "Não percebe o ambiente nem o perigo; não reage ao que não percebe."],
-                ["Exausto", "Prejudicado e impedido; vira incapacitado se sofrer nova fadiga."],
-                ["Fatigado", "Impedido; vira exausto se sofrer nova fadiga."],
-                ["Imóvel", "Velocidade 0; não pode sair do lugar."],
-                ["Impedido", "Velocidade –1 (deslocamento pela metade)."],
-                ["Incapacitado", "Indefeso, atordoado e desatento; cai inconsciente."],
-                ["Indefeso", "Esquiva e Aparar 0; quem ataca pode usar teste de rotina."],
-                ["Moribundo", "Incapacitado; Fortitude CD 15 na hora e a cada rodada: dois graus de sucesso estabilizam, três graus de falha somados matam."],
-                ["Prejudicado", "–2 em testes daquela característica."],
-                ["Tonto", "Só ações livres e uma ação padrão por turno."],
-                ["Vulnerável", "Esquiva e Aparar pela metade (arredondado para cima)."],
-            ],
-        },
-        {
-            "tipo": "tabela",
-            "titulo": "Condições combinadas",
-            "colunas": ["Condição", "Efeito"],
-            "linhas": [
-                ["Amarrado", "Indefeso, imóvel e prejudicado (amarrado ou algemado)."],
-                ["Cambaleando", "Tonto e impedido."],
-                ["Compelido", "Tonto e obrigado a seguir ordens simples da fonte (hipnose, feitiço)."],
-                ["Controlado", "Ações totalmente controladas pela fonte da aflição."],
-                ["Paralisado", "Indefeso, imóvel e fisicamente atordoado; ainda percebe o que acontece."],
-                ["Restrito", "Impedido e vulnerável."],
-            ],
-        },
+        mm.aflicao("Os surtos de loucura não são Aflição: veja a aba Sanidade."),
+        mm.dano("tiros, lâminas, garras e mordidas", padrao="socos, coronhadas, cassetetes"),
+        mm.condicoes_basicas("Ações ditadas pela fonte (hipnose, feitiço, a vontade de um Mythos)."),
+        mm.CONDICOES_COMBINADAS,
         {
             "tipo": "lista",
             "titulo": "Moribundo e recuperação",
             "itens": [
                 "**Moribundo:** quem leva o 4º grau de dano letal cai moribundo. Fortitude CD 15 na hora e a cada rodada: "
                 "um sucesso não muda nada, dois graus de sucesso estabilizam e três graus de falha somados causam a morte.",
-                "**Estabilizar:** um aliado treinado em Tratamento estabiliza o ferido com um teste contra CD 15 (ação "
-                "padrão).",
-                "**Recuperação [Casa]:** sem atendimento, cada ferimento leva 1 dia para sumir. Com Tratamento e repouso "
-                "num hospital, some 1 ferimento a cada 8 horas.",
+                "**Estabilizar:** Tratamento CD 15 (ação padrão). A vantagem Duro de Matar estabiliza sozinha.",
+                "**Recuperação [Casa]:** sem atendimento, cada condição de dano leva 1 dia para sumir, da pior para a "
+                "melhor. Com Tratamento de longo prazo e repouso num hospital, 1 a cada 8 horas.",
+                "**Ponto heroico:** remove tonto, atordoado ou fatigado na hora, sem gastar ação.",
             ],
         },
-        {
-            "tipo": "tabela",
-            "titulo": "Tratamento (só treinado, com maleta médica)",
-            "nota": "Sem maleta médica, –5. Em combate, ação padrão.",
-            "colunas": ["Procedimento", "CD", "Efeito"],
-            "linhas": [
-                ["Estabilizar moribundo", "15", "O paciente para de morrer e fica incapacitado estável."],
-                ["Reanimar incapacitado", "15", "Remove a condição incapacitado; o paciente fica cambaleando."],
-                ["Cuidar de ferimentos (repouso)", "15", "Remove 1 ferimento a cada 8 horas de repouso."],
-                ["Extrair projétil / cirurgia", "20", "Remove a bala alojada; falha causa 1 ferimento adicional."],
-                ["Tratar veneno ou infecção", "10 + grad.", "+2 nos salvamentos de Fortitude do paciente."],
-                ["Acalmar paciente em acesso de loucura", "15", "Encerra o acesso de loucura (com Especialidade: Psicologia)."],
-            ],
-        },
+        mm.tratamento("maleta médica", extras=[
+            ["Acalmar acesso de loucura", "15", "Encerra o acesso de loucura (com Especialidade: Psicologia)."],
+        ]),
     ],
 }
 

@@ -116,7 +116,7 @@ def test_escudo_cthulhu_usa_regras_do_mm_e_a_fonte_unica_de_sanidade():
     dados = data_loader.carregar_genero("cthulhu")
     montado_c = escudo.montar("cthulhu", dados)
     dano = _bloco(montado_c, "Dano: padrão e letal")
-    assert [l[1] for l in dano["linhas"]] == ["Sucesso", "1º grau", "2º grau", "3º grau", "4º grau"]
+    assert [l[0].split(" (")[0] for l in dano["linhas"]] == ["Sucesso", "1º grau", "2º grau", "3º grau", "4º grau"]
     cds = _bloco(montado_c, "Classes de dificuldade")
     assert [l[:2] for l in cds["linhas"]][-3:] == [["30", "Heroico"], ["35", "Super-heroico"], ["40", "Quase impossível"]]
     acessos = _bloco(montado_c, "Acessos de loucura (d10)")
@@ -144,3 +144,20 @@ def test_escudo_cyberpunk_segue_o_livro_do_mestre():
     texto = json.dumps(montado_c, ensure_ascii=False)
     for proibido in ("Forçar a montaria", "Sela e alforjes", "saloon", "taverna", "Indefeso, atordoado e desatento; cai"):
         assert proibido not in texto, proibido
+
+
+@pytest.mark.parametrize("genero", ["faroeste", "cthulhu", "cyberpunk"])
+def test_regras_gerais_seguem_o_livro_basico(genero):
+    """Regressão: os escudos tinham condições e manobras de outros sistemas e o 2º grau de dano como atordoado."""
+    montado_g = escudo.montar(genero, data_loader.carregar_genero(genero))
+    dano = _bloco(montado_g, "Dano: padrão e letal")
+    assert "tonto" in dano["linhas"][2][1] and "atordoado" not in dano["linhas"][2][1].lower()
+    combinadas = {l[0] for l in _bloco(montado_g, "Condições combinadas")["linhas"]}
+    assert {"Abatido", "Caído", "Incapacitado", "Moribundo"} <= combinadas
+    texto = json.dumps(montado_g, ensure_ascii=False)
+    for proibido in ("Transpassado", "Cambaleando", "Dominado", "Tiro Preciso", "Ataque Total", "Desengajar",
+                     "Imobilizar", "Desprevenido", "1/cena", "pelo resto da cena"):
+        assert proibido not in texto, proibido
+    # Uma página de PDF por aba.
+    leitor = pypdf.PdfReader(io.BytesIO(escudo_pdf.gerar_pdf(montado_g, "teste")))
+    assert len(leitor.pages) == len(montado_g["abas"])
