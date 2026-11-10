@@ -20,7 +20,7 @@ def _bloco(montado, titulo):
 
 
 def test_todos_os_escudos_tem_estrutura_valida():
-    assert escudo.generos_com_escudo() == ["fantasia", "faroeste"]
+    assert escudo.generos_com_escudo() == ["cthulhu", "fantasia", "faroeste"]
     for genero in escudo.generos_com_escudo():
         assert escudo.conferir(escudo.montar(genero, data_loader.carregar_genero(genero))) == []
 
@@ -38,16 +38,21 @@ def test_queda_segue_a_regra_do_livro():
     assert medidas.dano_de_queda(10_000) == 16
 
 
-@pytest.mark.parametrize("genero", ["fantasia", "faroeste"])
+@pytest.mark.parametrize("genero", ["fantasia", "faroeste", "cthulhu"])
 def test_tempo_de_viagem_usa_as_velocidades_do_catalogo(genero):
     dados = data_loader.carregar_genero(genero)
     montado_genero = escudo.montar(genero, dados)
     tabela = _bloco(montado_genero, "Tempo de viagem (velocidade máxima contínua)")
     linha_60km = next(l for l in tabela["linhas"] if l[0].startswith("60 km"))
-    # 60 km é distância 13: a pé 16 horas, a cavalo (Velocidade 4) 1 hora, ritmo normal 1,5 dia.
+    # 60 km é distância 13: a pé 16 horas, ritmo normal 1,5 dia.
     assert linha_60km[1] == "16 horas"
-    assert linha_60km[4] == "1 hora"
     assert linha_60km[-1] == "1,5 dia"
+    if genero in ("fantasia", "faroeste"):
+        assert linha_60km[4] == "1 hora"
+    elif genero == "cthulhu":
+        # Ford T (Velocidade 4) é 1 hora; Packard (Velocidade 5) é 30 minutos
+        assert linha_60km[2] == "1 hora"
+        assert linha_60km[3] == "30 minutos"
 
 
 def test_carga_bate_com_o_validador(montado):
@@ -66,7 +71,7 @@ def test_negrito_vira_partes():
     assert escudo.partes_do_texto("**Teste** = d20") == [("Teste", True), (" = d20", False)]
 
 
-@pytest.mark.parametrize("genero", ["fantasia", "faroeste"])
+@pytest.mark.parametrize("genero", ["fantasia", "faroeste", "cthulhu"])
 def test_pdf_tem_uma_pagina_por_aba(genero):
     dados = data_loader.carregar_genero(genero)
     montado_genero = escudo.montar(genero, dados)
@@ -77,7 +82,7 @@ def test_pdf_tem_uma_pagina_por_aba(genero):
         assert aba["nome"] in texto
 
 
-@pytest.mark.parametrize("genero", ["fantasia", "faroeste"])
+@pytest.mark.parametrize("genero", ["fantasia", "faroeste", "cthulhu"])
 def test_planilha_tem_uma_folha_por_aba(genero):
     dados = data_loader.carregar_genero(genero)
     montado_genero = escudo.montar(genero, dados)
@@ -91,7 +96,7 @@ def test_planilha_tem_uma_folha_por_aba(genero):
 
 def test_pagina_e_download():
     cliente = app.app.test_client()
-    for genero in ("fantasia", "faroeste"):
+    for genero in ("fantasia", "faroeste", "cthulhu"):
         pagina = cliente.get(f"/?genero={genero}").get_data(as_text=True)
         assert 'id="aba-escudo"' in pagina and "<strong>Teste</strong>" in pagina
         resposta = cliente.get(f"/escudo/{genero}.pdf")

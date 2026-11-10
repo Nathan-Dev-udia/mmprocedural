@@ -413,7 +413,7 @@ def _aplicar_formulas(writer, formulas):
 def gerar_pdf(caminho_modelo, npc, relatorio, genero_nome):
     """Devolve os bytes de um PDF preenchido com o NPC."""
     return preencher_modelo(caminho_modelo, valores_dos_campos(npc, relatorio, genero_nome),
-                            formulas=formulas_dos_campos(npc, relatorio))
+                            formulas=formulas_dos_campos(npc, relatorio), npc=npc)
 
 
 def _inserir_imagem_do_personagem(writer, caminho_imagem):
@@ -496,10 +496,11 @@ def _inserir_imagem_do_personagem(writer, caminho_imagem):
         pass
 
 
-def preencher_modelo(caminho_modelo, campos, caminho_imagem=None, formulas=None):
+def preencher_modelo(caminho_modelo, campos, caminho_imagem=None, formulas=None, npc=None):
     """Limpa o modelo e preenche os campos dados; devolve os bytes do PDF.
 
     formulas: {campo: JavaScript} de cálculos a acrescentar (além das correções do modelo, que entram sempre).
+    npc: se fornecido e possuir Sanidade, anexa uma 3ª página com o Rastreador de Sanidade.
     """
     leitor = PdfReader(caminho_modelo)
     writer = PdfWriter(clone_from=leitor)
@@ -521,6 +522,16 @@ def preencher_modelo(caminho_modelo, campos, caminho_imagem=None, formulas=None)
 
     if caminho_imagem and Path(caminho_imagem).is_file():
         _inserir_imagem_do_personagem(writer, caminho_imagem)
+
+    if npc and (npc.get("sanidade") or npc.get("ficha", {}).get("sanidade") or npc.get("genero") == "cthulhu"):
+        try:
+            from . import sanidade_pdf
+            pagina_san_bytes = sanidade_pdf.gerar_pagina_sanidade(npc)
+            leitor_san = PdfReader(io.BytesIO(pagina_san_bytes))
+            for pagina in leitor_san.pages:
+                writer.add_page(pagina)
+        except Exception:
+            pass
 
     saida = io.BytesIO()
     writer.write(saida)

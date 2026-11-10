@@ -154,8 +154,23 @@ def test_npcs_cthulhu_gerados_com_sanidade(cthulhu):
 
 
 def test_exportacao_pdf_cthulhu_inclui_sanidade(cthulhu):
+    import io
+    from pathlib import Path
+    import pypdf
+
     pj = gerar_investigador(cthulhu, "professor", np=3)
     relatorio = pj["validacao"]
     campos = pdf_export.valores_dos_campos(pj, relatorio, cthulhu["genero"]["nome"])
     assert "Sanidade:" in campos["Notas & Condições"]
     assert "$" in campos["Notas & Condições"]
+
+    # Ficha completa com a 3ª página (Rastreador de Sanidade)
+    modelo = Path(__file__).parent.parent / "dados" / "comum" / "ficha_editavel.pdf"
+    if modelo.is_file():
+        pdf_bytes = pdf_export.gerar_pdf(str(modelo), pj, relatorio, cthulhu["genero"]["nome"])
+        reader = pypdf.PdfReader(io.BytesIO(pdf_bytes))
+        assert len(reader.pages) == 3
+        texto_p3 = reader.pages[2].extract_text()
+        assert "REGISTRO DE SANIDADE" in texto_p3
+        assert "RASTREADOR DE PONTOS DE SANIDADE" in texto_p3
+        assert "TABELA DE ACESSOS DE LOUCURA" in texto_p3

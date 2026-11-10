@@ -24,6 +24,8 @@ MEIOS_DE_VIAGEM_POR_GENERO = {
     "fantasia": MEIOS_DE_VIAGEM,
     "faroeste": [("A pé", None), ("Carroção Conestoga", "carrocao_conestoga"),
                  ("Buckboard", "buckboard"), ("Cavalo a galope", "cavalo")],
+    "cthulhu": [("A pé", None), ("Ford Modelo T", "ford_modelo_t"),
+                ("Packard de Luxo", "packard_luxo"), ("Motocicleta", "motocicleta")],
 }
 KM_POR_DIA_EM_RITMO_NORMAL = 38
 KM_POR_HORA_EM_RITMO_NORMAL = 5
@@ -136,11 +138,11 @@ def _queda(_catalogo, _dados=None, genero_id="fantasia"):
         linhas.append([f"até {_numero(metros)} m", str(graduacao).replace("-", "–"),
                        f"Dano {dano}" if dano else "sem dano", f"CD {15 + dano}" if dano else "—"])
     linhas.append([f"mais de {ALTURAS_DE_QUEDA[-1]} m", "—", "Dano 16 (máximo)", "CD 31"])
-    local = "do saloon" if genero_id == "faroeste" else "da taverna"
+    local = "de um prédio urbano" if genero_id == "cthulhu" else ("do saloon" if genero_id == "faroeste" else "da taverna")
     return {"tipo": "tabela", "titulo": "Queda", "colunas": ["Altura", "Distância", "Dano", "Resistência"],
             "linhas": linhas,
             "nota": f"Dano 4 + o dobro da graduação de distância, no máximo 16. Do segundo andar {local} (4 m): "
-                    "Dano 2. Cair do cavalo parado não machuca; a galope, Dano 2 [Casa]."}
+                    "Dano 2. Cair do veículo em baixa velocidade não machuca; em alta velocidade, Dano 2 ou mais [Casa]."}
 
 
 def _medidas(_catalogo, _dados=None, _genero_id="fantasia"):
