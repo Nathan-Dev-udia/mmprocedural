@@ -132,7 +132,7 @@ def test_escudo_cthulhu_usa_regras_do_mm_e_a_fonte_unica_de_sanidade():
 
 def test_escudo_cyberpunk_segue_o_livro_do_mestre():
     dados = data_loader.carregar_genero("cyberpunk")
-    montado_c = escudo.montar("cyberpunk", dados)
+    montado_c = escudo.montar("cyberpunk", dados, "mortal")
     # Uma página de PDF por aba (o combate não transborda).
     leitor = pypdf.PdfReader(io.BytesIO(escudo_pdf.gerar_pdf(montado_c, "teste")))
     assert len(leitor.pages) == len(montado_c["abas"])
@@ -185,18 +185,19 @@ def test_letalidade_muda_dano_aflicao_e_recuperacao(genero):
 
 
 def test_letalidade_padrao_e_pagina_com_seletor():
-    for genero in ("fantasia", "faroeste", "cthulhu", "cyberpunk"):
+    for genero in ("fantasia", "cthulhu", "cyberpunk"):
         assert escudo.montar(genero, data_loader.carregar_genero(genero))["letalidade_atual"] == "equilibrada"
+    assert escudo.montar("faroeste", data_loader.carregar_genero("faroeste"))["letalidade_atual"] == "mortal"
     todas = escudo.montar("faroeste", data_loader.carregar_genero("faroeste"), "todas")
     danos = [b for aba in todas["abas"] for b in aba["blocos"] if b.get("titulo") == "Dano"]
     assert [b["letalidade"] for b in danos] == ["heroica", "equilibrada", "mortal"]
     cliente = app.app.test_client()
     pagina = cliente.get("/?genero=faroeste").get_data(as_text=True)
     assert 'id="escudo-letalidade"' in pagina and 'data-letalidade="heroica" hidden' in pagina
-    assert "Equilibrada (padrão do gênero)" in pagina
+    assert "Mortal (padrão do gênero)" in pagina
     resposta = cliente.get("/escudo/faroeste.pdf?letalidade=heroica")
     assert resposta.status_code == 200 and "heroica" in resposta.headers["Content-Disposition"]
     texto = "\n".join(p.extract_text() for p in pypdf.PdfReader(io.BytesIO(resposta.data)).pages)
     assert "Letalidade heroica" in texto
     # Valor desconhecido cai na padrão do gênero.
-    assert "equilibrada" in cliente.get("/escudo/faroeste.xlsx?letalidade=xyz").headers["Content-Disposition"]
+    assert "mortal" in cliente.get("/escudo/faroeste.xlsx?letalidade=xyz").headers["Content-Disposition"]

@@ -3,7 +3,7 @@
   "genero": "faroeste",
   "titulo": "Escudo do Mestre: Faroeste",
   "letalidade": {
-    "padrao": "equilibrada",
+    "padrao": "mortal",
     "ataques_letais": "tiros, lâminas, explosivos",
     "ataques_padrao": "socos, coronhadas, garrafadas",
     "aflicao_quarto_grau": "Colapso: incapacitado com coma, toxicidade extrema ou mutação definitiva (veneno mortal que exige estabilização)",
