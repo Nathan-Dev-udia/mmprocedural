@@ -406,9 +406,16 @@
         <h2 class="titulo-passo">{{ escudo.titulo }}</h2>
         <div class="acoes-escudo">
           <button type="button" id="escudo-imprimir" class="botao pequeno">Imprimir</button>
-          <a class="botao pequeno" href="{{ url_for('baixar_escudo', genero_id=escudo.genero, formato='xlsx') }}">Baixar planilha (.xlsx)</a>
-          <a class="botao pequeno destaque" href="{{ url_for('baixar_escudo', genero_id=escudo.genero, formato='pdf') }}">Baixar PDF</a>
+          <a class="botao pequeno escudo-download" data-base="{{ url_for('baixar_escudo', genero_id=escudo.genero, formato='xlsx') }}" href="{{ url_for('baixar_escudo', genero_id=escudo.genero, formato='xlsx', letalidade=escudo.letalidade_atual) }}">Baixar planilha (.xlsx)</a>
+          <a class="botao pequeno destaque escudo-download" data-base="{{ url_for('baixar_escudo', genero_id=escudo.genero, formato='pdf') }}" href="{{ url_for('baixar_escudo', genero_id=escudo.genero, formato='pdf', letalidade=escudo.letalidade_atual) }}">Baixar PDF</a>
         </div>
+      </div>
+      <div class="escudo-letalidade">
+        <label for="escudo-letalidade">Letalidade</label>
+        <select id="escudo-letalidade" data-padrao="{{ escudo.letalidade_atual }}">
+          {% for l in escudo.letalidades %}<option value="{{ l.id }}" data-descricao="{{ l.descricao }}"{% if l.id == escudo.letalidade_atual %} selected{% endif %}>{{ l.nome }}{% if l.id == escudo.letalidade_atual %} (padrão do gênero){% endif %}</option>{% endfor %}
+        </select>
+        <span id="escudo-letalidade-descricao" class="escudo-nota">{% for l in escudo.letalidades %}{% if l.id == escudo.letalidade_atual %}{{ l.descricao }}{% endif %}{% endfor %}</span>
       </div>
       <ol class="passos escudo-abas" role="tablist">
         {% for aba in escudo.abas %}
@@ -420,7 +427,7 @@
         <h3 class="escudo-aba-titulo">{{ aba.nome }}</h3>
         <div class="escudo-blocos">
           {% for bloco in aba.blocos %}
-          <article class="escudo-bloco{% if bloco.tipo == 'tabela' and bloco.colunas|length > 4 %} largo{% endif %}">
+          <article class="escudo-bloco{% if bloco.tipo == 'tabela' and bloco.colunas|length > 4 %} largo{% endif %}"{% if bloco.letalidade %} data-letalidade="{{ bloco.letalidade }}"{% if bloco.letalidade != escudo.letalidade_atual %} hidden{% endif %}{% endif %}>
             {% if bloco.titulo %}<h4>{{ bloco.titulo }}</h4>{% endif %}
             {% if bloco.tipo == 'tabela' %}
             <div class="escudo-tabela">

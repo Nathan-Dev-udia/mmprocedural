@@ -1,8 +1,8 @@
 # Gerador de fichas · M&M 3ª edição
 
-Gera fichas de Mutantes & Malfeitores 3e para vários gêneros de campanha (hoje: **Faroeste**, **Cyberpunk** e **Fantasia medieval**). Cada gênero tem duas abas:
+Gera fichas de Mutantes & Malfeitores 3e para vários gêneros de campanha (hoje: **Faroeste**, **Cyberpunk**, **Fantasia medieval** e **Chamado de Cthulhu**, anos 1920). Cada gênero tem duas abas principais, mais o **Escudo do Mestre** e o **Bestiário**:
 
-- **Ficha de jogador:** um personagem por vez, num passo a passo (Gênero → Nome → Raça, só na fantasia → Arquétipo ou Classe → Vantagens → Implantes ou Magias, nos gêneros com poderes → Armas e itens → Complicações → Ficha). O último passo resume as escolhas antes de gerar. Feito a partir dos arquétipos de jogador do gênero. Gasta exatamente 15 PP por NP e exige Motivação e mais uma complicação. O equipamento é comprado com o dinheiro inicial: dólares no faroeste, eurobucks no cyberpunk (preços do Cyberpunk RED), peças de ouro na fantasia (preços do Livro do Jogador de D&D 5e). No cyberpunk, o personagem também pode ter implantes, que custam PP e eurobucks; na fantasia, magias e dons de classe e traços raciais.
+- **Ficha de jogador:** um personagem por vez, num passo a passo (Gênero → Nome → Raça, só na fantasia → Arquétipo ou Classe → Vantagens → Implantes ou Magias, nos gêneros com poderes → Armas e itens → Complicações → Ficha). O último passo resume as escolhas antes de gerar. Feito a partir dos arquétipos de jogador do gênero. Gasta exatamente 15 PP por NP e exige Motivação e mais uma complicação. O equipamento é comprado com o dinheiro inicial: dólares no faroeste e no Cthulhu, eurobucks no cyberpunk (preços do Cyberpunk RED), peças de ouro na fantasia (preços do Livro do Jogador de D&D 5e). No cyberpunk, o personagem também pode ter implantes, que custam PP e eurobucks; na fantasia, magias e dons de classe e traços raciais.
 - **Fichas de NPC:** grupos a partir de fichas-base dos livros e módulos cadastrados em JSON. Escolha o arquétipo e, se quiser, o **tipo** (ex.: Dragão → branco, azul, negro…), ou deixe o gerador sortear. A ficha sobe até 70–100% dos limites do NP escolhido.
 
 ## Como rodar
@@ -36,12 +36,15 @@ python -m pytest
 | `nucleo/pdf_export.py`, `nucleo/docx_export.py` | Ficha editável em PDF e fichas em Word. |
 | `nucleo/livros.py` | Livros do Jogador e do Mestre em .docx (texto de `dados/livros/` + apêndice gerado dos dados). |
 | `nucleo/planilhas.py` | Planilhas de armas, itens e poderes em .xlsx, geradas dos dados. |
+| `nucleo/escudo.py`, `nucleo/escudo_pdf.py`, `nucleo/escudo_xlsx.py` | Aba **Escudo do Mestre**: tabelas de consulta por gênero (veja a seção própria). |
+| `nucleo/sanidade.py`, `nucleo/sanidade_pdf.py` | Sanidade d100 do Chamado de Cthulhu e a 3ª página da ficha em PDF (Registro de Sanidade). |
 | `nucleo/viagem.py` | Aba **Rolagem de Eventos**: rola clima, se algo acontece, tipo de evento, evento, criatura e intensidade de um período de viagem. |
 | `nucleo/bestiario.py`, `nucleo/bestiario_pdf.py`, `nucleo/bestiario_docx.py` | Aba **Bestiário**: fichas prontas de `dados/bestiario/<gênero>/<categoria>/*.json`, com filtros (tipo, NP, papel, só possíveis chefes) e download em PDF ou DOCX. A quantidade gera várias cópias numeradas ("Carniçal 1, 2, 3"), cada uma com a sua linha de ferimentos; em PDF elas vêm num .zip. Cada criatura abre no NP padrão do arquivo; o campo NP da ficha a leva a outro NP (1 a 20) sem mexer no arquivo: cada NP a mais vale +1 em Força, Vigor, Agilidade, Destreza, Luta e Prontidão, nas defesas, nos ataques e nas graduações dos efeitos (`bestiario.no_np`), e os downloads saem nesse NP (`?np=12`). Criaturas com `"chefe": true` (ou papel com Chefe, Líder ou Solo) contam como possíveis chefes; fraquezas, maldições e restrições ficam em `complicacoes`, como nas fichas do livro básico. Formato das fichas, escolha do NP padrão e guia de conversão do D&D: [`dados/bestiario/README.md`](dados/bestiario/README.md). |
 | `dados/comum/` | O que vale para todos os gêneros: `settings.json`, `styles.json`, `vantagens.json`, a ficha editável e o catálogo de poderes. |
 | `dados/generos/<id>/` | Um gênero: `genero.json`, `archetypes.json`, `modules.json`, `equipment.json`, `names.json`, `player.json`, `complications.json` e, se tiver, `powers.json`. |
 | `dados/viagem/<genero>.json` | Tabelas da Rolagem de Eventos de um gênero (hoje só `fantasia.json`), com a planilha de mesa ao lado (`fantasia.xlsx`, gerada por `ferramentas/gerar_planilha_viagem_witcher.py`). Para um gênero novo ganhar rolagens, crie o arquivo dele com os mesmos campos; ele aparece sozinho no seletor de Categoria. |
-| `ferramentas/` | Scripts de apoio: extração do Perfis de Poder e criação da base do cyberpunk e da fantasia. |
+| `dados/escudo/<gênero>.json` | Conteúdo do Escudo do Mestre. Cthulhu e Cyberpunk são gerados por `ferramentas/criar_*_escudo.py`; fantasia e faroeste são editados à mão. |
+| `ferramentas/` | Scripts de apoio: extração do Perfis de Poder, criação da base do cyberpunk, da fantasia e do Cthulhu, e os escudos (`escudo_mm.py` guarda as regras gerais do livro básico usadas por eles). |
 | `templates/`, `static/` | A página (HTML, CSS e JavaScript). |
 | `tests/` | Testes com sementes fixas. |
 
@@ -82,6 +85,18 @@ Se um gênero tiver erro nos dados, os outros continuam funcionando e a página 
 ### Faroeste
 
 Sem poderes. Equipamento em dólares, com as condições financeiras do Guia do Mestre. 7 arquétipos de jogador e os NPCs do Oeste (pistoleiros, xerifes, capangas, cavalos...).
+
+- **Carga e montaria:** com cavalo ou mula, a sela, os alforjes e o coldre de rifle vão no animal; se a carga ainda passar de leve, os itens mais pesados que não se usam no corpo (rações, ferramentas, bebida) também vão (`validator.py`). Armas, munição, roupas e chapéus ficam com o personagem.
+- **Força mínima:** os PJs começam com Força 1 (`"forca_minima": 1` em `configuracoes` do `genero.json`); o Jogador de Pôquer e o Médico de Fronteira têm `"forca_minima": 0` no `player.json`. Se a Força 1 estourar um limite do NP ou o orçamento, ela fica em 0.
+
+### Chamado de Cthulhu (anos 1920)
+
+Investigadores comuns contra o horror cósmico. Tudo é gerado por `ferramentas/criar_cthulhu_base.py` (edite o script, não os JSON).
+
+- **Jogador:** 15 ocupações do CoC 7ª edição (rótulo "Ocupação"), cada uma com 2 a 4 especialidades. NP 1 a 5, padrão 3. Equipamento em dólares dos anos 20; seis condições financeiras do Nível de Crédito (Pobretão $20 a Ricaço $50.000).
+- **Sanidade d100** (`nucleo/sanidade.py`): SAN inicial = 45 + 5 × Vontade; máxima = 99 − 5 × graduação em `Especialidade: Mythos de Cthulhu`. A ficha mostra a Sanidade, e o PDF ganha uma 3ª página com o Registro de Sanidade.
+- **NPCs:** cultista e policial de ronda; o **Bestiário** traz cultistas e aberrações do Mythos com a perda de SAN.
+- **Livros:** ainda não existem. A preparação está em `dados/generos/cthulhu/PREPARACAO_LIVROS.md`.
 
 ### Cyberpunk
 
@@ -135,6 +150,14 @@ O programa entende os efeitos que mudam habilidades e defesas (Força Aumentada,
 Cada gênero tem um **Livro do Jogador** e um **Livro do Mestre** para baixar em .docx: botões no passo "Gênero" e links no rodapé. O texto fica em `dados/livros/<gênero>_<jogador|mestre>.md` (Markdown: títulos, listas, tabelas, citações, **negrito**, *itálico*). Ao baixar, `nucleo/livros.py` converte o texto e acrescenta um **apêndice montado dos dados** (classes e focos, raças, poderes, equipamento com preços, condição financeira, complicações e, no livro do mestre, os NPCs e seus tipos). Assim, mudar um JSON já muda o livro; só o texto corrido é editado à mão. O livro montado fica em memória até o .md mudar (montar leva alguns segundos).
 
 A fantasia tem ainda o **Livro das Classes e Subclasses** (`dados/livros/fantasia_classes.md`): uma explicação de como joga cada uma das 12 classes, 69 subclasses e 8 escolas do caçador de monstros. O texto tem marcadores como `{{classe:barbaro}}`, `{{subclasse:barbaro:totemico}}` e `{{escola:bruxo:cacador_monstros:lobo}}`, que viram o bloco "Na ficha" (habilidades, perícias, vantagens, magias e itens) montado dos dados na hora do download. O teste `test_livro_das_classes_explica_todas_as_classes_e_subclasses` falha se uma subclasse nova do gerador ficar sem texto.
+
+## Escudo do Mestre
+
+A aba **Escudo do Mestre** mostra as tabelas de mesa do gênero (testes, combate, condições, perigos, objetos e as do gênero, como Sanidade no Cthulhu e NET no cyberpunk), com botões para imprimir e baixar em PDF (uma página por aba) e em planilha. Existe para fantasia, faroeste, Cthulhu e cyberpunk; um gênero ganha a aba quando tem `dados/escudo/<gênero>.json`.
+
+- **Letalidade:** um seletor na aba escolhe **Heroica** (livro básico: o 4º grau só incapacita), **Equilibrada** [Casa] (tiros deixam o –1 de ferido até a cura, mas só morre quem já está caído e é atingido de novo) ou **Mortal** (dano letal do Guia do Mestre: o 4º grau deixa moribundo). Mudam as tabelas de Dano, Aflição (o 4º grau [Casa] só no Mortal) e Moribundo e recuperação; a ficha não muda. A escolha vale para o PDF e a planilha (`/escudo/<gênero>.pdf?letalidade=heroica`). Padrão: Equilibrada em todos os gêneros (`"letalidade"` no JSON do escudo, com o que muda por gênero: quais ataques são letais, velocidade de cura, lesões críticas).
+- Blocos `{"tipo": "gerado"}` (queda, tempo de viagem, montarias, carga e a Tabela de Medidas) são calculados por `nucleo/escudo.py` a partir dos dados, para baterem com o gerador.
+- As regras gerais (ações, manobras, condições, dano, Aflição, pontos heroicos, Tratamento) vêm de `ferramentas/escudo_mm.py`, conferido com o livro básico. O teste `test_regras_gerais_seguem_o_livro_basico` falha se voltar um termo de outro sistema.
 
 ## Planilhas
 
@@ -309,13 +332,13 @@ Itens com `custo` em pontos de equipamento (e `preco` em dólares, nos gêneros 
 
 ## O que falta (próximos passos)
 
-Levantado em 03/11/2026. Pendências mais antigas estão em `PENDENCIAS.md`.
+Atualizado em 10/11/2026. Pendências mais antigas estão em `PENDENCIAS.md`.
 
 - **Tamanho nas fichas:** halfling e gnomo já são Pequenos por 3 PP [Casa], o saldo dos traços em vez dos 9 PP do Encolhimento (`rules.TAMANHOS`, aplicado pelo validador). Falta revisar como isso aparece na ficha:
   - hoje o +4 de Furtividade e o –2 de Intimidação somam no total e vão para "Outros" no PDF, sem dizer que vêm do tamanho;
   - só existe o tamanho Pequeno para raças: um PJ Miúdo ou Grande ainda não é possível.
 - **Livro das Classes e Subclasses:** falta a leitura do usuário, principalmente as linhas "Escolha se…", que são sugestões do Claude.
-- **Gênero Chamado de Cthulhu (anos 20):** planejado, não iniciado. O passo a passo, a adaptação da Sanidade em d100 e as decisões em aberto estão em `dados/generos/cthulhu/PREPARACAO_GENERO.md`.
+- **Livros de Chamado de Cthulhu:** o gênero, o escudo e o bestiário estão prontos; faltam o Livro do Jogador e o do Mestre. Instruções em `dados/generos/cthulhu/PREPARACAO_LIVROS.md`.
 - **Faroeste:**
   - revisar o texto dos livros;
   - avaliar criar um script gerador, como na fantasia (hoje o `equipment.json` é a fonte da verdade);

@@ -1,9 +1,7 @@
 # Gênero Chamado de Cthulhu (anos 20): preparação
 
-Anotações para construir o gênero mais tarde. Nada aqui está implementado ainda.
-
-Esta pasta só tem este arquivo e **não** tem `genero.json`, então o gerador ainda não a enxerga
-(`data_loader.generos_disponiveis` só lista as pastas com `genero.json`). Criar o `genero.json` é o que "liga" o gênero.
+Anotações usadas para construir o gênero. **O gênero já está implementado** (gerador, Sanidade, escudo e bestiário); este arquivo
+fica como registro das decisões e do mapa de páginas do CoC. O que falta, os livros, está em `PREPARACAO_LIVROS.md`.
 
 ## Decisões já tomadas
 

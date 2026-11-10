@@ -178,22 +178,11 @@ CONDICOES = {
     "id": "condicoes",
     "nome": "Condições e graus",
     "blocos": [
-        mm.aflicao("Os surtos de loucura não são Aflição: veja a aba Sanidade."),
-        mm.dano("tiros, lâminas, garras e mordidas", padrao="socos, coronhadas, cassetetes"),
+        {"tipo": "gerado", "fonte": "aflicao"},
+        {"tipo": "gerado", "fonte": "dano"},
         mm.condicoes_basicas("Ações ditadas pela fonte (hipnose, feitiço, a vontade de um Mythos)."),
         mm.CONDICOES_COMBINADAS,
-        {
-            "tipo": "lista",
-            "titulo": "Moribundo e recuperação",
-            "itens": [
-                "**Moribundo:** quem leva o 4º grau de dano letal cai moribundo. Fortitude CD 15 na hora e a cada rodada: "
-                "um sucesso não muda nada, dois graus de sucesso estabilizam e três graus de falha somados causam a morte.",
-                "**Estabilizar:** Tratamento CD 15 (ação padrão). A vantagem Duro de Matar estabiliza sozinha.",
-                "**Recuperação [Casa]:** sem atendimento, cada condição de dano leva 1 dia para sumir, da pior para a "
-                "melhor. Com Tratamento de longo prazo e repouso num hospital, 1 a cada 8 horas.",
-                "**Ponto heroico:** remove tonto, atordoado ou fatigado na hora, sem gastar ação.",
-            ],
-        },
+        {"tipo": "gerado", "fonte": "recuperacao"},
         mm.tratamento("maleta médica", extras=[
             ["Acalmar acesso de loucura", "15", "Encerra o acesso de loucura (com Especialidade: Psicologia)."],
         ]),
@@ -463,12 +452,23 @@ CIDADE = {
     ],
 }
 
+# Tabelas de dano, Aflição e recuperação: geradas por nucleo/escudo.py conforme a letalidade escolhida.
+LETALIDADE = {
+    "padrao": "equilibrada",
+    "ataques_letais": "tiros, lâminas, garras e mordidas",
+    "ataques_padrao": "socos, coronhadas, cassetetes",
+    "aflicao_nota": "Os surtos de loucura não são Aflição: veja a aba Sanidade.",
+    "cura": {"mortal": "**Recuperação [Casa]:** sem atendimento, 1 condição de dano por dia, da pior para a melhor. "
+                       "Com Tratamento de longo prazo e repouso num hospital, 1 a cada 8 horas."},
+}
+
 escudo_cthulhu = {
     "_fonte": "Resumo das regras de Chamado de Cthulhu 7ª edição adaptadas para Mutantes & Malfeitores 3ª edição. "
               "Gerado por ferramentas/criar_cthulhu_escudo.py; os textos de Sanidade vêm de nucleo/sanidade.py e os "
               "blocos 'gerado' são calculados por nucleo/escudo.py.",
     "genero": "cthulhu",
     "titulo": "Escudo do Mestre: Chamado de Cthulhu",
+    "letalidade": LETALIDADE,
     "abas": [TESTES, COMBATE, CONDICOES, SANIDADE, VIAGEM, PERIGOS, OBJETOS, CIDADE],
 }
 

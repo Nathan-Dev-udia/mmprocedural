@@ -278,7 +278,7 @@ def pagina_inicial():
         return render_template("index.html", opcoes=None,
                                erros=erros or [f"Gênero '{genero_id}' não encontrado."]), 500
     return render_template("index.html", opcoes=opcoes_da_interface(DADOS_POR_GENERO[genero_id]), erros=erros,
-                           escudo=escudo.montar(genero_id, DADOS_POR_GENERO[genero_id]))
+                           escudo=escudo.montar(genero_id, DADOS_POR_GENERO[genero_id], letalidade="todas"))
 
 
 @app.template_filter("negrito")
@@ -290,10 +290,11 @@ def _negrito(texto):
 
 @app.get("/escudo/<genero_id>.<formato>")
 def baixar_escudo(genero_id, formato):
-    """Escudo do Mestre em PDF (A4 deitado) ou em planilha (uma folha por aba)."""
+    """Escudo do Mestre em PDF (A4 deitado) ou em planilha (uma folha por aba), na letalidade de ?letalidade=
+    (heroica, equilibrada ou mortal; sem ela, a padrão do gênero)."""
     if genero_id not in DADOS_POR_GENERO or formato not in ("pdf", "xlsx"):
         return jsonify({"erro": "Escudo não encontrado."}), 404
-    montado = escudo.montar(genero_id, DADOS_POR_GENERO[genero_id])
+    montado = escudo.montar(genero_id, DADOS_POR_GENERO[genero_id], letalidade=request.args.get("letalidade"))
     if montado is None:
         return jsonify({"erro": "Este gênero ainda não tem Escudo do Mestre."}), 404
     if formato == "pdf":
@@ -301,7 +302,7 @@ def baixar_escudo(genero_id, formato):
     else:
         conteudo, mime = escudo_xlsx.gerar_xlsx(montado), MIME_XLSX
     return send_file(io.BytesIO(conteudo), mimetype=mime, as_attachment=True,
-                     download_name=f"escudo_do_mestre_{genero_id}.{formato}")
+                     download_name=f"escudo_do_mestre_{genero_id}_{montado['letalidade_atual']}.{formato}")
 
 
 @app.post("/api/gerar")

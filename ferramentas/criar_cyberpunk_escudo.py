@@ -204,24 +204,8 @@ ARMAS = {"id": "armas", "nome": "Armas e armaduras", "blocos": [
 # ---------------------------------------------------------------- Condições, dano e cura (seções 2.8, 5.1, 6 e 7)
 
 CONDICOES = {"id": "condicoes", "nome": "Condições e dano", "blocos": [
-    tabela("Dano: padrão e letal", ["Grau de falha", "Padrão (socos, borracha, atordoantes)",
-                                    "Letal (tiros, lâminas, explosivos, implantes de ataque)"], [
-        ["Sucesso", "Sem efeito.", "Sem efeito."],
-        ["1º grau (1 a 5)", "–1 nos próximos salvamentos de Resistência (cumulativo).", "Ferido: –1 na Resistência "
-                                                                                       "(cumulativo)."],
-        ["2º grau (6 a 10)", "–1 e tonto até o fim do próximo turno.", "Ferido e tonto até o fim do próximo turno."],
-        ["3º grau (11 a 15)", "–1 e abatido. Se já estava abatido, aplique o 4º grau.",
-         "Ferido, abatido e desabilitado (–5 em todos os testes). Rola uma lesão crítica."],
-        ["4º grau (16 ou mais)", "Incapacitado.", "Incapacitado e moribundo. Rola uma lesão crítica."],
-    ], nota="Salvamento: d20 + Resistência contra 15 + Dano. Incapacitado que falha fica moribundo; moribundo que "
-            "falha morre. Opcional: cinco ou mais graus de falha contra dano letal matam na hora."),
-    tabela("Aflição: condição por grau de falha", ["Grau de falha", "Condições possíveis"], [
-        ["1º grau (falha por 1 a 5)", "Tonto, em transe, fatigado, impedido, prejudicado ou vulnerável"],
-        ["2º grau (falha por 6 a 10)", "Atordoado, caído, compelido, desabilitado, exausto, imóvel ou vulnerável"],
-        ["3º grau (falha por 11 a 15)", "Adormecido, controlado, desatento, incapacitado, paralisado ou transformado"],
-    ], nota="O efeito define uma condição para cada grau; graus mais altos substituem os mais baixos. No fim de cada "
-            "turno, o alvo faz um salvamento para tirar as condições de 1º e 2º grau; as de 3º grau exigem um minuto "
-            "ou ajuda (Tratamento CD 10 + graduação)."),
+    {"tipo": "gerado", "fonte": "dano"},
+    {"tipo": "gerado", "fonte": "aflicao"},
     tabela("Condições básicas", ["Condição", "Efeito"], [
         ["Prejudicado", "–2 em todos os testes (ou nos indicados)."],
         ["Desabilitado", "–5 em todos os testes (ou nos indicados). Sobrepõe prejudicado."],
@@ -249,15 +233,7 @@ CONDICOES = {"id": "condicoes", "nome": "Condições e dano", "blocos": [
         ["Moribundo", "Incapacitado; Fortitude CD 15 na hora e a cada rodada: dois graus de sucesso estabilizam, três "
                       "graus de falha somados matam."],
     ]),
-    lista("Moribundo e cura", [
-        "**Moribundo:** Fortitude CD 15 na hora e a cada rodada. Sucesso: nada muda; dois graus de sucesso: "
-        "estabiliza (continua incapacitado); três graus de falha somados: morte.",
-        "**Estabilizar:** Tratamento CD 15 (ação padrão); com Airhypo e estabilizante, ação de movimento. Duro de "
-        "Matar estabiliza sozinho. A Trauma Team chega em minutos e estabiliza o cliente.",
-        "**Relógio da cura [Casa]:** 1 condição por dia de descanso, da pior para a melhor (incapacitado → abatido → "
-        "ferido; cada –1 na Resistência, 1 dia). Com Medtech cuidando (Tratamento CD 15), 16 horas por condição.",
-        "**Ponto heroico:** remove tonto, atordoado ou fatigado na hora. **Nanorreparo:** Regeneração 2.",
-    ]),
+    {"tipo": "gerado", "fonte": "recuperacao"},
     tabela("Tratamento (só treinado; sem Bolsa Medtech, –5)", ["Tarefa", "CD", "Efeito"], [
         ["Diagnosticar (1 minuto)", "10", "+2 nos testes seguintes de Tratamento. O escâner médico dá +2."],
         ["Estabilizar (padrão)", "15", "Estanca o sangramento de um moribundo."],
@@ -286,8 +262,8 @@ LESOES = {"id": "lesoes", "nome": "Lesões críticas", "blocos": [
         ["11", "Dedos esmagados", "–5 em tudo que use aquela mão.", "CD 18", "Cirurgia CD 20"],
         ["12", "Perna desmembrada", "Imóvel sem muleta; vulnerável; complicação até ganhar uma cyberperna.", "—",
          "Cirurgia CD 22"],
-    ], nota="Acontece num crítico com dano letal, no 3º grau de falha ou pior contra dano letal, ou quando um "
-            "moribundo é atingido de novo. Soma –1 na Resistência. Lesão repetida: role de novo. Capangas só caem.",
+    ], nota="Quando acontece depende da letalidade (veja Dano, na aba Condições): num crítico com dano letal e "
+            "no grau indicado lá, ou quando um moribundo é atingido de novo. Soma –1 na Resistência. Lesão repetida: role de novo. Capangas só caem.",
         larga=True),
     tabela("Lesões na cabeça (2d6, tiro mirado na cabeça)", ["2d6", "Lesão", "Efeito", "Correção rápida",
                                                              "Tratamento"], [
@@ -537,12 +513,29 @@ RUA = {"id": "rua", "nome": "Reputação e lei", "blocos": [
             "cyberpsicopata vivo vale o de trabalho perigoso."),
 ]}
 
+# Tabelas de dano, Aflição e recuperação: geradas por nucleo/escudo.py conforme a letalidade escolhida.
+LETALIDADE = {
+    "padrao": "equilibrada",
+    "ataques_letais": "tiros, lâminas, explosivos, implantes de ataque",
+    "ataques_padrao": "socos, borracha, atordoantes",
+    "lesao_critica": True,
+    "cura": {"mortal": "**Relógio da cura [Casa]:** 1 condição por dia de descanso, da pior para a melhor (incapacitado "
+                       "→ abatido → ferido; cada –1 na Resistência, 1 dia). Com Medtech cuidando (Tratamento CD 15), "
+                       "16 horas por condição."},
+    "recuperacao_extras": [
+        "**Airhypo** com estabilizante: estabiliza como ação de movimento. A **Trauma Team** chega em minutos e "
+        "estabiliza o cliente.",
+        "**Nanorreparo:** Regeneração 2 recupera condições sem descanso.",
+    ],
+}
+
 escudo_cyberpunk = {
     "_fonte": "Resumo do Livro do Mestre do cyberpunk (dados/livros/cyberpunk_mestre.md): regras do livro básico "
               "de M&M e conversões do Cyberpunk RED. Gerado por ferramentas/criar_cyberpunk_escudo.py; os blocos "
               "'gerado' são calculados por nucleo/escudo.py.",
     "genero": "cyberpunk",
     "titulo": "Escudo do Mestre: Cyberpunk",
+    "letalidade": LETALIDADE,
     "abas": [TESTES, COMBATE, ARMAS, CONDICOES, LESOES, HUMANIDADE_E_NET, LOCOMOCAO, PERIGOS, OBJETOS, DINHEIRO, RUA],
 }
 

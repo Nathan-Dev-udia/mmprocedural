@@ -75,7 +75,7 @@ def conferir(escudo):
             tipo = bloco.get("tipo")
             if tipo not in TIPOS_DE_BLOCO:
                 erros.append(f"Aba {aba.get('id')}: tipo de bloco desconhecido '{tipo}'.")
-            elif tipo == "gerado" and bloco.get("fonte") not in GERADORES:
+            elif tipo == "gerado" and bloco.get("fonte") not in GERADORES and bloco.get("fonte") not in LETAIS:
                 erros.append(f"Aba {aba.get('id')}: bloco gerado sem fonte conhecida ('{bloco.get('fonte')}').")
             elif tipo == "tabela":
                 largura = len(bloco.get("colunas", []))
@@ -177,18 +177,145 @@ GERADORES = {"tempo_de_viagem": _tempo_de_viagem, "montarias": _montarias, "carg
              "medidas": _medidas}
 
 
-def montar(genero_id, dados=None):
+# ---------------------------------------------------------------- letalidade
+
+# Quão fácil é morrer: as tabelas de dano, Aflição e recuperação mudam; a ficha não.
+LETALIDADES = {"heroica": "Heroica", "equilibrada": "Equilibrada", "mortal": "Mortal"}
+DESCRICAO_DA_LETALIDADE = {
+    "heroica": "Livro básico puro: ninguém morre de um golpe só.",
+    "equilibrada": "Tiros e lâminas deixam marca, mas só morre quem já está caído e é atingido de novo [Casa].",
+    "mortal": "Dano letal do Guia do Mestre: o 4º grau já deixa moribundo.",
+}
+CURA_PADRAO = {
+    "heroica": "**Recuperação (livro básico):** 1 condição de dano por minuto de descanso, da pior para a melhor; "
+               "a fadiga some com 1 hora.",
+    "equilibrada": "**Recuperação [Casa]:** 1 condição de dano por hora de descanso, da pior para a melhor (cada –1 "
+                  "de ferido é uma condição). Tratamento de longo prazo reduz uma graduação de tempo.",
+    "mortal": "**Recuperação lenta [Casa]:** 1 condição de dano por dia de descanso, da pior para a melhor. "
+              "Tratamento de longo prazo reduz uma graduação de tempo.",
+}
+NOTA_DA_AFLICAO = ("O efeito define uma condição para cada grau; graus mais altos substituem os mais baixos. No fim de "
+                   "cada turno, o alvo faz um salvamento para tirar as condições de 1º e 2º grau; as de 3º grau exigem "
+                   "um minuto ou ajuda (Tratamento CD 10 + graduação).")
+
+
+def letalidade_padrao(escudo):
+    return (escudo.get("letalidade") or {}).get("padrao", "equilibrada")
+
+
+def _dano(config, modo):
+    if modo == "heroica":
+        return {"tipo": "tabela", "titulo": "Dano", "colunas": ["Grau de falha", "Efeito (todos os ataques)"],
+                "linhas": [
+                    ["Sucesso", "Sem efeito."],
+                    ["1º grau (1 a 5)", "–1 nos próximos salvamentos de Resistência (cumulativo)."],
+                    ["2º grau (6 a 10)", "–1 e tonto até o fim do próximo turno."],
+                    ["3º grau (11 a 15)", "–1 e abatido (tonto e impedido). Se já estava abatido, aplique o 4º grau."],
+                    ["4º grau (16 ou mais)", "Incapacitado."],
+                ],
+                "nota": "**Letalidade heroica (livro básico).** Salvamento: d20 + Resistência contra 15 + Dano. "
+                        "Incapacitado que falha de novo fica moribundo; moribundo que falha morre. Para matar de "
+                        "propósito, use a manobra Ataque Final."}
+    mortal = modo == "mortal"
+    lesao = config.get("lesao_critica")
+    terceiro = ("Ferido, abatido e desabilitado (–5 em todos os testes)." if mortal
+                else "Ferido e abatido (tonto e impedido).")
+    quarto = "Incapacitado e moribundo." if mortal else "Incapacitado."
+    if lesao and mortal:
+        terceiro += " Rola uma lesão crítica."
+    if lesao:
+        quarto += " Rola uma lesão crítica."
+    if mortal:
+        nota = ("**Letalidade mortal (Guia do Mestre).** Salvamento: d20 + Resistência contra 15 + Dano. O 4º grau "
+                "letal deixa moribundo na hora; moribundo que falha morre. Opcional: cinco ou mais graus de falha "
+                "contra dano letal matam na hora.")
+    else:
+        nota = ("**Letalidade equilibrada [Casa].** Salvamento: d20 + Resistência contra 15 + Dano. O –1 de ferido não "
+                "some sozinho: só com descanso. Incapacitado que falha de novo fica moribundo; moribundo que falha "
+                "morre.")
+    return {"tipo": "tabela", "titulo": "Dano",
+            "colunas": ["Grau de falha", f"Padrão ({config.get('ataques_padrao', 'socos e golpes sem arma')})",
+                        f"Letal ({config.get('ataques_letais', 'armas')})"],
+            "linhas": [
+                ["Sucesso", "Sem efeito.", "Sem efeito."],
+                ["1º grau (1 a 5)", "–1 nos próximos salvamentos de Resistência (cumulativo).",
+                 "Ferido: –1 na Resistência (cumulativo)."],
+                ["2º grau (6 a 10)", "–1 e tonto até o fim do próximo turno.",
+                 "Ferido e tonto até o fim do próximo turno."],
+                ["3º grau (11 a 15)", "–1 e abatido (tonto e impedido). Se já estava abatido, aplique o 4º grau.",
+                 terceiro],
+                ["4º grau (16 ou mais)", "Incapacitado.", quarto],
+            ],
+            "nota": nota}
+
+
+def _aflicao(config, modo):
+    linhas = [
+        ["1º grau (falha por 1 a 5)", "Tonto, em transe, fatigado, impedido, prejudicado ou vulnerável"],
+        ["2º grau (falha por 6 a 10)", "Atordoado, caído, compelido, desabilitado, exausto, imóvel ou vulnerável"],
+        ["3º grau (falha por 11 a 15)", "Adormecido, controlado, desatento, incapacitado, paralisado ou transformado"],
+    ]
+    if modo == "mortal" and config.get("aflicao_quarto_grau"):
+        linhas.append(["4º grau [Casa] (16 ou mais)", config["aflicao_quarto_grau"]])
+    colunas = ["Grau de falha", "Condições possíveis"]
+    exemplos = config.get("aflicao_exemplos")
+    if exemplos:
+        colunas.append("Exemplos")
+        linhas = [linha + [exemplos.get(str(i + 1), "—")] for i, linha in enumerate(linhas)]
+    nota = f"{NOTA_DA_AFLICAO} {config.get('aflicao_nota', '')}".strip()
+    return {"tipo": "tabela", "titulo": "Aflição: condição por grau de falha", "colunas": colunas, "linhas": linhas,
+            "nota": nota}
+
+
+def _recuperacao(config, modo):
+    if modo == "mortal":
+        como = ("**Moribundo:** o 4º grau de dano letal deixa moribundo na hora. Fortitude CD 15 na hora e a cada "
+                "rodada: dois graus de sucesso estabilizam, três graus de falha somados matam.")
+    else:
+        como = ("**Moribundo:** quem já está incapacitado e falha de novo num salvamento contra dano fica moribundo. "
+                "Fortitude CD 15 na hora e a cada rodada: dois graus de sucesso estabilizam, três graus de falha "
+                "somados matam.")
+    cura = (config.get("cura") or {}).get(modo, CURA_PADRAO[modo])
+    itens = [como, "**Estabilizar:** Tratamento CD 15 (ação padrão). A vantagem Duro de Matar estabiliza sozinha.",
+             cura, "**Ponto heroico:** remove tonto, atordoado ou fatigado na hora, sem gastar ação."]
+    return {"tipo": "lista", "titulo": "Moribundo e recuperação", "itens": itens + config.get("recuperacao_extras", [])}
+
+
+LETAIS = {"dano": _dano, "aflicao": _aflicao, "recuperacao": _recuperacao}
+
+
+def montar(genero_id, dados=None, letalidade=None):
     """O escudo do gênero com os blocos gerados já calculados; None se o gênero não tiver escudo.
 
     `dados` é o gênero carregado (data_loader.carregar_genero), de onde sai o catálogo de equipamento.
+    `letalidade`: "heroica", "equilibrada" ou "mortal" (sem pedido, a padrão do gênero). "todas" monta os três
+    modos de cada bloco de letalidade, marcados com "letalidade", para a página trocar sem recarregar.
     """
     escudo = _ler(genero_id)
     if escudo is None:
         return None
     catalogo = (dados or {}).get("equipamentos", {})
+    config = escudo.get("letalidade") or {}
+    padrao = letalidade_padrao(escudo)
+    todas = letalidade == "todas"
+    modo = letalidade if letalidade in LETALIDADES else padrao
     for aba in escudo["abas"]:
-        aba["blocos"] = [GERADORES[b["fonte"]](catalogo, dados, genero_id) if b["tipo"] == "gerado" else b
-                         for b in aba["blocos"]]
+        blocos = []
+        for b in aba["blocos"]:
+            if b["tipo"] == "gerado" and b["fonte"] in LETAIS:
+                for m in (LETALIDADES if todas else [modo]):
+                    bloco = LETAIS[b["fonte"]](config, m)
+                    blocos.append(dict(bloco, letalidade=m) if todas else bloco)
+            elif b["tipo"] == "gerado":
+                blocos.append(GERADORES[b["fonte"]](catalogo, dados, genero_id))
+            else:
+                blocos.append(b)
+        aba["blocos"] = blocos
+    escudo["letalidade_atual"] = modo
+    escudo["letalidades"] = [{"id": m, "nome": nome, "descricao": DESCRICAO_DA_LETALIDADE[m]}
+                             for m, nome in LETALIDADES.items()]
+    if not todas:
+        escudo["titulo"] = f"{escudo['titulo']} · Letalidade {LETALIDADES[modo].lower()}"
     return escudo
 
 

@@ -16,7 +16,8 @@ Rascunho do que ficou para depois (atualizado na versão 1.7.0).
 
 ## Escudo do Mestre
 - **Fantasia, Faroeste, Cthulhu e Cyberpunk:** feitos (aba no site, impressão, PDF e planilha). Conteúdo em `dados/escudo/<gênero>.json`; o de Cthulhu e o de Cyberpunk são gerados por `ferramentas/criar_*_escudo.py` (edite o script, não o JSON). O do Cyberpunk resume o Livro do Mestre do gênero em 11 abas (uma página de PDF cada), com armas e modos de disparo, lesões críticas, Humanidade, NET, dinheiro e reputação; queda, tempo de viagem, veículos/montarias, carga e medidas são calculados dinamicamente em `nucleo/escudo.py`.
-- **Impressão pelo navegador:** a aba Viagem ocupa duas folhas; o PDF baixado cabe em 7 páginas.
+- **Impressão pelo navegador:** a aba Viagem ocupa duas folhas. O PDF baixado tem uma página por aba (teste `test_regras_gerais_seguem_o_livro_basico`).
+- **Letalidade escolhível:** Heroica, Equilibrada ou Mortal, num seletor da aba (vale para PDF e planilha). As tabelas de dano, Aflição e recuperação são geradas por `nucleo/escudo.py`; o que muda por gênero fica em `"letalidade"` no JSON do escudo. Os livros ainda descrevem só o modo padrão de cada gênero; uma seção "Níveis de letalidade" no Livro do Mestre fica para quando os livros forem revistos.
 - **Regras gerais dos escudos (resolvido):** ações, manobras, condições, dano, Aflição, pontos heroicos e Tratamento vêm de `ferramentas/escudo_mm.py`, conferido com o livro básico e com os Livros do Mestre. O script do Cthulhu usa o módulo; o `faroeste.json` foi corrigido com ele (as linhas próprias do faroeste, como tipos de disparo e recuperação por hora, saem do Livro do Mestre do gênero). A Aflição do faroeste voltou a ter o 4º grau, marcado [Casa], como no livro. O Cyberpunk já seguia o livro, e a fantasia estava certa.
 
 ## Gênero Chamado de Cthulhu (anos 20)
@@ -24,7 +25,7 @@ Rascunho do que ficou para depois (atualizado na versão 1.7.0).
 - **15 Ocupações clássicas e 6 faixas de crédito/riqueza:** Professor, Detetive, Médico, Jornalista, Antiquário, Veterano, Policial, Bibliotecário, Diletante, Membro do Clero, Escritor, Parapsicólogo, Enfermeira, Advogado e Criminoso.
 - **Mecânica de Sanidade d100 integrada (`nucleo/sanidade.py`):** cálculo inicial derivado de Vontade (`45 + 5 * Vontade`, teto 99 reduzido por Mythos), rolagem d100 (01 sucesso automático, 100 desastre / 96-100 para SAN < 50, perda >= 5 com teste de Intelecto CD 10 para insanidade temporária, perda no dia >= 20% para insanidade indefinida).
 - **Página 3 no PDF da Ficha (Registro de Sanidade):** implementada em `nucleo/sanidade_pdf.py` e anexada automaticamente em `nucleo/pdf_export.py`. Traz contador visual de 00 a 99, estatísticas vitais, regras resumidas de Sanidade, tabela d10 de Acessos de Loucura, registro diário de Sanidade (ponto de ruptura), registro de Fobias e Manias, e diário de Criaturas e Tomos do Mythos. Cabe numa folha mesmo com complicações longas.
-- **Escudo do Mestre (Site, PDF e XLSX):** 7 abas especializadas em `dados/escudo/cthulhu.json` cobrindo testes investigativos, combate nos anos 20, condições, aba dedicada de Sanidade & Horror, viagens e veículos de 1920 (Ford Modelo T, Packard, trem), perigos/explosivos e serviços da metrópole (hotéis, hospitais, speakeasies).
+- **Escudo do Mestre (Site, PDF e XLSX):** 8 abas especializadas em `dados/escudo/cthulhu.json` cobrindo testes investigativos, combate nos anos 20, condições, aba dedicada de Sanidade & Horror, viagens e veículos de 1920 (Ford Modelo T, Packard, trem), perigos/explosivos e serviços da metrópole (hotéis, hospitais, speakeasies).
 - **Testes automatizados:** `tests/test_cthulhu.py` e `tests/test_escudo.py` com validação de dados, cálculos, geração de PDFs, planilhas e rotas web. Na revisão de 10/11/2026 a suíte tinha 447 testes, todos passando.
 - **Bestiário do Mythos integrado ao sistema de Bestiário (`dados/bestiario/cthulhu/`):**
   - 7 criaturas cadastradas sob regras estritas de M&M 3e e testadas de NP 1 a 20:
@@ -38,8 +39,8 @@ Rascunho do que ficou para depois (atualizado na versão 1.7.0).
   - Filtro por gênero "Chamado de Cthulhu" na aba do Bestiário, rotas de API, exportação DOCX agrupada/multi-cópia e geração de PDFs editáveis.
 - **Revisão de regras (10/11/2026):** escudo, página de Sanidade e bestiário alinhados ao M&M 3e e ao CoC 7e. As tabelas de Sanidade (acessos, durações, recuperação, ponto de ruptura) têm fonte única em `nucleo/sanidade.py`. As criaturas ganharam o campo `sanidade` (perda "x/y"). O cultista usa "Especialidade: Mythos de Cthulhu", que reduz a SAN máxima.
 - **Regra própria do projeto:** a tabela d10 de acessos de loucura com efeitos em condições de M&M foi redigida para o projeto (não vem do livro).
-- **Escudos conferidos com o livro básico (Moribundo, Caído, Aflição):** faroeste e Cthulhu usavam Moribundo com CD 10 (+1) e três sucessos; agora seguem o livro e os Livros do Mestre (Fortitude CD 15, dois graus de sucesso estabilizam, três graus de falha somados matam). A Aflição usa a tabela do livro (três graus) também na fantasia, e Caído dá –5 à distância contra o alvo.
-- **Próximos passos opcionais:** Livro do Jogador/Mestre de Cthulhu.
+- **Escudos conferidos com o livro básico (Moribundo, Caído, Aflição):** faroeste e Cthulhu usavam Moribundo com CD 10 (+1) e três sucessos; agora seguem o livro e os Livros do Mestre (Fortitude CD 15, dois graus de sucesso estabilizam, três graus de falha somados matam). A Aflição usa a tabela do livro (três graus); fantasia e faroeste acrescentam um 4º grau marcado [Casa], como nos livros deles. Caído dá –5 à distância contra o alvo.
+- **Próximo passo:** Livro do Jogador e Livro do Mestre de Cthulhu. Instruções para a IA (estrutura, fontes, decisões e armadilhas) em `dados/generos/cthulhu/PREPARACAO_LIVROS.md`.
 
 ## Outros
 - Biblioteca de fichas salvas, edição de arquétipos pela interface e mechas, como já estava no README.

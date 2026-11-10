@@ -2,6 +2,15 @@
   "_fonte": "Resumo das regras de Chamado de Cthulhu 7ª edição adaptadas para Mutantes & Malfeitores 3ª edição. Gerado por ferramentas/criar_cthulhu_escudo.py; os textos de Sanidade vêm de nucleo/sanidade.py e os blocos 'gerado' são calculados por nucleo/escudo.py.",
   "genero": "cthulhu",
   "titulo": "Escudo do Mestre: Chamado de Cthulhu",
+  "letalidade": {
+    "padrao": "equilibrada",
+    "ataques_letais": "tiros, lâminas, garras e mordidas",
+    "ataques_padrao": "socos, coronhadas, cassetetes",
+    "aflicao_nota": "Os surtos de loucura não são Aflição: veja a aba Sanidade.",
+    "cura": {
+      "mortal": "**Recuperação [Casa]:** sem atendimento, 1 condição de dano por dia, da pior para a melhor. Com Tratamento de longo prazo e repouso num hospital, 1 a cada 8 horas."
+    }
+  },
   "abas": [
     {
       "id": "testes",
@@ -466,64 +475,12 @@
       "nome": "Condições e graus",
       "blocos": [
         {
-          "tipo": "tabela",
-          "titulo": "Aflição: condição por grau de falha",
-          "colunas": [
-            "Grau de falha",
-            "Condições possíveis"
-          ],
-          "linhas": [
-            [
-              "1º grau (falha por 1 a 5)",
-              "Tonto, em transe, fatigado, impedido, prejudicado ou vulnerável"
-            ],
-            [
-              "2º grau (falha por 6 a 10)",
-              "Atordoado, caído, compelido, desabilitado, exausto, imóvel ou vulnerável"
-            ],
-            [
-              "3º grau (falha por 11 a 15)",
-              "Adormecido, controlado, desatento, incapacitado, paralisado ou transformado"
-            ]
-          ],
-          "nota": "O efeito define uma condição para cada grau; graus mais altos substituem os mais baixos. No fim de cada turno, o alvo faz um salvamento para tirar as condições de 1º e 2º grau; as de 3º grau exigem um minuto ou ajuda (Tratamento CD 10 + graduação). Os surtos de loucura não são Aflição: veja a aba Sanidade."
+          "tipo": "gerado",
+          "fonte": "aflicao"
         },
         {
-          "tipo": "tabela",
-          "titulo": "Dano: padrão e letal",
-          "colunas": [
-            "Grau de falha",
-            "Padrão (socos, coronhadas, cassetetes)",
-            "Letal (tiros, lâminas, garras e mordidas)"
-          ],
-          "linhas": [
-            [
-              "Sucesso",
-              "Sem efeito.",
-              "Sem efeito."
-            ],
-            [
-              "1º grau (1 a 5)",
-              "–1 nos próximos salvamentos de Resistência (cumulativo).",
-              "Ferido: –1 na Resistência (cumulativo)."
-            ],
-            [
-              "2º grau (6 a 10)",
-              "–1 e tonto até o fim do próximo turno.",
-              "Ferido e tonto até o fim do próximo turno."
-            ],
-            [
-              "3º grau (11 a 15)",
-              "–1 e abatido (tonto e impedido). Se já estava abatido, aplique o 4º grau.",
-              "Ferido, abatido e desabilitado (–5 em todos os testes)."
-            ],
-            [
-              "4º grau (16 ou mais)",
-              "Incapacitado.",
-              "Incapacitado e moribundo."
-            ]
-          ],
-          "nota": "Salvamento: d20 + Resistência contra 15 + Dano. Incapacitado que falha fica moribundo; moribundo que falha morre. Opcional: cinco ou mais graus de falha contra dano letal matam na hora."
+          "tipo": "gerado",
+          "fonte": "dano"
         },
         {
           "tipo": "tabela",
@@ -630,14 +587,8 @@
           ]
         },
         {
-          "tipo": "lista",
-          "titulo": "Moribundo e recuperação",
-          "itens": [
-            "**Moribundo:** quem leva o 4º grau de dano letal cai moribundo. Fortitude CD 15 na hora e a cada rodada: um sucesso não muda nada, dois graus de sucesso estabilizam e três graus de falha somados causam a morte.",
-            "**Estabilizar:** Tratamento CD 15 (ação padrão). A vantagem Duro de Matar estabiliza sozinha.",
-            "**Recuperação [Casa]:** sem atendimento, cada condição de dano leva 1 dia para sumir, da pior para a melhor. Com Tratamento de longo prazo e repouso num hospital, 1 a cada 8 horas.",
-            "**Ponto heroico:** remove tonto, atordoado ou fatigado na hora, sem gastar ação."
-          ]
+          "tipo": "gerado",
+          "fonte": "recuperacao"
         },
         {
           "tipo": "tabela",

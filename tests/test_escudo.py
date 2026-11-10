@@ -68,7 +68,7 @@ def test_carga_bate_com_o_validador(montado):
 
 def test_aflicao_tem_os_graus(montado):
     tabela = _bloco(montado, "Aflição: condição por grau de falha")
-    assert [l[0] for l in tabela["linhas"]][:3] == ["1º grau", "2º grau", "3º grau"]
+    assert [l[0].split(" (")[0] for l in tabela["linhas"]][:3] == ["1º grau", "2º grau", "3º grau"]
 
 
 def test_negrito_vira_partes():
@@ -115,7 +115,7 @@ def test_escudo_cthulhu_usa_regras_do_mm_e_a_fonte_unica_de_sanidade():
     from nucleo import sanidade
     dados = data_loader.carregar_genero("cthulhu")
     montado_c = escudo.montar("cthulhu", dados)
-    dano = _bloco(montado_c, "Dano: padrão e letal")
+    dano = _bloco(montado_c, "Dano")
     assert [l[0].split(" (")[0] for l in dano["linhas"]] == ["Sucesso", "1º grau", "2º grau", "3º grau", "4º grau"]
     cds = _bloco(montado_c, "Classes de dificuldade")
     assert [l[:2] for l in cds["linhas"]][-3:] == [["30", "Heroico"], ["35", "Super-heroico"], ["40", "Quase impossível"]]
@@ -136,7 +136,7 @@ def test_escudo_cyberpunk_segue_o_livro_do_mestre():
     # Uma página de PDF por aba (o combate não transborda).
     leitor = pypdf.PdfReader(io.BytesIO(escudo_pdf.gerar_pdf(montado_c, "teste")))
     assert len(leitor.pages) == len(montado_c["abas"])
-    dano = _bloco(montado_c, "Dano: padrão e letal")
+    dano = _bloco(montado_c, "Dano")
     assert [l[0].split(" (")[0] for l in dano["linhas"]] == ["Sucesso", "1º grau", "2º grau", "3º grau", "4º grau"]
     assert "tonto" in dano["linhas"][2][1] and "moribundo" in dano["linhas"][4][2]
     assert [l[0] for l in _bloco(montado_c, "Lesões no corpo (2d6)")["linhas"]] == [str(n) for n in range(2, 13)]
@@ -150,7 +150,7 @@ def test_escudo_cyberpunk_segue_o_livro_do_mestre():
 def test_regras_gerais_seguem_o_livro_basico(genero):
     """Regressão: os escudos tinham condições e manobras de outros sistemas e o 2º grau de dano como atordoado."""
     montado_g = escudo.montar(genero, data_loader.carregar_genero(genero))
-    dano = _bloco(montado_g, "Dano: padrão e letal")
+    dano = _bloco(montado_g, "Dano")
     assert "tonto" in dano["linhas"][2][1] and "atordoado" not in dano["linhas"][2][1].lower()
     combinadas = {l[0] for l in _bloco(montado_g, "Condições combinadas")["linhas"]}
     assert {"Abatido", "Caído", "Incapacitado", "Moribundo"} <= combinadas
@@ -161,3 +161,42 @@ def test_regras_gerais_seguem_o_livro_basico(genero):
     # Uma página de PDF por aba.
     leitor = pypdf.PdfReader(io.BytesIO(escudo_pdf.gerar_pdf(montado_g, "teste")))
     assert len(leitor.pages) == len(montado_g["abas"])
+
+
+@pytest.mark.parametrize("genero", ["fantasia", "faroeste", "cthulhu", "cyberpunk"])
+def test_letalidade_muda_dano_aflicao_e_recuperacao(genero):
+    dados = data_loader.carregar_genero(genero)
+    heroica, equilibrada, mortal = (escudo.montar(genero, dados, m) for m in ("heroica", "equilibrada", "mortal"))
+    # Heroica: tabela única do livro básico; ninguém fica moribundo no 4º grau.
+    assert _bloco(heroica, "Dano")["colunas"] == ["Grau de falha", "Efeito (todos os ataques)"]
+    assert _bloco(heroica, "Dano")["linhas"][4][1] == "Incapacitado."
+    # Equilibrada: letal sem desabilitado e sem moribundo direto.
+    assert "desabilitado" not in _bloco(equilibrada, "Dano")["linhas"][3][2]
+    assert "moribundo" not in _bloco(equilibrada, "Dano")["linhas"][4][2]
+    # Mortal: o 4º grau letal já deixa moribundo.
+    assert _bloco(mortal, "Dano")["linhas"][4][2].startswith("Incapacitado e moribundo")
+    # O 4º grau [Casa] da Aflição só aparece no modo mortal.
+    for montado in (heroica, equilibrada):
+        assert len(_bloco(montado, "Aflição: condição por grau de falha")["linhas"]) == 3
+    assert "na hora" in _bloco(mortal, "Moribundo e recuperação")["itens"][0]
+    assert "falha de novo" in _bloco(heroica, "Moribundo e recuperação")["itens"][0]
+    assert "minuto" in " ".join(_bloco(heroica, "Moribundo e recuperação")["itens"])
+    assert heroica["titulo"].endswith("Letalidade heroica")
+
+
+def test_letalidade_padrao_e_pagina_com_seletor():
+    for genero in ("fantasia", "faroeste", "cthulhu", "cyberpunk"):
+        assert escudo.montar(genero, data_loader.carregar_genero(genero))["letalidade_atual"] == "equilibrada"
+    todas = escudo.montar("faroeste", data_loader.carregar_genero("faroeste"), "todas")
+    danos = [b for aba in todas["abas"] for b in aba["blocos"] if b.get("titulo") == "Dano"]
+    assert [b["letalidade"] for b in danos] == ["heroica", "equilibrada", "mortal"]
+    cliente = app.app.test_client()
+    pagina = cliente.get("/?genero=faroeste").get_data(as_text=True)
+    assert 'id="escudo-letalidade"' in pagina and 'data-letalidade="heroica" hidden' in pagina
+    assert "Equilibrada (padrão do gênero)" in pagina
+    resposta = cliente.get("/escudo/faroeste.pdf?letalidade=heroica")
+    assert resposta.status_code == 200 and "heroica" in resposta.headers["Content-Disposition"]
+    texto = "\n".join(p.extract_text() for p in pypdf.PdfReader(io.BytesIO(resposta.data)).pages)
+    assert "Letalidade heroica" in texto
+    # Valor desconhecido cai na padrão do gênero.
+    assert "equilibrada" in cliente.get("/escudo/faroeste.xlsx?letalidade=xyz").headers["Content-Disposition"]

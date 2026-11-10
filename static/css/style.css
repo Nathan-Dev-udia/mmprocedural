@@ -848,6 +848,9 @@ a.botao { text-decoration: none; display: inline-block; }
 .escudo-topo .titulo-passo { margin: 0; }
 .acoes-escudo { display: flex; gap: 8px; }
 .escudo-abas { margin-top: 12px; }
+.escudo-letalidade { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 10px; }
+.escudo-letalidade label { font-weight: 600; }
+.escudo-letalidade .escudo-nota { margin: 0; }
 .escudo-abas .passo-aba { padding: 6px 12px; }
 .escudo-abas .passo-aba::before { content: none; }
 .escudo-aba-titulo { display: none; }
@@ -886,7 +889,7 @@ a.botao { text-decoration: none; display: inline-block; }
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
   }
-  body:has(#aba-escudo:not([hidden])) :is(.topo, .rodape, .abas, #mensagem, .acoes-escudo, .escudo-abas, .escudo-topo) {
+  body:has(#aba-escudo:not([hidden])) :is(.topo, .rodape, .abas, #mensagem, .acoes-escudo, .escudo-abas, .escudo-topo, .escudo-letalidade) {
     display: none !important;
   }
   body:has(#aba-escudo:not([hidden])) :is(.conteudo, .painel-aba) { margin: 0; padding: 0; max-width: none; }

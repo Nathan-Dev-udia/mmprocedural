@@ -3,6 +3,7 @@
 Texto conferido com o livro básico e com as seções 2.5 a 2.8, 5.4, 5.5, 6 e 7 dos Livros do Mestre do faroeste e do
 cyberpunk. Cada gênero passa só os exemplos e as linhas próprias (recarga, dirigir, dinamite...).
 Usado por ferramentas/criar_cthulhu_escudo.py e para corrigir dados/escudo/faroeste.json (que é editado à mão).
+As tabelas de dano, Aflição e recuperação não ficam aqui: mudam com a letalidade e são geradas por nucleo/escudo.py.
 """
 
 
@@ -82,36 +83,6 @@ PONTOS_HEROICOS = lista("Pontos heroicos", [
     "**Recuperar-se:** remove tonto, atordoado ou fatigado sem gastar ação, ou converte exausto em fatigado.",
     "**Editar a cena**, **Inspiração** (uma pista do mestre) ou **repelir** um efeito como reação.",
 ])
-
-
-def aflicao(nota_extra="", quarto_grau=None):
-    """`quarto_grau`: texto da linha do 4º grau, que não existe no livro básico (só como regra da casa)."""
-    linhas = [
-        ["1º grau (falha por 1 a 5)", "Tonto, em transe, fatigado, impedido, prejudicado ou vulnerável"],
-        ["2º grau (falha por 6 a 10)", "Atordoado, caído, compelido, desabilitado, exausto, imóvel ou vulnerável"],
-        ["3º grau (falha por 11 a 15)", "Adormecido, controlado, desatento, incapacitado, paralisado ou transformado"],
-    ]
-    if quarto_grau:
-        linhas.append(["4º grau [Casa] (16 ou mais)", quarto_grau])
-    nota = ("O efeito define uma condição para cada grau; graus mais altos substituem os mais baixos. No fim de cada "
-            "turno, o alvo faz um salvamento para tirar as condições de 1º e 2º grau; as de 3º grau exigem um minuto "
-            "ou ajuda (Tratamento CD 10 + graduação).")
-    return tabela("Aflição: condição por grau de falha", ["Grau de falha", "Condições possíveis"], linhas,
-                  nota=f"{nota} {nota_extra}".strip())
-
-
-def dano(letal, padrao="socos, coronhadas, garrafadas"):
-    """Tabela de dano com as duas colunas: padrão (livro básico) e letal (Guia do Mestre)."""
-    return tabela("Dano: padrão e letal", ["Grau de falha", f"Padrão ({padrao})", f"Letal ({letal})"], [
-        ["Sucesso", "Sem efeito.", "Sem efeito."],
-        ["1º grau (1 a 5)", "–1 nos próximos salvamentos de Resistência (cumulativo).",
-         "Ferido: –1 na Resistência (cumulativo)."],
-        ["2º grau (6 a 10)", "–1 e tonto até o fim do próximo turno.", "Ferido e tonto até o fim do próximo turno."],
-        ["3º grau (11 a 15)", "–1 e abatido (tonto e impedido). Se já estava abatido, aplique o 4º grau.",
-         "Ferido, abatido e desabilitado (–5 em todos os testes)."],
-        ["4º grau (16 ou mais)", "Incapacitado.", "Incapacitado e moribundo."],
-    ], nota="Salvamento: d20 + Resistência contra 15 + Dano. Incapacitado que falha fica moribundo; moribundo que "
-            "falha morre. Opcional: cinco ou mais graus de falha contra dano letal matam na hora.")
 
 
 def condicoes_basicas(compelido="Ações ditadas por outra pessoa (hipnose, feitiço, droga)."):

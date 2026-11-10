@@ -2,6 +2,25 @@
   "_fonte": "Resumo das regras do Livro do Mestre e do Livro do Jogador da fantasia (dados/livros/fantasia_*.md). Os blocos 'gerado' são calculados por nucleo/escudo.py a partir da Tabela de Medidas e do catálogo de equipamento.",
   "genero": "fantasia",
   "titulo": "Escudo do Mestre: Fantasia medieval",
+  "letalidade": {
+    "padrao": "equilibrada",
+    "ataques_letais": "lâminas, flechas, garras e magias de dano",
+    "ataques_padrao": "socos e golpes sem arma",
+    "aflicao_quarto_grau": "Colapso: incapacitado com coma, toxicidade extrema ou mutação definitiva",
+    "aflicao_exemplos": {
+      "1": "Teia: restrito. Veneno fraco: prejudicado.",
+      "2": "Teia: amarrado. Medo de dragão: desabilitado.",
+      "3": "Sono: adormecido. Enfeitiçar pessoa: controlado.",
+      "4": "Veneno mortal: precisa de estabilização."
+    },
+    "cura": {
+      "equilibrada": "**Pé no chão [Casa]:** descanso curto (1 hora) remove tonto, atordoado, fatigado e uma condição de dano; descanso longo (8 horas, uma vez por dia) remove todas, menos lesões duradouras.",
+      "mortal": "**Recuperação lenta [Casa]:** só o descanso longo (8 horas, uma vez por dia) cura, e remove uma condição de dano por vez, da pior para a melhor."
+    },
+    "recuperacao_extras": [
+      "**Magia:** qualquer efeito de Cura estabiliza um moribundo."
+    ]
+  },
   "abas": [
     {
       "id": "testes",
@@ -443,73 +462,12 @@
       "nome": "Condições e graus",
       "blocos": [
         {
-          "tipo": "tabela",
-          "titulo": "Aflição: condição por grau de falha",
-          "colunas": [
-            "Grau",
-            "Margem",
-            "Escolha uma condição (pelo descritor do efeito)",
-            "Exemplos"
-          ],
-          "linhas": [
-            [
-              "1º grau",
-              "CD – 1 a – 5",
-              "Tonto, Em transe, Fatigado, Impedido, Prejudicado, Vulnerável",
-              "Teia: restrito. Veneno fraco: prejudicado."
-            ],
-            [
-              "2º grau",
-              "CD – 6 a – 10",
-              "Atordoado, Compelido, Desabilitado, Exausto, Imóvel, Vulnerável, Caído",
-              "Teia: amarrado. Medo de dragão: desabilitado."
-            ],
-            [
-              "3º grau",
-              "CD – 11 a – 15",
-              "Adormecido, Controlado, Desatento, Incapacitado, Paralisado, Transformado",
-              "Sono: adormecido. Enfeitiçar pessoa: controlado."
-            ],
-            [
-              "4º grau [Casa]",
-              "CD – 16 ou menos",
-              "Colapso: incapacitado com coma, toxicidade extrema ou mutação definitiva",
-              "Veneno mortal: precisa de estabilização."
-            ]
-          ],
-          "nota": "Salvamento contra 10 + graduação. No fim de cada turno, o alvo rola de novo para se livrar das condições do 1º e do 2º grau. As do 3º grau exigem um minuto ou ajuda (Tratamento ou Cura contra 10 + graduação)."
+          "tipo": "gerado",
+          "fonte": "aflicao"
         },
         {
-          "tipo": "tabela",
-          "titulo": "Dano: padrão e letal",
-          "colunas": [
-            "Grau de falha",
-            "Dano padrão",
-            "Dano letal [Casa]"
-          ],
-          "linhas": [
-            [
-              "1º (CD – 1 a – 5)",
-              "–1 na Resistência (cumulativo)",
-              "Ferido: –1 na Resistência"
-            ],
-            [
-              "2º (CD – 6 a – 10)",
-              "–1 e tonto até o fim do próximo turno",
-              "–1 e tonto"
-            ],
-            [
-              "3º (CD – 11 a – 15)",
-              "–1 e abatido (já abatido: 4º grau)",
-              "–1, abatido e desabilitado"
-            ],
-            [
-              "4º (CD – 16 ou menos)",
-              "Incapacitado",
-              "Incapacitado e moribundo"
-            ]
-          ],
-          "nota": "Incapacitado que falha fica moribundo; moribundo que falha, morre. Dano letal: lâminas, flechas, garras e magias numa campanha pé no chão. Cinco graus de falha matam (opcional, dragões e gigantes)."
+          "tipo": "gerado",
+          "fonte": "dano"
         },
         {
           "tipo": "tabela",
@@ -636,14 +594,8 @@
           ]
         },
         {
-          "tipo": "lista",
-          "titulo": "Moribundo e recuperação",
-          "itens": [
-            "**Moribundo:** Fortitude CD 15 por rodada. Dois graus de sucesso estabilizam; três graus de falha somados matam.",
-            "**Estabilizar:** Tratamento CD 15 (ação padrão, com kit) ou qualquer Cura. Duro de Matar estabiliza sozinho.",
-            "**Livro:** uma condição de dano por minuto de descanso; fadiga some com 1 hora.",
-            "**Pé no chão [Casa]:** descanso curto (1 hora) remove tonto, atordoado, fatigado e uma condição de dano; descanso longo (8 horas, uma vez por dia) remove todas, menos lesões duradouras."
-          ]
+          "tipo": "gerado",
+          "fonte": "recuperacao"
         },
         {
           "tipo": "tabela",
