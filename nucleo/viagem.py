@@ -1,7 +1,7 @@
 """Rolagem de eventos de viagem (dados/viagem): clima, se algo acontece, tipo, evento, criatura e intensidade.
 
-Cada gênero é uma categoria: um arquivo dados/viagem/<genero>.json com as mesmas tabelas (hoje só a
-fantasia medieval, igual à planilha dados/viagem/fantasia.xlsx). Cada rolagem pode vir
+Cada gênero é uma categoria: um arquivo dados/viagem/<genero>.json com as mesmas tabelas (fantasia
+medieval, com a planilha dados/viagem/fantasia.xlsx, e escola de magia). Cada rolagem pode vir
 do jogador (dado físico) ou ser sorteada aqui; o resultado lista só as etapas que de fato foram roladas.
 """
 
@@ -208,7 +208,7 @@ def rolar(categoria, situacao, dados=None, clima_atual=None, combate_hoje=False,
             criatura = _escolher(candidatas, pesos, valor)
             chance = round(100 * pesos[candidatas.index(criatura)] / sum(pesos))
             etapa("criatura", valor, informado, criatura["nome"],
-                  f'NP {criatura["np"]} · {criatura["grupo"]} · {chance}% de chance entre os {tipo["categoria"].lower()}s nesta situação.')
+                  f'NP {criatura["np"]} · {criatura["grupo"]} · {chance}% de chance na categoria {tipo["categoria"]} nesta situação.')
             resultado["criatura"] = criatura
 
             # 6. Intensidade: d6 + mod. da área (só quando a criatura aparece).

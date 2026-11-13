@@ -12,9 +12,8 @@ SITUACAO = {"area": "Média", "periodo": "Noite", "estacao": "Outono", "terreno"
 
 
 def test_categorias_por_genero():
-    categorias = viagem.categorias()
-    assert [c["id"] for c in categorias] == ["fantasia"]
-    assert categorias[0]["nome"] == "Fantasia medieval"
+    categorias = {c["id"]: c["nome"] for c in viagem.categorias()}
+    assert categorias == {"escola_de_magia": "Escola de Magia", "fantasia": "Fantasia medieval"}
     with pytest.raises(ValueError):
         viagem.tabelas("faroeste")
 
@@ -96,7 +95,7 @@ def test_sorteio_com_semente_e_dados_invalidos():
 
 def test_rotas_da_api():
     cliente = app.app.test_client()
-    assert cliente.get("/api/viagem").get_json()["categorias"][0]["id"] == "fantasia"
+    assert "fantasia" in [c["id"] for c in cliente.get("/api/viagem").get_json()["categorias"]]
     opcoes = cliente.get("/api/viagem/fantasia").get_json()
     assert [a["id"] for a in opcoes["areas"]] == ["Tranquila", "Média", "Perigosa", "Mortal"]
     assert cliente.get("/api/viagem/faroeste").status_code == 404
@@ -145,3 +144,42 @@ def test_rota_da_previa():
     assert resposta.status_code == 200 and resposta.get_json()["proxima"] == "evento"
     resposta = cliente.post("/api/viagem/previa", json={"categoria": "fantasia", "situacao": SITUACAO, "dados": {"clima": 300}})
     assert resposta.status_code == 400
+
+
+ESCOLA = {"area": "Proibida", "periodo": "Noite", "estacao": "Outono", "terreno": "Floresta", "situacao": "Em incursão"}
+
+
+def test_escola_de_magia_noite_na_floresta():
+    r = viagem.rolar("escola_de_magia", ESCOLA, {"clima": 80, "evento": 6, "tipo": 78, "qual": 1, "criatura": 60,
+                                                 "intensidade": 4})
+    assert r["clima"]["nome"] == "Neblina"
+    assert r["acontece"]  # 6 + 2 (noite) + 1 (incursão) + 2 (neblina) = 11 ≥ 11
+    assert r["tipo"] == "Magia das trevas"  # 78 + 10 + 10 = 98
+    assert r["evento"]["nome"] == "Frio e escuridão"
+    assert r["criatura"]["nome"] == "Dementador"
+    assert r["criatura"]["bestiario_id"] == "fantasia/mortos_vivos/aparicao"
+    assert r["intensidade"]["nome"] == "No terreno dela" and r["combate"]
+    assert "na categoria Trevas" in r["etapas"][4]["detalhe"]
+
+
+def test_escola_de_magia_lugar_protegido_e_criaturas_no_lugar_certo():
+    # Na sala comunal de manhã, nem um 20 faz algo acontecer na rotina: 20 - 2 - 6 = 12 < 17.
+    r = viagem.rolar("escola_de_magia", {**ESCOLA, "area": "Rotina", "periodo": "Manhã", "situacao": "Lugar protegido",
+                                         "terreno": "Corredores"}, {"clima": 1, "evento": 20})
+    assert not r["acontece"]
+    t = viagem.tabelas("escola_de_magia")
+    terrenos = {x["id"] for x in t["terrenos"]}
+    for c in t["criaturas"]:
+        assert set(c["terrenos"]) <= terrenos, c["nome"]
+    # Acromântulas só na Floresta: nos corredores, à noite, o d100 alto não cai nelas.
+    candidatas = [c for c in t["criaturas"] if c["categoria"] == "Criatura mágica"]
+    pesos = [viagem.peso_da_criatura(t, c, "Mortal", "Noite", "Corredores") for c in candidatas]
+    aranhas = next(c for c in candidatas if c["nome"] == "Acromântulas")
+    assert pesos[candidatas.index(aranhas)] < max(pesos) / 3
+
+
+def test_escola_de_magia_abre_na_pagina_do_genero():
+    cliente = app.app.test_client()
+    opcoes = cliente.get("/api/viagem/escola_de_magia").get_json()
+    assert [a["id"] for a in opcoes["areas"]] == ["Rotina", "Fora de hora", "Proibida", "Mortal"]
+    assert 'data-aba="viagem"' in cliente.get("/?genero=escola_de_magia").get_data(as_text=True)

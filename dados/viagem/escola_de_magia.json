@@ -1,0 +1,1295 @@
+{
+  "genero": "escola_de_magia",
+  "nome": "Escola de Magia",
+  "descricao": "Um dia no castelo: corredores, masmorras, terrenos, Floresta Proibida e Hogsmeade, com criaturas adaptadas do bestiário e os NPCs do gênero.",
+  "areas": [
+    {
+      "id": "Rotina",
+      "quando": "Castelo e terrenos em dia comum, com professores e monitores por perto",
+      "limiar": 17,
+      "mod_intensidade": -1,
+      "np": "NP 1–3",
+      "exemplos": "Ir para a aula, almoço no salão principal, tarde na biblioteca ou nas estufas"
+    },
+    {
+      "id": "Fora de hora",
+      "quando": "Lugares permitidos em hora errada, ou cantos pouco vigiados",
+      "limiar": 14,
+      "mod_intensidade": 0,
+      "np": "NP 2–4",
+      "exemplos": "Corredores depois do toque de recolher, beira do lago, passeio a Hogsmeade"
+    },
+    {
+      "id": "Proibida",
+      "quando": "Onde aluno não pode ir: orla da Floresta Proibida, corredor interditado, masmorras fundas",
+      "limiar": 11,
+      "mod_intensidade": 1,
+      "np": "NP 3–6",
+      "exemplos": "Detenção na Floresta, a ala interditada, passagens secretas para fora do castelo"
+    },
+    {
+      "id": "Mortal",
+      "quando": "Coração da Floresta, câmaras esquecidas, noite de lua cheia, ano de ameaça declarada",
+      "limiar": 8,
+      "mod_intensidade": 2,
+      "np": "NP 5–9",
+      "exemplos": "Ninho de acromântulas, câmara secreta sob o castelo, casa assombrada do vilarejo"
+    }
+  ],
+  "periodos": [
+    {
+      "id": "Manhã",
+      "horario": "Café da manhã e aulas da manhã",
+      "mod_evento": -2,
+      "mod_tipo": -10,
+      "notas": "Castelo cheio e vigiado. Bom para social, obstáculos e pistas deixadas durante a noite."
+    },
+    {
+      "id": "Tarde",
+      "horario": "Aulas da tarde, treinos e tempo livre",
+      "mod_evento": 0,
+      "mod_tipo": 0,
+      "notas": "Rivais, treinos de quadribol, aulas nos terrenos; o fim da tarde traz presságios."
+    },
+    {
+      "id": "Noite",
+      "horario": "Jantar até a meia-noite (toque de recolher)",
+      "mod_evento": 2,
+      "mod_tipo": 10,
+      "notas": "Monitores de ronda, portas trancadas. O que vive na Floresta sai."
+    },
+    {
+      "id": "Madrugada",
+      "horario": "Meia-noite ao amanhecer",
+      "mod_evento": 3,
+      "mod_tipo": 15,
+      "notas": "A hora das trevas. Prefira sinais e pressão antes do combate."
+    }
+  ],
+  "situacoes": [
+    {
+      "id": "Circulando",
+      "descricao": "Indo de um lugar a outro ou explorando à vista de todos.",
+      "mod_evento": 0
+    },
+    {
+      "id": "Em incursão",
+      "descricao": "Fora da cama ou fora dos limites: chama monitores e o que vive no escuro.",
+      "mod_evento": 1
+    },
+    {
+      "id": "Escondido",
+      "descricao": "Capa de invisibilidade, passagem secreta ou sala vazia trancada.",
+      "mod_evento": -2
+    },
+    {
+      "id": "Lugar protegido",
+      "descricao": "Sala comunal, aula ou ala hospitalar. Só acontece algo se for importante.",
+      "mod_evento": -6
+    }
+  ],
+  "estacoes": [
+    "Primavera",
+    "Verão",
+    "Outono",
+    "Inverno"
+  ],
+  "terrenos": [
+    {
+      "id": "Corredores",
+      "inclui": "Corredores, escadarias que mudam, salas de aula, torres, biblioteca, salão principal"
+    },
+    {
+      "id": "Masmorras",
+      "inclui": "Masmorras, porões, passagens secretas, encanamento, câmaras esquecidas"
+    },
+    {
+      "id": "Jardins e lago",
+      "inclui": "Gramados, estufas, lago, campo de quadribol, cabana do guarda-caça"
+    },
+    {
+      "id": "Floresta",
+      "inclui": "Floresta Proibida e bosques em volta da escola"
+    },
+    {
+      "id": "Vilarejo",
+      "inclui": "Hogsmeade, a estrada até a escola, a estação e a casa assombrada"
+    }
+  ],
+  "atividade": {
+    "Diurna": {
+      "Manhã": 1.5,
+      "Tarde": 1.5,
+      "Noite": 0.5,
+      "Madrugada": 0.25
+    },
+    "Noturna": {
+      "Manhã": 0.25,
+      "Tarde": 0.5,
+      "Noite": 1.5,
+      "Madrugada": 2
+    },
+    "Qualquer": {
+      "Manhã": 1,
+      "Tarde": 1,
+      "Noite": 1,
+      "Madrugada": 1
+    }
+  },
+  "fator_fora_do_terreno": 0.1,
+  "climas": [
+    {
+      "nome": "Céu limpo",
+      "pesos": {
+        "Primavera": 25,
+        "Verão": 35,
+        "Outono": 15,
+        "Inverno": 15
+      },
+      "mod_evento": 0,
+      "mod_tipo": 0,
+      "viagem": "Terrenos cheios de alunos; bom dia para treino de quadribol.",
+      "regra": "Sem modificadores."
+    },
+    {
+      "nome": "Calor intenso",
+      "pesos": {
+        "Primavera": 0,
+        "Verão": 18,
+        "Outono": 0,
+        "Inverno": 0
+      },
+      "mod_evento": -1,
+      "mod_tipo": 0,
+      "viagem": "Alunos no lago e à sombra; as masmorras viram refúgio.",
+      "regra": "Esforço ao sol à tarde (treino, corrida): Fortitude CD 10 ou Fatigado."
+    },
+    {
+      "nome": "Nublado",
+      "pesos": {
+        "Primavera": 20,
+        "Verão": 12,
+        "Outono": 25,
+        "Inverno": 20
+      },
+      "mod_evento": 0,
+      "mod_tipo": 0,
+      "viagem": "Céu de chumbo sobre as torres; o dia parece mais curto.",
+      "regra": "Sem modificadores."
+    },
+    {
+      "nome": "Garoa",
+      "pesos": {
+        "Primavera": 15,
+        "Verão": 6,
+        "Outono": 15,
+        "Inverno": 0
+      },
+      "mod_evento": 0,
+      "mod_tipo": 0,
+      "viagem": "Gramados escorregadios, capas úmidas, lama nas botas.",
+      "regra": "−1 em Percepção (audição); +2 para seguir pegadas frescas na lama."
+    },
+    {
+      "nome": "Chuva forte",
+      "pesos": {
+        "Primavera": 12,
+        "Verão": 8,
+        "Outono": 12,
+        "Inverno": 3
+      },
+      "mod_evento": -1,
+      "mod_tipo": 0,
+      "viagem": "Todo mundo dentro do castelo; o lago sobe e os corredores enchem.",
+      "regra": "−2 em Percepção; ataques à distância −2 ao ar livre; voo de vassoura: Pilotagem CD 12 por rodada de manobra."
+    },
+    {
+      "nome": "Tempestade",
+      "pesos": {
+        "Primavera": 6,
+        "Verão": 10,
+        "Outono": 5,
+        "Inverno": 2
+      },
+      "mod_evento": -2,
+      "mod_tipo": 0,
+      "viagem": "Raios sobre as torres; treino cancelado; o salgueiro se agita.",
+      "regra": "Ao ar livre: −5 em Percepção e ataques à distância −5; voar exige Pilotagem CD 15 ou cair."
+    },
+    {
+      "nome": "Neblina",
+      "pesos": {
+        "Primavera": 12,
+        "Verão": 4,
+        "Outono": 15,
+        "Inverno": 10
+      },
+      "mod_evento": 2,
+      "mod_tipo": 10,
+      "viagem": "O lago some na névoa; a orla da Floresta parece mais perto.",
+      "regra": "Camuflagem além de 10 m (−5 em Percepção visual); Sobrevivência CD 12 para não se perder nos terrenos."
+    },
+    {
+      "nome": "Ventania",
+      "pesos": {
+        "Primavera": 7,
+        "Verão": 7,
+        "Outono": 10,
+        "Inverno": 10
+      },
+      "mod_evento": 0,
+      "mod_tipo": 0,
+      "viagem": "Janelas batem, velas apagam, vassouras desviam.",
+      "regra": "Ataques à distância −2 ao ar livre; Percepção auditiva −2; voar: Pilotagem CD 10 para manter o rumo."
+    },
+    {
+      "nome": "Frio intenso",
+      "pesos": {
+        "Primavera": 3,
+        "Verão": 0,
+        "Outono": 3,
+        "Inverno": 20
+      },
+      "mod_evento": -1,
+      "mod_tipo": 0,
+      "viagem": "Lareiras acesas o dia todo; o lago congela nas bordas.",
+      "regra": "Fora do castelo sem agasalho ou feitiço de aquecimento: Fortitude CD 10 por período ou Fatigado."
+    },
+    {
+      "nome": "Neve",
+      "pesos": {
+        "Primavera": 0,
+        "Verão": 0,
+        "Outono": 0,
+        "Inverno": 15
+      },
+      "mod_evento": -1,
+      "mod_tipo": 0,
+      "viagem": "Terrenos brancos, guerra de bolas de neve, pegadas por toda parte.",
+      "regra": "+5 para seguir rastros; fora dos caminhos é terreno difícil."
+    },
+    {
+      "nome": "Nevasca",
+      "pesos": {
+        "Primavera": 0,
+        "Verão": 0,
+        "Outono": 0,
+        "Inverno": 5
+      },
+      "mod_evento": -3,
+      "mod_tipo": 0,
+      "viagem": "Castelo isolado; o vilarejo e as estufas ficam fora de alcance.",
+      "regra": "Ao ar livre: −5 em Percepção; deslocamento a 1/4; Fortitude CD 15 por período exposto ou Fatigado."
+    }
+  ],
+  "tipos": [
+    {
+      "nome": "Encontro social",
+      "pesos": {
+        "Rotina": 35,
+        "Fora de hora": 20,
+        "Proibida": 10,
+        "Mortal": 5
+      },
+      "categoria": null,
+      "descricao": "Gente da escola: colegas, professores, fantasmas, retratos, rumores e ganchos."
+    },
+    {
+      "nome": "Obstáculo",
+      "pesos": {
+        "Rotina": 25,
+        "Fora de hora": 18,
+        "Proibida": 12,
+        "Mortal": 7
+      },
+      "categoria": null,
+      "descricao": "O castelo atrapalha: escada que muda, porta com senha, poltergeist, feitiço mal desfeito."
+    },
+    {
+      "nome": "Descoberta",
+      "pesos": {
+        "Rotina": 18,
+        "Fora de hora": 12,
+        "Proibida": 8,
+        "Mortal": 6
+      },
+      "categoria": null,
+      "descricao": "Algo para achar: passagem secreta, livro esquecido, objeto perdido, sala que não estava ali."
+    },
+    {
+      "nome": "Pista / presságio",
+      "pesos": {
+        "Rotina": 12,
+        "Fora de hora": 15,
+        "Proibida": 15,
+        "Mortal": 14
+      },
+      "categoria": "Criatura mágica",
+      "descricao": "Sinal de uma criatura sem ela aparecer. A criatura sorteada é quem deixou o sinal."
+    },
+    {
+      "nome": "Encrenca com bruxos",
+      "pesos": {
+        "Rotina": 5,
+        "Fora de hora": 13,
+        "Proibida": 13,
+        "Mortal": 10
+      },
+      "categoria": "Bruxo",
+      "descricao": "Monitores, zelador, rivais de outra Casa, contrabandistas e bruxos das trevas."
+    },
+    {
+      "nome": "Bicho mágico",
+      "pesos": {
+        "Rotina": 4,
+        "Fora de hora": 12,
+        "Proibida": 14,
+        "Mortal": 14
+      },
+      "categoria": "Bicho mágico",
+      "descricao": "Criaturas menores (classificação X a XXX): diabretes, fadas mordentes, grindylows, hipogrifos."
+    },
+    {
+      "nome": "Criatura perigosa",
+      "pesos": {
+        "Rotina": 1,
+        "Fora de hora": 7,
+        "Proibida": 18,
+        "Mortal": 28
+      },
+      "categoria": "Criatura mágica",
+      "descricao": "Criaturas XXXX e XXXXX: trasgos, acromântulas, lobisomens, cão de três cabeças, basilisco."
+    },
+    {
+      "nome": "Magia das trevas",
+      "pesos": {
+        "Rotina": 0,
+        "Fora de hora": 3,
+        "Proibida": 10,
+        "Mortal": 16
+      },
+      "categoria": "Trevas",
+      "descricao": "Dementadores, bichos-papões, inferi, estátuas enfeitiçadas e maldições antigas."
+    }
+  ],
+  "eventos": {
+    "Encontro social": [
+      {
+        "nome": "Fantasma fofoqueiro",
+        "descricao": "Um fantasma da Casa atravessa a parede e puxa conversa sobre o que viu ontem à noite.",
+        "opcoes": "Ouvir, perguntar, bajular, pedir que vigie alguém.",
+        "reviravolta": "Ele viu algo de verdade — mas confunde séculos e mistura com uma lembrança de quando era vivo.",
+        "periodos": "Qualquer"
+      },
+      {
+        "nome": "Professor pede um favor",
+        "descricao": "Um professor chama o grupo no fim da aula: levar um recado, buscar um ingrediente, ajudar um aluno.",
+        "opcoes": "Aceitar, negociar pontos para a Casa, inventar uma desculpa.",
+        "reviravolta": "O favor leva exatamente para perto do mistério; ou o professor está testando o grupo.",
+        "periodos": "Manhã / Tarde"
+      },
+      {
+        "nome": "Aluno do primeiro ano perdido",
+        "descricao": "Um aluno pequeno chora num patamar; a escada mudou e ele perdeu a aula.",
+        "opcoes": "Levar até a sala, ensinar o caminho, ignorar.",
+        "reviravolta": "Ele ouviu uma voz atrás da parede — ou é o irmão mais novo de um rival.",
+        "periodos": "Manhã / Tarde"
+      },
+      {
+        "nome": "Retrato com segredo",
+        "descricao": "Um retrato antigo chama o grupo pelo nome e oferece uma informação em troca de companhia.",
+        "opcoes": "Conversar, prometer voltar, levar um quadro amigo para visitá-lo.",
+        "reviravolta": "O retrato conheceu o culpado em vida; ou repassa tudo o que ouve para outro retrato.",
+        "periodos": "Tarde / Noite"
+      },
+      {
+        "nome": "Rumor no salão principal",
+        "descricao": "Na mesa da Casa, todos comentam um ataque, um sumiço ou um castigo.",
+        "opcoes": "Ouvir, perguntar a quem espalhou, desmentir, aumentar o boato.",
+        "reviravolta": "O boato exagera — ou acerta num detalhe que só o culpado poderia saber.",
+        "periodos": "Manhã / Noite"
+      },
+      {
+        "nome": "Monitor que precisa de ajuda",
+        "descricao": "Um monitor da Casa admite que perdeu algo importante (a lista de senhas, um aluno, uma chave).",
+        "opcoes": "Ajudar em troca de vista grossa, chantagear, denunciar.",
+        "reviravolta": "O objeto foi roubado de propósito; quem pegou quer que o monitor caia em desgraça.",
+        "periodos": "Tarde / Noite"
+      }
+    ],
+    "Obstáculo": [
+      {
+        "nome": "A escada mudou",
+        "descricao": "A escadaria gira no meio do caminho e deixa o grupo num andar errado, diante de uma porta falsa.",
+        "opcoes": "Esperar, pular para o patamar (Acrobacia CD 12), achar outro caminho.",
+        "reviravolta": "O andar errado é o corredor interditado; ou alguém viu o grupo chegar.",
+        "periodos": "Qualquer"
+      },
+      {
+        "nome": "Senha trocada",
+        "descricao": "O retrato da entrada da sala comunal não aceita a senha de ontem.",
+        "opcoes": "Esperar alguém da Casa, convencer o retrato (Persuasão CD 15), procurar o monitor.",
+        "reviravolta": "Trocaram a senha por causa de uma invasão na noite passada.",
+        "periodos": "Noite / Madrugada"
+      },
+      {
+        "nome": "Poltergeist",
+        "descricao": "Um poltergeist bloqueia o corredor jogando giz, tinta e cantando o que o grupo está tramando.",
+        "opcoes": "Ameaçar com o nome de quem ele teme, subornar, correr (Atletismo CD 12).",
+        "reviravolta": "O barulho atrai o zelador; ou o poltergeist sabe onde está o que o grupo procura.",
+        "periodos": "Qualquer"
+      },
+      {
+        "nome": "Porta que não abre",
+        "descricao": "Uma porta trancada por feitiço, e o feitiço comum de destrancar não funciona.",
+        "opcoes": "Teoria Mágica CD 15 para descobrir o contrafeitiço, forçar (Força CD 20), procurar outra entrada.",
+        "reviravolta": "A tranca é recente e de magia avançada: alguém de fora está usando aquela sala.",
+        "periodos": "Tarde / Noite"
+      },
+      {
+        "nome": "Planta solta",
+        "descricao": "Uma muda das estufas escapou: visgo que se enrosca nas pernas ou mandrágora berrando num vaso caído.",
+        "opcoes": "Luz ou fogo contra o visgo, abafadores de ouvido, chamar a professora de Herbologia.",
+        "reviravolta": "Visgo: Agarrar contra Esquiva CD 15; berro de mandrágora jovem: Fortitude CD 12 ou Atordoado por uma rodada.",
+        "periodos": "Manhã / Tarde"
+      },
+      {
+        "nome": "Feitiço rebatido",
+        "descricao": "Um feitiço errado de outra turma acerta alguém do grupo: cabelo azul, voz de sapo, pés colados no chão.",
+        "opcoes": "Procurar a ala hospitalar, achar o contrafeitiço, ir à aula assim mesmo.",
+        "reviravolta": "Não foi acidente: um rival quer o grupo fora do treino ou da prova de hoje.",
+        "periodos": "Manhã / Tarde"
+      }
+    ],
+    "Descoberta": [
+      {
+        "nome": "Passagem secreta",
+        "descricao": "Uma tapeçaria se mexe com a corrente de ar: atrás dela, um túnel estreito.",
+        "opcoes": "Explorar agora, marcar e voltar depois, contar a alguém.",
+        "reviravolta": "O túnel leva para fora do castelo — e alguém andou por ele há pouco.",
+        "periodos": "Qualquer"
+      },
+      {
+        "nome": "Livro esquecido",
+        "descricao": "Um livro sem título numa mesa da biblioteca, com anotações à mão nas margens.",
+        "opcoes": "Ler, devolver, mostrar a um professor.",
+        "reviravolta": "As anotações ensinam um feitiço que não está em nenhum currículo; o dono vai querer o livro de volta.",
+        "periodos": "Tarde / Noite"
+      },
+      {
+        "nome": "Sala que não estava ali",
+        "descricao": "No corredor do sétimo andar, uma porta que o grupo nunca tinha visto.",
+        "opcoes": "Entrar, pensar com cuidado no que se quer, sair.",
+        "reviravolta": "A sala mostra o que o grupo precisa — e guarda vestígios de quem a usou antes.",
+        "periodos": "Noite / Madrugada"
+      },
+      {
+        "nome": "Objeto perdido",
+        "descricao": "Uma varinha, um diário ou um espelho caído atrás de uma armadura.",
+        "opcoes": "Devolver ao dono, guardar, examinar (Teoria Mágica CD 12).",
+        "reviravolta": "O objeto está enfeitiçado; ou o dono está desaparecido desde a semana passada.",
+        "periodos": "Qualquer"
+      },
+      {
+        "nome": "Ingredientes raros",
+        "descricao": "Na orla da Floresta ou na estufa trancada, plantas e restos de criaturas úteis para poções.",
+        "opcoes": "Colher (Especialidade: Poções CD 12 para não estragar), vender, guardar para a prova.",
+        "reviravolta": "Algo maior também gosta desse lugar; ou o professor de Poções conta o estoque.",
+        "periodos": "Manhã / Tarde"
+      },
+      {
+        "nome": "Mapa ou recado escondido",
+        "descricao": "Um pergaminho em branco que reage à varinha, ou um recado preso no fundo de uma gaveta.",
+        "opcoes": "Revelar (Aparecium), copiar, levar a um professor.",
+        "reviravolta": "O recado é de um aluno de décadas atrás e fala do mesmo mistério de agora.",
+        "periodos": "Tarde / Noite"
+      }
+    ],
+    "Pista / presságio": [
+      {
+        "nome": "Pegadas estranhas",
+        "descricao": "Pegadas recentes na lama dos terrenos ou no pó de um corredor de pedra.",
+        "opcoes": "Seguir (Percepção CD 12), medir, avisar o guarda-caça.",
+        "reviravolta": "As pegadas somem numa parede ou numa passagem; ou aparecem onde nada deveria entrar.",
+        "periodos": "Manhã / Tarde"
+      },
+      {
+        "nome": "Animais mortos",
+        "descricao": "Galos, corujas ou um cervo mortos perto dos terrenos, alguns sem ferimento visível.",
+        "opcoes": "Examinar (Investigação CD 15), contar ao guarda-caça, procurar um padrão.",
+        "reviravolta": "Alguém está matando ou alimentando a criatura de propósito.",
+        "periodos": "Manhã"
+      },
+      {
+        "nome": "Mascotes em pânico",
+        "descricao": "Corujas agitadas no corujal, gatos de pelo eriçado, sapos fugindo dos dormitórios.",
+        "opcoes": "Acalmar os bichos, ver para onde olham, avisar a Casa.",
+        "reviravolta": "Os animais sentem o que o grupo ainda não percebeu.",
+        "periodos": "Qualquer"
+      },
+      {
+        "nome": "Marcas na pedra",
+        "descricao": "Arranhões, teia, gosma ou queimadura numa parede, numa porta ou num tronco.",
+        "opcoes": "Examinar (Teoria Mágica ou Natureza CD 12), copiar, comparar com um livro da biblioteca.",
+        "reviravolta": "A marca é antiga e se repete a cada poucos anos; ou foi feita ontem.",
+        "periodos": "Qualquer"
+      },
+      {
+        "nome": "Som que não é humano",
+        "descricao": "Um uivo, um sibilo nos canos ou passos pesados do outro lado de uma parede.",
+        "opcoes": "Escutar, se trancar, investigar de manhã.",
+        "reviravolta": "Pode ser uma vítima de verdade — ou uma isca.",
+        "periodos": "Noite / Madrugada"
+      },
+      {
+        "nome": "Covil abandonado",
+        "descricao": "Ossos roídos, penas, cheiro forte num canto escuro da Floresta ou das masmorras.",
+        "opcoes": "Vasculhar, armar uma vigília, contar a um professor.",
+        "reviravolta": "Está vazio... por enquanto.",
+        "periodos": "Qualquer"
+      }
+    ],
+    "Encrenca com bruxos": [
+      {
+        "nome": "Pego no flagra",
+        "descricao": "Uma voz atrás do grupo: \"O que vocês fazem aqui a essa hora?\"",
+        "opcoes": "Mentir (Enganação contra Intuição), correr, se esconder, assumir a culpa.",
+        "reviravolta": "Perder pontos ou ganhar detenção — e a detenção leva a um lugar interessante.",
+        "periodos": "Noite / Madrugada"
+      },
+      {
+        "nome": "Provocação em público",
+        "descricao": "Alguém hostil encara o grupo diante de plateia e espera uma reação.",
+        "opcoes": "Responder com feitiço, responder com palavras, ignorar, chamar um professor.",
+        "reviravolta": "Ele quer provocar a detenção do grupo; ou só quer ser visto ganhando de alguém.",
+        "periodos": "Manhã / Tarde"
+      },
+      {
+        "nome": "Chantagem",
+        "descricao": "Alguém sabe da última escapada do grupo e quer um favor em troca de silêncio.",
+        "opcoes": "Pagar o favor, virar o jogo, contar tudo antes.",
+        "reviravolta": "O chantagista também está encrencado e precisa de ajuda de verdade.",
+        "periodos": "Tarde / Noite"
+      },
+      {
+        "nome": "Negócio escuso",
+        "descricao": "No vilarejo, num banheiro abandonado ou na orla da Floresta, alguém faz uma troca às escondidas.",
+        "opcoes": "Observar (Furtividade CD 12), interromper, seguir quem sai.",
+        "reviravolta": "O que muda de mãos é perigoso; quem fornece é quem o grupo procura.",
+        "periodos": "Tarde / Noite"
+      },
+      {
+        "nome": "Encapuzados",
+        "descricao": "Figuras de capuz conversam baixo num lugar onde não deveria haver ninguém.",
+        "opcoes": "Escutar (Furtividade CD 15), segui-los, avisar um professor.",
+        "reviravolta": "Um deles é alguém conhecido; ou perceberam o grupo e vão segui-lo de volta.",
+        "periodos": "Noite / Madrugada"
+      },
+      {
+        "nome": "Armadilha armada",
+        "descricao": "Um feitiço armado na porta, no caldeirão ou na vassoura de alguém do grupo.",
+        "opcoes": "Perceber antes (Percepção CD 15), desarmar (Teoria Mágica CD 15), revidar.",
+        "reviravolta": "A armadilha foi feita para outra pessoa — e quem armou não é um aluno.",
+        "periodos": "Qualquer"
+      }
+    ],
+    "Bicho mágico": [
+      {
+        "nome": "Gaiola aberta",
+        "descricao": "Alguém soltou as criaturas da aula de Trato ou de um aluno; estão espalhadas por perto.",
+        "opcoes": "Capturar, imobilizar, chamar o professor.",
+        "reviravolta": "Não foi acidente: alguém queria distrair todo mundo para entrar numa sala.",
+        "periodos": "Manhã / Tarde"
+      },
+      {
+        "nome": "Infestação",
+        "descricao": "Um ninho numa sala vazia, num armário, no telhado da estufa ou num barco do lago.",
+        "opcoes": "Limpar com feitiços, fechar e avisar, vender o que der para alguém.",
+        "reviravolta": "No meio do ninho está algo que alguém escondeu ali.",
+        "periodos": "Qualquer"
+      },
+      {
+        "nome": "Território marcado",
+        "descricao": "A criatura se planta no caminho e avança para testar o grupo.",
+        "opcoes": "Recuar devagar, mostrar respeito (Intuição CD 12 para notar como), oferecer comida.",
+        "reviravolta": "Se o grupo recuar, não há confronto; tratada bem, pode virar aliada.",
+        "periodos": "Manhã / Tarde"
+      },
+      {
+        "nome": "Ataque da água ou do mato",
+        "descricao": "A criatura sai do lago, do mato alto ou de um cano quebrado.",
+        "opcoes": "Soltar-se (Força ou Esquiva CD 12), afastar-se, lutar no terreno dela.",
+        "reviravolta": "Está agitada porque algo maior se mexe por perto.",
+        "periodos": "Qualquer"
+      },
+      {
+        "nome": "Debandada",
+        "descricao": "Bichos passam correndo pelos terrenos ou pelo corredor, fugindo de algo.",
+        "opcoes": "Sair da frente (Esquiva CD 12), seguir na direção contrária, ver do que fogem.",
+        "reviravolta": "Funciona como presságio de algo maior.",
+        "periodos": "Qualquer"
+      },
+      {
+        "nome": "Mãe com filhotes",
+        "descricao": "Um ninho com filhotes num canto dos terrenos ou da Floresta.",
+        "opcoes": "Recuar, observar, levar um filhote (péssima ideia).",
+        "reviravolta": "Ferir a mãe atrai a ira do guarda-caça — e de algo da Floresta.",
+        "periodos": "Manhã / Tarde"
+      }
+    ],
+    "Criatura perigosa": [
+      {
+        "nome": "Gritos adiante",
+        "descricao": "Um aluno ou um animal grita um pouco à frente.",
+        "opcoes": "Correr para ajudar, chamar professores, distrair a criatura.",
+        "reviravolta": "Salvar alguém rende pontos para a Casa, um aliado ou uma dívida.",
+        "periodos": "Qualquer"
+      },
+      {
+        "nome": "Fora da trilha",
+        "descricao": "O grupo se desviou do caminho e está no lugar da criatura.",
+        "opcoes": "Voltar para a trilha, luz forte, lutar de costas umas para as outras.",
+        "reviravolta": "A criatura pode ser convencida a deixar o grupo sair em troca de algo.",
+        "periodos": "Noite / Madrugada"
+      },
+      {
+        "nome": "Algo guardado",
+        "descricao": "Atrás de uma porta trancada, uma criatura vigia um alçapão, um baú ou uma passagem.",
+        "opcoes": "Fechar a porta, distrair, descobrir o ponto fraco antes de voltar.",
+        "reviravolta": "Quem a pôs ali é um adulto da escola, e o que ela guarda é o centro do mistério.",
+        "periodos": "Noite / Madrugada"
+      },
+      {
+        "nome": "Perseguição",
+        "descricao": "Algo segue o grupo há horas pela Floresta ou pelos corredores, sem se mostrar.",
+        "opcoes": "Correr para um lugar iluminado, montar uma armadilha, enfrentar.",
+        "reviravolta": "Ataca quando o grupo parar; ou só queria afastá-lo do covil.",
+        "periodos": "Noite / Madrugada"
+      },
+      {
+        "nome": "Solta no castelo",
+        "descricao": "A criatura está onde nunca deveria estar: no banheiro, na biblioteca, no salão vazio.",
+        "opcoes": "Trancar, distrair, lutar, correr para os professores.",
+        "reviravolta": "Alguém a soltou de propósito, para desviar a atenção de outro lugar.",
+        "periodos": "Qualquer"
+      },
+      {
+        "nome": "Detenção na Floresta",
+        "descricao": "O guarda-caça precisa de ajuda: algo está ferindo as criaturas da Floresta.",
+        "opcoes": "Seguir o rastro, ficar em grupo, sinalizar com faíscas vermelhas.",
+        "reviravolta": "Vira missão; não precisa terminar nesta noite.",
+        "periodos": "Noite"
+      }
+    ],
+    "Magia das trevas": [
+      {
+        "nome": "Frio e escuridão",
+        "descricao": "As tochas enfraquecem, a respiração vira fumaça e todos lembram de algo triste.",
+        "opcoes": "Fugir para um lugar iluminado, buscar ajuda, enfrentar com a varinha erguida.",
+        "reviravolta": "A coisa não deveria estar ali; alguém abriu uma brecha nas proteções da escola.",
+        "periodos": "Noite / Madrugada"
+      },
+      {
+        "nome": "Sala vazia",
+        "descricao": "Uma sala, armário ou corredor que todos evitam; algo se move lá dentro.",
+        "opcoes": "Abrir e enfrentar (Vontade), trancar, chamar um professor.",
+        "reviravolta": "O que está ali conhece o pior medo de cada um.",
+        "periodos": "Qualquer"
+      },
+      {
+        "nome": "Guardião desperto",
+        "descricao": "Algo parado há muito tempo acorda quando o grupo passa.",
+        "opcoes": "Recuar, procurar quem o despertou, descobrir o que ele guarda.",
+        "reviravolta": "Foi deixado ali há séculos para guardar algo, e reconhece o grupo como intruso.",
+        "periodos": "Noite / Madrugada"
+      },
+      {
+        "nome": "Água escura",
+        "descricao": "Num lago subterrâneo, no lago da escola ou numa poça grande demais, formas pálidas sob a superfície.",
+        "opcoes": "Não tocar na água, fogo, recuar devagar.",
+        "reviravolta": "Estão guardando um objeto amaldiçoado; tocá-lo acorda todos.",
+        "periodos": "Noite / Madrugada"
+      },
+      {
+        "nome": "Objeto amaldiçoado",
+        "descricao": "Um colar, um livro ou uma taça que chama a mão de quem olha.",
+        "opcoes": "Não tocar (Vontade CD 15), embrulhar, levar a um professor.",
+        "reviravolta": "A maldição já pegou alguém da escola, que agora age estranho; a criatura sorteada o protege.",
+        "periodos": "Qualquer"
+      },
+      {
+        "nome": "Sinal no céu",
+        "descricao": "Uma marca verde brilha sobre o vilarejo ou sobre a Floresta.",
+        "opcoes": "Correr para o castelo, procurar feridos, ir ver de perto.",
+        "reviravolta": "É um recado para alguém da escola; ou uma distração para outra coisa.",
+        "periodos": "Noite / Madrugada"
+      }
+    ]
+  },
+  "criaturas": [
+    {
+      "categoria": "Bruxo",
+      "nome": "Monitor de ronda",
+      "ficha_base": "Arquétipo: Monitor da Escola",
+      "bestiario_id": null,
+      "np": "2–4",
+      "atividade": "Noturna",
+      "terrenos": [
+        "Corredores",
+        "Masmorras"
+      ],
+      "grupo": "1–2",
+      "pesos": {
+        "Rotina": 6,
+        "Fora de hora": 6,
+        "Proibida": 3,
+        "Mortal": 1
+      },
+      "nota": "Não quer ferir ninguém: tira pontos e leva à detenção. Lábia ou fuga resolvem."
+    },
+    {
+      "categoria": "Bruxo",
+      "nome": "Zelador e sua gata",
+      "ficha_base": "Arquétipo: Monitor da Escola (sem varinha; Percepção +4)",
+      "bestiario_id": null,
+      "np": "2–3",
+      "atividade": "Qualquer",
+      "terrenos": [
+        "Corredores",
+        "Masmorras"
+      ],
+      "grupo": "1 + a gata (Percepção +8)",
+      "pesos": {
+        "Rotina": 5,
+        "Fora de hora": 5,
+        "Proibida": 3,
+        "Mortal": 1
+      },
+      "nota": "Não duela: tudo o que vê vira detenção. A gata chega um turno antes dele."
+    },
+    {
+      "categoria": "Bruxo",
+      "nome": "Rivais de outra Casa",
+      "ficha_base": "Arquétipo: Estudante Rival",
+      "bestiario_id": null,
+      "np": "1–3",
+      "atividade": "Diurna",
+      "terrenos": [
+        "Corredores",
+        "Jardins e lago",
+        "Vilarejo"
+      ],
+      "grupo": "2–3 alunos (NP do grupo −1)",
+      "pesos": {
+        "Rotina": 6,
+        "Fora de hora": 6,
+        "Proibida": 4,
+        "Mortal": 2
+      },
+      "nota": "Duelam por orgulho e fogem se aparecer um professor. Nada letal."
+    },
+    {
+      "categoria": "Bruxo",
+      "nome": "Contrabandista",
+      "ficha_base": "Arquétipo: Bruxo das Trevas (NP −2; sem Maldições Imperdoáveis)",
+      "bestiario_id": null,
+      "np": "3–4",
+      "atividade": "Qualquer",
+      "terrenos": [
+        "Vilarejo",
+        "Floresta"
+      ],
+      "grupo": "1–2",
+      "pesos": {
+        "Rotina": 1,
+        "Fora de hora": 3,
+        "Proibida": 4,
+        "Mortal": 3
+      },
+      "nota": "Prefere negociar e sumir a lutar com alunos. Leva artefatos e ovos de criaturas proibidas."
+    },
+    {
+      "categoria": "Bruxo",
+      "nome": "Caçador de criaturas",
+      "ficha_base": "Arquétipo: Bruxo das Trevas (sem Maldições; + Sobrevivência e armadilhas)",
+      "bestiario_id": null,
+      "np": "4–5",
+      "atividade": "Diurna",
+      "terrenos": [
+        "Floresta",
+        "Jardins e lago"
+      ],
+      "grupo": "1–3",
+      "pesos": {
+        "Rotina": 1,
+        "Fora de hora": 3,
+        "Proibida": 5,
+        "Mortal": 4
+      },
+      "nota": "Caça ilegal na Floresta. Usa redes e Feitiços Estuporantes, não feitiços letais."
+    },
+    {
+      "categoria": "Bruxo",
+      "nome": "Patrulha do Ministério",
+      "ficha_base": "Arquétipo: Auror do Ministério",
+      "bestiario_id": null,
+      "np": "5–7",
+      "atividade": "Qualquer",
+      "terrenos": [
+        "Vilarejo",
+        "Jardins e lago"
+      ],
+      "grupo": "2",
+      "pesos": {
+        "Rotina": 1,
+        "Fora de hora": 2,
+        "Proibida": 3,
+        "Mortal": 3
+      },
+      "nota": "Hostil só com quem está onde não devia. Interroga, confisca varinhas, avisa o diretor."
+    },
+    {
+      "categoria": "Bruxo",
+      "nome": "Bruxo das trevas infiltrado",
+      "ficha_base": "Arquétipo: Bruxo das Trevas",
+      "bestiario_id": null,
+      "np": "5–8",
+      "atividade": "Noturna",
+      "terrenos": [
+        "Floresta",
+        "Masmorras",
+        "Vilarejo"
+      ],
+      "grupo": "1 + 1–3 seguidores (Estudante Rival)",
+      "pesos": {
+        "Rotina": 0,
+        "Fora de hora": 1,
+        "Proibida": 4,
+        "Mortal": 6
+      },
+      "nota": "O único que pode usar Maldições Imperdoáveis. Foge se for reconhecido."
+    },
+    {
+      "categoria": "Bicho mágico",
+      "nome": "Diabretes azuis",
+      "ficha_base": "Diabrete (sem fogo; voo e arremesso de objetos)",
+      "bestiario_id": "fantasia/sobrenatural/diabrete",
+      "np": "2–3",
+      "atividade": "Diurna",
+      "terrenos": [
+        "Corredores",
+        "Jardins e lago"
+      ],
+      "grupo": "Enxame de 6–10 (trate como 2–3 capangas)",
+      "pesos": {
+        "Rotina": 6,
+        "Fora de hora": 5,
+        "Proibida": 3,
+        "Mortal": 2
+      },
+      "nota": "Bagunçam mais do que ferem: roubam varinhas, puxam orelhas, penduram alunos no lustre."
+    },
+    {
+      "categoria": "Bicho mágico",
+      "nome": "Fadas mordentes",
+      "ficha_base": "Fada Trapaceira (+ mordida venenosa: Aflição de Fortitude, Tonto)",
+      "bestiario_id": "fantasia/sobrenatural/fada",
+      "np": "2–3",
+      "atividade": "Diurna",
+      "terrenos": [
+        "Corredores",
+        "Jardins e lago",
+        "Vilarejo"
+      ],
+      "grupo": "4–8 (trate como 2 capangas)",
+      "pesos": {
+        "Rotina": 4,
+        "Fora de hora": 4,
+        "Proibida": 2,
+        "Mortal": 1
+      },
+      "nota": "Infestam cortinas e armários velhos. Um borrifo de repelente resolve o ninho."
+    },
+    {
+      "categoria": "Bicho mágico",
+      "nome": "Gnomos de jardim",
+      "ficha_base": "Goblin Saqueador (sem armas; mordida)",
+      "bestiario_id": "fantasia/goblins/goblin_saqueador",
+      "np": "1–2",
+      "atividade": "Diurna",
+      "terrenos": [
+        "Jardins e lago",
+        "Vilarejo"
+      ],
+      "grupo": "3–6",
+      "pesos": {
+        "Rotina": 4,
+        "Fora de hora": 3,
+        "Proibida": 1,
+        "Mortal": 1
+      },
+      "nota": "Girar e arremessar um gnomo longe resolve. Voltam em uma hora."
+    },
+    {
+      "categoria": "Bicho mágico",
+      "nome": "Grindylows",
+      "ficha_base": "Goblin Saqueador (+ Natação; dedos que agarram)",
+      "bestiario_id": "fantasia/goblins/goblin_saqueador",
+      "np": "2–3",
+      "atividade": "Qualquer",
+      "terrenos": [
+        "Jardins e lago",
+        "Masmorras"
+      ],
+      "grupo": "2–5",
+      "pesos": {
+        "Rotina": 2,
+        "Fora de hora": 4,
+        "Proibida": 3,
+        "Mortal": 2
+      },
+      "nota": "Só atacam na água ou na margem. Dedos frágeis: quebrar a pegada é Força CD 10."
+    },
+    {
+      "categoria": "Bicho mágico",
+      "nome": "Hipogrifo",
+      "ficha_base": "Grifo de Montaria (orgulhoso; ataca quem não fizer reverência)",
+      "bestiario_id": "fantasia/monstruosidades/grifo_montaria",
+      "np": "4–5",
+      "atividade": "Diurna",
+      "terrenos": [
+        "Jardins e lago",
+        "Floresta"
+      ],
+      "grupo": "1",
+      "pesos": {
+        "Rotina": 1,
+        "Fora de hora": 4,
+        "Proibida": 5,
+        "Mortal": 3
+      },
+      "nota": "Reverência e olhar firme (Intuição CD 15) evitam o ataque e podem render um voo."
+    },
+    {
+      "categoria": "Bicho mágico",
+      "nome": "Lobos da Floresta",
+      "ficha_base": "Lobo",
+      "bestiario_id": "fantasia/feras/lobo",
+      "np": "2–3",
+      "atividade": "Noturna",
+      "terrenos": [
+        "Floresta",
+        "Jardins e lago"
+      ],
+      "grupo": "3–6",
+      "pesos": {
+        "Rotina": 0,
+        "Fora de hora": 2,
+        "Proibida": 5,
+        "Mortal": 5
+      },
+      "nota": "Medrosos perto de luz e fogo. Fogem ao perder dois da matilha."
+    },
+    {
+      "categoria": "Criatura mágica",
+      "nome": "Trasgo montanhês",
+      "ficha_base": "Troll (NP −2; Intelecto −4; porrete; sem regeneração)",
+      "bestiario_id": "fantasia/monstruosidades/troll",
+      "np": "5",
+      "atividade": "Qualquer",
+      "terrenos": [
+        "Masmorras",
+        "Floresta",
+        "Corredores"
+      ],
+      "grupo": "1",
+      "pesos": {
+        "Rotina": 2,
+        "Fora de hora": 3,
+        "Proibida": 4,
+        "Mortal": 4
+      },
+      "nota": "Burro e lento: trancar numa sala ou fazer o porrete cair na cabeça dele vale como vitória."
+    },
+    {
+      "categoria": "Criatura mágica",
+      "nome": "Salgueiro furioso",
+      "ficha_base": "Árvore Animada (NP −3; não se desloca; alcance 10 m)",
+      "bestiario_id": "fantasia/sobrenatural/arvore_animada",
+      "np": "5",
+      "atividade": "Qualquer",
+      "terrenos": [
+        "Jardins e lago"
+      ],
+      "grupo": "1",
+      "pesos": {
+        "Rotina": 1,
+        "Fora de hora": 3,
+        "Proibida": 2,
+        "Mortal": 1
+      },
+      "nota": "Não sai do lugar: sair do alcance encerra o combate. Tocar o nó da raiz o imobiliza."
+    },
+    {
+      "categoria": "Criatura mágica",
+      "nome": "Centauros hostis",
+      "ficha_base": "Hobgoblin Soldado (Velocidade 2; arco longo; Especialidade: Astronomia)",
+      "bestiario_id": "fantasia/goblins/hobgoblin_soldado",
+      "np": "4–5",
+      "atividade": "Qualquer",
+      "terrenos": [
+        "Floresta"
+      ],
+      "grupo": "2–4",
+      "pesos": {
+        "Rotina": 0,
+        "Fora de hora": 2,
+        "Proibida": 5,
+        "Mortal": 4
+      },
+      "nota": "Não toleram humanos na mata deles. Respeito e conversa sobre as estrelas abrem caminho."
+    },
+    {
+      "categoria": "Criatura mágica",
+      "nome": "Acromântulas",
+      "ficha_base": "Lobo Atroz (oito patas; Escalar paredes; mordida venenosa, Aflição de Fortitude)",
+      "bestiario_id": "fantasia/feras/lobo_atroz",
+      "np": "4–6",
+      "atividade": "Noturna",
+      "terrenos": [
+        "Floresta"
+      ],
+      "grupo": "2–6; a matriarca (NP +2) só no ninho",
+      "pesos": {
+        "Rotina": 0,
+        "Fora de hora": 1,
+        "Proibida": 5,
+        "Mortal": 8
+      },
+      "nota": "Fogo e luz forte as afastam. Algumas falam, e todas querem carne fresca."
+    },
+    {
+      "categoria": "Criatura mágica",
+      "nome": "Lobisomem",
+      "ficha_base": "Lobisomem",
+      "bestiario_id": "fantasia/monstruosidades/lobisomem",
+      "np": "6–8",
+      "atividade": "Noturna",
+      "terrenos": [
+        "Floresta",
+        "Jardins e lago",
+        "Vilarejo"
+      ],
+      "grupo": "1",
+      "pesos": {
+        "Rotina": 0,
+        "Fora de hora": 1,
+        "Proibida": 3,
+        "Mortal": 4
+      },
+      "nota": "Só na lua cheia. A mordida transmite a licantropia (complicação permanente). É alguém de dia."
+    },
+    {
+      "categoria": "Criatura mágica",
+      "nome": "Cão de três cabeças",
+      "ficha_base": "Quimera (três cabeças caninas; sem asas nem fogo)",
+      "bestiario_id": "fantasia/monstruosidades/quimera",
+      "np": "7–8",
+      "atividade": "Qualquer",
+      "terrenos": [
+        "Masmorras",
+        "Corredores"
+      ],
+      "grupo": "1",
+      "pesos": {
+        "Rotina": 0,
+        "Fora de hora": 1,
+        "Proibida": 3,
+        "Mortal": 3
+      },
+      "nota": "Guarda alguma coisa. Música o faz dormir (Atuação CD 15 por rodada)."
+    },
+    {
+      "categoria": "Criatura mágica",
+      "nome": "Basilisco",
+      "ficha_base": "Basilisco (olhar: Aflição de Fortitude; pelo reflexo, só Paralisado)",
+      "bestiario_id": "fantasia/monstruosidades/basilisco",
+      "np": "8–9",
+      "atividade": "Qualquer",
+      "terrenos": [
+        "Masmorras"
+      ],
+      "grupo": "1",
+      "pesos": {
+        "Rotina": 0,
+        "Fora de hora": 0,
+        "Proibida": 1,
+        "Mortal": 3
+      },
+      "nota": "Vive nos canos e câmaras sob o castelo. O canto do galo o fere; olhar por espelho salva vidas."
+    },
+    {
+      "categoria": "Criatura mágica",
+      "nome": "Dragão jovem",
+      "ficha_base": "Serpe (sopro de fogo em vez do ferrão)",
+      "bestiario_id": "fantasia/dragoes/serpe",
+      "np": "7–8",
+      "atividade": "Diurna",
+      "terrenos": [
+        "Floresta",
+        "Jardins e lago"
+      ],
+      "grupo": "1",
+      "pesos": {
+        "Rotina": 0,
+        "Fora de hora": 0,
+        "Proibida": 1,
+        "Mortal": 2
+      },
+      "nota": "Contrabandeado para a escola ou trazido para um torneio. Protege os ovos acima de tudo."
+    },
+    {
+      "categoria": "Trevas",
+      "nome": "Bicho-papão",
+      "ficha_base": "Sombra Voraz (toma a forma do maior medo; dano de Vontade em vez de Força)",
+      "bestiario_id": "fantasia/mortos_vivos/sombra",
+      "np": "3–5",
+      "atividade": "Qualquer",
+      "terrenos": [
+        "Corredores",
+        "Masmorras"
+      ],
+      "grupo": "1",
+      "pesos": {
+        "Rotina": 3,
+        "Fora de hora": 3,
+        "Proibida": 2,
+        "Mortal": 1
+      },
+      "nota": "Riddikulus e uma risada (Vontade CD 12) o desfazem. Grupos o confundem."
+    },
+    {
+      "categoria": "Trevas",
+      "nome": "Estátua enfeitiçada",
+      "ficha_base": "Gárgula (estátua ou armadura animada por feitiço antigo)",
+      "bestiario_id": "fantasia/sobrenatural/gargula",
+      "np": "4–5",
+      "atividade": "Noturna",
+      "terrenos": [
+        "Corredores",
+        "Masmorras"
+      ],
+      "grupo": "1–2",
+      "pesos": {
+        "Rotina": 2,
+        "Fora de hora": 2,
+        "Proibida": 2,
+        "Mortal": 1
+      },
+      "nota": "Guarda uma porta ou um objeto. Para de atacar quem sai do corredor."
+    },
+    {
+      "categoria": "Trevas",
+      "nome": "Inferi",
+      "ficha_base": "Zumbi (frio, molhado; fogo causa +2 de dano)",
+      "bestiario_id": "fantasia/mortos_vivos/zumbi",
+      "np": "3–4",
+      "atividade": "Noturna",
+      "terrenos": [
+        "Masmorras",
+        "Jardins e lago"
+      ],
+      "grupo": "3–8",
+      "pesos": {
+        "Rotina": 0,
+        "Fora de hora": 1,
+        "Proibida": 3,
+        "Mortal": 5
+      },
+      "nota": "Saem da água escura quando algo é tocado. Fogo os mantém à distância."
+    },
+    {
+      "categoria": "Trevas",
+      "nome": "Vampiro",
+      "ficha_base": "Cria Vampírica",
+      "bestiario_id": "fantasia/mortos_vivos/cria_vampirica",
+      "np": "6",
+      "atividade": "Noturna",
+      "terrenos": [
+        "Vilarejo",
+        "Floresta"
+      ],
+      "grupo": "1",
+      "pesos": {
+        "Rotina": 0,
+        "Fora de hora": 1,
+        "Proibida": 2,
+        "Mortal": 3
+      },
+      "nota": "Frequenta o vilarejo à noite. Educado, faminto e sempre com uma proposta."
+    },
+    {
+      "categoria": "Trevas",
+      "nome": "Dementador",
+      "ficha_base": "Aparição (Aflição de Vontade: Tonto, Atordoado, Incapacitado; o Beijo é Dreno)",
+      "bestiario_id": "fantasia/mortos_vivos/aparicao",
+      "np": "7",
+      "atividade": "Qualquer",
+      "terrenos": [
+        "Jardins e lago",
+        "Vilarejo",
+        "Floresta"
+      ],
+      "grupo": "1–3; dezenas em ano de ameaça",
+      "pesos": {
+        "Rotina": 0,
+        "Fora de hora": 1,
+        "Proibida": 3,
+        "Mortal": 5
+      },
+      "nota": "O Patrono o afasta (Teoria Mágica CD 15 para conjurar; CD 20 sob o efeito). Chocolate depois."
+    }
+  ],
+  "intensidade": [
+    {
+      "nome": "Só sinais",
+      "descricao": "Está longe ou evita o grupo. Deixa rastros, sons ou restos.",
+      "solo": "Ótimo para tensão; nenhum teste obrigatório."
+    },
+    {
+      "nome": "Avistamento",
+      "descricao": "Percebe o grupo e observa. Furtividade, Enganação ou voltar pelo mesmo caminho evitam o confronto.",
+      "solo": "Deixe o jogador escolher se quer o confronto."
+    },
+    {
+      "nome": "Encontro menor",
+      "descricao": "Mínimo do grupo típico, ou um indivíduo jovem, sozinho ou distraído.",
+      "solo": "Confronto curto e vencível."
+    },
+    {
+      "nome": "Encontro padrão",
+      "descricao": "Grupo típico, sem vantagens especiais.",
+      "solo": "Use o grupo típico como teto."
+    },
+    {
+      "nome": "No terreno dela",
+      "descricao": "Grupo típico com vantagem de terreno: água, escuridão, teias, corredor estreito.",
+      "solo": "Correr para o castelo iluminado deve ser uma saída real."
+    },
+    {
+      "nome": "Grupo grande",
+      "descricao": "Máximo do grupo típico, ou reforço chega na 3ª rodada.",
+      "solo": "Troque inimigos extras por pressão: perseguição, porta fechando, toque de recolher."
+    },
+    {
+      "nome": "Emboscada",
+      "descricao": "Surpreende o grupo (rodada de surpresa) a menos que alguém passe em Percepção CD 15.",
+      "solo": "Surpresa sim; dano extra não."
+    },
+    {
+      "nome": "Emboscada + complicação",
+      "descricao": "Como 7, e algo piora: uma varinha cai longe, um monitor vem chegando ou uma segunda ameaça observa.",
+      "solo": "A complicação é o problema; o inimigo continua do tamanho padrão."
+    }
+  ]
+}
