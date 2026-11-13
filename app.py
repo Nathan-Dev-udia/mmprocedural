@@ -30,6 +30,9 @@ PLANILHAS_POR_GENERO = {
     "fantasia": {
         "pocoes": os.path.join(os.path.dirname(os.path.abspath(__file__)), "dados", "generos", "fantasia", "pocoes.xlsx"),
     },
+    "escola_de_magia": {
+        "pocoes": os.path.join(os.path.dirname(os.path.abspath(__file__)), "dados", "generos", "escola_de_magia", "pocoes.xlsx"),
+    },
 }
 NOMES_DAS_PLANILHAS = {"armas": "Armas", "itens": "Itens", "poderes": "Poderes", "pocoes": "Poções e Alquimia"}
 
@@ -47,8 +50,9 @@ def planilhas_disponiveis(genero_id):
 # 1.8 planilhas de armas e itens, magias na ficha e livros montados mais rápido, 1.9 escolas do bruxo caçador de monstros,
 # 1.10 catálogo da fantasia ampliado com peso, massa e Velocidade, planilhas de armas, itens e poderes geradas dos
 # dados e Tabela de Medidas, 1.11 heróis conhecidos (fichas prontas da Marvel e da DC para buscar e consultar),
-# 1.12 Escudo do Mestre da fantasia (página, impressão, PDF e planilha).
-VERSAO = "1.12.0"
+# 1.12 Escudo do Mestre da fantasia (página, impressão, PDF e planilha),
+# 1.13 Gênero Escola de Magia completo (gerador, escudo, livros, quadribol e planilhas).
+VERSAO = "1.13.0"
 
 
 def _commit_atual():

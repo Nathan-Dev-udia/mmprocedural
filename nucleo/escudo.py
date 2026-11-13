@@ -30,24 +30,30 @@ MEIOS_DE_VIAGEM_POR_GENERO = {
     # Livro do Mestre do cyberpunk, seções 10.9 e 16.1.
     "cyberpunk": [("A pé", None), ("Metrô ou ônibus", 3), ("Carro compacto ou moto", 5),
                   ("Carro esportivo ou AV-4", 6), ("Superbike ou supercarro", 7)],
+    "escola_de_magia": [("A pé", None), ("Vassoura escolar", "vassoura_escolar"),
+                        ("Vassoura de passeio", "vassoura_passeio"), ("Vassoura de corrida", "vassoura_corrida")],
 }
 KM_POR_DIA_EM_RITMO_NORMAL = 38
 KM_POR_HORA_EM_RITMO_NORMAL = 5
 ALTURAS_DE_QUEDA = [2, 4, 8, 15, 30, 60, 120, 250, 500]
 FORCAS_DA_CARGA = range(-1, 6)
-CATEGORIAS_DE_MONTARIA = {"Montaria", "Veículos", "Transporte"}
+CATEGORIAS_DE_MONTARIA = {"Montaria", "Veículos", "Transporte", "Vassouras"}
 # Notas que mudam com o gênero (sem cavalos nem sela nos anos 1920).
 NOTA_DO_TEMPO_DE_VIAGEM = {
     "cthulhu": "Tempo = distância – velocidade. A velocidade máxima não se sustenta: para viagens longas de "
                "automóvel, conte paradas para gasolina, pneus furados e estradas de terra; a pé, use o ritmo normal.",
     "cyberpunk": "Tempo = distância – velocidade. No trânsito de Night City, some +2 graduações de tempo; nas "
                  "estradas da Zona de Combate, o mestre decide se dá para andar na velocidade máxima.",
+    "escola_de_magia": "Tempo = distância – velocidade. Em vassouras, o vento, a chuva e a altitude podem impor "
+                       "testes de Veículos (Voo); Aresto Momentum anula dano de queda.",
 }
 NOTA_DAS_MONTARIAS = {
     "cthulhu": "O porta-malas e o banco de trás levam a bagagem, que não conta na carga de quem dirige.",
+    "escola_de_magia": "A vassoura carrega o bruxo e sua mochila escolar; carga pesada reduz a manobrabilidade em voo.",
 }
-TITULO_DAS_MONTARIAS = {"cthulhu": "Veículos"}
-LOCAL_DA_QUEDA = {"cthulhu": "de um prédio urbano", "faroeste": "do saloon", "cyberpunk": "do bloco de contêineres"}
+TITULO_DAS_MONTARIAS = {"cthulhu": "Veículos", "escola_de_magia": "Vassouras"}
+LOCAL_DA_QUEDA = {"cthulhu": "de um prédio urbano", "faroeste": "do saloon",
+                  "cyberpunk": "do bloco de contêineres", "escola_de_magia": "da torre de astronomia"}
 
 
 def generos_com_escudo():

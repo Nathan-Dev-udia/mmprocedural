@@ -1,0 +1,282 @@
+[
+  {
+    "id": "estudante_rival",
+    "nome": "Estudante Rival",
+    "nomes": "humano",
+    "capanga": true,
+    "np_maximo": 6,
+    "descricao": "Aluno de outra Casa pronto para duelos nos corredores ou disputas no campo.",
+    "prioridades": [
+      "pericia:Combate à Distância: Varinha",
+      "defesa:Esquiva",
+      "defesa:Vontade",
+      "habilidade:Des",
+      "defesa:Fortitude",
+      "pericia:Percepção",
+      "habilidade:Vig"
+    ],
+    "faixas": [
+      {
+        "np": 2,
+        "nome": "Rival do 2º ano",
+        "fonte": "Escola de Magia [Casa]",
+        "status_dados": "validado",
+        "observacao": "Estudante com varinha e feitiços básicos de duelo.",
+        "ficha": {
+          "habilidades": {
+            "For": 0,
+            "Vig": 1,
+            "Agi": 1,
+            "Des": 1,
+            "Lut": 0,
+            "Int": 1,
+            "Pro": 1,
+            "Pre": 1
+          },
+          "defesas_compradas": {
+            "Esquiva": 1,
+            "Aparar": 1,
+            "Vontade": 1,
+            "Fortitude": 1
+          },
+          "pericias": {
+            "Combate à Distância: Varinha": 1,
+            "Percepção": 2,
+            "Enganação": 2
+          },
+          "vantagens": {
+            "Iniciativa Aprimorada": 1,
+            "Equipamento": 1
+          },
+          "equipamento": [
+            "varinha_padrao",
+            "uniforme_escolar"
+          ],
+          "poderes": {
+            "expelliarmus": {
+              "do_genero": "expelliarmus"
+            },
+            "lumus": {
+              "do_genero": "lumus"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "monitor_escolar",
+    "nome": "Monitor da Escola",
+    "nomes": "humano",
+    "capanga": true,
+    "np_maximo": 7,
+    "descricao": "Aluno veterano encarregado de vigiar os corredores após o toque de recolher e separar brigas.",
+    "prioridades": [
+      "pericia:Percepção",
+      "pericia:Intuição",
+      "pericia:Combate à Distância: Varinha",
+      "defesa:Vontade",
+      "defesa:Esquiva",
+      "habilidade:Int",
+      "defesa:Fortitude"
+    ],
+    "faixas": [
+      {
+        "np": 4,
+        "nome": "Monitor do 5º ano",
+        "fonte": "Escola de Magia [Casa]",
+        "status_dados": "validado",
+        "observacao": "Veterano atento com feitiços de contenção e proteção.",
+        "ficha": {
+          "habilidades": {
+            "For": 0,
+            "Vig": 1,
+            "Agi": 1,
+            "Des": 2,
+            "Lut": 1,
+            "Int": 2,
+            "Pro": 2,
+            "Pre": 1
+          },
+          "defesas_compradas": {
+            "Esquiva": 3,
+            "Aparar": 2,
+            "Vontade": 3,
+            "Fortitude": 2
+          },
+          "pericias": {
+            "Combate à Distância: Varinha": 2,
+            "Percepção": 4,
+            "Intuição": 4,
+            "Especialidade: Teoria Mágica": 4
+          },
+          "vantagens": {
+            "Ritualista": 1,
+            "Equipamento": 1
+          },
+          "equipamento": [
+            "varinha_padrao",
+            "uniforme_escolar"
+          ],
+          "poderes": {
+            "petrificus_totalus": {
+              "do_genero": "petrificus_totalus"
+            },
+            "salvio_hexia": {
+              "do_genero": "salvio_hexia"
+            },
+            "lumus": {
+              "do_genero": "lumus"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "bruxo_das_trevas",
+    "nome": "Bruxo das Trevas",
+    "nomes": "humano",
+    "capanga": false,
+    "np_maximo": 10,
+    "descricao": "Seguidor das Artes das Trevas versado em maldições e duelos implacáveis.",
+    "prioridades": [
+      "pericia:Combate à Distância: Varinha",
+      "defesa:Esquiva",
+      "defesa:Vontade",
+      "habilidade:Des",
+      "defesa:Fortitude",
+      "pericia:Intimidação",
+      "habilidade:Vig"
+    ],
+    "faixas": [
+      {
+        "np": 6,
+        "nome": "Infiltrado das Trevas",
+        "fonte": "Escola de Magia [Casa]",
+        "status_dados": "validado",
+        "observacao": "Bruxo adulto com feitiços de ataque, dor e defesa.",
+        "ficha": {
+          "habilidades": {
+            "For": 0,
+            "Vig": 2,
+            "Agi": 2,
+            "Des": 2,
+            "Lut": 1,
+            "Int": 2,
+            "Pro": 2,
+            "Pre": 2
+          },
+          "defesas_compradas": {
+            "Esquiva": 4,
+            "Aparar": 3,
+            "Fortitude": 3,
+            "Vontade": 4
+          },
+          "pericias": {
+            "Combate à Distância: Varinha": 3,
+            "Furtividade": 4,
+            "Intimidação": 4,
+            "Especialidade: Artes das Trevas": 4
+          },
+          "vantagens": {
+            "Iniciativa Aprimorada": 1,
+            "Destemido": 1,
+            "Equipamento": 1
+          },
+          "equipamento": [
+            "varinha_duelo"
+          ],
+          "poderes": {
+            "estupeca": {
+              "do_genero": "estupeca"
+            },
+            "crucio": {
+              "do_genero": "crucio"
+            },
+            "salvio_hexia": {
+              "do_genero": "salvio_hexia"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "auror_patrulha",
+    "nome": "Auror do Ministério",
+    "nomes": "humano",
+    "capanga": false,
+    "np_maximo": 10,
+    "descricao": "Investigador e duelista oficial destacado para proteger a escola ou capturar fugitivos.",
+    "prioridades": [
+      "pericia:Combate à Distância: Varinha",
+      "defesa:Vontade",
+      "defesa:Esquiva",
+      "pericia:Investigação",
+      "pericia:Percepção",
+      "defesa:Fortitude",
+      "habilidade:Des"
+    ],
+    "faixas": [
+      {
+        "np": 7,
+        "nome": "Auror de Campo",
+        "fonte": "Escola de Magia [Casa]",
+        "status_dados": "validado",
+        "observacao": "Bruxo treinado pelo Ministério com Patrono e Aparatação.",
+        "ficha": {
+          "habilidades": {
+            "For": 1,
+            "Vig": 2,
+            "Agi": 2,
+            "Des": 3,
+            "Lut": 2,
+            "Int": 2,
+            "Pro": 3,
+            "Pre": 1
+          },
+          "defesas_compradas": {
+            "Esquiva": 4,
+            "Aparar": 3,
+            "Fortitude": 3,
+            "Vontade": 4
+          },
+          "pericias": {
+            "Combate à Distância: Varinha": 3,
+            "Investigação": 6,
+            "Percepção": 6,
+            "Intuição": 4,
+            "Especialidade: Artes das Trevas": 4
+          },
+          "vantagens": {
+            "Iniciativa Aprimorada": 1,
+            "Destemido": 1,
+            "Rolamento Defensivo": 1,
+            "Equipamento": 1
+          },
+          "equipamento": [
+            "varinha_duelo"
+          ],
+          "poderes": {
+            "estupeca": {
+              "do_genero": "estupeca"
+            },
+            "expelliarmus": {
+              "do_genero": "expelliarmus"
+            },
+            "expecto_patronum": {
+              "do_genero": "expecto_patronum"
+            },
+            "salvio_hexia": {
+              "do_genero": "salvio_hexia"
+            },
+            "aparatacao": {
+              "do_genero": "aparatacao"
+            }
+          }
+        }
+      }
+    ]
+  }
+]

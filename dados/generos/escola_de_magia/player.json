@@ -1,0 +1,539 @@
+{
+  "_fonte": "Casas inspiradas em Hogwarts como pacotes de base (2 PP), deixando os estilos de estudante livres.",
+  "riqueza": [
+    {
+      "id": "bolsista",
+      "nome": "Bolsista / Família humilde (Riqueza 4)",
+      "riqueza": 4,
+      "dinheiro": 30,
+      "beneficio": 0,
+      "ajuste_de_pontos": 1,
+      "descricao": "Usa livros de segunda mão e vestes reformadas. Devolve 1 PP."
+    },
+    {
+      "id": "comum",
+      "nome": "Família bruxa comum (Riqueza 8)",
+      "riqueza": 8,
+      "dinheiro": 80,
+      "beneficio": 0,
+      "ajuste_de_pontos": 0,
+      "descricao": "Padrão: cobre uniforme, varinha, caldeirão e livros do ano."
+    },
+    {
+      "id": "abastada",
+      "nome": "Família tradicional (Benefício: Riqueza 1)",
+      "riqueza": 12,
+      "dinheiro": 200,
+      "beneficio": 1,
+      "ajuste_de_pontos": 0,
+      "descricao": "Custa 1 PP. Dá para comprar vassoura de corrida e poções extras."
+    },
+    {
+      "id": "puro_sangue_rico",
+      "nome": "Linhagem muito rica (Benefício: Riqueza 2)",
+      "riqueza": 16,
+      "dinheiro": 600,
+      "beneficio": 2,
+      "ajuste_de_pontos": 0,
+      "descricao": "Custa 2 PP. Acesso fácil a itens raros e equipamentos de ponta."
+    }
+  ],
+  "racas": [
+    {
+      "id": "grifinoria",
+      "nome": "Grifinória",
+      "descricao": "Valoriza coragem, ousadia e cavalheirismo. (+Destemido, Atletismo +2)",
+      "nomes": "humano",
+      "habilidades": {},
+      "vantagens": {
+        "Destemido": 1
+      },
+      "pericias": {
+        "Atletismo": 2
+      },
+      "poderes": []
+    },
+    {
+      "id": "corvinal",
+      "nome": "Corvinal",
+      "descricao": "Valoriza inteligência, estudo e criatividade. (+Memória Eidética, Investigação +2)",
+      "nomes": "humano",
+      "habilidades": {},
+      "vantagens": {
+        "Memória Eidética": 1
+      },
+      "pericias": {
+        "Investigação": 2
+      },
+      "poderes": []
+    },
+    {
+      "id": "lufa_lufa",
+      "nome": "Lufa-Lufa",
+      "descricao": "Valoriza lealdade, paciência e trabalho duro. (+Trabalho em Equipe, Herbologia +2)",
+      "nomes": "humano",
+      "habilidades": {},
+      "vantagens": {
+        "Trabalho em Equipe": 1
+      },
+      "pericias": {
+        "Especialidade: Herbologia": 2
+      },
+      "poderes": []
+    },
+    {
+      "id": "sonserina",
+      "nome": "Sonserina",
+      "descricao": "Valoriza ambição, astúcia e liderança. (+Bem Informado, Enganação +2)",
+      "nomes": "humano",
+      "habilidades": {},
+      "vantagens": {
+        "Bem Informado": 1
+      },
+      "pericias": {
+        "Enganação": 2
+      },
+      "poderes": []
+    },
+    {
+      "id": "visitante",
+      "nome": "Sem Casa (Adulto / Visitante)",
+      "descricao": "Para bruxos já formados, professores ou visitantes de outras escolas (0 PP).",
+      "nomes": "humano",
+      "habilidades": {},
+      "vantagens": {},
+      "pericias": {},
+      "poderes": []
+    }
+  ],
+  "arquetipos": [
+    {
+      "id": "estudante",
+      "nome": "Estudante",
+      "conceito": "Aluno da escola de magia (recomendado NP 2 no 1º-2º ano até NP 6 no 7º ano).",
+      "vantagens_essenciais": [
+        "Ritualista"
+      ],
+      "vantagens_opcionais": [
+        "Sorte",
+        "Rolamento Defensivo",
+        "Iniciativa Aprimorada",
+        "Trabalho em Equipe"
+      ],
+      "prioridades": [
+        "pericia:Combate à Distância: Varinha",
+        "defesa:Esquiva",
+        "defesa:Vontade",
+        "habilidade:Int",
+        "habilidade:Des",
+        "pericia:Percepção",
+        "pericia:Especialidade: Teoria Mágica",
+        "defesa:Fortitude"
+      ],
+      "sugestoes": {
+        "motivacoes": [
+          "Amizade",
+          "Conhecimento",
+          "Honra da Casa",
+          "Justiça",
+          "Desvendar Mistérios"
+        ],
+        "complicacoes": [
+          {
+            "nome": "Rivalidade entre Casas",
+            "detalhe": "Um colega vive tentando provocá-lo para um duelo."
+          },
+          {
+            "nome": "Laço emocional intenso (Mapa de Relacionamentos)",
+            "detalhe": "Um relacionamento (+3 a +5) entra em perigo na trama."
+          },
+          {
+            "nome": "Curiosidade perigosa",
+            "detalhe": "Não resiste a portas trancadas e boatos da floresta."
+          }
+        ]
+      },
+      "focos": [
+        {
+          "id": "duelista",
+          "nome": "Duelista",
+          "descricao": "Focado em Defesa contra as Artes das Trevas, reflexos rápidos e feitiços de duelo.",
+          "implantes": [
+            "expelliarmus",
+            "estupeca"
+          ],
+          "implantes_opcionais": [
+            "petrificus_totalus",
+            "salvio_hexia",
+            "lumus"
+          ],
+          "falhas": [
+            {
+              "id": "varinha_removivel",
+              "nome": "Varinha (Removível)",
+              "arranjo": "Varinha",
+              "custo": -1,
+              "descricao": "Sem a varinha o bruxo não consegue conjurar os feitiços do arranjo (pode ser desarmado)."
+            }
+          ],
+          "vantagens": [
+            "Iniciativa Aprimorada",
+            "Ataque Acurado"
+          ],
+          "prioridades": [
+            "pericia:Combate à Distância: Varinha",
+            "habilidade:Des",
+            "defesa:Esquiva"
+          ],
+          "armas": [],
+          "itens": []
+        },
+        {
+          "id": "estudioso",
+          "nome": "Estudioso",
+          "descricao": "Brilha em Feitiços, Transfiguração e Teoria Mágica, com repertório variado.",
+          "implantes": [
+            "wingardium_leviosa",
+            "lumus"
+          ],
+          "implantes_opcionais": [
+            "reparo",
+            "alohomora",
+            "finite_incantatem",
+            "aparecium"
+          ],
+          "falhas": [
+            {
+              "id": "varinha_removivel",
+              "nome": "Varinha (Removível)",
+              "arranjo": "Varinha",
+              "custo": -1,
+              "descricao": "Sem a varinha o bruxo não consegue conjurar os feitiços do arranjo (pode ser desarmado)."
+            }
+          ],
+          "vantagens": [
+            "Memória Eidética"
+          ],
+          "prioridades": [
+            "habilidade:Int",
+            "pericia:Especialidade: Teoria Mágica",
+            "defesa:Vontade"
+          ],
+          "armas": [],
+          "itens": [
+            "livros_ano"
+          ]
+        },
+        {
+          "id": "encrenqueiro",
+          "nome": "Encrenqueiro / Explorador",
+          "descricao": "Especialista em passagens secretas, toque de recolher e pegadinhas mágicas.",
+          "implantes": [
+            "alohomora",
+            "lumus"
+          ],
+          "implantes_opcionais": [
+            "nox",
+            "rictusempra",
+            "tarantallegra",
+            "confundus"
+          ],
+          "falhas": [
+            {
+              "id": "varinha_removivel",
+              "nome": "Varinha (Removível)",
+              "arranjo": "Varinha",
+              "custo": -1,
+              "descricao": "Sem a varinha o bruxo não consegue conjurar os feitiços do arranjo (pode ser desarmado)."
+            }
+          ],
+          "vantagens": [
+            "Sorte"
+          ],
+          "prioridades": [
+            "pericia:Furtividade",
+            "pericia:Investigação",
+            "habilidade:Agi"
+          ],
+          "armas": [],
+          "itens": [
+            "orelha_extensivel"
+          ]
+        },
+        {
+          "id": "herbologista",
+          "nome": "Herbologista / Curandeiro",
+          "descricao": "Cuida de estufas, poções restauradoras e primeiros socorros mágicos.",
+          "implantes": [
+            "aguamenti",
+            "episkey"
+          ],
+          "implantes_opcionais": [
+            "braquium_remendo",
+            "lumus",
+            "incendio"
+          ],
+          "falhas": [
+            {
+              "id": "varinha_removivel",
+              "nome": "Varinha (Removível)",
+              "arranjo": "Varinha",
+              "custo": -1,
+              "descricao": "Sem a varinha o bruxo não consegue conjurar os feitiços do arranjo (pode ser desarmado)."
+            }
+          ],
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Especialidade: Herbologia",
+            "pericia:Especialidade: Poções",
+            "pericia:Tratamento"
+          ],
+          "armas": [],
+          "itens": [
+            "kit_pocoes",
+            "pocao_cura"
+          ]
+        },
+        {
+          "id": "quadribol",
+          "nome": "Jogador de Quadribol",
+          "descricao": "Ágil na vassoura, com ótimos reflexos para evitar balaços e mergulhos.",
+          "implantes": [
+            "aresto_momentum",
+            "ascendio"
+          ],
+          "implantes_opcionais": [
+            "accio",
+            "expelliarmus",
+            "lumus"
+          ],
+          "falhas": [
+            {
+              "id": "varinha_removivel",
+              "nome": "Varinha (Removível)",
+              "arranjo": "Varinha",
+              "custo": -1,
+              "descricao": "Sem a varinha o bruxo não consegue conjurar os feitiços do arranjo (pode ser desarmado)."
+            }
+          ],
+          "vantagens": [
+            "Iniciativa Aprimorada"
+          ],
+          "prioridades": [
+            "pericia:Veículos",
+            "pericia:Atletismo",
+            "pericia:Acrobacia",
+            "habilidade:Agi"
+          ],
+          "armas": [],
+          "itens": [
+            "vassoura_escolar"
+          ]
+        }
+      ],
+      "implantes": {
+        "essenciais": [
+          "lumus"
+        ],
+        "opcionais": []
+      },
+      "armas": {
+        "principais": [
+          "varinha_padrao"
+        ],
+        "secundarias": []
+      },
+      "itens": {
+        "essenciais": [
+          "varinha_padrao",
+          "uniforme_escolar"
+        ],
+        "opcionais": [
+          "kit_estudante",
+          "livros_ano",
+          "caldeirao_estanho",
+          "coruja_correio"
+        ]
+      }
+    },
+    {
+      "id": "bruxo_formado",
+      "nome": "Bruxo formado",
+      "conceito": "Adulto graduado: auror, curandeiro ou pesquisador (recomendado NP 7 a 10).",
+      "vantagens_essenciais": [
+        "Ritualista",
+        "Iniciativa Aprimorada"
+      ],
+      "vantagens_opcionais": [
+        "Sorte",
+        "Rolamento Defensivo",
+        "Bem Informado",
+        "Destemido"
+      ],
+      "prioridades": [
+        "pericia:Combate à Distância: Varinha",
+        "defesa:Esquiva",
+        "defesa:Vontade",
+        "habilidade:Des",
+        "habilidade:Int",
+        "pericia:Investigação",
+        "defesa:Fortitude"
+      ],
+      "sugestoes": {
+        "motivacoes": [
+          "Amizade",
+          "Conhecimento",
+          "Honra da Casa",
+          "Justiça",
+          "Desvendar Mistérios"
+        ],
+        "complicacoes": [
+          {
+            "nome": "Rivalidade entre Casas",
+            "detalhe": "Um colega vive tentando provocá-lo para um duelo."
+          },
+          {
+            "nome": "Laço emocional intenso (Mapa de Relacionamentos)",
+            "detalhe": "Um relacionamento (+3 a +5) entra em perigo na trama."
+          },
+          {
+            "nome": "Curiosidade perigosa",
+            "detalhe": "Não resiste a portas trancadas e boatos da floresta."
+          }
+        ]
+      },
+      "focos": [
+        {
+          "id": "auror",
+          "nome": "Auror",
+          "descricao": "Investigador e duelista de elite contra as Artes das Trevas.",
+          "implantes": [
+            "estupeca",
+            "expelliarmus"
+          ],
+          "implantes_opcionais": [
+            "expecto_patronum",
+            "salvio_hexia",
+            "homenum_revelio",
+            "aparatacao"
+          ],
+          "falhas": [
+            {
+              "id": "varinha_removivel",
+              "nome": "Varinha (Removível)",
+              "arranjo": "Varinha",
+              "custo": -1,
+              "descricao": "Sem a varinha o bruxo não consegue conjurar os feitiços do arranjo (pode ser desarmado)."
+            }
+          ],
+          "vantagens": [
+            "Destemido",
+            "Ataque Acurado"
+          ],
+          "prioridades": [
+            "pericia:Combate à Distância: Varinha",
+            "pericia:Investigação",
+            "pericia:Especialidade: Artes das Trevas"
+          ],
+          "armas": [],
+          "itens": [
+            "estojo_varinha"
+          ]
+        },
+        {
+          "id": "curandeiro",
+          "nome": "Curandeiro",
+          "descricao": "Especialista em feitiços médicos, poções complexas e remoção de azarações.",
+          "implantes": [
+            "episkey",
+            "braquium_remendo"
+          ],
+          "implantes_opcionais": [
+            "anapneo",
+            "finite_incantatem",
+            "salvio_hexia",
+            "aparatacao"
+          ],
+          "falhas": [
+            {
+              "id": "varinha_removivel",
+              "nome": "Varinha (Removível)",
+              "arranjo": "Varinha",
+              "custo": -1,
+              "descricao": "Sem a varinha o bruxo não consegue conjurar os feitiços do arranjo (pode ser desarmado)."
+            }
+          ],
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Tratamento",
+            "pericia:Especialidade: Poções",
+            "habilidade:Int"
+          ],
+          "armas": [],
+          "itens": [
+            "pocao_cura",
+            "antidoto_comum"
+          ]
+        },
+        {
+          "id": "pesquisador",
+          "nome": "Professor / Pesquisador",
+          "descricao": "Mestre de teoria mágica, encantamentos antigos e proteção do castelo.",
+          "implantes": [
+            "salvio_hexia",
+            "cave_inimicum"
+          ],
+          "implantes_opcionais": [
+            "finite_incantatem",
+            "reparo",
+            "expecto_patronum",
+            "aparatacao"
+          ],
+          "falhas": [
+            {
+              "id": "varinha_removivel",
+              "nome": "Varinha (Removível)",
+              "arranjo": "Varinha",
+              "custo": -1,
+              "descricao": "Sem a varinha o bruxo não consegue conjurar os feitiços do arranjo (pode ser desarmado)."
+            }
+          ],
+          "vantagens": [
+            "Memória Eidética"
+          ],
+          "prioridades": [
+            "habilidade:Int",
+            "pericia:Especialidade: Teoria Mágica",
+            "defesa:Vontade"
+          ],
+          "armas": [],
+          "itens": [
+            "livros_ano"
+          ]
+        }
+      ],
+      "implantes": {
+        "essenciais": [
+          "lumus"
+        ],
+        "opcionais": []
+      },
+      "armas": {
+        "principais": [
+          "varinha_padrao"
+        ],
+        "secundarias": []
+      },
+      "itens": {
+        "essenciais": [
+          "varinha_padrao"
+        ],
+        "opcionais": [
+          "pocao_cura",
+          "bisbilhotoscopio",
+          "vassoura_passeio"
+        ]
+      }
+    }
+  ]
+}

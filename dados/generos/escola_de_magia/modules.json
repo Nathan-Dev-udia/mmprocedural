@@ -1,0 +1,92 @@
+[
+  {
+    "id": "duelista_treinado",
+    "nome": "Reflexos de Duelo",
+    "epiteto": "o Duelista",
+    "descricao": "Saca a varinha primeiro e mantém postura defensiva.",
+    "tatica": "Tenta desarmar ou atordoar o oponente logo no primeiro turno.",
+    "tags": [
+      "combate",
+      "duelo"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "estudante_rival",
+      "monitor_escolar",
+      "bruxo_das_trevas",
+      "auror_patrulha"
+    ],
+    "status_dados": "validado",
+    "papel": "ambos",
+    "adiciona": {
+      "vantagens": {
+        "Ataque Acurado": 1,
+        "Ataque Defensivo": 1
+      }
+    }
+  },
+  {
+    "id": "batedor_vassoura",
+    "nome": "Voador Ágil",
+    "epiteto": "dos Céus",
+    "descricao": "Acostumado a manobras em alta velocidade na vassoura.",
+    "tatica": "Mantém distância em voo e ataca de cima.",
+    "tags": [
+      "movimento"
+    ],
+    "estilos": [
+      "utilidade",
+      "tematico"
+    ],
+    "arquetipos": [
+      "estudante_rival",
+      "monitor_escolar",
+      "bruxo_das_trevas",
+      "auror_patrulha"
+    ],
+    "status_dados": "validado",
+    "papel": "ambos",
+    "adiciona": {
+      "pericias": {
+        "Veículos": 2,
+        "Acrobacia": 2
+      }
+    }
+  },
+  {
+    "id": "especialista_azaracoes",
+    "nome": "Especialista em Azarações",
+    "epiteto": "o Azarador",
+    "descricao": "Domina feitiços para imobilizar e confundir antes de finalizar o duelo.",
+    "tatica": "Usa Incarcerous ou Confundus para isolar o alvo.",
+    "tags": [
+      "controle",
+      "combate"
+    ],
+    "estilos": [
+      "combate",
+      "tematico"
+    ],
+    "arquetipos": [
+      "estudante_rival",
+      "monitor_escolar",
+      "bruxo_das_trevas",
+      "auror_patrulha"
+    ],
+    "status_dados": "validado",
+    "papel": "ambos",
+    "adiciona": {
+      "poderes": {
+        "incarcerous": {
+          "do_genero": "incarcerous"
+        },
+        "confundus": {
+          "do_genero": "confundus"
+        }
+      }
+    }
+  }
+]

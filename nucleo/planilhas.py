@@ -13,13 +13,18 @@ from openpyxl.utils import get_column_letter
 from . import formatter, medidas, player, rules
 
 # Gêneros cujas planilhas saem dos dados, e quais.
-GERADAS = {"fantasia": ("armas", "itens", "poderes"), "faroeste": ("armas", "itens")}
+GERADAS = {
+    "fantasia": ("armas", "itens", "poderes"),
+    "faroeste": ("armas", "itens"),
+    "escola_de_magia": ("armas", "itens", "poderes"),
+}
 
 # Folhas da planilha de armas: (título, categoria do equipment.json). Só entram os itens com ataque.
 FOLHAS_DE_ARMAS = {
     "fantasia": (("Armas brancas", "Arma branca"), ("Armas à distância", "Arma à distância")),
     "faroeste": (("Armas de fogo", "Arma de fogo"), ("Armas brancas", "Arma branca"),
                  ("Armas de arremesso", "Arma de arremesso"), ("Explosivos", "Explosivos")),
+    "escola_de_magia": (("Varinhas e armas", "Varinhas"),),
 }
 
 # Faroeste: as classes de arma de fogo do Manual dos Mecanismos (Lite), tabela de armas, p. 29; descrições nas p. 31-32.
@@ -53,7 +58,12 @@ AZUL_CLARO = PatternFill("solid", fgColor="C7DBF1")   # o mesmo dos cabeçalhos 
 
 ROTULO_DA_CATEGORIA = {"arcana": "Magia arcana", "divina": "Magia divina", "natureza": "Magia da natureza",
                        "pacto": "Magia de pacto", "bardica": "Magia bárdica", "marcial": "Dom marcial",
-                       "sinais": "Sinal de bruxo", "mutacao": "Mutação de bruxo", "racial": "Traço racial"}
+                       "sinais": "Sinal de bruxo", "mutacao": "Mutação de bruxo", "racial": "Traço racial",
+                       "utilidade": "Feitiço utilitário", "encantamento": "Encantamento",
+                       "combate": "Feitiço de combate", "duelo": "Feitiço de duelo / Azaração",
+                       "defesa": "Defesa contra as Artes das Trevas", "transfiguracao": "Transfiguração",
+                       "cura": "Feitiço de cura", "movimento": "Movimento / Aparatação",
+                       "artes_das_trevas": "Artes das Trevas (Proibido)"}
 
 
 def preco_em_moedas(valor):
@@ -150,11 +160,12 @@ def _distancias(ataque):
 def planilha_de_armas(dados):
     livro = Workbook()
     catalogo = player.catalogo_do_jogador(dados)
-    fantasia = dados["genero"]["id"] == "fantasia"
-    if fantasia:
+    genero_id = dados["genero"]["id"]
+    sem_fogo = genero_id in ("fantasia", "escola_de_magia")
+    if sem_fogo:
         cabecalho = ["Arma", "Comércio", "Perícia", "Efeito", "Tipo de dano", "Qualidades", "Crítico", "Custo (PP)",
                      "Preço", "Peso", "Massa (graduação)", "Notas", "Fonte"]
-        larguras = [24, 18, 32, 30, 16, 26, 9, 10, 11, 11, 11, 40, 60]
+        larguras = [28, 22, 32, 30, 18, 26, 9, 10, 11, 11, 11, 45, 60]
     else:
         cabecalho = ["Arma", "Comércio", "Classe", "Perícia", "Efeito", "Crítico", "Custo (PP)", "Preço", "Peso",
                      "Massa (graduação)", "Tiros", "Munição", "Distância (curta / média / longa)", "Notas", "Fonte"]
@@ -163,11 +174,11 @@ def planilha_de_armas(dados):
         linhas = []
         for i in armas_da_folha:
             ataque = i["ataque"]
-            if fantasia:
+            if sem_fogo:
                 linhas.append([i["nome"], i.get("comercio", ""), ataque.get("pericia", ""), _efeito_da_arma(ataque),
                                ataque.get("descritor", ""), ", ".join(ataque.get("qualidades", [])), _critico(ataque),
                                i.get("custo"), _preco(dados, i.get("preco"))] + _colunas_de_peso(dados, i)
-                              + [i.get("notas", ""), i.get("fonte", "")])
+                              + [i.get("notas", "") or i.get("descricao", ""), i.get("fonte", "")])
             else:
                 municao = dados["equipamentos"][i["municao"]]["nome"] if i.get("municao") else ""
                 linhas.append([i["nome"], i.get("comercio", ""), i.get("classe", ""), ataque.get("pericia", ""),
@@ -181,14 +192,25 @@ def planilha_de_armas(dados):
     for arma in catalogo:
         if arma.get("municao"):
             armas.setdefault(arma["municao"], []).append(arma["nome"])
-    _folha(livro, "Munição", ["Munição", "Comércio", "Preço", "Peso", "Massa (graduação)", "Para", "Descrição"],
-           [[i["nome"], i.get("comercio", ""), _preco(dados, i.get("preco"))] + _colunas_de_peso(dados, i)
-            + [", ".join(armas.get(i["id"], [])), i.get("descricao", "")]
-            for i in catalogo if i["categoria"] == "Munição"], [30, 18, 11, 11, 11, 24, 40])
-    if not fantasia:
+    if genero_id != "escola_de_magia":
+        _folha(livro, "Munição", ["Munição", "Comércio", "Preço", "Peso", "Massa (graduação)", "Para", "Descrição"],
+               [[i["nome"], i.get("comercio", ""), _preco(dados, i.get("preco"))] + _colunas_de_peso(dados, i)
+                + [", ".join(armas.get(i["id"], [])), i.get("descricao", "")]
+                for i in catalogo if i["categoria"] == "Munição"], [30, 18, 11, 11, 11, 24, 40])
+    if not sem_fogo:
         _folha(livro, "Classes de armas", ["Classe", "Efeito", "Custo (PP)", "Descrição"],
                [[c, e, custo, d] for c, e, custo, d in CLASSES_DE_ARMAS_DE_FOGO], [26, 34, 10, 70])
         _folha(livro, "Como ler", ["Coluna", "O que quer dizer"], NOTAS_DAS_ARMAS_DO_FAROESTE, [16, 100])
+        return _salvar(livro)
+    if genero_id == "escola_de_magia":
+        _folha(livro, "Como ler", ["Item / Regra", "O que faz"], [
+            ["Varinha e Arranjo", "A varinha é o foco físico exigido para conjurar os feitiços do Arranjo Varinha "
+                                  "(Removível, –1 PP). Sem feitiço específico, dispara centelhas mágicas (Dano 1 à "
+                                  "distância)."],
+            ["Bastão de Batedor", "Usado por Batedores no Quadribol para rebater Balaços de ferro (e como arma "
+                                  "improvisada de contusão em emergências)."],
+            ["Preço em Galeões", "1 Galeão (G) = 17 Sicles (S) = 493 Nuques (N). Compradas com o dinheiro inicial."],
+        ], [22, 100])
         return _salvar(livro)
     _folha(livro, "Qualidades", ["Qualidade", "O que faz"],
            [[nome, texto] for nome, texto in rules.QUALIDADES_DE_ARMA.items()]

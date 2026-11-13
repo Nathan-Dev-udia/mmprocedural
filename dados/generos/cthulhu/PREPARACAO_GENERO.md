@@ -13,8 +13,7 @@ fica como registro das decisões e do mapa de páginas do CoC. O que falta, os l
 
 ## Decisões em aberto
 
-1. **Id e nome do gênero:** sugestão `cthulhu` e "Chamado de Cthulhu (anos 20)". A pasta de referências se chama `cutullu`;
-   o id não precisa seguir esse nome.
+1. **Id e nome do gênero:** sugestão `cthulhu` e "Chamado de Cthulhu (anos 20)". A pasta de referências é `referencias/cthulhu/`.
 2. **Sanidade inicial:** no CoC ela é igual ao POD (3d6 × 5, média 52, faixa 15–90). Em M&M, duas opções:
    - **(a) Derivada da Vontade** (sugestão): `SAN inicial = 45 + 5 × Vontade`, com teto de 99. Vontade 0 dá 45, Vontade 3 dá 60 e Vontade 6 dá 75.
      Vantagem: acompanha a ficha, e o PP gasto em Vontade passa a valer também para a Sanidade.
@@ -26,7 +25,7 @@ fica como registro das decisões e do mapa de páginas do CoC. O que falta, os l
 
 Para os dois livros, a página impressa coincide com a página do PDF.
 
-**`referencias/cutullu/chamado-de-cthulhu---livro-basico-7-edicao.pdf`** (440 páginas):
+**`referencias/cthulhu/chamado-de-cthulhu---livro-basico-7-edicao.pdf`** (440 páginas):
 
 | Assunto | Páginas |
 |---|---|
@@ -60,7 +59,7 @@ Para os dois livros, a página impressa coincide com a página do PDF.
 | Resumo das Regras | 407 |
 | Ficha de investigador dos anos 20 | 430 |
 
-Há também a ficha editável do CoC, `referencias/cutullu/chamado-de-cthulhu---ficha-editavel-7-edicao.pdf`. Serve só de inspiração
+Há também a ficha editável do CoC, `referencias/cthulhu/chamado-de-cthulhu---ficha-editavel-7-edicao.pdf`. Serve só de inspiração
 para o layout; a ficha exportada continua sendo a do M&M.
 
 **`referencias/mm/Mutants & Masterminds 3e - Supernatural Handbook.pdf`** (153 páginas):

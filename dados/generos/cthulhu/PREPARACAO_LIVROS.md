@@ -57,7 +57,7 @@ O código é a fonte da verdade. Se o texto e o código discordarem, o código v
 | Resumo de mesa já pronto | `dados/escudo/cthulhu.json`, gerado por `ferramentas/criar_cthulhu_escudo.py`; regras gerais em `ferramentas/escudo_mm.py` |
 | Decisões do gênero e mapa de páginas do CoC | `dados/generos/cthulhu/PREPARACAO_GENERO.md` |
 | Livro básico de M&M | `referencias/mm/` (PDF) |
-| Livro básico do CoC 7ª edição | `referencias/cutullu/chamado-de-cthulhu---livro-basico-7-edicao.pdf` (páginas no `PREPARACAO_GENERO.md`) |
+| Livro básico do CoC 7ª edição | `referencias/cthulhu/chamado-de-cthulhu---livro-basico-7-edicao.pdf` (páginas no `PREPARACAO_GENERO.md`) |
 
 Para ler os PDFs no Windows, use `PYTHONIOENCODING=utf-8` e extraia página por página (há páginas que quebram a codificação).
 

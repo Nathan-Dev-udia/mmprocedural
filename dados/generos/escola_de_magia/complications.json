@@ -1,0 +1,71 @@
+{
+  "motivacoes": [
+    {
+      "id": "amizade",
+      "nome": "Amizade",
+      "exemplo": "Protege os colegas e nunca abandona um amigo em apuros."
+    },
+    {
+      "id": "conhecimento",
+      "nome": "Conhecimento",
+      "exemplo": "Busca dominar feitiços raros e segredos da magia."
+    },
+    {
+      "id": "honra_casa",
+      "nome": "Honra da Casa",
+      "exemplo": "Quer trazer orgulho e pontos para sua Casa."
+    },
+    {
+      "id": "justica",
+      "nome": "Justiça",
+      "exemplo": "Enfrenta abusos, preconceitos e ameaças das Artes das Trevas."
+    },
+    {
+      "id": "misterios",
+      "nome": "Desvendar Mistérios",
+      "exemplo": "Não descansa até descobrir o que está por trás dos boatos do castelo."
+    }
+  ],
+  "complicacoes": [
+    {
+      "id": "rival_casa",
+      "nome": "Rivalidade entre Casas",
+      "exemplo": "Um colega de outra Casa sempre tenta sabotá-lo ou provocá-lo para um duelo."
+    },
+    {
+      "id": "segredo_corredor",
+      "nome": "Curiosidade perigosa",
+      "exemplo": "Não resiste a investigar portas trancadas, boatos da floresta ou livros restritos."
+    },
+    {
+      "id": "varinha_temperamental",
+      "nome": "Varinha temperamental",
+      "exemplo": "Sob estresse extremo, a varinha às vezes solta faíscas ou atrasa o efeito."
+    },
+    {
+      "id": "detencao_pendente",
+      "nome": "Na mira da monitoria",
+      "exemplo": "Professores e monitores vigiam seus passos após uma infração anterior."
+    },
+    {
+      "id": "laco_profundo",
+      "nome": "Laço emocional intenso (Mapa de Relacionamentos)",
+      "exemplo": "Um relacionamento (+3 a +5) que coloca um amigo, familiar ou rival em perigo no meio da trama."
+    },
+    {
+      "id": "fobia_criatura",
+      "nome": "Medo de criatura mágica",
+      "exemplo": "Paralisa ou hesita diante de aranhas gigantes, dementadores ou bichos-papões."
+    },
+    {
+      "id": "honra_da_casa",
+      "nome": "Orgulho da Casa",
+      "exemplo": "Recusa-se a recuar se isso custar pontos da Casa ou parecer covardia."
+    },
+    {
+      "id": "origem_trouxa",
+      "nome": "Segredo sobre o mundo comum",
+      "exemplo": "Precisa equilibrar deveres escolares com a família que desconhece ou teme a magia."
+    }
+  ]
+}

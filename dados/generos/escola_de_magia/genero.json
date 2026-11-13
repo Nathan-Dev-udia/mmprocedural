@@ -1,0 +1,78 @@
+{
+  "id": "escola_de_magia",
+  "nome": "Escola de Magia",
+  "descricao": "Estudantes de uma escola de magia oculta do mundo comum, divididos em quatro Casas, aprendendo feitiços ano a ano enquanto desvendam mistérios dentro e fora do castelo.",
+  "perfis_de_poder": [
+    "Mágicos",
+    "Luminosos",
+    "Mentais",
+    "Ilusórios",
+    "Vitais",
+    "Cinéticos",
+    "Flamejantes",
+    "Congelantes",
+    "Aquáticos",
+    "Climáticos",
+    "De Tamanho & Massa",
+    "De Teleporte",
+    "De Transformação",
+    "Fatais",
+    "Animais",
+    "Sensoriais",
+    "Sombrios",
+    "Elementais"
+  ],
+  "configuracoes": {
+    "rotulo_poderes": "Feitiços e dons",
+    "rotulo_arquetipo": "Perfil",
+    "rotulo_foco": "Especialização",
+    "equipamento": "dinheiro",
+    "moeda": "G",
+    "np_padrao_jogador": 2,
+    "nps_disponiveis": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "itens_basicos": [
+      "uniforme_escolar",
+      "kit_estudante"
+    ],
+    "prioridades_gerais": [
+      "defesa:Esquiva",
+      "defesa:Vontade",
+      "defesa:Fortitude",
+      "defesa:Aparar",
+      "pericia:Percepção",
+      "pericia:Intuição",
+      "pericia:Atletismo",
+      "vantagem:Rolamento Defensivo",
+      "habilidade:Vig"
+    ],
+    "pericias_de_reserva": [
+      "Percepção",
+      "Intuição",
+      "Atletismo",
+      "Investigação",
+      "Furtividade",
+      "Persuasão",
+      "Enganação",
+      "Acrobacia",
+      "Prestidigitação",
+      "Especialidade: Teoria Mágica",
+      "Especialidade: Poções"
+    ]
+  },
+  "letalidade": {
+    "padrao": "heroica",
+    "ataques_letais": "Nenhum feitiço escolar comum é letal (letalidade Heroica). Apenas Maldições Imperdoáveis, fogo sombrio e venenos letais de monstros causam dano letal.",
+    "cura_mortal": "Sem cura mágica imediata, ferimentos graves exigem repouso na ala hospitalar e poções restauradoras (Tratamento CD 15)."
+  }
+}

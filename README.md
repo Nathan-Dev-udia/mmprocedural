@@ -1,6 +1,6 @@
 # Gerador de fichas · M&M 3ª edição
 
-Gera fichas de Mutantes & Malfeitores 3e para vários gêneros de campanha (hoje: **Faroeste**, **Cyberpunk**, **Fantasia medieval** e **Chamado de Cthulhu**, anos 1920). Cada gênero tem duas abas principais, mais o **Escudo do Mestre** e o **Bestiário**:
+Gera fichas de Mutantes & Malfeitores 3e para vários gêneros de campanha (hoje: **Faroeste**, **Cyberpunk**, **Fantasia medieval**, **Chamado de Cthulhu** e **Escola de Magia**). Cada gênero tem duas abas principais, mais o **Escudo do Mestre** e o **Bestiário**:
 
 - **Ficha de jogador:** um personagem por vez, num passo a passo (Gênero → Nome → Raça, só na fantasia → Arquétipo ou Classe → Vantagens → Implantes ou Magias, nos gêneros com poderes → Armas e itens → Complicações → Ficha). O último passo resume as escolhas antes de gerar. Feito a partir dos arquétipos de jogador do gênero. Gasta exatamente 15 PP por NP e exige Motivação e mais uma complicação. O equipamento é comprado com o dinheiro inicial: dólares no faroeste e no Cthulhu, eurobucks no cyberpunk (preços do Cyberpunk RED), peças de ouro na fantasia (preços do Livro do Jogador de D&D 5e). No cyberpunk, o personagem também pode ter implantes, que custam PP e eurobucks; na fantasia, magias e dons de classe e traços raciais.
 - **Fichas de NPC:** grupos a partir de fichas-base dos livros e módulos cadastrados em JSON. Escolha o arquétipo e, se quiser, o **tipo** (ex.: Dragão → branco, azul, negro…), ou deixe o gerador sortear. A ficha sobe até 70–100% dos limites do NP escolhido.
@@ -97,6 +97,15 @@ Investigadores comuns contra o horror cósmico. Tudo é gerado por `ferramentas/
 - **Sanidade d100** (`nucleo/sanidade.py`): SAN inicial = 45 + 5 × Vontade; máxima = 99 − 5 × graduação em `Especialidade: Mythos de Cthulhu`. A ficha mostra a Sanidade, e o PDF ganha uma 3ª página com o Registro de Sanidade.
 - **NPCs:** cultista e policial de ronda; o **Bestiário** traz cultistas e aberrações do Mythos com a perda de SAN.
 - **Livros:** ainda não existem. A preparação está em `dados/generos/cthulhu/PREPARACAO_LIVROS.md`.
+
+### Escola de Magia (inspirado em Harry Potter)
+
+Aventuras estudantis e mistérios no mundo bruxo com o Mapa de Relacionamentos de *Mecha & Mangá* (pp. 122–124). Tudo é gerado por `ferramentas/criar_escola_de_magia_base.py` e `ferramentas/criar_escola_de_magia_escudo.py` (edite os scripts, não os JSON).
+
+- **Jogador** (`player.json`): 4 Casas de 2 PP (*Grifinória*, *Corvinal*, *Lufa-Lufa*, *Sonserina*) + *Sem Casa (Adulto/Visitante)* (0 PP), combináveis livremente com 2 perfis: **Estudante** (NP 2 a 6; especializações *Duelista*, *Estudioso*, *Encrenqueiro / Explorador*, *Herbologista / Curandeiro* e *Jogador de Quadribol*) e **Bruxo formado** (NP 7 a 10; *Auror*, *Curandeiro* e *Professor / Pesquisador*).
+- **Feitiços e Arranjo da Varinha** (`powers.json`): 57 feitiços e dons baseados na tabela de referência do universo bruxo. Todos os feitiços de varinha compartilham o Arranjo `"Varinha"` com a falha *Removível* (`-1 PP`): o feitiço principal paga o custo cheio e cada feitiço adicional custa **1 PP** (o jogador ganha **1 PP por missão** na escola para aprender novas magias). As Maldições Imperdoáveis (*Avada Kedavra*, *Crucio*, *Imperio*) são restritas a NPCs (`so_npc: true`).
+- **Equipamento, poções e planilhas** (`equipment.json`, `alquimia.json`, `pocoes.xlsx`): preços em Galeões (`G`) com comércio por loja do Beco Diagonal / Hogsmeade (*Olivaras*, *Boticário*, *Madame Malkin*, *Floreios e Borrões*, *Artigos de Qualidade para Quadribol*, *Gemialidades e Logros*, *Dedosdemel / Três Vassouras*). Baixáveis pelo site em 4 planilhas `.xlsx` (`armas_escola_de_magia.xlsx`, `itens_escola_de_magia.xlsx`, `poderes_escola_de_magia.xlsx` e `pocoes_escola_de_magia.xlsx`).
+- **NPCs, Livros e Escudo do Mestre:** 4 arquétipos de NPC (*Estudante Rival*, *Monitor Escolar*, *Bruxo das Trevas* e *Auror do Ministério*), **Livro do Jogador** (`dados/livros/escola_de_magia_jogador.md`), **Livro do Mestre** (`dados/livros/escola_de_magia_mestre.md`) e **Escudo do Mestre** de 8 abas com letalidade padrão Heroica e abas dedicadas a **Magia e Varinha**, **Mapa de Relacionamentos** e **Quadribol** (*Quadribol Através dos Séculos*).
 
 ### Cyberpunk
 

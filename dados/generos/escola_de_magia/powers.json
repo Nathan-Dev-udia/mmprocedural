@@ -1,0 +1,864 @@
+[
+  {
+    "id": "lumus",
+    "nome": "Lumus",
+    "categoria": "utilidade",
+    "catalogo": "de_transformacao__dedo_de_chave",
+    "descricao": "Acende um ponto de luz branca na ponta da varinha. (1º ano)",
+    "ano_minimo": 1,
+    "tags": [
+      "utilidade",
+      "luz"
+    ],
+    "arranjo": "Varinha",
+    "graduacao": 1,
+    "estatistica": "Ambiente 1 (Luz na ponta da varinha)"
+  },
+  {
+    "id": "nox",
+    "nome": "Nox",
+    "categoria": "utilidade",
+    "catalogo": "de_transformacao__dedo_de_chave",
+    "descricao": "Apaga a luz produzida por Lumus ou reduz a iluminação imediata. (1º ano)",
+    "ano_minimo": 1,
+    "tags": [
+      "utilidade"
+    ],
+    "arranjo": "Varinha",
+    "graduacao": 1,
+    "estatistica": "Ambiente 1 (Apagar luz)"
+  },
+  {
+    "id": "wingardium_leviosa",
+    "nome": "Wingardium Leviosa",
+    "categoria": "encantamento",
+    "catalogo": "cineticos__telecinesia",
+    "descricao": "Faz objetos levitarem e se moverem suavemente pelo ar. (1º ano)",
+    "ano_minimo": 1,
+    "tags": [
+      "utilidade",
+      "telecinesia"
+    ],
+    "arranjo": "Varinha",
+    "graduacao_np": -1,
+    "estatistica": "Mover Objetos (telecinesia mágica)"
+  },
+  {
+    "id": "alohomora",
+    "nome": "Alohomora",
+    "categoria": "encantamento",
+    "catalogo": "de_transformacao__dedo_de_chave",
+    "descricao": "Destranca portas e baús fechados com chaves ou feitiços simples. (1º ano)",
+    "ano_minimo": 1,
+    "tags": [
+      "utilidade",
+      "exploracao"
+    ],
+    "arranjo": "Varinha",
+    "graduacao": 1,
+    "estatistica": "Característica 1 (+10 para abrir trancas)"
+  },
+  {
+    "id": "colloportus",
+    "nome": "Colloportus",
+    "categoria": "encantamento",
+    "catalogo": "aquaticos__parede_de_agua",
+    "descricao": "Tranca e sela uma porta magicamente contra abertura comum. (1º ano)",
+    "ano_minimo": 1,
+    "tags": [
+      "utilidade",
+      "protecao"
+    ],
+    "arranjo": "Varinha",
+    "graduacao": 2,
+    "estatistica": "Criar 2 (Selo mágico de porta)"
+  },
+  {
+    "id": "reparo",
+    "nome": "Reparo",
+    "categoria": "encantamento",
+    "catalogo": "de_transformacao__cura_metamorfica",
+    "descricao": "Conserta objetos quebrados, restaurando peças partidas. (1º ano)",
+    "ano_minimo": 1,
+    "tags": [
+      "utilidade"
+    ],
+    "arranjo": "Varinha",
+    "graduacao": 2,
+    "estatistica": "Transformar/Consertar objetos quebrados 2"
+  },
+  {
+    "id": "pericullum",
+    "nome": "Pericullum",
+    "categoria": "utilidade",
+    "catalogo": "magicos__fantasmas_de_phoros_2",
+    "descricao": "Lança centelhas vermelhas para o céu como sinal de socorro. (1º ano)",
+    "ano_minimo": 1,
+    "tags": [
+      "utilidade",
+      "luz"
+    ],
+    "arranjo": "Varinha",
+    "graduacao": 1,
+    "estatistica": "Ilusão Visual 1 (Sinalizador de centelhas vermelhas)"
+  },
+  {
+    "id": "incendio",
+    "nome": "Incendio",
+    "categoria": "combate",
+    "catalogo": "flamejantes__explosao_de_fogo",
+    "descricao": "Produz chamas da ponta da varinha para acender tochas ou queimar obstáculos. (1º ano)",
+    "ano_minimo": 1,
+    "tags": [
+      "combate",
+      "fogo"
+    ],
+    "arranjo": "Varinha",
+    "graduacao_np": 0,
+    "estatistica": "Dano à Distância (fogo)",
+    "pericia": "Combate à Distância: Varinha"
+  },
+  {
+    "id": "rictusempra",
+    "nome": "Rictusempra",
+    "categoria": "duelo",
+    "catalogo": "magicos__algemas_brilhantes_de_sirrion",
+    "descricao": "Feitiço das cócegas que desestabiliza e derruba o oponente rindo. (1º ano)",
+    "ano_minimo": 1,
+    "tags": [
+      "duelo",
+      "controle"
+    ],
+    "arranjo": "Varinha",
+    "graduacao_np": -1,
+    "estatistica": "Aflição à Distância (Vontade; tonto, atordoado)",
+    "pericia": "Combate à Distância: Varinha"
+  },
+  {
+    "id": "tarantallegra",
+    "nome": "Tarantallegra",
+    "categoria": "duelo",
+    "catalogo": "magicos__algemas_brilhantes_de_sirrion",
+    "descricao": "Faz as pernas do oponente dançarem sem parar. (1º ano)",
+    "ano_minimo": 1,
+    "tags": [
+      "duelo",
+      "controle"
+    ],
+    "arranjo": "Varinha",
+    "graduacao_np": -1,
+    "estatistica": "Aflição à Distância (Esquiva; impedido, imóvel)",
+    "pericia": "Combate à Distância: Varinha"
+  },
+  {
+    "id": "petrificus_totalus",
+    "nome": "Petrificus Totalus",
+    "categoria": "duelo",
+    "catalogo": "animais__teia",
+    "descricao": "Petrifica o alvo, deixando o corpo rígido com os braços colados. (1º ano)",
+    "ano_minimo": 1,
+    "tags": [
+      "duelo",
+      "controle"
+    ],
+    "arranjo": "Varinha",
+    "graduacao_np": -1,
+    "estatistica": "Aflição Cumulativa à Distância (Esquiva; impedido e vulnerável, indefeso e imóvel)",
+    "pericia": "Combate à Distância: Varinha"
+  },
+  {
+    "id": "trip",
+    "nome": "Trip (Azaração de Tropeço)",
+    "categoria": "duelo",
+    "catalogo": "climaticos__rajada_ventosa",
+    "descricao": "Faz o alvo tropeçar e cair no chão. (1º ano)",
+    "ano_minimo": 1,
+    "tags": [
+      "duelo",
+      "controle"
+    ],
+    "arranjo": "Varinha",
+    "graduacao_np": 0,
+    "estatistica": "Mover Objetos, Limitado a Derrubar",
+    "pericia": "Combate à Distância: Varinha"
+  },
+  {
+    "id": "expelliarmus",
+    "nome": "Expelliarmus",
+    "categoria": "duelo",
+    "catalogo": "cineticos__rajada_cinetica",
+    "descricao": "Feitiço de desarmamento clássico: arranca a varinha ou objeto das mãos do alvo. (2º ano)",
+    "ano_minimo": 2,
+    "tags": [
+      "duelo",
+      "combate"
+    ],
+    "arranjo": "Varinha",
+    "graduacao_np": 0,
+    "estatistica": "Dano à Distância / Desarmar (força cinética)",
+    "pericia": "Combate à Distância: Varinha"
+  },
+  {
+    "id": "aparecium",
+    "nome": "Aparecium",
+    "categoria": "utilidade",
+    "catalogo": "sombrios__visao_no_escuro",
+    "descricao": "Faz tinta oculta, mensagens secretas ou inscrições invisíveis aparecerem. (2º ano)",
+    "ano_minimo": 2,
+    "tags": [
+      "utilidade",
+      "investigacao"
+    ],
+    "arranjo": "Varinha",
+    "graduacao": 2,
+    "estatistica": "Sentidos 2 (Revelar escrita e tinta invisível)"
+  },
+  {
+    "id": "aranea_exumai",
+    "nome": "Aranea Exumai",
+    "categoria": "combate",
+    "catalogo": "cineticos__explosao_cinetica",
+    "descricao": "Rajada de impacto para repelir aranhas e criaturas rastejantes. (2º ano)",
+    "ano_minimo": 2,
+    "tags": [
+      "combate",
+      "area"
+    ],
+    "arranjo": "Varinha",
+    "graduacao_np": -1,
+    "estatistica": "Dano de Explosão em Área (cinética)"
+  },
+  {
+    "id": "engorgio",
+    "nome": "Engorgio",
+    "categoria": "transfiguracao",
+    "catalogo": "de_tamanho_massa__aumento_de_densidade",
+    "descricao": "Faz o objeto ou criatura alvo crescer de tamanho. (2º ano)",
+    "ano_minimo": 2,
+    "tags": [
+      "transfiguracao"
+    ],
+    "arranjo": "Varinha",
+    "graduacao": 2,
+    "estatistica": "Crescimento 2 (Afeta Outros)"
+  },
+  {
+    "id": "reducio",
+    "nome": "Reducio",
+    "categoria": "transfiguracao",
+    "catalogo": "de_tamanho_massa__raio_encolhedor",
+    "descricao": "Reduz o tamanho do objeto ou criatura atingida. (2º ano)",
+    "ano_minimo": 2,
+    "tags": [
+      "transfiguracao"
+    ],
+    "arranjo": "Varinha",
+    "graduacao_np": -1,
+    "estatistica": "Aflição à Distância (Encolhimento)",
+    "pericia": "Combate à Distância: Varinha"
+  },
+  {
+    "id": "diminuendo",
+    "nome": "Diminuendo",
+    "categoria": "transfiguracao",
+    "catalogo": "de_tamanho_massa__raio_encolhedor",
+    "descricao": "Diminui rapidamente o tamanho de um objeto selecionado. (2º ano)",
+    "ano_minimo": 2,
+    "tags": [
+      "transfiguracao"
+    ],
+    "arranjo": "Varinha",
+    "graduacao_np": -1,
+    "estatistica": "Aflição à Distância (Reduzir objeto)",
+    "pericia": "Combate à Distância: Varinha"
+  },
+  {
+    "id": "finite_incantatem",
+    "nome": "Finite Incantatem",
+    "categoria": "defesa",
+    "catalogo": "elementais__reacao_neutralizante",
+    "descricao": "Encerra o efeito de um feitiço contínuo lançado em algo ou alguém. (2º ano)",
+    "ano_minimo": 2,
+    "tags": [
+      "defesa",
+      "utilidade"
+    ],
+    "arranjo": "Varinha",
+    "graduacao_np": -1,
+    "estatistica": "Nulificar Magia à Distância, Simultâneo",
+    "pericia": "Combate à Distância: Varinha",
+    "custo_por_graduacao": 2
+  },
+  {
+    "id": "cara_de_lesma",
+    "nome": "Cara-de-Lesma",
+    "categoria": "duelo",
+    "catalogo": "magicos__algemas_brilhantes_de_sirrion",
+    "descricao": "Azaração que faz a vítima vomitar lesmas sem parar. (2º ano)",
+    "ano_minimo": 2,
+    "tags": [
+      "duelo"
+    ],
+    "arranjo": "Varinha",
+    "graduacao_np": -1,
+    "estatistica": "Aflição à Distância (Fortitude; tonto, atordoado)",
+    "pericia": "Combate à Distância: Varinha"
+  },
+  {
+    "id": "travaligua",
+    "nome": "Travalíngua",
+    "categoria": "duelo",
+    "catalogo": "cineticos__cola_por_atrito_2",
+    "descricao": "Cola a língua da vítima no céu da boca, impedindo falas e feitiços verbais. (2º ano)",
+    "ano_minimo": 2,
+    "tags": [
+      "duelo",
+      "controle"
+    ],
+    "arranjo": "Varinha",
+    "graduacao_np": 0,
+    "estatistica": "Aflição à Percepção (Esquiva; impede fala)",
+    "pericia": "Combate à Distância: Varinha"
+  },
+  {
+    "id": "mobilicorpus",
+    "nome": "Mobilicorpus",
+    "categoria": "encantamento",
+    "catalogo": "cineticos__telecinesia",
+    "descricao": "Levita e move corpos inconscientes ou imóveis no ar. (2º ano)",
+    "ano_minimo": 2,
+    "tags": [
+      "utilidade"
+    ],
+    "arranjo": "Varinha",
+    "graduacao_np": -1,
+    "estatistica": "Mover Objetos (corpos)"
+  },
+  {
+    "id": "sonorus",
+    "nome": "Sonorus",
+    "categoria": "utilidade",
+    "catalogo": "ilusorios__mimetismo_vocal",
+    "descricao": "Aumenta magicamente o volume da voz como um megafone. (2º ano)",
+    "ano_minimo": 2,
+    "tags": [
+      "utilidade"
+    ],
+    "arranjo": "Varinha",
+    "graduacao": 2,
+    "estatistica": "Ilusão Auditiva 2 (amplificar voz)"
+  },
+  {
+    "id": "quietus",
+    "nome": "Quietus",
+    "categoria": "utilidade",
+    "catalogo": "ilusorios__mimetismo_vocal",
+    "descricao": "Faz a voz amplificada por Sonorus voltar ao volume normal. (2º ano)",
+    "ano_minimo": 2,
+    "tags": [
+      "utilidade"
+    ],
+    "arranjo": "Varinha",
+    "graduacao": 1,
+    "estatistica": "Controle Vocal 1 (reduzir som)"
+  },
+  {
+    "id": "aresto_momentum",
+    "nome": "Aresto Momentum",
+    "categoria": "defesa",
+    "catalogo": "cineticos__rebote_cinetico",
+    "descricao": "Desacelera e para um objeto ou pessoa em queda antes do impacto. (3º ano)",
+    "ano_minimo": 3,
+    "tags": [
+      "defesa",
+      "movimento"
+    ],
+    "arranjo": "Varinha",
+    "graduacao": 1,
+    "estatistica": "Movimento 1 (Queda Segura)"
+  },
+  {
+    "id": "immobilus",
+    "nome": "Immobilus",
+    "categoria": "controle",
+    "catalogo": "climaticos__frio_artico",
+    "descricao": "Paralisa o movimento de criaturas pequenas ou alvos no ar. (3º ano)",
+    "ano_minimo": 3,
+    "tags": [
+      "controle",
+      "duelo"
+    ],
+    "arranjo": "Varinha",
+    "graduacao_np": -1,
+    "estatistica": "Aflição Cumulativa à Distância (Esquiva; impedido, imóvel)",
+    "pericia": "Combate à Distância: Varinha"
+  },
+  {
+    "id": "ridikkulus",
+    "nome": "Riddikulus",
+    "categoria": "defesa",
+    "catalogo": "magicos__censura_de_lamal",
+    "descricao": "Transforma um bicho-papão em algo engraçado, anulando seu terror. (3º ano)",
+    "ano_minimo": 3,
+    "tags": [
+      "defesa",
+      "controle"
+    ],
+    "arranjo": "Varinha",
+    "graduacao_np": 0,
+    "estatistica": "Aflição em Área (Vontade; contra medos e bichos-papões)"
+  },
+  {
+    "id": "expecto_patronum",
+    "nome": "Expecto Patronum",
+    "categoria": "defesa",
+    "catalogo": "magicos__sinal_de_modrossus_3",
+    "descricao": "Conjura um guardião prateado de energia positiva que repele Dementadores e envia mensagens. (3º ano)",
+    "ano_minimo": 3,
+    "tags": [
+      "defesa",
+      "luz"
+    ],
+    "arranjo": "Varinha",
+    "graduacao_np": 0,
+    "estatistica": "Aflição em Área (Vontade; repele criaturas das trevas)"
+  },
+  {
+    "id": "glacius",
+    "nome": "Glacius",
+    "categoria": "combate",
+    "catalogo": "congelantes__rajada_de_gelo",
+    "descricao": "Congela água, objetos ou criaturas atingidas pelo feixe gélido. (3º ano)",
+    "ano_minimo": 3,
+    "tags": [
+      "combate",
+      "gelo"
+    ],
+    "arranjo": "Varinha",
+    "graduacao_np": 0,
+    "estatistica": "Dano à Distância (gelo)",
+    "pericia": "Combate à Distância: Varinha"
+  },
+  {
+    "id": "bomba_bombarda",
+    "nome": "Bombarda",
+    "categoria": "combate",
+    "catalogo": "flamejantes__bola_de_fogo",
+    "descricao": "Causa uma explosão capaz de arrombar paredes ou abrir buracos. (3º ano)",
+    "ano_minimo": 3,
+    "tags": [
+      "combate",
+      "area"
+    ],
+    "arranjo": "Varinha",
+    "graduacao_np": -1,
+    "estatistica": "Dano à Distância, Área Explosão (impacto)"
+  },
+  {
+    "id": "reducto",
+    "nome": "Reducto",
+    "categoria": "combate",
+    "catalogo": "cineticos__rajada_cinetica",
+    "descricao": "Desintegra ou estilhaça objetos sólidos que estejam no caminho. (3º ano)",
+    "ano_minimo": 3,
+    "tags": [
+      "combate"
+    ],
+    "arranjo": "Varinha",
+    "graduacao_np": 0,
+    "estatistica": "Dano à Distância (desintegração física)",
+    "pericia": "Combate à Distância: Varinha"
+  },
+  {
+    "id": "evanesco",
+    "nome": "Evanesco",
+    "categoria": "transfiguracao",
+    "catalogo": "de_transformacao__forma_maleavel",
+    "descricao": "Faz objetos pequenos desaparecerem por completo. (3º ano)",
+    "ano_minimo": 3,
+    "tags": [
+      "transfiguracao"
+    ],
+    "arranjo": "Varinha",
+    "graduacao": 1,
+    "estatistica": "Desaparecer objetos pequenos"
+  },
+  {
+    "id": "accio",
+    "nome": "Accio",
+    "categoria": "encantamento",
+    "catalogo": "cineticos__psicocinese_2",
+    "descricao": "Atrai o objeto desejado à distância até a mão do conjurador. (4º ano)",
+    "ano_minimo": 4,
+    "tags": [
+      "utilidade",
+      "telecinesia"
+    ],
+    "arranjo": "Varinha",
+    "graduacao_np": -1,
+    "estatistica": "Mover Objetos à Percepção (atrair)"
+  },
+  {
+    "id": "depulso",
+    "nome": "Depulso",
+    "categoria": "duelo",
+    "catalogo": "climaticos__rajada_ventosa",
+    "descricao": "Arremessa objetos ou oponentes para longe com um empurrão mágico. (4º ano)",
+    "ano_minimo": 4,
+    "tags": [
+      "duelo",
+      "telecinesia"
+    ],
+    "arranjo": "Varinha",
+    "graduacao_np": 0,
+    "estatistica": "Mover Objetos, Empurrar para longe",
+    "pericia": "Combate à Distância: Varinha"
+  },
+  {
+    "id": "ascendio",
+    "nome": "Ascendio",
+    "categoria": "movimento",
+    "catalogo": "de_transformacao__bola_saltitante",
+    "descricao": "Lança o próprio conjurador imediatamente para cima (ou para fora da água). (4º ano)",
+    "ano_minimo": 4,
+    "tags": [
+      "movimento"
+    ],
+    "arranjo": "Varinha",
+    "graduacao_np": 0,
+    "estatistica": "Salto (propulsão vertical)"
+  },
+  {
+    "id": "aguamenti",
+    "nome": "Aguamenti",
+    "categoria": "encantamento",
+    "catalogo": "aquaticos__modelagem_de_agua_2",
+    "descricao": "Conjura um jato de água limpa da ponta da varinha. (4º ano)",
+    "ano_minimo": 4,
+    "tags": [
+      "utilidade",
+      "agua"
+    ],
+    "arranjo": "Varinha",
+    "graduacao_np": -1,
+    "estatistica": "Criar Água / Jato d'água"
+  },
+  {
+    "id": "estupeca",
+    "nome": "Estupefaça",
+    "categoria": "duelo",
+    "catalogo": "cineticos__rajada_cinetica",
+    "descricao": "Raio vermelho de atordoamento clássico dos duelos: derruba e faz desmaiar. (4º ano)",
+    "ano_minimo": 4,
+    "tags": [
+      "duelo",
+      "combate"
+    ],
+    "arranjo": "Varinha",
+    "graduacao_np": 0,
+    "estatistica": "Dano à Distância / Atordoamento (força mágica)",
+    "pericia": "Combate à Distância: Varinha"
+  },
+  {
+    "id": "incarcerous",
+    "nome": "Incarcerous",
+    "categoria": "duelo",
+    "catalogo": "animais__teia",
+    "descricao": "Conjura cordas grossas que se enrolam e prendem o corpo do alvo. (4º ano)",
+    "ano_minimo": 4,
+    "tags": [
+      "duelo",
+      "controle"
+    ],
+    "arranjo": "Varinha",
+    "graduacao_np": -1,
+    "estatistica": "Aflição Cumulativa à Distância (Esquiva; impedido, imóvel)",
+    "pericia": "Combate à Distância: Varinha"
+  },
+  {
+    "id": "avis",
+    "nome": "Avis",
+    "categoria": "transfiguracao",
+    "catalogo": "animais__criar_quimera",
+    "descricao": "Conjura um pequeno bando de pássaros da ponta da varinha. (4º ano)",
+    "ano_minimo": 4,
+    "tags": [
+      "transfiguracao"
+    ],
+    "arranjo": "Varinha",
+    "graduacao": 2,
+    "estatistica": "Invocar Pássaros 2"
+  },
+  {
+    "id": "oppugno",
+    "nome": "Oppugno",
+    "categoria": "duelo",
+    "catalogo": "animais__companheiro_animal",
+    "descricao": "Faz objetos ou pequenas criaturas conjuradas atacarem alguém. (4º ano)",
+    "ano_minimo": 4,
+    "tags": [
+      "duelo"
+    ],
+    "arranjo": "Varinha",
+    "graduacao_np": -1,
+    "estatistica": "Invocar/Comandar Ataque"
+  },
+  {
+    "id": "salvio_hexia",
+    "nome": "Salvio Hexia / Protego",
+    "categoria": "defesa",
+    "catalogo": "cineticos__deflexao_cinetica",
+    "descricao": "Cria um campo protetor que deflete feitiços e protege o bruxo ou área. (5º ano)",
+    "ano_minimo": 5,
+    "tags": [
+      "defesa",
+      "duelo"
+    ],
+    "arranjo": "Varinha",
+    "graduacao_np": 0,
+    "estatistica": "Deflexão Mágica"
+  },
+  {
+    "id": "cave_inimicum",
+    "nome": "Cave Inimicum",
+    "categoria": "defesa",
+    "catalogo": "aquaticos__parede_de_agua",
+    "descricao": "Ergue uma barreira protetora invisível em torno de um acampamento ou sala. (5º ano)",
+    "ano_minimo": 5,
+    "tags": [
+      "defesa",
+      "utilidade"
+    ],
+    "arranjo": "Varinha",
+    "graduacao_np": 0,
+    "estatistica": "Criar Barreira Protetora"
+  },
+  {
+    "id": "confundus",
+    "nome": "Confundus",
+    "categoria": "mental",
+    "catalogo": "mentais__controle_mental",
+    "descricao": "Confunde a mente da vítima, deixando-a desorientada ou sugestionável. (5º ano)",
+    "ano_minimo": 5,
+    "tags": [
+      "controle",
+      "mental"
+    ],
+    "arranjo": "Varinha",
+    "graduacao_np": -1,
+    "estatistica": "Aflição à Distância (Vontade; tonto, atordoado)",
+    "pericia": "Combate à Distância: Varinha"
+  },
+  {
+    "id": "episkey",
+    "nome": "Episkey",
+    "categoria": "cura",
+    "catalogo": "vitais__cura",
+    "descricao": "Cura pequenos machucados, narizes quebrados e cortes recentes. (5º ano)",
+    "ano_minimo": 5,
+    "tags": [
+      "cura"
+    ],
+    "arranjo": "Varinha",
+    "graduacao_np": -1,
+    "estatistica": "Cura Mágica"
+  },
+  {
+    "id": "braquium_remendo",
+    "nome": "Braquium Remendo",
+    "categoria": "cura",
+    "catalogo": "vitais__cura",
+    "descricao": "Emenda ossos quebrados do braço ou membros (com cuidado na pronúncia). (5º ano)",
+    "ano_minimo": 5,
+    "tags": [
+      "cura"
+    ],
+    "arranjo": "Varinha",
+    "graduacao_np": 0,
+    "estatistica": "Cura de Ossos"
+  },
+  {
+    "id": "anapneo",
+    "nome": "Anapneo",
+    "categoria": "cura",
+    "catalogo": "vitais__cura",
+    "descricao": "Desobstrui imediatamente a traqueia e as vias respiratórias do alvo. (5º ano)",
+    "ano_minimo": 5,
+    "tags": [
+      "cura"
+    ],
+    "arranjo": "Varinha",
+    "graduacao": 2,
+    "estatistica": "Cura 2 (desobstrução)"
+  },
+  {
+    "id": "erecto",
+    "nome": "Erecto",
+    "categoria": "encantamento",
+    "catalogo": "cineticos__construcoes_de_forca",
+    "descricao": "Monta tendas, estruturas ou andaimes dobrados num piscar de olhos. (5º ano)",
+    "ano_minimo": 5,
+    "tags": [
+      "utilidade"
+    ],
+    "arranjo": "Varinha",
+    "graduacao": 3,
+    "estatistica": "Criar Estruturas 3"
+  },
+  {
+    "id": "homenum_revelio",
+    "nome": "Homenum Revelio",
+    "categoria": "investigacao",
+    "catalogo": "sensoriais__leitura_de_aura_4",
+    "descricao": "Revela a presença humana oculta num cômodo ou edifício próximo. (6º ano)",
+    "ano_minimo": 6,
+    "tags": [
+      "investigacao",
+      "utilidade"
+    ],
+    "arranjo": "Varinha",
+    "graduacao": 3,
+    "estatistica": "Sentidos 3 (Detectar Humanos à Distância)"
+  },
+  {
+    "id": "obliviate",
+    "nome": "Obliviate",
+    "categoria": "mental",
+    "catalogo": "magicos__nevoas_do_modrossus_2",
+    "descricao": "Altera ou apaga memórias específicas da vítima. (6º ano)",
+    "ano_minimo": 6,
+    "tags": [
+      "mental",
+      "controle"
+    ],
+    "arranjo": "Varinha",
+    "graduacao_np": -1,
+    "estatistica": "Aflição à Distância (Vontade; apaga memórias)",
+    "pericia": "Combate à Distância: Varinha"
+  },
+  {
+    "id": "avifors",
+    "nome": "Avifors",
+    "categoria": "transfiguracao",
+    "catalogo": "de_transformacao__transformacao_banal",
+    "descricao": "Transfigura um objeto pequeno ou alvo em um pássaro. (6º ano)",
+    "ano_minimo": 6,
+    "tags": [
+      "transfiguracao"
+    ],
+    "arranjo": "Varinha",
+    "graduacao_np": -1,
+    "estatistica": "Aflição Cumulativa à Distância (Vontade; transformado)",
+    "pericia": "Combate à Distância: Varinha"
+  },
+  {
+    "id": "pullus",
+    "nome": "Pullus",
+    "categoria": "transfiguracao",
+    "catalogo": "de_transformacao__transformacao_banal",
+    "descricao": "Transfigura o alvo em uma galinha comum. (6º ano)",
+    "ano_minimo": 6,
+    "tags": [
+      "transfiguracao"
+    ],
+    "arranjo": "Varinha",
+    "graduacao_np": -1,
+    "estatistica": "Aflição Cumulativa à Distância (Vontade; transformado)",
+    "pericia": "Combate à Distância: Varinha"
+  },
+  {
+    "id": "homorfo",
+    "nome": "Homorfo",
+    "categoria": "transfiguracao",
+    "catalogo": "elementais__reacao_neutralizante",
+    "descricao": "Força um Animago ou criatura/objeto transfigurado a voltar à forma original. (7º ano)",
+    "ano_minimo": 7,
+    "tags": [
+      "transfiguracao",
+      "defesa"
+    ],
+    "arranjo": "Varinha",
+    "graduacao_np": -1,
+    "estatistica": "Nulificar Transfiguração à Distância",
+    "pericia": "Combate à Distância: Varinha",
+    "custo_por_graduacao": 2
+  },
+  {
+    "id": "avada_kedavra",
+    "nome": "Avada Kedavra",
+    "categoria": "proibido",
+    "catalogo": "fatais__maldicao_da_morte",
+    "descricao": "[Proibido] Maldição da Morte: raio verde que mata instantaneamente se não for esquivado.",
+    "ano_minimo": 7,
+    "tags": [
+      "proibido",
+      "letal"
+    ],
+    "arranjo": "Varinha",
+    "graduacao_np": 0,
+    "estatistica": "Aflição Letal à Percepção (Vontade/Fortitude; moribundo)",
+    "pericia": "Combate à Distância: Varinha",
+    "so_npc": true
+  },
+  {
+    "id": "crucio",
+    "nome": "Crucio",
+    "categoria": "proibido",
+    "catalogo": "fatais__visao_mortal",
+    "descricao": "[Proibido] Maldição Cruciatus: causa dor física insuportável sem deixar marcas.",
+    "ano_minimo": 7,
+    "tags": [
+      "proibido"
+    ],
+    "arranjo": "Varinha",
+    "graduacao_np": 0,
+    "estatistica": "Aflição Cumulativa à Percepção (Vontade; tonto, atordoado, incapacitado)",
+    "pericia": "Combate à Distância: Varinha",
+    "so_npc": true
+  },
+  {
+    "id": "imperio",
+    "nome": "Imperio",
+    "categoria": "proibido",
+    "catalogo": "mentais__controle_mental",
+    "descricao": "[Proibido] Maldição Imperius: coloca a vítima sob controle total da vontade do conjurador.",
+    "ano_minimo": 7,
+    "tags": [
+      "proibido",
+      "mental"
+    ],
+    "arranjo": "Varinha",
+    "graduacao_np": 0,
+    "estatistica": "Aflição à Percepção (Vontade; transe, compelido, controlado)",
+    "pericia": "Combate à Distância: Varinha",
+    "so_npc": true
+  },
+  {
+    "id": "morsmordre",
+    "nome": "Morsmordre",
+    "categoria": "proibido",
+    "catalogo": "magicos__fantasmas_de_phoros_2",
+    "descricao": "[Proibido] Conjura a Marca Negra nos céus como sinal dos comensais.",
+    "ano_minimo": 7,
+    "tags": [
+      "proibido"
+    ],
+    "arranjo": "Varinha",
+    "graduacao": 3,
+    "estatistica": "Ilusão / Sinal nos céus 3",
+    "so_npc": true
+  },
+  {
+    "id": "aparatacao",
+    "nome": "Aparatação",
+    "categoria": "dom",
+    "catalogo": "de_teleporte__teleporte",
+    "descricao": "Teleporte instantâneo com estalo sonoro (exige licença a partir do 6º/7º ano).",
+    "ano_minimo": 6,
+    "tags": [
+      "movimento"
+    ],
+    "graduacao": 4,
+    "estatistica": "Teleporte 4"
+  }
+]

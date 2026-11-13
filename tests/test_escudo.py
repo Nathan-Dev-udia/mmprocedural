@@ -21,7 +21,7 @@ def _bloco(montado, titulo):
 
 
 def test_todos_os_escudos_tem_estrutura_valida():
-    assert escudo.generos_com_escudo() == ["cthulhu", "cyberpunk", "fantasia", "faroeste"]
+    assert escudo.generos_com_escudo() == ["cthulhu", "cyberpunk", "escola_de_magia", "fantasia", "faroeste"]
     for genero in escudo.generos_com_escudo():
         assert escudo.conferir(escudo.montar(genero, data_loader.carregar_genero(genero))) == []
 
@@ -39,7 +39,7 @@ def test_queda_segue_a_regra_do_livro():
     assert medidas.dano_de_queda(10_000) == 16
 
 
-@pytest.mark.parametrize("genero", ["fantasia", "faroeste", "cthulhu", "cyberpunk"])
+@pytest.mark.parametrize("genero", ["fantasia", "faroeste", "cthulhu", "cyberpunk", "escola_de_magia"])
 def test_tempo_de_viagem_usa_as_velocidades_do_catalogo(genero):
     dados = data_loader.carregar_genero(genero)
     montado_genero = escudo.montar(genero, dados)
@@ -57,6 +57,9 @@ def test_tempo_de_viagem_usa_as_velocidades_do_catalogo(genero):
     elif genero == "cyberpunk":
         # Velocidades fixas do Livro do Mestre (seção 16.1): metrô 3 é 2 horas; carro compacto 5, 30 minutos.
         assert linha_60km[2:6] == ["2 horas", "30 minutos", "15 minutos", "8 minutos"]
+    elif genero == "escola_de_magia":
+        # Vassoura escolar (Velocidade 3) é 2 horas; vassoura de corrida (Velocidade 5) é 30 minutos.
+        assert linha_60km[2:5] == ["2 horas", "1 hora", "30 minutos"]
 
 
 def test_carga_bate_com_o_validador(montado):
@@ -75,7 +78,7 @@ def test_negrito_vira_partes():
     assert escudo.partes_do_texto("**Teste** = d20") == [("Teste", True), (" = d20", False)]
 
 
-@pytest.mark.parametrize("genero", ["fantasia", "faroeste", "cthulhu", "cyberpunk"])
+@pytest.mark.parametrize("genero", ["fantasia", "faroeste", "cthulhu", "cyberpunk", "escola_de_magia"])
 def test_pdf_tem_uma_pagina_por_aba(genero):
     dados = data_loader.carregar_genero(genero)
     montado_genero = escudo.montar(genero, dados)
@@ -86,7 +89,7 @@ def test_pdf_tem_uma_pagina_por_aba(genero):
         assert aba["nome"] in texto
 
 
-@pytest.mark.parametrize("genero", ["fantasia", "faroeste", "cthulhu", "cyberpunk"])
+@pytest.mark.parametrize("genero", ["fantasia", "faroeste", "cthulhu", "cyberpunk", "escola_de_magia"])
 def test_planilha_tem_uma_folha_por_aba(genero):
     dados = data_loader.carregar_genero(genero)
     montado_genero = escudo.montar(genero, dados)
@@ -100,7 +103,7 @@ def test_planilha_tem_uma_folha_por_aba(genero):
 
 def test_pagina_e_download():
     cliente = app.app.test_client()
-    for genero in ("fantasia", "faroeste", "cthulhu", "cyberpunk"):
+    for genero in ("fantasia", "faroeste", "cthulhu", "cyberpunk", "escola_de_magia"):
         pagina = cliente.get(f"/?genero={genero}").get_data(as_text=True)
         assert 'id="aba-escudo"' in pagina and "<strong>Teste</strong>" in pagina
         resposta = cliente.get(f"/escudo/{genero}.pdf")
@@ -163,7 +166,7 @@ def test_regras_gerais_seguem_o_livro_basico(genero):
     assert len(leitor.pages) == len(montado_g["abas"])
 
 
-@pytest.mark.parametrize("genero", ["fantasia", "faroeste", "cthulhu", "cyberpunk"])
+@pytest.mark.parametrize("genero", ["fantasia", "faroeste", "cthulhu", "cyberpunk", "escola_de_magia"])
 def test_letalidade_muda_dano_aflicao_e_recuperacao(genero):
     dados = data_loader.carregar_genero(genero)
     heroica, equilibrada, mortal = (escudo.montar(genero, dados, m) for m in ("heroica", "equilibrada", "mortal"))

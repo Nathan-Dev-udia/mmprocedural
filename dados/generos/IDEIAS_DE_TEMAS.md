@@ -14,7 +14,7 @@ nome, termos e personagens próprios.
 | Tema | Pasta | Inspiração | Reaproveita | Falta | Esforço |
 |----|----|----|----|----|----|
 | Horror moderno com agentes federais | `delta_green/` | Delta Green | Cthulhu inteiro (Sanidade d100, bestiário do Mythos, escudo) | Ocupações e armas modernas, regra de cobertura e burocracia | Baixo |
-| Escola de magia | `escola_de_magia/` | Harry Potter | Magias, arranjos, raças e poções da fantasia | Varinha como requisito, catálogo de feitiços por ano, matérias como perícias | Médio |
+| Escola de magia | `escola_de_magia/` | Harry Potter | **Implementado** (`criar_escola_de_magia_base.py`, escudo com Relacionamentos) | Bestiário e livros do gênero | — |
 | Japão feudal | `samurai/` | Filmes de samurai, Lenda dos Cinco Anéis | Molde realista do faroeste (dano mortal, duelos), armas arcaicas | Honra como trilha, clãs, armas e armaduras japonesas | Médio |
 | Pilotos de mecha contra kaiju | `kaiju/` | Pacific Rim | Livro *Mecha & Mangá* (`referencias/mm/`), bestiário para os kaiju | **Fichas de mecha** (o projeto não tem veículos com ficha), escala de tamanho, ponte neural | Alto |
 | Ópera espacial | `space_opera/` | Star Wars | Raças e magias da fantasia (espécies e a Força), implantes do cyberpunk | **Naves com ficha** (mesmo bloqueio do kaiju), equilíbrio da Força | Alto |

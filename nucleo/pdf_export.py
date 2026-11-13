@@ -490,9 +490,13 @@ def _inserir_imagem_do_personagem(writer, caminho_imagem):
         # 2. Também mescla no conteúdo estático da página (para leitores que desativam formulários interativos)
         tx = x0 + offset_x
         ty = y0 + offset_y
-        img_page = img_reader.pages[0]
-        img_page.add_transformation(pypdf.Transformation().scale(scale, scale).translate(tx, ty))
-        writer.pages[0].merge_page(img_page, over=False)
+        # A transformação é aplicada na mesclagem: alterar a página do leitor direto
+        # (add_transformation) está obsoleto no pypdf e deixa de funcionar no pypdf 7.
+        writer.pages[0].merge_transformed_page(
+            img_reader.pages[0],
+            pypdf.Transformation().scale(scale, scale).translate(tx, ty),
+            over=False,
+        )
     except Exception:
         pass
 

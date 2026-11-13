@@ -124,7 +124,8 @@ def preco_do_implante(dados, implante_id):
 
 def implantes_do_jogador(dados):
     """Poderes do gênero (implantes no cyberpunk) que um PJ pode escolher."""
-    return [i for i in dados.get("poderes_do_genero", {}).values() if not i.get("so_racial")]
+    return [i for i in dados.get("poderes_do_genero", {}).values()
+            if not i.get("so_racial") and not i.get("so_npc")]
 
 
 # ---------------------------------------------------------------- raças (gêneros com "racas" no player.json)
