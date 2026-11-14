@@ -14,32 +14,30 @@
       "Pre": 3
     },
     "poderes": [
-      "Campo de Força Belt: Imunidade 10 (Suporte Vital); Proteção 11, Impenetrável, Affects Others, Contínuo, Removível (-11 pontos) (43 PP)",
-      "Twelfth Level Intelecto: Compreender 3 (Speak and Read Languages); Rapidez 10, Limitado a mental Tasks (11 PP)"
+      "Campo de Força Belt: Imunidade 10 (Suporte Vital); Proteção 11, Impenetrável, Afeta Outros, Contínuo, Removível (-11 pontos) (43 PP)",
+      "Twelfth Level Intelecto: Compreender 3 (Speak e Read Languages); Rapidez 10, Limitado a Mental Tasks (11 PP)"
     ],
     "equipamento": [
-      "Voo Ring: Comunicação 5 (Subspace Rádio, Anywhere, Limitado a Distress Signal, –3 pontos), Voo 7 (400 km/h) (16 PP)",
-      "Mini-Computo: Característica 3 (Computer, Video Recorder, Audio Recorder); Compreender 1 (Machines) (5 PP)",
-      "Telepathic Earplug: Compreender 3 (Languages), mental Comunicação 1 (Corpo a Corpo Range) (7 PP)"
+      "Voo Ring: Comunicação 5 (Subspace Rádio, Anywhere, Limitado a Distress Signal, -3 pontos), Voo 7 (400 km/h) (16 PP)",
+      "Mini-Computo: Característica 3 (Computer, Video Recorder, Audio Recorder); Compreender 1 (Máquinas) (5 PP)",
+      "Telepathic Earplug: Compreender 3 (Languages), Comunicação Mental 1 (Alcance Perto) (7 PP)"
     ],
     "vantagens": [
       "Avaliação",
-      "Beginner’s Luck",
-      "Benefit 1 (Legion membership)",
+      "Sorte de Principiante",
+      "Benefício 1 (Legion membership)",
       "Ataque Defensivo",
       "Memória Eidética",
       "Equipamento 6",
       "Iniciativa Aprimorada",
-      "Ferramentas Improvisadas",
+      "Ferramentas Aprimoradas",
       "Inventor",
-      "Pau pra Toda Obra",
-      "Preparar",
-      "Skill Mastery 2 (Expertise: Science",
-      "Technology)",
-      "Provocar",
-      "Ultimate Effort 2 (Expertise: Science",
-      "Technology)",
-      "Bem-Informado"
+      "Faz Tudo",
+      "Armação",
+      "Maestria em Perícia 2 (Especialidade: Ciência, Tecnologia)",
+      "Zombar",
+      "Esforço Supremo 2 (Especialidade: Ciência, Tecnologia)",
+      "Bem Informado"
     ],
     "pericias": [
       {
@@ -63,12 +61,12 @@
         "total": 18
       },
       {
-        "nome": "Especialidade: Medicine",
+        "nome": "Especialidade: Medicina",
         "graduacoes": 5,
         "total": 18
       },
       {
-        "nome": "Especialidade: Science",
+        "nome": "Especialidade: Ciência",
         "graduacoes": 7,
         "total": 20
       },
@@ -131,15 +129,15 @@
     "complicacoes": [
       {
         "titulo": "Arrogance",
-        "texto": "Brainiac 5 is condescending towards and often dismissive of people of lesser Intelecto."
+        "texto": "Brainiac 5 is condescending towards e often dismissive of people of lesser Intelecto."
       },
       {
         "titulo": "Guilt by Association",
-        "texto": "Brainiac 5 seeks to redeem the name of Brainiac and atone for the actions of the villains to bear the name."
+        "texto": "Brainiac 5 seeks to redeem the name of Brainiac e atone for the actions of the villains to bear the name."
       },
       {
         "titulo": "Instability",
-        "texto": "Brainiac 5 is prone to bouts of temporary insanity and mental breakdowns. These can occur due to extreme stress or from outside influence."
+        "texto": "Brainiac 5 is Caído to bouts of temporary insanity e mental breakdowns. These can occur due to extreme stress or from outside influence."
       }
     ]
   },

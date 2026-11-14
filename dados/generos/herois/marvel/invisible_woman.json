@@ -55,7 +55,7 @@
     "poderes": [
       {
         "nome": "Force Field",
-        "construcao_3e": "Campo de Força 13 dinâmico (Área Moldável, Impenetrável 13; 40 PP); Array Dinâmico com Rajada de Força 12 (2 PP), Criar Barreiras de Força 14 Móvel (2 PP), Escudo Defensivo (2 PP) e Efeitos de Proteção Expandidos (27 PP) = 73 PP.",
+        "construcao_3e": "Campo de Força 13 dinâmico (Área Moldável, Impenetrável 13; 40 PP); Arranjo Dinâmico com Rajada de Força 12 (2 PP), Criar Barreiras de Força 14 Móvel (2 PP), Escudo Defensivo (2 PP) e Efeitos de Proteção Expandidos (27 PP) = 73 PP.",
         "custo_2e_pp": 73,
         "custo_3e_pp": 73,
         "nome_pt": "Campos de Força Psíquicos"

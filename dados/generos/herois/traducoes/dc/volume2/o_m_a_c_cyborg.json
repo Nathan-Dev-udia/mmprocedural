@@ -14,7 +14,7 @@
       "Pre": 0
     },
     "poderes": [
-      "keyed to their opponents’ weaknesses. Even if they are lower power level than an oppo- nent, keep in mind O.M.A.C.s almost always operate in large groups capable of overwhelming most opposition. In spite of their considerable Powers, within each O.M.A.C. is an otherwise ordinary human being, unwittingly Transformado and under the influence of outside programming and the Brother Eye artificial intelligence. This may give heroic oppo - nents pause, unwilling to use potentially lethal force against innocent people (and earning the characters hero pontos for the complication and their restraint). Heroes & V Heroes & V I I lla lla I I ns, Vol. 2 ns, Vol. 2 Heroes & VIllaIns, Vol. 2 178.76.175.224"
+      "keyed to their opponents’ weaknesses. Even if they are lower Poder level than an oppo- nent, keep in mind O.M.A.C.s almost always operate in large groups capable of overwhelming most opposition. In spite of their considerable Poderes, within each O.M.A.C. is an otherwise ordinary human being, unwittingly Transformado e under the influence of outside programming e the Brother Eye artificial intelligence. This may give heroic oppo - nents pause, unwilling to use potentially lethal force contra innocent people (e earning the characters hero pontos for the complication e their restraint). Heroes & V Heroes & V I I lla lla I I ns, Vol. 2 ns, Vol. 2 Heroes & VIllaIns, Vol. 2 178.76.175.224"
     ],
     "equipamento": [],
     "vantagens": [
@@ -36,11 +36,25 @@
         "total": 14
       }
     ],
-    "iniciativa": 0,
-    "ataques": [],
+    "iniciativa": 1,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 9,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 9"
+      },
+      {
+        "nome": "Various Poderes",
+        "bonus": 9,
+        "alcance": "À distância",
+        "dano": "Dano Varies"
+      }
+    ],
     "defesas": {
       "Esquiva": 10,
       "Aparar": 10,
+      "Fortitude": null,
       "Resistência": 11,
       "Vontade": 11
     },

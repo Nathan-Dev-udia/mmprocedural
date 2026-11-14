@@ -14,26 +14,24 @@
       "Pre": 1
     },
     "poderes": [
-      "Hard Light Field: À Distância Proteção 12, Affects Others, Impenetrável, Sustentado (48 PP)",
-      "Light Wave Rider: Voo 6 (192 km/h) (12 PP)",
-      "Starlight Energy: Dynamic Arranjo (28 pontos)",
-      "• Hard Light Raio: Dano à Distância 14, Dynamic (29 PP)",
-      "• Hard Light Burst: Área de Explosão Dano à Distância 9, Dynamic (2 PP)",
-      "• Holograms: Visual Ilusão 9, Independent, Dynamic (2 PP)",
-      "• Invisibility: Visual Camuflagem 4 (All), Limitado a Vision, Dynamic (2 PP)",
-      "• Laser Beam: Área de Linha Dano 11, Preciso, Ricochete, Dynamic (2 PP)",
-      "• Light Constructs: Criar Objetos 9, Moveable, Sutil, Dynamic (2 PP)",
-      "• Lighting: Environment 14 (Light, 2 pontos per graduação), Dynamic (2 PP)",
-      "• Phasing: Intangibilidade 3, Concentração, Dynamic (2 PP)",
-      "• Starlight Flash: Área de Explosão Aflição à Distância 9 (resistido por Esquiva; Vision Impaired, Vision Disabled, Vision Debilitated), Dynamic (2 PP)"
+      "Hard Luz Field: À Distância Proteção 12, Afeta Outros, Impenetrável, Sustentado (48 PP)",
+      "Luz Wave Rider: Voo 6 (192 km/h) (12 PP)",
+      "Starlight Energia: Arranjo Dinâmico (28 pontos)",
+      "• Hard Luz Raio: Dano à Distância 14, Dinâmico (29 PP)",
+      "• Hard Luz Estouro: Área de Explosão Dano à Distância 9, Dinâmico (2 PP)",
+      "• Holograms: Visual Ilusão 9, Independent, Dinâmico (2 PP)",
+      "• Invisibility: Visual Camuflagem 4 (All), Limitado a Visão, Dinâmico (2 PP)",
+      "• Laser Beam: Área de Linha Dano 11, Preciso, Ricochete, Dinâmico (2 PP)",
+      "• Luz Constructs: Criar Objetos 9, Moveable, Sutil, Dinâmico (2 PP)",
+      "• Lighting: Ambiente 14 (Luz, 2 pontos per graduação), Dinâmico (2 PP)",
+      "• Phasing: Intangibilidade 3, Concentração, Dinâmico (2 PP)",
+      "• Starlight Flash: Área de Explosão Aflição à Distância 9 (resistido por Esquiva; Visão Prejudicado, Visão Desabilitado, Visão Debilitado), Dinâmico (2 PP)"
     ],
     "equipamento": [],
     "vantagens": [
-      "Conectado",
-      "Languages (English",
-      "Japanese is native)",
-      "Skill Mastery 2 (Expertise: Astronomy",
-      "Science)"
+      "Bem Relacionado",
+      "Idiomas (Inglês, Japonês is native)",
+      "Maestria em Perícia 2 (Especialidade: Astronomia, Ciência)"
     ],
     "pericias": [
       {
@@ -47,7 +45,7 @@
         "total": 7
       },
       {
-        "nome": "Especialidade: Science",
+        "nome": "Especialidade: Ciência",
         "graduacoes": 3,
         "total": 7
       },
@@ -62,7 +60,7 @@
         "total": 2
       },
       {
-        "nome": "Combate à Distância: Starlight Energy",
+        "nome": "Combate à Distância: Starlight Energia",
         "graduacoes": 4,
         "total": 8
       },
@@ -78,7 +76,26 @@
       }
     ],
     "iniciativa": 3,
-    "ataques": [],
+    "ataques": [
+      {
+        "nome": "Starlight Flash",
+        "bonus": null,
+        "alcance": "À distância",
+        "dano": "Área de Explosão Aflição 9, resistido por Esquiva Hard Luz Raio +8 À Distância, Dano 14"
+      },
+      {
+        "nome": "Hard Luz Estouro",
+        "bonus": null,
+        "alcance": "À distância",
+        "dano": "Área de Explosão Dano 9"
+      },
+      {
+        "nome": "Laser Beam",
+        "bonus": null,
+        "alcance": "Corpo a corpo",
+        "dano": "Área de Linha Dano 11"
+      }
+    ],
     "defesas": {
       "Esquiva": 7,
       "Fortitude": 8,
@@ -86,7 +103,7 @@
       "Resistência": 15,
       "Vontade": 9
     },
-    "observacao_defesas": "* Vontade 9 *Without Hard Light Field.",
+    "observacao_defesas": "* Vontade 9 *sem Hard Luz Field.",
     "custos": {
       "Habilidades": 38,
       "Perícias": 11,
@@ -98,11 +115,11 @@
     "complicacoes": [
       {
         "titulo": "Nyctophobia",
-        "texto": "Doctor Light is afraid of the dark (or, more specifically, what can happen under such conditions)."
+        "texto": "Doctor Luz is afraid of the dark (or, more specifically, what can happen under such conditions)."
       },
       {
         "titulo": "Starlight Conduit",
-        "texto": "Doctor Light draws energy through her connection to the distant star, Vega, in order to fuel her Powers. Others have been able to manipulate this conduit against Light’s Vontade, drawing energy from Vega through her. If the starlight connection is blocked or severed, Doctor Light’s Powers require ambient light to function. In such instances, her Powers suffer a Weakness effect and won’t work in Total darkness. The Gamemaster determines the effect’s graduação, as suits lighting levels."
+        "texto": "Doctor Luz draws Energia through her connection to the distant star, Vega, in order to fuel her Poderes. Others have been able to manipulate this conduit contra Luz’s Vontade, Desenho Energia from Vega through her. If the starlight connection is blocked or severed, Doctor Luz’s Poderes require ambient Luz to function. In such instances, her Poderes suffer a Weakness effect e won’t work in Total Escuridão. The Gamemaster determines the effect’s graduação, as suits lighting levels."
       }
     ]
   },

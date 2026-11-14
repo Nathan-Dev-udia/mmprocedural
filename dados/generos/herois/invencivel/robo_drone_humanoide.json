@@ -26,11 +26,12 @@
       "Vontade": "Imune"
     },
     "pericias": {
-      "Combate Corpo-a-corpo: Desarme": 5
+      "Combate Corpo-a-corpo: Desarme": 5,
+      "Percepção": 11
     },
     "pericias_detalhes": [
       "Combate Corpo-a-corpo: Desarme 5 (+14)",
-      "Percepção 11\\"
+      "Percepção 11"
     ],
     "vantagens": [
       "Ação em Movimento",
@@ -42,9 +43,9 @@
     ],
     "poderes": [
       "**Drone Robô**: Imunidade 30 (Efeitos de Fortitude), Proteção 12 (**Extras**: Impenetrável 9); 51 pontos",
-      "**Sensores**: Sentidos 6 (Detectar Ondas de Rádio, Elo de Comunicação \\[com Rudolph\\], Infravisão, Rádio, Visão \\[Estendida, Rápido\\]); 6 pontos",
-      "**Lasers**: Dano 8 (**Extras**: Distância Aumentada \\+1 \\[A Distância\\]); 16 pontos",
-      "**Voo** 8 (2 km/mov \\- 1.000 km/h); 16 pontos"
+      "**Sensores**: Sentidos 6 (Detectar Ondas de Rádio, Elo de Comunicação [com Rudolph], Infravisão, Rádio, Visão [Estendida, Rápido]); 6 pontos",
+      "**Lasers**: Dano 8 (**Extras**: Distância Aumentada +1 [A Distância]); 16 pontos",
+      "**Voo** 8 (2 km/mov - 1.000 km/h); 16 pontos"
     ],
     "equipamento": [],
     "iniciativa": 2,

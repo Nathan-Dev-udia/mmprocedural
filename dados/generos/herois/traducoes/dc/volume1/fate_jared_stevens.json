@@ -14,14 +14,14 @@
       "Pre": 2
     },
     "poderes": [
-      "Vigor Aprimorado 5 ; Força Aprimorada 5 ; Imunidade 10 (mágico Effects); Proteção 3 ; Regeneração 7 ; True Sight (Sentidos 8: Analítico Vision, Vision Counters All Camuflagem, Vision Counters Ilusão) Weapons (Arranjo (15 pontos), Removível (-3 pontos), Ankh Daggers ( Alcance de Percepção Dano 5), AE: Longblade (Força-based Dano 3, Penetrante 10))"
+      "Vigor Aprimorado 5 ; Força Aprimorada 5 ; Imunidade 10 (Magia Efeitos); Proteção 3 ; Regeneração 7 ; True Visão (Sentidos 8: Analítico Visão, Visão Counters All Camuflagem, Visão Counters Ilusão) Weapons (Arranjo (15 pontos), Removível (-3 pontos), Ankh Daggers ( Alcance de Percepção Dano 5), AE: Longblade (Força-based Dano 3, Penetrante 10))"
     ],
     "equipamento": [],
     "vantagens": [
       "Ataque Corpo-a-Corpo 3",
-      "Grande Vigor",
-      "Improved Critical 2 (Blades)",
-      "Pau pra Toda Obra",
+      "Tolerância Maior",
+      "Crítico Aprimorado 2 (Lâminas)",
+      "Faz Tudo",
       "Ritualista",
       "Tomar a Iniciativa",
       "Esquiva Fabulosa",
@@ -49,7 +49,7 @@
         "total": 10
       },
       {
-        "nome": "Especialidade: mágico",
+        "nome": "Especialidade: Magia",
         "graduacoes": 6,
         "total": 8
       },
@@ -102,7 +102,7 @@
         "nome": "Longblade",
         "bonus": 10,
         "alcance": "",
-        "dano": "Dano 10, Crit. 18-20"
+        "dano": "Dano 10, Crít. 18-20"
       }
     ],
     "defesas": {
@@ -120,15 +120,15 @@
       "Perícias": 32,
       "Defesas": 20
     },
-    "total": null,
+    "total": 174,
     "complicacoes": [
       {
         "titulo": "Inimigos",
-        "texto": "Stevens inherited many enemies due to his role as an agent of balance and his possession of the Fate artifacts."
+        "texto": "Stevens inherited many enemies due to his role as an agent of balance e his possession of the Fate artifacts."
       },
       {
         "titulo": "Persistent Damage",
-        "texto": "Stevens was injured during his early adventures and only the Cura properties channeled through the Cloak of Destiny (Doctor Fate’s cape)— Transformado into the wraps around his arm—keeps his injuries from progressing and killing him). after Kingdom’s agents killed Kent and Inza Nelson. A reluc - tant hero at best, Stevens chose to modify the raiments of Fate for his own use, melting the helmet and amulets down and reforging them as bladed weapons, while internalizing several of their Powers. Stevens had a short and troubled tenure in his role as an agent of balance between Order and Chaos. He was murdered by Mordru during the Dark Lord’s quest to steal the artifacts and prevent the rebirth of Doctor Fate in the form of Hector Hall."
+        "texto": "Stevens was injured during his early adventures e Apenas the Cura properties channeled through the Cloak of Destiny (Doctor Fate’s cape)— Transformado into the wraps around his arm—keeps his injuries from progressing e killing him). after Kingdom’s agents killed Kent e Inza Nelson. A reluc - tant hero at best, Stevens chose to modify the raiments of Fate for his own use, melting the helmet e amulets down e reforging them as bladed weapons, while internalizing several of their Poderes. Stevens had a short e troubled tenure in his role as an agent of balance between Order e Chaos. He was murdered by Mordru during the Dark Lord’s quest to steal the artifacts e prevent the rebirth of Doctor Fate in the form of Hector Hall."
       }
     ]
   },

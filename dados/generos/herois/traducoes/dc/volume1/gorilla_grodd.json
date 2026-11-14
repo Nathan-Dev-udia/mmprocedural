@@ -14,18 +14,18 @@
       "Pre": 3
     },
     "poderes": [
-      "Ape Sentidos: Sentidos 2 (Visão na Penumbra, Aguçado Smell) (2 PP)",
+      "Ape Sentidos: Sentidos 2 (Visão na Penumbra, Aguçado Olfato) (2 PP)",
       "Force of Mind: Alcance de Percepção Mover Objetos 5, Sutil 2 (17 PP)",
-      "Prehensile Feet: Característica 1 (May use feet as hands) (1 PP)",
+      "Prehensile pés: Característica 1 (May use pés as hands) (1 PP)",
       "Telepatia: Arranjo (25 pontos)",
-      "• Leitura mental 12: Sutil (25 PP)",
-      "• Controle mental: Alcance de Percepção Aflição 8 (resistido por Vontade; Tonto, Compelido, Controlado), Sutil (1 PP)",
-      "• Thought Projection: área mental Comunicação 5 (1 PP)"
+      "• Leitura Mental 12: Sutil (25 PP)",
+      "• Controle Mental: Alcance de Percepção Aflição 8 (resistido por Vontade; Tonto, Compelido, Controlado), Sutil (1 PP)",
+      "• Thought Projection: área Comunicação Mental 5 (1 PP)"
     ],
     "equipamento": [],
     "vantagens": [
       "Ataque Imprudente",
-      "Benefit 1 (Ambidexterity)",
+      "Benefício 1 (Ambidestria)",
       "Rolamento Defensivo 3",
       "Agarrar Rápido",
       "Inventor"
@@ -93,7 +93,13 @@
         "nome": "Desarmado",
         "bonus": 13,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 9 Controle mental — Alcance de Percepção, Aflição 8, resistido por Vontade"
+        "dano": "Dano 9"
+      },
+      {
+        "nome": "Controle Mental",
+        "bonus": null,
+        "alcance": "Percepção",
+        "dano": "Aflição 8, resistido por Vontade"
       }
     ],
     "defesas": {
@@ -115,15 +121,15 @@
     "complicacoes": [
       {
         "titulo": "Ódio",
-        "texto": "Grodd has sworn revenge against Gorilla City and the Flash for past slights."
+        "texto": "Grodd has sworn revenge contra Gorilla City e the Flash for past slights."
       },
       {
         "titulo": "Obsessão",
-        "texto": "With extending his influence over the world."
+        "texto": "com extending his influence over the world."
       },
       {
         "titulo": "Preconceito",
-        "texto": "Grodd considers simians far superior to “primitive” humans. ENEMIES Grodd’s two greatest enemies are Solovar and the Flash (Barry Allen). He Vontade go to any length to remove them as obstacles to his plans. He also reserves a particular venge - ful streak for Gorilla City for his treatment over the years. In cooperation with other villains, Grodd has come up against diverse heroes, including most of the members of the Jus - tice League."
+        "texto": "Grodd considers simians far superior to “primitive” humans. ENEMIES Grodd’s two greatest enemies are Solovar e the Flash (Barry Allen). He Vontade go to any length to remove them as obstacles to his plans. He also reserves a particular venge - ful streak for Gorilla City for his Tratamento over the years. In cooperation com other villains, Grodd has come up contra diverse heroes, including most of the members of the Jus - tice League."
       }
     ]
   },

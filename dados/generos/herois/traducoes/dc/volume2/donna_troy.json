@@ -14,28 +14,22 @@
       "Pre": 4
     },
     "poderes": [
-      "58 Defenses 17"
+      "58 Defesas 17"
     ],
     "equipamento": [],
     "vantagens": [
-      "2 Total 223 Co MPL i C tion S a a maz on f ur y: Troy is a trained warrior and directs her fury into combat. Sometimes her temper gets away from her. d ifficult P ast: Sometimes Donna’s past is unclear even to her. Multiversal n e xus: Troy is a bridge between different worlds",
+      "2 Total 223 Co MPL i C tion S a a maz on f ur y: Troy is a trained warrior and directs her fury into combat. Sometimes her temper gets away from her. d ifficult P ast: Sometimes Donna's past is unclear even to her. Multiversal n e xus: Troy is a bridge between different worlds",
       "which often pulls her into the middle of important",
-      "world- changing conflicts."
+      "world-changing conflicts."
     ],
     "pericias": [],
     "iniciativa": 8,
     "ataques": [
       {
-        "nome": "mágico Lasso",
-        "bonus": 11,
-        "alcance": "À distância",
-        "dano": "Aflição 15, resistido por Vontade (CD 25), Grab +15"
-      },
-      {
-        "nome": "Desarmado",
-        "bonus": 11,
-        "alcance": "Corpo a corpo",
-        "dano": "Dano 15"
+        "nome": "Magia Lasso +11 À Distância, Aflição 15, resistido por Vontade",
+        "bonus": null,
+        "alcance": "",
+        "dano": "CD 25"
       }
     ],
     "defesas": {
@@ -46,7 +40,9 @@
       "Vontade": 13
     },
     "observacao_defesas": "",
-    "custos": {},
+    "custos": {
+      "Habilidades": 122
+    },
     "total": null,
     "complicacoes": []
   },

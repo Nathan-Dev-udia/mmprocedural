@@ -22,20 +22,20 @@
       "k atar ( l ong Dagger): Força-based Dano 2 (2 PP)"
     ],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Avaliação",
       "Estrangular",
       "Ataque Corpo-a-Corpo 2",
       "Ataque Defensivo",
       "Rolamento Defensivo 3",
       "Equipamento 3",
-      "Grande Vigor",
+      "Tolerância Maior",
       "Iniciativa Aprimorada",
-      "Levantar Rápido",
+      "De Pé",
       "Ataque Poderoso",
-      "Precise Attack (à distância; Concealment)",
+      "Ataque Preciso (À Distância; Camuflagem)",
       "Ataque à Distância 7",
-      "Derrubar em Sequência",
+      "Ataque Dominó",
       "Maestria em Arremesso 2",
       "Rastrear"
     ],
@@ -140,9 +140,15 @@
       "Resistência": 6,
       "Vontade": 8
     },
-    "observacao_defesas": "* Vontade 8 * sem Rolamento Defensivo. p s ower p oin T Abilities 62 Skills 25 Powers 3 Defenses 20 Advantages 28 Total 138",
-    "custos": {},
-    "total": null,
+    "observacao_defesas": "* Vontade 8 * sem Rolamento Defensivo. p s ower p oin T Habilidades 62 Perícias 25 Poderes 3 Defesas 20 Vantagens 28 Total 138",
+    "custos": {
+      "Habilidades": 62,
+      "Perícias": 25,
+      "Poderes": 3,
+      "Defesas": 20,
+      "Vantagens": 28
+    },
+    "total": 138,
     "complicacoes": [
       {
         "titulo": "Honra",
@@ -150,7 +156,7 @@
       },
       {
         "titulo": "Ganância",
-        "texto": "Manhunter is in the hero business to make money … as long as that goal doesn’t conflict with his sense of honor."
+        "texto": "Manhunter is in the hero Negócios to make money … as long as that goal doesn’t conflict com his sense of honor."
       }
     ]
   },

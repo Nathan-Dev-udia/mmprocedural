@@ -14,20 +14,20 @@
       "Pre": 2
     },
     "poderes": [
-      "Technological mágico: Arranjo (56 pontos)",
-      "• Mind over Matter: Mover Objetos 11, Damaging, Perception área, Alcance de Percepção, Preciso (56 PP)",
-      "• Disappearing Act: Teleporte 11, Preciso, Easy, Extended, Increased Mass (1 PP)",
+      "Technological Magia: Arranjo (56 pontos)",
+      "• Mind over Matter: Mover Objetos 11, Damaging, Percepção área, Alcance de Percepção, Preciso (56 PP)",
+      "• Disappearing Act: Teleporte 11, Acurado, Easy, Estendido, Increased Mass (1 PP)",
       "• Hypno-Ray: Aflição 11 (resistido por Vontade; Tonto, Compelido, Controlado), Área de Cone, Cumulativo, Alcance de Percepção, Reversível (1 PP)",
       "• Nanotechnological Transformation: Aflição 11 (resistido por Fortitude; Impedido, Imóvel, Transformado), Alcance de Percepção, Progressivo, Reversível (1 PP)",
-      "• Nanotechnological Transmutation: Transform 8 (solids into other solids), Contínuo, Alcance de Percepção (1 PP)",
-      "• Teleporte Ray: Teleporte 11, Attack (resistido por Esquiva), Extended, Increased Mass, Alcance de Percepção (1 PP)"
+      "• Nanotechnological Transmutation: Transformar 8 (solids into other solids), Contínuo, Alcance de Percepção (1 PP)",
+      "• Teleporte Ray: Teleporte 11, Attack (resistido por Esquiva), Estendido, Increased Mass, Alcance de Percepção (1 PP)"
     ],
     "equipamento": [],
     "vantagens": [
       "Tontear (Enganação)",
       "Rolamento Defensivo 3",
       "Fascinar (Enganação)",
-      "Ferramentas Improvisadas",
+      "Ferramentas Aprimoradas",
       "Inventor"
     ],
     "pericias": [
@@ -37,12 +37,12 @@
         "total": 8
       },
       {
-        "nome": "Especialidade: Science",
+        "nome": "Especialidade: Ciência",
         "graduacoes": 15,
         "total": 19
       },
       {
-        "nome": "Especialidade: Stage mágico",
+        "nome": "Especialidade: Stage Magia",
         "graduacoes": 10,
         "total": 14
       },
@@ -75,6 +75,12 @@
     "iniciativa": 1,
     "ataques": [
       {
+        "nome": "Technological Magia",
+        "bonus": null,
+        "alcance": "",
+        "dano": "Percepção, Mover Objetos 11, others"
+      },
+      {
         "nome": "Desarmado",
         "bonus": 2,
         "alcance": "Corpo a corpo",
@@ -100,11 +106,11 @@
     "complicacoes": [
       {
         "titulo": "Perda de Poder",
-        "texto": "Kadabra derives his Powers from sub-dermal implants acquired in his native future era. Authorities with sufficient know-how (like Iron Heights wardens) can remove them, leaving Kadabra without Powers."
+        "texto": "Kadabra derives his Poderes from sub-dermal implants acquired in his native future era. Authorities com sufficient know-how (like Iron Heights wardens) can remove them, leaving Kadabra sem Poderes."
       },
       {
         "titulo": "Recognition",
-        "texto": "Kadabra sometimes acts out of greed or revenge, but the common element in all of his schemes is his insane, ruthless craving for applause and attention. His actions are often showy, even when subtlety is needed."
+        "texto": "Kadabra sometimes acts out of greed or revenge, but the common element in all of his schemes is his insane, ruthless craving for applause e attention. His actions are often showy, even when subtlety is needed."
       }
     ]
   },

@@ -14,23 +14,22 @@
       "Pre": 2
     },
     "poderes": [
-      "Energy Raio: Dano à Distância 16, Variável Descriptor (any energy) (34 PP)",
+      "Energia Raio: Dano à Distância 16, Variável Descriptor (any Energia) (34 PP)",
       "Voo: Arranjo (30 pontos)",
-      "• Voo: Voo 15 (64,0 km/h) (30 PP)",
-      "• Space Voo: Movimento 1 (Space Travel) (1 PP)",
-      "• Velocidade: Velocidade 15 (64,0 km/h) (1 PP)",
+      "• Voo: Voo 15 (102.400 km/h) (30 PP)",
+      "• Space Voo: Movimento 1 (Viagem Espacial) (1 PP)",
+      "• Velocidade: Velocidade 15 (102.400 km/h) (1 PP)",
       "Invulnerability: Proteção 4; Resistência Impenetrável 18; Imunidade 5 (Frio, Calor, Pressão, Radiação, Vácuo) (27 PP)",
-      "Super-Sentidos: Sentidos 15 (Aguçado and Audição Estendida, Detect 2 (extradimensional beings, mental), Detect 2 (extradimensional gateways, mental), Visão Estendida 3, Infravisão, Visão Microscópica 4, Ultra-Audição, Vision Penetrates Camuflagem (except lead)) (19 PP)",
+      "Super-Sentidos: Sentidos 15 (Aguçado e Audição Estendida, Detectar 2 (extradimensional beings, mental), Detectar 2 (extradimensional gateways, mental), Visão Estendida 3, Infravisão, Visão Microscópica 4, Ultra-Audição, Visão Penetrates Camuflagem (except lead)) (19 PP)",
       "Super-Velocidade: Rapidez 12, Limitado a mental tasks 4 (10 PP)",
-      "Super-Força: Força Aprimorada 4, Limitado a Lifting (Lifting Str 23: 200,000 tons) (4 PP)"
+      "Super-Força: Força Aprimorada 4, Limitado a Lifting (Lifting Str 23: 200,000 toneladas) (4 PP)"
     ],
     "equipamento": [],
     "vantagens": [
       "Duro de Matar",
       "Memória Eidética",
       "Esforço Extraordinário",
-      "Languages (Kryptonian",
-      "English native)",
+      "Idiomas (Kryptonian, Inglês native)",
       "Ataque Poderoso",
       "Tomar a Iniciativa",
       "Esforço Supremo (Resistência)"
@@ -52,7 +51,7 @@
         "total": 12
       },
       {
-        "nome": "Combate à Distância: Energy Blasts",
+        "nome": "Combate à Distância: Energia Blasts",
         "graduacoes": 8,
         "total": 10
       },
@@ -70,7 +69,7 @@
     "iniciativa": 2,
     "ataques": [
       {
-        "nome": "Energy Raio",
+        "nome": "Energia Raio",
         "bonus": 10,
         "alcance": "À distância",
         "dano": "Dano 16"
@@ -101,19 +100,19 @@
     "complicacoes": [
       {
         "titulo": "Obsessed",
-        "texto": "Eradicator is obsessed with preserving the culture and knowledge of the planet Krypton, no matter how little of it remains."
+        "texto": "Eradicator is obsessed com preserving the culture e knowledge of the planet Krypton, no matter how little of it remains."
       },
       {
         "titulo": "Perda de Poder",
-        "texto": "Eradicator loses his Powers under a red sun. Other effects draining or interfering with the energies of the yellow sun can deprive him of his Energy Raio, Voo, Super-Sentidos, Super-Velocidade, and Super-Força."
+        "texto": "Eradicator loses his Poderes under a red sun. Other Efeitos draining or interfering com the energies of the yellow sun can deprive him of his Energia Raio, Voo, Super-Sentidos, Super-Velocidade, e Super-Força."
       },
       {
         "titulo": "Vulnerability",
-        "texto": "Eradicator is as Vulnerável to mágico as anyone else. His Resistência is not Impenetrável against magical attacks."
+        "texto": "Eradicator is as Vulnerável to Magia as anyone else. His Resistência is not Impenetrável contra Mágico attacks."
       },
       {
         "titulo": "Fraqueza",
-        "texto": "Eradicator has a weakness to kryptonite, the radioactive remains of the planet Krypton. Kryptonite comes in a number of forms. Green kryptonite is by far the most common. Its Radiação saps his Força, Voo, Super-Sentidos, Super-Velocidade, and Super-Força, leaving him impaired, disabled, and eventually debilitated in terms of Força and power effects. Long-term exposure (usually a matter of minutes, less for a large enough amount) imposes the Moribundo condition and may lead to death. PERSONALITY The Eradicator is a Frio and dispassionate being, most often ruled by logic and his directive of preserving Kryptonian cul - ture and heritage. At times, David Connor’s personality has become dominant, giving the Eradicator a more human-like and emotional countenance. Powers & Abilities The Eradicator possesses all the Powers and Abilities of a Kryptonian exposed to yellow sun Radiação. In addition, he is able to manipulate energy to produce various types of blasts, possesses a vast computer Intelecto, and is able to detect in - terdimensional beings and gateways. ALLIES The Eradicator has been allied with the Outsiders on occa - sion, and is considered part of Superman’s extended family. ENEMIES The Eradicator has at times directly opposed Superman."
+        "texto": "Eradicator has a weakness to kryptonite, the radioactive remains of the planet Krypton. Kryptonite comes in a number of forms. Green kryptonite is by far the most common. Its Radiação saps his Força, Voo, Super-Sentidos, Super-Velocidade, e Super-Força, leaving him Prejudicado, Desabilitado, e eventually Debilitado in terms of Força e Poder Efeitos. Long-term exposure (usually a matter of minutes, less for a large enough amount) imposes the Moribundo condition e may lead to death. PERSONALITY The Eradicator is a Frio e dispassionate being, most often ruled by logic e his directive of preserving Kryptonian cul - ture e heritage. At times, David Connor’s personality has become dominant, giving the Eradicator a more human-like e emotional countenance. Poderes & Habilidades The Eradicator possesses all the Poderes e Habilidades of a Kryptonian exposed to yellow sun Radiação. In addition, he is able to manipulate Energia to produce various types of blasts, possesses a vast computer Intelecto, e is able to Detectar in - terdimensional beings e gateways. ALLIES The Eradicator has been allied com the Outsiders on occa - sion, e is considered part of Superman’s Estendido family. ENEMIES The Eradicator has at times directly opposed Superman."
       }
     ]
   },

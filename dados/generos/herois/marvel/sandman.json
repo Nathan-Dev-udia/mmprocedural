@@ -60,21 +60,21 @@
       },
       {
         "nome": "Enhanced Strength 14",
-        "construcao_3e": "Característica Aprimorada: Força 7 (para elevar o valor base 3 ao valor final 10); Linked to Alternate Form.",
+        "construcao_3e": "Característica Aprimorada: Força 7 (para elevar o valor base 3 ao valor final 10); Ligado a Alternate Form.",
         "custo_2e_pp": 14,
         "custo_3e_pp": 14,
         "nome_pt": "Força Aumentada 14"
       },
       {
         "nome": "Protection 10",
-        "construcao_3e": "Proteção 10; Linked to Alternate Form.",
+        "construcao_3e": "Proteção 10; Ligado a Alternate Form.",
         "custo_2e_pp": 10,
         "custo_3e_pp": 10,
         "nome_pt": "Proteção 10"
       },
       {
         "nome": "Super-Strength 3",
-        "construcao_3e": "Power-Lifting 3; Linked to Alternate Form.",
+        "construcao_3e": "Levantamento de Peso 3; Ligado a Alternate Form.",
         "custo_2e_pp": 6,
         "custo_3e_pp": 3,
         "nome_pt": "Super-Força 3"

@@ -15,17 +15,17 @@
     },
     "poderes": [
       "Frictionless Aura: Imunidade 1 (Friction Calor) (1 PP)",
-      "Run On Water: Movimento 1 (Water Walking), Limitado a While Moving (1 PP)",
-      "Run Up Walls: Movimento 2 (Wall-crawling 2), Limitado a While Moving (2 PP)",
+      "Run On Water: Movimento 1 (Andar na Água), Limitado a Enquanto se Move (1 PP)",
+      "Run Up Walls: Movimento 2 (Escalar Paredes 2), Limitado a Enquanto se Move (2 PP)",
       "Velocidade Force Costume: Característica 1 (1 PP)",
-      "Super-Velocidade: Enhanced Defense 24 (Esquiva 12, Aparar 12), Enhanced Advantage (Agile Feint, Corpo a Corpo Attack 4, Defensive Roll 5, Evasion 2, Improved Iniciativa 10, Interpose, Instant Up, Move-by Action, Seize Iniciativa, Takedown), Rapidez 20, Velocidade 20 (2,000,0 km/h) (91 PP)",
+      "Super-Velocidade: Defesa Aprimorada 24 (Esquiva 12, Aparar 12), Vantagem Aprimorada (Finta Ágil, Ataque Corpo-a-Corpo 4, Rolamento Defensivo 5, Evasão 2, Iniciativa Aprimorada 10, Interpor-se, De Pé, Ação em Movimento, Tomar a Iniciativa, Ataque Dominó), Rapidez 20, Velocidade 20 (3.200.000 km/h) (91 PP)",
       "Super-Velocidade Stunts: Arranjo (20 pontos)",
-      "• Air Control: Área de Cone Mover Objetos 10, Corpo a Corpo Range (20 PP)",
-      "• Air Cushion: Área de Explosão Safe Fall, Affects Others (1 PP)",
-      "• Transfer Velocidade: Affects Others on Velocidade 20 (1 PP)",
+      "• Air Control: Área de Cone Mover Objetos 10, Alcance Perto (20 PP)",
+      "• Air Cushion: Área de Explosão Queda Segura, Afeta Outros (1 PP)",
+      "• Transfer Velocidade: Afeta Outros on Velocidade 20 (1 PP)",
       "• Vácuo: Área de Explosão Cumulativo Aflição 5 (resistido por Fortitude; Tonto, Atordoado, Incapacitado), Concentração (1 PP)",
-      "• Vibration: Intangibilidade 4 (Intangible), Side-Effect: Object suffers Dano 10 and explodes) (1 PP)",
-      "• Whirlwind: Área de Explosão Mover Objetos 10, Corpo a Corpo Range (1 PP)"
+      "• Vibração: Intangibilidade 4 (Intangible), Side-Effect: Object suffers Dano 10 e explodes) (1 PP)",
+      "• Whirlwind: Área de Explosão Mover Objetos 10, Alcance Perto (1 PP)"
     ],
     "equipamento": [],
     "vantagens": [
@@ -33,17 +33,17 @@
       "Ataque Corpo-a-Corpo 4",
       "Contatos",
       "Rolamento Defensivo 5",
-      "Evasion 2",
+      "Evasão 2",
       "Iniciativa Aprimorada 10",
       "Interpor-se",
-      "Levantar Rápido",
+      "De Pé",
       "Ação em Movimento",
       "Tomar a Iniciativa",
-      "Derrubar em Sequência",
-      "Provocar",
+      "Ataque Dominó",
+      "Zombar",
       "Trabalho em Equipe",
-      "Esforço Supremo (Super-Speed checks)",
-      "Bem-Informado"
+      "Esforço Supremo (Super-Speed Testes)",
+      "Bem Informado"
     ],
     "pericias": [
       {
@@ -109,7 +109,7 @@
       },
       {
         "titulo": "Relacionamentos",
-        "texto": "His wife, Linda, children , and the greater “Flash family. ” Secret Identity: Barry Allen, Central City police scientist."
+        "texto": "His wife, Linda, children , e the greater “Flash family. ” Secret Identity: Barry Allen, Central City police scientist."
       },
       {
         "titulo": "Fraqueza",

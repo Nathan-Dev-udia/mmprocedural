@@ -14,16 +14,15 @@
       "Pre": 4
     },
     "poderes": [
-      "Possession: Aflição 10 (resistido por Vontade; Tonto, Compelido, Controlado), Affects Corporeal 10, Concentração, Cumulativo, Insidioso, Instant Recovery, Sutil 2, Limitado a creatures with Int -3 or higher, Limitado—Cannot access target’s thoughts or memories (18 PP)",
-      "Spectral Form: Intangibilidade 4 (Not versus mágico), Contínuo, Inato, Permanente; Camuflagem 10, Contínuo, Permanente; Voo 4 (48 km/h); Imunidade 30 (Fortitude Effects); Sentidos 4 (Vision Counters Invisibility, Auditory Counters Spiritual Camuflagem), Dimensional, Limitado a Spirits/Astral Entities (83 PP)"
+      "Possession: Aflição 10 (resistido por Vontade; Tonto, Compelido, Controlado), Afeta Corpóreo 10, Concentração, Cumulativo, Insidioso, Instant Recovery, Sutil 2, Limitado a creatures com Int -3 or higher, Limitado—Cannot access target’s thoughts or memories (18 PP)",
+      "Spectral Form: Intangibilidade 4 (Not versus Magia), Contínuo, Inato, Permanente; Camuflagem 10, Contínuo, Permanente; Voo 4 (48 km/h); Imunidade 30 (Efeitos de Fortitude); Sentidos 4 (Visão Counters Invisibility, Auditivo Counters Spiritual Camuflagem), Dimensional, Limitado a Espíritos/Astral Entities (83 PP)"
     ],
     "equipamento": [],
     "vantagens": [
-      "Conectado",
+      "Bem Relacionado",
       "Rolamento Defensivo 5",
       "Sorte 3",
-      "Skill Mastery 2 (Acrobatics",
-      "Athletics)",
+      "Maestria em Perícia 2 (Acrobacia, Atletismo)",
       "Ataque Poderoso"
     ],
     "pericias": [
@@ -48,7 +47,7 @@
         "total": 10
       },
       {
-        "nome": "Especialidade: mágico",
+        "nome": "Especialidade: Magia",
         "graduacoes": 2,
         "total": 3
       },
@@ -79,11 +78,12 @@
         "nome": "Possession",
         "bonus": 10,
         "alcance": "Corpo a corpo",
-        "dano": "Aflição 10 Desarmado +X* Corpo a Corpo, Dano X* *Depends on Fgt and Str of body possessed"
+        "dano": "Aflição 10 Desarmado +X* Corpo a Corpo, Dano X* *Depends on Fgt e Str of body possessed"
       }
     ],
     "defesas": {
       "Esquiva": 10,
+      "Fortitude": null,
       "Aparar": 5,
       "Resistência": 8,
       "Vontade": 8
@@ -100,7 +100,7 @@
     "complicacoes": [
       {
         "titulo": "Spiritual Responsibilities",
-        "texto": "As a spirit in service to Rama Kushna, Deadman is frequently called upon to perform “other- worldly” duties, such as guiding other spirits to their final rest and defending the living against supernatural evils. As the fight raged, Deadman was forced to return to Nanda Parbat to repel a Black Lantern assault. Full knowing that doing so risked his own (final) Destruição, Deadman be - gan possessing the invaders so as to cause his ring-wearing hosts to destroy themselves. Aided by the Phantom Stranger, Deadman resisted the Black Lanterns’ control and finally man - aged to possess his own corpse. Doing so expelled the black power ring from his body, allowing him to take his body back to Nanda Parbat where it could be kept safe. Brought back to life following the Blackest Night, Deadman now finds himself in possession of a white power ring that, among other Abilities he hasn’t yet quite mastered, allows him to resurrect the dead (in some cases). Even as he strug - gles with what his own resurrection means, he finds himself suffering under a new set of responsibilities: uncovering the white power ring’s purpose and what its existence means to the universe at large. PERSONALITY Perhaps because he’s been so long denied tactile sensation, Deadman is highly sensitive to the emotions of others, making him very empathetic when exposed to suffering, tragedy, and loss. He also possesses a great sense of responsibility (even if it is sometimes reluctant) with regards to others’ welfare, hoping one day his good deeds shall earn him a final peace. Powers & Abilities Deadman is an intangible spirit, detectable only to those with the ability to sense the paranormal or otherwise com - mune with the dead. He is also able to enter a sentient, living subject’s body and possess it, gaining control of its physical functions. Because Deadman is unable to access his host’s memories or mind, a possessed subject has no recollection of the occurrence once Deadman leaves."
+        "texto": "As a spirit in service to Rama Kushna, Deadman is frequently called upon to perform “other- worldly” duties, such as guiding other Espíritos to their final rest e defending the living contra supernatural evils. As the fight raged, Deadman was forced to return to Nanda Parbat to repel a Black Lantern assault. Full knowing that doing so risked his own (final) Destruição, Deadman be - gan possessing the invaders so as to cause his ring-wearing hosts to destroy themselves. Aided by the Phantom Stranger, Deadman resisted the Black Lanterns’ control e finally man - aged to possess his own corpse. Doing so expelled the black Poder ring from his body, allowing him to take his body back to Nanda Parbat where it could be kept safe. Brought back to life following the Blackest Night, Deadman now finds himself in possession of a white Poder ring that, among other Habilidades he hasn’t yet quite mastered, allows him to resurrect the dead (in some cases). Even as he strug - gles com what his own resurrection means, he finds himself suffering under a new set of responsibilities: uncovering the white Poder ring’s purpose e what its existence means to the universe at large. PERSONALITY Perhaps because he’s been so long denied Tátil sensation, Deadman is highly sensitive to the emotions of others, making him very empathetic when exposed to suffering, tragedy, e loss. He also possesses a great sense of responsibility (even if it is sometimes reluctant) com regards to others’ welfare, hoping one day his good deeds shall earn him a final peace. Poderes & Habilidades Deadman is an intangible spirit, detectable Apenas to those com the Habilidade to sense the paranormal or otherwise com - mune com the dead. He is also able to enter a sentient, living subject’s body e possess it, gaining control of its physical functions. Because Deadman is unable to access his host’s memories or mind, a possessed subject has no recollection of the occurrence once Deadman leaves."
       }
     ]
   },

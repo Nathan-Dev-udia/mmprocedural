@@ -14,7 +14,7 @@
       "Pre": 1
     },
     "poderes": [
-      "d r ank f r om the f oun tain (Compreender 6 (Animals 2 (Speak To, Understand), Languages 5 (Read, Speak To, Understand, Understood)); Imunidade 2 (Age, Doença)); Chimpanzee (Extra Limbs 1 (prehensile feet; Inato), Encolhimento 4 (Inato, Permanente))"
+      "d r ank f r om the f oun tain (Compreender 6 (Animais 2 (Speak To, Understand), Languages 5 (Read, Speak To, Understand, Understood)); Imunidade 2 (Age, Doença)); Chimpanzee (Membros Extras 1 (prehensile pés; Inato), Encolhimento 4 (Inato, Permanente))"
     ],
     "equipamento": [
       "Durable whiskey flask, smartphone, deerstalker hat"
@@ -22,11 +22,9 @@
     "vantagens": [
       "Rolamento Defensivo 2",
       "Equipamento",
-      "Pau pra Toda Obra",
-      "Skill Mastery 3 (Insight",
-      "Investigation",
-      "Perception)",
-      "Bem-Informado"
+      "Faz Tudo",
+      "Maestria em Perícia 3 (Intuição, Investigação, Percepção)",
+      "Bem Informado"
     ],
     "pericias": [
       {
@@ -45,12 +43,12 @@
         "total": 11
       },
       {
-        "nome": "Especialidade: mágico",
+        "nome": "Especialidade: Magia",
         "graduacoes": 3,
         "total": 8
       },
       {
-        "nome": "Especialidade: Current Events",
+        "nome": "Especialidade: Atualidades",
         "graduacoes": 6,
         "total": 11
       },
@@ -91,9 +89,13 @@
       "Resistência": 5,
       "Vontade": 11
     },
-    "observacao_defesas": "*, Aparar 8*, Fortitude 6, Resistência 5/3**, Vontade 11 *Includes Encolhimento modifiers. **sem Rolamento Defensivo. Abilities 56+ Powers 25 + Advantages 8 + Skills 32 +",
+    "observacao_defesas": "*, Aparar 8*, Fortitude 6, Resistência 5/3**, Vontade 11 *Includes Encolhimento modifiers. **sem Rolamento Defensivo. Habilidades 56+ Poderes 25 + Vantagens 8 + Perícias 32 +",
     "custos": {
-      "Defesas": 14
+      "Defesas": 14,
+      "Habilidades": 56,
+      "Poderes": 25,
+      "Vantagens": 8,
+      "Perícias": 32
     },
     "total": 135,
     "complicacoes": [
@@ -103,7 +105,7 @@
       },
       {
         "titulo": "Bad Habits",
-        "texto": "Bobo smokes and drinks, both to excess, and gets cranky when he goes too long without nicotine or alcohol."
+        "texto": "Bobo smokes e drinks, both to excess, e gets cranky when he goes too long sem nicotine or alcohol."
       }
     ]
   },

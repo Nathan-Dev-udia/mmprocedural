@@ -14,7 +14,7 @@
       "Pre": "—"
     },
     "poderes": [
-      "Stinger Blasts (eletricidade; Dano à Distância 6); Encolhimento 8 (Permanente, Inato); Voo 5 (96 km/h; Wings); Imunidade 40 (Fortitude Effects, mental Effects)"
+      "Stinger Blasts (Eletricidade; Dano à Distância 6); Encolhimento 8 (Permanente, Inato); Voo 5 (96 km/h; Wings); Imunidade 40 (Efeitos de Fortitude, Efeitos Mentais)"
     ],
     "equipamento": [],
     "vantagens": [],
@@ -31,16 +31,19 @@
         "nome": "Desarmado",
         "bonus": 8,
         "alcance": "",
-        "dano": "Dano –5"
+        "dano": "Dano -5"
       }
     ],
     "defesas": {
       "Esquiva": 12,
       "Aparar": 9,
-      "Resistência": 0
+      "Fortitude": null,
+      "Resistência": 0,
+      "Vontade": null
     },
     "observacao_defesas": "",
     "custos": {
+      "Habilidades": -26,
       "Poderes": 71,
       "Vantagens": 0,
       "Perícias": 0,

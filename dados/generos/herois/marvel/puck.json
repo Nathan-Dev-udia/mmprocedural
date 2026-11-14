@@ -65,7 +65,7 @@
       },
       {
         "nome": "Immunity 1",
-        "construcao_3e": "Imunidade to aging.",
+        "construcao_3e": "Imunidade to Envelhecimento.",
         "custo_2e_pp": 1,
         "custo_3e_pp": 1,
         "nome_pt": "Imunidade 1"
@@ -93,7 +93,7 @@
       },
       {
         "nome": "Super-Strength 3",
-        "construcao_3e": "Power-Lifting 3.",
+        "construcao_3e": "Levantamento de Peso 3.",
         "custo_2e_pp": 6,
         "custo_3e_pp": 3,
         "nome_pt": "Super-Força 3"

@@ -32,14 +32,14 @@
     "pericias": {
       "Acrobacia": 8,
       "Atletismo": 8,
-      "Enganacao": 12,
-      "Especialidade: Civica": 4,
-      "Intimidacao": 10,
-      "Intuicao": 8,
-      "Percepcao": 8,
-      "Persuasao": 6,
+      "Enganação": 12,
+      "Especialidade: Cívica": 4,
+      "Intimidação": 10,
+      "Intuição": 8,
+      "Percepção": 8,
+      "Persuasão": 6,
       "Furtividade": 8,
-      "Combate Corpo-a-Corpo: Laminas": 6
+      "Combate Corpo-a-Corpo: Lâminas": 6
     },
     "vantagens": [
       "Ataque Acurado",
@@ -58,7 +58,7 @@
       "Esconder-se à Plena Vista",
       "Mira Aprimorada",
       "Crítico Aprimorado (Ataque com Faca) 4",
-      "Crítico Aprimorado (Luger Pistol) 4",
+      "Crítico Aprimorado (Luger Pistola) 4",
       "Crítico Aprimorado (Golpe com Escudo) 4",
       "Crítico Aprimorado (Desarmado) 4",
       "Defesa Aprimorada",

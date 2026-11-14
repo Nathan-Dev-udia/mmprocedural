@@ -14,14 +14,14 @@
       "Pre": 7
     },
     "poderes": [
-      "0 Defenses 24"
+      "0 Defesas 24"
     ],
     "equipamento": [
       "Espada (Força-based Dano 3, Improved Critical) (4 PP)"
     ],
     "vantagens": [
-      "44 Total 225 Co MPL i C tion S a a Ra’s believes he knows what is best for everyone rr ogance: and the world",
-      "and that he alone has the Will to do what must be done to save it. Legacy: Ra’s is obsessed with his own mortality and the legacy he must leave to a worthy successor."
+      "44 Total 225 Co MPL i C tion S a a Ra's believes he knows what is best for everyone rr ogance: and the world",
+      "and that he alone has the Will to do what must be done to save it. Legacy: Ra's is obsessed with his own mortality and the legacy he must leave to a worthy successor."
     ],
     "pericias": [],
     "iniciativa": 7,
@@ -30,7 +30,7 @@
         "nome": "Espada",
         "bonus": 20,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 7, Crit. 18-20"
+        "dano": "Dano 7, Crít. 18-20"
       },
       {
         "nome": "Desarmado",
@@ -46,8 +46,10 @@
       "Resistência": 8,
       "Vontade": 14
     },
-    "observacao_defesas": "* Vontade 14 *sem Rolamento Defensivo. W S Po er ponto Abilities 102",
-    "custos": {},
+    "observacao_defesas": "* Vontade 14 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 102
+    },
     "total": null,
     "complicacoes": []
   },

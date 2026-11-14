@@ -14,7 +14,7 @@
       "Pre": 1
     },
     "poderes": [
-      "Aversion Field (Imunidade 110 (Resistência Effects, Fortitude Effects, Sutil 2, Limitado a targeted attacks only))"
+      "Aversion Field (Imunidade 110 (Resistência Efeitos, Efeitos de Fortitude, Sutil 2, Limitado a targeted attacks Apenas))"
     ],
     "equipamento": [],
     "vantagens": [
@@ -22,19 +22,18 @@
       "Ataque Defensivo",
       "Rolamento Defensivo 2",
       "Agarrar Rápido",
-      "Agarrar com Destreza",
+      "Agarrar Preciso",
       "Defesa Aprimorada",
       "Desarmar Aprimorado",
       "Agarrar Aprimorado",
       "Imobilizar Aprimorado",
       "Iniciativa Aprimorada",
       "Derrubar Aprimorado",
-      "Languages (English",
-      "Japanese native)",
+      "Idiomas (Inglês, Japonês native)",
       "Ataque Poderoso",
-      "Luta Caída",
+      "Luta no Chão",
       "Redirecionar",
-      "Derrubar em Sequência",
+      "Ataque Dominó",
       "Prender Arma"
     ],
     "pericias": [
@@ -95,7 +94,7 @@
         "nome": "Judo Attack",
         "bonus": 16,
         "alcance": "",
-        "dano": "(Dano 2)"
+        "dano": "Dano 2"
       }
     ],
     "defesas": {

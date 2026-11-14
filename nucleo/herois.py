@@ -178,7 +178,7 @@ def texto_do_ataque(ataque):
 
 def _secoes_traduzidas(traduzida):
     f = traduzida["ficha"]
-    defesas = [", ".join(f"{nome} {valor}" for nome, valor in f["defesas"].items())]
+    defesas = [", ".join(f"{nome} {'Imune' if valor is None else valor}" for nome, valor in f["defesas"].items())]
     custos = ", ".join(f"{nome} {valor}" for nome, valor in f["custos"].items()) + f" = {f['total']}"
     return [("Poderes", f["poderes"]),
             ("Equipamento", f["equipamento"]),

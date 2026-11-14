@@ -15,8 +15,8 @@
     },
     "poderes": [
       "Atomic Punch: Penetrante 8 on Força Dano, Distrativo, Perceptível (3 PP)",
-      "Atomic Força: Força Aprimorada 4, Salto 1 (15 feet), Proteção 4, Velocidade 1 (6 km/h) (14 PP)",
-      "Extended Vitality : Imunidade 2 (Age (Limitado a Half Effect), Radiação) (2 PP)"
+      "Atomic Força: Força Aprimorada 4, Salto 1 (15 pés), Proteção 4, Velocidade 1 (6 km/h) (14 PP)",
+      "Estendido Vitality : Imunidade 2 (Age (Limitado a Half Effect), Radiação) (2 PP)"
     ],
     "equipamento": [],
     "vantagens": [
@@ -30,7 +30,7 @@
       "Iniciativa Aprimorada",
       "Ataque Poderoso",
       "Tomar a Iniciativa",
-      "Derrubar em Sequência",
+      "Ataque Dominó",
       "Esforço Supremo (Resistência)"
     ],
     "pericias": [
@@ -50,7 +50,7 @@
         "total": 9
       },
       {
-        "nome": "Especialidade: Physics",
+        "nome": "Especialidade: Física",
         "graduacoes": 7,
         "total": 9
       },
@@ -113,11 +113,11 @@
     "complicacoes": [
       {
         "titulo": "Hotheaded",
-        "texto": "The Atom is reckless, impulsive, and has a quick temper when it comes to “short” jokes."
+        "texto": "The Atom is reckless, impulsive, e has a quick temper when it comes to “short” jokes."
       },
       {
         "titulo": "Identidade Secreta",
-        "texto": "The Atom’s identity as Al Pratt is a secret to all but his most trusted friends and teammates."
+        "texto": "The Atom’s identity as Al Pratt is a secret to all but his most trusted friends e teammates."
       }
     ]
   },

@@ -14,26 +14,26 @@
       "Pre": 2
     },
     "poderes": [
-      "e y e in the Sky (Sentidos 1 (Comunicação Link to Brother Eye)); Unstoppable (Proteção 6, Impenetrável); Lightning r eflexes (Rapidez 4 (Physical tasks only)); Healed by the e y e (Cura 5, Persistent, Peculiaridade—Requires contact with Brother Eye)"
+      "e y e in the Sky (Sentidos 1 (Elo de Comunicação to Brother Eye)); Unstoppable (Proteção 6, Impenetrável); Lightning r eflexes (Rapidez 4 (Physical tasks Apenas)); Healed by the e y e (Cura 5, Persistent, Peculiaridade—Requires contact com Brother Eye)"
     ],
     "equipamento": [],
     "vantagens": [
       "Ataque Imprudente",
       "Duro de Matar",
-      "Evasion",
+      "Evasão",
       "Esforço Extraordinário",
       "Agarrar Rápido",
-      "Grande Vigor",
+      "Tolerância Maior",
       "Agarrar Aprimorado",
       "Imobilizar Aprimorado",
       "Iniciativa Aprimorada",
       "Quebrar Aprimorado",
       "Arma Improvisada",
-      "Levantar Rápido",
+      "De Pé",
       "Interpor-se",
       "Ação em Movimento",
       "Ataque Poderoso",
-      "Derrubar em Sequência",
+      "Ataque Dominó",
       "Esforço Supremo (Atletismo)"
     ],
     "pericias": [
@@ -58,7 +58,7 @@
         "total": 9
       },
       {
-        "nome": "Combate à Distância: Guns",
+        "nome": "Combate à Distância: Armas de Fogo",
         "graduacoes": 10,
         "total": 13
       },
@@ -100,7 +100,7 @@
       },
       {
         "titulo": "Serve the e y e",
-        "texto": "O.M.A.C. is connected to Brother Eye and is sent on missions by it."
+        "texto": "O.M.A.C. is connected to Brother Eye e is sent on missions by it."
       }
     ]
   },

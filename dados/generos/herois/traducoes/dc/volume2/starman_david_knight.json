@@ -14,10 +14,10 @@
       "Pre": 1
     },
     "poderes": [
-      "Cosmic r od (Arranjo (20 pontos), Removível (-5 pontos), Star Beam (Dano à Distância 10, Dynamic), ae : Star Raio (À Distância Área de Cone Dano 6, Dynamic), ae : Starshine (Aflição à Distância 10 (resistido por Fortitude; Visually Impaired, Visually Disabled, Visually Unaware), Dynamic); Star Cape (Removível (-4 pontos), Voo 7 (400 km/h); Sustentado Proteção 8)"
+      "Cósmico r od (Arranjo (20 pontos), Removível (-5 pontos), Star Beam (Dano à Distância 10, Dinâmico), ae : Star Raio (À Distância Área de Cone Dano 6, Dinâmico), ae : Starshine (Aflição à Distância 10 (resistido por Fortitude; Visually Prejudicado, Visually Desabilitado, Visually Desatento), Dinâmico); Star Cape (Removível (-4 pontos), Voo 7 (400 km/h); Sustentado Proteção 8)"
     ],
     "equipamento": [
-      "Starship ( Size: Huge, Str: 8, t ou: 9 d ef: 8; f ea tures: Voo 8 (800 km/h), Gravity Beam (Mover Objetos 8, Contínuo), Communications, Infirmary, Remote Control)"
+      "Starship ( Size: Huge, Str: 8, t ou: 9 d ef: 8; f ea tures: Voo 8 (800 km/h), Gravidade Beam (Mover Objetos 8, Contínuo), Communications, Infirmary, Remote Control)"
     ],
     "vantagens": [
       "Ataque Defensivo",
@@ -48,7 +48,7 @@
         "total": 9
       },
       {
-        "nome": "Combate à Distância: Cosmic Rod",
+        "nome": "Combate à Distância: Cósmico Rod",
         "graduacoes": 5,
         "total": 8
       },
@@ -92,7 +92,7 @@
     "complicacoes": [
       {
         "titulo": "r esponsibility",
-        "texto": "David becomes Starman because he believes it’s his destiny and responsiblity. d oomed: David was apparently born to die, something he is aware of during his time as the Starman of the 1950s."
+        "texto": "David becomes Starman because he believes it’s his destiny e responsiblity. d oomed: David was apparently born to die, something he is aware of during his time as the Starman of the 1950s."
       }
     ]
   },

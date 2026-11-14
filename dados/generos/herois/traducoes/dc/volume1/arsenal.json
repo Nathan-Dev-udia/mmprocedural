@@ -16,25 +16,25 @@
     "poderes": [],
     "equipamento": [
       "Arsenal: Arranjo (6 pontos)",
-      "• Throwing Knives: Dano à Distância 2, Multiataque (6 PP)",
+      "• Arremesso Knives: Dano à Distância 2, Multiataque (6 PP)",
       "• Short Espada: Força-based Dano 2, Penetrante 2 (1 PP)",
       "• Batons: Força-based Dano 2, Dividido (1 PP)"
     ],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Atraente",
       "Estrangular",
       "Ataque Corpo-a-Corpo 5",
-      "Conectado",
+      "Bem Relacionado",
       "Rolamento Defensivo 3",
       "Equipamento 2",
-      "Evasion",
+      "Evasão",
       "Mira Aprimorada",
       "Crítico Aprimorado (Arsenal) 2",
       "Iniciativa Aprimorada",
       "Arma Improvisada 2",
       "Ataque Poderoso",
-      "Precise Attack 3 (corpo a corpo; Cover and Concealment. à distância; Cover)",
+      "Ataque Preciso 3 (Corpo a Corpo; Cobertura e Camuflagem. À Distância; Cobertura)",
       "Saque Rápido",
       "Ataque à Distância 5",
       "Maestria em Arremesso 2"
@@ -91,7 +91,7 @@
         "total": 11
       },
       {
-        "nome": "Combate à Distância: Bows",
+        "nome": "Combate à Distância: Arcos",
         "graduacoes": 5,
         "total": 10
       },
@@ -107,19 +107,19 @@
         "nome": "Batons",
         "bonus": 16,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 4, Dividido, Crit. 18-20"
+        "dano": "Dano 4, Dividido, Crít. 18-20"
       },
       {
         "nome": "Short Espada",
         "bonus": 16,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 4, Penetrante 2, Crit. 18-20"
+        "dano": "Dano 4, Penetrante 2, Crít. 18-20"
       },
       {
-        "nome": "Throwing Knives",
+        "nome": "Arremesso Knives",
         "bonus": 16,
         "alcance": "À distância",
-        "dano": "Dano 2, Multiataque, Crit. 18-20"
+        "dano": "Dano 2, Multiataque, Crít. 18-20"
       },
       {
         "nome": "Desarmado",
@@ -147,11 +147,11 @@
     "complicacoes": [
       {
         "titulo": "Bereaved",
-        "texto": "Arsenal recently lost his daughter Lian in the Destruição of Star City, an event that left him an angry, broken man, riding the line between hero and villain."
+        "texto": "Arsenal recently lost his daughter Lian in the Destruição of Star City, an event that left him an angry, broken man, riding the line between hero e villain."
       },
       {
         "titulo": "Junkie",
-        "texto": "When he was younger, Arsenal was addicted to heroin. While he beat his addiction and was clean for many years, the loss of his daughter has driven him back to drugs and caused him to have severe hallucinations."
+        "texto": "When he was younger, Arsenal was addicted to heroin. While he beat his addiction e was clean for many years, the loss of his daughter has driven him back to drugs e caused him to have severe hallucinations."
       }
     ]
   },

@@ -14,22 +14,22 @@
       "Pre": 3
     },
     "poderes": [
-      "Absorb EM Energy: Enhanced Magnetic Force-Field 3, Dissipação (recharges when exposed to source or attack with electromagnetic descriptor); Enhanced Regeneração 10, Dissipação (recharges when exposed to source or attack with electromagnetic descriptor), Sustentado (8 PP)",
+      "Absorb EM Energia: Aprimorado Magnético Force-Field 3, Dissipação (recharges when exposed to source or attack com electromagnetic descriptor); Aprimorado Regeneração 10, Dissipação (recharges when exposed to source or attack com electromagnetic descriptor), Sustentado (8 PP)",
       "Voo: Voo 5 (96 km/h) (10 PP)",
-      "Magnetic Control: Arranjo (31 pontos)",
-      "• Neuro-Electrical Shutdown: Aflição à Distância 12 (resistido por Fortitude; Tonto, Atordoado, Incapacitado) Linked to Aflição à Distância (resistido por Fortitude; Vulnerável) 12, Limitado Degree 2, Preciso (31 PP)",
-      "• EM Raio: Dano à Distância 12, Variável Descriptor (Electromagnetic, Electrical, Laser), Preciso (1 PP)",
-      "• EM Pulse: Área de Explosão Nulificar 7, Affects Objects (Only), Broad (Electronics), Simultaneous (1 PP)",
-      "• Magnetize: Aflição 14 (resistido por Fortitude; Impedido, Imóvel) Área de Explosão 3 (120 feet), Limitado a targets made of or carrying metal, Limitado Degree (1 PP)",
-      "• Metal Manipulation: Mover Objetos 14, Damaging, Limitado a Metallic/Conductive Objects (1 PP)",
-      "• Molecular Acceleration: Environment Control 14 (Extreme Calor) (1 PP)",
-      "Magnetic Force-Field: Impenetrável Proteção 9, Sustentado (18 PP)",
-      "Magnetic Sense: Sentidos 9 (À Distância and Preciso Detect Electromagnetics, À Distância and Preciso Detect Metal, Noção de Direção) (9 PP)",
+      "Magnético Control: Arranjo (31 pontos)",
+      "• Neuro-Elétrico Shutdown: Aflição à Distância 12 (resistido por Fortitude; Tonto, Atordoado, Incapacitado) Ligado a Aflição à Distância (resistido por Fortitude; Vulnerável) 12, Limitado Grau 2, Acurado (31 PP)",
+      "• EM Raio: Dano à Distância 12, Variável Descriptor (Electromagnetic, Elétrico, Laser), Acurado (1 PP)",
+      "• EM Pulse: Área de Explosão Nulificar 7, Afeta Objetos (Apenas), Amplo (Eletrônica), Simultâneo (1 PP)",
+      "• Magnetize: Aflição 14 (resistido por Fortitude; Impedido, Imóvel) Área de Explosão 3 (120 pés), Limitado a targets made of or carrying metal, Limitado Grau (1 PP)",
+      "• Metal Manipulation: Mover Objetos 14, Damaging, Limitado a Metallic/Conductive Objetos (1 PP)",
+      "• Molecular Acceleration: Ambiente Control 14 (Extreme Calor) (1 PP)",
+      "Magnético Force-Field: Impenetrável Proteção 9, Sustentado (18 PP)",
+      "Magnético Sense: Sentidos 9 (À Distância e Acurado Detectar Electromagnetics, À Distância e Acurado Detectar Metal, Noção de Direção) (9 PP)",
       "Composite Suit: Proteção 3, Removível (-1 ponto) (2 PP)"
     ],
     "equipamento": [],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Inventor",
       "Redirecionar",
       "Maestria em Perícia (Tecnologia)",
@@ -42,7 +42,7 @@
         "total": 11
       },
       {
-        "nome": "Especialidade: Science",
+        "nome": "Especialidade: Ciência",
         "graduacoes": 8,
         "total": 13
       },
@@ -52,7 +52,7 @@
         "total": 13
       },
       {
-        "nome": "Combate à Distância: Magnetic Control",
+        "nome": "Combate à Distância: Magnético Control",
         "graduacoes": 7,
         "total": 10
       },
@@ -94,7 +94,7 @@
         "nome": "EM Raio",
         "bonus": 12,
         "alcance": "À distância",
-        "dano": "Dano 12 Magnetize or Metal À Distância, Dano 14 or Manipulation +10 other effects Neuro-Electrical Shutdown +12 À Distância, Aflição 12, resistido por Fortitude"
+        "dano": "Dano 12 Magnetize or Metal À Distância, Dano 14 or Manipulation +10 other Efeitos Neuro-Elétrico Shutdown +12 À Distância, Aflição 12, resistido por Fortitude"
       }
     ],
     "defesas": {
@@ -104,7 +104,7 @@
       "Resistência": 15,
       "Vontade": 7
     },
-    "observacao_defesas": "* Vontade 7 *Without Enhanced Magnetic Force-Field.",
+    "observacao_defesas": "* Vontade 7 *sem Aprimorado Magnético Force-Field.",
     "custos": {
       "Habilidades": 42,
       "Perícias": 35,
@@ -116,11 +116,11 @@
     "complicacoes": [
       {
         "titulo": "Eroding Sanity",
-        "texto": "His magnetic Powers slowly sap Neal Emerson’s Prontidão and Vontade. He is also susceptible to Telepatia Powers."
+        "texto": "His Magnético Poderes slowly sap Neal Emerson’s Consciência e Vontade. He is also susceptible to Telepatia Poderes."
       },
       {
         "titulo": "Magnetic",
-        "texto": "Doctor Polaris is basically a living magnet, and as such he functions like one, losing his “charge” when exposed to extreme Calor, recharging with kinetic energy, susceptible to magnetic fields, etc."
+        "texto": "Doctor Polaris is basically a living magnet, e as such he functions like one, losing his “charge” when exposed to extreme Calor, recharging com kinetic Energia, susceptible to Magnético fields, etc."
       },
       {
         "titulo": "Split Personality",

@@ -17,46 +17,46 @@
     "equipamento": [
       "Body Armor: Proteção 1 (1 PP)",
       "Flashlight: Característica 1 (Illumination) (1 PP)",
-      "Gauntlets: Força-based Dano 1; Enhanced Skill 4 (Athletics +4, Limitado a Climbing checks) (2 PP)",
-      "Grapple: Movimento 1 (Swinging) (2 PP)",
-      "Mini-Tracers: Característica 1 (Tracking) (1 PP)",
-      "Night-Vision Lens: Sentidos 1 (Visão na Penumbra) (1 PP)",
+      "Gauntlets: Força-based Dano 1; Perícia Aprimorada 4 (Atletismo +4, Limitado a Climbing Testes) (2 PP)",
+      "Grapple: Movimento 1 (Balançar-se) (2 PP)",
+      "Mini-Tracers: Característica 1 (Rastrear) (1 PP)",
+      "Night-Visão Lens: Sentidos 1 (Visão na Penumbra) (1 PP)",
       "Utility Belt: Arranjo (12 pontos)",
-      "• Tear Gas Pellets: À Distância Área de Nuvem Aflição 3 (resistido por Fortitude; Tonto and Vision Impaired, Atordoado and Vision Disabled, Incapacitado) (12 PP)",
+      "• Tear Gas Pellets: À Distância Área de Nuvem Aflição 3 (resistido por Fortitude; Tonto e Visão Prejudicado, Atordoado e Visão Desabilitado, Incapacitado) (12 PP)",
       "• Batarangues: Dano à Distância 2, Força-based (1 PP)",
       "• Explosives: À Distância Área de Explosão Dano 4 (1 PP)",
       "• Flash-Bangs: Área de Nuvem Ofuscar 4 (Visual) (1 PP)",
-      "• Sleep Gas Pellets: À Distância Área de Nuvem Aflição 4 (resistido por Fortitude; Fatigado, Exausto, Adormecido) (1 PP)",
+      "• Sono Gas Pellets: À Distância Área de Nuvem Aflição 4 (resistido por Fortitude; Fatigado, Exausto, Adormecido) (1 PP)",
       "• Smoke Bombs: Área de Nuvem Visual Camuflagem Attack 4 (1 PP)",
       "BUNKER: BUNKER UNDER HOME (15 PP)",
-      "Size: Medium Tou 10 Features: Communications, Computer, Concealed,"
+      "Size: Medium Tou 10 Características: Communications, Computer, Concealed,"
     ],
     "vantagens": [
       "Avaliação",
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Atraente",
-      "Benefit 4 (Multi- millionaire)",
+      "Benefício 4 (Multimilionário)",
       "Ataque Corpo-a-Corpo 4",
-      "Conectado",
+      "Bem Relacionado",
       "Ataque Defensivo",
       "Rolamento Defensivo 3",
       "Equipamento 10",
-      "Evasion",
-      "Agarrar com Destreza",
-      "Esconder-se a Plena Vista",
-      "Ferramentas Improvisadas",
-      "Levantar Rápido",
-      "Languages 3",
+      "Evasão",
+      "Agarrar Preciso",
+      "Esconder-se à Plena Vista",
+      "Ferramentas Aprimoradas",
+      "De Pé",
+      "Idiomas 3",
       "Ação em Movimento",
-      "Precise Attack (corpo a corpo; Concealment)",
+      "Ataque Preciso (Corpo a Corpo; Camuflagem)",
       "Saque Rápido",
       "Ataque à Distância 3",
       "Redirecionar",
       "Tomar a Iniciativa",
-      "Derrubar em Sequência",
+      "Ataque Dominó",
       "Rastrear",
       "Esquiva Fabulosa",
-      "Bem-Informado"
+      "Bem Informado"
     ],
     "pericias": [
       {
@@ -80,12 +80,12 @@
         "total": 11
       },
       {
-        "nome": "Especialidade: Military",
+        "nome": "Especialidade: Militar",
         "graduacoes": 10,
         "total": 13
       },
       {
-        "nome": "Especialidade: Streetwise",
+        "nome": "Especialidade: Manha",
         "graduacoes": 5,
         "total": 8
       },
@@ -115,7 +115,7 @@
         "total": 11
       },
       {
-        "nome": "Combate à Distância: Throwing",
+        "nome": "Combate à Distância: Arremesso",
         "graduacoes": 6,
         "total": 11
       },
@@ -157,7 +157,7 @@
         "nome": "Desarmado",
         "bonus": 16,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 4 (3 without Gauntlets)"
+        "dano": "Dano 4 (3 sem Gauntlets)"
       }
     ],
     "defesas": {
@@ -183,15 +183,15 @@
       },
       {
         "titulo": "Flashbacks",
-        "texto": "Batwoman sometimes has traumatic flashbacks to tragic events of her past, such as the kidnapping and murder of her mother and sister."
+        "texto": "Batwoman sometimes has traumatic flashbacks to tragic events of her past, such as the kidnapping e murder of her mother e sister."
       },
       {
         "titulo": "Relacionamentos",
-        "texto": "Her father Jacob, her cousin Bette “Flamebird” Kane, her stepmother Catherine, and her former lover and friend Renee Montoya, aka the Question (see Vol. II )."
+        "texto": "Her father Jacob, her cousin Bette “Flamebird” Kane, her stepmother Catherine, e her former lover e friend Renee Montoya, aka the Question (see Vol. II )."
       },
       {
         "titulo": "Identidade Secreta",
-        "texto": "Kate Kane, wealthy heiress and socialite."
+        "texto": "Kate Kane, wealthy heiress e socialite."
       }
     ]
   },

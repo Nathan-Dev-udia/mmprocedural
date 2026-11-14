@@ -14,7 +14,7 @@
       "Pre": "—"
     },
     "poderes": [
-      "Giant Robot Crescimento 8 (Permanente, Inato); Construct Imunidade 40 (Fortitude Effects, mental Effects); Armored Shell Proteção 7, Impenetrável 5, Big Sting À Distância Área de Explosão Dano 10, Sensors Sentidos 5 (Visão no Escuro, Infravison, Raio (All Visual))"
+      "Giant Robot Crescimento 8 (Permanente, Inato); Construct Imunidade 40 (Efeitos de Fortitude, Efeitos Mentais); Armored Shell Proteção 7, Impenetrável 5, Big Sting À Distância Área de Explosão Dano 10, Sensors Sentidos 5 (Visão no Escuro, Infravison, Raio (All Visual))"
     ],
     "equipamento": [],
     "vantagens": [
@@ -55,7 +55,9 @@
     "defesas": {
       "Esquiva": 0,
       "Aparar": 5,
-      "Resistência": 15
+      "Fortitude": null,
+      "Resistência": 15,
+      "Vontade": null
     },
     "observacao_defesas": "",
     "custos": {

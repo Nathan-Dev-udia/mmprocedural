@@ -29,20 +29,16 @@ A meta é ter todas as fichas da DC em português, conferidas com o livro. Cada 
 `../traducoes/dc/<volume>/<id>.json` (formato no README de lá). Esse arquivo tem precedência sobre o JSON desta pasta na
 tela e nos dois PDFs, e a reextração não o apaga.
 
-### Situação em 26/10/2026
+### Situação atual (14/11/2026)
 
-Traduzidas e conferidas: **8 de 536**. São elas: Aquaman, Batman, Flash (Barry Allen), Arqueiro Verde (Oliver Queen) e
-Lanterna Verde (Hal Jordan), do Vol. I; Super-Homem, Mulher-Maravilha e Caçador de Marte, do Vol. II.
+- **Traduzidas e conferidas manualmente com o livro:** **8 de 536** (Aquaman, Batman, Flash Barry Allen, Arqueiro Verde Oliver Queen e Lanterna Verde Hal Jordan, do Vol. I; Super-Homem, Mulher-Maravilha e Caçador de Marte, do Vol. II).
+- **Traduzidas e adaptadas automaticamente (`ferramentas/traduzir_dc.py` + `ferramentas/tradutor_herois.py`):** **524 fichas**, cobrindo todas as defesas, habilidades, vantagens canônicas e poderes via glossário inglês→português unificado.
+- **Reservadas em inglês bruto para testes (`FICHAS_PROTEGIDAS`):** **4 fichas** (`adam_strange`, `captain_comet`, `blockbuster_roland_desmond`, `dwarfstar`).
 
-### Pendências
+### Pendências editoriais futuras
 
-1. **Traduzir as 528 fichas restantes.** Sugestão de ordem: primeiro os outros heróis da Liga da Justiça (Lanternas
-   Verdes John Stewart, Guy Gardner e Kyle Rayner; Flashes Wally West e Jay Garrick; Canário Negro, Ciborgue, Gavião
-   Negro, Zatanna etc.), depois os vilões mais usados (Coringa, Lex Luthor, Sinestro, Mulher-Leopardo, Arraia Negra
-   etc.), depois o resto. Para achar as fichas com mais problemas de extração, que mais ganham com a conferência, use
-   `auditoria_extracao.json`.
-2. **Traduzir as descrições dos personagens.** Hoje só a parte mecânica (o bloco de estatísticas) é guardada. Cada
-   perfil do livro também tem:
+1. **Revisão manual página a página das 524 fichas adaptadas automaticamente:** quando os PDFs em `referencias/dc/` estiverem disponíveis no ambiente local, usar `auditoria_extracao.json` (`253 jogáveis`, `283 com ressalvas`) para conferir divergências mecânicas originais dos livros.
+2. **Traduzir as descrições narrativas dos personagens:** hoje só a parte mecânica e as complicações são guardadas. Cada perfil do livro também tem:
    - **Identidade:** nome real, ocupação, afiliação e base;
    - **Textos de apresentação:** história de origem, Personalidade, Poderes & Habilidades, Aliados e Inimigos;
    - **Quadros laterais:** kryptonita, flechas extras, façanhas de poder sugeridas e afins;

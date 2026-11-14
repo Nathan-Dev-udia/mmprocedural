@@ -14,12 +14,12 @@
       "Pre": 1
     },
     "poderes": [
-      "Armored Costume: Proteção 3; Característica 1 (Conceals vital signs from normal Sentidos); Removível (–1 ponto) (3 PP)",
-      "Eyescope Mask: Sentidos 3 (Extended Sight, Infravisão, Visão na Penumbra) 3; Característica 1 (Conceals vital signs from normal Sentidos); Removível (–1 ponto) (3 PP)",
-      "Master Marksman: Enhanced Advantage (À Distância Attack 8), Extended Range, Inato, Ricochete 3 (13 PP)",
-      "Wrist Loader: Arranjo (18 pontos), Removível (–4 pontos) (14 PP)",
+      "Armored Costume: Proteção 3; Característica 1 (Conceals vital signs from normal Sentidos); Removível (-1 ponto) (3 PP)",
+      "Eyescope Mask: Sentidos 3 (Estendido Visão, Infravisão, Visão na Penumbra) 3; Característica 1 (Conceals vital signs from normal Sentidos); Removível (-1 ponto) (3 PP)",
+      "Master Marksman: Vantagem Aprimorada (Ataque à Distância 8), Estendido Range, Inato, Ricochete 3 (13 PP)",
+      "Wrist Loader: Arranjo (18 pontos), Removível (-4 pontos) (14 PP)",
       "• Silenced Magnums: Dano à Distância 5, Multiataque, Penetrante 2, Sutil (18 PP)",
-      "• Mini-Rocket: Dano à Distância 7, Área de Explosão (4 graduações only), Não Confiável (5 Uses) (1 PP)",
+      "• Mini-Rocket: Dano à Distância 7, Área de Explosão (4 graduações Apenas), Não Confiável (5 Uses) (1 PP)",
       "• Kill Shot: Dano à Distância 5, Teleguiado, Incurable, Penetrante 5 (1 PP)"
     ],
     "equipamento": [
@@ -28,7 +28,7 @@
       "Arsenal: 22 pontos worth of assorted weapons."
     ],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Ataque Imprudente",
       "Ataque Corpo-a-Corpo 3",
       "Rolamento Defensivo 2",
@@ -43,10 +43,10 @@
       "Sorte",
       "Ação em Movimento",
       "Ataque Poderoso",
-      "Precise Attack",
+      "Ataque Preciso",
       "Saque Rápido",
       "Ataque à Distância 6",
-      "Derrubar em Sequência",
+      "Ataque Dominó",
       "Maestria em Arremesso 2"
     ],
     "pericias": [
@@ -98,7 +98,7 @@
         "nome": "Knife",
         "bonus": 7,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 4, Crit. 19-20 Knife (thrown) +11 À Distância, Dano 6, Crit. 19-20"
+        "dano": "Dano 4, Crít. 19-20 Knife (Arremesso) +11 À Distância, Dano 6, Crít. 19-20"
       },
       {
         "nome": "Mini-Rocket",
@@ -110,7 +110,7 @@
         "nome": "Silenced Magnums",
         "bonus": 13,
         "alcance": "À distância",
-        "dano": "Multiataque Dano 5, Penetrante 2, Crit. 19-20"
+        "dano": "Multiataque Dano 5, Penetrante 2, Crít. 19-20"
       },
       {
         "nome": "Sniper Rifle",

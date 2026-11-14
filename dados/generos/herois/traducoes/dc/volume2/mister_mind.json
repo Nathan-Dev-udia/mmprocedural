@@ -14,13 +14,13 @@
       "Pre": 3
     },
     "poderes": [
-      "t Leitura mental 12, Sutil (25 PP)",
+      "t Leitura Mental 12, Sutil (25 PP)",
       "elepa thy: t elepa thic Control: Aflição 12 (resistido por Vontade; Tonto, Compelido, Controlado), Concentração, Contagioso, Progressivo, Instant Recovery; Insidioso, Sutil (50 PP)",
       "t iny: Encolhimento 20, Permanente, Inato (21 PP)"
     ],
     "equipamento": [],
     "vantagens": [
-      "Evasion 2",
+      "Evasão 2",
       "Transe (spins cocoon)"
     ],
     "pericias": [
@@ -30,7 +30,7 @@
         "total": 13
       },
       {
-        "nome": "Especialidade: Psychology",
+        "nome": "Especialidade: Psicologia",
         "graduacoes": 4,
         "total": 14
       },
@@ -64,13 +64,19 @@
       "Resistência": 0,
       "Vontade": 16
     },
-    "observacao_defesas": "* Fortitude 4 Aparar 10* Resistência 0 Vontade 16 *Includes size modifiers. W S Po er ponto Abilities 24 Skills 16 Powers 96 Defenses 17 Advantages 3 Total 156",
-    "custos": {},
-    "total": null,
+    "observacao_defesas": "* Fortitude 4 Aparar 10* Resistência 0 Vontade 16 *Includes size modifiers.",
+    "custos": {
+      "Habilidades": 24,
+      "Perícias": 16,
+      "Poderes": 96,
+      "Defesas": 17,
+      "Vantagens": 3
+    },
+    "total": 156,
     "complicacoes": [
       {
         "titulo": "Worm",
-        "texto": "Mister Mind is a tiny worm in his normal state. Motivation—Conqueror: Mister Mind is driven to conquer worlds and destroy his enemies."
+        "texto": "Mister Mind is a tiny worm in his normal state. Motivation—Conqueror: Mister Mind is driven to conquer worlds e destroy his enemies."
       }
     ]
   },

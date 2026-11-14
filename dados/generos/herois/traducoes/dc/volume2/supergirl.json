@@ -14,18 +14,18 @@
       "Pre": 3
     },
     "poderes": [
-      "104 Defenses 25"
+      "104 Defesas 25"
     ],
     "equipamento": [],
     "vantagens": [
       "3 Total 235 a Co MPL i C tion S Power Loss: Supergirl loses her Powers and her Str and Sta are reduced to 1 under a red sun",
-      "like that of Krypton. esponsibility: Supergirl feels a strong sense of responsibility r to use her Powers for the benefit of all. Secret i den tity: Linda Lang Vulnerability: Supergirl is vulnerable to magic. Her Toughness is not Impervious against magical attacks. Supergirl has the same Kryptonian vulnerabilities as her cous- in: she loses her Powers under the light of a red sun (or when otherwise cut off from solar energy for a long period) and be- comes weak when exposed to Kryptonite."
+      "like that of Krypton. esponsibility: Supergirl feels a strong sense of responsibility r to use her Powers for the benefit of all. Secret i den tity: Linda Lang Vulnerability: Supergirl is vulnerable to magic. Her Toughness is not Impervious against magical attacks. Supergirl has the same Kryptonian vulnerabilities as her cous-in: she loses her Powers under the light of a red sun (or when otherwise cut off from solar Energia for a long period) and be-comes weak when exposed to Kryptonite."
     ],
     "pericias": [],
     "iniciativa": 3,
     "ataques": [
       {
-        "nome": "Calor Vision",
+        "nome": "Visão de Calor",
         "bonus": 10,
         "alcance": "À distância",
         "dano": "Dano 12"
@@ -34,7 +34,7 @@
         "nome": "Desarmado",
         "bonus": 9,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 15 Powers, even in situations where restraint might be more ap- propriate. This can Criar Objetos additional"
+        "dano": "Dano 15 Poderes, even in situations where restraint might be more ap- propriate. This can Criar Objetos additional"
       }
     ],
     "defesas": {
@@ -45,7 +45,9 @@
       "Vontade": 12
     },
     "observacao_defesas": "",
-    "custos": {},
+    "custos": {
+      "Habilidades": 82
+    },
     "total": null,
     "complicacoes": [
       {

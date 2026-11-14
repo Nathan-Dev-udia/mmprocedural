@@ -2,7 +2,7 @@
 e sinais de texto quebrado vindo da extração dos PDFs. Não altera nenhum arquivo de dados.
 
 Uso, a partir da raiz do projeto:
-    python ferramentas/auditar_herois.py [saida.json] [--editora dc|marvel]
+    python ferramentas/auditar_herois.py [saida.json] [--editora dc|marvel|invencivel|outros]
 
 Imprime o resumo por código de problema e quantas fichas ficam em cada nível:
 - "revisar": falta algo essencial (habilidade, defesa) ou a ficha se contradiz de forma grave;
@@ -59,16 +59,28 @@ def auditar_marvel(fid, d):
     contagem["marvel"] += 1
     f = d["ficha"]
     np = d["nivel_poder"]
-    hab = f.get("habilidades", {})
-    for k, v in list(hab.items()) + list(f.get("habilidades_base", {}).items()):
+    hab_raw = f.get("habilidades", {})
+    pod_txt = " ".join(
+        f"{p.get('nome', '')} {p.get('nome_pt', '')} {p.get('construcao_3e', '')}"
+        for p in f.get("poderes", [])
+    ).lower()
+    imune_fort = hab_raw.get("Vig") is None and ("fortitude" in pod_txt or "imunidade 30" in pod_txt)
+    construto_sem_mente = hab_raw.get("Int") is None and hab_raw.get("Pre") is None
+    for k, v in list(hab_raw.items()) + list(f.get("habilidades_base", {}).items()):
         if not isinstance(v, int):
+            if (k == "Vig" and imune_fort) or (k in ("Int", "Pre") and construto_sem_mente):
+                continue
             p("HABILIDADE_NULA", fid, f"{k}={v}")
-    hab = {k: v for k, v in hab.items() if isinstance(v, int)}
-    if sorted(hab) != sorted(["For", "Vig", "Agi", "Des", "Lut", "Int", "Pro", "Pre"]):
-        p("HABILIDADES_INCOMPLETAS", fid, str(sorted(hab)))
+    hab = {k: v for k, v in hab_raw.items() if isinstance(v, int)}
+    if sorted(hab_raw) != sorted(["For", "Vig", "Agi", "Des", "Lut", "Int", "Pro", "Pre"]):
+        p("HABILIDADES_INCOMPLETAS", fid, str(sorted(hab_raw)))
     defs = {("Resistência" if k == "Resistencia" else k): v for k, v in f.get("defesas", {}).items()}
     for k in ("Esquiva", "Aparar", "Fortitude", "Resistência", "Vontade"):
         if not isinstance(defs.get(k), int):
+            if k == "Fortitude" and imune_fort:
+                continue
+            if k == "Vontade" and construto_sem_mente:
+                continue
             p("DEFESA_AUSENTE", fid, k)
     defs = {k: v for k, v in defs.items() if isinstance(v, int)}
     checar_limites(fid, np, hab, defs, [(a["nome"], a.get("bonus"), a.get("dano")) for a in f.get("ataques", [])])
@@ -221,6 +233,88 @@ def auditar_dc(fid, d):
     if f.get("vantagens") and re.search(r"\d+\s*points?\b", f["vantagens"]):
         p("VANTAGENS_COM_TEXTO_ESTRANHO", fid, f["vantagens"][:60])
 
+    # ficha traduzida (quando presente em traducoes/dc/)
+    trad = herois.traducao(fid)
+    if trad:
+        contagem["dc_traduzidas"] += 1
+        ft = trad.get("ficha", {})
+        if not ft.get("defesas"):
+            p("TRADUCAO_DC_SEM_DEFESAS", fid)
+        if "\ufffd" in json.dumps(trad, ensure_ascii=False):
+            p("TEXTO_CARACTERE_QUEBRADO", fid, "tradução")
+
+
+def auditar_invencivel(fid, d):
+    universo = d.get("universo", "invencivel")
+    contagem["outros" if universo == "outros" else "invencivel"] += 1
+    f = d["ficha"]
+    np = d["nivel_poder"]
+    hab_raw = f.get("habilidades", {})
+    hab = {}
+    for sigla in rules.HABILIDADES:
+        if sigla not in hab_raw:
+            p("HABILIDADE_AUSENTE", fid, sigla)
+            continue
+        v = hab_raw[sigla]
+        if isinstance(v, int):
+            hab[sigla] = v
+        elif str(v).strip() in ("-", "—", "–"):
+            hab[sigla] = None
+        else:
+            p("HABILIDADE_NAO_NUMERICA", fid, f"{sigla}={v}")
+
+    defs_raw = f.get("defesas", {})
+    defs_int = {}
+    for k in ("Esquiva", "Aparar", "Fortitude", "Resistência", "Vontade"):
+        if k not in defs_raw:
+            p("DEFESA_AUSENTE", fid, k)
+            continue
+        v = defs_raw[k]
+        if isinstance(v, int):
+            defs_int[k] = v
+        elif isinstance(v, str) and v.strip().lower() == "imune":
+            continue
+        else:
+            p("DEFESA_AUSENTE", fid, f"{k}={v}")
+
+    atk_dano = [
+        (a.get("nome", ""), a.get("bonus"), a.get("dano"))
+        for a in f.get("ataques", [])
+        if isinstance(a, dict)
+    ]
+    checar_limites(fid, np, hab, defs_int, atk_dano)
+    if not f.get("ataques"):
+        p("SEM_ATAQUES", fid)
+
+    for nome, g in f.get("pericias", {}).items():
+        if not isinstance(g, int):
+            p("PERICIA_NAO_NUMERICA", fid, f"{nome}={g}")
+        elif g > np + 10:
+            p("PERICIA_ACIMA_DO_LIMITE", fid, f"{nome} {g} > {np + 10}")
+        if herois_pdf._nome_da_pericia(nome) is None:
+            p("PERICIA_NAO_RECONHECIDA", fid, nome)
+
+    custos = f.get("custos", {})
+    tot = f.get("total") or d.get("pontos_poder")
+    if custos and tot is not None and len(custos) == 5 and sum(custos.values()) != tot:
+        p("PONTOS_SOMA_DIVERGE_DO_TOTAL", fid, f"soma {sum(custos.values())} x total {tot}")
+
+    def _textos(obj):
+        if isinstance(obj, str):
+            yield obj
+        elif isinstance(obj, dict):
+            for v in obj.values():
+                yield from _textos(v)
+        elif isinstance(obj, list):
+            for v in obj:
+                yield from _textos(v)
+
+    for s in _textos(d):
+        if "\ufffd" in s:
+            p("TEXTO_CARACTERE_QUEBRADO", fid)
+        if re.search(r"\\[-+.\[\]()*#_!]|\\+(?=\s|$)", s):
+            p("ESCAPE_MARKDOWN_RESIDUAL", fid)
+
 
 argumentos = [a for a in sys.argv[1:] if not a.startswith("--")]
 filtro = sys.argv[sys.argv.index("--editora") + 1] if "--editora" in sys.argv else None
@@ -232,13 +326,18 @@ for entrada_id, (caminho, resumo) in herois._catalogo().items():
         continue
     d = json.loads(caminho.read_text(encoding="utf-8"))
     try:
-        (auditar_marvel if resumo["editora"] == "marvel" else auditar_dc)(entrada_id, d)
+        if resumo["editora"] == "marvel":
+            auditar_marvel(entrada_id, d)
+        elif resumo["editora"] in ("invencivel", "outros"):
+            auditar_invencivel(entrada_id, d)
+        else:
+            auditar_dc(entrada_id, d)
     except (TypeError, KeyError, ValueError) as e:
         p("AUDITORIA_ERRO_DADOS_INVALIDOS", entrada_id, repr(e)[:90])
 
 ESSENCIAIS = {"HABILIDADE_AUSENTE", "HABILIDADE_NULA", "HABILIDADES_INCOMPLETAS", "DEFESA_AUSENTE", "DC_SEM_DEFESAS",
-              "MARVEL_ILEGAL_PELO_PROPRIO_JSON", "PERICIA_ACIMA_DO_LIMITE", "AUDITORIA_ERRO_DADOS_INVALIDOS",
-              "TEXTO_CARACTERE_QUEBRADO"}
+              "TRADUCAO_DC_SEM_DEFESAS", "MARVEL_ILEGAL_PELO_PROPRIO_JSON", "PERICIA_ACIMA_DO_LIMITE",
+              "AUDITORIA_ERRO_DADOS_INVALIDOS", "TEXTO_CARACTERE_QUEBRADO", "ESCAPE_MARKDOWN_RESIDUAL"}
 MECANICOS = {"PONTOS_SOMA_DIVERGE_DO_TOTAL", "CUSTO_HABILIDADES_DIVERGE", "CUSTO_PERICIAS_DIVERGE",
              "PERICIA_TOTAL_MENOR_QUE_BASE", "LIMITE_ESQUIVA_RESIST", "LIMITE_APARAR_RESIST", "LIMITE_FORT_VONTADE",
              "LIMITE_ATAQUE_DANO", "DEFESA_MENOR_QUE_HABILIDADE", "PERICIAS_NAO_LIDAS", "HABILIDADE_NAO_NUMERICA",

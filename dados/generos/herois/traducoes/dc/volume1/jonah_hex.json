@@ -15,27 +15,27 @@
     },
     "poderes": [
       "Gunplay: Arranjo (2 pontos)",
-      "• Training: Enhanced Skill 2 (À Distância Combat: Guns +4) (2 PP)",
-      "• Independent Aim: May fogo two guns of Dano 4 or less at once (Característica 1) (1 PP)"
+      "• Training: Perícia Aprimorada 2 (À Distância Combat: Armas de Fogo +4) (2 PP)",
+      "• Independent Aim: May Fogo two Armas de Fogo of Dano 4 or less at once (Característica 1) (1 PP)"
     ],
     "equipamento": [
       "Twin Colt .45 Revolvers: Dano à Distância 4 (16 PP)",
-      "Winchester Rifle: Dano à Distância 5, Crit. 19-20 (11 PP)",
-      "Bowie Knife: Força-based Dano 1, Crit. 19-20 (2 PP)",
-      "Cavalry Saber: Força-based Dano 3, Crit. 19-20 (4 PP)"
+      "Winchester Rifle: Dano à Distância 5, Crít. 19-20 (11 PP)",
+      "Bowie Knife: Força-based Dano 1, Crít. 19-20 (2 PP)",
+      "Cavalry Saber: Força-based Dano 3, Crít. 19-20 (4 PP)"
     ],
     "vantagens": [
       "Rolamento Defensivo 2",
       "Duro de Matar",
       "Equipamento 7",
       "Destemido",
-      "Grande Vigor",
+      "Tolerância Maior",
       "Mira Aprimorada",
-      "Improved Critical 2 (Guns)",
+      "Crítico Aprimorado 2 (Armas de Fogo)",
       "Iniciativa Aprimorada",
       "Arma Improvisada 2",
-      "Languages (Apache)",
-      "Precise Attack 2 (à distância; Cover and Concealment)",
+      "Idiomas (Apache)",
+      "Ataque Preciso 2 (À Distância; Cobertura e Camuflagem)",
       "Saque Rápido",
       "Tomar a Iniciativa",
       "Rastrear",
@@ -84,12 +84,12 @@
         "total": 8
       },
       {
-        "nome": "Combate à Distância: Guns",
+        "nome": "Combate à Distância: Armas de Fogo",
         "graduacoes": 2,
         "total": 7
       },
       {
-        "nome": "Combate à Distância: Throwing",
+        "nome": "Combate à Distância: Arremesso",
         "graduacoes": 4,
         "total": 9
       },
@@ -110,19 +110,19 @@
         "nome": "Colt Pistola",
         "bonus": 11,
         "alcance": "À distância",
-        "dano": "Dano 4, Crit. 18-20"
+        "dano": "Dano 4, Crít. 18-20"
       },
       {
         "nome": "Rifle",
         "bonus": 11,
         "alcance": "À distância",
-        "dano": "Dano 5, Crit. 17-20"
+        "dano": "Dano 5, Crít. 17-20"
       },
       {
         "nome": "Saber",
         "bonus": 9,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 5, Crit. 19-20"
+        "dano": "Dano 5, Crít. 19-20"
       }
     ],
     "defesas": {
@@ -148,11 +148,11 @@
       },
       {
         "titulo": "Honra",
-        "texto": "Hex has a personal code of honor that compels him to help and avenge the innocent. This often gets him involved in things he says he’d rather steer clear of."
+        "texto": "Hex has a personal code of honor that compels him to help e avenge the innocent. This often gets him involved in things he says he’d rather steer clear of."
       },
       {
         "titulo": "Preconceito",
-        "texto": "Jonah was given the mark of the demon—a very distinctive scar—by the Apache, which makes him very recognizable and more than a little ugly. He has a hard time going unnoticed even when he wants to."
+        "texto": "Jonah was given the mark of the demon—a very distinctive scar—by the Apache, which makes him very recognizable e more than a little ugly. He has a hard time going unnoticed even when he wants to."
       }
     ]
   },

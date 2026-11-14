@@ -14,12 +14,12 @@
       "Pre": 1
     },
     "poderes": [
-      "Lightning Form (Ativação (Ação de Movimento -1 ponto): Electrical Control (Arranjo (25 pontos), Raio 11 (Preciso 3), AE: Nulificar Electronics 7 (Preciso 3, Effortless, Simultaneous), AE: Stun * Aflição à Distância 11, Preciso 3 (resistido por Fortitude; Tonto, Atordoado, Incapacitado))); Energy Aura 6 ; Enhanced Esquiva 4 ; Voo 6 (192 km/h); Campo de Força 7"
+      "Lightning Form (Ativação (Ação de Movimento -1 ponto): Elétrico Control (Arranjo (25 pontos), Raio 11 (Acurado 3), AE: Nulificar Eletrônica 7 (Acurado 3, Effortless, Simultâneo), AE: Stun * Aflição à Distância 11, Acurado 3 (resistido por Fortitude; Tonto, Atordoado, Incapacitado))); Energia Aura 6 ; Esquiva Aprimorada 4 ; Voo 6 (192 km/h); Campo de Força 7"
     ],
     "equipamento": [],
     "vantagens": [
       "Ataque Defensivo",
-      "Provocar"
+      "Zombar"
     ],
     "pericias": [
       {
@@ -87,11 +87,11 @@
     "complicacoes": [
       {
         "titulo": "Uncontrolled Powers",
-        "texto": "Pierce has difficulty controlling her Abilities and must work at not shorting out delicate electronics around her."
+        "texto": "Pierce has difficulty controlling her Habilidades e must work at not shorting out delicate Eletrônica around her."
       },
       {
         "titulo": "Perda de Poder",
-        "texto": "Jennifer has no Powers when she’s not in her Lightning form."
+        "texto": "Jennifer has no Poderes when she’s not in her Lightning form."
       }
     ]
   },

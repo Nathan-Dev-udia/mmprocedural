@@ -49,21 +49,21 @@
     "poderes": [
       {
         "nome": "Extra Limbs",
-        "construcao_3e": "Extra Limbs 1.",
+        "construcao_3e": "Membros Extras 1.",
         "custo_2e_pp": 1,
         "custo_3e_pp": 1,
         "nome_pt": "Cauda Preênsil"
       },
       {
         "nome": "Hellfire Control",
-        "construcao_3e": "Controle de Fogo Infernal 8 (Dano à Distância 8; 16 PP); Efeito Alternativo: Possessão (Aflição 8 ligada a Insubstancial 4; 1 PP). Array total: 17 PP.",
+        "construcao_3e": "Controle de Fogo Infernal 8 (Dano à Distância 8; 16 PP); Efeito Alternativo: Possessão (Aflição 8 ligada a Insubstancial 4; 1 PP). Arranjo total: 17 PP.",
         "custo_2e_pp": 17,
         "custo_3e_pp": 17,
         "nome_pt": "Fogo Infernal e Possessão"
       },
       {
         "nome": "Movement",
-        "construcao_3e": "Movimento 2 (Wall-Crawling).",
+        "construcao_3e": "Movimento 2 (Escalar Paredes).",
         "custo_2e_pp": 4,
         "custo_3e_pp": 4,
         "nome_pt": "Escalar Paredes"

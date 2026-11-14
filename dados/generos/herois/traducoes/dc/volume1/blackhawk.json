@@ -26,10 +26,10 @@
       "Defesa Aprimorada",
       "Iniciativa Aprimorada",
       "Inspirar 2",
-      "Languages",
+      "Idiomas",
       "Liderança",
       "Ataque Poderoso",
-      "Takedown Attack",
+      "Ataque Dominó",
       "Trabalho em Equipe"
     ],
     "pericias": [
@@ -79,7 +79,7 @@
         "total": 8
       },
       {
-        "nome": "Combate à Distância: Firearms",
+        "nome": "Combate à Distância: Armas de Fogo",
         "graduacoes": 5,
         "total": 9
       },
@@ -128,7 +128,7 @@
     "complicacoes": [
       {
         "titulo": "Justice",
-        "texto": "Blackhawk is committed to avenging the wrongs of tyranny and worldwide."
+        "texto": "Blackhawk is committed to avenging the wrongs of tyranny e worldwide."
       },
       {
         "titulo": "Inimigo",

@@ -16,19 +16,19 @@
     "poderes": [],
     "equipamento": [],
     "vantagens": [
-      "Benefit 3 (wealth and resources)",
+      "Benefício 3 (Riqueza e resources)",
       "Contatos",
       "Rolamento Defensivo 2",
-      "Ferramentas Improvisadas",
+      "Ferramentas Aprimoradas",
       "Inventor",
-      "Languages 2",
+      "Idiomas 2",
       "Liderança",
       "Maestria em Perícia (Tecnologia)",
-      "Bem-Informado"
+      "Bem Informado"
     ],
     "pericias": [
       {
-        "nome": "Especialidade: Science",
+        "nome": "Especialidade: Ciência",
         "graduacoes": 12,
         "total": 20
       },
@@ -81,7 +81,7 @@
     "complicacoes": [
       {
         "titulo": "d oing Good",
-        "texto": "Magnus is driven to better the world any way he can. o bsession—S cience: Magnus is a scientist first and foremost. He is easily consumed by work and distracted by new gadgets or technology. to pursue scientific exploration. Sending the Metal Men into battle against scientific curiosities and experiments gone awry, Magnus not only gathers interesting data, he also reas- sures the public that super science can and Vontade be used as a tool to benefit mankind. Like all else in Magnus’ life, his posi- tion is a rational one, as he tends to be Cego to the emotions of those around him, even (and especially) the Metal Men. g o L d Stalwart and reliable, Gold is entrusted by Doc Magnus to lead the Metal Men on the battlefield. Sometimes accused of having no personality, Gold has recently been experimenting with an ego and referring to himself in the third person, as he has decided befits a hero given his responsibility—though what he calls self-respect and self-confidence, his teammates often call vanity and egotism."
+        "texto": "Magnus is driven to better the world any way he can. o bsession—S cience: Magnus is a scientist first e foremost. He is easily consumed by work e distracted by new gadgets or Tecnologia. to pursue scientific exploration. Sending the Metal Men into battle contra scientific curiosities e experiments gone awry, Magnus not Apenas gathers interesting data, he also reas- sures the public that super Ciência can e Vontade be used as a tool to benefit mankind. Like all else in Magnus’ life, his posi- tion is a rational one, as he tends to be Cego to the emotions of those around him, even (e especially) the Metal Men. g o L d Stalwart e reliable, Gold is entrusted by Doc Magnus to lead the Metal Men on the battlefield. Sometimes accused of having no personality, Gold has recently been experimenting com an ego e referring to himself in the third person, as he has decided befits a hero given his responsibility—though what he calls self-respect e self-confidence, his teammates often call vanity e egotism."
       }
     ]
   },

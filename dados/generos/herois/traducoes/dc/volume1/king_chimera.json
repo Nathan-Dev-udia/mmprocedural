@@ -14,15 +14,15 @@
       "Pre": 1
     },
     "poderes": [
-      "Ilusão 9 ((All Sentidos), área 3 (60 feet))"
+      "Ilusão 9 ((All Sentidos), área 3 (60 pés))"
     ],
     "equipamento": [],
     "vantagens": [
       "Tontear",
       "Memória Eidética",
-      "Pau pra Toda Obra",
+      "Faz Tudo",
       "Redirecionar",
-      "Preparar"
+      "Armação"
     ],
     "pericias": [
       {
@@ -54,6 +54,12 @@
     "iniciativa": 2,
     "ataques": [
       {
+        "nome": "Ilusão",
+        "bonus": null,
+        "alcance": "Percepção",
+        "dano": "área, Ilusão 9"
+      },
+      {
         "nome": "Desarmado",
         "bonus": 4,
         "alcance": "",
@@ -79,7 +85,7 @@
     "complicacoes": [
       {
         "titulo": "Own Worst Enemy",
-        "texto": "King Chimera is arrogant, abrasive, self-absorbed, and generally unlikable by most standards."
+        "texto": "King Chimera is arrogant, abrasive, self-absorbed, e generally unlikable by most standards."
       }
     ]
   },

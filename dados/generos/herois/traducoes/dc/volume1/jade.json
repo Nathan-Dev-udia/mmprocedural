@@ -14,19 +14,19 @@
       "Pre": 3
     },
     "poderes": [
-      "Voo: Voo 13 (16,0 km/h), Movimento 4 (Environmental Adaptation: Zero-G, Space Travel 3) (34 PP)",
+      "Voo: Voo 13 (25.600 km/h), Movimento 4 (Adaptação Ambiental: Zero-G, Viagem Espacial 3) (34 PP)",
       "Starheart Proteção: Impenetrável Proteção 11; Imunidade 11 (Envelhecimento, Suporte Vital) (33 PP)",
       "Starheart Manipulation: Arranjo (26 pontos)",
-      "• Force Raio: Dano à Distância 13, Dynamic (27 PP)",
-      "• Force Constructs: Criar Objetos 13, Dynamic (2 PP)",
-      "• Lifting: Mover Objetos 13, Dynamic (2 PP)",
-      "Psychic Bond: Sentidos 1 (Comunicação Link: Obsidian) (1 PP)",
-      "Starheart Sight: Sentidos 4 (Analítico Vision, Aguçado mágico Prontidão) (4 PP)"
+      "• Force Raio: Dano à Distância 13, Dinâmico (27 PP)",
+      "• Force Constructs: Criar Objetos 13, Dinâmico (2 PP)",
+      "• Lifting: Mover Objetos 13, Dinâmico (2 PP)",
+      "Psíquico Bond: Sentidos 1 (Elo de Comunicação: Obsidian) (1 PP)",
+      "Starheart Visão: Sentidos 4 (Analítico Visão, Aguçado Consciência Mágica) (4 PP)"
     ],
     "equipamento": [],
     "vantagens": [
       "Atraente",
-      "Benefit 1 (Well-off)",
+      "Benefício 1 (Abastado)",
       "Destemido",
       "Liderança",
       "Trabalho em Equipe"
@@ -43,12 +43,12 @@
         "total": 8
       },
       {
-        "nome": "Especialidade: Journalism",
+        "nome": "Especialidade: Jornalismo",
         "graduacoes": 5,
         "total": 8
       },
       {
-        "nome": "Especialidade: Popular Culture",
+        "nome": "Especialidade: Cultura Popular",
         "graduacoes": 5,
         "total": 8
       },
@@ -63,7 +63,7 @@
         "total": 9
       },
       {
-        "nome": "Combate à Distância: Starheart Powers",
+        "nome": "Combate à Distância: Starheart Poderes",
         "graduacoes": 6,
         "total": 9
       },
@@ -112,15 +112,15 @@
     "complicacoes": [
       {
         "titulo": "Power Issues",
-        "texto": "Jade has lost her Powers at times and has even manifested new Abilities on occasion. During her time as a Green Lantern her ring had the Complications common to the Green Lantern Corps."
+        "texto": "Jade has lost her Poderes at times e has even manifested new Habilidades on occasion. During her time as a Green Lantern her ring had the Complications common to the Green Lantern Corps."
       },
       {
         "titulo": "Relacionamentos",
-        "texto": "Green Lantern (Alan Scott (father)), Obsidian (twin brother), Green Lantern (Kyle Rayner (ex-lover and friend)."
+        "texto": "Green Lantern (Alan Scott (father)), Obsidian (twin brother), Green Lantern (Kyle Rayner (ex-lover e friend)."
       },
       {
         "titulo": "Fraqueza",
-        "texto": "Like her father’s, Jade’s Powers do not work on wood."
+        "texto": "Like her father’s, Jade’s Poderes do not work on wood."
       }
     ]
   },

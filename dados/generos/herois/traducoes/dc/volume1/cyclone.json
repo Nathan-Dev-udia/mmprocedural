@@ -14,14 +14,13 @@
       "Pre": 1
     },
     "poderes": [
-      "Air Control (Arranjo (18 pontos): Área de Cone Mover Objetos 9 (Corpo a Corpo Range), AE: Air Raio (Área de Cone Dano 9), AE: Air Cushion (Área de Explosão Safe Fall, Affects Others), AE: Tornado Burst ( área Mover Objetos 9, Corpo a Corpo Range)); Cyclone “Escudo” (Enhanced Defenses (Esquiva 13, Aparar 13), Perceptível); Voo 5 (96 km/h; Affects Others)"
+      "Air Control (Arranjo (18 pontos): Área de Cone Mover Objetos 9 (Alcance Perto), AE: Air Raio (Área de Cone Dano 9), AE: Air Cushion (Área de Explosão Queda Segura, Afeta Outros), AE: Tornado Estouro ( área Mover Objetos 9, Alcance Perto)); Cyclone “Escudo” (Defesas Aprimoradas (Esquiva 13, Aparar 13), Perceptível); Voo 5 (96 km/h; Afeta Outros)"
     ],
     "equipamento": [],
     "vantagens": [
       "Rolamento Defensivo",
       "Sorte 2",
-      "Minion 2 (Frankie",
-      "pet monkey)"
+      "Capanga 2 (Frankie, pet monkey)"
     ],
     "pericias": [
       {
@@ -63,6 +62,12 @@
     "iniciativa": 2,
     "ataques": [
       {
+        "nome": "Air Raio",
+        "bonus": null,
+        "alcance": "",
+        "dano": "Área de Cone Dano 9"
+      },
+      {
         "nome": "Desarmado",
         "bonus": 2,
         "alcance": "",
@@ -92,7 +97,7 @@
       },
       {
         "titulo": "Naive",
-        "texto": "Maxine is young and inexperienced, so she’s easily duped and misled."
+        "texto": "Maxine is young e inexperienced, so she’s easily duped e misled."
       }
     ]
   },

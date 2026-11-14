@@ -178,6 +178,7 @@ def test_faroeste_e_fantasia_tem_os_dois_livros():
     assert livros.livros_disponiveis("faroeste") == ["jogador", "mestre"]
     assert livros.livros_disponiveis("cyberpunk") == ["jogador", "mestre"]
     assert livros.livros_disponiveis("escola_de_magia") == ["jogador", "mestre"]
+    assert livros.livros_disponiveis("cthulhu") == ["jogador", "mestre"]
 
 
 def test_tabelas_de_equipamento_fantasia_incluem_precos_e_equivalentes():

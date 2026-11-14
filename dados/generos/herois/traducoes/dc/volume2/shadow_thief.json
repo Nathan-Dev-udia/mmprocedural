@@ -14,8 +14,8 @@
       "Pre": 1
     },
     "poderes": [
-      "Shadow f orm: Affects Corporeal on Força 2; Camuflagem 4 (All Visual, Limitado a Darkness and Shadows); Força- based Dano 3, Affects Corporeal; Enhanced Defenses 8 (Esquiva 4, Aparar 4); Enhanced Advantages 3 (Hide in Plain Sight, Instant Up, Move-by Action, Skill Mastery 2 (Sleight of Hand, Stealth)); Imunidade 10 (Suporte Vital); Intangibilidade 4 (Shadow Form); Movimento 3 (Slithering, Wall-crawling 2); Removível, -12 pts (49 PP)",
-      "a V ant G d a e S Preciso Attack, Agile Feint, Chokehold, Corpo a Corpo Attack 6, Defensive Roll 3, Evasion, Grabbing Finesse, Hide in Plain Sight, Improved Hold, Improved Iniciativa, Improved Trip, Instant Up, Move-by Action, Skill Mastery 2 (Sleight of Hand, Stealth)"
+      "Shadow f orm: Afeta Corpóreo on Força 2; Camuflagem 4 (All Visual, Limitado a Escuridão e Shadows); Força- based Dano 3, Afeta Corpóreo; Defesas Aprimoradas 8 (Esquiva 4, Aparar 4); Vantagens Aprimoradas 3 (Esconder-se à Plena Vista, De Pé, Ação em Movimento, Perícia Mastery 2 (Prestidigitação, Furtividade)); Imunidade 10 (Suporte Vital); Intangibilidade 4 (Shadow Form); Movimento 3 (Rastejar, Escalar Paredes 2); Removível, -12 pts (49 PP)",
+      "a V ant G d a e S Acurado Attack, Finta Ágil, Chokehold, Corpo a Corpo Attack 6, Rolamento Defensivo 3, Evasão, Grabbing Finesse, Hide in Plain Visão, Improved Hold, Iniciativa Aprimorada, Improved Trip, De Pé, Ação em Movimento, Perícia Mastery 2 (Prestidigitação, Furtividade)"
     ],
     "equipamento": [],
     "vantagens": [],
@@ -66,8 +66,15 @@
         "total": 6
       }
     ],
-    "iniciativa": 0,
-    "ataques": [],
+    "iniciativa": 9,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 11,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 5"
+      }
+    ],
     "defesas": {
       "Esquiva": 11,
       "Fortitude": 7,
@@ -87,7 +94,7 @@
     "complicacoes": [
       {
         "titulo": "d elusional",
-        "texto": "Sands’ long-term exposure to the energies of the Dimensiomet er has affected his mind and weakened his grasp on reality, to the extent that he sometimes engages in long conversations with the inanimate Dimensiometer itself. temporary power boosts from patrons like Neron and Star - breaker. aLLI e S Sands really doesn’t play well with others and only has allies, such as the Injustice League, when absolutely necessary for his plans or bank account. Powerful patrons like Starbreaker, whose offers appeal to his greed or ambition, are another matter entirely. e ne MI e S Hawkman and Hawkwoman are the most prominent, but his involvement in the death of Firestorm and humiliation at Manhunter’s (Kate Spencer) hands has probably added her and the resurrected Firestorm to the list."
+        "texto": "Sands’ long-term exposure to the energies of the Dimensiomet er has affected his mind e weakened his grasp on reality, to the extent that he sometimes engages in long conversations com the inanimate Dimensiometer itself. temporary Poder boosts from patrons like Neron e Star - breaker. aLLI e S Sands really doesn’t play well com others e Apenas has allies, such as the Injustice League, when absolutely necessary for his plans or bank account. Powerful patrons like Starbreaker, whose offers appeal to his greed or ambition, are another matter entirely. e ne MI e S Hawkman e Hawkwoman are the most prominent, but his involvement in the death of Firestorm e humiliation at Manhunter’s (Kate Spencer) hands has probably added her e the resurrected Firestorm to the list."
       }
     ]
   },

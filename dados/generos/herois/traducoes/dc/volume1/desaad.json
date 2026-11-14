@@ -20,12 +20,12 @@
       "Considerable (see description)"
     ],
     "vantagens": [
-      "Benefit 5 (Darkseid’s Elite)",
+      "Benefício 5 (Darkseid's Elite)",
       "Ataque Defensivo",
       "Rolamento Defensivo 2",
       "Memória Eidética",
       "Inventor",
-      "Bem-Informado"
+      "Bem Informado"
     ],
     "pericias": [
       {
@@ -90,7 +90,7 @@
         "nome": "Desarmado",
         "bonus": 3,
         "alcance": "",
-        "dano": "(Dano 1)"
+        "dano": "Dano 1"
       }
     ],
     "defesas": {

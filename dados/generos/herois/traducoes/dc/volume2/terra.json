@@ -15,30 +15,29 @@
     },
     "poderes": [
       "f lying r ocks: Voo 6 (192 km/h), Sutil, Platform (chunk of rock) (7 PP)",
-      "Geokinesis: Dynamic Arranjo (28 pontos)",
-      "• Shift e arth: Criar Objetos 13 (Rock/Earth), Contínuo, Extended Range, Inato, Limitado: Needs ground or rock (29 PP)",
-      "• Catapult Golpe: Dano à Distância 14, Limitado: Needs ground or rock, Linked to Aflição à Distância 14 (resistido por Esquiva; Tonto and Vulnerável, Imóvel and Prone), Extra Condition, Instant Recovery, Limitado Degree; Dynamic (2 PP)",
-      "• d rill t hr ough: À Distância Escavação 9, Affects Others (2 PP)",
-      "• Jagged e arth: Environment 4 (250 foot Raio, Criar Objetos uneven ground conditions; Impede Movimento 2), Seletivo (2 PP)",
+      "Geokinesis: Arranjo Dinâmico (28 pontos)",
+      "• Shift e arth: Criar Objetos 13 (Rock/Earth), Contínuo, Estendido Range, Inato, Limitado: Needs ground or rock (29 PP)",
+      "• Catapult Golpe: Dano à Distância 14, Limitado: Needs ground or rock, Ligado a Aflição à Distância 14 (resistido por Esquiva; Tonto e Vulnerável, Imóvel e Caído), Extra Condition, Instant Recovery, Limitado Grau; Dinâmico (2 PP)",
+      "• d rill t hr ough: À Distância Escavação 9, Afeta Outros (2 PP)",
+      "• Jagged e arth: Ambiente 4 (250 foot Raio, Criar Objetos uneven ground conditions; Impede Movimento 2), Seletivo (2 PP)",
       "• Sinkhole: Aflição à Distância 14 (resistido por Esquiva; Impedido, Imóvel, Paralisado), Contínuo, Cumulativo, Limitado a targets on the ground, Resistível (Fortitude) (2 PP)",
       "• Stone Barrage: Dano à Distância 14, Multiataque, Limitado: Needs ground or rock (2 PP)",
-      "• t r emors: área Burst 2 (60 feet) Aflição 12 (resistido por Esquiva; Impedido and Vulnerável, Indefeso and Prone), Extra Condition, Concentração, Instant Recovery, Limitado Degree, Limitado a targets on the ground (2 PP)",
-      "• Undermine: área Burst 2 (60 feet) Enfraquecer Resistência 12, Affects Only Objects, Limitado a targets on the ground (2 PP)",
-      "r ock Shields: Dynamic Arranjo (12 pontos)",
+      "• t r emors: área Estouro 2 (60 pés) Aflição 12 (resistido por Esquiva; Impedido e Vulnerável, Indefeso e Caído), Extra Condition, Concentração, Instant Recovery, Limitado Grau, Limitado a targets on the ground (2 PP)",
+      "• Undermine: área Estouro 2 (60 pés) Enfraquecer Resistência 12, Afeta Apenas Objetos, Limitado a targets on the ground (2 PP)",
+      "r ock Shields: Arranjo Dinâmico (12 pontos)",
       "• Stone"
     ],
     "equipamento": [],
     "vantagens": [
       "Ataque Imprudente",
-      "Evasion",
-      "Grande Vigor",
+      "Evasão",
+      "Tolerância Maior",
       "Defesa Aprimorada",
-      "Levantar Rápido",
-      "Languages (Markovian",
-      "English)",
+      "De Pé",
+      "Idiomas (Markovian, Inglês)",
       "Ataque Poderoso",
-      "Maestria em Perícia (Deception checks)",
-      "Provocar"
+      "Maestria em Perícia (Enganação Testes)",
+      "Zombar"
     ],
     "pericias": [
       {
@@ -67,7 +66,7 @@
         "total": 12
       },
       {
-        "nome": "Combate à Distância: Geokinesis à distância Powers",
+        "nome": "Combate à Distância: Geokinesis à distância Poderes",
         "graduacoes": 7,
         "total": 10
       },
@@ -77,20 +76,44 @@
         "total": 9
       }
     ],
-    "iniciativa": 0,
-    "ataques": [],
-    "defesas": {},
+    "iniciativa": 3,
+    "ataques": [
+      {
+        "nome": "Geokinesis",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Dano 14 or others"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 2,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 0"
+      }
+    ],
+    "defesas": {
+      "Esquiva": 8,
+      "Fortitude": 7,
+      "Aparar": 6,
+      "Resistência": 14,
+      "Vontade": 6
+    },
     "observacao_defesas": "",
-    "custos": {},
-    "total": null,
+    "custos": {
+      "Habilidades": 32,
+      "Perícias": 25,
+      "Poderes": 65,
+      "Defesas": 19
+    },
+    "total": 150,
     "complicacoes": [
       {
         "titulo": "Unbalanced",
-        "texto": "Behind her rough but likeable personality, Tara is amoral and a borderline sociopath; while she can control herself in order to complete her objectives, she can fly into destructive rages. Her Geokinesis increases exponentially while in this state, but she can’t control it as finely. i mmor al Loyalty: Tara is Deathstroke’s lover, despite the large age difference between them (and her being underage as well). She is only loyal to him, and his manipulations always succeed with her."
+        "texto": "Behind her rough but likeable personality, Tara is amoral e a borderline sociopath; while she can control herself in order to complete her objectives, she can fly into destructive rages. Her Geokinesis increases exponentially while in this state, but she can’t control it as finely. i mmor al Loyalty: Tara is Deathstroke’s lover, despite the large age difference between them (e her being underage as well). She is Apenas loyal to him, e his manipulations always succeed com her."
       },
       {
         "titulo": "Markovian Bastard",
-        "texto": "Tara is the unrecognized daughter of the King of Markovia and half-sister to Geo-Force, the legitimate (if abdicating) heir. She is very resentful of being exiled along with her mother."
+        "texto": "Tara is the unrecognized daughter of the King of Markovia e half-sister to Geo-Force, the legitimate (if abdicating) heir. She is very resentful of being exiled along com her mother."
       }
     ]
   },

@@ -54,7 +54,7 @@
         "nome": "Desarmado",
         "bonus": 8,
         "alcance": "",
-        "dano": "(Dano 10)"
+        "dano": "Dano 10"
       }
     ],
     "defesas": {

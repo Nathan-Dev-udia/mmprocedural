@@ -348,53 +348,5 @@
    "marvel/x_23",
    "161.5 > 150"
   ]
- ],
- "HABILIDADE_NULA": [
-  [
-   "marvel/chamber",
-   "Vig=None"
-  ],
-  [
-   "marvel/sentinel",
-   "Vig=None"
-  ],
-  [
-   "marvel/sentinel",
-   "Int=None"
-  ],
-  [
-   "marvel/sentinel",
-   "Pre=None"
-  ]
- ],
- "HABILIDADES_INCOMPLETAS": [
-  [
-   "marvel/chamber",
-   "['Agi', 'Des', 'For', 'Int', 'Lut', 'Pre', 'Pro']"
-  ],
-  [
-   "marvel/sentinel",
-   "['Agi', 'Des', 'For', 'Lut', 'Pro']"
-  ]
- ],
- "DEFESA_AUSENTE": [
-  [
-   "marvel/chamber",
-   "Fortitude"
-  ],
-  [
-   "marvel/sentinel",
-   "Fortitude"
-  ],
-  [
-   "marvel/sentinel",
-   "Vontade"
-  ]
- ],
- "MARVEL_ILEGAL_PELO_PROPRIO_JSON": [
-  [
-   "marvel/chamber",
-   "{'ataque_mais_dano_maximo': 14, 'esquiva_mais_resistencia': 20, 'aparar_mais_resistencia': 20, 'fortitude_mais_vontade': None, 'legal': False}"
-  ]
  ]
 }

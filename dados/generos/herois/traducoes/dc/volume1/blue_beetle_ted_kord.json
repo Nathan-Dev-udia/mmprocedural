@@ -14,23 +14,23 @@
       "Pre": 2
     },
     "poderes": [
-      "BB Gun: Arranjo (16 pontos), Facilmente Removível (–6 pontos) • Blinding Strobe Corpo a Corpo Área de Cone Ofuscar 8 (resistido por Fortitude; Impaired Sight, Disabled Sight, Unaware) (16 PP)",
-      "• • Air Burst: Área de Cone Mover Objetos 3, Contracted Range 3, Instant Duration, Limitado Direction: Straight Away (1 PP)",
+      "BB Gun: Arranjo (16 pontos), Facilmente Removível (-6 pontos) • Blinding Strobe Corpo a Corpo Área de Cone Ofuscar 8 (resistido por Fortitude; Prejudicado Visão, Desabilitado Visão, Desatento) (16 PP)",
+      "• • Air Estouro: Área de Cone Mover Objetos 3, Contracted Range 3, Instant Duration, Limitado Direction: Straight Away (1 PP)",
       "• • Air Hammer: Dano à Distância 8 (1 PP)"
     ],
     "equipamento": [
       "THE BUG: VEHICLE (63 PP)",
-      "Size: Huge Str 8 Velocidade 8 (Voo) Def 8 Tou 9 Features: Alarm 3 (CD 30), Navigation System, Remote Control; Natação 6 (48 km/h); Imunidade 10 (Suporte Vital); Dano à Distância 10; Característica 1 (Skywire allows pilot to move between flying Bug and ground), Enhanced Skill 12 (Investigate +6, À Distância Combat: Heavy Weapons +6) Other Equipment: Blue Beetle has 5 pontos to spend on other equipment."
+      "Size: Huge Str 8 Velocidade 8 (Voo) Def 8 Tou 9 Características: Alarm 3 (CD 30), Navegação System, Remote Control; Natação 6 (48 km/h); Imunidade 10 (Suporte Vital); Dano à Distância 10; Característica 1 (Skywire allows pilot to move between flying Bug e ground), Perícia Aprimorada 12 (Investigação +6, À Distância Combat: Heavy Weapons +6) Other Equipment: Blue Beetle has 5 pontos to spend on other equipment."
     ],
     "vantagens": [
       "Finta Ágil",
-      "Benefit 3 (Millionaire)",
+      "Benefício 3 (Milionário)",
       "Contatos",
       "Rolamento Defensivo 4",
       "Equipamento 14",
-      "Evasion",
+      "Evasão",
       "Iniciativa Aprimorada",
-      "Levantar Rápido",
+      "De Pé",
       "Inventor",
       "Sorte 3",
       "Ação em Movimento",
@@ -61,7 +61,7 @@
         "total": 7
       },
       {
-        "nome": "Especialidade: Science",
+        "nome": "Especialidade: Ciência",
         "graduacoes": 6,
         "total": 13
       },
@@ -107,7 +107,13 @@
         "nome": "Desarmado",
         "bonus": 12,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 3 Blinding Strobe — Corpo a Corpo, Área de Cone Ofuscar 8"
+        "dano": "Dano 3"
+      },
+      {
+        "nome": "Blinding Strobe",
+        "bonus": null,
+        "alcance": "Corpo a corpo",
+        "dano": "Área de Cone Ofuscar 8"
       },
       {
         "nome": "Air Hammer",
@@ -135,11 +141,11 @@
     "complicacoes": [
       {
         "titulo": "Blue and Gold",
-        "texto": "Blue Beetle is best friends with Booster Gold, and their shared misadventures and sense of humor are notorious."
+        "texto": "Blue Beetle is best friends com Booster Gold, e their shared misadventures e sense of humor are notorious."
       },
       {
         "titulo": "Legacy",
-        "texto": "After he was injured saving Ted Kord’s life, the Moribundo wish of the first Blue Beetle (Dan Garrett) was that Kord carry on and continue his battle against evil. Kord’s adventuring as the Blue Beetle is a never-ending effort to live up to the name and wishes of his predecessor."
+        "texto": "After he was injured saving Ted Kord’s life, the Moribundo wish of the first Blue Beetle (Dan Garrett) was that Kord carry on e continue his battle contra evil. Kord’s adventuring as the Blue Beetle is a never-ending effort to live up to the name e wishes of his predecessor."
       }
     ]
   },

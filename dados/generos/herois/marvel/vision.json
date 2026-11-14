@@ -58,7 +58,7 @@
       },
       {
         "nome": "Density",
-        "construcao_3e": "Array de Densidade Sintozóide: Proteção 6 Impenetrável 6, Inamovível 4, Super-Força 4 (24 PP); Efeito Alternativo: Insubstancial 4 (Forma Intangível; 1 PP) = 25 PP.",
+        "construcao_3e": "Arranjo de Densidade Sintozóide: Proteção 6 Impenetrável 6, Inamovível 4, Super-Força 4 (24 PP); Efeito Alternativo: Insubstancial 4 (Forma Intangível; 1 PP) = 25 PP.",
         "custo_2e_pp": 25,
         "custo_3e_pp": 25,
         "nome_pt": "Controle de Densidade e Intangibilidade"
@@ -107,7 +107,7 @@
       },
       {
         "nome": "Super Strength",
-        "construcao_3e": "Super-Força / Power-Lifting 4 (4 PP).",
+        "construcao_3e": "Super-Força / Levantamento de Peso 4 (4 PP).",
         "custo_2e_pp": 8,
         "custo_3e_pp": 4,
         "nome_pt": "Super-Força / Power-Lifting"

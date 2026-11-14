@@ -14,23 +14,23 @@
       "Pre": 5
     },
     "poderes": [
-      "Electromagnetic Prontidão : Sentidos 2 (À Distância Detect Electromagnetic Fields) (2 PP)",
-      "Magnetic Aura: Proteção 8, Sustentado (8 PP)",
-      "Magnetic Voo: Voo 8 (800 km/h) (16 PP)",
-      "Magnetic Manipulation: Arranjo (24 pontos)",
+      "Electromagnetic Consciência : Sentidos 2 (À Distância Detectar Electromagnetic Fields) (2 PP)",
+      "Magnético Aura: Proteção 8, Sustentado (8 PP)",
+      "Magnético Voo: Voo 8 (800 km/h) (16 PP)",
+      "Magnético Manipulation: Arranjo (24 pontos)",
       "• Projectile Attack: À Distância Attack 12 (24 PP)",
-      "• Magnetic Construct: Criar Objetos 11, Inato, Preciso (1 PP)",
+      "• Magnético Construct: Criar Objetos 11, Inato, Preciso (1 PP)",
       "• Magnetism: Mover Objetos 12, Preciso, Limitado a Metal (1 PP)"
     ],
     "equipamento": [
-      "Voo Ring: Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal –3 pontos); Voo 7 (400 km/h), Removível (–3 pontos) (16 PP)",
-      "Telepathic Plug: Compreender 3 (Languages); mental Comunicação 1 (Corpo a Corpo Range), Removível (–1 ponto) (7 PP)",
-      "Transsuit: Imunidade 9 (Suporte Vital, except for Inanição and thirst), Removível (–2 ponto) (7 PP)"
+      "Voo Ring: Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal -3 pontos); Voo 7 (400 km/h), Removível (-3 pontos) (16 PP)",
+      "Telepathic Plug: Compreender 3 (Languages); Comunicação Mental 1 (Alcance Perto), Removível (-1 ponto) (7 PP)",
+      "Transsuit: Imunidade 9 (Suporte Vital, except for Fome e Sede), Removível (-2 ponto) (7 PP)"
     ],
     "vantagens": [
       "Finta Ágil",
       "Avaliação",
-      "Benefit 1 (Legion membership)",
+      "Benefício 1 (Legion membership)",
       "Equipamento 6",
       "Iniciativa Aprimorada",
       "Inspirar",
@@ -57,7 +57,7 @@
         "total": 8
       },
       {
-        "nome": "Especialidade: History",
+        "nome": "Especialidade: História",
         "graduacoes": 5,
         "total": 8
       },
@@ -116,11 +116,11 @@
     "complicacoes": [
       {
         "titulo": "Motivação",
-        "texto": "Cosmic Boy is motivated to do good simply because it’s the right thing to do."
+        "texto": "Cósmico Boy is motivated to do good simply because it’s the right thing to do."
       },
       {
         "titulo": "Obsessão",
-        "texto": "Cosmic Boy’s dedication to the Legion goes beyond mere commitment. He is a stalwart member and often makes personal sacrifices for the betterment of the team."
+        "texto": "Cósmico Boy’s dedication to the Legion goes beyond mere commitment. He is a stalwart member e often makes personal sacrifices for the betterment of the team."
       }
     ]
   },

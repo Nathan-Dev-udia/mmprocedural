@@ -14,16 +14,16 @@
       "Pre": 1
     },
     "poderes": [
-      "Transmutation: Alcance de Percepção Transform 10 (Anything to Anything), Contínuo, Resistível (Resistência) (70 PP)"
+      "Transmutation: Alcance de Percepção Transformar 10 (Anything to Anything), Contínuo, Resistível (Resistência) (70 PP)"
     ],
     "equipamento": [
       "Voo Ring: Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal (-3)); Voo 7 (400 km/h); Removível (-3 pontos) (16 PP)",
-      "Telepathic Plug: Compreender 3 (Languages), mental Comunicação 1 (Corpo a Corpo Range), Removível (-1 ponto) (7 PP)",
-      "Transsuit: Imunidade 9 (Suporte Vital, except for Inanição and thirst), Removível (–2 ponto) (7 PP)"
+      "Telepathic Plug: Compreender 3 (Languages), Comunicação Mental 1 (Alcance Perto), Removível (-1 ponto) (7 PP)",
+      "Transsuit: Imunidade 9 (Suporte Vital, except for Fome e Sede), Removível (-2 ponto) (7 PP)"
     ],
     "vantagens": [
       "Avaliação",
-      "Benefit 1 (Legion membership)",
+      "Benefício 1 (Legion membership)",
       "Rolamento Defensivo 2",
       "Equipamento 6",
       "Inspirar",
@@ -36,12 +36,12 @@
         "total": 9
       },
       {
-        "nome": "Especialidade: Chemistry",
+        "nome": "Especialidade: Química",
         "graduacoes": 8,
         "total": 12
       },
       {
-        "nome": "Especialidade: Science",
+        "nome": "Especialidade: Ciência",
         "graduacoes": 6,
         "total": 10
       },
@@ -79,11 +79,11 @@
     "complicacoes": [
       {
         "titulo": "Doing Good",
-        "texto": "The core tenet of Jan’s philosophy is helping others, regardless of self."
+        "texto": "The core tenet of Jan’s Filosofia is helping others, regardless of self."
       },
       {
         "titulo": "Honra",
-        "texto": "Out of his concern for others, Jan uses his potentially lethal Powers judiciously, even when such restraint puts him at a disadvantage. ALLIES Jan’s closest associates have always been his Legion team - mates, who view him as one of the group’s bedrock members. Outside the Legion, his friendship with Science Police officer Shvaughn Erin seems destined to blossom into love. ENEMIES Though Jan once spared his life, Roxxas the Butcher still plots against him, fearing retaliation for the Trommite genocide."
+        "texto": "Out of his concern for others, Jan uses his potentially lethal Poderes judiciously, even when such restraint puts him at a disadvantage. ALLIES Jan’s closest associates have always been his Legion team - mates, who view him as one of the group’s bedrock members. Outside the Legion, his friendship com Ciência Police officer Shvaughn Erin seems destined to blossom into love. ENEMIES Though Jan once spared his life, Roxxas the Butcher still plots contra him, fearing retaliation for the Trommite genocide."
       }
     ]
   },

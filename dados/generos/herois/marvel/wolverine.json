@@ -42,14 +42,14 @@
       "Ataque Imprudente",
       "Ataque Corpo-a-Corpo 8",
       "Defesa Aprimorada",
-      "Crítico Aprimorado [Claws] 3",
+      "Crítico Aprimorado (Garras) 3",
       "Iniciativa Aprimorada",
       "Sorte",
       "Ataque Poderoso",
-      "Maestria em Perícia 4 [Climb, Intimidate, Stealth, Survival]",
+      "Maestria em Perícia 4 (Atletismo, Intimidação, Furtividade, Sobrevivência)",
       "Assustar",
       "Ataque Dominó 2",
-      "Esforço Supremo [Ultimate Toughness Save]",
+      "Esforço Supremo (Salvamento de Resistência Supremo)",
       "Quebrar Arma"
     ],
     "poderes": [
@@ -83,7 +83,7 @@
       },
       {
         "nome": "Super Strength",
-        "construcao_3e": "Super-Força / Power-Lifting 1 (1 PP).",
+        "construcao_3e": "Super-Força / Levantamento de Peso 1 (1 PP).",
         "custo_2e_pp": 2,
         "custo_3e_pp": 1,
         "nome_pt": "Super-Força Feral"

@@ -14,15 +14,15 @@
       "Pre": 2
     },
     "poderes": [
-      "Duplication: Summon Duplicates 7 (105 pontos), Horde, Multiple Minions 5 (32 minions) (91 PP)"
+      "Duplication: Invocar Duplicates 7 (105 pontos), Horda, Múltiplos Capangas 5 (32 capangas) (91 PP)"
     ],
     "equipamento": [
-      "Voo Ring: Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal (–3)), Voo 7 (400 km/h), Removível (–3 pontos) (16 PP)",
-      "Telepathic Plug: Compreender 3 (Languages), mental Comunicação 1 (Corpo a Corpo Range), Removível (–1 ponto) (7 PP)",
-      "Transsuit: Imunidade 9 (Suporte Vital, except for Inanição and thirst), Removível (–2 pontos) (7 PP)"
+      "Voo Ring: Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal (-3)), Voo 7 (400 km/h), Removível (-3 pontos) (16 PP)",
+      "Telepathic Plug: Compreender 3 (Languages), Comunicação Mental 1 (Alcance Perto), Removível (-1 ponto) (7 PP)",
+      "Transsuit: Imunidade 9 (Suporte Vital, except for Fome e Sede), Removível (-2 pontos) (7 PP)"
     ],
     "vantagens": [
-      "Benefit 1 (Legion membership)",
+      "Benefício 1 (Legion membership)",
       "Rolamento Defensivo 2",
       "Equipamento 6",
       "Iniciativa Aprimorada",
@@ -117,7 +117,7 @@
       },
       {
         "titulo": "Trauma",
-        "texto": "Duplicate Damsel still carries the memory of the death of one of her duplicates at the hands of Computo. It haunts her in ways others can never understand. ALLIES Duplicate Damsel can count on her fellow Legionnaires and her students from the Legion Academy, but most of all on her husband, Chuck Taine (Bouncing Boy). Of course, she is also her own greatest ally, able to outnumber most foes all by herselves!"
+        "texto": "Duplicate Damsel still carries the memory of the death of one of her duplicates at the hands of Computo. It haunts her in ways others can never understand. ALLIES Duplicate Damsel can count on her fellow Legionnaires e her students from the Legion Academy, but most of all on her husband, Chuck Taine (Bouncing Boy). Of course, she is also her own greatest ally, able to outnumber most foes all by herselves!"
       }
     ]
   },

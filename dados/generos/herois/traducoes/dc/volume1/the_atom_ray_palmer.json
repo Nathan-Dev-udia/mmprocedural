@@ -14,13 +14,13 @@
       "Pre": 2
     },
     "poderes": [
-      "& Abilities). **sem Rolamento Defensivo."
+      "& Habilidades). **sem Rolamento Defensivo."
     ],
     "equipamento": [],
     "vantagens": [
       "Ataque Imprudente",
       "Rolamento Defensivo 2",
-      "Esconder-se a Plena Vista",
+      "Esconder-se à Plena Vista",
       "Iniciativa Aprimorada",
       "Derrubar Aprimorado",
       "Arma Improvisada 3",
@@ -33,7 +33,7 @@
         "total": 9
       },
       {
-        "nome": "Combate Corpo-a-Corpo: Swords",
+        "nome": "Combate Corpo-a-Corpo: Espadas",
         "graduacoes": 5,
         "total": 8
       },
@@ -43,7 +43,7 @@
         "total": 9
       },
       {
-        "nome": "Especialidade: Science",
+        "nome": "Especialidade: Ciência",
         "graduacoes": 11,
         "total": 20
       },
@@ -96,7 +96,7 @@
       "Resistência": 4,
       "Vontade": 9
     },
-    "observacao_defesas": "* Fortitude 5 Aparar 14/7* Resistência 4/2** Vontade 9 *Without typical Encolhimento bonus (see",
+    "observacao_defesas": "* Fortitude 5 Aparar 14/7* Resistência 4/2** Vontade 9 *sem typical Encolhimento bonus (see",
     "custos": {
       "Habilidades": 58,
       "Perícias": 22,
@@ -108,15 +108,15 @@
     "complicacoes": [
       {
         "titulo": "Curiosity",
-        "texto": "The Atom’s drive toward a scientific understanding of the universe has been the cornerstone of his success, both as a super hero and a scientist."
+        "texto": "The Atom’s drive toward a scientific understanding of the universe has been the cornerstone of his success, both as a super hero e a scientist."
       },
       {
         "titulo": "Compassion",
-        "texto": "Despite great loss and betrayal in his past, the Atom remains empathetic to both those who have known similar Dor and those who cause it."
+        "texto": "Despite great loss e betrayal in his past, the Atom remains empathetic to both those who have known similar Dor e those who cause it."
       },
       {
         "titulo": "Scientific Advisor",
-        "texto": "The Atom enjoys sharing his knowledge and his joy of scientific discovery with his fellow heroes, and with younger heroes in particular. PERSONALITY Ryan Choi is a scientist whose perpetual curiosity and desire to learn serves him well as a super hero. Choi is also a physics professor and prone to pontification on any scientific matter. Powers & Abilities Ryan can use his bio-belt to precisely control his size and weight, ranging from normal size down to the sub-atomic. Ryan uses these Powers to travel to microscopic worlds and traverse long distances via phone transmissions. Like Ray Palmer, Choi usually shrinks to a height of six inches (Encolhimento 14) and has a +7 bonus to his active Defenses. As he gets smaller, he becomes even harder to hit with any - thing other than Perception À Distância or área effects (which is a good thing, as he suffers proportionately greater Dano from direct attacks). Attackers can make use of the Preciso attack maneuver ( Hero’s Handbook, Chapter 8 ) to get a better chance of hitting a foe like the Atom, with the Preciso Attack advantage making the maneuver even more effective."
+        "texto": "The Atom enjoys sharing his knowledge e his joy of scientific discovery com his fellow heroes, e com younger heroes in particular. PERSONALITY Ryan Choi is a scientist whose perpetual curiosity e desire to learn serves him well as a super hero. Choi is also a Física professor e Caído to pontification on any scientific matter. Poderes & Habilidades Ryan can use his bio-belt to precisely control his size e weight, ranging from normal size down to the sub-atomic. Ryan uses these Poderes to travel to microscopic worlds e traverse long distances via phone transmissions. Like Ray Palmer, Choi usually shrinks to a height of six inches (Encolhimento 14) e has a +7 bonus to his active Defesas. As he gets smaller, he becomes even harder to hit com any - thing other than Percepção À Distância or área Efeitos (which is a good thing, as he suffers proportionately greater Dano from direct attacks). Attackers can make use of the Acurado attack maneuver ( Hero’s Handbook, Chapter 8 ) to get a better chance of hitting a foe like the Atom, com the Acurado Attack Vantagem making the maneuver even more effective."
       }
     ]
   },

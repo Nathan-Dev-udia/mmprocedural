@@ -14,21 +14,20 @@
       "Pre": 2
     },
     "poderes": [
-      "Shadow Casting (Arranjo), Shadow Bubble (Camuflagem 4 (All Visual Sense, Área de Explosão, À Distância)) Linked to Proteção 10 (À Distância, Área de Explosão, Limitado a Calor and Radiação Attacks Only), ae : Shadow f ield (Camuflagem 4 (All Visual Sentidos, Área Moldável, À Distância) Linked to Proteção 10 (À Distância, Área Moldável, Limitado a Calor and Radiação Attacks Only), ae : Cego (resistido por Esquiva; Cumulativo Aflição à Distância 10, (Visually Impaired, Visually Disabled, Visually Unaware, Concentração))); Visão no Escuro (Sentidos 2)"
+      "Shadow Casting (Arranjo), Shadow Bubble (Camuflagem 4 (All Visual Sense, Área de Explosão, À Distância)) Ligado a Proteção 10 (À Distância, Área de Explosão, Limitado a Calor e Radiação Attacks Apenas), ae : Shadow f ield (Camuflagem 4 (All Visual Sentidos, Área Moldável, À Distância) Ligado a Proteção 10 (À Distância, Área Moldável, Limitado a Calor e Radiação Attacks Apenas), ae : Cego (resistido por Esquiva; Cumulativo Aflição à Distância 10, (Visually Prejudicado, Visually Desabilitado, Visually Desatento, Concentração))); Visão no Escuro (Sentidos 2)"
     ],
     "equipamento": [
-      "Voo Ring (Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal –3), Voo 7 (400 km/h); Telepathic Ear Plug ( Compreender 3 (Languages), mental Comunicação 1 (Corpo a Corpo Range)); Transsuit (Imunidade 9 (Suporte Vital, except for Inanição and thirst))"
+      "Voo Ring (Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal -3), Voo 7 (400 km/h); Telepathic Ear Plug ( Compreender 3 (Languages), Comunicação Mental 1 (Alcance Perto)); Transsuit (Imunidade 9 (Suporte Vital, except for Fome e Sede))"
     ],
     "vantagens": [
-      "Benefit 4 (Champion of Talok VIII",
-      "Legion Membership)",
+      "Benefício 4 (Champion of Talok VIII, Legion Membership)",
       "Ataque Defensivo",
       "Rolamento Defensivo 2",
       "Equipamento 8",
       "Crítico Aprimorado (Desarmado)",
       "Quebrar Aprimorado",
       "Derrubar Aprimorado",
-      "Levantar Rápido",
+      "De Pé",
       "Ataque Poderoso"
     ],
     "pericias": [
@@ -70,7 +69,7 @@
         "nome": "Desarmado",
         "bonus": 6,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 1, Crit. 19-20"
+        "dano": "Dano 1, Crít. 19-20"
       }
     ],
     "defesas": {
@@ -92,7 +91,7 @@
     "complicacoes": [
       {
         "titulo": "r esponsibility",
-        "texto": "Shadow Lass was given her Powers to act as protector and champion of her people. r elationship: Shadow Lass and Mon-El care deeply for one another."
+        "texto": "Shadow Lass was given her Poderes to act as protector e champion of her people. r elationship: Shadow Lass e Mon-El care deeply for one another."
       }
     ]
   },

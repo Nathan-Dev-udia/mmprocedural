@@ -18,22 +18,18 @@
     ],
     "equipamento": [],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Ataque Imprudente",
       "Avaliação",
       "Rolamento Defensivo 3",
       "Memória Eidética",
       "Crítico Aprimorado (Desarmado)",
       "Imobilizar Aprimorado",
-      "Languages 4 (Latin",
-      "Persian",
-      "Spanish",
-      "Urdu",
-      "and four others)",
+      "Idiomas 4 (Latim, Persian, Espanhol, Urdu, e four others)",
       "Liderança",
       "Ataque Poderoso",
       "Assustar",
-      "Provocar"
+      "Zombar"
     ],
     "pericias": [
       {
@@ -57,7 +53,7 @@
         "total": 12
       },
       {
-        "nome": "Especialidade: Philosophy",
+        "nome": "Especialidade: Filosofia",
         "graduacoes": 2,
         "total": 10
       },
@@ -98,13 +94,13 @@
         "nome": "Desarmado",
         "bonus": 19,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 5*, Crit. 19-20"
+        "dano": "Dano 5*, Crít. 19-20"
       },
       {
         "nome": "Desarmado",
         "bonus": 19,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 7, Crit. 19-20"
+        "dano": "Dano 7, Crít. 19-20"
       }
     ],
     "defesas": {
@@ -126,7 +122,7 @@
     "complicacoes": [
       {
         "titulo": "Venom Addiction",
-        "texto": "Although Bane has kicked the habit, Venom is highly addictive and he may go back to using the drug for its Força or Cura effects as he has in the past. Withdrawal symptoms begin occurring 12 hours after the last use. Stats to the left of the slash (/) represent Bane’s Abilities while using Venom."
+        "texto": "Although Bane has kicked the habit, Venom is highly addictive e he may go back to using the drug for its Força or Cura Efeitos as he has in the past. Withdrawal symptoms begin occurring 12 hours after the last use. Stats to the left of the slash (/) represent Bane’s Habilidades while using Venom."
       }
     ]
   },

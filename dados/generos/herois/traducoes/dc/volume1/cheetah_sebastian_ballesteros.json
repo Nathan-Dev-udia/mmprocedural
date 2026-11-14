@@ -14,21 +14,21 @@
       "Pre": 4
     },
     "poderes": [
-      "Claws: (Força-based Dano 4, Penetrante 6); Heightened Sentidos (Sentidos 6: Visão no Escuro, Visão na Penumbra, Scent, Track, Ultra-Audição); Velocidade (Enhanced Advantage: Improved Iniciativa 3, Rapidez 3, Velocidade 2 (12 km/h)); Tail (Extra Limbs 1)"
+      "Claws: (Força-based Dano 4, Penetrante 6); Heightened Sentidos (Sentidos 6: Visão no Escuro, Visão na Penumbra, Scent, Rastrear, Ultra-Audição); Velocidade (Vantagem Aprimorada: Iniciativa Aprimorada 3, Rapidez 3, Velocidade 2 (12 km/h)); Tail (Membros Extras 1)"
     ],
     "equipamento": [],
     "vantagens": [
       "Finta Ágil",
       "Ataque Imprudente",
-      "Benefit 3 (Wealth)",
+      "Benefício 3 (Riqueza)",
       "Rolamento Defensivo 3",
-      "Crítico Aprimorado (Claws)",
+      "Crítico Aprimorado (Garras)",
       "Iniciativa Aprimorada 3",
       "Derrubar Aprimorado",
-      "Levantar Rápido",
-      "Languages 2",
+      "De Pé",
+      "Idiomas 2",
       "Ataque Poderoso",
-      "Luta Caída",
+      "Luta no Chão",
       "Esquiva Fabulosa"
     ],
     "pericias": [
@@ -53,7 +53,7 @@
         "total": 8
       },
       {
-        "nome": "Especialidade: Business",
+        "nome": "Especialidade: Negócios",
         "graduacoes": 8,
         "total": 10
       },

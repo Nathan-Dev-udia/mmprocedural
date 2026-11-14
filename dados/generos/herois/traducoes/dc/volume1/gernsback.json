@@ -14,7 +14,7 @@
       "Pre": "—"
     },
     "poderes": [
-      "Proteção 10 ; Imunidade 30 (Fortitude Effects, mental Effects); Sentidos 1 (Ultravisão)"
+      "Proteção 10 ; Imunidade 30 (Efeitos de Fortitude, Efeitos Mentais); Sentidos 1 (Ultravisão)"
     ],
     "equipamento": [],
     "vantagens": [],
@@ -25,17 +25,25 @@
         "nome": "Desarmado",
         "bonus": 6,
         "alcance": "",
-        "dano": "(Dano 9)"
+        "dano": "Dano 9"
       }
     ],
     "defesas": {
       "Esquiva": 0,
       "Aparar": 6,
-      "Resistência": 10
+      "Fortitude": null,
+      "Resistência": 10,
+      "Vontade": null
     },
     "observacao_defesas": "",
-    "custos": {},
-    "total": null,
+    "custos": {
+      "Habilidades": 4,
+      "Poderes": 41,
+      "Vantagens": 0,
+      "Perícias": 0,
+      "Defesas": 0
+    },
+    "total": 45,
     "complicacoes": []
   },
   "notas": [

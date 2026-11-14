@@ -14,35 +14,34 @@
       "Pre": 3
     },
     "poderes": [
-      "Soultaker Espada: Enhanced Aparar 3; Característica 1 (Souls In Espada); Força-based Dano 3, Penetrante 3; Facilmente Removível (-4 pontos) (6 PP)"
+      "Soultaker Espada: Aparar Aprimorado 3; Característica 1 (Souls In Espada); Força-based Dano 3, Penetrante 3; Facilmente Removível (-4 pontos) (6 PP)"
     ],
     "equipamento": [
-      "20 pontos of martial arts weapons and gear."
+      "20 pontos of martial arts weapons e gear."
     ],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Ataque Defensivo",
       "Rolamento Defensivo 2",
       "Equipamento 4",
-      "Improved Critical 2 (Shuriken)",
-      "Improved Critical 4 (Espada)",
-      "Improved Critical 2 (Desarmado)",
+      "Crítico Aprimorado 2 (Shuriken)",
+      "Crítico Aprimorado 4 (Espada)",
+      "Crítico Aprimorado 2 (Desarmado)",
       "Desarmar Aprimorado",
       "Agarrar Aprimorado",
       "Imobilizar Aprimorado",
       "Iniciativa Aprimorada",
       "Quebrar Aprimorado",
       "Derrubar Aprimorado",
-      "Levantar Rápido",
-      "Language (English; Japanese native)",
-      "Luta Caída",
+      "De Pé",
+      "Language (Inglês; Japonês native)",
+      "Luta no Chão",
       "Ataque Poderoso",
-      "Precise Attack 4 (Ranged",
-      "Close; Cover and Concealment)",
+      "Ataque Preciso 4 (À Distância, Corpo a Corpo; Cobertura e Camuflagem)",
       "Saque Rápido",
       "Assustar",
-      "Derrubar em Sequência 2",
-      "Provocar"
+      "Ataque Dominó 2",
+      "Zombar"
     ],
     "pericias": [
       {
@@ -56,7 +55,7 @@
         "total": 13
       },
       {
-        "nome": "Combate Corpo-a-Corpo: Martial Art Weapons",
+        "nome": "Combate Corpo-a-Corpo: Martial Arte Weapons",
         "graduacoes": 6,
         "total": 14
       },
@@ -86,7 +85,7 @@
         "total": 9
       },
       {
-        "nome": "Combate à Distância: Martial Art Weapons",
+        "nome": "Combate à Distância: Martial Arte Weapons",
         "graduacoes": 12,
         "total": 17
       },
@@ -102,19 +101,19 @@
         "nome": "Shuriken",
         "bonus": 17,
         "alcance": "À distância",
-        "dano": "Dano 3, Crit. 18-20"
+        "dano": "Dano 3, Crít. 18-20"
       },
       {
         "nome": "Espada",
         "bonus": 14,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 6, Penetrante 3, Crit. 16-20"
+        "dano": "Dano 6, Penetrante 3, Crít. 16-20"
       },
       {
         "nome": "Desarmado",
         "bonus": 17,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 3, Crit. 18-20"
+        "dano": "Dano 3, Crít. 18-20"
       }
     ],
     "defesas": {
@@ -124,7 +123,7 @@
       "Resistência": 5,
       "Vontade": 10
     },
-    "observacao_defesas": "* Resistência 5/3** Vontade 10 *Without Soultaker. **sem Rolamento Defensivo.",
+    "observacao_defesas": "* Resistência 5/3** Vontade 10 *sem Soultaker. **sem Rolamento Defensivo.",
     "custos": {
       "Habilidades": 66,
       "Perícias": 45,
@@ -136,11 +135,11 @@
     "complicacoes": [
       {
         "titulo": "Justice",
-        "texto": "Katana believes the world should be a just place and she does what she can to make it that way."
+        "texto": "Katana believes the world should be a just place e she does what she can to make it that way."
       },
       {
         "titulo": "Honra",
-        "texto": "Katana has a strong sense of honor and won’t unfairly take advantage when in a position of power."
+        "texto": "Katana has a strong sense of honor e won’t unfairly take Vantagem when in a position of Poder."
       }
     ]
   },

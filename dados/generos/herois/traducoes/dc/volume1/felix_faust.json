@@ -15,14 +15,13 @@
     },
     "poderes": [
       "Eternal: Imunidade 2 (Envelhecimento, Doença); Característica 1 (Can survive death as disembodied spirit until granted new body by outside sources) (3 PP)",
-      "Mystic Sentidos: Sentidos 4 (mágico Prontidão, Raio, Aguçado, Analítico) (4 PP)",
-      "Protective Enchantments: Enhanced"
+      "Místico Sentidos: Sentidos 4 (Consciência Mágica, Raio, Aguçado, Analítico) (4 PP)",
+      "Protective Enchantments: Aprimorado"
     ],
     "equipamento": [],
     "vantagens": [
       "Artífice",
-      "Languages 2 (Latin",
-      "Greek)",
+      "Idiomas 2 (Latim, Grego)",
       "Sorte 2",
       "Ritualista",
       "Transe"
@@ -34,7 +33,7 @@
         "total": 13
       },
       {
-        "nome": "Especialidade: mágico",
+        "nome": "Especialidade: Magia",
         "graduacoes": 15,
         "total": 18
       },
@@ -77,7 +76,7 @@
     "iniciativa": 0,
     "ataques": [
       {
-        "nome": "Mystic Bolt",
+        "nome": "Místico Bolt",
         "bonus": 9,
         "alcance": "À distância",
         "dano": "Dano 13"
@@ -108,15 +107,15 @@
     "complicacoes": [
       {
         "titulo": "Damaged Goods",
-        "texto": "Faust’s soul is considered so used and tainted it no longer has worth as a bargaining chip for dealing with demonic entities."
+        "texto": "Faust’s soul is considered so used e tainted it no longer has worth as a bargaining chip for dealing com demonic entities."
       },
       {
         "titulo": "Obsessão",
-        "texto": "Increasing his magical Powers."
+        "texto": "Increasing his Mágico Poderes."
       },
       {
         "titulo": "Relacionamentos",
-        "texto": "Fauna (daughter) and Sebastian (son). Faust has also bartered with various demons for power, including Nekron and the Demons Three."
+        "texto": "Fauna (daughter) e Sebastian (son). Faust has also bartered com various demons for Poder, including Nekron e the Demons Three."
       }
     ]
   },

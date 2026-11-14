@@ -14,17 +14,17 @@
       "Pre": 3
     },
     "poderes": [
-      "0 Defenses 23"
+      "0 Defesas 23"
     ],
     "equipamento": [
       "a Proteção 2, Sentidos 1 (Visão no Escuro) (4 PP)",
-      "rmor ed Cowl: Grapnel: Movimento 1 (Swinging) (2 PP)",
+      "rmor ed Cowl: Grapnel: Movimento 1 (Balançar-se) (2 PP)",
       "Utility Belt: Arranjo (12 pontos)",
-      "• f lashbang G renades: À Distância Área de Explosão Aflição 4 (resistido por Fortitude; Visual and Auditory Impaired, Visual and Auditory Disabled, Visual and Auditory Unaware) (12 PP)",
+      "• f lashbang G renades: À Distância Área de Explosão Aflição 4 (resistido por Fortitude; Visual e Auditivo Prejudicado, Visual e Auditivo Desabilitado, Visual e Auditivo Desatento) (12 PP)",
       "• Bo Staff: Força-based Dano 2, Reach 1 (1 PP)",
       "• Smoke Bombs: Área de Nuvem Visual (All) Camuflagem Attack 4 (1 PP)",
       "• t hr owing d iscs: À Distância Força-based Multiataque Dano 1, Ricochete 2 (1 PP)",
-      "8 additional pontos of equipment as needed Ve H i CL e: r ed B ird Cy CL e • 11 POI n TS Size: Medium Str: 1 Velocidade: 6 d ef: 0 t ou: 8 f ea tures: Navigation System a V ant G d a e S All-out Attack, Benefit 4 (Wealth), Corpo a Corpo Attack 6, Connected, Contacts, Defensive Roll 2, Equipment 8, Evasion, Extraordinary Effort, Hide in Plain Sight, Improved Critical (Bo Staff ), Improved Iniciativa, Improvised Tools, Instant Up, Interpose, Languages 4, Move-by Action, Power Attack, Quick Draw, Set-up, Takedown, Teamwork, Tracking, Uncanny Esquiva"
+      "8 additional pontos of equipment as needed Ve H i CL e: r ed B ird Cy CL e • 11 POI n TS Size: Medium Str: 1 Velocidade: 6 d ef: 0 t ou: 8 f ea tures: Navegação System a V ant G d a e S Ataque Imprudente, Benefit 4 (Wealth), Corpo a Corpo Attack 6, Connected, Contacts, Rolamento Defensivo 2, Equipment 8, Evasão, Extraordinary Effort, Hide in Plain Visão, Improved Critical (Bo Staff ), Iniciativa Aprimorada, Improvised Tools, De Pé, Interpor-se, Languages 4, Ação em Movimento, Poder Attack, Quick Draw, Set-up, Ataque Dominó, Teamwork, Rastrear, Uncanny Esquiva"
     ],
     "vantagens": [
       "43 Total 208"
@@ -51,17 +51,17 @@
         "total": 12
       },
       {
-        "nome": "Especialidade: Criminology",
+        "nome": "Especialidade: Criminologia",
         "graduacoes": 8,
         "total": 13
       },
       {
-        "nome": "Especialidade: Computers",
+        "nome": "Especialidade: Computação",
         "graduacoes": 10,
         "total": 15
       },
       {
-        "nome": "Especialidade: Streetwise",
+        "nome": "Especialidade: Manha",
         "graduacoes": 9,
         "total": 14
       },
@@ -91,7 +91,7 @@
         "total": 10
       },
       {
-        "nome": "Combate à Distância: Throwing Discs",
+        "nome": "Combate à Distância: Arremesso Discs",
         "graduacoes": 9,
         "total": 14
       },
@@ -127,10 +127,10 @@
         "nome": "Bo Staff",
         "bonus": 14,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 4, Reach 1, Crit. 19-20"
+        "dano": "Dano 4, Reach 1, Crít. 19-20"
       },
       {
-        "nome": "Throwing Discs",
+        "nome": "Arremesso Discs",
         "bonus": 14,
         "alcance": "À distância",
         "dano": "Multiataque Dano 3, Ricochete 2"
@@ -149,13 +149,16 @@
       "Resistência": 6,
       "Vontade": 10
     },
-    "observacao_defesas": "* Vontade 10 *Without Armored Cowl and Defensive Roll. W S Po er ponto Abilities 68 Skills 74",
-    "custos": {},
+    "observacao_defesas": "* Vontade 10 *sem Armored Cowl e Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 68,
+      "Perícias": 74
+    },
     "total": null,
     "complicacoes": [
       {
         "titulo": "H ero r emade",
-        "texto": "Red Robin struggles to carry on the ideals of Batman while becoming a hero in his own right. “Crippled”: To protect his secret identity from reporter Vicki Vale, Tim Wayne pretends to need leg braces and two canes, which appears to make it impossible for him to be Red Robin."
+        "texto": "Red Robin struggles to carry on the ideals of Batman while becoming a hero in his own right. “Crippled”: To protect his secret identity from reporter Vicki Vale, Tim Wayne pretends to need leg braces e two canes, which appears to make it impossible for him to be Red Robin."
       }
     ]
   },

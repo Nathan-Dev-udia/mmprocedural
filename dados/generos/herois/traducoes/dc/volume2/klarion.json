@@ -14,7 +14,7 @@
       "Pre": 4
     },
     "poderes": [
-      "Cruciform (Alcance de Percepção Aflição 10 (resistido por Vontade; Tonto, Compelido, Controlado), Cumulativo, Limitado a Undead, Facilmente Removível (-12 pontos)); mágico (Arranjo (24 pontos), Horigal t r ansformation (Força Aprimorada 6; Luta Aprimorada 4; Proteção 8); ae : Steal mágico (À Distância Enfraquecer 12 mágico Effects), Broad; ae : t en tacles (Cumulativo Aflição 12 (resistido por Esquiva; Impedido and Vulnerável, Indefeso and Imóvel), Extra Condition, Limitado Degree, Reach 6 (30 feet)); Psychic Bond (Remote Sensing 8 (Visual), Medium: Only through Teekl’s eyes)"
+      "Cruciform (Alcance de Percepção Aflição 10 (resistido por Vontade; Tonto, Compelido, Controlado), Cumulativo, Limitado a Undead, Facilmente Removível (-12 pontos)); Magia (Arranjo (24 pontos), Horigal t r ansformation (Força Aprimorada 6; Luta Aprimorada 4; Proteção 8); ae : Steal Magia (À Distância Enfraquecer 12 Magia Efeitos), Amplo; ae : t en tacles (Cumulativo Aflição 12 (resistido por Esquiva; Impedido e Vulnerável, Indefeso e Imóvel), Extra Condition, Limitado Grau, Reach 6 (30 pés)); Psíquico Bond (Sensoriamento Remoto 8 (Visual), Medium: Apenas through Teekl’s eyes)"
     ],
     "equipamento": [],
     "vantagens": [
@@ -22,7 +22,7 @@
       "Rolamento Defensivo 4",
       "Ritualista",
       "Parceiro 19",
-      "Provocar"
+      "Zombar"
     ],
     "pericias": [
       {
@@ -31,7 +31,7 @@
         "total": 8
       },
       {
-        "nome": "Combate Corpo-a-Corpo: mágico",
+        "nome": "Combate Corpo-a-Corpo: Magia",
         "graduacoes": 6,
         "total": 8
       },
@@ -41,7 +41,7 @@
         "total": 14
       },
       {
-        "nome": "Especialidade: mágico",
+        "nome": "Especialidade: Magia",
         "graduacoes": 10,
         "total": 15
       },
@@ -54,7 +54,7 @@
     "iniciativa": 2,
     "ataques": [
       {
-        "nome": "mágico",
+        "nome": "Magia",
         "bonus": 8,
         "alcance": "",
         "dano": "Varies"
@@ -85,11 +85,11 @@
     "complicacoes": [
       {
         "titulo": "Limbo t o wn",
-        "texto": "Klarion was born and raised in an underground faux-Puritanical settlement that practiced necromancy and had no contact with the surface world. As such, he is very out of place in normal social situations and misses many social cues."
+        "texto": "Klarion was born e raised in an underground faux-Puritanical settlement that practiced necromancy e had no contact com the surface world. As such, he is very out of place in normal social situations e misses many social cues."
       },
       {
         "titulo": "Unusual Looks",
-        "texto": "Klarion has large, dark eyes, pointy ears, black lips and fingernails, and bluish- white skin, in addition, he dresses in Puritan-style garb, all of which makes him look very unusual. Klarion looks even more unusual when he assumes his Horigal form, which is horrible and horrific."
+        "texto": "Klarion has large, dark eyes, pointy ears, black lips e fingernails, e bluish- white skin, in addition, he dresses in Puritan-style garb, all of which makes him look very unusual. Klarion looks even more unusual when he assumes his Horigal form, which is horrible e horrific."
       }
     ]
   },

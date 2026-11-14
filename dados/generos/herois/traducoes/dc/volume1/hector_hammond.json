@@ -14,12 +14,12 @@
       "Pre": 3
     },
     "poderes": [
-      "of others must be better than his own. Obsession: Hector Hammond is obsessed with Hal Jordan, lusting after his memories, his love with Carol Ferris, and his life as Green Lantern. He considers himself Jordan’s “number one fan, ” but is eager to destroy Jordan’s life so he can claim it for his own."
+      "of others must be better than his own. Obsession: Hector Hammond is obsessed com Hal Jordan, lusting after his memories, his love com Carol Ferris, e his life as Green Lantern. He considers himself Jordan’s “number one fan, ” but is eager to destroy Jordan’s life so he can claim it for his own."
     ],
     "equipamento": [],
     "vantagens": [
       "Memória Eidética",
-      "Esforço Supremo (Will checks)"
+      "Esforço Supremo (Vontade Testes)"
     ],
     "pericias": [
       {
@@ -44,13 +44,34 @@
       }
     ],
     "iniciativa": 11,
-    "ataques": [],
+    "ataques": [
+      {
+        "nome": "Telekinesis",
+        "bonus": null,
+        "alcance": "Percepção",
+        "dano": "Dano 12"
+      },
+      {
+        "nome": "Mental Illusions",
+        "bonus": null,
+        "alcance": "Percepção",
+        "dano": "Ilusão 12"
+      },
+      {
+        "nome": "Controle Mental",
+        "bonus": null,
+        "alcance": "Percepção",
+        "dano": "Controle Mental 12, resistido por Vontade"
+      }
+    ],
     "defesas": {
+      "Esquiva": -5,
       "Fortitude": 6,
+      "Aparar": -5,
       "Resistência": 18,
       "Vontade": 18
     },
-    "observacao_defesas": "* Vontade 18 *Without Campo de Força.",
+    "observacao_defesas": "* Vontade 18 *sem Campo de Força.",
     "custos": {
       "Habilidades": 6,
       "Perícias": 18,
@@ -62,7 +83,7 @@
     "complicacoes": [
       {
         "titulo": "Shattered Mind",
-        "texto": "The mutation of Hector Hammond’s mind granted him immense power, but twisted his ego-driven personality into one racked with insecurity, certain that the lives and"
+        "texto": "The mutation of Hector Hammond’s mind granted him immense Poder, but twisted his ego-driven personality into one racked com insecurity, certain that the lives e"
       }
     ]
   },

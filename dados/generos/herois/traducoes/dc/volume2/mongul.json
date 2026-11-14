@@ -14,10 +14,10 @@
       "Pre": 8
     },
     "poderes": [
-      "d Dano à Distância 16, Preciso 3 (35 PP)",
-      "isin tegration Beam: Gigantic Leaps : Salto 7 (900 feet) (7 PP)",
+      "d Dano à Distância 16, Acurado 3 (35 PP)",
+      "isin tegration Beam: Gigantic Leaps : Salto 7 (900 pés) (7 PP)",
       "i mpr egnable Skin : Resistência Impenetrável 14 (14 PP)",
-      "Massive Build : Força Aprimorada 6, Only for lifting (lifting Str 20; 25,000 tons) (6 PP)",
+      "Massive Build : Força Aprimorada 6, Apenas for lifting (lifting Str 20; 25,000 toneladas) (6 PP)",
       "r ugged Constitution : Imunidade 5 (Frio, Calor, Pressão, Radiação, Vácuo) (5 PP)"
     ],
     "equipamento": [],
@@ -26,9 +26,7 @@
       "Estrangular",
       "Agarrar Aprimorado",
       "Imobilizar Aprimorado",
-      "Languages 2 (English",
-      "Arkadyte",
-      "Interlac)",
+      "Idiomas 2 (Inglês, Arkadyte, Interlac)",
       "Ataque Poderoso",
       "Redirecionar",
       "Assustar"
@@ -70,8 +68,21 @@
         "total": 9
       }
     ],
-    "iniciativa": 0,
-    "ataques": [],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Disintegration Bean",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Dano 16"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 12,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 14"
+      }
+    ],
     "defesas": {
       "Esquiva": 10,
       "Fortitude": 14,
@@ -91,7 +102,7 @@
     "complicacoes": [
       {
         "titulo": "Power",
-        "texto": "Mongul is driven by his power-hunger. e ne MI e S Mongul’s enemies are legion, from Superman and the Justice League to the entire Green Lantern Corps, the Sinestro Corps, and the inhabitants of the planet Daxam (which Mongul at - tempted to conquer)."
+        "texto": "Mongul is driven by his Poder-hunger. e ne MI e S Mongul’s enemies are legion, from Superman e the Justice League to the entire Green Lantern Corps, the Sinestro Corps, e the inhabitants of the planet Daxam (which Mongul at - tempted to conquer)."
       }
     ]
   },

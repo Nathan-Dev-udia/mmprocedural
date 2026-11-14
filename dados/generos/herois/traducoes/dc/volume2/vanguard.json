@@ -14,7 +14,7 @@
       "Pre": -2
     },
     "poderes": [
-      "e y e Beams (Dano à Distância 8, Preciso 3); f lying Horse (Voo 13 (16,0 km/h), Wings; Crescimento 4, Inato, Permanente; Velocidade 4 (48 km/h); Sentidos 5 (Aguçado and Tracking Olfactory, Visão no Escuro, Extended Auditory))"
+      "e y e Beams (Dano à Distância 8, Acurado 3); f lying Horse (Voo 13 (25.600 km/h), Wings; Crescimento 4, Inato, Permanente; Velocidade 4 (48 km/h); Sentidos 5 (Aguçado e Rastrear Olfativo, Visão no Escuro, Estendido Auditivo))"
     ],
     "equipamento": [],
     "vantagens": [
@@ -62,7 +62,7 @@
     "complicacoes": [
       {
         "titulo": "Horse",
-        "texto": "Vanguard is a flying, talking horse, but still has all physical and social limitations of a normal horse. evoted: Vanguard is devoted to Ystina and Vontade do everything d possible to defend and protect her."
+        "texto": "Vanguard is a flying, talking horse, but still has all physical e social limitations of a normal horse. evoted: Vanguard is devoted to Ystina e Vontade do everything d possible to defend e protect her."
       }
     ]
   },

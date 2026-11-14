@@ -14,7 +14,7 @@
       "Pre": 1
     },
     "poderes": [
-      "Battlesuit (Removível (-17 pontos), a rmor (I mpervious Resistência 10, Proteção 5); Computer Guidance (Enhanced Advantages 7 (Improved Aim, Improved Disarm, Improved Grab, Improved Hold, Improved Iniciativa, Improved Smash, Improved Trip); e nhanced Força 3 ; Jets (Voo 8 (800 km/h)); Large (Crescimento 4 (Permanente, Inato)); Searchlight (Environment 3 (Light, 120 feet); Self- r epair Systems (Regeneração 2); Sensors (Sentidos 2 (Comunicação Link to Stargirl, Rádio); Weapon Systems (Arranjo (20 pontos), Aprisionar (À Distância Cumulativo Aflição 10 (resistido por Esquiva; Impedido and Vulnerável, Indefeso and Imóvel), Extra Condition, Limitado Degree), ae : f lying f ist (Dano à Distância 10, Limitado -2 (2 Fists (Ação Padrão to reconnect), Loses ability use hand(s))), ae : r ocket (À Distância Área de Explosão Dano 9, Não Confiável (2 Rockets), ae : t aser (R anged Aflição 10 (resistido por Fortitude; Tonto, Atordoado, Incapacitado))))"
+      "Battlesuit (Removível (-17 pontos), a rmor (I mpervious Resistência 10, Proteção 5); Computer Guidance (Vantagens Aprimoradas 7 (Mira Aprimorada, Desarmar Aprimorado, Agarrar Aprimorado, Imobilizar Aprimorado, Iniciativa Aprimorada, Quebrar Aprimorado, Derrubar Aprimorado); e nhanced Força 3 ; Jets (Voo 8 (800 km/h)); Large (Crescimento 4 (Permanente, Inato)); Searchlight (Ambiente 3 (Luz, 120 pés); Self- r epair Systems (Regeneração 2); Sensors (Sentidos 2 (Elo de Comunicação to Stargirl, Rádio); Weapon Systems (Arranjo (20 pontos), Aprisionar (À Distância Cumulativo Aflição 10 (resistido por Esquiva; Impedido e Vulnerável, Indefeso e Imóvel), Extra Condition, Limitado Grau), ae : f lying f ist (Dano à Distância 10, Limitado -2 (2 Fists (Ação Padrão to reconnect), Loses Habilidade use hand(s))), ae : r ocket (À Distância Área de Explosão Dano 9, Não Confiável (2 Rockets), ae : t aser (Aflição à Distância 10 (resistido por Fortitude; Tonto, Atordoado, Incapacitado))))"
     ],
     "equipamento": [],
     "vantagens": [
@@ -27,7 +27,7 @@
       "Derrubar Aprimorado",
       "Interpor-se",
       "Inventor",
-      "Ultimate effort (Technology checks)"
+      "Esforço Supremo (Tecnologia Testes)"
     ],
     "pericias": [
       {
@@ -101,7 +101,7 @@
     "complicacoes": [
       {
         "titulo": "o v erprotective",
-        "texto": "S.T.R.I.P .E. has a fatherly concern for Stargirl and would sacrifice himself to protect her."
+        "texto": "S.T.R.I.P .E. has a fatherly concern for Stargirl e would sacrifice himself to protect her."
       }
     ]
   },

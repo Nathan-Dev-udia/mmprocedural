@@ -14,16 +14,15 @@
       "Pre": 12
     },
     "poderes": [
-      "Energy Gauntlets (Dano à Distância 12 (plasma), Removível (-5 pontos)); Hypnosis (Perception À Distância, Cumulativo Aflição 12, resistido por Vontade, Dependente de Sentidos (Sight); Prayer Shawl (Enhanced Advantage (Diehard), Proteção 10 (Impenetrável 5), Imunidade 2 (Envelhecimento, Limitado a Half Effect; Raven’s Soul-Self Powers), Removível (-3 pontos)); Força of the Faithful (Força Aprimorada 7, Limitado by number of worshipers; Vigor Aprimorado 6, Limitado by number of worshippers)"
+      "Energia Gauntlets (Dano à Distância 12 (plasma), Removível (-5 pontos)); Hypnosis (Percepção À Distância, Cumulativo Aflição 12, resistido por Vontade, Dependente de Sentidos (Visão); Prayer Shawl (Vantagem Aprimorada (Duro de Matar), Proteção 10 (Impenetrável 5), Imunidade 2 (Envelhecimento, Limitado a Half Effect; Raven’s Soul-Self Poderes), Removível (-3 pontos)); Força of the Faithful (Força Aprimorada 7, Limitado by number of worshipers; Vigor Aprimorado 6, Limitado by number of worshippers)"
     ],
     "equipamento": [],
     "vantagens": [
-      "Benefit 5 (head of the Church of Blood)",
+      "Benefício 5 (head of the Church of Blood)",
       "Connections",
       "Duro de Matar",
       "Inspirar",
-      "Languages 1 (English",
-      "Zandian native)",
+      "Idiomas 1 (Inglês, Zandian native)",
       "Liderança",
       "Capanga 2",
       "Assustar"
@@ -60,7 +59,7 @@
         "total": 20
       },
       {
-        "nome": "Combate à Distância: Energy Gauntlets",
+        "nome": "Combate à Distância: Energia Gauntlets",
         "graduacoes": 10,
         "total": 12
       }
@@ -68,7 +67,7 @@
     "iniciativa": 2,
     "ataques": [
       {
-        "nome": "Energy Gauntlets",
+        "nome": "Energia Gauntlets",
         "bonus": 12,
         "alcance": "",
         "dano": "Dano à Distância 12"

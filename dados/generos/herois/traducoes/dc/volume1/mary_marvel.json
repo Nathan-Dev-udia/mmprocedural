@@ -14,14 +14,14 @@
       "Pre": 3
     },
     "poderes": [
-      "Courage of Achilles (Luta Aprimorada 4, Enhanced Vontade 5, Impenetrável Vontade 10); Velocidade of Mercury (30-ponto Arranjo: Voo 15 (64,0 km/h), AE: Dimensional Travel 1 (Rock of Eternity), AE: Rapidez 15, Velocidade 15 (64,0 km/h)); Vigor of Atlas (Proteção 4, Resistência Impenetrável 19; Imunidade 10 (Suporte Vital)); Força of Hercules (Força Aprimorada 4, Limitado a Lifting (Lifting Str 21)), Wisdom of Solomon (Prontidão Aprimorada 7, Enhanced Advantages 4 (Assessment, Beginner’s Luck, Eidetic Memory, Jack-of-all-trades))"
+      "Courage of Achilles (Luta Aprimorada 4, Vontade Aprimorada 5, Impenetrável Vontade 10); Velocidade of Mercury (30-ponto Arranjo: Voo 15 (102.400 km/h), AE: Viagem Dimensional 1 (Rock of Eternity), AE: Rapidez 15, Velocidade 15 (102.400 km/h)); Vigor of Atlas (Proteção 4, Resistência Impenetrável 19; Imunidade 10 (Suporte Vital)); Força of Hercules (Força Aprimorada 4, Limitado a Lifting (Lifting Str 21)), Wisdom of Solomon (Prontidão Aprimorada 7, Vantagens Aprimoradas 4 (Avaliação, Sorte de Principiante, Memória Eidética, Faz Tudo))"
     ],
     "equipamento": [],
     "vantagens": [
       "Avaliação",
-      "Beginner’s Luck",
+      "Sorte de Principiante",
       "Memória Eidética",
-      "Jack- of-all-trades"
+      "Faz Tudo"
     ],
     "pericias": [
       {
@@ -68,7 +68,7 @@
     "complicacoes": [
       {
         "titulo": "Complicação",
-        "texto": "The same as Captain Marvel. Mary Batson’s normal form is Str 0, Sta 0, Fgt 2, and Awe 3, with corresponding adjustments to her skill graduações and Defenses."
+        "texto": "The same as Captain Marvel. Mary Batson’s normal form is Str 0, Sta 0, Fgt 2, e Awe 3, com corresponding adjustments to her Perícia graduações e Defesas."
       }
     ]
   },

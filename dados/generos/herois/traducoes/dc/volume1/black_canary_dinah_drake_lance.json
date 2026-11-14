@@ -24,16 +24,16 @@
       "Choke Hold",
       "Rolamento Defensivo 4",
       "Equipamento 2",
-      "Evasion",
+      "Evasão",
       "Fascinar (Persuasão)",
       "Desarmar Aprimorado",
       "Imobilizar Aprimorado",
       "Iniciativa Aprimorada",
       "Ataque Poderoso",
-      "Preparar",
-      "Derrubar em Sequência",
+      "Armação",
+      "Ataque Dominó",
       "Trabalho em Equipe",
-      "Bem-Informado"
+      "Bem Informado"
     ],
     "pericias": [
       {
@@ -120,11 +120,11 @@
     "complicacoes": [
       {
         "titulo": "Doing Good",
-        "texto": "Black Canary’s detective father instilled her with a strong sense of right and wrong, along with a need to protect the innocent and bring justice to the guilty."
+        "texto": "Black Canary’s detective father instilled her com a strong sense of right e wrong, along com a need to protect the innocent e bring justice to the guilty."
       },
       {
         "titulo": "Relacionamentos",
-        "texto": "Black Canary is married to private investigator Larry Lance and is mother to Dinah Laurel Lance, the second Black Canary. Among her many friends in the Justice Society, she was especially Corpo a Corpo to Ted Knight, the first Starman, and the two once momentarily considered having an affair."
+        "texto": "Black Canary is married to private investigator Larry Lance e is mother to Dinah Laurel Lance, the second Black Canary. Among her many friends in the Justice Society, she was especially Corpo a Corpo to Ted Knight, the first Starman, e the two once momentarily considered having an affair."
       }
     ]
   },

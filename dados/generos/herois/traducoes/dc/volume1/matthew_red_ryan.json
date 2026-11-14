@@ -18,21 +18,20 @@
     "vantagens": [
       "Ataque Imprudente",
       "Atraente",
-      "Conectado",
+      "Bem Relacionado",
       "Rolamento Defensivo 3",
       "Duro de Matar",
       "Equipamento 4",
-      "Evasion",
+      "Evasão",
       "Destemido",
       "Defesa Aprimorada",
       "Iniciativa Aprimorada",
       "Arma Improvisada",
-      "Languages 2",
+      "Idiomas 2",
       "Sorte",
       "Ataque Poderoso",
       "Trabalho em Equipe",
-      "Ultimate Effort 2 (Acrobatics",
-      "Athletics)",
+      "Esforço Supremo 2 (Acrobacia, Atletismo)",
       "Esquiva Fabulosa"
     ],
     "pericias": [
@@ -62,7 +61,7 @@
         "total": 8
       },
       {
-        "nome": "Especialidade: Electronics",
+        "nome": "Especialidade: Eletrônica",
         "graduacoes": 5,
         "total": 8
       },

@@ -14,7 +14,7 @@
       "Pre": 2
     },
     "poderes": [
-      "Dwarf ( Encolhimento 4, Permanente, Inato); Campo de Força ( Proteção 8, Removível (-2 pontos)); Goggles Sentidos 1 (Infravisão), Removível); Jet Pack Enhanced Advantage 1 (Move-by Action), Voo 6 (192 km/h), Removível (-3 pontos)); Pocket Laser ( Dano à Distância 10, Penetrante 4, Facilmente Removível (-10 pontos))"
+      "Dwarf ( Encolhimento 4, Permanente, Inato); Campo de Força ( Proteção 8, Removível (-2 pontos)); Goggles Sentidos 1 (Infravisão), Removível); Jet Pack Vantagem Aprimorada 1 (Ação em Movimento), Voo 6 (192 km/h), Removível (-3 pontos)); Pocket Laser ( Dano à Distância 10, Penetrante 4, Facilmente Removível (-10 pontos))"
     ],
     "equipamento": [
       "15 pontos of appropriate equipment"
@@ -22,11 +22,11 @@
     "vantagens": [
       "Memória Eidética",
       "Equipamento 3",
-      "Evasion",
+      "Evasão",
       "Ambiente Favorito (Flying)",
-      "Ferramentas Improvisadas",
+      "Ferramentas Aprimoradas",
       "Inventor",
-      "Jack-of-all- trades",
+      "Faz Tudo",
       "Ação em Movimento",
       "Maestria em Perícia (Tecnologia)",
       "Esforço Supremo (Tecnologia)"
@@ -43,7 +43,7 @@
         "total": 7
       },
       {
-        "nome": "Especialidade: Electronics",
+        "nome": "Especialidade: Eletrônica",
         "graduacoes": 8,
         "total": 14
       },
@@ -97,7 +97,7 @@
     "complicacoes": [
       {
         "titulo": "Greedy",
-        "texto": "Gizmo is motivated by money, pure and simple."
+        "texto": "Gizmo is motivated by money, pure e simple."
       }
     ]
   },

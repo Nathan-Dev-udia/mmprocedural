@@ -14,16 +14,16 @@
       "Pre": 2
     },
     "poderes": [
-      "Power Ring: 121 pontos, Removível (–24 pontos) (97 PP)",
+      "Poder Ring: 121 pontos, Removível (-24 pontos) (97 PP)",
       "Ageless: Imunidade 1 (Envelhecimento) (1 PP)",
-      "Voo: Voo 14 (32,0 km/h), Movimento 4 (Environmental Adaptation: Zero-G, Space Travel 3) (36 PP)",
+      "Voo: Voo 14 (51.200 km/h), Movimento 4 (Adaptação Ambiental: Zero-G, Viagem Espacial 3) (36 PP)",
       "Campo de Força: Proteção 12, Impenetrável; Imunidade 10 (Suporte Vital) (34 PP)",
-      "The Green Flame: Arranjo (36 pontos) Energy Raio: Dano à Distância 18, Dynamic (37 PP)",
-      "• Energy Constructs: Criar Objetos 18, Dynamic (2 PP)",
+      "The Green Flame: Arranjo (36 pontos) Energia Raio: Dano à Distância 18, Dinâmico (37 PP)",
+      "• Energia Constructs: Criar Objetos 18, Dinâmico (2 PP)",
       "• Fourth-Dimensional Shift: Intangibilidade 4 (Vulnerável to wood) (1 PP)",
-      "• Lifting: Mover Objetos 18, Dynamic (2 PP)",
-      "• Mobile Constructs: Criar Objetos 12, Movable, Dynamic (2 PP)",
-      "Scanning: Sentidos 6 (À Distância Analítico Detect Energy and mágico) (6 PP)"
+      "• Lifting: Mover Objetos 18, Dinâmico (2 PP)",
+      "• Mobile Constructs: Criar Objetos 12, Movable, Dinâmico (2 PP)",
+      "Scanning: Sentidos 6 (À Distância Analítico Detectar Energia e Magia) (6 PP)"
     ],
     "equipamento": [],
     "vantagens": [
@@ -38,12 +38,12 @@
         "total": 6
       },
       {
-        "nome": "Especialidade: Business",
+        "nome": "Especialidade: Negócios",
         "graduacoes": 6,
         "total": 8
       },
       {
-        "nome": "Especialidade: Engineering",
+        "nome": "Especialidade: Engenharia",
         "graduacoes": 8,
         "total": 10
       },
@@ -90,7 +90,7 @@
       "Resistência": 14,
       "Vontade": 18
     },
-    "observacao_defesas": "* Vontade 18 *Without Campo de Força Proteção.",
+    "observacao_defesas": "* Vontade 18 *sem Campo de Força Proteção.",
     "custos": {
       "Habilidades": 42,
       "Perícias": 21,
@@ -106,11 +106,11 @@
       },
       {
         "titulo": "Relacionamentos",
-        "texto": "Alan is protective of his children, Jennie-Lynn (Jade) and Todd (Obsidian) and his wife Molly."
+        "texto": "Alan is protective of his children, Jennie-Lynn (Jade) e Todd (Obsidian) e his wife Molly."
       },
       {
         "titulo": "Vulnerability",
-        "texto": "The Green Flame cannot affect wood, so Alan is Vulnerável to wooden weapons (which ignore his Proteção) and cannot directly manipulate wooden objects."
+        "texto": "The Green Flame cannot affect wood, so Alan is Vulnerável to wooden weapons (which ignore his Proteção) e cannot directly manipulate wooden Objetos."
       }
     ]
   },

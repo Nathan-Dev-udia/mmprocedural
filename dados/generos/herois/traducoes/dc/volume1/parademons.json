@@ -14,12 +14,12 @@
       "Pre": "—"
     },
     "poderes": [
-      "Armor (Voo 3 (25 km/h), Imunidade 4 (Pressão, Sufocamento, Vácuo), Impenetrável Proteção 4, Sentidos 3 (Comunicação Link, Visão no Escuro); Removível (–4 pontos)), Power-Staff (Dano à Distância 7, Facilmente Removível (–6 pontos))"
+      "Armor (Voo 3 (25 km/h), Imunidade 4 (Pressão, Sufocamento, Vácuo), Impenetrável Proteção 4, Sentidos 3 (Elo de Comunicação, Visão no Escuro); Removível (-4 pontos)), Poder-Staff (Dano à Distância 7, Facilmente Removível (-6 pontos))"
     ],
     "equipamento": [],
     "vantagens": [
       "Ataque Corpo-a-Corpo",
-      "Grande Vigor"
+      "Tolerância Maior"
     ],
     "pericias": [
       {
@@ -33,7 +33,7 @@
         "total": 2
       },
       {
-        "nome": "Combate à Distância: Power-Staff",
+        "nome": "Combate à Distância: Poder-Staff",
         "graduacoes": 5,
         "total": 5
       }
@@ -41,7 +41,7 @@
     "iniciativa": 0,
     "ataques": [
       {
-        "nome": "Power-Staff",
+        "nome": "Poder-Staff",
         "bonus": 5,
         "alcance": "À distância",
         "dano": "Dano 7"

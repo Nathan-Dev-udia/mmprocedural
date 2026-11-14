@@ -18,9 +18,9 @@
       "Crossbow: Dano à Distância 3, Improved Critical (7 PP)",
       "Knife: Força-based Dano 1, Improved Critical (2 PP)",
       "Staff: Força-based Dano 1, Reach 1 (2 PP)",
-      "Twin Pistols: Dano à Distância 4 (16 PP)",
+      "Twin Pistolas: Dano à Distância 4 (16 PP)",
       "VEHICLE: MOTORCYCLE (11 PP)",
-      "Medium, Str 1, Spd 6, Def 10, Tou 8; Navigation System"
+      "Medium, Str 1, Spd 6, Def 10, Tou 8; Navegação System"
     ],
     "vantagens": [
       "Ataque Imprudente",
@@ -28,16 +28,16 @@
       "Ataque Defensivo",
       "Rolamento Defensivo 2",
       "Equipamento 8",
-      "Agarrar com Destreza",
-      "Esconder-se a Plena Vista",
+      "Agarrar Preciso",
+      "Esconder-se à Plena Vista",
       "Mira Aprimorada",
       "Crítico Aprimorado (Desarmado)",
       "Iniciativa Aprimorada",
       "Derrubar Aprimorado",
       "Arma Improvisada",
-      "Levantar Rápido",
-      "Languages 1",
-      "Precise Attack 2 (à distância; Cover & Concealment)",
+      "De Pé",
+      "Idiomas 1",
+      "Ataque Preciso 2 (À Distância; Cobertura & Camuflagem)",
       "Saque Rápido",
       "Ataque à Distância 4"
     ],
@@ -108,7 +108,7 @@
         "total": 11
       },
       {
-        "nome": "Combate à Distância: Pistols",
+        "nome": "Combate à Distância: Pistolas",
         "graduacoes": 5,
         "total": 10
       },
@@ -140,16 +140,16 @@
         "nome": "Desarmado",
         "bonus": 15,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 3, Crit. 19-20"
+        "dano": "Dano 3, Crít. 19-20"
       },
       {
         "nome": "Knife",
         "bonus": 14,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 4, Crit. 19-20"
+        "dano": "Dano 4, Crít. 19-20"
       },
       {
-        "nome": "Pistols",
+        "nome": "Pistolas",
         "bonus": 14,
         "alcance": "À distância",
         "dano": "Dano 4"
@@ -158,7 +158,7 @@
         "nome": "Crossbow",
         "bonus": 15,
         "alcance": "À distância",
-        "dano": "Dano 3, Crit. 19-20"
+        "dano": "Dano 3, Crít. 19-20"
       }
     ],
     "defesas": {
@@ -180,11 +180,11 @@
     "complicacoes": [
       {
         "titulo": "Vengeance",
-        "texto": "“Blood calls out for blood” has been the Huntress’ mantra since the beginning of her career, and this attitude has cost her much, including her membership in the Justice League."
+        "texto": "“Blood calls out for blood” has been the Huntress’ mantra since the beginning of her career, e this attitude has cost her much, including her membership in the Justice League."
       },
       {
         "titulo": "Relacionamentos",
-        "texto": "Huntress is Corpo a Corpo friends with Oracle and Black Canary, and Helena Bertinelli is a dedicated teacher. She has found, however, that her nocturnal double-life as Huntress makes keeping a teaching job difficult."
+        "texto": "Huntress is Corpo a Corpo friends com Oracle e Black Canary, e Helena Bertinelli is a dedicated teacher. She has found, however, that her nocturnal double-life as Huntress makes keeping a teaching job difficult."
       }
     ]
   },

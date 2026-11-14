@@ -14,16 +14,16 @@
       "Pre": 2
     },
     "poderes": [
-      "mágico a rr ay (24 pontos): d inb Mih! (À Distância Cumulativo Aflição 8 (resistido por Esquiva; Impedido and Vulnerável, Indefeso and Imóvel), Extra Condition, Limitado Degree), ae : Cigam e k irts! (Dano à Distância 9 (mágico)), ae : e nogeb! (Nulificar 9 (Broad: All mágico Effects)), ae : o tserp e gnahc o ! (À Distância Transform 4 (Anything)), ae : r aeppa! (Criar Objetos 7 (Contínuo, Sutil)), ae : Seutats, k c atta! (À Distância Summon 4 (Horde, Multiple Minions (Two 60-ponto minions), Medium (Statues))), Mystic Sentidos (Sentidos 4 (Detect mágico, À Distância, Aguçado, Analítico))"
+      "Magia a rr ay (24 pontos): d inb Mih! (À Distância Cumulativo Aflição 8 (resistido por Esquiva; Impedido e Vulnerável, Indefeso e Imóvel), Extra Condition, Limitado Grau), ae : Cigam e k irts! (Dano à Distância 9 (Magia)), ae : e nogeb! (Nulificar 9 (Amplo: All Magia Efeitos)), ae : o tserp e gnahc o ! (À Distância Transformar 4 (Anything)), ae : r aeppa! (Criar Objetos 7 (Contínuo, Sutil)), ae : Seutats, k c atta! (À Distância Invocar 4 (Horda, Múltiplos Capangas (Two 60-ponto capangas), Medium (Statues))), Místico Sentidos (Sentidos 4 (Detectar Magia, À Distância, Aguçado, Analítico))"
     ],
     "equipamento": [],
     "vantagens": [
       "Atraente",
       "Esforço Extraordinário",
-      "Fascinar (Expertise: Performance)",
+      "Fascinar (Especialidade: Performance)",
       "Ritualista",
-      "Sidekick 2 (Bunny) *",
-      "Provocar",
+      "Parceiro 2 (Bunny) *",
+      "Zombar",
       "Esquiva Fabulosa"
     ],
     "pericias": [
@@ -33,7 +33,7 @@
         "total": 8
       },
       {
-        "nome": "Especialidade: mágico",
+        "nome": "Especialidade: Magia",
         "graduacoes": 6,
         "total": 8
       },
@@ -53,7 +53,7 @@
         "total": 6
       },
       {
-        "nome": "Combate à Distância: mágico",
+        "nome": "Combate à Distância: Magia",
         "graduacoes": 4,
         "total": 7
       },
@@ -66,7 +66,7 @@
     "iniciativa": 2,
     "ataques": [
       {
-        "nome": "mágico",
+        "nome": "Magia",
         "bonus": 7,
         "alcance": "À distância",
         "dano": "Dano 10 mais outros"
@@ -97,15 +97,15 @@
     "complicacoes": [
       {
         "titulo": "Brat",
-        "texto": "Zatara has an incredibly high opinion of himself, and rarely views anyone else as an equal, an opinion he is happy to express in plain language. Living t hings , n ot S o Good: Zatara is not yet very proficient with mágico involving naturally animate subjects, such as living things."
+        "texto": "Zatara has an incredibly high opinion of himself, e rarely views anyone else as an equal, an opinion he is happy to express in plain language. Living t hings , n ot S o Good: Zatara is not yet very proficient com Magia involving naturally animate subjects, such as living things."
       },
       {
         "titulo": "When casting magic to affect such subjects consider his Magic Array to have both the Expertise",
-        "texto": "mágico Exige Teste and Não Confiável flaws."
+        "texto": "Magia Exige Teste e Não Confiável flaws."
       },
       {
         "titulo": "Perda de Poder",
-        "texto": "Zatara needs to speak aloud (and backwards) to cast his spells. Women and mágico d on’t Mix: Zatara’s mágico can be influenced by his emotional attachment to others, especially women. Strong feeling of this type effectively impose the Não Confiável flaw upon his mágico Arranjo when in the Presença of the subject of his affection."
+        "texto": "Zatara needs to speak aloud (e backwards) to cast his spells. Women e Magia d on’t Mix: Zatara’s Magia can be influenced by his emotional attachment to others, especially women. Strong feeling of this type effectively impose the Não Confiável flaw upon his Magia Arranjo when in the Presença of the subject of his affection."
       }
     ]
   },

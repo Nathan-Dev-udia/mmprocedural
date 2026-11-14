@@ -14,13 +14,13 @@
       "Pre": 2
     },
     "poderes": [
-      "Detect Fear (Leitura mental 8, Sutil 2, Limitado a Fear); Project Fear (Perception Aflição 12 (resistido por Vontade; Impaired, Compelido, Controlado (Flee)), Concentração, AE: Paralyzing Fear (Aflição 12 (resistido por Vontade; Impaired, Atordoado, Incapacitado), Concentração))"
+      "Detectar Fear (Leitura Mental 8, Sutil 2, Limitado a Fear); Project Fear (Percepção Aflição 12 (resistido por Vontade; Prejudicado, Compelido, Controlado (Flee)), Concentração, AE: Paralyzing Fear (Aflição 12 (resistido por Vontade; Prejudicado, Atordoado, Incapacitado), Concentração))"
     ],
     "equipamento": [],
     "vantagens": [
       "Atraente",
-      "Benefit 1 (Aristocrat)",
-      "Benefit 2 (Independently Wealthy)",
+      "Benefício 1 (Aristocrat)",
+      "Benefício 2 (Independentemente Rico)",
       "Rolamento Defensivo 3",
       "Maestria em Perícia (Intimidação)",
       "Esforço Supremo (Intimidação)"
@@ -42,12 +42,12 @@
         "total": 7
       },
       {
-        "nome": "Especialidade: Art",
+        "nome": "Especialidade: Arte",
         "graduacoes": 4,
         "total": 7
       },
       {
-        "nome": "Especialidade: Current Events",
+        "nome": "Especialidade: Atualidades",
         "graduacoes": 4,
         "total": 7
       },
@@ -69,6 +69,12 @@
         "bonus": 5,
         "alcance": "Corpo a corpo",
         "dano": "Dano 1"
+      },
+      {
+        "nome": "Project Fear",
+        "bonus": null,
+        "alcance": "Percepção",
+        "dano": "Aflição 12"
       }
     ],
     "defesas": {
@@ -90,7 +96,7 @@
     "complicacoes": [
       {
         "titulo": "Aristocrat",
-        "texto": "As a member of British aristocracy, Angela is very much a blue-blooded snob, often to the ponto of being boorish and making it difficult for even her teammates to tolerate her, much less like her."
+        "texto": "As a member of British aristocracy, Angela is very much a blue-blooded snob, often to the ponto of being boorish e making it difficult for even her teammates to tolerate her, much less like her."
       },
       {
         "titulo": "Fear",
@@ -98,15 +104,15 @@
       },
       {
         "titulo": "Loss of Control",
-        "texto": "Phobia’s Powers have been known to escape her control when her mind is not focused upon them, causing others to relive their greatest fears if Phobia so much as accidentally bumps into them. This is a rare occasion, however."
+        "texto": "Phobia’s Poderes have been known to escape her control when her mind is not focused upon them, causing others to relive their greatest fears if Phobia so much as accidentally bumps into them. This is a rare occasion, however."
       },
       {
         "titulo": "Misandry",
-        "texto": "Although she doesn’t let it rule her behavior, Phobia has been known to harbor and express anti- male notions born out of her childhood relationship with her father."
+        "texto": "Although she doesn’t let it rule her behavior, Phobia has been known to harbor e express anti- male notions born out of her childhood relationship com her father."
       },
       {
         "titulo": "Sadistic Thrill Seeker",
-        "texto": "Phobia became a criminal for the adrenaline rush that comes with risk and from terrifying others, as she has no need of the money."
+        "texto": "Phobia became a criminal for the adrenaline rush that comes com risk e from terrifying others, as she has no need of the money."
       }
     ]
   },

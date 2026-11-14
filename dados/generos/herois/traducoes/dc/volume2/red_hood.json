@@ -18,8 +18,8 @@
       "r ed r igh t Hand : Força-based Dano 1, Penetrante 3, Removível (-1 ponto) (3 PP)"
     ],
     "equipamento": [
-      "Crimson Pistols : À Distância Multiataque Dano 5 (15 PP)",
-      "Video Camera: Característica 2 (Can both record and broadcast) (2 PP)",
+      "Crimson Pistolas : À Distância Multiataque Dano 5 (15 PP)",
+      "Video Camera: Característica 2 (Can both record e broadcast) (2 PP)",
       "10 additional pontos of equipment as needed"
     ],
     "vantagens": [
@@ -28,12 +28,12 @@
       "Rolamento Defensivo 2",
       "Duro de Matar",
       "Equipamento 6",
-      "Evasion",
-      "Crítico Aprimorado (Crimson Pistols)",
+      "Evasão",
+      "Crítico Aprimorado (Crimson Pistolas)",
       "Iniciativa Aprimorada",
       "Ação em Movimento",
       "Ataque Poderoso",
-      "Derrubar em Sequência"
+      "Ataque Dominó"
     ],
     "pericias": [
       {
@@ -57,7 +57,7 @@
         "total": 17
       },
       {
-        "nome": "Especialidade: Streetwise",
+        "nome": "Especialidade: Manha",
         "graduacoes": 8,
         "total": 10
       },
@@ -77,7 +77,7 @@
         "total": 18
       },
       {
-        "nome": "Combate à Distância: Crimson Pistols",
+        "nome": "Combate à Distância: Crimson Pistolas",
         "graduacoes": 9,
         "total": 14
       },
@@ -95,7 +95,7 @@
     "iniciativa": 10,
     "ataques": [
       {
-        "nome": "Crimson Pistols",
+        "nome": "Crimson Pistolas",
         "bonus": 14,
         "alcance": "À distância",
         "dano": "Multiataque Dano 5, Critical 19-20"

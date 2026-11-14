@@ -15,25 +15,25 @@
     },
     "poderes": [],
     "equipamento": [
-      "Blaster Pistola; Short Espada TIMESPHERE: VEHICLE ( Size: Huge Str 8 Velocidade 1 (Voo) Def 8 Tou 12; Time Engines: Movimento 5 (Full Time Travel, Dimension Travel to Alternate Timelines), Chronal Escudo: Imunidade 10 (Suporte Vital), Crosstime Database: Enhanced Skill 10 (Expertise: History +10); Linked: Característica 1 (Database Updates Based on Shifting Timelines), Alarm, Hidden Compartments, Navigation)"
+      "Blaster Pistola; Short Espada TIMESPHERE: VEHICLE ( Size: Huge Str 8 Velocidade 1 (Voo) Def 8 Tou 12; Time Engines: Movimento 5 (Full Viagem no Tempo, Dimension Travel to Alternate Timelines), Chronal Escudo: Imunidade 10 (Suporte Vital), Crosstime Database: Perícia Aprimorada 10 (Especialidade: História +10); Ligado: Característica 1 (Database Updates Based on Shifting Timelines), Alarm, Hidden Compartments, Navegação)"
     ],
     "vantagens": [
       "Avaliação",
-      "Benefit 6 (Cipher)",
-      "Benefit 5 (Billionaire)",
-      "Conectado",
+      "Benefício 6 (Cifra)",
+      "Benefício 5 (Bilionário)",
+      "Bem Relacionado",
       "Contatos",
       "Rolamento Defensivo 5",
       "Memória Eidética",
       "Equipamento 10",
       "Destemido",
       "Inventor",
-      "Languages 4",
+      "Idiomas 4",
       "Redirecionar",
       "Tomar a Iniciativa",
-      "Preparar",
+      "Armação",
       "Esquiva Fabulosa",
-      "Bem-Informado"
+      "Bem Informado"
     ],
     "pericias": [
       {
@@ -52,12 +52,12 @@
         "total": 13
       },
       {
-        "nome": "Combate Corpo-a-Corpo: Blades",
+        "nome": "Combate Corpo-a-Corpo: Lâminas",
         "graduacoes": 8,
         "total": 11
       },
       {
-        "nome": "Especialidade: History",
+        "nome": "Especialidade: História",
         "graduacoes": 12,
         "total": 18
       },
@@ -104,7 +104,7 @@
         "nome": "Espada",
         "bonus": 11,
         "alcance": "",
-        "dano": "Dano 5, Crit. 19-20"
+        "dano": "Dano 5, Crít. 19-20"
       }
     ],
     "defesas": {
@@ -126,7 +126,7 @@
     "complicacoes": [
       {
         "titulo": "Time Master",
-        "texto": "Rip Hunter follows in his ancestors’ footsteps as a guardian of time. He attempts to fix anomalies, prevent paradoxes, and keep evil time travel - ers from altering time and causing irreparable harm to the time stream."
+        "texto": "Rip Hunter follows in his ancestors’ footsteps as a guardian of time. He attempts to fix anomalies, prevent paradoxes, e keep evil Viagem no Tempo - ers from altering time e causing irreparable harm to the time stream."
       }
     ]
   },

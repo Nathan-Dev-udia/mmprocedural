@@ -21,32 +21,23 @@
       "5 pontos of various equipment depending on his needs."
     ],
     "vantagens": [
-      "Beginner’s Luck",
-      "Benefit 3 (In/Famous Occultist)",
-      "Conectado",
+      "Sorte de Principiante",
+      "Benefício 3 (In/Famous Occultist)",
+      "Bem Relacionado",
       "Rolamento Defensivo 2",
       "Equipamento",
-      "Fascinate 3 (Deception",
-      "Intimidation",
-      "Persuasion)",
-      "Favored Foe 4 (Demons",
-      "Devils",
-      "Magicians",
-      "Undead)",
+      "Fascinar 3 (Enganação, Intimidação, Persuasão)",
+      "Inimigo Favorito 4 (Demons, Devils, Magicians, Undead)",
       "Sorte 3",
       "Redirecionar",
       "Ritualista",
-      "Second Chance 2 (Opposed Insight Checks",
-      "Fear Effects)",
+      "Segunda Chance 2 (Opposed Intuição Testes, Fear Efeitos)",
       "Tomar a Iniciativa",
-      "Preparar",
-      "Skill Mastery 3 (Deception",
-      "Expertise: Magic",
-      "Expertise: Occult)",
-      "Provocar",
-      "Ultimate Effort 2 (Deception",
-      "Intimidation)",
-      "Bem-Informado"
+      "Armação",
+      "Maestria em Perícia 3 (Enganação, Especialidade: Magia, Especialidade: Occult)",
+      "Zombar",
+      "Esforço Supremo 2 (Enganação, Intimidação)",
+      "Bem Informado"
     ],
     "pericias": [
       {
@@ -65,12 +56,12 @@
         "total": 14
       },
       {
-        "nome": "Especialidade: mágico",
+        "nome": "Especialidade: Magia",
         "graduacoes": 10,
         "total": 18
       },
       {
-        "nome": "Especialidade: Music",
+        "nome": "Especialidade: Música",
         "graduacoes": 2,
         "total": 10
       },
@@ -148,11 +139,11 @@
     "complicacoes": [
       {
         "titulo": "Haunted",
-        "texto": "Constantine is haunted by the silent shades of his former companions and friends, who reproach him for his mistakes and add to his melancholy."
+        "texto": "Constantine is haunted by the silent shades of his former companions e friends, who reproach him for his mistakes e add to his melancholy."
       },
       {
         "titulo": "Riding the Synchronicity Highway",
-        "texto": "John Constantine has a supernatural ability to always be at the crux of great events as they unfold whether he wants to or not."
+        "texto": "John Constantine has a supernatural Habilidade to always be at the crux of great events as they unfold whether he wants to or not."
       }
     ]
   },

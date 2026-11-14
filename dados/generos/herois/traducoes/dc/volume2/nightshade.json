@@ -14,17 +14,17 @@
       "Pre": 2
     },
     "poderes": [
-      "d arksight: Sentidos 2 (Visão no Escuro); Característica 1 (can see through her o wn shadow effects) (3 PP)",
-      "f ligh t: Voo 1 (6 km/h) (2 PP)",
+      "d arksight: Sentidos 2 (Visão no Escuro); Característica 1 (can see through her o wn shadow Efeitos) (3 PP)",
+      "f Luz: Voo 1 (6 km/h) (2 PP)",
       "Shadow f orm: Intangibilidade 2 (two-Dimensional shadow), Ativação (Ação de Movimento) (9 PP)",
-      "Umbrakinesis: mágico Arranjo (36 pontos)",
-      "• Shadow Warp: Teleporte 7, Preciso, Easy, Extended (120 milhas), Portal, Limitado a Extended (36 PP)",
-      "• Black t endrils: Dano 14 (solid shadow), Penetrante 5, Reach 5, Dividido 2, Não Confiável, Efeito Colateral (Become Uncontrolled), Affects Only Objects (4 graduações only, -4 pontos) (1 PP)",
-      "• d imensional P ortal: Movimento 2 (Dimensional Travel 2, Mystical Dimensions), Affects Others, Reach 2 (10 feet); Característica (Access to The Oblivion Bar and the Land of Nightshades) (1 PP)",
+      "Umbrakinesis: Magia Arranjo (36 pontos)",
+      "• Shadow Warp: Teleporte 7, Acurado, Easy, Estendido (120 milhas), Portal, Limitado a Estendido (36 PP)",
+      "• Black t endrils: Dano 14 (solid shadow), Penetrante 5, Reach 5, Dividido 2, Não Confiável, Efeito Colateral (Become Descontrolado), Afeta Apenas Objetos (4 graduações Apenas, -4 pontos) (1 PP)",
+      "• d imensional P ortal: Movimento 2 (Viagem Dimensional 2, Mystical Dimensions), Afeta Outros, Reach 2 (10 pés); Característica (Access to The Oblivion Bar e the Land of Nightshades) (1 PP)",
       "• Shadow Bolts: À Distância Área de Explosão Dano 10 (1 PP)",
       "• Shadow Constructs: Criar Objetos 10 (solid shadows), Impenetrável, Movable, Stationary, Concentração, Distrativo (1 PP)",
-      "• Shadow f À Distância área Burst 4 (250 feet) ields: Camuflagem Attack 4 (All Visual Sentidos; resistido por Esquiva), Seletivo (1 PP)",
-      "• Shadow Homunculi: Summon 10 (animated shadows, 150 pontos), Active, Multiple Minions 2 (4 minions), Concentração, Distrativo (1 PP)"
+      "• Shadow f À Distância área Estouro 4 (250 pés) ields: Camuflagem Attack 4 (All Visual Sentidos; resistido por Esquiva), Seletivo (1 PP)",
+      "• Shadow Homunculi: Invocar 10 (animated shadows, 150 pontos), Active, Múltiplos Capangas 2 (4 capangas), Concentração, Distrativo (1 PP)"
     ],
     "equipamento": [],
     "vantagens": [
@@ -38,7 +38,7 @@
       "Derrubar Aprimorado",
       "Ação em Movimento",
       "Ataque Poderoso",
-      "Luta Caída"
+      "Luta no Chão"
     ],
     "pericias": [
       {
@@ -62,7 +62,7 @@
         "total": 6
       },
       {
-        "nome": "Especialidade: Mystic Dimensions",
+        "nome": "Especialidade: Místico Dimensions",
         "graduacoes": 7,
         "total": 8
       },
@@ -119,7 +119,19 @@
         "nome": "Shadow Tendril",
         "bonus": 6,
         "alcance": "Corpo a corpo",
-        "dano": "Reach 5 (25 feet), Dano 10 (14 against objects) Shadow Bolts — À Distância, Área de Explosão, Dano 10 Shadow Fields — À Distância, Burst 4 (250 feet), Camuflagem"
+        "dano": "Reach 5 (25 pés), Dano 10 (14 contra Objetos)"
+      },
+      {
+        "nome": "Shadow Bolts",
+        "bonus": null,
+        "alcance": "À distância",
+        "dano": "Área de Explosão, Dano 10"
+      },
+      {
+        "nome": "Shadow Fields",
+        "bonus": null,
+        "alcance": "À distância",
+        "dano": "Estouro 4 (250 pés), Camuflagem"
       }
     ],
     "defesas": {
@@ -129,8 +141,11 @@
       "Resistência": 6,
       "Vontade": 10
     },
-    "observacao_defesas": "* Vontade 10 *sem Rolamento Defensivo Po er ponto W S Abilities 36 Skills 37",
-    "custos": {},
+    "observacao_defesas": "* Vontade 10 *sem Rolamento Defensivo",
+    "custos": {
+      "Habilidades": 36,
+      "Perícias": 37
+    },
     "total": null,
     "complicacoes": []
   },

@@ -14,23 +14,23 @@
       "Pre": 6
     },
     "poderes": [
-      "Power r ing: 139 pontos, Removível (-28 pontos) (111 PP)",
-      "ai and d atabase: Features 2 (2 PP)",
+      "Poder r ing: 139 pontos, Removível (-28 pontos) (111 PP)",
+      "ai e d atabase: Características 2 (2 PP)",
       "t he P ower of Hope: Característica 1 (see sidebar) (1 PP)",
-      "Comunicação: Sentidos 1 (Comunicação Link to Central Power Battery) (1 PP)",
-      "f ligh t: Voo 14 (32,0 km/h), Movimento 4 (Environmental Adaptation — Zero-G, Space Travel 3) (36 PP)",
+      "Comunicação: Sentidos 1 (Elo de Comunicação to Central Poder Battery) (1 PP)",
+      "f Luz: Voo 14 (51.200 km/h), Movimento 4 (Adaptação Ambiental — Zero-G, Viagem Espacial 3) (36 PP)",
       "f or ce f ield: Impenetrável Proteção 12; Imunidade 10 (Suporte Vital) (34 PP)",
       "f or ce Manipulation: Arranjo (40 pontos)",
       "• r evitalize: Cura 20 (40 PP)",
-      "• Hope Burns Bright: Nulificar 20 (Orange, Red, or Yellow power ring effects), Dynamic (2 PP)",
-      "• f or ce Raio: Dano à Distância 18, Dynamic (2 PP)",
-      "• f or ce Constructs: Criar Objetos 18, Dynamic (2 PP)",
-      "• Lifting: Mover Objetos 18, Dynamic (2 PP)",
-      "• f or ce Bubble: Imunidade 10 (Suporte Vital), Affects Others, Área de Explosão, À Distância (2 PP)",
-      "• Mobile Constructs: Criar Objetos 12, Movable, Dynamic (2 PP)",
-      "S canning Beam: Sentidos 6 (Analítico Auditory, Chemical, and Visual) (6 PP)",
+      "• Hope Burns Bright: Nulificar 20 (Orange, Red, or Yellow Poder ring Efeitos), Dinâmico (2 PP)",
+      "• f or ce Raio: Dano à Distância 18, Dinâmico (2 PP)",
+      "• f or ce Constructs: Criar Objetos 18, Dinâmico (2 PP)",
+      "• Lifting: Mover Objetos 18, Dinâmico (2 PP)",
+      "• f or ce Bubble: Imunidade 10 (Suporte Vital), Afeta Outros, Área de Explosão, À Distância (2 PP)",
+      "• Mobile Constructs: Criar Objetos 12, Movable, Dinâmico (2 PP)",
+      "S canning Beam: Sentidos 6 (Analítico Auditivo, Chemical, e Visual) (6 PP)",
       "Univ ersal t r anslator: Compreender Languages 4 (8 PP)",
-      "a V ant G d a e S Defensive Attack, Diehard, Fearless, Inspire 3, Interpose, Leadership, Move-by Action"
+      "a V ant G d a e S Defensive Attack, Diehard, Fearless, Inspire 3, Interpor-se, Leadership, Ação em Movimento"
     ],
     "equipamento": [],
     "vantagens": [
@@ -63,7 +63,7 @@
         "total": 10
       },
       {
-        "nome": "Combate à Distância: Power Ring",
+        "nome": "Combate à Distância: Poder Ring",
         "graduacoes": 8,
         "total": 10
       },
@@ -111,11 +111,11 @@
     "complicacoes": [
       {
         "titulo": "Perda de Poder",
-        "texto": "The Blue Lantern rings are fueled by hope. If the wearer of the ring and others near the wearer of a Blue Lantern power ring lose hope, the ring ceases to function."
+        "texto": "The Blue Lantern rings are fueled by hope. If the wearer of the ring e others near the wearer of a Blue Lantern Poder ring lose hope, the ring ceases to function."
       },
       {
         "titulo": "Fraqueza",
-        "texto": "The Force Manipulation Arranjo of the Blue Lantern Power Ring only functions while within Alcance de Percepção of a Green Lantern, also Voo and Campo de Força graduações are halved when out of this range."
+        "texto": "The Force Manipulation Arranjo of the Blue Lantern Poder Ring Apenas functions while within Alcance de Percepção of a Green Lantern, also Voo e Campo de Força graduações are halved when out of this range."
       }
     ]
   },

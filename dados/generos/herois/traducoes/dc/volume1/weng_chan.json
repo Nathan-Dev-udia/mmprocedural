@@ -26,8 +26,8 @@
       "Iniciativa Aprimorada",
       "Quebrar Aprimorado",
       "Derrubar Aprimorado",
-      "Levantar Rápido",
-      "Languages",
+      "De Pé",
+      "Idiomas",
       "Ataque Poderoso",
       "Trabalho em Equipe"
     ],
@@ -53,7 +53,7 @@
         "total": 8
       },
       {
-        "nome": "Combate à Distância: Firearms",
+        "nome": "Combate à Distância: Armas de Fogo",
         "graduacoes": 5,
         "total": 9
       },
@@ -97,7 +97,7 @@
     "complicacoes": [
       {
         "titulo": "Justice",
-        "texto": "Chop-Chop is committed to avenging the wrongs of tyranny and oppression worldwide."
+        "texto": "Chop-Chop is committed to avenging the wrongs of tyranny e oppression worldwide."
       },
       {
         "titulo": "Inimigo",

@@ -51,19 +51,19 @@
       "Rolamento Defensivo 3",
       "Evasão",
       "Iniciativa Aprimorada 2",
-      "Improved Grapple",
+      "Agarrar Aprimorado",
       "Derrubar Aprimorado",
       "Inventor",
-      "Grappling Finesse",
-      "Maestria em Perícia 4 [Acrobatics, Diplomacy, Sense Motive, Stealth]",
+      "Agarrar Preciso",
+      "Maestria em Perícia 4 (Acrobacia, Persuasão, Intuição, Furtividade)",
       "Zombar",
       "Trabalho em Equipe 3",
-      "Esquiva Fabulosa [Audição]"
+      "Esquiva Fabulosa (Audição)"
     ],
     "poderes": [
       {
         "nome": "Additional Limb",
-        "construcao_3e": "Extra Limbs 1.",
+        "construcao_3e": "Membros Extras 1.",
         "custo_2e_pp": 1,
         "custo_3e_pp": 1,
         "nome_pt": "Língua Preênsil"

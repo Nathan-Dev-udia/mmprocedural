@@ -22,20 +22,20 @@
     "vantagens": [
       "Finta Ágil",
       "Avaliação",
-      "Benefício (Cipher)",
+      "Benefício (Cifra)",
       "Ataque Corpo-a-Corpo 5",
       "Tontear (Intimidação)",
       "Ataque Defensivo",
       "Rolamento Defensivo 5",
       "Equipamento 1",
       "Esforço Extraordinário",
-      "Evasion",
+      "Evasão",
       "Fascinar (Intimidação)",
       "Destemido",
       "Liderança",
       "Ação em Movimento",
       "Ataque Poderoso",
-      "Derrubar em Sequência",
+      "Ataque Dominó",
       "Transe",
       "Esquiva Fabulosa"
     ],
@@ -103,6 +103,12 @@
     ],
     "iniciativa": 4,
     "ataques": [
+      {
+        "nome": "Demon’s Fang",
+        "bonus": 19,
+        "alcance": "",
+        "dano": "Dano 3, Crít 17-20"
+      },
       {
         "nome": "Fatal Golpe",
         "bonus": 17,

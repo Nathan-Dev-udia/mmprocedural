@@ -14,8 +14,8 @@
       "Pre": 4
     },
     "poderes": [
-      "e motionless: Imunidade 5 (Emotion effects) (5 PP)",
-      "f ear G as: Cumulativo Progressivo Área de Nuvem Aflição 10 (resistido por Vontade; Tonto and Vulnerável, Atordoado and Indefeso, Paralisado and Unaware), Extra Condition, Facilmente Removível (-24 pontos) (36 PP)"
+      "e motionless: Imunidade 5 (Emotion Efeitos) (5 PP)",
+      "f ear G as: Cumulativo Progressivo Área de Nuvem Aflição 10 (resistido por Vontade; Tonto e Vulnerável, Atordoado e Indefeso, Paralisado e Desatento), Extra Condition, Facilmente Removível (-24 pontos) (36 PP)"
     ],
     "equipamento": [
       "Scythe: Força-based Dano 3, Improved Critical, Reach (5 PP)"
@@ -25,7 +25,7 @@
       "Rolamento Defensivo 4",
       "Equipamento",
       "Fascinar (Intimidação)",
-      "Maestria em Perícia (Expertise: Psychology)",
+      "Maestria em Perícia (Especialidade: Psicologia)",
       "Assustar"
     ],
     "pericias": [
@@ -35,12 +35,12 @@
         "total": 10
       },
       {
-        "nome": "Especialidade: Chemistry",
+        "nome": "Especialidade: Química",
         "graduacoes": 12,
         "total": 16
       },
       {
-        "nome": "Especialidade: Psychology",
+        "nome": "Especialidade: Psicologia",
         "graduacoes": 12,
         "total": 16
       },

@@ -14,15 +14,14 @@
       "Pre": 2
     },
     "poderes": [
-      "Burning Glob ( Dano à Distância 6, Ativação (Ação de Movimento -1 ponto), Incurable, Penetrante 6, Efeito Secundário); Cellular Control ( Arranjo (4 pontos), Plasmic State (Intangibilidade 2, Concentração, Side-Effect (Always, –6 Vigor)), AE: Density ( Proteção 8, Impenetrável, Concentração, Side-Effect (Always, –3 Agilidade and Aparar)); Degrading Touch ( Enfraquecer Resistência 9, Affects Objects, Incurable, Permanente, Peculiaridade (Detectable: Radiação Emitting, -1 ponto), Reação); Inhuman ( Imunidade 8 (Critical Hits, Doença, Calor, Veneno, Radiação, Sufocamento)); Plasmic Reassembly ( Imortalidade 2, Limitado: Cannot recover if pieces kept separate)"
+      "Burning Glob ( Dano à Distância 6, Ativação (Ação de Movimento -1 ponto), Incurable, Penetrante 6, Efeito Secundário); Cellular Control ( Arranjo (4 pontos), Plasmic State (Intangibilidade 2, Concentração, Side-Effect (Always, -6 Vigor)), AE: Density ( Proteção 8, Impenetrável, Concentração, Side-Effect (Always, -3 Agilidade e Aparar)); Degrading Touch ( Enfraquecer Resistência 9, Afeta Objetos, Incurable, Permanente, Peculiaridade (Detectable: Radiação Emitting, -1 ponto), Reação); Inhuman ( Imunidade 8 (Critical Hits, Doença, Calor, Veneno, Radiação, Sufocamento)); Plasmic Reassembly ( Imortalidade 2, Limitado: Cannot recover if pieces kept separate)"
     ],
     "equipamento": [],
     "vantagens": [
       "Duro de Matar",
       "Ataque Corpo-a-Corpo 5",
       "Agarrar Aprimorado",
-      "Languages (English",
-      "German is native)",
+      "Idiomas (Inglês, Alemão is native)",
       "Ataque Poderoso"
     ],
     "pericias": [
@@ -48,7 +47,7 @@
         "nome": "Desarmado",
         "bonus": 8,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 10 and Reação Enfraquecer 9"
+        "dano": "Dano 10 e Reação Enfraquecer 9"
       },
       {
         "nome": "Burning Glob",
@@ -64,7 +63,7 @@
       "Resistência": 15,
       "Vontade": 6
     },
-    "observacao_defesas": "*, Aparar 3/6*, Fortitude 12, Resistência 15/7*, Vontade 6 *Without Density.",
+    "observacao_defesas": "*, Aparar 3/6*, Fortitude 12, Resistência 15/7*, Vontade 6 *sem Density.",
     "custos": {
       "Habilidades": 62,
       "Poderes": 79,
@@ -76,7 +75,7 @@
     "complicacoes": [
       {
         "titulo": "Protoplasm Form",
-        "texto": "Plasmus’ body is comprised of unstable protoplasm, causing it to uncontrollably fluctuate between a state of increased density and semi-intangibility unless Plasmus concentrates on retaining one state or the other."
+        "texto": "Plasmus’ body is comprised of unstable protoplasm, causing it to uncontrollably fluctuate between a state of increased density e semi-intangibility unless Plasmus concentrates on retaining one state or the other."
       }
     ]
   },

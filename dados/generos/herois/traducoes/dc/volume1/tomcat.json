@@ -14,15 +14,15 @@
       "Pre": 3
     },
     "poderes": [
-      "Claws (Força-based Dano 2); Enhanced Skills 28 (Acrobatics 8, Athletics 8, Corpo a Corpo Combat: Natural Weapons 5, Perception 7); Enhanced Advantages 7 (Evasion, Great Endurance, Improved Critical 2 (Claws), Improved Iniciativa, Instant Up, Startle); Salto 1 (15 feet); Regeneração 5 ; Sentidos 2 (Lowlight Vision, Tracking); Velocidade 4 (48 km/h)"
+      "Claws (Força-based Dano 2); Perícias Aprimoradas 28 (Acrobacia 8, Atletismo 8, Corpo a Corpo Combat: Natural Weapons 5, Percepção 7); Vantagens Aprimoradas 7 (Evasão, Tolerância Maior, Improved Critical 2 (Claws), Iniciativa Aprimorada, De Pé, Startle); Salto 1 (15 pés); Regeneração 5 ; Sentidos 2 (Lowlight Visão, Rastrear); Velocidade 4 (48 km/h)"
     ],
     "equipamento": [],
     "vantagens": [
-      "Evasion",
-      "Grande Vigor",
-      "Improved Critical 2 (Claws)",
+      "Evasão",
+      "Tolerância Maior",
+      "Crítico Aprimorado 2 (Garras)",
       "Iniciativa Aprimorada",
-      "Levantar Rápido",
+      "De Pé",
       "Assustar"
     ],
     "pericias": [
@@ -58,7 +58,7 @@
         "nome": "Claws",
         "bonus": 11,
         "alcance": "",
-        "dano": "Dano 7, Crit. 18-20"
+        "dano": "Dano 7, Crít. 18-20"
       },
       {
         "nome": "Desarmado",
@@ -86,7 +86,7 @@
     "complicacoes": [
       {
         "titulo": "Chip On His Shoulder",
-        "texto": "Bronson resents his Powers and the world in general for forcing him into the life of a metahuman."
+        "texto": "Bronson resents his Poderes e the world in general for forcing him into the life of a metahuman."
       }
     ]
   },

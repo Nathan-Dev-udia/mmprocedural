@@ -40,10 +40,10 @@
       "Especialidade: Repórter": 7,
       "Furtividade": 6,
       "Combate Corpo-a-Corpo: Desarmado": 2,
-      "Combate Corpo-a-Corpo: Webbing": 2
+      "Combate Corpo-a-Corpo: Teia": 2
     },
     "vantagens": [
-      "All Out Attack",
+      "Ataque Imprudente",
       "Imobilizar Aprimorado",
       "Ataque Poderoso",
       "Assustar"
@@ -51,7 +51,7 @@
     "poderes": [
       {
         "nome": "Enhanced Strength",
-        "construcao_3e": "Característica Aprimorada: Força 7 (14 PP) + Power-Lifting 1 (1 PP) = 15 PP.",
+        "construcao_3e": "Característica Aprimorada: Força 7 (14 PP) + Levantamento de Peso 1 (1 PP) = 15 PP.",
         "custo_2e_pp": 15,
         "custo_3e_pp": 15,
         "nome_pt": "Força Aumentada Simbiótica"
@@ -86,7 +86,7 @@
       },
       {
         "nome": "Super Strength",
-        "construcao_3e": "Super-Força / Power-Lifting 2 (2 PP) + Características de Carga Adicionais (2 PP) = 4 PP.",
+        "construcao_3e": "Super-Força / Levantamento de Peso 2 (2 PP) + Características de Carga Adicionais (2 PP) = 4 PP.",
         "custo_2e_pp": 4,
         "custo_3e_pp": 4,
         "nome_pt": "Super-Força Simbiótica"

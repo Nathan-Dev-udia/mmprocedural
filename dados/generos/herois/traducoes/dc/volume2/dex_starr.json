@@ -14,7 +14,7 @@
       "Pre": 0
     },
     "poderes": [
-      "Encolhimento 8 (Permanente, Inato); Power r ing (115 ponto Dispositivo, Removível (–23 pontos), ai and d atabase (Característica 2 (AI and Database), Sentidos 1 (Comunicação link to Central Power Battery)), f ligh t (Voo 14 (32,0 km/h), Movimento 4 (Environmental Adaption (Zero-G), Space Travel 3)), f or ce f ield (Proteção 10, Impenetrável; Imunidade 10 (Suporte Vital)), Heartless (Característica (Heart of equivalent vital organs are no longer essential to survival), Regeneração 1), r ed Light of r age (Arranjo (28 pontos) Lifting (Criar Objetos 14), ae : f ir es of r age (Dano à Distância 14), ae : Burning Blood (Dano 8, Reach 2, Sustentado (extinguished by a cessation of rage or the Blue Light of Hope), Power of r age (Sentidos 3 (Aguçado Detect Rage), Característica 3 (Lanterns other than Blue lose ring power more quickly than normal defending against the Red Light), Universal t r anslator (Compreender Languages 4)) antages: All-out Attack, Power Attack a dv"
+      "Encolhimento 8 (Permanente, Inato); Poder r ing (115 ponto Dispositivo, Removível (-23 pontos), ai e d atabase (Característica 2 (AI e Database), Sentidos 1 (Elo de Comunicação to Central Poder Battery)), f Luz (Voo 14 (51.200 km/h), Movimento 4 (Adaptação Ambiental (Zero-G), Viagem Espacial 3)), f or ce f ield (Proteção 10, Impenetrável; Imunidade 10 (Suporte Vital)), Heartless (Característica (Heart of equivalent vital organs are no longer essential to Sobrevivência), Regeneração 1), r ed Luz of r age (Arranjo (28 pontos) Lifting (Criar Objetos 14), ae : f ir es of r age (Dano à Distância 14), ae : Burning Blood (Dano 8, Reach 2, Sustentado (extinguished by a cessation of rage or the Blue Luz of Hope), Poder of r age (Sentidos 3 (Aguçado Detectar Rage), Característica 3 (Lanterns other than Blue lose ring Poder more quickly than normal defending contra the Red Luz), Universal t r anslator (Compreender Languages 4)) antages: Ataque Imprudente, Poder Attack a dv"
     ],
     "equipamento": [],
     "vantagens": [],
@@ -35,13 +35,26 @@
         "total": 6
       },
       {
-        "nome": "Combate à Distância: Power Ring",
+        "nome": "Combate à Distância: Poder Ring",
         "graduacoes": 8,
         "total": 8
       }
     ],
-    "iniciativa": 0,
-    "ataques": [],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Burning Blood",
+        "bonus": 13,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 8, Sustentado"
+      },
+      {
+        "nome": "Fires of Rage",
+        "bonus": 8,
+        "alcance": "À distância",
+        "dano": "Dano 14"
+      }
+    ],
     "defesas": {
       "Esquiva": 10,
       "Aparar": 10,
@@ -61,7 +74,7 @@
       },
       {
         "titulo": "Cat",
-        "texto": "Dex-Starr is an Earth feline, with all its associated drawbacks."
+        "texto": "Dex-Starr is an Earth feline, com all its associated drawbacks."
       }
     ]
   },

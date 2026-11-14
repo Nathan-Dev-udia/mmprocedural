@@ -18,11 +18,11 @@
     ],
     "equipamento": [],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Estrangular",
       "Duro de Matar",
       "Esforço Extraordinário",
-      "Grande Vigor",
+      "Tolerância Maior",
       "Crítico Aprimorado (Axe)",
       "Agarrar Aprimorado",
       "Imobilizar Aprimorado",
@@ -31,7 +31,7 @@
       "Ataque Poderoso",
       "Tomar a Iniciativa",
       "Assustar",
-      "Derrubar em Sequência",
+      "Ataque Dominó",
       "Quebrar Arma"
     ],
     "pericias": [
@@ -67,7 +67,7 @@
         "nome": "Axe",
         "bonus": 15,
         "alcance": "Corpo a corpo",
-        "dano": "Dano +15, Penetrante 10, Crit. 19-20"
+        "dano": "Dano +15, Penetrante 10, Crít. 19-20"
       },
       {
         "nome": "Desarmado",

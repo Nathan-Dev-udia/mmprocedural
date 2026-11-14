@@ -31,17 +31,17 @@
     },
     "pericias": {
       "Acrobacia": 12,
-      "Enganacao": 8,
-      "Persuasao": 6,
-      "Prestidigitacao": 12,
-      "Especialidade: Taticas": 8,
-      "Percepcao": 8,
-      "Investigacao": 8,
-      "Intuicao": 8,
+      "Enganação": 8,
+      "Persuasão": 6,
+      "Prestidigitação": 12,
+      "Especialidade: Táticas": 8,
+      "Percepção": 8,
+      "Investigação": 8,
+      "Intuição": 8,
       "Furtividade": 12,
-      "Especialidade: Sobrevivencia": 10,
+      "Especialidade: Sobrevivência": 10,
       "Combate Corpo-a-Corpo: Desarmado": 4,
-      "Combate a Distancia: Armas arremessadas": 7
+      "Combate à Distância: Armas arremessadas": 7
     },
     "vantagens": [
       "Atraente",
@@ -54,7 +54,7 @@
     "poderes": [
       {
         "nome": "Teleport",
-        "construcao_3e": "Teletransporte 10 (Acurado, Portal; 50 PP); Efeitos Alternativos: Ataque de Teletransporte à Distância (1 PP), Adagas de Teletransporte Dano 10 Multiataque (1 PP), Deflexão com Reflexão (1 PP). Array total: 53 PP (custo original da fonte preservado).",
+        "construcao_3e": "Teletransporte 10 (Acurado, Portal; 50 PP); Efeitos Alternativos: Ataque de Teletransporte à Distância (1 PP), Adagas de Teletransporte Dano 10 Multiataque (1 PP), Deflexão com Reflexão (1 PP). Arranjo total: 53 PP (custo original da fonte preservado).",
         "custo_2e_pp": 53,
         "custo_3e_pp": 53,
         "nome_pt": "Portais e Adagas de Teletransporte"
@@ -97,4 +97,4 @@
     "vantagens": 12,
     "total": 181.5
   }
-}
+}

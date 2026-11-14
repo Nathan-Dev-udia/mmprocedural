@@ -14,14 +14,14 @@
       "Pre": 1
     },
     "poderes": [
-      "Encolhimento 20 (Atomic), Crescimento Punch (Dano 5, Força-Based, Peculiaridade—Dano based on size graduação difference between Encolhimento Violet and her opponent, Peculiaridade—Leaves Violet at same height as opponent)"
+      "Encolhimento 20 (Atomic), Crescimento Punch (Dano 5, Força-Based, Peculiaridade—Dano based on size graduação difference between Encolhimento Violet e her opponent, Peculiaridade—Leaves Violet at same height as opponent)"
     ],
     "equipamento": [
-      "Voo Ring (Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal –3), Voo 7 (400 km/h); Telepathic Ear Plug ( Compreender 3 (Languages), mental Comunicação 1 (Corpo a Corpo Range)); Transsuit (Imunidade 9 (Suporte Vital, except for Inanição and thirst))"
+      "Voo Ring (Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal -3), Voo 7 (400 km/h); Telepathic Ear Plug ( Compreender 3 (Languages), Comunicação Mental 1 (Alcance Perto)); Transsuit (Imunidade 9 (Suporte Vital, except for Fome e Sede))"
     ],
     "vantagens": [
       "Avaliação",
-      "Benefit 1 (Legion Membership)",
+      "Benefício 1 (Legion Membership)",
       "Ataque Corpo-a-Corpo 3",
       "Ataque Defensivo",
       "Equipamento 8",
@@ -29,7 +29,7 @@
       "Iniciativa Aprimorada",
       "Quebrar Aprimorado",
       "Derrubar Aprimorado",
-      "Levantar Rápido",
+      "De Pé",
       "Ataque Poderoso"
     ],
     "pericias": [
@@ -70,13 +70,13 @@
         "nome": "Desarmado",
         "bonus": 10,
         "alcance": "Corpo a corpo",
-        "dano": "Dano -1/2*, Crit. 19-20"
+        "dano": "Dano -1/2*, Crít. 19-20"
       },
       {
         "nome": "Crescimento Punch",
         "bonus": 10,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 7, Crit. 19-20"
+        "dano": "Dano 7, Crít. 19-20"
       }
     ],
     "defesas": {
@@ -86,7 +86,7 @@
       "Resistência": 2,
       "Vontade": 8
     },
-    "observacao_defesas": "*, Aparar 16/10*, Fortitude 4, Resistência 2, Vontade 8 * Without 12 graduações of Encolhimento.",
+    "observacao_defesas": "*, Aparar 16/10*, Fortitude 4, Resistência 2, Vontade 8 * sem 12 graduações of Encolhimento.",
     "custos": {
       "Habilidades": 46,
       "Poderes": 24,
@@ -98,11 +98,11 @@
     "complicacoes": [
       {
         "titulo": "r esponsibility",
-        "texto": "Encolhimento Violet believes she should use her Abilities to help others. r elationship: Encolhimento Violet has had Corpo a Corpo relationships with Duplicate Boy, Sun Boy, and Lightning Lass, and a strong dislike of Chameleon Girl."
+        "texto": "Encolhimento Violet believes she should use her Habilidades to help others. r elationship: Encolhimento Violet has had Corpo a Corpo relationships com Duplicate Boy, Sun Boy, e Lightning Lass, e a strong dislike of Chameleon Girl."
       },
       {
         "titulo": "Survivor",
-        "texto": "Since her abduction, Encolhimento Violet has become much more forceful and able to protect herself."
+        "texto": "Since her abduction, Encolhimento Violet has become much more forceful e able to protect herself."
       }
     ]
   },

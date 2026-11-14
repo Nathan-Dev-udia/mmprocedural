@@ -14,11 +14,11 @@
       "Pre": 0
     },
     "poderes": [
-      "Body Spikes: Reação Dano 6, Penetrante 5 (slashing, when attacked in melee) (29 PP)",
-      "Composite o r ganism: Imunidade 13 (Critical Hits, Suporte Vital, Sleep); Impenetrável Proteção 6; Força Aprimorada 3, Limitado a Lifting (lifting Str 10; 25 tons) (28 PP)",
+      "Body Spikes: Reação Dano 6, Penetrante 5 (Cortante, when attacked in melee) (29 PP)",
+      "Composite o r ganism: Imunidade 13 (Critical Hits, Suporte Vital, Sono); Impenetrável Proteção 6; Força Aprimorada 3, Limitado a Lifting (lifting Str 10; 25 toneladas) (28 PP)",
       "f r agmentation: Arranjo (43 pontos)",
-      "• f r agmentation Raio: À Distância Multiataque Dano 11 (slashing), Teleguiado, Improved Critical 2, Penetrante 5 (43 PP)",
-      "• Body e xplosion: área Burst 2 (60 feet) Dano 11 (slashing), Penetrante 7 (1 PP)",
+      "• f r agmentation Raio: À Distância Multiataque Dano 11 (Cortante), Teleguiado, Improved Critical 2, Penetrante 5 (43 PP)",
+      "• Body e xplosion: área Estouro 2 (60 pés) Dano 11 (Cortante), Penetrante 7 (1 PP)",
       "• d isp erse f orm: Intangibilidade 1 (Metal Fragments) (1 PP)",
       "Jagged e dge: Força-based Dano 5, Penetrante 5 (10 PP)"
     ],
@@ -26,9 +26,9 @@
     "vantagens": [
       "Tontear (Intimidação)",
       "Duro de Matar",
-      "Evasion",
-      "Grande Vigor",
-      "Improved Critical 2 (Jagged Edge)",
+      "Evasão",
+      "Tolerância Maior",
+      "Crítico Aprimorado 2 (Jagged Edge)",
       "Quebrar Aprimorado"
     ],
     "pericias": [
@@ -71,16 +71,22 @@
     "iniciativa": 5,
     "ataques": [
       {
+        "nome": "Body Explosion",
+        "bonus": null,
+        "alcance": "Corpo a corpo",
+        "dano": "Área de Explosão 2 (60 pés) Dano 11, Penetrante 7"
+      },
+      {
         "nome": "Fragmentation Raio",
         "bonus": 11,
         "alcance": "À distância",
-        "dano": "Multiataque Dano 11, Teleguiado, Penetrante 5, Crit. 18-20"
+        "dano": "Multiataque Dano 11, Teleguiado, Penetrante 5, Crít. 18-20"
       },
       {
         "nome": "Jagged Edge",
         "bonus": 8,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 12, Penetrante 4, Crit. 18-20"
+        "dano": "Dano 12, Penetrante 4, Crít. 18-20"
       }
     ],
     "defesas": {
@@ -91,12 +97,18 @@
       "Vontade": 5
     },
     "observacao_defesas": "",
-    "custos": {},
-    "total": null,
+    "custos": {
+      "Habilidades": 58,
+      "Perícias": 20,
+      "Poderes": 112,
+      "Defesas": 15,
+      "Vantagens": 6
+    },
+    "total": 211,
     "complicacoes": [
       {
         "titulo": "Living Metal",
-        "texto": "Shrapnel’s components feed on blood; he must regularly kill others in order to feed himself. o bsession: Shrapnel is fully intent on making a name for himself and Vontade do anything to increase his reputation."
+        "texto": "Shrapnel’s components feed on blood; he must regularly kill others in order to feed himself. o bsession: Shrapnel is fully intent on making a name for himself e Vontade do anything to increase his reputation."
       }
     ]
   },

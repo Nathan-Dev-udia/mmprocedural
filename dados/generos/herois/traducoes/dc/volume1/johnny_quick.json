@@ -14,47 +14,30 @@
       "Pre": 2
     },
     "poderes": [
-      "Costume Ring (Característica 1 (stores compressed costume)); Frictionless Aura (Imunidade 1 (Friction Calor)); Run On Water (Movimento 1 (Water Walking), Limitado a While Moving); Run Up Walls (Movimento 2 (Wall-crawling 2), Limitado a While Moving; Super-Velocidade Enhanced Defenses 12 (Esquiva and Aparar), Enhanced"
+      "Costume Ring (Característica 1 (stores compressed costume)); Frictionless Aura (Imunidade 1 (Friction Calor)); Run On Water (Movimento 1 (Andar na Água), Limitado a Enquanto se Move); Run Up Walls (Movimento 2 (Escalar Paredes 2), Limitado a Enquanto se Move; Super-Velocidade Defesas Aprimoradas 12 (Esquiva e Aparar), Aprimorado"
     ],
     "equipamento": [],
     "vantagens": [
-      "(Agile Feint",
-      "Ataque Corpo-a-Corpo 4",
-      "Rolamento Defensivo 5",
-      "Evasion 2",
-      "Iniciativa Aprimorada 10",
-      "Interpor-se",
-      "Levantar Rápido",
-      "Ação em Movimento",
-      "Tomar a Iniciativa",
-      "Takedown)",
+      "(Agile Feint, Close Attack 4, Defensive Roll 5, Evasion 2, Improved Initiative 10, Interpose, Instant Up, Move-by Action, Seize Initiative, Takedown)",
       "Quickness 20",
-      "Speed 20 (2",
-      "000",
-      "000 MPH)); Super- Speed Stunts (Array (20 pontos)",
-      "Air Control (Cone Area Move Object 10",
-      "Close Range)",
-      "AE: Air Cushion (Burst Area Safe Fall",
-      "Affects Others)",
-      "AE: Vacuum (Burst Area Cumulative Affliction 5 (Resisted by Fortitude; Dazed",
-      "Stunned",
-      "Incapacitated)",
-      "Concentration)",
+      "Speed 20 (2,000,000 MPH) ); Super-Speed Stunts ( Array (20 points)",
+      "Air Control (Cone área Move Object 10, Corpo a Corpo Range)",
+      "AE: Air Cushion (Burst área Safe Fall, Affects Others)",
+      "AE: Vacuum (Burst área Cumulative Affliction 5 (resistido por Fortitude; Dazed, Stunned, Incapacitated) , Concentration)",
       "AE: Vibration (Insubstantial 4)",
-      "AE: Whirlwind (Burst Area Move Object 10",
-      "Close Range)) Advantages: Agile Feint",
-      "Benefit 5 (CSA member)",
+      "AE: Whirlwind (Burst área Move Object 10, Corpo a Corpo Range) ) Advantages: Agile Feint",
+      "Benefício 5 (CSA member)",
       "Ataque Corpo-a-Corpo 4",
       "Rolamento Defensivo 5",
-      "Evasion 2",
+      "Evasão 2",
       "Iniciativa Aprimorada 10",
       "Interpor-se",
-      "Levantar Rápido",
+      "De Pé",
       "Ação em Movimento",
       "Tomar a Iniciativa",
-      "Derrubar em Sequência",
+      "Ataque Dominó",
       "Trabalho em Equipe",
-      "Esforço Supremo (Super-Speed checks)"
+      "Esforço Supremo (Super-Speed Testes)"
     ],
     "pericias": [
       {
@@ -110,6 +93,12 @@
         "bonus": 10,
         "alcance": "Corpo a corpo",
         "dano": "Dano 1"
+      },
+      {
+        "nome": "Whirlwind",
+        "bonus": null,
+        "alcance": "",
+        "dano": "Área de Explosão, Grab, Esquiva DC20"
       }
     ],
     "defesas": {
@@ -135,11 +124,11 @@
       },
       {
         "titulo": "Perda de Poder",
-        "texto": "Johnny Quick’s super-Velocidade Powers are dependent on taking regular doses of his Velocidade-juice drug. Missing a dose makes him so sluggish Johnny Quick suffers -5 penalties to Intelecto and Agilidade checks."
+        "texto": "Johnny Quick’s super-Velocidade Poderes are dependent on taking regular doses of his Velocidade-juice drug. Missing a dose makes him so sluggish Johnny Quick suffers -5 penalties to Intelecto e Agilidade Testes."
       },
       {
         "titulo": "Peculiaridade",
-        "texto": "Johnny Quick is rash and foolhardy; he must succeed on Prontidão Checks to avoid racing headfirst into dangerous situations. Powers. The rivalry involves his illicit affair with Ultraman’s wife, Superwoman. Supremely confident, Owlman greatly enjoys new challenges. Owlman is dedicated to bringing ruin to his father and Go - tham City police loyal to the commissioner. The only time he loses his cool is when reminded of his family’s tragedy. Powers & Abilities Like his counterpart Batman, Thomas Jr. spent years train - ing his mind and body to the peak of human development, then crafted the costumed identity of Owlman to Golpe fear in the hearts of Gotham’s police and honest citizenry. Unlike the Batman, Owlman uses performance enhancing drugs to"
+        "texto": "Johnny Quick is rash e foolhardy; he must succeed on Consciência Testes to avoid racing headfirst into dangerous situations. Poderes. The rivalry involves his illicit affair com Ultraman’s wife, Superwoman. Supremely confident, Owlman greatly enjoys new challenges. Owlman is dedicated to bringing ruin to his father e Go - tham City police loyal to the commissioner. The Apenas time he loses his cool is when reminded of his family’s tragedy. Poderes & Habilidades Like his counterpart Batman, Thomas Jr. spent years train - ing his mind e body to the peak of human development, then crafted the costumed identity of Owlman to Golpe fear in the hearts of Gotham’s police e honest citizenry. Unlike the Batman, Owlman uses performance enhancing drugs to"
       }
     ]
   },

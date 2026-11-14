@@ -16,22 +16,21 @@
     "poderes": [],
     "equipamento": [],
     "vantagens": [
-      "Benefit 5 (Billionaire)",
-      "Conectado",
+      "Benefício 5 (Bilionário)",
+      "Bem Relacionado",
       "Ataque Defensivo",
       "Rolamento Defensivo 2",
       "Memória Eidética",
       "Inspirar 2",
-      "Ferramentas Improvisadas",
+      "Ferramentas Aprimoradas",
       "Inventor",
-      "Languages 2",
+      "Idiomas 2",
       "Liderança",
       "Tomar a Iniciativa",
-      "Set-Up",
-      "Skill Mastery (Expertise: Science",
-      "Technology)",
+      "Armação",
+      "Maestria em Perícia (Especialidade: Ciência, Tecnologia)",
       "Esforço Supremo (Tecnologia)",
-      "Bem-Informado"
+      "Bem Informado"
     ],
     "pericias": [
       {
@@ -40,12 +39,12 @@
         "total": 12
       },
       {
-        "nome": "Especialidade: Business",
+        "nome": "Especialidade: Negócios",
         "graduacoes": 7,
         "total": 18
       },
       {
-        "nome": "Especialidade: Science",
+        "nome": "Especialidade: Ciência",
         "graduacoes": 13,
         "total": 24
       },
@@ -75,7 +74,7 @@
         "total": 10
       },
       {
-        "nome": "Combate à Distância: Guns",
+        "nome": "Combate à Distância: Armas de Fogo",
         "graduacoes": 4,
         "total": 7
       },
@@ -124,7 +123,7 @@
     "complicacoes": [
       {
         "titulo": "in his rr ogance",
-        "texto": "own Abilities, but he needs recognition for his achievements. e nemy: Superman Greed: Luthor has always been driven by a desire to have everything he wants, no matter what he has to do to get it. o bsession: Luthor is obsessed with humbling and destroying Superman."
+        "texto": "own Habilidades, but he needs recognition for his achievements. e nemy: Superman Greed: Luthor has always been driven by a desire to have everything he wants, no matter what he has to do to get it. o bsession: Luthor is obsessed com humbling e destroying Superman."
       }
     ]
   },

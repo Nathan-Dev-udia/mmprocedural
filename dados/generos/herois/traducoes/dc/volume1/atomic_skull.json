@@ -15,7 +15,7 @@
     },
     "poderes": [
       "Atomic Raio: Dano à Distância 11 (22 PP)",
-      "Superhuman Reflexes: Enhanced Advantage 1 (Improved Iniciativa); Agilidade Aprimorada 5 (11 PP)",
+      "Superhuman Reflexes: Vantagem Aprimorada 1 (Iniciativa Aprimorada); Agilidade Aprimorada 5 (11 PP)",
       "Superhuman Resilience: Vigor Aprimorado 6; Força Aprimorada 10; Resistência Impenetrável 8; Proteção 4 (44 PP)"
     ],
     "equipamento": [
@@ -43,7 +43,7 @@
         "total": 16
       },
       {
-        "nome": "Especialidade: Film History",
+        "nome": "Especialidade: Film História",
         "graduacoes": 6,
         "total": 7
       },
@@ -111,7 +111,7 @@
       },
       {
         "titulo": "Macabre Appearance",
-        "texto": "The Atomic Skull’s skull shows visibly and burns endlessly."
+        "texto": "The Atomic Skull’s skull shows visibly e burns endlessly."
       }
     ]
   },

@@ -16,21 +16,21 @@
     "poderes": [
       "Vigor of Shu: Proteção 2, Resistência Impenetrável 18; Imunidade 10 (Suporte Vital) (30 PP)",
       "Swiftness of Heru: Arranjo (30 pontos)",
-      "• Voo 15 (64,0 km/h) (30 PP)",
-      "• Dimensional Travel 1 (Rock of Eternity) (1 PP)",
-      "• Rapidez 15, Velocidade 15 (64,0 km/h) (1 PP)",
-      "Força of Amon: Força Aprimorada 4, Limitado a Lifting (lifting Str 23; 200,000 tons) (4 PP)",
-      "Wisdom of Zehuti: Prontidão Aprimorada 7, Enhanced Advantages 4 (Assessment, Beginner’s Luck, Eidetic Memory, Jack-of-all-trades) (18 PP)",
-      "Courage of Mehen: Enhanced Vontade 5, Impenetrável Vontade 10 (15 PP)"
+      "• Voo 15 (102.400 km/h) (30 PP)",
+      "• Viagem Dimensional 1 (Rock of Eternity) (1 PP)",
+      "• Rapidez 15, Velocidade 15 (102.400 km/h) (1 PP)",
+      "Força of Amon: Força Aprimorada 4, Limitado a Lifting (lifting Str 23; 200,000 toneladas) (4 PP)",
+      "Wisdom of Zehuti: Prontidão Aprimorada 7, Vantagens Aprimoradas 4 (Avaliação, Sorte de Principiante, Memória Eidética, Faz Tudo) (18 PP)",
+      "Courage of Mehen: Vontade Aprimorada 5, Impenetrável Vontade 10 (15 PP)"
     ],
     "equipamento": [],
     "vantagens": [
       "Avaliação",
-      "Beginner’s Luck",
+      "Sorte de Principiante",
       "Memória Eidética",
-      "Grande Vigor",
+      "Tolerância Maior",
       "Iniciativa Aprimorada",
-      "Pau pra Toda Obra",
+      "Faz Tudo",
       "Ação em Movimento"
     ],
     "pericias": [
@@ -40,7 +40,7 @@
         "total": 13
       },
       {
-        "nome": "Especialidade: Tactics",
+        "nome": "Especialidade: Tática",
         "graduacoes": 9,
         "total": 10
       },
@@ -88,11 +88,11 @@
     "complicacoes": [
       {
         "titulo": "Perda de Poder",
-        "texto": "Black Adam loses his Powers and reverts to his mortal form when he speaks the mágico word “Shazam. ” His Força, Vigor, and Prontidão become 3."
+        "texto": "Black Adam loses his Poderes e reverts to his mortal form when he speaks the Magia word “Shazam. ” His Força, Vigor, e Consciência become 3."
       },
       {
         "titulo": "Relacionamento",
-        "texto": "With his wife, Isis (Adrianna Tomaz) and brother- in-law, Osiris (Amon Tomaz)."
+        "texto": "com his wife, Isis (Adrianna Tomaz) e brother- in-Direito, Osiris (Amon Tomaz)."
       },
       {
         "titulo": "Temperamento",

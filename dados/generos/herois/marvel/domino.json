@@ -53,14 +53,14 @@
       "De Pé",
       "Ataque Poderoso",
       "Ataque Preciso (À Distância, Cobertura) 2",
-      "Maestria em Perícia (Acrobatics, Technology, Insight, Stealth)",
+      "Maestria em Perícia (Acrobacia, Tecnologia, Intuição, Furtividade)",
       "Ataque Dominó",
       "Esquiva Fabulosa (Audição)"
     ],
     "poderes": [
       {
         "nome": "Probability Control",
-        "construcao_3e": "Controle de Sorte 4 (Bestow Luck, Negate Luck, Force Re-roll, Spend on Others; 12 PP) + Característica Aprimorada: Advantage (Luck 8; 8 PP). Total: 20 PP.",
+        "construcao_3e": "Controle de Sorte 4 (Bestow Luck, Negate Luck, Force Re-roll, Spend on Others; 12 PP) + Característica Aprimorada: Vantagem (Luck 8; 8 PP). Total: 20 PP.",
         "custo_2e_pp": 32,
         "custo_3e_pp": 20,
         "nome_pt": "Controle de Probabilidade"

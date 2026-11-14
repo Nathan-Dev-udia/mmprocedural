@@ -56,7 +56,7 @@
     "poderes": [
       {
         "nome": "Telekinesis",
-        "construcao_3e": "Mover Objeto 12 (Dano, Dinâmico; 37 PP); Efeitos Alternativos Dinâmicos: Voo 6 Dinâmico (2 PP), Campo de Força 10 Impenetrável Dinâmico (2 PP). Array total: 41 PP.",
+        "construcao_3e": "Mover Objeto 12 (Dano, Dinâmico; 37 PP); Efeitos Alternativos Dinâmicos: Voo 6 Dinâmico (2 PP), Campo de Força 10 Impenetrável Dinâmico (2 PP). Arranjo total: 41 PP.",
         "custo_2e_pp": 41,
         "custo_3e_pp": 41,
         "nome_pt": "Telecinese"

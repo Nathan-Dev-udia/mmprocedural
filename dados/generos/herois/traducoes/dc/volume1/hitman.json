@@ -15,24 +15,24 @@
     },
     "poderes": [
       "Talented Killer: Arranjo (2 pontos)",
-      "• Accuracy: Enhanced Skill 2 (À Distância Combat: Guns +4) (2 PP)",
-      "• Two for One: May fogo two guns of Dano 4 or less at once (Característica 1) (1 PP)",
-      "Telepatia: Leitura mental 8, Concentração, Limitado a surface and personal thoughts (4 PP)",
-      "X-Ray Vision: Sentidos 4 (Vision Penetrates Camuflagem), Concentração (2 PP)"
+      "• Accuracy: Perícia Aprimorada 2 (À Distância Combat: Armas de Fogo +4) (2 PP)",
+      "• Two for One: May Fogo two Armas de Fogo of Dano 4 or less at once (Característica 1) (1 PP)",
+      "Telepatia: Leitura Mental 8, Concentração, Limitado a surface e personal thoughts (4 PP)",
+      "Visão de Raios-X: Sentidos 4 (Visão Penetrates Camuflagem), Concentração (2 PP)"
     ],
     "equipamento": [
-      "Sniper Rifle: Dano à Distância 5, Crit. 19-20, Suppressor (Sutil), Targeting Scope (Improved Aim) (13 PP)",
-      "Twin Heavy Pistols: Dano à Distância 4 (16 PP)",
+      "Sniper Rifle: Dano à Distância 5, Crít. 19-20, Suppressor (Sutil), Targeting Scope (Improved Aim) (13 PP)",
+      "Twin Heavy Pistolas: Dano à Distância 4 (16 PP)",
       "Fragmentation Grenade: À Distância Área de Explosão Dano 5 (15 PP)",
-      "Knife: Dano 1, Crit. 19-20 (2 PP)",
+      "Knife: Dano 1, Crít. 19-20 (2 PP)",
       "4 other pontos of equipment."
     ],
     "vantagens": [
-      "Benefit 1 (Ambidexterity)",
-      "Conectado",
+      "Benefício 1 (Ambidestria)",
+      "Bem Relacionado",
       "Rolamento Defensivo 4",
       "Equipamento 10",
-      "Crítico Aprimorado (Guns)",
+      "Crítico Aprimorado (Armas de Fogo)",
       "Ataque Poderoso",
       "Saque Rápido",
       "Ranged"
@@ -69,7 +69,7 @@
         "total": 10
       },
       {
-        "nome": "Combate à Distância: Guns",
+        "nome": "Combate à Distância: Armas de Fogo",
         "graduacoes": 6,
         "total": 10
       },
@@ -87,10 +87,10 @@
     "iniciativa": 4,
     "ataques": [
       {
-        "nome": "Guns",
+        "nome": "Armas de Fogo",
         "bonus": 10,
         "alcance": "À distância",
-        "dano": "Dano 5, Crit. 19-20"
+        "dano": "Dano 5, Crít. 19-20"
       },
       {
         "nome": "Desarmado",
@@ -106,7 +106,7 @@
       "Resistência": 9,
       "Vontade": 8
     },
-    "observacao_defesas": "*, Vontade 8 *Without Body Armor and Defensive Roll.",
+    "observacao_defesas": "*, Vontade 8 *sem Body Armor e Rolamento Defensivo.",
     "custos": {
       "Habilidades": 44,
       "Poderes": 9,
@@ -114,7 +114,7 @@
       "Perícias": 28,
       "Defesas": 18
     },
-    "total": null,
+    "total": 124,
     "complicacoes": [
       {
         "titulo": "Code of Honor",
@@ -122,7 +122,7 @@
       },
       {
         "titulo": "Inimigos",
-        "texto": "Gotham mobsters and rogue metahumans."
+        "texto": "Gotham mobsters e rogue metahumans."
       }
     ]
   },

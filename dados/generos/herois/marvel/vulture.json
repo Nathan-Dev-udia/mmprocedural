@@ -42,10 +42,10 @@
     },
     "vantagens": [
       "Ação em Movimento",
-      "Ambiente Favorito [Aéreo] 4",
+      "Ambiente Favorito (Aéreo) 4",
       "Iniciativa Aprimorada",
       "Inventor",
-      "Maestria em Perícia 4 [Computers, Craft, Disable Device, Knowledge]",
+      "Maestria em Perícia 4 (Computação, Especialidade, Tecnologia, Especialidade)",
       "Assustar",
       "Trabalho em Equipe 2"
     ],
@@ -103,4 +103,4 @@
     "Correção de custo: as perícias somam 82 graduações e custam 1 PP a cada 2 graduações; o custo de perícias foi corrigido de 82 para 41 PP (subtotal e totais ajustados em -41).",
     "Poderes fechados em 3e: Arnês de Voo convertido como Dispositivo removível (22 PP). Habilidades base registradas sem a força do arnês (For -1 base idoso, For 4 com arnês). Total 3e: 107 PP."
   ]
-}
+}

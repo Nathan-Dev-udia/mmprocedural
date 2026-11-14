@@ -15,10 +15,10 @@
     },
     "poderes": [
       "f Voo 6 (192 km/h) (12 PP)",
-      "ligh t: Heightened r eflexes: Improved Iniciativa 6, Rapidez 6 (12 PP)",
+      "Luz: Heightened r eflexes: Iniciativa Aprimorada 6, Rapidez 6 (12 PP)",
       "Mind-Confusing Pollen: Cumulativo Aflição 13 (resistido por Vontade; Tonto, Compelido, Controlado) (26 PP)",
-      "Stinger d arts: Cumulativo Aflição à Distância 8 (resistido por Fortitude; Tonto, Disabled, Incapacitado) (24 PP)",
-      "d a e S a V ant G Attractive, Benefit 10 (Queen of Korll), Corpo a Corpo Attack 6, Defensive Roll 2, Improved Iniciativa 6, Leadership, Minions 6 (2 drone swarms), Move-by Action, Taunt"
+      "Stinger d arts: Cumulativo Aflição à Distância 8 (resistido por Fortitude; Tonto, Desabilitado, Incapacitado) (24 PP)",
+      "d a e S a V ant G Attractive, Benefit 10 (Queen of Korll), Corpo a Corpo Attack 6, Rolamento Defensivo 2, Iniciativa Aprimorada 6, Leadership, capangas 6 (2 drone swarms), Ação em Movimento, Taunt"
     ],
     "equipamento": [],
     "vantagens": [],
@@ -98,7 +98,7 @@
     "complicacoes": [
       {
         "titulo": "Partial Color Blindness",
-        "texto": "Queen Bee and her drones cannot see the color red."
+        "texto": "Queen Bee e her drones cannot see the color red."
       },
       {
         "titulo": "Queen Bee is power-mad and constantly strives to o bsession",

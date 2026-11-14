@@ -14,18 +14,18 @@
       "Pre": 1
     },
     "poderes": [
-      "Cybernetic Augmentations (Agilidade Aprimorada 3, Destreza Aprimorada 3, Luta Aprimorada 4, Vigor Aprimorado 4, Força Aprimorada 5, Leap 1, Proteção 3, Velocidade 3 (25 km/h)); Internal Weapons Systems (Arranjo (12 pontos), Flamethrower (Área de Cone Dano 6), AE: Retractable Blades (Força-based Dano 3), AE: Submachine Gun (Multiataque Dano à Distância 4))"
+      "Cybernetic Augmentations (Agilidade Aprimorada 3, Destreza Aprimorada 3, Luta Aprimorada 4, Vigor Aprimorado 4, Força Aprimorada 5, Leap 1, Proteção 3, Velocidade 3 (25 km/h)); Internal Weapons Systems (Arranjo (12 pontos), Flamethrower (Área de Cone Dano 6), AE: Retractable Lâminas (Força-based Dano 3), AE: Submachine Gun (Multiataque Dano à Distância 4))"
     ],
     "equipamento": [],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Finta Ágil",
       "Ataque Imprudente",
       "Ataque Corpo-a-Corpo 4",
       "Ataque Defensivo",
       "Iniciativa Aprimorada",
       "Ataque Poderoso",
-      "Provocar"
+      "Zombar"
     ],
     "pericias": [
       {
@@ -59,7 +59,7 @@
         "total": 7
       },
       {
-        "nome": "Combate à Distância: Guns",
+        "nome": "Combate à Distância: Armas de Fogo",
         "graduacoes": 6,
         "total": 12
       },
@@ -83,7 +83,7 @@
         "dano": "Área de Cone Dano 6"
       },
       {
-        "nome": "Retractable Blades",
+        "nome": "Retractable Lâminas",
         "bonus": 12,
         "alcance": "",
         "dano": "Dano 8"

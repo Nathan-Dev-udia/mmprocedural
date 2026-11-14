@@ -14,8 +14,8 @@
       "Pre": 3
     },
     "poderes": [
-      "Medusa Mask: Progressivo Sight-Dependent Enfraquecer Vontade 12 (resistido por Vontade, Limitado a Resistance checks against the Linked Aflição Only) with Linked Cumulativo Sight- Dependant Aflição 12 resistido por Vontade (Tonto, Compelido, Controlado), Limitado a Emotions; Removível (-12 pontos) (48 PP)",
-      "Multiversal Vision: Característica 1 (Hayden remembers the Pre -Crisis multiverse and can see multiversal iterations of select beings and places) (1 PP)"
+      "Medusa Mask: Progressivo Visão-Dependent Enfraquecer Vontade 12 (resistido por Vontade, Limitado a Resistance Testes contra the Ligado Aflição Apenas) com Ligado Cumulativo Visão- Dependant Aflição 12 resistido por Vontade (Tonto, Compelido, Controlado), Limitado a Emotions; Removível (-12 pontos) (48 PP)",
+      "Multiversal Visão: Característica 1 (Hayden remembers the Pre -Crisis multiverse e can see multiversal iterations of select beings e places) (1 PP)"
     ],
     "equipamento": [],
     "vantagens": [
@@ -23,7 +23,7 @@
       "Rolamento Defensivo 4",
       "Sorte 3",
       "Tomar a Iniciativa",
-      "Provocar"
+      "Zombar"
     ],
     "pericias": [
       {
@@ -32,7 +32,7 @@
         "total": 10
       },
       {
-        "nome": "Especialidade: Psychology",
+        "nome": "Especialidade: Psicologia",
         "graduacoes": 4,
         "total": 5
       },
@@ -52,8 +52,21 @@
         "total": 7
       }
     ],
-    "iniciativa": 0,
-    "ataques": [],
+    "iniciativa": 1,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 3,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 0"
+      },
+      {
+        "nome": "Medusa Mask",
+        "bonus": null,
+        "alcance": "",
+        "dano": "Percepção, Enfraquecer Vontade e Aflição, both resistido por Vontade, CD 22"
+      }
+    ],
     "defesas": {
       "Esquiva": 11,
       "Fortitude": 5,
@@ -73,7 +86,7 @@
     "complicacoes": [
       {
         "titulo": "ddic ted",
-        "texto": "r eality-Challenged: Psycho-Pirate is a “refugee” from an alternate reality that no longer exists and sometimes encounters difficulties because the multiverse doesn’t know exactly what to do with him. Mu L t I ver S a L a no M a L y At one ponto, Hayden temporarily could summon pre- Crisis versions of anyone back into existence. Mechani- cally, this is handled as a plot Dispositivo trait rather than an enumerated power."
+        "texto": "r eality-Challenged: Psycho-Pirate is a “refugee” from an alternate reality that no longer exists e sometimes encounters difficulties because the multiverse doesn’t know exactly what to do com him. Mu L t I ver S a L a no M a L y At one ponto, Hayden temporarily could Invocar pre- Crisis versions of anyone back into existence. Mechani- cally, this is handled as a plot Dispositivo trait rather than an enumerated Poder."
       }
     ]
   },

@@ -14,16 +14,16 @@
       "Pre": 4
     },
     "poderes": [
-      "Astral Projection (Remote Sensing 10 (visual, auditory, mental), physical body is Indefeso, Sutil 2); Imunidade 2 (Envelhecimento, Doença); Magical Powers (Arranjo (48 pontos), Controle mental 12 , AE: Ilusão 12 (All Sentidos); Mystic Sentidos (Magical Prontidão, Raio)"
+      "Astral Projection (Sensoriamento Remoto 10 (Visual, Auditivo, mental), physical body is Indefeso, Sutil 2); Imunidade 2 (Envelhecimento, Doença); Mágico Poderes (Arranjo (48 pontos), Controle Mental 12 , AE: Ilusão 12 (All Sentidos); Místico Sentidos (Mágico Consciência, Raio)"
     ],
     "equipamento": [],
     "vantagens": [
       "Tontear (Enganação)",
       "Fascinar",
-      "Languages 3 (several Asian and dead languages)",
+      "Idiomas 3 (several Asian e dead languages)",
       "Sorte 2",
       "Ritualista",
-      "Provocar"
+      "Zombar"
     ],
     "pericias": [
       {
@@ -32,7 +32,7 @@
         "total": 14
       },
       {
-        "nome": "Especialidade: mágico",
+        "nome": "Especialidade: Magia",
         "graduacoes": 8,
         "total": 12
       },
@@ -64,6 +64,18 @@
     ],
     "iniciativa": 1,
     "ataques": [
+      {
+        "nome": "Ilusão",
+        "bonus": null,
+        "alcance": "Percepção",
+        "dano": "Ilusão 12"
+      },
+      {
+        "nome": "Controle Mental",
+        "bonus": null,
+        "alcance": "Percepção",
+        "dano": "Controle Mental 12"
+      },
       {
         "nome": "Desarmado",
         "bonus": 5,

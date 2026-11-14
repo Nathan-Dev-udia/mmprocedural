@@ -15,17 +15,17 @@
     },
     "poderes": [
       "a Proteção 13, Impenetrável 6 (19 PP)",
-      "ndr oid Body: Computer Brain: Imunidade 10 (mental effects) (10 PP)",
-      "f ligh t: 8 (800 km/h) (16 PP)",
+      "ndr oid Body: Computer Brain: Imunidade 10 (Efeitos Mentais) (10 PP)",
+      "f Luz: 8 (800 km/h) (16 PP)",
       "Self- r epairing: Regeneração 5 (5 PP)",
       "t ornado C ontrol : Arranjo (32 pontos)",
-      "• t ornado C reation: Perception À Distância Área de Explosão Mover Objetos 8 (32 PP)",
-      "• a ir Raio Dano à Distância 12, Preciso 3 (1 PP)",
+      "• t ornado C reation: Percepção À Distância Área de Explosão Mover Objetos 8 (32 PP)",
+      "• a ir Raio Dano à Distância 12, Acurado 3 (1 PP)",
       "• a ir S hield: Deflexão 11 (1 PP)",
-      "• Bend Light: Camuflagem (All Visual) (1 PP)",
+      "• Bend Luz: Camuflagem (All Visual) (1 PP)",
       "Unaging: Imortalidade 5 (24 hours) (5 PP)",
-      "Unliving: Imunidade 30 (Fortitude effects) (30 PP)",
-      "d a e S a V ant G Eidetic Memory, Evasion, Favored Environment (Aerial), Fearless, Improved Iniciativa 2"
+      "Unliving: Imunidade 30 (Efeitos de Fortitude) (30 PP)",
+      "d a e S a V ant G Memória Eidética, Evasão, Favored Ambiente (Aerial), Fearless, Iniciativa Aprimorada 2"
     ],
     "equipamento": [],
     "vantagens": [],
@@ -63,6 +63,7 @@
     ],
     "defesas": {
       "Esquiva": 8,
+      "Fortitude": null,
       "Aparar": 8,
       "Resistência": 13,
       "Vontade": 8
@@ -79,7 +80,7 @@
     "complicacoes": [
       {
         "titulo": "Complicação",
-        "texto": "occasionally arise when Red Tornado is re- built, including the loss of emotions and madness. This causes great stress in his personal life; his wife leaves him and he aban- dons his John Smith persona. Red Tornado overcomes this challenge to reconnect with his wife and daughter."
+        "texto": "occasionally arise when Red Tornado is re- built, including the loss of emotions e madness. This causes great stress in his personal life; his wife leaves him e he aban- dons his John Smith persona. Red Tornado overcomes this challenge to reconnect com his wife e daughter."
       }
     ]
   },

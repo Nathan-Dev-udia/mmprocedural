@@ -14,7 +14,7 @@
       "Pre": 2
     },
     "poderes": [
-      "ealer (Regeneração 3); Strong (Enhanced f ast H Força 4, Limitado a Lifting (lifting Str 19; 12,000 tons)); (Imunidade 2 (Envelhecimento, Doença), Resistência Impenetrável 8) t ough antages: All-out Attack, Attractive, Fast Grab, Improved a dv Iniciativa, Power Attack, Takedown"
+      "ealer (Regeneração 3); Strong (Aprimorado f ast H Força 4, Limitado a Lifting (lifting Str 19; 12,000 toneladas)); (Imunidade 2 (Envelhecimento, Doença), Resistência Impenetrável 8) t ough antages: Ataque Imprudente, Attractive, Fast Grab, Improved a dv Iniciativa, Poder Attack, Ataque Dominó"
     ],
     "equipamento": [],
     "vantagens": [],
@@ -45,13 +45,26 @@
         "total": 5
       },
       {
-        "nome": "Combate à Distância: Throwing",
+        "nome": "Combate à Distância: Arremesso",
         "graduacoes": 6,
         "total": 9
       }
     ],
-    "iniciativa": 0,
-    "ataques": [],
+    "iniciativa": 7,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 9,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 15"
+      },
+      {
+        "nome": "Arremesso",
+        "bonus": 9,
+        "alcance": "À distância",
+        "dano": "Dano 15"
+      }
+    ],
     "defesas": {
       "Esquiva": 9,
       "Aparar": 9,
@@ -67,7 +80,7 @@
     "complicacoes": [
       {
         "titulo": "Competitive",
-        "texto": "Knockout likes to win . She lives for the fierce competition of battle. f tatious: Knockout is a lir notorious flirt, often mixing it with her Luta."
+        "texto": "Knockout likes to win . She lives for the fierce competition of battle. f tatious: Knockout is a lir notorious flirt, often mixing it com her Luta."
       },
       {
         "titulo": "Perda de Poder",

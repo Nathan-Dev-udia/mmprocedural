@@ -46,15 +46,15 @@
     },
     "vantagens": [
       "Atraente 2",
-      "Benefício [Wealth 3] 3",
+      "Benefício (Riqueza 3) 3",
       "Equipamento 7",
       "Liderança",
-      "Segunda Chance [Bluff]"
+      "Segunda Chance (Enganação)"
     ],
     "poderes": [
       {
         "nome": "Telepathy",
-        "construcao_3e": "Telepatia 10 Dinâmica (40 PP); Efeitos Alternativos Dinâmicos: Rajada Mental (2 PP), Escudo Mental (2 PP), Projeção Astral (2 PP), Controle Emocional (2 PP), Ilusão Fantasma (2 PP), Forma Alternativa Sólida de Diamante (7 PP). Array total: 57 PP (custo original da fonte preservado).",
+        "construcao_3e": "Telepatia 10 Dinâmica (40 PP); Efeitos Alternativos Dinâmicos: Rajada Mental (2 PP), Escudo Mental (2 PP), Projeção Astral (2 PP), Controle Emocional (2 PP), Ilusão Fantasma (2 PP), Forma Alternativa Sólida de Diamante (7 PP). Arranjo total: 57 PP (custo original da fonte preservado).",
         "custo_2e_pp": 57,
         "custo_3e_pp": 57,
         "nome_pt": "Telepatia e Forma de Diamante"

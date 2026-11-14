@@ -14,16 +14,15 @@
       "Pre": 3
     },
     "poderes": [
-      "Imunidade 1 (Envelhecimento), Sentidos 1 (Mystic Prontidão)"
+      "Imunidade 1 (Envelhecimento), Sentidos 1 (Místico Consciência)"
     ],
     "equipamento": [],
     "vantagens": [
       "Ataque Imprudente",
       "Atraente",
       "Rolamento Defensivo 2",
-      "Languages",
-      "Precise Attack (Close",
-      "Concealment)",
+      "Idiomas",
+      "Ataque Preciso (Corpo a Corpo, Camuflagem)",
       "Ritualista"
     ],
     "pericias": [
@@ -38,12 +37,12 @@
         "total": 18
       },
       {
-        "nome": "Especialidade: mágico",
+        "nome": "Especialidade: Magia",
         "graduacoes": 4,
         "total": 4
       },
       {
-        "nome": "Especialidade: Tactics",
+        "nome": "Especialidade: Tática",
         "graduacoes": 8,
         "total": 8
       },
@@ -63,7 +62,7 @@
         "total": 8
       },
       {
-        "nome": "Combate à Distância: Bows",
+        "nome": "Combate à Distância: Arcos",
         "graduacoes": 4,
         "total": 12
       },
@@ -83,8 +82,21 @@
         "total": 8
       }
     ],
-    "iniciativa": 0,
-    "ataques": [],
+    "iniciativa": 8,
+    "ataques": [
+      {
+        "nome": "Espada",
+        "bonus": 13,
+        "alcance": "",
+        "dano": "Dano 13"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 13,
+        "alcance": "",
+        "dano": "Dano 10"
+      }
+    ],
     "defesas": {
       "Esquiva": 13,
       "Aparar": 13,

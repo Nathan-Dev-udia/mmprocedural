@@ -45,7 +45,7 @@
     "poderes": [
       {
         "nome": "Emotion Control",
-        "construcao_3e": "Aflição 8 (Resistida por Vontade; Tonto, Compelido, Controlado; Área em Nuvem, Falha: Dependente de Sentidos [Olfato]; Duração Contínua [+2/graduação], Sutil 1, Reversível 1; 26 PP); Efeito Alternativo: Controle Emocional Seletivo em Nuvem (1 PP). Array total: 27 PP.",
+        "construcao_3e": "Aflição 8 (Resistida por Vontade; Tonto, Compelido, Controlado; Área em Nuvem, Falha: Dependente de Sentidos [Olfato]; Duração Contínua [+2/graduação], Sutil 1, Reversível 1; 26 PP); Efeito Alternativo: Controle Emocional Seletivo em Nuvem (1 PP). Arranjo total: 27 PP.",
         "custo_2e_pp": 43,
         "custo_3e_pp": 27,
         "nome_pt": "Controle de Feromônios / Emoções"

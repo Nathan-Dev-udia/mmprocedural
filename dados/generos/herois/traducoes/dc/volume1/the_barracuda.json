@@ -14,16 +14,16 @@
       "Pre": 3
     },
     "poderes": [
-      "Aquatic ( Imunidade 3 (Frio, Afogamento, Pressão), Movimento 1 (Environmental Adaptation: Aquatic), Sentidos 1 (Visão na Penumbra)); Marine Telepatia (Arranjo (57 pontos), Summon Marine Life 8 ((120 pontos), Horde, mental Link, Multiple Minions 2 (4 minions), Variável General Type (Marine Life), Limitado a in or near water, AE: Summon Marine Life 4 (60 pontos), Horde, mental Link, Multiple Minions 4 (16 minions), Variável General Type (Marine Life), Limitado a in or near water, AE: Compreender Animals 2, mental Comunicação 4, Limitado a Marine Life); Natação ( Natação 10 (800 km/h))"
+      "Aquatic ( Imunidade 3 (Frio, Afogamento, Pressão), Movimento 1 (Adaptação Ambiental: Aquatic), Sentidos 1 (Visão na Penumbra)); Marine Telepatia (Arranjo (57 pontos), Invocar Marine Life 8 ((120 pontos), Horda, Elo Mental, Múltiplos Capangas 2 (4 capangas), Variável General Type (Marine Life), Limitado a in or near water, AE: Invocar Marine Life 4 (60 pontos), Horda, Elo Mental, Múltiplos Capangas 4 (16 capangas), Variável General Type (Marine Life), Limitado a in or near water, AE: Compreender Animais 2, Comunicação Mental 4, Limitado a Marine Life); Natação ( Natação 10 (800 km/h))"
     ],
     "equipamento": [],
     "vantagens": [
       "Ataque Imprudente",
       "Empatia com Animais",
-      "Benefit 3 (Warlord of Atlantis)",
+      "Benefício 3 (Warlord of Atlantis)",
       "Blind-Fight",
       "Rolamento Defensivo 3",
-      "Equipment 10 (Atlantean technology)",
+      "Equipamento 10 (Atlantean Tecnologia)",
       "Ambiente Favorito (Aquatic)",
       "Iniciativa Aprimorada",
       "Language 1",
@@ -83,7 +83,7 @@
         "nome": "Desarmado",
         "bonus": 11,
         "alcance": "",
-        "dano": "(Dano 10)"
+        "dano": "Dano 10"
       }
     ],
     "defesas": {
@@ -113,7 +113,7 @@
       },
       {
         "titulo": "Fraqueza",
-        "texto": "Barracuda dehydrates when away from water for an extended time, becoming impaired, disabled, and finally Incapacitado before his condition becomes Moribundo. Immersion in water immediately removes all accumulated conditions. surface world. Though much remains unknown about Barra - cuda, the CSA consider the Atlantean a formidable threat. He has led Atlantis’ warrior armies against land-based civilization several times over. His relationship with the Crime Syndicate is currently adversarial, as he took advantage of a CSA defeat to again launch an attack. Barracuda is less human in appear - ance than Aquaman, he has fish-like traits, including gills and scaly blue skin. He wears battle armor and wields advanced Atlantean weaponry. His minions are similarly equipped."
+        "texto": "Barracuda dehydrates when away from water for an Estendido time, becoming Prejudicado, Desabilitado, e finally Incapacitado before his condition becomes Moribundo. Immersion in water immediately removes all accumulated conditions. surface world. Though much remains unknown about Barra - cuda, the CSA consider the Atlantean a formidable threat. He has led Atlantis’ warrior armies contra land-based civilization several times over. His relationship com the Crime Syndicate is currently adversarial, as he took Vantagem of a CSA defeat to again launch an attack. Barracuda is less human in appear - ance than Aquaman, he has fish-like traits, including gills e scaly blue skin. He wears battle armor e wields advanced Atlantean weaponry. His capangas are similarly equipped."
       }
     ]
   },

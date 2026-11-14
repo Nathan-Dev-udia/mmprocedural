@@ -14,7 +14,7 @@
       "Pre": 4
     },
     "poderes": [
-      "Cyber-Web (Compreender Machines 2); Psychokinetic Campo de Força (Proteção 12, Impenetrável 10); Psychokinesis (Mover Objetos 13, Perception À Distância); Telepatia (Leitura mental 13; AE: Dano 6, Perception À Distância, resistido por Vontade; AE: Ilusão 8 (All Sentidos), Resistível; AE: mental Comunicação 5)"
+      "Cyber-Web (Compreender Máquinas 2); Psychokinetic Campo de Força (Proteção 12, Impenetrável 10); Psychokinesis (Mover Objetos 13, Percepção À Distância); Telepatia (Leitura Mental 13; AE: Dano 6, Percepção À Distância, resistido por Vontade; AE: Ilusão 8 (All Sentidos), Resistível; AE: Comunicação Mental 5)"
     ],
     "equipamento": [],
     "vantagens": [
@@ -57,7 +57,7 @@
     "iniciativa": 2,
     "ataques": [
       {
-        "nome": "Rajada mental",
+        "nome": "Rajada Mental",
         "bonus": null,
         "alcance": "",
         "dano": "Dano, CD 21 Vontade"

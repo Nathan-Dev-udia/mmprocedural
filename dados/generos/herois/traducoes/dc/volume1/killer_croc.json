@@ -14,10 +14,10 @@
       "Pre": 3
     },
     "poderes": [
-      "Aquatic: Imunidade 3 (Doença, Sufocamento: Limitado: Must Hold Breath); Movimento 2 (Environmental Adaptation 2: Aquatic, Sewers); Natação 4 (12 km/h) (10 PP)",
-      "Epidermolytic Hyperkeratosis: Característica 2 (Density; Weighs 800 lbs.); Impenetrável Proteção 8 (18 PP)",
-      "Reptilian: Salto 3; Regeneração 5; Sentidos 3 (Aguçado Preciso Olfactory) (11 PP)",
-      "Teeth and Claws: Força-based Dano 3 (3 PP)"
+      "Aquatic: Imunidade 3 (Doença, Sufocamento: Limitado: Must Hold Breath); Movimento 2 (Adaptação Ambiental 2: Aquatic, Sewers); Natação 4 (12 km/h) (10 PP)",
+      "Epidermolytic Hyperkeratosis: Característica 2 (Density; Weighs 800 libras.); Impenetrável Proteção 8 (18 PP)",
+      "Reptilian: Salto 3; Regeneração 5; Sentidos 3 (Aguçado Acurado Olfativo) (11 PP)",
+      "Teeth e Claws: Força-based Dano 3 (3 PP)"
     ],
     "equipamento": [],
     "vantagens": [
@@ -26,11 +26,11 @@
       "Duro de Matar",
       "Agarrar Rápido",
       "Destemido",
-      "Grande Vigor",
+      "Tolerância Maior",
       "Imobilizar Aprimorado",
       "Ataque Poderoso",
       "Assustar",
-      "Derrubar em Sequência 2"
+      "Ataque Dominó 2"
     ],
     "pericias": [
       {
@@ -87,11 +87,11 @@
     "complicacoes": [
       {
         "titulo": "Preconceito",
-        "texto": "Killer Croc is deformed in such a way that he appears to be a human alligator or crocodile. He is instantly recognizable and people’s reactions to him tend to be extreme."
+        "texto": "Killer Croc is deformed in such a way that he appears to be a human alligator or crocodile. He is instantly recognizable e people’s reactions to him tend to be extreme."
       },
       {
         "titulo": "Deficiência",
-        "texto": "Croc is slowly devolving into a less human, more lizard-like form. If this continues at the current rate he’ll be an unintelligent beast driven only by instinct before too long. ALLIES During Croc’s time in Arkham Asylum, he established relation - ships with inmates including Veneno Ivy and Mad Hatter. He works with Two-Face and for a time was Swamp Thing’s pupil. ENEMIES Killer Croc’s primary enemy is Batman. Croc often comes into conflict with Gotham’s other super heroes, including Batgirl, Robin, and Nightwing."
+        "texto": "Croc is slowly devolving into a less human, more lizard-like form. If this continues at the current rate he’ll be an unintelligent beast driven Apenas by instinct before too long. ALLIES During Croc’s time in Arkham Asylum, he established relation - ships com inmates including Veneno Ivy e Mad Hatter. He works com Two-Face e for a time was Swamp Thing’s pupil. ENEMIES Killer Croc’s primary enemy is Batman. Croc often comes into conflict com Gotham’s other super heroes, including Batgirl, Robin, e Nightwing."
       }
     ]
   },

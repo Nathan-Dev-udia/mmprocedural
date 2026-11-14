@@ -14,14 +14,14 @@
       "Pre": 4
     },
     "poderes": [
-      "f ligh t (Voo 8 (800 km/h)); Smartskin (Imunidade 7 (Frio, Calor, Self-inflicted Slam Dano); Proteção 2; Resistência Impenetrável 12)"
+      "f Luz (Voo 8 (800 km/h)); Smartskin (Imunidade 7 (Frio, Calor, Self-inflicted Slam Dano); Proteção 2; Resistência Impenetrável 12)"
     ],
     "equipamento": [],
     "vantagens": [
       "Ataque Imprudente",
       "Atraente",
       "Interpor-se",
-      "Esforço Supremo (Toughness checks)"
+      "Esforço Supremo (Resistência Testes)"
     ],
     "pericias": [
       {
@@ -30,7 +30,7 @@
         "total": 8
       },
       {
-        "nome": "Especialidade: Psychology",
+        "nome": "Especialidade: Psicologia",
         "graduacoes": 6,
         "total": 8
       },
@@ -78,7 +78,7 @@
     "complicacoes": [
       {
         "titulo": "r esponsibility",
-        "texto": "Bulleteer initially viewed her Powers as a curse, but when she saved some people from a burning building she was inspired by them to continue using her Powers to help others."
+        "texto": "Bulleteer initially viewed her Poderes as a curse, but when she saved some people from a burning building she was inspired by them to continue using her Poderes to help others."
       }
     ]
   },

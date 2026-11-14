@@ -16,15 +16,15 @@
     "poderes": [
       "Cryokinesis Stunts: Arranjo (24 pontos)",
       "• Frio Control: Dano à Distância 12 (24 PP)",
-      "• Ice Aprisionar: Aflição à Distância 8 (resistido por Esquiva; Impedido, Imóvel, Incapacitado), Cumulativo (1 PP)",
-      "• Ice Creations: Criar Objetos 7, Permanente, Inato (1 PP)",
-      "Freezing Frio: Environment Control 5 (900 feet; Extreme Frio, Impede Movimento 1, Visibility) (20 PP)",
-      "Ice Shell: Proteção 8 (8 PP)",
+      "• Gelo Aprisionar: Aflição à Distância 8 (resistido por Esquiva; Impedido, Imóvel, Incapacitado), Cumulativo (1 PP)",
+      "• Gelo Creations: Criar Objetos 7, Permanente, Inato (1 PP)",
+      "Freezing Frio: Ambiente Control 5 (900 pés; Extreme Frio, Impede Movimento 1, Visibility) (20 PP)",
+      "Gelo Shell: Proteção 8 (8 PP)",
       "Temperature Control: Imunidade 2 (Calor, Frio) (2 PP)"
     ],
     "equipamento": [],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Ataque Imprudente",
       "Atraente",
       "Ataque Poderoso"
@@ -41,7 +41,7 @@
         "total": 8
       },
       {
-        "nome": "Especialidade: Physics",
+        "nome": "Especialidade: Física",
         "graduacoes": 8,
         "total": 12
       },
@@ -75,7 +75,7 @@
         "dano": "Dano 12"
       },
       {
-        "nome": "Ice Aprisionar",
+        "nome": "Gelo Aprisionar",
         "bonus": 10,
         "alcance": "À distância",
         "dano": "Aflição 8, Cumulativo Desarmado +5 Corpo a Corpo, Dano 1"
@@ -100,7 +100,7 @@
     "complicacoes": [
       {
         "titulo": "Inimigo",
-        "texto": "Killer Frost has a long-running enmity with Firestorm; where one is, the other is sure to arrive."
+        "texto": "Killer Frost has a long-running enmity com Firestorm; where one is, the other is sure to arrive."
       },
       {
         "titulo": "Ódio",
@@ -108,7 +108,7 @@
       },
       {
         "titulo": "Fraqueza",
-        "texto": "Killer Frost is dependent on sources of Calor to keep herself from freezing solid, Atordoado and Imóvel. PERSONALITY Her perceived mistreatment at the hands of men left Crystal Frost a Frio, bitter woman. Louise Lincoln, the second Killer Frost, does not share Crystal’s hated of men, but emulates her idol’s coldly murderous attitude."
+        "texto": "Killer Frost is dependent on sources of Calor to keep herself from freezing solid, Atordoado e Imóvel. PERSONALITY Her perceived mistreatment at the hands of men left Crystal Frost a Frio, bitter woman. Louise Lincoln, the second Killer Frost, does not share Crystal’s hated of men, but emulates her idol’s coldly murderous attitude."
       }
     ]
   },

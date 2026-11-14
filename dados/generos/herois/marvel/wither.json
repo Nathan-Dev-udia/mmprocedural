@@ -52,7 +52,7 @@
     "poderes": [
       {
         "nome": "Drain [Constitution]",
-        "construcao_3e": "Enfraquecer Vigor 10 (Reação / Aura [+3/graduação], Falha: Incontrolável [-1/graduação] = 3 PP/graduação = 30 PP); Efeito Alternativo: Corrosão 10 (Enfraquecer Resistência ligado a Dano, Concentração, Limitado a matéria orgânica; 1 PP). Array total: 31 PP.",
+        "construcao_3e": "Enfraquecer Vigor 10 (Reação / Aura [+3/graduação], Falha: Incontrolável [-1/graduação] = 3 PP/graduação = 30 PP); Efeito Alternativo: Corrosão 10 (Enfraquecer Resistência ligado a Dano, Concentração, Limitado a matéria orgânica; 1 PP). Arranjo total: 31 PP.",
         "custo_2e_pp": 41,
         "custo_3e_pp": 31,
         "nome_pt": "Toque Murchador / Corrosão"

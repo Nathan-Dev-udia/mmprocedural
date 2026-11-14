@@ -16,9 +16,9 @@
     "poderes": [],
     "equipamento": [],
     "vantagens": [
-      "Conectado",
-      "Ferramentas Improvisadas",
-      "Languages 2"
+      "Bem Relacionado",
+      "Ferramentas Aprimoradas",
+      "Idiomas 2"
     ],
     "pericias": [
       {
@@ -57,7 +57,7 @@
         "total": 7
       },
       {
-        "nome": "Combate à Distância: Guns",
+        "nome": "Combate à Distância: Armas de Fogo",
         "graduacoes": 4,
         "total": 5
       },
@@ -80,16 +80,10 @@
     "iniciativa": 0,
     "ataques": [
       {
-        "nome": "Shotgun",
+        "nome": "Shotgun +5 (Dano 5) Desarmado",
         "bonus": 5,
         "alcance": "",
-        "dano": "(Dano 5)"
-      },
-      {
-        "nome": "Desarmado",
-        "bonus": 5,
-        "alcance": "",
-        "dano": "(Dano 0)"
+        "dano": "Dano 0"
       }
     ],
     "defesas": {

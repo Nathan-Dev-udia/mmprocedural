@@ -14,7 +14,7 @@
       "Pre": 1
     },
     "poderes": [
-      "a qua tic (Imunidade 3 (Frio, Afogamento, Pressão), Movimento 1 (Environmental Adaptation – Aquatic), Sentidos 1 (Visão na Penumbra)); Natação 8 (192 km/h); t elepa thy (Compreender 2 (Animals; Speak To, Understand), mental Comunicação 2, Prontidão Exige Teste) e Atlantean Trident (Força-based Dano 3, quipmen t: Reach)"
+      "a qua tic (Imunidade 3 (Frio, Afogamento, Pressão), Movimento 1 (Adaptação Ambiental – Aquatic), Sentidos 1 (Visão na Penumbra)); Natação 8 (192 km/h); t elepa thy (Compreender 2 (Animais; Speak To, Understand), Comunicação Mental 2, Consciência Exige Teste) e Atlantean Trident (Força-based Dano 3, quipmen t: Reach)"
     ],
     "equipamento": [],
     "vantagens": [
@@ -23,9 +23,9 @@
       "Ataque Corpo-a-Corpo 3",
       "Rolamento Defensivo 2",
       "Equipamento",
-      "Evasion",
+      "Evasão",
       "Ambiente Favorito (Aquatic)",
-      "Languages (Spanish)"
+      "Idiomas (Espanhol)"
     ],
     "pericias": [
       {
@@ -88,11 +88,11 @@
     "complicacoes": [
       {
         "titulo": "f lir tations",
-        "texto": "Aquagirl’s Presença has been causing problems for Blue Beetle, whose girlfriend (Traci Thirteen) has declined Titans’ membership and thus isn’t always around, and between Superboy and Wonder Girl. Lorena has thus far kept her multiple flirtations relatively Sutil, though she has been getting bolder of late, a situ- ation that could lead to problems within the team."
+        "texto": "Aquagirl’s Presença has been causing problems for Blue Beetle, whose girlfriend (Traci Thirteen) has declined Titans’ membership e thus isn’t always around, e between Superboy e Wonder Girl. Lorena has thus far kept her multiple flirtations relatively Sutil, though she has been getting bolder of late, a situ- ation that could lead to problems within the team."
       },
       {
         "titulo": "Pro - tector",
-        "texto": "Lorena is highly motivated to use her Powers to protect others. She willingly puts herself at risk to defend innocents or those she cares about."
+        "texto": "Lorena is highly motivated to use her Poderes to protect others. She willingly puts herself at risk to defend innocents or those she cares about."
       }
     ]
   },

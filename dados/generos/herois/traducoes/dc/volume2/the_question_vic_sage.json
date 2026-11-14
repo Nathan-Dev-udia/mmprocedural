@@ -14,11 +14,11 @@
       "Pre": 3
     },
     "poderes": [
-      "0 Defenses 23 a dv Total 181 antages 29"
+      "0 Defesas 23 a dv Total 181 antages 29"
     ],
     "equipamento": [],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Finta Ágil",
       "Ataque Imprudente",
       "Avaliação",
@@ -28,23 +28,23 @@
       "Ataque Defensivo",
       "Rolamento Defensivo 2",
       "Duro de Matar",
-      "Evasion",
+      "Evasão",
       "Crítico Aprimorado (Desarmado)",
       "Defesa Aprimorada",
       "Desarmar Aprimorado",
       "Iniciativa Aprimorada",
       "Derrubar Aprimorado",
       "Arma Improvisada",
-      "Levantar Rápido",
+      "De Pé",
       "Ataque Poderoso",
-      "Precise Attack (corpo a corpo; Concealment)",
+      "Ataque Preciso (Corpo a Corpo; Camuflagem)",
       "Redirecionar",
       "Maestria em Perícia (Intuição)",
-      "Derrubar em Sequência",
-      "Provocar",
+      "Ataque Dominó",
+      "Zombar",
       "Transe",
       "Prender Arma",
-      "Bem-Informado"
+      "Bem Informado"
     ],
     "pericias": [
       {
@@ -68,17 +68,17 @@
         "total": 11
       },
       {
-        "nome": "Especialidade: Journalism",
+        "nome": "Especialidade: Jornalismo",
         "graduacoes": 7,
         "total": 10
       },
       {
-        "nome": "Especialidade: Philosophy",
+        "nome": "Especialidade: Filosofia",
         "graduacoes": 9,
         "total": 12
       },
       {
-        "nome": "Especialidade: Streetwise",
+        "nome": "Especialidade: Manha",
         "graduacoes": 9,
         "total": 12
       },
@@ -134,7 +134,7 @@
         "nome": "Desarmado",
         "bonus": 17,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 3, Crit. 19-20"
+        "dano": "Dano 3, Crít. 19-20"
       }
     ],
     "defesas": {
@@ -144,13 +144,16 @@
       "Resistência": 6,
       "Vontade": 11
     },
-    "observacao_defesas": "* Vontade 11 *sem Rolamento Defensivo. Po er ponto W S Abilities 72 Skills 57",
-    "custos": {},
+    "observacao_defesas": "* Vontade 11 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 72,
+      "Perícias": 57
+    },
     "total": null,
     "complicacoes": [
       {
         "titulo": "i den tity",
-        "texto": "Becoming: Most of the Question’s life has been a search for truth and meaning. He often gets himself into dangerous situations out of a desire to discover the truth behind a mystery, someone’s true nature, or even something about himself."
+        "texto": "Becoming: Most of the Question’s life has been a search for truth e meaning. He often gets himself into dangerous situations out of a desire to discover the truth behind a mystery, someone’s true nature, or even something about himself."
       }
     ]
   },

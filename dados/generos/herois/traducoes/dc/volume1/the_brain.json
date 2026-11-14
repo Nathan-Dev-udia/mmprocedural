@@ -14,7 +14,7 @@
       "Pre": 12
     },
     "poderes": [
-      ": Housing ( Característica 1 (Normal Sentidos; see Complications), Imunidade 40 (Fortitude Effects, Suporte Vital), Proteção 15, Removível (–11 pontos)) mental Shielding (Impenetrável Vontade 10)"
+      ": Housing ( Característica 1 (Normal Sentidos; see Complications), Imunidade 40 (Efeitos de Fortitude, Suporte Vital), Proteção 15, Removível (-11 pontos)) Mental Shielding (Impenetrável Vontade 10)"
     ],
     "equipamento": [],
     "vantagens": [
@@ -23,13 +23,13 @@
       "Memória Eidética",
       "Fascinar (Persuasão)",
       "Inventor",
-      "Pau pra Toda Obra",
-      "Languages (French)",
+      "Faz Tudo",
+      "Idiomas (Francês)",
       "Liderança",
-      "Preparar",
+      "Armação",
       "Maestria em Perícia (Persuasão)",
       "Esforço Supremo (Persuasão)",
-      "Bem-Informado"
+      "Bem Informado"
     ],
     "pericias": [
       {
@@ -48,22 +48,22 @@
         "total": 12
       },
       {
-        "nome": "Especialidade: Current Events",
+        "nome": "Especialidade: Atualidades",
         "graduacoes": 1,
         "total": 11
       },
       {
-        "nome": "Especialidade: History",
+        "nome": "Especialidade: História",
         "graduacoes": 2,
         "total": 12
       },
       {
-        "nome": "Especialidade: Psychology",
+        "nome": "Especialidade: Psicologia",
         "graduacoes": 4,
         "total": 14
       },
       {
-        "nome": "Especialidade: Science",
+        "nome": "Especialidade: Ciência",
         "graduacoes": 4,
         "total": 14
       },
@@ -88,9 +88,12 @@
         "total": 12
       }
     ],
-    "iniciativa": 0,
+    "iniciativa": -2,
     "ataques": [],
     "defesas": {
+      "Esquiva": -2,
+      "Aparar": -5,
+      "Fortitude": null,
       "Resistência": 15,
       "Vontade": 10
     },
@@ -110,11 +113,11 @@
       },
       {
         "titulo": "Brain in a Jar",
-        "texto": "The Brain requires his cybernetic housing to survive and provide rudimentary sensory input. Even within the housing, the Brain suffers from reduced mobility, as his housing’s ability to move and maneuver are extremely Limitado, and he is unable to directly manipulate his environment. The housing is roughly 3 ft. 4 in. tall and weighs about 195 lbs."
+        "texto": "The Brain requires his cybernetic housing to survive e provide rudimentary sensory input. Even within the housing, the Brain suffers from reduced mobility, as his housing’s Habilidade to move e maneuver are extremely Limitado, e he is unable to directly manipulate his Ambiente. The housing is roughly 3 ft. 4 in. tall e weighs about 195 libras."
       },
       {
         "titulo": "Forbidden Love",
-        "texto": "The Brain and Monsieur Mallah are involved in a romantic relationship that can, at best, be described as extraordinarily unorthodox given former’s disembodied circumstances and Mallah being a mutated gorilla."
+        "texto": "The Brain e Monsieur Mallah are involved in a romantic relationship that can, at best, be described as extraordinarily unorthodox given former’s disembodied circumstances e Mallah being a mutated gorilla."
       }
     ]
   },

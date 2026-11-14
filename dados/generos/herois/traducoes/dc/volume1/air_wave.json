@@ -14,21 +14,21 @@
       "Pre": 1
     },
     "poderes": [
-      "Energy Form: Dano 7 (Reação); Voo 19 (1,000,0 km/h); Imunidade 10 (Suporte Vital); Intangibilidade 3 (Electromagnetic Energy Form); Ativação (Ação de Movimento) (90 PP)",
+      "Energia Form: Dano 7 (Reação); Voo 19 (1.600.000 km/h); Imunidade 10 (Suporte Vital); Intangibilidade 3 (Electromagnetic Energia Form); Ativação (Ação de Movimento) (90 PP)",
       "EMR Reception: Sentidos 1 (Rádio) (1 PP)"
     ],
     "equipamento": [],
     "vantagens": [
       "Atraente",
-      "Beginner’s Luck",
+      "Sorte de Principiante",
       "Ataque Corpo-a-Corpo",
       "Rolamento Defensivo",
-      "Evasion 2",
+      "Evasão 2",
       "Ação em Movimento"
     ],
     "pericias": [
       {
-        "nome": "Combate Corpo-a-Corpo: Energy Form",
+        "nome": "Combate Corpo-a-Corpo: Energia Form",
         "graduacoes": 8,
         "total": 10
       }
@@ -36,7 +36,7 @@
     "iniciativa": 2,
     "ataques": [
       {
-        "nome": "Energy Form",
+        "nome": "Energia Form",
         "bonus": 11,
         "alcance": "Corpo a corpo",
         "dano": "Dano 7"
@@ -71,7 +71,7 @@
       },
       {
         "titulo": "Fraqueza",
-        "texto": "Hal was sensitive to electromagnetic Radiação emissions, like sunspot activity and broadcast communications. At sufficient levels, they rendered him impaired, disabled, powerless, or in danger of Moribundo."
+        "texto": "Hal was sensitive to electromagnetic Radiação emissions, like sunspot activity e broadcast communications. At sufficient levels, they rendered him Prejudicado, Desabilitado, powerless, or in danger of Moribundo."
       }
     ]
   },

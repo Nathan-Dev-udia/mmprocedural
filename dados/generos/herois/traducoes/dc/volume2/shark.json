@@ -14,18 +14,18 @@
       "Pre": 1
     },
     "poderes": [
-      "a Imunidade 3 (Frio, High Pressão, Afogamento); qua tic: Movimento 1 (Environmental Adaptation: Aquatic); Proteção 8; Sentidos 2 (Visão na Penumbra, Aguçado Olfactory); Natação 10 (800 km/h) (25 PP)",
-      "Claws and t eeth: Força-based Dano 2 (2 PP)",
-      "d evour Minds: Alcance de Percepção Enfraquecer Prontidão 12 (resistido por Vontade) (36 PP)",
+      "a Imunidade 3 (Frio, Alta Pressão, Afogamento); qua tic: Movimento 1 (Adaptação Ambiental: Aquatic); Proteção 8; Sentidos 2 (Visão na Penumbra, Aguçado Olfativo); Natação 10 (800 km/h) (25 PP)",
+      "Claws e t eeth: Força-based Dano 2 (2 PP)",
+      "d evour Minds: Alcance de Percepção Enfraquecer Consciência 12 (resistido por Vontade) (36 PP)",
       "i nstill f ear : Alcance de Percepção Aflição 12 (resistido por Vontade; Tonto, Compelido, Controlado), Limitado a Fear (24 PP)"
     ],
     "equipamento": [],
     "vantagens": [
       "Ataque Imprudente",
       "Ataque Corpo-a-Corpo 5",
-      "Evasion",
+      "Evasão",
       "Ambiente Favorito (Aquatic)",
-      "Improved Critical 2 (Claws and Teeth)",
+      "Crítico Aprimorado 2 (Garras e Teeth)",
       "Ação em Movimento",
       "Ataque Poderoso"
     ],
@@ -46,8 +46,15 @@
         "total": 10
       }
     ],
-    "iniciativa": 0,
-    "ataques": [],
+    "iniciativa": 5,
+    "ataques": [
+      {
+        "nome": "Claws e Teeth +12 Corpo a Corpo, Dano 12, Crít. 18-20 Devour Minds — Alcance de Percepção, Enfraquecer Consciência 12, resistido por Vontade (CD 22) Instill Fear — Alcance de Percepção, Aflição 12, resistido por Vontade",
+        "bonus": null,
+        "alcance": "",
+        "dano": "CD 22"
+      }
+    ],
     "defesas": {
       "Esquiva": 8,
       "Fortitude": 12,
@@ -67,7 +74,7 @@
     "complicacoes": [
       {
         "titulo": "Unstable",
-        "texto": "Shark is an unstable genetic mutation. He is often Transformado back to an ordinary tiger shark, and each time he is re-mutated his mind and Powers change. man Força. His exposure to radioactive waste makes his genetic structure unstable; at times he has displayed vast mental Powers and the ability to instill fear in others and devour their minds. aLLI e S Shark was a member of the Weaponers of Qward and the Se- cret Society of Super-Villains."
+        "texto": "Shark is an unstable genetic mutation. He is often Transformado back to an ordinary tiger shark, e each time he is re-mutated his mind e Poderes change. man Força. His exposure to radioactive waste makes his genetic structure unstable; at times he has displayed vast mental Poderes e the Habilidade to instill fear in others e devour their minds. aLLI e S Shark was a member of the Weaponers of Qward e the Se- cret Society of Super-Villains."
       }
     ]
   },

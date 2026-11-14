@@ -14,38 +14,37 @@
       "Pre": 3
     },
     "poderes": [
-      "Nth Metal Wing Harness: Removível (-5 pontos), Indestructible; Força Aprimorada 2, plus Força Aprimorada 2, Limitado a lifting and carrying (Lifting Str 7; 3 tons); Voo 7 (400 km/h), Wings; Imunidade 3 (Frio, Calor, Pressão); Proteção 3; Regeneração 10; Sentidos 1 (Visão Estendida) (25 PP)",
-      "Enhanced Cura: Regeneração 1 (1 PP)",
+      "Nth Metal Wing Harness: Removível (-5 pontos), Indestructible; Força Aprimorada 2, plus Força Aprimorada 2, Limitado a lifting e carrying (Lifting Str 7; 3 toneladas); Voo 7 (400 km/h), Wings; Imunidade 3 (Frio, Calor, Pressão); Proteção 3; Regeneração 10; Sentidos 1 (Visão Estendida) (25 PP)",
+      "Aprimorado Cura: Regeneração 1 (1 PP)",
       "Hover: Voo 1, Levitation (1 PP)",
-      "Reincarnation: Imortalidade 1, Reincarnation (May re-distribute power pontos) (3 PP)"
+      "Reincarnation: Imortalidade 1, Reincarnation (May re-distribute Poder pontos) (3 PP)"
     ],
     "equipamento": [
       "Archaic Weapons Arsenal: Arranjo (4 pontos)",
-      "• Spear: Força-based Dano 3 (Piercing), Improved Critical (4 PP)",
-      "• Claws: Força-based Dano 2 (Slashing) (1 PP)",
-      "• Mace: Força-based Dano 3 (Bludgeoning) (1 PP)",
-      "• Espada: Força-based Dano 3 (Slashing), Improved Critical (1 PP)",
-      "• Warhammer: Força-based Dano 3 (Bludgeoning) (1 PP)",
-      "Medium Escudo: Enhanced Defense 4 (Esquiva 2, Aparar 2) (4 PP)"
+      "• Spear: Força-based Dano 3 (Perfurante), Improved Critical (4 PP)",
+      "• Claws: Força-based Dano 2 (Cortante) (1 PP)",
+      "• Mace: Força-based Dano 3 (Contusão) (1 PP)",
+      "• Espada: Força-based Dano 3 (Cortante), Improved Critical (1 PP)",
+      "• Warhammer: Força-based Dano 3 (Contusão) (1 PP)",
+      "Medium Escudo: Defesa Aprimorada 4 (Esquiva 2, Aparar 2) (4 PP)"
     ],
     "vantagens": [
       "Finta Ágil",
       "Ataque Imprudente",
-      "Beginner’s Luck",
+      "Sorte de Principiante",
       "Rolamento Defensivo",
       "Equipamento 3",
-      "Evasion",
+      "Evasão",
       "Ambiente Favorito (Aerial)",
-      "Crítico Aprimorado (Claws)",
+      "Crítico Aprimorado (Garras)",
       "Crítico Aprimorado (Mace)",
       "Iniciativa Aprimorada",
-      "Levantar Rápido",
-      "Pau pra Toda Obra",
-      "Languages 2 (Ancient Egyptian",
-      "German)",
+      "De Pé",
+      "Faz Tudo",
+      "Idiomas 2 (Ancient Egyptian, Alemão)",
       "Ação em Movimento",
       "Ataque Poderoso",
-      "Derrubar em Sequência 2",
+      "Ataque Dominó 2",
       "Trabalho em Equipe",
       "Uncanny Dodge her winged harness",
       "and used this newfound talent to fake her death and escape to safety. Returning home to Earth",
@@ -77,7 +76,7 @@
         "total": 7
       },
       {
-        "nome": "Especialidade: History",
+        "nome": "Especialidade: História",
         "graduacoes": 4,
         "total": 8
       },
@@ -87,12 +86,12 @@
         "total": 8
       },
       {
-        "nome": "Especialidade: Streetwise",
+        "nome": "Especialidade: Manha",
         "graduacoes": 6,
         "total": 10
       },
       {
-        "nome": "Especialidade: Tactics",
+        "nome": "Especialidade: Tática",
         "graduacoes": 2,
         "total": 6
       },
@@ -144,7 +143,7 @@
       "Resistência": 10,
       "Vontade": 11
     },
-    "observacao_defesas": "* Fortitude 10 Aparar 12/10* Resistência 10/9** Vontade 11 *Without Escudo. **sem Rolamento Defensivo.",
+    "observacao_defesas": "* Fortitude 10 Aparar 12/10* Resistência 10/9** Vontade 11 *sem Escudo. **sem Rolamento Defensivo.",
     "custos": {
       "Habilidades": 82,
       "Perícias": 32,
@@ -156,11 +155,11 @@
     "complicacoes": [
       {
         "titulo": "Identity",
-        "texto": "Hawkgirl’s multiple incarnations sometimes come back to haunt her, whether it is the appearance of a reincarnated form from another life, becoming overwhelmed with sudden memories from a past life, or becoming confused about her true identity."
+        "texto": "Hawkgirl’s multiple incarnations sometimes come back to haunt her, whether it is the appearance of a reincarnated form from another life, becoming overwhelmed com sudden memories from a past life, or becoming confused about her true identity."
       },
       {
         "titulo": "Relacionamento",
-        "texto": "All of Hawkgirl’s incarnations have had some form of romantic relationship with their corresponding version of Hawkman. for Hawkman, who serves as her anchor amid a dizzying Arranjo of past lives. Powers & Abilities Hawkgirl’s Nth metal harness provides her with Proteção, fast Cura, Força Aprimorada, keen vision and shields her from extreme temperatures. Recently Hawkgirl discovered her prolonged exposure to Nth metal has given her Limitado heal - ing and hovering Abilities even when she is not wearing her winged harness. The properties of the Nth metal combined with the power of her love for Hawkman tie Hawkgirl’s soul to the mortal world, causing her to be repeatedly reincarnated. ALLIES Hawkgirl has worked closely with the Justice League and Jus - tice Society. More than anything, she has always been Hawk - man’s loyal partner and more often than not, his lover."
+        "texto": "All of Hawkgirl’s incarnations have had some form of romantic relationship com their corresponding version of Hawkman. for Hawkman, who serves as her anchor amid a dizzying Arranjo of past lives. Poderes & Habilidades Hawkgirl’s Nth metal harness provides her com Proteção, fast Cura, Força Aprimorada, keen Visão e shields her from extreme temperatures. Recently Hawkgirl discovered her prolonged exposure to Nth metal has given her Limitado heal - ing e hovering Habilidades even when she is not wearing her winged harness. The properties of the Nth metal combined com the Poder of her love for Hawkman tie Hawkgirl’s soul to the mortal world, causing her to be repeatedly reincarnated. ALLIES Hawkgirl has worked closely com the Justice League e Jus - tice Society. More than anything, she has always been Hawk - man’s loyal partner e more often than not, his lover."
       }
     ]
   },

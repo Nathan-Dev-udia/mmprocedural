@@ -14,22 +14,22 @@
       "Pre": 3
     },
     "poderes": [
-      "Ruby Ring: ( Característica 1 (Able to swap minds with Congorilla as Ação Padrão))"
+      "Ruby Ring: ( Característica 1 (Able to swap minds com Congorilla as Ação Padrão))"
     ],
     "equipamento": [
       "Hunting Rifle (Dano à Distância 5, Critical 19-20), Binoculars"
     ],
     "vantagens": [
-      "Benefit 3 (Millionaire)",
+      "Benefício 3 (Milionário)",
       "Rolamento Defensivo",
       "5",
       "Equipamento 2",
       "Destemido",
-      "Grande Vigor",
-      "Esconder-se a Plena Vista",
+      "Tolerância Maior",
+      "Esconder-se à Plena Vista",
       "Iniciativa Aprimorada",
-      "Languages 3",
-      "Precise Attack (à distância; Concealment)",
+      "Idiomas 3",
+      "Ataque Preciso (À Distância; Camuflagem)",
       "Rastrear",
       "Esquiva Fabulosa"
     ],
@@ -65,7 +65,7 @@
         "total": 9
       },
       {
-        "nome": "Combate à Distância: Guns",
+        "nome": "Combate à Distância: Armas de Fogo",
         "graduacoes": 7,
         "total": 11
       },

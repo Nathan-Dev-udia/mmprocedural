@@ -14,9 +14,9 @@
       "Pre": 1
     },
     "poderes": [
-      "Bubblegum Gun: Aflição à Distância 8 (resistido por Esquiva, Overcome by Força; Impedido, Imóvel), Preciso, Progressivo, Limitado Degree, Facilmente Removível (-8 pontos) (16 PP)",
-      "Pogo Stick: Salto 3; Enhanced Esquiva 3; Facilmente Removível (-2 pontos) (4 PP)",
-      "t o ymaker: Variável 10 (deadly toys, 50 pontos), Limitado a Summon and Facilmente Removível effects, Não Confiável (5 uses before returning to his workshop) (50 PP)"
+      "Bubblegum Gun: Aflição à Distância 8 (resistido por Esquiva, Superado por Força; Impedido, Imóvel), Acurado, Progressivo, Limitado Grau, Facilmente Removível (-8 pontos) (16 PP)",
+      "Pogo Stick: Salto 3; Esquiva Aprimorada 3; Facilmente Removível (-2 pontos) (4 PP)",
+      "t o ymaker: Variável 10 (deadly toys, 50 pontos), Limitado a Invocar e Facilmente Removível Efeitos, Não Confiável (5 uses before returning to his workshop) (50 PP)"
     ],
     "equipamento": [
       "H q : s e C ret w orks H op • 10 POI n TS Size: Medium t ou: 10 f ea tures: Computer, Concealed 2, Deathtraps, Garage, Living Space, Workshop"
@@ -24,12 +24,12 @@
     "vantagens": [
       "Rolamento Defensivo 3",
       "Equipamento 2",
-      "Evasion",
-      "Ferramentas Improvisadas",
+      "Evasão",
+      "Ferramentas Aprimoradas",
       "Inventor",
       "Redirecionar",
-      "Set-Up 3",
-      "Maestria em Perícia (Expertise: Engineering)",
+      "Armação 3",
+      "Maestria em Perícia (Especialidade: Engenharia)",
       "Maestria em Perícia (Tecnologia)"
     ],
     "pericias": [
@@ -39,12 +39,12 @@
         "total": 6
       },
       {
-        "nome": "Especialidade: Science",
+        "nome": "Especialidade: Ciência",
         "graduacoes": 11,
         "total": 17
       },
       {
-        "nome": "Especialidade: Engineering",
+        "nome": "Especialidade: Engenharia",
         "graduacoes": 11,
         "total": 17
       },
@@ -111,7 +111,7 @@
       "Resistência": 3,
       "Vontade": 9
     },
-    "observacao_defesas": "** Fortitude 4 Aparar 2 Resistência 3/0* Vontade 9 *sem Rolamento Defensivo. ** Without Pogo Stick",
+    "observacao_defesas": "** Fortitude 4 Aparar 2 Resistência 3/0* Vontade 9 *sem Rolamento Defensivo. ** sem Pogo Stick",
     "custos": {
       "Habilidades": 30,
       "Perícias": 38,

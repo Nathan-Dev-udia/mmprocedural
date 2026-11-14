@@ -14,7 +14,7 @@
       "Pre": "—"
     },
     "poderes": [
-      "Camuflagem 10, Limitado a Machines; Voo 6 (192 km/h); Característica (Database); Imunidade 30 (Fortitude effects); Proteção 8; Sentidos 4 (Comunicação Link—Mister Terrific, Infravisão, Rádio, Tracking); Encolhimento 12, Permanente, Inato; Weapons Systems (12-ponto Arranjo: Knockout Gas: Área de Nuvem Aflição 6 (resistido por Fortitude; Fatigado, Exausto, Adormecido); AE: Ofuscar: Aflição à Distância 6 (resistido por Fortitude; Vision Impaired, Vision Disabled, Vision Unaware); AE: Smoke Gas: Área de Nuvem Visual Camuflagem Attack 4; AE: Laser Grid: Área Moldável Sustentado Dano 4, Only as Team Attack; AE: Holographic Projection: Visual and Auditory Ilusão 4)"
+      "Camuflagem 10, Limitado a Máquinas; Voo 6 (192 km/h); Característica (Database); Imunidade 30 (Efeitos de Fortitude); Proteção 8; Sentidos 4 (Elo de Comunicação—Mister Terrific, Infravisão, Rádio, Rastrear); Encolhimento 12, Permanente, Inato; Weapons Systems (12-ponto Arranjo: Knockout Gas: Área de Nuvem Aflição 6 (resistido por Fortitude; Fatigado, Exausto, Adormecido); AE: Ofuscar: Aflição à Distância 6 (resistido por Fortitude; Visão Prejudicado, Visão Desabilitado, Visão Desatento); AE: Smoke Gas: Área de Nuvem Visual Camuflagem Attack 4; AE: Laser Grid: Área Moldável Sustentado Dano 4, Apenas as Team Attack; AE: Holographic Projection: Visual e Auditivo Ilusão 4)"
     ],
     "equipamento": [],
     "vantagens": [],
@@ -37,15 +37,30 @@
         "bonus": 12,
         "alcance": "",
         "dano": "Aflição 6, resistido por Fortitude"
+      },
+      {
+        "nome": "Knockout Gas",
+        "bonus": null,
+        "alcance": "",
+        "dano": "Área de Nuvem Aflição 6, resistido por Fortitude"
+      },
+      {
+        "nome": "Laser Grid",
+        "bonus": null,
+        "alcance": "",
+        "dano": "Área Moldável Dano 4"
       }
     ],
     "defesas": {
       "Esquiva": 11,
       "Aparar": 8,
-      "Resistência": 8
+      "Fortitude": null,
+      "Resistência": 8,
+      "Vontade": null
     },
     "observacao_defesas": "",
     "custos": {
+      "Habilidades": -32,
       "Poderes": 94,
       "Vantagens": 0,
       "Perícias": 6,

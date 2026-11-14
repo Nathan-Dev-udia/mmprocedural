@@ -14,7 +14,7 @@
       "Pre": 4
     },
     "poderes": [
-      "Burning Venom ( Dano 5 (Área de Cone, Efeito Secundário)); The Truth of Blood (Sentidos 1 (Detect: Truth (mental))), Join the Faith (Controle mental 5 (Reduced Range: Corpo a Corpo)); Swarm of Serpents ( Summon 3 (45 pontos; Horde, Multiple Minions 4 (16 minions)))"
+      "Burning Venom ( Dano 5 (Área de Cone, Efeito Secundário)); The Truth of Blood (Sentidos 1 (Detectar: Truth (Mental))), Join the Faith (Controle Mental 5 (Reduced Range: Corpo a Corpo)); Swarm of Serpents ( Invocar 3 (45 pontos; Horda, Múltiplos Capangas 4 (16 capangas)))"
     ],
     "equipamento": [],
     "vantagens": [
@@ -27,13 +27,12 @@
       "Rolamento Defensivo 4",
       "Fascinar (Enganação)",
       "Destemido",
-      "Grande Vigor",
-      "Esconder-se a Plena Vista",
+      "Tolerância Maior",
+      "Esconder-se à Plena Vista",
       "Iniciativa Aprimorada",
-      "Precise Attack (Close",
-      "Concealment)",
+      "Ataque Preciso (Corpo a Corpo, Camuflagem)",
       "Ritualista",
-      "Maestria em Perícia (Expertise: mágico)"
+      "Maestria em Perícia (Especialidade: Magia)"
     ],
     "pericias": [
       {
@@ -47,7 +46,7 @@
         "total": 10
       },
       {
-        "nome": "Especialidade: mágico",
+        "nome": "Especialidade: Magia",
         "graduacoes": 9,
         "total": 11
       },
@@ -89,6 +88,12 @@
         "bonus": 10,
         "alcance": "Corpo a corpo",
         "dano": "Dano 2"
+      },
+      {
+        "nome": "Burning Venom",
+        "bonus": null,
+        "alcance": "",
+        "dano": "Área de Cone Dano 5, Contagioso"
       }
     ],
     "defesas": {

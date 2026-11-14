@@ -14,29 +14,29 @@
       "Pre": 2
     },
     "poderes": [
-      "Sentidos 5 (Preciso Hearing, Aguçado Smell, Visão na Penumbra, Tracking); Velocidade 3 (25 km/h)"
+      "Sentidos 5 (Acurado Audição, Aguçado Olfato, Visão na Penumbra, Rastrear); Velocidade 3 (25 km/h)"
     ],
     "equipamento": [
       "Bolos (Aprisionar 3), Crossbow (Dano à Distância 3), Knives (Força-based Dano 1, Improved Critical)"
     ],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Finta Ágil",
       "Avaliação",
       "Estrangular",
       "Ataque Corpo-a-Corpo 2",
       "Rolamento Defensivo 2",
       "Equipamento 3",
-      "Evasion",
-      "Grande Vigor",
-      "Esconder-se a Plena Vista",
+      "Evasão",
+      "Tolerância Maior",
+      "Esconder-se à Plena Vista",
       "Iniciativa Aprimorada",
       "Improvised Weapons",
-      "Levantar Rápido",
-      "Precise Attack",
+      "De Pé",
+      "Ataque Preciso",
       "Saque Rápido",
       "Redirecionar",
-      "Preparar",
+      "Armação",
       "Tomar a Iniciativa",
       "Maestria em Arremesso",
       "Rastrear",
@@ -111,7 +111,7 @@
         "nome": "Knives",
         "bonus": 14,
         "alcance": "",
-        "dano": "Dano 6, Crit. 19-20"
+        "dano": "Dano 6, Crít. 19-20"
       },
       {
         "nome": "Desarmado",

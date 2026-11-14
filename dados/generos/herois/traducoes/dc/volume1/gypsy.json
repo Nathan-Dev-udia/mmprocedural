@@ -16,15 +16,15 @@
     "poderes": [
       "Chameleon: Camuflagem 4 (All Visual), Limitado a sentient beings (4 PP)",
       "Ilusão Casting: Ilusão 7 (All Sentidos), Seletivo, Resistível (35 PP)",
-      "• Astral Form: Remote Sensing 15 (120 milhas; Visual, Hearing), Retroalimentação, Sutil (CD 35) (1 PP)",
-      "• Group Chameleon: Área de Explosão Affects Others Seletivo Camuflagem 4 (All Visual), Limitado a sentient beings (1 PP)",
-      "• Illusory Disguise: Área de Explosão Affects Others Seletivo Metamorfose 2 (Similar Form), Resistível (1 PP)",
-      "Undeveloped Potential: Sentidos 4 (Precognition), Uncontrolled (2 PP)"
+      "• Astral Form: Sensoriamento Remoto 15 (120 milhas; Visual, Audição), Retroalimentação, Sutil (CD 35) (1 PP)",
+      "• Group Chameleon: Área de Explosão Afeta Outros Seletivo Camuflagem 4 (All Visual), Limitado a sentient beings (1 PP)",
+      "• Illusory Disguise: Área de Explosão Afeta Outros Seletivo Metamorfose 2 (Similar Form), Resistível (1 PP)",
+      "Undeveloped Potential: Sentidos 4 (Precognição), Descontrolado (2 PP)"
     ],
     "equipamento": [],
     "vantagens": [
       "Rolamento Defensivo 3",
-      "Evasion 2",
+      "Evasão 2",
       "Derrubar Aprimorado",
       "Sorte 3",
       "Ação em Movimento",
@@ -50,7 +50,7 @@
         "total": 8
       },
       {
-        "nome": "Especialidade: Streetwise",
+        "nome": "Especialidade: Manha",
         "graduacoes": 9,
         "total": 11
       },

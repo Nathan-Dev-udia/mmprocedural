@@ -14,14 +14,14 @@
       "Pre": 3
     },
     "poderes": [
-      "24 Defenses 31 Advantages 17 Total 138"
+      "24 Defesas 31 Vantagens 17 Total 138"
     ],
     "equipamento": [
-      "t ricks: Arranjo (24 pontos), Facilmente Removível (–10 pontos) • e xploding r ubber Chickens: Área de Explosão Dano à Distância 8 (24 PP)",
+      "t ricks: Arranjo (24 pontos), Facilmente Removível (-10 pontos) • e xploding r ubber Chickens: Área de Explosão Dano à Distância 8 (24 PP)",
       "• Combat y o - y o: S trength-Based Dano 8 (1 PP)",
-      "• i t ching Powder: Aflição à Distância 10 (resistido por Vontade; Impaired, Disabled, Incapacitado) (1 PP)",
-      "• Hard Candy t r ap: Aflição à Distância 10 (resistido por Esquiva, Overcome by Força; Impedido and Vulnerável, Imóvel and Indefeso; Extra Condition, Limitado Degree) (1 PP)",
-      "a ir W alking Shoes: Sutil Voo 4 (48 km/h), Removível (–2 pontos) (7 PP)"
+      "• i t ching Powder: Aflição à Distância 10 (resistido por Vontade; Prejudicado, Desabilitado, Incapacitado) (1 PP)",
+      "• Hard Candy t r ap: Aflição à Distância 10 (resistido por Esquiva, Superado por Força; Impedido e Vulnerável, Imóvel e Indefeso; Extra Condition, Limitado Grau) (1 PP)",
+      "a ir W alking Shoes: Sutil Voo 4 (48 km/h), Removível (-2 pontos) (7 PP)"
     ],
     "vantagens": [
       "Ataque Imprudente",
@@ -31,12 +31,12 @@
       "Rolamento Defensivo 4",
       "Iniciativa Aprimorada 1",
       "Derrubar Aprimorado",
-      "Ferramentas Improvisadas",
+      "Ferramentas Aprimoradas",
       "Sorte 2",
       "Ação em Movimento",
       "Redirecionar",
-      "Preparar",
-      "Provocar"
+      "Armação",
+      "Zombar"
     ],
     "pericias": [
       {
@@ -141,7 +141,7 @@
       },
       {
         "titulo": "Childish",
-        "texto": "The Trickster is both childishly cruel and desirous of acceptance."
+        "texto": "The Trickster is both childishly cruel e desirous of acceptance."
       }
     ]
   },

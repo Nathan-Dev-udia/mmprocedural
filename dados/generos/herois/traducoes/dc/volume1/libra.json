@@ -14,7 +14,7 @@
       "Pre": 4
     },
     "poderes": [
-      "Energy Transmortifier (Aflição 11 (resistido por Esquiva; Impaired, Disabled, Transformado), Área de Explosão, Alcance de Percepção, Progressivo, Seletivo, Facilmente Removível (–26 pontos)); Variável 11 ((Stolen Abilities & Powers), Facilmente Removível (–30 pontos))"
+      "Energia Transmortifier (Aflição 11 (resistido por Esquiva; Prejudicado, Desabilitado, Transformado), Área de Explosão, Alcance de Percepção, Progressivo, Seletivo, Facilmente Removível (-26 pontos)); Variável 11 ((Stolen Habilidades & Poderes), Facilmente Removível (-30 pontos))"
     ],
     "equipamento": [],
     "vantagens": [
@@ -28,7 +28,7 @@
         "total": 13
       },
       {
-        "nome": "Especialidade: Science",
+        "nome": "Especialidade: Ciência",
         "graduacoes": 11,
         "total": 16
       },
@@ -45,6 +45,12 @@
         "bonus": 1,
         "alcance": "Corpo a corpo",
         "dano": "Dano 3"
+      },
+      {
+        "nome": "Energia Transmortifier",
+        "bonus": null,
+        "alcance": "Percepção",
+        "dano": "Percepção área Progressivo Aflição 11, resistido por Esquiva"
       }
     ],
     "defesas": {

@@ -14,7 +14,7 @@
       "Pre": 1
     },
     "poderes": [
-      "a rmor (Proteção 11, Impenetrável 6), e nergy Baton (Arranjo, Facilmente Removível, Raio (Dano à Distância 12), ae : Stun Raio (À Distância Cumulativo Aflição 8 (resistido por Fortitude; Tonto, Atordoado, Incapacitado))); f ligh t (Voo 11 (4,0 km/h), ae : Movimento 4 (Environmental Adaptation: Zero-G, Space Travel 3)), r obot Body (Imunidade 40, (Fortitude Effects, mental Effects)), Super-Sentidos (Sentidos 4 (Visão no Escuro, Rádio, Ultra- Hearing)), Universal t r anslator (Compreender 3 (read, speak, understand all languages))"
+      "a rmor (Proteção 11, Impenetrável 6), e nergy Baton (Arranjo, Facilmente Removível, Raio (Dano à Distância 12), ae : Stun Raio (À Distância Cumulativo Aflição 8 (resistido por Fortitude; Tonto, Atordoado, Incapacitado))); f Luz (Voo 11 (6.400 km/h), ae : Movimento 4 (Adaptação Ambiental: Zero-G, Viagem Espacial 3)), r obot Body (Imunidade 40, (Efeitos de Fortitude, Efeitos Mentais)), Super-Sentidos (Sentidos 4 (Visão no Escuro, Rádio, Ultra- Audição)), Universal t r anslator (Compreender 3 (read, speak, understand all languages))"
     ],
     "equipamento": [],
     "vantagens": [
@@ -36,7 +36,7 @@
         "total": 9
       },
       {
-        "nome": "Especialidade: Law Enforcement",
+        "nome": "Especialidade: Policiamento",
         "graduacoes": 6,
         "total": 8
       },
@@ -56,7 +56,7 @@
         "total": 5
       },
       {
-        "nome": "Combate à Distância: Energy Baton",
+        "nome": "Combate à Distância: Energia Baton",
         "graduacoes": 3,
         "total": 8
       }
@@ -64,7 +64,7 @@
     "iniciativa": 4,
     "ataques": [
       {
-        "nome": "Energy Baton",
+        "nome": "Energia Baton",
         "bonus": 8,
         "alcance": "À distância",
         "dano": "Dano 12 or À Distância, Aflição 8"
@@ -79,6 +79,7 @@
     "defesas": {
       "Esquiva": 10,
       "Aparar": 10,
+      "Fortitude": null,
       "Resistência": 10,
       "Vontade": 8
     },
@@ -94,7 +95,7 @@
     "complicacoes": [
       {
         "titulo": "Self- d estruct",
-        "texto": "Manhunters contain a deadly, nuclear-level self-destruct Dispositivo to be employed as a defense against capture. Using this ability destroys the Manhunter utterly. Área de Explosão 8 Dano 15, Gatilho (timer)."
+        "texto": "Manhunters contain a deadly, nuclear-level self-destruct Dispositivo to be employed as a defense contra capture. Using this Habilidade destroys the Manhunter utterly. Área de Explosão 8 Dano 15, Gatilho (timer)."
       }
     ]
   },

@@ -19,15 +19,15 @@
     ],
     "vantagens": [
       "Atraente",
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Ataque Defensivo",
       "Rolamento Defensivo 3",
       "Equipamento 1",
       "Mira Aprimorada",
       "Defesa Aprimorada",
-      "Languages 3",
+      "Idiomas 3",
       "Ataque à Distância 3",
-      "Provocar",
+      "Zombar",
       "Trabalho em Equipe",
       "Prender Arma"
     ],
@@ -43,7 +43,7 @@
         "total": 8
       },
       {
-        "nome": "Combate Corpo-a-Corpo: Swords",
+        "nome": "Combate Corpo-a-Corpo: Espadas",
         "graduacoes": 3,
         "total": 11
       },
@@ -58,7 +58,7 @@
         "total": 9
       },
       {
-        "nome": "Especialidade: Survival",
+        "nome": "Especialidade: Sobrevivência",
         "graduacoes": 4,
         "total": 7
       },

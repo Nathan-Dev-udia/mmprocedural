@@ -14,16 +14,16 @@
       "Pre": 4
     },
     "poderes": [
-      "Cauldron of Herne-Ramsgate: Enhanced Skill 12 (Expertise: mágico +12), Limitado a knowledge about mágico creatures; Enhanced Advantage (Assessment); Remote Sensing 20 (mágico Sensitivity), Limitado a only magical creatures, Dimensional 2, No Conduit; Facilmente Removível (-12 pontos) (14 PP)",
-      "Enchanted Physique: Força Aprimorada 6, Limitado a Lifting (Lifting Str 7: 3 tons); Proteção 7 (13 PP)",
-      "mágico Sensitivity: Sentidos 8 (Preciso Aguçado Analítico Magical Prontidão, Extended 2, Tracking) (8 PP)",
+      "Cauldron of Herne-Ramsgate: Perícia Aprimorada 12 (Especialidade: Magia +12), Limitado a knowledge about Magia creatures; Vantagem Aprimorada (Avaliação); Sensoriamento Remoto 20 (Magia Sensitivity), Limitado a Apenas Mágico creatures, Dimensional 2, No Conduit; Facilmente Removível (-12 pontos) (14 PP)",
+      "Enchanted Physique: Força Aprimorada 6, Limitado a Lifting (Lifting Str 7: 3 toneladas); Proteção 7 (13 PP)",
+      "Magia Sensitivity: Sentidos 8 (Acurado Aguçado Analítico Mágico Consciência, Estendido 2, Rastrear) (8 PP)",
       "Sorcery: Arranjo (32 pontos)",
-      "• Channel Power: À Distância Variável 8 (boost effects), Affects Only Others, Exige Teste (Expertise: mágico, CD 18), Concentração, Dissipação (recharges when tapping the mágico of others), Limitado (only Característica Aprimorada for target’s existing traits) (32 PP)",
+      "• Channel Poder: À Distância Variável 8 (boost Efeitos), Affects Apenas Others, Exige Teste (Especialidade: Magia, CD 18), Concentração, Dissipação (recharges when tapping the Magia of others), Limitado (Apenas Característica Aprimorada for target’s existing traits) (32 PP)",
       "• Eldritch Raio: Dano à Distância 12, Variável Descriptor (elemental) (1 PP)",
-      "• Ghostwalk: Voo 4; Movimento 3 (Permeate 3); Sentidos 2 (Sight Penetrates Camuflagem); Imunidade 2 (Sufocamento) (1 PP)",
+      "• Ghostwalk: Voo 4; Movimento 3 (Permear 3); Sentidos 2 (Visão Penetrates Camuflagem); Imunidade 2 (Sufocamento) (1 PP)",
       "• Cura: Cura 10, Energizing (1 PP)",
-      "• Hex Hijack: Aflição à Distância 12 (taps and control mágico flows; mágico Impaired, mágico Disabled, Controlado), Limitado (Controlado condition only applies to effect parameters) 0 (1 PP)",
-      "• Teleportation: Teleporte 12 (16 milhas), Increased Mass 4 (800 lbs.) (1 PP)"
+      "• Hex Hijack: Aflição à Distância 12 (taps e control Magia flows; Magia Prejudicado, Magia Desabilitado, Controlado), Limitado (Controlado condition Apenas applies to effect parameters) 0 (1 PP)",
+      "• Teleportation: Teleporte 12 (16 milhas), Increased Mass 4 (800 libras.) (1 PP)"
     ],
     "equipamento": [],
     "vantagens": [
@@ -32,7 +32,7 @@
       "Liderança",
       "Sorte",
       "Ritualista",
-      "Maestria em Perícia (Expertise: mágico)",
+      "Maestria em Perícia (Especialidade: Magia)",
       "Trabalho em Equipe",
       "Transe"
     ],
@@ -48,12 +48,12 @@
         "total": 12
       },
       {
-        "nome": "Especialidade: mágico",
+        "nome": "Especialidade: Magia",
         "graduacoes": 12,
         "total": 18
       },
       {
-        "nome": "Especialidade: Art",
+        "nome": "Especialidade: Arte",
         "graduacoes": 8,
         "total": 14
       },
@@ -85,7 +85,7 @@
         "nome": "Sorcery",
         "bonus": 10,
         "alcance": "À distância",
-        "dano": "Eldritch Raio 12 or other effects"
+        "dano": "Eldritch Raio 12 or other Efeitos"
       }
     ],
     "defesas": {
@@ -107,11 +107,11 @@
     "complicacoes": [
       {
         "titulo": "Powers and the Expertise",
-        "texto": "mágico skill."
+        "texto": "Magia Perícia."
       },
       {
         "titulo": "Stressful Magic",
-        "texto": "Concentração effects and rituals that last too long, catastrophic failures or incredible successes may cause Enchantress to lose control and become evil."
+        "texto": "Concentração Efeitos e rituals that last too long, catastrophic failures or incredible successes may cause Enchantress to lose control e become evil."
       }
     ]
   },

@@ -14,28 +14,21 @@
       "Pre": 2
     },
     "poderes": [
-      "Body a rmor : Impenetrável Proteção 4; Sentidos 1 (Comunicação Link); Removível (-2 pontos) (7 PP)",
-      "e nergy k atanas: Força-based Dano 3, Improved Smash, Penetrante 5, Dividido 2, Facilmente Removível (–3 pontos), Indestructible (8 PP)",
+      "Body a rmor : Impenetrável Proteção 4; Sentidos 1 (Elo de Comunicação); Removível (-2 pontos) (7 PP)",
+      "e nergy k atanas: Força-based Dano 3, Improved Smash, Penetrante 5, Dividido 2, Facilmente Removível (-3 pontos), Indestructible (8 PP)",
       "• e nergy Escudo: Impenetrável Proteção 3 (1 PP)",
-      "e nhanced Brain Capacity: Enhanced"
+      "e nhanced Brain Capacity: Aprimorado"
     ],
     "equipamento": [
       "Combat k nife: Força-based Dano 2, Improved Critical (3 PP)",
-      "Advantages Preciso Attack, Agile Feint, Assessment, Chokehold, Defensive Attack, Eidetic Memory , Equipment, Evasion 2 , Fearless, Great Endurance, Improved Aim, Improved Defense, Improved Disarm, Improved Grab, Improved Hold, Improved Iniciativa 3 , Improved Smash, Improved Trip, Instant Up, Jack- of-all-trades, Languages 2, Move-by Action, Power Attack, Preciso Attack (À Distância; Cover), Prone Luta, Quick Draw, À Distância Attack 4, Redirect , Seize Iniciativa , Startle, Takedown, Teamwork, Uncanny Esquiva"
+      "Vantagens Acurado Attack, Finta Ágil, Assessment, Chokehold, Defensive Attack, Memória Eidética , Equipment, Evasão 2 , Fearless, Great Endurance, Improved Aim, Improved Defense, Improved Disarm, Improved Grab, Improved Hold, Iniciativa Aprimorada 3 , Improved Smash, Improved Trip, De Pé, Jack- of-all-trades, Languages 2, Ação em Movimento, Poder Attack, Preciso Attack (À Distância; Cover), Caído Luta, Quick Draw, À Distância Attack 4, Redirect , Tomar a Iniciativa , Startle, Ataque Dominó, Teamwork, Uncanny Esquiva"
     ],
     "vantagens": [
       "(Eidetic Memory); Enhanced Intellect 1; Quickness 2",
-      "Limited to Mental • 4 points e nhanced Senses: Enhanced Awareness 1; Senses 8 (Acute Smell",
-      "Danger Sense",
-      "Darkvision",
-      "Extended Rapid Hearing",
-      "Extended Rapid Vision) • 10 points Heightened r eflexes: Enhanced Advantages (Evasion 2) • 2 pontos Heightened Speed: Enhanced Advantages (Improved Iniciativa 1); Quickness 1; Speed 3 (16 MPH) • 5 points Precognition: Enhanced Advantages ( Improved Initiative 2",
-      "Redirecionar",
-      "Tomar a Iniciativa",
-      "Uncanny Dodge); Senses 4 (Precognition)",
+      "Limited to Mental • 4 points e nhanced Senses: Enhanced Awareness 1; Senses 8 (Aguçado Olfato, Sentido de Perigo, Visão no Escuro, Estendido Rápido Audição, Estendido Rápido Visão) • 10 points Heightened r eflexes: Enhanced Advantages (Evasion 2) • 2 points Heightened Speed: Enhanced Advantages (Improved Initiative 1); Quickness 1; Speed 3 (16 MPH) • 5 points Precognition: Enhanced Advantages ( Improved Initiative 2 , Redirect, Seize Initiative, Uncanny Dodge); Senses 4 (Precognition)",
       "Limited to 1 round into the future",
       "Unreliable • 7 points Super-Strength: Enhanced Strength 1",
-      "Limited to Lifting (Lifting Str 7; 3 tons) • 1 point"
+      "Limited to Lifting (Lifting Str 7; 3 toneladas) • 1 point"
     ],
     "pericias": [
       {
@@ -54,12 +47,12 @@
         "total": 7
       },
       {
-        "nome": "Especialidade: Streetwise",
+        "nome": "Especialidade: Manha",
         "graduacoes": 3,
         "total": 5
       },
       {
-        "nome": "Especialidade: Tactics",
+        "nome": "Especialidade: Tática",
         "graduacoes": 3,
         "total": 5
       },
@@ -92,7 +85,7 @@
     "iniciativa": 19,
     "ataques": [
       {
-        "nome": "Energy Katana",
+        "nome": "Energia Katana",
         "bonus": 11,
         "alcance": "Corpo a corpo",
         "dano": "Dano 9, Penetrante 5, Dividido 2"

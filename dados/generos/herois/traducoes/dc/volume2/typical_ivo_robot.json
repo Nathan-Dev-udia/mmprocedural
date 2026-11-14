@@ -14,7 +14,7 @@
       "Pre": "—"
     },
     "poderes": [
-      "a rmor (Impenetrável Proteção 8); e nergy Blasts (Dano à Distância 11); f ligh t 6 (192 km/h); i mmunit y 30 (Fortitude Effects)"
+      "a rmor (Impenetrável Proteção 8); e nergy Blasts (Dano à Distância 11); f Luz 6 (192 km/h); i mmunit y 30 (Efeitos de Fortitude)"
     ],
     "equipamento": [],
     "vantagens": [
@@ -27,7 +27,7 @@
         "total": 11
       },
       {
-        "nome": "Combate à Distância: Energy Blast",
+        "nome": "Combate à Distância: Energia Blast",
         "graduacoes": 7,
         "total": 11
       }
@@ -35,7 +35,7 @@
     "iniciativa": 4,
     "ataques": [
       {
-        "nome": "Energy Raio",
+        "nome": "Energia Raio",
         "bonus": 11,
         "alcance": "",
         "dano": "Dano à Distância 11"
@@ -50,7 +50,9 @@
     "defesas": {
       "Esquiva": 12,
       "Aparar": 12,
-      "Resistência": 8
+      "Fortitude": null,
+      "Resistência": 8,
+      "Vontade": null
     },
     "observacao_defesas": "",
     "custos": {

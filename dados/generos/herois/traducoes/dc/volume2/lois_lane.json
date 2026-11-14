@@ -16,10 +16,10 @@
     "poderes": [],
     "equipamento": [],
     "vantagens": [
-      "Conectado",
+      "Bem Relacionado",
       "Contatos",
       "Derrubar Aprimorado",
-      "Bem-Informado"
+      "Bem Informado"
     ],
     "pericias": [
       {
@@ -38,7 +38,7 @@
         "total": 7
       },
       {
-        "nome": "Especialidade: Journalism",
+        "nome": "Especialidade: Jornalismo",
         "graduacoes": 11,
         "total": 13
       },

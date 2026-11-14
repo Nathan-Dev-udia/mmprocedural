@@ -14,17 +14,16 @@
       "Pre": 8
     },
     "poderes": [
-      "i llusions (Ilusão 10 (All Sense Types, área 5); Super- Sentidos (Sense 59 (Preciso and Audição Estendida Type 3, All Sentidos Counters Camuflagem 25 (All Camuflagem Effects), All Sentidos Counters Ilusão 10, Visão Estendida 3, Infravisão, Visão Microscópica 4, Vision Penetrates Camuflagem, Postcognition (Não Confiável), Raio Vision 2, Ultra-Audição, Ultra-Vision))"
+      "i llusions (Ilusão 10 (All Sense Types, área 5); Super- Sentidos (Sense 59 (Acurado e Audição Estendida Type 3, All Sentidos Counters Camuflagem 25 (All Camuflagem Efeitos), All Sentidos Counters Ilusão 10, Visão Estendida 3, Infravisão, Visão Microscópica 4, Visão Penetrates Camuflagem, Pós-cognição (Não Confiável), Raio Visão 2, Ultra-Audição, Ultra-Visão))"
     ],
     "equipamento": [
-      "Voo Ring (Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal –3), Voo 7 (400 km/h); Telepathic Ear Plug ( Compreender 3 (Languages), mental Comunicação 1 (Corpo a Corpo Range)); Transsuit (Imunidade 9 (Suporte Vital, except for Inanição and thirst))"
+      "Voo Ring (Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal -3), Voo 7 (400 km/h); Telepathic Ear Plug ( Compreender 3 (Languages), Comunicação Mental 1 (Alcance Perto)); Transsuit (Imunidade 9 (Suporte Vital, except for Fome e Sede))"
     ],
     "vantagens": [
-      "Ataque Preciso",
-      "Benefit 6 (Queen of Orando",
-      "Legion Membership)",
+      "Ataque Acurado",
+      "Benefício 6 (Queen of Orando, Legion Membership)",
       "Ataque Corpo-a-Corpo 2",
-      "Conectado",
+      "Bem Relacionado",
       "Ataque Defensivo",
       "Rolamento Defensivo 6",
       "Equipamento 8",
@@ -40,7 +39,7 @@
         "total": 5
       },
       {
-        "nome": "Especialidade: mágico",
+        "nome": "Especialidade: Magia",
         "graduacoes": 8,
         "total": 12
       },

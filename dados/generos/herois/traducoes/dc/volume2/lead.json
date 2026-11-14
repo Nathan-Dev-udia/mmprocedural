@@ -14,7 +14,7 @@
       "Pre": 1
     },
     "poderes": [
-      "r obot Body (Imunidade 45 (Fortitude effects, mental effects, Radiação Dano); Proteção 14, Impenetrável), Shapeshifting (Alongamento 8; Metamorfose 4 (any form), Peculiaridade: Limitado a Same Color; Variável 2 (physical traits, 10 power pontos, plus changing existing physical trait allocations)"
+      "r obot Body (Imunidade 45 (Efeitos de Fortitude, Efeitos Mentais, Radiação Dano); Proteção 14, Impenetrável), Shapeshifting (Alongamento 8; Metamorfose 4 (any form), Peculiaridade: Limitado a Same Color; Variável 2 (physical traits, 10 Poder pontos, plus changing existing physical trait allocations)"
     ],
     "equipamento": [],
     "vantagens": [
@@ -44,12 +44,17 @@
     "defesas": {
       "Esquiva": 6,
       "Aparar": 6,
+      "Fortitude": null,
       "Resistência": 14,
       "Vontade": 5
     },
     "observacao_defesas": "",
     "custos": {
-      "Defesas": 11
+      "Defesas": 11,
+      "Habilidades": 48,
+      "Poderes": 114,
+      "Vantagens": 1,
+      "Perícias": 5
     },
     "total": 179,
     "complicacoes": [
@@ -59,7 +64,7 @@
       },
       {
         "titulo": "Slow",
-        "texto": "Lead isn’t very bright and often makes careless mistakes."
+        "texto": "Lead isn’t very bright e often makes careless mistakes."
       }
     ]
   },

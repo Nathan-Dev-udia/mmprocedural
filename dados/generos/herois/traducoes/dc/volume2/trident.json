@@ -14,10 +14,10 @@
       "Pre": 2
     },
     "poderes": [
-      "t Arranjo (25 pontos), Removível (–10 pontos) riden t: • e nergy Raio: Dano à Distância 12, Variável Descriptor 1 (fogo, Frio, or Force) (25 PP)",
-      "• i c e Sheath: (À Distância Cumulativo Aflição 8 (resistido por Esquiva; Impedido and Vulnerável, Indefeso and Imóvel), Extra Condition, Limitado Degree) (1 PP)",
+      "t Arranjo (25 pontos), Removível (-10 pontos) riden t: • e nergy Raio: Dano à Distância 12, Variável Descriptor 1 (Fogo, Frio, or Force) (25 PP)",
+      "• i c e Sheath: (À Distância Cumulativo Aflição 8 (resistido por Esquiva; Impedido e Vulnerável, Indefeso e Imóvel), Extra Condition, Limitado Grau) (1 PP)",
       "• i mage d isplac ement: Camuflagem 2 (Visual) (1 PP)",
-      "d a e S a V ant G Defensive Attack, Defensive Roll 4, Move-by Action, Power Attack"
+      "d a e S a V ant G Defensive Attack, Rolamento Defensivo 4, Ação em Movimento, Poder Attack"
     ],
     "equipamento": [],
     "vantagens": [
@@ -60,8 +60,21 @@
         "total": 4
       }
     ],
-    "iniciativa": 0,
-    "ataques": [],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Trident Raio",
+        "bonus": 8,
+        "alcance": "À distância",
+        "dano": "Dano 12"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 3"
+      }
+    ],
     "defesas": {
       "Esquiva": 8,
       "Fortitude": 7,
@@ -69,8 +82,13 @@
       "Resistência": 7,
       "Vontade": 7
     },
-    "observacao_defesas": "* Vontade 7 *sem Rolamento Defensivo. Po er ponto W S Abilities 46 Skills 14 Powers 17 Defenses 18",
-    "custos": {},
+    "observacao_defesas": "* Vontade 7 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 46,
+      "Perícias": 14,
+      "Poderes": 17,
+      "Defesas": 18
+    },
     "total": null,
     "complicacoes": [
       {

@@ -14,7 +14,7 @@
       "Pre": -2
     },
     "poderes": [
-      "a bnormal B ody Chemistry: Imunidade 2 (Doença, Veneno) (2 PP)",
+      "a bnormal B ody Química: Imunidade 2 (Doença, Veneno) (2 PP)",
       "i PM ent eQU Assortment of 10 knives"
     ],
     "equipamento": [],
@@ -23,15 +23,15 @@
       "Ataque Imprudente",
       "Rolamento Defensivo 4",
       "Equipamento 4",
-      "Evasion 2",
+      "Evasão 2",
       "Destemido",
-      "Esconder-se a Plena Vista",
-      "Improved Critical 3 (Knives)",
+      "Esconder-se à Plena Vista",
+      "Crítico Aprimorado 3 (Knives)",
       "Desarmar Aprimorado",
       "Iniciativa Aprimorada",
       "Ataque Poderoso",
-      "Precise Attack 4 (corpo a corpo and à distância; Cover and Concealment)",
-      "Luta Caída",
+      "Ataque Preciso 4 (Corpo a Corpo e À Distância; Cobertura e Camuflagem)",
+      "Luta no Chão",
       "Saque Rápido"
     ],
     "pericias": [
@@ -87,13 +87,13 @@
         "nome": "Knife",
         "bonus": 15,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 3, Crit. 16-20"
+        "dano": "Dano 3, Crít. 16-20"
       },
       {
-        "nome": "Thrown Knife",
+        "nome": "Arremesso Knife",
         "bonus": 15,
         "alcance": "À distância",
-        "dano": "Dano 3, Crit. 16-20"
+        "dano": "Dano 3, Crít. 16-20"
       }
     ],
     "defesas": {

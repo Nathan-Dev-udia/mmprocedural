@@ -14,7 +14,7 @@
       "Pre": 2
     },
     "poderes": [
-      "i n vulnerability (Imunidade 5 (Electrical Dano), Resistência Impenetrável 10, Proteção 4, Regeneração 5); Espada of Michael (Força-based Dano 4, Improved Critical, Indestructible, Facilmente Removível (-2 pontos)); Unliving (Imunidade 30 (Fortitude effects))"
+      "i n vulnerability (Imunidade 5 (Elétrico Dano), Resistência Impenetrável 10, Proteção 4, Regeneração 5); Espada of Michael (Força-based Dano 4, Improved Critical, Indestructible, Facilmente Removível (-2 pontos)); Unliving (Imunidade 30 (Efeitos de Fortitude))"
     ],
     "equipamento": [
       "Steam-Gun (Dano à Distância 5)"
@@ -29,7 +29,7 @@
     ],
     "pericias": [
       {
-        "nome": "Especialidade: Arcane Lore",
+        "nome": "Especialidade: Conhecimento Arcano",
         "graduacoes": 8,
         "total": 11
       },
@@ -39,7 +39,7 @@
         "total": 9
       },
       {
-        "nome": "Especialidade: Literature",
+        "nome": "Especialidade: Literatura",
         "graduacoes": 6,
         "total": 9
       },
@@ -54,7 +54,7 @@
         "total": 11
       },
       {
-        "nome": "Combate à Distância: Guns",
+        "nome": "Combate à Distância: Armas de Fogo",
         "graduacoes": 10,
         "total": 12
       },
@@ -76,7 +76,7 @@
         "nome": "Espada",
         "bonus": 10,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 14, Crit. 19-20"
+        "dano": "Dano 14, Crít. 19-20"
       },
       {
         "nome": "Desarmado",
@@ -88,6 +88,7 @@
     "defesas": {
       "Esquiva": 8,
       "Aparar": 8,
+      "Fortitude": null,
       "Resistência": 16,
       "Vontade": 8
     },
@@ -103,11 +104,11 @@
     "complicacoes": [
       {
         "titulo": "r epulsive",
-        "texto": "Frankenstein is ugly and off-putting and his appearance always inspires fear and revulsion in others."
+        "texto": "Frankenstein is ugly e off-putting e his appearance always inspires fear e revulsion in others."
       },
       {
         "titulo": "Vulnerability",
-        "texto": "mágico like that of Klarion the Witch Boy’s witch-brand benefits from an additional level of success against Frankenstein."
+        "texto": "Magia like that of Klarion the Witch Boy’s witch-brand benefits from an additional level of success contra Frankenstein."
       }
     ]
   },

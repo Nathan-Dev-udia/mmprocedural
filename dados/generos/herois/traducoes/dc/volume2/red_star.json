@@ -15,20 +15,19 @@
     },
     "poderes": [
       "e nhanced e ndurance: Resistência Impenetrável 8, Proteção 2 (10 PP)",
-      "e nhanced Velocidade: Velocidade 6 (192 km/h), Rapidez 3, Enhanced Advantage 3 (Improved Iniciativa 3) (12 PP)",
+      "e nhanced Velocidade: Velocidade 6 (192 km/h), Rapidez 3, Vantagem Aprimorada 3 (Iniciativa Aprimorada 3) (12 PP)",
       "r ed Star Raio: Dano à Distância 12 (24 PP)",
-      "r ed Star f orm: Alternate Form-Energy (Ação de Movimento); Voo 8 (800 km/h), Intangibilidade 3, Imunidade 10 (Solar Energy) (40 PP)",
-      "Super-Lifting: Força Aprimorada 4, Limitado a Lifting (Lifting Str 14; 400 tons) (4 PP)"
+      "r ed Star f orm: Alternate Form-Energia (Ação de Movimento); Voo 8 (800 km/h), Intangibilidade 3, Imunidade 10 (Solar Energia) (40 PP)",
+      "Super-Lifting: Força Aprimorada 4, Limitado a Lifting (Lifting Str 14; 400 toneladas) (4 PP)"
     ],
     "equipamento": [],
     "vantagens": [
-      "Benefício (Diplomatic Immunity)",
-      "Grande Vigor",
+      "Benefício (Imunidade Diplomática)",
+      "Tolerância Maior",
       "Ação em Movimento",
-      "Precise Attack (Ranged",
-      "Cover)",
+      "Ataque Preciso (À Distância, Cobertura)",
       "Redirecionar",
-      "Preparar",
+      "Armação",
       "Trabalho em Equipe"
     ],
     "pericias": [
@@ -73,8 +72,21 @@
         "total": 9
       }
     ],
-    "iniciativa": 0,
-    "ataques": [],
+    "iniciativa": 18,
+    "ataques": [
+      {
+        "nome": "Red Star Blasts",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Dano 12"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 12,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 10"
+      }
+    ],
     "defesas": {
       "Esquiva": 8,
       "Fortitude": 12,
@@ -94,7 +106,7 @@
     "complicacoes": [
       {
         "titulo": "y to the Motherland",
-        "texto": "of Russia. He feels a great responsibility to her people and the government. Though he is a staunch socialist, Leonid supports the current capitalist system. Powers & Abilities Leonid was granted vast superhuman Força, Velocidade and endurance. Over time he developed other Powers, including the ability to transform into a form of red solar Radiação. aLLI e S Red Star was a long-time member of the Teen Titans. e ne MI e S Red Star has fought many foes of the Teen Titans."
+        "texto": "of Russia. He feels a great responsibility to her people e the government. Though he is a staunch socialist, Leonid supports the current capitalist system. Poderes & Habilidades Leonid was granted vast superhuman Força, Velocidade e endurance. Over time he developed other Poderes, including the Habilidade to Transformar into a form of red solar Radiação. aLLI e S Red Star was a long-time member of the Teen Titans. e ne MI e S Red Star has fought many foes of the Teen Titans."
       }
     ]
   },

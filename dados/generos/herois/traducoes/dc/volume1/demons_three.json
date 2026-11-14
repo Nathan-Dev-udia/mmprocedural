@@ -14,26 +14,26 @@
       "Pre": 4
     },
     "poderes": [
-      "Brothers-in-Shadow: Enhanced Advantages 3 (Inspire, Set-up, Teamwork), Limitado a using with the other two brothers (2 PP)",
-      "Demonic Entities: Compreender Languages 3, Imunidade 30 (Fortitude Effects), Proteção 3, Regeneração 5, Sentidos 5 (mágico Prontidão (Analítico, Extended 2)) (49 PP)",
-      "Demonic mágico: Arranjo (45 pontos)",
-      "• mágico Raio: Dano à Distância 15, Alternate Save: Fortitude (45 PP)",
+      "Brothers-in-Shadow: Vantagens Aprimoradas 3 (Inspirar, Armação, Trabalho em Equipe), Limitado a using com the other two brothers (2 PP)",
+      "Demonic Entities: Compreender Languages 3, Imunidade 30 (Efeitos de Fortitude), Proteção 3, Regeneração 5, Sentidos 5 (Consciência Mágica (Analítico, Estendido 2)) (49 PP)",
+      "Demonic Magia: Arranjo (45 pontos)",
+      "• Magia Raio: Dano à Distância 15, Alternate Save: Fortitude (45 PP)",
       "• Conjuration: Criar Objetos 14, Contínuo, Inato, Preciso, Sutil (1 PP)",
       "• Glamours: Ilusão 10 (All Sentidos), Resistable (1 PP)",
       "• Major Curse: Aflição à Distância 15 (resistido por Vontade; Tonto, Atordoado, Transformado) (1 PP)",
-      "• Transmogrification: Transform 9, Anything into Anything (1 PP)",
+      "• Transmogrification: Transformar 9, Anything into Anything (1 PP)",
       "• Willforce: Alcance de Percepção Mover Objetos 11, Damaging (1 PP)"
     ],
     "equipamento": [],
     "vantagens": [
       "Artífice",
-      "Benefit 1 (Legendary Demons)",
+      "Benefício 1 (Legendary Demons)",
       "Ataque Corpo-a-Corpo 2",
       "Memória Eidética",
       "Fascinar (Enganação)",
       "Destemido",
       "Ritualista",
-      "Provocar"
+      "Zombar"
     ],
     "pericias": [
       {
@@ -42,7 +42,7 @@
         "total": 16
       },
       {
-        "nome": "Especialidade: mágico",
+        "nome": "Especialidade: Magia",
         "graduacoes": 13,
         "total": 23
       },
@@ -67,13 +67,20 @@
         "total": 13
       },
       {
-        "nome": "Combate à Distância: mágico Array",
+        "nome": "Combate à Distância: Magia Array",
         "graduacoes": 4,
         "total": 10
       }
     ],
-    "iniciativa": 0,
-    "ataques": [],
+    "iniciativa": 6,
+    "ataques": [
+      {
+        "nome": "Magia Raio",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Dano 15, resistido por Fortitude Major Curse +10 À Distância, Effect 15, resistido por Vontade Desarmado +8 Corpo a Corpo, Dano 11"
+      }
+    ],
     "defesas": {
       "Esquiva": 8,
       "Fortitude": 13,
@@ -93,11 +100,11 @@
     "complicacoes": [
       {
         "titulo": "Bindable",
-        "texto": "As demonic entities, Abnegazar, Rath, and Ghast can be summoned and bound through the proper (and extraordinarily powerful) rituals."
+        "texto": "As demonic entities, Abnegazar, Rath, e Ghast can be summoned e Preso through the proper (e extraordinarily powerful) rituals."
       },
       {
         "titulo": "Exiled",
-        "texto": "The brothers are exiled to the pits of Hell and can only manifest on Earth through ritual mágico others use on their totem foci (the Bell, Wheel, and Jar), or through intercession of other high-ranking supernatural entities."
+        "texto": "The brothers are exiled to the pits of Hell e can Apenas manifest on Earth through ritual Magia others use on their totem foci (the Bell, Wheel, e Jar), or through intercession of other high-ranking supernatural entities."
       }
     ]
   },

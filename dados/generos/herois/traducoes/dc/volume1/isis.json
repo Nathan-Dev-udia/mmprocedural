@@ -14,15 +14,15 @@
       "Pre": 5
     },
     "poderes": [
-      "Elemental Control: Arranjo (20 pontos), Dynamic • Freezing Frio: Environment 10 (Frio, Extreme) (21 PP)",
-      "s • Extreme Calor: Environment 10 (Calor, Extreme) (2 PP)",
-      "• Impedido Movimento: Environment 10 (Impede Movimento, -2 per graduação) (2 PP)",
-      "• Decreased Visibility: Environment 10 (Visibility, -8,000 milhas) (2 PP)",
+      "Elemental Control: Arranjo (20 pontos), Dinâmico • Freezing Frio: Ambiente 10 (Frio, Extreme) (21 PP)",
+      "s • Extreme Calor: Ambiente 10 (Calor, Extreme) (2 PP)",
+      "• Impedido Movimento: Ambiente 10 (Impede Movimento, -2 per graduação) (2 PP)",
+      "• Decreased Visibility: Ambiente 10 (Visibility, -8,000 milhas) (2 PP)",
       "Superhuman Velocidade: Arranjo (26 pontos)",
-      "• Voo 13 (16,0 km/h) (26 PP)",
-      "s • Rapidez 13, Velocidade 13 (16,0 km/h) (1 PP)",
+      "• Voo 13 (25.600 km/h) (26 PP)",
+      "s • Rapidez 13, Velocidade 13 (25.600 km/h) (1 PP)",
       "Superhuman Durability: Resistência Impenetrável 13 (13 PP)",
-      "Superhuman Wisdom: Prontidão Aprimorada 5, Enhanced Advantages 4 (Assessment, Beginner’s Luck, Eidetic Memory, Jack-of-all-trades) (14 PP)",
+      "Superhuman Wisdom: Prontidão Aprimorada 5, Vantagens Aprimoradas 4 (Avaliação, Sorte de Principiante, Memória Eidética, Faz Tudo) (14 PP)",
       "Super-Sentidos: Sentidos 5 (Visão Estendida, Penetrante Camuflagem) (5 PP)",
       "Telekinesis: Mover Objetos 16 (32 PP)",
       "Cura Touch: Cura 10 (20 PP)"
@@ -32,11 +32,11 @@
       "Finta Ágil",
       "Avaliação",
       "Atraente",
-      "Beginner’s Luck",
+      "Sorte de Principiante",
       "Memória Eidética",
       "Iniciativa Aprimorada",
       "Inspirar",
-      "Pau pra Toda Obra",
+      "Faz Tudo",
       "Ação em Movimento",
       "Ataque Poderoso"
     ],
@@ -100,7 +100,7 @@
     "complicacoes": [
       {
         "titulo": "Perda de Poder",
-        "texto": "Isis reverts to her mortal form of Adrianna Tomaz when she says “Oh Mighty Isis!” Heart of the Family: Isis is the guiding spirit of the Black Marvel family, and her strong influence has driven them toward both righteousness and tragedy."
+        "texto": "Isis reverts to her mortal form of Adrianna Tomaz when she says “Oh Mighty Isis!” Heart of the Family: Isis is the guiding spirit of the Black Marvel family, e her strong influence has driven them toward both righteousness e tragedy."
       }
     ]
   },

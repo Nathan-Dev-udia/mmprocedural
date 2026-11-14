@@ -14,11 +14,11 @@
       "Pre": 3
     },
     "poderes": [
-      "Magnetic Manipulation: Arranjo (24 pontos)",
+      "Magnético Manipulation: Arranjo (24 pontos)",
       "• e lec tromagnetic Raio: Dano à Distância 12 (24 PP)",
-      "• Magnetic Control: Mover Objetos 12, Preciso, Limitado a metal (1 PP)",
-      "• e M Pulse: Área de Explosão 2 (60 feet) Aflição 11 (resistido por Esquiva; Impaired, Disabled, Incapacitado), Limitado a electrical devices, robots, and cybernetics) (1 PP)",
-      "r epulsor f ligh t: Voo 8 (800 km/h) (16 PP)",
+      "• Magnético Control: Mover Objetos 12, Preciso, Limitado a metal (1 PP)",
+      "• e M Pulse: Área de Explosão 2 (60 pés) Aflição 11 (resistido por Esquiva; Prejudicado, Desabilitado, Incapacitado), Limitado a Elétrico devices, robots, e cybernetics) (1 PP)",
+      "r epulsor f Luz: Voo 8 (800 km/h) (16 PP)",
       "Static a ur a: Proteção 8, Sustentado (8 PP)"
     ],
     "equipamento": [],
@@ -26,7 +26,7 @@
       "Atraente",
       "Fascinar (Persuasão)",
       "Ação em Movimento",
-      "Precise Attack (à distância; Cover)",
+      "Ataque Preciso (À Distância; Cobertura)",
       "Esquiva Fabulosa"
     ],
     "pericias": [
@@ -56,7 +56,7 @@
         "total": 10
       },
       {
-        "nome": "Combate à Distância: Magnetic Manipulation",
+        "nome": "Combate à Distância: Magnético Manipulation",
         "graduacoes": 7,
         "total": 10
       }
@@ -64,7 +64,7 @@
     "iniciativa": 2,
     "ataques": [
       {
-        "nome": "Magnetic Manipulation",
+        "nome": "Magnético Manipulation",
         "bonus": 10,
         "alcance": "À distância",
         "dano": "Dano 12"
@@ -83,7 +83,7 @@
       "Resistência": 11,
       "Vontade": 8
     },
-    "observacao_defesas": "* Vontade 8 *Without Static Aura.",
+    "observacao_defesas": "* Vontade 8 *sem Static Aura.",
     "custos": {
       "Habilidades": 38,
       "Perícias": 17,

@@ -14,10 +14,10 @@
       "Pre": 4
     },
     "poderes": [
-      "Hawk Form: mágico, 66 pontos, Ativação (Ação de Movimento, –1 ponto) (65 PP)",
-      "Avatar of War: Enhanced Advantage 5 (Great Endurance, Improved Critical 2 (Talons), Improved Iniciativa, Improved Smash); Agilidade Aprimorada 2; Prontidão Aprimorada -2; Presença Aprimorada 3; Enhanced Skill 5 (Perception +10); Vigor Aprimorado 5; Força Aprimorada 5; Característica 1 (costume is Inato) (37 PP)",
+      "Hawk Form: Magia, 66 pontos, Ativação (Ação de Movimento, -1 ponto) (65 PP)",
+      "Avatar of War: Vantagem Aprimorada 5 (Tolerância Maior, Improved Critical 2 (Talons), Iniciativa Aprimorada, Improved Smash); Agilidade Aprimorada 2; Prontidão Aprimorada -2; Presença Aprimorada 3; Perícia Aprimorada 5 (Percepção +10); Vigor Aprimorado 5; Força Aprimorada 5; Característica 1 (costume is Inato) (37 PP)",
       "Resilience: Impenetrável Proteção 4; Regeneração 5 (13 PP)",
-      "Hawk Dive: Salto 5 (250 feet); Velocidade 3 (25 km/h) (8 PP)",
+      "Hawk Dive: Salto 5 (250 pés); Velocidade 3 (25 km/h) (8 PP)",
       "Talons: Força-based Dano 4, Penetrante 4 (8 PP)"
     ],
     "equipamento": [],
@@ -25,13 +25,13 @@
       "Ataque Imprudente",
       "Duro de Matar",
       "Destemido",
-      "Grande Vigor",
-      "Improved Critical 2 (Talons)",
+      "Tolerância Maior",
+      "Crítico Aprimorado 2 (Talons)",
       "Iniciativa Aprimorada",
       "Quebrar Aprimorado",
       "Ataque Poderoso",
       "Assustar",
-      "Derrubar em Sequência"
+      "Ataque Dominó"
     ],
     "pericias": [
       {
@@ -55,7 +55,7 @@
         "total": 8
       },
       {
-        "nome": "Especialidade: Tactics",
+        "nome": "Especialidade: Tática",
         "graduacoes": 14,
         "total": 14
       },
@@ -70,7 +70,7 @@
         "total": 11
       },
       {
-        "nome": "Combate à Distância: Throwing",
+        "nome": "Combate à Distância: Arremesso",
         "graduacoes": 4,
         "total": 6
       }
@@ -103,15 +103,15 @@
     "complicacoes": [
       {
         "titulo": "Locked Form",
-        "texto": "When Hawk has a -5 or greater penalty to Resistência checks against Dano or is suffering a harmful condition, he cannot transform back into Hank Hall."
+        "texto": "When Hawk has a -5 or greater penalty to Resistência Testes contra Dano or is suffering a harmful condition, he cannot Transformar back into Hank Hall."
       },
       {
         "titulo": "Imbalance",
-        "texto": "If Hawk spends too much time away from Dove, he starts losing Vontade defense and goes slowly insane with fury."
+        "texto": "If Hawk spends too much time away from Dove, he starts losing Vontade defense e goes slowly insane com fury."
       },
       {
         "titulo": "Rage",
-        "texto": "Hawk can lose himself in combat. A natural result of 1 or 20 on an attack sends him on a rage, losing his active Defenses until his next turn."
+        "texto": "Hawk can lose himself in combat. A natural result of 1 or 20 on an attack sends him on a rage, losing his active Defesas until his next turn."
       }
     ]
   },

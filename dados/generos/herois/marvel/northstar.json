@@ -42,7 +42,7 @@
     "vantagens": [
       "Finta Ágil",
       "Atraente",
-      "Feature: adaptação ambiental a altas velocidades",
+      "Característica: adaptação ambiental a altas velocidades",
       "Iniciativa Aprimorada 5",
       "Ação em Movimento",
       "Trabalho em Equipe 3"
@@ -57,14 +57,14 @@
       },
       {
         "nome": "Flight",
-        "construcao_3e": "Voo 12, Linked to Proteção.",
+        "construcao_3e": "Voo 12, Ligado a Proteção.",
         "custo_2e_pp": 24,
         "custo_3e_pp": 24,
         "nome_pt": "Voo"
       },
       {
         "nome": "Protection",
-        "construcao_3e": "Proteção 4, Linked to Voo.",
+        "construcao_3e": "Proteção 4, Ligado a Voo.",
         "custo_2e_pp": 4,
         "custo_3e_pp": 4,
         "nome_pt": "Proteção"

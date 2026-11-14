@@ -16,36 +16,36 @@
     "poderes": [],
     "equipamento": [
       "Flashlight: Característica 1 (Illumination) (1 PP)",
-      "Grapnel Gun: Super-Movimento 1 (Swinging) (2 PP)",
+      "Grapnel Gun: Super-Movimento 1 (Balançar-se) (2 PP)",
       "Plasti-Cuffs: Característica 1 (Restraint) (1 PP)",
-      "Mini-Tracers: Característica 1 (Tracking) (1 PP)",
+      "Mini-Tracers: Característica 1 (Rastrear) (1 PP)",
       "Utility Belt: Arranjo (12 pontos)",
-      "• Tear Gas Pellets: À Distância Área de Nuvem Aflição 3 (resistido por Fortitude; Tonto and Vision Impaired, Atordoado and Vision Disabled, Incapacitado) (12 PP)",
+      "• Tear Gas Pellets: À Distância Área de Nuvem Aflição 3 (resistido por Fortitude; Tonto e Visão Prejudicado, Atordoado e Visão Desabilitado, Incapacitado) (12 PP)",
       "• Batarangues: Força-based Dano à Distância 2 (1 PP)",
-      "• Bolos: Aflição à Distância 4 (resistido por Esquiva; Impedido and Vulnerável, Indefeso and Imóvel) (1 PP)",
-      "• Cutting Torch: Dano 1 Linked to Enfraquecer Object’s Resistência 1 (1 PP)",
+      "• Bolos: Aflição à Distância 4 (resistido por Esquiva; Impedido e Vulnerável, Indefeso e Imóvel) (1 PP)",
+      "• Cutting Torch: Dano 1 Ligado a Enfraquecer Object’s Resistência 1 (1 PP)",
       "• Explosive Batarangues: À Distância Área de Explosão Dano 4 (1 PP)",
-      "• Flash Bombs: À Distância Área de Explosão Aflição 3 (resistido por Fortitude; Vision Impaired, Vision Disabled, Vision Unaware) (1 PP)",
-      "• Sleep Gas Pellets: À Distância Área de Nuvem Aflição 4 (resistido por Fortitude; Fatigado, Exausto, Adormecido) (1 PP)",
+      "• Flash Bombs: À Distância Área de Explosão Aflição 3 (resistido por Fortitude; Visão Prejudicado, Visão Desabilitado, Visão Desatento) (1 PP)",
+      "• Sono Gas Pellets: À Distância Área de Nuvem Aflição 4 (resistido por Fortitude; Fatigado, Exausto, Adormecido) (1 PP)",
       "• Smoke Bombs: Área de Nuvem Visual Camuflagem Attack 4 (1 PP)",
       "VEHICLE: MOTORCYCLE (11 PP)",
-      "Size: Medium Str 1 Spd 6 Def 10 Tou 8 Features: Navigation System"
+      "Size: Medium Str 1 Spd 6 Def 10 Tou 8 Características: Navegação System"
     ],
     "vantagens": [
       "Finta Ágil",
       "Avaliação",
-      "Benefit 1 (Cipher)",
+      "Benefício 1 (Cifra)",
       "Ataque Corpo-a-Corpo 3",
       "Ataque Defensivo",
       "Rolamento Defensivo",
       "Equipamento 7",
-      "Agarrar com Destreza",
-      "Grande Vigor",
-      "Esconder-se a Plena Vista",
+      "Agarrar Preciso",
+      "Tolerância Maior",
+      "Esconder-se à Plena Vista",
       "Crítico Aprimorado (Desarmado)",
       "Iniciativa Aprimorada",
       "Derrubar Aprimorado",
-      "Levantar Rápido",
+      "De Pé",
       "Ataque Poderoso",
       "Ranged Combat 3",
       "Maestria em Perícia (Intuição)",
@@ -114,7 +114,7 @@
         "nome": "Desarmado",
         "bonus": 18,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 2, Crit. 19-20"
+        "dano": "Dano 2, Crít. 19-20"
       },
       {
         "nome": "Batarangue",
@@ -142,7 +142,7 @@
     "complicacoes": [
       {
         "titulo": "Fear of Abandonment",
-        "texto": "Cassandra’s brutal upbringing has left her with a serious fear of abandonment, and a vulnerability to mental manipulation."
+        "texto": "Cassandra’s brutal upbringing has left her com a serious fear of abandonment, e a vulnerability to mental manipulation."
       }
     ]
   },

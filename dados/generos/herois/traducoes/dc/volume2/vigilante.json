@@ -14,18 +14,18 @@
       "Pre": 2
     },
     "poderes": [
-      "0 Defenses 26"
+      "0 Defesas 26"
     ],
     "equipamento": [
       "Body a rmor : Proteção 5 (5 PP)",
-      "Starlight Goggles: Sentidos 1 (Night vision) (1 PP)",
+      "Starlight Goggles: Sentidos 1 (Visão Noturna) (1 PP)",
       "a rsenal: Arranjo (15 pontos)",
       "• Submachine Gun: À Distância Multiataque Dano 4 (1 PP)",
       "• Sniper r ifle: Dano à Distância 5 (1 PP)",
       "• f r agmentation Grenade: Área de Explosão Dano 5 (15 PP)",
       "• f lash-bang G renade: Área de Explosão Ofuscar 4 (1 PP)",
-      "• k nife: Golpe 1, piercing (1 PP)",
-      "5 pontos worth of miscellaneous equipment a V ant G d a e S Preciso Attack, Assessment, Equipment 6, Evasion, Extraordinary Effort, Improved Aim, Improvised Weapon, Preciso Attack (À Distância, Camuflagem), Prone Luta, Quick Draw, Startle, Takedown, Tracking"
+      "• k nife: Golpe 1, Perfurante (1 PP)",
+      "5 pontos worth of miscellaneous equipment a V ant G d a e S Acurado Attack, Assessment, Equipment 6, Evasão, Extraordinary Effort, Improved Aim, Improvised Weapon, Preciso Attack (À Distância, Camuflagem), Caído Luta, Quick Draw, Startle, Ataque Dominó, Rastrear"
     ],
     "vantagens": [
       "17 Total 122 Co MPL i C tion S a Judge",
@@ -75,7 +75,7 @@
         "total": 9
       },
       {
-        "nome": "Combate à Distância: Guns",
+        "nome": "Combate à Distância: Armas de Fogo",
         "graduacoes": 9,
         "total": 12
       },
@@ -95,11 +95,11 @@
       {
         "nome": "Sniper Rifle",
         "bonus": 12,
-        "alcance": "À distância",
-        "dano": "Dano 5"
+        "alcance": "",
+        "dano": ""
       },
       {
-        "nome": "Submachine Gun",
+        "nome": "Dano à Distância 5 Submachine Gun",
         "bonus": 12,
         "alcance": "À distância",
         "dano": "Multiataque Dano 4"
@@ -118,8 +118,11 @@
       "Resistência": 9,
       "Vontade": 6
     },
-    "observacao_defesas": "* Vontade 6 *Without Body Armor. Po er ponto W S Abilities 34 Skills 45",
-    "custos": {},
+    "observacao_defesas": "* Vontade 6 *sem Body Armor.",
+    "custos": {
+      "Habilidades": 34,
+      "Perícias": 45
+    },
     "total": null,
     "complicacoes": []
   },

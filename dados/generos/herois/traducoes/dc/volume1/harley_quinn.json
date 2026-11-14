@@ -19,18 +19,18 @@
     "equipamento": [
       "Boxing-Glove Gun: Aflição à Distância 4 (resistido por Esquiva; Tonto, Atordoado, Incapacitado) (8 PP)",
       "Two-Handed Mallet: Força-based Dano 4, Reach 1 (5 PP)",
-      "Light Pistola: Dano à Distância 3 (6 PP)"
+      "Luz Pistola: Dano à Distância 3 (6 PP)"
     ],
     "vantagens": [
       "Finta Ágil",
       "Atraente",
-      "Benefit 1 (Well-off)",
+      "Benefício 1 (Abastado)",
       "Ataque Corpo-a-Corpo 2",
       "Tontear (Enganação)",
       "Rolamento Defensivo 4",
       "Equipamento 3",
-      "Evasion",
-      "Agarrar com Destreza",
+      "Evasão",
+      "Agarrar Preciso",
       "Desarmar Aprimorado",
       "Iniciativa Aprimorada",
       "Arma Improvisada",
@@ -63,7 +63,7 @@
         "total": 10
       },
       {
-        "nome": "Especialidade: Psychology",
+        "nome": "Especialidade: Psicologia",
         "graduacoes": 8,
         "total": 11
       },
@@ -73,7 +73,7 @@
         "total": 4
       },
       {
-        "nome": "Combate à Distância: Guns",
+        "nome": "Combate à Distância: Armas de Fogo",
         "graduacoes": 10,
         "total": 15
       }
@@ -84,7 +84,7 @@
         "nome": "Boxing-Glove Gun",
         "bonus": 15,
         "alcance": "À distância",
-        "dano": "Aflição 4, resistido por Esquiva Light Pistola +15 À Distância, Dano 3"
+        "dano": "Aflição 4, resistido por Esquiva Luz Pistola +15 À Distância, Dano 3"
       },
       {
         "nome": "Two-Handed Mallet",
@@ -118,15 +118,15 @@
     "complicacoes": [
       {
         "titulo": "Obsessão",
-        "texto": "Harley threw away a very successful career as psychiatrist to follow the man of her dreams—unfortunately, that man was the Joker. Her love–hate relationship with the Joker motivates many of her actions."
+        "texto": "Harley threw away a very successful career as psychiatrist to follow the man of her dreams—unfortunately, that man was the Joker. Her love–hate relationship com the Joker motivates many of her actions."
       },
       {
         "titulo": "Recognition",
-        "texto": "Harley wants people to respect and acknowledge her, even if she has to beat them into doing so."
+        "texto": "Harley wants people to respect e acknowledge her, even if she has to beat them into doing so."
       },
       {
         "titulo": "Hedonism",
-        "texto": "If it feels good to Harley, then it must be good, even if everyone else thinks it’s bad. ENEMIES While every criminal in Gotham must count the Batman as an enemy, Harley Quinn has occasionally helped the Caped Crusader, even assisting him in bringing the Joker to justice. Batman wants concrete evidence that she has dropped the criminal personae and still considers her on the side of the bad guys. At the moment, any enemy of Veneno Ivy or Cat - woman is an enemy of Harley as well."
+        "texto": "If it feels good to Harley, then it must be good, even if everyone else thinks it’s bad. ENEMIES While every criminal in Gotham must count the Batman as an enemy, Harley Quinn has occasionally helped the Caped Crusader, even assisting him in bringing the Joker to justice. Batman wants concrete evidence that she has dropped the criminal personae e still considers her on the side of the bad guys. At the moment, any enemy of Veneno Ivy or Cat - woman is an enemy of Harley as well."
       }
     ]
   },

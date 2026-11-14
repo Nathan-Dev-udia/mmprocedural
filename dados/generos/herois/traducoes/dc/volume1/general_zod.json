@@ -15,22 +15,22 @@
     },
     "poderes": [
       "Voo: Arranjo (26 pontos)",
-      "• Voo: Voo 13 (16,0 km/h) (26 PP)",
-      "• Space Voo: Movimento 1 (Space Travel) (1 PP)",
-      "• Velocidade : Velocidade 13 (16,0 km/h) (1 PP)",
-      "Calor Vision: Dano à Distância 13 (26 PP)",
+      "• Voo: Voo 13 (25.600 km/h) (26 PP)",
+      "• Space Voo: Movimento 1 (Viagem Espacial) (1 PP)",
+      "• Velocidade : Velocidade 13 (25.600 km/h) (1 PP)",
+      "Visão de Calor: Dano à Distância 13 (26 PP)",
       "Invulnerability: Proteção 4, Resistência Impenetrável 18; Imunidade 5 (Frio, Calor, Pressão, Radiação, Vácuo) (27 PP)",
-      "Super-Sentidos: Sentidos 15 (Aguçado and Audição Estendida, Visão Estendida 3, Infravisão, Visão Microscópica 4, Ultra- Hearing, Vision Penetrates Camuflagem (except lead)) (15 PP)",
+      "Super-Sentidos: Sentidos 15 (Aguçado e Audição Estendida, Visão Estendida 3, Infravisão, Visão Microscópica 4, Ultra- Audição, Visão Penetrates Camuflagem (except lead)) (15 PP)",
       "Super-Velocidade: Rapidez 6 (6 PP)",
-      "Super-Força: Força Aprimorada 4, Limitado a Lifting (lifting Str 22; 100,000 tons) (4 PP)"
+      "Super-Força: Força Aprimorada 4, Limitado a Lifting (lifting Str 22; 100,000 toneladas) (4 PP)"
     ],
     "equipamento": [],
     "vantagens": [
-      "Benefit 3 (Commander of New Krypton Military Guild)",
+      "Benefício 3 (Commander of New Krypton Militar Guild)",
       "Ataque Corpo-a-Corpo 2",
       "Ataque Defensivo",
       "Mira Aprimorada",
-      "Languages (English; Kryptonian native)",
+      "Idiomas (Inglês; Kryptonian native)",
       "Liderança",
       "Ataque à Distância 7",
       "Tomar a Iniciativa"
@@ -90,7 +90,7 @@
     "iniciativa": 3,
     "ataques": [
       {
-        "nome": "Calor Vision",
+        "nome": "Visão de Calor",
         "bonus": 9,
         "alcance": "À distância",
         "dano": "Dano 13"
@@ -121,11 +121,11 @@
     "complicacoes": [
       {
         "titulo": "Perda de Poder",
-        "texto": "Zod loses his Powers under a red sun, like that of Krypton, and other effects draining or interfering with the energies of the yellow sun can deprive him of his Powers. Without his Powers, Dru-Zod has Força 2 and Vigor 3."
+        "texto": "Zod loses his Poderes under a red sun, like that of Krypton, e other Efeitos draining or interfering com the energies of the yellow sun can deprive him of his Poderes. sem his Poderes, Dru-Zod has Força 2 e Vigor 3."
       },
       {
         "titulo": "Vulnerability",
-        "texto": "Zod is as Vulnerável to mágico as anyone else. His Resistência is not Impenetrável against magical attacks."
+        "texto": "Zod is as Vulnerável to Magia as anyone else. His Resistência is not Impenetrável contra Mágico attacks."
       },
       {
         "titulo": "Fraqueza",

@@ -14,13 +14,13 @@
       "Pre": 3
     },
     "poderes": [
-      "a ur akle Merge Imortalidade 10 (Requires a recently dead body); f ligh t 8 (800 km/h); Protective a ur a Sustentado Proteção 5; Quick Change Característica 1; r ainb ow Hues a rr ay*: r ed (Calor Beam) Dano à Distância 10, ae : o r ange ( f or ce Beam) Dano à Distância 10, ae : y ello w (Brilliant Light) Aflição à Distância 10 (Visual; resistido por Esquiva; Cumulativo), ae : Green (Stasis Beam) Aflição à Distância 10 (resistido por Fortitude; Impedido, Imóvel, Paralisado), ae : Blue ( d ist ortion) Camuflagem 5 (All Visual and Auditory), ae : Blue ( d ist ortion) Ilusão 6 (Visual and Auditory), ae : i ndigo ( t r actor Beam) Alcance de Percepção Mover Objetos 10 , Limitado— Toward and Away Only) *Halo can counter other effects with an appropriate hue."
+      "a ur akle Merge Imortalidade 10 (Requires a recently dead body); f Luz 8 (800 km/h); Protective a ur a Sustentado Proteção 5; Quick Change Característica 1; r ainb ow Hues a rr ay*: r ed (Calor Beam) Dano à Distância 10, ae : o r ange ( f or ce Beam) Dano à Distância 10, ae : y ello w (Brilliant Luz) Aflição à Distância 10 (Visual; resistido por Esquiva; Cumulativo), ae : Green (Stasis Beam) Aflição à Distância 10 (resistido por Fortitude; Impedido, Imóvel, Paralisado), ae : Blue ( d ist ortion) Camuflagem 5 (All Visual e Auditivo), ae : Blue ( d ist ortion) Ilusão 6 (Visual e Auditivo), ae : i ndigo ( t r actor Beam) Alcance de Percepção Mover Objetos 10 , Limitado— Toward e Away Apenas) *Halo can counter other Efeitos com an appropriate hue."
     ],
     "equipamento": [],
     "vantagens": [
       "Finta Ágil",
       "Rolamento Defensivo 3",
-      "Evasion 2",
+      "Evasão 2",
       "Increased Initiative"
     ],
     "pericias": [
@@ -84,11 +84,11 @@
     "complicacoes": [
       {
         "titulo": "Color n ega tion",
-        "texto": "Anything that would negate a particular hue Vontade also prevent Halo from using the power associated with it."
+        "texto": "Anything that would negate a particular hue Vontade also prevent Halo from using the Poder associated com it."
       },
       {
         "titulo": "Violet Hue",
-        "texto": "The current Halo can be dominated by the personality of Violent Harper. When this happens, Halo is evil and is Controlado by the Gamemaster."
+        "texto": "The current Halo can be dominated by the personality of Violent Harper. When this happens, Halo is evil e is Controlado by the Gamemaster."
       }
     ]
   },

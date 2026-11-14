@@ -15,12 +15,12 @@
     },
     "poderes": [
       "Dilustel Covering: Imunidade 10 (Suporte Vital), Resistência Impenetrável 15, Proteção 3 (28 PP)",
-      "Quantum Channeling : Força Aprimorada 5 (Lifting only, Lifting Str 20; 25,000 tons), Voo 13 (16,0 km/h), Imunidade 40 (Energy Effects, Distrativo, Limitado a Half Effect, Sustentado), Sentidos 3 (Detect Energy Spectra (Aguçado, Raio)) (48 PP)",
+      "Quantum Channeling : Força Aprimorada 5 (Lifting Apenas, Lifting Str 20; 25,000 toneladas), Voo 13 (25.600 km/h), Imunidade 40 (Energia Efeitos, Distrativo, Limitado a Half Effect, Sustentado), Sentidos 3 (Detectar Energia Spectra (Aguçado, Raio)) (48 PP)",
       "Quantum Manipulation: Arranjo (36 pontos)",
       "• Quantum Raio: Dano à Distância 18 (36 PP)",
-      "• Quantum Burst: Área de Explosão Dano 14 (1 PP)",
-      "• Quantum Conversion: Deflexão 13, Reflect, Redirect, Corpo a Corpo, Energy Only) (1 PP)",
-      "• Quantum Drain: Enfraquecer All Electromagnetic Energy Powers 7 (Affects Others, Broad (all EM Energy), Progressivo, Simultaneous) (1 PP)"
+      "• Quantum Estouro: Área de Explosão Dano 14 (1 PP)",
+      "• Quantum Conversion: Deflexão 13, Reflect, Redirect, Corpo a Corpo, Energia Apenas) (1 PP)",
+      "• Quantum Drain: Enfraquecer All Electromagnetic Energia Poderes 7 (Afeta Outros, Amplo (all EM Energia), Progressivo, Simultâneo) (1 PP)"
     ],
     "equipamento": [],
     "vantagens": [
@@ -47,7 +47,7 @@
         "total": 6
       },
       {
-        "nome": "Especialidade: Military Science",
+        "nome": "Especialidade: Militar Ciência",
         "graduacoes": 6,
         "total": 7
       },
@@ -85,6 +85,12 @@
     "iniciativa": 2,
     "ataques": [
       {
+        "nome": "Quantum Raio",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Dano 18"
+      },
+      {
         "nome": "Desarmado",
         "bonus": 10,
         "alcance": "Corpo a corpo",
@@ -110,11 +116,11 @@
     "complicacoes": [
       {
         "titulo": "Forced Time Travel",
-        "texto": "When Captain Atom pushes his ability to absorb energy past its normal limits, the accumulated energy “overwash” propels him through time. The exact amount of time traveled is up to the needs of the plot, but a rule of thumb is to take the graduação of the triggering effect and compare it to the Time column of the basic graduação chart – this is how much time is jumped past."
+        "texto": "When Captain Atom pushes his Habilidade to absorb Energia past its normal limits, the accumulated Energia “overwash” propels him through time. The exact amount of time traveled is up to the needs of the plot, but a rule of thumb is to take the graduação of the triggering effect e compare it to the Time column of the basic graduação chart – this is how much time is jumped past."
       },
       {
         "titulo": "Fish Out of Water",
-        "texto": "Nathaniel missed a lot of history and there are gaps in what should be his basic store of common/general knowledge."
+        "texto": "Nathaniel missed a lot of História e there are gaps in what should be his basic store of common/general knowledge."
       }
     ]
   },

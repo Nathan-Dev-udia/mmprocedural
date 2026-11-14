@@ -14,14 +14,14 @@
       "Pre": 2
     },
     "poderes": [
-      "Ageless: Imunidade 1 (Envelhecimento); mágico ( Arranjo (30 pontos), Hellfire Projection: Área de Cone Dano (Hellfire) 12, Efeito Secundário on 6 graduações, AE: Matter Control: Transform 6 (anything into anything), AE: Telekinesis: Mover Objetos 12); Precognition: Sentidos 4 (Precognition); Telepatia: Comunicação 1 (mental)"
+      "Ageless: Imunidade 1 (Envelhecimento); Magia ( Arranjo (30 pontos), Hellfire Projection: Área de Cone Dano (Hellfire) 12, Efeito Secundário on 6 graduações, AE: Matter Control: Transformar 6 (anything into anything), AE: Telekinesis: Mover Objetos 12); Precognição: Sentidos 4 (Precognição); Telepatia: Comunicação 1 (Mental)"
     ],
     "equipamento": [],
     "vantagens": [
       "Ataque Corpo-a-Corpo 4",
       "Rolamento Defensivo 4",
       "Destemido",
-      "Languages 3",
+      "Idiomas 3",
       "Ataque à Distância 8",
       "Ritualista"
     ],
@@ -37,12 +37,12 @@
         "total": 8
       },
       {
-        "nome": "Especialidade: History",
+        "nome": "Especialidade: História",
         "graduacoes": 10,
         "total": 14
       },
       {
-        "nome": "Especialidade: mágico",
+        "nome": "Especialidade: Magia",
         "graduacoes": 12,
         "total": 16
       },
@@ -70,10 +70,10 @@
     "iniciativa": 2,
     "ataques": [
       {
-        "nome": "mágico",
+        "nome": "Magia",
         "bonus": 10,
         "alcance": "",
-        "dano": "Área de Cone, Dano 12 or other effects"
+        "dano": "Área de Cone, Dano 12 or other Efeitos"
       },
       {
         "nome": "Desarmado",

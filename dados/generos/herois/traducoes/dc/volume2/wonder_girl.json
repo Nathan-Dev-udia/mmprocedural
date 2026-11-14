@@ -14,7 +14,7 @@
       "Pre": 3
     },
     "poderes": [
-      "45 Defenses 21"
+      "45 Defesas 21"
     ],
     "equipamento": [],
     "vantagens": [
@@ -24,7 +24,7 @@
     "iniciativa": 8,
     "ataques": [
       {
-        "nome": "mágico Lasso",
+        "nome": "Magia Lasso",
         "bonus": 12,
         "alcance": "À distância",
         "dano": "+12"
@@ -43,8 +43,10 @@
       "Resistência": 12,
       "Vontade": 12
     },
-    "observacao_defesas": "* Vontade 12 *sem Rolamento Defensivo. W S Po er ponto Abilities 98",
-    "custos": {},
+    "observacao_defesas": "* Vontade 12 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 98
+    },
     "total": null,
     "complicacoes": []
   },

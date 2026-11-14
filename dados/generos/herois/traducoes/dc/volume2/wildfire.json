@@ -15,10 +15,10 @@
     },
     "poderes": [],
     "equipamento": [
-      "f ligh t r ing: Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal –3); Voo 7 (400 km/h) (19 PP)",
-      "t elepa thic e ar Plug: Compreender 3 (Languages), mental Comunicação 1 (Corpo a Corpo Range) (10 PP)",
-      "t r anssuit: Imunidade 10 (Suporte Vital, Peculiaridade: not for Inanição and thirst) (9 PP)",
-      "d a e S a V ant G All-out Attack, Benefit (Legion Membership), Diehard, Equipment 6, Extraordinary Effort, Move-by Action, Power Attack, Seize Iniciativa, Taunt e ne MI e S Wildfire has no enemy specific to him but, like all Legion- naires, must contend with the villains that the Legion as a whole has accrued over their existence."
+      "f Luz r ing: Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal -3); Voo 7 (400 km/h) (19 PP)",
+      "t elepa thic e ar Plug: Compreender 3 (Languages), Comunicação Mental 1 (Alcance Perto) (10 PP)",
+      "t r anssuit: Imunidade 10 (Suporte Vital, Peculiaridade: not for Fome e Sede) (9 PP)",
+      "d a e S a V ant G Ataque Imprudente, Benefit (Legion Membership), Diehard, Equipment 6, Extraordinary Effort, Ação em Movimento, Poder Attack, Tomar a Iniciativa, Taunt e ne MI e S Wildfire has no enemy specific to him but, like all Legion- naires, must contend com the villains that the Legion as a whole has accrued over their existence."
     ],
     "vantagens": [],
     "pericias": [
@@ -51,7 +51,7 @@
     "iniciativa": 6,
     "ataques": [
       {
-        "nome": "Negative Energy Raio",
+        "nome": "Negative Energia Raio",
         "bonus": 7,
         "alcance": "À distância",
         "dano": "Dano 13"
@@ -82,7 +82,7 @@
     "complicacoes": [
       {
         "titulo": "Complicação",
-        "texto": "), Força Aprimorada 17 (4 graduações Limitado a lifting (3,000 tons)), Proteção 2 (Impenetrável 6), Voo 14 (32,0 km/h), Imunidade 10 (Suporte Vital), Movimento 3 (Space Travel) • 102 pontos"
+        "texto": "), Força Aprimorada 17 (4 graduações Limitado a lifting (3,000 toneladas)), Proteção 2 (Impenetrável 6), Voo 14 (51.200 km/h), Imunidade 10 (Suporte Vital), Movimento 3 (Viagem Espacial) • 102 pontos"
       }
     ]
   },

@@ -50,14 +50,14 @@
       "Interpor-se",
       "Sorte",
       "Tomar a Iniciativa",
-      "Set-Up",
+      "Armação",
       "Trabalho em Equipe",
       "Esforço Supremo: Will Save"
     ],
     "poderes": [
       {
         "nome": "Telepathy Array",
-        "construcao_3e": "Telepatia 10 Dinâmica (Leitura Mental 10 + Comunicação Mental 10; 40 PP); Efeitos Alternativos Dinâmicos: Campo de Força 14 Impenetrável (2 PP), Telecinese com Dano (2 PP), Rajada Mental (2 PP), Controle Mental (2 PP), Sentidos Remotos (2 PP), Projeção Astral (2 PP), Escudo Mental e Rajada de Força (5 PP). Array total: 57 PP (custo original da fonte preservado).",
+        "construcao_3e": "Telepatia 10 Dinâmica (Leitura Mental 10 + Comunicação Mental 10; 40 PP); Efeitos Alternativos Dinâmicos: Campo de Força 14 Impenetrável (2 PP), Telecinese com Dano (2 PP), Rajada Mental (2 PP), Controle Mental (2 PP), Sentidos Remotos (2 PP), Projeção Astral (2 PP), Escudo Mental e Rajada de Força (5 PP). Arranjo total: 57 PP (custo original da fonte preservado).",
         "custo_2e_pp": 57,
         "custo_3e_pp": 57,
         "nome_pt": "Telepatia e Telecinese Dinâmica"

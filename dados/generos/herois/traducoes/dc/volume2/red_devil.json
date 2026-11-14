@@ -14,16 +14,16 @@
       "Pre": 3
     },
     "poderes": [
-      "d emonic f orm: Agilidade Aprimorada 6; Luta Aprimorada 4; Presença Aprimorada 2; Vigor Aprimorado 6; Força Aprimorada 6; Extra Limbs 1 (Tail); Voo 3 (Gliding, Wings); Imunidade 1 (Calor); Regeneração 3 (55 PP)",
-      "f ir e Breath: Dano 9, Inaccurate 2, Reach 2 (10 feet) (9 PP)",
+      "d emonic f orm: Agilidade Aprimorada 6; Luta Aprimorada 4; Presença Aprimorada 2; Vigor Aprimorado 6; Força Aprimorada 6; Membros Extras 1 (Tail); Voo 3 (Gliding, Wings); Imunidade 1 (Calor); Regeneração 3 (55 PP)",
+      "f ir e Breath: Dano 9, Inaccurate 2, Reach 2 (10 pés) (9 PP)",
       "f ir e “Portal”: Teleporte 16 (250 milhas) (32 PP)",
       "r ed-Hot Skin: Reação Dano 3 (12 PP)"
     ],
     "equipamento": [],
     "vantagens": [
       "Ataque Corpo-a-Corpo 4",
-      "Evasion",
-      "Grande Vigor",
+      "Evasão",
+      "Tolerância Maior",
       "Agarrar Aprimorado",
       "Iniciativa Aprimorada",
       "Inventor"
@@ -74,10 +74,10 @@
         "dano": "Dano 7"
       },
       {
-        "nome": "fogo Breath",
+        "nome": "Fogo Breath",
         "bonus": 9,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 9, Reach 10 feet"
+        "dano": "Dano 9, Reach 10 pés"
       }
     ],
     "defesas": {
@@ -88,12 +88,18 @@
       "Vontade": 6
     },
     "observacao_defesas": "",
-    "custos": {},
-    "total": null,
+    "custos": {
+      "Habilidades": 30,
+      "Perícias": 18,
+      "Poderes": 108,
+      "Defesas": 12,
+      "Vantagens": 8
+    },
+    "total": 175,
     "complicacoes": [
       {
         "titulo": "and can’t pp earance",
-        "texto": "change back to a normal appearance. i nf ernal o v erlap: Despite the fact that he is a metahuman and not born of infernal origins, Red Devil suffers many of the same weaknesses as actual demons. He can be damaged simply by proximity to holy ground and religious artifacts. i nsecurities: Eddie suffers from raging insecurities regarding his value as a hero (and a person) that stem from abandonment issues with Blue Devil and Eddie’s Aunt Marla. attitude, Eddie is highly intelligent and technically gifted, par- ticularly in electronics and engineering. aLLI e S His allies include Blue Devil, Zachary Zatara, The Doom Patrol and the rest of the Titans."
+        "texto": "change back to a normal appearance. i nf ernal o v erlap: Despite the fact that he is a metahuman e not born of infernal origins, Red Devil suffers many of the same weaknesses as actual demons. He can be damaged simply by proximity to holy ground e religious artifacts. i nsecurities: Eddie suffers from raging insecurities regarding his value as a hero (e a person) that stem from abandonment issues com Blue Devil e Eddie’s Aunt Marla. attitude, Eddie is highly intelligent e technically gifted, par- ticularly in Eletrônica e Engenharia. aLLI e S His allies include Blue Devil, Zachary Zatara, The Doom Patrol e the rest of the Titans."
       }
     ]
   },

@@ -14,14 +14,14 @@
       "Pre": 6
     },
     "poderes": [
-      "Gaze of Hyperion ( Dano à Distância 14); mágico Lasso (Mover Objetos 16 Linked to Aflição à Distância 16 (resistido por Vontade; Compelido), Limitado a Acting Out Hidden Desires (One Degree, no other effects), Facilmente Removível (–24 pontos)); Quick Change ( Característica 1 (Change into Superwoman as a Ação Livre)); Velocidade of Metis (Voo 11 (4,0 km/h)); Força of Atlas (Força Aprimorada 6, Limitado a Lifting (lifting Str 22; 100,000 tons))"
+      "Gaze of Hyperion ( Dano à Distância 14); Magia Lasso (Mover Objetos 16 Ligado a Aflição à Distância 16 (resistido por Vontade; Compelido), Limitado a Atuação Out Hidden Desires (One Grau, no other Efeitos), Facilmente Removível (-24 pontos)); Quick Change ( Característica 1 (Change into Superwoman as a Ação Livre)); Velocidade of Metis (Voo 11 (6.400 km/h)); Força of Atlas (Força Aprimorada 6, Limitado a Lifting (lifting Str 22; 100,000 toneladas))"
     ],
     "equipamento": [],
     "vantagens": [
       "Atraente 2",
-      "Benefit 5 (CSA member)",
-      "Conectado",
-      "Languages 2",
+      "Benefício 5 (CSA member)",
+      "Bem Relacionado",
+      "Idiomas 2",
       "Ataque à Distância 4",
       "Trabalho em Equipe"
     ],
@@ -132,7 +132,7 @@
     "complicacoes": [
       {
         "titulo": "Relacionamentos",
-        "texto": "Superwoman maintains a passionate but erratic romance with Owlman and a dysfunctional marriage to Ultraman."
+        "texto": "Superwoman maintains a passionate but erratic romance com Owlman e a dysfunctional marriage to Ultraman."
       },
       {
         "titulo": "Identidade Secreta",

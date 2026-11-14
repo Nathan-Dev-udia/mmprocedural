@@ -15,17 +15,17 @@
     },
     "poderes": [
       "Gorilla’s Body: Característica 1 (Insulating Fur), Crescimento 4 (Inato, Permanente), Proteção 3 (13 PP)",
-      "mental Powers: Arranjo (48 pontos)",
+      "Mental Poderes: Arranjo (48 pontos)",
       "• t elek inesis: Mover Objetos 12, Damaging, Alcance de Percepção (48 PP)",
-      "• Psychic Raio: Dano 9, Resistência Alternativa (Vontade), Área de Explosão, Alcance de Percepção (1 PP)",
-      "• t elepa thy: Comunicação 4 (mental), Concentração, Remote Sensing 18 (Audial & Visual), Concentração (1 PP)"
+      "• Psíquico Raio: Dano 9, Resistência Alternativa (Vontade), Área de Explosão, Alcance de Percepção (1 PP)",
+      "• t elepa thy: Comunicação 4 (Mental), Concentração, Sensoriamento Remoto 18 (Audial & Visual), Concentração (1 PP)"
     ],
     "equipamento": [],
     "vantagens": [
-      "Benefit 2 (Wealth)",
+      "Benefício 2 (Riqueza)",
       "Duro de Matar",
-      "Evasion",
-      "Ferramentas Improvisadas",
+      "Evasão",
+      "Ferramentas Aprimoradas",
       "Inventor",
       "Liderança"
     ],
@@ -56,7 +56,7 @@
         "total": 21
       },
       {
-        "nome": "Especialidade: Science",
+        "nome": "Especialidade: Ciência",
         "graduacoes": 15,
         "total": 22
       },
@@ -91,8 +91,15 @@
         "total": 20
       }
     ],
-    "iniciativa": 0,
-    "ataques": [],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 13,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 10"
+      }
+    ],
     "defesas": {
       "Esquiva": 13,
       "Fortitude": 12,
@@ -112,11 +119,11 @@
     "complicacoes": [
       {
         "titulo": "o bsession",
-        "texto": "The Ultra Humanite craves power at any cost, even his own humanity. d isabilit y: Originally Limitado by a weak and sickly body, the Humanite’s psionic energies gradually degrade the substitute bodies his brain occupies, forcing him to periodically find replacements."
+        "texto": "The Ultra Humanite craves Poder at any cost, even his own humanity. d isabilit y: Originally Limitado by a weak e sickly body, the Humanite’s Psiônico energies gradually degrade the substitute bodies his brain occupies, forcing him to periodically find replacements."
       },
       {
         "titulo": "Perda de Poder",
-        "texto": "It takes time for a new body to adapt to the Humanite’s mental Powers, and he cannot use them for a time after his brain is transplanted. t he g o L den a ge uL tra- h u M an I te In his original body, the Ultra-Humanite had Luta, Agilidade, Força & Vigor scores of –2, had no Skills based on them, no Powers, and no Evasion Advantage."
+        "texto": "It takes time for a new body to adapt to the Humanite’s mental Poderes, e he cannot use them for a time after his brain is transplanted. t he g o L den a ge uL tra- h u M an I te In his original body, the Ultra-Humanite had Luta, Agilidade, Força & Vigor scores of -2, had no Perícias based on them, no Poderes, e no Evasão Vantagem."
       }
     ]
   },

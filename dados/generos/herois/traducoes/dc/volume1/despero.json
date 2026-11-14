@@ -14,14 +14,14 @@
       "Pre": 6
     },
     "poderes": [
-      "Flame of Py’tar: Força Aprimorada 5, Limitado a Lifting (Lifting Força 23; 100,000 tons); Imortalidade 5; Imunidade 10 (Suporte Vital); Resistência Impenetrável 18; Rapidez 10; Regeneração 10 (73 PP)",
-      "Voo: Voo 13 (16,0 km/h) (26 PP)",
-      "mental Powers: Arranjo (40 pontos)",
+      "Flame of Py’tar: Força Aprimorada 5, Limitado a Lifting (Lifting Força 23; 100,000 toneladas); Imortalidade 5; Imunidade 10 (Suporte Vital); Resistência Impenetrável 18; Rapidez 10; Regeneração 10 (73 PP)",
+      "Voo: Voo 13 (25.600 km/h) (26 PP)",
+      "Mental Poderes: Arranjo (40 pontos)",
       "• Ilusão: Ilusão 8 (All Sentidos), Resistível, Seletivo (40 PP)",
-      "• Rajada mental: Perception Dano à Distância 10, resistido por Vontade (1 PP)",
-      "• Controle mental: Perception À Distância, Cumulativo Aflição 10 (resistido por Vontade; Tonto, Compelido, Controlado) (1 PP)",
-      ". • Leitura mental: Leitura mental 14 (1 PP)",
-      "• mental Comunicação: Comunicação 4 (Worldwide, mental), área, Seletivo (1 PP)"
+      "• Rajada Mental: Percepção Dano à Distância 10, resistido por Vontade (1 PP)",
+      "• Controle Mental: Percepção À Distância, Cumulativo Aflição 10 (resistido por Vontade; Tonto, Compelido, Controlado) (1 PP)",
+      ". • Leitura Mental: Leitura Mental 14 (1 PP)",
+      "• Comunicação Mental: Comunicação 4 (Worldwide, Mental), área, Seletivo (1 PP)"
     ],
     "equipamento": [],
     "vantagens": [
@@ -29,8 +29,7 @@
       "Duro de Matar",
       "Ataque Poderoso",
       "Tomar a Iniciativa",
-      "Ultimate Effort 2 (Toughness",
-      "Will)"
+      "Esforço Supremo 2 (Resistência, Vontade)"
     ],
     "pericias": [
       {
@@ -77,11 +76,11 @@
     "complicacoes": [
       {
         "titulo": "Conqueror",
-        "texto": "Despero is obsessed with proving his Força through conquest."
+        "texto": "Despero is obsessed com proving his Força through conquest."
       },
       {
         "titulo": "Inimigo",
-        "texto": "Despero’s attempts to conquer Earth have been thwarted several times by the Justice League, and he is particularly obsessed with destroying them. ALLIES Though there is none he considers an equal, Despero has al - lied himself with villains ranging from Johnny Sorrow to the time-travelling Time Stealers when he needs them to accom - plish his goals. When Starro once challenged Despero’s place as the supreme interstellar conqueror, he joined the forces led by Brainiac 2 (Vril Dox), until Starro had been utterly defeated. ENEMIES Any who stand between Despero and his goal are his en - emies, doubly so for those who have stood in his way and bested him in the past, including the Justice League."
+        "texto": "Despero’s attempts to conquer Earth have been thwarted several times by the Justice League, e he is particularly obsessed com destroying them. ALLIES Though there is none he considers an equal, Despero has al - lied himself com villains ranging from Johnny Sorrow to the time-travelling Time Stealers when he needs them to accom - plish his goals. When Starro once challenged Despero’s place as the supreme interstellar conqueror, he joined the forces led by Brainiac 2 (Vril Dox), until Starro had been utterly defeated. ENEMIES Any who stand between Despero e his goal are his en - emies, doubly so for those who have stood in his way e bested him in the past, including the Justice League."
       }
     ]
   },

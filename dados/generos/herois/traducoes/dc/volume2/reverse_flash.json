@@ -15,37 +15,25 @@
     },
     "poderes": [
       "f ric tionless a ur a: Imunidade 1 (Friction Calor) (1 PP)",
-      "r un o n W ater: Movimento 1 (Water Walking), Limitado a While Moving (1 PP)",
-      "r un Up Walls: Movimento 2 (Wall-crawling 2), Limitado a While Moving (2 PP)",
-      "Super-Velocidade: Enhanced Defenses 24 (Esquiva 12, Aparar 12), Enhanced"
+      "r un o n W ater: Movimento 1 (Andar na Água), Limitado a Enquanto se Move (1 PP)",
+      "r un Up Walls: Movimento 2 (Escalar Paredes 2), Limitado a Enquanto se Move (2 PP)",
+      "Super-Velocidade: Defesas Aprimoradas 24 (Esquiva 12, Aparar 12), Aprimorado"
     ],
     "equipamento": [],
     "vantagens": [
-      "(Agile Feint",
-      "Ataque Corpo-a-Corpo 4",
-      "Rolamento Defensivo 5",
-      "Evasion 2",
-      "Iniciativa Aprimorada 10",
-      "Levantar Rápido",
-      "Ação em Movimento",
-      "Tomar a Iniciativa",
-      "Takedown)",
+      "(Agile Feint, Close Attack 4, Defensive Roll 5, Evasion 2, Improved Initiative 10, Instant Up, Move-by Action, Seize Initiative, Takedown)",
       "Quickness 20",
-      "Speed 20 (2",
-      "000",
-      "000 MPH) • 90 points Super-Speed Stunts: Array (20 pontos) • a ir C ontrol: corpo a corpo Range Cone área Move Object 10 • 20 pontos • a ir C ushion: Burst área Movement 1 (Safe Fall)",
-      "Affects Others • 1 point • Vacuum: Burst Area Cumulative Affliction 5 (Resisted by Fortitude; Dazed",
-      "Stunned",
-      "Incapacitated)",
+      "Speed 20 (2,000,000 MPH) • 90 points Super-Speed Stunts: Array (20 points) • a ir C ontrol: Close Range Cone Area Move Object 10 • 20 points • a ir C ushion: Burst Area Movement 1 (Safe Fall)",
+      "Affects Others • 1 point • Vacuum: Burst Area Cumulative Affliction 5 (resistido por Fortitude; Dazed, Stunned, Incapacitated)",
       "Concentration • 1 point • Vibration: Insubstantial 4 • 1 point • Whirlwind: Close Range Burst Area Move Object 10 • 1 point Advantages Agile Feint",
       "Ataque Corpo-a-Corpo 4",
       "Rolamento Defensivo 5",
-      "Evasion 2",
+      "Evasão 2",
       "Iniciativa Aprimorada 10",
-      "Levantar Rápido",
+      "De Pé",
       "Ação em Movimento",
       "Tomar a Iniciativa",
-      "Derrubar em Sequência"
+      "Ataque Dominó"
     ],
     "pericias": [
       {
@@ -69,7 +57,7 @@
         "total": 8
       },
       {
-        "nome": "Especialidade: History",
+        "nome": "Especialidade: História",
         "graduacoes": 8,
         "total": 11
       },
@@ -95,7 +83,7 @@
         "nome": "Desarmado",
         "bonus": 10,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 1 Whirlwind Área de Explosão, Grapple, Esquiva CD 20 sually, making them power stunts (and therefore challenges for the heroes he has faced) rather than regular Powers"
+        "dano": "Dano 1 Whirlwind Área de Explosão, Grapple, Esquiva CD 20 sually, making them Poder stunts (e therefore challenges for the heroes he has faced) rather than regular Poderes"
       }
     ],
     "defesas": {
@@ -113,7 +101,7 @@
       "Perícias": 24,
       "Defesas": 20
     },
-    "total": null,
+    "total": 214,
     "complicacoes": [
       {
         "titulo": "Obsessão",

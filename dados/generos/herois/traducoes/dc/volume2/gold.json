@@ -14,7 +14,7 @@
       "Pre": 2
     },
     "poderes": [
-      "r obot Body (Imunidade 40 (Fortitude effects, mental effects); Proteção 8, Impenetrável), Shapeshifting (Alongamento 8; Metamorfose 4 (any form), Peculiaridade: Limitado a Same Color; Variável 2 (physical traits, 10 power pontos, plus changing existing physical trait allocations)"
+      "r obot Body (Imunidade 40 (Efeitos de Fortitude, Efeitos Mentais); Proteção 8, Impenetrável), Shapeshifting (Alongamento 8; Metamorfose 4 (any form), Peculiaridade: Limitado a Same Color; Variável 2 (physical traits, 10 Poder pontos, plus changing existing physical trait allocations)"
     ],
     "equipamento": [],
     "vantagens": [
@@ -55,6 +55,7 @@
     "defesas": {
       "Esquiva": 12,
       "Aparar": 12,
+      "Fortitude": null,
       "Resistência": 8,
       "Vontade": 8
     },

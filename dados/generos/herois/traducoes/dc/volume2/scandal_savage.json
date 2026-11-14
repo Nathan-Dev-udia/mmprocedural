@@ -21,20 +21,20 @@
     ],
     "vantagens": [
       "Atraente",
-      "Benefit 3 (Millionaire)",
+      "Benefício 3 (Milionário)",
       "Ataque Corpo-a-Corpo",
-      "Conectado",
+      "Bem Relacionado",
       "Rolamento Defensivo 3",
       "Equipamento",
       "Crítico Aprimorado (Laminas Pesar)",
-      "Languages 4",
+      "Idiomas 4",
       "Liderança",
       "Ação em Movimento",
-      "Precise Attack (corpo a corpo; Concealment)",
-      "Derrubar em Sequência",
+      "Ataque Preciso (Corpo a Corpo; Camuflagem)",
+      "Ataque Dominó",
       "Prender Arma",
       "Quebrar Arma",
-      "Bem-Informado"
+      "Bem Informado"
     ],
     "pericias": [
       {
@@ -48,7 +48,7 @@
         "total": 8
       },
       {
-        "nome": "Combate Corpo-a-Corpo: Laminas Pesar",
+        "nome": "Combate Corpo-a-Corpo: Lâminas Pesar",
         "graduacoes": 4,
         "total": 13
       },
@@ -58,7 +58,7 @@
         "total": 10
       },
       {
-        "nome": "Especialidade: Business",
+        "nome": "Especialidade: Negócios",
         "graduacoes": 8,
         "total": 12
       },
@@ -68,12 +68,12 @@
         "total": 8
       },
       {
-        "nome": "Especialidade: History",
+        "nome": "Especialidade: História",
         "graduacoes": 4,
         "total": 8
       },
       {
-        "nome": "Especialidade: Tactics",
+        "nome": "Especialidade: Tática",
         "graduacoes": 6,
         "total": 10
       },
@@ -124,7 +124,7 @@
         "nome": "Laminas Pesar",
         "bonus": 14,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 6, Crit. 18-20"
+        "dano": "Dano 6, Crít. 18-20"
       },
       {
         "nome": "Desarmado",
@@ -152,7 +152,7 @@
     "complicacoes": [
       {
         "titulo": "d addy i ssues",
-        "texto": "Scandal’s father, Vandal Savage is determined to make her do as he wishes. d epression: Since Knockout’s death, Scandal has been prone to bouts of drinking and depression."
+        "texto": "Scandal’s father, Vandal Savage is determined to make her do as he wishes. d epression: Since Knockout’s death, Scandal has been Caído to bouts of drinking e depression."
       }
     ]
   },

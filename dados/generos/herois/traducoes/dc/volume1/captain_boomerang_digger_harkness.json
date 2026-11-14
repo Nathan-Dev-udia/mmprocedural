@@ -15,32 +15,31 @@
     },
     "poderes": [
       "Boomerangs: Arranjo (25 pontos)",
-      "• Smokarang: À Distância Área de Nuvem 3 (60 feet) Visual Camuflagem 4 Attack, Indirect (25 PP)",
-      "• Acid Boomerang: Dano à Distância 5 (acid), Efeito Secundário, Indirect, Multiataque (1 PP)",
-      "• Bafflerang: Força-based Dano à Distância 1, Indirect, Multiataque Linked to Ofuscar 6 (visual, Fortitude), Indirect, Multiataque (1 PP)",
-      "• BOOMerang: À Distância Área de Explosão Dano 6, Indirect, Multiataque (1 PP)",
-      "• Electrorang: Dano à Distância 5, Contagioso, Indirect, Multiataque, Sustentado, Dissipação (1 PP)",
-      "• Gasserang: Área de Nuvem Aflição à Distância 6 (resistido por Fortitude; Visually Impaired, Atordoado and Visually Disabled, Incapacitado), Indirect, Multiataque (1 PP)",
-      "• Gravity Boomerang: Área de Linha 3 Aflição 5 (resistido por Fortitude; Impedido, Imóvel, Paralisado), Indirect, Multiataque (1 PP)",
-      "• Laserang: Área de Linha 4 Dano 4, Indirect, Multiataque (1 PP)",
-      "• Razorang: Dano à Distância 3, Preciso, Improved Critical, Indirect, Multiataque, Penetrante 3 (1 PP)",
-      "• Shriekerang: Força-based Dano à Distância 1, Indirect, Multiataque Linked to Ofuscar 6 (Auditory, Fortitude), Indirect, Multiataque (1 PP)",
-      "• Weighted Boomerang: Força-based Dano à Distância 3, Indirect, Multiataque (1 PP)"
+      "• Smokarang: À Distância Área de Nuvem 3 (60 pés) Visual Camuflagem 4 Attack, Indireto (25 PP)",
+      "• Ácido Boomerang: Dano à Distância 5 (Ácido), Efeito Secundário, Indireto, Multiataque (1 PP)",
+      "• Bafflerang: Força-based Dano à Distância 1, Indireto, Multiataque Ligado a Ofuscar 6 (Visual, Fortitude), Indireto, Multiataque (1 PP)",
+      "• BOOMerang: À Distância Área de Explosão Dano 6, Indireto, Multiataque (1 PP)",
+      "• Electrorang: Dano à Distância 5, Contagioso, Indireto, Multiataque, Sustentado, Dissipação (1 PP)",
+      "• Gasserang: Área de Nuvem Aflição à Distância 6 (resistido por Fortitude; Visually Prejudicado, Atordoado e Visually Desabilitado, Incapacitado), Indireto, Multiataque (1 PP)",
+      "• Gravidade Boomerang: Área de Linha 3 Aflição 5 (resistido por Fortitude; Impedido, Imóvel, Paralisado), Indireto, Multiataque (1 PP)",
+      "• Laserang: Área de Linha 4 Dano 4, Indireto, Multiataque (1 PP)",
+      "• Razorang: Dano à Distância 3, Acurado, Improved Critical, Indireto, Multiataque, Penetrante 3 (1 PP)",
+      "• Shriekerang: Força-based Dano à Distância 1, Indireto, Multiataque Ligado a Ofuscar 6 (Auditivo, Fortitude), Indireto, Multiataque (1 PP)",
+      "• Weighted Boomerang: Força-based Dano à Distância 3, Indireto, Multiataque (1 PP)"
     ],
     "equipamento": [],
     "vantagens": [
       "Finta Ágil",
       "Ataque Corpo-a-Corpo",
-      "Conectado",
+      "Bem Relacionado",
       "Rolamento Defensivo 4",
-      "Evasion",
+      "Evasão",
       "Mira Aprimorada",
       "Crítico Aprimorado (Boomerang)",
       "Iniciativa Aprimorada",
       "Inventor",
-      "Precise Attack 2 (Ranged; Cover",
-      "Concealment)",
-      "Luta Caída",
+      "Ataque Preciso 2 (À Distância; Cobertura, Camuflagem)",
+      "Luta no Chão",
       "Saque Rápido",
       "Ataque à Distância 3",
       "Maestria em Arremesso 2"
@@ -103,7 +102,7 @@
         "nome": "Boomerang",
         "bonus": 14,
         "alcance": "À distância",
-        "dano": "Dano 6 mais outros, Crit. 19-20"
+        "dano": "Dano 6 mais outros, Crít. 19-20"
       },
       {
         "nome": "Desarmado",
@@ -131,7 +130,7 @@
     "complicacoes": [
       {
         "titulo": "Play Well With Others",
-        "texto": "Captain Boomerang is difficult to work with on his best days. He’s vicious when he has the upper hand, cowardly when he doesn’t, and can’t be depended on to hold up his end of nearly any bargain."
+        "texto": "Captain Boomerang is difficult to work com on his best days. He’s vicious when he has the upper hand, cowardly when he doesn’t, e can’t be depended on to hold up his end of nearly any bargain."
       }
     ]
   },

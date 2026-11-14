@@ -15,9 +15,9 @@
     },
     "poderes": [
       "Cellular Regeneração: Regeneração 10 (10 PP)",
-      "Creep: Salto 5, Movimento 6 (Safe Fall, Sure-Footed 2, Swinging, Wall-crawling 2) (17 PP)",
-      "Nanocell Transformation Característica 1 (Transform instantly from Ryder to the Creeper) (1 PP)",
-      "Terrifying Laughter: Perception área (Auditory) Aflição 7 (resistido por Vontade; Impaired, Imóvel, Paralisado), Seletivo (21 PP)"
+      "Creep: Salto 5, Movimento 6 (Queda Segura, Passo Firme 2, Balançar-se, Escalar Paredes 2) (17 PP)",
+      "Nanocell Transformation Característica 1 (Transformar instantly from Ryder to the Creeper) (1 PP)",
+      "Terrifying Laughter: Percepção área (Auditivo) Aflição 7 (resistido por Vontade; Prejudicado, Imóvel, Paralisado), Seletivo (21 PP)"
     ],
     "equipamento": [],
     "vantagens": [
@@ -27,7 +27,7 @@
       "Derrubar Aprimorado",
       "Ação em Movimento",
       "Assustar",
-      "Provocar"
+      "Zombar"
     ],
     "pericias": [
       {
@@ -82,7 +82,13 @@
         "nome": "Desarmado",
         "bonus": 11,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 7 Terrifying Laughter— Perception área, Aflição 7, resistido por Vontade, Seletivo"
+        "dano": "Dano 7"
+      },
+      {
+        "nome": "Terrifying Laughter",
+        "bonus": null,
+        "alcance": "",
+        "dano": "Percepção área, Aflição 7, resistido por Vontade, Seletivo"
       }
     ],
     "defesas": {
@@ -104,11 +110,11 @@
     "complicacoes": [
       {
         "titulo": "Split Personality",
-        "texto": "The Creeper and Jack Ryder are two minds sharing the same body, but are often at odds with one another: the Creeper complains that Ryder holds him back, while Ryder is concerned that the Creeper might be driving him insane."
+        "texto": "The Creeper e Jack Ryder are two minds sharing the same body, but are often at odds com one another: the Creeper complains that Ryder holds him back, while Ryder is concerned that the Creeper might be driving him insane."
       },
       {
         "titulo": "Hunted",
-        "texto": "To distract those coming Corpo a Corpo to discovering the connection between Jack Ryder and the Creeper, Jack Ryder announced on his television show not only that he disapproved of vigilantes, but also offered a million dollar reward to whoever brings the Creeper to justice."
+        "texto": "To distract those coming Corpo a Corpo to discovering the connection between Jack Ryder e the Creeper, Jack Ryder announced on his television show not Apenas that he disapproved of vigilantes, but also offered a million dollar reward to whoever brings the Creeper to justice."
       }
     ]
   },

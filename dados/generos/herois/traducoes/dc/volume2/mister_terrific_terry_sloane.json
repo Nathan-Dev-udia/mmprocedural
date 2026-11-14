@@ -20,8 +20,8 @@
       "Rolamento Defensivo 3",
       "Memória Eidética",
       "Iniciativa Aprimorada",
-      "Ferramentas Improvisadas",
-      "Languages 4",
+      "Ferramentas Aprimoradas",
+      "Idiomas 4",
       "Ataque Poderoso",
       "Ataque à Distância 5"
     ],
@@ -78,7 +78,7 @@
         "nome": "Desarmado",
         "bonus": 15,
         "alcance": "",
-        "dano": "(Dano 3)"
+        "dano": "Dano 3"
       }
     ],
     "defesas": {
@@ -100,7 +100,7 @@
     "complicacoes": [
       {
         "titulo": "t hrills",
-        "texto": "Mister Terrific helps others in order to give himself a sense of excitement and fulfillment. o bsession— f air Pla y: Mister Terrific is dedicated to the concept of “fair play” for all."
+        "texto": "Mister Terrific helps others in order to give himself a sense of excitement e fulfillment. o bsession— f air Pla y: Mister Terrific is dedicated to the concept of “fair play” for all."
       }
     ]
   },

@@ -17,27 +17,27 @@
       "Martial Golpe: Penetrante Força 4 (4 PP)"
     ],
     "equipamento": [
-      "Voo Ring: Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal –3 pontos); Voo 7 (400 km/h), Removível (–3 pontos) (16 PP)",
-      "Telepathic Plug: Compreender 3 (Languages); mental Comunicação 1 (Corpo a Corpo Range), Removível (–1 ponto) (7 PP)",
-      "Transsuit: Imunidade 9 (Suporte Vital, except for Inanição and thirst), Removível (–2 ponto) (7 PP)"
+      "Voo Ring: Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal -3 pontos); Voo 7 (400 km/h), Removível (-3 pontos) (16 PP)",
+      "Telepathic Plug: Compreender 3 (Languages); Comunicação Mental 1 (Alcance Perto), Removível (-1 ponto) (7 PP)",
+      "Transsuit: Imunidade 9 (Suporte Vital, except for Fome e Sede), Removível (-2 ponto) (7 PP)"
     ],
     "vantagens": [
       "Finta Ágil",
       "Ataque Imprudente",
       "Avaliação",
-      "Benefit 1 (Legion membership)",
+      "Benefício 1 (Legion membership)",
       "Estrangular",
       "Ataque Corpo-a-Corpo",
       "Ataque Defensivo",
       "Rolamento Defensivo 2",
       "Duro de Matar",
       "Equipamento 6",
-      "Evasion",
+      "Evasão",
       "Agarrar Rápido",
       "Destemido",
-      "Grande Vigor",
+      "Tolerância Maior",
       "Mira Aprimorada",
-      "Improved Critical 2 (Desarmado)",
+      "Crítico Aprimorado 2 (Desarmado)",
       "Defesa Aprimorada",
       "Desarmar Aprimorado",
       "Agarrar Aprimorado",
@@ -47,13 +47,13 @@
       "Derrubar Aprimorado",
       "Ação em Movimento",
       "Ataque Poderoso",
-      "Luta Caída",
+      "Luta no Chão",
       "Redirecionar",
-      "Preparar",
+      "Armação",
       "Maestria em Perícia (Acrobacia)",
-      "Derrubar em Sequência 2",
+      "Ataque Dominó 2",
       "Trabalho em Equipe",
-      "Esforço Supremo (Assessment checks)",
+      "Esforço Supremo (Assessment Testes)",
       "Esquiva Fabulosa",
       "Prender Arma",
       "Quebrar Arma"
@@ -106,7 +106,7 @@
         "nome": "Martial Golpe",
         "bonus": 20,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 4, Penetrante 4, Crit. 18-20"
+        "dano": "Dano 4, Penetrante 4, Crít. 18-20"
       }
     ],
     "defesas": {
@@ -128,7 +128,7 @@
     "complicacoes": [
       {
         "titulo": "Overconfidence",
-        "texto": "Val Vontade charge any enemy in battle, regardless of their apparent level of power. ALLIES Val has the support and friendship of all other Legionnaires. In one timeline, he fell in love and married Princess Projectra, while in another he was attracted to Shadow Lass. ENEMIES Val shares enemies with the rest of the Legion."
+        "texto": "Val Vontade charge any enemy in battle, regardless of their apparent level of Poder. ALLIES Val has the support e friendship of all other Legionnaires. In one timeline, he fell in love e married Princess Projectra, while in another he was attracted to Shadow Lass. ENEMIES Val shares enemies com the rest of the Legion."
       }
     ]
   },

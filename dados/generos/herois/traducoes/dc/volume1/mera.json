@@ -14,15 +14,15 @@
       "Pre": 3
     },
     "poderes": [
-      "Aquatic (see Aquaman ); Hard Water Powers: Criar Objetos 10. Movable, AE: Damaging Mover Objetos 10; Natação 8 (192 km/h)"
+      "Aquatic (see Aquaman ); Hard Water Poderes: Criar Objetos 10. Movable, AE: Damaging Mover Objetos 10; Natação 8 (192 km/h)"
     ],
     "equipamento": [],
     "vantagens": [
       "Ataque Imprudente",
-      "Benefit 3 (Queen of Atlantis)",
+      "Benefício 3 (Queen of Atlantis)",
       "Rolamento Defensivo",
       "Ambiente Favorito (Aquatic)",
-      "Languages (Atlantean)",
+      "Idiomas (Atlantean)",
       "Ataque Poderoso"
     ],
     "pericias": [
@@ -52,7 +52,7 @@
         "total": 7
       },
       {
-        "nome": "Combate à Distância: Throwing",
+        "nome": "Combate à Distância: Arremesso",
         "graduacoes": 4,
         "total": 7
       }
@@ -63,7 +63,7 @@
         "nome": "Desarmado",
         "bonus": 10,
         "alcance": "",
-        "dano": "(Dano 9)"
+        "dano": "Dano 9"
       }
     ],
     "defesas": {

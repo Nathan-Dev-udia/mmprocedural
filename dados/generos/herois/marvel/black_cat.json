@@ -31,14 +31,14 @@
     },
     "pericias": {
       "Acrobacia": 12,
-      "Enganacao": 6,
+      "Enganação": 6,
       "Atletismo": 12,
       "Tecnologia": 8,
       "Veículos": 8,
-      "Prestidigitacao": 8,
+      "Prestidigitação": 8,
       "Especialidade: Criminal": 8,
-      "Percepcao": 10,
-      "Intuicao": 8,
+      "Percepção": 10,
+      "Intuição": 8,
       "Furtividade": 12
     },
     "vantagens": [

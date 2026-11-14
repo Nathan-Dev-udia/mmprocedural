@@ -14,11 +14,11 @@
       "Pre": 2
     },
     "poderes": [
-      "Aquatic (see Aquaman ); mágico 11 (common spells include Dimensional Travel 2 (Mystic Dimensions), Mover Objetos 11, and Dano à Distância 11); Natação 9 (400 km/h)"
+      "Aquatic (see Aquaman ); Magia 11 (common spells include Viagem Dimensional 2 (Místico Dimensions), Mover Objetos 11, e Dano à Distância 11); Natação 9 (400 km/h)"
     ],
     "equipamento": [],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Empatia com Animais",
       "Ataque Defensivo",
       "Rolamento Defensivo",
@@ -41,7 +41,7 @@
         "total": 9
       },
       {
-        "nome": "Especialidade: mágico",
+        "nome": "Especialidade: Magia",
         "graduacoes": 8,
         "total": 10
       },
@@ -61,7 +61,7 @@
         "total": 8
       },
       {
-        "nome": "Combate à Distância: mágico",
+        "nome": "Combate à Distância: Magia",
         "graduacoes": 6,
         "total": 9
       },
@@ -74,7 +74,7 @@
     "iniciativa": 3,
     "ataques": [
       {
-        "nome": "mágico Raio",
+        "nome": "Magia Raio",
         "bonus": 9,
         "alcance": "",
         "dano": "Dano 11"

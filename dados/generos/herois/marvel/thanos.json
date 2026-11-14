@@ -41,16 +41,16 @@
     },
     "vantagens": [
       "Ataque Corpo-a-Corpo 5",
-      "Fascinar [Intimidate]",
+      "Fascinar (Intimidação)",
       "Destemido",
       "Inspirar",
       "Inventor",
-      "Jack of All Trades"
+      "Faz Tudo"
     ],
     "poderes": [
       {
         "nome": "Cosmic Energy Control",
-        "construcao_3e": "Array de Energia Cósmica: Dano Cósmico à Distância 12 Penetrante 12 (36 PP); Efeito Alternativo: Teletransporte 12 (1 PP) = 37 PP.",
+        "construcao_3e": "Arranjo de Energia Cósmica: Dano Cósmico à Distância 12 Penetrante 12 (36 PP); Efeito Alternativo: Teletransporte 12 (1 PP) = 37 PP.",
         "custo_2e_pp": 37,
         "custo_3e_pp": 37,
         "nome_pt": "Controle de Energia Cósmica e Teletransporte"
@@ -99,7 +99,7 @@
       },
       {
         "nome": "Super Strength",
-        "construcao_3e": "Super-Força / Power-Lifting 13 (13 PP).",
+        "construcao_3e": "Super-Força / Levantamento de Peso 13 (13 PP).",
         "custo_2e_pp": 26,
         "custo_3e_pp": 13,
         "nome_pt": "Super-Força Colossal"

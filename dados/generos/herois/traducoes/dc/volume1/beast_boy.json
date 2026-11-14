@@ -14,11 +14,11 @@
       "Pre": 3
     },
     "poderes": [
-      "Mudar de Forma: Variável (Animal Forms) 9, Ação de Movimento, Limitado a Animals, Peculiaridade (Always Green) (62 PP)"
+      "Mudar de Forma: Variável (Animal Forms) 9, Ação de Movimento, Limitado a Animais, Peculiaridade (Always Green) (62 PP)"
     ],
     "equipamento": [],
     "vantagens": [
-      "Provocar",
+      "Zombar",
       "Trabalho em Equipe"
     ],
     "pericias": [
@@ -66,11 +66,11 @@
     "complicacoes": [
       {
         "titulo": "Thrills",
-        "texto": "Gar inherited his parents’ love of excitement and adventure, seeking thrills in super heroics just as they did in their scientific endeavors."
+        "texto": "Gar inherited his parents’ love of excitement e adventure, seeking thrills in super heroics just as they did in their scientific endeavors."
       },
       {
         "titulo": "Relacionamento",
-        "texto": "Gar has lived most of his life as an outsider, and is especially Corpo a Corpo to past and present teammates who share that condition, namely Robotman and Cyborg. He also has a knack for complicated romantic entanglements, falling for the traitorous Terra then the demonically influenced Raven."
+        "texto": "Gar has lived most of his life as an outsider, e is especially Corpo a Corpo to past e present teammates who share that condition, namely Robotman e Cyborg. He also has a knack for complicated romantic entanglements, falling for the traitorous Terra then the demonically influenced Raven."
       }
     ]
   },

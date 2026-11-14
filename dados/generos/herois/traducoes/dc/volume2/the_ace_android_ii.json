@@ -14,7 +14,7 @@
       "Pre": "—"
     },
     "poderes": [
-      "a ndr oid Body (Força Aprimorada 4 (Limitado a Lifting; lifting Str 18, 6,000 tons), Característica 1 (Turn Self Yellow), Imunidade 30 (Fortitude effects), Proteção 14), f lame a ura (Dano 8, Reação), f lame Blasts (Dano à Distância 13, Preciso 2), n ullify 11 (Gravity effects, Concentração)), f lying Ca rd (Voo 6 (192 km/h), Platform)"
+      "a ndr oid Body (Força Aprimorada 4 (Limitado a Lifting; lifting Str 18, 6,000 toneladas), Característica 1 (Turn Self Yellow), Imunidade 30 (Efeitos de Fortitude), Proteção 14), f lame a ura (Dano 8, Reação), f lame Blasts (Dano à Distância 13, Acurado 2), n ullify 11 (Gravidade Efeitos, Concentração)), f lying Ca rd (Voo 6 (192 km/h), Platform)"
     ],
     "equipamento": [],
     "vantagens": [
@@ -47,7 +47,9 @@
     "defesas": {
       "Esquiva": 10,
       "Aparar": 10,
-      "Resistência": 14
+      "Fortitude": null,
+      "Resistência": 14,
+      "Vontade": null
     },
     "observacao_defesas": "",
     "custos": {

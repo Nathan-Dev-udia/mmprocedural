@@ -19,7 +19,7 @@
       "Cura Factor: Imortalidade 6, Regeneração 18 (30 PP)",
       "Invulnerability: Imunidade 10 (Suporte Vital), Resistência Impenetrável 20 (30 PP)",
       "Salto: Salto 10 (4 milhas) (10 PP)",
-      "Super-Força: Força Aprimorada 4, Limitado a Lifting (Lifting Str 24, 400,000 tons) (4 PP)"
+      "Super-Força: Força Aprimorada 4, Limitado a Lifting (Lifting Str 24, 400,000 toneladas) (4 PP)"
     ],
     "equipamento": [],
     "vantagens": [
@@ -27,12 +27,12 @@
       "Duro de Matar",
       "Agarrar Rápido",
       "Destemido",
-      "Grande Vigor",
+      "Tolerância Maior",
       "Crítico Aprimorado (Bone Spurs)",
       "Iniciativa Aprimorada",
       "Imobilizar Aprimorado",
       "Ataque Poderoso",
-      "Derrubar em Sequência"
+      "Ataque Dominó"
     ],
     "pericias": [
       {
@@ -51,7 +51,7 @@
         "total": 4
       },
       {
-        "nome": "Combate à Distância: Throwing",
+        "nome": "Combate à Distância: Arremesso",
         "graduacoes": 6,
         "total": 7
       }
@@ -62,7 +62,7 @@
         "nome": "Bone Spurs",
         "bonus": 10,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 22, Crit. 19-20"
+        "dano": "Dano 22, Crít. 19-20"
       },
       {
         "nome": "Desarmado",
@@ -90,7 +90,7 @@
     "complicacoes": [
       {
         "titulo": "Ódio",
-        "texto": "Doomsday hates all things Kryptonian and can sense Kryptonian life-forms due to the nature of its origins."
+        "texto": "Doomsday hates all things Kryptonian e can sense Kryptonian life-forms due to the nature of its origins."
       }
     ]
   },

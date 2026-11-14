@@ -54,7 +54,7 @@
       },
       {
         "nome": "Super-Speed 8",
-        "construcao_3e": "Velocidade 8 (8 PP) + Rapidez 8 (8 PP) + Array de Façanhas de Velocidade (Ataque Rápido, Correr sobre a Água, Correr em Paredes, Golpe Dinâmico, Invisibilidade de Movimento; 31 PP). Total do poder: 47 PP (custo original da fonte preservado).",
+        "construcao_3e": "Velocidade 8 (8 PP) + Rapidez 8 (8 PP) + Arranjo de Façanhas de Velocidade (Ataque Rápido, Correr sobre a Água, Correr em Paredes, Golpe Dinâmico, Invisibilidade de Movimento; 31 PP). Total do poder: 47 PP (custo original da fonte preservado).",
         "custo_2e_pp": 47,
         "custo_3e_pp": 47,
         "nome_pt": "Super-Velocidade"

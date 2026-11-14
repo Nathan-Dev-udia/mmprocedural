@@ -14,14 +14,14 @@
       "Pre": 4
     },
     "poderes": [
-      "Cosmic Arranjo (29 pontos), Facilmente Removível (–12 pontos) k e y: (18 PP)",
-      "Total • Movimento 1 (Dimensional—Ghost Zone), Additional graduações 13 (Limitado a increase CD), Attack (resistido por Esquiva), Perception À Distância, Limitado a Corpo a Corpo Distance (29 PP)",
-      "• Movimento 1 (Dimensional—Ghost Zone), Affects Others (1 PP)",
-      "Gauntlets: Arranjo, Removível (–2 pontos) (9 PP)",
-      "Total • Bullets: Dano à Distância 5 (10 PP)",
+      "Cósmico Arranjo (29 pontos), Facilmente Removível (-12 pontos) k e y: (18 PP)",
+      "Total • Movimento 1 (Dimensional—Ghost Zone), Additional graduações 13 (Limitado a increase CD), Attack (resistido por Esquiva), Percepção À Distância, Limitado a Corpo a Corpo Distance (29 PP)",
+      "• Movimento 1 (Dimensional—Ghost Zone), Afeta Outros (1 PP)",
+      "Gauntlets: Arranjo, Removível (-2 pontos) (9 PP)",
+      "Total • Balas: Dano à Distância 5 (10 PP)",
       "• n eur o- t o xin d arts: Aflição à Distância 5 (resistido por Fortitude; Tonto, Atordoado, Incapacitado) (1 PP)",
-      "Helmet: Removível (–10 pontos) (40 PP)",
-      "Total n eur al d ownload: Variável 2 (10 pontos), Limitado a Enhanced"
+      "Helmet: Removível (-10 pontos) (40 PP)",
+      "Total n eur al d ownload: Variável 2 (10 pontos), Limitado a Aprimorado"
     ],
     "equipamento": [],
     "vantagens": [],
@@ -99,6 +99,12 @@
     ],
     "iniciativa": 9,
     "ataques": [
+      {
+        "nome": "Cósmico Key",
+        "bonus": null,
+        "alcance": "",
+        "dano": "Esquiva CD 24, Movimento (Dimensional— Ghost Zone)"
+      },
       {
         "nome": "Gauntlets",
         "bonus": 11,

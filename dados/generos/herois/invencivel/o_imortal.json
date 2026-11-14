@@ -55,8 +55,8 @@
       "Tolerância Maior"
     ],
     "poderes": [
-      "**Imortal... duh**: Imortalidade 10 (1 hora. **Falhas**: Limitado \\-1 \\[Exige o corpo estar todo completo \\- especialmente órgãos vitais\\]), Imunidade 3 (Doenças, Envelhecimento, Venenos), Regeneração 5; 18 pontos",
-      "**Voo**: Voo 9 (4 km/mov. \\- 2.000 km/h); 18 pontos"
+      "**Imortal... duh**: Imortalidade 10 (1 hora. **Falhas**: Limitado -1 [Exige o corpo estar todo completo - especialmente órgãos vitais]), Imunidade 3 (Doenças, Envelhecimento, Venenos), Regeneração 5; 18 pontos",
+      "**Voo**: Voo 9 (4 km/mov. - 2.000 km/h); 18 pontos"
     ],
     "equipamento": [],
     "iniciativa": 3,
@@ -106,7 +106,7 @@
       },
       {
         "titulo": "Relacionamento (Dupli-Kate)",
-        "texto": "Os dois acabam se casando depois que um breve caso se torna sério. Ele confessa que Kate o faz sentir-se JOVEM novamente, e ela se gaba de envolvê-lo em seu dedo mindinho \\- fazendo-o se estabelecer, se aposentar e começar uma família."
+        "texto": "Os dois acabam se casando depois que um breve caso se torna sério. Ele confessa que Kate o faz sentir-se JOVEM novamente, e ela se gaba de envolvê-lo em seu dedo mindinho - fazendo-o se estabelecer, se aposentar e começar uma família."
       },
       {
         "titulo": "Rivalidade (Invencível)",

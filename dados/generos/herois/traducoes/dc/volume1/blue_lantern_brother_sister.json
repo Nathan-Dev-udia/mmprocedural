@@ -14,7 +14,7 @@
       "Pre": 6
     },
     "poderes": [
-      ": Power Ring* ( Característica: The Power of Hope (see sidebar); Force Manipulation: 40-ponto Arranjo; AE: Revitalize: Cura 20; AE: Hope Burns Bright: Nulificar 20 (Orange, Red, or Yellow power ring effects); Limitado a when a Green Lantern is within Alcance de Percepção) * Functions as a Green Lantern power ring except as noted here."
+      ": Poder Ring* ( Característica: The Poder of Hope (see sidebar); Force Manipulation: 40-ponto Arranjo; AE: Revitalize: Cura 20; AE: Hope Burns Bright: Nulificar 20 (Orange, Red, or Yellow Poder ring Efeitos); Limitado a when a Green Lantern is within Alcance de Percepção) * Functions as a Green Lantern Poder ring except as noted here."
     ],
     "equipamento": [],
     "vantagens": [
@@ -40,7 +40,7 @@
         "total": 10
       },
       {
-        "nome": "Combate à Distância: Power Ring",
+        "nome": "Combate à Distância: Poder Ring",
         "graduacoes": 10,
         "total": 12
       }
@@ -51,7 +51,7 @@
         "nome": "Force Raio",
         "bonus": 12,
         "alcance": "",
-        "dano": "(Dano à Distância 14)"
+        "dano": "Dano à Distância 14"
       }
     ],
     "defesas": {

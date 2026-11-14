@@ -14,7 +14,7 @@
       "Pre": 2
     },
     "poderes": [
-      "Power Siphon: Removível (–12 pontos) (52 PP)",
+      "Poder Siphon: Removível (-12 pontos) (52 PP)",
       "Campo de Força: Proteção 12, Impenetrável; Imunidade 10 (Suporte Vital) (34 PP)",
       "Force Manipulation: Arranjo (28 pontos)",
       "• Force Raio: Dano à Distância 14 (28 PP)",
@@ -57,7 +57,7 @@
         "total": 7
       },
       {
-        "nome": "Combate à Distância: Power Siphon",
+        "nome": "Combate à Distância: Poder Siphon",
         "graduacoes": 6,
         "total": 8
       },
@@ -88,7 +88,7 @@
       "Resistência": 13,
       "Vontade": 14
     },
-    "observacao_defesas": "*Without Campo de Força",
+    "observacao_defesas": "*sem Campo de Força",
     "custos": {
       "Habilidades": 30,
       "Perícias": 21,
@@ -100,7 +100,7 @@
     "complicacoes": [
       {
         "titulo": "Arrogant",
-        "texto": "Black Hand has a very high opinion of himself and his Abilities, and loves to gloat given the opportunity."
+        "texto": "Black Hand has a very high opinion of himself e his Habilidades, e loves to gloat given the opportunity."
       }
     ]
   },

@@ -14,12 +14,12 @@
       "Pre": 5
     },
     "poderes": [
-      "155 Defenses 22"
+      "155 Defesas 22"
     ],
     "equipamento": [],
     "vantagens": [
       "3 Total 279 a Co MPL i C tion S e A mystic elemental",
-      "Swamp Thing has a lemen tal: responsibility to the Green. Plant: Swamp Thing is made up of plants and is affected by anything that affects plants. r elationship: Swamp Thing has a wife (Abby) and a daughter (Téfe) ."
+      "Swamp Thing has a lemen tal: responsibility to the Green. Plant: Swamp Thing is made up of plants and is affected by anything that affects plants. r elationship: Swamp Thing has a wife (Abby) and a daughter (Téfe)."
     ],
     "pericias": [],
     "iniciativa": 0,
@@ -32,7 +32,9 @@
       "Vontade": 15
     },
     "observacao_defesas": "",
-    "custos": {},
+    "custos": {
+      "Habilidades": 84
+    },
     "total": null,
     "complicacoes": []
   },

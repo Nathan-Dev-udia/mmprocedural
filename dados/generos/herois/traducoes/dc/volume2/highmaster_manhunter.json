@@ -14,7 +14,7 @@
       "Pre": 0
     },
     "poderes": [
-      "a rmor (Proteção 6, Resistência Impenetrável 14), f ligh t (Voo 8 (800 km/h), ae : Movimento 4 (Environmental Adaptation: Zero-G, Space Travel 3)), Hand Raio (Dano à Distância 12, Penetrante 12), r obot (Crescimento 8 (Permanente, Inato), Imunidade 40 (Fortitude effects, mental effects), Super- Sentidos (Sentidos 4, (Visão no Escuro, Rádio, Ultra-Audição)), Universal t r anslator (Compreender 3, (Read, Speak, Understand)), Willhunter t endrils (Aflição 14 (resistido por Vontade; Entranced, Indefeso, Controlado), Cumulativo, Progressivo, Reach 2, Sutil, Baseado em Agarrar)"
+      "a rmor (Proteção 6, Resistência Impenetrável 14), f Luz (Voo 8 (800 km/h), ae : Movimento 4 (Adaptação Ambiental: Zero-G, Viagem Espacial 3)), Hand Raio (Dano à Distância 12, Penetrante 12), r obot (Crescimento 8 (Permanente, Inato), Imunidade 40 (Efeitos de Fortitude, Efeitos Mentais), Super- Sentidos (Sentidos 4, (Visão no Escuro, Rádio, Ultra-Audição)), Universal t r anslator (Compreender 3, (Read, Speak, Understand)), Willhunter t endrils (Aflição 14 (resistido por Vontade; Em Transe, Indefeso, Controlado), Cumulativo, Progressivo, Reach 2, Sutil, Baseado em Agarrar)"
     ],
     "equipamento": [],
     "vantagens": [
@@ -69,6 +69,7 @@
     "defesas": {
       "Esquiva": 8,
       "Aparar": 8,
+      "Fortitude": null,
       "Resistência": 14,
       "Vontade": 8
     },
@@ -84,11 +85,11 @@
     "complicacoes": [
       {
         "titulo": "ing o v erride",
-        "texto": "If an engulfed Green Lantern breaks free of the Willhunters’ influence, the prisoner may use his power ring to initiate a Vontade check opposed by the Willhunter’s power graduação. Failure means the Green Lantern may be affected normally by the Willhunters in subsequent rounds; success instead places the Highmaster under the Green Lantern’s control as though affected by a similar Aflição power of a graduação equal to the Green Lantern’s Vontade modifier."
+        "texto": "If an engulfed Green Lantern breaks free of the Willhunters’ influence, the prisoner may use his Poder ring to initiate a Vontade Teste opposed by the Willhunter’s Poder graduação. Failure means the Green Lantern may be affected normally by the Willhunters in subsequent rounds; success instead places the Highmaster under the Green Lantern’s control as though affected by a similar Aflição Poder of a graduação equal to the Green Lantern’s Vontade modifier."
       },
       {
         "titulo": "Self- estruct",
-        "texto": "Highmasters contain a deadly, nuclear-level self- d destruct Dispositivo to be employed as a defense against capture. Using this ability destroys the Highmaster utterly. Área de Explosão 8 Dano 15, Gatilho (timer)."
+        "texto": "Highmasters contain a deadly, nuclear-level self- d destruct Dispositivo to be employed as a defense contra capture. Using this Habilidade destroys the Highmaster utterly. Área de Explosão 8 Dano 15, Gatilho (timer)."
       }
     ]
   },

@@ -14,16 +14,16 @@
       "Pre": 4
     },
     "poderes": [
-      "a qua tic (Imunidade 3 (Frio, Afogamento, Pressão), Movimento 1 (Environmental Adaptation (Aquatic), Sentidos 2 (Visão na Penumbra, Tracking (Olfactory)); Claws and t eeth (Força-based Dano 4, Penetrante 6, Improved Critical); r egeneration (Regeneração 2); Sharkskin (Proteção 4); Natação (Natação 7 (96 km/h))"
+      "a qua tic (Imunidade 3 (Frio, Afogamento, Pressão), Movimento 1 (Adaptação Ambiental (Aquatic), Sentidos 2 (Visão na Penumbra, Rastrear (Olfativo)); Claws e t eeth (Força-based Dano 4, Penetrante 6, Improved Critical); r egeneration (Regeneração 2); Sharkskin (Proteção 4); Natação (Natação 7 (96 km/h))"
     ],
     "equipamento": [],
     "vantagens": [
       "Ataque Imprudente",
-      "Benefit 2 (Cipher 2)",
+      "Benefício 2 (Cifra 2)",
       "Duro de Matar",
       "Destemido",
-      "Grande Vigor",
-      "Derrubar em Sequência 2"
+      "Tolerância Maior",
+      "Ataque Dominó 2"
     ],
     "pericias": [
       {
@@ -45,10 +45,10 @@
     "iniciativa": 4,
     "ataques": [
       {
-        "nome": "Claws and Teeth",
+        "nome": "Claws e Teeth",
         "bonus": 8,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 14, Penetrante 6, Crit. 19-20"
+        "dano": "Dano 14, Penetrante 6, Crít. 19-20"
       }
     ],
     "defesas": {
@@ -70,11 +70,11 @@
     "complicacoes": [
       {
         "titulo": "a p ex Predator",
-        "texto": "King Shark is a powerful and vicious mercenary not for money or fame, but because it’s in his nature to hunt and kill."
+        "texto": "King Shark is a powerful e vicious mercenary not for money or fame, but because it’s in his nature to hunt e kill."
       },
       {
         "titulo": "Bloodlust",
-        "texto": "King Shark often loses control of himself in combat and attacks blindly, without regard for his own safety or thinking about tactics. f a ther’s Son: King Shark is the son of the Shark God known as the King of All Sharks and is sometimes used as a pawn by his father. King Shark does as his father commands, but it’s unknown if it’s by choice or due to the Shark God’s influence."
+        "texto": "King Shark often loses control of himself in combat e attacks blindly, sem regard for his own safety or thinking about Tática. f a ther’s Son: King Shark is the son of the Shark God known as the King of All Sharks e is sometimes used as a pawn by his father. King Shark does as his father commands, but it’s unknown if it’s by choice or due to the Shark God’s influence."
       }
     ]
   },

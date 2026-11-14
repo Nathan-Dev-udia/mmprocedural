@@ -14,21 +14,21 @@
       "Pre": 3
     },
     "poderes": [
-      "H.I.V.E. Prototypes (Arranjo (18 pontos), Removível (-4 pontos), Teleporter (Teleporte 18, 1,000 mile range; Limitado a teleporting to nearest H.I.V.E. base), AE: Computer-Targeted Laser (Dano à Distância 5, Preciso 2, Penetrante 5), AE: Vitality Siphon (À Distância Enfraquecer 6, resistido por Fortitude, Broad (Abilities)); H.I.V.E. Armor (Proteção 6, Sutil, Removível)"
+      "H.I.V.E. Prototypes (Arranjo (18 pontos), Removível (-4 pontos), Teleporter (Teleporte 18, 1,000 mile range; Limitado a teleporting to nearest H.I.V.E. base), AE: Computer-Targeted Laser (Dano à Distância 5, Acurado 2, Penetrante 5), AE: Vitality Siphon (À Distância Enfraquecer 6, resistido por Fortitude, Amplo (Habilidades)); H.I.V.E. Armor (Proteção 6, Sutil, Removível)"
     ],
     "equipamento": [
       "H.I.V.E. Communicator"
     ],
     "vantagens": [
       "Avaliação",
-      "Benefit 2 (Cipher 2)",
-      "Conectado",
+      "Benefício 2 (Cifra 2)",
+      "Bem Relacionado",
       "Ataque Defensivo",
       "Rolamento Defensivo 2",
       "Equipamento",
-      "Evasion",
+      "Evasão",
       "Inventor",
-      "Languages 2",
+      "Idiomas 2",
       "Liderança",
       "Saque Rápido"
     ],
@@ -77,6 +77,12 @@
     "iniciativa": 2,
     "ataques": [
       {
+        "nome": "Computer-Targeted Laser +10t",
+        "bonus": null,
+        "alcance": "",
+        "dano": "Dano à Distância 5, Penetrante 5"
+      },
+      {
         "nome": "Vitality Siphon",
         "bonus": 9,
         "alcance": "",
@@ -90,7 +96,7 @@
       "Resistência": 8,
       "Vontade": 10
     },
-    "observacao_defesas": "*, Vontade 10 *Without H.I.V.E. Armor.",
+    "observacao_defesas": "*, Vontade 10 *sem H.I.V.E. Armor.",
     "custos": {
       "Habilidades": 38,
       "Poderes": 22,
@@ -102,7 +108,7 @@
     "complicacoes": [
       {
         "titulo": "Motivação",
-        "texto": "Power and scientific domination."
+        "texto": "Poder e scientific domination."
       },
       {
         "titulo": "Segredo",

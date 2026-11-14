@@ -18,11 +18,10 @@
     ],
     "equipamento": [],
     "vantagens": [
-      "Benefit 2 (Independently Wealthy)",
-      "Conectado",
+      "Benefício 2 (Independentemente Rico)",
+      "Bem Relacionado",
       "Rolamento Defensivo 2",
-      "Languages (English",
-      "French is native)",
+      "Idiomas (Inglês, Francês is native)",
       "Maestria em Perícia (Furtividade)"
     ],
     "pericias": [
@@ -52,7 +51,7 @@
         "total": 7
       },
       {
-        "nome": "Especialidade: Streetwise",
+        "nome": "Especialidade: Manha",
         "graduacoes": 1,
         "total": 3
       },
@@ -84,6 +83,12 @@
         "bonus": 5,
         "alcance": "Corpo a corpo",
         "dano": "Dano 3"
+      },
+      {
+        "nome": "Warp Dividido",
+        "bonus": null,
+        "alcance": "Percepção",
+        "dano": "Dano 10, Penetrante 10"
       }
     ],
     "defesas": {
@@ -105,7 +110,7 @@
     "complicacoes": [
       {
         "titulo": "The High Life",
-        "texto": "Warp enjoys living an expensive, jet-set lifestyle, and Vontade not settle for anything but the best. This make him somewhat predictable in his tastes and personal habits.."
+        "texto": "Warp enjoys living an expensive, jet-set lifestyle, e Vontade not settle for anything but the best. This make him somewhat predictable in his tastes e personal habits.."
       }
     ]
   },

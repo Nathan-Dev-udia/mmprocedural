@@ -14,12 +14,12 @@
       "Pre": 3
     },
     "poderes": [
-      "and free her - self of her curse by gathering a series of mystical artifacts— though not always in that order. While pursuing her plans the Silver Banshee often finds herself opposing various heroes, including Superman and Supergirl."
+      "e free her - self of her curse by gathering a series of mystical artifacts— though not always in that order. While pursuing her plans the Silver Banshee often finds herself opposing various heroes, including Superman e Supergirl."
     ],
     "equipamento": [],
     "vantagens": [
       "5 Total 305 Co MPL i C tion S a Cursed: The Silver Banshee has returned to “life” a number of times",
-      "each time in service to a greater power or to whom she’s beholden. Her life is not her own. d eadly: Silver Banshee freely uses her deadly Abilities on anyone in her way."
+      "each time in service to a greater power or to whom she's beholden. Her life is not her own. d eadly: Silver Banshee freely uses her deadly Abilities on anyone in her way."
     ],
     "pericias": [
       {
@@ -33,7 +33,7 @@
         "total": 7
       },
       {
-        "nome": "Especialidade: mágico",
+        "nome": "Especialidade: Magia",
         "graduacoes": 2,
         "total": 4
       },
@@ -48,7 +48,7 @@
         "total": 9
       },
       {
-        "nome": "Combate à Distância: Supernatural Sonic Powers",
+        "nome": "Combate à Distância: Supernatural Sônico Poderes",
         "graduacoes": 9,
         "total": 11
       }
@@ -56,20 +56,15 @@
     "iniciativa": 8,
     "ataques": [
       {
-        "nome": "Banshee Wail",
+        "nome": "Banshee Wail +11 À Distância, Dano 11, Aflição",
         "bonus": 11,
-        "alcance": "À distância",
-        "dano": "Dano 11, Aflição 11 (Fortitude CD 21), possibly Enfraquecer Vigor 11"
-      },
-      {
-        "nome": "Desarmado",
-        "bonus": 10,
-        "alcance": "Corpo a corpo",
-        "dano": "Dano 6, Crit. 19-20"
+        "alcance": "",
+        "dano": "Fortitude CD 21"
       }
     ],
     "defesas": {
       "Esquiva": 12,
+      "Fortitude": null,
       "Aparar": 10,
       "Resistência": 10,
       "Vontade": 10

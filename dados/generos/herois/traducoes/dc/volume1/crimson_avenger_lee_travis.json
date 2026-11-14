@@ -15,31 +15,30 @@
     },
     "poderes": [
       "Gunplay: Arranjo (2 pontos)",
-      "• Training: Enhanced Skill 2 (À Distância Combat: Guns +4) (2 PP)",
-      "• Independent Aim: May fogo two guns of Dano 4 or less at once (Característica 1) (1 PP)"
+      "• Training: Perícia Aprimorada 2 (À Distância Combat: Armas de Fogo +4) (2 PP)",
+      "• Independent Aim: May Fogo two Armas de Fogo of Dano 4 or less at once (Característica 1) (1 PP)"
     ],
     "equipamento": [
       "Twin Colt .45 Automatics: Dano à Distância 4 (16 PP)",
       "VEHICLE : ROLLS ROYCE (12 PP)",
-      "Size: Huge, Str 8, Spd 5, Def 8, Tou 12 Features: Cloaking Dispositivo (Hearing)"
+      "Size: Huge, Str 8, Spd 5, Def 8, Tou 12 Características: Cloaking Dispositivo (Audição)"
     ],
     "vantagens": [
-      "Benefit 1 (Well-off)",
-      "Conectado",
+      "Benefício 1 (Abastado)",
+      "Bem Relacionado",
       "Ataque Defensivo",
       "Rolamento Defensivo 4",
       "Equipamento 6",
-      "Evasion",
+      "Evasão",
       "Defesa Aprimorada",
       "Iniciativa Aprimorada",
       "Arma Improvisada 2",
-      "Languages 2 (Spanish",
-      "Tibetan)",
+      "Idiomas 2 (Espanhol, Tibetan)",
       "Ataque Poderoso",
       "Saque Rápido",
-      "Sidekick 5 (Wing How)",
+      "Parceiro 5 (Wing How)",
       "Assustar",
-      "Derrubar em Sequência",
+      "Ataque Dominó",
       "Esquiva Fabulosa"
     ],
     "pericias": [
@@ -89,7 +88,7 @@
         "total": 5
       },
       {
-        "nome": "Combate à Distância: Guns",
+        "nome": "Combate à Distância: Armas de Fogo",
         "graduacoes": 3,
         "total": 6
       },
@@ -139,7 +138,7 @@
     "complicacoes": [
       {
         "titulo": "Justice",
-        "texto": "The Crimson Avenger is motivated by a desire to see justice served. ALLIES The Crimson Avenger counts a number of “Golden Age” super heroes as allies, including the Sandman (to whom he gave his gas gun) and the All-Star Squadron."
+        "texto": "The Crimson Avenger is motivated by a desire to see justice served. ALLIES The Crimson Avenger counts a number of “Golden Age” super heroes as allies, including the Sandman (to whom he gave his gas gun) e the All-Star Squadron."
       }
     ]
   },

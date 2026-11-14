@@ -15,24 +15,24 @@
     },
     "poderes": [
       "Blindsight: Sentidos 2 (Visão no Escuro), Inato (3 PP)",
-      "Blackout Bombs: Visual Camuflagem 2 (Normal Sight), Área de Nuvem 2 (30 feet), Attack, Contracted Range 2, Peculiaridade: Can be blown away by strong winds, etc. even while being Sustentado (-1 ponto), Removível (-2 pontos) (7 PP)",
+      "Blackout Bombs: Visual Camuflagem 2 (Normal Visão), Área de Nuvem 2 (30 pés), Attack, Contracted Range 2, Peculiaridade: Can be blown away by strong winds, etc. even while being Sustentado (-1 ponto), Removível (-2 pontos) (7 PP)",
       "Goggles: Característica 1 (Compensate for blindness), Removível (1 PP)",
-      "Night-Luta: Enhanced Skill 8 (Deception +8), Limitado: Only for use with Redirect, Limitado: Only in Camuflagem (1 PP)"
+      "Night-Luta: Perícia Aprimorada 8 (Enganação +8), Limitado: Apenas for use com Redirect, Limitado: Apenas in Camuflagem (1 PP)"
     ],
     "equipamento": [],
     "vantagens": [
       "Ataque Imprudente",
       "Ataque Defensivo",
       "Rolamento Defensivo 2",
-      "Ambiente Favorito (Darkness)",
-      "Improved Critical 2 (Desarmado)",
+      "Ambiente Favorito (Escuridão)",
+      "Crítico Aprimorado 2 (Desarmado)",
       "Iniciativa Aprimorada",
       "Liderança",
       "Capanga 4",
       "Ataque Poderoso",
-      "Precise Attack (corpo a corpo; Concealment)",
+      "Ataque Preciso (Corpo a Corpo; Camuflagem)",
       "Redirecionar",
-      "Preparar",
+      "Armação",
       "Esforço Supremo (Tratamento)"
     ],
     "pericias": [
@@ -93,7 +93,7 @@
         "nome": "Desarmado",
         "bonus": 13,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 3, Crit. 18-20"
+        "dano": "Dano 3, Crít. 18-20"
       }
     ],
     "defesas": {
@@ -115,11 +115,11 @@
     "complicacoes": [
       {
         "titulo": "Blind",
-        "texto": "Without his special goggles, Doctor Mid-Nite is completely Cego, except in pitch blackness."
+        "texto": "sem his special goggles, Doctor Mid-Nite is completely Cego, except in pitch blackness."
       },
       {
         "titulo": "Focused",
-        "texto": "Doctor Mid-Nite Vontade chase down his objective with a dogged determination, but it sometimes means he misses important events happening just outside his view."
+        "texto": "Doctor Mid-Nite Vontade chase down his objective com a dogged determination, but it sometimes means he misses important events happening just outside his view."
       }
     ]
   },

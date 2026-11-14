@@ -16,8 +16,8 @@
     "poderes": [],
     "equipamento": [],
     "vantagens": [
-      "Benefit 2 (military graduação)",
-      "Conectado",
+      "Benefício 2 (Militar graduação)",
+      "Bem Relacionado",
       "Duro de Matar"
     ],
     "pericias": [
@@ -32,7 +32,7 @@
         "total": 8
       },
       {
-        "nome": "Especialidade: Military",
+        "nome": "Especialidade: Militar",
         "graduacoes": 8,
         "total": 9
       },
@@ -52,7 +52,7 @@
         "total": 5
       },
       {
-        "nome": "Combate à Distância: Guns",
+        "nome": "Combate à Distância: Armas de Fogo",
         "graduacoes": 6,
         "total": 8
       },
@@ -95,8 +95,14 @@
       "Vontade": 6
     },
     "observacao_defesas": "",
-    "custos": {},
-    "total": null,
+    "custos": {
+      "Habilidades": 34,
+      "Poderes": 0,
+      "Vantagens": 4,
+      "Perícias": 25,
+      "Defesas": 17
+    },
+    "total": 80,
     "complicacoes": []
   },
   "notas": [

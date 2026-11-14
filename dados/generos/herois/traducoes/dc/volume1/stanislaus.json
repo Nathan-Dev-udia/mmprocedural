@@ -23,9 +23,9 @@
       "Rolamento Defensivo",
       "Equipamento 16",
       "Defesa Aprimorada",
-      "Languages",
+      "Idiomas",
       "Ataque Poderoso",
-      "Takedown Attack",
+      "Ataque Dominó",
       "Trabalho em Equipe"
     ],
     "pericias": [
@@ -50,7 +50,7 @@
         "total": 8
       },
       {
-        "nome": "Combate à Distância: Firearms",
+        "nome": "Combate à Distância: Armas de Fogo",
         "graduacoes": 6,
         "total": 9
       },
@@ -94,7 +94,7 @@
     "complicacoes": [
       {
         "titulo": "Justice",
-        "texto": "Stanislaus is committed to avenging the wrongs of tyranny and oppression worldwide."
+        "texto": "Stanislaus is committed to avenging the wrongs of tyranny e oppression worldwide."
       },
       {
         "titulo": "Inimigo",

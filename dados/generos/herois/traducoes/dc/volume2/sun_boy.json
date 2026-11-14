@@ -14,20 +14,20 @@
       "Pre": 3
     },
     "poderes": [
-      "f lame i mmunit y: Imunidade 10 (fogo and Calor Effects) (10 PP)",
+      "f lame i mmunit y: Imunidade 10 (Fogo e Calor Efeitos) (10 PP)",
       "Solar a ur a: Reação Dano 10 (40 PP)",
       "Solar f ir e: Arranjo (24 pontos)",
       "• Solar f ir e Raio: Dano à Distância 12 (24 PP)",
-      "• f lame a bsorption: Nulificar fogo Effects 6, Simultaneous, Sustentado (1 PP)",
-      "• f lame a bsorption Burst: Corpo a Corpo Área de Explosão Nulificar fogo Effects 6, Simultaneous, Sustentado (1 PP)",
-      "• n o va Burst: Área de Explosão Dano 12 (1 PP)",
-      "• Solar f lash: Área de Explosão Cumulativo Aflição 6 (resistido por Fortitude; Visually Impaired, Visually Disabled, Visually Unaware) (1 PP)"
+      "• f lame a bsorption: Nulificar Fogo Efeitos 6, Simultâneo, Sustentado (1 PP)",
+      "• f lame a bsorption Estouro: Corpo a Corpo Área de Explosão Nulificar Fogo Efeitos 6, Simultâneo, Sustentado (1 PP)",
+      "• n o va Estouro: Área de Explosão Dano 12 (1 PP)",
+      "• Solar f lash: Área de Explosão Cumulativo Aflição 6 (resistido por Fortitude; Visually Prejudicado, Visually Desabilitado, Visually Desatento) (1 PP)"
     ],
     "equipamento": [
-      "f ligh t r ing: Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal –3); Voo 7 (400 km/h) (19 PP)",
-      "t elepa thic e ar Plug: Compreender 3 (Languages), mental Comunicação 1 (Corpo a Corpo Range) (10 PP)",
-      "t r anssuit: Imunidade 9 (Suporte Vital, except for Inanição and thirst) (9 PP)",
-      "d a e S a V ant G Attractive, Benefit (Legion Membership), Connected, Defensive Attack, Defensive Roll 5, Equipment 6, Power Attack"
+      "f Luz r ing: Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal -3); Voo 7 (400 km/h) (19 PP)",
+      "t elepa thic e ar Plug: Compreender 3 (Languages), Comunicação Mental 1 (Alcance Perto) (10 PP)",
+      "t r anssuit: Imunidade 9 (Suporte Vital, except for Fome e Sede) (9 PP)",
+      "d a e S a V ant G Attractive, Benefit (Legion Membership), Connected, Defensive Attack, Rolamento Defensivo 5, Equipment 6, Poder Attack"
     ],
     "vantagens": [],
     "pericias": [
@@ -52,7 +52,7 @@
         "total": 9
       },
       {
-        "nome": "Combate à Distância: Solar fogo Array",
+        "nome": "Combate à Distância: Solar Fogo Array",
         "graduacoes": 6,
         "total": 8
       },
@@ -62,8 +62,21 @@
         "total": 7
       }
     ],
-    "iniciativa": 0,
-    "ataques": [],
+    "iniciativa": 3,
+    "ataques": [
+      {
+        "nome": "Solar Fogo Raio",
+        "bonus": 8,
+        "alcance": "À distância",
+        "dano": "Dano 12"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2"
+      }
+    ],
     "defesas": {
       "Esquiva": 13,
       "Fortitude": 8,

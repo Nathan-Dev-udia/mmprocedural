@@ -32,7 +32,8 @@
       "Intimidação": 4,
       "Intuição": 2,
       "Percepção": 4,
-      "Tecnologia": 8
+      "Tecnologia": 8,
+      "Veículos": 4
     },
     "pericias_detalhes": [
       "Enganação 4 (+6)",
@@ -42,7 +43,7 @@
       "Intuição 2 (+4)",
       "Percepção 4 (+6)",
       "Tecnologia 8 (+16)",
-      "Veículos 4\\"
+      "Veículos 4"
     ],
     "vantagens": [
       "Agarrar Rápido",
@@ -53,7 +54,7 @@
       "Trabalho em Equipe"
     ],
     "poderes": [
-      "**Grandões**: Crescimento 4 (**Extras**: Inato. **Falhas**: Permanente \\+0); 9 pontos"
+      "**Grandões**: Crescimento 4 (**Extras**: Inato. **Falhas**: Permanente +0); 9 pontos"
     ],
     "equipamento": [],
     "iniciativa": 1,

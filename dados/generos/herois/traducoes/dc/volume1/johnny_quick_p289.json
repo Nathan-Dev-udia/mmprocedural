@@ -14,35 +14,35 @@
       "Pre": 3
     },
     "poderes": [
-      "”3X2 (9YZ) 4A”: Ativação (Ação de Movimento, -1 ponto) Fast Reactions: Enhanced Advantages 20 (Agile Feint, Defensive Roll 2, Evasion 2, Improved Iniciativa 8, Interpose, Instant Up, Move-by Action, Seize Iniciativa, Takedown), Rapidez 8 (26 PP)",
-      "High-Velocidade Esquiva: Enhanced Defenses 22 (Esquiva 11, Aparar 11) (22 PP)",
+      "”3X2 (9YZ) 4A”: Ativação (Ação de Movimento, -1 ponto) Fast Reactions: Vantagens Aprimoradas 20 (Finta Ágil, Rolamento Defensivo 2, Evasão 2, Iniciativa Aprimorada 8, Interpor-se, De Pé, Ação em Movimento, Tomar a Iniciativa, Ataque Dominó), Rapidez 8 (26 PP)",
+      "High-Velocidade Esquiva: Defesas Aprimoradas 22 (Esquiva 11, Aparar 11) (22 PP)",
       "Frictionless Aura: Imunidade 1 (Friction Calor) (1 PP)",
-      "Run On Water: Movimento 1 (Water Walking), Limitado a While Moving (1 PP)",
-      "Run Up Walls: Movimento 2 (Wall-crawling 2), Limitado a While Moving (2 PP)",
+      "Run On Water: Movimento 1 (Andar na Água), Limitado a Enquanto se Move (1 PP)",
+      "Run Up Walls: Movimento 2 (Escalar Paredes 2), Limitado a Enquanto se Move (2 PP)",
       "Super-Velocidade: Arranjo (18 pontos)",
-      "• Velocidade 18 (500,0 km/h) (18 PP)",
-      "• Voo 9 (1,0 km/h) (1 PP)",
+      "• Velocidade 18 (800.000 km/h) (18 PP)",
+      "• Voo 9 (1.600 km/h) (1 PP)",
       "Super-Velocidade Stunts: Arranjo (20 pontos)",
-      "• Air Control: Área de Cone Mover Objetos 10, Corpo a Corpo Range (20 PP)",
-      "• Air Cushion: Área de Explosão Safe Fall, Affects Others (1 PP)",
+      "• Air Control: Área de Cone Mover Objetos 10, Alcance Perto (20 PP)",
+      "• Air Cushion: Área de Explosão Queda Segura, Afeta Outros (1 PP)",
       "• Vácuo: Área de Explosão Cumulativo Aflição 5 (resistido por Fortitude; Tonto, Atordoado, Incapacitado), Concentração (1 PP)",
-      "• Vibration: Intangibilidade 4 (1 PP)",
-      "• Whirlwind: Área de Explosão Mover Objetos 10, Corpo a Corpo Range (1 PP)"
+      "• Vibração: Intangibilidade 4 (1 PP)",
+      "• Whirlwind: Área de Explosão Mover Objetos 10, Alcance Perto (1 PP)"
     ],
     "equipamento": [],
     "vantagens": [
       "Finta Ágil",
-      "Conectado",
+      "Bem Relacionado",
       "Contatos",
       "Rolamento Defensivo 5",
-      "Evasion 2",
+      "Evasão 2",
       "Interpor-se",
-      "Levantar Rápido",
+      "De Pé",
       "Ação em Movimento",
       "Tomar a Iniciativa",
-      "Derrubar em Sequência",
+      "Ataque Dominó",
       "Trabalho em Equipe",
-      "Bem-Informado"
+      "Bem Informado"
     ],
     "pericias": [
       {
@@ -61,12 +61,12 @@
         "total": 10
       },
       {
-        "nome": "Especialidade: Business",
+        "nome": "Especialidade: Negócios",
         "graduacoes": 6,
         "total": 9
       },
       {
-        "nome": "Especialidade: Journalism",
+        "nome": "Especialidade: Jornalismo",
         "graduacoes": 10,
         "total": 13
       },
@@ -119,15 +119,15 @@
     "complicacoes": [
       {
         "titulo": "Relacionamentos",
-        "texto": "His sidekick and cameraman “Tubby” Watts, his girlfriend (and later wife) Libby Lawrence (Liberty Belle) and his daughter, Jesse Chambers (Jesse Quick/Liberty Belle)."
+        "texto": "His sidekick e cameraman “Tubby” Watts, his girlfriend (e later wife) Libby Lawrence (Liberty Belle) e his daughter, Jesse Chambers (Jesse Quick/Liberty Belle)."
       },
       {
         "titulo": "Speed Force",
-        "texto": "His connection to the Velocidade Force can cause complications when using extra effort with his Powers."
+        "texto": "His connection to the Velocidade Force can cause complications when using extra effort com his Poderes."
       },
       {
         "titulo": "Too Quick",
-        "texto": "Johnny can be too fast for his own good sometimes, acting before he thinks."
+        "texto": "Johnny can be too fast for his own good sometimes, Atuação before he thinks."
       }
     ]
   },

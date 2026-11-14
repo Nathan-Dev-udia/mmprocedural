@@ -35,8 +35,15 @@
         "total": 11
       }
     ],
-    "iniciativa": 0,
-    "ataques": [],
+    "iniciativa": 1,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 9,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 11"
+      }
+    ],
     "defesas": {
       "Esquiva": 7,
       "Aparar": 9,
@@ -56,11 +63,11 @@
       },
       {
         "titulo": "Fraqueza",
-        "texto": "Unless he is simultaneously bathed in strong magnetic fields, exposure to air causes Girder to rust. His Agilidade and Destreza decline by a ponto an hour under normal conditions until he is completely Imóvel. Rain and other corrosive agents exacerbate the decay, causing his statistics to decline even more rapidly. d y: Girder’s body is gradually isabilit corroding away, causing him tremendous agony."
+        "texto": "Unless he is simultaneously bathed in strong Magnético fields, exposure to air causes Girder to rust. His Agilidade e Destreza decline by a ponto an hour under normal conditions until he is completely Imóvel. Rain e other corrosive agents exacerbate the decay, causing his statistics to decline even more rapidly. d y: Girder’s body is gradually isabilit corroding away, causing him tremendous agony."
       },
       {
         "titulo": "Peculiaridade",
-        "texto": "Tony doesn’t understand the concept of boundaries when it comes to women, and takes indecent liberties even with women like Magenta, who are quite capable of obliterating him. 146 146"
+        "texto": "Tony doesn’t understand the concept of boundaries when it comes to women, e takes indecent liberties even com women like Magenta, who are quite capable of obliterating him. 146 146"
       }
     ]
   },

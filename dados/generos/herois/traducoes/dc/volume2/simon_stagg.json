@@ -16,10 +16,10 @@
     "poderes": [],
     "equipamento": [],
     "vantagens": [
-      "Benefit 4 (Multi-millionaire)",
-      "Conectado",
-      "Maestria em Perícia (Expertise: Business)",
-      "Bem-Informado"
+      "Benefício 4 (Multimilionário)",
+      "Bem Relacionado",
+      "Maestria em Perícia (Especialidade: Negócios)",
+      "Bem Informado"
     ],
     "pericias": [
       {
@@ -28,7 +28,7 @@
         "total": 14
       },
       {
-        "nome": "Especialidade: Business",
+        "nome": "Especialidade: Negócios",
         "graduacoes": 7,
         "total": 10
       },
@@ -59,7 +59,7 @@
         "nome": "Desarmado",
         "bonus": 2,
         "alcance": "",
-        "dano": "(Dano 1)"
+        "dano": "Dano 1"
       }
     ],
     "defesas": {

@@ -14,20 +14,20 @@
       "Pre": 4
     },
     "poderes": [
-      "mental Conditioning: Perception Sustentado Enfraquecer Vontade 8 (mental, resistido por Vontade), Incurable, Insidioso, Sutil 2, Limitado—Only effects targets up 10’ away, Limitado—Vontade weakened only against Push effects (28 PP)",
+      "Mental Conditioning: Percepção Sustentado Enfraquecer Vontade 8 (Mental, resistido por Vontade), Incurable, Insidioso, Sutil 2, Limitado—Apenas Efeitos targets up 10’ away, Limitado—Vontade weakened Apenas contra Push Efeitos (28 PP)",
       "t he P ush: Arranjo (62 pontos)",
-      "• Push Mind: Perception Concentração Aflição 12 (psychic, mental suggestions or hallucinations; resistido por Vontade; Entranced, Compelido, Controlado), Insidioso, Progressivo, Sutil 2, Peculiaridade—If Maxwell Lord takes Dano from the side-effect, he gets a bloody nose, Side-Effect— Maxwell Lord must resist a Dano effect, CD 15 + Push Mind graduações used (62 PP)",
-      "• Mass Push: Perception área (Auditory) Sustentado Aflição 10 (resistido por Vontade; Entranced, Compelido, Controlado), Insidioso, Progressivo, Sutil 2, Distrativo, Peculiaridade—If Maxwell Lord takes Dano from the side-effect, he gets a bloody nose, Side-Effect—Maxwell Lord must resist a Dano effect, CD 15 + Push Mind graduações used, Cansativo (1 PP)",
-      "• mental a Perception Aflição 14 (psychic, mental ssault: suggestions; resistido por Vontade, Vulnerável, Compelido), Insidioso, Sutil 2, Instant Recovery, Limitado Degree (1 PP)"
+      "• Push Mind: Percepção Concentração Aflição 12 (Psíquico, mental suggestions or hallucinations; resistido por Vontade; Em Transe, Compelido, Controlado), Insidioso, Progressivo, Sutil 2, Peculiaridade—If Maxwell Lord takes Dano from the side-effect, he gets a bloody nose, Side-Effect— Maxwell Lord must resist a Dano effect, CD 15 + Push Mind graduações used (62 PP)",
+      "• Mass Push: Percepção área (Auditivo) Sustentado Aflição 10 (resistido por Vontade; Em Transe, Compelido, Controlado), Insidioso, Progressivo, Sutil 2, Distrativo, Peculiaridade—If Maxwell Lord takes Dano from the side-effect, he gets a bloody nose, Side-Effect—Maxwell Lord must resist a Dano effect, CD 15 + Push Mind graduações used, Cansativo (1 PP)",
+      "• Mental a Percepção Aflição 14 (Psíquico, mental ssault: suggestions; resistido por Vontade, Vulnerável, Compelido), Insidioso, Sutil 2, Instant Recovery, Limitado Grau (1 PP)"
     ],
     "equipamento": [
-      "Light Pistola with Suppressor: Dano à Distância 3, Sutil (7 PP)",
-      "Bulletproof Vest: Proteção 4, Sutil, Limitado (Ballistic) (3 PP)"
+      "Luz Pistola com Suppressor: Dano à Distância 3, Sutil (7 PP)",
+      "Bulletproof Vest: Proteção 4, Sutil, Limitado (Balístico) (3 PP)"
     ],
     "vantagens": [
       "Avaliação",
-      "Benefit 1 (Independently Wealthy)",
-      "Conectado",
+      "Benefício 1 (Independentemente Rico)",
+      "Bem Relacionado",
       "Contatos",
       "Tontear (Enganação)",
       "Rolamento Defensivo 2",
@@ -35,13 +35,10 @@
       "Fascinar (Enganação)",
       "Redirecionar",
       "Tomar a Iniciativa",
-      "Skill Mastery (Insight",
-      "Deception",
-      "Expertise: Tactician",
-      "Persuasion)",
-      "Provocar",
+      "Maestria em Perícia (Intuição, Enganação, Especialidade: Tactician, Persuasão)",
+      "Zombar",
       "Well-informed Wonder Woman used her lasso to extract from Lord the only way to free Superman from the “push",
-      "” and the solution was simply to kill him. She snapped his neck without hesitation. Maxwell Lord later returned as one of many heroes and vil- lains brought back to life during the Blackest Night. The first thing he did was push the entire world into forgetting he existed",
+      "” and the solution was simply to kill him. She snapped his neck without hesitation. Maxwell Lord later returned as one of many heroes and vil-lains brought back to life during the Blackest Night. The first thing he did was push the entire world into forgetting he existed",
       "and he is now free to work on his plans in absolute obscurity."
     ],
     "pericias": [
@@ -51,7 +48,7 @@
         "total": 18
       },
       {
-        "nome": "Especialidade: Business",
+        "nome": "Especialidade: Negócios",
         "graduacoes": 8,
         "total": 12
       },
@@ -71,7 +68,7 @@
         "total": 16
       },
       {
-        "nome": "Combate à Distância: Pistols",
+        "nome": "Combate à Distância: Pistolas",
         "graduacoes": 5,
         "total": 7
       }
@@ -88,7 +85,31 @@
         "nome": "Pistola",
         "bonus": 7,
         "alcance": "À distância",
-        "dano": "Dano 3 mental Assault — À Distância, Aflição 14 Mass Push — Corpo a Corpo, Perception área Aflição 10 Push Mind — À Distância, Aflição 12 mental Conditioning — Perception, Enfraquecer Vontade 8, Limitado a 10 feet"
+        "dano": "Dano 3"
+      },
+      {
+        "nome": "Mental Assault",
+        "bonus": null,
+        "alcance": "À distância",
+        "dano": "Aflição 14"
+      },
+      {
+        "nome": "Mass Push",
+        "bonus": null,
+        "alcance": "Corpo a corpo",
+        "dano": "Percepção área Aflição 10"
+      },
+      {
+        "nome": "Push Mind",
+        "bonus": null,
+        "alcance": "À distância",
+        "dano": "Aflição 12"
+      },
+      {
+        "nome": "Mental Conditioning",
+        "bonus": null,
+        "alcance": "",
+        "dano": "Percepção, Enfraquecer Vontade 8, Limitado a 10 pés"
       }
     ],
     "defesas": {

@@ -14,10 +14,10 @@
       "Pre": 8
     },
     "poderes": [
-      "Gamma Gong: Perception área (Hearing) Aflição 10 (resistido por Vontade; Impaired, Imóvel, Paralisado). Limitado: Portable versions of the Gong have a maximum of Aflição 5, Facilmente Removível (-8 pontos) (12 PP)",
-      "Energi-Rod: Arranjo (36 pontos), Facilmente Removível (–16 pontos) • Disintegration Ray: Dano à Distância 12, Penetrante 12 (36 PP)",
-      "• Gravity Ray: Mover Objetos 12, Damaging (1 PP)",
-      "• mental Ray: Comunicação 5 (mental) (1 PP)"
+      "Gamma Gong: Percepção área (Audição) Aflição 10 (resistido por Vontade; Prejudicado, Imóvel, Paralisado). Limitado: Portable versions of the Gong have a maximum of Aflição 5, Facilmente Removível (-8 pontos) (12 PP)",
+      "Energi-Rod: Arranjo (36 pontos), Facilmente Removível (-16 pontos) • Disintegration Ray: Dano à Distância 12, Penetrante 12 (36 PP)",
+      "• Gravidade Ray: Mover Objetos 12, Damaging (1 PP)",
+      "• Mental Ray: Comunicação 5 (Mental) (1 PP)"
     ],
     "equipamento": [],
     "vantagens": [
@@ -27,7 +27,7 @@
       "Liderança",
       "Tomar a Iniciativa",
       "Assustar",
-      "Provocar"
+      "Zombar"
     ],
     "pericias": [
       {
@@ -95,11 +95,11 @@
     "complicacoes": [
       {
         "titulo": "Conqueror",
-        "texto": "Whether he rules a city, a planet, or an empire, Kanjar Ro always seeks more power."
+        "texto": "Whether he rules a city, a planet, or an empire, Kanjar Ro always seeks more Poder."
       },
       {
         "titulo": "Negotiated Power",
-        "texto": "Kanjar Ro prefers gambits and manipulation to engaging in battle, and has gone to great lengths to deceive his way to power."
+        "texto": "Kanjar Ro prefers gambits e manipulation to engaging in battle, e has gone to great lengths to deceive his way to Poder."
       }
     ]
   },

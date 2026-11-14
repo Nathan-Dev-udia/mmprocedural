@@ -14,11 +14,11 @@
       "Pre": 5
     },
     "poderes": [
-      ": Children of the n igh t (Summon Animals 2 (General Type: Bats, Rats, or Wolves; Horde, mental Link, Multiple Minions 6 (64 minions))); f or ce f ield (Impenetrável Sustentado Proteção 3, Affects Others and Self ); f orm of Mist (Intangibilidade 2); mental Powers (Arranjo (30 pontos), Controle mental (Alcance de Percepção Cumulativo Aflição 10 (resistido por Vontade; Entranced, Compelido, Controlado)), ae : t elepa thy (Leitura mental 10), ae : Mind Bolt (Alcance de Percepção Dano 7, Resistência Alternativa: Vontade)); Spider-Climb (Movimento 1 (Wall-crawling)); t elek inesis (Mover Objetos 10); t elek inetic f ligh t (Voo 8 (800 km/h)); Undead i n vulnerability (Imortalidade 10 (Not When Staked or Beheaded), Imunidade 30 (Fortitude), Impenetrável Proteção 7 (Limitado―Not Versus Blessed, Magical, or Silver Weapons), Regeneração 5 (Source: Blood)); Vampiric Bite (Enfraquecer Vigor 9 (resistido por Fortitude), Limitado―Drains 1 graduação per round, Baseado em Agarrar) antages: Animal Empathy, Attractive 2, Benefit (Well-off ), a dv Connected, Fascinate (Deception, Persuasion), Favored Foe (Vampires), Fearless, Improved Hold, Improved Iniciativa, Power Attack, Startle, Taunt"
+      ": Children of the n igh t (Invocar Animais 2 (General Type: Bats, Rats, or Wolves; Horda, Elo Mental, Múltiplos Capangas 6 (64 capangas))); f or ce f ield (Impenetrável Sustentado Proteção 3, Afeta Outros e Self ); f orm of Mist (Intangibilidade 2); Mental Poderes (Arranjo (30 pontos), Controle Mental (Alcance de Percepção Cumulativo Aflição 10 (resistido por Vontade; Em Transe, Compelido, Controlado)), ae : t elepa thy (Leitura Mental 10), ae : Mind Bolt (Alcance de Percepção Dano 7, Resistência Alternativa: Vontade)); Spider-Climb (Movimento 1 (Escalar Paredes)); t elek inesis (Mover Objetos 10); t elek inetic f Luz (Voo 8 (800 km/h)); Undead i n vulnerability (Imortalidade 10 (Not When Staked or Beheaded), Imunidade 30 (Fortitude), Impenetrável Proteção 7 (Limitado―Not Versus Blessed, Mágico, or Silver Weapons), Regeneração 5 (Source: Blood)); Vampiric Bite (Enfraquecer Vigor 9 (resistido por Fortitude), Limitado―Drains 1 graduação per round, Baseado em Agarrar) antages: Animal Empathy, Attractive 2, Benefit (Well-off ), a dv Connected, Fascinate (Enganação, Persuasão), Favored Foe (Vampires), Fearless, Improved Hold, Iniciativa Aprimorada, Poder Attack, Startle, Taunt"
     ],
     "equipamento": [],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Avaliação",
       "Atraente",
       "Duro de Matar",
@@ -26,7 +26,7 @@
       "Destemido",
       "Iniciativa Aprimorada",
       "Inventor",
-      "Well- informed"
+      "Bem Informado"
     ],
     "pericias": [
       {
@@ -45,7 +45,7 @@
         "total": 10
       },
       {
-        "nome": "Especialidade: mágico",
+        "nome": "Especialidade: Magia",
         "graduacoes": 5,
         "total": 6
       },
@@ -75,15 +75,29 @@
         "total": 13
       }
     ],
-    "iniciativa": 0,
-    "ataques": [],
+    "iniciativa": 8,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 6"
+      },
+      {
+        "nome": "Mind Bolt",
+        "bonus": null,
+        "alcance": "Percepção",
+        "dano": "Dano 7, resistido por Vontade"
+      }
+    ],
     "defesas": {
       "Esquiva": 10,
       "Aparar": 8,
+      "Fortitude": null,
       "Resistência": 10,
       "Vontade": 10
     },
-    "observacao_defesas": "*, Vontade 10 *Without Campo de Força.",
+    "observacao_defesas": "*, Vontade 10 *sem Campo de Força.",
     "custos": {
       "Defesas": 15
     },
@@ -91,11 +105,11 @@
     "complicacoes": [
       {
         "titulo": "d ependence",
-        "texto": "Looker is a vampire and must feed on blood or Enfraquecer. She has Permanente telltale bite marks on her neck."
+        "texto": "Looker is a vampire e must feed on blood or Enfraquecer. She has Permanente telltale bite marks on her neck."
       },
       {
         "titulo": "Public i tity",
-        "texto": "Looker’s association with den the Outsiders and her vampirism has ended her marriage and prevents her from living a normal life. o Looker bsession: wants to remove all vampires from the planet."
+        "texto": "Looker’s association com den the Outsiders e her vampirism has ended her marriage e prevents her from living a normal life. o Looker bsession: wants to remove all vampires from the planet."
       }
     ]
   },

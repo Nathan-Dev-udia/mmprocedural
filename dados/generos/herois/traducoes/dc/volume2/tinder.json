@@ -15,16 +15,16 @@
     },
     "poderes": [],
     "equipamento": [
-      "Bow & a rr ows: Dano à Distância 4; d agger: Força-Based Dano 1, Improved Critical; Espada: Força Based Dano 4, Improved Critical"
+      "Arco & a rr ows: Dano à Distância 4; d agger: Força-Based Dano 1, Improved Critical; Espada: Força Based Dano 4, Improved Critical"
     ],
     "vantagens": [
       "Ataque Imprudente",
       "Atraente",
-      "Benefit 3 (Son of the Warlord)",
+      "Benefício 3 (Son of the Warlord)",
       "Ataque Corpo-a-Corpo 1",
       "Ataque Defensivo",
       "Rolamento Defensivo 2",
-      "Evasion",
+      "Evasão",
       "Equipamento 3",
       "Mira Aprimorada",
       "Defesa Aprimorada",
@@ -33,7 +33,7 @@
       "Ataque Poderoso",
       "Saque Rápido",
       "Ataque à Distância 3",
-      "Derrubar em Sequência",
+      "Ataque Dominó",
       "Trabalho em Equipe"
     ],
     "pericias": [
@@ -48,7 +48,7 @@
         "total": 8
       },
       {
-        "nome": "Combate Corpo-a-Corpo: Swords",
+        "nome": "Combate Corpo-a-Corpo: Espadas",
         "graduacoes": 2,
         "total": 9
       },
@@ -58,7 +58,7 @@
         "total": 6
       },
       {
-        "nome": "Especialidade: mágico",
+        "nome": "Especialidade: Magia",
         "graduacoes": 2,
         "total": 4
       },
@@ -73,12 +73,12 @@
         "total": 7
       },
       {
-        "nome": "Especialidade: Survival",
+        "nome": "Especialidade: Sobrevivência",
         "graduacoes": 4,
         "total": 6
       },
       {
-        "nome": "Especialidade: Tactics",
+        "nome": "Especialidade: Tática",
         "graduacoes": 2,
         "total": 4
       },
@@ -103,7 +103,7 @@
         "total": 7
       },
       {
-        "nome": "Combate à Distância: Bows",
+        "nome": "Combate à Distância: Arcos",
         "graduacoes": 5,
         "total": 12
       },
@@ -121,6 +121,12 @@
     "iniciativa": 5,
     "ataques": [
       {
+        "nome": "Arco & Arrows",
+        "bonus": 12,
+        "alcance": "",
+        "dano": "Dano 4"
+      },
+      {
         "nome": "Dagger",
         "bonus": 8,
         "alcance": "",
@@ -131,6 +137,12 @@
         "bonus": 10,
         "alcance": "",
         "dano": "Dano 6, Critical 19-20"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "",
+        "dano": "Dano 2"
       }
     ],
     "defesas": {
@@ -148,7 +160,7 @@
     "complicacoes": [
       {
         "titulo": "r elationships",
-        "texto": "Travis Morgan, husband, and Morgana, daughter. panion to the Warlord ever since, attaching herself to him so naturally that even his wife Tara has come to accept the rela- tionship as inevitable. Shakira refuses to reveal if she is a woman who turns into a cat or a feline somehow possessing the ability to take a human form, instead saying “why spoil a thing by tak- ing away all the mystery?” In any event, she is a fearsome fighter and skilled huntress. She has recently begun traveling with Joshua Morgan (see Tinder) since he became the new Warlord."
+        "texto": "Travis Morgan, husband, e Morgana, daughter. panion to the Warlord ever since, attaching herself to him so naturally that even his wife Tara has come to accept the rela- tionship as inevitable. Shakira refuses to reveal if she is a woman who turns into a cat or a feline somehow possessing the Habilidade to take a human form, instead saying “why spoil a thing by tak- ing away all the mystery?” In any event, she is a fearsome fighter e skilled huntress. She has recently begun traveling com Joshua Morgan (see Tinder) since he became the new Warlord."
       }
     ]
   },

@@ -14,21 +14,17 @@
       "Pre": 4
     },
     "poderes": [
-      "as an assassin. He encountered the Atom (Ryan Choi) and afterward spent a lot of his time trying to kill him. He eventually managed to do just that by hiring Deathstroke and his mercenary Titans to carry out the attack. Dwarfstar eventually joined the Secret Six where he served for a very short time before Amanda Waller, who disliked his past crimes and attitude, let Giganta know it was Dwarfstar who was responsible for her boyfriend, Ryan Choi’s, death. Dwarfstar survived the beating, but not before telling Gigan- ta it was Deathstroke who actually killed Choi. Jeanette Jeanette, also known as “the Last Victim” was a survivor of the murderous reign of Countess Elizabeth Bathory. A Hungarian noblewoman, Jeannette eventually escaped and married. Unfortunately, her husband betrayed her and she fell victim to a botched execution. As she was suffering under each clumsy swing of the headsman’s axe, the vengeful spirit of a banshee entered Jeanette. This saved her life and rendered her functionally Imortal, but changed her forever. For cen- turies Jeannette wandered. She lived a life of luxury punctu- ated by terror and suffering. As such, she is familiar with both the finer things of life and the world’s worst prisons and tor - ture chambers. Jeannette joined the Secret Six because of her longtime friendship with Scandal Savage and her attraction to Dead-"
+      "as an assassin. He encountered the Atom (Ryan Choi) e afterward spent a lot of his time trying to kill him. He eventually managed to do just that by hiring Deathstroke e his mercenary Titans to carry out the attack. Dwarfstar eventually joined the Secret Six where he served for a very short time before Amanda Waller, who disliked his past crimes e attitude, let Giganta know it was Dwarfstar who was responsible for her boyfriend, Ryan Choi’s, death. Dwarfstar survived the beating, but not before telling Gigan- ta it was Deathstroke who actually killed Choi. Jeanette Jeanette, also known as “the Last Victim” was a survivor of the murderous reign of Countess Elizabeth Bathory. A Hungarian noblewoman, Jeannette eventually escaped e married. Unfortunately, her husband betrayed her e she fell victim to a botched execution. As she was suffering under each clumsy swing of the headsman’s axe, the vengeful spirit of a banshee entered Jeanette. This saved her life e rendered her functionally Imortal, but changed her forever. For cen- turies Jeannette wandered. She lived a life of luxury punctu- ated by terror e suffering. As such, she is familiar com both the finer things of life e the world’s worst prisons e tor - ture chambers. Jeannette joined the Secret Six because of her longtime friendship com Scandal Savage e her attraction to Dead-"
     ],
     "equipamento": [],
     "vantagens": [
       "Ataque Imprudente",
       "Atraente",
-      "Benefit 2 (Independently Wealthy)",
+      "Benefício 2 (Independentemente Rico)",
       "Fascinar (Persuasão)",
       "Iniciativa Aprimorada",
-      "Languages 4 (Hungarian",
-      "Russian",
-      "Chinese",
-      "English",
-      "and four others)",
-      "Provocar"
+      "Idiomas 4 (Hungarian, Russo, Chinês, Inglês, e four others)",
+      "Zombar"
     ],
     "pericias": [
       {
@@ -47,12 +43,12 @@
         "total": 6
       },
       {
-        "nome": "Especialidade: History",
+        "nome": "Especialidade: História",
         "graduacoes": 5,
         "total": 7
       },
       {
-        "nome": "Especialidade: Politics",
+        "nome": "Especialidade: Política",
         "graduacoes": 3,
         "total": 5
       },
@@ -77,7 +73,7 @@
         "total": 9
       },
       {
-        "nome": "Combate à Distância: Throwing",
+        "nome": "Combate à Distância: Arremesso",
         "graduacoes": 4,
         "total": 6
       },
@@ -89,6 +85,12 @@
     ],
     "iniciativa": 8,
     "ataques": [
+      {
+        "nome": "Death Cry",
+        "bonus": null,
+        "alcance": "Corpo a corpo",
+        "dano": "Cumulativo Concentração Área de Explosão Aflição 10"
+      },
       {
         "nome": "Desarmado",
         "bonus": 11,
@@ -115,7 +117,7 @@
     "complicacoes": [
       {
         "titulo": "t Last Victim",
-        "texto": "Jeannette is sometimes plagued by flashbacks of previous moments in her life, traumatic and otherwise. She is also very world-weary and fatalistic. r omance: Jeannette is romantically involved with Deadshot, both for his deadly Skills and resemblance to an old lover."
+        "texto": "Jeannette is sometimes plagued by flashbacks of previous moments in her life, traumatic e otherwise. She is also very world-Fatigado e fatalistic. r omance: Jeannette is romantically involved com Deadshot, both for his deadly Perícias e resemblance to an old lover."
       }
     ]
   },

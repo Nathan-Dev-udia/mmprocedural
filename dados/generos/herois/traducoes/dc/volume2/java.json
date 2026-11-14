@@ -14,7 +14,7 @@
       "Pre": 0
     },
     "poderes": [
-      "t ough S kin and d ense Bone (Proteção 2)"
+      "t ough S kin e d ense Bone (Proteção 2)"
     ],
     "equipamento": [],
     "vantagens": [
@@ -22,7 +22,7 @@
       "Estrangular",
       "Ataque Corpo-a-Corpo 2",
       "Duro de Matar",
-      "Grande Vigor",
+      "Tolerância Maior",
       "Ataque Poderoso",
       "Assustar"
     ],
@@ -64,7 +64,7 @@
         "nome": "Desarmado",
         "bonus": 7,
         "alcance": "",
-        "dano": "(Dano 5)"
+        "dano": "Dano 5"
       }
     ],
     "defesas": {

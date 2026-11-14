@@ -14,8 +14,8 @@
       "Pre": 2
     },
     "poderes": [
-      "e xplosive i mmunit y: Imunidade 1 (Own Powers) (1 PP)",
-      "o bjec t e xplosion: Área de Explosão Dano 11, Peculiaridade (must touch an object, –2 pontos) (20 PP)"
+      "e xplosive i mmunit y: Imunidade 1 (Próprios Poderes) (1 PP)",
+      "o bjec t e xplosion: Área de Explosão Dano 11, Peculiaridade (must touch an object, -2 pontos) (20 PP)"
     ],
     "equipamento": [
       "Plastique has 15 pontos to spend on equipment."
@@ -24,13 +24,12 @@
       "Atraente",
       "Rolamento Defensivo 4",
       "Equipamento 3",
-      "Ferramentas Improvisadas",
-      "Languages (English",
-      "Native: French)",
+      "Ferramentas Aprimoradas",
+      "Idiomas (Inglês, Native: Francês)",
       "Ação em Movimento",
-      "Luta Caída",
-      "Segunda Chance (Expertise: Demolitions checks)",
-      "Provocar"
+      "Luta no Chão",
+      "Segunda Chance (Especialidade: Demolitions Testes)",
+      "Zombar"
     ],
     "pericias": [
       {
@@ -90,7 +89,13 @@
         "nome": "Desarmado",
         "bonus": 9,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 1 Object Explosion — Corpo a Corpo, Área de Explosão Dano 11"
+        "dano": "Dano 1"
+      },
+      {
+        "nome": "Object Explosion",
+        "bonus": null,
+        "alcance": "Corpo a corpo",
+        "dano": "Área de Explosão Dano 11"
       }
     ],
     "defesas": {

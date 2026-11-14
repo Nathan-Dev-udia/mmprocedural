@@ -18,19 +18,19 @@
       "Host Disguise: Metamorfose 1 (Appears as original host) (5 PP)",
       "Kestrel Talons: Arranjo (20 pontos)",
       "• Talons: Força-based Dano 3, Affects Intangibilidade 2, Dimensional 3, Penetrante 12 (20 PP)",
-      "• Shredding Swipe: Aflição 15 (resistido por Fortitude; Impaired Resistência and Vulnerável, Disabled Resistência and Indefeso), Affects Intangibilidade 2, Dimensional 3, Extra Condition, Limitado Degree (1 PP)",
+      "• Shredding Swipe: Aflição 15 (resistido por Fortitude; Prejudicado Resistência e Vulnerável, Desabilitado Resistência e Indefeso), Affects Intangibilidade 2, Dimensional 3, Extra Condition, Limitado Grau (1 PP)",
       "Kestrel Wings: Arranjo (12 pontos)",
-      "• Rend Space: Área de Explosão Movimento 3 (Dimension Travel 3, travel is voluntary), Affects Others (12 PP)",
+      "• Rend Space: Área de Explosão Movimento 3 (Dimension Travel 3, travel is voluntary), Afeta Outros (12 PP)",
       "• Hunter Velocidade: Velocidade 4 (48 km/h); Salto 6 (1 PP)",
       "Reform: Imortalidade 1, Limitado: Reforms in the dimension of Chaos; Regeneração 10 (11 PP)",
-      "Track Hawk: Sentidos 13 (Detect Hawk 2 (mental) , Extended 10 (Detect Hawk) , Tracking (Hawk)) (13 PP)"
+      "Rastrear Hawk: Sentidos 13 (Detectar Hawk 2 (Mental) , Estendido 10 (Detectar Hawk) , Rastrear (Hawk)) (13 PP)"
     ],
     "equipamento": [],
     "vantagens": [
       "Ataque Imprudente",
       "Destemido",
       "Crítico Aprimorado (Talons)",
-      "Levantar Rápido",
+      "De Pé",
       "Ataque Poderoso",
       "Assustar"
     ],
@@ -72,7 +72,7 @@
         "nome": "Talons",
         "bonus": 10,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 12 Crit. 19-20"
+        "dano": "Dano 12 Crít. 19-20"
       },
       {
         "nome": "Shredding Swipe",
@@ -100,11 +100,11 @@
     "complicacoes": [
       {
         "titulo": "Living Spell",
-        "texto": "Kestrel is not a real creature but a spell, and requires a willing host to exist on Earth, who is most often promised power. Kestrel cannot stay on Earth outside a host, and has been defeated in the past when forced to leave its host."
+        "texto": "Kestrel is not a real creature but a spell, e requires a willing host to exist on Earth, who is most often promised Poder. Kestrel cannot stay on Earth outside a host, e has been defeated in the past when forced to leave its host."
       },
       {
         "titulo": "Obsessão",
-        "texto": "Kestrel’s existence revolves around Hawk and Dove and it hunts them down whenever on Earth. Kestrel always tries to attack Dove first, and once she’s dead attempts to persuade Hawk to join the Lords of Chaos."
+        "texto": "Kestrel’s existence revolves around Hawk e Dove e it hunts them down whenever on Earth. Kestrel always tries to attack Dove first, e once she’s dead attempts to persuade Hawk to join the Lords of Chaos."
       }
     ]
   },

@@ -14,7 +14,7 @@
       "Pre": 2
     },
     "poderes": [
-      "f o x- f ur C loak (Voo 6 (192 km/h), Imunidade 1 (Frio), Removível (–2 pontos)); Shaman’s Pouch (Arranjo (Herbs & Powders, 16 pontos), Removível (–3 pontos): f lame Raio (Dano à Distância 8), ae : d isguise (Metamorfose 2 (similarly-sized men)), ae : i n visibility (Visual Camuflagem 4), ae : i llusion 8 (Visual), ae : t r anslator (Compreender 4, Languages)"
+      "f o x- f ur C loak (Voo 6 (192 km/h), Imunidade 1 (Frio), Removível (-2 pontos)); Shaman’s Pouch (Arranjo (Herbs & Powders, 16 pontos), Removível (-3 pontos): f lame Raio (Dano à Distância 8), ae : d isguise (Metamorfose 2 (similarly-sized men)), ae : i n visibility (Visual Camuflagem 4), ae : i llusion 8 (Visual), ae : t r anslator (Compreender 4, Languages)"
     ],
     "equipamento": [],
     "vantagens": [
@@ -22,13 +22,13 @@
       "Artífice",
       "Estrangular",
       "Rolamento Defensivo 2",
-      "Evasion",
+      "Evasão",
       "Agarrar Rápido",
-      "Grande Vigor",
+      "Tolerância Maior",
       "Agarrar Aprimorado",
       "Imobilizar Aprimorado",
       "Iniciativa Aprimorada",
-      "Language 1 (English)",
+      "Language 1 (Inglês)",
       "Ataque Poderoso",
       "Saque Rápido",
       "Rastrear"
@@ -50,7 +50,7 @@
         "total": 13
       },
       {
-        "nome": "Especialidade: mágico",
+        "nome": "Especialidade: Magia",
         "graduacoes": 7,
         "total": 10
       },
@@ -113,7 +113,7 @@
       },
       {
         "titulo": "Peculiaridade",
-        "texto": "Flying Fox is still adjusting to the differences between his primitive tribe and 1940s America. from the start, as the youthful heroes embarked on an event- filled nationwide war-bond rally tour. His mystic Abilities were crucial in several of the Young All-Star’s exploits, including numerous battles with the metahuman fascist team Axis Amerika. Within a few months, he was awarded full Squadron membership. However, his subsequent activities are unrecorded, and his present whereabouts are unknown. He may yet be alive in the present day, as most of his former Young All-Star teammates survive in present times."
+        "texto": "Flying Fox is still adjusting to the differences between his primitive tribe e 1940s America. from the start, as the youthful heroes embarked on an event- filled nationwide war-bond rally tour. His Místico Habilidades were crucial in several of the Young All-Star’s exploits, including numerous battles com the metahuman fascist team Axis Amerika. Within a few months, he was awarded full Squadron membership. However, his subsequent activities are unrecorded, e his present whereabouts are unknown. He may yet be alive in the present day, as most of his former Young All-Star teammates survive in present times."
       }
     ]
   },

@@ -15,8 +15,8 @@
     },
     "poderes": [
       "Canary Cry: Arranjo (30 pontos)",
-      "• Área de Explosão Aflição 10 (Hearing Impaired, Hearing Disabled, Hearing Debilitated), Cumulativo, Concentração (30 PP)",
-      "• Área de Cone Dano 4, Concentração Linked to Área de Cone Aflição 4 (Hearing Impaired, Hearing Disabled, Hearing Debilitated), Cumulativo, Concentração (1 PP)",
+      "• Área de Explosão Aflição 10 (Audição Prejudicado, Audição Desabilitado, Audição Debilitado), Cumulativo, Concentração (30 PP)",
+      "• Área de Cone Dano 4, Concentração Ligado a Área de Cone Aflição 4 (Audição Prejudicado, Audição Desabilitado, Audição Debilitado), Cumulativo, Concentração (1 PP)",
       "• Área de Explosão Aflição 10 (Tonto, Atordoado, Incapacitado), Cumulativo, Concentração (1 PP)",
       "• Área de Explosão Dano 10, Concentração (1 PP)",
       "• Área de Cone Dano 10, Concentração (1 PP)"
@@ -32,8 +32,8 @@
       "Ataque Defensivo",
       "Rolamento Defensivo 3",
       "Equipamento 2",
-      "Evasion",
-      "Agarrar com Destreza",
+      "Evasão",
+      "Agarrar Preciso",
       "Defesa Aprimorada",
       "Desarmar Aprimorado",
       "Agarrar Aprimorado",
@@ -43,11 +43,11 @@
       "Liderança",
       "Ação em Movimento",
       "Ataque Poderoso",
-      "Precise Attack (corpo a corpo; Concealment)",
+      "Ataque Preciso (Corpo a Corpo; Camuflagem)",
       "Ataque à Distância 3",
       "Redirecionar",
       "Tomar a Iniciativa",
-      "Derrubar em Sequência",
+      "Ataque Dominó",
       "Prender Arma"
     ],
     "pericias": [
@@ -140,11 +140,11 @@
     "complicacoes": [
       {
         "titulo": "Computer Illiterate",
-        "texto": "Dinah does not work well with computers, and they don’t much like her, either."
+        "texto": "Dinah does not work well com Computação, e they don’t much like her, either."
       },
       {
         "titulo": "Perda de Poder",
-        "texto": "Injuries to her throat or effects rendering her mute rob Black Canary of her canary cry."
+        "texto": "Injuries to her throat or Efeitos rendering her mute rob Black Canary of her canary cry."
       },
       {
         "titulo": "Relacionamento",

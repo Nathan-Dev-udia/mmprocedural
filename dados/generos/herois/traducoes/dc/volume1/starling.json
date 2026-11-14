@@ -14,7 +14,7 @@
       "Pre": -2
     },
     "poderes": [
-      "Imunidade 40 (Fortitude Effects, mental Effects); Impenetrável Proteção 12; Regeneração 1 ; Voo 3 (25 km/h); Movimento 3 (Space Travel 3)"
+      "Imunidade 40 (Efeitos de Fortitude, Efeitos Mentais); Impenetrável Proteção 12; Regeneração 1 ; Voo 3 (25 km/h); Movimento 3 (Viagem Espacial 3)"
     ],
     "equipamento": [],
     "vantagens": [
@@ -45,13 +45,15 @@
         "nome": "Desarmado",
         "bonus": 13,
         "alcance": "",
-        "dano": "(Dano 13)"
+        "dano": "Dano 13"
       }
     ],
     "defesas": {
       "Esquiva": 8,
       "Aparar": 8,
-      "Resistência": 12
+      "Fortitude": null,
+      "Resistência": 12,
+      "Vontade": null
     },
     "observacao_defesas": "",
     "custos": {

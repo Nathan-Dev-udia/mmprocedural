@@ -3,6 +3,7 @@
 Rascunho do que ficou para depois (atualizado na versão 1.7.0).
 
 ## Livros
+- **Chamado de Cthulhu:** o Livro do Jogador (`dados/livros/cthulhu_jogador.md`) e o Livro do Mestre (`dados/livros/cthulhu_mestre.md`) foram publicados em `dados/livros/`, integrados aos testes e ao download `.docx`, e aguardam leitura editorial do usuário.
 - **Cyberpunk:** os dois livros foram revisados, corrigidos e publicados em `dados/livros/`. A ficha da moto do clã, as descrições de equipamento, complicações, limites de NP, custos e opções de compra foram alinhados aos dados e ao gerador.
 - **Faroeste:** revisão contra o gerador concluída. Os livros explicam comida, lotes, carga e montaria, o dinheiro guardado no sorteio, a dívida e a distribuição de pontos (nova seção 15 do Livro do Jogador). O exemplo do Jesse inclui as rações e a carga, e a tabela de locomoção usa as Velocidades do catálogo. Preços e pesos das tabelas batem com o `equipment.json`. Os livros ainda aguardam leitura editorial do usuário.
 - **Carga no gerador do faroeste (resolvido):** com montaria, o que passa da carga leve e não se usa no corpo (rações, ferramentas, bebida) vai no animal (`nucleo/validator.py`). Os PJs começam com Força 1 (`forca_minima` no `genero.json`), exceto o Jogador de Pôquer e o Médico de Fronteira; no NP 2, a Força fica em 0 quando passaria do limite do NP (a baioneta do veterano). Sobram com carga pesada só alguns jogadores de pôquer e médicos sem cavalo, por 1 ou 2 kg. Os livros do faroeste foram atualizados.
@@ -40,7 +41,7 @@ Rascunho do que ficou para depois (atualizado na versão 1.7.0).
 - **Revisão de regras (10/11/2026):** escudo, página de Sanidade e bestiário alinhados ao M&M 3e e ao CoC 7e. As tabelas de Sanidade (acessos, durações, recuperação, ponto de ruptura) têm fonte única em `nucleo/sanidade.py`. As criaturas ganharam o campo `sanidade` (perda "x/y"). O cultista usa "Especialidade: Mythos de Cthulhu", que reduz a SAN máxima.
 - **Regra própria do projeto:** a tabela d10 de acessos de loucura com efeitos em condições de M&M foi redigida para o projeto (não vem do livro).
 - **Escudos conferidos com o livro básico (Moribundo, Caído, Aflição):** faroeste e Cthulhu usavam Moribundo com CD 10 (+1) e três sucessos; agora seguem o livro e os Livros do Mestre (Fortitude CD 15, dois graus de sucesso estabilizam, três graus de falha somados matam). A Aflição usa a tabela do livro (três graus); fantasia e faroeste acrescentam um 4º grau marcado [Casa], como nos livros deles. Caído dá –5 à distância contra o alvo.
-- **Próximo passo:** Livro do Jogador e Livro do Mestre de Cthulhu. Instruções para a IA (estrutura, fontes, decisões e armadilhas) em `dados/generos/cthulhu/PREPARACAO_LIVROS.md`.
+- **Livros publicados (aguardam revisão editorial):** Livro do Jogador (`dados/livros/cthulhu_jogador.md`) e Livro do Mestre (`dados/livros/cthulhu_mestre.md`) criados segundo `dados/generos/cthulhu/PREPARACAO_LIVROS.md` e integrados ao download `.docx`. Aguardam leitura editorial do usuário.
 
 ## Gênero Escola de Magia (inspirado em Harry Potter)
 - **Implementação base e revisão concluídas:** gênero ativado em `dados/generos/escola_de_magia/` via `ferramentas/criar_escola_de_magia_base.py` (`genero.json`, `equipment.json`, `powers.json`, `player.json`, `archetypes.json`, `modules.json`, `complications.json`, `names.json`).
@@ -59,12 +60,8 @@ Rascunho do que ficou para depois (atualizado na versão 1.7.0).
 - **Novos temas (só preparação):** `dados/generos/IDEIAS_DE_TEMAS.md` lista Delta Green, samurai, kaiju e ópera espacial, com um `PREPARACAO_GENERO.md` em cada pasta. Kaiju e ópera espacial dependem de decidir o sistema de veículos e mechas.
 - Biblioteca de fichas salvas, edição de arquétipos pela interface e mechas, como já estava no README.
 
-## Heróis conhecidos (Marvel e DC)
-- **DC:** a extração dos PDFs tem falhas (101 fichas sem defesa ou habilidade essencial, 207 com divergências de custo ou
-  perícia). Diagnóstico, linha de base e regras da reextração em `dados/generos/herois/dc/PREPARACAO_REEXTRACAO.md`.
-- **Marvel:** a extração do livro está completa (116 perfis, nenhum faltando). Falta fechar a conversão dos poderes
-  (97 fichas pendentes, 105 sem total de PP); instruções em `dados/generos/herois/marvel/PREPARACAO_CONVERSAO_PODERES.md`.
-  Confirmar a regra de reembolso de habilidade negativa (Giant Man, Hulk).
-- **Nomes em inglês:** vantagens, efeitos e especializações ficam em inglês nas fichas e nos PDFs; falta um glossário
-  inglês→português.
-- Ferramenta: `python ferramentas/auditar_herois.py` mede a qualidade das 652 fichas sem alterar nada.
+## Heróis conhecidos (Marvel, DC, Invencível e Outros)
+- **Marvel (revisão e tradução concluídas):** todas as **116 fichas** estão convertidas para M&M 3e, com custos fechados (`0` poderes pendentes), vantagens alinhadas a `dados/comum/vantagens.json`, perícias normalizadas com acentuação canônica e **116/116 classificadas como jogáveis** em `dados/generos/herois/auditoria_marvel.json` (incluindo `chamber` e `sentinel`, cujos valores `null` por travessão na fonte representam construtos/Imunidade a Fortitude).
+- **DC (glossário e traduções atualizados):** das **536 fichas**, **532 possuem tradução em `dados/generos/herois/traducoes/dc/`** (`8` revisadas manualmente contra o livro e `524` geradas via `ferramentas/traduzir_dc.py`, todas com defesas extraídas e glossário inglês→português unificado) e **4 são mantidas sem tradução** para os testes de fallback bruto em `tests/test_herois.py`. As discrepâncias herdadas do PDF original listadas em `dados/generos/herois/dc/auditoria_extracao.json` (`253 jogáveis`, `283 com ressalvas`) dependem dos PDFs brutos (`referencias/dc/`), que não estão no repositório local, para conferência editorial página a página.
+- **Invencível (11 fichas) e Outros (1 ficha — Kratos):** regeneradas a partir de `dados/livros/invencivel.md` via `ferramentas/importar_invencivel.py`, livres de escapes Markdown residuais e integradas à auditoria (`9 jogáveis` e `2 ressalvas` em Invencível por limites da ficha fonte; `1 jogável` em Outros).
+- **Glossário e Auditoria:** `ferramentas/tradutor_herois.py` alinhado aos termos canônicos brasileiros do M&M 3e; `python ferramentas/auditar_herois.py` cobre todas as **664 fichas** (`0` erros de leitura ou escapes residuais).

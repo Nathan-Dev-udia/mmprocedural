@@ -16,21 +16,21 @@
     "poderes": [],
     "equipamento": [
       "Commlink, Heavy Pistola Vehicle: Arranjo (66 pontos) AERIE ONE JET (66 PP)",
-      "Size: Huge Str 10 Spd 12 Def 8 Tou 10 Features: Machine Gun (À Distância, Multiataque Dano 6), Rockets (Dano à Distância 11, Burst 8, Teleguiado 6) AERIE TWO HELICOPTER (1 PP)",
-      "Size: Huge Str 8, Spd 8, Def 8, Tou 11 Features: Machine Gun (À Distância, Multiataque Dano 6), Rockets (Dano à Distância 9, Burst 8, Teleguiado 6) 20 *Lady Blackhawk is PL11 when piloting Aerie One or Aerie Two."
+      "Size: Huge Str 10 Spd 12 Def 8 Tou 10 Características: Machine Gun (À Distância, Multiataque Dano 6), Rockets (Dano à Distância 11, Estouro 8, Teleguiado 6) AERIE TWO HELICOPTER (1 PP)",
+      "Size: Huge Str 8, Spd 8, Def 8, Tou 11 Características: Machine Gun (À Distância, Multiataque Dano 6), Rockets (Dano à Distância 9, Estouro 8, Teleguiado 6) 20 *Lady Blackhawk is PL11 when piloting Aerie One or Aerie Two."
     ],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Atraente",
       "Ataque Defensivo",
       "Rolamento Defensivo 5",
       "Equipamento 16",
-      "Evasion",
+      "Evasão",
       "Agarrar Rápido",
       "Desarmar Aprimorado",
       "Imobilizar Aprimorado",
       "Derrubar Aprimorado",
-      "Languages 4",
+      "Idiomas 4",
       "Ação em Movimento",
       "Ataque Poderoso",
       "Maestria em Perícia (Veículos)",
@@ -48,7 +48,7 @@
         "total": 12
       },
       {
-        "nome": "Especialidade: History",
+        "nome": "Especialidade: História",
         "graduacoes": 3,
         "total": 5
       },
@@ -63,7 +63,7 @@
         "total": 12
       },
       {
-        "nome": "Combate à Distância: Pistols",
+        "nome": "Combate à Distância: Pistolas",
         "graduacoes": 6,
         "total": 12
       },
@@ -90,6 +90,18 @@
         "bonus": 12,
         "alcance": "",
         "dano": "Dano 4"
+      },
+      {
+        "nome": "Desarmado +12 (Dano 2); Aerie Machine Armas de Fogo",
+        "bonus": 12,
+        "alcance": "",
+        "dano": "Dano à Distância 6, Multiataque"
+      },
+      {
+        "nome": "Aerie Rockets",
+        "bonus": null,
+        "alcance": "",
+        "dano": "Dano à Distância 9 or 11, Estouro 8, Teleguiado 6"
       }
     ],
     "defesas": {

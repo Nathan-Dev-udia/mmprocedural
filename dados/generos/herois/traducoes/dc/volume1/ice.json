@@ -14,22 +14,21 @@
       "Pre": 2
     },
     "poderes": [
-      "Frio Imunidade: Imunidade 10 (Frio Effects) (10 PP)",
-      "Ice Slide: Platform Voo 5 (96 km/h) (5 PP)",
-      "Ice Production: Arranjo (27 pontos)",
-      "• Criar Objetos Ice: Criar Objetos 9, Contínuo (27 PP)",
-      "• Ice Raio: Dano à Distância 9 (1 PP)",
-      "• Ice Aprisionar: À Distância Cumulativo Aflição 9 (resistido por Esquiva; Impedido and Vulnerável, Indefeso and Imóvel), Extra Condition, Limitado Degree (1 PP)",
-      "• Icy Surface: Área de Cone Aflição 9 (resistido por Esquiva; Impedido and Vulnerável), Extra Condition, Limitado Degree 2 (1 PP)"
+      "Frio Imunidade: Imunidade 10 (Frio Efeitos) (10 PP)",
+      "Gelo Slide: Platform Voo 5 (96 km/h) (5 PP)",
+      "Gelo Production: Arranjo (27 pontos)",
+      "• Criar Objetos Gelo: Criar Objetos 9, Contínuo (27 PP)",
+      "• Gelo Raio: Dano à Distância 9 (1 PP)",
+      "• Gelo Aprisionar: À Distância Cumulativo Aflição 9 (resistido por Esquiva; Impedido e Vulnerável, Indefeso e Imóvel), Extra Condition, Limitado Grau (1 PP)",
+      "• Icy Surface: Área de Cone Aflição 9 (resistido por Esquiva; Impedido e Vulnerável), Extra Condition, Limitado Grau 2 (1 PP)"
     ],
     "equipamento": [],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Atraente",
       "Rolamento Defensivo 3",
       "Esforço Extraordinário",
-      "Languages 1 (English",
-      "Norwegian native)",
+      "Idiomas 1 (Inglês, Norwegian native)",
       "Sorte 2",
       "Ação em Movimento",
       "Trabalho em Equipe"
@@ -46,7 +45,7 @@
         "total": 6
       },
       {
-        "nome": "Especialidade: mágico",
+        "nome": "Especialidade: Magia",
         "graduacoes": 4,
         "total": 6
       },
@@ -56,7 +55,7 @@
         "total": 8
       },
       {
-        "nome": "Combate à Distância: Ice Production",
+        "nome": "Combate à Distância: Gelo Production",
         "graduacoes": 7,
         "total": 9
       }
@@ -64,13 +63,13 @@
     "iniciativa": 4,
     "ataques": [
       {
-        "nome": "Ice Raio",
+        "nome": "Gelo Raio",
         "bonus": 9,
         "alcance": "À distância",
         "dano": "Dano 9"
       },
       {
-        "nome": "Ice Aprisionar",
+        "nome": "Gelo Aprisionar",
         "bonus": 9,
         "alcance": "À distância",
         "dano": "Aflição 9, resistido por Esquiva Desarmado +6 Corpo a Corpo, Dano 2"
@@ -95,7 +94,7 @@
     "complicacoes": [
       {
         "titulo": "Relacionamento",
-        "texto": "Ice has an on again-off again relationship with Guy Gardner. Motivation—Doing Good: Ice is a genuinely good person and uses her Powers to make the world a better place. Powers & Abilities Tora is proficient in hand-to-hand combatant, and can proj - ect various forms of ice and snow from her hands. She is able to encase opponents in ice, and Criar Objetos platforms of ice upon which she can skate."
+        "texto": "Gelo has an on again-off again relationship com Guy Gardner. Motivation—Doing Good: Gelo is a genuinely good person e uses her Poderes to make the world a better place. Poderes & Habilidades Tora is proficient in hand-to-hand combatant, e can proj - ect various forms of Gelo e snow from her hands. She is able to encase opponents in Gelo, e Criar Objetos platforms of Gelo upon which she can skate."
       }
     ]
   },

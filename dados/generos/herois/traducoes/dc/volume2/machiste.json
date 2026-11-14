@@ -14,12 +14,12 @@
       "Pre": 3
     },
     "poderes": [
-      "Mace Hand (Força-Based Dano 4, Característica (+2 to Smash checks))"
+      "Mace Hand (Força-Based Dano 4, Característica (+2 to Smash Testes))"
     ],
     "equipamento": [],
     "vantagens": [
       "Ataque Imprudente",
-      "Benefit 3 (King of Kiro)",
+      "Benefício 3 (King of Kiro)",
       "Rolamento Defensivo 3",
       "Agarrar Aprimorado",
       "Quebrar Aprimorado",
@@ -29,9 +29,9 @@
       "Ataque Poderoso",
       "Prone-Fighting",
       "Ataque à Distância 3",
-      "Preparar",
+      "Armação",
       "Assustar",
-      "Derrubar em Sequência",
+      "Ataque Dominó",
       "Trabalho em Equipe",
       "Rastrear",
       "Quebrar Arma"
@@ -53,7 +53,7 @@
         "total": 11
       },
       {
-        "nome": "Especialidade: Survival",
+        "nome": "Especialidade: Sobrevivência",
         "graduacoes": 6,
         "total": 7
       },
@@ -63,7 +63,7 @@
         "total": 10
       },
       {
-        "nome": "Especialidade: Tactics",
+        "nome": "Especialidade: Tática",
         "graduacoes": 4,
         "total": 5
       },

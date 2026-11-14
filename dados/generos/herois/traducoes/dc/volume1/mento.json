@@ -14,14 +14,14 @@
       "Pre": 4
     },
     "poderes": [
-      "mental Prontidão (Sentidos 2 (mental Sense, Raio)); Mento Helmet (75 pontos, Removível (-15 pontos); Clairvoyance (Remote Sensing 6 (1,800 feet; Visual, Hearing), Sutil (Only detectable by mental Sense)); Mind Over Matter ( Arranjo (20 pontos), Intangibility (Intangibilidade 4 (Intangible)), AE: Telekinetic Raio (Dano à Distância 10), AE: Telekinesis (Mover Objetos 8, Preciso 4)); Telekinetic Field (Proteção 12, Sustentado); Telepathic Powers (Arranjo (20 pontos), Leitura mental (Leitura mental 10), AE: mental Comunicação Comunicação 3 (Statewide, mental), área, Seletivo, AE: Controle mental Alcance de Percepção Aflição 5 (resistido por Vontade; Tonto, Compelido, Controlado), Cumulativo,) AE: Rajada mental (Alcance de Percepção Dano 5, resistido por Vontade)))"
+      "Consciência Mental (Sentidos 2 (Mental Sense, Raio)); Mento Helmet (75 pontos, Removível (-15 pontos); Clairvoyance (Sensoriamento Remoto 6 (1,800 pés; Visual, Audição), Sutil (Apenas detectable by Mental Sense)); Mind Over Matter ( Arranjo (20 pontos), Intangibility (Intangibilidade 4 (Intangible)), AE: Telekinetic Raio (Dano à Distância 10), AE: Telekinesis (Mover Objetos 8, Acurado 4)); Telekinetic Field (Proteção 12, Sustentado); Telepathic Poderes (Arranjo (20 pontos), Leitura Mental (Leitura Mental 10), AE: Comunicação Mental Comunicação 3 (Statewide, Mental), área, Seletivo, AE: Controle Mental Alcance de Percepção Aflição 5 (resistido por Vontade; Tonto, Compelido, Controlado), Cumulativo,) AE: Rajada Mental (Alcance de Percepção Dano 5, resistido por Vontade)))"
     ],
     "equipamento": [],
     "vantagens": [
-      "Benefit 5 (Billionaire)",
+      "Benefício 5 (Bilionário)",
       "Inventor",
       "Tomar a Iniciativa",
-      "Esforço Supremo (Will checks)"
+      "Esforço Supremo (Vontade Testes)"
     ],
     "pericias": [
       {
@@ -30,17 +30,17 @@
         "total": 10
       },
       {
-        "nome": "Especialidade: Business",
+        "nome": "Especialidade: Negócios",
         "graduacoes": 8,
         "total": 12
       },
       {
-        "nome": "Especialidade: Engineering",
+        "nome": "Especialidade: Engenharia",
         "graduacoes": 8,
         "total": 12
       },
       {
-        "nome": "Especialidade: Science",
+        "nome": "Especialidade: Ciência",
         "graduacoes": 6,
         "total": 10
       },
@@ -55,7 +55,7 @@
         "total": 10
       },
       {
-        "nome": "Combate à Distância: Rajada Mental",
+        "nome": "Combate à Distância: Mental Blast",
         "graduacoes": 8,
         "total": 10
       }
@@ -67,6 +67,12 @@
         "bonus": 2,
         "alcance": "Corpo a corpo",
         "dano": "Dano 0"
+      },
+      {
+        "nome": "Rajada Mental",
+        "bonus": null,
+        "alcance": "À distância",
+        "dano": "Dano 5, resistido por Vontade"
       },
       {
         "nome": "Telekinetic Raio",
@@ -94,7 +100,7 @@
     "complicacoes": [
       {
         "titulo": "Segredo",
-        "texto": "Mento uses his mind-influencing Powers on allies and friends without their knowledge, including his wife Elasti-Woman NEGATIVE MAN Larry Trainor was a test pilot whose experimental aircraft malfunctioned after passing through a strange energy field. He was saved from death when a “negative spirit” emerged from his body and stopped the airplane from sinking into the ocean. Besides gaining this strange superpower, Larry became radioactive, his body resembling a glowing skele - ton. Contacted by Niles Caulder, Larry was given lead-treat - ed bandages which contained his radioactivity. The Chief inducted him into the Doom Patrol, and Larry took on the codename Negative Man. Negative Man was thought slain in Madame Rouge’s explo - sion, but the energy-being lived on and proved to be an in - dependent creature (perhaps extraterrestrial). It temporarily took up residence in Valentina Vostok, who became Negative Woman. Later, Larry turned up alive (though comatose) and the negative entity returned to Trainor’s body once its origi - nal host fully recovered. Later, the energy being, Larry, and one Dr. Eleanor Poole became a gestalt known as Rebis. The Rebis entity was last seen exploring a parallel Earth."
+        "texto": "Mento uses his mind-influencing Poderes on allies e friends sem their knowledge, including his wife Elasti-Woman NEGATIVE MAN Larry Trainor was a test pilot whose experimental aircraft malfunctioned after passing through a strange Energia field. He was saved from death when a “negative spirit” emerged from his body e stopped the airplane from sinking into the ocean. Besides gaining this strange superpower, Larry became radioactive, his body resembling a glowing skele - ton. Contacted by Niles Caulder, Larry was given lead-treat - ed bandages which contained his radioactivity. The Chief inducted him into the Doom Patrol, e Larry took on the codename Negative Man. Negative Man was thought slain in Madame Rouge’s explo - sion, but the Energia-being lived on e proved to be an in - dependent creature (perhaps extraterrestrial). It temporarily took up residence in Valentina Vostok, who became Negative Woman. Later, Larry turned up alive (though comatose) e the negative entity returned to Trainor’s body once its origi - nal host fully recovered. Later, the Energia being, Larry, e one Dr. Eleanor Poole became a gestalt known as Rebis. The Rebis entity was last seen exploring a parallel Earth."
       }
     ]
   },

@@ -14,19 +14,19 @@
       "Pre": 3
     },
     "poderes": [
-      "Nth Metal Wing Harness: Removível (-5 pontos), Indestructible; Força Aprimorada 2, plus Força Aprimorada 2, Limitado a lifting and carrying (Lifting Str 7; 3 tons); Voo 7 (400 km/h), Wings; Imunidade 3 (Frio, Calor, Pressão); Proteção 3; Regeneração 10; Sentidos 1 (Visão Estendida) (25 PP)"
+      "Nth Metal Wing Harness: Removível (-5 pontos), Indestructible; Força Aprimorada 2, plus Força Aprimorada 2, Limitado a lifting e carrying (Lifting Str 7; 3 toneladas); Voo 7 (400 km/h), Wings; Imunidade 3 (Frio, Calor, Pressão); Proteção 3; Regeneração 10; Sentidos 1 (Visão Estendida) (25 PP)"
     ],
     "equipamento": [
       "Arsenal: Arranjo (12 pontos)",
       "• Submachine Gun: À Distância Multiataque Dano 4 (12 PP)",
-      "• Knife: Força-based Dano 1 (piercing), Improved Critical (1 PP)",
-      "• Mace: Força-based Dano 3 (bludgeoning) (1 PP)",
+      "• Knife: Força-based Dano 1 (Perfurante), Improved Critical (1 PP)",
+      "• Mace: Força-based Dano 3 (Contusão) (1 PP)",
       "• Machine Pistola: À Distância Multiataque Dano 3 (1 PP)",
-      "• Espada: Força-based Dano 3 (piercing), Improved Critical (1 PP)",
-      "• Spear: Força-based Dano 3 (piercing), Improved Critical (1 PP)",
+      "• Espada: Força-based Dano 3 (Perfurante), Improved Critical (1 PP)",
+      "• Spear: Força-based Dano 3 (Perfurante), Improved Critical (1 PP)",
       "• Thanagarian Graviton Pistola: Dano à Distância 5 (1 PP)",
       "Body Armor: Proteção 1, Removível (1 PP)",
-      "Medium Escudo: Enhanced Defense 4 (Esquiva 2, Aparar 2) (4 PP)"
+      "Medium Escudo: Defesa Aprimorada 4 (Esquiva 2, Aparar 2) (4 PP)"
     ],
     "vantagens": [
       "Ataque Imprudente",
@@ -37,11 +37,11 @@
       "Equipamento 5",
       "Crítico Aprimorado (Mace)",
       "Iniciativa Aprimorada",
-      "Languages (Thanagarian)",
+      "Idiomas (Thanagarian)",
       "Ação em Movimento",
-      "Precise Attack (à distância; Cover) 1",
+      "Ataque Preciso (À Distância; Cobertura) 1",
       "Saque Rápido",
-      "Derrubar em Sequência 2",
+      "Ataque Dominó 2",
       "Trabalho em Equipe"
     ],
     "pericias": [
@@ -66,17 +66,17 @@
         "total": 11
       },
       {
-        "nome": "Especialidade: Law Enforcement",
+        "nome": "Especialidade: Policiamento",
         "graduacoes": 6,
         "total": 8
       },
       {
-        "nome": "Especialidade: Streetwise",
+        "nome": "Especialidade: Manha",
         "graduacoes": 8,
         "total": 10
       },
       {
-        "nome": "Especialidade: Tactics",
+        "nome": "Especialidade: Tática",
         "graduacoes": 8,
         "total": 10
       },
@@ -101,7 +101,7 @@
         "total": 12
       },
       {
-        "nome": "Combate à Distância: Guns",
+        "nome": "Combate à Distância: Armas de Fogo",
         "graduacoes": 8,
         "total": 15
       },
@@ -161,7 +161,7 @@
       "Resistência": 10,
       "Vontade": 11
     },
-    "observacao_defesas": "* Fortitude 10 Aparar 12/10* Resistência 10/9** Vontade 11 *Without Escudo. **sem Rolamento Defensivo.",
+    "observacao_defesas": "* Fortitude 10 Aparar 12/10* Resistência 10/9** Vontade 11 *sem Escudo. **sem Rolamento Defensivo.",
     "custos": {
       "Habilidades": 7,
       "Perícias": 42,

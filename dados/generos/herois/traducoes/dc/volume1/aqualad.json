@@ -14,7 +14,7 @@
       "Pre": 0
     },
     "poderes": [
-      "Aquatic (Imunidade 3 (Frio, Pressão, Afogamento); Dimensional Key (Característica 1 (Dimensional Key); Área de Explosão 5 (500 feet) Movimento 1 (Dimensional Travel—Xebel), Affects Others, Limitado a at the Bermuda Triangle (-2)); Xebelian Powers: (Arranjo (21 pontos), Electrical Raio (Dano à Distância 10, Preciso), AE: Control Water (Damaging Mover Objetos 7 (3 tons)), AE: Shape Water (Criar Objetos 7, Movable); AE: Water Bearers (Força-based Dano 1, Penetrante 4, Reach 4, Dividido); Natação (Natação 10 (800 km/h))"
+      "Aquatic (Imunidade 3 (Frio, Pressão, Afogamento); Dimensional Key (Característica 1 (Dimensional Key); Área de Explosão 5 (500 pés) Movimento 1 (Viagem Dimensional—Xebel), Afeta Outros, Limitado a at the Bermuda Triangle (-2)); Xebelian Poderes: (Arranjo (21 pontos), Elétrico Raio (Dano à Distância 10, Acurado), AE: Control Water (Damaging Mover Objetos 7 (3 toneladas)), AE: Shape Water (Criar Objetos 7, Movable); AE: Water Bearers (Força-based Dano 1, Penetrante 4, Reach 4, Dividido); Natação (Natação 10 (800 km/h))"
     ],
     "equipamento": [],
     "vantagens": [
@@ -34,7 +34,7 @@
         "total": 8
       },
       {
-        "nome": "Combate à Distância: Xebelian Powers",
+        "nome": "Combate à Distância: Xebelian Poderes",
         "graduacoes": 2,
         "total": 5
       }
@@ -48,7 +48,7 @@
         "dano": "Dano 10, Penetrante 4, Reach 4, Dividido"
       },
       {
-        "nome": "Electrical Raio",
+        "nome": "Elétrico Raio",
         "bonus": 8,
         "alcance": "À distância",
         "dano": "Dano 10"
@@ -79,7 +79,7 @@
     "complicacoes": [
       {
         "titulo": "Inimigo",
-        "texto": "Black Manta has sworn revenge on Aqualad and the Xebelians certainly have plans for him. Motivation—Responsibility: Aqualad didn’t ask for his Powers, but he’s accepted his fate."
+        "texto": "Black Manta has sworn revenge on Aqualad e the Xebelians certainly have plans for him. Motivation—Responsibility: Aqualad didn’t ask for his Poderes, but he’s accepted his fate."
       },
       {
         "titulo": "The Key",

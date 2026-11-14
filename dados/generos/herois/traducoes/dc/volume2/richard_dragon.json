@@ -16,14 +16,14 @@
     "poderes": [],
     "equipamento": [],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Finta Ágil",
       "Ataque Imprudente",
       "Avaliação",
       "Ataque Corpo-a-Corpo 3",
       "Ataque Defensivo",
       "Rolamento Defensivo 4",
-      "Evasion",
+      "Evasão",
       "Improve Critical 2 (Desarmado)",
       "Defesa Aprimorada",
       "Desarmar Aprimorado",
@@ -33,14 +33,14 @@
       "Quebrar Aprimorado",
       "Derrubar Aprimorado",
       "Inspirar",
-      "Levantar Rápido",
+      "De Pé",
       "Ação em Movimento",
       "Ataque Poderoso",
-      "Precise Attack 2 (corpo a corpo; Cover and Concealment)",
-      "Luta Caída",
+      "Ataque Preciso 2 (Corpo a Corpo; Cobertura e Camuflagem)",
+      "Luta no Chão",
       "Redirecionar",
-      "Maestria em Perícia (Expertise: Teaching)",
-      "Derrubar em Sequência",
+      "Maestria em Perícia (Especialidade: Teaching)",
+      "Ataque Dominó",
       "Trabalho em Equipe",
       "Transe",
       "Esquiva Fabulosa",
@@ -68,12 +68,12 @@
         "total": 7
       },
       {
-        "nome": "Especialidade: Philosophy",
+        "nome": "Especialidade: Filosofia",
         "graduacoes": 10,
         "total": 12
       },
       {
-        "nome": "Especialidade: Streetwise",
+        "nome": "Especialidade: Manha",
         "graduacoes": 4,
         "total": 6
       },
@@ -103,7 +103,7 @@
         "total": 7
       },
       {
-        "nome": "Combate à Distância: Throwing",
+        "nome": "Combate à Distância: Arremesso",
         "graduacoes": 7,
         "total": 11
       },
@@ -124,7 +124,7 @@
         "nome": "Desarmado",
         "bonus": 19,
         "alcance": "",
-        "dano": "Dano Corpo a Corpo 3, Crit. 18-20"
+        "dano": "Dano Corpo a Corpo 3, Crít. 18-20"
       }
     ],
     "defesas": {

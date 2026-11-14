@@ -20,9 +20,8 @@
     "vantagens": [
       "Ataque Imprudente",
       "Avaliação",
-      "Benefit 4 (Diplomatic Immunity",
-      "Security Clearance 3)",
-      "Conectado",
+      "Benefício 4 (Imunidade Diplomática, Credencial de Segurança 3)",
+      "Bem Relacionado",
       "Contatos",
       "Rolamento Defensivo 4",
       "Duro de Matar",
@@ -30,20 +29,20 @@
       "Equipamento 6",
       "Esforço Extraordinário",
       "Destemido",
-      "Grande Vigor",
+      "Tolerância Maior",
       "Defesa Aprimorada",
       "Inspirar 2",
       "Liderança",
       "Saque Rápido",
       "Redirecionar",
       "Tomar a Iniciativa",
-      "Preparar",
+      "Armação",
       "Maestria em Perícia (Intimidação)",
       "Assustar",
-      "Derrubar em Sequência",
-      "Provocar",
+      "Ataque Dominó",
+      "Zombar",
       "Trabalho em Equipe",
-      "Bem-Informado"
+      "Bem Informado"
     ],
     "pericias": [
       {
@@ -92,7 +91,7 @@
         "total": 14
       },
       {
-        "nome": "Combate à Distância: Guns",
+        "nome": "Combate à Distância: Armas de Fogo",
         "graduacoes": 10,
         "total": 12
       },

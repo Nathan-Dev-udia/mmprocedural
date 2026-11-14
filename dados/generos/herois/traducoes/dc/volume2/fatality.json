@@ -14,13 +14,13 @@
       "Pre": 2
     },
     "poderes": [
-      "Power r ing (as Star Sapphire’s, but with Campo de Força (Impenetrável Proteção 8; Imunidade 10 (Suporte Vital)) and a 28-ponto Arranjo with each effect reduced by 1 graduação; see Star Sapphire )"
+      "Poder r ing (as Star Sapphire’s, but com Campo de Força (Impenetrável Proteção 8; Imunidade 10 (Suporte Vital)) e a 28-ponto Arranjo com each effect reduced by 1 graduação; see Star Sapphire )"
     ],
     "equipamento": [],
     "vantagens": [
       "Ataque Imprudente",
       "Atraente",
-      "Evasion",
+      "Evasão",
       "Iniciativa Aprimorada",
       "Arma Improvisada",
       "Ataque Poderoso",
@@ -64,7 +64,7 @@
         "total": 8
       },
       {
-        "nome": "Combate à Distância: Power Ring",
+        "nome": "Combate à Distância: Poder Ring",
         "graduacoes": 8,
         "total": 12
       },
@@ -82,7 +82,7 @@
     "iniciativa": 9,
     "ataques": [
       {
-        "nome": "Power Ring",
+        "nome": "Poder Ring",
         "bonus": 12,
         "alcance": "À distância",
         "dano": "Dano 14"
@@ -102,8 +102,14 @@
       "Vontade": 13
     },
     "observacao_defesas": "",
-    "custos": {},
-    "total": null,
+    "custos": {
+      "Habilidades": 68,
+      "Poderes": 92,
+      "Vantagens": 8,
+      "Perícias": 26,
+      "Defesas": 33
+    },
+    "total": 227,
     "complicacoes": []
   },
   "notas": [

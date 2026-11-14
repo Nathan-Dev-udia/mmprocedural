@@ -17,7 +17,7 @@
     "equipamento": [],
     "vantagens": [
       "Atraente",
-      "Benefit 3 (Millionaire)",
+      "Benefício 3 (Milionário)",
       "Sorte 1"
     ],
     "pericias": [
@@ -43,7 +43,7 @@
         "nome": "Desarmado",
         "bonus": 0,
         "alcance": "",
-        "dano": "(Dano -1)"
+        "dano": "Dano -1"
       }
     ],
     "defesas": {

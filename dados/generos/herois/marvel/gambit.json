@@ -56,7 +56,7 @@
       "Iniciativa Aprimorada 2",
       "Sorte",
       "Ataque Poderoso",
-      "Maestria em Perícia (Deception, Technology, Sleight of Hand, Stealth)",
+      "Maestria em Perícia (Enganação, Tecnologia, Prestidigitação, Furtividade)",
       "Esforço Supremo (Teste de Enganação)",
       "Esquiva Fabulosa (Audição)",
       "Idiomas 1"
@@ -64,7 +64,7 @@
     "poderes": [
       {
         "nome": "Blast (kinetic cards)",
-        "construcao_3e": "Dano 10 (À Distância, área Burst, Flaw: Requires Medium [cartas/objetos]; 20 PP) + Dividido 3 (3 PP); Efeito Alternativo: Dano 8 (À Distância, Multiataque, Preciso, Requires Medium; 1 PP). Array total: 24 PP.",
+        "construcao_3e": "Dano 10 (À Distância, área Estouro, Flaw: Requires Medium [cartas/objetos]; 20 PP) + Dividido 3 (3 PP); Efeito Alternativo: Dano 8 (À Distância, Multiataque, Preciso, Requires Medium; 1 PP). Arranjo total: 24 PP.",
         "custo_2e_pp": 24,
         "custo_3e_pp": 24,
         "nome_pt": "Rajada de Energia (kinetic cards)"

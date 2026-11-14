@@ -14,14 +14,14 @@
       "Pre": 5
     },
     "poderes": [
-      "i mmunit y 10 (Envelhecimento, Frio, Calor, Pressão, Radiação, Vácuo, Doença, Veneno, Sufocamento (All)); Solar e nergy Control: Arranjo (48 pontos): f ligh t 24 (32,000,0 km/h, Dynamic), ae : Solar e nergy Beam (Dano à Distância 12, Dynamic), ae : Solar Light Beam (Aflição à Distância 12 (resistido por Fortitude; Visually Impaired, Visually Disabled, Visually Unaware), Cumulativo, Dynamic), ae : Holograms (Ilusão 10 (Visual), área 2 (30 feet), Dynamic), ae : Miniature Sun (Environment 12 (Bright Light), Dynamic), ae : Movimento 1 (Space Travel 1, Dynamic); Mother Box (Removível (–5 pontos): Boom Tube (Space Travel 3); i n telligence (Característica 2); r estoration (Cura 8)"
+      "i mmunit y 10 (Envelhecimento, Frio, Calor, Pressão, Radiação, Vácuo, Doença, Veneno, Sufocamento (All)); Solar e nergy Control: Arranjo (48 pontos): f Luz 24 (51.200.000 km/h, Dinâmico), ae : Solar e nergy Beam (Dano à Distância 12, Dinâmico), ae : Solar Luz Beam (Aflição à Distância 12 (resistido por Fortitude; Visually Prejudicado, Visually Desabilitado, Visually Desatento), Cumulativo, Dinâmico), ae : Holograms (Ilusão 10 (Visual), área 2 (30 pés), Dinâmico), ae : Miniature Sun (Ambiente 12 (Bright Luz), Dinâmico), ae : Movimento 1 (Viagem Espacial 1, Dinâmico); Mother Box (Removível (-5 pontos): Boom Tube (Viagem Espacial 3); i n telligence (Característica 2); r estoration (Cura 8)"
     ],
     "equipamento": [],
     "vantagens": [
       "Finta Ágil",
       "Rolamento Defensivo 3",
       "Duro de Matar",
-      "Evasion 2",
+      "Evasão 2",
       "Ataque à Distância 7"
     ],
     "pericias": [
@@ -36,7 +36,7 @@
         "total": 12
       },
       {
-        "nome": "Especialidade: Science",
+        "nome": "Especialidade: Ciência",
         "graduacoes": 8,
         "total": 14
       },
@@ -54,13 +54,13 @@
     "iniciativa": 5,
     "ataques": [
       {
-        "nome": "Solar Energy Beam",
+        "nome": "Solar Energia Beam",
         "bonus": 12,
         "alcance": "À distância",
         "dano": "Dano 12"
       },
       {
-        "nome": "Solar Light Ray",
+        "nome": "Solar Luz Ray",
         "bonus": 12,
         "alcance": "À distância",
         "dano": "Aflição 12"

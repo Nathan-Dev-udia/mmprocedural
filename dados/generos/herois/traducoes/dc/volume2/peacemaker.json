@@ -14,7 +14,7 @@
       "Pre": 1
     },
     "poderes": [
-      "36 Defenses 59 Advantages 51 Total 212"
+      "36 Defesas 59 Vantagens 51 Total 212"
     ],
     "equipamento": [
       "a rsenal: Arranjo (15 pontos)",
@@ -28,21 +28,17 @@
     ],
     "vantagens": [
       "Ataque Imprudente",
-      "Benefit 3 (Millionaire)",
+      "Benefício 3 (Milionário)",
       "Ataque Corpo-a-Corpo 5",
       "Equipamento 21",
       "Iniciativa Aprimorada",
-      "Languages 3 (German",
-      "French",
-      "Italian",
-      "Spanish",
-      "English Native)",
+      "Idiomas 3 (Alemão, Francês, Italiano, Espanhol, Inglês Native)",
       "Ataque Poderoso",
-      "Precise Attack (à distância; Cover)",
+      "Ataque Preciso (À Distância; Cobertura)",
       "Ataque à Distância 7",
       "Saque Rápido",
       "Assustar",
-      "Derrubar em Sequência",
+      "Ataque Dominó",
       "Maestria em Arremesso"
     ],
     "pericias": [
@@ -62,7 +58,7 @@
         "total": 10
       },
       {
-        "nome": "Especialidade: Tactics",
+        "nome": "Especialidade: Tática",
         "graduacoes": 4,
         "total": 7
       },
@@ -113,7 +109,13 @@
         "nome": "Assault Rifle",
         "bonus": 15,
         "alcance": "À distância",
-        "dano": "Multiataque Dano 5 Fragmentation Grenade — À Distância, Área de Explosão Dano 5"
+        "dano": "Multiataque Dano 5"
+      },
+      {
+        "nome": "Fragmentation Grenade",
+        "bonus": null,
+        "alcance": "À distância",
+        "dano": "Área de Explosão Dano 5"
       },
       {
         "nome": "Heavy Pistola",
@@ -131,18 +133,27 @@
         "nome": "Espada",
         "bonus": 13,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 7, Crit. 19-20"
+        "dano": "Dano 7, Crít. 19-20"
       },
       {
         "nome": "Desarmado",
         "bonus": 15,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 4 efen S e d Esquiva 13 Fortitude 11 Aparar 13 Resistência 7 Vontade 8 Po er ponto W S Abilities 64 Skills 32"
+        "dano": "Dano 4"
       }
     ],
-    "defesas": {},
+    "defesas": {
+      "Esquiva": 13,
+      "Fortitude": 11,
+      "Aparar": 13,
+      "Resistência": 7,
+      "Vontade": 8
+    },
     "observacao_defesas": "",
-    "custos": {},
+    "custos": {
+      "Habilidades": 64,
+      "Perícias": 32
+    },
     "total": null,
     "complicacoes": [
       {
@@ -151,7 +162,7 @@
       },
       {
         "titulo": "Peculiaridade",
-        "texto": "Sees his dead father and deceased victims of terrorism egging him on."
+        "texto": "Sees his dead father e deceased victims of terrorism egging him on."
       },
       {
         "titulo": "Secret den i tity",

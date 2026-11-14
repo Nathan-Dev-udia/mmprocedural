@@ -14,17 +14,17 @@
       "Pre": 2
     },
     "poderes": [
-      "Diving Suit: Força Aprimorada 5, Proteção 5, Natação 7 (96 km/h), Removível (–4 pontos) (13 PP)",
-      "Gill Implants: Imunidade 2 (Afogamento, Pressão), Movimento 1 (Environmental Adaptation: Aquatic) (4 PP)",
-      "Helmet: Imunidade 5 (Telepathic Powers), Removível (–1 ponto) (4 PP)",
-      "Weapons: Arranjo (20 pontos), Removível (–4 pontos) • Electrical Blasters: Dano 10, Área de Linha (20 PP)",
-      "• Blades: Força-based Dano 2 (1 PP)",
+      "Diving Suit: Força Aprimorada 5, Proteção 5, Natação 7 (96 km/h), Removível (-4 pontos) (13 PP)",
+      "Gill Implants: Imunidade 2 (Afogamento, Pressão), Movimento 1 (Adaptação Ambiental: Aquatic) (4 PP)",
+      "Helmet: Imunidade 5 (Telepathic Poderes), Removível (-1 ponto) (4 PP)",
+      "Weapons: Arranjo (20 pontos), Removível (-4 pontos) • Elétrico Blasters: Dano 10, Área de Linha (20 PP)",
+      "• Lâminas: Força-based Dano 2 (1 PP)",
       ". • Helmet Eye-beams: Dano à Distância 10 (laser) (1 PP)",
       "• Minitorpedos: Dano à Distância 8, Teleguiado 4 (1 PP)"
     ],
     "equipamento": [
       "VEHICLE: MANTA-SUB (35 PP)",
-      "Gargantuan; Str 13, Velocidade 7, Def 6, Tou 11; Navigation System, Smokescreen (ink cloud), Torpedoes (Dano à Distância 8 Área de Explosão 5), Towing Cables"
+      "Gargantuan; Str 13, Velocidade 7, Def 6, Tou 11; Navegação System, Smokescreen (ink Nuvem), Torpedoes (Dano à Distância 8 Área de Explosão 5), Towing Cables"
     ],
     "vantagens": [
       "Finta Ágil",
@@ -33,7 +33,7 @@
       "Mira Aprimorada",
       "Minions",
       "Ação em Movimento",
-      "Precise Attack (à distância; Cover)"
+      "Ataque Preciso (À Distância; Cobertura)"
     ],
     "pericias": [
       {
@@ -42,7 +42,7 @@
         "total": 9
       },
       {
-        "nome": "Combate Corpo-a-Corpo: Blades",
+        "nome": "Combate Corpo-a-Corpo: Lâminas",
         "graduacoes": 4,
         "total": 10
       },
@@ -89,10 +89,10 @@
         "dano": "Dano 8"
       },
       {
-        "nome": "Lâminas Gêmeas",
+        "nome": "Twin Lâminas",
         "bonus": 10,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 10, Piercing"
+        "dano": "Dano 10, Perfurante"
       },
       {
         "nome": "Desarmado",
@@ -116,7 +116,7 @@
       "Perícias": 15,
       "Defesas": 22
     },
-    "total": null,
+    "total": 142,
     "complicacoes": [
       {
         "titulo": "Motivação",

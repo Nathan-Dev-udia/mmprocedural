@@ -41,11 +41,11 @@
     },
     "vantagens": [
       "Ataque Imprudente",
-      "Benefício [Wealth]",
+      "Benefício (Riqueza)",
       "Estrangular",
       "Ataque Defensivo",
-      "Tontear [Intimidate]",
-      "Fascinar [Intimidate]",
+      "Tontear (Intimidação)",
+      "Fascinar (Intimidação)",
       "Equipamento",
       "Defesa Aprimorada 2",
       "Iniciativa Aprimorada",
@@ -78,7 +78,7 @@
       },
       {
         "nome": "Super Strength",
-        "construcao_3e": "Power-Lifting 3.",
+        "construcao_3e": "Levantamento de Peso 3.",
         "custo_2e_pp": 6,
         "custo_3e_pp": 3,
         "nome_pt": "Super-Força"

@@ -14,21 +14,21 @@
       "Pre": 2
     },
     "poderes": [
-      "f Arranjo (30 pontos) ligh t: • Voo 15 (64,0 km/h) (30 PP)",
-      "• Velocidade 15 (64,0 km/h) (1 PP)",
-      "• Movimento 1 (Space Travel 1) (1 PP)",
-      "Calor Vision: Dano à Distância 15 (Calor) (30 PP)",
+      "f Arranjo (30 pontos) Luz: • Voo 15 (102.400 km/h) (30 PP)",
+      "• Velocidade 15 (102.400 km/h) (1 PP)",
+      "• Movimento 1 (Viagem Espacial 1) (1 PP)",
+      "Visão de Calor: Dano à Distância 15 (Calor) (30 PP)",
       "i n vulnerability: Proteção 4; Resistência Impenetrável 17; Imunidade 5 (Frio, Calor, Pressão, Radiação, Vácuo) (26 PP)",
-      "Super-Sentidos: Sentidos 15 (Aguçado and Audição Estendida, Visão Estendida 3, Infravisão, Visão Microscópica 4, Ultra- Hearing, Vision Penetrates Camuflagem (except lead)) (15 PP)",
+      "Super-Sentidos: Sentidos 15 (Aguçado e Audição Estendida, Visão Estendida 3, Infravisão, Visão Microscópica 4, Ultra- Audição, Visão Penetrates Camuflagem (except lead)) (15 PP)",
       "Super-Velocidade: Rapidez 8 (8 PP)",
-      "Super-Força: Força Aprimorada 4, Limitado a Lifting (Lifting Str 21; 50,000 tons) (4 PP)"
+      "Super-Força: Força Aprimorada 4, Limitado a Lifting (Lifting Str 21; 50,000 toneladas) (4 PP)"
     ],
     "equipamento": [],
     "vantagens": [
       "Atraente",
       "Ataque Corpo-a-Corpo 3",
-      "Conectado",
-      "Fascinate 2 (Deception and Persuasion)",
+      "Bem Relacionado",
+      "Fascinar 2 (Enganação e Persuasão)",
       "Interpor-se",
       "Ataque Poderoso"
     ],
@@ -44,7 +44,7 @@
         "total": 6
       },
       {
-        "nome": "Especialidade: Business",
+        "nome": "Especialidade: Negócios",
         "graduacoes": 6,
         "total": 8
       },
@@ -82,7 +82,7 @@
     "iniciativa": 3,
     "ataques": [
       {
-        "nome": "Calor Vision",
+        "nome": "Visão de Calor",
         "bonus": 9,
         "alcance": "À distância",
         "dano": "Dano 15"
@@ -113,19 +113,19 @@
     "complicacoes": [
       {
         "titulo": "d emeaning Perception",
-        "texto": "Power Girl is not afraid to flaunt her f emale attributes, which sometimes causes unwanted distraction and allows others to make ill-informed judgments of her character."
+        "texto": "Poder Girl is not afraid to flaunt her f emale attributes, which sometimes causes unwanted distraction e allows others to make ill-informed judgments of her character."
       },
       {
         "titulo": "Perda de Poder",
-        "texto": "Power Girl loses her Powers and her Str and Sta are reduced to 1 and 2 respectively under a red sun, like that of Krypton, and other effects that drain or interfere with the energies of the yellow sun can deprive her of her Powers."
+        "texto": "Poder Girl loses her Poderes e her Str e Sta are reduced to 1 e 2 respectively under a red sun, like that of Krypton, e other Efeitos that drain or interfere com the energies of the yellow sun can deprive her of her Poderes."
       },
       {
         "titulo": "Secret i den tity",
-        "texto": "Karen Starr Stranger in a Strange Land: Power Girl is the last survivor of her home planet and of her universe. She truly has no one else from either home, only counterparts of those with whom she was once connected. er: Power Girl is notorious for her temper. t emp Vulnerability: Power Girl is Vulnerável to mágico. Her Resistência is not Impenetrável against magical attacks."
+        "texto": "Karen Starr Stranger in a Strange Land: Poder Girl is the last survivor of her home planet e of her universe. She truly has no one else from either home, Apenas counterparts of those com whom she was once connected. er: Poder Girl is notorious for her temper. t emp Vulnerability: Poder Girl is Vulnerável to Magia. Her Resistência is not Impenetrável contra Mágico attacks."
       },
       {
         "titulo": "Fraqueza",
-        "texto": "Kryptonite (see sidebar). As the survivor of an alternate Earth’s Krypton, standard (New Earth) kryptonite doesn’t affect Power Girl, only the remnants of her original universe’s kryptonite."
+        "texto": "Kryptonite (see sidebar). As the survivor of an alternate Earth’s Krypton, standard (New Earth) kryptonite doesn’t affect Poder Girl, Apenas the remnants of her original universe’s kryptonite."
       }
     ]
   },

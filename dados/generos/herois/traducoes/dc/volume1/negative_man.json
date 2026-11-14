@@ -14,7 +14,7 @@
       "Pre": 2
     },
     "poderes": [
-      "Negative Man ( Alternate Form (222 pontos); Ativação (Ação de Movimento, -1 ponto), Fast ( Enhanced Advantages 9 (Corpo a Corpo Attack 6, Improved Iniciativa 2, Uncanny Esquiva)), Voo ( Voo 18 (500,0 km/h)), Inhuman ( Imunidade 53 (Envelhecimento, Critical Hits, Fortitude Effects, Vontade Effects, Suporte Vital)), Intangible ( Intangibilidade 3 (Energy Form)), Negative Energy Body (Affects Corporeal Reação Dano 12, Penetrante 12 Linked to Affects Corporeal Corpo a Corpo Range Nulificar 12 (Electronic Equipment)), Tactile Telekinesis (Força Aprimorada 8, Affects Corporeal 9)) Advantages; Corpo a Corpo Attack 6 , Extraordinary Effort, Improved Iniciativa 2 , Trance, Uncanny Esquiva Skills; Athletics 4 (+5), Deception 4 (+9), Insight 6 (+10), Perception 7 (+11), Persuasion 4 (+10), Technology 4 (+5), Vehicles 9 (+12)"
+      "Negative Man ( Alternate Form (222 pontos); Ativação (Ação de Movimento, -1 ponto), Fast ( Vantagens Aprimoradas 9 (Ataque Corpo-a-Corpo 6, Iniciativa Aprimorada 2, Esquiva Fabulosa)), Voo ( Voo 18 (800.000 km/h)), Inhuman ( Imunidade 53 (Envelhecimento, Critical Hits, Efeitos de Fortitude, Vontade Efeitos, Suporte Vital)), Intangible ( Intangibilidade 3 (Energia Form)), Negative Energia Body (Afeta Corpóreo Reação Dano 12, Penetrante 12 Ligado a Afeta Corpóreo Alcance Perto Nulificar 12 (Electronic Equipment)), Tátil Telekinesis (Força Aprimorada 8, Afeta Corpóreo 9)) Vantagens; Corpo a Corpo Attack 6 , Extraordinary Effort, Iniciativa Aprimorada 2 , Trance, Uncanny Esquiva Perícias; Atletismo 4 (+5), Enganação 4 (+9), Intuição 6 (+10), Percepção 7 (+11), Persuasão 4 (+10), Tecnologia 4 (+5), Veículos 9 (+12)"
     ],
     "equipamento": [],
     "vantagens": [],
@@ -25,7 +25,7 @@
         "nome": "/",
         "bonus": 9,
         "alcance": "",
-        "dano": ", Desarmado +6/+12 (Corpo a Corpo, Dano 1/9*), Negative Energy Body +12* (Corpo a Corpo, Dano 12 Linked to Nulificar 12*)"
+        "dano": ", Desarmado +6/+12 (Corpo a Corpo, Dano 1/9*), Negative Energia Body +12* (Corpo a Corpo, Dano 12 Ligado a Nulificar 12*)"
       }
     ],
     "defesas": {
@@ -35,7 +35,7 @@
       "Resistência": 4,
       "Vontade": 6
     },
-    "observacao_defesas": "*, Resistência 4, Vontade 6/Immune* *In Negative Man form.",
+    "observacao_defesas": "*, Resistência 4, Vontade 6/Imune* *In Negative Man form.",
     "custos": {
       "Habilidades": 50,
       "Poderes": 221,
@@ -51,11 +51,11 @@
       },
       {
         "titulo": "Fraqueza",
-        "texto": "Larry Trainor (or whichever host body) grows weaker the longer the Negative Man is out of his body. He is able to act, but only through extreme effort. In addition, the Negative Man must return to Trainor’s body after roughly a minute or risk Trainor’s death."
+        "texto": "Larry Trainor (or whichever host body) grows weaker the longer the Negative Man is out of his body. He is able to act, but Apenas through extreme effort. In addition, the Negative Man must return to Trainor’s body after roughly a minute or risk Trainor’s death."
       },
       {
         "titulo": "Fraqueza",
-        "texto": "The Negative Spirit is Vulnerável to attacks with the electromagnetic descriptor, including EMP attacks and magnetic force fields. It suffers a -5 penalty to resist such effects."
+        "texto": "The Negative Spirit is Vulnerável to attacks com the electromagnetic descriptor, including EMP attacks e Magnético force fields. It suffers a -5 penalty to resist such Efeitos."
       }
     ]
   },

@@ -14,14 +14,14 @@
       "Pre": 1
     },
     "poderes": [
-      "Shadow f orm: Camuflagem 4 (all Visual, Limitado a Darkness and Shadows); Alongamento 2 (30 feet); Enhanced Abilities 16 (Agilidade 4, Vigor 6, Força 6); Enhanced Defense 14 (Esquiva 6, Aparar 6); Enhanced Advantages 4 (Fast Grab, Hide in Plain Sight, Instant Up, Move-by Action); Característica 1 (Quick Change); Voo 4 (48 km/h); Imunidade 10 (Suporte Vital); Intangibilidade 4; Movimento 2 (Slithering, Wall-Crawling 2); Sentidos 2 (Visão no Escuro) (101 PP)"
+      "Shadow f orm: Camuflagem 4 (all Visual, Limitado a Escuridão e Shadows); Alongamento 2 (30 pés); Habilidades Aprimoradas 16 (Agilidade 4, Vigor 6, Força 6); Defesa Aprimorada 14 (Esquiva 6, Aparar 6); Vantagens Aprimoradas 4 (Agarrar Rápido, Esconder-se à Plena Vista, De Pé, Ação em Movimento); Característica 1 (Quick Change); Voo 4 (48 km/h); Imunidade 10 (Suporte Vital); Intangibilidade 4; Movimento 2 (Rastejar, Escalar Paredes 2); Sentidos 2 (Visão no Escuro) (101 PP)"
     ],
     "equipamento": [],
     "vantagens": [
       "Ataque Corpo-a-Corpo 4",
       "Agarrar Rápido",
-      "Esconder-se a Plena Vista",
-      "Levantar Rápido",
+      "Esconder-se à Plena Vista",
+      "De Pé",
       "Sorte",
       "Ação em Movimento"
     ],
@@ -82,8 +82,15 @@
         "total": 7
       }
     ],
-    "iniciativa": 0,
-    "ataques": [],
+    "iniciativa": 6,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 8"
+      }
+    ],
     "defesas": {
       "Esquiva": 12,
       "Fortitude": 10,
@@ -103,11 +110,11 @@
     "complicacoes": [
       {
         "titulo": "d ark Connection",
-        "texto": "Obsidian gains his Powers through a c onnection to the Shadowlands, an inherently corrupting influence. nstabilit Legacy of i y: Obsidian inherited a predisposition to mental illness from his mother, a vulnerability exacerbated by his abusive adoptive father."
+        "texto": "Obsidian gains his Poderes through a c onnection to the Shadowlands, an inherently corrupting influence. nstabilit Legacy of i y: Obsidian inherited a predisposition to mental illness from his mother, a vulnerability exacerbated by his abusive adoptive father."
       },
       {
         "titulo": "Sexuality",
-        "texto": "Obsidian is gay, and this might cause him difficulty in situations where prejudice is an issue. aLLI e S His father Alan Scott (the first Green Lantern), his sister, Jade, and his teammates in the JSA are all strong allies. Thanks to his past connections, he can also call on a variety of other he- roes. e ne MI e S Due to his strong self-identification with the JSA, their ene - mies are his, with Ian Karkull (presuming his survival) and Kid Karnevil representing his personal enemies."
+        "texto": "Obsidian is gay, e this might cause him difficulty in situations where prejudice is an issue. aLLI e S His father Alan Scott (the first Green Lantern), his sister, Jade, e his teammates in the JSA are all strong allies. Thanks to his past connections, he can also call on a variety of other he- roes. e ne MI e S Due to his strong self-identification com the JSA, their ene - mies are his, com Ian Karkull (presuming his Sobrevivência) e Kid Karnevil representing his personal enemies."
       }
     ]
   },

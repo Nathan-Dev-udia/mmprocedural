@@ -14,7 +14,7 @@
       "Pre": 1
     },
     "poderes": [
-      "a rmor (Voo 5 (96 km/h), Imunidade 4 (Pressão, Sufocamento, Vácuo), Impenetrável Proteção 4, Sentidos 3 (Comunicação Link, Visão no Escuro), Removível (-5 pontos)); Mother Box (Intelligence (Característica 2), Cura 8, Removível (–4 pontos); Power-Staff (Dano à Distância 8, Facilmente Removível (-6 pontos))"
+      "a rmor (Voo 5 (96 km/h), Imunidade 4 (Pressão, Sufocamento, Vácuo), Impenetrável Proteção 4, Sentidos 3 (Elo de Comunicação, Visão no Escuro), Removível (-5 pontos)); Mother Box (Intelligence (Característica 2), Cura 8, Removível (-4 pontos); Poder-Staff (Dano à Distância 8, Facilmente Removível (-6 pontos))"
     ],
     "equipamento": [],
     "vantagens": [
@@ -22,10 +22,10 @@
       "Estrangular",
       "Ataque Corpo-a-Corpo 4",
       "Destemido",
-      "Grande Vigor",
+      "Tolerância Maior",
       "Agarrar Aprimorado",
       "Interpor-se",
-      "Esforço Supremo (Toughness check)"
+      "Esforço Supremo (Resistência Teste)"
     ],
     "pericias": [
       {
@@ -44,7 +44,7 @@
         "total": 5
       },
       {
-        "nome": "Combate à Distância: Power-Staff",
+        "nome": "Combate à Distância: Poder-Staff",
         "graduacoes": 6,
         "total": 8
       }
@@ -58,7 +58,7 @@
         "dano": "Dano 8"
       },
       {
-        "nome": "Power- Staff",
+        "nome": "Poder- Staff",
         "bonus": 8,
         "alcance": "À distância",
         "dano": "Dano 8"
@@ -83,7 +83,7 @@
     "complicacoes": [
       {
         "titulo": "born and bred ie",
-        "texto": "to die in the name of Darkseid. He has little to no sense of self-preservation. worldly: Parademon is an inhuman- o ther looking alien being with no social Skills. r elationship: Parademon enjoys Ragdoll’s antics and defends the twisted villain above all other members of the Secret Six."
+        "texto": "to die in the name of Darkseid. He has little to no sense of self-preservation. worldly: Parademon is an inhuman- o ther looking alien being com no social Perícias. r elationship: Parademon enjoys Ragdoll’s antics e defends the twisted villain above all other members of the Secret Six."
       }
     ]
   },

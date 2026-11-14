@@ -14,7 +14,7 @@
       "Pre": 2
     },
     "poderes": [
-      "Living Mist: Intangibilidade 4, Contínuo, Reação, Preciso, Limitado—Not through airtight or solid objects; Voo 4 (48 km/h), Contínuo, Sutil 2; Área de Nuvem Enfraquecer Abilities 6 (resistido por Fortitude), Progressivo, Broad (Força, Vigor, Agilidade, and Destreza), Simultaneous (81 PP)"
+      "Living Mist: Intangibilidade 4, Contínuo, Reação, Preciso, Limitado—Not through airtight or solid Objetos; Voo 4 (48 km/h), Contínuo, Sutil 2; Área de Nuvem Enfraquecer Habilidades 6 (resistido por Fortitude), Progressivo, Amplo (Força, Vigor, Agilidade, e Destreza), Simultâneo (81 PP)"
     ],
     "equipamento": [
       "Submachine Gun: À Distância Multiataque Dano 4 (12 PP)",
@@ -22,14 +22,14 @@
       "Leather Jacket: Proteção 1 (1 PP)"
     ],
     "vantagens": [
-      "Benefit 3 (Millionaire)",
+      "Benefício 3 (Milionário)",
       "Ataque Defensivo",
       "Rolamento Defensivo 4",
       "Equipamento 9",
-      "Evasion",
+      "Evasão",
       "Esforço Extraordinário",
       "Mira Aprimorada",
-      "Levantar Rápido",
+      "De Pé",
       "Ataque Poderoso",
       "Tomar a Iniciativa"
     ],
@@ -60,7 +60,7 @@
         "total": 11
       },
       {
-        "nome": "Especialidade: Tactics",
+        "nome": "Especialidade: Tática",
         "graduacoes": 8,
         "total": 10
       },
@@ -75,7 +75,7 @@
         "total": 6
       },
       {
-        "nome": "Combate à Distância: Guns",
+        "nome": "Combate à Distância: Armas de Fogo",
         "graduacoes": 10,
         "total": 13
       },
@@ -91,7 +91,13 @@
         "nome": "Knife",
         "bonus": 13,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 2, Crit. 19-20 Living Mist — Corpo a Corpo, Área de Nuvem Enfraquecer Abilities 6, resistido por Fortitude Submachine Gun +13 À Distância, Multiataque Dano 4"
+        "dano": "Dano 2, Crít. 19-20"
+      },
+      {
+        "nome": "Living Mist",
+        "bonus": null,
+        "alcance": "Corpo a corpo",
+        "dano": "Área de Nuvem Enfraquecer Habilidades 6, resistido por Fortitude Submachine Gun +13 À Distância, Multiataque Dano 4"
       },
       {
         "nome": "Desarmado",

@@ -14,21 +14,20 @@
       "Pre": 1
     },
     "poderes": [
-      "Mobility (Movimento 5 (Sure-Footed 2, Safe Fall, Swinging, Wall-crawling)); Hand-Like Feet ( Característica 1 (Can use feet like hands))"
+      "Mobility (Movimento 5 (Passo Firme 2, Queda Segura, Balançar-se, Escalar Paredes)); Hand-Like pés ( Característica 1 (Can use pés like hands))"
     ],
     "equipamento": [
       "Heavy Pistola (Dano à Distância 4), Machine Gun (Dano à Distância 6, Multiataque) , an additional 4 pontos of equipment that changes depending on the mission."
     ],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Finta Ágil",
       "Rolamento Defensivo 3",
       "Equipamento 6",
-      "Pau pra Toda Obra",
+      "Faz Tudo",
       "Agarrar Aprimorado",
-      "Ferramentas Improvisadas",
-      "Languages (English",
-      "French is native)",
+      "Ferramentas Aprimoradas",
+      "Idiomas (Inglês, Francês is native)",
       "Ataque Poderoso"
     ],
     "pericias": [
@@ -53,22 +52,22 @@
         "total": 3
       },
       {
-        "nome": "Especialidade: Current Events",
+        "nome": "Especialidade: Atualidades",
         "graduacoes": 3,
         "total": 7
       },
       {
-        "nome": "Especialidade: Guns",
+        "nome": "Especialidade: Armas de Fogo",
         "graduacoes": 2,
         "total": 6
       },
       {
-        "nome": "Especialidade: Military",
+        "nome": "Especialidade: Militar",
         "graduacoes": 2,
         "total": 6
       },
       {
-        "nome": "Especialidade: Science",
+        "nome": "Especialidade: Ciência",
         "graduacoes": 2,
         "total": 6
       },
@@ -88,7 +87,7 @@
         "total": 3
       },
       {
-        "nome": "Combate à Distância: Guns",
+        "nome": "Combate à Distância: Armas de Fogo",
         "graduacoes": 7,
         "total": 10
       },
@@ -143,7 +142,7 @@
     "complicacoes": [
       {
         "titulo": "Forbidden Love",
-        "texto": "The Brain and Monsieur Mallah are involved in a romantic relationship that can, at best, be described as extraordinarily unorthodox given the former’s disembodied circumstances and Mallah being a mutated gorilla."
+        "texto": "The Brain e Monsieur Mallah are involved in a romantic relationship that can, at best, be described as extraordinarily unorthodox given the former’s disembodied circumstances e Mallah being a mutated gorilla."
       }
     ]
   },

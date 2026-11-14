@@ -16,14 +16,14 @@
     "poderes": [
       "Clay Body: Arranjo (13 pontos) (13 PP)",
       "• Hard Clay Form: Força-based Damge 4; Luta Aprimorada -4; Força Aprimorada 3; Proteção 7; Resistência Impenetrável 4 (13 PP)",
-      "• Flowing Clay Form: Alongamento 1 (15 feet); Intangibilidade 1 (Liquid); Força-based Dano 3; Movimento 1 (Slithering (1 PP)",
+      "• Flowing Clay Form: Alongamento 1 (15 pés); Intangibilidade 1 (Liquid); Força-based Dano 3; Movimento 1 (Rastejar (1 PP)",
       "Inhuman: Imunidade 8 (Critical Hits, Doença, Calor, Veneno, Radiação, Sufocamento) (8 PP)",
       "Reassembly: Cura 5, Limitado a Self; Regeneração 1, Persistent (7 PP)",
-      "Shapechange: Característica 1 (Voice Mimetismo); Metamorfose 4 (Anything), Peculiaridade: Using Clay Body power ends Shapechange (-1 ponto) (20 PP)"
+      "Shapechange: Característica 1 (Voice Mimetismo); Metamorfose 4 (Anything), Peculiaridade: Using Clay Body Poder ends Shapechange (-1 ponto) (20 PP)"
     ],
     "equipamento": [],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Ataque Imprudente",
       "Estrangular",
       "Agarrar Rápido",
@@ -54,7 +54,7 @@
         "total": 8
       },
       {
-        "nome": "Especialidade: History",
+        "nome": "Especialidade: História",
         "graduacoes": 6,
         "total": 8
       },
@@ -70,7 +70,7 @@
         "nome": "Desarmado",
         "bonus": 13,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 8, Alongamento 15 feet* Desarmado +9 Corpo a Corpo, Dano 12"
+        "dano": "Dano 8, Alongamento 15 pés* Desarmado +9 Corpo a Corpo, Dano 12"
       }
     ],
     "defesas": {
@@ -92,7 +92,7 @@
     "complicacoes": [
       {
         "titulo": "Perda de Poder",
-        "texto": "Hagen must bathe in a radioactive pool once every 48 hours or he loses his Powers. ALLIES Clayface’s associates include the Joker, Brainiac, Killer Moth, Two-Face, and Gentleman Ghost. ENEMIES Batman, Robin, Batgirl, and Superman have all fought and defeated Hagen."
+        "texto": "Hagen must bathe in a radioactive pool once every 48 hours or he loses his Poderes. ALLIES Clayface’s associates include the Joker, Brainiac, Killer Moth, Two-Face, e Gentleman Ghost. ENEMIES Batman, Robin, Batgirl, e Superman have all fought e defeated Hagen."
       }
     ]
   },

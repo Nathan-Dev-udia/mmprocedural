@@ -14,16 +14,16 @@
       "Pre": 2
     },
     "poderes": [
-      "Concealed t ops (Arranjo (32 pontos), Removível (–8 pontos): Streamer t op (R anged Aflição 8 (resistido por Esquiva; Impedido and Vulnerável, Indefeso and Imóvel), Área de Nuvem, Cumulativo, Extra Condition, Limitado Degree); ae : Blacklight t op (Camuflagem 4 (All Visual), Attack, Área de Cone); ae : Blinding t op (Aflição 10 (resistido por Fortitude; Visually Impaired, Visually Disabled, Visually Unaware), Cumulativo, Perception área (Visual)); ae : Bola t ops (Aflição à Distância 10 (resistido por Esquiva; Impedido and Vulnerável, Indefeso and Imóvel), Cumulativo, Extra Condition, Limitado Degree); ae : e lec tro- t op (Dano à Distância 10, resistido por Fortitude); ae : f lamethr ower t op (Dano à Distância 10, Área de Nuvem); ae : Gas t op (Aflição à Distância 8 (resistido por Fortitude; Tonto, Atordoado, Incapacitado) Área de Nuvem 2 (30 feet), Cumulativo); ae : Glue t op (Aflição à Distância 6 (resistido por Esquiva; Impedido and Vulnerável, Indefeso and Imóvel), Área de Explosão, Cumulativo, Extra Condition, Sustentado Duration, Limitado Degree); ae : Grenade t op (Dano à Distância 10, Área de Explosão); ae : Soundwave t op (Dano à Distância 10, Sustentado Duration); ae : t ornado t op (Mover Objetos 10, Área de Cone, Sustentado Duration, Limitado Direction (repulsion)); i mmor tality 6 (Recently dead or brain-dead body nearby); Spinning (Enhanced Advantage 11 (Defensive Roll 4, Fascinate (Deception), Improved Iniciativa 6), Enhanced Defenses 20 (Esquiva 10, Aparar 10), Intelecto Aprimorado 3, Sentidos 1 (Raio Vision), Limitado: Must Remain Imóvel While Spinning))"
+      "Concealed t ops (Arranjo (32 pontos), Removível (-8 pontos): Streamer t op (Aflição à Distância 8 (resistido por Esquiva; Impedido e Vulnerável, Indefeso e Imóvel), Área de Nuvem, Cumulativo, Extra Condition, Limitado Grau); ae : Blacklight t op (Camuflagem 4 (All Visual), Attack, Área de Cone); ae : Blinding t op (Aflição 10 (resistido por Fortitude; Visually Prejudicado, Visually Desabilitado, Visually Desatento), Cumulativo, Percepção área (Visual)); ae : Bola t ops (Aflição à Distância 10 (resistido por Esquiva; Impedido e Vulnerável, Indefeso e Imóvel), Cumulativo, Extra Condition, Limitado Grau); ae : e lec tro- t op (Dano à Distância 10, resistido por Fortitude); ae : f lamethr ower t op (Dano à Distância 10, Área de Nuvem); ae : Gas t op (Aflição à Distância 8 (resistido por Fortitude; Tonto, Atordoado, Incapacitado) Área de Nuvem 2 (30 pés), Cumulativo); ae : Glue t op (Aflição à Distância 6 (resistido por Esquiva; Impedido e Vulnerável, Indefeso e Imóvel), Área de Explosão, Cumulativo, Extra Condition, Sustentado Duration, Limitado Grau); ae : Grenade t op (Dano à Distância 10, Área de Explosão); ae : Soundwave t op (Dano à Distância 10, Sustentado Duration); ae : t ornado t op (Mover Objetos 10, Área de Cone, Sustentado Duration, Limitado Direction (repulsion)); i mmor tality 6 (Recently dead or brain-dead body nearby); Spinning (Vantagem Aprimorada 11 (Rolamento Defensivo 4, Fascinate (Enganação), Iniciativa Aprimorada 6), Defesas Aprimoradas 20 (Esquiva 10, Aparar 10), Intelecto Aprimorado 3, Sentidos 1 (Raio Visão), Limitado: Must Remain Imóvel While Spinning))"
     ],
     "equipamento": [],
     "vantagens": [
       "Finta Ágil",
       "Rolamento Defensivo 4",
-      "Evasion",
+      "Evasão",
       "Fascinar (Enganação)",
       "Iniciativa Aprimorada 6",
-      "Ferramentas Improvisadas",
+      "Ferramentas Aprimoradas",
       "Inventor"
     ],
     "pericias": [
@@ -53,7 +53,7 @@
         "total": 6
       },
       {
-        "nome": "Especialidade: Science",
+        "nome": "Especialidade: Ciência",
         "graduacoes": 6,
         "total": 8
       },

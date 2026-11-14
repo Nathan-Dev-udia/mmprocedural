@@ -14,24 +14,24 @@
       "Pre": 2
     },
     "poderes": [
-      "Power Whip (Força-based Dano 6, Reach 3, Enhanced Advantages 2 (Improved Grab, Improved Trip), Facilmente Removível (-4 pontos))"
+      "Poder Whip (Força-based Dano 6, Reach 3, Vantagens Aprimoradas 2 (Agarrar Aprimorado, Derrubar Aprimorado), Facilmente Removível (-4 pontos))"
     ],
     "equipamento": [],
     "vantagens": [
       "Estrangular",
       "Ataque Corpo-a-Corpo 2",
-      "Conectado",
+      "Bem Relacionado",
       "Contatos",
       "Rolamento Defensivo 4",
       "Desarmar Aprimorado",
       "Iniciativa Aprimorada",
-      "Levantar Rápido",
+      "De Pé",
       "Ataque Poderoso",
       "Saque Rápido",
       "Tomar a Iniciativa",
       "Prender Arma",
       "Quebrar Arma",
-      "Bem-Informado"
+      "Bem Informado"
     ],
     "pericias": [
       {
@@ -90,7 +90,7 @@
         "total": 6
       },
       {
-        "nome": "Combate à Distância: Guns",
+        "nome": "Combate à Distância: Armas de Fogo",
         "graduacoes": 4,
         "total": 7
       },
@@ -139,7 +139,7 @@
     "complicacoes": [
       {
         "titulo": "Haunted",
-        "texto": "Mister America feels he needs to do right by his dead friend and inspiration, Trey Thompson."
+        "texto": "Mister America feels he needs to do right by his dead friend e inspiration, Trey Thompson."
       }
     ]
   },

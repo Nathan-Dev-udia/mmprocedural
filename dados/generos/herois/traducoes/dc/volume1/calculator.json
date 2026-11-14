@@ -16,25 +16,25 @@
     "poderes": [],
     "equipamento": [
       "HEADQUARTERS: CALCULATOR’S BASE (27 PP)",
-      "Size: Medium Tou 10, Features: Communications, Computer, Concealed 2 (CD 25),"
+      "Size: Medium Tou 10, Características: Communications, Computer, Concealed 2 (CD 25),"
     ],
     "vantagens": [
       "Avaliação",
-      "Benefit 4 (Multi-millionaire)",
-      "Conectado",
+      "Benefício 4 (Multimilionário)",
+      "Bem Relacionado",
       "Contatos",
       "Rolamento Defensivo 3",
       "Memória Eidética",
       "Equipamento 6",
       "Inimigo Favorito (Any combatant who has previously defeated him)",
       "Mira Aprimorada",
-      "Pau pra Toda Obra",
-      "Languages 4",
+      "Faz Tudo",
+      "Idiomas 4",
       "Liderança",
       "Sorte 2",
       "Tomar a Iniciativa",
       "Maestria em Perícia (Investigação)",
-      "Bem-Informado"
+      "Bem Informado"
     ],
     "pericias": [
       {
@@ -48,7 +48,7 @@
         "total": 9
       },
       {
-        "nome": "Especialidade: Business",
+        "nome": "Especialidade: Negócios",
         "graduacoes": 7,
         "total": 14
       },
@@ -58,7 +58,7 @@
         "total": 17
       },
       {
-        "nome": "Especialidade: Current Events",
+        "nome": "Especialidade: Atualidades",
         "graduacoes": 8,
         "total": 15
       },
@@ -121,7 +121,7 @@
     "complicacoes": [
       {
         "titulo": "OCD",
-        "texto": "Calculator’s obsessive-compulsive disorder compels him to discover way to defeat heroes. Motivation—Greed: Calculator is motivated by money and charges for his services. and, more importantly, a vast information network spanning the globe. ALLIES Calculator has an extensive network of contacts and infor - mants in the underworld, and has worked alongside Lex Lu - thor and his Society. Other cohorts in crime include Doctor Psycho, Doctor Light, Captain Boomerang and Deathstroke. Calculator is also a member of the Silicon Syndicate."
+        "texto": "Calculator’s obsessive-compulsive disorder compels him to discover way to defeat heroes. Motivation—Greed: Calculator is motivated by money e charges for his services. e, more importantly, a vast information network spanning the globe. ALLIES Calculator has an extensive network of contacts e infor - mants in the underworld, e has worked alongside Lex Lu - thor e his Society. Other cohorts in crime include Doctor Psycho, Doctor Luz, Captain Boomerang e Deathstroke. Calculator is also a member of the Silicon Syndicate."
       }
     ]
   },

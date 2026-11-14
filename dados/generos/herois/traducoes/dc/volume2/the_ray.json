@@ -14,24 +14,24 @@
       "Pre": 1
     },
     "poderes": [
-      "e nergy f orm: Enhanced Advantage 6 (Agile Feint, Defensive Roll 2, Evasion 2, Improved Iniciativa); Enhanced Skill 3 (Acrobatics 6); Característica 1 (Quick Change); Imunidade 11 (Envelhecimento, Suporte Vital); Sentidos 8 (Comunicação Link (mental, with Happy Terrill); Detect Electromagnetic Radiação (Visual Sense), Preciso, Aguçado, Analítico, À Distância; Noção de Direção); Ativação (Ação de Movimento, -1 ponto) (28 PP)",
-      "Solar r adia tion Control: Dynamic Arranjo (40 pontos), Ativação (Ação de Movimento, –1 ponto) • e nergy a ur a: Dano 10, Reação, Dynamic (41 PP)",
-      "• i n a Blaz e of Power: Voo 19 (1,000,0 km/h), Dynamic (2 PP)",
-      "• Light r a ys: À Distância Área de Cone Dano 10, Penetrante 5, Dynamic (2 PP)",
-      "• Solid-Light Constructs: Criar Objetos 10, Movable, Dynamic (2 PP)",
-      "• e nergy a bsorption: Corpo a Corpo Range Nulificar Calor & Light Effects 10, Broad, Effortless, Perception área (Detect- Dependent), Simultaneous, Reduced Range, Dynamic (2 PP)",
-      "• Blinding Light: À Distância Cumulativo Perception área (Visual) Aflição 10 (resistido por Fortitude; Impaired, Disabled, Unaware), Limitado a Visual Sentidos, Dynamic (2 PP)",
-      "• Bend Light: Camuflagem 4 (All Visual Sentidos), Attack (resistido por Esquiva), Dynamic (2 PP)",
-      "• i n visibility: Camuflagem 4 (All Visual Sentidos), Dynamic (2 PP)",
-      "• Light Projection: Environment 10 (Bright Light, Eliminates Camuflagem), Dynamic (2 PP)",
-      "• r e- e nergize: Cura 10, Limitado a Self, Dynamic (2 PP)",
-      "• Lightspeed: Movimento 1 (Space Travel 1) (1 PP)"
+      "e nergy f orm: Vantagem Aprimorada 6 (Finta Ágil, Rolamento Defensivo 2, Evasão 2, Iniciativa Aprimorada); Perícia Aprimorada 3 (Acrobacia 6); Característica 1 (Quick Change); Imunidade 11 (Envelhecimento, Suporte Vital); Sentidos 8 (Elo de Comunicação (Mental, com Happy Terrill); Detectar Electromagnetic Radiação (Visual Sense), Acurado, Aguçado, Analítico, À Distância; Noção de Direção); Ativação (Ação de Movimento, -1 ponto) (28 PP)",
+      "Solar r adia tion Control: Arranjo Dinâmico (40 pontos), Ativação (Ação de Movimento, -1 ponto) • e nergy a ur a: Dano 10, Reação, Dinâmico (41 PP)",
+      "• i n a Blaz e of Poder: Voo 19 (1.600.000 km/h), Dinâmico (2 PP)",
+      "• Luz r a ys: À Distância Área de Cone Dano 10, Penetrante 5, Dinâmico (2 PP)",
+      "• Solid-Luz Constructs: Criar Objetos 10, Movable, Dinâmico (2 PP)",
+      "• e nergy a bsorption: Alcance Perto Nulificar Calor & Luz Efeitos 10, Amplo, Effortless, Percepção área (Detectar- Dependent), Simultâneo, Reduced Range, Dinâmico (2 PP)",
+      "• Blinding Luz: À Distância Cumulativo Percepção área (Visual) Aflição 10 (resistido por Fortitude; Prejudicado, Desabilitado, Desatento), Limitado a Visual Sentidos, Dinâmico (2 PP)",
+      "• Bend Luz: Camuflagem 4 (All Visual Sentidos), Attack (resistido por Esquiva), Dinâmico (2 PP)",
+      "• i n visibility: Camuflagem 4 (All Visual Sentidos), Dinâmico (2 PP)",
+      "• Luz Projection: Ambiente 10 (Bright Luz, Eliminates Camuflagem), Dinâmico (2 PP)",
+      "• r e- e nergize: Cura 10, Limitado a Self, Dinâmico (2 PP)",
+      "• Lightspeed: Movimento 1 (Viagem Espacial 1) (1 PP)"
     ],
     "equipamento": [],
     "vantagens": [
       "Finta Ágil",
       "Rolamento Defensivo 2",
-      "Evasion 2",
+      "Evasão 2",
       "Esforço Extraordinário",
       "Improved Initiative his inexperience in dealing with people",
       "a weakness resulting from his isolated childhood."
@@ -53,12 +53,12 @@
         "total": 5
       },
       {
-        "nome": "Especialidade: Business",
+        "nome": "Especialidade: Negócios",
         "graduacoes": 2,
         "total": 5
       },
       {
-        "nome": "Especialidade: Computers",
+        "nome": "Especialidade: Computação",
         "graduacoes": 6,
         "total": 9
       },
@@ -80,6 +80,12 @@
     ],
     "iniciativa": 7,
     "ataques": [
+      {
+        "nome": "Luz Rays",
+        "bonus": null,
+        "alcance": "À distância",
+        "dano": "Área de Cone Dano 10"
+      },
       {
         "nome": "Desarmado",
         "bonus": 6,

@@ -14,13 +14,13 @@
       "Pre": 2
     },
     "poderes": [
-      "Atomic Axe (Facilmente Removível, –6 pontos; Característica: Mentally Linked to Persuader); Atomic Golpe (Dano 14, Penetrante 14, Affects Intangibilidade 2, Dimensional 3, Reach, Variável Descriptor 2 (Quantum); AE: Cut Anything (Dano 14 Linked Enfraquecer Resistência 14, Affects Objects Only, Reach), AE: Cut Rift (Dimensional Travel 3, Portal); Armor (Impenetrável Proteção 2, Removível, –1 ponto)"
+      "Atomic Axe (Facilmente Removível, -6 pontos; Característica: Mentally Ligado a Persuader); Atomic Golpe (Dano 14, Penetrante 14, Affects Intangibilidade 2, Dimensional 3, Reach, Variável Descriptor 2 (Quantum); AE: Cut Anything (Dano 14 Ligado Enfraquecer Resistência 14, Afeta Apenas Objetos, Reach), AE: Cut Rift (Viagem Dimensional 3, Portal); Armor (Impenetrável Proteção 2, Removível, -1 ponto)"
     ],
     "equipamento": [],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Ataque Corpo-a-Corpo 3",
-      "Conectado",
+      "Bem Relacionado",
       "Destemido",
       "Iniciativa Aprimorada",
       "Ataque Poderoso"
@@ -47,7 +47,7 @@
         "total": 8
       },
       {
-        "nome": "Especialidade: Streetwise",
+        "nome": "Especialidade: Manha",
         "graduacoes": 8,
         "total": 8
       },

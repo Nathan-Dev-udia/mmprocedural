@@ -41,7 +41,7 @@
     "vantagens": [
       "Ataque Acurado",
       "Atraente",
-      "Benefício (Wealth 2, Status) 3",
+      "Benefício (Riqueza 2, Status) 3",
       "Ataque Defensivo",
       "Equipamento 4",
       "Desarmar Aprimorado",
@@ -74,7 +74,7 @@
       },
       {
         "nome": "Super Strength",
-        "construcao_3e": "Power-Lifting 5.",
+        "construcao_3e": "Levantamento de Peso 5.",
         "custo_2e_pp": 10,
         "custo_3e_pp": 5,
         "nome_pt": "Super-Força"

@@ -14,14 +14,14 @@
       "Pre": 5
     },
     "poderes": [
-      "Bend e nergy: Imunidade 20 (Energy effects) (20 PP)",
+      "Bend e nergy: Imunidade 20 (Energia Efeitos) (20 PP)",
       "G olden Mask: Arranjo (56 pontos)",
-      "• Sorrow’s f ac e: Área de Cone Sustentado Dano 14, Resistência Alternativa (Vontade), Dependente de Sentidos (Sight), Limitado—Only against living beings who can perceive Sorrow’s face (56 PP)",
+      "• Sorrow’s f ac e: Área de Cone Sustentado Dano 14, Resistência Alternativa (Vontade), Dependente de Sentidos (Visão), Limitado—Apenas contra living beings who can perceive Sorrow’s face (56 PP)",
       "• Ghostly f orm: Intangibilidade 4, Contínuo; Teleportation 10 (4 milhas) (1 PP)",
       "Levitation: Voo 4 (48 km/h), Levitation (4 PP)",
-      "Summon Mask: Característica (1 PP)",
+      "Invocar Mask: Característica (1 PP)",
       "Undying: Imortalidade 10 (20 PP)",
-      "a V ant G d a e S Defensive Roll 5, Diehard, Evasion, Fascinate (Deception), Fearless, Improved Iniciativa, Leadership, À Distância Attack 5, Seize Iniciativa, Taunt, Uncanny Esquiva, Well-informed"
+      "a V ant G d a e S Rolamento Defensivo 5, Diehard, Evasão, Fascinate (Enganação), Fearless, Iniciativa Aprimorada, Leadership, À Distância Attack 5, Tomar a Iniciativa, Taunt, Uncanny Esquiva, Well-informed"
     ],
     "equipamento": [],
     "vantagens": [],
@@ -57,8 +57,15 @@
         "total": 15
       }
     ],
-    "iniciativa": 0,
-    "ataques": [],
+    "iniciativa": 6,
+    "ataques": [
+      {
+        "nome": "Revealed Face — Percepção À Distância, Sustentado Dano 14, resistido por Vontade",
+        "bonus": null,
+        "alcance": "",
+        "dano": "CD 24"
+      }
+    ],
     "defesas": {
       "Esquiva": 8,
       "Fortitude": 7,
@@ -77,7 +84,7 @@
     "complicacoes": [
       {
         "titulo": "ing of t ears",
-        "texto": "Johnny Sorrow is beholden to and the willing servant of a major demon that is trapped in another dimension. Most of Johnny Sorrow’s schemes involve bringing the King of Tears to Earth. wn ac Can’t See o f e: If Johnny Sorrow sees his own face he Vontade be temporarily Paralisado and powerless."
+        "texto": "Johnny Sorrow is beholden to e the willing servant of a major demon that is trapped in another dimension. Most of Johnny Sorrow’s schemes involve bringing the King of Tears to Earth. wn ac Can’t See o f e: If Johnny Sorrow sees his own face he Vontade be temporarily Paralisado e powerless."
       }
     ]
   },

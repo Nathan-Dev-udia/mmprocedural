@@ -14,29 +14,29 @@
       "Pre": 7
     },
     "poderes": [
-      "Absorbo Cells: Variável Effect 20 (All Abilities, Powers, and Skills), Contínuo, Limitado a only those traits a target possesses, Limitado a targets in near vicinity (120 PP)",
-      "Android Body: Imunidade 40 (Fortitude Effects, mental Effects) (40 PP)",
-      "Aquatic: Movimento 1 (Environmental Adaption: Aquatic); Sentidos 1 (Visão na Penumbra) (3 PP)",
-      "Voo: Arranjo (30 pontos) Voo: Voo 15 (64,0 km/h) (30 PP)",
-      "• Running: Velocidade 20 (2,000,0 km/h) (1 PP)",
-      "• Space Voo: Movimento 1 (Space Travel) (1 PP)",
+      "Absorbo Cells: Efeito Variável 20 (All Habilidades, Poderes, e Perícias), Contínuo, Limitado a Apenas those traits a target possesses, Limitado a targets in near vicinity (120 PP)",
+      "Android Body: Imunidade 40 (Efeitos de Fortitude, Efeitos Mentais) (40 PP)",
+      "Aquatic: Movimento 1 (Adaptação Ambiental: Aquatic); Sentidos 1 (Visão na Penumbra) (3 PP)",
+      "Voo: Arranjo (30 pontos) Voo: Voo 15 (102.400 km/h) (30 PP)",
+      "• Running: Velocidade 20 (3.200.000 km/h) (1 PP)",
+      "• Space Voo: Movimento 1 (Viagem Espacial) (1 PP)",
       "• Natação: Natação 10 (800 km/h) (1 PP)",
-      "Vision Blasts: Arranjo (30 pontos)",
-      "• Calor Vision: Dano à Distância 15 (30 PP)",
-      "• Martian Vision: Dano à Distância 11 (force) (1 PP)",
+      "Visão Blasts: Arranjo (30 pontos)",
+      "• Visão de Calor: Dano à Distância 15 (30 PP)",
+      "• Martian Visão: Dano à Distância 11 (force) (1 PP)",
       "Marine Telepatia: Arranjo (57 pontos)",
-      "• Summon Marine Life 8 (120 pontos), Horde, mental Link, Multiple Minions 2 (4 minions), Variável General Type (Marine Life), Limitado a in or near water (57 PP)",
-      "• Summon Marine Life 4 (60 pontos), Horde, mental Link, Multiple Minions 7 (128 minions), Variável General Type (Marine Life), Limitado a in or near water (1 PP)",
-      "• Compreender Animals 2, mental Comunicação 4, Limitado a Marine Life (1 PP)",
-      "Martian Morphology: Dynamic Arranjo (21 pontos)",
-      "• Intangibility: Intangibilidade 4, Dynamic (21 PP)",
-      "• Invisibility: Visual Camuflagem 4, Dynamic (2 PP)",
-      "• Shapeshifting: Metamorfose (Any Form) 4, Dynamic (2 PP)",
-      "Run On Water: Movimento 1 (Water Walking), Limitado a While Moving (1 PP)",
-      "Run Up Walls: Movimento 2 (Wall-crawling 2), Limitado a While Moving (2 PP)",
-      "Super-Sentidos: Sentidos 16 (Aguçado and Audição Estendida, Visão Estendida 3, Infravisão, mental Prontidão, Visão Microscópica 4, Ultra-Audição, Vision Penetrates Camuflagem) (16 PP)",
-      "Super-Velocidade: Enhanced Defenses 12 (Esquiva and Aparar), Enhanced Advantages 18 (Agile Feint, Evasion 2, Improved Iniciativa 10, Interpose, Instant Up, Move-by Action, Seize Iniciativa, Takedown), Rapidez 20, Velocidade 20 (2,000,000) (77 PP)",
-      "Telepatia: mental Comunicação 5, Leitura mental 11 (42 PP)"
+      "• Invocar Marine Life 8 (120 pontos), Horda, Elo Mental, Múltiplos Capangas 2 (4 capangas), Variável General Type (Marine Life), Limitado a in or near water (57 PP)",
+      "• Invocar Marine Life 4 (60 pontos), Horda, Elo Mental, Múltiplos Capangas 7 (128 capangas), Variável General Type (Marine Life), Limitado a in or near water (1 PP)",
+      "• Compreender Animais 2, Comunicação Mental 4, Limitado a Marine Life (1 PP)",
+      "Martian Morphology: Arranjo Dinâmico (21 pontos)",
+      "• Intangibility: Intangibilidade 4, Dinâmico (21 PP)",
+      "• Invisibility: Visual Camuflagem 4, Dinâmico (2 PP)",
+      "• Shapeshifting: Metamorfose (Any Form) 4, Dinâmico (2 PP)",
+      "Run On Water: Movimento 1 (Andar na Água), Limitado a Enquanto se Move (1 PP)",
+      "Run Up Walls: Movimento 2 (Escalar Paredes 2), Limitado a Enquanto se Move (2 PP)",
+      "Super-Sentidos: Sentidos 16 (Aguçado e Audição Estendida, Visão Estendida 3, Infravisão, Consciência Mental, Visão Microscópica 4, Ultra-Audição, Visão Penetrates Camuflagem) (16 PP)",
+      "Super-Velocidade: Defesas Aprimoradas 12 (Esquiva e Aparar), Vantagens Aprimoradas 18 (Finta Ágil, Evasão 2, Iniciativa Aprimorada 10, Interpor-se, De Pé, Ação em Movimento, Tomar a Iniciativa, Ataque Dominó), Rapidez 20, Velocidade 20 (2,000,000) (77 PP)",
+      "Telepatia: Comunicação Mental 5, Leitura Mental 11 (42 PP)"
     ],
     "equipamento": [],
     "vantagens": [
@@ -44,17 +44,17 @@
       "Avaliação",
       "Duro de Matar",
       "Memória Eidética",
-      "Evasion 2",
+      "Evasão 2",
       "Inimigo Favorito (Active Members of the JLA)",
       "Destemido",
       "Iniciativa Aprimorada 10",
       "Interpor-se",
-      "Levantar Rápido",
-      "Languages 8",
+      "De Pé",
+      "Idiomas 8",
       "Ação em Movimento",
       "Ataque Poderoso",
       "Tomar a Iniciativa",
-      "Derrubar em Sequência"
+      "Ataque Dominó"
     ],
     "pericias": [
       {
@@ -73,22 +73,22 @@
         "total": 15
       },
       {
-        "nome": "Especialidade: Criminology",
+        "nome": "Especialidade: Criminologia",
         "graduacoes": 13,
         "total": 21
       },
       {
-        "nome": "Especialidade: Journalism and Politics",
+        "nome": "Especialidade: Jornalismo e Política",
         "graduacoes": 6,
         "total": 14
       },
       {
-        "nome": "Especialidade: Streetwise",
+        "nome": "Especialidade: Manha",
         "graduacoes": 13,
         "total": 21
       },
       {
-        "nome": "Especialidade: Survival",
+        "nome": "Especialidade: Sobrevivência",
         "graduacoes": 4,
         "total": 12
       },
@@ -118,7 +118,7 @@
         "total": 12
       },
       {
-        "nome": "Combate à Distância: Bow",
+        "nome": "Combate à Distância: Arco",
         "graduacoes": 8,
         "total": 16
       },
@@ -151,13 +151,13 @@
     "iniciativa": 50,
     "ataques": [
       {
-        "nome": "Calor Vision",
+        "nome": "Visão de Calor",
         "bonus": 8,
         "alcance": "À distância",
         "dano": "Dano 15"
       },
       {
-        "nome": "Martian Vision",
+        "nome": "Martian Visão",
         "bonus": 8,
         "alcance": "À distância",
         "dano": "Dano 11"
@@ -171,6 +171,7 @@
     ],
     "defesas": {
       "Esquiva": 12,
+      "Fortitude": null,
       "Aparar": 12,
       "Resistência": 18,
       "Vontade": 10
@@ -191,7 +192,7 @@
       },
       {
         "titulo": "Obsessed",
-        "texto": "Amazo continually upgrades and improves himself."
+        "texto": "Amazo continually upgrades e improves himself."
       }
     ]
   },

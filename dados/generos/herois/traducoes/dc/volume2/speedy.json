@@ -38,7 +38,7 @@
         "total": 5
       },
       {
-        "nome": "Especialidade: Streetwise",
+        "nome": "Especialidade: Manha",
         "graduacoes": 4,
         "total": 5
       },
@@ -63,7 +63,7 @@
         "total": 5
       },
       {
-        "nome": "Combate à Distância: Bow and Arrows",
+        "nome": "Combate à Distância: Arco e Arrows",
         "graduacoes": 9,
         "total": 11
       },
@@ -82,10 +82,10 @@
         "dano": "Dano 1"
       },
       {
-        "nome": "Bow",
+        "nome": "Arco",
         "bonus": 11,
         "alcance": "À distância",
-        "dano": "Dano 5, Crit. 19-20, or other effects"
+        "dano": "Dano 5, Crít. 19-20, or other Efeitos"
       }
     ],
     "defesas": {
@@ -111,7 +111,7 @@
       },
       {
         "titulo": "Chronic i llness",
-        "texto": "Speedy is HIV -positive and must deal with the health and social implications. aLLI e S Speedy is the Green Arrow’s sidekick and a Corpo a Corpo friend of Black Canary, Roy Harper and Connor Hawke. She’s also a member of the Teen Titans. e ne MI e S Mia has had particularly unpleasant run-ins with former-Robin Jason Todd, the Electrocutioner and the League of Assassins."
+        "texto": "Speedy is HIV -positive e must deal com the health e social implications. aLLI e S Speedy is the Green Arrow’s sidekick e a Corpo a Corpo friend of Black Canary, Roy Harper e Connor Hawke. She’s also a member of the Teen Titans. e ne MI e S Mia has had particularly unpleasant run-ins com former-Robin Jason Todd, the Electrocutioner e the League of Assassins."
       }
     ]
   },

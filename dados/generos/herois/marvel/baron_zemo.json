@@ -30,18 +30,18 @@
       "Vontade": 8
     },
     "pericias": {
-      "Enganacao": 12,
-      "Especialidade: Quimica": 12,
-      "Especialidade: Mecanica": 8,
-      "Persuasao": 8,
-      "Prestidigitacao": 12,
+      "Enganação": 12,
+      "Especialidade: Química": 12,
+      "Especialidade: Mecânica": 8,
+      "Persuasão": 8,
+      "Prestidigitação": 12,
       "Veículos": 4,
-      "Intimidacao": 4,
+      "Intimidação": 4,
       "Especialidade: Tecnologia": 12,
-      "Percepcao": 8,
-      "Intuicao": 12,
+      "Percepção": 8,
+      "Intuição": 12,
       "Furtividade": 8,
-      "Combate a Distancia: Adhesive X Blaster": 7
+      "Combate à Distância: Adhesive X Blaster": 7
     },
     "vantagens": [
       "Ataque Acurado",
@@ -56,7 +56,7 @@
       "Iniciativa Aprimorada 2",
       "Inspirar 4",
       "Inventor",
-      "Idiomas 3 (English, Italian, Russian, French; native German)",
+      "Idiomas 3 (Inglês, Italiano, Russo, Francês; native Alemão)",
       "Sorte",
       "Capanga 5 (10 Soldiers)",
       "Ataque Poderoso",

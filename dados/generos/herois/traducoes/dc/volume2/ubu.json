@@ -20,13 +20,13 @@
       "Estrangular",
       "Rolamento Defensivo 2",
       "Agarrar Rápido",
-      "Grande Vigor",
+      "Tolerância Maior",
       "Agarrar Aprimorado",
       "Imobilizar Aprimorado",
       "Arma Improvisada",
       "Interpor-se",
       "Ataque Poderoso",
-      "Derrubar em Sequência"
+      "Ataque Dominó"
     ],
     "pericias": [
       {
@@ -55,7 +55,7 @@
         "total": 5
       },
       {
-        "nome": "Combate à Distância: Throwing",
+        "nome": "Combate à Distância: Arremesso",
         "graduacoes": 6,
         "total": 8
       },
@@ -76,7 +76,7 @@
         "nome": "Desarmado",
         "bonus": 11,
         "alcance": "",
-        "dano": "(Dano Corpo a Corpo 5)"
+        "dano": "Dano Corpo a Corpo 5"
       }
     ],
     "defesas": {

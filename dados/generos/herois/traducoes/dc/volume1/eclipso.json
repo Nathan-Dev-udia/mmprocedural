@@ -19,13 +19,13 @@
       "• Velocidade: Velocidade 8 (800 km/h) (1 PP)",
       "• Teleporte: Teleporte 8 (1 mile) (1 PP)",
       "Eternal Spirit: Imortalidade 1 (Returns inside the crystal) (2 PP)",
-      "Darkness Prontidão: Remote Sensing 32 (mental), Conduit (Shards of the Heart of Darkness), Limitado (Emotion Prontidão only), Reduced Range (Corpo a Corpo, target must touch the shard); Sentidos 1 (Emotion Prontidão) (9 PP)",
-      "The Heart of Darkness: Facilmente Removível (-68 pontos) Laser Beam: Dano à Distância 13 (26 PP)",
-      "Eclipse Soul: Alcance de Percepção Aflição 13 (resistido por Vontade; Tonto, Compelido, Controlado), Limitado (target cannot be “pure” of heart and must touch a shard of the Heart of Darkness), Peculiaridade (“eclipsed” pigmentation, -1 ponto) (25 PP)",
-      "Shadow Objects: Criar Objetos Object 8, Contínuo, Preciso (25 PP)",
-      "Shadow Beings: Summon 8 (120 pontos), Controlado, Horde, Multiple Minions 4 (16 minions) (96 PP)",
-      "Possess Host: Perception Aflição 13 (resistido por Vontade; Tonto, Compelido, Controlado), Limitado (Target must have a shard of the Heart of Darkness in his possession); Intangibilidade 4 (Incorporeal), Limitado (Must be in Corpo a Corpo to host); Camuflagem 8 (All Sentidos except mental and mágico), Limitado (Must be Corpo a Corpo to host) (50 PP)",
-      "Força of Darkness: Vigor Aprimorado 12; Força Aprimorada 13; Resistência Impenetrável 12; Imunidade 11 (Envelhecimento, Suporte Vital), Proteção 4 (81 PP)"
+      "Escuridão Consciência: Sensoriamento Remoto 32 (Mental), Conduit (Shards of the Heart of Escuridão), Limitado (Emotion Consciência Apenas), Reduced Range (Corpo a Corpo, target must touch the shard); Sentidos 1 (Emotion Consciência) (9 PP)",
+      "The Heart of Escuridão: Facilmente Removível (-68 pontos) Laser Beam: Dano à Distância 13 (26 PP)",
+      "Eclipse Soul: Alcance de Percepção Aflição 13 (resistido por Vontade; Tonto, Compelido, Controlado), Limitado (target cannot be “pure” of heart e must touch a shard of the Heart of Escuridão), Peculiaridade (“eclipsed” pigmentation, -1 ponto) (25 PP)",
+      "Shadow Objetos: Criar Objetos Object 8, Contínuo, Preciso (25 PP)",
+      "Shadow Beings: Invocar 8 (120 pontos), Controlado, Horda, Múltiplos Capangas 4 (16 capangas) (96 PP)",
+      "Possess Host: Percepção Aflição 13 (resistido por Vontade; Tonto, Compelido, Controlado), Limitado (Target must have a shard of the Heart of Escuridão in his possession); Intangibilidade 4 (Incorporeal), Limitado (Must be in Corpo a Corpo to host); Camuflagem 8 (All Sentidos except Mental e Magia), Limitado (Must be Corpo a Corpo to host) (50 PP)",
+      "Força of Escuridão: Vigor Aprimorado 12; Força Aprimorada 13; Resistência Impenetrável 12; Imunidade 11 (Envelhecimento, Suporte Vital), Proteção 4 (81 PP)"
     ],
     "equipamento": [],
     "vantagens": [
@@ -40,7 +40,7 @@
       "embodying what - ever darkness he can find. Possessed hosts and dominated thralls take upon an “eclipsed” appearance",
       "with half of their faced blackened or shrouded in darkness. Eclipso incarnate is nigh-invulnerable and has superhuman strength",
       "speed and resistance",
-      "as well as the ability to fly. He can fire beams of light by looking through a shard of the Heart of Darkness with the host’s “un- eclipsed” eye",
+      "as well as the ability to fly. He can fire beams of light by looking through a shard of the Heart of Darkness with the host's “un-eclipsed” eye",
       "or project solid darkness through the shad - owed eye in order to create black constructs."
     ],
     "pericias": [
@@ -55,12 +55,12 @@
         "total": 21
       },
       {
-        "nome": "Especialidade: mágico",
+        "nome": "Especialidade: Magia",
         "graduacoes": 13,
         "total": 18
       },
       {
-        "nome": "Especialidade: Universal History",
+        "nome": "Especialidade: Universal História",
         "graduacoes": 10,
         "total": 15
       },
@@ -96,7 +96,13 @@
         "nome": "Desarmado",
         "bonus": 13,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 13 Eclipse Soul — Corpo a Corpo, Aflição 13"
+        "dano": "Dano 13"
+      },
+      {
+        "nome": "Eclipse Soul",
+        "bonus": null,
+        "alcance": "Corpo a corpo",
+        "dano": "Aflição 13"
       },
       {
         "nome": "Laser Beam",
@@ -124,15 +130,15 @@
     "complicacoes": [
       {
         "titulo": "Dark Soul",
-        "texto": "While Eclipso is manifested in his host or as a double, exposure to sunlight or an exorcism power either renders him dormant or banishes him altogether."
+        "texto": "While Eclipso is manifested in his host or as a double, exposure to sunlight or an exorcism Poder either renders him dormant or banishes him altogether."
       },
       {
         "titulo": "Spirit Being",
-        "texto": "As an embodiment of power, Eclipso cannot exist in physical reality without a host."
+        "texto": "As an embodiment of Poder, Eclipso cannot exist in physical reality sem a host."
       },
       {
         "titulo": "Spirit of Revenge",
-        "texto": "Eclipso is Compelido to fulfill his hosts’ power fantasies and personal revenge before he can set his own plans into action. SHARDS OF THE HEART OF DARKNESS These crystals are the source of Eclipso’s power. Depending on the story, there may be from just one to one thousand of these lurking in the shadows. Eclipso’s possession and corruption Powers are listed more as a dramatic effect should he try to possess one of the PCs during an adventure. Normally, the accursed gem is a plot Dispositivo and it should affect NPCs automatically. When the heroes get to confront Eclipso, he should already be inside a host or manifesting as a double, espe - cially a person known to the heroes. If a player allows his hero to be Eclipso’s new host for the adventure, or be an Eclipsed puppet of the evil entity, he should earn hero pontos as part of a Complication regarding the hero’s own dark side coming into action."
+        "texto": "Eclipso is Compelido to fulfill his hosts’ Poder fantasies e personal revenge before he can set his own plans into action. SHARDS OF THE HEART OF Escuridão These crystals are the source of Eclipso’s Poder. Depending on the story, there may be from just one to one thousand of these lurking in the shadows. Eclipso’s possession e corruption Poderes are listed more as a dramatic effect should he try to possess one of the PCs during an adventure. Normally, the accursed gem is a plot Dispositivo e it should affect NPCs automatically. When the heroes get to confront Eclipso, he should already be inside a host or manifesting as a double, espe - cially a person known to the heroes. If a player allows his hero to be Eclipso’s new host for the adventure, or be an Eclipsed puppet of the evil entity, he should earn hero pontos as part of a Complication regarding the hero’s own dark side coming into action."
       }
     ]
   },

@@ -14,12 +14,12 @@
       "Pre": 2
     },
     "poderes": [
-      "Animal Mimicry: Variável 8 (Physical Traits of Animals, 40 power pontos), Ação de Movimento (56 PP)"
+      "Animal Mimicry: Variável 8 (Physical Traits of Animais, 40 Poder pontos), Ação de Movimento (56 PP)"
     ],
     "equipamento": [],
     "vantagens": [
       "Empatia com Animais",
-      "Beginner’s Luck",
+      "Sorte de Principiante",
       "Estrangular",
       "Rolamento Defensivo 3",
       "Defesa Aprimorada",
@@ -43,7 +43,7 @@
         "total": 6
       },
       {
-        "nome": "Especialidade: Animal Powers",
+        "nome": "Especialidade: Animal Poderes",
         "graduacoes": 8,
         "total": 9
       },

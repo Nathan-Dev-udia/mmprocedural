@@ -15,17 +15,17 @@
     },
     "poderes": [
       "Bangstick: Voo 5 (96 km/h), Platform, Limitado a While Using Encolhimento, Easy Removível (-2 pontos) (1 PP)",
-      "Size and Mass Control: Encolhimento 20, Atomic, Contínuo, Normal Força, Removível (-16 pontos) (65 PP)",
+      "Size e Mass Control: Encolhimento 20, Atomic, Contínuo, Normal Força, Removível (-16 pontos) (65 PP)",
       "White Dwarf Costume : Característica 1 (Can change into Atom costume as a Ação Livre) (1 PP)",
-      "White Dwarf Punch: Força-based Dano 8, Ativação (Ação de Movimento), Limitado: Must start the turn shrunk and end it full size (3 PP)"
+      "White Dwarf Punch: Força-based Dano 8, Ativação (Ação de Movimento), Limitado: Must start the turn shrunk e end it full size (3 PP)"
     ],
     "equipamento": [],
     "vantagens": [
-      "Beginner’s Luck",
+      "Sorte de Principiante",
       "Derrubar Aprimorado",
       "Inventor",
       "Ação em Movimento",
-      "Maestria em Perícia (Expertise: Science)"
+      "Maestria em Perícia (Especialidade: Ciência)"
     ],
     "pericias": [
       {
@@ -49,7 +49,7 @@
         "total": 15
       },
       {
-        "nome": "Especialidade: Science",
+        "nome": "Especialidade: Ciência",
         "graduacoes": 9,
         "total": 15
       },
@@ -101,7 +101,7 @@
       "Resistência": 2,
       "Vontade": 5
     },
-    "observacao_defesas": "* Fortitude 5 Aparar 13/6* Resistência 2 Vontade 5 *Without typical Encolhimento bonus (see",
+    "observacao_defesas": "* Fortitude 5 Aparar 13/6* Resistência 2 Vontade 5 *sem typical Encolhimento bonus (see",
     "custos": {},
     "total": null,
     "complicacoes": []

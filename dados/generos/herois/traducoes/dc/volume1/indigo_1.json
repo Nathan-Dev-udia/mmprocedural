@@ -14,18 +14,18 @@
       "Pre": 4
     },
     "poderes": [
-      "Power Ring: 125 pontos, Removível (–25 pontos) (100 PP)",
-      "Voo: Voo 14 (32,0 km/h), Movimento 4 (Environmental Adaptation: Zero-G, Space Travel 3) (36 PP)",
+      "Poder Ring: 125 pontos, Removível (-25 pontos) (100 PP)",
+      "Voo: Voo 14 (51.200 km/h), Movimento 4 (Adaptação Ambiental: Zero-G, Viagem Espacial 3) (36 PP)",
       "Campo de Força: Impenetrável Proteção 12; Imunidade 10 (Suporte Vital) (34 PP)",
-      "Indigo Light: 36-ponto Arranjo • Force Raio: Dano à Distância 18 (36 PP)",
-      "• Interstellar Transport: Movimento (Space Travel) 3, Preciso (able to precisely pick arrival ponto even on the surface of other planets), Affects Others, área, Instantaneous (occurs instantly each time used), Seletivo (1 PP)",
-      "• Cura Light: Cura 18, Limitado (Cura graduações cannot heal those who do not feel great compassion) (1 PP)",
-      "• Empathic Attack: Aflição 18 (resistido por Vontade; Tonto, Atordoado, and Incapacitado), Limitado (Only useable against those who have caused great Dor or lack empathy) (1 PP)",
-      "Empathy: Leitura mental 7, Limitado a Emotions (7 PP)",
+      "Indigo Luz: 36-ponto Arranjo • Force Raio: Dano à Distância 18 (36 PP)",
+      "• Interstellar Transport: Movimento (Viagem Espacial) 3, Acurado (able to precisely pick arrival ponto even on the surface of other planets), Afeta Outros, área, Instantaneous (occurs instantly each time used), Seletivo (1 PP)",
+      "• Cura Luz: Cura 18, Limitado (Cura graduações cannot heal those who do not feel great compassion) (1 PP)",
+      "• Empathic Attack: Aflição 18 (resistido por Vontade; Tonto, Atordoado, e Incapacitado), Limitado (Apenas useable contra those who have caused great Dor or lack empathy) (1 PP)",
+      "Empathy: Leitura Mental 7, Limitado a Emotions (7 PP)",
       "Universal Translator: Compreender Languages 4, Característica 1 (Secret Language) (9 PP)",
-      "Indigo Power Staff: 50 pontos, Facilmente Removível (–20 pontos) (30 PP)",
-      "Power Battery: Features 1 (Capable of recharging Indigo Power Ring) (1 PP)",
-      "Power Conduit: Mimetismo 8, Limitado (only the Powers of other Lantern Corps), Limitado (Requires proximity to subject) (48 PP)",
+      "Indigo Poder Staff: 50 pontos, Facilmente Removível (-20 pontos) (30 PP)",
+      "Poder Battery: Características 1 (Capable of recharging Indigo Poder Ring) (1 PP)",
+      "Poder Conduit: Mimetismo 8, Limitado (Apenas the Poderes of other Lantern Corps), Limitado (Requires proximity to subject) (48 PP)",
       "Staff: Força-based Dano 1 (1 PP)"
     ],
     "equipamento": [],
@@ -34,7 +34,7 @@
       "Ataque Defensivo",
       "Rolamento Defensivo",
       "Inspirar",
-      "Languages 1 (Indigo Tribe)",
+      "Idiomas 1 (Indigo Tribe)",
       "Liderança",
       "Transe"
     ],
@@ -55,7 +55,7 @@
         "total": 7
       },
       {
-        "nome": "Especialidade: Philosophy",
+        "nome": "Especialidade: Filosofia",
         "graduacoes": 5,
         "total": 8
       },
@@ -75,12 +75,12 @@
         "total": 10
       },
       {
-        "nome": "Combate à Distância: Power Ring",
+        "nome": "Combate à Distância: Poder Ring",
         "graduacoes": 8,
         "total": 10
       },
       {
-        "nome": "Combate à Distância: Power Staff",
+        "nome": "Combate à Distância: Poder Staff",
         "graduacoes": 8,
         "total": 10
       },
@@ -118,7 +118,7 @@
       "Resistência": 14,
       "Vontade": 18
     },
-    "observacao_defesas": "* Vontade 18 *Without Defense Roll.",
+    "observacao_defesas": "* Vontade 18 *sem Defense Roll.",
     "custos": {
       "Habilidades": 56,
       "Perícias": 26,
@@ -130,15 +130,15 @@
     "complicacoes": [
       {
         "titulo": "Enigmatic",
-        "texto": "Indigo-1 is cautious with the secrets of her Tribe. She Vontade often not share the full details of events and plans that concern her people even with trusted allies."
+        "texto": "Indigo-1 is cautious com the secrets of her Tribe. She Vontade often not share the full details of events e plans that concern her people even com trusted allies."
       },
       {
         "titulo": "Perda de Poder",
-        "texto": "Indigo-1’s ring exhausts its power with time and use. It needs to be recharged using an Indigo Lantern Staff. Using the ring’s Space Travel power drains its charge substantially."
+        "texto": "Indigo-1’s ring exhausts its Poder com time e use. It needs to be recharged using an Indigo Lantern Staff. Using the ring’s Viagem Espacial Poder drains its charge substantially."
       },
       {
         "titulo": "Fraqueza",
-        "texto": "Indigo Lantern power rings depend on the ability of the wielders to feel compassion. The maximum graduação of the ring’s effects is equal to the user’s Vontade graduação to reflect the ability to control and summon up these feelings, but thoughts of cruelty or callousness can cause the ring to fail."
+        "texto": "Indigo Lantern Poder rings depend on the Habilidade of the wielders to feel compassion. The maximum graduação of the ring’s Efeitos is equal to the user’s Vontade graduação to reflect the Habilidade to control e Invocar up these feelings, but thoughts of cruelty or callousness can cause the ring to fail."
       }
     ]
   },

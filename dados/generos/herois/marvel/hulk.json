@@ -91,7 +91,7 @@
       },
       {
         "nome": "Super Strength",
-        "construcao_3e": "Super-Força / Power-Lifting 5 (5 PP) + Efeitos Alternativos de Ataque: Trovoada / Bater de Palmas e Impacto no Solo (2 PP) + Características de Carga Estendidas (5 PP) = 12 PP.",
+        "construcao_3e": "Super-Força / Levantamento de Peso 5 (5 PP) + Efeitos Alternativos de Ataque: Trovoada / Bater de Palmas e Impacto no Solo (2 PP) + Características de Carga Estendidas (5 PP) = 12 PP.",
         "custo_2e_pp": 12,
         "custo_3e_pp": 12,
         "nome_pt": "Super-Força e Onda de Choque (Palmas)"

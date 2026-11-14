@@ -19,11 +19,11 @@
       "Imortal: Imunidade 1 (Envelhecimento) (1 PP)"
     ],
     "equipamento": [
-      "and minions as needed for his plot."
+      "e capangas as needed for his plot."
     ],
     "vantagens": [
       "Artífice",
-      "Conectado",
+      "Bem Relacionado",
       "Contatos",
       "Tontear (Enganação)",
       "Ataque Defensivo",
@@ -31,17 +31,16 @@
       "Equipment*",
       "Fascinar (Enganação)",
       "Destemido",
-      "Esconder-se a Plena Vista",
+      "Esconder-se à Plena Vista",
       "Iniciativa Aprimorada 2",
       "Inspirar",
-      "Languages 4",
+      "Idiomas 4",
       "Liderança",
       "Ritualista",
       "Tomar a Iniciativa",
       "Assustar",
-      "Provocar",
-      "Ultimate Effort 2 (Deception",
-      "Stealth)",
+      "Zombar",
+      "Esforço Supremo 2 (Enganação, Furtividade)",
       "Well-informed *Kobra has extensive wealth and resources. He has as many points of"
     ],
     "pericias": [
@@ -56,12 +55,12 @@
         "total": 20
       },
       {
-        "nome": "Especialidade: mágico",
+        "nome": "Especialidade: Magia",
         "graduacoes": 8,
         "total": 14
       },
       {
-        "nome": "Especialidade: Tactics",
+        "nome": "Especialidade: Tática",
         "graduacoes": 10,
         "total": 16
       },
@@ -125,7 +124,7 @@
       "Defesas": 29,
       "Vantagens": 25
     },
-    "total": null,
+    "total": 185,
     "complicacoes": []
   },
   "notas": [

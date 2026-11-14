@@ -14,19 +14,19 @@
       "Pre": 4
     },
     "poderes": [
-      "Thermokinetic Control (Dano à Distância 10, AE: Intangibilidade 4 (Incorporeal); Voo 9 (1,0 km/h); Imunidade 11 (fogo Effects, Calor); Característica 1 (Quick Change)"
+      "Thermokinetic Control (Dano à Distância 10, AE: Intangibilidade 4 (Incorporeal); Voo 9 (1.600 km/h); Imunidade 11 (Fogo Efeitos, Calor); Característica 1 (Quick Change)"
     ],
     "equipamento": [],
     "vantagens": [
       "Finta Ágil",
       "Atraente",
-      "Benefit 1 (Security Clearance)",
+      "Benefício 1 (Credencial de Segurança)",
       "Connection",
       "Contatos",
       "Rolamento Defensivo 2",
-      "Evasion",
+      "Evasão",
       "Esquiva Fabulosa",
-      "Bem-Informado"
+      "Bem Informado"
     ],
     "pericias": [
       {
@@ -45,12 +45,12 @@
         "total": 8
       },
       {
-        "nome": "Especialidade: Current Events",
+        "nome": "Especialidade: Atualidades",
         "graduacoes": 8,
         "total": 10
       },
       {
-        "nome": "Especialidade: Politics",
+        "nome": "Especialidade: Política",
         "graduacoes": 12,
         "total": 14
       },

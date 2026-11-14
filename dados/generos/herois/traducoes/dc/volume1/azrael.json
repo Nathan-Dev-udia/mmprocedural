@@ -14,20 +14,20 @@
       "Pre": 5
     },
     "poderes": [
-      "Suit of Sorrows: Enhanced Feat 1 (Improved Iniciativa), Força Aprimorada 3, Agilidade Aprimorada 3, Proteção 6, Removível (-4 pontos) (15 PP)",
-      "Swords of Sin and Salvation: 9 pontos, Removível (-2 pontos) (7 PP)",
-      "• Twin Swords: Força-based Dano 4, Improved Critical, Dividido • Flaming Aura: Enhanced Dano 2 (fogo), Linked to Twin Swords, Dividido"
+      "Suit of Sorrows: Aprimorado Feat 1 (Iniciativa Aprimorada), Força Aprimorada 3, Agilidade Aprimorada 3, Proteção 6, Removível (-4 pontos) (15 PP)",
+      "Espadas of Sin e Salvation: 9 pontos, Removível (-2 pontos) (7 PP)",
+      "• Twin Espadas: Força-based Dano 4, Improved Critical, Dividido • Flaming Aura: Aprimorado Dano 2 (Fogo), Ligado a Twin Espadas, Dividido"
     ],
     "equipamento": [],
     "vantagens": [
       "Ataque Corpo-a-Corpo 2",
       "Ataque Defensivo",
-      "Evasion",
+      "Evasão",
       "Iniciativa Aprimorada",
       "Ataque Poderoso",
-      "Precise Attack (corpo a corpo; Concealment)",
+      "Ataque Preciso (Corpo a Corpo; Camuflagem)",
       "Saque Rápido",
-      "Derrubar em Sequência"
+      "Ataque Dominó"
     ],
     "pericias": [
       {
@@ -61,12 +61,12 @@
         "total": 10
       },
       {
-        "nome": "Especialidade: Current Events",
+        "nome": "Especialidade: Atualidades",
         "graduacoes": 7,
         "total": 9
       },
       {
-        "nome": "Especialidade: Streetwise",
+        "nome": "Especialidade: Manha",
         "graduacoes": 9,
         "total": 11
       },
@@ -84,16 +84,16 @@
     "iniciativa": 12,
     "ataques": [
       {
-        "nome": "Twin Swords",
+        "nome": "Twin Espadas",
         "bonus": 11,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 10/8*, Crit. 19-20"
+        "dano": "Dano 10/8*, Crít. 19-20"
       },
       {
-        "nome": "Twin Flaming Swords",
+        "nome": "Twin Flaming Espadas",
         "bonus": 11,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 12/9*, Crit. 19-20"
+        "dano": "Dano 12/9*, Crít. 19-20"
       },
       {
         "nome": "Desarmado",

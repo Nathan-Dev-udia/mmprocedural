@@ -70,7 +70,7 @@
       },
       {
         "nome": "Super Movement",
-        "construcao_3e": "Movimento 2 (Wall-Crawling 2).",
+        "construcao_3e": "Movimento 2 (Escalar Paredes 2).",
         "custo_2e_pp": 4,
         "custo_3e_pp": 4,
         "nome_pt": "Super-Movimento"
@@ -84,7 +84,7 @@
       },
       {
         "nome": "Super Strength",
-        "construcao_3e": "Power-Lifting 3.",
+        "construcao_3e": "Levantamento de Peso 3.",
         "custo_2e_pp": 6,
         "custo_3e_pp": 3,
         "nome_pt": "Super-Força"

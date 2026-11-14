@@ -14,28 +14,28 @@
       "Pre": 6
     },
     "poderes": [
-      "Precognition: Sentidos 5 (Sentido de Perigo, Precognition) (5 PP)"
+      "Precognição: Sentidos 5 (Sentido de Perigo, Precognição) (5 PP)"
     ],
     "equipamento": [
-      "Voo Ring: Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal –3 pontos); Voo 7 (400 km/h), Removível (–3 pontos) (16 PP)",
-      "Telepathic Plug: Compreender 3 (Languages); mental Comunicação 1 (Corpo a Corpo Range), Removível (–1 ponto) (7 PP)",
-      "Transsuit: Imunidade 9 (Suporte Vital, except for Inanição and thirst), Removível (–2 ponto) (7 PP)"
+      "Voo Ring: Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal -3 pontos); Voo 7 (400 km/h), Removível (-3 pontos) (16 PP)",
+      "Telepathic Plug: Compreender 3 (Languages); Comunicação Mental 1 (Alcance Perto), Removível (-1 ponto) (7 PP)",
+      "Transsuit: Imunidade 9 (Suporte Vital, except for Fome e Sede), Removível (-2 ponto) (7 PP)"
     ],
     "vantagens": [
       "Ataque Imprudente",
       "Avaliação",
       "Atraente",
-      "Benefit 1 (Legion membership)",
+      "Benefício 1 (Legion membership)",
       "Ataque Defensivo",
       "Rolamento Defensivo 3",
       "Equipamento 6",
-      "Evasion",
+      "Evasão",
       "Interpor-se",
       "Liderança",
       "Ação em Movimento",
       "Ataque Poderoso",
       "Redirecionar",
-      "Preparar",
+      "Armação",
       "Trabalho em Equipe",
       "Transe",
       "Esquiva Fabulosa"
@@ -57,22 +57,22 @@
         "total": 16
       },
       {
-        "nome": "Especialidade: Biology",
+        "nome": "Especialidade: Biologia",
         "graduacoes": 12,
         "total": 19
       },
       {
-        "nome": "Especialidade: Science",
+        "nome": "Especialidade: Ciência",
         "graduacoes": 12,
         "total": 19
       },
       {
-        "nome": "Especialidade: Medicine",
+        "nome": "Especialidade: Medicina",
         "graduacoes": 8,
         "total": 15
       },
       {
-        "nome": "Especialidade: Tactics",
+        "nome": "Especialidade: Tática",
         "graduacoes": 10,
         "total": 17
       },
@@ -135,7 +135,7 @@
     "complicacoes": [
       {
         "titulo": "Relacionamento",
-        "texto": "Dream Girl and Star Boy have been a couple for years. The care for and protect each other. Motivation—Responsibility: Dream Girl uses her Powers to help others because she feels she’s been given those Powers for a reason. ALLIES As a member of the Legion, Nura can call on most members for help. She is also on good terms with the Science Police and many Naltorian scientists. ENEMIES Nura’s enemies include any that threaten the United Planets or the Legion, including the Dominators, the Fatal Five and many others."
+        "texto": "Dream Girl e Star Boy have been a couple for years. The care for e protect each other. Motivation—Responsibility: Dream Girl uses her Poderes to help others because she feels she’s been given those Poderes for a reason. ALLIES As a member of the Legion, Nura can call on most members for help. She is also on good terms com the Ciência Police e many Naltorian scientists. ENEMIES Nura’s enemies include any that threaten the United Planets or the Legion, including the Dominators, the Fatal Five e many others."
       }
     ]
   },

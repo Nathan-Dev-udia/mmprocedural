@@ -15,19 +15,19 @@
     },
     "poderes": [
       "Chronal Shift: Intangibilidade 3 (Time-Shifted), Contínuo (18 PP)",
-      "Clock Gadgets: Arranjo (16 pontos), Removível (–4 pontos) Watch Blaster: Dano à Distância 7, Preciso 2 (16 PP)",
+      "Clock Gadgets: Arranjo (16 pontos), Removível (-4 pontos) Watch Blaster: Dano à Distância 7, Acurado 2 (16 PP)",
       "• Temporal Stasis: Aflição à Distância 8 (resistido por Vontade; Tonto, Atordoado, Incapacitado) (1 PP)",
-      "• Chronal Lenses: Camuflagem 3 (Sight, Precognition, Postcognition) (1 PP)",
+      "• Chronal Lenses: Camuflagem 3 (Visão, Precognição, Pós-cognição) (1 PP)",
       "Flying Sundial: Voo 5 (96 km/h), Platform (5 PP)",
-      "Knowledge of the Future: Enhanced Advantage 8 (Improved Iniciativa 2, Luck 5, Seize Iniciativa) (8 PP)",
+      "Knowledge of the Future: Vantagem Aprimorada 8 (Iniciativa Aprimorada 2, Sorte 5, Tomar a Iniciativa) (8 PP)",
       "Perfect Timing: Sentidos 1 (Noção do Tempo) (1 PP)",
-      "Time Travel: Movimento 3 (Full Time Travel) , Increased Mass 3 (400 lbs.), Não Confiável (On roll of 11 or more, power works but Chronos ages 5 years.) (6 PP)"
+      "Viagem no Tempo: Movimento 3 (Full Viagem no Tempo) , Increased Mass 3 (400 libras.), Não Confiável (On roll of 11 or more, Poder works but Chronos ages 5 years.) (6 PP)"
     ],
     "equipamento": [],
     "vantagens": [
-      "Benefit 2 (Independently Wealthy)",
+      "Benefício 2 (Independentemente Rico)",
       "Rolamento Defensivo 2",
-      "Evasion",
+      "Evasão",
       "Iniciativa Aprimorada 2",
       "Inventor",
       "Sorte",
@@ -47,12 +47,12 @@
         "total": 12
       },
       {
-        "nome": "Especialidade: Electronics",
+        "nome": "Especialidade: Eletrônica",
         "graduacoes": 4,
         "total": 10
       },
       {
-        "nome": "Especialidade: Temporal Physics",
+        "nome": "Especialidade: Temporal Física",
         "graduacoes": 6,
         "total": 12
       },
@@ -102,15 +102,15 @@
       "Perícias": 19,
       "Defesas": 22
     },
-    "total": null,
+    "total": 142,
     "complicacoes": [
       {
         "titulo": "Motivação",
-        "texto": "Greed and obsession with time."
+        "texto": "Greed e obsession com time."
       },
       {
         "titulo": "Obsessão",
-        "texto": "Clocks and punctuality."
+        "texto": "Clocks e punctuality."
       }
     ]
   },

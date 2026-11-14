@@ -14,17 +14,17 @@
       "Pre": 4
     },
     "poderes": [
-      "mágico: Arranjo (28 pontos)",
-      "• e nogeb Cigam!: Nulificar 14 (All mágico Effects) (28 PP)",
-      "• e b W on d nuob!: R anged Aflição 14 (resistido por Esquiva; Impedido and Vulnerável, Indefeso and Immobilized) (1 PP)",
-      "• Cigam e k irts!: Dano à Distância 14 (mágico) (1 PP)",
+      "Magia: Arranjo (28 pontos)",
+      "• e nogeb Cigam!: Nulificar 14 (All Magia Efeitos) (28 PP)",
+      "• e b W on d nuob!: Aflição à Distância 14 (resistido por Esquiva; Impedido e Vulnerável, Indefeso e Immobilized) (1 PP)",
+      "• Cigam e k irts!: Dano à Distância 14 (Magia) (1 PP)",
       "• o tserp e gnahc o !: Aflição à Distância 9 (resistido por Fortitude; Tonto, Atordoado, Transformado), Cumulativo (1 PP)",
       "• r aeppa!: Criar Objetos 9, Contínuo, Sutil (1 PP)",
-      "• t c etorp!: Perception À Distância Deflexão 14 (1 PP)",
+      "• t c etorp!: Percepção À Distância Deflexão 14 (1 PP)",
       "• Won t egr of: Aflição 9 (resistido por Vontade; Tonto, Atordoado, Transformado—subject forgets), Insidioso, Progressivo (1 PP)",
       "• t r opsnart e m!: Teleporte 14 (60 milhas) (1 PP)",
-      "Mystic Sentidos: Sentidos 4 (Detect mágico, À Distância, Aguçado, Analítico) (4 PP)",
-      "a V ant G d a e S Artificer, Attractive, Connected, Defensive Attack, Extraordinary Effort, Fascinate (Expertise: Performance), Luck, Ritualist, Teamwork"
+      "Místico Sentidos: Sentidos 4 (Detectar Magia, À Distância, Aguçado, Analítico) (4 PP)",
+      "a V ant G d a e S Artificer, Attractive, Connected, Defensive Attack, Extraordinary Effort, Fascinate (Especialidade: Performance), Luck, Ritualist, Teamwork"
     ],
     "equipamento": [],
     "vantagens": [
@@ -37,7 +37,7 @@
         "total": 12
       },
       {
-        "nome": "Especialidade: mágico",
+        "nome": "Especialidade: Magia",
         "graduacoes": 12,
         "total": 15
       },
@@ -62,7 +62,7 @@
         "total": 10
       },
       {
-        "nome": "Combate à Distância: mágico",
+        "nome": "Combate à Distância: Magia",
         "graduacoes": 4,
         "total": 8
       },
@@ -80,7 +80,7 @@
     "iniciativa": 2,
     "ataques": [
       {
-        "nome": "mágico",
+        "nome": "Magia",
         "bonus": 8,
         "alcance": "À distância",
         "dano": "Dano 14 mais outros"
@@ -100,7 +100,12 @@
       "Vontade": 13
     },
     "observacao_defesas": "",
-    "custos": {},
+    "custos": {
+      "Habilidades": 42,
+      "Perícias": 33,
+      "Poderes": 39,
+      "Defesas": 30
+    },
     "total": null,
     "complicacoes": [
       {
@@ -113,7 +118,7 @@
       },
       {
         "titulo": "Perda de Poder",
-        "texto": "Zatanna needs to speak aloud (and backwards) to cast her spells."
+        "texto": "Zatanna needs to speak aloud (e backwards) to cast her spells."
       }
     ]
   },

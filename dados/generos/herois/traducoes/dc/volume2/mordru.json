@@ -14,7 +14,7 @@
       "Pre": 5
     },
     "poderes": [
-      "of the other sorcerors. One of Mordru’s apprentices, the White Witch, manages to escape before he can steal her Powers and joins the Legion of Super-Heroes. Styling himself “the Dark Lord, ” Mordru created an interstellar empire. He desired to conquer Earth but the LSH stood in his way, defeating his fleet and imprisoning him in a vault. Later,"
+      "of the other sorcerors. One of Mordru’s apprentices, the White Witch, manages to escape before he can steal her Poderes e joins the Legion of Super-Heroes. Styling himself “the Dark Lord, ” Mordru created an interstellar empire. He desired to conquer Earth but the LSH stood in his way, defeating his fleet e imprisoning him in a vault. Later,"
     ],
     "equipamento": [],
     "vantagens": [],
@@ -25,7 +25,7 @@
         "total": 11
       },
       {
-        "nome": "Especialidade: mágico",
+        "nome": "Especialidade: Magia",
         "graduacoes": 12,
         "total": 22
       },
@@ -50,12 +50,26 @@
         "total": 16
       }
     ],
-    "iniciativa": 0,
-    "ataques": [],
+    "iniciativa": 10,
+    "ataques": [
+      {
+        "nome": "Magia Bolt",
+        "bonus": 16,
+        "alcance": "À distância",
+        "dano": "Dano 16"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 11,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 4"
+      }
+    ],
     "defesas": {
       "Esquiva": 10,
       "Fortitude": 10,
       "Aparar": 9,
+      "Resistência": null,
       "Vontade": 14
     },
     "observacao_defesas": "",

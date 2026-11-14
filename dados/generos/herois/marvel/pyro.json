@@ -59,7 +59,7 @@
       },
       {
         "nome": "Element Control (Fire) 9",
-        "construcao_3e": "Array de Pirocinese: Dano à Distância 9, Perseguidor 2, Acurado 2 (22 PP); Efeitos Alternativos: Criar Chamas Móveis 9 (1 PP), Dano em Cone de Fogo 9 (1 PP), Plataforma Flamejante / Voo 5 (1 PP) = 25 PP.",
+        "construcao_3e": "Arranjo de Pirocinese: Dano à Distância 9, Perseguidor 2, Acurado 2 (22 PP); Efeitos Alternativos: Criar Chamas Móveis 9 (1 PP), Dano em Cone de Fogo 9 (1 PP), Plataforma Flamejante / Voo 5 (1 PP) = 25 PP.",
         "custo_2e_pp": 25,
         "custo_3e_pp": 25,
         "nome_pt": "Controle do Fogo (Pirocinese)"

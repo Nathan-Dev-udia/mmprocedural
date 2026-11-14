@@ -15,15 +15,15 @@
     },
     "poderes": [
       "Cryo-Preserved: Imunidade 6 (Envelhecimento, Frio Dano) (6 PP)",
-      "f r eeze Gun: Arranjo (36 pontos), Facilmente Removível (–16 pontos) (22 PP)",
+      "f r eeze Gun: Arranjo (36 pontos), Facilmente Removível (-16 pontos) (22 PP)",
       "• Frio Raio: Dano à Distância 12, resistido por Fortitude (36 PP)",
       "• i c e o bjec ts: Criar Objetos 10, Inato, Sutil, Permanente (1 PP)",
-      "• i c y Aprisionar: Área de Linha Aflição à Distância 8 (resistido por Esquiva; Impedido and Vulnerável, Indefeso and Imóvel), Cumulativo, Limitado Degree (1 PP)",
-      "r efrigeration Suit: Força Aprimorada 7; Imunidade 10 (Suporte Vital); Movimento 2 (Sure-footed 4, Limitado—Only to Ice and Snow); Proteção 9, Impenetrável; Removível (-9 pontos) (35 PP)"
+      "• i c y Aprisionar: Área de Linha Aflição à Distância 8 (resistido por Esquiva; Impedido e Vulnerável, Indefeso e Imóvel), Cumulativo, Limitado Grau (1 PP)",
+      "r efrigeration Suit: Força Aprimorada 7; Imunidade 10 (Suporte Vital); Movimento 2 (Passo Firme 4, Limitado—Apenas to Gelo e Snow); Proteção 9, Impenetrável; Removível (-9 pontos) (35 PP)"
     ],
     "equipamento": [],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Ambiente Favorito (Extreme Frio)",
       "Inventor"
     ],
@@ -92,7 +92,7 @@
       },
       {
         "titulo": "Fraqueza",
-        "texto": "If Mr. Freeze is exposed to above-freezing temperatures outside of his Refrigeration Suit, his Vigor becomes impaired, disabled, then debilitated."
+        "texto": "If Mr. Freeze is exposed to above-freezing temperatures outside of his Refrigeration Suit, his Vigor becomes Prejudicado, Desabilitado, then Debilitado."
       }
     ]
   },

@@ -14,14 +14,14 @@
       "Pre": 1
     },
     "poderes": [
-      "H.I.V.E. Weapons: ( Arranjo (10 pontos), Facilmente Removível (-4 pontos), Stinger (Golpe 5 Linked to Aflição 5 (resistido por Fortitude; Tonto, Disabled, Incapacitado (electrical), AE: Blaster (Dano à Distância 5)); H.I.V.E. Uniform (Proteção 3, Sutil)"
+      "H.I.V.E. Weapons: ( Arranjo (10 pontos), Facilmente Removível (-4 pontos), Stinger (Golpe 5 Ligado a Aflição 5 (resistido por Fortitude; Tonto, Desabilitado, Incapacitado (Elétrico), AE: Blaster (Dano à Distância 5)); H.I.V.E. Uniform (Proteção 3, Sutil)"
     ],
     "equipamento": [
       "H.I.V.E. Communicator"
     ],
     "vantagens": [
       "Benefício (various)",
-      "Conectado",
+      "Bem Relacionado",
       "Equipamento"
     ],
     "pericias": [
@@ -69,10 +69,16 @@
     "iniciativa": 2,
     "ataques": [
       {
+        "nome": "H.I.V.E. Blaster",
+        "bonus": 5,
+        "alcance": "À distância",
+        "dano": "Dano 5"
+      },
+      {
         "nome": "Stinger",
         "bonus": 5,
         "alcance": "",
-        "dano": "Golpe 5 and Aflição 5, resistido por Fortitude"
+        "dano": "Golpe 5 e Aflição 5, resistido por Fortitude"
       }
     ],
     "defesas": {

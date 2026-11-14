@@ -14,7 +14,7 @@
       "Pre": 4
     },
     "poderes": [
-      "0 Defenses 28 Advantages 16 Total 150"
+      "0 Defesas 28 Vantagens 16 Total 150"
     ],
     "equipamento": [
       "Submachine gun: À Distância Multi-Attack Dano 4 (12 PP)",
@@ -28,8 +28,8 @@
       "Inspirar 2",
       "Liderança",
       "Assustar",
-      "Provocar",
-      "Bem-Informado"
+      "Zombar",
+      "Bem Informado"
     ],
     "pericias": [
       {
@@ -53,7 +53,7 @@
         "total": 16
       },
       {
-        "nome": "Especialidade: Law",
+        "nome": "Especialidade: Direito",
         "graduacoes": 9,
         "total": 14
       },
@@ -83,7 +83,7 @@
         "total": 8
       },
       {
-        "nome": "Combate à Distância: Firearms",
+        "nome": "Combate à Distância: Armas de Fogo",
         "graduacoes": 8,
         "total": 11
       },
@@ -113,11 +113,11 @@
       {
         "nome": "Metralhadora Tommy",
         "bonus": 11,
-        "alcance": "À distância",
-        "dano": "Multi-Attack Dano 4"
+        "alcance": "",
+        "dano": ""
       },
       {
-        "nome": "Pistola",
+        "nome": "À Distância Multi-Attack Dano 4 Pistola",
         "bonus": 11,
         "alcance": "À distância",
         "dano": "Dano 4"
@@ -136,13 +136,16 @@
       "Resistência": 6,
       "Vontade": 12
     },
-    "observacao_defesas": "* Vontade 12 *sem Rolamento Defensivo Po er ponto W S Abilities 60 Skills 46",
-    "custos": {},
+    "observacao_defesas": "* Vontade 12 *sem Rolamento Defensivo",
+    "custos": {
+      "Habilidades": 60,
+      "Perícias": 46
+    },
     "total": null,
     "complicacoes": [
       {
         "titulo": "d isfigur ement",
-        "texto": "Two-Face is so badly disfigured it’s difficult to imagine him ever reentering mainstream society. e nemy: Batman. wo-face is obsessed with the number two and o bsession: T most of his crimes revolve around that theme. r andom C hance: Two-Face resolves all key decisions with a flip of his two-headed coin: the scarred side evil, the clean side good. The GM can flip a coin (or roll the die: 1–10 evil, 11–20 good) to see what Two-Face Vontade do in a given situation. It requires a CD 30 Vontade check for Two-Face to ignore the coin’s decision. Christening himself Two-Face, Dent quickly became one of the most fearsome gangsters in Gotham City. He routinely crosses swords with Batman, who still struggles to find some way to help his old friend."
+        "texto": "Two-Face is so badly disfigured it’s difficult to imagine him ever reentering mainstream society. e nemy: Batman. wo-face is obsessed com the number two e o bsession: T most of his crimes revolve around that theme. r andom C hance: Two-Face resolves all key decisions com a flip of his two-headed coin: the scarred side evil, the clean side good. The GM can flip a coin (or roll the die: 1-10 evil, 11-20 good) to see what Two-Face Vontade do in a given situation. It requires a CD 30 Vontade Teste for Two-Face to ignore the coin’s decision. Christening himself Two-Face, Dent quickly became one of the most fearsome gangsters in Gotham City. He routinely crosses Espadas com Batman, who still struggles to find some way to help his old friend."
       }
     ]
   },

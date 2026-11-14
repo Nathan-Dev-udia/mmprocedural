@@ -14,18 +14,18 @@
       "Pre": 2
     },
     "poderes": [
-      "Gills (Imunidade 1 (Afogamento)), Organic Body Armor (Proteção 4, Regeneração 5), Powered Exoskeleton (Força Aprimorada 4, Limitado a Lifting (Lifting Str 14; 400 tons)), Trident (Voo 5 (96 km/h), Força-based Dano 3, Facilmente Removível), Rádio and Visual/Auditory Amplifiers (Sentidos 3 (Visão Estendida and Hearing, Rádio))"
+      "Gills (Imunidade 1 (Afogamento)), Organic Body Armor (Proteção 4, Regeneração 5), Powered Exoskeleton (Força Aprimorada 4, Limitado a Lifting (Lifting Str 14; 400 toneladas)), Trident (Voo 5 (96 km/h), Força-based Dano 3, Facilmente Removível), Rádio e Visual/Auditivo Amplifiers (Sentidos 3 (Visão Estendida e Audição, Rádio))"
     ],
     "equipamento": [],
     "vantagens": [
       "Ataque Imprudente",
-      "Evasion",
-      "Levantar Rápido",
+      "Evasão",
+      "De Pé",
       "Inventor",
       "Defesa Aprimorada",
       "Ataque Poderoso",
       "Assustar",
-      "Derrubar em Sequência"
+      "Ataque Dominó"
     ],
     "pericias": [
       {
@@ -49,12 +49,12 @@
         "total": 8
       },
       {
-        "nome": "Especialidade: Acting",
+        "nome": "Especialidade: Atuação",
         "graduacoes": 5,
         "total": 7
       },
       {
-        "nome": "Especialidade: Special Effects",
+        "nome": "Especialidade: Special Efeitos",
         "graduacoes": 6,
         "total": 8
       },

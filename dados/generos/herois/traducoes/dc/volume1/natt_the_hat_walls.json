@@ -48,7 +48,7 @@
         "total": 10
       },
       {
-        "nome": "Combate à Distância: Guns",
+        "nome": "Combate à Distância: Armas de Fogo",
         "graduacoes": 3,
         "total": 7
       },
@@ -69,19 +69,25 @@
         "nome": "Sniper Rifle",
         "bonus": 15,
         "alcance": "À distância",
-        "dano": "Dano 5, Sutil, Improved Aim, Crit. 18-20"
+        "dano": "Dano 5, Sutil, Improved Aim, Crít. 18-20"
       },
       {
-        "nome": "Pistols",
+        "nome": "Pistolas",
         "bonus": 15,
         "alcance": "À distância",
-        "dano": "Dano 4, Critical 19-20 Grenades — À Distância, Área de Explosão Dano 5"
+        "dano": "Dano 4, Critical 19-20"
+      },
+      {
+        "nome": "Grenades",
+        "bonus": null,
+        "alcance": "À distância",
+        "dano": "Área de Explosão Dano 5"
       },
       {
         "nome": "Knife",
         "bonus": 12,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 3, Crit. 19-20"
+        "dano": "Dano 3, Crít. 19-20"
       }
     ],
     "defesas": {
@@ -103,11 +109,11 @@
     "complicacoes": [
       {
         "titulo": "Feedback",
-        "texto": "Using his X-ray vision or Telepatia Vontade quickly give Monaghan a headache, and Vontade eventually proceed through nausea to cause him more physical Dor."
+        "texto": "Using his Visão de Raios-X or Telepatia Vontade quickly give Monaghan a headache, e Vontade eventually proceed through nausea to cause him more physical Dor."
       },
       {
         "titulo": "Morals",
-        "texto": "Tommy Monaghan’s sense of morality keeps him from ever being an utterly irredeemable villain, but in the bloody and corrupt world in which he operates, it’s also often a frustrating limitation."
+        "texto": "Tommy Monaghan’s sense of morality keeps him from ever being an utterly irredeemable villain, but in the bloody e corrupt world in which he operates, it’s also often a frustrating limitation."
       },
       {
         "titulo": "Marked for Death",

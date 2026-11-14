@@ -14,17 +14,17 @@
       "Pre": 2
     },
     "poderes": [
-      "f Arranjo (26 pontos) ligh t: • Voo 13 (16,0 km/h) (26 PP)",
-      "• Velocidade 13 (16,0 km/h) (1 PP)",
-      "Calor Vision: Dano à Distância 12 (24 PP)",
+      "f Arranjo (26 pontos) Luz: • Voo 13 (25.600 km/h) (26 PP)",
+      "• Velocidade 13 (25.600 km/h) (1 PP)",
+      "Visão de Calor: Dano à Distância 12 (24 PP)",
       "i n vulnerability: Proteção 5, Resistência Impenetrável 12; Imunidade 5 (Frio, Calor, Pressão, Radiação, Vácuo) (22 PP)",
-      "Super-Sentidos: Sentidos 7 (Aguçado and Audição Estendida, Visão Estendida 3, Infravisão, Ultra-Audição) (7 PP)",
+      "Super-Sentidos: Sentidos 7 (Aguçado e Audição Estendida, Visão Estendida 3, Infravisão, Ultra-Audição) (7 PP)",
       "Super-Velocidade: Rapidez 6 (6 PP)",
-      "Super-Força: Força Aprimorada 3, Limitado a Lifting (Lifting Str18; 6,000 tons) (3 PP)",
-      "t ac tile t elek inesis: Arranjo (15 pontos), Alternate Effects of Força Dano, Característica 1: Can exert Força without moving (1 PP)",
-      "• Transform 5 (assembled into disassembled), d isassemble: Contínuo (1 PP)",
-      "• Escudo o Proteção 15, Affects Others (1 PP)",
-      "thers: • Shockwave: Área de Explosão Aflição 12, Extra Condition, Limitado Degree (resistido por Fortitude; Tonto and Vulnerável, Atordoado and Indefeso), Limitado (Superboy and targets must be touching the ground) (1 PP)"
+      "Super-Força: Força Aprimorada 3, Limitado a Lifting (Lifting Str18; 6,000 toneladas) (3 PP)",
+      "t ac tile t elek inesis: Arranjo (15 pontos), Alternate Efeitos of Força Dano, Característica 1: Can exert Força sem moving (1 PP)",
+      "• Transformar 5 (assembled into disassembled), d isassemble: Contínuo (1 PP)",
+      "• Escudo o Proteção 15, Afeta Outros (1 PP)",
+      "thers: • Shockwave: Área de Explosão Aflição 12, Extra Condition, Limitado Grau (resistido por Fortitude; Tonto e Vulnerável, Atordoado e Indefeso), Limitado (Superboy e targets must be touching the ground) (1 PP)"
     ],
     "equipamento": [],
     "vantagens": [
@@ -33,10 +33,10 @@
       "Ação em Movimento",
       "Segunda Chance (Resist mind control)",
       "Taunt clude his heat vision and portions of his strength",
-      "speed and invulnerability. Superboy’s Powers are still maturing along with the rest of him. His Extraordinary Effort advantage reflects a knack for developing impressive power stunts in times of stress",
+      "speed and invulnerability. Superboy's Powers are still maturing along with the rest of him. His Extraordinary Effort advantage reflects a knack for developing impressive power stunts in times of stress",
       "as well as coming through at the last minute to snatch victory from the jaws of defeat. Among other things",
       "Superboy has displayed the potential for ranged telekinesis",
-      "freezing super- breath",
+      "freezing super-breath",
       "and the power to adapt his telekinetic field to shield himself from magic",
       "among other effects."
     ],
@@ -76,7 +76,7 @@
         "dano": "Dano 15"
       },
       {
-        "nome": "Calor Vision",
+        "nome": "Visão de Calor",
         "bonus": 9,
         "alcance": "À distância",
         "dano": "Dano 12"

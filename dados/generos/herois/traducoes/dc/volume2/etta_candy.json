@@ -16,7 +16,7 @@
     "poderes": [],
     "equipamento": [],
     "vantagens": [
-      "Benefício (military graduação)"
+      "Benefício (Militar graduação)"
     ],
     "pericias": [
       {
@@ -35,7 +35,7 @@
         "total": 4
       },
       {
-        "nome": "Especialidade: Military",
+        "nome": "Especialidade: Militar",
         "graduacoes": 6,
         "total": 8
       },
@@ -55,7 +55,7 @@
         "total": 5
       },
       {
-        "nome": "Combate à Distância: Guns",
+        "nome": "Combate à Distância: Armas de Fogo",
         "graduacoes": 6,
         "total": 6
       },

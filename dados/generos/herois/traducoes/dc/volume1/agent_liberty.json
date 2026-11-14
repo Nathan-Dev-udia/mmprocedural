@@ -14,23 +14,22 @@
       "Pre": 2
     },
     "poderes": [
-      "Jetpack: Voo 6 (192 km/h), Removível (–2 pontos) (10 PP)",
-      "Liberty Suit: Força Aprimorada 2; Impenetrável Proteção 5; Força-based Dano 3 (Arm Blades), Removível (–3 pontos) (14 PP)",
-      "Plasma Pistola: À Distância Multiataque Dano 6, Facilmente Removível (–8 pontos) (10 PP)"
+      "Jetpack: Voo 6 (192 km/h), Removível (-2 pontos) (10 PP)",
+      "Liberty Suit: Força Aprimorada 2; Impenetrável Proteção 5; Força-based Dano 3 (Arm Lâminas), Removível (-3 pontos) (14 PP)",
+      "Plasma Pistola: À Distância Multiataque Dano 6, Facilmente Removível (-8 pontos) (10 PP)"
     ],
     "equipamento": [],
     "vantagens": [
       "Ataque Corpo-a-Corpo 2",
-      "Conectado",
+      "Bem Relacionado",
       "Ataque Defensivo",
       "Mira Aprimorada",
-      "Levantar Rápido",
+      "De Pé",
       "Ação em Movimento",
       "Ataque Poderoso",
-      "Precise Attack (Ranged",
-      "Cover)",
+      "Ataque Preciso (À Distância, Cobertura)",
       "Saque Rápido",
-      "Derrubar em Sequência 2"
+      "Ataque Dominó 2"
     ],
     "pericias": [
       {
@@ -54,17 +53,17 @@
         "total": 4
       },
       {
-        "nome": "Especialidade: Law",
+        "nome": "Especialidade: Direito",
         "graduacoes": 7,
         "total": 8
       },
       {
-        "nome": "Especialidade: Law Enforcement",
+        "nome": "Especialidade: Policiamento",
         "graduacoes": 10,
         "total": 11
       },
       {
-        "nome": "Especialidade: Streetwise",
+        "nome": "Especialidade: Manha",
         "graduacoes": 5,
         "total": 6
       },
@@ -94,7 +93,7 @@
         "total": 6
       },
       {
-        "nome": "Combate à Distância: Guns",
+        "nome": "Combate à Distância: Armas de Fogo",
         "graduacoes": 9,
         "total": 14
       },
@@ -112,7 +111,7 @@
     "iniciativa": 6,
     "ataques": [
       {
-        "nome": "Arm Blades",
+        "nome": "Arm Lâminas",
         "bonus": 12,
         "alcance": "Corpo a corpo",
         "dano": "Dano 8"
@@ -137,7 +136,7 @@
       "Resistência": 9,
       "Vontade": 8
     },
-    "observacao_defesas": "* Vontade 8 *Without Liberty Suit.",
+    "observacao_defesas": "* Vontade 8 *sem Liberty Suit.",
     "custos": {
       "Habilidades": 66,
       "Perícias": 43,

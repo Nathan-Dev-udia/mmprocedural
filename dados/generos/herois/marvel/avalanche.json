@@ -30,13 +30,13 @@
       "Vontade": 6
     },
     "pericias": {
-      "Enganacao": 11,
+      "Enganação": 11,
       "Atletismo": 8,
       "Veículos": 8,
-      "Intimidacao": 8,
-      "Especialidade: Ciencias da Terra": 8,
-      "Percepcao": 8,
-      "Intuicao": 8,
+      "Intimidação": 8,
+      "Especialidade: Ciências da Terra": 8,
+      "Percepção": 8,
+      "Intuição": 8,
       "Furtividade": 8,
       "Especialidade: Sobrevivência": 8
     },
@@ -46,12 +46,12 @@
       "Defesa Aprimorada",
       "Quebrar Aprimorado",
       "Trabalho em Equipe",
-      "Idiomas (Greek)"
+      "Idiomas (Grego)"
     ],
     "poderes": [
       {
         "nome": "Disintegration",
-        "construcao_3e": "Dano Sísmico à Distância 9 (Limitado a matéria inorgânica / terra / rochas; 9 PP); Efeitos Alternativos: Ambiente 9 (Dificultar Movimento; 1 PP), Aflição Sísmica 9 (Derrubar em Área Moldável; 1 PP), Aflição 9 (Enjoado; 1 PP). Array total: 20 PP.",
+        "construcao_3e": "Dano Sísmico à Distância 9 (Limitado a matéria inorgânica / terra / rochas; 9 PP); Efeitos Alternativos: Ambiente 9 (Dificultar Movimento; 1 PP), Aflição Sísmica 9 (Derrubar em Área Moldável; 1 PP), Aflição 9 (Enjoado; 1 PP). Arranjo total: 20 PP.",
         "custo_2e_pp": 30,
         "custo_3e_pp": 20,
         "nome_pt": "Vibração Sísmica / Desintegração"

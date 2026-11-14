@@ -21,10 +21,10 @@
       "a ut omag: Espada: Força-Based Dano 4, Improved Critical (5 PP)"
     ],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Ataque Imprudente",
-      "Benefit 4 (Warlord of Skartaris)",
-      "Conectado",
+      "Benefício 4 (Warlord of Skartaris)",
+      "Bem Relacionado",
       "Ataque Defensivo",
       "Rolamento Defensivo 2",
       "Equipamento 3",
@@ -32,13 +32,13 @@
       "Desarmar Aprimorado",
       "Iniciativa Aprimorada",
       "Inspirar",
-      "Languages (Skartaran)",
+      "Idiomas (Skartaran)",
       "Liderança",
       "Ataque Poderoso",
-      "Precise Attack (corpo a corpo; Concealment)",
+      "Ataque Preciso (Corpo a Corpo; Camuflagem)",
       "Saque Rápido",
       "Ataque à Distância 2",
-      "Derrubar em Sequência",
+      "Ataque Dominó",
       "Prender Arma"
     ],
     "pericias": [
@@ -63,7 +63,7 @@
         "total": 8
       },
       {
-        "nome": "Especialidade: Military",
+        "nome": "Especialidade: Militar",
         "graduacoes": 10,
         "total": 11
       },
@@ -73,7 +73,7 @@
         "total": 10
       },
       {
-        "nome": "Especialidade: Survival",
+        "nome": "Especialidade: Sobrevivência",
         "graduacoes": 6,
         "total": 7
       },
@@ -98,7 +98,7 @@
         "total": 12
       },
       {
-        "nome": "Combate à Distância: Guns",
+        "nome": "Combate à Distância: Armas de Fogo",
         "graduacoes": 6,
         "total": 12
       },
@@ -135,7 +135,7 @@
       "Resistência": 6,
       "Vontade": 9
     },
-    "observacao_defesas": "* Vontade 9 *sem Rolamento Defensivo accompanied by the warrior-king Machiste, Russian-born Mariah, and the catlike Shakira.",
+    "observacao_defesas": "* Vontade 9 *sem Rolamento Defensivo accompanied by the warrior-king Machiste, Russian-born Mariah, e the catlike Shakira.",
     "custos": {},
     "total": null,
     "complicacoes": []

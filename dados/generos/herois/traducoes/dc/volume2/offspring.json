@@ -14,15 +14,15 @@
       "Pre": 1
     },
     "poderes": [
-      "e lastic B ody (Imunidade 32 (Fortitude effects, Leitura mental), Impenetrável Proteção 6), Shapeshifting (Alongamento 9, Metamorfose 4 (any shape), Variável 4 (physical traits, 20 power pontos))"
+      "e lastic B ody (Imunidade 32 (Efeitos de Fortitude, Leitura Mental), Impenetrável Proteção 6), Shapeshifting (Alongamento 9, Metamorfose 4 (any shape), Variável 4 (physical traits, 20 Poder pontos))"
     ],
     "equipamento": [],
     "vantagens": [
       "Ataque Imprudente",
-      "Benefício (Ambidexterity)",
+      "Benefício (Ambidestria)",
       "Ataque Defensivo",
-      "Agarrar com Destreza",
-      "Provocar"
+      "Agarrar Preciso",
+      "Zombar"
     ],
     "pericias": [
       {
@@ -46,7 +46,7 @@
         "total": 6
       },
       {
-        "nome": "Combate à Distância: Throwing",
+        "nome": "Combate à Distância: Arremesso",
         "graduacoes": 4,
         "total": 8
       },
@@ -68,6 +68,7 @@
     "defesas": {
       "Esquiva": 10,
       "Aparar": 10,
+      "Fortitude": null,
       "Resistência": 10,
       "Vontade": 9
     },
@@ -83,11 +84,11 @@
     "complicacoes": [
       {
         "titulo": "t hrills",
-        "texto": "Offspring enjoys using his Powers, especially to help others."
+        "texto": "Offspring enjoys using his Poderes, especially to help others."
       },
       {
         "titulo": "Fraqueza",
-        "texto": "Like his father, extremes of temperature can cause Offspring to melt or freeze solid (and even shatter)."
+        "texto": "Like his father, extremes of temperature can cause Offspring to melt or freeze solid (e even shatter)."
       }
     ]
   },

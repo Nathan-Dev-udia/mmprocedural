@@ -17,7 +17,7 @@
       "Encolhimento 12 (6 inches; Permanente); Combat Rocket Pack (Voo 5 (96 km/h), Removível)"
     ],
     "equipamento": [
-      "Miniaturized Arsenal (select 35 equipment pontos worth of Projectile Weapons, Heavy Weapons, and/or Grenades and Explosives)"
+      "Miniaturized Arsenal (select 35 equipment pontos worth of Projectile Weapons, Heavy Weapons, e/or Grenades e Explosives)"
     ],
     "vantagens": [
       "Finta Ágil",
@@ -26,8 +26,8 @@
       "Ataque Corpo-a-Corpo 6",
       "Rolamento Defensivo",
       "Equipamento 7",
-      "Grande Vigor",
-      "Improved Critical 2 (Guns)",
+      "Tolerância Maior",
+      "Crítico Aprimorado 2 (Armas de Fogo)",
       "Defesa Aprimorada",
       "Desarmar Aprimorado",
       "Agarrar Aprimorado",
@@ -51,12 +51,12 @@
         "total": 0
       },
       {
-        "nome": "Especialidade: Politics",
+        "nome": "Especialidade: Política",
         "graduacoes": 7,
         "total": 11
       },
       {
-        "nome": "Especialidade: Science",
+        "nome": "Especialidade: Ciência",
         "graduacoes": 7,
         "total": 11
       },
@@ -76,7 +76,7 @@
         "total": 14
       },
       {
-        "nome": "Combate à Distância: Guns",
+        "nome": "Combate à Distância: Armas de Fogo",
         "graduacoes": 6,
         "total": 9
       },
@@ -125,11 +125,11 @@
     "complicacoes": [
       {
         "titulo": "Patriotism",
-        "texto": "Colt is the consummate soldier, ready to follow any order and even die in order to protect America."
+        "texto": "Colt is the consummate soldier, ready to follow any order e even die in order to protect America."
       },
       {
         "titulo": "Relacionamento",
-        "texto": "Colt truly loves Emma Glenn, and her safety (and their baby’s) remains his constant concern."
+        "texto": "Colt truly loves Emma Glenn, e her safety (e their baby’s) remains his constant concern."
       }
     ]
   },

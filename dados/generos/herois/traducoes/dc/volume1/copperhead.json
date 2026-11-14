@@ -16,21 +16,21 @@
     "poderes": [
       "Copperhead Suit: Removível (-8 pontos) (31 PP)",
       "Bulletproof: Proteção 6 (6 PP)",
-      "Crushing Tail: Força-based Dano 3; Alongamento 1 (15 feet) (4 PP)",
-      "Slippery: Movimento (Slithering) (2 PP)",
-      "Snakebite: Aflição 10 (resistido por Fortitude; Impaired, Imóvel, Paralisado) (10 PP)",
-      "Snakelike: Enhanced Traits 17 (Evasion 2, Fast Grab, Hide in Plain Sight, Improved Critical 3 (Tail) , Improved Disarm, Improved Grab, Improved Hold, Improved Smash, Improved Trip, Instant Up, Move-by Action, Power Attack, Weapon Bind, Weapon Break) (17 PP)"
+      "Crushing Tail: Força-based Dano 3; Alongamento 1 (15 pés) (4 PP)",
+      "Slippery: Movimento (Rastejar) (2 PP)",
+      "Snakebite: Aflição 10 (resistido por Fortitude; Prejudicado, Imóvel, Paralisado) (10 PP)",
+      "Snakelike: Características Aprimoradas 17 (Evasão 2, Fast Grab, Hide in Plain Visão, Improved Critical 3 (Tail) , Improved Disarm, Improved Grab, Improved Hold, Improved Smash, Improved Trip, De Pé, Ação em Movimento, Poder Attack, Weapon Bind, Weapon Break) (17 PP)"
     ],
     "equipamento": [],
     "vantagens": [
       "Finta Ágil",
       "Estrangular",
-      "Conectado",
-      "Evasion 2",
+      "Bem Relacionado",
+      "Evasão 2",
       "Agarrar Rápido",
-      "Agarrar com Destreza",
-      "Esconder-se a Plena Vista",
-      "Improved Critical 3 (Tail)",
+      "Agarrar Preciso",
+      "Esconder-se à Plena Vista",
+      "Crítico Aprimorado 3 (Tail)",
       "Defesa Aprimorada",
       "Desarmar Aprimorado",
       "Agarrar Aprimorado",
@@ -38,10 +38,10 @@
       "Iniciativa Aprimorada",
       "Quebrar Aprimorado",
       "Derrubar Aprimorado",
-      "Levantar Rápido",
+      "De Pé",
       "Ação em Movimento",
       "Ataque Poderoso",
-      "Luta Caída",
+      "Luta no Chão",
       "Assustar",
       "Esquiva Fabulosa",
       "Prender Arma",
@@ -123,7 +123,7 @@
     "complicacoes": [
       {
         "titulo": "Motivação",
-        "texto": "Copperhead seeks revenge against anyone who’s crossed him in the past."
+        "texto": "Copperhead seeks revenge contra anyone who’s crossed him in the past."
       }
     ]
   },

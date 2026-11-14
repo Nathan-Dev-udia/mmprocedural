@@ -20,7 +20,7 @@
     "vantagens": [
       "Ataque Imprudente",
       "Duro de Matar",
-      "Grande Vigor",
+      "Tolerância Maior",
       "Inspirar",
       "Interpor-se"
     ],
@@ -72,7 +72,7 @@
         "nome": "Desarmado",
         "bonus": 8,
         "alcance": "",
-        "dano": "(Dano 1 or varies)"
+        "dano": "Dano 1 or varies"
       }
     ],
     "defesas": {
@@ -98,7 +98,7 @@
       },
       {
         "titulo": "Responsabilidade",
-        "texto": "Clay feels a deep-seated responsibility to use his Skills and Abilities to aid those around him outside traditional superhuman means."
+        "texto": "Clay feels a deep-seated responsibility to use his Perícias e Habilidades to aid those around him outside traditional superhuman means."
       }
     ]
   },

@@ -14,12 +14,12 @@
       "Pre": 2
     },
     "poderes": [
-      "Power r ing (identical to Star Sapphire’s 30-ponto Arranjo; see Star Sapphire )"
+      "Poder r ing (identical to Star Sapphire’s 30-ponto Arranjo; see Star Sapphire )"
     ],
     "equipamento": [],
     "vantagens": [
       "Atraente",
-      "Esforço Supremo (Will checks)"
+      "Esforço Supremo (Vontade Testes)"
     ],
     "pericias": [
       {
@@ -48,7 +48,7 @@
         "total": 10
       },
       {
-        "nome": "Combate à Distância: Power Ring",
+        "nome": "Combate à Distância: Poder Ring",
         "graduacoes": 8,
         "total": 9
       }
@@ -56,7 +56,7 @@
     "iniciativa": 2,
     "ataques": [
       {
-        "nome": "Power Ring",
+        "nome": "Poder Ring",
         "bonus": 9,
         "alcance": "À distância",
         "dano": "Dano 15"

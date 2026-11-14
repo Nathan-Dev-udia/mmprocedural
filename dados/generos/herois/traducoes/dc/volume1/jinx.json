@@ -14,18 +14,18 @@
       "Pre": 5
     },
     "poderes": [
-      "Elemental mágico ( Arranjo (24 pontos), Earthquake ( Área de Explosão Dano 8 Linked to Área de Explosão Aflição 8 (resistido por Esquiva; Vulnerável, Indefeso), Limitado Degree; both effects are Seletivo, Limitado—Jinx and targets must be in contact with the ground), AE: Green Flamestorm ( À Distância Área de Explosão Aflição 8 (resistido por Fortitude; Vulnerável, Disabled, Incapacitado), Concentração, Cumulativo, Instant Recovery, Limitado: Jinx Must be in Contact with Earth), AE: Gust of Wind ( Área de Cone Mover Objetos 5, Corpo a Corpo Range, Limitado Direction: Straight Away), AE: Mystic Bolt ( Dano à Distância 12, Limitado: Jinx Must be in Contact with Earth)); Mystic Escudo ( Proteção 4, Sustentado)"
+      "Elemental Magia ( Arranjo (24 pontos), Earthquake ( Área de Explosão Dano 8 Ligado a Área de Explosão Aflição 8 (resistido por Esquiva; Vulnerável, Indefeso), Limitado Grau; both Efeitos are Seletivo, Limitado—Jinx e targets must be in contact com the ground), AE: Green Flamestorm ( À Distância Área de Explosão Aflição 8 (resistido por Fortitude; Vulnerável, Desabilitado, Incapacitado), Concentração, Cumulativo, Instant Recovery, Limitado: Jinx Must be in Contact com Earth), AE: Gust of Wind ( Área de Cone Mover Objetos 5, Alcance Perto, Limitado Direction: Straight Away), AE: Místico Bolt ( Dano à Distância 12, Limitado: Jinx Must be in Contact com Earth)); Místico Escudo ( Proteção 4, Sustentado)"
     ],
     "equipamento": [],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Atraente",
       "Tontear (Enganação)",
       "Fascinar (Enganação)",
-      "Languages 3",
+      "Idiomas 3",
       "Sorte 3",
       "Ritualista",
-      "Maestria em Perícia (Expertise: mágico)"
+      "Maestria em Perícia (Especialidade: Magia)"
     ],
     "pericias": [
       {
@@ -34,7 +34,7 @@
         "total": 12
       },
       {
-        "nome": "Especialidade: mágico",
+        "nome": "Especialidade: Magia",
         "graduacoes": 8,
         "total": 12
       },
@@ -49,7 +49,7 @@
         "total": 10
       },
       {
-        "nome": "Combate à Distância: Mystic Bolt",
+        "nome": "Combate à Distância: Místico Bolt",
         "graduacoes": 8,
         "total": 10
       },
@@ -62,10 +62,16 @@
     "iniciativa": 2,
     "ataques": [
       {
-        "nome": "Mystic Bolt",
+        "nome": "Místico Bolt",
         "bonus": 10,
         "alcance": "À distância",
         "dano": "Dano 12"
+      },
+      {
+        "nome": "Earthquake",
+        "bonus": null,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 8, Aflição 8 resistido por Esquiva; both Área de Explosão 2 or other Efeitos"
       }
     ],
     "defesas": {

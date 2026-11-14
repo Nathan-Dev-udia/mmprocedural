@@ -14,7 +14,7 @@
       "Pre": "—"
     },
     "poderes": [
-      "a rmor (Proteção 10), f utur energy Gun (Arranjo (51 pontos), Facilmente Removível (–16 pontos): d ain f energy r utur (À Distância Transform 9 (Sentient beings into a near-death state), Preciso 3, Contínuo, Reversível), ae : Paralyzing Bubbles (Aflição à Distância 9 (resistido por Fortitude; Tonto, Impedido and Impaired, Indefeso, Imóvel and Atordoado), Preciso 3, Extra Condition 2, Multiataque, Reversível, Limitado Degree), ae : omic-Cloud y (À Distância Transform 9 (Matter into vapor), a t r a Preciso 3, Reversível)); i y 30 (Fortitude Effects) mmunit antages: Improved Aim a dv"
+      "a rmor (Proteção 10), f utur Energia Gun (Arranjo (51 pontos), Facilmente Removível (-16 pontos): d ain f Energia r utur (À Distância Transformar 9 (Sentient beings into a near-death state), Acurado 3, Contínuo, Reversível), ae : Paralyzing Bubbles (Aflição à Distância 9 (resistido por Fortitude; Tonto, Impedido e Prejudicado, Indefeso, Imóvel e Atordoado), Acurado 3, Extra Condition 2, Multiataque, Reversível, Limitado Grau), ae : omic-Nuvem y (À Distância Transformar 9 (Matter into vapor), a t r a Acurado 3, Reversível)); i y 30 (Efeitos de Fortitude) mmunit antages: Improved Aim a dv"
     ],
     "equipamento": [],
     "vantagens": [],
@@ -25,17 +25,32 @@
         "total": 11
       },
       {
-        "nome": "Combate à Distância: Energy Weapons",
+        "nome": "Combate à Distância: Energia Weapons",
         "graduacoes": 3,
         "total": 7
       }
     ],
-    "iniciativa": 0,
-    "ataques": [],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Futurenergy Gun",
+        "bonus": 13,
+        "alcance": "À distância",
+        "dano": "Aflição 9"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 11,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 9"
+      }
+    ],
     "defesas": {
       "Esquiva": 12,
       "Aparar": 12,
-      "Resistência": 10
+      "Fortitude": null,
+      "Resistência": 10,
+      "Vontade": null
     },
     "observacao_defesas": "",
     "custos": {

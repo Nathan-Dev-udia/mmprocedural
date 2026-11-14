@@ -15,28 +15,28 @@
     },
     "poderes": [],
     "equipamento": [
-      "Katana (Dano 3, Improved Critical 2), Matched Katars (Dano 2, Enhanced Aparar 1), Thuggee Strangling Cord (Chokehold, Improved Hold (Limitado a Chokehold)), Webley Revolver (Raio 2)"
+      "Katana (Dano 3, Improved Critical 2), Matched Katars (Dano 2, Aparar Aprimorado 1), Thuggee Strangling Cord (Chokehold, Improved Hold (Limitado a Chokehold)), Webley Revolver (Raio 2)"
     ],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Finta Ágil",
       "Ataque Imprudente",
       "Avaliação",
-      "Benefit 1 (Status: British Aristocrat)",
+      "Benefício 1 (Status: British Aristocrat)",
       "Equipamento 3",
       "Ataque Corpo-a-Corpo 5",
       "Ataque Defensivo",
       "Rolamento Defensivo 2",
-      "Evasion",
-      "Agarrar com Destreza",
+      "Evasão",
+      "Agarrar Preciso",
       "Defesa Aprimorada",
       "Desarmar Aprimorado",
       "Iniciativa Aprimorada",
       "Derrubar Aprimorado",
-      "Minion 2 (Bivens)",
+      "Capanga 2 (Bivens)",
       "Ação em Movimento",
       "Saque Rápido",
-      "Provocar",
+      "Zombar",
       "Rastrear",
       "Esquiva Fabulosa"
     ],
@@ -87,7 +87,7 @@
         "total": 6
       },
       {
-        "nome": "Combate à Distância: Guns",
+        "nome": "Combate à Distância: Armas de Fogo",
         "graduacoes": 8,
         "total": 13
       },
@@ -113,7 +113,7 @@
         "nome": "Katana",
         "bonus": 13,
         "alcance": "",
-        "dano": "Dano 5, Crit. 18-20"
+        "dano": "Dano 5, Crít. 18-20"
       },
       {
         "nome": "Katars",

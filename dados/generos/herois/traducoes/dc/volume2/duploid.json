@@ -14,7 +14,7 @@
       "Pre": 1
     },
     "poderes": [
-      "e nergy a bsorption (Proteção 6, Impenetrável 12, Limitado a Energy)"
+      "e nergy a bsorption (Proteção 6, Impenetrável 12, Limitado a Energia)"
     ],
     "equipamento": [
       "Heavy Pistola (Dano à Distância 4)"
@@ -35,7 +35,7 @@
         "total": 5
       },
       {
-        "nome": "Especialidade: Physics",
+        "nome": "Especialidade: Física",
         "graduacoes": 6,
         "total": 10
       },
@@ -77,7 +77,7 @@
       "Resistência": 6,
       "Vontade": 5
     },
-    "observacao_defesas": "*, Vontade 5 *Limitado a Energy.",
+    "observacao_defesas": "*, Vontade 5 *Limitado a Energia.",
     "custos": {
       "Habilidades": 64,
       "Poderes": 9,

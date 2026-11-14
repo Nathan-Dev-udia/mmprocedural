@@ -14,7 +14,7 @@
       "Pre": 2
     },
     "poderes": [
-      "Transmutate Object ( Transform 11 (Anything to Anything), Contínuo, Peculiaridade: Instant Recover after Minutes (-1 ponto), AE: Acid Touch ( Dano 12, Penetrante 6, Efeito Secundário), AE: Transmutate Being ( Cumulativo Aflição 12 (resistido por Esquiva then Fortitude; Tonto, Imóvel, Incapacitado), Contínuo, Peculiaridade: Instant Recovery after Minutes (-1 ponto))) Advantages; All-out Attack, Defensive Roll 5, Fast Grab, Improved Grab, Seize Iniciativa, Taunt"
+      "Transmutate Object ( Transformar 11 (Anything to Anything), Contínuo, Peculiaridade: Instant Recover after Minutes (-1 ponto), AE: Ácido Touch ( Dano 12, Penetrante 6, Efeito Secundário), AE: Transmutate Being ( Cumulativo Aflição 12 (resistido por Esquiva then Fortitude; Tonto, Imóvel, Incapacitado), Contínuo, Peculiaridade: Instant Recovery after Minutes (-1 ponto))) Vantagens; Ataque Imprudente, Rolamento Defensivo 5, Fast Grab, Improved Grab, Tomar a Iniciativa, Taunt"
     ],
     "equipamento": [],
     "vantagens": [],
@@ -53,7 +53,7 @@
     "iniciativa": 2,
     "ataques": [
       {
-        "nome": "Acid Touch",
+        "nome": "Ácido Touch",
         "bonus": 10,
         "alcance": "Corpo a corpo",
         "dano": "Dano 12, Penetrante 6, resistido por Esquiva then Fortitude, Efeito Secundário"
@@ -84,7 +84,7 @@
     "complicacoes": [
       {
         "titulo": "Broken",
-        "texto": "Shimmer’s personality and outlook have clearly changed since she was brought back from her shattered state. How much she’s changed and what it may mean for her future is unknown."
+        "texto": "Shimmer’s personality e outlook have clearly changed since she was brought back from her shattered state. How much she’s changed e what it may mean for her future is unknown."
       }
     ]
   },

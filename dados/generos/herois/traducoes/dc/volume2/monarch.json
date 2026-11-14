@@ -14,7 +14,7 @@
       "Pre": 2
     },
     "poderes": [
-      "164 Defenses 20"
+      "164 Defesas 20"
     ],
     "equipamento": [],
     "vantagens": [
@@ -37,7 +37,7 @@
         "total": 6
       },
       {
-        "nome": "Especialidade: Military Science",
+        "nome": "Especialidade: Militar Ciência",
         "graduacoes": 6,
         "total": 7
       },
@@ -57,7 +57,7 @@
         "total": 12
       },
       {
-        "nome": "Combate à Distância: Energy Blast",
+        "nome": "Combate à Distância: Energia Blast",
         "graduacoes": 8,
         "total": 10
       },
@@ -75,6 +75,12 @@
     "iniciativa": 6,
     "ataques": [
       {
+        "nome": "Aprimorado Quantum Raio",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Dano 24"
+      },
+      {
         "nome": "Desarmado",
         "bonus": 10,
         "alcance": "Corpo a corpo",
@@ -89,12 +95,15 @@
       "Vontade": 14
     },
     "observacao_defesas": "",
-    "custos": {},
+    "custos": {
+      "Habilidades": 88,
+      "Perícias": 23
+    },
     "total": null,
     "complicacoes": [
       {
         "titulo": "e nergy Containment",
-        "texto": "Monarch’s armor is the only thing c ontaining his otherwise unrestrained quantum energy. At times he has purposely removed portions of the armor to unleash enhanced Quantum Blasts and Quantum Bursts (increase both by 5 graduações but add the Uncontrolled Flaw), but a severe breach, such as would happen with sufficient Dano to the armor were it not sealed almost immediately, would result in a catastrophic quantum explosion that could destroy a universe. o v erconfidence: Monarch is so sure of his Abilities and foresight (with good reason, considering his standard level of preparation and many contingency plans) that he faces every enemy with absolute confidence. f orerunner Born on Earth-48, a planet fought over by the solar system’s other worlds, Viza’s people were forced to live underground to survive. Under the Monitors’ Proteção and guidance (not to mention genetic manipulation that introduced Saturnian and Green Martian racial traits, among others, into their DNA), the Forerunners eventually fought to reclaim their world, in gratitude devoting themselves to the Monitors. It was from this race that Viza was selected by the Monitors to act as their foremost operative, a role for which she took on her race’s name, Forerunner, in place of her own. Viza’s mission was to search through all realities for people who should not exist. Once identified, she was to eliminate them because of the danger they posed to the multiverse’s stability. The Monitors cast her aside when she failed to kill Donna Troy and Jason Todd, and the Monarch took advan- tage of this opportunity to recruit her by giving her informa- tion regarding the Monitors’ decision to slaughter her people. Forerunner took an armada of Monarch’s ships to wage a war of vengeance against her former masters."
+        "texto": "Monarch’s armor is the Apenas thing c ontaining his otherwise unrestrained quantum Energia. At times he has purposely removed portions of the armor to unleash Aprimorado Quantum Blasts e Quantum Bursts (increase both by 5 graduações but add the Descontrolado Flaw), but a severe breach, such as would happen com sufficient Dano to the armor were it not sealed almost immediately, would result in a catastrophic quantum explosion that could destroy a universe. o v erconfidence: Monarch is so sure of his Habilidades e foresight (com good reason, considering his standard level of preparation e many contingency plans) that he faces every enemy com absolute confidence. f orerunner Born on Earth-48, a planet fought over by the solar system’s other worlds, Viza’s people were forced to live underground to survive. Under the Monitors’ Proteção e guidance (not to mention genetic manipulation that introduced Saturnian e Green Martian racial traits, among others, into their DNA), the Forerunners eventually fought to reclaim their world, in gratitude devoting themselves to the Monitors. It was from this race that Viza was selected by the Monitors to act as their foremost operative, a role for which she took on her race’s name, Forerunner, in place of her own. Viza’s mission was to search through all realities for people who should not exist. Once identified, she was to eliminate them because of the danger they posed to the multiverse’s stability. The Monitors cast her aside when she failed to kill Donna Troy e Jason Todd, e the Monarch took advan- tage of this opportunity to recruit her by giving her informa- tion regarding the Monitors’ decision to slaughter her people. Forerunner took an armada of Monarch’s ships to wage a war of vengeance contra her former masters."
       }
     ]
   },

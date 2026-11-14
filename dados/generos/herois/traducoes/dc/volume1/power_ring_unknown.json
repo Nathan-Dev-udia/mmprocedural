@@ -14,13 +14,13 @@
       "Pre": 3
     },
     "poderes": [
-      "Power Ring (132 pontos, Removível (–26 pontos); Volthoom’s Mystic Knowledge ( Features 2 (This is identical to the AI built into Oan Green Lantern Rings)); Comunicação ( Sentidos 1 (Comunicação Link to Central Power Battery)); Voo (Voo 14 (32,0 km/h), Movimento 4 (Environmental Adaptation: Zero-G, Space Travel 3)); Campo de Força (Proteção 12, Impenetrável; Imunidade 10 (Suporte Vital)); Force Manipulation (Arranjo (36 pontos) Force Raio ( Dano à Distância 18, Dynamic), AE: Force Bubble ( Affects Others, Área de Explosão, and À Distância on Imunidade 10 (Suporte Vital), Dynamic), AE: Force Constructs (Criar Objetos 18, Dynamic, AE: Lifting: Mover Objetos 18, Dynamic), AE: Mobile Constructs ( Criar Objetos 12, Movable, Dynamic); Scanning Beam (Sentidos 6 (Analítico Auditory, Chemical, and Visual)); Universal Translator (Compreender Languages 4)"
+      "Poder Ring (132 pontos, Removível (-26 pontos); Volthoom’s Místico Knowledge ( Características 2 (This is identical to the AI built into Oan Green Lantern Rings)); Comunicação ( Sentidos 1 (Elo de Comunicação to Central Poder Battery)); Voo (Voo 14 (51.200 km/h), Movimento 4 (Adaptação Ambiental: Zero-G, Viagem Espacial 3)); Campo de Força (Proteção 12, Impenetrável; Imunidade 10 (Suporte Vital)); Force Manipulation (Arranjo (36 pontos) Force Raio ( Dano à Distância 18, Dinâmico), AE: Force Bubble ( Afeta Outros, Área de Explosão, e À Distância on Imunidade 10 (Suporte Vital), Dinâmico), AE: Force Constructs (Criar Objetos 18, Dinâmico, AE: Lifting: Mover Objetos 18, Dinâmico), AE: Mobile Constructs ( Criar Objetos 12, Movable, Dinâmico); Scanning Beam (Sentidos 6 (Analítico Auditivo, Chemical, e Visual)); Universal Translator (Compreender Languages 4)"
     ],
     "equipamento": [],
     "vantagens": [
       "Destemido",
       "Trabalho em Equipe",
-      "Esforço Supremo (Will checks)"
+      "Esforço Supremo (Vontade Testes)"
     ],
     "pericias": [
       {
@@ -74,7 +74,7 @@
         "total": 7
       },
       {
-        "nome": "Combate à Distância: Power Ring",
+        "nome": "Combate à Distância: Poder Ring",
         "graduacoes": 7,
         "total": 10
       }
@@ -88,7 +88,7 @@
         "dano": "Dano 2"
       },
       {
-        "nome": "Power Ring",
+        "nome": "Poder Ring",
         "bonus": 10,
         "alcance": "À distância",
         "dano": "Dano 18"
@@ -113,15 +113,15 @@
     "complicacoes": [
       {
         "titulo": "Inimigo",
-        "texto": "The ring’s “inhabitant” , Volthoom, is no friend to the ring-bearer. Volthoom plots the downfall of Power Ring."
+        "texto": "The ring’s “inhabitant” , Volthoom, is no friend to the ring-bearer. Volthoom plots the downfall of Poder Ring."
       },
       {
         "titulo": "Perda de Poder",
-        "texto": "The ring needs periodic recharging via a battery of unknown origin; it issues a warning as its power runs low."
+        "texto": "The ring needs periodic recharging via a battery of unknown origin; it issues a warning as its Poder runs low."
       },
       {
         "titulo": "Fraqueza",
-        "texto": "Power Ring’s Abilities depend on his willpower; the maximum graduação of his mágico ring’s effects is equal to Power Ring’s Vontade graduação, and moments of self-doubt or hesitation can cause the ring to fail. Powers & Abilities Superwoman is astoundingly strong and tough, can fly at incredible speeds,, and wields an enchanted lasso. Super - woman’s Powers differ from those of Wonder Woman. She can project lethal energy beams from her eyes (similar to the Calor vision of Superman/Ultraman), her lasso lowers the inhibitions of anyone caught in it, so they blurt out secrets, and she does not wear Amazonian bracelet, so Superwom - an is unable to Deflexão attacks as can Wonder Woman. Her"
+        "texto": "Poder Ring’s Habilidades depend on his willpower; the maximum graduação of his Magia ring’s Efeitos is equal to Poder Ring’s Vontade graduação, e moments of self-doubt or hesitation can cause the ring to fail. Poderes & Habilidades Superwoman is astoundingly strong e tough, can fly at incredible speeds,, e wields an enchanted lasso. Super - woman’s Poderes differ from those of Wonder Woman. She can project lethal Energia beams from her eyes (similar to the Visão de Calor of Superman/Ultraman), her lasso lowers the inhibitions of anyone caught in it, so they blurt out secrets, e she does not wear Amazonian bracelet, so Superwom - an is unable to Deflexão attacks as can Wonder Woman. Her"
       }
     ]
   },

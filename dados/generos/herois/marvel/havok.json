@@ -57,7 +57,7 @@
     "poderes": [
       {
         "nome": "Cosmic Energy Control",
-        "construcao_3e": "Dano Cósmico à Distância 12 (Penetrante; 24 PP); Efeitos Alternativos: Desintegração Cósmica 8 (1 PP), Explosão Cósmica em Área 10 centrada em si (1 PP). Array total: 26 PP.",
+        "construcao_3e": "Dano Cósmico à Distância 12 (Penetrante; 24 PP); Efeitos Alternativos: Desintegração Cósmica 8 (1 PP), Explosão Cósmica em Área 10 centrada em si (1 PP). Arranjo total: 26 PP.",
         "custo_2e_pp": 26,
         "custo_3e_pp": 26,
         "nome_pt": "Controle de Energia Cósmica"
@@ -71,7 +71,7 @@
       },
       {
         "nome": "Immunity",
-        "construcao_3e": "Imunidade 1 (Cyclops' powers).",
+        "construcao_3e": "Imunidade 1 (Cyclops' Poderes).",
         "custo_2e_pp": 1,
         "custo_3e_pp": 1,
         "nome_pt": "Imunidade aos Poderes do Ciclope"

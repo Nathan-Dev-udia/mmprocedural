@@ -14,12 +14,12 @@
       "Pre": 2
     },
     "poderes": [
-      "Cosmic Converter Belt: Removível (-15 pontos) (62 PP)",
-      "e nhanced Abilities: Agilidade Aprimorada 4; Vigor Aprimorado 5; Força Aprimorada 6 (32 PP)",
-      "S hooting Star: Aflição à Distância 10 (resistido por Fortitude; Tonto, Atordoado, Incapacitado) Linked to Nulificar Electronics 10, Simultaneous; Preciso 3 (39 PP)",
+      "Cósmico Converter Belt: Removível (-15 pontos) (62 PP)",
+      "e nhanced Habilidades: Agilidade Aprimorada 4; Vigor Aprimorado 5; Força Aprimorada 6 (32 PP)",
+      "S hooting Star: Aflição à Distância 10 (resistido por Fortitude; Tonto, Atordoado, Incapacitado) Ligado a Nulificar Eletrônica 10, Simultâneo; Acurado 3 (39 PP)",
       "f or ce f ield: Sustentado Proteção 4 (4 PP)",
-      "Cosmic r od: Facilmente Removível (-16 pontos) (24 PP)",
-      "f ligh t: Voo 8 (800 km/h) (16 PP)",
+      "Cósmico r od: Facilmente Removível (-16 pontos) (24 PP)",
+      "f Luz: Voo 8 (800 km/h) (16 PP)",
       "S tar Raio: Dano à Distância 12 (24 PP)"
     ],
     "equipamento": [],
@@ -27,7 +27,7 @@
       "Finta Ágil",
       "Ataque Defensivo",
       "Derrubar Aprimorado",
-      "Levantar Rápido",
+      "De Pé",
       "Ataque Poderoso"
     ],
     "pericias": [
@@ -84,7 +84,7 @@
       "Resistência": 12,
       "Vontade": 8
     },
-    "observacao_defesas": "* Vontade 8 *Without Campo de Força. pable of unleashing deadly force. Stargirl is fearless and Vontade- ingly takes on opponents that are clearly stronger than she. Powers and Abilities Stargirl has no native Powers other than trained skill in the martial arts. Her Cosmic Converter Belt offers her Proteção and the ability to disrupt electronics and nervous systems; her Cosmic Rod enables her to fly and can emit potent blasts of energy.",
+    "observacao_defesas": "* Vontade 8 *sem Campo de Força. pable of unleashing deadly force. Stargirl is fearless e Vontade- ingly takes on opponents that are clearly stronger than she. Poderes e Habilidades Stargirl has no native Poderes other than trained Perícia in the martial arts. Her Cósmico Converter Belt offers her Proteção e the Habilidade to disrupt Eletrônica e nervous systems; her Cósmico Rod enables her to fly e can emit potent blasts of Energia.",
     "custos": {},
     "total": null,
     "complicacoes": []

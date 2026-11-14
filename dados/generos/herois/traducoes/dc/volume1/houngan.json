@@ -14,19 +14,18 @@
       "Pre": 4
     },
     "poderes": [
-      "Voodoo Doll (Dynamic Arranjo (21 pontos), Facilmente Removível (-12 pontos), Inflict Harm ( Perception À Distância Enfraquecer Vigor 10, (resistido por Vontade) Limitado a Sampled Subjects, Sutil, Dynamic) AE: Cego (Perception Aflição à Distância 9 (resistido por Vontade; Vision Impaired, Vision Disabled, Transformado (Cego)), Concentração, Dynamic, Limitado a Sampled Subjects, Limitado a Visual, Reversível, Sutil) AE: Deafen (Perception Aflição à Distância 9 (resistido por Vontade; Auditory Impedido, Auditory Disabled, Transformado (Surdo )), Concentração, Dynamic, Limitado a Auditory, Limitado a Sampled Subjects, Reversível, Sutil) AE: Inflict Dor (Aflição 10 (resistido por Vontade; Impaired, Atordoado, Incapacitado), Dynamic, Limitado a Sampled Subjects, Sutil) AE: Work Voodoo (Sentidos 18 (Preciso, Extended 10, Penetrates Camuflagem, Raio, À Distância mental), Dynamic, Limitado a Sampled Subjects))"
+      "Voodoo Doll (Arranjo Dinâmico (21 pontos), Facilmente Removível (-12 pontos), Inflict Harm ( Percepção À Distância Enfraquecer Vigor 10, (resistido por Vontade) Limitado a Sampled Subjects, Sutil, Dinâmico) AE: Cego (Percepção Aflição à Distância 9 (resistido por Vontade; Visão Prejudicado, Visão Desabilitado, Transformado (Cego)), Concentração, Dinâmico, Limitado a Sampled Subjects, Limitado a Visual, Reversível, Sutil) AE: Deafen (Percepção Aflição à Distância 9 (resistido por Vontade; Auditivo Impedido, Auditivo Desabilitado, Transformado (Surdo )), Concentração, Dinâmico, Limitado a Auditivo, Limitado a Sampled Subjects, Reversível, Sutil) AE: Inflict Dor (Aflição 10 (resistido por Vontade; Prejudicado, Atordoado, Incapacitado), Dinâmico, Limitado a Sampled Subjects, Sutil) AE: Work Voodoo (Sentidos 18 (Acurado, Estendido 10, Penetrates Camuflagem, Raio, À Distância Mental), Dinâmico, Limitado a Sampled Subjects))"
     ],
     "equipamento": [],
     "vantagens": [
       "Artífice",
       "Rolamento Defensivo 4",
       "Inventor",
-      "Languages 2 (French",
-      "Haitian Creole)",
+      "Idiomas 2 (Francês, Haitian Creole)",
       "Ritualista",
-      "Maestria em Perícia (Expertise: Voodoo)",
+      "Maestria em Perícia (Especialidade: Voodoo)",
       "Trabalho em Equipe",
-      "Esforço Supremo (Expertise: Voodoo)"
+      "Esforço Supremo (Especialidade: Voodoo)"
     ],
     "pericias": [
       {
@@ -40,7 +39,7 @@
         "total": 8
       },
       {
-        "nome": "Especialidade: Computers",
+        "nome": "Especialidade: Computação",
         "graduacoes": 6,
         "total": 8
       },
@@ -77,6 +76,12 @@
         "bonus": 4,
         "alcance": "Corpo a corpo",
         "dano": "Dano 2"
+      },
+      {
+        "nome": "Voodoo Doll",
+        "bonus": null,
+        "alcance": "Percepção",
+        "dano": "Aflição 9 or Enfraquecer 10"
       }
     ],
     "defesas": {
@@ -98,7 +103,7 @@
     "complicacoes": [
       {
         "titulo": "Bionic Voodoo",
-        "texto": "Houngan is an expert in a very specialized form of mágico, allowing him to use his Voodoo Expertise in place of mágico while employing his Artificer or Ritualist Advantages. However, he does so at half his normal skill graduações unless he adds a computerized element to the ritual or artifact, also requiring successful Technology checks against the design and construction DCs."
+        "texto": "Houngan is an expert in a very specialized form of Magia, allowing him to use his Voodoo Especialidade in place of Magia while employing his Artificer or Ritualist Vantagens. However, he does so at half his normal Perícia graduações unless he adds a computerized element to the ritual or artifact, also requiring successful Tecnologia Testes contra the design e construction DCs."
       }
     ]
   },

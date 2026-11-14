@@ -14,15 +14,14 @@
       "Pre": 3
     },
     "poderes": [
-      "f ligh t 5 (96 km/h); r eality Warping Scream (Arranjo) k inetic y ell (Dano à Distância 12), ae : e xplosive y ell (À Distância Área de Explosão Dano 8), ae : f or ce f ield y ell (Sustentado Proteção 10), ae : f or ce Manipulation y ell (Criar Objetos 10, Sutil 2), ae : Plant Manipulation y ell (À Distância Cumulativo Aflição 8 (resistido por Esquiva; Vulnerável and Impedido, Indefeso and Immobilized), Extra Condition, Limitado Degree, Limitado—Requires Plants), ae : Pyrokinetic y ell (Energy Control (fogo) 10, Indirect 3, Peculiaridade— Cannot cause knockback), ae : t elek inetic y ell (Mover Objetos 12), ae : t elep ortation y ell (Teleporte 6, Easy, Extended), ae : Vertigo y ell (À Distância Cumulativo Aflição 8 (resistido por Fortitude; Impaired, Disabled, Incapacitado)), ae : Weather Manipulation y ell (Environment 6 (Impede Movimento 2, Visibility 2), ae : Wind Manipulation (Elemental Control (Air) 12))"
+      "f Luz 5 (96 km/h); r eality Warping Scream (Arranjo) k inetic y ell (Dano à Distância 12), ae : e xplosive y ell (À Distância Área de Explosão Dano 8), ae : f or ce f ield y ell (Sustentado Proteção 10), ae : f or ce Manipulation y ell (Criar Objetos 10, Sutil 2), ae : Plant Manipulation y ell (À Distância Cumulativo Aflição 8 (resistido por Esquiva; Vulnerável e Impedido, Indefeso e Immobilized), Extra Condition, Limitado Grau, Limitado—Requires Plantas), ae : Pyrokinetic y ell (Energia Control (Fogo) 10, Indireto 3, Peculiaridade— Cannot cause knockback), ae : t elek inetic y ell (Mover Objetos 12), ae : t elep ortation y ell (Teleporte 6, Easy, Estendido), ae : Vertigo y ell (À Distância Cumulativo Aflição 8 (resistido por Fortitude; Prejudicado, Desabilitado, Incapacitado)), ae : Clima Manipulation y ell (Ambiente 6 (Impede Movimento 2, Visibility 2), ae : Wind Manipulation (Elemental Control (Air) 12))"
     ],
     "equipamento": [
-      "Voo Ring (Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal –3), Voo 7 (400 km/h); Telepathic Ear Plug ( Compreender 3 (Languages), mental Comunicação 1 (Corpo a Corpo Range)); Transsuit (Imunidade 9 (Suporte Vital, except for Inanição and thirst))"
+      "Voo Ring (Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal -3), Voo 7 (400 km/h); Telepathic Ear Plug ( Compreender 3 (Languages), Comunicação Mental 1 (Alcance Perto)); Transsuit (Imunidade 9 (Suporte Vital, except for Fome e Sede))"
     ],
     "vantagens": [
       "Ataque Imprudente",
-      "Benefit 4 (Champion of Marzal",
-      "Legion Membership)",
+      "Benefício 4 (Champion of Marzal, Legion Membership)",
       "Ataque Defensivo",
       "Equipamento 8",
       "Ataque Poderoso"
@@ -88,11 +87,11 @@
     "complicacoes": [
       {
         "titulo": "a rr ogant",
-        "texto": "Tyroc is very self-assured and can be difficult to get along with. Motivation— r esponsibility : Tyroc recognizes that his Powers come with a duty to help others... especially the people of Marzal."
+        "texto": "Tyroc is very self-assured e can be difficult to get along com. Motivation— r esponsibility : Tyroc recognizes that his Poderes come com a duty to help others... especially the people of Marzal."
       },
       {
         "titulo": "Perda de Poder",
-        "texto": "All of Tyroc’s Powers emanate from his ability to scream. Anything that prevents that effectively makes him powerless."
+        "texto": "All of Tyroc’s Poderes emanate from his Habilidade to scream. Anything that prevents that effectively makes him powerless."
       }
     ]
   },

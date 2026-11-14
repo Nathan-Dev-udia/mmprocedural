@@ -14,14 +14,14 @@
       "Pre": 0
     },
     "poderes": [
-      "d ilust el Shell (Vigor Aprimorado 6, Força Aprimorada 8, Imunidade 10 (Suporte Vital), Resistência Impenetrável 12, Proteção 4, Ativação (Move, -1 ponto)); Quantum Channeling (Voo 11 (4,0 km/h), Imunidade 20 (Energy Effects, Distrativo, Limitado a Half-Effect, Sustentado), Sentidos 3 (Detect Energy Spectra (Aguçado, Raio))); Quantum Manipulation Arranjo (24 pontos): Quantum Raio (Dano à Distância 12), ae : Control Machines (Aflição à Distância 11 (resistido por Esquiva; Tonto, Compelido, Controlado; Concentração, Limitado a Technological Devices), ae : Quantum Burst (Área de Explosão Dano 11), ae : Quantum Conversion (Deflexão Energy 10 (Reflect, Redirection, Corpo a Corpo Range, Energy Only)), ae : Quantum d isr uption (Área de Explosão Aflição 11 (resistido por Vontade; Tonto, Atordoado; Concentração, Limitado Degree)))"
+      "d ilust el Shell (Vigor Aprimorado 6, Força Aprimorada 8, Imunidade 10 (Suporte Vital), Resistência Impenetrável 12, Proteção 4, Ativação (Move, -1 ponto)); Quantum Channeling (Voo 11 (6.400 km/h), Imunidade 20 (Energia Efeitos, Distrativo, Limitado a Half-Effect, Sustentado), Sentidos 3 (Detectar Energia Spectra (Aguçado, Raio))); Quantum Manipulation Arranjo (24 pontos): Quantum Raio (Dano à Distância 12), ae : Control Máquinas (Aflição à Distância 11 (resistido por Esquiva; Tonto, Compelido, Controlado; Concentração, Limitado a Technological Devices), ae : Quantum Estouro (Área de Explosão Dano 11), ae : Quantum Conversion (Deflexão Energia 10 (Reflect, Redirection, Alcance Perto, Energia Apenas)), ae : Quantum d isr uption (Área de Explosão Aflição 11 (resistido por Vontade; Tonto, Atordoado; Concentração, Limitado Grau)))"
     ],
     "equipamento": [],
     "vantagens": [
       "Duro de Matar",
-      "Move-By Action",
+      "Ação em Movimento",
       "Ataque à Distância 4",
-      "Provocar"
+      "Zombar"
     ],
     "pericias": [
       {
@@ -69,6 +69,18 @@
         "dano": "Dano 12"
       },
       {
+        "nome": "Quantum Estouro",
+        "bonus": null,
+        "alcance": "",
+        "dano": "Área de Explosão, Dano 11"
+      },
+      {
+        "nome": "Quantum Disruption",
+        "bonus": null,
+        "alcance": "",
+        "dano": "Área de Explosão, Aflição 12"
+      },
+      {
         "nome": "Desarmado",
         "bonus": 8,
         "alcance": "Corpo a corpo",
@@ -83,20 +95,26 @@
       "Vontade": 6
     },
     "observacao_defesas": "",
-    "custos": {},
-    "total": null,
+    "custos": {
+      "Habilidades": 26,
+      "Poderes": 113,
+      "Vantagens": 7,
+      "Perícias": 14,
+      "Defesas": 16
+    },
+    "total": 176,
     "complicacoes": [
       {
         "titulo": "Bad a ttitude",
-        "texto": "Bombshell looks down on just about everyone and only grudgingly offers her respect, making her difficult to get along with and Não Confiável when it comes to team tactics. This causes constant friction with the other Teen Titans."
+        "texto": "Bombshell looks down on just about everyone e Apenas grudgingly offers her respect, making her difficult to get along com e Não Confiável when it comes to team Tática. This causes constant friction com the other Teen Titans."
       },
       {
         "titulo": "Crack the Shell",
-        "texto": "Extreme Calor followed by extreme Frio attacks can Enfraquecer her Dilustel shell, making it easy to crack if damaged. Under such conditions, temporarily remove her Resistência Impenetrável and Proteção Powers. Any attacks resulting in two degrees of failure on her Dano resistance check mean the shell is cracked, whereas three degrees of failure shatters the shell temporarily."
+        "texto": "Extreme Calor followed by extreme Frio attacks can Enfraquecer her Dilustel shell, making it easy to crack if damaged. Under such conditions, temporarily remove her Resistência Impenetrável e Proteção Poderes. Any attacks resulting in two Graus of failure on her Dano resistance Teste mean the shell is cracked, whereas three Graus of failure shatters the shell temporarily."
       },
       {
         "titulo": "Perda de Poder",
-        "texto": "Bombshell’s Dilustel shell is not Permanente, and so she loses its benefits and her access to the Quantum Field if the Dilustel is not activated or is somehow negated or dispersed. The shell Vontade also disappear for a time if shattered (see her “Crack the Shell” complication). She has Str 1 and Sta 2 without the shell."
+        "texto": "Bombshell’s Dilustel shell is not Permanente, e so she loses its benefits e her access to the Quantum Field if the Dilustel is not activated or is somehow negated or dispersed. The shell Vontade also disappear for a time if shattered (see her “Crack the Shell” complication). She has Str 1 e Sta 2 sem the shell."
       }
     ]
   },

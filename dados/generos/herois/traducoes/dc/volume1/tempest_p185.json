@@ -14,16 +14,16 @@
       "Pre": 0
     },
     "poderes": [
-      "Defensive Blasts ( Proteção 8, Exige Teste 5 (À Distância Combat: Raio, CD 15), Limitado a only vs. À Distância attacks); Power Bursts (Arranjo (21 pontos), Power Raio (Dano à Distância 10, Variável Descriptor (Calor, Kinetic, Radiação)), AE: Aimed Shot (Deflexão 10), AE: Vortex (Mover Objetos 10)); Propulsion (Voo 6 (192 km/h))"
+      "Defensive Blasts ( Proteção 8, Exige Teste 5 (À Distância Combat: Raio, CD 15), Limitado a Apenas vs. À Distância attacks); Poder Bursts (Arranjo (21 pontos), Poder Raio (Dano à Distância 10, Variável Descriptor (Calor, Kinetic, Radiação)), AE: Aimed Shot (Deflexão 10), AE: Vortex (Mover Objetos 10)); Propulsion (Voo 6 (192 km/h))"
     ],
     "equipamento": [],
     "vantagens": [
-      "Benefit 1 (False ID)",
+      "Benefício 1 (False ID)",
       "Mira Aprimorada",
       "Defesa Aprimorada",
       "Ação em Movimento",
       "Ataque Poderoso",
-      "Precise Attack (à distância; Cover)"
+      "Ataque Preciso (À Distância; Cobertura)"
     ],
     "pericias": [
       {
@@ -42,17 +42,17 @@
         "total": 4
       },
       {
-        "nome": "Especialidade: Medicine",
+        "nome": "Especialidade: Medicina",
         "graduacoes": 6,
         "total": 8
       },
       {
-        "nome": "Especialidade: Military",
+        "nome": "Especialidade: Militar",
         "graduacoes": 2,
         "total": 4
       },
       {
-        "nome": "Especialidade: Streetwise",
+        "nome": "Especialidade: Manha",
         "graduacoes": 4,
         "total": 6
       },
@@ -80,7 +80,7 @@
     "iniciativa": 4,
     "ataques": [
       {
-        "nome": "Power Raio",
+        "nome": "Poder Raio",
         "bonus": 10,
         "alcance": "À distância",
         "dano": "Dano 10"
@@ -99,7 +99,7 @@
       "Resistência": 5,
       "Vontade": 6
     },
-    "observacao_defesas": "*, Vontade 6 *Depends on Defensive Blasts check.",
+    "observacao_defesas": "*, Vontade 6 *Depends on Defensive Blasts Teste.",
     "custos": {
       "Habilidades": 42,
       "Poderes": 36,
@@ -115,11 +115,11 @@
       },
       {
         "titulo": "Relacionamento",
-        "texto": "Tempest is deeply in love with teammate Negative Woman."
+        "texto": "Tempest is deeply in love com teammate Negative Woman."
       },
       {
         "titulo": "Segredo",
-        "texto": "Joshua Clay is a deserter from the U.S. Army living under a false identity. quited romance with Valentina Vostok, AKA Negative Wom - an. Later, it was revealed the sergeant’s own mutant Powers were activated by Joshua’s Raio, and he became Reactron, a foe of the Doom Patrol. Joshua never cared for superheroics, and left the Doom Patrol at the earliest opportunity. He assumed a false identity as Dr. Jonathon Carmichael (having obtained a medical license). He was again pressured into becoming Tempest by Cliff Steele, but his career was brief. He stayed on with the Doom Patrol as medical support despite giving up costumed exploits, sharing a few of the team’s oddest adventures. Niles Caulder murdered Joshua while the Chief was in a psychotic state. But he has already returned on two occasions, the most recent as a Black Lantern."
+        "texto": "Joshua Clay is a deserter from the U.S. Army living under a false identity. quited romance com Valentina Vostok, AKA Negative Wom - an. Later, it was revealed the sergeant’s own mutant Poderes were activated by Joshua’s Raio, e he became Reactron, a foe of the Doom Patrol. Joshua never cared for superheroics, e left the Doom Patrol at the earliest opportunity. He assumed a false identity as Dr. Jonathon Carmichael (having obtained a medical license). He was again pressured into becoming Tempest by Cliff Steele, but his career was brief. He stayed on com the Doom Patrol as medical support despite giving up costumed exploits, sharing a few of the team’s oddest adventures. Niles Caulder murdered Joshua while the Chief was in a psychotic state. But he has already returned on two occasions, the most recent as a Black Lantern."
       }
     ]
   },

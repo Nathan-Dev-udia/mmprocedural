@@ -14,23 +14,23 @@
       "Pre": 2
     },
     "poderes": [
-      "Bite (Força-based Dano 2); d og (Sentidos 4 (Aguçado Smell, Visão na Penumbra, Tracking, Ultra-Audição); Encolhimento 1, Inato, Normal Força, Permanente; Velocidade 3 (25 km/h)); Wonder d og (Compreender 2 (Animals; Speak To, Understand); Característica 1 (Wonder Dog*); Imunidade 2 (Envelhecimento, Doença))"
+      "Bite (Força-based Dano 2); d og (Sentidos 4 (Aguçado Olfato, Visão na Penumbra, Rastrear, Ultra-Audição); Encolhimento 1, Inato, Normal Força, Permanente; Velocidade 3 (25 km/h)); Wonder d og (Compreender 2 (Animais; Speak To, Understand); Característica 1 (Wonder Dog*); Imunidade 2 (Envelhecimento, Doença))"
     ],
     "equipamento": [],
     "vantagens": [
       "Ataque Imprudente",
       "Empatia com Animais",
-      "Beginner’s Luck",
-      "Conectado",
+      "Sorte de Principiante",
+      "Bem Relacionado",
       "Rolamento Defensivo 3",
-      "Evasion",
+      "Evasão",
       "Destemido",
-      "Grande Vigor",
+      "Tolerância Maior",
       "Derrubar Aprimorado",
-      "Ferramentas Improvisadas",
-      "Levantar Rápido",
-      "Jack- of-all-trades",
-      "Languages 4",
+      "Ferramentas Aprimoradas",
+      "De Pé",
+      "Faz Tudo",
+      "Idiomas 4",
       "Sorte 2",
       "Assustar"
     ],
@@ -61,17 +61,17 @@
         "total": 7
       },
       {
-        "nome": "Especialidade: History",
+        "nome": "Especialidade: História",
         "graduacoes": 4,
         "total": 6
       },
       {
-        "nome": "Especialidade: Military",
+        "nome": "Especialidade: Militar",
         "graduacoes": 6,
         "total": 8
       },
       {
-        "nome": "Especialidade: mágico",
+        "nome": "Especialidade: Magia",
         "graduacoes": 3,
         "total": 5
       },
@@ -123,7 +123,7 @@
       "Resistência": 6,
       "Vontade": 8
     },
-    "observacao_defesas": "**, Aparar 10**, Fortitude 8, Resistência 6/3***, Vontade 8 *Rex’s Wonder Dog Característica lets him attempt tasks most dogs just can’t like horse riding, driving, bull-Luta, and so on. GMs may apply penalties for exceptionally unlikely tasks. **Includes Encolhimento modifiers. ***sem Rolamento Defensivo.",
+    "observacao_defesas": "**, Aparar 10**, Fortitude 8, Resistência 6/3***, Vontade 8 *Rex’s Wonder Dog Característica lets him attempt tasks most dogs just can’t like horse riding, driving, bull-Luta, e so on. GMs may apply penalties for exceptionally unlikely tasks. **Includes Encolhimento modifiers. ***sem Rolamento Defensivo.",
     "custos": {
       "Habilidades": 50,
       "Poderes": 20,
@@ -135,7 +135,7 @@
     "complicacoes": [
       {
         "titulo": "d og",
-        "texto": "Rex is a dog and that imposes rather obvious limitations. However, he’s a genius dog that can talk, so these limitations don’t come up much. His Característica (Wonder Dog) lets him attempt tasks he has no business trying as a canine, such as riding a horse or driving a car."
+        "texto": "Rex is a dog e that imposes rather obvious limitations. However, he’s a genius dog that can talk, so these limitations don’t come up much. His Característica (Wonder Dog) lets him attempt tasks he has no Negócios trying as a canine, such as riding a horse or driving a car."
       }
     ]
   },

@@ -17,7 +17,7 @@
     "equipamento": [],
     "vantagens": [
       "Ataque Imprudente",
-      "Conectado",
+      "Bem Relacionado",
       "Improvised Weapons"
     ],
     "pericias": [
@@ -32,7 +32,7 @@
         "total": 5
       },
       {
-        "nome": "Especialidade: Cooking",
+        "nome": "Especialidade: Culinária",
         "graduacoes": 7,
         "total": 8
       },
@@ -63,7 +63,7 @@
         "nome": "Desarmado",
         "bonus": 7,
         "alcance": "",
-        "dano": "(Dano 1)"
+        "dano": "Dano 1"
       }
     ],
     "defesas": {
@@ -89,7 +89,7 @@
       },
       {
         "titulo": "Family Responsibilities",
-        "texto": "Hunkel has only recently rejoined her large and rambunctious family."
+        "texto": "Hunkel has Apenas recently rejoined her large e rambunctious family."
       }
     ]
   },

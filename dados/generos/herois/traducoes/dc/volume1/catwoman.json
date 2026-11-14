@@ -19,30 +19,30 @@
     "equipamento": [
       "Cat’s Claws: Força-based Dano 2 (2 PP)",
       "Cat o’ Nine-Tails: Força-based Dano 2, Improved Grab, Improved Trip, Reach 2 (6 PP)",
-      "Climbing Gear: Movimento 1 (Wall-crawling) (2 PP)",
+      "Climbing Gear: Movimento 1 (Escalar Paredes) (2 PP)",
       "Vehicle: Motorcycle (10 PP)",
       "Medium; Str 1, Velocidade 6, Def 10, Tou 8"
     ],
     "vantagens": [
       "Atraente",
       "Ataque Corpo-a-Corpo 2",
-      "Conectado",
+      "Bem Relacionado",
       "Contatos",
       "Ataque Defensivo",
       "Rolamento Defensivo 3",
       "Equipamento 4",
-      "Evasion",
-      "Esconder-se a Plena Vista",
+      "Evasão",
+      "Esconder-se à Plena Vista",
       "Iniciativa Aprimorada",
-      "Ferramentas Improvisadas",
-      "Levantar Rápido",
-      "Move-by Attack",
-      "Precise Attack (corpo a corpo; Cover)",
+      "Ferramentas Aprimoradas",
+      "De Pé",
+      "Ação em Movimento",
+      "Ataque Preciso (Corpo a Corpo; Cobertura)",
       "Saque Rápido",
       "Ataque à Distância 3",
       "Tomar a Iniciativa",
       "Maestria em Perícia (Prestidigitação)",
-      "Derrubar em Sequência",
+      "Ataque Dominó",
       "Esquiva Fabulosa"
     ],
     "pericias": [
@@ -166,7 +166,7 @@
       },
       {
         "titulo": "Relacionamento",
-        "texto": "Catwoman has strong feelings for Batman that can distract from her other goals. and duct-tape to bind and gag targets before she robs them, for example, and usually has a set of lockpicks on her person. While she prefers a more maneuverable motorcycle (better for the tight alleys of parts of Gotham) she has been known to drive various cars as well, often stolen."
+        "texto": "Catwoman has strong feelings for Batman that can distract from her other goals. e duct-tape to bind e gag targets before she robs them, for example, e usually has a set of lockpicks on her person. While she prefers a more maneuverable motorcycle (better for the tight alleys of parts of Gotham) she has been known to drive various cars as well, often stolen."
       }
     ]
   },

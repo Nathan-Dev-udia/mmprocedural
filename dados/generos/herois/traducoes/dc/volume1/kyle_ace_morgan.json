@@ -23,15 +23,15 @@
       "Equipamento 4",
       "Agarrar Rápido",
       "Destemido",
-      "Grande Vigor",
+      "Tolerância Maior",
       "Desarmar Aprimorado",
       "Imobilizar Aprimorado",
       "Inspirar 3",
-      "Levantar Rápido",
+      "De Pé",
       "Liderança",
       "Ataque Poderoso",
       "Maestria em Perícia (Veículos)",
-      "Derrubar em Sequência",
+      "Ataque Dominó",
       "Trabalho em Equipe"
     ],
     "pericias": [
@@ -61,7 +61,7 @@
         "total": 10
       },
       {
-        "nome": "Combate à Distância: Guns",
+        "nome": "Combate à Distância: Armas de Fogo",
         "graduacoes": 6,
         "total": 12
       },

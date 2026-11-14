@@ -14,15 +14,15 @@
       "Pre": 2
     },
     "poderes": [
-      "Ice Powers (Arranjo (25 pontos), Ice Constructs (Criar Objetos 8 (Contínuo, Inato; AE: Environment 6 (1,800 feet; Extreme Frio, Impede Movimento -2 graduações)), AE: Ice Bonds (Aprisionar 7, Preciso 3), AE: Ice Spears (Dano à Distância 11, Preciso); Voo 3 (25 km/h, Platform); Imunidade (Frio) ; Proteção 4"
+      "Gelo Poderes (Arranjo (25 pontos), Gelo Constructs (Criar Objetos 8 (Contínuo, Inato; AE: Ambiente 6 (1,800 pés; Extreme Frio, Impede Movimento -2 graduações)), AE: Gelo Bonds (Aprisionar 7, Acurado 3), AE: Gelo Spears (Dano à Distância 11, Acurado); Voo 3 (25 km/h, Platform); Imunidade (Frio) ; Proteção 4"
     ],
     "equipamento": [],
     "vantagens": [
       "Ataque Corpo-a-Corpo 2",
       "Rolamento Defensivo 2",
-      "Ambiente Favorito (Ice/Frio)",
+      "Ambiente Favorito (Gelo/Frio)",
       "Ataque Poderoso",
-      "Provocar"
+      "Zombar"
     ],
     "pericias": [
       {
@@ -46,7 +46,7 @@
         "total": 4
       },
       {
-        "nome": "Combate à Distância: Ice Powers",
+        "nome": "Combate à Distância: Gelo Poderes",
         "graduacoes": 6,
         "total": 9
       },
@@ -64,13 +64,13 @@
     "iniciativa": 3,
     "ataques": [
       {
-        "nome": "Ice Spears",
+        "nome": "Gelo Spears",
         "bonus": 11,
         "alcance": "",
         "dano": "Dano 11"
       },
       {
-        "nome": "Ice Bonds",
+        "nome": "Gelo Bonds",
         "bonus": 15,
         "alcance": "",
         "dano": "Aprisionar 7"

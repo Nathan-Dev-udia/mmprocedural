@@ -14,31 +14,31 @@
       "Pre": 3
     },
     "poderes": [
-      "Dove Form: mágico, 67 pontos, Ativação (Ação de Movimento, –1 ponto) (66 PP)",
-      "Avatar of Peace: Enhanced Advantage 6 (Agile Feint, Diehard, Improved Trip, Instant Up, Move-by Action, Uncanny Esquiva), Agilidade Aprimorada 6; Vigor Aprimorado 5; Força Aprimorada 2; Característica 1 (costume is Inato) (33 PP)",
-      "Hyperawareness: Prontidão Aprimorada 4; Sentidos 9 (Preciso mental 4, Sentido de Perigo (mental), Extended (Presença Prontidão), mágico Prontidão (mental), Presença Prontidão (mental), Tracking (mágico Prontidão)) (17 PP)",
+      "Dove Form: Magia, 67 pontos, Ativação (Ação de Movimento, -1 ponto) (66 PP)",
+      "Avatar of Peace: Vantagem Aprimorada 6 (Finta Ágil, Duro de Matar, Derrubar Aprimorado, De Pé, Ação em Movimento, Esquiva Fabulosa), Agilidade Aprimorada 6; Vigor Aprimorado 5; Força Aprimorada 2; Característica 1 (costume is Inato) (33 PP)",
+      "Hyperawareness: Prontidão Aprimorada 4; Sentidos 9 (Acurado Mental 4, Sentido de Perigo (Mental), Estendido (Presença Consciência), Consciência Mágica (Mental), Presença Consciência (Mental), Rastrear (Consciência Mágica)) (17 PP)",
       "Resilience: Regeneração 5; Imunidade (Black Lantern possession) 1 (6 PP)",
       "Dove Wings: Voo 3 (25 km/h) (6 PP)",
-      "White Light of Creation: Área de Explosão Aflição 10 (White emotional spectrum; resistido por Esquiva; Visual Impaired, Visual Disabled, Visual Unaware), Limitado a only in magical dimensions (5 PP)"
+      "White Luz of Creation: Área de Explosão Aflição 10 (White emotional spectrum; resistido por Esquiva; Visual Prejudicado, Visual Desabilitado, Visual Desatento), Limitado a Apenas in Mágico dimensions (5 PP)"
     ],
     "equipamento": [],
     "vantagens": [
       "Finta Ágil",
       "Avaliação",
-      "Benefit 1 (Well-off)",
+      "Benefício 1 (Abastado)",
       "Ataque Defensivo",
       "Duro de Matar",
-      "Evasion",
+      "Evasão",
       "Defesa Aprimorada",
       "Iniciativa Aprimorada 2",
       "Derrubar Aprimorado",
       "Inspirar",
-      "Levantar Rápido",
+      "De Pé",
       "Liderança",
       "Ação em Movimento",
       "Redirecionar",
-      "Preparar",
-      "Segunda Chance (Dodge resistance checks)",
+      "Armação",
+      "Segunda Chance (Esquiva resistance Testes)",
       "Maestria em Perícia (Intuição)",
       "Maestria em Perícia (Percepção)",
       "Trabalho em Equipe",
@@ -109,11 +109,11 @@
     "complicacoes": [
       {
         "titulo": "Locked Form",
-        "texto": "While Dove has a -5 penalty to Resistência checks against Dano or suffering a harmful condition, she cannot transform back into Dawn Granger."
+        "texto": "While Dove has a -5 penalty to Resistência Testes contra Dano or suffering a harmful condition, she cannot Transformar back into Dawn Granger."
       },
       {
         "titulo": "Pacifism",
-        "texto": "Dove Vontade always try to resolve things without entering combat."
+        "texto": "Dove Vontade always try to resolve things sem entering combat."
       }
     ]
   },

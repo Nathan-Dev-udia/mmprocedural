@@ -14,15 +14,15 @@
       "Pre": 1
     },
     "poderes": [
-      "Sonic Crystal ( e nergy Raio (Dano à Distância 13, Preciso 2), f ligh t 7 (400 km/h)); t alok ian Physiology (Resistência Impenetrável 8, Proteção 6, Regeneração 3)"
+      "Sônico Crystal ( e nergy Raio (Dano à Distância 13, Acurado 2), f Luz 7 (400 km/h)); t alok ian Physiology (Resistência Impenetrável 8, Proteção 6, Regeneração 3)"
     ],
     "equipamento": [],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Ataque Corpo-a-Corpo 5",
       "Agarrar Rápido",
-      "Grande Vigor",
-      "Improved Critical 2 (Energy Blast)",
+      "Tolerância Maior",
+      "Crítico Aprimorado 2 (Energia Blast)",
       "Imobilizar Aprimorado",
       "Quebrar Aprimorado",
       "Interpor-se",
@@ -53,10 +53,10 @@
     "iniciativa": 4,
     "ataques": [
       {
-        "nome": "Sonic Crystal",
+        "nome": "Sônico Crystal",
         "bonus": 7,
         "alcance": "À distância",
-        "dano": "Dano 13, Crit. 18-20"
+        "dano": "Dano 13, Crít. 18-20"
       },
       {
         "nome": "Desarmado",
@@ -84,7 +84,7 @@
     "complicacoes": [
       {
         "titulo": "Justice",
-        "texto": "Mikaal becomes a hero in order to defend the people of Earth from his own race, which sent him here to help them conquer it. Later, after his partner Tony is killed, he’s motivated to bring the killers to justice. a lien: M ikaal is an alien with blue skin, dark eyes, and a slightly androgynous look."
+        "texto": "Mikaal becomes a hero in order to defend the people of Earth from his own race, which sent him here to help them conquer it. Later, after his partner Tony is killed, he’s motivated to bring the killers to justice. a lien: M ikaal is an alien com blue skin, dark eyes, e a slightly androgynous look."
       }
     ]
   },

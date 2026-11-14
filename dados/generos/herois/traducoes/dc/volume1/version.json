@@ -14,13 +14,13 @@
       "Pre": 0
     },
     "poderes": [
-      "Comunicação 4 (Rádio), Compreender Machines 2 ; Imunidade 30 (Fortitude Effects); Intangibilidade 4 (Hologram; Intangibilidade; Permanente, Inato); Cyberconnection Powers Arranjo (31 pontos): Controle mental 10 (Sutil, Limitado a Machines), AE: Leitura mental 10 (Cumulativo, Effortless, Sutil, Limitado a Machines), AE: Remote Sensing 10 (All Sentidos, Medium: Sensor Devices); Proteção 5"
+      "Comunicação 4 (Rádio), Compreender Máquinas 2 ; Imunidade 30 (Efeitos de Fortitude); Intangibilidade 4 (Hologram; Intangibilidade; Permanente, Inato); Cyberconnection Poderes Arranjo (31 pontos): Controle Mental 10 (Sutil, Limitado a Máquinas), AE: Leitura Mental 10 (Cumulativo, Effortless, Sutil, Limitado a Máquinas), AE: Sensoriamento Remoto 10 (All Sentidos, Medium: Sensor Devices); Proteção 5"
     ],
     "equipamento": [],
     "vantagens": [
       "Memória Eidética",
       "Destemido",
-      "Bem-Informado"
+      "Bem Informado"
     ],
     "pericias": [
       {
@@ -29,7 +29,7 @@
         "total": 8
       },
       {
-        "nome": "Especialidade: Computers",
+        "nome": "Especialidade: Computação",
         "graduacoes": 10,
         "total": 20
       },
@@ -59,6 +59,7 @@
     "defesas": {
       "Esquiva": 5,
       "Aparar": 5,
+      "Fortitude": null,
       "Resistência": 5,
       "Vontade": 12
     },

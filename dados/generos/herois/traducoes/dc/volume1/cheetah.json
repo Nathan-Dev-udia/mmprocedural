@@ -15,23 +15,23 @@
     },
     "poderes": [
       "Claws: Força-based Dano 4, Penetrante 6 (10 PP)",
-      "Heightened Sentidos: Sentidos 6 (Visão no Escuro, Visão na Penumbra, Scent, Track, Ultra-Audição) (6 PP)",
+      "Heightened Sentidos: Sentidos 6 (Visão no Escuro, Visão na Penumbra, Scent, Rastrear, Ultra-Audição) (6 PP)",
       "Human Guise: Metamorfose 1 (5 PP)",
-      "Super-Velocidade: Enhanced Advantage (Improved Iniciativa 5), Rapidez 5, Velocidade 8 (800 km/h) (18 PP)",
-      "Tail: Extra Limbs 1 (1 PP)"
+      "Super-Velocidade: Vantagem Aprimorada (Iniciativa Aprimorada 5), Rapidez 5, Velocidade 8 (800 km/h) (18 PP)",
+      "Tail: Membros Extras 1 (1 PP)"
     ],
     "equipamento": [],
     "vantagens": [
       "Finta Ágil",
       "Ataque Imprudente",
       "Rolamento Defensivo 3",
-      "Crítico Aprimorado (Claws)",
+      "Crítico Aprimorado (Garras)",
       "Iniciativa Aprimorada 5",
       "Derrubar Aprimorado",
-      "Levantar Rápido",
-      "Languages 3",
+      "De Pé",
+      "Idiomas 3",
       "Ataque Poderoso",
-      "Luta Caída",
+      "Luta no Chão",
       "Esquiva Fabulosa"
     ],
     "pericias": [
@@ -87,7 +87,7 @@
         "nome": "Claws",
         "bonus": 13,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 11, Penetrante 6, Crit. 19-20"
+        "dano": "Dano 11, Penetrante 6, Crít. 19-20"
       }
     ],
     "defesas": {
@@ -109,11 +109,11 @@
     "complicacoes": [
       {
         "titulo": "Bloodlust",
-        "texto": "The Cheetah is a fierce and bloodthirsty foe, sometimes losing herself to her animal instincts."
+        "texto": "The Cheetah is a fierce e bloodthirsty foe, sometimes losing herself to her animal instincts."
       },
       {
         "titulo": "Obsessão",
-        "texto": "The Cheetah is obsessed with obtaining items of historical and cultural value and with revenge against Wonder Woman."
+        "texto": "The Cheetah is obsessed com obtaining items of historical e cultural value e com revenge contra Wonder Woman."
       }
     ]
   },

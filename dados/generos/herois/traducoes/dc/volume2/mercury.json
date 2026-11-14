@@ -14,7 +14,7 @@
       "Pre": 1
     },
     "poderes": [
-      "r obot Body (Imunidade 40 (Fortitude effects, mental effects); Proteção 12, Impenetrável), Shapeshifting (Alongamento 6; Metamorfose 4 (any form), Peculiaridade: Limitado a Same Color; Variável 2 (physical traits, 10 power pontos, plus changing existing physical trait allocations)"
+      "r obot Body (Imunidade 40 (Efeitos de Fortitude, Efeitos Mentais); Proteção 12, Impenetrável), Shapeshifting (Alongamento 6; Metamorfose 4 (any form), Peculiaridade: Limitado a Same Color; Variável 2 (physical traits, 10 Poder pontos, plus changing existing physical trait allocations)"
     ],
     "equipamento": [],
     "vantagens": [
@@ -35,6 +35,7 @@
     "defesas": {
       "Esquiva": 8,
       "Aparar": 8,
+      "Fortitude": null,
       "Resistência": 12,
       "Vontade": 6
     },
@@ -54,7 +55,7 @@
       },
       {
         "titulo": "Protector",
-        "texto": "Iron knows he’s the strongest and often takes the lead in battle to protect others from harm."
+        "texto": "Iron knows he’s the strongest e often takes the lead in battle to protect others from harm."
       }
     ]
   },

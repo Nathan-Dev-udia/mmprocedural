@@ -53,9 +53,9 @@
     ],
     "poderes": [
       "**Fisiologia Viltrumitana**: 34 pontos",
-      "• **Saúde Viltrumitana**: Imunidade 1 (Doenças), Imunidade 4 (Envelhecimento, Sufocamento 2, Venenos. **Falhas**: Limitado a Metade do Efeito \\-1), Regeneração 2, Resistência Impenetrável 10; 15 pontos",
+      "• **Saúde Viltrumitana**: Imunidade 1 (Doenças), Imunidade 4 (Envelhecimento, Sufocamento 2, Venenos. **Falhas**: Limitado a Metade do Efeito -1), Regeneração 2, Resistência Impenetrável 10; 15 pontos",
       "• **Seguro para o Espaço**: Imunidade 4 (Calor, Frio, Pressão, Vácuo), Movimento 1 (Viagem Espacial); 6 pontos",
-      "• **Tijolo Voador**: Voo 7 (1 km/mov \\- 500 km/h); 14 pontos"
+      "• **Tijolo Voador**: Voo 7 (1 km/mov - 500 km/h); 14 pontos"
     ],
     "equipamento": [],
     "iniciativa": 6,

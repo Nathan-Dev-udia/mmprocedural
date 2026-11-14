@@ -14,16 +14,16 @@
       "Pre": 2
     },
     "poderes": [
-      "Bouncing ( Teleportation 20 (4,000 milhas; Preciso, Change Direction, Changed Velocity, Easy, Extended, Turn About, Limitado: Can’t Teleporte Other Organic Matter); Cura 6 (Source: Must Teleporte First); Camuflagem 10 (Limitado: Machine Only))"
+      "Bouncing ( Teleportation 20 (4,000 milhas; Acurado, Change Direction, Changed Velocity, Easy, Estendido, Turn About, Limitado: Can’t Teleporte Other Organic Matter); Cura 6 (Source: Must Teleporte First); Camuflagem 10 (Limitado: Machine Apenas))"
     ],
     "equipamento": [
-      "Batarangue: À Distância Força Dano 8, Batline: Movimento 1 (Swinging)"
+      "Batarangue: À Distância Força Dano 8, Batline: Movimento 1 (Balançar-se)"
     ],
     "vantagens": [
       "Ataque Defensivo",
       "Rolamento Defensivo 3",
       "Equipamento 2",
-      "Evasion",
+      "Evasão",
       "Interpor-se",
       "Ação em Movimento",
       "Ataque Poderoso",
@@ -85,11 +85,11 @@
     "complicacoes": [
       {
         "titulo": "Responsibilities",
-        "texto": "To Oracle and the Birds of Prey."
+        "texto": "To Oracle e the Birds of Prey."
       },
       {
         "titulo": "Rivalidade",
-        "texto": "With Black Alice."
+        "texto": "com Black Alice."
       }
     ]
   },

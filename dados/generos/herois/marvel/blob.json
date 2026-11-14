@@ -30,10 +30,10 @@
       "Vontade": 0
     },
     "pericias": {
-      "Enganacao": 14,
-      "Intimidacao": 14,
-      "Percepcao": 8,
-      "Intuicao": 8
+      "Enganação": 14,
+      "Intimidação": 14,
+      "Percepção": 8,
+      "Intuição": 8
     },
     "vantagens": [
       "Ataque Imprudente",
@@ -46,7 +46,7 @@
       "Ataque Poderoso",
       "Zombar",
       "Trabalho em Equipe",
-      "Esforço Supremo (Ultimate Toughness)"
+      "Esforço Supremo (Ultimate Resistência)"
     ],
     "poderes": [
       {
@@ -72,7 +72,7 @@
       },
       {
         "nome": "Super Strength",
-        "construcao_3e": "Super-Força / Power-Lifting 5 (5 PP).",
+        "construcao_3e": "Super-Força / Levantamento de Peso 5 (5 PP).",
         "custo_2e_pp": 25,
         "custo_3e_pp": 5,
         "nome_pt": "Super-Força"

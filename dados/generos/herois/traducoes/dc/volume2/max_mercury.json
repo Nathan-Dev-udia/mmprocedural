@@ -16,8 +16,8 @@
     "poderes": [
       "Molecular Control: Intangibilidade 4 (20 PP)",
       "Velocidade- f or ce a ur a: Imunidade 1 (Friction Calor) (1 PP)",
-      "Super-Velocidade: Enhanced Defenses 18 (Esquiva and Aparar 9); Enhanced Advantages 24 (Agile Feint, Corpo a Corpo Attack 4, Defensive Roll 4, Evasion 2, Improved Iniciativa 8, Interpose, Instant Up, Move-by Action, Seize Iniciativa, Takedown); Característica 1 (Quick Change); Movimento 3 (Wall-crawling 2, Water Walking), Limitado a While Moving; Rapidez 15; Velocidade 15 (64,0 km/h) (73 PP)",
-      "d a e S a V ant G Agile Feint , Benefit 1 (Cipher), Corpo a Corpo Attack 4 , Defensive Roll 4, Evasion 2 , Improved Iniciativa 8 , Interpose , Instant Up , Languages 3 (Cantonese, Japanese, Mandarin, Russian), Move-by Action , Seize Iniciativa , Takedown"
+      "Super-Velocidade: Defesas Aprimoradas 18 (Esquiva e Aparar 9); Vantagens Aprimoradas 24 (Finta Ágil, Ataque Corpo-a-Corpo 4, Rolamento Defensivo 4, Evasão 2, Iniciativa Aprimorada 8, Interpor-se, De Pé, Ação em Movimento, Tomar a Iniciativa, Ataque Dominó); Característica 1 (Quick Change); Movimento 3 (Escalar Paredes 2, Andar na Água), Limitado a Enquanto se Move; Rapidez 15; Velocidade 15 (102.400 km/h) (73 PP)",
+      "d a e S a V ant G Finta Ágil , Benefit 1 (Cipher), Corpo a Corpo Attack 4 , Rolamento Defensivo 4, Evasão 2 , Iniciativa Aprimorada 8 , Interpor-se , De Pé , Languages 3 (Cantonese, Japanese, Mandarin, Russian), Ação em Movimento , Tomar a Iniciativa , Ataque Dominó"
     ],
     "equipamento": [],
     "vantagens": [],
@@ -43,12 +43,12 @@
         "total": 6
       },
       {
-        "nome": "Especialidade: American Indian Culture & History",
+        "nome": "Especialidade: American Indian Culture & História",
         "graduacoes": 9,
         "total": 12
       },
       {
-        "nome": "Especialidade: Chemistry",
+        "nome": "Especialidade: Química",
         "graduacoes": 4,
         "total": 7
       },
@@ -83,8 +83,15 @@
         "total": 7
       }
     ],
-    "iniciativa": 0,
-    "ataques": [],
+    "iniciativa": 35,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2"
+      }
+    ],
     "defesas": {
       "Esquiva": 16,
       "Fortitude": 10,

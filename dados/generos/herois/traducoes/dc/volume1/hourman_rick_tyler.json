@@ -14,25 +14,25 @@
       "Pre": 4
     },
     "poderes": [
-      "Flash Forward Hourglass: Sentidos 4 (Precognition), Limitado (only 1 hour into the future), Removível, Uncontrolled (1 PP)",
+      "Flash Forward Hourglass: Sentidos 4 (Precognição), Limitado (Apenas 1 hour into the future), Removível, Descontrolado (1 PP)",
       "Timepoint: Movimento 1 (Dimension Travel: Timepoint) (2 PP)",
-      "Miraclo Injection: Ativação (Ação de Movimento, –1 ponto) (46 PP)",
-      "Enhanced Performance: Enhanced Advantages 3 (Extraordinary Effort, Great Endurance, Ultimate Skill (Athletics)) (3 PP)",
+      "Miraclo Injection: Ativação (Ação de Movimento, -1 ponto) (46 PP)",
+      "Aprimorado Performance: Vantagens Aprimoradas 3 (Esforço Extraordinário, Tolerância Maior, Ultimate Perícia (Atletismo)) (3 PP)",
       "Jump to the Rooftops: Salto 2; Velocidade 3 (25 km/h) (5 PP)",
       "Miraclo Força: Força Aprimorada 6 (12 PP)",
       "Miraclo Vigor: Vigor Aprimorado 6 (12 PP)",
-      "Miraclo Agilidade: Agilidade Aprimorada 6, Enhanced Defenses 3 (Aparar 3) (15 PP)"
+      "Miraclo Agilidade: Agilidade Aprimorada 6, Defesas Aprimoradas 3 (Aparar 3) (15 PP)"
     ],
     "equipamento": [],
     "vantagens": [
       "Ataque Imprudente",
-      "Benefit 3 (Millionaire)",
+      "Benefício 3 (Milionário)",
       "Estrangular",
       "Esforço Extraordinário",
-      "Grande Vigor",
+      "Tolerância Maior",
       "Ataque Poderoso",
       "Tomar a Iniciativa",
-      "Ultimate Skill (Athletics) Skills** Acrobatics 8 (+17/+11*)",
+      "Ultimate Skill (Atletismo) Skills** Acrobatics 8 (+17/+11*)",
       "Athletics 10 (+19/+13*)",
       "Close Combat: Unarmed 6 (+9)",
       "Insight 6 (+8)",
@@ -64,7 +64,7 @@
       "Resistência": 9,
       "Vontade": 6
     },
-    "observacao_defesas": "* Fortitude 10/4* Aparar 9/6* Resistência 9/3* Vontade 6 * Without Miraclo Injection.",
+    "observacao_defesas": "* Fortitude 10/4* Aparar 9/6* Resistência 9/3* Vontade 6 * sem Miraclo Injection.",
     "custos": {
       "Habilidades": 46,
       "Perícias": 25,
@@ -80,11 +80,11 @@
       },
       {
         "titulo": "Hour of Power",
-        "texto": "Once Hourman takes a Miraclo injection, his Powers last exactly an hour, and no more. In addition, he can’t take another injection for a full day. Travel to Timepoint is also Limitado a one hour."
+        "texto": "Once Hourman takes a Miraclo injection, his Poderes last exactly an hour, e no more. In addition, he can’t take another injection for a full day. Travel to Timepoint is also Limitado a one hour."
       },
       {
         "titulo": "Power Couple",
-        "texto": "Rick Tyler fell in love and married another legacy hero—Jesse Chambers, the daughter of Johnny Quick and Liberty Belle. Together they joined the Justice Society and mentor other young heroes."
+        "texto": "Rick Tyler fell in love e married another legacy hero—Jesse Chambers, the daughter of Johnny Quick e Liberty Belle. Together they joined the Justice Society e mentor other young heroes."
       }
     ]
   },

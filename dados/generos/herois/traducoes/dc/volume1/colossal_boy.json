@@ -14,17 +14,17 @@
       "Pre": 2
     },
     "poderes": [
-      "Colossal Size: Crescimento 12 Linked to Enhanced Advantage 7 (Daze (Intimidation), Fast Grab, Improved Grab, Interpose, Startle, Takedown 2) (31 PP)",
-      "Colossal Endurance: Proteção 2 Linked 1 graduação of Proteção to each 6 graduações of Crescimento (1 PP)"
+      "Colossal Size: Crescimento 12 Ligado a Vantagem Aprimorada 7 (Daze (Intimidação), Fast Grab, Improved Grab, Interpor-se, Startle, Ataque Dominó 2) (31 PP)",
+      "Colossal Endurance: Proteção 2 Ligado 1 graduação of Proteção to each 6 graduações of Crescimento (1 PP)"
     ],
     "equipamento": [
       "Voo Ring: Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal (-3)); Voo 7 (400 km/h); Removível (-3 pontos) (16 PP)",
-      "Telepathic Plug: Compreender 3 (Languages), mental Comunicação 1 (Corpo a Corpo Range), Removível (-1 ponto) (7 PP)",
-      "Transsuit: Imunidade 9 (Suporte Vital, except for Inanição and thirst), Removível (–2 ponto) (7 PP)"
+      "Telepathic Plug: Compreender 3 (Languages), Comunicação Mental 1 (Alcance Perto), Removível (-1 ponto) (7 PP)",
+      "Transsuit: Imunidade 9 (Suporte Vital, except for Fome e Sede), Removível (-2 ponto) (7 PP)"
     ],
     "vantagens": [
-      "Ataque Preciso",
-      "Benefit 1 (Legion membership)",
+      "Ataque Acurado",
+      "Benefício 1 (Legion membership)",
       "Tontear (Intimidação)",
       "Equipamento 6",
       "Agarrar Rápido",
@@ -51,7 +51,7 @@
         "total": 4
       },
       {
-        "nome": "Especialidade: Law Enforcement",
+        "nome": "Especialidade: Policiamento",
         "graduacoes": 5,
         "total": 6
       },
@@ -108,7 +108,7 @@
       "Resistência": 16,
       "Vontade": 6
     },
-    "observacao_defesas": "* Fortitude 14/2* Aparar 4/10* Resistência 16/2* Vontade 6 *Without Crescimento.",
+    "observacao_defesas": "* Fortitude 14/2* Aparar 4/10* Resistência 16/2* Vontade 6 *sem Crescimento.",
     "custos": {
       "Habilidades": 36,
       "Perícias": 19,
@@ -120,7 +120,7 @@
     "complicacoes": [
       {
         "titulo": "Loyalty",
-        "texto": "Colossal Boy is protective of those he loves, be they family or teammates, and this loyalty can be used against him."
+        "texto": "Colossal Boy is protective of those he loves, be they family or teammates, e this loyalty can be used contra him."
       }
     ]
   },

@@ -20,13 +20,13 @@
       "• Chain Lightning: Dano à Distância 10 (Dividido 4) (1 PP)",
       "• Lightning Punch: Força-based Dano 12 (1 PP)",
       "• Lightning Storm: Área de Explosão Dano 10 (1 PP)",
-      "Lightning i mmunit y: Imunidade (Electrical Effects) (10 PP)",
+      "Lightning i mmunit y: Imunidade (Elétrico Efeitos) (10 PP)",
       "Lightning Escudo: Dano 8 (Reação) (32 PP)"
     ],
     "equipamento": [
-      "f ligh t r ing: Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal –3); Voo 7 (400 km/h) (19 PP)",
-      "t elepa thic e ar Plug: Compreender 3 (Languages), mental Comunicação 1 (Corpo a Corpo Range) (10 PP)",
-      "t r anssuit: Imunidade 9 (Suporte Vital, except for Inanição and thirst) (9 PP)"
+      "f Luz r ing: Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal -3); Voo 7 (400 km/h) (19 PP)",
+      "t elepa thic e ar Plug: Compreender 3 (Languages), Comunicação Mental 1 (Alcance Perto) (10 PP)",
+      "t r anssuit: Imunidade 9 (Suporte Vital, except for Fome e Sede) (9 PP)"
     ],
     "vantagens": [
       "Benefício (Legion Membership)",
@@ -35,9 +35,8 @@
       "Equipamento 8",
       "Inventor",
       "Ataque Poderoso",
-      "Precise Attack (Ranged",
-      "Cover)",
-      "Provocar"
+      "Ataque Preciso (À Distância, Cobertura)",
+      "Zombar"
     ],
     "pericias": [
       {
@@ -139,7 +138,7 @@
     "complicacoes": [
       {
         "titulo": "i mpulsiv e",
-        "texto": "Garth can be very impulsive, Salto into situations before thinking them through clearly, often landing himself and his team-mates in hot water. r omance: Garth is married to Saturn Girl, and though he loves her deeply, he often clashes with her opinions regarding authority. He especially dislikes how Saturn Girl Vontade often side with Cosmic Boy on decisions."
+        "texto": "Garth can be very impulsive, Salto into situations before thinking them through clearly, often landing himself e his team-mates in hot water. r omance: Garth is married to Saturn Girl, e though he loves her deeply, he often clashes com her opinions regarding authority. He especially dislikes how Saturn Girl Vontade often side com Cósmico Boy on decisions."
       }
     ]
   },

@@ -14,7 +14,7 @@
       "Pre": 2
     },
     "poderes": [
-      "a str al Projection (Remote Sensing 11 (8 milhas; Visual, Auditory, mental), Body is Indefeso, Sutil 2, ae : Levitation (Voo 4 (48 km/h)) and Mystic Escudo (Proteção 8, Impenetrável, bilities Sustentado ) ; Mystic a (Arranjo (18 pontos), Mystic Raio (Dano à Distância 9), ae : Mage Hand (Mover Objetos 8, Preciso)); Mystic Sentidos (Sentidos 2 (Magical Prontidão, Raio))"
+      "a str al Projection (Sensoriamento Remoto 11 (8 milhas; Visual, Auditivo, Mental), Body is Indefeso, Sutil 2, ae : Levitation (Voo 4 (48 km/h)) e Místico Escudo (Proteção 8, Impenetrável, bilities Sustentado ) ; Místico a (Arranjo (18 pontos), Místico Raio (Dano à Distância 9), ae : Mage Hand (Mover Objetos 8, Preciso)); Místico Sentidos (Sentidos 2 (Mágico Consciência, Raio))"
     ],
     "equipamento": [],
     "vantagens": [
@@ -27,7 +27,7 @@
         "total": 7
       },
       {
-        "nome": "Especialidade: mágico",
+        "nome": "Especialidade: Magia",
         "graduacoes": 6,
         "total": 8
       },
@@ -47,7 +47,7 @@
         "total": 6
       },
       {
-        "nome": "Combate à Distância: Mystic Abilities",
+        "nome": "Combate à Distância: Místico Habilidades",
         "graduacoes": 5,
         "total": 7
       }
@@ -55,7 +55,7 @@
     "iniciativa": 2,
     "ataques": [
       {
-        "nome": "Mystic Raio",
+        "nome": "Místico Raio",
         "bonus": 7,
         "alcance": "À distância",
         "dano": "Dano 9"
@@ -74,7 +74,7 @@
       "Resistência": 10,
       "Vontade": 8
     },
-    "observacao_defesas": "*, Vontade 8 *Without Mystic Escudo.",
+    "observacao_defesas": "*, Vontade 8 *sem Místico Escudo.",
     "custos": {
       "Habilidades": 36,
       "Poderes": 57,
@@ -86,11 +86,11 @@
     "complicacoes": [
       {
         "titulo": "a entice",
-        "texto": "Warlock’s Daughter has been apprentice to a couple of powerful mystics, both of whom hold significant power over her path to the future. Where she ends up is still a mystery."
+        "texto": "Warlock’s Daughter has been apprentice to a couple of powerful mystics, both of whom hold significant Poder over her path to the future. Where she ends up is still a mystery."
       },
       {
         "titulo": "Supernatural Being",
-        "texto": "Murdered then resurrected at the cost of her father’s life, Warlock’s Daughter is still coping with what she’s become."
+        "texto": "Murdered then resurrected at the cost of her father’s life, Warlock’s Daughter is still coping com what she’s become."
       }
     ]
   },

@@ -15,18 +15,18 @@
     },
     "poderes": [
       "d Imunidade 10 (Suporte Vital); Imortalidade 1; ilust el Covering: Resistência Impenetrável 14; Proteção 2 (28 PP)",
-      "Quantum Channeling : Power-lifting 5 (Lifting Str 22; 100,000 tons), Voo 12 (8,0 km/h), Salto 9, Regeneração 1 (Persistent) (40 PP)",
+      "Quantum Channeling : Levantamento de Peso 5 (Lifting Str 22; 100,000 toneladas), Voo 12 (12.800 km/h), Salto 9, Regeneração 1 (Persistent) (40 PP)",
       "Quantum Manipulation: Arranjo (32 pontos)",
-      "• d ark Matter Raio: Dano à Distância 14, Preciso 2, Dividido 2 (32 PP)",
+      "• d ark Matter Raio: Dano à Distância 14, Acurado 2, Dividido 2 (32 PP)",
       "• d ark Matter Constructs: Criar Objetos 7 (Contínuo, Movable, Preciso) (1 PP)",
-      "• Quantum Raio: Dano à Distância 17 (Diminished Range, Inaccurate) (1 PP)",
-      "• Quantum Burst: Área de Explosão 2 (60 feet) Dano 10 (1 PP)",
-      "• Quantum d ain: Enfraquecer All Electromagnetic Energy r Powers 6, Broad (all EM Energy), Concentração, Progressivo (1 PP)"
+      "• Quantum Raio: Dano à Distância 17 (Alcance Diminuído, Inaccurate) (1 PP)",
+      "• Quantum Estouro: Área de Explosão 2 (60 pés) Dano 10 (1 PP)",
+      "• Quantum d ain: Enfraquecer All Electromagnetic Energia r Poderes 6, Amplo (all EM Energia), Concentração, Progressivo (1 PP)"
     ],
     "equipamento": [],
     "vantagens": [
       "Ataque Imprudente",
-      "Benefício (Security Clearance)",
+      "Benefício (Credencial de Segurança)",
       "Ataque Poderoso",
       "Ataque à Distância 9"
     ],
@@ -47,7 +47,7 @@
         "total": 2
       },
       {
-        "nome": "Especialidade: Military Science",
+        "nome": "Especialidade: Militar Ciência",
         "graduacoes": 3,
         "total": 3
       },

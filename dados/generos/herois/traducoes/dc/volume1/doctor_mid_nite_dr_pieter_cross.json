@@ -15,25 +15,25 @@
     },
     "poderes": [
       "Blindsight: Sentidos 4 (Visão no Escuro, Infravisão, Ultravisão), Inato (5 PP)",
-      "Blackout Bombs: Visual Camuflagem 2 (Normal Sight), Área de Nuvem 2 (30 feet), Attack, Contracted Range 2, Peculiaridade: Can be blown away by strong winds, etc. even while being Sustentado (-1 ponto), Removível (-2 pontos) (7 PP)",
+      "Blackout Bombs: Visual Camuflagem 2 (Normal Visão), Área de Nuvem 2 (30 pés), Attack, Contracted Range 2, Peculiaridade: Can be blown away by strong winds, etc. even while being Sustentado (-1 ponto), Removível (-2 pontos) (7 PP)",
       "Goggles: Característica 1 (Compensate for blindness), Removível (1 PP)",
-      "Medical Gauntlets: Arranjo (12 pontos), Removível (–3 pontos) • Surgical Laser: Dano à Distância 5, Preciso, Preciso (12 PP)",
+      "Medical Gauntlets: Arranjo (12 pontos), Removível (-3 pontos) • Surgical Laser: Dano à Distância 5, Acurado, Preciso (12 PP)",
       "• Anesthetic Spray: Cumulativo Aflição 5 (resistido por Fortitude; Fatigado, Exausto, Adormecido), Reach 2 (1 PP)",
-      "• Pharmaceutical Injector: Enhanced Skill 8 (Treatment +8) (1 PP)",
-      "Night-Luta: Enhanced Skill 8 (Deception +8), Limitado: Only for use with Redirect, Limitado: Only in Camuflagem (1 PP)"
+      "• Pharmaceutical Injector: Perícia Aprimorada 8 (Tratamento +8) (1 PP)",
+      "Night-Luta: Perícia Aprimorada 8 (Enganação +8), Limitado: Apenas for use com Redirect, Limitado: Apenas in Camuflagem (1 PP)"
     ],
     "equipamento": [],
     "vantagens": [
       "Contatos",
       "Ataque Defensivo",
       "Rolamento Defensivo 5",
-      "Evasion",
+      "Evasão",
       "Desarmar Aprimorado",
-      "Ambiente Favorito (Darkness)",
+      "Ambiente Favorito (Escuridão)",
       "Liderança",
-      "Precise Attack (corpo a corpo; Concealment)",
+      "Ataque Preciso (Corpo a Corpo; Camuflagem)",
       "Redirecionar",
-      "Preparar",
+      "Armação",
       "Esforço Supremo (Tratamento)",
       "Esquiva Fabulosa"
     ],
@@ -129,11 +129,11 @@
     "complicacoes": [
       {
         "titulo": "Blind",
-        "texto": "Without his goggles, Doctor Mid-Nite is completely Cego, except in pitch blackness."
+        "texto": "sem his goggles, Doctor Mid-Nite is completely Cego, except in pitch blackness."
       },
       {
         "titulo": "Portsmouth Medical Clinic",
-        "texto": "Doctor Mid-Nite runs a community clinic with assistants who help him in his adventures. But the staff and the clients of the clinic have also become targets for his enemies."
+        "texto": "Doctor Mid-Nite runs a community clinic com assistants who help him in his adventures. But the staff e the clients of the clinic have also become targets for his enemies."
       }
     ]
   },

@@ -14,17 +14,17 @@
       "Pre": 2
     },
     "poderes": [
-      "i n terrogation k it: Arranjo (16 pontos), Easily Removed ( t r uth Serum: Aflição 8 (resistido por Vontade; Tonto, Compelido, Controlado; Progressivo; Limitado a answering questions), t r anquilizer: Aflição 5 (resistido por Fortitude; Tonto, Exausto, Adormecido; Progressivo), Paralytic: Aflição 5 (resistido por Fortitude; Destreza Impaired, Destreza Disabled, Paralisado; Progressivo), t aser : Dano 4 Linked to Aflição 4 (resistido por Fortitude; Tonto, Atordoado, Incapacitado)"
+      "i n terrogation k it: Arranjo (16 pontos), Easily Removed ( t r uth Serum: Aflição 8 (resistido por Vontade; Tonto, Compelido, Controlado; Progressivo; Limitado a answering questions), t r anquilizer: Aflição 5 (resistido por Fortitude; Tonto, Exausto, Adormecido; Progressivo), Paralytic: Aflição 5 (resistido por Fortitude; Destreza Prejudicado, Destreza Desabilitado, Paralisado; Progressivo), t aser : Dano 4 Ligado a Aflição 4 (resistido por Fortitude; Tonto, Atordoado, Incapacitado)"
     ],
     "equipamento": [
       "Handcuffs, Medical Bag, Restraints, Scalpels (Dano 1, critical 19-20)"
     ],
     "vantagens": [
-      "Conectado",
+      "Bem Relacionado",
       "Memória Eidética",
       "Equipamento 1",
       "Destemido",
-      "Ferramentas Improvisadas",
+      "Ferramentas Aprimoradas",
       "Inventor",
       "Esforço Supremo (Intimidação)"
     ],
@@ -45,7 +45,7 @@
         "total": 10
       },
       {
-        "nome": "Especialidade: Medicine",
+        "nome": "Especialidade: Medicina",
         "graduacoes": 9,
         "total": 15
       },

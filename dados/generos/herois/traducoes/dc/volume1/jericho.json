@@ -14,14 +14,14 @@
       "Pre": 2
     },
     "poderes": [
-      "Possession: Aflição 12 (resistido por Vontade; Tonto, Compelido, Controlado), Sustentado, Cumulativo, Instant Recovery, Reach 6, Sutil, Dependente de Sentidos (Must make eye contact), Linked to: Camuflagem 10, Contínuo, Linked to: Imunidade 2 (Sufocamento), Linked to: Intangibilidade 4, Concentração, Linked to: Leitura mental 8, Cumulativo, Effortless, Reduced Range 2 (Corpo a Corpo), Limitado a Controlado Target (62 PP)"
+      "Possession: Aflição 12 (resistido por Vontade; Tonto, Compelido, Controlado), Sustentado, Cumulativo, Instant Recovery, Reach 6, Sutil, Dependente de Sentidos (Must make eye contact), Ligado a: Camuflagem 10, Contínuo, Ligado a: Imunidade 2 (Sufocamento), Ligado a: Intangibilidade 4, Concentração, Ligado a: Leitura Mental 8, Cumulativo, Effortless, Reduced Range 2 (Corpo a Corpo), Limitado a Controlado Target (62 PP)"
     ],
     "equipamento": [],
     "vantagens": [
       "Avaliação",
       "Rolamento Defensivo 3",
       "Memória Eidética",
-      "Languages 1 (American Sign Language)",
+      "Idiomas 1 (American Sign Language)",
       "Trabalho em Equipe"
     ],
     "pericias": [
@@ -46,7 +46,7 @@
         "total": 10
       },
       {
-        "nome": "Combate à Distância: Guns",
+        "nome": "Combate à Distância: Armas de Fogo",
         "graduacoes": 7,
         "total": 10
       }
@@ -85,7 +85,7 @@
     "complicacoes": [
       {
         "titulo": "Minds in One Body",
-        "texto": "Years of “body-hopping” has left Jericho’s mind easily overruled by stronger, evil, and dangerous mental patterns that were never fully purged from his mind."
+        "texto": "Years of “body-hopping” has left Jericho’s mind easily overruled by stronger, evil, e dangerous mental patterns that were never fully purged from his mind."
       },
       {
         "titulo": "A History of Violence",
@@ -93,7 +93,7 @@
       },
       {
         "titulo": "Scars",
-        "texto": "Joseph Wilson was abducted as a small boy and his throat was slashed, rendering him mute. ALLIES Jericho worked longest and most closely with the Teen Titans, forging friendships with the core group. He worked mostly with Raven, who he felt was hurting in ways the rest of the team did not understand. Many of the Teen Titans of that time may still consider him a friend though he has repeatedly tried to kill them. His current ally is his father, Slade Wilson, Death - stroke the Terminator. ENEMIES The Teen Titans and the Justice League both consider Jericho a dangerous villain."
+        "texto": "Joseph Wilson was abducted as a small boy e his throat was slashed, rendering him mute. ALLIES Jericho worked longest e most closely com the Teen Titans, forging friendships com the core group. He worked mostly com Raven, who he felt was hurting in ways the rest of the team did not understand. Many of the Teen Titans of that time may still consider him a friend though he has repeatedly tried to kill them. His current ally is his father, Slade Wilson, Death - stroke the Terminator. ENEMIES The Teen Titans e the Justice League both consider Jericho a dangerous villain."
       }
     ]
   },

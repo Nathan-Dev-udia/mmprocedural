@@ -26,11 +26,12 @@
       "Vontade": "Imune"
     },
     "pericias": {
-      "Combate a Distância": 2
+      "Combate a Distância": 2,
+      "Percepção": 10
     },
     "pericias_detalhes": [
       "Combate a Distância 2 (+6/+12)",
-      "Percepção 10\\"
+      "Percepção 10"
     ],
     "vantagens": [
       "Ação em Movimento",
@@ -41,13 +42,13 @@
       "Ataque Poderoso"
     ],
     "poderes": [
-      "**Drone Gigante**: Crescimento 8 (**Extras**: Inato. **Falhas**: Permanente \\+0), Imunidade 30 (Efeitos de Fortitude), Proteção 6 (**Extras**: Impenetrável \\+1), Resistência Impenetrável 5; 64 pontos",
-      "• \\+2 em Tamanho",
-      "• \\+8 em Força, \\+8 em Proteção, \\+4 Intimidar, \\+8 em Massa",
-      "• \\-4 em Defesas Ativas, \\-8 em Furtividade",
-      "**Lasers**: Dano 10 (**Extras**: Distância Aumentada \\+1 \\[A Distância\\]); 20 pontos",
-      "**Sensores**: Sentidos 6 (Detectar Ondas de Rádio, Elo de Comunicação \\[com Rudolph\\], Infravisão, Rádio, Visão \\[Estendida, Rápido\\]); 6 pontos",
-      "**Voo** 8 (2 km/mov \\- 1.000 km/h); 16 pontos"
+      "**Drone Gigante**: Crescimento 8 (**Extras**: Inato. **Falhas**: Permanente +0), Imunidade 30 (Efeitos de Fortitude), Proteção 6 (**Extras**: Impenetrável +1), Resistência Impenetrável 5; 64 pontos",
+      "• +2 em Tamanho",
+      "• +8 em Força, +8 em Proteção, +4 Intimidar, +8 em Massa",
+      "• -4 em Defesas Ativas, -8 em Furtividade",
+      "**Lasers**: Dano 10 (**Extras**: Distância Aumentada +1 [A Distância]); 20 pontos",
+      "**Sensores**: Sentidos 6 (Detectar Ondas de Rádio, Elo de Comunicação [com Rudolph], Infravisão, Rádio, Visão [Estendida, Rápido]); 6 pontos",
+      "**Voo** 8 (2 km/mov - 1.000 km/h); 16 pontos"
     ],
     "equipamento": [],
     "iniciativa": 2,

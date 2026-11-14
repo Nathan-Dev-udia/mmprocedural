@@ -15,12 +15,12 @@
     },
     "poderes": [
       "Imortalidade: Imunidade 1 (Envelhecimento) (1 PP)",
-      "mágico: Arranjo (34 pontos) mágico Raio: Dano à Distância 17 (34 PP)",
+      "Magia: Arranjo (34 pontos) Magia Raio: Dano à Distância 17 (34 PP)",
       "• Bestiamorph: Aflição à Distância 8 (resistido por Vontade; Tonto, Compelido, Transformado), Progressivo (1 PP)",
-      "• Mystic Passage: Teleporte 11 (8 milhas), Preciso (1 PP)",
-      "• Spell of Sleep: Aflição à Distância 17 (resistido por Fortitude; Tonto, Atordoado, Adormecido) (1 PP)",
+      "• Místico Passage: Teleporte 11 (8 milhas), Acurado (1 PP)",
+      "• Spell of Sono: Aflição à Distância 17 (resistido por Fortitude; Tonto, Atordoado, Adormecido) (1 PP)",
       "• Veil of Ilusão: Ilusão 6 (All Sentidos), área 4, Seletivo (1 PP)",
-      "Mystic Escudo: Proteção 8, Impenetrável, Sustentado (16 PP)"
+      "Místico Escudo: Proteção 8, Impenetrável, Sustentado (16 PP)"
     ],
     "equipamento": [],
     "vantagens": [
@@ -37,7 +37,7 @@
         "total": 14
       },
       {
-        "nome": "Especialidade: mágico",
+        "nome": "Especialidade: Magia",
         "graduacoes": 15,
         "total": 18
       },
@@ -62,7 +62,7 @@
         "total": 14
       },
       {
-        "nome": "Combate à Distância: mágico",
+        "nome": "Combate à Distância: Magia",
         "graduacoes": 8,
         "total": 11
       },
@@ -75,7 +75,7 @@
     "iniciativa": 2,
     "ataques": [
       {
-        "nome": "mágico Raio",
+        "nome": "Magia Raio",
         "bonus": 11,
         "alcance": "À distância",
         "dano": "Dano 17"
@@ -100,7 +100,7 @@
       "Resistência": 11,
       "Vontade": 17
     },
-    "observacao_defesas": "* (Impenetrável 8), Vontade 17 *Without Mystic Escudo.",
+    "observacao_defesas": "* (Impenetrável 8), Vontade 17 *sem Místico Escudo.",
     "custos": {
       "Habilidades": 44,
       "Poderes": 115,
@@ -108,11 +108,11 @@
       "Perícias": 24,
       "Defesas": 30
     },
-    "total": null,
+    "total": 218,
     "complicacoes": [
       {
         "titulo": "Motivação",
-        "texto": "Hatred of Amazons and Wonder Woman."
+        "texto": "Hatred of Amazons e Wonder Woman."
       },
       {
         "titulo": "Arrogance",

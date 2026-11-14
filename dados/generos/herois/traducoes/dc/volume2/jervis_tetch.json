@@ -14,8 +14,8 @@
       "Pre": 2
     },
     "poderes": [
-      "Controle mental Chips: Aflição 10 (resistido por Vontade; Tonto, Compelido, Controlado), Insidioso, Sustentado; Comunicação 2 (Rádio), Limitado—Only to receive orders from the Controle mental Hat (27 PP)",
-      "Controle mental Hat: área Comunicação 2 (Rádio), Limitado— Only to Controle mental Chips, Removível (-2 pontos) (6 PP)"
+      "Controle Mental Chips: Aflição 10 (resistido por Vontade; Tonto, Compelido, Controlado), Insidioso, Sustentado; Comunicação 2 (Rádio), Limitado—Apenas to receive orders from the Controle Mental Hat (27 PP)",
+      "Controle Mental Hat: área Comunicação 2 (Rádio), Limitado— Apenas to Controle Mental Chips, Removível (-2 pontos) (6 PP)"
     ],
     "equipamento": [
       "Heavy Pistola: Dano à Distância 4 (8 PP)"
@@ -25,8 +25,8 @@
       "Rolamento Defensivo 3",
       "Equipamento 2",
       "Inventor",
-      "Preparar",
-      "Provocar"
+      "Armação",
+      "Zombar"
     ],
     "pericias": [
       {
@@ -76,7 +76,13 @@
         "nome": "Heavy Pistola",
         "bonus": 8,
         "alcance": "À distância",
-        "dano": "Dano 4 Controle mental — Corpo a Corpo, Aflição 10, Gatilho"
+        "dano": "Dano 4"
+      },
+      {
+        "nome": "Controle Mental",
+        "bonus": null,
+        "alcance": "Corpo a corpo",
+        "dano": "Aflição 10, Gatilho"
       }
     ],
     "defesas": {

@@ -14,7 +14,7 @@
       "Pre": 0
     },
     "poderes": [
-      "i nfla ted r ubber Ball f orm (Sustentado; Enhanced Advantage 7 (Defensive Roll 5, Improved Iniciativa, Move-by Action), Enhanced Skill 10 (Acrobatics +20), Salto 5 (250ft.), Movimento 1 (Safe Fall), Proteção 6 (Limitado a Physical Attacks Only); r ebound Slam (Arranjo (Limitado a Only Usable with Move-by Action), Força-based Dano 10, AE: Força-based Área de Explosão Dano 5)) t: Voo Ring (Comunicação 5 (subspace Rádio, e quipmen Anywhere, Limitado a Distress Signal –3), Voo 7 (400 km/h); Telepathic Ear Plug ( Compreender 3 (Languages), mental Comunicação 1 (Corpo a Corpo Range)); Transsuit (Imunidade 9 (Suporte Vital, except for Inanição and thirst)) antages: Beginner’s Luck,"
+      "i nfla ted r ubber Ball f orm (Sustentado; Vantagem Aprimorada 7 (Rolamento Defensivo 5, Iniciativa Aprimorada, Ação em Movimento), Perícia Aprimorada 10 (Acrobacia +20), Salto 5 (250ft.), Movimento 1 (Queda Segura), Proteção 6 (Limitado a Physical Attacks Apenas); r ebound Slam (Arranjo (Limitado a Apenas Usable com Ação em Movimento), Força-based Dano 10, AE: Força-based Área de Explosão Dano 5)) t: Voo Ring (Comunicação 5 (subspace Rádio, e quipmen Anywhere, Limitado a Distress Signal -3), Voo 7 (400 km/h); Telepathic Ear Plug ( Compreender 3 (Languages), Comunicação Mental 1 (Alcance Perto)); Transsuit (Imunidade 9 (Suporte Vital, except for Fome e Sede)) antages: Beginner’s Luck,"
     ],
     "equipamento": [],
     "vantagens": [
@@ -65,8 +65,15 @@
         "total": 4
       }
     ],
-    "iniciativa": 0,
-    "ataques": [],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Ricochete Slam",
+        "bonus": 9,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 11"
+      }
+    ],
     "defesas": {
       "Esquiva": 6,
       "Aparar": 6,
@@ -82,7 +89,7 @@
     "complicacoes": [
       {
         "titulo": "r esponsibility",
-        "texto": "Bouncing Boy recognizes that his Powers can do some good and helps out however he can. r elationship: Bouncing Boy is deeply devoted to his wife, Duplicate Damsel."
+        "texto": "Bouncing Boy recognizes that his Poderes can do some good e helps out however he can. r elationship: Bouncing Boy is deeply devoted to his wife, Duplicate Damsel."
       }
     ]
   },

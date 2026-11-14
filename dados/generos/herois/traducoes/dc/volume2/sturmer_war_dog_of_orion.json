@@ -14,7 +14,7 @@
       "Pre": 1
     },
     "poderes": [
-      "Big d og (Crescimento 2, Permanente, Inato; Proteção 3), Bite & Claw (Força-Based Dano 4), Canine Sentidos (Sentidos 3; Tracking, Ultra-Audição, and Aguçado Smell), Velocidade 5 (96 km/h)"
+      "Big d og (Crescimento 2, Permanente, Inato; Proteção 3), Bite & Claw (Força-Based Dano 4), Canine Sentidos (Sentidos 3; Rastrear, Ultra-Audição, e Aguçado Olfato), Velocidade 5 (96 km/h)"
     ],
     "equipamento": [],
     "vantagens": [
@@ -53,6 +53,12 @@
     "iniciativa": 5,
     "ataques": [
       {
+        "nome": "Bite & Claw",
+        "bonus": 9,
+        "alcance": "",
+        "dano": "Dano Corpo a Corpo 13"
+      },
+      {
         "nome": "Desarmado",
         "bonus": 7,
         "alcance": "",
@@ -67,8 +73,14 @@
       "Vontade": 5
     },
     "observacao_defesas": "",
-    "custos": {},
-    "total": null,
+    "custos": {
+      "Habilidades": 58,
+      "Poderes": 18,
+      "Vantagens": 4,
+      "Perícias": 12,
+      "Defesas": 9
+    },
+    "total": 92,
     "complicacoes": []
   },
   "notas": [

@@ -14,24 +14,24 @@
       "Pre": 2
     },
     "poderes": [
-      "Light Manipulation: Dynamic Arranjo (37 pontos)",
-      "• Light Constructs: Criar Objetos 12, Moveable, Sutil, Dynamic (38 PP)",
-      "• Bursting Flash: Área de Explosão Aflição 11 (resistido por Esquiva; Vision Impaired, Vision Disabled, Vision Debilitated), Concentração, Ação de Movimento, Dynamic (2 PP)",
-      "• Hard Light Raio: Dano à Distância 12, Multiataque, Ricochete, Dynamic (2 PP)",
-      "• Holograms: Visual Ilusão 12, Independent, Dynamic (2 PP)",
-      "• Invisibility: Visual Camuflagem 4 (All), Limitado a Light- Dependent Vision, Dynamic (2 PP)",
-      "• Lighting: Environment 12 (light, 2 pontos per graduação), Seletivo, Dynamic (2 PP)",
-      "• Repulse Photons: Área de Explosão 4 À Distância Visual Camuflagem 4 (All), Attack, Dynamic (2 PP)",
+      "Luz Manipulation: Arranjo Dinâmico (37 pontos)",
+      "• Luz Constructs: Criar Objetos 12, Moveable, Sutil, Dinâmico (38 PP)",
+      "• Bursting Flash: Área de Explosão Aflição 11 (resistido por Esquiva; Visão Prejudicado, Visão Desabilitado, Visão Debilitado), Concentração, Ação de Movimento, Dinâmico (2 PP)",
+      "• Hard Luz Raio: Dano à Distância 12, Multiataque, Ricochete, Dinâmico (2 PP)",
+      "• Holograms: Visual Ilusão 12, Independent, Dinâmico (2 PP)",
+      "• Invisibility: Visual Camuflagem 4 (All), Limitado a Luz- Dependent Visão, Dinâmico (2 PP)",
+      "• Lighting: Ambiente 12 (Luz, 2 pontos per graduação), Seletivo, Dinâmico (2 PP)",
+      "• Repulse Photons: Área de Explosão 4 À Distância Visual Camuflagem 4 (All), Attack, Dinâmico (2 PP)",
       "Voo: Voo 5 (96 km/h) (10 PP)",
-      "Solid Light Field: Proteção 10, Sustentado (10 PP)"
+      "Solid Luz Field: Proteção 10, Sustentado (10 PP)"
     ],
     "equipamento": [],
     "vantagens": [
-      "Conectado",
+      "Bem Relacionado",
       "Ataque Defensivo",
       "Inventor",
       "Redirecionar",
-      "Maestria em Perícia (Expertise: Science)"
+      "Maestria em Perícia (Especialidade: Ciência)"
     ],
     "pericias": [
       {
@@ -45,7 +45,7 @@
         "total": 9
       },
       {
-        "nome": "Especialidade: Science",
+        "nome": "Especialidade: Ciência",
         "graduacoes": 4,
         "total": 8
       },
@@ -60,12 +60,12 @@
         "total": 6
       },
       {
-        "nome": "Combate à Distância: Leech Light",
+        "nome": "Combate à Distância: Leech Luz",
         "graduacoes": 4,
         "total": 7
       },
       {
-        "nome": "Combate à Distância: Light Manipulation",
+        "nome": "Combate à Distância: Luz Manipulation",
         "graduacoes": 7,
         "total": 10
       },
@@ -77,6 +77,12 @@
     ],
     "iniciativa": 2,
     "ataques": [
+      {
+        "nome": "Bursting Flash",
+        "bonus": null,
+        "alcance": "",
+        "dano": "Área de Explosão, Aflição 11, resistido por Esquiva Hard Luz Raio +10 À Distância, Dano 12"
+      },
       {
         "nome": "Desarmado",
         "bonus": 0,
@@ -103,15 +109,15 @@
     "complicacoes": [
       {
         "titulo": "Bully",
-        "texto": "Doctor Light receives gratification from the humiliation and suffering of others, especially women and those who are not consenting to his Vontade."
+        "texto": "Doctor Luz receives gratification from the humiliation e suffering of others, especially women e those who are not consenting to his Vontade."
       },
       {
         "titulo": "Light-Dependence",
-        "texto": "Doctor Light’s Powers require ambient light, suffering a Weakness effect in reduced light exposure. The Gamemaster determines the effect’s graduação, as suits lighting levels. The Powers don’t work at all in Total darkness."
+        "texto": "Doctor Luz’s Poderes require ambient Luz, suffering a Weakness effect in reduced Luz exposure. The Gamemaster determines the effect’s graduação, as suits lighting levels. The Poderes don’t work at all in Total Escuridão."
       },
       {
         "titulo": "Something to Prove",
-        "texto": "Doctor Light can be driven into a rage if sufficiently mocked, belittled, or if his immense self-doubt is otherwise enflamed."
+        "texto": "Doctor Luz can be driven into a rage if sufficiently mocked, belittled, or if his immense self-doubt is otherwise enflamed."
       }
     ]
   },

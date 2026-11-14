@@ -14,23 +14,23 @@
       "Pre": 3
     },
     "poderes": [
-      "Frio-Guns: Arranjo (21 pontos), Facilmente Removível (-10 pontos) • Chilling Frio: Área de Explosão Enfraquecer 7 (resistido por Fortitude, Broad: Super-Velocidade Powers) (21 PP)",
+      "Frio-Armas de Fogo: Arranjo (21 pontos), Facilmente Removível (-10 pontos) • Chilling Frio: Área de Explosão Enfraquecer 7 (resistido por Fortitude, Amplo: Super-Velocidade Poderes) (21 PP)",
       "• Freezing Raio: Dano à Distância 7 (1 PP)",
-      "• Ice Block: umulative Aflição 7 (resistido por Esquiva; Impedido and Vulnerável, Indefeso and Imóvel), Extra Condition, Limitado a Dois Graus (1 PP)",
-      "• Icy Surface: Área de Cone Aflição 10 (resistido por Esquiva; Impedido and Vulnerável), Extra Condition, Limitado Degree 2 (1 PP)",
-      "• Ice Shapes: Criar Objetos 7 (1 PP)",
+      "• Gelo Block: umulative Aflição 7 (resistido por Esquiva; Impedido e Vulnerável, Indefeso e Imóvel), Extra Condition, Limitado a Dois Graus (1 PP)",
+      "• Icy Surface: Área de Cone Aflição 10 (resistido por Esquiva; Impedido e Vulnerável), Extra Condition, Limitado Grau 2 (1 PP)",
+      "• Gelo Shapes: Criar Objetos 7 (1 PP)",
       "Frio Suit: Imunidade 1 (Frio); Proteção 4, Removível (-1 ponto) (4 PP)"
     ],
     "equipamento": [],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Rolamento Defensivo 3",
       "Mira Aprimorada",
       "Liderança",
       "Ação em Movimento",
-      "Precise Attack 2 (à distância; Cover and Concealment)",
+      "Ataque Preciso 2 (À Distância; Cobertura e Camuflagem)",
       "Saque Rápido",
-      "Provocar"
+      "Zombar"
     ],
     "pericias": [
       {
@@ -69,7 +69,7 @@
         "total": 11
       },
       {
-        "nome": "Combate à Distância: Frio-Guns",
+        "nome": "Combate à Distância: Frio-Armas de Fogo",
         "graduacoes": 10,
         "total": 13
       }
@@ -77,10 +77,10 @@
     "iniciativa": 3,
     "ataques": [
       {
-        "nome": "Frio-Guns",
+        "nome": "Frio-Armas de Fogo",
         "bonus": 13,
         "alcance": "À distância",
-        "dano": "Dano 7 (and others)"
+        "dano": "Dano 7 (e others)"
       },
       {
         "nome": "Desarmado",

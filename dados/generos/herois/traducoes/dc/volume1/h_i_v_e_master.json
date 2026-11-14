@@ -14,30 +14,29 @@
       "Pre": 7
     },
     "poderes": [
-      "H.I.V.E. Breakthroughs (Arranjo (24 pontos), Removível (-5 pontos), Nullifier (Nulificar 8, Broad (metahuman Powers), Increased Duration (Concentração), AE: Blaster (Dano à Distância 9, Penetrante 6), AE: Stealth Cloak (Camuflagem 6 (all visual and hearing)); H.I.V.E. Armor (Proteção 6, Sutil, Removível)"
+      "H.I.V.E. Breakthroughs (Arranjo (24 pontos), Removível (-5 pontos), Nullifier (Nulificar 8, Amplo (metahuman Poderes), Increased Duration (Concentração), AE: Blaster (Dano à Distância 9, Penetrante 6), AE: Furtividade Cloak (Camuflagem 6 (all Visual e Audição)); H.I.V.E. Armor (Proteção 6, Sutil, Removível)"
     ],
     "equipamento": [
       "H.I.V.E. Communicator"
     ],
     "vantagens": [
-      "Benefit 5 (Knowledge of alien science",
-      "Cipher 4)",
-      "Conectado",
+      "Benefício 5 (Especialidade of alien Ciência, Cifra 4)",
+      "Bem Relacionado",
       "Tontear",
       "Rolamento Defensivo 3",
       "Memória Eidética",
       "Equipamento",
-      "Esconder-se a Plena Vista",
+      "Esconder-se à Plena Vista",
       "Inventor",
-      "Languages 4",
+      "Idiomas 4",
       "Liderança",
       "Tomar a Iniciativa",
       "Assustar",
-      "Provocar"
+      "Zombar"
     ],
     "pericias": [
       {
-        "nome": "Especialidade: Science",
+        "nome": "Especialidade: Ciência",
         "graduacoes": 10,
         "total": 16
       },

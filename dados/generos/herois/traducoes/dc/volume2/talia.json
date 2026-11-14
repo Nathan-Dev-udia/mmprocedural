@@ -15,14 +15,14 @@
     },
     "poderes": [],
     "equipamento": [
-      "Light Pistola (Dano à Distância 3), 9 pontos of other equipment"
+      "Luz Pistola (Dano à Distância 3), 9 pontos of other equipment"
     ],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Avaliação",
       "Atraente",
-      "Benefit 5 (The Demon’s Daughter)",
-      "Conectado",
+      "Benefício 5 (The Demon's Daughter)",
+      "Bem Relacionado",
       "Contatos",
       "Ataque Defensivo",
       "Rolamento Defensivo 3",
@@ -30,11 +30,11 @@
       "Defesa Aprimorada",
       "Iniciativa Aprimorada",
       "Inspirar",
-      "Precise Attack (à distância; Cover)",
+      "Ataque Preciso (À Distância; Cobertura)",
       "Saque Rápido",
       "Ataque à Distância 4",
-      "Derrubar em Sequência",
-      "Bem-Informado"
+      "Ataque Dominó",
+      "Bem Informado"
     ],
     "pericias": [
       {
@@ -88,7 +88,7 @@
         "total": 10
       },
       {
-        "nome": "Combate à Distância: Guns",
+        "nome": "Combate à Distância: Armas de Fogo",
         "graduacoes": 4,
         "total": 8
       },
@@ -152,7 +152,7 @@
     "complicacoes": [
       {
         "titulo": "Conflicted Loyalties",
-        "texto": "Talia is in love with Batman, but loyal to her father."
+        "texto": "Talia is in love com Batman, but loyal to her father."
       }
     ]
   },

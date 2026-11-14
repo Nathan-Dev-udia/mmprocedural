@@ -14,12 +14,12 @@
       "Pre": 4
     },
     "poderes": [
-      "d omination: Perception Aflição à Distância 15 (resistido por Vontade; Tonto, Atordoado, Controlado), Progressivo, Reação (when Starrophyte grabs target) Linked to Leitura mental 15 (Limitado—Controlado victims only) (120 PP)",
-      "e nergy a bsorption: Imunidade 20 (Energy Dano); Dano à Distância 16, Preciso 4, Dissipação (40 PP)",
-      "Giant a lien S tarfish: Extra Limbs 3 (5 manipulator limbs); Crescimento 8, Inato, Permanente (20 PP)",
+      "d omination: Percepção Aflição à Distância 15 (resistido por Vontade; Tonto, Atordoado, Controlado), Progressivo, Reação (when Starrophyte grabs target) Ligado a Leitura Mental 15 (Limitado—Controlado victims Apenas) (120 PP)",
+      "e nergy a bsorption: Imunidade 20 (Energia Dano); Dano à Distância 16, Acurado 4, Dissipação (40 PP)",
+      "Giant a lien S tarfish: Membros Extras 3 (5 manipulator limbs); Crescimento 8, Inato, Permanente (20 PP)",
       "i n vulnerability: Imortalidade 1; Imunidade 10 (Suporte Vital); Resistência Impenetrável 10; Proteção 2; Regeneração 5 (29 PP)",
-      "Star- f ligh t: Voo 10 (2,0 km/h); Movimento 2 (Space Travel 2) (24 PP)",
-      "Starrophyte i vasion: Summon 6, Horde, mental Link, Multiple n Minions 10 (1,024 PL6 minions); Remote Sensing 25 (Visual), Simultaneous, Medium: Starrophytes (189 PP)"
+      "Star- f Luz: Voo 10 (3.200 km/h); Movimento 2 (Viagem Espacial 2) (24 PP)",
+      "Starrophyte i vasion: Invocar 6, Horda, Elo Mental, Multiple n capangas 10 (1,024 PL6 capangas); Sensoriamento Remoto 25 (Visual), Simultâneo, Medium: Starrophytes (189 PP)"
     ],
     "equipamento": [],
     "vantagens": [
@@ -32,7 +32,7 @@
     ],
     "pericias": [
       {
-        "nome": "Especialidade: Science",
+        "nome": "Especialidade: Ciência",
         "graduacoes": 8,
         "total": 18
       },
@@ -50,7 +50,7 @@
     "iniciativa": 2,
     "ataques": [
       {
-        "nome": "Energy Absorption",
+        "nome": "Energia Absorption",
         "bonus": 10,
         "alcance": "À distância",
         "dano": "Dano 16, Dissipação Desarmado +10 Corpo a Corpo, Dano 14"
@@ -75,15 +75,15 @@
     "complicacoes": [
       {
         "titulo": "o bsession",
-        "texto": "Order and control."
+        "texto": "Order e control."
       },
       {
         "titulo": "Perda de Poder",
-        "texto": "The chemical quicklime automatically counters Starro’s Domination power."
+        "texto": "The chemical quicklime automatically counters Starro’s Domination Poder."
       },
       {
         "titulo": "Vulnerability",
-        "texto": "Starro is Vulnerável to Frio attacks. Starro’s Invulnerability does not apply, and both Starro and his starrophytes suffer an additional degree of effect from Frio effects (including a first degree even with a successful resistance check). r eal n ame: Starro o ccupation: c onqueror b ase: Mobile"
+        "texto": "Starro is Vulnerável to Frio attacks. Starro’s Invulnerability does not apply, e both Starro e his starrophytes suffer an additional Grau of effect from Frio Efeitos (including a first Grau even com a successful resistance Teste). r eal n ame: Starro o ccupation: c onqueror b ase: Mobile"
       }
     ]
   },

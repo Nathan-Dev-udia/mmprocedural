@@ -16,7 +16,7 @@
     "poderes": [],
     "equipamento": [
       "Six-Shooters: À Distância Multiataque Dano 3 (9 PP)",
-      "Lasso: À Distância Cumulativo Aflição 6 (resistido por Esquiva; Impedido and Vulnerável, Indefeso and Imóvel), Extra Condition, Limitado Degree) (18 PP)",
+      "Lasso: À Distância Cumulativo Aflição 6 (resistido por Esquiva; Impedido e Vulnerável, Indefeso e Imóvel), Extra Condition, Limitado Grau) (18 PP)",
       "Ve H i CL e: Motor C y CL e • 10 POI n TS Size: Medium Str: 1 Velocidade: 6 d ef: 10 t ou: 8"
     ],
     "vantagens": [
@@ -31,7 +31,7 @@
       "Sorte",
       "Saque Rápido",
       "Ataque à Distância 5",
-      "Derrubar em Sequência",
+      "Ataque Dominó",
       "Rastrear",
       "Prender Arma"
     ],
@@ -82,7 +82,7 @@
         "total": 11
       },
       {
-        "nome": "Combate à Distância: Guns",
+        "nome": "Combate à Distância: Armas de Fogo",
         "graduacoes": 6,
         "total": 10
       },
@@ -95,13 +95,13 @@
     "iniciativa": 4,
     "ataques": [
       {
-        "nome": "Dual Pistols",
+        "nome": "Dual Pistolas",
         "bonus": 15,
-        "alcance": "À distância",
-        "dano": "Multiataque Dano 3"
+        "alcance": "",
+        "dano": ""
       },
       {
-        "nome": "Lasso",
+        "nome": "À Distância Multiataque Dano 3 Lasso",
         "bonus": 9,
         "alcance": "À distância",
         "dano": "Cumulativo Aflição 6, resistido por Esquiva (CD 16)"
@@ -131,11 +131,11 @@
     "complicacoes": [
       {
         "titulo": "o ld W ays",
-        "texto": "century ideals living in the twenty-first. He frames every conflict as good versus evil, then firmly places himself among the white hats—and not only because he wears a white hat of his own."
+        "texto": "century ideals living in the twenty-first. He frames every conflict as good versus evil, then firmly places himself among the white hats—e not Apenas because he wears a white hat of his own."
       },
       {
         "titulo": "Cowboy in the City",
-        "texto": "From New York and Hollywood to Warpath, Arizona, Vigilante has always found himself living in big cities, but his heart is out on the range."
+        "texto": "From New York e Hollywood to Warpath, Arizona, Vigilante has always found himself living in big cities, but his heart is out on the range."
       }
     ]
   },

@@ -18,7 +18,7 @@
     ],
     "equipamento": [],
     "vantagens": [
-      "Evasion",
+      "Evasão",
       "Ambiente Favorito (Aquatic)",
       "Iniciativa Aprimorada"
     ],
@@ -65,7 +65,7 @@
         "nome": "Desarmado",
         "bonus": 8,
         "alcance": "",
-        "dano": "(Dano 8)"
+        "dano": "Dano 8"
       }
     ],
     "defesas": {

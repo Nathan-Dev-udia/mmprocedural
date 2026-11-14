@@ -14,21 +14,21 @@
       "Pre": 4
     },
     "poderes": [
-      "t Arranjo (18 pontos), Removível (–2 pontos) horn W eapons: • Concussion t horn: R anged Multi-Attack Dano 6 (18 PP)",
-      "• Smoke t horn: Cloud A rea 2 Visual Camuflagem Attack 4 (1 PP)",
-      "• Magnesium t horn: À Distância Área de Explosão Aflição 9 (resistido por Fortitude; Vision Impaired, Vision Disabled, Vision Unaware) (1 PP)",
+      "t Arranjo (18 pontos), Removível (-2 pontos) horn W eapons: • Concussion t horn: À Distância Multi-Attack Dano 6 (18 PP)",
+      "• Smoke t horn: Nuvem A rea 2 Visual Camuflagem Attack 4 (1 PP)",
+      "• Magnesium t horn: À Distância Área de Explosão Aflição 9 (resistido por Fortitude; Visão Prejudicado, Visão Desabilitado, Visão Desatento) (1 PP)",
       "Barbed Whip: Força-Based Dano 4, Fast Grab, Improved Disarm, Improved Grab, Improved Trip, Reach 2 (10 PP)"
     ],
     "equipamento": [],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Rolamento Defensivo 3",
       "Equipamento 2",
       "Iniciativa Aprimorada",
       "Sorte",
       "Assustar",
-      "Derrubar em Sequência",
-      "Provocar"
+      "Ataque Dominó",
+      "Zombar"
     ],
     "pericias": [
       {
@@ -93,9 +93,15 @@
       "Resistência": 5,
       "Vontade": 9
     },
-    "observacao_defesas": "* Vontade 9 *sem Rolamento Defensivo Po er ponto W S Abilities 54 Skills 33 Powers 16 Defenses 21 Advantages 11 Total 135 Co MPL i C tion S a i Extreme trauma or mental stress causes Thorn den tity: to revert to her Rose persona: As Rose, her Luta is 1, her Presença is 0, and she has no Skills or Advantages.",
-    "custos": {},
-    "total": null,
+    "observacao_defesas": "* Vontade 9 *sem Rolamento Defensivo",
+    "custos": {
+      "Habilidades": 54,
+      "Perícias": 33,
+      "Poderes": 16,
+      "Defesas": 21,
+      "Vantagens": 11
+    },
+    "total": 135,
     "complicacoes": []
   },
   "notas": [

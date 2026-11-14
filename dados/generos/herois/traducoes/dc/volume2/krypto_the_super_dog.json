@@ -14,7 +14,7 @@
       "Pre": 3
     },
     "poderes": [
-      "d og (Encolhimento 3, Inato, Normal Força, Permanente); f ligh t (Voo 15 (64,0 km/h)), ae : f ast (Velocidade 15 (64,0 km/h), Rapidez 6, Stacks with Superspeed); Calor Vision (Dano à Distância 14); i n vulnerability (Resistência Impenetrável 14; Imunidade 10 (Suporte Vital)); Super-Bite (Força-based Dano 1); Super-Sentidos (Sentidos 18 (Aguçado and Audição Estendida, Aguçado and Extended Smell, Visão Estendida 3, Infravisão, Visão Microscópica 4, Ultra-Audição, Tracking, Vision Penetrates Camuflagem (except lead))); Super-Velocidade (Rapidez 8); Super-Força (Força Aprimorada 4, Limitado a Lifting (lifting Str 18; 6,000 tons)) antages: All-out Attack, Corpo a Corpo Attack, Interpose, Power a dv Attack, Startle, Ultimate Effort (Resistência checks)"
+      "d og (Encolhimento 3, Inato, Normal Força, Permanente); f Luz (Voo 15 (102.400 km/h)), ae : f ast (Velocidade 15 (102.400 km/h), Rapidez 6, Stacks com Superspeed); Visão de Calor (Dano à Distância 14); i n vulnerability (Resistência Impenetrável 14; Imunidade 10 (Suporte Vital)); Super-Bite (Força-based Dano 1); Super-Sentidos (Sentidos 18 (Aguçado e Audição Estendida, Aguçado e Estendido Olfato, Visão Estendida 3, Infravisão, Visão Microscópica 4, Ultra-Audição, Rastrear, Visão Penetrates Camuflagem (except lead))); Super-Velocidade (Rapidez 8); Super-Força (Força Aprimorada 4, Limitado a Lifting (lifting Str 18; 6,000 toneladas)) antages: Ataque Imprudente, Corpo a Corpo Attack, Interpor-se, Poder a dv Attack, Startle, Ultimate Effort (Resistência Testes)"
     ],
     "equipamento": [],
     "vantagens": [],
@@ -45,8 +45,27 @@
         "total": 8
       }
     ],
-    "iniciativa": 0,
-    "ataques": [],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "Bite",
+        "bonus": 9,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 15"
+      },
+      {
+        "nome": "Visão de Calor",
+        "bonus": 8,
+        "alcance": "À distância",
+        "dano": "Dano 14"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 6,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 14"
+      }
+    ],
     "defesas": {
       "Esquiva": 10,
       "Aparar": 10,
@@ -62,7 +81,7 @@
     "complicacoes": [
       {
         "titulo": "Canine Limitations",
-        "texto": "Krypto is a powerful, smart dog but he’s still a dog. He can’t talk, has no opposable thumbs and follows his animal instincts. Bad d og!: Krypto is fiercely protective of Superman and his family. He often reacts violently when his loved ones are in danger. Good d og!: Krypto is extremely loyal and devoted. He also likes kids and is generally good-natured. k ryptonian: Krypto is Vulnerável to mágico, red-sun Radiação, and kryptonite just like Superman. 292 292"
+        "texto": "Krypto is a powerful, smart dog but he’s still a dog. He can’t talk, has no opposable thumbs e follows his animal instincts. Bad d og!: Krypto is fiercely protective of Superman e his family. He often reacts violently when his loved ones are in danger. Good d og!: Krypto is extremely loyal e devoted. He also likes kids e is generally good-natured. k ryptonian: Krypto is Vulnerável to Magia, red-sun Radiação, e kryptonite just like Superman. 292 292"
       }
     ]
   },

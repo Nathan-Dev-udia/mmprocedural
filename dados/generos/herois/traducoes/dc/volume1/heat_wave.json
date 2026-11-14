@@ -14,23 +14,23 @@
       "Pre": 2
     },
     "poderes": [
-      "Fireproof Suit: Imunidade 12 (fogo Effects, Sufocamento), Proteção 3, Removível (-3 pontos) (12 PP)",
-      "Flamethrower: Arranjo (18 pontos), Facilmente Removível (–8 pontos) • fogo Raio: Dano à Distância 9 (18 PP)",
-      "• fogo Retardant Spray: Corpo a Corpo Range Área de Cone Nulificar 9 (fogo Effects), Simultaneous, Effortless, Não Confiável (5 uses) (1 PP)",
-      "• Flamethrower: Área de Linha 2 ,(60 feet long) Dano 6 (1 PP)",
-      "• Calor Stroke: Área de Linha 2 (60 feet long), Aflição 6 (resistido por Fortitude; Fatigado, Exausto, Incapacitado) (1 PP)",
+      "Fireproof Suit: Imunidade 12 (Fogo Efeitos, Sufocamento), Proteção 3, Removível (-3 pontos) (12 PP)",
+      "Flamethrower: Arranjo (18 pontos), Facilmente Removível (-8 pontos) • Fogo Raio: Dano à Distância 9 (18 PP)",
+      "• Fogo Retardant Spray: Alcance Perto Área de Cone Nulificar 9 (Fogo Efeitos), Simultâneo, Effortless, Não Confiável (5 uses) (1 PP)",
+      "• Flamethrower: Área de Linha 2 ,(60 pés long) Dano 6 (1 PP)",
+      "• Calor Stroke: Área de Linha 2 (60 pés long), Aflição 6 (resistido por Fortitude; Fatigado, Exausto, Incapacitado) (1 PP)",
       "• Lasting Flames: Dano à Distância 4, Efeito Secundário 2 (1 PP)",
-      "• Melt: Área de Linha Enfraquecer 9 (Resistência), Affects Only Objects (1 PP)"
+      "• Melt: Área de Linha Enfraquecer 9 (Resistência), Afeta Apenas Objetos (1 PP)"
     ],
     "equipamento": [],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Rolamento Defensivo 2",
       "Mira Aprimorada",
       "Ação em Movimento",
       "Saque Rápido",
       "Ataque à Distância 3",
-      "Provocar"
+      "Zombar"
     ],
     "pericias": [
       {
@@ -54,7 +54,7 @@
         "total": 13
       },
       {
-        "nome": "Especialidade: fogo Science",
+        "nome": "Especialidade: Fogo Ciência",
         "graduacoes": 12,
         "total": 15
       },
@@ -82,10 +82,22 @@
     "iniciativa": 3,
     "ataques": [
       {
-        "nome": "fogo Raio",
+        "nome": "Fogo Raio",
         "bonus": 11,
         "alcance": "À distância",
-        "dano": "Dano 9 Flamethrower — Área de Linha 2 (60 feet long) Dano 6 Calor Stroke — Área de Linha 2 (60 feet long) Aflição 6, resistido por Fortitude Desarmado +6 Corpo a Corpo, Dano 1"
+        "dano": "Dano 9"
+      },
+      {
+        "nome": "Flamethrower",
+        "bonus": null,
+        "alcance": "",
+        "dano": "Área de Linha 2 (60 pés long)"
+      },
+      {
+        "nome": "Dano 6 Calor Stroke",
+        "bonus": null,
+        "alcance": "",
+        "dano": "Área de Linha 2 (60 pés long) Aflição 6, resistido por Fortitude Desarmado +6 Corpo a Corpo, Dano 1"
       }
     ],
     "defesas": {
@@ -111,7 +123,7 @@
       },
       {
         "titulo": "Fobia",
-        "texto": "Calor Wave is afraid of Frio temperatures and avoids them at all costs."
+        "texto": "Calor Wave is afraid of Frio temperatures e avoids them at all costs."
       }
     ]
   },

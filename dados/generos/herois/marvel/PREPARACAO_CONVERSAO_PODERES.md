@@ -7,21 +7,16 @@ Aviso para quem (pessoa ou IA) for continuar o trabalho nas fichas da Marvel.
 - **A extração está completa.** O livro é um só: `referencias/marvel/mutants-masterminds-marvel-files-pr_e5850f76d9cea8b6721dc9f1fe9fe08e.pdf`
   (117 páginas). A página 1 não tem ficha; as páginas 2 a 117 têm um perfil cada, e há 116 JSONs, um por página
   (`fonte.pagina`), sem repetição e sem página com dois perfis. **Não há personagem faltando.** Não procure outros livros.
-- **O que falta é fechar a conversão da 2ª para a 3ª edição**, principalmente dos poderes complexos (arrays, dispositivos, formas alternativas e efeitos com modificadores sem equivalência direta):
-  - Todas as 116 fichas já possuem o bloco `custos_3e` padronizado (incluindo as 10 fichas de `absorbing_man` a `bullseye` e `bishop`), com `habilidades`/`habilidades_base`, `defesas` (1 PP por graduação comprada), `pericias` (1 PP a cada 2 graduações) e `vantagens` preenchidos.
-  - **104 fichas** já estão com `pontos_poder_3e` e `custos_3e.total` totalmente fechados (incluindo os lotes de fechamento: `adam-x`, `archangel`, `avalanche`, `baron_zemo`, `beast`, `bishop`, `black_cat`, `black_panther`, `blink`, `bullseye`, `cannonball`, `captain_america`, `captain_britain`, `colossus`, `cyclops`, `daredevil`, `deadpool`, `doctor_octopus`, `domino`, `dust`, `elektra`, `elixir`, `forge`, `gambit`, `green_goblin`, `havok`, `hawkeye`, `hellion`, `human_torch`, `iceman`, `invisible_woman`, `iron_fist`, `iron_man`, `jean_grey`, `jubilee`, `kingpin`, `longshot`, `luke_cage`, `mach_iv`, `mary_jane_watson`, `mercury`, `mister_fantastic`, `moon_knight`, `multiple_man`, `mystique`, `nightcrawler`, `nocturne`, `northstar`, `prodigy`, `puck`, `punisher`, `quicksilver`, `red_skull`, `rogue`, `sandman`, `scarlet_witch`, `shadowcat`, `shocker`, `silver_samurai`, `siryn`, `speedball`, `spider_man`, `storm`, `sunfire`, `surge`, `tag`, `taskmaster`, `thing`, `toad`, `tombstone`, `vulture`, `wallflower`, `white_queen`, `wind_dancer`, `wither`, `wolfsbane`). `beast` é o **modelo original de ficha completa**: leia-o primeiro.
-  - **12 fichas** têm `custos_3e.poderes_pendentes: true`. Nelas, poderes de equivalência direta já têm `custo_3e_pp` preenchido e somado em `poderes_conhecidos`, mas poderes dependentes de julgamento de design permanecem como `custo_3e_pp: null` até seu respectivo lote de fechamento.
-  - Vantagens e ataques de todas as 116 fichas traduzidos para o português canônico de M&M 3e, com suporte completo no gerador de PDF e visualizador.
-  - Regra de habilidades negativas confirmada no livro oficial de M&M 3e (pág. 56: *"Ganhe 2 pontos de poder para cada -1 de graduação de habilidade"*); `giant_man` e `hulk` foram ajustados e todas as ressalvas de habilidades foram zeradas (0 ressalvas).
-- Fichas com valor `null` **de propósito**: `chamber` e `sentinel` (o livro imprime travessão; são construtos sem
-  Constituição). Não preencha com 0.
+- **O que já está concluído na conversão da 2ª para a 3ª edição:**
+  - Todas as **116 fichas** possuem `custos_3e`, `pontos_poder_3e` e `custos_3e.total` fechados (`0` fichas com `poderes_pendentes`).
+  - Vantagens, perícias (incluindo acentuação canônica) e ataques das 116 fichas alinhados aos nomes em português do M&M 3e (`ferramentas/tradutor_herois.py`), mantendo o campo `nome` de busca compatível com o catálogo e os testes.
+  - Regra de habilidades negativas confirmada no livro oficial de M&M 3e (pág. 56: *"Ganhe 2 pontos de poder para cada -1 de graduação de habilidade"*); `giant_man` e `hulk` ajustados.
+- Fichas com valor `null` **de propósito**: `chamber` (Vigor/Fortitude) e `sentinel` (Vigor/Fortitude e atributos mentais); o livro imprime travessão por serem construtos/imunes a efeitos de Fortitude, não sendo tratados como 0.
 
 ## Linha de base e conferência
 
 `python ferramentas/auditar_herois.py dados/generos/herois/auditoria_marvel.json --editora marvel` mede a qualidade sem
-alterar nada. O arquivo `dados/generos/herois/auditoria_marvel.json` é o retrato atualizado (114 jogáveis, 0 com ressalvas,
-2 "revisar" que são os `null` intencionais). **Não guarde esse JSON dentro de `marvel/`**: o catálogo lê todo `*.json`
-dessa pasta como ficha. Depois de cada lote: rode a auditoria e `python -m pytest`.
+alterar nada. O arquivo `dados/generos/herois/auditoria_marvel.json` é o retrato atualizado (**116 jogáveis**, 0 com ressalvas, 0 para revisar). **Não guarde esse JSON dentro de `marvel/`**: o catálogo lê todo `*.json` dessa pasta como ficha. Depois de cada ajuste: rode a auditoria e `python -m pytest`.
 
 ## Como converter um poder (ficha a ficha)
 
@@ -60,7 +55,7 @@ dessa pasta como ficha. Depois de cada lote: rode a auditoria e `python -m pytes
 - Abreviações das habilidades: `For, Vig, Agi, Des, Lut, Int, Pro, Pre`.
 - Perícias: Drive e Pilot viram `Veículos`; Survival vira `Especialidade: Sobrevivência`; Computers vira `Tecnologia`;
   Knowledge (Technology) vira `Especialidade: Tecnologia` (são perícias distintas; não elimine).
-- Nomes de vantagens e efeitos ficam em inglês; as explicações, em português.
+- Vantagens, perícias e efeitos seguem os nomes canônicos em português de M&M 3e; o campo `nome` de cada poder preserva o identificador original em inglês da fonte para busca e compatibilidade.
 - Mantenha o nome do arquivo (é o id da ficha), a indentação de 2 espaços e o fim de linha CRLF dos arquivos.
 - `nucleo/herois.py` e `nucleo/herois_pdf.py` leem estas fichas; o teste conta 116 da Marvel. Se mudar o esquema,
   ajuste `_ler_marvel` e crie um teste com uma ficha real.

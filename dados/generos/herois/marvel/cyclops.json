@@ -48,19 +48,19 @@
       "Liderança",
       "Ataque Poderoso",
       "Trabalho em Equipe 2",
-      "Esforço Supremo (Ultimate Will Resistance)"
+      "Esforço Supremo (Ultimate Vontade Resistance)"
     ],
     "poderes": [
       {
         "nome": "Optic Blast / Deflect",
-        "construcao_3e": "Dano à Distância 12 (Penetrante, Duração Concentração; 36 PP); Efeitos Alternativos: Deflexão 10 (1 PP), Rajada em Linha de Área 10 (1 PP). Array total: 38 PP.",
+        "construcao_3e": "Dano à Distância 12 (Penetrante, Duração Concentração; 36 PP); Efeitos Alternativos: Deflexão 10 (1 PP), Rajada em Linha de Área 10 (1 PP). Arranjo total: 38 PP.",
         "custo_2e_pp": 38,
         "custo_3e_pp": 38,
         "nome_pt": "Rajada Óptica e Deflexão"
       },
       {
         "nome": "Immunity",
-        "construcao_3e": "Imunidade 1 (Havok's powers).",
+        "construcao_3e": "Imunidade 1 (Havok's Poderes).",
         "custo_2e_pp": 1,
         "custo_3e_pp": 1,
         "nome_pt": "Imunidade aos Poderes do Destrutor"

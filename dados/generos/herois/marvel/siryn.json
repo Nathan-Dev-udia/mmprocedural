@@ -41,16 +41,16 @@
       "Contatos",
       "Bem Relacionado",
       "Rolamento Defensivo 2",
-      "Endurance",
+      "Tolerância Maior",
       "Equipamento",
-      "Ambiente Favorito [Aéreo] 4",
-      "Move By Action",
+      "Ambiente Favorito (Aéreo) 4",
+      "Ação em Movimento",
       "Trabalho em Equipe 2"
     ],
     "poderes": [
       {
         "nome": "Blast",
-        "construcao_3e": "Dano Sônico à Distância 10 (Área em Cone, Duração Concentração; 40 PP); Efeitos Alternativos: Ofuscar Auditivo em Cone (1 PP), Deflexão Livre de Projéteis Lentos (1 PP), Controle Emocional Sônico (1 PP). Array total: 44 PP (custo original da fonte preservado).",
+        "construcao_3e": "Dano Sônico à Distância 10 (Área em Cone, Duração Concentração; 40 PP); Efeitos Alternativos: Ofuscar Auditivo em Cone (1 PP), Deflexão Livre de Projéteis Lentos (1 PP), Controle Emocional Sônico (1 PP). Arranjo total: 44 PP (custo original da fonte preservado).",
         "custo_2e_pp": 44,
         "custo_3e_pp": 44,
         "nome_pt": "Grito Sônico"

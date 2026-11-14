@@ -14,7 +14,7 @@
       "Pre": 5
     },
     "poderes": [
-      "Elasticity (Alongamento 4 (120 feet); Enhanced Advantages 4 (Chokehold, Fast Grab, Improved Grab, Improved Hold); Força-based Dano 3); Mimicry (Característica 1 (Vocal Mimetismo)); Shapechanger (Metamorfose 3 (Humanoids)); Shapeshifting (Variável 8 (Assumed Forms), Ação de Movimento, Limitado a Living Creatures)"
+      "Elasticity (Alongamento 4 (120 pés); Vantagens Aprimoradas 4 (Estrangular, Agarrar Rápido, Agarrar Aprimorado, Imobilizar Aprimorado); Força-based Dano 3); Mimicry (Característica 1 (Vocal Mimetismo)); Shapechanger (Metamorfose 3 (Humanoids)); Shapeshifting (Variável 8 (Assumed Forms), Ação de Movimento, Limitado a Living Creatures)"
     ],
     "equipamento": [],
     "vantagens": [
@@ -23,7 +23,7 @@
       "Agarrar Rápido",
       "Agarrar Aprimorado",
       "Imobilizar Aprimorado",
-      "Languages (French)"
+      "Idiomas (Francês)"
     ],
     "pericias": [
       {
@@ -95,11 +95,11 @@
     "complicacoes": [
       {
         "titulo": "Psychotic",
-        "texto": "Gemini holds no value on human life and kills with a detached ease that makes her Não Confiável and unpredictable."
+        "texto": "Gemini holds no value on human life e kills com a detached ease that makes her Não Confiável e unpredictable."
       },
       {
         "titulo": "Thirst for Revenge",
-        "texto": "Gemini is the vicious killer she is today because of her heated rage and desire to avenge her mother’s death at the hands of Beast Boy, regardless of the accidental circumstances that led to the tragedy."
+        "texto": "Gemini is the vicious killer she is today because of her heated rage e desire to avenge her mother’s death at the hands of Beast Boy, regardless of the accidental circumstances that led to the tragedy."
       }
     ]
   },

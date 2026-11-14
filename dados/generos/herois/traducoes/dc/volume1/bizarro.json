@@ -14,21 +14,21 @@
       "Pre": 1
     },
     "poderes": [
-      "Arctic Vision: Dano à Distância 15 (Frio) (30 PP)",
+      "Arctic Visão: Dano à Distância 15 (Frio) (30 PP)",
       "Falling: Arranjo (30 pontos)",
-      "• Down, Down, and Here!: Voo 15 (64,0 km/h) (30 PP)",
-      "• Earth Voo: Movimento 1 (Space Travel) (1 PP)",
-      "• Slower than Speeding Bullet!: Velocidade 15 (64,0 km/h) (1 PP)",
-      "Flame Breath: Área de Cone Dano 12 (fogo)t (24 PP)",
-      "Super-Senselessness: Sentidos 15 (Aguçado and Audição Estendida, Visão Estendida 3, Infravisão, Visão Microscópica 4, Ultra- Hearing, Vision Penetrates Camuflagem (only lead)) (13 PP)",
+      "• Down, Down, e Here!: Voo 15 (102.400 km/h) (30 PP)",
+      "• Earth Voo: Movimento 1 (Viagem Espacial) (1 PP)",
+      "• Slower than Speeding Bullet!: Velocidade 15 (102.400 km/h) (1 PP)",
+      "Flame Breath: Área de Cone Dano 12 (Fogo)t (24 PP)",
+      "Super-Senselessness: Sentidos 15 (Aguçado e Audição Estendida, Visão Estendida 3, Infravisão, Visão Microscópica 4, Ultra- Audição, Visão Penetrates Camuflagem (Apenas lead)) (13 PP)",
       "Super-Slow: Rapidez 8 (8 PP)",
-      "Super-Weakness: Força Aprimorada 4, Limitado a Lifting (lifting Str 23; 200,000 tons) (4 PP)",
+      "Super-Weakness: Força Aprimorada 4, Limitado a Lifting (lifting Str 23; 200,000 toneladas) (4 PP)",
       "Vulnerability: Proteção 4; Resistência Impenetrável 18; Imunidade 5 (Frio, Calor, Pressão, Radiação, Vácuo) (27 PP)"
     ],
     "equipamento": [],
     "vantagens": [
       "Ataque Poderoso",
-      "Esforço Supremo (Toughness checks)"
+      "Esforço Supremo (Resistência Testes)"
     ],
     "pericias": [
       {
@@ -50,7 +50,7 @@
     "iniciativa": 2,
     "ataques": [
       {
-        "nome": "Arctic Vision",
+        "nome": "Arctic Visão",
         "bonus": 10,
         "alcance": "À distância",
         "dano": "Dano 15"

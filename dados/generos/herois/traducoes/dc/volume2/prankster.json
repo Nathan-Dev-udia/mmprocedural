@@ -14,11 +14,11 @@
       "Pre": 4
     },
     "poderes": [
-      "Campainha Elétrica: Dano 8 (eletricidade), Removível (-2 pontos) (6 PP)",
+      "Campainha Elétrica: Dano 8 (Eletricidade), Removível (-2 pontos) (6 PP)",
       "Laughing Gun: Aflição à Distância 12 (resistido por Fortitude; Tonto, Atordoado, Incapacitado), Facilmente Removível (-10 pontos) (14 PP)"
     ],
     "equipamento": [
-      "Prankster usually has up 60 pontos’ worth of comedic (and dangerous) inventions at his disposal. a V ant G d a e S All-out Attack, Contacts, Defensive Roll 2, Equipment 12, Fascinate (Expertise: Comedy), Improved Trip, Inventor, Luck, Set-up, Skill Mastery (Expertise: Comedy), Taunt"
+      "Prankster usually has up 60 pontos’ worth of comedic (e dangerous) inventions at his disposal. a V ant G d a e S Ataque Imprudente, Contacts, Rolamento Defensivo 2, Equipment 12, Fascinate (Especialidade: Comédia), Improved Trip, Inventor, Luck, Set-up, Perícia Mastery (Especialidade: Comédia), Taunt"
     ],
     "vantagens": [],
     "pericias": [
@@ -38,7 +38,7 @@
         "total": 12
       },
       {
-        "nome": "Especialidade: Comedy",
+        "nome": "Especialidade: Comédia",
         "graduacoes": 9,
         "total": 14
       },

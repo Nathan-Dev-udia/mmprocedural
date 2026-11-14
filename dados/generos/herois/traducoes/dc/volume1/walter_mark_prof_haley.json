@@ -16,7 +16,7 @@
     "poderes": [],
     "equipamento": [],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Avaliação",
       "Rolamento Defensivo 4",
       "Duro de Matar",
@@ -26,10 +26,10 @@
       "Iniciativa Aprimorada",
       "Inspirar",
       "Inventor",
-      "Languages 4",
-      "Preparar",
+      "Idiomas 4",
+      "Armação",
       "Trabalho em Equipe",
-      "Bem-Informado"
+      "Bem Informado"
     ],
     "pericias": [
       {
@@ -53,7 +53,7 @@
         "total": 13
       },
       {
-        "nome": "Especialidade: Science",
+        "nome": "Especialidade: Ciência",
         "graduacoes": 3,
         "total": 10
       },

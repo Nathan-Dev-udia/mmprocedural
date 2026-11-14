@@ -22,10 +22,10 @@
     ],
     "equipamento": [],
     "vantagens": [
-      "Benefit 10 (Lord of Apokolips)",
+      "Benefício 10 (Lord of Apokolips)",
       "Destemido",
       "Ataque Poderoso",
-      "Derrubar em Sequência"
+      "Ataque Dominó"
     ],
     "pericias": [
       {
@@ -103,11 +103,11 @@
     "complicacoes": [
       {
         "titulo": "Arrogance",
-        "texto": "Darkseid is supremely arrogant and confident in his position as a god."
+        "texto": "Darkseid is supremely arrogant e confident in his position as a god."
       },
       {
         "titulo": "Obsessão",
-        "texto": "With discovering the Anti-Life Equation and extinguishing free Vontade throughout the cosmos."
+        "texto": "com discovering the Anti-Life Equation e extinguishing free Vontade throughout the cosmos."
       }
     ]
   },

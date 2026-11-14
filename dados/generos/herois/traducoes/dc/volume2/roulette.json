@@ -14,34 +14,34 @@
       "Pre": 5
     },
     "poderes": [
-      "Memories of d estiny Sentidos 4 (Precognition), Distrativo, Unc ontrolled (2 PP)",
-      "Stolen Gear: Arranjo (27 pontos), Facilmente Removível (–10 pontos) • Gorgon’s Head: Cumulativo Perception área Aflição 9 (resistido por Fortitude; Tonto, Imóvel; Transformado (Stone)) (27 PP)",
-      "• f ir ebug’s Gauntlets: Área de Cone Dano 9 (fogo) (1 PP)",
+      "Memories of d estiny Sentidos 4 (Precognição), Distrativo, Unc ontrolled (2 PP)",
+      "Stolen Gear: Arranjo (27 pontos), Facilmente Removível (-10 pontos) • Gorgon’s Head: Cumulativo Percepção área Aflição 9 (resistido por Fortitude; Tonto, Imóvel; Transformado (Stone)) (27 PP)",
+      "• f ir ebug’s Gauntlets: Área de Cone Dano 9 (Fogo) (1 PP)",
       "• Harpi’s Claws: Força-based Dano 2, Penetrante 2 (1 PP)",
-      "• r am ’s i n terface: Compreender Machines (1 PP)",
+      "• r am ’s i n terface: Compreender Máquinas (1 PP)",
       "i PM ent eQU H q : tH e House • 23 POI n TS Size: Large t ou: 14 f ea tures: Combat Simulator, Communications, Computer, Concealed 3 (CD 30),"
     ],
     "equipamento": [],
     "vantagens": [
       "Avaliação",
       "Atraente",
-      "Beginner’s Luck",
-      "Benefit 2 (Cipher)",
-      "Benefit 4 (Multi-millionaire)",
+      "Sorte de Principiante",
+      "Benefício 2 (Cifra)",
+      "Benefício 4 (Multimilionário)",
       "Ataque Corpo-a-Corpo 7",
-      "Conectado",
+      "Bem Relacionado",
       "Tontear (Enganação)",
       "Rolamento Defensivo 5",
       "Equipamento 5",
-      "Evasion",
+      "Evasão",
       "Inspirar 3",
-      "Languages 2",
+      "Idiomas 2",
       "Liderança",
       "Sorte 3",
       "Capanga 9",
       "Redirecionar",
-      "Preparar",
-      "Bem-Informado"
+      "Armação",
+      "Bem Informado"
     ],
     "pericias": [
       {
@@ -50,7 +50,7 @@
         "total": 15
       },
       {
-        "nome": "Especialidade: Streetwise",
+        "nome": "Especialidade: Manha",
         "graduacoes": 9,
         "total": 13
       },
@@ -90,8 +90,33 @@
         "total": 14
       }
     ],
-    "iniciativa": 0,
-    "ataques": [],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Firebug’s Gauntlets",
+        "bonus": null,
+        "alcance": "Corpo a corpo",
+        "dano": "Área de Cone Dano 9"
+      },
+      {
+        "nome": "Gorgon’s Head",
+        "bonus": null,
+        "alcance": "À distância",
+        "dano": "Cumulativo Percepção área Aflição 9 (Esquiva CD 19)"
+      },
+      {
+        "nome": "Harpi’s Claws",
+        "bonus": 13,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 3, Penetrante 2"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 13,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 1"
+      }
+    ],
     "defesas": {
       "Esquiva": 12,
       "Fortitude": 6,

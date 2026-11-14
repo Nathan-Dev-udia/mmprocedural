@@ -14,26 +14,26 @@
       "Pre": 4
     },
     "poderes": [
-      "Living Mist: Intangibilidade 4, Contínuo, Reação, Preciso, Limitado—Not through airtight or solid objects; Voo 4 (48 km/h), Contínuo, Sutil 2 (39 PP)"
+      "Living Mist: Intangibilidade 4, Contínuo, Reação, Preciso, Limitado—Not through airtight or solid Objetos; Voo 4 (48 km/h), Contínuo, Sutil 2 (39 PP)"
     ],
     "equipamento": [
-      "Light Pistola: Dano à Distância 3 (6 PP)"
+      "Luz Pistola: Dano à Distância 3 (6 PP)"
     ],
     "vantagens": [
       "Avaliação",
-      "Benefit 4 (Multi-millionaire)",
-      "Conectado",
+      "Benefício 4 (Multimilionário)",
+      "Bem Relacionado",
       "Rolamento Defensivo 6",
       "Equipamento 2",
-      "Evasion",
-      "Esconder-se a Plena Vista",
+      "Evasão",
+      "Esconder-se à Plena Vista",
       "Inventor",
       "Liderança",
       "Ataque Poderoso",
       "Redirecionar",
-      "Preparar",
+      "Armação",
       "Maestria em Perícia (Furtividade)",
-      "Provocar",
+      "Zombar",
       "Esquiva Fabulosa"
     ],
     "pericias": [
@@ -43,7 +43,7 @@
         "total": 14
       },
       {
-        "nome": "Especialidade: Chemistry",
+        "nome": "Especialidade: Química",
         "graduacoes": 14,
         "total": 20
       },
@@ -68,7 +68,7 @@
         "total": 10
       },
       {
-        "nome": "Combate à Distância: Guns",
+        "nome": "Combate à Distância: Armas de Fogo",
         "graduacoes": 12,
         "total": 14
       },
@@ -91,7 +91,7 @@
     "iniciativa": 0,
     "ataques": [
       {
-        "nome": "Light Pistola",
+        "nome": "Luz Pistola",
         "bonus": 14,
         "alcance": "À distância",
         "dano": "Dano 3"
@@ -116,11 +116,11 @@
     "complicacoes": [
       {
         "titulo": "riv en by Madness",
-        "texto": "remained as powerful as ever but slowly began to lose his mental faculties. A deal with the demon Neron restored his mind, but he remained driven by a burning need for vengeance against the heroes who defeated him in the past—particularly Starman."
+        "texto": "remained as powerful as ever but slowly began to lose his mental faculties. A deal com the demon Neron restored his mind, but he remained driven by a burning need for vengeance contra the heroes who defeated him in the past—particularly Starman."
       },
       {
         "titulo": "The first Mist trained his son to follow in his f amily Business",
-        "texto": "footsteps, and eventually also advised his daughter after she turned to villainy."
+        "texto": "footsteps, e eventually also advised his daughter after she turned to villainy."
       }
     ]
   },

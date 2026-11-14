@@ -133,3 +133,52 @@ def test_pdf_ajustes_da_conferencia():
     assert block["Descrição 1"] == "Corpo a corpo, crítico 16-20" and block["Complicações 1"] == "for His Own Good"
     dwarf = herois_pdf.campos_do_heroi("dc/volume2/dwarfstar")
     assert dwarf["Ataque 2"] == "Throwing Knife +10" and dwarf["Descrição 2"] == "À distância, crítico 19-20"
+
+
+def test_glossario_canonico_e_limpeza_herois():
+    import json
+    import subprocess
+    import sys
+    from ferramentas.tradutor_herois import traduzir_vantagem
+
+    assert traduzir_vantagem("Accurate Attack") == "Ataque Acurado"
+    assert traduzir_vantagem("Precise Attack 2 (Ranged; Cover and Concealment)") == "Ataque Preciso 2 (À Distância; Cobertura e Camuflagem)"
+    assert traduzir_vantagem("Improved Critical 2 (Unarmed)") == "Crítico Aprimorado 2 (Desarmado)"
+    assert traduzir_vantagem("Evasion 2") == "Evasão 2"
+    assert traduzir_vantagem("Jack- of-all-trades") == "Faz Tudo"
+    assert traduzir_vantagem("Well- informed") == "Bem Informado"
+
+    # Marvel: Chamber legal, perícias acentuadas e vantagens traduzidas
+    chamber = json.loads((app.Path(app.__file__).parent / "dados" / "generos" / "herois" / "marvel" / "chamber.json").read_text("utf-8"))
+    assert chamber["ficha"]["validacao_np"]["legal"] is True
+    archangel = herois.ficha("marvel/archangel")
+    pericias_arch = next(s for s in archangel["secoes"] if s["titulo"] == "Perícias")["itens"]
+    assert any(p.startswith("Enganação ") for p in pericias_arch)
+    assert any(p.startswith("Percepção ") for p in pericias_arch)
+
+    # DC traduzida: Amazo com velocidade corrigida, vantagens canônicas e Imune visível; Artemisa e Terra com defesas/ataques
+    amazo = herois.ficha("dc/volume1/amazo")
+    def_amazo = next(s for s in amazo["secoes"] if s["titulo"] == "Defesas")["itens"]
+    assert "Fortitude Imune" in def_amazo[0]
+    pod_amazo = " ".join(next(s for s in amazo["secoes"] if s["titulo"] == "Poderes")["itens"])
+    assert "3.200.000 km/h" in pod_amazo
+    assert "Ataque Dominó" in pod_amazo
+    for slug_vol in ("volume2/artemis", "volume2/terra", "volume2/peacemaker", "volume2/shadow_homunculus", "volume2/toyman_robot"):
+        assert herois.traducao(f"dc/{slug_vol}")["ficha"]["defesas"]
+    for slug_raw in ("volume1/adam_strange", "volume1/captain_comet", "volume1/blockbuster_roland_desmond", "volume2/dwarfstar"):
+        assert herois.traducao(f"dc/{slug_raw}") is None
+
+    # Invencível e Outros: sem escapes Markdown residuais e perícias canônicas
+    for pasta in ("invencivel", "outros"):
+        for arq in (app.Path(app.__file__).parent / "dados" / "generos" / "herois" / pasta).glob("*.json"):
+            txt = arq.read_text("utf-8")
+            assert "\\-" not in txt and "\\+" not in txt and "\\[" not in txt, arq.name
+    battle_beast = json.loads((app.Path(app.__file__).parent / "dados" / "generos" / "herois" / "invencivel" / "battle_beast.json").read_text("utf-8"))
+    assert "Acrobacia" in battle_beast["ficha"]["pericias"]
+
+    # Auditoria executa sem erros estruturais nem escapes residuais
+    res = subprocess.run([sys.executable, "ferramentas/auditar_herois.py"], capture_output=True, text=True, check=True)
+    assert "AUDITORIA_ERRO_DADOS_INVALIDOS" not in res.stdout
+    assert "ESCAPE_MARKDOWN_RESIDUAL" not in res.stdout
+    assert "PERICIA_NAO_RECONHECIDA" not in res.stdout
+    assert "'marvel': {'jogável': 116}" in res.stdout

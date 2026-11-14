@@ -14,30 +14,30 @@
       "Pre": 0
     },
     "poderes": [
-      "t riple -Jointed (Enhanced Advantages 3 (Second Chance (Escape Checks), Skill Mastery (Sleight of Hand), Ultimate Effort (Contortion checks), Ultimate Effort (Escape Checks)); Força Aprimorada 4, Limitado: Attacks against Grabbed Foes Only; Enhanced Skill 4 (Sleight of Hand +8, Limitado a Contorting and Escaping Checks); Imunidade 20 (Blunt Force Trauma), Limitado a Half Effect)"
+      "t riple -Jointed (Vantagens Aprimoradas 3 (Segunda Chance (Escape Testes), Perícia Mastery (Prestidigitação), Ultimate Effort (Contortion Testes), Ultimate Effort (Escape Testes)); Força Aprimorada 4, Limitado: Attacks contra Grabbed Foes Apenas; Perícia Aprimorada 4 (Prestidigitação +8, Limitado a Contorting e Escaping Testes); Imunidade 20 (Blunt Force Trauma), Limitado a Half Effect)"
     ],
     "equipamento": [],
     "vantagens": [
       "Finta Ágil",
       "Ataque Imprudente",
-      "Benefício (Ambidexterity)",
+      "Benefício (Ambidestria)",
       "Estrangular",
       "Ataque Corpo-a-Corpo 3",
       "Ataque Defensivo",
       "Rolamento Defensivo 2",
-      "Evasion",
+      "Evasão",
       "Agarrar Rápido",
-      "Agarrar com Destreza",
+      "Agarrar Preciso",
       "Defesa Aprimorada",
       "Imobilizar Aprimorado",
       "Arma Improvisada",
-      "Segunda Chance (Escape Checks)",
-      "Preparar",
+      "Segunda Chance (Escape Testes)",
+      "Armação",
       "Maestria em Perícia (Prestidigitação)",
       "Trabalho em Equipe",
       "Esquiva Fabulosa",
-      "Esforço Supremo (Contortion checks)",
-      "Esforço Supremo (Escape checks)"
+      "Esforço Supremo (Contortion Testes)",
+      "Esforço Supremo (Escape Testes)"
     ],
     "pericias": [
       {
@@ -130,7 +130,7 @@
     "complicacoes": [
       {
         "titulo": "Perda de Poder",
-        "texto": "Rag Doll must keep his skin lubricated with special chemicals to avoid it drying out and developing painful cracks, which make it impossible for him to use his Powers without causing himself injury. f r eak: Rag Doll is deeply disturbed and profoundly insane. He is covered in scars and physically twisted from numerous surgeries."
+        "texto": "Rag Doll must keep his skin lubricated com special chemicals to avoid it drying out e developing painful cracks, which make it impossible for him to use his Poderes sem causing himself injury. f r eak: Rag Doll is deeply disturbed e profoundly insane. He is covered in scars e physically twisted from numerous surgeries."
       }
     ]
   },

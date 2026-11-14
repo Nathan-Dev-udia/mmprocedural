@@ -59,7 +59,7 @@
     "poderes": [
       {
         "nome": "Strike / Boost / Super-Senses / Healing / Telepathy",
-        "construcao_3e": "Golpe 2 (Penetrante 6, Efeito Colateral: Fatigado, baseado em Força); Efeitos Alternativos: Força Aumentada 4, Agilidade Aumentada, Sentidos, Cura (Ação de 1 minuto), Telepatia 6 (Curto alcance). Custo do array: 10 PP.",
+        "construcao_3e": "Golpe 2 (Penetrante 6, Efeito Colateral: Fatigado, baseado em Força); Efeitos Alternativos: Força Aumentada 4, Agilidade Aumentada, Sentidos, Cura (Ação de 1 minuto), Telepatia 6 (Curto alcance). Custo do Arranjo: 10 PP.",
         "custo_2e_pp": 10,
         "custo_3e_pp": 10,
         "nome_pt": "Punho de Ferro / Canalização de Chi"
@@ -102,4 +102,4 @@
     "Dodge foi ajustada de 23 para 15 para cumprir Dodge + Toughness ≤ 20 (NP 10).",
     "Poderes fechados em 3e: Array de Punho de Ferro e Chi precificado em 10 PP (preserva o custo original da fonte). Total 3e: 164 PP."
   ]
-}
+}

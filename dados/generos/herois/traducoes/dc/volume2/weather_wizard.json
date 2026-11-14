@@ -14,20 +14,20 @@
       "Pre": 1
     },
     "poderes": [
-      "Cloud r iding: Voo 5 (96 km/h) (10 PP)",
-      "Weather Control: 30-ponto Arranjo • a ir C ontrol: Área de Explosão Mover Objetos 10, Dynamic (31 PP)",
-      "• e xtreme Weather: Environment 10 (Intense Frio, Impede Movimento, Visibility), Dynamic (2 PP)",
-      "• f o g: Visual Camuflagem Attack, Área de Nuvem 5 (250 ft. Raio), Dynamic (2 PP)",
-      "• Glacier: Criar Objetos Ice 10, Contínuo, Dynamic (2 PP)",
-      "• Lightning: Dano à Distância 14, Dynamic, Indirect 2 (2 PP)",
-      "• t ornado: Área de Explosão Dano à Distância 10, Dynamic (2 PP)",
-      "Weather-Proof: Imunidade 10 (Weather Effects) (10 PP)"
+      "Nuvem r iding: Voo 5 (96 km/h) (10 PP)",
+      "Clima Control: 30-ponto Arranjo • a ir C ontrol: Área de Explosão Mover Objetos 10, Dinâmico (31 PP)",
+      "• e xtreme Clima: Ambiente 10 (Intense Frio, Impede Movimento, Visibility), Dinâmico (2 PP)",
+      "• f o g: Visual Camuflagem Attack, Área de Nuvem 5 (250 ft. Raio), Dinâmico (2 PP)",
+      "• Glacier: Criar Objetos Gelo 10, Contínuo, Dinâmico (2 PP)",
+      "• Lightning: Dano à Distância 14, Dinâmico, Indireto 2 (2 PP)",
+      "• t ornado: Área de Explosão Dano à Distância 10, Dinâmico (2 PP)",
+      "Clima-Proof: Imunidade 10 (Clima Efeitos) (10 PP)"
     ],
     "equipamento": [],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Rolamento Defensivo 4",
-      "Ambiente Favorito (Extreme Weather)",
+      "Ambiente Favorito (Extreme Clima)",
       "Inventor",
       "Trabalho em Equipe"
     ],
@@ -63,8 +63,15 @@
         "total": 7
       }
     ],
-    "iniciativa": 0,
-    "ataques": [],
+    "iniciativa": 1,
+    "ataques": [
+      {
+        "nome": "Lightning Bolt",
+        "bonus": 6,
+        "alcance": "À distância",
+        "dano": "Dano 14 Tornado À Distância Área de Explosão, Dano 10"
+      }
+    ],
     "defesas": {
       "Esquiva": 12,
       "Fortitude": 6,
@@ -88,7 +95,7 @@
       },
       {
         "titulo": "Peculiaridade",
-        "texto": "Even though he no longer needs to use his wand, Weather Wizard still chooses to use it as a focus for his Powers. the original Rogues who tangled with Barry Allen, and when Allen apparently died, Mardon pondered retiring from his life of crime. However, the Rogues were drawn back together ev- ery time a new speedster took up the mantle of the Flash. p er S ona LI ty Weather Wizard is about as unpredictable as, well, the weath- er. Mark delights in using his Powers for Destruição regard- less of the collateral Dano to others, but he is burdened by a sense of guilt over his brother’s death. Likewise, despite having enough savvy to apply his brother’s weather technol- ogy, he unnecessarily limits his Powers and his crimes, appar- ently incapable of visualizing Destruição on a global scale."
+        "texto": "Even though he no longer needs to use his wand, Clima Wizard still chooses to use it as a focus for his Poderes. the original Rogues who tangled com Barry Allen, e when Allen apparently died, Mardon pondered retiring from his life of crime. However, the Rogues were drawn back together ev- ery time a new speedster took up the mantle of the Flash. p er S ona LI ty Clima Wizard is about as unpredictable as, well, the weath- er. Mark delights in using his Poderes for Destruição regard- less of the collateral Dano to others, but he is burdened by a sense of guilt over his brother’s death. Likewise, despite having enough savvy to apply his brother’s Clima technol- ogy, he unnecessarily limits his Poderes e his crimes, appar- ently incapable of visualizing Destruição on a global scale."
       }
     ]
   },

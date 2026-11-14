@@ -17,21 +17,21 @@
       "Miraclo Velocidade: Arranjo (12 pontos)",
       "• Tachyon Rider: Voo 6 (192 km/h) (12 PP)",
       "• Personal Timeline Compression: Rapidez 12 (1 PP)",
-      "Time Vision: Arranjo (16 pontos)",
+      "Time Visão: Arranjo (16 pontos)",
       "• Accelerated Envelhecimento: Alcance de Percepção Dano 4, Penetrante 4 (resistido por Esquiva) (16 PP)",
       "• Chronal Stasis: Alcance de Percepção Aflição 5 (resistido por Vontade; Tonto, Atordoado, Incapacitado), Reversível (1 PP)",
-      "• Temporal Reversion: Sentidos 8 (Postcognition, Precognition) (1 PP)",
+      "• Temporal Reversion: Sentidos 8 (Pós-cognição, Precognição) (1 PP)",
       "TIMESHIP: VEHICLE (25 PP)",
-      "Size: Gargantuan Str 12 Velocidade 4 (Voo) Def 6 Tou 14 Features: Timeship can be summoned across time by Hourman, Time Engines: Movimento 5 (full time travel, dimension travel to alternate timelines and temporal pocket universes)"
+      "Size: Gargantuan Str 12 Velocidade 4 (Voo) Def 6 Tou 14 Características: Timeship can be summoned across time by Hourman, Time Engines: Movimento 5 (full Viagem no Tempo, dimension travel to alternate timelines e temporal pocket universes)"
     ],
     "equipamento": [],
     "vantagens": [
       "Ataque Imprudente",
       "Avaliação",
-      "Beginner’s Luck",
+      "Sorte de Principiante",
       "Memória Eidética",
       "Equipamento 5",
-      "Evasion",
+      "Evasão",
       "Ataque Poderoso",
       "Parceiro 15"
     ],
@@ -53,7 +53,13 @@
         "nome": "Desarmado",
         "bonus": 12,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 8 Accelerated Envelhecimento — Alcance de Percepção, Dano 5, Penetrante 5, resistido por Esquiva Chronal Stasis — Alcance de Percepção, Aflição 6 (resistido por Vontade), Reversível"
+        "dano": "Dano 8"
+      },
+      {
+        "nome": "Accelerated Envelhecimento",
+        "bonus": null,
+        "alcance": "Percepção",
+        "dano": "Dano 5, Penetrante 5, resistido por Esquiva Chronal Stasis — Alcance de Percepção, Aflição 6 (resistido por Vontade), Reversível"
       }
     ],
     "defesas": {
@@ -75,11 +81,11 @@
     "complicacoes": [
       {
         "titulo": "Naive",
-        "texto": "Despite all his power, Hourman is uncertain how to truly be a hero and live up to his heritage. Though his fellow heroes and his friends help him as best they can, Hourman sometimes turns to the wrong people for advice."
+        "texto": "Despite all his Poder, Hourman is uncertain how to truly be a hero e live up to his heritage. Though his fellow heroes e his friends help him as best they can, Hourman sometimes turns to the wrong people for advice."
       },
       {
         "titulo": "Amazo",
-        "texto": "Since stealing part of Hourman’s time Powers, the android Amazo is behind many of Hourman’s problems."
+        "texto": "Since stealing part of Hourman’s time Poderes, the android Amazo is behind many of Hourman’s problems."
       }
     ]
   },

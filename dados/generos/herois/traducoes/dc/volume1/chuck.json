@@ -23,9 +23,9 @@
       "Rolamento Defensivo 2",
       "Equipamento 16",
       "Defesa Aprimorada",
-      "Ferramentas Improvisadas",
+      "Ferramentas Aprimoradas",
       "Ataque Poderoso",
-      "Takedown Attack",
+      "Ataque Dominó",
       "Trabalho em Equipe"
     ],
     "pericias": [
@@ -45,7 +45,7 @@
         "total": 9
       },
       {
-        "nome": "Especialidade: Electronics",
+        "nome": "Especialidade: Eletrônica",
         "graduacoes": 7,
         "total": 10
       },
@@ -60,7 +60,7 @@
         "total": 8
       },
       {
-        "nome": "Combate à Distância: Firearms",
+        "nome": "Combate à Distância: Armas de Fogo",
         "graduacoes": 6,
         "total": 9
       },

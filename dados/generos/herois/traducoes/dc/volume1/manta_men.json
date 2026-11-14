@@ -14,7 +14,7 @@
       "Pre": 2
     },
     "poderes": [
-      "Gill-implants (Imunidade 1: Afogamento); Movimento 1 (Environmental Adaptation 1: Aquatic)"
+      "Gill-implants (Imunidade 1: Afogamento); Movimento 1 (Adaptação Ambiental 1: Aquatic)"
     ],
     "equipamento": [
       "Commlink, Diving Suits (Proteção 2, Natação 3 (6 km/h)), Goggles (Sentidos 1: Visão na Penumbra), Spear-gun (Dano à Distância 4)"
@@ -34,7 +34,7 @@
         "total": 4
       },
       {
-        "nome": "Combate à Distância: Spear-Guns",
+        "nome": "Combate à Distância: Spear-Armas de Fogo",
         "graduacoes": 4,
         "total": 4
       }

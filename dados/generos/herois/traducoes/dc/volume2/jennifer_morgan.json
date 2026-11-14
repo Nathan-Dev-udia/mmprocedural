@@ -14,16 +14,16 @@
       "Pre": 3
     },
     "poderes": [
-      "Mystical Sentidos (Sense 4 (Detect mágico, À Distância, Aguçado, Analítico)); Levitation (Voo 2 (12 km/h, Concentração); Sorcery (Arranjo (22 pontos), mágico Raio (Dano à Distância 10, Affects Intangibilidade (full effect), Dynamic), ae : Mystic Escudo (Deflexão 12, Impenetrável Proteção 5, Sustentado, Dynamic), ae : Clairvoyance (Remote Sensing 11 (Sight)), ae : d isp el mágico (Nulificar Magical Effects 10, Broad, Preciso), ae : Cure (Cura 7, Restorative, Stabilize), ae : i llusion- Casting (Ilusão 7 (Visual and Auditory))"
+      "Mystical Sentidos (Sense 4 (Detectar Magia, À Distância, Aguçado, Analítico)); Levitation (Voo 2 (12 km/h, Concentração); Sorcery (Arranjo (22 pontos), Magia Raio (Dano à Distância 10, Affects Intangibilidade (full effect), Dinâmico), ae : Místico Escudo (Deflexão 12, Impenetrável Proteção 5, Sustentado, Dinâmico), ae : Clairvoyance (Sensoriamento Remoto 11 (Visão)), ae : d isp el Magia (Nulificar Mágico Efeitos 10, Amplo, Preciso), ae : Cure (Cura 7, Restorative, Stabilize), ae : i llusion- Casting (Ilusão 7 (Visual e Auditivo))"
     ],
     "equipamento": [],
     "vantagens": [
       "Artífice",
       "Atraente",
-      "Benefit 2 (Supreme Sorceress of Skartaris)",
+      "Benefício 2 (Supreme Sorceress of Skartaris)",
       "Ataque Defensivo",
       "Esforço Extraordinário",
-      "Languages 3",
+      "Idiomas 3",
       "Ritualist. Trance"
     ],
     "pericias": [
@@ -38,12 +38,12 @@
         "total": 7
       },
       {
-        "nome": "Especialidade: History",
+        "nome": "Especialidade: História",
         "graduacoes": 5,
         "total": 8
       },
       {
-        "nome": "Especialidade: mágico",
+        "nome": "Especialidade: Magia",
         "graduacoes": 7,
         "total": 10
       },
@@ -68,7 +68,7 @@
         "total": 7
       },
       {
-        "nome": "Combate à Distância: mágico",
+        "nome": "Combate à Distância: Magia",
         "graduacoes": 5,
         "total": 8
       },
@@ -86,10 +86,10 @@
     "iniciativa": 3,
     "ataques": [
       {
-        "nome": "mágico Raio",
+        "nome": "Magia Raio",
         "bonus": 8,
         "alcance": "",
-        "dano": "(Dano 10 mais outros)"
+        "dano": "Dano 10 mais outros"
       }
     ],
     "defesas": {
@@ -111,11 +111,11 @@
     "complicacoes": [
       {
         "titulo": "r elationships",
-        "texto": "Warlord (father), Joshua (half- brother) and various allies and friends."
+        "texto": "Warlord (father), Joshua (half- brother) e various allies e friends."
       },
       {
         "titulo": "Sorceress",
-        "texto": "Must be able to gesture and speak to use her Powers effectively."
+        "texto": "Must be able to gesture e speak to use her Poderes effectively."
       }
     ]
   },

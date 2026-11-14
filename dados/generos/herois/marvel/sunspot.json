@@ -40,18 +40,18 @@
       "Combate a Distância: Blast": 7
     },
     "vantagens": [
-      "All-Out attack",
-      "Benefício [Wealth x3] 3",
+      "Ataque Imprudente",
+      "Benefício (Riqueza x3) 3",
       "Bem Relacionado",
       "Equipamento",
-      "Endurance",
+      "Tolerância Maior",
       "Ataque Poderoso",
       "Idiomas 3"
     ],
     "poderes": [
       {
         "nome": "Blast [Concussive]",
-        "construcao_3e": "Array Solar Dinâmico: Dano Solar de Energia Concussiva à Distância 10 (22 PP); Efeitos Alternativos Dinâmicos: Voo Solar 5 (2 PP), Rajada Térmica Solar 10 (1 PP) = 25 PP.",
+        "construcao_3e": "Arranjo Solar Dinâmico: Dano Solar de Energia Concussiva à Distância 10 (22 PP); Efeitos Alternativos Dinâmicos: Voo Solar 5 (2 PP), Rajada Térmica Solar 10 (1 PP) = 25 PP.",
         "custo_2e_pp": 25,
         "custo_3e_pp": 25,
         "nome_pt": "Rajada Solar Concussiva e Térmica (Array)"
@@ -65,7 +65,7 @@
       },
       {
         "nome": "Super Strength",
-        "construcao_3e": "Super-Força / Power-Lifting 3 (3 PP).",
+        "construcao_3e": "Super-Força / Levantamento de Peso 3 (3 PP).",
         "custo_2e_pp": 6,
         "custo_3e_pp": 3,
         "nome_pt": "Super-Força / Power-Lifting"

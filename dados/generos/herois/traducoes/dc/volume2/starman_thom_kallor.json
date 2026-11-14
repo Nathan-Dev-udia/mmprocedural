@@ -14,17 +14,17 @@
       "Pre": 3
     },
     "poderes": [
-      "71 Defenses 36"
+      "71 Defesas 36"
     ],
     "equipamento": [
-      "f ligh t r ing: Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal –3); Voo 7 (400 km/h) (19 PP)",
-      "t elepa thic Plug: Compreender 3 (Languages; Speak, Understand, Understood), mental Comunicação 1 (100 feet) (10 PP)",
-      "t r anssuit: Imunidade 9 (Suporte Vital, except for Inanição and thirst) (9 PP)",
-      "d a e S a V ant G Benefit 1 (Legion Membership), Defensive Roll 4, Equipment 8, Improved Smash, Well-informed"
+      "f Luz r ing: Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal -3); Voo 7 (400 km/h) (19 PP)",
+      "t elepa thic Plug: Compreender 3 (Languages; Speak, Understand, Understood), Comunicação Mental 1 (100 pés) (10 PP)",
+      "t r anssuit: Imunidade 9 (Suporte Vital, except for Fome e Sede) (9 PP)",
+      "d a e S a V ant G Benefit 1 (Legion Membership), Rolamento Defensivo 4, Equipment 8, Improved Smash, Well-informed"
     ],
     "vantagens": [
       "15 Total 173 Co MPL i C tion S a o Though he enjoys being a superhero",
-      "Starman n a M ission: never forgets (and constantly reminds his friends) that he’s on an important mission from the future. Crazy: Starman’s mind was scrambled by his journey through the multiverse as he traveled between the future and the past."
+      "Starman n a M ission: never forgets (e constantly reminds his friends) that he's on an important mission from the future. Crazy: Starman's mind was scrambled by his journey through the multiverse as he traveled between the future and the past."
     ],
     "pericias": [
       {
@@ -46,16 +46,16 @@
     "iniciativa": 3,
     "ataques": [
       {
-        "nome": "Increase Gravity",
+        "nome": "Increase Gravidade",
         "bonus": 12,
         "alcance": "À distância",
         "dano": "Cumulativo Aflição 12, resistido por Fortitude (CD 22) Weight of Stars — À Distância, Cumulativo Aflição 12, resistido por Fortitude (CD 22)"
       },
       {
-        "nome": "Gravity Control",
+        "nome": "Gravidade Control",
         "bonus": 12,
         "alcance": "À distância",
-        "dano": "Damaging Mover Objetos 12, Improvised Weapon Desarmado +8 Corpo a Corpo, Dano 2/10 with Power of Gravity"
+        "dano": "Damaging Mover Objetos 12, Improvised Weapon Desarmado +8 Corpo a Corpo, Dano 2/10 com Poder of Gravidade"
       }
     ],
     "defesas": {

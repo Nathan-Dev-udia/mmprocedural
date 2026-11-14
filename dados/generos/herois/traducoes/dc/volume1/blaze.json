@@ -14,26 +14,26 @@
       "Pre": 5
     },
     "poderes": [
-      "Demonic Heritage: Compreender Languages 3 (Speak, Understand, and Understood), Imunidade 30 (Fortitude Effects), Proteção 7, Movimento 2 (Dimensional Travel 2 (Hell and Occult Dimensions)), Regeneração 5, Sentidos 5 (mágico Prontidão (Analítico, Extended 2)) (57 PP)",
-      "Demonic mágico: Arranjo (60 pontos)",
-      "• Call Servants: Summon 10, Heroic, Broad Variável Type (Demons and Infernal Creatures) (60 PP)",
-      "• Demonic Deception: Ilusão 12 (All Sentidos) (1 PP)",
+      "Demonic Heritage: Compreender Languages 3 (Speak, Understand, e Understood), Imunidade 30 (Efeitos de Fortitude), Proteção 7, Movimento 2 (Viagem Dimensional 2 (Hell e Occult Dimensions)), Regeneração 5, Sentidos 5 (Consciência Mágica (Analítico, Estendido 2)) (57 PP)",
+      "Demonic Magia: Arranjo (60 pontos)",
+      "• Call Servants: Invocar 10, Heroic, Amplo Variável Type (Demons e Infernal Creatures) (60 PP)",
+      "• Demonic Enganação: Ilusão 12 (All Sentidos) (1 PP)",
       "• “Granting Wishes” 1: Criar Objetos 14, Contínuo, Inato, Preciso, Sutil (1 PP)",
       "• “Granting Wishes” 2: Aflição à Distância 18 (resistido por Vontade; Tonto, Atordoado, Transformado) (1 PP)",
       "• Punishing Flames: Alcance de Percepção Dano 14, Resistência Alternativa (Fortitude), Distrativo (1 PP)",
-      "• Transmogrification: Transform 12, Anything into Anything (1 PP)",
-      "Demonic Mask: Metamorfose 3 (humanoids and animals) (15 PP)"
+      "• Transmogrification: Transformar 12, Anything into Anything (1 PP)",
+      "Demonic Mask: Metamorfose 3 (humanoids e Animais) (15 PP)"
     ],
     "equipamento": [],
     "vantagens": [
-      "Benefit 6 (Queen of Hell)",
+      "Benefício 6 (Queen of Hell)",
       "Fascinar (Enganação)",
       "Iniciativa Aprimorada",
       "Ataque à Distância 3",
       "Tomar a Iniciativa",
       "Ritualista",
       "Maestria em Perícia (Enganação)",
-      "Provocar"
+      "Zombar"
     ],
     "pericias": [
       {
@@ -47,7 +47,7 @@
         "total": 18
       },
       {
-        "nome": "Especialidade: mágico",
+        "nome": "Especialidade: Magia",
         "graduacoes": 6,
         "total": 15
       },
@@ -78,7 +78,7 @@
         "nome": "Aflição",
         "bonus": 10,
         "alcance": "À distância",
-        "dano": "Varies Punishing Flames — Perception, Dano 14, resistido por Fortitude Desarmado +7 Corpo a Corpo, Dano +9"
+        "dano": "Varies Punishing Flames — Percepção, Dano 14, resistido por Fortitude Desarmado +7 Corpo a Corpo, Dano +9"
       }
     ],
     "defesas": {
@@ -100,11 +100,11 @@
     "complicacoes": [
       {
         "titulo": "Demonic Nature",
-        "texto": "Blaze is one of the spawn of Hell and is recognizable as such with the proper mystic Sentidos."
+        "texto": "Blaze is one of the spawn of Hell e is recognizable as such com the proper Místico Sentidos."
       },
       {
         "titulo": "Uneasy Sits the Crown",
-        "texto": "Blaze’s position in Hell is always threatened. The only things that change are whether the threat is open or hidden and who happens to be behind it at any given time."
+        "texto": "Blaze’s position in Hell is always threatened. The Apenas things that change are whether the threat is open or hidden e who happens to be behind it at any given time."
       }
     ]
   },

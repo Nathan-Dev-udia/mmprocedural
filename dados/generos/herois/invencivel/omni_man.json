@@ -67,9 +67,9 @@
     ],
     "poderes": [
       "**Fisiologia Viltrumitana**: 53 pontos",
-      "• **Saúde Viltrumitana**: Imunidade 1 (Doenças), Imunidade 4 (Envelhecimento, Sufocamento 2, Venenos. **Falhas**: Limitado a Metade do Efeito \\-1), Regeneração 2, Resistência Impenetrável 15; 20 pontos",
+      "• **Saúde Viltrumitana**: Imunidade 1 (Doenças), Imunidade 4 (Envelhecimento, Sufocamento 2, Venenos. **Falhas**: Limitado a Metade do Efeito -1), Regeneração 2, Resistência Impenetrável 15; 20 pontos",
       "• **Seguro para o Espaço**: Imunidade 4 (Calor, Frio, Pressão, Vácuo), Movimento 1 (Viagem Espacial); 6 pontos",
-      "• **Tijolo Voador**: Voo 12 (1 km/mov \\- 500 km/h); 24 pontos"
+      "• **Tijolo Voador**: Voo 12 (1 km/mov - 500 km/h); 24 pontos"
     ],
     "equipamento": [],
     "iniciativa": 10,
@@ -115,7 +115,7 @@
       },
       {
         "titulo": "Relacionamento (Mark Greyson)",
-        "texto": "Mark é seu filho que também se torna super-herói. SPOILERS EM BRANCO E eventualmente é quem faz Nolan desistir de dominar a Terra \\- nunca mataria seu próprio filho."
+        "texto": "Mark é seu filho que também se torna super-herói. SPOILERS EM BRANCO E eventualmente é quem faz Nolan desistir de dominar a Terra - nunca mataria seu próprio filho."
       },
       {
         "titulo": "Temperamento (Raiva)",

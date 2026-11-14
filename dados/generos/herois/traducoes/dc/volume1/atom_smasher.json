@@ -14,7 +14,7 @@
       "Pre": 2
     },
     "poderes": [
-      "Atomic Expansion: Crescimento 10 Linked to Enhanced Resistência Impenetrável 5, Stacks with Tough (25 PP)",
+      "Atomic Expansion: Crescimento 10 Ligado a Aprimorado Resistência Impenetrável 5, Stacks com Tough (25 PP)",
       "Tough: Resistência Impenetrável 5 (5 PP)"
     ],
     "equipamento": [],
@@ -24,7 +24,7 @@
       "Agarrar Rápido",
       "Agarrar Aprimorado",
       "Interpor-se",
-      "Languages (Kahndaqi)",
+      "Idiomas (Kahndaqi)",
       "Ataque Poderoso",
       "Assustar"
     ],
@@ -60,7 +60,7 @@
         "total": 6
       },
       {
-        "nome": "Combate à Distância: Throwing",
+        "nome": "Combate à Distância: Arremesso",
         "graduacoes": 3,
         "total": 5
       },
@@ -81,7 +81,7 @@
         "nome": "Desarmado",
         "bonus": 5,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 15/5* Throwing +5 Range varies, Dano varies"
+        "dano": "Dano 15/5* Arremesso +5 Range varies, Dano varies"
       }
     ],
     "defesas": {
@@ -91,7 +91,7 @@
       "Resistência": 15,
       "Vontade": 5
     },
-    "observacao_defesas": "* Fortitude 15/5* Aparar 5/10* Resistência 15/5* Vontade 5 *Without Crescimento",
+    "observacao_defesas": "* Fortitude 15/5* Aparar 5/10* Resistência 15/5* Vontade 5 *sem Crescimento",
     "custos": {
       "Habilidades": 46,
       "Perícias": 25,
@@ -107,7 +107,7 @@
       },
       {
         "titulo": "Responsabilidade",
-        "texto": "Albert tries to honor his godfather’s memory and reputation. PERSONALITY Earnest and brave, Al is also headstrong and prone to lapses in judgment when his temper comes into play. Powers & Abilities Atom Smasher can increase his size and corresponding Força, mass, and durability. Over time, his size control has increased at the apparent loss of his ability to alter his density. ALLIES Atom Smasher has been a member of the Justice Society of America and is one of the few heroes on good terms with Black Adam. ENEMIES Al has no personal enemies of note, sharing instead in his team’s many adversaries."
+        "texto": "Albert tries to honor his godfather’s memory e reputation. PERSONALITY Earnest e brave, Al is also headstrong e Caído to lapses in judgment when his temper comes into play. Poderes & Habilidades Atom Smasher can increase his size e corresponding Força, mass, e durability. Over time, his size control has increased at the apparent loss of his Habilidade to alter his density. ALLIES Atom Smasher has been a member of the Justice Society of America e is one of the few heroes on good terms com Black Adam. ENEMIES Al has no personal enemies of note, sharing instead in his team’s many adversaries."
       }
     ]
   },

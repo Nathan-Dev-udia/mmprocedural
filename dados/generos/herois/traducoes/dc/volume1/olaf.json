@@ -24,9 +24,9 @@
       "Rolamento Defensivo 2",
       "Equipamento 18",
       "Defesa Aprimorada",
-      "Languages",
+      "Idiomas",
       "Ataque Poderoso",
-      "Takedown Attack",
+      "Ataque Dominó",
       "Trabalho em Equipe"
     ],
     "pericias": [
@@ -56,7 +56,7 @@
         "total": 8
       },
       {
-        "nome": "Combate à Distância: Firearms",
+        "nome": "Combate à Distância: Armas de Fogo",
         "graduacoes": 6,
         "total": 9
       },

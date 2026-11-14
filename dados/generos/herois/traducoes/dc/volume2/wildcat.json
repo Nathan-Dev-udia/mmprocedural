@@ -17,7 +17,7 @@
       "n Imortalidade 19, Sutil; Limitado a nine uses ine Liv es: (20 PP)"
     ],
     "equipamento": [
-      "Ve H i CL e: Motor C y CL e • 10 POI n TS Size: Medium Str: 1 Velocidade: 6 d ef: 10 t ou: 8 d a e S a V ant G Agile Feint, All-out Attack, Assessment, Corpo a Corpo Attack 5, Defensive Attack, Defensive Roll 4, Diehard, Equipment 2, Evasion, Fast Grab, Improved Critical 2 (Desarmado), Improved Defense, Improved Grab, Improved Hold, Improved Iniciativa, Improved Trip, Luck, Power Attack, Takedown 2, Taunt"
+      "Ve H i CL e: Motor C y CL e • 10 POI n TS Size: Medium Str: 1 Velocidade: 6 d ef: 10 t ou: 8 d a e S a V ant G Finta Ágil, Ataque Imprudente, Assessment, Corpo a Corpo Attack 5, Defensive Attack, Rolamento Defensivo 4, Diehard, Equipment 2, Evasão, Fast Grab, Improved Critical 2 (Desarmado), Improved Defense, Improved Grab, Improved Hold, Iniciativa Aprimorada, Improved Trip, Luck, Poder Attack, Ataque Dominó 2, Taunt"
     ],
     "vantagens": [],
     "pericias": [
@@ -37,7 +37,7 @@
         "total": 6
       },
       {
-        "nome": "Especialidade: The Sweet Science of Boxing",
+        "nome": "Especialidade: The Sweet Ciência of Boxing",
         "graduacoes": 14,
         "total": 14
       },
@@ -77,8 +77,15 @@
         "total": 10
       }
     ],
-    "iniciativa": 0,
-    "ataques": [],
+    "iniciativa": 8,
+    "ataques": [
+      {
+        "nome": "Desarmado+17 Corpo a Corpo, Dano",
+        "bonus": 4,
+        "alcance": "",
+        "dano": "Crít. 18-20"
+      }
+    ],
     "defesas": {
       "Esquiva": 13,
       "Fortitude": 9,

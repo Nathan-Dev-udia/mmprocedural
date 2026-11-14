@@ -15,19 +15,19 @@
     },
     "poderes": [
       "Moth Costume: Fight 5 (96 km/h), Wings; Proteção 3; Removível (-2 pontos) (6 PP)",
-      "Cocoon Gun: Arranjo (18 pontos), Facilmente Removível (-8 pontos) • Cocoon Spray: À Distância Cumulativo Aflição 6 (resistido por Esquiva; Impaired, Imóvel, Paralisado) (18 PP)",
+      "Cocoon Gun: Arranjo (18 pontos), Facilmente Removível (-8 pontos) • Cocoon Spray: À Distância Cumulativo Aflição 6 (resistido por Esquiva; Prejudicado, Imóvel, Paralisado) (18 PP)",
       "• Grenade Launcher: À Distância Área de Explosão Dano 5, Não Confiável (5 uses) (1 PP)"
     ],
     "equipamento": [
       "Moth-Helmet : Sentidos 2 (Visão no Escuro) (2 PP)",
       "Police Rádio (1 PP)",
       "VEHICLE: MOTHMOBILE (10 PP)",
-      "Large; Str 5, Spd 5, Def 9, Tou 8; Caltrops, Navigation System"
+      "Large; Str 5, Spd 5, Def 9, Tou 8; Caltrops, Navegação System"
     ],
     "vantagens": [
       "Ataque Defensivo",
       "Rolamento Defensivo 3",
-      "Evasion",
+      "Evasão",
       "Equipamento 3",
       "Inventor"
     ],
@@ -96,7 +96,7 @@
     "complicacoes": [
       {
         "titulo": "Inferiority Complex",
-        "texto": "Killer Moth feels he is inferior to every other villain and hero, and often sets out to prove himself with disastrous results."
+        "texto": "Killer Moth feels he is inferior to every other villain e hero, e often sets out to prove himself com disastrous results."
       }
     ]
   },

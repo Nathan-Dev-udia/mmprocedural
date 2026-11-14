@@ -63,7 +63,7 @@
       },
       {
         "nome": "Magnetic Control 12",
-        "construcao_3e": "Array de Controle Magnético: Dano à Distância 12 (24 PP); Efeitos Alternativos: Anular Eletrônicos 12 (1 PP), Aflição Magnética / Enjoo 12 (1 PP), Mover Metal 12 (1 PP) = 27 PP.",
+        "construcao_3e": "Arranjo de Controle Magnético: Dano à Distância 12 (24 PP); Efeitos Alternativos: Anular Eletrônicos 12 (1 PP), Aflição Magnética / Enjoo 12 (1 PP), Mover Metal 12 (1 PP) = 27 PP.",
         "custo_2e_pp": 27,
         "custo_3e_pp": 27,
         "nome_pt": "Controle do Magnetismo"

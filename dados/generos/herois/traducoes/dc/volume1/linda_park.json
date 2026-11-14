@@ -17,16 +17,16 @@
     "equipamento": [],
     "vantagens": [
       "Contatos",
-      "Bem-Informado"
+      "Bem Informado"
     ],
     "pericias": [
       {
-        "nome": "Especialidade: Journalism",
+        "nome": "Especialidade: Jornalismo",
         "graduacoes": 6,
         "total": 8
       },
       {
-        "nome": "Especialidade: Medicine",
+        "nome": "Especialidade: Medicina",
         "graduacoes": 6,
         "total": 8
       },
@@ -62,7 +62,7 @@
         "nome": "Desarmado",
         "bonus": 0,
         "alcance": "",
-        "dano": "(Dano 0)"
+        "dano": "Dano 0"
       }
     ],
     "defesas": {

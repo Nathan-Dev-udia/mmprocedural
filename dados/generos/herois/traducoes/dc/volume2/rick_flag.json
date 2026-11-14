@@ -15,18 +15,18 @@
     },
     "poderes": [],
     "equipamento": [
-      "Assault Rifle (À Distância Multiataque Dano 5), Heavy Pistola (Dano à Distância 4), Knife (Dano 1, Improved Critical), Fragmentation Grenade (Área de Explosão Dano 5), Bulletproof vest (Proteção 4, Limitado a Ballistic, Sutil), Squad Detonator, Binoculars"
+      "Assault Rifle (À Distância Multiataque Dano 5), Heavy Pistola (Dano à Distância 4), Knife (Dano 1, Improved Critical), Fragmentation Grenade (Área de Explosão Dano 5), Bulletproof vest (Proteção 4, Limitado a Balístico, Sutil), Squad Detonator, Binoculars"
     ],
     "vantagens": [
       "Ataque Imprudente",
       "Avaliação",
       "Ataque Corpo-a-Corpo 2",
-      "Conectado",
+      "Bem Relacionado",
       "Rolamento Defensivo 2",
       "Duro de Matar",
       "Equipamento 9",
       "Destemido",
-      "Grande Vigor",
+      "Tolerância Maior",
       "Mira Aprimorada",
       "Iniciativa Aprimorada",
       "Inspirar 2",
@@ -84,7 +84,7 @@
         "total": 10
       },
       {
-        "nome": "Combate à Distância: Guns",
+        "nome": "Combate à Distância: Armas de Fogo",
         "graduacoes": 4,
         "total": 12
       },

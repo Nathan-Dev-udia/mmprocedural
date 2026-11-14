@@ -14,13 +14,13 @@
       "Pre": 3
     },
     "poderes": [
-      "and conceal their true nature, he created the Mento helmet. It magnified his mental prowess to super-heroic levels, allow - ing him to become a costumed crime-fighter. As Mento, he met and romanced Rita Farr, on whom he had a crush. After becoming an unofficial member of the Doom Patrol, he and Elasti-Girl married and adopted the orphaned Beast Boy. They seemed to be a loving, if unusual, family. Dayton became unhinged after the apparent death of his wife. He improved his Mento"
+      "e conceal their true nature, he created the Mento helmet. It magnified his mental prowess to super-heroic levels, allow - ing him to become a costumed crime-fighter. As Mento, he met e romanced Rita Farr, on whom he had a crush. After becoming an unofficial member of the Doom Patrol, he e Elasti-Girl married e adopted the orphaned Beast Boy. They seemed to be a loving, if unusual, family. Dayton became unhinged after the apparent death of his wife. He improved his Mento"
     ],
     "equipamento": [
-      "and sought ven - geance against Madame Rouge and Zahl, but was thwarted"
+      "e sought ven - geance contra Madame Rouge e Zahl, but was thwarted"
     ],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Atraente",
       "Duro de Matar",
       "Agarrar Aprimorado",
@@ -39,7 +39,7 @@
         "total": 10
       },
       {
-        "nome": "Especialidade: Acting",
+        "nome": "Especialidade: Atuação",
         "graduacoes": 4,
         "total": 5
       },
@@ -70,7 +70,7 @@
       "Resistência": 19,
       "Vontade": 3
     },
-    "observacao_defesas": "*, Aparar 1/7*, Fortitude 7/10, Resistência 19/7*, Vontade 3 *Without typical levels of Crescimento.",
+    "observacao_defesas": "*, Aparar 1/7*, Fortitude 7/10, Resistência 19/7*, Vontade 3 *sem typical levels of Crescimento.",
     "custos": {
       "Habilidades": 50,
       "Poderes": 70,
@@ -82,15 +82,15 @@
     "complicacoes": [
       {
         "titulo": "Involuntary Powers",
-        "texto": "Elasti-Woman’s size- changing Abilities are sometimes out of control when she is emotionally unstable."
+        "texto": "Elasti-Woman’s size- changing Habilidades are sometimes out of control when she is emotionally unstable."
       },
       {
         "titulo": "Relacionamentos",
-        "texto": "Rita Farr is deeply committed to her fellow Doom Patrol members, her adopted son Beast Boy, and (while together) her husband, Mento."
+        "texto": "Rita Farr is deeply committed to her fellow Doom Patrol members, her adopted son Beast Boy, e (while together) her husband, Mento."
       },
       {
         "titulo": "Fraqueza",
-        "texto": "Due to her malleable brain, Elasti-Woman suffers a -5 penalty to checks against Deception and Persuasion attempts, and against Controle mental attacks."
+        "texto": "Due to her malleable brain, Elasti-Woman suffers a -5 penalty to Testes contra Enganação e Persuasão attempts, e contra Controle Mental attacks."
       }
     ]
   },

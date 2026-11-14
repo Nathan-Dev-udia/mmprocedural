@@ -18,42 +18,42 @@
       "mmor tal:"
     ],
     "equipamento": [
-      "Espada: Força-Based Dano 3, Improved Critical (19–20) (4 PP)",
+      "Espada: Força-Based Dano 3, Improved Critical (19-20) (4 PP)",
       "Savage typically has access to a considerable amount of other equipment based on his resources."
     ],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Ataque Imprudente",
-      "Benefit 6 (wealth and resources)",
+      "Benefício 6 (Riqueza e resources)",
       "Estrangular",
       "Ataque Corpo-a-Corpo 2",
-      "Conectado",
+      "Bem Relacionado",
       "Contatos",
       "Rolamento Defensivo 2",
       "Duro de Matar",
       "Fascinar (Intimidação)",
       "Agarrar Rápido",
       "Destemido",
-      "Grande Vigor",
+      "Tolerância Maior",
       "Desarmar Aprimorado",
       "Agarrar Aprimorado",
       "Imobilizar Aprimorado",
       "Iniciativa Aprimorada",
       "Quebrar Aprimorado",
       "Inventor",
-      "Pau pra Toda Obra",
-      "Languages 5",
+      "Faz Tudo",
+      "Idiomas 5",
       "Liderança",
       "Ataque Poderoso",
-      "Luta Caída",
+      "Luta no Chão",
       "Ataque à Distância 8",
-      "Maestria em Perícia (Expertise: History)",
+      "Maestria em Perícia (Especialidade: História)",
       "Assustar",
-      "Derrubar em Sequência",
+      "Ataque Dominó",
       "Esquiva Fabulosa",
       "Prender Arma",
       "Quebrar Arma",
-      "Bem-Informado"
+      "Bem Informado"
     ],
     "pericias": [
       {
@@ -67,17 +67,17 @@
         "total": 13
       },
       {
-        "nome": "Especialidade: History",
+        "nome": "Especialidade: História",
         "graduacoes": 18,
         "total": 23
       },
       {
-        "nome": "Especialidade: mágico",
+        "nome": "Especialidade: Magia",
         "graduacoes": 6,
         "total": 11
       },
       {
-        "nome": "Especialidade: Tactics",
+        "nome": "Especialidade: Tática",
         "graduacoes": 12,
         "total": 17
       },
@@ -127,8 +127,21 @@
         "total": 9
       }
     ],
-    "iniciativa": 0,
-    "ataques": [],
+    "iniciativa": 6,
+    "ataques": [
+      {
+        "nome": "Espada",
+        "bonus": 13,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 7"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 13,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 4"
+      }
+    ],
     "defesas": {
       "Esquiva": 12,
       "Fortitude": 12,

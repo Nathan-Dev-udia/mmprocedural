@@ -14,7 +14,7 @@
       "Pre": 2
     },
     "poderes": [
-      "Charge ( Salto 3; Velocidade 3 (25 km/h)); Mammoth ( Crescimento 2, Permanente, Inato); Thick-Skinned ( Impenetrável Proteção 6) Advantages; All-out Attack, Chokehold, Extraordinary Effort, Improved Critical 2 (Desarmado), Improved Hold, Improved Smash, Interpose, Startle Skills; Athletics 6 (+20), Corpo a Corpo Combat: Desarmado 6 (+8), Intimidation 10 (+13), À Distância Combat: Throwing 6 (+5)"
+      "Charge ( Salto 3; Velocidade 3 (25 km/h)); Mammoth ( Crescimento 2, Permanente, Inato); Thick-Skinned ( Impenetrável Proteção 6) Vantagens; Ataque Imprudente, Chokehold, Extraordinary Effort, Improved Critical 2 (Desarmado), Improved Hold, Improved Smash, Interpor-se, Startle Perícias; Atletismo 6 (+20), Corpo a Corpo Combat: Desarmado 6 (+8), Intimidação 10 (+13), À Distância Combat: Arremesso 6 (+5)"
     ],
     "equipamento": [],
     "vantagens": [],
@@ -25,7 +25,7 @@
         "nome": "Desarmado",
         "bonus": 8,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 14, Crit. 18-20"
+        "dano": "Dano 14, Crít. 18-20"
       }
     ],
     "defesas": {
@@ -47,7 +47,7 @@
     "complicacoes": [
       {
         "titulo": "Simple",
-        "texto": "Mammoth is simple-minded and lacks the ability to understand complicated plans and ideas. This makes him easy to lead, but hard to predict...especially when tricked or lied to."
+        "texto": "Mammoth is simple-minded e lacks the Habilidade to understand complicated plans e ideas. This makes him easy to lead, but hard to predict...especially when tricked or lied to."
       }
     ]
   },

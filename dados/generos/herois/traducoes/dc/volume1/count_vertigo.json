@@ -15,24 +15,23 @@
     },
     "poderes": [
       "Voo: Voo 3 (25 km/h) (4 PP)",
-      "Vertigo Effect: Dynamic Arranjo (61 pontos)",
-      "• Vertigo (Visual): Alcance de Percepção Área de Explosão Aflição 10 (resistido por Fortitude; Tonto and Visual Impaired, Imóvel and Visual Disabled, Incapacitado and Paralisado), Concentração, Cumulativo, Extra Condition, Dependente de Sentidos (Sight), Dynamic (61 PP)",
-      "• Vertigo (Auditory): As Vertigo (Visual), except Sense- Dependent (Hearing), Dynamic (2 PP)",
-      "• Disrupt Guidance Systems: As Vertigo (Visual), except Affects Only Objects, Dependente de Sentidos (Rádio), Dynamic (2 PP)",
-      "• Severe Vertigo: Alcance de Percepção Área de Explosão Dano 10 (resistido por Vontade), Dynamic (2 PP)",
-      "• Visual Distortion: Camuflagem (All Visual Sentidos) 4, Limitado (Only victims of a Vertigo Effect) (2 PP)"
+      "Vertigo Effect: Arranjo Dinâmico (61 pontos)",
+      "• Vertigo (Visual): Alcance de Percepção Área de Explosão Aflição 10 (resistido por Fortitude; Tonto e Visual Prejudicado, Imóvel e Visual Desabilitado, Incapacitado e Paralisado), Concentração, Cumulativo, Extra Condition, Dependente de Sentidos (Visão), Dinâmico (61 PP)",
+      "• Vertigo (Auditivo): As Vertigo (Visual), except Sense- Dependent (Audição), Dinâmico (2 PP)",
+      "• Disrupt Guidance Systems: As Vertigo (Visual), except Afeta Apenas Objetos, Dependente de Sentidos (Rádio), Dinâmico (2 PP)",
+      "• Severe Vertigo: Alcance de Percepção Área de Explosão Dano 10 (resistido por Vontade), Dinâmico (2 PP)",
+      "• Visual Distortion: Camuflagem (All Visual Sentidos) 4, Limitado (Apenas victims of a Vertigo Effect) (2 PP)"
     ],
     "equipamento": [],
     "vantagens": [
-      "Benefit 2 (Well-off",
-      "Nobility)",
+      "Benefício 2 (Abastado, Nobility)",
       "Ataque Corpo-a-Corpo 2",
-      "Conectado",
+      "Bem Relacionado",
       "Rolamento Defensivo 3",
       "Defesa Aprimorada",
       "Desarmar Aprimorado",
       "Redirecionar",
-      "Provocar",
+      "Zombar",
       "Trabalho em Equipe"
     ],
     "pericias": [
@@ -83,7 +82,13 @@
         "nome": "Desarmado",
         "bonus": 8,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 2 Severe Vertigo — Perception, Dano 10, resistido por Vontade Vertigo — Perception, Aflição 10, resistido por Vontade"
+        "dano": "Dano 2"
+      },
+      {
+        "nome": "Severe Vertigo",
+        "bonus": null,
+        "alcance": "",
+        "dano": "Percepção, Dano 10, resistido por Vontade Vertigo — Percepção, Aflição 10, resistido por Vontade"
       }
     ],
     "defesas": {
@@ -109,7 +114,7 @@
       },
       {
         "titulo": "Unstable",
-        "texto": "His mood swings and self-centeredness cause Count Vertigo to make rash decisions."
+        "texto": "His mood swings e self-centeredness cause Count Vertigo to make rash decisions."
       },
       {
         "titulo": "Vulnerable",

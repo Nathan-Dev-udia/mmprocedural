@@ -14,15 +14,15 @@
       "Pre": 2
     },
     "poderes": [
-      "Clawed Gauntlets : Penetrante 4 on Força Dano; Movimento 1 (Safe Fall, Limitado—Must be near a surface) (Removível, -1 ponto) (4 PP)",
+      "Clawed Gauntlets : Penetrante 4 on Força Dano; Movimento 1 (Queda Segura, Limitado—Must be near a surface) (Removível, -1 ponto) (4 PP)",
       "Darkstar Uniform: Força Aprimorada 2; Proteção 5 (Removível, -2 pontos) (7 PP)",
-      "Manhunter Mask: Imunidade 10 (mental effects), Sentidos 2 (Visão no Escuro) (Removível, -2 pontos) (10 PP)",
-      "Powers taff : Dano à Distância 5; Salto 7 (Facilmente Removível, -6 pontos) (11 PP)",
+      "Manhunter Mask: Imunidade 10 (Efeitos Mentais), Sentidos 2 (Visão no Escuro) (Removível, -2 pontos) (10 PP)",
+      "Poderes taff : Dano à Distância 5; Salto 7 (Facilmente Removível, -6 pontos) (11 PP)",
       "A D n TAG es v A"
     ],
     "equipamento": [],
     "vantagens": [
-      "Benefício (Independently Wealthy)",
+      "Benefício (Independentemente Rico)",
       "Contatos",
       "Rolamento Defensivo",
       "Iniciativa Aprimorada",
@@ -46,7 +46,7 @@
         "total": 14
       },
       {
-        "nome": "Especialidade: Law",
+        "nome": "Especialidade: Direito",
         "graduacoes": 6,
         "total": 8
       },
@@ -66,7 +66,7 @@
         "total": 8
       },
       {
-        "nome": "Combate à Distância: Power Staff",
+        "nome": "Combate à Distância: Poder Staff",
         "graduacoes": 10,
         "total": 13
       },
@@ -79,13 +79,13 @@
     "iniciativa": 6,
     "ataques": [
       {
-        "nome": "Power Staff",
+        "nome": "Poder Staff",
         "bonus": 13,
-        "alcance": "À distância",
-        "dano": "Dano 5"
+        "alcance": "",
+        "dano": ""
       },
       {
-        "nome": "Clawed Gauntlets",
+        "nome": "Dano à Distância 5 Clawed Gauntlets",
         "bonus": 14,
         "alcance": "Corpo a corpo",
         "dano": "Dano 4, Penetrante 4"
@@ -104,7 +104,7 @@
       "Resistência": 8,
       "Vontade": 6
     },
-    "observacao_defesas": "* Vontade 6 *W ithout Defensive Roll.",
+    "observacao_defesas": "* Vontade 6 *W ithout Rolamento Defensivo.",
     "custos": {
       "Habilidades": 38,
       "Perícias": 34,
@@ -116,7 +116,7 @@
     "complicacoes": [
       {
         "titulo": "Driven by Justice",
-        "texto": "As a lawyer, Kate Spencer is bound by the complications of the legal system, but as Manhunter she can do whatever it takes to ensure that the wronged get justice and villains are punished—even if it means using lethal force. s ingle Mother: Spencer is a single mother to her son Ramsey, and often struggles to balance her careers as a lawyer and Manhunter while protecting her son from the demands and dangers of both roles."
+        "texto": "As a lawyer, Kate Spencer is Preso by the complications of the legal system, but as Manhunter she can do whatever it takes to ensure that the wronged get justice e villains are punished—even if it means using lethal force. s ingle Mother: Spencer is a single mother to her son Ramsey, e often struggles to balance her careers as a lawyer e Manhunter while protecting her son from the demands e dangers of both roles."
       }
     ]
   },

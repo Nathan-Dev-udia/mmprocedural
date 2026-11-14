@@ -82,16 +82,28 @@ FICHAS_PROTEGIDAS = {
 
 
 def normalizar_texto_dc(texto):
-    """Corrige falhas de kerning / drop capitals frequentes no Volume 2."""
+    """Corrige falhas de kerning / drop capitals frequentes nos Volumes 1 e 2."""
     if not texto:
         return ""
     subs = [
+        (r"\bo\s+ffen\s*S\s*e\b|\bf\s*f\s*e\s*n\s*S\s*e(?:\s+o)?\b", "Offense"),
+        (r"\bense:", "Offense:"),
+        (r"\bd\s+efen\s*S\s*e\b|\be\s*f\s*e\s*n\s*S\s*e(?:\s+d)?\b", "Defense"),
+        (r"\befense:", "Defense:"),
+        (r"\bo\s+ff\b", ""),
+        (r"\bPo\s*er\s*Point(?:\s*W\s*S)?\b|\bW\s*S\s*Po\s*er\s*Point\b", "Power Points"),
+        (r"\bi\s*n\s*i\s*t\s*i\s*a\s*t\s*i\s*v\s*e\b", "Initiative"),
         (r"\bd\s*o\s*d\s*g\s*e\b", "Dodge"),
         (r"\bf\s*o\s*r\s*t\s*i\s*t\s*u\s*d\s*e\b", "Fortitude"),
         (r"\bp\s*a\s*r\s*r\s*y\b", "Parry"),
         (r"\bt\s*o\s*u\s*g\s*h\s*n\s*e\s*s\s*s\b", "Toughness"),
         (r"\bw\s*i\s*l\s*l\b", "Will"),
-        (r"\bi\s*n\s*i\s*t\s*i\s*a\s*t\s*i\s*v\s*e\b", "Initiative"),
+        (r"\bd\s+amage\b", "Damage"),
+        (r"\ba\s+ffliction\b", "Affliction"),
+        (r"\bc\s+lose\b", "Close"),
+        (r"\br\s+anged\b", "Ranged"),
+        (r"\bp\s+erception\b", "Perception"),
+        (r"\bligh\s+t\b", "light"),
         (r"\ba\s*b\s*i\s*l\s*i\s*t\s*i\s*e\s*s\b", "Abilities"),
         (r"\bs\s*k\s*i\s*l\s*l\s*s\b", "Skills"),
         (r"\bp\s*o\s*w\s*e\s*r\s*s\b", "Powers"),
@@ -101,7 +113,27 @@ def normalizar_texto_dc(texto):
     ]
     for padrao, sub in subs:
         texto = re.sub(padrao, sub, texto, flags=re.IGNORECASE)
+    # Remove espaços espúrios após sinal de + ou - antes de dígitos (ex: "+ 10" -> "+10")
+    texto = re.sub(r"(?<!\d\s)([+-])\s+(\d)", r"\1\2", texto)
+    # Normaliza travessões curtos (–, −) antes de dígitos para hífen ASCII
+    texto = re.sub(r"[–−](\d)", r"-\1", texto)
+    texto = re.sub(r"\s{2,}", " ", texto).strip()
     return texto
+
+
+def _extrair_bloco_secao(texto, inicio_regex, fim_regex=None):
+    """Recorta o trecho de texto a partir de um cabeçalho vazado até o próximo cabeçalho."""
+    if not texto:
+        return ""
+    m = re.search(inicio_regex, texto, re.IGNORECASE)
+    if not m:
+        return ""
+    recorte = texto[m.start():]
+    if fim_regex:
+        m_fim = re.search(fim_regex, recorte[len(m.group(0)):], re.IGNORECASE)
+        if m_fim:
+            recorte = recorte[: len(m.group(0)) + m_fim.start()]
+    return recorte
 
 
 def extrair_habilidades(ficha_pub):
@@ -112,45 +144,84 @@ def extrair_habilidades(ficha_pub):
         if re.search(r"^[–—−-]+$", v_str) or v_str in ("", "None"):
             res[HABILIDADES_MAP.get(k, k)] = "—"
         else:
-            m = re.search(r"-?\d+", v_str.split("/")[0])
+            m = re.search(r"-?\d+", v_str.translate(str.maketrans("–—−", "---")).split("/")[0])
             res[HABILIDADES_MAP.get(k, k)] = int(m.group()) if m else 0
     return res
 
 
-def extrair_defesas(def_texto):
-    if not def_texto:
-        return {}, ""
-    txt = normalizar_texto_dc(def_texto)
+def extrair_defesas(def_texto, textos_extras=None):
+    candidatos = [normalizar_texto_dc(def_texto)] if def_texto else []
+    for ex in (textos_extras or []):
+        if ex:
+            norm = normalizar_texto_dc(ex)
+            bloco = _extrair_bloco_secao(norm, r"\bDefense(?:s)?\b", r"\bPower Points\b")
+            candidatos.append(bloco or norm)
+
     defesas = {}
-    for m in re.finditer(r"(Dodge|Parry|Fortitude|Toughness|Will)\s+(\d+)", txt, re.IGNORECASE):
-        nome_d = t.DEFESAS.get(m.group(1).capitalize(), m.group(1).capitalize())
-        defesas[nome_d] = int(m.group(2))
+    txt_principal = candidatos[0] if candidatos else ""
+    for txt in candidatos:
+        if len(defesas) >= 5:
+            break
+        for m in re.finditer(r"\b(Dodge|Parry|Fortitude|Toughness|Will)\s+([+-]?\d+|Immune|[—–\-])", txt, re.IGNORECASE):
+            nome_d = t.DEFESAS.get(m.group(1).capitalize(), m.group(1).capitalize())
+            if nome_d in defesas:
+                continue
+            val = m.group(2)
+            if re.match(r"^[+-]?\d+$", val):
+                defesas[nome_d] = int(val)
+            else:
+                defesas[nome_d] = None
+        if len(defesas) >= 3:
+            if not txt_principal:
+                txt_principal = txt
+            break
+
     obs_defesas = ""
-    obs_m = re.search(r"(\*+.*)$", txt)
-    if obs_m:
-        obs_defesas = t.traduzir_construcao(obs_m.group(1).strip())
+    if txt_principal:
+        txt_sem_pp = re.split(r"\bPower Points\b", txt_principal, maxsplit=1, flags=re.IGNORECASE)[0]
+        obs_m = re.search(r"(\*+[^*].*)$", txt_sem_pp)
+        if obs_m:
+            obs_defesas = t.traduzir_construcao(obs_m.group(1).strip())
     return defesas, obs_defesas
 
 
-def extrair_custos(custos_texto, total_pub):
-    if not custos_texto:
-        return {}, total_pub
-    txt = normalizar_texto_dc(custos_texto)
+def extrair_custos(custos_texto, total_pub, textos_extras=None):
+    candidatos = []
+    if custos_texto:
+        candidatos.append(normalizar_texto_dc(custos_texto))
+    for ex in (textos_extras or []):
+        if ex:
+            norm = normalizar_texto_dc(ex)
+            bloco = _extrair_bloco_secao(norm, r"\b(?:Power Points|Abilities)\b")
+            if bloco:
+                candidatos.append(bloco)
+
     custos = {}
-    for m in re.finditer(r"(Abilities|Skills|Powers|Defenses|Advantages)\s+(\d+)", txt, re.IGNORECASE):
-        cat_pt = {
-            "Abilities": "Habilidades", "Skills": "Perícias", "Powers": "Poderes",
-            "Defenses": "Defesas", "Advantages": "Vantagens"
-        }.get(m.group(1).capitalize(), m.group(1).capitalize())
-        custos[cat_pt] = int(m.group(2))
-    return custos, total_pub
+    total = total_pub
+    for txt in candidatos:
+        for m in re.finditer(r"\b(Abilities|Skills|Powers|Defenses|Advantages)\s+(-?\d+)", txt, re.IGNORECASE):
+            cat_pt = {
+                "Abilities": "Habilidades", "Skills": "Perícias", "Powers": "Poderes",
+                "Defenses": "Defesas", "Advantages": "Vantagens"
+            }.get(m.group(1).capitalize(), m.group(1).capitalize())
+            custos.setdefault(cat_pt, int(m.group(2)))
+        if not total:
+            m_tot = re.search(r"\bTotal\s+(-?\d+)|=\s*(-?\d+)", txt, re.IGNORECASE)
+            if m_tot:
+                total = int(m_tot.group(1) or m_tot.group(2))
+        if len(custos) == 5 and total:
+            break
+
+    if not total and len(custos) == 5:
+        total = sum(custos.values())
+    return custos, total
 
 
 def extrair_vantagens(vantagens_texto):
     if not vantagens_texto:
         return []
     txt = normalizar_texto_dc(vantagens_texto)
-    itens = [v.strip().rstrip(",") for v in txt.split(",") if v.strip().rstrip(",")]
+    itens = [v.strip().rstrip(",") for v in re.split(r",\s*(?![^()]*\))", txt) if v.strip().rstrip(",")]
     return [t.traduzir_vantagem(v) for v in itens]
 
 
@@ -167,7 +238,7 @@ def extrair_pericias(per_texto):
     txt = re.sub(r"\bPerceptions\b", "Perception", txt, flags=re.I)
 
     pericias = []
-    bloco = re.split(r"\b(?:Some of|Notes?:)\b", txt, maxsplit=1)[0]
+    bloco = re.split(r"\b(?:Offense|Defense|Initiative|Some of|Notes?:)\b", txt, maxsplit=1, flags=re.I)[0]
     for part in re.finditer(r"([A-Za-z0-9\s:\-&()/'\"]+?)\s+(\d+)\s*\(\+?(-?\d+)(?:/[^)]+)?\)", bloco):
         nome_bruto = part.group(1).strip()
         nome_bruto = re.sub(r"^[0-9*),;.\s\-]+", "", nome_bruto)
@@ -190,26 +261,26 @@ def extrair_pericias(per_texto):
     return pericias
 
 
-def extrair_ataques(ataques_texto):
-    if not ataques_texto:
-        return 0, []
-    txt = normalizar_texto_dc(ataques_texto)
-    iniciativa = 0
+def _parse_ataques_texto(txt):
     ini_m = re.search(r"Initiative\s*\+?(-?\d+)", txt, re.IGNORECASE)
-    if ini_m:
-        iniciativa = int(ini_m.group(1))
-    resto = re.sub(r"Initiative\s*\+?(-?\d+)[,.]?", "", txt, flags=re.IGNORECASE).strip()
+    iniciativa = int(ini_m.group(1)) if ini_m else 0
+    resto = re.sub(r"^\s*Offense\s*:?\s*", "", txt, flags=re.IGNORECASE)
+    resto = re.sub(r"\bDefense\b.*$", "", resto, flags=re.IGNORECASE)
+    resto = re.sub(r"Initiative\s*\+?(-?\d+)[,.]?", "", resto, flags=re.IGNORECASE).strip()
+    if not resto:
+        return iniciativa, []
 
     ataques = []
-    # Caso 1: ataques com parênteses: "Ataque +X (Alcance, Dano), Outro (Alcance, Dano)"
-    if "(" in resto and ")" in resto and ("," in resto or ";" in resto):
-        partes = re.split(r"(?<=\)),\s*", resto)
+    # Caso 1: ataques com parênteses: "Ataque +X (Alcance, Dano), Outro — (Alcance, Dano)"
+    if "(" in resto and ")" in resto and not re.search(r"(?:Close|Ranged)\s*,\s*Damage\s+\d+\s+[A-Z]", resto):
+        partes = re.split(r"(?<=\))\s*,\s*", resto)
         for p in partes:
             p = p.strip().rstrip(",")
-            if not p: continue
-            m_paren = re.match(r"^([A-Za-z0-9\s\-_/'\"]+?)(?:\s*\+?(-?\d+))?\s*\(([^)]+)\)$", p)
+            if not p:
+                continue
+            m_paren = re.match(r"^(.+?)(?:\s*(?:(\+?-?\d+)|[—]))?\s*\(([^)]+)\)$", p)
             if m_paren:
-                nome = m_paren.group(1).strip()
+                nome = m_paren.group(1).strip(" —-")
                 bonus = int(m_paren.group(2)) if m_paren.group(2) else None
                 detalhes = [d.strip() for d in m_paren.group(3).split(",")]
                 alcance = ""
@@ -226,17 +297,29 @@ def extrair_ataques(ataques_texto):
         if ataques:
             return iniciativa, ataques
 
-    # Caso 2: formato padrão sem parênteses
-    resto = re.sub(r"(plus\s+others|others|\d+|\))\s+([A-Z][A-Za-z0-9'\-]*(?:\s+[A-Z][A-Za-z0-9'\-]*)*)\s*\+(\d+)", r"\1 /// \2 +\3", resto)
+    # Caso 2: formato padrão sem parênteses externos (incluindo ataques de área/percepção com —)
+    resto = re.sub(
+        r"(plus\s+others|others|\d+|\))\s+([A-Z][A-Za-z0-9'’\-/]*(?:\s+[A-Z0-9][A-Za-z0-9'’\-/]*){0,4})\s*(\+\d+|—)",
+        r"\1 /// \2 \3",
+        resto,
+    )
     blocos = [b.strip() for b in resto.split("///") if b.strip()]
 
     for bloco in blocos:
-        m = re.match(r"^([A-Za-z0-9\s\-_/'\"]+?)\s*\+(\d+)\*?\s*(?:(Close|Ranged)\s*,?\s*)?(.*)$", bloco, re.I)
+        m = re.match(
+            r"^([A-Za-z0-9\s\-_/'’]+?)\s*(?:(\+\d+)|—)\*?\s*(?:(Close|Ranged|Perception\s+Range(?:d)?)\s*,?\s*)?(.*)$",
+            bloco,
+            re.I,
+        )
         if m:
             nome = m.group(1).strip()
-            bonus = int(m.group(2))
-            alc_raw = m.group(3) or ""
-            alcance = "Corpo a corpo" if alc_raw.lower() == "close" else ("À distância" if alc_raw.lower() == "ranged" else "")
+            bonus = int(m.group(2)) if m.group(2) else None
+            alc_raw = (m.group(3) or "").lower()
+            alcance = (
+                "Corpo a corpo" if "close" in alc_raw
+                else ("À distância" if "ranged" in alc_raw and "perception" not in alc_raw
+                      else ("Percepção" if "perception" in alc_raw else ""))
+            )
             dano = m.group(4).strip().rstrip(" ,.")
             if not alcance:
                 if re.match(r"^(Close|Corpo a corpo)\b", dano, re.I):
@@ -245,6 +328,9 @@ def extrair_ataques(ataques_texto):
                 elif re.match(r"^(Ranged|À distância)\b", dano, re.I):
                     alcance = "À distância"
                     dano = re.sub(r"^(Ranged|À distância)\s*,?\s*", "", dano, flags=re.I)
+                elif re.match(r"^(Perception\s+Range(?:d)?|Alcance de Percepção)\b", dano, re.I):
+                    alcance = "Percepção"
+                    dano = re.sub(r"^(Perception\s+Range(?:d)?|Alcance de Percepção)\s*,?\s*", "", dano, flags=re.I)
             ataques.append({
                 "nome": t.traduzir_construcao(nome),
                 "bonus": bonus,
@@ -252,6 +338,26 @@ def extrair_ataques(ataques_texto):
                 "dano": t.traduzir_construcao(dano)
             })
 
+    return iniciativa, ataques
+
+
+def extrair_ataques(ataques_texto, textos_extras=None):
+    iniciativa = 0
+    ataques = []
+    if ataques_texto:
+        iniciativa, ataques = _parse_ataques_texto(normalizar_texto_dc(ataques_texto))
+    if not ataques:
+        for ex in (textos_extras or []):
+            if not ex:
+                continue
+            norm = normalizar_texto_dc(ex)
+            bloco = _extrair_bloco_secao(norm, r"\b(?:Offense|Initiative)\b", r"\b(?:Defense|Power Points)\b")
+            if bloco:
+                ini2, atq2 = _parse_ataques_texto(bloco)
+                if atq2:
+                    return (ini2 or iniciativa), atq2
+                if ini2 and not iniciativa:
+                    iniciativa = ini2
     return iniciativa, ataques
 
 
@@ -306,11 +412,19 @@ def converter_ficha_dc(caminho_json):
     pagina_livro = max(1, pagina_pdf - 4) if pagina_pdf else 1
 
     habilidades = extrair_habilidades(ficha_pub)
-    defesas, obs_defesas = extrair_defesas(ficha_pub.get("defesas", ""))
-    custos, total_pp = extrair_custos(ficha_pub.get("pontos_poder", ""), pub.get("pontos_poder_publicados", 0))
+    extras_ataques = [ficha_pub.get("pericias", ""), ficha_pub.get("defesas", ""), ficha_pub.get("equipamento", "")]
+    extras_defesas = [ficha_pub.get("ataques", ""), ficha_pub.get("pericias", ""), ficha_pub.get("pontos_poder", "")]
+    extras_custos = [ficha_pub.get("defesas", ""), ficha_pub.get("pericias", ""), ficha_pub.get("ataques", "")]
+
+    defesas, obs_defesas = extrair_defesas(ficha_pub.get("defesas", ""), textos_extras=extras_defesas)
+    custos, total_pp = extrair_custos(
+        ficha_pub.get("pontos_poder", ""),
+        pub.get("pontos_poder_publicados", 0),
+        textos_extras=extras_custos,
+    )
     vantagens = extrair_vantagens(ficha_pub.get("vantagens", ""))
     pericias = extrair_pericias(ficha_pub.get("pericias", ""))
-    iniciativa, ataques = extrair_ataques(ficha_pub.get("ataques", ""))
+    iniciativa, ataques = extrair_ataques(ficha_pub.get("ataques", ""), textos_extras=extras_ataques)
     
     custo_pod = custos.get("Poderes")
     poderes = formatar_linhas_poderes(ficha_pub.get("poderes", ""), custo_pod)
@@ -370,7 +484,7 @@ def main():
     parser.add_argument("--sobrescrever", action="store_true", help="Sobrescreve traduções existentes (exceto fichas protegidas)")
     args = parser.parse_args()
 
-    dc_files = {p.stem: p for p in PASTA_DC.rglob("*.json")}
+    dc_files = {p.stem: p for p in PASTA_DC.glob("volume*/*.json")}
 
     if args.personagem:
         slug = args.personagem
@@ -399,7 +513,7 @@ def main():
 
     if args.todos:
         total = 0
-        for p in sorted(PASTA_DC.rglob("*.json")):
+        for p in sorted(PASTA_DC.glob("volume*/*.json")):
             if p.stem not in FICHAS_PROTEGIDAS:
                 arq = salvar_traducao(p, sobrescrever=args.sobrescrever)
                 if arq:

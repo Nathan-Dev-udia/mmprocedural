@@ -14,7 +14,7 @@
       "Pre": 4
     },
     "poderes": [
-      "63 Defenses 27"
+      "63 Defesas 27"
     ],
     "equipamento": [],
     "vantagens": [
@@ -44,12 +44,14 @@
       "Vontade": 8
     },
     "observacao_defesas": "",
-    "custos": {},
+    "custos": {
+      "Habilidades": 58
+    },
     "total": null,
     "complicacoes": [
       {
         "titulo": "Cyborg",
-        "texto": "Metallo looks like a man-machine hybrid which makes most people uncomfortable. ryptonite Heart: Metallo’s kryptonite heart Powers his body. k Without his heart, he quickly loses power and becomes inert. Motivation—Power: Metallo is interested in power no matter what form it takes and enjoys proving he’s the most powerful guy around. k rypton I te h eart Metallo’s cyborg body is powered by a chunk of pure kryptonite. When his chest plate is closed the kryptonite is safely shielded within his metal frame. When the plate is open, the kryptonite Vontade affect Superman but is also susceptible to being attacked or grabbed. Corben can open or Corpo a Corpo his chest plate with a Ação Livre, but he can’t open and Corpo a Corpo it in the same turn."
+        "texto": "Metallo looks like a man-machine hybrid which makes most people uncomfortable. ryptonite Heart: Metallo’s kryptonite heart Poderes his body. k sem his heart, he quickly loses Poder e becomes inert. Motivation—Poder: Metallo is interested in Poder no matter what form it takes e enjoys proving he’s the most powerful guy around. k rypton I te h eart Metallo’s cyborg body is powered by a chunk of pure kryptonite. When his chest plate is closed the kryptonite is safely shielded within his metal frame. When the plate is open, the kryptonite Vontade affect Superman but is also susceptible to being attacked or grabbed. Corben can open or Corpo a Corpo his chest plate com a Ação Livre, but he can’t open e Corpo a Corpo it in the same turn."
       }
     ]
   },

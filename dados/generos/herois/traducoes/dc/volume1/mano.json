@@ -14,7 +14,7 @@
       "Pre": 2
     },
     "poderes": [
-      "Containment Suit (Imunidade 11: Suporte Vital, Own Powers; Proteção 6, Removível, –3 pontos); Disintegration Disk (Dano 15, Penetrante 15, Link to Enfraquecer Resistência 15)"
+      "Containment Suit (Imunidade 11: Suporte Vital, Próprios Poderes; Proteção 6, Removível, -3 pontos); Disintegration Disk (Dano 15, Penetrante 15, Link to Enfraquecer Resistência 15)"
     ],
     "equipamento": [],
     "vantagens": [],
@@ -74,7 +74,7 @@
     "complicacoes": [
       {
         "titulo": "Toxic Atmosphere",
-        "texto": "Mano breathes a Veneno atmosphere and suffocates in an Earth-normal atmosphere without his containment suit."
+        "texto": "Mano breathes a Veneno atmosphere e suffocates in an Earth-normal atmosphere sem his containment suit."
       }
     ]
   },

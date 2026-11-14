@@ -14,7 +14,7 @@
       "Pre": 4
     },
     "poderes": [
-      "Armored Robotic Body (Força-based Dano 2; Imunidade 32 (Critical Hits, Fortitude Effects) ; Proteção 13, Impenetrável 8) Artificial Sentidos (Sentidos 7 (Noção de Direção, Extended Sight, Audição Estendida, Visão na Penumbra, Infravisão, Rádio, Noção do Tempo)); Disembodied Brain ( Imortalidade 1 (As long as his brain survives, Robotman can be repaired)); Hydraulic Legs (Salto 4; Movimento 1 (Safe Fall), Velocidade 4 (48 km/h)); Magnetized Boots (Movimento 2 (Wall-crawling 2), Limitado a surfaces with metal in/on them); Blaster ( Dano à Distância 10)"
+      "Armored Robotic Body (Força-based Dano 2; Imunidade 32 (Critical Hits, Efeitos de Fortitude) ; Proteção 13, Impenetrável 8) Artificial Sentidos (Sentidos 7 (Noção de Direção, Estendido Visão, Audição Estendida, Visão na Penumbra, Infravisão, Rádio, Noção do Tempo)); Disembodied Brain ( Imortalidade 1 (As long as his brain survives, Robotman can be repaired)); Hydraulic Legs (Salto 4; Movimento 1 (Queda Segura), Velocidade 4 (48 km/h)); Magnetized Boots (Movimento 2 (Escalar Paredes 2), Limitado a surfaces com metal in/on them); Blaster ( Dano à Distância 10)"
     ],
     "equipamento": [
       "5 pontos of appropriate equipment."
@@ -82,6 +82,7 @@
     "defesas": {
       "Esquiva": 6,
       "Aparar": 9,
+      "Fortitude": null,
       "Resistência": 13,
       "Vontade": 8
     },
@@ -101,7 +102,7 @@
       },
       {
         "titulo": "Fraqueza",
-        "texto": "Robotman has a human brain, which is dependent on his bionic body’s Suporte Vital systems. He cannot exist indefinitely without oxygen or nourishment, despite his Imunidade to Fortitude effects, as his robot body’s reserves are not infinite."
+        "texto": "Robotman has a human brain, which is dependent on his bionic body’s Suporte Vital systems. He cannot exist indefinitely sem oxygen or nourishment, despite his Imunidade to Efeitos de Fortitude, as his robot body’s reserves are not infinite."
       }
     ]
   },

@@ -14,25 +14,25 @@
       "Pre": 5
     },
     "poderes": [
-      "mental Defenses: Impenetrável Vontade 10 (10 PP)",
-      "M ental Sentidos: Sentidos 7 (Detect Minds, À Distância, Aguçado, Extended 3; mental Prontidão) (7 PP)",
-      "t elek inesis: Perception À Distância Mover Objetos 1, Sutil (4 PP)",
+      "Mental Defesas: Impenetrável Vontade 10 (10 PP)",
+      "M ental Sentidos: Sentidos 7 (Detectar Minds, À Distância, Aguçado, Estendido 3; Consciência Mental) (7 PP)",
+      "t elek inesis: Percepção À Distância Mover Objetos 1, Sutil (4 PP)",
       "t elepa thy: Arranjo (38 pontos)",
-      "• Mind r eading: mental Comunicação 4, Leitura mental 11 (38 PP)",
-      "• Mind Raio: Perception Aflição à Distância 11 (resistido por Vontade; Tonto, Atordoado, Incapacitado), Sutil (1 PP)"
+      "• Mind r eading: Comunicação Mental 4, Leitura Mental 11 (38 PP)",
+      "• Mind Raio: Percepção Aflição à Distância 11 (resistido por Vontade; Tonto, Atordoado, Incapacitado), Sutil (1 PP)"
     ],
     "equipamento": [
-      "f ligh t r ing: Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal –3); Voo 7 (400 km/h) (19 PP)",
-      "t elepa thic Plug: Compreender 3 (Languages; Speak, Understand, Understood), mental Comunicação 1 (100 feet) (10 PP)",
-      "t r anssuit: Imunidade 9 (Suporte Vital, except for Inanição and thirst) (9 PP)"
+      "f Luz r ing: Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal -3); Voo 7 (400 km/h) (19 PP)",
+      "t elepa thic Plug: Compreender 3 (Languages; Speak, Understand, Understood), Comunicação Mental 1 (100 pés) (10 PP)",
+      "t r anssuit: Imunidade 9 (Suporte Vital, except for Fome e Sede) (9 PP)"
     ],
     "vantagens": [
-      "Benefit 1 (Legion membership)",
+      "Benefício 1 (Legion membership)",
       "Rolamento Defensivo 4",
       "Equipamento 8",
       "Trabalho em Equipe",
       "Transe",
-      "Esforço Supremo (Will checks)"
+      "Esforço Supremo (Vontade Testes)"
     ],
     "pericias": [
       {
@@ -83,6 +83,12 @@
     ],
     "iniciativa": 3,
     "ataques": [
+      {
+        "nome": "Mind Raio",
+        "bonus": null,
+        "alcance": "",
+        "dano": "Percepção, Aflição 11, resistido por Vontade (CD 21)"
+      },
       {
         "nome": "Desarmado",
         "bonus": 9,

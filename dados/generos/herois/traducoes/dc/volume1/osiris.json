@@ -14,15 +14,15 @@
       "Pre": 2
     },
     "poderes": [
-      "Courage of Mehen ( Enhanced Vontade 3, Impenetrável Vontade 8); Swiftness of Heru ( Arranjo (26 pontos), Voo 13 (16,0 km/h), AE: Dimensional Travel 1 (Rock of Eternity), AE: Rapidez 13 , Velocidade 13 (16,0 km/h)); Vigor of Shu (Proteção 2, Resistência Impenetrável 15, Imunidade 10 (Suporte Vital)); Força of Amon (Força Aprimorada 2, Limitado a Lifting (Lifting Força 18; 6,000 tons)); Wisdom of Zehuti ( Prontidão Aprimorada 5, Enhanced Advantages 4 (Assessment, Beginner’s Luck, Eidetic Memory, Jack-of-all-trades))"
+      "Courage of Mehen ( Vontade Aprimorada 3, Impenetrável Vontade 8); Swiftness of Heru ( Arranjo (26 pontos), Voo 13 (25.600 km/h), AE: Viagem Dimensional 1 (Rock of Eternity), AE: Rapidez 13 , Velocidade 13 (25.600 km/h)); Vigor of Shu (Proteção 2, Resistência Impenetrável 15, Imunidade 10 (Suporte Vital)); Força of Amon (Força Aprimorada 2, Limitado a Lifting (Lifting Força 18; 6,000 toneladas)); Wisdom of Zehuti ( Prontidão Aprimorada 5, Vantagens Aprimoradas 4 (Avaliação, Sorte de Principiante, Memória Eidética, Faz Tudo))"
     ],
     "equipamento": [],
     "vantagens": [
       "Avaliação",
-      "Beginner’s Luck",
+      "Sorte de Principiante",
       "Memória Eidética",
       "Iniciativa Aprimorada",
-      "Pau pra Toda Obra",
+      "Faz Tudo",
       "Ação em Movimento",
       "Ataque Poderoso"
     ],
@@ -49,7 +49,7 @@
         "nome": "Desarmado",
         "bonus": 10,
         "alcance": "",
-        "dano": "(Dano 16)"
+        "dano": "Dano 16"
       }
     ],
     "defesas": {
@@ -75,15 +75,15 @@
       },
       {
         "titulo": "Guilt",
-        "texto": "Osiris is overcome by the guilt of having caused the accidental death of Persuader."
+        "texto": "Osiris is Superado por the guilt of having caused the accidental death of Persuader."
       },
       {
         "titulo": "Perda de Poder",
-        "texto": "Osiris loses his Powers and reverts to his mortal form when he speaks Black Adam’s name."
+        "texto": "Osiris loses his Poderes e reverts to his mortal form when he speaks Black Adam’s name."
       },
       {
         "titulo": "Relacionamento",
-        "texto": "Osiris is very Corpo a Corpo to his sister, Isis, and his brother-in-law, Black Adam."
+        "texto": "Osiris is very Corpo a Corpo to his sister, Isis, e his brother-in-Direito, Black Adam."
       }
     ]
   },

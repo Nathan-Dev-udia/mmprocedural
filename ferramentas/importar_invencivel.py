@@ -12,6 +12,17 @@ MD_FILE = RAIZ / "dados" / "livros" / "invencivel.md"
 DEST_DIR = RAIZ / "dados" / "generos" / "herois" / "invencivel"
 
 
+def _limpar_md(texto):
+    """Remove escapes literais de Markdown (\\-, \\+, \\[, \\], \\., \\ ao fim)."""
+    if not isinstance(texto, str):
+        return texto
+    texto = re.sub(r"\\([\-+.\[\]()*#_!])", r"\1", texto)
+    texto = re.sub(r"\\+(?=\s|$)", "", texto)
+    texto = texto.replace("\\", "")
+    texto = re.sub(r"[ \t]{2,}", " ", texto)
+    return texto.strip()
+
+
 SLUGS_E_NOMES = [
     {
         "slug": "mark_grayson",
@@ -177,30 +188,31 @@ def parse_defesas(linhas):
 
 
 def parse_pericias(linhas):
-    texto = " ".join(l.strip() for l in linhas if l.strip())
+    texto = " ".join(_limpar_md(l) for l in linhas if l.strip())
     texto = re.sub(r"^\*\s*", "", texto).strip()
-    itens = [p.strip() for p in re.split(r",\s*(?![^()]*\))", texto) if p.strip()]
+    itens = [_limpar_md(p) for p in re.split(r",\s*(?![^()]*\))", texto) if p.strip()]
     pericias_dict = {}
     lista = []
     for item in itens:
-        item_limpo = item.rstrip(".")
+        item_limpo = _limpar_md(item.rstrip("."))
+        item_limpo = re.sub(r"^Acrobacias\b", "Acrobacia", item_limpo)
         lista.append(item_limpo)
         m = re.search(r"^(.*?)\s+(\d+)\s*\((.*?)\)$", item_limpo)
         if m:
-            nome = m.group(1).strip()
+            nome = _limpar_md(m.group(1))
             grad = int(m.group(2))
             pericias_dict[nome] = grad
         else:
             m2 = re.search(r"^(.*?)\s+(\d+)$", item_limpo)
             if m2:
-                pericias_dict[m2.group(1).strip()] = int(m2.group(2))
+                pericias_dict[_limpar_md(m2.group(1))] = int(m2.group(2))
     return lista, pericias_dict
 
 
 def parse_vantagens(linhas):
-    texto = " ".join(l.strip() for l in linhas if l.strip())
+    texto = " ".join(_limpar_md(l) for l in linhas if l.strip())
     texto = re.sub(r"^\*\s*", "", texto).strip()
-    itens = [p.strip().rstrip(".") for p in re.split(r",\s*(?![^()]*\))", texto) if p.strip()]
+    itens = [_limpar_md(p.strip().rstrip(".")) for p in re.split(r",\s*(?![^()]*\))", texto) if p.strip()]
     return [i for i in itens if i]
 
 
@@ -211,7 +223,7 @@ def parse_poderes(linhas):
         if not l_strip:
             continue
         indent = len(l) - len(l.lstrip())
-        texto_linha = re.sub(r"^[-*]\s*", "", l_strip).strip()
+        texto_linha = _limpar_md(re.sub(r"^[-*]\s*", "", l_strip))
         # Se for sub-poder (indentado)
         if indent >= 2:
             poderes.append(f"• {texto_linha}")
@@ -244,9 +256,9 @@ def parse_ofensiva(linhas):
         # Ataque
         m_atq = re.search(r"^[-*]\s*(.*?)\s*\\?\+(\d+)[,\s]+(.*)$", l_strip)
         if m_atq:
-            nome = m_atq.group(1).strip()
+            nome = _limpar_md(m_atq.group(1))
             bonus = int(m_atq.group(2))
-            desc = m_atq.group(3).strip()
+            desc = _limpar_md(m_atq.group(3))
             # tenta pegar dano
             m_dano = re.search(r"dano[^\d]*(\d+)", desc, re.IGNORECASE)
             dano = int(m_dano.group(1)) if m_dano else ""
@@ -258,15 +270,15 @@ def parse_ofensiva(linhas):
                 "descricao": desc,
             })
         elif l_strip.startswith(("-", "*")):
-            desc = re.sub(r"^[-*]\s*", "", l_strip).strip()
+            desc = _limpar_md(re.sub(r"^[-*]\s*", "", l_strip))
             if ":" in desc:
                 nome, _, resto = desc.partition(":")
                 ataques.append({
-                    "nome": nome.strip(),
+                    "nome": _limpar_md(nome),
                     "bonus": None,
                     "alcance": modo_atual,
                     "dano": "",
-                    "descricao": resto.strip(),
+                    "descricao": _limpar_md(resto),
                 })
     return iniciativa, ataques
 
@@ -310,15 +322,15 @@ def parse_complicacoes(linhas):
         if m:
             if comp_atual:
                 comps.append(comp_atual)
-            comp_atual = {"titulo": m.group(1).strip(), "texto": m.group(2).strip()}
+            comp_atual = {"titulo": _limpar_md(m.group(1)), "texto": _limpar_md(m.group(2))}
         elif comp_atual:
-            comp_atual["texto"] += " " + l_strip
+            comp_atual["texto"] += " " + _limpar_md(l_strip)
         else:
             m2 = re.search(r"^[-*]\s*\*\*(.*?)\*\*$", l_strip)
             if m2:
-                comps.append({"titulo": m2.group(1).strip(), "texto": ""})
+                comps.append({"titulo": _limpar_md(m2.group(1)), "texto": ""})
             elif l_strip.startswith(("-", "*")):
-                comps.append({"titulo": l_strip.lstrip("-* ").strip(), "texto": ""})
+                comps.append({"titulo": _limpar_md(l_strip.lstrip("-* ")), "texto": ""})
     if comp_atual:
         comps.append(comp_atual)
     return comps
@@ -336,8 +348,8 @@ def processar_bloco(bloco, meta):
     custos, total_pontos = parse_custos(secoes.get("CUSTOS", []))
     complicacoes = parse_complicacoes(secoes.get("complicacoes", []))
 
-    notas_linhas = secoes.get("notas", [])
-    notas = ["\n".join(notas_linhas).strip()] if notas_linhas else []
+    notas_linhas = [_limpar_md(l) for l in secoes.get("notas", []) if l.strip()]
+    notas = ["\n".join(notas_linhas)] if notas_linhas else []
 
     dados = {
         "nome": meta["nome"],

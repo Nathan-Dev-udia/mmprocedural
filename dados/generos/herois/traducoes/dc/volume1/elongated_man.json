@@ -14,12 +14,12 @@
       "Pre": 2
     },
     "poderes": [
-      "Elongating Man: Força-based Dano 3; Alongamento 7 (900 feet); Enhanced Advantage 10 (Preciso Attack, All-out Attack, Chokehold, Corpo a Corpo Attack 4, Fast Grab, Improved Grab, Improved Hold); Força Aprimorada 4, Limitado a Resist Attempts to Break Grabs; Salto 6; Movimento 3 (Safe Fall, Slithering, Swinging) (33 PP)",
+      "Elongating Man: Força-based Dano 3; Alongamento 7 (900 pés); Vantagem Aprimorada 10 (Ataque Acurado, Ataque Imprudente, Estrangular, Ataque Corpo-a-Corpo 4, Agarrar Rápido, Agarrar Aprimorado, Imobilizar Aprimorado); Força Aprimorada 4, Limitado a Resist Attempts to Break Grabs; Salto 6; Movimento 3 (Queda Segura, Rastejar, Balançar-se) (33 PP)",
       "Rubber Body: Impenetrável Proteção 8 (16 PP)"
     ],
     "equipamento": [],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Ataque Imprudente",
       "Avaliação",
       "Estrangular",
@@ -28,7 +28,7 @@
       "Agarrar Rápido",
       "Agarrar Aprimorado",
       "Imobilizar Aprimorado",
-      "Bem-Informado"
+      "Bem Informado"
     ],
     "pericias": [
       {
@@ -91,7 +91,7 @@
         "dano": "Dano 2"
       },
       {
-        "nome": "Extended Reach Grab",
+        "nome": "Estendido Reach Grab",
         "bonus": 11,
         "alcance": "Corpo a corpo",
         "dano": "Grab CD 16"
@@ -112,7 +112,7 @@
       "Perícias": 32,
       "Defesas": 22
     },
-    "total": null,
+    "total": 156,
     "complicacoes": [
       {
         "titulo": "Motivação",

@@ -49,7 +49,7 @@
     "poderes": [
       {
         "nome": "Cold Control",
-        "construcao_3e": "Controle de Frio 12 (Array dinâmico: Dano de Gelo, Ambiente [Frio Extremo e Terreno Escorregadio], Obscurecer Visual e Aprisionar de Gelo; 31 PP).",
+        "construcao_3e": "Controle de Frio 12 (Arranjo dinâmico: Dano de Gelo, Ambiente [Frio Extremo e Terreno Escorregadio], Obscurecer Visual e Aprisionar de Gelo; 31 PP).",
         "custo_2e_pp": 31,
         "custo_3e_pp": 31,
         "nome_pt": "Controle de Gelo e Frio"

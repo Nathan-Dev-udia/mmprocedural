@@ -14,11 +14,11 @@
       "Pre": 2
     },
     "poderes": [
-      "Avenging Pistols: Alcance de Percepção Dano 9, Resistência Alternativa (Fortitude) (36 PP)",
-      "Intangible: Intangibilidade 4, Reação, Sutil 2 (Looks completely normal), Still Affected by mágico (23 PP)",
-      "Teleporte: Teleporte 9 (2 milhas), Limitado (Teleporte to victim’s grave and target only) (9 PP)",
-      "Imortalidade: Imortalidade 6 (One Day) Linked with Relive death and Manifest Skill (12 PP)",
-      "Manifest Skill: Variável 1 (Mimetismo Skill, 5 pontos) Linked with Imortalidade and Relive Death, Ação Livre, Limitado a a single skill from current victim (may switch"
+      "Avenging Pistolas: Alcance de Percepção Dano 9, Resistência Alternativa (Fortitude) (36 PP)",
+      "Intangible: Intangibilidade 4, Reação, Sutil 2 (Looks completely normal), Still Affected by Magia (23 PP)",
+      "Teleporte: Teleporte 9 (2 milhas), Limitado (Teleporte to victim’s grave e target Apenas) (9 PP)",
+      "Imortalidade: Imortalidade 6 (One Day) Ligado com Relive death e Manifest Perícia (12 PP)",
+      "Manifest Perícia: Variável 1 (Mimetismo Perícia, 5 pontos) Ligado com Imortalidade e Relive Death, Ação Livre, Limitado a a single Perícia from current victim (may switch"
     ],
     "equipamento": [],
     "vantagens": [
@@ -34,6 +34,12 @@
     "pericias": [],
     "iniciativa": 7,
     "ataques": [
+      {
+        "nome": "Pistolas",
+        "bonus": null,
+        "alcance": "",
+        "dano": "Percepção, Dano 9"
+      },
       {
         "nome": "Desarmado",
         "bonus": 14,
@@ -60,11 +66,11 @@
     "complicacoes": [
       {
         "titulo": "Motivação",
-        "texto": "The Crimson Avenger is driven by justice and a desire to fulfill her role as avenger of the wronged."
+        "texto": "The Crimson Avenger is driven by justice e a desire to fulfill her role as avenger of the wronged."
       },
       {
         "titulo": "Obsessão",
-        "texto": "The Crimson Avenger would like to remove the curse she operates under and which gives her Powers."
+        "texto": "The Crimson Avenger would like to remove the curse she operates under e which gives her Poderes."
       }
     ]
   },

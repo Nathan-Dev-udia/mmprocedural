@@ -30,18 +30,18 @@
       "Vontade": 5
     },
     "pericias": {
-      "Enganacao": 10,
-      "Persuasao": 10,
-      "Especialidade: Reunir Informacoes": 11,
-      "Especialidade: Civica": 12,
-      "Percepcao": 13,
+      "Enganação": 10,
+      "Persuasão": 10,
+      "Especialidade: Reunir Informações": 11,
+      "Especialidade: Cívica": 12,
+      "Percepção": 13,
       "Veículos": 7,
-      "Intuicao": 8,
+      "Intuição": 8,
       "Furtividade": 7
     },
     "vantagens": [
       "Atraente",
-      "Benefício (Wealth x3, Status) 4",
+      "Benefício (Riqueza x3, Status) 4",
       "Bem Relacionado",
       "Contatos",
       "Rolamento Defensivo",
@@ -50,7 +50,7 @@
       "Tolerância Maior",
       "Iniciativa Aprimorada 2",
       "Ação em Movimento",
-      "Maestria em Perícia (Bluff, Diplomacy, Gather Information, Pilot)"
+      "Maestria em Perícia (Enganação, Persuasão, Investigação, Veículos)"
     ],
     "poderes": [
       {

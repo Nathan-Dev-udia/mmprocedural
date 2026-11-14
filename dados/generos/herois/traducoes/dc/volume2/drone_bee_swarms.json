@@ -14,20 +14,30 @@
       "Pre": "—"
     },
     "poderes": [
-      "Área de Explosão Dano 6 (Stings); Voo 5 (96 km/h; Wings); Imunidade 30 (Fortitude Effects); Impenetrável Proteção 5; Intangibilidade 2 (Swarm; Permanente, Inato)"
+      "Área de Explosão Dano 6 (Stings); Voo 5 (96 km/h; Wings); Imunidade 30 (Efeitos de Fortitude); Impenetrável Proteção 5; Intangibilidade 2 (Swarm; Permanente, Inato)"
     ],
     "equipamento": [],
     "vantagens": [],
     "pericias": [],
     "iniciativa": 4,
-    "ataques": [],
+    "ataques": [
+      {
+        "nome": "Stings",
+        "bonus": null,
+        "alcance": "",
+        "dano": "Área de Explosão Dano 6"
+      }
+    ],
     "defesas": {
       "Esquiva": 4,
       "Aparar": 0,
-      "Resistência": 5
+      "Fortitude": null,
+      "Resistência": 5,
+      "Vontade": null
     },
     "observacao_defesas": "",
     "custos": {
+      "Habilidades": -26,
       "Poderes": 73,
       "Vantagens": 0,
       "Perícias": 0,

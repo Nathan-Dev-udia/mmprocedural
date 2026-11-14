@@ -52,7 +52,7 @@
       "Agarrar Rápido",
       "Imobilizar Aprimorado",
       "Derrubar Aprimorado",
-      "Set-Up",
+      "Armação",
       "Ataque Furtivo",
       "Idiomas 1"
     ],
@@ -73,7 +73,7 @@
       },
       {
         "nome": "Telepathy 7",
-        "construcao_3e": "Array Telepático: Leitura Mental 7 (14 PP); Efeito Alternativo: Elo de Dados / Comunicação 3 com Computadores (1 PP); Efeito Alternativo: Escudo Mental / Vontade Aprimorada 14 (1 PP); Sentidos Mentais (2 PP) = 18 PP.",
+        "construcao_3e": "Arranjo Telepático: Leitura Mental 7 (14 PP); Efeito Alternativo: Elo de Dados / Comunicação 3 com Computadores (1 PP); Efeito Alternativo: Escudo Mental / Vontade Aprimorada 14 (1 PP); Sentidos Mentais (2 PP) = 18 PP.",
         "custo_2e_pp": 18,
         "custo_3e_pp": 18,
         "nome_pt": "Telepatia e Elo Cibernético"

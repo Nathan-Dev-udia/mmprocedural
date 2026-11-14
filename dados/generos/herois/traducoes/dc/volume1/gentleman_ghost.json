@@ -14,12 +14,12 @@
       "Pre": 6
     },
     "poderes": [
-      "Cursed Spirit: Camuflagem 10 (Total); Imunidade 12 (Envelhecimento, Suporte Vital, Sleep), Imortalidade 2 (36 PP)",
+      "Cursed Spirit: Camuflagem 10 (Total); Imunidade 12 (Envelhecimento, Suporte Vital, Sono), Imortalidade 2 (36 PP)",
       "Spectral Flintlocks: Dano à Distância 9 (18 PP)",
       "Spirit Walk: Arranjo (15 pontos)",
-      "• Ghost: Intangibilidade 3: Energy (Spectral Energy); Limitado: Attacks by characters with royal blood deal full Dano) (15 PP)",
-      "• Travel the Spirit Planes: Teleporte 5 (900 feet), Preciso (1 PP)",
-      "Touch of Death: Aflição 10 (resistido por Vontade; Tonto, Disabled, Incapacitado) (10 PP)"
+      "• Ghost: Intangibilidade 3: Energia (Spectral Energia); Limitado: Attacks by characters com royal blood deal full Dano) (15 PP)",
+      "• Travel the Spirit Planes: Teleporte 5 (900 pés), Acurado (1 PP)",
+      "Touch of Death: Aflição 10 (resistido por Vontade; Tonto, Desabilitado, Incapacitado) (10 PP)"
     ],
     "equipamento": [],
     "vantagens": [
@@ -89,11 +89,11 @@
     "complicacoes": [
       {
         "titulo": "Cultured",
-        "texto": "Even as a highwayman and criminal, Gentleman Ghost always tries to maintain an air of culture and propriety— but is also quick to anger when he fails to receive the respect he believes he deserves."
+        "texto": "Even as a highwayman e criminal, Gentleman Ghost always tries to maintain an air of culture e propriety— but is also quick to anger when he fails to receive the respect he believes he deserves."
       },
       {
         "titulo": "Cursed",
-        "texto": "The Gentleman Ghost is unable to pass on to the next plane of existence until the one who killed him passes first, along with a magically unquenchable greed that drives him to crime."
+        "texto": "The Gentleman Ghost is unable to pass on to the next plane of existence until the one who killed him passes first, along com a magically unquenchable greed that drives him to crime."
       }
     ]
   },

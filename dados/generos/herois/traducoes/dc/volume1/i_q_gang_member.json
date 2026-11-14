@@ -17,7 +17,7 @@
       "Air Cycle (Voo 8, Sutil, Platform, Wings, Removível (-1 ponto))"
     ],
     "equipamento": [
-      "Light Pistola"
+      "Luz Pistola"
     ],
     "vantagens": [
       "Equipamento 1"
@@ -29,7 +29,7 @@
         "total": 4
       },
       {
-        "nome": "Especialidade: Streetwise",
+        "nome": "Especialidade: Manha",
         "graduacoes": 2,
         "total": 3
       },
@@ -57,7 +57,7 @@
     "iniciativa": 2,
     "ataques": [
       {
-        "nome": "Light Pistola",
+        "nome": "Luz Pistola",
         "bonus": 1,
         "alcance": "",
         "dano": "Dano 3"

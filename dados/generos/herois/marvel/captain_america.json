@@ -51,7 +51,7 @@
       "Equipamento 1",
       "Destemido",
       "Defesa Aprimorada 2",
-      "Crítico Aprimorado (Shield) 2",
+      "Crítico Aprimorado (Escudo) 2",
       "Derrubar Aprimorado",
       "Desarmar Aprimorado 2",
       "Inspirar 5",
@@ -68,7 +68,7 @@
     "poderes": [
       {
         "nome": "Star-Spangled Shield",
-        "construcao_3e": "Star-Spangled Shield (Dispositivo facilmente removível): Dano baseado em Força 3 (Penetrante 10, À Distância 10, Ricochete 2, Indestrutível 1; 24 PP); Efeito Alternativo: Deflexão 12 (1 PP). Piscina de 25 PP; Facilmente Removível (-10 PP) com Defesas integradas = 18 PP (custo 2e preservado).",
+        "construcao_3e": "Star-Spangled Escudo (Dispositivo facilmente removível): Dano baseado em Força 3 (Penetrante 10, À Distância 10, Ricochete 2, Indestrutível 1; 24 PP); Efeito Alternativo: Deflexão 12 (1 PP). Piscina de 25 PP; Facilmente Removível (-10 PP) com Defesas integradas = 18 PP (custo 2e preservado).",
         "custo_2e_pp": 18,
         "custo_3e_pp": 18,
         "nome_pt": "Escudo Estrelado"

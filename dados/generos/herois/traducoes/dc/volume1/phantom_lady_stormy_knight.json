@@ -14,16 +14,16 @@
       "Pre": 4
     },
     "poderes": [
-      "of the Black Condor. The Mayan spider goddess Tocotl granted him the Abilities he sought, empowering him with the very spirits of the land and air. She also charged Trujillo with joining Uncle Sam’s efforts to end Gonzo the Mechanical Bastard’s threat to America. Uncle Sam foresaw Trujillo becoming the new Black Condor, and led the Freedom Fighters into the Southwestern desert in search of him. A team of metahumans working for S.H.A.D.E. intercepted them first, and were on the verge of apprehend - ing Sam and his compatriots when Trujillo appeared on the scene. Almost single-handedly, Trujillo defeated the S.H.A.D.E. operatives and forced them to retreat. Trujillo’s power and courage quickly made him a cornerstone of the new team, and he became a Corpo a Corpo confidant of the similarly mystically empowered Uncle Sam. Even after other members left the team to get their lives in order, he remains"
+      "of the Black Condor. The Mayan spider goddess Tocotl granted him the Habilidades he sought, empowering him com the very Espíritos of the land e air. She also charged Trujillo com joining Uncle Sam’s efforts to end Gonzo the Mechanical Bastard’s threat to America. Uncle Sam foresaw Trujillo becoming the new Black Condor, e led the Freedom Fighters into the Southwestern desert in search of him. A team of metahumans working for S.H.A.D.E. intercepted them first, e were on the verge of apprehend - ing Sam e his compatriots when Trujillo appeared on the scene. Almost single-handedly, Trujillo defeated the S.H.A.D.E. operatives e forced them to retreat. Trujillo’s Poder e courage quickly made him a cornerstone of the new team, e he became a Corpo a Corpo confidant of the similarly mystically empowered Uncle Sam. Even after other members left the team to get their lives in order, he remains"
     ],
     "equipamento": [],
     "vantagens": [
       "Atraente 2",
       "Ataque Defensivo",
       "Rolamento Defensivo 2",
-      "Evasion",
+      "Evasão",
       "Fascinar (Enganação)",
-      "Agarrar com Destreza",
+      "Agarrar Preciso",
       "Agarrar Aprimorado",
       "Imobilizar Aprimorado",
       "Derrubar Aprimorado",
@@ -41,12 +41,12 @@
         "total": 12
       },
       {
-        "nome": "Especialidade: Science",
+        "nome": "Especialidade: Ciência",
         "graduacoes": 5,
         "total": 9
       },
       {
-        "nome": "Especialidade: Popular Culture",
+        "nome": "Especialidade: Cultura Popular",
         "graduacoes": 6,
         "total": 10
       },
@@ -56,7 +56,7 @@
         "total": 7
       },
       {
-        "nome": "Combate à Distância: Black-Light Bands",
+        "nome": "Combate à Distância: Black-Luz Bands",
         "graduacoes": 7,
         "total": 10
       },
@@ -74,7 +74,7 @@
     "iniciativa": 3,
     "ataques": [
       {
-        "nome": "Black-Light Bands",
+        "nome": "Black-Luz Bands",
         "bonus": 10,
         "alcance": "",
         "dano": "Dano à Distância 10, Penetrante 10"
@@ -109,7 +109,7 @@
       },
       {
         "titulo": "Vício",
-        "texto": "Stormy currently has her alcoholism under control, but the demands of her life as a famous movie actress/super hero remain a constant threat to push her off the wagon. keep his power in check until, at Father Time’s behest, he was equipped to serve the organization as the new Human Bomb. Of the various metahumans working for S.H.A.D.E., Andy had the most qualms about its aims and means, and eventu - ally deserted it to join Uncle Sam in forming a new Freedom Fighters. In time, his teammates lost their trepidations about his volatile Abilities, and his awesome Powers were a major asset in defeating Gonzo the Mechanical Bastard and its cor - rupt allies in S.H.A.D.E. Later incidents threatened Andy’s new hard-won friendships with his teammates. While both were under the influence of invading alien insects, Jenna Raleigh forced Andy to mate with her, something for which he has yet to forgive her. Andre Twist in turn harbored a grudge against Andy for the incident because of his feelings for Jenna, but the two have since rec - onciled. With the Freedom Fighters in abeyance, Andy pon - ders his future in the team’s “Heartland” sanctuary. ROY LINCOLN The original Human Bomb’s Abilities were similar to Franklin’s, but with a top-graduação Dano 9. Lincoln also did not have the Accident complication."
+        "texto": "Stormy currently has her alcoholism under control, but the demands of her life as a famous movie actress/super hero remain a constant threat to push her off the wagon. keep his Poder in Teste until, at Father Time’s behest, he was equipped to serve the organization as the new Human Bomb. Of the various metahumans working for S.H.A.D.E., Andy had the most qualms about its aims e means, e eventu - ally deserted it to join Uncle Sam in forming a new Freedom Fighters. In time, his teammates lost their trepidations about his volatile Habilidades, e his awesome Poderes were a major asset in defeating Gonzo the Mechanical Bastard e its cor - rupt allies in S.H.A.D.E. Later incidents threatened Andy’s new hard-won friendships com his teammates. While both were under the influence of invading alien insects, Jenna Raleigh forced Andy to mate com her, something for which he has yet to forgive her. Andre Twist in turn harbored a grudge contra Andy for the incident because of his feelings for Jenna, but the two have since rec - onciled. com the Freedom Fighters in abeyance, Andy pon - ders his future in the team’s “Heartland” sanctuary. ROY LINCOLN The original Human Bomb’s Habilidades were similar to Franklin’s, but com a top-graduação Dano 9. Lincoln also did not have the Accident complication."
       }
     ]
   },

@@ -14,14 +14,14 @@
       "Pre": 3
     },
     "poderes": [
-      "Booster Gold Suit: 62 pontos, Removível (–12 pontos) (50 PP)",
-      "Augmented Abilities: Enhanced Fortitude 5; Força Aprimorada 7 (19 PP)",
-      "Energy Blasters: Dano à Distância 8 (16 PP)",
-      "• Time Circuits: Movimento 3 (Full Time Travel), Peculiaridade: Connected to Rip Hunter’s"
+      "Booster Gold Suit: 62 pontos, Removível (-12 pontos) (50 PP)",
+      "Augmented Habilidades: Fortitude Aprimorada 5; Força Aprimorada 7 (19 PP)",
+      "Energia Blasters: Dano à Distância 8 (16 PP)",
+      "• Time Circuits: Movimento 3 (Full Viagem no Tempo), Peculiaridade: Connected to Rip Hunter’s"
     ],
     "equipamento": [
-      "Campo de Força: Imunidade 10 (Suporte Vital) Linked to Proteção 8, Sustentado (18 PP)",
-      "Goggles: Sentidos 8 (Comunicação Link to Skeets, Audição Estendida 2, Visão Estendida 2, Infravisão, Visão na Penumbra, Rádio) (8 PP)",
+      "Campo de Força: Imunidade 10 (Suporte Vital) Ligado a Proteção 8, Sustentado (18 PP)",
+      "Goggles: Sentidos 8 (Elo de Comunicação to Skeets, Audição Estendida 2, Visão Estendida 2, Infravisão, Visão na Penumbra, Rádio) (8 PP)",
       "Voo Ring: Voo 7 (400 km/h), Removível (-3 ponto) (11 PP)"
     ],
     "vantagens": [
@@ -29,7 +29,7 @@
       "Atraente",
       "Iniciativa Aprimorada",
       "Sorte",
-      "Minion 10 (Skeets)",
+      "Capanga 10 (Skeets)",
       "Ataque Poderoso"
     ],
     "pericias": [
@@ -54,7 +54,7 @@
         "total": 10
       },
       {
-        "nome": "Combate à Distância: Energy Blasters",
+        "nome": "Combate à Distância: Energia Blasters",
         "graduacoes": 10,
         "total": 12
       }
@@ -68,7 +68,7 @@
         "dano": "Dano 10"
       },
       {
-        "nome": "Energy Blasters",
+        "nome": "Energia Blasters",
         "bonus": 12,
         "alcance": "À distância",
         "dano": "Dano 8"
@@ -97,7 +97,7 @@
       },
       {
         "titulo": "Skeets",
-        "texto": "Though he is from the future, Booster knows little about history and is often dependent upon the knowledge and advice of his robotic partner Skeets."
+        "texto": "Though he is from the future, Booster knows little about História e is often dependent upon the knowledge e advice of his robotic partner Skeets."
       }
     ]
   },

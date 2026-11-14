@@ -14,13 +14,13 @@
       "Pre": 1
     },
     "poderes": [
-      "Giant (Crescimento 16, Permanente, Inato); Indestructible (Resistência Impenetrável 14); mental Lightning (Área de Linha Dano 14, Penetrante 14, Ativação: Ação Padrão, –2 pontos); Sealed Mind (Imunidade 10: mental Effects)"
+      "Giant (Crescimento 16, Permanente, Inato); Indestructible (Resistência Impenetrável 14); Mental Lightning (Área de Linha Dano 14, Penetrante 14, Ativação: Ação Padrão, -2 pontos); Sealed Mind (Imunidade 10: Efeitos Mentais)"
     ],
     "equipamento": [],
     "vantagens": [
       "Ataque Imprudente",
       "Ataque Poderoso",
-      "Derrubar em Sequência"
+      "Ataque Dominó"
     ],
     "pericias": [
       {
@@ -36,6 +36,12 @@
     ],
     "iniciativa": 0,
     "ataques": [
+      {
+        "nome": "Mental Lightning",
+        "bonus": null,
+        "alcance": "",
+        "dano": "Área de Linha Dano 14"
+      },
       {
         "nome": "Desarmado",
         "bonus": 8,
@@ -62,7 +68,7 @@
     "complicacoes": [
       {
         "titulo": "Complicação",
-        "texto": "Mindless (Validus is virtually incapable of thinking or acting on his own without orders or direction), Rage (Validus is filled with undirected rage and given to rampages of destructions when provoked)"
+        "texto": "Mindless (Validus is virtually incapable of thinking or Atuação on his own sem orders or direction), Rage (Validus is filled com undirected rage e given to rampages of destructions when provoked)"
       }
     ]
   },

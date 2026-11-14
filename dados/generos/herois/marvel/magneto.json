@@ -59,7 +59,7 @@
       "Liderança",
       "Assustar",
       "Bem Informado",
-      "Maestria em Perícia: Persuasion, Expertise (Life Sciences), Expertise (Tactics)"
+      "Maestria em Perícia: Persuasion, Expertise (Ciências da Vida) , Expertise (Tactics)"
     ],
     "poderes": [
       {
@@ -71,7 +71,7 @@
       },
       {
         "nome": "Magnetic Control",
-        "construcao_3e": "Array Dinâmico de Controle Magnético 16 (Mover Objeto Metálico 16 Dinâmico; 34 PP); Efeitos Alternativos Dinâmicos: Rajada Magnética 16 (2 PP), Campo de Força 16 Impenetrável (2 PP), Voo Magnético 6 (2 PP), Deflexão 12 (2 PP), Anular Eletrônicos 10 (2 PP) = 44 PP.",
+        "construcao_3e": "Arranjo Dinâmico de Controle Magnético 16 (Mover Objeto Metálico 16 Dinâmico; 34 PP); Efeitos Alternativos Dinâmicos: Rajada Magnética 16 (2 PP), Campo de Força 16 Impenetrável (2 PP), Voo Magnético 6 (2 PP), Deflexão 12 (2 PP), Anular Eletrônicos 10 (2 PP) = 44 PP.",
         "custo_2e_pp": 44,
         "custo_3e_pp": 44,
         "nome_pt": "Controle do Magnetismo"

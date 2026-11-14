@@ -14,22 +14,22 @@
       "Pre": 0
     },
     "poderes": [
-      "and Abilities of others. His lack of a soul grants him certain immunities against Hell-born creatures and ef- fects. It also makes him emotionless and gives him little sense of morality. Despite this apparent handicap, Sebastian has pursued a romantic relationship with Halo. Sebastian joins the Outsiders after they meet in Markovia, where the sorcerer was busy hunting vampires. At one ponto, Sebastian gets his arm ripped off and acquires a new one, possibly from a fallen Markovian soldier. The Outsiders occasionally fought Sebastian’s father as well as his sister Fauna (who also had Powers due to a separate soul-purchasing deal initiated by their father). Sebastian later leaves the team and eventually joins the Sentinels of mágico. He is currently a member of Checkmate. While his father is re- sponsible for his condition, Sebastian still considers him fam- ily and frequently attempts to repair their relationship. g race Grace Choi is a seven-foot-tall woman with a Bana Amazon heritage. After being abused by her foster parents, at age nine Grace ran away and was forced into a prostitution ring. Her Powers manifested at age twelve and Grace used them to escape. She later became a bouncer for Chaney’s nightclub in Metropolis, which catered to aliens and metahumans. Heroes & V Heroes & V I I lla lla I I ns, Vol. 2 ns, Vol. 2 Heroes & VIllaIns, Vol. 2 178.76.175.224"
+      "e Habilidades of others. His lack of a soul grants him certain immunities contra Hell-born creatures e ef- fects. It also makes him emotionless e gives him little sense of morality. Despite this apparent handicap, Sebastian has pursued a romantic relationship com Halo. Sebastian joins the Outsiders after they meet in Markovia, where the sorcerer was busy hunting vampires. At one ponto, Sebastian gets his arm ripped off e acquires a new one, possibly from a fallen Markovian soldier. The Outsiders occasionally fought Sebastian’s father as well as his sister Fauna (who also had Poderes due to a separate soul-purchasing deal initiated by their father). Sebastian later leaves the team e eventually joins the Sentinels of Magia. He is currently a member of Checkmate. While his father is re- sponsible for his condition, Sebastian still considers him fam- ily e frequently attempts to repair their relationship. g race Grace Choi is a seven-foot-tall woman com a Bana Amazon heritage. After being abused by her foster parents, at age nine Grace ran away e was forced into a prostitution ring. Her Poderes manifested at age twelve e Grace used them to escape. She later became a bouncer for Chaney’s nightclub in Metropolis, which catered to aliens e metahumans. Heroes & V Heroes & V I I lla lla I I ns, Vol. 2 ns, Vol. 2 Heroes & VIllaIns, Vol. 2 178.76.175.224"
     ],
     "equipamento": [],
     "vantagens": [
       "Artífice",
       "Atraente",
-      "Conectado",
+      "Bem Relacionado",
       "Ataque Defensivo",
       "Rolamento Defensivo 5",
       "Destemido",
       "Sorte 4",
       "Ritualista",
-      "Provocar",
+      "Zombar",
       "Transe",
       "Esquiva Fabulosa",
-      "Bem-Informado"
+      "Bem Informado"
     ],
     "pericias": [
       {
@@ -48,7 +48,7 @@
         "total": 8
       },
       {
-        "nome": "Especialidade: mágico",
+        "nome": "Especialidade: Magia",
         "graduacoes": 8,
         "total": 14
       },
@@ -68,7 +68,7 @@
         "total": 12
       },
       {
-        "nome": "Combate à Distância: mágico",
+        "nome": "Combate à Distância: Magia",
         "graduacoes": 5,
         "total": 8
       },
@@ -83,8 +83,21 @@
         "total": 6
       }
     ],
-    "iniciativa": 0,
-    "ataques": [],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 7,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 1"
+      },
+      {
+        "nome": "Magia Bolt",
+        "bonus": 8,
+        "alcance": "À distância",
+        "dano": "Dano 10"
+      }
+    ],
     "defesas": {
       "Esquiva": 10,
       "Aparar": 7,

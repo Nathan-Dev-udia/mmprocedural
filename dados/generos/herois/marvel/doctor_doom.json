@@ -48,7 +48,7 @@
       "Combate à Distância: Ataques gerais": 12
     },
     "vantagens": [
-      "Benefício (Status, Diplomatic Immunity, Wealth 4) 6",
+      "Benefício (Status, Imunidade Diplomática, Riqueza 4) 6",
       "Equipamento 6",
       "Destemido",
       "Inventor",
@@ -68,7 +68,7 @@
       },
       {
         "nome": "Magic",
-        "construcao_3e": "Array de Magia: Amarras Místicas / Aflição à Distância 12 Cumulativa (24 PP); Efeito Alternativo: Rajada Mística / Dano à Distância 12 (1 PP); Efeito Alternativo: Movimento Dimensional 3 (1 PP) = 26 PP.",
+        "construcao_3e": "Arranjo de Magia: Amarras Místicas / Aflição à Distância 12 Cumulativa (24 PP); Efeito Alternativo: Rajada Mística / Dano à Distância 12 (1 PP); Efeito Alternativo: Movimento Dimensional 3 (1 PP) = 26 PP.",
         "custo_2e_pp": 26,
         "custo_3e_pp": 26,
         "nome_pt": "Magia Mística"

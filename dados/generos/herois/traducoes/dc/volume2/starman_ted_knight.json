@@ -14,18 +14,18 @@
       "Pre": 2
     },
     "poderes": [
-      "Cosmic r od: Removível (–13 pontos) (54 PP)",
+      "Cósmico r od: Removível (-13 pontos) (54 PP)",
       "e nergy Escudo: Sustentado Proteção 10, Affect Others (20 PP)",
       "S hooting Star: Voo 7 (400 km/h) (14 PP)",
       "S tellar e nergy Control: Arranjo (28 pontos)",
-      "• Stellar Raio: Dano à Distância 14, Dynamic (29 PP)",
-      "• Gravity Manipulation: Mover Objetos 14 (400 tons), Dynamic (2 PP)",
-      "• Starlight: Environment 4 (Bright Light, 250 feet), Dynamic (2 PP)"
+      "• Stellar Raio: Dano à Distância 14, Dinâmico (29 PP)",
+      "• Gravidade Manipulation: Mover Objetos 14 (400 toneladas), Dinâmico (2 PP)",
+      "• Starlight: Ambiente 4 (Bright Luz, 250 pés), Dinâmico (2 PP)"
     ],
     "equipamento": [],
     "vantagens": [
-      "Ataque Preciso",
-      "Benefit 2 (Independently Wealthy)",
+      "Ataque Acurado",
+      "Benefício 2 (Independentemente Rico)",
       "Esforço Extraordinário",
       "Defesa Aprimorada",
       "Inspirar 2",
@@ -33,9 +33,8 @@
       "Liderança",
       "Ação em Movimento",
       "Ataque Poderoso",
-      "Precise Attack (Ranged",
-      "Cover)",
-      "Bem-Informado"
+      "Ataque Preciso (À Distância, Cobertura)",
+      "Bem Informado"
     ],
     "pericias": [
       {
@@ -54,7 +53,7 @@
         "total": 10
       },
       {
-        "nome": "Especialidade: Physics",
+        "nome": "Especialidade: Física",
         "graduacoes": 10,
         "total": 17
       },
@@ -69,7 +68,7 @@
         "total": 10
       },
       {
-        "nome": "Combate à Distância: Gravity Rod",
+        "nome": "Combate à Distância: Gravidade Rod",
         "graduacoes": 7,
         "total": 10
       },
@@ -79,8 +78,21 @@
         "total": 17
       }
     ],
-    "iniciativa": 0,
-    "ataques": [],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Stellar Raio",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Dano 14"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 2"
+      }
+    ],
     "defesas": {
       "Esquiva": 10,
       "Fortitude": 8,
@@ -88,7 +100,7 @@
       "Resistência": 13,
       "Vontade": 11
     },
-    "observacao_defesas": "* Vontade 11 *Without Energy Escudo.",
+    "observacao_defesas": "* Vontade 11 *sem Energia Escudo.",
     "custos": {
       "Habilidades": 48,
       "Perícias": 29,
@@ -99,11 +111,11 @@
     "complicacoes": [
       {
         "titulo": "Guiding Star",
-        "texto": "Ted Knight’s strong moral compass allows him to lead by example—not just the citizens of Opal City, but his fellow heroes and those who follow him as Starman."
+        "texto": "Ted Knight’s strong moral compass allows him to lead by example—not just the citizens of Opal City, but his fellow heroes e those who follow him as Starman."
       },
       {
         "titulo": "Guilt",
-        "texto": "The guilt Ted Knight felt over his part in inventing the atomic bomb led to him spending part of the 1950s in a sanitarium. Ever since, the possible repercussions of his inventions and actions weigh heavily on him, sometimes leading him to do nothing at all. aLLI e S Starman’s greatest allies have always been his friends in the Justice Society and the All-Star Squadron, but he was par - ticularly Corpo a Corpo to his cousin, the first Phantom Lady, and Black Canary, with whom he had a brief affair. Years later he worked closely with his sons when they carried on the legacy of Star- man, as well as other heroes who protected Opal City."
+        "texto": "The guilt Ted Knight felt over his part in inventing the atomic bomb led to him spending part of the 1950s in a sanitarium. Ever since, the possible repercussions of his inventions e actions weigh heavily on him, sometimes leading him to do nothing at all. aLLI e S Starman’s greatest allies have always been his friends in the Justice Society e the All-Star Squadron, but he was par - ticularly Corpo a Corpo to his cousin, the first Phantom Lady, e Black Canary, com whom he had a brief affair. Years later he worked closely com his sons when they carried on the legacy of Star- man, as well as other heroes who protected Opal City."
       }
     ]
   },

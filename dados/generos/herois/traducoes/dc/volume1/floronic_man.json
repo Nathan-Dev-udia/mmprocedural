@@ -14,21 +14,21 @@
       "Pre": 2
     },
     "poderes": [
-      "Chlorokinesis: Arranjo (36 pontos), Peculiaridade: Plants must be nearby (-1 ponto) (39 PP)",
+      "Chlorokinesis: Arranjo (36 pontos), Peculiaridade: Plantas must be nearby (-1 ponto) (39 PP)",
       "• Grabbing Tendrils: À Distância Área de Explosão Aflição 12 (resistido por Esquiva; Impedido, Imóvel, Paralisado) (36 PP)",
-      "• Duplication: Summon Duplicate 11 (165 pontos), Controlado, mental Link 3 (1 PP)",
-      "• Plant Servants: Summon 4 (60 pontos), Controlado, Horde, Multiple Minions 2 (4 minions), mental Link (1 PP)",
+      "• Duplication: Invocar Duplicate 11 (165 pontos), Controlado, Elo Mental 3 (1 PP)",
+      "• Plant Servants: Invocar 4 (60 pontos), Controlado, Horda, Múltiplos Capangas 2 (4 capangas), Elo Mental (1 PP)",
       "• Squeezing Tendrils: Alcance de Percepção Dano 12 (1 PP)",
-      "• Venomous Toxin Cloud: À Distância Área de Nuvem Aflição 12 (resistido por Fortitude; Fatigado, Exausto, Incapacitado) (1 PP)",
-      "Plant Body: Alongamento 2 (30 feet); Imortalidade 5; Imunidade 3 (Inanição and Thirst, Sufocamento, all half effect), Proteção 7, Regeneração 5 (26 PP)",
+      "• Venomous Toxin Nuvem: À Distância Área de Nuvem Aflição 12 (resistido por Fortitude; Fatigado, Exausto, Incapacitado) (1 PP)",
+      "Plant Body: Alongamento 2 (30 pés); Imortalidade 5; Imunidade 3 (Fome e Sede, Sufocamento, all half effect), Proteção 7, Regeneração 5 (26 PP)",
       "Thorny: Força-based Dano 6; Dano 2, Reação (14 PP)",
-      "Communicate with Plants: Compreender (Plants 2 and Plant Spirits 1) (6 PP)",
-      "Plant Sense: Sentidos 3 (Plant Prontidão, Aguçado, Raio) (3 PP)"
+      "Communicate com Plantas: Compreender (Plantas 2 e Plant Espíritos 1) (6 PP)",
+      "Plant Sense: Sentidos 3 (Plant Consciência, Aguçado, Raio) (3 PP)"
     ],
     "equipamento": [],
     "vantagens": [
       "Duro de Matar",
-      "Grande Vigor",
+      "Tolerância Maior",
       "Iniciativa Aprimorada"
     ],
     "pericias": [
@@ -61,10 +61,22 @@
     "iniciativa": 6,
     "ataques": [
       {
+        "nome": "Grabbing Tendrils",
+        "bonus": null,
+        "alcance": "À distância",
+        "dano": "Área de Explosão Aflição 12, resistido por Esquiva Squeezing Tendrils — Alcance de Percepção, Dano 12"
+      },
+      {
         "nome": "Thorny",
         "bonus": 12,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 10 Venomous Cloud — À Distância, Área de Nuvem Aflição 12, resistido por Fortitude"
+        "dano": "Dano 10"
+      },
+      {
+        "nome": "Venomous Nuvem",
+        "bonus": null,
+        "alcance": "À distância",
+        "dano": "Área de Nuvem Aflição 12, resistido por Fortitude"
       }
     ],
     "defesas": {
@@ -86,11 +98,11 @@
     "complicacoes": [
       {
         "titulo": "Motivação",
-        "texto": "For better or worse, the Floronic Man considers himself the defender of plant life and is willing to go to extremes to show humans the error of their ways."
+        "texto": "For better or worse, the Floronic Man considers himself the defender of plant life e is willing to go to extremes to show humans the error of their ways."
       },
       {
         "titulo": "Preconceito",
-        "texto": "The Floronic Man is a human/plant hybrid and looks strangely horrific."
+        "texto": "The Floronic Man is a human/plant hybrid e looks strangely horrific."
       }
     ]
   },

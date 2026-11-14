@@ -14,14 +14,14 @@
       "Pre": 10
     },
     "poderes": [
-      "Drain Blood: Baseado em Agarrar Enfraquecer Força 12 Linked to Grab- based Enfraquecer Vigor 12 (12 PP)",
-      "Hypnosis: Perception Aflição à Distância 12 (resistido por Vontade; Tonto, Compelido, Controlado), Cumulativo, Sense- Dependent (Sight) (36 PP)",
-      "Prayer Shawl: Enhanced Advantage 1 (Diehard), Proteção 10 (Impenetrável 5), Imunidade 2 (Envelhecimento, Limitado a Half Effect; Raven’s Soul-Self Powers), Removível (-4 pontos) (14 PP)",
+      "Drain Blood: Baseado em Agarrar Enfraquecer Força 12 Ligado a Grab- based Enfraquecer Vigor 12 (12 PP)",
+      "Hypnosis: Percepção Aflição à Distância 12 (resistido por Vontade; Tonto, Compelido, Controlado), Cumulativo, Sense- Dependent (Visão) (36 PP)",
+      "Prayer Shawl: Vantagem Aprimorada 1 (Duro de Matar), Proteção 10 (Impenetrável 5), Imunidade 2 (Envelhecimento, Limitado a Half Effect; Raven’s Soul-Self Poderes), Removível (-4 pontos) (14 PP)",
       "Vampire Força: Força Aprimorada 16, Dissipação, Reação (Gatilho By Drinking Blood), Limitado a amount of Força of target (16 PP)"
     ],
     "equipamento": [],
     "vantagens": [
-      "Benefit 5 (head of the Church of Blood)",
+      "Benefício 5 (head of the Church of Blood)",
       "Duro de Matar",
       "Agarrar Aprimorado",
       "Imobilizar Aprimorado",
@@ -48,7 +48,7 @@
         "total": 18
       },
       {
-        "nome": "Especialidade: mágico and Theology",
+        "nome": "Especialidade: Magia e Theology",
         "graduacoes": 8,
         "total": 9
       }
@@ -58,14 +58,8 @@
       {
         "nome": "Vampire Bite",
         "bonus": 10,
-        "alcance": "Corpo a corpo",
-        "dano": "Dano 3 Linked to Enfraquecer 12"
-      },
-      {
-        "nome": "Desarmado",
-        "bonus": 8,
-        "alcance": "Corpo a corpo",
-        "dano": "Dano 3"
+        "alcance": "",
+        "dano": "(Corpo a Corpo, Dano 3 Ligado a Enfraquecer 12), Desarmado +8 (Corpo a Corpo, Dano 3)"
       }
     ],
     "defesas": {
@@ -83,11 +77,11 @@
       "Perícias": 11,
       "Defesas": 27
     },
-    "total": null,
+    "total": 159,
     "complicacoes": [
       {
         "titulo": "Motivação",
-        "texto": "Power and control over the Church of Blood."
+        "texto": "Poder e control over the Church of Blood."
       },
       {
         "titulo": "Inimigo",

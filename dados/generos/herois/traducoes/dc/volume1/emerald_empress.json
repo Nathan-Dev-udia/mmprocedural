@@ -14,11 +14,11 @@
       "Pre": 4
     },
     "poderes": [
-      "The Emerald Eye of Ekron (Removível, –18 pontos, Indestructible, +1 ponto): Emerald Raio (Dano à Distância 18), Levitation (Voo 5 (96 km/h)), Protective Field (Impenetrável Proteção 18; Imunidade 10: Suporte Vital)"
+      "The Emerald Eye of Ekron (Removível, -18 pontos, Indestructible, +1 ponto): Emerald Raio (Dano à Distância 18), Levitation (Voo 5 (96 km/h)), Protective Field (Impenetrável Proteção 18; Imunidade 10: Suporte Vital)"
     ],
     "equipamento": [],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Atraente",
       "Ataque à Distância 4"
     ],
@@ -88,11 +88,11 @@
     "complicacoes": [
       {
         "titulo": "Blind and Powerless",
-        "texto": "Blinding the Emerald Eye leaves the Empress unable to access its Powers."
+        "texto": "Blinding the Emerald Eye leaves the Empress unable to access its Poderes."
       },
       {
         "titulo": "Kryptonite",
-        "texto": "Exposure to kryptonite can reduce the Emerald Eye’s power graduações and even disable it for a time."
+        "texto": "Exposure to kryptonite can reduce the Emerald Eye’s Poder graduações e even disable it for a time."
       }
     ]
   },

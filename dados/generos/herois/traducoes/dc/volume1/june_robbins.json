@@ -16,19 +16,19 @@
     "poderes": [],
     "equipamento": [],
     "vantagens": [
-      "Ataque Preciso",
-      "Beginner’s Luck",
-      "Benefit 1 (Well-off)",
-      "Conectado",
+      "Ataque Acurado",
+      "Sorte de Principiante",
+      "Benefício 1 (Abastado)",
+      "Bem Relacionado",
       "Ataque Defensivo",
       "Rolamento Defensivo 3",
       "Equipamento 2",
-      "Evasion",
+      "Evasão",
       "Inspirar",
       "Inventor",
-      "Languages 3",
+      "Idiomas 3",
       "Sorte",
-      "Pau pra Toda Obra",
+      "Faz Tudo",
       "Trabalho em Equipe",
       "Well Informed"
     ],
@@ -54,7 +54,7 @@
         "total": 10
       },
       {
-        "nome": "Especialidade: Computers",
+        "nome": "Especialidade: Computação",
         "graduacoes": 10,
         "total": 15
       },

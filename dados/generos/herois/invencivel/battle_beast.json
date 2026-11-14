@@ -26,7 +26,7 @@
       "Vontade": 12
     },
     "pericias": {
-      "Acrobacias": 1,
+      "Acrobacia": 1,
       "Atletismo": 1,
       "Enganação": 3,
       "Intimidação": 9,
@@ -36,7 +36,7 @@
       "Veículos": 4
     },
     "pericias_detalhes": [
-      "Acrobacias 1 (+6)",
+      "Acrobacia 1 (+6)",
       "Atletismo 1 (+15)",
       "Enganação 3 (+6)",
       "Intimidação 9 (+11)",
@@ -54,7 +54,7 @@
       "Ataque Dominó 2",
       "Ataque Imprudente",
       "Ataque Poderoso",
-      "Crítico Aprimorado 3 (Armas de Guerra, Desarmado/Garras e Dentes 2\\) Duro de Matar",
+      "Crítico Aprimorado 3 (Armas de Guerra, Desarmado/Garras e Dentes 2) Duro de Matar",
       "Estrangular",
       "Imobilizar Aprimorado",
       "Iniciativa Aprimorada"
@@ -62,8 +62,8 @@
     "poderes": [
       "**Dentes e Garras**: Dano baseado em Força 2 (**Extars**: Penetrante 7); 9 pontos",
       "**Poderoso**: Imunidade 10 (Suporte Vital), Regeneração 7, Salto 3 (15 metros), Velocidade 1; 21 pontos",
-      "**Sentidos Animalescos**: Sentidos 5 (Audição Normal \\[Estendido\\], Olfato Normal \\[Aguçado, Estendido\\], Visão na Penumbra, Ultra-audição); 5 pontos",
-      "**Armas de Guerra**: Dano baseado em Força 3 (**Extras**: Crítico Aprimorado, Descritor Variável \\[Armas medievais\\], Dividido, Penetrante 7\\. **Falhas**: Facilmente Removível \\-2 \\[-6 pontos\\]); 7 pontos"
+      "**Sentidos Animalescos**: Sentidos 5 (Audição Normal [Estendido], Olfato Normal [Aguçado, Estendido], Visão na Penumbra, Ultra-audição); 5 pontos",
+      "**Armas de Guerra**: Dano baseado em Força 3 (**Extras**: Crítico Aprimorado, Descritor Variável [Armas medievais], Dividido, Penetrante 7. **Falhas**: Facilmente Removível -2 [-6 pontos]); 7 pontos"
     ],
     "equipamento": [],
     "iniciativa": 9,

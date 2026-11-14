@@ -14,17 +14,17 @@
       "Pre": 2
     },
     "poderes": [
-      "t Camuflagem 10 (All Sentidos), Limitado a Machines; -M ask: Característica (Quick Change); Remote Sensing 8 (Visual and Auditory), Medium (location of T-Spheres); Sentidos 1 (Comunicação Link—T-Spheres); Removível (-6 pontos) (22 PP)"
+      "t Camuflagem 10 (All Sentidos), Limitado a Máquinas; -M ask: Característica (Quick Change); Sensoriamento Remoto 8 (Visual e Auditivo), Medium (location of T-Spheres); Sentidos 1 (Elo de Comunicação—T-Spheres); Removível (-6 pontos) (22 PP)"
     ],
     "equipamento": [],
     "vantagens": [
       "Avaliação",
       "Rolamento Defensivo 3",
       "Iniciativa Aprimorada",
-      "Ferramentas Improvisadas",
+      "Ferramentas Aprimoradas",
       "Inventor",
-      "Pau pra Toda Obra",
-      "Languages 5",
+      "Faz Tudo",
+      "Idiomas 5",
       "Minions 20 (4 T-Spheres)",
       "Ataque Poderoso",
       "Ataque à Distância 5"
@@ -46,7 +46,7 @@
         "total": 15
       },
       {
-        "nome": "Especialidade: Streetwise",
+        "nome": "Especialidade: Manha",
         "graduacoes": 5,
         "total": 12
       },
@@ -110,7 +110,7 @@
       "Perícias": 34,
       "Defesas": 20
     },
-    "total": null,
+    "total": 188,
     "complicacoes": [
       {
         "titulo": "Motivação",

@@ -14,17 +14,17 @@
       "Pre": 4
     },
     "poderes": [
-      "i Enhanced Advantage 1 (Diehard); Imunidade 1 mmor tal: (Envelhecimento) (2 PP)",
+      "i Vantagem Aprimorada 1 (Duro de Matar); Imunidade 1 mmor tal: (Envelhecimento) (2 PP)",
       "t oughened f lesh: Impenetrável Proteção 10 (20 PP)"
     ],
     "equipamento": [],
     "vantagens": [
-      "Benefit 2 (Independently Wealthy)",
+      "Benefício 2 (Independentemente Rico)",
       "Duro de Matar",
-      "Ferramentas Improvisadas",
+      "Ferramentas Aprimoradas",
       "Inventor",
-      "Minion 48 (6 120-ponto Robots)",
-      "Ultimate Skill (Expertise: Robotics)"
+      "Capanga 48 (6 120-ponto Robots)",
+      "Ultimate Skill (Especialidade: Robótica)"
     ],
     "pericias": [
       {
@@ -33,17 +33,17 @@
         "total": 3
       },
       {
-        "nome": "Especialidade: Astronomy",
+        "nome": "Especialidade: Astronomia",
         "graduacoes": 8,
         "total": 17
       },
       {
-        "nome": "Especialidade: Robotics",
+        "nome": "Especialidade: Robótica",
         "graduacoes": 11,
         "total": 20
       },
       {
-        "nome": "Especialidade: Science",
+        "nome": "Especialidade: Ciência",
         "graduacoes": 8,
         "total": 17
       },
@@ -59,7 +59,14 @@
       }
     ],
     "iniciativa": 0,
-    "ataques": [],
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 3,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 1"
+      }
+    ],
     "defesas": {
       "Esquiva": 9,
       "Fortitude": 8,
@@ -75,7 +82,7 @@
       "Defesas": 30,
       "Vantagens": 53
     },
-    "total": null,
+    "total": 167,
     "complicacoes": [
       {
         "titulo": "o bsession",
@@ -83,7 +90,7 @@
       },
       {
         "titulo": "Fobia",
-        "texto": "Ivo has a crippling fear of death, which paradoxically Compelido him to take the deforming Imortalidade serum again, even after its effects had been reversed."
+        "texto": "Ivo has a crippling fear of death, which paradoxically Compelido him to take the deforming Imortalidade serum again, even after its Efeitos had been reversed."
       }
     ]
   },

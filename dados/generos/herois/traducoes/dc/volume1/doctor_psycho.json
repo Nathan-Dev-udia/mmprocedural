@@ -14,11 +14,11 @@
       "Pre": 4
     },
     "poderes": [
-      "Dream Manipulation: Ilusão 12 (All Sentidos), Independent, Resistível, Limitado a One Subject, Limitado a Sleeping Targets, Sutil 2; Sentidos 16 (find dreaming subject; mental Prontidão, Preciso, Aguçado, Extended 10, Raio, À Distância), Limitado a One Subject at a Time, Limitado a Sleeping Targets (42 PP)",
+      "Dream Manipulation: Ilusão 12 (All Sentidos), Independent, Resistível, Limitado a One Subject, Limitado a Sleeping Targets, Sutil 2; Sentidos 16 (find dreaming subject; Consciência Mental, Acurado, Aguçado, Estendido 10, Raio, À Distância), Limitado a One Subject at a Time, Limitado a Sleeping Targets (42 PP)",
       "Dwarfism: Encolhimento 4, Permanente, Inato (9 PP)",
-      "Ectoplasmic Disguise: Metamorfose 3 (Humanoids), Removível (machine or victim used to channel ectoplasm, -1 pontos), Ativação (Ação Padrão), Exige Teste (Deception, CD 15) Linked to Proteção 6 (11 PP)",
-      "Hypnosis: Aflição 12 (resistido por Vontade; Entranced, Compelido, Controlado), Concentração, Cumulativo, Reach 2 (38 PP)",
-      "Mind Invasion: Leitura mental 12, Concentração, Distrativo, Cumulativo, Effortless, Sutil (25 PP)"
+      "Ectoplasmic Disguise: Metamorfose 3 (Humanoids), Removível (machine or victim used to channel ectoplasm, -1 pontos), Ativação (Ação Padrão), Exige Teste (Enganação, CD 15) Ligado a Proteção 6 (11 PP)",
+      "Hypnosis: Aflição 12 (resistido por Vontade; Em Transe, Compelido, Controlado), Concentração, Cumulativo, Reach 2 (38 PP)",
+      "Mind Invasion: Leitura Mental 12, Concentração, Distrativo, Cumulativo, Effortless, Sutil (25 PP)"
     ],
     "equipamento": [],
     "vantagens": [
@@ -33,12 +33,12 @@
         "total": 14
       },
       {
-        "nome": "Especialidade: Medicine",
+        "nome": "Especialidade: Medicina",
         "graduacoes": 8,
         "total": 17
       },
       {
-        "nome": "Especialidade: Science",
+        "nome": "Especialidade: Ciência",
         "graduacoes": 8,
         "total": 17
       },
@@ -92,7 +92,7 @@
       "Resistência": 6,
       "Vontade": 18
     },
-    "observacao_defesas": "* Vontade 18 *Without Ectoplasmic Disguise.",
+    "observacao_defesas": "* Vontade 18 *sem Ectoplasmic Disguise.",
     "custos": {
       "Habilidades": 54,
       "Perícias": 39,
@@ -104,7 +104,7 @@
     "complicacoes": [
       {
         "titulo": "Loucura",
-        "texto": "Doctor Psycho suffers from a pathological hatred of women, especially beautiful women. This misogynistic fury sometimes drives him to outbursts of rage and fits of hysteria."
+        "texto": "Doctor Psycho suffers from a pathological hatred of women, especially beautiful women. This misogynistic fury sometimes drives him to outbursts of rage e fits of hysteria."
       }
     ]
   },

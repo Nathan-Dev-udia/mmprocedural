@@ -14,19 +14,18 @@
       "Pre": 2
     },
     "poderes": [
-      "Blaster Pistola (À Distância Área de Explosão Dano 5, Facilmente Removível (–6 pontos)), r ifle (Arranjo (19 pontos), Facilmente Removível (–8 pontos): Bullets (À Distância Multiataque Dano 6, Extended Range), ae : Laser (Dano à Distância 7, Penetrante 5), Característica 1 (Hidden Tracer in Rifle))"
+      "Blaster Pistola (À Distância Área de Explosão Dano 5, Facilmente Removível (-6 pontos)), r ifle (Arranjo (19 pontos), Facilmente Removível (-8 pontos): Balas (À Distância Multiataque Dano 6, Estendido Range), ae : Laser (Dano à Distância 7, Penetrante 5), Característica 1 (Hidden Tracer in Rifle))"
     ],
     "equipamento": [
-      "Boomerang (À Distância Força-based Dano 1), Camo Clothing (Urban), f r agmentation Grenades (À Distância Área de Explosão Dano 5), Commlink , Heavy Pistola (Dano à Distância 4), Survival k nife (Força-based Dano 1, Improved Critical); 1 ponto of additional equipment"
+      "Boomerang (À Distância Força-based Dano 1), Camo Clothing (Urban), f r agmentation Grenades (À Distância Área de Explosão Dano 5), Commlink , Heavy Pistola (Dano à Distância 4), Sobrevivência k nife (Força-based Dano 1, Improved Critical); 1 ponto of additional equipment"
     ],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Ataque Corpo-a-Corpo 3",
       "Rolamento Defensivo",
       "Equipamento 6",
-      "Esconder-se a Plena Vista",
-      "Precise Attack 2 (Ranged",
-      "Cover and Concealment)",
+      "Esconder-se à Plena Vista",
+      "Ataque Preciso 2 (À Distância, Cobertura e Camuflagem)",
       "Saque Rápido",
       "Ataque à Distância 8",
       "Esforço Supremo (Aim)"
@@ -54,7 +53,26 @@
       }
     ],
     "iniciativa": 3,
-    "ataques": [],
+    "ataques": [
+      {
+        "nome": "Rifle (Balas)",
+        "bonus": 13,
+        "alcance": "À distância",
+        "dano": "Multiataque Dano 6"
+      },
+      {
+        "nome": "Rifle (Laser)",
+        "bonus": 13,
+        "alcance": "À distância",
+        "dano": "Dano 7, Penetrante 5"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 9,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 4"
+      }
+    ],
     "defesas": {
       "Esquiva": 14,
       "Aparar": 12,

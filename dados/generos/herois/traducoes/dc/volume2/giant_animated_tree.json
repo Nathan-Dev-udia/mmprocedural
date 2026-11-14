@@ -14,7 +14,7 @@
       "Pre": 0
     },
     "poderes": [
-      "Branches (Alongamento 2, Extra Limbs 12), f lail (Burst A rea Força Dano 12, Seletivo, Baseado em Agarrar), Giant (Crescimento 16, Permanente, Inato), Plant (Imunidade 60 (Fortitude effects, Vontade effects)), t ough B ark (Resistência Impenetrável 4)"
+      "Branches (Alongamento 2, Membros Extras 12), f lail (Estouro A rea Força Dano 12, Seletivo, Baseado em Agarrar), Giant (Crescimento 16, Permanente, Inato), Plant (Imunidade 60 (Efeitos de Fortitude, Vontade Efeitos)), t ough B ark (Resistência Impenetrável 4)"
     ],
     "equipamento": [],
     "vantagens": [
@@ -31,15 +31,25 @@
         "total": 6
       }
     ],
-    "iniciativa": 0,
-    "ataques": [],
+    "iniciativa": -2,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 6,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 16"
+      }
+    ],
     "defesas": {
       "Esquiva": 4,
       "Aparar": 6,
-      "Resistência": 16
+      "Fortitude": null,
+      "Resistência": 16,
+      "Vontade": null
     },
     "observacao_defesas": "",
     "custos": {
+      "Habilidades": -7,
       "Poderes": 113,
       "Vantagens": 5,
       "Perícias": 3,
@@ -49,7 +59,7 @@
     "complicacoes": [
       {
         "titulo": "Plant",
-        "texto": "Affected by things with harm and affect plants. e: Truly titanic trees (old-Crescimento redwoods, etc.) may have n ot up to Crescimento 20, with appropriately adjusted traits. 112 112"
+        "texto": "Affected by things com harm e affect Plantas. e: Truly titanic trees (old-Crescimento redwoods, etc.) may have n ot up to Crescimento 20, com appropriately adjusted traits. 112 112"
       }
     ]
   },

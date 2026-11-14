@@ -14,7 +14,7 @@
       "Pre": 3
     },
     "poderes": [
-      "Battlesuit (Removível, -17 pontos), a rmor Systems (Proteção 3, Campo de Força 3, Força Aprimorada 6, Vigor Aprimorado 4, Agilidade Aprimorada 3, Voo 8 (800 km/h)); e nergy Bolt ( Dano à Distância 10*); Sensors (Sentidos 6 (Infravisão, Visão na Penumbra, Visão Microscópica, Rádio, Tracking, Ultravisão)); Suporte Vital (Imunidade 10 (Suporte Vital)) * Barron is constantly in the process of updating and improving his battlesuit. pontos allotted to Energy Bolt or other Powers may instead be filled with varying weaponry or gadgets as the mood suits him. antages: Assessment, Connected, Eidetic Memory, a dv Evasion, Improvised Tools, Inventor, Power Attack, Tracking"
+      "Battlesuit (Removível, -17 pontos), a rmor Systems (Proteção 3, Campo de Força 3, Força Aprimorada 6, Vigor Aprimorado 4, Agilidade Aprimorada 3, Voo 8 (800 km/h)); e nergy Bolt ( Dano à Distância 10*); Sensors (Sentidos 6 (Infravisão, Visão na Penumbra, Visão Microscópica, Rádio, Rastrear, Ultravisão)); Suporte Vital (Imunidade 10 (Suporte Vital)) * Barron is constantly in the process of updating e improving his battlesuit. pontos allotted to Energia Bolt or other Poderes may instead be filled com varying weaponry or gadgets as the mood suits him. antages: Assessment, Connected, Memória Eidética, a dv Evasão, Improvised Tools, Inventor, Poder Attack, Rastrear"
     ],
     "equipamento": [],
     "vantagens": [],
@@ -40,12 +40,12 @@
         "total": 9
       },
       {
-        "nome": "Especialidade: Business",
+        "nome": "Especialidade: Negócios",
         "graduacoes": 6,
         "total": 14
       },
       {
-        "nome": "Especialidade: Science",
+        "nome": "Especialidade: Ciência",
         "graduacoes": 6,
         "total": 14
       },
@@ -80,8 +80,21 @@
         "total": 11
       }
     ],
-    "iniciativa": 0,
-    "ataques": [],
+    "iniciativa": 5,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 12,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 8"
+      },
+      {
+        "nome": "Energia Bolt",
+        "bonus": 10,
+        "alcance": "À distância",
+        "dano": "Dano 10"
+      }
+    ],
     "defesas": {
       "Esquiva": 8,
       "Aparar": 6,

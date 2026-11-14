@@ -16,21 +16,21 @@
     "poderes": [],
     "equipamento": [],
     "vantagens": [
-      "Benefit 4 (Multi-millionaire)",
+      "Benefício 4 (Multimilionário)",
       "Equipamento 10",
       "Fascinar (Enganação)",
       "Inventor",
-      "Languages 2",
+      "Idiomas 2",
       "Liderança",
       "Ataque à Distância 4",
       "Tomar a Iniciativa",
-      "Preparar",
+      "Armação",
       "Maestria em Perícia (Enganação)",
       "Maestria em Perícia (Persuasão)",
       "Maestria em Perícia (Tecnologia)",
-      "Provocar",
+      "Zombar",
       "Esforço Supremo (Tecnologia)",
-      "Bem-Informado"
+      "Bem Informado"
     ],
     "pericias": [
       {
@@ -39,12 +39,12 @@
         "total": 13
       },
       {
-        "nome": "Especialidade: Medicine",
+        "nome": "Especialidade: Medicina",
         "graduacoes": 5,
         "total": 15
       },
       {
-        "nome": "Especialidade: Science",
+        "nome": "Especialidade: Ciência",
         "graduacoes": 10,
         "total": 20
       },
@@ -117,11 +117,11 @@
       },
       {
         "titulo": "Nemesis",
-        "texto": "Niles Caulder has several sworn enemies, including the Brain and General Immortus."
+        "texto": "Niles Caulder has several sworn enemies, including the Brain e General Immortus."
       },
       {
         "titulo": "Reputação",
-        "texto": "The Chief has garnered a reputation as duplicitous and mentally unstable. Other heroes (even his allies) are suspicious of his actions."
+        "texto": "The Chief has garnered a reputation as duplicitous e mentally unstable. Other heroes (even his allies) are suspicious of his actions."
       }
     ]
   },

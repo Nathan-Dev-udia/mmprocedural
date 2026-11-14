@@ -14,30 +14,29 @@
       "Pre": 2
     },
     "poderes": [
-      "a ssassin ’s Golpe Força-based Dano 4, Penetrante 4; t rigger M an Multiataque on handguns with a Dano of 4 or less"
+      "a ssassin ’s Golpe Força-based Dano 4, Penetrante 4; t rigger M an Multiataque on handguns com a Dano of 4 or less"
     ],
     "equipamento": [
       "d ual d esert e agles Dano à Distância 4"
     ],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Ataque Imprudente",
       "Avaliação",
-      "Benefit 8 (Alternate Identity 4",
-      "Cipher 4)",
+      "Benefício 8 (Alternate Identity 4, Cifra 4)",
       "Ataque Corpo-a-Corpo 4",
       "Rolamento Defensivo 2",
       "Equipamento 4",
-      "Evasion",
-      "Grande Vigor",
+      "Evasão",
+      "Tolerância Maior",
       "Mira Aprimorada",
-      "Improved Critical 3 (Assassin’s Strike)",
+      "Crítico Aprimorado 3 (Assassin's Strike)",
       "Desarmar Aprimorado",
       "Iniciativa Aprimorada",
       "Derrubar Aprimorado",
-      "Levantar Rápido",
+      "De Pé",
       "Ação em Movimento",
-      "Precise Attack (à distância; Cover)",
+      "Ataque Preciso (À Distância; Cobertura)",
       "Saque Rápido",
       "Ataque à Distância 4"
     ],
@@ -80,6 +79,12 @@
     ],
     "iniciativa": 8,
     "ataques": [
+      {
+        "nome": "Assassin’s Golpe",
+        "bonus": 12,
+        "alcance": "",
+        "dano": "Dano 6, Penetrante, Critical 17-20"
+      },
       {
         "nome": "Dual Desert Eagles",
         "bonus": 11,

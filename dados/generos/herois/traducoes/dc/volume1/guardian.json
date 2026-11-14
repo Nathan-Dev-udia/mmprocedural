@@ -14,9 +14,9 @@
       "Pre": 2
     },
     "poderes": [
-      "Athletic Prowess: Salto 1, Movimento 4 (Safe Fall, Sure- Footed 2, Swinging), Velocidade 3 (25 km/h) (12 PP)",
+      "Athletic Prowess: Salto 1, Movimento 4 (Queda Segura, Sure- Footed 2, Balançar-se), Velocidade 3 (25 km/h) (12 PP)",
       "Genetic Acceleration: Regeneração 5 (5 PP)",
-      "Golden Escudo: Impenetrável Proteção 6, Exige Teste (Acrobatics DC11), Removível (-2 pontos) (9 PP)"
+      "Golden Escudo: Impenetrável Proteção 6, Exige Teste (Acrobacia DC11), Removível (-2 pontos) (9 PP)"
     ],
     "equipamento": [
       "HEADQUARTERS: PROJECT CADMUS (50 PP)",
@@ -26,10 +26,10 @@
       "Finta Ágil",
       "Ataque Imprudente",
       "Equipamento 10",
-      "Evasion",
+      "Evasão",
       "Agarrar Rápido",
-      "Grande Vigor",
-      "Improved Critical 2 (Desarmado)",
+      "Tolerância Maior",
+      "Crítico Aprimorado 2 (Desarmado)",
       "Defesa Aprimorada",
       "Desarmar Aprimorado",
       "Iniciativa Aprimorada",
@@ -39,7 +39,7 @@
       "Liderança",
       "Ação em Movimento",
       "Ataque Poderoso",
-      "Luta Caída",
+      "Luta no Chão",
       "Esquiva Fabulosa",
       "Quebrar Arma"
     ],
@@ -80,7 +80,7 @@
         "total": 5
       },
       {
-        "nome": "Combate à Distância: Guns",
+        "nome": "Combate à Distância: Armas de Fogo",
         "graduacoes": 5,
         "total": 9
       },
@@ -106,7 +106,7 @@
         "nome": "Desarmado",
         "bonus": 14,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 4, Crit. 18-20"
+        "dano": "Dano 4, Crít. 18-20"
       }
     ],
     "defesas": {
@@ -116,7 +116,7 @@
       "Resistência": 9,
       "Vontade": 9
     },
-    "observacao_defesas": "*, Vontade 9 *Without Golden Escudo.",
+    "observacao_defesas": "*, Vontade 9 *sem Golden Escudo.",
     "custos": {
       "Habilidades": 64,
       "Perícias": 25,
@@ -128,11 +128,11 @@
     "complicacoes": [
       {
         "titulo": "Cloned",
-        "texto": "Though the outside world believes that there has been only one Guardian for decades, occasional memory gaps and behavior quirks hint at the truth: whenever the Guardian falls in battle, Project Cadmus grows another clone of Jim Harper and instills him with the memories of his predecessor."
+        "texto": "Though the outside world believes that there has been Apenas one Guardian for decades, occasional memory gaps e behavior quirks hint at the truth: whenever the Guardian falls in battle, Project Cadmus grows another clone of Jim Harper e instills him com the memories of his predecessor."
       },
       {
         "titulo": "Newsboy Legion",
-        "texto": "Both at Project Cadmus and in the streets of Metropolis, the footsteps of the Guardian are often dogged by the Newsboy Legion, a group of street kids who became researchers at Cadmus when they got older—and cloned a new, young group of Newsboys to be their sons and tag along after the newly-cloned Guardian!"
+        "texto": "Both at Project Cadmus e in the streets of Metropolis, the footsteps of the Guardian are often dogged by the Newsboy Legion, a group of street kids who became researchers at Cadmus when they got older—e cloned a new, young group of Newsboys to be their sons e tag along after the newly-cloned Guardian!"
       }
     ]
   },

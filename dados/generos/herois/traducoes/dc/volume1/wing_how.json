@@ -16,7 +16,7 @@
     "poderes": [],
     "equipamento": [],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Ataque Defensivo",
       "Rolamento Defensivo 2",
       "Crítico Aprimorado (Desarmado)",
@@ -27,11 +27,11 @@
       "Iniciativa Aprimorada",
       "Quebrar Aprimorado",
       "Derrubar Aprimorado",
-      "Levantar Rápido",
-      "Languages (English)",
+      "De Pé",
+      "Idiomas (Inglês)",
       "Ataque Poderoso",
       "Assustar",
-      "Derrubar em Sequência"
+      "Ataque Dominó"
     ],
     "pericias": [
       {
@@ -71,7 +71,7 @@
         "nome": "Desarmado",
         "bonus": 7,
         "alcance": "",
-        "dano": "Dano 3, Crit. 19-20"
+        "dano": "Dano 3, Crít. 19-20"
       }
     ],
     "defesas": {

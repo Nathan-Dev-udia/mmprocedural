@@ -18,8 +18,8 @@
       "Flor de Lapela: Arranjo (10 pontos)",
       "• Veneno do Coringa: Aflição 10 (resistido por Fortitude; Tonto, Atordoado, Incapacitado) (10 PP)",
       "• Ácido Espirrado: Dano 5, Efeito Secundário (1 PP)",
-      "Campainha Elétrica: Dano 8 (eletricidade) (8 PP)",
-      "Bolinhas de Gude: Área de Cone Aflição 8 (resistido por Esquiva; Impedido, Prone), Limitado a Dois Graus (8 PP)",
+      "Campainha Elétrica: Dano 8 (Eletricidade) (8 PP)",
+      "Bolinhas de Gude: Área de Cone Aflição 8 (resistido por Esquiva; Impedido, Caído), Limitado a Dois Graus (8 PP)",
       "Weapon: Typically a Pistola (Dano 4) or similar back-up weapon (8 PP)"
     ],
     "vantagens": [
@@ -34,8 +34,8 @@
       "Sorte",
       "Ação em Movimento",
       "Redirecionar",
-      "Preparar",
-      "Provocar"
+      "Armação",
+      "Zombar"
     ],
     "pericias": [
       {
@@ -74,7 +74,7 @@
         "total": 15
       },
       {
-        "nome": "Combate à Distância: Guns",
+        "nome": "Combate à Distância: Armas de Fogo",
         "graduacoes": 6,
         "total": 10
       },
@@ -143,15 +143,15 @@
       },
       {
         "titulo": "Loucura",
-        "texto": "The Joker is completely insane, and therefore prone to irrational and unpredictable behavior. He thrives on chaos, and creates it."
+        "texto": "The Joker is completely insane, e therefore Caído to irrational e unpredictable behavior. He thrives on chaos, e creates it."
       },
       {
         "titulo": "Marca Registrada",
-        "texto": "The Joker’s ego compels him to taunt, leave clues, and otherwise make it clear he is responsible for his crimes."
+        "texto": "The Joker’s ego compels him to taunt, leave clues, e otherwise make it clear he is responsible for his crimes."
       },
       {
         "titulo": "Joker gained a sidekick and would-be girlfriend",
-        "texto": "Dr. Harleen Quinzel, a therapist who became romantically obsessed with the Joker and adopted the costumed identity of Harley Quinn to help him. The Joker has also worked with super-criminal gangs like the Injustice League on occasion, mainly to keep Batman’s super hero allies out of the way and ensure he gets a shot at the Dark Knight himself. ENEMIES The Joker is Batman’s archnemesis and most dangerous foe. He has frequently gone on murderous crime-sprees before being locked up in Arkham Asylum, his insanity making him incompetent to stand trial in court. The Joker is responsible for many of the greatest tragedies in Batman’s life, including crippling Barbara Gordon (the first Batgirl) and killing Jason Todd (the second Robin)."
+        "texto": "Dr. Harleen Quinzel, a therapist who became romantically obsessed com the Joker e adopted the costumed identity of Harley Quinn to help him. The Joker has also worked com super-criminal gangs like the Injustice League on occasion, mainly to keep Batman’s super hero allies out of the way e ensure he gets a shot at the Dark Knight himself. ENEMIES The Joker is Batman’s archnemesis e most dangerous foe. He has frequently gone on murderous crime-sprees before being locked up in Arkham Asylum, his insanity making him incompetent to stand trial in court. The Joker is responsible for many of the greatest tragedies in Batman’s life, including crippling Barbara Gordon (the first Batgirl) e killing Jason Todd (the second Robin)."
       }
     ]
   },

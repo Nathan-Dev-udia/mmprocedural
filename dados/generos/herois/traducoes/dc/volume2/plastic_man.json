@@ -14,7 +14,7 @@
       "Pre": 2
     },
     "poderes": [
-      "100 Defenses 20"
+      "100 Defesas 20"
     ],
     "equipamento": [],
     "vantagens": [
@@ -24,20 +24,23 @@
     "iniciativa": 5,
     "ataques": [
       {
-        "nome": "Desarmado",
-        "bonus": 11,
-        "alcance": "Corpo a corpo",
-        "dano": "Dano 2 (+14 grab check)"
+        "nome": "Desarmado +11 Corpo a Corpo, Dano",
+        "bonus": 2,
+        "alcance": "",
+        "dano": "+14 grab Teste"
       }
     ],
     "defesas": {
       "Esquiva": 11,
+      "Fortitude": null,
       "Aparar": 11,
       "Resistência": 11,
       "Vontade": 10
     },
     "observacao_defesas": "",
-    "custos": {},
+    "custos": {
+      "Habilidades": 52
+    },
     "total": null,
     "complicacoes": [
       {
@@ -50,7 +53,7 @@
       },
       {
         "titulo": "Fraqueza",
-        "texto": "Extremes of temperature can cause Plastic Man to melt or freeze solid (and even shatter!). Luke later created a costume of his own and took the code - name Offspring, working with the Teen Titans and other young heroes. Offspring has malleability similar to his father, but to an even greater extent, since he can also vary his color- ation and not just his topography, allowing Offspring to truly appear to be whatever he transforms into. He often uses the Variável effect of his Shapeshifting for Crescimento or Enhanced Traits reflecting greater size, density, or innately stronger forms (such as turning into a charging rhino)"
+        "texto": "Extremes of temperature can cause Plastic Man to melt or freeze solid (e even shatter!). Luke later created a costume of his own e took the code - name Offspring, working com the Teen Titans e other young heroes. Offspring has malleability similar to his father, but to an even greater extent, since he can also vary his color- ation e not just his topography, allowing Offspring to truly appear to be whatever he transforms into. He often uses the Efeito Variável of his Shapeshifting for Crescimento or Características Aprimoradas reflecting greater size, density, or innately stronger forms (such as turning into a charging rhino)"
       }
     ]
   },

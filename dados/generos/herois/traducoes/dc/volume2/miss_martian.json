@@ -14,18 +14,18 @@
       "Pre": 1
     },
     "poderes": [
-      "f Voo 13 (16,0 km/h) (26 PP)",
-      "ligh t: • Space f ligh t: Movimento 1 (Space Travel 1) (1 PP)",
-      "Martian d ur ability: Imunidade 10 (Suporte Vital); Impenetrável Proteção 3 (16 PP)",
-      "Martian Morphology: Arranjo (20-ponto), Dynamic • i n tangibility: Intangibilidade 4, Dynamic (21 PP)",
-      "• d ensity: Proteção 2, Resistência Impenetrável 14, Sustentado, Dynamic (2 PP)",
-      "• i n visibility: Visual Camuflagem 4, Dynamic (2 PP)",
-      "• Shapeshifting: Metamorfose 4 (Any Form), Dynamic (2 PP)",
-      "Martian Sentidos: Super-Sentidos 7 (Visão Estendida 2, mental Prontidão, Vision Penetrates Camuflagem) (7 PP)",
-      "Martian Força: Power-lifting 4 (Lifting Str 18; 6,000 tons) (4 PP)",
-      "Martian Vision: Dano à Distância 10 (force) (20 PP)",
-      "t elepa thy: mental Comunicação 4, Leitura mental 9 (34 PP)",
-      "a V ant G d a e S Corpo a Corpo Attack 2, Great Endurance, Power Attack"
+      "f Voo 13 (25.600 km/h) (26 PP)",
+      "Luz: • Space f Luz: Movimento 1 (Viagem Espacial 1) (1 PP)",
+      "Martian d ur Habilidade: Imunidade 10 (Suporte Vital); Impenetrável Proteção 3 (16 PP)",
+      "Martian Morphology: Arranjo (20-ponto), Dinâmico • i n tangibility: Intangibilidade 4, Dinâmico (21 PP)",
+      "• d ensity: Proteção 2, Resistência Impenetrável 14, Sustentado, Dinâmico (2 PP)",
+      "• i n visibility: Visual Camuflagem 4, Dinâmico (2 PP)",
+      "• Shapeshifting: Metamorfose 4 (Any Form), Dinâmico (2 PP)",
+      "Martian Sentidos: Super-Sentidos 7 (Visão Estendida 2, Consciência Mental, Visão Penetrates Camuflagem) (7 PP)",
+      "Martian Força: Levantamento de Peso 4 (Lifting Str 18; 6,000 toneladas) (4 PP)",
+      "Martian Visão: Dano à Distância 10 (force) (20 PP)",
+      "t elepa thy: Comunicação Mental 4, Leitura Mental 9 (34 PP)",
+      "a V ant G d a e S Corpo a Corpo Attack 2, Great Endurance, Poder Attack"
     ],
     "equipamento": [],
     "vantagens": [],
@@ -79,7 +79,7 @@
     "iniciativa": 2,
     "ataques": [
       {
-        "nome": "Martian Vision",
+        "nome": "Martian Visão",
         "bonus": 10,
         "alcance": "À distância",
         "dano": "Dano 10"
@@ -98,7 +98,7 @@
       "Resistência": 14,
       "Vontade": 12
     },
-    "observacao_defesas": "* Vontade 12 *Without Density",
+    "observacao_defesas": "* Vontade 12 *sem Density",
     "custos": {
       "Habilidades": 76,
       "Perícias": 25,

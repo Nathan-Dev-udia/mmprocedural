@@ -14,7 +14,7 @@
       "Pre": 0
     },
     "poderes": [
-      "Mark of Jargon ( Arranjo (38 pontos), Empathy (Alcance de Percepção Cumulativo Aflição 10 (resistido por Vontade; Tonto, Compelido, Controlado); Leitura mental 8, Limitado a Emotions), AE: Psychokinetic Discharge (Dano à Distância 10 (force)); Saturnian Durability (“Imunidade 11 (Envelhecimento, Suporte Vital); Impenetrável Proteção 2; Regeneração 10, Persistent); Saturnian Força (Força Aprimorada 4, Limitado a Lifting (Lifting Str 16; 1,600 tons)); Son of Jargon (Voo 11 (4,0 km/h), AE: Movimento 1 (Space Travel 1))"
+      "Mark of Jargon ( Arranjo (38 pontos), Empathy (Alcance de Percepção Cumulativo Aflição 10 (resistido por Vontade; Tonto, Compelido, Controlado); Leitura Mental 8, Limitado a Emotions), AE: Psychokinetic Discharge (Dano à Distância 10 (force)); Saturnian Durability (“Imunidade 11 (Envelhecimento, Suporte Vital); Impenetrável Proteção 2; Regeneração 10, Persistent); Saturnian Força (Força Aprimorada 4, Limitado a Lifting (Lifting Str 16; 1,600 toneladas)); Son of Jargon (Voo 11 (6.400 km/h), AE: Movimento 1 (Viagem Espacial 1))"
     ],
     "equipamento": [],
     "vantagens": [
@@ -81,6 +81,12 @@
         "bonus": 12,
         "alcance": "À distância",
         "dano": "Dano 10"
+      },
+      {
+        "nome": "Empathy",
+        "bonus": null,
+        "alcance": "Percepção",
+        "dano": "Aflição 10, Cumulativo"
       }
     ],
     "defesas": {
@@ -106,7 +112,7 @@
       },
       {
         "titulo": "Perda de Poder",
-        "texto": "Loss of Powers and reduction of Str and Sta to 2 when exposed to fogo."
+        "texto": "Loss of Poderes e reduction of Str e Sta to 2 when exposed to Fogo."
       },
       {
         "titulo": "Relacionamento",

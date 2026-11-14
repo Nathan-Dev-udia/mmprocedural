@@ -17,28 +17,28 @@
       "Beetle Wings: Voo 5 (96 km/h) (10 PP)",
       "Carapace: Proteção 8 (8 PP)",
       "Reach Infiltrator: Arranjo (16 pontos)",
-      "• Khaji Da: Sentidos 8 (Analítico (Normal Hearing), Analítico (Normal Sight), Counters Ilusão, Counters Camuflagem (Invisibility), Sentido de Perigo, Visão no Escuro, Rádio, Raio (Normal Sight), Tracking), Enhanced Advantage: Assessment, Enhanced Skill 3 (Insight +3) (16 PP)",
+      "• Khaji Da: Sentidos 8 (Analítico (Normal Audição), Analítico (Normal Visão), Counters Ilusão, Counters Camuflagem (Invisibility), Sentido de Perigo, Visão no Escuro, Rádio, Raio (Normal Visão), Rastrear), Vantagem Aprimorada: Assessment, Perícia Aprimorada 3 (Intuição +3) (16 PP)",
       "• Dimension Shift: Dimension Travel (Bleed) (1 PP)",
       "• Dimension Step: Camuflagem (Total), Não Confiável (may cause Blue Beetle to skip forward in time up to +8 graduações of time he intended to stay concealed) (1 PP)",
-      "• Energy Pattern Disruption: Effect Nulificar 10 (Energy Effects), Randomize (1 PP)",
-      "• Rocket Booster: Voo 5, Stacks with Beetle Wings (2,0 km/h) (1 PP)",
+      "• Energia Pattern Disruption: Effect Nulificar 10 (Energia Efeitos), Randomize (1 PP)",
+      "• Rocket Booster: Voo 5, Stacks com Beetle Wings (3.200 km/h) (1 PP)",
       "• Sealed Systems: Imunidade 10 (Suporte Vital) (1 PP)",
       "Reach Weaponry: Arranjo (16 pontos)",
-      "• Energy Cannon: Dano à Distância 8 (16 PP)",
-      "• Arm Blades: Força-based Dano 3 (1 PP)",
+      "• Energia Cannon: Dano à Distância 8 (16 PP)",
+      "• Arm Lâminas: Força-based Dano 3 (1 PP)",
       "• Escudo: Proteção 4, Resistência Impenetrável 12, Distrativo (1 PP)",
       "Força of the Scarab: Força Aprimorada 4; Vigor Aprimorado 2; Agilidade Aprimorada 2; Destreza Aprimorada 2; Luta Aprimorada 3 (26 PP)",
-      "Subdermal Scarab: Característica 1 (Scarab AI and Database), Característica 1 (Quick Change to armor) (2 PP)"
+      "Subdermal Scarab: Característica 1 (Scarab AI e Database), Característica 1 (Quick Change to armor) (2 PP)"
     ],
     "equipamento": [],
     "vantagens": [
       "Esforço Extraordinário",
-      "Language (Spanish)",
+      "Language (Espanhol)",
       "Ataque Poderoso"
     ],
     "pericias": [
       {
-        "nome": "Combate Corpo-a-Corpo: Arm Blades",
+        "nome": "Combate Corpo-a-Corpo: Arm Lâminas",
         "graduacoes": 7,
         "total": 11
       },
@@ -48,7 +48,7 @@
         "total": 10
       },
       {
-        "nome": "Especialidade: Tactics",
+        "nome": "Especialidade: Tática",
         "graduacoes": 3,
         "total": 4
       },
@@ -63,7 +63,7 @@
         "total": 9
       },
       {
-        "nome": "Combate à Distância: Energy Cannons",
+        "nome": "Combate à Distância: Energia Cannons",
         "graduacoes": 9,
         "total": 12
       }
@@ -71,13 +71,13 @@
     "iniciativa": 3,
     "ataques": [
       {
-        "nome": "Energy Cannons",
+        "nome": "Energia Cannons",
         "bonus": 12,
         "alcance": "À distância",
         "dano": "Dano 8"
       },
       {
-        "nome": "Arm Blades",
+        "nome": "Arm Lâminas",
         "bonus": 11,
         "alcance": "Corpo a corpo",
         "dano": "Dano 9"
@@ -90,7 +90,7 @@
       "Resistência": 12,
       "Vontade": 8
     },
-    "observacao_defesas": "* Fortitude 12 Aparar 8/4* Resistência 12/16* Vontade 8 *With Escudo.",
+    "observacao_defesas": "* Fortitude 12 Aparar 8/4* Resistência 12/16* Vontade 8 *com Escudo.",
     "custos": {
       "Habilidades": 24,
       "Perícias": 16,
@@ -102,15 +102,15 @@
     "complicacoes": [
       {
         "titulo": "Family and Friends",
-        "texto": "Jaime Reyes has shared the secret of his super hero career with not just his family, but also a circle of friends, all of whom help and support him in his adventures."
+        "texto": "Jaime Reyes has shared the secret of his super hero career com not just his family, but also a circle of friends, all of whom help e support him in his adventures."
       },
       {
         "titulo": "Hybrid Hero",
-        "texto": "The Blue Beetle was born when Jaime Reyes merged into a unique symbiotic relationship with the scarab named “Khaji Da. ” Together they are still figuring out the exact nature and extent of their Abilities. When the scarab isn’t active Jaime doesn’t have any Powers."
+        "texto": "The Blue Beetle was born when Jaime Reyes merged into a unique symbiotic relationship com the scarab named “Khaji Da. ” Together they are still figuring out the exact nature e extent of their Habilidades. When the scarab isn’t active Jaime doesn’t have any Poderes."
       },
       {
         "titulo": "Lone Star",
-        "texto": "Blue Beetle is not only a new hero, he is a hero in a Texas city that has not previously had many super heroes."
+        "texto": "Blue Beetle is not Apenas a new hero, he is a hero in a Texas city that has not previously had many super heroes."
       }
     ]
   },

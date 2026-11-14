@@ -14,13 +14,13 @@
       "Pre": 2
     },
     "poderes": [
-      "Phantom f ligh t (Voo 4 (Limitado a When Intangibilidade)); Phantom Form (Intangibilidade 4 (Preciso, Reação, Sutil 2); Phantom Hand (Aflição 12 (resistido por Fortitude; Tonto, Atordoado, Incapacitado); Phantom Sight (Sentidos 5 (Preciso, Aguçado, À Distância Detect (Phantom Zone Prisoners), Dimensional, Não Confiável))"
+      "Phantom f Luz (Voo 4 (Limitado a When Intangibilidade)); Phantom Form (Intangibilidade 4 (Preciso, Reação, Sutil 2); Phantom Hand (Aflição 12 (resistido por Fortitude; Tonto, Atordoado, Incapacitado); Phantom Visão (Sentidos 5 (Acurado, Aguçado, À Distância Detectar (Phantom Zone Prisoners), Dimensional, Não Confiável))"
     ],
     "equipamento": [
-      "Voo Ring (Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal –3), Voo 7 (400 km/h); Telepathic Ear Plug ( Compreender 3 (Languages), mental Comunicação 1 (Corpo a Corpo Range)); Transsuit (Imunidade 9 (Suporte Vital, except for Inanição and thirst))"
+      "Voo Ring (Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal -3), Voo 7 (400 km/h); Telepathic Ear Plug ( Compreender 3 (Languages), Comunicação Mental 1 (Alcance Perto)); Transsuit (Imunidade 9 (Suporte Vital, except for Fome e Sede))"
     ],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Benefício (Legion Membership)",
       "Ataque Defensivo",
       "Rolamento Defensivo 4",
@@ -48,7 +48,7 @@
         "total": 10
       },
       {
-        "nome": "Especialidade: History",
+        "nome": "Especialidade: História",
         "graduacoes": 4,
         "total": 6
       },
@@ -97,7 +97,7 @@
     "complicacoes": [
       {
         "titulo": "r esponsibility",
-        "texto": "Phantom Girl believes it’s her duty to use her Powers to help others. r elationship: Phantom Girl and Ultra-Boy have been dating for a long time and are very Corpo a Corpo."
+        "texto": "Phantom Girl believes it’s her duty to use her Poderes to help others. r elationship: Phantom Girl e Ultra-Boy have been dating for a long time e are very Corpo a Corpo."
       }
     ]
   },

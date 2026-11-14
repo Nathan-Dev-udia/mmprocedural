@@ -14,9 +14,9 @@
       "Pre": 3
     },
     "poderes": [
-      "Amplified Sentidos: Sentidos 11 (Analítico Vision, Analítico Hearing, Visão no Escuro, Visão Estendida, Audição Estendida, Infravisão, Rádio, Ultra-Audição, Ultravisão) (11 PP)",
-      "Computer Link: Compreender 2 (Machines) (4 PP)",
-      "Hydraulic Muscles: Força Aprimorada 4, Salto 8 (1,800 feet) (16 PP)",
+      "Amplified Sentidos: Sentidos 11 (Analítico Visão, Analítico Audição, Visão no Escuro, Visão Estendida, Audição Estendida, Infravisão, Rádio, Ultra-Audição, Ultravisão) (11 PP)",
+      "Computer Link: Compreender 2 (Máquinas) (4 PP)",
+      "Hydraulic Muscles: Força Aprimorada 4, Salto 8 (1,800 pés) (16 PP)",
       "Molybdenum Steel Body: Proteção 6 (6 PP)",
       "Self-Repair Systems: Vigor Aprimorado 3, Regeneração 3 (9 PP)",
       "White Sound Blaster: Dano à Distância 9 (18 PP)",
@@ -24,9 +24,9 @@
     ],
     "equipamento": [],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Duro de Matar",
-      "Grande Vigor",
+      "Tolerância Maior",
       "Agarrar Aprimorado",
       "Quebrar Aprimorado",
       "Ataque Poderoso"
@@ -43,7 +43,7 @@
         "total": 13
       },
       {
-        "nome": "Especialidade: Streetwise",
+        "nome": "Especialidade: Manha",
         "graduacoes": 4,
         "total": 8
       },
@@ -97,7 +97,7 @@
     "complicacoes": [
       {
         "titulo": "The Hero Rebuilt",
-        "texto": "Victor Stone’s body has been rebuilt nearly from scratch several times, and echoes of those traumas still haunt him."
+        "texto": "Victor Stone’s body has been rebuilt nearly from scratch several times, e echoes of those traumas still haunt him."
       },
       {
         "titulo": "Insecurity",
@@ -105,7 +105,7 @@
       },
       {
         "titulo": "Man and Machine",
-        "texto": "While his human side is a part of Victor’s Força, it is also an element of his construction that is occasionally Vulnerável. Powers & Abilities As Cyborg, Victor Stone’s mind is augmented by an onboard computer, his Força is mechanically amplified, and his body can power tools and weapons like the sonic disruptor attached to his arm. Bonding with the alien Omegadrome also gave him the ability to speak to computers and other electronics."
+        "texto": "While his human side is a part of Victor’s Força, it is also an element of his construction that is occasionally Vulnerável. Poderes & Habilidades As Cyborg, Victor Stone’s mind is augmented by an onboard computer, his Força is mechanically amplified, e his body can Poder tools e weapons like the Sônico disruptor attached to his arm. Bonding com the alien Omegadrome also gave him the Habilidade to speak to Computação e other Eletrônica."
       }
     ]
   },

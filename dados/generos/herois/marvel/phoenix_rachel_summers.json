@@ -50,14 +50,14 @@
     "poderes": [
       {
         "nome": "Element Control (Fire) 12",
-        "construcao_3e": "Array Dinâmico da Força Fênix 12: Aura de Fogo da Fênix / Dano Reativo 10 (22 PP) + AEs Dinâmicos: Voo 8 (2 PP), Absorção de Energia/Proteção (2 PP), Dano Cósmico à Distância 10 (5 PP) = 31 PP.",
+        "construcao_3e": "Arranjo Dinâmico da Força Fênix 12: Aura de Fogo da Fênix / Dano Reativo 10 (22 PP) + AEs Dinâmicos: Voo 8 (2 PP), Absorção de Energia/Proteção (2 PP), Dano Cósmico à Distância 10 (5 PP) = 31 PP.",
         "custo_2e_pp": 31,
         "custo_3e_pp": 31,
         "nome_pt": "Avatar da Fênix (Chamas e Voo)"
       },
       {
         "nome": "Telepathy 10",
-        "construcao_3e": "Array Dinâmico Psíquico: Telecinésia / Mover Objeto 10 Percepção (22 PP) + AEs Dinâmicos: Rajada Mental 8 (2 PP), Dano à Distância Concentração 8 (2 PP), Forma Astral 8 (2 PP), Escudo Mental (1 PP) = 29 PP.",
+        "construcao_3e": "Arranjo Dinâmico Psíquico: Telecinésia / Mover Objeto 10 Percepção (22 PP) + AEs Dinâmicos: Rajada Mental 8 (2 PP), Dano à Distância Concentração 8 (2 PP), Forma Astral 8 (2 PP), Escudo Mental (1 PP) = 29 PP.",
         "custo_2e_pp": 29,
         "custo_3e_pp": 29,
         "nome_pt": "Telepatia e Telecinésia Psíquicas"

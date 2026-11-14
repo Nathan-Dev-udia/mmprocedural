@@ -14,7 +14,7 @@
       "Pre": 1
     },
     "poderes": [
-      "e xoskeleton (Agilidade Aprimorada 1, Vigor Aprimorado 5, Força Aprimorada 5, Força Aprimorada 3 (Limitado a Lifting; lifting Str 13, 200 tons), Removível (–5 pontos)), f lying Ca rd (Voo 6 (192 km/h), Platform)"
+      "e xoskeleton (Agilidade Aprimorada 1, Vigor Aprimorado 5, Força Aprimorada 5, Força Aprimorada 3 (Limitado a Lifting; lifting Str 13, 200 toneladas), Removível (-5 pontos)), f lying Ca rd (Voo 6 (192 km/h), Platform)"
     ],
     "equipamento": [],
     "vantagens": [
@@ -74,7 +74,7 @@
       },
       {
         "titulo": "Segredo",
-        "texto": "Clay hopes his term with the Gang remains largely unrecognized. 150 150"
+        "texto": "Clay hopes his term com the Gang remains largely unrecognized. 150 150"
       }
     ]
   },

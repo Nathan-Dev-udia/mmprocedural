@@ -14,26 +14,26 @@
       "Pre": 3
     },
     "poderes": [
-      "Chameleon: Variável 8 (Assumed Shapes; Intangibilidade up to graduação 3), Ação de Movimento, Limitado (Gross physical traits of the assumed form and cannot reproduce an individual’s Powers or complex mechanisms) (56 PP)",
+      "Chameleon: Variável 8 (Assumed Shapes; Intangibilidade up to graduação 3), Ação de Movimento, Limitado (Gross physical traits of the assumed form e cannot reproduce an individual’s Poderes or complex mechanisms) (56 PP)",
       "Shapeshifter: Imunidade 2 (Critical Hits); Metamorfose 4 (Any Shape); Regeneração 5 (27 PP)",
-      "Scanning: Sentidos 5 (Analítico Auditory, Modification Prontidão, Counters Ilusão, mental Sense) (5 PP)"
+      "Scanning: Sentidos 5 (Analítico Auditivo, Modification Consciência, Counters Ilusão, Mental Sense) (5 PP)"
     ],
     "equipamento": [
-      "Voo Ring: Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal –3); Voo 7 (400 km/h); Removível (–3 pontos) (16 PP)",
-      "Telepathic Plug: Compreender 3 (Languages), mental Comunicação 1 (Corpo a Corpo Range), Removível (-1 ponto) (7 PP)",
-      "Transsuit: Imunidade 9 (Suporte Vital, except for Inanição and thirst), Removível (–2 ponto) (7 PP)"
+      "Voo Ring: Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal -3); Voo 7 (400 km/h); Removível (-3 pontos) (16 PP)",
+      "Telepathic Plug: Compreender 3 (Languages), Comunicação Mental 1 (Alcance Perto), Removível (-1 ponto) (7 PP)",
+      "Transsuit: Imunidade 9 (Suporte Vital, except for Fome e Sede), Removível (-2 ponto) (7 PP)"
     ],
     "vantagens": [
-      "Benefit 1 (Legion membership)",
+      "Benefício 1 (Legion membership)",
       "Ataque Corpo-a-Corpo 3",
       "Rolamento Defensivo 2",
       "Memória Eidética",
       "Equipamento 6",
-      "Evasion",
+      "Evasão",
       "Maestria em Perícia (Enganação)",
       "Maestria em Perícia (Intuição)",
       "Ação em Movimento",
-      "Provocar"
+      "Zombar"
     ],
     "pericias": [
       {
@@ -110,7 +110,7 @@
     "complicacoes": [
       {
         "titulo": "Antennae",
-        "texto": "Binding his antennae keeps Reep from using his Scanning and Chameleon Powers."
+        "texto": "Binding his antennae keeps Reep from using his Scanning e Chameleon Poderes."
       },
       {
         "titulo": "Limited Transformation",
@@ -122,7 +122,7 @@
       },
       {
         "titulo": "Vulnerability",
-        "texto": "Being sprayed with cancelite or exposed to large amounts of high Radiação nullifies Reep’s Chameleon power and freezes him in the shape he was in for one scene."
+        "texto": "Being sprayed com cancelite or exposed to large amounts of high Radiação nullifies Reep’s Chameleon Poder e freezes him in the shape he was in for one scene."
       }
     ]
   },

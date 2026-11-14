@@ -14,15 +14,15 @@
       "Pre": 1
     },
     "poderes": [
-      "Air Cycle (Voo 8 (800 km/h), Sutil, Platform, Wings, Removível (-1 pontos)); Aeroshoes (Voo 5 (96 km/h), Removível (-2 pontos)); Light-Deflector Pinwheel (Arranjo (6 pontos), Facilmente Removível (–2 pontos), Jigsaw Effect (Camuflagem 4 (All Visual Sentidos), Resistível, Área de Explosão, Partial), AE: Invisibility (Camuflagem 4 (All Visual Sentidos), Resistível, Área de Explosão, Efeito Colateral (base effect, always occurs)); Lifting Rod ( Arranjo (20 pontos), Facilmente Removível (–8 pontos), Lifting Ray (Mover Objetos 10), AE: Calor Bolt (Dano à Distância 10), AE: Intercept Projectiles (Deflexão 15, Reflect, Limitado a Physical Attacks))"
+      "Air Cycle (Voo 8 (800 km/h), Sutil, Platform, Wings, Removível (-1 pontos)); Aeroshoes (Voo 5 (96 km/h), Removível (-2 pontos)); Luz-Deflector Pinwheel (Arranjo (6 pontos), Facilmente Removível (-2 pontos), Jigsaw Effect (Camuflagem 4 (All Visual Sentidos), Resistível, Área de Explosão, Partial), AE: Invisibility (Camuflagem 4 (All Visual Sentidos), Resistível, Área de Explosão, Efeito Colateral (base effect, always occurs)); Lifting Rod ( Arranjo (20 pontos), Facilmente Removível (-8 pontos), Lifting Ray (Mover Objetos 10), AE: Calor Bolt (Dano à Distância 10), AE: Intercept Projectiles (Deflexão 15, Reflect, Limitado a Physical Attacks))"
     ],
     "equipamento": [],
     "vantagens": [
       "Rolamento Defensivo 3",
-      "Ferramentas Improvisadas",
+      "Ferramentas Aprimoradas",
       "Inventor",
-      "Pau pra Toda Obra",
-      "Minion 6 (3 30-ponto Minions)"
+      "Faz Tudo",
+      "Capanga 6 (3 30-ponto capangas)"
     ],
     "pericias": [
       {
@@ -95,7 +95,7 @@
     "complicacoes": [
       {
         "titulo": "Ganância",
-        "texto": "No matter how great his intelligence, I.Q. ’s ambitions never grow beyond “get rich quick. ” Power Loss: I.Q. ’s genius is relative to the amount of sunlight he’s been exposed to, and a lack of it can return him to his former dullard state."
+        "texto": "No matter how great his intelligence, I.Q. ’s ambitions never grow beyond “get rich quick. ” Poder Loss: I.Q. ’s genius is relative to the amount of sunlight he’s been exposed to, e a lack of it can return him to his former dullard state."
       }
     ]
   },

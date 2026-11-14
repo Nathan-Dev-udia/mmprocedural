@@ -15,23 +15,22 @@
     },
     "poderes": [
       "Key Blaster: Dano à Distância 10, Facilmente Removível (-8 pontos) (12 PP)",
-      "Psycho-Virus: Aflição à Distância 10 (resistido por Vontade; Tonto, Compelido, Immobilized), Linked: Ilusão 7 (All Sentidos), Independent, Limitado a One subject, Reduced Range (À Distância) (48 PP)",
-      "Psychochemical Effects: Enhanced Advantage 1 (Assessment), Enhanced Intelligence 4, Enhanced Skill 40 (Deception +10, Perception +10, Sleight of Hand +10, Stealth +10) (29 PP)",
-      "Accelerated Acuity: Rapidez 14, Limitado a mental Tasks (14 PP)",
-      "Eleven Sentidos: Sentidos 30 (Analítico (Hearing, Visual, Tactile), Prontidão (Dimensional, mental, Temporal), Counters Camuflagem (All), Counters Ilusão (Hearing, Visual), Sentido de Perigo, Visão no Escuro, Visão Microscópica 3, Penetrates Camuflagem (Visual), Raio (Visual), Noção do Tempo, Ultra- Hearing) (30 PP)"
+      "Psycho-Virus: Aflição à Distância 10 (resistido por Vontade; Tonto, Compelido, Immobilized), Ligado: Ilusão 7 (All Sentidos), Independent, Limitado a One subject, Reduced Range (À Distância) (48 PP)",
+      "Psychochemical Efeitos: Vantagem Aprimorada 1 (Avaliação), Aprimorado Intelligence 4, Perícia Aprimorada 40 (Enganação +10, Percepção +10, Prestidigitação +10, Furtividade +10) (29 PP)",
+      "Accelerated Acuity: Rapidez 14, Limitado a Mental Tasks (14 PP)",
+      "Eleven Sentidos: Sentidos 30 (Analítico (Audição, Visual, Tátil), Consciência (Dimensional, Mental, Temporal), Counters Camuflagem (All), Counters Ilusão (Audição, Visual), Sentido de Perigo, Visão no Escuro, Visão Microscópica 3, Penetrates Camuflagem (Visual), Raio (Visual), Noção do Tempo, Ultra- Audição) (30 PP)"
     ],
     "equipamento": [],
     "vantagens": [
       "Finta Ágil",
       "Avaliação",
       "Ataque Defensivo",
-      "Evasion",
+      "Evasão",
       "Destemido",
       "Iniciativa Aprimorada",
       "Jack-of-All Trades",
       "Sorte 4",
-      "Precise Attack 4 (Close",
-      "Ranged; Cover and Concealment)",
+      "Ataque Preciso 4 (Corpo a Corpo, À Distância; Cobertura e Camuflagem)",
       "Redirecionar",
       "Esquiva Fabulosa"
     ],
@@ -106,7 +105,7 @@
     "complicacoes": [
       {
         "titulo": "Unlocked",
-        "texto": "Meditation and psychochemicals of the Key’s own design have unlocked the incredible potential of his brain— but his power isn’t always controllable, and he is sometimes overwhelmed when his mind opens to the thoughts of everyone for incredible distances."
+        "texto": "Meditation e psychochemicals of the Key’s own design have unlocked the incredible potential of his brain— but his Poder isn’t always controllable, e he is sometimes overwhelmed when his mind opens to the thoughts of everyone for incredible distances."
       }
     ]
   },

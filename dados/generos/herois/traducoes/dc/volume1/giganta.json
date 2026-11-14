@@ -14,21 +14,21 @@
       "Pre": 3
     },
     "poderes": [
-      "Giant Form: 54 pontos, Ativação (Ação de Movimento, –1 ponto) (53 PP)",
-      "Size Increase: Crescimento 12 (mágico) Linked to Crescimento 4, Limitado: graduações do not add to Dano and Resistência; Vigor Aprimorado 12, Linked: 1 graduação per graduação of Size Increase; Resistência Impenetrável 8 (48 PP)",
-      "Trained Defenses: Enhanced Defense 12 (Esquiva 6, Aparar 6), Limitado a only offset Crescimento modifiers (6 PP)",
+      "Giant Form: 54 pontos, Ativação (Ação de Movimento, -1 ponto) (53 PP)",
+      "Size Increase: Crescimento 12 (Magia) Ligado a Crescimento 4, Limitado: graduações do not add to Dano e Resistência; Vigor Aprimorado 12, Ligado: 1 graduação per graduação of Size Increase; Resistência Impenetrável 8 (48 PP)",
+      "Trained Defesas: Defesa Aprimorada 12 (Esquiva 6, Aparar 6), Limitado a Apenas offset Crescimento modifiers (6 PP)",
       "Protective Suit: Resistência Impenetrável 2; Imunidade 2 (Calor, Frio) (4 PP)"
     ],
     "equipamento": [],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Estrangular",
       "Agarrar Rápido",
       "Agarrar Aprimorado",
       "Imobilizar Aprimorado",
       "Arma Improvisada",
       "Assustar",
-      "Derrubar em Sequência"
+      "Ataque Dominó"
     ],
     "pericias": [
       {
@@ -42,7 +42,7 @@
         "total": 8
       },
       {
-        "nome": "Especialidade: Science",
+        "nome": "Especialidade: Ciência",
         "graduacoes": 14,
         "total": 19
       },
@@ -83,7 +83,7 @@
       "Resistência": 16,
       "Vontade": 8
     },
-    "observacao_defesas": "* Aparar 7 Resistência 16/4* Vontade 8 *Without Crescimento.",
+    "observacao_defesas": "* Aparar 7 Resistência 16/4* Vontade 8 *sem Crescimento.",
     "custos": {
       "Habilidades": 52,
       "Perícias": 24,
@@ -95,7 +95,7 @@
     "complicacoes": [
       {
         "titulo": "Torn Loyalties",
-        "texto": "While still a villain, Dr. Zeul is trying to get a normal life and a normal relationship."
+        "texto": "While still a villain, Dr. Zeul is trying to get a normal life e a normal relationship."
       }
     ]
   },

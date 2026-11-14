@@ -96,7 +96,7 @@ Investigadores comuns contra o horror cósmico. Tudo é gerado por `ferramentas/
 - **Jogador:** 15 ocupações do CoC 7ª edição (rótulo "Ocupação"), cada uma com 2 a 4 especialidades. NP 1 a 5, padrão 3. Equipamento em dólares dos anos 20; seis condições financeiras do Nível de Crédito (Pobretão $20 a Ricaço $50.000).
 - **Sanidade d100** (`nucleo/sanidade.py`): SAN inicial = 45 + 5 × Vontade; máxima = 99 − 5 × graduação em `Especialidade: Mythos de Cthulhu`. A ficha mostra a Sanidade, e o PDF ganha uma 3ª página com o Registro de Sanidade.
 - **NPCs:** cultista e policial de ronda; o **Bestiário** traz cultistas e aberrações do Mythos com a perda de SAN.
-- **Livros:** ainda não existem. A preparação está em `dados/generos/cthulhu/PREPARACAO_LIVROS.md`.
+- **Livros:** possui **Livro do Jogador** (`dados/livros/cthulhu_jogador.md`) e **Livro do Mestre** (`dados/livros/cthulhu_mestre.md`). A preparação está em `dados/generos/cthulhu/PREPARACAO_LIVROS.md`.
 
 ### Escola de Magia (inspirado em Harry Potter)
 
@@ -174,12 +174,13 @@ Ao lado dos livros ficam as planilhas (.xlsx) do gênero. As da fantasia (**Arma
 
 ## Heróis conhecidos
 
-O gênero **Heróis conhecidos** (`dados/generos/herois/`) é um **catálogo** só para consulta, sem gerador nem download: o `genero.json` tem `"tipo": "catalogo"`, então `data_loader.generos_disponiveis()` o deixa de fora e `catalogos_disponiveis()` o lista. Ele aparece na escolha de gênero e abre a página `templates/herois.html`, com a aba **Heróis conhecidos**: escolha Marvel ou DC, busque por nome, nome em português ou poder (sem diferença de acentos) e veja a ficha na tela.
+O gênero **Heróis conhecidos** (`dados/generos/herois/`) é um **catálogo** só para consulta e download de PDF editável (664 perfis no total): o `genero.json` tem `"tipo": "catalogo"`, então `data_loader.generos_disponiveis()` o deixa de fora e `catalogos_disponiveis()` o lista. Ele aparece na escolha de gênero e abre a página `templates/herois.html`, com a aba **Heróis conhecidos**: escolha a editora/universo, busque por nome, nome em português ou poder (sem diferença de acentos) e veja a ficha na tela.
 
-- `marvel/`: 116 perfis do *Marvel Files* (M&M 2ª edição) convertidos para a 3ª edição, com notas de conversão (veja o `README.md` da pasta).
-- `dc/volume1/` e `dc/volume2/`: 536 fichas publicadas em *DC Adventures: Heroes and Villains* (3ª edição), com o texto original em inglês; geradas por `ferramentas/extrair_fichas_dc.py`.
-- `nucleo/herois.py` põe os dois formatos num formato comum para a tela. Os PDFs de origem ficam em `referencias/marvel/` e `referencias/dc/`, fora do git.
-- Rotas: `/api/herois` (lista) e `/api/herois/<id>` (ficha).
+- `marvel/`: 116 perfis do *Marvel Files* (M&M 2ª edição) convertidos para a 3ª edição, com custos fechados, vantagens/perícias em português e notas de conversão (veja o `README.md` da pasta).
+- `dc/volume1/` e `dc/volume2/`: 536 fichas publicadas em *DC Adventures: Heroes and Villains* (3ª edição); `traducoes/dc/` traz 532 traduções em português (8 conferidas manualmente com o livro e 524 adaptadas via `ferramentas/traduzir_dc.py`), enquanto 4 perfis permanecem em inglês para testar o fallback bruto.
+- `invencivel/` e `outros/`: 11 perfis de *Invencível* e 1 de *Outros* (*Kratos*), importados de `dados/livros/invencivel.md` por `ferramentas/importar_invencivel.py`.
+- `nucleo/herois.py` põe os formatos num padrão comum para a tela e `nucleo/herois_pdf.py` gera a ficha em PDF editável. Os PDFs de origem da Marvel e DC ficam fora do git.
+- Rotas: `/api/herois` (lista), `/api/herois/<id>` (ficha) e `/herois/<id>.pdf`.
 
 ## Peso, massa e Velocidade
 
@@ -348,7 +349,7 @@ Atualizado em 10/11/2026. Pendências mais antigas estão em `PENDENCIAS.md`.
   - só existe o tamanho Pequeno para raças: um PJ Miúdo ou Grande ainda não é possível.
 - **Livro das Classes e Subclasses:** falta a leitura do usuário, principalmente as linhas "Escolha se…", que são sugestões do Claude.
 - **Novos temas:** horror moderno (Delta Green), escola de magia (Harry Potter), samurai, kaiju (Pacific Rim) e ópera espacial (Star Wars). Índice, ordem sugerida e passo a passo comum em `dados/generos/IDEIAS_DE_TEMAS.md`; cada tema tem um `PREPARACAO_GENERO.md` na própria pasta.
-- **Livros de Chamado de Cthulhu:** o gênero, o escudo e o bestiário estão prontos; faltam o Livro do Jogador e o do Mestre. Instruções em `dados/generos/cthulhu/PREPARACAO_LIVROS.md`.
+- **Livros de Chamado de Cthulhu:** concluídos e publicados em `dados/livros/` (`cthulhu_jogador.md` e `cthulhu_mestre.md`), aguardando leitura editorial do usuário.
 - **Faroeste:**
   - revisar o texto dos livros;
   - avaliar criar um script gerador, como na fantasia (hoje o `equipment.json` é a fonte da verdade);

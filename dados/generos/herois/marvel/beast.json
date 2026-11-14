@@ -43,17 +43,17 @@
       "Acrobacia": 12,
       "Atletismo": 8,
       "Tecnologia": 8,
-      "Especialidade: Mecanica": 12,
-      "Especialidade: Eletrica": 12,
-      "Especialidade: Quimica": 12,
-      "Persuasao": 12,
-      "Investigacao": 10,
-      "Especialidade: Ciencias da Vida": 12,
-      "Especialidade: Ciencias Fisicas": 12,
+      "Especialidade: Mecânica": 12,
+      "Especialidade: Elétrica": 12,
+      "Especialidade: Química": 12,
+      "Persuasão": 12,
+      "Investigação": 10,
+      "Especialidade: Ciências da Vida": 12,
+      "Especialidade: Ciências Físicas": 12,
       "Especialidade: Tecnologia": 12,
       "Tratamento": 10,
-      "Percepcao": 8,
-      "Intuicao": 4
+      "Percepção": 8,
+      "Intuição": 4
     },
     "vantagens": [
       "Finta Ágil",
@@ -92,7 +92,7 @@
       },
       {
         "nome": "Super Senses",
-        "construcao_3e": "Sentidos 2: Aguçado Smell.",
+        "construcao_3e": "Sentidos 2: Aguçado Olfato.",
         "custo_2e_pp": 2,
         "custo_3e_pp": 2,
         "nome_pt": "Super-Sentidos"

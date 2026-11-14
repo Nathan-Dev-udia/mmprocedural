@@ -48,16 +48,16 @@
       "Inspirar 2",
       "Interpor-se",
       "Sorte",
-      "Segunda Chance (Concentration checks)",
+      "Segunda Chance (Concentração Testes)",
       "Tomar a Iniciativa",
-      "Set-Up",
+      "Armação",
       "Trabalho em Equipe",
       "Esforço Supremo (salvamentos de Vontade)"
     ],
     "poderes": [
       {
         "nome": "Element Control (Fire) 18",
-        "construcao_3e": "Array Dinâmico de Fogo Cósmico 18: Dano à Distância 18 (36 PP) + Dinâmico (2 PP) + AEs Dinâmicos: Aura de Fogo Cósmico 10 (2 PP), Voo Espacial 10 (2 PP), Absorção Cósmica / Cura (2 PP), Movimento Dimensional/Temporal (5 PP) = 49 PP.",
+        "construcao_3e": "Arranjo Dinâmico de Fogo Cósmico 18: Dano à Distância 18 (36 PP) + Dinâmico (2 PP) + AEs Dinâmicos: Aura de Fogo Cósmico 10 (2 PP), Voo Espacial 10 (2 PP), Absorção Cósmica / Cura (2 PP), Movimento Dimensional/Temporal (5 PP) = 49 PP.",
         "custo_2e_pp": 49,
         "custo_3e_pp": 49,
         "nome_pt": "Poder Cósmico da Fênix (Chamas Cósmicas)"
@@ -78,7 +78,7 @@
       },
       {
         "nome": "Telepathy 17",
-        "construcao_3e": "Array Dinâmico Cósmico Telepático/Telecinético: Telecinésia / Mover Objeto 16 (34 PP); AEs Dinâmicos: Campo de Força 16 Impenetrável (2 PP), Rajada Mental 12 (2 PP), Controle Mental 14 (2 PP), Forma Astral Dimensional 10 (2 PP), Clarividência 10 (2 PP), Transformação de Matéria (2 PP) e Sentidos Mentais (47 PP) = 93 PP.",
+        "construcao_3e": "Arranjo Dinâmico Cósmico Telepático/Telecinético: Telecinésia / Mover Objeto 16 (34 PP); AEs Dinâmicos: Campo de Força 16 Impenetrável (2 PP), Rajada Mental 12 (2 PP), Controle Mental 14 (2 PP), Forma Astral Dimensional 10 (2 PP), Clarividência 10 (2 PP), Transformação de Matéria (2 PP) e Sentidos Mentais (47 PP) = 93 PP.",
         "custo_2e_pp": 93,
         "custo_3e_pp": 93,
         "nome_pt": "Telepatia e Telecinésia Cósmicas"

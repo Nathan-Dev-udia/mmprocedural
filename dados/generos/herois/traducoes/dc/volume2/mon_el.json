@@ -14,10 +14,10 @@
       "Pre": 3
     },
     "poderes": [
-      "similar to Superman’s as a result of exposure to Earth’s yellow sun, Lar was discovered by Clark Kent. Mistaking him for a fellow Kryp- tonian and thus a possible relative, Clark named him Mon-El until his real name could be discovered. Following an acci- dental exposure to lead, a substance that is fatal to Daxam- ites, Lar’s memories returned. Aware that his friend was Moribundo from the toxic substance, Clark sent Lar to the Phantom Zone in a bid to save his life. Several years later, Mon-El was released from the Phantom Zone by Superman and provided with a lead serum that had been secretly left in the past by Legion of Super-Heroes members. Mon-El served as a super hero in the twenty-first century for some time, and even helped humanity colonize the worlds that would eventually become members of the United Planets in accordance with instructions left for him by the Legion of the Super-Heroes. Eventually Mon-El became immune to the effectiveness of the lead serum and had to return to the Phantom Zone, where he lived on in the time - less limbo. Centuries later a new serum was created for Mon-El by Brai- niac 5 (see Vol. 1 ), and he was freed from the Phantom Zone to join the Legion of Super-Heroes. Recognized as one of the three most powerful members of the Legion, he even served two terms as team leader. Lar fell in love with Shadow Lass (Tasmia Mallor) and the pair married, but had a rocky relation- ship despite their love for each other. Their marriage ended tragically when Mon-El died during the mágico Wars. He was resurrected by the Time Trapper to be used as a replacement for the villain’s own waning body, but Mon-El killed him and returned to serve with the Legion."
+      "similar to Superman’s as a result of exposure to Earth’s yellow sun, Lar was discovered by Clark Kent. Mistaking him for a fellow Kryp- tonian e thus a possible relative, Clark named him Mon-El until his real name could be discovered. Following an acci- dental exposure to lead, a substance that is fatal to Daxam- ites, Lar’s memories returned. Aware that his friend was Moribundo from the toxic substance, Clark sent Lar to the Phantom Zone in a bid to save his life. Several years later, Mon-El was released from the Phantom Zone by Superman e provided com a lead serum that had been secretly left in the past by Legion of Super-Heroes members. Mon-El served as a super hero in the twenty-first century for some time, e even helped humanity colonize the worlds that would eventually become members of the United Planets in accordance com instructions left for him by the Legion of the Super-Heroes. Eventually Mon-El became Imune to the effectiveness of the lead serum e had to return to the Phantom Zone, where he lived on in the time - less limbo. Centuries later a new serum was created for Mon-El by Brai- niac 5 (see Vol. 1 ), e he was freed from the Phantom Zone to join the Legion of Super-Heroes. Recognized as one of the three most powerful members of the Legion, he even served two terms as team leader. Lar fell in love com Shadow Lass (Tasmia Mallor) e the pair married, but had a rocky relation- ship despite their love for each other. Their marriage ended tragically when Mon-El died during the Magia Wars. He was resurrected by the Time Trapper to be used as a replacement for the villain’s own waning body, but Mon-El killed him e returned to serve com the Legion."
     ],
     "equipamento": [
-      "Voo Ring (Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal –3), Voo 7 (400 km/h); Telepathic Ear Plug ( Compreender 3 (Languages), mental Comunicação 1 (Corpo a Corpo Range)); Transsuit (Imunidade 9 (Suporte Vital, except for Inanição and thirst))"
+      "Voo Ring (Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal -3), Voo 7 (400 km/h); Telepathic Ear Plug ( Compreender 3 (Languages), Comunicação Mental 1 (Alcance Perto)); Transsuit (Imunidade 9 (Suporte Vital, except for Fome e Sede))"
     ],
     "vantagens": [
       "Benefício (Legion Membership)",
@@ -26,7 +26,7 @@
       "Inventor",
       "Ataque Poderoso",
       "Tomar a Iniciativa",
-      "Esforço Supremo (Toughness checks) ."
+      "Esforço Supremo (Resistência Testes) ."
     ],
     "pericias": [
       {
@@ -35,7 +35,7 @@
         "total": 9
       },
       {
-        "nome": "Especialidade: Medicine",
+        "nome": "Especialidade: Medicina",
         "graduacoes": 8,
         "total": 12
       },
@@ -45,7 +45,7 @@
         "total": 9
       },
       {
-        "nome": "Especialidade: Science",
+        "nome": "Especialidade: Ciência",
         "graduacoes": 5,
         "total": 9
       },
@@ -65,8 +65,21 @@
         "total": 12
       }
     ],
-    "iniciativa": 0,
-    "ataques": [],
+    "iniciativa": 2,
+    "ataques": [
+      {
+        "nome": "Visão de Calor",
+        "bonus": 10,
+        "alcance": "",
+        "dano": "Dano à Distância 13"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 18"
+      }
+    ],
     "defesas": {
       "Esquiva": 9,
       "Aparar": 8,
@@ -82,7 +95,7 @@
     "complicacoes": [
       {
         "titulo": "d oing Good",
-        "texto": "Mon-El is driven to do the right thing and help however he can. r elationship: Mon-El and Shadow Lass care deeply for one another."
+        "texto": "Mon-El is driven to do the right thing e help however he can. r elationship: Mon-El e Shadow Lass care deeply for one another."
       },
       {
         "titulo": "Fraqueza",

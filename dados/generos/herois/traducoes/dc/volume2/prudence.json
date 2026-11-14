@@ -15,12 +15,12 @@
     },
     "poderes": [],
     "equipamento": [
-      "Dual Submachine Guns (À Distância Multiataque Dano 4), Holdout Pistola (Dano à Distância 2), Knife (Dano 1, piercing, Critical 19-20), Kevlar Vest (Proteção 4, Limitado a Ballistic, Sutil)"
+      "Dual Submachine Armas de Fogo (À Distância Multiataque Dano 4), Holdout Pistola (Dano à Distância 2), Knife (Dano 1, Perfurante, Critical 19-20), Kevlar Vest (Proteção 4, Limitado a Balístico, Sutil)"
     ],
     "vantagens": [
       "Ataque Imprudente",
       "Estrangular",
-      "Conectado",
+      "Bem Relacionado",
       "Duro de Matar",
       "Equipamento 7",
       "Iniciativa Aprimorada",
@@ -64,7 +64,7 @@
         "total": 7
       },
       {
-        "nome": "Combate à Distância: Guns",
+        "nome": "Combate à Distância: Armas de Fogo",
         "graduacoes": 7,
         "total": 10
       },
@@ -82,7 +82,7 @@
     "iniciativa": 7,
     "ataques": [
       {
-        "nome": "Dual Submachine Guns",
+        "nome": "Dual Submachine Armas de Fogo",
         "bonus": 10,
         "alcance": "",
         "dano": "À Distância Multiataque Dano 4"
@@ -113,7 +113,7 @@
       "Resistência": 6,
       "Vontade": 6
     },
-    "observacao_defesas": "*, Vontade 6 * Without Kevlar Vest.",
+    "observacao_defesas": "*, Vontade 6 * sem Kevlar Vest.",
     "custos": {
       "Habilidades": 42,
       "Poderes": 0,

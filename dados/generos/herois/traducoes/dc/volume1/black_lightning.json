@@ -15,21 +15,21 @@
     },
     "poderes": [
       "Electrokinesis: Arranjo (24 pontos)",
-      "• Lightning Bolt: Dano 12, Dynamic (25 PP)",
-      "• Ground Charge: Área de Explosão Aflição 11 (resistido por Fortitude; Tonto, Atordoado, Incapacitado) , Dynamic (2 PP)",
-      "• Ride the Lightning: Voo 4 (48 km/h), Concentração, Dynamic (2 PP)",
-      "• Short Circuit: Aflição 12 (resistido por Esquiva; Impaired, Disabled, Incapacitado), Limitado: Only effects electrical devices, robots, and cybernetics), Dynamic (2 PP)",
-      "• Static Escudo: Proteção 7, Aftfects Others, Sustentado, Alcance Aumentado (Corpo a Corpo), Distrativo, Dynamic (2 PP)",
-      "• Stun Shock: Aflição à Distância 9 (resistido por Fortitude; Tonto, Atordoado, Incapacitado), Dynamic (2 PP)"
+      "• Lightning Bolt: Dano 12, Dinâmico (25 PP)",
+      "• Ground Charge: Área de Explosão Aflição 11 (resistido por Fortitude; Tonto, Atordoado, Incapacitado) , Dinâmico (2 PP)",
+      "• Ride the Lightning: Voo 4 (48 km/h), Concentração, Dinâmico (2 PP)",
+      "• Short Circuit: Aflição 12 (resistido por Esquiva; Prejudicado, Desabilitado, Incapacitado), Limitado: Apenas Efeitos Elétrico devices, robots, e cybernetics), Dinâmico (2 PP)",
+      "• Static Escudo: Proteção 7, Aftfects Others, Sustentado, Alcance Aumentado (Corpo a Corpo), Distrativo, Dinâmico (2 PP)",
+      "• Stun Shock: Aflição à Distância 9 (resistido por Fortitude; Tonto, Atordoado, Incapacitado), Dinâmico (2 PP)"
     ],
     "equipamento": [],
     "vantagens": [
       "Finta Ágil",
       "Ataque Imprudente",
-      "Conectado",
+      "Bem Relacionado",
       "Rolamento Defensivo 4",
       "Esforço Extraordinário",
-      "Improved Critical 2 (Lightning Bolts)",
+      "Crítico Aprimorado 2 (Lightning Bolts)",
       "Iniciativa Aprimorada",
       "Ataque Poderoso",
       "Ataque à Distância 4"
@@ -61,7 +61,7 @@
         "total": 16
       },
       {
-        "nome": "Especialidade: Politics",
+        "nome": "Especialidade: Política",
         "graduacoes": 6,
         "total": 10
       },
@@ -97,7 +97,13 @@
         "nome": "Lightning Bolts",
         "bonus": 10,
         "alcance": "À distância",
-        "dano": "Dano 12, Crit. 18-20 Ground Charge — Área de Explosão, Aflição 11, resistido por Fortitude Stun Shock +13 À Distância, Aflição 9, resistido por Fortitude Short Circuit +10 Corpo a Corpo, Aflição 12 (electrical; electrical devices, robots, and cybernetics only)"
+        "dano": "Dano 12, Crít. 18-20"
+      },
+      {
+        "nome": "Ground Charge",
+        "bonus": null,
+        "alcance": "",
+        "dano": "Área de Explosão, Aflição 11, resistido por Fortitude Stun Shock +13 À Distância, Aflição 9, resistido por Fortitude Short Circuit +10 Corpo a Corpo, Aflição 12 (Elétrico; Elétrico devices, robots, e cybernetics Apenas)"
       },
       {
         "nome": "Desarmado",
@@ -125,7 +131,7 @@
     "complicacoes": [
       {
         "titulo": "Social Responsibility",
-        "texto": "Black Lightning is as interested in helping society by running a food drive or teaching a civics class at an inner-city high school as he is helping society by defeating super-villains. In addition to being a super hero, he has also been a high school principal and the U.S. Secretary of Education."
+        "texto": "Black Lightning is as interested in helping society by running a food drive or teaching a Cidadania class at an inner-city high school as he is helping society by defeating super-villains. In addition to being a super hero, he has also been a high school principal e the U.S. Secretary of Education."
       }
     ]
   },

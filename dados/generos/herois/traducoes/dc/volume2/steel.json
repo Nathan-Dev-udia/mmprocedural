@@ -14,21 +14,21 @@
       "Pre": 3
     },
     "poderes": [
-      "100 Defenses 29"
+      "100 Defesas 29"
     ],
     "equipamento": [
-      "H q : i ronworks • 15 POI n TS Size: Huge t ou: 14 f ea tures: Communications, Computer, fogo Prevention System, Holding Cells, Living Space, Power System, Security System, Workshop"
+      "H q : i ronworks • 15 POI n TS Size: Huge t ou: 14 f ea tures: Communications, Computer, Fogo Prevention System, Holding Cells, Living Space, Poder System, Security System, Workshop"
     ],
     "vantagens": [
       "12 Total 227 Co MPL i C tion S a r esponsibility: Steel feels personally responsible for any of his in ventions",
       "and Will do what it takes to stop them from being used inappropriately. Stepping i n: Steel first stepped up to the plate when Superman was killed by Doomsday",
       "and continues to step up despite his personal health or well-being. Returning to active duty",
-      "Steel soon learned that Luthor was able to negate any power granted by the Everyman Project. He shared his discovery with the Teen Titans and they began inves- tigating the project",
+      "Steel soon learned that Luthor was able to negate any power granted by the Everyman Project. He shared his discovery with the Teen Titans and they began inves-tigating the project",
       "learning that the Everyman Powers were only temporary. By this time",
       "Natasha had come to her uncle with her own suspicions. Working as a double agent",
       "Natasha was captured by Luthor. Steel led the Titans on an open assault of LexCorp. Luther",
-      "who had gained Powers similar to Super- man by using the Everyman Project process",
-      "attacked John Henry but Natasha used an electromagnetic pulse from Steel’s Kinetic Hammer to negate Lex’s Powers and incarcerate him."
+      "who had gained Powers similar to Super-man by using the Everyman Project process",
+      "attacked John Henry but Natasha used an electromagnetic pulse from Steel's Kinetic Hammer to negate Lex's Powers and incarcerate him."
     ],
     "pericias": [
       {
@@ -90,8 +90,11 @@
       "Resistência": 14,
       "Vontade": 12
     },
-    "observacao_defesas": "* Vontade 12 *Against energy attacks. Po er ponto W S Abilities 66 Skills 20",
-    "custos": {},
+    "observacao_defesas": "* Vontade 12 *contra Energia attacks.",
+    "custos": {
+      "Habilidades": 66,
+      "Perícias": 20
+    },
     "total": null,
     "complicacoes": []
   },

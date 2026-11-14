@@ -14,13 +14,13 @@
       "Pre": 3
     },
     "poderes": [
-      "Devilish Immunities: Imunidade 3 (Envelhecimento, Afogamento, and Calor) (3 PP)",
+      "Devilish Immunities: Imunidade 3 (Envelhecimento, Afogamento, e Calor) (3 PP)",
       "Devilish Resilience: Proteção 3 (3 PP)",
       "Regeneração: Regeneração 5 (5 PP)",
       "Super Leap: Salto 3 (3 PP)",
       "Super-Sentidos: Sentidos 4 (Visão no Escuro, Visão Estendida, Audição Estendida) (4 PP)",
-      "Super-Força: Força Aprimorada 4, Limitado a Lifting (lifting Str 15; 800 tons) (4 PP)",
-      "Trident of Lucifer: Arranjo (5 pontos), Facilmente Removível (–1 ponto), Indestructible • Locate Demons: Sentidos 5 (Preciso, À Distância Detect Demons, Extended) (5 PP)",
+      "Super-Força: Força Aprimorada 4, Limitado a Lifting (lifting Str 15; 800 toneladas) (4 PP)",
+      "Trident of Lucifer: Arranjo (5 pontos), Facilmente Removível (-1 ponto), Indestructible • Locate Demons: Sentidos 5 (Acurado, À Distância Detectar Demons, Estendido) (5 PP)",
       "• Trident Thrust: Força-based Dano 2, Penetrante 3 (1 PP)",
       "• Banish Demon: Movimento 1 (Dimension Travel (Hell)), 1 Extra graduação, Attack (resistido por Vontade (CD 12)), À Distância, Limitado a banishing demons (1 PP)"
     ],
@@ -29,13 +29,13 @@
       "Ataque Imprudente",
       "Duro de Matar",
       "Destemido",
-      "Grande Vigor",
+      "Tolerância Maior",
       "Inventor",
       "Defesa Aprimorada",
       "Iniciativa Aprimorada",
       "Ataque Poderoso",
       "Ritualista",
-      "Derrubar em Sequência"
+      "Ataque Dominó"
     ],
     "pericias": [
       {
@@ -59,17 +59,17 @@
         "total": 9
       },
       {
-        "nome": "Especialidade: Acting",
+        "nome": "Especialidade: Atuação",
         "graduacoes": 5,
         "total": 7
       },
       {
-        "nome": "Especialidade: mágico",
+        "nome": "Especialidade: Magia",
         "graduacoes": 6,
         "total": 8
       },
       {
-        "nome": "Especialidade: Special Effects",
+        "nome": "Especialidade: Special Efeitos",
         "graduacoes": 6,
         "total": 8
       },
@@ -107,6 +107,12 @@
     "iniciativa": 7,
     "ataques": [
       {
+        "nome": "Lucifer’s Trident",
+        "bonus": 7,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 13, Penetrante 3"
+      },
+      {
         "nome": "Desarmado",
         "bonus": 9,
         "alcance": "Corpo a corpo",
@@ -132,7 +138,7 @@
     "complicacoes": [
       {
         "titulo": "Inimigo",
-        "texto": "Neron Motivation: Fame & Thrills Prejudice: When meeting people who don’t know him, Blue Devil’s demonic appearance can get him into trouble and make it difficult to appear as one of the “good guys. ” Vulnerability: Blue Devil cannot set foot on consecrated ground without bursting into flame, and contact with holy water burns his flesh (treat either as an ongoing Dano 10 effect for each round contact is maintained)."
+        "texto": "Neron Motivation: Fame & Thrills Prejudice: When meeting people who don’t know him, Blue Devil’s demonic appearance can get him into trouble e make it difficult to appear as one of the “good guys. ” Vulnerability: Blue Devil cannot set foot on consecrated ground sem bursting into flame, e contact com holy water burns his flesh (treat either as an ongoing Dano 10 effect for each round contact is maintained)."
       },
       {
         "titulo": "Fraqueza",

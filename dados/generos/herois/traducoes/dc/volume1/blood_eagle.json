@@ -14,17 +14,17 @@
       "Pre": 2
     },
     "poderes": [
-      "Avian Empathy: Comunicação 1 (Auditory), área, Limitado a Avians; Característica 1 (Birds accept him as one of their own); Nth Metal Wing Harness: Removível (-5 pontos), Indestructible; Força Aprimorada 2, plus Força Aprimorada 2, Limitado a lifting and carrying (Lifting Str 8; 6 tons); Voo 7 (400 km/h), Wings; Imunidade 3 (Frio, Calor, Pressão); Proteção 3; Regeneração 10; Sentidos 1 (Visão Estendida); Reincarnation: Imortalidade 1, Reincarnation (May re-distribute power pontos)"
+      "Avian Empathy: Comunicação 1 (Auditivo), área, Limitado a Avians; Característica 1 (Birds accept him as one of their own); Nth Metal Wing Harness: Removível (-5 pontos), Indestructible; Força Aprimorada 2, plus Força Aprimorada 2, Limitado a lifting e carrying (Lifting Str 8; 6 toneladas); Voo 7 (400 km/h), Wings; Imunidade 3 (Frio, Calor, Pressão); Proteção 3; Regeneração 10; Sentidos 1 (Visão Estendida); Reincarnation: Imortalidade 1, Reincarnation (May re-distribute Poder pontos)"
     ],
     "equipamento": [
-      "Spear (Força-based Dano 3 (Piercing), Improved Critical)"
+      "Spear (Força-based Dano 3 (Perfurante), Improved Critical)"
     ],
     "vantagens": [
       "Ataque Imprudente",
       "Avaliação",
-      "Beginner’s Luck",
-      "Benefit 5 (CSA member)",
-      "Conectado",
+      "Sorte de Principiante",
+      "Benefício 5 (CSA member)",
+      "Bem Relacionado",
       "Rolamento Defensivo",
       "Equipamento 3",
       "Ambiente Favorito (Aerial)",
@@ -33,17 +33,15 @@
       "Iniciativa Aprimorada",
       "Quebrar Aprimorado",
       "Inventor",
-      "Jack-of- all-trades",
-      "Languages 3 (Ancient Egyptian",
-      "German",
-      "Japanese)",
+      "Faz Tudo",
+      "Idiomas 3 (Ancient Egyptian, Alemão, Japonês)",
       "Liderança",
       "Ação em Movimento",
       "Ataque Poderoso",
       "Saque Rápido",
       "Ataque à Distância 10",
       "Assustar",
-      "Derrubar em Sequência 2",
+      "Ataque Dominó 2",
       "Esquiva Fabulosa"
     ],
     "pericias": [
@@ -73,17 +71,17 @@
         "total": 8
       },
       {
-        "nome": "Especialidade: History",
+        "nome": "Especialidade: História",
         "graduacoes": 8,
         "total": 11
       },
       {
-        "nome": "Especialidade: Law Enforcement",
+        "nome": "Especialidade: Policiamento",
         "graduacoes": 4,
         "total": 7
       },
       {
-        "nome": "Especialidade: Tactics",
+        "nome": "Especialidade: Tática",
         "graduacoes": 6,
         "total": 9
       },
@@ -129,7 +127,7 @@
         "nome": "Spear",
         "bonus": 13,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 9, Crit. 19-20"
+        "dano": "Dano 9, Crít. 19-20"
       },
       {
         "nome": "Desarmado",
@@ -157,7 +155,7 @@
     "complicacoes": [
       {
         "titulo": "Perda de Poder",
-        "texto": "All Powers except for Voo (and reincarnation Característica) are lost if whatever Blood Eagle uses as an equivalent of Hawkman’s Nth metal is taken from him."
+        "texto": "All Poderes except for Voo (e reincarnation Característica) are lost if whatever Blood Eagle uses as an equivalent of Hawkman’s Nth metal is taken from him."
       },
       {
         "titulo": "Temperamento",

@@ -14,44 +14,34 @@
       "Pre": 5
     },
     "poderes": [
-      "Body Armor: Impenetrável Proteção 4; Sentidos 1 (Comunicação Link); Removível (-2 pontos) (7 PP)",
-      "Enhanced Brain Capacity: Enhanced"
+      "Body Armor: Impenetrável Proteção 4; Sentidos 1 (Elo de Comunicação); Removível (-2 pontos) (7 PP)",
+      "Aprimorado Brain Capacity: Aprimorado"
     ],
     "equipamento": [
-      "Comunicação Dispositivo: Característica 1 (Auditory Comunicação) (1 PP)",
-      "Mini-Tracers: Característica 1 (Tracking) (1 PP)",
+      "Comunicação Dispositivo: Característica 1 (Auditivo Comunicação) (1 PP)",
+      "Mini-Tracers: Característica 1 (Rastrear) (1 PP)",
       "Rebreather: Imunidade 2 (Sufocamento), Limitado (1 PP)",
       "Arsenal: 16-ponto Arranjo • Flash-Bang Grenades: Área de Explosão Ofuscar, 4 Esquiva CD 14 (16 PP)",
       "• Assault Rifle: À Distância Multiataque Dano 5 (1 PP)",
       "• Combat Knife: Força-based Dano 2, Improved Critical (1 PP)",
       "• Fragmentation Grenades: À Distância Área de Explosão Dano 5 (1 PP)",
       "• Heavy Pistola: Dano à Distância 4 (1 PP)",
-      "• Sleep Gas Grenades: Área de Nuvem Sleep 4 (1 PP)",
+      "• Sono Gas Grenades: Área de Nuvem Sono 4 (1 PP)",
       "• Smoke Grenades: Área de Nuvem Camuflagem Attack 4 (1 PP)",
       "• Sniper Rifle & Targeting Scope: Dano à Distância 5, Improved Aim, Improved Critical (1 PP)",
-      "• Shotgun: Dano à Distância 5, Preciso, Limitado a 3 Dano against targets with Proteção (1 PP)",
-      "• Tear Gas Grenades: À Distância Área de Nuvem Aflição 4 ((resistido por Fortitude; Tonto and Vision Impaired, Atordoado and Vision Disabled, Incapacitado)) (1 PP)",
-      "Advantages Preciso Attack, Assessment, Chokehold, Corpo a Corpo Attack, Connected, Contacts, Defensive Attack, Eidetic Memory , Equipment 6, Evasion 2 , Fearless, Great Endurance, Improved Aim, Improved Critical (Espada), Improved Critical (Guns), Improved Defense, Improved Disarm, Improved Grab, Improved Hold, Improved Iniciativa 2 , Improved Trip, Instant Up, Jack-of-all-trades, Languages 3, Luck, Move-by Action, Power Attack, Preciso Attack (À Distância; Cover), Prone Luta, Quick Draw, À Distância Attack 8, Redirect, Seize Iniciativa , Takedown, Throwing Mastery, Uncanny Esquiva , Well-informed"
+      "• Shotgun: Dano à Distância 5, Acurado, Limitado a 3 Dano contra targets com Proteção (1 PP)",
+      "• Tear Gas Grenades: À Distância Área de Nuvem Aflição 4 ((resistido por Fortitude; Tonto e Visão Prejudicado, Atordoado e Visão Desabilitado, Incapacitado)) (1 PP)",
+      "Vantagens Acurado Attack, Assessment, Chokehold, Corpo a Corpo Attack, Connected, Contacts, Defensive Attack, Memória Eidética , Equipment 6, Evasão 2 , Fearless, Great Endurance, Improved Aim, Improved Critical (Espada), Improved Critical (Armas de Fogo), Improved Defense, Improved Disarm, Improved Grab, Improved Hold, Iniciativa Aprimorada 2 , Improved Trip, De Pé, Jack-of-all-trades, Languages 3, Luck, Ação em Movimento, Poder Attack, Preciso Attack (À Distância; Cover), Caído Luta, Quick Draw, À Distância Attack 8, Redirect, Tomar a Iniciativa , Ataque Dominó, Arremesso Mastery, Uncanny Esquiva , Well-informed"
     ],
     "vantagens": [
       "(Eidetic Memory); Enhanced Intelligence 1; Quickness 2",
-      "Limited to Mental • 3 points Enhanced Senses: Enhanced Advantages (Uncanny Dodge) ; Enhanced Awareness 1; Senses 8 (Acute Sense of Smell",
-      "Danger Sense",
-      "Darkvision",
-      "Extended Rapid Hearing",
-      "Extended Rapid Vision) • 11 points Healing Factor: Immunity 2 (Aging",
-      "Poison); Regeneration 8 • 10 points Heightened Reflexes: Enhanced Advantages (Evasion 2",
-      "Seize Initiative) • 3 points Heightened Speed: Enhanced Advantages (Improved Iniciativa 2); Quickness 1; Speed 3 (16 MPH) • 6 pontos Power Staff: Array (20 pontos)",
-      "Easily Removable (–8 pontos) • Stunning Blast: Ranged Affliction 10 (Resisted by Fortitude; Daze",
-      "Stunned",
-      "Incapacitated) • 20 points • Energy Blast: Ranged Damage 10 • 1 point • Lethal Strike: Strength-based Damage 3 • 1 point • Stunning Strike: Affliction 10 (Daze",
-      "Stunned",
-      "Incapacitated) • 1 point Promethium Sword: Strength-based Damage 3",
+      "Limited to Mental • 3 points Enhanced Senses: Enhanced Advantages (Uncanny Esquiva) ; Enhanced Awareness 1; Senses 8 (Acute Sense of Smell, Danger Sense, Darkvision, Extended Rapid Hearing, Extended Rapid Vision) • 11 points Healing Factor: Immunity 2 (Aging, Poison); Regeneration 8 • 10 points Heightened Reflexes: Enhanced Advantages (Evasion 2, Seize Initiative) • 3 points Heightened Speed: Enhanced Advantages (Improved Initiative 2); Quickness 1; Speed 3 (16 MPH) • 6 points Power Staff: Array (20 points)",
+      "Easily Removable (-8 pontos) • Stunning Blast: Ranged Affliction 10 (Resisted by Fortitude; Daze, Stunned, Incapacitated) • 20 points • Energy Blast: Ranged Damage 10 • 1 point • Lethal Strike: Strength-based Damage 3 • 1 point • Stunning Strike: Affliction 10 (Daze, Stunned, Incapacitated) • 1 point Promethium Sword: Strength-based Damage 3",
       "Crítico Aprimorado",
       "Penetrating 5",
-      "Easily Removable (–4 pontos)",
+      "Easily Removable (-4 pontos)",
       "Indestructible • 5 points Super-Strength: Enhanced Strength 1",
-      "Limited to Lifting (Lifting Str 8; 6 tons) • 1 points"
+      "Limited to Lifting (Lifting Str 8; 6 toneladas) • 1 points"
     ],
     "pericias": [
       {
@@ -75,12 +65,12 @@
         "total": 15
       },
       {
-        "nome": "Especialidade: Streetwise",
+        "nome": "Especialidade: Manha",
         "graduacoes": 6,
         "total": 10
       },
       {
-        "nome": "Especialidade: Tactics",
+        "nome": "Especialidade: Tática",
         "graduacoes": 11,
         "total": 15
       },
@@ -110,12 +100,12 @@
         "total": 9
       },
       {
-        "nome": "Combate à Distância: Guns",
+        "nome": "Combate à Distância: Armas de Fogo",
         "graduacoes": 3,
         "total": 11
       },
       {
-        "nome": "Combate à Distância: Throwing",
+        "nome": "Combate à Distância: Arremesso",
         "graduacoes": 1,
         "total": 9
       },
@@ -146,16 +136,16 @@
         "nome": "Assault Rifle",
         "bonus": 19,
         "alcance": "À distância",
-        "dano": "Dano 5 Knife (thrown) +17 À Distância, Dano 9"
+        "dano": "Dano 5 Knife (Arremesso) +17 À Distância, Dano 9"
       },
       {
-        "nome": "Power Staff Raio",
+        "nome": "Poder Staff Raio",
         "bonus": 16,
         "alcance": "À distância",
         "dano": "Dano 10 or Aflição 10"
       },
       {
-        "nome": "Power Staff Golpe",
+        "nome": "Poder Staff Golpe",
         "bonus": 16,
         "alcance": "Corpo a corpo",
         "dano": "Dano 10 or Aflição 10"
@@ -204,7 +194,7 @@
     "complicacoes": [
       {
         "titulo": "Inimigo",
-        "texto": "Deathstroke has personal vendettas against both Green Arrow and Nightwing (see Vol. II )."
+        "texto": "Deathstroke has personal vendettas contra both Green Arrow e Nightwing (see Vol. II )."
       },
       {
         "titulo": "Motivação",
@@ -212,15 +202,15 @@
       },
       {
         "titulo": "Relacionamento",
-        "texto": "Deathstroke has had a series of tumultuous romances, first with his wife Adeline, then later with Terra (see Vol. II ), and former police officer Pat Trayce, the second Vigilante (see Vol. II )."
+        "texto": "Deathstroke has had a series of tumultuous romances, first com his wife Adeline, then later com Terra (see Vol. II ), e former police officer Pat Trayce, the second Vigilante (see Vol. II )."
       },
       {
         "titulo": "Relacionamento",
-        "texto": "Rose Wilson, the new Ravager (see Vol. II ), and her brother Joseph, the Titan known as Jericho, are Slade’s two surviving children. They are all that remains of Slade’s broken family. Though he tries to manipulate them, Slade cares for his children in his own twisted, obsessive way. They may yet prove to be Slade’s greatest weakness."
+        "texto": "Rose Wilson, the new Ravager (see Vol. II ), e her brother Joseph, the Titan known as Jericho, are Slade’s two surviving children. They are all that remains of Slade’s broken family. Though he tries to manipulate them, Slade cares for his children in his own twisted, obsessive way. They may yet prove to be Slade’s greatest weakness."
       },
       {
         "titulo": "Temporary Insanity",
-        "texto": "While Deathstroke can regenerate from even the most mortal of wounds, recovering from the Moribundo condition renders him insane and animalistic for a short period of time."
+        "texto": "While Deathstroke can regenerate from even the most mortal of wounds, recovering from the Moribundo condition renders him insane e animalistic for a short period of time."
       }
     ]
   },

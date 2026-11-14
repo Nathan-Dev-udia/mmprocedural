@@ -14,18 +14,18 @@
       "Pre": 4
     },
     "poderes": [
-      "Miraclo Pills: Ativação (Ação de Movimento, –1 ponto) (34 PP)",
+      "Miraclo Pills: Ativação (Ação de Movimento, -1 ponto) (34 PP)",
       "Bulletproof: Proteção 2 (2 PP)",
-      "Enhanced Performance: Enhanced Advantages 4 (Extraordinary Effort, Fast Grab, Improved Hold, Improved Smash) (4 PP)",
+      "Aprimorado Performance: Vantagens Aprimoradas 4 (Esforço Extraordinário, Agarrar Rápido, Imobilizar Aprimorado, Quebrar Aprimorado) (4 PP)",
       "Jump to the Rooftops: Salto 2 (2 PP)",
       "Miraclo Força: Força Aprimorada 4 (8 PP)",
       "Miraclo Vigor: Vigor Aprimorado 4 (8 PP)",
-      "Miraclo Agilidade: Agilidade Aprimorada 4, Enhanced Defenses 3 (Aparar 3) (11 PP)"
+      "Miraclo Agilidade: Agilidade Aprimorada 4, Defesas Aprimoradas 3 (Aparar 3) (11 PP)"
     ],
     "equipamento": [],
     "vantagens": [
       "Ataque Imprudente",
-      "Benefit 2 (Independently Wealthy)",
+      "Benefício 2 (Independentemente Rico)",
       "Estrangular",
       "Esforço Extraordinário",
       "Agarrar Rápido",
@@ -58,7 +58,7 @@
       "Resistência": 9,
       "Vontade": 7
     },
-    "observacao_defesas": "* Fortitude 9/5* Aparar 7/4* Resistência 9/3* Vontade 7 * Without Miraclo Pills.",
+    "observacao_defesas": "* Fortitude 9/5* Aparar 7/4* Resistência 9/3* Vontade 7 * sem Miraclo Pills.",
     "custos": {
       "Habilidades": 48,
       "Perícias": 24,
@@ -70,11 +70,11 @@
     "complicacoes": [
       {
         "titulo": "Hour of Power",
-        "texto": "Once Hourman takes a Miraclo pill, his Powers last exactly an hour, and no more. In addition, he can’t take another pill until an hour after his Powers fade."
+        "texto": "Once Hourman takes a Miraclo pill, his Poderes last exactly an hour, e no more. In addition, he can’t take another pill until an hour after his Poderes fade."
       },
       {
         "titulo": "Addictive Power",
-        "texto": "Rex Tyler became severely addicted first to the rush of heroic adventure, and then to the drug that gave him his Powers. Eventually, the only way to break his addiction was to retire from being Hourman and pass the legacy on to his son Rick. Using Miraclo caused Rick Tyler to contract leukemia, and he retired from heroics. On the verge of death, he was saved only by the arrival of an Hourman from the far-future, who took Rick out of time to bring him back to health and reintroduce him to his father."
+        "texto": "Rex Tyler became severely addicted first to the rush of heroic adventure, e then to the drug that gave him his Poderes. Eventually, the Apenas way to break his addiction was to retire from being Hourman e pass the legacy on to his son Rick. Using Miraclo caused Rick Tyler to contract leukemia, e he retired from heroics. On the verge of death, he was saved Apenas by the arrival of an Hourman from the far-future, who took Rick out of time to bring him back to health e reintroduce him to his father."
       }
     ]
   },

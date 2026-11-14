@@ -14,24 +14,24 @@
       "Pre": 4
     },
     "poderes": [
-      "Language Absorption: Compreender Languages 2 (Speak Any One Language, Understand and Read Multiple Languages), Limitado (Requires Physical Contact) (2 PP)",
+      "Language Absorption: Compreender Languages 2 (Speak Any One Language, Understand e Read Multiple Languages), Limitado (Requires Physical Contact) (2 PP)",
       "Invulnerability: Impenetrável Proteção 5 (10 PP)",
-      "Solar Sustenance: Imunidade (Inanição and Thirst), Limitado (Requires UV Radiação) (1 PP)",
+      "Solar Sustenance: Imunidade (Fome e Sede), Limitado (Requires UV Radiação) (1 PP)",
       "Star Bolts: Dano à Distância 14 (28 PP)",
-      "Super-Força: Força Aprimorada 2, Limitado a Lifting (Lifting Str 12; 100 tons) (2 PP)"
+      "Super-Força: Força Aprimorada 2, Limitado a Lifting (Lifting Str 12; 100 toneladas) (2 PP)"
     ],
     "equipamento": [
       "Vehicle: Grav Platform (24 PP)",
       "Medium; Str 0, Velocidade 7, Def 10, Tou 5"
     ],
     "vantagens": [
-      "Benefit 5 (Queen of New Tamaran)",
+      "Benefício 5 (Queen of New Tamaran)",
       "Ataque Defensivo",
       "Rolamento Defensivo 2",
       "Equipamento 5",
       "Crítico Aprimorado (Okaaran weapons)",
       "Quebrar Aprimorado",
-      "Levantar Rápido",
+      "De Pé",
       "Liderança",
       "Ataque Poderoso",
       "Assustar"
@@ -48,12 +48,12 @@
         "total": 9
       },
       {
-        "nome": "Especialidade: Military",
+        "nome": "Especialidade: Militar",
         "graduacoes": 10,
         "total": 12
       },
       {
-        "nome": "Especialidade: Politics",
+        "nome": "Especialidade: Política",
         "graduacoes": 10,
         "total": 12
       },
@@ -121,11 +121,11 @@
       },
       {
         "titulo": "Obsessão",
-        "texto": "Blackfire is obsessed with ruling her people, so much so that she was willing to be their conqueror."
+        "texto": "Blackfire is obsessed com ruling her people, so much so that she was willing to be their conqueror."
       },
       {
         "titulo": "Preconceito",
-        "texto": "Blackfire cannot fly under her own power; this is considered a disability by Tamaranians and causes some discrimination."
+        "texto": "Blackfire cannot fly under her own Poder; this is considered a disability by Tamaranians e causes some discrimination."
       }
     ]
   },

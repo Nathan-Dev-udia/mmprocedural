@@ -14,8 +14,8 @@
       "Pre": 1
     },
     "poderes": [
-      "Bio- f ission: Summon Duploids 7 (105 pontos), Active, Horde, mental Link, Multiple Minions 4 (16 minions) (85 PP)",
-      "e nergy a bsorption: Impenetrável Proteção 6, Limitado a Energy; Resistência Impenetrável 6, Limitado a Energy (9 PP)"
+      "Bio- f ission: Invocar Duploids 7 (105 pontos), Active, Horda, Elo Mental, Múltiplos Capangas 4 (16 capangas) (85 PP)",
+      "e nergy a bsorption: Impenetrável Proteção 6, Limitado a Energia; Resistência Impenetrável 6, Limitado a Energia (9 PP)"
     ],
     "equipamento": [
       "Weapon: Usually a heavy Pistola (Dano à Distância 4) (8 PP)"
@@ -36,12 +36,12 @@
         "total": 5
       },
       {
-        "nome": "Especialidade: Physics",
+        "nome": "Especialidade: Física",
         "graduacoes": 6,
         "total": 10
       },
       {
-        "nome": "Combate à Distância: Guns",
+        "nome": "Combate à Distância: Armas de Fogo",
         "graduacoes": 4,
         "total": 8
       },
@@ -78,7 +78,7 @@
       "Resistência": 6,
       "Vontade": 5
     },
-    "observacao_defesas": "* Vontade 5 *Limitado a Energy.",
+    "observacao_defesas": "* Vontade 5 *Limitado a Energia.",
     "custos": {},
     "total": null,
     "complicacoes": []

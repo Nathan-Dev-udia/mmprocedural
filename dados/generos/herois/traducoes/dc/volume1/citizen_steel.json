@@ -14,11 +14,11 @@
       "Pre": 2
     },
     "poderes": [
-      "Força Aprimorada 2 (Limitado a lifting, lifting Str 18 (6,000 tons)); Features 5 (Increased Mass from graduação 2 to graduação 7 (3 tons)); Resistência Impenetrável 16"
+      "Força Aprimorada 2 (Limitado a lifting, lifting Str 18 (6,000 toneladas)); Características 5 (Increased Mass from graduação 2 to graduação 7 (3 toneladas)); Resistência Impenetrável 16"
     ],
     "equipamento": [],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Duro de Matar",
       "Esforço Extraordinário",
       "Interpor-se",
@@ -53,7 +53,7 @@
         "nome": "Desarmado",
         "bonus": 6,
         "alcance": "",
-        "dano": "(Dano 16)"
+        "dano": "Dano 16"
       }
     ],
     "defesas": {
@@ -75,7 +75,7 @@
     "complicacoes": [
       {
         "titulo": "Uncontrolled Power",
-        "texto": "Without his suit, Heywood’s Força is Uncontrolled"
+        "texto": "sem his suit, Heywood’s Força is Descontrolado"
       }
     ]
   },

@@ -46,7 +46,7 @@
     "poderes": [
       {
         "nome": "Cosmic Energy Control",
-        "construcao_3e": "Array Cósmico do Poder Cósmico: Dano Cósmico à Distância 17 (34 PP); Efeitos Alternativos: Criar Objetos 16 (1 PP), Cura Cósmica 12 (1 PP), Transformação de Matéria 8 (1 PP), Característica Aprimorada / Impulso (1 PP) + Vantagens de Alcance (2 PP) = 40 PP.",
+        "construcao_3e": "Arranjo Cósmico do Poder Cósmico: Dano Cósmico à Distância 17 (34 PP); Efeitos Alternativos: Criar Objetos 16 (1 PP), Cura Cósmica 12 (1 PP), Transformação de Matéria 8 (1 PP), Característica Aprimorada / Impulso (1 PP) + Vantagens de Alcance (2 PP) = 40 PP.",
         "custo_2e_pp": 40,
         "custo_3e_pp": 40,
         "nome_pt": "Controle do Poder Cósmico"
@@ -81,7 +81,7 @@
       },
       {
         "nome": "Super Strength",
-        "construcao_3e": "Super-Força / Power-Lifting 4 (4 PP).",
+        "construcao_3e": "Super-Força / Levantamento de Peso 4 (4 PP).",
         "custo_2e_pp": 8,
         "custo_3e_pp": 4,
         "nome_pt": "Super-Força Cósmica"

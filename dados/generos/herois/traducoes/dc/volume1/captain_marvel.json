@@ -14,23 +14,23 @@
       "Pre": 3
     },
     "poderes": [
-      "Wisdom of Solomon: Enhanced Advantages 4 (Assessment, Beginner’s Luck, Eidetic Memory, Jack-of-all-trades), Prontidão Aprimorada 7 (18 PP)",
-      "Força of Hercules: Força Aprimorada 4, Limitado a Lifting (Lifting Str 23; 200,000 tons) (4 PP)",
+      "Wisdom of Solomon: Vantagens Aprimoradas 4 (Avaliação, Sorte de Principiante, Memória Eidética, Faz Tudo), Prontidão Aprimorada 7 (18 PP)",
+      "Força of Hercules: Força Aprimorada 4, Limitado a Lifting (Lifting Str 23; 200,000 toneladas) (4 PP)",
       "Vigor of Atlas: Proteção 4, Resistência Impenetrável 19; Imunidade 10 (Suporte Vital) (33 PP)",
-      "Courage of Achilles: Luta Aprimorada 4, Enhanced Vontade 5, Impenetrável Vontade 10 (23 PP)",
+      "Courage of Achilles: Luta Aprimorada 4, Vontade Aprimorada 5, Impenetrável Vontade 10 (23 PP)",
       "Velocidade of Mercury: Arranjo (30 pontos)",
-      "• Voo 15 (64,0 km/h) (30 PP)",
-      "• Dimensional Travel 1 (Rock of Eternity) (1 PP)",
-      "• Rapidez 15, Velocidade 15 (64,0 km/h) (1 PP)"
+      "• Voo 15 (102.400 km/h) (30 PP)",
+      "• Viagem Dimensional 1 (Rock of Eternity) (1 PP)",
+      "• Rapidez 15, Velocidade 15 (102.400 km/h) (1 PP)"
     ],
     "equipamento": [],
     "vantagens": [
       "Avaliação",
-      "Beginner’s Luck",
+      "Sorte de Principiante",
       "Memória Eidética",
-      "Grande Vigor",
+      "Tolerância Maior",
       "Interpor-se",
-      "Pau pra Toda Obra",
+      "Faz Tudo",
       "Ação em Movimento"
     ],
     "pericias": [
@@ -87,15 +87,15 @@
       },
       {
         "titulo": "Perda de Poder",
-        "texto": "No Powers as Billy Batson. Captain Marvel can lose his Powers if tricked into saying his mágico word."
+        "texto": "No Poderes as Billy Batson. Captain Marvel can lose his Poderes if tricked into saying his Magia word."
       },
       {
         "titulo": "Identidade Secreta",
-        "texto": "Billy Batson. In his normal identity, Billy has Str 0, Sta 1, Ftg 2, and Awe 3 with corresponding adjustments to his skill graduações and Defenses."
+        "texto": "Billy Batson. In his normal identity, Billy has Str 0, Sta 1, Ftg 2, e Awe 3 com corresponding adjustments to his Perícia graduações e Defesas."
       },
       {
         "titulo": "Y oung",
-        "texto": "Captain Marvel is really just a kid at heart, and sometimes makes foolish or impulsive choices."
+        "texto": "Captain Marvel is really just a kid at heart, e sometimes makes foolish or impulsive choices."
       }
     ]
   },

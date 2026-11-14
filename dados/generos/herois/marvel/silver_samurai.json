@@ -46,17 +46,17 @@
       "Contatos",
       "Bem Relacionado",
       "Ataque Defensivo",
-      "Tontear [Intimidate]",
+      "Tontear (Intimidação)",
       "Equipamento 3",
       "Defesa Aprimorada",
       "Iniciativa Aprimorada 2",
-      "Improved Sunder",
+      "Quebrar Aprimorado",
       "Derrubar Aprimorado",
       "De Pé",
       "Ataque Poderoso",
-      "Quickdraw",
+      "Saque Rápido",
       "Assustar",
-      "Esquiva Fabulosa [Audição]",
+      "Esquiva Fabulosa (Audição)",
       "Idiomas 1"
     ],
     "poderes": [
@@ -76,7 +76,7 @@
       },
       {
         "nome": "Super Strength",
-        "construcao_3e": "Power-Lifting 3.",
+        "construcao_3e": "Levantamento de Peso 3.",
         "custo_2e_pp": 6,
         "custo_3e_pp": 3,
         "nome_pt": "Super-Força / Poder de Carga"

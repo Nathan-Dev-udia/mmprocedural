@@ -14,21 +14,18 @@
       "Pre": 3
     },
     "poderes": [
-      "Frio/Calor Resistance ( Imunidade 20 (Frio Effects, Calor Effects), Limitado a Half Effect); Imortalidade ( Imunidade 1 (Envelhecimento)) ; Thermal Control ( Arranjo (23 pontos), Frio/Calor Raio ( Dano à Distância 11, Variável Descriptor (Calor, Frio)), AE: Extreme Temperature Field (À Distância Enfraquecer 11 (Resistência), Affects Only Objects), AE: Ice Generation (Criar Objetos Object 11))"
+      "Frio/Calor Resistance ( Imunidade 20 (Frio Efeitos, Calor Efeitos), Limitado a Half Effect); Imortalidade ( Imunidade 1 (Envelhecimento)) ; Thermal Control ( Arranjo (23 pontos), Frio/Calor Raio ( Dano à Distância 11, Variável Descriptor (Calor, Frio)), AE: Extreme Temperature Field (À Distância Enfraquecer 11 (Resistência), Afeta Apenas Objetos), AE: Gelo Generation (Criar Objetos Object 11))"
     ],
     "equipamento": [],
     "vantagens": [
-      "Benefit 2 (Independently Wealthy)",
+      "Benefício 2 (Independentemente Rico)",
       "Rolamento Defensivo 3",
       "Crítico Aprimorado (Desarmado)",
       "Defesa Aprimorada",
-      "Levantar Rápido",
-      "Language 2 (Chinese",
-      "Russian",
-      "Hindi",
-      "English)",
+      "De Pé",
+      "Language 2 (Chinês, Russo, Hindi, Inglês)",
       "Ataque Poderoso",
-      "Luta Caída",
+      "Luta no Chão",
       "Ritualista",
       "Transe"
     ],
@@ -49,12 +46,12 @@
         "total": 6
       },
       {
-        "nome": "Especialidade: mágico",
+        "nome": "Especialidade: Magia",
         "graduacoes": 3,
         "total": 6
       },
       {
-        "nome": "Especialidade: Science",
+        "nome": "Especialidade: Ciência",
         "graduacoes": 4,
         "total": 7
       },
@@ -96,7 +93,7 @@
         "nome": "Desarmado",
         "bonus": 15,
         "alcance": "",
-        "dano": "Dano 1, Crit. 19-20"
+        "dano": "Dano 1, Crít. 19-20"
       }
     ],
     "defesas": {
@@ -118,11 +115,11 @@
     "complicacoes": [
       {
         "titulo": "Nemesis",
-        "texto": "Arani’s arch-enemy is her psychotic father, the mythological villain Kalki (and to a lesser extent, General Immortus)."
+        "texto": "Arani’s arch-enemy is her psychotic father, the mythological villain Kalki (e to a lesser extent, General Immortus)."
       },
       {
         "titulo": "Obsessão",
-        "texto": "Celsius is fanatical in her desire to restore the Chief and then prove her prior relationship with him."
+        "texto": "Celsius is fanatical in her desire to restore the Chief e then prove her prior relationship com him."
       }
     ]
   },

@@ -14,24 +14,24 @@
       "Pre": 4
     },
     "poderes": [
-      "a er o- d isks: Voo 7 (400 km/h), Facilmente Removível (–6 pontos) (8 PP)",
-      "Costume: Proteção 2, Movimento 2 (Wall-Crawling), Removível (–1 ponto) (5 PP)",
-      "Mother Box: Removível (–4 pontos); Boom t ub e: Space Travel 3; i n telligence: Característica 2; r estoration: Cura 8 (19 PP)",
-      "Multi-Cube: Arranjo (32 pontos), Removível (–7 pontos) (29 PP)",
-      "• Hologram: Visual Ilusão 8, área 2 (30 feet) (32 PP)",
-      "• Cable: Mover Objetos 6, Limitado Direction (Pull); Movimento 1 (Swinging) (1 PP)",
-      "• f lar e: Área de Explosão Aflição 12 (resistido por Fortitude; Visually Impaired, Visually Disabled, Visually Unaware) (1 PP)",
-      "• i llumina tion: Environment (Daylight) 3 (1 PP)",
-      "• Sonic Beam: À Distância Transform 8 (Open Locks and Seals) (1 PP)",
+      "a er o- d isks: Voo 7 (400 km/h), Facilmente Removível (-6 pontos) (8 PP)",
+      "Costume: Proteção 2, Movimento 2 (Escalar Paredes), Removível (-1 ponto) (5 PP)",
+      "Mother Box: Removível (-4 pontos); Boom t ub e: Viagem Espacial 3; i n telligence: Característica 2; r estoration: Cura 8 (19 PP)",
+      "Multi-Cube: Arranjo (32 pontos), Removível (-7 pontos) (29 PP)",
+      "• Hologram: Visual Ilusão 8, área 2 (30 pés) (32 PP)",
+      "• Cable: Mover Objetos 6, Limitado Direction (Pull); Movimento 1 (Balançar-se) (1 PP)",
+      "• f lar e: Área de Explosão Aflição 12 (resistido por Fortitude; Visually Prejudicado, Visually Desabilitado, Visually Desatento) (1 PP)",
+      "• i llumina tion: Ambiente (Daylight) 3 (1 PP)",
+      "• Sônico Beam: À Distância Transformar 8 (Open Locks e Seals) (1 PP)",
       "n e w God: Imunidade 3 (Envelhecimento, Doença, Poisons) (3 PP)",
-      "a V ant G d a e S Preciso Attack, Defensive Roll 2, Evasion 2, Fearless, Inventor, Luck, Move-by Action, Redirect, Set-up, Second Chance (Sleight of Hand), Skill Mastery (Sleight of Hand), Taunt, Trance, Ultimate Effort (Sleight of Hand), Uncanny Esquiva impossible (achieving a 42 skill check result). In short, Mister Miracle can escape most traps most of the time. For the rest, he tries and, if he fails, spends a hero ponto and then escapes! He carries various items of New Genesian technology, includ- ing a Mother Box and his Aero Disks, which allow him to fly. With Mother Box’s capabilities and his own technical bril- liance, Mister Miracle is capable of whipping up virtually any sort of Dispositivo, given some time (or enough hero pontos). His Technology graduação is sufficient to routinely Criar Objetos inventions worth 16 power pontos."
+      "a V ant G d a e S Acurado Attack, Rolamento Defensivo 2, Evasão 2, Fearless, Inventor, Luck, Ação em Movimento, Redirect, Set-up, Segunda Chance (Prestidigitação), Perícia Mastery (Prestidigitação), Taunt, Trance, Ultimate Effort (Prestidigitação), Uncanny Esquiva impossible (achieving a 42 Perícia Teste result). In short, Mister Miracle can escape most traps most of the time. For the rest, he tries e, if he fails, spends a hero ponto e then escapes! He carries various items of New Genesian Tecnologia, includ- ing a Mother Box e his Aero Disks, which allow him to fly. com Mother Box’s capabilities e his own technical bril- liance, Mister Miracle is capable of whipping up virtually any sort of Dispositivo, given some time (or enough hero pontos). His Tecnologia graduação is sufficient to routinely Criar Objetos inventions worth 16 Poder pontos."
     ],
     "equipamento": [],
     "vantagens": [
       "Finta Ágil",
       "Rolamento Defensivo 2",
       "Equipamento 2",
-      "Evasion",
+      "Evasão",
       "Iniciativa Aprimorada",
       "Sorte 2",
       "Slippery",
@@ -103,11 +103,11 @@
       "Perícias": 43,
       "Defesas": 20
     },
-    "total": null,
+    "total": 199,
     "complicacoes": [
       {
         "titulo": "Relacionamento",
-        "texto": "Big Barda, Enemy: Darkseid and Apokolips, Thrillseeker."
+        "texto": "Big Barda, Enemy: Darkseid e Apokolips, Thrillseeker."
       }
     ]
   },

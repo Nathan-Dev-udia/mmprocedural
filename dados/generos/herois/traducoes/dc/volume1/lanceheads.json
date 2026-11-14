@@ -14,7 +14,7 @@
       "Pre": 1
     },
     "poderes": [
-      "Initiate Armor ( Proteção 5 (Removível)); Heliotron Blaster (Dano à Distância 6, Facilmente Removível); Flying Sabre (Arranjo, Facilmente Removível, ( Dano à Distância 5 (Teleguiado), AE: Força-based Dano 3 , ((Crit. 19-20)))"
+      "Initiate Armor ( Proteção 5 (Removível)); Heliotron Blaster (Dano à Distância 6, Facilmente Removível); Flying Sabre (Arranjo, Facilmente Removível, ( Dano à Distância 5 (Teleguiado), AE: Força-based Dano 3 , ((Crít. 19-20)))"
     ],
     "equipamento": [],
     "vantagens": [
@@ -79,7 +79,7 @@
         "nome": "Flying Sabre",
         "bonus": 11,
         "alcance": "",
-        "dano": "Dano Corpo a Corpo 5, Crit. 19-20"
+        "dano": "Dano Corpo a Corpo 5, Crít. 19-20"
       },
       {
         "nome": "Desarmado",

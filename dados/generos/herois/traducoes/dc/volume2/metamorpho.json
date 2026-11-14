@@ -14,7 +14,7 @@
       "Pre": 2
     },
     "poderes": [
-      "100 Defenses 14"
+      "100 Defesas 14"
     ],
     "equipamento": [],
     "vantagens": [
@@ -26,6 +26,12 @@
     "pericias": [],
     "iniciativa": 12,
     "ataques": [
+      {
+        "nome": "Gaseous/Liquid Form",
+        "bonus": null,
+        "alcance": "Corpo a corpo",
+        "dano": "Nuvem/Área Moldável Progressivo Aflição 7, resistido por Fortitude Shapeshifted Limbs +10 Corpo a Corpo, Dano 14"
+      },
       {
         "nome": "Desarmado",
         "bonus": 10,
@@ -41,7 +47,9 @@
       "Vontade": 9
     },
     "observacao_defesas": "",
-    "custos": {},
+    "custos": {
+      "Habilidades": 90
+    },
     "total": null,
     "complicacoes": []
   },

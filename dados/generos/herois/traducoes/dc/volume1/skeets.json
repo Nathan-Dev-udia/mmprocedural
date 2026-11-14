@@ -14,21 +14,21 @@
       "Pre": 2
     },
     "poderes": [
-      "Armored Shell ( Proteção 6); Built-In Tools ( Característica); Construct ( Imunidade 30 (Fortitude Effects)); Energy Raio (Dano à Distância 8); Grav Field (Voo 7 (400 km/h), Contínuo); Historical Database (Sentidos 4 (Precognition; Não Confiável)); Small Size (Encolhimento 4, Contínuo, Inato, Normal Força, Permanente)"
+      "Armored Shell ( Proteção 6); Built-In Tools ( Característica); Construct ( Imunidade 30 (Efeitos de Fortitude)); Energia Raio (Dano à Distância 8); Grav Field (Voo 7 (400 km/h), Contínuo); Historical Database (Sentidos 4 (Precognição; Não Confiável)); Small Size (Encolhimento 4, Contínuo, Inato, Normal Força, Permanente)"
     ],
     "equipamento": [],
     "vantagens": [
       "Avaliação",
       "Contatos",
-      "Evasion",
+      "Evasão",
       "Destemido",
       "Ação em Movimento",
       "Rastrear",
-      "Bem-Informado"
+      "Bem Informado"
     ],
     "pericias": [
       {
-        "nome": "Especialidade: History",
+        "nome": "Especialidade: História",
         "graduacoes": 8,
         "total": 13
       },
@@ -48,7 +48,7 @@
         "total": 10
       },
       {
-        "nome": "Combate à Distância: Energy Blast",
+        "nome": "Combate à Distância: Energia Blast",
         "graduacoes": 8,
         "total": 8
       },
@@ -66,7 +66,7 @@
     "iniciativa": 3,
     "ataques": [
       {
-        "nome": "Energy Raio",
+        "nome": "Energia Raio",
         "bonus": 12,
         "alcance": "À distância",
         "dano": "Dano 8"
@@ -75,6 +75,7 @@
     "defesas": {
       "Esquiva": 12,
       "Aparar": 4,
+      "Fortitude": null,
       "Resistência": 6,
       "Vontade": 8
     },

@@ -47,7 +47,7 @@
       "Equipamento 1",
       "Ação em Movimento",
       "Ataque Poderoso",
-      "Maestria em Perícia (Vehicles, Intimidation, Expertise, Insight)",
+      "Maestria em Perícia (Veículos, Intimidação, Especialidade, Intuição)",
       "Assustar",
       "Prender Arma"
     ],
@@ -82,7 +82,7 @@
       },
       {
         "nome": "Hellfire Control",
-        "construcao_3e": "Array de Fogo Infernal: Dano à Distância 10 (Afeta Insubstancial 1; 21 PP).",
+        "construcao_3e": "Arranjo de Fogo Infernal: Dano à Distância 10 (Afeta Insubstancial 1; 21 PP).",
         "custo_2e_pp": 21,
         "custo_3e_pp": 21,
         "nome_pt": "Controle do Fogo Infernal"

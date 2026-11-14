@@ -16,11 +16,11 @@
     "poderes": [],
     "equipamento": [],
     "vantagens": [
-      "Benefit 3 (CEO of Wayne Enterprises)"
+      "Benefício 3 (CEO of Wayne Enterprises)"
     ],
     "pericias": [
       {
-        "nome": "Especialidade: Business",
+        "nome": "Especialidade: Negócios",
         "graduacoes": 6,
         "total": 10
       },
@@ -51,7 +51,7 @@
         "nome": "Desarmado",
         "bonus": 0,
         "alcance": "",
-        "dano": "(Dano 0)"
+        "dano": "Dano 0"
       }
     ],
     "defesas": {

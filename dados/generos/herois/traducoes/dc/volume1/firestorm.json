@@ -14,25 +14,25 @@
       "Pre": 2
     },
     "poderes": [
-      "Absorption: Área de Explosão Nulificar 11 (Electromagnetic Energy) Linked to Área de Explosão Nulificar 11 (Kinetic Energy), Distrativo, Cansativo (22 PP)",
+      "Absorption: Área de Explosão Nulificar 11 (Electromagnetic Energia) Ligado a Área de Explosão Nulificar 11 (Kinetic Energia), Distrativo, Cansativo (22 PP)",
       "Voo 8 (800 km/h) (16 PP)",
       "Heightened Sentidos: Sentidos 9 (Visão Estendida 3, Infravisão, Visão Microscópica 4, Ultravisão) (9 PP)",
       "Nuclear Control: Arranjo (42 pontos)",
-      "• Atomic Rearrangement: À Distância Transform 8 (Anything to Anything), Increased Duration (Contínuo), Skill Exige Teste 10 (Expertise: Science DC20) , Half-Value Efeito Colateral: Automatic when attempted on organic matter: Aflição 12 (resistido por Fortitude; Tonto, Atordoado, Incapacitado) and Dano 12 (42 PP)",
+      "• Atomic Rearrangement: À Distância Transformar 8 (Anything to Anything), Increased Duration (Contínuo), Perícia Exige Teste 10 (Especialidade: Ciência DC20) , Half-Value Efeito Colateral: Automatic when attempted on organic matter: Aflição 12 (resistido por Fortitude; Tonto, Atordoado, Incapacitado) e Dano 12 (42 PP)",
       "• Nuclear Bolt: Dano à Distância 12 (1 PP)",
       "• Intangible Intangibilidade 4 (Incorporeal), Reação (1 PP)",
       "Quick Change: Característica 1 (1 PP)",
-      "Stein’s Presença*: Enhanced Skill 14 (Expertise: Science +14) (7 PP)",
-      "*Only when Stein is part of Firestorm"
+      "Stein’s Presença*: Perícia Aprimorada 14 (Especialidade: Ciência +14) (7 PP)",
+      "*Apenas when Stein is part of Firestorm"
     ],
     "equipamento": [],
     "vantagens": [
       "Rolamento Defensivo 2",
-      "Evasion",
+      "Evasão",
       "Iniciativa Aprimorada",
       "Ação em Movimento",
       "Ataque Poderoso",
-      "Esforço Supremo (Expertise: Science)"
+      "Esforço Supremo (Especialidade: Ciência)"
     ],
     "pericias": [
       {
@@ -56,7 +56,7 @@
         "total": 6
       },
       {
-        "nome": "Especialidade: Science",
+        "nome": "Especialidade: Ciência",
         "graduacoes": 5,
         "total": 6
       },
@@ -108,11 +108,11 @@
       },
       {
         "titulo": "Motivação",
-        "texto": "Doing Good: Firestorm and those that join together to make him are good people interested in helping however they can."
+        "texto": "Doing Good: Firestorm e those that join together to make him are good people interested in helping however they can."
       },
       {
         "titulo": "Perda de Poder",
-        "texto": "The two beings who merge to Criar Objetos Firestorm have no Powers when they separate into their normal forms."
+        "texto": "The two beings who merge to Criar Objetos Firestorm have no Poderes when they separate into their normal forms."
       }
     ]
   },

@@ -42,18 +42,18 @@
       "Ataque Acurado",
       "Ataque Defensivo",
       "Rolamento Defensivo 2",
-      "Tontear [Intimidate]",
+      "Tontear (Intimidação)",
       "Equipamento",
       "Defesa Aprimorada",
       "Iniciativa Aprimorada 2",
-      "Improved Sunder",
+      "Quebrar Aprimorado",
       "Derrubar Aprimorado",
       "De Pé",
-      "Move By-Action",
+      "Ação em Movimento",
       "Ataque Poderoso",
-      "Quickdraw",
+      "Saque Rápido",
       "Assustar",
-      "Esquiva Fabulosa [Audição]",
+      "Esquiva Fabulosa (Audição)",
       "Idiomas 1"
     ],
     "poderes": [
@@ -66,7 +66,7 @@
       },
       {
         "nome": "Immunity",
-        "construcao_3e": "Imunidade 5 (Radiation).",
+        "construcao_3e": "Imunidade 5 (Radiação).",
         "custo_2e_pp": 5,
         "custo_3e_pp": 5,
         "nome_pt": "Imunidade"

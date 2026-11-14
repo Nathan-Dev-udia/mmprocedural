@@ -14,7 +14,7 @@
       "Pre": 0
     },
     "poderes": [
-      "a lt ernate f orm— d ensity Control (Ativação― Ação de Movimento), d ense Body (Crescimento 11, Density; Resistência Impenetrável 11; Enhanced Advantages 7 (Improved Grab, Improved Hold, Improved Smash, Improved Trip, Interpose, Power Attack, Weapon Break); t hunderst omp (Área de Explosão Dano 10 Linked to Área de Explosão Aflição 10 (resistido por Esquiva; Impedido, Prone), Instant Recovery, Limitado Degree); Unslowed (Enhanced Defenses 10 (Esquiva 5, Aparar 5), Linked to Crescimento (Density), Only to negate modifiers; ae : Light Body Agilidade Aprimorada 4)"
+      "a lt ernate f orm— d ensity Control (Ativação― Ação de Movimento), d ense Body (Crescimento 11, Density; Resistência Impenetrável 11; Vantagens Aprimoradas 7 (Agarrar Aprimorado, Imobilizar Aprimorado, Quebrar Aprimorado, Derrubar Aprimorado, Interpor-se, Ataque Poderoso, Quebrar Arma); t hunderst omp (Área de Explosão Dano 10 Ligado a Área de Explosão Aflição 10 (resistido por Esquiva; Impedido, Caído), Instant Recovery, Limitado Grau); Unslowed (Defesas Aprimoradas 10 (Esquiva 5, Aparar 5), Ligado a Crescimento (Density), Apenas to negate modifiers; ae : Luz Body Agilidade Aprimorada 4)"
     ],
     "equipamento": [],
     "vantagens": [
@@ -23,9 +23,7 @@
       "Quebrar Aprimorado",
       "Derrubar Aprimorado",
       "Interpor-se",
-      "Language 2 (French",
-      "Spanish",
-      "Native: English)",
+      "Language 2 (Francês, Espanhol, Native: Inglês)",
       "Ataque Poderoso",
       "Quebrar Arma"
     ],
@@ -71,8 +69,21 @@
         "total": 11
       }
     ],
-    "iniciativa": 0,
-    "ataques": [],
+    "iniciativa": 4,
+    "ataques": [
+      {
+        "nome": "/+8**, Desarmado",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 12"
+      },
+      {
+        "nome": "Arremesso",
+        "bonus": 3,
+        "alcance": "À distância",
+        "dano": "Dano 12"
+      }
+    ],
     "defesas": {
       "Esquiva": 8,
       "Aparar": 8,
@@ -80,7 +91,7 @@
       "Resistência": 12,
       "Vontade": 8
     },
-    "observacao_defesas": "*With Dense Body. **With Light Body.",
+    "observacao_defesas": "*com Dense Body. **com Luz Body.",
     "custos": {
       "Defesas": 14
     },
@@ -88,11 +99,11 @@
     "complicacoes": [
       {
         "titulo": "Love",
-        "texto": "Thunder loves Grace and tries to protect her."
+        "texto": "Thunder loves Grace e tries to protect her."
       },
       {
         "titulo": "Second Best",
-        "texto": "Thunder has a hard time dealing with Batman’s decision to remove her from the Outsiders and continues to join Grace on missions in an unofficial capacity."
+        "texto": "Thunder has a hard time dealing com Batman’s decision to remove her from the Outsiders e continues to join Grace on missions in an unofficial capacity."
       }
     ]
   },

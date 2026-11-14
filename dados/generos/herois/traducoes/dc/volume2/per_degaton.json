@@ -15,18 +15,18 @@
     },
     "poderes": [
       "f ail-S afe r eset: Imortalidade 5 (10 PP)",
-      "o ut of Phase: Intangibilidade 4 (Intangible; Doesn’t work against Powers with a temporal effect); Força 2 Affects Corporeal (22 PP)",
-      "r ecalls f utur e e v ents: Sentidos 4 (Precognition) (4 PP)",
-      "t ime d isk : Aflição à Distância 10 (resistido por Fortitude; Fatigado, Disabled, Incapacitado), Facilmente Removível (-8 pontos) (12 PP)",
+      "o ut of Phase: Intangibilidade 4 (Intangible; Doesn’t work contra Poderes com a temporal effect); Força 2 Afeta Corpóreo (22 PP)",
+      "r ecalls f utur e e v ents: Sentidos 4 (Precognição) (4 PP)",
+      "t ime d isk : Aflição à Distância 10 (resistido por Fortitude; Fatigado, Desabilitado, Incapacitado), Facilmente Removível (-8 pontos) (12 PP)",
       "t ime t r avel d isk : Arranjo (6 pontos), Removível (-1 pontos) • f lying d isk : Voo 6 (192 km/h), Platform (6 PP)",
-      "• t ime Jump: Movimento 3 (Time Travel; Any time) (1 PP)"
+      "• t ime Jump: Movimento 3 (Viagem no Tempo; Any time) (1 PP)"
     ],
     "equipamento": [],
     "vantagens": [
       "Memória Eidética",
       "Inventor",
-      "Maestria em Perícia (Technology checks)",
-      "Esforço Supremo (Technology checks)"
+      "Maestria em Perícia (Tecnologia Testes)",
+      "Esforço Supremo (Tecnologia Testes)"
     ],
     "pericias": [
       {
@@ -40,7 +40,7 @@
         "total": 14
       },
       {
-        "nome": "Especialidade: Ex - pertise: Science",
+        "nome": "Especialidade: Ex - pertise: Ciência",
         "graduacoes": 8,
         "total": 19
       },
@@ -98,11 +98,11 @@
     "complicacoes": [
       {
         "titulo": "Megalomania",
-        "texto": "Per Degaton wants to rule the world. o v erconfident: In spite of his constant defeats, Per Degaton continues to try to manipulate history."
+        "texto": "Per Degaton wants to rule the world. o v erconfident: In spite of his constant defeats, Per Degaton continues to try to manipulate História."
       },
       {
         "titulo": "Untrustworthy",
-        "texto": "Per Degaton has a tendency to turn on friends and loved ones when his authority is questioned or his greed gets the better of him"
+        "texto": "Per Degaton has a tendency to turn on friends e loved ones when his authority is questioned or his greed gets the better of him"
       }
     ]
   },

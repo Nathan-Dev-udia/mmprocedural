@@ -53,7 +53,7 @@
     "poderes": [
       {
         "nome": "Mind Control",
-        "construcao_3e": "Aflição 8 (Resisted and Overcome by Vontade; Tonto, Compelido, Controlado; Área de Explosão [+1/graduação], Limitado to One Command: Run Away [-1/graduação], Indirect [1 flat]; 17 PP); Efeito Alternativo: Aflição 8 (Área de Explosão, Limitado to One Command: Run Toward, Indirect; 1 PP). Total: 18 PP.",
+        "construcao_3e": "Aflição 8 (Resistido e Superado por Vontade; Tonto, Compelido, Controlado; Área de Explosão [+1/graduação], Limitado to One Command: Run Away [-1/graduação], Indireto [1 Fixo]; 17 PP); Efeito Alternativo: Aflição 8 (Área de Explosão, Limitado to One Command: Run Toward, Indireto; 1 PP). Total: 18 PP.",
         "custo_2e_pp": 18,
         "custo_3e_pp": 18,
         "nome_pt": "Controle Mental"

@@ -14,11 +14,11 @@
       "Pre": 3
     },
     "poderes": [
-      "of Voo and of survival in the Vácuo of space."
+      "of Voo e of Sobrevivência in the Vácuo of space."
     ],
     "equipamento": [],
     "vantagens": [
-      "Benefit 1 (Honor Guard)",
+      "Benefício 1 (Honor Guard)",
       "Trabalho em Equipe",
       "Esforço Supremo (Vontade)"
     ],
@@ -39,7 +39,7 @@
         "total": 6
       },
       {
-        "nome": "Especialidade: Art",
+        "nome": "Especialidade: Arte",
         "graduacoes": 9,
         "total": 11
       },
@@ -64,7 +64,7 @@
         "total": 7
       },
       {
-        "nome": "Combate à Distância: Power Ring",
+        "nome": "Combate à Distância: Poder Ring",
         "graduacoes": 6,
         "total": 10
       },
@@ -77,7 +77,7 @@
     "iniciativa": 2,
     "ataques": [
       {
-        "nome": "Power Ring",
+        "nome": "Poder Ring",
         "bonus": 10,
         "alcance": "À distância",
         "dano": "Dano 18"
@@ -96,7 +96,7 @@
       "Resistência": 13,
       "Vontade": 18
     },
-    "observacao_defesas": "* Vontade 18 *Without Power Ring Proteção.",
+    "observacao_defesas": "* Vontade 18 *sem Poder Ring Proteção.",
     "custos": {
       "Habilidades": 42,
       "Perícias": 24,
@@ -108,15 +108,15 @@
     "complicacoes": [
       {
         "titulo": "Fear Given Form",
-        "texto": "Several times during his career, Rayner’s own fears and darker impulses have taken on physical and deadly form."
+        "texto": "Several times during his career, Rayner’s own fears e darker impulses have taken on physical e deadly form."
       },
       {
         "titulo": "Perda de Poder",
-        "texto": "The power ring needs periodic recharging and issues a warning as its power runs low."
+        "texto": "The Poder ring needs periodic recharging e issues a warning as its Poder runs low."
       },
       {
         "titulo": "Fraqueza",
-        "texto": "Green Lantern power rings depend on the willpower of the wearer; the maximum graduação of the ring’s effects is equal to the wearer’s Vontade graduação, and moments of self-doubt or hesitation can cause the ring to fail."
+        "texto": "Green Lantern Poder rings depend on the willpower of the wearer; the maximum graduação of the ring’s Efeitos is equal to the wearer’s Vontade graduação, e moments of self-doubt or hesitation can cause the ring to fail."
       }
     ]
   },

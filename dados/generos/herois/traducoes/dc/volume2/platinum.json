@@ -14,12 +14,12 @@
       "Pre": 5
     },
     "poderes": [
-      "r obot Body (Imunidade 57 (Fortitude effects, Chemical effects, mental effects, Electrical Dano, Frio, Calor); Proteção 10, Impenetrável), Shapeshifting (Alongamento 8; Metamorfose 4 (any form), Peculiaridade: Limitado a Same Color; Variável 2 (physical traits, 10 power pontos, plus changing existing physical trait allocations)"
+      "r obot Body (Imunidade 57 (Efeitos de Fortitude, Chemical Efeitos, Efeitos Mentais, Elétrico Dano, Frio, Calor); Proteção 10, Impenetrável), Shapeshifting (Alongamento 8; Metamorfose 4 (any form), Peculiaridade: Limitado a Same Color; Variável 2 (physical traits, 10 Poder pontos, plus changing existing physical trait allocations)"
     ],
     "equipamento": [],
     "vantagens": [
       "Atraente",
-      "Set-Up",
+      "Armação",
       "Trabalho em Equipe"
     ],
     "pericias": [
@@ -39,11 +39,19 @@
         "total": 9
       }
     ],
-    "iniciativa": 0,
-    "ataques": [],
+    "iniciativa": 5,
+    "ataques": [
+      {
+        "nome": "Desarmado",
+        "bonus": 10,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 6"
+      }
+    ],
     "defesas": {
       "Esquiva": 10,
       "Aparar": 10,
+      "Fortitude": null,
       "Resistência": 10,
       "Vontade": 6
     },
@@ -55,7 +63,7 @@
     "complicacoes": [
       {
         "titulo": "d oing Good",
-        "texto": "All of the Metal Men are driven to make the world a better place. elationship: r Tina is in love with Magnus and pines for him often."
+        "texto": "All of the Metal Men are driven to make the world a better place. elationship: r Tina is in love com Magnus e pines for him often."
       }
     ]
   },

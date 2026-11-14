@@ -14,10 +14,10 @@
       "Pre": 2
     },
     "poderes": [
-      "Caliburn (Sentidos 1 (Mystical Prontidão); Força- based Dano 3, Penetrante 8; Facilmente Removível (-4 pontos)); Hardiness (Imunidade 2 (Envelhecimento, Doença), Limitado a Half Effect)"
+      "Caliburn (Sentidos 1 (Mystical Consciência); Força- based Dano 3, Penetrante 8; Facilmente Removível (-4 pontos)); Hardiness (Imunidade 2 (Envelhecimento, Doença), Limitado a Half Effect)"
     ],
     "equipamento": [
-      "Chainmail (Proteção 3), Medium Escudo (+2 active Defenses)"
+      "Chainmail (Proteção 3), Medium Escudo (+2 active Defesas)"
     ],
     "vantagens": [
       "Ataque Imprudente",
@@ -28,7 +28,7 @@
       "Sorte 2",
       "Ataque Poderoso",
       "Parceiro 19",
-      "Derrubar em Sequência",
+      "Ataque Dominó",
       "Quebrar Arma"
     ],
     "pericias": [
@@ -43,7 +43,7 @@
         "total": 12
       },
       {
-        "nome": "Especialidade: History",
+        "nome": "Especialidade: História",
         "graduacoes": 8,
         "total": 10
       },
@@ -90,7 +90,7 @@
       "Resistência": 8,
       "Vontade": 10
     },
-    "observacao_defesas": "*, Aparar 12/10*, Fortitude 10, Resistência 8, Vontade 10 *Without Medium Escudo.",
+    "observacao_defesas": "*, Aparar 12/10*, Fortitude 10, Resistência 8, Vontade 10 *sem Medium Escudo.",
     "custos": {
       "Habilidades": 68,
       "Poderes": 9,
@@ -102,7 +102,7 @@
     "complicacoes": [
       {
         "titulo": "of the r ealm",
-        "texto": "Ystina aspires to be as good a knight as Sir Galahad and strives to uphold the ideals imelost: T of Camelot. t he Shining Knight is lost in time and may never be able to return home."
+        "texto": "Ystina aspires to be as good a knight as Sir Galahad e strives to uphold the ideals imelost: T of Camelot. t he Shining Knight is lost in time e may never be able to return home."
       }
     ]
   },

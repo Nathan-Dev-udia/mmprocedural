@@ -14,46 +14,46 @@
       "Pre": 7
     },
     "poderes": [
-      "Intelecto Aprimorado 2 ; Prontidão Aprimorada 4 ; Glider Cape (Safe Fall, Removível (-1 ponto)); Armored Costume (Proteção 4, Removível (-1 ponto)); Goggles ( Visão no Escuro, Removível (-1 ponto)); Hand Claws ( Força- based Dano 4, Removível (-1 ponto))"
+      "Intelecto Aprimorado 2 ; Prontidão Aprimorada 4 ; Glider Cape (Queda Segura, Removível (-1 ponto)); Armored Costume (Proteção 4, Removível (-1 ponto)); Goggles ( Visão no Escuro, Removível (-1 ponto)); Hand Claws ( Força- based Dano 4, Removível (-1 ponto))"
     ],
     "equipamento": [
-      "Flashlight: Característica 1 (Illumination); Grapnel Gun: Movimento 1 (Swinging); Mini-Tracers: Característica 1 (Tracking); Rebreather: Imunidade 2 (Sufocamento), Limitado; Utility Belt: Arranjo (12 pontos), Bolos: Aflição à Distância 4 (resistido por Esquiva; Impedido and Vulnerável, Indefeso and Immobilized), AE: Crescent Blades: Força-based Dano à Distância 2, AE: Cutting Torch: Dano 1 Linked to Enfraquecer Object’s Resistência 1, AE: Explosive Owl Boomerangs: À Distância Área de Explosão Dano 4, AE: Flash Bombs: À Distância Área de Explosão Aflição 3 (resistido por Fortitude; Vision Impaired, Vision Disabled, Vision Unaware), AE: Sleep Gas Pellets: À Distância Área de Nuvem Aflição 4 (resistido por Fortitude; Fatigado, Exausto, Adormecido), AE: Smoke Bombs: Área de Nuvem Visual Camuflagem Attack 4, AE: Tear Gas Pellets: À Distância Área de Nuvem Aflição 3 (resistido por Fortitude; Tonto and Vision Impaired, Atordoado and Vision Disabled, Incapacitado) HQ: THE OWL ’S ROOST (20 PP)",
-      "Size: Huge Tou 10 Features: Communications, Computer, Concealed,"
+      "Flashlight: Característica 1 (Illumination); Grapnel Gun: Movimento 1 (Balançar-se); Mini-Tracers: Característica 1 (Rastrear); Rebreather: Imunidade 2 (Sufocamento), Limitado; Utility Belt: Arranjo (12 pontos), Bolos: Aflição à Distância 4 (resistido por Esquiva; Impedido e Vulnerável, Indefeso e Immobilized), AE: Crescent Lâminas: Força-based Dano à Distância 2, AE: Cutting Torch: Dano 1 Ligado a Enfraquecer Object’s Resistência 1, AE: Explosive Owl Boomerangs: À Distância Área de Explosão Dano 4, AE: Flash Bombs: À Distância Área de Explosão Aflição 3 (resistido por Fortitude; Visão Prejudicado, Visão Desabilitado, Visão Desatento), AE: Sono Gas Pellets: À Distância Área de Nuvem Aflição 4 (resistido por Fortitude; Fatigado, Exausto, Adormecido), AE: Smoke Bombs: Área de Nuvem Visual Camuflagem Attack 4, AE: Tear Gas Pellets: À Distância Área de Nuvem Aflição 3 (resistido por Fortitude; Tonto e Visão Prejudicado, Atordoado e Visão Desabilitado, Incapacitado) HQ: THE OWL ’S ROOST (20 PP)",
+      "Size: Huge Tou 10 Características: Communications, Computer, Concealed,"
     ],
     "vantagens": [
       "Avaliação",
-      "Benefit 5 (CSA member)",
+      "Benefício 5 (CSA member)",
       "Ataque Corpo-a-Corpo 2",
-      "Conectado",
+      "Bem Relacionado",
       "Contatos",
       "Tontear (Intimidação)",
       "Ataque Defensivo",
       "Rolamento Defensivo 2",
       "Equipamento 19",
-      "Evasion",
-      "Esconder-se a Plena Vista",
+      "Evasão",
+      "Esconder-se à Plena Vista",
       "Iniciativa Aprimorada",
-      "Ferramentas Improvisadas",
-      "Levantar Rápido",
+      "Ferramentas Aprimoradas",
+      "De Pé",
       "Inventor",
-      "Pau pra Toda Obra",
-      "Languages 4",
+      "Faz Tudo",
+      "Idiomas 4",
       "Ação em Movimento",
       "Ataque Poderoso",
-      "Precise Attack (à distância; Concealment)",
+      "Ataque Preciso (À Distância; Camuflagem)",
       "Saque Rápido",
       "Ataque à Distância 7",
       "Redirecionar",
       "Tomar a Iniciativa",
-      "Preparar",
+      "Armação",
       "Maestria em Perícia (Intimidação)",
       "Maestria em Perícia (Investigação)",
       "Assustar",
-      "Derrubar em Sequência",
+      "Ataque Dominó",
       "Transe",
       "Rastrear",
       "Esquiva Fabulosa",
-      "Bem-Informado"
+      "Bem Informado"
     ],
     "pericias": [
       {
@@ -77,7 +77,7 @@
         "total": 15
       },
       {
-        "nome": "Especialidade: Criminology",
+        "nome": "Especialidade: Criminologia",
         "graduacoes": 13,
         "total": 21
       },
@@ -152,7 +152,7 @@
         "dano": "Dano 8"
       },
       {
-        "nome": "Crescent Blades",
+        "nome": "Crescent Lâminas",
         "bonus": 14,
         "alcance": "À distância",
         "dano": "Dano 6"
@@ -177,7 +177,7 @@
     "complicacoes": [
       {
         "titulo": "Flashbacks",
-        "texto": "Owlman is sometimes Atordoado by traumatic flashbacks to the night his mother and brother were murdered, especially in connection to Crime Alley, where the killings took place."
+        "texto": "Owlman is sometimes Atordoado by traumatic flashbacks to the night his mother e brother were murdered, especially in connection to Crime Alley, where the killings took place."
       },
       {
         "titulo": "Nemesis",
@@ -185,15 +185,15 @@
       },
       {
         "titulo": "Obsessão",
-        "texto": "Bringing down his father and the honest police officers of Gotham City."
+        "texto": "Bringing down his father e the honest police officers of Gotham City."
       },
       {
         "titulo": "Perda de Poder",
-        "texto": "Owlman loses his enhanced mental Abilities without access to his Intelecto-boosting drugs."
+        "texto": "Owlman loses his Aprimorado mental Habilidades sem access to his Intelecto-boosting drugs."
       },
       {
         "titulo": "Relacionamentos",
-        "texto": "Owlman has dysfunctional relationships which are nonetheless important to him, including a rivalry with Ultraman, an illicit romance with Superwoman, and a mentor relationship with his occasional sidekick, Mouser. aware of this alteration in history, but accepted their replace - ment member. That Power Ring was a A former “slave marine” who won his freedom through his military prowess. He served as a mercenary soldier in “Malcolm’s Legions” be - fore encountering the same Harrolds as the first Power Ring, who lied and told the soldier he was the ring’s designated “substitute wearer” when Har - rolds was unavailable. This Power Ring is a counterpart to Green Lantern Jon Stewart, though he is bald and sports facial hair. He exhibits a resentful, defiant attitude toward Owlman and Ultraman, is indifferent to Superwoman’s charms, and disdains Johnny Quick. Now, there’s a new Power Ring, an alternate universe version of Hal Jordan, though his name is unknown. His ascension to the role of Power Ring seems to have been accepted by the other members of the Crime Syndicate and he’s very skilled at commanding the Powers of the ring."
+        "texto": "Owlman has dysfunctional relationships which are nonetheless important to him, including a rivalry com Ultraman, an illicit romance com Superwoman, e a mentor relationship com his occasional sidekick, Mouser. aware of this alteration in História, but accepted their replace - ment member. That Poder Ring was a A former “slave marine” who won his freedom through his Militar prowess. He served as a mercenary soldier in “Malcolm’s Legions” be - fore encountering the same Harrolds as the first Poder Ring, who lied e told the soldier he was the ring’s designated “substitute wearer” when Har - rolds was unavailable. This Poder Ring is a counterpart to Green Lantern Jon Stewart, though he is bald e sports facial hair. He exhibits a resentful, defiant attitude toward Owlman e Ultraman, is indifferent to Superwoman’s charms, e disdains Johnny Quick. Now, there’s a new Poder Ring, an alternate universe version of Hal Jordan, though his name is unknown. His ascension to the role of Poder Ring seems to have been accepted by the other members of the Crime Syndicate e he’s very skilled at commanding the Poderes of the ring."
       }
     ]
   },

@@ -14,7 +14,7 @@
       "Pre": 3
     },
     "poderes": [
-      "Aerokinesis (Mover Objetos 10, Área de Cone, Alcance de Percepção, Dynamic, AE (Dynamic): Voo 8 (800 km/h))"
+      "Aerokinesis (Mover Objetos 10, Área de Cone, Alcance de Percepção, Dinâmico, AE (Dinâmico): Voo 8 (800 km/h))"
     ],
     "equipamento": [],
     "vantagens": [
@@ -22,13 +22,13 @@
       "Avaliação",
       "Tontear (Intimidação)",
       "Defensive: Attack",
-      "Evasion",
+      "Evasão",
       "Destemido",
       "Defesa Aprimorada",
       "Ação em Movimento",
       "Ataque Poderoso",
       "Assustar",
-      "Derrubar em Sequência 2",
+      "Ataque Dominó 2",
       "Rastrear"
     ],
     "pericias": [
@@ -48,7 +48,7 @@
         "total": 12
       },
       {
-        "nome": "Especialidade: mágico",
+        "nome": "Especialidade: Magia",
         "graduacoes": 5,
         "total": 8
       },
@@ -107,11 +107,11 @@
     "complicacoes": [
       {
         "titulo": "Responsabilidade",
-        "texto": "Tocotl bestowed John Trujillo with the power of the Black Condor to be guardian protector of all creation, a role he takes with the utmost seriousness."
+        "texto": "Tocotl bestowed John Trujillo com the Poder of the Black Condor to be guardian protector of all creation, a role he takes com the utmost seriousness."
       },
       {
         "titulo": "Peculiaridade",
-        "texto": "Trujillo is unaccustomed to dealing with other people, and is often at a loss in social situations where threats are not required."
+        "texto": "Trujillo is unaccustomed to dealing com other people, e is often at a loss in social situations where threats are not required."
       }
     ]
   },

@@ -14,7 +14,7 @@
       "Pre": "—"
     },
     "poderes": [
-      "a r tificial (Imunidade 30 (Fortitude Effects)), r einforced Chassis (Proteção 13, Impenetrável 10 graduações), f ligh t 2, Mouth Cannon (Dano à Distância 11, Multiataque), Likeness (Metamorfose 1)"
+      "a r tificial (Imunidade 30 (Efeitos de Fortitude)), r einforced Chassis (Proteção 13, Impenetrável 10 graduações), f Luz 2, Mouth Cannon (Dano à Distância 11, Multiataque), Likeness (Metamorfose 1)"
     ],
     "equipamento": [],
     "vantagens": [
@@ -50,7 +50,13 @@
         "dano": "Dano 11"
       }
     ],
-    "defesas": {},
+    "defesas": {
+      "Esquiva": 8,
+      "Aparar": 8,
+      "Fortitude": null,
+      "Resistência": 14,
+      "Vontade": null
+    },
     "observacao_defesas": "",
     "custos": {
       "Habilidades": 20,

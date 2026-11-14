@@ -15,7 +15,7 @@
     },
     "poderes": [],
     "equipamento": [
-      "character in the CD Universe. Even ignoring some of his more outré gadgets, it’s safe to say Bats has all the best toys. The items listed under Equipment for him are merely the most commonly- used. Fortunately, in CD ADventures game terms, Batman has plenty of options for breaking out the odd or unusual piece of equipment. First, assume Batman has various minor items of equip - ment useful for using his different Skills, but not listed among his game traits. For example, his Utility Belt may be assumed to include things like lockpicks, an evidence kit, and other necessary tools for his Investigation and Tech - nology Skills. These simply overcome the circumstance penalties normally applied for using those"
+      "character in the CD Universe. Even ignoring some of his more outré gadgets, it’s safe to say Bats has all the best toys. The items listed under Equipment for him are merely the most commonly- used. Fortunately, in CD ADventures game terms, Batman has plenty of options for breaking out the odd or unusual piece of equipment. First, assume Batman has various minor items of equip - ment useful for using his different Perícias, but not listed among his game traits. For example, his Utility Belt may be assumed to include things like lockpicks, an evidence kit, e other necessary tools for his Investigação e Tech - nology Perícias. These simply overcome the circumstance penalties normally applied for using those"
     ],
     "vantagens": [],
     "pericias": [],
@@ -25,7 +25,7 @@
         "nome": "Desarmado",
         "bonus": 0,
         "alcance": "",
-        "dano": "(Dano –1)"
+        "dano": "Dano -1"
       }
     ],
     "defesas": {

@@ -15,7 +15,7 @@
     },
     "poderes": [
       "t Variável 5 (25-pontos, animal traits), Ação Livre an tu t ot em: (45 PP)",
-      "Common a nimal t r aits: • Cheetah: Dano 3 (claws, Penetrante 3, Força-Based), Velocidade 6 • Hawk: Voo 4 • e lephan t: Crescimento 8, No Change in Size (+0) • Mule: Dano 2 (kick, Força-Based), Enhanced Vontade 4 (stubbornness) • Monkey: Agilidade Aprimorada 5, Movimento 1 (Safe Fall, Limitado a near a surface)"
+      "Common a nimal t r aits: • Cheetah: Dano 3 (claws, Penetrante 3, Força-Based), Velocidade 6 • Hawk: Voo 4 • e lephan t: Crescimento 8, No Change in Size (+0) • Mule: Dano 2 (kick, Força-Based), Vontade Aprimorada 4 (stubbornness) • Monkey: Agilidade Aprimorada 5, Movimento 1 (Queda Segura, Limitado a near a surface)"
     ],
     "equipamento": [],
     "vantagens": [
@@ -23,7 +23,7 @@
       "Atraente",
       "Rolamento Defensivo 3",
       "Iniciativa Aprimorada",
-      "Languages",
+      "Idiomas",
       "Ação em Movimento"
     ],
     "pericias": [
@@ -76,10 +76,10 @@
     "iniciativa": 7,
     "ataques": [
       {
-        "nome": "Desarmado",
-        "bonus": 8,
-        "alcance": "Corpo a corpo",
-        "dano": "Dano 1 (or more)"
+        "nome": "Desarmado +8 Corpo a Corpo, Dano",
+        "bonus": 1,
+        "alcance": "",
+        "dano": "or more"
       }
     ],
     "defesas": {

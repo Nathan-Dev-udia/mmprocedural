@@ -14,7 +14,7 @@
       "Pre": 2
     },
     "poderes": [
-      "t he V oice (Hearing-Dependent Perception-Range Aflição 8 (resistido por Vontade; Tonto, Compelido, Controlado)); Voodoo (Teleporte 8 (1 mile), Distrativo)"
+      "t he V oice (Audição-Dependent Percepção-Range Aflição 8 (resistido por Vontade; Tonto, Compelido, Controlado)); Voodoo (Teleporte 8 (1 mile), Distrativo)"
     ],
     "equipamento": [
       "Body Armor (Proteção 2), Espada-Baton (Força-based Dano 2)"
@@ -25,7 +25,7 @@
       "Ataque Defensivo",
       "Rolamento Defensivo",
       "Equipamento",
-      "Evasion",
+      "Evasão",
       "Defesa Aprimorada",
       "Desarmar Aprimorado",
       "Iniciativa Aprimorada",
@@ -34,7 +34,7 @@
       "Ataque Poderoso",
       "Ritualista",
       "Tomar a Iniciativa",
-      "Derrubar em Sequência",
+      "Ataque Dominó",
       "Prender Arma"
     ],
     "pericias": [
@@ -59,7 +59,7 @@
         "total": 8
       },
       {
-        "nome": "Especialidade: mágico",
+        "nome": "Especialidade: Magia",
         "graduacoes": 6,
         "total": 8
       },
@@ -111,6 +111,12 @@
         "bonus": 13,
         "alcance": "Corpo a corpo",
         "dano": "Dano 3"
+      },
+      {
+        "nome": "Desarmado",
+        "bonus": 8,
+        "alcance": "Corpo a corpo",
+        "dano": "Dano 1"
       }
     ],
     "defesas": {
@@ -128,11 +134,11 @@
       "Perícias": 32,
       "Defesas": 20
     },
-    "total": null,
+    "total": 142,
     "complicacoes": [
       {
         "titulo": "f atters",
-        "texto": "Empress has to deal with amily M being the daughter of a government agent and granddaughter of a supervillain."
+        "texto": "Empress has to deal com amily M being the daughter of a government agent e granddaughter of a supervillain."
       }
     ]
   },

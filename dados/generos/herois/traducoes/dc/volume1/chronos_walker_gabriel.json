@@ -14,24 +14,24 @@
       "Pre": 4
     },
     "poderes": [
-      "Chronal Displacement Suit (Arranjo (10 pontos) Time Travel (Movimento 3 (Full Time Travel), Movimento 2 (Alternate Timelines)), AE: Temporal Displacement Field ( Rapidez 10), AE: Tesseract Storage (Característica 4 (Can store up to 2,000 lbs of items and summon them to hand at Vontade)))"
+      "Chronal Displacement Suit (Arranjo (10 pontos) Viagem no Tempo (Movimento 3 (Full Viagem no Tempo), Movimento 2 (Alternate Timelines)), AE: Temporal Displacement Field ( Rapidez 10), AE: Tesseract Storage (Característica 4 (Can store up to 2,000 libras of items e Invocar them to hand at Vontade)))"
     ],
     "equipamento": [
-      "Headquarters: Chronopolis (Awesome; Tou 14; Concealed 4, Dimensional Portal, Isolated, Laboratory, Library, Living Space, Personnel, Power System, Security System, Self- Repairing, Temporal Limbo, Workshop)"
+      "Headquarters: Chronopolis (Awesome; Tou 14; Concealed 4, Dimensional Portal, Isolated, Laboratory, Library, Living Space, Personnel, Poder System, Security System, Self- Repairing, Temporal Limbo, Workshop)"
     ],
     "vantagens": [
       "Avaliação",
-      "Beginner’s Luck",
-      "Conectado",
+      "Sorte de Principiante",
+      "Bem Relacionado",
       "Tontear (Enganação)",
       "Rolamento Defensivo 6",
       "Equipamento 5",
-      "Evasion",
+      "Evasão",
       "Iniciativa Aprimorada 2",
-      "Ferramentas Improvisadas",
+      "Ferramentas Aprimoradas",
       "Tomar a Iniciativa",
-      "Provocar",
-      "Bem-Informado"
+      "Zombar",
+      "Bem Informado"
     ],
     "pericias": [
       {
@@ -45,12 +45,12 @@
         "total": 16
       },
       {
-        "nome": "Especialidade: History",
+        "nome": "Especialidade: História",
         "graduacoes": 5,
         "total": 9
       },
       {
-        "nome": "Especialidade: Physics",
+        "nome": "Especialidade: Física",
         "graduacoes": 6,
         "total": 11
       },

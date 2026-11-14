@@ -14,7 +14,7 @@
       "Pre": 1
     },
     "poderes": [
-      "160 Defenses 19 antages 1 a dv Total 246"
+      "160 Defesas 19 antages 1 a dv Total 246"
     ],
     "equipamento": [],
     "vantagens": [
@@ -30,7 +30,7 @@
         "dano": "Enfraquecer 18"
       },
       {
-        "nome": "Power Drain",
+        "nome": "Poder Drain",
         "bonus": 8,
         "alcance": "Corpo a corpo",
         "dano": "Aflição 18"
@@ -50,16 +50,18 @@
       "Vontade": 8
     },
     "observacao_defesas": "",
-    "custos": {},
+    "custos": {
+      "Habilidades": 56
+    },
     "total": null,
     "complicacoes": [
       {
         "titulo": "Hunger",
-        "texto": "Parasite needs to feed on the life energy of others in order to survive."
+        "texto": "Parasite needs to feed on the life Energia of others in order to survive."
       },
       {
         "titulo": "Fraqueza",
-        "texto": "When Parasite duplicates a subject’s Powers, he also acquires his weaknesses. aLLI e S Parasite generally works alone but is often recruited by gov - ernment agencies for his energy-draining Powers or by mas- terminds hoping to use him against Superman. The Parasite rarely passes up the opportunity to feed on his favorite target. e ne MI e S Parasite becomes proportionately powerful based on his op- ponent, so it’s no surprise that Parasite is considered one of Superman’s most dangerous enemies."
+        "texto": "When Parasite duplicates a subject’s Poderes, he also acquires his weaknesses. aLLI e S Parasite generally works alone but is often recruited by gov - ernment agencies for his Energia-draining Poderes or by mas- terminds hoping to use him contra Superman. The Parasite rarely passes up the opportunity to feed on his favorite target. e ne MI e S Parasite becomes proportionately powerful based on his op- ponent, so it’s no surprise that Parasite is considered one of Superman’s most dangerous enemies."
       }
     ]
   },

@@ -14,7 +14,7 @@
       "Pre": 7
     },
     "poderes": [
-      "Telepath ( Arranjo (44 pontos), mental Domination ( Alcance de Percepção Cumulativo Aflição 11 (resistido por Vontade; Tonto, Compelido, Controlado)), AE: Illusory Disguise ( Área de Explosão Affects Others Seletivo Metamorfose 3 (Humanoids), Resistível), AE: mental Probe ( Leitura mental 11, Cumulativo), AE: mental Projection ( Ilusão 11 (Visual, Hearing), Resistível, Seletivo)); Telekinetic (Arranjo (24 pontos), Telekinetic Raio ( Alcance de Percepção Dano 8), AE: Telekinetic Toss ( Alcance de Percepção Mover Objetos 8 (6 tons)); Telekinetic Escudo (Proteção 5, Sustentado)"
+      "Telepath ( Arranjo (44 pontos), Mental Domination ( Alcance de Percepção Cumulativo Aflição 11 (resistido por Vontade; Tonto, Compelido, Controlado)), AE: Illusory Disguise ( Área de Explosão Afeta Outros Seletivo Metamorfose 3 (Humanoids), Resistível), AE: Mental Probe ( Leitura Mental 11, Cumulativo), AE: Mental Projection ( Ilusão 11 (Visual, Audição), Resistível, Seletivo)); Telekinetic (Arranjo (24 pontos), Telekinetic Raio ( Alcance de Percepção Dano 8), AE: Telekinetic Toss ( Alcance de Percepção Mover Objetos 8 (6 toneladas)); Telekinetic Escudo (Proteção 5, Sustentado)"
     ],
     "equipamento": [],
     "vantagens": [
@@ -22,8 +22,8 @@
       "Liderança",
       "Redirecionar",
       "Tomar a Iniciativa",
-      "Preparar",
-      "Provocar"
+      "Armação",
+      "Zombar"
     ],
     "pericias": [
       {
@@ -32,7 +32,7 @@
         "total": 15
       },
       {
-        "nome": "Especialidade: Physics",
+        "nome": "Especialidade: Física",
         "graduacoes": 4,
         "total": 11
       },
@@ -53,7 +53,20 @@
       }
     ],
     "iniciativa": 1,
-    "ataques": [],
+    "ataques": [
+      {
+        "nome": "Telekinetic Raio",
+        "bonus": null,
+        "alcance": "Percepção",
+        "dano": "Dano 12"
+      },
+      {
+        "nome": "Telepath",
+        "bonus": null,
+        "alcance": "Percepção",
+        "dano": "Aflição 11, resistido por Vontade, or other Efeitos"
+      }
+    ],
     "defesas": {
       "Esquiva": 10,
       "Aparar": 8,
@@ -73,11 +86,11 @@
     "complicacoes": [
       {
         "titulo": "Destroyer",
-        "texto": "The demon Trigon the Terrible (See Vol. II ) is responsible for Psimon’s existence and he tasked Psimon with the Destruição of the Earth. Psimon is still trying to meet that goal."
+        "texto": "The demon Trigon the Terrible (See Vol. II ) is responsible for Psimon’s existence e he tasked Psimon com the Destruição of the Earth. Psimon is still trying to meet that goal."
       },
       {
         "titulo": "Egotist",
-        "texto": "Psimon is out for himself. He works with his team as long as they prove useful, but he’s more than willing to abandon them (or worse) if it Vontade help his cause."
+        "texto": "Psimon is out for himself. He works com his team as long as they prove useful, but he’s more than willing to abandon them (or worse) if it Vontade help his cause."
       }
     ]
   },

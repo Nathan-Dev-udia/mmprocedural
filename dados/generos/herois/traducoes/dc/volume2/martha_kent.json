@@ -18,7 +18,7 @@
     "vantagens": [],
     "pericias": [
       {
-        "nome": "Especialidade: Farming",
+        "nome": "Especialidade: Agricultura",
         "graduacoes": 6,
         "total": 7
       },
@@ -48,8 +48,8 @@
       {
         "nome": "Attack",
         "bonus": 0,
-        "alcance": "",
-        "dano": "(Corpo a Corpo, Dano -1) efense:"
+        "alcance": "Corpo a corpo",
+        "dano": "Dano -1"
       }
     ],
     "defesas": {

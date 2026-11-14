@@ -22,12 +22,12 @@
     ],
     "pericias": [
       {
-        "nome": "Especialidade: Chemistry",
+        "nome": "Especialidade: Química",
         "graduacoes": 12,
         "total": 16
       },
       {
-        "nome": "Especialidade: Science",
+        "nome": "Especialidade: Ciência",
         "graduacoes": 7,
         "total": 11
       },
@@ -71,19 +71,19 @@
     "complicacoes": [
       {
         "titulo": "Acceptance",
-        "texto": "Franklin feels almost completely cut off from humanity, and hopes his heroism Vontade somehow overcome the fear he engenders in others."
+        "texto": "Franklin feels almost completely cut off from humanity, e hopes his heroism Vontade somehow overcome the fear he engenders in others."
       },
       {
         "titulo": "Temperamento",
-        "texto": "The highly emotional Andy has a tendency to overreact when he believes his teammates have been harmed, retaliating with extreme (sometimes lethal) force."
+        "texto": "The highly emotional Andy has a tendency to overreact when he believes his teammates have been harmed, retaliating com extreme (sometimes lethal) force."
       },
       {
         "titulo": "Acidente",
-        "texto": "If not immersed in a fibro-wax bath or given special daily medication prepared by S.H.A.D.E., Andy’s explosive physiology reaches critical mass in 24 hours and uncontrollably explodes at maximum Dano graduação."
+        "texto": "If not immersed in a fibro-wax bath or given special daily medication prepared by S.H.A.D.E., Andy’s explosive physiology reaches critical mass in 24 hours e uncontrollably explodes at maximum Dano graduação."
       },
       {
         "titulo": "Honra",
-        "texto": "Though his Temper complication sometimes overwhelms him, Andy is normally governed by a strong moral concern for the well-being of others. gained metahuman Abilities as a result, and his entire physiolo - gy become dangerously explosive. Contact with his bodily tis - sues, even his perspiration, could level cities. The government agency S.H.A.D.E. kept Andy immersed in liquid fibro-wax to"
+        "texto": "Though his Temper complication sometimes overwhelms him, Andy is normally governed by a strong moral concern for the well-being of others. gained metahuman Habilidades as a result, e his entire physiolo - gy become dangerously explosive. Contact com his bodily tis - sues, even his perspiration, could level cities. The government agency S.H.A.D.E. kept Andy immersed in liquid fibro-wax to"
       }
     ]
   },

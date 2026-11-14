@@ -14,18 +14,18 @@
       "Pre": 1
     },
     "poderes": [
-      "d yna- r ings (Área de Cone Dano 7, Removível (–2 pontos))"
+      "d yna- r ings (Área de Cone Dano 7, Removível (-2 pontos))"
     ],
     "equipamento": [],
     "vantagens": [
       "Ataque Imprudente",
-      "Conectado",
+      "Bem Relacionado",
       "Rolamento Defensivo",
       "Ataque Defensivo",
-      "Grande Vigor",
+      "Tolerância Maior",
       "Crítico Aprimorado (Desarmado)",
       "Ataque Poderoso",
-      "Derrubar em Sequência"
+      "Ataque Dominó"
     ],
     "pericias": [
       {
@@ -39,7 +39,7 @@
         "total": 11
       },
       {
-        "nome": "Especialidade: Chemistry",
+        "nome": "Especialidade: Química",
         "graduacoes": 4,
         "total": 5
       },
@@ -61,7 +61,7 @@
         "nome": "Desarmado",
         "bonus": 11,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 3, Crit. 19-20"
+        "dano": "Dano 3, Crít. 19-20"
       }
     ],
     "defesas": {
@@ -87,7 +87,7 @@
       },
       {
         "titulo": "Perda de Poder",
-        "texto": "The two Dyna-Rings have to touch in order to trigger their power."
+        "texto": "The two Dyna-Rings have to touch in order to trigger their Poder."
       }
     ]
   },

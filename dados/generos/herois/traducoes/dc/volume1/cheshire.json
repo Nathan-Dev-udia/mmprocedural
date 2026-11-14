@@ -15,40 +15,37 @@
     },
     "poderes": [
       "Razor Sharp Artificial Nails: Força-based Dano 2, Penetrante 2 (4 PP)",
-      "Veneno: Arranjo (24 pontos), Limitado (Full Action to Change Powers), Gatilho (Opponent Damaged by Artificial Nails, -1 ponto) • Fatal Veneno: Enfraquecer Vigor 12 (resistido por Fortitude), Progressivo (23 PP)",
+      "Veneno: Arranjo (24 pontos), Limitado (Full Action to Change Poderes), Gatilho (Opponent Damaged by Artificial Nails, -1 ponto) • Fatal Veneno: Enfraquecer Vigor 12 (resistido por Fortitude), Progressivo (23 PP)",
       "• Disabling Veneno: Enfraquecer Destreza 12 (resistido por Fortitude), Progressivo (1 PP)",
-      "• Sleep Veneno: Aflição 12 (resistido por Fortitude; Tonto, Atordoado, Adormecido) Progressivo (1 PP)"
+      "• Sono Veneno: Aflição 12 (resistido por Fortitude; Tonto, Atordoado, Adormecido) Progressivo (1 PP)"
     ],
     "equipamento": [],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Finta Ágil",
       "Ataque Imprudente",
       "Avaliação",
       "Ataque Corpo-a-Corpo 4",
       "Ataque Defensivo",
       "Rolamento Defensivo 4",
-      "Evasion",
-      "Improved Critical 2 (Artificial Nails)",
+      "Evasão",
+      "Crítico Aprimorado 2 (Artificial Nails)",
       "Defesa Aprimorada",
       "Desarmar Aprimorado",
       "Agarrar Aprimorado",
       "Iniciativa Aprimorada",
       "Quebrar Aprimorado",
       "Derrubar Aprimorado",
-      "Levantar Rápido",
-      "Languages 2 (English",
-      "French",
-      "Vietnamese native)",
+      "De Pé",
+      "Idiomas 2 (Inglês, Francês, Vietnamese native)",
       "Ação em Movimento",
       "Ataque Poderoso",
-      "Precise Attack (corpo a corpo; Concealment)",
-      "Luta Caída",
+      "Ataque Preciso (Corpo a Corpo; Camuflagem)",
+      "Luta no Chão",
       "Redirecionar",
       "Tomar a Iniciativa",
-      "Skill Mastery 2 (Acrobatics",
-      "Athletics)",
-      "Derrubar em Sequência",
+      "Maestria em Perícia 2 (Acrobacia, Atletismo)",
+      "Ataque Dominó",
       "Esquiva Fabulosa",
       "Quebrar Arma"
     ],
@@ -95,7 +92,7 @@
         "nome": "Artificial Nails",
         "bonus": 18,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 6, Crit. 18-20"
+        "dano": "Dano 6, Crít. 18-20"
       },
       {
         "nome": "Desarmado",
@@ -127,7 +124,7 @@
       },
       {
         "titulo": "Vengeful",
-        "texto": "Cheshire rarely lets a perceived slight go unpunished. her former teammates and stabbed the Mad Hatter with a poisoned dagger. She later traded an antidote for the Veneno in exchange for her safety."
+        "texto": "Cheshire rarely lets a perceived slight go unpunished. her former teammates e stabbed the Mad Hatter com a poisoned dagger. She later traded an antidote for the Veneno in exchange for her safety."
       }
     ]
   },

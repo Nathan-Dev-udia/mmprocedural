@@ -14,12 +14,12 @@
       "Pre": 3
     },
     "poderes": [
-      "Voo ( Voo 13 (16,0 km/h), Movimento 1 (Space Travel)); Martian Durability (Impenetrável Proteção 3); Martian Morphology ( Dynamic Arranjo (20 pontos) Intangibility: (Intangibilidade 4, Dynamic), AE: Density (Resistência Impenetrável 15, Sustentado, Dynamic), AE: Invisibility (Visual Camuflagem 4, Dynamic), AE: Shapeshifting (Metamorfose (Any Form) 4, Dynamic)); Martian Sentidos (Sentidos 7 (Visão Estendida 2, mental Prontidão, Vision Penetrates Camuflagem)); Martian Força (Força Aprimorada 4, Limitado a Lifting (Lifting Str 20; 25,000 tons)); Martian Vision (Dano à Distância 11 (force)); Telepatia (mental Comunicação 5, Leitura mental 11)"
+      "Voo ( Voo 13 (25.600 km/h), Movimento 1 (Viagem Espacial)); Martian Durability (Impenetrável Proteção 3); Martian Morphology ( Arranjo Dinâmico (20 pontos) Intangibility: (Intangibilidade 4, Dinâmico), AE: Density (Resistência Impenetrável 15, Sustentado, Dinâmico), AE: Invisibility (Visual Camuflagem 4, Dinâmico), AE: Shapeshifting (Metamorfose (Any Form) 4, Dinâmico)); Martian Sentidos (Sentidos 7 (Visão Estendida 2, Consciência Mental, Visão Penetrates Camuflagem)); Martian Força (Força Aprimorada 4, Limitado a Lifting (Lifting Str 20; 25,000 toneladas)); Martian Visão (Dano à Distância 11 (force)); Telepatia (Comunicação Mental 5, Leitura Mental 11)"
     ],
     "equipamento": [],
     "vantagens": [
       "Ataque Poderoso",
-      "Grande Vigor",
+      "Tolerância Maior",
       "Trabalho em Equipe",
       "Transe"
     ],
@@ -83,7 +83,7 @@
     "iniciativa": 2,
     "ataques": [
       {
-        "nome": "Martian Vision",
+        "nome": "Martian Visão",
         "bonus": 10,
         "alcance": "À distância",
         "dano": "Dano 11"
@@ -114,11 +114,11 @@
     "complicacoes": [
       {
         "titulo": "Inimigo",
-        "texto": "The White Martian and Ultraman are fierce rivals."
+        "texto": "The White Martian e Ultraman are fierce rivals."
       },
       {
         "titulo": "Perda de Poder",
-        "texto": "The White Martian loses his Powers and his Str and Sta are reduced to 2 when exposed to fogo."
+        "texto": "The White Martian loses his Poderes e his Str e Sta are reduced to 2 when exposed to Fogo."
       }
     ]
   },

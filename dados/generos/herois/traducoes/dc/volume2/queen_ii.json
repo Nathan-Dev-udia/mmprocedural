@@ -14,15 +14,15 @@
       "Pre": 3
     },
     "poderes": [
-      "Blaster Pistola (Dano à Distância 9, Facilmente Removível (-8 pontos)); r az or-Spade Launcher (À Distância Multiataque Dano 5, Removível (–3 pontos)); f lying C ard (Voo 6 (192 km/h), Platform)"
+      "Blaster Pistola (Dano à Distância 9, Facilmente Removível (-8 pontos)); r az or-Spade Launcher (À Distância Multiataque Dano 5, Removível (-3 pontos)); f lying C ard (Voo 6 (192 km/h), Platform)"
     ],
     "equipamento": [],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Finta Ágil",
       "Ataque Defensivo",
       "Rolamento Defensivo 2",
-      "Evasion",
+      "Evasão",
       "Fascinar (Enganação)",
       "Desarmar Aprimorado",
       "Agarrar Aprimorado",
@@ -53,7 +53,7 @@
         "total": 10
       },
       {
-        "nome": "Especialidade: Acting",
+        "nome": "Especialidade: Atuação",
         "graduacoes": 9,
         "total": 10
       },
@@ -103,7 +103,7 @@
     "complicacoes": [
       {
         "titulo": "Ganância",
-        "texto": "Befitting a woman dressed as a ddic playing card, Taylor looks to get rich quick. a tion: Taylor is f ame: an alcoholic. Taylor is well-known from her former stage stardom and subsequent fall. q ueen II “Queen of Broadway” Mona Taylor had abdicated her throne in favor of booze, and joined the Royal Flush Gang out of a desperate lack of alternatives."
+        "texto": "Befitting a woman dressed as a ddic playing card, Taylor looks to get rich quick. a tion: Taylor is f ame: an alcoholic. Taylor is well-known from her former stage stardom e subsequent fall. q ueen II “Queen of Broadway” Mona Taylor had abdicated her throne in favor of booze, e joined the Royal Flush Gang out of a desperate lack of alternatives."
       }
     ]
   },

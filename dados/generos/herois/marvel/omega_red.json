@@ -87,7 +87,7 @@
       },
       {
         "nome": "Super-Strength 3",
-        "construcao_3e": "Super-Força / Power-Lifting 3 (Limitada aos tentáculos; 3 PP).",
+        "construcao_3e": "Super-Força / Levantamento de Peso 3 (Limitada aos tentáculos; 3 PP).",
         "custo_2e_pp": 3,
         "custo_3e_pp": 3,
         "nome_pt": "Super-Força dos Tentáculos"

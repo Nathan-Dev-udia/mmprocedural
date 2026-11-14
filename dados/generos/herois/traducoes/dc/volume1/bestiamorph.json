@@ -14,7 +14,7 @@
       "Pre": 0
     },
     "poderes": [
-      "See description plus Sentidos 3 (Aguçado Smell, Visão no Escuro)"
+      "See description plus Sentidos 3 (Aguçado Olfato, Visão no Escuro)"
     ],
     "equipamento": [],
     "vantagens": [
@@ -54,7 +54,7 @@
         "nome": "Desarmado",
         "bonus": 5,
         "alcance": "",
-        "dano": "(Dano 3)"
+        "dano": "Dano 3"
       }
     ],
     "defesas": {

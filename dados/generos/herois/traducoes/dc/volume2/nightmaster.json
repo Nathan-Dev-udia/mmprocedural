@@ -14,20 +14,20 @@
       "Pre": 2
     },
     "poderes": [
-      "Espada of n igh t (Enhanced Advantages 8 (Preciso Attack, Defensive Attack, Improved Disarm, Improved Iniciativa, Power Attack, Quick Draw, Takedown, Weapon Bind); Enhanced Defenses 4 (Aparar 4); Enhanced Skill 3 (Corpo a Corpo Combat: Espada of Night +6); Característica 1 (Can talk to spirit of last wielder); Imunidade 2 (Age, Own attacks); Perception Aflição à Distância 9 (resistido por Vontade; Tonto, Compelido, Controlado; Limitado a Forcing a Target to Tell the Truth); Força-Based Dano 3, Penetrante 6; Sentidos 1 (Sentido de Perigo); Removível, -9 pts) e Chainmail armor (Proteção 3) quipmen t: Headquarters: oBL i V ion Bar • 12 POI n TS Size: Medium t ou: 12 f ea tures: Dimensional Portal, Library, Living Space, Personnel, Power System, Sealed, Secret, Self- repairing"
+      "Espada of n igh t (Vantagens Aprimoradas 8 (Ataque Acurado, Ataque Defensivo, Desarmar Aprimorado, Iniciativa Aprimorada, Ataque Poderoso, Saque Rápido, Ataque Dominó, Prender Arma); Defesas Aprimoradas 4 (Aparar 4); Perícia Aprimorada 3 (Corpo a Corpo Combat: Espada of Night +6); Característica 1 (Can talk to spirit of last wielder); Imunidade 2 (Age, Own attacks); Percepção Aflição à Distância 9 (resistido por Vontade; Tonto, Compelido, Controlado; Limitado a Forcing a Target to Tell the Truth); Força-Based Dano 3, Penetrante 6; Sentidos 1 (Sentido de Perigo); Removível, -9 pts) e Chainmail armor (Proteção 3) quipmen t: Headquarters: oBL i V ion Bar • 12 POI n TS Size: Medium t ou: 12 f ea tures: Dimensional Portal, Library, Living Space, Personnel, Poder System, Sealed, Secret, Self- repairing"
     ],
     "equipamento": [],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Ataque Defensivo",
-      "Equipment 3 (Oblivion Bar and chainmail)",
+      "Equipamento 3 (Oblivion Bar e chainmail)",
       "Desarmar Aprimorado",
       "Iniciativa Aprimorada",
       "Interpor-se",
       "Liderança",
       "Ataque Poderoso",
       "Saque Rápido",
-      "Derrubar em Sequência",
+      "Ataque Dominó",
       "Prender Arma"
     ],
     "pericias": [
@@ -116,7 +116,7 @@
     "complicacoes": [
       {
         "titulo": "d oing Good",
-        "texto": "Nightmaster is a good, decent man and fights to make the world (any world) a better place. r elationship: Nightmaster still has strong ties to the land of Myrra and is sometimes called away to help defend it."
+        "texto": "Nightmaster is a good, decent man e fights to make the world (any world) a better place. r elationship: Nightmaster still has strong ties to the land of Myrra e is sometimes called away to help defend it."
       }
     ]
   },

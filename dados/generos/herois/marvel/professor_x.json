@@ -49,7 +49,7 @@
       "Memória Eidética",
       "Equipamento 13",
       "Inspirar",
-      "Set-Up",
+      "Armação",
       "Bem Informado",
       "Idiomas 1"
     ],
@@ -63,7 +63,7 @@
       },
       {
         "nome": "Telepathy 17",
-        "construcao_3e": "Array Dinâmico Telepático: Controle Mental / Aflição 12 Cumulativa (Percepção, Resistida por Vontade; Dinâmico 38 PP); Efeito Alternativo Dinâmico: Rajada Mental / Dano Mental 10 (Percepção, Resistido por Vontade; 2 PP); Efeito Alternativo: Projeção Astral / Sensoriamento Remoto Dimensional 10 (1 PP) = 41 PP.",
+        "construcao_3e": "Arranjo Dinâmico Telepático: Controle Mental / Aflição 12 Cumulativa (Percepção, Resistida por Vontade; Dinâmico 38 PP); Efeito Alternativo Dinâmico: Rajada Mental / Dano Mental 10 (Percepção, Resistido por Vontade; 2 PP); Efeito Alternativo: Projeção Astral / Sensoriamento Remoto Dimensional 10 (1 PP) = 41 PP.",
         "custo_2e_pp": 41,
         "custo_3e_pp": 41,
         "nome_pt": "Telepatia Suprema"

@@ -14,18 +14,18 @@
       "Pre": 2
     },
     "poderes": [
-      "Power Ring: 126 pontos, Removível (–25 pontos) (101 PP)",
-      "AI and Database: Features 2 (2 PP)",
-      "Comunicação: Sentidos 1 (Comunicação Link to Central Power Battery) (1 PP)",
-      "Voo: Voo 13 (16,0 km/h), Movimento 4 (Environmental Adaptation: Zero-G, Space Travel 3) (34 PP)",
+      "Poder Ring: 126 pontos, Removível (-25 pontos) (101 PP)",
+      "AI e Database: Características 2 (2 PP)",
+      "Comunicação: Sentidos 1 (Elo de Comunicação to Central Poder Battery) (1 PP)",
+      "Voo: Voo 13 (25.600 km/h), Movimento 4 (Adaptação Ambiental: Zero-G, Viagem Espacial 3) (34 PP)",
       "Campo de Força: Proteção 12, Impenetrável; Imunidade 10 (Suporte Vital) (34 PP)",
       "Force Manipulation: Arranjo (32 pontos)",
-      "• Force Raio: Dano à Distância 16, Dynamic (33 PP)",
-      "• Force Bubble: Affects Others, Área de Explosão, and À Distância on Imunidade 10 (Suporte Vital), Dynamic (2 PP)",
-      "• Force Constructs: Criar Objetos 16, Dynamic (2 PP)",
-      "• Lifting: Mover Objetos 16, Dynamic (2 PP)",
-      "• Mobile Constructs: Criar Objetos 12, Movable, Dynamic (2 PP)",
-      "Scanning Beam: Sentidos 6 (Analítico Auditory, Chemical, and Visual) (6 PP)",
+      "• Force Raio: Dano à Distância 16, Dinâmico (33 PP)",
+      "• Force Bubble: Afeta Outros, Área de Explosão, e À Distância on Imunidade 10 (Suporte Vital), Dinâmico (2 PP)",
+      "• Force Constructs: Criar Objetos 16, Dinâmico (2 PP)",
+      "• Lifting: Mover Objetos 16, Dinâmico (2 PP)",
+      "• Mobile Constructs: Criar Objetos 12, Movable, Dinâmico (2 PP)",
+      "Scanning Beam: Sentidos 6 (Analítico Auditivo, Chemical, e Visual) (6 PP)",
       "Universal Translator: Compreender Languages 4 (8 PP)"
     ],
     "equipamento": [],
@@ -72,7 +72,7 @@
         "total": 6
       },
       {
-        "nome": "Combate à Distância: Power Ring",
+        "nome": "Combate à Distância: Poder Ring",
         "graduacoes": 7,
         "total": 10
       }
@@ -80,7 +80,7 @@
     "iniciativa": 6,
     "ataques": [
       {
-        "nome": "Power Ring",
+        "nome": "Poder Ring",
         "bonus": 10,
         "alcance": "À distância",
         "dano": "Dano 16"
@@ -99,7 +99,7 @@
       "Resistência": 15,
       "Vontade": 16
     },
-    "observacao_defesas": "* Vontade 16 *Without Power Ring Proteção.",
+    "observacao_defesas": "* Vontade 16 *sem Poder Ring Proteção.",
     "custos": {
       "Habilidades": 44,
       "Perícias": 24,
@@ -111,15 +111,15 @@
     "complicacoes": [
       {
         "titulo": "Perda de Poder",
-        "texto": "The power ring needs periodic recharging and issues a warning as its power runs low."
+        "texto": "The Poder ring needs periodic recharging e issues a warning as its Poder runs low."
       },
       {
         "titulo": "Reputação",
-        "texto": "Guy Gardner is hard-nosed and stubborn. People usually expect the worst from Guy... and they usually get it."
+        "texto": "Guy Gardner is hard-nosed e stubborn. People usually expect the worst from Guy... e they usually get it."
       },
       {
         "titulo": "Fraqueza",
-        "texto": "Green Lantern power rings depend on the willpower of the wearer; the maximum graduação of the ring’s effects is equal to the wearer’s Vontade graduação, and moments of self-doubt or hesitation can cause the ring to fail."
+        "texto": "Green Lantern Poder rings depend on the willpower of the wearer; the maximum graduação of the ring’s Efeitos is equal to the wearer’s Vontade graduação, e moments of self-doubt or hesitation can cause the ring to fail."
       }
     ]
   },

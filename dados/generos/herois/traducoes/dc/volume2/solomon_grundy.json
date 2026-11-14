@@ -15,9 +15,9 @@
     },
     "poderes": [
       "i Resistência Impenetrável 8 (8 PP)",
-      "mp enetrable Hide: Soulless: Imunidade 5 (Control effects) (5 PP)",
+      "mp enetrable Hide: Soulless: Imunidade 5 (Control Efeitos) (5 PP)",
       "Unliving: Imunidade 30 (Fortitude) (30 PP)",
-      "d a e S a V ant G All-out Attack, Corpo a Corpo Attack 4, Fearless, Improved Hold, Power Attack"
+      "d a e S a V ant G Ataque Imprudente, Corpo a Corpo Attack 4, Fearless, Improved Hold, Poder Attack"
     ],
     "equipamento": [],
     "vantagens": [],
@@ -39,6 +39,7 @@
     ],
     "defesas": {
       "Esquiva": 8,
+      "Fortitude": null,
       "Aparar": 8,
       "Resistência": 20,
       "Vontade": 9
@@ -53,7 +54,7 @@
     "complicacoes": [
       {
         "titulo": "f ur y",
-        "texto": "Grundy is given to uncontrollable bouts of temper and rage."
+        "texto": "Grundy is given to uncontrollable bouts of temper e rage."
       },
       {
         "titulo": "Gullible",

@@ -14,14 +14,14 @@
       "Pre": 2
     },
     "poderes": [
-      "a Imunidade 3 (Frio, Calor, Pressão); Movimento 1 rmor : (Environmental Adaptation: Aquatic); Impenetrável Proteção 6; Natação 8 (192 km/h); Removível (-5 ponto) (20 PP)",
+      "a Imunidade 3 (Frio, Calor, Pressão); Movimento 1 rmor : (Adaptação Ambiental: Aquatic); Impenetrável Proteção 6; Natação 8 (192 km/h); Removível (-5 ponto) (20 PP)",
       "Helmet: Imunidade 1(Afogamento); Sentidos 1 (Visão na Penumbra); Removível (-0) (2 PP)",
-      "Magical t riden t: Arranjo (30 pontos)",
-      "• Mystic Bolt: Dano à Distância 10, Penetrante 10 (30 PP)",
-      "• t elepa thy: mental Comunicação 4, Leitura mental 7 (1 PP)",
-      "• Mystic f lames: Dano à Distância 10, Efeito Secundário (1 PP)",
-      "t riden t a ttack : Força-Based Dano 4, Reach 1 (5 feet) (5 PP)",
-      "Note: Ocean Master’s Trident does not possess the Removível Flaw. See Trident Link Complication. a V ant G d a e S Artificer, Improved Iniciativa, Language (Atlantean), Ritualist, Weapon Bind"
+      "Mágico t riden t: Arranjo (30 pontos)",
+      "• Místico Bolt: Dano à Distância 10, Penetrante 10 (30 PP)",
+      "• t elepa thy: Comunicação Mental 4, Leitura Mental 7 (1 PP)",
+      "• Místico f lames: Dano à Distância 10, Efeito Secundário (1 PP)",
+      "t riden t a ttack : Força-Based Dano 4, Reach 1 (5 pés) (5 PP)",
+      "Note: Ocean Master’s Trident does not possess the Removível Flaw. See Trident Link Complication. a V ant G d a e S Artificer, Iniciativa Aprimorada, Language (Atlantean), Ritualist, Weapon Bind"
     ],
     "equipamento": [],
     "vantagens": [],
@@ -32,7 +32,7 @@
         "total": 6
       },
       {
-        "nome": "Combate Corpo-a-Corpo: Swords",
+        "nome": "Combate Corpo-a-Corpo: Espadas",
         "graduacoes": 2,
         "total": 7
       },
@@ -52,12 +52,12 @@
         "total": 7
       },
       {
-        "nome": "Especialidade: mágico",
+        "nome": "Especialidade: Magia",
         "graduacoes": 4,
         "total": 7
       },
       {
-        "nome": "Especialidade: Streetwise",
+        "nome": "Especialidade: Manha",
         "graduacoes": 2,
         "total": 5
       },
@@ -90,10 +90,10 @@
     "iniciativa": 6,
     "ataques": [
       {
-        "nome": "Mystic Raio",
+        "nome": "Místico Raio",
         "bonus": 10,
         "alcance": "",
-        "dano": "Range, Dano 10 or other effects Trident +12 Corpo a Corpo, Dano 7"
+        "dano": "Range, Dano 10 or other Efeitos Trident +12 Corpo a Corpo, Dano 7"
       }
     ],
     "defesas": {
@@ -115,7 +115,7 @@
     "complicacoes": [
       {
         "titulo": "r iv alry",
-        "texto": "and is obsessed with conquering his kingdom and proving that he is better than the King of Atlantis. t riden t Link: Ocean Master’s trident greatly increases and focuses his power, but being separated from it causes him incredible Dor. Every round he is separated from his trident, he must save against the following Effect: Aflição 8 (impaired, disabled, Incapacitado), Cumulativo. Ocean Master possesses some magical Powers even without the trident, but the Dor of being separated from it makes it effectively impossible for him to properly cast spells and work enchantments (apply penalties from Aflição)."
+        "texto": "e is obsessed com conquering his kingdom e proving that he is better than the King of Atlantis. t riden t Link: Ocean Master’s trident greatly increases e focuses his Poder, but being separated from it causes him incredible Dor. Every round he is separated from his trident, he must save contra the following Effect: Aflição 8 (Prejudicado, Desabilitado, Incapacitado), Cumulativo. Ocean Master possesses some Mágico Poderes even sem the trident, but the Dor of being separated from it makes it effectively impossible for him to properly cast spells e work enchantments (apply penalties from Aflição)."
       }
     ]
   },

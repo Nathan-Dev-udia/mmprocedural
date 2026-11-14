@@ -15,14 +15,14 @@
     },
     "poderes": [
       "Android Body: Imunidade 30 (Fortitude), Proteção 5, Resistência Impenetrável 8 (43 PP)",
-      "Computer Mind: Comunicação 5 (Rádio), Compreender 4 (Languages, Machines), Rapidez 10 (Limitado a mental Tasks) (33 PP)"
+      "Computer Mind: Comunicação 5 (Rádio), Compreender 4 (Languages, Máquinas), Rapidez 10 (Limitado a Mental Tasks) (33 PP)"
     ],
     "equipamento": [
       "VEHICLE: BIO-SHELL (219 PP)",
-      "Size: Awesome Str 20 Velocidade 14 Def –2, Tou 20 Features: Extra Limbs 8, Resistência Impenetrável 20, Missile Battery (Dano à Distância 16, Área de Explosão 12), Remote Control, Shrink Ray (À Distância Encolhimento Attack 20), Space Travel 3, Transporter (Teleporte 15, Extended)"
+      "Size: Awesome Str 20 Velocidade 14 Def -2, Tou 20 Características: Membros Extras 8, Resistência Impenetrável 20, Missile Battery (Dano à Distância 16, Área de Explosão 12), Remote Control, Shrink Ray (À Distância Encolhimento Attack 20), Viagem Espacial 3, Transporter (Teleporte 15, Estendido)"
     ],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Avaliação",
       "Estrangular",
       "Duro de Matar",
@@ -31,7 +31,7 @@
       "Destemido",
       "Iniciativa Aprimorada",
       "Inventor",
-      "Bem-Informado"
+      "Bem Informado"
     ],
     "pericias": [
       {
@@ -45,7 +45,7 @@
         "total": 11
       },
       {
-        "nome": "Especialidade: History",
+        "nome": "Especialidade: História",
         "graduacoes": 8,
         "total": 23
       },
@@ -99,7 +99,7 @@
         "dano": "Dano 13"
       },
       {
-        "nome": "Rajada mental",
+        "nome": "Rajada Mental",
         "bonus": null,
         "alcance": "Percepção",
         "dano": "Dano 12, resistido por Vontade"
@@ -126,7 +126,7 @@
       "Perícias": 28,
       "Defesas": 27
     },
-    "total": null,
+    "total": 287,
     "complicacoes": [
       {
         "titulo": "Obsessão",

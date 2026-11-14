@@ -18,20 +18,20 @@
     ],
     "equipamento": [],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Ataque Imprudente",
       "Ataque Defensivo",
-      "Improved Critical 3 (Desarmado)",
+      "Crítico Aprimorado 3 (Desarmado)",
       "Desarmar Aprimorado",
       "Agarrar Aprimorado",
       "Imobilizar Aprimorado",
       "Iniciativa Aprimorada",
       "Quebrar Aprimorado",
       "Derrubar Aprimorado",
-      "Levantar Rápido",
+      "De Pé",
       "Ataque Poderoso",
       "Assustar",
-      "Derrubar em Sequência"
+      "Ataque Dominó"
     ],
     "pericias": [
       {
@@ -61,10 +61,10 @@
         "nome": "Desarmado",
         "bonus": 6,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 14, Crit. 17-20"
+        "dano": "Dano 14, Crít. 17-20"
       },
       {
-        "nome": "Thrown Object",
+        "nome": "Arremesso Object",
         "bonus": 6,
         "alcance": "À distância",
         "dano": "Dano 14"
@@ -89,7 +89,7 @@
     "complicacoes": [
       {
         "titulo": "Love",
-        "texto": "Grace loves Thunder so devotedly that she allows her to join Outsider missions against Batman’s wishes."
+        "texto": "Grace loves Thunder so devotedly that she allows her to join Outsider missions contra Batman’s wishes."
       },
       {
         "titulo": "Bloodlust",

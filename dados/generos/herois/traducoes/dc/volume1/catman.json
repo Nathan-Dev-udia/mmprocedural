@@ -18,7 +18,7 @@
     ],
     "equipamento": [
       "Catarang: À Distância Força-based Dano 2 (8 PP)",
-      "(Note: Catman rarely uses this weapon these days) Cat Claw Grapple: Movimento 1 (Swinging) (2 PP)",
+      "(Note: Catman rarely uses this weapon these days) Cat Claw Grapple: Movimento 1 (Balançar-se) (2 PP)",
       "Luta Claws: Força-based Dano 2 (2 PP)",
       "Knives: Força-based Dano 1, Improved Critical (2 PP)"
     ],
@@ -29,21 +29,20 @@
       "Ataque Corpo-a-Corpo 3",
       "Rolamento Defensivo 4",
       "Equipamento 3",
-      "Evasion",
+      "Evasão",
       "Iniciativa Aprimorada",
-      "Levantar Rápido",
+      "De Pé",
       "Ataque Poderoso",
-      "Precise Attack (Close",
-      "Concealment)",
+      "Ataque Preciso (Corpo a Corpo, Camuflagem)",
       "Saque Rápido",
       "Ataque à Distância 4",
       "Tomar a Iniciativa",
-      "Maestria em Perícia (Expertise: Hunter)",
+      "Maestria em Perícia (Especialidade: Hunter)",
       "Maestria em Perícia (Percepção)",
       "Assustar",
-      "Derrubar em Sequência",
+      "Ataque Dominó",
       "Rastrear",
-      "Esforço Supremo (Tracking)",
+      "Esforço Supremo (Rastrear)",
       "Prender Arma"
     ],
     "pericias": [
@@ -58,7 +57,7 @@
         "total": 13
       },
       {
-        "nome": "Combate Corpo-a-Corpo: Short Blades",
+        "nome": "Combate Corpo-a-Corpo: Short Lâminas",
         "graduacoes": 2,
         "total": 13
       },
@@ -103,7 +102,7 @@
         "total": 8
       },
       {
-        "nome": "Combate à Distância: Throwing",
+        "nome": "Combate à Distância: Arremesso",
         "graduacoes": 4,
         "total": 12
       },
@@ -151,7 +150,7 @@
         "nome": "Knives",
         "bonus": 16,
         "alcance": "Corpo a corpo",
-        "dano": "Dano 5, Crit. 19-20"
+        "dano": "Dano 5, Crít. 19-20"
       },
       {
         "nome": "Desarmado",
@@ -187,11 +186,11 @@
       },
       {
         "titulo": "Obsessão",
-        "texto": "In the past, Catman was obsessed with cat-themed places, objects and people, including the villainess Catwoman. He has abandoned this Obsession but feels a connection to big cats, their predatory ways, and hunting that at times borders on extreme."
+        "texto": "In the past, Catman was obsessed com cat-themed places, Objetos e people, including the villainess Catwoman. He has abandoned this Obsession but feels a connection to big cats, their predatory ways, e hunting that at times borders on extreme."
       },
       {
         "titulo": "Relacionamentos",
-        "texto": "Catman has a son, Thomas, Jr. with the villainess Cheshire. He is unlikely friends with his fellow Secret Sixer Deadshot. He and the Huntress share a mutual attraction. of his fellow founding members: Scandal Savage, Ragdoll, and Deadshot. In fact, Deadshot and Catman have become friends despite Blake’s discovery it was the marksman who killed his pride. ENEMIES Catman has mostly buried the hatchet with his old foes, such as Batman. However, he has more than made up for this by running afoul nearly every member of the super-villain com - munity they encounter. From the Society to Vandal Savage, Catman and his fellow Secret Sixers have managed to collect a powerful cadre of enemies."
+        "texto": "Catman has a son, Thomas, Jr. com the villainess Cheshire. He is unlikely friends com his fellow Secret Sixer Deadshot. He e the Huntress share a mutual attraction. of his fellow founding members: Scandal Savage, Ragdoll, e Deadshot. In fact, Deadshot e Catman have become friends despite Blake’s discovery it was the marksman who killed his pride. ENEMIES Catman has mostly buried the hatchet com his old foes, such as Batman. However, he has more than made up for this by running afoul nearly every member of the super-villain com - munity they encounter. From the Society to Vandal Savage, Catman e his fellow Secret Sixers have managed to collect a powerful cadre of enemies."
       }
     ]
   },

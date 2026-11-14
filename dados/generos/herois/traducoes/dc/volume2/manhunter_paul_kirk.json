@@ -22,20 +22,20 @@
       "k atar ( l ong Dagger): Força-based Dano 2 (2 PP)"
     ],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Avaliação",
       "Estrangular",
       "Ataque Corpo-a-Corpo 4",
       "Ataque Defensivo",
       "Rolamento Defensivo 4",
       "Equipamento 3",
-      "Grande Vigor",
+      "Tolerância Maior",
       "Iniciativa Aprimorada",
-      "Levantar Rápido",
+      "De Pé",
       "Ataque Poderoso",
-      "Precise Attack (à distância; Concealment)",
+      "Ataque Preciso (À Distância; Camuflagem)",
       "Ataque à Distância 8",
-      "Derrubar em Sequência",
+      "Ataque Dominó",
       "Maestria em Arremesso 2",
       "Rastrear"
     ],
@@ -46,10 +46,10 @@
         "nome": "Desarmado",
         "bonus": 14,
         "alcance": "",
-        "dano": "Dano 3"
+        "dano": ""
       },
       {
-        "nome": "Katar",
+        "nome": "Dano 3 Katar",
         "bonus": 19,
         "alcance": "Corpo a corpo",
         "dano": "Força-based Dano 5"
@@ -86,7 +86,7 @@
     "complicacoes": [
       {
         "titulo": "e nemy",
-        "texto": "The Council Q uirk: Man without a past."
+        "texto": "The Council Q uirk: Man sem a past."
       }
     ]
   },

@@ -15,7 +15,7 @@
     },
     "poderes": [],
     "equipamento": [
-      "Ceremonial Dagger (Dano 2, Improved Critical), Light Pistola (Dano à Distância 3)"
+      "Ceremonial Dagger (Dano 2, Improved Critical), Luz Pistola (Dano à Distância 3)"
     ],
     "vantagens": [
       "Equipamento 2",
@@ -28,7 +28,7 @@
         "total": 9
       },
       {
-        "nome": "Combate à Distância: Light Pisto)",
+        "nome": "Combate à Distância: Luz Pisto)",
         "graduacoes": 8,
         "total": 9
       }
@@ -39,10 +39,10 @@
         "nome": "Ceremonial Dagger",
         "bonus": 9,
         "alcance": "",
-        "dano": "Dano 3, Crit. 19-20"
+        "dano": "Dano 3, Crít. 19-20"
       },
       {
-        "nome": "Light Pistola",
+        "nome": "Luz Pistola",
         "bonus": 9,
         "alcance": "",
         "dano": "Dano 3"

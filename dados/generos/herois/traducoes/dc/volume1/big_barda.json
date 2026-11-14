@@ -20,17 +20,17 @@
       "Mega Rod: Arranjo (20 pontos), Facilmente Removível (-10 pontos) • Concussive Raio: Dano à Distância 10 (20 PP)",
       "• Voo: Voo 5 (96 km/h) (1 PP)",
       "• Mega Mace: Penetrante 10 on Força Dano (1 PP)",
-      "• Teleporte: Teleportation 5 (900 feet) (1 PP)",
-      "• Transwarp Drive: Movimento 3 (Space Travel) (1 PP)",
-      "Mother Box: Característica 2 (Intelligence); Cura 8; Movimento 3 (Space Travel); Removível (-5 pontos) (20 PP)",
-      "Força of Apokolips: Força Aprimorada 4, Limitado a Lifting (lifting Str 19; 12,000 tons) (4 PP)"
+      "• Teleporte: Teleportation 5 (900 pés) (1 PP)",
+      "• Transwarp Drive: Movimento 3 (Viagem Espacial) (1 PP)",
+      "Mother Box: Característica 2 (Intelligence); Cura 8; Movimento 3 (Viagem Espacial); Removível (-5 pontos) (20 PP)",
+      "Força of Apokolips: Força Aprimorada 4, Limitado a Lifting (lifting Str 19; 12,000 toneladas) (4 PP)"
     ],
     "equipamento": [],
     "vantagens": [
-      "Ataque Preciso",
+      "Ataque Acurado",
       "Ataque Imprudente",
       "Avaliação",
-      "Grande Vigor",
+      "Tolerância Maior",
       "Iniciativa Aprimorada",
       "Interpor-se",
       "Liderança"
@@ -42,7 +42,7 @@
         "total": 19
       },
       {
-        "nome": "Especialidade: Tactics",
+        "nome": "Especialidade: Tática",
         "graduacoes": 5,
         "total": 7
       },
@@ -107,11 +107,11 @@
     "complicacoes": [
       {
         "titulo": "Love",
-        "texto": "Big Barda’s love for Scott Free means she Vontade always be more concerned with his safety than her own."
+        "texto": "Big Barda’s love for Scott Free means she Vontade always be more concerned com his safety than her own."
       },
       {
         "titulo": "Inimigos",
-        "texto": "When she left Apokolips, Big Barda was marked a traitor by Granny Goodness, the Female Furies, and even Darkseid himself (see Darkseid )."
+        "texto": "When she left Apokolips, Big Barda was marked a traitor by Granny Goodness, the Female Furies, e even Darkseid himself (see Darkseid )."
       }
     ]
   },

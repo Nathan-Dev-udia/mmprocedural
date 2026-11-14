@@ -49,7 +49,7 @@
         "nome": "Desarmado",
         "bonus": 1,
         "alcance": "",
-        "dano": "(Dano 1)"
+        "dano": "Dano 1"
       }
     ],
     "defesas": {

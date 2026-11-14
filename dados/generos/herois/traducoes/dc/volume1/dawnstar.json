@@ -14,33 +14,33 @@
       "Pre": 3
     },
     "poderes": [
-      "Voo: Voo 15 (64,0 km/h), Limitado a graduação 9 (1600 km/h) unless in outer space; Movimento 3 (Space Travel 3); Wings (15 PP)",
+      "Voo: Voo 15 (102.400 km/h), Limitado a graduação 9 (1.600 km/h) unless in outer space; Movimento 3 (Viagem Espacial 3); Wings (15 PP)",
       "Space Adaptation: Imunidade 10 (Suporte Vital) (10 PP)",
-      "Super-Tracking: Sentidos 8 (Preciso, Aguçado, Noção de Direção, Noção de Distância, Extended, Tracking 2) (8 PP)",
+      "Super-Rastrear: Sentidos 8 (Acurado, Aguçado, Noção de Direção, Noção de Distância, Estendido, Rastrear 2) (8 PP)",
       "Wing Golpe: Força-based Dano 2 (2 PP)"
     ],
     "equipamento": [
-      "Voo Ring: Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal –3 pontos); Voo 7 (400 km/h), Removível (–3 pontos) (16 PP)",
-      "Telepathic Plug: Compreender 3 (Languages); mental Comunicação 1 (Corpo a Corpo Range), Removível (–1 ponto) (7 PP)",
-      "Transsuit: Imunidade 9 (Suporte Vital, except for Inanição and thirst), Removível (–2 ponto) (7 PP)"
+      "Voo Ring: Comunicação 5 (subspace Rádio, Anywhere, Limitado a Distress Signal -3 pontos); Voo 7 (400 km/h), Removível (-3 pontos) (16 PP)",
+      "Telepathic Plug: Compreender 3 (Languages); Comunicação Mental 1 (Alcance Perto), Removível (-1 ponto) (7 PP)",
+      "Transsuit: Imunidade 9 (Suporte Vital, except for Fome e Sede), Removível (-2 ponto) (7 PP)"
     ],
     "vantagens": [
       "Finta Ágil",
       "Atraente 1",
-      "Benefit 1 (Legion membership)",
+      "Benefício 1 (Legion membership)",
       "Ataque Corpo-a-Corpo 7",
       "Rolamento Defensivo 3",
       "Equipamento 6",
-      "Evasion",
+      "Evasão",
       "Ambiente Favorito (Aerial)",
       "Ambiente Favorito (Outer Space)",
-      "Grappling Finesse",
-      "Grande Vigor",
+      "Agarrar Preciso",
+      "Tolerância Maior",
       "Defesa Aprimorada",
       "Iniciativa Aprimorada",
-      "Languages (Starhavenite)",
+      "Idiomas (Starhavenite)",
       "Ação em Movimento",
-      "Preparar",
+      "Armação",
       "Trabalho em Equipe",
       "Rastrear",
       "Esquiva Fabulosa"
@@ -136,7 +136,7 @@
     "complicacoes": [
       {
         "titulo": "Relacionamento",
-        "texto": "Dawnstar has a rocky love-hate relationship with Wildfire (See Vol. II )."
+        "texto": "Dawnstar has a rocky love-hate relationship com Wildfire (See Vol. II )."
       },
       {
         "titulo": "Reputação",

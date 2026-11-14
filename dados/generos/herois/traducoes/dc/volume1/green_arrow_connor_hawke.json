@@ -15,7 +15,7 @@
     },
     "poderes": [],
     "equipamento": [
-      "Bow and Arrows: Dano à Distância 5 (10 PP)"
+      "Arco e Arrows: Dano à Distância 5 (10 PP)"
     ],
     "vantagens": [
       "Finta Ágil",
@@ -29,14 +29,14 @@
       "Agarrar Aprimorado",
       "Iniciativa Aprimorada",
       "Derrubar Aprimorado",
-      "Languages 2",
+      "Idiomas 2",
       "Ação em Movimento",
       "Ataque Poderoso",
-      "Precise Attack (corpo a corpo; Concealment)",
+      "Ataque Preciso (Corpo a Corpo; Camuflagem)",
       "Saque Rápido",
       "Ataque à Distância 3",
-      "Preparar",
-      "Derrubar em Sequência",
+      "Armação",
+      "Ataque Dominó",
       "Transe",
       "Esquiva Fabulosa"
     ],
@@ -57,7 +57,7 @@
         "total": 14
       },
       {
-        "nome": "Especialidade: Theology & Philosophy",
+        "nome": "Especialidade: Theology & Filosofia",
         "graduacoes": 5,
         "total": 6
       },
@@ -82,12 +82,12 @@
         "total": 10
       },
       {
-        "nome": "Combate à Distância: Archery",
+        "nome": "Combate à Distância: Arco e Flecha",
         "graduacoes": 7,
         "total": 10
       },
       {
-        "nome": "Combate à Distância: Throwing",
+        "nome": "Combate à Distância: Arremesso",
         "graduacoes": 5,
         "total": 8
       },
@@ -110,7 +110,7 @@
     "iniciativa": 9,
     "ataques": [
       {
-        "nome": "Bow",
+        "nome": "Arco",
         "bonus": 13,
         "alcance": "",
         "dano": "Range, Dano 5"
@@ -141,15 +141,15 @@
     "complicacoes": [
       {
         "titulo": "Uncertainty",
-        "texto": "Green Arrow often isn’t sure he wants to be a super hero like his father. He’s even less sure he wants to take over as Green Arrow, despite his time filling that role. He knows he wants to help others but he is often unsure that wearing a costume and slinging a bow is the best way to do this."
+        "texto": "Green Arrow often isn’t sure he wants to be a super hero like his father. He’s even less sure he wants to take over as Green Arrow, despite his time filling that role. He knows he wants to help others but he is often unsure that wearing a costume e slinging a Arco is the best way to do this."
       },
       {
         "titulo": "Wayward Son",
-        "texto": "For a time Green Arrow lost his memories, his Skills as an archer, and gained regenerative Powers."
+        "texto": "For a time Green Arrow lost his memories, his Perícias as an archer, e gained regenerative Poderes."
       },
       {
         "titulo": "To reflect this period replace his Ranged Attack Advantage and Skills with the Power Healing Factor",
-        "texto": "Regeneração 5, Imunidade 5 (Dor). He has since regained his memories but has grown somewhat disillusioned with his father, whom he sees as neglectful and irresponsible. It is unknown if he still has his Powers. PERSONALITY Green Arrow is a gentle, kindhearted soul. He angers slowly, though acts of terror and blatant evil test his temper. He is of - ten oblivious to his physical attractiveness and inexperienced in many worldly endeavors. This makes him often seem naïve despite his good instincts and perceptive nature."
+        "texto": "Regeneração 5, Imunidade 5 (Dor). He has since regained his memories but has grown somewhat disillusioned com his father, whom he sees as neglectful e irresponsible. It is unknown if he still has his Poderes. PERSONALITY Green Arrow is a gentle, kindhearted soul. He angers slowly, though acts of terror e blatant evil test his temper. He is of - ten oblivious to his physical attractiveness e inexperienced in many worldly endeavors. This makes him often seem naïve despite his good instincts e perceptive nature."
       }
     ]
   },

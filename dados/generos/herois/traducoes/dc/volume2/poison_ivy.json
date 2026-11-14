@@ -14,15 +14,15 @@
       "Pre": 5
     },
     "poderes": [
-      "67 Defenses 28"
+      "67 Defesas 28"
     ],
     "equipamento": [],
     "vantagens": [
-      "6 Total 182 Co MPL i C tion S a e nvironmentalist: Poison Ivy’s mission is to protect plant life and pur ify Gotham. Vanity: Poison Ivy is obsessed with having power over others",
+      "6 Total 182 Co MPL i C tion S a e nvironmentalist: Poison Ivy's mission is to protect plant life and pur ify Gotham. Vanity: Poison Ivy is obsessed with having power over others",
       "particularly Batman",
       "who is one of the few to have been able to reject her. lips—toxic to the touch. Her poisons can kill",
       "paralyze",
-      "or act as mind-altering chemical agents as she sees fit and based on the requirements of the situation. She is an extremely in- telligent woman and gifted scientist who has been observed controlling plants",
+      "or act as mind-altering chemical agents as she sees fit and based on the requirements of the situation. She is an extremely in-telligent woman and gifted scientist who has been observed controlling plants",
       "and may possess an undefined mystic link to the plant world."
     ],
     "pericias": [
@@ -83,8 +83,11 @@
       "Resistência": 6,
       "Vontade": 10
     },
-    "observacao_defesas": "* Vontade 10 *sem Rolamento Defensivo. Po er ponto W S Abilities 52 Skills 29",
-    "custos": {},
+    "observacao_defesas": "* Vontade 10 *sem Rolamento Defensivo.",
+    "custos": {
+      "Habilidades": 52,
+      "Perícias": 29
+    },
     "total": null,
     "complicacoes": []
   },

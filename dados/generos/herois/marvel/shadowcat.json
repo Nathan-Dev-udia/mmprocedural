@@ -49,7 +49,7 @@
       "Iniciativa Aprimorada 2",
       "Capanga 4",
       "Ataque Poderoso",
-      "Maestria em Perícia (Deception, Technology, Disable Device, Stealth) 4",
+      "Maestria em Perícia (Enganação, Tecnologia, Tecnologia, Furtividade) 4",
       "Ataque Furtivo 2",
       "Zombar",
       "Trabalho em Equipe 3"
@@ -57,7 +57,7 @@
     "poderes": [
       {
         "nome": "Insubstantial 4",
-        "construcao_3e": "Intangibilidade 4, Linked to Corrosion e Air Walk.",
+        "construcao_3e": "Intangibilidade 4, Ligado a Corrosion e Air Walk.",
         "custo_2e_pp": 20,
         "custo_3e_pp": 20,
         "nome_pt": "Intangibilidade (Insubstancial)"
@@ -71,7 +71,7 @@
       },
       {
         "nome": "Super-Movement 2",
-        "construcao_3e": "Air Walk 2, Linked to Intangibilidade.",
+        "construcao_3e": "Air Walk 2, Ligado a Intangibilidade.",
         "custo_2e_pp": 4,
         "custo_3e_pp": 4,
         "nome_pt": "Andar no Ar"

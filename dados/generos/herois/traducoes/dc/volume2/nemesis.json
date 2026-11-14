@@ -15,20 +15,20 @@
     },
     "poderes": [],
     "equipamento": [
-      "d issolving M asks: Metamorfose 2, Limitado—Facial Features Only, Não Confiável (5 uses) (6 PP)",
+      "d issolving M asks: Metamorfose 2, Limitado—Facial Características Apenas, Não Confiável (5 uses) (6 PP)",
       "Pistola: Dano à Distância 3 (6 PP)"
     ],
     "vantagens": [
       "Ataque Defensivo",
       "Rolamento Defensivo 2",
       "Equipamento 3",
-      "Evasion",
+      "Evasão",
       "Iniciativa Aprimorada",
-      "Ferramentas Improvisadas",
+      "Ferramentas Aprimoradas",
       "Derrubar Aprimorado",
       "Arma Improvisada",
-      "Luta Caída",
-      "Bem-Informado"
+      "Luta no Chão",
+      "Bem Informado"
     ],
     "pericias": [
       {
@@ -77,7 +77,7 @@
         "total": 10
       },
       {
-        "nome": "Combate à Distância: Guns",
+        "nome": "Combate à Distância: Armas de Fogo",
         "graduacoes": 9,
         "total": 13
       },

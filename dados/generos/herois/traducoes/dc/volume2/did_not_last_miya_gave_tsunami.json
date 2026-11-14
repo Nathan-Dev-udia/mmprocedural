@@ -14,13 +14,13 @@
       "Pre": 1
     },
     "poderes": [
-      "aquatic (Imunidade 4 (Envelhecimento, Frio, Afogamento, High assists Aquaman when emergencies arise.Pressão), Movimento 1 (Environmental Adaptation– Aquatic), (+12), Corpo a Corpo Combat: Natação 9 (400 km/h)); Water Control (Alcance de Percepção igation 4 (+6), Damaging Área Moldável Mover Objetos 10 (Limitado a Water)) ssbow Pistola 7"
+      "aquatic (Imunidade 4 (Envelhecimento, Frio, Afogamento, High assists Aquaman when emergencies arise.Pressão), Movimento 1 (Adaptação Ambiental– Aquatic), (+12), Corpo a Corpo Combat: Natação 9 (400 km/h)); Water Control (Alcance de Percepção igation 4 (+6), Damaging Área Moldável Mover Objetos 10 (Limitado a Water)) ssbow Pistola 7"
     ],
     "equipamento": [],
     "vantagens": [
       "Ambiente Favorito (Aquatic)",
       "Languages 1 9 (+13)",
-      "Technology 4 (Japanese)"
+      "Technology 4 (Japonês)"
     ],
     "pericias": [
       {
@@ -46,6 +46,12 @@
         "bonus": null,
         "alcance": "",
         "dano": "Dano 10"
+      },
+      {
+        "nome": "Desarmado Resistência 8/5*, Vontade 8",
+        "bonus": 12,
+        "alcance": "",
+        "dano": "Dano 8"
       }
     ],
     "defesas": {
@@ -71,7 +77,7 @@
       },
       {
         "titulo": "Preconceito",
-        "texto": "As a Japanese- aster) American during WWII, Miya faced that era’s prejudices. d relationship: Miya was married to Neptune Perkins, and has nemy a metahuman daughter, Debbie (Deep Blue). Heroes & VHeroes & VIIllallaIIns, Vol. 2ns, Vol. 2"
+        "texto": "As a Japanese- aster) American during WWII, Miya faced that era’s prejudices. d relationship: Miya was married to Neptune Perkins, e has nemy a metahuman daughter, Debbie (Deep Blue). Heroes & VHeroes & VIIllallaIIns, Vol. 2ns, Vol. 2"
       }
     ]
   },

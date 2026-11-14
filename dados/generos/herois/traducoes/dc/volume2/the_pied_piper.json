@@ -14,25 +14,24 @@
       "Pre": 3
     },
     "poderes": [
-      "Super-Sonic f lut e: Arranjo (30 pontos)",
-      "• Hypnotic Music: Perception área (Auditory) Aflição 10 (resistido por Vontade; Tonto, Compelido, Controlado), Concentração (30 PP)",
-      "• Sonic Raio: Alcance de Percepção Dano 10 (1 PP)",
+      "Super-Sônico f lut e: Arranjo (30 pontos)",
+      "• Hypnotic Música: Percepção área (Auditivo) Aflição 10 (resistido por Vontade; Tonto, Compelido, Controlado), Concentração (30 PP)",
+      "• Sônico Raio: Alcance de Percepção Dano 10 (1 PP)",
       "• Sound Waves: Área de Cone Mover Objetos 10 (1 PP)",
-      "• Vibratory a ur a: Aflição à Distância 10 (resistido por Vontade; Tonto, Impedido & Impaired, Indefeso, Imóvel & Atordoado), Extra Condition 2, Limitado Degree (1 PP)",
-      "• Ventriloquism: Comunicação 3 (Auditory), Sutil (1 PP)",
-      "• r a t-Catching: Summon 3, Controlado, Horde, Multiple Minions 3 (Eight PL3 rats) (1 PP)"
+      "• Vibratory a ur a: Aflição à Distância 10 (resistido por Vontade; Tonto, Impedido & Prejudicado, Indefeso, Imóvel & Atordoado), Extra Condition 2, Limitado Grau (1 PP)",
+      "• Ventriloquism: Comunicação 3 (Auditivo), Sutil (1 PP)",
+      "• r a t-Catching: Invocar 3, Controlado, Horda, Múltiplos Capangas 3 (Eight PL3 rats) (1 PP)"
     ],
     "equipamento": [],
     "vantagens": [
-      "Benefit 2 (Independently Wealthy)",
+      "Benefício 2 (Independentemente Rico)",
       "Rolamento Defensivo 3",
-      "Fascinar (Expertise: Wind Instruments)",
-      "Ferramentas Improvisadas",
+      "Fascinar (Especialidade: Wind Instruments)",
+      "Ferramentas Aprimoradas",
       "Inventor",
       "Saque Rápido",
-      "Skill Mastery 2 (Expertise: Sonology",
-      "Expertise: Wind Instruments)",
-      "Bem-Informado"
+      "Maestria em Perícia 2 (Especialidade: Sonology, Especialidade: Wind Instruments)",
+      "Bem Informado"
     ],
     "pericias": [
       {
@@ -46,12 +45,12 @@
         "total": 7
       },
       {
-        "nome": "Especialidade: Music Composition",
+        "nome": "Especialidade: Música Composition",
         "graduacoes": 8,
         "total": 11
       },
       {
-        "nome": "Especialidade: Science",
+        "nome": "Especialidade: Ciência",
         "graduacoes": 5,
         "total": 8
       },
@@ -61,7 +60,7 @@
         "total": 13
       },
       {
-        "nome": "Especialidade: Streetwise",
+        "nome": "Especialidade: Manha",
         "graduacoes": 4,
         "total": 7
       },
@@ -86,7 +85,7 @@
         "total": 8
       },
       {
-        "nome": "Combate à Distância: Sonic Weapons",
+        "nome": "Combate à Distância: Sônico Weapons",
         "graduacoes": 7,
         "total": 10
       },
@@ -109,10 +108,10 @@
     "iniciativa": 2,
     "ataques": [
       {
-        "nome": "Sonic Raio",
+        "nome": "Sônico Raio",
         "bonus": 10,
         "alcance": "",
-        "dano": "Perception, Dano 10"
+        "dano": "Percepção, Dano 10"
       },
       {
         "nome": "Desarmado",
@@ -144,7 +143,7 @@
       },
       {
         "titulo": "Preconceito",
-        "texto": "Hartley is openly gay and a former super-villain, and both earn him lingering disapproval. c hang I ng hIS t une Hartley only recently added r a t-Catching to his reper - toire, and as a Rogue employed some alternate instru- ments (all Facilmente Removível): • The Ultra-Pipe summoned extradimensional, entangling “Velocidade Demons”: Aflição à Distância 10 (resistido por Vontade; Tonto, Impedido & Impaired, Indefeso, Imóvel & Atordoado), Extra Condi- tions, Limitado Degree. • The Psychic-Pipe induced amnesia and rendered the Flash mentally incapable of using super-Velocidade (À Distância Transform 10). • The Sonic Boomatron disintegrated people into sound waves (À Distância Transform 10)."
+        "texto": "Hartley is openly gay e a former super-villain, e both earn him lingering disapproval. c hang I ng hIS t une Hartley Apenas recently added r a t-Catching to his reper - toire, e as a Rogue employed some alternate instru- ments (all Facilmente Removível): • The Ultra-Pipe summoned extradimensional, entangling “Velocidade Demons”: Aflição à Distância 10 (resistido por Vontade; Tonto, Impedido & Prejudicado, Indefeso, Imóvel & Atordoado), Extra Condi- tions, Limitado Grau. • The Psíquico-Pipe induced amnesia e rendered the Flash mentally incapable of using super-Velocidade (À Distância Transformar 10). • The Sônico Boomatron disintegrated people into sound waves (À Distância Transformar 10)."
       }
     ]
   },

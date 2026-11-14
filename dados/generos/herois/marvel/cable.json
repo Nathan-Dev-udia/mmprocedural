@@ -30,21 +30,21 @@
       "Vontade": 10
     },
     "pericias": {
-      "Enganacao": 8,
+      "Enganação": 8,
       "Atletismo": 9,
       "Tecnologia": 9,
       "Veículos": 4,
-      "Investigacao": 9,
-      "Intimidacao": 12,
+      "Investigação": 9,
+      "Intimidação": 12,
       "Especialidade: Táticas": 12,
       "Tratamento": 8,
-      "Percepcao": 12,
-      "Intuicao": 12,
+      "Percepção": 12,
+      "Intuição": 12,
       "Furtividade": 8,
       "Especialidade: Sobrevivência": 12,
       "Combate Corpo-a-Corpo: Psimtar": 3,
       "Combate Corpo-a-Corpo: Desarmado": 3,
-      "Combate a Distancia: Blaster Rifle": 13
+      "Combate à Distância: Blaster Rifle": 13
     },
     "vantagens": [
       "Ataque Acurado",
@@ -58,7 +58,7 @@
       "Inspirar 2",
       "De Pé",
       "Ataque Poderoso",
-      "Set-Up",
+      "Armação",
       "Assustar",
       "Ataque Dominó",
       "Trabalho em Equipe",
@@ -83,7 +83,7 @@
       },
       {
         "nome": "Telekinesis / Telepathy",
-        "construcao_3e": "Array Dinâmico: Mover Objeto 8 (Telecinésia; 16 PP + Dinâmico 2 PP = 18 PP); Efeito Alternativo Dinâmico: Telepatia 8 (Leitura Mental 8 e Comunicação Mental 2; Dinâmico 2 PP) = 20 PP.",
+        "construcao_3e": "Arranjo Dinâmico: Mover Objeto 8 (Telecinésia; 16 PP + Dinâmico 2 PP = 18 PP); Efeito Alternativo Dinâmico: Telepatia 8 (Leitura Mental 8 e Comunicação Mental 2; Dinâmico 2 PP) = 20 PP.",
         "custo_2e_pp": 20,
         "custo_3e_pp": 20,
         "nome_pt": "Telecinésia e Telepatia"

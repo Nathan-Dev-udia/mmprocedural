@@ -14,21 +14,20 @@
       "Pre": 2
     },
     "poderes": [
-      "Cybernetic Half (Força Aprimorada 6, Limitado a Left Side; Vigor Aprimorado 8; Resistência Impenetrável 8); Cybernetic Mind (Compreender 2: Languages, Machines; Intelecto Aprimorado 11; Prontidão Aprimorada 6; Imunidade 10: mental Effects), Weapons (Arranjo, 22 pontos, Blaster (Dano à Distância 8, Penetrante 4, Preciso 2), AE: Stunner (Aflição à Distância 6: resistido por Fortitude, Impaired, Atordoado, Incapacitado, Cumulativo, Preciso 2))"
+      "Cybernetic Half (Força Aprimorada 6, Limitado a Left Side; Vigor Aprimorado 8; Resistência Impenetrável 8); Cybernetic Mind (Compreender 2: Languages, Máquinas; Intelecto Aprimorado 11; Prontidão Aprimorada 6; Imunidade 10: Efeitos Mentais), Weapons (Arranjo, 22 pontos, Blaster (Dano à Distância 8, Penetrante 4, Acurado 2), AE: Stunner (Aflição à Distância 6: resistido por Fortitude, Prejudicado, Atordoado, Incapacitado, Cumulativo, Acurado 2))"
     ],
     "equipamento": [],
     "vantagens": [
-      "Conectado",
+      "Bem Relacionado",
       "Memória Eidética",
-      "Fascinate 2 (Deception",
-      "Persuasion)",
-      "Ferramentas Improvisadas",
+      "Fascinar 2 (Enganação, Persuasão)",
+      "Ferramentas Aprimoradas",
       "Inventor",
-      "Jack-of- all-trades",
+      "Faz Tudo",
       "Liderança",
       "Ataque à Distância 3",
       "Tomar a Iniciativa",
-      "Well- informed"
+      "Bem Informado"
     ],
     "pericias": [
       {
@@ -42,12 +41,12 @@
         "total": 19
       },
       {
-        "nome": "Especialidade: Science",
+        "nome": "Especialidade: Ciência",
         "graduacoes": 4,
         "total": 17
       },
       {
-        "nome": "Especialidade: Streetwise",
+        "nome": "Especialidade: Manha",
         "graduacoes": 4,
         "total": 17
       },
@@ -121,7 +120,7 @@
     "complicacoes": [
       {
         "titulo": "Complicação",
-        "texto": "Half-Man (Tharok is half cybernetic, so effects that work on machines can affect him as well)"
+        "texto": "Half-Man (Tharok is half cybernetic, so Efeitos that work on Máquinas can affect him as well)"
       }
     ]
   },
