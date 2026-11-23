@@ -1,0 +1,362 @@
+{
+  "_fonte": "Mitologias grega, nórdica, egípcia e maia (domínio público), adaptadas ao gerador. Nada de deuses de cenários com direitos reservados (D&D, Pathfinder).",
+  "_regras": {
+    "resumo": "A divindade nunca dá pontos. Ela só direciona: os domínios que o clérigo pode ter, a arma que o gerador compra primeiro, as perícias que sobem antes e o dogma, que entra na ficha como complicação.",
+    "obrigatoria_para": "Classes que sempre têm divindade (sem pedido, o gerador sorteia uma). As outras podem ficar sem divindade, que é o padrão.",
+    "classe_dos_dominios": "A classe cujas subclasses são os domínios: ela só pode ter um domínio da sua divindade, e a arma do deus vira a arma principal. Nas outras classes, a arma do deus vira a principal só se já estiver entre as principais da classe; se não, entra como arma de reserva.",
+    "dominios_pendentes": "Domínios do compêndio que ainda não existem como subclasse (ver referencias/dd/subclasses_compendio.json). O gerador os ignora até entrarem; quando um entrar, tire-o desta lista.",
+    "dogma": "Complicação no formato do complications.json: 'nome' é o tipo e 'detalhe' é o texto."
+  },
+  "obrigatoria_para": ["clerigo"],
+  "classe_dos_dominios": "clerigo",
+  "dominios_pendentes": ["natureza", "forja", "sepultura", "arcanismo", "ordem", "paz", "crepusculo"],
+  "panteoes": [
+    {
+      "id": "grego",
+      "nome": "Panteão grego",
+      "descricao": "Os olímpicos e os deuses mais antigos, que governam do alto do Olimpo e brigam entre si tanto quanto os mortais.",
+      "divindades": [
+        {
+          "id": "zeus", "nome": "Zeus", "titulo": "Rei dos deuses, senhor do céu e do raio",
+          "dominios": ["tempestade", "ordem"], "arma": "azagaia",
+          "prioridades": ["pericia:Intimidação", "pericia:Persuasão"],
+          "simbolo": "Um raio nas garras de uma águia",
+          "dogma": { "nome": "Honra", "detalhe": "Não quebra a hospitalidade: quem o recebe em casa, ou quem ele recebe, fica sob sua proteção." }
+        },
+        {
+          "id": "atena", "nome": "Atena", "titulo": "Deusa da sabedoria e da guerra justa",
+          "dominios": ["conhecimento", "guerra", "ordem"], "arma": "lanca",
+          "prioridades": ["pericia:Investigação", "pericia:Especialidade: História"],
+          "simbolo": "Uma coruja sobre um escudo",
+          "dogma": { "nome": "Honra", "detalhe": "Só luta com plano e com causa justa; violência sem propósito ofende a deusa." }
+        },
+        {
+          "id": "apolo", "nome": "Apolo", "titulo": "Deus do sol, da música, da cura e dos oráculos",
+          "dominios": ["luz", "vida", "conhecimento"], "arma": "arco_longo",
+          "prioridades": ["pericia:Percepção", "pericia:Especialidade: Música"],
+          "simbolo": "Uma lira diante do sol",
+          "dogma": { "nome": "Honra", "detalhe": "Não mente: o deus dos oráculos não tolera falso testemunho." }
+        },
+        {
+          "id": "artemis", "nome": "Ártemis", "titulo": "Deusa da caça, da lua e das terras selvagens",
+          "dominios": ["natureza", "crepusculo"], "arma": "arco_curto",
+          "prioridades": ["pericia:Especialidade: Sobrevivência", "pericia:Furtividade"],
+          "simbolo": "Um arco sob a lua crescente",
+          "dogma": { "nome": "Responsabilidade", "detalhe": "Protege os filhotes e quem se perde na mata; caçar por esporte é sacrilégio." }
+        },
+        {
+          "id": "ares", "nome": "Ares", "titulo": "Deus da guerra e da fúria da batalha",
+          "dominios": ["guerra"], "arma": "espada_curta",
+          "prioridades": ["pericia:Intimidação", "pericia:Atletismo"],
+          "simbolo": "Uma lança suja de sangue",
+          "dogma": { "nome": "Honra", "detalhe": "Nunca recusa um desafio de combate, por pior que seja a hora." }
+        },
+        {
+          "id": "hefesto", "nome": "Hefesto", "titulo": "Deus da forja, do fogo e dos artesãos",
+          "dominios": ["forja"], "arma": "martelo_guerra",
+          "prioridades": ["pericia:Especialidade: Ferraria", "pericia:Atletismo"],
+          "simbolo": "Um martelo sobre a bigorna",
+          "dogma": { "nome": "Responsabilidade", "detalhe": "Não recusa consertar uma arma ou ferramenta a quem pede pelo preço justo." }
+        },
+        {
+          "id": "hades", "nome": "Hades", "titulo": "Senhor do mundo dos mortos",
+          "dominios": ["sepultura", "morte"], "arma": "lanca",
+          "prioridades": ["pericia:Intimidação", "pericia:Intuição"],
+          "simbolo": "Um elmo negro e um cão de três cabeças",
+          "dogma": { "nome": "Responsabilidade", "detalhe": "Nenhum morto fica sem rito: enterra os corpos com a moeda do barqueiro, mesmo os dos inimigos." }
+        },
+        {
+          "id": "hermes", "nome": "Hermes", "titulo": "Mensageiro dos deuses, patrono de viajantes, mercadores e ladrões",
+          "dominios": ["trapaca", "conhecimento"], "arma": "espada_curta",
+          "prioridades": ["pericia:Enganação", "pericia:Persuasão"],
+          "simbolo": "Um bastão com duas serpentes e asas",
+          "dogma": { "nome": "Responsabilidade", "detalhe": "Não pode recusar levar uma mensagem pedida em nome de Hermes." }
+        },
+        {
+          "id": "demeter", "nome": "Deméter", "titulo": "Deusa das colheitas e da terra fértil",
+          "dominios": ["natureza", "vida"], "arma": "foice_curta",
+          "prioridades": ["pericia:Especialidade: Natureza", "pericia:Tratamento"],
+          "simbolo": "Um feixe de trigo",
+          "dogma": { "nome": "Responsabilidade", "detalhe": "Não deixa ninguém passar fome na sua frente; divide a última ração." }
+        },
+        {
+          "id": "poseidon", "nome": "Poseidon", "titulo": "Senhor dos mares e dos terremotos",
+          "dominios": ["tempestade"], "arma": "tridente",
+          "prioridades": ["pericia:Atletismo", "pericia:Especialidade: Navegação"],
+          "simbolo": "Um tridente e um cavalo-marinho",
+          "dogma": { "nome": "Honra", "detalhe": "Faz oferenda ao mar antes de toda viagem; esquecer é pedir uma tempestade." }
+        },
+        {
+          "id": "hecate", "nome": "Hécate", "titulo": "Deusa da magia, das encruzilhadas e da noite",
+          "dominios": ["arcanismo", "crepusculo"], "arma": "adaga",
+          "prioridades": ["pericia:Especialidade: Magia", "pericia:Intuição"],
+          "simbolo": "Duas tochas cruzadas numa encruzilhada",
+          "dogma": { "nome": "Honra", "detalhe": "Não nega ajuda a quem a pede numa encruzilhada ou no escuro da noite." }
+        },
+        {
+          "id": "eirene", "nome": "Eirene", "titulo": "Deusa da paz",
+          "dominios": ["paz"], "arma": "bordao",
+          "prioridades": ["pericia:Persuasão", "pericia:Intuição"],
+          "simbolo": "Um ramo de oliveira",
+          "dogma": { "nome": "Honra", "detalhe": "Nunca ataca primeiro." }
+        }
+      ]
+    },
+    {
+      "id": "nordico",
+      "nome": "Panteão nórdico",
+      "descricao": "Os Æsir e os Vanir de Asgard, que sabem que o Ragnarök vai chegar e lutam assim mesmo.",
+      "divindades": [
+        {
+          "id": "odin", "nome": "Odin", "titulo": "Pai de todos, senhor da guerra, das runas e da sabedoria",
+          "dominios": ["conhecimento", "arcanismo", "guerra"], "arma": "lanca",
+          "prioridades": ["pericia:Especialidade: Runas", "pericia:Investigação"],
+          "simbolo": "Dois corvos e uma lança",
+          "dogma": { "nome": "Obsessão", "detalhe": "Persegue todo conhecimento perdido, mesmo sabendo que o preço pode ser alto." }
+        },
+        {
+          "id": "thor", "nome": "Thor", "titulo": "Deus do trovão, protetor dos homens",
+          "dominios": ["tempestade", "guerra"], "arma": "martelo_guerra",
+          "prioridades": ["pericia:Atletismo", "pericia:Intimidação"],
+          "simbolo": "Um martelo de cabo curto",
+          "dogma": { "nome": "Ódio", "detalhe": "Gigantes e quem os serve: não negocia nem dá trégua a eles." }
+        },
+        {
+          "id": "tyr", "nome": "Tyr", "titulo": "Deus da lei, dos juramentos e da coragem",
+          "dominios": ["ordem", "guerra"], "arma": "espada_longa",
+          "prioridades": ["pericia:Persuasão", "pericia:Intuição"],
+          "simbolo": "Uma mão direita erguida, com a palma aberta",
+          "dogma": { "nome": "Honra", "detalhe": "Cumpre a palavra dada, mesmo que lhe custe a mão." }
+        },
+        {
+          "id": "frigg", "nome": "Frigg", "titulo": "Rainha de Asgard, que vê o destino de todos",
+          "dominios": ["vida", "conhecimento"], "arma": "bordao",
+          "prioridades": ["pericia:Tratamento", "pericia:Intuição"],
+          "simbolo": "Uma roca de fiar",
+          "dogma": { "nome": "Responsabilidade", "detalhe": "Protege lares e famílias; não nega abrigo a uma mãe ou a uma criança." }
+        },
+        {
+          "id": "freya", "nome": "Freya", "titulo": "Senhora do amor, da guerra e da magia seiðr",
+          "dominios": ["guerra", "arcanismo"], "arma": "espada_longa",
+          "prioridades": ["pericia:Persuasão", "pericia:Especialidade: Magia"],
+          "simbolo": "Um colar dourado e uma pena de falcão",
+          "dogma": { "nome": "Honra", "detalhe": "Nunca abandona um companheiro caído na batalha." }
+        },
+        {
+          "id": "freyr", "nome": "Freyr", "titulo": "Deus da colheita, do sol e da paz",
+          "dominios": ["natureza", "vida", "paz"], "arma": "bordao",
+          "prioridades": ["pericia:Especialidade: Natureza", "pericia:Persuasão"],
+          "simbolo": "Um javali dourado",
+          "dogma": { "nome": "Honra", "detalhe": "Não derrama sangue em solo sagrado nem em tempo de festa." }
+        },
+        {
+          "id": "baldr", "nome": "Baldr", "titulo": "O deus da luz, o mais amado de Asgard",
+          "dominios": ["luz", "paz", "vida"], "arma": "bordao",
+          "prioridades": ["pericia:Persuasão", "pericia:Tratamento"],
+          "simbolo": "Um ramo de visco dentro de um sol",
+          "dogma": { "nome": "Honra", "detalhe": "Não porta armas dentro de casa nem na assembleia; só luta para proteger alguém." }
+        },
+        {
+          "id": "heimdall", "nome": "Heimdall", "titulo": "O vigia da ponte do arco-íris",
+          "dominios": ["crepusculo", "luz"], "arma": "espada_longa",
+          "prioridades": ["pericia:Percepção", "pericia:Intuição"],
+          "simbolo": "Uma trompa de chifre",
+          "dogma": { "nome": "Responsabilidade", "detalhe": "Dorme pouco e nunca abandona um posto de guarda." }
+        },
+        {
+          "id": "loki", "nome": "Loki", "titulo": "O trapaceiro, que muda de forma e de lado",
+          "dominios": ["trapaca"], "arma": "adaga",
+          "prioridades": ["pericia:Enganação", "pericia:Prestidigitação"],
+          "simbolo": "Duas serpentes entrelaçadas",
+          "dogma": { "nome": "Reputação", "detalhe": "Todo mundo sabe a quem ele serve, e ninguém confia nele." }
+        },
+        {
+          "id": "hel", "nome": "Hel", "titulo": "Senhora de Helheim, onde vão os que morrem de doença e velhice",
+          "dominios": ["morte", "sepultura"], "arma": "adaga",
+          "prioridades": ["pericia:Intimidação", "pericia:Intuição"],
+          "simbolo": "Um rosto metade vivo, metade caveira",
+          "dogma": { "nome": "Responsabilidade", "detalhe": "Os mortos são de Hel: quem perturba uma sepultura ou ergue um morto tem de ser punido." }
+        },
+        {
+          "id": "njord", "nome": "Njord", "titulo": "Deus do mar, dos ventos e dos pescadores",
+          "dominios": ["tempestade", "natureza"], "arma": "lanca",
+          "prioridades": ["pericia:Atletismo", "pericia:Especialidade: Navegação"],
+          "simbolo": "Um barco com a vela cheia",
+          "dogma": { "nome": "Honra", "detalhe": "Paga ao mar o que deve: parte de todo tesouro vai para as ondas." }
+        },
+        {
+          "id": "volund", "nome": "Völund", "titulo": "O ferreiro lendário, venerado pelos artesãos",
+          "dominios": ["forja"], "arma": "martelo_guerra",
+          "prioridades": ["pericia:Especialidade: Ferraria", "pericia:Investigação"],
+          "simbolo": "Um par de asas de metal",
+          "dogma": { "nome": "Ódio", "detalhe": "Reis e senhores que prendem artesãos para tomar o seu trabalho." },
+          "observacao": "Não é um deus nas fontes, e sim um herói ferreiro. Entrou porque o panteão nórdico não tem um deus da forja."
+        }
+      ]
+    },
+    {
+      "id": "egipcio",
+      "nome": "Panteão egípcio",
+      "descricao": "Os deuses do Nilo, que mantêm a ordem do mundo contra o caos que vem do deserto e da escuridão.",
+      "divindades": [
+        {
+          "id": "ra", "nome": "Rá", "titulo": "O sol, rei dos deuses",
+          "dominios": ["luz", "ordem"], "arma": "cimitarra",
+          "prioridades": ["pericia:Persuasão", "pericia:Percepção"],
+          "simbolo": "Um disco solar com uma serpente",
+          "dogma": { "nome": "Ódio", "detalhe": "Criaturas das trevas e serpentes, as crias de Apep." }
+        },
+        {
+          "id": "maat", "nome": "Maat", "titulo": "A verdade, a justiça e a ordem do mundo",
+          "dominios": ["ordem", "paz"], "arma": "bordao",
+          "prioridades": ["pericia:Intuição", "pericia:Persuasão"],
+          "simbolo": "Uma pena de avestruz",
+          "dogma": { "nome": "Honra", "detalhe": "Não mente e não deixa uma injustiça sem resposta." }
+        },
+        {
+          "id": "thoth", "nome": "Thoth", "titulo": "Escriba dos deuses, senhor da escrita e da magia",
+          "dominios": ["conhecimento", "arcanismo"], "arma": "bordao",
+          "prioridades": ["pericia:Investigação", "pericia:Especialidade: Magia"],
+          "simbolo": "Um íbis segurando um cálamo",
+          "dogma": { "nome": "Obsessão", "detalhe": "Copia e guarda todo texto que encontra; destruir um livro é sacrilégio." }
+        },
+        {
+          "id": "anubis", "nome": "Anúbis", "titulo": "Guardião das tumbas e guia dos mortos",
+          "dominios": ["sepultura", "morte"], "arma": "lanca",
+          "prioridades": ["pericia:Intuição", "pericia:Especialidade: Religião"],
+          "simbolo": "Um chacal negro deitado",
+          "dogma": { "nome": "Responsabilidade", "detalhe": "Não deixa um corpo sem rito nem permite que uma tumba seja saqueada." }
+        },
+        {
+          "id": "osiris", "nome": "Osíris", "titulo": "Senhor da vida após a morte e da terra que renasce",
+          "dominios": ["vida", "sepultura", "natureza"], "arma": "mangual",
+          "prioridades": ["pericia:Tratamento", "pericia:Especialidade: Natureza"],
+          "simbolo": "Um cajado de pastor e um mangual cruzados",
+          "dogma": { "nome": "Inimigo", "detalhe": "Os seguidores de Set querem o seu templo em ruínas." }
+        },
+        {
+          "id": "isis", "nome": "Ísis", "titulo": "A grande maga, mãe e protetora",
+          "dominios": ["arcanismo", "vida"], "arma": "adaga",
+          "prioridades": ["pericia:Especialidade: Magia", "pericia:Tratamento"],
+          "simbolo": "Um trono e um par de asas abertas",
+          "dogma": { "nome": "Responsabilidade", "detalhe": "Protege mães, crianças e órfãos, onde quer que estejam." }
+        },
+        {
+          "id": "set", "nome": "Set", "titulo": "Senhor do deserto, das tempestades e do caos",
+          "dominios": ["tempestade", "trapaca", "guerra"], "arma": "lanca",
+          "prioridades": ["pericia:Intimidação", "pericia:Enganação"],
+          "simbolo": "Uma fera de focinho curvo e orelhas quadradas",
+          "dogma": { "nome": "Reputação", "detalhe": "Todos sabem que Set matou o irmão; o seu servo é recebido com medo." }
+        },
+        {
+          "id": "sekhmet", "nome": "Sekhmet", "titulo": "A leoa da guerra, que traz e cura as pestes",
+          "dominios": ["guerra", "vida"], "arma": "arco_curto",
+          "prioridades": ["pericia:Intimidação", "pericia:Tratamento"],
+          "simbolo": "Uma cabeça de leoa com o disco solar",
+          "dogma": { "nome": "Irritação", "detalhe": "Perde a paciência fácil: a fúria da leoa chega antes da razão." }
+        },
+        {
+          "id": "ptah", "nome": "Ptah", "titulo": "O criador, patrono dos artesãos e construtores",
+          "dominios": ["forja"], "arma": "martelo_guerra",
+          "prioridades": ["pericia:Especialidade: Ferraria", "pericia:Investigação"],
+          "simbolo": "Um cetro com o pilar da estabilidade",
+          "dogma": { "nome": "Honra", "detalhe": "Não entrega trabalho malfeito e não recusa ajuda a um artesão." }
+        },
+        {
+          "id": "bastet", "nome": "Bastet", "titulo": "A gata protetora do lar e da alegria",
+          "dominios": ["paz", "crepusculo"], "arma": "adaga",
+          "prioridades": ["pericia:Percepção", "pericia:Furtividade"],
+          "simbolo": "Uma gata sentada",
+          "dogma": { "nome": "Peculiaridade", "detalhe": "Nunca maltrata um gato, e quem fere um gato na sua frente vira inimigo." }
+        },
+        {
+          "id": "sobek", "nome": "Sobek", "titulo": "O crocodilo do Nilo, força das águas",
+          "dominios": ["natureza", "guerra"], "arma": "lanca",
+          "prioridades": ["pericia:Atletismo", "pericia:Especialidade: Sobrevivência"],
+          "simbolo": "Um crocodilo com uma coroa de plumas",
+          "dogma": { "nome": "Peculiaridade", "detalhe": "Não mata crocodilos nem deixa que os matem: os animais do rio são sagrados." }
+        }
+      ]
+    },
+    {
+      "id": "maia",
+      "nome": "Panteão maia",
+      "descricao": "Os deuses do milho, da chuva e do calendário sagrado, e os senhores de Xibalbá, o mundo dos mortos.",
+      "_observacao": "Os nomes variam muito entre as fontes e as regiões. Seguimos as grafias mais usadas em português. Nenhum deus maia é ligado à forja, porque a metalurgia chegou tarde à região; por isso esse domínio fica sem divindade aqui.",
+      "divindades": [
+        {
+          "id": "itzamna", "nome": "Itzamná", "titulo": "Senhor dos céus, inventor da escrita e da medicina",
+          "dominios": ["conhecimento", "arcanismo", "vida"], "arma": "bordao",
+          "prioridades": ["pericia:Investigação", "pericia:Tratamento"],
+          "simbolo": "Um velho de nariz grande segurando um códice",
+          "dogma": { "nome": "Responsabilidade", "detalhe": "Mantém o calendário sagrado: nenhuma cerimônia pode atrasar, nem no meio de uma missão." }
+        },
+        {
+          "id": "kukulkan", "nome": "Kukulkán", "titulo": "A Serpente Emplumada, senhor do vento e dos reis",
+          "dominios": ["tempestade", "ordem"], "arma": "azagaia",
+          "prioridades": ["pericia:Persuasão", "pericia:Especialidade: História"],
+          "simbolo": "Uma serpente coberta de plumas verdes",
+          "dogma": { "nome": "Honra", "detalhe": "Governa pelo exemplo: nunca pede a outro o que não faria." }
+        },
+        {
+          "id": "chaac", "nome": "Chaac", "titulo": "Deus da chuva e dos raios",
+          "dominios": ["tempestade", "natureza"], "arma": "machado_batalha",
+          "prioridades": ["pericia:Atletismo", "pericia:Especialidade: Natureza"],
+          "simbolo": "Um machado de pedra que solta raios",
+          "dogma": { "nome": "Responsabilidade", "detalhe": "Faz as oferendas de chuva a cada estação; sem elas, a colheita da aldeia falha." }
+        },
+        {
+          "id": "kinich_ahau", "nome": "Kinich Ahau", "titulo": "O sol, que vira jaguar ao atravessar a noite",
+          "dominios": ["luz", "guerra"], "arma": "azagaia",
+          "prioridades": ["pericia:Percepção", "pericia:Intimidação"],
+          "simbolo": "Um rosto com olhos quadrados e um dente afiado",
+          "dogma": { "nome": "Honra", "detalhe": "Não foge de uma luta depois do pôr do sol: é quando o sol-jaguar caça." }
+        },
+        {
+          "id": "ixchel", "nome": "Ixchel", "titulo": "Deusa da lua, da cura e dos partos",
+          "dominios": ["vida", "crepusculo"], "arma": "bordao",
+          "prioridades": ["pericia:Tratamento", "pericia:Especialidade: Natureza"],
+          "simbolo": "Uma lua com um coelho dentro",
+          "dogma": { "nome": "Responsabilidade", "detalhe": "Atende todo parto e todo doente que pedir ajuda, mesmo no meio de uma missão." }
+        },
+        {
+          "id": "yum_kaax", "nome": "Yum Kaax", "titulo": "Senhor da mata e dos animais selvagens",
+          "dominios": ["natureza", "vida"], "arma": "foice_curta",
+          "prioridades": ["pericia:Especialidade: Sobrevivência", "pericia:Especialidade: Natureza"],
+          "simbolo": "Uma espiga de milho entre folhas",
+          "dogma": { "nome": "Responsabilidade", "detalhe": "Não deixa caçar nem derrubar uma árvore sem pedir licença à mata." }
+        },
+        {
+          "id": "ek_chuaj", "nome": "Ek Chuaj", "titulo": "Patrono dos mercadores, das estradas e do cacau",
+          "dominios": ["paz"], "arma": "lanca",
+          "prioridades": ["pericia:Persuasão", "pericia:Intuição"],
+          "simbolo": "Uma trouxa de mercador e grãos de cacau",
+          "dogma": { "nome": "Honra", "detalhe": "Respeita todo acordo de troca; trapacear num negócio é sacrilégio." }
+        },
+        {
+          "id": "buluc_chabtan", "nome": "Buluc Chabtan", "titulo": "Deus da guerra e da morte violenta",
+          "dominios": ["guerra", "morte"], "arma": "maca",
+          "prioridades": ["pericia:Intimidação", "pericia:Atletismo"],
+          "simbolo": "Uma linha negra pintada em volta dos olhos",
+          "dogma": { "nome": "Honra", "detalhe": "O inimigo vencido pertence ao deus: precisa ser capturado, não morto no campo." }
+        },
+        {
+          "id": "ah_puch", "nome": "Ah Puch", "titulo": "Senhor de Xibalbá, o mundo dos mortos",
+          "dominios": ["morte", "sepultura"], "arma": "adaga",
+          "prioridades": ["pericia:Intimidação", "pericia:Intuição"],
+          "simbolo": "Uma caveira com sinos presos aos ossos",
+          "dogma": { "nome": "Reputação", "detalhe": "Dizem que traz azar: mães escondem os filhos quando ele passa." },
+          "observacao": "O nome Ah Puch vem de fontes coloniais; os estudiosos também o chamam de Kimi ou Cizin."
+        },
+        {
+          "id": "gemeos_herois", "nome": "Hunahpú e Xbalanqué", "titulo": "Os Gêmeos Heróis, que enganaram os senhores da morte",
+          "dominios": ["trapaca", "luz"], "arma": "zarabatana",
+          "prioridades": ["pericia:Enganação", "pericia:Acrobacia"],
+          "simbolo": "Uma bola de jogo e uma zarabatana",
+          "dogma": { "nome": "Rivalidade", "detalhe": "Nunca recusa um jogo ou uma aposta contra os servos de Xibalbá." },
+          "observacao": "No Popol Vuh viram o sol e a lua depois de vencer os senhores de Xibalbá; por isso entram com o domínio da Luz."
+        }
+      ]
+    }
+  ]
+}

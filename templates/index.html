@@ -112,6 +112,16 @@
             <select id="pj-variante"></select>
             <small id="pj-variante-descricao"></small>
           </label>
+          <label class="campo" id="pj-panteao-campo" hidden>
+            <span>Panteão</span>
+            <select id="pj-panteao"></select>
+            <small id="pj-panteao-descricao"></small>
+          </label>
+          <label class="campo" id="pj-divindade-campo" hidden>
+            <span>Divindade</span>
+            <select id="pj-divindade"></select>
+            <small id="pj-divindade-descricao"></small>
+          </label>
           <label class="campo">
             <span>Nível de poder</span>
             <select id="pj-np"></select>
@@ -176,6 +186,7 @@
         <fieldset class="complicacoes-form">
           <legend class="titulo-passo">Complicações</legend>
           <p class="dica">Pelo menos duas, uma delas a Motivação.</p>
+          <p class="dica" id="pj-dogma" hidden></p>
           <div class="linha-complicacao">
             <select id="pj-motivacao" aria-label="Motivação"></select>
             <input id="pj-motivacao-detalhe" type="text" placeholder="Detalhe da motivação (opcional)">

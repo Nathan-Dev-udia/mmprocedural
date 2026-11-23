@@ -265,7 +265,8 @@ def texto(npc):
     modulos = ", ".join(f"{m['nome']} ({m['papel']})" for m in npc["modulos"])
     if npc.get("tipo") == "jogador":
         raca = f"{npc['raca']['nome']} · " if npc.get("raca") else ""
-        cabecalho = [f"{raca}{npc['arquetipo']['nome']} · personagem de jogador · NP {npc['np_pretendido']}",
+        divindade = f" de {npc['divindade']['nome']}" if npc.get("divindade") else ""
+        cabecalho = [f"{raca}{npc['arquetipo']['nome']}{divindade} · personagem de jogador · NP {npc['np_pretendido']}",
                      "Foco: " + ", ".join(m["nome"] for m in npc["modulos"])]
     else:
         cabecalho = [f"{npc['arquetipo']['nome']} · ficha-base {npc['faixa']['nome']} · NP pretendido "

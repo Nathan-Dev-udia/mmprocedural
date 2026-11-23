@@ -171,7 +171,8 @@ function cartao(ficha, { regerar = false, aberto = false } = {}) {
     ...v.avisos.map((a) => `<li class="aviso">${escapar(a)}</li>`),
   ].join("");
   const subtitulo = ehJogador
-    ? `${ficha.raca ? `${escapar(ficha.raca.nome)} · ` : ""}${escapar(ficha.arquetipo.nome)} · personagem de jogador · NP ${ficha.np_pretendido}` +
+    ? `${ficha.raca ? `${escapar(ficha.raca.nome)} · ` : ""}${escapar(ficha.arquetipo.nome)}` +
+      `${ficha.divindade ? ` de ${escapar(ficha.divindade.nome)}` : ""} · personagem de jogador · NP ${ficha.np_pretendido}` +
       (ficha.jogador ? ` · jogador: ${escapar(ficha.jogador)}` : "")
     : `${escapar(ficha.arquetipo.nome)} · ficha-base ${escapar(ficha.faixa.nome)} · NP pretendido ` +
       `${ficha.np_pretendido} <span class="discreto">(estimado: ${v.np_efetivo})</span>`;
@@ -407,6 +408,23 @@ const focoBasePj = () => arquetipoBase().focos.find((f) => f.id === el("pj-foco"
 // Em "Sortear", as listas mostram o foco puro e o servidor sorteia a variante.
 const focoPj = () => focoBasePj().variantes.find((v) => v.id === el("pj-variante").value) || focoBasePj();
 const riquezaPj = () => pj().riqueza.find((r) => r.id === el("pj-riqueza").value) || pj().riqueza[0];
+// Divindades (só na fantasia). O clérigo é obrigado a ter uma e só pode ter uma que conceda o domínio dele.
+const temDivindades = () => Boolean(pj().divindades);
+const divindadeObrigatoria = () => temDivindades() && pj().divindades.obrigatoria_para.includes(el("pj-arquetipo").value);
+const classeDosDominios = () => temDivindades() && pj().divindades.classe_dos_dominios === el("pj-arquetipo").value;
+const divindadesDoPanteao = () => pj().divindades.panteoes
+  .filter((p) => !el("pj-panteao").value || p.id === el("pj-panteao").value)
+  .flatMap((p) => p.divindades.map((d) => ({ ...d, panteao: p.nome })));
+const divindadesPossiveis = () => divindadesDoPanteao()
+  .filter((d) => !classeDosDominios() || d.dominios.includes(el("pj-foco").value));
+const divindadePj = () => (temDivindades()
+  ? divindadesDoPanteao().find((d) => d.id === el("pj-divindade").value) || null : null);
+// A arma do deus é a principal no clérigo ou quando já está entre as principais da classe; se não, vem de reserva.
+const armaDaDivindade = () => {
+  const d = divindadePj();
+  return d && { id: d.arma, nome: d.arma_nome,
+                principal: classeDosDominios() || arquetipoPj().armas.principais.includes(d.arma) };
+};
 // Gêneros como o cyberpunk pagam o equipamento com a vantagem Equipamento (5 pontos por graduação).
 const emPontos = () => pj().equipamento_modo === "pontos";
 const temImplantes = () => pj().implantes.length > 0;
@@ -557,11 +575,13 @@ function desenharEquipamento() {
   const a = arquetipoPj();
   const f = focoPj();
   const porId = Object.fromEntries(pj().catalogo.map((i) => [i.id, i]));
-  const principal = f.armas[0] || a.armas.principais[0];
-  const sugeridos = [...new Set([...f.armas, ...a.armas.principais, ...a.armas.secundarias, ...pj().itens_basicos,
-                                 ...a.itens.essenciais, ...f.itens, ...a.itens.opcionais])];
-  const marcar = new Set([principal, porId[principal]?.municao, ...pj().itens_basicos,
-                          ...a.itens.essenciais, ...f.itens].filter(Boolean));
+  const deus = armaDaDivindade();
+  const principal = f.armas[0] || (deus && deus.principal ? deus.id : a.armas.principais[0]);
+  const reserva = deus && !deus.principal ? deus.id : null;
+  const sugeridos = [...new Set([...f.armas, ...(deus ? [deus.id] : []), ...a.armas.principais, ...a.armas.secundarias,
+                                 ...pj().itens_basicos, ...a.itens.essenciais, ...f.itens, ...a.itens.opcionais])];
+  const marcar = new Set([principal, porId[principal]?.municao, reserva, porId[reserva]?.municao,
+                          ...pj().itens_basicos, ...a.itens.essenciais, ...f.itens].filter(Boolean));
   const linha = (id) => {
     const i = porId[id];
     const cada = i.quantidade ? " cada" : "";
@@ -711,6 +731,48 @@ function prepararAbaJogador() {
     desenharImplantes();
     sugestoesDoArquetipo();
   };
+  el("pj-panteao-campo").hidden = !temDivindades();
+  el("pj-divindade-campo").hidden = !temDivindades();
+  if (temDivindades()) {
+    el("pj-panteao").innerHTML = '<option value="">Todos os panteões</option>' + opcoesDeSelect(pj().divindades.panteoes);
+  }
+  const atualizarDivindade = () => {
+    el("pj-dogma").hidden = true;
+    if (!temDivindades()) return;
+    const d = divindadePj();
+    const valor = el("pj-divindade").value;
+    let texto;
+    if (d) {
+      const arma = armaDaDivindade();
+      texto = `${d.titulo}. Arma: ${arma.nome} (${arma.principal ? "principal" : "de reserva"}). ` +
+        `Perícias: ${d.pericias.join(", ")}. Dogma (${d.dogma.nome}): ${d.dogma.detalhe}`;
+      el("pj-dogma").textContent = `O dogma de ${d.nome} entra na ficha como mais uma complicação: ` +
+        `${d.dogma.nome} (${d.dogma.detalhe})`;
+      el("pj-dogma").hidden = false;
+    } else if (valor === "sortear") {
+      texto = divindadesPossiveis().length === 0
+        ? `Nenhuma divindade deste panteão concede ${focoBasePj().nome}. Escolha outro panteão.`
+        : classeDosDominios() ? `O gerador sorteia uma divindade que concede ${focoBasePj().nome}.`
+          : "O gerador sorteia uma.";
+    } else {
+      texto = "O personagem não serve a nenhum deus.";
+    }
+    el("pj-divindade-descricao").textContent = texto;
+    desenharEquipamento();
+  };
+  // A lista muda com a classe (o clérigo não tem "Sem divindade"), com o domínio e com o panteão.
+  const atualizarListaDeDivindades = () => {
+    if (!temDivindades()) return;
+    const anterior = el("pj-divindade").value;
+    const panteao = pj().divindades.panteoes.find((p) => p.id === el("pj-panteao").value);
+    el("pj-panteao-descricao").textContent = panteao ? panteao.descricao : "";
+    el("pj-divindade").innerHTML = (divindadeObrigatoria() ? "" : '<option value="nenhuma">Sem divindade</option>') +
+      '<option value="sortear">Sortear</option>' +
+      opcoesDeSelect(divindadesPossiveis(), (d) => (panteao ? d.nome : `${d.nome} (${d.panteao})`));
+    const valores = [...el("pj-divindade").options].map((o) => o.value);
+    el("pj-divindade").value = valores.includes(anterior) ? anterior : divindadeObrigatoria() ? "sortear" : "nenhuma";
+    atualizarDivindade();
+  };
   const atualizarFoco = () => {
     const f = focoBasePj();
     el("pj-variante-campo").hidden = f.variantes.length === 0;
@@ -719,6 +781,7 @@ function prepararAbaJogador() {
       opcoesDeSelect(f.variantes, (v) => v.nome_curto);
     el("pj-foco-descricao").textContent = f.descricao;
     atualizarVariante();
+    atualizarListaDeDivindades();
   };
   const atualizarArquetipo = () => {
     el("pj-foco").innerHTML = opcoesDeSelect(arquetipoBase().focos);
@@ -731,7 +794,9 @@ function prepararAbaJogador() {
   };
   el("pj-arquetipo").addEventListener("change", atualizarArquetipo);
   el("pj-foco").addEventListener("change", atualizarFoco);
-  el("pj-variante").addEventListener("change", atualizarVariante);
+  el("pj-variante").addEventListener("change", () => { atualizarVariante(); atualizarDivindade(); });
+  el("pj-panteao").addEventListener("change", atualizarListaDeDivindades);
+  el("pj-divindade").addEventListener("change", atualizarDivindade);
   el("pj-riqueza").addEventListener("change", atualizarRiqueza);
   // O NP muda o custo da raça e a graduação das magias que o acompanham.
   el("pj-np").addEventListener("change", () => {
@@ -799,6 +864,8 @@ function prepararAbaJogador() {
       np: Number(el("pj-np").value),
       foco: el("pj-foco").value,
       variante: el("pj-variante").value,
+      panteao: temDivindades() ? el("pj-panteao").value : "",
+      divindade: temDivindades() ? el("pj-divindade").value : "",
       riqueza: el("pj-riqueza").value,
       complicacoes,
       vantagens: modo("pj-vantagens-modo") === "manual"
@@ -880,6 +947,9 @@ function desenharResumo() {
     temRacas() && ["raca", "Raça", `${racaPj().nome} (${custoDaRaca()} PP)`],
     ["arquetipo", pj().rotulo_arquetipo, `${arquetipoPj().nome} · ${pj().rotulo_foco.toLowerCase()} ${focoPj().nome}` +
       (focoBasePj().variantes.length && !el("pj-variante").value ? ` · ${focoBasePj().rotulo_variante.toLowerCase()} sorteada` : "")],
+    temDivindades() && ["arquetipo", "Divindade", divindadePj()
+      ? `${divindadePj().nome} (${divindadePj().panteao})`
+      : el("pj-divindade").value === "sortear" ? "sorteada pelo gerador" : "nenhuma"],
     ["arquetipo", "Nível de poder", `NP ${np} (${np * 15} PP)`],
     !emPontos() && ["arquetipo", "Condição financeira", riquezaPj().nome],
     ["vantagens", "Vantagens", escolha("pj-vantagens-modo", "pj-vantagem", "escolhidas")],

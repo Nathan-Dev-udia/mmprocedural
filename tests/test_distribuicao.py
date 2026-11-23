@@ -37,8 +37,11 @@ def test_distribuicao_parecida_com_a_do_livro(genero):
 
 @pytest.mark.parametrize("genero", ["faroeste", "cyberpunk", "fantasia"])
 def test_pericias_fora_da_classe_ficam_baixas(genero):
+    divindades = (data_loader.carregar_genero(genero).get("divindades") or {}).get("por_id", {})
     for arquetipo, foco, np, pj in _fichas(genero):
-        da_classe = {p.split(":", 1)[1] for p in arquetipo["prioridades"] + foco.get("prioridades", [])
+        # As perícias da divindade (o clérigo sempre tem uma) contam como da classe.
+        da_divindade = divindades[pj["divindade"]["id"]]["prioridades"] if pj.get("divindade") else []
+        da_classe = {p.split(":", 1)[1] for p in arquetipo["prioridades"] + foco.get("prioridades", []) + da_divindade
                      if p.startswith("pericia:")}
         teto = player.teto_de_pericia_fora_da_classe(np)
         # Perícias de ataque (da arma ou da magia) e as da raça também são do personagem.

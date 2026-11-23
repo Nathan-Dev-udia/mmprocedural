@@ -498,3 +498,125 @@ def test_golias_e_minotauro_sao_grandes_e_pagam_o_saldo_do_tamanho(fantasia):
     valores_m, ficha_m = pj_m["validacao"]["valores"], pj_m["ficha"]
     assert valores_m["habilidades"]["For"] == ficha_m["habilidades"]["For"] + 2
     assert valores_m["habilidades"]["Vig"] == ficha_m["habilidades"]["Vig"] + 2
+
+
+# ---------------------------------------------------------------- divindades
+
+def _dominios_do_clerigo(fantasia):
+    return [f["id"] for f in fantasia["jogador"]["arquetipos"]["clerigo"]["focos"]]
+
+
+@pytest.mark.parametrize("np", [3, 5, 8])
+def test_todas_as_divindades_do_clerigo_fecham_o_orcamento(fantasia, np):
+    for divindade in fantasia["divindades"]["por_id"].values():
+        for dominio in divindade["dominios"]:
+            pj = gerar_pj(fantasia, "clerigo", np, dominio, divindade=divindade["id"])
+            assert pj["validacao"]["problemas"] == [], (divindade["id"], dominio, pj["validacao"]["problemas"])
+            assert pj["validacao"]["total_pp"] == rules.orcamento_de_jogador(np)
+
+
+@pytest.mark.parametrize("np", [3, 5, 8])
+def test_qualquer_classe_com_qualquer_divindade_fecha_o_orcamento(fantasia, np):
+    for arquetipo in fantasia["jogador"]["arquetipos"].values():
+        if arquetipo["id"] == "clerigo":
+            continue
+        for semente, divindade in enumerate(fantasia["divindades"]["por_id"]):
+            pj = gerar_pj(fantasia, arquetipo["id"], np, semente=semente, divindade=divindade)
+            assert pj["validacao"]["problemas"] == [], (arquetipo["id"], divindade, pj["validacao"]["problemas"])
+            assert pj["validacao"]["total_pp"] == rules.orcamento_de_jogador(np)
+
+
+def test_todo_panteao_tem_divindade_para_cada_dominio_do_clerigo(fantasia):
+    for panteao in fantasia["divindades"]["panteoes"]:
+        concedidos = {d for i in panteao["divindades"] for d in fantasia["divindades"]["por_id"][i]["dominios"]}
+        assert set(_dominios_do_clerigo(fantasia)) <= concedidos, panteao["id"]
+
+
+def test_clerigo_sem_pedido_sorteia_divindade_do_dominio(fantasia):
+    for semente in range(10):
+        pj = gerar_pj(fantasia, "clerigo", 5, "tempestade", semente=semente, panteao="nordico")
+        divindade = fantasia["divindades"]["por_id"][pj["divindade"]["id"]]
+        assert "tempestade" in divindade["dominios"] and divindade["panteao"]["id"] == "nordico"
+
+
+def test_clerigo_nao_fica_sem_divindade(fantasia):
+    with pytest.raises(generator.GeneratorError, match="precisa de uma divindade"):
+        gerar_pj(fantasia, "clerigo", 5, "vida", divindade="nenhuma")
+
+
+def test_clerigo_so_tem_dominio_da_sua_divindade(fantasia):
+    with pytest.raises(generator.GeneratorError, match="Thor não concede"):
+        gerar_pj(fantasia, "clerigo", 5, "vida", divindade="thor")
+
+
+def test_divindade_que_nao_existe(fantasia):
+    with pytest.raises(generator.GeneratorError):
+        gerar_pj(fantasia, "barbaro", 5, divindade="zeuz")
+
+
+def test_outras_classes_ficam_sem_divindade_por_padrao(fantasia):
+    pj = gerar_pj(fantasia, "barbaro", 5)
+    assert pj["divindade"] is None
+    assert not any(c["detalhe"].startswith("Dogma") for c in pj["complicacoes"])
+
+
+def test_arma_do_deus_e_a_principal_do_clerigo(fantasia):
+    pj = gerar_pj(fantasia, "clerigo", 5, "luz", divindade="apolo")
+    assert pj["ficha"]["equipamento"][0] == "arco_longo"
+
+
+@pytest.mark.parametrize("np", [3, 5, 8])
+def test_clerigo_treina_a_arma_do_deus_e_a_magia(fantasia, np):
+    for divindade, pericia in (("thor", "Combate Corpo-a-Corpo: Maças"), ("apolo", "Combate à Distância: Arcos"),
+                               ("odin", "Combate Corpo-a-Corpo: Lanças")):
+        info = fantasia["divindades"]["por_id"][divindade]
+        pj = gerar_pj(fantasia, "clerigo", np, info["dominios"][0], divindade=divindade)
+        pericias = pj["ficha"]["pericias"]
+        # Treinada: tem graduações ou o ataque com ela já está no limite do NP (a vantagem Ataque à Distância do
+        # clérigo pode bastar para o arco).
+        arma = fantasia["equipamentos"][info["arma"]]["nome"]
+        limite = next(l for l in pj["validacao"]["limites"] if l["nome"] == f"{arma}: ataque + dano")
+        assert pericias.get(pericia, 0) > 0 or limite["valor"] == limite["maximo"], (divindade, pericias)
+
+
+def test_barbaro_de_apolo_treina_o_arco_de_reserva(fantasia):
+    pj = gerar_pj(fantasia, "barbaro", 5, divindade="apolo")
+    assert pj["ficha"]["pericias"].get("Combate à Distância: Arcos", 0) > 0
+
+
+def test_barbaro_de_apolo_leva_o_arco_de_reserva(fantasia):
+    for semente in range(5):
+        pj = gerar_pj(fantasia, "barbaro", 5, semente=semente, divindade="apolo")
+        equipamento = pj["ficha"]["equipamento"]
+        assert equipamento[0] in fantasia["jogador"]["arquetipos"]["barbaro"]["armas"]["principais"]
+        assert "arco_longo" in equipamento
+
+
+def test_barbaro_de_chaac_luta_com_o_machado_do_deus(fantasia):
+    for semente in range(5):
+        pj = gerar_pj(fantasia, "barbaro", 5, semente=semente, divindade="chaac")
+        assert pj["ficha"]["equipamento"][0] == "machado_batalha"
+
+
+def test_dogma_entra_nas_complicacoes_e_na_descricao(fantasia):
+    pj = gerar_pj(fantasia, "paladino", 5, divindade="tyr")
+    dogma = pj["complicacoes"][-1]
+    assert dogma["nome"] == "Honra" and dogma["detalhe"].startswith("Dogma de Tyr:")
+    assert "Serve a Tyr" in pj["descricao"]
+    assert "de Tyr" in formatter.texto(pj)
+
+
+def test_dominio_pendente_some_da_divindade(fantasia):
+    assert fantasia["divindades"]["por_id"]["hefesto"]["dominios"] == []
+    assert fantasia["divindades"]["por_id"]["hades"]["dominios"] == ["morte"]
+
+
+def test_divindade_com_dominio_desconhecido_e_erro(fantasia):
+    bruto = {"classe_dos_dominios": "clerigo", "obrigatoria_para": ["clerigo"], "dominios_pendentes": [],
+             "panteoes": [{"id": "x", "nome": "X", "descricao": "", "divindades": [
+                 {"id": "deus", "nome": "Deus", "titulo": "T", "dominios": ["cozinha"], "arma": "maca",
+                  "prioridades": [], "simbolo": "S", "dogma": {"nome": "Honra", "detalhe": "D"}}]}]}
+    erros = []
+    data_loader._conferir_divindades(bruto, fantasia["jogador"], fantasia["vantagens"], fantasia["equipamentos"],
+                                     {"Honra"}, erros)
+    assert any("domínio desconhecido 'cozinha'" in e for e in erros)

@@ -245,6 +245,60 @@ def _conferir_jogador(bruto, vantagens_validas, equipamentos, erros, poderes_do_
     return {"riqueza": jogador.get("riqueza", []), "arquetipos": arquetipos, "racas": racas}
 
 
+CAMPOS_DA_DIVINDADE = ("id", "nome", "titulo", "dominios", "arma", "prioridades", "simbolo", "dogma")
+
+
+def _conferir_divindades(bruto, jogador, vantagens_validas, equipamentos, nomes_de_complicacao, erros):
+    """Confere divindades.json (opcional) e devolve as divindades prontas para o gerador.
+
+    Os domínios são ids das subclasses da classe_dos_dominios (o clérigo). Os que ainda não existem precisam
+    estar em dominios_pendentes, e somem da divindade até entrarem no gerador.
+    """
+    arquetipos = jogador["arquetipos"]
+    classe = bruto.get("classe_dos_dominios")
+    if classe not in arquetipos:
+        erros.append(f"divindades.json: classe_dos_dominios '{classe}' não é uma classe de jogador.")
+        return None
+    for obrigatoria in bruto.get("obrigatoria_para", []):
+        if obrigatoria not in arquetipos:
+            erros.append(f"divindades.json: obrigatoria_para tem a classe desconhecida '{obrigatoria}'.")
+    existentes = {f["id"] for f in arquetipos[classe]["focos"]}
+    pendentes = set(bruto.get("dominios_pendentes", []))
+    for dominio in pendentes & existentes:
+        erros.append(f"divindades.json: o domínio '{dominio}' já existe no gerador; tire-o de dominios_pendentes.")
+    panteoes, por_id = [], {}
+    for panteao in bruto.get("panteoes", []):
+        faltando = [c for c in ("id", "nome", "descricao", "divindades") if c not in panteao]
+        if faltando:
+            erros.append(f"divindades.json (panteão {panteao.get('id')}): faltam os campos {', '.join(faltando)}.")
+            continue
+        ids = []
+        for divindade in panteao["divindades"]:
+            rotulo = f"divindades.json ({panteao['id']}, {divindade.get('id')})"
+            faltando = [c for c in CAMPOS_DA_DIVINDADE if c not in divindade]
+            if faltando:
+                erros.append(f"{rotulo}: faltam os campos {', '.join(faltando)}.")
+                continue
+            if divindade["id"] in por_id:
+                erros.append(f"{rotulo}: id de divindade repetido.")
+            for dominio in divindade["dominios"]:
+                if dominio not in existentes | pendentes:
+                    erros.append(f"{rotulo}: domínio desconhecido '{dominio}'.")
+            arma = equipamentos.get(divindade["arma"])
+            if not arma or not arma.get("ataque"):
+                erros.append(f"{rotulo}: arma desconhecida '{divindade['arma']}'.")
+            _conferir_passos(rotulo, divindade["prioridades"], vantagens_validas, erros)
+            if divindade["dogma"].get("nome") not in nomes_de_complicacao or not divindade["dogma"].get("detalhe"):
+                erros.append(f"{rotulo}: o dogma precisa de um tipo de complicação válido e de um detalhe.")
+            por_id[divindade["id"]] = {**divindade, "panteao": {"id": panteao["id"], "nome": panteao["nome"]},
+                                       "dominios": [d for d in divindade["dominios"] if d in existentes]}
+            ids.append(divindade["id"])
+        panteoes.append({"id": panteao["id"], "nome": panteao["nome"], "descricao": panteao["descricao"],
+                         "divindades": ids})
+    return {"classe_dos_dominios": classe, "obrigatoria_para": bruto.get("obrigatoria_para", []),
+            "panteoes": panteoes, "por_id": por_id}
+
+
 def _generos_com_tipo(pasta, catalogo):
     raiz = Path(pasta) / "generos"
     if not raiz.is_dir():
@@ -420,6 +474,15 @@ def carregar_genero(genero_id, pasta=PASTA_DADOS):
                      vantagens_validas, erros)
     jogador = _conferir_jogador(bruto, vantagens_validas, equipamentos, erros, poderes_do_genero)
 
+    # Divindades são opcionais (só a fantasia tem): direcionam a arma, as perícias, o dogma e os domínios do clérigo.
+    divindades = None
+    if (pasta_genero / "divindades.json").is_file():
+        bruto_divindades = _ler_json(pasta_genero, "divindades.json", erros)
+        if bruto_divindades is not None:
+            nomes_de_complicacao = {c["nome"] for c in bruto["complications"].get("complicacoes", [])}
+            divindades = _conferir_divindades(bruto_divindades, jogador, vantagens_validas, equipamentos,
+                                              nomes_de_complicacao, erros)
+
     if erros:
         raise DataError([f"[{genero_id}] {e}" for e in erros])
 
@@ -442,5 +505,6 @@ def carregar_genero(genero_id, pasta=PASTA_DADOS):
         "vantagens": vantagens_validas,
         "vantagens_detalhes": bruto["vantagens"].get("vantagens", []),
         "jogador": jogador,
+        "divindades": divindades,
         "complicacoes": bruto["complications"],
     }

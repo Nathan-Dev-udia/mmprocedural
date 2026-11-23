@@ -51,8 +51,9 @@ def planilhas_disponiveis(genero_id):
 # 1.10 catálogo da fantasia ampliado com peso, massa e Velocidade, planilhas de armas, itens e poderes geradas dos
 # dados e Tabela de Medidas, 1.11 heróis conhecidos (fichas prontas da Marvel e da DC para buscar e consultar),
 # 1.12 Escudo do Mestre da fantasia (página, impressão, PDF e planilha),
-# 1.13 Gênero Escola de Magia completo (gerador, escudo, livros, quadribol e planilhas).
-VERSAO = "1.13.0"
+# 1.13 Gênero Escola de Magia completo (gerador, escudo, livros, quadribol e planilhas),
+# 1.14 divindades da fantasia (panteões grego, nórdico, egípcio e maia).
+VERSAO = "1.14.0"
 
 
 def _commit_atual():
@@ -113,6 +114,24 @@ def _foco_para_a_tela(arquetipo, foco):
             "substitui": foco.get("substitui", {}), "falhas": foco.get("falhas", [])}
 
 
+def _divindades_para_a_tela(DADOS):
+    """Panteões e divindades para os campos da classe (None nos gêneros sem divindades.json)."""
+    info = DADOS.get("divindades")
+    if not info:
+        return None
+    equipamentos = DADOS["equipamentos"]
+
+    def divindade(d):
+        return {"id": d["id"], "nome": d["nome"], "titulo": d["titulo"], "dominios": d["dominios"],
+                "arma": d["arma"], "arma_nome": equipamentos[d["arma"]]["nome"], "simbolo": d["simbolo"],
+                "pericias": [p.split(":", 1)[1] for p in d["prioridades"]],
+                "dogma": d["dogma"]}
+    return {"obrigatoria_para": info["obrigatoria_para"], "classe_dos_dominios": info["classe_dos_dominios"],
+            "panteoes": [{"id": p["id"], "nome": p["nome"], "descricao": p["descricao"],
+                          "divindades": [divindade(info["por_id"][i]) for i in p["divindades"]]}
+                         for p in info["panteoes"]]}
+
+
 def opcoes_da_interface(DADOS):
     """O que a página precisa para montar os campos do formulário de um gênero."""
     config = DADOS["configuracoes"]
@@ -164,6 +183,7 @@ def opcoes_da_interface(DADOS):
                        "tracos": player.tracos_da_raca(DADOS, r),
                        "custo_por_np": {np: player.custo_da_raca(DADOS, r, np) for np in config["nps_jogador"]}}
                       for r in player.racas(DADOS)],
+            "divindades": _divindades_para_a_tela(DADOS),
             "vantagens": [{"nome": v["nome"], "tipo": v["tipo"], "efeito": v["efeito"], "faroeste": v["faroeste"]}
                           for v in player.vantagens_do_jogador(DADOS)],
             "nps": config["nps_jogador"],
@@ -353,7 +373,8 @@ def gerar_jogador():
         nome=str(corpo.get("nome", "")).strip() or None, jogador=str(corpo.get("jogador", "")).strip(),
         rng=_rng(corpo), equipamento=corpo.get("equipamento"), vantagens=corpo.get("vantagens"),
         implantes=corpo.get("implantes"), raca=str(corpo.get("raca") or "") or None,
-        variante=str(corpo.get("variante") or "") or None)
+        variante=str(corpo.get("variante") or "") or None,
+        divindade=str(corpo.get("divindade") or "") or None, panteao=str(corpo.get("panteao") or "") or None)
     return jsonify({"personagem": _preparar(personagem)})
 
 

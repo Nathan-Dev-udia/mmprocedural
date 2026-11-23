@@ -1,6 +1,6 @@
 # Pendências
 
-Rascunho do que ficou para depois (atualizado na versão 1.7.0).
+Rascunho do que ficou para depois (atualizado na versão 1.14.0).
 
 ## Livros
 - **Chamado de Cthulhu:** o Livro do Jogador (`dados/livros/cthulhu_jogador.md`) e o Livro do Mestre (`dados/livros/cthulhu_mestre.md`) foram publicados em `dados/livros/`, integrados aos testes e ao download `.docx`, e aguardam leitura editorial do usuário.
@@ -14,6 +14,14 @@ Rascunho do que ficou para depois (atualizado na versão 1.7.0).
 - **Armaduras:** as graduações de Proteção seguem as equivalências adotadas do Manual dos Mecanismos Lite; os preços permanecem conversões do gênero. As fichas-base de hobgoblin e soldado usam cota de malha para continuar válidas com a meia-armadura em Proteção 5.
 - **Fichas incomuns mas válidas:** podem surgir combinações que não pareçam adequadas ao conceito, como um Campeão com Presença 4 ou um bugbear NP 7 com Furtividade +16. Ajustar manualmente quando o resultado não combinar com a cena.
 - **Mago rúnico:** o foco pode priorizar Runas e Prestidigitação em vez de uma perícia de ataque mágico; o livro agora explica como priorizar magia manualmente.
+
+## Divindades da fantasia (versão 1.14.0)
+- **Feito:** panteões grego, nórdico, egípcio e maia em `dados/generos/fantasia/divindades.json`, só com deuses de mitologias em domínio público (nada de D&D nem Pathfinder). A divindade não dá pontos: ela direciona a arma (principal no clérigo ou quando já é principal da classe; de reserva nas outras), as perícias (no fim das prioridades da classe), o treino da arma (mesmo em quem ataca com magia) e o dogma, que entra como complicação extra. É obrigatória só no clérigo, que só pode ter um domínio do seu deus; nas outras classes o padrão é "Sem divindade".
+- **Livro das Classes:** falta uma seção sobre os panteões e as divindades (como escolher, o que cada deus muda na ficha, a lista por panteão com domínios, arma e dogma).
+- **Domínios do compêndio:** Natureza, Forja, Sepultura, Arcanismo, Ordem, Paz e Crepúsculo estão em `dominios_pendentes` no `divindades.json`. Enquanto não existirem como subclasse do clérigo, deuses que só concedem esses domínios (Hefesto, Ártemis, Hécate, Eirene, Völund, Ptah, Ek Chuaj) não aparecem para o clérigo. Ao criar um domínio em `ferramentas/criar_fantasia_base.py`, tire-o de `dominios_pendentes` (o carregador acusa erro se ficar nos dois lugares). O rascunho de cada um (conceito, vantagens, perícias, magias novas necessárias) está em `referencias/dd/subclasses_compendio.json`, que fica fora do git (a pasta `referencias/` é ignorada).
+- **Panteão maia sem Forja:** de propósito (a metalurgia chegou tarde à região). Völund entrou no nórdico como herói ferreiro, não deus.
+- **Mais panteões:** celta e eslavo seriam os próximos candidatos. Evitar religiões vivas (orixás, deuses hindus).
+- **Catálogo do compêndio:** só o Clérigo foi catalogado; faltam as outras classes do `compendio-de-classes-e-subclasses.pdf`.
 
 ## Escudo do Mestre
 - **Fantasia, Faroeste, Cthulhu e Cyberpunk:** feitos (aba no site, impressão, PDF e planilha). Conteúdo em `dados/escudo/<gênero>.json`; o de Cthulhu e o de Cyberpunk são gerados por `ferramentas/criar_*_escudo.py` (edite o script, não o JSON). O do Cyberpunk resume o Livro do Mestre do gênero em 11 abas (uma página de PDF cada), com armas e modos de disparo, lesões críticas, Humanidade, NET, dinheiro e reputação; queda, tempo de viagem, veículos/montarias, carga e medidas são calculados dinamicamente em `nucleo/escudo.py`.

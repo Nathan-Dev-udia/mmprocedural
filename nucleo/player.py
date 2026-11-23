@@ -311,6 +311,10 @@ def _equipamento_automatico_em_partes(dados, arquetipo, foco, np, vantagens, rng
     outras armas e os opcionais, que só entram com o dinheiro que não fica guardado."""
     catalogo = dados["equipamentos"]
     cabe = [i for i in arquetipo["armas"]["principais"] if _cabe_no_np(catalogo[i], np, vantagens)]
+    # A arma da divindade (ver foco_com_divindade) toma o lugar da principal sorteada, se couber no NP.
+    da_divindade = foco.get("arma_principal")
+    if da_divindade and _cabe_no_np(catalogo[da_divindade], np, vantagens):
+        cabe = [da_divindade]
     lista = []
     armas_do_foco = [i for i in foco.get("armas", []) if _cabe_no_np(catalogo[i], np, vantagens)]
     if armas_do_foco:
@@ -323,6 +327,9 @@ def _equipamento_automatico_em_partes(dados, arquetipo, foco, np, vantagens, rng
     secundarias = [i for i in arquetipo["armas"]["secundarias"]
                    if i not in lista and _cabe_no_np(catalogo[i], np, vantagens)]
     secundaria = rng.choice(secundarias) if secundarias and rng.random() < 0.6 else None
+    reserva = foco.get("arma_secundaria")
+    if reserva and reserva not in lista and _cabe_no_np(catalogo[reserva], np, vantagens):
+        secundaria = reserva
     def municoes(armas):
         return list(dict.fromkeys(catalogo[a]["municao"] for a in armas if catalogo[a].get("municao")))
 
@@ -566,6 +573,84 @@ def escolher_variante(arquetipo, foco, variante_id, rng):
     return foco_com_variante(arquetipo, foco, variante)
 
 
+# ---------------------------------------------------------------- divindades
+
+SEM_DIVINDADE = "nenhuma"
+SORTEAR_DIVINDADE = "sortear"
+
+
+def escolher_divindade(dados, arquetipo, foco, pedido=None, panteao=None, rng=None):
+    """A divindade do personagem, ou None.
+
+    pedido: id da divindade, "sortear" ou "nenhuma". Sem pedido, as classes de obrigatoria_para (o clérigo)
+    sorteiam uma e as outras ficam sem. O clérigo só pode ter uma divindade que conceda o domínio dele, e o
+    sorteio só escolhe entre essas. panteao (id) limita o sorteio.
+    """
+    info = dados.get("divindades")
+    if not info:
+        return None
+    obrigatoria = arquetipo["id"] in info["obrigatoria_para"]
+    dos_dominios = arquetipo["id"] == info["classe_dos_dominios"]
+    pedido = pedido or (SORTEAR_DIVINDADE if obrigatoria else SEM_DIVINDADE)
+    if pedido == SEM_DIVINDADE:
+        if obrigatoria:
+            raise GeneratorError(f"{arquetipo['nome']} precisa de uma divindade.")
+        return None
+    if pedido == SORTEAR_DIVINDADE:
+        panteoes = [p for p in info["panteoes"] if not panteao or p["id"] == panteao]
+        if not panteoes:
+            raise GeneratorError(f"O panteão '{panteao}' não existe.")
+        candidatas = [info["por_id"][i] for p in panteoes for i in p["divindades"]]
+        if dos_dominios:
+            candidatas = [d for d in candidatas if foco["id"] in d["dominios"]]
+        if not candidatas:
+            raise GeneratorError(f"Nenhuma divindade{' desse panteão' if panteao else ''} concede {foco['nome']}.")
+        return (rng or random.Random()).choice(candidatas)
+    divindade = info["por_id"].get(pedido)
+    if divindade is None:
+        raise GeneratorError(f"A divindade '{pedido}' não existe.")
+    if dos_dominios and foco["id"] not in divindade["dominios"]:
+        nomes = {f["id"]: f["nome"] for f in arquetipo["focos"]}
+        concede = ", ".join(nomes[d] for d in divindade["dominios"]) or "nenhum domínio que já exista no gerador"
+        raise GeneratorError(f"{divindade['nome']} não concede {foco['nome']}. Domínios de {divindade['nome']}: "
+                             f"{concede}.")
+    return divindade
+
+
+def foco_com_divindade(dados, arquetipo, foco, divindade):
+    """O foco com as perícias e a arma da divindade.
+
+    A divindade não dá pontos: as perícias dela entram no fim das prioridades da classe (contam como perícias da
+    classe, mas não tiram pontos das que a classe precisa), e a arma muda só o que o gerador compra. No clérigo, a arma do deus é a principal. Nas outras classes, ela é a principal só se já estiver entre
+    as principais da classe (o bárbaro de Chaac luta de machado de batalha); se não, vem de reserva (o bárbaro de
+    Apolo continua com o machado grande e leva um arco).
+    """
+    if not divindade:
+        return foco
+    arma = divindade["arma"]
+    prioridades = list(dict.fromkeys(arquetipo["prioridades"] + divindade["prioridades"]))
+    resultado = {**foco, "substitui": {**foco.get("substitui", {}), "prioridades": prioridades}}
+    if arquetipo["id"] == dados["divindades"]["classe_dos_dominios"] or arma in arquetipo["armas"]["principais"]:
+        resultado["arma_principal"] = arma
+    else:
+        resultado["arma_secundaria"] = arma
+    return resultado
+
+
+def dogma_da_divindade(divindade):
+    """O dogma da divindade como complicação da ficha."""
+    return {"categoria": "complicacao", "nome": divindade["dogma"]["nome"],
+            "detalhe": f"Dogma de {divindade['nome']}: {divindade['dogma']['detalhe']}"}
+
+
+def resumo_da_divindade(divindade):
+    titulo = divindade["titulo"]
+    return {"id": divindade["id"], "nome": divindade["nome"], "titulo": titulo,
+            "panteao": divindade["panteao"], "simbolo": divindade["simbolo"],
+            "texto": f"Serve a {divindade['nome']} ({titulo[0].lower()}{titulo[1:]}, {divindade['panteao']['nome'].lower()}). "
+                     f"Símbolo sagrado: {divindade['simbolo'][0].lower()}{divindade['simbolo'][1:]}."}
+
+
 def implantes_da_escolha(arquetipo, foco):
     """(essenciais, opcionais) de implantes/magias para o arquétipo com esse foco: os do arquétipo (ou os que o
     foco põe no lugar) mais os do foco."""
@@ -693,13 +778,29 @@ def _aplicar_forca_minima(dados, arquetipo, ficha, np, orcamento, opcoes):
             return
 
 
+def _pericia_da_arma_da_divindade(dados, foco, ficha):
+    """Perícia de ataque da arma da divindade (ver foco_com_divindade), se o personagem a carrega."""
+    arma = foco.get("arma_principal") or foco.get("arma_secundaria")
+    if not ficha or not arma or arma not in ficha["equipamento"]:
+        return None
+    return dados["equipamentos"][arma].get("ataque", {}).get("pericia")
+
+
 def _passos(dados, arquetipo, foco, vantagens_extras, so_vantagens_escolhidas, vantagens, ficha=None, np=6):
     reserva = dados["configuracoes"].get("pericias_de_reserva", PERICIAS_DE_RESERVA)
     teto = teto_de_pericia_fora_da_classe(np)
     usadas = _pericias_de_ataque_que_usa(dados, ficha) if ficha else set()
+    de_ataque = _pericias_das_armas(dados, ficha) if ficha else []
+    # A arma da divindade é sempre treinada, mesmo por quem ataca com magia (o clérigo de Thor treina Maças, o
+    # grupo do martelo de guerra), logo depois da perícia de ataque principal.
+    da_divindade = _pericia_da_arma_da_divindade(dados, foco, ficha)
+    if da_divindade:
+        usadas = set(usadas) | {da_divindade}
+        de_ataque = [p for p in de_ataque if p != da_divindade]
+        de_ataque.insert(min(1, len(de_ataque)), da_divindade)
     passos = _sem_ataques_que_nao_usa([escalar.ler_passo(p) for p in foco.get("prioridades", [])], usadas)
     # As perícias de ataque vêm logo depois do foco.
-    passos += [{"tipo": "pericia", "nome": p} for p in (_pericias_das_armas(dados, ficha) if ficha else [])][:2]
+    passos += [{"tipo": "pericia", "nome": p} for p in de_ataque][:2]
     passos += _sem_ataques_que_nao_usa([escalar.ler_passo(p) for p in arquetipo["prioridades"]], usadas)
     da_classe = {p["nome"] for p in passos if p["tipo"] == "pericia"}
 
@@ -725,7 +826,7 @@ def _passos(dados, arquetipo, foco, vantagens_extras, so_vantagens_escolhidas, v
 
 def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
                      nome=None, jogador="", rng=None, equipamento=None, vantagens=None, implantes=None,
-                     raca=None, variante=None):
+                     raca=None, variante=None, divindade=None, panteao=None):
     """Gera uma ficha de PJ.
 
     equipamento: {"modo": "auto"} (padrão) ou {"modo": "manual", "ids": [...], "excesso": "pontos" | "divida"}.
@@ -736,6 +837,9 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
     implantes:   {"modo": "auto"} (padrão) ou {"modo": "manual", "ids": [...]} (só em gêneros com powers.json).
     raca:        id da raça (só em gêneros com "racas" no player.json; sem pedido, vale a primeira).
     variante:    id da variante do foco (ex.: a escola do bruxo); sem pedido, uma sorteada.
+    divindade:   id da divindade, "sortear" ou "nenhuma" (só em gêneros com divindades.json; ver
+                 escolher_divindade). O dogma dela entra nas complicações.
+    panteao:     id do panteão que limita o sorteio da divindade.
     """
     arquetipo = _arquetipo(dados, arquetipo_id)
     config = dados["configuracoes"]
@@ -748,12 +852,19 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
     rng = rng or random.Random()
     foco = escolher_variante(arquetipo, foco, variante, rng)
     arquetipo = arquetipo_com_foco(arquetipo, foco)
+    divindade = escolher_divindade(dados, arquetipo, foco, divindade, panteao, rng)
+    foco = foco_com_divindade(dados, arquetipo, foco, divindade)
+    arquetipo = arquetipo_com_foco(arquetipo, foco)
     riqueza = next((r for r in dados["jogador"]["riqueza"] if r["id"] == riqueza_id), None)
     if riqueza is None and em_pontos:
         riqueza = dados["jogador"]["riqueza"][0]
     if riqueza is None:
         raise GeneratorError(f"Opção de riqueza '{riqueza_id}' não existe.")
     complicacoes = _conferir_complicacoes(complicacoes)
+    if divindade:
+        dogma = dogma_da_divindade(divindade)
+        if not any(c["nome"] == dogma["nome"] and c["detalhe"] == dogma["detalhe"] for c in complicacoes):
+            complicacoes.append(dogma)
     equipamento = equipamento or {"modo": "auto"}
     vantagens_pedidas = vantagens or {"modo": "auto"}
     implantes_pedidos = implantes or {"modo": "auto"}
@@ -922,6 +1033,9 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
                   + f"Vantagens: {'escolhidas pelo jogador' if manual_vantagens else 'sorteadas pelo arquétipo'}.")
     if raca:
         observacao += f" Raça: {raca['nome']}."
+    divindade_resumo = resumo_da_divindade(divindade) if divindade else None
+    if divindade:
+        observacao += f" Divindade: {divindade['nome']} ({divindade['panteao']['nome'].lower()})."
     escolhas = {"equipamento": "manual" if manual_equipamento else "auto",
                 "vantagens": "manual" if manual_vantagens else "auto"}
     if tem_implantes:
@@ -936,6 +1050,7 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
         "jogador": jogador,
         "arquetipo": {"id": arquetipo["id"], "nome": arquetipo["nome"]},
         "raca": {"id": raca["id"], "nome": raca["nome"]} if raca else None,
+        "divindade": divindade_resumo,
         "capanga": False,
         "np_pretendido": np,
         "faixa": {"np": np, "nome": arquetipo["nome"],
@@ -946,7 +1061,8 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
                      "tatica": "", "tags": [], "status_dados": "validado", "fonte": "Foco do arquétipo"}],
         "combinacao": [foco["id"]],
         "repetida": False,
-        "descricao": f"{arquetipo['conceito']} {foco['descricao']}",
+        "descricao": f"{arquetipo['conceito']} {foco['descricao']}"
+                     + (f" {divindade_resumo['texto']}" if divindade_resumo else ""),
         "tatica": foco["descricao"],
         "complicacoes": complicacoes,
         "sanidade": sanidade_info,
