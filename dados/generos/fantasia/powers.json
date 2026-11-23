@@ -746,6 +746,58 @@
     "estatistica": "Invocar Elemental menor, Heroico"
   },
   {
+    "id": "olhos_da_noite",
+    "nome": "Olhos da noite",
+    "categoria": "divina",
+    "catalogo": "sombrios__visao_no_escuro",
+    "descricao": "O deus do crepúsculo deixa o clérigo enxergar no breu mais fundo. Fica de fora do arranjo.",
+    "tags": [
+      "percepcao"
+    ],
+    "estatistica": "Sentidos 2 (visão no escuro)"
+  },
+  {
+    "id": "lamina_psiquica",
+    "nome": "Lâmina psíquica",
+    "categoria": "marcial",
+    "catalogo": "magicos__fisgo_de_heshem_3",
+    "descricao": "Uma lâmina de energia psíquica que surge na mão, corta a mente e some depois do golpe.",
+    "tags": [
+      "combate"
+    ],
+    "graduacao_np": -2,
+    "estatistica": "Dano corpo a corpo, Penetrante (psíquico)",
+    "pericia": "Combate Corpo-a-Corpo: Adagas"
+  },
+  {
+    "id": "tentaculo_abissal",
+    "nome": "Tentáculo das profundezas",
+    "categoria": "pacto",
+    "catalogo": "congelantes__rajada_de_gelo",
+    "descricao": "Um tentáculo espectral de água gelada sai do chão e chicoteia o alvo.",
+    "tags": [
+      "combate"
+    ],
+    "arranjo": "Magia de pacto",
+    "graduacao_np": -1,
+    "estatistica": "Dano à Distância (frio do abismo)",
+    "pericia": "Combate à Distância: Magia"
+  },
+  {
+    "id": "enxame",
+    "nome": "Enxame",
+    "categoria": "natureza",
+    "catalogo": "vegetais__nuvem_de_polen",
+    "descricao": "Uma nuvem de espíritos da natureza (insetos, pássaros ou fadas) envolve e atordoa os inimigos.",
+    "tags": [
+      "controle",
+      "area"
+    ],
+    "arranjo": "Magia da natureza",
+    "graduacao_np": -1,
+    "estatistica": "Aflição, Área Nuvem (Fortitude; fatigado, exausto, incapacitado)"
+  },
+  {
     "id": "raio_necrotico",
     "nome": "Raio necrótico",
     "categoria": "arcana",

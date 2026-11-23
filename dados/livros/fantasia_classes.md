@@ -1,6 +1,6 @@
 # Livro das Classes e Subclasses
 
-*Fantasia medieval em Mutantes & Malfeitores · as 12 classes e as 88 subclasses, uma a uma*
+*Fantasia medieval em Mutantes & Malfeitores · as 12 classes e as 114 subclasses, uma a uma*
 
 ---
 
@@ -25,16 +25,16 @@
 - **Classes e Subclasses**
   - **Guerreiro**: Campeão, Mestre de batalha, Cavaleiro arcano, Cavaleiro, Arqueiro de elite, Gladiador, Arqueiro arcano, Samurai, Porta-estandarte, Cavaleiro do eco, Cavaleiro psiônico, Cavaleiro rúnico
   - **Bárbaro**: Caminho do furioso, Guerreiro totêmico, Selvagem das montanhas, Guardião ancestral, Coração de fera, Fúria de batalha, Arauto da tempestade, Fanático, Caminho da magia selvagem
-  - **Ladino**: Ladrão, Assassino, Trapaceiro arcano, Espadachim, Mestre da intriga
+  - **Ladino**: Ladrão, Assassino, Trapaceiro arcano, Espadachim, Mestre da intriga, Inquiridor, Batedor, Fantasma, Lâmina da alma
   - **Mago**: Escola de Evocação, Escola de Ilusão, Escola de Abjuração, Escola de Necromancia, Escola de Adivinhação, Escola de Encantamento, Escola de Transmutação, Mago rúnico, Lâmina cantante, Escola de Invocação, Mago da guerra, Cronurgia, Graviturgia, Ordem dos Escribas
-  - **Feiticeiro**: Linhagem dracônica, Magia selvagem, Alma da tempestade, Linhagem sombria, Mente aberrante
-  - **Bruxo**: Pacto com o Corruptor, Pacto com a Arquifada, Pacto com o Grande Antigo, Caçador de monstros (Escolas: Lobo, Gato, Grifo, Víbora, Urso, Manticora, Lince, Garça), Pacto da lâmina, Pacto com o Celestial
-  - **Clérigo**: Domínio da Vida, Domínio da Guerra, Domínio da Luz, Domínio da Tempestade, Domínio da Trapaça, Domínio da Morte, Domínio do Conhecimento
-  - **Paladino**: Juramento de Devoção, Juramento dos Anciões, Juramento de Vingança, Juramento da Coroa, Juramento de Conquista
-  - **Patrulheiro**: Caçador, Mestre das feras, Batedor da fronteira, Perseguidor sombrio, Andarilho feérico
-  - **Druida**: Círculo da Terra, Círculo da Lua, Círculo do Pastor, Círculo do Fogo selvagem, Círculo dos Esporos, Círculo das Estrelas
+  - **Feiticeiro**: Linhagem dracônica, Magia selvagem, Alma da tempestade, Linhagem sombria, Mente aberrante, Alma favorecida, Alma mecânica
+  - **Bruxo**: Pacto com o Corruptor, Pacto com a Arquifada, Pacto com o Grande Antigo, Caçador de monstros (Escolas: Lobo, Gato, Grifo, Víbora, Urso, Manticora, Lince, Garça), Pacto da lâmina, Pacto com o Celestial, Pacto com o Eterno, Pacto com o Abissal, Pacto com o Gênio
+  - **Clérigo**: Domínio da Vida, Domínio da Guerra, Domínio da Luz, Domínio da Tempestade, Domínio da Trapaça, Domínio da Morte, Domínio do Conhecimento, Domínio da Natureza, Domínio da Forja, Domínio da Sepultura, Domínio do Arcanismo, Domínio da Ordem, Domínio da Paz, Domínio do Crepúsculo
+  - **Paladino**: Juramento de Devoção, Juramento dos Anciões, Juramento de Vingança, Juramento da Coroa, Juramento de Conquista, Juramento da Redenção, Juramento da Glória, Juramento dos Vigilantes, Quebrador de juramento
+  - **Patrulheiro**: Caçador, Mestre das feras, Batedor da fronteira, Perseguidor sombrio, Andarilho feérico, Andarilho do horizonte, Exterminador de monstros, Protetor do enxame
+  - **Druida**: Círculo da Terra, Círculo da Lua, Círculo do Pastor, Círculo do Fogo selvagem, Círculo dos Esporos, Círculo das Estrelas, Círculo dos Sonhos
   - **Monge**: Caminho da Mão Aberta, Caminho da Sombra, Caminho dos Quatro Elementos, Caminho do Mestre Bêbado, Caminho da Alma Solar, Caminho do Kensei, Caminho da Morte Extensa, Caminho da Misericórdia, Caminho do Eu Astral
-  - **Bardo**: Colégio do Conhecimento, Colégio da Bravura, Colégio do Glamour, Colégio das Espadas, Colégio dos Sussurros
+  - **Bardo**: Colégio do Conhecimento, Colégio da Bravura, Colégio do Glamour, Colégio das Espadas, Colégio dos Sussurros, Colégio da Eloquência, Colégio da Criação
 
 ---
 
@@ -441,6 +441,38 @@ O espião das cortes. Contatos e Bem Relacionado trazem informação e favores, 
 
 {{subclasse:ladino:mestre_intriga}}
 
+### Inquiridor
+
+Desenterra segredos. Avaliação revela o bônus de ataque e as defesas de um inimigo, e Investigação, Intuição e Percepção vêm primeiro: ele nota cada detalhe e lê as intenções de quem mente.
+
+**Escolha se** quer um ladino detetive.
+
+{{subclasse:ladino:inquiridor}}
+
+### Batedor
+
+Vai na frente nas expedições. Ação em Movimento deixa ele atacar e continuar andando, e Sobrevivência e Percepção vêm primeiro. Carrega um arco curto para emboscar de longe.
+
+**Escolha se** quer um ladino das terras selvagens, perto do patrulheiro.
+
+{{subclasse:ladino:batedor}}
+
+### Fantasma
+
+Ligado à morte: ouve os mortos e guarda lembranças das almas que tirou. **Falar com os mortos** faz um cadáver responder a algumas perguntas, e Intuição e Enganação vêm primeiro.
+
+**Escolha se** quer um ladino sombrio, com um pé no sobrenatural.
+
+{{subclasse:ladino:fantasma}}
+
+### Lâmina da alma
+
+Ataca com a mente. A **Lâmina psíquica** surge na mão e corta através da guarda (Dano corpo a corpo Penetrante), atacando com Combate Corpo-a-Corpo: Adagas, e a **Telepatia** deixa ele falar de mente para mente. A adaga é a arma principal, para o treino cair na mesma perícia.
+
+**Escolha se** quer um ladino psíquico, que nunca fica desarmado.
+
+{{subclasse:ladino:lamina_alma}}
+
 ---
 
 ## Mago
@@ -615,6 +647,22 @@ Uma mente tocada por algo de fora do mundo. Telepatia fala mente a mente e Ler m
 
 {{subclasse:feiticeiro:mente_aberrante}}
 
+### Alma favorecida
+
+A magia vem de um ancestral divino. **Curar ferimentos** deixa ele curar além de destruir, e Religião e Tratamento vêm primeiro.
+
+**Escolha se** quer um feiticeiro que também cuida do grupo, como um clérigo de sangue.
+
+{{subclasse:feiticeiro:alma_favorecida}}
+
+### Alma mecânica
+
+A força cósmica da ordem. Segunda Chance representa o poder de equilibrar o acaso (rola de novo uma vez), e a **Armadura arcana** vem garantida. Especialidade: Magia e Investigação vêm primeiro.
+
+**Escolha se** quer um feiticeiro preciso e metódico, o oposto da magia selvagem.
+
+{{subclasse:feiticeiro:alma_mecanica}}
+
 ---
 
 ## Bruxo
@@ -725,6 +773,30 @@ Um ser de luz empresta poder de cura. A **Luz curativa** fecha feridas, e Tratam
 
 {{subclasse:bruxo:celestial}}
 
+### Pacto com o Eterno
+
+O patrono venceu a morte. Duro de Matar mostra que o bruxo também demora a cair, e **Falar com os mortos** vem do segredo do patrono. Religião e Tratamento vêm primeiro.
+
+**Escolha se** quer um bruxo ligado à imortalidade e aos mortos.
+
+{{subclasse:bruxo:eterno}}
+
+### Pacto com o Abissal
+
+Uma entidade das profundezas do mar. O **Tentáculo das profundezas** chicoteia o alvo com água gelada (Dano à distância), e Ambiente Favorito (aquático) faz ele lutar melhor na água. O Atletismo vem primeiro.
+
+**Escolha se** quer um bruxo do mar, ótimo em campanhas no litoral.
+
+{{subclasse:bruxo:abissal}}
+
+### Pacto com o Gênio
+
+Um gênio nobre dos planos elementais, guardado num recipiente que o bruxo carrega. A **Levitação** representa o ar e a liberdade do gênio, e a Persuasão vem primeiro: gênios gostam de negociar.
+
+**Escolha se** quer um bruxo de Mil e Uma Noites, que faz pedidos e cobra favores.
+
+{{subclasse:bruxo:genio}}
+
 ---
 
 ## Clérigo
@@ -793,6 +865,62 @@ Guarda os segredos da biblioteca do templo. Bem Informado, Investigação e Hist
 
 {{subclasse:clerigo:conhecimento}}
 
+### Domínio da Natureza
+
+Serve a um deus das matas e das colheitas. Empatia com Animais e **Falar com animais** deixam ele conversar com as feras, e a **Pele de casca** endurece a pele como madeira (Proteção, fora do arranjo). Natureza e Sobrevivência vêm primeiro.
+
+**Escolha se** quer um clérigo que se sente em casa no mato, perto do druida.
+
+{{subclasse:clerigo:natureza}}
+
+### Domínio da Forja
+
+O sacerdote ferreiro. Inventor deixa ele criar e consertar equipamento, e as ferramentas de ferreiro estão na bolsa. O **Escudo da fé** representa a bênção na armadura. A Força sobe logo depois da Prontidão, e a Especialidade: Ferraria vem primeiro. Combina com Hefesto, Ptah e Völund, que dão o martelo de guerra.
+
+**Escolha se** quer um clérigo de linha de frente, que bate de martelo e mantém as armas do grupo.
+
+{{subclasse:clerigo:forja}}
+
+### Domínio da Sepultura
+
+Guarda a fronteira entre a vida e a morte. **Expulsar mortos-vivos** afasta os mortos que não descansam, e **Falar com os mortos** faz um cadáver responder a algumas perguntas. Tratamento e Percepção vêm primeiro: ele cuida dos moribundos e percebe o que está errado.
+
+**Escolha se** quer um caçador de mortos-vivos que respeita a morte, ao contrário do Domínio da Morte.
+
+{{subclasse:clerigo:sepultura}}
+
+### Domínio do Arcanismo
+
+Serve a um deus da magia e estuda feitiços de mago como textos sagrados. Os **Mísseis mágicos** completam a Chama sagrada, e a Especialidade: Magia e a Investigação vêm primeiro.
+
+**Escolha se** quer um clérigo estudioso, que entende tanto de magia divina quanto arcana.
+
+{{subclasse:clerigo:arcanismo}}
+
+### Domínio da Ordem
+
+Servo da lei e da hierarquia. Liderança e Trabalho em Equipe fazem os aliados agirem melhor sob as ordens dele, e a **Palavra sagrada** (Aflição em área) obriga os inimigos a obedecer à força. Intimidação e Persuasão vêm primeiro.
+
+**Escolha se** quer um clérigo juiz, inquisidor ou comandante.
+
+{{subclasse:clerigo:ordem}}
+
+### Domínio da Paz
+
+O mediador do templo, que une os aliados para que um proteja o outro. Interpor-se deixa ele receber um golpe no lugar de um aliado, Trabalho em Equipe ajuda o grupo a agir junto e a **Palavra de cura** fecha feridas. Intuição e Persuasão vêm primeiro.
+
+**Escolha se** quer um clérigo pacifista, que protege mais do que ataca.
+
+{{subclasse:clerigo:paz}}
+
+### Domínio do Crepúsculo
+
+O vigia da noite. **Olhos da noite** dá visão no escuro (fora do arranjo), e Iniciativa Aprimorada faz ele agir antes quando algo sai da escuridão. A Luta sobe logo depois da Prontidão, e a Percepção vem primeiro.
+
+**Escolha se** quer um clérigo guardião, bom em masmorras e em campanhas de terror.
+
+{{subclasse:clerigo:crepusculo}}
+
 ---
 
 ## Paladino
@@ -845,6 +973,38 @@ Governa pelo medo e pela força. Assustar finta com Intimidação, e a **Presen�
 
 {{subclasse:paladino:conquista}}
 
+### Juramento da Redenção
+
+Usa a violência só como último recurso: acredita que todos podem mudar. Fascinar usa a Persuasão para acalmar e convencer, e Persuasão e Intuição vêm primeiro.
+
+**Escolha se** quer um paladino diplomata, que tenta resolver antes de lutar.
+
+{{subclasse:paladino:redencao}}
+
+### Juramento da Glória
+
+Destinado a feitos heroicos. Ação em Movimento deixa ele avançar e atacar sem parar, e Atletismo e Acrobacia vêm primeiro: é o atleta do grupo.
+
+**Escolha se** quer um paladino rápido e espetacular, com algo de herói grego.
+
+{{subclasse:paladino:gloria}}
+
+### Juramento dos Vigilantes
+
+Sentinela contra criaturas de outros planos. Iniciativa Aprimorada faz ele agir primeiro, e Percepção, Especialidade: Magia e Vontade sobem cedo: é difícil enganá-lo ou dominar a mente dele.
+
+**Escolha se** quer um paladino caçador de demônios e de seres de outros planos.
+
+{{subclasse:paladino:vigilantes}}
+
+### Quebrador de juramento
+
+O paladino que quebrou o juramento por ambição ou por um poder maligno. Assustar e a **Presença aterradora** espalham o medo, e o **Toque do ceifador** suga a vida. Intimidação e Enganação vêm primeiro. Pensado para vilões, mas serve para um herói caído que busca redenção.
+
+**Escolha se** o mestre precisa de um cavaleiro negro, ou se você quer jogar um paladino em queda.
+
+{{subclasse:paladino:quebrador}}
+
 ---
 
 ## Patrulheiro
@@ -894,6 +1054,30 @@ Tocado pelas fadas: encanta e some num piscar de olhos. **Passo nebuloso** telep
 **Escolha se** quer um patrulheiro encantador, que conversa tão bem quanto atira.
 
 {{subclasse:patrulheiro:andarilho_feerico}}
+
+### Andarilho do horizonte
+
+Guarda o mundo contra ameaças de outros planos. O **Passo nebuloso** leva ele de um lugar a outro num piscar de olhos, e Ação em Movimento deixa ele atirar e andar. Percepção e Especialidade: Magia vêm primeiro, para achar portais.
+
+**Escolha se** quer um patrulheiro que viaja entre os planos.
+
+{{subclasse:patrulheiro:andarilho_horizonte}}
+
+### Exterminador de monstros
+
+Caça vampiros, ínferos e bruxas. Avaliação revela o ponto fraco da presa, e Investigação e Religião vêm primeiro: ele estuda o monstro antes de atacar. Combina bem com Inimigo Favorito, que já vem da classe.
+
+**Escolha se** quer um caçador de monstros sem as mutações do bruxo caçador.
+
+{{subclasse:patrulheiro:exterminador}}
+
+### Protetor do enxame
+
+Um enxame de espíritos da natureza (insetos, pássaros ou fadas) acompanha o patrulheiro. O **Enxame** envolve os inimigos e os deixa fatigados e exaustos (Aflição em área). A Especialidade: Natureza vem primeiro.
+
+**Escolha se** quer um patrulheiro estranho e místico.
+
+{{subclasse:patrulheiro:enxame}}
 
 ---
 
@@ -954,6 +1138,14 @@ Lê o futuro nas constelações e lança luz estelar. A **Flecha estelar** ataca
 **Escolha se** quer um druida místico, entre o ataque e a adivinhação.
 
 {{subclasse:druida:estrelas}}
+
+### Círculo dos Sonhos
+
+Ligado ao reino das fadas. O **Passo nebuloso** abre caminhos escondidos entre dois lugares, e Tratamento e Furtividade vêm primeiro: ele cura com o calor do verão e protege o acampamento à noite.
+
+**Escolha se** quer um druida curandeiro e misterioso.
+
+{{subclasse:druida:sonhos}}
 
 ---
 
@@ -1090,3 +1282,19 @@ Espião que usa o medo e os segredos alheios. Contatos traz informação, os **S
 **Escolha se** quer um bardo sombrio, de intriga e chantagem.
 
 {{subclasse:bardo:sussurros}}
+
+### Colégio da Eloquência
+
+Mestre da oratória: um argumento bem dito convence mais que os fatos. Maestria em Perícia (Persuasão) deixa ele rolar com calma mesmo sob pressão, e Persuasão e Enganação vêm primeiro.
+
+**Escolha se** quer o bardo mais convincente da mesa.
+
+{{subclasse:bardo:eloquencia}}
+
+### Colégio da Criação
+
+Canta a Canção da Criação. Inventor deixa ele criar objetos, e as **Mãos mágicas** (Mover Objetos) representam o item dançante que ele anima com a música. A Especialidade: Música vem primeiro.
+
+**Escolha se** quer um bardo criativo, que resolve problemas inventando coisas.
+
+{{subclasse:bardo:criacao}}

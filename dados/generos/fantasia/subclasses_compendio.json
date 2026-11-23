@@ -2,7 +2,7 @@
   "_sobre": "Catálogo de apoio para converter subclasses do referencias/dd/compendio-de-classes-e-subclasses.pdf para o gerador. Não é lido pelo gerador: as subclasses entram de verdade em ferramentas/criar_fantasia_base.py (foco() na classe ou em EXTRAS).",
   "_formato": {
     "pagina": "Página do PDF (a numeração impressa bate com a do arquivo).",
-    "status": "no_gerador (já existe, só para controle) | pendente | convertida | descartada",
+    "status": "no_gerador (já existe, só para controle) | pendente | convertida | descartada (convertida: já está no gerador, talvez com ajustes em relação ao rascunho)",
     "id_gerador": "id do foco em criar_fantasia_base.py, quando já existe.",
     "conceito": "Resumo da ideia da subclasse em uma ou duas frases. Não é o texto do livro.",
     "caracteristicas": "As características que definem a subclasse, resumidas.",
@@ -15,17 +15,53 @@
       "nome": "Clérigo",
       "paginas": "60-78",
       "subclasses": [
-        { "nome": "Domínio do Conhecimento", "pagina": 64, "status": "no_gerador", "id_gerador": "conhecimento" },
-        { "nome": "Domínio da Enganação", "pagina": 65, "status": "no_gerador", "id_gerador": "trapaca", "observacoes": "No gerador se chama Domínio da Trapaça." },
-        { "nome": "Domínio da Guerra", "pagina": 66, "status": "no_gerador", "id_gerador": "guerra" },
-        { "nome": "Domínio da Luz", "pagina": 67, "status": "no_gerador", "id_gerador": "luz" },
-        { "nome": "Domínio da Tempestade", "pagina": 69, "status": "no_gerador", "id_gerador": "tempestade" },
-        { "nome": "Domínio da Vida", "pagina": 70, "status": "no_gerador", "id_gerador": "vida" },
-        { "nome": "Domínio da Morte", "pagina": 71, "status": "no_gerador", "id_gerador": "morte" },
+        {
+          "nome": "Domínio do Conhecimento",
+          "pagina": 64,
+          "status": "no_gerador",
+          "id_gerador": "conhecimento"
+        },
+        {
+          "nome": "Domínio da Enganação",
+          "pagina": 65,
+          "status": "no_gerador",
+          "id_gerador": "trapaca",
+          "observacoes": "No gerador se chama Domínio da Trapaça."
+        },
+        {
+          "nome": "Domínio da Guerra",
+          "pagina": 66,
+          "status": "no_gerador",
+          "id_gerador": "guerra"
+        },
+        {
+          "nome": "Domínio da Luz",
+          "pagina": 67,
+          "status": "no_gerador",
+          "id_gerador": "luz"
+        },
+        {
+          "nome": "Domínio da Tempestade",
+          "pagina": 69,
+          "status": "no_gerador",
+          "id_gerador": "tempestade"
+        },
+        {
+          "nome": "Domínio da Vida",
+          "pagina": 70,
+          "status": "no_gerador",
+          "id_gerador": "vida"
+        },
+        {
+          "nome": "Domínio da Morte",
+          "pagina": 71,
+          "status": "no_gerador",
+          "id_gerador": "morte"
+        },
         {
           "nome": "Domínio da Natureza",
           "pagina": 68,
-          "status": "pendente",
+          "status": "convertida",
           "conceito": "Clérigo de um deus das florestas e das colheitas. Mais ativo que um druida: caça monstros que invadem os bosques e abençoa (ou arruína) plantações.",
           "caracteristicas": [
             "Aprende um truque de druida e uma perícia entre Adestrar Animais, Natureza e Sobrevivência.",
@@ -35,21 +71,36 @@
             "No topo, comanda as feras e plantas enfeitiçadas."
           ],
           "rascunho_mm": {
-            "vantagens": ["Empatia com Animais"],
-            "prioridades": ["pericia:Especialidade: Natureza", "pericia:Especialidade: Sobrevivência"],
+            "vantagens": [
+              "Empatia com Animais"
+            ],
+            "prioridades": [
+              "pericia:Especialidade: Natureza",
+              "pericia:Especialidade: Sobrevivência"
+            ],
             "armas": [],
-            "itens": ["placas"],
-            "implantes": ["falar_com_animais", "pele_de_casca"]
+            "itens": [
+              "placas"
+            ],
+            "implantes": [
+              "falar_com_animais",
+              "pele_de_casca"
+            ]
           },
           "magias_novas": [
-            { "id": "enfeiticar_feras", "nome": "Enfeitiçar animais e plantas", "estatistica": "Aflição, Área Percepção (Vontade; tonto, compelido, controlado), só feras e plantas" }
+            {
+              "id": "enfeiticar_feras",
+              "nome": "Enfeitiçar animais e plantas",
+              "estatistica": "Aflição, Área Percepção (Vontade; tonto, compelido, controlado), só feras e plantas"
+            }
           ],
-          "observacoes": "falar_com_animais e pele_de_casca são da categoria natureza (druida). Conferir se o clérigo pode usar magias de fora do arranjo divino; se não puder, criar versões divinas."
+          "observacoes": "falar_com_animais e pele_de_casca são da categoria natureza (druida). Conferir se o clérigo pode usar magias de fora do arranjo divino; se não puder, criar versões divinas.",
+          "id_gerador": "natureza"
         },
         {
           "nome": "Domínio da Forja",
           "pagina": 72,
-          "status": "pendente",
+          "status": "convertida",
           "conceito": "Sacerdote ferreiro de deuses como Moradin. Forja armas e armaduras abençoadas e luta de armadura pesada na linha de frente.",
           "caracteristicas": [
             "Usa armadura pesada e ferramentas de ferreiro.",
@@ -58,22 +109,42 @@
             "Resiste a fogo e ganha +1 de CA de armadura pesada; no topo fica imune a fogo."
           ],
           "rascunho_mm": {
-            "vantagens": ["Inventor"],
-            "prioridades": ["habilidade:For", "pericia:Combate Corpo-a-Corpo: Maças", "pericia:Especialidade: Ferraria"],
-            "armas": ["martelo_guerra"],
-            "itens": ["placas", "ferramentas_ferreiro"],
+            "vantagens": [
+              "Inventor"
+            ],
+            "prioridades": [
+              "habilidade:For",
+              "pericia:Combate Corpo-a-Corpo: Maças",
+              "pericia:Especialidade: Ferraria"
+            ],
+            "armas": [
+              "martelo_guerra"
+            ],
+            "itens": [
+              "placas",
+              "ferramentas_ferreiro"
+            ],
             "implantes": []
           },
           "magias_novas": [
-            { "id": "bencao_da_forja", "nome": "Bênção da forja", "estatistica": "Proteção 1 ou +1 de Dano na arma, Sustentado (fora do arranjo, como escamas_draconicas)" },
-            { "id": "alma_da_forja", "nome": "Alma da forja", "estatistica": "Imunidade 5 (dano de fogo), Limitada a meio efeito" }
+            {
+              "id": "bencao_da_forja",
+              "nome": "Bênção da forja",
+              "estatistica": "Proteção 1 ou +1 de Dano na arma, Sustentado (fora do arranjo, como escamas_draconicas)"
+            },
+            {
+              "id": "alma_da_forja",
+              "nome": "Alma da forja",
+              "estatistica": "Imunidade 5 (dano de fogo), Limitada a meio efeito"
+            }
           ],
-          "observacoes": "A perícia Especialidade: Ferraria ainda não aparece em nenhuma classe; conferir se o gerador aceita especialidades novas sem cadastro."
+          "observacoes": "A perícia Especialidade: Ferraria ainda não aparece em nenhuma classe; conferir se o gerador aceita especialidades novas sem cadastro.",
+          "id_gerador": "forja"
         },
         {
           "nome": "Domínio da Sepultura",
           "pagina": 73,
-          "status": "pendente",
+          "status": "convertida",
           "conceito": "Guardião da fronteira entre a vida e a morte. Põe espíritos errantes para descansar, caça mortos-vivos e adia a morte de quem ainda tem trabalho a fazer.",
           "caracteristicas": [
             "Cura no máximo quem está a 0 PV e estabiliza à distância como ação bônus.",
@@ -83,22 +154,38 @@
             "No topo, cura aliados quando um inimigo morre por perto."
           ],
           "rascunho_mm": {
-            "vantagens": ["Duro de Matar"],
-            "prioridades": ["pericia:Tratamento", "pericia:Percepção"],
+            "vantagens": [
+              "Duro de Matar"
+            ],
+            "prioridades": [
+              "pericia:Tratamento",
+              "pericia:Percepção"
+            ],
             "armas": [],
             "itens": [],
-            "implantes": ["expulsar_mortos_vivos"]
+            "implantes": [
+              "expulsar_mortos_vivos"
+            ]
           },
           "magias_novas": [
-            { "id": "olhos_da_sepultura", "nome": "Olhos da sepultura", "estatistica": "Sentidos 2 (detectar mortos-vivos, Acurado)" },
-            { "id": "marca_da_sepultura", "nome": "Caminho da sepultura", "estatistica": "Enfraquecer Resistência à Distância (Vontade), só contra o próximo ataque" }
+            {
+              "id": "olhos_da_sepultura",
+              "nome": "Olhos da sepultura",
+              "estatistica": "Sentidos 2 (detectar mortos-vivos, Acurado)"
+            },
+            {
+              "id": "marca_da_sepultura",
+              "nome": "Caminho da sepultura",
+              "estatistica": "Enfraquecer Resistência à Distância (Vontade), só contra o próximo ataque"
+            }
           ],
-          "observacoes": "Fica perto do Domínio da Morte, mas pelo lado oposto: protege os mortos em vez de usar a morte como arma. Vale deixar isso claro na descrição."
+          "observacoes": "Fica perto do Domínio da Morte, mas pelo lado oposto: protege os mortos em vez de usar a morte como arma. Vale deixar isso claro na descrição.",
+          "id_gerador": "sepultura"
         },
         {
           "nome": "Domínio do Arcanismo",
           "pagina": 74,
-          "status": "pendente",
+          "status": "convertida",
           "conceito": "Sacerdote de um deus da magia (Mystra, Azuth, Boccob). Estuda feitiços de mago como textos sagrados e expulsa criaturas de outros planos.",
           "caracteristicas": [
             "Ganha a perícia Arcanismo e dois truques de mago.",
@@ -107,21 +194,33 @@
             "No topo, aprende magias de mago de 6º a 9º círculo."
           ],
           "rascunho_mm": {
-            "vantagens": ["Bem Informado"],
-            "prioridades": ["pericia:Especialidade: Magia", "pericia:Investigação"],
+            "vantagens": [
+              "Bem Informado"
+            ],
+            "prioridades": [
+              "pericia:Especialidade: Magia",
+              "pericia:Investigação"
+            ],
             "armas": [],
             "itens": [],
-            "implantes": ["misseis_magicos"]
+            "implantes": [
+              "misseis_magicos"
+            ]
           },
           "magias_novas": [
-            { "id": "abjuracao_arcana", "nome": "Abjuração arcana", "estatistica": "Aflição, Área Percepção (Vontade; tonto, compelido, banido), só extraplanares" }
+            {
+              "id": "abjuracao_arcana",
+              "nome": "Abjuração arcana",
+              "estatistica": "Aflição, Área Percepção (Vontade; tonto, compelido, banido), só extraplanares"
+            }
           ],
-          "observacoes": "misseis_magicos é magia arcana e usa a perícia de feitiço do mago. Ou cria uma versão divina, ou testa se o gerador monta dois arranjos no mesmo personagem (o Cavaleiro arcano e o Trapaceiro arcano podem servir de modelo)."
+          "observacoes": "misseis_magicos é magia arcana e usa a perícia de feitiço do mago. Ou cria uma versão divina, ou testa se o gerador monta dois arranjos no mesmo personagem (o Cavaleiro arcano e o Trapaceiro arcano podem servir de modelo).",
+          "id_gerador": "arcanismo"
         },
         {
           "nome": "Domínio da Ordem",
           "pagina": 75,
-          "status": "pendente",
+          "status": "convertida",
           "conceito": "Servo da lei e da hierarquia, mais preocupado com o procedimento do que com a justiça do resultado. Juiz de templo, inquisidor ou cobrador de uma guilda.",
           "caracteristicas": [
             "Usa armadura pesada e ganha Intimidação ou Persuasão.",
@@ -131,21 +230,34 @@
             "No topo, o alvo do seu Golpe Divino toma dano extra do próximo aliado que acertar."
           ],
           "rascunho_mm": {
-            "vantagens": ["Liderança", "Trabalho em Equipe"],
-            "prioridades": ["pericia:Intimidação", "pericia:Persuasão"],
+            "vantagens": [
+              "Liderança",
+              "Trabalho em Equipe"
+            ],
+            "prioridades": [
+              "pericia:Intimidação",
+              "pericia:Persuasão"
+            ],
             "armas": [],
-            "itens": ["placas"],
+            "itens": [
+              "placas"
+            ],
             "implantes": []
           },
           "magias_novas": [
-            { "id": "exigencia_da_ordem", "nome": "Exigência da ordem", "estatistica": "Aflição, Área Percepção (Vontade; tonto, compelido, controlado), Limitado a 1 rodada" }
+            {
+              "id": "exigencia_da_ordem",
+              "nome": "Exigência da ordem",
+              "estatistica": "Aflição, Área Percepção (Vontade; tonto, compelido, controlado), Limitado a 1 rodada"
+            }
           ],
-          "observacoes": "Voz da Autoridade não tem equivalente exato em M&M; Trabalho em Equipe e Liderança chegam perto."
+          "observacoes": "Voz da Autoridade não tem equivalente exato em M&M; Trabalho em Equipe e Liderança chegam perto.",
+          "id_gerador": "ordem"
         },
         {
           "nome": "Domínio da Paz",
           "pagina": 76,
-          "status": "pendente",
+          "status": "convertida",
           "conceito": "Mediador e diplomata do templo. Preside tratados, arbitra disputas e cria laços mágicos entre os aliados para que um proteja o outro.",
           "caracteristicas": [
             "Ganha Intuição, Atuação ou Persuasão.",
@@ -154,21 +266,34 @@
             "Um aliado vinculado se teleporta para receber o dano no lugar do outro."
           ],
           "rascunho_mm": {
-            "vantagens": ["Interpor-se", "Trabalho em Equipe"],
-            "prioridades": ["pericia:Intuição", "pericia:Persuasão"],
+            "vantagens": [
+              "Interpor-se",
+              "Trabalho em Equipe"
+            ],
+            "prioridades": [
+              "pericia:Intuição",
+              "pericia:Persuasão"
+            ],
             "armas": [],
             "itens": [],
-            "implantes": ["curar_ferimentos"]
+            "implantes": [
+              "curar_ferimentos"
+            ]
           },
           "magias_novas": [
-            { "id": "balsamo_da_paz", "nome": "Bálsamo da paz", "estatistica": "Cura, Área (só aliados no caminho)" }
+            {
+              "id": "balsamo_da_paz",
+              "nome": "Bálsamo da paz",
+              "estatistica": "Cura, Área (só aliados no caminho)"
+            }
           ],
-          "observacoes": "Vínculo Protetor é quase a vantagem Interpor-se de M&M, por isso ela vira essencial aqui. curar_ferimentos já vem da classe; trocar por balsamo_da_paz quando ela existir."
+          "observacoes": "Vínculo Protetor é quase a vantagem Interpor-se de M&M, por isso ela vira essencial aqui. curar_ferimentos já vem da classe; trocar por balsamo_da_paz quando ela existir.",
+          "id_gerador": "paz"
         },
         {
           "nome": "Domínio do Crepúsculo",
           "pagina": 77,
-          "status": "pendente",
+          "status": "convertida",
           "conceito": "Vigia da noite. Faz a escuridão ser conforto e não terror: enxerga no breu, protege quem dorme e enfrenta os horrores que saem à noite.",
           "caracteristicas": [
             "Usa armas marciais e armadura pesada.",
@@ -178,22 +303,49 @@
             "Voa quando está na penumbra ou no escuro."
           ],
           "rascunho_mm": {
-            "vantagens": ["Iniciativa Aprimorada"],
-            "prioridades": ["pericia:Percepção", "habilidade:Lut", "pericia:Combate Corpo-a-Corpo: Espadas"],
-            "armas": ["espada_longa"],
-            "itens": ["placas"],
+            "vantagens": [
+              "Iniciativa Aprimorada"
+            ],
+            "prioridades": [
+              "pericia:Percepção",
+              "habilidade:Lut",
+              "pericia:Combate Corpo-a-Corpo: Espadas"
+            ],
+            "armas": [
+              "espada_longa"
+            ],
+            "itens": [
+              "placas"
+            ],
             "implantes": []
           },
           "magias_novas": [
-            { "id": "olhos_da_noite", "nome": "Olhos da noite", "estatistica": "Sentidos 2 (visão no escuro), fora do arranjo, como visao_escuro" },
-            { "id": "santuario_crepusculo", "nome": "Santuário do crepúsculo", "estatistica": "Vontade Aumentada, Área (aliados), Limitada a medo e encanto" },
-            { "id": "passos_da_noite", "nome": "Passos da noite", "estatistica": "Voo 2, só na penumbra ou no escuro" }
+            {
+              "id": "olhos_da_noite",
+              "nome": "Olhos da noite",
+              "estatistica": "Sentidos 2 (visão no escuro), fora do arranjo, como visao_escuro"
+            },
+            {
+              "id": "santuario_crepusculo",
+              "nome": "Santuário do crepúsculo",
+              "estatistica": "Vontade Aumentada, Área (aliados), Limitada a medo e encanto"
+            },
+            {
+              "id": "passos_da_noite",
+              "nome": "Passos da noite",
+              "estatistica": "Voo 2, só na penumbra ou no escuro"
+            }
           ],
-          "observacoes": "É o domínio mais forte do livro em D&D. Em M&M o limite de NP já segura isso, mas são três magias novas, então talvez seja melhor cortar uma."
+          "observacoes": "É o domínio mais forte do livro em D&D. Em M&M o limite de NP já segura isso, mas são três magias novas, então talvez seja melhor cortar uma.",
+          "id_gerador": "crepusculo"
         }
       ],
       "extras_da_classe": [
-        { "nome": "Golpe Abençoado", "pagina": 78, "observacoes": "Característica opcional que troca Golpe Divino ou Conjuração Potente. Não é subclasse; não precisa entrar." }
+        {
+          "nome": "Golpe Abençoado",
+          "pagina": 78,
+          "observacoes": "Característica opcional que troca Golpe Divino ou Conjuração Potente. Não é subclasse; não precisa entrar."
+        }
       ]
     }
   }

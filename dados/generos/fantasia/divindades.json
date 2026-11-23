@@ -5,11 +5,12 @@
     "obrigatoria_para": "Classes que sempre têm divindade (sem pedido, o gerador sorteia uma). As outras podem ficar sem divindade, que é o padrão.",
     "classe_dos_dominios": "A classe cujas subclasses são os domínios: ela só pode ter um domínio da sua divindade, e a arma do deus vira a arma principal. Nas outras classes, a arma do deus vira a principal só se já estiver entre as principais da classe; se não, entra como arma de reserva.",
     "dominios_pendentes": "Domínios do compêndio que ainda não existem como subclasse (ver subclasses_compendio.json, nesta pasta). O gerador os ignora até entrarem; quando um entrar, tire-o desta lista.",
+    "dominios_ausentes": "Num panteão: domínios que ficam sem divindade de propósito (o maia não tem deus da forja). O clérigo desse panteão não pode ter esses domínios.",
     "dogma": "Complicação no formato do complications.json: 'nome' é o tipo e 'detalhe' é o texto."
   },
   "obrigatoria_para": ["clerigo"],
   "classe_dos_dominios": "clerigo",
-  "dominios_pendentes": ["natureza", "forja", "sepultura", "arcanismo", "ordem", "paz", "crepusculo"],
+  "dominios_pendentes": [],
   "panteoes": [
     {
       "id": "grego",
@@ -283,6 +284,7 @@
       "nome": "Panteão maia",
       "descricao": "Os deuses do milho, da chuva e do calendário sagrado, e os senhores de Xibalbá, o mundo dos mortos.",
       "_observacao": "Os nomes variam muito entre as fontes e as regiões. Seguimos as grafias mais usadas em português. Nenhum deus maia é ligado à forja, porque a metalurgia chegou tarde à região; por isso esse domínio fica sem divindade aqui.",
+      "dominios_ausentes": ["forja"],
       "divindades": [
         {
           "id": "itzamna", "nome": "Itzamná", "titulo": "Senhor dos céus, inventor da escrita e da medicina",

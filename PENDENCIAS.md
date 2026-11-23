@@ -18,7 +18,7 @@ Rascunho do que ficou para depois (atualizado na versão 1.14.0).
 ## Divindades da fantasia (versão 1.14.0)
 - **Feito:** panteões grego, nórdico, egípcio e maia em `dados/generos/fantasia/divindades.json`, só com deuses de mitologias em domínio público (nada de D&D nem Pathfinder). A divindade não dá pontos: ela direciona a arma (principal no clérigo ou quando já é principal da classe; de reserva nas outras), as perícias (no fim das prioridades da classe), o treino da arma (mesmo em quem ataca com magia) e o dogma, que entra como complicação extra. É obrigatória só no clérigo, que só pode ter um domínio do seu deus; nas outras classes o padrão é "Sem divindade".
 - **Livro das Classes:** falta uma seção sobre os panteões e as divindades (como escolher, o que cada deus muda na ficha, a lista por panteão com domínios, arma e dogma).
-- **Domínios do compêndio:** Natureza, Forja, Sepultura, Arcanismo, Ordem, Paz e Crepúsculo estão em `dominios_pendentes` no `divindades.json`. Enquanto não existirem como subclasse do clérigo, deuses que só concedem esses domínios (Hefesto, Ártemis, Hécate, Eirene, Völund, Ptah, Ek Chuaj) não aparecem para o clérigo. Ao criar um domínio em `ferramentas/criar_fantasia_base.py`, tire-o de `dominios_pendentes` (o carregador acusa erro se ficar nos dois lugares). O rascunho de cada um (conceito, vantagens, perícias, magias novas necessárias) está em `dados/generos/fantasia/subclasses_compendio.json` (o gerador não lê esse arquivo; é o catálogo de apoio feito a partir do `referencias/dd/compendio-de-classes-e-subclasses.pdf`).
+- **Domínios do compêndio (feito na versão 1.16.0):** Natureza, Forja, Sepultura, Arcanismo, Ordem, Paz e Crepúsculo viraram subclasses do clérigo, e `dominios_pendentes` no `divindades.json` ficou vazio. Se um domínio novo for planejado antes de existir, ele entra nessa lista (o carregador acusa erro se ficar nos dois lugares). O panteão maia declara `dominios_ausentes: ["forja"]`: o clérigo maia não pode ser da Forja. O rascunho de cada um (conceito, vantagens, perícias, magias novas necessárias) está em `dados/generos/fantasia/subclasses_compendio.json` (o gerador não lê esse arquivo; é o catálogo de apoio feito a partir do `referencias/dd/compendio-de-classes-e-subclasses.pdf`).
 - **Panteão maia sem Forja:** de propósito (a metalurgia chegou tarde à região). Völund entrou no nórdico como herói ferreiro, não deus.
 - **Mais panteões:** celta e eslavo seriam os próximos candidatos. Evitar religiões vivas (orixás, deuses hindus).
 - **Catálogo do compêndio:** só o Clérigo foi catalogado; faltam as outras classes do `compendio-de-classes-e-subclasses.pdf`.
@@ -29,19 +29,20 @@ Comparação do `referencias/dd/compendio-de-classes-e-subclasses.pdf` com o ger
 | Classe | Falta no gerador | Qtd. | Situação |
 |---|---|---|---|
 | Artífice | A classe inteira, mais Alquimista, Armeiro, Artilheiro e Ferreiro de Batalha | 1 + 4 | pendente |
-| Clérigo | Natureza, Forja, Sepultura, Arcanismo, Ordem, Paz, Crepúsculo | 7 | pendente (rascunho em `subclasses_compendio.json`) |
+| Clérigo | Natureza, Forja, Sepultura, Arcanismo, Ordem, Paz, Crepúsculo | 7 | **feito** (versão 1.16.0) |
 | Guerreiro | Arqueiro Arcano, Samurai, Ginete, Cavaleiro do Eco, Cavaleiro Psiônico, Cavaleiro Rúnico | 6 | **feito** (versão 1.15.0; o Ginete entrou como Porta-estandarte, porque é o Cavaleiro Dragão Púrpura, não um cavaleiro montado) |
 | Mago | Invocação, Mago da Guerra, Cronurgia, Graviturgia, Ordem dos Escribas | 5 | **feito** (versão 1.15.0) |
 | Bárbaro | Fúria de Batalha, Arauto da Tempestade, Fanático, Caminho da Magia | 4 | **feito** (versão 1.15.0) |
-| Ladino | Inquiridor, Batedor, Fantasma, Lâmina da Alma | 4 | pendente |
+| Ladino | Inquiridor, Batedor, Fantasma, Lâmina da Alma | 4 | **feito** (versão 1.16.0) |
 | Monge | Kensei, Morte Extensa, Misericórdia, Eu Astral | 4 | **feito** (versão 1.15.0) |
-| Paladino | Redenção, Glória, Vigilantes, Quebrador de Juramento (bom para vilões) | 4 | pendente |
-| Bruxo | Eterno, Abissal, Gênio | 3 | pendente |
-| Patrulheiro | Andarilho do Horizonte, Exterminador de Monstros, Protetor do Enxame | 3 | pendente |
-| Bardo | Eloquência, Criação | 2 | pendente |
-| Feiticeiro | Alma Favorecida, Alma Mecânica | 2 | pendente |
-| Druida | Círculo dos Sonhos | 1 | pendente |
+| Paladino | Redenção, Glória, Vigilantes, Quebrador de Juramento (bom para vilões) | 4 | **feito** (versão 1.16.0) |
+| Bruxo | Eterno, Abissal, Gênio | 3 | **feito** (versão 1.16.0) |
+| Patrulheiro | Andarilho do Horizonte, Exterminador de Monstros, Protetor do Enxame | 3 | **feito** (versão 1.16.0) |
+| Bardo | Eloquência, Criação | 2 | **feito** (versão 1.16.0) |
+| Feiticeiro | Alma Favorecida, Alma Mecânica | 2 | **feito** (versão 1.16.0) |
+| Druida | Círculo dos Sonhos | 1 | **feito** (versão 1.16.0) |
 
+- **Magias novas da versão 1.16.0** (conferir na mesa): Olhos da noite (Crepúsculo, visão no escuro fora do arranjo), Lâmina psíquica (Lâmina da alma, usa Adagas), Tentáculo das profundezas (Abissal) e Enxame (Protetor do enxame). As outras 22 subclasses da versão reaproveitam magias que já existiam.
 - **Magias novas da versão 1.15.0** (conferir na mesa se não ficaram fortes demais): Flecha arcana (Arqueiro arcano, disparada com o arco), Aura da tempestade (Arauto da tempestade, dano em área sem ataque, só em fúria), Braços do eu astral (Eu Astral, usa Briga), Estase momentânea (Cronurgia), Pressão gravitacional (Graviturgia) e Invocar elemental (Invocação, fora do arranjo).
 
 ## Escudo do Mestre

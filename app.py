@@ -53,8 +53,9 @@ def planilhas_disponiveis(genero_id):
 # 1.12 Escudo do Mestre da fantasia (página, impressão, PDF e planilha),
 # 1.13 Gênero Escola de Magia completo (gerador, escudo, livros, quadribol e planilhas),
 # 1.14 divindades da fantasia (panteões grego, nórdico, egípcio e maia),
-# 1.15 19 subclasses do compêndio (guerreiro, bárbaro, monge e mago).
-VERSAO = "1.15.0"
+# 1.15 19 subclasses do compêndio (guerreiro, bárbaro, monge e mago),
+# 1.16 mais 26 subclasses do compêndio (clérigo, ladino, paladino, bruxo, patrulheiro, bardo, feiticeiro e druida).
+VERSAO = "1.16.0"
 
 
 def _commit_atual():

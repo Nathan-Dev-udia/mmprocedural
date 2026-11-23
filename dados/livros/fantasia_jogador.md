@@ -505,20 +505,20 @@ Duas subclasses vão além:
 |----|----|----|----|----|----|
 | **Guerreiro** | Mestre das armas e da armadura, na linha de frente. | Luta, Vigor e Força | Ataque Poderoso, Iniciativa Aprimorada, Rolamento Defensivo | Retomar o fôlego | Campeão, Mestre de batalha, Cavaleiro arcano, Cavaleiro, Arqueiro de elite, Gladiador, Arqueiro arcano, Samurai, Porta-estandarte, Cavaleiro do eco, Cavaleiro psiônico, Cavaleiro rúnico |
 | **Bárbaro** | Guerreiro selvagem movido pela fúria. | Força, Vigor e Luta | Ataque Poderoso, Destemido, Duro de Matar | Fúria | Caminho do furioso, Guerreiro totêmico, Selvagem das montanhas, Guardião ancestral, Coração de fera, Fúria de batalha, Arauto da tempestade, Fanático, Magia selvagem |
-| **Ladino** | Furtividade, armadilhas e golpes pelas costas. | Agilidade e Destreza | Finta Ágil, Evasão, Ferramentas Aprimoradas | — | Ladrão, Assassino, Trapaceiro arcano, Espadachim, Mestre da intriga |
+| **Ladino** | Furtividade, armadilhas e golpes pelas costas. | Agilidade e Destreza | Finta Ágil, Evasão, Ferramentas Aprimoradas | — | Ladrão, Assassino, Trapaceiro arcano, Espadachim, Mestre da intriga, Inquiridor, Batedor, Fantasma, Lâmina da alma |
 | **Mago** | Estudioso da magia arcana, com grimório. | Intelecto e Destreza | Ritualista, Esforço Extraordinário | Raio de fogo, Armadura arcana | Evocação, Ilusão, Abjuração, Necromancia, Adivinhação, Encantamento, Transmutação, Mago rúnico, Lâmina cantante, Invocação, Mago da guerra, Cronurgia, Graviturgia, Ordem dos Escribas |
-| **Feiticeiro** | Magia no sangue, conjurada por instinto. | Presença e Destreza | Esforço Extraordinário, Destemido | Raio de fogo | Linhagem dracônica, Magia selvagem, Alma da tempestade, Linhagem sombria, Mente aberrante |
-| **Bruxo** | Fez um pacto com um ser poderoso. | Presença e Destreza | Esforço Extraordinário, Assustar | Rajada mística | Corruptor, Arquifada, Grande Antigo, Caçador de monstros, Pacto da lâmina, Celestial |
-| **Clérigo** | Sacerdote guerreiro do seu deus. | Prontidão e Vigor | Inspirar, Ritualista | Chama sagrada, Curar ferimentos | Vida, Guerra, Luz, Tempestade, Trapaça, Morte, Conhecimento |
-| **Paladino** | Cavaleiro sagrado ligado a um juramento. | Luta e Força | Destemido, Interpor-se | Cura pelas mãos, Aura de coragem | Devoção, Anciões, Vingança, Coroa, Conquista |
-| **Patrulheiro** | Caçador e batedor das terras selvagens. | Destreza, Prontidão e Agilidade | Rastrear, Inimigo Favorito | Passo sem rastro | Caçador, Mestre das feras, Batedor da fronteira, Perseguidor sombrio, Andarilho feérico |
-| **Druida** | Guardião da natureza. | Prontidão e Vigor | Empatia com Animais, Ritualista | Chamar relâmpago, Bálsamo da natureza | Terra, Lua, Pastor, Fogo selvagem, Esporos, Estrelas |
+| **Feiticeiro** | Magia no sangue, conjurada por instinto. | Presença e Destreza | Esforço Extraordinário, Destemido | Raio de fogo | Linhagem dracônica, Magia selvagem, Alma da tempestade, Linhagem sombria, Mente aberrante, Alma favorecida, Alma mecânica |
+| **Bruxo** | Fez um pacto com um ser poderoso. | Presença e Destreza | Esforço Extraordinário, Assustar | Rajada mística | Corruptor, Arquifada, Grande Antigo, Caçador de monstros, Pacto da lâmina, Celestial, Eterno, Abissal, Gênio |
+| **Clérigo** | Sacerdote guerreiro do seu deus. | Prontidão e Vigor | Inspirar, Ritualista | Chama sagrada, Curar ferimentos | Vida, Guerra, Luz, Tempestade, Trapaça, Morte, Conhecimento, Natureza, Forja, Sepultura, Arcanismo, Ordem, Paz, Crepúsculo |
+| **Paladino** | Cavaleiro sagrado ligado a um juramento. | Luta e Força | Destemido, Interpor-se | Cura pelas mãos, Aura de coragem | Devoção, Anciões, Vingança, Coroa, Conquista, Redenção, Glória, Vigilantes, Quebrador de juramento |
+| **Patrulheiro** | Caçador e batedor das terras selvagens. | Destreza, Prontidão e Agilidade | Rastrear, Inimigo Favorito | Passo sem rastro | Caçador, Mestre das feras, Batedor da fronteira, Perseguidor sombrio, Andarilho feérico, Andarilho do horizonte, Exterminador de monstros, Protetor do enxame |
+| **Druida** | Guardião da natureza. | Prontidão e Vigor | Empatia com Animais, Ritualista | Chamar relâmpago, Bálsamo da natureza | Terra, Lua, Pastor, Fogo selvagem, Esporos, Estrelas, Sonhos |
 | **Monge** | Artista marcial que domina o ki. | Agilidade e Luta | Evasão, Iniciativa Aprimorada | Artes marciais, Golpe atordoante | Mão Aberta, Sombra, Quatro Elementos, Mestre Bêbado, Alma Solar, Kensei, Morte Extensa, Misericórdia, Eu Astral |
-| **Bardo** | Músico cuja magia vem da música. | Presença e Destreza | Inspirar, Fascinar | Zombaria cruel, Palavra de cura | Conhecimento, Bravura, Glamour, Espadas, Sussurros |
+| **Bardo** | Músico cuja magia vem da música. | Presença e Destreza | Inspirar, Fascinar | Zombaria cruel, Palavra de cura | Conhecimento, Bravura, Glamour, Espadas, Sussurros, Eloquência, Criação |
 
 **Habilidades principais** são as que o gerador sobe primeiro. Quando elas batem nos limites do NP, a sobra vai para as habilidades secundárias da classe (o Apêndice diz quais), que nunca passam da principal mais alta: um bárbaro gerado não sai com mais Presença que Força, nem com Intelecto alto. A Destreza dos conjuradores é a mira das magias de ataque (Combate à Distância: Magia). Algumas subclasses trocam a habilidade principal: o Arqueiro de elite usa Destreza no lugar da Força.
 
-São **88 subclasses** ao todo. O conceito de cada uma, as vantagens, as magias e os itens estão no **Apêndice**.
+São **114 subclasses** ao todo. O conceito de cada uma, as vantagens, as magias e os itens estão no **Apêndice**.
 
 **Dicas rápidas para quem vem de D&D:**
 

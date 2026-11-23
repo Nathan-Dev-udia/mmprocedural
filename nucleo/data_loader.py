@@ -293,8 +293,12 @@ def _conferir_divindades(bruto, jogador, vantagens_validas, equipamentos, nomes_
             por_id[divindade["id"]] = {**divindade, "panteao": {"id": panteao["id"], "nome": panteao["nome"]},
                                        "dominios": [d for d in divindade["dominios"] if d in existentes]}
             ids.append(divindade["id"])
+        ausentes = panteao.get("dominios_ausentes", [])
+        for dominio in ausentes:
+            if dominio not in existentes | pendentes:
+                erros.append(f"divindades.json (panteão {panteao['id']}): domínio ausente desconhecido '{dominio}'.")
         panteoes.append({"id": panteao["id"], "nome": panteao["nome"], "descricao": panteao["descricao"],
-                         "divindades": ids})
+                         "divindades": ids, "dominios_ausentes": ausentes})
     return {"classe_dos_dominios": classe, "obrigatoria_para": bruto.get("obrigatoria_para", []),
             "panteoes": panteoes, "por_id": por_id}
 

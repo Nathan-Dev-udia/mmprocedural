@@ -529,7 +529,9 @@ def test_qualquer_classe_com_qualquer_divindade_fecha_o_orcamento(fantasia, np):
 def test_todo_panteao_tem_divindade_para_cada_dominio_do_clerigo(fantasia):
     for panteao in fantasia["divindades"]["panteoes"]:
         concedidos = {d for i in panteao["divindades"] for d in fantasia["divindades"]["por_id"][i]["dominios"]}
-        assert set(_dominios_do_clerigo(fantasia)) <= concedidos, panteao["id"]
+        # Domínios ausentes de propósito (o maia não tem deus da forja) ficam de fora, e só eles.
+        faltam = set(_dominios_do_clerigo(fantasia)) - concedidos
+        assert faltam == set(panteao["dominios_ausentes"]), panteao["id"]
 
 
 def test_clerigo_sem_pedido_sorteia_divindade_do_dominio(fantasia):
@@ -606,9 +608,11 @@ def test_dogma_entra_nas_complicacoes_e_na_descricao(fantasia):
     assert "de Tyr" in formatter.texto(pj)
 
 
-def test_dominio_pendente_some_da_divindade(fantasia):
-    assert fantasia["divindades"]["por_id"]["hefesto"]["dominios"] == []
-    assert fantasia["divindades"]["por_id"]["hades"]["dominios"] == ["morte"]
+def test_dominios_do_compendio_valem_para_o_clerigo(fantasia):
+    assert fantasia["divindades"]["por_id"]["hefesto"]["dominios"] == ["forja"]
+    assert fantasia["divindades"]["por_id"]["hades"]["dominios"] == ["sepultura", "morte"]
+    pj = gerar_pj(fantasia, "clerigo", 5, "forja", divindade="hefesto")
+    assert pj["ficha"]["equipamento"][0] == "martelo_guerra"
 
 
 def test_divindade_com_dominio_desconhecido_e_erro(fantasia):

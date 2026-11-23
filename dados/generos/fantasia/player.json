@@ -1052,6 +1052,72 @@
             "roupas_finas"
           ],
           "implantes": []
+        },
+        {
+          "id": "inquiridor",
+          "nome": "Inquiridor",
+          "descricao": "Desenterra segredos: nota cada detalhe e lê as intenções de quem mente.",
+          "vantagens": [
+            "Avaliação"
+          ],
+          "prioridades": [
+            "pericia:Investigação",
+            "pericia:Intuição",
+            "pericia:Percepção"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": []
+        },
+        {
+          "id": "batedor",
+          "nome": "Batedor",
+          "descricao": "Vai na frente nas expedições: se move rápido, embosca e some no mato.",
+          "vantagens": [
+            "Ação em Movimento"
+          ],
+          "prioridades": [
+            "pericia:Especialidade: Sobrevivência",
+            "pericia:Percepção"
+          ],
+          "armas": [
+            "arco_curto"
+          ],
+          "itens": [],
+          "implantes": []
+        },
+        {
+          "id": "fantasma",
+          "nome": "Fantasma",
+          "descricao": "Ligado à morte: ouve os mortos e guarda lembranças das almas que tirou.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Intuição",
+            "pericia:Enganação"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "falar_com_mortos"
+          ]
+        },
+        {
+          "id": "lamina_alma",
+          "nome": "Lâmina da alma",
+          "descricao": "Ataca com a mente: lâminas psíquicas surgem na mão e falam de mente para mente.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Combate Corpo-a-Corpo: Adagas",
+            "pericia:Intuição"
+          ],
+          "armas": [
+            "adaga"
+          ],
+          "itens": [],
+          "implantes": [
+            "lamina_psiquica",
+            "telepatia"
+          ]
         }
       ],
       "habilidades_de_reserva": [
@@ -1599,6 +1665,38 @@
             "telepatia",
             "ler_mentes"
           ]
+        },
+        {
+          "id": "alma_favorecida",
+          "nome": "Alma favorecida",
+          "descricao": "A magia vem de um ancestral divino: cura além de destruir.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Especialidade: Religião",
+            "pericia:Tratamento"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "curar_ferimentos"
+          ]
+        },
+        {
+          "id": "alma_mecanica",
+          "nome": "Alma mecânica",
+          "descricao": "A força cósmica da ordem: magia precisa, que equilibra o acaso e protege.",
+          "vantagens": [
+            "Segunda Chance"
+          ],
+          "prioridades": [
+            "pericia:Especialidade: Magia",
+            "pericia:Investigação"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "armadura_arcana"
+          ]
         }
       ],
       "habilidades_de_reserva": [
@@ -2089,6 +2187,53 @@
           "implantes": [
             "cura_celestial"
           ]
+        },
+        {
+          "id": "eterno",
+          "nome": "Pacto com o Eterno",
+          "descricao": "O patrono venceu a morte: o bruxo fala com os mortos e demora a cair.",
+          "vantagens": [
+            "Duro de Matar"
+          ],
+          "prioridades": [
+            "pericia:Especialidade: Religião",
+            "pericia:Tratamento"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "falar_com_mortos"
+          ]
+        },
+        {
+          "id": "abissal",
+          "nome": "Pacto com o Abissal",
+          "descricao": "Uma entidade das profundezas do mar: tentáculos e marés.",
+          "vantagens": [
+            "Ambiente Favorito (aquático)"
+          ],
+          "prioridades": [
+            "pericia:Atletismo"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "tentaculo_abissal"
+          ]
+        },
+        {
+          "id": "genio",
+          "nome": "Pacto com o Gênio",
+          "descricao": "Um gênio nobre dos planos elementais, guardado num recipiente que o bruxo carrega.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Persuasão"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "levitacao"
+          ]
         }
       ],
       "habilidades_de_reserva": [
@@ -2306,6 +2451,147 @@
           "implantes": [
             "augurio"
           ]
+        },
+        {
+          "id": "natureza",
+          "nome": "Domínio da Natureza",
+          "descricao": "Serve a um deus das matas e das colheitas, e fala com as feras.",
+          "vantagens": [
+            "Empatia com Animais"
+          ],
+          "prioridades": [
+            "pericia:Especialidade: Natureza",
+            "pericia:Especialidade: Sobrevivência"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "falar_com_animais",
+            "pele_de_casca"
+          ]
+        },
+        {
+          "id": "forja",
+          "nome": "Domínio da Forja",
+          "descricao": "Sacerdote ferreiro: abençoa armas e armaduras e luta de martelo na mão.",
+          "vantagens": [
+            "Inventor"
+          ],
+          "prioridades": [
+            "pericia:Especialidade: Ferraria",
+            "habilidade:For"
+          ],
+          "armas": [],
+          "itens": [
+            "ferramentas_ferreiro"
+          ],
+          "implantes": [
+            "escudo_da_fe"
+          ],
+          "substitui": {
+            "habilidades_de_reserva": [
+              "Pro",
+              "For",
+              "Lut",
+              "Vig",
+              "Pre",
+              "Agi"
+            ]
+          }
+        },
+        {
+          "id": "sepultura",
+          "nome": "Domínio da Sepultura",
+          "descricao": "Guarda a fronteira entre a vida e a morte: põe espíritos para descansar e caça mortos-vivos.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Tratamento",
+            "pericia:Percepção"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "expulsar_mortos_vivos",
+            "falar_com_mortos"
+          ]
+        },
+        {
+          "id": "arcanismo",
+          "nome": "Domínio do Arcanismo",
+          "descricao": "Serve a um deus da magia e estuda feitiços de mago como textos sagrados.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Especialidade: Magia",
+            "pericia:Investigação"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "misseis_magicos"
+          ]
+        },
+        {
+          "id": "ordem",
+          "nome": "Domínio da Ordem",
+          "descricao": "Servo da lei e da hierarquia: dá ordens que os aliados cumprem na hora.",
+          "vantagens": [
+            "Liderança",
+            "Trabalho em Equipe"
+          ],
+          "prioridades": [
+            "pericia:Intimidação",
+            "pericia:Persuasão"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "palavra_sagrada"
+          ]
+        },
+        {
+          "id": "paz",
+          "nome": "Domínio da Paz",
+          "descricao": "Mediador do templo: une os aliados para que um proteja o outro.",
+          "vantagens": [
+            "Interpor-se",
+            "Trabalho em Equipe"
+          ],
+          "prioridades": [
+            "pericia:Intuição",
+            "pericia:Persuasão"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "palavra_de_cura"
+          ]
+        },
+        {
+          "id": "crepusculo",
+          "nome": "Domínio do Crepúsculo",
+          "descricao": "Vigia da noite: enxerga no breu e protege quem descansa.",
+          "vantagens": [
+            "Iniciativa Aprimorada"
+          ],
+          "prioridades": [
+            "pericia:Percepção",
+            "habilidade:Lut"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "olhos_da_noite"
+          ],
+          "substitui": {
+            "habilidades_de_reserva": [
+              "Pro",
+              "Lut",
+              "Vig",
+              "Agi",
+              "For",
+              "Pre"
+            ]
+          }
         }
       ],
       "habilidades_de_reserva": [
@@ -2486,6 +2772,70 @@
           "itens": [],
           "implantes": [
             "medo_divino"
+          ]
+        },
+        {
+          "id": "redencao",
+          "nome": "Juramento da Redenção",
+          "descricao": "Usa a violência só como último recurso: acredita que todos podem mudar.",
+          "vantagens": [
+            "Fascinar"
+          ],
+          "prioridades": [
+            "pericia:Persuasão",
+            "pericia:Intuição"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": []
+        },
+        {
+          "id": "gloria",
+          "nome": "Juramento da Glória",
+          "descricao": "Destinado a feitos heroicos: atleta, rápido e exemplo para os companheiros.",
+          "vantagens": [
+            "Ação em Movimento"
+          ],
+          "prioridades": [
+            "pericia:Atletismo",
+            "pericia:Acrobacia"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": []
+        },
+        {
+          "id": "vigilantes",
+          "nome": "Juramento dos Vigilantes",
+          "descricao": "Sentinela contra criaturas de outros planos: sempre alerta e difícil de enganar.",
+          "vantagens": [
+            "Iniciativa Aprimorada"
+          ],
+          "prioridades": [
+            "pericia:Percepção",
+            "pericia:Especialidade: Magia",
+            "defesa:Vontade"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": []
+        },
+        {
+          "id": "quebrador",
+          "nome": "Quebrador de juramento",
+          "descricao": "Quebrou o juramento por ambição ou por um poder maligno: só restou o medo e as trevas. Bom para vilões.",
+          "vantagens": [
+            "Assustar"
+          ],
+          "prioridades": [
+            "pericia:Intimidação",
+            "pericia:Enganação"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "medo_divino",
+            "toque_sombrio_divino"
           ]
         }
       ],
@@ -2671,6 +3021,52 @@
               "Vig"
             ]
           }
+        },
+        {
+          "id": "andarilho_horizonte",
+          "nome": "Andarilho do horizonte",
+          "descricao": "Guarda o mundo contra ameaças de outros planos: vigia portais e salta de um lugar para outro.",
+          "vantagens": [
+            "Ação em Movimento"
+          ],
+          "prioridades": [
+            "pericia:Percepção",
+            "pericia:Especialidade: Magia"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "passo_nebuloso"
+          ]
+        },
+        {
+          "id": "exterminador",
+          "nome": "Exterminador de monstros",
+          "descricao": "Caça vampiros, ínferos e bruxas: estuda a presa até achar o ponto fraco.",
+          "vantagens": [
+            "Avaliação"
+          ],
+          "prioridades": [
+            "pericia:Investigação",
+            "pericia:Especialidade: Religião"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": []
+        },
+        {
+          "id": "enxame",
+          "nome": "Protetor do enxame",
+          "descricao": "Um enxame de espíritos da natureza o acompanha e ataca os inimigos.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Especialidade: Natureza"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "enxame"
+          ]
         }
       ],
       "habilidades_de_reserva": [
@@ -2855,6 +3251,21 @@
           "implantes": [
             "flecha_estelar",
             "augurio"
+          ]
+        },
+        {
+          "id": "sonhos",
+          "nome": "Círculo dos Sonhos",
+          "descricao": "Ligado ao reino das fadas: cura com o calor do verão e abre caminhos escondidos entre dois lugares.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Tratamento",
+            "pericia:Furtividade"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "passo_nebuloso"
           ]
         }
       ],
@@ -3309,6 +3720,37 @@
           "itens": [],
           "implantes": [
             "medo_bardico"
+          ]
+        },
+        {
+          "id": "eloquencia",
+          "nome": "Colégio da Eloquência",
+          "descricao": "Mestre da oratória: um argumento bem dito convence mais que os fatos.",
+          "vantagens": [
+            "Maestria em Perícia (Persuasão)"
+          ],
+          "prioridades": [
+            "pericia:Persuasão",
+            "pericia:Enganação"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": []
+        },
+        {
+          "id": "criacao",
+          "nome": "Colégio da Criação",
+          "descricao": "Canta a Canção da Criação: dá vida a objetos e faz surgir coisas do nada.",
+          "vantagens": [
+            "Inventor"
+          ],
+          "prioridades": [
+            "pericia:Especialidade: Música"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "maos_magicas"
           ]
         }
       ],
