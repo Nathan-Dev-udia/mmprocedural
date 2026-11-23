@@ -4,7 +4,7 @@
     "resumo": "A divindade nunca dá pontos. Ela só direciona: os domínios que o clérigo pode ter, a arma que o gerador compra primeiro, as perícias que sobem antes e o dogma, que entra na ficha como complicação.",
     "obrigatoria_para": "Classes que sempre têm divindade (sem pedido, o gerador sorteia uma). As outras podem ficar sem divindade, que é o padrão.",
     "classe_dos_dominios": "A classe cujas subclasses são os domínios: ela só pode ter um domínio da sua divindade, e a arma do deus vira a arma principal. Nas outras classes, a arma do deus vira a principal só se já estiver entre as principais da classe; se não, entra como arma de reserva.",
-    "dominios_pendentes": "Domínios do compêndio que ainda não existem como subclasse (ver referencias/dd/subclasses_compendio.json). O gerador os ignora até entrarem; quando um entrar, tire-o desta lista.",
+    "dominios_pendentes": "Domínios do compêndio que ainda não existem como subclasse (ver subclasses_compendio.json, nesta pasta). O gerador os ignora até entrarem; quando um entrar, tire-o desta lista.",
     "dogma": "Complicação no formato do complications.json: 'nome' é o tipo e 'detalhe' é o texto."
   },
   "obrigatoria_para": ["clerigo"],
