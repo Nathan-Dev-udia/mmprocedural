@@ -401,7 +401,7 @@ Os **NPCs** gerados pagam o equipamento com a vantagem **Equipamento** (5 pontos
 
 ## 5. Classes e subclasses [Casa + D&D]
 
-O gerador traz as **12 classes** do Livro do Jogador do D&D 5e e **69 subclasses**, convertidas para M&M. A lista completa, com vantagens, magias e equipamento de cada uma, está no Apêndice. Aqui está a lógica da conversão, para o mestre saber julgar uma ficha e ajustar uma classe na mesa.
+O gerador traz as **12 classes** do Livro do Jogador do D&D 5e e **88 subclasses**, convertidas para M&M. A lista completa, com vantagens, magias e equipamento de cada uma, está no Apêndice. Aqui está a lógica da conversão, para o mestre saber julgar uma ficha e ajustar uma classe na mesa.
 
 ### 5.1 Como uma classe virou ficha
 

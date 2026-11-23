@@ -1,6 +1,6 @@
 # Livro das Classes e Subclasses
 
-*Fantasia medieval em Mutantes & Malfeitores · as 12 classes e as 69 subclasses, uma a uma*
+*Fantasia medieval em Mutantes & Malfeitores · as 12 classes e as 88 subclasses, uma a uma*
 
 ---
 
@@ -23,17 +23,17 @@
   - Golias
   - Minotauro
 - **Classes e Subclasses**
-  - **Guerreiro**: Campeão, Mestre de batalha, Cavaleiro arcano, Cavaleiro, Arqueiro de elite, Gladiador
-  - **Bárbaro**: Caminho do furioso, Guerreiro totêmico, Selvagem das montanhas, Guardião ancestral, Coração de fera
+  - **Guerreiro**: Campeão, Mestre de batalha, Cavaleiro arcano, Cavaleiro, Arqueiro de elite, Gladiador, Arqueiro arcano, Samurai, Porta-estandarte, Cavaleiro do eco, Cavaleiro psiônico, Cavaleiro rúnico
+  - **Bárbaro**: Caminho do furioso, Guerreiro totêmico, Selvagem das montanhas, Guardião ancestral, Coração de fera, Fúria de batalha, Arauto da tempestade, Fanático, Caminho da magia selvagem
   - **Ladino**: Ladrão, Assassino, Trapaceiro arcano, Espadachim, Mestre da intriga
-  - **Mago**: Escola de Evocação, Escola de Ilusão, Escola de Abjuração, Escola de Necromancia, Escola de Adivinhação, Escola de Encantamento, Escola de Transmutação, Mago rúnico, Lâmina cantante
+  - **Mago**: Escola de Evocação, Escola de Ilusão, Escola de Abjuração, Escola de Necromancia, Escola de Adivinhação, Escola de Encantamento, Escola de Transmutação, Mago rúnico, Lâmina cantante, Escola de Invocação, Mago da guerra, Cronurgia, Graviturgia, Ordem dos Escribas
   - **Feiticeiro**: Linhagem dracônica, Magia selvagem, Alma da tempestade, Linhagem sombria, Mente aberrante
   - **Bruxo**: Pacto com o Corruptor, Pacto com a Arquifada, Pacto com o Grande Antigo, Caçador de monstros (Escolas: Lobo, Gato, Grifo, Víbora, Urso, Manticora, Lince, Garça), Pacto da lâmina, Pacto com o Celestial
   - **Clérigo**: Domínio da Vida, Domínio da Guerra, Domínio da Luz, Domínio da Tempestade, Domínio da Trapaça, Domínio da Morte, Domínio do Conhecimento
   - **Paladino**: Juramento de Devoção, Juramento dos Anciões, Juramento de Vingança, Juramento da Coroa, Juramento de Conquista
   - **Patrulheiro**: Caçador, Mestre das feras, Batedor da fronteira, Perseguidor sombrio, Andarilho feérico
   - **Druida**: Círculo da Terra, Círculo da Lua, Círculo do Pastor, Círculo do Fogo selvagem, Círculo dos Esporos, Círculo das Estrelas
-  - **Monge**: Caminho da Mão Aberta, Caminho da Sombra, Caminho dos Quatro Elementos, Caminho do Mestre Bêbado, Caminho da Alma Solar
+  - **Monge**: Caminho da Mão Aberta, Caminho da Sombra, Caminho dos Quatro Elementos, Caminho do Mestre Bêbado, Caminho da Alma Solar, Caminho do Kensei, Caminho da Morte Extensa, Caminho da Misericórdia, Caminho do Eu Astral
   - **Bardo**: Colégio do Conhecimento, Colégio da Bravura, Colégio do Glamour, Colégio das Espadas, Colégio dos Sussurros
 
 ---
@@ -259,6 +259,54 @@ Luta para a plateia. Provoca o inimigo com Zombar (desmoraliza o alvo usando Eng
 
 {{subclasse:guerreiro:gladiador}}
 
+### Arqueiro arcano
+
+A arquearia élfica que mistura magia nas flechas. Como o Arqueiro de elite, troca a Força pela Destreza como habilidade principal, e Mira Aprimorada ajuda a acertar de longe. A diferença é a **Flecha arcana**: uma flecha que explode em fios de magia e prende o alvo (Aflição que deixa impedido e vulnerável e, depois, indefeso e imóvel). Ela é disparada com o arco, então usa a mesma perícia de ataque, Combate à Distância: Arcos. A Especialidade: Magia vem junto, para entender o que está gravando nas flechas.
+
+**Escolha se** quer um arqueiro que, além de ferir, tira o inimigo da luta.
+
+{{subclasse:guerreiro:arqueiro_arcano}}
+
+### Samurai
+
+O espírito de luta que não se dobra. Ataque Acurado troca dano por acerto quando o inimigo é difícil de atingir, e Destemido deixa o samurai imune ao medo: render-se ou morrer lutando. Fora da batalha, ele é um cortesão elegante, com Persuasão e Intuição entre as primeiras perícias e roupas finas na bagagem.
+
+**Escolha se** quer um guerreiro disciplinado, que funciona tanto no duelo quanto na corte.
+
+{{subclasse:guerreiro:samurai}}
+
+### Porta-estandarte
+
+O cavaleiro errante que lidera pelo exemplo (no compêndio, o Ginete, ou Cavaleiro Dragão Púrpura). Não tem nada a ver com cavalo: o forte dele é o grito de guerra. Liderança remove condições dos aliados e Inspirar dá bônus a todo o grupo, por isso a Presença sobe logo depois das habilidades de combate, com Persuasão e Intuição.
+
+**Escolha se** quer ser o guerreiro que segura o moral do grupo, e não só a linha de frente.
+
+{{subclasse:guerreiro:porta_estandarte}}
+
+### Cavaleiro do eco
+
+Chama um eco de si mesmo, vindo de um futuro que não aconteceu. Em M&M, o eco aparece como o **Passo nebuloso**: o cavaleiro troca de lugar com a sombra dele no meio da luta (Teleporte). Interpor-se representa o eco recebendo um golpe no lugar de um aliado. A Especialidade: Magia e a Percepção vêm primeiro.
+
+**Escolha se** quer um guerreiro que aparece onde o inimigo não espera.
+
+{{subclasse:guerreiro:cavaleiro_eco}}
+
+### Cavaleiro psiônico
+
+A mente é uma arma. O cavaleiro psiônico move objetos com o pensamento (**Mãos mágicas**, Mover Objetos) e fala de mente para mente (**Telepatia**). Rolamento Defensivo representa o escudo de força mental que desvia golpes. O Intelecto vira a segunda habilidade mais importante, logo depois do combate.
+
+**Escolha se** quer um guerreiro com um pé no estranho e no psíquico.
+
+{{subclasse:guerreiro:cavaleiro_psionico}}
+
+### Cavaleiro rúnico
+
+Aprendeu com os gigantes a gravar runas na armadura e nas armas. A runa da colina vira **Pele de pedra** (Proteção que corta os golpes fracos, fora do arranjo), e a força dos colossos aparece em Agarrar Aprimorado e no Atletismo. Leva giz e tintas rúnicas, e a Especialidade: Runas vem primeiro, com o Vigor.
+
+**Escolha se** quer um guerreiro que aguenta mais que os outros e agarra como um gigante.
+
+{{subclasse:guerreiro:cavaleiro_runico}}
+
 ---
 
 ## Bárbaro
@@ -310,6 +358,38 @@ Na fúria, luta como um animal. Agarrar Aprimorado permite agarrar com uma mão 
 **Escolha se** quer lutar com as mãos, não só com o machado.
 
 {{subclasse:barbaro:coracao_fera}}
+
+### Fúria de batalha
+
+O furioso de armadura cheia de espinhos, que se joga no inimigo. Agarrar Aprimorado deixa ele prender o alvo sem penalidade, e Ação em Movimento permite investir e atacar sem parar. Atletismo e Intimidação vêm primeiro: ele agarra, empurra e assusta.
+
+**Escolha se** quer um bárbaro que luta colado no inimigo.
+
+{{subclasse:barbaro:furia_batalha}}
+
+### Arauto da tempestade
+
+A fúria vira tempestade. A **Aura da tempestade** fere todos que estão perto do bárbaro, sem teste de ataque (Dano em área centrada nele, só em fúria). Como é um efeito de área, não tira pontos do machado: o arauto continua treinando a arma. Fortitude e Especialidade: Natureza vêm primeiro.
+
+**Escolha se** quer um bárbaro que castiga quem chega perto, mesmo quando erra o golpe.
+
+{{subclasse:barbaro:arauto_tempestade}}
+
+### Fanático
+
+Um deus da guerra fala pela fúria dele. Inspirar representa a presença fervorosa que levanta os aliados, e a Presença sobe logo depois da Força e do Vigor. A Especialidade: Religião e a Intimidação vêm primeiro. A recusa em morrer antes da hora já está na classe: Duro de Matar.
+
+**Escolha se** quer um bárbaro devoto, que combina bem com uma divindade da guerra.
+
+{{subclasse:barbaro:fanatico}}
+
+### Caminho da magia selvagem
+
+Tocado pela magia das fadas, o bárbaro solta surtos imprevisíveis quando entra em fúria. O **Passo nebuloso** (Teleporte) é o surto mais comum, e a vantagem Sorte representa a magia que às vezes vira a seu favor. Especialidade: Magia e Percepção vêm primeiro.
+
+**Escolha se** quer um bárbaro caótico, com um toque de magia.
+
+{{subclasse:barbaro:magia_selvagem}}
 
 ---
 
@@ -444,6 +524,46 @@ Dança com a espada e a magia ao mesmo tempo. A **Lâmina arcana** é um golpe c
 **Escolha se** quer um mago guerreiro, rápido e elegante.
 
 {{subclasse:mago:lamina_cantante}}
+
+### Escola de Invocação
+
+Tira coisas e criaturas do nada. O **Invocar elemental** chama um pequeno elemental para lutar ao lado do mago (fica de fora do arranjo e custa o valor cheio), e a **Teia** prende os inimigos no lugar. A Especialidade: Magia vem primeiro.
+
+**Escolha se** quer um mago que nunca luta sozinho.
+
+{{subclasse:mago:invocacao}}
+
+### Mago da guerra
+
+Treinado para o campo de batalha. Iniciativa Aprimorada faz ele agir antes, e Esquiva e Vontade sobem cedo: o mago da guerra desvia golpes e resiste a magias melhor que os colegas. Os **Mísseis mágicos** completam o Raio de fogo da classe.
+
+**Escolha se** quer um mago que aguenta a linha de frente por algumas rodadas.
+
+{{subclasse:mago:mago_guerra}}
+
+### Cronurgia
+
+Dobra o tempo. A **Estase momentânea** congela o alvo por um instante (Aflição à distância contra Fortitude: tonto, atordoado, incapacitado), e a vantagem Sorte representa o salto temporal, que faz o destino rolar de novo. A Intuição vem primeiro.
+
+**Escolha se** quer um mago de controle, que tira inimigos da luta.
+
+{{subclasse:mago:cronurgia}}
+
+### Graviturgia
+
+Domina o peso das coisas. A **Pressão gravitacional** esmaga o alvo contra o chão (Dano à distância), e a Levitação deixa os aliados leves. O Atletismo vem primeiro, porque o graviturgo entende de força e de peso.
+
+**Escolha se** quer um mago de dano com um estilo diferente do fogo e do gelo.
+
+{{subclasse:mago:graviturgia}}
+
+### Ordem dos Escribas
+
+O grimório dele despertou e tem mente própria. A **Vidência** representa a mente do livro, que espia lugares distantes, e Memória Eidética faz o escriba lembrar de tudo que já leu. Investigação e Especialidade: História vêm primeiro.
+
+**Escolha se** quer um mago estudioso, bom para campanhas de investigação.
+
+{{subclasse:mago:escribas}}
 
 ---
 
@@ -886,6 +1006,38 @@ Concentra o ki em raios de luz. O **Raio solar** ataca à distância, com Combat
 **Escolha se** quer um monge radiante, de ataque à distância.
 
 {{subclasse:monge:alma_solar}}
+
+### Caminho do Kensei
+
+A arma é uma extensão do corpo. O kensei luta com uma espada longa no lugar dos golpes desarmados: Combate Corpo-a-Corpo: Espadas vem primeiro e Ataque Acurado troca dano por acerto. A Especialidade: Caligrafia representa o lado artístico do caminho, o do pincel.
+
+**Escolha se** quer um monge que luta com arma.
+
+{{subclasse:monge:kensei}}
+
+### Caminho da Morte Extensa
+
+Estuda o momento da morte para lutar melhor. Assustar usa a Intimidação para abalar o inimigo, e Duro de Matar mostra que ele se recusa a cair. O Tratamento vem junto: quem estuda a morte entende de ferimentos.
+
+**Escolha se** quer um monge sombrio e assustador.
+
+{{subclasse:monge:morte_extensa}}
+
+### Caminho da Misericórdia
+
+O médico errante de máscara. **Cura pelas mãos** fecha feridas com o ki, e o mesmo toque treinado em Briga leva dor aos inimigos. Tratamento e Intuição vêm primeiro, com um kit de herbalismo na bolsa.
+
+**Escolha se** quer um monge que também cura o grupo.
+
+{{subclasse:monge:misericordia}}
+
+### Caminho do Eu Astral
+
+O corpo é só uma casca: o verdadeiro eu é feito de ki. Os **Braços do eu astral** golpeiam com alcance maior e atravessam a guarda (Dano corpo a corpo Penetrante, com a mesma perícia de Briga das artes marciais). A Prontidão vira habilidade principal, junto com a Agilidade.
+
+**Escolha se** quer um monge místico, que luta com o espírito.
+
+{{subclasse:monge:eu_astral}}
 
 ---
 

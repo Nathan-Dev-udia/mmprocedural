@@ -460,6 +460,160 @@
           ],
           "itens": [],
           "implantes": []
+        },
+        {
+          "id": "arqueiro_arcano",
+          "nome": "Arqueiro arcano",
+          "descricao": "Arquearia élfica com magia: flechas que prendem, cegam e banem.",
+          "vantagens": [
+            "Mira Aprimorada"
+          ],
+          "prioridades": [
+            "habilidade:Des",
+            "pericia:Combate à Distância: Arcos",
+            "pericia:Especialidade: Magia"
+          ],
+          "armas": [
+            "arco_longo"
+          ],
+          "itens": [],
+          "implantes": [
+            "flecha_arcana"
+          ],
+          "substitui": {
+            "habilidades_de_reserva": [
+              "Des",
+              "Vig",
+              "Agi",
+              "Int",
+              "Pro",
+              "Lut"
+            ],
+            "prioridades": [
+              "habilidade:Lut",
+              "pericia:Combate Corpo-a-Corpo: Espadas",
+              "habilidade:Vig",
+              "habilidade:Des",
+              "defesa:Aparar",
+              "pericia:Atletismo",
+              "pericia:Intimidação",
+              "defesa:Fortitude",
+              "pericia:Percepção"
+            ]
+          }
+        },
+        {
+          "id": "samurai",
+          "nome": "Samurai",
+          "descricao": "Espírito de luta implacável: render-se ou morrer lutando. Também à vontade na corte.",
+          "vantagens": [
+            "Ataque Acurado",
+            "Destemido"
+          ],
+          "prioridades": [
+            "pericia:Combate Corpo-a-Corpo: Espadas",
+            "pericia:Persuasão",
+            "pericia:Intuição"
+          ],
+          "armas": [
+            "espada_longa"
+          ],
+          "itens": [
+            "roupas_finas"
+          ],
+          "implantes": []
+        },
+        {
+          "id": "porta_estandarte",
+          "nome": "Porta-estandarte",
+          "descricao": "Cavaleiro errante que lidera pelo exemplo: o grito de guerra dele levanta os aliados.",
+          "vantagens": [
+            "Liderança",
+            "Inspirar"
+          ],
+          "prioridades": [
+            "pericia:Persuasão",
+            "pericia:Intuição",
+            "habilidade:Pre"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [],
+          "substitui": {
+            "habilidades_de_reserva": [
+              "Vig",
+              "For",
+              "Pre",
+              "Lut",
+              "Pro",
+              "Agi"
+            ]
+          }
+        },
+        {
+          "id": "cavaleiro_eco",
+          "nome": "Cavaleiro do eco",
+          "descricao": "Chama um eco de si mesmo, vindo de um futuro que não aconteceu, e troca de lugar com ele no meio da luta.",
+          "vantagens": [
+            "Interpor-se"
+          ],
+          "prioridades": [
+            "pericia:Especialidade: Magia",
+            "pericia:Percepção"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "passo_nebuloso"
+          ]
+        },
+        {
+          "id": "cavaleiro_psionico",
+          "nome": "Cavaleiro psiônico",
+          "descricao": "A mente é uma arma: golpes com energia psíquica, telecinese e um escudo de força mental.",
+          "vantagens": [
+            "Rolamento Defensivo"
+          ],
+          "prioridades": [
+            "habilidade:Int",
+            "pericia:Intuição"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "maos_magicas",
+            "telepatia"
+          ],
+          "substitui": {
+            "habilidades_de_reserva": [
+              "Int",
+              "Vig",
+              "For",
+              "Lut",
+              "Agi",
+              "Pro"
+            ]
+          }
+        },
+        {
+          "id": "cavaleiro_runico",
+          "nome": "Cavaleiro rúnico",
+          "descricao": "Aprendeu com os gigantes a gravar runas na armadura: pele de pedra e a força dos colossos.",
+          "vantagens": [
+            "Agarrar Aprimorado"
+          ],
+          "prioridades": [
+            "pericia:Especialidade: Runas",
+            "habilidade:Vig",
+            "pericia:Atletismo"
+          ],
+          "armas": [],
+          "itens": [
+            "giz_runico"
+          ],
+          "implantes": [
+            "pele_de_pedra"
+          ]
         }
       ],
       "habilidades_de_reserva": [
@@ -631,6 +785,80 @@
           "armas": [],
           "itens": [],
           "implantes": []
+        },
+        {
+          "id": "furia_batalha",
+          "nome": "Fúria de batalha",
+          "descricao": "Veste uma armadura cheia de espinhos e se joga no inimigo: agarra, investe e fura quem chega perto.",
+          "vantagens": [
+            "Agarrar Aprimorado",
+            "Ação em Movimento"
+          ],
+          "prioridades": [
+            "pericia:Atletismo",
+            "pericia:Intimidação"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": []
+        },
+        {
+          "id": "arauto_tempestade",
+          "nome": "Arauto da tempestade",
+          "descricao": "A fúria vira tempestade: raios, vento e calor estalam em volta dele e ferem quem está perto.",
+          "vantagens": [],
+          "prioridades": [
+            "defesa:Fortitude",
+            "pericia:Especialidade: Natureza"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "aura_tempestade"
+          ]
+        },
+        {
+          "id": "fanatico",
+          "nome": "Fanático",
+          "descricao": "Um deus da guerra fala pela fúria dele, e ele se recusa a morrer antes da hora.",
+          "vantagens": [
+            "Inspirar"
+          ],
+          "prioridades": [
+            "pericia:Especialidade: Religião",
+            "pericia:Intimidação",
+            "habilidade:Pre"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [],
+          "substitui": {
+            "habilidades_de_reserva": [
+              "For",
+              "Vig",
+              "Pre",
+              "Lut",
+              "Agi",
+              "Pro"
+            ]
+          }
+        },
+        {
+          "id": "magia_selvagem",
+          "nome": "Caminho da magia selvagem",
+          "descricao": "Tocado pela magia das fadas: a fúria solta surtos imprevisíveis, de teleportes a luzes e explosões.",
+          "vantagens": [
+            "Sorte"
+          ],
+          "prioridades": [
+            "pericia:Especialidade: Magia",
+            "pericia:Percepção"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "passo_nebuloso"
+          ]
         }
       ],
       "habilidades_de_reserva": [
@@ -1112,6 +1340,86 @@
               "Des"
             ]
           }
+        },
+        {
+          "id": "invocacao",
+          "nome": "Escola de Invocação",
+          "descricao": "Tira coisas e criaturas do nada e salta de um lugar para outro.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Especialidade: Magia"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "invocar_elemental",
+            "teia"
+          ]
+        },
+        {
+          "id": "mago_guerra",
+          "nome": "Mago da guerra",
+          "descricao": "Treinado para o campo de batalha: age primeiro, desvia golpes com magia e não para de lançar.",
+          "vantagens": [
+            "Iniciativa Aprimorada"
+          ],
+          "prioridades": [
+            "defesa:Esquiva",
+            "defesa:Vontade"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "misseis_magicos"
+          ]
+        },
+        {
+          "id": "cronurgia",
+          "nome": "Cronurgia",
+          "descricao": "Dobra o tempo: congela o inimigo por um instante e faz o destino rolar de novo.",
+          "vantagens": [
+            "Sorte"
+          ],
+          "prioridades": [
+            "pericia:Intuição"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "estase_temporal"
+          ]
+        },
+        {
+          "id": "graviturgia",
+          "nome": "Graviturgia",
+          "descricao": "Domina o peso das coisas: esmaga inimigos e deixa aliados leves.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Atletismo"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "pressao_gravitacional",
+            "levitacao"
+          ]
+        },
+        {
+          "id": "escribas",
+          "nome": "Ordem dos Escribas",
+          "descricao": "O grimório dele despertou: tem mente própria e espia por ele lugares distantes.",
+          "vantagens": [
+            "Memória Eidética"
+          ],
+          "prioridades": [
+            "pericia:Investigação",
+            "pericia:Especialidade: História"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "videncia"
+          ]
         }
       ],
       "habilidades_de_reserva": [
@@ -2719,6 +3027,91 @@
           "implantes": [
             "raio_solar_monge"
           ]
+        },
+        {
+          "id": "kensei",
+          "nome": "Caminho do Kensei",
+          "descricao": "A arma é uma extensão do corpo: treina com uma espada como um calígrafo treina com o pincel.",
+          "vantagens": [
+            "Ataque Acurado"
+          ],
+          "prioridades": [
+            "pericia:Combate Corpo-a-Corpo: Espadas",
+            "pericia:Especialidade: Caligrafia"
+          ],
+          "armas": [
+            "espada_longa"
+          ],
+          "itens": [],
+          "implantes": []
+        },
+        {
+          "id": "morte_extensa",
+          "nome": "Caminho da Morte Extensa",
+          "descricao": "Estuda o momento da morte para lutar melhor e se recusa a cair: os inimigos fogem de medo.",
+          "vantagens": [
+            "Assustar",
+            "Duro de Matar"
+          ],
+          "prioridades": [
+            "pericia:Intimidação",
+            "pericia:Tratamento"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": []
+        },
+        {
+          "id": "misericordia",
+          "nome": "Caminho da Misericórdia",
+          "descricao": "Médico errante de máscara: o mesmo toque que cura um aliado leva dor a um inimigo.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Tratamento",
+            "pericia:Intuição"
+          ],
+          "armas": [],
+          "itens": [
+            "kit_herbalismo"
+          ],
+          "implantes": [
+            "cura_pelas_maos"
+          ],
+          "substitui": {
+            "habilidades_de_reserva": [
+              "Agi",
+              "Pro",
+              "Lut",
+              "Vig",
+              "Des",
+              "Int"
+            ]
+          }
+        },
+        {
+          "id": "eu_astral",
+          "nome": "Caminho do Eu Astral",
+          "descricao": "O corpo é só uma casca: o verdadeiro eu é feito de ki e luta com braços espectrais.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Intuição",
+            "habilidade:Pro"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "bracos_astrais"
+          ],
+          "substitui": {
+            "habilidades_de_reserva": [
+              "Agi",
+              "Pro",
+              "Lut",
+              "Vig",
+              "Des",
+              "For"
+            ]
+          }
         }
       ],
       "habilidades_de_reserva": [

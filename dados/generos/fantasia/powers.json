@@ -667,6 +667,85 @@
     "estatistica": "Proteção"
   },
   {
+    "id": "flecha_arcana",
+    "nome": "Flecha arcana",
+    "categoria": "marcial",
+    "catalogo": "animais__teia",
+    "descricao": "Uma flecha com runas élficas que explode em fios de magia e prende o alvo. Disparada com o arco.",
+    "tags": [
+      "controle"
+    ],
+    "graduacao_np": -1,
+    "estatistica": "Aflição Cumulativa à Distância (Esquiva; impedido e vulnerável, indefeso e imóvel)",
+    "pericia": "Combate à Distância: Arcos"
+  },
+  {
+    "id": "aura_tempestade",
+    "nome": "Aura da tempestade",
+    "categoria": "marcial",
+    "catalogo": "elementais__explosao",
+    "descricao": "Na fúria, raios e vento estalam em volta do bárbaro e ferem quem está perto.",
+    "tags": [
+      "combate",
+      "area"
+    ],
+    "graduacao_np": -2,
+    "estatistica": "Dano, Área Explosão centrada em si (raio e trovão), só em fúria"
+  },
+  {
+    "id": "bracos_astrais",
+    "nome": "Braços do eu astral",
+    "categoria": "marcial",
+    "catalogo": "magicos__fisgo_de_heshem_3",
+    "descricao": "O ki toma a forma de braços espectrais que golpeiam de longe e atravessam a guarda.",
+    "tags": [
+      "combate"
+    ],
+    "graduacao_np": -2,
+    "estatistica": "Dano corpo a corpo, Penetrante (braços de ki, alcance maior)",
+    "pericia": "Combate Corpo-a-Corpo: Briga"
+  },
+  {
+    "id": "estase_temporal",
+    "nome": "Estase momentânea",
+    "categoria": "arcana",
+    "catalogo": "magicos__sois_brilhantes_de_sirrion_3",
+    "descricao": "Congela o alvo num instante de tempo parado.",
+    "tags": [
+      "controle"
+    ],
+    "arranjo": "Magia arcana",
+    "graduacao_np": -1,
+    "estatistica": "Aflição Cumulativa à Distância (Fortitude; tonto, atordoado, incapacitado)",
+    "pericia": "Combate à Distância: Magia"
+  },
+  {
+    "id": "pressao_gravitacional",
+    "nome": "Pressão gravitacional",
+    "categoria": "arcana",
+    "catalogo": "magicos__raio_mistico_5",
+    "descricao": "Multiplica o peso do alvo até ele ser esmagado contra o chão.",
+    "tags": [
+      "combate"
+    ],
+    "arranjo": "Magia arcana",
+    "graduacao_np": 0,
+    "estatistica": "Dano à Distância (gravidade)",
+    "pericia": "Combate à Distância: Magia"
+  },
+  {
+    "id": "invocar_elemental",
+    "nome": "Invocar elemental",
+    "categoria": "arcana",
+    "catalogo": "animais__companheiro_animal",
+    "descricao": "Chama um pequeno elemental de outro plano para lutar ao lado do mago. Fica de fora do arranjo.",
+    "tags": [
+      "combate"
+    ],
+    "graduacao": 2,
+    "estatistica": "Invocar Elemental menor, Heroico"
+  },
+  {
     "id": "raio_necrotico",
     "nome": "Raio necrótico",
     "categoria": "arcana",

@@ -23,6 +23,27 @@ Rascunho do que ficou para depois (atualizado na versão 1.14.0).
 - **Mais panteões:** celta e eslavo seriam os próximos candidatos. Evitar religiões vivas (orixás, deuses hindus).
 - **Catálogo do compêndio:** só o Clérigo foi catalogado; faltam as outras classes do `compendio-de-classes-e-subclasses.pdf`.
 
+## Classes e subclasses do compêndio
+Comparação do `referencias/dd/compendio-de-classes-e-subclasses.pdf` com o gerador. Equivalentes com outro nome contam como existentes: Caminho da Besta = Coração de fera, Adepto das Sombras = Linhagem sombria, Feiticeiro da Tempestade = Alma da tempestade, Mentor = Mestre da intriga, Perseguidor Obscuro = Perseguidor sombrio. A Lâmina Maldita ficou de fora por ser parecida com o Pacto da lâmina. A "Besta do Mar" do compêndio é um animal companheiro do Mestre das Bestas, não uma subclasse.
+
+| Classe | Falta no gerador | Qtd. | Situação |
+|---|---|---|---|
+| Artífice | A classe inteira, mais Alquimista, Armeiro, Artilheiro e Ferreiro de Batalha | 1 + 4 | pendente |
+| Clérigo | Natureza, Forja, Sepultura, Arcanismo, Ordem, Paz, Crepúsculo | 7 | pendente (rascunho em `subclasses_compendio.json`) |
+| Guerreiro | Arqueiro Arcano, Samurai, Ginete, Cavaleiro do Eco, Cavaleiro Psiônico, Cavaleiro Rúnico | 6 | **feito** (versão 1.15.0; o Ginete entrou como Porta-estandarte, porque é o Cavaleiro Dragão Púrpura, não um cavaleiro montado) |
+| Mago | Invocação, Mago da Guerra, Cronurgia, Graviturgia, Ordem dos Escribas | 5 | **feito** (versão 1.15.0) |
+| Bárbaro | Fúria de Batalha, Arauto da Tempestade, Fanático, Caminho da Magia | 4 | **feito** (versão 1.15.0) |
+| Ladino | Inquiridor, Batedor, Fantasma, Lâmina da Alma | 4 | pendente |
+| Monge | Kensei, Morte Extensa, Misericórdia, Eu Astral | 4 | **feito** (versão 1.15.0) |
+| Paladino | Redenção, Glória, Vigilantes, Quebrador de Juramento (bom para vilões) | 4 | pendente |
+| Bruxo | Eterno, Abissal, Gênio | 3 | pendente |
+| Patrulheiro | Andarilho do Horizonte, Exterminador de Monstros, Protetor do Enxame | 3 | pendente |
+| Bardo | Eloquência, Criação | 2 | pendente |
+| Feiticeiro | Alma Favorecida, Alma Mecânica | 2 | pendente |
+| Druida | Círculo dos Sonhos | 1 | pendente |
+
+- **Magias novas da versão 1.15.0** (conferir na mesa se não ficaram fortes demais): Flecha arcana (Arqueiro arcano, disparada com o arco), Aura da tempestade (Arauto da tempestade, dano em área sem ataque, só em fúria), Braços do eu astral (Eu Astral, usa Briga), Estase momentânea (Cronurgia), Pressão gravitacional (Graviturgia) e Invocar elemental (Invocação, fora do arranjo).
+
 ## Escudo do Mestre
 - **Fantasia, Faroeste, Cthulhu e Cyberpunk:** feitos (aba no site, impressão, PDF e planilha). Conteúdo em `dados/escudo/<gênero>.json`; o de Cthulhu e o de Cyberpunk são gerados por `ferramentas/criar_*_escudo.py` (edite o script, não o JSON). O do Cyberpunk resume o Livro do Mestre do gênero em 11 abas (uma página de PDF cada), com armas e modos de disparo, lesões críticas, Humanidade, NET, dinheiro e reputação; queda, tempo de viagem, veículos/montarias, carga e medidas são calculados dinamicamente em `nucleo/escudo.py`.
 - **Impressão pelo navegador:** a aba Viagem ocupa duas folhas. O PDF baixado tem uma página por aba (teste `test_regras_gerais_seguem_o_livro_basico`).

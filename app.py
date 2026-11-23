@@ -52,8 +52,9 @@ def planilhas_disponiveis(genero_id):
 # dados e Tabela de Medidas, 1.11 heróis conhecidos (fichas prontas da Marvel e da DC para buscar e consultar),
 # 1.12 Escudo do Mestre da fantasia (página, impressão, PDF e planilha),
 # 1.13 Gênero Escola de Magia completo (gerador, escudo, livros, quadribol e planilhas),
-# 1.14 divindades da fantasia (panteões grego, nórdico, egípcio e maia).
-VERSAO = "1.14.0"
+# 1.14 divindades da fantasia (panteões grego, nórdico, egípcio e maia),
+# 1.15 19 subclasses do compêndio (guerreiro, bárbaro, monge e mago).
+VERSAO = "1.15.0"
 
 
 def _commit_atual():
