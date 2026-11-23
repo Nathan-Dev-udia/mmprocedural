@@ -365,7 +365,7 @@ Você começa **cada sessão com 1 ponto heroico**. Pontos não gastos se perdem
 2. **Combine com o mestre.** Ele define o nível de poder, o tom (masmorras heroicas ou guerra suja) e as regras opcionais (dano não letal, recuperação lenta).
 3. **Nível de poder.** O mestre diz o NP, que define seus pontos e seus limites.
 4. **Raça.** Escolha uma das nove raças (seção 7). Os traços raciais custam PP.
-5. **Classe e subclasse.** Escolha uma das 12 classes e uma das subclasses dela (seção 8). Elas dizem por onde começar, mas tudo ainda é comprado com PP.
+5. **Classe e subclasse.** Escolha uma das 13 classes e uma das subclasses dela (seção 8). Elas dizem por onde começar, mas tudo ainda é comprado com PP.
 6. **Habilidades.** Compre as oito habilidades (2 PP por graduação).
 7. **Defesas.** Aumente Esquiva, Aparar, Fortitude e Vontade (1 PP por graduação).
 8. **Perícias.** Compre perícias (1 PP a cada 2 graduações).
@@ -499,7 +499,7 @@ Duas subclasses vão além:
 - **Subclasse que troca a classe [Casa]:** algumas subclasses substituem partes inteiras da classe (conceito, vantagens, magias, armas, prioridades). O **Caçador de monstros** não é um bruxo de pacto: ele troca tudo (seção 8.3).
 - **Subclasse com falha [Casa]:** o **Mago rúnico** tem uma limitação que barateia todas as suas magias arcanas (seção 9.6).
 
-### 8.2 As 12 classes
+### 8.2 As 13 classes
 
 | Classe | Conceito | Habilidades principais | Vantagens essenciais | Magias e dons essenciais | Subclasses |
 |----|----|----|----|----|----|
@@ -515,10 +515,11 @@ Duas subclasses vão além:
 | **Druida** | Guardião da natureza. | Prontidão e Vigor | Empatia com Animais, Ritualista | Chamar relâmpago, Bálsamo da natureza | Terra, Lua, Pastor, Fogo selvagem, Esporos, Estrelas, Sonhos |
 | **Monge** | Artista marcial que domina o ki. | Agilidade e Luta | Evasão, Iniciativa Aprimorada | Artes marciais, Golpe atordoante | Mão Aberta, Sombra, Quatro Elementos, Mestre Bêbado, Alma Solar, Kensei, Morte Extensa, Misericórdia, Eu Astral |
 | **Bardo** | Músico cuja magia vem da música. | Presença e Destreza | Inspirar, Fascinar | Zombaria cruel, Palavra de cura | Conhecimento, Bravura, Glamour, Espadas, Sussurros, Eloquência, Criação |
+| **Artífice** | Inventor que guarda magia em objetos (do compêndio, não do Livro do Jogador). | Intelecto e Destreza | Artífice, Inventor | Raio de fogo, Armadura arcana | Alquimista, Armeiro, Artilheiro, Ferreiro de batalha |
 
 **Habilidades principais** são as que o gerador sobe primeiro. Quando elas batem nos limites do NP, a sobra vai para as habilidades secundárias da classe (o Apêndice diz quais), que nunca passam da principal mais alta: um bárbaro gerado não sai com mais Presença que Força, nem com Intelecto alto. A Destreza dos conjuradores é a mira das magias de ataque (Combate à Distância: Magia). Algumas subclasses trocam a habilidade principal: o Arqueiro de elite usa Destreza no lugar da Força.
 
-São **114 subclasses** ao todo. O conceito de cada uma, as vantagens, as magias e os itens estão no **Apêndice**.
+São **118 subclasses** ao todo. O conceito de cada uma, as vantagens, as magias e os itens estão no **Apêndice**.
 
 **Dicas rápidas para quem vem de D&D:**
 

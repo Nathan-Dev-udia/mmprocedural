@@ -59,6 +59,7 @@ AZUL_CLARO = PatternFill("solid", fgColor="C7DBF1")   # o mesmo dos cabeçalhos 
 ROTULO_DA_CATEGORIA = {"arcana": "Magia arcana", "divina": "Magia divina", "natureza": "Magia da natureza",
                        "pacto": "Magia de pacto", "bardica": "Magia bárdica", "marcial": "Dom marcial",
                        "sinais": "Sinal de bruxo", "mutacao": "Mutação de bruxo", "racial": "Traço racial",
+                       "infusao": "Infusão de artífice",
                        "utilidade": "Feitiço utilitário", "encantamento": "Encantamento",
                        "combate": "Feitiço de combate", "duelo": "Feitiço de duelo / Azaração",
                        "defesa": "Defesa contra as Artes das Trevas", "transfiguracao": "Transfiguração",

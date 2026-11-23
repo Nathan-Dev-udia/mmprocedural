@@ -3762,6 +3762,203 @@
         "Int",
         "Pro"
       ]
+    },
+    {
+      "id": "artifice",
+      "nome": "Artífice",
+      "conceito": "Inventor que guarda magia em objetos: infunde armas, armaduras e engenhocas.",
+      "vantagens_essenciais": [
+        "Artífice",
+        "Inventor"
+      ],
+      "vantagens_opcionais": [
+        "Ferramentas Aprimoradas",
+        "Bem Informado",
+        "Faz Tudo",
+        "Esforço Extraordinário",
+        "Mira Aprimorada",
+        "Ritualista"
+      ],
+      "prioridades": [
+        "habilidade:Int",
+        "pericia:Tecnologia",
+        "pericia:Combate à Distância: Magia",
+        "vantagem:Ataque à Distância",
+        "pericia:Especialidade: Magia",
+        "habilidade:Vig",
+        "defesa:Vontade",
+        "pericia:Investigação",
+        "habilidade:Des",
+        "defesa:Fortitude",
+        "pericia:Percepção"
+      ],
+      "armas": {
+        "principais": [
+          "maca",
+          "martelo_leve"
+        ],
+        "secundarias": [
+          "besta_leve",
+          "besta_mao"
+        ]
+      },
+      "itens": {
+        "essenciais": [
+          "camisao_malha",
+          "ferramentas_ladrao",
+          "mochila"
+        ],
+        "opcionais": [
+          "ferramentas_ferreiro",
+          "ferramentas_carpinteiro",
+          "ferramentas_joalheiro",
+          "corda",
+          "tochas"
+        ]
+      },
+      "implantes": {
+        "essenciais": [
+          "raio_de_fogo",
+          "armadura_arcana"
+        ],
+        "opcionais": [
+          "servo_homunculo",
+          "maos_magicas",
+          "teia",
+          "levitacao"
+        ]
+      },
+      "sugestoes": {
+        "motivacoes": [
+          "Conhecimento",
+          "Reconhecimento",
+          "Cobiça",
+          "Fazer o Bem"
+        ],
+        "complicacoes": [
+          {
+            "nome": "Obsessão",
+            "detalhe": "Não descansa enquanto a invenção não funcionar."
+          },
+          {
+            "nome": "Peculiaridade",
+            "detalhe": "Desmonta qualquer mecanismo que encontra pela frente."
+          },
+          {
+            "nome": "Rivalidade",
+            "detalhe": "Um colega da guilda de inventores quer roubar suas ideias."
+          },
+          {
+            "nome": "Perda de Poder",
+            "detalhe": "Sem as ferramentas, não infunde nada."
+          }
+        ]
+      },
+      "focos": [
+        {
+          "id": "alquimista",
+          "nome": "Alquimista",
+          "descricao": "Mistura reagentes para dar vida e tirá-la: elixires e ácidos.",
+          "vantagens": [],
+          "prioridades": [
+            "pericia:Especialidade: Alquimia",
+            "pericia:Tratamento"
+          ],
+          "armas": [],
+          "itens": [
+            "suprimentos_alquimista",
+            "pocao_cura"
+          ],
+          "implantes": [
+            "elixir_experimental"
+          ]
+        },
+        {
+          "id": "armeiro",
+          "nome": "Armeiro",
+          "descricao": "A armadura vira uma segunda pele, com manoplas que soltam trovões.",
+          "vantagens": [
+            "Rolamento Defensivo"
+          ],
+          "prioridades": [
+            "habilidade:Vig",
+            "pericia:Combate Corpo-a-Corpo: Briga"
+          ],
+          "armas": [],
+          "itens": [
+            "ferramentas_ferreiro"
+          ],
+          "implantes": [
+            "manoplas_trovejantes"
+          ],
+          "substitui": {
+            "habilidades_de_reserva": [
+              "Int",
+              "Vig",
+              "Lut",
+              "For",
+              "Des",
+              "Pro"
+            ]
+          }
+        },
+        {
+          "id": "artilheiro",
+          "nome": "Artilheiro",
+          "descricao": "Dispara energia e explosões, com um canhão arcano que anda sozinho.",
+          "vantagens": [
+            "Mira Aprimorada"
+          ],
+          "prioridades": [
+            "pericia:Combate à Distância: Magia",
+            "habilidade:Des"
+          ],
+          "armas": [],
+          "itens": [],
+          "implantes": [
+            "canhao_arcano"
+          ]
+        },
+        {
+          "id": "ferreiro_batalha",
+          "nome": "Ferreiro de batalha",
+          "descricao": "Protetor e médico de campo, sempre com o defensor de aço que ele mesmo construiu.",
+          "vantagens": [
+            "Interpor-se"
+          ],
+          "prioridades": [
+            "habilidade:Lut",
+            "pericia:Combate Corpo-a-Corpo: Maças"
+          ],
+          "armas": [
+            "martelo_guerra"
+          ],
+          "itens": [
+            "ferramentas_ferreiro"
+          ],
+          "implantes": [
+            "defensor_de_aco"
+          ],
+          "substitui": {
+            "habilidades_de_reserva": [
+              "Int",
+              "Lut",
+              "Vig",
+              "For",
+              "Des",
+              "Pro"
+            ]
+          }
+        }
+      ],
+      "habilidades_de_reserva": [
+        "Int",
+        "Vig",
+        "Des",
+        "Pro",
+        "Agi",
+        "Lut"
+      ]
     }
   ]
 }

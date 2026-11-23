@@ -599,6 +599,7 @@ def magia(id_, nome, categoria, catalogo, descricao, arranjo=None, graduacao=Non
 ARCANA, DIVINA, NATUREZA = "Magia arcana", "Magia divina", "Magia da natureza"
 PACTO, BARDICA = "Magia de pacto", "Magia bárdica"
 SINAIS = "Sinais"
+INFUSOES = "Infusões de artífice"
 FEITICO = "Combate à Distância: Magia"
 SINAL = "Combate à Distância: Sinais"
 
@@ -793,6 +794,23 @@ gravar("powers.json", [
     magia("invocar_elemental", "Invocar elemental", "arcana", "animais__companheiro_animal",
           "Chama um pequeno elemental de outro plano para lutar ao lado do mago. Fica de fora do arranjo.",
           graduacao=2, estatistica="Invocar Elemental menor, Heroico", tags=["combate"]),
+    # ---- infusões do artífice
+    magia("elixir_experimental", "Elixir experimental", "infusao", "luminosos__cura_luminosa",
+          "Um frasco borbulhante preparado na hora que fecha feridas de quem bebe.", INFUSOES, graduacao_np=-1,
+          estatistica="Cura (elixir)", tags=["cura"]),
+    magia("canhao_arcano", "Canhão arcano", "infusao", "flamejantes__baforada_de_fogo",
+          "Um canhãozinho mágico com pernas que solta um cone de chamas no inimigo.", INFUSOES, graduacao_np=-1,
+          estatistica="Dano, Área Cone (lança-chamas do canhão)", tags=["combate", "area"]),
+    magia("manoplas_trovejantes", "Manoplas trovejantes", "infusao", "magicos__fisgo_de_heshem_3",
+          "As manoplas da armadura soltam um trovão a cada soco.", INFUSOES, graduacao_np=-2,
+          estatistica="Dano corpo a corpo, Penetrante (trovão)", pericia="Combate Corpo-a-Corpo: Briga",
+          tags=["combate"]),
+    magia("defensor_de_aco", "Defensor de aço", "infusao", "animais__companheiro_animal",
+          "Um constructo leal, do tamanho de um cão grande, que protege e conserta. Fica de fora do arranjo.",
+          graduacao=2, estatistica="Invocar Defensor de aço, Heroico", tags=["combate"]),
+    magia("servo_homunculo", "Servo homúnculo", "infusao", "animais__companheiro_animal",
+          "Uma criaturinha mecânica que espia, carrega coisas e ajuda nas invenções. Fica de fora do arranjo.",
+          graduacao=1, estatistica="Invocar Homúnculo, Heroico", tags=["utilidade"]),
     # ---- subclasses do compêndio (clérigo, ladino, bruxo e patrulheiro)
     magia("olhos_da_noite", "Olhos da noite", "divina", "sombrios__visao_no_escuro",
           "O deus do crepúsculo deixa o clérigo enxergar no breu mais fundo. Fica de fora do arranjo.",
@@ -1346,6 +1364,36 @@ CLASSES = [
                  ["Ataque Defensivo"], p("habilidade:Lut", "pericia:Combate Corpo-a-Corpo: Espadas")),
             foco("glamour", "Colégio do Glamour", "Encanta qualquer plateia com magia feérica.",
                  [], p("pericia:Persuasão"), implantes=["encantar_plateia"])]),
+    # Do compêndio de classes (Tasha): não está no Livro do Jogador.
+    classe("artifice", "Artífice", "Inventor que guarda magia em objetos: infunde armas, armaduras e engenhocas.",
+           ["Artífice", "Inventor"],
+           ["Ferramentas Aprimoradas", "Bem Informado", "Faz Tudo", "Esforço Extraordinário", "Mira Aprimorada",
+            "Ritualista"],
+           p("habilidade:Int", "pericia:Tecnologia", "pericia:Combate à Distância: Magia",
+             "vantagem:Ataque à Distância", "pericia:Especialidade: Magia", "habilidade:Vig", "defesa:Vontade",
+             "pericia:Investigação", "habilidade:Des", "defesa:Fortitude", "pericia:Percepção"),
+           ["maca", "martelo_leve"], ["besta_leve", "besta_mao"],
+           ["camisao_malha", "ferramentas_ladrao", "mochila"],
+           ["ferramentas_ferreiro", "ferramentas_carpinteiro", "ferramentas_joalheiro", "corda", "tochas"],
+           ["raio_de_fogo", "armadura_arcana"], ["servo_homunculo", "maos_magicas", "teia", "levitacao"],
+           ["Conhecimento", "Reconhecimento", "Cobiça", "Fazer o Bem"],
+           [("Obsessão", "Não descansa enquanto a invenção não funcionar."),
+            ("Peculiaridade", "Desmonta qualquer mecanismo que encontra pela frente."),
+            ("Rivalidade", "Um colega da guilda de inventores quer roubar suas ideias."),
+            ("Perda de Poder", "Sem as ferramentas, não infunde nada.")],
+           [foco("alquimista", "Alquimista", "Mistura reagentes para dar vida e tirá-la: elixires e ácidos.",
+                 [], p("pericia:Especialidade: Alquimia", "pericia:Tratamento"),
+                 itens=["suprimentos_alquimista", "pocao_cura"], implantes=["elixir_experimental"]),
+            foco("armeiro", "Armeiro", "A armadura vira uma segunda pele, com manoplas que soltam trovões.",
+                 ["Rolamento Defensivo"], p("habilidade:Vig", "pericia:Combate Corpo-a-Corpo: Briga"),
+                 itens=["ferramentas_ferreiro"], implantes=["manoplas_trovejantes"]),
+            foco("artilheiro", "Artilheiro", "Dispara energia e explosões, com um canhão arcano que anda sozinho.",
+                 ["Mira Aprimorada"], p("pericia:Combate à Distância: Magia", "habilidade:Des"),
+                 implantes=["canhao_arcano"]),
+            foco("ferreiro_batalha", "Ferreiro de batalha",
+                 "Protetor e médico de campo, sempre com o defensor de aço que ele mesmo construiu.",
+                 ["Interpor-se"], p("habilidade:Lut", "pericia:Combate Corpo-a-Corpo: Maças"), ["martelo_guerra"],
+                 itens=["ferramentas_ferreiro"], implantes=["defensor_de_aco"])]),
 ]
 
 
@@ -1626,6 +1674,7 @@ RESERVA_DA_CLASSE = {
     "druida": ["Pro", "Vig", "Agi", "Int", "Pre", "Des"],
     "monge": ["Agi", "Lut", "Pro", "Vig", "Des", "For"],
     "bardo": ["Pre", "Agi", "Des", "Vig", "Int", "Pro"],
+    "artifice": ["Int", "Vig", "Des", "Pro", "Agi", "Lut"],
 }
 # Focos que lutam de outro jeito que a classe (o arqueiro não é um guerreiro de Força).
 RESERVA_DO_FOCO = {
@@ -1643,6 +1692,8 @@ RESERVA_DO_FOCO = {
     ("bruxo", "lamina"): ["Pre", "Lut", "Vig", "For", "Agi", "Pro"],
     ("clerigo", "guerra"): ["Pro", "For", "Lut", "Vig", "Pre", "Agi"],
     ("clerigo", "forja"): ["Pro", "For", "Lut", "Vig", "Pre", "Agi"],
+    ("artifice", "ferreiro_batalha"): ["Int", "Lut", "Vig", "For", "Des", "Pro"],
+    ("artifice", "armeiro"): ["Int", "Vig", "Lut", "For", "Des", "Pro"],
     ("clerigo", "crepusculo"): ["Pro", "Lut", "Vig", "Agi", "For", "Pre"],
     ("bardo", "bravura"): ["Pre", "Lut", "Agi", "Vig", "Des", "Pro"],
     ("bardo", "espadas"): ["Pre", "Agi", "Lut", "Des", "Vig", "Pro"],

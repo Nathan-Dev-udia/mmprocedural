@@ -1,6 +1,6 @@
 # Livro das Classes e Subclasses
 
-*Fantasia medieval em Mutantes & Malfeitores · as 12 classes e as 114 subclasses, uma a uma*
+*Fantasia medieval em Mutantes & Malfeitores · as 13 classes e as 118 subclasses, uma a uma*
 
 ---
 
@@ -35,6 +35,7 @@
   - **Druida**: Círculo da Terra, Círculo da Lua, Círculo do Pastor, Círculo do Fogo selvagem, Círculo dos Esporos, Círculo das Estrelas, Círculo dos Sonhos
   - **Monge**: Caminho da Mão Aberta, Caminho da Sombra, Caminho dos Quatro Elementos, Caminho do Mestre Bêbado, Caminho da Alma Solar, Caminho do Kensei, Caminho da Morte Extensa, Caminho da Misericórdia, Caminho do Eu Astral
   - **Bardo**: Colégio do Conhecimento, Colégio da Bravura, Colégio do Glamour, Colégio das Espadas, Colégio dos Sussurros, Colégio da Eloquência, Colégio da Criação
+  - **Artífice**: Alquimista, Armeiro, Artilheiro, Ferreiro de batalha
 
 ---
 
@@ -1298,3 +1299,47 @@ Canta a Canção da Criação. Inventor deixa ele criar objetos, e as **Mãos m�
 **Escolha se** quer um bardo criativo, que resolve problemas inventando coisas.
 
 {{subclasse:bardo:criacao}}
+
+---
+
+## Artífice
+
+O inventor que guarda magia em objetos. Não está no Livro do Jogador do D&D: vem do compêndio de classes. O artífice infunde armas, armaduras e engenhocas, e resolve problemas com ferramentas tanto quanto com magia. O Intelecto é a habilidade principal, e a Tecnologia (mecanismos, fechaduras, engenhocas) vem logo atrás.
+
+Duas vantagens são o coração da classe. **Artífice** usa a Especialidade: Magia para criar itens mágicos temporários, como poções e óleos. **Inventor** usa a Tecnologia para montar engenhocas. Em combate, ele ataca com o **Raio de fogo** (a mira é a Destreza, com Combate à Distância: Magia) e se protege com a **Armadura arcana**. Carrega camisão de malha e ferramentas de ladrão, e o **Servo homúnculo** (uma criaturinha mecânica que espia e carrega coisas) é uma das magias opcionais.
+
+{{classe:artifice}}
+
+> **Em D&D você teria** infusões que mudam a cada descanso longo e magias preparadas por nível. **Aqui**, as infusões viram magias da tradição **Infusões de artífice**, que formam um arranjo como as outras tradições, e as vantagens Artífice e Inventor cobrem o resto: qualquer item que o grupo precise, ele pode tentar montar na hora.
+
+### Alquimista
+
+Mistura reagentes para dar vida e tirá-la. O **Elixir experimental** fecha feridas de quem bebe (Cura), e os suprimentos de alquimista e uma poção de cura vão na bolsa. Alquimia e Tratamento vêm primeiro.
+
+**Escolha se** quer um artífice que cuida do grupo.
+
+{{subclasse:artifice:alquimista}}
+
+### Armeiro
+
+A armadura vira uma segunda pele. As **Manoplas trovejantes** soltam um trovão a cada soco (Dano corpo a corpo Penetrante, com Combate Corpo-a-Corpo: Briga), e Rolamento Defensivo representa a armadura que absorve parte dos golpes. O Vigor sobe cedo, e as ferramentas de ferreiro mantêm a armadura em ordem.
+
+**Escolha se** quer um artífice de linha de frente.
+
+{{subclasse:artifice:armeiro}}
+
+### Artilheiro
+
+Dispara energia e explosões. O **Canhão arcano** é um canhãozinho com pernas que solta um cone de chamas (Dano em área, sem teste de ataque), e Mira Aprimorada ajuda o Raio de fogo a acertar de longe. A mira (Destreza) e Combate à Distância: Magia vêm primeiro.
+
+**Escolha se** quer o artífice que causa mais dano à distância.
+
+{{subclasse:artifice:artilheiro}}
+
+### Ferreiro de batalha
+
+Protetor e médico de campo. O **Defensor de aço** é um constructo do tamanho de um cão grande, que luta ao lado do artífice (fica de fora do arranjo e custa o valor cheio). Interpor-se deixa ele receber um golpe no lugar de um aliado, e o martelo de guerra, com Luta e Combate Corpo-a-Corpo: Maças, é a arma dele.
+
+**Escolha se** quer um artífice protetor, que nunca luta sozinho.
+
+{{subclasse:artifice:ferreiro_batalha}}

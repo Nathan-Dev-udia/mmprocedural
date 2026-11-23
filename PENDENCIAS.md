@@ -28,7 +28,7 @@ Comparação do `referencias/dd/compendio-de-classes-e-subclasses.pdf` com o ger
 
 | Classe | Falta no gerador | Qtd. | Situação |
 |---|---|---|---|
-| Artífice | A classe inteira, mais Alquimista, Armeiro, Artilheiro e Ferreiro de Batalha | 1 + 4 | pendente |
+| Artífice | A classe inteira, mais Alquimista, Armeiro, Artilheiro e Ferreiro de Batalha | 1 + 4 | **feito** (versão 1.17.0) |
 | Clérigo | Natureza, Forja, Sepultura, Arcanismo, Ordem, Paz, Crepúsculo | 7 | **feito** (versão 1.16.0) |
 | Guerreiro | Arqueiro Arcano, Samurai, Ginete, Cavaleiro do Eco, Cavaleiro Psiônico, Cavaleiro Rúnico | 6 | **feito** (versão 1.15.0; o Ginete entrou como Porta-estandarte, porque é o Cavaleiro Dragão Púrpura, não um cavaleiro montado) |
 | Mago | Invocação, Mago da Guerra, Cronurgia, Graviturgia, Ordem dos Escribas | 5 | **feito** (versão 1.15.0) |
@@ -42,6 +42,7 @@ Comparação do `referencias/dd/compendio-de-classes-e-subclasses.pdf` com o ger
 | Feiticeiro | Alma Favorecida, Alma Mecânica | 2 | **feito** (versão 1.16.0) |
 | Druida | Círculo dos Sonhos | 1 | **feito** (versão 1.16.0) |
 
+- **Artífice (versão 1.17.0):** classe nova com as vantagens Artífice e Inventor, Tecnologia e a tradição **Infusões de artífice** (Elixir experimental, Canhão arcano, Manoplas trovejantes; Defensor de aço e Servo homúnculo ficam fora do arranjo, como o Companheiro animal). Conferir na mesa. O Livro do Jogador e o do Mestre só citam a classe na tabela e na contagem; uma explicação maior das infusões pode entrar na próxima revisão dos livros.
 - **Magias novas da versão 1.16.0** (conferir na mesa): Olhos da noite (Crepúsculo, visão no escuro fora do arranjo), Lâmina psíquica (Lâmina da alma, usa Adagas), Tentáculo das profundezas (Abissal) e Enxame (Protetor do enxame). As outras 22 subclasses da versão reaproveitam magias que já existiam.
 - **Magias novas da versão 1.15.0** (conferir na mesa se não ficaram fortes demais): Flecha arcana (Arqueiro arcano, disparada com o arco), Aura da tempestade (Arauto da tempestade, dano em área sem ataque, só em fúria), Braços do eu astral (Eu Astral, usa Briga), Estase momentânea (Cronurgia), Pressão gravitacional (Graviturgia) e Invocar elemental (Invocação, fora do arranjo).
 

@@ -746,6 +746,71 @@
     "estatistica": "Invocar Elemental menor, Heroico"
   },
   {
+    "id": "elixir_experimental",
+    "nome": "Elixir experimental",
+    "categoria": "infusao",
+    "catalogo": "luminosos__cura_luminosa",
+    "descricao": "Um frasco borbulhante preparado na hora que fecha feridas de quem bebe.",
+    "tags": [
+      "cura"
+    ],
+    "arranjo": "Infusões de artífice",
+    "graduacao_np": -1,
+    "estatistica": "Cura (elixir)"
+  },
+  {
+    "id": "canhao_arcano",
+    "nome": "Canhão arcano",
+    "categoria": "infusao",
+    "catalogo": "flamejantes__baforada_de_fogo",
+    "descricao": "Um canhãozinho mágico com pernas que solta um cone de chamas no inimigo.",
+    "tags": [
+      "combate",
+      "area"
+    ],
+    "arranjo": "Infusões de artífice",
+    "graduacao_np": -1,
+    "estatistica": "Dano, Área Cone (lança-chamas do canhão)"
+  },
+  {
+    "id": "manoplas_trovejantes",
+    "nome": "Manoplas trovejantes",
+    "categoria": "infusao",
+    "catalogo": "magicos__fisgo_de_heshem_3",
+    "descricao": "As manoplas da armadura soltam um trovão a cada soco.",
+    "tags": [
+      "combate"
+    ],
+    "arranjo": "Infusões de artífice",
+    "graduacao_np": -2,
+    "estatistica": "Dano corpo a corpo, Penetrante (trovão)",
+    "pericia": "Combate Corpo-a-Corpo: Briga"
+  },
+  {
+    "id": "defensor_de_aco",
+    "nome": "Defensor de aço",
+    "categoria": "infusao",
+    "catalogo": "animais__companheiro_animal",
+    "descricao": "Um constructo leal, do tamanho de um cão grande, que protege e conserta. Fica de fora do arranjo.",
+    "tags": [
+      "combate"
+    ],
+    "graduacao": 2,
+    "estatistica": "Invocar Defensor de aço, Heroico"
+  },
+  {
+    "id": "servo_homunculo",
+    "nome": "Servo homúnculo",
+    "categoria": "infusao",
+    "catalogo": "animais__companheiro_animal",
+    "descricao": "Uma criaturinha mecânica que espia, carrega coisas e ajuda nas invenções. Fica de fora do arranjo.",
+    "tags": [
+      "utilidade"
+    ],
+    "graduacao": 1,
+    "estatistica": "Invocar Homúnculo, Heroico"
+  },
+  {
     "id": "olhos_da_noite",
     "nome": "Olhos da noite",
     "categoria": "divina",
