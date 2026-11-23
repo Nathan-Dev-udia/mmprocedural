@@ -749,6 +749,8 @@ function prepararAbaJogador() {
       el("pj-dogma").textContent = `O dogma de ${d.nome} entra na ficha como mais uma complicação: ` +
         `${d.dogma.nome} (${d.dogma.detalhe})`;
       el("pj-dogma").hidden = false;
+    } else if (valor === "") {
+      texto = `O ${arquetipoBase().nome.toLowerCase()} precisa servir a um deus: escolha um ou deixe o gerador sortear.`;
     } else if (valor === "sortear") {
       texto = divindadesPossiveis().length === 0
         ? `Nenhuma divindade deste panteão concede ${focoBasePj().nome}. Escolha outro panteão.`
@@ -760,17 +762,24 @@ function prepararAbaJogador() {
     el("pj-divindade-descricao").textContent = texto;
     desenharEquipamento();
   };
-  // A lista muda com a classe (o clérigo não tem "Sem divindade"), com o domínio e com o panteão.
-  const atualizarListaDeDivindades = () => {
+  // A lista muda com a classe, com o domínio e com o panteão. Nas classes em que é opcional, o padrão é "Sem
+  // divindade"; no clérigo, o jogador tem de escolher (um deus ou o sorteio) antes de sair do passo.
+  // manterEscolha: false ao trocar de classe, para a escolha de uma classe não vazar para a outra.
+  const atualizarListaDeDivindades = (manterEscolha = true) => {
     if (!temDivindades()) return;
-    const anterior = el("pj-divindade").value;
+    const anterior = manterEscolha ? el("pj-divindade").value : null;
+    const obrigatoria = divindadeObrigatoria();
     const panteao = pj().divindades.panteoes.find((p) => p.id === el("pj-panteao").value);
     el("pj-panteao-descricao").textContent = panteao ? panteao.descricao : "";
-    el("pj-divindade").innerHTML = (divindadeObrigatoria() ? "" : '<option value="nenhuma">Sem divindade</option>') +
-      '<option value="sortear">Sortear</option>' +
+    el("pj-divindade-rotulo").textContent = obrigatoria ? "Divindade (obrigatória)" : "Divindade (opcional)";
+    el("pj-divindade").innerHTML =
+      (obrigatoria ? '<option value="" disabled>Escolha uma divindade</option>'
+        : '<option value="nenhuma">Sem divindade</option>') +
+      '<option value="sortear">Sortear (procedural)</option>' +
       opcoesDeSelect(divindadesPossiveis(), (d) => (panteao ? d.nome : `${d.nome} (${d.panteao})`));
     const valores = [...el("pj-divindade").options].map((o) => o.value);
-    el("pj-divindade").value = valores.includes(anterior) ? anterior : divindadeObrigatoria() ? "sortear" : "nenhuma";
+    el("pj-divindade").value = anterior !== null && valores.includes(anterior) ? anterior
+      : obrigatoria ? "" : "nenhuma";
     atualizarDivindade();
   };
   const atualizarFoco = () => {
@@ -786,6 +795,7 @@ function prepararAbaJogador() {
   const atualizarArquetipo = () => {
     el("pj-foco").innerHTML = opcoesDeSelect(arquetipoBase().focos);
     atualizarFoco();
+    atualizarListaDeDivindades(false);
   };
   const atualizarRiqueza = () => {
     el("pj-riqueza-descricao").textContent = riquezaPj().descricao;
@@ -905,9 +915,27 @@ const PASSOS = ["genero", "identidade", "raca", "arquetipo", "vantagens", "impla
 const passosAtivos = () => PASSOS.filter((p) => (p !== "implantes" || temImplantes()) && (p !== "raca" || temRacas()));
 let passoAtual = "genero";
 
+// Campos obrigatórios de um passo que ainda estão vazios (hoje, só a divindade do clérigo).
+function pendenciaDoPasso(nome) {
+  if (nome === "arquetipo" && temDivindades() && divindadeObrigatoria() && !el("pj-divindade").value) {
+    return { campo: el("pj-divindade"),
+             texto: `Escolha uma divindade para o ${arquetipoBase().nome.toLowerCase()} (ou "Sortear").` };
+  }
+  return null;
+}
+
 function irParaPasso(nome) {
   const ativos = passosAtivos();
   if (!ativos.includes(nome)) nome = ativos[0];
+  // Não passa adiante de um passo com campo obrigatório vazio (voltar continua livre).
+  const bloqueio = ativos.slice(0, ativos.indexOf(nome)).find((p) => pendenciaDoPasso(p));
+  if (bloqueio) {
+    const { campo, texto } = pendenciaDoPasso(bloqueio);
+    mostrarMensagem(texto, true);
+    if (passoAtual !== bloqueio) irParaPasso(bloqueio);
+    campo.focus();
+    return;
+  }
   const indice = ativos.indexOf(nome);
   passoAtual = nome;
   document.querySelectorAll("#formulario-pj .passo").forEach((s) => { s.hidden = s.dataset.passo !== nome; });
