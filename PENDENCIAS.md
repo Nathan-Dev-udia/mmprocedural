@@ -55,6 +55,12 @@ Comparação do `referencias/dd/compendio-de-classes-e-subclasses.pdf` com o ger
 - **Aard:** a estatística diz "superada por Fortitude", mas o ataque calculado sai contra Vontade. Conferir qual dos dois está certo em `dados/generos/fantasia/powers.json`.
 - **Cyberpunk:** os implantes também custam eurobucks; numa condição financeira baixa, um implante essencial ainda pode ficar de fora no sorteio. Depende do dinheiro, não do NP.
 
+## Ideias novas (25/11/2026)
+- **Deuses de D&D:** adicionar um panteão com os deuses de D&D em `dados/generos/fantasia/divindades.json`. Atenção: a decisão da versão 1.14.0 foi usar só mitologias em domínio público. Os nomes e as descrições dos deuses de D&D são conteúdo protegido (os Reinos Esquecidos, por exemplo), então vale decidir se entram só os nomes, ou como panteão opcional e separado, antes de começar.
+- **Melhorar a folha de descrição:** a página de referência do personagem (`nucleo/referencia.py`) pode ficar mais completa, sobretudo nos itens e habilidades. Ponto de partida: as vantagens usam só o resumo curto de `vantagens.json`; um campo de regra completa ajudaria.
+- **Pet (companheiro) do personagem:** permitir que o jogador escolha ter um pet na criação da ficha, com o custo em PP saindo do orçamento do personagem (vantagem Seguidor ou Lacaio/Sidekick, ou o efeito Companheiro, conforme a regra do M&M).
+- **Ficha de pet:** gerar a ficha do pet, no PDF, DOCX e TXT, incluindo cavalo no Faroeste e na Fantasia Medieval (e outros bichos por gênero). Depende da ideia anterior; o Mestre das Bestas e a "Besta do Mar" do compêndio podem aproveitar a mesma base.
+
 ## Escudo do Mestre
 - **Fantasia, Faroeste, Cthulhu e Cyberpunk:** feitos (aba no site, impressão, PDF e planilha). Conteúdo em `dados/escudo/<gênero>.json`; o de Cthulhu e o de Cyberpunk são gerados por `ferramentas/criar_*_escudo.py` (edite o script, não o JSON). O do Cyberpunk resume o Livro do Mestre do gênero em 11 abas (uma página de PDF cada), com armas e modos de disparo, lesões críticas, Humanidade, NET, dinheiro e reputação; queda, tempo de viagem, veículos/montarias, carga e medidas são calculados dinamicamente em `nucleo/escudo.py`.
 - **Impressão pelo navegador:** a aba Viagem ocupa duas folhas. O PDF baixado tem uma página por aba (teste `test_regras_gerais_seguem_o_livro_basico`).
