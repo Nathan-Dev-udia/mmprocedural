@@ -169,8 +169,33 @@ def _adicionar_npc(doc, npc, relatorio):
         paragrafo.runs[0].font.size = Pt(9)
 
 
+def _adicionar_referencia(doc, referencia):
+    """A referência do personagem (referencia.montar) numa página própria, depois da ficha."""
+    if not referencia or not referencia["secoes"]:
+        return
+    doc.add_paragraph().add_run().add_break(WD_BREAK.PAGE)
+    doc.add_heading(referencia["titulo"], level=1)
+    doc.add_paragraph().add_run(referencia["subtitulo"]).italic = True
+    for secao in referencia["secoes"]:
+        _titulo_de_secao(doc, secao["titulo"])
+        if secao.get("nota"):
+            nota = doc.add_paragraph().add_run(secao["nota"])
+            nota.italic = True
+            nota.font.size = Pt(9)
+            nota.font.color.rgb = COR_SUAVE
+        for item in secao["itens"]:
+            paragrafo = doc.add_paragraph(style="List Bullet")
+            paragrafo.add_run(item["nome"]).bold = True
+            if item.get("etiqueta"):
+                etiqueta = paragrafo.add_run(f"  [{item['etiqueta']}]")
+                etiqueta.font.size = Pt(8.5)
+                etiqueta.font.color.rgb = COR_SUAVE
+            paragrafo.add_run(" — " + " ".join(item["linhas"]))
+
+
 def gerar_docx(npcs_com_relatorio):
-    """Recebe [(npc, relatorio), ...] e devolve os bytes de um .docx com uma ficha por página."""
+    """Recebe [(npc, relatorio), ...] ou [(npc, relatorio, referencia), ...] e devolve os bytes de um .docx
+    com uma ficha por página (e, se vier a referência, uma página com o que cada coisa da ficha faz)."""
     doc = Document()
     estilo = doc.styles["Normal"]
     estilo.font.name = "Calibri"
@@ -178,10 +203,11 @@ def gerar_docx(npcs_com_relatorio):
     for nivel in (1, 2):
         doc.styles[f"Heading {nivel}"].font.color.rgb = COR_DESTAQUE
 
-    for indice, (npc, relatorio) in enumerate(npcs_com_relatorio):
+    for indice, (npc, relatorio, *resto) in enumerate(npcs_com_relatorio):
         if indice:
             doc.add_paragraph().add_run().add_break(WD_BREAK.PAGE)
         _adicionar_npc(doc, npc, relatorio)
+        _adicionar_referencia(doc, resto[0] if resto else None)
 
     saida = io.BytesIO()
     doc.save(saida)

@@ -411,10 +411,24 @@ def _aplicar_formulas(writer, formulas):
     formulario[NameObject("/CO")] = ArrayObject(campos[nome] for nome in ordem)
 
 
-def gerar_pdf(caminho_modelo, npc, relatorio, genero_nome):
-    """Devolve os bytes de um PDF preenchido com o NPC."""
+def gerar_pdf(caminho_modelo, npc, relatorio, genero_nome, referencia=None):
+    """Devolve os bytes de um PDF preenchido com o NPC.
+
+    referencia: o que referencia.montar devolve; se vier, entra em páginas no fim (o que cada vantagem,
+    poder e item faz).
+    """
+    paginas_extras = []
+    if referencia:
+        try:
+            from . import referencia_pdf
+            paginas = referencia_pdf.gerar_paginas(referencia)
+            if paginas:
+                paginas_extras.append(paginas)
+        except Exception:
+            # A ficha sai mesmo sem a referência, mas o erro fica registrado.
+            logging.getLogger(__name__).exception("Falha ao gerar as páginas de referência da ficha.")
     return preencher_modelo(caminho_modelo, valores_dos_campos(npc, relatorio, genero_nome),
-                            formulas=formulas_dos_campos(npc, relatorio), npc=npc)
+                            formulas=formulas_dos_campos(npc, relatorio), npc=npc, paginas_extras=paginas_extras)
 
 
 def _inserir_imagem_do_personagem(writer, caminho_imagem):
@@ -501,11 +515,12 @@ def _inserir_imagem_do_personagem(writer, caminho_imagem):
         pass
 
 
-def preencher_modelo(caminho_modelo, campos, caminho_imagem=None, formulas=None, npc=None):
+def preencher_modelo(caminho_modelo, campos, caminho_imagem=None, formulas=None, npc=None, paginas_extras=()):
     """Limpa o modelo e preenche os campos dados; devolve os bytes do PDF.
 
     formulas: {campo: JavaScript} de cálculos a acrescentar (além das correções do modelo, que entram sempre).
     npc: se fornecido e possuir Sanidade, anexa uma 3ª página com o Rastreador de Sanidade.
+    paginas_extras: bytes de PDFs cujas páginas vão no fim (a referência do personagem).
     """
     leitor = PdfReader(caminho_modelo)
     writer = PdfWriter(clone_from=leitor)
@@ -538,6 +553,10 @@ def preencher_modelo(caminho_modelo, campos, caminho_imagem=None, formulas=None,
         except Exception:
             # A ficha sai mesmo sem a página de Sanidade, mas o erro fica registrado.
             logging.getLogger(__name__).exception("Falha ao gerar a página de Sanidade da ficha.")
+
+    for extra in paginas_extras:
+        for pagina in PdfReader(io.BytesIO(extra)).pages:
+            writer.add_page(pagina)
 
     saida = io.BytesIO()
     writer.write(saida)

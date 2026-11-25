@@ -20,7 +20,10 @@ from flask import Flask, jsonify, redirect, render_template, request, send_file
 from markupsafe import Markup, escape
 
 from nucleo import (bestiario, bestiario_docx, bestiario_pdf, data_loader, docx_export, escudo, escudo_pdf, escudo_xlsx, formatter, generator, herois,
-                    herois_pdf, livros, medidas, pdf_export, planilhas, player, validator, viagem)
+                    herois_pdf, livros, medidas, pdf_export, planilhas, player, referencia, validator, viagem)
+
+# Entre o texto da ficha e a referência do personagem, no TXT.
+SEPARADOR_DA_REFERENCIA = "\n\n" + "=" * 60 + "\n\n"
 
 app = Flask(__name__)
 PASTA_LIVROS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "dados", "livros")
@@ -267,6 +270,8 @@ def _preparar(npc):
     """Acrescenta os textos de exibição a um NPC gerado."""
     npc["exibicao"] = formatter.exibicao(npc)
     npc["texto"] = formatter.texto(npc)
+    ref = _referencia(npc)
+    npc["referencia_texto"] = referencia.texto(ref) if ref else ""
     return npc
 
 
@@ -406,15 +411,33 @@ def _relatorio(npc):
         raise generator.GeneratorError(f"Ficha incompleta ou inválida para exportar: {erro}.")
 
 
+def _referencia(npc, relatorio=None):
+    """O que cada vantagem, poder e item da ficha faz (página extra do PDF, do DOCX e do TXT)."""
+    try:
+        return referencia.montar(npc, _dados(npc.get("genero")), relatorio)
+    except (KeyError, TypeError, ValueError):
+        app.logger.exception("Falha ao montar a referência da ficha.")
+        return None
+
+
 def _pdf_do_npc(npc):
     DADOS = _dados(npc.get("genero"))
     if DADOS["ficha_pdf"] is None:
         raise generator.GeneratorError("O modelo de ficha em PDF não foi encontrado na pasta data/.")
-    return pdf_export.gerar_pdf(DADOS["ficha_pdf"], npc, _relatorio(npc), DADOS["genero"]["nome"])
+    relatorio = _relatorio(npc)
+    return pdf_export.gerar_pdf(DADOS["ficha_pdf"], npc, relatorio, DADOS["genero"]["nome"],
+                                referencia=_referencia(npc, relatorio))
 
 
 def _docx_dos_npcs(npcs):
-    return docx_export.gerar_docx([(npc, _relatorio(npc)) for npc in npcs])
+    com_relatorio = [(npc, _relatorio(npc)) for npc in npcs]
+    return docx_export.gerar_docx([(npc, rel, _referencia(npc, rel)) for npc, rel in com_relatorio])
+
+
+def _texto_completo(npc):
+    """O texto da ficha seguido da referência (o TXT baixado)."""
+    extra = npc.get("referencia_texto") or ""
+    return npc.get("texto", "") + (SEPARADOR_DA_REFERENCIA + extra if extra else "")
 
 
 def _npc_do_pedido():
@@ -624,7 +647,7 @@ def baixar_zip():
                 arquivo_zip.writestr(f"pdf/{nome}.pdf", _pdf_do_npc(npc))
         arquivo_zip.writestr("todas_as_fichas.docx", _docx_dos_npcs(npcs))
         separador = "\n\n" + "-" * 60 + "\n\n"
-        arquivo_zip.writestr("todas_as_fichas.txt", separador.join(npc.get("texto", "") for npc in npcs))
+        arquivo_zip.writestr("todas_as_fichas.txt", separador.join(_texto_completo(npc) for npc in npcs))
     pacote.seek(0)
     return send_file(pacote, mimetype="application/zip", as_attachment=True, download_name="fichas_npcs.zip")
 

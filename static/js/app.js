@@ -145,11 +145,17 @@ async function copiar(texto) {
   }
 }
 
+// O TXT leva a ficha e, depois, a referência (o que cada vantagem, poder e item faz).
+function textoComReferencia(ficha) {
+  if (!ficha.referencia_texto) return ficha.texto;
+  return `${ficha.texto}\n\n${"=".repeat(60)}\n\n${ficha.referencia_texto}`;
+}
+
 function acaoDeArquivo(acao, ficha) {
   const base = nomeDeArquivo(ficha.nome);
   if (acao === "docx") baixarDoServidor("/api/ficha.docx", { npc: ficha }, `${base}.docx`, "Preparando a ficha em DOCX…");
   if (acao === "pdf") baixarDoServidor("/api/ficha.pdf", { npc: ficha }, `${base}.pdf`, "Preparando a ficha em PDF…");
-  if (acao === "txt") salvarArquivo(new Blob([ficha.texto], { type: "text/plain;charset=utf-8" }), `${base}.txt`);
+  if (acao === "txt") salvarArquivo(new Blob([textoComReferencia(ficha)], { type: "text/plain;charset=utf-8" }), `${base}.txt`);
   if (acao === "copiar") copiar(ficha.texto);
 }
 

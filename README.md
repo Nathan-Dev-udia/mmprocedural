@@ -34,6 +34,7 @@ python -m pytest
 | `nucleo/data_loader.py` | Lê e confere os JSON de cada gênero. Mostra todos os erros de uma vez. |
 | `nucleo/formatter.py` | Monta os textos do cartão e o bloco para copiar. |
 | `nucleo/pdf_export.py`, `nucleo/docx_export.py` | Ficha editável em PDF e fichas em Word. |
+| `nucleo/referencia.py`, `nucleo/referencia_pdf.py` | Referência do personagem: páginas no fim do PDF, do DOCX e do TXT que explicam o que cada vantagem, poder (magia, sinal, implante) e item da ficha faz, o teste do alvo, quanto custa subir uma graduação e os termos de regra citados (efeitos, modificadores, condições). |
 | `nucleo/livros.py` | Livros do Jogador e do Mestre em .docx (texto de `dados/livros/` + apêndice gerado dos dados). |
 | `nucleo/planilhas.py` | Planilhas de armas, itens e poderes em .xlsx, geradas dos dados. |
 | `nucleo/escudo.py`, `nucleo/escudo_pdf.py`, `nucleo/escudo_xlsx.py` | Aba **Escudo do Mestre**: tabelas de consulta por gênero (veja a seção própria). |
