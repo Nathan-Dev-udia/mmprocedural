@@ -52,13 +52,13 @@ Todo o orçamento do investigador é gasto exatamente até completar `15 × NP` 
 
 Se você usar o gerador na tela *Ficha de jogador* ou montar sua ficha manualmente na mesa, a ordem de decisão segue sete etapas diretas:
 
-1. **Gênero, NP e Nome:** selecione *Chamado de Cthulhu*, escolha o Nível de Poder desejado (1 a 5; padrão **3**) e defina o nome do investigador.
+1. **Gênero, NP e Nome:** selecione *Chamado de Cthulhu*, escolha o Nível de Poder desejado (1 a 5; padrão **3**) e defina o nome do investigador. No site, o campo opcional **Nível da campanha**, no primeiro passo, faz todas as fichas do grupo saírem no mesmo NP (e fica lembrado no navegador). Para o mestre: o endereço do site com `?np=3` no fim já abre com o nível preenchido.
 2. **Ocupação, Especialidade e Riqueza `[CoC]`:** escolha uma das **15 Ocupações** clássicas e uma **Especialidade** dentro dela (de 2 a 4 opções por ocupação). Em seguida, defina a **Condição financeira** (Crédito de 0 a 99, padrão *Classe média* com \$250).
 3. **Vantagens `[Básico]`:** o arquétipo já destaca vantagens essenciais e opcionais adequadas ao papel, e você pode adicionar outras da lista permitida ao gênero.
 4. **Equipamentos e orçamento em dólares `[Guia do Mestre]` `[Casa]`:** compre armas, munições, itens investigativos, roupas, veículos ou serviços usando seu dinheiro inicial em dólares dos anos 1920. Se gastar além do orçamento inicial, escolha pagar com PP subindo a condição financeira ou assumir uma **Dívida** como complicação extra.
 5. **Motivações e Complicações `[Básico]` `[CoC]`:** escolha **1 Motivação** (o motivo que impede seu personagem de simplesmente fugir e ignorar o horror) e pelo menos **1 Complicação** (medos, traumas, vícios da Lei Seca ou inimigos).
 6. **Distribuição dos Pontos de Poder `[Básico]` `[Casa]`:** no gerador automático, os `15 × NP` PP (mais `+1 PP` de *Pobretão*, se aplicável) são distribuídos pelas prioridades da Ocupação, Especialidade e prioridades gerais do gênero, sempre dentro dos tetos do NP. Se estiver criando à mão, some os custos de Habilidades, Defesas, Perícias e Vantagens até fechar o orçamento exato.
-7. **Ficha pronta e Registro de Sanidade `[CoC]` `[Casa]`:** revise ataques, defesas, carga em quilos e anote sua **SAN inicial** (`45 + 5 × Vontade`), **SAN máxima** (`99`) e **Ponto de Ruptura**. Ao exportar em PDF, a ficha gera automaticamente a **Página 3 (Registro de Sanidade & Trauma)**.
+7. **Ficha pronta e Registro de Sanidade `[CoC]` `[Casa]`:** revise ataques, defesas, carga em quilos e anote sua **SAN inicial** (`45 + 5 × Vontade`), **SAN máxima** (`99`) e **Ponto de Ruptura**. Ao exportar em PDF, a ficha gera automaticamente a **Página 3 (Registro de Sanidade & Trauma)**. No fim do PDF, do DOCX e do TXT vem ainda a **referência do personagem**: o que faz cada vantagem e item da ficha, o teste que o alvo faz (com as CDs) e os termos de regra citados.
 
 ---
 

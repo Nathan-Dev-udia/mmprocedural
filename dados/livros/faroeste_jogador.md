@@ -950,9 +950,9 @@ O site tem um montador de fichas **passo a passo** que aplica as regras deste li
 
 | Passo | O que você faz |
 |----|----|
-| **Gênero** | Escolha **Faroeste**. Aqui também ficam os links para baixar os livros e as planilhas. |
+| **Gênero** | Escolha **Faroeste** e, se quiser, o **Nível da campanha**: todas as fichas saem nesse NP (o site lembra no seu navegador). Aqui também ficam os links para baixar os livros e as planilhas. |
 | **Nome** | Digite o nome do personagem ou deixe em branco: o gerador sorteia um. |
-| **Arquétipo** | Escolha o arquétipo, o **foco**, o **NP** (de 2 a 10; o padrão é 6) e a **condição financeira**. |
+| **Arquétipo** | Escolha o arquétipo, o **foco**, o **NP** (de 2 a 10; o padrão é 6; travado no nível da campanha, se você preencheu) e a **condição financeira**. |
 | **Vantagens** | **Sortear de acordo com o arquétipo** (as essenciais do arquétipo e do foco, mais 0 a 2 opcionais) ou **Escolher** (as do arquétipo já vêm marcadas; o gerador só sobe graduações das que você marcar). |
 | **Armas e itens** | **Sortear** ou **Escolher**, com as sugestões do arquétipo no topo, um contador de dinheiro e o número de lotes de comida, bebida e munição. |
 | **Complicações** | Escolha a Motivação e pelo menos mais uma complicação, ou clique em **Sortear complicações**. |
@@ -997,7 +997,8 @@ Para a ficha ficar parecida com as do livro básico, o gerador segue algumas reg
 - **Dinheiro:** quanto você tinha, quanto gastou, quanto sobrou (ou quanto ficou devendo) e o que não coube.
 - **Carga:** o peso que você leva, se é leve ou pesada e quanto vai na montaria (seção 11.8). O gerador não tira itens por causa do peso, mas manda para a montaria o que não se usa no corpo; sem montaria, uma ficha com Força 0 pode sair com carga pesada.
 - **Status "Validada":** o programa conferiu todos os custos e limites.
-- **Downloads:** ficha editável em PDF, em Word (DOCX) ou em texto.
+- **Downloads:** ficha editável em PDF, em Word (DOCX) ou em texto. No fim de cada arquivo vem a **referência do personagem**: o que faz cada vantagem e item da ficha, o teste que o alvo faz (com as CDs), quanto custa subir uma graduação e os termos de regra citados (efeitos, modificadores e condições). Assim ninguém precisa abrir o livro no meio da sessão.
+- **Dica para o mestre:** mande à mesa o endereço do site com `?np=5` no fim (troque pelo NP da campanha). Quem abrir o link já começa com o nível da campanha preenchido.
 
 ### 15.5 Gerador e livro juntos
 

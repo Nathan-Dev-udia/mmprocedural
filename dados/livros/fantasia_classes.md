@@ -57,6 +57,8 @@ Cada classe e cada subclasse traz um bloco **Na ficha**. Ele é montado a partir
 
 Na subclasse, o bloco mostra só **o que ela acrescenta ou troca**. Todo o resto vem da classe.
 
+Quando a subclasse pede um **NP mínimo**, ele é a primeira linha do bloco. Abaixo dele, as magias e dons essenciais da subclasse não cabem na parte do orçamento que o gerador reserva para eles (35% dos PP), e o site não deixa criar a ficha. Numa escola (as do caçador de monstros), o mínimo só aparece se for diferente do da subclasse.
+
 **Sobre os números:** no NP 5, ataque + Dano não passa de 10. Com uma arma pesada (Dano 4) e Força 3, o golpe já tem Dano 7, e sobram só +3 para acertar. Por isso as fichas de combate de NP baixo têm Força 2 ou 3, e não 5: em M&M, Força 3 já é um sujeito muito forte. A Força e as outras habilidades crescem com o NP.
 
 ## Tamanho

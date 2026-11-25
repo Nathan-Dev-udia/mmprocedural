@@ -352,6 +352,9 @@ def _secao_arquetipos(dados):
         for foco in arq["focos"]:
             essenciais, _ = player.implantes_da_escolha(arq, foco)
             extras = []
+            minimo = _np_minimo(dados, arq, foco)
+            if minimo:
+                extras.append(f"NP mínimo {minimo}")
             if foco.get("vantagens"):
                 extras.append("vantagens: " + ", ".join(foco["vantagens"]))
             if foco.get("implantes"):
@@ -543,6 +546,12 @@ def _magias_com_estatistica(dados, ids):
                      else poderes[i]["nome"] for i in ids if i in poderes)
 
 
+def _np_minimo(dados, arq, foco):
+    """O NP mínimo da subclasse (player.np_minimo), ou None quando ela vale desde o menor NP do gênero."""
+    minimo = player.np_minimo(dados, arq, foco)
+    return minimo if minimo > dados["configuracoes"]["nps_jogador"][0] else None
+
+
 def _bloco_da_classe(dados, arq):
     """Resumo da classe, montado dos dados (o que o gerador usa)."""
     magias = arq.get("implantes", {})
@@ -561,9 +570,16 @@ def _bloco_da_classe(dados, arq):
     return "**Na ficha:**\n\n" + "\n".join(linhas) + "\n"
 
 
-def _bloco_da_subclasse(dados, arq, foco):
-    """O que a subclasse (ou a escola de uma subclasse) acrescenta ou troca, montado dos dados."""
+def _bloco_da_subclasse(dados, arq, foco, minimo=None):
+    """O que a subclasse (ou a escola de uma subclasse) acrescenta ou troca, montado dos dados.
+
+    minimo: o NP mínimo a mostrar (None: a subclasse vale desde o menor NP do gênero, ou a escola pede o mesmo
+    que a subclasse, que já disse).
+    """
     linhas = []
+    if minimo:
+        rotulo_poderes = dados["configuracoes"].get("rotulo_poderes", "Poderes").lower()
+        linhas.append(f"- **NP mínimo:** {minimo} (abaixo disso, {rotulo_poderes} essenciais não cabem nos pontos).")
     if foco.get("vantagens"):
         linhas.append(f"- **Vantagens:** {', '.join(foco['vantagens'])}.")
     if foco.get("implantes"):
@@ -613,10 +629,12 @@ def expandir_marcadores(texto, dados):
         if tipo == "classe":
             return _bloco_da_classe(dados, arq)
         foco = next(f for f in arq["focos"] if f["id"] == ids[1])
+        minimo_da_subclasse = _np_minimo(dados, arq, foco)
         if tipo == "subclasse":
-            return _bloco_da_subclasse(dados, arq, foco)
+            return _bloco_da_subclasse(dados, arq, foco, minimo_da_subclasse)
         variante = next(v for v in foco["variantes"] if v["id"] == ids[2])
-        return _bloco_da_subclasse(dados, arq, variante)
+        minimo = _np_minimo(dados, arq, player.foco_com_variante(arq, foco, variante))
+        return _bloco_da_subclasse(dados, arq, variante, minimo if minimo != minimo_da_subclasse else None)
 
     return _MARCADOR.sub(trocar, texto)
 

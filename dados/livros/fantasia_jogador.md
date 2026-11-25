@@ -363,7 +363,7 @@ Você começa **cada sessão com 1 ponto heroico**. Pontos não gastos se perdem
 
 1. **Conceito.** Quem é seu personagem? Uma anã clériga da forja, um elfo arqueiro, um tiefling bruxo com um pacto que se arrepende de ter feito?
 2. **Combine com o mestre.** Ele define o nível de poder, o tom (masmorras heroicas ou guerra suja) e as regras opcionais (dano não letal, recuperação lenta).
-3. **Nível de poder.** O mestre diz o NP, que define seus pontos e seus limites.
+3. **Nível de poder.** O mestre diz o NP, que define seus pontos e seus limites. Algumas subclasses pedem um **NP mínimo**, porque abaixo dele as magias e dons que as definem não cabem nos pontos (o caçador de monstros, por exemplo, começa no NP 4). O mínimo de cada uma aparece no bloco **Na ficha** do Livro das Classes e no apêndice.
 4. **Raça.** Escolha uma das nove raças (seção 7). Os traços raciais custam PP.
 5. **Classe e subclasse.** Escolha uma das 13 classes e uma das subclasses dela (seção 8). Elas dizem por onde começar, mas tudo ainda é comprado com PP.
 6. **Habilidades.** Compre as oito habilidades (2 PP por graduação).
@@ -1059,17 +1059,26 @@ O site tem um construtor passo a passo de ficha de jogador. Escolha **Fantasia m
 
 | Passo | O que você faz |
 |----|----|
-| **Gênero** | Escolha Fantasia medieval. Aqui também ficam os links para baixar os livros. |
+| **Gênero** | Escolha Fantasia medieval e, se quiser, o **Nível da campanha** (seção 15.1). Aqui também ficam os links para baixar os livros. |
 | **Nome** | Digite o nome do personagem ou deixe em branco: o gerador sorteia um nome que combina com a raça. |
 | **Raça** | Escolha a raça. A tela mostra os traços e quanto eles custam no NP escolhido. |
-| **Classe** | Escolha a classe, a subclasse, o **NP** (padrão 5, de 1 a 10) e a **condição financeira**. |
+| **Classe** | Escolha a classe, a subclasse, o **NP** (padrão 5, de 2 a 10) e a **condição financeira**. As subclasses que pedem NP mínimo aparecem com "(a partir do NP 4)". |
 | **Vantagens** | **Sortear de acordo com a classe** (as essenciais, mais 0 a 2 opcionais) ou **Escolher** (as da classe já vêm marcadas; o gerador só sobe graduações das que você marcar). |
 | **Magias e dons** | Sortear ou Escolher. Cada magia mostra o custo em PP no seu NP, e o contador já faz a conta do arranjo e das falhas. |
 | **Armas e itens** | Sortear (arma principal, talvez uma secundária, a munição, as rações, os itens essenciais e alguns opcionais) ou Escolher, com as sugestões da classe no topo e um contador de dinheiro. Armas que não cabem no NP ficam de fora. |
 | **Complicações** | Escolha a Motivação e pelo menos mais uma complicação, ou clique em **Sortear complicações**. As fixas (como a do caçador de monstros) entram sempre. |
 | **Ficha** | Clique em **Gerar ficha**. Não gostou? **Gerar outra versão** refaz a distribuição com as mesmas escolhas. |
 
-**Downloads:** cada ficha pode ser baixada como **PDF** (a ficha editável oficial de M&M, preenchida), **DOCX** (com tabelas de habilidades, defesas, ataques e perícias) ou **TXT**.
+**Nível da campanha e NP mínimo:** o campo **Nível da campanha**, no primeiro passo, é opcional.
+
+- **Preenchido:** todas as fichas saem nesse NP, que fica travado no passo da classe. As classes e subclasses que só cabem num NP maior continuam na lista, mas desabilitadas e marcadas com "(a partir do NP X)". O custo da raça já aparece no NP certo.
+- **Em branco:** você escolhe o NP no passo da classe. Tudo fica liberado, os NPs abaixo do mínimo da subclasse vêm marcados "abaixo do mínimo", com um aviso, e o passo só avança num NP em que ela cabe.
+
+O site lembra o nível da campanha no seu navegador, separado por gênero.
+
+**Dica para o mestre:** mande à mesa o endereço do site com `?np=5` no fim (troque pelo NP da campanha). Quem abrir o link já começa com o nível da campanha preenchido.
+
+**Downloads:** cada ficha pode ser baixada como **PDF** (a ficha editável oficial de M&M, preenchida), **DOCX** (com tabelas de habilidades, defesas, ataques e perícias) ou **TXT**. No fim de cada arquivo vem a **referência do personagem**: o que faz cada vantagem, magia, dom e item da ficha, o teste que o alvo faz (com as CDs), quanto custa subir uma graduação e os termos de regra citados (efeitos, modificadores e condições). Assim ninguém precisa abrir o livro no meio da sessão.
 
 **O status da ficha:** a ficha do gerador sempre respeita os limites do NP. Fichas com magias aparecem como "Custos calculados": o custo das magias vem do *Perfis de Poder* e não é recalculado pelo programa. As habilidades, defesas, perícias, vantagens e equipamento, o programa calcula.
 

@@ -58,8 +58,10 @@ def planilhas_disponiveis(genero_id):
 # 1.14 divindades da fantasia (panteões grego, nórdico, egípcio e maia),
 # 1.15 19 subclasses do compêndio (guerreiro, bárbaro, monge e mago),
 # 1.16 mais 26 subclasses do compêndio (clérigo, ladino, paladino, bruxo, patrulheiro, bardo, feiticeiro e druida),
-# 1.17 classe Artífice (Alquimista, Armeiro, Artilheiro e Ferreiro de batalha).
-VERSAO = "1.17.0"
+# 1.17 classe Artífice (Alquimista, Armeiro, Artilheiro e Ferreiro de batalha),
+# 1.18 referência do personagem no fim do PDF, do DOCX e do TXT,
+# 1.19 NP mínimo por subclasse, nível da campanha e livros atualizados com os dois.
+VERSAO = "1.19.0"
 
 
 def _commit_atual():

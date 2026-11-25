@@ -240,3 +240,17 @@ def test_planilha_de_pocoes_e_valida():
         assert item["comercio"] == "Alquimista"
     pesos = [linha[10] for linha in wb["Poções e Elixires"].iter_rows(min_row=3, values_only=True)]
     assert pesos and all(pesos)
+
+
+def test_bloco_da_subclasse_mostra_o_np_minimo():
+    dados = data_loader.carregar_genero("fantasia")
+    texto = livros.expandir_marcadores("{{subclasse:bruxo:cacador_monstros}}\n\n{{escola:bruxo:cacador_monstros:lobo}}"
+                                       "\n\n{{subclasse:guerreiro:campeao}}", dados)
+    assert texto.count("**NP mínimo:** 4") == 1     # na subclasse; a escola pede o mesmo e não repete
+    assert texto.count("NP mínimo") == 1             # o campeão vale desde o NP 2
+
+
+def test_apendice_mostra_o_np_minimo_do_foco():
+    apendice = livros.apendice(data_loader.carregar_genero("cyberpunk"), "jogador")
+    linha = next(l for l in apendice.splitlines() if l.startswith("| Olho da rede"))
+    assert "NP mínimo 3" in linha

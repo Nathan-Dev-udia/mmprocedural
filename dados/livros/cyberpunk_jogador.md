@@ -924,9 +924,9 @@ O site do projeto tem um montador de fichas **passo a passo** que aplica todas a
 
 ### 16.1 Os passos
 
-1. **Gênero:** escolha **Cyberpunk**. A página carrega os Papéis, os preços e os implantes do gênero.
+1. **Gênero:** escolha **Cyberpunk**. A página carrega os Papéis, os preços e os implantes do gênero. Se quiser, preencha o **Nível da campanha**: todas as fichas saem nesse NP, e os focos que pedem um NP maior ficam desabilitados. Em branco, você escolhe o NP no passo 3. O site lembra o nível no seu navegador.
 2. **Nome:** escreva o nome do personagem (e o seu, se quiser). Em branco, o gerador sorteia um.
-3. **Arquétipo:** escolha o **Papel**, o **foco**, o **nível de poder** (de 2 a 10; o padrão é 6) e a **condição financeira**. A ficha gasta exatamente 15 PP por NP (+1 no Hotel-cápsula).
+3. **Arquétipo:** escolha o **Papel**, o **foco**, o **nível de poder** (de 2 a 10; o padrão é 6) e a **condição financeira**. A ficha gasta exatamente 15 PP por NP (+1 no Hotel-cápsula). Um foco pode pedir um **NP mínimo**, quando abaixo dele os implantes essenciais não cabem nos pontos: o *olho da rede* do netrunner começa no NP 3. O passo só avança num NP em que o foco cabe.
 4. **Vantagens:** *Sortear de acordo com o arquétipo* (as essenciais do Papel e do foco, mais algumas opcionais) ou *Escolher* (você marca; as do Papel já vêm marcadas, e um contador mostra quantos PP sobram).
 5. **Implantes:** *Sortear* tenta instalar os essenciais do Papel e do foco e até dois opcionais, sujeito aos limites de PP e ao dinheiro restante; algum implante pode ficar de fora. O teto automático é 35% do orçamento de PP, com mínimo de 4 PP. *Escolher* permite selecionar implantes e ver seus custos em PP e eurobucks.
 6. **Armas e itens:** *Sortear* tenta comprar uma arma principal, talvez uma secundária, a munição e itens do Papel conforme a prioridade e o dinheiro disponível; o que não couber é omitido, sem criar dívida. *Escolher* permite selecionar itens e quantidades. Se a compra manual exceder o dinheiro, escolha pagar com uma condição financeira mais alta ou registrar dívida.
@@ -943,7 +943,8 @@ Depois das suas escolhas, o gerador sobe a ficha um ponto por vez, seguindo as p
 - **Dinheiro:** quanto você tinha, quanto gastou em itens e cyberware e quanto sobrou (ou quanto ficou devendo).
 - **Totais:** PP em habilidades, defesas, perícias, vantagens e implantes; a soma bate com o orçamento.
 - **Status "Custos calculados":** é o normal para quem tem implantes. Quer dizer que o programa conferiu todos os limites e calculou todos os custos, mas o custo do implante foi copiado da tabela de poderes, não recalculado. Uma ficha sem implantes sai como "Validada".
-- **Downloads:** ficha editável em PDF, em Word (DOCX) ou em texto.
+- **Downloads:** ficha editável em PDF, em Word (DOCX) ou em texto. No fim de cada arquivo vem a **referência do personagem**: o que faz cada vantagem, implante e item da ficha, o teste que o alvo faz (com as CDs), quanto custa subir uma graduação e os termos de regra citados (efeitos, modificadores e condições). Assim ninguém precisa abrir o livro no meio da sessão.
+- **Dica para o mestre:** mande à mesa o endereço do site com `?np=5` no fim (troque pelo NP da campanha). Quem abrir o link já começa com o nível da campanha preenchido.
 
 ### 16.4 Gerador e livro juntos
 
