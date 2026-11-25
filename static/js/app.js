@@ -437,6 +437,26 @@ const temImplantes = () => pj().implantes.length > 0;
 const temRacas = () => pj().racas.length > 0;
 const racaPj = () => pj().racas.find((r) => r.id === el("pj-raca").value) || pj().racas[0];
 const npPj = () => Number(el("pj-np").value);
+// Nível da campanha (opcional, no 1º passo): trava o NP da ficha e desabilita as classes, subclasses e variantes
+// que só cabem num NP maior. Em branco, tudo fica liberado e elas só ganham o aviso do NP mínimo.
+const npCampanha = () => Number(el("pj-np-campanha").value) || null;
+const chaveDaCampanha = () => `np_campanha:${opcoes.genero.id}`;
+const npMinimoDaClasse = (a) => Math.min(...a.focos.map((f) => f.np_minimo));
+const cabeNaCampanha = (minimo) => !npCampanha() || minimo <= npCampanha();
+function opcoesComMinimo(itens, rotulo, minimoDe) {
+  return itens.map((i) => {
+    const minimo = minimoDe(i);
+    const nome = minimo > pj().nps[0] ? `${rotulo(i)} (a partir do NP ${minimo})` : rotulo(i);
+    return `<option value="${escapar(i.id)}"${cabeNaCampanha(minimo) ? "" : " disabled"}>${escapar(nome)}</option>`;
+  }).join("");
+}
+// Se a opção marcada ficou desabilitada, passa para a primeira que não está.
+function escolherHabilitada(select) {
+  if (!select.selectedOptions[0] || select.selectedOptions[0].disabled) {
+    const livre = [...select.options].find((o) => !o.disabled);
+    if (livre) select.value = livre.value;
+  }
+}
 const custoDaRaca = () => (temRacas() ? racaPj().custo_por_np[npPj()] || 0 : 0);
 // Magias que acompanham o NP mudam de graduação e de custo com ele.
 const implanteNoNp = (i) => i.por_np[npPj()] || { custo: i.custo, estatistica: i.estatistica };
@@ -697,7 +717,16 @@ function atualizarListasDeEscolha() {
 }
 
 function prepararAbaJogador() {
-  el("pj-arquetipo").innerHTML = opcoesDeSelect(pj().arquetipos);
+  // Nível da campanha: o endereço (?np=5, para o mestre mandar o link à mesa) vale mais que o lembrado no navegador.
+  el("pj-np-campanha").innerHTML = '<option value="">Em branco: cada ficha escolhe</option>' +
+    pj().nps.map((np) => `<option value="${np}">NP ${np} (${np * 15} PP)</option>`).join("");
+  let campanha = new URLSearchParams(location.search).get("np");
+  if (!campanha) {
+    try { campanha = localStorage.getItem(chaveDaCampanha()); } catch { /* armazenamento indisponível */ }
+  }
+  el("pj-np-campanha").value = pj().nps.includes(Number(campanha)) ? String(Number(campanha)) : "";
+  el("pj-arquetipo").innerHTML = opcoesComMinimo(pj().arquetipos, (a) => a.nome, npMinimoDaClasse);
+  escolherHabilitada(el("pj-arquetipo"));
   el("pj-np").innerHTML = pj().nps.map((np) => `<option value="${np}">NP ${np} (${np * 15} PP)</option>`).join("");
   el("pj-np").value = pj().np_padrao;
   el("pj-riqueza").innerHTML = opcoesDeSelect(pj().riqueza);
@@ -728,9 +757,36 @@ function prepararAbaJogador() {
   el("pj-raca").addEventListener("change", atualizarRaca);
 
   // O foco pode trocar o conceito e as sugestões de complicação da classe (ex.: o bruxo caçador de monstros).
+  // Abaixo do NP mínimo da subclasse (ou da variante escolhida) os poderes essenciais não cabem. Com nível da
+  // campanha, o NP fica travado nele (e a subclasse já veio filtrada); sem, todos os NPs ficam na lista, os de
+  // baixo com aviso, e o passo não avança enquanto o NP estiver abaixo do mínimo.
+  const atualizarAvisoDoNp = () => {
+    const minimo = focoPj().np_minimo || pj().nps[0];
+    const abaixo = npPj() < minimo;
+    let texto = npCampanha() ? "NP da campanha, escolhido no primeiro passo. " : "";
+    texto += "Personagem de jogador gasta exatamente 15 PP por NP.";
+    if (minimo > pj().nps[0]) {
+      texto += ` ${abaixo ? "Atenção: " : ""}${focoPj().nome} precisa de NP ${minimo} ou mais: abaixo disso, ` +
+        `${pj().rotulo_poderes.toLowerCase()} essenciais não cabem nos pontos.`;
+    }
+    el("pj-np-descricao").textContent = texto;
+    el("pj-np-descricao").classList.toggle("aviso-texto", abaixo);
+  };
+  const atualizarNpsPermitidos = () => {
+    const minimo = focoPj().np_minimo || pj().nps[0];
+    const anterior = npPj();
+    const nps = npCampanha() ? [npCampanha()] : pj().nps;
+    el("pj-np").innerHTML = nps.map((np) => `<option value="${np}">NP ${np} (${np * 15} PP)` +
+      `${np < minimo ? ` — abaixo do mínimo (NP ${minimo})` : ""}</option>`).join("");
+    el("pj-np").disabled = Boolean(npCampanha());
+    el("pj-np").value = npCampanha() || (nps.includes(anterior) ? anterior : pj().np_padrao);
+    atualizarAvisoDoNp();
+    if (npPj() !== anterior) el("pj-np").dispatchEvent(new Event("change"));
+  };
   const atualizarVariante = () => {
     const v = focoBasePj().variantes.find((x) => x.id === el("pj-variante").value);
     el("pj-variante-descricao").textContent = v ? v.descricao_curta : "O gerador sorteia uma.";
+    atualizarNpsPermitidos();
     el("pj-conceito").textContent = arquetipoPj().conceito;
     desenharVantagens();
     desenharEquipamento();
@@ -788,34 +844,57 @@ function prepararAbaJogador() {
       : obrigatoria ? "" : "nenhuma";
     atualizarDivindade();
   };
-  const atualizarFoco = () => {
+  // manter: true quando a lista é refeita sem o jogador ter trocado a escolha (mudou o nível da campanha);
+  // a escolha fica, se continuar possível.
+  const atualizarFoco = (manter = false) => {
     const f = focoBasePj();
+    const anterior = el("pj-variante").value;
     el("pj-variante-campo").hidden = f.variantes.length === 0;
     el("pj-variante-rotulo").textContent = f.rotulo_variante;
     el("pj-variante").innerHTML = '<option value="">Sortear</option>' +
-      opcoesDeSelect(f.variantes, (v) => v.nome_curto);
+      opcoesComMinimo(f.variantes.map((v) => ({ ...v, nome: v.nome_curto })), (v) => v.nome, (v) => v.np_minimo);
+    if (manter) el("pj-variante").value = anterior;
+    escolherHabilitada(el("pj-variante"));
     el("pj-foco-descricao").textContent = f.descricao;
     atualizarVariante();
     atualizarListaDeDivindades();
   };
-  const atualizarArquetipo = () => {
-    el("pj-foco").innerHTML = opcoesDeSelect(arquetipoBase().focos);
-    atualizarFoco();
-    atualizarListaDeDivindades(false);
+  const atualizarArquetipo = (manter = false) => {
+    const anterior = el("pj-foco").value;
+    el("pj-foco").innerHTML = opcoesComMinimo(arquetipoBase().focos, (f) => f.nome, (f) => f.np_minimo);
+    if (manter) el("pj-foco").value = anterior;
+    escolherHabilitada(el("pj-foco"));
+    atualizarFoco(manter);
+    atualizarListaDeDivindades(manter);
+  };
+  const atualizarCampanha = () => {
+    try { localStorage.setItem(chaveDaCampanha(), el("pj-np-campanha").value); } catch { /* armazenamento indisponível */ }
+    const campanha = npCampanha();
+    el("pj-np-campanha-descricao").textContent = campanha
+      ? `Todas as fichas saem no NP ${campanha}. Classes e ${pj().rotulo_foco.toLowerCase()}s que só cabem ` +
+        "num NP maior ficam desabilitadas."
+      : "Em branco, cada ficha escolhe o NP. Opções que pedem um NP maior aparecem com o aviso do mínimo.";
+    const classe = el("pj-arquetipo").value;
+    el("pj-arquetipo").innerHTML = opcoesComMinimo(pj().arquetipos, (a) => a.nome, npMinimoDaClasse);
+    el("pj-arquetipo").value = classe;
+    escolherHabilitada(el("pj-arquetipo"));
+    atualizarArquetipo(el("pj-arquetipo").value === classe);
   };
   const atualizarRiqueza = () => {
     el("pj-riqueza-descricao").textContent = riquezaPj().descricao;
     atualizarContadorDeEquipamento();
     atualizarContadorDeVantagens();
   };
-  el("pj-arquetipo").addEventListener("change", atualizarArquetipo);
-  el("pj-foco").addEventListener("change", atualizarFoco);
+  el("pj-arquetipo").addEventListener("change", () => atualizarArquetipo());
+  el("pj-foco").addEventListener("change", () => atualizarFoco());
+  el("pj-np-campanha").addEventListener("change", atualizarCampanha);
   el("pj-variante").addEventListener("change", () => { atualizarVariante(); atualizarDivindade(); });
   el("pj-panteao").addEventListener("change", atualizarListaDeDivindades);
   el("pj-divindade").addEventListener("change", atualizarDivindade);
   el("pj-riqueza").addEventListener("change", atualizarRiqueza);
   // O NP muda o custo da raça e a graduação das magias que o acompanham.
   el("pj-np").addEventListener("change", () => {
+    atualizarAvisoDoNp();
     atualizarRaca();
     desenharImplantes(true);
     atualizarContadorDeEquipamento();
@@ -839,7 +918,7 @@ function prepararAbaJogador() {
     atualizarContadorDeEquipamento();
   });
   document.querySelectorAll('input[name="pj-excesso"]').forEach((r) => r.addEventListener("change", atualizarContadorDeVantagens));
-  atualizarArquetipo();
+  atualizarCampanha();
   atualizarRiqueza();
   atualizarRaca();
   atualizarListasDeEscolha();
@@ -921,8 +1000,15 @@ const PASSOS = ["genero", "identidade", "raca", "arquetipo", "vantagens", "impla
 const passosAtivos = () => PASSOS.filter((p) => (p !== "implantes" || temImplantes()) && (p !== "raca" || temRacas()));
 let passoAtual = "genero";
 
-// Campos obrigatórios de um passo que ainda estão vazios (hoje, só a divindade do clérigo).
+// Campos obrigatórios de um passo que ainda estão vazios (a divindade do clérigo) ou fora do permitido (o NP abaixo
+// do mínimo da subclasse: o aviso aparece ao escolher, mas o passo só avança com um NP em que ela cabe).
 function pendenciaDoPasso(nome) {
+  if (nome === "arquetipo" && npPj() < focoPj().np_minimo) {
+    const campo = npCampanha() ? el("pj-foco") : el("pj-np");
+    return { campo, texto: `${focoPj().nome} precisa de NP ${focoPj().np_minimo} ou mais: abaixo disso, ` +
+             `${pj().rotulo_poderes.toLowerCase()} essenciais não cabem nos pontos. ` +
+             (npCampanha() ? `Escolha outra ${pj().rotulo_foco.toLowerCase()}.` : "Suba o NP.") };
+  }
   if (nome === "arquetipo" && temDivindades() && divindadeObrigatoria() && !el("pj-divindade").value) {
     return { campo: el("pj-divindade"),
              texto: `Escolha uma divindade para o ${arquetipoBase().nome.toLowerCase()} (ou "Sortear").` };

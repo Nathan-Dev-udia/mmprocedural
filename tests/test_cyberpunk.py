@@ -101,6 +101,8 @@ def test_todo_item_e_implante_tem_preco_do_red_ou_estimado(cyber):
 @pytest.mark.parametrize("np", [2, 6, 10])
 def test_pj_fecha_o_orcamento_exato(cyber, arquetipo, np):
     for foco in cyber["jogador"]["arquetipos"][arquetipo]["focos"]:
+        if np < player.np_minimo(cyber, cyber["jogador"]["arquetipos"][arquetipo], foco):
+            continue   # abaixo do NP mínimo a ficha não sai (tests/test_np_minimo.py)
         pj = gerar_pj(cyber, arquetipo, np, foco["id"], semente=np)
         assert pj["validacao"]["total_pp"] == rules.orcamento_de_jogador(np)
         assert pj["validacao"]["problemas"] == []

@@ -556,21 +556,96 @@ def foco_com_variante(arquetipo, foco, variante):
         substitui["sugestoes"] = {**sugestoes, "complicacoes": [{**c, "da_variante": True} for c in variante["complicacoes"]]
                                   + [c for c in sugestoes["complicacoes"] if c["nome"] not in novas]}
     resultado["substitui"] = substitui
+    if variante.get("np_minimo"):
+        resultado["np_minimo"] = max(foco.get("np_minimo", 0), variante["np_minimo"])
     resultado.pop("variantes", None)
     return resultado
 
 
-def escolher_variante(arquetipo, foco, variante_id, rng):
-    """O foco com a variante pedida; sem pedido, uma sorteada. Focos sem variantes voltam como estão."""
+def escolher_variante(arquetipo, foco, variante_id, rng, dados=None, np=None):
+    """O foco com a variante pedida; sem pedido, uma sorteada. Focos sem variantes voltam como estão.
+
+    Com dados e np, o sorteio só escolhe entre as variantes que cabem nesse NP (veja np_minimo).
+    """
     variantes = foco.get("variantes", [])
     if not variantes:
         return foco
     if not variante_id:
+        if dados is not None and np is not None:
+            variantes = [v for v in variantes
+                         if np_minimo(dados, arquetipo, foco_com_variante(arquetipo, foco, v)) <= np] or variantes
         return foco_com_variante(arquetipo, foco, rng.choice(variantes))
     variante = next((v for v in variantes if v["id"] == variante_id), None)
     if variante is None:
         raise GeneratorError(f"A opção '{variante_id}' não existe para {foco['nome']}.")
     return foco_com_variante(arquetipo, foco, variante)
+
+
+# ---------------------------------------------------------------- NP mínimo da subclasse
+
+# Parte do orçamento (em %) que os poderes sorteados podem usar; o resto fica para habilidades, perícias e defesas.
+PERCENTUAL_DOS_PODERES = 35
+TETO_MINIMO_DOS_PODERES = 4
+
+# {(gênero, classe, subclasse, variante): NP mínimo}. Depende só dos dados, que não mudam com o programa aberto.
+_NP_MINIMO = {}
+
+
+def teto_dos_poderes(orcamento):
+    """Quantos PP os poderes sorteados podem usar num orçamento."""
+    return max(TETO_MINIMO_DOS_PODERES, orcamento * PERCENTUAL_DOS_PODERES // 100)
+
+
+def essenciais_que_faltam(dados, arquetipo, foco, np):
+    """Os poderes essenciais da subclasse que não cabem no NP: passam da parte do orçamento dos poderes
+    (PERCENTUAL_DOS_PODERES) ou dos limites do NP. Lista vazia: cabem todos."""
+    essenciais, _ = implantes_da_escolha(arquetipo_com_foco(arquetipo, foco), foco)
+    if not essenciais:
+        return []
+    ficha = {"habilidades": {h: 0 for h in rules.HABILIDADES}, "defesas_compradas": {}, "pericias": {},
+             "vantagens": {}, "equipamento": [], "quantidades": {}, "ataque_desarmado": True, "poderes": {},
+             "fontes": []}
+    # O dinheiro do cyberware não entra aqui: ele depende da condição financeira, não do NP.
+    instalados, _, _ = _instalar_implantes(dados, ficha, essenciais, np, opcoes_de_validacao(dados),
+                                           teto_de_pontos=teto_dos_poderes(rules.orcamento_de_jogador(np)),
+                                           dinheiro=float("inf") if implantes_em_dinheiro(dados) else None)
+    return [i for i in essenciais if i not in instalados]
+
+
+def np_minimo(dados, arquetipo, foco):
+    """O menor NP de jogador em que a subclasse sai inteira: dali para cima, todos os poderes essenciais cabem.
+
+    Abaixo disso o personagem sairia sem o que define a subclasse (ex.: o bruxo caçador de monstros sem os
+    Sinais). Classe, subclasse e variante podem pedir um NP mínimo maior com "np_minimo" no JSON (para não sair
+    fraco demais, por exemplo); vale o maior. Num foco com variantes ainda não aplicadas, vale a variante que
+    entra mais cedo.
+    """
+    if foco.get("variantes"):
+        return min(np_minimo(dados, arquetipo, foco_com_variante(arquetipo, foco, v)) for v in foco["variantes"])
+    chave = (dados["genero"]["id"], arquetipo["id"], foco["id"], (foco.get("variante") or {}).get("id"))
+    if chave not in _NP_MINIMO:
+        nps = dados["configuracoes"]["nps_jogador"]
+        minimo = nps[-1]
+        for np in reversed(nps):
+            if essenciais_que_faltam(dados, arquetipo, foco, np):
+                break
+            minimo = np
+        declarado = max(arquetipo.get("np_minimo", 0), foco.get("np_minimo", 0),
+                        foco.get("substitui", {}).get("np_minimo", 0))
+        _NP_MINIMO[chave] = max(minimo, declarado)
+    return _NP_MINIMO[chave]
+
+
+def conferir_np_minimo(dados, arquetipo, foco, np):
+    """Erro claro se a subclasse (já com a variante) não cabe no NP pedido."""
+    minimo = np_minimo(dados, arquetipo, foco)
+    if np >= minimo:
+        return
+    faltam = essenciais_que_faltam(dados, arquetipo, foco, np)
+    nomes = ", ".join(dados["poderes_do_genero"][i]["nome"] for i in faltam)
+    motivo = (f"no NP {np} não cabem {nomes}" if faltam else "a subclasse pede mais pontos")
+    raise GeneratorError(f"{foco['nome']} precisa de NP {minimo} ou mais: {motivo}. Suba o NP ou escolha outra "
+                         f"{dados['configuracoes'].get('rotulo_foco', 'foco').lower()}.")
 
 
 # ---------------------------------------------------------------- divindades
@@ -850,7 +925,8 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
     if foco is None:
         raise GeneratorError(f"O foco '{foco_id}' não existe para {arquetipo['nome']}.")
     rng = rng or random.Random()
-    foco = escolher_variante(arquetipo, foco, variante, rng)
+    foco = escolher_variante(arquetipo, foco, variante, rng, dados=dados, np=np)
+    conferir_np_minimo(dados, arquetipo, foco, np)
     arquetipo = arquetipo_com_foco(arquetipo, foco)
     divindade = escolher_divindade(dados, arquetipo, foco, divindade, panteao, rng)
     foco = foco_com_divindade(dados, arquetipo, foco, divindade)
@@ -978,7 +1054,7 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
         else:
             sorteados = _implantes_automaticos(arquetipo, foco, rng)
             instalados, implantes_fora, compras_de_implantes = _instalar_implantes(
-                dados, ficha, sorteados, np, opcoes, teto_de_pontos=max(4, orcamento * 35 // 100), dinheiro=caixa)
+                dados, ficha, sorteados, np, opcoes, teto_de_pontos=teto_dos_poderes(orcamento), dinheiro=caixa)
     _aplicar_falhas_do_foco(ficha, foco)
     if compras_de_implantes:
         compras = compras + compras_de_implantes

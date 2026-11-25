@@ -41,6 +41,11 @@
             <select id="genero"></select>
             <small id="genero-descricao"></small>
           </label>
+          <label class="campo">
+            <span>Nível da campanha (opcional)</span>
+            <select id="pj-np-campanha"></select>
+            <small id="pj-np-campanha-descricao"></small>
+          </label>
         </div>
         <p class="dica">Trocar o gênero recarrega a página com os arquétipos, equipamentos e preços dele.</p>
         {% set deste_genero = livros | selectattr("genero", "equalto", opcoes.genero.id) | list %}
@@ -125,7 +130,7 @@
           <label class="campo">
             <span>Nível de poder</span>
             <select id="pj-np"></select>
-            <small>Personagem de jogador gasta exatamente 15 PP por NP.</small>
+            <small id="pj-np-descricao">Personagem de jogador gasta exatamente 15 PP por NP.</small>
           </label>
           <label class="campo" id="pj-riqueza-campo">
             <span>Condição financeira</span>

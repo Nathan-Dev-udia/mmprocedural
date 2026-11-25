@@ -112,8 +112,9 @@ def _dados(genero_id=None):
     return DADOS_POR_GENERO[genero_id]
 
 
-def _foco_para_a_tela(arquetipo, foco):
+def _foco_para_a_tela(DADOS, arquetipo, foco):
     return {"id": foco["id"], "nome": foco["nome"], "descricao": foco["descricao"],
+            "np_minimo": player.np_minimo(DADOS, arquetipo, foco),
             "vantagens": foco.get("vantagens", []), "armas": foco.get("armas", []),
             "itens": foco.get("itens", []), "implantes": foco.get("implantes", []),
             "implantes_da_escolha": player.implantes_da_escolha(arquetipo, foco),
@@ -154,9 +155,9 @@ def opcoes_da_interface(DADOS):
         "pdf_disponivel": DADOS["ficha_pdf"] is not None,
         "jogador": {
             "arquetipos": [{"id": a["id"], "nome": a["nome"], "conceito": a["conceito"],
-                            "focos": [{**_foco_para_a_tela(a, f), "rotulo_variante": f.get("rotulo_variante", "Variante"),
+                            "focos": [{**_foco_para_a_tela(DADOS, a, f), "rotulo_variante": f.get("rotulo_variante", "Variante"),
                                        # Variantes (ex.: as escolas do bruxo) já aplicadas sobre o foco.
-                                       "variantes": [{**_foco_para_a_tela(a, player.foco_com_variante(a, f, v)),
+                                       "variantes": [{**_foco_para_a_tela(DADOS, a, player.foco_com_variante(a, f, v)),
                                                       "id": v["id"], "nome_curto": v["nome"],
                                                       "descricao_curta": v["descricao"]}
                                                      for v in f.get("variantes", [])]}

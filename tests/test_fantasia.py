@@ -163,6 +163,8 @@ def test_sorteio_nao_compra_municao_sem_arma(fantasia):
 def test_todas_as_classes_e_subclasses_fecham_o_orcamento(fantasia, np):
     for arquetipo in fantasia["jogador"]["arquetipos"].values():
         for foco in arquetipo["focos"]:
+            if np < player.np_minimo(fantasia, arquetipo, foco):
+                continue   # abaixo do NP mínimo a ficha não sai (tests/test_np_minimo.py)
             for raca in ("humano", "elfo", "anao"):
                 pj = gerar_pj(fantasia, arquetipo["id"], np, foco["id"], raca=raca)
                 rel = pj["validacao"]
@@ -318,7 +320,7 @@ def test_kit_escolhido_a_mao(fantasia):
 ESCOLAS = ["lobo", "gato", "grifo", "vibora", "urso", "manticora", "lince", "garca"]
 
 
-@pytest.mark.parametrize("np", [3, 5, 8])
+@pytest.mark.parametrize("np", [4, 5, 8])   # o caçador de monstros começa no NP 4
 @pytest.mark.parametrize("escola", ESCOLAS)
 def test_todas_as_escolas_fecham_o_orcamento(fantasia, np, escola):
     pj = gerar_pj(fantasia, "bruxo", np, "cacador_monstros", variante=escola)
