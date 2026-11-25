@@ -61,6 +61,9 @@ Comparação do `referencias/dd/compendio-de-classes-e-subclasses.pdf` com o ger
 - **Pet (companheiro) do personagem:** permitir que o jogador escolha ter um pet na criação da ficha, com o custo em PP saindo do orçamento do personagem (vantagem Seguidor ou Lacaio/Sidekick, ou o efeito Companheiro, conforme a regra do M&M).
 - **Ficha de pet:** gerar a ficha do pet, no PDF, DOCX e TXT, incluindo cavalo no Faroeste e na Fantasia Medieval (e outros bichos por gênero). Depende da ideia anterior; o Mestre das Bestas e a "Besta do Mar" do compêndio podem aproveitar a mesma base.
 
+## Aventuras a serem criadas
+- **Vampiro: A Máscara:** criar a aventura (e, se fizer sentido, o gênero) de Vampiro: A Máscara em M&M. Antes de começar, decidir o escopo: só uma aventura avulsa ou um gênero completo, como o Cthulhu. Atenção: nomes de clãs, termos e cenário de Vampiro são conteúdo protegido (White Wolf/Paradox), então vale usar termos próprios ou genéricos, como já foi feito com o Cthulhu e a Escola de Magia.
+
 ## Escudo do Mestre
 - **Fantasia, Faroeste, Cthulhu e Cyberpunk:** feitos (aba no site, impressão, PDF e planilha). Conteúdo em `dados/escudo/<gênero>.json`; o de Cthulhu e o de Cyberpunk são gerados por `ferramentas/criar_*_escudo.py` (edite o script, não o JSON). O do Cyberpunk resume o Livro do Mestre do gênero em 11 abas (uma página de PDF cada), com armas e modos de disparo, lesões críticas, Humanidade, NET, dinheiro e reputação; queda, tempo de viagem, veículos/montarias, carga e medidas são calculados dinamicamente em `nucleo/escudo.py`.
 - **Impressão pelo navegador:** a aba Viagem ocupa duas folhas. O PDF baixado tem uma página por aba (teste `test_regras_gerais_seguem_o_livro_basico`).
