@@ -3,6 +3,7 @@
   "nome": "Coruja",
   "nivel_poder": 2,
   "generos": ["fantasia", "escola_de_magia"],
+  "compra": {"escola_de_magia": "coruja_correio"},
   "descricao": "Ave noturna de voo silencioso. Mensageira dos alunos e familiar comum de magos.",
   "fonte": "Guia do Mestre de Jogo, p. 224 (Coruja)",
   "ficha": {
@@ -11,8 +12,10 @@
     "pericias": {"Percepção": 6, "Furtividade": 2},
     "vantagens": {},
     "poderes": [
-      {"id": "voo", "nome": "Voo 3 (30 km/h; Asas, Sutil)", "custo": 4},
-      {"id": "sentidos", "nome": "Sentidos 2 (Visão na Penumbra, Ultravisão)", "custo": 2},
+      {"id": "voo", "nome": "Voo 3 (30 km/h; Asas, Sutil)", "custo": 4,
+       "explicacao": "Voa a até 30 km/h, em silêncio: é difícil ouvi-la chegar. Asas: presa numa rede ou com uma asa ferida, não voa."},
+      {"id": "sentidos", "nome": "Sentidos 2 (Visão na Penumbra, Ultravisão)", "custo": 2,
+       "explicacao": "Vê na meia-luz sem penalidade e enxerga à noite como de dia, à luz das estrelas."},
       {"id": "tamanho", "nome": "Encolhimento 8 (Permanente, Inato)", "custo": 17,
        "tamanho": {"efeito": "Encolhimento", "graduacao": 8}}
     ],

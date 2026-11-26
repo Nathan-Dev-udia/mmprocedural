@@ -770,6 +770,8 @@ Cada graduação numa perícia soma ao teste, junto com a habilidade dela. Perí
 \* **Especialidades comuns na fantasia:** **Magia** (o conhecimento arcano e os rituais), **Religião**, **História**, **Natureza**, **Sobrevivência**, **Cavalgar** (usa **Agilidade**), **Runas** (do mago rúnico), **Bruxo** (do caçador de monstros), **Alquimia**, **Música**, **Táticas**, Ofício (ferreiro, armeiro, joalheiro).
 
 > **Cavalgar:** montar, galopar e lutar a cavalo usam **Especialidade: Cavalgar**, não Veículos. O Cavaleiro, subclasse do guerreiro, prioriza essa perícia.
+>
+> **Na sela, em resumo:** sem sela, –2 em Cavalgar; a sela militar dá +2 para não cair. Montar ou desmontar é uma ação de movimento (ação livre com Cavalgar CD 15). Um cavalo comum se assusta com a luta: Cavalgar CD 10 a cada turno ou ele não obedece; o cavalo de guerra não testa. Os inimigos podem atacar a montaria, e a barda (armadura dela) protege só o animal. As regras completas estão no Livro do Mestre, seção 9.8.
 
 **Usos importantes em combate:**
 
@@ -1007,7 +1009,7 @@ Alguns exemplos (o **Apêndice** traz a lista completa com preços):
 - **Lupa** (100 po, +2 em Investigação), **Aríete portátil** (4 po, +2 em Força para arrombar), **Gancho de escalada** (2 po), **Lanterna furta-fogo** (10 po), **Estrepes** e **esferas de metal** (1 po cada), **Cadeado** (10 po), **Espelho de aço** (5 po).
 - **Poção de cura** (50 po), **Antitoxina** (50 po, +5 em Fortitude contra veneno por uma hora), **Veneno básico** (100 po). **Bombas** arremessadas, de 45 a 90 po: Samum (clarão que cega), Estilhaços, Cola, Estrela Dançante (fogo), Gás do Dragão (veneno), Vento do Norte (gelo), Pó Lunar (contra licantropos) e Pó Espectral (deixa espíritos sólidos); a lista com os efeitos está na planilha Poções e Alquimia. **Água benta** (25 po).
 - **Ferramentas de ofício:** suprimentos de alquimista, kits de envenenador e de falsificação, ferramentas de ferreiro, carpinteiro, cartógrafo, joalheiro e navegador, jogos e instrumentos.
-- **Montarias e veículos:** pônei (30 po), burro (8 po), cavalo de montaria (75 po), cavalo de guerra (400 po), sela (10 po), alforjes (4 po), carroça (35 po), barco a remo (50 po).
+- **Montarias e veículos:** pônei (30 po), burro (8 po), cavalo de montaria (75 po), cavalo de guerra (400 po), sela (10 po), sela militar (20 po), alforjes (4 po), barda para a montaria (de couro 40 po, de cota de malha 300 po, de placas 6.000 po), carroça (35 po), barco a remo (50 po).
 
 A **planilha de itens** do site traz o catálogo inteiro do gerador, com preço, efeito e o conteúdo de cada kit.
 

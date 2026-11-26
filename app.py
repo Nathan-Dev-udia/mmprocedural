@@ -19,7 +19,7 @@ from pathlib import Path
 from flask import Flask, jsonify, redirect, render_template, request, send_file
 from markupsafe import Markup, escape
 
-from nucleo import (bestiario, bestiario_docx, bestiario_pdf, data_loader, docx_export, escudo, escudo_pdf, escudo_xlsx, formatter, generator, herois,
+from nucleo import (bestiario, bestiario_docx, bestiario_pdf, companheiros, data_loader, docx_export, escudo, escudo_pdf, escudo_xlsx, formatter, generator, herois,
                     herois_pdf, livros, medidas, pdf_export, planilhas, player, referencia, validator, viagem)
 
 # Entre o texto da ficha e a referência do personagem, no TXT.
@@ -193,6 +193,8 @@ def opcoes_da_interface(DADOS):
                        "custo_por_np": {np: player.custo_da_raca(DADOS, r, np) for np in config["nps_jogador"]}}
                       for r in player.racas(DADOS)],
             "divindades": _divindades_para_a_tela(DADOS),
+            # Animais à venda neste gênero (o passo "Companheiro"); vazio em gêneros que pagam com pontos.
+            "companheiros": [] if player.equipamento_em_pontos(DADOS) else companheiros.disponiveis(DADOS),
             "vantagens": [{"nome": v["nome"], "tipo": v["tipo"], "efeito": v["efeito"], "faroeste": v["faroeste"]}
                           for v in player.vantagens_do_jogador(DADOS)],
             "nps": config["nps_jogador"],
@@ -275,6 +277,8 @@ def _preparar(npc):
     npc["texto"] = formatter.texto(npc)
     ref = _referencia(npc)
     npc["referencia_texto"] = referencia.texto(ref) if ref else ""
+    bloco = _bloco_do_companheiro(npc)
+    npc["companheiro_texto"] = companheiros.texto(bloco, npc["companheiro"]["posse"]) if bloco else ""
     return npc
 
 
@@ -385,7 +389,8 @@ def gerar_jogador():
         rng=_rng(corpo), equipamento=corpo.get("equipamento"), vantagens=corpo.get("vantagens"),
         implantes=corpo.get("implantes"), raca=str(corpo.get("raca") or "") or None,
         variante=str(corpo.get("variante") or "") or None,
-        divindade=str(corpo.get("divindade") or "") or None, panteao=str(corpo.get("panteao") or "") or None)
+        divindade=str(corpo.get("divindade") or "") or None, panteao=str(corpo.get("panteao") or "") or None,
+        companheiro=str(corpo.get("companheiro") or "") or None)
     return jsonify({"personagem": _preparar(personagem)})
 
 
@@ -423,24 +428,39 @@ def _referencia(npc, relatorio=None):
         return None
 
 
+def _bloco_do_companheiro(npc):
+    """A ficha do companheiro (se o personagem tem um), recalculada no servidor a partir do id."""
+    escolhido = npc.get("companheiro")
+    if not escolhido:
+        return None
+    try:
+        catalogo = _dados(npc.get("genero"))["equipamentos"]
+        barda = companheiros.barda_do_equipamento((npc.get("ficha") or {}).get("equipamento", []), catalogo)
+        return companheiros.bloco(companheiros.carregar(str(escolhido["id"])), barda)
+    except (KeyError, TypeError):
+        app.logger.exception("Falha ao montar a ficha do companheiro.")
+        return None
+
+
 def _pdf_do_npc(npc):
     DADOS = _dados(npc.get("genero"))
     if DADOS["ficha_pdf"] is None:
         raise generator.GeneratorError("O modelo de ficha em PDF não foi encontrado na pasta data/.")
     relatorio = _relatorio(npc)
     return pdf_export.gerar_pdf(DADOS["ficha_pdf"], npc, relatorio, DADOS["genero"]["nome"],
-                                referencia=_referencia(npc, relatorio))
+                                referencia=_referencia(npc, relatorio), companheiro=_bloco_do_companheiro(npc))
 
 
 def _docx_dos_npcs(npcs):
     com_relatorio = [(npc, _relatorio(npc)) for npc in npcs]
-    return docx_export.gerar_docx([(npc, rel, _referencia(npc, rel)) for npc, rel in com_relatorio])
+    return docx_export.gerar_docx([(npc, rel, _referencia(npc, rel), _bloco_do_companheiro(npc))
+                                   for npc, rel in com_relatorio])
 
 
 def _texto_completo(npc):
     """O texto da ficha seguido da referência (o TXT baixado)."""
-    extra = npc.get("referencia_texto") or ""
-    return npc.get("texto", "") + (SEPARADOR_DA_REFERENCIA + extra if extra else "")
+    extras = [e for e in (npc.get("companheiro_texto"), npc.get("referencia_texto")) if e]
+    return npc.get("texto", "") + "".join(SEPARADOR_DA_REFERENCIA + extra for extra in extras)
 
 
 def _npc_do_pedido():

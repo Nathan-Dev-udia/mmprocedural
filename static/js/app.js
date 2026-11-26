@@ -209,6 +209,7 @@ function cartao(ficha, { regerar = false, aberto = false } = {}) {
       <p><strong>Equipamento:</strong> ${escapar(e.equipamento.join(", ") || "nenhum")}</p>
       ${e.carga ? `<p><strong>Carga:</strong> <span class="carga-badge ${escapar(e.carga_dados?.categoria || '')}">${escapar(e.carga)}</span></p>` : ""}
       ${e.dinheiro ? `<p><strong>Dinheiro:</strong> ${escapar(e.dinheiro)}</p>` : ""}
+      ${ficha.companheiro ? `<p><strong>Companheiro:</strong> ${escapar(ficha.companheiro.nome)} (NP ${ficha.companheiro.np}, ${escapar(ficha.companheiro.posse.toLowerCase())}, ${ficha.companheiro.custo_pp} PP). A ficha dele vai numa página à parte do PDF, do DOCX e do TXT.</p>` : ""}
       ${!e.dinheiro && ficha.pontos_de_equipamento ? `<p class="discreto">${escapar(e.pontos_equipamento)}</p>` : ""}
       ${e.de_fora ? `<p class="aviso-texto"><strong>Ficou de fora:</strong> ${escapar(e.de_fora)}</p>` : ""}
       <p><strong>Custo:</strong> ${escapar(e.totais)}</p>
@@ -435,6 +436,8 @@ const armaDaDivindade = () => {
 const emPontos = () => pj().equipamento_modo === "pontos";
 const temImplantes = () => pj().implantes.length > 0;
 const temRacas = () => pj().racas.length > 0;
+const temCompanheiros = () => pj().companheiros.length > 0;
+const companheiroEscolhido = () => document.querySelector('input[name="pj-companheiro"]:checked')?.value || "";
 const racaPj = () => pj().racas.find((r) => r.id === el("pj-raca").value) || pj().racas[0];
 const npPj = () => Number(el("pj-np").value);
 // Nível da campanha (opcional, no 1º passo): trava o NP da ficha e desabilita as classes, subclasses e variantes
@@ -631,6 +634,44 @@ function desenharEquipamento() {
 
 const custoEmPontos = (r) => r.beneficio - r.ajuste_de_pontos;
 
+// Passo "Companheiro": nenhum, ou um animal comprado (o preço sai do dinheiro, não dos pontos).
+function desenharCompanheiros() {
+  const opcao = (id, rotulo, detalhe, dica, marcado) => `<label class="opcao" title="${escapar(dica)}">
+    <input type="radio" name="pj-companheiro" value="${escapar(id)}" ${marcado ? "checked" : ""}>
+    <span>${escapar(rotulo)}</span>${detalhe ? `<small>${escapar(detalhe)}</small>` : ""}</label>`;
+  el("pj-companheiro-lista").innerHTML = opcao("", "Nenhum", "", "", true) + pj().companheiros
+    .map((c) => opcao(c.id, c.nome, `NP ${c.np} · ${dolares(c.preco)}`, c.descricao, false)).join("");
+  atualizarCompanheiros();
+}
+
+// Quanto sobra depois do animal. No sorteio de equipamento, o animal que não cabe no dinheiro fica desabilitado;
+// em "Escolher", ele entra na conta da compra (e o excesso segue a regra de dívida ou pontos).
+function atualizarCompanheiros() {
+  if (!temCompanheiros() || emPontos()) return;
+  const dinheiro = riquezaPj().dinheiro;
+  const manual = modo("pj-equipamento-modo") === "manual";
+  document.querySelectorAll('input[name="pj-companheiro"]').forEach((radio) => {
+    const c = pj().companheiros.find((x) => x.id === radio.value);
+    if (!c) return;
+    const naoCabe = !manual && c.preco > dinheiro;
+    radio.disabled = naoCabe;
+    if (naoCabe && radio.checked) document.querySelector('input[name="pj-companheiro"][value=""]').checked = true;
+    radio.closest("label").querySelector("small").textContent = `NP ${c.np} · ${dolares(c.preco)}` + (manual ? ""
+      : naoCabe ? ` · não cabe em ${dolares(dinheiro)}` : ` · sobram ${dolares(dinheiro - c.preco)} para o resto`);
+  });
+  el("pj-companheiro-nota").textContent = manual
+    ? "Armas e itens está em \"Escolher\": o animal entra na conta da compra, junto com os itens marcados."
+    : `Dinheiro do personagem: ${dolares(dinheiro)}. O animal é pago primeiro; as armas e os itens sorteados ` +
+      "dividem o que sobrar, e o que não couber fica de fora (a ficha diz o quê).";
+}
+
+// Preço do animal escolhido, para a conta da compra em "Escolher" (se o item já está marcado, não conta duas vezes).
+function precoDoCompanheiro() {
+  const c = temCompanheiros() && pj().companheiros.find((x) => x.id === companheiroEscolhido());
+  if (!c || document.querySelector(`input[name="pj-item"][value="${CSS.escape(c.item)}"]:checked`)) return 0;
+  return c.preco;
+}
+
 // Quantidade escolhida de um item (comida, munição, bebida); os outros itens valem sempre 1.
 function quantidadeDe(id) {
   const campo = document.querySelector(`input[data-quantidade="${CSS.escape(id)}"]`);
@@ -642,7 +683,7 @@ function totalDosItens() {
   const porId = Object.fromEntries(pj().catalogo.map((i) => [i.id, i]));
   return [...document.querySelectorAll('input[name="pj-item"]:checked')]
     .reduce((soma, c) => soma + ((emPontos() ? porId[c.value].custo : porId[c.value].preco) || 0) * quantidadeDe(c.value), 0)
-    + (emPontos() ? 0 : dinheiroDosImplantes());
+    + (emPontos() ? 0 : dinheiroDosImplantes() + precoDoCompanheiro());
 }
 
 // Cyberware escolhido também sai do dinheiro (cyberpunk), quando o modo de implantes é "Escolher".
@@ -688,8 +729,10 @@ function atualizarContadorDeEquipamento() {
   contador.textContent = `Total: ${dolares(total)} de ${dolares(dinheiro)}` +
     (passou ? ` — passa ${dolares(total - dinheiro)} do dinheiro.` : ` · faltam gastar ${dolares(dinheiro - total)}.`) +
     (dinheiroDosImplantes() ? ` (inclui ${dolares(dinheiroDosImplantes())} de cyberware)` : "") +
+    (precoDoCompanheiro() ? ` (inclui ${dolares(precoDoCompanheiro())} do companheiro)` : "") +
     " Armas que não couberem no NP ficam de fora e o dinheiro volta.";
   contador.classList.toggle("aviso", passou);
+  atualizarCompanheiros();
 
   el("pj-excesso").hidden = !passou;
   if (passou) {
@@ -745,6 +788,8 @@ function prepararAbaJogador() {
   document.querySelectorAll("[data-rotulo-foco]").forEach((e) => { e.textContent = pj().rotulo_foco; });
   el("pj-passo-raca-aba").hidden = !temRacas();
   if (temRacas()) el("pj-raca").innerHTML = opcoesDeSelect(pj().racas);
+  el("pj-passo-companheiro-aba").hidden = !temCompanheiros();
+  desenharCompanheiros();
 
   const atualizarRaca = () => {
     if (!temRacas()) return;
@@ -909,6 +954,7 @@ function prepararAbaJogador() {
   el("pj-implantes-grupos").addEventListener("change", atualizarContadorDeEquipamento);
   el("pj-vantagens-grupos").addEventListener("change", atualizarContadorDeVantagens);
   el("pj-equipamento-grupos").addEventListener("change", atualizarContadorDeEquipamento);
+  el("pj-companheiro-lista").addEventListener("change", atualizarContadorDeEquipamento);
   // Mexer na quantidade já marca o item.
   el("pj-equipamento-grupos").addEventListener("input", (evento) => {
     const id = evento.target.dataset.quantidade;
@@ -965,6 +1011,7 @@ function prepararAbaJogador() {
       complicacoes,
       vantagens: modo("pj-vantagens-modo") === "manual"
         ? { modo: "manual", nomes: marcados("pj-vantagem") } : { modo: "auto" },
+      companheiro: temCompanheiros() ? companheiroEscolhido() : "",
       equipamento: modo("pj-equipamento-modo") === "manual"
         ? { modo: "manual", ids: marcados("pj-item"), excesso: modo("pj-excesso"),
             quantidades: Object.fromEntries(marcados("pj-item").filter((id) => quantidadeDe(id) > 1)
@@ -996,8 +1043,10 @@ async function gerarPersonagem(parametros) {
 
 // ---------------------------------------------------------------- passo a passo da ficha de jogador
 
-const PASSOS = ["genero", "identidade", "raca", "arquetipo", "vantagens", "implantes", "equipamento", "complicacoes", "ficha"];
-const passosAtivos = () => PASSOS.filter((p) => (p !== "implantes" || temImplantes()) && (p !== "raca" || temRacas()));
+const PASSOS = ["genero", "identidade", "raca", "arquetipo", "vantagens", "implantes", "equipamento", "companheiro",
+  "complicacoes", "ficha"];
+const passosAtivos = () => PASSOS.filter((p) => (p !== "implantes" || temImplantes()) && (p !== "raca" || temRacas())
+  && (p !== "companheiro" || temCompanheiros()));
 let passoAtual = "genero";
 
 // Campos obrigatórios de um passo que ainda estão vazios (a divindade do clérigo) ou fora do permitido (o NP abaixo
@@ -1075,6 +1124,8 @@ function desenharResumo() {
     ["vantagens", "Vantagens", escolha("pj-vantagens-modo", "pj-vantagem", "escolhidas")],
     temImplantes() && ["implantes", pj().rotulo_poderes, escolha("pj-implantes-modo", "pj-implante", "escolhidos")],
     ["equipamento", "Armas e itens", equipamento],
+    temCompanheiros() && ["companheiro", "Companheiro", companheiroEscolhido()
+      ? pj().companheiros.find((c) => c.id === companheiroEscolhido()).nome : "nenhum"],
     ["complicacoes", "Complicações", complicacoes.join(", ")],
   ].filter(Boolean);
   const passouDoOrcamento = el("pj-vantagens-contador").classList.contains("aviso") &&

@@ -17,6 +17,8 @@ from reportlab.lib import colors
 from reportlab.lib.styles import ParagraphStyle
 from reportlab.platypus import KeepTogether, Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle
 
+from . import companheiros
+
 LOGO = Path(__file__).resolve().parent.parent / "dados" / "comum" / "logo_ficha.png"
 PROPORCAO_DO_LOGO = 174 / 650   # altura / largura da imagem
 
@@ -56,7 +58,7 @@ def _etiqueta(item, tamanho=6.8):
 
 def _paragrafo_do_item(item):
     texto = " ".join(escape(linha) for linha in item["linhas"])
-    return Paragraph(f"<b>{escape(item['nome'])}</b>{_etiqueta(item)} — {texto}", ESTILO_ITEM)
+    return Paragraph(f"<b>{escape(item['nome'])}</b>{_etiqueta(item)}" + (f" — {texto}" if texto else ""), ESTILO_ITEM)
 
 
 def _titulo(secao):
@@ -193,7 +195,8 @@ def _campo(canvas, rotulo, valor, x, y, ate):
         canvas.drawString(inicio + 2, y, str(valor))
 
 
-def _desenhar_cabecalho(referencia):
+def _desenhar_cabecalho(rotulo, nome, campos):
+    """Cabeçalho da primeira página: o logo e o quadro de campos. `campos`: três (rótulo, valor) na segunda linha."""
     def desenhar(canvas, doc):
         largura, altura = doc.pagesize
         topo = altura - 20
@@ -208,12 +211,13 @@ def _desenhar_cabecalho(referencia):
         canvas.setLineWidth(1.2)
         canvas.roundRect(x, topo - ALTURA_DO_CABECALHO + 4, fim - x, ALTURA_DO_CABECALHO - 4, 8)
         dentro, fim_dentro = x + 7, fim - 7
-        _campo(canvas, "REFERÊNCIA DO PERSONAGEM:", referencia.get("nome"), dentro, topo - 18, fim_dentro)
+        _campo(canvas, rotulo, nome, dentro, topo - 18, fim_dentro)
         linha = topo - 38
         terco = (fim_dentro - dentro) / 3
-        _campo(canvas, "JOGADOR:", referencia.get("jogador"), dentro, linha, dentro + terco + 10)
-        _campo(canvas, "IDENTIDADE:", "", dentro + terco + 18, linha, dentro + 2 * terco + 5)
-        _campo(canvas, "NÍVEL DE PODER:", referencia.get("np"), dentro + 2 * terco + 13, linha, fim_dentro)
+        (r1, v1), (r2, v2), (r3, v3) = campos
+        _campo(canvas, r1, v1, dentro, linha, dentro + terco + 10)
+        _campo(canvas, r2, v2, dentro + terco + 18, linha, dentro + 2 * terco + 5)
+        _campo(canvas, r3, v3, dentro + 2 * terco + 13, linha, fim_dentro)
         canvas.restoreState()
     return desenhar
 
@@ -235,5 +239,76 @@ def gerar_paginas(referencia, largura=603, altura=783):
         else:
             elementos += _secao_em_quadro(secao, largura_util)
         elementos.append(Spacer(1, 8))
-    doc.build(elementos, onFirstPage=_desenhar_cabecalho(referencia))
+    cabecalho = _desenhar_cabecalho("REFERÊNCIA DO PERSONAGEM:", referencia.get("nome"),
+                                    [("JOGADOR:", referencia.get("jogador")), ("IDENTIDADE:", ""),
+                                     ("NÍVEL DE PODER:", referencia.get("np"))])
+    doc.build(elementos, onFirstPage=cabecalho)
+    return buf.getvalue()
+
+
+# ---------------------------------------------------------------- página do companheiro
+
+NOMES_DAS_HABILIDADES = {"For": "Força", "Agi": "Agilidade", "Lut": "Luta", "Pro": "Prontidão",
+                         "Vig": "Vigor", "Des": "Destreza", "Int": "Intelecto", "Pre": "Presença"}
+ESTILO_ROTULO = ParagraphStyle("ref_rotulo", fontName="Helvetica-Bold", fontSize=9, leading=11, textColor=AZUL_ESCURO)
+ESTILO_VALOR = ParagraphStyle("ref_valor", fontName="Helvetica-Bold", fontSize=11, leading=13, textColor=TINTA,
+                              alignment=1)
+
+
+def _caixas_de_valores(pares, colunas, largura):
+    """Grade de (rótulo, valor): o rótulo em negrito e o valor numa caixa azul-clara, como os campos da ficha."""
+    linhas = [pares[i:i + colunas] for i in range(0, len(pares), colunas)]
+    celulas, estilo = [], [("VALIGN", (0, 0), (-1, -1), "MIDDLE"), ("TOPPADDING", (0, 0), (-1, -1), 3),
+                           ("BOTTOMPADDING", (0, 0), (-1, -1), 3)]
+    for r, linha in enumerate(linhas):
+        celulas.append([])
+        for c in range(colunas):
+            rotulo, valor = linha[c] if c < len(linha) else ("", "")
+            celulas[r] += [Paragraph(escape(rotulo), ESTILO_ROTULO), Paragraph(escape(str(valor)), ESTILO_VALOR)]
+            if rotulo:
+                estilo += [("BACKGROUND", (2 * c + 1, r), (2 * c + 1, r), AZUL_CLARO),
+                           ("ROUNDEDCORNERS", [4, 4, 4, 4])]
+    larg_rotulo, larg_valor = (largura - 12) / colunas * 0.62, (largura - 12) / colunas * 0.38
+    tabela = Table(celulas, colWidths=[larg_rotulo, larg_valor] * colunas)
+    tabela.setStyle(TableStyle(estilo))
+    return tabela
+
+
+def gerar_pagina_do_companheiro(bloco, posse="", dono="", jogador=""):
+    """Bytes de um PDF de uma página com a ficha do companheiro (bloco de companheiros.bloco)."""
+    buf = io.BytesIO()
+    largura, altura = 603, 783
+    doc = SimpleDocTemplate(buf, pagesize=(largura, altura), leftMargin=MARGEM, rightMargin=MARGEM,
+                            topMargin=22, bottomMargin=22, title=f"Companheiro: {bloco['nome']}")
+    util = largura - 2 * MARGEM
+    sinal = lambda v: f"{v:+d}"
+    habilidades = [(NOMES_DAS_HABILIDADES[h], sinal(bloco["habilidades"][h]))
+                   for h in ("For", "Agi", "Lut", "Pro", "Vig", "Des", "Int", "Pre")]
+    defesas = [(d, bloco["defesas"][d]) for d in bloco["defesas"]] + [("Iniciativa", sinal(bloco["iniciativa"]))]
+    elementos = [Spacer(1, ALTURA_DO_CABECALHO + 2),
+                 _quadro([_caixas_de_valores(habilidades, 4, util - 12)], util),
+                 Spacer(1, 6),
+                 _quadro([_caixas_de_valores(defesas, 3, util - 12)], util), Spacer(1, 8)]
+
+    def secao(titulo, itens):
+        if itens:
+            elementos.extend([_titulo({"titulo": titulo}), _quadro([_paragrafo_do_item(i) for i in itens], util),
+                              Spacer(1, 8)])
+
+    secao("Ataque", [{"nome": a["nome"], "etiqueta": "", "linhas": [
+        f"{sinal(a['bonus'])} de bônus, Dano {a['dano']}, crítico {companheiros.critico(a)}."]}
+        for a in bloco["ataques"]])
+    secao("Perícias", [{"nome": p["nome"], "etiqueta": "", "linhas": [
+        f"{sinal(p['total'])} ({p['graduacoes']} graduações)."]} for p in bloco["pericias"]])
+    secao("Poderes", [{"nome": p["nome"], "etiqueta": f"{p['custo']} PP", "linhas": [p["explicacao"]] if p["explicacao"] else []}
+                      for p in bloco["poderes"]])
+    secao("Vantagens", [{"nome": v["nome"], "etiqueta": "", "linhas": [v["explicacao"]]} for v in bloco["vantagens"]])
+    secao("Equipamento", [{"nome": e["nome"], "etiqueta": "", "linhas": [e["explicacao"]]}
+                          for e in bloco.get("equipamento", [])])
+    secao("Sobre o companheiro", [{"nome": bloco["nome"], "etiqueta": posse,
+                                   "linhas": [bloco["descricao"], f"Fonte: {bloco['fonte']}."]}])
+    cabecalho = _desenhar_cabecalho("COMPANHEIRO:", bloco["nome"],
+                                    [("DONO:", dono), ("POSSE:", posse.split()[-1] if posse else ""),
+                                     ("NÍVEL DE PODER:", bloco["np"])])
+    doc.build(elementos, onFirstPage=cabecalho)
     return buf.getvalue()

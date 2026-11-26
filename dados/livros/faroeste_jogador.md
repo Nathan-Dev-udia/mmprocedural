@@ -447,6 +447,8 @@ Cada graduação numa perícia soma ao teste, junto com a habilidade dela. Perí
 \* **Especialidades comuns no Oeste:** Cavalgar (usa **Agilidade**), Sobrevivência, Manha (o submundo), Jogatina, Tática Militar, Demolições, Direito, Medicina, Religião, Comércio de Gado, Ofício (ferreiro, armeiro).
 
 > **Cavalgar:** montar, galopar e perseguir a cavalo usam **Especialidade: Cavalgar**, não Veículos.
+>
+> **Na sela, em resumo:** sem sela, –2 em Cavalgar. Montar ou desmontar é uma ação de movimento (ação livre com Cavalgar CD 15). Cavalo comum e mula se assustam com tiros: Cavalgar CD 10 a cada turno de tiroteio ou o animal não obedece; o cavalo de cavalaria não testa. Os inimigos podem atirar no cavalo, e cavalo caído derruba o cavaleiro. As regras completas estão no Livro do Mestre, seção 5.8.
 
 **Usos importantes em combate:**
 

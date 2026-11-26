@@ -2859,6 +2859,57 @@
     "peso": 4
   },
   {
+    "id": "sela_militar",
+    "nome": "Sela militar",
+    "categoria": "Montaria",
+    "comercio": "Estábulo",
+    "custo": null,
+    "preco": 20,
+    "descricao": "Sela alta que prende o cavaleiro: +2 em Cavalgar para não cair da montaria.",
+    "fonte": "Livro básico de M&M, cap. 7: itens de equipamento geral são uma Característica de 1 graduação (1 ponto); preço do Livro do Jogador (D&D 5e), cap. 5",
+    "vai_na_montaria": true,
+    "peso": 15
+  },
+  {
+    "id": "barda_couro",
+    "nome": "Barda de couro",
+    "categoria": "Montaria",
+    "comercio": "Curtidor",
+    "custo": null,
+    "preco": 40,
+    "descricao": "Armadura de couro para a montaria: Proteção 1 no animal.",
+    "fonte": "Manual dos Mecanismos Lite, armaduras (a barda protege como a armadura equivalente); preço e peso do Livro do Jogador (D&D 5e), cap. 5: barda custa 4 vezes e pesa 2 vezes a armadura",
+    "vai_na_montaria": true,
+    "protecao_da_montaria": 1,
+    "peso": 10
+  },
+  {
+    "id": "barda_malha",
+    "nome": "Barda de cota de malha",
+    "categoria": "Montaria",
+    "comercio": "Ferreiro",
+    "custo": null,
+    "preco": 300,
+    "descricao": "Cota de malha para a montaria: Proteção 3 no animal.",
+    "fonte": "Manual dos Mecanismos Lite, armaduras (a barda protege como a armadura equivalente); preço e peso do Livro do Jogador (D&D 5e), cap. 5: barda custa 4 vezes e pesa 2 vezes a armadura",
+    "vai_na_montaria": true,
+    "protecao_da_montaria": 3,
+    "peso": 55
+  },
+  {
+    "id": "barda_placas",
+    "nome": "Barda de placas",
+    "categoria": "Montaria",
+    "comercio": "Ferreiro",
+    "custo": null,
+    "preco": 6000,
+    "descricao": "Placas articuladas para a montaria: Proteção 6 no animal.",
+    "fonte": "Manual dos Mecanismos Lite, armaduras (a barda protege como a armadura equivalente); preço e peso do Livro do Jogador (D&D 5e), cap. 5: barda custa 4 vezes e pesa 2 vezes a armadura",
+    "vai_na_montaria": true,
+    "protecao_da_montaria": 6,
+    "peso": 65
+  },
+  {
     "id": "carroca",
     "nome": "Carroça",
     "categoria": "Veículos",

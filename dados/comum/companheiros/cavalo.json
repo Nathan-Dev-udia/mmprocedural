@@ -3,6 +3,7 @@
   "nome": "Cavalo",
   "nivel_poder": 3,
   "generos": ["fantasia", "faroeste"],
+  "compra": {"fantasia": "cavalo_montaria", "faroeste": "cavalo"},
   "descricao": "Cavalo de montaria comum. Montar usa Especialidade: Cavalgar (Agilidade).",
   "fonte": "Guia do Mestre de Jogo, p. 223 (Cavalo)",
   "ficha": {
@@ -13,8 +14,10 @@
     "poderes": [
       {"id": "tamanho", "nome": "Crescimento 4 (Permanente, Inato)", "custo": 9,
        "tamanho": {"efeito": "Crescimento", "graduacao": 4}},
-      {"id": "sentidos", "nome": "Sentidos 2 (Visão Estendida, Visão na Penumbra)", "custo": 2},
-      {"id": "velocidade", "nome": "Velocidade 4 (60 km/h)", "custo": 4}
+      {"id": "sentidos", "nome": "Sentidos 2 (Visão Estendida, Visão na Penumbra)", "custo": 2,
+       "explicacao": "Enxerga longe com menos penalidade de distância e vê na meia-luz (lua, tochas) sem penalidade. Na escuridão total, não vê."},
+      {"id": "velocidade", "nome": "Velocidade 4 (60 km/h)", "custo": 4,
+       "explicacao": "Galopa a até 60 km/h. Para galopar por muito tempo, veja Forçar a montaria no livro do mestre."}
     ],
     "ataques_naturais": [{"nome": "Cascos", "tipo": "corpo", "efeito": 0, "soma_forca": true, "critico": 20}]
   },

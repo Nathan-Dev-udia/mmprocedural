@@ -3,6 +3,7 @@
   "nome": "Lobo",
   "nivel_poder": 3,
   "generos": ["fantasia"],
+  "compra": {},
   "descricao": "Lobo criado desde filhote. Rastreia pelo faro e derruba a presa com a mordida.",
   "fonte": "Guia do Mestre de Jogo, p. 227 (Lobo)",
   "ficha": {
@@ -11,7 +12,8 @@
     "pericias": {"Percepção": 4, "Furtividade": 4},
     "vantagens": {"Derrubar Aprimorado": 1},
     "poderes": [
-      {"id": "sentidos", "nome": "Sentidos 3 (Faro Aguçado, Visão na Penumbra, Rastrear)", "custo": 3}
+      {"id": "sentidos", "nome": "Sentidos 3 (Faro Aguçado, Visão na Penumbra, Rastrear)", "custo": 3,
+       "explicacao": "Reconhece pessoas e coisas pelo cheiro, segue uma trilha pelo faro (Percepção, andando na metade da velocidade) e vê na meia-luz sem penalidade."}
     ],
     "ataques_naturais": [{"nome": "Mordida", "tipo": "corpo", "efeito": 0, "soma_forca": true, "critico": 20}]
   },

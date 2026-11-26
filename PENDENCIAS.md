@@ -142,24 +142,55 @@ nosso número se o livro tiver erro.
 **Recomendação:** o jogador escolhe entre **Nenhum**, **Animal comprado** e **Parceiro**. Capanga e Invocar ficam para as subclasses que já pedem companheiro (Mestre das Bestas, druida, familiar do mago), em que vêm automáticos no lugar de escolha.
 
 ### Opções a decidir
-1. **Onde entra nos passos de criação.**
+1. **Onde entra nos passos de criação.** ✔ **Decidido e feito:** passo próprio "Companheiro", depois de "Armas e itens".
    - (a) Passo próprio "Companheiro", opcional, depois do equipamento. **Recomendado:** não pesa nos passos que já existem e dá espaço para mostrar a ficha do bicho.
    - (b) Um campo dentro do passo da classe.
 2. **Quanto PP o Parceiro custa.**
    - (a) O jogador escolhe o animal e o gerador calcula a graduação (custo da ficha ÷ 5, arredondado para cima). **Recomendado:** é mais fácil de entender.
    - (b) O jogador escolhe a graduação e o gerador monta o melhor animal que cabe.
-3. **Limite para não ficar apelão.**
+3. **Limite para não ficar apelão.** Só vale para o Parceiro (etapa 3); o animal comprado não tem limite de NP, porque o mestre o controla e a ficha é fixa.
    - NP do pet ≤ NP do herói, e o total de PP do Parceiro menor que o do herói (Livro Básico, p. 85).
    - Teto de custo em PP do herói, por exemplo 15% a 20% do orçamento. Um cavalo de guerra de 30 PP custa 6 PP do herói, cerca de 8% no NP 5.
    - Animal que passa do teto aparece desabilitado com "(a partir do NP X)", como as subclasses.
-4. **Sorteio ou escolha.**
+4. **Sorteio ou escolha.** O jogador escolher já está feito (etapa 2); o sorteio pelo arquétipo fica para a etapa 4.
    - O jogador escolhe ou deixa sortear pelo arquétipo: patrulheiro → lobo ou falcão; cavaleiro → cavalo de guerra; caçador de monstros → cavalo; mago → familiar; pistoleiro do Faroeste → cavalo.
-5. **Cavalo automático no Faroeste.**
+5. **Cavalo automático no Faroeste.** Fica para a etapa 4; hoje o cavalo só vem se o jogador o escolher.
    - (a) Todo personagem já sai com um cavalo comprado, porque a carga `vai_na_montaria` pressupõe. **Recomendado.**
    - (b) O cavalo continua sendo só um item a comprar.
 6. **Evolução na campanha.** O Parceiro sobe comprando mais graduações (+5 PP de ficha cada). O livro explica; o gerador pode aceitar "pontos extras para o pet" no futuro.
-7. **Montaria.** Montar usa **Especialidade: Cavalgar, com Agilidade** (Livro Básico, perícia Veículos; já está em `rules.py` e nos livros da Fantasia, seção 9.8, e do Faroeste). Atletismo fica a critério do mestre. Falta decidir: a carga do cavalo some do peso do personagem?
+7. **Montaria.** Montar usa **Especialidade: Cavalgar, com Agilidade** (Livro Básico, perícia Veículos; já está em `rules.py` e nos livros da Fantasia, seção 9.8, e do Faroeste). Atletismo fica a critério do mestre. ✔ Carga decidida: sela e alforjes vão no animal; o resto, só se estourar a carga leve (veja as sobras da etapa 2).
 8. **Regras da casa opcionais.** Truques treinados (Atacar, Defender, Buscar, Ficar, Rastrear, Proteger) para animais de Intelecto -4 ou -5, e ordem como ação livre com uma vantagem da casa. Ficam marcadas como opcionais.
+
+### Montaria: regras e acessórios
+**Feito (26/11/2026):** a proposta abaixo foi aprovada e escrita no Livro do Mestre da Fantasia (9.8 e 11.6), no do
+Faroeste (nova seção 5.8) e em resumo nos dois Livros do Jogador (quadro de Cavalgar). A sela militar e as bardas
+(couro, cota de malha, placas) entraram no `equipment.json` da Fantasia; a barda do dono soma na Resistência do
+companheiro (`companheiros.barda_do_equipamento`), não na do cavaleiro, e o peso dela vai no animal. O sorteio do
+kit não compra barda; só o jogador, em "Escolher". Falta: o Apêndice e a planilha de itens são gerados dos dados
+(conferir ao baixar os livros).
+
+**O que já existe:**
+- **Livro do Mestre da Fantasia:** 9.8 Combate montado (Cavalgar; a montaria age na iniciativa do dono e obedece
+  com Comandar; carga com Encontrão ou lança de montaria; +2 de cima contra quem está a pé), 11.6 Montarias (preço
+  sem PP; montaria leal vira Parceiro), 14.8 Forçar a montaria (galope, Fortitude, falhas), comida da montaria,
+  carga (sela e alforjes no animal) e estábulo.
+- **Livro do Mestre do Faroeste:** Cavalgar (não Veículos), forçar o galope, carga (sela, alforjes e coldre de rifle
+  no animal), estábulo e veterinário.
+- **Acessórios no catálogo:** Fantasia: sela (10 po) e alforjes (4 po). Faroeste: sela (\$25), alforjes (\$5) e
+  coldre de rifle (\$3). Botas e perneiras são do cavaleiro, não do cavalo.
+
+**Regras (da casa, aprovadas):**
+1. **Sem sela:** –2 em Cavalgar (montar em pelo).
+2. **Montar e desmontar:** ação de movimento. Com Cavalgar CD 15, vira ação livre (pular na sela).
+3. **Animal sem treino de combate** (cavalo de montaria, pônei, mula): no turno em que há luta perto, Cavalgar CD
+   10 como ação livre; se falhar, ele não obedece nesse turno (empina ou recua). Cavalo de guerra não testa.
+4. **Atacar a montaria:** os inimigos podem mirar no animal, que usa as defesas da própria ficha. Montaria
+   incapacitada derruba o cavaleiro (regra de queda que já existe na 14.8).
+5. **Acessórios novos (Fantasia, preços do Livro do Jogador de D&D 5e):** sela militar (20 po: +2 em Cavalgar para
+   não cair) e barda (armadura da montaria: a Proteção da armadura equivalente, preço ×4, peso ×2). Freio e rédeas
+   ficam incluídos na sela, para não criar item sem efeito.
+6. **Onde escrever:** Livro do Mestre da Fantasia (9.8) e do Faroeste, com um resumo no Livro do Jogador; os itens
+   novos no `equipment.json`; a barda entra no cálculo da ficha do companheiro (Resistência).
 
 ### Pets por gênero (fichas a criar ou converter)
 - **Fantasia:** cão e mastim, falcão, coruja, gato, pantera, mula, pônei e cavalo de montaria (o cavalo de guerra, o lobo, o lobo atroz e o urso já existem). Fonte: Guia do Mestre e derivados acima.
@@ -182,6 +213,36 @@ nosso número se o livro tiver erro.
    derivados; o gato, o rato e o macaco pedem suporte a "Atletismo baseado em Agilidade" (vantagem Benefício), e o
    rato e o falcão têm contas do Guia que não fecham (registrar a divergência ao cadastrar).
 2. Animal comprado: escolha nos passos de criação, desconto do dinheiro e página "Companheiro" no PDF, DOCX e TXT.
+   **Feito:** o passo "Companheiro" lista os animais à venda no gênero (`companheiros.disponiveis`: o animal tem de
+   ter um item com preço no equipamento do gênero, ligado pelo campo `compra` do JSON). Hoje: cão (mastim) e cavalo
+   (cavalo de montaria) na Fantasia, cavalo no Faroeste e coruja na Escola de Magia; Cthulhu e Cyberpunk não têm.
+   O animal é o **primeiro item pago**, sai do dinheiro e custa 0 PP; sem dinheiro, é erro claro. Sem pedido, a
+   ficha sai idêntica à de antes (os 529 testes antigos passam sem ajuste). A ficha do companheiro vai numa página
+   do PDF (antes da referência), numa seção do DOCX e do TXT, e o servidor a refaz pelo id (não confia no nome
+   vindo da página). Testado também num navegador de verdade (Chrome sem janela). Sobras desta etapa:
+   - **Preços (decidido, 26/11/2026):** ficam como estão, porque vêm das fontes do catálogo (Livro do Jogador de
+     D&D 5e na Fantasia: cavalo 75 po, mastim 25, pônei 30; guia de faroeste: cavalo \$150, mula \$50). Mexer só no
+     cavalo desequilibraria o resto da tabela. Conta feita com 3 sementes por foco, NP 5: na Fantasia o Aventureiro
+     (150 po) gasta em média 90 po no kit; com o cavalo perde em média 1,4 item (o guerreiro pode perder a cota de
+     malha), com o cão 0,5; do Burguês para cima não perde nada. O Camponês (30 po) não paga o cavalo. No Faroeste,
+     o trabalhador (\$75) não paga o cavalo de \$150. É a escolha real "cavalo ou armadura" do Livro do Jogador.
+   - **Aviso de dinheiro no passo (feito):** cada animal mostra "sobram X para o resto"; no sorteio de equipamento, o
+     que não cabe no dinheiro aparece desabilitado ("não cabe em 30 po"). Em "Escolher", o animal entra na conta da
+     compra e o excesso segue a regra de dívida ou pontos.
+   - **Poderes do companheiro explicados (feito):** a página do companheiro (PDF, DOCX e TXT) explica cada poder em
+     linguagem de mesa (campo `explicacao` no JSON do pet) e cada vantagem (texto do `vantagens.json`). O tamanho se
+     explica sozinho pela conta do Livro Básico ("Já somado na ficha: Força +4, ...").
+   - **Sela sem cavalo (corrigido):** o sorteio comprava a sela e os alforjes mesmo quando o cavalo não cabia no
+     dinheiro (no Faroeste, quase todo trabalhador saía assim). Agora eles são devolvidos e o dinheiro volta
+     (`_devolver_arreios_sem_montaria` em `nucleo/player.py`).
+   - **Carga (decidido):** a regra do motor fica. Sela e alforjes vão no animal; o resto só passa para a montaria se
+     o personagem estourar a carga leve, o que no sorteio quase nunca acontece (o kit respeita a carga). Só aparece
+     quando o jogador marca itens a mais em "Escolher".
+   - **Cavalo do kit sem página:** no Faroeste, 36 de 42 PJs de classe média já compram o cavalo pelo kit do
+     arquétipo (item essencial), mas sem a página do companheiro. Resolver na etapa 4 (ligar o cavalo do kit ao
+     companheiro).
+   - **Testes de tela:** a tela foi conferida à mão num navegador; não há teste automático de interface no projeto.
+   - **Regras de montaria e acessórios (feito):** ver "Montaria: regras e acessórios" abaixo.
 3. Parceiro com PP: custo, teto e desabilitar o que não cabe.
 4. Cavalo automático no Faroeste e sorteio por arquétipo.
 5. Companheiro automático nas subclasses (Capanga ou Invocar).

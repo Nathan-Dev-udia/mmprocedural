@@ -13,6 +13,7 @@ from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 from docx.shared import Pt, RGBColor
 
+from . import companheiros
 from . import formatter
 from . import rules
 
@@ -169,6 +170,32 @@ def _adicionar_npc(doc, npc, relatorio):
         paragrafo.runs[0].font.size = Pt(9)
 
 
+def _adicionar_companheiro(doc, bloco, posse):
+    """A ficha do companheiro (companheiros.bloco) numa página própria, depois da ficha do personagem."""
+    if not bloco:
+        return
+    doc.add_paragraph().add_run().add_break(WD_BREAK.PAGE)
+    doc.add_heading(f"Companheiro: {bloco['nome']}", level=1)
+    doc.add_paragraph().add_run(f"NP {bloco['np']}" + (f" · {posse}" if posse else "")).italic = True
+    _paragrafo(doc, "Habilidades", " ".join(f"{NOMES_DAS_HABILIDADES[h]} {_sinal(v)}"
+                                           for h, v in bloco["habilidades"].items()))
+    _paragrafo(doc, "Defesas", ", ".join(f"{d} {v}" for d, v in bloco["defesas"].items())
+               + f"; Iniciativa {_sinal(bloco['iniciativa'])}")
+    if bloco["ataques"]:
+        _paragrafo(doc, "Ataques", "; ".join(
+            f"{a['nome']} {_sinal(a['bonus'])} (Dano {a['dano']}, crítico {companheiros.critico(a)})"
+            for a in bloco["ataques"]))
+    if bloco["pericias"]:
+        _paragrafo(doc, "Perícias", ", ".join(f"{p['nome']} {_sinal(p['total'])}" for p in bloco["pericias"]))
+    for p in bloco["poderes"] + bloco["vantagens"] + bloco.get("equipamento", []):
+        _paragrafo(doc, p["nome"], p["explicacao"] or "")
+    descricao = doc.add_paragraph().add_run(bloco["descricao"])
+    descricao.italic = True
+    fonte = doc.add_paragraph().add_run(f"Fonte: {bloco['fonte']}.")
+    fonte.font.size = Pt(9)
+    fonte.font.color.rgb = COR_SUAVE
+
+
 def _adicionar_referencia(doc, referencia):
     """A referência do personagem (referencia.montar) numa página própria, depois da ficha."""
     if not referencia or not referencia["secoes"]:
@@ -194,8 +221,9 @@ def _adicionar_referencia(doc, referencia):
 
 
 def gerar_docx(npcs_com_relatorio):
-    """Recebe [(npc, relatorio), ...] ou [(npc, relatorio, referencia), ...] e devolve os bytes de um .docx
-    com uma ficha por página (e, se vier a referência, uma página com o que cada coisa da ficha faz)."""
+    """Recebe [(npc, relatorio), ...], [(npc, relatorio, referencia), ...] ou, com o companheiro,
+    [(npc, relatorio, referencia, companheiro), ...] e devolve os bytes de um .docx com uma ficha por página
+    (e, se vierem, uma página do companheiro e outra com o que cada coisa da ficha faz)."""
     doc = Document()
     estilo = doc.styles["Normal"]
     estilo.font.name = "Calibri"
@@ -207,6 +235,7 @@ def gerar_docx(npcs_com_relatorio):
         if indice:
             doc.add_paragraph().add_run().add_break(WD_BREAK.PAGE)
         _adicionar_npc(doc, npc, relatorio)
+        _adicionar_companheiro(doc, resto[1] if len(resto) > 1 else None, (npc.get("companheiro") or {}).get("posse", ""))
         _adicionar_referencia(doc, resto[0] if resto else None)
 
     saida = io.BytesIO()

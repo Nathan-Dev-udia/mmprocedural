@@ -891,7 +891,12 @@ Os preços são conversões econômicas do gênero e não determinam a Proteçã
 ### 9.8 Combate montado [Casa]
 
 - **Montar** usa **Especialidade: Cavalgar** (com Agilidade). Ficar na sela depois de um golpe forte ou de um salto: CD 10 a 20.
-- **A montaria é um personagem:** use o arquétipo **Cavalo** do bestiário (NP 3) ou o tipo **Cavalo de guerra** (a partir do NP 4). Ela age na sua iniciativa e obedece com uma ação de movimento (Comandar).
+- **Sem sela:** –2 em Cavalgar (montar em pelo). A **sela militar** (20 po) dá +2 em Cavalgar para não cair da montaria.
+- **Montar e desmontar:** ação de movimento. Com Cavalgar CD 15, vira ação livre (saltar para a sela).
+- **A montaria é um personagem:** use o arquétipo **Cavalo** do bestiário (NP 3) ou o tipo **Cavalo de guerra** (a partir do NP 4). Ela age na sua iniciativa e obedece com uma ação de movimento (Comandar). O gerador imprime a ficha numa página à parte quando o jogador escolhe o animal no passo **Companheiro**.
+- **Animal sem treino de combate** (cavalo de montaria, pônei, burro, mula): no turno em que há luta perto, o cavaleiro faz Cavalgar CD 10 (ação livre); se falhar, o animal não obedece nesse turno (empina ou recua). Cavalo de guerra não testa.
+- **Atacar a montaria:** os inimigos podem mirar no animal, que usa as defesas da própria ficha. Montaria incapacitada derruba o cavaleiro: Cavalgar ou Acrobacia CD 15 para saltar a tempo; se falhar, fica caído e sofre Dano 2 (como na seção 14.8).
+- **Barda:** a armadura da montaria. Dá ao animal a Proteção da armadura equivalente e soma na Resistência dele, não na do cavaleiro. Custa 4 vezes e pesa 2 vezes a armadura (regra do Livro do Jogador): barda de couro (Proteção 1, 40 po, 10 kg), de cota de malha (Proteção 3, 300 po, 55 kg) e de placas (Proteção 6, 6.000 po, 65 kg). O peso vai no animal. A barda pode levar a montaria acima do limite do NP dela; como o mestre controla o animal, leve isso em conta nos encontros. Na ficha do gerador, a barda comprada já aparece somada na página do companheiro.
 - **Carga montada:** use a manobra Encontrão com a velocidade da montaria, ou a **lança de montaria** (Dano 4, Alcance 2, 10 po), que o foco Cavaleiro do guerreiro já traz.
 - **Atacar de cima:** quem luta montado contra alvos a pé ganha +2 de circunstância corpo a corpo, a critério do mestre.
 
@@ -1054,7 +1059,7 @@ Quando precisar dar preço a um item novo, compare com o item mais parecido do L
 
 ### 11.6 Montarias
 
-Pônei (30 po), cavalo de montaria (75 po), cavalo de guerra (400 po) e sela (10 po) estão no equipamento com preço, mas **sem custo em pontos**: no jogo, a montaria é um NPC (use o arquétipo Cavalo). Se o jogador quiser uma montaria leal que evolui com ele, ela vira a vantagem **Parceiro** (5 PP por graduação), como o lobo do montador goblin e o companheiro animal do patrulheiro.
+Pônei (30 po), cavalo de montaria (75 po), cavalo de guerra (400 po), sela (10 po), sela militar (20 po), alforjes (4 po) e as bardas (40 a 6.000 po, seção 9.8) estão no equipamento com preço, mas **sem custo em pontos**: no jogo, a montaria é um NPC (use o arquétipo Cavalo). Se o jogador quiser uma montaria leal que evolui com ele, ela vira a vantagem **Parceiro** (5 PP por graduação), como o lobo do montador goblin e o companheiro animal do patrulheiro.
 
 ### 11.7 Itens mágicos [Básico + Casa]
 
@@ -1629,7 +1634,7 @@ O peso do equipamento está no catálogo e na ficha do gerador. Compare o peso q
 - **Carga leve** (até a massa da Força – 1): sem penalidade.
 - **Carga pesada** (até a massa da Força): –1 na graduação de Velocidade.
 - **Sobrecarregado** (acima disso): impedido.
-- **Montaria:** sela e alforjes vão no animal. O catálogo traz a carga de cada montaria: pônei 115 kg, cavalo de montaria 220 kg, mula 210 kg, cavalo de guerra 270 kg.
+- **Montaria:** sela, alforjes e barda vão no animal. O catálogo traz a carga de cada montaria: pônei 115 kg, cavalo de montaria 220 kg, mula 210 kg, cavalo de guerra 270 kg.
 
 ---
 

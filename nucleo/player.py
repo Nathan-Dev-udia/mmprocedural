@@ -19,6 +19,7 @@ import copy
 import math
 import random
 
+from . import companheiros as companheiros_mod
 from . import escalar
 from . import formatter
 from . import poderes as poderes_mod
@@ -132,6 +133,20 @@ def implantes_do_jogador(dados):
 
 def racas(dados):
     return list(dados["jogador"].get("racas", {}).values())
+
+
+def _animal_comprado(dados, companheiro_id):
+    """(ficha do companheiro, id do item de equipamento que o paga) para o animal pedido; (None, None) sem pedido.
+
+    O animal comprado custa dinheiro e nenhum PP: o mestre o controla e a ficha dele é a do livro."""
+    if not companheiro_id:
+        return None, None
+    if equipamento_em_pontos(dados):
+        raise GeneratorError("Neste gênero o equipamento é pago com pontos; não há animais à venda.")
+    disponiveis = {c["id"]: c for c in companheiros_mod.disponiveis(dados)}
+    if companheiro_id not in disponiveis:
+        raise GeneratorError(f"O companheiro '{companheiro_id}' não está à venda neste gênero.")
+    return companheiros_mod.carregar(companheiro_id), disponiveis[companheiro_id]["item"]
 
 
 def _raca(dados, raca_id):
@@ -419,6 +434,26 @@ def _devolver_municao_sem_arma(dados, compras, troco):
     usadas = {catalogo[c["id"]].get("municao") for c in compras}
     municoes = {catalogo[i].get("municao") for i in catalogo} - {None}
     sobra = [c for c in compras if c["id"] in municoes and c["id"] not in usadas]
+    for compra in sobra:
+        troco = round(troco + (compra["preco"] or 0), 2)
+    return [c for c in compras if c not in sobra], troco
+
+
+CATEGORIAS_DE_MONTARIA = ("Montaria", "Transporte")
+
+
+def _e_arreio(item):
+    """Sela, alforjes: vão presos no animal e não servem sem ele."""
+    return bool(item.get("vai_na_montaria")) and item.get("categoria") in CATEGORIAS_DE_MONTARIA
+
+
+def _devolver_arreios_sem_montaria(dados, compras, troco):
+    """No sorteio, devolve a sela e os alforjes quando o animal não coube no dinheiro."""
+    catalogo = dados["equipamentos"]
+    if any(catalogo[c["id"]].get("carga") and catalogo[c["id"]].get("categoria") in CATEGORIAS_DE_MONTARIA
+           for c in compras):
+        return compras, troco
+    sobra = [c for c in compras if _e_arreio(catalogo[c["id"]])]
     for compra in sobra:
         troco = round(troco + (compra["preco"] or 0), 2)
     return [c for c in compras if c not in sobra], troco
@@ -901,7 +936,7 @@ def _passos(dados, arquetipo, foco, vantagens_extras, so_vantagens_escolhidas, v
 
 def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
                      nome=None, jogador="", rng=None, equipamento=None, vantagens=None, implantes=None,
-                     raca=None, variante=None, divindade=None, panteao=None):
+                     raca=None, variante=None, divindade=None, panteao=None, companheiro=None):
     """Gera uma ficha de PJ.
 
     equipamento: {"modo": "auto"} (padrão) ou {"modo": "manual", "ids": [...], "excesso": "pontos" | "divida"}.
@@ -915,6 +950,8 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
     divindade:   id da divindade, "sortear" ou "nenhuma" (só em gêneros com divindades.json; ver
                  escolher_divindade). O dogma dela entra nas complicações.
     panteao:     id do panteão que limita o sorteio da divindade.
+    companheiro: id de um animal comprado (companheiros.disponiveis). Custa dinheiro, não pontos de poder, e é o
+                 primeiro item pago. Sem pedido, nada muda: a ficha sai igual à de antes.
     """
     arquetipo = _arquetipo(dados, arquetipo_id)
     config = dados["configuracoes"]
@@ -948,12 +985,15 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
     rotulo = config.get("rotulo_poderes", "Poderes")
     tem_implantes = bool(implantes_do_jogador(dados))
     raca = _raca(dados, raca)
+    animal, item_do_animal = _animal_comprado(dados, companheiro)
 
     # Equipamento escolhido: confere os itens e, se passar do dinheiro, decide como pagar.
     manual_equipamento = equipamento.get("modo") == "manual"
     riqueza_escolhida, divida, quantidades = riqueza, 0, {}
     if manual_equipamento:
         ids = [str(i) for i in equipamento.get("ids", [])]
+        if item_do_animal and item_do_animal not in ids:
+            ids.append(item_do_animal)
         desconhecidos = [i for i in ids if i not in dados["equipamentos"]
                          or not dados["equipamentos"][i].get("categoria")]
         if desconhecidos:
@@ -1023,19 +1063,26 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
                                                     quantidades=quantidades)
         else:
             prioritarios, itens_extras = _equipamento_automatico_em_partes(dados, arquetipo, foco, np, vantagens, rng)
+            # O animal escolhido é pago primeiro; o resto do sorteio divide o dinheiro que sobrar.
+            compra_do_animal, caixa = [], riqueza["dinheiro"]
+            if item_do_animal:
+                compra_do_animal, caixa, _ = _comprar(dados, [item_do_animal], caixa, obrigatorio=True)
+                prioritarios = [i for i in prioritarios if i != item_do_animal]
+                itens_extras = [i for i in itens_extras if i != item_do_animal]
             # O que vem da origem entra primeiro. Os prioritários usam tudo menos a parte mínima; os extras, só o que
             # passa da parte guardada (se os prioritários já comeram essa parte, não entra extra nenhum).
-            origem = precos_de_origem(dados, prioritarios + itens_extras, riqueza["dinheiro"])
+            origem = precos_de_origem(dados, prioritarios + itens_extras, caixa)
             prioritarios = list(origem) + [i for i in prioritarios if i not in origem]
             itens_extras = [i for i in itens_extras if i not in origem]
-            minimo = round(riqueza["dinheiro"] * PARTE_MINIMA, 2)
-            compras, troco, sem_dinheiro = _comprar(dados, prioritarios, riqueza["dinheiro"] - minimo,
+            minimo = round(caixa * PARTE_MINIMA, 2)
+            compras, troco, sem_dinheiro = _comprar(dados, prioritarios, caixa - minimo,
                                                     precos_de_origem=origem)
             troco = round(troco + minimo, 2)
-            guardado = min(troco, round(riqueza["dinheiro"] * PARTE_GUARDADA, 2))
+            guardado = min(troco, round(caixa * PARTE_GUARDADA, 2))
             mais, troco, faltou = _comprar(dados, itens_extras, troco - guardado)
             compras, sem_dinheiro, troco = compras + mais, sem_dinheiro + faltou, round(troco + guardado, 2)
-            compras, troco = _devolver_municao_sem_arma(dados, compras, troco)
+            compras, troco = _devolver_municao_sem_arma(dados, compra_do_animal + compras, troco)
+            compras, troco = _devolver_arreios_sem_montaria(dados, compras, troco)
         ficha["equipamento"] = _abrir_kits(dados, [c["id"] for c in compras], ficha["quantidades"])
         compras, troco, fora_do_np = _tirar_armas_acima_do_np(dados, ficha, compras, troco, np)
 
@@ -1109,6 +1156,13 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
                   + f"Vantagens: {'escolhidas pelo jogador' if manual_vantagens else 'sorteadas pelo arquétipo'}.")
     if raca:
         observacao += f" Raça: {raca['nome']}."
+    ficha_do_animal = None
+    if animal:
+        item = dados["equipamentos"][item_do_animal]
+        barda = companheiros_mod.barda_do_equipamento(ficha["equipamento"], dados["equipamentos"])
+        ficha_do_animal = {**companheiros_mod.bloco(animal, barda), "posse": "Animal comprado", "custo_pp": 0,
+                           "item": item_do_animal, "preco": item["preco"]}
+        observacao += f" Companheiro: {animal['nome']} (animal comprado, sem custo em PP)."
     divindade_resumo = resumo_da_divindade(divindade) if divindade else None
     if divindade:
         observacao += f" Divindade: {divindade['nome']} ({divindade['panteao']['nome'].lower()})."
@@ -1146,6 +1200,7 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
         "pontos_de_equipamento": pontos_de_equipamento,
         "implantes": {"instalados": instalados, "fora": implantes_fora} if tem_implantes else None,
         "escolhas": escolhas,
+        "companheiro": ficha_do_animal,
         "regras_validacao": regras,
         "ficha": ficha,
         "validacao": relatorio,

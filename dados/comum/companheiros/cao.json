@@ -3,6 +3,7 @@
   "nome": "Cão",
   "nivel_poder": 2,
   "generos": ["fantasia", "faroeste", "cthulhu"],
+  "compra": {"fantasia": "mastim"},
   "descricao": "Cão comum, de guarda, de caça ou de companhia. Bom faro e ouvido apurado.",
   "fonte": "Guia do Mestre de Jogo, p. 223 (Cão)",
   "ficha": {
@@ -11,7 +12,8 @@
     "pericias": {"Atletismo": 2, "Percepção": 4},
     "vantagens": {},
     "poderes": [
-      {"id": "sentidos", "nome": "Sentidos 3 (Faro Aguçado, Rastrear, Ultra-Audição)", "custo": 3},
+      {"id": "sentidos", "nome": "Sentidos 3 (Faro Aguçado, Rastrear, Ultra-Audição)", "custo": 3,
+       "explicacao": "Reconhece pessoas e coisas pelo cheiro, segue uma trilha pelo faro (Percepção, andando na metade da velocidade) e ouve sons agudos que as pessoas não ouvem, como um apito de cão."},
       {"id": "tamanho", "nome": "Encolhimento 2 (Permanente, Inato)", "custo": 5,
        "tamanho": {"efeito": "Encolhimento", "graduacao": 2}}
     ],

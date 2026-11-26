@@ -521,6 +521,16 @@ A regra abaixo usa a mesma lógica do modificador **Multiataque** do livro bási
 
 > As regras de leque e fogo de cobertura vêm dos usos "alvos múltiplos" e "ataque de cobertura" do Multiataque.
 
+### 5.8 Combate montado [Casa]
+
+- **Cavalgar:** montar, galopar e lutar a cavalo usam **Especialidade: Cavalgar** (Agilidade). Ficar na sela depois de um tiro, de um golpe forte ou de um salto: CD 10 a 20.
+- **Sem sela:** –2 em Cavalgar (montar em pelo).
+- **Montar e desmontar:** ação de movimento. Com Cavalgar CD 15, vira ação livre (pular na sela em fuga).
+- **A montaria é um personagem:** use a ficha do Cavalo (NP 3). Ela age na iniciativa do cavaleiro e obedece com uma ação de movimento (Comandar). O gerador imprime essa ficha numa página à parte quando o jogador escolhe o cavalo no passo **Companheiro**.
+- **Cavalo sem treino de combate:** cavalo comum e mula se assustam com tiros. No turno em que há tiroteio ou luta perto, o cavaleiro faz Cavalgar CD 10 (ação livre); se falhar, o animal não obedece nesse turno (empina ou recua). Cavalo de cavalaria, treinado para o fogo, não testa.
+- **Atacar a montaria:** os inimigos podem mirar no cavalo, que usa as defesas da própria ficha. Montaria incapacitada derruba o cavaleiro: Cavalgar ou Acrobacia CD 15 para saltar a tempo; se falhar, fica caído e sofre Dano 2 (a queda a galope).
+- **Rifle na sela:** sacar o rifle do coldre da sela é uma ação de movimento, como sacar qualquer arma.
+
 ---
 
 ## 6. Dano letal, aflições e condições
