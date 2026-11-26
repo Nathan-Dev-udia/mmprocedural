@@ -1,0 +1,30 @@
+{
+  "id": "cavalo",
+  "nome": "Cavalo",
+  "nivel_poder": 3,
+  "generos": ["fantasia", "faroeste"],
+  "descricao": "Cavalo de montaria comum. Montar usa Atletismo, a não ser que o mestre exija Especialidade: Montar.",
+  "fonte": "Guia do Mestre de Jogo, p. 223 (Cavalo)",
+  "ficha": {
+    "habilidades": {"For": 0, "Vig": 0, "Agi": 1, "Des": -4, "Lut": 2, "Int": -4, "Pro": 1, "Pre": -3},
+    "defesas_compradas": {"Esquiva": 3, "Aparar": 2, "Fortitude": 1},
+    "pericias": {"Percepção": 4},
+    "vantagens": {},
+    "poderes": [
+      {"id": "tamanho", "nome": "Crescimento 4 (Permanente, Inato)", "custo": 9,
+       "tamanho": {"efeito": "Crescimento", "graduacao": 4}},
+      {"id": "sentidos", "nome": "Sentidos 2 (Visão Estendida, Visão na Penumbra)", "custo": 2},
+      {"id": "velocidade", "nome": "Velocidade 4 (60 km/h)", "custo": 4}
+    ],
+    "ataques_naturais": [{"nome": "Cascos", "tipo": "corpo", "efeito": 0, "soma_forca": true, "critico": 20}]
+  },
+  "livro": {
+    "habilidades": {"For": 4, "Vig": 4, "Agi": 1, "Des": -4, "Lut": 2, "Int": -4, "Pro": 1, "Pre": -3},
+    "defesas": {"Esquiva": 2, "Aparar": 2, "Fortitude": 5, "Resistência": 4, "Vontade": 1},
+    "pericias": {"Percepção": 5},
+    "iniciativa": 1,
+    "ataques": {"Cascos": {"bonus": 2, "dano": 4}},
+    "custos": {"habilidades": -14, "poderes": 15, "vantagens": 0, "pericias": 2, "defesas": 6},
+    "total": 9
+  }
+}

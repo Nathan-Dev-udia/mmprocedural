@@ -1,0 +1,30 @@
+{
+  "id": "coruja",
+  "nome": "Coruja",
+  "nivel_poder": 2,
+  "generos": ["fantasia", "escola_de_magia"],
+  "descricao": "Ave noturna de voo silencioso. Mensageira dos alunos e familiar comum de magos.",
+  "fonte": "Guia do Mestre de Jogo, p. 224 (Coruja)",
+  "ficha": {
+    "habilidades": {"For": 0, "Vig": -2, "Agi": 2, "Des": -2, "Lut": 1, "Int": -4, "Pro": 2, "Pre": -3},
+    "defesas_compradas": {"Fortitude": 4},
+    "pericias": {"Percepção": 6, "Furtividade": 2},
+    "vantagens": {},
+    "poderes": [
+      {"id": "voo", "nome": "Voo 3 (30 km/h; Asas, Sutil)", "custo": 4},
+      {"id": "sentidos", "nome": "Sentidos 2 (Visão na Penumbra, Ultravisão)", "custo": 2},
+      {"id": "tamanho", "nome": "Encolhimento 8 (Permanente, Inato)", "custo": 17,
+       "tamanho": {"efeito": "Encolhimento", "graduacao": 8}}
+    ],
+    "ataques_naturais": [{"nome": "Garras", "tipo": "corpo", "efeito": 0, "soma_forca": true, "critico": 20}]
+  },
+  "livro": {
+    "habilidades": {"For": -2, "Vig": -2, "Agi": 2, "Des": -2, "Lut": 1, "Int": -4, "Pro": 2, "Pre": -3},
+    "defesas": {"Esquiva": 6, "Aparar": 5, "Fortitude": 2, "Resistência": -2, "Vontade": 2},
+    "pericias": {"Percepção": 8, "Furtividade": 12},
+    "iniciativa": 2,
+    "ataques": {"Garras": {"bonus": 1, "dano": -2}},
+    "custos": {"habilidades": -12, "poderes": 23, "vantagens": 0, "pericias": 4, "defesas": 4},
+    "total": 19
+  }
+}

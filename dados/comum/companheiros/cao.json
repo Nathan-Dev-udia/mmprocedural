@@ -1,0 +1,29 @@
+{
+  "id": "cao",
+  "nome": "Cão",
+  "nivel_poder": 2,
+  "generos": ["fantasia", "faroeste", "cthulhu"],
+  "descricao": "Cão comum, de guarda, de caça ou de companhia. Bom faro e ouvido apurado.",
+  "fonte": "Guia do Mestre de Jogo, p. 223 (Cão)",
+  "ficha": {
+    "habilidades": {"For": 1, "Vig": 1, "Agi": 1, "Des": -2, "Lut": 2, "Int": -4, "Pro": 1, "Pre": -2},
+    "defesas_compradas": {"Esquiva": 1, "Fortitude": 2},
+    "pericias": {"Atletismo": 2, "Percepção": 4},
+    "vantagens": {},
+    "poderes": [
+      {"id": "sentidos", "nome": "Sentidos 3 (Faro Aguçado, Rastrear, Ultra-Audição)", "custo": 3},
+      {"id": "tamanho", "nome": "Encolhimento 2 (Permanente, Inato)", "custo": 5,
+       "tamanho": {"efeito": "Encolhimento", "graduacao": 2}}
+    ],
+    "ataques_naturais": [{"nome": "Mordida", "tipo": "corpo", "efeito": 0, "soma_forca": true, "critico": 20}]
+  },
+  "livro": {
+    "habilidades": {"For": 1, "Vig": 1, "Agi": 1, "Des": -2, "Lut": 2, "Int": -4, "Pro": 1, "Pre": -2},
+    "defesas": {"Esquiva": 3, "Aparar": 3, "Fortitude": 3, "Resistência": 1, "Vontade": 1},
+    "pericias": {"Atletismo": 3, "Percepção": 5},
+    "iniciativa": 1,
+    "ataques": {"Mordida": {"bonus": 2, "dano": 1}},
+    "custos": {"habilidades": -4, "poderes": 8, "vantagens": 0, "pericias": 3, "defesas": 3},
+    "total": 10
+  }
+}

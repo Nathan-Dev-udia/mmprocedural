@@ -126,7 +126,11 @@ def calcular(ficha, catalogo_equipamento, ativo=None):
     iniciativa = hab["Agi"] + rules.INICIATIVA_POR_GRADUACAO * vantagens.get(rules.VANTAGEM_INICIATIVA, 0)
 
     pericias_totais = {}
-    circunstancias = tamanho.get("pericias", {})
+    circunstancias = dict(tamanho.get("pericias", {}))
+    # Crescimento e Encolhimento como poder (os companheiros) mudam Furtividade e Intimidação da mesma forma.
+    for poder in ficha.get("poderes", {}).values():
+        for nome, valor in poder.get("circunstancias", {}).items():
+            circunstancias[nome] = circunstancias.get(nome, 0) + valor
     # As perícias que o tamanho muda aparecem mesmo sem graduações (o halfling se esconde bem sem treino).
     for nome in list(pericias) + [p for p in circunstancias if p not in pericias]:
         graduacoes = pericias.get(nome, 0)

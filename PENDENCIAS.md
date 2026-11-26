@@ -173,10 +173,13 @@ nosso número se o livro tiver erro.
 - A referência do personagem também explica os poderes e as vantagens do pet, e a vantagem usada (Parceiro ou Capanga).
 
 ### Ordem sugerida de implementação
-1. Fichas dos pets no bestiário, com o custo em PP calculado e testado (base de tudo). Como fazer: transcrever as
-   fichas do Guia do Mestre para JSON no formato de `dados/bestiario/fantasia/feras/`, com `"fonte"` citando livro e
-   página; montar os derivados; recalcular o total com `validator.calcular_custos` e um teste que confere o total e o
-   custo como Parceiro e Capanga de cada pet.
+1. Fichas dos pets com o custo em PP calculado e testado (base de tudo). **Feito o básico:** os pets ficam em
+   `dados/comum/companheiros/` no formato de ficha do validador (não no bestiário, que guarda só valores finais),
+   lidos por `nucleo/companheiros.py`; Crescimento e Encolhimento são aplicados pela regra do Livro Básico.
+   `tests/test_companheiros.py` confere cada pet contra os valores impressos no Guia e contra os limites do NP.
+   Cadastrados: cão, cavalo, coruja e lobo (todos batem com o Guia). Faltam os outros animais da tabela e os
+   derivados; o gato, o rato e o macaco pedem suporte a "Atletismo baseado em Agilidade" (vantagem Benefício), e o
+   rato e o falcão têm contas do Guia que não fecham (registrar a divergência ao cadastrar).
 2. Animal comprado: escolha no wizard, desconto do dinheiro e página "Companheiro" no PDF, DOCX e TXT.
 3. Parceiro com PP: custo, teto e desabilitar o que não cabe.
 4. Cavalo automático no Faroeste e sorteio por arquétipo.
