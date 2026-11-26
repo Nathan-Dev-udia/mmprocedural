@@ -90,8 +90,8 @@ para conceito.
 | Livro Básico | Vantagem Capanga, p. 81; Capangas, p. 186 | 15 PP de ficha por graduação; regras de capanga (cai na primeira falha de Resistência); perdidos são repostos entre aventuras |
 | Livro Básico | Efeito Invocar, p. 111 | familiar e companheiro mágico; extras Ativo (age sem a condição tonto) e Capangas Múltiplos (dobra a quantidade) |
 | Livro Básico | Ação Comandar, p. 188 | dar ordem ao pet é ação de movimento |
-| Livro Básico | Crescimento, p. 100; Atletismo, p. 64 | ajustar porte (pônei, mastim, pantera) e a perícia de montar |
-| Guia do Mestre de Jogo (`Guia do Mestre de Jogo.pdf`) | Capítulo Animais, p. 223 a 229 | fichas prontas da 3e com o total de PP (tabela abaixo); variações (cavalo de carga +1 For, de guerra mais Luta); **montar usa Atletismo, a não ser que o mestre exija Especialidade: Montar** |
+| Livro Básico | Crescimento, p. 100; perícia Veículos | ajustar porte (pônei, mastim, pantera); **montar é Especialidade: Cavalgar, com Agilidade** (Atletismo só a critério do mestre), regra que o projeto já usa |
+| Guia do Mestre de Jogo (`Guia do Mestre de Jogo.pdf`) | Capítulo Animais, p. 223 a 229 | fichas prontas da 3e com o total de PP (tabela abaixo); variações (cavalo de carga +1 For, de guerra mais Luta); o Guia sugere Atletismo para montar, mas vale a regra do Livro Básico (Cavalgar) |
 | Supernatural Handbook (`Mutants & Masterminds 3e - Supernatural Handbook.pdf`) | Cap. 2, modelo Familiar (homúnculo, 39 pontos), p. 45 | base de poderes do familiar mágico do mago (é um familiar independente, então é encolhido para caber como Parceiro ou Invocar) |
 | D&D 5e (`referencias/dd/`: Manual dos Monstros, Livro do Jogador) | Apêndice de feras; Patrulheiro (Mestre das Bestas); magia Encontrar Familiar | **só conceito**: que bichos existem e como o companheiro se comporta na história. Os números não convertem para M&M |
 
@@ -157,7 +157,7 @@ nosso número se o livro tiver erro.
    - (a) Todo personagem já sai com um cavalo comprado, porque a carga `vai_na_montaria` pressupõe. **Recomendado.**
    - (b) O cavalo continua sendo só um item a comprar.
 6. **Evolução na campanha.** O Parceiro sobe comprando mais graduações (+5 PP de ficha cada). O livro explica; o gerador pode aceitar "pontos extras para o pet" no futuro.
-7. **Montaria.** Cavalgar usa **Atletismo**, a não ser que o mestre exija Especialidade: Montar (Guia do Mestre, Cavalo, p. 223); o Livro do Jogador explica as duas opções. Falta decidir: a carga do cavalo some do peso do personagem?
+7. **Montaria.** Montar usa **Especialidade: Cavalgar, com Agilidade** (Livro Básico, perícia Veículos; já está em `rules.py` e nos livros da Fantasia, seção 9.8, e do Faroeste). Atletismo fica a critério do mestre. Falta decidir: a carga do cavalo some do peso do personagem?
 8. **Regras da casa opcionais.** Truques treinados (Atacar, Defender, Buscar, Ficar, Rastrear, Proteger) para animais de Intelecto -4 ou -5, e ordem como ação livre com uma vantagem da casa. Ficam marcadas como opcionais.
 
 ### Pets por gênero (fichas a criar ou converter)

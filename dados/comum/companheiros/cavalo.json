@@ -3,7 +3,7 @@
   "nome": "Cavalo",
   "nivel_poder": 3,
   "generos": ["fantasia", "faroeste"],
-  "descricao": "Cavalo de montaria comum. Montar usa Atletismo, a não ser que o mestre exija Especialidade: Montar.",
+  "descricao": "Cavalo de montaria comum. Montar usa Especialidade: Cavalgar (Agilidade).",
   "fonte": "Guia do Mestre de Jogo, p. 223 (Cavalo)",
   "ficha": {
     "habilidades": {"For": 0, "Vig": 0, "Agi": 1, "Des": -4, "Lut": 2, "Int": -4, "Pro": 1, "Pre": -3},
