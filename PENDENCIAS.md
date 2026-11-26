@@ -62,6 +62,7 @@ Comparação do `referencias/dd/compendio-de-classes-e-subclasses.pdf` com o ger
 - **Livro das Magias (para baixar):** um livro por gênero com magia (`fantasia_magias.md` e `escola_de_magia_magias.md`, este com os 57 feitiços), gerado dos dados em `nucleo/livros.py`, como o Livro das Classes, para acompanhar qualquer magia nova sem trabalho manual. Cada magia traz efeito e graduação, custo em PP, teste do alvo com a CD, modificadores, custo de subir uma graduação e quais classes ou subclasses a usam. Aparece junto dos outros livros no passo do gênero, nos mesmos formatos de download. A decidir: agrupar por classe, por escola ou em ordem alfabética; se entram as magias só para NPC (as Maldições Imperdoáveis); um equivalente para os implantes do Cyberpunk fica para depois.
 - **Fichas de grupo:** gerar o grupo inteiro de uma vez, com papéis que se complementam (por exemplo tanque, curandeiro, furtivo e conjurador), todos no mesmo NP da campanha, e baixar tudo junto no zip. Usa o nível da campanha que já existe. A decidir: quantos personagens (de 2 a 6), se o jogador trava alguns papéis e deixa o resto sortear, e se o grupo evita repetir classe e raça.
 - **Aviso de equilíbrio na ficha:** um alerta quando a ficha foge muito da mediana do NP (a medição da versão 1.19.0 mostrou que as subclasses ficam entre ~0,7 e ~1,3 da mediana, então o aviso pegaria só fichas fora do comum ou editadas à mão). Aproveita a medição de força que já foi feita.
+- **Código de ficha montado por IA:** o usuário descreve o personagem para uma IA (Claude, Gemini, NotebookLM), cola junto uma documentação do sistema, recebe um código e o cola no app para gerar a ficha. O desenho está na seção "Código de ficha montado por IA (desenho)" mais abaixo.
 
 ## Pets e companheiros (desenho)
 Desenho para o personagem ter um pet e o pet ganhar ficha própria. Partiu de uma pesquisa no NotebookLM
@@ -74,9 +75,60 @@ Desenho para o personagem ter um pet e o pet ganhar ficha própria. Partiu de um
 - **Fichas prontas:** cavalo de guerra, lobo, lobo atroz e urso em `dados/bestiario/fantasia/feras/`. O Faroeste não tem ficha de cavalo no bestiário.
 
 ### O que corrigir na pesquisa do NotebookLM
-- *Mecha & Mangá* e *Warriors & Warlocks* são da 2ª edição. Os custos tirados deles (o "Lobo, 23 PP", por exemplo) precisam ser recalculados na 3e, como foi feito no bestiário.
+- *Mecha & Mangá* e *Warriors & Warlocks* são da 2ª edição, e os custos tirados deles não valem. O "Lobo, 23 PP"
+  por acaso bate com o lobo da 3e (Guia do Mestre, p. 227), mas a fonte certa é o Guia.
 - Elo Telepático, Interpor Monstrinho e Ordem Rápida não são vantagens da 3e. Se entrarem, entram como **regra da casa**, marcadas assim no livro. A vantagem que existe é Interpor-se, em que o herói se joga na frente do aliado.
-- Dar ordem ao pet como ação de movimento é plausível, mas falta conferir no Livro Básico antes de virar regra.
+- ~~Ordem como ação de movimento falta conferir~~ **Confirmado:** Comandar é ação de movimento (Livro Básico, p. 188).
+
+### Fontes (todas em `referencias/mm/`, 3ª edição)
+Não precisa de referência externa. Os livros de M&M 3e que já temos cobrem regras, custos e fichas; D&D serve só
+para conceito.
+
+| Livro (arquivo) | Seção | O que usamos |
+|---|---|---|
+| Livro Básico (`mutantes malfeitores 3a edicao.pdf`) | Vantagem Parceiro, p. 85 | 5 PP de ficha por graduação; não segue as regras de capanga; **o total de PP do parceiro tem de ser menor que o do herói**; parceiro não tem pontos heroicos |
+| Livro Básico | Vantagem Capanga, p. 81; Capangas, p. 186 | 15 PP de ficha por graduação; regras de capanga (cai na primeira falha de Resistência); perdidos são repostos entre aventuras |
+| Livro Básico | Efeito Invocar, p. 111 | familiar e companheiro mágico; extras Ativo (age sem a condição tonto) e Capangas Múltiplos (dobra a quantidade) |
+| Livro Básico | Ação Comandar, p. 188 | dar ordem ao pet é ação de movimento |
+| Livro Básico | Crescimento, p. 100; Atletismo, p. 64 | ajustar porte (pônei, mastim, pantera) e a perícia de montar |
+| Guia do Mestre de Jogo (`Guia do Mestre de Jogo.pdf`) | Capítulo Animais, p. 223 a 229 | fichas prontas da 3e com o total de PP (tabela abaixo); variações (cavalo de carga +1 For, de guerra mais Luta); **montar usa Atletismo, a não ser que o mestre exija Especialidade: Montar** |
+| Supernatural Handbook (`Mutants & Masterminds 3e - Supernatural Handbook.pdf`) | Cap. 2, modelo Familiar (homúnculo, 39 pontos), p. 45 | base de poderes do familiar mágico do mago (é um familiar independente, então é encolhido para caber como Parceiro ou Invocar) |
+| D&D 5e (`referencias/dd/`: Manual dos Monstros, Livro do Jogador) | Apêndice de feras; Patrulheiro (Mestre das Bestas); magia Encontrar Familiar | **só conceito**: que bichos existem e como o companheiro se comporta na história. Os números não convertem para M&M |
+
+Cuidado: o *Livro de Magia* (`mutantes malfeitores o livro de magia.pdf`) cita "cavalo (M&M, página 230)", que é
+da 2ª edição; não usar os números de lá.
+
+### Fichas e custos (Guia do Mestre de Jogo, 3e)
+Custo como **Parceiro** = total ÷ 5, arredondado para cima. Como **Capanga** = total ÷ 15, arredondado para cima.
+Os totais são os impressos no Guia; na hora de criar o JSON, recalcular com `validator.calcular_custos` e usar o
+nosso número se o livro tiver erro.
+
+| Animal | Página | NP | Total (PP de ficha) | Parceiro (PP do herói) | Capanga (PP do herói) |
+|---|---|---|---|---|---|
+| Cão | 223 | 2 | 10 | 2 | 1 |
+| Cavalo | 223 | 3 | 9 | 2 | 1 |
+| Coruja | 224 | 2 | 19 | 4 | 2 |
+| Gato | 226 | 3 | 15 | 3 | 1 |
+| Falcão (e outras aves de rapina) | 226 | 4 | 38 | 8 | 3 |
+| Lobo | 227 | 3 | 23 | 5 | 2 |
+| Rato | 227 | 3 | 12 | 3 | 1 |
+| Macaco | 228 | 3 | 24 | 5 | 2 |
+| Morcego | 228 | 0 | 15 | 3 | 1 |
+| Leão | 227 | 6 | 48 | 10 | 4 |
+| Urso | 229 | 6 | 36 | 8 | 3 |
+
+**Derivados (não estão no Guia), montados a partir de uma ficha da 3e e com custo recalculado:**
+- **Mastim:** do Cão, com +1 For e +1 Vig e sem Encolhimento.
+- **Mula:** do Cavalo, como cavalo de carga (+1 For, regra do Guia), com Velocidade menor.
+- **Pônei:** do Cavalo, com Crescimento menor.
+- **Cavalo de guerra:** o do bestiário (`cavalo_guerra.json`, já adaptado do Guia, p. 223).
+- **Pantera:** do Leão, com menos Crescimento e mais Furtividade.
+- **Sapo:** do Rato, com Salto e Natação no lugar do Faro.
+- **Familiar do mago:** um animal pequeno (coruja, gato, rato, morcego ou sapo) mais um pacote mágico tirado do
+  modelo Familiar do Supernatural Handbook. O elo com o dono sai do efeito Comunicação (mental, limitado ao dono),
+  com custo real em PP, em vez de uma vantagem da casa. Conferir o custo do pacote no Livro Básico.
+- As fichas atuais de `lobo.json` e `urso.json` no bestiário devem ser comparadas com o Guia para não haver duas
+  versões do mesmo bicho.
 
 ### As quatro formas de ter um pet
 | Forma | Custo | Força do pet | Em combate | Uso |
@@ -96,7 +148,7 @@ Desenho para o personagem ter um pet e o pet ganhar ficha própria. Partiu de um
    - (a) O jogador escolhe o animal e o gerador calcula a graduação (custo da ficha ÷ 5, arredondado para cima). **Recomendado:** é mais fácil de entender.
    - (b) O jogador escolhe a graduação e o gerador monta o melhor animal que cabe.
 3. **Limite para não ficar apelão.**
-   - NP do pet ≤ NP do herói (regra do M&M).
+   - NP do pet ≤ NP do herói, e o total de PP do Parceiro menor que o do herói (Livro Básico, p. 85).
    - Teto de custo em PP do herói, por exemplo 15% a 20% do orçamento. Um cavalo de guerra de 30 PP custa 6 PP do herói, cerca de 8% no NP 5.
    - Animal que passa do teto aparece desabilitado com "(a partir do NP X)", como as subclasses.
 4. **Sorteio ou escolha.**
@@ -105,14 +157,14 @@ Desenho para o personagem ter um pet e o pet ganhar ficha própria. Partiu de um
    - (a) Todo personagem já sai com um cavalo comprado, porque a carga `vai_na_montaria` pressupõe. **Recomendado.**
    - (b) O cavalo continua sendo só um item a comprar.
 6. **Evolução na campanha.** O Parceiro sobe comprando mais graduações (+5 PP de ficha cada). O livro explica; o gerador pode aceitar "pontos extras para o pet" no futuro.
-7. **Montaria.** Cavalgar usa Especialidade (Cavalgar) ou Atletismo? A carga do cavalo some do peso do personagem? Decidir e explicar no Livro do Jogador.
+7. **Montaria.** Cavalgar usa **Atletismo**, a não ser que o mestre exija Especialidade: Montar (Guia do Mestre, Cavalo, p. 223); o Livro do Jogador explica as duas opções. Falta decidir: a carga do cavalo some do peso do personagem?
 8. **Regras da casa opcionais.** Truques treinados (Atacar, Defender, Buscar, Ficar, Rastrear, Proteger) para animais de Intelecto -4 ou -5, e ordem como ação livre com uma vantagem da casa. Ficam marcadas como opcionais.
 
 ### Pets por gênero (fichas a criar ou converter)
-- **Fantasia:** cão ou mastim, falcão, coruja, gato, pantera, mula, pônei e cavalo de montaria (o cavalo de guerra, o lobo, o lobo atroz e o urso já existem).
-- **Faroeste:** cavalo de montaria, mula e cão.
-- **Escola de Magia:** coruja, gato e sapo, os bichos de estimação dos alunos. Quase sempre comprados, sem PP.
-- **Chamado de Cthulhu:** cão.
+- **Fantasia:** cão e mastim, falcão, coruja, gato, pantera, mula, pônei e cavalo de montaria (o cavalo de guerra, o lobo, o lobo atroz e o urso já existem). Fonte: Guia do Mestre e derivados acima.
+- **Faroeste:** cavalo de montaria, mula e cão. Fonte: Guia do Mestre, p. 223.
+- **Escola de Magia:** coruja, gato e sapo, os bichos de estimação dos alunos. Quase sempre comprados, sem PP. Fonte: Guia do Mestre (coruja e gato) e sapo derivado do rato.
+- **Chamado de Cthulhu:** cão. Fonte: Guia do Mestre, p. 223.
 - **Cyberpunk:** cão robô ou drone, que pode ser outro tipo de companheiro (equipamento) e fica para depois.
 
 ### Saída da ficha
@@ -121,12 +173,84 @@ Desenho para o personagem ter um pet e o pet ganhar ficha própria. Partiu de um
 - A referência do personagem também explica os poderes e as vantagens do pet, e a vantagem usada (Parceiro ou Capanga).
 
 ### Ordem sugerida de implementação
-1. Fichas dos pets no bestiário, com o custo em PP calculado e testado (base de tudo).
+1. Fichas dos pets no bestiário, com o custo em PP calculado e testado (base de tudo). Como fazer: transcrever as
+   fichas do Guia do Mestre para JSON no formato de `dados/bestiario/fantasia/feras/`, com `"fonte"` citando livro e
+   página; montar os derivados; recalcular o total com `validator.calcular_custos` e um teste que confere o total e o
+   custo como Parceiro e Capanga de cada pet.
 2. Animal comprado: escolha no wizard, desconto do dinheiro e página "Companheiro" no PDF, DOCX e TXT.
 3. Parceiro com PP: custo, teto e desabilitar o que não cabe.
 4. Cavalo automático no Faroeste e sorteio por arquétipo.
 5. Companheiro automático nas subclasses (Capanga ou Invocar).
 6. Livros: seção de pets no Livro do Jogador de cada gênero e as regras da casa no Livro do Mestre.
+
+## Código de ficha montado por IA (desenho)
+Ideia: o usuário pede, em linguagem natural, algo como "um mago de combate com foco em furtividade, misturando mago
+com ladrão". A IA lê a documentação do sistema e devolve um código, o usuário o cola no app e a ficha sai pronta.
+Não tem custo de API para o projeto e funciona com a IA que o usuário já usa.
+
+### Por que não serve a semente atual
+- A semente que o app já aceita (`semente` em `app.py`, `_rng`) só alimenta o `random.Random`. É um número opaco:
+  nenhuma IA consegue calcular qual semente gera um "mago furtivo". Ela inventaria um número e o resultado sairia
+  aleatório, parecendo proposital.
+
+### O formato: um código que descreve as escolhas
+- O código lista as escolhas da ficha, como uma receita. A semente vai junto só para reproduzir a mesma ficha:
+  `MMP1 fantasia | mago/combate | np8 | pericias:furtividade+,enganacao+ | vantagens:ataque_furtivo | semente:4821`
+- A documentação não é um catálogo de fichas prontas, é o **vocabulário de peças** (gêneros, arquétipos, focos,
+  perícias, vantagens, poderes, com os IDs). A IA combina as peças na hora, então nenhuma combinação precisa ser
+  cadastrada antes.
+- Texto legível, não base64: o usuário consegue ler e corrigir, e LLMs erram muito ao codificar base64.
+- Prefixo com versão (`MMP1`), para que códigos antigos continuem valendo quando o formato mudar.
+
+### Partes
+1. **Formato e leitor do código:** definir a gramática, ler o código e convertê-lo nos parâmetros de
+   `player.gerar_personagem` (arquétipo, foco, NP, vantagens manuais etc.).
+2. **Validação tolerante:** a IA vai errar IDs. O erro deve dizer o que está errado e sugerir os parecidos
+   ("vantagem `ataque-furtivo` não existe; parecidas: `ataque_furtivo`"), para o usuário colar o erro de volta na IA.
+3. **Campo "Colar código" no wizard** e botão **"Copiar código"** em toda ficha gerada. O caminho inverso é útil
+   mesmo sem IA: gerar, gostar da ficha e compartilhar o código.
+4. **Documentação gerada dos dados:** uma ferramenta em `ferramentas/` exporta um `.md` por gênero a partir de
+   `dados/`, com o formato, os IDs válidos, uma linha sobre cada peça e exemplos de pedido → código. Feita à mão,
+   ela desatualiza e a IA passa a sugerir IDs que não existem. Disponível para baixar junto dos livros.
+5. **Pesos para híbridos:** hoje o gerador trabalha com arquétipo + foco. Para uma mistura de verdade (mago que
+   "puxa" para furtividade), o código precisa de prioridades (`pericias:furtividade+`) que o motor respeite ao
+   distribuir os pontos. Sem isso, a IA só escolhe o arquétipo mais próximo e força algumas vantagens.
+
+### Cuidados para não quebrar o motor
+- **Sempre passar por `player.gerar_personagem`.** O leitor só traduz o código para os parâmetros que a função já
+  aceita; nunca monta a ficha por fora. Assim continuam valendo todas as verificações atuais (NP mínimo, orçamento
+  de PP, itens além do dinheiro, vantagens manuais). Colar um código equivale a preencher o wizard.
+- **O código guarda o resultado dos sorteios, não só a semente.** Se guardar só a semente, qualquer mudança em
+  `dados/` (uma vantagem nova, por exemplo) muda a sequência de sorteios e o mesmo código passa a gerar outra ficha.
+  O "Copiar código" grava foco, variante, raça, divindade, vantagens e equipamento que saíram; a semente cobre só o
+  que sobrar.
+- **Sem pesos, comportamento idêntico bit a bit.** O código dos pesos não pode fazer nenhuma chamada extra ao `rng`
+  quando não há pesos, porque isso desloca todos os sorteios seguintes. Os testes atuais usam sementes fixas
+  (`random.Random(42)` etc.) e têm de passar **sem nenhum ajuste**; se um teste antigo precisar mudar, algo vazou.
+- **Peso empurra, não manda.** O peso só aumenta a chance de uma perícia ou vantagem ser escolhida. Orçamento de PP,
+  limites do NP e custos continuam os mesmos.
+- **Testes novos:** um código colado gera a mesma ficha que o wizard com as mesmas escolhas; copiar o código de uma
+  ficha e colá-lo de volta gera a ficha idêntica (ida e volta); códigos inválidos dão erro claro, nunca exceção.
+
+### Cuidados para não quebrar o conceito do personagem
+- **O núcleo da classe é intocável.** Os poderes, perícias e vantagens fixos do arquétipo e do foco entram sempre; os
+  pesos só agem sobre os pontos livres. Um "mago furtivo" continua sendo mago, com a magia de combate do foco, e
+  ganha furtividade com o que sobra.
+- **Teto para o peso.** Os pontos puxados por pesos para fora do perfil da classe têm um limite (por exemplo, uma
+  fração dos pontos livres), para o híbrido não esvaziar a função principal.
+- **Pedido incoerente vira aviso, não ficha estranha.** Se o código pede algo que a classe não pode ter (uma
+  vantagem restrita, um poder de outro arquétipo), o app avisa e sugere o arquétipo ou foco que tem aquilo, em vez
+  de gerar uma ficha que contradiz a classe.
+- **Medição de força.** Rodar a medição da versão 1.19.0 com fichas pesadas e conferir que ficam na faixa de ~0,7 a
+  ~1,3 da mediana do NP. Combina com o "Aviso de equilíbrio na ficha" das ideias novas.
+- **Documentação para a IA explica os limites.** O `.md` diz o que é fixo em cada classe e até onde os pesos vão,
+  para a IA não prometer ao usuário uma mistura que o motor não entrega.
+
+### A decidir
+- Quais campos o código aceita na primeira versão (só o que o wizard já tem, ou já com os pesos).
+- O que fazer com um código parcialmente válido: recusar ou gerar ignorando as peças erradas, com aviso.
+- Se a documentação para a IA sai num arquivo por gênero ou num arquivo único.
+- Ordem sugerida: partes 1 a 4 primeiro (já funcionam com o que o motor tem hoje), a 5 depois.
 
 ## Aventuras a serem criadas
 - **Horror moderno: Vampiro: A Máscara e Delta Green (um gênero só):** juntar os dois num mesmo gênero de horror moderno, com agentes federais (Delta Green) e vampiros (Vampiro: A Máscara), mais as aventuras de cada um. A base é a pasta `dados/generos/delta_green/` (só `PREPARACAO_GENERO.md` por enquanto) e o Cthulhu inteiro (Sanidade d100, bestiário do Mythos, escudo). Falta decidir como o lado vampírico entra: clãs e disciplinas viram arquétipos/focos com poderes, e a Fome e a Humanidade precisam de uma regra de condição própria. Seguir a regra do projeto: para a mesa não há problema usar os nomes; se o projeto virar público, nome, termos e personagens têm de ser próprios (`dados/generos/IDEIAS_DE_TEMAS.md`).
