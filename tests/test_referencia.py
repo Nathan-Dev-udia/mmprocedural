@@ -114,6 +114,7 @@ def test_rotas_levam_a_referencia():
     assert "TERMOS DE REGRA" in pj["referencia_texto"]
     paginas = PdfReader(io.BytesIO(cliente.post("/api/ficha.pdf", json={"npc": pj}).data)).pages
     assert len(paginas) > 2
-    assert "Referência" in "".join(p.extract_text() for p in paginas[2:])
+    texto_da_referencia = "".join(p.extract_text() for p in paginas[2:])
+    assert "REFERÊNCIA DO PERSONAGEM" in texto_da_referencia and pj["nome"] in texto_da_referencia
     pacote = zipfile.ZipFile(io.BytesIO(cliente.post("/api/fichas.zip", json={"npcs": [pj]}).data))
     assert "TERMOS DE REGRA" in pacote.read("todas_as_fichas.txt").decode("utf-8")

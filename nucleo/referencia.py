@@ -413,7 +413,9 @@ def montar(npc, dados, relatorio=None):
     arquetipo = (npc.get("arquetipo") or {}).get("nome", "")
     raca = (npc.get("raca") or {}).get("nome", "")
     subtitulo = " · ".join(p for p in (raca, arquetipo, f"NP {npc.get('np_pretendido')}") if p)
-    return {"titulo": f"Referência: {npc.get('nome', 'Personagem')}", "subtitulo": subtitulo, "secoes": secoes}
+    return {"titulo": f"Referência: {npc.get('nome', 'Personagem')}", "subtitulo": subtitulo, "secoes": secoes,
+            # Campos do cabeçalho da página no PDF (como os da ficha).
+            "nome": npc.get("nome", ""), "jogador": npc.get("jogador", ""), "np": npc.get("np_pretendido")}
 
 
 def texto(referencia):

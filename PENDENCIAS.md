@@ -52,6 +52,7 @@ Comparação do `referencias/dd/compendio-de-classes-e-subclasses.pdf` com o ger
 - **Referência do personagem (versão 1.18.0):** o PDF, o DOCX e o TXT terminam com o que cada vantagem, poder e item faz, o teste do alvo com as CDs, quanto custa subir uma graduação e os termos de regra citados (`nucleo/referencia.py` e `nucleo/referencia_pdf.py`). Os resumos de efeitos, modificadores e condições foram escritos para o projeto: vale uma leitura. As vantagens usam o resumo curto de `dados/comum/vantagens.json`; algumas ficam vagas (Ataque Acurado, por exemplo), e um campo de regra completa ajudaria.
 - **NP mínimo por subclasse (versão 1.19.0):** o menor NP em que todos os poderes essenciais cabem nos 35% do orçamento reservados aos poderes (`player.np_minimo`). Hoje: caçador de monstros e Círculo da Lua no NP 4; Ilusão, Adivinhação, Invocação, ferreiro de batalha e olho da rede no NP 3. `"np_minimo"` no `player.json` (classe, subclasse ou variante) pode pedir mais. A medição de força feita na mesma revisão não achou subclasse apelona: no mesmo NP, as fichas ficam entre ~0,7 e ~1,3 da mediana, conforme o papel.
 - **Nível da campanha (versão 1.19.0):** campo opcional no primeiro passo. Preenchido, trava o NP e desabilita o que não cabe; em branco, deixa tudo liberado com aviso e só avança num NP válido. Fica lembrado por gênero, e `?np=5` no endereço já abre nele.
+- **Fonte da página de referência (para revisar):** o novo visual da página (logo, cabeçalho, cartões de vantagens, quadros arredondados) usa Helvetica nos títulos e no texto. A ficha usa a fonte em quadrinhos NewsflashBB, que está embutida só em parte no modelo `dados/comum/ficha_editavel.pdf` (só os caracteres usados) e é comercial, então não dá para reaproveitar. Para ficar mais próximo do desenho, escolher uma fonte livre parecida (condensada, em caixa alta, estilo gibi, como Bangers, Anton ou Oswald, todas sob licença aberta), embutir o `.ttf` no projeto e registrá-la no reportlab para os títulos. Conferir também que ela tem os acentos do português. O campo "Identidade" do cabeçalho sai em branco, porque o gerador não tem esse dado.
 - **Aard:** a estatística diz "superada por Fortitude", mas o ataque calculado sai contra Vontade. Conferir qual dos dois está certo em `dados/generos/fantasia/powers.json`.
 - **Cyberpunk:** os implantes também custam eurobucks; numa condição financeira baixa, um implante essencial ainda pode ficar de fora no sorteio. Depende do dinheiro, não do NP.
 
@@ -141,7 +142,7 @@ nosso número se o livro tiver erro.
 **Recomendação:** o jogador escolhe entre **Nenhum**, **Animal comprado** e **Parceiro**. Capanga e Invocar ficam para as subclasses que já pedem companheiro (Mestre das Bestas, druida, familiar do mago), em que vêm automáticos no lugar de escolha.
 
 ### Opções a decidir
-1. **Onde entra no wizard.**
+1. **Onde entra nos passos de criação.**
    - (a) Passo próprio "Companheiro", opcional, depois do equipamento. **Recomendado:** não pesa nos passos que já existem e dá espaço para mostrar a ficha do bicho.
    - (b) Um campo dentro do passo da classe.
 2. **Quanto PP o Parceiro custa.**
@@ -180,7 +181,7 @@ nosso número se o livro tiver erro.
    Cadastrados: cão, cavalo, coruja e lobo (todos batem com o Guia). Faltam os outros animais da tabela e os
    derivados; o gato, o rato e o macaco pedem suporte a "Atletismo baseado em Agilidade" (vantagem Benefício), e o
    rato e o falcão têm contas do Guia que não fecham (registrar a divergência ao cadastrar).
-2. Animal comprado: escolha no wizard, desconto do dinheiro e página "Companheiro" no PDF, DOCX e TXT.
+2. Animal comprado: escolha nos passos de criação, desconto do dinheiro e página "Companheiro" no PDF, DOCX e TXT.
 3. Parceiro com PP: custo, teto e desabilitar o que não cabe.
 4. Cavalo automático no Faroeste e sorteio por arquétipo.
 5. Companheiro automático nas subclasses (Capanga ou Invocar).
@@ -210,7 +211,7 @@ Não tem custo de API para o projeto e funciona com a IA que o usuário já usa.
    `player.gerar_personagem` (arquétipo, foco, NP, vantagens manuais etc.).
 2. **Validação tolerante:** a IA vai errar IDs. O erro deve dizer o que está errado e sugerir os parecidos
    ("vantagem `ataque-furtivo` não existe; parecidas: `ataque_furtivo`"), para o usuário colar o erro de volta na IA.
-3. **Campo "Colar código" no wizard** e botão **"Copiar código"** em toda ficha gerada. O caminho inverso é útil
+3. **Campo "Colar código" nos passos de criação** e botão **"Copiar código"** em toda ficha gerada. O caminho inverso é útil
    mesmo sem IA: gerar, gostar da ficha e compartilhar o código.
 4. **Documentação gerada dos dados:** uma ferramenta em `ferramentas/` exporta um `.md` por gênero a partir de
    `dados/`, com o formato, os IDs válidos, uma linha sobre cada peça e exemplos de pedido → código. Feita à mão,
@@ -222,7 +223,7 @@ Não tem custo de API para o projeto e funciona com a IA que o usuário já usa.
 ### Cuidados para não quebrar o motor
 - **Sempre passar por `player.gerar_personagem`.** O leitor só traduz o código para os parâmetros que a função já
   aceita; nunca monta a ficha por fora. Assim continuam valendo todas as verificações atuais (NP mínimo, orçamento
-  de PP, itens além do dinheiro, vantagens manuais). Colar um código equivale a preencher o wizard.
+  de PP, itens além do dinheiro, vantagens manuais). Colar um código equivale a preencher os passos de criação.
 - **O código guarda o resultado dos sorteios, não só a semente.** Se guardar só a semente, qualquer mudança em
   `dados/` (uma vantagem nova, por exemplo) muda a sequência de sorteios e o mesmo código passa a gerar outra ficha.
   O "Copiar código" grava foco, variante, raça, divindade, vantagens e equipamento que saíram; a semente cobre só o
@@ -232,7 +233,7 @@ Não tem custo de API para o projeto e funciona com a IA que o usuário já usa.
   (`random.Random(42)` etc.) e têm de passar **sem nenhum ajuste**; se um teste antigo precisar mudar, algo vazou.
 - **Peso empurra, não manda.** O peso só aumenta a chance de uma perícia ou vantagem ser escolhida. Orçamento de PP,
   limites do NP e custos continuam os mesmos.
-- **Testes novos:** um código colado gera a mesma ficha que o wizard com as mesmas escolhas; copiar o código de uma
+- **Testes novos:** um código colado gera a mesma ficha que os passos de criação com as mesmas escolhas; copiar o código de uma
   ficha e colá-lo de volta gera a ficha idêntica (ida e volta); códigos inválidos dão erro claro, nunca exceção.
 
 ### Cuidados para não quebrar o conceito do personagem
@@ -250,7 +251,7 @@ Não tem custo de API para o projeto e funciona com a IA que o usuário já usa.
   para a IA não prometer ao usuário uma mistura que o motor não entrega.
 
 ### A decidir
-- Quais campos o código aceita na primeira versão (só o que o wizard já tem, ou já com os pesos).
+- Quais campos o código aceita na primeira versão (só o que os passos de criação já têm, ou já com os pesos).
 - O que fazer com um código parcialmente válido: recusar ou gerar ignorando as peças erradas, com aviso.
 - Se a documentação para a IA sai num arquivo por gênero ou num arquivo único.
 - Ordem sugerida: partes 1 a 4 primeiro (já funcionam com o que o motor tem hoje), a 5 depois.
