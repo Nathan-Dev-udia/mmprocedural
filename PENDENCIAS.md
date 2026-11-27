@@ -59,7 +59,7 @@ Comparação do `referencias/dd/compendio-de-classes-e-subclasses.pdf` com o ger
 ## Ideias novas (25/11/2026)
 - **Deuses de D&D:** adicionar um panteão com os deuses de D&D em `dados/generos/fantasia/divindades.json`. Atenção: a decisão da versão 1.14.0 foi usar só mitologias em domínio público. Os nomes e as descrições dos deuses de D&D são conteúdo protegido (os Reinos Esquecidos, por exemplo), então vale decidir se entram só os nomes, ou como panteão opcional e separado, antes de começar.
 - **Melhorar a folha de descrição:** a página de referência do personagem (`nucleo/referencia.py`) pode ficar mais completa, sobretudo nos itens e habilidades. Ponto de partida: as vantagens usam só o resumo curto de `vantagens.json`; um campo de regra completa ajudaria.
-- **Pets e companheiros:** o personagem pode ter um pet, e o pet ganha ficha própria no PDF, DOCX e TXT (cavalo no Faroeste e na Fantasia, entre outros). O desenho completo, com as opções a decidir, está na seção "Pets e companheiros (desenho)" logo abaixo.
+- **Pets e companheiros (etapas 1 a 6 feitas, 27/11/2026):** o personagem pode ter um pet comprado, Parceiro ou invocado por um dom, e o pet ganha ficha própria (PDF à parte; no DOCX e no TXT, depois da ficha do personagem). O que ainda falta está em "Pets: o que falta", no fim da seção "Pets e companheiros (desenho)" logo abaixo.
 - **Livro das Magias (para baixar):** um livro por gênero com magia (`fantasia_magias.md` e `escola_de_magia_magias.md`, este com os 57 feitiços), gerado dos dados em `nucleo/livros.py`, como o Livro das Classes, para acompanhar qualquer magia nova sem trabalho manual. Cada magia traz efeito e graduação, custo em PP, teste do alvo com a CD, modificadores, custo de subir uma graduação e quais classes ou subclasses a usam. Aparece junto dos outros livros no passo do gênero, nos mesmos formatos de download. A decidir: agrupar por classe, por escola ou em ordem alfabética; se entram as magias só para NPC (as Maldições Imperdoáveis); um equivalente para os implantes do Cyberpunk fica para depois.
 - **Fichas de grupo:** gerar o grupo inteiro de uma vez, com papéis que se complementam (por exemplo tanque, curandeiro, furtivo e conjurador), todos no mesmo NP da campanha, e baixar tudo junto no zip. Usa o nível da campanha que já existe. A decidir: quantos personagens (de 2 a 6), se o jogador trava alguns papéis e deixa o resto sortear, e se o grupo evita repetir classe e raça.
 - **Aviso de equilíbrio na ficha:** um alerta quando a ficha foge muito da mediana do NP (a medição da versão 1.19.0 mostrou que as subclasses ficam entre ~0,7 e ~1,3 da mediana, então o aviso pegaria só fichas fora do comum ou editadas à mão). Aproveita a medição de força que já foi feita.
@@ -69,11 +69,11 @@ Comparação do `referencias/dd/compendio-de-classes-e-subclasses.pdf` com o ger
 Desenho para o personagem ter um pet e o pet ganhar ficha própria. Partiu de uma pesquisa no NotebookLM
 (`referencias/conv.txt`), conferida contra a 3ª edição e contra o que o projeto já tem.
 
-### O que já existe no projeto
+### O que existia no projeto antes das etapas
 - **Vantagens:** Capanga (15 PP de ficha por graduação) e Parceiro (5 PP de ficha por graduação) em `dados/comum/vantagens.json`.
 - **Poder:** o perfil "Companheiro animal" (Invocar, Heroico, Movimentação Individual) em `dados/comum/poderes/perfis_de_poder.json`.
 - **Animais à venda:** pônei, cavalo de montaria, de guerra e de tração e mastim em `dados/generos/fantasia/equipment.json`; cavalo e sela no `equipment.json` do Faroeste, com itens marcados `vai_na_montaria` (a carga já pressupõe o cavalo).
-- **Fichas prontas:** cavalo de guerra, lobo, lobo atroz e urso em `dados/bestiario/fantasia/feras/`. O Faroeste não tem ficha de cavalo no bestiário.
+- **Fichas prontas:** cavalo de guerra, lobo, lobo atroz e urso em `dados/bestiario/fantasia/feras/`. O Faroeste não tem ficha de cavalo no bestiário. (Hoje as fichas dos pets ficam em `dados/comum/companheiros/`; veja a etapa 1.)
 
 ### O que corrigir na pesquisa do NotebookLM
 - *Mecha & Mangá* e *Warriors & Warlocks* são da 2ª edição, e os custos tirados deles não valem. O "Lobo, 23 PP"
@@ -152,9 +152,9 @@ nosso número se o livro tiver erro.
    - NP do pet ≤ NP do herói, e o total de PP do Parceiro menor que o do herói (Livro Básico, p. 85).
    - Teto de custo em PP do herói, por exemplo 15% a 20% do orçamento. Um cavalo de guerra de 30 PP custa 6 PP do herói, cerca de 8% no NP 5. **Decidido (etapa 3): sem teto**, só as regras do livro.
    - Animal que passa do teto aparece desabilitado com "(a partir do NP X)", como as subclasses.
-4. **Sorteio ou escolha.** O jogador escolher já está feito (etapa 2); o sorteio pelo arquétipo fica para a etapa 4.
+4. **Sorteio ou escolha.** ✔ **Feito:** o jogador escolhe (etapa 2) e o sorteio pelo arquétipo é o próprio kit (etapa 4). O mago ainda não sorteia familiar, porque ele não tem ficha.
    - O jogador escolhe ou deixa sortear pelo arquétipo: patrulheiro → lobo ou falcão; cavaleiro → cavalo de guerra; caçador de monstros → cavalo; mago → familiar; pistoleiro do Faroeste → cavalo.
-5. **Cavalo automático no Faroeste.** Fica para a etapa 4; hoje o cavalo só vem se o jogador o escolher.
+5. **Cavalo automático no Faroeste.** ✔ **Decidido (etapa 4): opção (b) com kit.** O cavalo vem no kit de quase todo arquétipo quando o dinheiro dá; o trabalhador (\$75) sai sem ele.
    - (a) Todo personagem já sai com um cavalo comprado, porque a carga `vai_na_montaria` pressupõe. **Recomendado.**
    - (b) O cavalo continua sendo só um item a comprar.
 6. **Evolução na campanha.** O Parceiro sobe comprando mais graduações (+5 PP de ficha cada). O livro explica; o gerador pode aceitar "pontos extras para o pet" no futuro.
@@ -193,6 +193,8 @@ kit não compra barda; só o jogador, em "Escolher". Falta: o Apêndice e a plan
    novos no `equipment.json`; a barda entra no cálculo da ficha do companheiro (Resistência).
 
 ### Pets por gênero (fichas a criar ou converter)
+Feitos: cão, cavalo, coruja, lobo, mula, pônei e cavalo de guerra, mais os invocados (elemental menor, defensor de
+aço e homúnculo). O que falta da lista abaixo está em "Pets: o que falta".
 - **Fantasia:** cão e mastim, falcão, coruja, gato, pantera, mula, pônei e cavalo de montaria (o cavalo de guerra, o lobo, o lobo atroz e o urso já existem). Fonte: Guia do Mestre e derivados acima.
 - **Faroeste:** cavalo de montaria, mula e cão. Fonte: Guia do Mestre, p. 223.
 - **Escola de Magia:** coruja, gato e sapo, os bichos de estimação dos alunos. Quase sempre comprados, sem PP. Fonte: Guia do Mestre (coruja e gato) e sapo derivado do rato.
@@ -200,8 +202,8 @@ kit não compra barda; só o jogador, em "Escolher". Falta: o Apêndice e a plan
 - **Cyberpunk:** cão robô ou drone, que pode ser outro tipo de companheiro (equipamento) e fica para depois.
 
 ### Saída da ficha
-- Página extra **"Companheiro"** no PDF, antes da referência do personagem, com habilidades, defesas, ataques, perícias e poderes do pet.
-- No DOCX e no TXT, uma seção igual.
+- ~~Página extra "Companheiro" no PDF~~ **Mudou na etapa 4:** cada animal sai num **PDF à parte**, com botão próprio e rota `/api/companheiro.pdf`, com habilidades, defesas, ataques, perícias e poderes do pet.
+- No DOCX e no TXT, uma seção depois da ficha do personagem.
 - A referência do personagem também explica os poderes e as vantagens do pet, e a vantagem usada (Parceiro ou Capanga).
 
 ### Ordem sugerida de implementação
@@ -279,7 +281,22 @@ kit não compra barda; só o jogador, em "Escolher". Falta: o Apêndice e a plan
    Jogador da Fantasia (14.11 Animais e companheiros), do Faroeste (11.9 Cavalos, mulas e cães), da Escola de Magia
    (12.4 Animais de estimação) e do Cthulhu (O cão do investigador, no capítulo 12): as formas de ter o bicho, a
    tabela com NP, preço e custo como Parceiro, e a regra de mesa. As regras da casa ficaram no Livro do Mestre
-   (Fantasia 9.8 e 11.6, Faroeste 5.8). O gato da Escola de Magia continua só como item.
+   (Fantasia 9.8 e 11.6, Faroeste 5.8). O gato da Escola de Magia continua só como item. O Livro do Jogador do
+   Cthulhu traz uma regra da casa nova: diante do Mythos, o Guardião pode pedir um teste de Vontade do cão, e com
+   falha ele foge.
+
+### Pets: o que falta
+- **Mastim:** o "cão (mastim)" da Fantasia usa a ficha do cão pequeno (Encolhimento 2). Falta o mastim derivado
+  (+1 For, +1 Vig, sem Encolhimento).
+- **Animais sem ficha:** cavalo de tração e camelo (Fantasia, só item); gato, falcão, pantera e sapo (o gato pede
+  "Atletismo baseado em Agilidade"; o falcão tem conta do Guia que não fecha); o familiar do mago.
+- **Bestiário:** comparar `lobo.json` e `urso.json` com o Guia, para não haver duas versões do mesmo bicho.
+- **Evolução na campanha:** o gerador ainda não aceita "pontos extras para o pet" (opção 6).
+- **Regras da casa opcionais:** truques treinados e ordem como ação livre (opção 8), ainda não escritas.
+- **Cyberpunk:** cão robô ou drone.
+- **Conferir ao baixar os livros:** se o Apêndice e a planilha de itens mostram a sela militar e as bardas.
+- **DOCX e TXT:** a ficha do animal ainda vai no mesmo arquivo do personagem; separar como no PDF, se o usuário
+  quiser.
 
 ## Código de ficha montado por IA (desenho)
 Ideia: o usuário pede, em linguagem natural, algo como "um mago de combate com foco em furtividade, misturando mago
