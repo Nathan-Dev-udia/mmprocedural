@@ -171,8 +171,8 @@ kit não compra barda; só o jogador, em "Escolher". Falta: o Apêndice e a plan
 
 **O que já existe:**
 - **Livro do Mestre da Fantasia:** 9.8 Combate montado (Cavalgar; a montaria age na iniciativa do dono e obedece
-  com Comandar; carga com Encontrão ou lança de montaria; +2 de cima contra quem está a pé), 11.6 Montarias (preço
-  sem PP; montaria leal vira Parceiro), 14.8 Forçar a montaria (galope, Fortitude, falhas), comida da montaria,
+  com Comandar; carga com Encontrão ou lança de montaria; +2 de cima contra quem está a pé), 11.6 Montarias e companheiros
+  (preço sem PP; o passo Companheiro e a tabela dos quatro pets; montaria leal vira Parceiro), 14.8 Forçar a montaria (galope, Fortitude, falhas), comida da montaria,
   carga (sela e alforjes no animal) e estábulo.
 - **Livro do Mestre do Faroeste:** Cavalgar (não Veículos), forçar o galope, carga (sela, alforjes e coldre de rifle
   no animal), estábulo e veterinário.

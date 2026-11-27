@@ -1009,7 +1009,7 @@ Alguns exemplos (o **Apêndice** traz a lista completa com preços):
 - **Lupa** (100 po, +2 em Investigação), **Aríete portátil** (4 po, +2 em Força para arrombar), **Gancho de escalada** (2 po), **Lanterna furta-fogo** (10 po), **Estrepes** e **esferas de metal** (1 po cada), **Cadeado** (10 po), **Espelho de aço** (5 po).
 - **Poção de cura** (50 po), **Antitoxina** (50 po, +5 em Fortitude contra veneno por uma hora), **Veneno básico** (100 po). **Bombas** arremessadas, de 45 a 90 po: Samum (clarão que cega), Estilhaços, Cola, Estrela Dançante (fogo), Gás do Dragão (veneno), Vento do Norte (gelo), Pó Lunar (contra licantropos) e Pó Espectral (deixa espíritos sólidos); a lista com os efeitos está na planilha Poções e Alquimia. **Água benta** (25 po).
 - **Ferramentas de ofício:** suprimentos de alquimista, kits de envenenador e de falsificação, ferramentas de ferreiro, carpinteiro, cartógrafo, joalheiro e navegador, jogos e instrumentos.
-- **Montarias e veículos:** pônei (30 po), burro (8 po), cavalo de montaria (75 po), cavalo de guerra (400 po), sela (10 po), sela militar (20 po), alforjes (4 po), barda para a montaria (de couro 40 po, de cota de malha 300 po, de placas 6.000 po), carroça (35 po), barco a remo (50 po).
+- **Montarias e veículos:** pônei (30 po), burro (8 po), cavalo de montaria (75 po), cavalo de guerra (400 po), mastim (25 po, cão de guarda e de caça), sela (10 po), sela militar (20 po), alforjes (4 po), barda para a montaria (de couro 40 po, de cota de malha 300 po, de placas 6.000 po), carroça (35 po), barco a remo (50 po).
 
 A **planilha de itens** do site traz o catálogo inteiro do gerador, com preço, efeito e o conteúdo de cada kit.
 
@@ -1068,6 +1068,7 @@ O site tem um construtor passo a passo de ficha de jogador. Escolha **Fantasia m
 | **Vantagens** | **Sortear de acordo com a classe** (as essenciais, mais 0 a 2 opcionais) ou **Escolher** (as da classe já vêm marcadas; o gerador só sobe graduações das que você marcar). |
 | **Magias e dons** | Sortear ou Escolher. Cada magia mostra o custo em PP no seu NP, e o contador já faz a conta do arranjo e das falhas. |
 | **Armas e itens** | Sortear (arma principal, talvez uma secundária, a munição, as rações, os itens essenciais e alguns opcionais) ou Escolher, com as sugestões da classe no topo e um contador de dinheiro. Armas que não cabem no NP ficam de fora. |
+| **Companheiro** | Opcional: compre um cão (mastim) ou um cavalo de montaria com o dinheiro que sobrou. Custa 0 PP, o mestre controla o animal e a ficha dele sai numa página à parte. |
 | **Complicações** | Escolha a Motivação e pelo menos mais uma complicação, ou clique em **Sortear complicações**. As fixas (como a do caçador de monstros) entram sempre. |
 | **Ficha** | Clique em **Gerar ficha**. Não gostou? **Gerar outra versão** refaz a distribuição com as mesmas escolhas. |
 

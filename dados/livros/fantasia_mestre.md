@@ -214,7 +214,7 @@ Este é o capítulo mais importante para quem chega do D&D. A ficha de um guerre
 | Testes contra a morte | **Moribundo** | Fortitude CD 15 a cada rodada; três graus de falha somados matam (seção 10.3). |
 | Experiência (XP) | **1 PP por aventura** | 15 PP acumulados sobem o NP em 1 (seção 4.8). |
 | Nível de desafio (ND) | **NP do NPC comparado ao dos PJs** | Um vilão 2 NP acima é cerca de duas vezes mais perigoso (seção 13.9). |
-| Sintonização de itens mágicos | **Itens pagos com PP** | Item mágico permanente é um poder com a falha Removível (seção 11.8). |
+| Sintonização de itens mágicos | **Itens pagos com PP** | Item mágico permanente é um poder com a falha Removível (seção 11.7). |
 
 ### 3.2 A grande diferença: não existe "gastar vida"
 
@@ -393,7 +393,7 @@ No D&D, o mago "aprende" magias ao subir de nível. No M&M, o jogador gasta PP: 
 
 ### 4.9 Equipamento: dinheiro, não pontos [Guia do Mestre + Casa]
 
-O gênero usa a regra de **equipamento gratuito** do Guia do Mestre: armas, armaduras e itens comuns custam **peças de ouro**, não pontos de poder. O personagem tem o que pode pagar com o dinheiro da sua condição financeira (capítulo 12). Itens únicos e mágicos, que fazem mais do que um item comum, continuam custando PP (seção 11.8).
+O gênero usa a regra de **equipamento gratuito** do Guia do Mestre: armas, armaduras e itens comuns custam **peças de ouro**, não pontos de poder. O personagem tem o que pode pagar com o dinheiro da sua condição financeira (capítulo 12). Itens únicos e mágicos, que fazem mais do que um item comum, continuam custando PP (seção 11.7).
 
 Os **NPCs** gerados pagam o equipamento com a vantagem **Equipamento** (5 pontos de equipamento por graduação), como as fichas do livro. Por isso um goblin aparece com "Equipamento 3" na lista de vantagens.
 
@@ -893,7 +893,7 @@ Os preços são conversões econômicas do gênero e não determinam a Proteçã
 - **Montar** usa **Especialidade: Cavalgar** (com Agilidade). Ficar na sela depois de um golpe forte ou de um salto: CD 10 a 20.
 - **Sem sela:** –2 em Cavalgar (montar em pelo). A **sela militar** (20 po) dá +2 em Cavalgar para não cair da montaria.
 - **Montar e desmontar:** ação de movimento. Com Cavalgar CD 15, vira ação livre (saltar para a sela).
-- **A montaria é um personagem:** use o arquétipo **Cavalo** do bestiário (NP 3) ou o tipo **Cavalo de guerra** (a partir do NP 4). Ela age na sua iniciativa e obedece com uma ação de movimento (Comandar). O gerador imprime a ficha numa página à parte quando o jogador escolhe o animal no passo **Companheiro**.
+- **A montaria é um personagem:** use o arquétipo **Cavalo** do bestiário (NP 3) ou o tipo **Cavalo de guerra** (a partir do NP 4). Ela age na sua iniciativa e obedece com uma ação de movimento (Comandar). O gerador imprime a ficha do Cavalo (NP 3) numa página à parte quando o jogador compra o cavalo de montaria no passo **Companheiro** (seção 11.6). O cavalo de guerra, o pônei e o burro comprados em **Armas e itens** não ganham página: use o bestiário.
 - **Animal sem treino de combate** (cavalo de montaria, pônei, burro, mula): no turno em que há luta perto, o cavaleiro faz Cavalgar CD 10 (ação livre); se falhar, o animal não obedece nesse turno (empina ou recua). Cavalo de guerra não testa.
 - **Atacar a montaria:** os inimigos podem mirar no animal, que usa as defesas da própria ficha. Montaria incapacitada derruba o cavaleiro: Cavalgar ou Acrobacia CD 15 para saltar a tempo; se falhar, fica caído e sofre Dano 2 (como na seção 14.8).
 - **Barda:** a armadura da montaria. Dá ao animal a Proteção da armadura equivalente e soma na Resistência dele, não na do cavaleiro. Custa 4 vezes e pesa 2 vezes a armadura (regra do Livro do Jogador): barda de couro (Proteção 1, 40 po, 10 kg), de cota de malha (Proteção 3, 300 po, 55 kg) e de placas (Proteção 6, 6.000 po, 65 kg). O peso vai no animal. A barda pode levar a montaria acima do limite do NP dela; como o mestre controla o animal, leve isso em conta nos encontros. Na ficha do gerador, a barda comprada já aparece somada na página do companheiro.
@@ -906,7 +906,7 @@ Muitos monstros do D&D têm resistências e vulnerabilidades. Em M&M:
 
 - **Resistência a um tipo de dano** vira **Imunidade** àquele descritor limitada a metade do efeito, ou Proteção que só vale contra ele (veja o efeito Imunidade no livro básico para o custo).
 - **Imunidade a um tipo de dano** vira **Imunidade** ao descritor.
-- **"Só armas de prata ou mágicas ferem"** vira Imunidade a dano de armas comuns. A **espada de prata** (seção 11.6) passa por ela.
+- **"Só armas de prata ou mágicas ferem"** vira Imunidade a dano de armas comuns. A **espada de prata** (seção 11.4) passa por ela.
 - **Vulnerabilidade** vira uma **complicação** do monstro. Sugestão [Casa]: quando os heróis acertam a fraqueza, o efeito ganha +5 na CD, como num crítico. O goblin quebra-gelo do Goblestiário, por exemplo, é vulnerável a dano trovejante; o gerador não registra isso na ficha, então o mestre aplica a regra na hora.
 
 ### 9.10 Áreas e Esquiva [Básico]
@@ -1057,9 +1057,22 @@ Alguns itens do gênero não existem no Livro do Jogador e têm **preço estimad
 
 Quando precisar dar preço a um item novo, compare com o item mais parecido do Livro do Jogador e marque o preço como estimado.
 
-### 11.6 Montarias
+### 11.6 Montarias e companheiros [Casa]
 
-Pônei (30 po), cavalo de montaria (75 po), cavalo de guerra (400 po), sela (10 po), sela militar (20 po), alforjes (4 po) e as bardas (40 a 6.000 po, seção 9.8) estão no equipamento com preço, mas **sem custo em pontos**: no jogo, a montaria é um NPC (use o arquétipo Cavalo). Se o jogador quiser uma montaria leal que evolui com ele, ela vira a vantagem **Parceiro** (5 PP por graduação), como o lobo do montador goblin e o companheiro animal do patrulheiro.
+Pônei (30 po), burro (8 po), cavalo de montaria (75 po), cavalo de guerra (400 po), mastim (25 po), sela (10 po), sela militar (20 po), alforjes (4 po) e as bardas (40 a 6.000 po, seção 9.8) estão no equipamento com preço, mas **sem custo em pontos**: no jogo, o animal comprado é um NPC que o mestre controla.
+
+**O passo Companheiro.** Depois de **Armas e itens**, o gerador oferece os animais à venda no gênero que têm ficha pronta: na Fantasia, o **cão** (comprado como mastim, 25 po) e o **cavalo** (cavalo de montaria, 75 po). O animal é o primeiro item pago, sai do dinheiro e custa 0 PP; o que não cabe no dinheiro aparece desabilitado. A ficha dele sai numa página à parte no PDF (e numa seção no DOCX e no TXT), calculada a partir das fichas do Guia do Mestre de Jogo:
+
+| Animal | NP | PP de ficha | Destaques |
+|----|----|----|----|
+| Cão | 2 | 10 | Mordida +2 (Dano 1); Faro Aguçado, Rastrear, Ultra-audição; Encolhimento 2. |
+| Cavalo | 3 | 9 | Cascos +2 (Dano 4); Crescimento 4; Velocidade 4 (60 km/h); Fortitude 5. |
+| Coruja | 2 | 19 | Voo 3 silencioso, Ultravisão, Furtividade +12. Sem compra na Fantasia (é o bicho da Escola de Magia); use como familiar. |
+| Lobo | 3 | 23 | Mordida +3 (Dano 2), Derrubar Aprimorado, Faro Aguçado. Não se compra: é o companheiro de um Parceiro ou um NPC. |
+
+A **barda** comprada pelo dono soma na Resistência do cavalo (não na do cavaleiro) e já aparece na página do companheiro. A sela, os alforjes e o que vai neles também ficam no animal (seção 14.10).
+
+**Animal comprado, Parceiro ou dom de classe.** O animal comprado obedece ao dono com Comandar, mas não evolui. Se o jogador quiser um companheiro leal que cresce com ele, o animal vira a vantagem **Parceiro** (5 PP de ficha por graduação: cão 2 graduações, cavalo 2, lobo 5), como o lobo do montador goblin. O gerador ainda não vende o Parceiro no passo Companheiro; anote à mão. O **Companheiro animal** do patrulheiro Mestre das feras é outra coisa: um dom da classe, pago com PP, que não passa por este passo.
 
 ### 11.7 Itens mágicos [Básico + Casa]
 

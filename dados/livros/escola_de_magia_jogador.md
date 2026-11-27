@@ -203,7 +203,7 @@ Pontos heroicos não acumulam de uma sessão para a outra.
 1. Escolha o **Ano Escolar / Nível de Poder (NP)** da campanha (padrão: **NP 2**, 30 PP, para alunos do 1º ou 2º ano). No site, o campo opcional **Nível da campanha**, no primeiro passo, faz todas as fichas da turma saírem no mesmo NP; o endereço do site com `?np=2` no fim já abre com ele preenchido.
 2. Escolha a sua **Casa** (Grifinória, Corvinal, Lufa-Lufa, Sonserina ou Sem Casa para adultos), que custa **2 PP** do orçamento e dá uma vantagem e +2 numa perícia temática.
 3. Escolha o seu **Perfil** (*Estudante* ou *Bruxo formado*) e a sua **Especialização** (*Duelista*, *Estudioso*, *Encrenqueiro / Explorador*, *Herbologista / Curandeiro*, *Jogador de Quadribol*, *Auror*, *Curandeiro* ou *Professor / Pesquisador*).
-4. Escolha a sua **Condição Financeira** (que define quantos Galeões iniciais você tem para comprar material, poções, vassoura e animal de estimação).
+4. Escolha a sua **Condição Financeira** (que define quantos Galeões iniciais você tem para comprar material, poções, vassoura e animal de estimação). No site, a coruja se compra no passo **Companheiro**: custa 15 G e 0 PP, e a ficha dela (NP 2) sai numa página à parte.
 5. Escolha os seus **Feitiços iniciais** dentro do **Arranjo Varinha**.
 6. Defina sua **Motivação**, pelo menos uma **Complicação** e preencha o seu **Mapa de Relacionamentos** (seção 11).
 

@@ -957,6 +957,7 @@ O site tem um montador de fichas **passo a passo** que aplica as regras deste li
 | **Arquétipo** | Escolha o arquétipo, o **foco**, o **NP** (de 2 a 10; o padrão é 6; travado no nível da campanha, se você preencheu) e a **condição financeira**. |
 | **Vantagens** | **Sortear de acordo com o arquétipo** (as essenciais do arquétipo e do foco, mais 0 a 2 opcionais) ou **Escolher** (as do arquétipo já vêm marcadas; o gerador só sobe graduações das que você marcar). |
 | **Armas e itens** | **Sortear** ou **Escolher**, com as sugestões do arquétipo no topo, um contador de dinheiro e o número de lotes de comida, bebida e munição. |
+| **Companheiro** | Opcional: compre um cavalo com o dinheiro que sobrou. Custa 0 PP, o mestre controla o animal e a ficha dele (NP 3) sai numa página à parte. |
 | **Complicações** | Escolha a Motivação e pelo menos mais uma complicação, ou clique em **Sortear complicações**. |
 | **Ficha** | Clique em **Gerar ficha**. Não gostou? **Gerar outra versão** refaz o sorteio com as mesmas escolhas. |
 
