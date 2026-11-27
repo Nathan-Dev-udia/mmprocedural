@@ -150,7 +150,7 @@ nosso número se o livro tiver erro.
    - (b) O jogador escolhe a graduação e o gerador monta o melhor animal que cabe.
 3. **Limite para não ficar apelão.** Só vale para o Parceiro (etapa 3); o animal comprado não tem limite de NP, porque o mestre o controla e a ficha é fixa.
    - NP do pet ≤ NP do herói, e o total de PP do Parceiro menor que o do herói (Livro Básico, p. 85).
-   - Teto de custo em PP do herói, por exemplo 15% a 20% do orçamento. Um cavalo de guerra de 30 PP custa 6 PP do herói, cerca de 8% no NP 5.
+   - Teto de custo em PP do herói, por exemplo 15% a 20% do orçamento. Um cavalo de guerra de 30 PP custa 6 PP do herói, cerca de 8% no NP 5. **Decidido (etapa 3): sem teto**, só as regras do livro.
    - Animal que passa do teto aparece desabilitado com "(a partir do NP X)", como as subclasses.
 4. **Sorteio ou escolha.** O jogador escolher já está feito (etapa 2); o sorteio pelo arquétipo fica para a etapa 4.
    - O jogador escolhe ou deixa sortear pelo arquétipo: patrulheiro → lobo ou falcão; cavaleiro → cavalo de guerra; caçador de monstros → cavalo; mago → familiar; pistoleiro do Faroeste → cavalo.
@@ -238,15 +238,48 @@ kit não compra barda; só o jogador, em "Escolher". Falta: o Apêndice e a plan
    - **Carga (decidido):** a regra do motor fica. Sela e alforjes vão no animal; o resto só passa para a montaria se
      o personagem estourar a carga leve, o que no sorteio quase nunca acontece (o kit respeita a carga). Só aparece
      quando o jogador marca itens a mais em "Escolher".
-   - **Cavalo do kit sem página:** no Faroeste, 36 de 42 PJs de classe média já compram o cavalo pelo kit do
-     arquétipo (item essencial), mas sem a página do companheiro. Resolver na etapa 4 (ligar o cavalo do kit ao
-     companheiro).
+   - **Cavalo do kit sem página (resolvido na etapa 4).**
    - **Testes de tela:** a tela foi conferida à mão num navegador; não há teste automático de interface no projeto.
    - **Regras de montaria e acessórios (feito):** ver "Montaria: regras e acessórios" abaixo.
-3. Parceiro com PP: custo, teto e desabilitar o que não cabe.
-4. Cavalo automático no Faroeste e sorteio por arquétipo.
-5. Companheiro automático nas subclasses (Capanga ou Invocar).
-6. Livros: seção de pets no Livro do Jogador de cada gênero e as regras da casa no Livro do Mestre.
+3. Parceiro com PP: custo, teto e desabilitar o que não cabe. **Feito (27/11/2026):** segunda lista no passo
+   Companheiro com todos os animais do gênero (`companheiros.parceiros`), inclusive os que não se compram (lobo,
+   coruja na Fantasia; cão no Cthulhu). Só as regras do Livro Básico (vantagem Parceiro, p. 85-86): graduação = PP
+   de ficha ÷ 5 (para cima), o animal respeita o NP do personagem (acima dele fica desabilitado, "a partir do NP
+   X") e tem menos PP que o herói. **Decidido: sem teto da casa** (o 15% a 20% do desenho): o PP sai do orçamento
+   do herói, que fica mais fraco na mesma medida, e o animal mais caro (lobo, 5 PP) é 7% do NP 5 e 17% do NP 2.
+   A graduação fica fixa (o gerador não a sobe), entra no contador de PP da tela e a ficha do parceiro sai no PDF
+   próprio ("_parceiro" no nome quando o mesmo animal também foi comprado). Testado num Chrome sem janela.
+4. Cavalo automático no Faroeste e sorteio por arquétipo. **Feito (27/11/2026):** todo animal com ficha que acaba
+   no equipamento ganha a página, venha do passo Companheiro, do kit do arquétipo ou de "Escolher"
+   (`companheiros.do_equipamento`, `player._fichas_dos_animais`). O sorteio por arquétipo é o próprio kit: cavaleiro,
+   paladino e patrulheiro (Fantasia), pistoleiro, caçador, xerife, fora-da-lei, médico e veterano (Faroeste) e o
+   estudante (coruja, Escola de Magia) já compram o animal. A ficha passa a ter `companheiros` (lista; o servidor
+   ainda aceita o `companheiro` antigo), com uma página por animal: o cão escolhido mais o cavalo do kit dão duas.
+   A barda só vai em companheiro com `"montaria": true` (o cavalo), não no cão. **Decidido:** o Faroeste não força
+   o cavalo para todos, porque o trabalhador (\$75) não paga um cavalo de \$150 (a escolha "cavalo ou o resto" da
+   decisão de preços). **Também feito:** a ficha do animal saiu da ficha do personagem e virou um **PDF à
+   parte**, um por animal, com botão próprio no cartão ("Baixar PDF do cavalo") e rota `/api/companheiro.pdf`; o zip
+   leva os dois PDFs. No DOCX e no TXT, a ficha do animal continua depois da do personagem. Fichas novas, derivadas
+   do Cavalo do Guia (p. 223) e marcadas como regra da casa (bloco `esperado` no lugar de `livro`): **cavalo de
+   guerra** (NP 4, 14 PP: Luta 4 e Destemido, como o tipo do gerador de NPCs), **pônei** (NP 2, 2 PP: Crescimento
+   2, Velocidade 3) e **mula** (NP 3, 9 PP: +1 For de cavalo de carga, Luta 1 para caber no NP, Velocidade 3; é o
+   "burro ou mula" da Fantasia e a mula do Faroeste). O `cavalo_guerra.json` do bestiário foi refeito com a mesma
+   ficha (saiu o "Atropelar"). Testado num Chrome sem janela: o botão aparece e baixa o PDF de uma página.
+   **Ainda sem ficha:** cavalo de tração e camelo (Fantasia), que saem só como item.
+5. Companheiro automático nas subclasses (Capanga ou Invocar). **Feito (27/11/2026):** os dons de Invocar da
+   Fantasia ganharam o campo `"companheiros"` no `powers.json` e a ficha da criatura sai sozinha, num PDF à parte
+   ("_invocado" no nome): Companheiro animal → lobo (cão no NP 2), Invocar elemental → Elemental menor,
+   Defensor de aço → Defensor de aço, Servo homúnculo → Homúnculo (`companheiros.invocado_do_poder`: a primeira
+   da lista que cabe no NP do dono e nos 15 PP por graduação do Invocar). As três criaturas novas são da casa
+   (`"invocado": true`, fora da lista de Parceiro). Nada muda no custo do herói: o dom já era pago (Invocar 2,
+   Heroico = 6 PP para 30 PP de criatura, o mesmo preço do Parceiro). Cada ficha de companheiro agora traz a
+   regra de mesa da forma de posse (comprado, Parceiro ou Invocar: ação padrão, tonto, some incapacitado).
+   **Não feito:** o Capanga (nenhuma subclasse pede) e o druida (a Forma selvagem é Morfar, não criatura).
+6. Livros: seção de pets no Livro do Jogador de cada gênero e as regras da casa no Livro do Mestre. **Feito (27/11/2026):** Livro do
+   Jogador da Fantasia (14.11 Animais e companheiros), do Faroeste (11.9 Cavalos, mulas e cães), da Escola de Magia
+   (12.4 Animais de estimação) e do Cthulhu (O cão do investigador, no capítulo 12): as formas de ter o bicho, a
+   tabela com NP, preço e custo como Parceiro, e a regra de mesa. As regras da casa ficaram no Livro do Mestre
+   (Fantasia 9.8 e 11.6, Faroeste 5.8). O gato da Escola de Magia continua só como item.
 
 ## Código de ficha montado por IA (desenho)
 Ideia: o usuário pede, em linguagem natural, algo como "um mago de combate com foco em furtividade, misturando mago

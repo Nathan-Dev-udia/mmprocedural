@@ -151,8 +151,17 @@ function textoComReferencia(ficha) {
   return `${ficha.texto}\n\n${"=".repeat(60)}\n\n${ficha.referencia_texto}`;
 }
 
-function acaoDeArquivo(acao, ficha) {
+// Comprado (passo Companheiro, kit ou Escolher), parceiro (vantagem) ou invocado (poder de Invocar).
+const tipoDoCompanheiro = (c) => ({ parceiro: "parceiro", poder: "invocado" })[c.origem] || "comprado";
+
+function acaoDeArquivo(acao, ficha, animal = "", tipo = "comprado") {
   const base = nomeDeArquivo(ficha.nome);
+  if (acao === "pdf-companheiro") {
+    const c = (ficha.companheiros || []).find((x) => x.id === animal && tipoDoCompanheiro(x) === tipo);
+    if (c) baixarDoServidor("/api/companheiro.pdf", { npc: ficha, id: c.id, tipo },
+      `${base}_${nomeDeArquivo(c.nome)}${tipo === "comprado" ? "" : `_${tipo}`}.pdf`,
+      `Preparando a ficha do ${c.nome.toLowerCase()} em PDF…`);
+  }
   if (acao === "docx") baixarDoServidor("/api/ficha.docx", { npc: ficha }, `${base}.docx`, "Preparando a ficha em DOCX…");
   if (acao === "pdf") baixarDoServidor("/api/ficha.pdf", { npc: ficha }, `${base}.pdf`, "Preparando a ficha em PDF…");
   if (acao === "txt") salvarArquivo(new Blob([textoComReferencia(ficha)], { type: "text/plain;charset=utf-8" }), `${base}.txt`);
@@ -209,7 +218,7 @@ function cartao(ficha, { regerar = false, aberto = false } = {}) {
       <p><strong>Equipamento:</strong> ${escapar(e.equipamento.join(", ") || "nenhum")}</p>
       ${e.carga ? `<p><strong>Carga:</strong> <span class="carga-badge ${escapar(e.carga_dados?.categoria || '')}">${escapar(e.carga)}</span></p>` : ""}
       ${e.dinheiro ? `<p><strong>Dinheiro:</strong> ${escapar(e.dinheiro)}</p>` : ""}
-      ${ficha.companheiro ? `<p><strong>Companheiro:</strong> ${escapar(ficha.companheiro.nome)} (NP ${ficha.companheiro.np}, ${escapar(ficha.companheiro.posse.toLowerCase())}, ${ficha.companheiro.custo_pp} PP). A ficha dele vai numa página à parte do PDF, do DOCX e do TXT.</p>` : ""}
+      ${ficha.companheiros?.length ? `<p><strong>${ficha.companheiros.length > 1 ? "Companheiros" : "Companheiro"}:</strong> ${ficha.companheiros.map((c) => `${escapar(c.nome)} (NP ${c.np}, ${escapar(c.posse.toLowerCase())}${c.origem === "equipamento" ? ", veio com os itens" : ""}, ${c.custo_pp} PP)`).join("; ")}. ${ficha.companheiros.length > 1 ? "Cada um tem" : "Ele tem"} um PDF próprio (botão abaixo); no DOCX e no TXT, a ficha vem depois da do personagem.</p>` : ""}
       ${!e.dinheiro && ficha.pontos_de_equipamento ? `<p class="discreto">${escapar(e.pontos_equipamento)}</p>` : ""}
       ${e.de_fora ? `<p class="aviso-texto"><strong>Ficou de fora:</strong> ${escapar(e.de_fora)}</p>` : ""}
       <p><strong>Custo:</strong> ${escapar(e.totais)}</p>
@@ -239,6 +248,7 @@ function cartao(ficha, { regerar = false, aberto = false } = {}) {
 
     <footer>
       ${opcoes.pdf_disponivel ? "<button type='button' class='botao pequeno destaque' data-acao='pdf'>Baixar PDF (ficha editável)</button>" : ""}
+      ${(ficha.companheiros || []).map((c) => `<button type="button" class="botao pequeno destaque" data-acao="pdf-companheiro" data-animal="${escapar(c.id)}" data-tipo="${tipoDoCompanheiro(c)}">Baixar PDF do ${escapar(c.nome.toLowerCase())}${tipoDoCompanheiro(c) === "comprado" ? "" : ` (${tipoDoCompanheiro(c)})`}</button>`).join("")}
       <button type="button" class="botao pequeno ${opcoes.pdf_disponivel ? "" : "destaque"}" data-acao="docx">Baixar DOCX</button>
       <button type="button" class="botao pequeno" data-acao="txt">Baixar TXT</button>
       <button type="button" class="botao pequeno" data-acao="copiar">Copiar texto</button>
@@ -317,7 +327,7 @@ function prepararAbaNpc() {
     if (!botao) return;
     const npc = estado.npc.npcs.find((n) => n.uid === botao.closest(".cartao").dataset.uid);
     if (botao.dataset.acao === "regerar") regerarUm(npc.uid);
-    else acaoDeArquivo(botao.dataset.acao, npc);
+    else acaoDeArquivo(botao.dataset.acao, npc, botao.dataset.animal, botao.dataset.tipo);
   });
 }
 
@@ -437,6 +447,10 @@ const emPontos = () => pj().equipamento_modo === "pontos";
 const temImplantes = () => pj().implantes.length > 0;
 const temRacas = () => pj().racas.length > 0;
 const temCompanheiros = () => pj().companheiros.length > 0;
+const temParceiros = () => (pj().parceiros || []).length > 0;
+const temPassoCompanheiro = () => temCompanheiros() || temParceiros();
+const parceiroEscolhido = () => document.querySelector('input[name="pj-parceiro"]:checked')?.value || "";
+const custoDoParceiro = () => (pj().parceiros || []).find((p) => p.id === parceiroEscolhido())?.graduacao || 0;
 const companheiroEscolhido = () => document.querySelector('input[name="pj-companheiro"]:checked')?.value || "";
 const racaPj = () => pj().racas.find((r) => r.id === el("pj-raca").value) || pj().racas[0];
 const npPj = () => Number(el("pj-np").value);
@@ -527,6 +541,10 @@ function atualizarContadorDeVantagens() {
   if (custoDaRaca()) {
     partes.push(`${custoDaRaca()} PP em traços de ${racaPj().nome.toLowerCase()}`);
     gasto += custoDaRaca();
+  }
+  if (custoDoParceiro()) {
+    partes.push(`${custoDoParceiro()} PP no Parceiro`);
+    gasto += custoDoParceiro();
   }
   if (emPontos() && modo("pj-equipamento-modo") === "manual") {
     const equipamento = graduacoesDeEquipamento(totalDosItens());
@@ -639,14 +657,38 @@ function desenharCompanheiros() {
   const opcao = (id, rotulo, detalhe, dica, marcado) => `<label class="opcao" title="${escapar(dica)}">
     <input type="radio" name="pj-companheiro" value="${escapar(id)}" ${marcado ? "checked" : ""}>
     <span>${escapar(rotulo)}</span>${detalhe ? `<small>${escapar(detalhe)}</small>` : ""}</label>`;
-  el("pj-companheiro-lista").innerHTML = opcao("", "Nenhum", "", "", true) + pj().companheiros
+  el("pj-companheiro-lista").innerHTML = opcao("", "Nenhum", "só o que vier com os itens", "", true) + pj().companheiros
     .map((c) => opcao(c.id, c.nome, `NP ${c.np} · ${dolares(c.preco)}`, c.descricao, false)).join("");
+  el("pj-bloco-compra-animal").hidden = !temCompanheiros();
+  el("pj-bloco-parceiro").hidden = !temParceiros();
+  const parceiro = (id, rotulo, dica, detalhe) => `<label class="opcao" title="${escapar(dica)}">
+    <input type="radio" name="pj-parceiro" value="${escapar(id)}" ${id ? "" : "checked"}>
+    <span>${escapar(rotulo)}</span>${detalhe ? `<small>${escapar(detalhe)}</small>` : ""}</label>`;
+  el("pj-parceiro-lista").innerHTML = parceiro("", "Nenhum", "", "") +
+    (pj().parceiros || []).map((p) => parceiro(p.id, p.nome, p.descricao, textoDoParceiro(p))).join("");
   atualizarCompanheiros();
+}
+
+const textoDoParceiro = (p) => `NP ${p.np} · ${p.total_pp} PP de ficha · Parceiro ${p.graduacao} = ${p.graduacao} PP`;
+
+// O Parceiro precisa caber no NP do personagem (livro básico, vantagem Parceiro).
+function atualizarParceiros() {
+  if (!temParceiros()) return;
+  const np = Number(el("pj-np").value);
+  document.querySelectorAll('input[name="pj-parceiro"]').forEach((radio) => {
+    const p = pj().parceiros.find((x) => x.id === radio.value);
+    if (!p) return;
+    radio.disabled = p.np > np;
+    if (radio.disabled && radio.checked) document.querySelector('input[name="pj-parceiro"][value=""]').checked = true;
+    radio.closest("label").querySelector("small").textContent =
+      textoDoParceiro(p) + (p.np > np ? ` · a partir do NP ${p.np}` : "");
+  });
 }
 
 // Quanto sobra depois do animal. No sorteio de equipamento, o animal que não cabe no dinheiro fica desabilitado;
 // em "Escolher", ele entra na conta da compra (e o excesso segue a regra de dívida ou pontos).
 function atualizarCompanheiros() {
+  atualizarParceiros();
   if (!temCompanheiros() || emPontos()) return;
   const dinheiro = riquezaPj().dinheiro;
   const manual = modo("pj-equipamento-modo") === "manual";
@@ -788,7 +830,7 @@ function prepararAbaJogador() {
   document.querySelectorAll("[data-rotulo-foco]").forEach((e) => { e.textContent = pj().rotulo_foco; });
   el("pj-passo-raca-aba").hidden = !temRacas();
   if (temRacas()) el("pj-raca").innerHTML = opcoesDeSelect(pj().racas);
-  el("pj-passo-companheiro-aba").hidden = !temCompanheiros();
+  el("pj-passo-companheiro-aba").hidden = !temPassoCompanheiro();
   desenharCompanheiros();
 
   const atualizarRaca = () => {
@@ -955,6 +997,7 @@ function prepararAbaJogador() {
   el("pj-vantagens-grupos").addEventListener("change", atualizarContadorDeVantagens);
   el("pj-equipamento-grupos").addEventListener("change", atualizarContadorDeEquipamento);
   el("pj-companheiro-lista").addEventListener("change", atualizarContadorDeEquipamento);
+  el("pj-parceiro-lista").addEventListener("change", atualizarContadorDeVantagens);
   // Mexer na quantidade já marca o item.
   el("pj-equipamento-grupos").addEventListener("input", (evento) => {
     const id = evento.target.dataset.quantidade;
@@ -1012,6 +1055,7 @@ function prepararAbaJogador() {
       vantagens: modo("pj-vantagens-modo") === "manual"
         ? { modo: "manual", nomes: marcados("pj-vantagem") } : { modo: "auto" },
       companheiro: temCompanheiros() ? companheiroEscolhido() : "",
+      parceiro: temParceiros() ? parceiroEscolhido() : "",
       equipamento: modo("pj-equipamento-modo") === "manual"
         ? { modo: "manual", ids: marcados("pj-item"), excesso: modo("pj-excesso"),
             quantidades: Object.fromEntries(marcados("pj-item").filter((id) => quantidadeDe(id) > 1)
@@ -1025,7 +1069,7 @@ function prepararAbaJogador() {
 
   el("cartao-pj").addEventListener("click", (evento) => {
     const botao = evento.target.closest("button[data-acao]");
-    if (botao) acaoDeArquivo(botao.dataset.acao, estado.pj.personagem);
+    if (botao) acaoDeArquivo(botao.dataset.acao, estado.pj.personagem, botao.dataset.animal, botao.dataset.tipo);
   });
 }
 
@@ -1046,7 +1090,7 @@ async function gerarPersonagem(parametros) {
 const PASSOS = ["genero", "identidade", "raca", "arquetipo", "vantagens", "implantes", "equipamento", "companheiro",
   "complicacoes", "ficha"];
 const passosAtivos = () => PASSOS.filter((p) => (p !== "implantes" || temImplantes()) && (p !== "raca" || temRacas())
-  && (p !== "companheiro" || temCompanheiros()));
+  && (p !== "companheiro" || temPassoCompanheiro()));
 let passoAtual = "genero";
 
 // Campos obrigatórios de um passo que ainda estão vazios (a divindade do clérigo) ou fora do permitido (o NP abaixo
@@ -1124,8 +1168,10 @@ function desenharResumo() {
     ["vantagens", "Vantagens", escolha("pj-vantagens-modo", "pj-vantagem", "escolhidas")],
     temImplantes() && ["implantes", pj().rotulo_poderes, escolha("pj-implantes-modo", "pj-implante", "escolhidos")],
     ["equipamento", "Armas e itens", equipamento],
-    temCompanheiros() && ["companheiro", "Companheiro", companheiroEscolhido()
+    temCompanheiros() && ["companheiro", "Animal comprado", companheiroEscolhido()
       ? pj().companheiros.find((c) => c.id === companheiroEscolhido()).nome : "nenhum"],
+    temParceiros() && ["companheiro", "Parceiro", parceiroEscolhido()
+      ? `${pj().parceiros.find((p) => p.id === parceiroEscolhido()).nome} (${custoDoParceiro()} PP)` : "nenhum"],
     ["complicacoes", "Complicações", complicacoes.join(", ")],
   ].filter(Boolean);
   const passouDoOrcamento = el("pj-vantagens-contador").classList.contains("aviso") &&

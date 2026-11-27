@@ -893,7 +893,7 @@ Os preços são conversões econômicas do gênero e não determinam a Proteçã
 - **Montar** usa **Especialidade: Cavalgar** (com Agilidade). Ficar na sela depois de um golpe forte ou de um salto: CD 10 a 20.
 - **Sem sela:** –2 em Cavalgar (montar em pelo). A **sela militar** (20 po) dá +2 em Cavalgar para não cair da montaria.
 - **Montar e desmontar:** ação de movimento. Com Cavalgar CD 15, vira ação livre (saltar para a sela).
-- **A montaria é um personagem:** use o arquétipo **Cavalo** do bestiário (NP 3) ou o tipo **Cavalo de guerra** (a partir do NP 4). Ela age na sua iniciativa e obedece com uma ação de movimento (Comandar). O gerador imprime a ficha do Cavalo (NP 3) numa página à parte quando o jogador compra o cavalo de montaria no passo **Companheiro** (seção 11.6). O cavalo de guerra, o pônei e o burro comprados em **Armas e itens** não ganham página: use o bestiário.
+- **A montaria é um personagem:** use o arquétipo **Cavalo** do bestiário (NP 3) ou o tipo **Cavalo de guerra** (a partir do NP 4). Ela age na sua iniciativa e obedece com uma ação de movimento (Comandar). Quando o personagem tem a montaria (comprada no passo **Companheiro**, no kit da classe ou em **Armas e itens**), o gerador dá a ficha dela num PDF à parte (seção 11.6): cavalo de montaria (NP 3), cavalo de guerra (NP 4), pônei (NP 2) ou mula (NP 3).
 - **Animal sem treino de combate** (cavalo de montaria, pônei, burro, mula): no turno em que há luta perto, o cavaleiro faz Cavalgar CD 10 (ação livre); se falhar, o animal não obedece nesse turno (empina ou recua). Cavalo de guerra não testa.
 - **Atacar a montaria:** os inimigos podem mirar no animal, que usa as defesas da própria ficha. Montaria incapacitada derruba o cavaleiro: Cavalgar ou Acrobacia CD 15 para saltar a tempo; se falhar, fica caído e sofre Dano 2 (como na seção 14.8).
 - **Barda:** a armadura da montaria. Dá ao animal a Proteção da armadura equivalente e soma na Resistência dele, não na do cavaleiro. Custa 4 vezes e pesa 2 vezes a armadura (regra do Livro do Jogador): barda de couro (Proteção 1, 40 po, 10 kg), de cota de malha (Proteção 3, 300 po, 55 kg) e de placas (Proteção 6, 6.000 po, 65 kg). O peso vai no animal. A barda pode levar a montaria acima do limite do NP dela; como o mestre controla o animal, leve isso em conta nos encontros. Na ficha do gerador, a barda comprada já aparece somada na página do companheiro.
@@ -1061,18 +1061,37 @@ Quando precisar dar preço a um item novo, compare com o item mais parecido do L
 
 Pônei (30 po), burro (8 po), cavalo de montaria (75 po), cavalo de guerra (400 po), mastim (25 po), sela (10 po), sela militar (20 po), alforjes (4 po) e as bardas (40 a 6.000 po, seção 9.8) estão no equipamento com preço, mas **sem custo em pontos**: no jogo, o animal comprado é um NPC que o mestre controla.
 
-**O passo Companheiro.** Depois de **Armas e itens**, o gerador oferece os animais à venda no gênero que têm ficha pronta: na Fantasia, o **cão** (comprado como mastim, 25 po) e o **cavalo** (cavalo de montaria, 75 po). O animal é o primeiro item pago, sai do dinheiro e custa 0 PP; o que não cabe no dinheiro aparece desabilitado. A ficha dele sai numa página à parte no PDF (e numa seção no DOCX e no TXT), calculada a partir das fichas do Guia do Mestre de Jogo:
+**O passo Companheiro.** Depois de **Armas e itens**, o gerador oferece os animais à venda no gênero que têm ficha pronta: na Fantasia, o **cão** (comprado como mastim, 25 po), o **cavalo** (cavalo de montaria, 75 po), o **cavalo de guerra** (400 po), o **pônei** (30 po) e a **mula** (burro ou mula, 8 po). O animal é o primeiro item pago, sai do dinheiro e custa 0 PP; o que não cabe no dinheiro aparece desabilitado. A ficha dele, calculada a partir das fichas do Guia do Mestre de Jogo, sai num **PDF à parte**, com um botão próprio ao lado do PDF do personagem (no DOCX e no TXT, vem depois da ficha do personagem). O animal que já vem no kit da classe (o cavalo do cavaleiro, do paladino e do patrulheiro) ou que o jogador marca em **Armas e itens** também ganha a ficha, mesmo com "Nenhum" no passo Companheiro; quem tem dois animais (o cão escolhido e o cavalo do kit) recebe um PDF para cada um:
 
 | Animal | NP | PP de ficha | Destaques |
 |----|----|----|----|
 | Cão | 2 | 10 | Mordida +2 (Dano 1); Faro Aguçado, Rastrear, Ultra-audição; Encolhimento 2. |
 | Cavalo | 3 | 9 | Cascos +2 (Dano 4); Crescimento 4; Velocidade 4 (60 km/h); Fortitude 5. |
+| Cavalo de guerra | 4 | 14 | Cavalo com Luta 4 (Cascos +4, Dano 4, Aparar 4) e Destemido. [Casa: o Guia só diz "maior Luta".] |
+| Pônei | 2 | 2 | Cavalo com Crescimento 2 (For 2, Vig 2) e Velocidade 3 (30 km/h). [Casa] |
+| Mula | 3 | 9 | Cavalo de carga (+1 For, como o Guia indica): Coice +1 (Dano 5), Velocidade 3. Luta 1 para caber no NP 3. [Casa] |
 | Coruja | 2 | 19 | Voo 3 silencioso, Ultravisão, Furtividade +12. Sem compra na Fantasia (é o bicho da Escola de Magia); use como familiar. |
 | Lobo | 3 | 23 | Mordida +3 (Dano 2), Derrubar Aprimorado, Faro Aguçado. Não se compra: é o companheiro de um Parceiro ou um NPC. |
 
-A **barda** comprada pelo dono soma na Resistência do cavalo (não na do cavaleiro) e já aparece na página do companheiro. A sela, os alforjes e o que vai neles também ficam no animal (seção 14.10).
+A **barda** comprada pelo dono soma na Resistência da montaria (não na do cavaleiro nem na do cão) e já aparece na ficha dela. A sela, os alforjes e o que vai neles também ficam no animal (seção 14.10).
 
-**Animal comprado, Parceiro ou dom de classe.** O animal comprado obedece ao dono com Comandar, mas não evolui. Se o jogador quiser um companheiro leal que cresce com ele, o animal vira a vantagem **Parceiro** (5 PP de ficha por graduação: cão 2 graduações, cavalo 2, lobo 5), como o lobo do montador goblin. O gerador ainda não vende o Parceiro no passo Companheiro; anote à mão. O **Companheiro animal** do patrulheiro Mestre das feras é outra coisa: um dom da classe, pago com PP, que não passa por este passo.
+**Animal comprado, Parceiro ou dom de classe.** O animal comprado obedece ao dono com Comandar, mas não evolui. Se o jogador quiser um companheiro leal que cresce com ele, o animal vira a vantagem **Parceiro** [Básico], como o lobo do montador goblin. O passo Companheiro do gerador tem uma segunda lista para isso, com todos os animais da tabela, inclusive a coruja e o lobo, que não se compram:
+
+- **Custo:** 1 PP do herói por graduação, e cada graduação dá 5 PP de ficha ao animal (pônei 1 graduação, cão 2, cavalo 2, mula 2, cavalo de guerra 3, coruja 4, lobo 5). Sai do orçamento do NP, não soma a ele; o gerador não sobe essa graduação por conta própria.
+- **Limites do livro:** o Parceiro respeita o NP da série (o gerador desabilita o animal acima do NP do personagem, com "a partir do NP X") e tem menos PP que o herói.
+- **Em jogo:** é um personagem completo, não um capanga: não cai na primeira falha de Resistência. É do mestre, mas leal e prestativo; o jogador costuma comandá-lo (ação de movimento). Não tem pontos heroicos, mas o dono pode gastar os dele em favor do parceiro. Só melhora quando o dono gasta PP em mais graduações.
+- **Os dois juntos:** o jogador pode comprar um cavalo e ter um lobo como Parceiro; cada animal sai num PDF à parte. Se o mesmo animal aparece duas vezes (o cavalo do kit e um cavalo Parceiro), são dois bichos, e o arquivo do leal termina em "_parceiro".
+
+**Criaturas dos dons de classe.** Quatro dons usam o efeito **Invocar** com o extra **Heroico** [Básico]: a criatura tem 15 PP por graduação, não segue as regras de capanga e precisa caber no NP do dono. Eles já são pagos na ficha da subclasse e não passam pelo passo Companheiro, mas o gerador dá a ficha da criatura num PDF à parte, como a dos outros animais:
+
+| Dom (subclasse) | Invocar | Criatura | NP | PP de ficha |
+|----|----|----|----|----|
+| Companheiro animal (patrulheiro Mestre das feras) | 2, Heroico (6 PP) | Lobo do Guia; no NP 2, o Cão | 3 (2) | 23 (10) |
+| Invocar elemental (Escola de Invocação) | 2, Heroico (6 PP) | Elemental menor (fogo) [Casa] | 3 | 23 |
+| Defensor de aço (artífice Ferreiro de batalha) | 2, Heroico (6 PP) | Defensor de aço [Casa]: Interpor-se, conserta objetos e constructos (Cura 2 limitada), imune a doença, veneno, sono e sufocamento | 3 | 16 |
+| Servo homúnculo (artífice, opcional) | 1, Heroico (3 PP) | Homúnculo [Casa]: Encolhimento 4, Voo 2 (Asas), Furtividade +8; sem ataque | 2 | 14 |
+
+O preço é o mesmo do Parceiro: 1 PP do herói para cada 5 PP de criatura. A diferença é o Invocar: a criatura aparece com uma ação padrão, age a partir da rodada seguinte **tonta** (só uma ação padrão por rodada, porque o dom não tem o extra Ativo) e, incapacitada, some até se recuperar. O livro deixa o mestre vetar o extra Heroico, porque ele atrasa o combate; sem ele, a criatura vira capanga (cai na primeira falha de Resistência) e o dom fica 2 PP mais barato. Para outro elemento, troque o descritor do elemental (gelo, pedra, ar) e a imunidade.
 
 ### 11.7 Itens mágicos [Básico + Casa]
 

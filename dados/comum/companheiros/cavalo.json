@@ -2,6 +2,7 @@
   "id": "cavalo",
   "nome": "Cavalo",
   "nivel_poder": 3,
+  "montaria": true,
   "generos": ["fantasia", "faroeste"],
   "compra": {"fantasia": "cavalo_montaria", "faroeste": "cavalo"},
   "descricao": "Cavalo de montaria comum. Montar usa Especialidade: Cavalgar (Agilidade).",

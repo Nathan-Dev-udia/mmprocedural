@@ -411,22 +411,14 @@ def _aplicar_formulas(writer, formulas):
     formulario[NameObject("/CO")] = ArrayObject(campos[nome] for nome in ordem)
 
 
-def gerar_pdf(caminho_modelo, npc, relatorio, genero_nome, referencia=None, companheiro=None):
+def gerar_pdf(caminho_modelo, npc, relatorio, genero_nome, referencia=None):
     """Devolve os bytes de um PDF preenchido com o NPC.
 
     referencia: o que referencia.montar devolve; se vier, entra em páginas no fim (o que cada vantagem,
     poder e item faz).
-    companheiro: o que companheiros.bloco devolve; se vier, a página do companheiro entra antes da referência.
+    O companheiro (o animal do personagem) tem PDF próprio: referencia_pdf.gerar_pagina_do_companheiro.
     """
     paginas_extras = []
-    if companheiro:
-        try:
-            from . import referencia_pdf
-            posse = (npc.get("companheiro") or {}).get("posse", "")
-            paginas_extras.append(referencia_pdf.gerar_pagina_do_companheiro(
-                companheiro, posse, dono=npc.get("nome", ""), jogador=npc.get("jogador", "")))
-        except Exception:
-            logging.getLogger(__name__).exception("Falha ao gerar a página do companheiro.")
     if referencia:
         try:
             from . import referencia_pdf

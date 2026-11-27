@@ -1,0 +1,34 @@
+{
+  "id": "ponei",
+  "nome": "Pônei",
+  "nivel_poder": 2,
+  "montaria": true,
+  "generos": ["fantasia"],
+  "compra": {"fantasia": "ponei"},
+  "descricao": "Cavalo pequeno e resistente, a montaria de halflings e anões.",
+  "fonte": "Derivado do Cavalo do Guia do Mestre de Jogo, p. 223 (regra da casa): Crescimento 2 no lugar de 4 e Velocidade 3",
+  "ficha": {
+    "habilidades": {"For": 0, "Vig": 0, "Agi": 1, "Des": -4, "Lut": 2, "Int": -4, "Pro": 1, "Pre": -3},
+    "defesas_compradas": {"Esquiva": 2, "Aparar": 1, "Fortitude": 1},
+    "pericias": {"Percepção": 4},
+    "vantagens": {},
+    "poderes": [
+      {"id": "tamanho", "nome": "Crescimento 2 (Permanente, Inato)", "custo": 5,
+       "tamanho": {"efeito": "Crescimento", "graduacao": 2}},
+      {"id": "sentidos", "nome": "Sentidos 2 (Visão Estendida, Visão na Penumbra)", "custo": 2,
+       "explicacao": "Enxerga longe com menos penalidade de distância e vê na meia-luz (lua, tochas) sem penalidade. Na escuridão total, não vê."},
+      {"id": "velocidade", "nome": "Velocidade 3 (30 km/h)", "custo": 3,
+       "explicacao": "Trota a até 30 km/h. Mais lento que o cavalo, mas aguenta trilhas estreitas e montanha."}
+    ],
+    "ataques_naturais": [{"nome": "Cascos", "tipo": "corpo", "efeito": 0, "soma_forca": true, "critico": 20}]
+  },
+  "esperado": {
+    "habilidades": {"For": 2, "Vig": 2, "Agi": 1, "Des": -4, "Lut": 2, "Int": -4, "Pro": 1, "Pre": -3},
+    "defesas": {"Esquiva": 2, "Aparar": 2, "Fortitude": 3, "Resistência": 2, "Vontade": 1},
+    "pericias": {"Percepção": 5},
+    "iniciativa": 1,
+    "ataques": {"Cascos": {"bonus": 2, "dano": 2}},
+    "custos": {"habilidades": -14, "poderes": 10, "vantagens": 0, "pericias": 2, "defesas": 4},
+    "total": 2
+  }
+}

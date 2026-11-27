@@ -191,6 +191,8 @@ def _adicionar_companheiro(doc, bloco, posse):
         _paragrafo(doc, p["nome"], p["explicacao"] or "")
     descricao = doc.add_paragraph().add_run(bloco["descricao"])
     descricao.italic = True
+    if bloco.get("regra"):
+        doc.add_paragraph().add_run(bloco["regra"])
     fonte = doc.add_paragraph().add_run(f"Fonte: {bloco['fonte']}.")
     fonte.font.size = Pt(9)
     fonte.font.color.rgb = COR_SUAVE
@@ -221,9 +223,9 @@ def _adicionar_referencia(doc, referencia):
 
 
 def gerar_docx(npcs_com_relatorio):
-    """Recebe [(npc, relatorio), ...], [(npc, relatorio, referencia), ...] ou, com o companheiro,
-    [(npc, relatorio, referencia, companheiro), ...] e devolve os bytes de um .docx com uma ficha por página
-    (e, se vierem, uma página do companheiro e outra com o que cada coisa da ficha faz)."""
+    """Recebe [(npc, relatorio), ...], [(npc, relatorio, referencia), ...] ou, com os companheiros,
+    [(npc, relatorio, referencia, [(bloco, posse), ...]), ...] e devolve os bytes de um .docx com uma ficha por
+    página (e, se vierem, uma página por companheiro e outra com o que cada coisa da ficha faz)."""
     doc = Document()
     estilo = doc.styles["Normal"]
     estilo.font.name = "Calibri"
@@ -235,7 +237,8 @@ def gerar_docx(npcs_com_relatorio):
         if indice:
             doc.add_paragraph().add_run().add_break(WD_BREAK.PAGE)
         _adicionar_npc(doc, npc, relatorio)
-        _adicionar_companheiro(doc, resto[1] if len(resto) > 1 else None, (npc.get("companheiro") or {}).get("posse", ""))
+        for bloco, posse in (resto[1] if len(resto) > 1 else None) or []:
+            _adicionar_companheiro(doc, bloco, posse)
         _adicionar_referencia(doc, resto[0] if resto else None)
 
     saida = io.BytesIO()

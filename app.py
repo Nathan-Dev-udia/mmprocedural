@@ -20,7 +20,7 @@ from flask import Flask, jsonify, redirect, render_template, request, send_file
 from markupsafe import Markup, escape
 
 from nucleo import (bestiario, bestiario_docx, bestiario_pdf, companheiros, data_loader, docx_export, escudo, escudo_pdf, escudo_xlsx, formatter, generator, herois,
-                    herois_pdf, livros, medidas, pdf_export, planilhas, player, referencia, validator, viagem)
+                    herois_pdf, livros, medidas, pdf_export, planilhas, player, referencia, referencia_pdf, validator, viagem)
 
 # Entre o texto da ficha e a referência do personagem, no TXT.
 SEPARADOR_DA_REFERENCIA = "\n\n" + "=" * 60 + "\n\n"
@@ -195,6 +195,8 @@ def opcoes_da_interface(DADOS):
             "divindades": _divindades_para_a_tela(DADOS),
             # Animais à venda neste gênero (o passo "Companheiro"); vazio em gêneros que pagam com pontos.
             "companheiros": [] if player.equipamento_em_pontos(DADOS) else companheiros.disponiveis(DADOS),
+            # Animais que podem ser Parceiro (custam PP, não dinheiro), com a graduação da vantagem.
+            "parceiros": companheiros.parceiros(DADOS["genero"]["id"]),
             "vantagens": [{"nome": v["nome"], "tipo": v["tipo"], "efeito": v["efeito"], "faroeste": v["faroeste"]}
                           for v in player.vantagens_do_jogador(DADOS)],
             "nps": config["nps_jogador"],
@@ -277,8 +279,7 @@ def _preparar(npc):
     npc["texto"] = formatter.texto(npc)
     ref = _referencia(npc)
     npc["referencia_texto"] = referencia.texto(ref) if ref else ""
-    bloco = _bloco_do_companheiro(npc)
-    npc["companheiro_texto"] = companheiros.texto(bloco, npc["companheiro"]["posse"]) if bloco else ""
+    npc["companheiro_texto"] = "\n\n".join(companheiros.texto(bloco, posse) for bloco, posse in _companheiros_do_npc(npc))
     return npc
 
 
@@ -390,7 +391,7 @@ def gerar_jogador():
         implantes=corpo.get("implantes"), raca=str(corpo.get("raca") or "") or None,
         variante=str(corpo.get("variante") or "") or None,
         divindade=str(corpo.get("divindade") or "") or None, panteao=str(corpo.get("panteao") or "") or None,
-        companheiro=str(corpo.get("companheiro") or "") or None)
+        companheiro=str(corpo.get("companheiro") or "") or None, parceiro=str(corpo.get("parceiro") or "") or None)
     return jsonify({"personagem": _preparar(personagem)})
 
 
@@ -428,18 +429,37 @@ def _referencia(npc, relatorio=None):
         return None
 
 
-def _bloco_do_companheiro(npc):
-    """A ficha do companheiro (se o personagem tem um), recalculada no servidor a partir do id."""
-    escolhido = npc.get("companheiro")
-    if not escolhido:
-        return None
-    try:
-        catalogo = _dados(npc.get("genero"))["equipamentos"]
-        barda = companheiros.barda_do_equipamento((npc.get("ficha") or {}).get("equipamento", []), catalogo)
-        return companheiros.bloco(companheiros.carregar(str(escolhido["id"])), barda)
-    except (KeyError, TypeError):
-        app.logger.exception("Falha ao montar a ficha do companheiro.")
-        return None
+MAX_COMPANHEIROS = 4
+TIPOS_DE_COMPANHEIRO = {"parceiro": "parceiro", "poder": "invocado"}
+
+
+def _tipo_do_companheiro(origem):
+    """'comprado' (passo Companheiro, kit ou Escolher), 'parceiro' (vantagem) ou 'invocado' (poder de Invocar)."""
+    return TIPOS_DE_COMPANHEIRO.get(origem, "comprado")   # a ficha vem da página: não deixa um pedido inventar dezenas de páginas
+
+
+def _companheiros_do_npc(npc):
+    """[(ficha do companheiro, posse), ...], recalculadas no servidor a partir do id (o nome da página não vale).
+
+    Aceita também a ficha antiga, com um "companheiro" só."""
+    escolhidos = npc.get("companheiros")
+    if escolhidos is None:
+        escolhidos = [npc["companheiro"]] if npc.get("companheiro") else []
+    saida, vistos = [], set()
+    for escolhido in escolhidos if isinstance(escolhidos, list) else []:
+        try:
+            chave = (str(escolhido["id"]), _tipo_do_companheiro(escolhido.get("origem")))
+            if chave in vistos or len(vistos) >= MAX_COMPANHEIROS:
+                continue
+            vistos.add(chave)
+            catalogo = _dados(npc.get("genero"))["equipamentos"]
+            animal = companheiros.carregar(str(escolhido["id"]))
+            barda = companheiros.barda_do_equipamento((npc.get("ficha") or {}).get("equipamento", []), catalogo, animal)
+            bloco = {**companheiros.bloco(animal, None if chave[1] == "invocado" else barda, chave[1]), "tipo": chave[1]}
+            saida.append((bloco, str(escolhido.get("posse") or "")[:60]))
+        except (KeyError, TypeError):
+            app.logger.exception("Falha ao montar a ficha do companheiro.")
+    return saida
 
 
 def _pdf_do_npc(npc):
@@ -448,12 +468,18 @@ def _pdf_do_npc(npc):
         raise generator.GeneratorError("O modelo de ficha em PDF não foi encontrado na pasta data/.")
     relatorio = _relatorio(npc)
     return pdf_export.gerar_pdf(DADOS["ficha_pdf"], npc, relatorio, DADOS["genero"]["nome"],
-                                referencia=_referencia(npc, relatorio), companheiro=_bloco_do_companheiro(npc))
+                                referencia=_referencia(npc, relatorio))
+
+
+def _pdf_do_companheiro(npc, bloco, posse):
+    """O PDF à parte com a ficha do animal (uma página), para o jogador entregar ao mestre ou imprimir."""
+    return referencia_pdf.gerar_pagina_do_companheiro(bloco, posse, dono=npc.get("nome", ""),
+                                                      jogador=npc.get("jogador", ""))
 
 
 def _docx_dos_npcs(npcs):
     com_relatorio = [(npc, _relatorio(npc)) for npc in npcs]
-    return docx_export.gerar_docx([(npc, rel, _referencia(npc, rel), _bloco_do_companheiro(npc))
+    return docx_export.gerar_docx([(npc, rel, _referencia(npc, rel), _companheiros_do_npc(npc))
                                    for npc, rel in com_relatorio])
 
 
@@ -651,6 +677,32 @@ def baixar_docx():
                      download_name=f"{_nome_de_arquivo(npc.get('nome', 'npc'))}.docx")
 
 
+def _nome_do_pdf_do_companheiro(npc, bloco, base=None):
+    """'annie_gage_cavalo' (comprado), 'annie_gage_cavalo_parceiro' ou 'osric_lobo_invocado'."""
+    base = base or _nome_de_arquivo(npc.get("nome", "npc"))
+    tipo = bloco.get("tipo", "comprado")
+    return f"{base}_{_nome_de_arquivo(bloco['nome'])}" + ("" if tipo == "comprado" else f"_{tipo}")
+
+
+@app.post("/api/companheiro.pdf")
+def baixar_pdf_do_companheiro():
+    """PDF à parte com a ficha de um animal do personagem; o id escolhe qual (sem id, o primeiro).
+
+    "tipo" ("comprado", "parceiro" ou "invocado") separa dois bichos iguais (o cavalo do kit e o leal)."""
+    corpo = request.get_json(silent=True) or {}
+    npc = _npc_do_pedido()
+    escolhidos = _companheiros_do_npc(npc)
+    pedido = str(corpo.get("id") or "")
+    tipo = str(corpo.get("tipo") or ("parceiro" if corpo.get("parceiro") else "comprado"))
+    achado = next(((b, p) for b, p in escolhidos if not pedido or (b["id"] == pedido and b["tipo"] == tipo)), None)
+    if achado is None:
+        raise generator.GeneratorError("Este personagem não tem esse companheiro.")
+    bloco, posse = achado
+    nome = _nome_do_pdf_do_companheiro(npc, bloco)
+    return send_file(io.BytesIO(_pdf_do_companheiro(npc, bloco, posse)), mimetype="application/pdf",
+                     as_attachment=True, download_name=f"{nome}.pdf")
+
+
 @app.post("/api/fichas.zip")
 def baixar_zip():
     """Todas as fichas do grupo: PDF e DOCX de cada NPC, um DOCX com todos e um TXT com todos."""
@@ -668,6 +720,9 @@ def baixar_zip():
             arquivo_zip.writestr(f"docx/{nome}.docx", _docx_dos_npcs([npc]))
             if _dados(npc.get("genero"))["ficha_pdf"]:
                 arquivo_zip.writestr(f"pdf/{nome}.pdf", _pdf_do_npc(npc))
+            for bloco, posse in _companheiros_do_npc(npc):
+                arquivo_zip.writestr(f"pdf/{_nome_do_pdf_do_companheiro(npc, bloco, nome)}.pdf",
+                                     _pdf_do_companheiro(npc, bloco, posse))
         arquivo_zip.writestr("todas_as_fichas.docx", _docx_dos_npcs(npcs))
         separador = "\n\n" + "-" * 60 + "\n\n"
         arquivo_zip.writestr("todas_as_fichas.txt", separador.join(_texto_completo(npc) for npc in npcs))

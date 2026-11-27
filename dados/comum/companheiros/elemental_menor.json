@@ -1,0 +1,96 @@
+{
+  "id": "elemental_menor",
+  "nome": "Elemental menor",
+  "nivel_poder": 3,
+  "invocado": true,
+  "generos": [
+    "fantasia"
+  ],
+  "compra": {},
+  "descricao": "Um pequeno elemental de fogo chamado de outro plano. Some quando é incapacitado e volta recuperado. Para outro elemento, troque o descritor (gelo, pedra, ar) e a imunidade.",
+  "fonte": "Criado para o projeto (regra da casa), com o efeito Invocar do Livro Básico (p. 111): Invocar 2 dá até 30 PP de criatura",
+  "ficha": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 2,
+      "Agi": 1,
+      "Des": 0,
+      "Lut": 2,
+      "Int": -2,
+      "Pro": 1,
+      "Pre": -1
+    },
+    "defesas_compradas": {
+      "Esquiva": 1,
+      "Fortitude": 1,
+      "Vontade": 1
+    },
+    "pericias": {
+      "Percepção": 2
+    },
+    "vantagens": {},
+    "poderes": [
+      {
+        "id": "protecao",
+        "nome": "Proteção 2",
+        "custo": 2,
+        "ajustes": {
+          "Proteção": 2
+        },
+        "explicacao": "Corpo de chama densa: +2 na Resistência (já somado na ficha)."
+      },
+      {
+        "id": "imunidade",
+        "nome": "Imunidade 5 (dano de fogo)",
+        "custo": 5,
+        "explicacao": "Não sofre dano de fogo, nem de magia nem de tocha."
+      }
+    ],
+    "ataques_naturais": [
+      {
+        "nome": "Golpe flamejante",
+        "tipo": "corpo",
+        "efeito": 0,
+        "soma_forca": true,
+        "critico": 20
+      }
+    ]
+  },
+  "esperado": {
+    "habilidades": {
+      "For": 3,
+      "Vig": 2,
+      "Agi": 1,
+      "Des": 0,
+      "Lut": 2,
+      "Int": -2,
+      "Pro": 1,
+      "Pre": -1
+    },
+    "defesas": {
+      "Esquiva": 2,
+      "Aparar": 2,
+      "Fortitude": 3,
+      "Resistência": 4,
+      "Vontade": 2
+    },
+    "pericias": {
+      "Percepção": 3
+    },
+    "iniciativa": 1,
+    "ataques": {
+      "Golpe flamejante": {
+        "bonus": 2,
+        "dano": 3
+      }
+    },
+    "custos": {
+      "habilidades": 12,
+      "defesas": 3,
+      "pericias": 1,
+      "vantagens": 0,
+      "poderes": 7
+    },
+    "total": 23
+  }
+}

@@ -155,7 +155,7 @@ Perícias custam **1 PP para cada 2 graduações** (`0,5 PP` por ponto). Você p
 
 ## 9. Vantagens `[Básico]`
 
-Cada graduação de vantagem custa **1 PP**. Para manter o clima realista dos anos 1920, o gerador exclui vantagens fantásticas ou de gerenciamento incompatíveis com a criação automática (`Artífice`, `Ritualista` e `Transe` não combinam com investigadores comuns; `Benefício` é tratado pela seleção de Riqueza, `Equipamento` pelo orçamento em dólares, e `Capanga`/`Parceiro` ficam para regras opcionais com o Mestre).
+Cada graduação de vantagem custa **1 PP**. Para manter o clima realista dos anos 1920, o gerador exclui vantagens fantásticas ou de gerenciamento incompatíveis com a criação automática (`Artífice`, `Ritualista` e `Transe` não combinam com investigadores comuns; `Benefício` é tratado pela seleção de Riqueza, `Equipamento` pelo orçamento em dólares, e `Capanga`/`Parceiro` ficam para regras opcionais com o Mestre). A exceção é o **cão como Parceiro**: no passo **Companheiro** do site, o investigador pode levar um cão farejador leal (NP 2, 2 PP), com ficha num PDF à parte. Combine com o Guardião antes.
 
 As vantagens listadas abaixo correspondem exatamente às disponíveis na geração de investigadores do gênero:
 
@@ -302,6 +302,16 @@ Carregar peso na **carga pesada** reduz a velocidade em 1 graduação e causa pe
 - **Multiataque (Thompson):** ao disparar em rajada com a *Submetralhadora Thompson .45*, você pode concentrar o fogo num único alvo (`+2` no Dano com 2 graus de sucesso no ataque; `+5` no Dano com 3+ graus) ou varrer vários alvos dentro do alcance fazendo um ataque contra cada um, sofrendo penalidade igual ao número de alvos.
 - **Proteção discreta:** não há coletes balísticos táticos de guerra fria para civis nas ruas de Arkham. O **Sobretudo pesado de lã (\$25)** oferece `Proteção 1` contra frio, arranhões e impactos leves do dia a dia (contando normalmente no limite com *Esquiva* e *Aparar*).
 - **Veículos da década:** o *Automóvel Ford Modelo T* (\$300) e a *Motocicleta com sidecar* (\$200) têm **Velocidade 4 (`60 km/h`)**; o *Automóvel de Luxo Packard* (\$2.500) chega a **Velocidade 5 (`120 km/h`)**. A ficha mostra também a capacidade de carga de cada veículo no catálogo para bagagens e caixotes de expedição.
+
+### O cão do investigador `[Básico]` `[Casa]`
+
+Um cão farejador pode ser o melhor amigo de um investigador: ele sente o cheiro do que não deveria estar ali e late antes da porta se abrir. No passo **Companheiro** do site, o cão entra como **Parceiro** (a vantagem do livro básico): custa **2 PP** (cada graduação dá 5 PP de ficha ao animal), precisa caber no seu NP e melhora quando você gasta mais PP nele. Combine com o Guardião antes, porque a vantagem Parceiro é uma regra opcional neste gênero.
+
+| Animal | NP | Como Parceiro | Destaques |
+|----|----|----|----|
+| Cão | 2 | 2 PP | Faro Aguçado, Rastrear, Ultra-audição; Mordida +2 (Dano 1). |
+
+O cão é um personagem completo, não um capanga, e não tem pontos heroicos (você pode gastar os seus em favor dele). Ele age na sua iniciativa, e dar uma ordem é uma ação de movimento. A ficha dele sai num **PDF à parte**, com um botão próprio ao lado do PDF do investigador. Cães também enlouquecem: diante do Mythos, o Guardião pode pedir um teste de Vontade do animal, e com falha ele foge.
 
 ---
 

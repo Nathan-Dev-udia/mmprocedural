@@ -568,7 +568,8 @@
       "combate"
     ],
     "graduacao": 2,
-    "estatistica": "Invocar Companheiro Animal, Heroico"
+    "estatistica": "Invocar Companheiro Animal, Heroico",
+    "companheiros": ["lobo", "cao"]
   },
   {
     "id": "retomar_folego",
@@ -743,7 +744,8 @@
       "combate"
     ],
     "graduacao": 2,
-    "estatistica": "Invocar Elemental menor, Heroico"
+    "estatistica": "Invocar Elemental menor, Heroico",
+    "companheiros": ["elemental_menor"]
   },
   {
     "id": "elixir_experimental",
@@ -796,7 +798,8 @@
       "combate"
     ],
     "graduacao": 2,
-    "estatistica": "Invocar Defensor de aço, Heroico"
+    "estatistica": "Invocar Defensor de aço, Heroico",
+    "companheiros": ["defensor_de_aco"]
   },
   {
     "id": "servo_homunculo",
@@ -808,7 +811,8 @@
       "utilidade"
     ],
     "graduacao": 1,
-    "estatistica": "Invocar Homúnculo, Heroico"
+    "estatistica": "Invocar Homúnculo, Heroico",
+    "companheiros": ["homunculo"]
   },
   {
     "id": "olhos_da_noite",

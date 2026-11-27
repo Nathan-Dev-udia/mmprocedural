@@ -827,7 +827,7 @@ Numa fantasia medieval quase todas as vantagens do livro básico têm lugar. A t
 | **Esforço Extraordinário** | Geral | Dois benefícios de esforço extra de uma vez. | Mago, feiticeiro, bruxo. |
 | **Interpor-se** | Geral | Receba um ataque no lugar de um aliado. | Paladino, guerreiro. |
 | **Memória Eidética** | Geral | Lembra de tudo; +5 para lembrar. | Mago. |
-| **Parceiro** | Geral | Um companheiro com 5 PP por graduação. | Escudeiro, familiar (o mestre das feras usa o dom Companheiro animal). |
+| **Parceiro** | Geral | Um companheiro com 5 PP por graduação. | Escudeiro, familiar, animal leal (escolha o bicho no passo Companheiro; o mestre das feras usa o dom Companheiro animal). |
 | **Tolerância Maior** | Geral | +5 contra fome, frio, fadiga. | Bárbaro das montanhas. |
 
 As demais vantagens do livro básico (Agarrar Aprimorado, Ambiente Favorito, Contatos, Capanga, Segunda Chance e outras) também podem ser compradas. Pergunte ao mestre.
@@ -1053,6 +1053,32 @@ A vida do aventureiro gira em torno da taverna: é onde o grupo descansa, comemo
 | **Estábulo comum (baia, feno e água)** | 5 pc / dia | 0,05 po | Abrigo e água fresca para seu cavalo, mula ou pônei. |
 | **Cuidado completo de montaria** | 2 pp / dia | 0,20 po | Baia limpa, aveia de qualidade, escovação e cocheiro dedicado. |
 
+### 14.11 Animais e companheiros [Básico + Casa]
+
+Há três jeitos de ter um bicho, e eles podem se somar (um cavalo comprado e um lobo Parceiro, por exemplo):
+
+| Forma | Como consegue | Custo | Quem controla | Evolui? |
+|----|----|----|----|----|
+| **Animal comprado** | Passo **Companheiro** do site, o kit da classe ou **Armas e itens** | Só o preço em po; 0 PP | O mestre; obedece ao dono | Não |
+| **Parceiro** [Básico] | Segunda lista do passo **Companheiro** | 1 PP por graduação; cada uma dá 5 PP de ficha ao animal | O mestre, mas o bicho é leal e quase sempre faz o que você manda | Sim: compre mais graduações com os PP do avanço |
+| **Dom de classe** | Vem com a subclasse | Já está no custo do dom | Você o chama com o efeito Invocar | Com o dom |
+
+| Animal | NP | Preço | Como Parceiro | Destaques |
+|----|----|----|----|----|
+| Cão (mastim) | 2 | 25 po | 2 PP | Faro, rastreia, Mordida +2 (Dano 1). |
+| Pônei | 2 | 30 po | 1 PP | Montaria pequena e resistente, 30 km/h. |
+| Cavalo de montaria | 3 | 75 po | 2 PP | 60 km/h, Cascos +2 (Dano 4). Assusta-se em combate. |
+| Mula (burro ou mula) | 3 | 8 po | 2 PP | Forte, 30 km/h, Coice +1 (Dano 5). |
+| Cavalo de guerra | 4 | 400 po | 3 PP | Cascos +4 (Dano 4), Destemido. Não se assusta. |
+| Coruja | 2 | não se vende | 4 PP | Voo silencioso, enxerga no escuro. Boa batedora. |
+| Lobo | 3 | não se vende | 5 PP | Mordida +3 (Dano 2), derruba a presa. |
+
+O **Parceiro** precisa caber no seu NP (o site desabilita os outros, com "a partir do NP X") e ter menos PP que você. Ele é um personagem completo, não um capanga: não cai na primeira falha de Resistência. Não tem pontos heroicos, mas você pode gastar os seus em favor dele.
+
+Os **dons de classe** que trazem uma criatura são o Companheiro animal do Mestre das feras (o lobo; o cão no NP 2), o Invocar elemental da Escola de Invocação, o Defensor de aço do Ferreiro de batalha e o Servo homúnculo do artífice. A criatura aparece com uma ação padrão, age a partir da rodada seguinte com uma ação padrão por rodada e, se for incapacitada, some até se recuperar.
+
+**Na mesa.** O animal age na sua iniciativa. Dar uma ordem é a ação **Comandar**, uma ação de movimento; ordens simples ("ataque", "fique", "busque") ele entende sem teste. Os inimigos podem atacá-lo, e ele usa as defesas da própria ficha. A ficha de cada animal sai num **PDF à parte**, com um botão próprio ao lado do PDF do personagem (no DOCX e no TXT, vem depois da sua ficha), e explica cada poder e a regra da forma de posse. Para montar e lutar a cavalo, veja o quadro de Cavalgar no capítulo 11; a **barda** comprada vai na montaria e soma na Resistência dela.
+
 ---
 
 ## 15. Usando o gerador do site
@@ -1068,7 +1094,7 @@ O site tem um construtor passo a passo de ficha de jogador. Escolha **Fantasia m
 | **Vantagens** | **Sortear de acordo com a classe** (as essenciais, mais 0 a 2 opcionais) ou **Escolher** (as da classe já vêm marcadas; o gerador só sobe graduações das que você marcar). |
 | **Magias e dons** | Sortear ou Escolher. Cada magia mostra o custo em PP no seu NP, e o contador já faz a conta do arranjo e das falhas. |
 | **Armas e itens** | Sortear (arma principal, talvez uma secundária, a munição, as rações, os itens essenciais e alguns opcionais) ou Escolher, com as sugestões da classe no topo e um contador de dinheiro. Armas que não cabem no NP ficam de fora. |
-| **Companheiro** | Opcional: compre um cão (mastim) ou um cavalo de montaria com o dinheiro que sobrou. Custa 0 PP, o mestre controla o animal e a ficha dele sai numa página à parte. |
+| **Companheiro** | Opcional: compre um cão (mastim), um cavalo de montaria, um cavalo de guerra, um pônei ou uma mula com o dinheiro que sobrou. Custa 0 PP e o mestre controla o animal. A ficha dele sai num PDF à parte, com botão próprio ao lado do PDF do personagem. O animal que já vem no kit da sua classe também ganha a ficha, mesmo com "Nenhum" aqui. Na segunda lista, escolha um animal como **Parceiro**: ele custa PP (1 por graduação, 5 PP de ficha cada; o lobo custa 5 PP), precisa caber no seu NP e é seu de verdade. |
 | **Complicações** | Escolha a Motivação e pelo menos mais uma complicação, ou clique em **Sortear complicações**. As fixas (como a do caçador de monstros) entram sempre. |
 | **Ficha** | Clique em **Gerar ficha**. Não gostou? **Gerar outra versão** refaz a distribuição com as mesmas escolhas. |
 

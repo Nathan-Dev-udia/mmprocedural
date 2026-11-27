@@ -562,7 +562,7 @@ Dança com a espada e a magia ao mesmo tempo. A **Lâmina arcana** é um golpe c
 
 ### Escola de Invocação
 
-Tira coisas e criaturas do nada. O **Invocar elemental** chama um pequeno elemental para lutar ao lado do mago (fica de fora do arranjo e custa o valor cheio), e a **Teia** prende os inimigos no lugar. A Especialidade: Magia vem primeiro.
+Tira coisas e criaturas do nada. O **Invocar elemental** chama um pequeno elemental para lutar ao lado do mago (fica de fora do arranjo e custa o valor cheio; a ficha dele sai num PDF à parte), e a **Teia** prende os inimigos no lugar. A Especialidade: Magia vem primeiro.
 
 **Escolha se** quer um mago que nunca luta sozinho.
 
@@ -1028,7 +1028,7 @@ Especialista em derrubar monstros. Ataque à Distância e o arco vêm primeiro.
 
 ### Mestre das feras
 
-Luta ao lado de um animal companheiro. O **Companheiro animal** é um aliado com ficha própria, que obedece ao patrulheiro. Empatia com Animais e Tratamento vêm primeiro.
+Luta ao lado de um animal companheiro. O **Companheiro animal** é um aliado com ficha própria, que obedece ao patrulheiro: o lobo (o cão no NP 2), cuja ficha o gerador dá num PDF à parte. Empatia com Animais e Tratamento vêm primeiro.
 
 **Escolha se** quer dois corpos no campo de batalha, e um amigo de quatro patas.
 
@@ -1340,7 +1340,7 @@ Dispara energia e explosões. O **Canhão arcano** é um canhãozinho com pernas
 
 ### Ferreiro de batalha
 
-Protetor e médico de campo. O **Defensor de aço** é um constructo do tamanho de um cão grande, que luta ao lado do artífice (fica de fora do arranjo e custa o valor cheio). Interpor-se deixa ele receber um golpe no lugar de um aliado, e o martelo de guerra, com Luta e Combate Corpo-a-Corpo: Maças, é a arma dele.
+Protetor e médico de campo. O **Defensor de aço** é um constructo do tamanho de um cão grande, que luta ao lado do artífice (fica de fora do arranjo e custa o valor cheio; a ficha dele sai num PDF à parte). Interpor-se deixa ele receber um golpe no lugar de um aliado, e o martelo de guerra, com Luta e Combate Corpo-a-Corpo: Maças, é a arma dele.
 
 **Escolha se** quer um artífice protetor, que nunca luta sozinho.
 

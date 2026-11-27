@@ -13,51 +13,49 @@
   ],
   "descricao": "Animal maciço treinado para o impacto da carga de cavalaria sem se espantar com barulhos de batalha.",
   "tatica": "Investe atropelando infantaria com cascos de ferro sob comando do cavaleiro.",
-  "fonte": "Guia do Mestre de Jogo, p. 223 (adaptado para montaria de guerra)",
+  "fonte": "Guia do Mestre de Jogo, p. 223 (Cavalo), com Luta 4 como o Guia indica para cavalos de guerra e Destemido do treino; é a mesma ficha do companheiro Cavalo de guerra",
   "ficha": {
     "habilidades": {
       "For": 4,
       "Vig": 4,
       "Agi": 1,
-      "Des": -3,
-      "Lut": 3,
+      "Des": -4,
+      "Lut": 4,
       "Int": -4,
       "Pro": 1,
-      "Pre": -2
+      "Pre": -3
     },
     "defesas": {
       "Esquiva": 2,
-      "Aparar": 3,
-      "Fortitude": 6,
-      "Resistencia": 5,
-      "Vontade": 2
+      "Aparar": 4,
+      "Fortitude": 5,
+      "Resistencia": 4,
+      "Vontade": 1
     },
     "pericias": {
-      "Atletismo": 6,
       "Percepção": 4
     },
     "vantagens": [
-      "Iniciativa Aprimorada",
-      "Atropelar"
+      "Destemido"
     ],
     "poderes": [
       {
         "nome": "Porte Grande",
-        "construcao": "Crescimento 2 (Força +2, Vigor +2, Proteção +2, Contínuo, Inato)."
+        "construcao": "Crescimento 4 (Permanente, Inato)."
       },
       {
-        "nome": "Galope Veloz",
-        "construcao": "Velocidade 3 (60 km/h)."
+        "nome": "Galope",
+        "construcao": "Velocidade 4 (60 km/h)."
       },
       {
         "nome": "Sentidos de Montaria",
-        "construcao": "Sentidos 2 (Visão na Penumbra, Olfato Aguçado)."
+        "construcao": "Sentidos 2 (Visão Estendida, Visão na Penumbra)."
       }
     ],
     "ataques": [
       {
         "nome": "Cascos",
-        "bonus": 3,
+        "bonus": 4,
         "dano": 4,
         "critico": 20
       }

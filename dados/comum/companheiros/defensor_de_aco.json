@@ -1,0 +1,110 @@
+{
+  "id": "defensor_de_aco",
+  "nome": "Defensor de aço",
+  "nivel_poder": 3,
+  "invocado": true,
+  "generos": [
+    "fantasia"
+  ],
+  "compra": {},
+  "descricao": "Constructo do tamanho de um cão grande, feito pelo artífice. Protege o dono e os aliados, não come, não dorme e não adoece.",
+  "fonte": "Criado para o projeto (regra da casa), com o efeito Invocar do Livro Básico (p. 111): Invocar 2 dá até 30 PP de criatura",
+  "ficha": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 0,
+      "Des": -2,
+      "Lut": 3,
+      "Int": -2,
+      "Pro": 1,
+      "Pre": -4
+    },
+    "defesas_compradas": {
+      "Esquiva": 2,
+      "Fortitude": 1,
+      "Vontade": 1
+    },
+    "pericias": {
+      "Percepção": 4
+    },
+    "vantagens": {
+      "Interpor-se": 1
+    },
+    "poderes": [
+      {
+        "id": "protecao",
+        "nome": "Proteção 1",
+        "custo": 1,
+        "ajustes": {
+          "Proteção": 1
+        },
+        "explicacao": "Placas de aço: +1 na Resistência (já somado na ficha)."
+      },
+      {
+        "id": "imunidade",
+        "nome": "Imunidade 5 (doenças, venenos, sono, sufocamento)",
+        "custo": 5,
+        "explicacao": "É de metal: não adoece, não se envenena, não dorme e não precisa respirar."
+      },
+      {
+        "id": "conserto",
+        "nome": "Cura 2 (Limitado: objetos e constructos)",
+        "custo": 2,
+        "explicacao": "Conserta armaduras, armas, fechaduras e outros constructos com uma ação padrão (teste de Cura do livro básico, graduação 2). Não cura gente."
+      },
+      {
+        "id": "sentidos",
+        "nome": "Sentidos 1 (Visão na Penumbra)",
+        "custo": 1,
+        "explicacao": "Vê na meia-luz sem penalidade."
+      }
+    ],
+    "ataques_naturais": [
+      {
+        "nome": "Golpe de aço",
+        "tipo": "corpo",
+        "efeito": 0,
+        "soma_forca": true,
+        "critico": 20
+      }
+    ]
+  },
+  "esperado": {
+    "habilidades": {
+      "For": 2,
+      "Vig": 2,
+      "Agi": 0,
+      "Des": -2,
+      "Lut": 3,
+      "Int": -2,
+      "Pro": 1,
+      "Pre": -4
+    },
+    "defesas": {
+      "Esquiva": 2,
+      "Aparar": 3,
+      "Fortitude": 3,
+      "Resistência": 3,
+      "Vontade": 2
+    },
+    "pericias": {
+      "Percepção": 5
+    },
+    "iniciativa": 0,
+    "ataques": {
+      "Golpe de aço": {
+        "bonus": 3,
+        "dano": 2
+      }
+    },
+    "custos": {
+      "habilidades": 0,
+      "defesas": 4,
+      "pericias": 2,
+      "vantagens": 1,
+      "poderes": 9
+    },
+    "total": 16
+  }
+}

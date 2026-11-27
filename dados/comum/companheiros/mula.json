@@ -1,0 +1,34 @@
+{
+  "id": "mula",
+  "nome": "Mula",
+  "nivel_poder": 3,
+  "montaria": true,
+  "generos": ["fantasia", "faroeste"],
+  "compra": {"fantasia": "burro", "faroeste": "mula"},
+  "descricao": "Animal de carga, forte e teimoso. Anda menos que o cavalo, mas aguenta mais peso e terreno ruim.",
+  "fonte": "Derivada do Cavalo do Guia do Mestre de Jogo, p. 223 (regra da casa): cavalo de carga com +1 For, como o Guia indica; Luta 1 e Velocidade 3 para caber no NP 3",
+  "ficha": {
+    "habilidades": {"For": 1, "Vig": 0, "Agi": 1, "Des": -4, "Lut": 1, "Int": -4, "Pro": 1, "Pre": -3},
+    "defesas_compradas": {"Esquiva": 3, "Aparar": 3, "Fortitude": 1},
+    "pericias": {"Percepção": 4},
+    "vantagens": {},
+    "poderes": [
+      {"id": "tamanho", "nome": "Crescimento 4 (Permanente, Inato)", "custo": 9,
+       "tamanho": {"efeito": "Crescimento", "graduacao": 4}},
+      {"id": "sentidos", "nome": "Sentidos 2 (Visão Estendida, Visão na Penumbra)", "custo": 2,
+       "explicacao": "Enxerga longe com menos penalidade de distância e vê na meia-luz (lua, tochas) sem penalidade. Na escuridão total, não vê."},
+      {"id": "velocidade", "nome": "Velocidade 3 (30 km/h)", "custo": 3,
+       "explicacao": "Anda a até 30 km/h. Não galopa como o cavalo, mas segue o grupo o dia inteiro com a carga."}
+    ],
+    "ataques_naturais": [{"nome": "Coice", "tipo": "corpo", "efeito": 0, "soma_forca": true, "critico": 20}]
+  },
+  "esperado": {
+    "habilidades": {"For": 5, "Vig": 4, "Agi": 1, "Des": -4, "Lut": 1, "Int": -4, "Pro": 1, "Pre": -3},
+    "defesas": {"Esquiva": 2, "Aparar": 2, "Fortitude": 5, "Resistência": 4, "Vontade": 1},
+    "pericias": {"Percepção": 5},
+    "iniciativa": 1,
+    "ataques": {"Coice": {"bonus": 1, "dano": 5}},
+    "custos": {"habilidades": -14, "poderes": 14, "vantagens": 0, "pericias": 2, "defesas": 7},
+    "total": 9
+  }
+}

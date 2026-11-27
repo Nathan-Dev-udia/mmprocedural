@@ -203,7 +203,7 @@ Pontos heroicos não acumulam de uma sessão para a outra.
 1. Escolha o **Ano Escolar / Nível de Poder (NP)** da campanha (padrão: **NP 2**, 30 PP, para alunos do 1º ou 2º ano). No site, o campo opcional **Nível da campanha**, no primeiro passo, faz todas as fichas da turma saírem no mesmo NP; o endereço do site com `?np=2` no fim já abre com ele preenchido.
 2. Escolha a sua **Casa** (Grifinória, Corvinal, Lufa-Lufa, Sonserina ou Sem Casa para adultos), que custa **2 PP** do orçamento e dá uma vantagem e +2 numa perícia temática.
 3. Escolha o seu **Perfil** (*Estudante* ou *Bruxo formado*) e a sua **Especialização** (*Duelista*, *Estudioso*, *Encrenqueiro / Explorador*, *Herbologista / Curandeiro*, *Jogador de Quadribol*, *Auror*, *Curandeiro* ou *Professor / Pesquisador*).
-4. Escolha a sua **Condição Financeira** (que define quantos Galeões iniciais você tem para comprar material, poções, vassoura e animal de estimação). No site, a coruja se compra no passo **Companheiro**: custa 15 G e 0 PP, e a ficha dela (NP 2) sai numa página à parte.
+4. Escolha a sua **Condição Financeira** (que define quantos Galeões iniciais você tem para comprar material, poções, vassoura e animal de estimação). No site, a coruja se compra no passo **Companheiro**: custa 15 G e 0 PP, e a ficha dela (NP 2) sai num PDF à parte, com botão próprio ao lado do PDF do personagem.
 5. Escolha os seus **Feitiços iniciais** dentro do **Arranjo Varinha**.
 6. Defina sua **Motivação**, pelo menos uma **Complicação** e preencha o seu **Mapa de Relacionamentos** (seção 11).
 
@@ -407,6 +407,18 @@ Sua condição financeira define com quantos Galeões você começa para comprar
 ### 12.3 Itens essenciais, poções e vassouras
 
 Todo personagem já começa levando **Uniforme e capa da escola**, **Kit de estudante** e sua **Varinha escolar** (comprados automaticamente do dinheiro inicial). Com o que sobrar, o gerador (ou você, no modo manual) compra livros, caldeirão, poções (*Poção Wiggenweld*, *Antídoto*, *Poção Estimulante*), itens mágicos (*Lembrol*, *Bisbilhotoscópio*, *Orelhas Extensíveis*) e **vassouras** (*Vassoura escolar* Velocidade 3, *Vassoura de passeio* Velocidade 4 ou *Vassoura de corrida* Velocidade 5). Confira todos os preços e pesos no **Apêndice**.
+
+### 12.4 Animais de estimação [Básico + Casa]
+
+A **coruja-correio** (15 G) se compra no passo **Companheiro** do site; o sorteio do estudante também costuma levar uma. Ela leva cartas, custa 0 PP e é do mestre: obedece ao aluno, mas não evolui. Se a coruja for uma companheira de verdade, que cresce com o aluno, escolha-a na segunda lista do mesmo passo, como **Parceiro** [Básico]: custa 4 PP (a vantagem Parceiro, 5 PP de ficha por graduação), é um personagem completo e melhora quando você gasta mais PP nela.
+
+| Animal | NP | Preço | Como Parceiro | Destaques |
+|----|----|----|----|----|
+| Coruja | 2 | 15 G | 4 PP | Voo 3 silencioso (30 km/h), enxerga no escuro, Percepção +8, Furtividade +12. |
+
+O **gato** do catálogo ainda não tem ficha: ele sai só como item, e o mestre usa a ficha de gato do Guia do Mestre de Jogo se ele entrar numa cena.
+
+**Na mesa.** O animal age na sua iniciativa. Dar uma ordem é a ação **Comandar**, uma ação de movimento; ordens simples ("ataque", "fique", "busque") ele entende sem teste. Os inimigos podem atacá-lo, e ele usa as defesas da própria ficha. A ficha de cada animal sai num **PDF à parte**, com um botão próprio ao lado do PDF do personagem (no DOCX e no TXT, vem depois da sua ficha), e explica cada poder e a regra da forma de posse.
 
 ---
 

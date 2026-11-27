@@ -761,6 +761,21 @@ Armas brancas e arremessadas **somam a sua Força ao dano**. Uma arma de madeira
 
 > **Força 0 pesa:** só as rações já são metade dos 15 kg de carga leve. Por isso o gerador começa os personagens com Força 1, exceto o Jogador de Pôquer e o Médico de Fronteira, que vivem na cidade. Sem cavalo, um personagem com Força 0 chega fácil à carga pesada.
 
+### 11.9 Cavalos, mulas e cães [Básico + Casa]
+
+Quase todo arquétipo já sai com um **cavalo** comprado pelo kit, quando o dinheiro dá; o trabalhador (\$75) não paga um cavalo de \$150. Há dois jeitos de ter um animal:
+
+- **Animal comprado:** o cavalo (\$150) ou a mula (\$50), no passo **Companheiro** do site, no kit ou em **Armas e itens**. Custa só dinheiro e 0 PP; o mestre controla o bicho, que obedece ao dono e não evolui.
+- **Parceiro** [Básico]: na segunda lista do mesmo passo, um cão, um cavalo ou uma mula que é seu de verdade. Custa 2 PP (a vantagem Parceiro, 5 PP de ficha por graduação), precisa caber no seu NP e melhora quando você compra mais graduações. É um personagem completo, não um capanga, e não tem pontos heroicos.
+
+| Animal | NP | Preço | Como Parceiro | Destaques |
+|----|----|----|----|----|
+| Cavalo | 3 | \$150 | 2 PP | 60 km/h, Cascos +2 (Dano 4). Assusta-se com tiros. |
+| Mula | 3 | \$50 | 2 PP | Forte, 30 km/h, Coice +1 (Dano 5). Leva mais carga. |
+| Cão | 2 | não se vende | 2 PP | Faro, rastreia, Mordida +2 (Dano 1). |
+
+**Na mesa.** O animal age na sua iniciativa. Dar uma ordem é a ação **Comandar**, uma ação de movimento; ordens simples ("ataque", "fique", "busque") ele entende sem teste. Os inimigos podem atacá-lo, e ele usa as defesas da própria ficha. A ficha de cada animal sai num **PDF à parte**, com um botão próprio ao lado do PDF do personagem (no DOCX e no TXT, vem depois da sua ficha), e explica cada poder e a regra da forma de posse. Para montar, galopar e atirar a cavalo, veja o quadro de Cavalgar no capítulo 8.
+
 ---
 
 ## 12. Arquétipos
@@ -769,7 +784,7 @@ Modelos prontos para começar rápido. Use como ponto de partida e ajuste ao seu
 
 No gerador do site, cada arquétipo tem também três **focos** (o duelista, o rastreador, o linha-dura...). O foco muda as prioridades e às vezes acrescenta uma vantagem ou uma arma. O apêndice no fim deste livro lista os focos e as armas e os itens que o gerador sorteia para cada arquétipo. O equipamento abaixo é a imagem típica do arquétipo. A ficha gerada pode vir diferente, conforme o sorteio e o dinheiro.
 
-Algumas opcionais abaixo (Capanga, Parceiro, Benefício) o gerador não sorteia, porque pedem uma ficha à parte ou uma decisão do mestre. Acrescente à mão, se fizer sentido.
+Algumas opcionais abaixo (Capanga, Parceiro, Benefício) o gerador não sorteia, porque pedem uma ficha à parte ou uma decisão do mestre. Acrescente à mão, se fizer sentido. A exceção é o Parceiro animal: escolha o bicho no passo **Companheiro** e o gerador faz a conta e a ficha dele.
 
 ### O Pistoleiro (*The Gunslinger*)
 
@@ -957,7 +972,7 @@ O site tem um montador de fichas **passo a passo** que aplica as regras deste li
 | **Arquétipo** | Escolha o arquétipo, o **foco**, o **NP** (de 2 a 10; o padrão é 6; travado no nível da campanha, se você preencheu) e a **condição financeira**. |
 | **Vantagens** | **Sortear de acordo com o arquétipo** (as essenciais do arquétipo e do foco, mais 0 a 2 opcionais) ou **Escolher** (as do arquétipo já vêm marcadas; o gerador só sobe graduações das que você marcar). |
 | **Armas e itens** | **Sortear** ou **Escolher**, com as sugestões do arquétipo no topo, um contador de dinheiro e o número de lotes de comida, bebida e munição. |
-| **Companheiro** | Opcional: compre um cavalo com o dinheiro que sobrou. Custa 0 PP, o mestre controla o animal e a ficha dele (NP 3) sai numa página à parte. |
+| **Companheiro** | Opcional: compre um cavalo ou uma mula com o dinheiro que sobrou. Custa 0 PP e o mestre controla o animal. A ficha dele (NP 3) sai num PDF à parte, com botão próprio ao lado do PDF do personagem. O animal que já vem no kit do seu arquétipo também ganha a ficha, mesmo com "Nenhum" aqui. Na segunda lista, escolha um cão, um cavalo ou uma mula como **Parceiro**: custa 2 PP e o animal é seu de verdade. |
 | **Complicações** | Escolha a Motivação e pelo menos mais uma complicação, ou clique em **Sortear complicações**. |
 | **Ficha** | Clique em **Gerar ficha**. Não gostou? **Gerar outra versão** refaz o sorteio com as mesmas escolhas. |
 

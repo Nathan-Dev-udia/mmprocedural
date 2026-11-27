@@ -1,0 +1,79 @@
+{
+  "id": "homunculo",
+  "nome": "Homúnculo",
+  "nivel_poder": 2,
+  "invocado": true,
+  "generos": [
+    "fantasia"
+  ],
+  "compra": {},
+  "descricao": "Criaturinha mecânica com asas de latão. Espia, leva recados e segura ferramentas; foge da luta.",
+  "fonte": "Criado para o projeto (regra da casa), com o efeito Invocar do Livro Básico (p. 111): Invocar 1 dá até 15 PP de criatura; ideia do modelo Familiar do Supernatural Handbook (p. 45)",
+  "ficha": {
+    "habilidades": {
+      "For": 0,
+      "Vig": 0,
+      "Agi": 2,
+      "Des": 1,
+      "Lut": 0,
+      "Int": 0,
+      "Pro": 1,
+      "Pre": -3
+    },
+    "defesas_compradas": {},
+    "pericias": {
+      "Furtividade": 2
+    },
+    "vantagens": {},
+    "poderes": [
+      {
+        "id": "tamanho",
+        "nome": "Encolhimento 4 (Permanente, Inato)",
+        "custo": 9,
+        "tamanho": {
+          "efeito": "Encolhimento",
+          "graduacao": 4
+        }
+      },
+      {
+        "id": "voo",
+        "nome": "Voo 2 (Asas)",
+        "custo": 2,
+        "explicacao": "Voa a até 8 km/h com asas de latão. Preso numa rede ou com uma asa quebrada, não voa."
+      }
+    ],
+    "ataques_naturais": []
+  },
+  "esperado": {
+    "habilidades": {
+      "For": -1,
+      "Vig": 0,
+      "Agi": 2,
+      "Des": 1,
+      "Lut": 0,
+      "Int": 0,
+      "Pro": 1,
+      "Pre": -3
+    },
+    "defesas": {
+      "Esquiva": 4,
+      "Aparar": 2,
+      "Fortitude": 0,
+      "Resistência": 0,
+      "Vontade": 1
+    },
+    "pericias": {
+      "Furtividade": 8
+    },
+    "iniciativa": 2,
+    "ataques": {},
+    "custos": {
+      "habilidades": 2,
+      "defesas": 0,
+      "pericias": 1,
+      "vantagens": 0,
+      "poderes": 11
+    },
+    "total": 14
+  }
+}

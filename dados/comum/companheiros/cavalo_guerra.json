@@ -1,0 +1,34 @@
+{
+  "id": "cavalo_guerra",
+  "nome": "Cavalo de guerra",
+  "nivel_poder": 4,
+  "montaria": true,
+  "generos": ["fantasia"],
+  "compra": {"fantasia": "cavalo_guerra"},
+  "descricao": "Cavalo treinado para a batalha: não se assusta com o barulho, morde e escoiceia no meio da luta.",
+  "fonte": "Derivado do Cavalo do Guia do Mestre de Jogo, p. 223 (regra da casa): Luta 4, como o Guia indica para cavalos de guerra, e Destemido (o treino), como o tipo Cavalo de guerra do gerador de NPCs",
+  "ficha": {
+    "habilidades": {"For": 0, "Vig": 0, "Agi": 1, "Des": -4, "Lut": 4, "Int": -4, "Pro": 1, "Pre": -3},
+    "defesas_compradas": {"Esquiva": 3, "Aparar": 2, "Fortitude": 1},
+    "pericias": {"Percepção": 4},
+    "vantagens": {"Destemido": 1},
+    "poderes": [
+      {"id": "tamanho", "nome": "Crescimento 4 (Permanente, Inato)", "custo": 9,
+       "tamanho": {"efeito": "Crescimento", "graduacao": 4}},
+      {"id": "sentidos", "nome": "Sentidos 2 (Visão Estendida, Visão na Penumbra)", "custo": 2,
+       "explicacao": "Enxerga longe com menos penalidade de distância e vê na meia-luz (lua, tochas) sem penalidade. Na escuridão total, não vê."},
+      {"id": "velocidade", "nome": "Velocidade 4 (60 km/h)", "custo": 4,
+       "explicacao": "Galopa a até 60 km/h. Para galopar por muito tempo, veja Forçar a montaria no livro do mestre."}
+    ],
+    "ataques_naturais": [{"nome": "Cascos", "tipo": "corpo", "efeito": 0, "soma_forca": true, "critico": 20}]
+  },
+  "esperado": {
+    "habilidades": {"For": 4, "Vig": 4, "Agi": 1, "Des": -4, "Lut": 4, "Int": -4, "Pro": 1, "Pre": -3},
+    "defesas": {"Esquiva": 2, "Aparar": 4, "Fortitude": 5, "Resistência": 4, "Vontade": 1},
+    "pericias": {"Percepção": 5},
+    "iniciativa": 1,
+    "ataques": {"Cascos": {"bonus": 4, "dano": 4}},
+    "custos": {"habilidades": -10, "poderes": 15, "vantagens": 1, "pericias": 2, "defesas": 6},
+    "total": 14
+  }
+}

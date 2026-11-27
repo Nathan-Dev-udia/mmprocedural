@@ -311,7 +311,7 @@ As **Condições Financeiras** do gerador determinam a mesada e o equipamento co
 | **Família tradicional (Benefício: Riqueza 1)** | **1 PP** | Começa com **200 Galeões**; permite comprar vassoura própria e poções extras logo no início do ano. |
 | **Linhagem muito rica (Benefício: Riqueza 2)** | **2 PP** | Começa com **600 Galeões**; acesso imediato a uma *Vassoura de corrida (modelo rápido)* e qualquer equipamento raro do catálogo. |
 
-**A coruja na ficha [Casa].** A coruja-correio (15 G) se compra no passo **Companheiro** do gerador. Não custa PP e o mestre a controla; a ficha dela sai numa página à parte (Guia do Mestre de Jogo, p. 224: NP 2, Voo 3 silencioso, Ultravisão, Percepção +8, Furtividade +12). Uma coruja que vira companheira de verdade, que cresce com o aluno, é a vantagem **Parceiro** (4 graduações).
+**A coruja na ficha [Casa].** A coruja-correio (15 G) se compra no passo **Companheiro** do gerador, ou vem no material sorteado do estudante. Não custa PP e o mestre a controla; a ficha dela sai num PDF à parte (Guia do Mestre de Jogo, p. 224: NP 2, Voo 3 silencioso, Ultravisão, Percepção +8, Furtividade +12). Uma coruja que vira companheira de verdade, que cresce com o aluno, é a vantagem **Parceiro** (4 graduações, 4 PP), que o aluno escolhe na segunda lista do mesmo passo.
 
 ---
 

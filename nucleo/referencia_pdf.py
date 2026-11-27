@@ -306,9 +306,10 @@ def gerar_pagina_do_companheiro(bloco, posse="", dono="", jogador=""):
     secao("Equipamento", [{"nome": e["nome"], "etiqueta": "", "linhas": [e["explicacao"]]}
                           for e in bloco.get("equipamento", [])])
     secao("Sobre o companheiro", [{"nome": bloco["nome"], "etiqueta": posse,
-                                   "linhas": [bloco["descricao"], f"Fonte: {bloco['fonte']}."]}])
+                                   "linhas": [bloco["descricao"], *([bloco["regra"]] if bloco.get("regra") else []),
+                                              f"Fonte: {bloco['fonte']}."]}])
     cabecalho = _desenhar_cabecalho("COMPANHEIRO:", bloco["nome"],
-                                    [("DONO:", dono), ("POSSE:", posse.split()[-1] if posse else ""),
+                                    [("DONO:", dono), ("POSSE:", posse.split(",")[0].split()[-1] if posse else ""),
                                      ("NÍVEL DE PODER:", bloco["np"])])
     doc.build(elementos, onFirstPage=cabecalho)
     return buf.getvalue()

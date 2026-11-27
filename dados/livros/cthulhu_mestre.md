@@ -282,7 +282,7 @@ Um caso clássico de *Chamado de Cthulhu* cabe perfeitamente numa estrutura de q
 Para manter o gênero fiel a investigadores humanos comuns nos anos 1920:
 
 - **Liberadas ao jogador na criação (67 vantagens):** todas as 33 de Combate, 18 de Perícia, 6 de Sorte e 10 Gerais disponíveis no *Livro do Jogador* (incluindo *Ataque Preciso*, *Bem Informado*, *Contatos*, *Duro de Matar*, *Esquiva Fabulosa*, *Rolamento Defensivo*, *Saque Rápido*, *Trabalho em Equipe* etc.).
-- **Tratadas por subsistemas próprios no gerador:** *Benefício* (representado pelos 6 patamares de Condição financeira / Crédito), *Equipamento* (substituído pelo orçamento em dólares do Guia do Mestre; NPCs do Bestiário e do gerador ainda usam *Equipamento* normalmente na ficha), *Capanga* e *Parceiro* (não sorteados automaticamente ao jogador, mas liberados a critério do Guardião caso um investigador contrate seguranças ou leve um cão farejador).
+- **Tratadas por subsistemas próprios no gerador:** *Benefício* (representado pelos 6 patamares de Condição financeira / Crédito), *Equipamento* (substituído pelo orçamento em dólares do Guia do Mestre; NPCs do Bestiário e do gerador ainda usam *Equipamento* normalmente na ficha), *Capanga* e *Parceiro* (não sorteados automaticamente ao jogador, mas liberados a critério do Guardião caso um investigador contrate seguranças ou leve um cão farejador; o cão como Parceiro, 2 PP, já pode ser escolhido no passo **Companheiro** do gerador).
 - **Excluídas do padrão de investigador:** *Artífice* e *Transe* (`Não combina` com o tom realista da década); e **Ritualista**, restrita a NPCs ocultistas (como o *Sumo Sacerdote*) ou a investigadores que desbravem tomos do Mythos durante a campanha `[Casa]`.
 
 ---

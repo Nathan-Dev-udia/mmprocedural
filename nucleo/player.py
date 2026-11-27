@@ -439,6 +439,70 @@ def _devolver_municao_sem_arma(dados, compras, troco):
     return [c for c in compras if c not in sobra], troco
 
 
+def _invocados(dados, ficha, np):
+    """[(criatura, poder instalado), ...] para os poderes de Invocar da ficha que trazem uma criatura."""
+    saida = []
+    for poder_id, poder in ficha["poderes"].items():
+        entrada = dados.get("poderes_do_genero", {}).get(poder_id) or {}
+        if entrada.get("companheiros"):
+            criatura = companheiros_mod.invocado_do_poder(entrada, poder.get("graduacao"), np)
+            if criatura:
+                saida.append((criatura, poder))
+    return saida
+
+
+def _fichas_dos_animais(dados, equipamento, pedido=None, parceiro=None, graduacao=0, invocados=()):
+    """As fichas dos animais comprados (companheiros.bloco + posse), o pedido no passo Companheiro primeiro.
+
+    O animal que veio no kit do arquétipo ou foi marcado em "Escolher" também ganha a página: o cavalo do
+    pistoleiro, do xerife e do cavaleiro. A barda do dono vai só na montaria."""
+    genero_id = dados["genero"]["id"]
+    catalogo = dados["equipamentos"]
+    animais = companheiros_mod.do_equipamento(equipamento, genero_id)
+    if pedido:
+        animais = [pedido] + [a for a in animais if a["id"] != pedido["id"]]
+    saida = []
+    for animal in animais:
+        item = companheiros_mod.item_de_compra(animal, genero_id)
+        barda = companheiros_mod.barda_do_equipamento(equipamento, catalogo, animal)
+        saida.append({**companheiros_mod.bloco(animal, barda), "posse": "Animal comprado", "custo_pp": 0,
+                      "item": item, "preco": catalogo[item]["preco"],
+                      "origem": "passo" if pedido and animal["id"] == pedido["id"] else "equipamento"})
+    if parceiro:
+        barda = companheiros_mod.barda_do_equipamento(equipamento, catalogo, parceiro)
+        saida.append({**companheiros_mod.bloco(parceiro, barda, "parceiro"), "custo_pp": graduacao, "item": None, "preco": None,
+                      "posse": f"Parceiro, {graduacao} graduaç{'ões' if graduacao > 1 else 'ão'}",
+                      "origem": "parceiro"})
+    for criatura, poder in invocados:
+        saida.append({**companheiros_mod.bloco(criatura, None, "invocado"), "custo_pp": poder["custo_informado"], "item": None,
+                      "preco": None, "posse": f"Invocado, {poder['nome_curto']}", "origem": "poder",
+                      "poder": poder["nome_curto"]})
+    return saida
+
+
+VANTAGEM_PARCEIRO = "Parceiro"
+
+
+def _parceiro(dados, parceiro_id, np):
+    """(ficha do animal, graduações de Parceiro) para o animal pedido como Parceiro; (None, 0) sem pedido.
+
+    Regras do Livro Básico (vantagem Parceiro, p. 85-86): 5 PP de ficha por graduação, o parceiro respeita o
+    nível de poder da série (aqui, o NP do personagem) e tem menos PP que o herói. Ele é um personagem completo
+    (não segue as regras de capanga), não tem pontos heroicos e só melhora com os PP do dono."""
+    if not parceiro_id:
+        return None, 0
+    animal = next((c for c in companheiros_mod.lista(dados["genero"]["id"]) if c["id"] == parceiro_id), None)
+    if animal is None:
+        raise GeneratorError(f"O animal '{parceiro_id}' não pode ser Parceiro neste gênero.")
+    if animal["nivel_poder"] > np:
+        raise GeneratorError(f"{animal['nome']} é NP {animal['nivel_poder']}: como Parceiro, ele precisa caber no NP "
+                             f"do personagem (NP {np}). Suba o NP ou escolha outro animal.")
+    total = companheiros_mod.relatorio(animal)["total_pp"]
+    if total >= rules.orcamento_de_jogador(np):
+        raise GeneratorError(f"{animal['nome']} tem {total} PP: o Parceiro precisa ter menos PP que o personagem.")
+    return animal, companheiros_mod.graduacao_da_vantagem(total, "parceiro")
+
+
 CATEGORIAS_DE_MONTARIA = ("Montaria", "Transporte")
 
 
@@ -936,7 +1000,8 @@ def _passos(dados, arquetipo, foco, vantagens_extras, so_vantagens_escolhidas, v
 
 def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
                      nome=None, jogador="", rng=None, equipamento=None, vantagens=None, implantes=None,
-                     raca=None, variante=None, divindade=None, panteao=None, companheiro=None):
+                     raca=None, variante=None, divindade=None, panteao=None, companheiro=None,
+                     parceiro=None):
     """Gera uma ficha de PJ.
 
     equipamento: {"modo": "auto"} (padrão) ou {"modo": "manual", "ids": [...], "excesso": "pontos" | "divida"}.
@@ -951,7 +1016,10 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
                  escolher_divindade). O dogma dela entra nas complicações.
     panteao:     id do panteão que limita o sorteio da divindade.
     companheiro: id de um animal comprado (companheiros.disponiveis). Custa dinheiro, não pontos de poder, e é o
-                 primeiro item pago. Sem pedido, nada muda: a ficha sai igual à de antes.
+                 primeiro item pago. Sem pedido, o equipamento não muda. Em qualquer caso, todo animal com ficha
+                 que acabar no equipamento (o pedido, o do kit ou o marcado em "Escolher") entra em "companheiros".
+    parceiro:    id de um animal (companheiros.parceiros) que vira a vantagem Parceiro: custa PP (graduação = PP
+                 de ficha do animal ÷ 5, arredondado para cima), não dinheiro. O gerador não sobe essa graduação.
     """
     arquetipo = _arquetipo(dados, arquetipo_id)
     config = dados["configuracoes"]
@@ -986,6 +1054,7 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
     tem_implantes = bool(implantes_do_jogador(dados))
     raca = _raca(dados, raca)
     animal, item_do_animal = _animal_comprado(dados, companheiro)
+    animal_parceiro, graduacao_parceiro = _parceiro(dados, parceiro, np)
 
     # Equipamento escolhido: confere os itens e, se passar do dinheiro, decide como pagar.
     manual_equipamento = equipamento.get("modo") == "manual"
@@ -1021,6 +1090,9 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
         extras = [v for v in arquetipo["vantagens_opcionais"] if v not in vantagens]
     if riqueza["beneficio"]:
         vantagens["Benefício (Riqueza)"] = riqueza["beneficio"]
+    # O animal escolhido como Parceiro fixa a graduação (e o gerador não a sobe; ver os passos abaixo).
+    if animal_parceiro:
+        vantagens[VANTAGEM_PARCEIRO] = graduacao_parceiro
     if rules.VANTAGEM_SORTE in vantagens:
         vantagens[rules.VANTAGEM_SORTE] = min(vantagens[rules.VANTAGEM_SORTE], max(1, rules.limite_de_sorte(np)))
 
@@ -1115,6 +1187,7 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
             f"orçamento de {orcamento} PP do NP {np}. Tire alguma coisa ou suba o NP.")
 
     passos = _passos(dados, arquetipo, foco, extras, manual_vantagens, vantagens, ficha, np)
+    passos = [p for p in passos if not (p["tipo"] == "vantagem" and rules.nome_base(p["nome"]) == VANTAGEM_PARCEIRO)]
     sem_poderes = orcamento - (poderes_mod.custo_total(ficha["poderes"]) or 0)
     ficha = escalar.subir(
         ficha, np, passos, dados["equipamentos"], rng,
@@ -1156,13 +1229,17 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
                   + f"Vantagens: {'escolhidas pelo jogador' if manual_vantagens else 'sorteadas pelo arquétipo'}.")
     if raca:
         observacao += f" Raça: {raca['nome']}."
-    ficha_do_animal = None
-    if animal:
-        item = dados["equipamentos"][item_do_animal]
-        barda = companheiros_mod.barda_do_equipamento(ficha["equipamento"], dados["equipamentos"])
-        ficha_do_animal = {**companheiros_mod.bloco(animal, barda), "posse": "Animal comprado", "custo_pp": 0,
-                           "item": item_do_animal, "preco": item["preco"]}
-        observacao += f" Companheiro: {animal['nome']} (animal comprado, sem custo em PP)."
+    fichas_dos_animais = _fichas_dos_animais(dados, [] if em_pontos else ficha["equipamento"], animal,
+                                             animal_parceiro, graduacao_parceiro, _invocados(dados, ficha, np))
+    if fichas_dos_animais:
+        def posse(a):
+            if a["origem"] == "parceiro":
+                return f"Parceiro, {a['custo_pp']} PP"
+            if a["origem"] == "poder":
+                return f"invocado pelo poder {a['poder']}"
+            return "animal comprado, sem custo em PP"
+        posses = ", ".join(f"{a['nome']} ({posse(a)})" for a in fichas_dos_animais)
+        observacao += f" {'Companheiros' if len(fichas_dos_animais) > 1 else 'Companheiro'}: {posses}."
     divindade_resumo = resumo_da_divindade(divindade) if divindade else None
     if divindade:
         observacao += f" Divindade: {divindade['nome']} ({divindade['panteao']['nome'].lower()})."
@@ -1200,7 +1277,7 @@ def gerar_personagem(dados, arquetipo_id, np, foco_id, riqueza_id, complicacoes,
         "pontos_de_equipamento": pontos_de_equipamento,
         "implantes": {"instalados": instalados, "fora": implantes_fora} if tem_implantes else None,
         "escolhas": escolhas,
-        "companheiro": ficha_do_animal,
+        "companheiros": fichas_dos_animais,
         "regras_validacao": regras,
         "ficha": ficha,
         "validacao": relatorio,

@@ -289,7 +289,7 @@ Ao fim de cada aventura, cada personagem ganha **1 ponto de poder** (2 se o desa
 
 > **Recomendação [Casa]:** use o equipamento gratuito. O faroeste gira em torno de dinheiro, recompensas e compras no armazém, e as tabelas de preços deste guia ficam com função real no jogo. Nesse caso, a vantagem Equipamento sai dos arquétipos (ou passa a representar um item excepcional).
 
-**O gerador do site** usa o equipamento gratuito: paga tudo em dólares, gasta exatamente 15 × NP em pontos e não sorteia as vantagens Equipamento, Capanga, Parceiro nem Benefício avulso. Todo personagem gerado leva rações para 5 dias, e o sorteio deixa parte do dinheiro no bolso. As regras completas do gerador estão no Livro do Jogador, seção 15.
+**O gerador do site** usa o equipamento gratuito: paga tudo em dólares, gasta exatamente 15 × NP em pontos e não sorteia as vantagens Equipamento, Capanga, Parceiro nem Benefício avulso (o jogador pode escolher um cão, um cavalo ou uma mula como Parceiro no passo **Companheiro**, por 2 PP). Todo personagem gerado leva rações para 5 dias, e o sorteio deixa parte do dinheiro no bolso. As regras completas do gerador estão no Livro do Jogador, seção 15.
 
 ---
 
@@ -526,7 +526,7 @@ A regra abaixo usa a mesma lógica do modificador **Multiataque** do livro bási
 - **Cavalgar:** montar, galopar e lutar a cavalo usam **Especialidade: Cavalgar** (Agilidade). Ficar na sela depois de um tiro, de um golpe forte ou de um salto: CD 10 a 20.
 - **Sem sela:** –2 em Cavalgar (montar em pelo).
 - **Montar e desmontar:** ação de movimento. Com Cavalgar CD 15, vira ação livre (pular na sela em fuga).
-- **A montaria é um personagem:** use a ficha do Cavalo (NP 3). Ela age na iniciativa do cavaleiro e obedece com uma ação de movimento (Comandar). O gerador imprime essa ficha numa página à parte quando o jogador escolhe o cavalo no passo **Companheiro**.
+- **A montaria é um personagem:** use a ficha do Cavalo (NP 3). Ela age na iniciativa do cavaleiro e obedece com uma ação de movimento (Comandar). O gerador dá essa ficha num PDF à parte, com botão próprio ao lado do PDF do personagem, sempre que ele tem o cavalo: o do kit do arquétipo (pistoleiro, caçador, xerife, fora-da-lei, médico e veterano compram um quando o dinheiro dá), o escolhido no passo **Companheiro** ou o marcado em **Armas e itens**. A **mula** (\$50) também tem ficha [Casa]: o cavalo de carga do Guia (+1 For), com Coice +1 (Dano 5), Velocidade 3 (30 km/h) e Luta 1 para caber no NP 3.
 - **Cavalo sem treino de combate:** cavalo comum e mula se assustam com tiros. No turno em que há tiroteio ou luta perto, o cavaleiro faz Cavalgar CD 10 (ação livre); se falhar, o animal não obedece nesse turno (empina ou recua). Cavalo de cavalaria, treinado para o fogo, não testa.
 - **Atacar a montaria:** os inimigos podem mirar no cavalo, que usa as defesas da própria ficha. Montaria incapacitada derruba o cavaleiro: Cavalgar ou Acrobacia CD 15 para saltar a tempo; se falhar, fica caído e sofre Dano 2 (a queda a galope).
 - **Rifle na sela:** sacar o rifle do coldre da sela é uma ação de movimento, como sacar qualquer arma.

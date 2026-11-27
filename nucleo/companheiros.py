@@ -22,6 +22,8 @@ PASTA = Path(__file__).resolve().parent.parent / "dados" / "comum" / "companheir
 
 # Livro básico, vantagens Parceiro (p. 85) e Capanga (p. 81): PP de ficha por graduação da vantagem.
 PONTOS_POR_GRADUACAO = {"parceiro": 5, "capanga": 15}
+# Livro Básico, efeito Invocar (p. 111): a criatura tem 15 PP por graduação.
+PONTOS_POR_GRADUACAO_DE_INVOCAR = 15
 
 
 def efeitos_de_tamanho(efeito, graduacao):
@@ -67,8 +69,26 @@ def carregar(companheiro_id):
         raise KeyError(f"Companheiro '{companheiro_id}' não existe.") from None
 
 
-def barda_do_equipamento(ids, catalogo):
-    """A barda (armadura da montaria) de maior Proteção entre os itens do dono, ou None."""
+def do_equipamento(ids, genero_id):
+    """Os companheiros cujo item de compra está no equipamento (ids), na ordem dos itens e sem repetir.
+
+    É assim que o animal comprado pelo kit ou em "Escolher" também ganha a página dele."""
+    por_item = {item_de_compra(c, genero_id): c for c in _todos().values() if item_de_compra(c, genero_id)}
+    vistos, saida = set(), []
+    for i in ids:
+        c = por_item.get(i)
+        if c and c["id"] not in vistos:
+            vistos.add(c["id"])
+            saida.append(c)
+    return saida
+
+
+def barda_do_equipamento(ids, catalogo, companheiro=None):
+    """A barda (armadura da montaria) de maior Proteção entre os itens do dono, ou None.
+
+    Com companheiro, só vale para montaria ("montaria": true no JSON): a barda não serve no cão."""
+    if companheiro is not None and not companheiro.get("montaria"):
+        return None
     bardas = [catalogo[i] for i in ids if catalogo.get(i, {}).get("protecao_da_montaria")]
     return max(bardas, key=lambda i: i["protecao_da_montaria"], default=None)
 
@@ -112,6 +132,34 @@ def graduacao_da_vantagem(total_pp, vantagem):
     return max(1, math.ceil(total_pp / PONTOS_POR_GRADUACAO[vantagem]))
 
 
+def parceiros(genero_id):
+    """Os animais que podem ser Parceiro neste gênero, com o custo em PP do herói (Livro Básico, p. 85-86).
+
+    Não precisam estar à venda: o Parceiro se paga com pontos, não com dinheiro. O lobo do patrulheiro é um."""
+    saida = []
+    for c in lista(genero_id):
+        if c.get("invocado"):
+            continue                      # o elemental e os constructos vêm de poderes, não da vantagem
+        total = relatorio(c)["total_pp"]
+        graduacao = graduacao_da_vantagem(total, "parceiro")
+        saida.append({"id": c["id"], "nome": c["nome"], "np": c["nivel_poder"], "descricao": c["descricao"],
+                      "total_pp": total, "graduacao": graduacao})
+    return saida
+
+
+def invocado_do_poder(entrada, graduacao, np):
+    """A criatura que um poder de Invocar traz (campo "companheiros" do powers.json), ou None.
+
+    Vale a primeira da lista que cabe no NP do dono e nos 15 PP por graduação do Invocar: o Mestre das feras
+    tem o lobo (NP 3) e, no NP 2, o cão."""
+    teto = PONTOS_POR_GRADUACAO_DE_INVOCAR * (graduacao or 0)
+    for companheiro_id in entrada.get("companheiros", []):
+        c = carregar(companheiro_id)
+        if c["nivel_poder"] <= np and relatorio(c)["total_pp"] <= teto:
+            return c
+    return None
+
+
 def item_de_compra(companheiro, genero_id):
     """Id do item de equipamento que representa a compra deste animal no gênero (None se não se compra lá)."""
     return (companheiro.get("compra") or {}).get(genero_id)
@@ -130,10 +178,23 @@ def disponiveis(dados):
     return saida
 
 
-def bloco(companheiro, barda=None):
+# Como cada forma de ter o bicho funciona na mesa (Livro Básico): vai na ficha, junto da descrição.
+REGRAS_POR_TIPO = {
+    "comprado": "Animal comprado: é do mestre e obedece ao dono com Comandar (ação de movimento). Não evolui.",
+    "parceiro": "Parceiro (vantagem, Livro Básico p. 85): personagem completo, leal ao dono, que costuma comandá-lo "
+                "(ação de movimento). Não é capanga e não tem pontos heroicos (o dono pode gastar os dele). Melhora "
+                "quando o dono compra mais graduações de Parceiro (+5 PP de ficha cada).",
+    "invocado": "Invocado (efeito Invocar, Livro Básico p. 111): aparece ao lado do dono com uma ação padrão e age "
+                "na iniciativa dele a partir da rodada seguinte, tonto (só uma ação padrão por rodada). Heroico: não "
+                "segue as regras de capanga. Incapacitado, some e só volta recuperado. Dar ordens é ação de movimento.",
+}
+
+
+def bloco(companheiro, barda=None, tipo="comprado"):
     """A ficha do companheiro pronta para exibir (PDF, DOCX, TXT e tela), calculada pelo validador.
 
     barda: item do catálogo (com "protecao_da_montaria") que o dono comprou; soma na Resistência do animal.
+    tipo: "comprado", "parceiro" ou "invocado"; acrescenta a regra de mesa dessa forma de ter o bicho.
     """
     rel = relatorio(companheiro, barda)
     valores = rel["valores"]
@@ -143,6 +204,7 @@ def bloco(companheiro, barda=None):
         "nome": companheiro["nome"],
         "np": companheiro["nivel_poder"],
         "descricao": companheiro["descricao"],
+        "regra": REGRAS_POR_TIPO.get(tipo, ""),
         "fonte": companheiro["fonte"],
         "habilidades": dict(valores["habilidades"]),
         "defesas": {d: valores["defesas"][d] for d in ordem},
@@ -200,6 +262,7 @@ def texto(b, posse=""):
     hab = " ".join(f"{h} {v:+d}" for h, v in b["habilidades"].items())
     defesas = ", ".join(f"{d} {v}" for d, v in b["defesas"].items())
     linhas = [f"COMPANHEIRO: {b['nome']} (NP {b['np']}){' · ' + posse if posse else ''}", b["descricao"],
+              *([b["regra"]] if b.get("regra") else []),
               f"Habilidades: {hab}", f"Defesas: {defesas}; Iniciativa {b['iniciativa']:+d}"]
     if b["pericias"]:
         linhas.append("Perícias: " + ", ".join(f"{p['nome']} {p['total']:+d}" for p in b["pericias"]))
